@@ -9,7 +9,7 @@ url: "http://ieeevis.cscheid.net" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 
-exclude: ['extra']
+exclude: ['extra', 'README.md']
 
 defaults:
   -
