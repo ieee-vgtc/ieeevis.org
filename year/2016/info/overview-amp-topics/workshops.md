@@ -34,7 +34,7 @@ The pedagogy of data visualization is becoming increasingly important as data vi
 
 Daniel Weiskopf (University of Stuttgart), Michael Burch (University of Stuttgart), Lewis Chuang (Max Planck Institute for Biological Cybernetics), Andrew Duchowski (Clemson University)
 
-Contact: weiskopf@visus.uni-stuttgart.edu
+Contact: weiskopf@visus.uni-stuttgart.de
 
 The pedagogy of data visualization is becoming increasingly important as data visualization techniques and tools proliferate. In this workshop, we propose to create a community of practice that supports each other as they learn to be better teachers in their respective classrooms. Based on the well attended panels at IEEE Vis in 2010 and 2015, there is a strong interest in the data visualization community for exploring the pedagogy of data visualization. We propose the conduct a half-day interactive workshop that will include lightning talks followed by a discussion on strategies to further sustain the community of practice of data visualization educators.
 
