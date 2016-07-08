@@ -2,7 +2,7 @@ all: site
 
 site:
 	jekyll build
-	s3cmd sync _site/ s3://cscheid-ieeevis-static/ --delete-removed
+	s3cmd sync _site/ s3://cscheid-ieeevis-static/ --delete-removed --no-mime-magic --guess-mime-type
 
 # sometimes you want to clean the entire bucket - especially when mimetypes change
 clean:
