@@ -30,10 +30,8 @@ exciting nightlife, cultural experiences and spectacular people-watching,
 Baltimore's Inner Harbor offers more to see and do than you can
 imagine.
 
-In order to make a reservation at the Hilton Baltimore under the
-conference rate, [click here](https://aws.passkey.com/g/64766701).
-
-
-
-
-
+The conference rate is $229/night plus 15.5% tax for single or double
+occupancy rooms. The cutoff date for reservations under this rate is
+September 21, 2016, at 5PM EDT. In order to make a reservation at the
+Hilton Baltimore under the conference rate,
+[click here](https://aws.passkey.com/g/64766701).
