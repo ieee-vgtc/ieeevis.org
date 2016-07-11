@@ -2,8 +2,8 @@ all: site
 
 site:
 	jekyll build
-	s3cmd sync _site/ s3://cscheid-ieeevis-static/ --delete-removed --no-mime-magic --guess-mime-type
+	cd _site && ../scripts/sync_with_s3.py cscheid-ieeevis-static
 
-# sometimes you want to clean the entire bucket - especially when mimetypes change
+# sometimes you might want to clean the entire bucket - but this can eat a lot of bandwidth. BEWARE
 clean:
-	s3cmd del --recursive --force s3://cscheid-ieeevis-static
+	aws s3 rm s3://cscheid-ieeevis-static/ --recursive
