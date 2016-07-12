@@ -29,6 +29,8 @@ VIS 2016 will also broadcast the videos on large video screens at the conference
   from the conference organizers if you do not have one.
   * name the video file  <track name>-<ID>, where ID is the number automatically assigned when you first submitted your work on PCS. If your video does not have an accompanying PCS submission, use track name for the name of the event and ID for your last name.(e.g., vast_paper-100.mp4, meetups-peterka.mp4)
 
+For questions or more information, please email [ff@ieeevis.org](mailto@ff@ieeevis.org).
+
 #### Video Fast Forwards Chairs
 
 * Tom Peterka, Argonne National Laboratory
