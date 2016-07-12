@@ -144,7 +144,7 @@ td.Panels > a		{ color: #f5aa32 }
 <tr></tr>
 <tr><td></td><td></td></tr>
 <tr><td rowspan="3">2:00pm-3:40pm</td></tr>
-<td rowspan="7" class="Workshops"><a href="vip">Visualization in Practice</a></td>
+<td rowspan="7" class="Workshops"><a href="workshops#vip">Visualization in Practice</a></td>
 <tr></tr>
 <tr></tr>
 <tr><td></td></tr>
