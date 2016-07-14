@@ -23,6 +23,7 @@ VIS 2016 will also broadcast the videos on large video screens at the conference
   * you must certify that any background audio is free from copyright or that you are licensed to use it.
 * Content:         
   * is appropriate in terms of rights, use of language, viewpoints or imagery and does not offend any individuals or groups at the conference or elsewhere (we reserve the right to reject videos whose content is inappropriate.
+  * does not include a title slide with the title of the work, authors, affiliations, etc. at the start of the video. We will add this to all videos in a consistent style.
 * Submission:
   * videos will be uploaded using the PCS submission website
   (http://precisionconference.com/~vgtc). Please request a PCS login
