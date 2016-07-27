@@ -5,7 +5,7 @@ permalink: /year/2016/info/registration/conference-registration
 contact: "web@ieeevis.org"
 ---
 
-**Early Registration** period for IEEE VIS 2015 is now **OPEN** until **Friday, September 9, 2016**. Late registration fees apply after that date.
+**Early Registration** period for IEEE VIS 2016 is now **OPEN** until **Friday, September 9, 2016**. Late registration fees apply after that date.
 
 <p align="center"><a href="http://www.cvent.com/d/2fqp0z"><img src="http://ieeevis.org/attachments/register.png" alt="Register for IEEE VIS 2016" width="150"></a></p>
 
