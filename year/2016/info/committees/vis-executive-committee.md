@@ -14,7 +14,7 @@ permalink: /year/2016/info/committees/vis-executive-committee
 | Tamara Munzner	| *University of British Columbia<br>(VEC Chair; InfoVis Steering Rep.)*
 | Hanspeter Pfister	| *Harvard University<br>(VGTC Director)*
 | Han-Wei Shen	| *Ohio State University<br>(SciVis Steering Rep.)*
-| Rachel Brady	| *Cisco Systems, Inc.<br>(Member at Large)*
+| Rachael Brady	| *Cisco Systems, Inc.<br>(Member at Large)*
 
 **Supporting Documentation**
 

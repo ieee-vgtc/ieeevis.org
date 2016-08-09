@@ -4,6 +4,10 @@ title: Welcome
 ---
 Welcome to **IEEE VIS 2016**!
 
+**VIS2016
+  [Conference](/year/2016/info/registration/conference-registration)
+  and [Hotel](/year/2016/info/registration/hotel-information) registration is now available online!**
+
 After ten years, we are excited to be returning to Baltimore,
 Maryland. Located on the mid-Atlantic coast, the city is easy to
 reach and has wonderful attractions as part of the Inner Harbor

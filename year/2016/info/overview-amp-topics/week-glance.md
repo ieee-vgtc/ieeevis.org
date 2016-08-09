@@ -18,6 +18,9 @@ td.InfoVis > a		{ color: #417367 }
 td.Panels > a		{ color: #f5aa32 }
 </style>
 
+**The week-at-a-glance for the days of Tuesday through Friday will be
+  coming soon, in mid-August.**
+
 ## Saturday (Oct 22, 2016)
 <table border="1">
 <tbody>
