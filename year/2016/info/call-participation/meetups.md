@@ -4,40 +4,42 @@ layout: main
 permalink: /year/2016/info/call-participation/meetups
 ---
 
-We invite you to submit proposals for informal meetups on all topics related to visualization, including scientific visualization, information visualization, visual analytics, and application areas.
+Do you want to meet people who share the same interest with you or
+just discuss a topic that you care about or that brings the
+visualization community forward? If yes, organize a meetup!
 
-Meetups (previously known as BOFs) are an excellent forum to discuss a wide range of topics related to visualization. For example, if you are an experienced researcher, consider submitting a proposal to share your knowledge in an informal setting with conference participants. Proposals devoted to a particular discipline's methods and cross disciplinary proposals are both welcome. For example, some recent meetups have included opportunities to discuss topics related to blogging about visualization, the BioVis contest, and the connection between art and science.
+### What is a meetup?
 
-VIS2016 is eager to expand its Meetup sessions and will consider proposals given room availability. Meetups are public and open to all attendees. Meetup organizers need to register at the conference.
+Meetups (previously known as BOFs) are an excellent forum to discuss a wide range of topics related to visualization. For example, if you are an experienced researcher, consider submitting a proposal to share your knowledge in an informal setting with conference participants. Proposals devoted to a particular discipline’s methods and cross disciplinary proposals are both welcome. For example, some recent meetups have included opportunities to discuss topics related to blogging about visualization, the connection between art and science, even organizing a joint bike trip (Velo Club de VIS). VIS2016 is eager to expand its meetup sessions and will consider proposals given room availability. Meetups are public and open to all attendees. Meetup organizers need to register at the conference.
 
-A meetup proposal should include:
+### What do you get?
+
+The meetup chairs will take care of reserving a room that fits your needs, finding a time slot, making sure that the equipment you need is there, help announcing the meetup via social media, and make sure that everything runs smoothly.
+
+### What information should a meetup proposal include?
 
 * a title,
 * a responsible person (name, contact information),
 * a brief description of the topic to be addressed,
-* prospective audience,
-* a foreseen number of participants,
+* prospective audience and a foreseen number of participants,
 * room equipment requirements and,
 * preferences and constraints for meetup schedule (if applicable).
 
-The proposal should be no longer than one page in total.
+### Who to contact and where to submit the proposals?
 
-Meetup proposals should be sent to the Meetup Chairs at [meetups@ieeevis.org](mailto:meetups@ieeevis.org).
+Submissions should be emailed to
+[meetups@ieeevis.org](mailto:meetups@ieeevis.org).
 
-Impromptu meetups: We also encourage impromptu meetups to be organized during the conference itself. Please contact the chairs by email or in person during the conference in order to secure a conference room and time slot.
+### When to submit?
 
-Networking: To find other people interested in VIS 2016 meetups on social media, please use the hashtag #vis2016meetup.
+| Early Submission Deadline | **Sunday, September 4, 2016** |
+| Notification | **Friday, September 9, 2016** |
 
-### IMPORTANT DATES
+Submissions after the deadline will be considered subject to room availability. Later submissions will be processed and notified within a couple of days. 
 
-| Submission Deadline	| **Sunday, September 4, 2016**<br/>Submissions after the deadline will be considered subject to room availability.<br>We also welcome on-site impromptu meetups. Please contact us in person or per email. 
-| Notification	| **Friday, September 9, 2016**<br>Later submissions will be processed and notified within a couple of days.<br>Onsite meetup requests will be processed asap. 
+We also encourage impromptu meetups to be organized during the conference itself. Please contact the chairs by email or in person during the conference in order to secure a conference room and time slot.
 
-### SUBMISSIONS
-
-Submissions should be emailed to [meetups@ieeevis.org](mailto:meetups@ieeevis.org).
-
-### CHAIRS
+### Chairs
 
 Kresimir Matkovic, *VRVis*  
 Abon Chaudhuri, *@WalmartLabs*  
