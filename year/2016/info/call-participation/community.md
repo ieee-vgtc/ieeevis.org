@@ -2,6 +2,7 @@
 title: VIS Community 2016
 layout: main
 permalink: /year/2016/info/call-participation/community
+contact: community@ieeevis.org
 ---
 
 One of our goals in organizing the Community activities at the main IEEE VIS conference is to support the next generation of visualization researchers by helping connect junior and more experienced researchers from the scientific visualization, information visualization and visual analytics communities. This starts with connecting those who have attended IEEE VIS before with those who may be new to the conference, and perhaps the community.
