@@ -15,7 +15,7 @@ the private key to access the spreadsheet from the script.
 
 import json
 import gspread
-from oauth2client.client import SignedJwtAssertionCredentials
+from oauth2client.service_account import ServiceAccountCredentials
 
 ##############################################################################
 # Data Loading
@@ -24,7 +24,7 @@ def load_credentials():
     json_key = json.load(open('files/service-account-key.json'))
     scope = ['https://spreadsheets.google.com/feeds']
 
-    credentials = SignedJwtAssertionCredentials(json_key['client_email'], json_key['private_key'].encode(), scope)
+    credentials = ServiceAccountCredentials(json_key['client_email'], json_key['private_key'].encode(), scope)
     return credentials
 
 def context(credentials):
