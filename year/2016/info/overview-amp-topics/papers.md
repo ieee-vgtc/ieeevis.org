@@ -22,7 +22,7 @@ permalink: /year/2016/info/overview-amp-topics/papers
 <br/>
 Authors: Filip Dabek, Jesus Caban
 
-**A Visual Analytics Approach for Categorical Joint Distribution Reconstruction from Marginal Projections**
+**A Visual Analytics Approach for Categorical Joint Distribution Reconstruction from Marginal Projections** -- **best paper nominee**
 <br/>
 Authors: Cong Xie, Wen Zhong, Klaus Mueller
 
@@ -30,7 +30,7 @@ Authors: Cong Xie, Wen Zhong, Klaus Mueller
 <br/>
 Authors: Quan Li, Peng Xu, Yeuk Yin Chan, Yun Wang, Zhipeng Wang, Huamin Qu, Xiaojuan Ma
 
-**An Analysis of Machine- and Human-Analytics in Classification**
+**An Analysis of Machine- and Human-Analytics in Classification** -- **best paper award**
 <br/>
 Authors: Gary K.L. Tam, Vivek Kothari, Min Chen
 
@@ -114,7 +114,7 @@ Authors: R. Jordan Crouser, Lyndsey Franklin, Alex Endert, Kristin Cook
 <br/>
 Authors: Mengchen Liu, Jiaxin Shi, Zhen Li, Chongxuan Li, Jun Zhu, Shixia Liu
 
-**ViDX: Visual Diagnostics of Assembly Line Performance in Smart Factories**
+**ViDX: Visual Diagnostics of Assembly Line Performance in Smart Factories** -- **best paper nominee**
 <br/>
 Authors: Panpan Xu, Honghui Mei, Liu Ren, Wei Chen
 

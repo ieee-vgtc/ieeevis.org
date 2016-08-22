@@ -188,3 +188,115 @@ td.Panels > a		{ color: #f5aa32 }
 <tr></tr>
 </tbody>
 </table>
+
+## Tuesday (Oct 25, 2016)
+
+<table border="1">
+<tbody>
+<tr>
+  <td></td>
+  <td>Key 1+2+5</td>
+  <td>Key 3+4+6</td>
+  <td>Holiday 4+5</td>
+  <td>Holiday 6</td>
+</tr>
+<tr>
+	<td>8:00am-8:30am</td>
+	<td colspan="2">VIS Welcome</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td rowspan="2">8:30am-10:10am</td>
+	<td colspan="2">VIS Keynote (8:30am-9:30am)</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td colspan="2">Fast Forward (Tue) (9:30-10:00)</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr><td colspan="5"></td></tr>
+<tr>
+	<td rowspan="2">10:30am-12:10pm</td>
+	<td rowspan="2">SciVis Intro + Biological, Molecular and Shape Visualization</td>
+	<td rowspan="2">Infovis Intro + Interaction</td>
+	<td rowspan="2">VAST Intro + Traffic and Urban Planning</td>
+	<td rowspan="2"></td>
+</tr>
+<tr></tr>
+<tr><td colspan="5"></td></tr>
+<tr>
+	<td rowspan="2">2:00pm-3:40pm</td>
+	<td rowspan="2">Design Studies and Evaluation</td>
+	<td rowspan="2">Immersive Analytics</td>
+	<td rowspan="2">Exploratory Analysis</td>
+	<td rowspan="2">(Panel) VIP - Transitioning Research into Re-useable Open Source or Commercial Software</td>
+</tr>
+<tr></tr>
+<tr><td colspan="5"></td></tr>
+<tr>
+	<td rowspan="2">4:15pm-5:55pm</td>
+	<td rowspan="2">Topology-based Techniques</td>
+	<td rowspan="2">Geovisualization</td>
+	<td rowspan="2">Machine Learning</td>
+	<td rowspan="2">Supporters Presentations</td>
+</tr>
+<tr></tr>
+<tr>
+	<td></td>
+	<td colspan="4">Fast Forward (Wed)</td>
+</tr>
+<tr>
+	<td></td>
+	<td colspan="4">Practitioners and Supporters Evening Event</td>
+</tr>
+</tbody>
+</table>
+
+<table border="1">
+<tbody>
+<tr><td></td><td>Key 7-12</td><td>Holiday 1+2+3</td><td>Key 7-12</td></tr>
+<tr>
+	<td rowspan="2">8:30am-10:10am</td>
+	<td rowspan="11">Posters</td>
+	<td rowspan="11">Art Program</td>
+	<td></td>
+</tr>
+<tr></tr>
+<tr><td></td><td rowspan="9">Exhibits + Interactive Demos (10:00am-6:00pm)</tr>
+<tr><td rowspan="2">10:30am-12:10pm</tr>
+<tr></tr>
+<tr><td></td></tr>
+<tr><td rowspan="2">2:00pm-3:40pm</tr>
+<tr></tr>
+<tr><td></td></tr>
+<tr><td rowspan="2">4:15pm-5:55pm</tr>
+<tr></tr>
+</tbody>
+</table>
+
+## Wednesday (Oct 26, 2016) 
+
+<table border="1">
+</table>
+
+<table border="1">
+</table>
+
+## Thursday (Oct 27, 2016)
+
+<table border="1">
+</table>
+
+<table border="1">
+</table>
+
+## Friday (Oct 28, 2016)
+
+<table border="1">
+</table>
+
+<table border="1">
+</table>
