@@ -265,14 +265,14 @@ td.Panels > a		{ color: #f5aa32 }
 	<td></td>
 </tr>
 <tr></tr>
-<tr><td></td><td rowspan="9">Exhibits + Interactive Demos (10:00am-6:00pm)</tr>
-<tr><td rowspan="2">10:30am-12:10pm</tr>
+<tr><td></td><td rowspan="9">Exhibits + Interactive Demos (10:00am-6:00pm)</td></tr>
+<tr><td rowspan="2">10:30am-12:10pm</td></tr>
 <tr></tr>
 <tr><td></td></tr>
-<tr><td rowspan="2">2:00pm-3:40pm</tr>
+<tr><td rowspan="2">2:00pm-3:40pm</td></tr>
 <tr></tr>
 <tr><td></td></tr>
-<tr><td rowspan="2">4:15pm-5:55pm</tr>
+<tr><td rowspan="2">4:15pm-5:55pm</td></tr>
 <tr></tr>
 </tbody>
 </table>
@@ -280,23 +280,175 @@ td.Panels > a		{ color: #f5aa32 }
 ## Wednesday (Oct 26, 2016) 
 
 <table border="1">
+<tbody>
+<tr>
+  <td></td>
+  <td>Key 1+2+5</td>
+  <td>Key 3+4+6</td>
+  <td>Holiday 4+5</td>
+  <td>Holiday 6</td>
+</tr>
+<tr>
+	<td rowspan="2">8:30am-10:10am</td>
+	<td rowspan="2">Ensembles, Multivariate and Comparative</td>
+	<td rowspan="2">Applications</td>
+	<td rowspan="2">Textual Data</td>
+	<td rowspan="2">VISAP Session 1</td>
+</tr>
+<tr></tr>
+<tr><td colspan="5"></td></tr>
+<tr>
+	<td rowspan="2">10:30am-12:10pm</td>
+	<td rowspan="2">(Panel) On the Death of Scientific Visualization</td>
+	<td rowspan="2">Evaluation</td>
+	<td rowspan="2">Managing Visual Analytic Process</td>
+	<td rowspan="2">(CG&A) Visualization Systems & Applications</td>
+</tr>
+<tr></tr>
+<tr><td colspan="5"></td></tr>
+<tr>
+	<td rowspan="2">2:00pm-3:40pm</td>
+	<td rowspan="2">SciVis Contest</td>
+	<td rowspan="2">Graphs</td>
+	<td rowspan="2">Biomedical Visualization (VAST)</td>
+	<td rowspan="2">(Panel) How data visualization and regulation meet
+	on the modern web</td>
+</tr>
+<tr></tr>
+<tr><td colspan="5"></td></tr>
+<tr>
+	<td rowspan="2">4:15pm-5:55pm</td>
+	<td colspan="4">Fast Forward (Thu & Fri)</td>
+</tr>
+<tr>
+    <td colspan="4">Posters + Networking + Hiring events, etc. (Details TBD)</td>
+</tr>
+<tr><td colspan="5"></td></tr>
+<tr><td></td><td colspan="4">VIS Banquet</td></tr>
+</tbody>
 </table>
 
 <table border="1">
+<tbody>
+<tr><td></td><td>Key 7-12</td><td>Holiday 1+2+3</td><td>Key 7-12</td></tr>
+<tr>
+	<td rowspan="2">8:30am-10:10am</td>
+	<td rowspan="11">Posters</td>
+	<td rowspan="11">Art Program</td>
+	<td rowspan="11">Exhibits + Interactive Demos (10:00am-6:00pm)</td>
+</tr>
+<tr></tr>
+<tr><td></td></tr>
+<tr><td rowspan="2">10:30am-12:10pm</td></tr>
+<tr></tr>
+<tr><td></td></tr>
+<tr><td rowspan="2">2:00pm-3:40pm</td></tr>
+<tr></tr>
+<tr><td></td></tr>
+<tr><td rowspan="2">4:15pm-5:55pm</td></tr>
+<tr></tr>
+</tbody>
 </table>
 
 ## Thursday (Oct 27, 2016)
 
 <table border="1">
+<tbody>
+<tr>
+  <td></td>
+  <td>Key 1+2+5</td>
+  <td>Key 3+4+6</td>
+  <td>Holiday 4+5</td>
+  <td>Holiday 6</td>
+</tr>
+<tr>
+	<td rowspan="2">8:30am-10:10am</td>
+	<td rowspan="2">Rendering</td>
+	<td rowspan="2">Storytelling / Presentation</td>
+	<td rowspan="2">Social Media Data and Events</td>
+	<td rowspan="2">VISAP Session #2</td>
+</tr>
+<tr></tr>
+<tr><td colspan="5"></td></tr>
+<tr>
+	<td rowspan="2">10:30am-12:10pm</td>
+	<td rowspan="2">Presentation, Production, and Dissemination</td>
+	<td rowspan="2">(Panel) How can we improve empirical research on
+	understanding visual information?</td>
+	<td rowspan="2">Complementing Visual and Algorithmic Analysis</td>
+	<td rowspan="2">(CG&A) Applied Visualization Techniques</td>
+</tr>
+<tr></tr>
+<tr><td colspan="5"></td></tr>
+<tr>
+	<td rowspan="2">2:00pm-3:40pm</td>
+	<td rowspan="2">(Panel) Application Papers: What are they and how
+	should they be evaluated?</td>
+	<td rowspan="2">Time Series</td>
+	<td rowspan="2">Visual Knowledge Discovery and Sense-Making</td>
+	<td rowspan="2">User Behaviors</td>
+</tr>
+<tr></tr>
+<tr><td colspan="5"></td></tr>
+<tr>
+	<td rowspan="2">4:15pm-5:55pm</td>
+	<td rowspan="2">Vectors and Tensors</td>
+	<td rowspan="2">Scalable Algorithms</td>
+	<td rowspan="2">Education and Games</td>
+	<td rowspan="2">(Panel) Pathways for Theoretical Advances in Visualization
+</tr>
+<tr></tr>
+<tr><td colspan="5"></td></tr>
+</tbody>
 </table>
 
 <table border="1">
+<tbody>
+<tr><td></td><td>Key 7-12</td><td>Holiday 1+2+3</td><td>Key 7-12</td></tr>
+<tr>
+	<td rowspan="2">8:30am-10:10am</td>
+	<td rowspan="11">Posters</td>
+	<td rowspan="11">Art Program</td>
+	<td rowspan="11">Exhibits + Interactive Demos (10:00am-6:00pm)</td>
+</tr>
+<tr></tr>
+<tr><td></td></tr>
+<tr><td rowspan="2">10:30am-12:10pm</td></tr>
+<tr></tr>
+<tr><td></td></tr>
+<tr><td rowspan="2">2:00pm-3:40pm</td></tr>
+<tr></tr>
+<tr><td></td></tr>
+<tr><td rowspan="2">4:15pm-5:55pm</td></tr>
+<tr></tr>
+</tbody>
 </table>
 
 ## Friday (Oct 28, 2016)
 
 <table border="1">
-</table>
-
-<table border="1">
+<tbody>
+<tr>
+  <td></td>
+  <td>Key 1+2+5</td>
+  <td>Key 3+4+6</td>
+  <td>Holiday 4+5</td>
+  <td>Holiday 6</td>
+</tr>
+<tr>
+	<td rowspan="2">8:30am-10:10am</td>
+	<td rowspan="2">Biomedical Visualization</td>
+	<td rowspan="2">Visualization Education</td>
+	<td rowspan="2">Time Series Data</td>
+	<td rowspan="2">(Panel) VISAP - Critical Visualization</td>
+</tr>
+<tr></tr>
+<tr><td colspan="5"></td>
+<tr>
+	<td rowspan="2">8:30am-10:10am</td>
+	<td colspan="4">VIS Capstone (10:30 - 11:30)</td>
+</tr>
+<tr>
+	<td colspan="4">VIS Closing (11:30 - 12:00)</td>
+</tr>
 </table>
