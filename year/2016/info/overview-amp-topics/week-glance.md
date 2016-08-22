@@ -18,9 +18,6 @@ td.InfoVis > a		{ color: #417367 }
 td.Panels > a		{ color: #f5aa32 }
 </style>
 
-**The week-at-a-glance for the days of Tuesday through Friday will be
-  coming soon, in mid-August.**
-
 ## Saturday (Oct 22, 2016)
 <table border="1">
 <tbody>
@@ -395,10 +392,9 @@ td.Panels > a		{ color: #f5aa32 }
 	<td rowspan="2">Vectors and Tensors</td>
 	<td rowspan="2">Scalable Algorithms</td>
 	<td rowspan="2">Education and Games</td>
-	<td rowspan="2">(Panel) Pathways for Theoretical Advances in Visualization
+	<td rowspan="2">(Panel) Pathways for Theoretical Advances in Visualization</td>
 </tr>
 <tr></tr>
-<tr><td colspan="5"></td></tr>
 </tbody>
 </table>
 
