@@ -1,13 +1,14 @@
 PRODUCTION_BUCKET=silly-test.website
 STAGING_BUCKET=silly-test.website
 
-all: site
+all: site metadata
 
 site:
 	jekyll build
 
 metadata:
 	./scripts/report_page_admins.py > data/contacts.json
+	./scripts/write_committee_html.py > _includes/committee_table.html
 
 production: site
 	cd _site && ../scripts/sync_with_s3.py $(PRODUCTION_BUCKET)

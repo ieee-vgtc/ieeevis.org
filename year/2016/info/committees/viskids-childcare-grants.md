@@ -2,6 +2,7 @@
 title: VisKids Child Care Grants
 layout: main
 permalink: /year/2016/info/committees/viskids-child-care-grants
+contact: viskids@ieeevis.org
 ---
 
 The VIS conference is excited to support our VISKids and young families!
@@ -43,12 +44,16 @@ Grants of up to $500 per family are available for VIS attendees who are bringing
 * Application form: coming soon
 * Deadline: coming soon
 
+### VisKids Community
+
+We share further information with the VISKids Community in an [online document](https://docs.google.com/document/d/1S5nkD4exOvY2hDn747RXfVjJCype4Co5iKYAutsT2WY/edit?usp=sharing). We invite you to participate and share your ideas and tips.
+
 ### Contact
 
 Please contact [VISKids@ieeevis.org](mailto:VISKids@ieeevis.org) with any questions about the
 childcare grants program.
  
-### Supporters
+### Support VISKids
 
 If you are interested in being a VISKids supporter, please contact [exhibits@ieeevis.org](mailto:exhibits@ieeevis.org).
  
