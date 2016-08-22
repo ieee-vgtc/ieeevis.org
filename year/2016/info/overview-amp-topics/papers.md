@@ -4,11 +4,13 @@ layout: main
 permalink: /year/2016/info/overview-amp-topics/papers
 ---
 
-* [VAST](#vast) ([journal papers](#vast-j), [conference papers](#vast-p))
-* [InfoVis](#infovis)
-* [SciVis](#scivis)
-* [TVCG](#tvcg)
-* [CGA](#cga)
+* [VAST](#vast) 
+  * [journal special issue papers](#vast-j)
+  * [conference papers](#vast-p)
+* [InfoVis](#infovis) (journal special issue papers)
+* [SciVis](#scivis) (journal special issue papers)
+* [TVCG](#tvcg) (previously published journal papers presented at VIS)
+* [CG&A](#cga) (previously published journal papers presented at VIS)
 
 <hr/>
 
