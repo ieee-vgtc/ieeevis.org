@@ -319,7 +319,7 @@ Authors: Kasper Dinkla, Hendrik Strobelt, Bryan Genest, Stephan Reiling, Mark Bo
 <br/>
 Authors: Wouter Meulemans, Jason Dykes, Aidan Slingsby, Cagatay Turkay, Jo Wood
 
-**Surprise! Bayesian Weighting of Spatio-Temporal Events**
+**Surprise! Bayesian Weighting for De-Biasing Thematic Maps**
 <br/>
 Authors: Michael Correll, Jeffrey Heer
 
