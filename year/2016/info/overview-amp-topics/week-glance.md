@@ -28,7 +28,7 @@ td.Panels > a		{ color: #f5aa32 }
   <td>Peale C</td>
 </tr>
 <tr>
-<td rowspan="3">8:30am-10:30am</td>
+<td rowspan="3">8:30am-10:10am</td>
 <td rowspan="15">Doctoral Colloquium (invitation-only), track 1</td>
 <td rowspan="15">Doctoral Colloquium (invitation-only), track 2</td>
 <td rowspan="15">Doctoral Colloquium (invitation-only), track 3</td>
@@ -62,7 +62,7 @@ td.Panels > a		{ color: #f5aa32 }
   <td>Holiday 6</td>
 </tr>
 <tr>
-<td rowspan="3">8:30am-10:30am</td>
+<td rowspan="3">8:30am-10:10am</td>
 <td rowspan="15" class="BioVis"><a href="http://biovis.net/2016/">BioVis</a></td>
 <td rowspan="15" class="LDAV"><a href="http://www.ldav.org/">LDAV</a></td>
 <td rowspan="15" class="VASTChallenge"><a href="http://vacommunity.org/VAST+Challenge+2016">VAST Challenge</a></td>
@@ -92,7 +92,7 @@ td.Panels > a		{ color: #f5aa32 }
   <td>Latrobe</td>
 </tr>
 <tr>
-<td rowspan="3">8:30am-10:30am</td>
+<td rowspan="3">8:30am-10:10am</td>
 <td rowspan="15" class="Workshops"><a href="workshops#etvis">ETVIS</a></td>
 <td rowspan="7" class="Tutorials"><a href="tutorials#information_theory">Information Theory in Visualization</a></td>
 <td rowspan="7" class="Tutorials"><a href="tutorials#flow">Feature-Based Flow Vis and Analysis</a></td>
@@ -130,7 +130,7 @@ td.Panels > a		{ color: #f5aa32 }
   <td>Holiday 6</td>
 </tr>
 <tr>
-<td rowspan="3">8:30am-10:30am</td>
+<td rowspan="3">8:30am-10:10am</td>
 <td rowspan="15" class="VizSec"><a href="http://vizsec.org/">VizSec</a></td>
 <td rowspan="15" class="VDS"><a href="http://www.visualdatascience.org/2016/">VDS</a></td>
 <td rowspan="15" class="BELIV"><a href="http://beliv.cs.univie.ac.at/">BELIV</a></td>
@@ -160,7 +160,7 @@ td.Panels > a		{ color: #f5aa32 }
   <td>Latrobe</td>
 </tr>
 <tr>
-<td rowspan="3">8:30am-10:30am</td>
+<td rowspan="3">8:30am-10:10am</td>
 <td rowspan="7" class="Tutorials"><a href="tutorials#highd">Visual Analytics for High-Dimensional Data</a></td>
 <td rowspan="15" class="Workshops"><a href="workshops#vis4dh">Visualization for the Digital Humanities</a></td>
 <td rowspan="7" class="Tutorials"><a href="tutorials#colortheory">Applying Color Theory to VIS</a></td>

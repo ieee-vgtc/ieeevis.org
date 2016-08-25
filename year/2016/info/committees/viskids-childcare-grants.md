@@ -41,8 +41,9 @@ Grants of up to $500 per family are available for VIS attendees who are bringing
 
 ### Application and deadline
 
-* Application form: coming soon
-* Deadline: coming soon
+* Application form: [https://goo.gl/forms/X3VfKkwb1LcaiND73](https://goo.gl/forms/X3VfKkwb1LcaiND73)
+* Deadline: September 7th, 2016
+* Notification: September 9th, 2016
 
 ### VisKids Community
 
