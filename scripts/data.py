@@ -21,10 +21,10 @@ from oauth2client.service_account import ServiceAccountCredentials
 # Data Loading
 
 def load_credentials():
-    json_key = json.load(open('files/service-account-key.json'))
     scope = ['https://spreadsheets.google.com/feeds']
-
-    credentials = ServiceAccountCredentials(json_key['client_email'], json_key['private_key'].encode(), scope)
+    credentials = ServiceAccountCredentials.from_json_keyfile_name(
+        'files/service-account-key.json',
+        scope)
     return credentials
 
 def context(credentials):
@@ -35,6 +35,9 @@ def load_sheet_by_name(gc, name):
     if len(result) == 0: raise Exception("Could not find '%s' sheet" % name)
     if len(result) > 1: raise Exception("Too many '%s' sheets" % name)
     return result[0]
+
+def get_spreadsheet(name):
+    return context(load_credentials()).open(name)
 
 ##############################################################################
 # Poor man's RDBMS
