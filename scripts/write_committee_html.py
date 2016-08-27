@@ -51,7 +51,7 @@ def add_committee(el, committee):
     for remaining_subconference, people_list in people.iteritems():
         add_people(people_list)
 
-gc = context(load_credentials()).open("VIS2016_roster_clean")
+gc = get_spreadsheet("VIS2016_roster_clean")
 people = load_sheet_by_name(gc, "People").get_all_records()
 roles =  load_sheet_by_name(gc, "Roles").get_all_records()
 
