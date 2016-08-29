@@ -7,6 +7,7 @@ import sys
 import json
 import hashlib
 import re
+import os
 
 try:
     target_bucket_name = sys.argv[1]
@@ -20,18 +21,21 @@ print "Syncing with", target_bucket_name
 
 ##############################################################################
 
+def call_aws(params):
+    return ['aws'] + params + ['--profile', os.environ["IEEEVIS_AWS_USER"]]
+
 def set_mimetype(obj, mime):
-    return ['aws', 's3api', 'copy-object', '--bucket', target_bucket_name, '--content-type', mime,
-            '--copy-source', target_bucket_name + '/' + obj, '--key', obj,
-            '--metadata-directive', 'REPLACE']
+    return call_aws(['s3api', 'copy-object', '--bucket', target_bucket_name, '--content-type', mime,
+                     '--copy-source', target_bucket_name + '/' + obj, '--key', obj,
+                     '--metadata-directive', 'REPLACE'])
 
 def find_files():
     return subprocess.check_output(['find', '.', '-type', 'f']).split()
 
 def bucket_info(bucket):
     """returns all the md5 values from the given s3 bucket."""
-    cmd = ['aws', 's3api', 'list-objects', '--bucket',
-           bucket, '--query', 'Contents[].{Key: Key, Size: Size, ETag: ETag}']
+    cmd = call_aws(['s3api', 'list-objects', '--bucket',
+                    bucket, '--query', 'Contents[].{Key: Key, Size: Size, ETag: ETag}'])
     if debug:
         print " ".join(cmd)
     result = subprocess.check_output(cmd)
@@ -75,10 +79,10 @@ def my_guess_mimetype(file_name):
         return magic.from_file(file_name, mime=True)
 
 def make_s3_cp_cmd(lst):
-    return [['aws', 's3', 'cp', l, target_bucket+l, '--content-type', my_guess_mimetype(l)] for l in lst]
+    return [call_aws(['s3', 'cp', l, target_bucket+l, '--content-type', my_guess_mimetype(l)]) for l in lst]
 
 def make_s3_rm_cmd(lst):
-    return [['aws', 's3', 'rm', target_bucket+l] for l in lst]
+    return [call_aws(['s3', 'rm', target_bucket+l]) for l in lst]
 
 ##############################################################################
 

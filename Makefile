@@ -1,5 +1,5 @@
-PRODUCTION_BUCKET=silly-test.website
-STAGING_BUCKET=silly-test.website
+PRODUCTION_BUCKET=ieeevis.com
+STAGING_BUCKET=staging.ieeevis.com
 
 all: site metadata
 
@@ -20,6 +20,14 @@ papers_program:
 	./scripts/write_program_html.py > data/program.md
 	cat data/program_front_matter.txt data/program.md > year/2016/info/overview-amp-topics/papers-sessions.md
 
-# sometimes you might want to clean the entire bucket - but this can eat a lot of bandwidth. BEWARE
-clean:
-	aws s3 rm s3://silly-test.website/ --recursive
+################################################################################
+# sometimes you might want to clean the entire bucket - but this can
+# eat a lot of bandwidth, and the website will be missing content for
+# a little while. BEWARE
+
+staging-clean:
+	aws s3 rm s3://$(STAGING_BUCKET)/ --recursive
+
+production-clean:
+	aws s3 rm s3://$(PRODUCTION_BUCKET)/ --recursive
+
