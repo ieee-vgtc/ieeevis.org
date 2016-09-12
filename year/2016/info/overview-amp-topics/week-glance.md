@@ -441,7 +441,7 @@ td.Panels > a		{ color: #f5aa32 }
 <tr></tr>
 <tr><td colspan="5"></td>
 <tr>
-	<td rowspan="2">8:30am-10:10am</td>
+	<td rowspan="2">10:30am-12:00pm</td>
 	<td colspan="4">VIS Capstone (10:30 - 11:30)</td>
 </tr>
 <tr>
