@@ -782,7 +782,7 @@
     {
         "class": "Silver",
         "href": "https://bocoup.com/",
-        "src": "/attachments/bocoup-data-vis-logo-vertical-2016.png",
+        "src": "/attachments/bocoup-datavis-logo-vertical-2016.png",
         "year": 2016
     },
     {
@@ -790,7 +790,7 @@
         "href": "http://www.kaust.edu.sa/",
         "src": "/attachments/supporters/tmp/kaust.png",
         "year": 2016
-    }
+    },
     {
 	"class": "Bronze",
 	"href": "http://elevenpeppers.com/",
@@ -838,6 +838,5 @@
         "href": "https://www.crcpress.com/",
         "src": "/attachments/supporters/tmp/CRC.png",
         "year": 2016
-    },
-    
+    }
 ]
