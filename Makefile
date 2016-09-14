@@ -16,6 +16,14 @@ production: site
 staging: site
 	cd _site && ../scripts/sync_with_s3.py $(STAGING_BUCKET)
 
+################################################################################
+
+autogen: papers_program panels
+
+panels:
+	./scripts/write_panels_md.py > data/panels.md
+	cat data/panels_front_matter.txt data/panels.md > year/2016/info/overview-amp-topics/panels.md
+
 papers_program:
 	./scripts/write_program_html.py > data/program.md
 	cat data/program_front_matter.txt data/program.md > year/2016/info/overview-amp-topics/papers-sessions.md

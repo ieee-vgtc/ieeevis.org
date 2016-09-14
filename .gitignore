@@ -5,3 +5,4 @@ _site/
 scripts/*.pyc
 files/
 data/program.md
+data/panels.md
