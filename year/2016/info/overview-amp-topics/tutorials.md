@@ -28,7 +28,7 @@ In this half-day tutorial (intermediate to advanced), we review a variety of app
 #### <a name="flow"></a>Recent Advancements of Feature-based Flow Visualization and Analysis
 
 SUNDAY, OCTOBER 23  
-8:30AM-12:10PM
+8:30AM-12:10PM  
 Location: Ruth
 
 Jun Tao (University of Notre Dame), Hanqi Guo (Argonne National Laboratory), Bei Wang (University of Utah), Christoph Garth (University of Kaiserslautern), Tino Weinkauf (KTH Stockholm)
@@ -38,7 +38,7 @@ Flow visualization has been a central topic in scientific visualization for many
 #### <a name="vad"></a>Visualization Analysis and Design
 
 SUNDAY, OCTOBER 23  
-2:00PM-5:15PM
+2:00PM-5:15PM  
 Location: Holiday 6
 
 Tamara Munzner (University of British Columbia)
@@ -48,7 +48,7 @@ This introductory tutorial will provide a broad foundation for thinking systemat
 #### <a name="humanvision"></a>Human Vision, Cognition and Visualization
 
 SUNDAY, OCTOBER 23  
-2:00PM-5:15PM
+2:00PM-5:15PM  
 Location: Ruth
 
 Bernice E. Rogowitz (Visual Perspectives Research and Consulting)
@@ -58,7 +58,7 @@ This course builds upon the foundation set by the IEEE Vis course “Human Visio
 #### <a name="sketching"></a>Sketching Designs for Data-Visualization using the Five Design-Sheet Methodology
 
 SUNDAY, OCTOBER 23  
-2:00PM-5:15PM
+2:00PM-5:15PM  
 Location: Latrobe
 
 Jonathan C. Roberts (Bangor University), Christopher Headleand (Bangor University), Panagiotis Ritsos (University of Chester)
