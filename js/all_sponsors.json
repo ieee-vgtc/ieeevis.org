@@ -732,15 +732,21 @@
         "year": 2015
     },
     {
-        "class": "Platinum",
-        "href": "http://www.nvidia.com/",
-        "src": " /attachments/supporters/tmp/NVLogo_2D.PNG",
+        "class": "Diamond",
+        "href": "http://www.nsf.gov/",
+        "src": "/attachments/supporters/tmp/nsf_t.png",
         "year": 2016
     },
     {
         "class": "Diamond",
-        "href": "http://www.nsf.gov/",
-        "src": "/attachments/supporters/tmp/nsf_t.png",
+        "href": "http://www.tableausoftware.com/",
+        "src": "/attachments/supporters/tmp/tab.png",
+        "year": 2016
+    },
+    {
+        "class": "Platinum",
+        "href": "http://www.nvidia.com/",
+        "src": " /attachments/supporters/tmp/NVLogo_2D.PNG",
         "year": 2016
     },
     {
@@ -756,9 +762,33 @@
         "year": 2016
     },
     {
+        "class": "Silver",
+        "href": "https://uncharted.software/",
+        "src": "/attachments/supporters/tmp/Uncharted-rgb-Vertical_27Aug2015.png",
+        "year": 2016
+    },
+    {
+        "class": "Silver",
+        "href": "http://iacs.seas.harvard.edu/",
+        "src": "/attachments/supporters/tmp/iacs.png",
+        "year": 2016
+    },
+    {
+        "class": "Silver",
+        "href": "https://bocoup.com/",
+        "src": "/attachments/bocoup-data-vis-logo-vertical-2016.png",
+        "year": 2016
+    },
+    {
 	"class": "Bronze",
 	"href": "http://elevenpeppers.com/",
 	"src": "/attachments/supporters/eleven_peppers.png",
+	"year": 2016
+    },
+    {
+        "class": "NonProfit/Small Company/Startup",
+        "href": "http://www.act.org/",
+        "src": "/attachments/supporters/tmp/ACT-logo-Blue-cmyk.png",
 	"year": 2016
     },
     {
@@ -785,4 +815,5 @@
 	"src": "/attachments/supporters/tmp/Springer_cmyk.png",
 	"year": 2016
     }
+    
 ]
