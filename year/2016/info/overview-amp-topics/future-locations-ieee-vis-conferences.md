@@ -4,7 +4,7 @@ layout: main
 permalink: /year/2016/info/overview-amp-topics/future-locations-ieee-vis-conferences
 ---
 
-**2017, South-West region (USA)**.  
+**Oct 1-6 2017, Phoenix (USA)**.  
 General Chair: Jim Ahrens, *Los Alamos National Laboratory*
 
 **2018, Berlin (Germany)**.  
