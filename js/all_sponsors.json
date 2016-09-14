@@ -756,6 +756,12 @@
         "year": 2016
     },
     {
+        "class": "Gold",
+        "href": "http://www.intel.com/",
+        "src": "/attachments/supporters/tmp/intel_2015.png",
+        "year": 2016
+    },
+    {
         "class": "Silver",
         "href": "http://www.adobe.com/",
         "src": "/attachments/supporters/tmp/adobe_2015.png",
@@ -780,10 +786,22 @@
         "year": 2016
     },
     {
+        "class": "Silver",
+        "href": "http://www.kaust.edu.sa/",
+        "src": "/attachments/supporters/tmp/kaust.png",
+        "year": 2016
+    }
+    {
 	"class": "Bronze",
 	"href": "http://elevenpeppers.com/",
 	"src": "/attachments/supporters/eleven_peppers.png",
 	"year": 2016
+    },
+    {
+        "class": "Silver",
+        "href": "http://www.disneyresearch.com/",
+        "src": "/attachments/supporters/tmp/DR.png",
+        "year": 2016
     },
     {
         "class": "NonProfit/Small Company/Startup",
@@ -814,6 +832,12 @@
 	"href": "http://www.springer.com/",
 	"src": "/attachments/supporters/tmp/Springer_cmyk.png",
 	"year": 2016
-    }
+    },
+    {
+        "class": "Publisher",
+        "href": "https://www.crcpress.com/",
+        "src": "/attachments/supporters/tmp/CRC.png",
+        "year": 2016
+    },
     
 ]
