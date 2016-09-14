@@ -2,6 +2,7 @@
 title: Tutorials
 layout: main
 permalink: /year/2016/info/overview-amp-topics/tutorials
+contact: "tutorials@ieeevis.org"
 ---
 
 * [Information Theory in Visualization](#informationtheory)
