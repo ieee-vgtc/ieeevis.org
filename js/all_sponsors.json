@@ -792,16 +792,22 @@
         "year": 2016
     },
     {
+        "class": "Silver",
+        "href": "http://www.disneyresearch.com/",
+        "src": "/attachments/supporters/tmp/DR.png",
+        "year": 2016
+    },
+    {
 	"class": "Bronze",
 	"href": "http://elevenpeppers.com/",
 	"src": "/attachments/supporters/eleven_peppers.png",
 	"year": 2016
     },
     {
-        "class": "Silver",
-        "href": "http://www.disneyresearch.com/",
-        "src": "/attachments/supporters/tmp/DR.png",
-        "year": 2016
+	"class": "Bronze",
+	"href": "http://rstudio.com/",
+	"src": "/attachments/supporters/tmp/RStudio.png",
+	"year": 2016
     },
     {
         "class": "NonProfit/Small Company/Startup",
