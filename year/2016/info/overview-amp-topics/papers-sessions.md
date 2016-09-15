@@ -157,7 +157,7 @@ Authors: Pavol Klacansky, Julien Tierny, Hamish Carr, and Zhao Geng
 **4:15-5:55**  
 **Room: Holiday 4+5**  
 *VAST: Machine Learning*  
-*Session Chair: Torsten Moller*  
+*Session Chair: Torsten Moeller*  
 
 **Squares: Supporting Interactive Performance Analysis for Multiclass Classifiers (J)**  
 Authors: Donghao Ren, Saleema Amershi, Bongshin Lee, Jina Suh, and Jason D. Williams
