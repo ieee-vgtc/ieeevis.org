@@ -28,7 +28,7 @@ Authors: Bilal Alsallakh and Liu Ren
 **10:30-12:10**  
 **Room: Holiday 4+5**  
 *VAST: Traffic and Urban Planning*  
-*Session Chair: TBD*  
+*Session Chair: Tatiana von Landesberger*  
 
 **SmartAdP: Visual Analytics of Large-scale Taxi Trajectories for Selecting Billboard Locations (J)**  
 Authors: Dongyu Liu, Di Weng, Yuhong Li, Jie Bao, Yu Zheng, Huamin Qu, and Yingcai Wu
@@ -48,7 +48,7 @@ Authors: Thomas Ortner, Johannes Sorger, Harald Steinlechner, Gerd Hesina, Haral
 **10:30-12:10**  
 **Room: Key 1+2+5**  
 *SciVis: Biological, Molecular and Shape Visualization*  
-*Session Chair: TBD*  
+*Session Chair: Christoph Heinz *  
 
 **Molecular Surface Maps (J)**  
 Authors: Michael Krone, Florian Frieß, Katrin Scharnowski, Guido Reina, Silvia Fademrecht, Tobias Kulschewski, Jürgen Pleiss, and Thomas Ertl
@@ -91,7 +91,7 @@ Authors: Evanthia Dimara, Anastasia Bezerianos, and Pierre Dragicevic
 **2:00-3:40**  
 **Room: Holiday 4+5**  
 *VAST: Exploratory Analysis*  
-*Session Chair: TBD*  
+*Session Chair: Remco Chang*  
 
 **Visualizing Dimension Coverage to Support Exploratory Analysis (J)**  
 Authors: Ali Sarvghad, Melanie Tory, and Narges Mahyar
@@ -114,7 +114,7 @@ Authors: Sriram Karthik Badam, Fereshteh Amini, Niklas Elmqvist, Pourang Irani
 **2:00-3:40**  
 **Room: Key 1+2+5**  
 *SciVis: Design Studies and Evaluation*  
-*Session Chair: TBD*  
+*Session Chair: Helwig Hauser*  
 
 **Visualization as Seen Through its Research Paper Keywords (J)**  
 Authors: Petra Isenberg, Tobias Isenberg, Michael Sedlmair, Jian Chen, and Torsten Möller
@@ -137,7 +137,7 @@ Authors: Soumya Dutta, Chun-Ming Chen, Gregory Heinlein, Han-Wei Shen, and Jen-P
 **4:15-5:55**  
 **Room: Key 1+2+5**  
 *SciVis: Topology-based Techniques*  
-*Session Chair: TBD*  
+*Session Chair: Bei Wang*  
 
 **Topological Analysis of Inertial Dynamics (J)**  
 Authors: Antoni Sagristà Sellés, Stefan Jordan, Andreas Just, Fábio Dias, Gustavo Nonato, and Filip Sadlo
@@ -157,7 +157,7 @@ Authors: Pavol Klacansky, Julien Tierny, Hamish Carr, and Zhao Geng
 **4:15-5:55**  
 **Room: Holiday 4+5**  
 *VAST: Machine Learning*  
-*Session Chair: TBD*  
+*Session Chair: Torsten Moller*  
 
 **Squares: Supporting Interactive Performance Analysis for Multiclass Classifiers (J)**  
 Authors: Donghao Ren, Saleema Amershi, Bongshin Lee, Jina Suh, and Jason D. Williams
@@ -200,7 +200,7 @@ Authors: Quirijn W. Bouts, Tim Dwyer, Jason Dykes, Bettina Speckmann, Sarah Good
 **8:30-10:10**  
 **Room: Key 1+2+5**  
 *SciVis: Ensembles, Multi-variate and Comparative*  
-*Session Chair: TBD*  
+*Session Chair: Kristi Potter*  
 
 **Decal-maps: Real-Time Layering of Decals on Surfaces for Multivariate Visualization (J)**  
 Authors: Allan Rocha, Usman Alim, Julio Daniel Silva, and Mario Costa Sousa
@@ -246,7 +246,7 @@ Authors: Rafael Veras and Christopher Collins
 **8:30-10:10**  
 **Room: Holiday 4+5**  
 *VAST: Textual Data*  
-*Session Chair: TBD*  
+*Session Chair: Christopher Andrews*  
 
 **NameClarifier: A Visual Analytics System for Author Name Disambiguation (J)**  
 Authors: Qiaomu Shen, Tongshuang Wu, Haiyan Yang, Yanhong Wu, Huamin Qu, and Weiwei Cui
@@ -292,7 +292,7 @@ Authors: Trevor Hogan, Uta Hinrichs, Eva Hornecker
 **10:30-12:10**  
 **Room: Holiday 6**  
 *CG&A: (CG&A) Visualization Systems & Applications*  
-*Session Chair: TBD*  
+*Session Chair: Theresa-Marie Rhyne*  
 
 **Key-Node-Separated Graph Clustering and Layouts for Human Relationship Graph Visualization (J)**  
 Authors: Takayuchi Itoh, Karsten Klein
@@ -315,7 +315,7 @@ Authors: Alina Freund, Nazli Yonca Aydin, Dirk Zeckzer, Hans Hagen
 **10:30-12:10**  
 **Room: Holiday 4+5**  
 *VAST: Managing Visual Analytics Process*  
-*Session Chair: TBD*  
+*Session Chair: Brian Fisher*  
 
 **Characterizing Guidance in Visual Analytics (J)**  
 Authors: Davide Ceneda, Theresia Gschwandtner, Thorsten May, Silvia Miksch, Hans-Jörg Schulz, Marc Streit, and Christian Tominski
@@ -338,7 +338,7 @@ Authors: Nicola Pezzotti, Boudewijn P.F. Lelieveldt, Laurens van der Maaten, Tho
 **2:00-3:40**  
 **Room: Holiday 4+5**  
 *VAST: Biomedical Visualization (VAST)*  
-*Session Chair: TBD*  
+*Session Chair: David Gotz*  
 
 **AnaFe: Visual Analytics of Image-derived Temporal Features – Focusing on the Spleen (J)**  
 Authors: Ievgeniia Gutenko, Konstantin Dmitriev, Arie E. Kaufman, and Matthew A. Barish
@@ -381,7 +381,7 @@ Authors: Corinna Vehlow, Fabian Beck, Daniel Weiskopf
 **8:30-10:10**  
 **Room: Holiday 4+5**  
 *VAST: Social Media Data and Events*  
-*Session Chair: TBD*  
+*Session Chair: Andreas Kerren*  
 
 **D-Map: Visual Analysis of Ego-centric Information Diffusion Patterns in Social Media (C)**  
 Authors: Siming Chen, Shuai Chen, Zhenhuang Wang, Jie Liang, Xiaoru Yuan, Nan Cao, Yadong Wu
@@ -427,7 +427,7 @@ Authors: Connor C. Gramazio, David H. Laidlaw, and Karen B. Schloss
 **8:30-10:10**  
 **Room: Key 1+2+5**  
 *SciVis: Rendering*  
-*Session Chair: TBD*  
+*Session Chair: Jens Kruger*  
 
 **Correlated Photon Mapping for Interactive Global Illumination of Time-Varying Volumetric Data (J)**  
 Authors: Daniel Jönsson and Anders Ynnerman
@@ -450,7 +450,7 @@ Authors: Kui Wu, Aaron Knoll, Benjamin J Isaac, Hamish Carr, and Valerio Pascucc
 **10:30-12:10**  
 **Room: Holiday 6**  
 *CG&A: (CG&A) Applied Visualization Techniques*  
-*Session Chair: TBD*  
+*Session Chair: Melanie Tory*  
 
 **Episogram: Visual Summarization of Egocentric Social Interactions (J)**  
 Authors: Nan Cao, Yuru Lin, Fan Du
@@ -473,7 +473,7 @@ Authors: Yosuke Onoue, Nobuyuki Kukimoto, Naohisa Sakamoto, Kazuo Misue, Koji Ko
 **10:30-12:10**  
 **Room: Key 1+2+5**  
 *SciVis: Presentation, Production, and Dissemination*  
-*Session Chair: TBD*  
+*Session Chair: Daniel Keefe*  
 
 **Vol2velle: Printable Interactive Volume Visualization (J)**  
 Authors: Sergej Stoppel and Stefan Bruckner
@@ -496,7 +496,7 @@ Authors: Danielle Albers Szafir, Alper Sarikaya, Michael Gleicher
 **10:30-12:10**  
 **Room: Holiday 4+5**  
 *VAST: Complementing Visual and Algorithmic Analysis*  
-*Session Chair: TBD*  
+*Session Chair: Ross Maciejewski*  
 
 **AxiSketcher: Interactive Nonlinear Axis Mapping of Visualizations through User Drawings (J)**  
 Authors: Bum Chul Kwon, Hannah Kim, Emily Wall, Jaegul Choo, Haesun Park, and Alex Endert
@@ -519,7 +519,7 @@ Authors: Jing Xia, Wei Chen, Yumeng Hou, Wanqi Hu, Xinxin Huang, David Ebert
 **2:00-3:40**  
 **Room: Holiday 4+5**  
 *VAST: Visual Knowledge Discovery and Sensemaking*  
-*Session Chair: TBD*  
+*Session Chair: Hans-Jorg Schulz*  
 
 **Annotation Graphs: A Graph-Based Visualization for Meta-Analysis of Data based on User-Authored Annotations (J)**  
 Authors: Jian Zhao, Michael Glueck, Simon Breslav, Fanny Chevalier, and Azam Khan
@@ -542,7 +542,7 @@ Authors: Johannes Weissenböck, Artem Amirkhanov, Eduard Gröller, Johann Kastne
 **2:00-3:40**  
 **Room: Holiday 6**  
 *VAST: User Behaviors*  
-*Session Chair: TBD*  
+*Session Chair: Jonathan Roberts*  
 
 **Visual Analytics for Mobile Eye Tracking (J)**  
 Authors: Kuno Kurzhals, Marcel Hlawatsch, Christof Seeger, and Daniel Weiskopf
@@ -608,7 +608,7 @@ Authors: Matthew Berger, Katherine McDonough, and Lee M. Seversky
 **4:15-5:55**  
 **Room: Holiday 4+5**  
 *VAST: Education and Games*  
-*Session Chair: TBD*  
+*Session Chair: Michael Sedlmair*  
 
 **Visual Analysis of MOOC Forums with iForum (J)**  
 Authors: Siwei Fu, Jian Zhao, Weiwei Cui, and Huamin Qu
@@ -628,7 +628,7 @@ Authors: Qing Chen, Yuanzhe Chen, Dongyu Liu, Conglei Shi, Yingcai Wu, Huamin Qu
 **4:15-5:55**  
 **Room: Key 1+2+5**  
 *SciVis: Vectors and Tensors*  
-*Session Chair: TBD*  
+*Session Chair: David Laidlaw*  
 
 **Glyphs for General Second-Order 2D and 3D Tensors (J)**  
 Authors: Tim Gerrits, Christian Rössl, and Holger Theisel
@@ -648,7 +648,7 @@ Authors: Jonathan Palacios, Harry Yeh, Wenping Wang, Yue Zhang, Robert S. Larame
 **8:30-10:10**  
 **Room: Key 1+2+5**  
 *SciVis: Biomedical Visualization*  
-*Session Chair: TBD*  
+*Session Chair: Ivan Viola*  
 
 **PelVis: Atlas-based Surgical Planning for Oncological Pelvic Surgery (J)**  
 Authors: Noeska Smit, Kai Lawonn, Annelot Kraima, Marco DeRuiter, Hessam Sokooti, Stefan Bruckner, Elmar Eisemann, and Anna Vilanova
@@ -688,7 +688,7 @@ Authors: Mona Hosseinkhani Loorak, Charles Perin, Christopher Collins, and Sheel
 **8:30-10:10**  
 **Room: Holiday 4+5**  
 *VAST: Time Series Data*  
-*Session Chair: TBD*  
+*Session Chair: Jessie Kennedy*  
 
 **ViDX: Visual Diagnostics of Assembly Line Performance in Smart Factories (J)**  
 Authors: Panpan Xu, Honghui Mei, Liu Ren, and Wei Chen
