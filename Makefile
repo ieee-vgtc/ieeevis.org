@@ -1,7 +1,7 @@
 PRODUCTION_BUCKET=ieeevis.com
 STAGING_BUCKET=staging.ieeevis.com
 
-all: site metadata
+all: site metadata autogen
 
 site:
 	jekyll build
