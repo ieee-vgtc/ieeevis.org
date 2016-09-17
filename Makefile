@@ -11,22 +11,26 @@ metadata:
 	./scripts/write_committee_html.py > _includes/committee_table.html
 
 production: site
-	cd _site && ../scripts/sync_with_s3.py $(PRODUCTION_BUCKET)
+	cd _site && ../scripts/sync_with_s3_boto.py $(PRODUCTION_BUCKET)
 
 staging: site
-	cd _site && ../scripts/sync_with_s3.py $(STAGING_BUCKET)
+	cd _site && ../scripts/sync_with_s3_boto.py $(STAGING_BUCKET)
 
 ################################################################################
 
-autogen: papers_program panels
+autogen: papers_program panels posters
 
 panels:
-	./scripts/write_panels_md.py > data/panels.md
-	cat data/panels_front_matter.txt data/panels.md > year/2016/info/overview-amp-topics/panels.md
+	./scripts/write_panels_md.py > data/autogen/panels.md
+	cat data/panels_front_matter.txt data/autogen/panels.md > year/2016/info/overview-amp-topics/panels.md
+
+posters:
+	./scripts/write_posters_md.py > data/autogen/posters.md
+	cat data/posters_front_matter.txt data/autogen/posters.md > year/2016/info/overview-amp-topics/posters.md
 
 papers_program:
-	./scripts/write_program_html.py > data/program.md
-	cat data/program_front_matter.txt data/program.md > year/2016/info/overview-amp-topics/papers-sessions.md
+	./scripts/write_program_md.py > data/autogen/program.md
+	cat data/program_front_matter.txt data/autogen/program.md > year/2016/info/overview-amp-topics/papers-sessions.md
 
 ################################################################################
 # sometimes you might want to clean the entire bucket - but this can
@@ -39,3 +43,5 @@ staging-clean:
 production-clean:
 	aws s3 rm s3://$(PRODUCTION_BUCKET)/ --recursive
 
+autogen-clean:
+	rm data/autogen/*

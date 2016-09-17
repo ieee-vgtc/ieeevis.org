@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 """
-Write program to HTML from the Google Spreadsheet.
+Write program to MD from the Google Spreadsheet.
 
 Carlos Scheidegger and Sam Gratzl, 2016
 
@@ -23,6 +23,7 @@ import sys
 gc = get_spreadsheet("VIS2016 Program")
 records = load_sheet_by_name(gc, "Program").get_all_records()
 sessions = load_sheet_by_name(gc, "Sessions").get_all_records()
+awards = dict((award["paper-id"], award) for award in load_sheet_by_name(gc, "Awards").get_all_records())
 session_dict = dict((session["Name"], session) for session in sessions)
 
 def guess_venue(session):
@@ -51,6 +52,15 @@ def paper_type(paper):
         return "T"
     return "J"
 
+def award_string(award):
+    if award is None:
+        return ""
+    if award["type"] == 'Honorable Mention':
+        return " *(Best Paper Honorable Mention)*"
+    if award["type"] == 'Award':
+        return " *(Best Paper Award)*"
+    raise Exception("Could not recognize award type '%s'" % award["type"])
+
 def render_session(session, out):
     name = session["Key"]
     venue = venue_name[guess_venue(session)]
@@ -61,7 +71,8 @@ def render_session(session, out):
     out.write("*Session Chair: %s*  \n" % (session_dict[name]["Chair"]))
     out.write("\n")
     for paper in session["Value"]:
-        out.write(("**%s (%s)**  \n" % (paper["Title"], paper_type(paper))).encode("utf-8"))
+        award = awards.get(paper["ID"], None)
+        out.write(("**%s (%s)**%s  \n" % (paper["Title"], paper_type(paper), award_string(award))).encode("utf-8"))
         out.write(("Authors: %s\n" % paper["Author list"]).encode("utf-8"))
         out.write("\n")
     out.write("<hr/>\n\n")
