@@ -13,7 +13,7 @@ permalink: /year/2016/info/overview-amp-topics/papers-sessions
 **Visualization by Demonstration: An Interaction Paradigm for Visual Data Exploration (J)**  
 Authors: Bahador Saket, Hannah Kim, Eli T. Brown, and Alex Endert
 
-**Vega-Lite: A Grammar of Interactive Graphics (J)**  
+**Vega-Lite: A Grammar of Interactive Graphics (J)** *(Best Paper Award)*  
 Authors: Arvind Satyanarayan, Dominik Moritz, Kanit Wongsuphasawat, and Jeffrey Heer
 
 **HindSight: Encouraging Exploration through Direct Encoding of Personal Interaction History (J)**  
@@ -82,7 +82,7 @@ Authors: Wesley Willett, Yvonne Jansen, and Pierre Dragicevic
 **A Study of Layout, Rendering, and Interaction Methods for Immersive Graph Visualization (T)**  
 Authors: Oh-Hyun Kwon, Chris Muelder, Kyungwon Lee, Kwan-Liu Ma
 
-**The Attraction Effect in Information Visualization (J)**  
+**The Attraction Effect in Information Visualization (J)** *(Best Paper Honorable Mention)*  
 Authors: Evanthia Dimara, Anastasia Bezerianos, and Pierre Dragicevic
 
 <hr/>
@@ -102,7 +102,7 @@ Authors: Michael Behrisch, Benjamin Bach, Michael Hund, Michael Delz, Laura von 
 **A Grammar-based Approach for Modeling User Interactions and Generating Suggestions During the Data Exploration Process (J)**  
 Authors: Filip Dabek and Jesus J Caban
 
-**A Visual Analytics Approach for Categorical Joint Distribution Reconstruction from Marginal Projections (J)**  
+**A Visual Analytics Approach for Categorical Joint Distribution Reconstruction from Marginal Projections (J)** *(Best Paper Honorable Mention)*  
 Authors: Cong Xie, Wen Zhong, and Klaus Mueller
 
 **Supporting Visual Exploration for Multiple Users in Large Display Environments (C)**  
@@ -128,7 +128,7 @@ Authors: Fabio Miranda, Harish Doraiswamy, Marcos Lage, Kai Zhao, Bruno Gonçalv
 **Visualization and Extraction of Carvings for Heritage Conservation (J)**  
 Authors: Kai Lawonn, Erik Trostmann, Bernhard Preim, and Klaus Hildebrandt
 
-**In Situ Distribution Guided Analysis and Visualization of Transonic Jet Engine Simulations (J)**  
+**In Situ Distribution Guided Analysis and Visualization of Transonic Jet Engine Simulations (J)** *(Best Paper Honorable Mention)*  
 Authors: Soumya Dutta, Chun-Ming Chen, Gregory Heinlein, Han-Wei Shen, and Jen-Ping Chen
 
 <hr/>
@@ -142,7 +142,7 @@ Authors: Soumya Dutta, Chun-Ming Chen, Gregory Heinlein, Han-Wei Shen, and Jen-P
 **Topological Analysis of Inertial Dynamics (J)**  
 Authors: Antoni Sagristà Sellés, Stefan Jordan, Andreas Just, Fábio Dias, Gustavo Nonato, and Filip Sadlo
 
-**Jacobi Fiber Surfaces for Bivariate Reeb Space Computation (J)**  
+**Jacobi Fiber Surfaces for Bivariate Reeb Space Computation (J)** *(Best Paper Award)*  
 Authors: Julien Tierny and Hamish Carr
 
 **Backward Finite-Time Lyapunov Exponents in Inertial Flows (J)**  
@@ -162,7 +162,7 @@ Authors: Pavol Klacansky, Julien Tierny, Hamish Carr, and Zhao Geng
 **Squares: Supporting Interactive Performance Analysis for Multiclass Classifiers (J)**  
 Authors: Donghao Ren, Saleema Amershi, Bongshin Lee, Jina Suh, and Jason D. Williams
 
-**An Analysis of Machine- and Human-Analytics in Classification (J)**  
+**An Analysis of Machine- and Human-Analytics in Classification (J)** *(Best Paper Award)*  
 Authors: Gary K. L. Tam, Vivek Kothari, and Min Chen
 
 **Multi-Resolution Climate Ensemble Parameter Analysis with Nested Parallel Coordinates Plots (J)**  
@@ -188,7 +188,7 @@ Authors: Yifan Zhang and Ross Maciejewski
 **Small Multiples with Gaps (J)**  
 Authors: Wouter Meulemans, Jason Dykes, Aidan Slingsby, Cagatay Turkay, and Jo Wood
 
-**Map LineUps: effects of spatial structure on graphical inference (J)**  
+**Map LineUps: effects of spatial structure on graphical inference (J)** *(Best Paper Honorable Mention)*  
 Authors: Roger Beecham, Jason Dykes, Wouter Meulemans, Aidan Slingsby, Cagatay Turkay, and Jo Wood
 
 **Visual Encoding of Dissimilarity Data via Topology-Preserving Map Deformation (T)**  
@@ -274,7 +274,7 @@ Authors: Shixia Liu, Jialun Yin, Xiting Wang, Weiwei Cui, Kelei Cao, Jian Pei
 **Evaluation of Graph Sampling: A Visualization Perspective (J)**  
 Authors: Yanhong Wu, Nan Cao, Daniel Archambault, Qiaomu Shen, Huamin Qu, and Weiwei Cui
 
-**Many-to-Many Geographically-Embedded Flow Visualisation: An Evaluation (J)**  
+**Many-to-Many Geographically-Embedded Flow Visualisation: An Evaluation (J)** *(Best Paper Honorable Mention)*  
 Authors: Yalong Yang, Tim Dwyer, Sarah Goodwin, and Kim Marriott
 
 **An Evaluation of Visual Search Support in Maps (J)**  
@@ -429,7 +429,7 @@ Authors: Connor C. Gramazio, David H. Laidlaw, and Karen B. Schloss
 *SciVis: Rendering*  
 *Session Chair: Jens Kruger*  
 
-**Correlated Photon Mapping for Interactive Global Illumination of Time-Varying Volumetric Data (J)**  
+**Correlated Photon Mapping for Interactive Global Illumination of Time-Varying Volumetric Data (J)** *(Best Paper Honorable Mention)*  
 Authors: Daniel Jönsson and Anders Ynnerman
 
 **A Versatile and Efficient GPU Data Structure for Spatial Indexing (J)**  
@@ -690,7 +690,7 @@ Authors: Mona Hosseinkhani Loorak, Charles Perin, Christopher Collins, and Sheel
 *VAST: Time Series Data*  
 *Session Chair: Jessie Kennedy*  
 
-**ViDX: Visual Diagnostics of Assembly Line Performance in Smart Factories (J)**  
+**ViDX: Visual Diagnostics of Assembly Line Performance in Smart Factories (J)** *(Best Paper Honorable Mention)*  
 Authors: Panpan Xu, Honghui Mei, Liu Ren, and Wei Chen
 
 **Shape Grammar Extraction for Efficient Query-by-Sketch Pattern Matching in Long Time Series (C)**  

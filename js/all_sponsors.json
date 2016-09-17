@@ -762,6 +762,12 @@
         "year": 2016
     },
     {
+        "class": "Gold",
+        "href": "http://research.microsoft.com/",
+        "src": "/attachments/supporters/tmp/MSR_t.png",
+        "year": 2016
+    },
+    {
         "class": "Silver",
         "href": "http://www.adobe.com/",
         "src": "/attachments/supporters/tmp/adobe_2015.png",
@@ -798,6 +804,18 @@
         "year": 2016
     },
     {
+        "class": "Silver",
+        "href": "https://www.nlm.nih.gov/",
+        "src": "/attachments/supporters/2016/nlm.png",
+        "year": 2016
+    },
+    {
+        "class": "Silver",
+        "href": "https://www.mica.edu/",
+        "src": "/attachments/supporters/2016/mica.png",
+        "year": 2016
+    },
+    {
 	"class": "Bronze",
 	"href": "http://elevenpeppers.com/",
 	"src": "/attachments/supporters/eleven_peppers.png",
@@ -810,9 +828,27 @@
 	"year": 2016
     },
     {
+	"class": "Bronze",
+	"href": "http://www.capdigital.com/en/",
+	"src": "/attachments/supporters/2016/cap_digital.png",
+	"year": 2016
+    },
+    {
+        "class": "Bronze",
+        "href": "http://www.google.com/",
+        "src": "/attachments/supporters/tmp/google2015.png",
+        "year": 2016
+    },
+    {
         "class": "NonProfit/Small Company/Startup",
         "href": "http://www.act.org/",
         "src": "/attachments/supporters/tmp/ACT-logo-Blue-cmyk.png",
+	"year": 2016
+    },
+    {
+        "class": "NonProfit/Small Company/Startup",
+        "href": "http://www.sentimetrix.com/",
+        "src": "/attachments/supporters/2016/sentimetrix.png",
 	"year": 2016
     },
     {
@@ -825,6 +861,12 @@
 	"class": "Academic",
 	"href": "http://www.vrvis.at/",
 	"src": "/attachments/supporters/tmp/vrvis_t.png",
+	"year": 2016
+    },
+    {
+	"class": "Academic",
+	"href": "http://citi.clemson.edu/viz/",
+	"src": "/attachments/supporters/2016/clemson_ccit.png",
 	"year": 2016
     },
     {
