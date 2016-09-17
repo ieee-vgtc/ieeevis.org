@@ -4,5 +4,5 @@ _site/
 .sass-cache/
 scripts/*.pyc
 files/
-data/program.md
-data/panels.md
+data/autogen/
+
