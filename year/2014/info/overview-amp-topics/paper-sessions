@@ -1,0 +1,1078 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/sites/default/files/favicon.png" type="image/x-icon" />
+		<title>IEEE VIS 2014</title>
+    <!--<title>Paper Sessions | IEEE VIS 2014</title>-->
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/modules/cck/theme/content-module.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/modules/ctools/css/ctools.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/modules/date/date.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/modules/date/date_popup/themes/datepicker.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/modules/date/date_popup/themes/timeentry.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/modules/filefield/filefield.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/misc/farbtastic/farbtastic.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/modules/cck/modules/fieldgroup/fieldgroup.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/themes/visweek/style.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/themes/visweek/menutree.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/themes/visweek/visweek.year.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/themes/visweek/visweek.week.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/themes/visweek/visweek.day.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/themes/visweek/visweek.popup.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/themes/visweek/visweek.login.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/themes/visweek/visweek.twig.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/themes/visweek/visweek.gowri.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/themes/visweek/visweek.session.css" />
+<link type="text/css" rel="stylesheet" media="print" href="/sites/ieeevis.org/themes/visweek/print.css" />
+    <script type="text/javascript" src="/misc/jquery.js"></script>
+<script type="text/javascript" src="/misc/drupal.js"></script>
+<script type="text/javascript" src="/sites/ieeevis.org/themes/visweek/js/slide.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/" });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (Drupal.jsEnabled) { $(document).ready(function() { $('body').addClass('yui-skin-sam'); } ); };
+//--><!]]>
+</script>
+            <script type="text/javascript" src="http://ieeevis.org/sites/all/themes/year/js/jquery_cookie_plugin.js"></script>
+    <script type="text/javascript" src="http://ieeevis.org/sites/all/themes/year/js/leftsidebar.js"></script>
+    <script> jQuery(function(){
+        jQuery('#left-nav').collapsibleNav();
+        });
+     </script>
+    <!--[if lt IE 7]>
+      <link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/themes/visweek/fix-ie.css" />     
+    <![endif]-->
+  </head>
+  <body onload="init()" class="sidebars" >
+<!--[if IE]><div id="IEroot"><![endif]-->
+<!-- Layout -->
+          <div id="header-region" class="clear-block">
+       <div id="header_bar" class="clear-block"><div id="block-block-3" class="clear-block block block-block">
+<!--
+-->
+  <div class="content"><div id="header_text">9 - 14 NOVEMBER 2014, PARIS, FRANCE</div><img src="http://ieeevis.org//tmp/VIS-webbanner2014-header.jpg"></div>
+</div>
+</div>
+  </div>
+    <div id="wrapper">
+    <div id="container" class="clear-block">
+      <div id="header">
+        <div id="logo-floater">
+                </div>
+
+                                                    
+      </div> <!-- /header -->
+              <div id="sidebar-left" class="sidebar">
+<div style="width:40%;padding:5%;float:left">
+<iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fieeevis&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:21px;" allowTransparency="true"></iframe>
+</div>
+<div style="width:40%;padding:5%;margin-left:50%;text-align:right">
+<a href="https://twitter.com/ieeevis" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @ieeevis</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+                    <div id="block-block-1" class="clear-block block block-block">
+<!--
+-->
+  <div class="content"><div id="left-nav"><div class="welcome-leftbar" ><div class="menu-title"><a href="http://ieeevis.org" target="_self">Welcome</a></div><br /></div><div class="menu-title"><a href="http://ieeevis.org/attachments/vis14-finalprogram.pdf">Full Conference Program</a></div><br /><div class="menu-title"><a href="http://ieeevis.org/year/2014/info/overview-amp-topics/conference-glance">At-a-Glance Schedule</a></div><div><br /></div><div id="session-leftbar" ><h3 class="menu-title" id="menu-title" style="color:#e00020">IEEE VIS Sessions</h3><ol class="link-leftbar"><li><a href="http://ieeevis.org/year/2014/info/overview-amp-topics/keynote-and-capstone" target="_self" style="color:#c00000">Keynote and Capstone</a></li><br  /><li><a href="http://ieeevis.org/year/2014/info/overview-amp-topics/paper-sessions" target="_self" style="color:#c00000">Paper Sessions</a></li><br  /><li><a href="http://ieeevis.org/year/2014/info/overview-amp-topics/accepted-posters" target="_self" style="color:#c00000">Accepted Posters</a></li><br  /><li><a href="http://ieeevis.org/year/2014/info/overview-amp-topics/accepted-workshops" target="_self" style="color:#c00000">Workshops</a></li><br  /><li><a href="http://ieeevis.org/year/2014/info/overview-amp-topics/accepted-panels" target="_self" style="color:#c00000">Panels</a></li><br  /><li><a href="http://ieeevis.org/year/2014/info/overview-amp-topics/accepted-tutorials" target="_self" style="color:#c00000">Tutorials</a></li><br  /><li><a href="http://ieeevis.org/year/2014/info/overview-amp-topics/practitioner-experiences-posters" target="_self" style="color:#c00000">Practitioner Experiences Posters</a></li><br  /><li><a href="http://ieeevis.org/year/2014/info/overview-amp-topics/meetups" target="_self" style="color:#c00000">Meetups (BOF)</a></li><br  /><li><a href="http://ieeevis.org/year/2014/info/overview-amp-topics/visap-preview" target="_self" style="color:#c00000">VISAP Preview</a></li><br  /><li><a href="http://ieeevis.org/year/2014/info/overview-amp-topics/special-industry-session" target="_self" style="color:#c00000">Special Industry Session</a></li><br  /><li><a href="http://ieeevis.org/year/2014/info/overview-amp-topics/vizsec-preview" target="_self" style="color:#c00000">VizSec Preview</a></li><br  /><li><a href="http://ieeevis.org/year/2014/info/overview-amp-topics/ldav-preview" target="_self" style="color:#c00000">LDAV Preview</a></li><br  /><li><a href="http://ieeevis.org/year/2014/info/overview-amp-topics/bertins-exhibition" target="_self" style="color:#c00000">Bertin's Exhibition</a></li><br  /><li><a href="http://ieeevis.org/year/2014/info/overview-amp-topics/vis-25th-anniversary" target="_self" style="color:#c00000">VIS 25th Anniversary</a></li></ol></div><div class="menu-title"><a href="http://ieeevis.org/year/2014/info/exhibition/supporters-and-exhibition">Supporters and Exhibition</a></div><div><br /></div><div class="menu-title"><a href="http://ieeevis.org/year/2014/info/registration/conference-registration">Conference Registration</a><br  /></div><div><br /></div><div id="cfp-leftbar" class="_blank"><h3 class="menu-title" id="menu-title">Call for Participation</h3><ol class="link-leftbar"><li>Papers</li><li><a href="http://ieeevis.org/year/2014/info/call-participation/vast-papers" target="_self">VAST</a>  &#183; <a href="http://ieeevis.org/year/2014/info/call-participation/infovis-papers">InfoVis</a>  &#183; <a href="http://ieeevis.org/year/2014/info/call-participation/scivis-papers">SciVis</a></li><br /><li><a href="http://ieeevis.org/year/2014/info/call-participation/posters" target="_self">Posters</a></li><br  /><li>Contests & Challenge</li><li><a href="http://sciviscontest.ieeevis.org/2014">SciVis</a> &#183; <a href="http://ieeevis.org/year/2014/info/call-participation/vast-challenge">VAST</a> </li><br /><li><a href="http://ieeevis.org/year/2014/info/call-participation/tutorials" target="_self">Tutorials</a></li><br  /><li><a href="http://ieeevis.org/year/2014/info/call-participation/workshops" target="_self">Workshops</a></li><br  /><li><a href="http://ieeevis.org/year/2014/info/call-participation/panels" target="_self">Panels</a></li><br  /><li><a href="http://ieeevis.org/year/2014/info/call-participation/practitioner-experiences-posters" target="_self">Practitioner Experiences Track</a></li><br  /><li><a href="http://ieeevis.org/year/2014/info/call-participation/doctoral-colloquium" target="_self">Doctoral Colloquium</a></li><br  /><li><a href="http://ieeevis.org/year/2014/info/call-participation/arts-program" target="_self">Arts Program (VISAP)</a></li><br  /><li><a href="http://ieeevis.org/year/2014/info/call-participation/meetups-bofs" target="_self">Meetups (BOF)</a></li><br  /></ol></div><div class="menu-title"><a href="http://vacommunity.org/IEEE+VIS+Compass+2014" target="_blank">Compass</a><br  /></div><div><br /></div><div class="menu-title"><a href="http://ieeevis.org/year/2014/info/overview-amp-topics/visualization-pioneers-group-vpg">Vis Pioneers Group</a><br  /></div><div><br /></div><div id="registration-leftbar"><h3 class="menu-title" id="menu-title">Venue, Hotel and Travel</h3><ol class="link-leftbar"><li><a href="http://ieeevis.org/year/2014/info/registration/conference-venue">Venue Information</a></li><br /><li><a href="http://ieeevis.org/year/2014/info/overview-amp-topics/nearby-restaurants">Nearby Restaurants</a></li><br /><li><a href="http://ieeevis.org/year/2014/info/registration/travel-information">Travel Information</a></li><br /><li><a href="http://ieeevis.org/year/2014/info/registration/visa-assistance">Visa Assistance</a></li></ol></div><div class="menu-title"><a href="http://ieeevis.org/year/2014/info/volunteer/student-volunteers">Student Volunteers</a></div><div><br /></div><div id="presenter-leftbar"><h3 class="menu-title" id="menu-title">Participant Information</h3><ol class="link-leftbar"><li><a href="http://ieeevis.org/year/2014/info/presenter-information/authors">Speakers and Presenters</a></li><br /><li><a href="http://ieeevis.org/year/2014/info/presenter-information/final-information-paper-authors">Paper Authors</a></li><br /><li><a href="http://ieeevis.org/year/2014/info/presenter-information/fast-forward-instructions">FF Instructions</a></li></ol></div><div id="committee-leftbar"><h3 class="menu-title" id="menu-title">Co-located Events</h3><ol class="link-leftbar"><li><a href="http://www.ldav.org" target="_blank">IEEE LDAV 2014</a></li><br /><li><a href="http://www.vizsec.org" target="_blank">IEEE VizSec 2014</a></li><br /><li><a href="http://beliv.cs.univie.ac.at/" target="_blank">BELIV 2014</a></li><br /></ol></div><div id="committee-leftbar"><h3 class="menu-title" id="menu-title">Committees</h3><ol class="link-leftbar"><li><a href="http://ieeevis.org/year/2014/info/committees/conference-committee" target="_self">VIS Conference Committee</a></li><br /><li><a href="http://ieeevis.org/year/2014/info/committees/vis-executive-committee" target="_self">VIS Executive Committee</a></li><br /><li><a href="http://vgtc.org/about-us/executive-committee" target="_blank">VGTC Executive Committee</a></li><br /><li>Program Committees</li><li><a href="http://ieeevis.org/year/2014/info/committees/vast-program-committee" target="_self">VAST</a> &#183; <a href="http://ieeevis.org/year/2014/info/committees/infovis-program-committee">InfoVis</a> &#183; <a href="http://ieeevis.org/year/2014/info/committees/scivis-program-committee">SciVis</a></li><br /><li>Steering Committees</li><li><a href="http://ieeevis.org/year/2014/info/committees/vast-steering-committee" target="_self">VAST</a> &#183; <a href="http://ieeevis.org/year/2014/info/committees/infovis-steering-committee">InfoVis</a> &#183; <a href="http://ieeevis.org/year/2014/info/committees/scivis-steering-committee">SciVis</a></li><br /></ol></div><div class="menu-title"><a href="mailto:info@ieeevis.org">Email Us</a></div><div><br /></div><div id="archive-leftbar"><h3 id="menu-title" class="menu-title">Previous Years</h3><ol class="link-leftbar"><li><a href="http://ieeevis.org/year/2013/info/vis-welcome/welcome">2013</a> &#183; <a href="http://ieeevis.org/year/2012/info/call-participation/welcome">2012</a> &#183; <a href="http://ieeevis.org/year/2011/info/call-participation/welcome">2011</a> &#183; <a href="http://vis.computer.org/VisWeek2010/">2010</a></li> <li><a href="http://vis.computer.org/VisWeek2009/">2009</a> &#183; <a href="http://vis.computer.org/VisWeek2008/">2008</a> &#183; <a href="http://vis.computer.org/vis2007/">2007</a> &#183; <a href="http://vis.computer.org/vis2006/">2006</a> </li>  <li><a href="http://vis.computer.org/vis2005/">2005</a> &#183; <a href="http://vis.computer.org/vis2004/">2004</a> &#183; <a href="http://vis.computer.org/vis2003/">2003</a> &#183; <a href="http://vis.computer.org/vis2002/">2002</a></li> <li><a href="http://vis.computer.org/vis2001/">2001</a> &#183; <a href="http://www.hpc.msstate.edu/conferences/vis00/">2000</a> &#183; <a href="http://www.hpc.msstate.edu/conferences/vis99/">1999</a></li></ol></div><div class="menu-title"><a href="http://ieeevis.org/year/2014/info/overview-amp-topics/future-locations-ieee-vis-conferences">Upcoming Years</a></div><div><br /></div></div><br /></div>
+</div>
+        </div>
+            <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+          <div class="breadcrumb"><a href="http://ieeevis.org/year/2016/info/vis-welcome/welcome">Home</a></div>                                <h2>Paper Sessions</h2>                                                  <div class="clear-block">
+                        <div id="node-3011" class="node">
+
+
+    <div class="content clear-block">
+    <hr /><hr /><p><a name="TUE1"></a><strong>TUESDAY, NOVEMBER 11<br /></strong><strong style="line-height: 20.3999996185303px;">10:30-12:10<br /></strong><em style="line-height: 20.3999996185303px;"><span style="text-decoration: underline;">VAST: Fundamentals of Visual Analytics</span><br />Session Chair: Patricia Crossno</em></p> <p><strong>Knowledge Generation Model for Visual Analytics</strong><br /> Authors: Dominik Sacha, Andreas Stoffel, Florian Stoffel, Bum Chul Kwon, Geoffrey Ellis, Daniel Keim<br /> <a href="http://vimeo.com/102600865">Video Preview</a><br /><a href=" http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875967&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>INFUSE: Interactive Feature Selection for Predictive Modelling of High Dimensional Data</strong><br /> Authors: Josua Krause, Adam Perer, Enrico Bertini<br /> <a href="http://vimeo.com/102601579">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6876047&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Transforming Scagnostics to Reveal Hidden Features</strong><br /> Authors: Tuan Dang, Leland Wilkinson<br /> <a href="http://vimeo.com/102809065">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875999&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Towards Interactive, Intelligent, and Integrated Multimedia Analytics</strong><br /> Authors: Jan Zahálka, Marcel Worring<br style="line-height: 20.3999996185303px;" /><br /> <br /></p> <hr /><p><a name="TUE2"></a><strong>TUESDAY, NOVEMBER 11<br /></strong><strong style="line-height: 20.3999996185303px;">10:30-12:10<br /></strong><em style="line-height: 20.3999996185303px;"><span style="text-decoration: underline;">INFOVIS: Techniques<br /></span><em style="line-height: 20.3999996185303px;"><em style="line-height: 20.3999996185303px;">Session Chair: Nathalie Henry Riche</em></em></em></p> <p><strong>UpSet: Visualization of Intersecting Sets</strong><br /> Authors: Alexander Lex, Nils Gehlenborg, Hendrik Strobelt, Romain Vuillemot, Hanspeter Pfister<br /> <a href="http://vimeo.com/102604513">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6876017&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>OnSet: A visualization technique for large-scale binary set data</strong><br /> Authors: Ramik Sadana, Timothy Major, Alistair Dove, John Stasko<br /> <a href="http://vimeo.com/102606152">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6876026&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>DimpVis: Exploring Time-varying Information Visualizations by Direct Manipulation</strong><br /> Authors: Brittany Kondo, Christopher Collins<br /> <a href="http://vimeo.com/102605824">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875985&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Axis Calibration for Improving Data Attribute Estimation in Star Coordinates Plots</strong><br /> Authors: Manuel Rubio-Sánchez, Alberto Sanchez<br /> <a href="http://vimeo.com/102606150">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875998&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Domino: Extracting, Comparing, and Manipulating Subsets across Multiple Tabular Datasets</strong><br /><span style="text-decoration: underline;"><em><strong>[INFOVIS HONORABLE MENTION AWARD]<br /></strong></em></span>Authors: Samuel Gratzl, Nils Gehlenborg, Alexander Lex, Hanspeter Pfister, Marc Streit<br /> <a href="http://vimeo.com/102603456">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875920&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /></p> <hr /><p><a name="TUE3"></a><strong>TUESDAY, NOVEMBER 11<br /></strong><strong style="line-height: 20.3999996185303px;">10:30-12:10<br /></strong><em style="line-height: 20.3999996185303px;"><span style="text-decoration: underline;">SCIVIS: Volume Visualization Systems</span><br />Session Chair: Chris Johnson</em></p> <p><strong>Predicate-based Focus-and-Context Visualization for 3D Ultrasound</strong><br /> Authors: Christian Schulte zu Berge, Maximilian Baust, Nassir Navab, Ankur Kapoor<br /> <a href="http://vimeo.com/102507483">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6876031&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>ViSlang: A System for Interpreted Domain-Specific Languages for Scientific Visualization</strong><br /> Authors: Peter Rautek, Stefan Bruckner, Eduard Gröller, Markus Hadwiger<br style="line-height: 20.3999996185303px;" /><a style="line-height: 20.3999996185303px;" href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6876040&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Interactive Progressive Visualization with Space-Time Error Control</strong><br /> Authors: Steffen Frey, Filip Sadlo, Kwan-Liu Ma, Thomas Ertl<br /> <a href="http://vimeo.com/102508484">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875936&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Vivaldi: A Domain-Specific Language for Volume Processing and Visualization on Distributed Heterogeneous Systems</strong><br /> Authors: HyungSuk Choi, Woohyuk Choi, Tran Minh Quan, David Hildebrand, Hanspeter Pfister, Won-Ki Jeong<br /> <a href="http://vimeo.com/102508479">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875916&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /></p> <hr /><p><a name="TUE4"></a><strong>TUESDAY, NOVEMBER 11<br /></strong><strong style="line-height: 20.3999996185303px;">14:00-15:40<br /></strong><em style="line-height: 20.3999996185303px;"><span style="text-decoration: underline;">VAST: Empowering Users in Visual Analytics</span><br />Session Chair: Jonathan Roberts</em></p> <p><strong>Supporting Communication and Coordination in Collaborative Sensemaking</strong><br /><span style="text-decoration: underline;"><em><strong>[VAST BEST PAPER AWARD]<br /></strong></em></span>Authors: Narges Mahyar, Melanie Tory<br style="line-height: 20.3999996185303px;" /><a style="line-height: 20.3999996185303px;" href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875986&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Opening the Black Box: Strategies for Increased User Involvement in Existing Algorithm Implementations</strong><br /> Authors: Thomas Mühlbacher, Harald Piringer, Samuel Gratzl, Michael Sedlmair, Marc Streit<br /> <a href="http://vimeo.com/102599534">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875995&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Progressive Visual Analytics: User-Driven Visual Exploration of In-Progress Analytics</strong><br /> Authors: Charles D. Stolper, Adam Perer, David Gotz<br /> <a href="http://vimeo.com/102809062">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6876049&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Finding Waldo: Learning about Users from their Interactions</strong><br /> Authors: Eli T. Brown, Alvitta Ottley, Jieqiong Zhao, Quan Lin, Richard Souvenir, Alex Endert, Remco Chang<br /> <a href="http://vimeo.com/102809064">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875913&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Interactive Visual Analysis of Image-Centric Cohort Study Data</strong><br /> Authors: Paul Klemm, Steffen Oeltze, Kai Lawonn, Kathrin Hegenscheid, Henry Völzke, Bernhard Preim<br style="line-height: 20.3999996185303px;" /><a style="line-height: 20.3999996185303px;" href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6876009&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /></p> <hr /><p><a name="TUE5"></a><strong>TUESDAY, NOVEMBER 11<br /></strong><strong style="line-height: 20.3999996185303px;">14:00-15:40<br /></strong><em style="line-height: 20.3999996185303px;"><span style="text-decoration: underline;">INFOVIS: Maps &amp; Trees<br /></span><em style="line-height: 20.3999996185303px;"><em style="line-height: 20.3999996185303px;">Session Chair: Remco Chang</em></em></em></p> <p><strong>Attribute Signatures: Dynamic Visual Summaries for Analyzing Multivariate Geographical Data</strong><br /> Authors: Cagatay Turkay, Aidan Slingsby, Helwig Hauser, Jo Wood, Jason Dykes<br /> <a href="http://vimeo.com/102605823">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875987&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Origin-Destination Flow Data Smoothing and Mapping</strong><br /> Authors: Diansheng Guo, Xi Zhu<br style="line-height: 20.3999996185303px;" /><a style="line-height: 20.3999996185303px;" href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875983&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Stenomaps: Shorthand for Shapes</strong><br /> Authors: Arthur van Goethem, Andreas Reimer, Bettina Speckmann, Jo Wood<br style="line-height: 20.3999996185303px;" /><a style="line-height: 20.3999996185303px;" href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6876003&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Nmap: A Novel Neighborhood Preservation Space-filling Algorithm</strong><br /> Authors: Felipe S. L. G. Duarte, Fabio Sikansi, Francisco M. Fatore, Samuel G. Fadel, Fernando V. Paulovich<br /> <a href="http://vimeo.com/102604288">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6876012&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Tree Colors: Color Schemes for Tree-Structured Data</strong><br /> Authors: Martijn Tennekes, Edwin de Jonge<br /> <a href="http://vimeo.com/102604515">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875961&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /></p> <hr /><p><a name="TUE6"></a><strong>TUESDAY, NOVEMBER 11<br /></strong><strong style="line-height: 20.3999996185303px;">14:00-15:40<br /></strong><em style="line-height: 20.3999996185303px;"><span style="text-decoration: underline;">SCIVIS: Scalar Analysis and Volume Rendering<br /></span><em style="line-height: 20.3999996185303px;">Session Chair: Hammish Carr</em></em></p><p>&nbsp;</p> <p><strong>Sparse PDF Volumes for Consistent Multi-Resolution Volume Rendering</strong><br /> Authors: Ronell Sicat, Jens Krueger, Torsten Möller, Markus Hadwiger<br /> <a href="http://vimeo.com/102507091">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6876002&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Multiscale Symmetry Detection in Scalar Fields by Clustering Contours</strong><br /> Authors: Dilip Thomas, Vijay Natarajan<br /> <a href="http://vimeo.com/102507835">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875976&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong> Low-Pass Filtered Volumetric Shadows</strong><br /> Authors: Marco Ament, Filip Sadlo, Carsten Dachsbacher, Daniel Weiskopf<br /> <a href="http://vimeo.com/102507481">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875905&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Boundary Aware Reconstruction of Scalar Fields</strong><br /> Authors: Stefan Lindholm, Daniel Jönsson, Charles Hansen, Anders Ynnerman<br /> <a href="http://vimeo.com/102509550">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6876035&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <span style="font-weight: bold;">Direct Isosurface Ray Casting of NURBS-based Isogeometric Analysis </span><br /> Authors: Andre Schollmeyer, Bernd Froehlich<br /> <a href="http://vimeo.com/103884937">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6846294&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /></p> <hr /><p><a name="TUE7"></a><strong>TUESDAY, NOVEMBER 11<br /></strong><strong style="line-height: 20.3999996185303px;">16:15-17:55<br /></strong><em style="line-height: 20.3999996185303px;"><span style="text-decoration: underline;">VAST: Clustering and Classification</span><br />Session Chair: Jimmy Johansson</em></p> <p><strong>Visual Abstraction and Exploration of Multi-class Scatterplots</strong><br /> Authors: Haidong Chen, Wei Chen, Honghui Mei, Zhiqi Liu, Kun Zhou, Weifeng Chen, Wentao Gu, Kwan-Liu Ma<br /> <a href="http://vimeo.com/102601045">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875982&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Cupid: Cluster-based Exploration of Geometry Generators with Parallel Coordinates and Radial Trees</strong><br /> Authors: Michael Beham, Wolfgang Herzner, Eduard Gröller, Johannes Kehrer<br /> <a href="http://vimeo.com/102600567">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875958&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Visual Methods for Analyzing Probabilistic Classification Data</strong><br /> Authors: Bilal Alsallakh, Allan Hanbury, Helwig Hauser, Silvia Miksch, Andreas Rauber<br /> <a href="http://vimeo.com/102939604">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875957&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>A Five-Level Design Framework for Bicluster Visualizations</strong><br /> Authors: Maoyuan Sun, Chris North, Naren Ramakrishnan<br /> <a href="http://vimeo.com/102599529">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875974&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>VarifocalReader -- In-Depth Visual Analysis of Large Text Documents</strong><br /> Authors: Steffen Koch, Markus John, Michael Wörner, Andreas Müller, Thomas Ertl<br style="line-height: 20.3999996185303px;" /><a style="line-height: 20.3999996185303px;" href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875959&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /></p> <hr /><p><a name="TUE8"></a><strong>TUESDAY, NOVEMBER 11<br /></strong><strong style="line-height: 20.3999996185303px;">16:15-17:55<br /></strong><em style="line-height: 20.3999996185303px;"><span style="text-decoration: underline;">INFOVIS: Networks<br /></span><em style="line-height: 20.3999996185303px;"><em style="line-height: 20.3999996185303px;">Session Chair: Tim Dwyer</em></em></em></p> <p><strong>Multivariate Network Exploration and Presentation: From Detail to Overview via Selections and Aggregations</strong><br /><span style="text-decoration: underline;"><em><strong>[INFOVIS BEST PAPER AWARD]<br /></strong></em></span>Authors: Stef van den Elzen, Jarke J. van Wijk<br /> <a href="http://vimeo.com/102603562">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875972&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>GLO-STIX: Graph-Level Operations for Specifying Techniques and Interactive eXploration</strong><br /> Authors: Charles D. Stolper, Minsuk Kahng, Zhiyuan Lin, Florian Foerster, Aakash Goel, John Stasko, Duen Horng Chau<br /> <a href="http://vimeo.com/102605484">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875969&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <span style="font-weight: bold;">A Modular Degree-of-Interest Specification for the Visual Analysis of Large Dynamic Networks</span><br /> Authors: James Abello, Steffen Hadlak, Heidrun Schumann, and Hans-Jörg Schulz<br /> <a href="http://vimeo.com/102525330">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6574858&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <span style="font-weight: bold;">GraphDiaries: Animated Transitions and Temporal Navigation for Dynamic Networks</span><br /> Authors: Benjamin Bach, Emmanuel Pietriga, Jean-Daniel Fekete<br /> <a href="http://vimeo.com/102526646">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6658746&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <span style="font-weight: bold;">Visual Adjacency Lists for Dynamic Graphs</span><br /> Authors: Marcel Hlawatsch, Michael Burch, Daniel Weiskopf<br /> <a href="http://vimeo.com/103884936">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6812198&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <span style="font-weight: bold;">How to Display Group Information on Node-Link Diagrams: an Evaluation</span><br /> Authors: Radu Jianu, Adrian Rusu, Yifan Hu, Douglas Taggart<br /> <a href="http://vimeo.com/102526993">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6787045&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /></p> <hr /><p><a name="TUE9"></a><strong>TUESDAY, NOVEMBER 11<br /></strong><strong style="line-height: 20.3999996185303px;">16:15-17:55<br /></strong><em style="line-height: 20.3999996185303px;"><span style="text-decoration: underline;">SCIVIS: Perception and Evaluation<br /></span><em style="line-height: 20.3999996185303px;">Session Chair: Daniel Keefe</em></em></p> <p><span style="font-weight: bold;">An Evaluation of Depth Enhancing Perceptual Cues for Vascular Volume Visualization in Neurosurgery</span><br /> Authors: Marta Kersten-Oertel, Sean J. Chen, D. Louis Collins<br /> <a href="http://vimeo.com/103884934">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6620865&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <span style="font-weight: bold;">Perceptually Uniform Motion Space</span><br /> Authors: Asmund Birkeland, Cagatay Turkay, and Ivan Viola<br /> <a href="http://vimeo.com/102527262">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6811168&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <span style="font-weight: bold;">A Metric for the Evaluation of Dense Vector Field Visualizations</span><br /> Authors: Victor Matvienko and Jens Kruger<br /> <a href="http://vimeo.com/103423477">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6269874&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Attractive Flicker: Guiding Attention in Dynamic Narrative Visualizations</strong><br /> Authors: Manuela Waldner, mathieu le muzic, Matthias Bernhard, Werner Purgathofer, Ivan Viola<br /> <a href="http://vimeo.com/102508934">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6876019&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Design and Evaluation of Interactive Proofreading Tools for Connectomics</strong><br /> Authors: Daniel Haehn, Seymour Knowles-Barley, Mike Roberts, Johanna Beyer, Narayanan Kasthuri, Jeff W. Lichtman, Hanspeter Pfister<br /> <a href="http://vimeo.com/102949056">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875931&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /></p> <p><em><span style="text-decoration: underline;"><br /></span></em></p> <hr /><p><a name="WED1"></a><strong>WEDNESDAY, NOVEMBER 12<br /></strong><strong style="line-height: 20.3999996185303px;">08:30-10:10<br /></strong><em style="line-height: 20.3999996185303px;"><span style="text-decoration: underline;">VAST: Visual Analytics in Societal Applications<br /></span><em style="line-height: 20.3999996185303px;">Session Chair: Daniel Keim</em></em></p> <p><strong>LoyalTracker: Visualizing Loyalty Dynamics in Search Engines</strong><br /><span style="text-decoration: underline;"><em><strong>[VAST HONORABLE MENTION AWARD]</strong></em></span><br />Authors: Conglei Shi, Yingcai Wu, Shixia Liu, Hong Zhou, Huamin Qu<br /> <a href="http://vimeo.com/102601053">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6876038&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>VAET: A Visual Analytics Approach for E-transactions Time-series</strong><br /> Authors: Cong Xie, Wei Chen, Xinxin Huang, Yueqi Hu, Scott Barlowe, Jing Yang<br /> <a href="http://vimeo.com/102601048">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6876015&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>EvoRiver: Visual Analysis of Topic Coopetition on Social Media</strong><br /> Authors: Guodao Sun, Yingcai Wu, Shixia Liu, Tai-Quan Peng, Jonathan Zhu, Ronghua Liang<br /> <a href="http://vimeo.com/102600192">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875992&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>OpinionFlow: Visual Analysis of Opinion Diffusion on Social Media</strong><br /> Authors: Yingcai Wu, Shixia Liu, Kai Yan, Mengchen Liu, Fangzhao Wu<br /> <a href="http://vimeo.com/102600571">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6876032&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>#FluxFlow: Visual Analysis of Anomalous Information Spreading on Social Media</strong><br /><span style="text-decoration: underline;"><em><strong>[VAST HONORABLE MENTION AWARD]</strong></em></span><br />Authors: Jian Zhao, Nan Cao, Zhen Wen, Yale Song, Yu-Ru Lin, Christopher Collins<br /> <a href="http://vimeo.com/102601337">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6876013&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /></p> <hr /><p><a name="WED2"></a><strong>WEDNESDAY, NOVEMBER 12<br /></strong><strong style="line-height: 20.3999996185303px;">08:30-10:10<br /></strong><em style="line-height: 20.3999996185303px;"><span style="text-decoration: underline;">INFOVIS: Interaction &amp; Authoring<br /></span><em style="line-height: 20.3999996185303px;"><em style="line-height: 20.3999996185303px;">Session Chair: Bongshin Lee</em></em></em></p> <p><strong>Revisiting Bertin matrices: New Interactions for Crafting Tabular Visualizations</strong><br /> Authors: Charles Perin, Pierre Dragicevic, Jean-Daniel Fekete<br /> <a href="http://vimeo.com/102603454">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875988&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>iVisDesigner: Expressive Interactive Design of Information Visualizations</strong><br /> Authors: Donghao Ren, Tobias Höllerer, Xiaoru Yuan<br /> <a href="http://vimeo.com/102603569">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6876042&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Constructing Visual Representations: Investigating the Use of Tangible Tokens</strong><br /> Authors: Samuel Huron, Yvonne Jansen, Sheelagh Carpendale<br /> <a href="http://vimeo.com/102605485">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875946&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>PanoramicData: Data Analysis through Pen &amp; Touch</strong><br /> Authors: Emanuel Zgraggen, Robert Zeleznik, Steven Drucker<br /> <a href="http://vimeo.com/102604992">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6876039&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <span style="font-weight: bold;">Munin: A Peer-to-Peer Middleware for Ubiquitous Analytics and Visualization Spaces</span><br /> Authors: Sriram Karthik Badam, Eli Raymond Fisher, and Niklas Elmqvist<br /> <a href="http://vimeo.com/103884939">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6851203&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /></p> <hr /><p><a name="WED3"></a><strong>WEDNESDAY, NOVEMBER 12<br /></strong><strong style="line-height: 20.3999996185303px;">08:30-10:10<br /></strong><em style="line-height: 20.3999996185303px;"><span style="text-decoration: underline;">SCIVIS: Biomedical and Molecular Visualization<br /></span><em style="line-height: 20.3999996185303px;">Session Chair: Johanna Beyer</em></em></p> <p><strong>Characterizing Molecular Interactions in Chemical Systems</strong><br /> Authors: David Guenther, Roberto Alvarez Boto, Julia Contreras Garcia, Jean-Philip Piquemal, Julien Tierny<br /> <a href="http://vimeo.com/102507315">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875922&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Ligand Excluded Surface : A New Type of Molecular Surface</strong><br /> Authors: Norbert Lindow, Daniel Baum, Hans-Christian Hege<br /> <a href="http://vimeo.com/102508041">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6876051&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>ADR - Anatomy-Driven Reformation</strong><br /> Authors: Jan Kretschmer, Grzegorz Soza, Christian Tietjen, Michael Suehling, Bernhard Preim, Marc Stamminger<br /> <a href="http://vimeo.com/102508480">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6876018&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Combined Visualization of Wall Thickness and Wall Shear Stress for the Evaluation of Aneurysms</strong><br /> Authors: Sylvia Glasser, Kai Lawonn, Thomas Hoffmann, Martin Skalej, Bernhard Preim<br style="line-height: 20.3999996185303px;" /><a style="line-height: 20.3999996185303px;" href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6877722&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Visualization of Brain Microstructure through Spherical Harmonics Illumination of High Fidelity Spatio-Angular Fields</strong><br /><span style="text-decoration: underline;"><em><strong>[SCIVIS BEST PAPER AWARD]<br /></strong></em></span>Authors: Sujal Bista, Jiachen Zhou, Rao Gullapalli, Amitabh Varshney<br style="line-height: 20.3999996185303px;" /><a style="line-height: 20.3999996185303px;" href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875910&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /></p> <hr /><p><a name="WED4"></a><strong>WEDNESDAY, NOVEMBER 12<br /></strong><strong style="line-height: 20.3999996185303px;">10:30-12:10<br /></strong><em style="line-height: 20.3999996185303px;"><span style="text-decoration: underline;">VAST: Visual Analytics of Spatiotemporal Activities<br /></span><em style="line-height: 20.3999996185303px;">Session Chair: Alex Endert</em></em></p> <p><strong>Feature Driven Visual Analytics of Soccer Data</strong><br /> Authors: Halldór Janetzko, Dominik Sacha, Manuel Stein, Tobias Schreck, Oliver Deussen, Daniel Keim<br /> <a href="http://vimeo.com/102599780">Video Preview</a><br /> <br /> <strong>Baseball4D: A Tool for Baseball Game Reconstruction &amp; Visualization</strong><br /> Authors: Carlos Dietrich, David Koop, Huy Vo, Claudio Silva<br /> <a href="http://vimeo.com/102602089">Video Preview</a><br /> <br /> <strong>A System for Visual Analysis of Radio Signal Data</strong><br /> Authors: Tarik Crnovrsanin, Chris Muelder, Kwan-Liu Ma<br /> <a href="http://vimeo.com/104495491">Video Preview</a><br /> <br /> <strong>Feedback-Driven Interactive Exploration of Large Multidimensional Data Supported by Visual Classifier</strong><br /> Authors: Michael Behrisch, Fatih Korkmaz, Lin Shao, Tobias Schreck<br /> <a href="http://vimeo.com/102601050">Video Preview</a><br /> <br /> <strong>An Integrated Visual Analysis System for Fusing MR Spectroscopy and Multi-Modal Radiology Imaging</strong><br /> Authors: Miguel Nunes, Benjamin Rowland, Matthias Schlachter, Soleakhena Ken, Krešimir Matković, Anne Laprie, Katja Bühler<br /> <br /></p> <hr /><p><a name="WED5"></a><strong>WEDNESDAY, NOVEMBER 12<br /></strong><strong style="line-height: 20.3999996185303px;">10:30-12:10<br /></strong><em style="line-height: 20.3999996185303px;"><span style="text-decoration: underline;">INFOVIS: Exploratory Data Analysis<br /></span><em style="line-height: 20.3999996185303px;"><em style="line-height: 20.3999996185303px;">Session Chair: Adam Perer</em></em></em></p> <p><strong>The Effects of Interactive Latency on Exploratory Visual Analysis</strong><br /> Authors: Zhicheng Liu, Jeffrey Heer<br /> <a href="http://vimeo.com/102604512">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6876022&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Visualizing Statistical Mix Effects and Simpson's Paradox</strong><br /> Authors: Zan Armstrong, Martin Wattenberg<br style="line-height: 20.3999996185303px;" /><a style="line-height: 20.3999996185303px;" href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875927&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Error Bars Considered Harmful: Exploring Alternate Encodings for Mean and Error</strong><br /> Authors: Michael Correll, Michael Gleicher<br style="line-height: 20.3999996185303px;" /><a style="line-height: 20.3999996185303px;" href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875915&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /><strong>Four Experiments on the Perception of Bar Charts</strong><br /> Authors: Justin Talbot, Vidya Setlur, Anushka Anand<br style="line-height: 20.3999996185303px;" /><a style="line-height: 20.3999996185303px;" href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6876021&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /><strong>Visual Parameter Space Analysis: A Conceptual Framework</strong><br /> Authors: Michael Sedlmair, Christoph Heinzl, Harald Piringer, Stefan Bruckner, Torsten Möller<br /> <a href="http://vimeo.com/102605488">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6876043&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /></p> <hr /><p><a name="WED6"></a><strong>WEDNESDAY, NOVEMBER 12<br /></strong><strong style="line-height: 20.3999996185303px;">10:30-12:10<br /></strong><em style="line-height: 20.3999996185303px;"><span style="text-decoration: underline;">SCIVIS: Feature Extraction and Flows<br /></span><em style="line-height: 20.3999996185303px;">Session Chair: Chaoli Wang</em></em></p> <p><strong>A Robust Parity Test for Extracting Parallel Vectors in 3D</strong><br /><span style="text-decoration: underline;"><em><strong>[SCIVIS HONORABLE MENTION AWARD]<br /></strong></em></span>Authors: Tao Ju, Minxin Cheng, Xu Wang, Ye Duan<br /> <a href="http://vimeo.com/102508926">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875965&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <span style="font-weight: bold;">Exploring Flow Fields Using Space-filling Analysis of Streamlines</span><br /> Authors: Abon Chaudhuri, Teng-Yok Lee, Han-Wei Shen, Rephael Wenger<br /> <a href="http://vimeo.com/102526895">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6767149&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Vortex Cores of Inertial Particles</strong><br /> Authors: Tobias Günther, Holger Theisel<br /> <a href="http://vimeo.com/102508040">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875993&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <span style="font-weight: bold;">The Natural Helmholtz-Hodge Decomposition For Open-Boundary Flow Analysis</span><br /> Authors: Harsh Bhatia, Valerio Pascucci, and Peer-Timo Bremer<br /> <a href="http://vimeo.com/102525668">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6774477&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>FLDA: Latent Dirichlet Allocation Based Unsteady Flow Analysis</strong><br /> Authors: Fan Hong, Chufan Lai, Hanqi Guo, Xiaoru Yuan, Enya Shen, Sikun Li<br /> <a href="http://vimeo.com/102509549">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875956&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /></p> <hr /><p><a name="WED7"></a><strong>WEDNESDAY, NOVEMBER 12<br /></strong><strong style="line-height: 20.3999996185303px;">14:00-15:40<br /></strong><em style="line-height: 20.3999996185303px;"><span style="text-decoration: underline;">INFOVIS: Design Process &amp; Persuasion<br /></span><em style="line-height: 20.3999996185303px;"><em style="line-height: 20.3999996185303px;">Session Chair: Michael Sedlmair</em></em></em></p> <p><strong>Moving beyond sequential design: Reflections on a rich multi-channel approach to data visualization</strong><br /> Authors: Jo Wood, Roger Beecham, Jason Dykes<br /> <a href="http://vimeo.com/102604508">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875966&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>An Algebraic Process for Visualization Design</strong> <br /><span style="text-decoration: underline;"><em><strong>[INFOVIS HONORABLE MENTION AWARD]<br /></strong></em></span>Authors: Gordon Kindlmann, Carlos Scheidegger<br /> <a href="http://vimeo.com/102959471">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875930&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Design Activity Framework for Visualization Design</strong><br /> Authors: Sean McKenna, Dominika Mazur, James Agutter, Miriah Meyer<br /> <a href="http://vimeo.com/102603453">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6876000&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Activity Sculptures: Exploring the Impact of Physical Visualizations on Running Activity</strong><br /> Authors: Simon Stusak, Aurélien Tabard, Franziska Sauka, Rohit Ashok Khot, Andreas Butz<br /> <a href="http://vimeo.com/102603560">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6888482&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>The Persuasive Power of Data Visualization</strong><br /> Authors: Anshul Vikram Pandey, Anjali Manivannan, Oded Nov, Margaret Satterthwaite, Enrico Bertini<br /> <a href="http://vimeo.com/102604990">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6876023&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /></p> <hr /><p><a name="WED8"></a><strong>WEDNESDAY, NOVEMBER 12<br /></strong><strong style="line-height: 20.3999996185303px;">14:00-15:40<br /></strong><em style="line-height: 20.3999996185303px;"><span style="text-decoration: underline;">SCIVIS: Flowline Tracing, Clustering, and Visualization<br /></span><em style="line-height: 20.3999996185303px;">Session Chair: Tino Weinkauf</em></em></p> <p><strong>Advection-Based Sparse Data Management for Visualizing Unsteady Flow</strong><br /> Authors: Hanqi Guo, Jiang Zhang, Richen Liu, Lu Liu, Xiaoru Yuan, Jian Huang, Xiangfei Meng, Jingshan Pan<br style="line-height: 20.3999996185303px;" /><a style="line-height: 20.3999996185303px;" href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875971&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Trajectory-based Flow Feature Tracking in Joint Particle/Volume Datasets</strong><br /> Authors: Franz Sauer, Hongfeng Yu, Kwan-Liu Ma<br /> <a href="http://vimeo.com/102508482">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875975&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <span style="font-weight: bold;">Interpolation-Based Pathline Tracing in Particle-Based Flow Visualization</span><br /> Authors: Jennifer Chandler, Harald Obermaier, Ken Joy<br /> <a href="http://vimeo.com/104343768">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6817592&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <span style="font-weight: bold;">Blood Flow Clustering and Applications in Virtual Stenting of Intracranial Aneurysms</span><br /> Authors: Steffen Oeltze, Dirk J. Lehmann, Alexander Kuhn, Gábor Janiga, Holger Theisel, Bernhard Preim<br /> <a href="http://vimeo.com/102526517">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6702500&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <span style="font-weight: bold;">A Deformation Framework for Focus+Context Flow Visualization</span><br /> Jun Tao, Chaoli Wang, Ching-Kuang Shene, Seung Hyun Kim<br /> <a href="http://vimeo.com/102525329">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6559983&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /></p> <hr /><p><a name="WED9"></a><strong>WEDNESDAY, NOVEMBER 12<br /></strong><strong style="line-height: 20.3999996185303px;">16:15-17:55<br /></strong><em style="line-height: 20.3999996185303px;"><span style="text-decoration: underline;">VAST: Visual Analysis of Relationships<br /></span><em style="line-height: 20.3999996185303px;"><em style="line-height: 20.3999996185303px;">Session Chair: Margit Pohl</em></em></em></p> <p><strong>An Insight- and Task-based Methodology for Evaluating Spatiotemporal Visual Analytics</strong><br /> Authors: Steven Gomez, Hua Guo, Caroline Ziemkiewicz, David H. Laidlaw<br /> <a href="http://vimeo.com/102599535">Video Preview</a><br /> <br /> <strong>Weaving a Carpet from Log Entries: a Network Security Visualization Built with Co-Creation</strong><br /> Authors: Johannes Landstorfer, Ivo Herrmann, Jan-Erik Stange, Marian Dörk, Reto Wettach<br /> <a href="http://vimeo.com/102600193">Video Preview</a><br /><br /><strong>Analyzing High-dimensional Multivariate Network Links with Integrated Anomaly Detection, Highlighting and Exploration</strong><br /> Authors: Sungahn Ko, Shehzad Afzal, Simon Walton, Yang Yang, Junghoon Chae, Abish Malik, Yun Jang, Min Chen, David Ebert<br /> <a href="http://vimeo.com/102601047">Video Preview</a><br /> <br /> <strong>Visual Analysis of Patterns in Multiple Amino Acid Mutation Graphs</strong><br /> Authors: Olav Lenz, Frank Keul, Sebastian Bremm, Kay Hamacher, Tatiana von Landesberger<br /> <a href="http://vimeo.com/102599781">Video Preview</a><br /> <br /> <strong>A Visual Reasoning Approach for Data-driven Transport Assessment on Urban Roads</strong><br /> Authors: Fei Wang, Wei Chen, Feiran Wu, Ye Zhao, Han Hong, Tianyu Gu, Long Wang, Ronghua Liang, Hujun Bao<br /> <a href="http://vimeo.com/102600573">Video Preview</a></p><p>&nbsp;</p> <hr /><p><a name="THU1"></a><strong>THURSDAY, NOVEMBER 13<br /></strong><strong style="line-height: 20.3999996185303px;">08:30-10:10<br /></strong><em style="line-height: 20.3999996185303px;"><span style="text-decoration: underline;">VAST: Searching and Tracking<br /></span><em style="line-height: 20.3999996185303px;"><em style="line-height: 20.3999996185303px;">Session Chair: William Pike</em></em></em></p> <p><strong>DecisionFlow: Visual Analytics for High-Dimensional Temporal Event Sequence Data</strong><br /> Authors: David Gotz, Harry Stavropoulos<br /> <a href="http://vimeo.com/102599783">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875996&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Footprints: A Visual Search Tool that Supports Discovery and Coverage Tracking</strong><br /> Authors: Ellen Isaacs, Kelly Domico, Shane Ahern, Eugene Bart, Mudita Singhal<br /> <a href="http://vimeo.com/102600955">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875947&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Visual Analytics for Complex Engineering Systems: Hybrid Visual Steering of Simulation Ensembles</strong><br /> Authors: Krešimir Matković, Denis Gracanin, Rainer Splechtna, Mario Jelovic, Benedikt Stehno, Helwig Hauser, Werner Purgathofer<br /> <a href="http://vimeo.com/102809061">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6876045&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Visual Exploration of Sparse Traffic Trajectory Data</strong><br /> Authors: Zuchao Wang, Tangzhi Ye, Min Lu, Xiaoru Yuan, Huamin Qu, Jacky Yuan, Qianliang Wu<br /> <a href="http://vimeo.com/102601577">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6876014&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>DIA2: Web-based Cyberinfrastructure for Visual Analysis of Funding Portfolio</strong><br /> Authors: Krishna Madhavan, Niklas Elmqvist, Mihaela Vorvoreanu, Xin Chen, Yuet Ling Wong, Hanjun Xian, Zhihua Dong, Aditya Johri<br /> <a href="http://vimeo.com/102601344">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6876046&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /></p> <hr /><p><a name="THU2"></a><strong>THURSDAY, NOVEMBER 13<br /></strong><strong style="line-height: 20.3999996185303px;">08:30-10:10<br /></strong><em style="line-height: 20.3999996185303px;"><span style="text-decoration: underline;">INFOVIS: Evaluation<br /></span><em style="line-height: 20.3999996185303px;"><em style="line-height: 20.3999996185303px;">Session Chair: Heidi Lam</em></em></em></p> <p><strong>Comparative Eye Tracking Study on Node-Link Visualizations of Trajectories</strong><br /> Authors: Rudolf Netzel, Michael Burch, Daniel Weiskopf<br /> <a href="http://vimeo.com/102605490">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875968&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Node, Node-Link, and Node-Link-Group Diagrams: An Evaluation</strong><br /> Authors: Bahador Saket, Paolo Simonetto, Stephen Kobourov, Katy Borner<br /> <a href="http://vimeo.com/102606410">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6876036&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>The Not-so-Staggering Effect of Staggered Animated Transitions on Visual Tracking</strong><br /> Authors: Fanny Chevalier, Pierre Dragicevic, Steven Franconeri<br /> <a href="http://vimeo.com/102606411">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6876010&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>The Influence of Contour on Similarity Perception of Star Glyphs</strong><br /> Authors: Johannes Fuchs, Petra Isenberg, Anastasia Bezerianos, Fabian Fischer, Enrico Bertini<br /> <a href="http://vimeo.com/102605822">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875973&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Order of Magnitude Markers: An Empirical Study on Large Magnitude Number Detection</strong><br /> Authors: Rita Borgo, Joel Dearden, Mark W. Jones<br /> <a href="http://vimeo.com/102606149">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875940&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /></p> <hr /><p><a name="THU3"></a><strong>THURSDAY, NOVEMBER 13<br /></strong><strong style="line-height: 20.3999996185303px;">08:30-10:10<br /></strong><em style="line-height: 20.3999996185303px;"><span style="text-decoration: underline;">SCIVIS: Maps and Topology<br /></span><em style="line-height: 20.3999996185303px;">Session Chair: Shigeo Takahashi</em></em></p> <p><strong>Visualizing 2-dimensional manifolds with curve handles in 4D</strong><br /> Authors: Hui Zhang, Jianguang Weng, Guangchen Ruan<br /> <a href="http://vimeo.com/102507477">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6876027&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Fast and Memory-Efficient Topological Denoising of 2D and 3D Scalar Fields</strong><br /> Authors: David Guenther, Alec Jacobson, Jan Reininghaus, Hans-Peter Seidel, Olga Sorkine-Hornung, Tino Weinkauf<br /> <a href="http://vimeo.com/102508038">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875939&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Conforming Morse-Smale Complexes</strong><br /> Authors: Attila Gyulassy, David Guenther, Joshua A. Levine, Julien Tierny, Valerio Pascucci<br /> <a href="http://vimeo.com/102508931">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875918&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Escape Maps</strong><br /> Authors: Gustavo Mello Machado, Filip Sadlo, Thomas Müller, Thomas Ertl<br /> <a href="http://vimeo.com/102508486">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875962&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Visualization of Regular Maps: The Chase Continues</strong><br /> Authors: Jarke J. van Wijk<br style="line-height: 20.3999996185303px;" /><a style="line-height: 20.3999996185303px;" href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6887357&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /></p> <hr /><p><a name="THU4"></a><strong>THURSDAY, NOVEMBER 13<br /></strong><strong style="line-height: 20.3999996185303px;">10:30-12:10<br /></strong><em style="line-height: 20.3999996185303px;"><span style="text-decoration: underline;">VAST: Visual Analytics in Infrastructural and Environmental Applications<br /></span><em style="line-height: 20.3999996185303px;"><em style="line-height: 20.3999996185303px;">Session Chair: Laura McNamara</em></em></em></p> <p><strong>Visualizing Mobility of Public Transportation System</strong><br /> Authors: Wei Zeng, Chi-Wing Fu, Stefan Müller Arisona, Alexander Erath, Huamin Qu<br /> <a href="http://vimeo.com/102599786">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6876029&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Visual Analysis of Public Utility Service Problems in a Metropolis</strong><br /> Authors: Jiawan Zhang, Yanli E, Jing Ma, Yahui Zhao, Binghan Xu, Liting Sun, Jinyan Chen, Xiaoru Yuan<br style="line-height: 20.3999996185303px;" /><a style="line-height: 20.3999996185303px;" href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6876008&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>VASA: Interactive Computational Steering of Large Asynchronous Simulation Pipelines for Societal Infrastructure</strong><br /> Authors: Sungahn Ko, Jieqiong Zhao, Jing Xia, Xiaoyu Wang, Greg Abram, Niklas Elmqvist, Shaun Kennedy, Kelly Gaither, William Tolone, William Ribarsky, David Ebert<br /> <a href="http://vimeo.com/102599784">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875926&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Proactive Spatiotemporal Resource Allocation and Predictive Visual Analytics for Community Policing and Law Enforcement</strong><br /> Authors: Abish Malik, Ross Maciejewski, Sherry Towers, Sean McCullough, David Ebert<br /> <a href="http://vimeo.com/102600217">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875970&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Run Watchers: Automatic Simulation-Based Decision Support in Flood Management</strong><br /> Authors: Artem Konev, Jürgen Waser, Bernhard Sadransky, Daniel Cornel, Rui A. P. Perdigão, Zsolt Horváth, Eduard Gröller<br /> <a href="http://vimeo.com/102602088">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875941&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /></p> <hr /><p><a name="THU5"></a><strong>THURSDAY, NOVEMBER 13<br /></strong><strong style="line-height: 20.3999996185303px;">10:30-12:10<br /></strong><em style="line-height: 20.3999996185303px;"><span style="text-decoration: underline;">INFOVIS: Applications<br /></span><em style="line-height: 20.3999996185303px;"><em style="line-height: 20.3999996185303px;">Session Chair: Miriah Meyer</em></em></em></p> <p><strong>LiveGantt: Interactively Visualizing a Large Manufacturing Schedule</strong><br /> Authors: Jaemin Jo, Jaeseok Huh, Jonghun Park, Bohyoung Kim, Jinwook Seo<br /> <a href="http://vimeo.com/102604286">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875942&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>TenniVis: Visualization for Tennis Match Analysis</strong><br /> Authors: Tom Polk, Jing Yang, Yueqi Hu, Ye Zhao<br /> <a href="http://vimeo.com/102604996">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6876044&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Combing the Communication Hairball: Visualizing Large-Scale Parallel Execution Traces using Logical Time</strong><br /> Authors: Katherine Isaacs, Peer-Timo Bremer, Ilir Jusufi, Todd Gamblin, Abhinav Bhatele, Martin Schulz, Bernd Hamann<br /> <a href="http://vimeo.com/102604994">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6876005&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>MovExp: A Versatile Visualization Tool for Human-Computer Interaction Studies with 3D Performance and Biomechanical Data</strong><br /> Authors: Gregorio Palmas, Myroslav Bachynskyi, Antti Oulasvirta, Hans-Peter Seidel, Tino Weinkauf<br /> <a href="http://vimeo.com/102604514">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6876050&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>NeuroLines: A Subway Map Metaphor for Visualizing Nanoscale Neuronal Connectivity</strong><br /><span style="text-decoration: underline;"><em><strong>[INFOVIS HONORABLE MENTION AWARD]<br /></strong></em></span>Authors: Ali Al-Awami, Johanna Beyer, Hendrik Strobelt, Narayanan Kasthuri, Jeff W. Lichtman, Hanspeter Pfister, Markus Hadwiger<br /> <a href="http://vimeo.com/102604279">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875935&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /></p> <hr /><p><a name="THU6"></a><strong>THURSDAY, NOVEMBER 13<br /></strong><strong style="line-height: 20.3999996185303px;">10:30-12:10<br /></strong><em style="line-height: 20.3999996185303px;"><span style="text-decoration: underline;">SCIVIS: Visual Integration and Design<br /></span><em style="line-height: 20.3999996185303px;">Session Chair: Xiaoru Yuan</em></em></p> <p><strong>City Forensics: Using Visual Elements to Predict Non-Visual City Attributes</strong><br /><span style="text-decoration: underline;"><em><strong>[SCIVIS HONORABLE MENTION AWARD]<br /></strong></em></span>Authors: Sean Arietta, Alexei Efros, Ravi Ramamoorthi, Maneesh Agrawala<br style="line-height: 20.3999996185303px;" /><a style="line-height: 20.3999996185303px;" href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875954&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Using Topological Analysis to Support Event-Guided Exploration in Urban Data</strong><br /> Authors: Harish Doraiswamy, Nivan Ferreira, Theodoros Damoulas, Juliana Freire, Claudio Silva<br /> <a href="http://vimeo.com/102510557">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6876004&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <span style="font-weight: bold;">Activity Detection in Scientific Visualization</span><br /> Authors: Sedat Ozer, Deborah Silver, Karen Bemis, Pino Martin<br /> <a href="http://vimeo.com/102525663">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6583163&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Trend-Centric Motion Visualization: Designing and Applying a new Strategy for Analyzing Scientific Motion Collections</strong><br /> Authors: David Schroeder, Fedor Korsakov, Carissa Mai-Ping Knipe, Lauren Thorson, Arin M. Ellingson, David Nuckley, John Carlis, Daniel F. Keefe<br /> <a href="http://vimeo.com/102508928">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875981&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Curve Boxplot: Generalization of Boxplot for Ensembles of Curves</strong><br /> Authors: Mahsa Mirzargar, Ross Whitaker, Mike Kirby<br style="line-height: 20.3999996185303px;" /><a style="line-height: 20.3999996185303px;" href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875964&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /></p> <hr /><p><a name="THU7"></a><strong>THURSDAY, NOVEMBER 13<br /></strong><strong style="line-height: 20.3999996185303px;">14:00-15:40<br /></strong><em style="line-height: 20.3999996185303px;"><span style="text-decoration: underline;">VAST: Visual Analysis of Changes<br /></span><em style="line-height: 20.3999996185303px;"><em style="line-height: 20.3999996185303px;">Session Chair: Zhicheng Liu</em></em></em></p> <p><strong>Using Visualizations to Monitor Changes and Harvest Insights from a Global-Scale Logging Infrastructure at Twitter</strong><br /> Authors: Krist Wongsuphasawat, Jimmy Lin<br /> <a href="http://vimeo.com/102602582">Video Preview</a><br /> <br /> <span style="font-weight: bold;">HydroQual: Visual Analysis of River Water Quality</span><br /> Authors: Pierre Accorsi, Mickaël Fabrègue, Arnaud Sallaberry, Flavie Cernesson, Nathalie Lalande, Agnès Braud, Sandra Bringay, Florence Le Ber, Pascal Poncelet, Maguelonne Teisseire<br /> <a href="http://vimeo.com/102600189">Video Preview</a><br /> <br /> <strong>Vismate: Interactive Visual Analysis of Station-Based Observation Data on Climate Changes</strong><br /> Authors: Jie Li, Kang Zhang, Zhao-Peng Meng<br /> <a href="http://vimeo.com/102600570">Video Preview</a><br /> <br /> <strong>BoundarySeer: Visual Analysis of 2D Boundary Changes</strong><br /> Authors: Wenchao Wu, Yixian Zheng, Huamin Qu, Wei Chen, Eduard Gröller, Lionel Ni<br /> <a href="http://vimeo.com/102601291">Video Preview</a><br /> <br /> <strong>YMCA - Your Mesh Comparison Application</strong><br /> Authors: Johanna Schmidt, Reinhold Preiner, Thomas Auzinger, Michael Wimmer, Eduard Gröller, Stefan Bruckner<br /> <a href="http://vimeo.com/102601578">Video Preview</a><br /> <br /></p> <hr /><p><a name="THU8"></a><strong>THURSDAY, NOVEMBER 13<br /></strong><strong style="line-height: 20.3999996185303px;">14:00-15:40<br /></strong><em style="line-height: 20.3999996185303px;"><span style="text-decoration: underline;">SCIVIS: Data Transformation and Comparative Visualization<br /></span><em style="line-height: 20.3999996185303px;">Session Chair: Hans-Christian Hege</em></em></p> <p><strong>Volume-Preserving Mapping and Registration for Collective Data Visualization</strong><br /> Authors: Jiaxi Hu, Guangyu Jeff Zou, Jing Hua<br /> <a href="http://vimeo.com/102509842">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875953&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Fixed-Rate Compressed Floating-Point Arrays</strong><br /> Authors: Peter Lindstrom<br style="line-height: 20.3999996185303px;" /><a style="line-height: 20.3999996185303px;" href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6876024&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Decomposition and Simplification of Multivariate Data using Pareto Sets</strong><br /> Authors: Lars Huettenberger, Christian Heine, Christoph Garth<br /> <a href="http://vimeo.com/102508778">Video Preview</a><br /> <br /> <strong>Multi-Charts for Comparative 3D Ensemble Visualization</strong><br /> Authors: Ismail Demir, Christian Dick, Rüdiger Westermann<br /> <a href="http://vimeo.com/102506845">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875990&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Stent maps – Comparative visualization for the prediction of adverse events of transcatheter aortic valve implantations</strong><br /> Authors: Silvia Born, Simon Sündermann, Christoph Russ, Raoul Hopf, Carlos Ruiz, Volkmar Falk, Michael Gessat<br /> <a href="http://vimeo.com/102507478">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875945&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /></p> <hr /><p><a name="THU9"></a><strong>THURSDAY, NOVEMBER 13<br /></strong><strong style="line-height: 20.3999996185303px;">16:15-17:55<br /></strong><em style="line-height: 20.3999996185303px;"><span style="text-decoration: underline;">VAST: Visual Analysis of Semantic Meanings<br /></span><em style="line-height: 20.3999996185303px;"><em style="line-height: 20.3999996185303px;">Session Chair: Jorn Kohlhammer</em></em></em></p> <p><strong>Multi-Model Semantic Interaction for Text Analytics</strong><br /> Authors: Lauren Bradel, Chris North, Leanna House, Scotland Leman<br /> <a href="http://vimeo.com/102599532">Video Preview</a><br /> <br /> <strong>Serendip: Topic Model-Driven Visual Exploration of Text Corpora</strong><br /> Authors: Eric Alexander, Joe Kohlmann, Michael Witmore, Robin Valenza, Michael Gleicher<br /> <a href="http://vimeo.com/102602086">Video Preview</a><br /> <br /> <strong>TopicPanorama: a Full Picture of Relevant Topics</strong><br /> Authors: Shixia Liu, Xiting Wang, Jianfei Chen, Jun Zhu, Baining Guo<br /> <a href="http://vimeo.com/102600569">Video Preview</a><br /> <br /> <strong>Integrating Predictive Analytics and Social Media</strong><br /> Authors: Yafeng Lu, Robert Krueger, Dennis Thom, Feng Wang, Steffen Koch, Thomas Ertl, Ross Maciejewski<br /> <a href="http://vimeo.com/102600191">Video Preview</a><br /> <br /> <strong>PEARL: An Interactive Visual Analytic Tool for Understanding Personal Emotion Style Derived from Social Media</strong><br /> Authors: Jian Zhao, Liang Gou, Fei Wang, Michelle Zhou<br /> <a href="http://vimeo.com/102600918">Video Preview</a><br /> <br /></p> <hr /><p><a name="THU10"></a><strong>THURSDAY, NOVEMBER 13<br /></strong><strong style="line-height: 20.3999996185303px;">16:15-17:55<br /></strong><em style="line-height: 20.3999996185303px;"><span style="text-decoration: underline;">INFOVIS: Perception &amp; Design<br /></span><em style="line-height: 20.3999996185303px;"><em style="line-height: 20.3999996185303px;">Session Chair: Petra Isenberg</em></em></em></p> <p><strong>Learning Perceptual Kernels for Visualization Design</strong><br /> Authors: Çağatay Demiralp, Michael Bernstein, Jeffrey Heer<br /><a href="https://vimeo.com/110883459">Video Preview</a><br /> <a style="line-height: 20.3999996185303px;" href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875950&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Ranking Visualization of Correlation Using Weber’s Law</strong><br /> Authors: Lane Harrison, Fumeng Yang, Steven Franconeri, Remco Chang<br /> <a href="http://vimeo.com/102605825">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875978&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>The relation between visualization size, grouping, and user performance</strong><br /> Authors: Connor Gramazio, Karen Schloss, David Laidlaw<br /> <a href="http://vimeo.com/102606409">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875989&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>A Principled Way of Assessing Visualization Literacy</strong><br /> Authors: Jeremy Boy, Ronald Rensink, Enrico Bertini, Jean-Daniel Fekete<br style="line-height: 20.3999996185303px;" /><a style="line-height: 20.3999996185303px;" href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875906&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Reinforcing Visual Grouping Cues to Communicate Complex Informational Structure</strong><br /> Authors: Juhee Bae, Benjamin Watson<br /> <a href="http://vimeo.com/102604991">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875960&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /></p> <p><em><span style="text-decoration: underline;"><br /></span></em></p> <hr /><p><a name="FRI1"></a><strong>FRIDAY, NOVEMBER 14<br /></strong><strong style="line-height: 20.3999996185303px;">08:30-10:10<br /></strong><em style="line-height: 20.3999996185303px;"><span style="text-decoration: underline;">VAST: Visual Analytics in Scientific Applications<br /></span><em style="line-height: 20.3999996185303px;"><em style="line-height: 20.3999996185303px;">Session Chair: Andreas Kerren</em></em></em></p> <p><strong>ConTour: Data-Driven Exploration of Multi-Relational Datasets for Drug Discovery</strong><br /> Authors: Christian Partl, Alexander Lex, Marc Streit, Hendrik Strobelt, Anne-Mai Wassermann, Hanspeter Pfister, Dieter Schmalstieg<br /> <a href="http://vimeo.com/102601576">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875994&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Visual Analytics for Comparison of Ocean Model Output with Reference Data: Detecting and Analyzing Geophysical Processes Using Clustering Ensembles</strong><br /> Authors: Patrick Köthur, Mike Sips, Henryk Dobslaw, Doris Dransch<br /> <a href="http://vimeo.com/102601981">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6876007&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Genotet: An Interactive Web-based Visual Exploration Framework to Support Validation of Gene Regulatory Networks</strong><br /> Authors: Bowen Yu, Harish Doraiswamy, Xi Chen, Emily Miraldi, Mario Luis Arrieta-Ortiz, Christoph Hafemeister, Aviv Madar, Richard Bonneau, Claudio Silva<br /> <a href="http://vimeo.com/102601345">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6876028&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>The Spinel Explorer - Interactive Visual Analysis of Spinel Group Minerals</strong><br /> Authors: M. Luján Ganuza, Gabriela R. Ferracutti, M.Florencia Gargiulo, Silvia M. Castro, Ernesto A. Bjerg, Eduard Gröller, Kresimir Matkovic<br /> <a href="http://vimeo.com/102602087">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875977&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Visual Reconciliation of Alternative Similarity Spaces in Climate Modeling</strong><br /> Authors: Jorge Poco, Aritra Dasgupta, Yaxing Wei, William Hargrove, Christopher Schwalm, Deborah Huntzinger, Robert Cook, Enrico Bertini, Claudio Silva<br /> <a href="http://vimeo.com/102602085">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6876041&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /></p> <hr /><p><a name="FRI2"></a><strong>FRIDAY, NOVEMBER 14<br /></strong><strong style="line-height: 20.3999996185303px;">08:30-10:10<br /></strong><em style="line-height: 20.3999996185303px;"><span style="text-decoration: underline;">INFOVIS: Documents, Search &amp; Images<br /></span><em style="line-height: 20.3999996185303px;"><em style="line-height: 20.3999996185303px;">Session Chair: Martin Wattenberg</em></em></em></p> <p><strong>Overview: The Design, Adoption, and Analysis of a Visual Document Mining Tool For Investigative Journalists</strong><br /> Authors: Matthew Brehmer, Stephen Ingram, Jonathan Stray, Tamara Munzner<br /> <a href="http://vimeo.com/102603842">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875900&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>How Hierarchical Topics Evolve in Large Text Corpora</strong><br /> Authors: Weiwei Cui, Shixia Liu, Zhuofeng Wu, Hao Wei<br /> <a href="http://vimeo.com/102604283">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875938&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Exploring the Placement and Design of Word-Scale Visualizations</strong><br /> Authors: Pascal Goffin, Wesley Willett, Jean-Daniel Fekete, Petra Isenberg<br /> <a href="http://vimeo.com/102605489">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875917&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <span style="font-weight: bold;">Similarity Preserving Snippet-Based Visualization of Web Search Results</span><br /> Authors: Erick Gomez-Nieto, Frizzi San Roman, Paulo Pagliosa, Wallace Casaca, Elias S. Helou, Maria Cristina Ferreira de Oliveira, Luis Gustavo Nonato<br /> <a href="http://vimeo.com/102525332">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6629989&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <strong>Effects of Presentation Mode and Pace Control on Performance in Image Classification</strong><br /> Authors: Paul van der Corput, Jarke J. van Wijk<br /> <a href="http://vimeo.com/102603566">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6875979&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /></p> <hr /><p><a name="FRI3"></a><strong>FRIDAY, NOVEMBER 14<br /></strong><strong style="line-height: 20.3999996185303px;">08:30-10:10<br /></strong><em style="line-height: 20.3999996185303px;"><span style="text-decoration: underline;">SCIVIS: Video and High Dimensional Data<br /></span><em style="line-height: 20.3999996185303px;">Session Chair: Wei Chen</em></em></p> <p><span style="font-weight: bold;">A Structure-Based Distance Metric for High-Dimensional Space Exploration with Multi-Dimensional Scaling</span><br /> Authors: J. Lee, K. McDonnell, A. Zelenyuk, D. Imre, K. Mueller<br /> <a href="http://vimeo.com/107739561">Video Preview</a><br style="line-height: 20.3999996185303px;" /><a style="line-height: 20.3999996185303px;" href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6560006&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <span style="font-weight: bold;">An Approach to Supporting Incremental Visual Data Classification</span><br /> Authors: Jose Gustavo S. Paiva, William Robson Schwartz, Helio Pedrini, Rosane Minghim<br /> <a href="http://vimeo.com/103884940">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6840370&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <span style="font-weight: bold;">Glyph-Based Video Visualization for Semen Analysis</span><br /> Authors: Brian Duffy, Jeyarajan Thiyagalingam, Simon Walton, David J. Smith, Anne Trefethen, Jackson C. Kirkman-Brown, Eamonn A. Gaffney and Min Chen<br /> <a href="http://vimeo.com/102525333">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6684146&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <span style="font-weight: bold;">The Impact of Interactivity on Comprehending 2D and 3D Visualizations of Movement Data</span><br /> Authors: Fereshteh Amini, Sébastien Rufiange, Zahid Hossain, Quentin Ventura, Pourang Irani, and Michael J. McGuffin<br style="line-height: 20.3999996185303px;" /><a style="line-height: 20.3999996185303px;" href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6826569&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /> <span style="font-weight: bold;">GazeVis: Interactive 3D Gaze Visualization for Contiguous Cross-sectional Medical Images</span><br /> Authors: Hyunjoo Song, Jihye Yun, Bohyoung Kim, Jinwook Seo<br /> <a href="http://vimeo.com/104343529">Video Preview</a><br /><a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6687159&amp;contentType=Early+Access+Articles">Full Paper URL</a><br /> <br /></p>  </div>
+
+  <div class="clear-block">
+    <div class="meta">
+        </div>
+  </div>
+
+</div>
+          </div>
+                </div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+              <div id="sidebar-right" class="sidebar">
+                    <div id="block-block-8" class="clear-block block block-block">
+<!--
+-->
+  <div class="content"><div class="sidebar-title" id="important-dates">Important Dates</div>
+<div class="event-title"><strike><strong>March 21st</strong><br><a	href="http://ieeevis.org/year/2016/info/call-participation/paper-submission-guidelines">Papers - abstract deadline</a></strike></div>
+<div class="event-title"><strike><strong>March 31st</strong><br><a	href="http://ieeevis.org/year/2016/info/call-participation/paper-submission-guidelines">Papers - submission deadline</a></strike></div>
+<div class="event-title"><strike><strong>April 30th</strong><br><a	href="http://ieeevis.org/year/2016/info/call-participation/tutorials">Tutorials - proposal submission deadline</a><br><a href="">Workshops - proposal submission deadline</a></strike></div>
+<div class="event-title"><strike><strong>May 25th</strong><br><a	href="http://ieeevis.org/year/2016/info/call-participation/doctoral-colloquium">Doctoral Colloquium - submission deadline</a></strike></div>
+<div class="event-title"><strike><strong>June 6th</strong><br><a	href="http://ieeevis.org/year/2016/info/call-participation/paper-submission-guidelines">Papers - notification of results of first review cycle</a></strike></div>
+<div class="event-title"><strike><strong>June 12th</strong><br><a  href="http://www.vissv.org/visweektasksystem/htdocs/shirtcontest.html
+">Student Volunteers - T-shirt design contest deadline</a></strike></div>
+<div class="event-title"><strike><strong>June 15th</strong><br><a	href="http://ieeevis.org/year/2016/info/call-participation/panels">Panels - submission deadline</a></strike></div>
+<div class="event-title"><strike><strong>June 24th</strong></strike><br><a	href="http://ieeevis.org/year/2016/info/call-participation/posters">Posters - submission deadline</a></strike></div>
+<div class="event-title"><strike><strong>June 27th</strong><br><a	href="http://ieeevis.org/year/2016/info/call-participation/paper-submission-guidelines">Papers - submission deadline for second review cycle</a></strike></div>
+<div class="event-title"><strike><strong>July 11th</strong><br><a	href="http://ieeevis.org/year/2016/info/call-participation/paper-submission-guidelines">Papers - final notification</a></strike></div>
+<div class="event-title"><strike><strong>August 1st</strong><br><a	href="http://ieeevis.org/year/2016/info/call-participation/paper-submission-guidelines">Papers - camera-ready submission deadline</a>
+<br><a href="http://www.vissv.org/visweektasksystem/htdocs/application.html">Student Volunteers - application deadline</a>
+<br><a href="http://www.vissv.org/visweektasksystem/htdocs/tshirt.php">Student Volunteers - T-shirt design vote deadline</a>
+</strike></div>
+<div class="event-title"><strong>September 4th</strong><br><a	href="http://ieeevis.org/year/2016/info/call-participation/meetups">Meetups - proposal submission deadline</a></div>
+<div class="event-title"><strong>September 9th</strong><br><a	href="#">VIS registration - early bird deadline</a></div>
+
+</div>
+</div>
+<div id="block-block-6" class="clear-block block block-block">
+<!--
+-->
+  <div class="content"><script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script><script>
+function guessYear()
+{
+    // Tries to guess current year based on the HREF
+    try {
+        var year = window.location.pathname.split("/")[2];
+        return Number(year) || 2016;
+    } catch (e) {
+        console.error("Could not guess year! Defaulting to 2016", window.location);
+        return 2016;
+    }
+}
+
+sponsorsJson = [
+    {
+        "class": "Platinum",
+        "href": "http://www.kaust.edu.sa/",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/logo_with_text_white.png",
+        "year": 2011
+    },
+    {
+        "class": "Platinum",
+        "href": "http://www.microsoft.com/",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/ms-logo_bL.png",
+        "year": 2011
+    },
+    {
+        "class": "Platinum",
+        "href": "http://www.tableausoftware.com/",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/Padded_Tableau_Logo.jpg",
+        "year": 2011
+    },
+    {
+        "class": "Gold",
+        "href": "http://www.nlm.nih.gov/",
+        "src": "/attachments\u2026pporterssites/visweek.vgtc.org/files/supporter/NLMLOGOBlueReproOutline.png",
+        "year": 2011
+    },
+    {
+        "class": "Gold",
+        "href": "http://www.sci.utah.edu/",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/SCI-logo-mono.png",
+        "year": 2011
+    },
+    {
+        "class": "Silver",
+        "href": "http://www.research.ibm.com/",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/ibm_high.gif",
+        "year": 2011
+    },
+    {
+        "class": "Silver",
+        "href": "http://www.intel.com/",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/intel.png",
+        "year": 2011
+    },
+    {
+        "class": "Silver",
+        "href": "http://www.pnl.gov/computing/resources/nvac.stm",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/NVAC_DHS.jpg",
+        "year": 2011
+    },
+    {
+        "class": "Silver",
+        "href": "http://www.pnl.gov/",
+        "src": "/attachments\u2026porterssites/visweek.vgtc.org/files/supporter/PNNL_Color_Logo_Vertical.jpg",
+        "year": 2011
+    },
+    {
+        "class": "Silver",
+        "href": "http://www.velir.com/",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/VelirLogo_3-colorPMS.jpg",
+        "year": 2011
+    },
+    {
+        "class": "Publisher",
+        "href": "http://www.akpeters.com/",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/ak_peters.jpg",
+        "year": 2011
+    },
+    {
+        "class": "Publisher",
+        "href": "http://www.morganclaypool.com",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/MCP_logo_02.jpg",
+        "year": 2011
+    },
+    {
+        "class": "Platinum Plus",
+        "href": "http://www.ibm.com/",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/IBM.jpeg",
+        "year": 2012
+    },
+    {
+        "class": "Platinum Plus",
+        "href": "http://www.intel.com/",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/intel_0.png",
+        "year": 2012
+    },
+    {
+        "class": "Platinum Plus",
+        "href": "http://www.kaust.edu.sa/visweek",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/KAUST_0.png",
+        "year": 2012
+    },
+    {
+        "class": "Platinum Plus",
+        "href": "http://www.microsoft.com/",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/ms-logo_bL_0.png",
+        "year": 2012
+    },
+    {
+        "class": "Platinum Plus",
+        "href": "http://www.tableausoftware.com/",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/tableau_cmyk.png",
+        "year": 2012
+    },
+    {
+        "class": "Gold",
+        "href": "http://www.pnnl.gov/",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/PNNL.png",
+        "year": 2012
+    },
+    {
+        "class": "Silver",
+        "href": "http://www.att.com/",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/ATT_new_ai.png",
+        "year": 2012
+    },
+    {
+        "class": "Silver",
+        "href": "http://www.battelle.org/",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/Battelle%20Logo.jpg",
+        "year": 2012
+    },
+    {
+        "class": "Silver",
+        "href": "http://www.igd.fraunhofer.de/en/",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/IGD.png",
+        "year": 2012
+    },
+    {
+        "class": "Silver",
+        "href": "http://www.infinitez.com/",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/infinitez.png",
+        "year": 2012
+    },
+    {
+        "class": "Silver",
+        "href": "http://www.nlm.nih.gov/",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/NLM.png",
+        "year": 2012
+    },
+    {
+        "class": "Silver",
+        "href": "http://www.sci.utah.edu/",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/sci-logo-one-color.png",
+        "year": 2012
+    },
+    {
+        "class": "Silver",
+        "href": "http://www.vacommunity.org/",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/VACommunityLogo.png",
+        "year": 2012
+    },
+    {
+        "class": "Academic",
+        "href": "http://www.purdue.edu/discoverypark/vaccine/index.php",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/vaccine_logo.png",
+        "year": 2012
+    },
+    {
+        "class": "Publisher",
+        "href": "http://www.akpeters.com/",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/akPeters.png",
+        "year": 2012
+    },
+    {
+        "class": "Publisher",
+        "href": "http://www.morganclaypool.com/",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/MCP.jpeg",
+        "year": 2012
+    },
+    {
+        "class": "Symposium Sponsor",
+        "href": "http://www.agilent.com/",
+        "src": "/attachments\u2026erssites/visweek.vgtc.org/files/supporter/Agilent_4c_CorporateSig-noHL.JPG",
+        "year": 2012
+    },
+    {
+        "class": "Symposium Sponsor",
+        "href": "http://www.autodesk.com/",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/Autodesk_logo.jpg",
+        "year": 2012
+    },
+    {
+        "class": "Symposium Sponsor",
+        "href": "http://www.kitware.com/",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/kitware.png",
+        "year": 2012
+    },
+    {
+        "class": "Symposium Sponsor",
+        "href": "http://www.nature.com/nmeth/index.html",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/NMeth%20logo.png",
+        "year": 2012
+    },
+    {
+        "class": "Symposium Sponsor",
+        "href": "http://www.sci.utah.edu/",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/sci-logo-one-color_0.png",
+        "year": 2012
+    },
+    {
+        "class": "Symposium Sponsor",
+        "href": "http://www.nationwidechildrens.org/battelle-center-for-mathematical-medicine",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/nationwide-childrens.png",
+        "year": 2012
+    },
+    {
+        "class": "Symposium Sponsor",
+        "href": "http://energy.gov/",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/doe.png",
+        "year": 2012
+    },
+    {
+        "class": "Platinum",
+        "href": "http://www.cisco.com/",
+        "src": "/attachments/supporters/tmp/Cisco_Logo.png",
+        "year": 2013
+    },
+    {
+        "class": "Platinum",
+        "href": "http://www.nvidia.com/",
+        "src": "/attachments/supporters/tmp/nvidia.jpg",
+        "year": 2013
+    },
+    {
+        "class": "Gold",
+        "href": "http://www.microsoft.com/",
+        "src": "/attachments/supporters/tmp/ms-logo.jpg",
+        "year": 2013
+    },
+    {
+        "class": "Silver",
+        "href": "http://www.agilent.com/",
+        "src": "/attachments/supporters/tmp/agilent_logo.png",
+        "year": 2013
+    },
+    {
+        "class": "Silver",
+        "href": "http://www.ibm.com/",
+        "src": "/attachments/supporters/tmp/ibm-logo.png",
+        "year": 2013
+    },
+    {
+        "class": "Silver",
+        "href": "http://www.kaust.edu.sa/",
+        "src": "/attachments/supporters/tmp/Untitled.png",
+        "year": 2013
+    },
+    {
+        "class": "Bronze",
+        "href": "http://www.autodesk.com/",
+        "src": "/attachments/supporters/tmp/autodesk-logo-rgb-color-logo-black-text-medium.png",
+        "year": 2013
+    },
+    {
+        "class": "Bronze",
+        "href": "http://www.mathmed.org/",
+        "src": "/attachments/supporters/tmp/battelle.png",
+        "year": 2013
+    },
+    {
+        "class": "Bronze",
+        "href": "http://www.kitware.com/",
+        "src": "/attachments/supporters/tmp/kitware_0.gif",
+        "year": 2013
+    },
+    {
+        "class": "Bronze",
+        "href": "http://www.pnnl.gov/",
+        "src": "/attachments/supporters/tmp/PNNL_Color_Logo_Horizontal1_os.png",
+        "year": 2013
+    },
+    {
+        "class": "Bronze",
+        "href": "http://www.sci.utah.edu/",
+        "src": "/attachments/supporters/tmp/sci-logo-one-color.png",
+        "year": 2013
+    },
+    {
+        "class": "Bronze",
+        "href": "http://www.tableausoftware.com/",
+        "src": "/attachments/supporters/tmp/tableau_cmyk.png",
+        "year": 2013
+    },
+    {
+        "class": "Bronze",
+        "href": "http://www.vis-sense.eu/",
+        "src": "/attachments/supporters/tmp/VIS-SENSE_Logo_Web.png",
+        "year": 2013
+    },
+    {
+        "class": "Bronze",
+        "href": "http://www.zspace.com/",
+        "src": "/attachments/supporters/tmp/zspace.gif",
+        "year": 2013
+    },
+    {
+        "class": "Start Up/Small Company Sponsor",
+        "href": "http://forio.com/",
+        "src": "/attachments/supporters/tmp/VECTOR_LOGO.png",
+        "year": 2013
+    },
+    {
+        "class": "Start Up/Small Company Sponsor",
+        "href": "http://www.zoomdata.com/",
+        "src": "/attachments/supporters/tmp/ZD_logo_big_cropped.png",
+        "year": 2013
+    },
+    {
+        "class": "Publisher",
+        "href": "http://www.crcpress.com/",
+        "src": "/attachments/supporters/tmp/CRCblue.jpg",
+        "year": 2013
+    },
+    {
+        "class": "Academic",
+        "href": "http://www.cc.gatech.edu/",
+        "src": "/attachments/supporters/tmp/GT-logo.png",
+        "year": 2013
+    },
+    {
+        "class": "Academic",
+        "href": "http://www.mica.edu/",
+        "src": "/attachments/supporters/tmp/mica-logo.png",
+        "year": 2013
+    },
+    {
+        "class": "Academic",
+        "href": "http://www.purdue.edu/discoverypark/vaccine/index.php",
+        "src": "/attachments/supporters/tmp/vaccine_logo.png",
+        "year": 2013
+    },
+    {
+        "class": "Non-Profit",
+        "href": "http://www.anl.gov/",
+        "src": "/attachments/supporters/tmp/argonne.jpg",
+        "year": 2013
+    },
+    {
+        "class": "Diamond",
+        "href": "http://www.inria.fr/",
+        "src": "/attachments/supporters/tmp/in.png",
+        "year": 2014
+    },
+    {
+        "class": "Diamond",
+        "href": "http://www.tableausoftware.com/",
+        "src": "/attachments/supporters/tmp/tableau_cmyk_lg.jpg",
+        "year": 2014
+    },
+    {
+        "class": "Platinum",
+        "href": "http://www.cea.fr/",
+        "src": "/attachments/supporters/tmp/CEA_GB_logotype.jpg",
+        "year": 2014
+    },
+    {
+        "class": "Platinum",
+        "href": "http://www.jcdecaux.com/en/",
+        "src": "/attachments/supporters/tmp/JCDecaux.png",
+        "year": 2014
+    },
+    {
+        "class": "Gold",
+        "href": "http://www.digiteo.fr/-en-",
+        "src": "/attachments/supporters/tmp/digiteo%202-logo%20gb%20baseline.png",
+        "year": 2014
+    },
+    {
+        "class": "Gold",
+        "href": "https://www.igd.fraunhofer.de/",
+        "src": "/attachments/supporters/tmp/fr.png",
+        "year": 2014
+    },
+    {
+        "class": "Gold",
+        "href": "http://www.microsoft.com/",
+        "src": "/attachments/supporters/tmp/ms-logo_0.jpg",
+        "year": 2014
+    },
+    {
+        "class": "Silver",
+        "href": "http://www.autodesk.com/",
+        "src": "/attachments/supporters/tmp/autodesk2.png",
+        "year": 2014
+    },
+    {
+        "class": "Silver",
+        "href": "http://www.campus-paris-saclay.fr/en/Idex-Paris-Saclay/Les-Lidex/Paris-Saclay-Center-for-Data-Science",
+        "src": "/attachments/supporters/tmp/CDS.png",
+        "year": 2014
+    },
+    {
+        "class": "Silver",
+        "href": "http://here.com/",
+        "src": "/attachments/supporters/tmp/here.JPG",
+        "year": 2014
+    },
+    {
+        "class": "Bronze",
+        "href": "http://www.adobe.com/",
+        "src": "/attachments/supporters/tmp/adobe_logo_standard.png",
+        "year": 2014
+    },
+    {
+        "class": "Bronze",
+        "href": "http://edf/com",
+        "src": "/attachments/supporters/tmp/edf.png",
+        "year": 2014
+    },
+    {
+        "class": "Bronze",
+        "href": "http://google.com/",
+        "src": "/attachments/supporters/tmp/google.png",
+        "year": 2014
+    },
+    {
+        "class": "Bronze",
+        "href": "http://www.ibm.com/",
+        "src": "/attachments/supporters/tmp/IBM_logo.png",
+        "year": 2014
+    },
+    {
+        "class": "Bronze",
+        "href": "http://www.iscpif.fr/",
+        "src": "/attachments/supporters/tmp/logo_m_orange-DIM.png",
+        "year": 2014
+    },
+    {
+        "class": "Bronze",
+        "href": "http://www.irt-systemx.fr/",
+        "src": "/attachments/supporters/tmp/sx.png",
+        "year": 2014
+    },
+    {
+        "class": "Bronze",
+        "href": "http://www.kitware.com/",
+        "src": "/attachments/supporters/tmp/PrintLogo_NoGradient.png",
+        "year": 2014
+    },
+    {
+        "class": "Bronze",
+        "href": "http://www.nvidia.com/",
+        "src": "/attachments/supporters/tmp/NVLogo_2D.JPG",
+        "year": 2014
+    },
+    {
+        "class": "Bronze",
+        "href": "http://www.scvis.fr/",
+        "src": "/attachments/supporters/tmp/LOGO-SCV2.png",
+        "year": 2014
+    },
+    {
+        "class": "Bronze",
+        "href": "http://www.techviz.net/",
+        "src": "/attachments/supporters/tmp/techviz.jpg",
+        "year": 2014
+    },
+    {
+        "class": "Bronze",
+        "href": "http://www.telecom-paristech.fr/nc/formation-et-innovation-dans-le-numerique.html",
+        "src": "/attachments/supporters/tmp/logo-TPT.png",
+        "year": 2014
+    },
+    {
+        "class": "Publisher",
+        "href": "http://www.crcpress.com/",
+        "src": "/attachments/supporters/tmp/CRC_RGB2.png",
+        "year": 2014
+    },
+    {
+        "class": "Publisher",
+        "href": "http://www.morganclaypool.com/",
+        "src": "/attachments/supporters/tmp/MCP_logo_02.jpg",
+        "year": 2014
+    },
+    {
+        "class": "Publisher",
+        "href": "http://www.springer.com/",
+        "src": "/attachments/supporters/tmp/Springer.jpg",
+        "year": 2014
+    },
+    {
+        "class": "Start Up/Small Company Sponsor",
+        "href": "http://www.aldecis.com/",
+        "src": "/attachments/supporters/tmp/aldecis-logo.jpg",
+        "year": 2014
+    },
+    {
+        "class": "Start Up/Small Company Sponsor",
+        "href": "https://www.dkrz.de/",
+        "src": "/attachments/supporters/tmp/dkrz_logo2.png",
+        "year": 2014
+    },
+    {
+        "class": "Start Up/Small Company Sponsor",
+        "href": "http://www.nsa.gov/",
+        "src": "/attachments/supporters/tmp/NSA2.jpg",
+        "year": 2014
+    },
+    {
+        "class": "Academic",
+        "href": "http://www.anl.gov/",
+        "src": "/attachments/supporters/tmp/ANL_4C_P_H2.png",
+        "year": 2014
+    },
+    {
+        "class": "Academic",
+        "href": "http://www.ocadu.ca/",
+        "src": "/attachments/supporters/tmp/OCAD.png",
+        "year": 2014
+    },
+    {
+        "class": "Academic",
+        "href": "http://www.sci.utah.edu/",
+        "src": "/attachments/supporters/tmp/SCI-logo-transparent-black-med.png",
+        "year": 2014
+    },
+    {
+        "class": "Academic",
+        "href": "http://www.visualdecision.fr/",
+        "src": "/attachments/supporters/tmp/logo-vd-petit.jpg",
+        "year": 2014
+    },
+    {
+        "class": "Academic",
+        "href": "http://www.visus.uni-stuttgart.de/en/institute.html",
+        "src": "/attachments/supporters/tmp/VISUS2.png",
+        "year": 2014
+    },
+    {
+        "class": "Academic",
+        "href": "http://www.vrvis.at/",
+        "src": "/attachments/supporters/tmp/VRVis-Logo.png",
+        "year": 2014
+    },
+    {
+        "class": "Diamond",
+        "href": "http://www.nsf.gov/",
+        "src": "/attachments/supporters/tmp/nsf_t.png",
+        "year": 2015
+    },
+    {
+        "class": "Diamond",
+        "href": "http://www.tableausoftware.com/",
+        "src": "/attachments/supporters/tmp/tab.png",
+        "year": 2015
+    },
+    {
+        "class": "Platinum",
+        "href": "http://www.autodesk.com/",
+        "src": "/attachments/supporters/tmp/autodesk_2015.png",
+        "year": 2015
+    },
+    {
+        "class": "Platinum",
+        "href": "http://www.intel.com/",
+        "src": "/attachments/supporters/tmp/intel_2015.png",
+        "year": 2015
+    },
+    {
+        "class": "Gold",
+        "href": "http://www.bloomberg.com/ux",
+        "src": "/attachments/supporters/tmp/bloomberg_t.png",
+        "year": 2015
+    },
+    {
+        "class": "Gold",
+        "href": "http://www.nvidia.com/",
+        "src": "/attachments/supporters/tmp/NVLogo_2D.PNG",
+        "year": 2015
+    },
+    {
+        "class": "Silver",
+        "href": "http://www.adobe.com/",
+        "src": "/attachments/supporters/tmp/adobe_2015.png",
+        "year": 2015
+    },
+    {
+        "class": "Silver",
+        "href": "http://att.com/",
+        "src": "/attachments/supporters/tmp/att1.png",
+        "year": 2015
+    },
+    {
+        "class": "Silver",
+        "href": "http://www.disneyresearch.com/",
+        "src": "/attachments/supporters/tmp/DR.png",
+        "year": 2015
+    },
+    {
+        "class": "Silver",
+        "href": "http://www.google.com/",
+        "src": "/attachments/supporters/tmp/google2015.png",
+        "year": 2015
+    },
+    {
+        "class": "Silver",
+        "href": "http://iacs.seas.harvard.edu/",
+        "src": "/attachments/supporters/tmp/iacs.png",
+        "year": 2015
+    },
+    {
+        "class": "Silver",
+        "href": "http://ibm.com/",
+        "src": "/attachments/supporters/tmp/IBM_t.png",
+        "year": 2015
+    },
+    {
+        "class": "Silver",
+        "href": "http://www.kaust.edu.sa/",
+        "src": "/attachments/supporters/tmp/kaust.png",
+        "year": 2015
+    },
+    {
+        "class": "Silver",
+        "href": "http://www.kitware.com/",
+        "src": "/attachments/supporters/tmp/kitware.png",
+        "year": 2015
+    },
+    {
+        "class": "Silver",
+        "href": "http://research.microsoft.com/",
+        "src": "/attachments/supporters/tmp/MSR_t.png",
+        "year": 2015
+    },
+    {
+        "class": "Silver",
+        "href": "http://www.pnnl.gov/",
+        "src": "/attachments/supporters/tmp/PNNL2.PNG",
+        "year": 2015
+    },
+    {
+        "class": "Silver",
+        "href": "https://www.nlm.nih.gov/",
+        "src": "/attachments/supporters/tmp/nlm.png",
+        "year": 2015
+    },
+    {
+        "class": "Silver",
+        "href": "https://uncharted.software/",
+        "src": "/attachments/supporters/tmp/Uncharted-rgb-Vertical_27Aug2015.png",
+        "year": 2015
+    },
+    {
+        "class": "Bronze",
+        "href": "http://www.act.org/",
+        "src": "/attachments/supporters/tmp/ACT-logo-Blue-cmyk.png",
+        "year": 2015
+    },
+    {
+        "class": "Bronze",
+        "href": "https://www.continuum.io/",
+        "src": "/attachments/supporters/tmp/Anaconda_Logo_0702.png",
+        "year": 2015
+    },
+    {
+        "class": "Bronze",
+        "href": "http://www.mechdyne.com/",
+        "src": "/attachments/supporters/tmp/mechdyne.png",
+        "year": 2015
+    },
+    {
+        "class": "Bronze",
+        "href": "http://plot.ly/",
+        "src": "/attachments/supporters/tmp/plotly_logo_for_web_outlined.png",
+        "year": 2015
+    },
+    {
+        "class": "Bronze",
+        "href": "http://renci.org/",
+        "src": "/attachments/supporters/tmp/renci_ss.png",
+        "year": 2015
+    },
+    {
+        "class": "Bronze",
+        "href": "http://vize.io/",
+        "src": "/attachments/supporters/tmp/New_Logo-VIZE-transparent-small.png",
+        "year": 2015
+    },
+    {
+        "class": "Academic",
+        "href": "http://www.niu.edu/",
+        "src": "/attachments/supporters/tmp/NIU_2015.png",
+        "year": 2015
+    },
+    {
+        "class": "Academic",
+        "href": "https://www.orau.org/",
+        "src": "/attachments/supporters/tmp/ORAU.png",
+        "year": 2015
+    },
+    {
+        "class": "Academic",
+        "href": "http://www.sci.utah.edu/",
+        "src": "/attachments/supporters/tmp/sci.png",
+        "year": 2015
+    },
+    {
+        "class": "Academic",
+        "href": "http://www.uic.edu/",
+        "src": "/attachments/supporters/tmp/uic1.png",
+        "year": 2015
+    },
+    {
+        "class": "Academic",
+        "href": "https://www.visus.uni-stuttgart.de/en/institute.html",
+        "src": "/attachments/supporters/tmp/VISUS.png",
+        "year": 2015
+    },
+    {
+        "class": "Academic",
+        "href": "http://www.vrvis.at/",
+        "src": "/attachments/supporters/tmp/vrvis_t.png",
+        "year": 2015
+    },
+    {
+        "class": "Publisher",
+        "href": "https://www.crcpress.com/",
+        "src": "/attachments/supporters/tmp/CRC.png",
+        "year": 2015
+    },
+    {
+        "class": "Publisher",
+        "href": "http://www.morganclaypool.com/",
+        "src": "/attachments/supporters/tmp/mcp.png",
+        "year": 2015
+    },
+    {
+        "class": "Publisher",
+        "href": "http://www.springer.com/",
+        "src": "/attachments/supporters/tmp/Springer_cmyk.png",
+        "year": 2015
+    },
+    {
+        "class": "Diamond",
+        "href": "http://www.nsf.gov/",
+        "src": "/attachments/supporters/tmp/nsf_t.png",
+        "year": 2016
+    },
+    {
+        "class": "Diamond",
+        "href": "http://www.tableausoftware.com/",
+        "src": "/attachments/supporters/tmp/tab.png",
+        "year": 2016
+    },
+    {
+        "class": "Platinum",
+        "href": "http://www.nvidia.com/",
+        "src": " /attachments/supporters/tmp/NVLogo_2D.PNG",
+        "year": 2016
+    },
+    {
+        "class": "Gold",
+        "href": "http://www.ibm.com/",
+        "src": "/attachments/supporters/tmp/IBM_t.png",
+        "year": 2016
+    },
+    {
+        "class": "Gold",
+        "href": "http://www.intel.com/",
+        "src": "/attachments/supporters/tmp/intel_2015.png",
+        "year": 2016
+    },
+    {
+        "class": "Gold",
+        "href": "http://research.microsoft.com/",
+        "src": "/attachments/supporters/tmp/MSR_t.png",
+        "year": 2016
+    },
+    {
+        "class": "Silver",
+        "href": "http://www.adobe.com/",
+        "src": "/attachments/supporters/tmp/adobe_2015.png",
+        "year": 2016
+    },
+    {
+        "class": "Silver",
+        "href": "https://uncharted.software/",
+        "src": "/attachments/supporters/tmp/Uncharted-rgb-Vertical_27Aug2015.png",
+        "year": 2016
+    },
+    {
+        "class": "Silver",
+        "href": "http://iacs.seas.harvard.edu/",
+        "src": "/attachments/supporters/tmp/iacs.png",
+        "year": 2016
+    },
+    {
+        "class": "Silver",
+        "href": "https://bocoup.com/",
+        "src": "/attachments/bocoup-datavis-logo-vertical-2016.png",
+        "year": 2016
+    },
+    {
+        "class": "Silver",
+        "href": "http://www.kaust.edu.sa/",
+        "src": "/attachments/supporters/tmp/kaust.png",
+        "year": 2016
+    },
+    {
+        "class": "Silver",
+        "href": "http://www.disneyresearch.com/",
+        "src": "/attachments/supporters/tmp/DR.png",
+        "year": 2016
+    },
+    {
+        "class": "Silver",
+        "href": "https://www.nlm.nih.gov/",
+        "src": "/attachments/supporters/2016/nlm.png",
+        "year": 2016
+    },
+    {
+        "class": "Silver",
+        "href": "https://www.mica.edu/",
+        "src": "/attachments/supporters/2016/mica.png",
+        "year": 2016
+    },
+    {
+	"class": "Bronze",
+	"href": "http://elevenpeppers.com/",
+	"src": "/attachments/supporters/eleven_peppers.png",
+	"year": 2016
+    },
+    {
+	"class": "Bronze",
+	"href": "http://rstudio.com/",
+	"src": "/attachments/supporters/tmp/RStudio.png",
+	"year": 2016
+    },
+    {
+	"class": "Bronze",
+	"href": "http://www.capdigital.com/en/",
+	"src": "/attachments/supporters/2016/cap_digital.png",
+	"year": 2016
+    },
+    {
+        "class": "Bronze",
+        "href": "http://www.google.com/",
+        "src": "/attachments/supporters/tmp/google2015.png",
+        "year": 2016
+    },
+    {
+        "class": "NonProfit/Small Company/Startup",
+        "href": "http://www.act.org/",
+        "src": "/attachments/supporters/tmp/ACT-logo-Blue-cmyk.png",
+	"year": 2016
+    },
+    {
+        "class": "NonProfit/Small Company/Startup",
+        "href": "http://www.sentimetrix.com/",
+        "src": "/attachments/supporters/2016/sentimetrix.png",
+	"year": 2016
+    },
+    {
+	"class": "Academic",
+	"href": "http://www.sci.utah.edu/",
+	"src": "/attachments/supporters/tmp/sci.png",
+	"year": 2016
+    },
+    {
+	"class": "Academic",
+	"href": "http://www.vrvis.at/",
+	"src": "/attachments/supporters/tmp/vrvis_t.png",
+	"year": 2016
+    },
+    {
+	"class": "Academic",
+	"href": "http://citi.clemson.edu/viz/",
+	"src": "/attachments/supporters/2016/clemson_ccit.png",
+	"year": 2016
+    },
+    {
+	"class": "Publisher",
+	"href": "http://www.morganclaypool.com/",
+	"src": "/attachments/supporters/tmp/mcp.png",
+	"year": 2016
+    },
+    {
+	"class": "Publisher",
+	"href": "http://www.springer.com/",
+	"src": "/attachments/supporters/tmp/Springer_cmyk.png",
+	"year": 2016
+    },
+    {
+        "class": "Publisher",
+        "href": "https://www.crcpress.com/",
+        "src": "/attachments/supporters/tmp/CRC.png",
+        "year": 2016
+    }
+];
+
+function loadSponsors() {
+    // d3.json("/js/all_sponsors.json", function(json) {
+        var json = sponsorsJson;
+        var year = guessYear();
+        var div = d3.select("#supporters");
+        var currentClass;
+        for (var i=0; i<json.length; ++i) {
+            var o = json[i];
+            if (o.year !== year)
+                continue;
+            if (o.class !== currentClass) {
+                currentClass = o.class;
+                div.append("br");
+                div.append("div").classed("supporter-level", true).text(o.class);
+            }
+            div.append("center")
+                .append("a").attr("href", o.href)
+                .append("img").attr("src", o.src).attr("width", "120");
+        }
+    // });
+}
+
+// The neverending train of disgusting hacks continues.
+if (guessYear() !== 2016) {
+    d3.select(document.getElementById("important-dates").parentNode).style("display", "none");
+}
+
+</script><div class="sidebar-title" id="supporters">Supporters</br> <a href="http://ieeevis.org/year/2016/info/exhibition/supporters-and-exhibition">(Become one)</a></div><script>loadSponsors();</script></div>
+</div>
+        </div>
+          </div> <!-- /container -->
+  </div>
+<!-- /layout -->
+  <div id="footer"><div id="block-block-4" class="clear-block block block-block">
+<!--
+-->
+  <div class="content"><div class="footer-image"><img src="http://ieeevis.org//tmp/VIS-webbanner2014-footer.jpg"></div><div class="footer-message"> © 2014 IEEE. Sponsored by the IEEE Computer Society Visualization and Graphics Technical Committee.</div></div>
+</div>
+</div>
+    <!--[if IE]></div><![endif]--></body>
+</html>
