@@ -31,10 +31,10 @@
 <link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/themes/visweek/visweek.gowri.css?M" />
 <link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/themes/visweek/visweek.session.css?M" />
 <link type="text/css" rel="stylesheet" media="print" href="/sites/ieeevis.org/themes/visweek/print.css?M" />
-    <script type="text/javascript" src="/misc/jquery.js?M"></script>
-<script type="text/javascript" src="/misc/drupal.js?M"></script>
-<script type="text/javascript" src="/sites/ieeevis.org/modules/views_accordion/views-accordion.js?M"></script>
-<script type="text/javascript" src="/sites/ieeevis.org/themes/visweek/js/slide.js?M"></script>
+    <script type="text/javascript" src="/misc/jquery.js"></script>
+<script type="text/javascript" src="/misc/drupal.js"></script>
+<script type="text/javascript" src="/sites/ieeevis.org/modules/views_accordion/views-accordion.js"></script>
+<script type="text/javascript" src="/sites/ieeevis.org/themes/visweek/js/slide.js"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
 jQuery.extend(Drupal.settings, { "basePath": "/", "views_accordion": { "views-accordion-panel_session-page_1": { "keeponeopen": 0, "speed": 500, "firstopen": 0, "grouping": 1, "togglelinks": 1, "autocycle": 0, "autocyclespeed": 5000, "display": "div.view-display-id-page_1", "usegroupheader": 0, "header": "views-field-title" } } });

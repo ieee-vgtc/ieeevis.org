@@ -31,9 +31,9 @@
 <link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/themes/visweek/visweek.gowri.css?M" />
 <link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/themes/visweek/visweek.session.css?M" />
 <link type="text/css" rel="stylesheet" media="print" href="/sites/ieeevis.org/themes/visweek/print.css?M" />
-    <script type="text/javascript" src="/misc/jquery.js?M"></script>
-<script type="text/javascript" src="/misc/drupal.js?M"></script>
-<script type="text/javascript" src="/sites/ieeevis.org/themes/visweek/js/slide.js?M"></script>
+    <script type="text/javascript" src="/misc/jquery.js"></script>
+<script type="text/javascript" src="/misc/drupal.js"></script>
+<script type="text/javascript" src="/sites/ieeevis.org/themes/visweek/js/slide.js"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
 jQuery.extend(Drupal.settings, { "basePath": "/" });
