@@ -22,3 +22,8 @@ fixed. However, if the fix involves anything more than trivial typos,
 we will wait for an OK from the point-of-contact before committing the
 changes.
 
+## What's with the content files all over the place?
+
+This is the result of five years of legacy pages written atop of each
+other. We're slowly improving the situation, but the legacy content is
+currently quite messy. Pull requests are welcome.
