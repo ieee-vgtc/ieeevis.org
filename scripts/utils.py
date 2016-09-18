@@ -19,7 +19,7 @@ def my_guess_mimetype(file_name):
         return magic.from_file(file_name, mime=True)
 
 def find_files():
-    return subprocess.check_output(['find', '.', '-type', 'f']).split()
+    return subprocess.check_output(['find', '.', '-type', 'f']).strip().split('\n')
 
 def local_info():
     result = {}

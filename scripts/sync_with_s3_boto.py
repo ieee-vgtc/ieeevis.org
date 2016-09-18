@@ -24,9 +24,6 @@ bucket = resource.Bucket(target_bucket_name)
 
 print "Syncing with", target_bucket_name
 
-def find_files():
-    return subprocess.check_output(['find', '.', '-type', 'f']).split()
-
 def bucket_info():
     """returns all the md5 values from the given s3 bucket."""
     return dict((o.key,{"Key": o.key, "Size": o.size, "ETag": o.e_tag})
