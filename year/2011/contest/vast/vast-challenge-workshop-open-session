@@ -7,30 +7,30 @@
 <link rel="shortcut icon" href="/sites/default/files/favicon.png" type="image/x-icon" />
 		<title>IEEE VIS 2011</title>
     <!--<title>VAST Challenge Workshop: Open Session | IEEE VIS 2011</title>-->
-    <link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?M" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?M" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?M" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?M" />
-<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?M" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/modules/cck/theme/content-module.css?M" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/modules/ctools/css/ctools.css?M" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/modules/date/date.css?M" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/modules/date/date_popup/themes/datepicker.css?M" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/modules/date/date_popup/themes/timeentry.css?M" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/modules/filefield/filefield.css?M" />
-<link type="text/css" rel="stylesheet" media="all" href="/misc/farbtastic/farbtastic.css?M" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/modules/cck/modules/fieldgroup/fieldgroup.css?M" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/themes/visweek/style.css?M" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/themes/visweek/menutree.css?M" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/themes/visweek/visweek.year.css?M" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/themes/visweek/visweek.week.css?M" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/themes/visweek/visweek.day.css?M" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/themes/visweek/visweek.popup.css?M" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/themes/visweek/visweek.login.css?M" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/themes/visweek/visweek.twig.css?M" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/themes/visweek/visweek.gowri.css?M" />
-<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/themes/visweek/visweek.session.css?M" />
-<link type="text/css" rel="stylesheet" media="print" href="/sites/ieeevis.org/themes/visweek/print.css?M" />
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/modules/cck/theme/content-module.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/modules/ctools/css/ctools.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/modules/date/date.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/modules/date/date_popup/themes/datepicker.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/modules/date/date_popup/themes/timeentry.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/modules/filefield/filefield.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/misc/farbtastic/farbtastic.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/modules/cck/modules/fieldgroup/fieldgroup.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/themes/visweek/style.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/themes/visweek/menutree.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/themes/visweek/visweek.year.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/themes/visweek/visweek.week.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/themes/visweek/visweek.day.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/themes/visweek/visweek.popup.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/themes/visweek/visweek.login.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/themes/visweek/visweek.twig.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/themes/visweek/visweek.gowri.css" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/ieeevis.org/themes/visweek/visweek.session.css" />
+<link type="text/css" rel="stylesheet" media="print" href="/sites/ieeevis.org/themes/visweek/print.css" />
     <script type="text/javascript" src="/misc/jquery.js"></script>
 <script type="text/javascript" src="/misc/drupal.js"></script>
 <script type="text/javascript" src="/misc/collapse.js"></script>
