@@ -48,7 +48,7 @@ Authors: Thomas Ortner, Johannes Sorger, Harald Steinlechner, Gerd Hesina, Haral
 **10:30-12:10**  
 **Room: Key 1+2+5**  
 *SciVis: Biological, Molecular and Shape Visualization*  
-*Session Chair: Christoph Heinz *  
+*Session Chair: Christoph Heinzl *  
 
 **Molecular Surface Maps (J)**  
 Authors: Michael Krone, Florian Frieß, Katrin Scharnowski, Guido Reina, Silvia Fademrecht, Tobias Kulschewski, Jürgen Pleiss, and Thomas Ertl
