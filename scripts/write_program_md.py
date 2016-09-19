@@ -43,14 +43,16 @@ venue_name = { "cga": "CG&A",
 def paper_type(paper):
     t = paper["Type"]
     if t == "AJ":
-        return "J"
+        return " (J)"
     if t == "AC":
-        return "C"
+        return " (C)"
     if t == "TVCG":
-        return "T"
+        return " (T)"
     if paper["ID"].startswith("TVCG"):
-        return "T"
-    return "J"
+        return " (T)"
+    if paper["ID"].startswith("CG&A"):
+        return ""
+    return " (J)"
 
 def award_string(award):
     if award is None:
@@ -72,7 +74,7 @@ def render_session(session, out):
     out.write("\n")
     for paper in session["Value"]:
         award = awards.get(paper["ID"], None)
-        out.write(("**%s (%s)**%s  \n" % (paper["Title"], paper_type(paper), award_string(award))).encode("utf-8"))
+        out.write(("**%s%s**%s  \n" % (paper["Title"], paper_type(paper), award_string(award))).encode("utf-8"))
         out.write(("Authors: %s\n" % paper["Author list"]).encode("utf-8"))
         out.write("\n")
     out.write("<hr/>\n\n")

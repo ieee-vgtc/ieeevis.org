@@ -294,19 +294,19 @@ Authors: Trevor Hogan, Uta Hinrichs, Eva Hornecker
 *CG&A: (CG&A) Visualization Systems & Applications*  
 *Session Chair: Theresa-Marie Rhyne*  
 
-**Key-Node-Separated Graph Clustering and Layouts for Human Relationship Graph Visualization (J)**  
+**Key-Node-Separated Graph Clustering and Layouts for Human Relationship Graph Visualization**  
 Authors: Takayuchi Itoh, Karsten Klein
 
-**ENTVis: A Visual Analytic Tool for Entropy-Based Network Traffic Anomaly Detection (J)**  
+**ENTVis: A Visual Analytic Tool for Entropy-Based Network Traffic Anomaly Detection**  
 Authors: Fangfang Zhou, Wei Huang, Ying Zhao, Yang Shi, Xing Liang, Xiaoping Fan
 
-**Visualizing Rank Time Series of Wikipedia Top Viewed Pages (J)**  
+**Visualizing Rank Time Series of Wikipedia Top Viewed Pages**  
 Authors: Jing Xia, Yumeng Hou, Victor Chen, Cheryl Qian, David Ebert, Wei Chen
 
-**WarpIV: In Situ Visualization and Analysis of Ion Accelerator Simulations (J)**  
+**WarpIV: In Situ Visualization and Analysis of Ion Accelerator Simulations**  
 Authors: Oliver Rübel, Burlen Loring, Jean-Luc Vay, David P. Grote, Remi Lehe, Stepan Bulanov, Henri Vincenti, E. Wes Bethel
 
-**A Decision Support System for Planning Sustainable Water Distribution Systems (J)**  
+**A Decision Support System for Planning Sustainable Water Distribution Systems**  
 Authors: Alina Freund, Nazli Yonca Aydin, Dirk Zeckzer, Hans Hagen
 
 <hr/>
@@ -452,19 +452,19 @@ Authors: Kui Wu, Aaron Knoll, Benjamin J Isaac, Hamish Carr, and Valerio Pascucc
 *CG&A: (CG&A) Applied Visualization Techniques*  
 *Session Chair: Melanie Tory*  
 
-**Episogram: Visual Summarization of Egocentric Social Interactions (J)**  
+**Episogram: Visual Summarization of Egocentric Social Interactions**  
 Authors: Nan Cao, Yuru Lin, Fan Du
 
-**VTK-m: Accelerating the Visualization Toolkit for Massively Threaded Architectures (J)**  
+**VTK-m: Accelerating the Visualization Toolkit for Massively Threaded Architectures**  
 Authors: Kenneth Moreland, Christopher Sewell, William Usher, Li-ta Lo, Jeremy Meredith, David Pugmire, James Kress, Hendrik Schroots, Kwan-Liu Ma, Hank Childs, Matthew Larsen, Chun-Ming Chen, Robert Maynard, Berk Geveci
 
-**Evaluating Shape Alignment via Ensemble Visualization (J)**  
+**Evaluating Shape Alignment via Ensemble Visualization**  
 Authors: Mukund Raj, Mahsa Mirzargar, J. Samuel Preston, Robert M. Kirby, Ross T. Whitaker
 
-**Spatial Analytic Interfaces: Spatial User Interfaces for In-Situ Visual Analytics (J)**  
+**Spatial Analytic Interfaces: Spatial User Interfaces for In-Situ Visual Analytics**  
 Authors: Barret Ens, Pourang Irani
 
-**Visualizing Evaluation Structures using Layered Graph Drawings (J)**  
+**Visualizing Evaluation Structures using Layered Graph Drawings**  
 Authors: Yosuke Onoue, Nobuyuki Kukimoto, Naohisa Sakamoto, Kazuo Misue, Koji Koyamada
 
 <hr/>
