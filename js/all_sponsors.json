@@ -816,6 +816,24 @@
         "year": 2016
     },
     {
+        "class": "Silver",
+        "href": "http://www.kitware.com/",
+        "src": "/attachments/supporters/tmp/kitware.png",
+        "year": 2016
+    },
+    {
+        "class": "Silver",
+        "href": "http://www.mscweb.com/",
+        "src": "/attachments/supporters/2016/msc.png",
+        "year": 2016
+    },
+    {
+        "class": "Silver",
+        "href": "http://www.sbgenomics.com/",
+        "src": "/attachments/supporters/2016/sevenbridges.png",
+        "year": 2016
+    },
+    {
 	"class": "Bronze",
 	"href": "http://elevenpeppers.com/",
 	"src": "/attachments/supporters/eleven_peppers.png",
@@ -837,6 +855,12 @@
         "class": "Bronze",
         "href": "http://www.google.com/",
         "src": "/attachments/supporters/tmp/google2015.png",
+        "year": 2016
+    },
+    {
+        "class": "Bronze",
+        "href": "http://www.underarmour.com/",
+        "src": "/attachments/supporters/2016/underarmour.png",
         "year": 2016
     },
     {
@@ -867,6 +891,12 @@
 	"class": "Academic",
 	"href": "http://citi.clemson.edu/viz/",
 	"src": "/attachments/supporters/2016/clemson_ccit.png",
+	"year": 2016
+    },
+    {
+	"class": "Academic",
+	"href": "http://ischool.umd.edu/",
+	"src": "/attachments/supporters/2016/umd_cis.png",
 	"year": 2016
     },
     {
