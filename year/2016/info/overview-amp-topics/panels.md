@@ -86,7 +86,7 @@ FRIDAY, OCTOBER 28TH
 Location: Holiday 6
 
 Organizer: Angus Forbes  
-Panelists: Dietmar Offenhuber, Jessica Hullman, Heather Dewey-Hagborg, Marian Dork
+Panelists: Dietmar Offenhuber, Jessica Hullman, Heather Dewey-Hagborg, Marian Dörk
 
 How could a critical approach to visualization promote disclosure,
 plurality, contingency, and empowerment? What opportunities are there
