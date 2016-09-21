@@ -104,7 +104,7 @@ for panel in sorted(panel_dict.values(), key = lambda panel: (panel["Date"], tke
     print "Location: %s" % panel["Location"]
     print
     print "Organizer: %s  " % panel["Organizer"]
-    print "Panelists: %s" % panel["Panelists"]
+    sys.stdout.write(("Panelists: %s\n" % panel["Panelists"]).encode("utf-8"))
     print
     print panel["50 Word Summary"]
     print
