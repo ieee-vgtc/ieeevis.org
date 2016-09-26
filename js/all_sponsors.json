@@ -799,12 +799,6 @@
     },
     {
         "class": "Silver",
-        "href": "http://www.disneyresearch.com/",
-        "src": "/attachments/supporters/tmp/DR.png",
-        "year": 2016
-    },
-    {
-        "class": "Silver",
         "href": "https://www.nlm.nih.gov/",
         "src": "/attachments/supporters/2016/nlm.png",
         "year": 2016
@@ -850,6 +844,12 @@
 	"href": "http://www.capdigital.com/en/",
 	"src": "/attachments/supporters/2016/cap_digital.png",
 	"year": 2016
+    },
+    {
+        "class": "Bronze",
+        "href": "http://www.disneyresearch.com/",
+        "src": "/attachments/supporters/tmp/DR.png",
+        "year": 2016
     },
     {
         "class": "Bronze",
