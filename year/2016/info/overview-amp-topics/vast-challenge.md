@@ -50,7 +50,7 @@ Authors: Matthew Sinda, Ian Turk, Jun Tao, Qi Liao, Chaoli Wang, Lei Shi
 **VAST 2016 Mini-Challenge 2**  
 Authors: Pablo Andreoni, Adriana Romero, Alvaro Velez, Jhonny Rodriquez, and Daniel Ojeda
 
-**VAST Challenge 2016: Streaming Visual Analytics**  
+**VAST Challenge 2016 (Committee Report): Streaming Visual Analytics**  
 Authors: R. Jordan Crouser, Kristin Cook, John Fallon, Georges Grinstein, Kristen Liggett, Danko Nebesh, Diane Staheli, Mark A. Whiting, Kirsten Whitley
 
 *Mini-Challenge 2 Honorable Mention: Effective Support for Building Management*  
