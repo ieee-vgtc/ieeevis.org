@@ -246,8 +246,8 @@ td.Panels > a		{ color: #f5aa32 }
 	<td colspan="4">Fast Forward (Wed)</td>
 </tr>
 <tr>
-	<td></td>
-	<td colspan="4">Practitioners and Supporters Evening Event</td>
+	<td>6:30pm-9:30pm</td>
+	<td colspan="4">VIS Art Program Opening Event</td>
 </tr>
 </tbody>
 </table>
