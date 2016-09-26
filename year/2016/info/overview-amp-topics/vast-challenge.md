@@ -4,8 +4,6 @@ layout: main
 permalink: /year/2016/info/overview-amp-topics/vast-challenge
 ---
 
-# VAST Challenge
-
 SUNDAY, OCTOBER 23  
 8:30AM-5:55PM
 Location: Holiday 4+5
