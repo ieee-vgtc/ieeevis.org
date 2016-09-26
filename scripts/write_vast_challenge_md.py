@@ -22,9 +22,8 @@ import sys
 
 gc = get_spreadsheet("VIS2016 Program")
 posters = load_sheet_by_name(gc, "VAST Challenge").get_all_records()
-posters = dict((poster["Submission Name"], poster) for poster in posters)
 
-for poster in sorted(posters.values(), key = lambda poster: poster["Authors"]):
+for poster in posters:
     a = poster["Award Title"].strip()
     if a:
         sys.stdout.write(("*%s*  \n" % a).encode("utf-8"))
