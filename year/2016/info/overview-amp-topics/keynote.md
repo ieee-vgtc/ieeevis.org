@@ -19,4 +19,19 @@ where he created the Research Department. </p></td></tr>
 <tr>
 	<td colspan="2">He has served as Minister of Planning of Venezuela (1992-1993) and as a member of the Board of the Central Bank of Venezuela. He also served as Chair of the IMF-World Bank Development Committee. He was Professor of Economics at the Instituto de Estudios Superiores de Administracion (IESA) (1985-1991) in Caracas, where he founded the Center for Public Policy. His research interests include issues of growth, macroeconomic stability, international finance, and the social dimensions of development. He holds a PhD in economics from Cornell University.</td>
 </tr> 
+<tr>
+<td colspan="2"><h3>Visualizing knowhow, technological diffusion and
+the wealth of nations</h3>
+<p>Recent theories of the wealth and poverty of nations put the accent
+on the accumulation of collective knowhow. The fundamental difference
+between rich and poor countries is not in the average level of
+individual skills of their citizens but in the kinds of things that
+can be done collectively. This creates an important visualization
+problem: how to measure and represent the differential levels of
+collective knowhow between countries and regions? How to visualize its
+evolution in time?  How to identify more feasible and effective paths
+for progress? How can visualization help orient the efforts of the
+public and private sectors in enhancing progress? </p>
+</td>
+</tr>
 </tbody></table>
