@@ -32,6 +32,6 @@ imagine.
 
 The conference rate is $229/night plus 15.5% tax for single or double
 occupancy rooms. The cutoff date for reservations under this rate is
-September 21, 2016, at 5PM EDT. In order to make a reservation at the
+September 28, 2016, at 5PM EDT. In order to make a reservation at the
 Hilton Baltimore under the conference rate,
-[click here](https://aws.passkey.com/g/64766701).
+[click here](https://resweb.passkey.com/Resweb.do?mode=welcome_gi_new&groupID=64766701).
