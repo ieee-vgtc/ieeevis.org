@@ -24,61 +24,6 @@ gc = get_spreadsheet("50WordSummaries") ## Ask Panels folks to change this name
 panels = load_sheet_by_name(gc, "Ranking all").get_all_records()
 panel_dict = dict((panel["Title"], panel) for panel in panels)
 
-# def guess_venue(session):
-#     ids = set([paper["ID"][:paper["ID"].find('-')] for paper in session["Value"]
-#            if (not paper["ID"].startswith("TVCG"))])
-#     if len(ids) > 1 and list(ids)[0].startswith("CG&A"):
-#             return "cga" 
-#     if len(ids) <> 1:
-#         raise Exception("couldn't guess conference for session %s" % session["Key"])
-#     return list(ids)[0]
-
-# venue_name = { "cga": "CG&A",
-#                "infovis": "InfoVis",
-#                "scivis": "SciVis",
-#                "vast": "VAST" }
-
-# def paper_type(paper):
-#     t = paper["Type"]
-#     if t == "AJ":
-#         return "J"
-#     if t == "AC":
-#         return "C"
-#     if t == "TVCG":
-#         return "T"
-#     if paper["ID"].startswith("TVCG"):
-#         return "T"
-#     return "J"
-
-# def render_session(session, out):
-#     name = session["Key"]
-#     venue = venue_name[guess_venue(session)]
-#     out.write("**%s**  \n" % session_dict[name]["Day"].upper())
-#     out.write("**%s**  \n" % session_dict[name]["Time"])
-#     out.write("**Room: %s**  \n" % session_dict[name]["Room"])
-#     out.write("*%s: %s*  \n" % (venue, name))
-#     out.write("*Session Chair: %s*  \n" % (session_dict[name]["Chair"]))
-#     out.write("\n")
-#     for paper in session["Value"]:
-#         out.write(("**%s (%s)**  \n" % (paper["Title"], paper_type(paper))).encode("utf-8"))
-#         out.write(("Authors: %s\n" % paper["Author list"]).encode("utf-8"))
-#         out.write("\n")
-#     out.write("<hr/>\n\n")
-
-
-# def session_key(session):
-#     order = {
-#         "8": 0,
-#         "10": 1,
-#         "2": 2,
-#         "4": 3,
-#         }
-#     name = session["Key"]
-#     metadata = session_dict[name]
-#     day = metadata["Day"][-4:-2]
-#     time = order[metadata["Time"][:metadata["Time"].find(':')]]
-#     return (day, time)
-
 date_dict = { 25: "TUESDAY, OCTOBER 25TH",
               26: "WEDNESDAY, OCTOBER 26TH",
               27: "THURSDAY, OCTOBER 27TH",
