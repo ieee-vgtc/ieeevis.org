@@ -15,6 +15,8 @@ National Laboratory).
 Contact:
 [vast-challenge@ieeevis.org](mailto:vast-challenge@ieeevis.org)
 
+[Link to the Workshop Agenda](http://www.vacommunity.org/VAST+Workshop+2016)
+	
 The VAST Challenge is designed to help researchers understand how well the data transformations, visualizations, and interactions in their visual analytics software can be used to address a realistic analytic task. VAST Challenge problems provide researchers with these realistic tasks and corresponding data sets for evaluating or developing software. The 2016 VAST Challenge focused specifically on problems in the emerging area of streaming visual analytics. Mini-Challenge 1 posed a design challenge in which participants were asked to design a visual analytics tool to support the analysis of streaming data in an operations center. Mini-Challenge 2 provided two weeks of static data from various building sensors and asked participants to characterize patterns and anomalies. This challenge was specifically designed to provide participants with an opportunity to practice streaming visual analytics without having to actually work with a live stream.
 Mini-Challenge 3 provided a live stream of 60 hours of building sensor data, and participants were asked to build a visual analytics solution enabling users to rapidly orient themselves to emerging events as well as well as to be able to reconsider past data as circumstances change.
 

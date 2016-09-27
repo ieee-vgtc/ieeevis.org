@@ -22,7 +22,7 @@ SUNDAY, OCTOBER 23
 8:30AM-12:10PM  
 Location: Johnson A+B
 
-Min Chen (University of Oxford), Mateu Sbert (University of Girona), Anton Bardera (University of Girona), Han-Wei Shen (The Ohio State University), Miquel Feixas (University of Girona), Ivan Viola (TU Wien)
+Min Chen (University of Oxford), Mateu Sbert (University of Girona, Tianjin University), Anton Bardera (University of Girona), Han-Wei Shen (The Ohio State University), Miquel Feixas (University of Girona), Ivan Viola (TU Wien)
 
 In this half-day tutorial (intermediate to advanced), we review a variety of applications of information theory in visualization. The holistic nature of information-theoretic reasoning has enabled many such applications, ranging from light placement to view selection, from feature highlighting to transfer function design, from data fusion to visual multiplexing, and so on. Perhaps a particularly exciting application is the potential for information theory to underpin the discipline of visualization, for example, mathematically confirming the benefit of visualization in data intelligence.
 
