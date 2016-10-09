@@ -18,6 +18,11 @@ td.InfoVis > a		{ color: #417367 }
 td.Panels > a		{ color: #f5aa32 }
 </style>
 
+# Program
+
+[Full Program](/attachments/vis16-badgeinsert-final.pdf)
+[Pocket Program](/attachments/vis16-program-final.pdf)
+
 ## Saturday (Oct 22, 2016)
 <table border="1">
 <tbody>
