@@ -20,8 +20,8 @@ td.Panels > a		{ color: #f5aa32 }
 
 # Program
 
-[Full Program](/attachments/vis16-badgeinsert-final.pdf)
-[Pocket Program](/attachments/vis16-program-final.pdf)
+* [Full Program](/attachments/vis16-badgeinsert-final.pdf)
+* [Pocket Program](/attachments/vis16-program-final.pdf)
 
 ## Saturday (Oct 22, 2016)
 <table border="1">
