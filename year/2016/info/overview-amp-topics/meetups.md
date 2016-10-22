@@ -90,6 +90,7 @@ When you look around online, you find a lot of colorful pictures but little reli
 The goal of this meetup is to get people who are thinking about blogging or podcasting talking to each other, and to some of the people who have been doing this for a while. We want to reflect on experiences and lessons learned, answer questions, and lead a discussion between attendees.
  
 Some topics we want to cover:
+
 * Why blog? (exposure, promote research, educate the public, etc.)
 * How to get started
 * Writing for blogs versus research papers
@@ -107,26 +108,7 @@ WEDNESDAY, OCTOBER 26
 Location: Peale C  
 Organizer: Vladimir Grishin
 
-Most published researches of visual analytics (VA) of multi-dimensional data use human visual perception very poorly. Usually human analyst or user selects just a few simple visual features of  some 2-3D representation of data.     For example:
-- in projection techniques as Principal Component, MD Scaling , RadViz, etc.  computer maps each data vector into one point on 2-3D picture with loosing most information  and human estimates classes/clusters overlapping and  a few their properties;
-- primary unlossy displays as parallel coordinates (PCs), glyphs, charts, etc. are used now or as stand alone just for low dimensional data or with overlapping tens and hundreds of them on one picture for big data samples.
-
-In last case because of curves clutter again visual analysis are used just for revealing of a few simple, rather statistical properties of data ensemble, as curves closeness or remoteness in some coordinates. There is no real use of most powerful vision sub channel, i.e. shape (form) perception.
-
-If to unlossy represent each data vector by separate figure, e.g. “star” glyph (polar graph of vector), PC, bar-graph, etc. we can visually compare hundreds vectors by tens and even hundreds local, integral and intermediate features of their forms, which could be affine and projective invariants, and build hierarchy of patterns of data classes without .
-
-As we have proved experimentally, it allows visual revealing  and description of complicated nonlinear data structures in date spaces with D up to 1000 and hundreds data vectors.
-Such “moderate size” data analysis is important for many problems of health care, industrial system control, etc. Besides, big data analysis also can be done by parts (sub-samples) with effective visual analytics of them without losses of initial information.
-
-However, most recent publications reduce visual analytics to revealing of 5-10 simple properties of 100s overlapping PCs. If to ask “why would not do it faster and more precise by computer” typical answer is “such display gives better data understanding”. It is true, but it is “to use steam-hammer to break nuts”.    
-
-Main  implicit reasons of so poor usage of visual perception capabilities are:
-- essential time required for comparison of hundreds  data figures by tens features of their forms and, may be,  many dialog steps for visual feature selection and display adjustment,
-- end user has to have simple visual features of situation patterns,
-- probably,  statistical analytics instead of visual one in above approach gives results
-satisfying “fund giver/ grantor” …..so long!
-
-But effectiveness of machine learning, clustering and other statistical methods are drastically depending on correct choice of qualitative data models, classes of decision rules, etc., and if it is really important to solve some complicated nonlinear problem we can do a few months full power visual analytics with unlossy glyphs to either get base for effectively use of statistical methods  or to find visual decisions, which can be simplified for end user by SW.
+This meetup will discuss some limitations of visual analytics (VA) and ways to overcome them by use of statistical techniques along with visual exploration by end users. In general, visual analysis can make better use of human visual perception to understand multi-dimensional data. Also, effectiveness of machine learning, clustering and other statistical methods significantly depend on a number of factors such as correct choice of qualitative data models and classes of decision rules. This meetup will touch upon such issues and focus on enabling better analytics of big data using lossless representation of data as much as possible.
 
 
 #### Velo Club de VIS

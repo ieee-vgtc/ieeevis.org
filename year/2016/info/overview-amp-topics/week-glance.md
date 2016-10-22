@@ -120,6 +120,9 @@ td.Panels > a		{ color: #f5aa32 }
 <tr><td rowspan="3">4:15pm-5:55pm</td></tr>
 <tr></tr>
 <tr></tr>
+<tr><td colspan="5"></td></tr>
+<tr><td></td><td colspan="4">Key Ballroom 7-12 + South Foyer</td></tr>
+<tr><td rowspan="3">7:00PM - 9:00PM</td><td colspan="4" rowspan="3">VIS Opening Reception</td></tr>
 </tbody>
 </table>
 
