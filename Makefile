@@ -18,7 +18,7 @@ staging: site
 
 ################################################################################
 
-autogen: papers_program panels posters vast_challenge_program dc_program
+autogen: papers_program panels posters vast_challenge_program dc_program sv_directory
 
 panels:
 	./scripts/write_panels_md.py > data/autogen/panels.md
@@ -39,6 +39,10 @@ vast_challenge_program:
 dc_program:
 	./scripts/write_dc_md.py > data/autogen/dc.md
 	cat data/dc_front_matter.txt data/autogen/dc.md > year/2016/info/overview-amp-topics/doctoral-colloquium.md
+
+sv_directory:
+	./scripts/write_sv_directory.py > data/autogen/sv_directory.md
+	cat data/sv_directory_front_matter.txt data/autogen/sv_directory.md > year/2016/info/overview-amp-topics/student-volunteer-directory.md
 
 ################################################################################
 # sometimes you might want to clean the entire bucket - but this can

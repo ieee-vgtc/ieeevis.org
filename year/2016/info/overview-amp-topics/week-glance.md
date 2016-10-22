@@ -180,8 +180,8 @@ td.Panels > a		{ color: #f5aa32 }
 <tr><td></td><td></td><td></td><td></td></tr>
 <tr><td rowspan="3">2:00pm-3:40pm</td></tr>
 <td rowspan="7" class="Workshops"><a href="workshops#eventevent">Temporal and Sequential Event Analysis</a></td>
-<td rowspan="7" class="Tutorials"><a href="tensordecomposion">Tensor Decomposition Methods</a></td>
-<td rowspan="7" class="Tutorials"><a href="qualitativeevaluations">Considering Qualitative Evaluations</a></td>
+<td rowspan="7" class="Tutorials"><a href="tutorials#tensordecomposion">Tensor Decomposition Methods</a></td>
+<td rowspan="7" class="Tutorials"><a href="tutorials#qualitativeevaluation">Considering Qualitative Evaluation</a></td>
 <tr></tr>
 <tr></tr>
 <tr><td></td></tr>

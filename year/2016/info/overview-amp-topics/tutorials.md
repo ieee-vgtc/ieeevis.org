@@ -112,7 +112,11 @@ MONDAY, OCTOBER 24
 2:00PM-5:55PM  
 Location: Latrobe
 
-Sheelagh Carpendale (University of Calgary), Uta Hinrichs (University of St. Andrews), Trevor Hogan (Cork Institute of Technology), Alice Thudt (University of Calgary), Melanie Tory (Tableau), Jo Vermeulen (University of Calgary), Jagoda Walny (University of Calgary)
+Sheelagh Carpendale (University of Calgary), Uta Hinrichs (University
+of St. Andrews), Trevor Hogan (Cork Institute of Technology), Alice
+Thudt (University of Calgary), Melanie Tory (Tableau), Jo Vermeulen
+(University of Calgary), Jagoda Walny (University of Calgary)
+
+Tutorial [website](http://innovis.cpsc.ucalgary.ca/qualeval-vis-tutorial/)
 
 Evaluation is increasingly recognized as an essential component of visualization research. However, evaluation itself is a changing area of research. New methods to extend and validate our research continue to emerge. This 1/2-day tutorial is designed for beginning to intermediate audiences. We will focus on qualitative research methods using a mixture of talks and hands-on activities. After completing this tutorial, people will have a richer understanding of the benefits and challenges of qualitative empirical research.
-
