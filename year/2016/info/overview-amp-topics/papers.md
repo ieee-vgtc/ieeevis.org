@@ -22,7 +22,7 @@ permalink: /year/2016/info/overview-amp-topics/papers
 <br/>
 Authors: Filip Dabek, Jesus Caban
 
-**A Visual Analytics Approach for Categorical Joint Distribution Reconstruction from Marginal Projections** -- **best paper nominee**
+**A Visual Analytics Approach for Categorical Joint Distribution Reconstruction from Marginal Projections** -- **best paper honorable mention**
 <br/>
 Authors: Cong Xie, Wen Zhong, Klaus Mueller
 
@@ -114,7 +114,7 @@ Authors: R. Jordan Crouser, Lyndsey Franklin, Alex Endert, Kristin Cook
 <br/>
 Authors: Mengchen Liu, Jiaxin Shi, Zhen Li, Chongxuan Li, Jun Zhu, Shixia Liu
 
-**ViDX: Visual Diagnostics of Assembly Line Performance in Smart Factories** -- **best paper nominee**
+**ViDX: Visual Diagnostics of Assembly Line Performance in Smart Factories** -- **best paper honorable mention**
 <br/>
 Authors: Panpan Xu, Honghui Mei, Liu Ren, Wei Chen
 
@@ -279,11 +279,11 @@ Authors: Faisal Taher, Yvonne Jansen, Jonathan Woodruff, John Hardy, Kasper Horn
 <br/>
 Authors: Alex Bigelow, Steven Drucker, Danyel Fisher, Miriah Meyer
 
-**Many-to-Many Geographically-Embedded Flow Visualisation: An Evaluation**
+**Many-to-Many Geographically-Embedded Flow Visualisation: An Evaluation** -- **best paper honorable mention**
 <br/>
 Authors: Yalong Yang, Tim Dwyer, Sarah Goodwin, Kim Marriott
 
-**Map LineUps: effects of spatial structure on graphical inference**
+**Map LineUps: effects of spatial structure on graphical inference** -- **best paper honorable mention**
 <br/>
 Authors: Roger Beecham, Jason Dykes, Wouter Meulemans, Aidan Slingsby, Cagatay Turkay, Jo Wood
 
@@ -335,7 +335,7 @@ Authors: Evanthia Dimara, Anastasia Bezerianos, Pierre Dragicevic
 <br/>
 Authors: Benjamin Bach, Nathalie Henry Riche, Christophe Hurter, Kim Marriott, Tim Dwyer
 
-**Vega-Lite: A Grammar of Interactive Graphics**
+**Vega-Lite: A Grammar of Interactive Graphics** -- **best paper award**
 <br/>
 Authors: Arvind Satyanarayan, Dominik Moritz, Kanit Wongsuphasawat, Jeffrey Heer
 
@@ -390,7 +390,7 @@ Authors: Monique Meuschke, Samuel Voss, Oliver Beuing, Bernhard Preim, Kai Lawon
 <br/>
 Authors: Andreas Johnsen Lind, Stefan Bruckner
 
-**Correlated Photon Mapping for Interactive Global Illumination of Time-Varying Volumetric Data**
+**Correlated Photon Mapping for Interactive Global Illumination of Time-Varying Volumetric Data** -- **best paper honorable mention**
 <br/>
 Authors: Daniel Jonsson, Anders Ynnerman
 
@@ -422,11 +422,11 @@ Authors: Andrew H. Stevens, Thomas Butkiewicz, Colin Ware
 <br/>
 Authors: Lonni Besancon, Paul Issartel, Mehdi Ammi, Tobias Isenberg
 
-**In Situ Distribution Guided Analysis and Visualization of Transonic Jet Engine Simulations**
+**In Situ Distribution Guided Analysis and Visualization of Transonic Jet Engine Simulations** -- **best paper honorable mention**
 <br/>
 Authors: Soumya Dutta, Chun-Ming Chen, Gregory Heinlein, Han-Wei Shen, Jenping Chen
 
-**Jacobi Fiber Surfaces for Bivariate Reeb Space Computation**
+**Jacobi Fiber Surfaces for Bivariate Reeb Space Computation** -- **best paper award**
 <br/>
 Authors: Julien Tierny, Hamish Carr
 
