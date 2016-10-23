@@ -23,7 +23,7 @@ This is an informal, planned lunch where more "IEEE VIS regulars" have the oppor
 
 ### Networking Poster Session
 
-Wednesday, Oct. 26, 4:30 – 6:00pm
+Wednesday, Oct. 26, 5:00 - 7:00pm
 
 Have you recently graduated, just looking for a new job, or seeking new hires in the field of visualization? If so, please join us in our “Meet the Candidate” poster session!
 

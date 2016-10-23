@@ -39,7 +39,7 @@ Flow visualization has been a central topic in scientific visualization for many
 #### <a name="vad"></a>Visualization Analysis and Design
 
 SUNDAY, OCTOBER 23  
-2:00PM-5:15PM  
+2:00PM-5:55PM  
 Location: Holiday 6
 
 Tamara Munzner (University of British Columbia)
@@ -49,7 +49,7 @@ This introductory tutorial will provide a broad foundation for thinking systemat
 #### <a name="humanvision"></a>Human Vision, Cognition and Visualization
 
 SUNDAY, OCTOBER 23  
-2:00PM-5:15PM  
+2:00PM-5:55PM  
 Location: Ruth
 
 Bernice E. Rogowitz (Visual Perspectives Research and Consulting)
@@ -59,7 +59,7 @@ This course builds upon the foundation set by the IEEE Vis course “Human Visio
 #### <a name="sketching"></a>Sketching Designs for Data-Visualization using the Five Design-Sheet Methodology
 
 SUNDAY, OCTOBER 23  
-2:00PM-5:15PM  
+2:00PM-5:55PM  
 Location: Latrobe
 
 Jonathan C. Roberts (Bangor University), Christopher Headleand (Bangor University), Panagiotis Ritsos (University of Chester)
