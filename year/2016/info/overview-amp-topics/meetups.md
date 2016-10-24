@@ -64,6 +64,16 @@ Organizer: Rahul C. Basole and Joern Kohlhammer
 
 In this meetup, we hope to convene researchers and practitioners interested in designing, developing, and applying visualization and visual analytics for enterprise intelligence. Enterprise intelligence refers to defining, gathering, analyzing, and distributing intelligence about products, customers, competitors, and any aspect of the business environment needed to support executives and managers making operational, tactical, and strategic decisions for an organization. We aim to discuss opportunities and challenges, exchange ideas on current research projects, and the general state of visualization and visual analytics in today's enterprise intelligence practice. This meetup builds on two successful BusinessVis workshops at VIS in 2014 and 2015.
 
+#### Visualization in Healthcare
+
+TUESDAY, OCTOBER 25  
+6:30PM – 8:00PM  
+Location: Latrobe  
+Organizer: Jesus J Caban
+
+
+In this meet-up, we would like to provide a networking opportunity to VIS 2016 researchers and practitioners interested in the design and validation of visualization techniques applied to healthcare data and EHR (Electronic Health Records) systems.   After seven years of the annual [Workshop on Visual Analytics in Healthcare](http://www.visualanalyticshealthcare.org) (including VIS 2010, 2011, 2012, and 2015), what are still the open challenges and opportunities?
+
 #### VisLies: The Tradition Continues!
 
 TUESDAY, OCTOBER 25  
@@ -108,8 +118,7 @@ WEDNESDAY, OCTOBER 26
 Location: Peale C  
 Organizer: Vladimir Grishin
 
-This meetup will discuss some limitations of visual analytics (VA) and ways to overcome them by use of statistical techniques along with visual exploration by end users. In general, visual analysis can make better use of human visual perception to understand multi-dimensional data. Also, effectiveness of machine learning, clustering and other statistical methods significantly depend on a number of factors such as correct choice of qualitative data models and classes of decision rules. This meetup will touch upon such issues and focus on enabling better analytics of big data using lossless representation of data as much as possible.
-
+The most visual analytics (VA) researches of multi-dimensional data use human visual perception very poorly. Researcher visually estimates just a few features of point clouds, if it is a projection as Principal Component, MD Scaling, etc., or of hundreds overlapping vectors in parallel coordinates (PCs). These are with losses of most information of initial data and without real usage of main vision power, i.e. 2-D form perception, which allows comparing hundreds vectors by hundreds invariant features of their  lossless display as PCs or  “stars”.   Usage of such real VA has allowed us: (i) revealing of nonlinear data space structures with dimension up to 1000; (ii) early prognosis of emergencies of technological systems, heart diseases, etc.; and gives better results of statistical analysis due to better qualitative data models.
 
 #### Velo Club de VIS
 

@@ -327,7 +327,7 @@ Authors: Michael Correll, Jeffrey Heer
 <br/>
 Authors: Chris Bryan, Kwan-Liu Ma, Jonathan Woodring
 
-**The Attraction Effect in Information Visualization**
+**The Attraction Effect in Information Visualization** -- **best paper honorable mention**
 <br/>
 Authors: Evanthia Dimara, Anastasia Bezerianos, Pierre Dragicevic
 
