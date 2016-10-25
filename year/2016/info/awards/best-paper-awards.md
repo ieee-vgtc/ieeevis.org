@@ -41,6 +41,11 @@ Authors: Roger Beecham, Jason Dykes, Wouter Meulemans, Aidan Slingsby, Cagatay T
 <br/>
 Authors: Yalong Yang, Tim Dwyer, Sarah Goodwin, and Kim Marriott
 
+**The Attraction Effect in Information Visualization**
+<br/>
+Authors: Evanthia Dimara, Anastasia Bezerianos, Pierre Dragicevic
+
+
 ## SciVis
 
 ### Best Paper Award
