@@ -79,13 +79,13 @@ In this meet-up, we would like to provide a networking opportunity to VIS 2016 r
 TUESDAY, OCTOBER 25  
 7:00PM - 9:00PM  
 Location: Ruth  
-Organizer: Georges Grinstein, Bernice Rogowitz and Ken Moorland​
+Organizer: Georges Grinstein, Bernice Rogowitz and Ken Moorland
 
 Please join us on Tuesday night, October 25th,  for VisLies.   This fun and engaging evening session showcases examples of egregious perceptual, cognitive, and conceptual errors in visualization, presented by members of the Vis community.  Examples from our own work, from published papers, and from the internet highlight the many ways the visual representation can misrepresent the underlying phenomena in the data.  This is a great opportunity for amusement and for learning, and every year we walk away with a smile on our faces and​ insights that may one day save the world.​
 
-If you want to present at VisLies, please visit our web site: ​​​http://vislies.org 
-Or, sign up directly at https://www.surveymonkey.com/r/9WJFHXS​
-​Our twitter hashtag is #VisLies​
+If you want to present at VisLies, please visit our web site: http://vislies.org 
+Or, sign up directly at https://www.surveymonkey.com/r/9WJFHXS
+Our twitter hashtag is #VisLies
 
 
 #### Blogging and Podcasting Meetup
