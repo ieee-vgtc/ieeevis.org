@@ -7,7 +7,7 @@ contact: "web@ieeevis.org"
 
 In 2016, IEEE VIS returns to the city of Baltimore, Maryland, USA, for
 the conference's 27th year. The conference will be located at the
-Hilton Baltimore Hotel, connected to the Baltimore Convention Centre.
+Hilton Baltimore Hotel, connected to the Baltimore Convention Center.
 
 Hilton Baltimore Hotel holds a prime place in the Inner Harbor, next door
 to Camden Yards and across the street from M&T Stadium.  Baltimore's Inner
