@@ -322,14 +322,14 @@ td.Panels > a		{ color: #f5aa32 }
 <tr></tr>
 <tr><td colspan="5"></td></tr>
 <tr>
-	<td rowspan="2">4:15pm-5:55pm</td>
+	<td>4:15pm-4:45pm</td>
 	<td colspan="4">Fast Forward (Thu & Fri)</td>
 </tr>
 <tr>
-    <td colspan="4">Posters + Networking + Hiring events, etc. (Details TBD)</td>
+	<td>5:00pm-7:00pm</td>
+    <td colspan="4">Posters & Networking</td>
 </tr>
-<tr><td colspan="5"></td></tr>
-<tr><td></td><td colspan="4">VIS Banquet</td></tr>
+<tr><td>7:00pm-9:00pm</td><td colspan="4">VIS Banquet</td></tr>
 </tbody>
 </table>
 
