@@ -4,6 +4,9 @@ layout: main
 permalink: /year/2016/info/presenter-information/speakers-and-presenters
 ---
 
+VIS Paper presenters have 20 minutes --- including questions --- for
+their talk. Please be respectful of this time limit.
+
 All meeting rooms will be equipped with a projector with a minimum
 native resolution of 1280 X 800. Each room is equipped with a "state
 of the art", industry standard, HDMI scaler that will handle a maximum
