@@ -3,6 +3,5 @@
 _site/
 .sass-cache/
 scripts/*.pyc
-files/
+/files
 data/autogen/
-
