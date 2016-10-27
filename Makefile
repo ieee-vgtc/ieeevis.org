@@ -5,6 +5,7 @@ all: site metadata autogen
 
 site:
 	jekyll build
+	./scripts/fix_file_extensions.sh
 
 metadata:
 	./scripts/report_page_admins.py > data/contacts.json
