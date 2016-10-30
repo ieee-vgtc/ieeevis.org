@@ -1,5 +1,5 @@
-PRODUCTION_BUCKET=ieeevis.com
-STAGING_BUCKET=staging.ieeevis.com
+PRODUCTION_BUCKET=ieeevis.org
+STAGING_BUCKET=staging.ieeevis.org
 
 all: site metadata autogen
 
