@@ -29,7 +29,7 @@ Authors: Jo Wood
 
 **STAD-HD: Spatial Temporal Anomaly Detection for Heterogeneous Data through Visual Analytics**
 <br/>
-Authors: Yu Zhang, Tangzhi Ye, Siming Chen, Guozheng Li, Lu Feng, Qiangqiang Liu, Shuai Chen, Ren Zuo, Zhuo Zhang, Zhanyi Wang, Xin Huang, Fengchao Xu, Li Yu, Shunlong Zhang, Qiusheng Li, Xiaoru Yuan 
+Authors: Yu Zhang, Tangzhi Ye, Siming Chen, Guozheng Li, Lu Feng, Qiangqiang Liu, Shuai Chen, Ren Zuo, Zhuo Zhang, Zhanyi Wang, Xin Huang, Fengchao Xu, Yu Li, Shunlong Zhang, Qiusheng Li, Xiaoru Yuan 
 
 ## Honorable Mentions
 
