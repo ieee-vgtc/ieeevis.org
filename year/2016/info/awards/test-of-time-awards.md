@@ -1,6 +1,6 @@
 ---
 title: Test of Time Awards
-layout: main
+layout: main-2016
 permalink: /year/2016/info/awards/test-of-time-awards
 contact: "web@ieeevis.org"
 ---

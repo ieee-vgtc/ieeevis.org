@@ -1,6 +1,6 @@
 ---
 title: Conference Venue
-layout: main
+layout: main-2016
 permalink: /year/2016/info/registration/conference-venue
 contact: "web@ieeevis.org"
 ---

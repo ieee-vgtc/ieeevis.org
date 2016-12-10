@@ -1,6 +1,6 @@
 ---
 title: Best Paper Awards
-layout: main
+layout: main-2016
 permalink: /year/2016/info/awards/best-paper-awards
 contact: "web@ieeevis.org"
 ---

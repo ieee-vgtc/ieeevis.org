@@ -1,6 +1,6 @@
 ---
 title: Future Locations for IEEE VIS Conferences
-layout: main
+layout: main-2016
 permalink: /year/2016/info/overview-amp-topics/future-locations-ieee-vis-conferences
 ---
 

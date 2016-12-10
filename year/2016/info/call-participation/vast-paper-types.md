@@ -1,6 +1,6 @@
 ---
 title: VAST Paper Types
-layout: main
+layout: main-2016
 permalink: /year/2016/info/call-participation/vast-paper-types
 ---
 ### Further Clarification on Paper Types in VAST 2016

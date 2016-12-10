@@ -1,6 +1,6 @@
 ---
 title: Video Fast Forwards
-layout: main
+layout: main-2016
 permalink: /year/2016/info/presenter-information/video-fast-forwards
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Final Information for Paper Authors
-layout: main
+layout: main-2016
 permalink: /year/2016/info/presenter-information/final-information-paper-authors
 ---
 

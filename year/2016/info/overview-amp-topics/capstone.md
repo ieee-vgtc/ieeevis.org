@@ -1,6 +1,6 @@
 ---
 title: Capstone
-layout: main
+layout: main-2016
 permalink: /year/2016/info/overview-amp-topics/capstone
 ---
 

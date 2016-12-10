@@ -1,6 +1,6 @@
 ---
 title: SciVis Steering Committee
-layout: main
+layout: main-2016
 permalink: /year/2016/info/committees/scivis-steering-committee
 ---
 

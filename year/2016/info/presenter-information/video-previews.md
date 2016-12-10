@@ -1,6 +1,6 @@
 ---
 title: Video Previews
-layout: main
+layout: main-2016
 permalink: /year/2016/info/presenter-information/video-previews
 ---
 

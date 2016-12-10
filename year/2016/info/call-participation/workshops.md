@@ -1,6 +1,6 @@
 ---
 title: Workshops
-layout: main
+layout: main-2016
 permalink: /year/2016/info/call-participation/workshops
 ---
 

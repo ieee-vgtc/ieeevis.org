@@ -1,6 +1,6 @@
 ---
 title: Supporters and Exhibition
-layout: main
+layout: main-2016
 permalink: /year/2016/info/exhibition/supporters-and-exhibition
 ---
 

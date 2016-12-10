@@ -1,6 +1,6 @@
 ---
 title: Papers Sessions
-layout: main
+layout: main-2016
 permalink: /year/2016/info/overview-amp-topics/papers-sessions
 ---
 

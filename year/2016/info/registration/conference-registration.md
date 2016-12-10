@@ -1,6 +1,6 @@
 ---
 title: Conference Registration
-layout: main
+layout: main-2016
 permalink: /year/2016/info/registration/conference-registration
 contact: "web@ieeevis.org"
 ---

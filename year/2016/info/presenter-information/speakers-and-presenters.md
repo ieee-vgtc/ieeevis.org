@@ -1,6 +1,6 @@
 ---
 title: Speakers and Presenters
-layout: main
+layout: main-2016
 permalink: /year/2016/info/presenter-information/speakers-and-presenters
 ---
 

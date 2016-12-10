@@ -1,6 +1,6 @@
 ---
 title: Visa Assistance
-layout: main
+layout: main-2016
 permalink: /year/2016/info/registration/visa-assistance
 contact: "web@ieeevis.org"
 ---

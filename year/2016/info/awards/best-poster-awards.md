@@ -1,6 +1,6 @@
 ---
 title: Best Poster Awards
-layout: main
+layout: main-2016
 permalink: /year/2016/info/awards/best-poster-awards
 contact: "web@ieeevis.org"
 ---

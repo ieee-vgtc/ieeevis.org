@@ -1,6 +1,6 @@
 ---
 title: VIS Community 2016
-layout: main
+layout: main-2016
 permalink: /year/2016/info/call-participation/community
 contact: community@ieeevis.org
 ---

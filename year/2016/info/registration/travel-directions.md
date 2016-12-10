@@ -1,6 +1,6 @@
 ---
 title: Travel Directions
-layout: main
+layout: main-2016
 permalink: /year/2016/info/registration/travel-directions
 contact: "web@ieeevis.org"
 ---

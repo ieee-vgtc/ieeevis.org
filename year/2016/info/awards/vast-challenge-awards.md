@@ -1,6 +1,6 @@
 ---
 title: VAST Challenge Awards
-layout: main
+layout: main-2016
 permalink: /year/2016/info/awards/vast-challenge-awards
 contact: "web@ieeevis.org"
 ---
