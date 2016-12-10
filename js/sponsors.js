@@ -3,10 +3,10 @@ function guessYear()
     // Tries to guess current year based on the HREF
     try {
         var year = window.location.pathname.split("/")[2];
-        return Number(year) || 2016;
+        return Number(year) || 2017;
     } catch (e) {
-        console.error("Could not guess year! Defaulting to 2016", window.location);
-        return 2016;
+        console.error("Could not guess year! Defaulting to 2017", window.location);
+        return 2017;
     }
 }
 

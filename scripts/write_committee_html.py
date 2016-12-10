@@ -52,7 +52,7 @@ def add_committee(el, committee):
         add_people(people_list)
 
 gc = get_spreadsheet("VIS2016_roster_clean")
-people = load_sheet_by_name(gc, "People").get_all_records()
+people = load_sheet_by_name(gc, "VIS 2017 People").get_all_records()
 roles =  load_sheet_by_name(gc, "Roles").get_all_records()
 
 el = h.table(**{"class": "committee_list", "border": "0"})
@@ -64,7 +64,7 @@ records = inner_join(recolumn(group_by(people, column("Role")), 'Key', 'Role'), 
 result = dict((r['Role'], r) for r in records)
 
 order = ["General", "Vice", "Program", "Paper", "Poster", "Panel", "Tutorial", "Workshop", "ArtShow", "Challenge", "Contest",
-         "VDS", "LDAV", "VizSec", "BioVis", "BELIV", "Vis in Practice", "Doctoral Colloquium", "Video/FF", "Meetup", "Community",
+         "VDS", "LDAV", "VizSec", "Vis in Practice", "Doctoral Colloquium", "Video/FF", "Meetup", "Community",
          "Student Vol", "Publicity", "VisKids", "Liaison", "Supporters", "Finance", "Publication", "Web"]
 
 for committee in order:

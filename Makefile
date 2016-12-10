@@ -9,7 +9,7 @@ site:
 
 metadata:
 	./scripts/report_page_admins.py > data/contacts.json
-	./scripts/write_committee_html.py > _includes/committee_table.html
+	./scripts/write_committee_html.py > _includes/committee_table_2017.html
 
 production: site
 	cd _site && ../scripts/sync_with_s3_boto.py $(PRODUCTION_BUCKET)
