@@ -9,11 +9,28 @@ of the
 content. [Here](https://help.github.com/articles/editing-files-in-another-user-s-repository/)
 is a simple guide.
 
+## By default, web chairs are not responsible for content
+
+Please do not contact web chairs with requests that include decisions 
+over content. For example, "improve the text on page XYZ" is not a
+reasonable request to be made to web@ieeevis.org; it's a request to be
+made to whoever is the responsible party.
+
+Please do not contact web chairs with requests such as "please add
+this content to the web site. You can decide where it goes". The web 
+chairs are responsible for making sure the website is running smoothly,
+together with the rest of the web infrastructure. They are not responsible
+for content. You should contact them with, at least:
+
+- the URL where you want the page to go,
+- the specific content it should be there,
+- and the person who will be in charge of maintaining that content in the future.
+
 ## Who's responsible for what?
 
 The point-of-contact for each page in the website is the
 `contact` person in each page's front matter. If a page does not have
-an assigned contact, then 1) that's possibly a bug that should be
+an assigned contact, then 1) that's likely a bug that should be
 reported, 2) `web@ieeevis.org` is the default point-of-contact.
 
 This means that if you found a bug on the *content* of a webpage,
