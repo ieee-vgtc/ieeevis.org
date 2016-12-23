@@ -65,7 +65,7 @@ result = dict((r['Role'], r) for r in records)
 
 order = ["General", "Vice", "Program", "Paper", "Poster", "Panel", "Tutorial", "Workshop", "ArtShow", "Challenge", "Contest",
          "VDS", "LDAV", "VizSec", "Vis in Practice", "Doctoral Colloquium", "Video/FF", "Meetup", "Community",
-         "Student Vol", "Publicity", "VisKids", "Liaison", "Supporters", "Finance", "Publication", "Web"]
+         "Student Vol", "Publicity", "VisKids", "Liaison", "Supporters", "Finance", "Publication", "Archive", "Web"]
 
 for committee in order:
     add_committee(body, result[committee])
