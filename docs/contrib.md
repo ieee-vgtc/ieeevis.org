@@ -11,7 +11,7 @@ is a simple guide.
 
 ## Where are the current files?
 
-Here is an example link for the [2016 workshops page](https://github.com/ieee-vgtc/ieeevis.org/blob/master/year/2016/info/call-participation/workshops.md).
+Here is an example link for the [2016 workshops page](https://github.com/ieee-vgtc/ieeevis.org/blob/master/year/2016/info/call-participation/workshops.md). Other URLs are available in similar places: [posters](https://github.com/ieee-vgtc/ieeevis.org/blob/master/year/2016/info/call-participation/posters.md), [panels](https://github.com/ieee-vgtc/ieeevis.org/blob/master/year/2016/info/call-participation/panels.md). Note how the URL on GitHub matches the URL on the website. https://github.com/ieee-vgtc/ieeevis.org/blob/master/year/2016/info/call-participation/panels.md corresponds to http://staging.ieeevis.org/year/2016/info/call-participation/panels (remove "/blob/master/" and the ".md" extension).
 
 ## By default, web chairs are not responsible for content
 
