@@ -9,6 +9,10 @@ of the
 content. [Here](https://help.github.com/articles/editing-files-in-another-user-s-repository/)
 is a simple guide.
 
+## Where are the current files?
+
+Here is an example link for the [2016 workshops page](https://github.com/ieee-vgtc/ieeevis.org/blob/master/year/2016/info/call-participation/workshops.md).
+
 ## By default, web chairs are not responsible for content
 
 Please do not contact web chairs with requests that include decisions 
