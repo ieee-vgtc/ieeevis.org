@@ -11,7 +11,7 @@ is a simple guide.
 
 ## Where are the current files?
 
-Here is an example link for the [2016 workshops page](https://github.com/ieee-vgtc/ieeevis.org/blob/master/year/2016/info/call-participation/workshops.md).
+Here is an example link for the [2016 workshops page](https://github.com/ieee-vgtc/ieeevis.org/blob/master/year/2016/info/call-participation/workshops.md). Other URLs are available in similar places: [posters](https://github.com/ieee-vgtc/ieeevis.org/blob/master/year/2016/info/call-participation/posters.md), [panels](https://github.com/ieee-vgtc/ieeevis.org/blob/master/year/2016/info/call-participation/panels.md). Note how the URL on GitHub matches the URL on the website. https://github.com/ieee-vgtc/ieeevis.org/blob/master/year/2016/info/call-participation/panels.md corresponds to http://staging.ieeevis.org/year/2016/info/call-participation/panels (remove "/blob/master/" and the ".md" extension).
 
 ## By default, web chairs are not responsible for content
 
@@ -48,3 +48,37 @@ changes.
 This is the result of five years of legacy pages written atop of each
 other. We're slowly improving the situation, but the legacy content is
 currently quite messy. Pull requests are welcome.
+
+## Contribution Guide: Step by Step
+
+We're going to use the [InfoVis CFP](https://github.com/ieee-vgtc/ieeevis.org/blob/master/year/2016/info/call-participation/infovis-papers.md) as an example.
+
+The basic workflow is: make changes to plain-text files using the in-browser text editor, and submit them for review by the web team and chairs.
+
+### 1. Identify the file you want to change
+
+![](img/find-cfp.gif)
+
+Use the GitHub file browser to find the InfoVis CFP.
+You can also use the search bar at the top of the GitHub page to find files by key phrases or filenames.
+
+### 2. Make edits in browser
+
+![](img/edit-cfp.gif)
+
+Use GitHub's in-browser text editor to make changes to the files.
+After selecting a file, click the edit button (upper right in the file viewer) to access the editor and make changes.
+
+### 3. Propose file changes
+
+![](img/propose-change.gif)
+
+After making changes, scroll to the bottom of the page to propose changes to the original document.
+The text fields are optional, but recommended.
+Use the text fields to summarize the changes you've made.
+
+### 4. Submit proposed changes for review
+
+![](img/pull-request.gif)
+
+Create a Pull Request to submit your changes for review by the web team and chairs.
