@@ -136,6 +136,7 @@ Research contributions are welcomed across a range of topics including, but not 
 * Multimedia (image/video/music)
 
 *Visual computing for emerging applications*
+
 * Nano-assembly
 * Live cell imaging
 * Imaging genetics
