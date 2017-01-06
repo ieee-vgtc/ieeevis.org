@@ -6,8 +6,7 @@ contact: workshops@ieeevis.org
 ---
 
 We solicit half-day workshops related to all areas of visualization
-including information visualization, scientific visualization, and
-visual analytics. The workshops venue at IEEE VIS provides an informal
+including visual analytics, information visualization, and scientific visualization. The workshops venue at IEEE VIS provides an informal
 setting for participants to discuss advanced technical topics in
 visualization, involve experts in the field, disseminate work in
 progress, and promote new ideas.
