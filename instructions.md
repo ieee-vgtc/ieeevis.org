@@ -1,3 +1,8 @@
+---
+layout: main-2017
+title: Instructions for editing the website
+---
+
 ## How to change an existing page
 
 The *easiest* way to suggest a change is to go on the bottom of the page you want to change and click on “file a bug”. You will be taken to the GitHub website where you can describe the problem, and web@ will get a notification when the bug is filed.
