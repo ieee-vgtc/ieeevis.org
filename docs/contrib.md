@@ -49,7 +49,9 @@ Create a Pull Request to submit your changes for review by the web team and chai
 
 Here is an example link for the [2016 workshops page](https://github.com/ieee-vgtc/ieeevis.org/blob/master/year/2016/info/call-participation/workshops.md). Other URLs are available in similar places: [posters](https://github.com/ieee-vgtc/ieeevis.org/blob/master/year/2016/info/call-participation/posters.md), [panels](https://github.com/ieee-vgtc/ieeevis.org/blob/master/year/2016/info/call-participation/panels.md). Note how the URL on GitHub matches the URL on the website. https://github.com/ieee-vgtc/ieeevis.org/blob/master/year/2016/info/call-participation/panels.md corresponds to http://staging.ieeevis.org/year/2016/info/call-participation/panels (remove "/blob/master/" and the ".md" extension).
 
-## By default, web chairs are not responsible for content
+## Policies
+
+### By default, web chairs are not responsible for content
 
 Please do not contact web chairs with requests that include decisions 
 over content. For example, "improve the text on page XYZ" is not a
@@ -66,7 +68,7 @@ for content. You should contact them with, at least:
 - the specific content it should be there,
 - and the person who will be in charge of maintaining that content in the future.
 
-## Who's responsible for what?
+### Who's responsible for what?
 
 The point-of-contact for each page in the website is the
 `contact` person in each page's front matter. If a page does not have
@@ -79,7 +81,7 @@ fixed. However, if the fix involves anything more than trivial typos,
 we will wait for an OK from the point-of-contact before committing the
 changes.
 
-## What's with the content files all over the place?
+### What's with the content files all over the place?
 
 This is the result of five years of legacy pages written atop of each
 other. We're slowly improving the situation, but the legacy content is
