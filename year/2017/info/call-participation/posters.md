@@ -116,11 +116,11 @@ The chairs of each conference will award a 'Best Poster' prize to the authors of
 
 ### CHAIRS
 
-Natalia Andrienko, *Fraunhofer Institute IAIS and City, University London (VAST)*
-Wenwen Dou, *University of North Carolina at Charlotte (VAST)*
-Petra Isenberg, *INRIA  (InfoVis)*
-Miriah Meyer, *University of Utah (InfoVis)*
-Christoph Garth, *Technische Universität Kaiserslautern (SciVis)*
+Natalia Andrienko, *Fraunhofer Institute IAIS and City, University London (VAST)*  
+Wenwen Dou, *University of North Carolina at Charlotte (VAST)*  
+Petra Isenberg, *INRIA  (InfoVis)*  
+Miriah Meyer, *University of Utah (InfoVis)*  
+Christoph Garth, *Technische Universität Kaiserslautern (SciVis)*  
 Gunther H. Weber, *Lawrence Berkeley National Laboratory (SciVis)*
 
 *For details about the conferences or to discuss any aspects of your submission please email: [posters(at)ieeevis.org](mailto:posters@ieeevis.org)*
