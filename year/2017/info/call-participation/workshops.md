@@ -2,6 +2,7 @@
 title: Workshops
 layout: main-2017
 permalink: /year/2017/info/call-participation/workshops
+contact: workshops@ieeevis.org
 ---
 
 We solicit half-day workshops related to all areas of visualization
