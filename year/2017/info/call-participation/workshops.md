@@ -12,7 +12,6 @@ We solicit half-day workshops related to all areas of visualization including vi
 Workshops should:
 
 * emphasize emerging ideas, concepts, or technologies that are currently too nascent or too interdisciplinary for a full symposium; or
-
 * bring together experts on a subject to create a report, white-paper, or proposal requiring interactive work sessions that is of potential interest to a substantial segment of the visualization community.
 
 A distinction that separates workshops from tutorials and symposia is that the information flow for a workshop should not be directed solely from the presenters to the audience. Rather, workshops should engage the participation of all attendees. Workshops at IEEE VIS are open to all registered attendees and ‘invitation only’ workshops will not be approved.
