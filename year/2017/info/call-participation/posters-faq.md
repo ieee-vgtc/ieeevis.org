@@ -10,7 +10,7 @@ There are different reasons for submitting work as a poster. Maybe the work wasn
 
 *Will posters be published/indexed through IEEE Xplore?*
 
-No, posters will **not** be published/indexed through IEEE Xplore. The aim of the VIS posters session is to highlight new work and work in progress. To ensure that authors can publish their finished work at conferences or in journals, the IEEE VIS posters session does not count as peer-reviewed publication. This approach allows authors to fully re-use their material for publication of their finished work and avoids copyright issues with IEEE.
+No, posters will **not** be published/indexed through IEEE Xplore. The aim of the VIS posters session is to highlight new work and work in progress. To ensure that authors can publish their finished work at conferences or in journals, poster summaries that are part of the IEEE VIS poster program are not considered to be peer-reviewed publications. This approach allows authors to fully re-use their material for publication of their finished work and avoids copyright issues with IEEE.
 
 *What are my responsibilities as a poster author?*
 
