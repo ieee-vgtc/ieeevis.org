@@ -67,8 +67,7 @@ The workshops will be evaluated according to the following criteria:
 * the coherence of the proposed topic, and
 * the feasibility of the proposed plan (financial, time plan, etc.); for a workshop with special needs, please refer to the guidelines below on workshop finances, fundraising, and coordination.
 
-The workshop organizers will receive support from the VIS conference,
-including:
+The workshop organizers will receive support from the VIS conference, including:
 
 * one complimentary 1-day registration for an invited speaker,
 * room and AV support suitable for up to 100 attendees, and
