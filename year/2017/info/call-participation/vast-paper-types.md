@@ -169,15 +169,15 @@ Examples:
   User Interactions and Generating Suggestions During the Data
   Exploration Process" in IEEE Transactions on Visualization and
   Computer Graphics, vol. 23, no. 1, pp. 41-50, Jan. 2017. doi:
-  10.1109/TVCG.2016.2598471.
+  [10.1109/TVCG.2016.2598471](http://dx.doi.org/10.1109/TVCG.2016.2598471).
 * G. K. L. Tam, V. Kothari and M. Chen, "An Analysis of Machine- and
   Human-Analytics in Classification" in IEEE Transactions on
   Visualization and Computer Graphics, vol. 23, no. 1, pp. 71-80,
-  Jan. 2017. doi: 10.1109/TVCG.2016.2598829. VAST 2016 Best Paper.
+  Jan. 2017. doi: [10.1109/TVCG.2016.2598829](http://dx.doi.org/10.1109/TVCG.2016.2598829). VAST 2016 Best Paper.
 * M. Monroe, R. Lan, H. Lee, C. Plaisant and B. Shneiderman, "Temporal
   Event Sequence Simplification" in IEEE Transactions on Visualization
   and Computer Graphics, vol. 19, no. 12, pp. 2227-2236,
-  Dec. 2013. doi: 10.1109/TVCG.2013.200. VAST 2013 Honorable Mention.
+  Dec. 2013. doi: [10.1109/TVCG.2013.200](http://dx.doi.org/10.1109/TVCG.2013.200). VAST 2013 Honorable Mention.
   
 ### Technique and Algorithm
 
@@ -206,17 +206,15 @@ Examples:
 * C. Xie, W. Zhong and K. Mueller, "A Visual Analytics Approach for
   Categorical Joint Distribution Reconstruction from Marginal
   Projections" in IEEE Transactions on Visualization and Computer
-  Graphics, vol. 23, no. 1, pp. 51-60, Jan. 2017. doi:
-  10.1109/TVCG.2016.2598479. VAST 2016 Honorable Mention.
+  Graphics, vol. 23, no. 1, pp. 51-60, Jan. 2017. doi: [10.1109/TVCG.2016.2598479](http://dx.doi.org/10.1109/TVCG.2016.2598479). VAST 2016 Honorable Mention.
 * S. van den Elzen, D. Holten, J. Blaas and J. J. van Wijk, "Reducing
   Snapshots to Points: A Visual Analytics Approach to Dynamic Network
   Exploration" in IEEE Transactions on Visualization and Computer
-  Graphics, vol. 22, no. 1, pp. 1-10, Jan. 31 2016. doi:
-  10.1109/TVCG.2015.2468078. VAST 2015 Best Paper.
+  Graphics, vol. 22, no. 1, pp. 1-10, Jan. 31 2016. doi: [10.1109/TVCG.2015.2468078](http://dx.doi.org/10.1109/TVCG.2015.2468078). VAST 2015 Best Paper.
 * T. Mühlbacher and H. Piringer, "A Partition-Based Framework for
   Building and Validating Regression Models" in IEEE Transactions on
   Visualization and Computer Graphics, vol. 19, no. 12, pp. 1962-1971,
-  Dec. 2013. doi: 10.1109/TVCG.2013.125. VAST 2013 Best Paper.
+  Dec. 2013. doi: [10.1109/TVCG.2013.125](http://dx.doi.org/10.1109/TVCG.2013.125). VAST 2013 Best Paper.
 
 ### Empirical Study
 
@@ -251,18 +249,17 @@ Examples:
 * A. Dasgupta et al., "Familiarity Vs Trust: A Comparative Study of
   Domain Scientists' Trust in Visual Analytics and Conventional
   Analysis Methods" in IEEE Transactions on Visualization and Computer
-  Graphics, vol. 23, no. 1, pp. 271-280, Jan. 2017. doi:
-  10.1109/TVCG.2016.2598544.
+  Graphics, vol. 23, no. 1, pp. 271-280, Jan. 2017. doi: [10.1109/TVCG.2016.2598544](http://dx.doi.org/10.1109/TVCG.2016.2598544).
 * H. Guo, S. R. Gomez, C. Ziemkiewicz and D. H. Laidlaw, "A Case Study
   Using Visualization Interaction Logs and Insight Metrics to
   Understand How Analysts Arrive at Insights" in IEEE Transactions on
   Visualization and Computer Graphics, vol. 22, no. 1, pp. 51-60,
-  Jan. 31 2016. doi: 10.1109/TVCG.2015.2467613. VAST 2015 Honorable
+  Jan. 31 2016. doi: [10.1109/TVCG.2015.2467613](http://dx.doi.org/10.1109/TVCG.2015.2467613). VAST 2015 Honorable
   Mention.
 * N. Mahyar and M. Tory, "Supporting Communication and Coordination in
   Collaborative Sensemaking" in IEEE Transactions on Visualization and
   Computer Graphics, vol. 20, no. 12, pp. 1633-1642, Dec. 31 2014. 
-  doi: 10.1109/TVCG.2014.2346573. VAST 2014 Best Paper.
+  doi: [10.1109/TVCG.2014.2346573](http://dx.doi.org/10.1109/TVCG.2014.2346573). VAST 2014 Best Paper.
   
 ### Design Study
 
@@ -286,17 +283,14 @@ Examples:
 * J. Zhao, N. Cao, Z. Wen, Y. Song, Y. R. Lin and C. Collins,
   "#FluxFlow: Visual Analysis of Anomalous Information Spreading on
   Social Media" in IEEE Transactions on Visualization and Computer
-  Graphics, vol. 20, no. 12, pp. 1773-1782, Dec. 31 2014. doi:
-  10.1109/TVCG.2014.2346922. VAST 2014 Honorable Mention.
+  Graphics, vol. 20, no. 12, pp. 1773-1782, Dec. 31 2014. doi: [10.1109/TVCG.2014.2346922](http://dx.doi.org/10.1109/TVCG.2014.2346922). VAST 2014 Honorable Mention.
 * P. Isenberg, D. Fisher, M. R. Morris, K. Inkpen and M. Czerwinski,
   "An exploratory study of co-located collaborative visual analytics
   around a tabletop display" 2010 IEEE Symposium on Visual Analytics
-  Science and Technology, pp. 179-186. doi:
-  10.1109/VAST.2010.5652880. VAST 2010 Honorable Mention.
+  Science and Technology, pp. 179-186. doi: [10.1109/VAST.2010.5652880](http://dx.doi.org/10.1109/VAST.2010.5652880). VAST 2010 Honorable Mention.
 * E. A. Bier, S. K. Card and J. W. Bodnar, "Entity-based collaboration
   tools for intelligence analysis" 2008 IEEE Symposium on Visual
-  Analytics Science and Technology, pp. 99-106. doi:
-  10.1109/VAST.2008.4677362. VAST 2008 Best Paper.
+  Analytics Science and Technology, pp. 99-106. doi: [10.1109/VAST.2008.4677362](http://dx.doi.org/10.1109/VAST.2008.4677362). VAST 2008 Best Paper.
 
 ### System
 
@@ -323,17 +317,16 @@ Examples:
 * P. Xu, H. Mei, L. Ren and W. Chen, "ViDX: Visual Diagnostics of
   Assembly Line Performance in Smart Factories" in IEEE Transactions
   on Visualization and Computer Graphics, vol. 23, no. 1, pp. 291-300,
-  Jan. 2017. doi: 10.1109/TVCG.2016.2598664. VAST 2016 Honorable
+  Jan. 2017. doi: [10.1109/TVCG.2016.2598664](http://dx.doi.org/10.1109/TVCG.2016.2598664). VAST 2016 Honorable
   Mention.
 * T. Blascheck, M. John, K. Kurzhals, S. Koch and T. Ertl, "VA2: A
   Visual Analytics Approach for Evaluating Visual Analytics
   Applications" in IEEE Transactions on Visualization and Computer
-  Graphics, vol. 22, no. 1, pp. 61-70, Jan. 31 2016. doi:
-  10.1109/TVCG.2015.2467871. VAST 2015 Honorable Mention.
+  Graphics, vol. 22, no. 1, pp. 61-70, Jan. 31 2016. doi: [10.1109/TVCG.2015.2467871](http://dx.doi.org/10.1109/TVCG.2015.2467871). VAST 2015 Honorable Mention.
 * S. Koch, H. Bosch, M. Giereth and T. Ertl, "Iterative integration of
   visual insights during patent search and analysis" 2009 IEEE
   Symposium on Visual Analytics Science and Technology,
-  pp. 203-210. doi: 10.1109/VAST.2009.5333564. VAST 2009 Best Paper.
+  pp. 203-210. doi: [10.1109/VAST.2009.5333564](http://dx.doi.org/10.1109/VAST.2009.5333564). VAST 2009 Best Paper.
 
 ### Application
 
@@ -352,15 +345,15 @@ Examples:
 * D. Liu et al., "SmartAdP: Visual Analytics of Large-scale Taxi
   Trajectories for Selecting Billboard Locations" in IEEE Transactions
   on Visualization and Computer Graphics, vol. 23, no. 1, pp. 1-10,
-  Jan. 2017. doi: 10.1109/TVCG.2016.2598432.
+  Jan. 2017. doi: [10.1109/TVCG.2016.2598432](http://dx.doi.org/10.1109/TVCG.2016.2598432).
 * F. Beck, S. Koch and D. Weiskopf, "Visual Analysis and Dissemination
   of Scientific Literature Collections with SurVis" in IEEE
   Transactions on Visualization and Computer Graphics, vol. 22, no. 1,
-  pp. 180-189, Jan. 31 2016. doi: 10.1109/TVCG.2015.2467757.
+  pp. 180-189, Jan. 31 2016. doi: [10.1109/TVCG.2015.2467757](http://dx.doi.org/10.1109/TVCG.2015.2467757).
 * C. Shi, Y. Wu, S. Liu, H. Zhou and H. Qu, "LoyalTracker: Visualizing
   Loyalty Dynamics in Search Engines" in IEEE Transactions on
   Visualization and Computer Graphics, vol. 20, no. 12, pp. 1733-1742,
-  Dec. 31 2014. doi: 10.1109/TVCG.2014.2346912. VAST 2014 Honorable
+  Dec. 31 2014. doi: [10.1109/TVCG.2014.2346912](http://dx.doi.org/10.1109/TVCG.2014.2346912). VAST 2014 Honorable
   Mention.
 
 ----
@@ -380,3 +373,4 @@ Reviewing is essentially an evaluation process with reviews intended to offer a 
 * Tobias Schreck, TU Graz, Austria
 
 Email: [vast_papers@ieeevis.org](mailto:vast_papers@ieeevis.org).
+
