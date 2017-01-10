@@ -30,8 +30,8 @@ All deadlines are at **5:00pm Pacific Time (PDT)**.
 
 ### CHAIRS
 
-Alex Endert, *Georgia Tech*    
-Michael Sedlmair, *University of Vienna*
+Alex Endert, *Georgia Tech*  
+Michael Sedlmair, *University of Vienna*  
 Ivan Viola, *Vienna University of Technology*
 
 For further information, please email: [panels(at)ieeevis.org](mailto:panels@ieeevis.org)
