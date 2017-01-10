@@ -33,7 +33,7 @@ including, but not limited to:
 
 *Information visualization techniques for*
 
-* graphs (networks), trees (hierarchies), and other relational data
+* graphs (worknets), trees (hierarchies), and other relational data
 * high-dimensional data and dimensionality reduction
 * multivariate data
 * heterogeneous data
