@@ -19,7 +19,7 @@ In addition to a poster being displayed throughout IEEE VIS
   work and discussing new ideas with your peers
 * [video previews](/year/2017/info/presenter-information/video-previews)
   for posters are strongly suggested
-* one poster presenter peer poster will eligible for the reduced
+* one presenter per poster will be eligible for the reduced
   conference rate for authors
 
 Examples of appropriate visualization work include, but are not limited to:
@@ -66,7 +66,7 @@ Authors whose posters are accepted for IEEE VIS will be asked to
 refine their posters and summaries based upon feedback from reviewers.
 
 The poster itself only needs to be prepared for and brought to the
-poster session at IEEE VIS but should hang throughout the week.
+poster session at IEEE VIS but should be on display throughout the week.
 
 Visit the [Posters FAQ](/year/2017/info/call-participation/posters-faq) page for some useful tips for authors.
 
