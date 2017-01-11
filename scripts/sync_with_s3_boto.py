@@ -84,7 +84,7 @@ def check_if_git_is_clean():
         raise Exception("More than one active branch?! %s" % l)
     local_branch_sha = l[0].split()[2]
     if not remote_sha.startswith(local_branch_sha):
-        raise Exception("remote branch sha (%s) doesn't match local branch sha: (%s) " % (remote_sha, local_branch_sha)
+        raise Exception("remote branch sha (%s) doesn't match local branch sha: (%s) " % (remote_sha, local_branch_sha))
     
     print "Remote branch match matches local branch. Ok!"
     
