@@ -82,8 +82,9 @@ def check_if_git_is_clean():
     l = filter(lambda s: s.startswith('*'), run_cmd_get_lines('git', 'branch', '-v'))
     if len(l) <> 1:
         raise Exception("More than one active branch?! %s" % l)
-    if not remote_sha.startswith(l[0][2]):
-        raise Exception("remote sha branch (%s) doesn't match local sha branch: (%s) " % (remote_sha, l[0][2]))
+    local_branch_sha = l[0].split()[2]
+    if not remote_sha.startswith(local_branch_sha):
+        raise Exception("remote branch sha (%s) doesn't match local branch sha: (%s) " % (remote_sha, l[0][2]))
     
     print "Remote branch match matches local branch. Ok!"
     
