@@ -100,28 +100,32 @@ except KeyError:
     print "Instead, got %s" % str(sys.argv[1:])
     exit(1)
 
-check_if_git_is_clean()
+try:
+    check_if_git_is_clean()
+except Exception, e:
+    print "Error:", str(e)
+    exit(1)
 
-# session = boto3.Session(profile_name=os.environ["IEEEVIS_AWS_USER"])
-# resource = session.resource('s3')
-# bucket = resource.Bucket(target_bucket_name)
+session = boto3.Session(profile_name=os.environ["IEEEVIS_AWS_USER"])
+resource = session.resource('s3')
+bucket = resource.Bucket(target_bucket_name)
 
-# print "Syncing branch '%s' with s3 bucket '%s'" % (target_bucket_name)
+print "Syncing branch '%s' with s3 bucket '%s'" % (target_bucket_name)
 
-# diff = diff_local_remote_buckets(local_info(), bucket_info())
+diff = diff_local_remote_buckets(local_info(), bucket_info())
 
-# files_to_upload = diff['to_insert'] + diff['to_update']
-# print "Uploading %s files:" % len(files_to_upload)
-# for o in files_to_upload:
-#     print "  %s" % o
-# put_objects(files_to_upload)
+files_to_upload = diff['to_insert'] + diff['to_update']
+print "Uploading %s files:" % len(files_to_upload)
+for o in files_to_upload:
+    print "  %s" % o
+put_objects(files_to_upload)
 
-# files_to_remove = diff['to_delete']
-# print "Removing %s files:" % len(files_to_remove)
-# for o in files_to_remove:
-#     print "  %s" % o
-# delete_objects(files_to_remove)
+files_to_remove = diff['to_delete']
+print "Removing %s files:" % len(files_to_remove)
+for o in files_to_remove:
+    print "  %s" % o
+delete_objects(files_to_remove)
 
-# files_to_keep = diff['same']
-# print "Not touching %s other files." % len(files_to_keep)
-# print "Done!"
+files_to_keep = diff['same']
+print "Not touching %s other files." % len(files_to_keep)
+print "Done!"
