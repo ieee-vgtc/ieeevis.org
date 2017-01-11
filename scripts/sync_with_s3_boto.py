@@ -10,19 +10,7 @@ import os
 
 from utils import *
 
-try:
-    target_bucket_name = sys.argv[1]
-    target_bucket = 's3://%s/' % target_bucket_name
-    debug=True
-except KeyError:
-    print "Expected path for target bucket"
-    exit(1)
-
-session = boto3.Session(profile_name=os.environ["IEEEVIS_AWS_USER"])
-resource = session.resource('s3')
-bucket = resource.Bucket(target_bucket_name)
-
-print "Syncing with", target_bucket_name
+##############################################################################
 
 def bucket_info():
     """returns all the md5 values from the given s3 bucket."""
@@ -57,24 +45,62 @@ def put_objects(objs):
                                                                      repr(mime_type))
         bucket.put_object(Key=obj, Body=f, ContentType=mime_type)
 
-diff = diff_local_remote_buckets(local_info(), bucket_info())
-
-files_to_upload = diff['to_insert'] + diff['to_update']
-print "Uploading %s files:" % len(files_to_upload)
-for o in files_to_upload:
-    print "  %s" % o
-put_objects(files_to_upload)
-
-files_to_remove = diff['to_delete']
-print "Removing %s files:" % len(files_to_remove)
-for o in files_to_remove:
-    print "  %s" % o
-delete_objects(files_to_remove)
-
-files_to_keep = diff['same']
-print "Not touching %s other files." % len(files_to_keep)
-# for o in files_to_keep:
-#     print "  %s" % o
+def check_if_git_is_clean():
+    l = filter(lambda s: s.startswith('* '), subprocess.check_output(['git', 'branch']).split('\n'))
+    if len(l) <> 1:
+        raise Exception("Expected *some* branch to be selected, got %s instead." % l)
+    branch = l[0].split(' ')[1]
+    if branch <> git_branch_name:
+        raise Exception("Need git to be in the correct branch.\nExpected to be in branch '%s', but it seems we're in branch '%s' instead." %
+                        (git_branch_name, branch))
+    l = subprocess.check_output(['git', 'status', '--porcelain']).split('\n')
+    if len(l) <> 0:
+        raise Exception("Expected git working tree to be clean, but it appears not to be.")
     
+    # grab the appropriate remote
+    l = filter(lambda s: 'fetch' in s, subprocess.check_output(['git', 'remote', '-v']).split('\n'))
 
-print "Done!"
+    if len(l) <> 1:
+        raise Exception("Found more than one remote: %s" % l)
+
+    git_remote = l[0].split()[1]
+
+    print "Will use remote %s" % git_remote
+    
+##############################################################################
+   
+try:
+    git_branch_name = sys.argv[1]
+    target_bucket_name = sys.argv[2]
+    target_bucket = 's3://%s/' % target_bucket_name
+    debug=True
+except KeyError:
+    print "Expected branch and s3 bucket to be parameters 1 and 2"
+    print "Instead, got %s" % str(sys.argv[1:])
+    exit(1)
+
+check_if_git_is_clean()
+
+# session = boto3.Session(profile_name=os.environ["IEEEVIS_AWS_USER"])
+# resource = session.resource('s3')
+# bucket = resource.Bucket(target_bucket_name)
+
+# print "Syncing branch '%s' with s3 bucket '%s'" % (target_bucket_name)
+
+# diff = diff_local_remote_buckets(local_info(), bucket_info())
+
+# files_to_upload = diff['to_insert'] + diff['to_update']
+# print "Uploading %s files:" % len(files_to_upload)
+# for o in files_to_upload:
+#     print "  %s" % o
+# put_objects(files_to_upload)
+
+# files_to_remove = diff['to_delete']
+# print "Removing %s files:" % len(files_to_remove)
+# for o in files_to_remove:
+#     print "  %s" % o
+# delete_objects(files_to_remove)
+
+# files_to_keep = diff['same']
+# print "Not touching %s other files." % len(files_to_keep)
+# print "Done!"
