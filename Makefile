@@ -1,6 +1,9 @@
 PRODUCTION_BUCKET=ieeevis.org
 STAGING_BUCKET=staging.ieeevis.org
 
+PRODUCTION_BRANCH=production
+STAGING_BRANCH=master
+
 all: site metadata autogen
 
 site:
@@ -12,10 +15,10 @@ metadata:
 	./scripts/write_committee_html.py > _includes/committee_table_2017.html
 
 production: site
-	cd _site && ../scripts/sync_with_s3_boto.py $(PRODUCTION_BUCKET)
+	cd _site && ../scripts/sync_with_s3_boto.py $(PRODUCTION_BRANCH) $(PRODUCTION_BUCKET)
 
 staging: site
-	cd _site && ../scripts/sync_with_s3_boto.py $(STAGING_BUCKET)
+	cd _site && ../scripts/sync_with_s3_boto.py $(STAGING_BRANCH) $(STAGING_BUCKET)
 
 ################################################################################
 
