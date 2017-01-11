@@ -45,27 +45,47 @@ def put_objects(objs):
                                                                      repr(mime_type))
         bucket.put_object(Key=obj, Body=f, ContentType=mime_type)
 
+def run_cmd_get_lines(*cmd):
+    return subprocess.check_output(list(cmd)).split('\n')
+
 def check_if_git_is_clean():
-    l = filter(lambda s: s.startswith('* '), subprocess.check_output(['git', 'branch']).split('\n'))
+    l = filter(lambda s: s.startswith('* '), run_cmd_get_lines('git', 'branch'))
     if len(l) <> 1:
         raise Exception("Expected *some* branch to be selected, got %s instead." % l)
+
     branch = l[0].split(' ')[1]
+    
     if branch <> git_branch_name:
         raise Exception("Need git to be in the correct branch.\nExpected to be in branch '%s', but it seems we're in branch '%s' instead." %
                         (git_branch_name, branch))
-    l = filter(lambda s: s <> '', subprocess.check_output(['git', 'status', '--porcelain']).split('\n'))
+    
+    l = filter(lambda s: s <> '', run_cmd_get_lines('git', 'status', '--porcelain'))
     if len(l) <> 0:
         raise Exception("Expected git working tree to be clean, but it appears not to be.")
     
     # grab the appropriate remote
-    l = filter(lambda s: 'fetch' in s, subprocess.check_output(['git', 'remote', '-v']).split('\n'))
-
+    l = filter(lambda s: 'fetch' in s, run_cmd_get_lines('git', 'remote', '-v'))
     if len(l) <> 1:
         raise Exception("Found more than one remote: %s" % l)
 
     git_remote = l[0].split()[1]
 
     print "Will use remote %s" % git_remote
+    remote_ref = 'refs/heads/%s' % branch
+
+    l = filter(lambda s: remote_ref in s,
+               run_cmd_get_lines('git', 'ls-remote', git_remote))
+    if len(l) <> 1:
+        raise Exception("Expected exactly one remote ref, got %s instead" % str(l))
+
+    remote_sha = l[0].split()[0]
+    l = filter(lambda s: s.startswith('*'), run_cmd_get_lines('git', 'branch', '-v'))
+    if len(l) <> 1:
+        raise Exception("More than one active branch?! %s" % l)
+    if not remote_sha.startswith(l[0][2]):
+        raise Exception("remote sha branch (%s) doesn't match local sha branch: (%s) " % (remote_sha, l[0][2]))
+    
+    print "Remote branch match matches local branch. Ok!"
     
 ##############################################################################
    
