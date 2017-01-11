@@ -110,7 +110,7 @@ session = boto3.Session(profile_name=os.environ["IEEEVIS_AWS_USER"])
 resource = session.resource('s3')
 bucket = resource.Bucket(target_bucket_name)
 
-print "Syncing branch '%s' with s3 bucket '%s'" % (target_bucket_name)
+print "Syncing branch '%s' with s3 bucket '%s'" % (git_branch_name, target_bucket_name)
 
 diff = diff_local_remote_buckets(local_info(), bucket_info())
 
