@@ -54,7 +54,7 @@ The workshop organizers will receive the following support from the VIS conferen
 * space in the poster display area, if requested (from limited pool set aside for standard workshops; available space depends on the specifics of the venue; early requests given priority over late requests),  
 * PCS (Precision Conference Solutions) support for managing submissions and the review process, if requested,
 * inclusion of the workshop materials or proceedings on the USB drive for dissemination to attendees of the conference, if requested (materials must be provided by Aug 27 2017), and 
-* IEEE Xplore Digital Library publication of the workshop proceedings, if desired.
+* IEEE Xplore Digital Library publication of the workshop proceedings, if requested.
 
 If the requirements of the workshop exceed this default support, the workshop organizers are expected to coordinate with the workshop chairs and possibly raise funds to support the workshop activities; fundraising plans must be discussed with the workshop and supporters chairs prior to contacting any potential funder. For more information, see the guidelines for
 [Financial and Coordination Policies for IEEE VIS](https://docs.google.com/document/d/1kp6q93hpP6m0v2gJyqZwRd46nf2baR6q9Dxd39Pkb7Q/edit?usp=sharing).
