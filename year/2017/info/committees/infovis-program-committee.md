@@ -4,7 +4,6 @@ layout: main-2017
 permalink: /year/2017/info/committees/infovis-program-committee
 ---
 
-|----|----|
 | Rahul Basole | Georgia Institute of Technology |
 | Enrico Bertini | New York University |
 | Anastasia Bezerianos | Université Paris-Sud |
@@ -63,4 +62,3 @@ permalink: /year/2017/info/committees/infovis-program-committee
 | Yingcai Wu | Microsoft Asia |
 | Jing Yang | University of North Carolina - Charlotte |
 | Caroline Ziemkiewicz | Forrester Research |
-|----|----|
