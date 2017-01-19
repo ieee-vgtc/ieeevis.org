@@ -16,7 +16,7 @@ contact: infovis_papers@ieeevis.org
 | Christopher Collins | University of Ontario Institute of Technology |
 | Weiwei Cui | Microsoft Research China |
 | Marian Dörk | Potsdam University of Applied Sciences |
-| Wenwen Dou | University of North Carolina - Charlotte |
+| Wenwen Dou | University of North Carolina at Charlotte |
 | Pierre Dragicevic | Inria |
 | Steven Drucker | Microsoft Research |
 | Jason Dykes | City University London |
@@ -28,7 +28,7 @@ contact: infovis_papers@ieeevis.org
 | Lane Harrison | Worcester Polytechnic Institute |
 | Helwig Hauser | University of Bergen |
 | Christopher Healey | North Carolina State University |
-| Marti Hearst | UC Berkeley |
+| Marti Hearst | University of California, Berkeley |
 | Uta Hinrichs | University of St. Andrews |
 | Heike Hofmann | Iowa State University |
 | Samuel Huron | Telecom Paris Tech |
@@ -40,7 +40,7 @@ contact: infovis_papers@ieeevis.org
 | Daniel Keim | Universität Konstanz |
 | Jessie Kennedy | Edinburgh Napier University |
 | Bum Chul Kwon | IBM Research |
-| Heidi Lam | Tableau Software |
+| Heidi Lam | Tableau Research |
 | Michael McGuffin | École de technologie supérieure (ÉTS) |
 | Miriah Meyer | University of Utah |
 | Tamara Munzner | University of British Columbia |
@@ -61,5 +61,5 @@ contact: infovis_papers@ieeevis.org
 | Romain Vuillemot | Ecole Centrale Lyon |
 | Wesley Willett | University of Calgary |
 | Yingcai Wu | Microsoft Asia |
-| Jing Yang | University of North Carolina - Charlotte |
+| Jing Yang | University of North Carolina at Charlotte |
 | Caroline Ziemkiewicz | Forrester Research |
