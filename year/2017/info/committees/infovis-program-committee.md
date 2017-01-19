@@ -2,6 +2,7 @@
 title: InfoVis Program Committee
 layout: main-2017
 permalink: /year/2017/info/committees/infovis-program-committee
+contact: infovis_papers@ieeevis.org
 ---
 
 | Rahul Basole | Georgia Institute of Technology |
