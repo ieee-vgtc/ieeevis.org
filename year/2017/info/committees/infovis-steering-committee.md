@@ -5,7 +5,7 @@ permalink: /year/2017/info/committees/infovis-steering-committee
 ---
 
 | Sheelagh Carpendale	| *University of Calgary*
-| Jason Dykes	| *City University London*
+| Jason Dykes	| *City, University of London*
 | Jean-Daniel Fekete	| *Inria*
 | Jeff Heer	| *University of Washington*
 | Tamara Munzner	| *University of British Columbia*
