@@ -12,20 +12,23 @@ The DC call is open to all Ph.D. students --- regardless of whether they are pre
 
 All research topics suitable for the IEEE SciVis, IEEE InfoVis, and IEEE VAST main programs as well as associated workshops and symposia are appropriate for the Doctoral Colloquium. The Doctoral Colloquium strongly commits to achieving diversity among the student participants, including diversity across research groups and geographical area. 
 
-## Format
+## FORMAT
 
 The colloquium will consist of both parallel sessions of student presentations as well as common discussions with the expert panelists. A catered lunch and a roundtable discussion session will give student participants the opportunity to interact more informally with panelists.
 
 Only selected applicants will be allowed to participate in the colloquium, and will be expected to attend the full day of events.
 
-## Funding
+## FUNDING
 
 Contingent upon pending requests for external sponsorship of the VIS DC, we may be able to partially fund the travel, conference registration, and lodging for accepted DC student participants.
 
-## Submissions
+## IMPORTANT DATES
+Submission Deadline 	Monday, May 15, 2017
+Notification 	Saturday, July 1st, 2017
 
-The deadline for DC submissions is May 15, 2017, 5pm PDT.  
-Notification: July 1st, 2017.
+All deadlines are at 5:00pm Pacific Time (PDT).
+
+## SUBMISSIONS
 
 Applicants to the Doctoral Colloquium should submit:
 
@@ -39,10 +42,10 @@ Formatting guidelines and LaTeX/Word templates can be found [here](http://www.cs
 
 Student submissions will be peer-reviewed and selections will be made on the basis of their contribution to the colloquium goals, strength of research direction, and the advisor's assessment. Accepted submissions will be printed for colloquium participants.
 
-## Doctoral Colloquium Chairs
+## CHAIRS
 
-Hank Childs, University of Oregon  
-Tatiana von Landesberger, TU Darmstadt  
-Marc Streit, Johannes Kepler University Linz
+Hank Childs, University of Oregon, USA  
+Tatiana von Landesberger, TU Darmstadt, Germany  
+Marc Streit, Johannes Kepler University Linz, Austria
 
-Contact VIS DC co-chairs: [doctoral_coll@ieeevis.org](mailto:doctoral_coll@ieeevis.org)
+For further information, please email: [doctoral_coll@ieeevis.org](mailto:doctoral_coll@ieeevis.org)
