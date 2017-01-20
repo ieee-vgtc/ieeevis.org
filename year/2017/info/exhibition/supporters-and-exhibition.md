@@ -4,6 +4,8 @@ layout: main-2016
 permalink: /year/2016/info/exhibition/supporters-and-exhibition
 ---
 
+Please see the [IEEE VIS 2017 Supporter Prospectus]().
+
 **IEEE VIS 2016** provides the premier forum for advances in scientific and information visualization in academia, science, government, and industry. Three events, the *IEEE Conference for Visual Analytics for Science and Technology (VAST)*, the *IEEE Information Visualization Conference (InfoVis)*, and the *IEEE Scientific Visualization Conference (SciVis)* will be jointly held at the Baltimore Hilton from Sunday, October 23 through Friday, October 28, 2016. These events bring together researchers and practitioners in the visualization field with a shared interest in tools, techniques, and technology. A full complement of research presentations, tutorials, symposiums, workshops, panels, demonstrations, posters, and exhibitions make this conference one of the largest and most important gatherings researchers and professionals who specialize in the visual analysis of data.
 
 We invite you to participate in the support of IEEE VIS 2016 by supporting and exhibiting at the conference. New for VIS 2016, conference participants will be given the opportunity to upload their CVs, schedules, and other details that will be shared among interested supporters recruiting for staff, postdocs, and/or summer interns. Gold supporters and above will receive detailed information about these conference participants. Diamond and Platinum supporters will have an interview room available to meet with conference participants.
