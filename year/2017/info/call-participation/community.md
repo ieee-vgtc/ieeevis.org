@@ -1,7 +1,7 @@
 ---
-title: VIS Community 2016
-layout: main-2016
-permalink: /year/2016/info/call-participation/community
+title: VIS Community 2017
+layout: main-2017
+permalink: /year/2017/info/call-participation/community
 contact: community@ieeevis.org
 ---
 
