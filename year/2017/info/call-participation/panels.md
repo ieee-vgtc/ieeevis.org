@@ -24,7 +24,7 @@ Submissions should be emailed as attachments to [panels@ieeevis.org](mailto:pane
 | Submission Deadline	| **Thursday, June 15, 2017**
 | Notification	| **Tuesday, July 11, 2017**
 | Submission of Video Previews	| **Tuesday, August 1, 2017**
-| Final Submission of Summaries	| **Friday, August 4, 2017**
+| Final Submission of Summaries	| **Tuesday, August 1, 2017**
 
 All deadlines are at **5:00pm Pacific Time (PDT)**.
 
