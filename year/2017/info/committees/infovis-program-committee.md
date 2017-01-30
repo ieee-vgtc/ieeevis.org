@@ -48,7 +48,7 @@ contact: infovis_papers@ieeevis.org
 | Alvitta Ottley | Washington University in St. Louis |
 | Charles Perin | City, University of London |
 | Helen Purchase | University of Glasgow |
-| Bernice Rogowitz | Visual Perspectives Consulting |
+| Bernice Rogowitz | Visual Perspectives Research and Consulting |
 | Carlos Scheidegger | University of Arizona |
 | Karen Schloss | University of Wisconsin |
 | Heidrun Schumann | Universität Rostock |
