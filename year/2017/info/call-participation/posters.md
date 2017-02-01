@@ -17,7 +17,7 @@ In addition to a poster being displayed throughout IEEE VIS
   attendants)
 * interactive poster sessions will provide a forum for presenting your
   work and discussing new ideas with your peers
-* [video previews](/year/2017/info/presenter-information/video-previews)
+* video previews
   for posters are strongly suggested
 * one presenter per poster will be eligible for the reduced
   conference rate for authors
@@ -91,7 +91,7 @@ After logging into PCS at [https://precisionconference.com/~vgtc/](https://preci
 
 | Submission Deadline				| **Friday, June 16, 2017**
 | Notification of Acceptance			| **Friday, July 21, 2017**
-| Submission of [Video Previews](/year/2017/info/presenter-information/video-previews)			| **Tuesday, August 1, 2017**
+| Submission of Video Previews			| **Tuesday, August 1, 2017**
 | Final Submission of Camera Ready Summaries	| **Tuesday, August 1, 2017**
 
 All deadlines are at **5:00pm Pacific Time (PDT)**.
