@@ -91,8 +91,8 @@ After logging into PCS at [https://precisionconference.com/~vgtc/](https://preci
 
 | Submission Deadline				| **Friday, June 16, 2017**
 | Notification of Acceptance			| **Friday, July 21, 2017**
-| Submission of Video Previews			| **Tuesday, August 1, 2017** (see also [Video Previews](/year/2017/info/presenter-information/video-previews))
-| Final Submission of Camera Ready Summaries	| **Friday, August 4, 2017**
+| Submission of [Video Previews](/year/2017/info/presenter-information/video-previews)			| **Tuesday, August 1, 2017**
+| Final Submission of Camera Ready Summaries	| **Tuesday, August 1, 2017**
 
 All deadlines are at **5:00pm Pacific Time (PDT)**.
 
