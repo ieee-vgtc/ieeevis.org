@@ -49,7 +49,7 @@ contact: infovis_papers@ieeevis.org
 | Charles Perin | City, University of London |
 | Bernice Rogowitz | Visual Perspectives Research and Consulting |
 | Carlos Scheidegger | University of Arizona |
-| Karen Schloss | University of Wisconsin |
+| Karen Schloss | University of Wisconsin - Madison |
 | Heidrun Schumann | Universität Rostock |
 | John Stasko | Georgia Institute of Technology |
 | Marc Streit | Johannes Kepler University Linz |
