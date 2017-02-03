@@ -118,8 +118,8 @@ reviewing round.
 
 ## Formatting and Language Guidelines
 
-Details and formatting guidelines for IEEE VIS submissions are given
-[here](). Papers should include full-color figures throughout and we
+Papers must follow the [formatting guidelines for IEEE VIS submissions](http://junctionpublishing.org/vgtc/Track/vis-tvcg.html). 
+Papers should include full-color figures throughout and we
 encourage authors to showcase their work with annotated, well
 described, large, and detailed graphics. We also encourage the
 placement of a teaser image at the top of the very first page to
