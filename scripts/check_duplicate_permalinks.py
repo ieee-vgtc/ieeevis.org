@@ -1,9 +1,9 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
 import os
 import frontmatter as fm
+import sys
 
-os.chdir('../')
 top = os.getcwd()
 
 _permalinks = {}
@@ -24,8 +24,9 @@ for root, dirs, files in os.walk(top, topdown=False):
 
 for pl in _permalinks:
     if len(_permalinks[pl]) > 1:
-        print('duplicate permalink')
+        print('ERROR: duplicate permalinks found')
         print(pl)
-        print('in these files:')
+        print('fix permalinks in these files:')
         print(_permalinks[pl])
         print('---')
+        sys.exit("$(error duplicate permalinks found)")
