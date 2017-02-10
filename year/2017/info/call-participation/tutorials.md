@@ -26,7 +26,7 @@ Proposals should not exceed three pages, and should be [submitted via PCS](http:
 
 | Proposal Submission               | **Monday, April 24, 2017**
 | Notification                      | **Monday, May 15, 2017**
-| Final Submission of Summary       | **Tuesday, August 1, 2017**
+| Final Submission of Summaries       | **Tuesday, August 1, 2017**
 
 All deadlines are at **5:00pm Pacific Time (PDT)**.
 
