@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+from __future__ import print_function
+# my virtualenvs for vgtc are all python2, sorry!! -carlos
 
 import os
 import frontmatter as fm
@@ -7,7 +9,7 @@ import sys
 top = os.getcwd()
 
 _permalinks = {}
-
+_bad_extensions = []
 # traverse root directory, and list directories as dirs and files as files
 for root, dirs, files in os.walk(top, topdown=False):
     for file in files:
@@ -20,6 +22,8 @@ for root, dirs, files in os.walk(top, topdown=False):
                 _permalinks[pl].append(location)
             else:
                 _permalinks[pl] = [location]
+            if pl.endswith('.md'):
+                _bad_extensions.append((file, pl))
 
 
 for pl in _permalinks:
@@ -30,3 +34,9 @@ for pl in _permalinks:
         print(_permalinks[pl])
         print('---')
         sys.exit("$(error duplicate permalinks found)")
+
+if len(_bad_extensions) > 0:
+    print('ERROR: bad extensions found in permalinks')
+    for filename, pl in _bad_extensions:
+        print('File %s has a bad permalink extension (%s)' % (filename, pl))
+        
