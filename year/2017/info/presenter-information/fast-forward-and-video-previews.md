@@ -1,7 +1,7 @@
 ---
 title: Fast Forward and Video Previews
 layout: main-2017
-permalink: /year/2017/info/presenter-information/fast-forward-and-video-previews.md
+permalink: /year/2017/info/presenter-information/fast-forward-and-video-previews
 ---
 
 **Fast Forward and Video Previews**
