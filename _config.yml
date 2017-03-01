@@ -4,7 +4,7 @@ email: web@ieeevis.org
 description: > # this means to ignore newlines until "baseurl:"
   Website for IEEE VIS.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://ieeevis.cscheid.net" # the base hostname & protocol for your site
+url: "http://ieeevis.org" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
