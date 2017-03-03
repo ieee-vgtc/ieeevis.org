@@ -69,6 +69,6 @@ Accepted workshops are required to prepare a short summary (~50 words) for the p
 
 | Proposal Submission               | **Wednesday, February 15, 2017**
 | Notification                      | **Monday, March 6, 2017**
-| Final Submission of Summaries	    | **Friday, August 5, 2017**
+| Final Submission of Summaries	    | **Tuesday, August 1, 2017**
 
 All deadlines are at **5:00pm Pacific Time (PDT)**.

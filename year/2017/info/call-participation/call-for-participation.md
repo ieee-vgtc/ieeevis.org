@@ -34,7 +34,7 @@ papers below. Each such call lists different paper types, example
 papers, and program committees:
 
 * Paper types and topics: [VAST](vast-paper-types), [InfoVis](infovis-paper-types), and [SciVis](scivis-paper-types).
-* Program committees: [VAST](), [InfoVis](), and [SciVis]().
+* Program committees: [VAST](../committees/vast-program-committee), [InfoVis](../committees/infovis-program-committee), and [SciVis](../committees/scivis-program-committee).
 
 ## Submission Guidelines
 
