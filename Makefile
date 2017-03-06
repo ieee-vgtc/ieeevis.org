@@ -7,6 +7,7 @@ STAGING_BRANCH=master
 all: site metadata autogen
 
 site:
+	./scripts/check_duplicate_permalinks.py
 	jekyll build
 	./scripts/fix_file_extensions.sh
 

@@ -70,3 +70,7 @@ This means that if you found a bug on the content of a webpage, you're welcome t
 ### What's with the content files all over the place?
 
 This is the result of five years of legacy pages written atop of each other. We're slowly improving the situation, but the legacy content is currently quite messy. Pull requests are welcome.
+
+# How to compare staging and production
+
+This link [compares staging and production branches](https://github.com/ieee-vgtc/ieeevis.org/compare/production).
