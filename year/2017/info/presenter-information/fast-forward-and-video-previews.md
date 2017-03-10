@@ -2,6 +2,7 @@
 title: Fast Forward and Video Previews
 layout: main-2017
 permalink: /year/2017/info/presenter-information/fast-forward-and-video-previews
+contact: ff@ieeevis.org
 ---
 
 Please read the following instructions carefully and submit your 25-second video for the Video Previews archive and Fast Forward conference session by August 1, 2017.
