@@ -23,7 +23,7 @@ Video previews and fast forwards are a great opportunity to publicize your work 
 <tr><td><b>Audio</b></td><td>Narration and free-to-use music<br>
 ** More details below</td><td>None</td></tr>
 <tr><td rowspan="2"><b>Who</b></td><td colspan="2">Papers (VAST, InfoVis, SciVis, TVCG, CG&amp;A, VISAP)<br>
-** Please submit only one video that can be used with audio as VP and without audio as FF</td>
+** Please submit only one video that can be used with audio as VP and without audio as FF</td></tr>
 <tr><td>Panels<br>Posters (all)</td><td>Posters (only best and honorable mention posters)<br>SciVis contest<br>VISAP art event<br>Supporters<br></td></tr>
 </tbody>
 </table>
