@@ -19,7 +19,7 @@ Video previews and fast forwards are a great opportunity to publicize your work 
 <b>Format:</b> MPEG-4 using H.264 encoding<br>
 <b>Testing:</b> Your video should play in VLC media player version 2.2.4<br>
 ** More details below
-</td>
+</td></tr>
 <tr><td><b>Audio</b></td><td>Narration and free-to-use music<br>
 ** More details below</td><td>None</td></tr>
 <tr><td rowspan="2"><b>Who</b></td><td colspan="2">Papers (VAST, InfoVis, SciVis, TVCG, CG&amp;A, VISAP)<br>
