@@ -5,9 +5,32 @@ permalink: /year/2017/info/presenter-information/fast-forward-and-video-previews
 contact: ff@ieeevis.org
 ---
 
-Please read the following instructions carefully and submit your 25-second video for the Video Previews archive and Fast Forward conference session by August 1, 2017.
+Please read the following instructions carefully and submit your
+25-second video for the Video Previews archive and Fast Forward
+conference session by August 1, 2017.
 
-Video previews and fast forwards are a great opportunity to publicize your work or event to a wide audience. Video previews are accessible from the conference website on the VIS Vimeo channel prior to, during, and after the conference. At least one author for each accepted submission is required to present a 25-second preview of their work during a Fast Forward (FF) session held at the conference. The same 25-second video supports both purposes: it will be archivally available as a standalone video with audio track, and it will also be played during the FF session **without** the audio track while the author speaks. Voiceover narration in the audio track is strongly recommended to make the archival video most useful, but is not mandatory.  
+Video previews and fast forwards are a great opportunity to publicize
+your work or event to a wide audience. Video previews are accessible
+from the conference website on the VIS Vimeo channel prior to, during,
+and after the conference. At least one author for each accepted
+submission is required to present a 25-second preview of their work
+during a Fast Forward (FF) session held at the conference. The same
+25-second video supports both purposes: it will be archivally
+available as a standalone video with audio track, and it will also be
+played during the FF session **without** the audio track while the
+author speaks. Voiceover narration in the audio track is strongly
+recommended to make the archival video most useful, but is not
+mandatory.
+
+
+<style>
+td.video {
+background-color: #fde5cc;
+}
+td.fastforward {
+background-color: #d9ead2;
+}
+</style>
 
 <table>
 <thead align="center"><td></td><td><b>Video Preview</b></td><td><b>Fast Forward</b></td></thead>
