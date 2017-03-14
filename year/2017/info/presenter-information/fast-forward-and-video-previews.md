@@ -24,7 +24,7 @@ mandatory.
 
 
 <style>
-td.video {
+td.videopreview {
 background-color: #fde5cc;
 }
 td.fastforward {
@@ -33,7 +33,7 @@ background-color: #d9ead2;
 </style>
 
 <table>
-<thead align="center"><td></td><td><b>Video Preview</b></td><td><b>Fast Forward</b></td></thead>
+<thead align="center"><td></td><td class="videopreview"><b>Video Preview</b></td><td class="fastforward"><b>Fast Forward</b></td></thead>
 <tbody>
 <tr><td><b>What</b></td><td>The video preview will be hosted at a video platform (Vimeo) and should advertise your work in a way that motivates viewers to read the paper. It will exist for a long time.</td><td>The fast forward video is the video preview <b>without any audio track</b>. The visuals should support your on-stage oral advertisement to join your conference presentation.</td></tr>
 <tr><td><b>Format</b></td><td colspan="2">
