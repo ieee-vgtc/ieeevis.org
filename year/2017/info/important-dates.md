@@ -4,6 +4,7 @@ layout: main-2017
 permalink: /year/2017/info/important-dates
 ---
 
-| Deadline for submission of paper abstracts  | March 21st, 2017 |
-| Deadline for full paper submissions         | March 31st, 2017 |
-| Deadline for early bird registration        | August 25th, 2017 |
+| submission of paper abstracts  | March 21, 2017 |
+| submission of full paper       | March 31, 2017 |
+| early bird registration        | August 25, 2017 |
+
