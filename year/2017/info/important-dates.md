@@ -6,5 +6,5 @@ permalink: /year/2017/info/important-dates
 
 | Submission of paper abstracts  | March 21, 2017 |
 | Submission of full paper       | March 31, 2017 |
-| End of early bird registration | August 25, 2017 |
+| Early registration ends        | August 25, 2017 |
 
