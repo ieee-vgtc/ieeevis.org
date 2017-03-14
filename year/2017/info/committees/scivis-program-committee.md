@@ -10,7 +10,7 @@ contact: scivis_papers@ieeevis.org
 | Guoning Chen | University of Houston |
 | Hank Childs | University of Oregon |
 | Oliver Deussen | University of Konstanz |
-| David Ebert | Perdue University |
+| David Ebert | Purdue University |
 | Chi-Wing Fu | The Chinese University of Hong Kong |
 | Kelly Gaither | University of Texas Austin |
 | Christoph Garth | University of Kaiserslautern |
@@ -23,7 +23,7 @@ contact: scivis_papers@ieeevis.org
 | Helen-Nicole Kostis | NASA GESTAR/USRA |
 | Bob Laramee | Swansea University |
 | Heike Leitte | University Kaiserslautern |
-| Josh Levine | University Arizona |
+| Joshua A. Levine | University Arizona |
 | Mark Livingston |Naval Research Laboratory |
 | Aidong Lu | UNC Charlotte |
 | Mahsa Mirzargar | University of Miami (FL) |
@@ -38,7 +38,7 @@ contact: scivis_papers@ieeevis.org
 | Thomas Schultz | University of Bonn |
 | Lisa Sobierajski-Avila | Kitware |
 | Holger Theisel | Magdeburg University |
-| Julian Tierny | CNRS - Sorbonne |
+| Julien Tierny | CNRS - Sorbonne |
 | Anna Vilanova | TU Delft |
 | Huy Vo | New York University |
 | Bei Wang | University of Utah/SCI |
