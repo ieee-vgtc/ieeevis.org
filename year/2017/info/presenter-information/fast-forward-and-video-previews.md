@@ -40,7 +40,7 @@ vertical-align: top;
 <thead align="center"><td></td><td class="videopreview"><b>Video Preview</b></td><td class="fastforward"><b>Fast Forward</b></td></thead>
 <tbody>
 <tr><td class="left">What</td><td class="videopreview">The video preview will be hosted at a video platform (Vimeo) and should advertise your work in a way that motivates viewers to read the paper. It will exist for a long time.</td><td class="fastforward">The fast forward video is the video preview <b>without any audio track</b>. The visuals should support your on-stage oral advertisement to join your conference presentation.</td></tr>
-<tr><td><b>Format</b></td><td colspan="2">
+<tr><td class="left">Format</td><td colspan="2">
 <b>Length:</b> 25 seconds - DO NOT include a title slide<br>
 <b>Maximum file size:</b> 50MB<br>
 <b>Resolution:</b> 1280 x 720 px, at 24 to 30 frames/s<br>
@@ -48,9 +48,9 @@ vertical-align: top;
 <b>Testing:</b> Your video should play in VLC media player version 2.2.4<br>
 ** More details below
 </td></tr>
-<tr><td><b>Audio</b></td><td class="videopreview">Narration and free-to-use music<br>
+<tr><td class="left">Audio</td><td class="videopreview">Narration and free-to-use music<br>
 ** More details below</td><td class="fastforward">None</td></tr>
-<tr><td rowspan="2"><b>Who</b></td><td colspan="2">Papers (VAST, InfoVis, SciVis, TVCG, CG&amp;A, VISAP)<br>
+<tr><td rowspan="2" class="left">Who</td><td colspan="2">Papers (VAST, InfoVis, SciVis, TVCG, CG&amp;A, VISAP)<br>
 ** Please submit only one video that can be used with audio as VP and without audio as FF</td></tr>
 <tr><td>Panels<br>Posters (all)</td><td>Posters (only best and honorable mention posters)<br>SciVis contest<br>VISAP art event<br>Supporters<br></td></tr>
 </tbody>
