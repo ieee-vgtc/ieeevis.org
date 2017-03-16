@@ -47,7 +47,7 @@ In order to maintain interactive and exciting presentations and posters, we requ
 All submitted abstracts and the accompanying material will be published in the IEEE digital library and on the IEEE Vis conference USB stick. Selected submissions will be invited to submit an extended manuscript to a special issue of IEEE Computer Graphics and Applications on “Applied Visualization” due to be published in May 2018.
 
 ## Organizers
-Bernd Hentschel - RWTH Aachen University
-Daniela Oelke - Siemens AG
-Justin Talbot - Tableau Research
+Bernd Hentschel - RWTH Aachen University  
+Daniela Oelke - Siemens AG  
+Justin Talbot - Tableau Research  
 
