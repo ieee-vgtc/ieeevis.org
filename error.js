@@ -5,5 +5,12 @@ function send_to_create_gh_flow()
     var i = p.lastIndexOf("/");
     var filename = p.substr(i+1) + ".md";
     var pWithoutFileName = p.substring(0, i);
-    window.location = pWithoutFileName + "?filename=" + filename;
+
+    var yaml_front_matter;
+    yaml_front_matter = ["---",
+                         "layout: main-2017",
+                         "permalink: " + p.substr(i+1),
+                         "---"];
+    yaml_front_matter = "\n".join(yaml_front_matter);
+    window.location = pWithoutFileName + "?filename=" + filename + "&value=" + yaml_front_matter;
 }
