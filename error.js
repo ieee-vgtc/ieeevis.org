@@ -8,8 +8,9 @@ function send_to_create_gh_flow()
 
     var yaml_front_matter;
     yaml_front_matter = ["---",
+                         "title: " + filename,
                          "layout: main-2017",
-                         "permalink: " + p,
+                         "permalink: " + window.location.pathname,
                          "---\n\n"];
     yaml_front_matter = yaml_front_matter.join("\n");
     window.location = pWithoutFileName + "?filename=" + filename + "&value=" + encodeURIComponent(yaml_front_matter);
