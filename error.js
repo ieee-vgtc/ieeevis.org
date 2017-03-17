@@ -5,5 +5,5 @@ function send_to_create_gh_flow()
     var i = p.lastIndexOf("/");
     var filename = p.substr(i+1) + ".md";
     var pWithoutFileName = p.substring(0, i);
-    window.location = pWithoutFileName + "?" + filename;
+    window.location = pWithoutFileName + "?filename=" + filename;
 }
