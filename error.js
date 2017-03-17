@@ -1,4 +1,9 @@
 function send_to_create_gh_flow()
 {
-    debugger;
+    var base = "https://github.com/ieee-vgtc/ieeevis.org/new/master";
+    var p = base + window.location.pathname;
+    var i = p.lastIndexOf("/");
+    var filename = p.substr(i+1) + ".md";
+    var pWithoutFileName = p.substring(0, i);
+    window.location = pWithoutFileName + "?" + filename;
 }
