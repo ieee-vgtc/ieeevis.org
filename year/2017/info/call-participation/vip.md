@@ -1,13 +1,11 @@
 ---
-title: Vis in Practice
+title: 2017 Workshop on Visualization in Practice
 layout: main-2017
 permalink: /year/2017/info/call-participation/vip
 contact: vip@ieeevis.org
 ---
 
-## 2017 Workshop on Visualization in Practice
 # Visualization Solutions in the Wild
-## Call for Papers
 
 The 2017 Workshop on Visualization in Practice (VIP) is an opportunity for visualization practitioners and researchers to meet and share experiences, insights, and ideas in applying the latest visualization and visual analytics research to real world problems. VIP targets work at the interface between visualization research and specific application domains. It is highly interdisciplinary and focused on delivering actual value to users. This year, we specifically focus on *visualization solutions in the wild*, i.e. on tools, systems, or frameworks which are actively used. The workshop will cover all aspects from their initial conception and design, the process of getting them into use, and the long-term work of extending and sustaining them. 
 
@@ -33,7 +31,7 @@ Optionally, you may submit a video (MPEG, AVI, or Quicktime format, duration at 
 Abstracts will be reviewed for their potential applicability to the VIP workshop audience and their potential impact on the visualization community at large. Additionally, they will be reviewed for timeliness, clarity, and overall quality of writing. Note that research novelty is explicitly not the primary criterion for evaluation at the VIP workshop.
 Based on the outcome of the review process, authors of successful submissions will be invited to either present their work in a talk during the Vis in Practice workshop on October 2 or to prepare a poster for the VIP poster session, which will be held along with the VIS main poster session on October 4.
 
-All submissions for the 2017 Workshop on Visualization in Practice should be submitted via the Precision Conference System. Submissions must be received on or before June 16, 2017 to be considered. Questions about this workshop or requests for help with submission problems can also be sent to vip@ieeevis.org.
+All submissions for the 2017 Workshop on Visualization in Practice should be submitted via the Precision Conference System. Submissions must be received on or before June 16, 2017 to be considered. If you have questions about this workshop or requests for help with submission problems please contact the chairs at vip@ieeevis.org.
 In order to maintain interactive and exciting presentations and posters, we require that at least one presenter per accepted submission attend the workshop.
 
 ## Important Dates 
