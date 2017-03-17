@@ -13,4 +13,4 @@ report.
 If you're attempting to create a new webpage, please
 [click on this link](javascript:send_to_create_gh_flow()) instead.
 
-<script src="error.js"></script>
+<script src="/error.js"></script>
