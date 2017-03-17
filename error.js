@@ -11,6 +11,6 @@ function send_to_create_gh_flow()
                          "layout: main-2017",
                          "permalink: " + p.substr(i+1),
                          "---"];
-    yaml_front_matter = "\n".join(yaml_front_matter);
+    yaml_front_matter = yaml_front_matter.join("\n");
     window.location = pWithoutFileName + "?filename=" + filename + "&value=" + yaml_front_matter;
 }
