@@ -9,8 +9,8 @@ function send_to_create_gh_flow()
     var yaml_front_matter;
     yaml_front_matter = ["---",
                          "layout: main-2017",
-                         "permalink: " + p.substr(i+1),
+                         "permalink: " + p,
                          "---"];
     yaml_front_matter = yaml_front_matter.join("\n");
-    window.location = pWithoutFileName + "?filename=" + filename + "&value=" + yaml_front_matter;
+    window.location = pWithoutFileName + "?filename=" + filename + "&value=" + encodeURIComponent(yaml_front_matter);
 }
