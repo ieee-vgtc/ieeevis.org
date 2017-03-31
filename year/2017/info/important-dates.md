@@ -6,7 +6,7 @@ permalink: /year/2017/info/important-dates
 
 | ~~Workshops submission~~                   |~~Feb 15, 2017~~ |
 | ~~Workshops notification~~                 |~~Mar 6, 2017~~  |
-| Paper abstracts submission                 | Mar 21, 2017 |
+| ~~Paper abstracts submission~~             |~~Mar 21, 2017~~ |
 | Full papers submission                     | Mar 31, 2017 |
 | Tutorials submission                       | Apr 24, 2017 |
 | Doctoral colloquium submission             | May 15, 2017 |
