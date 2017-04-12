@@ -23,4 +23,13 @@ function runMainScript()
 {
     d3.select("#file-bug-anchor").attr("href", createFileBugURL());
     d3.select("#pull-request-anchor").attr("href", createPullRequestURL());
+    d3.select("#debug-button").on("click", runDebuggingDiagnostics);
+}
+
+function runDebuggingDiagnostics()
+{
+    d3.request("/index.html")
+        .get(function(data, error) {
+            debugger;
+        });
 }
