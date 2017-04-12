@@ -29,7 +29,8 @@ function runMainScript()
 function runDebuggingDiagnostics()
 {
     d3.request("/index.html")
-        .get(function(data, error) {
+        .get(function(error, response) {
+            var headers = response.getAllResponseHeaders().split("\n");
             debugger;
         });
 }
