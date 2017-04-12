@@ -30,7 +30,12 @@ function runDebuggingDiagnostics()
 {
     d3.request("/feed.xml")
         .get(function(error, response) {
-            var headers = response.getAllResponseHeaders().split("\n");
-            debugger;
+            var headers = {};
+            response.getAllResponseHeaders().split("\n").map(function(d) {
+                return d.split(": ");
+            }).forEach(function(d) {
+                response[d[0]] = d[1];
+            });
+            console.log("This was pushed from commit ", response["x-amz-meta-git_sha"]);
         });
 }
