@@ -28,7 +28,7 @@ function runMainScript()
 
 function runDebuggingDiagnostics()
 {
-    d3.request("/index.html")
+    d3.request("/feed.xml")
         .get(function(error, response) {
             var headers = response.getAllResponseHeaders().split("\n");
             debugger;
