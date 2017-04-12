@@ -44,7 +44,7 @@ def put_objects(objs):
         print "bucket.put_object(Key=%s, Body=f, ContentType=%s)" % (repr(obj),
                                                                      repr(mime_type))
         bucket.put_object(Key=obj, Body=f, ContentType=mime_type,
-                          Metadata={ "git_sha": remote_sha })
+                          Metadata={ "git_sha": branch_sha })
 
 def run_cmd_get_lines(*cmd):
     return subprocess.check_output(list(cmd)).split('\n')
