@@ -6,6 +6,8 @@ permalink: /year/2017/info/registration/visa-assistance
 
 # Visa Assistance
 
+If you are planning to attend VIS 2017 and will need a visa, we encourage you to visit the U.S. visa policy website (https://travel.state.gov/content/visas/en.html) for updates on visa procedures and applications. Please allow ample time for visa processing
+
 ## Visa Interview Appointment Letter
 
 Standard visa interview appointment letter requests are processed through the VIS 2017 registration system. You must be fully registered to obtain this letter. The generated letter will contain the following:
