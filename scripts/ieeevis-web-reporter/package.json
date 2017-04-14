@@ -1,0 +1,23 @@
+{
+  "name": "ieeevis-web-weekly-report",
+  "version": "0.1.0",
+  "description": "Uses gmail and github API to generate a weekly ieeevis.org diff issue and emails it to core",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js --harmony"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.3.0",
+    "bluebird": "^3.5.0",
+    "github": "^9.2.0",
+    "moment": "^2.18.1",
+    "node-schedule": "^1.2.1",
+    "nodemailer": "^4.0.1",
+    "nodemailer-smtp-pool": "^2.8.3"
+  },
+  "devDependencies": {
+  }
+}
