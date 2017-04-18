@@ -9,7 +9,7 @@ contact: vast_papers@ieeevis.org
 | Gennady Andrienko | Fraunhofer IAIS |
 | Natalia Andrienko | Fraunhofer IAIS |
 | Daniel Archambault | Swansea University |
-| Michele Aupetit | Qatar Computing Research Institute |
+| Michael Aupetit | Qatar Computing Research Institute |
 | Peter Bak | IBM Research Lab, Haifa |
 | Fabian Beck | University of Duisburg-Essen |
 | Alessio Bertone | TU Dresden |
