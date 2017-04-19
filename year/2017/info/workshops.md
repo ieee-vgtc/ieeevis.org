@@ -39,7 +39,7 @@ Cecilia Aragon, University of Washington
 
 Contact: info@discoveryjam.com
 
-## <a name="dsia"></a> [DSIA: Data Systems for Interactive Analysis](http://www.interactive-analysis.org)
+## <a name="interactive-analysis"></a> [DSIA: Data Systems for Interactive Analysis](http://www.interactive-analysis.org)
 
 Remco Chang, Tufts University  
 Danyel Fisher, Microsoft Research  
