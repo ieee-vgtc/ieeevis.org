@@ -25,7 +25,7 @@ Vis Buddies is in conjunction with the Newcomers Meetup [VIS Newcomers Meetup](h
 
 ### Blind Lunch
 
-Tuesday, Oct. 25 – Thursday, Oct. 27 (during the lunch time slot)
+Tuesday, Oct. 3 – Thursday, Oct. 5 (during the lunch time slot)
 
 This is an informal, planned lunch where more "IEEE VIS regulars" have the opportunity to meet and socialize with junior researchers. You can sign up for these using the links below.
 
