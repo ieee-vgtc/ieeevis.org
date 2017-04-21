@@ -4937,3 +4937,15 @@ span.toggleAccordion {
 	display: block;
 	text-align: right;
 }
+
+/*****************************************************************************/
+/* cscheid added this on Apr 12th 2017 to help with debugging */
+/*****************************************************************************/
+
+.faint {
+    color: #dddddd;
+}
+
+.clickable {
+    cursor: pointer;
+}

@@ -43,7 +43,8 @@ def put_objects(objs):
         f = open(obj)
         print "bucket.put_object(Key=%s, Body=f, ContentType=%s)" % (repr(obj),
                                                                      repr(mime_type))
-        bucket.put_object(Key=obj, Body=f, ContentType=mime_type)
+        bucket.put_object(Key=obj, Body=f, ContentType=mime_type,
+                          Metadata={ "git_sha": branch_sha })
 
 def run_cmd_get_lines(*cmd):
     return subprocess.check_output(list(cmd)).split('\n')
@@ -87,6 +88,9 @@ def check_if_git_is_clean():
         raise Exception("remote branch sha (%s) doesn't match local branch sha: (%s) " % (remote_sha, local_branch_sha))
     
     print "Remote branch match matches local branch. Ok!"
+    global branch_sha
+    branch_sha = remote_sha
+
     
 ##############################################################################
    

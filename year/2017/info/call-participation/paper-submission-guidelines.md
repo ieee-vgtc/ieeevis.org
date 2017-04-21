@@ -158,6 +158,11 @@ ideally obtain results using open source data. If specific datasets
 are employed, we ask that a version of these be made available where
 possible.
 
+Supplemental material may also include optional cover letters. Cover
+letters are primarily used for communicating special circumstances
+about a paper or information about resubmissions of rejected papers
+(below). Most submissions will *not* include a cover letter.
+
 While most reviewers will take supplemental material into account when
 conducting their reviews, the authors should ensure that their
 submission will stand on its own even without this extra material.
@@ -185,12 +190,17 @@ required to take past reviews and response letters into account when
 conducting their review.
 
 Resubmissions should be submitted with information pertaining to the
-original submission as supplemental material, including the complete
-past reviews and a response letter (but not past versions of the
-paper). Authors are responsible for the content of the response
-letter, but effective letters tend to summarize the main points of
-criticism in the past reviews and explain how the new version of the
-paper addresses these points.
+original submission as supplemental material (PDF format):
+
+* Past submission - previous version of the paper (optional, not
+  always necessary).
+* Previous reviews - complete reviews from the last submission. 
+* Cover letter - responses to past reviews.
+
+Authors are responsible for the content of the response letter, but
+effective letters tend to summarize the main points of criticism in
+the past reviews and explain how the new version of the paper
+addresses these points.
 
 ## General Expectations
 

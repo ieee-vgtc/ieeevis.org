@@ -78,12 +78,12 @@ submission category on PCS - IEEE VIS Poster.
 After logging into PCS at [https://precisionconference.com/~vgtc/](https://precisionconference.com/~vgtc/), start your submission by selecting "IEEE VIS Posters 2017" and then select the conference to which you are submitting a poster:
 
 * Scientific Visualization (SciVis) - for conference themes see [IEEE
-  Scientific Visualization Call for Participation](/year/2017/info/call-participation/scivis-papers)
+  Scientific Visualization Call for Participation](/year/2017/info/call-participation/scivis-paper-types)
 * Information Visualization (InfoVis) - for conference themes see [IEEE
-  Information Visualization Call for Participation](/year/2017/info/call-participation/infovis-papers)
+  Information Visualization Call for Participation](/year/2017/info/call-participation/infovis-paper-types)
 * Visual Analytics Science and Technologies (VAST) - for conference
   themes see
-  [IEEE VAST Call for Participation](/year/2017/info/call-participation/vast-papers)
+  [IEEE VAST Call for Participation](/year/2017/info/call-participation/vast-paper-types)
 
 
 ### IMPORTANT DATES
