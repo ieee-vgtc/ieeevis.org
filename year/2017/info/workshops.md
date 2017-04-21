@@ -14,7 +14,6 @@ contact: "workshops@ieeevis.org"
 * [Visual Analytics for Interpretable, User-Driven Deep Learning](#interpretable-dl)
 * [BPViz: Broadening Participation in Visualization Workshop](#bpviz)
 
-
 ## <a name="immersive-analytics"></a> [Immersive Analytics: Exploring Future Visualization and Interaction Technologies for Data Analytics](http://immersiveanalytics.net)
 
 Benjamin Bach, University of Edinburgh, UK / Harvard University, MA  
