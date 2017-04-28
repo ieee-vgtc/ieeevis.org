@@ -5,11 +5,13 @@ permalink: /year/2017/info/exhibition/supporters-and-exhibition
 contact: supporters@ieeevis.org
 ---
 
-[IEEE VIS 2017 Supporter Prospectus](vis2017_prospectus.pdf).
-
 We invite you to participate in IEEE VIS 2017 by supporting and exhibiting at the conference.  IEEE VIS 2017 provides the premier forum for advances in scientific and information visualization in academia, science, government, and industry. A full complement of research presentations, tutorials, symposiums, workshops, panels, demonstrations, posters, and exhibitions make this conference one of the largest and most important gatherings researchers and professionals who specialize in the visual analysis of data. 
 
-Why Support and Exhibit at IEEE VIS 2017
+## Support VIS 2017
+
+You can register as a VIS 2017 supporter by clicking [here](http://www.cvent.com/events/2017-ieee-visualization-conference-supporter-vis-/registration-d22aeff4b0d54841b2b367fc8178323d.aspx).
+
+## Why Support and Exhibit at IEEE VIS 2017
 
 * Meet over 1,000 conference participants – potential customers and collaborators – leading researchers from government, industry, and academia from around the world that specialize in visual data representation and analysis.
 
