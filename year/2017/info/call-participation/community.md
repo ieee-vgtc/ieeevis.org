@@ -33,16 +33,6 @@ This is an informal, planned lunch where more "IEEE VIS regulars" have the oppor
 * [Wednesday, Oct. 4](https://docs.google.com/document/d/1cVWC7ADPV2ifCC7HHYtUSd1rv2fQiy8NBrHDMeNDUDA/edit?usp=sharing)
 * [Thursday, Oct. 5](https://docs.google.com/document/d/1DhAq-i5VzLthhSqjorbiU3iKZrl3gzOPKesEYVBvt6M/edit?usp=sharing)
 
-### Networking Poster Session
-
-Wednesday, Oct. 26, 5:00 - 7:00pm
-
-Have you recently graduated, just looking for a new job, or seeking new hires in the field of visualization? If so, please join us in our “Meet the Candidate” poster session!
-
-Poster participants will have a chance to showcase their work and chat with potential employers. To reserve your spot during this event, please email the Community chairs at community@ieee.org. Please reserve a space early, as poster space is limited.
-
-All VIS attendees are welcome to attend.  Employers, in academia, industry, and laboratory, are all encouraged to attend to meet with the candidates. 
-
 
 ### Tips and Tricks for Attending VIS for your First Time
 
