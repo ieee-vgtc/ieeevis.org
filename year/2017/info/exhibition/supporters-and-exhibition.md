@@ -13,8 +13,6 @@ You can register as a VIS 2017 supporter by clicking [here](http://www.cvent.com
 
 ## Why Support and Exhibit at IEEE VIS 2017
 
-* [IEEE VIS 2017 Supporter Prospectus](vis2017_prospectus.pdf).
-
 * Meet over 1,000 conference participants – potential customers and collaborators – leading researchers from government, industry, and academia from around the world that specialize in visual data representation and analysis.
 
 * Gain first hand access to highly talented and skilled individuals for recruitment into your product development and research teams. Many of the conference participants are job seeking senior doctoral candidates and postdoctoral research fellows. There will be a virtual job fair to match jobseekers with employers, where gold, platinum, and diamond supporters are given priority.
