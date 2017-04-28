@@ -26,3 +26,5 @@ You can register as a VIS 2017 supporter by clicking [here](http://www.cvent.com
 * Receive complimentary or reduced conference registrations enabling your company to reach potential customers and recruit potential candidates.
 
 For more details please see the [IEEE VIS 2017 Supporter Prospectus](vis2017_prospectus.pdf).
+
+Ready to become an IEEE VIS 2017 Supporter? Please register [here] (https://www.cvent.com/events/2017-ieee-visualization-conference-supporter-vis-/registration-d22aeff4b0d54841b2b367fc8178323d.aspx).
