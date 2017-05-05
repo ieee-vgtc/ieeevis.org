@@ -11,25 +11,27 @@ The Community activities are open to all registered IEEE VIS participants, regar
 
 The VIS Community will offer the following events. To register for these events, please visit the corresponding Google Doc pages to see the event details. You can edit these pages directly. 
 
+### Vis Buddies
+
+VisBuddies brings together new and returning VIS attendees with similar interests. For newcomers, this is a chance to meet experienced researchers in the field. For returning attendees, it is a chance to meet fresh talent joining VIS for the first time. Based on your declared interests in the registration form, we will match pairs or small groups of attendees with different levels of VIS experience, and contact the groups via email prior to VIS.
+
+Suggested Buddies activities include:
+* Attend the [VIS Newcomers Meetup](https://ieeevis.org/year/2017/info/overview-amp-topics/meetups) together (highly recommended)
+* Have lunch, dinner, coffee, etc. with your Buddies at least once
+* Discuss interesting sessions to attend
+* Introduce your colleagues to your Buddies
+
+Vis Buddies is in conjunction with the Newcomers Meetup [VIS Newcomers Meetup](https://ieeevis.org/year/2017/info/overview-amp-topics/meetups). Prior to the Meetup, we will have a booth set-up outside to help you connect with your buddies (if you have not done so already). 
+
 ### Blind Lunch
 
-Tuesday, Oct. 25 – Thursday, Oct. 27 (during the lunch time slot)
+Tuesday, Oct. 3 – Thursday, Oct. 5 (during the lunch time slot)
 
 This is an informal, planned lunch where more "IEEE VIS regulars" have the opportunity to meet and socialize with junior researchers. You can sign up for these using the links below.
 
-* [Tuesday, Oct. 25](https://docs.google.com/document/d/1t6I1bZoQtyBHouGGut_U702K3rOB_jNSHbISp8YWBZk/edit?usp=sharing)
-* [Wednesday, Oct. 26](https://docs.google.com/document/d/1cVWC7ADPV2ifCC7HHYtUSd1rv2fQiy8NBrHDMeNDUDA/edit?usp=sharing)
-* [Thursday, Oct. 27](https://docs.google.com/document/d/1DhAq-i5VzLthhSqjorbiU3iKZrl3gzOPKesEYVBvt6M/edit?usp=sharing)
-
-### Networking Poster Session
-
-Wednesday, Oct. 26, 5:00 - 7:00pm
-
-Have you recently graduated, just looking for a new job, or seeking new hires in the field of visualization? If so, please join us in our “Meet the Candidate” poster session!
-
-Poster participants will have a chance to showcase their work and chat with potential employers. To reserve your spot during this event, please email the Community chairs at community@ieee.org. Please reserve a space early, as poster space is limited.
-
-All VIS attendees are welcome to attend.  Employers, in academia, industry, and laboratory, are all encouraged to attend to meet with the candidates. 
+* [Tuesday, Oct. 3](https://docs.google.com/document/d/1t6I1bZoQtyBHouGGut_U702K3rOB_jNSHbISp8YWBZk/edit?usp=sharing)
+* [Wednesday, Oct. 4](https://docs.google.com/document/d/1cVWC7ADPV2ifCC7HHYtUSd1rv2fQiy8NBrHDMeNDUDA/edit?usp=sharing)
+* [Thursday, Oct. 5](https://docs.google.com/document/d/1DhAq-i5VzLthhSqjorbiU3iKZrl3gzOPKesEYVBvt6M/edit?usp=sharing)
 
 
 ### Tips and Tricks for Attending VIS for your First Time
@@ -41,10 +43,10 @@ helpful to you](https://docs.google.com/document/d/1ot7JHpXcfOMYZuUw0fl4_PghImxH
 
 ### Contact
 
-For more information contact IEEE VIS 2016 Community Chairs:
+For more information contact IEEE VIS 2017 Community Chairs:
 
-* Alex Endert, Georgia Tech
-* Daniel Best, Pacific Northwest National Laboratory
+* Anastasia Bezerianos, Université Paris-Sud
 * Jonathan Woodring, Los Alamos National Lab
+* Eugene Zhang, Oregon State University
 
 email: [community@ieeevis.org](community@ieeevis.org)
