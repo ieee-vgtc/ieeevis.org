@@ -49,23 +49,22 @@ Carlos Scheidegger, University of Arizona
 
 Contact: organizers@interactive-analysis.org
 
-The goal of DSIA is to foster innovative research at the intersection of
-databases, machine learning, and interactive visualization. Database
-researchers have developed techniques for storing and querying massive
-amounts of data, including methods for distributed, streaming and approximate
-computation. Machine learning techniques provide ways to discover unexpected
-patterns and to automate and scale well-defined analysis procedures. Recent
-systems research has looked at how to develop novel database systems
-architectures to support the iterative, optimization-oriented workloads of
-machine learning algorithms. In this workshop, we will explore the idea that
+DSIA brings together researchers at the intersection of databases,
+machine learning, and interactive visualization. These three areas
+have important things to say to each other. Modern data visualization
+depends on the cutting edge of both database and machine learning
+research: database researchers are exploring techniques for storing
+and querying massive amounts of data; machine learning techniques
+provide ways to discover unexpected patterns and to automate and scale
+well-defined analysis procedures. This workshop explores the idea that
 the next generation of database, machine learning, and interactive
-visualization systems should not be designed in isolation. For example,
-machine learning techniques might recommend improved data transformation and
-visual encoding decisions. Or, database query optimizers might take advantage
-of perceptual constraints, while prefetching methods reduce latency by
-modeling likely interactions. This workshop seeks to jumpstart
-cross-pollination between these fields.
-
+visualization systems should not be designed in isolation. For
+example, machine learning techniques might recommend improved data
+transformation and visual encoding decisions. Or, database query
+optimizers might take advantage of perceptual constraints, while
+prefetching methods reduce latency by modeling likely
+interactions. This workshop seeks to increase cross-pollination
+between these fields.
 
 ## <a name="decisive"></a> [DECISIVe 2017: 2nd Workshop on Dealing with Cognitive Biases in Visualizations](http://decisive-workshop.dbvis.de)
 
