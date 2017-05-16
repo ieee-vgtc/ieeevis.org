@@ -13,6 +13,7 @@ contact: "workshops@ieeevis.org"
 * [2nd Workshop on Visualization for the Digital Humanities](#vis-dh)
 * [Visual Analytics for Interpretable, User-Driven Deep Learning](#interpretable-dl)
 * [BPViz: Broadening Participation in Visualization Workshop](#bpviz)
+* [Vis in Practice: Visualization Solutions in the Wild](#vip)
 
 
 ## <a name="immersive-analytics"></a> [Immersive Analytics: Exploring Future Visualization and Interaction Technologies for Data Analytics](http://immersiveanalytics.net)
@@ -175,4 +176,14 @@ community of current and future scholars with interests in visualization
 through mentoring and encouraging participants to consider visualization as
 a career path. The workshop is designed to inform, inspire and encourage
 participants, specifically participants historically underrepresented at the
-conference, to engage in the multidisciplinary dynamics of visualization. 
+conference, to engage in the multidisciplinary dynamics of visualization.
+
+## <a name="vip"></a> [Vis in Practice - Visualization Solutions in the Wild](http://www.visinpractice.rwth-aachen.de)
+
+Bernd Hentschel, RWTH Aachen University  
+Daniela Oelke, Siemens AG  
+Justin Talbot, Tableau Research  
+
+Contact: vip@ieeevis.org
+
+The 2017 ViP Workshop on Visualization Solutions in the Wild is an opportunity for visualization practitioners and researchers to meet and share experiences, insights, and ideas in applying the latest visualization and visual analytics research to real world problems. It targets work at the interface between visualization research and specific application domains. It is highly interdisciplinary and focused on delivering actual value to users. This year, we specifically focus on *visualization solutions in the wild*, i.e. on tools, systems, or frameworks which are actively used. The workshop will cover all aspects from their initial conception and design, the process of getting them into use, and the long-term work of extending and sustaining them.
