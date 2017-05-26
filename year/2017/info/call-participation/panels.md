@@ -5,6 +5,11 @@ permalink: /year/2017/info/call-participation/panels
 contact: panels@ieeevis.org
 ---
 
+**NEWS:** In an effort to better integrate the community in identifying potentially interesting panel topics and people, we conducted a survey to gather the community’s input. If you consider organizing a panel but are not sure yet: (1) please take a look at the results, (2) feel free to contact the respective people who proposed the idea (last column) or who were mentioned as potential panelists.
+
+Check out the survey results here:
+[http://tiny.cc/VIS2017-panels-survey](http://tiny.cc/VIS2017-panels-survey) 
+
 IEEE VIS 2017 Panels should address important and/or controversial applications and issues in visualization and its subfields  today. In particular, we invite topics in connection with interesting application fields. Panels bringing together potential users of visualization technology (e.g. practitioners and industry professionals) and leading researchers, or panels consisting of experts in fields that might teach us **important concepts** (e.g., perceptual psychology, visual design, color theory, user-interface design) are welcome. Panelists should be experts in their fields who can discuss the challenges of visualization, and engage the audience and fellow panel members in a stimulating, interactive debate. Diverging opinions on controversial topics are encouraged.
 
 Panel proposals should describe the topic to be addressed and identify the prospective panelists. Each panelist should include a position statement on the topic and a short biography, the total of which should be limited to 500 words for each panelist, up to a maximum of four pages for the whole panel. In case the panel follows up on the topic of a previously held panel, we ask the organizers to point this out and to detail the advances expected from the follow-up. 

@@ -23,6 +23,42 @@ Suggested Buddies activities include:
 
 Vis Buddies is in conjunction with the Newcomers Meetup [VIS Newcomers Meetup](https://ieeevis.org/year/2017/info/overview-amp-topics/meetups). Prior to the Meetup, we will have a booth set-up outside to help you connect with your buddies (if you have not done so already). 
 
+### Asynchronous Job Fair
+
+This year, we will be having our first *Asynchronous Job Fair* (AJF) at VIS
+2017! The purpose of the *AJF* is to help connect job seekers and researchers
+with employers, staff, and faculty over the course of VIS. This includes all
+types of job opportunities: staff, industry positions, software engineers,
+faculty, post-docs, etc. and all types of job seekers from students to
+practitioners. 
+
+The AJF will be continuously held throughout VISWeek concurrently with other 
+activities.  The primary activities include: 
+
+- "I’m looking!" and "I’m hiring!" badge ribbons available to all attendees. 
+By wearing a ribbon, you will be able to find other VIS attendees that are
+participating in the *AJF*. These will be located at the registration table. 
+- *We strongly suggest carrying either a curriculum vitae (CV), resume, 
+business card, or note cards with links, such as LinkedIn or online CVs, to 
+help facilitate information exchange during VIS.* 
+- CVs will be distributed to [Supporters](http://ieeevis.org/year/2017/info/exhibition/supporters-and-exhibition) prior to VIS, to help make connections
+during VIS, by sharing your information and CVs with the supporters. During 
+online registration you will be able to upload your CV and
+interests. If you did not upload your CV during online registration, we will
+have a collection tray near the *AJF* ribbons at the live registration desk,
+and they will be distributed to Supporters after VIS.  
+- We will pin up and post job, post-doc, staff, etc. flyers to the VIS 
+corkboard if you are unable to attend VIS in person. Send your opportunity 
+flyer to [community@ieeevis.org](mailto:community@ieeevis.org) as a PDF. 
+The deadline for these is a week prior to VIS, otherwise we cannot guarantee 
+that it will be posted to the corkboard by the first day of VIS.  
+
+Please use the *AJF* as an opportunity to strike up a conversation with
+your fellow VIS attendees, even if you are not actively seeking employment or
+staff!
+
+
+<!--
 ### Blind Lunch
 
 Tuesday, Oct. 3 – Thursday, Oct. 5 (during the lunch time slot)
@@ -32,7 +68,7 @@ This is an informal, planned lunch where more "IEEE VIS regulars" have the oppor
 * [Tuesday, Oct. 3](https://docs.google.com/document/d/1t6I1bZoQtyBHouGGut_U702K3rOB_jNSHbISp8YWBZk/edit?usp=sharing)
 * [Wednesday, Oct. 4](https://docs.google.com/document/d/1cVWC7ADPV2ifCC7HHYtUSd1rv2fQiy8NBrHDMeNDUDA/edit?usp=sharing)
 * [Thursday, Oct. 5](https://docs.google.com/document/d/1DhAq-i5VzLthhSqjorbiU3iKZrl3gzOPKesEYVBvt6M/edit?usp=sharing)
-
+-->
 
 ### Tips and Tricks for Attending VIS for your First Time
 
@@ -46,7 +82,7 @@ helpful to you](https://docs.google.com/document/d/1ot7JHpXcfOMYZuUw0fl4_PghImxH
 For more information contact IEEE VIS 2017 Community Chairs:
 
 * Anastasia Bezerianos, Université Paris-Sud
-* Jonathan Woodring, Los Alamos National Lab
+* Jonathan Woodring, Los Alamos National Laboratory
 * Eugene Zhang, Oregon State University
 
 email: [community@ieeevis.org](community@ieeevis.org)

@@ -25,7 +25,7 @@ Contingent upon pending requests for external sponsorship of the VIS DC, we may 
 
 ## Submissions
 
-The deadline for DC submissions is May 15, 2017, 5pm PDT.  
+The deadline for DC submissions is extended to May 22, 2017, 5pm PDT.  
 Notification: July 11th, 2017.
 
 Applicants to the Doctoral Colloquium should submit:

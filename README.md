@@ -6,4 +6,4 @@ This is the Jekyll version of the http://ieeevis.org website.
 
 If you're contributing content, but not administrating the website
 itself, you will want to follow the
-[contributor's guide](docs/contrib.md).
+[contributor's guide](instructions.md).
