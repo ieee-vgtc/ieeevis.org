@@ -187,3 +187,4 @@ Justin Talbot, Tableau Research
 Contact: vip@ieeevis.org
 
 The 2017 ViP Workshop on Visualization Solutions in the Wild is an opportunity for visualization practitioners and researchers to meet and share experiences, insights, and ideas in applying the latest visualization and visual analytics research to real world problems. It targets work at the interface between visualization research and specific application domains. It is highly interdisciplinary and focused on delivering actual value to users. This year, we specifically focus on *visualization solutions in the wild*, i.e. on tools, systems, or frameworks which are actively used. The workshop will cover all aspects from their initial conception and design, the process of getting them into use, and the long-term work of extending and sustaining them.
+
