@@ -8,7 +8,7 @@ permalink: /year/2017/info/important-dates
 | <strike>Workshops notification</strike>                 |<strike>Mar 6, 2017</strike>  |
 | <strike>Paper abstracts submission</strike>             |<strike>Mar 21, 2017</strike> |
 | <strike>Full papers submission</strike>                 |<strike>Mar 31, 2017</strike> |
-| Tutorials submission                       | Apr 24, 2017 |
+| <strike>Tutorials submission</strike>                   |<strike>Apr 24, 2017</strike> |
 | Doctoral colloquium submission extended            | May 22, 2017 |
 | Papers conditional acceptance notification | June 6, 2017 |
 | Panels submission                          | June 15, 2017 |
