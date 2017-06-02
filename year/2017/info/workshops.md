@@ -29,7 +29,6 @@ Sheelagh Carpendale, University of Calgary
 
 Contact: benj.bach@gmail.com
 
-
 Immersive Analytics is a new multidisciplinary initiative to explore future
 visualization and interaction technologies for data analytics. Immersive
 Analytics aims to bring together researchers in Information Visualization,
@@ -48,6 +47,19 @@ Miriah Meyer, University of Utah
 Cecilia Aragon, University of Washington
 
 Contact: info@discoveryjam.com
+
+You've heard of Game Jams and Hack-a-thons--DiscoveryJam brings this same
+intense, hands-on approach to scientific discovery. Our full day workshop
+brings scientists together with VIS participants in an interactive day-long
+workshop to create innovative approaches to scientific discovery problems.
+Each DiscoveryJam scientist is matched with a small group of attendees. In
+the morning each group holds interactive discussions with their scientist
+about specific data and science problems. In the afternoon, each group hacks
+away on the scientist's data. We'll create sketches, prototypes, and sample
+visualizations, and then present them to the entire workshop. You'll leave 
+the workshop with skills for communicating with scientists, approaches to 
+cross-disciplinary collaboration, and research ideas to pursue further.  
+Bring your laptop and your favorite vis tools to dig into data with us.
 
 
 ## <a name="interactive-analysis"></a> [DSIA: Data Systems for Interactive Analysis](http://www.interactive-analysis.org)
