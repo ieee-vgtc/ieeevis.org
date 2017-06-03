@@ -29,6 +29,14 @@ Sheelagh Carpendale, University of Calgary
 
 Contact: benj.bach@gmail.com
 
+Immersive Analytics is a new multidisciplinary initiative to explore future
+visualization and interaction technologies for data analytics. Immersive
+Analytics aims to bring together researchers in Information Visualization,
+Visual Analytics, Virtual and Augmented Reality and Natural User Interfaces.
+This workshop looks at immersive technologies (e.g., AR, VR, Mixed reality,
+NUIs, large displays), scenarios, theories and frameworks, collaboration,
+physical and tangible visualization, as well as interaction techniques.
+
 
 ## <a name="discovery-jam"></a> [Discovery Jam](http://discoveryjam.com)
 
@@ -39,6 +47,19 @@ Miriah Meyer, University of Utah
 Cecilia Aragon, University of Washington
 
 Contact: info@discoveryjam.com
+
+You've heard of Game Jams and Hack-a-thons--DiscoveryJam brings this same
+intense, hands-on approach to scientific discovery. Our full day workshop
+brings scientists together with VIS participants in an interactive day-long
+workshop to create innovative approaches to scientific discovery problems.
+Each DiscoveryJam scientist is matched with a small group of attendees. In
+the morning each group holds interactive discussions with their scientist
+about specific data and science problems. In the afternoon, each group hacks
+away on the scientist's data. We'll create sketches, prototypes, and sample
+visualizations, and then present them to the entire workshop. You'll leave 
+the workshop with skills for communicating with scientists, approaches to 
+cross-disciplinary collaboration, and research ideas to pursue further.  
+Bring your laptop and your favorite vis tools to dig into data with us.
 
 
 ## <a name="interactive-analysis"></a> [DSIA: Data Systems for Interactive Analysis](http://www.interactive-analysis.org)
@@ -66,6 +87,7 @@ optimizers might take advantage of perceptual constraints, while
 prefetching methods reduce latency by modeling likely
 interactions. This workshop seeks to increase cross-pollination
 between these fields.
+
 
 ## <a name="decisive"></a> [DECISIVe 2017: 2nd Workshop on Dealing with Cognitive Biases in Visualizations](http://decisive-workshop.dbvis.de)
 
@@ -127,13 +149,15 @@ Mennatallah El-Assady, University of Konstanz, Germany
 Daniel Keim, University of Konstanz, Germany  
 David Wrisley, New York University Abu Dhabi, UAE
 
-Contact: stefan.jaenicke@gmx.de
+Contact: stjaenicke@informatik.nui-leipzig.de
 
-The purpose of this workshop is to propose new research directions in
-visualization for the digital humanities, to familiarize the visualization
-research community with the problems faced by digital humanities researchers,
-and to foster future collaboration between visualization and digital
-humanities research.
+The first Workshop on Visualization for the Digital Humanities at VIS 2016
+created a new platform to discuss challenges in the emerging digital
+humanities field. The 2nd workshop this year aims (1) to single out new
+research directions in visualization for the digital humanities, (2) to
+familiarize the visualization research community with the problems faced by
+digital humanities researchers, and (3) to establish future collaborations
+between visualization and digital humanities scholars.
 
 
 ## <a name="interpretable-dl"></a> [VADL 2017: Workshop on Visual Analytics for Deep Learning](https://vadl2017.github.io)
@@ -154,7 +178,7 @@ opportunity to discuss and explore ways to harmonize the power of automated
 techniques and exploratory nature of interactive visualization.
 
 
-## <a name="bpviz"></a> BPViz: Broadening Participation in Visualization Workshop
+## <a name="bpviz"></a> [BPViz: Broadening Participation in Visualization Workshop](http://bpviz.org)
 
 Vetria Byrd, Purdue University  
 Donna Cox, University of Illinois Urbana Champaign  
@@ -176,14 +200,24 @@ community of current and future scholars with interests in visualization
 through mentoring and encouraging participants to consider visualization as
 a career path. The workshop is designed to inform, inspire and encourage
 participants, specifically participants historically underrepresented at the
-conference, to engage in the multidisciplinary dynamics of visualization.
+conference, to engage in the multidisciplinary dynamics of visualization. 
+
 
 ## <a name="vip"></a> [Vis in Practice - Visualization Solutions in the Wild](http://www.visinpractice.rwth-aachen.de)
 
-Bernd Hentschel, RWTH Aachen University  
-Daniela Oelke, Siemens AG  
-Justin Talbot, Tableau Research  
+Bernd Hentschel, RWTH Aachen University 
+Daniela Oelke, Siemens AG 
+Justin Talbot, Tableau Research 
 
 Contact: vip@ieeevis.org
 
-The 2017 ViP Workshop on Visualization Solutions in the Wild is an opportunity for visualization practitioners and researchers to meet and share experiences, insights, and ideas in applying the latest visualization and visual analytics research to real world problems. It targets work at the interface between visualization research and specific application domains. It is highly interdisciplinary and focused on delivering actual value to users. This year, we specifically focus on *visualization solutions in the wild*, i.e. on tools, systems, or frameworks which are actively used. The workshop will cover all aspects from their initial conception and design, the process of getting them into use, and the long-term work of extending and sustaining them.
+The 2017 ViP Workshop on Visualization Solutions in the Wild is an opportunity
+for visualization practitioners and researchers to meet and share experiences,
+insights, and ideas in applying the latest visualization and visual analytics
+research to real world problems. It targets work at the interface between
+visualization research and specific application domains. It is highly
+interdisciplinary and focused on delivering actual value to users. This year,
+we specifically focus on *visualization solutions in the wild*, i.e. on tools,
+systems, or frameworks which are actively used. The workshop will cover all
+aspects from their initial conception and design, the process of getting them
+into use, and the long-term work of extending and sustaining them.
