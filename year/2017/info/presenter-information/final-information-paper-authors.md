@@ -8,7 +8,7 @@ This page provides authors of accepted papers with important information for the
 
 ### CAMERA READY PAPERS SUBMISSION
 
-**DEADLINE: August 1**. Final papers and supplemental materials due at https://precisionconference.com/~vgtc/
+**DEADLINE: August 1**. Submit final papers and supplemental materials via the [Precision Conference System](https://precisionconference.com/~vgtc/).
 
 Camera-ready papers may not exceed 11 pages (9 pages of main text and 2 pages of references). The [website](http://junctionpublishing.org/vgtc/Track/vis-menu.html) has complete information regarding formatting requirements of your final revised PDF, copyright form, and optional videos. We do not need hardcopy. Please note in particular the suggestions for ensuring that the images in your PDF document are stored at sufficiently high resolution instead of using the default lossy compression settings.
 
@@ -22,8 +22,6 @@ At least one author per accepted paper must register to present the work. Also, 
 
 ### VIDEO PREVIEW SUBMISSION
 
-It is mandatory for authors of all VIS papers to submit a 30-sec Video Preview by August 1, 2017 (5:00pm PDT) on [PCS](http://precisionconference.com/~vgtc/).
-
-The Video Preview instructions are online at http://ieeevis.org/year/2017/info/presenter-information/video-previews.
+It is mandatory for authors of all VIS papers to submit a 25-sec Video Preview [(instructions)](http://ieeevis.org/year/2017/info/presenter-information/fast-forward-and-video-previews) by August 1, 2017 (5:00pm PDT) on [PCS](http://precisionconference.com/~vgtc/).  
 
 We are looking forward to an exciting and vibrant IEEE VIS 2017!
