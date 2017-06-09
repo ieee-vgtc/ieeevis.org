@@ -5,7 +5,7 @@ permalink: /year/2017/info/call-participation/panels
 contact: panels@ieeevis.org
 ---
 
-**NEWS:** In an effort to better integrate the community in identifying potentially interesting panel topics and people, we conducted a survey to gather the community’s input. If you consider organizing a panel but are not sure yet: (1) please take a look at the results, (2) feel free to contact the respective people who proposed the idea (last column) or who were mentioned as potential panelists.
+**NEWS:** In an effort to better integrate the community in identifying potentially interesting panel topics and people, we conducted a survey to gather the community’s input. If you consider organizing a panel but are not sure yet, please take a look at the results for potential ideas.
 
 Check out the survey results here:
 [http://tiny.cc/VIS2017-panels-survey](http://tiny.cc/VIS2017-panels-survey) 
