@@ -48,5 +48,5 @@ To best accommodate the needs ranging from early planned proposals to impromptu 
 ### Chairs
 
 Abon Chaudhuri, *@WalmartLabs*  
-Fanny Chevalier, *Inria*
-Kresimir Matkovic, *VRVis* 
+Fanny Chevalier, *Inria*  
+Kresimir Matkovic, *VRVis*
