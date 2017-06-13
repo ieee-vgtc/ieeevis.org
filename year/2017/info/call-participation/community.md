@@ -5,11 +5,11 @@ permalink: /year/2017/info/call-participation/community
 contact: community@ieeevis.org
 ---
 
-One of our goals in organizing the Community activities at the main IEEE VIS conference is to support the next generation of visualization researchers by helping connect junior and more experienced researchers from the scientific visualization, information visualization and visual analytics communities. This starts with connecting those who have attended IEEE VIS before with those who may be new to the conference, and perhaps the community.
+Our goals in Community are organizing activities at IEEE VIS conference that connect the current and next generation of visualization researchers and practioners. We do this through providing conference activities to participants for all of the various visualization sub-communities: scientific visualization, information visualization, visual analytics, industry, etc. 
 
 The Community activities are open to all registered IEEE VIS participants, regardless of seniority and affiliation. The activities are organized by the IEEE VIS Community Chairs, who can be reached at [community@ieeevis.org](community@ieeevis.org).
 
-The VIS Community will offer the following events. To register for these events, please visit the corresponding Google Doc pages to see the event details. You can edit these pages directly. 
+To register or participate in these Community events, please see the corresponding details below. 
 
 ### Vis Buddies
 
