@@ -11,6 +11,20 @@ The Community activities are open to all registered IEEE VIS participants, regar
 
 To register or participate in these Community events, please see the corresponding details below. 
 
+### Tips and Tricks for Attending VIS for your First Time
+
+If this is your first time attending VIS, welcome! We have collected
+[some advice from those of us who regularly attend VIS that might be
+helpful to you](https://docs.google.com/document/d/1ot7JHpXcfOMYZuUw0fl4_PghImxHogCrGgPm61CBMx4/edit?usp=sharing).
+
+### Flyer Posting
+
+We will pin up and post job, post-doc, staff, etc. flyers to the VIS 
+corkboard if you are unable to attend VISWeek in person. Send your  
+flyers to [community@ieeevis.org](mailto:community@ieeevis.org) as a PDF. 
+*The deadline to recieve these is a week prior to VIS, otherwise we cannot 
+guarantee that it will be posted to the corkboard by the first day of VIS.*
+
 ### Vis Buddies
 
 VisBuddies brings together new and returning VIS attendees with similar interests. For newcomers, this is a chance to meet experienced researchers in the field. For returning attendees, it is a chance to meet fresh talent joining VIS for the first time. Based on your declared interests in the registration form, we will match pairs or small groups of attendees with different levels of VIS experience, and contact the groups via email prior to VIS.
@@ -57,7 +71,6 @@ Please use the *AJF* as an opportunity to strike up a conversation with
 your fellow VIS attendees, even if you are not actively seeking employment or
 staff!
 
-
 <!--
 ### Blind Lunch
 
@@ -69,13 +82,6 @@ This is an informal, planned lunch where more "IEEE VIS regulars" have the oppor
 * [Wednesday, Oct. 4](https://docs.google.com/document/d/1cVWC7ADPV2ifCC7HHYtUSd1rv2fQiy8NBrHDMeNDUDA/edit?usp=sharing)
 * [Thursday, Oct. 5](https://docs.google.com/document/d/1DhAq-i5VzLthhSqjorbiU3iKZrl3gzOPKesEYVBvt6M/edit?usp=sharing)
 -->
-
-### Tips and Tricks for Attending VIS for your First Time
-
-If this is your first time attending VIS, welcome! We have collected
-[some advice from those of us who regularly attend VIS that might be
-helpful to you](https://docs.google.com/document/d/1ot7JHpXcfOMYZuUw0fl4_PghImxHogCrGgPm61CBMx4/edit?usp=sharing).
-
 
 ### Contact
 
