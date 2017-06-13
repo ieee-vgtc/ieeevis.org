@@ -5,7 +5,7 @@ permalink: /year/2017/info/call-participation/community
 contact: community@ieeevis.org
 ---
 
-Our goals in Community are organizing activities at IEEE VIS conference that connect the current and next generation of visualization researchers and practioners. We do this through providing conference activities to participants for all of the various visualization sub-communities: scientific visualization, information visualization, visual analytics, industry, etc. 
+Our goals in Community are organizing activities at IEEE VIS conference that connect the current and next generation of visualization researchers and practitioners. We do this through providing conference activities to participants for all of the various visualization sub-communities: scientific visualization, information visualization, visual analytics, industry, etc. 
 
 The Community activities are open to all registered IEEE VIS participants, regardless of seniority and affiliation. The activities are organized by the IEEE VIS Community Chairs, who can be reached at [community@ieeevis.org](community@ieeevis.org).
 
@@ -20,7 +20,7 @@ helpful to you](https://docs.google.com/document/d/1ot7JHpXcfOMYZuUw0fl4_PghImxH
 ### Flyer Posting
 
 We will pin up and post job, post-doc, staff, etc. flyers to the VIS 
-corkboard if you are unable to attend VISWeek in person. Send your  
+corkboard if you are unable to attend VISWeek in person. Send your 
 flyers to [community@ieeevis.org](mailto:community@ieeevis.org) as a PDF. 
 *The deadline to recieve these is a week prior to VIS, otherwise we cannot 
 guarantee that it will be posted to the corkboard by the first day of VIS.*
