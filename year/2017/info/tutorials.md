@@ -33,14 +33,14 @@ Tamara Munzner (University of British Columbia)
 This introductory tutorial will provide a broad foundation for thinking systematically about visualization systems, built around the idea that becoming familiar with analyzing existing systems is a good springboard for designing new ones. The major data types of concern in visual analytics, information visualization, and scientific visualization will all be covered: tables, networks, and sampled spatial data. This tutorial is focused on data and task abstractions, and the design choices for visual encoding and interaction; it will not cover algorithms. No background in computer science or visualization is assumed.
 
 
-## <a name="#Applying_Color_Theory"></a> Applying Color Theory to VIS (half-day)
+## <a name="Applying_Color_Theory"></a> Applying Color Theory to VIS (half-day)
 
 Theresa-Marie Rhyne (Visualization Consultant)  
 
 We examine the foundations of color theory & how these methods apply to building effective visualizations. We define color harmony & demonstrate the application of color harmony to case studies. Case studies include recent visual analytics work with the Munsell Color System, ensemble scientific visualizations, historic & new infographics, correlation in biological data, rainbow color deficiency safe examples, & time series animations. The Pantone Matching System, Munsell Color System and other hue systems are reviewed. The features of ColorBrewer, Adobe's Capture CC app, & Josef Albers "Interaction of Color" app are examined. We also introduce "Gamut Mask" & "Color Proportions of an Image" analysis tools. Our tutorial concludes with a hands on session that teaches how to use online and mobile apps to successfully capture, analyze and store color schemes for future use in visual analytics. This includes evaluations for color deficiencies using Vizcheck & Coblis. These color suggestion tools are available online for your continued use in creating new visualizations. Please bring small JPEG examples of your visualizations for performing color analyses during the hands on session.
 
 
-## <a name="#VA_High-Dim"></a> Visual Analytics for High-Dimensional Data (half-day)
+## <a name="VA_High-Dim"></a> Visual Analytics for High-Dimensional Data (half-day)
 
 Klaus Mueller, (Stony Brook University)  
 Shenghui Cheng, (Stony Brook University)  
