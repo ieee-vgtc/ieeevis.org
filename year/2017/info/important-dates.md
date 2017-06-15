@@ -15,6 +15,7 @@ permalink: /year/2017/info/important-dates
 | Panels submission                          | June 15, 2017 |
 | Posters submission                         | June 16, 2017 |
 | LDAV full paper submission                 | June 16, 2017 |
+| VIS Arts Program submission                | June 23, 2017 |
 | Papers second round submission             | June 27, 2017 |
 | Papers final acceptance notification       | July 11, 2017 |
 | Doctoral colloquium notification           | July 11, 2017 |
