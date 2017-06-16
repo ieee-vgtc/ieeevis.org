@@ -26,7 +26,7 @@ Submissions should be emailed as attachments to [panels@ieeevis.org](mailto:pane
 
 ### IMPORTANT DATES
 
-| Submission Deadline	| **Thursday, June 15, 2017**
+| Submission Deadline  | **extended to Thursday, June 22, 2017**
 | Notification	| **Tuesday, July 11, 2017**
 | Submission of Video Previews	| **Tuesday, August 1, 2017**
 | Final Submission of Summaries	| **Tuesday, August 1, 2017**
@@ -37,6 +37,6 @@ All deadlines are at **5:00pm Pacific Time (PDT)**.
 
 Alex Endert, *Georgia Tech*  
 Michael Sedlmair, *University of Vienna*  
-Ivan Viola, *Vienna University of Technology*
+Ivan Viola, *TU Wien*
 
 For further information, please email: [panels@ieeevis.org](mailto:panels@ieeevis.org)
