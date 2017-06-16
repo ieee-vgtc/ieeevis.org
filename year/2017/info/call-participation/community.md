@@ -5,11 +5,25 @@ permalink: /year/2017/info/call-participation/community
 contact: community@ieeevis.org
 ---
 
-One of our goals in organizing the Community activities at the main IEEE VIS conference is to support the next generation of visualization researchers by helping connect junior and more experienced researchers from the scientific visualization, information visualization and visual analytics communities. This starts with connecting those who have attended IEEE VIS before with those who may be new to the conference, and perhaps the community.
+Our goals in Community are organizing activities at IEEE VIS conference that connect the current and next generation of visualization researchers and practitioners. We do this through providing conference activities to participants for all of the various visualization sub-communities: scientific visualization, information visualization, visual analytics, industry, etc. 
 
 The Community activities are open to all registered IEEE VIS participants, regardless of seniority and affiliation. The activities are organized by the IEEE VIS Community Chairs, who can be reached at [community@ieeevis.org](community@ieeevis.org).
 
-The VIS Community will offer the following events. To register for these events, please visit the corresponding Google Doc pages to see the event details. You can edit these pages directly. 
+To register or participate in these Community events, please see the corresponding details below. 
+
+### Tips and Tricks for Attending VIS for your First Time
+
+If this is your first time attending VIS, welcome! We have collected
+[some advice from those of us who regularly attend VIS that might be
+helpful to you](https://docs.google.com/document/d/1ot7JHpXcfOMYZuUw0fl4_PghImxHogCrGgPm61CBMx4/edit?usp=sharing).
+
+### Flyer Posting
+
+We will pin up and post job, post-doc, staff, etc. flyers to the VIS 
+corkboard if you are unable to attend VISWeek in person. Send your 
+flyers to [community@ieeevis.org](mailto:community@ieeevis.org) as a PDF. 
+*The deadline to recieve these is a week prior to VIS, otherwise we cannot 
+guarantee that it will be posted to the corkboard by the first day of VIS.*
 
 ### Vis Buddies
 
@@ -57,7 +71,6 @@ Please use the *AJF* as an opportunity to strike up a conversation with
 your fellow VIS attendees, even if you are not actively seeking employment or
 staff!
 
-
 <!--
 ### Blind Lunch
 
@@ -69,13 +82,6 @@ This is an informal, planned lunch where more "IEEE VIS regulars" have the oppor
 * [Wednesday, Oct. 4](https://docs.google.com/document/d/1cVWC7ADPV2ifCC7HHYtUSd1rv2fQiy8NBrHDMeNDUDA/edit?usp=sharing)
 * [Thursday, Oct. 5](https://docs.google.com/document/d/1DhAq-i5VzLthhSqjorbiU3iKZrl3gzOPKesEYVBvt6M/edit?usp=sharing)
 -->
-
-### Tips and Tricks for Attending VIS for your First Time
-
-If this is your first time attending VIS, welcome! We have collected
-[some advice from those of us who regularly attend VIS that might be
-helpful to you](https://docs.google.com/document/d/1ot7JHpXcfOMYZuUw0fl4_PghImxHogCrGgPm61CBMx4/edit?usp=sharing).
-
 
 ### Contact
 

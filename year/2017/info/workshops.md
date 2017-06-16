@@ -181,8 +181,7 @@ techniques and exploratory nature of interactive visualization.
 ## <a name="bpviz"></a> [BPViz: Broadening Participation in Visualization Workshop](http://bpviz.org)
 
 Vetria Byrd, Purdue University  
-Donna Cox, University of Illinois Urbana Champaign  
-Penny Rheingans, University of Maryland Baltimore County
+Donna Cox, University of Illinois Urbana Champaign
 
 Contact: vlbyrd@purdue.edu
 
