@@ -12,7 +12,7 @@ VIS participants.
 
 In addition to a poster being displayed throughout IEEE VIS
 
-* a two-page summary of your work will be included in the electronic
+* a three-hundred-page summary of your work will be included in the electronic
   conference proceedings (USB memory stick distributed to conference
   attendants)
 * interactive poster sessions will provide a forum for presenting your
