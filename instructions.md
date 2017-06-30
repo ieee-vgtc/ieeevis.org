@@ -18,7 +18,9 @@ Thank you for helping with the vis website. The easiest way for you to contribut
 Here's a video that illustrates the same process described in the text below:
 
 <video width="480" controls>
-<source src="attachments/pull-request-tutorial-web.mp4" type="video/mp4">
+<source 
+  src="attachments/pull-request-tutorial-web.mp4" 
+  type="video/mp4">
 </video>
 
 The *easiest* way to suggest a change is to go on the bottom of the page you want to change and click on “file a bug”. You will be taken to the GitHub website where you can describe the problem, and web@ will get a notification when the bug is filed.
