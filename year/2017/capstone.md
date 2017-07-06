@@ -6,7 +6,7 @@ permalink: /year/2017/capstone
 
 <table border="0" cellpadding="2" width="800"><tbody>
 <tr>
-  <td width="247" align="center" valign="middle"><span class="image"><img src="giorgialupi-credits-caterina-clerici.jpg" alt="" width="150"></span></td> 
+  <td width="247" align="center" valign="middle"><span class="image"><img src="../../assets/giorgialupi-credits-caterina-clerici.jpg" alt="" width="150"></span></td> 
   <td width="539" align="left" valign="bottom"><p><strong>Capstone Talk</strong></p>
   <p><strong>Friday, October 28, 2016 </strong><br /> <strong>10:30 AM –
 11:30 AM</strong><br /> <strong>Key Ballroom</strong></p>
