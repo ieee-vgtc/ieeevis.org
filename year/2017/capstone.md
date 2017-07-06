@@ -15,13 +15,13 @@ is an award winning information designer. She co-founded Accurat, a data-driven 
 Politecnico di Milano. She relocated to New York City from Italy where she now lives. She is co-author of Dear Data, an aspirational hand drawn data visualization book you will find in bookshops in the US (Princeton Architectural Press) and UK (Penguin Random House UK). The original set of postcards has been recently acquired as part of the permanent collection of the Museum of Modern Art. 
 She recently gave a TED TALK on her Humanistic approach to Data. 
 <br>
-<a href=www.giorgialupi.com> www.giorgialupi.com </a> 
+<a href="www.giorgialupi.com">www.giorgialupi.com</a> 
 <br>
-<a href = www.accurat.nyc> www.accurat.nyc </a> 
+<a href="www.accurat.nyc">www.accurat.nyc</a> 
 <br>
-<a href = www.dear-data.com> www.dear-data.com </a>
+<a href="www.dear-data.com">www.dear-data.com</a>
 <br>
-@giorgialupi 
+<a href="www.twitter.com/giorgialupi">@giorgialupi</a>
 
 </p></td>
 </tr> 
