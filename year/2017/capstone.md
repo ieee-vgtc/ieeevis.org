@@ -7,8 +7,8 @@ permalink: /year/2017/capstone
 <img 
   src="../../assets/giorgialupi-credits-caterina-clerici.jpg"
   alt="giorgia lupi" 
-  style="float: left; margin-right: 16px;"
-  width="478" >
+  style="float: right; margin-right: 16px;"
+  width="260px" >
 
   <p><strong>Capstone Talk</strong></p>
   <p>
