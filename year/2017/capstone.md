@@ -9,12 +9,10 @@ permalink: /year/2017/capstone
   alt="giorgia lupi" 
   style="float: right; margin-right: 16px;"
   width="260px" >
-
-  <p><strong>Capstone Talk</strong></p>
   <p>
-    <strong>Friday, October 28, 2016</strong><br />
+    <strong>Friday, October 6, 2017</strong><br />
     <strong>10:30 AM – 11:30 AM</strong><br />
-    <strong>Key Ballroom</strong>
+    <strong>Phoenix Grand Hyatt Ballroom</strong>
   </p>
   <p>
   <strong>Giorgia Lupi </strong><br /> 
