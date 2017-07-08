@@ -5,7 +5,7 @@ permalink: /year/2017/info/call-participation/panels
 contact: panels@ieeevis.org
 ---
 
-**NEWS:** In an effort to better integrate the community in identifying potentially interesting panel topics and people, we conducted a survey to gather the community’s input. If you consider organizing a panel but are not sure yet: (1) please take a look at the results, (2) feel free to contact the respective people who proposed the idea (last column) or who were mentioned as potential panelists.
+**NEWS:** In an effort to better integrate the community in identifying potentially interesting panel topics and people, we conducted a survey to gather the community’s input. If you consider organizing a panel but are not sure yet, please take a look at the results for potential ideas.
 
 Check out the survey results here:
 [http://tiny.cc/VIS2017-panels-survey](http://tiny.cc/VIS2017-panels-survey) 
@@ -26,7 +26,7 @@ Submissions should be emailed as attachments to [panels@ieeevis.org](mailto:pane
 
 ### IMPORTANT DATES
 
-| Submission Deadline	| **Thursday, June 15, 2017**
+| Submission Deadline  | **extended to Thursday, June 22, 2017**
 | Notification	| **Tuesday, July 11, 2017**
 | Submission of Video Previews	| **Tuesday, August 1, 2017**
 | Final Submission of Summaries	| **Tuesday, August 1, 2017**
@@ -37,6 +37,6 @@ All deadlines are at **5:00pm Pacific Time (PDT)**.
 
 Alex Endert, *Georgia Tech*  
 Michael Sedlmair, *University of Vienna*  
-Ivan Viola, *Vienna University of Technology*
+Ivan Viola, *TU Wien*
 
 For further information, please email: [panels@ieeevis.org](mailto:panels@ieeevis.org)
