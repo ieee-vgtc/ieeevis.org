@@ -7,7 +7,7 @@ def handle():
     content = json.loads(request.form["payload"])
     if content["head"] == "refs/heads/master":
         print "something was pushed to master!"
-    return "OK."
+    return "OK"
 
 if __name__ == '__main__':
     app.run(port=1234)
