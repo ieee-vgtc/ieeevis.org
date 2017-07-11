@@ -33,7 +33,7 @@ After you’re done making the edits, you’ll go to the bottom of the page wher
 
 <img src="attachments/instructions-2.png" class="instructions-img">
 
-After you click on “Propose file change”, you’ll be taken to something that looks like this, where you can click on “Create Pull Request":
+After you click on "Propose file change", you’ll be taken to something that looks like this, where you can click on "Create Pull Request":
 
 <img src="attachments/instructions-3.png" class="instructions-img">
 
@@ -41,7 +41,7 @@ After you click on that, web gets both a bug report and a proposed change:
 
 <img src="attachments/instructions-4.png" class="instructions-img">
 
-If the change is simple, we’ll simply say “OK”. If the change requires reviewers, we can ask for people to comment on the thread. After everyone says OK, we merge the change and then we will be able to push it to staging.ieeevis.org
+If the change is simple, we’ll simply say "OK". If the change requires reviewers, we can ask for people to comment on the thread. After everyone says OK, we merge the change and then we will be able to push it to staging.ieeevis.org
 
 ## Staging vs Production
 
