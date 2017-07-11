@@ -71,9 +71,19 @@ Please do not contact web chairs with requests such as "please add this content 
 
 ### Who's responsible for what?
 
-The point-of-contact for each page in the website is the contact person in each page's front matter. If a page does not have an assigned contact, then 1) that's likely a bug that should be reported, 2) web@ieeevis.org is the default point-of-contact.
+The point-of-contact for each page in the website is the contact
+person in each page's front matter (which is visible on each page by
+looking at the footer). 
 
-This means that if you found a bug on the content of a webpage, you're welcome to create a pull request for the content to get fixed. However, if the fix involves anything more than trivial typos, we will wait for an OK from the point-of-contact before committing the changes.
+If a page does not have an assigned contact, then 1) that's likely a
+bug that should be reported, 2) web@ieeevis.org is the default
+point-of-contact.
+
+This means that if you found a bug on the content of a webpage, you're
+welcome to create a pull request for the content to get
+fixed. However, if the fix involves anything more than trivial typos,
+we will wait for an OK from the point-of-contact before committing the
+changes.
 
 ### What's with the content files all over the place?
 
