@@ -1,4 +1,4 @@
 #!/bin/bash
 export IEEEVIS_AWS_USER=ieeevis
-cd ~/ieeevis.org/scripts/
+cd ~/ieeevis.org/scripts/hook-watcher/
 nohup python main.py >> ~/watcher.out 2>> ~/watcher.err < /dev/null &
