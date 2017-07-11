@@ -1,6 +1,6 @@
 # ieeevis.org
 
-This is the Jekyll version of the http://ieeevis.org website.
+This is the Jekyll version of the [IEEE VIS website](http://ieeevis.org).
 
 ## Contributing
 
