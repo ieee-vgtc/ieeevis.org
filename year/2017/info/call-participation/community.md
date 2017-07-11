@@ -30,12 +30,12 @@ guarantee that it will be posted to the corkboard by the first day of VIS.*
 VisBuddies brings together new and returning VIS attendees with similar interests. For newcomers, this is a chance to meet experienced researchers in the field. For returning attendees, it is a chance to meet fresh talent joining VIS for the first time. You can volunteer for VisBuddies on the registration form. Based on your declared interests in the registration form, we will match pairs or small groups of attendees with different levels of VIS experience, and contact the groups via email prior to VIS.
 
 Suggested Buddies activities include:
-* Attend the [VIS Newcomers Meetup](http://ieeevis.org/year/2017/info/meetups) together (highly recommended)
-* Have lunch, dinner, coffee, etc. with your Buddies at least once
-* Discuss interesting sessions to attend
-* Introduce your colleagues to your Buddies
+-  Attend the [VIS Newcomers Meetup](/year/2017/info/meetups) together (highly recommended)
+-  Have lunch, dinner, coffee, etc. with your Buddies at least once
+-  Discuss interesting sessions to attend
+-  Introduce your colleagues to your Buddies
 
-Vis Buddies is in conjunction with the Newcomers Meetup [VIS Newcomers Meetup](http://ieeevis.org/year/2017/info/meetups). Prior to the Meetup, we will have a booth set-up outside to help you connect with your buddies (if you have not done so already). 
+Vis Buddies is in conjunction with the Newcomers Meetup [VIS Newcomers Meetup](/year/2017/info/meetups). Prior to the Meetup, we will have a booth set-up outside to help you connect with your buddies (if you have not done so already). 
 
 ### Asynchronous Job Fair
 
@@ -55,7 +55,7 @@ participating in the *AJF*. These will be located at the registration table.
 - *We strongly suggest carrying either a curriculum vitae (CV), resume, 
 business card, or note cards with links, such as LinkedIn or online CVs, to 
 help facilitate information exchange during VIS.* 
-- CVs will be distributed to [Supporters](http://ieeevis.org/year/2017/info/exhibition/supporters-and-exhibition) prior to VIS, to help make connections
+- CVs will be distributed to [Supporters](/year/2017/info/exhibition/supporters-and-exhibition) prior to VIS, to help make connections
 during VIS, by sharing your information and CVs with the supporters. During 
 online registration you will be able to upload your CV and
 interests. If you did not upload your CV during online registration, we will
