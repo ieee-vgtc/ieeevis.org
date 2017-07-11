@@ -873,60 +873,60 @@
         "class": "NonProfit/Small Company/Startup",
         "href": "http://www.act.org/",
         "src": "/attachments/supporters/tmp/ACT-logo-Blue-cmyk.png",
-	"year": 2016
-    },
-    {
-        "class": "NonProfit/Small Company/Startup",
-        "href": "http://www.sentimetrix.com/",
-        "src": "/attachments/supporters/2016/sentimetrix.png",
-	"year": 2016
-    },
-    {
-	"class": "Academic",
-	"href": "http://www.sci.utah.edu/",
-	"src": "/attachments/supporters/tmp/sci.png",
-	"year": 2016
-    },
-    {
-	"class": "Academic",
-	"href": "http://www.vrvis.at/",
-	"src": "/attachments/supporters/tmp/vrvis_t.png",
-	"year": 2016
-    },
-    {
-	"class": "Academic",
-	"href": "http://citi.clemson.edu/viz/",
-	"src": "/attachments/supporters/2016/clemson_ccit.png",
-	"year": 2016
-    },
-    {
-	"class": "Academic",
-	"href": "http://ischool.umd.edu/",
-	"src": "/attachments/supporters/2016/umd_cis.png",
-	"year": 2016
-    },
-    {
-        "class": "Academic",
-        "href": "https://www.orau.org/",
-        "src": "/attachments/supporters/2016/ORAU.png",
         "year": 2016
     },
     {
-	"class": "Publisher",
-	"href": "http://www.morganclaypool.com/",
-	"src": "/attachments/supporters/tmp/mcp.png",
-	"year": 2016
+      "class": "NonProfit/Small Company/Startup",
+      "href": "http://www.sentimetrix.com/",
+      "src": "/attachments/supporters/2016/sentimetrix.png",
+      "year": 2016
     },
     {
-	"class": "Publisher",
-	"href": "http://www.springer.com/",
-	"src": "/attachments/supporters/tmp/Springer_cmyk.png",
-	"year": 2016
+      "class": "Academic",
+      "href": "http://www.sci.utah.edu/",
+      "src": "/attachments/supporters/tmp/sci.png",
+      "year": 2016
     },
     {
-        "class": "Publisher",
-        "href": "https://www.crcpress.com/",
-        "src": "/attachments/supporters/tmp/CRC.png",
-        "year": 2016
+      "class": "Academic",
+      "href": "http://www.vrvis.at/",
+      "src": "/attachments/supporters/tmp/vrvis_t.png",
+      "year": 2016
+    },
+    {
+      "class": "Academic",
+      "href": "http://citi.clemson.edu/viz/",
+      "src": "/attachments/supporters/2016/clemson_ccit.png",
+      "year": 2016
+    },
+    {
+      "class": "Academic",
+      "href": "http://ischool.umd.edu/",
+      "src": "/attachments/supporters/2016/umd_cis.png",
+      "year": 2016
+    },
+    {
+      "class": "Academic",
+      "href": "https://www.orau.org/",
+      "src": "/attachments/supporters/2016/ORAU.png",
+      "year": 2016
+    },
+    {
+      "class": "Publisher",
+      "href": "http://www.morganclaypool.com/",
+      "src": "/attachments/supporters/tmp/mcp.png",
+      "year": 2016
+    },
+    {
+      "class": "Publisher",
+      "href": "http://www.springer.com/",
+      "src": "/attachments/supporters/tmp/Springer_cmyk.png",
+      "year": 2016
+    },
+    {
+      "class": "Publisher",
+      "href": "https://www.crcpress.com/",
+      "src": "/attachments/supporters/tmp/CRC.png",
+      "year": 2016
     }
 ]
