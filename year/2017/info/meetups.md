@@ -7,13 +7,10 @@ contact: "meetups@ieeevis.org"
 
 ### VIS Newcomers
 
-** SUNDAY, OCTOBER 1st **
-
-** 12:20 - 12:45 PM **
-
-** Location: TBA 
-
-** Organizers: Jagoda Walny and Kate Isaacs **
+**SUNDAY, OCTOBER 1st**  
+**12:20 - 12:45 PM**  
+**Location: TBA** 
+**Organizers: Jagoda Walny and Kate Isaacs**
 
 Attending VIS for the first time can be overwhelming, especially if you don't know any other attendees, it's your first conference, or if you are new to visualization. The VIS Newcomers Meetup is a conference orientation and informal lunch intended for first-time VIS attendees, regardless of experience, from students to practitioners. This allows participants to meet other conference goers and learn various tips for attending VIS. The meetup will start with a short presentation containing conference tips. Following the presentation, meetup attendees will split into small groups led by experienced VIS attendees to continue discussions over lunch and get to know each other. 
 
