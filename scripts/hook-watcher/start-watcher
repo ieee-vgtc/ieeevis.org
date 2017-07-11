@@ -1,0 +1,4 @@
+#!/bin/bash
+export IEEEVIS_AWS_USER=ieeevis
+cd ~/ieeevis.org/scripts/
+nohup python main.py >> ~/watcher.out 2>> ~/watcher.err < /dev/null &
