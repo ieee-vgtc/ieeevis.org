@@ -1,0 +1,4 @@
+#!/bin/bash
+cd ~/ieeevis.org/
+git pull origin master
+make staging
