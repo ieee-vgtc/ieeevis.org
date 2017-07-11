@@ -1,3 +1,10 @@
+---
+title: Meetups
+layout: main-2017
+permalink: /year/2017/info/meetups
+contact: "meetups@ieeevis.org"
+---
+
 ### VIS Newcomers
 
 ** SUNDAY, OCTOBER 1st **
