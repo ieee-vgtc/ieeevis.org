@@ -23,7 +23,7 @@ permalink: /year/2017/info/important-dates
 | VAST Contest deadline                      | July 16, 2017 |
 | VizSec paper submission                    | July 18, 2017 |
 | Posters notification                       | July 21, 2017 |
-| Panels notification                        | July 31, 2017 |
+| Panels notification                        | July 27, 2017 |
 | SciVis Contest deadline                    | July 31, 2017 |
 | Student Volunteer application deadline     | Aug 1, 2017   |
 | Meetups early submission deadline          | Aug 4, 2017   |
