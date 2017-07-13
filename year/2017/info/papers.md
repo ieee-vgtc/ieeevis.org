@@ -37,67 +37,88 @@ permalink: /year/2017/info/papers
 
 ## <a name='tvcg'></a>TVCG
 
-**Timelines Revisited: A Design Space and Considerations for Expressive Storytelling**<br/>
+**Timelines Revisited: A Design Space and Considerations for Expressive Storytelling**
+<br/>
 Authors: Matthew Brehmer, Bongshin Lee, Benjamin Bach, Nathalie Henry Riche, and Tamara Munzner
 
-**A Survey on Visual Approaches for Analyzing Scientific Literature and Patents**<br/>
+**A Survey on Visual Approaches for Analyzing Scientific Literature and Patents**
+<br/>
 Authors: Paolo Federico, Florian Heimerl, Steffen Koch, and Silvia Miksch
 
-**Uncertainty Visualization by Representative Sampling from Prediction Ensembles**<br/>
+**Uncertainty Visualization by Representative Sampling from Prediction Ensembles**
+<br/>
 Authors: Le Liu, Alexander Boone, Ian Ruginski, Lace Padilla, Mary Hegarty, Sarah H. Creem-Regehr, William B. Thompson, Cem Yuksel, Donald H. House
 
-**Revealing Patterns and Trends of Mass Mobility through Spatial and Temporal Abstraction of Origin-Destination Movement Data**<br/>
+**Revealing Patterns and Trends of Mass Mobility through Spatial and Temporal Abstraction of Origin-Destination Movement Data**
+<br/>
 Authors: Gennady Andrienko, Natalia Andrienko, Georg Fuchs, and Jo Wood
 
-**An Exploratory Study of Word-Scale Graphics in Data-Rich Text Documents**<br/>
+**An Exploratory Study of Word-Scale Graphics in Data-Rich Text Documents**
+<br/>
 Authors: Pascal Goffin, Jeremy Boy, Wesley Willett, Petra Isenber
 
-**vispubdata.org: A Metadata Collection about IEEE Visualization (VIS) Publications**<br/>
+**vispubdata.org: A Metadata Collection about IEEE Visualization (VIS) Publications**
+<br/>
 Authors: Petra Isenberg, Florian Heimerl, Steffen Koch, Tobias Isenberg, Panpan Xu, Charles Stolper, Michael Sedlmair, Jian Chen, Torsten Moller, and John T. Stasko
 
-**A Systematic Review of Experimental Studies on Data Glyphs**<br/>
+**A Systematic Review of Experimental Studies on Data Glyphs**
+<br/>
 Authors: Johannes Fuchs, Petra Isenberg, Anastasia Bezerianos, and Daniel Keim
 
-**Evaluating Cartogram Effectiveness**<br/>
+**Evaluating Cartogram Effectiveness**
+<br/>
 Authors: Sabrina Nusrat, Muhammad Jawaherul Alam, and Stephen Kobourov
 
-**A Statistical Direct Volume Rendering Framework for Visualization of Uncertain Data**<br/>
+**A Statistical Direct Volume Rendering Framework for Visualization of Uncertain Data**
+<br/>
 Authors: Elham Sakhaee and Alireza Entezari
 
-**The Subspace Voyager: Exploring High-Dimensional Data along a Continuum of Salient 3D Subspaces**<br/>
+**The Subspace Voyager: Exploring High-Dimensional Data along a Continuum of Salient 3D Subspaces**
+<br/>
 Authors: Bing Wang and Klaus Mueller
 
-**A Rank-Aware Data Cube for Real-Time Exploration of Spatiotemporal Data**<br/>
+**A Rank-Aware Data Cube for Real-Time Exploration of Spatiotemporal Data**
+<br/>
 Authors: Fabio Miranda, Lauro Lins, James Klosowski, and Claudio Silva
 
-**Perceptual Biases in Font Size as a Data Encoding**<br/>
+**Perceptual Biases in Font Size as a Data Encoding**
+<br/>
 Authors: Eric Carlson Alexander, Chih-Ching Chang, Mariana Shimabukuro, Steve Franconeri, Christopher Collins, and Michael Gleicher
 
-**Data Flow Analysis and Visualization for Spatiotemporal Statistical Data without Trajectory Information**<br/>
+**Data Flow Analysis and Visualization for Spatiotemporal Statistical Data without Trajectory Information**
+<br/>
 Authors: Seokyeon Kim, Seongmin Jeong, Insoo Woo, Yun Jang, Ross Maciejewski, and David Ebert
 
-**Evaluating Interactive Graphical Encodings for Data Visualization**<br/>
+**Evaluating Interactive Graphical Encodings for Data Visualization**
+<br/>
 Authors: Bahador Saket, Arjun Srinivasan, Eric D. Ragan, and Alex Endert
 
-**PETMiner – A Visual Analysis Tool for Petrophysical Properties of Core Sample Data**<br/>
+**PETMiner – A Visual Analysis Tool for Petrophysical Properties of Core Sample Data**
+<br/>
 Authors: Dave G. Harrison, Nick D. Efford, Quentin J. Fisher, and Roy A. Ruddle
 
-**Indexed-Points Parallel Coordinates Visualization of Multivariate Correlations**<br/>
+**Indexed-Points Parallel Coordinates Visualization of Multivariate Correlations**
+<br/>
 Authors: Liang Zhou and Daniel Weiskopf
 
-**Visual Analysis of Inclusion Dynamics in Two-Phase Flow**<br/>
+**Visual Analysis of Inclusion Dynamics in Two-Phase Flow**
+<br/>
 Authors: Grzegorz Karch, Fabian Beck, Moritz Ertl, Christian Meister, Kathrin Schulte, Bernhard Weigand, Thomas Ertl, and Filip Sadlo
 
-**A Combined Eulerian-Lagrangian Data Representation for Large-scale Applications**<br/>
+**A Combined Eulerian-Lagrangian Data Representation for Large-scale Applications**
+<br/>
 Authors: Franz Sauer, Jinrong Xie, and Kwan-Liu Ma
 
-**Keshif: Rapid and Expressive Tabular Data Exploration for Novices**<br/>
+**Keshif: Rapid and Expressive Tabular Data Exploration for Novices**
+<br/>
 Authors: Mehmet Adil Yalcin, Niklas Elmqvist, and Benjamin B Bederson
 
-**DSPCP: A Data Scalable Approach for Identifying Relationships in Parallel Coordinates**<br/>
+**DSPCP: A Data Scalable Approach for Identifying Relationships in Parallel Coordinates**
+<br/>
 Authors: Hoa Nguyen and Paul Rosen
 
-**RCLens: Interactive Rare Category Exploration and Identification**<br/>
+**RCLens: Interactive Rare Category Exploration and Identification**
+<br/>
 Authors: Hanfei Lin, Siyuan Gao, David Gotz, Fan Du, Jingrui He, and Nan Cao
 
 <hr/>
