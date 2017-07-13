@@ -5,33 +5,12 @@ permalink: /year/2017/info/registration/hotel-information
 contact: "web@ieeevis.org"
 ---
 
- In 2016, IEEE VIS returns to the city of Baltimore, Maryland, USA, for 
- the conference's 27th year. The conference will be located at the 
- Hilton Baltimore Hotel, connected to the Baltimore Convention Center. 
+In 2017, IEEE VIS visits the city of Phoenix, Arizona, USA, for the conference’s 28th year. The conference will be located at the Hyatt Regency Phoenix, across from the Phoenix Convention Center. Downtown Phoenix is a young and vibrant community. You will find sports arenas, live music, rooftop lounges, museums, theaters, art galleries and more than 100 restaurants. Enjoy a light rail pub crawl, and indulge in Southern cravings, take a slice of the Phoenix pizza scene and more! 
 
- Hilton Baltimore Hotel holds a prime place in the Inner Harbor, next door 
- to Camden Yards and across the street from M&T Stadium.  Baltimore's Inner 
- Harbor is a hub of activity. In just a few city blocks, you can unearth 
- dinosaurs at the Maryland Science Center, get a history lesson at the 
- Reginald F. Lewis Museum of Maryland African American History & Culture, pay 
- respects to pop culture at Geppi's Entertainment Museum, or submerge 
- yourself in exotic sealife at the National Aquarium. Other attractions 
- include the American Visionary Art Museum, the Babe Ruth Museum, and the 
- Port Discovery Children's Museum. 
+ It has much to offer people from all walks of life. When walking the streets of downtown, if you see a person in an Orange shirt, these are Downtown Ambassadors. They are there to answer questions and provide you with information about the Downtown area. You can also set up walking tours of downtown through the Downtown Ambassador Program. For more information on this program or a general what’s happening in Downtown Phoenix, you can visit the [Downtown Phoenix website](http://dtphx.org/).
 
- Baltimore's Inner Harbor has loads of restaurants, pubs, hotels and shops, 
- many of them at the popular Harborplace shopping and entertainment center 
- just steps from the Hilton.  The Water Taxi at the Inner Harbor can also 
- take you to surrounding neighborhoods, and the free Charm City Circulator 
- provides daily bus service through several downtown routes. 
+Make sure you check out Roosevelt Row! It is the place to go for coffee shops, art-house movies and First Friday Art Walks. Pro sports are almost afoot away at Talking Stick Resort Arena (formerly known as US Airways Center and home of the Phoenix Suns and Phoenix Mercury) or Chase Field (home of the Arizona Diamondbacks).  Downtown Phoenix is full of family-friendly museums including the Arizona Science Center and Heard Museum!  
 
- From family-friendly museums and restaurants to satisfy every palate, to 
- exciting nightlife, cultural experiences and spectacular people-watching, 
- Baltimore's Inner Harbor offers more to see and do than you can 
- imagine. 
+ Of course, outside of Phoenix, Arizona has much to offer. Hike Camelback Mountain, visit Old Town Scottsdale, explore the Grand Canyon and Sedona! Explore Arizona’s Grand Adventures!
 
- The conference rate is $229/night plus 15.5% tax for single or double 
- occupancy rooms. The cutoff date for reservations under this rate is 
- September 28, 2016, at 5PM EDT. In order to make a reservation at the 
- Hyatt Regency under the conference rate, 
- [click here](https://aws.passkey.com/event/15934070/owner/2336/home). 
+ The conference rate is $209/night with a limited student block with rates of $179.00 per night. Tax is 12.57% tax for single or double occupancy rooms. The cutoff date for reservations under this rate is September 8, 2017, at 5PM PST. In order to make a reservation at the Hyatt Regency Phoenix under the conference rate, click [here](https://aws.passkey.com/event/15934070/owner/2336/home).
