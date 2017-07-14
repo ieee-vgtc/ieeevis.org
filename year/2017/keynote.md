@@ -3,11 +3,11 @@ title: Keynote
 layout: main-2017
 permalink: /year/2017/keynote
 ---
-<!-- <img 
-  src="../../assets/giorgialupi-credits-caterina-clerici.jpg"
+  <img 
+  src="../../assets/jacqueline-chen.jpg"
   alt="jackie chen" 
   style="float: right; margin-right: 16px;"
-  width="260px" > --->
+  width="260px" >
   <p> 
     <strong>Tuesday, October 3, 2017</strong><br />
     <strong>10:50 AM – 12:00 PM</strong><br />
