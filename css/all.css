@@ -4953,9 +4953,11 @@ span.toggleAccordion {
 /*****************************************************************************/
 
 .ieeevis-btn {
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
   font-family: Verdana;
   color: #F5F6F5;
   font-size: 20px;
@@ -4965,6 +4967,8 @@ span.toggleAccordion {
 }
 
 .ieeevis-btn:hover {
+  margin-top: 5px;
+  margin-bottom: 5px;
   background: #3cb0fd;
   text-decoration: none;
 }
