@@ -60,7 +60,7 @@ The following table shows all registration fees in USD.
     </tr> 
     <tr> 
       <td>1 Day IEEE/ISCB/ACM Member</td> 
-      <td>300</td> 
+      <td>$300</td> 
       <td>$340</td> 
     </tr> 
     <tr> 
