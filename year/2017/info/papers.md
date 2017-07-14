@@ -4,12 +4,12 @@ layout: main-2017
 permalink: /year/2017/info/papers
 ---
 * [VAST](#vast) 
-  * [journal special issue papers](#vast-j)
+  * [TVCG journal special issue papers](#vast-j)
   * [conference papers](#vast-p)
-* [InfoVis](#infovis) (journal special issue papers)
-* [SciVis](#scivis) (journal special issue papers)
-* [TVCG](#tvcg) (previously published journal papers presented at VIS)
-* [CG&A](#cga) (previously published journal papers presented at VIS)
+* [InfoVis](#infovis) (TVCG journal special issue papers)
+* [SciVis](#scivis) (TVCG journal special issue papers)
+* [TVCG](#tvcg) (previously published TVCG journal papers presented at VIS)
+* [CG&A](#cga) (previously published CG&A magazine papers presented at VIS)
 
 <hr/>
 
@@ -125,4 +125,34 @@ Authors: Hanfei Lin, Siyuan Gao, David Gotz, Fan Du, Jingrui He, and Nan Cao
 
 ## <a name='cga'></a>CGA
 
-**TBA**
+**ARIES: Enabling Visual Exploration and Organization of Art Image Collections**
+<br/>
+Lhaylla Crissaff, Louisa Wood Ruby, Samantha Deutch, R. Luke DuBois, Jean-Daniel Fekete, Juliana Freire, Claudio Silva
+
+**BKViz: A Basketball Visual Analysis Tool**
+<br/>
+Antonio G. Losada, Roberto Theron, Alejandro Benito
+
+**Director's Cut: Analysis and Annotation of Soccer Matches**
+<br/>
+Manuel Stein, Halldór Janetzko, Thorsten Breitkreutz, Daniel Seebacher, Tobias Schreck, Michael Grossniklaus, Iain Couzin, Daniel Keim
+
+**GapChart: a Gap Strategy to Visualize the Temporal Evolution of both Ranks and Scores**
+<br/>
+Charles Perin, Jeremy Boy, Frederic Vernier
+
+**Glyph Visualization: A Fail-Safe Design Scheme Based on Quasi-Hamming Distances**
+<br/>
+Philip A. Legg, Eamonn Maguire, Simon Walton, Min Chen
+
+**Sport Tournament Predictions by Direct Manipulation**
+<br/>
+Romain Vuillemot, Charles Perin
+
+**StatCast Dashboard: Exploration of Spatiotemporal Baseball Data**
+<br/>
+Marcos Lage, Jorge Henrique Ono, Daniel Cervone, Justin Chiang, Carlos Dietrich, Claudio Silva
+
+**VisAdapt: A Visualization Tool to Support Climate Change Adaptation**
+<br/>
+Jimmy Johansson, Tomasz Opach, Erik Glaas, Tina-Simone Neset, Carlo Navarra, Bjorn-Ola Linner, Jan Ketil Rod
