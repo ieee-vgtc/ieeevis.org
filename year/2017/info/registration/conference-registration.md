@@ -7,7 +7,7 @@ contact: "web@ieeevis.org"
 
 **Early Registration** period for IEEE VIS 2017 is now **OPEN** until **August 25, 2017**. Late registration fees apply after that date.
 
-<p align="center"><a href="http://www.cvent.com/events/2017-ieee-visualization-conference-vis-/event-summary-63f90d372ae44480b4f8d7071a2b2fd6.aspx" width="150"><img src="\/attachments/register.png" alt="Register for IEEE VIS 2016" width="150"></a></p>
+<p align="center"><a href="http://www.cvent.com/events/2017-ieee-visualization-conference-vis-/event-summary-63f90d372ae44480b4f8d7071a2b2fd6.aspx" width="150"><img src="/attachments/register.png" alt="Register for IEEE VIS 2017" width="150"></a></p>
 
 The following table shows all registration fees in USD. 
 
