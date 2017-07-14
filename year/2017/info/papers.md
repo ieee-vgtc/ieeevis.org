@@ -4,18 +4,18 @@ layout: main-2017
 permalink: /year/2017/info/papers
 ---
 * [VAST](#vast) 
-  * [TVCG journal special issue papers](#vast-j)
+  * [*TVCG* journal special issue papers](#vast-j)
   * [conference papers](#vast-p)
-* [InfoVis](#infovis) (TVCG journal special issue papers)
-* [SciVis](#scivis) (TVCG journal special issue papers)
-* [TVCG](#tvcg) (previously published TVCG journal papers presented at VIS)
+* [InfoVis](#infovis) (*TVCG* journal special issue papers)
+* [SciVis](#scivis) (*TVCG* journal special issue papers)
+* [*TVCG*](#tvcg) (previously published *TVCG* journal papers presented at VIS)
 * [CG&A](#cga) (previously published CG&A magazine papers presented at VIS)
 
 <hr/>
 
 ## <a name='vast'></a>VAST
 
-### <a name='vast-j'></a>TVCG Journal papers
+### <a name='vast-j'></a>*TVCG* Journal papers
 
 **TBA**
 
@@ -35,7 +35,7 @@ permalink: /year/2017/info/papers
 
 <hr/>
 
-## <a name='tvcg'></a>TVCG
+## <a name='tvcg'></a>*TVCG*
 
 **Timelines Revisited: A Design Space and Considerations for Expressive Storytelling**
 <br/>
