@@ -16,7 +16,7 @@ The following table shows all registration fees in USD.
     <tr>
       <td><strong>Conference Registration</strong></td>
       <td><strong>Early Registration (Aug. 25th)</strong></td> 
-      <td><strong>Standard Fees</strong></td>
+      <td><strong>Standard Registration</strong></td>
     </tr> 
     <tr>
       <td>Full Week IEEE/ISCB/ACM Member</td> 
