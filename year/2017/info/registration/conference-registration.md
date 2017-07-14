@@ -160,4 +160,4 @@ IEEE, ACM and ISCB all allow member discounted prices.
 
 All cancellations requested in **writing** and received before **September 1, 2017** will be refunded, minus the **cancellation fee of US$50**. Special consideration for refund requests after this date will be done on a case-by-case basis. For those requiring visas to come to the US, please request your visa invitation letter and make your visa appointment as soon as possible. 
 
-Please submit all cancellation/refund requests to visreg@ieeevis.org. 
+Please submit all cancellation/refund requests to [visreg@ieeevis.org](mailto:visreg@ieeevis.org). 
