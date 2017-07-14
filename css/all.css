@@ -4949,3 +4949,22 @@ span.toggleAccordion {
 .clickable {
     cursor: pointer;
 }
+
+/*****************************************************************************/
+
+.ieeevis-btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Verdana;
+  color: #F5F6F5;
+  font-size: 20px;
+  background: #0099cc;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.ieeevis-btn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
