@@ -15,7 +15,7 @@ permalink: /year/2017/info/papers
 
 ## <a name='vast'></a>VAST
 
-### <a name='vast-j'></a>Journal papers
+### <a name='vast-j'></a>TVCG Journal papers
 
 **TBA**
 
