@@ -5,18 +5,18 @@ permalink: /year/2017/info/registration/conference-registration
 contact: "web@ieeevis.org"
 ---
 
-**Early Registration** period for IEEE VIS 2017 is now **OPEN** until **August 25, 2017**. Late registration fees apply after that date.
+**Early Registration** period for IEEE VIS 2017 is now **OPEN** through **August 25, 2017 5PM PST**. Standard registration fees apply after that date.
 
-<p align="center"><a href="http://www.cvent.com/events/2017-ieee-visualization-conference-vis-/event-summary-63f90d372ae44480b4f8d7071a2b2fd6.aspx" width="150"><img src="/attachments/register.png" alt="Register for IEEE VIS 2017" width="150"></a></p>
+<p align="center"><a href="http://www.cvent.com/events/2017-ieee-visualization-conference-vis-/event-summary-63f90d372ae44480b4f8d7071a2b2fd6.aspx" width="150" class="ieeevis-btn">Register Now</a></p>
 
 The following table shows all registration fees in USD. 
 
 <table border="1">
   <tbody>
     <tr>
-      <td><strong>Conference Advanced registration</strong></td>
-      <td><strong>Early Fees (On/by Aug. 25th)</strong></td> 
-      <td><strong>Advanced Fees</strong></td>
+      <td><strong>Conference Registration</strong></td>
+      <td><strong>Early Registration (Aug. 25th)</strong></td> 
+      <td><strong>Standard Registration</strong></td>
     </tr> 
     <tr>
       <td>Full Week IEEE/ISCB/ACM Member</td> 
@@ -60,7 +60,7 @@ The following table shows all registration fees in USD.
     </tr> 
     <tr> 
       <td>1 Day IEEE/ISCB/ACM Member</td> 
-      <td>300</td> 
+      <td>$300</td> 
       <td>$340</td> 
     </tr> 
     <tr> 
@@ -160,4 +160,4 @@ IEEE, ACM and ISCB all allow member discounted prices.
 
 All cancellations requested in **writing** and received before **September 1, 2017** will be refunded, minus the **cancellation fee of US$50**. Special consideration for refund requests after this date will be done on a case-by-case basis. For those requiring visas to come to the US, please request your visa invitation letter and make your visa appointment as soon as possible. 
 
-Please submit all cancellation/refund requests to visreg@ieeevis.org. 
+Please submit all cancellation/refund requests to [visreg@ieeevis.org](mailto:visreg@ieeevis.org). 
