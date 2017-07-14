@@ -934,5 +934,35 @@
       "href":   "http://valcri.org/",
       "src":    "/attachments/supporters/2017/logo-valcri-middlesex.png",
       "year":   2017
+    },
+    {
+      "class":  "Silver",
+      "href":   "http://www.kitware.com/",
+      "src":    "/attachments/supporters/2017/logo-kitware.png",
+      "year":   2017
+    },
+    {
+      "class":  "Academic",
+      "href":   "http://www.sci.utah.edu/",
+      "src":    "/attachments/supporters/2017/logo-sci.png",
+      "year":   2017
+    },
+    {
+      "class":  "Academic",
+      "href":   "http://www.vrvis.at/",
+      "src":    "/attachments/supporters/2017/logo-vrvis.png",
+      "year":   2017
+    },
+    {
+      "class":  "NonProfit/Small Company/Startup",
+      "href":   "http://www.act.org/",
+      "src":    "/attachments/supporters/2017/logo-act.png",
+      "year":   2017
+    },
+    {
+      "class":  "Publisher",
+      "href":   "http://www.crcpress.com/",
+      "src":    "/attachments/supporters/2017/logo-crc.png",
+      "year":   2017
     }
 ]
