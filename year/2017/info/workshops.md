@@ -12,7 +12,7 @@ contact: "workshops@ieeevis.org"
 * [2nd Pedagogy of Data Visualization Workshop](#pedagogy)
 * [2nd Workshop on Visualization for the Digital Humanities](#vis-dh)
 * [Visual Analytics for Interpretable, User-Driven Deep Learning](#interpretable-dl)
-* [BPViz: Broadening Participation in Visualization Workshop](#bpviz)
+* [AVID: Advancing Visualization Inclusion and Diversity](#avid)
 * [Vis in Practice: Visualization Solutions in the Wild](#vip)
 
 
@@ -178,29 +178,14 @@ opportunity to discuss and explore ways to harmonize the power of automated
 techniques and exploratory nature of interactive visualization.
 
 
-## <a name="bpviz"></a> [BPViz: Broadening Participation in Visualization Workshop](http://bpviz.org)
+## <a name="avid"></a> [AVID: Advancing Visualization Inclusion and Diversity]
 
-Vetria Byrd, Purdue University  
-Donna Cox, University of Illinois Urbana Champaign
+Penny Rheingans, University of Maryland, Baltimore County  
+Kelly Gaither, University of Texas
 
-Contact: vlbyrd@purdue.edu
+Contact: rheingan@umbc.edu
 
-Visualization plays an important role in all levels of scholarship, and
-across interdisciplinary, research and social landscapes. It is imperative
-that the importance and benefits of a field with such far reaching impact
-embrace the diverse demographic of the future workforce for whom data
-visualization skills will be needed if not required. In order to meet the
-growing demand for persons with capacity to utilize data visualization to
-solve complex problems in research and in the workforce exposure to data
-visualization at all levels is essential. This workshop aims to be a
-catalyst for broadening participation of women, members of underrepresented
-groups and underrepresented disciplines in visualization, fostering a
-community of current and future scholars with interests in visualization
-through mentoring and encouraging participants to consider visualization as
-a career path. The workshop is designed to inform, inspire and encourage
-participants, specifically participants historically underrepresented at the
-conference, to engage in the multidisciplinary dynamics of visualization. 
-
+Abstract update is currently in progress.
 
 ## <a name="vip"></a> [Vis in Practice - Visualization Solutions in the Wild](http://www.visinpractice.rwth-aachen.de)
 
