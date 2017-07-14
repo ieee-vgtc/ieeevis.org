@@ -123,7 +123,7 @@ Authors: Hanfei Lin, Siyuan Gao, David Gotz, Fan Du, Jingrui He, and Nan Cao
 
 <hr/>
 
-## <a name='cga'></a>CGA
+## <a name='cga'></a>CG&A
 
 **ARIES: Enabling Visual Exploration and Organization of Art Image Collections**
 <br/>
