@@ -949,6 +949,12 @@
     },
     {
       "class":  "Academic",
+      "href":   "http://polytechnic.purdue.edu/",
+      "src":    "/attachments/supporters/2017/converted/logo-purdue.png",
+      "year":   2017
+    },
+    {
+      "class":  "Academic",
       "href":   "http://www.vrvis.at/",
       "src":    "/attachments/supporters/2017/logo-vrvis.png",
       "year":   2017
@@ -963,12 +969,6 @@
       "class":  "Publisher",
       "href":   "http://www.crcpress.com/",
       "src":    "/attachments/supporters/2017/logo-crc.png",
-      "year":   2017
-    },
-    {
-      "class":  "Academic",
-      "href":   "http://polytechnic.purdue.edu/",
-      "src":    "/attachments/supporters/2017/converted/logo-purdue.png",
       "year":   2017
     }
 ]
