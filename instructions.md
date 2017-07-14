@@ -33,7 +33,7 @@ After you’re done making the edits, you’ll go to the bottom of the page wher
 
 <img src="attachments/instructions-2.png" class="instructions-img">
 
-After you click on “Propose file change”, you’ll be taken to something that looks like this, where you can click on “Create Pull Request":
+After you click on "Propose file change", you’ll be taken to something that looks like this, where you can click on "Create Pull Request":
 
 <img src="attachments/instructions-3.png" class="instructions-img">
 
@@ -41,7 +41,7 @@ After you click on that, web gets both a bug report and a proposed change:
 
 <img src="attachments/instructions-4.png" class="instructions-img">
 
-If the change is simple, we’ll simply say “OK”. If the change requires reviewers, we can ask for people to comment on the thread. After everyone says OK, we merge the change and then we will be able to push it to staging.ieeevis.org
+If the change is simple, we’ll simply say "OK". If the change requires reviewers, we can ask for people to comment on the thread. After everyone says OK, we merge the change and then we will be able to push it to staging.ieeevis.org
 
 ## Staging vs Production
 
@@ -71,9 +71,19 @@ Please do not contact web chairs with requests such as "please add this content 
 
 ### Who's responsible for what?
 
-The point-of-contact for each page in the website is the contact person in each page's front matter. If a page does not have an assigned contact, then 1) that's likely a bug that should be reported, 2) web@ieeevis.org is the default point-of-contact.
+The point-of-contact for each page in the website is the contact
+person in each page's front matter (which is visible on each page by
+looking at the footer). 
 
-This means that if you found a bug on the content of a webpage, you're welcome to create a pull request for the content to get fixed. However, if the fix involves anything more than trivial typos, we will wait for an OK from the point-of-contact before committing the changes.
+If a page does not have an assigned contact, then 1) that's likely a
+bug that should be reported, 2) web@ieeevis.org is the default
+point-of-contact.
+
+This means that if you found a bug on the content of a webpage, you're
+welcome to create a pull request for the content to get
+fixed. However, if the fix involves anything more than trivial typos,
+we will wait for an OK from the point-of-contact before committing the
+changes.
 
 ### What's with the content files all over the place?
 

@@ -4949,3 +4949,32 @@ span.toggleAccordion {
 .clickable {
     cursor: pointer;
 }
+
+/*****************************************************************************/
+
+.ieeevis-btn:link {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: Verdana;
+  color: #F5F6F5;
+  font-size: 20px;
+  background: #0099cc;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.ieeevis-btn:hover {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
+.ieeevis-btn-wrapper {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px
+}

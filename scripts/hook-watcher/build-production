@@ -1,0 +1,6 @@
+#!/bin/bash
+cd ~/ieeevis.org/
+git checkout production
+git pull origin production
+make production
+
