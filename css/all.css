@@ -4974,7 +4974,7 @@ span.toggleAccordion {
 }
 
 .ieeevis-btn-wrapper {
-  align: center;
+  align-content: center;
   margin-top: 25px;
   margin-bottom: 25px
 }
