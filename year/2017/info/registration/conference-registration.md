@@ -14,7 +14,7 @@ The following table shows all registration fees in USD.
 <table border="1">
   <tbody>
     <tr>
-      <td><strong>Conference Advanced registration</strong></td>
+      <td><strong>Category</strong></td>
       <td><strong>Early Registration (Aug. 25th)</strong></td> 
       <td><strong>Standard Fees</strong></td>
     </tr> 
