@@ -17,11 +17,217 @@ permalink: /year/2017/info/papers
 
 ### <a name='vast-j'></a>*TVCG* Journal papers
 
-**TBA**
+**A Utility-aware Visual Approach for Anonymizing Multi-attribute Tabular Data**
+<br/>
+Authors: Xumeng Wang, Jia-Kai Chou, Wei Chen, Huihua Guan, Wenlong Chen, Tianyi Lao, Kwan-Liu Ma
+
+**ActiVis: Visual Exploration of Industry-Scale Deep Neural Network Models**
+<br/>
+Authors: Minsuk Kahng, Pierre Andrews, Aditya Kalro, Duen Horng Chau
+
+**Analyzing the Training Processes of Deep Generative Models**
+<br/>
+Authors: Mengchen Liu, Jiaxin Shi, Kelei Cao, Jun Zhu, Shixia Liu
+
+**Applying Pragmatics Principles for Interaction with Visual Analytics**
+<br/>
+Authors: Enamul Hoque, Vidya Setlur, Melanie Tory, Isaac Dykeman
+
+**Beyond Tasks: An Activity Typology for Visual Analytics**
+<br/>
+Authors: Darren Edge, Nathalie Henry Riche, Jonathan Larson, Christopher White
+
+**BiDots: Visual Exploration of Weighted Biclusters**
+<br/>
+Authors: Jian Zhao, Maoyuan Sun, Francine Chen, Patrick Chiu
+
+**Bring it to the Pitch: Combining Video and Movement Data to Enhance Team Sport Analysis**
+<br/>
+Authors: Manuel Stein, Halldór Janetzko, Andreas Lamprecht, Thorsten Breitkreutz, Philipp Zimmermann, Bastian Goldlücke, Tobias Schreck, Gennady Andrienko, Michael Grossniklaus, Daniel Keim
+
+**Clustering Trajectories by Relevant Parts for Air Traffic Analysis**
+<br/>
+Authors: Gennady Andrienko, Natalia Andrienko, Georg Fuchs, Jose Manuel Cordero Garcia
+
+**Clustervision: Visual Supervision of Unsupervised Clustering**
+<br/>
+Authors: Bum Chul Kwon, Ben Eysenbach, Janu Verma, Kenney Ng, Christopher deFilippi, Walter Stewart, Adam Perer
+
+**Comparing Visual-Interactive Labeling with Active Learning: An Experimental Study**
+<br/>
+Authors: Jürgen Bernard, Marco Hutter, Matthias Zeppelzauer, Dieter Fellner, Michael Sedlmair
+
+**ConceptVector: Text Visual Analytics via Interactive Lexicon Building using Word Embedding**
+<br/>
+Authors: Deokgun Park, Seungyeon Kim, Jurim Lee, Jaegul Choo, Nicholas Diakopoulos, Niklas Elmqvist
+
+**DeepEyes: Progressive Visual Analytics for Designing Deep Neural Networks**
+<br/>
+Authors: Nicola Pezzotti, Thomas Höllt, Jan van Gemert, Boudewijn P. F. Lelieveldt, Elmar Eisemann, Anna Vilanova
+
+**Do Convolutional Neural Networks learn Class Hierarchy?**
+<br/>
+Authors: Bilal Alsallakh, Amin Jourabloo, Mao Ye, Xiaoming Liu, Liu Ren
+
+**Dynamic Influence Networks for Rule-based Models**
+<br/>
+Authors: Angus Forbes, Andrew Burks, Kristine Lee, Xing Li, Pierre Boutillier, Jean Krivine, Walter Fontana
+
+**EVA: Visual Analytics to Identify Fraudulent Events**
+<br/>
+Authors: Roger Leite, Theresia Gschwandtner, Silvia Miksch, Simone Kriglstein, Margit Pohl, Erich Gstrein, Johannes Kuntner
+
+**EventThread: Visual Summarization and Stage Analysis of Event Sequence Data**
+<br/>
+Authors: Shunan Guo, Ke Xu, Rongwen Zhao, David Gotz, Hongyuan Zha, Nan Cao
+
+**Graphiti: Interactive Specification of Attribute-based Edges for Network Modeling and Visualization**
+<br/>
+Authors: Arjun Srinivasan, Hyunwoo Park, Alex Endert, Rahul Basole
+
+**How Do Ancestral Traits Shape Family Trees over Generations?**
+<br/>
+Authors: Siwei Fu, Hao Dong, Weiwei Cui, Jian Zhao, Huamin Qu
+
+**LDSScanner: Exploratory Analysis of Low-Dimensional Structures in High-Dimensional Datasets**
+<br/>
+Authors: Jiazhi Xia, Fenjin Ye, Wei Chen, Yusi Wang, Weifeng Chen, Yuxin Ma, Anthony K. H. Tung
+
+**PhenoLines: Phenotype Comparison Visualizations for Disease Subtyping via Topic Models**
+<br/>
+Authors: Michael Glueck, Mahdi Pakdaman Naeini, Finale Doshi-Velez, Fanny Chevalier, Azam Khan, Daniel Wigdor, Michael Brudno
+
+**Podium: Ranking Data Using Mixed-Initiative Visual Analytics**
+<br/>
+Authors: Emily Wall, Subhajit Das, Ravish Chawla, Bharath Kalidindi, Eli T. Brown, Alex Endert
+
+**Progressive Learning of Topic Modeling Parameters: A Visual Analytics Framework**
+<br/>
+Authors: Mennatallah El-Assady, Rita Sevastjanova, Fabian Sperrle, Daniel Keim, Christopher Collins
+
+**Sequence Synopsis: Optimize Visual Summary of Temporal Event Data**
+<br/>
+Authors: Yuanzhe Chen, Panpan Xu, Liu Ren
+
+**SkyLens: Visual Analysis of Skyline on Multi-dimensional Data**
+<br/>
+Authors: Xun Zhao, Yanhong Wu, Weiwei Cui, Xinnan Du, Yuan Chen, Yong Wang, Dik-Lun Lee, Huamin Qu
+
+**SOMFlow: Guided Exploratory Cluster Analysis with Self-Organizing Maps and Analytic Provenance**
+<br/>
+Authors: Dominik Sacha, Matthias Kraus, Jürgen Bernard, Michael Behrisch, Tobias Schreck, Yuki Asano, Daniel Keim
+
+**Supporting Handoff in Asynchronous Collaborative Sensemaking Using Knowledge-Transfer Graphs**
+<br/>
+Authors: Jian Zhao, Michael Glueck, Petra Isenberg, Fanny Chevalier, Azam Khan
+
+**The Interactive Visualization Gap in Initial Exploratory Analysis**
+<br/>
+Authors: Andrea Batch, Niklas Elmqvist
+
+**Towards a Systematic Combination of Dimension Reduction and Clustering in Visual Analytics**
+<br/>
+Authors: John Wenskovitch, Ian Crandell, Naren Ramakrishnan, Leanna House, Scotland Leman, Chris North
+
+**TreePOD: Sensitivity-Aware Selection of Pareto-Optimal Decision Trees**
+<br/>
+Authors: Thomas Mühlbacher, Lorenz Linhardt, Torsten Möller, Harald Piringer
+
+**Understanding a sequence of sequences: Visual exploration of categorical states in lake sediment cores**
+<br/>
+Authors: Andrea Unger, Nadine Dräger, Mike Sips, Dirk Lehmann
+
+**Understanding the Relationship between Interactive Optimisation and Visual Analytics in the Context of Prostate Brachytherapy**
+<br/>
+Authors: Jie Liu, Tim Dwyer, Kim Marriott, Jeremy Millar, Annette Haworth
+
+**VIGOR: Interactive Visual Exploration of Graph Query Results**
+<br/>
+Authors: Robert Pienta, Fred Hohman, Alex Endert, Acar Tamersoy, Kevin Roundy, Chris Gates, Shamkant Navathe, Duen Horng Chau
+
+**Visual Diagnosis of Tree Boosting Methods**
+<br/>
+Authors: Jiannan Xiao, Junlin Liu, Xiting Wang, Jing Wu, Jun Zhu, Shixia Liu
+
+**Visualizing Big Data Outliers through Distributed Aggregation**
+<br/>
+Authors: Leland Wilkinson
+
+**Visualizing Confidence in Cluster-based Ensemble Weather Forecast Analyses**
+<br/>
+Authors: Alexander Kumpf, Bianca Tost, Marlene Baumgart, Michael Riemer, Rüdiger Westermann, Marc Rautenhaus
+
+**Visualizing Dataflow Graphs of Deep Learning Models in TensorFlow**
+<br/>
+Authors: Kanit Wongsuphasawat, Daniel Smilkov, James Wexler, Jimbo Wilson, Dan Mane, Doug Fritz, Dilip Krishnan, Fernanda Viegas, Martin Wattenberg
+
+**Voila: Visual Anomaly Detection and Monitoring with Streaming Spatiotemporal Data**
+<br/>
+Authors: Nan Cao, Chaoguang Lin, Qiuhan Zhu, Yu-Ru Lin, Xian Teng, Xidao Wen
+
 
 ### <a name='vast-c'></a>Conference papers
 
-**TBA**
+**A Visual Analytics System for Optimizing Communications in Massively Parallel Applications**
+<br/>
+Authors: Takanori Fujiwara, Preeti Malakar, Khairi Reda, Venkatram Vishwanath, Michael Papka, Kwan-Liu Ma
+
+**A Workflow for Visual Diagnostics of Binary Classifiers using Instance-Level Explanations**
+<br/>
+Authors: Josua Krause, Aritra Dasgupta, Jordan Swartz, Yindalon Aphinyanaphongs, Enrico Bertini
+
+**CRICTO: Supporting Sensemaking through Crowdsourced Information Schematization**
+<br/>
+Authors: Haeyong Chung, Sai Prashanth Dasari, Santhosh Nandhakumar, Christopher Andrews
+
+**CrystalBall: A Visual Analytic System for Future Event Discovery and Analysis from Social Media Data**
+<br/>
+Authors: Isaac Cho, Ryan Wesslen, Svitlana Volkova, Bill Ribarsky, Wenwen Dou
+
+**E-Map: A Visual Analytics Approach for Exploring Significant Event Evolutions in Social Media**
+<br/>
+Authors: Siming Chen, Shuai Chen, Lijing Lin, Xiaoru Yuan, Jie Liang, Xiaolong (Luke) Zhang
+
+**Interactive Visual Alignment of Medieval Text Versions**
+<br/>
+Authors: Stefan Jänicke, David Wrisley
+
+**Pattern Trails: Visual Analysis of Pattern Transitions in Subspaces**
+<br/>
+Authors: Dominik Jäckle, Michael Hund, Michael Behrisch, Daniel A. Keim, Tobias Schreck
+
+**QSAnglyzer: Visual Analytics for Prismatic Analysis of Question Answering System Evaluations**
+<br/>
+Authors: Nan-Chen Chen, Been Kim
+
+**The "y" of it Matters, Even for Storyline Visualization**
+<br/>
+Authors: Dustin Arendt, Megan Pirrung
+
+**The Anchoring Effect in Decision-Making with Visual Analytics**
+<br/>
+Authors: Isaac Cho, Ryan Wesslen, Alireza Karduni, Sashank Santhanam, Samira Shaikh, Wenwen Dou
+
+**The Role of Explicit Knowledge: A Conceptual Model of Knowledge-Assisted Visual Analytics**
+<br/>
+Authors: Paolo Federico, Markus Wagner, Alexander Rind, Albert Amor-Amorós, Silvia Miksch, Wolfgang Aigner
+
+**Understanding Hidden Memories of Recurrent Neural Networks**
+<br/>
+Authors: Yao Ming, Shaozu CAO, Ruixiang Zhang, Zhen LI, Yuanzhe Chen, Yangqiu Song, Huamin Qu
+
+**Visual Causality Analysis Made Practical**
+<br/>
+Authors: Jun Wang, Klaus Mueller
+
+**Visualizing Real-Time Strategy Games: The Example of StarCraft II**
+<br/>
+Authors: Yen-Ting Kuan, Yu-Shuen Wang, Jung-Hong Chuang
+
+**Warning, Bias May Occur: A Proposed Approach to Detecting Cognitive Bias in Interactive Visual Analytics**
+<br/>
+Authors: Emily Wall, Leslie M. Blaha, Lyndsey Franklin, Alex Endert
+
 
 <hr/>
 
