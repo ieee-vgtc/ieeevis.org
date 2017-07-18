@@ -26,7 +26,161 @@ permalink: /year/2017/info/papers
 <hr/>
 
 ## <a name='infovis'></a>InfoVis
-**TBA**
+**Active Reading of Visualizations**
+<br/>
+Jagoda Walny, Samuel Huron, Charles Perin, Tiffany Wun, Richard Pusch, Sheelagh Carpendale
+
+**Assessing the Graphical Perception of Time and Speed on 2D + Time Trajectories**
+<br/>
+Charles Perin, Tiffany Wun, Richard Pusch, Sheelagh Carpendale
+
+**Blinded with Science or Informed by Charts? A Replication Study**
+<br/>
+Pierre Dragicevic, Yvonne Jansen
+
+**Bridging From Goals to Tasks with Design Study Analysis Reports**
+<br/>
+Heidi Lam, Melanie Tory, Tamara Munzner
+
+**Bubble Treemaps for Uncertainty Visualization**
+<br/>
+Jochen Görtler, Christoph Schulz, Daniel Weiskopf, Oliver Deussen
+
+**CasCADe: A Novel 4D Visualization System for Virtual Construction Planning**
+<br/>
+Paulo Ivson, Daniel Nascimento, Waldemar Celes, Simone Barbosa
+
+**Conceptual and Methodological Issues in Evaluating Multidimensional Visualizations for Decision Support**
+<br/>
+Evanthia Dimara, Anastasia Bezerianos, Pierre Dragicevic
+
+**Considerations for Visual Comparison**
+<br/>
+Michael Gleicher
+
+**CyteGuide: Visual Guidance for Hierarchical Single-Cell Analysis**
+<br/>
+Thomas Höllt, Nicola Pezzotti, Vincent van Unen, Frits Koning, Boudewijn P. F. Lelieveldt, Anna Vilanova
+
+**Data Through Others' Eyes: The Impact of Visualizing Others' Expectations on Visualization Interpretation**
+<br/>
+Yea-Seul Kim, Katharina Reinecke, Jessica Hullman
+
+**Data Visualization Saliency Model: A Tool for Evaluating Abstract Data Visualizations**
+<br/>
+Laura Matzen, Michael Haass, Kristin Divis, Zhiyuan Wang, Andrew Wilson
+
+**EdWordle: Consistency-preserving Word Cloud Editing**
+<br/>
+Yunhai Wang, Xiaowei Chu, Chen Bao, Lifeng Zhu, Oliver Deussen, Baoquan Chen, Michael Sedlmair
+
+**Exploring Multivariate Event Sequences using Rules, Aggregations, and Selections**
+<br/>
+Bram Cappers, Jarke van Wijk
+
+**Extracting and Retargeting Color Mappings from Bitmap Images of Visualizations**
+<br/>
+Jorge Poco, Angela Mayhua, Jeffrey Heer
+
+**Functional Decomposition for Bundled Simpliﬁcation of Trail Sets**
+<br/>
+Christophe Hurter, Stephane Puechmorel, Florence Nicol, Alex Telea
+
+**HiPiler: Visual Exploration of Large Genome Interaction Matrices with Interactive Small Multiples**
+<br/>
+Fritz Lekschas, Benjamin Bach, Peter Kerpedjiev, Nils Gehlenborg, Hanspeter Pfister
+
+**Imagining Replications: Graphical Prediction & Discrete Visualizations Improve Recall & Estimation of Effect Uncertainty**
+<br/>
+Jessica Hullman, Matthew Kay, Yea-Seul Kim, Samana Shrestha
+
+**iTTVis: Interactive Visualization of Table Tennis Data**
+<br/>
+Yingcai Wu, Ji Lan, Xinhuan Shu, Chenyang Ji, Kejian Zhao, Jiachen Wang, Hui Zhang
+
+**Keeping Multiple Views Consistent: Constraints, Validations and Exceptions in Visualization Authoring**
+<br/>
+Zening Qu, Jessica Hullman
+
+**LSTMVis: A Tool for Visual Analysis of Hidden State Dynamics in Recurrent Neural Networks**
+<br/>
+Hendrik Strobelt, Sebastian Gehrmann, Hanspeter Pfister, Alexander Rush
+
+**Modeling Color Difference for Visualization Design**
+<br/>
+Danielle Albers Szafir
+
+**MyBrush: Brushing and Linking with Personal Agency**
+<br/>
+Philipp Koytek, Charles Perin, Jo Vermeulen, Elisabeth André, Sheelagh Carpendale
+
+**Nonlinear Dot Plots**
+<br/>
+Nils Rodrigues, Daniel Weiskopf
+
+**Open vs Closed Shapes: New Perceptual Categories?**
+<br/>
+David Burlinson, Kalpathi Subramanian, Paula Goolkasian
+
+**Orko: Facilitating Multimodal Interaction for Visual Network Exploration and Analysis**
+<br/>
+Arjun Srinivasan, John Stasko
+
+**Priming and Anchoring Effects in Visualizations**
+<br/>
+André Calero Valdez, Martina Ziefle, Michael Sedlmair
+
+**Revisiting Stress Majorization as a Unified Framework for Interactive Constrained Graph Visualization**
+<br/>
+Yunhai Wang, Yanyan Wang, Yingqi Sun, Lifeng Zhu, Chi-Wing Fu, Michael Sedlmair, Oliver Deussen, Baoquan Chen, Kecheng Lu
+
+**Scatterplots: Tasks, Data, and Designs**
+<br/>
+Alper Sarikaya, Michael Gleicher
+
+**Skeleton-based Scagnostics**
+<br/>
+José Matute, Alex Telea, Lars Linsen
+
+**Stable Treemaps via Local Moves**
+<br/>
+Max Sondag, Bettina Speckmann, Kevin Verbeek
+
+**Structuring Visualization Mock-ups at a Graphical Level by Dividing the Display Space**
+<br/>
+Romain Vuillemot, Jeremy Boy
+
+**TACO: Visualizing Changes in Tables Over Time**
+<br/>
+Christina Niederer, Holger Stitz, Reem Hourieh, Florian Grassinger, Wolfgang Aigner, Marc Streit
+
+**Taking Word Clouds Apart: An Empirical Investigation of the Design Space for Keyword Summaries**
+<br/>
+Cristian Felix, Enrico Bertini, Steven Franconeri
+
+**The explanatory visualization framework: An active learning framework for teaching creative computing using explanatory visualizations**
+<br/>
+Jonathan Roberts, Panagiotis Ritsos, James Jackson, Christopher Headleand
+
+**The Hologram in My Hand: How Effective is Interactive Exploration of 3D Visualizations in Immersive Tangible Augmented Reality?**
+<br/>
+Benjamin Bach, Ronell Sicat, Maxime Cordeil, Johanna Beyer, Hanspeter Pfister
+
+**VisTiles: Coordinating and Combining Co-located Mobile Devices for Visual Data Exploration**
+<br/>
+Ricardo Langner, Tom Horak, Raimund Dachselt
+
+**Visual Exploration of Semantic Relationships in Neural Word Embeddings**
+<br/>
+Shusen Liu, Peer-Timo Bremer, Jayaraman J. Thiagarajan, Vivek Srikumar, Bei Wang, Yarden Livnat, Valerio Pascucci
+
+**Visualizing Nonlinear Narratives with Story Curves**
+<br/>
+Nam Wook Kim, Benjamin Bach, Hyejin Im, Sasha Schriber, Markus Gross, Hanspeter Pfister
+
+**What Would a Graph Look Like in This Layout? A Predictive Approach to Large Graph Visualization**
+<br/>
+Oh-Hyun Kwon, Tarik Crnovrsanin, Kwan-Liu Ma
 
 <hr/>
 
