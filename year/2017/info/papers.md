@@ -101,7 +101,7 @@ Authors: Michael Glueck, Mahdi Pakdaman Naeini, Finale Doshi-Velez, Fanny Cheval
 <br/>
 Authors: Emily Wall, Subhajit Das, Ravish Chawla, Bharath Kalidindi, Eli T. Brown, and Alex Endert
 
-**Progressive Learning of Topic Modeling Parameters: A Visual Analytics Framework**
+**Progressive Learning of Topic Modeling Parameters: A Visual Analytics Framework [Best Paper Honorable Mention Award]**
 <br/>
 Authors: Mennatallah El-Assady, Rita Sevastjanova, Fabian Sperrle, Daniel Keim, and Christopher Collins
 
@@ -117,7 +117,7 @@ Authors: Xun Zhao, Yanhong Wu, Weiwei Cui, Xinnan Du, Yuan Chen, Yong Wang, Dik-
 <br/>
 Authors: Dominik Sacha, Matthias Kraus, Jürgen Bernard, Michael Behrisch, Tobias Schreck, Yuki Asano, and Daniel Keim
 
-**Supporting Handoff in Asynchronous Collaborative Sensemaking Using Knowledge-Transfer Graphs**
+**Supporting Handoff in Asynchronous Collaborative Sensemaking Using Knowledge-Transfer Graphs [Best Paper Honorable Mention Award]**
 <br/>
 Authors: Jian Zhao, Michael Glueck, Petra Isenberg, Fanny Chevalier, and Azam Khan
 
@@ -157,7 +157,7 @@ Author: Leland Wilkinson
 <br/>
 Authors: Alexander Kumpf, Bianca Tost, Marlene Baumgart, Michael Riemer, Rüdiger Westermann, and Marc Rautenhaus
 
-**Visualizing Dataflow Graphs of Deep Learning Models in TensorFlow**
+**Visualizing Dataflow Graphs of Deep Learning Models in TensorFlow [Best Paper Award]**
 <br/>
 Authors: Kanit Wongsuphasawat, Daniel Smilkov, James Wexler, Jimbo Wilson, Dan Mane, Doug Fritz, Dilip Krishnan, Fernanda Viegas, and Martin Wattenberg
 
@@ -228,7 +228,6 @@ Authors: Yen-Ting Kuan, Yu-Shuen Wang, and Jung-Hong Chuang
 <br/>
 Authors: Emily Wall, Leslie M. Blaha, Lyndsey Franklin, and Alex Endert
 
-
 <hr/>
 
 ## <a name='infovis'></a>InfoVis
@@ -244,7 +243,7 @@ Authors: Charles Perin, Tiffany Wun, Richard Pusch, and Sheelagh Carpendale
 <br/>
 Authors: Pierre Dragicevic and Yvonne Jansen
 
-**Bridging From Goals to Tasks with Design Study Analysis Reports**
+**Bridging From Goals to Tasks with Design Study Analysis Reports [Best Paper Honorable Mention Award]**
 <br/>
 Authors: Heidi Lam, Melanie Tory, and Tamara Munzner
 
@@ -304,7 +303,7 @@ Authors: Jessica Hullman, Matthew Kay, Yea-Seul Kim, and Samana Shrestha
 <br/>
 Authors: Yingcai Wu, Ji Lan, Xinhuan Shu, Chenyang Ji, Kejian Zhao, Jiachen Wang, and Hui Zhang
 
-**Keeping Multiple Views Consistent: Constraints, Validations and Exceptions in Visualization Authoring**
+**Keeping Multiple Views Consistent: Constraints, Validations and Exceptions in Visualization Authoring [Best Paper Honorable Mention Award]**
 <br/>
 Authors: Zening Qu and Jessica Hullman
 
@@ -312,7 +311,7 @@ Authors: Zening Qu and Jessica Hullman
 <br/>
 Authors: Hendrik Strobelt, Sebastian Gehrmann, Hanspeter Pfister, and Alexander Rush
 
-**Modeling Color Difference for Visualization Design**
+**Modeling Color Difference for Visualization Design [Best Paper Award]**
 <br/>
 Author: Danielle Albers Szafir
 
@@ -391,7 +390,97 @@ Authors: Oh-Hyun Kwon, Tarik Crnovrsanin, and Kwan-Liu Ma
 <hr/>
 
 ## <a name='scivis'></a>SciVis
-**TBA**
+**A Virtual Reality Visualization Tool for Neuron Tracing**
+<br/>
+Authors: Will Usher, Pavol Klacansky, Frederick Federer, Peer-Timo Bremer, Aaron Knoll, Alessandra Angelucci, and Valerio Pascucci
+
+**Abstractocyte: A Visual Tool for Exploring Nanoscale Astroglial Cells**
+<br/>
+Authors: Haneen Mohammed, Ali Al-Awami, Johanna Beyer, Corrado Cali, Pierre Magistretti, Hanspeter Pfister, and Markus Hadwiger
+
+**Activity-Centered Domain Characterization for Problem-Driven Scientific Visualization**
+<br/>
+Author: Liz Marai
+
+**An Intelligent System Approach for Probabilistic Volume Rendering using Hierarchical 3D Convolutional Sparse Coding**
+<br/>
+Authors: Tran Minh Quan, JunYoung Choi, HaeJin Jeong, and Won-Ki Jeong
+
+**BASTet: Shareable and reproducible analysis and visualization of mass spectrometry imaging data via OpenMSI**
+<br/>
+Authors: Oliver Ruebel and Benjamin P. Bowen
+
+**Clique Community Persistence: A Topological Visual Analysis Approach for Complex Networks**
+<br/>
+Authors: Bastian Rieck, Ulderico Fugacci, Jonas Lukasczyk, and Heike Leitte
+
+**Dynamic Load Balancing Based on Constrained K-D Tree Decomposition for Parallel Particle Tracing**
+<br/>
+Authors: Jiang Zhang, Hanqi Guo, Fan Hong, Xiaoru Yuan, and Tom Peterka
+
+**Globe Browsing: Contextualized Spatio-Temporal Planetary Surface Visualization [Best Paper Award]**
+<br/>
+Authors: Karl Bladin, Emil Axelsson, Erik Broberg, Carter Emmart, Patric Ljung, Alexander Bock, and Anders Ynnerman
+
+**Instant Construction and Visualization of Crowded Biological Environments [Best Paper Honorable Mention Award]**
+<br/>
+Authors: Tobias Klein, Ludovic K. Autin, Barbora Kozlikova, David Goodsell, Arthur Olson, Eduard Gröller, and Ivan Viola
+
+**Interactive Design and Visualization of Branched Covering Spaces**
+<br/>
+Authors: Lawrence Roy, Prashant Kumar, Sanaz Golbabaei, Yue Zhang, and Eugene Zhang
+
+**Interactive Dynamic Volume Illumination with Refraction and Caustics**
+<br/>
+Authors: Jens Magnus and Stefan Bruckner
+
+**Multiscale Visualization and Scale-Adaptive Modification of DNA Nanostructures**
+<br/>
+Authors: Haichao Miao, Elisa De Llano, Johannes Sorger, Yasaman Ahmadi, Tadija Kekic, Tobias Isenberg, Eduard Gröller, Ivan Barisic, and Ivan Viola
+
+**On the Treatment of Field Quantities and Elemental Continuity in FEM Solutions**
+<br/>
+Authors: Ashok Jallepalli, Julia Docampo, Jennifer Ryan, Robert Haimes, and Mike Kirby
+
+**Robust detection and visualization of jet-stream core lines in atmospheric flow**
+<br/>
+Authors: Michael Kern, Tim Hewson, Filip Sadlo, Rüdiger Westermann, and Marc Rautenhaus
+
+**Screen-Space Normal Distribution Function Caching for Consistent Multi-Resolution Rendering of Large Particle Data**
+<br/>
+Authors: Mohamed Ibrahim, Patrick Wickenhäuser, Peter Rautek, Guido Reina, and Markus Hadwiger
+
+**SparseLeap: Efficient Empty Space Skipping for Large-Scale Volume Rendering**
+<br/>
+Authors: Markus Hadwiger, Ali K. Al-Awami, Johanna Beyer, Marco Agus, and Hanspeter Pfister
+
+**StreetVizor: Visual Exploration of Human-Scale Urban Forms based on Street Views**
+<br/>
+Authors: Qiaomu Shen, Wei Zeng, Yu Ye, Stefan Mueller Arisona, Simon Schubiger, Remo Burkhard, and Huamin Qu
+
+**The Good, the Bad, and the Ugly: A Theoretical Framework for the Assessment of Continuous Colormaps**
+<br/>
+Authors: Roxana Bujack, Terece Turton, Francesca Samsel, David Rogers, James Ahrens, and Colin Ware
+
+**The Topology ToolKit [Best Paper Honorable Mention Award]**
+<br/>
+Authors: Julien Tierny, Guillaume Favelier, Joshua Levine, Charles Gueunet, and Michaël Michaux
+
+**TopoAngler: Interactive Topology-based Extraction of Fishes**
+<br/>
+Authors: Alexander Bock, Harish Doraiswamy, Adam Summers, and Claudio Silva
+
+**Uncertainty Visualization Using Copula-Based Analysis in Mixed Distribution Models**
+<br/>
+Authors: Subhashis Hazarika, Ayan Biswas, and Han-Wei Shen
+
+**Visualization Multipipeline for Communicating Biology**
+<br/>
+Authors: Peter Mindek, David Kouřil, Johannes Sorger, Daniel Toloudis, Blair Lyons, Graham Johnson, M. Eduard Gröller, and Ivan Viola
+
+**Visualization-Driven High-Resolution Manometry Diagnosis**
+<br/>
+Authors: Julian Kreiser, Alexander Hann, Eugen Zizer, and Timo Ropinski
 
 <hr/>
 
@@ -419,7 +508,7 @@ Authors: Pascal Goffin, Jeremy Boy, Wesley Willett, Petra Isenber
 
 **vispubdata.org: A Metadata Collection about IEEE Visualization (VIS) Publications**
 <br/>
-Authors: Petra Isenberg, Florian Heimerl, Steffen Koch, Tobias Isenberg, Panpan Xu, Charles Stolper, Michael Sedlmair, Jian Chen, Torsten Moller, and John T. Stasko
+Authors: Petra Isenberg, Florian Heimerl, Steffen Koch, Tobias Isenberg, Panpan Xu, Charles Stolper, Michael Sedlmair, Jian Chen, Torsten Möller, and John T. Stasko
 
 **A Systematic Review of Experimental Studies on Data Glyphs**
 <br/>
