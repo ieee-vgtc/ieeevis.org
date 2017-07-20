@@ -5,11 +5,11 @@ permalink: /year/2017/info/papers
 ---
 * [VAST](#vast) 
   * [*TVCG* journal special issue papers](#vast-j)
-  * [conference papers](#vast-p)
+  * [conference papers](#vast-c)
 * [InfoVis](#infovis) (*TVCG* journal special issue papers)
 * [SciVis](#scivis) (*TVCG* journal special issue papers)
 * [*TVCG*](#tvcg) (previously published *TVCG* journal papers presented at VIS)
-* [CG&A](#cga) (previously published CG&A magazine papers presented at VIS)
+* [*CG&A*](#cga) (previously published *CG&A* magazine papers presented at VIS)
 
 <hr/>
 
@@ -478,7 +478,7 @@ Authors: Subhashis Hazarika, Ayan Biswas, and Han-Wei Shen
 <br/>
 Authors: Peter Mindek, David Kouřil, Johannes Sorger, Daniel Toloudis, Blair Lyons, Graham Johnson, M. Eduard Gröller, and Ivan Viola
 
-**Visualization-Driven High-Resolution Manometry Diagnosis**
+**Decision Graph Embedding for High-Resolution Manometry Diagnosis**
 <br/>
 Authors: Julian Kreiser, Alexander Hann, Eugen Zizer, and Timo Ropinski
 
@@ -572,7 +572,7 @@ Authors: Hanfei Lin, Siyuan Gao, David Gotz, Fan Du, Jingrui He, and Nan Cao
 
 <hr/>
 
-## <a name='cga'></a>CG&A
+## <a name='cga'></a>*CG&A*
 
 **ARIES: Enabling Visual Exploration and Organization of Art Image Collections**
 <br/>
