@@ -14,5 +14,6 @@ for row in logo_links:
     filename = os.path.join(DOWNLOADS_DIR, name)
     # download if not already there
     if not os.path.isfile(filename):
+        print('dl/making: ', os.path.join(DOWNLOADS_DIR, name))
         urllib.urlretrieve(url, filename)
 
