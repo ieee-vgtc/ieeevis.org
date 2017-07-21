@@ -4,10 +4,10 @@ layout: main-2017
 permalink: /year/2017/info/papers
 ---
 * [VAST](#vast) 
-  * [*TVCG* journal special issue papers](#vast-j)
+  * [*TVCG* journal special issue (SI) papers](#vast-j)
   * [conference papers](#vast-c)
-* [InfoVis](#infovis) (*TVCG* journal special issue papers)
-* [SciVis](#scivis) (*TVCG* journal special issue papers)
+* [InfoVis](#infovis) (*TVCG* journal special issue (SI) papers)
+* [SciVis](#scivis) (*TVCG* journal special issue (SI) papers)
 * [*TVCG*](#tvcg) (previously published *TVCG* journal papers presented at VIS)
 * [*CG&A*](#cga) (previously published *CG&A* magazine papers presented at VIS)
 
@@ -15,7 +15,7 @@ permalink: /year/2017/info/papers
 
 ## <a name='vast'></a>VAST
 
-### <a name='vast-j'></a>*TVCG* Journal papers
+### <a name='vast-j'></a>*TVCG* SI Journal papers
 
 **A Utility-aware Visual Approach for Anonymizing Multi-attribute Tabular Data**
 <br/>
@@ -230,7 +230,7 @@ Authors: Emily Wall, Leslie M. Blaha, Lyndsey Franklin, and Alex Endert
 
 <hr/>
 
-## <a name='infovis'></a>InfoVis
+## <a name='infovis'></a>InfoVis *TVCG* SI Journal papers
 **Active Reading of Visualizations**
 <br/>
 Authors: Jagoda Walny, Samuel Huron, Charles Perin, Tiffany Wun, Richard Pusch, and Sheelagh Carpendale
@@ -389,7 +389,7 @@ Authors: Oh-Hyun Kwon, Tarik Crnovrsanin, and Kwan-Liu Ma
 
 <hr/>
 
-## <a name='scivis'></a>SciVis
+## <a name='scivis'></a>SciVis *TVCG* SI Journal papers
 **A Virtual Reality Visualization Tool for Neuron Tracing**
 <br/>
 Authors: Will Usher, Pavol Klacansky, Frederick Federer, Peer-Timo Bremer, Aaron Knoll, Alessandra Angelucci, and Valerio Pascucci
