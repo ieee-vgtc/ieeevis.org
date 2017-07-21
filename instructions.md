@@ -11,7 +11,14 @@ width: 620px;
 
 # Contributing
 
-Thank you for helping with the vis website. The easiest way for you to contribute to the website is to edit the file directly in your browser. What will happen behind the scenes after you're done with an edit is that GitHub will automatically create a "pull request" from your edit, which will let us know that you would like to update some of the content. [Here is a simple guide](https://help.github.com/articles/editing-files-in-another-user-s-repository/) to editing files in another user's repository.
+Thank you for helping with the ieeevis.org website. The easiest way
+for you to contribute to the website is to edit the file you want to
+change, directly in your browser.  What will happen behind the scenes
+after you're done with an edit is that GitHub will automatically
+create a "pull request" from your edit, which will let us know that
+you would like to update some of the
+content. [Here is a simple guide](https://help.github.com/articles/editing-files-in-another-user-s-repository/)
+to editing files in another user's repository.
 
 ## How to change an existing page
 
