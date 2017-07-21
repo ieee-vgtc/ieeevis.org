@@ -56,6 +56,9 @@ xls = ExcelFile('scripts/Report.xls')
 df = xls.parse(xls.sheet_names[0])
 report = json.loads( df.to_json(orient="records") )
 
+# TODO pandas doesn't read hyperlinks; we need to use something else to convert -> https://github.com/pandas-dev/pandas/issues/13439#issuecomment-226112668
+
+
 supporters = inner_join(report, supporters, 'Company')
 
 supporters = group_by(supporters, lambda t: t['Category'])
