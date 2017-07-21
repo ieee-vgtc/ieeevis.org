@@ -584,7 +584,7 @@ Authors: Antonio G. Losada, Roberto Theron, and Alejandro Benito
 
 **Director's Cut: Analysis and Annotation of Soccer Matches**
 <br/>
-Authors: Manuel Stein, Halldór Janetzko, Thorsten Breitkreutz, Daniel Seebacher, Tobias Schreck, Michael Grossniklaus, and Iain Couzin, Daniel Keim
+Authors: Manuel Stein, Halldór Janetzko, Thorsten Breitkreutz, Daniel Seebacher, Tobias Schreck, Michael Grossniklaus, Iain Couzin, and Daniel Keim
 
 **GapChart: a Gap Strategy to Visualize the Temporal Evolution of both Ranks and Scores**
 <br/>
