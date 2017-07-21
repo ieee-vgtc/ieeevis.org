@@ -54,7 +54,7 @@ supporters = load_sheet_by_name(gc1, "Supporters").get_all_records()
 supporters = sorted(filter(lambda t: (t['Company'] != "TOTAL" and
                                       t['Received'] != ""), supporters), key=sortable_date)
 
-logo_file = json.load(open("scripts/logo-links.json"))
+logo_file = json.load(open("scripts/tmp/logo-links.json"))
 supporters = inner_join(logo_file, supporters, 'Company')
 
 supporters = group_by(supporters, lambda t: t['Category'])

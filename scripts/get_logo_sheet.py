@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 # Report.xls url: https://drive.google.com/a/ctocevents.com/file/d/0B2tYj6Za3BLdQ0doU1RVQ19WWEk/view?usp=sharing
 # mime if we need it: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
 
@@ -31,7 +33,7 @@ filt = filter(lambda t: (t['title'] == "Report.xls" and "ms-excel" in t['mimeTyp
 logosFile = drive.CreateFile({'id': filt[0]['id']}) 
 
 # download to scripts
-logosFile.GetContentFile('scripts/Report.xls')
+logosFile.GetContentFile('scripts/tmp/Report.xls')
 
 ##############################################################################
 # Spare parts

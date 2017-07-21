@@ -1,9 +1,11 @@
+#!/usr/bin/env python
+
 import os
 import urllib
 import json
 
 DOWNLOADS_DIR = 'attachments/supporters/2017/dl'
-logo_links = json.load( open('scripts/logo-links.json') )
+logo_links = json.load( open('scripts/tmp/logo-links.json') )
 
 # For every line in the file
 for row in logo_links:

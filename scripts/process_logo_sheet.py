@@ -20,7 +20,7 @@ import xlrd
 
 d = []
 
-book = xlrd.open_workbook("scripts/Report.xls", formatting_info=True)
+book = xlrd.open_workbook("scripts/tmp/Report.xls", formatting_info=True)
 sheet = book.sheet_by_index(0)
 
 for row in range(1, sheet.nrows):
