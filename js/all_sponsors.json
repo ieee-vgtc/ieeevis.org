@@ -1,980 +1,988 @@
 [
     {
-        "class": "Platinum",
-        "href": "http://www.kaust.edu.sa/",
-        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/logo_with_text_white.png",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/logo_with_text_white.png", 
+        "href": "http://www.kaust.edu.sa/", 
+        "class": "Platinum", 
         "year": 2011
-    },
+    }, 
     {
-        "class": "Platinum",
-        "href": "http://www.microsoft.com/",
-        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/ms-logo_bL.png",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/ms-logo_bL.png", 
+        "href": "http://www.microsoft.com/", 
+        "class": "Platinum", 
         "year": 2011
-    },
+    }, 
     {
-        "class": "Platinum",
-        "href": "http://www.tableausoftware.com/",
-        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/Padded_Tableau_Logo.jpg",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/Padded_Tableau_Logo.jpg", 
+        "href": "http://www.tableausoftware.com/", 
+        "class": "Platinum", 
         "year": 2011
-    },
+    }, 
     {
-        "class": "Gold",
-        "href": "http://www.nlm.nih.gov/",
-        "src": "/attachments\u2026pporterssites/visweek.vgtc.org/files/supporter/NLMLOGOBlueReproOutline.png",
+        "src": "/attachments\u2026pporterssites/visweek.vgtc.org/files/supporter/NLMLOGOBlueReproOutline.png", 
+        "href": "http://www.nlm.nih.gov/", 
+        "class": "Gold", 
         "year": 2011
-    },
+    }, 
     {
-        "class": "Gold",
-        "href": "http://www.sci.utah.edu/",
-        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/SCI-logo-mono.png",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/SCI-logo-mono.png", 
+        "href": "http://www.sci.utah.edu/", 
+        "class": "Gold", 
         "year": 2011
-    },
+    }, 
     {
-        "class": "Silver",
-        "href": "http://www.research.ibm.com/",
-        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/ibm_high.gif",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/ibm_high.gif", 
+        "href": "http://www.research.ibm.com/", 
+        "class": "Silver", 
         "year": 2011
-    },
+    }, 
     {
-        "class": "Silver",
-        "href": "http://www.intel.com/",
-        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/intel.png",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/intel.png", 
+        "href": "http://www.intel.com/", 
+        "class": "Silver", 
         "year": 2011
-    },
+    }, 
     {
-        "class": "Silver",
-        "href": "http://www.pnl.gov/computing/resources/nvac.stm",
-        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/NVAC_DHS.jpg",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/NVAC_DHS.jpg", 
+        "href": "http://www.pnl.gov/computing/resources/nvac.stm", 
+        "class": "Silver", 
         "year": 2011
-    },
+    }, 
     {
-        "class": "Silver",
-        "href": "http://www.pnl.gov/",
-        "src": "/attachments\u2026porterssites/visweek.vgtc.org/files/supporter/PNNL_Color_Logo_Vertical.jpg",
+        "src": "/attachments\u2026porterssites/visweek.vgtc.org/files/supporter/PNNL_Color_Logo_Vertical.jpg", 
+        "href": "http://www.pnl.gov/", 
+        "class": "Silver", 
         "year": 2011
-    },
+    }, 
     {
-        "class": "Silver",
-        "href": "http://www.velir.com/",
-        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/VelirLogo_3-colorPMS.jpg",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/VelirLogo_3-colorPMS.jpg", 
+        "href": "http://www.velir.com/", 
+        "class": "Silver", 
         "year": 2011
-    },
+    }, 
     {
-        "class": "Publisher",
-        "href": "http://www.akpeters.com/",
-        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/ak_peters.jpg",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/ak_peters.jpg", 
+        "href": "http://www.akpeters.com/", 
+        "class": "Publisher", 
         "year": 2011
-    },
+    }, 
     {
-        "class": "Publisher",
-        "href": "http://www.morganclaypool.com",
-        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/MCP_logo_02.jpg",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/MCP_logo_02.jpg", 
+        "href": "http://www.morganclaypool.com", 
+        "class": "Publisher", 
         "year": 2011
-    },
+    }, 
     {
-        "class": "Platinum Plus",
-        "href": "http://www.ibm.com/",
-        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/IBM.jpeg",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/IBM.jpeg", 
+        "href": "http://www.ibm.com/", 
+        "class": "Platinum Plus", 
         "year": 2012
-    },
+    }, 
     {
-        "class": "Platinum Plus",
-        "href": "http://www.intel.com/",
-        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/intel_0.png",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/intel_0.png", 
+        "href": "http://www.intel.com/", 
+        "class": "Platinum Plus", 
         "year": 2012
-    },
+    }, 
     {
-        "class": "Platinum Plus",
-        "href": "http://www.kaust.edu.sa/visweek",
-        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/KAUST_0.png",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/KAUST_0.png", 
+        "href": "http://www.kaust.edu.sa/visweek", 
+        "class": "Platinum Plus", 
         "year": 2012
-    },
+    }, 
     {
-        "class": "Platinum Plus",
-        "href": "http://www.microsoft.com/",
-        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/ms-logo_bL_0.png",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/ms-logo_bL_0.png", 
+        "href": "http://www.microsoft.com/", 
+        "class": "Platinum Plus", 
         "year": 2012
-    },
+    }, 
     {
-        "class": "Platinum Plus",
-        "href": "http://www.tableausoftware.com/",
-        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/tableau_cmyk.png",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/tableau_cmyk.png", 
+        "href": "http://www.tableausoftware.com/", 
+        "class": "Platinum Plus", 
         "year": 2012
-    },
+    }, 
     {
-        "class": "Gold",
-        "href": "http://www.pnnl.gov/",
-        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/PNNL.png",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/PNNL.png", 
+        "href": "http://www.pnnl.gov/", 
+        "class": "Gold", 
         "year": 2012
-    },
+    }, 
     {
-        "class": "Silver",
-        "href": "http://www.att.com/",
-        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/ATT_new_ai.png",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/ATT_new_ai.png", 
+        "href": "http://www.att.com/", 
+        "class": "Silver", 
         "year": 2012
-    },
+    }, 
     {
-        "class": "Silver",
-        "href": "http://www.battelle.org/",
-        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/Battelle%20Logo.jpg",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/Battelle%20Logo.jpg", 
+        "href": "http://www.battelle.org/", 
+        "class": "Silver", 
         "year": 2012
-    },
+    }, 
     {
-        "class": "Silver",
-        "href": "http://www.igd.fraunhofer.de/en/",
-        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/IGD.png",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/IGD.png", 
+        "href": "http://www.igd.fraunhofer.de/en/", 
+        "class": "Silver", 
         "year": 2012
-    },
+    }, 
     {
-        "class": "Silver",
-        "href": "http://www.infinitez.com/",
-        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/infinitez.png",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/infinitez.png", 
+        "href": "http://www.infinitez.com/", 
+        "class": "Silver", 
         "year": 2012
-    },
+    }, 
     {
-        "class": "Silver",
-        "href": "http://www.nlm.nih.gov/",
-        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/NLM.png",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/NLM.png", 
+        "href": "http://www.nlm.nih.gov/", 
+        "class": "Silver", 
         "year": 2012
-    },
+    }, 
     {
-        "class": "Silver",
-        "href": "http://www.sci.utah.edu/",
-        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/sci-logo-one-color.png",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/sci-logo-one-color.png", 
+        "href": "http://www.sci.utah.edu/", 
+        "class": "Silver", 
         "year": 2012
-    },
+    }, 
     {
-        "class": "Silver",
-        "href": "http://www.vacommunity.org/",
-        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/VACommunityLogo.png",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/VACommunityLogo.png", 
+        "href": "http://www.vacommunity.org/", 
+        "class": "Silver", 
         "year": 2012
-    },
+    }, 
     {
-        "class": "Academic",
-        "href": "http://www.purdue.edu/discoverypark/vaccine/index.php",
-        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/vaccine_logo.png",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/vaccine_logo.png", 
+        "href": "http://www.purdue.edu/discoverypark/vaccine/index.php", 
+        "class": "Academic", 
         "year": 2012
-    },
+    }, 
     {
-        "class": "Publisher",
-        "href": "http://www.akpeters.com/",
-        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/akPeters.png",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/akPeters.png", 
+        "href": "http://www.akpeters.com/", 
+        "class": "Publisher", 
         "year": 2012
-    },
+    }, 
     {
-        "class": "Publisher",
-        "href": "http://www.morganclaypool.com/",
-        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/MCP.jpeg",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/MCP.jpeg", 
+        "href": "http://www.morganclaypool.com/", 
+        "class": "Publisher", 
         "year": 2012
-    },
+    }, 
     {
-        "class": "Symposium Sponsor",
-        "href": "http://www.agilent.com/",
-        "src": "/attachments\u2026erssites/visweek.vgtc.org/files/supporter/Agilent_4c_CorporateSig-noHL.JPG",
+        "src": "/attachments\u2026erssites/visweek.vgtc.org/files/supporter/Agilent_4c_CorporateSig-noHL.JPG", 
+        "href": "http://www.agilent.com/", 
+        "class": "Symposium Sponsor", 
         "year": 2012
-    },
+    }, 
     {
-        "class": "Symposium Sponsor",
-        "href": "http://www.autodesk.com/",
-        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/Autodesk_logo.jpg",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/Autodesk_logo.jpg", 
+        "href": "http://www.autodesk.com/", 
+        "class": "Symposium Sponsor", 
         "year": 2012
-    },
+    }, 
     {
-        "class": "Symposium Sponsor",
-        "href": "http://www.kitware.com/",
-        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/kitware.png",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/kitware.png", 
+        "href": "http://www.kitware.com/", 
+        "class": "Symposium Sponsor", 
         "year": 2012
-    },
+    }, 
     {
-        "class": "Symposium Sponsor",
-        "href": "http://www.nature.com/nmeth/index.html",
-        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/NMeth%20logo.png",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/NMeth%20logo.png", 
+        "href": "http://www.nature.com/nmeth/index.html", 
+        "class": "Symposium Sponsor", 
         "year": 2012
-    },
+    }, 
     {
-        "class": "Symposium Sponsor",
-        "href": "http://www.sci.utah.edu/",
-        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/sci-logo-one-color_0.png",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/sci-logo-one-color_0.png", 
+        "href": "http://www.sci.utah.edu/", 
+        "class": "Symposium Sponsor", 
         "year": 2012
-    },
+    }, 
     {
-        "class": "Symposium Sponsor",
-        "href": "http://www.nationwidechildrens.org/battelle-center-for-mathematical-medicine",
-        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/nationwide-childrens.png",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/nationwide-childrens.png", 
+        "href": "http://www.nationwidechildrens.org/battelle-center-for-mathematical-medicine", 
+        "class": "Symposium Sponsor", 
         "year": 2012
-    },
+    }, 
     {
-        "class": "Symposium Sponsor",
-        "href": "http://energy.gov/",
-        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/doe.png",
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/doe.png", 
+        "href": "http://energy.gov/", 
+        "class": "Symposium Sponsor", 
         "year": 2012
-    },
+    }, 
     {
-        "class": "Platinum",
-        "href": "http://www.cisco.com/",
-        "src": "/attachments/supporters/tmp/Cisco_Logo.png",
+        "src": "/attachments/supporters/tmp/Cisco_Logo.png", 
+        "href": "http://www.cisco.com/", 
+        "class": "Platinum", 
         "year": 2013
-    },
+    }, 
     {
-        "class": "Platinum",
-        "href": "http://www.nvidia.com/",
-        "src": "/attachments/supporters/tmp/nvidia.jpg",
+        "src": "/attachments/supporters/tmp/nvidia.jpg", 
+        "href": "http://www.nvidia.com/", 
+        "class": "Platinum", 
         "year": 2013
-    },
+    }, 
     {
-        "class": "Gold",
-        "href": "http://www.microsoft.com/",
-        "src": "/attachments/supporters/tmp/ms-logo.jpg",
+        "src": "/attachments/supporters/tmp/ms-logo.jpg", 
+        "href": "http://www.microsoft.com/", 
+        "class": "Gold", 
         "year": 2013
-    },
+    }, 
     {
-        "class": "Silver",
-        "href": "http://www.agilent.com/",
-        "src": "/attachments/supporters/tmp/agilent_logo.png",
+        "src": "/attachments/supporters/tmp/agilent_logo.png", 
+        "href": "http://www.agilent.com/", 
+        "class": "Silver", 
         "year": 2013
-    },
+    }, 
     {
-        "class": "Silver",
-        "href": "http://www.ibm.com/",
-        "src": "/attachments/supporters/tmp/ibm-logo.png",
+        "src": "/attachments/supporters/tmp/ibm-logo.png", 
+        "href": "http://www.ibm.com/", 
+        "class": "Silver", 
         "year": 2013
-    },
+    }, 
     {
-        "class": "Silver",
-        "href": "http://www.kaust.edu.sa/",
-        "src": "/attachments/supporters/tmp/Untitled.png",
+        "src": "/attachments/supporters/tmp/Untitled.png", 
+        "href": "http://www.kaust.edu.sa/", 
+        "class": "Silver", 
         "year": 2013
-    },
+    }, 
     {
-        "class": "Bronze",
-        "href": "http://www.autodesk.com/",
-        "src": "/attachments/supporters/tmp/autodesk-logo-rgb-color-logo-black-text-medium.png",
+        "src": "/attachments/supporters/tmp/autodesk-logo-rgb-color-logo-black-text-medium.png", 
+        "href": "http://www.autodesk.com/", 
+        "class": "Bronze", 
         "year": 2013
-    },
+    }, 
     {
-        "class": "Bronze",
-        "href": "http://www.mathmed.org/",
-        "src": "/attachments/supporters/tmp/battelle.png",
+        "src": "/attachments/supporters/tmp/battelle.png", 
+        "href": "http://www.mathmed.org/", 
+        "class": "Bronze", 
         "year": 2013
-    },
+    }, 
     {
-        "class": "Bronze",
-        "href": "http://www.kitware.com/",
-        "src": "/attachments/supporters/tmp/kitware_0.gif",
+        "src": "/attachments/supporters/tmp/kitware_0.gif", 
+        "href": "http://www.kitware.com/", 
+        "class": "Bronze", 
         "year": 2013
-    },
+    }, 
     {
-        "class": "Bronze",
-        "href": "http://www.pnnl.gov/",
-        "src": "/attachments/supporters/tmp/PNNL_Color_Logo_Horizontal1_os.png",
+        "src": "/attachments/supporters/tmp/PNNL_Color_Logo_Horizontal1_os.png", 
+        "href": "http://www.pnnl.gov/", 
+        "class": "Bronze", 
         "year": 2013
-    },
+    }, 
     {
-        "class": "Bronze",
-        "href": "http://www.sci.utah.edu/",
-        "src": "/attachments/supporters/tmp/sci-logo-one-color.png",
+        "src": "/attachments/supporters/tmp/sci-logo-one-color.png", 
+        "href": "http://www.sci.utah.edu/", 
+        "class": "Bronze", 
         "year": 2013
-    },
+    }, 
     {
-        "class": "Bronze",
-        "href": "http://www.tableausoftware.com/",
-        "src": "/attachments/supporters/tmp/tableau_cmyk.png",
+        "src": "/attachments/supporters/tmp/tableau_cmyk.png", 
+        "href": "http://www.tableausoftware.com/", 
+        "class": "Bronze", 
         "year": 2013
-    },
+    }, 
     {
-        "class": "Bronze",
-        "href": "http://www.vis-sense.eu/",
-        "src": "/attachments/supporters/tmp/VIS-SENSE_Logo_Web.png",
+        "src": "/attachments/supporters/tmp/VIS-SENSE_Logo_Web.png", 
+        "href": "http://www.vis-sense.eu/", 
+        "class": "Bronze", 
         "year": 2013
-    },
+    }, 
     {
-        "class": "Bronze",
-        "href": "http://www.zspace.com/",
-        "src": "/attachments/supporters/tmp/zspace.gif",
+        "src": "/attachments/supporters/tmp/zspace.gif", 
+        "href": "http://www.zspace.com/", 
+        "class": "Bronze", 
         "year": 2013
-    },
+    }, 
     {
-        "class": "Start Up/Small Company Sponsor",
-        "href": "http://forio.com/",
-        "src": "/attachments/supporters/tmp/VECTOR_LOGO.png",
+        "src": "/attachments/supporters/tmp/VECTOR_LOGO.png", 
+        "href": "http://forio.com/", 
+        "class": "Start Up/Small Company Sponsor", 
         "year": 2013
-    },
+    }, 
     {
-        "class": "Start Up/Small Company Sponsor",
-        "href": "http://www.zoomdata.com/",
-        "src": "/attachments/supporters/tmp/ZD_logo_big_cropped.png",
+        "src": "/attachments/supporters/tmp/ZD_logo_big_cropped.png", 
+        "href": "http://www.zoomdata.com/", 
+        "class": "Start Up/Small Company Sponsor", 
         "year": 2013
-    },
+    }, 
     {
-        "class": "Publisher",
-        "href": "http://www.crcpress.com/",
-        "src": "/attachments/supporters/tmp/CRCblue.jpg",
+        "src": "/attachments/supporters/tmp/CRCblue.jpg", 
+        "href": "http://www.crcpress.com/", 
+        "class": "Publisher", 
         "year": 2013
-    },
+    }, 
     {
-        "class": "Academic",
-        "href": "http://www.cc.gatech.edu/",
-        "src": "/attachments/supporters/tmp/GT-logo.png",
+        "src": "/attachments/supporters/tmp/GT-logo.png", 
+        "href": "http://www.cc.gatech.edu/", 
+        "class": "Academic", 
         "year": 2013
-    },
+    }, 
     {
-        "class": "Academic",
-        "href": "http://www.mica.edu/",
-        "src": "/attachments/supporters/tmp/mica-logo.png",
+        "src": "/attachments/supporters/tmp/mica-logo.png", 
+        "href": "http://www.mica.edu/", 
+        "class": "Academic", 
         "year": 2013
-    },
+    }, 
     {
-        "class": "Academic",
-        "href": "http://www.purdue.edu/discoverypark/vaccine/index.php",
-        "src": "/attachments/supporters/tmp/vaccine_logo.png",
+        "src": "/attachments/supporters/tmp/vaccine_logo.png", 
+        "href": "http://www.purdue.edu/discoverypark/vaccine/index.php", 
+        "class": "Academic", 
         "year": 2013
-    },
+    }, 
     {
-        "class": "Non-Profit",
-        "href": "http://www.anl.gov/",
-        "src": "/attachments/supporters/tmp/argonne.jpg",
+        "src": "/attachments/supporters/tmp/argonne.jpg", 
+        "href": "http://www.anl.gov/", 
+        "class": "Non-Profit", 
         "year": 2013
-    },
+    }, 
     {
-        "class": "Diamond",
-        "href": "http://www.inria.fr/",
-        "src": "/attachments/supporters/tmp/in.png",
+        "src": "/attachments/supporters/tmp/in.png", 
+        "href": "http://www.inria.fr/", 
+        "class": "Diamond", 
         "year": 2014
-    },
+    }, 
     {
-        "class": "Diamond",
-        "href": "http://www.tableausoftware.com/",
-        "src": "/attachments/supporters/tmp/tableau_cmyk_lg.jpg",
+        "src": "/attachments/supporters/tmp/tableau_cmyk_lg.jpg", 
+        "href": "http://www.tableausoftware.com/", 
+        "class": "Diamond", 
         "year": 2014
-    },
+    }, 
     {
-        "class": "Platinum",
-        "href": "http://www.cea.fr/",
-        "src": "/attachments/supporters/tmp/CEA_GB_logotype.jpg",
+        "src": "/attachments/supporters/tmp/CEA_GB_logotype.jpg", 
+        "href": "http://www.cea.fr/", 
+        "class": "Platinum", 
         "year": 2014
-    },
+    }, 
     {
-        "class": "Platinum",
-        "href": "http://www.jcdecaux.com/en/",
-        "src": "/attachments/supporters/tmp/JCDecaux.png",
+        "src": "/attachments/supporters/tmp/JCDecaux.png", 
+        "href": "http://www.jcdecaux.com/en/", 
+        "class": "Platinum", 
         "year": 2014
-    },
+    }, 
     {
-        "class": "Gold",
-        "href": "http://www.digiteo.fr/-en-",
-        "src": "/attachments/supporters/tmp/digiteo%202-logo%20gb%20baseline.png",
+        "src": "/attachments/supporters/tmp/digiteo%202-logo%20gb%20baseline.png", 
+        "href": "http://www.digiteo.fr/-en-", 
+        "class": "Gold", 
         "year": 2014
-    },
+    }, 
     {
-        "class": "Gold",
-        "href": "https://www.igd.fraunhofer.de/",
-        "src": "/attachments/supporters/tmp/fr.png",
+        "src": "/attachments/supporters/tmp/fr.png", 
+        "href": "https://www.igd.fraunhofer.de/", 
+        "class": "Gold", 
         "year": 2014
-    },
+    }, 
     {
-        "class": "Gold",
-        "href": "http://www.microsoft.com/",
-        "src": "/attachments/supporters/tmp/ms-logo_0.jpg",
+        "src": "/attachments/supporters/tmp/ms-logo_0.jpg", 
+        "href": "http://www.microsoft.com/", 
+        "class": "Gold", 
         "year": 2014
-    },
+    }, 
     {
-        "class": "Silver",
-        "href": "http://www.autodesk.com/",
-        "src": "/attachments/supporters/tmp/autodesk2.png",
+        "src": "/attachments/supporters/tmp/autodesk2.png", 
+        "href": "http://www.autodesk.com/", 
+        "class": "Silver", 
         "year": 2014
-    },
+    }, 
     {
-        "class": "Silver",
-        "href": "http://www.campus-paris-saclay.fr/en/Idex-Paris-Saclay/Les-Lidex/Paris-Saclay-Center-for-Data-Science",
-        "src": "/attachments/supporters/tmp/CDS.png",
+        "src": "/attachments/supporters/tmp/CDS.png", 
+        "href": "http://www.campus-paris-saclay.fr/en/Idex-Paris-Saclay/Les-Lidex/Paris-Saclay-Center-for-Data-Science", 
+        "class": "Silver", 
         "year": 2014
-    },
+    }, 
     {
-        "class": "Silver",
-        "href": "http://here.com/",
-        "src": "/attachments/supporters/tmp/here.JPG",
+        "src": "/attachments/supporters/tmp/here.JPG", 
+        "href": "http://here.com/", 
+        "class": "Silver", 
         "year": 2014
-    },
+    }, 
     {
-        "class": "Bronze",
-        "href": "http://www.adobe.com/",
-        "src": "/attachments/supporters/tmp/adobe_logo_standard.png",
+        "src": "/attachments/supporters/tmp/adobe_logo_standard.png", 
+        "href": "http://www.adobe.com/", 
+        "class": "Bronze", 
         "year": 2014
-    },
+    }, 
     {
-        "class": "Bronze",
-        "href": "http://edf/com",
-        "src": "/attachments/supporters/tmp/edf.png",
+        "src": "/attachments/supporters/tmp/edf.png", 
+        "href": "http://edf/com", 
+        "class": "Bronze", 
         "year": 2014
-    },
+    }, 
     {
-        "class": "Bronze",
-        "href": "http://google.com/",
-        "src": "/attachments/supporters/tmp/google.png",
+        "src": "/attachments/supporters/tmp/google.png", 
+        "href": "http://google.com/", 
+        "class": "Bronze", 
         "year": 2014
-    },
+    }, 
     {
-        "class": "Bronze",
-        "href": "http://www.ibm.com/",
-        "src": "/attachments/supporters/tmp/IBM_logo.png",
+        "src": "/attachments/supporters/tmp/IBM_logo.png", 
+        "href": "http://www.ibm.com/", 
+        "class": "Bronze", 
         "year": 2014
-    },
+    }, 
     {
-        "class": "Bronze",
-        "href": "http://www.iscpif.fr/",
-        "src": "/attachments/supporters/tmp/logo_m_orange-DIM.png",
+        "src": "/attachments/supporters/tmp/logo_m_orange-DIM.png", 
+        "href": "http://www.iscpif.fr/", 
+        "class": "Bronze", 
         "year": 2014
-    },
+    }, 
     {
-        "class": "Bronze",
-        "href": "http://www.irt-systemx.fr/",
-        "src": "/attachments/supporters/tmp/sx.png",
+        "src": "/attachments/supporters/tmp/sx.png", 
+        "href": "http://www.irt-systemx.fr/", 
+        "class": "Bronze", 
         "year": 2014
-    },
+    }, 
     {
-        "class": "Bronze",
-        "href": "http://www.kitware.com/",
-        "src": "/attachments/supporters/tmp/PrintLogo_NoGradient.png",
+        "src": "/attachments/supporters/tmp/PrintLogo_NoGradient.png", 
+        "href": "http://www.kitware.com/", 
+        "class": "Bronze", 
         "year": 2014
-    },
+    }, 
     {
-        "class": "Bronze",
-        "href": "http://www.nvidia.com/",
-        "src": "/attachments/supporters/tmp/NVLogo_2D.JPG",
+        "src": "/attachments/supporters/tmp/NVLogo_2D.JPG", 
+        "href": "http://www.nvidia.com/", 
+        "class": "Bronze", 
         "year": 2014
-    },
+    }, 
     {
-        "class": "Bronze",
-        "href": "http://www.scvis.fr/",
-        "src": "/attachments/supporters/tmp/LOGO-SCV2.png",
+        "src": "/attachments/supporters/tmp/LOGO-SCV2.png", 
+        "href": "http://www.scvis.fr/", 
+        "class": "Bronze", 
         "year": 2014
-    },
+    }, 
     {
-        "class": "Bronze",
-        "href": "http://www.techviz.net/",
-        "src": "/attachments/supporters/tmp/techviz.jpg",
+        "src": "/attachments/supporters/tmp/techviz.jpg", 
+        "href": "http://www.techviz.net/", 
+        "class": "Bronze", 
         "year": 2014
-    },
+    }, 
     {
-        "class": "Bronze",
-        "href": "http://www.telecom-paristech.fr/nc/formation-et-innovation-dans-le-numerique.html",
-        "src": "/attachments/supporters/tmp/logo-TPT.png",
+        "src": "/attachments/supporters/tmp/logo-TPT.png", 
+        "href": "http://www.telecom-paristech.fr/nc/formation-et-innovation-dans-le-numerique.html", 
+        "class": "Bronze", 
         "year": 2014
-    },
+    }, 
     {
-        "class": "Publisher",
-        "href": "http://www.crcpress.com/",
-        "src": "/attachments/supporters/tmp/CRC_RGB2.png",
+        "src": "/attachments/supporters/tmp/CRC_RGB2.png", 
+        "href": "http://www.crcpress.com/", 
+        "class": "Publisher", 
         "year": 2014
-    },
+    }, 
     {
-        "class": "Publisher",
-        "href": "http://www.morganclaypool.com/",
-        "src": "/attachments/supporters/tmp/MCP_logo_02.jpg",
+        "src": "/attachments/supporters/tmp/MCP_logo_02.jpg", 
+        "href": "http://www.morganclaypool.com/", 
+        "class": "Publisher", 
         "year": 2014
-    },
+    }, 
     {
-        "class": "Publisher",
-        "href": "http://www.springer.com/",
-        "src": "/attachments/supporters/tmp/Springer.jpg",
+        "src": "/attachments/supporters/tmp/Springer.jpg", 
+        "href": "http://www.springer.com/", 
+        "class": "Publisher", 
         "year": 2014
-    },
+    }, 
     {
-        "class": "Start Up/Small Company Sponsor",
-        "href": "http://www.aldecis.com/",
-        "src": "/attachments/supporters/tmp/aldecis-logo.jpg",
+        "src": "/attachments/supporters/tmp/aldecis-logo.jpg", 
+        "href": "http://www.aldecis.com/", 
+        "class": "Start Up/Small Company Sponsor", 
         "year": 2014
-    },
+    }, 
     {
-        "class": "Start Up/Small Company Sponsor",
-        "href": "https://www.dkrz.de/",
-        "src": "/attachments/supporters/tmp/dkrz_logo2.png",
+        "src": "/attachments/supporters/tmp/dkrz_logo2.png", 
+        "href": "https://www.dkrz.de/", 
+        "class": "Start Up/Small Company Sponsor", 
         "year": 2014
-    },
+    }, 
     {
-        "class": "Start Up/Small Company Sponsor",
-        "href": "http://www.nsa.gov/",
-        "src": "/attachments/supporters/tmp/NSA2.jpg",
+        "src": "/attachments/supporters/tmp/NSA2.jpg", 
+        "href": "http://www.nsa.gov/", 
+        "class": "Start Up/Small Company Sponsor", 
         "year": 2014
-    },
+    }, 
     {
-        "class": "Academic",
-        "href": "http://www.anl.gov/",
-        "src": "/attachments/supporters/tmp/ANL_4C_P_H2.png",
+        "src": "/attachments/supporters/tmp/ANL_4C_P_H2.png", 
+        "href": "http://www.anl.gov/", 
+        "class": "Academic", 
         "year": 2014
-    },
+    }, 
     {
-        "class": "Academic",
-        "href": "http://www.ocadu.ca/",
-        "src": "/attachments/supporters/tmp/OCAD.png",
+        "src": "/attachments/supporters/tmp/OCAD.png", 
+        "href": "http://www.ocadu.ca/", 
+        "class": "Academic", 
         "year": 2014
-    },
+    }, 
     {
-        "class": "Academic",
-        "href": "http://www.sci.utah.edu/",
-        "src": "/attachments/supporters/tmp/SCI-logo-transparent-black-med.png",
+        "src": "/attachments/supporters/tmp/SCI-logo-transparent-black-med.png", 
+        "href": "http://www.sci.utah.edu/", 
+        "class": "Academic", 
         "year": 2014
-    },
+    }, 
     {
-        "class": "Academic",
-        "href": "http://www.visualdecision.fr/",
-        "src": "/attachments/supporters/tmp/logo-vd-petit.jpg",
+        "src": "/attachments/supporters/tmp/logo-vd-petit.jpg", 
+        "href": "http://www.visualdecision.fr/", 
+        "class": "Academic", 
         "year": 2014
-    },
+    }, 
     {
-        "class": "Academic",
-        "href": "http://www.visus.uni-stuttgart.de/en/institute.html",
-        "src": "/attachments/supporters/tmp/VISUS2.png",
+        "src": "/attachments/supporters/tmp/VISUS2.png", 
+        "href": "http://www.visus.uni-stuttgart.de/en/institute.html", 
+        "class": "Academic", 
         "year": 2014
-    },
+    }, 
     {
-        "class": "Academic",
-        "href": "http://www.vrvis.at/",
-        "src": "/attachments/supporters/tmp/VRVis-Logo.png",
+        "src": "/attachments/supporters/tmp/VRVis-Logo.png", 
+        "href": "http://www.vrvis.at/", 
+        "class": "Academic", 
         "year": 2014
-    },
+    }, 
     {
-        "class": "Diamond",
-        "href": "http://www.nsf.gov/",
-        "src": "/attachments/supporters/tmp/nsf_t.png",
+        "src": "/attachments/supporters/tmp/nsf_t.png", 
+        "href": "http://www.nsf.gov/", 
+        "class": "Diamond", 
         "year": 2015
-    },
+    }, 
     {
-        "class": "Diamond",
-        "href": "http://www.tableausoftware.com/",
-        "src": "/attachments/supporters/tmp/tab.png",
+        "src": "/attachments/supporters/tmp/tab.png", 
+        "href": "http://www.tableausoftware.com/", 
+        "class": "Diamond", 
         "year": 2015
-    },
+    }, 
     {
-        "class": "Platinum",
-        "href": "http://www.autodesk.com/",
-        "src": "/attachments/supporters/tmp/autodesk_2015.png",
+        "src": "/attachments/supporters/tmp/autodesk_2015.png", 
+        "href": "http://www.autodesk.com/", 
+        "class": "Platinum", 
         "year": 2015
-    },
+    }, 
     {
-        "class": "Platinum",
-        "href": "http://www.intel.com/",
-        "src": "/attachments/supporters/tmp/intel_2015.png",
+        "src": "/attachments/supporters/tmp/intel_2015.png", 
+        "href": "http://www.intel.com/", 
+        "class": "Platinum", 
         "year": 2015
-    },
+    }, 
     {
-        "class": "Gold",
-        "href": "http://www.bloomberg.com/ux",
-        "src": "/attachments/supporters/tmp/bloomberg_t.png",
+        "src": "/attachments/supporters/tmp/bloomberg_t.png", 
+        "href": "http://www.bloomberg.com/ux", 
+        "class": "Gold", 
         "year": 2015
-    },
+    }, 
     {
-        "class": "Gold",
-        "href": "http://www.nvidia.com/",
-        "src": "/attachments/supporters/tmp/NVLogo_2D.PNG",
+        "src": "/attachments/supporters/tmp/NVLogo_2D.PNG", 
+        "href": "http://www.nvidia.com/", 
+        "class": "Gold", 
         "year": 2015
-    },
+    }, 
     {
-        "class": "Silver",
-        "href": "http://www.adobe.com/",
-        "src": "/attachments/supporters/tmp/adobe_2015.png",
+        "src": "/attachments/supporters/tmp/adobe_2015.png", 
+        "href": "http://www.adobe.com/", 
+        "class": "Silver", 
         "year": 2015
-    },
+    }, 
     {
-        "class": "Silver",
-        "href": "http://att.com/",
-        "src": "/attachments/supporters/tmp/att1.png",
+        "src": "/attachments/supporters/tmp/att1.png", 
+        "href": "http://att.com/", 
+        "class": "Silver", 
         "year": 2015
-    },
+    }, 
     {
-        "class": "Silver",
-        "href": "http://www.disneyresearch.com/",
-        "src": "/attachments/supporters/tmp/DR.png",
+        "src": "/attachments/supporters/tmp/DR.png", 
+        "href": "http://www.disneyresearch.com/", 
+        "class": "Silver", 
         "year": 2015
-    },
+    }, 
     {
-        "class": "Silver",
-        "href": "http://www.google.com/",
-        "src": "/attachments/supporters/tmp/google2015.png",
+        "src": "/attachments/supporters/tmp/google2015.png", 
+        "href": "http://www.google.com/", 
+        "class": "Silver", 
         "year": 2015
-    },
+    }, 
     {
-        "class": "Silver",
-        "href": "http://iacs.seas.harvard.edu/",
-        "src": "/attachments/supporters/tmp/iacs.png",
+        "src": "/attachments/supporters/tmp/iacs.png", 
+        "href": "http://iacs.seas.harvard.edu/", 
+        "class": "Silver", 
         "year": 2015
-    },
+    }, 
     {
-        "class": "Silver",
-        "href": "http://ibm.com/",
-        "src": "/attachments/supporters/tmp/IBM_t.png",
+        "src": "/attachments/supporters/tmp/IBM_t.png", 
+        "href": "http://ibm.com/", 
+        "class": "Silver", 
         "year": 2015
-    },
+    }, 
     {
-        "class": "Silver",
-        "href": "http://www.kaust.edu.sa/",
-        "src": "/attachments/supporters/tmp/kaust.png",
+        "src": "/attachments/supporters/tmp/kaust.png", 
+        "href": "http://www.kaust.edu.sa/", 
+        "class": "Silver", 
         "year": 2015
-    },
+    }, 
     {
-        "class": "Silver",
-        "href": "http://www.kitware.com/",
-        "src": "/attachments/supporters/tmp/kitware.png",
+        "src": "/attachments/supporters/tmp/kitware.png", 
+        "href": "http://www.kitware.com/", 
+        "class": "Silver", 
         "year": 2015
-    },
+    }, 
     {
-        "class": "Silver",
-        "href": "http://research.microsoft.com/",
-        "src": "/attachments/supporters/tmp/MSR_t.png",
+        "src": "/attachments/supporters/tmp/MSR_t.png", 
+        "href": "http://research.microsoft.com/", 
+        "class": "Silver", 
         "year": 2015
-    },
+    }, 
     {
-        "class": "Silver",
-        "href": "http://www.pnnl.gov/",
-        "src": "/attachments/supporters/tmp/PNNL2.PNG",
+        "src": "/attachments/supporters/tmp/PNNL2.PNG", 
+        "href": "http://www.pnnl.gov/", 
+        "class": "Silver", 
         "year": 2015
-    },
+    }, 
     {
-        "class": "Silver",
-        "href": "https://www.nlm.nih.gov/",
-        "src": "/attachments/supporters/tmp/nlm.png",
+        "src": "/attachments/supporters/tmp/nlm.png", 
+        "href": "https://www.nlm.nih.gov/", 
+        "class": "Silver", 
         "year": 2015
-    },
+    }, 
     {
-        "class": "Silver",
-        "href": "https://uncharted.software/",
-        "src": "/attachments/supporters/tmp/Uncharted-rgb-Vertical_27Aug2015.png",
+        "src": "/attachments/supporters/tmp/Uncharted-rgb-Vertical_27Aug2015.png", 
+        "href": "https://uncharted.software/", 
+        "class": "Silver", 
         "year": 2015
-    },
+    }, 
     {
-        "class": "Bronze",
-        "href": "http://www.act.org/",
-        "src": "/attachments/supporters/tmp/ACT-logo-Blue-cmyk.png",
+        "src": "/attachments/supporters/tmp/ACT-logo-Blue-cmyk.png", 
+        "href": "http://www.act.org/", 
+        "class": "Bronze", 
         "year": 2015
-    },
+    }, 
     {
-        "class": "Bronze",
-        "href": "https://www.continuum.io/",
-        "src": "/attachments/supporters/tmp/Anaconda_Logo_0702.png",
+        "src": "/attachments/supporters/tmp/Anaconda_Logo_0702.png", 
+        "href": "https://www.continuum.io/", 
+        "class": "Bronze", 
         "year": 2015
-    },
+    }, 
     {
-        "class": "Bronze",
-        "href": "http://www.mechdyne.com/",
-        "src": "/attachments/supporters/tmp/mechdyne.png",
+        "src": "/attachments/supporters/tmp/mechdyne.png", 
+        "href": "http://www.mechdyne.com/", 
+        "class": "Bronze", 
         "year": 2015
-    },
+    }, 
     {
-        "class": "Bronze",
-        "href": "http://plot.ly/",
-        "src": "/attachments/supporters/tmp/plotly_logo_for_web_outlined.png",
+        "src": "/attachments/supporters/tmp/plotly_logo_for_web_outlined.png", 
+        "href": "http://plot.ly/", 
+        "class": "Bronze", 
         "year": 2015
-    },
+    }, 
     {
-        "class": "Bronze",
-        "href": "http://renci.org/",
-        "src": "/attachments/supporters/tmp/renci_ss.png",
+        "src": "/attachments/supporters/tmp/renci_ss.png", 
+        "href": "http://renci.org/", 
+        "class": "Bronze", 
         "year": 2015
-    },
+    }, 
     {
-        "class": "Bronze",
-        "href": "http://vize.io/",
-        "src": "/attachments/supporters/tmp/New_Logo-VIZE-transparent-small.png",
+        "src": "/attachments/supporters/tmp/New_Logo-VIZE-transparent-small.png", 
+        "href": "http://vize.io/", 
+        "class": "Bronze", 
         "year": 2015
-    },
+    }, 
     {
-        "class": "Academic",
-        "href": "http://www.niu.edu/",
-        "src": "/attachments/supporters/tmp/NIU_2015.png",
+        "src": "/attachments/supporters/tmp/NIU_2015.png", 
+        "href": "http://www.niu.edu/", 
+        "class": "Academic", 
         "year": 2015
-    },
+    }, 
     {
-        "class": "Academic",
-        "href": "https://www.orau.org/",
-        "src": "/attachments/supporters/tmp/ORAU.png",
+        "src": "/attachments/supporters/tmp/ORAU.png", 
+        "href": "https://www.orau.org/", 
+        "class": "Academic", 
         "year": 2015
-    },
+    }, 
     {
-        "class": "Academic",
-        "href": "http://www.sci.utah.edu/",
-        "src": "/attachments/supporters/tmp/sci.png",
+        "src": "/attachments/supporters/tmp/sci.png", 
+        "href": "http://www.sci.utah.edu/", 
+        "class": "Academic", 
         "year": 2015
-    },
+    }, 
     {
-        "class": "Academic",
-        "href": "http://www.uic.edu/",
-        "src": "/attachments/supporters/tmp/uic1.png",
+        "src": "/attachments/supporters/tmp/uic1.png", 
+        "href": "http://www.uic.edu/", 
+        "class": "Academic", 
         "year": 2015
-    },
+    }, 
     {
-        "class": "Academic",
-        "href": "https://www.visus.uni-stuttgart.de/en/institute.html",
-        "src": "/attachments/supporters/tmp/VISUS.png",
+        "src": "/attachments/supporters/tmp/VISUS.png", 
+        "href": "https://www.visus.uni-stuttgart.de/en/institute.html", 
+        "class": "Academic", 
         "year": 2015
-    },
+    }, 
     {
-        "class": "Academic",
-        "href": "http://www.vrvis.at/",
-        "src": "/attachments/supporters/tmp/vrvis_t.png",
+        "src": "/attachments/supporters/tmp/vrvis_t.png", 
+        "href": "http://www.vrvis.at/", 
+        "class": "Academic", 
         "year": 2015
-    },
+    }, 
     {
-        "class": "Publisher",
-        "href": "https://www.crcpress.com/",
-        "src": "/attachments/supporters/tmp/CRC.png",
+        "src": "/attachments/supporters/tmp/CRC.png", 
+        "href": "https://www.crcpress.com/", 
+        "class": "Publisher", 
         "year": 2015
-    },
+    }, 
     {
-        "class": "Publisher",
-        "href": "http://www.morganclaypool.com/",
-        "src": "/attachments/supporters/tmp/mcp.png",
+        "src": "/attachments/supporters/tmp/mcp.png", 
+        "href": "http://www.morganclaypool.com/", 
+        "class": "Publisher", 
         "year": 2015
-    },
+    }, 
     {
-        "class": "Publisher",
-        "href": "http://www.springer.com/",
-        "src": "/attachments/supporters/tmp/Springer_cmyk.png",
+        "src": "/attachments/supporters/tmp/Springer_cmyk.png", 
+        "href": "http://www.springer.com/", 
+        "class": "Publisher", 
         "year": 2015
-    },
+    }, 
     {
-        "class": "Diamond",
-        "href": "http://www.nsf.gov/",
-        "src": "/attachments/supporters/tmp/nsf_t.png",
+        "src": "/attachments/supporters/tmp/nsf_t.png", 
+        "href": "http://www.nsf.gov/", 
+        "class": "Diamond", 
         "year": 2016
-    },
+    }, 
     {
-        "class": "Diamond",
-        "href": "http://www.tableausoftware.com/",
-        "src": "/attachments/supporters/tmp/tab.png",
+        "src": "/attachments/supporters/tmp/tab.png", 
+        "href": "http://www.tableausoftware.com/", 
+        "class": "Diamond", 
         "year": 2016
-    },
+    }, 
     {
-        "class": "Platinum",
-        "href": "http://www.nvidia.com/",
-        "src": " /attachments/supporters/tmp/NVLogo_2D.PNG",
+        "src": " /attachments/supporters/tmp/NVLogo_2D.PNG", 
+        "href": "http://www.nvidia.com/", 
+        "class": "Platinum", 
         "year": 2016
-    },
+    }, 
     {
-        "class": "Gold",
-        "href": "http://www.ibm.com/",
-        "src": "/attachments/supporters/tmp/IBM_t.png",
+        "src": "/attachments/supporters/tmp/IBM_t.png", 
+        "href": "http://www.ibm.com/", 
+        "class": "Gold", 
         "year": 2016
-    },
+    }, 
     {
-        "class": "Gold",
-        "href": "http://www.intel.com/",
-        "src": "/attachments/supporters/tmp/intel_2015.png",
+        "src": "/attachments/supporters/tmp/intel_2015.png", 
+        "href": "http://www.intel.com/", 
+        "class": "Gold", 
         "year": 2016
-    },
+    }, 
     {
-        "class": "Gold",
-        "href": "http://research.microsoft.com/",
-        "src": "/attachments/supporters/tmp/MSR_t.png",
+        "src": "/attachments/supporters/tmp/MSR_t.png", 
+        "href": "http://research.microsoft.com/", 
+        "class": "Gold", 
         "year": 2016
-    },
+    }, 
     {
-        "class": "Silver",
-        "href": "http://www.adobe.com/",
-        "src": "/attachments/supporters/tmp/adobe_2015.png",
+        "src": "/attachments/supporters/tmp/adobe_2015.png", 
+        "href": "http://www.adobe.com/", 
+        "class": "Silver", 
         "year": 2016
-    },
+    }, 
     {
-        "class": "Silver",
-        "href": "https://uncharted.software/",
-        "src": "/attachments/supporters/tmp/Uncharted-rgb-Vertical_27Aug2015.png",
+        "src": "/attachments/supporters/tmp/Uncharted-rgb-Vertical_27Aug2015.png", 
+        "href": "https://uncharted.software/", 
+        "class": "Silver", 
         "year": 2016
-    },
+    }, 
     {
-        "class": "Silver",
-        "href": "http://iacs.seas.harvard.edu/",
-        "src": "/attachments/supporters/tmp/iacs.png",
+        "src": "/attachments/supporters/tmp/iacs.png", 
+        "href": "http://iacs.seas.harvard.edu/", 
+        "class": "Silver", 
         "year": 2016
-    },
+    }, 
     {
-        "class": "Silver",
-        "href": "https://bocoup.com/",
-        "src": "/attachments/bocoup-datavis-logo-vertical-2016.png",
+        "src": "/attachments/bocoup-datavis-logo-vertical-2016.png", 
+        "href": "https://bocoup.com/", 
+        "class": "Silver", 
         "year": 2016
-    },
+    }, 
     {
-        "class": "Silver",
-        "href": "http://www.kaust.edu.sa/",
-        "src": "/attachments/supporters/tmp/kaust.png",
+        "src": "/attachments/supporters/tmp/kaust.png", 
+        "href": "http://www.kaust.edu.sa/", 
+        "class": "Silver", 
         "year": 2016
-    },
+    }, 
     {
-        "class": "Silver",
-        "href": "https://www.nlm.nih.gov/",
-        "src": "/attachments/supporters/2016/nlm.png",
+        "src": "/attachments/supporters/2016/nlm.png", 
+        "href": "https://www.nlm.nih.gov/", 
+        "class": "Silver", 
         "year": 2016
-    },
+    }, 
     {
-        "class": "Silver",
-        "href": "https://www.mica.edu/",
-        "src": "/attachments/supporters/2016/mica.png",
+        "src": "/attachments/supporters/2016/mica.png", 
+        "href": "https://www.mica.edu/", 
+        "class": "Silver", 
         "year": 2016
-    },
+    }, 
     {
-        "class": "Silver",
-        "href": "http://www.kitware.com/",
-        "src": "/attachments/supporters/tmp/kitware.png",
+        "src": "/attachments/supporters/tmp/kitware.png", 
+        "href": "http://www.kitware.com/", 
+        "class": "Silver", 
         "year": 2016
-    },
+    }, 
     {
-        "class": "Silver",
-        "href": "http://www.mscweb.com/",
-        "src": "/attachments/supporters/2016/msc.png",
+        "src": "/attachments/supporters/2016/msc.png", 
+        "href": "http://www.mscweb.com/", 
+        "class": "Silver", 
         "year": 2016
-    },
+    }, 
     {
-        "class": "Silver",
-        "href": "http://www.sbgenomics.com/",
-        "src": "/attachments/supporters/2016/sevenbridges.png",
+        "src": "/attachments/supporters/2016/sevenbridges.png", 
+        "href": "http://www.sbgenomics.com/", 
+        "class": "Silver", 
         "year": 2016
-    },
+    }, 
     {
-        "class": "Silver",
-        "href": "http://www.siemens.com/",
-        "src": "/attachments/supporters/2016/siemens-logo-en-2x.png",
+        "src": "/attachments/supporters/2016/siemens-logo-en-2x.png", 
+        "href": "http://www.siemens.com/", 
+        "class": "Silver", 
         "year": 2016
-    },
+    }, 
     {
-	"class": "Bronze",
-	"href": "http://elevenpeppers.com/",
-	"src": "/attachments/supporters/eleven_peppers.png",
-	"year": 2016
-    },
-    {
-	"class": "Bronze",
-	"href": "http://rstudio.com/",
-	"src": "/attachments/supporters/tmp/RStudio.png",
-	"year": 2016
-    },
-    {
-	"class": "Bronze",
-	"href": "http://www.capdigital.com/en/",
-	"src": "/attachments/supporters/2016/cap_digital.png",
-	"year": 2016
-    },
-    {
-        "class": "Bronze",
-        "href": "http://www.disneyresearch.com/",
-        "src": "/attachments/supporters/tmp/DR.png",
+        "src": "/attachments/supporters/eleven_peppers.png", 
+        "href": "http://elevenpeppers.com/", 
+        "class": "Bronze", 
         "year": 2016
-    },
+    }, 
     {
-        "class": "Bronze",
-        "href": "http://www.google.com/",
-        "src": "/attachments/supporters/tmp/google2015.png",
+        "src": "/attachments/supporters/tmp/RStudio.png", 
+        "href": "http://rstudio.com/", 
+        "class": "Bronze", 
         "year": 2016
-    },
+    }, 
     {
-        "class": "Bronze",
-        "href": "http://www.underarmour.com/",
-        "src": "/attachments/supporters/2016/underarmour.png",
+        "src": "/attachments/supporters/2016/cap_digital.png", 
+        "href": "http://www.capdigital.com/en/", 
+        "class": "Bronze", 
         "year": 2016
-    },
+    }, 
     {
-        "class": "NonProfit/Small Company/Startup",
-        "href": "http://www.act.org/",
-        "src": "/attachments/supporters/tmp/ACT-logo-Blue-cmyk.png",
+        "src": "/attachments/supporters/tmp/DR.png", 
+        "href": "http://www.disneyresearch.com/", 
+        "class": "Bronze", 
         "year": 2016
-    },
+    }, 
     {
-      "class": "NonProfit/Small Company/Startup",
-      "href": "http://www.sentimetrix.com/",
-      "src": "/attachments/supporters/2016/sentimetrix.png",
-      "year": 2016
-    },
+        "src": "/attachments/supporters/tmp/google2015.png", 
+        "href": "http://www.google.com/", 
+        "class": "Bronze", 
+        "year": 2016
+    }, 
     {
-      "class": "Academic",
-      "href": "http://www.sci.utah.edu/",
-      "src": "/attachments/supporters/tmp/sci.png",
-      "year": 2016
-    },
+        "src": "/attachments/supporters/2016/underarmour.png", 
+        "href": "http://www.underarmour.com/", 
+        "class": "Bronze", 
+        "year": 2016
+    }, 
     {
-      "class": "Academic",
-      "href": "http://www.vrvis.at/",
-      "src": "/attachments/supporters/tmp/vrvis_t.png",
-      "year": 2016
-    },
+        "src": "/attachments/supporters/tmp/ACT-logo-Blue-cmyk.png", 
+        "href": "http://www.act.org/", 
+        "class": "NonProfit/Small Company/Startup", 
+        "year": 2016
+    }, 
     {
-      "class": "Academic",
-      "href": "http://citi.clemson.edu/viz/",
-      "src": "/attachments/supporters/2016/clemson_ccit.png",
-      "year": 2016
-    },
+        "src": "/attachments/supporters/2016/sentimetrix.png", 
+        "href": "http://www.sentimetrix.com/", 
+        "class": "NonProfit/Small Company/Startup", 
+        "year": 2016
+    }, 
     {
-      "class": "Academic",
-      "href": "http://ischool.umd.edu/",
-      "src": "/attachments/supporters/2016/umd_cis.png",
-      "year": 2016
-    },
+        "src": "/attachments/supporters/tmp/sci.png", 
+        "href": "http://www.sci.utah.edu/", 
+        "class": "Academic", 
+        "year": 2016
+    }, 
     {
-      "class": "Academic",
-      "href": "https://www.orau.org/",
-      "src": "/attachments/supporters/2016/ORAU.png",
-      "year": 2016
-    },
+        "src": "/attachments/supporters/tmp/vrvis_t.png", 
+        "href": "http://www.vrvis.at/", 
+        "class": "Academic", 
+        "year": 2016
+    }, 
     {
-      "class": "Publisher",
-      "href": "http://www.morganclaypool.com/",
-      "src": "/attachments/supporters/tmp/mcp.png",
-      "year": 2016
-    },
+        "src": "/attachments/supporters/2016/clemson_ccit.png", 
+        "href": "http://citi.clemson.edu/viz/", 
+        "class": "Academic", 
+        "year": 2016
+    }, 
     {
-      "class": "Publisher",
-      "href": "http://www.springer.com/",
-      "src": "/attachments/supporters/tmp/Springer_cmyk.png",
-      "year": 2016
-    },
+        "src": "/attachments/supporters/2016/umd_cis.png", 
+        "href": "http://ischool.umd.edu/", 
+        "class": "Academic", 
+        "year": 2016
+    }, 
     {
-      "class": "Publisher",
-      "href": "https://www.crcpress.com/",
-      "src": "/attachments/supporters/tmp/CRC.png",
-      "year": 2016
-    },
+        "src": "/attachments/supporters/2016/ORAU.png", 
+        "href": "https://www.orau.org/", 
+        "class": "Academic", 
+        "year": 2016
+    }, 
     {
-      "class":  "Gold",
-      "href":   "http://valcri.org/",
-      "src":    "/attachments/supporters/2017/logo-valcri-middlesex.png",
-      "year":   2017
-    },
+        "src": "/attachments/supporters/tmp/mcp.png", 
+        "href": "http://www.morganclaypool.com/", 
+        "class": "Publisher", 
+        "year": 2016
+    }, 
     {
-      "class":  "Silver",
-      "href":   "http://www.kitware.com/",
-      "src":    "/attachments/supporters/2017/logo-kitware.png",
-      "year":   2017
-    },
+        "src": "/attachments/supporters/tmp/Springer_cmyk.png", 
+        "href": "http://www.springer.com/", 
+        "class": "Publisher", 
+        "year": 2016
+    }, 
     {
-      "class":  "Silver",
-      "href":   "https://www.disneyresearch.com/",
-      "src":    "/attachments/supporters/2017/converted/logo-disney.png",
-      "year":   2017
-    },
+        "src": "/attachments/supporters/tmp/CRC.png", 
+        "href": "https://www.crcpress.com/", 
+        "class": "Publisher", 
+        "year": 2016
+    }, 
     {
-      "class":  "Academic",
-      "href":   "http://www.sci.utah.edu/",
-      "src":    "/attachments/supporters/2017/logo-sci.png",
-      "year":   2017
-    },
+        "src": "attachments/supporters/2017/dl/valcri_logo_subline_cmyk.png", 
+        "company": "Middlesex University", 
+        "href": "", 
+        "class": "Gold", 
+        "year": 2017
+    }, 
     {
-      "class":  "Academic",
-      "href":   "http://polytechnic.purdue.edu/degrees/data-visualization",
-      "src":    "/attachments/supporters/2017/converted/logo-purdue.png",
-      "year":   2017
-    },
+        "src": "attachments/supporters/2017/dl/DR-logo-stacked_vector_RED.png", 
+        "company": "Disney Research", 
+        "href": "", 
+        "class": "Silver", 
+        "year": 2017
+    }, 
     {
-      "class":  "Academic",
-      "href":   "http://www.vrvis.at/",
-      "src":    "/attachments/supporters/2017/logo-vrvis.png",
-      "year":   2017
-    },
+        "src": "attachments/supporters/2017/dl/Kitware_Logo.png", 
+        "company": "Kitware, Inc.", 
+        "href": "", 
+        "class": "Silver", 
+        "year": 2017
+    }, 
     {
-      "class":  "NonProfit/Small Company/Startup",
-      "href":   "http://www.act.org/",
-      "src":    "/attachments/supporters/2017/logo-act.png",
-      "year":   2017
-    },
+        "src": "attachments/supporters/2017/dl/SCI-logo-transparent-black.png", 
+        "company": "SCI Institute", 
+        "href": "", 
+        "class": "Academic", 
+        "year": 2017
+    }, 
     {
-      "class":  "Publisher",
-      "href":   "http://www.crcpress.com/",
-      "src":    "/attachments/supporters/2017/logo-crc.png",
-      "year":   2017
+        "src": "attachments/supporters/2017/dl/VRVis-Logo-notext.png", 
+        "company": "VRVis Zentrum f\u00fcr Virtual Reality und Visualisierung Forschungs-GmbH", 
+        "href": "", 
+        "class": "Academic", 
+        "year": 2017
+    }, 
+    {
+        "src": "attachments/supporters/2017/dl/Polytechnic-CGT.png", 
+        "company": "Purdue University", 
+        "href": "", 
+        "class": "Academic", 
+        "year": 2017
+    }, 
+    {
+        "src": "attachments/supporters/2017/dl/ACTNext logo.png", 
+        "company": "ACT, Inc.", 
+        "href": "", 
+        "class": "NonProfit/Small Company/Startup", 
+        "year": 2017
+    }, 
+    {
+        "src": "attachments/supporters/2017/dl/CRC Press logo Blue.png", 
+        "company": "CRC Press", 
+        "href": "", 
+        "class": "Publisher", 
+        "year": 2017
     }
 ]
