@@ -18,8 +18,10 @@ the private key to access the spreadsheet from the script.
 from data import *
 from pandas import *
 import json
+import os
 
 YEAR = 2017
+LOGOS_DIR = 'attachments/supporters/2017/dl'
 
 ##############################################################################
 
@@ -52,14 +54,8 @@ supporters = load_sheet_by_name(gc1, "Supporters").get_all_records()
 supporters = sorted(filter(lambda t: (t['Company'] != "TOTAL" and
                                       t['Received'] != ""), supporters), key=sortable_date)
 
-xls = ExcelFile('scripts/Report.xls')
-df = xls.parse(xls.sheet_names[0])
-report = json.loads( df.to_json(orient="records") )
-
-# TODO pandas doesn't read hyperlinks; we need to use something else to convert -> https://github.com/pandas-dev/pandas/issues/13439#issuecomment-226112668
-
-
-supporters = inner_join(report, supporters, 'Company')
+logo_file = json.load(open("scripts/logo-links.json"))
+supporters = inner_join(logo_file, supporters, 'Company')
 
 supporters = group_by(supporters, lambda t: t['Category'])
 supporters = sorted(supporters, key=lambda t: sponsors_category_order[t['Key']])
@@ -74,7 +70,7 @@ for group in supporters:
             "company": supporter["Company"],
             "class": sponsors_category_remap.get(supporter['Category'], supporter['Category']),
             "href": "", # FIXME
-            "src": supporter["Please upload your company logo here:"], # FIXME
+            "src": os.path.splitext( os.path.join(LOGOS_DIR, supporter["logo_name"]) )[0]+'.png' , # FIXME
             "year": YEAR
             }
         new_supporters.append(d)

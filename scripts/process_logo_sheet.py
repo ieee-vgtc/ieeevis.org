@@ -23,15 +23,17 @@ d = []
 book = xlrd.open_workbook("scripts/Report.xls", formatting_info=True)
 sheet = book.sheet_by_index(0)
 
-for row in range(1, 101):
-    rowValues = sheet.row_values(row, start_colx=0, end_colx=5)
-    if not rowValues[3]:
-        break
+for row in range(1, sheet.nrows):
+    rowValues = sheet.row_values(row, start_colx=0, end_colx=6)
+    if not rowValues[3] or not rowValues[5]:
+        continue
     company = rowValues[3]
+    name = rowValues[5]
     link = sheet.hyperlink_map.get((row, 5))
     url = '(No URL)' if link is None else link.url_or_path
     d.append({
       "Company": company,
+      "logo_name": name,
       "logo_url": url
     })
 
