@@ -16,6 +16,7 @@ the private key to access the spreadsheet from the script.
 """
 
 from data import *
+from pandas import *
 import json
 
 YEAR = 2017
@@ -50,6 +51,13 @@ gc1 = get_spreadsheet("Finance Fast Facts")
 supporters = load_sheet_by_name(gc1, "Supporters").get_all_records()
 supporters = sorted(filter(lambda t: (t['Company'] != "TOTAL" and
                                       t['Received'] != ""), supporters), key=sortable_date)
+
+xls = ExcelFile('scripts/Report.xls')
+df = xls.parse(xls.sheet_names[0])
+report = json.loads( df.to_json(orient="records") )
+
+supporters = inner_join(report, supporters, 'Company')
+
 supporters = group_by(supporters, lambda t: t['Category'])
 supporters = sorted(supporters, key=lambda t: sponsors_category_order[t['Key']])
 
@@ -63,7 +71,7 @@ for group in supporters:
             "company": supporter["Company"],
             "class": sponsors_category_remap.get(supporter['Category'], supporter['Category']),
             "href": "", # FIXME
-            "src": "", # FIXME
+            "src": supporter["Please upload your company logo here:"], # FIXME
             "year": YEAR
             }
         new_supporters.append(d)
