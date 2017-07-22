@@ -36,7 +36,7 @@ To best accommodate the needs ranging from early planned proposals to impromptu 
 
 *Rolling submission*: Submissions after the early submission deadline will be considered subject to room availability. Later submissions will be processed and notified within a couple of days.
 
-| Rolling Submission | **From August 5, 2017 to November 30, 2017** |
+| Rolling Submission | **From August 5, 2017 to September 30, 2017** |
 | Notification | **Within a few days** |
 
 *Impromptu meetup!* We also encourage impromptu meetups to be organized during the conference itself. Please contact the chairs by email or in person during the conference in order to secure a conference room and time slot.
