@@ -1,5 +1,5 @@
 ---
-title: best-paper-awards
+title: Best Paper Awards
 layout: main-2017
 permalink: /year/2017/info/awards/best-paper-awards
 ---
