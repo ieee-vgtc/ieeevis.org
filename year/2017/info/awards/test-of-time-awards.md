@@ -22,6 +22,7 @@ Jigsaw is a visual analytics system, developed by the Georgia Institute of Techn
 Authors: Card, S.K.; Mackinlay, J.D.
 InfoVis 1997
 <br/>
+
 A unanimous choice amongst panel members and an enjoyable read, from which each of us learned things we had not thought of recently. Card and Mackinlay introduce a model of the visualization design space that is revealing and helps with description and explanation. It's relevant today and useful to apply this to some of the visualization that has developed in the last couple of decades. Really, the paper is well worth reading again  - please have a look.
 The work has had a big influence on future papers - and is in effect an early characterization of the kind of work that many of us have attempted since.
 Other papers that describe processes and areas of influence followed the lead of this seminal piece of work that mapped the design space explicitly, described and differentiated idioms and dealt with geographic coordinates specifically.
@@ -44,6 +45,7 @@ The ManyEyes project, which this paper describes, has been impactful in many way
 Authors: Card, S.K.; Mackinlay, J.D.
 Vis 1992
 <br/>
+
 To be added.
 
 **Efficient computation of the topology of level sets**
