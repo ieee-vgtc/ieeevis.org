@@ -42,7 +42,7 @@ The ManyEyes project, which this paper describes, has been impactful in many way
 
 **Visualization of second order tensor fields and matrix data**
 <br/>
-Authors: Card, S.K.; Mackinlay, J.D.
+Authors: Delmarcelle, T.; Hesselink, L.
 Vis 1992
 <br/>
 
