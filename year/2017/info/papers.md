@@ -383,7 +383,7 @@ Authors: Shusen Liu, Peer-Timo Bremer, Jayaraman J. Thiagarajan, Vivek Srikumar,
 <br/>
 Authors: Nam Wook Kim, Benjamin Bach, Hyejin Im, Sasha Schriber, Markus Gross, and Hanspeter Pfister
 
-**What Would a Graph Look Like in This Layout? A Predictive Approach to Large Graph Visualization**
+**What Would a Graph Look Like in This Layout? A Machine Learning Approach to Large Graph Visualization**
 <br/>
 Authors: Oh-Hyun Kwon, Tarik Crnovrsanin, and Kwan-Liu Ma
 
