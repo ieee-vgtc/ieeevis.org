@@ -21,7 +21,7 @@ import json
 import os
 
 YEAR = 2017
-LOGOS_DIR = 'attachments/supporters/2017/dl/converted'
+LOGOS_DIR = '/attachments/supporters/2017/dl/converted'
 
 ##############################################################################
 
