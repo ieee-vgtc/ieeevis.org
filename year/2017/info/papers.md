@@ -259,7 +259,7 @@ Authors: Paulo Ivson, Daniel Nascimento, Waldemar Celes, and Simone Barbosa
 <br/>
 Authors: Evanthia Dimara, Anastasia Bezerianos, and Pierre Dragicevic
 
-**Considerations for Visual Comparison**
+**Considerations for Visualizing Comparison**
 <br/>
 Author: Michael Gleicher
 
