@@ -159,7 +159,7 @@ Authors: Alexander Kumpf, Bianca Tost, Marlene Baumgart, Michael Riemer, Rüdige
 
 **Visualizing Dataflow Graphs of Deep Learning Models in TensorFlow [Best Paper Award]**
 <br/>
-Authors: Kanit Wongsuphasawat, Daniel Smilkov, James Wexler, Jimbo Wilson, Dan Mane, Doug Fritz, Dilip Krishnan, Fernanda Viegas, and Martin Wattenberg
+Authors: Kanit Wongsuphasawat, Daniel Smilkov, James Wexler, Jimbo Wilson, Dandelion Mané, Doug Fritz, Dilip Krishnan, Fernanda B. Viégas, and Martin Wattenberg
 
 **Voila: Visual Anomaly Detection and Monitoring with Streaming Spatiotemporal Data**
 <br/>

@@ -10,7 +10,7 @@ permalink: /year/2017/info/awards/best-paper-awards
 
 **Visualizing Dataflow Graphs of Deep Learning Models in TensorFlow**
 <br/>
-Authors: Kanit Wongsuphasawat, Daniel Smilkov, James Wexler, Jimbo Wilson, Dan Mane, Doug Fritz, Dilip Krishnan, Fernanda Viegas, and Martin Wattenberg
+Authors: Kanit Wongsuphasawat, Daniel Smilkov, James Wexler, Jimbo Wilson, Dandelion Mané, Doug Fritz, Dilip Krishnan, Fernanda B. Viégas, and Martin Wattenberg
 
 ### Best Paper Honorable Mention
 
