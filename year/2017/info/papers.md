@@ -490,7 +490,7 @@ Authors: Julian Kreiser, Alexander Hann, Eugen Zizer, and Timo Ropinski
 <br/>
 Authors: Franz Sauer, Jinrong Xie, and Kwan-Liu Ma
 
-**A Rank-Aware Data Cube for Real-Time Exploration of Spatiotemporal Data**
+**TopKube: A Rank-Aware Data Cube for Real-Time Exploration of Spatiotemporal Data**
 <br/>
 Authors: Fabio Miranda, Lauro Lins, James Klosowski, and Claudio Silva
 
