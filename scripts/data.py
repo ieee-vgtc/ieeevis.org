@@ -52,6 +52,18 @@ def inner_join(lst1, lst2, column):
             result.append(row)
     return result
 
+def left_outer_join(lst1, lst2, column):
+    result = []
+    index_lst2 = dict((v[column], v) for v in lst2)
+    for el in lst1:
+        row = el.copy()
+        if el[column] in index_lst2:
+            row.update(index_lst2[el[column]])
+        result.append(row)
+    return result
+
+
+
 def group_by(lst, selector):
     result = {}
     for item in lst:
