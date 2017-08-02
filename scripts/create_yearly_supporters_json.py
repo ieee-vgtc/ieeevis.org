@@ -17,6 +17,7 @@ the private key to access the spreadsheet from the script.
 
 from data import *
 from pandas import *
+import pandas as pd
 import json
 import os
 
@@ -57,6 +58,9 @@ supporters = sorted(filter(lambda t: (t['Company'] != "TOTAL" and
 logo_file = json.load(open("scripts/tmp/logo-links.json"))
 supporters = inner_join(logo_file, supporters, 'Company')
 
+link_file = json.load(open("js/sponsor_links.json"))
+supporters = left_outer_join(supporters, link_file, 'Company')
+
 supporters = group_by(supporters, lambda t: t['Category'])
 supporters = sorted(supporters, key=lambda t: sponsors_category_order[t['Key']])
 
@@ -69,7 +73,7 @@ for group in supporters:
         d = {
             "company": supporter["Company"],
             "class": sponsors_category_remap.get(supporter['Category'], supporter['Category']),
-            "href": "", # FIXME
+            "href": supporter['href'] if supporter.get('href') else '', 
             "src": os.path.splitext( os.path.join(LOGOS_DIR, supporter["logo_name"]) )[0]+'.png' , # FIXME
             "year": YEAR
             }
