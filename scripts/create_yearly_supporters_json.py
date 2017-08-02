@@ -52,6 +52,13 @@ sponsors_category_remap = {
 
 gc1 = get_spreadsheet("Finance Fast Facts")
 supporters = load_sheet_by_name(gc1, "Supporters").get_all_records()
+
+# add uncharted (temporary change)
+for i,d in enumerate(supporters):
+    if d['Company']=='Uncharted Software Inc.':
+        supporters[i]['Received'] = 3000
+        supporters[i]['Date Paid'] = "8/2/17"
+
 supporters = sorted(filter(lambda t: (t['Company'] != "TOTAL" and
                                       t['Received'] != ""), supporters), key=sortable_date)
 
