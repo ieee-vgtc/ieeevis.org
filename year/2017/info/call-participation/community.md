@@ -50,15 +50,15 @@ practitioners.
 The AJF will be continuously held throughout VISWeek concurrently with other 
 activities.  The primary activities include: 
 
-- "I’m looking!" and "I’m hiring!" badge ribbons available to all attendees. 
+- "I’m job hunting!" and "I’m hiring!" badge ribbons available to all attendees. 
 By wearing a ribbon, you will be able to find other VIS attendees that are
 participating in the *AJF*. These will be located at the registration table. 
 - *We strongly suggest carrying either a curriculum vitae (CV), resume, 
 business card, or note cards with links, such as LinkedIn or online CVs, to 
 help facilitate information exchange during VIS.* 
-- CVs will be distributed to [Supporters](/year/2017/info/exhibition/supporters-and-exhibition) prior to VIS, to help make connections
-during VIS, by sharing your information and CVs with the supporters. During 
-online registration you will be able to upload your CV and
+- CVs will be distributed to [Supporters](/year/2017/info/exhibition/supporters-and-exhibition) 
+prior to VIS, to help make connections during VIS, by sharing your information and CVs with the 
+supporters. During online registration you will be able to upload your CV and
 interests. If you did not upload your CV during online registration, we will
 have a collection tray near the *AJF* ribbons at the live registration desk,
 and they will be distributed to Supporters after VIS.  
