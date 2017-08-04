@@ -37,13 +37,14 @@ def sortable_date(t):
     return r # YMD is sortable
 
 sponsors_category_order = {
-    "Platinum": 0,
-    "Gold": 1,
-    "Silver": 2,
-    "Academic": 3,
-    "NonProfit/Small Company/Startup": 4,
-    "Non-profit": 4,
-    "Publisher": 5
+    "Diamond": 0,
+    "Platinum": 1,
+    "Gold": 2,
+    "Silver": 3,
+    "Academic": 4,
+    "NonProfit/Small Company/Startup": 5,
+    "Non-profit": 5,
+    "Publisher": 6
     }
 
 sponsors_category_remap = {
@@ -53,16 +54,18 @@ sponsors_category_remap = {
 gc1 = get_spreadsheet("Finance Fast Facts")
 supporters = load_sheet_by_name(gc1, "Supporters").get_all_records()
 
-# add uncharted (temporary change)
+# payment exception
 for i,d in enumerate(supporters):
     if d['Company']=='Uncharted Software Inc.':
         supporters[i]['Received'] = 3000
-        supporters[i]['Date Paid'] = "8/2/17"
+        supporters[i]['Date Paid'] = "8/2/2017"
 
 supporters = sorted(filter(lambda t: (t['Company'] != "TOTAL" and
-                                      t['Received'] != ""), supporters), key=sortable_date)
+                                      t['Received'] != "" and t['Date Paid'] != ""), supporters), key=sortable_date)
 
 logo_file = json.load(open("scripts/tmp/logo-links.json"))
+# logo exception
+logo_file.append( {"Company": 'Tableau Software', "logo_name": 'logo-tableau'})
 supporters = inner_join(logo_file, supporters, 'Company')
 
 link_file = json.load(open("js/sponsor_links.json"))

@@ -930,6 +930,13 @@
         "year": 2016
     }, 
     {
+        "src": "/attachments/supporters/2017/dl/converted/logo-tableau.png", 
+        "company": "Tableau Software", 
+        "href": "", 
+        "class": "Diamond", 
+        "year": 2017
+    }, 
+    {
         "src": "/attachments/supporters/2017/dl/converted/valcri_logo_subline_cmyk.png", 
         "company": "Middlesex University", 
         "href": "", 
@@ -974,6 +981,13 @@
     {
         "src": "/attachments/supporters/2017/dl/converted/VRVis-Logo-notext.png", 
         "company": "VRVis Zentrum f\u00fcr Virtual Reality und Visualisierung Forschungs-GmbH", 
+        "href": "", 
+        "class": "Academic", 
+        "year": 2017
+    }, 
+    {
+        "src": "/attachments/supporters/2017/dl/converted/IACS_CMYK_LightBackgrounds.png", 
+        "company": "Harvard University", 
         "href": "", 
         "class": "Academic", 
         "year": 2017
