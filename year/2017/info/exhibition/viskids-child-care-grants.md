@@ -41,7 +41,7 @@ Grants of up to $500 per family are available for VIS attendees who are bringing
 
 ### Application and deadline
 
-* Application form: tba
+* [Application form](https://docs.google.com/forms/d/e/1FAIpQLSd9wjYkJx_m32o0Oeih5chMSGvwoYoCeU--D7Sef-42O9q5cQ/viewform?usp=sf_link)
 * Deadline: August 22, 2017
 * Notification: August 24, 2017
 
