@@ -159,7 +159,7 @@ Authors: Alexander Kumpf, Bianca Tost, Marlene Baumgart, Michael Riemer, Rüdige
 
 **Visualizing Dataflow Graphs of Deep Learning Models in TensorFlow [Best Paper Award]**
 <br/>
-Authors: Kanit Wongsuphasawat, Daniel Smilkov, James Wexler, Jimbo Wilson, Dan Mane, Doug Fritz, Dilip Krishnan, Fernanda Viegas, and Martin Wattenberg
+Authors: Kanit Wongsuphasawat, Daniel Smilkov, James Wexler, Jimbo Wilson, Dandelion Mané, Doug Fritz, Dilip Krishnan, Fernanda B. Viégas, and Martin Wattenberg
 
 **Voila: Visual Anomaly Detection and Monitoring with Streaming Spatiotemporal Data**
 <br/>
@@ -259,7 +259,7 @@ Authors: Paulo Ivson, Daniel Nascimento, Waldemar Celes, and Simone Barbosa
 <br/>
 Authors: Evanthia Dimara, Anastasia Bezerianos, and Pierre Dragicevic
 
-**Considerations for Visual Comparison**
+**Considerations for Visualizing Comparison**
 <br/>
 Author: Michael Gleicher
 
@@ -383,7 +383,7 @@ Authors: Shusen Liu, Peer-Timo Bremer, Jayaraman J. Thiagarajan, Vivek Srikumar,
 <br/>
 Authors: Nam Wook Kim, Benjamin Bach, Hyejin Im, Sasha Schriber, Markus Gross, and Hanspeter Pfister
 
-**What Would a Graph Look Like in This Layout? A Predictive Approach to Large Graph Visualization**
+**What Would a Graph Look Like in This Layout? A Machine Learning Approach to Large Graph Visualization**
 <br/>
 Authors: Oh-Hyun Kwon, Tarik Crnovrsanin, and Kwan-Liu Ma
 
@@ -490,7 +490,7 @@ Authors: Julian Kreiser, Alexander Hann, Eugen Zizer, and Timo Ropinski
 <br/>
 Authors: Franz Sauer, Jinrong Xie, and Kwan-Liu Ma
 
-**A Rank-Aware Data Cube for Real-Time Exploration of Spatiotemporal Data**
+**TopKube: A Rank-Aware Data Cube for Real-Time Exploration of Spatiotemporal Data**
 <br/>
 Authors: Fabio Miranda, Lauro Lins, James Klosowski, and Claudio Silva
 
