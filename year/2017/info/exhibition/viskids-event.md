@@ -5,11 +5,17 @@ permalink: /year/2017/info/exhibition/viskids-event
 contact: viskids@ieeevis.org
 ---
 
-Besides [child care grants](./viskids-child-care-grants),
-VISKids 2017 expands its offerings
-by providing a permanent meeting room and organizing activities.
 
+VISKids provides child care grants since 2015.
+New in 2017, we also organize activities at the conference, and have a permanent meeting room at the site.
 The activities and the room are *open to everyone,* not just awardees of the child care grant program.
+
+
+### VISKids Child Care Grants
+
+Grants of up to $500 per family are available for VIS attendees who are bringing small children to the conference or who incur extra expenses in leaving their children at home. The grants will be given as a reimbursement for expenses but attendees are responsible for making their own arrangements for child care. If requests exceed available funding, or if additional funding becomes available, preference will be given to students and early career attendees who are presenting at the conference.
+
+See the dedicated page for [child care grants](./viskids-child-care-grants) for details.
 
 
 ### VISKids Room
