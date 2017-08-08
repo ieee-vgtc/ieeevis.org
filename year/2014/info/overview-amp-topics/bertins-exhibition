@@ -61,7 +61,7 @@ if (Drupal.jsEnabled) { $(document).ready(function() { $('body').addClass('yui-s
        <div id="header_bar" class="clear-block"><div id="block-block-3" class="clear-block block block-block">
 <!--
 -->
-  <div class="content"><div id="header_text">9 - 14 NOVEMBER 2014, PARIS, FRANCE</div><img src="http://ieeevis.org//tmp/VIS-webbanner2014-header.jpg"></div>
+  <div class="content"><div id="header_text">9 - 14 NOVEMBER 2014, PARIS, FRANCE</div><img src="/tmp/VIS-webbanner2014-header.jpg"></div>
 </div>
 </div>
   </div>
@@ -1071,7 +1071,7 @@ if (guessYear() !== 2016) {
   <div id="footer"><div id="block-block-4" class="clear-block block block-block">
 <!--
 -->
-  <div class="content"><div class="footer-image"><img src="http://ieeevis.org//tmp/VIS-webbanner2014-footer.jpg"></div><div class="footer-message"> © 2014 IEEE. Sponsored by the IEEE Computer Society Visualization and Graphics Technical Committee.</div></div>
+  <div class="content"><div class="footer-image"><img src="/tmp/VIS-webbanner2014-footer.jpg"></div><div class="footer-message"> © 2014 IEEE. Sponsored by the IEEE Computer Society Visualization and Graphics Technical Committee.</div></div>
 </div>
 </div>
     <!--[if IE]></div><![endif]--></body>
