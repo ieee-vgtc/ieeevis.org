@@ -14,11 +14,11 @@ contact: "panels@ieeevis.org"
 
 ## <a name="scale-matters"></a> [A Matter of Scale - Scale Matters](http://ieeevis.org)
 
-Arthur Olson (Organizer), The Scripps Research Institute
-Eduard Groeller (Organizer), TU Vienna
-Jeffrey Heer, University of Washington
-Alan M. MacEachren, Pennsylvania State University
-Todd Richmond, USC Institute for Creative Technologies
+Arthur Olson (Organizer), The Scripps Research Institute  
+Eduard Groeller (Organizer), TU Vienna  
+Jeffrey Heer, University of Washington  
+Alan M. MacEachren, Pennsylvania State University  
+Todd Richmond, USC Institute for Creative Technologies  
 Claudio Silva, New York University
 
 Contact: groeller@cg.tuwien.ac.at
@@ -27,12 +27,12 @@ Scale and scalability have been recurring topics in our field. Recent developmen
 
 ## <a name="ml-agenda"></a> [How do Recent Machine Learning Advances Impact the Data Visualization Research Agenda?](http://ieeevis.org)
 
-Timo Ropinski (Organizer), Ulm University
-Daniel Archambault, Swansea University
-Min Chen, Oxford University
-Ross Maciejewski, Arizona State University
-Klaus Mueller, Stony Brook University
-Alexandru Telea, University of Groningen
+Timo Ropinski (Organizer), Ulm University  
+Daniel Archambault, Swansea University  
+Min Chen, Oxford University  
+Ross Maciejewski, Arizona State University  
+Klaus Mueller, Stony Brook University  
+Alexandru Telea, University of Groningen  
 Martin Wattenberg, Google
 
 Contact: timo.ropinski@uni-ulm.de
@@ -41,11 +41,11 @@ Nowadays, machine learning approaches have revolutionized many domains. As this 
 
 ## <a name="vip"></a> [Increasing the Impact of Visualization Research](http://www.visinpractice.rwth-aachen.de/panel.html)
 
-Steven M. Drucker, Microsoft Research
-Adam Perer, IBM Research
-Daniela Oelke, Siemens
-Melanie Tory, Tableau Research
-Krist Wongsuphasawat, Twitter
+Steven M. Drucker, Microsoft Research  
+Adam Perer, IBM Research  
+Daniela Oelke, Siemens  
+Melanie Tory, Tableau Research  
+Krist Wongsuphasawat, Twitter  
 Justing Talbot, Tableau Research
 
 Contact: vip@ieeevis.org
@@ -55,11 +55,11 @@ The Vis in Practice panel is part of the IEEE VIS 2017 main program and provides
 
 ## <a name="design-studies"></a> [Reflection on Reflection in Design Studies](http://ieeevis.org)
 
-Jason Dykes (Organizer), City University of London
-Miriah Meyer (Organizer), University of Utah
-Heidi Lam, Uta Hinrichs, Tableau Research
-Nathalie Henry Riche, Microsoft Research
-Remco Chang, Tufts University
+Jason Dykes (Organizer), City University of London  
+Miriah Meyer (Organizer), University of Utah  
+Heidi Lam, Uta Hinrichs, Tableau Research  
+Nathalie Henry Riche, Microsoft Research  
+Remco Chang, Tufts University  
 Tamara Munzner, University of British Columbia
 
 Contact: J.Dykes@city.ac.uk
@@ -68,15 +68,15 @@ Design study research methodologies emphasize the need for reflection to generat
 
 ## <a name="vision-science"></a> [Vision Science Meets Visualization](http://ieeevis.org)
 
-Christine Nothelfer (Organizer), Northwestern University
-Zoya Bylinskii (Organizer), Massachusetts Institute of Technology
-Madison Elliott (Organizer), University of British Columbia
-Cindy Xiong (Organizer), Northwestern University
-Danielle Albers Szafir (Organizer), University of Colorado Boulder
-Ronald Rensink, University of British Columbia
-Todd Horowitz, Natioanl Cancer Institute
-Steven Franconeri, Northwestern University
-Karen Schloss, University of Wisconsin-Madison
+Christine Nothelfer (Organizer), Northwestern University  
+Zoya Bylinskii (Organizer), Massachusetts Institute of Technology  
+Madison Elliott (Organizer), University of British Columbia  
+Cindy Xiong (Organizer), Northwestern University  
+Danielle Albers Szafir (Organizer), University of Colorado Boulder  
+Ronald Rensink, University of British Columbia  
+Todd Horowitz, Natioanl Cancer Institute  
+Steven Franconeri, Northwestern University  
+Karen Schloss, University of Wisconsin-Madison  
 Ruth Rosenholtz, Massachesetts Unisititue of Technology
 
 Contact: Danielle.Szafir@Colorado.EDU
