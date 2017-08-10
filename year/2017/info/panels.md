@@ -77,7 +77,7 @@ Ronald Rensink, University of British Columbia
 Todd Horowitz, Natioanl Cancer Institute  
 Steven Franconeri, Northwestern University  
 Karen Schloss, University of Wisconsin-Madison  
-Ruth Rosenholtz, Massachesetts Unisititue of Technology
+Ruth Rosenholtz, Masachusetts Institute of Technology
 
 Contact: Danielle.Szafir@Colorado.EDU
 
