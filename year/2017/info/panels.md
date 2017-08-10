@@ -21,7 +21,7 @@ Alan M. MacEachren, Pennsylvania State University
 Todd Richmond, USC Institute for Creative Technologies  
 Claudio Silva, New York University
 
-Contact: groeller@cg.tuwien.ac.at
+Contact: [groeller@cg.tuwien.ac.at](mailto:groeller@cg.tuwien.ac.at)
 
 Scale and scalability have been recurring topics in our field. Recent developments like smart data, machine learning, and advances in domains like biology, cartography, smart communities, and communication pose novel challenges to scalability and use of scale. Examples include support for scale-transparent visual computing, cross-scale visualization and interaction, massive multi-scale techniques, scale integration, cross-scale labeling and annotation, cross scales on structure and dynamics, and continuous scales. 
 
@@ -35,7 +35,7 @@ Klaus Mueller, Stony Brook University
 Alexandru Telea, University of Groningen  
 Martin Wattenberg, Google
 
-Contact: timo.ropinski@uni-ulm.de
+Contact: [timo.ropinski@uni-ulm.de](mailto:timo.ropinski@uni-ulm.de)
 
 Nowadays, machine learning approaches have revolutionized many domains. As this pushes the human out of the loop, the human-in-the-loop paradigm might be endangered. Thus, we would like to investigate, which old visualization challenges are rendered obsolete, and which new visualization challenges arise from the recent advances in machine learning.
 
@@ -48,7 +48,7 @@ Melanie Tory, Tableau Research
 Krist Wongsuphasawat, Twitter  
 Justing Talbot, Tableau Research
 
-Contact: vip@ieeevis.org
+Contact: [vip@ieeevis.org](mailto:vip@ieeevis.org)
 
 The Vis in Practice panel is part of the IEEE VIS 2017 main program and provides visualization researchers and practictioners with the chance to hear from leaders in the field. This year our panelists will discuss how visualization research impacts industry. The panelists have deep and diverse experience applying ideas from the research domain to visualization problems and products within industry. The panelists will provide their perspectives on questions such as: What visualization papers or threads of research have had particular impact on your industry? When developing new features or systems, to what extent do you turn to existing research to inform your decisions? What types of papers are most relevant to your work? What makes a paper more or less applicable? Are there general visualization questions that are of critical interest to your company that are not currently being addressed by the research community?
 
@@ -62,7 +62,7 @@ Nathalie Henry Riche, Microsoft Research
 Remco Chang, Tufts University  
 Tamara Munzner, University of British Columbia
 
-Contact: J.Dykes@city.ac.uk
+Contact: [J.Dykes@city.ac.uk](mailto:J.Dykes@city.ac.uk)
 
 Design study research methodologies emphasize the need for reflection to generate knowledge. We ask six researchers to reflect upon the role of reflection in design studies, as we try to share and develop good practice. Come along to participate in an interactive conversation around reflection, that underpins applied visualization research.
 
@@ -79,11 +79,6 @@ Steven Franconeri, Northwestern University
 Karen Schloss, University of Wisconsin-Madison  
 Ruth Rosenholtz, Masachusetts Institute of Technology
 
-Contact: Danielle.Szafir@Colorado.EDU
+Contact: [Danielle.Szafir@Colorado.EDU](mailto:Danielle.Szafir@Colorado.EDU)
 
 Panels Summary comming soon...
-
-
-
-
-
