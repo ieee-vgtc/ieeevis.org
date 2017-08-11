@@ -149,7 +149,7 @@ Mennatallah El-Assady, University of Konstanz, Germany
 Daniel Keim, University of Konstanz, Germany  
 David Wrisley, New York University Abu Dhabi, UAE
 
-Contact: stjaenicke@informatik.nui-leipzig.de
+Contact: stjaenicke@informatik.uni-leipzig.de
 
 The first Workshop on Visualization for the Digital Humanities at VIS 2016
 created a new platform to discuss challenges in the emerging digital
