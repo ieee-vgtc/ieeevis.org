@@ -81,4 +81,4 @@ Ruth Rosenholtz, Masachusetts Institute of Technology
 
 Contact: [Danielle.Szafir@Colorado.EDU](mailto:Danielle.Szafir@Colorado.EDU)
 
-Panels Summary comming soon...
+Vision science can explain what people see when looking at visualizations–what data people attend to, what statistics they extract, and what they ultimately remember. This panel features talks from vision scientists who will survey the modern vision science landscape to foster new collaborative opportunities between visualization and vision science.
