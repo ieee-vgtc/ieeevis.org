@@ -7,7 +7,7 @@ contact: viskids@ieeevis.org
 
 
 VISKids provides child care grants since 2015.
-New in 2017, we also organize activities at the conference, and have a permanent meeting room at the site.
+New in 2017, we also organize activities at the conference, and have a meeting room at the site.
 The activities and the room are *open to everyone,* not just awardees of the child care grant program.
 
 
