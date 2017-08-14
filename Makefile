@@ -49,6 +49,14 @@ sv_directory:
 	./scripts/write_sv_directory.py > data/autogen/sv_directory.md
 	cat data/sv_directory_front_matter.txt data/autogen/sv_directory.md > year/2016/info/overview-amp-topics/student-volunteer-directory.md
 
+sponsor_logos:
+	./scripts/get_logo_sheet.py 
+	./scripts/process_logo_sheet.py > ./scripts/tmp/logo-links.json 
+	./scripts/dl_logos.py 
+	./scripts/convert.sh
+	./scripts/create_yearly_supporters_json.py > ./scripts/tmp/all_sponsors.json
+	cp ./scripts/tmp/all_sponsors.json ./js/all_sponsors.json
+
 ################################################################################
 # sometimes you might want to clean the entire bucket - but this can
 # eat a lot of bandwidth, and the website will be missing content for

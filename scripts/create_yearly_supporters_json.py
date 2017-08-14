@@ -17,9 +17,12 @@ the private key to access the spreadsheet from the script.
 
 from data import *
 from pandas import *
+import pandas as pd
 import json
+import os
 
 YEAR = 2017
+LOGOS_DIR = '/attachments/supporters/2017/dl/converted'
 
 ##############################################################################
 
@@ -34,13 +37,14 @@ def sortable_date(t):
     return r # YMD is sortable
 
 sponsors_category_order = {
-    "Platinum": 0,
-    "Gold": 1,
-    "Silver": 2,
-    "Academic": 3,
-    "NonProfit/Small Company/Startup": 4,
-    "Non-profit": 4,
-    "Publisher": 5
+    "Diamond": 0,
+    "Platinum": 1,
+    "Gold": 2,
+    "Silver": 3,
+    "Academic": 4,
+    "NonProfit/Small Company/Startup": 5,
+    "Non-profit": 5,
+    "Publisher": 6
     }
 
 sponsors_category_remap = {
@@ -49,17 +53,23 @@ sponsors_category_remap = {
 
 gc1 = get_spreadsheet("Finance Fast Facts")
 supporters = load_sheet_by_name(gc1, "Supporters").get_all_records()
+
+# payment exception
+for i,d in enumerate(supporters):
+    if d['Company']=='Uncharted Software Inc.':
+        supporters[i]['Received'] = 3000
+        supporters[i]['Date Paid'] = "8/2/2017"
+
 supporters = sorted(filter(lambda t: (t['Company'] != "TOTAL" and
-                                      t['Received'] != ""), supporters), key=sortable_date)
+                                      t['Received'] != "" and t['Date Paid'] != ""), supporters), key=sortable_date)
 
-xls = ExcelFile('scripts/Report.xls')
-df = xls.parse(xls.sheet_names[0])
-report = json.loads( df.to_json(orient="records") )
+logo_file = json.load(open("scripts/tmp/logo-links.json"))
+# logo exception
+logo_file.append( {"Company": 'Tableau Software', "logo_name": 'logo-tableau'})
+supporters = inner_join(logo_file, supporters, 'Company')
 
-# TODO pandas doesn't read hyperlinks; we need to use something else to convert -> https://github.com/pandas-dev/pandas/issues/13439#issuecomment-226112668
-
-
-supporters = inner_join(report, supporters, 'Company')
+link_file = json.load(open("js/sponsor_links.json"))
+supporters = left_outer_join(supporters, link_file, 'Company')
 
 supporters = group_by(supporters, lambda t: t['Category'])
 supporters = sorted(supporters, key=lambda t: sponsors_category_order[t['Key']])
@@ -73,8 +83,8 @@ for group in supporters:
         d = {
             "company": supporter["Company"],
             "class": sponsors_category_remap.get(supporter['Category'], supporter['Category']),
-            "href": "", # FIXME
-            "src": supporter["Please upload your company logo here:"], # FIXME
+            "href": supporter['href'] if supporter.get('href') else '', 
+            "src": os.path.splitext( os.path.join(LOGOS_DIR, supporter["logo_name"]) )[0]+'.png' , # FIXME
             "year": YEAR
             }
         new_supporters.append(d)
