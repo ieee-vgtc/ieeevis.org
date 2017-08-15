@@ -53,6 +53,7 @@ Vis 1992
 <br/>
 Author: Pascucci, V.; Cole-McLaughlin, K
 <a href="https://doi.org/10.1109/VISUAL.2002.1183774"> https://doi.org/10.1109/VISUAL.2002.1183774 </a>
+
 Vis 2002
 <br/>
 
