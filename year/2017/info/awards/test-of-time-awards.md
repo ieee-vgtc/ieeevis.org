@@ -4,6 +4,13 @@ layout: main-2017
 permalink: /year/2017/info/awards/test-of-time-awards
 contact: "web@ieeevis.org"
 ---
+The IEEE VIS Test of Time Award is an accolade given to recognize articles published at previous conferences whose contents are still vibrant and useful today and have had a major impact and influence within and beyond the visualization community.
+
+Papers are selected for each of the three conferences (VAST, InfoVis and SciVis) by Test of Time Awards panels appointed by the conference Steering Committees.
+
+The decisions are based on objective measures such as the numbers of citations, and more subjective ones such as the quality and longevity and influence of ideas, outreach, uptake and effect not only in the research community, but also within application domains and visualization practice.
+
+A full rationale will be provided for each paper at the conference opening, where we hope to encourage researchers to aim to produce work that is forward looking and has transformational potential. We're trying to build on our heritage to establish an ambitious future by making it clear at the outset of the conference opening that we want participants to aspire to be writing papers today that will be relevant in decades to come.
 
 ## VAST 2007
 
