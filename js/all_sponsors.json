@@ -944,6 +944,13 @@
         "year": 2017
     }, 
     {
+        "src": "/attachments/supporters/2017/dl/converted/cray_logo_registered_2945c.png", 
+        "company": "Cray, Inc.", 
+        "href": "", 
+        "class": "Silver", 
+        "year": 2017
+    }, 
+    {
         "src": "/attachments/supporters/2017/dl/converted/Uncharted-rgb-Vertical_27Aug2015.png", 
         "company": "Uncharted Software Inc.", 
         "href": "https://uncharted.software/", 
@@ -981,6 +988,13 @@
     {
         "src": "/attachments/supporters/2017/dl/converted/VRVis-Logo-notext.png", 
         "company": "VRVis Zentrum f\u00fcr Virtual Reality und Visualisierung Forschungs-GmbH", 
+        "href": "", 
+        "class": "Academic", 
+        "year": 2017
+    }, 
+    {
+        "src": "/attachments/supporters/2017/dl/converted/igd_60mm_p334.png", 
+        "company": "Fraunhofer IGD", 
         "href": "", 
         "class": "Academic", 
         "year": 2017
