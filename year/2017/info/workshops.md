@@ -178,7 +178,7 @@ opportunity to discuss and explore ways to harmonize the power of automated
 techniques and exploratory nature of interactive visualization.
 
 
-## <a name="avid"></a> AVID: Advancing Visualization Inclusion and Diversity
+## <a name="avid"></a> [AVID: Advancing Visualization Inclusion and Diversity](https://www.avid-vis.org)
 
 Penny Rheingans, University of Maryland, Baltimore County  
 Kelly Gaither, University of Texas
