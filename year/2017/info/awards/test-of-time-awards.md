@@ -10,7 +10,7 @@ contact: "web@ieeevis.org"
 **Jigsaw: Supporting Investigative Analysis through Interactive Visualization**
 <br/>
 Authors: John Stasko, Carsten Görg, Zhicheng Liu, and Kanupriya Singhal
-<a href="https://doi.org/10.1109/INFVIS.1997.636792"> https://doi.org/10.1109/INFVIS.1997.636792 </a>
+<a href="https://doi.org/10.1109/VAST.2007.4389006"> https://doi.org/10.1109/VAST.2007.4389006 </a>
 VAST 2007
 <br/>
 
@@ -21,6 +21,7 @@ VAST 2007
 **The Structure of the Information Visualization Design Space**
 <br/>
 Authors: Card, S.K.; Mackinlay, J.D.
+<a href="https://doi.org/10.1109/INFVIS.1997.636792"> https://doi.org/10.1109/INFVIS.1997.636792 </a>
 InfoVis 1997
 <br/>
 
@@ -33,6 +34,7 @@ As we said, the notation can be usefully applied to current visualization techni
 **ManyEyes: a Site for Visualization at Internet Scale**
 <br/>
 Author: Wattenberg, M.; Viegas, F.B.; van Ham, F.; McKeon, M.; Kriss, J.
+<a href="https://doi.org/10.1109/TVCG.2007.70577"> https://doi.org/10.1109/TVCG.2007.70577 </a>
 InfoVis 2007
 <br/>
 
@@ -43,12 +45,15 @@ InfoVis 2007
 **Visualization of second order tensor fields and matrix data**
 <br/>
 Authors: Delmarcelle, T.; Hesselink, L.
+<a href="https://doi.org/10.1109/VISUAL.1992.235193"> https://doi.org/10.1109/VISUAL.1992.235193 </a>
 Vis 1992
 <br/>
 
 **Efficient computation of the topology of level sets**
 <br/>
 Author: Pascucci, V.; Cole-McLaughlin, K
+<a href="https://doi.org/10.1109/VISUAL.2002.1183774"> https://doi.org/10.1109/VISUAL.2002.1183774 </a>
+
 Vis 2002
 <br/>
 
