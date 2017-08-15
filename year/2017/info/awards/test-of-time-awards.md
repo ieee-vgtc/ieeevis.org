@@ -9,7 +9,7 @@ contact: "web@ieeevis.org"
 
 **Jigsaw: Supporting Investigative Analysis through Interactive Visualization**
 <br/>
-Authors: John Stasko, Carsten Görg, Zhicheng Liu, and Kanupriya Singhal
+Authors: Stasko, J.; Görg, C.; Liu, Z.; Singhal, K.
 <a href="https://doi.org/10.1109/VAST.2007.4389006"> https://doi.org/10.1109/VAST.2007.4389006 </a>
 VAST 2007
 <br/>
@@ -53,7 +53,6 @@ Vis 1992
 <br/>
 Author: Pascucci, V.; Cole-McLaughlin, K
 <a href="https://doi.org/10.1109/VISUAL.2002.1183774"> https://doi.org/10.1109/VISUAL.2002.1183774 </a>
-
 Vis 2002
 <br/>
 
