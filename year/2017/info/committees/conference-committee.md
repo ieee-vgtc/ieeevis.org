@@ -266,6 +266,10 @@ permalink: /year/2017/info/committees/conference-committee
       <td>Hanqi Guo</td>
       <td>Argonne National Laboratory (SciVis)</td>
     </tr>
+    <tr>
+      <td>Katerina Vrotsou</td>
+      <td>Linköping University (InfoVis)</td>
+    </tr>
     <tr class='committee_section'>
       <th colspan='2'>Meetup Chairs</th>
       <th>&nbsp;</th>
