@@ -45,13 +45,13 @@ The following table shows all registration fees in USD.
     </tr> 
     <tr> 
       <td>Full Week Speaker</td> 
-      <td>$730</td> 
-      <td>$730</td> 
+      <td>$760</td> 
+      <td>$760</td> 
     </tr> 
     <tr> 
       <td>Full Week Student Speaker</td> 
-      <td>$400</td> 
-      <td>$400</td> 
+      <td>$410</td> 
+      <td>$410</td> 
     </tr> 
     <tr> 
       <td>&nbsp;</td> 
@@ -85,13 +85,13 @@ The following table shows all registration fees in USD.
     </tr> 
     <tr> 
       <td>1 Day Speaker</td> 
-      <td>$280</td> 
-      <td>$280</td> 
+      <td>$300</td> 
+      <td>$300</td> 
     </tr> 
     <tr> 
       <td>1 Day Student Speaker</td> 
-      <td>$150</td> 
-      <td>$150</td> 
+      <td>$165</td> 
+      <td>$165</td> 
     </tr> 
     <tr> 
       <td>&nbsp;</td> 

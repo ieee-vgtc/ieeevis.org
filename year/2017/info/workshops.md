@@ -149,7 +149,7 @@ Mennatallah El-Assady, University of Konstanz, Germany
 Daniel Keim, University of Konstanz, Germany  
 David Wrisley, New York University Abu Dhabi, UAE
 
-Contact: stjaenicke@informatik.nui-leipzig.de
+Contact: stjaenicke@informatik.uni-leipzig.de
 
 The first Workshop on Visualization for the Digital Humanities at VIS 2016
 created a new platform to discuss challenges in the emerging digital
@@ -178,14 +178,30 @@ opportunity to discuss and explore ways to harmonize the power of automated
 techniques and exploratory nature of interactive visualization.
 
 
-## <a name="avid"></a> [AVID: Advancing Visualization Inclusion and Diversity]
+## <a name="avid"></a> AVID: Advancing Visualization Inclusion and Diversity
 
 Penny Rheingans, University of Maryland, Baltimore County  
 Kelly Gaither, University of Texas
 
 Contact: rheingan@umbc.edu
 
-Abstract update is currently in progress.
+In the US and in most countries abroad, women account for a relatively small
+fraction of those earning degrees in computer science. Those from some ethnic
+backgrounds are also greatly underrepresented. While no specific figures are
+currently available to describe the diversity of the visualization community,
+a glance around a typical room during VisWeek seems to suggest that
+demographics are similar. Research studies have documented that diverse teams
+and companies produce better outcomes (more robust designs, more productivity,
+more profit). This lack of diversity in our community limits our potential.
+This half-day workshop seeks to address that lack by encouraging
+undergraduates from underrepresented groups and their allies to consider
+graduate study and careers in visualization. The workshop includes an
+overview of the diversity and climate of the visualization community, panels
+by near peers and senior researchers, and interaction opportunities.
+Participants should leave the workshop with increased knowledge about
+opportunities in visualization, a greater understanding of challenges and
+strategies, and a wider network of those sharing their goals.
+
 
 ## <a name="vip"></a> [Vis in Practice - Visualization Solutions in the Wild](http://www.visinpractice.rwth-aachen.de)
 
