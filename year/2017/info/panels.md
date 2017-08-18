@@ -29,9 +29,9 @@ Contact: [groeller@cg.tuwien.ac.at](mailto:groeller@cg.tuwien.ac.at)
 Scale and scalability have been recurring topics in our field. Recent developments like smart data, machine learning, and advances in domains like biology, cartography, smart communities, and communication pose novel challenges to scalability and use of scale. Examples include support for scale-transparent visual computing, cross-scale visualization and interaction, massive multi-scale techniques, scale integration, cross-scale labeling and annotation, cross scales on structure and dynamics, and continuous scales. 
 
 ## <a name="ml-agenda"></a> [How do Recent Machine Learning Advances Impact the Data Visualization Research Agenda?](http://ieeevis.org) 
-Thursday, OCTOBER 5 
-10:30AM-12:10PM 
-Location: 207 Lecture Hall 
+Thursday, OCTOBER 5  
+10:30AM-12:10PM  
+Location: 207 Lecture Hall  
 
 Timo Ropinski (Organizer), Ulm University  
 Daniel Archambault, Swansea University  
