@@ -41,10 +41,12 @@ sponsors_category_order = {
     "Platinum": 1,
     "Gold": 2,
     "Silver": 3,
-    "Academic": 4,
-    "NonProfit/Small Company/Startup": 5,
-    "Non-profit": 5,
-    "Publisher": 6
+    "Bronze": 4,
+    "Academic": 5,
+    "NonProfit/Small Company/Startup": 6,
+    "Non-profit": 6,
+    "Publisher": 7,
+    "Viskids": 8
     }
 
 sponsors_category_remap = {
