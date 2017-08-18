@@ -4,6 +4,9 @@ layout: main-2017
 permalink: /year/2017/info/overview-amp-topics/papers-sessions
 ---
 
+[J] (TVCG journal special issue (SI) papers)  
+[T] (previously published TVCG journal papers presented at VIS)  
+[C] conference papers  
 **TUESDAY, OCTOBER 3**  
 **8:15am-10:30am**  
 **Room: 301-CD**  
