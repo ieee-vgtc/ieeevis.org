@@ -28,11 +28,13 @@ session_dict = dict((session["Name"], session) for session in sessions)
 
 def guess_venue(session):
     ids = set([paper["ID"][:paper["ID"].find('-')] for paper in session["Value"]
-           if (not paper["ID"].startswith("TVCG"))])
+           if (not paper["ID"].startswith("tvcg"))])
     if len(ids) > 1 and list(ids)[0].startswith("CG&A"):
             return "cga" 
+    if len(ids) <> 1 and session["Key"].startswith("VIS Awards"):
+        return list(ids)[0]
     if len(ids) <> 1:
-        raise Exception("couldn't guess conference for session %s" % session["Key"])
+        raise Exception("couldn't guess conference for session %s" % session["Key"] + list(ids)[0])
     return list(ids)[0]
 
 venue_name = { "cga": "CG&A",
@@ -70,7 +72,7 @@ def render_session(session, out):
     out.write("**%s**  \n" % session_dict[name]["Time"])
     out.write("**Room: %s**  \n" % session_dict[name]["Room"])
     out.write("*%s: %s*  \n" % (venue, name))
-    out.write("*Session Chair: %s*  \n" % (session_dict[name]["Chair"]))
+    out.write("*Session Chair: %s*  \n" % (unicode(session_dict[name]["Chair"]).encode("utf-8")))
     out.write("\n")
     for paper in session["Value"]:
         award = awards.get(paper["ID"], None)
