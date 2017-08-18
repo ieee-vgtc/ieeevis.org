@@ -23,24 +23,24 @@ Authors: Karl Bladin, Emil Axelsson, Erik Broberg, Carter Emmart, Patric Ljung, 
 
 **TUESDAY, OCTOBER 3**  
 **2:00pm-3:40pm**  
-**Room: 301-C**  
-*VAST: Space, Time, Movement*  
-*Session Chair: Bettina Speckmann*  
+**Room: 301-D**  
+*InfoVis: Techniques*  
+*Session Chair: Yvonne Jansen*  
 
-**Bring it to the Pitch: Combining Video and Movement Data to Enhance Team Sport Analysis (J)**  
-Authors: Manuel Stein, Halldor Janetzko, Andreas Lamprecht, Thorsten Breitkreutz, Philipp Zimmermann, Bastian Goldlücke, Tobias Schreck, Gennady Andrienko, Michael Grossniklaus, Daniel A. Keim
+**Visualizing Nonlinear Narratives with Story Curves (J)**  
+Authors: Nam Wook Kim, Benjamin Bach, Hyejin Im, Sasha Schriber, Markus Gross, Hanspeter Pfister
 
-**Voila: Visual Anomaly Detection and Monitoring with Streaming Spatiotemporal Data (J)**  
-Authors: Nan Cao, Chaoguang Lin, Qiuhan Zhu, Yu-Ru Lin, Xian Teng, Xidao Wen
+**MyBrush: Brushing and Linking with Personal Agency (J)**  
+Authors: Philipp Koytek, Charles Perin, Jo Vermeulen, Elisabeth André, Sheelagh Carpendale
 
-**Clustering Trajectories by Relevant Parts for Air Traffic Analysis (J)**  
-Authors: Gennady Andrienko, Natalia Andrienko, Georg Fuchs, Jose Manuel Cordero Garcia
+**Nonlinear Dot Plots (J)**  
+Authors: Nils Rodrigues, Daniel Weiskopf
 
-**Revealing Patterns and Trends of Mass Mobility through Spatial and Temporal Abstraction of Origin-Destination Movement Data (T)**  
-Authors: Gennady Andrienko, Natalia Andrienko, Georg Fuchs, Jo Wood
+**VisTiles: Coordinating and Combining Co-located Mobile Devices for Visual Data Exploration (J)**  
+Authors: Ricardo Langner, Tom Horak, Raimund Dachselt
 
-**Data Flow Analysis and Visualization for Spatiotemporal Statistical Data without Trajectory Information (T)**  
-Authors: Seokyeon Kim, Seongmin Jeong, Insoo Woo, Yun Jang, Ross Maciejewski, David Ebert
+**Uncertainty Visualization by Representative Sampling from Prediction Ensembles (T)**  
+Authors: Le Liu; Alexander Boone; Ian Ruginski; Lace Padilla; Mary Hegarty; Sarah H. Creem-Regehr; William B. Thompson; Cem Yuksel; Donald H. House
 
 <hr/>
 
@@ -69,47 +69,24 @@ Authors: Jiang Zhang, Hanqi Guo, Fan Hong, Xiaoru Yuan, Tom Peterka
 
 **TUESDAY, OCTOBER 3**  
 **2:00pm-3:40pm**  
-**Room: 301-D**  
-*InfoVis: Techniques*  
-*Session Chair: Yvonne Jansen*  
-
-**Visualizing Nonlinear Narratives with Story Curves (J)**  
-Authors: Nam Wook Kim, Benjamin Bach, Hyejin Im, Sasha Schriber, Markus Gross, Hanspeter Pfister
-
-**MyBrush: Brushing and Linking with Personal Agency (J)**  
-Authors: Philipp Koytek, Charles Perin, Jo Vermeulen, Elisabeth André, Sheelagh Carpendale
-
-**Nonlinear Dot Plots (J)**  
-Authors: Nils Rodrigues, Daniel Weiskopf
-
-**VisTiles: Coordinating and Combining Co-located Mobile Devices for Visual Data Exploration (J)**  
-Authors: Ricardo Langner, Tom Horak, Raimund Dachselt
-
-**Uncertainty Visualization by Representative Sampling from Prediction Ensembles (T)**  
-Authors: Le Liu; Alexander Boone; Ian Ruginski; Lace Padilla; Mary Hegarty; Sarah H. Creem-Regehr; William B. Thompson; Cem Yuksel; Donald H. House
-
-<hr/>
-
-**TUESDAY, OCTOBER 3**  
-**4:15pm-5:55pm**  
 **Room: 301-C**  
-*VAST: Graphs and Trees*  
-*Session Chair: Stephen Kouborov*  
+*VAST: Space, Time, Movement*  
+*Session Chair: Bettina Speckmann*  
 
-**Dynamic Influence Networks for Rule-based Models (J)**  
-Authors: Angus G. Forbes, Andrew Burks, Kristine Lee, Xing Li, Pierre Boutillier, Jean Krivine, Walter Fontana
+**Bring it to the Pitch: Combining Video and Movement Data to Enhance Team Sport Analysis (J)**  
+Authors: Manuel Stein, Halldor Janetzko, Andreas Lamprecht, Thorsten Breitkreutz, Philipp Zimmermann, Bastian Goldlücke, Tobias Schreck, Gennady Andrienko, Michael Grossniklaus, Daniel A. Keim
 
-**BiDots: Visual Exploration of Weighted Biclusters (J)**  
-Authors: Jian Zhao, Maoyuan Sun, Francine Chen, Patrick Chiu
+**Voila: Visual Anomaly Detection and Monitoring with Streaming Spatiotemporal Data (J)**  
+Authors: Nan Cao, Chaoguang Lin, Qiuhan Zhu, Yu-Ru Lin, Xian Teng, Xidao Wen
 
-**How Do Ancestral Traits Shape Family Trees over Generations? (J)**  
-Authors: Siwei Fu, Hao Dong, Weiwei Cui, Jian Zhao, Huamin Qu
+**Clustering Trajectories by Relevant Parts for Air Traffic Analysis (J)**  
+Authors: Gennady Andrienko, Natalia Andrienko, Georg Fuchs, Jose Manuel Cordero Garcia
 
-**VIGOR: Interactive Visual Exploration of Graph Query Results (J)**  
-Authors: Robert Pienta, Fred Hohman, Alex Endert, Acar Tamersoy, Kevin Roundy, Chris Gates, Shamkant Navathe, Duen Horng Chau
+**Revealing Patterns and Trends of Mass Mobility through Spatial and Temporal Abstraction of Origin-Destination Movement Data (T)**  
+Authors: Gennady Andrienko, Natalia Andrienko, Georg Fuchs, Jo Wood
 
-**Graphiti: Interactive Specification of Attribute-based Edges for Network Modeling and Visualization (J)**  
-Authors: Arjun Srinivasan, Hyunwoo Park, Alex Endert, Rahul C. Basole
+**Data Flow Analysis and Visualization for Spatiotemporal Statistical Data without Trajectory Information (T)**  
+Authors: Seokyeon Kim, Seongmin Jeong, Insoo Woo, Yun Jang, Ross Maciejewski, David Ebert
 
 <hr/>
 
@@ -156,6 +133,29 @@ Authors: Jens G. Magnus, Stefan Bruckner
 
 **A Virtual Reality Visualization Tool for Neuron Tracing (J)**  
 Authors: Will Usher, Pavol Klacansky, Frederick Federer, Peer-Timo Bremer, Aaron Knoll, Alessandra Angelucci, Valerio Pascucci
+
+<hr/>
+
+**TUESDAY, OCTOBER 3**  
+**4:15pm-5:55pm**  
+**Room: 301-C**  
+*VAST: Graphs and Trees*  
+*Session Chair: Stephen Kouborov*  
+
+**Dynamic Influence Networks for Rule-based Models (J)**  
+Authors: Angus G. Forbes, Andrew Burks, Kristine Lee, Xing Li, Pierre Boutillier, Jean Krivine, Walter Fontana
+
+**BiDots: Visual Exploration of Weighted Biclusters (J)**  
+Authors: Jian Zhao, Maoyuan Sun, Francine Chen, Patrick Chiu
+
+**How Do Ancestral Traits Shape Family Trees over Generations? (J)**  
+Authors: Siwei Fu, Hao Dong, Weiwei Cui, Jian Zhao, Huamin Qu
+
+**VIGOR: Interactive Visual Exploration of Graph Query Results (J)**  
+Authors: Robert Pienta, Fred Hohman, Alex Endert, Acar Tamersoy, Kevin Roundy, Chris Gates, Shamkant Navathe, Duen Horng Chau
+
+**Graphiti: Interactive Specification of Attribute-based Edges for Network Modeling and Visualization (J)**  
+Authors: Arjun Srinivasan, Hyunwoo Park, Alex Endert, Rahul C. Basole
 
 <hr/>
 
@@ -227,6 +227,46 @@ Authors: Bing Wang, Klaus Mueller
 
 **WEDNESDAY, OCTOBER 4**  
 **10:30am-12:10pm**  
+**Room: 101-ABC**  
+*CG&A: Spatiotemporal Applications*  
+*Session Chair: Francesca Samsel*  
+
+**ARIES: Enabling Visual Exploration and Organization of Art Image Collections (J)**  
+Authors: Lhaylla Crissaff, Louisa Wood Ruby, Samantha Deutch, R. Luke DuBois, Jean-Daniel Fekete, Juliana Freire, Claudio Silva
+
+**Glyph Visualization: A Fail-Safe Design Scheme Based on Quasi-Hamming Distances (J)**  
+Authors: Philip A. Legg, Eamonn Maguire, Simon Walton, Min Chen
+
+**StatCast Dashboard: Exploration of Spatiotemporal Baseball Data (J)**  
+Authors: Marcos Lage, Jorge Henrique Ono, Daniel Cervone, Justin Chiang, Carlos Dietrich, Claudio Silva
+
+**VisAdapt: A Visualization Tool to Support Climate Change Adaptation (J)**  
+Authors: Jimmy Johansson, Tomasz Opach, Erik Glaas, Tina-Simone Neset, Carlo Navarra, Bjorn-Ola Linner, Jan Ketil Rod
+
+<hr/>
+
+**WEDNESDAY, OCTOBER 4**  
+**10:30am-12:10pm**  
+**Room: 301-D**  
+*InfoVis: Design*  
+*Session Chair: Angus Forbes*  
+
+**Scatterplots: Tasks, Data, and Designs (J)**  
+Authors: Alper Sarikaya, Michael Gleicher
+
+**Considerations for Visualizing Comparison (J)**  
+Authors: Michael Gleicher
+
+**Structuring Visualization Mock-ups at a Graphical Level by Dividing the Display Space (J)**  
+Authors: Romain Vuillemot, Jeremy Boy
+
+**Bridging From Goals to Tasks with Design Study Analysis Reports (J)** *(Best Paper Honorable Mention)*  
+Authors: Heidi Lam, Melanie Tory, Tamara Munzner
+
+<hr/>
+
+**WEDNESDAY, OCTOBER 4**  
+**10:30am-12:10pm**  
 **Room: 207 LECTURE HALL**  
 *VAST: Text Analytics*  
 *Session Chair: Patricia Crossno*  
@@ -269,42 +309,25 @@ Authors: Nicola Pezzotti, Thomas Höllt, Jan van Gemert, Boudewijn P.F. Lelievel
 <hr/>
 
 **WEDNESDAY, OCTOBER 4**  
-**10:30am-12:10pm**  
+**2:00pm-3:40pm**  
 **Room: 301-D**  
-*InfoVis: Design*  
-*Session Chair: Angus Forbes*  
+*InfoVis: Multidimensional Data*  
+*Session Chair: Rita Borgo*  
 
-**Scatterplots: Tasks, Data, and Designs (J)**  
-Authors: Alper Sarikaya, Michael Gleicher
+**Exploring Multivariate Event Sequences using Rules, Aggregations, and Selections (J)**  
+Authors: Bram C.M. Cappers, Jarke J. van Wijk
 
-**Considerations for Visualizing Comparison (J)**  
-Authors: Michael Gleicher
+**Skeleton-based Scagnostics (J)**  
+Authors: José Matute, Alexandru C. Telea, Lars Linsen
 
-**Structuring Visualization Mock-ups at a Graphical Level by Dividing the Display Space (J)**  
-Authors: Romain Vuillemot, Jeremy Boy
+**Keshif: Rapid and Expressive Tabular Data Exploration for Novices (T)**  
+Authors: Mehmet Adil Yalcin, Niklas Elmqvist, Benjamin B Bederson
 
-**Bridging From Goals to Tasks with Design Study Analysis Reports (J)** *(Best Paper Honorable Mention)*  
-Authors: Heidi Lam, Melanie Tory, Tamara Munzner
+**Visual Exploration of Semantic Relationships in Neural Word Embeddings (J)**  
+Authors: Shusen Liu, Peer-Timo Bremer, Jayaraman J. Thiagarajan, Vivek Srikumar, Bei Wang, Yarden Livnat, Valerio Pascucci
 
-<hr/>
-
-**WEDNESDAY, OCTOBER 4**  
-**10:30am-12:10pm**  
-**Room: 101-ABC**  
-*CG&A: (CG&A) Spatiotemporal Applications*  
-*Session Chair: Francesca Samsel*  
-
-**ARIES: Enabling Visual Exploration and Organization of Art Image Collections (J)**  
-Authors: Lhaylla Crissaff, Louisa Wood Ruby, Samantha Deutch, R. Luke DuBois, Jean-Daniel Fekete, Juliana Freire, Claudio Silva
-
-**Glyph Visualization: A Fail-Safe Design Scheme Based on Quasi-Hamming Distances (J)**  
-Authors: Philip A. Legg, Eamonn Maguire, Simon Walton, Min Chen
-
-**StatCast Dashboard: Exploration of Spatiotemporal Baseball Data (J)**  
-Authors: Marcos Lage, Jorge Henrique Ono, Daniel Cervone, Justin Chiang, Carlos Dietrich, Claudio Silva
-
-**VisAdapt: A Visualization Tool to Support Climate Change Adaptation (J)**  
-Authors: Jimmy Johansson, Tomasz Opach, Erik Glaas, Tina-Simone Neset, Carlo Navarra, Bjorn-Ola Linner, Jan Ketil Rod
+**Indexed-Points Parallel Coordinates Visualization of Multivariate Correlations (T)**  
+Authors: Liang Zhou, Daniel Weiskopf
 
 <hr/>
 
@@ -348,52 +371,6 @@ Authors: Siming Chen, Shuai Chen, Lijing Lin, Xiaoru Yuan, Jie Liang, Xiaolong (
 
 **Understanding a sequence of sequences: Visual exploration of categorical states in lake sediment cores (J)**  
 Authors: Andrea Unger, Nadine Dräger, Mike Sips, Dirk J. Lehmann
-
-<hr/>
-
-**WEDNESDAY, OCTOBER 4**  
-**2:00pm-3:40pm**  
-**Room: 301-D**  
-*InfoVis: Multidimensional Data*  
-*Session Chair: Rita Borgo*  
-
-**Exploring Multivariate Event Sequences using Rules, Aggregations, and Selections (J)**  
-Authors: Bram C.M. Cappers, Jarke J. van Wijk
-
-**Skeleton-based Scagnostics (J)**  
-Authors: José Matute, Alexandru C. Telea, Lars Linsen
-
-**Keshif: Rapid and Expressive Tabular Data Exploration for Novices (T)**  
-Authors: Mehmet Adil Yalcin, Niklas Elmqvist, Benjamin B Bederson
-
-**Visual Exploration of Semantic Relationships in Neural Word Embeddings (J)**  
-Authors: Shusen Liu, Peer-Timo Bremer, Jayaraman J. Thiagarajan, Vivek Srikumar, Bei Wang, Yarden Livnat, Valerio Pascucci
-
-**Indexed-Points Parallel Coordinates Visualization of Multivariate Correlations (T)**  
-Authors: Liang Zhou, Daniel Weiskopf
-
-<hr/>
-
-**THURSDAY, OCTOBER 5**  
-**8:30am-10:10am**  
-**Room: 301-C**  
-*VAST: Visual Representation and Design Study*  
-*Session Chair: Jinwook Seo*  
-
-**QSAnglyzer: Visual Analytics for Prismatic Analysis of Question Answering System Evaluations (C)**  
-Authors: Nan-Chen Chen, Been Kim
-
-**A Visual Analytics System for Optimizing Communications in Massively Parallel Applications (C)**  
-Authors: Takanori Fujiwara, Preeti Malakar, Khairi Reda, Venkatram Vishwanath, Michael Papka, Kwan-Liu Ma
-
-**Visualizing Real-Time Strategy Games: The Example of StarCraft II (C)**  
-Authors: Yan-Ting Kuan, Yu-Shuen Wang, Jung-Hong Chuang
-
-**A Utility-aware Visual Approach for Anonymizing Multi-attribute Tabular Data (J)**  
-Authors: Xumeng Wang, Jia-Kai Chou, Wei Chen, Huihua Guan, Wenlong Chen, Tianyi Lao, Kwan-Liu Ma
-
-**The "y" of it Matters: Even for Storyline Visualization (C)**  
-Authors: Dustin Arendt, Megan Pirrung
 
 <hr/>
 
@@ -441,9 +418,32 @@ Authors: Peter Mindek, David Kouřil, Johannes Sorger, Daniel Toloudis, Blair Ly
 <hr/>
 
 **THURSDAY, OCTOBER 5**  
+**8:30am-10:10am**  
+**Room: 301-C**  
+*VAST: Visual Representation and Design Study*  
+*Session Chair: Jinwook Seo*  
+
+**QSAnglyzer: Visual Analytics for Prismatic Analysis of Question Answering System Evaluations (C)**  
+Authors: Nan-Chen Chen, Been Kim
+
+**A Visual Analytics System for Optimizing Communications in Massively Parallel Applications (C)**  
+Authors: Takanori Fujiwara, Preeti Malakar, Khairi Reda, Venkatram Vishwanath, Michael Papka, Kwan-Liu Ma
+
+**Visualizing Real-Time Strategy Games: The Example of StarCraft II (C)**  
+Authors: Yan-Ting Kuan, Yu-Shuen Wang, Jung-Hong Chuang
+
+**A Utility-aware Visual Approach for Anonymizing Multi-attribute Tabular Data (J)**  
+Authors: Xumeng Wang, Jia-Kai Chou, Wei Chen, Huihua Guan, Wenlong Chen, Tianyi Lao, Kwan-Liu Ma
+
+**The "y" of it Matters: Even for Storyline Visualization (C)**  
+Authors: Dustin Arendt, Megan Pirrung
+
+<hr/>
+
+**THURSDAY, OCTOBER 5**  
 **10:30am-12:10pm**  
 **Room: 101-ABC**  
-*CG&A: (CG&A) Sports Data Visual Analytics*  
+*CG&A: Sports Data Visual Analytics*  
 *Session Chair: Gerik Scheuermann*  
 
 **BKViz: A Basketball Visual Analysis Tool (J)**  
@@ -457,6 +457,26 @@ Authors: Charles Perin, Jeremy Boy, Frederic Vernier
 
 **Sport Tournament Predictions by Direct Manipulation (J)**  
 Authors: Romain Vuillemot, Charles Perin
+
+<hr/>
+
+**THURSDAY, OCTOBER 5**  
+**10:30am-12:10pm**  
+**Room: 301-D**  
+*InfoVis: Trees and Table Tennis*  
+*Session Chair: Cagatay Turkay*  
+
+**iTTVis: Interactive Visualization of Table Tennis Data (J)**  
+Authors: Yingcai Wu, Ji Lan, Xinhuan Shu, Chenyang Ji, Kejian Zhao, Jiachen Wang, Hui Zhang
+
+**Bubble Treemaps for Uncertainty Visualization (J)**  
+Authors: Jochen Görtler, Christoph Schulz, Daniel Weiskopf, Oliver Deussen
+
+**Stable Treemaps via Local Moves (J)**  
+Authors: Max Sondag, Bettina Speckmann, Kevin Verbeek
+
+**CyteGuide: Visual Guidance for Hierarchical Single-Cell Analysis (J)**  
+Authors: Thomas Höllt, Nicola Pezzotti, Vincent van Unen, Frits Koning, Boudewijn P.F. Lelieveldt, Anna Vilanova
 
 <hr/>
 
@@ -484,22 +504,25 @@ Authors: Andrea Batch, Niklas Elmqvist
 <hr/>
 
 **THURSDAY, OCTOBER 5**  
-**10:30am-12:10pm**  
+**2:00pm-3:40pm**  
 **Room: 301-D**  
-*InfoVis: Trees and Table Tennis*  
-*Session Chair: Cagatay Turkay*  
+*InfoVis: Understanding Visualization*  
+*Session Chair: Arvind Satyanarayan*  
 
-**iTTVis: Interactive Visualization of Table Tennis Data (J)**  
-Authors: Yingcai Wu, Ji Lan, Xinhuan Shu, Chenyang Ji, Kejian Zhao, Jiachen Wang, Hui Zhang
+**Conceptual and Methodological Issues in Evaluating Multidimensional Visualizations for Decision Support (J)**  
+Authors: Evanthia Dimara, Anastasia Bezerianos, Pierre Dragicevic
 
-**Bubble Treemaps for Uncertainty Visualization (J)**  
-Authors: Jochen Görtler, Christoph Schulz, Daniel Weiskopf, Oliver Deussen
+**Data Through Others' Eyes: The Impact of Visualizing Others' Expectations on Visualization Interpretation (J)**  
+Authors: Yea-Seul Kim, Katharina Reinecke, Jessica Hullman
 
-**Stable Treemaps via Local Moves (J)**  
-Authors: Max Sondag, Bettina Speckmann, Kevin Verbeek
+**Active Reading of Visualizations (J)**  
+Authors: Jagoda Walny, Samuel Huron, Charles Perin, Tiffany Wun, Richard Pusch, Sheelagh Carpendale
 
-**CyteGuide: Visual Guidance for Hierarchical Single-Cell Analysis (J)**  
-Authors: Thomas Höllt, Nicola Pezzotti, Vincent van Unen, Frits Koning, Boudewijn P.F. Lelieveldt, Anna Vilanova
+**Blinded with Science or Informed by Charts? A Replication Study (J)**  
+Authors: Pierre Dragicevic, Yvonne Jansen
+
+**The Explanatory Visualization Framework: An active learning framework for teaching creative computing using explanatory visualizations (J)**  
+Authors: Jonathan C. Roberts, Panagiotis D. Ritsos, James R. Jackson, Christopher Headleand
 
 <hr/>
 
@@ -523,29 +546,6 @@ Authors: Jie Liu, Tim Dwyer, Kim Marriott, Jeremy Millar, Annette Haworth
 
 **Interactive Visual Alignment of Medieval Text Versions (C)**  
 Authors: Stefan Jänicke, David Wrisley
-
-<hr/>
-
-**THURSDAY, OCTOBER 5**  
-**2:00pm-3:40pm**  
-**Room: 301-D**  
-*InfoVis: Understanding Visualization*  
-*Session Chair: Arvind Satyanarayan*  
-
-**Conceptual and Methodological Issues in Evaluating Multidimensional Visualizations for Decision Support (J)**  
-Authors: Evanthia Dimara, Anastasia Bezerianos, Pierre Dragicevic
-
-**Data Through Others' Eyes: The Impact of Visualizing Others' Expectations on Visualization Interpretation (J)**  
-Authors: Yea-Seul Kim, Katharina Reinecke, Jessica Hullman
-
-**Active Reading of Visualizations (J)**  
-Authors: Jagoda Walny, Samuel Huron, Charles Perin, Tiffany Wun, Richard Pusch, Sheelagh Carpendale
-
-**Blinded with Science or Informed by Charts? A Replication Study (J)**  
-Authors: Pierre Dragicevic, Yvonne Jansen
-
-**The Explanatory Visualization Framework: An active learning framework for teaching creative computing using explanatory visualizations (J)**  
-Authors: Jonathan C. Roberts, Panagiotis D. Ritsos, James R. Jackson, Christopher Headleand
 
 <hr/>
 
@@ -617,29 +617,6 @@ Authors: Bum Chul Kwon, Ben Eysenbach, Janu Verma, Kenney Ng, Christopher deFili
 
 **FRIDAY, OCTOBER 6**  
 **8:30am-10:10am**  
-**Room: 106-ABC**  
-*SciVis: Applications and Visual analysis*  
-*Session Chair: Torsten Möller*  
-
-**DSPCP: A Data Scalable Approach for Identifying Relationships in Parallel Coordinates (T)**  
-Authors: Hoa Nguyen, Paul Rosen
-
-**PETMiner – A Visual Analysis Tool for Petrophysical Properties of Core Sample Data (T)**  
-Authors: Dave G. Harrison, Nick D. Efford, Quentin J. Fisher, Roy A. Ruddle
-
-**StreetVizor: Visual Exploration of Human-Scale Urban Forms Based on Street Views (J)**  
-Authors: Qiaomu Shen, Wei Zeng, Yu Ye, Stefan Müller Arisona, Simon Schubiger, Remo Burkhard, Huamin Qu
-
-**Multiscale Visualization and Scale-Adaptive Modification of DNA Nanostructures (J)**  
-Authors: Haichao Miao, Elisa De Llano, Johannes Sorger, Yasaman Ahmadi, Tadija Kekic, Tobias Isenberg, M. Eduard Gröller, Ivan Barišić, Ivan Viola
-
-**BASTet: Shareable and reproducible analysis and visualization of mass spectrometry imaging data via OpenMSI (J)**  
-Authors: Oliver Rübel, Benjamin P. Bowen
-
-<hr/>
-
-**FRIDAY, OCTOBER 6**  
-**8:30am-10:10am**  
 **Room: 105-ABC**  
 *InfoVis: Evaluation*  
 *Session Chair: Lane Harrison*  
@@ -658,6 +635,29 @@ Authors: Sabrina Nusrat, Muhammad Jawaherul Alam, Stephen Kobourov
 
 **Keeping Multiple Views Consistent: Constraints, Validations, and Exceptions in Visualization Authoring (J)** *(Best Paper Honorable Mention)*  
 Authors: Zening Qu, Jessica Hullman
+
+<hr/>
+
+**FRIDAY, OCTOBER 6**  
+**8:30am-10:10am**  
+**Room: 106-ABC**  
+*SciVis: Applications and Visual analysis*  
+*Session Chair: Torsten Möller*  
+
+**DSPCP: A Data Scalable Approach for Identifying Relationships in Parallel Coordinates (T)**  
+Authors: Hoa Nguyen, Paul Rosen
+
+**PETMiner – A Visual Analysis Tool for Petrophysical Properties of Core Sample Data (T)**  
+Authors: Dave G. Harrison, Nick D. Efford, Quentin J. Fisher, Roy A. Ruddle
+
+**StreetVizor: Visual Exploration of Human-Scale Urban Forms Based on Street Views (J)**  
+Authors: Qiaomu Shen, Wei Zeng, Yu Ye, Stefan Müller Arisona, Simon Schubiger, Remo Burkhard, Huamin Qu
+
+**Multiscale Visualization and Scale-Adaptive Modification of DNA Nanostructures (J)**  
+Authors: Haichao Miao, Elisa De Llano, Johannes Sorger, Yasaman Ahmadi, Tadija Kekic, Tobias Isenberg, M. Eduard Gröller, Ivan Barišić, Ivan Viola
+
+**BASTet: Shareable and reproducible analysis and visualization of mass spectrometry imaging data via OpenMSI (J)**  
+Authors: Oliver Rübel, Benjamin P. Bowen
 
 <hr/>
 

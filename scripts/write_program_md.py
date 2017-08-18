@@ -94,11 +94,19 @@ def session_key(session):
         "2": 2,
         "4": 3,
         }
+    venue_order = {
+        "VIS": 0,
+        "VAST": 1,
+        "InfoVis": 2,
+        "SciVis": 3,
+        "CG&A": 4,
+        }
     name = session["Key"]
+    venue = venue_name[guess_venue(session)]
     metadata = session_dict[name]
     day = metadata["Day"][-1:]
     time = order[metadata["Time"][:metadata["Time"].find(':')]]
-    return (day, time)
+    return (day, time, venue)
 
 out = sys.stdout
 for session in sorted(group_by(records, lambda k: k['Session']), key = session_key):
