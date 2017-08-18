@@ -13,6 +13,9 @@ contact: "panels@ieeevis.org"
 
 
 ## <a name="scale-matters"></a> [A Matter of Scale - Scale Matters](http://ieeevis.org)
+Friday, OCTOBER 6
+8:30AM-10:10AM
+Location: 101-ABC
 
 Arthur Olson (Organizer), The Scripps Research Institute  
 Eduard Groeller (Organizer), TU Vienna  
@@ -26,6 +29,9 @@ Contact: [groeller@cg.tuwien.ac.at](mailto:groeller@cg.tuwien.ac.at)
 Scale and scalability have been recurring topics in our field. Recent developments like smart data, machine learning, and advances in domains like biology, cartography, smart communities, and communication pose novel challenges to scalability and use of scale. Examples include support for scale-transparent visual computing, cross-scale visualization and interaction, massive multi-scale techniques, scale integration, cross-scale labeling and annotation, cross scales on structure and dynamics, and continuous scales. 
 
 ## <a name="ml-agenda"></a> [How do Recent Machine Learning Advances Impact the Data Visualization Research Agenda?](http://ieeevis.org)
+Thursday, OCTOBER 5
+10:30AM-12:10PM
+Location: 207 Lecture Hall
 
 Timo Ropinski (Organizer), Ulm University  
 Daniel Archambault, Swansea University  
@@ -40,6 +46,9 @@ Contact: [timo.ropinski@uni-ulm.de](mailto:timo.ropinski@uni-ulm.de)
 Nowadays, machine learning approaches have revolutionized many domains. As this pushes the human out of the loop, the human-in-the-loop paradigm might be endangered. Thus, we would like to investigate, which old visualization challenges are rendered obsolete, and which new visualization challenges arise from the recent advances in machine learning.
 
 ## <a name="vip"></a> [Increasing the Impact of Visualization Research](http://www.visinpractice.rwth-aachen.de/panel.html)
+Tuesday, OCTOBER 3
+2:00PM-3:40PM
+Location: 101-ABC
 
 Steven M. Drucker, Microsoft Research  
 Adam Perer, IBM Research  
@@ -54,6 +63,9 @@ The Vis in Practice panel is part of the IEEE VIS 2017 main program and provides
 
 
 ## <a name="design-studies"></a> [Reflection on Reflection in Design Studies](http://ieeevis.org)
+Thursday, OCTOBER 5
+4:15PM-5:55PM
+Location: 101-ABC
 
 Jason Dykes (Organizer), City University of London  
 Miriah Meyer (Organizer), University of Utah  
@@ -67,6 +79,9 @@ Contact: [J.Dykes@city.ac.uk](mailto:J.Dykes@city.ac.uk)
 Design study research methodologies emphasize the need for reflection to generate knowledge. We ask six researchers to reflect upon the role of reflection in design studies, as we try to share and develop good practice. Come along to participate in an interactive conversation around reflection, that underpins applied visualization research.
 
 ## <a name="vision-science"></a> [Vision Science Meets Visualization](http://ieeevis.org)
+Wednesday, OCTOBER 4
+2:00PM-3:40PM
+Location: 101-ABC
 
 Christine Nothelfer (Organizer), Northwestern University  
 Zoya Bylinskii (Organizer), Massachusetts Institute of Technology  
