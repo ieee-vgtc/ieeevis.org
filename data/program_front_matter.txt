@@ -7,3 +7,5 @@ permalink: /year/2017/info/overview-amp-topics/papers-sessions
 [J] (TVCG journal special issue (SI) papers)  
 [T] (previously published TVCG journal papers presented at VIS)  
 [C] conference papers  
+
+
