@@ -4,7 +4,7 @@ layout: main-2017
 permalink: /year/2017/info/overview-amp-topics/papers-sessions
 ---
 
-**FRIDAY**  
+**FRIDAY, OCTOBER 6**  
 **8:30am-10:10am**  
 **Room: 106-ABC**  
 *SciVis: Applications and Visual analysis*  
@@ -27,54 +27,11 @@ Authors: Oliver Rübel, Benjamin P. Bowen
 
 <hr/>
 
-**FRIDAY**  
-**8:30am-10:10am**  
-**Room: 105-ABC**  
-*InfoVis: Evaluation*  
-*Session Chair: Lane Harrison*  
-
-**Imagining Replications: Graphical Prediction & Discrete Visualizations Improve Recall & Estimation of Effect Uncertainty (J)**  
-Authors: Jessica Hullman, Matthew Kay, Yea-Seul Kim, Samana Shrestha
-
-**A Systematic Review of Experimental Studies on Data Glyphs (T)**  
-Authors: Johannes Fuchs, Petra Isenberg, Anastasia Bezerianos, Daniel Keim
-
-**The Hologram in My Hand: How Effective is Interactive Exploration of 3D Visualizations in Immersive Tangible Augmented Reality? (J)**  
-Authors: Benjamin Bach, Ronell Sicat, Johanna Beyer, Maxime Cordeil, Hanspeter Pfister
-
-**Evaluating Cartogram Effectiveness (T)**  
-Authors: Sabrina Nusrat, Muhammad Jawaherul Alam, Stephen Kobourov
-
-**Keeping Multiple Views Consistent: Constraints, Validations, and Exceptions in Visualization Authoring (J)** *(Best Paper Honorable Mention)*  
-Authors: Zening Qu, Jessica Hullman
-
-<hr/>
-
-**FRIDAY**  
-**8:30am-10:10am**  
-**Room: 102-ABC**  
-*VAST: ML3: Classification*  
-*Session Chair: Huamin Qu*  
-
-**Do Convolutional Neural Networks Learn Class Hierarchy? (J)**  
-Authors: Bilal Alsallakh, Amin Jourabloo, Mao Ye, Xiaoming Liu, Liu Ren
-
-**Visual Diagnosis of Tree Boosting Methods (J)**  
-Authors: Shixia Liu, Jiannan Xiao, Junlin Liu, Xiting Wang, Jing Wu, Jun Zhu
-
-**A Workflow for Visual Diagnostics of Binary Classifiers using Instance-Level Explanations (C)**  
-Authors: Josua Krause, Aritra Dasgupta, Jordan Swartz, Yindalon Aphinyanaphongs, Enrico Bertini
-
-**TreePOD: Sensitivity-Aware Selection of Pareto-Optimal Decision Trees (J)**  
-Authors: Thomas Mühlbacher, Lorenz Linhardt, Torsten Möller, Harald Piringer
-
-<hr/>
-
-**TUESDAY**  
+**TUESDAY, OCTOBER 3**  
 **8:15am-10:30am**  
 **Room: **  
 *InfoVis: VIS Awards & Best Papers*  
-*Session Chair: *  
+*Session Chair: Best Paper Award Committees*  
 
 **Visualizing Dataflow Graphs of Deep Learning Models in TensorFlow (J)** *(Best Paper Award)*  
 Authors: Kanit Wongsuphasawat, Daniel Smilkov, James Wexler, Jimbo Wilson, Dandelion Mané, Doug Fritz, Dilip Krishnan, Fernanda B. Viégas, Martin Wattenberg
@@ -96,7 +53,7 @@ Authors: Karl Bladin, Emil Axelsson, Erik Broberg, Carter Emmart, Patric Ljung, 
 
 <hr/>
 
-**THURSDAY**  
+**THURSDAY, OCTOBER 5**  
 **8:30am-10:10am**  
 **Room: 301-C**  
 *VAST: Visual Representation and Design Study*  
@@ -119,7 +76,30 @@ Authors: Dustin Arendt, Megan Pirrung
 
 <hr/>
 
-**WEDNESDAY**  
+**FRIDAY, OCTOBER 6**  
+**8:30am-10:10am**  
+**Room: 105-ABC**  
+*InfoVis: Evaluation*  
+*Session Chair: Lane Harrison*  
+
+**Imagining Replications: Graphical Prediction & Discrete Visualizations Improve Recall & Estimation of Effect Uncertainty (J)**  
+Authors: Jessica Hullman, Matthew Kay, Yea-Seul Kim, Samana Shrestha
+
+**A Systematic Review of Experimental Studies on Data Glyphs (T)**  
+Authors: Johannes Fuchs, Petra Isenberg, Anastasia Bezerianos, Daniel Keim
+
+**The Hologram in My Hand: How Effective is Interactive Exploration of 3D Visualizations in Immersive Tangible Augmented Reality? (J)**  
+Authors: Benjamin Bach, Ronell Sicat, Johanna Beyer, Maxime Cordeil, Hanspeter Pfister
+
+**Evaluating Cartogram Effectiveness (T)**  
+Authors: Sabrina Nusrat, Muhammad Jawaherul Alam, Stephen Kobourov
+
+**Keeping Multiple Views Consistent: Constraints, Validations, and Exceptions in Visualization Authoring (J)** *(Best Paper Honorable Mention)*  
+Authors: Zening Qu, Jessica Hullman
+
+<hr/>
+
+**WEDNESDAY, OCTOBER 4**  
 **8:30am-10:10am**  
 **Room: 301-D**  
 *InfoVis: Perception*  
@@ -142,7 +122,7 @@ Authors: Bahador Saket, Arjun Srinivasan, Eric D. Ragan, Alex Endert
 
 <hr/>
 
-**WEDNESDAY**  
+**WEDNESDAY, OCTOBER 4**  
 **8:30am-10:10am**  
 **Room: 207 LECTURE HALL**  
 *SciVis: Flow Visualization*  
@@ -162,7 +142,7 @@ Authors: Ashok Jallepalli, Julia Docampo-Sánchez, Jennifer K. Ryan, Bob Haimes,
 
 <hr/>
 
-**THURSDAY**  
+**THURSDAY, OCTOBER 5**  
 **8:30am-10:10am**  
 **Room: 301-D**  
 *InfoVis: Text and Machine Learning*  
@@ -185,7 +165,7 @@ Authors: Hendrik Strobelt, Sebastian Gehrmann, Hanspeter Pfister, Alexander M. R
 
 <hr/>
 
-**THURSDAY**  
+**THURSDAY, OCTOBER 5**  
 **8:30am-10:10am**  
 **Room: 207 LECTURE HALL**  
 *SciVis: Visualization in Biology and Medicine*  
@@ -205,7 +185,27 @@ Authors: Peter Mindek, David Kouřil, Johannes Sorger, Daniel Toloudis, Blair Ly
 
 <hr/>
 
-**WEDNESDAY**  
+**FRIDAY, OCTOBER 6**  
+**8:30am-10:10am**  
+**Room: 102-ABC**  
+*VAST: ML3: Classification*  
+*Session Chair: Huamin Qu*  
+
+**Do Convolutional Neural Networks Learn Class Hierarchy? (J)**  
+Authors: Bilal Alsallakh, Amin Jourabloo, Mao Ye, Xiaoming Liu, Liu Ren
+
+**Visual Diagnosis of Tree Boosting Methods (J)**  
+Authors: Shixia Liu, Jiannan Xiao, Junlin Liu, Xiting Wang, Jing Wu, Jun Zhu
+
+**A Workflow for Visual Diagnostics of Binary Classifiers using Instance-Level Explanations (C)**  
+Authors: Josua Krause, Aritra Dasgupta, Jordan Swartz, Yindalon Aphinyanaphongs, Enrico Bertini
+
+**TreePOD: Sensitivity-Aware Selection of Pareto-Optimal Decision Trees (J)**  
+Authors: Thomas Mühlbacher, Lorenz Linhardt, Torsten Möller, Harald Piringer
+
+<hr/>
+
+**WEDNESDAY, OCTOBER 4**  
 **8:30am-10:10am**  
 **Room: 301-C**  
 *VAST: High-dimensional Data*  
@@ -228,7 +228,7 @@ Authors: Bing Wang, Klaus Mueller
 
 <hr/>
 
-**WEDNESDAY**  
+**WEDNESDAY, OCTOBER 4**  
 **10:30am-12:10pm**  
 **Room: 207 LECTURE HALL**  
 *VAST: Text Analytics*  
@@ -251,7 +251,7 @@ Authors: Mennatallah El-Assady, Rita Sevastjanova, Fabian Sperrle, Daniel Keim, 
 
 <hr/>
 
-**WEDNESDAY**  
+**WEDNESDAY, OCTOBER 4**  
 **10:30am-12:10pm**  
 **Room: 301-C**  
 *VAST: ML1: Deep Learning*  
@@ -271,7 +271,7 @@ Authors: Nicola Pezzotti, Thomas Höllt, Jan van Gemert, Boudewijn P.F. Lelievel
 
 <hr/>
 
-**WEDNESDAY**  
+**WEDNESDAY, OCTOBER 4**  
 **10:30am-12:10pm**  
 **Room: 301-D**  
 *InfoVis: Design*  
@@ -291,7 +291,7 @@ Authors: Heidi Lam, Melanie Tory, Tamara Munzner
 
 <hr/>
 
-**THURSDAY**  
+**THURSDAY, OCTOBER 5**  
 **10:30am-12:10pm**  
 **Room: 301-C**  
 *VAST: Theory and Analysis Process*  
@@ -314,7 +314,7 @@ Authors: Andrea Batch, Niklas Elmqvist
 
 <hr/>
 
-**THURSDAY**  
+**THURSDAY, OCTOBER 5**  
 **10:30am-12:10pm**  
 **Room: 301-D**  
 *InfoVis: Trees and Table Tennis*  
@@ -334,7 +334,7 @@ Authors: Thomas Höllt, Nicola Pezzotti, Vincent van Unen, Frits Koning, Boudewi
 
 <hr/>
 
-**THURSDAY**  
+**THURSDAY, OCTOBER 5**  
 **2:00pm-3:40pm**  
 **Room: 301-C**  
 *VAST: Interaction in the Analysis Process*  
@@ -357,7 +357,7 @@ Authors: Stefan Jänicke, David Wrisley
 
 <hr/>
 
-**TUESDAY**  
+**TUESDAY, OCTOBER 3**  
 **2:00pm-3:40pm**  
 **Room: 301-C**  
 *VAST: Space, Time, Movement*  
@@ -380,7 +380,7 @@ Authors: Seokyeon Kim, Seongmin Jeong, Insoo Woo, Yun Jang, Ross Maciejewski, Da
 
 <hr/>
 
-**THURSDAY**  
+**THURSDAY, OCTOBER 5**  
 **2:00pm-3:40pm**  
 **Room: 301-D**  
 *InfoVis: Understanding Visualization*  
@@ -403,7 +403,7 @@ Authors: Jonathan C. Roberts, Panagiotis D. Ritsos, James R. Jackson, Christophe
 
 <hr/>
 
-**WEDNESDAY**  
+**WEDNESDAY, OCTOBER 4**  
 **2:00pm-3:40pm**  
 **Room: 207 LECTURE HALL**  
 *SciVis: Topology-based methods*  
@@ -423,7 +423,7 @@ Authors: Lawrence Roy, Prashant Kumar, Sanaz Golbabaei, Yue Zhang, Eugene Zhang
 
 <hr/>
 
-**WEDNESDAY**  
+**WEDNESDAY, OCTOBER 4**  
 **2:00pm-3:40pm**  
 **Room: 301-C**  
 *VAST: Sequences and Events*  
@@ -446,7 +446,7 @@ Authors: Andrea Unger, Nadine Dräger, Mike Sips, Dirk J. Lehmann
 
 <hr/>
 
-**WEDNESDAY**  
+**WEDNESDAY, OCTOBER 4**  
 **2:00pm-3:40pm**  
 **Room: 301-D**  
 *InfoVis: Multidimensional Data*  
@@ -469,7 +469,7 @@ Authors: Liang Zhou, Daniel Weiskopf
 
 <hr/>
 
-**TUESDAY**  
+**TUESDAY, OCTOBER 3**  
 **2:00pm-3:40pm**  
 **Room: 207 LECTURE HALL**  
 *SciVis: Mix:Foundations, uncertainty, particles*  
@@ -492,7 +492,7 @@ Authors: Jiang Zhang, Hanqi Guo, Fan Hong, Xiaoru Yuan, Tom Peterka
 
 <hr/>
 
-**TUESDAY**  
+**TUESDAY, OCTOBER 3**  
 **2:00pm-3:40pm**  
 **Room: 301-D**  
 *InfoVis: Techniques*  
@@ -515,7 +515,7 @@ Authors: Le Liu; Alexander Boone; Ian Ruginski; Lace Padilla; Mary Hegarty; Sara
 
 <hr/>
 
-**TUESDAY**  
+**TUESDAY, OCTOBER 3**  
 **4:15pm-5:55pm**  
 **Room: 301-C**  
 *VAST: Graphs and Trees*  
@@ -538,7 +538,7 @@ Authors: Arjun Srinivasan, Hyunwoo Park, Alex Endert, Rahul C. Basole
 
 <hr/>
 
-**THURSDAY**  
+**THURSDAY, OCTOBER 5**  
 **4:15pm-5:55pm**  
 **Room: 301-D**  
 *InfoVis: Graphs and Paths*  
@@ -561,7 +561,7 @@ Authors: Fritz Lekschas, Benjamin Bach, Peter Kerpedjiev, Nils Gehlenborg, Hansp
 
 <hr/>
 
-**TUESDAY**  
+**TUESDAY, OCTOBER 3**  
 **4:15pm-5:55pm**  
 **Room: 301-D**  
 *InfoVis: Time and Space*  
@@ -584,7 +584,7 @@ Authors: Fabio Miranda; Lauro Lins; James Klosowski; Claudio Silva
 
 <hr/>
 
-**THURSDAY**  
+**THURSDAY, OCTOBER 5**  
 **4:15pm-5:55pm**  
 **Room: 207 LECTURE HALL**  
 *VAST: Sensemaking*  
@@ -607,7 +607,7 @@ Authors: Jun Wang, Klaus Mueller
 
 <hr/>
 
-**THURSDAY**  
+**THURSDAY, OCTOBER 5**  
 **4:15pm-5:55pm**  
 **Room: 301-C**  
 *VAST: ML2: Cluster Analysis*  
@@ -627,7 +627,7 @@ Authors: Bum Chul Kwon, Ben Eysenbach, Janu Verma, Kenney Ng, Christopher deFili
 
 <hr/>
 
-**TUESDAY**  
+**TUESDAY, OCTOBER 3**  
 **4:15pm-5:55pm**  
 **Room: 207 LECTURE HALL**  
 *SciVis: Volume Rendering*  
