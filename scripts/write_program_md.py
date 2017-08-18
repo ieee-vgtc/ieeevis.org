@@ -20,7 +20,7 @@ from data import *
 import min_html as h
 import sys
 
-gc = get_spreadsheet("VIS2016 Program")
+gc = get_spreadsheet("VIS2017 Program")
 records = load_sheet_by_name(gc, "Program").get_all_records()
 sessions = load_sheet_by_name(gc, "Sessions").get_all_records()
 awards = dict((award["paper-id"], award) for award in load_sheet_by_name(gc, "Awards").get_all_records())
