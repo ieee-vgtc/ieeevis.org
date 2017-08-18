@@ -12,10 +12,10 @@ contact: "panels@ieeevis.org"
 * [Vision Science Meets Visualization](#vision-science)
 
 
-## <a name="scale-matters"></a> [A Matter of Scale - Scale Matters](http://ieeevis.org)
-Friday, OCTOBER 6 
-8:30AM-10:10AM 
-Location: 101-ABC 
+## <a name="scale-matters"></a> [A Matter of Scale - Scale Matters](http://ieeevis.org) 
+Friday, OCTOBER 6  
+8:30AM-10:10AM  
+Location: 101-ABC   
 
 Arthur Olson (Organizer), The Scripps Research Institute  
 Eduard Groeller (Organizer), TU Vienna  
