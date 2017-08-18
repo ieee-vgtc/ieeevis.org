@@ -102,7 +102,7 @@ def session_key(session):
         "CG&A": 4,
         }
     name = session["Key"]
-    venue = venue_name[guess_venue(session)]
+    venue = venue_order[venue_name[guess_venue(session)]]
     metadata = session_dict[name]
     day = metadata["Day"][-1:]
     time = order[metadata["Time"][:metadata["Time"].find(':')]]
