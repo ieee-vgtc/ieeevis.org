@@ -6,17 +6,17 @@ permalink: /year/2017/info/overview-amp-topics/papers-sessions
 
 **TUESDAY, OCTOBER 3**  
 **8:15am-10:30am**  
-**Room: TBA**  
+**Room: 301-CD**  
 *VIS: VIS Awards & Best Papers*  
 *Session Chair: Best Paper Award Committees*  
 
-**Visualizing Dataflow Graphs of Deep Learning Models in TensorFlow (J)** *(Best Paper Award)*  
+**Visualizing Dataflow Graphs of Deep Learning Models in TensorFlow (J)** *(Best Paper Award, VAST)*  
 Authors: Kanit Wongsuphasawat, Daniel Smilkov, James Wexler, Jimbo Wilson, Dandelion Mané, Doug Fritz, Dilip Krishnan, Fernanda B. Viégas, Martin Wattenberg
 
-**Modeling Color Difference for Visualization Design (J)** *(Best Paper Award)*  
+**Modeling Color Difference for Visualization Design (J)** *(Best Paper Award, InfoVis)*  
 Authors: Danielle Albers Szafir
 
-**Globe Browsing: Contextualized Spatio-Temporal Planetary Surface Visualization (J)** *(Best Paper Award)*  
+**Globe Browsing: Contextualized Spatio-Temporal Planetary Surface Visualization (J)** *(Best Paper Award, SciVis)*  
 Authors: Karl Bladin, Emil Axelsson, Erik Broberg, Carter Emmart, Patric Ljung, Alexander Bock, Anders Ynnerman
 
 <hr/>
@@ -47,7 +47,7 @@ Authors: Seokyeon Kim, Seongmin Jeong, Insoo Woo, Yun Jang, Ross Maciejewski, Da
 **TUESDAY, OCTOBER 3**  
 **2:00pm-3:40pm**  
 **Room: 207 LECTURE HALL**  
-*SciVis: Mix:Foundations, uncertainty, particles*  
+*SciVis: Mix: Foundations, uncertainty, particles*  
 *Session Chair: Anna Vilanova*  
 
 **Activity-Centered Domain Characterization for Problem-Driven Scientific Visualization (J)**  
@@ -289,6 +289,26 @@ Authors: Heidi Lam, Melanie Tory, Tamara Munzner
 <hr/>
 
 **WEDNESDAY, OCTOBER 4**  
+**10:30am-12:10pm**  
+**Room: 101-ABC**  
+*CG&A: (CG&A) Spatiotemporal Applications*  
+*Session Chair: Francesca Samsel*  
+
+**ARIES: Enabling Visual Exploration and Organization of Art Image Collections (J)**  
+Authors: Lhaylla Crissaff, Louisa Wood Ruby, Samantha Deutch, R. Luke DuBois, Jean-Daniel Fekete, Juliana Freire, Claudio Silva
+
+**Glyph Visualization: A Fail-Safe Design Scheme Based on Quasi-Hamming Distances (J)**  
+Authors: Philip A. Legg, Eamonn Maguire, Simon Walton, Min Chen
+
+**StatCast Dashboard: Exploration of Spatiotemporal Baseball Data (J)**  
+Authors: Marcos Lage, Jorge Henrique Ono, Daniel Cervone, Justin Chiang, Carlos Dietrich, Claudio Silva
+
+**VisAdapt: A Visualization Tool to Support Climate Change Adaptation (J)**  
+Authors: Jimmy Johansson, Tomasz Opach, Erik Glaas, Tina-Simone Neset, Carlo Navarra, Bjorn-Ola Linner, Jan Ketil Rod
+
+<hr/>
+
+**WEDNESDAY, OCTOBER 4**  
 **2:00pm-3:40pm**  
 **Room: 207 LECTURE HALL**  
 *SciVis: Topology-based methods*  
@@ -372,7 +392,7 @@ Authors: Yan-Ting Kuan, Yu-Shuen Wang, Jung-Hong Chuang
 **A Utility-aware Visual Approach for Anonymizing Multi-attribute Tabular Data (J)**  
 Authors: Xumeng Wang, Jia-Kai Chou, Wei Chen, Huihua Guan, Wenlong Chen, Tianyi Lao, Kwan-Liu Ma
 
-**The "y" of it Matters; Even for Storyline Visualization (C)**  
+**The "y" of it Matters: Even for Storyline Visualization (C)**  
 Authors: Dustin Arendt, Megan Pirrung
 
 <hr/>
@@ -417,6 +437,26 @@ Authors: Julian Kreiser, Alexander Hann, Eugen Zizer, Timo Ropinski
 
 **Visualization Multi-Pipeline for Communicating Biology (J)**  
 Authors: Peter Mindek, David Kouřil, Johannes Sorger, Daniel Toloudis, Blair Lyons, Graham Johnson, M. Eduard Gröller, Ivan Viola
+
+<hr/>
+
+**THURSDAY, OCTOBER 5**  
+**10:30am-12:10pm**  
+**Room: 101-ABC**  
+*CG&A: (CG&A) Sports Data Visual Analytics*  
+*Session Chair: Gerik Scheuermann*  
+
+**BKViz: A Basketball Visual Analysis Tool (J)**  
+Authors: Antonio G. Losada, Roberto Theron, Alejandro Benito
+
+**Director's Cut: Analysis and Annotation of Soccer Matches (J)**  
+Authors: Manuel Stein, Halldór Janetzko, Thorsten Breitkreutz, Daniel Seebacher, Tobias Schreck, Michael Grossniklaus, Iain Couzin, Daniel Keim
+
+**GapChart: a Gap Strategy to Visualize the Temporal Evolution of both Ranks and Scores (J)**  
+Authors: Charles Perin, Jeremy Boy, Frederic Vernier
+
+**Sport Tournament Predictions by Direct Manipulation (J)**  
+Authors: Romain Vuillemot, Charles Perin
 
 <hr/>
 

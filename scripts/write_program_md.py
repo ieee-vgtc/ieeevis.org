@@ -62,8 +62,12 @@ def award_string(award):
         return ""
     if award["type"] == 'Honorable Mention':
         return " *(Best Paper Honorable Mention)*"
-    if award["type"] == 'Award':
-        return " *(Best Paper Award)*"
+    if award["type"] == 'Award vast':
+        return " *(Best Paper Award, VAST)*"
+    if award["type"] == 'Award infovis':
+        return " *(Best Paper Award, InfoVis)*"
+    if award["type"] == 'Award scivis':
+        return " *(Best Paper Award, SciVis)*"
     raise Exception("Could not recognize award type '%s'" % award["type"])
 
 def render_session(session, out):
