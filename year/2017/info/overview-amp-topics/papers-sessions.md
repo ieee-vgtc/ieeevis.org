@@ -7,17 +7,8 @@ permalink: /year/2017/info/overview-amp-topics/papers-sessions
 **TUESDAY, OCTOBER 3**  
 **8:15am-10:30am**  
 **Room: TBA**  
-*InfoVis: VIS Awards & Best Papers*  
+*VIS: VIS Awards & Best Papers*  
 *Session Chair: Best Paper Award Committees*  
-
-**Visualizing Dataflow Graphs of Deep Learning Models in TensorFlow (J)** *(Best Paper Award)*  
-Authors: Kanit Wongsuphasawat, Daniel Smilkov, James Wexler, Jimbo Wilson, Dandelion Mané, Doug Fritz, Dilip Krishnan, Fernanda B. Viégas, Martin Wattenberg
-
-**Modeling Color Difference for Visualization Design (J)** *(Best Paper Award)*  
-Authors: Danielle Albers Szafir
-
-**Globe Browsing: Contextualized Spatio-Temporal Planetary Surface Visualization (J)** *(Best Paper Award)*  
-Authors: Karl Bladin, Emil Axelsson, Erik Broberg, Carter Emmart, Patric Ljung, Alexander Bock, Anders Ynnerman
 
 **Visualizing Dataflow Graphs of Deep Learning Models in TensorFlow (J)** *(Best Paper Award)*  
 Authors: Kanit Wongsuphasawat, Daniel Smilkov, James Wexler, Jimbo Wilson, Dandelion Mané, Doug Fritz, Dilip Krishnan, Fernanda B. Viégas, Martin Wattenberg

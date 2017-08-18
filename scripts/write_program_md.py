@@ -32,7 +32,7 @@ def guess_venue(session):
     if len(ids) > 1 and list(ids)[0].startswith("CG&A"):
             return "cga" 
     if len(ids) <> 1 and session["Key"].startswith("VIS Awards"):
-        return list(ids)[0]
+        return "all"
     if len(ids) <> 1:
         raise Exception("couldn't guess conference for session %s" % session["Key"] + list(ids)[0])
     return list(ids)[0]
@@ -40,6 +40,7 @@ def guess_venue(session):
 venue_name = { "cga": "CG&A",
                "infovis": "InfoVis",
                "scivis": "SciVis",
+               "all": "VIS",
                "vast": "VAST" }
 
 def paper_type(paper):
