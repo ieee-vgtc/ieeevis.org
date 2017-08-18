@@ -3,7 +3,7 @@
 """
 Write posters to MD from the Google Spreadsheet.
 
-Carlos Scheidegger and Sam Gratzl, 2016
+Carlos Scheidegger, Sam Gratzl, Lane Harrison, 2016-2017
 
 We recommend you use this under a virtual environment. Create
 a virtualenv and then install the required libraries with
@@ -20,7 +20,7 @@ from data import *
 import min_html as h
 import sys
 
-gc = get_spreadsheet("VIS2016 Program")
+gc = get_spreadsheet("VIS2017 Program")
 posters = load_sheet_by_name(gc, "Posters").get_all_records()
 
 def award_string(poster):

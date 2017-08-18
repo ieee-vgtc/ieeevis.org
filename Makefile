@@ -35,7 +35,7 @@ posters:
 
 papers_program:
 	./scripts/write_program_md.py > data/autogen/program.md
-	cat data/program_front_matter.txt data/autogen/program.md > year/2016/info/overview-amp-topics/papers-sessions.md
+	cat data/program_front_matter.txt data/autogen/program.md > year/2017/info/overview-amp-topics/papers-sessions.md
 
 vast_challenge_program:
 	./scripts/write_vast_challenge_md.py > data/autogen/vast_challenge.md

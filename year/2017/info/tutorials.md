@@ -17,6 +17,9 @@ contact: "tutorials@ieeevis.org"
 
 
 ## <a name="Large-scale_Web-based_VA"></a> Large-scale Web-based Visual Analytics Made Easy (half-day)
+Monday, October 2  
+2:00PM-5:55PM  
+106-ABC  
 
 Xiaoji Chen (Uber Technologies, Inc.)  
 Shan He (Uber Technologies, Inc.)  
@@ -27,6 +30,9 @@ The advancement of almost every modern domain depends on data. Companies and org
 
 
 ## <a name="Visualization_Analysis_Design"></a> Visualization Analysis and Design (full-day)
+Sunday, October 1  
+8:30AM-5:55PM  
+101-ABC  
 
 Tamara Munzner (University of British Columbia)  
 
@@ -34,12 +40,18 @@ This introductory tutorial will provide a broad foundation for thinking systemat
 
 
 ## <a name="Applying_Color_Theory"></a> Applying Color Theory to VIS (half-day)
+Sunday, October 1  
+8:30AM-12:10PM  
+211-AB  
 
 Theresa-Marie Rhyne (Visualization Consultant)  
 
 The foundations of color theory & how these methods apply to building effective visualizations are examined. We define color harmony & demonstrate the application of color harmony to case studies. New to this year, we review how mobile devices are advancing to address the full range of color spaces and provide a brief overview of recent color research in the IEEE VIS, ACM SIG CHI and ACM SIGGRAPH communities. Colorization of Black & White digital images using Colorize-It, as presented at the 2016 European Conference on Computer Vision and noted at ACM SIGGRAPH 2017, is demonstrated. We also include our solutions using Colourmap Hospital and Colorgorical tools, introduced at IEEE VIS 2016, as well as new Munsell color harmony work in Visual Analytics. The features of the new Pantone Studio app, ColorBrewer, Colourlover’s COPASO tool, Adobe’s Capture CC app, & Josef Albers “Interaction of Color” app are examined. We also introduce “Gamut Mask” & “Color Proportions of an Image” analysis tools. Our tutorial concludes with a hands-on session that teaches how to use online and mobile apps to successfully capture, analyze and store color schemes for future use in visual analytics. This includes evaluations for color deficiencies using Vizcheck, Coblis & Paletton’s Color Scheme Designer. These color suggestion tools are available online for your continued use in creating new visualizations. Please bring small JPEG examples of your visualizations for performing color analyses during the hands on session.
 
 ## <a name="VA_High-Dim"></a> Visual Analytics for High-Dimensional Data (half-day)
+Sunday, October 1  
+2:00PM-5:55PM  
+105-ABC  
 
 Klaus Mueller, (Stony Brook University)  
 Shenghui Cheng, (Stony Brook University)  
@@ -48,6 +60,9 @@ Analyzing high-dimensional data and finding hidden patterns in them is a difficu
 
 
 ## <a name="Interactive_Particle_Vis"></a> Interactive Visualization of Large Dynamic Particle Data (half-day)
+Sunday, October 1  
+2:00PM-5:55PM  
+211-AB  
 
 Martin Falk (Linköping University)  
 Aaron Knoll (University of Utah)  
@@ -59,6 +74,9 @@ Guido Reina (University of Stuttgart)
 
 
 ## <a name="Vis+ML"></a> Vis+ML: Symbiosis of Visualization and Machine Learning (half-day)
+Monday, October 2  
+8:30AM-12:10PM  
+106-ABC  
 
 Abon Chaudhuri (WalmartLabs)  
 Yifan Hu (Yahoo Research)  
@@ -69,6 +87,9 @@ Visualization and machine learning (ML) have come close to each other in recent 
 
 
 ## <a name="Five_Design-Sheet"></a> Sketching Designs for Data-Visualization using the Five Design-Sheet Methodology (half-day)
+Sunday, October 1  
+8:30AM-12:10PM  
+105-ABC  
 
 Jonathan Roberts (Bangor University)  
 Christopher Headleand (University of Lincoln)  
@@ -78,6 +99,9 @@ This tutorial leads the attendees through sketching designs following the Five D
 
 
 ## <a name="Cohort_Study"></a>Visual Analytics of Cohort Study Data – From Individuals to Populations (half-day)
+Monday, October 2  
+2:00PM-5:55PM  
+102-ABC  
 
 Steffen Oeltze-Jafra (University Leipzig)  
 Uli Niemann (Otto-von-Guericke University Magdeburg)  
@@ -92,6 +116,9 @@ In this tutorial, we present approaches that blend analysis and visualization te
 
 
 ## <a name="Qualitative_Data"></a> Analyzing Qualitative Data (half-day)
+Monday, October 2  
+8:30AM-12:10PM  
+102-ABC  
 
 Sheelagh Carpendale (University of Calgary)  
 Uta Hinrichs (University of St Andrews)  
