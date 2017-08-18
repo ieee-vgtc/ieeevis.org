@@ -16,7 +16,10 @@ contact: "workshops@ieeevis.org"
 * [Vis in Practice: Visualization Solutions in the Wild](#vip)
 
 
-## <a name="immersive-analytics"></a> [Immersive Analytics: Exploring Future Visualization and Interaction Technologies for Data Analytics](http://immersiveanalytics.net)
+## <a name="immersive-analytics"></a> [Immersive Analytics: Exploring Future Visualization and Interaction Technologies for Data Analytics](http://immersiveanalytics.net)  
+Sunday, October 1  
+8:30AM-5:55PM  
+102-ABC  
 
 Benjamin Bach, University of Edinburgh, UK / Harvard University, MA  
 Maxime Cordeil, Monash University, VIC  
@@ -39,6 +42,9 @@ physical and tangible visualization, as well as interaction techniques.
 
 
 ## <a name="discovery-jam"></a> [Discovery Jam](http://discoveryjam.com)
+Monday, October 2  
+8:30AM-5:55PM  
+101-ABC  
 
 David Rogers, Los Alamos National Lab  
 Dan Keefe, University of Minnesota  
@@ -62,7 +68,10 @@ cross-disciplinary collaboration, and research ideas to pursue further.
 Bring your laptop and your favorite vis tools to dig into data with us.
 
 
-## <a name="interactive-analysis"></a> [DSIA: Data Systems for Interactive Analysis](http://www.interactive-analysis.org)
+## <a name="interactive-analysis"></a> [DSIA: Data Systems for Interactive Analysis](http://www.interactive-analysis.org)  
+Monday, October 2  
+8:30AM-12:10PM  
+211-AB  
 
 Remco Chang, Tufts University  
 Danyel Fisher, Microsoft Research  
@@ -90,6 +99,9 @@ between these fields.
 
 
 ## <a name="decisive"></a> [DECISIVe 2017: 2nd Workshop on Dealing with Cognitive Biases in Visualizations](http://decisive-workshop.dbvis.de)
+Monday, October 2  
+8:30AM-12:10PM  
+105-ABC  
 
 Geoffrey Ellis, University of Konstanz, Germany  
 Evanthia Dimara, Inria Saclay, France  
@@ -118,7 +130,10 @@ practical ways to reduce or overcome these potentially harmful effects,
 especially in adapting the tools developers design and build.
 
 
-## <a name="pedagogy"></a> [2nd Pedagogy of Data Visualization Workshop](http://vgl.cs.usfca.edu/pdvw/2017)
+## <a name="pedagogy"></a> [2nd Pedagogy of Data Visualization Workshop](http://vgl.cs.usfca.edu/pdvw/2017)  
+Sunday, October 1  
+2:00PM-5:55PM  
+106-ABC  
 
 Alark Joshi, University of San Francisco  
 Eytan Adar, University of Michigan  
@@ -140,7 +155,10 @@ classes, teaching at a liberal arts college, teaching a professional masters'
 course, and so on.
 
 
-## <a name="vis-dh"></a> [2nd Workshop on Visualization for the Digital Humanities](http://vis4dh.dbvis.de)
+## <a name="vis-dh"></a> [2nd Workshop on Visualization for the Digital Humanities](http://vis4dh.dbvis.de)  
+Monday, October 2  
+2:00PM-5:55PM  
+105-ABC  
 
 Stefan Janicke, Leipzig University, Germany  
 Christopher Collins, University of Ontario Institute of Technology, Canada  
@@ -160,7 +178,10 @@ digital humanities researchers, and (3) to establish future collaborations
 between visualization and digital humanities scholars.
 
 
-## <a name="interpretable-dl"></a> [VADL 2017: Workshop on Visual Analytics for Deep Learning](https://vadl2017.github.io)
+## <a name="interpretable-dl"></a> [VADL 2017: Workshop on Visual Analytics for Deep Learning](https://vadl2017.github.io)  
+Monday, October 2  
+2:00PM-5:55PM  
+211-AB  
 
 Jaegul Choo, Korea University  
 Shixia Liu, Tsinghua University  
@@ -178,7 +199,10 @@ opportunity to discuss and explore ways to harmonize the power of automated
 techniques and exploratory nature of interactive visualization.
 
 
-## <a name="avid"></a> [AVID: Advancing Visualization Inclusion and Diversity](https://www.avid-vis.org)
+## <a name="avid"></a> [AVID: Advancing Visualization Inclusion and Diversity](https://www.avid-vis.org)  
+Sunday, October 1  
+8:30AM-12:10PM  
+106-ABC  
 
 Penny Rheingans, University of Maryland, Baltimore County  
 Kelly Gaither, University of Texas
@@ -203,7 +227,10 @@ opportunities in visualization, a greater understanding of challenges and
 strategies, and a wider network of those sharing their goals.
 
 
-## <a name="vip"></a> [Vis in Practice - Visualization Solutions in the Wild](http://www.visinpractice.rwth-aachen.de)
+## <a name="vip"></a> [Vis in Practice - Visualization Solutions in the Wild](http://www.visinpractice.rwth-aachen.de)  
+Monday, October 2  
+2:00PM-5:55PM  
+207 Lecture Hall  
 
 Bernd Hentschel, RWTH Aachen University 
 Daniela Oelke, Siemens AG 
