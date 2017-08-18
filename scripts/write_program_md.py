@@ -91,7 +91,7 @@ def session_key(session):
         }
     name = session["Key"]
     metadata = session_dict[name]
-    day = metadata["Day"][-4:-2]
+    day = metadata["Day"][-1:]
     time = order[metadata["Time"][:metadata["Time"].find(':')]]
     return (day, time)
 
