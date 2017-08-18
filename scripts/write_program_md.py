@@ -53,7 +53,7 @@ def paper_type(paper):
         return " (T)"
     if paper["ID"].startswith("TVCG"):
         return " (T)"
-    if paper["ID"].startswith("CG&A"):
+    if paper["ID"].startswith("cga"):
         return ""
     return " (J)"
 

@@ -4,8 +4,8 @@ layout: main-2017
 permalink: /year/2017/info/overview-amp-topics/papers-sessions
 ---
 
-[J] (TVCG journal special issue (SI) papers)  
-[T] (previously published TVCG journal papers presented at VIS)  
+[J] (*TVCG* journal special issue (SI) papers)  
+[T] (previously published *TVCG* journal papers presented at VIS)  
 [C] conference papers  
 
 
@@ -299,16 +299,16 @@ Authors: Heidi Lam, Melanie Tory, Tamara Munzner
 *CG&A: Spatiotemporal Applications*  
 *Session Chair: Francesca Samsel*  
 
-**ARIES: Enabling Visual Exploration and Organization of Art Image Collections (J)**  
+**ARIES: Enabling Visual Exploration and Organization of Art Image Collections**  
 Authors: Lhaylla Crissaff, Louisa Wood Ruby, Samantha Deutch, R. Luke DuBois, Jean-Daniel Fekete, Juliana Freire, Claudio Silva
 
-**Glyph Visualization: A Fail-Safe Design Scheme Based on Quasi-Hamming Distances (J)**  
+**Glyph Visualization: A Fail-Safe Design Scheme Based on Quasi-Hamming Distances**  
 Authors: Philip A. Legg, Eamonn Maguire, Simon Walton, Min Chen
 
-**StatCast Dashboard: Exploration of Spatiotemporal Baseball Data (J)**  
+**StatCast Dashboard: Exploration of Spatiotemporal Baseball Data**  
 Authors: Marcos Lage, Jorge Henrique Ono, Daniel Cervone, Justin Chiang, Carlos Dietrich, Claudio Silva
 
-**VisAdapt: A Visualization Tool to Support Climate Change Adaptation (J)**  
+**VisAdapt: A Visualization Tool to Support Climate Change Adaptation**  
 Authors: Jimmy Johansson, Tomasz Opach, Erik Glaas, Tina-Simone Neset, Carlo Navarra, Bjorn-Ola Linner, Jan Ketil Rod
 
 <hr/>
@@ -494,16 +494,16 @@ Authors: Thomas Höllt, Nicola Pezzotti, Vincent van Unen, Frits Koning, Boudewi
 *CG&A: Sports Data Visual Analytics*  
 *Session Chair: Gerik Scheuermann*  
 
-**BKViz: A Basketball Visual Analysis Tool (J)**  
+**BKViz: A Basketball Visual Analysis Tool**  
 Authors: Antonio G. Losada, Roberto Theron, Alejandro Benito
 
-**Director's Cut: Analysis and Annotation of Soccer Matches (J)**  
+**Director's Cut: Analysis and Annotation of Soccer Matches**  
 Authors: Manuel Stein, Halldór Janetzko, Thorsten Breitkreutz, Daniel Seebacher, Tobias Schreck, Michael Grossniklaus, Iain Couzin, Daniel Keim
 
-**GapChart: a Gap Strategy to Visualize the Temporal Evolution of both Ranks and Scores (J)**  
+**GapChart: a Gap Strategy to Visualize the Temporal Evolution of both Ranks and Scores**  
 Authors: Charles Perin, Jeremy Boy, Frederic Vernier
 
-**Sport Tournament Predictions by Direct Manipulation (J)**  
+**Sport Tournament Predictions by Direct Manipulation**  
 Authors: Romain Vuillemot, Charles Perin
 
 <hr/>
