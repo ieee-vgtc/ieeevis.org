@@ -28,16 +28,19 @@ session_dict = dict((session["Name"], session) for session in sessions)
 
 def guess_venue(session):
     ids = set([paper["ID"][:paper["ID"].find('-')] for paper in session["Value"]
-           if (not paper["ID"].startswith("TVCG"))])
+           if (not paper["ID"].startswith("tvcg"))])
     if len(ids) > 1 and list(ids)[0].startswith("CG&A"):
             return "cga" 
+    if len(ids) <> 1 and session["Key"].startswith("VIS Awards"):
+        return "all"
     if len(ids) <> 1:
-        raise Exception("couldn't guess conference for session %s" % session["Key"])
+        raise Exception("couldn't guess conference for session %s" % session["Key"] + list(ids)[0])
     return list(ids)[0]
 
 venue_name = { "cga": "CG&A",
                "infovis": "InfoVis",
                "scivis": "SciVis",
+               "all": "VIS",
                "vast": "VAST" }
 
 def paper_type(paper):
@@ -50,7 +53,7 @@ def paper_type(paper):
         return " (T)"
     if paper["ID"].startswith("TVCG"):
         return " (T)"
-    if paper["ID"].startswith("CG&A"):
+    if paper["ID"].startswith("cga"):
         return ""
     return " (J)"
 
@@ -59,8 +62,12 @@ def award_string(award):
         return ""
     if award["type"] == 'Honorable Mention':
         return " *(Best Paper Honorable Mention)*"
-    if award["type"] == 'Award':
-        return " *(Best Paper Award)*"
+    if award["type"] == 'Award vast':
+        return " *(Best Paper Award, VAST)*"
+    if award["type"] == 'Award infovis':
+        return " *(Best Paper Award, InfoVis)*"
+    if award["type"] == 'Award scivis':
+        return " *(Best Paper Award, SciVis)*"
     raise Exception("Could not recognize award type '%s'" % award["type"])
 
 def render_session(session, out):
@@ -70,7 +77,7 @@ def render_session(session, out):
     out.write("**%s**  \n" % session_dict[name]["Time"])
     out.write("**Room: %s**  \n" % session_dict[name]["Room"])
     out.write("*%s: %s*  \n" % (venue, name))
-    out.write("*Session Chair: %s*  \n" % (session_dict[name]["Chair"]))
+    out.write("*Session Chair: %s*  \n" % (unicode(session_dict[name]["Chair"]).encode("utf-8")))
     out.write("\n")
     for paper in session["Value"]:
         award = awards.get(paper["ID"], None)
@@ -87,11 +94,19 @@ def session_key(session):
         "2": 2,
         "4": 3,
         }
+    venue_order = {
+        "VIS": 0,
+        "VAST": 1,
+        "InfoVis": 2,
+        "SciVis": 3,
+        "CG&A": 4,
+        }
     name = session["Key"]
+    venue = venue_order[venue_name[guess_venue(session)]]
     metadata = session_dict[name]
-    day = metadata["Day"][-4:-2]
+    day = metadata["Day"][-1:]
     time = order[metadata["Time"][:metadata["Time"].find(':')]]
-    return (day, time)
+    return (day, time, venue)
 
 out = sys.stdout
 for session in sorted(group_by(records, lambda k: k['Session']), key = session_key):
