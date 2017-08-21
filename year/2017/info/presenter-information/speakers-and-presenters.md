@@ -21,9 +21,8 @@ We will have switched connections for presentations from laptops.
 In addition each room will have a standalone Windows 8 laptop with MS
 Office 2013, IE browser, CDRW drive, 4GB RAM.
 
-Presenters are encouraged to bring their own laptop (with video
-adapter if your laptop does not have standard HD15, HDMI, DVI
-connectoins) for panels, papers, and presentations. For speakers not
+Presenters are encouraged to bring their own laptop (with video adapter if your laptop does not have standard HD15 (VGA),
+HDMI, or DVI connections) for panels, papers, and presentations. For speakers not
 bringing their own laptops, the best options for basic Microsoft
 PowerPoint presentations are to bring along a portable USB drive or
 burn the presentation file onto a CD along with any necessary software
