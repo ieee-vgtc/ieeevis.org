@@ -669,6 +669,9 @@ Authors: Zening Qu, Jessica Hullman
 *SciVis: Applications and Visual analysis*  
 *Session Chair: Torsten Möller*  
 
+**Multiscale Visualization and Scale-Adaptive Modification of DNA Nanostructures (J)**  
+Authors: Haichao Miao, Elisa De Llano, Johannes Sorger, Yasaman Ahmadi, Tadija Kekic, Tobias Isenberg, M. Eduard Gröller, Ivan Barišić, Ivan Viola
+
 **DSPCP: A Data Scalable Approach for Identifying Relationships in Parallel Coordinates (T)**  
 Authors: Hoa Nguyen, Paul Rosen
 
@@ -677,9 +680,6 @@ Authors: Dave G. Harrison, Nick D. Efford, Quentin J. Fisher, Roy A. Ruddle
 
 **StreetVizor: Visual Exploration of Human-Scale Urban Forms Based on Street Views (J)**  
 Authors: Qiaomu Shen, Wei Zeng, Yu Ye, Stefan Müller Arisona, Simon Schubiger, Remo Burkhard, Huamin Qu
-
-**Multiscale Visualization and Scale-Adaptive Modification of DNA Nanostructures (J)**  
-Authors: Haichao Miao, Elisa De Llano, Johannes Sorger, Yasaman Ahmadi, Tadija Kekic, Tobias Isenberg, M. Eduard Gröller, Ivan Barišić, Ivan Viola
 
 **BASTet: Shareable and reproducible analysis and visualization of mass spectrometry imaging data via OpenMSI (J)**  
 Authors: Oliver Rübel, Benjamin P. Bowen
