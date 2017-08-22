@@ -512,7 +512,7 @@ Authors: Romain Vuillemot, Charles Perin
 **2:00pm-3:40pm**  
 **Room: 301-C**  
 *VAST: Interaction in the Analysis Process*  
-*Session Chair: Alexander Endert*  
+*Session Chair: Alex Endert*  
 
 **Podium: Ranking Data Using Mixed-Initiative Visual Analytics (J)**  
 Authors: Emily Wall, Subhajit Das, Ravish Chawla, Bharath Kalidindi, Eli T. Brown, Alex Endert
