@@ -2,6 +2,9 @@
 layout: main-2017
 title: Welcome
 ---
+
+**Early Registration period for IEEE VIS 2017 is now OPEN through August 25, 2017 5PM PST. [Register now!](http://ieeevis.org/year/2017/info/registration/conference-registration)**
+
 Welcome to **IEEE VIS 2017**!
 
 After twenty years, we are excited to be returning to Phoenix,
