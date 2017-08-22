@@ -59,7 +59,7 @@ permalink: /year/2017/info/committees/conference-committee
       <td>Northwestern University (InfoVis)</td>
     </tr>
     <tr>
-      <td>Ingrid Holtz</td>
+      <td>Ingrid Hotz</td>
       <td>Linköping University (SciVis)</td>
     </tr>
     <tr>
