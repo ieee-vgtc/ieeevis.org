@@ -68,6 +68,7 @@ supporters = sorted(filter(lambda t: (t['Company'] != "TOTAL" and
 logo_file = json.load(open("scripts/tmp/logo-links.json"))
 # logo exception
 logo_file.append( {"Company": 'Tableau Software', "logo_name": 'logo-tableau'})
+logo_file.append( {"Company": 'Springer Nature', "logo_name": 'logo-springer'})
 supporters = inner_join(logo_file, supporters, 'Company')
 
 link_file = json.load(open("js/sponsor_links.json"))
