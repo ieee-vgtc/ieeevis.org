@@ -63,8 +63,8 @@ Come to this gathering if want to hear information about the VISKids grants and 
 ## <a name="decisive"></a> DECISIVe 2017: Dealing with Cognitive Biases in Visualisations
 
 Monday, OCTOBER 2  
-2:00PM - 4:00PM  
-Location: 106-ABC   
+2:00PM - 5:30PM  
+Location: 103-A   
 
 
 Organizers: Geoff Ellis, Evanthia Dimara, Donald Kretz and Alex Endert
@@ -96,7 +96,7 @@ Whether you are a new parent, expectant parent, experienced wise parent, or cons
 
 Tuesday, OCTOBER 3  
 6:00PM - 8:00PM  
-Location: 103-B   
+Location: 103-A   
 
 Organizers: Kristi Potter and Remco Chang   
 Contact: [kristi.potter@nrel.gov](kristi.potter@nrel.gov)   
@@ -124,7 +124,7 @@ The topic for this Meetup is the use of sound to enhance and clarify visual repr
 
 Wednesday, OCTOBER 4  
 3:45PM - 5:00PM  
-Location: 102-ABC   
+Location: 101-ABC   
 
 Organizers: Madison Elliott, Zoya Bylinskii, Christine Nothelfer, Cindy Xiong and Danielle Albers Szafir   
 Contact: [mellio10@psych.ubc.ca](mellio10@psych.ubc.ca)   
@@ -149,7 +149,7 @@ A chance for VIS cyclists to discuss cycling and to prepare and sign on for Le T
 
 Thursday, OCTOBER 5  
 6:00PM - 7:00PM  
-Location: 102-ABC   
+Location: 202   
 
 
 Organizers: Michael M. Heck  
