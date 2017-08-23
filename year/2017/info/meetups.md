@@ -5,38 +5,26 @@ permalink: /year/2017/info/meetups
 contact: "meetups@ieeevis.org"
 ---
 
-SUNDAY
-* [VIS Newcomers](#vis-newcomers)
-* [Career Plans for Women](#career-women)
-
-MONDAY
-* [VISKids Hello](#vis-kids)
-* [DECISIV Workshop contd.](#decisive)
-
-TUESDAY
-* [VISParents](#vis-parents)
-* [Junior Faculty, Researchers, and Practitioners Happy Hour](#junior-faculty)
-* [Sonification; augmenting visualization](#sonification)
-
-WEDNESDAY
-* [Vision Science at InfoVis](#vision-science)
-
-THURSDAY
-* [Velo Club de Vis](#velo-club)
-* [Open Inventor Academic Program](#open-inventor)
+* [VIS Newcomers](#vis-newcomers) (Sunday)
+* [Career Plans for Women](#career-women) (Sunday)
+* [VISKids Hello](#vis-kids) (Monday)
+* [DECISIV Workshop contd.](#decisive) (Monday)
+* [VISParents](#vis-parents) (Tuesday)
+* [Junior Faculty, Researchers, and Practitioners Happy Hour](#junior-faculty) (Tuesday)
+* [Sonification; augmenting visualization](#sonification) (Tuesday)
+* [Vision Science at InfoVis](#vision-science) (Wednesday)
+* [Velo Club de Vis](#velo-club) (Thursday)
+* [Open Inventor Academic Program](#open-inventor) (Thursday)
 
 
+## <a name="vis-newcomers"></a> VIS Newcomers 
 
+Sunday, OCTOBER 1  
+12:20 - 12:45PM  
+Location: 103-A   
 
-<a name="vis-newcomers"></a> ## VIS Newcomers
-
-SUNDAY, OCTOBER 1
-12:20 - 12:45 PM
-Location: 103A
-
-
-Organizers: Jagoda Walny and Kate Isaacs
-Contact: [community@ieeevis.org](mailto:community@ieeevis.org)
+Organizers: Jagoda Walny and Kate Isaacs  
+Contact: [community@ieeevis.org](mailto:community@ieeevis.org)  
 
 Attending VIS for the first time can be overwhelming, especially if you don't know any other attendees, it's your first conference, or if you are new to visualization. The VIS Newcomers Meetup is a conference orientation and informal lunch intended for first-time VIS attendees, regardless of experience, from students to practitioners. This allows participants to meet other conference goers and learn various tips for attending VIS. The meetup will start with a short presentation containing conference tips. Following the presentation, meetup attendees will split into small groups led by experienced VIS attendees to continue discussions over lunch and get to know each other. 
 
@@ -46,63 +34,72 @@ For more activities outside of the Newcomers Meetup, or if you are unable to att
 
 
 
-<a name="career-women"></a> ## Career Plans for Women
+## <a name="career-women"></a> Career Plans for Women 
 
-SUNDAY, OCTOBER 1
-2:00 - 4:00 PM
-Location: 103-B
+Sunday, OCTOBER 1  
+2:00PM - 4:00PM  
+Location: 103-B   
 
-Organizers: Alexandra Diehl and Johanna Schmidt
-Contact: [diehl@dbvis.inf.uni-konstanz.de](mailto:diehl@dbvis.inf.uni-konstanz.de)
+Organizers: Alexandra Diehl and Johanna Schmidt   
+Contact: [diehl@dbvis.inf.uni-konstanz.de](mailto:diehl@dbvis.inf.uni-konstanz.de)   
 
 This Meetup is a natural follow up of the [AVID: Advancing Visualization Inclusion and Diversity workshop](http://ieeevis.org/year/2017/info/workshops#avid). The goal of the Meetup session is to discuss possible career paths of women in the field of Visualization and Visual Analytics. Successful female researchers will share their career experience and highlight guidelines and lessons learned. The participants will get to know successful female role models in their field of research which will be a great opportunity to learn from their experience. The Meetup session should inspire female Ph.D. students to work in our research area and, due to the availability of travel support from the strategic research on "Quantitative Methods for Visual Computing” (SFB-TRR 161, http://www.sfbtrr161.de/) funded by the German Research Foundation (DFG), more female Ph.D. and Master students will be able to attend the VisWeek conference.
 
 
-<a name="vis-kids"></a> ## VISKids Hello
 
-MONDAY, OCTOBER 2
-12:15 - 12:45 PM
-Location: 103B
+## <a name="vis-kids"></a> VISKids Hello 
 
-Organizers: Michelle A. Borkin and Tino Weinkauf 
-Contact: [m.borkin@northeastern.edu](mailto:m.borkin@northeastern.edu)
+Monday, OCTOBER 2  
+12:15PM - 12:45PM  
+Location: 103-B   
+
+Organizers: Michelle A. Borkin and Tino Weinkauf    
+Contact: [m.borkin@northeastern.edu](mailto:m.borkin@northeastern.edu)   
 
 Come to this gathering if want to hear information about the VISKids grants and activities. The VISKids co-chairs will answer all questions. Everyone is welcome. 
 
 
 
-<a name="decisive"></a> ## DECISIVE Workshop contd.
+## <a name="decisive"></a> DECISIVe 2017: Dealing with Cognitive Biases in Visualisations
 
-MONDAY, OCTOBER 2
-2:00 - 4:00 PM
-Location: 106-ABC
+Monday, OCTOBER 2  
+2:00PM - 5:30PM  
+Location: 103-A   
+
 
 Organizers: Geoff Ellis, Evanthia Dimara, Donald Kretz and Alex Endert
 Contact: [ellis@dbvis.inf.uni-konstanz.de](ellis@dbvis.inf.uni-konstanz.de)
 
+This meetup is a continuation of the [DECISIVe workshop] (http://ieeevis.org/year/2017/info/workshops) from the morning, in which 14 papers on cognitive biases and decision making were presented. In this afternoon session, we will have a series of group activities where we will explore some of the interesting issues raise in the morning such as classification, identification and mitigation of cognitive biases, all in the context of information and visual analytic systems. We will also have a problem-solving session which was a highlight of the 1st DECISIVe workshop in 2014.
+
+The meetup also welcomes participants who could not attend the morning workshop but have an interest or experience in the area or just want to find out more of how our innate decision making system can give rise to poor judgements, without us being aware!
+
+DECISIVe website: [http://decisive-workshop.dbvis.de/](http://decisive-workshop.dbvis.de/)
+
+
 This Meetup is a follow up of the DECISIVE Workshop, where we will continue the discussions initiated during the workshop and pursue group activities. The Meetup is also a chance for additional attendees who aren't able to come to the Workshop to partake in the discussions.
 
 
-<a name="vis-parents"></a> ## VISParents
+## <a name="vis-parents"></a> VISParents
 
-TUESDAY, OCTOBER 3
-12:15 - 2:00 PM
-Location: 103B
+Tuesday, OCTOBER 3  
+12:15PM - 2:00PM  
+Location: 103-B   
 
-Organizers: Michelle A. Borkin and Tino Weinkauf 
-Contact: [m.borkin@northeastern.edu](mailto:m.borkin@northeastern.edu)
+Organizers: Michelle A. Borkin and Tino Weinkauf   
+Contact: [m.borkin@northeastern.edu](mailto:m.borkin@northeastern.edu)  
 
 Whether you are a new parent, expectant parent, experienced wise parent, or considering some day to be a parent, come attend the first VISParents meet-up to discuss work-life balance topics at VIS.  In this open roundtable conversation topics will include work-life balance in general, going into academia versus industry, balancing time with your VISKid, going on paternity leave, being a VISParent while completing your dissertation as a student, and being a VISParent while trying to achieve tenure as a professor.  Please come share your wisdom and experiences in this open supportive VIS environment.  VISKids are also welcome to attend.
 
 
-<a name="junior-faculty"></a> ## Junior Faculty, Researchers, and Practitioners Happy Hour
+## <a name="junior-faculty"></a> Junior Faculty, Researchers, and Practitioners Happy Hour
 
-TUESDAY, OCTOBER 3
-6:00 - 8:00 PM
-Location: 103B
+Tuesday, OCTOBER 3  
+6:00PM - 8:00PM  
+Location: 103-A   
 
-Organizers: Kristi Potter and Remco Chang
-Contact: [kristi.potter@nrel.gov](kristi.potter@nrel.gov)
+Organizers: Kristi Potter and Remco Chang   
+Contact: [kristi.potter@nrel.gov](kristi.potter@nrel.gov)   
 
 The goal of this meetup is to provide support and mentoring to junior- level faculty, researchers, and practitioners within the visualization community. The VIS community has always been very supportive of its junior members. The Student Volunteer (SV), Doctoral Colloquium (DC), Compass, “Networking” events, and the VisKids programs together provide a breadth of support to undergraduate, graduate, and postdoc researchers in a variety of ways. However, one missing link among these wide range of programs is support for the junior professors, early career researchers and practitioners. Junior researchers face significant amount of pressure and are often overwhelmed by the drastic change from being a student (or a postdoc). Many junior researchers have little training in project management, grant-writing, mentoring, teaching, and establishing a research agenda. As a result, they struggle maintaining a work-life balance and have few (if no) outlet in seeking help, advice, or support.
 
@@ -110,53 +107,52 @@ The goal of this meetup is to provide a safe environment for the junior VIS rese
 
 
 
-<a name="sonification"></a> ## Sonification; augmenting visualization
+## <a name="sonification"></a> Sonification; augmenting visualization
 
-TUESDAY, OCTOBER 3
-6:00 - 8:00 PM
-Location: 103B
+Tuesday, OCTOBER 3  
+6:00PM - 8:00PM  
+Location: 103-B   
 
-Organizer: Niklas Rönnberg
-Contact: [niklas.ronnberg@liu.se](niklas.ronnberg@liu.se)
+
+Organizer: Niklas Rönnberg   
+Contact: [niklas.ronnberg@liu.se](niklas.ronnberg@liu.se)   
 
 The topic for this Meetup is the use of sound to enhance and clarify visual representations of data, and to simplify the understanding of these. Within the sonification research community there is a consensus that sonification is useful, but discussions within that community often lack the expertise in other domains such as in information visualization. For example, the mapping between sound and visual elements, i.e. what in the visual representation that is suitable for sonification, needs to be thoroughly explored in connection to different application areas and types of visualization. This meetup discussion will therefore focus on the mapping between sonification and visual elements, and what in visual representations that are challenging for the visual perception. If sonification could be used beneficially in information visualization, this would not only advance the research field of sonification, but also research in information visualization where sonification will add new perspectives to data exploration and understanding of complex visual representations.
 
 
+## <a name="vision-science"></a> Vision Science at InfoVis
 
-<a name="vision-science"></a> ## Vision Science at InfoVis
+Wednesday, OCTOBER 4  
+3:45PM - 5:00PM  
+Location: 101-ABC   
 
-WEDNESDAY, OCTOBER 4
-3:45 - 5:00 PM
-Location: 102-ABC
-
-Organizers: Madison Elliott, Zoya Bylinskii, Christine Nothelfer, Cindy Xiong and Danielle Albers Szafir
-Contact: [mellio10@psych.ubc.ca](mellio10@psych.ubc.ca)
+Organizers: Madison Elliott, Zoya Bylinskii, Christine Nothelfer, Cindy Xiong and Danielle Albers Szafir   
+Contact: [mellio10@psych.ubc.ca](mellio10@psych.ubc.ca)   
 
 Vision science provides an empirical basis for techniques and design practices in visualization, including what data features people attend to, what statistics they extract, and what they ultimately remember. Visualization provides real world problems for vision scientists to investigate, including color perception, pop-out, and salience. Help us explore and promote this promising research partnership! Come mingle with cognitive psychology and visualization experts active at this intersection, to extend professional networks and discuss how the two fields can continue to inspire and collaborate with one another. Apart from the InfoVis panel, [Vision Science Meets Visualization](http://ieeevis.org/year/2017/info/panels#vision-science), this Meetup provides another opportunity for interested attendees to ask questions, share new research ideas, and extend their professional networks. All are welcome, and interested participants can submit an abstract for a 2-3 minute ‘lightning talk’ about their latest work by September 15, 2017. The organizers will select a set of 10-15 talks to be presented during the Meetup.
 
 
+## <a name="velo-club"></a> Velo Club de Vis
 
-<a name="velo-club"></a> ## Velo Club de Vis
+Thursday, OCTOBER 5  
+6:00PM - 7:00PM  
+Location: 103-B   
 
-THURSDAY, OCTOBER 5
-6:00 - 7:00 PM
-Location: 103-B
-
-Organizers: Jason Dykes
-Contact: [veloclubdevis@gmail.com](veloclubdevis@gmail.com)
+Organizers: Jason Dykes   
+Contact: [veloclubdevis@gmail.com](veloclubdevis@gmail.com)   
 
 A chance for VIS cyclists to discuss cycling and to prepare and sign on for Le Tour de VIS - the IEEE VIS post-conference road ride. This year it will be a ride of 85km from 8am on Saturday 7th October. See also: [http://www.gicentre.net/velo-club-rides/](http://www.gicentre.net/velo-club-rides/)
 
 
 
+## <a name="velo-club"></a> Open Inventor Academic Program
 
-<a name="open-inventor"></a> ## Open Inventor Academic Program
+Thursday, OCTOBER 5  
+6:00PM - 7:00PM  
+Location: 202   
 
-THURSDAY, OCTOBER 5
-6:00 - 7:00 PM
-Location: 102-ABC
 
-Organizers: Michael M. Heck
-Contact: [mike.heck@thermofisher.com](mike.heck@thermofisher.com)
+Organizers: Michael M. Heck  
+Contact: [mike.heck@thermofisher.com](mike.heck@thermofisher.com)  
 
 Open Inventor is a widely used, commercial software library for 3D graphics, image processing and visualization. Open Inventor powers a wide range of C++, C# and Java commercial applications including medical imaging, seismic interpretation, reservoir modeling and engineering graphics. Starting this year, qualified academic and non-commercial organizations can apply for the Open Inventor Academic Program and receive Open Inventor licenses, at no charge, for non-commercial use. If you would like to find out more about this program and the Open Inventor library, please come to our Meetup!
