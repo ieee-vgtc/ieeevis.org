@@ -33,6 +33,7 @@ NOTE: Lunch is not prepaid, each meetup attendee pays for their own lunch.
 For more activities outside of the Newcomers Meetup, or if you are unable to attend the meetup, please see Vis Buddies, a [Community](http://ieeevis.org/year/2017/info/call-participation/community) program bringing together groups of new and old VIS attendees for additional activities outside of this meetup.
 
 
+| |
 
 ## <a name="career-women"></a> Career Plans for Women 
 
@@ -45,6 +46,7 @@ Contact: [diehl@dbvis.inf.uni-konstanz.de](mailto:diehl@dbvis.inf.uni-konstanz.d
 
 This Meetup is a natural follow up of the [AVID: Advancing Visualization Inclusion and Diversity workshop](http://ieeevis.org/year/2017/info/workshops#avid). The goal of the Meetup session is to discuss possible career paths of women in the field of Visualization and Visual Analytics. Successful female researchers will share their career experience and highlight guidelines and lessons learned. The participants will get to know successful female role models in their field of research which will be a great opportunity to learn from their experience. The Meetup session should inspire female Ph.D. students to work in our research area and, due to the availability of travel support from the strategic research on "Quantitative Methods for Visual Computing” (SFB-TRR 161, http://www.sfbtrr161.de/) funded by the German Research Foundation (DFG), more female Ph.D. and Master students will be able to attend the VisWeek conference.
 
+| |
 
 
 ## <a name="vis-kids"></a> VISKids Hello 
@@ -58,6 +60,7 @@ Contact: [m.borkin@northeastern.edu](mailto:m.borkin@northeastern.edu)
 
 Come to this gathering if want to hear information about the VISKids grants and activities. The VISKids co-chairs will answer all questions. Everyone is welcome. 
 
+| |
 
 
 ## <a name="decisive"></a> DECISIVe 2017: Dealing with Cognitive Biases in Visualisations
@@ -80,6 +83,9 @@ DECISIVe website: [http://decisive-workshop.dbvis.de/](http://decisive-workshop.
 This Meetup is a follow up of the DECISIVE Workshop, where we will continue the discussions initiated during the workshop and pursue group activities. The Meetup is also a chance for additional attendees who aren't able to come to the Workshop to partake in the discussions.
 
 
+| |
+
+
 ## <a name="vis-parents"></a> VISParents
 
 Tuesday, OCTOBER 3  
@@ -91,6 +97,7 @@ Contact: [m.borkin@northeastern.edu](mailto:m.borkin@northeastern.edu)
 
 Whether you are a new parent, expectant parent, experienced wise parent, or considering some day to be a parent, come attend the first VISParents meet-up to discuss work-life balance topics at VIS.  In this open roundtable conversation topics will include work-life balance in general, going into academia versus industry, balancing time with your VISKid, going on paternity leave, being a VISParent while completing your dissertation as a student, and being a VISParent while trying to achieve tenure as a professor.  Please come share your wisdom and experiences in this open supportive VIS environment.  VISKids are also welcome to attend.
 
+| |
 
 ## <a name="junior-faculty"></a> Junior Faculty, Researchers, and Practitioners Happy Hour
 
@@ -105,7 +112,7 @@ The goal of this meetup is to provide support and mentoring to junior- level fac
 
 The goal of this meetup is to provide a safe environment for the junior VIS researchers to share and discuss the challenges they face in their work environment. Based on the success of the VIS Summer Camp co-run by the proposers, our goal is to provide the attendees a safe environment for peer mentoring, and as a result build a social network (or a cohort) that will continue to support each other beyond the VIS conference.
 
-
+| |
 
 ## <a name="sonification"></a> Sonification; augmenting visualization
 
@@ -119,6 +126,7 @@ Contact: [niklas.ronnberg@liu.se](niklas.ronnberg@liu.se)
 
 The topic for this Meetup is the use of sound to enhance and clarify visual representations of data, and to simplify the understanding of these. Within the sonification research community there is a consensus that sonification is useful, but discussions within that community often lack the expertise in other domains such as in information visualization. For example, the mapping between sound and visual elements, i.e. what in the visual representation that is suitable for sonification, needs to be thoroughly explored in connection to different application areas and types of visualization. This meetup discussion will therefore focus on the mapping between sonification and visual elements, and what in visual representations that are challenging for the visual perception. If sonification could be used beneficially in information visualization, this would not only advance the research field of sonification, but also research in information visualization where sonification will add new perspectives to data exploration and understanding of complex visual representations.
 
+| |
 
 ## <a name="vision-science"></a> Vision Science at InfoVis
 
@@ -129,8 +137,9 @@ Location: 101-ABC
 Organizers: Madison Elliott, Zoya Bylinskii, Christine Nothelfer, Cindy Xiong and Danielle Albers Szafir   
 Contact: [mellio10@psych.ubc.ca](mellio10@psych.ubc.ca)   
 
-Vision science provides an empirical basis for techniques and design practices in visualization, including what data features people attend to, what statistics they extract, and what they ultimately remember. Visualization provides real world problems for vision scientists to investigate, including color perception, pop-out, and salience. Help us explore and promote this promising research partnership! Come mingle with cognitive psychology and visualization experts active at this intersection, to extend professional networks and discuss how the two fields can continue to inspire and collaborate with one another. Apart from the InfoVis panel, [Vision Science Meets Visualization](http://ieeevis.org/year/2017/info/panels#vision-science), this Meetup provides another opportunity for interested attendees to ask questions, share new research ideas, and extend their professional networks. All are welcome, and interested participants can submit an abstract for a 2-3 minute ‘lightning talk’ about their latest work by September 15, 2017. The organizers will select a set of 10-15 talks to be presented during the Meetup.
+Vision science provides an empirical basis for techniques and design practices in visualization, including what data features people attend to, what statistics they extract, and what they ultimately remember. Visualization provides real world problems for vision scientists to investigate, including color perception, pop-out, and salience. Help us explore and promote this promising research partnership! Come mingle with cognitive psychology and visualization experts active at this intersection, to discuss how the two fields can continue to inspire and collaborate with one another. Apart from the InfoVis panel, [Vision Science Meets Visualization](http://ieeevis.org/year/2017/info/panels#vision-science), this Meetup provides another opportunity for interested attendees to ask questions, share new research ideas, and extend their professional networks. All are welcome, and interested participants can submit an abstract for a 2-3 minute ‘lightning talk’ about their latest work by September 15, 2017. The organizers will select a set of 10-15 talks to be presented during the Meetup.
 
+| |
 
 ## <a name="velo-club"></a> Velo Club de Vis
 
@@ -139,10 +148,26 @@ Thursday, OCTOBER 5
 Location: 103-B   
 
 Organizers: Jason Dykes   
-Contact: [veloclubdevis@gmail.com](veloclubdevis@gmail.com)   
+Contact: [veloclubdevis@gmail.com](mailto:veloclubdevis@gmail.com)   
+
+
+This year's VIS bike ride will be a 65km road ride heading out at dawn on Saturday 7th October. We'll be riding to and up South Mountain, but be back for evening flights. There are various ride options: [https://www.gicentre.net/velo-club-rides/](https://www.gicentre.net/velo-club-rides/)
+
+The MeetUp is essential for sign-in, preparation and a ride briefing. It's also a good place to meet VIS cyclists and chat about bikes.
+
+We'll also be using the MeetUp to arrange a pop-up ride for Friday afternoon if people are keen and the GridBike scheme in Phoenix is good.
+
+Bike rental instructions are here - you need to book ASAP: [https://www.gicentre.net/velo-club-rental](https://www.gicentre.net/velo-club-rental)
+  
+Sign up for the Saturday ride here: [http://j.mp/veloClubDeVIS_signUp17](http://j.mp/veloClubDeVIS_signUp17)
+
+If you are riding on Saturday, you'll need to get a few miles ridden and a few hills conquered in advance. Join the Velo Club de VIS Strava Club to track your training rides and see how we are all getting on: [https://www.strava.com/clubs/velo-club-de-vis](https://www.strava.com/clubs/velo-club-de-vis)
+
+Be sure to contact [veloclubdevis@gmail.com](mailto:veloclubdevis@gmail.com) to receive updates.
 
 A chance for VIS cyclists to discuss cycling and to prepare and sign on for Le Tour de VIS - the IEEE VIS post-conference road ride. This year it will be a ride of 85km from 8am on Saturday 7th October. See also: [http://www.gicentre.net/velo-club-rides/](http://www.gicentre.net/velo-club-rides/)
 
+| |
 
 
 ## <a name="velo-club"></a> Open Inventor Academic Program
