@@ -32,7 +32,6 @@ NOTE: Lunch is not prepaid, each meetup attendee pays for their own lunch.
 
 For more activities outside of the Newcomers Meetup, or if you are unable to attend the meetup, please see Vis Buddies, a [Community](http://ieeevis.org/year/2017/info/call-participation/community) program bringing together groups of new and old VIS attendees for additional activities outside of this meetup.
 
-
 | |
 
 ## <a name="career-women"></a> Career Plans for Women 
@@ -48,7 +47,6 @@ This Meetup is a natural follow up of the [AVID: Advancing Visualization Inclusi
 
 | |
 
-
 ## <a name="vis-kids"></a> VISKids Hello 
 
 Monday, OCTOBER 2  
@@ -61,7 +59,6 @@ Contact: [m.borkin@northeastern.edu](mailto:m.borkin@northeastern.edu)
 Come to this gathering if want to hear information about the VISKids grants and activities. The VISKids co-chairs will answer all questions. Everyone is welcome. 
 
 | |
-
 
 ## <a name="decisive"></a> DECISIVe 2017: Dealing with Cognitive Biases in Visualisations
 
@@ -82,9 +79,7 @@ DECISIVe website: [http://decisive-workshop.dbvis.de/](http://decisive-workshop.
 
 This Meetup is a follow up of the DECISIVE Workshop, where we will continue the discussions initiated during the workshop and pursue group activities. The Meetup is also a chance for additional attendees who aren't able to come to the Workshop to partake in the discussions.
 
-
 | |
-
 
 ## <a name="vis-parents"></a> VISParents
 
@@ -168,7 +163,6 @@ Be sure to contact [veloclubdevis@gmail.com](mailto:veloclubdevis@gmail.com) to 
 A chance for VIS cyclists to discuss cycling and to prepare and sign on for Le Tour de VIS - the IEEE VIS post-conference road ride. This year it will be a ride of 85km from 8am on Saturday 7th October. See also: [http://www.gicentre.net/velo-club-rides/](http://www.gicentre.net/velo-club-rides/)
 
 | |
-
 
 ## <a name="velo-club"></a> Open Inventor Academic Program
 
