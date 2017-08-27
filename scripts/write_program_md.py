@@ -3,7 +3,7 @@
 """
 Write program to MD from the Google Spreadsheet.
 
-Carlos Scheidegger and Sam Gratzl, 2016
+Carlos Scheidegger, Sam Gratzl, Lane Harrison, 2016-2017
 
 We recommend you use this under a virtual environment. Create
 a virtualenv and then install the required libraries with
@@ -28,13 +28,15 @@ session_dict = dict((session["Name"], session) for session in sessions)
 
 def guess_venue(session):
     ids = set([paper["ID"][:paper["ID"].find('-')] for paper in session["Value"]
-           if (not paper["ID"].startswith("tvcg"))])
+           if (not paper["ID"].upper().startswith("TVCG"))])
     if len(ids) > 1 and list(ids)[0].startswith("CG&A"):
             return "cga" 
     if len(ids) <> 1 and session["Key"].startswith("VIS Awards"):
         return "all"
     if len(ids) <> 1:
-        raise Exception("couldn't guess conference for session %s" % session["Key"] + list(ids)[0])
+        sys.stderr.write("couldn't guess conference for session %s" % session["Key"])
+        # return None
+        # raise Exception("couldn't guess conference for session %s" % session["Key"])
     return list(ids)[0]
 
 venue_name = { "cga": "CG&A",
@@ -76,8 +78,11 @@ def render_session(session, out):
     out.write("**%s**  \n" % session_dict[name]["Day"].upper())
     out.write("**%s**  \n" % session_dict[name]["Time"])
     out.write("**Room: %s**  \n" % session_dict[name]["Room"])
-    out.write("*%s: %s*  \n" % (venue, name))
-    out.write("*Session Chair: %s*  \n" % (unicode(session_dict[name]["Chair"]).encode("utf-8")))
+    if venue is not None:
+        out.write("*%s: %s*  \n" % (venue, name))
+    else:
+        out.write("*%s  \n" % name)
+    out.write("*Session Chair: %s*  \n" % (session_dict[name]["Chair"]).encode("utf-8")))
     out.write("\n")
     for paper in session["Value"]:
         award = awards.get(paper["ID"], None)
