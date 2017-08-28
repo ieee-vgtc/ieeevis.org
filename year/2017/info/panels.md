@@ -6,6 +6,7 @@ contact: "panels@ieeevis.org"
 ---
 
 * [A Matter of Scale - Scale Matters](#scale-matters)
+* [Diversity in Visualization](#diversity-panel)
 * [How do Recent Machine Learning Advances Impact the Data Visualization Research Agenda?](#ml-agenda)
 * [Increasing the Impact of Visualization Research](#vip)
 * [Reflection on Reflection in Design Studies](#design-studies)
@@ -27,6 +28,23 @@ Claudio Silva, New York University
 Contact: [groeller@cg.tuwien.ac.at](mailto:groeller@cg.tuwien.ac.at)
 
 Scale and scalability have been recurring topics in our field. Recent developments like smart data, machine learning, and advances in domains like biology, cartography, smart communities, and communication pose novel challenges to scalability and use of scale. Examples include support for scale-transparent visual computing, cross-scale visualization and interaction, massive multi-scale techniques, scale integration, cross-scale labeling and annotation, cross scales on structure and dynamics, and continuous scales. 
+
+## <a name="diversity-panel"></a> [Diversity in Visualization](https://youtu.be/-6TmLPPRjqc) 
+Thursday, OCTOBER 5  
+2:00PM-3:40PM 
+Location: TBD
+
+Robert S. Laramee (Organizer), Swansea University  
+Rita Borgo, Kings College
+Vetria Byrd, Purdue Polytechnic Institute  
+Aviva Frank, TBA University  
+Kelly Gaither, University of Texas, Austin  
+Ronald Metoyer, University of Notre Dame
+Erica Yang, Science and Technology Facilities Council (STFC)
+
+Contact: [r.s.laramee@swansea.ac.uk](mailto:r.s.laramee@swansea.ac.uk)
+
+This panel will address the lively topic of diversity in the fields of data visualization and visual analytics from gender, cultural, and technological points of view.
 
 ## <a name="ml-agenda"></a> [How do Recent Machine Learning Advances Impact the Data Visualization Research Agenda?](http://ieeevis.org) 
 Thursday, OCTOBER 5  

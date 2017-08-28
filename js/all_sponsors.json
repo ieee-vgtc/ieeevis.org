@@ -944,6 +944,13 @@
         "year": 2017
     }, 
     {
+        "src": "/attachments/supporters/2017/dl/converted/ms-logo.png", 
+        "company": "Microsoft Research", 
+        "href": "", 
+        "class": "Gold", 
+        "year": 2017
+    }, 
+    {
         "src": "/attachments/supporters/2017/dl/converted/cray_logo_registered_2945c.png", 
         "company": "Cray, Inc.", 
         "href": "", 
@@ -981,7 +988,7 @@
     {
         "src": "/attachments/supporters/2017/dl/converted/Thermo Fisher Scientific_logo_cmyk_ez.png", 
         "company": "Thermo Fisher Scientific", 
-        "href": "", 
+        "href": "http://www.openinventor.com", 
         "class": "Bronze", 
         "year": 2017
     }, 
@@ -1030,6 +1037,13 @@
     {
         "src": "/attachments/supporters/2017/dl/converted/CRC Press logo Blue.png", 
         "company": "CRC Press", 
+        "href": "", 
+        "class": "Publisher", 
+        "year": 2017
+    }, 
+    {
+        "src": "/attachments/supporters/2017/dl/converted/logo-springer.png", 
+        "company": "Springer Nature", 
         "href": "", 
         "class": "Publisher", 
         "year": 2017

@@ -52,7 +52,7 @@ Authors: Karl Bladin, Emil Axelsson, Erik Broberg, Carter Emmart, Patric Ljung, 
 
 **Instant Construction and Visualization of Crowded Biological Environments**
 <br/>
-Authors: Tobias Klein, Ludovic K. Autin, Barbora Kozlikova, David Goodsell, Arthur Olson, Eduard Gröller, and Ivan Violahen
+Authors: Tobias Klein, Ludovic K. Autin, Barbora Kozlikova, David Goodsell, Arthur Olson, Eduard Gröller, and Ivan Viola
 
 **The Topology ToolKit**
 <br/>

@@ -53,9 +53,6 @@ Filip Dabek, Jian Chen, Jesus Caban
 **CricVis: Interactive Visual Exploration and Analysis of Cricket Matches**  
 Ayan Das, Arjun Srinivasan, John Stasko
 
-**Beautiful in English –A Data Visualization of the Most Common Words Translated to English with Google**  
-Bethy Diakabana
-
 **DimReader: Using auto-differentiation to explain non-linear projections**  
 Rebecca Faust, Carlos Scheidegger
 

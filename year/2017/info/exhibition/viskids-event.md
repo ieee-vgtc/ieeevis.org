@@ -50,16 +50,16 @@ Whether you are a new parent, expectant parent, experienced wise parent, or cons
 
 ### _Dear Data_ Studio
 
-VISKids and VISAP jointly present a special activity of the [VIS capstone speaker](../../capstone) **Giorgia Lupi**.
+VISKids and VISAP jointly present a special event with the [VIS capstone speaker](../../capstone) **Giorgia Lupi**, an award winning information designer who co-founded and is design director of the data-driven design firm Accurat.
 
 Giorgia is co-author of _Dear Data_, an inspirational hand drawn data visualization book.
 She brings the spirit of this book to VIS in a live participatory visualization session.
 The audience will be asked to manually visualize data (draw!)
 following the visual language of different abstract paintings.
-Giorgia will guide the process.
+Giorgia will guide the process. Children are welcome to attend.
 
-- **Location:** tba
-- **Time:** tba
+- **Location:** 103-A room
+- **Time:** Thursday from 4:15pm - 5:55pm
 
 
 ### Contact
