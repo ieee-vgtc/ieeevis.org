@@ -21,12 +21,10 @@ See the dedicated page for [child care grants](./viskids-child-care-grants) for 
 ### VISKids Room
 
 Throughout the duration of the conference,
-VISKids will have a room for meetings, discussions,
-and personal considerations.
-It will feature chairs, tables, and room dividers (poster walls)
-to provide privacy.
+VISKids will have a room for meetings, discussions, play,
+and personal considerations. Kids are very welcome!
 
-- **Location:** tba
+- **Location:** Room 208
 
 ### VISKids Hello
 
@@ -36,16 +34,16 @@ to inform about the VISKids grants and activities.
 The VISKids co-chairs will answer all questions.
 Everyone is welcome.
 
-- **Location:** VISKids Room
-- **Time:** tba
+- **Location:** Room 103-B
+- **Time:** Monday, Oct 2, 12:15pm - 12:45pm
 
 
 ### VISParents Meetup
 
-Whether you are a new parent, expectant parent, experienced wise parent, or considering some day to be a parent, come attend the first VISParents meet-up to discuss work-life balance topics at VIS.  In this open roundtable conversation topics will include work-life balance in general, going into academia versus industry, balancing time with your VISKid, going on paternity leave, being a VISParent while completing your dissertation as a student, and being a VISParent while trying to achieve tenure as a professor.  Please come share your wisdom and experiences in this open supportive VIS environment.  VISKids are also welcome to attend.
+Whether you are a new parent, expectant parent, experienced wise parent, or considering some day to be a parent, come attend the first VISParents meet-up to discuss work-life balance topics at VIS.  In this open roundtable conversation topics will include work-life balance in general, going into academia versus industry, balancing time with your VISKid, going on parental leave, being a VISParent while completing your dissertation as a student, and being a VISParent while trying to achieve tenure as a professor.  Please come share your wisdom and experiences in this open supportive VIS environment.  Kids are also welcome to attend.
 
-- **Location:** VISKids Room
-- **Time:** tba
+- **Location:** Room 103-B
+- **Time:** Tuesday, Oct 3, 12:15pm - 2:00pm
 
 
 ### _Dear Data_ Studio
@@ -58,8 +56,8 @@ The audience will be asked to manually visualize data (draw!)
 following the visual language of different abstract paintings.
 Giorgia will guide the process. Children are welcome to attend.
 
-- **Location:** 103-A room
-- **Time:** Thursday from 4:15pm - 5:55pm
+- **Location:** Room 103-A
+- **Time:** Thursday, Oct 5, 4:15pm - 5:55pm
 
 
 ### Contact
