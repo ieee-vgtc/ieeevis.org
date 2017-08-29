@@ -16,6 +16,18 @@ To register or participate in these Community events, please see the correspondi
 If this is your first time attending VIS, welcome! We have collected
 [some advice from those of us who regularly attend VIS that might be
 helpful to you](https://docs.google.com/document/d/1ot7JHpXcfOMYZuUw0fl4_PghImxHogCrGgPm61CBMx4/edit?usp=sharing).
+Furthermore, please consider signing up for Vis Buddies (see below)
+and blinging up your badge with a first-time attendee sticker to strike
+up conversations with your fellow attendees.
+
+### Years in Attendence and Badge Bling
+
+To spark discussion and connection, we will be providing stickers that allow
+you to display how many years you've been at VIS, in addition ones to show this
+is your first time at VIS. We will also be providing "bling" to be able to spruce
+up your badge, along with your years-in-attendence sticker. These stickers will be 
+located near the registration desk, along with the job fair ribbons and a tray to 
+collect CVs/resumes for job hunters.
 
 ### Flyer Posting
 
