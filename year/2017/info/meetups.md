@@ -8,7 +8,7 @@ contact: "meetups@ieeevis.org"
 * [VIS Newcomers](#vis-newcomers) (Sunday)
 * [Career Plans for Women](#career-women) (Sunday)
 * [VISKids Hello](#vis-kids) (Monday)
-* [DECISIV Workshop contd.](#decisive) (Monday)
+* [DECISIVe Workshop contd.](#decisive) (Monday)
 * [VISParents](#vis-parents) (Tuesday)
 * [Junior Faculty, Researchers, and Practitioners Happy Hour](#junior-faculty) (Tuesday)
 * [Sonification; augmenting visualization](#sonification) (Tuesday)
@@ -77,7 +77,7 @@ The meetup also welcomes participants who could not attend the morning workshop 
 DECISIVe website: [http://decisive-workshop.dbvis.de/](http://decisive-workshop.dbvis.de/)
 
 
-This Meetup is a follow up of the DECISIVE Workshop, where we will continue the discussions initiated during the workshop and pursue group activities. The Meetup is also a chance for additional attendees who aren't able to come to the Workshop to partake in the discussions.
+This Meetup is a follow up of the DECISIVe Workshop, where we will continue the discussions initiated during the workshop and pursue group activities. The Meetup is also a chance for additional attendees who aren't able to come to the Workshop to partake in the discussions.
 
 | |
 
@@ -103,9 +103,10 @@ Location: 103-A
 Organizers: Kristi Potter and Remco Chang   
 Contact: [kristi.potter@nrel.gov](kristi.potter@nrel.gov)   
 
-The goal of this meetup is to provide support and mentoring to junior- level faculty, researchers, and practitioners within the visualization community. The VIS community has always been very supportive of its junior members. The Student Volunteer (SV), Doctoral Colloquium (DC), Compass, “Networking” events, and the VisKids programs together provide a breadth of support to undergraduate, graduate, and postdoc researchers in a variety of ways. However, one missing link among these wide range of programs is support for the junior professors, early career researchers and practitioners. Junior researchers face significant amount of pressure and are often overwhelmed by the drastic change from being a student (or a postdoc). Many junior researchers have little training in project management, grant-writing, mentoring, teaching, and establishing a research agenda. As a result, they struggle maintaining a work-life balance and have few (if no) outlet in seeking help, advice, or support.
+Join your fellow junior-level faculty, researchers, and practitioners in our first ever happy hour!
 
-The goal of this meetup is to provide a safe environment for the junior VIS researchers to share and discuss the challenges they face in their work environment. Based on the success of the VIS Summer Camp co-run by the proposers, our goal is to provide the attendees a safe environment for peer mentoring, and as a result build a social network (or a cohort) that will continue to support each other beyond the VIS conference.
+The goal of this meetup is to provide a safe environment for junior Vis researchers to gather and discuss challenges faced in and out of the work environment. The VIS community has always been very supportive of its junior members, however, one missing link among these wide range of programs is support for the junior professors, early career researchers and practitioners.  Junior researchers face significant amount of pressure and are often overwhelmed by the drastic change from being a student (or a postdoc). Many junior researchers have little training in project management, grant-writing, mentoring, teaching, and establishing a research agenda. As a result, they struggle maintaining a work-life balance and have few (if no) outlet in seeking help, advice, or support. Attendees will have the opportunity to meet fellow early career researchers, participate in peer mentoring, and as a result build a social network (or a cohort) that will continue to support beyond the VIS conference.
+
 
 | |
 
