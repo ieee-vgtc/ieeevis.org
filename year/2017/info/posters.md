@@ -231,7 +231,7 @@ Ashley Suh, Mustafa Hajij, Bei Wang, Carlos Scheidegger, Paul Rosen
 Tomoaki Tatsukawa, Akira Oyama, Takehisa Kohira, Hiromasa Kemmotsu, Hideo Miyachi
 
 **Augmenting Tactile 3D Data Exploration With Pressure Sensing**  
-Xiyao Wang, Lonni Besançon, Mehdi Ammi, tobias isenberg
+Xiyao Wang, Lonni Besançon, Mehdi Ammi, Tobias Isenberg
 
 **TopoCubes: Interactive Exploration of Persistence Homology of Large Datasets**  
 Zhe Wang, Paul Rosen, Bei Wang, Carlos Scheidegger
