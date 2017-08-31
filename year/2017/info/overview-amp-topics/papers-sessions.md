@@ -8,6 +8,7 @@ permalink: /year/2017/info/overview-amp-topics/papers-sessions
 [T] (previously published *TVCG* journal papers presented at VIS)  
 [C] conference papers  
 
+
 **TUESDAY, OCTOBER 3**  
 **8:15am-10:30am**  
 **Room: 301-CD**  
@@ -116,7 +117,7 @@ Authors: Jiang Zhang, Hanqi Guo, Fan Hong, Xiaoru Yuan, Tom Peterka
 **4:15pm-5:55pm**  
 **Room: 301-C**  
 *VAST: Graphs and Trees*  
-*Session Chair: Stephen Kouborov*  
+*Session Chair: Stephen Kobourov*  
 
 **Dynamic Influence Networks for Rule-based Models (J)**  
 Authors: Angus G. Forbes, Andrew Burks, Kristine Lee, Xing Li, Pierre Boutillier, Jean Krivine, Walter Fontana  
@@ -602,7 +603,7 @@ Authors: Antonio G. Losada, Roberto Theron, Alejandro Benito
 Authors: Manuel Stein, Halldór Janetzko, Thorsten Breitkreutz, Daniel Seebacher, Tobias Schreck, Michael Grossniklaus, Iain Couzin, Daniel Keim  
 [Video Preview](https://vimeo.com/230841435)
 
-**GapChart: a Gap Strategy to Visualize the Temporal Evolution of both Ranks and Scores**  
+**Using Gap Charts to Visualize the Temporal Evolution of Ranks and Scores**  
 Authors: Charles Perin, Jeremy Boy, Frederic Vernier  
 [Video Preview](https://vimeo.com/230841589)
 
