@@ -33,5 +33,6 @@ out = sys.stdout
 for poster in posters:
     out.write(("**%s**%s  \n" % (poster["Title"], award_string(poster))).encode("utf-8"))
     out.write(("%s\n" % poster["Author list"]).encode("utf-8"))
+    out.write(("[Video Preview](%s)\n" % poster["FF Video"]).encode("utf-8"))    
     out.write("\n")
 
