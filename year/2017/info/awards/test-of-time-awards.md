@@ -42,7 +42,7 @@ As we said, the notation can be usefully applied to current visualization techni
 
 **ManyEyes: a Site for Visualization at Internet Scale**
 <br/>
-Authors: Wattenberg, M.; Viegas, F.B.; van Ham, F.; McKeon, M.; Kriss, J.<br>
+Authors: Viegas, F.B.; Wattenberg, M.; van Ham, F.; Kriss, J.; McKeon, M.<br>
 <a href="https://doi.org/10.1109/TVCG.2007.70577">https://doi.org/10.1109/TVCG.2007.70577 </a><br>
 <!--- InfoVis 2007 --->
 <br/>
