@@ -31,7 +31,7 @@ panels:
 
 posters:
 	./scripts/write_posters_md.py > data/autogen/posters.md
-	cat data/posters_front_matter.txt data/autogen/posters.md > year/2016/info/overview-amp-topics/posters.md
+	cat data/posters_front_matter.txt data/autogen/posters.md > year/2017/info/posters.md
 
 papers_program:
 	./scripts/write_program_md.py > data/autogen/program.md
