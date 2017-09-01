@@ -9,7 +9,7 @@ for file in *.BMP; do convert $file "`basename $file .BMP`.png"; done
 for file in *.pdf; do convert  -colorspace rgb $file "`basename $file .pdf`.png"; done
 
 for file in *.png; do mv $file converted/; done
-for file in *.PNG; do mv $file converted/; done
+for file in *.PNG; do mv $file converted/"`basename "$file" .PNG`.png"; done
 
 cd -
 
