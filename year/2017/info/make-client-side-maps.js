@@ -5,7 +5,13 @@ var maps = {
                              { shape: "rect", "coords": "197,76,276,551", "href": "/year/2017/info/overview-amp-topics/doctoral-colloquium" },
                              { shape: "rect", "coords": "292,76,368,551", "href": "/year/2017/info/overview-amp-topics/doctoral-colloquium" }
                            ],
-    "at-a-glance-sun-1.png": [],
+    "at-a-glance-sun-1.png": [
+      { 
+        shape: "rect", 
+        "coords": "93,65,189,563", 
+        "href": "http://www.visualanalyticshealthcare.org/" 
+      },
+    ],
     "at-a-glance-sun-2.png": [],
     "at-a-glance-mon-1.png": [],
     "at-a-glance-mon-2.png": [],
