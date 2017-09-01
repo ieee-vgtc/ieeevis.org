@@ -99,4 +99,12 @@ for group in supporters:
             }
         new_supporters.append(d)
 
+new_supporters.append({
+    "company": "NSF",
+    "class": "Diamond",
+    "href": "http://www.nsf.gov/", 
+    "src": "/attachments/supporters/tmp/nsf_t.png",    
+    "year": 2017
+    })
+
 print json.dumps(new_supporters, indent=4)

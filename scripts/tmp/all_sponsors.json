@@ -1061,5 +1061,12 @@
         "href": "", 
         "class": "Publisher", 
         "year": 2017
+    }, 
+    {
+        "src": "/attachments/supporters/tmp/nsf_t.png", 
+        "company": "NSF", 
+        "href": "http://www.nsf.gov/", 
+        "class": "Diamond", 
+        "year": 2017
     }
 ]
