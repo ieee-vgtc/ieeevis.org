@@ -17,10 +17,15 @@ the private key to access the spreadsheet from the script.
 
 import json
 import xlrd
+import os
 
 d = []
 
-book = xlrd.open_workbook("scripts/tmp/Report.xls", formatting_info=True)
+book = xlrd.open_workbook(
+    "scripts/tmp/Report.xls", 
+    formatting_info=True, 
+    logfile=open(os.devnull, 'w') 
+    )
 sheet = book.sheet_by_index(0)
 
 for row in range(1, sheet.nrows):
