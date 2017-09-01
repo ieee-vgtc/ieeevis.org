@@ -58,17 +58,24 @@ supporters = load_sheet_by_name(gc1, "Supporters").get_all_records()
 
 # payment exception
 for i,d in enumerate(supporters):
-    if d['Company']=='Uncharted Software Inc.':
+#    if d['Company']=='Uncharted Software Inc.':
+#        supporters[i]['Received'] = 3000
+#        supporters[i]['Date Paid'] = "8/2/2017"
+    if d['Company']=='Siemens':
         supporters[i]['Received'] = 3000
-        supporters[i]['Date Paid'] = "8/2/2017"
+        supporters[i]['Date Paid'] = "8/31/2017"
 
 supporters = sorted(filter(lambda t: (t['Company'] != "TOTAL" and
                                       t['Received'] != "" and t['Date Paid'] != ""), supporters), key=sortable_date)
 
 logo_file = json.load(open("scripts/tmp/logo-links.json"))
+logo_file = filter(lambda t: t['Company'] != 'KAUST Visual Computing Center', logo_file)
+
 # logo exception
 logo_file.append( {"Company": 'Tableau Software', "logo_name": 'logo-tableau'})
 logo_file.append( {"Company": 'Springer Nature', "logo_name": 'logo-springer'})
+logo_file.append( {"Company": 'Siemens', "logo_name": 'logo-siemens'})
+logo_file.append( {"Company": 'KAUST Visual Computing Center', "logo_name": 'logo-kaust'})
 supporters = inner_join(logo_file, supporters, 'Company')
 
 link_file = json.load(open("js/sponsor_links.json"))
