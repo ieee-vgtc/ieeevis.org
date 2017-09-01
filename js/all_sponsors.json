@@ -937,6 +937,13 @@
         "year": 2017
     }, 
     {
+        "src": "/attachments/supporters/tmp/nsf_t.png", 
+        "company": "NSF", 
+        "href": "http://www.nsf.gov/", 
+        "class": "Diamond", 
+        "year": 2017
+    }, 
+    {
         "src": "/attachments/supporters/2017/dl/converted/valcri_logo_subline_cmyk.png", 
         "company": "Middlesex University", 
         "href": "", 
@@ -1060,13 +1067,6 @@
         "company": "Springer Nature", 
         "href": "", 
         "class": "Publisher", 
-        "year": 2017
-    }, 
-    {
-        "src": "/attachments/supporters/tmp/nsf_t.png", 
-        "company": "NSF", 
-        "href": "http://www.nsf.gov/", 
-        "class": "Diamond", 
         "year": 2017
     }
 ]

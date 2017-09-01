@@ -82,7 +82,7 @@ link_file = json.load(open("js/sponsor_links.json"))
 supporters = left_outer_join(supporters, link_file, 'Company')
 
 supporters.append({
-    "company": "NSF",
+    "Company": "NSF",
     "Category": "Diamond",
     "href": "http://www.nsf.gov/", 
     "src": "/attachments/supporters/tmp/nsf_t.png",    
@@ -102,7 +102,7 @@ for group in supporters:
             "company": supporter["Company"],
             "class": sponsors_category_remap.get(supporter['Category'], supporter['Category']),
             "href": supporter['href'] if supporter.get('href') else '', 
-            "src":  os.path.splitext( os.path.join(LOGOS_DIR, supporter["logo_name"]) )[0]+'.png' if not supporter.get('src'), 
+            "src":  os.path.splitext( os.path.join(LOGOS_DIR, supporter["logo_name"]) )[0]+'.png' if not supporter.get('src') else supporter.get('src'), 
             "year": YEAR
             }
         new_supporters.append(d)
