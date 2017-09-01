@@ -6,32 +6,34 @@ permalink: /year/2017/info/week-at-a-glance
 
 ## Saturday
 
-![](/year/2017/img/at-a-glance-sat.png)
+<span>![](/year/2017/img/at-a-glance-sat.png)</span>
 
 ## Sunday
 
-![](/year/2017/img/at-a-glance-sun-1.png)
+<span>![](/year/2017/img/at-a-glance-sun-1.png)</span>
 
-![](/year/2017/img/at-a-glance-sun-2.png)
+<span>![](/year/2017/img/at-a-glance-sun-2.png)</span>
 
 ## Monday
 
-![](/year/2017/img/at-a-glance-mon-1.png)
+<span>![](/year/2017/img/at-a-glance-mon-1.png)</span>
 
-![](/year/2017/img/at-a-glance-mon-2.png)
+<span>![](/year/2017/img/at-a-glance-mon-2.png)</span>
 
 ## Tuesday
 
-![](/year/2017/img/at-a-glance-tue.png)
+<span>![](/year/2017/img/at-a-glance-tue.png)</span>
 
 ## Wednesday
 
-![](/year/2017/img/at-a-glance-wed.png)
+<span>![](/year/2017/img/at-a-glance-wed.png)</span>
 
 ## Thursday
 
-![](/year/2017/img/at-a-glance-thu.png)
+<span>![](/year/2017/img/at-a-glance-thu.png)</span>
 
 ## Friday
 
-![](/year/2017/img/at-a-glance-fri.png)
+<span>![](/year/2017/img/at-a-glance-fri.png)</span>
+
+<script src="make-client-side-maps.js"></script>
