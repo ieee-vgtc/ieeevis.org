@@ -1,4 +1,10 @@
-## Doctoral Colloquium
+---
+title: Doctoral ColloquimFuture Locations for IEEE VIS Conferences
+layout: main-2017
+permalink: /year/2017/info/overview-amp-topics/doctoral-colloquium
+---
+
+# Doctoral Colloquium
 (Invitation only event)
 
 ## Panelists
