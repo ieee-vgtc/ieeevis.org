@@ -16,7 +16,7 @@ We hope to encourage researchers to aim to produce work that is forward looking 
 
 **Jigsaw: Supporting Investigative Analysis through Interactive Visualization**
 <br/>
-Authors: Stasko, J.; Görg, C.; Liu, Z.; Singhal, K.<br>
+Authors: John Stasko, Carsten Görg, Zhicheng Liu, Kanyupriya Singhal<br>
 <a href="https://doi.org/10.1109/VAST.2007.4389006">https://doi.org/10.1109/VAST.2007.4389006 </a><br>
 <!--- VAST 2007 --->
 <br/>
@@ -27,7 +27,7 @@ Jigsaw is a visual analytics system, developed by the Georgia Institute of Techn
 
 **The Structure of the Information Visualization Design Space**
 <br/>
-Authors: Card, S.K.; Mackinlay, J.D.<br>
+Authors: Stuart K. Card, Jock D. Mackinlay<br>
 <a href="https://doi.org/10.1109/INFVIS.1997.636792">https://doi.org/10.1109/INFVIS.1997.636792 </a><br>
 <!--- InfoVis 1997 --->
 <br/>
@@ -42,7 +42,7 @@ As we said, the notation can be usefully applied to current visualization techni
 
 **ManyEyes: a Site for Visualization at Internet Scale**
 <br/>
-Authors: Viegas, F.B.; Wattenberg, M.; van Ham, F.; Kriss, J.; McKeon, M.<br>
+Authors: Fernanda B. Viegas, Martin Wattenberg, Frank van Ham, Jesse Kriss, Matt McKeon<br>
 <a href="https://doi.org/10.1109/TVCG.2007.70577">https://doi.org/10.1109/TVCG.2007.70577 </a><br>
 <!--- InfoVis 2007 --->
 <br/>
@@ -53,7 +53,7 @@ The ManyEyes project, which this paper describes, has been impactful in many way
 
 **Visualization of second order tensor fields and matrix data**
 <br/>
-Authors: Delmarcelle, T.; Hesselink, L.<br>
+Authors: Thierry Delmarcelle, Lambertus Hesselink<br>
 <a href="https://doi.org/10.1109/VISUAL.1992.235193">https://doi.org/10.1109/VISUAL.1992.235193 </a><br>
 <!--- Vis 1992 --->
 <br/>
@@ -64,7 +64,7 @@ Visualization of second order tensor fields has a wide range of applications in 
 
 **Efficient computation of the topology of level sets**
 <br/>
-Authors: Pascucci, V.; Cole-McLaughlin, K<br>
+Authors: Valerio Pascucci, Kree Cole-McLaughlin<br>
 <a href="https://doi.org/10.1109/VISUAL.2002.1183774">https://doi.org/10.1109/VISUAL.2002.1183774 </a><br>
 <!--- Vis 2002 --->
 <br/>
