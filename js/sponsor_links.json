@@ -10,5 +10,13 @@
   {
     "Company": "Thermo Fisher Scientific", 
     "href": "http://www.openinventor.com"
+  },
+  {
+    "Company": "Fraunhofer IGD", 
+    "href": "http://www.igd.fraunhofer.de"
+  },
+  {
+    "Company": "KAUST Visual Computing Center", 
+    "href": "https://vcc.kaust.edu.sa/Pages/Home.aspx"
   }
 ]

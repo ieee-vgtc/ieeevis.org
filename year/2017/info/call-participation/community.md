@@ -16,6 +16,18 @@ To register or participate in these Community events, please see the correspondi
 If this is your first time attending VIS, welcome! We have collected
 [some advice from those of us who regularly attend VIS that might be
 helpful to you](https://docs.google.com/document/d/1ot7JHpXcfOMYZuUw0fl4_PghImxHogCrGgPm61CBMx4/edit?usp=sharing).
+Furthermore, please consider signing up for Vis Buddies (see below)
+and blinging up your badge with a first-time attendee sticker to strike
+up conversations with your fellow attendees.
+
+### Years in Attendence and Badge Bling
+
+To spark discussion and connection, we will be providing stickers that allow
+you to display how many years you've been at VIS, in addition ones to show this
+is your first time at VIS. We will also be providing "bling" to be able to spruce
+up your badge, along with your years-in-attendence sticker. These stickers will be 
+located near the registration desk, along with the job fair ribbons and a tray to 
+collect CVs/resumes for job hunters.
 
 ### Flyer Posting
 
@@ -27,16 +39,16 @@ guarantee that it will be posted to the corkboard by the first day of VIS.*
 
 ### Vis Buddies
 
-VisBuddies brings together new and returning VIS attendees with similar interests. For newcomers, this is a chance to meet experienced researchers in the field. For returning attendees, it is a chance to meet fresh talent joining VIS for the first time. You can volunteer for VisBuddies on the registration form. Based on your declared interests in the registration form, we will match pairs or small groups of attendees with different levels of VIS experience, and contact the groups via email prior to VIS.
+VisBuddies brings together new and returning VIS attendees with similar interests. For newcomers, this is a chance to meet experienced researchers in the field. For returning attendees, it is a chance to meet fresh talent joining VIS for the first time. You can volunteer for VisBuddies on the registration form (the latest a week prior to VIS). Based on your declared interests in the registration form, we will match pairs or small groups of attendees with different levels of VIS experience, and contact the groups via email prior to VIS.
 
 Suggested Buddies activities include:
 
-* Attend the [VIS Newcomers Meetup](/year/2017/info/meetups) together (highly recommended)
+* Attend the [VIS Newcomers Meetup](/year/2017/info/meetups#vis-newcomers) together (highly recommended)
 * Have lunch, dinner, coffee, etc. with your Buddies at least once
 * Discuss interesting sessions to attend
 * Introduce your colleagues to your Buddies
 
-Vis Buddies is in conjunction with the Newcomers Meetup [VIS Newcomers Meetup](/year/2017/info/meetups). Prior to the Meetup, we will have a booth set-up outside to help you connect with your buddies (if you have not done so already). 
+Vis Buddies is in conjunction with the Newcomers Meetup [VIS Newcomers Meetup](/year/2017/info/meetups#vis-newcomers). Prior to the Meetup, we will have a booth set-up outside to help you connect with your buddies (if you have not done so already). 
 
 ### Asynchronous Job Fair
 
@@ -83,6 +95,11 @@ This is an informal, planned lunch where more "IEEE VIS regulars" have the oppor
 * [Wednesday, Oct. 4](https://docs.google.com/document/d/1cVWC7ADPV2ifCC7HHYtUSd1rv2fQiy8NBrHDMeNDUDA/edit?usp=sharing)
 * [Thursday, Oct. 5](https://docs.google.com/document/d/1DhAq-i5VzLthhSqjorbiU3iKZrl3gzOPKesEYVBvt6M/edit?usp=sharing)
 -->
+
+### Other community-building events in VIS that we are aware of (tell us of yours!)
+- [Junior Faculty, Researchers, and Practitioners Happy Hour](/year/2017/info/meetups#junior-faculty)
+- [Career Plans for Women](/year/2017/info/meetups#career-women)
+- [Velo Club de Vis](/year/2017/info/meetups#velo-club)
 
 ### Contact
 

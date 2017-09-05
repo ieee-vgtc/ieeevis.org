@@ -937,6 +937,13 @@
         "year": 2017
     }, 
     {
+        "src": "/attachments/supporters/tmp/nsf_t.png", 
+        "company": "NSF", 
+        "href": "http://www.nsf.gov/", 
+        "class": "Diamond", 
+        "year": 2017
+    }, 
+    {
         "src": "/attachments/supporters/2017/dl/converted/valcri_logo_subline_cmyk.png", 
         "company": "Middlesex University", 
         "href": "", 
@@ -972,8 +979,8 @@
         "year": 2017
     }, 
     {
-        "src": "/attachments/supporters/2017/dl/converted/VCC_150510 Visual Computing Center  Logo Lock.png", 
-        "company": "KAUST Visual Computing Center", 
+        "src": "/attachments/supporters/2017/dl/converted/il_logo_advancing.png", 
+        "company": "INTELLIGENT LIGHT", 
         "href": "", 
         "class": "Silver", 
         "year": 2017
@@ -982,6 +989,20 @@
         "src": "/attachments/supporters/2017/dl/converted/Kitware_Logo.png", 
         "company": "Kitware, Inc.", 
         "href": "", 
+        "class": "Silver", 
+        "year": 2017
+    }, 
+    {
+        "src": "/attachments/supporters/2017/dl/converted/logo-siemens.png", 
+        "company": "Siemens", 
+        "href": "", 
+        "class": "Silver", 
+        "year": 2017
+    }, 
+    {
+        "src": "/attachments/supporters/2017/dl/converted/logo-kaust.png", 
+        "company": "KAUST Visual Computing Center", 
+        "href": "https://vcc.kaust.edu.sa/Pages/Home.aspx", 
         "class": "Silver", 
         "year": 2017
     }, 
@@ -1009,7 +1030,7 @@
     {
         "src": "/attachments/supporters/2017/dl/converted/igd_60mm_p334.png", 
         "company": "Fraunhofer IGD", 
-        "href": "", 
+        "href": "http://www.igd.fraunhofer.de", 
         "class": "Academic", 
         "year": 2017
     }, 
