@@ -1,7 +1,7 @@
 ---
 title: IEEE VIS'17 for Practitioners
 layout: main-2017
-permalink: /year/2017/info/overview-amp-topics/practitioner-guide_human-factors.md
+permalink: /year/2017/info/overview-amp-topics/practitioner-guide_human-factors
 ---
 
 ##IEEE VIS for practitioners interested in human factors
