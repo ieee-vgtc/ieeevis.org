@@ -89,6 +89,15 @@ supporters.append({
     "year": 2017
     })
 
+supporters.append({
+    "Company": "ASU",
+    "Category": "Academic",
+    "href": "", 
+    "src": "/attachments/supporters/2017/logo-asu.png",    
+    "year": 2017
+    })
+
+
 supporters = group_by(supporters, lambda t: t['Category'])
 supporters = sorted(supporters, key=lambda t: sponsors_category_order[t['Key']])
 

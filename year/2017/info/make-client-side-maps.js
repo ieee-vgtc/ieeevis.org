@@ -8,7 +8,7 @@ var maps = {
     "at-a-glance-sun-1.png": [
       { 
         shape: "rect", 
-        "coords": "93,65,189,563", 
+        "coords": "94,67,190,563", 
         "href": "http://www.visualanalyticshealthcare.org/" 
       },
     ],
