@@ -97,9 +97,11 @@ This is an informal, planned lunch where more "IEEE VIS regulars" have the oppor
 -->
 
 ### Other community-building events in VIS that we are aware of (tell us of yours!)
-- [Junior Faculty, Researchers, and Practitioners Happy Hour](/year/2017/info/meetups#junior-faculty)
-- [Career Plans for Women](/year/2017/info/meetups#career-women)
-- [Velo Club de Vis](/year/2017/info/meetups#velo-club)
+- [Advancing Visualization Inclusion and Diversity - workshop](/year/2017/info/workshops#avid)
+- [Career Plans for Women -  meetup](/year/2017/info/meetups#career-women)
+- [Diversity in Visualization - panel](/year/2017/info/panels#diversity-panel)
+- [Junior Faculty, Researchers, and Practitioners Happy Hour - meetup](/year/2017/info/meetups#junior-faculty)
+- [Velo Club de Vis - meetup](/year/2017/info/meetups#velo-club)
 
 ### Contact
 
