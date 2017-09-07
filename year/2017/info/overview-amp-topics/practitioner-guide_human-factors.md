@@ -11,7 +11,7 @@ permalink: /year/2017/info/overview-amp-topics/practitioner-guide_human-factors
 * *Workshop* - **[Immersive Analytics: Exploring Future Interaction and Visualization Technologies for Data Analytics](http://immersiveanalytics.net/)**
 This workshop looks at immersive technologies (e.g., AR, VR, Mixed reality, NUIs, large displays), scenarios, theories and frameworks, collaboration, physical and tangible visualization, as well as interaction techniques.
 
-* *Tutorial* - **[Applying Color Theory to VIS] (http://ieeevis.org/year/2017/info/tutorials#Applying_Color_Theory)**
+* *Tutorial* - **[Applying Color Theory to VIS](http://ieeevis.org/year/2017/info/tutorials#Applying_Color_Theory)**
 
 #### Monday
 
