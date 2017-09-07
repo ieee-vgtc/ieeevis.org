@@ -4,7 +4,7 @@ layout: main-2017
 permalink: /year/2017/info/overview-amp-topics/practitioner-guide_machine-learning
 ---
 
-##IEEE VIS for data scientists and machine learning experts
+## IEEE VIS for data scientists and machine learning experts
 
 
 #### Sunday
