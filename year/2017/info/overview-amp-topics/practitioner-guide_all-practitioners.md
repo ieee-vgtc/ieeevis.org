@@ -11,13 +11,13 @@ permalink: /year/2017/info/overview-amp-topics/practitioner-guide_all-practition
 * **[VAST Challenge](http://www.vacommunity.org/VAST+Challenge+2017)** -
 The Visual Analytics Science and Technology (VAST) Challenge is an annual contest with the goal of advancing the field of visual analytics through competition. VAST Challenge problems provide researchers with realistic tasks and data sets for evaluating their software, as well as an opportunity to advance the field by solving more complex problems.
 
-* *Tutorial* - **[Visualization Analysis and Design](http://ieeevis.org/year/2017/info/tutorials#Visualization_Analysis_Design)**
+* *Tutorial* - **[Visualization Analysis and Design](/year/2017/info/tutorials#Visualization_Analysis_Design)**
 
-* *Tutorial* - **[Applying Color Theory to VIS](http://ieeevis.org/year/2017/info/tutorials#Applying_Color_Theory)**
+* *Tutorial* - **[Applying Color Theory to VIS](/year/2017/info/tutorials#Applying_Color_Theory)**
 
-* *Tutorial* - **[Sketching Designs for Data Visualization using the Five Design-Sheet Methodology](http://ieeevis.org/year/2017/info/tutorials#Five_Design-Sheet)**
+* *Tutorial* - **[Sketching Designs for Data Visualization using the Five Design-Sheet Methodology](/year/2017/info/tutorials#Five_Design-Sheet)**
 
-* *Workshop* - **[AVID: Advancing Visualization Inclusion and Diversity](http://ieeevis.org/year/2017/info/workshops#avid)**
+* *Workshop* - **[AVID: Advancing Visualization Inclusion and Diversity](/year/2017/info/workshops#avid)**
 
 #### Monday
 
@@ -27,13 +27,13 @@ Providing an opportunity for visualization practitioners and researchers to meet
 * **[Discovery Jam](http://discoveryjam.com/)** - 
 A live hackathon to scientific data discovery. You’ll leave the workshop with skills for communicating with scientists, approaches to cross-disciplinary collaboration, and new ideas to pursue further.
 
-* *Tutorial* - **[Large-scale Web-based Visual Analytics Made Easy](http://ieeevis.org/year/2017/info/tutorials#Large-scale_Web-based_VA)**
+* *Tutorial* - **[Large-scale Web-based Visual Analytics Made Easy](/year/2017/info/tutorials#Large-scale_Web-based_VA)**
 
 #### Tuesday
 
 * **VIS Opening & Awards**
 
-* *VIS Keynote Address* - **[Analytics Inspired Visualization: a Holistic In-situ Scientific Workflow at Extreme Scale](http://ieeevis.org/year/2017/keynote)** 
+* *VIS Keynote Address* - **[Analytics Inspired Visualization: a Holistic In-situ Scientific Workflow at Extreme Scale](/year/2017/keynote)** 
 
 * *Panel* - **[VIP - Increasing the Impact of Visualization Research](http://www.visinpractice.rwth-aachen.de/panel.html)**
 
@@ -61,7 +61,7 @@ A live hackathon to scientific data discovery. You’ll leave the workshop with 
  * Keeping Multiple Views Consistent: Constraints, Validations and Exceptions in Visualization Authoring
 
 
-* *VIS Capstone Address* - **[Data Humanism - The Revolution will be Visualized](http://ieeevis.org/year/2017/capstone)**
+* *VIS Capstone Address* - **[Data Humanism - The Revolution will be Visualized](/year/2017/capstone)**
 
 
 -----
