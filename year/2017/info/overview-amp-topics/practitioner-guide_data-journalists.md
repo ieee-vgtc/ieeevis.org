@@ -10,7 +10,7 @@ permalink: /year/2017/info/overview-amp-topics/practitioner-guide_data-journalis
 
 * *Tutorial* - **[Visualization Analysis and Design](http://ieeevis.org/year/2017/info/tutorials#Visualization_Analysis_Design)**
 
-* *Tutorial* - **[Applying Color Theory to VIS] (http://ieeevis.org/year/2017/info/tutorials#Applying_Color_Theory)**
+* *Tutorial* - **[Applying Color Theory to VIS](http://ieeevis.org/year/2017/info/tutorials#Applying_Color_Theory)**
 
 #### Monday
 
@@ -19,7 +19,7 @@ permalink: /year/2017/info/overview-amp-topics/practitioner-guide_data-journalis
 * **[Discovery Jam](http://discoveryjam.com/)** - 
 A live hackathon to scientific data discovery. You’ll leave the workshop with skills for communicating with scientists, approaches to cross-disciplinary collaboration, and new ideas to pursue further.
 
-* *Tutorial* - **[Large-scale Web-based Visual Analytics Made Easy] (http://ieeevis.org/year/2017/info/tutorials#Large-scale_Web-based_VA)**
+* *Tutorial* - **[Large-scale Web-based Visual Analytics Made Easy](http://ieeevis.org/year/2017/info/tutorials#Large-scale_Web-based_VA)**
 
 * *Workshop* - **[Visualization for the Digital Humanities](http://vis4dh.dbvis.de/)** - The purpose of this workshop is to propose new research directions in visualization for the digital humanities, to familiarize the visualization research community with the problems faced by digital humanities researchers, and to foster future collaboration between visualization and digital humanities research.
 
