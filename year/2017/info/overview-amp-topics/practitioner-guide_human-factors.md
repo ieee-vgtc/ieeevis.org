@@ -4,7 +4,7 @@ layout: main-2017
 permalink: /year/2017/info/overview-amp-topics/practitioner-guide_human-factors
 ---
 
-##IEEE VIS for practitioners interested in human factors
+## IEEE VIS for practitioners interested in human factors
 
 #### Sunday
 
