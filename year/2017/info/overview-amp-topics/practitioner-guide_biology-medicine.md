@@ -4,7 +4,7 @@ layout: main-2017
 permalink: /year/2017/info/overview-amp-topics/practitioner-guide_biology-medicine
 ---
 
-##IEEE VIS events for practitioners from biology and medicine
+## IEEE VIS events for practitioners from biology and medicine
 
 
 #### Sunday
