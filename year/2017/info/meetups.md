@@ -11,7 +11,7 @@ contact: "meetups@ieeevis.org"
 * [DECISIVe Workshop contd.](#decisive) (Monday)
 * [VISParents](#vis-parents) (Tuesday)
 * [Junior Faculty, Researchers, and Practitioners Happy Hour](#junior-faculty) (Tuesday)
-* [Sonification; augmenting visualization](#sonification) (Tuesday)
+* [Sonification: augmenting visualization](#sonification) (Tuesday)
 * [Vision Science at InfoVis](#vision-science) (Wednesday)
 * [Velo Club de Vis](#velo-club) (Thursday)
 * [Open Inventor Academic Program](#open-inventor) (Thursday)
