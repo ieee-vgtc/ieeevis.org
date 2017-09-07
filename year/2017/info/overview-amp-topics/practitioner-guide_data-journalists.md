@@ -4,7 +4,7 @@ layout: main-2017
 permalink: /year/2017/info/overview-amp-topics/practitioner-guide_data-journalists
 ---
 
-##IEEE VIS for data journalists
+## IEEE VIS for data journalists
 
 #### Sunday
 
