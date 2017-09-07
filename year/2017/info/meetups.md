@@ -195,3 +195,4 @@ Organizers: Robert Kosara and Noeska Smit
 Contact: [rkosara@tableau.com](mailto:rkosara@tableau.com), [noeska.smit@uib.no](mailto:noeska.smit@uib.no)
  
 When you look around online, you find a lot of colorful pictures but little reliable information about visualization or visualization research. But what about all the good research work that is going on? What about YOUR work? Let’s talk about how you can tell the world outside of the VIS community about what you do, why it matters, and what excites you about it. We’ll chat about how to start a blog, and how to not let it die after three postings. We’ll also talk about how it bolsters your academic credentials and gets your name out into the world. Come hear from some of the people who have been doing this blogging thing successfully for over a decade, and what they’ve learned in the process.
+
