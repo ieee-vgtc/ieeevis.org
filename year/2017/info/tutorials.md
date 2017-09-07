@@ -11,7 +11,7 @@ contact: "tutorials@ieeevis.org"
 * [Visual Analytics for High-Dimensional Data (half-day)](#VA_High-Dim)
 * [Interactive Visualization of Large Dynamic Particle Data (half-day)](#Interactive_Particle_Vis)
 * [Vis+ML: Symbiosis of Visualization and Machine Learning (half-day)](#Vis+ML)
-* [Sketching Designs for Data-Visualization using the Five Design-Sheet Methodology (half-day)](#Five_Design-Sheet)
+* [Sketching Visualization designs, and using the Five Design-Sheet (FdS) Methodology in Teaching (half-day)](#Five_Design-Sheet)
 * [Visual Analytics of Cohort Study Data – From Individuals to Populations (half-day)](#Cohort_Study)
 * [Analyzing Qualitative Data (half-day)](#Qualitative_Data)
 
@@ -86,7 +86,7 @@ Yang Wang (Uber Technologies Inc.)
 Visualization and machine learning (ML) have come close to each other in recent years more than ever before. Visualization has emerged as a popular technique to understand the inner working and performance of machine learning and of late, deep learning algorithms. At the same time, machine learning techniques such as dimensionality reduction, clustering, and classification have been used on a regular basis to transform large datasets to representations well-suited for visual exploration. As a result, both research fields have witnessed significant growth in the literature in recent years. The number of initiatives in the forms of workshops, panels, and open source releases to bring these two communities together have been growing as well. We propose to contribute to this developing body of knowledge with a half-day tutorial at IEEE VIS 2017. The proposed tutorial offers a concise yet complete coverage of the recent exchange of ideas and techniques between these two fields. Using engaging case studies and demos based on our previous and ongoing work, we plan to highlight how visualization and ML techniques (both supervised and unsupervised) are used hand-in-hand to understand hidden patterns in various types of structured and unstructured data. This tutorial should appeal to researchers and practitioners alike since it plans to discuss the inception of new techniques in the visualization or machine learning research community as well as their applications in the big data and software industry.
 
 
-## <a name="Five_Design-Sheet"></a> Sketching Designs for Data-Visualization using the Five Design-Sheet Methodology (half-day)
+## <a name="Five_Design-Sheet"></a> Sketching Visualization designs, and using the Five Design-Sheet (FdS) Methodology in Teaching (half-day)
 Sunday, October 1  
 8:30AM-12:10PM  
 105-ABC  
@@ -95,7 +95,7 @@ Jonathan Roberts (Bangor University)
 Christopher Headleand (University of Lincoln)  
 Panagiotis Ritsos (Bangor University)  
 
-This tutorial leads the attendees through sketching designs following the Five Design-Sheet methodology (FdS). When developing interactive visualization software, researchers and developers need to plan what they are going to build. Low fidelity methods, such as sketching, can be used to explore a range of possible ideas. The tutorial is split into five parts (1) introduction to the tutorial and overview of the methodology, (2) types of problems and creative thinking (where do ideas come from?) (3) sketching techniques, graphical marks and creative thinking, (4) working through the FdS, and (5) Using the FdS in teaching and practice. The tutorial includes practical exercises, an opportunity to work through the Five Design-Sheets, and presentation and discussion of using the FdS in practice
+This tutorial leads attendees through sketching designs following the Five Design-Sheet methodology (FdS) and discusses how it can be used in teaching. The first part (before the break) will introduce the FdS, place it in context with other methods, discuss creative thinking and different problem types, explain the benefit of sketching designs, and provide a worked example of the FdS. The second part (after the break) focuses on using the FdS in teaching in Higher Education. We give examples of students’ work, and discuss issues and challenges of using sketching for designing and prototyping in teaching, followed by a question and answer session.
 
 
 ## <a name="Cohort_Study"></a>Visual Analytics of Cohort Study Data – From Individuals to Populations (half-day)
