@@ -90,6 +90,7 @@ Miriah Meyer (Organizer), University of Utah
 Uta Hinrichs, St. Andrews University
 Nathalie Henry Riche, Microsoft Research  
 Remco Chang, Tufts University  
+Petra Isenberg, Inria  
 Heidi Lam, Tableau Research  
 Tamara Munzner, University of British Columbia
 
