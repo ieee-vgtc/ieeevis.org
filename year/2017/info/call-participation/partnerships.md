@@ -3,7 +3,8 @@ title: Partnerships
 layout: main-2017
 permalink: /year/2017/info/call-participation/partnerships
 ---
-Partnerships
+
+# Partnerships
 
 ## TVCG
 
@@ -19,4 +20,4 @@ The VIS papers chairs make their acceptance decisions completely independently, 
 	
 Since 2015, authors of selected papers from the IEEE Computer Graphics and Applications (CG&A) from the previous year in the area of visualization have been invited to give an oral presentation about their work at VIS. This M1C2 (Magazine-First-Conference-Second) model increases the visibility of applied research and systems papers among the academic community and fosters synergies between the theoretical and the applied as aspects of the field.
 
-These talks are collected into two CG&A-focused sessions. Invitations are issued by the CG&A Editor-in-Chief (currently, Miguel Encarnacao) in the summer based on scope alignment with the VIS conference and the number of available slots (currently, 10). 
+These talks are collected into two CG&A-focused sessions. Invitations are issued by the CG&A Editor-in-Chief (currently, Miguel Encarnação) in the summer based on scope alignment with the VIS conference and the number of available slots (currently, 10). 
