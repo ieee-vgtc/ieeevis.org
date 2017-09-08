@@ -1,7 +1,7 @@
 ---
 title: A Practitioner's Guide to VIS'17
 layout: main-2017
-permalink: /year/2017/info/overview-amp-topics/practitioner-guide
+permalink: /year/2017/info/overview-amp-topics/practitioner-guide/pg
 ---
 
 ## What is IEEE VIS? 
