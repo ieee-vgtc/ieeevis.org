@@ -53,26 +53,89 @@ sponsors_category_remap = {
     "Non-profit": "NonProfit/Small Company/Startup"
     }
 
-gc1 = get_spreadsheet("Finance Fast Facts")
+gc1 = get_spreadsheet("Finance Overview")
 supporters = load_sheet_by_name(gc1, "Supporters").get_all_records()
 
 # payment exception
 for i,d in enumerate(supporters):
-    if d['Company']=='Uncharted Software Inc.':
+    if d['Company']=='Siemens':
         supporters[i]['Received'] = 3000
-        supporters[i]['Date Paid'] = "8/2/2017"
+        supporters[i]['Date Paid'] = "8/31/2017"
 
 supporters = sorted(filter(lambda t: (t['Company'] != "TOTAL" and
                                       t['Received'] != "" and t['Date Paid'] != ""), supporters), key=sortable_date)
 
 logo_file = json.load(open("scripts/tmp/logo-links.json"))
+logo_file = filter(lambda t: t['Company'] != 'KAUST Visual Computing Center', logo_file)
+
 # logo exception
 logo_file.append( {"Company": 'Tableau Software', "logo_name": 'logo-tableau'})
 logo_file.append( {"Company": 'Springer Nature', "logo_name": 'logo-springer'})
+logo_file.append( {"Company": 'Siemens', "logo_name": 'logo-siemens'})
+logo_file.append( {"Company": 'KAUST Visual Computing Center', "logo_name": 'logo-kaust'})
 supporters = inner_join(logo_file, supporters, 'Company')
 
 link_file = json.load(open("js/sponsor_links.json"))
 supporters = left_outer_join(supporters, link_file, 'Company')
+
+supporters.append({
+    "Company": "NSF",
+    "Category": "Diamond",
+    "href": "http://www.nsf.gov/", 
+    "src": "/attachments/supporters/tmp/nsf_t.png",    
+    "year": 2017
+    })
+supporters.append({
+    "Company": "ASU",
+    "Category": "Academic",
+    "href": "", 
+    "src": "/attachments/supporters/2017/dl/converted/logo-asu.png",    
+    "year": 2017
+    })
+supporters.append({
+    "Company": "IBM Research",
+    "Category": "Gold",
+    "href": "", 
+    "src": "/attachments/supporters/2017/dl/converted/IBM_Research_Logo.png",    
+    "year": 2017
+    })
+supporters.append({
+    "Company": "Intel",
+    "Category": "Gold",
+    "href": "", 
+    "src": "/attachments/supporters/2017/dl/converted/logo-intel.png",    
+    "year": 2017
+    })
+supporters.append({
+    "Company": "Adobe",
+    "Category": "Silver",
+    "href": "", 
+    "src": "/attachments/supporters/2017/dl/converted/adobe_logo_standard.png",    
+    "year": 2017
+    })
+supporters.append({
+    "Company": "nvidia",
+    "Category": "Silver",
+    "href": "http://www.nvidia.com/", 
+    "src": "/attachments/supporters/tmp/NVLogo_2D.PNG",    
+    "year": 2017
+    })
+supporters.append({
+    "Company": "nlm",
+    "Category": "Silver",
+    "href": "https://www.nlm.nih.gov/", 
+    "src": "/attachments/supporters/2016/nlm.png",    
+    "year": 2017
+    })
+supporters.append({
+    "Company": "morgan claypool",
+    "Category": "Publisher",
+    "href": "http://www.morganclaypool.com/", 
+    "src": "/attachments/supporters/tmp/mcp.png",    
+    "year": 2017
+    })
+
+
 
 supporters = group_by(supporters, lambda t: t['Category'])
 supporters = sorted(supporters, key=lambda t: sponsors_category_order[t['Key']])
@@ -87,7 +150,7 @@ for group in supporters:
             "company": supporter["Company"],
             "class": sponsors_category_remap.get(supporter['Category'], supporter['Category']),
             "href": supporter['href'] if supporter.get('href') else '', 
-            "src": os.path.splitext( os.path.join(LOGOS_DIR, supporter["logo_name"]) )[0]+'.png' , # FIXME
+            "src":  os.path.splitext( os.path.join(LOGOS_DIR, supporter["logo_name"]) )[0]+'.png' if not supporter.get('src') else supporter.get('src'), 
             "year": YEAR
             }
         new_supporters.append(d)

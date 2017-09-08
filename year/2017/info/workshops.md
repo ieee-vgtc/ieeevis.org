@@ -213,7 +213,7 @@ In the US and in most countries abroad, women account for a relatively small
 fraction of those earning degrees in computer science. Those from some ethnic
 backgrounds are also greatly underrepresented. While no specific figures are
 currently available to describe the diversity of the visualization community,
-a glance around a typical room during VisWeek seems to suggest that
+a glance around a typical room during VIS seems to suggest that
 demographics are similar. Research studies have documented that diverse teams
 and companies produce better outcomes (more robust designs, more productivity,
 more profit). This lack of diversity in our community limits our potential.
@@ -232,9 +232,9 @@ Monday, October 2
 2:00PM-5:55PM  
 207 Lecture Hall  
 
-Bernd Hentschel, RWTH Aachen University 
-Daniela Oelke, Siemens AG 
-Justin Talbot, Tableau Research 
+Bernd Hentschel, RWTH Aachen University  
+Daniela Oelke, Siemens AG  
+Justin Talbot, Tableau Research  
 
 Contact: vip@ieeevis.org
 

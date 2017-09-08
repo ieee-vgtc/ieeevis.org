@@ -9,15 +9,34 @@ Our goals in Community are organizing activities at IEEE VIS conference that con
 
 The Community activities are open to all registered IEEE VIS participants, regardless of seniority and affiliation. The activities are organized by the IEEE VIS Community Chairs, who can be reached at [community@ieeevis.org](community@ieeevis.org).
 
-To register or participate in these Community events, please see the corresponding details below. 
+To register or participate in these Community events, please see the corresponding details below.
+* [Tips and Tricks for Attending VIS for your First Time](#tips)
+* [Years in Attendence and Badge Bling](#years)
+* [Job Flyer Posting](#job-flyers)
+* [Vis Buddies](#visbuddies)
+* [Asynchronous Job Fair](#ajf)
+* [Other community-building events in VIS that we are aware of (tell us of yours!)](#other-events)
 
-### Tips and Tricks for Attending VIS for your First Time
+
+### <a name="tips"></a> Tips and Tricks for Attending VIS for your First Time
 
 If this is your first time attending VIS, welcome! We have collected
 [some advice from those of us who regularly attend VIS that might be
 helpful to you](https://docs.google.com/document/d/1ot7JHpXcfOMYZuUw0fl4_PghImxHogCrGgPm61CBMx4/edit?usp=sharing).
+Furthermore, please consider signing up for Vis Buddies (see below)
+and blinging up your badge with a first-time attendee sticker to strike
+up conversations with your fellow attendees.
 
-### Flyer Posting
+### <a name="years"></a> Years in Attendence and Badge Bling
+
+To spark discussion and connection, we will be providing stickers that allow
+you to display how many years you've been at VIS, in addition ones to show this
+is your first time at VIS. We will also be providing "bling" to be able to spruce
+up your badge, along with your years-in-attendence sticker. These stickers will be 
+located near the registration desk, along with the job fair ribbons and a tray to 
+collect CVs/resumes for job hunters.
+
+### <a name="job-flyers"></a>Flyer Posting
 
 We will pin up and post job, post-doc, staff, etc. flyers to the VIS 
 corkboard if you are unable to attend VISWeek in person. Send your 
@@ -25,20 +44,20 @@ flyers to [community@ieeevis.org](mailto:community@ieeevis.org) as a PDF.
 *The deadline to recieve these is a week prior to VIS, otherwise we cannot 
 guarantee that it will be posted to the corkboard by the first day of VIS.*
 
-### Vis Buddies
+### <a name="visbuddies"></a>Vis Buddies
 
-VisBuddies brings together new and returning VIS attendees with similar interests. For newcomers, this is a chance to meet experienced researchers in the field. For returning attendees, it is a chance to meet fresh talent joining VIS for the first time. You can volunteer for VisBuddies on the registration form. Based on your declared interests in the registration form, we will match pairs or small groups of attendees with different levels of VIS experience, and contact the groups via email prior to VIS.
+VisBuddies brings together new and returning VIS attendees with similar interests. For newcomers, this is a chance to meet experienced researchers in the field. For returning attendees, it is a chance to meet fresh talent joining VIS for the first time. You can volunteer for VisBuddies on the registration form (the latest a week prior to VIS). Based on your declared interests in the registration form, we will match pairs or small groups of attendees with different levels of VIS experience, and contact the groups via email prior to VIS.
 
 Suggested Buddies activities include:
 
-* Attend the [VIS Newcomers Meetup](/year/2017/info/meetups) together (highly recommended)
+* Attend the [VIS Newcomers Meetup](/year/2017/info/meetups#vis-newcomers) together (highly recommended)
 * Have lunch, dinner, coffee, etc. with your Buddies at least once
 * Discuss interesting sessions to attend
 * Introduce your colleagues to your Buddies
 
-Vis Buddies is in conjunction with the Newcomers Meetup [VIS Newcomers Meetup](/year/2017/info/meetups). Prior to the Meetup, we will have a booth set-up outside to help you connect with your buddies (if you have not done so already). 
+Vis Buddies is in conjunction with the Newcomers Meetup [VIS Newcomers Meetup](/year/2017/info/meetups#vis-newcomers). Prior to the Meetup, we will have a booth set-up outside to help you connect with your buddies (if you have not done so already). 
 
-### Asynchronous Job Fair
+### <a name="ajf"></a>Asynchronous Job Fair
 
 This year, we will be having our first *Asynchronous Job Fair* (AJF) at VIS
 2017! The purpose of the *AJF* is to help connect job seekers and researchers
@@ -83,6 +102,13 @@ This is an informal, planned lunch where more "IEEE VIS regulars" have the oppor
 * [Wednesday, Oct. 4](https://docs.google.com/document/d/1cVWC7ADPV2ifCC7HHYtUSd1rv2fQiy8NBrHDMeNDUDA/edit?usp=sharing)
 * [Thursday, Oct. 5](https://docs.google.com/document/d/1DhAq-i5VzLthhSqjorbiU3iKZrl3gzOPKesEYVBvt6M/edit?usp=sharing)
 -->
+
+### <a name="other-events"></a> Other community-building events in VIS that we are aware of (tell us of yours!)
+- [Advancing Visualization Inclusion and Diversity - workshop](/year/2017/info/workshops#avid)
+- [Career Plans for Women -  meetup](/year/2017/info/meetups#career-women)
+- [Diversity in Visualization - panel](/year/2017/info/panels#diversity-panel)
+- [Junior Faculty, Researchers, and Practitioners Happy Hour - meetup](/year/2017/info/meetups#junior-faculty)
+- [Velo Club de Vis - meetup](/year/2017/info/meetups#velo-club)
 
 ### Contact
 

@@ -3,7 +3,7 @@
 """
 Write posters to MD from the Google Spreadsheet.
 
-Carlos Scheidegger, Sam Gratzl, Lane Harrison, 2016-2017
+Bilal Alsallakh, Carlos Scheidegger, Sam Gratzl, Lane Harrison, 2016-2017
 
 We recommend you use this under a virtual environment. Create
 a virtualenv and then install the required libraries with
@@ -32,6 +32,7 @@ def award_string(poster):
 out = sys.stdout
 for poster in posters:
     out.write(("**%s**%s  \n" % (poster["Title"], award_string(poster))).encode("utf-8"))
-    out.write(("%s\n" % poster["Author list"]).encode("utf-8"))
+    out.write(("%s  \n" % poster["Author list"]).encode("utf-8"))
+    out.write(("[Video Preview](%s)\n" % poster["FF Video"]).encode("utf-8"))    
     out.write("\n")
 

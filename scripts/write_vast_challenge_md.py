@@ -20,7 +20,7 @@ from data import *
 import min_html as h
 import sys
 
-gc = get_spreadsheet("VIS2016 Program")
+gc = get_spreadsheet("VIS2017 Program")
 posters = load_sheet_by_name(gc, "VAST Challenge").get_all_records()
 
 for poster in posters:

@@ -937,6 +937,13 @@
         "year": 2017
     }, 
     {
+        "src": "/attachments/supporters/tmp/nsf_t.png", 
+        "company": "NSF", 
+        "href": "http://www.nsf.gov/", 
+        "class": "Diamond", 
+        "year": 2017
+    }, 
+    {
         "src": "/attachments/supporters/2017/dl/converted/valcri_logo_subline_cmyk.png", 
         "company": "Middlesex University", 
         "href": "", 
@@ -946,6 +953,20 @@
     {
         "src": "/attachments/supporters/2017/dl/converted/ms-logo.png", 
         "company": "Microsoft Research", 
+        "href": "", 
+        "class": "Gold", 
+        "year": 2017
+    }, 
+    {
+        "src": "/attachments/supporters/2017/dl/converted/IBM_Research_Logo.png", 
+        "company": "IBM Research", 
+        "href": "", 
+        "class": "Gold", 
+        "year": 2017
+    }, 
+    {
+        "src": "/attachments/supporters/2017/dl/converted/logo-intel.png", 
+        "company": "Intel", 
         "href": "", 
         "class": "Gold", 
         "year": 2017
@@ -972,8 +993,8 @@
         "year": 2017
     }, 
     {
-        "src": "/attachments/supporters/2017/dl/converted/VCC_150510 Visual Computing Center  Logo Lock.png", 
-        "company": "KAUST Visual Computing Center", 
+        "src": "/attachments/supporters/2017/dl/converted/il_logo_advancing.png", 
+        "company": "INTELLIGENT LIGHT", 
         "href": "", 
         "class": "Silver", 
         "year": 2017
@@ -983,6 +1004,48 @@
         "company": "Kitware, Inc.", 
         "href": "", 
         "class": "Silver", 
+        "year": 2017
+    }, 
+    {
+        "src": "/attachments/supporters/2017/dl/converted/logo-siemens.png", 
+        "company": "Siemens", 
+        "href": "", 
+        "class": "Silver", 
+        "year": 2017
+    }, 
+    {
+        "src": "/attachments/supporters/2017/dl/converted/logo-kaust.png", 
+        "company": "KAUST Visual Computing Center", 
+        "href": "https://vcc.kaust.edu.sa/Pages/Home.aspx", 
+        "class": "Silver", 
+        "year": 2017
+    }, 
+    {
+        "src": "/attachments/supporters/2017/dl/converted/adobe_logo_standard.png", 
+        "company": "Adobe", 
+        "href": "", 
+        "class": "Silver", 
+        "year": 2017
+    }, 
+    {
+        "src": "/attachments/supporters/tmp/NVLogo_2D.PNG", 
+        "company": "nvidia", 
+        "href": "http://www.nvidia.com/", 
+        "class": "Silver", 
+        "year": 2017
+    }, 
+    {
+        "src": "/attachments/supporters/2016/nlm.png", 
+        "company": "nlm", 
+        "href": "https://www.nlm.nih.gov/", 
+        "class": "Silver", 
+        "year": 2017
+    }, 
+    {
+        "src": "/attachments/supporters/2017/dl/converted/IACS_CMYK_LightBackgrounds.png", 
+        "company": "Harvard University", 
+        "href": "", 
+        "class": "Bronze", 
         "year": 2017
     }, 
     {
@@ -1009,20 +1072,20 @@
     {
         "src": "/attachments/supporters/2017/dl/converted/igd_60mm_p334.png", 
         "company": "Fraunhofer IGD", 
-        "href": "", 
-        "class": "Academic", 
-        "year": 2017
-    }, 
-    {
-        "src": "/attachments/supporters/2017/dl/converted/IACS_CMYK_LightBackgrounds.png", 
-        "company": "Harvard University", 
-        "href": "", 
+        "href": "http://www.igd.fraunhofer.de", 
         "class": "Academic", 
         "year": 2017
     }, 
     {
         "src": "/attachments/supporters/2017/dl/converted/Polytechnic-CGT.png", 
         "company": "Purdue University", 
+        "href": "", 
+        "class": "Academic", 
+        "year": 2017
+    }, 
+    {
+        "src": "/attachments/supporters/2017/dl/converted/logo-asu.png", 
+        "company": "ASU", 
         "href": "", 
         "class": "Academic", 
         "year": 2017
@@ -1045,6 +1108,13 @@
         "src": "/attachments/supporters/2017/dl/converted/logo-springer.png", 
         "company": "Springer Nature", 
         "href": "", 
+        "class": "Publisher", 
+        "year": 2017
+    }, 
+    {
+        "src": "/attachments/supporters/tmp/mcp.png", 
+        "company": "morgan claypool", 
+        "href": "http://www.morganclaypool.com/", 
         "class": "Publisher", 
         "year": 2017
     }
