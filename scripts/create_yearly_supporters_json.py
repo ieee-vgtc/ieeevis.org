@@ -113,6 +113,20 @@ supporters.append({
     "src": "/attachments/supporters/2017/dl/converted/adobe_logo_standard.png",    
     "year": 2017
     })
+supporters.append({
+    "Company": "nvidia",
+    "Category": "Silver",
+    "href": "http://www.nvidia.com/", 
+    "src": "/attachments/supporters/tmp/NVLogo_2D.PNG",    
+    "year": 2017
+    })
+supporters.append({
+    "Company": "nlm",
+    "Category": "Silver",
+    "href": "https://www.nlm.nih.gov/", 
+    "src": "/attachments/supporters/2016/nlm.png",    
+    "year": 2017
+    })
 
 
 supporters = group_by(supporters, lambda t: t['Category'])
