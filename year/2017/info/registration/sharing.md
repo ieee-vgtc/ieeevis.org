@@ -1,5 +1,5 @@
 ---
-title: Room and Ridge Sharing
+title: Room and Ride Sharing
 layout: main-2017
 permalink: /year/2017/info/registration/sharing
 contact: "web@ieeevis.org"
@@ -12,5 +12,5 @@ Please go to the VIS 2017 page in the pull down and you can register for the ser
 
 We do not assume any liability for these arrangements.
 
-If you have difficulty booking rooms, please contact liz@ctocevents.com.
+If you have difficulty booking rooms, please contact mailto://liz@ctocevents.com.
 
