@@ -110,7 +110,7 @@ supporters.append({
     "Company": "Adobe",
     "Category": "Silver",
     "href": "", 
-    "src": "/attachments/supporters/2017/dl/converted/Adobe_standard_logo_PMS.png",    
+    "src": "/attachments/supporters/2017/dl/converted/adobe_logo_standard.png",    
     "year": 2017
     })
 

@@ -4240,7 +4240,10 @@ h2.with-tabs {
 	font-weight: bold;
 }
 .supporter-page img {
-	width: 120px;
+	height: auto;
+	width: auto;
+	max-height: 120px;
+	max-width: 120px;
 	margin: 3px 0px 10px 0px;
 	text-align: center;
 }
