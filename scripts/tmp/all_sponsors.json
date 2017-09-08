@@ -1042,6 +1042,13 @@
         "year": 2017
     }, 
     {
+        "src": "/attachments/supporters/2017/dl/converted/IACS_CMYK_LightBackgrounds.png", 
+        "company": "Harvard University", 
+        "href": "", 
+        "class": "Bronze", 
+        "year": 2017
+    }, 
+    {
         "src": "/attachments/supporters/2017/dl/converted/Thermo Fisher Scientific_logo_cmyk_ez.png", 
         "company": "Thermo Fisher Scientific", 
         "href": "http://www.openinventor.com", 
@@ -1066,13 +1073,6 @@
         "src": "/attachments/supporters/2017/dl/converted/igd_60mm_p334.png", 
         "company": "Fraunhofer IGD", 
         "href": "http://www.igd.fraunhofer.de", 
-        "class": "Academic", 
-        "year": 2017
-    }, 
-    {
-        "src": "/attachments/supporters/2017/dl/converted/IACS_CMYK_LightBackgrounds.png", 
-        "company": "Harvard University", 
-        "href": "", 
         "class": "Academic", 
         "year": 2017
     }, 
