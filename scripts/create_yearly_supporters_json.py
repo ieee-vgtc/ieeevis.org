@@ -53,7 +53,7 @@ sponsors_category_remap = {
     "Non-profit": "NonProfit/Small Company/Startup"
     }
 
-gc1 = get_spreadsheet("Finance Fast Facts")
+gc1 = get_spreadsheet("Finance Overview")
 supporters = load_sheet_by_name(gc1, "Supporters").get_all_records()
 
 # payment exception
@@ -85,7 +85,6 @@ supporters.append({
     "src": "/attachments/supporters/tmp/nsf_t.png",    
     "year": 2017
     })
-
 supporters.append({
     "Company": "ASU",
     "Category": "Academic",
@@ -93,7 +92,6 @@ supporters.append({
     "src": "/attachments/supporters/2017/dl/converted/logo-asu.png",    
     "year": 2017
     })
-
 supporters.append({
     "Company": "IBM Research",
     "Category": "Gold",
@@ -101,12 +99,18 @@ supporters.append({
     "src": "/attachments/supporters/2017/dl/converted/IBM_Research_Logo.png",    
     "year": 2017
     })
-
 supporters.append({
     "Company": "Intel",
     "Category": "Gold",
     "href": "", 
     "src": "/attachments/supporters/2017/dl/converted/logo-intel.png",    
+    "year": 2017
+    })
+supporters.append({
+    "Company": "Adobe",
+    "Category": "Silver",
+    "href": "", 
+    "src": "/attachments/supporters/2017/dl/converted/Adobe_standard_logo_PMS.png",    
     "year": 2017
     })
 
