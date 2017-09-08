@@ -12,5 +12,5 @@ Please go to the VIS 2017 page in the pull down and you can register for the ser
 
 We do not assume any liability for these arrangements.
 
-If you have difficulty booking rooms, please contact [liz@ctocevents.com](mailto://liz@ctocevents.com).
+If you have difficulty booking rooms, please contact [liz@ctocevents.com](mailto:liz@ctocevents.com).
 
