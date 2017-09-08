@@ -1,10 +1,8 @@
 ---
-title: IEEE VIS'17 for Practitioners
+title: A Practitioner's Guide to VIS'17
 layout: main-2017
 permalink: /year/2017/info/overview-amp-topics/practitioner-guide
 ---
-
-# A Practitioner's Guide to VIS'17
 
 ## What is IEEE VIS? 
 
