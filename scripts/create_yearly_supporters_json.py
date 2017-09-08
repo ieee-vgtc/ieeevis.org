@@ -102,6 +102,14 @@ supporters.append({
     "year": 2017
     })
 
+supporters.append({
+    "Company": "Intel",
+    "Category": "Gold",
+    "href": "", 
+    "src": "/attachments/supporters/2017/dl/converted/logo-intel.png",    
+    "year": 2017
+    })
+
 
 supporters = group_by(supporters, lambda t: t['Category'])
 supporters = sorted(supporters, key=lambda t: sponsors_category_order[t['Key']])
