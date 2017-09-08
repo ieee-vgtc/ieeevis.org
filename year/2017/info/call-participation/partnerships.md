@@ -4,9 +4,7 @@ layout: main-2017
 permalink: /year/2017/info/call-participation/partnerships
 ---
 
-# Partnerships
-
-## TVCG
+## TVCG Partnership
 
 The proceedings of VAST, InfoVis, and SciVis are published as a special issue of the flagship journal IEEE Transactions on Visualization and Computer Graphics (TVCG), in a special hybrid publication model that enables timely dissemination of many high-quality research results from the world’s top visualization conferences to TVCG readership, while improving the overall visibility and quality of IEEE VIS publications through a rigorous journal-style review. 
 
@@ -16,7 +14,7 @@ Invitations are issued to all authors of regular TVCG papers in the area of visu
 
 The VIS papers chairs make their acceptance decisions completely independently, without access to the list of requested talks; it is provided to them on July 15, after the second-round acceptance decisions are announced, for use in the papers sessions creation process. 
 
-## CG&A
+## CG&A Partnership
 	
 Since 2015, authors of selected papers from the IEEE Computer Graphics and Applications (CG&A) from the previous year in the area of visualization have been invited to give an oral presentation about their work at VIS. This M1C2 (Magazine-First-Conference-Second) model increases the visibility of applied research and systems papers among the academic community and fosters synergies between the theoretical and the applied as aspects of the field.
 
