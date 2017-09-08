@@ -1110,5 +1110,12 @@
         "href": "", 
         "class": "Publisher", 
         "year": 2017
+    }, 
+    {
+        "src": "/attachments/supporters/tmp/mcp.png", 
+        "company": "morgan claypool", 
+        "href": "http://www.morganclaypool.com/", 
+        "class": "Publisher", 
+        "year": 2017
     }
 ]

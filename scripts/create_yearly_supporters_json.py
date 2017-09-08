@@ -127,6 +127,14 @@ supporters.append({
     "src": "/attachments/supporters/2016/nlm.png",    
     "year": 2017
     })
+supporters.append({
+    "Company": "morgan claypool",
+    "Category": "Publisher",
+    "href": "http://www.morganclaypool.com/", 
+    "src": "/attachments/supporters/tmp/mcp.png",    
+    "year": 2017
+    })
+
 
 
 supporters = group_by(supporters, lambda t: t['Category'])
