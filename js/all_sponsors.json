@@ -958,6 +958,13 @@
         "year": 2017
     }, 
     {
+        "src": "/attachments/supporters/2017/dl/converted/IBM_Research_Logo.png", 
+        "company": "IBM Research", 
+        "href": "", 
+        "class": "Gold", 
+        "year": 2017
+    }, 
+    {
         "src": "/attachments/supporters/2017/dl/converted/cray_logo_registered_2945c.png", 
         "company": "Cray, Inc.", 
         "href": "", 
@@ -1049,7 +1056,7 @@
         "year": 2017
     }, 
     {
-        "src": "/attachments/supporters/2017/logo-asu.png", 
+        "src": "/attachments/supporters/2017/dl/converted/logo-asu.png", 
         "company": "ASU", 
         "href": "", 
         "class": "Academic", 

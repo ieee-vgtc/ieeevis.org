@@ -58,9 +58,6 @@ supporters = load_sheet_by_name(gc1, "Supporters").get_all_records()
 
 # payment exception
 for i,d in enumerate(supporters):
-#    if d['Company']=='Uncharted Software Inc.':
-#        supporters[i]['Received'] = 3000
-#        supporters[i]['Date Paid'] = "8/2/2017"
     if d['Company']=='Siemens':
         supporters[i]['Received'] = 3000
         supporters[i]['Date Paid'] = "8/31/2017"
@@ -93,7 +90,15 @@ supporters.append({
     "Company": "ASU",
     "Category": "Academic",
     "href": "", 
-    "src": "/attachments/supporters/2017/logo-asu.png",    
+    "src": "/attachments/supporters/2017/dl/converted/logo-asu.png",    
+    "year": 2017
+    })
+
+supporters.append({
+    "Company": "IBM Research",
+    "Category": "Gold",
+    "href": "", 
+    "src": "/attachments/supporters/2017/dl/converted/IBM_Research_Logo.png",    
     "year": 2017
     })
 
