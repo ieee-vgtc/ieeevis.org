@@ -37,11 +37,11 @@ And best of all, all these events are included in the regular registration fee! 
 To give you an idea what you are going to miss if you don’t attend and make it easier for you to find interesting events in the large program, please find below  lists of selected events for practitioners from different domains.  
 The full program can be found at the [IEEE VIS'17 main page](http://ieeevis.org).
 
-* [IEEE VIS for data journalists](practitioner-guide/data-journalists)
-* [IEEE VIS for practitioners interested in human factors](practitioner-guide/human-factors)
-* [IEEE VIS for practitioners from biology and medicine](practitioner-guide/biology-medicine)
-* [IEEE VIS for data scientists and machine learning experts](practitioner-guide/machine-learning)
-* [IEEE VIS events interesting for all practitioners](practitioner-guide/all-practitioners)
+* [IEEE VIS for data journalists](data-journalists)
+* [IEEE VIS for practitioners interested in human factors](human-factors)
+* [IEEE VIS for practitioners from biology and medicine](biology-medicine)
+* [IEEE VIS for data scientists and machine learning experts](machine-learning)
+* [IEEE VIS events interesting for all practitioners](all-practitioners)
 
 
 Make sure to attend also the **Supporter Exhibit** at which you can see and try out new visualization technology. 
