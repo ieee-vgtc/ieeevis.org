@@ -4092,8 +4092,8 @@ body {
 	margin: 5px auto;
 	height: auto;
 	width: auto;
-	max-height: 80px;
-	max-width: 160px;
+	max-height: 100px;
+	max-width: 180px;
 }
 #sidebar-right .right-sidebar-title {
 	/*font-size: 120%;*/
