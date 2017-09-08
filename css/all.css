@@ -4090,6 +4090,10 @@ body {
 #sidebar-right img {
 	/*margin: 3px 0px 3px 0px;*/
 	margin: 5px auto;
+	height: auto;
+	width: auto;
+	max-height: 120px;
+	max-width: 120px;
 }
 #sidebar-right .right-sidebar-title {
 	/*font-size: 120%;*/
