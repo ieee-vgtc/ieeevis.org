@@ -3,7 +3,7 @@ layout: main-2017
 title: Welcome
 ---
 
-**Register now for [conference](http://ieeevis.org/year/2017/info/registration/conference-registration) and [book your hotel](https://aws.passkey.com/event/15934070/owner/2336/home) within our conference block. **
+Register now for the [conference](http://ieeevis.org/year/2017/info/registration/conference-registration), and [book your hotel](https://aws.passkey.com/event/15934070/owner/2336/home) within our conference block.
 
 Welcome to **IEEE VIS 2017**!
 
