@@ -1,7 +1,7 @@
 ---
 title: IEEE VIS'17 for Practitioners
 layout: main-2017
-permalink: /year/2017/info/overview-amp-topics/practitioner-guide_data-journalists
+permalink: /year/2017/info/overview-amp-topics/practitioner-guide/data-journalists
 ---
 
 ## IEEE VIS for data journalists

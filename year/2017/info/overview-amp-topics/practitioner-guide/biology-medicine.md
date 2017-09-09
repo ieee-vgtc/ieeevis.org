@@ -1,7 +1,7 @@
 ---
 title: IEEE VIS'17 for Practitioners
 layout: main-2017
-permalink: /year/2017/info/overview-amp-topics/practitioner-guide_biology-medicine
+permalink: /year/2017/info/overview-amp-topics/practitioner-guide/biology-medicine
 ---
 
 ## IEEE VIS events for practitioners from biology and medicine

@@ -53,14 +53,11 @@ sponsors_category_remap = {
     "Non-profit": "NonProfit/Small Company/Startup"
     }
 
-gc1 = get_spreadsheet("Finance Fast Facts")
+gc1 = get_spreadsheet("Finance Overview")
 supporters = load_sheet_by_name(gc1, "Supporters").get_all_records()
 
 # payment exception
 for i,d in enumerate(supporters):
-#    if d['Company']=='Uncharted Software Inc.':
-#        supporters[i]['Received'] = 3000
-#        supporters[i]['Date Paid'] = "8/2/2017"
     if d['Company']=='Siemens':
         supporters[i]['Received'] = 3000
         supporters[i]['Date Paid'] = "8/31/2017"
@@ -88,14 +85,56 @@ supporters.append({
     "src": "/attachments/supporters/tmp/nsf_t.png",    
     "year": 2017
     })
-
 supporters.append({
     "Company": "ASU",
     "Category": "Academic",
     "href": "", 
-    "src": "/attachments/supporters/2017/logo-asu.png",    
+    "src": "/attachments/supporters/2017/dl/converted/logo-asu.png",    
     "year": 2017
     })
+supporters.append({
+    "Company": "IBM Research",
+    "Category": "Gold",
+    "href": "", 
+    "src": "/attachments/supporters/2017/dl/converted/IBM_Research_Logo.png",    
+    "year": 2017
+    })
+supporters.append({
+    "Company": "Intel",
+    "Category": "Gold",
+    "href": "", 
+    "src": "/attachments/supporters/2017/dl/converted/logo-intel.png",    
+    "year": 2017
+    })
+supporters.append({
+    "Company": "Adobe",
+    "Category": "Silver",
+    "href": "", 
+    "src": "/attachments/supporters/2017/dl/converted/adobe_logo_standard.png",    
+    "year": 2017
+    })
+supporters.append({
+    "Company": "nvidia",
+    "Category": "Silver",
+    "href": "http://www.nvidia.com/", 
+    "src": "/attachments/supporters/tmp/NVLogo_2D.PNG",    
+    "year": 2017
+    })
+supporters.append({
+    "Company": "nlm",
+    "Category": "Silver",
+    "href": "https://www.nlm.nih.gov/", 
+    "src": "/attachments/supporters/2016/nlm.png",    
+    "year": 2017
+    })
+supporters.append({
+    "Company": "morgan claypool",
+    "Category": "Publisher",
+    "href": "http://www.morganclaypool.com/", 
+    "src": "/attachments/supporters/tmp/mcp.png",    
+    "year": 2017
+    })
+
 
 
 supporters = group_by(supporters, lambda t: t['Category'])

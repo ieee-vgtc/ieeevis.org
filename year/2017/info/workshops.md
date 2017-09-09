@@ -232,9 +232,9 @@ Monday, October 2
 2:00PM-5:55PM  
 207 Lecture Hall  
 
-Bernd Hentschel, RWTH Aachen University 
-Daniela Oelke, Siemens AG 
-Justin Talbot, Tableau Research 
+Bernd Hentschel, RWTH Aachen University  
+Daniela Oelke, Siemens AG  
+Justin Talbot, Tableau Research  
 
 Contact: vip@ieeevis.org
 

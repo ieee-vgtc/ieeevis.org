@@ -4090,6 +4090,10 @@ body {
 #sidebar-right img {
 	/*margin: 3px 0px 3px 0px;*/
 	margin: 5px auto;
+	height: auto;
+	width: auto;
+	max-height: 60px;
+	max-width: 120px;
 }
 #sidebar-right .right-sidebar-title {
 	/*font-size: 120%;*/
@@ -4240,7 +4244,10 @@ h2.with-tabs {
 	font-weight: bold;
 }
 .supporter-page img {
-	width: 120px;
+	height: auto;
+	width: auto;
+	max-height: 120px;
+	max-width: 120px;
 	margin: 3px 0px 10px 0px;
 	text-align: center;
 }

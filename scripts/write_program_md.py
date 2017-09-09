@@ -89,6 +89,8 @@ def render_session(session, out):
         out.write(("**%s%s**%s  \n" % (paper["Title"], paper_type(paper), award_string(award))).encode("utf-8"))
         out.write(("Authors: %s  \n" % paper["Author list"]).encode("utf-8"))
         out.write(("[Video Preview](%s)\n" % paper["FF Video"]).encode("utf-8"))
+        if paper["DOI"] != "":
+            out.write(("| [DOI](%s)\n" % paper["DOI"]).encode("utf-8"))
         out.write("\n")
     out.write("<hr/>\n\n")
 
