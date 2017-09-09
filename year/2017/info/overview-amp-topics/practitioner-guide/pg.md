@@ -1,5 +1,5 @@
 ---
-title: A Practitioner's Guide to VIS'17
+title: A Practitioner's Guide to VIS 2017
 layout: main-2017
 permalink: /year/2017/info/overview-amp-topics/practitioner-guide/pg
 ---
@@ -35,7 +35,7 @@ IEEE VIS is known as the major research conference in the field of visual data a
 And best of all, all these events are included in the regular registration fee! No pre-registration for single events is required but you can select the sessions you want to attend on the fly as you like while you are at VIS. 
 
 To give you an idea what you are going to miss if you don’t attend and make it easier for you to find interesting events in the large program, please find below  lists of selected events for practitioners from different domains.  
-The full program can be found at the [IEEE VIS'17 main page](http://ieeevis.org).
+The full program can be found at the [IEEE VIS 2017 main page](http://ieeevis.org).
 
 * [IEEE VIS for data journalists](data-journalists)
 * [IEEE VIS for practitioners interested in human factors](human-factors)
