@@ -1,6 +1,6 @@
 ---
 title: VAST Challenge
-layout: main
+layout: main-2017
 permalink: /year/2017/info/overview-amp-topics/vast-challenge-program
 ---
 
