@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 
 """
-Write VAST Challenge program from the Google Spreadsheet.
+Write VIS in Practice program from the Google Spreadsheet.
 
-Carlos Scheidegger, 2016
+Carlos Scheidegger, Lane Harrison 2017
 
 We recommend you use this under a virtual environment. Create
 a virtualenv and then install the required libraries with
@@ -21,7 +21,7 @@ import min_html as h
 import sys
 
 gc = get_spreadsheet("VIS2017 Program")
-posters = load_sheet_by_name(gc, "VAST Challenge").get_all_records()
+posters = load_sheet_by_name(gc, "VIS in Practice").get_all_records()
 
 for poster in posters:
     a = poster["Award Title"].strip()
