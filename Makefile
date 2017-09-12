@@ -45,6 +45,10 @@ scivis_contest:
 	./scripts/write_scivis_contest_md.py > data/autogen/scivis_contest.md
 	cat data/scivis_contest_front_matter.txt data/autogen/scivis_contest.md > year/2017/info/overview-amp-topics/scivis-contest.md
 
+vis_in_practice:
+	./scripts/write_vis_in_practice_md.py > data/autogen/vis_in_practice.md
+	cat data/vis_in_practice_front_matter.txt data/autogen/vis_in_practice.md > year/2017/info/overview-amp-topics/vis-in-practice.md
+
 dc_program:
 	./scripts/write_dc_md.py > data/autogen/dc.md
 	cat data/dc_front_matter.txt data/autogen/dc.md > year/2016/info/overview-amp-topics/doctoral-colloquium.md
