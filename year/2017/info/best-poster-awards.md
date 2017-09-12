@@ -1,5 +1,5 @@
 ---
-title: best-poster-awards
+title: Best Poster Awards
 layout: main-2017
 permalink: /year/2017/info/awards/best-poster-awards
 ---
