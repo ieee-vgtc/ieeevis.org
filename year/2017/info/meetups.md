@@ -22,7 +22,7 @@ contact: "meetups@ieeevis.org"
 
 Sunday, OCTOBER 1  
 12:20 - 12:45PM  
-Location: 103-A   
+Location: 106-ABC   
 
 Organizers: Jagoda Walny and Kate Isaacs  
 Contact: [community@ieeevis.org](mailto:community@ieeevis.org)  
