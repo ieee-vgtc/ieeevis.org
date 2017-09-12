@@ -41,6 +41,10 @@ vast_challenge_program:
 	./scripts/write_vast_challenge_md.py > data/autogen/vast_challenge.md
 	cat data/vast_challenge_front_matter.txt data/autogen/vast_challenge.md > year/2017/info/overview-amp-topics/vast-challenge.md
 
+scivis_contest:
+	./scripts/write_scivis_contest_md.py > data/autogen/scivis_contest.md
+	cat data/scivis_contest_front_matter.txt data/autogen/scivis_contest.md > year/2017/info/overview-amp-topics/scivis-contest.md
+
 dc_program:
 	./scripts/write_dc_md.py > data/autogen/dc.md
 	cat data/dc_front_matter.txt data/autogen/dc.md > year/2016/info/overview-amp-topics/doctoral-colloquium.md
