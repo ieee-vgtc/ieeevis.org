@@ -55,7 +55,7 @@ Suggested Buddies activities include:
 * Discuss interesting sessions to attend
 * Introduce your colleagues to your Buddies
 
-Vis Buddies is in conjunction with the Newcomers Meetup [VIS Newcomers Meetup](/year/2017/info/meetups#vis-newcomers). Prior to the Meetup, we will have a booth set-up outside to help you connect with your buddies (if you have not done so already). 
+Vis Buddies is in conjunction with the Newcomers Meetup [VIS Newcomers Meetup](/year/2017/info/meetups#vis-newcomers). After the Meetup, we will help you connect with your buddies (if you have not done so already). 
 
 ### <a name="ajf"></a>Asynchronous Job Fair
 
