@@ -109,7 +109,6 @@ Madison Elliott (Organizer), University of British Columbia
 Cindy Xiong (Organizer), Northwestern University  
 Danielle Albers Szafir (Organizer), University of Colorado Boulder  
 Ronald Rensink, University of British Columbia  
-Todd Horowitz, Natioanl Cancer Institute  
 Steven Franconeri, Northwestern University  
 Karen Schloss, University of Wisconsin-Madison  
 Ruth Rosenholtz, Masachusetts Institute of Technology
