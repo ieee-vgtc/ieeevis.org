@@ -12,6 +12,7 @@ contact: "meetups@ieeevis.org"
 * [VISParents](#vis-parents) (Tuesday)
 * [Junior Faculty, Researchers, and Practitioners Happy Hour](#junior-faculty) (Tuesday)
 * [Sonification: augmenting visualization](#sonification) (Tuesday)
+* [VisLies: The Tradition Continues!](#vislies) (Tuesday)
 * [Vision Science at InfoVis](#vision-science) (Wednesday)
 * [Velo Club de Vis](#velo-club) (Thursday)
 * [Open Inventor Academic Program](#open-inventor) (Thursday)
@@ -126,6 +127,21 @@ Organizer: Niklas Rönnberg
 Contact: [niklas.ronnberg@liu.se](mailto:niklas.ronnberg@liu.se)   
 
 The topic for this Meetup is the use of sound to enhance and clarify visual representations of data, and to simplify the understanding of these. Within the sonification research community there is a consensus that sonification is useful, but discussions within that community often lack the expertise in other domains such as in information visualization. For example, the mapping between sound and visual elements, i.e. what in the visual representation that is suitable for sonification, needs to be thoroughly explored in connection to different application areas and types of visualization. This meetup discussion will therefore focus on the mapping between sonification and visual elements, and what in visual representations that are challenging for the visual perception. If sonification could be used beneficially in information visualization, this would not only advance the research field of sonification, but also research in information visualization where sonification will add new perspectives to data exploration and understanding of complex visual representations.
+
+| |
+
+## <a name="sonification"></a> VisLies: The Tradition Continues!
+
+Tuesday, OCTOBER 3  
+7:00PM - 9:00PM  
+Location: 103-A   
+
+
+Organizer: Georges Grinstein, Bernice Rogowitz, Ken Moorland and Claire Later   
+Contact: [ggrinstein@cs.umass.edu](mailto:ggrinstein@cs.umass.edu)   
+
+Please join us on Tuesday night, October 3rd, for VisLies. This fun and engaging evening session showcases examples of egregious perceptual, cognitive, and conceptual errors in visualization, presented by members of the Vis community. Examples from our own work, from published papers, and from the internet highlight the many ways the visual representation can misrepresent the underlying phenomena in the data. This is a great opportunity for amusement and for learning, and every year we walk away with a smile on our faces and insights that may one day save the world.
+
 
 | |
 
