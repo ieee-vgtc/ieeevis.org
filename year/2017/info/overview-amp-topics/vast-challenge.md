@@ -4,7 +4,12 @@ layout: main-2017
 permalink: /year/2017/info/overview-amp-topics/vast-challenge-program
 ---
 
-Contact:
+Workshop:  
+Sunday, October 1, 2017
+<br />8:30AM - 5:55PM
+<br />207 Lecture Hall
+<br />Agenda: [VAST Challenge Workshop 2017](http://www.vacommunity.org/VAST+Workshop+2017)
+<br />Contact:
 [vast-challenge@ieeevis.org](mailto:vast-challenge@ieeevis.org)
 
 ## Papers
@@ -21,7 +26,7 @@ Authors: Bram C.M. Cappers
 Authors: Guan Yifei, Kam Tin Seong
 
 *Award for Outstanding Clarity of the Presentation (Mini-Challenge 1)*  
-**Mystery at Legakul Preserve: The Pipits Kick It**  
+**Mystery at Lekagul Preserve: The Pipits Kick It**  
 Authors: Jordan Riley Benson, Nascif Abousalh-Neto, Jon Nemargut, Rajiv Ramarajan
 
 *Award for Excellence in Spatio-Temporal Graph Analytics (Mini-Challenge 1)*  
@@ -55,23 +60,23 @@ Authors: Hui Tang, Wenjie Wu, Zheng Zhou, Sijin Wang, Aijun Huang, Yafeng Niu, Y
 **WindNebula: Vectorial-Temporal Analysis for Environmental Assessment**  
 Authors: Hui Tang, Wenjie Wu, Zheng Zhou, Sijin Wang, Aijun Huang, Yafeng Niu, Yingjie Victor Chen, Zhenyu Cheryl Qian
 
-*Multi-Challenge Award for Compelling Synthesis of Information*  
+*Multi-Challenge Award for Combining Automated and Visual Analytics*   
 **Interactive and Collaborative Visual Analysis on Traffic Sensor Data**  
-Authors: Lian Chen, Qiao Gu, Haotian Li, Chengzhong Liu, Huamin Qu, Hang Yin, Xuanwu Yue
+Authors: Xi Chen, Lu Feng, Yang Hu, Chufan Lai, Qiangqiang Liu, Pengju Teng, Zhanyi Wang, Xiaoru Yuan, Chenglei Yue 
 
 **Temporal Pattern Analysis and Source Detection through Visual Analysis on Multi-Dimensional Time Series Data**  
-Authors: Lian Chen, Qiao Gu, Haotian Li, Chengzhong Liu, Huamin Qu, Hang Yin, Xuanwu Yue
+Authors: Hong Fan, Wei Huang, Ruike Jiang, Nan Ma, Xiaoru Yuan, Ying Zhao
 
 **Visual Analysis for Multi-Spectral Images Comparisons**  
-Authors: Lian Chen, Qiao Gu, Haotian Li, Chengzhong Liu, Huamin Qu, Hang Yin, Xuanwu Yue
+Authors: Shuai Chen, Zhibang Jiang, Guozheng Li, Qiusheng Li, Qiangqiang Liu, Xi Liu, Yuening Shi, Xiaoru Yuan
 
 *Multi-Challenge Award for Clear Presentation of Hypotheses and Supporting Evidence*  
-**PreserVis, a Visual Analytic System for Traffic and Pollution Patterns**  
+**Spatiotemporal Identification of Anomalies in a Wildlife Preserve**  
 Authors: Jason Ong Guan Jie, Kishan Bharadwaj Shridhar, Yanrong Zhang, Kam Tin Seong
 
-*Multi-Challenge Award for Combining Automated and Visual Analytics*  
-**Spatiotemporal Identification of Anomalies in a Wildlife Preserve**  
-Authors: Shuai Chen, Xi Chen, Hong Fan, Lu Feng, Yang Hu, Wei Huang, Ruike Jiang, Zhibang Jiang, Chufan Lai, Guozheng Li, Qiusheng Li, Lijing Lin, Qiangqiang Liu, Xi Liu, Min Lu, Nan Ma, Yuening Shi, Pengju Teng, Zhanyi Wang, Xiaoru Yuan, Chenglei Yue, Ying Zhao
+*Multi-Challenge Award for Compelling Synthesis of Information* 
+**PreserVis, a Visual Analytic System for Traffic and Pollution Patterns** 
+Authors: Lian Chen, Qiao Gu, Haotian Li, Chengzhong Liu, Huamin Qu, Hang Yin, Xuanwu Yue
 
 **Detecting Vehicular Patterns Using a Graph-Based App**  
 Authors: Sirisha Velampalli, Lenin Mookiah, William Eberle
