@@ -15,19 +15,19 @@ Authors: Yafeng Niu, Aijun Huang, Zhenyu Qian, Hui Tang, Zheng Zhou, Sijin Wang,
 
 ### Multi-Challenge Award for Compelling Synthesis of Information
 
-**Interactive and Collaborative Visual Analysis on Traffic Sensor Data**, **Temporal Pattern Analysis and Source Detection through Visual Analysis on Multi-Dimensional Time Series Data** and **Visual Analysis for Multi-Spectral Images Comparisons**
+**PreserVis, a Visual Analytic System for Traffic and Pollution Patterns**
 <br/>
 Authors: Lian Chen, Qiao Gu, Haotian Li, Chengzhong Liu, Huamin Qu, Hang Yin, Xuanwu Yue
 
 ### Multi-Challenge Award for Clear Presentation of Hypotheses and Supporting Evidence
 
-**PreserVis, a Visual Analytic System for Traffic and Pollution Patterns** 
+**Spatiotemporal Identification of Anomalies in a Wildlife Preserve** 
 <br/>
 Authors: Jason Ong Guan Jie, Kishan Bharadwaj Shridhar, Yanrong Zhang, Kam Tin Seong
 
 ### Multi-Challenge Award for Combining Automated and Visual Analytics 
 
-**Spatiotemporal Identification of Anomalies in a Wildlife Preserve** 
+**Interactive and Collaborative Visual Analysis on Traffic Sensor Data**, **Temporal Pattern Analysis and Source Detection through Visual Analysis on Multi-Dimensional Time Series Data** and **Visual Analysis for Multi-Spectral Images Comparisons** 
 <br/>
 Authors: Shuai Chen, Xi Chen, Hong Fan, Lu Feng, Yang Hu, Wei Huang, Ruike Jiang, Zhibang Jiang, Chufan Lai, Guozheng Li, Qiusheng Li, Lijing Lin, Qiangqiang Liu, Xi Liu, Min Lu, Nan Ma, Yuening Shi, Pengju Teng, Zhanyi Wang, Xiaoru Yuan, Chenglei Yue, Ying Zhao
 
