@@ -11,7 +11,7 @@ The Community activities are open to all registered IEEE VIS participants, regar
 
 To register or participate in these Community events, please see the corresponding details below.
 * [Tips and Tricks for Attending VIS for your First Time](#tips)
-* [Year in Attendance and Badge Bling](#years)
+* [Years in Attendance and Badge Bling](#years)
 * [Job Flyer Posting](#job-flyers)
 * [Vis Buddies](#visbuddies)
 * [Asynchronous Job Fair](#ajf)
@@ -27,7 +27,7 @@ Furthermore, please consider signing up for Vis Buddies (see below)
 and blinging up your badge with a first-time attendee sticker to strike
 up conversations with your fellow attendees.
 
-### <a name="years"></a> Year in Attendance and Badge Bling
+### <a name="years"></a> Years in Attendance and Badge Bling
 
 To spark discussion and connection, we will be providing stickers that allow
 you to display how many years you've been at VIS, whether it's your 1st, 2nd,
