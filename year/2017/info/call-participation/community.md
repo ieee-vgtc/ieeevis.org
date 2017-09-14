@@ -11,7 +11,7 @@ The Community activities are open to all registered IEEE VIS participants, regar
 
 To register or participate in these Community events, please see the corresponding details below.
 * [Tips and Tricks for Attending VIS for your First Time](#tips)
-* [Years in Attendence and Badge Bling](#years)
+* [Year in Attendance and Badge Bling](#years)
 * [Job Flyer Posting](#job-flyers)
 * [Vis Buddies](#visbuddies)
 * [Asynchronous Job Fair](#ajf)
@@ -27,22 +27,28 @@ Furthermore, please consider signing up for Vis Buddies (see below)
 and blinging up your badge with a first-time attendee sticker to strike
 up conversations with your fellow attendees.
 
-### <a name="years"></a> Years in Attendence and Badge Bling
+### <a name="years"></a> Year in Attendance and Badge Bling
 
 To spark discussion and connection, we will be providing stickers that allow
-you to display how many years you've been at VIS, in addition ones to show this
-is your first time at VIS. We will also be providing "bling" to be able to spruce
-up your badge, along with your years-in-attendence sticker. These stickers will be 
+you to display how many years you've been at VIS, whether it's your 1st, 2nd,
+or 10th or more time to VIS. We will also be providing "bling" to be able to spruce
+up your badge, along with your year in attendance sticker. These stickers will be 
 located near the registration desk, along with the job fair ribbons and a tray to 
 collect CVs/resumes for job hunters.
 
 ### <a name="job-flyers"></a>Flyer Posting
 
-We will pin up and post job, post-doc, staff, etc. flyers to the VIS 
-corkboard if you are unable to attend VISWeek in person. Send your 
+We will pin up and post job, post-doc, staff, etc. flyers to the corkboard 
+near registration if you are unable to attend VISWeek in person. Send your 
 flyers to [community@ieeevis.org](mailto:community@ieeevis.org) as a PDF. 
 *The deadline to recieve these is a week prior to VIS, otherwise we cannot 
 guarantee that it will be posted to the corkboard by the first day of VIS.*
+
+Additionally, the reverse side of the corkboard/poster will be available
+for job seekers to publically post your CV, resume, and/or contact information.
+In case you do not want your CV publically visible, there will be a drop off
+tray for CVs near registration, which will be collected and shared with Supporters
+after VISWeek.
 
 ### <a name="visbuddies"></a>Vis Buddies
 
@@ -86,22 +92,15 @@ corkboard if you are unable to attend VIS in person. Send your opportunity
 flyer to [community@ieeevis.org](mailto:community@ieeevis.org) as a PDF. 
 The deadline for these is a week prior to VIS, otherwise we cannot guarantee 
 that it will be posted to the corkboard by the first day of VIS.  
+- Additionally, the reverse side of the corkboard/poster will be available
+for job seekers to publically post your CV, resume, and/or contact information.
+In case you do not want your CV publically visible, there will be a drop off
+tray for CVs near registration, which will be collected and shared with Supporters
+after VISWeek.
 
 Please use the *AJF* as an opportunity to strike up a conversation with
 your fellow VIS attendees, even if you are not actively seeking employment or
 staff!
-
-<!--
-### Blind Lunch
-
-Tuesday, Oct. 3 – Thursday, Oct. 5 (during the lunch time slot)
-
-This is an informal, planned lunch where more "IEEE VIS regulars" have the opportunity to meet and socialize with junior researchers. You can sign up for these using the links below.
-
-* [Tuesday, Oct. 3](https://docs.google.com/document/d/1t6I1bZoQtyBHouGGut_U702K3rOB_jNSHbISp8YWBZk/edit?usp=sharing)
-* [Wednesday, Oct. 4](https://docs.google.com/document/d/1cVWC7ADPV2ifCC7HHYtUSd1rv2fQiy8NBrHDMeNDUDA/edit?usp=sharing)
-* [Thursday, Oct. 5](https://docs.google.com/document/d/1DhAq-i5VzLthhSqjorbiU3iKZrl3gzOPKesEYVBvt6M/edit?usp=sharing)
--->
 
 ### <a name="other-events"></a> Other community-building events in VIS that we are aware of (tell us of yours!)
 - [Advancing Visualization Inclusion and Diversity - workshop](/year/2017/info/workshops#avid)
