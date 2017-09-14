@@ -12,7 +12,7 @@ contact: "meetups@ieeevis.org"
 * [VISParents](#vis-parents) (Tuesday)
 * [Junior Faculty, Researchers, and Practitioners Happy Hour](#junior-faculty) (Tuesday)
 * [Sonification: augmenting visualization](#sonification) (Tuesday)
-* [VisLies: The Tradition Continues!](#vislies) (Tuesday)
+* [VisLies: New and Improved!](#vislies) (Tuesday)
 * [Vision Science at InfoVis](#vision-science) (Wednesday)
 * [Velo Club de Vis](#velo-club) (Thursday)
 * [Open Inventor Academic Program](#open-inventor) (Thursday)
@@ -130,18 +130,18 @@ The topic for this Meetup is the use of sound to enhance and clarify visual repr
 
 | |
 
-## <a name="sonification"></a> VisLies: The Tradition Continues!
+## <a name="vislies"></a> VisLies: New and Improved!
 
 Tuesday, OCTOBER 3  
 7:00PM - 9:00PM  
 Location: 103-A   
 
 
-Organizer: Georges Grinstein, Bernice Rogowitz, Ken Moorland and Claire Later   
-Contact: [ggrinstein@cs.umass.edu](mailto:ggrinstein@cs.umass.edu)   
+Organizer: Georges Grinstein, Bernice Rogowitz, Kenneth Moreland, and Claire Lauer  
 
-Please join us on Tuesday night, October 3rd, for VisLies. This fun and engaging evening session showcases examples of egregious perceptual, cognitive, and conceptual errors in visualization, presented by members of the Vis community. Examples from our own work, from published papers, and from the internet highlight the many ways the visual representation can misrepresent the underlying phenomena in the data. This is a great opportunity for amusement and for learning, and every year we walk away with a smile on our faces and insights that may one day save the world.
+Please join us on Tuesday night, October 3, for VisLies. This fun and engaging evening session showcases examples of egregious perceptual, cognitive, and conceptual errors in visualization, presented by members of the Vis community. Examples from our own work, from published papers, from news outlets, and from the internet highlight the many ways the visual representation can misrepresent the underlying phenomena in the data. This is a great opportunity for amusement and for learning, and every year we walk away with a smile on our faces and insights that may one day save the world. We will also present results of a contest which asked students to create deceptive visualizations using a variety of datasets.
 
+If you have examples to present at VisLies, please visit our web site: [http://vislies.org](http://vislies.org). Or email us at [vislies2017@vislies.org](mailto:vislies2017@vislies.org). Or just show up and say you have something interesting to share. Our twitter hashtag is #VisLies.
 
 | |
 
