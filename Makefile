@@ -21,12 +21,15 @@ production: site
 staging: site
 	cd _site && ../scripts/sync_with_s3_boto.py $(STAGING_BRANCH) $(STAGING_BUCKET)
 
-check: check-bad-links
+check: check-bad-links check-permalink-paths
 
 ################################################################################
 
 check-bad-links:
 	./scripts/check-links.sh
+
+check-permalink-paths:
+	./scripts/check-permalink-paths.py
 
 ################################################################################
 
