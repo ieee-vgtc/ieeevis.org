@@ -21,6 +21,13 @@ production: site
 staging: site
 	cd _site && ../scripts/sync_with_s3_boto.py $(STAGING_BRANCH) $(STAGING_BUCKET)
 
+check: check-bad-links
+
+################################################################################
+
+check-bad-links:
+	./scripts/check-links.sh
+
 ################################################################################
 
 autogen: papers_program panels posters vast_challenge_program dc_program sv_directory
