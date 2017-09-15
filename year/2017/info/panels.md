@@ -20,7 +20,6 @@ Location: 101-ABC
 
 Arthur Olson (Organizer), The Scripps Research Institute  
 Eduard Groeller (Organizer), TU Vienna  
-Jeffrey Heer, University of Washington  
 Alan M. MacEachren, Pennsylvania State University  
 Todd Richmond, USC Institute for Creative Technologies  
 Claudio Silva, New York University
