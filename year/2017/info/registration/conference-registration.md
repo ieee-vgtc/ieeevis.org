@@ -2,11 +2,10 @@
 title: Conference Registration
 layout: main-2017
 permalink: /year/2017/info/registration/conference-registration
-content-expires: 2017-08-25
 contact: "web@ieeevis.org"
 ---
 
-**Early Registration** period for IEEE VIS 2017 is now **OPEN** through **August 25, 2017 5PM PST**. Standard registration fees apply after that date.
+The early registration period for IEEE VIS 2017 ran through **August 25, 2017**. Standard registration fees now apply.
 
 <p class="ieeevis-btn-wrapper"><a href="http://www.cvent.com/events/2017-ieee-visualization-conference-vis-/event-summary-63f90d372ae44480b4f8d7071a2b2fd6.aspx" width="150" class="ieeevis-btn">Register Now</a></p>
 
