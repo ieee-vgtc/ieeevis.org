@@ -2,6 +2,7 @@
 title: Conference Registration
 layout: main-2017
 permalink: /year/2017/info/registration/conference-registration
+content-expires: 2017-08-25
 contact: "web@ieeevis.org"
 ---
 
