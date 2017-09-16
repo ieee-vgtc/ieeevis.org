@@ -22,7 +22,7 @@ A live hackathon to scientific data discovery. You’ll leave the workshop with 
 * *Workshop* - **[Visualization for the Digital Humanities](http://vis4dh.dbvis.de/)** - The purpose of this workshop is to propose new research directions in visualization for the digital humanities, to familiarize the visualization research community with the problems faced by digital humanities researchers, and to foster future collaboration between visualization and digital humanities research.
 
 #### Tuesday
-* *Paper Session* - **Techniques**
+* *Paper Session* - **Techniques** - 2:00pm-3:40pm, Room: 301-D
   * Visualizing Nonlinear Narratives with Story Curves
   * MyBrush: Brushing and Linking with Personal Agency
   * Nonlinear Dot Plots
@@ -31,9 +31,9 @@ A live hackathon to scientific data discovery. You’ll leave the workshop with 
 
 
 #### Wednesday
-* *Paper Session* - **[VIS Arts Program (VISAP) Session 1](http://visap.uic.edu/2017/index.html)**
+* *Paper Session* - **[VIS Arts Program (VISAP) Session 1](http://visap.uic.edu/2017/index.html)** - 8:30am-10:10am, Room: 101-ABC 
 
-* *Paper Session* - **Perception**
+* *Paper Session* - **Perception** - 8:30am-10:10am, Room: 301-D
   * Data Visualization Saliency Model: A Tool for Evaluating Abstract Data Visualizations
   * Open vs Closed Shapes: New Perceptual Categories?
   * Perceptual Biases in Font Size as a Data Encoding
@@ -41,7 +41,7 @@ A live hackathon to scientific data discovery. You’ll leave the workshop with 
   * Evaluating Interactive Graphical Encodings for Data Visualization
  
 
-* *Paper Session* - **Design**
+* *Paper Session* - **Design** - 10:30am-12:10pm, Room: 301-D
   * Scatterplots: Tasks, Data, and Designs
   * Considerations for Visualizing Comparison
   * Structuring Visualization Mock-ups at a Graphical Level by Dividing the Display Space
@@ -55,32 +55,32 @@ A live hackathon to scientific data discovery. You’ll leave the workshop with 
 
 * *Paper Session* - **[VIS Arts Program (VISAP) Session 2](http://visap.uic.edu/2017/index.html)**
 
-* *Paper Session* - **(CG&A)Sports Data Visual Analytics**
+* *Paper Session* - **(CG&A)Sports Data Visual Analytics** - 10:30am-12:10pm, Room: 101-ABC
   * BKViz: A Basketball Visual Analysis Tool
   * Director's Cut: Analysis and Annotation of Soccer Matches
   * GapChart: a Gap Strategy to Visualize the Temporal Evolution of both Ranks and Scores
   * Sport Tournament Predictions by Direct Manipulation
 
 
-* *Paper Session* - **Understanding Visualization**
+* *Paper Session* - **Understanding Visualization** - 2:00pm-3:40pm, Room: 301-D
   * Conceptual and Methodological Issues in Evaluating Multidimensional Visualizations for Decision Support
   * Data Through Others' Eyes: The Impact of Visualizing Others' Expectations on Visualization Interpretation
   * Active Reading of Visualizations
   * Blinded with Science or Informed by Charts? A Replication Study
   * The explanatory visualization framework: An active learning framework for teaching creative computing using explanatory visualizations 
 
-* **Dear Data Studio Event**
+* **Dear Data Studio Event** - 4:15pm-5:55pm, Room: 103-A
 
  
 #### Friday
-* *Paper Session* - **Evaluation**
+* *Paper Session* - **Evaluation** - 8:30am-10:10am, Room: 105-ABC
   * Imagining Replications: Graphical Prediction & Discrete Visualizations Improve Recall & Estimation of Effect Uncertainty 
   * A Systematic Review of Experimental Studies on Data Glyphs
   * The Hologram in My Hand: How Effective is Interactive Exploration of 3D Visualizations in Immersive Tangible Augmented Reality?
   * Evaluating Cartogram Effectiveness
   * Keeping Multiple Views Consistent: Constraints, Validations and Exceptions in Visualization Authoring
 
-* *VIS Capstone Address* - **[Data Humanism - The Revolution will be Visualized](/year/2017/capstone)**
+* *VIS Capstone Address* - **[Data Humanism - The Revolution will be Visualized](/year/2017/capstone)** - - 8:30am-10:10am, Room: 101-ABC 
 
 -----
 *** 
