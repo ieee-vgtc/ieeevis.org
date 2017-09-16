@@ -29,29 +29,29 @@ A live hackathon to scientific data discovery. You’ll leave the workshop with 
 
 #### Tuesday
 
-* **VIS Opening & Awards**
+* **VIS Opening & Awards** - 8:00am-10:30am, Room: 301-CD
 
-* *VIS Keynote Address* - **[Analytics Inspired Visualization: a Holistic In-situ Scientific Workflow at Extreme Scale](/year/2017/keynote)** 
+* *VIS Keynote Address* - **[Analytics Inspired Visualization: a Holistic In-situ Scientific Workflow at Extreme Scale](/year/2017/keynote)** - 10:50am-11:50am, Room: 301-CD
 
-* *Panel* - **[VIP - Increasing the Impact of Visualization Research](http://www.visinpractice.rwth-aachen.de/panel.html)**
+* *Panel* - **[VIP - Increasing the Impact of Visualization Research](http://www.visinpractice.rwth-aachen.de/panel.html)** - 2:00pm-3:40pm, Room 101-ABC
 
-* **Supporters Presentations**
+* **Supporters Presentations** - 4:15pm-5:55pm, Room: 101-ABC
 
-* **Supporters Exhibition**
+* **Supporters Exhibition** - all day, Room: 301-AB
 
 #### Wednesday
 
-* **Supporters Exhibition**
+* **Supporters Exhibition**- all day, Room: 301-AB
 
-* **Posters + Networking + Hiring event**
+* **[Posters](/year/2017/info/posters) + Networking + [Asynchronous Job Fair](/year/2017/info/call-participation/community#asynchronous-job-fair)** - 5:15pm-7:00pm, Room: 301-AB
 
 #### Thursday
 
-* **Supporters Exhibition**
+* **Supporters Exhibition**- all day, Room: 301-AB
 
 #### Friday
 
-* *Paper Session* - **Evaluation**  
+* *Paper Session* - **Evaluation** - 8:30am-10:10am, 105-ABC
   * Imagining Replications: Graphical Prediction & Discrete Visualizations Improve Recall & Estimation of Effect Uncertainty (*** Honourable Mention for Best Paper ***)
   * A Systematic Review of Experimental Studies on Data Glyphs
   * The Hologram in My Hand: How Effective is Interactive Exploration of 3D Visualizations in Immersive Tangible Augmented Reality?
@@ -59,7 +59,7 @@ A live hackathon to scientific data discovery. You’ll leave the workshop with 
   * Keeping Multiple Views Consistent: Constraints, Validations and Exceptions in Visualization Authoring
 
 
-* *VIS Capstone Address* - **[Data Humanism - The Revolution will be Visualized](/year/2017/capstone)**
+* *VIS Capstone Address* - **[Data Humanism - The Revolution will be Visualized](/year/2017/capstone)** - 10:30am-11:30am, Room: Phoenix Grand Hyatt Ballroom ABCD
 
 
 -----
