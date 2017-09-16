@@ -1,10 +1,8 @@
 ---
-title: IEEE VIS'17 for Practitioners
+title: IEEE VIS for practitioners interested in human factors
 layout: main-2017
 permalink: /year/2017/info/overview-amp-topics/practitioner-guide/human-factors
 ---
-
-## IEEE VIS for practitioners interested in human factors
 
 #### Sunday
 
@@ -22,11 +20,11 @@ The workshop explores some of the ways in which cognitive biases impact user per
 #### Wednesday
 
 * *Paper Session* - **Perception**
- * Data Visualization Saliency Model: A Tool for Evaluating Abstract Data Visualizations
- * Open vs Closed Shapes: New Perceptual Categories?
- * Perceptual Biases in Font Size as a Data Encoding
- * Priming and Anchoring Effects in Visualizations
- * Evaluating Interactive Graphical Encodings for Data Visualization
+  * Data Visualization Saliency Model: A Tool for Evaluating Abstract Data Visualizations
+  * Open vs Closed Shapes: New Perceptual Categories?
+  * Perceptual Biases in Font Size as a Data Encoding
+  * Priming and Anchoring Effects in Visualizations
+  * Evaluating Interactive Graphical Encodings for Data Visualization
 
 * *Panel* - **Vision Science Meets Visualization**
 
@@ -34,36 +32,36 @@ The workshop explores some of the ways in which cognitive biases impact user per
 #### Thursday
 
 * *Paper Session* - **Understanding Visualization**
- * Conceptual and Methodological Issues in Evaluating Multidimensional Visualizations for Decision Support
- * Data Through Others' Eyes: The Impact of Visualizing Others' Expectations on Visualization Interpretation
- * Active Reading of Visualizations
- * Blinded with Science or Informed by Charts? A Replication Study
- * The explanatory visualization framework: An active learning framework for teaching creative computing using explanatory visualizations
+  * Conceptual and Methodological Issues in Evaluating Multidimensional Visualizations for Decision Support
+  * Data Through Others' Eyes: The Impact of Visualizing Others' Expectations on Visualization Interpretation
+  * Active Reading of Visualizations
+  * Blinded with Science or Informed by Charts? A Replication Study
+  * The explanatory visualization framework: An active learning framework for teaching creative computing using explanatory visualizations
 
 * *Paper Session* - **Interaction in the Analysis Process**
- * Podium: Ranking Data Using Mixed-Initiative Visual Analytics
- * Comparing Visual-Interactive Labeling with Active Learning: An Experimental Study
- * Applying Pragmatics Principles for Interaction with Visual Analytics
- * Understanding the Relationship between Interactive Optimisation and Visual Analytics in the Context of Prostate Brachytherapy
- * Interactive Visual Alignment of Medieval Text Versions
+  * Podium: Ranking Data Using Mixed-Initiative Visual Analytics
+  * Comparing Visual-Interactive Labeling with Active Learning: An Experimental Study
+  * Applying Pragmatics Principles for Interaction with Visual Analytics
+  * Understanding the Relationship between Interactive Optimisation and Visual Analytics in the Context of Prostate Brachytherapy
+  * Interactive Visual Alignment of Medieval Text Versions
 
 * *Paper Session* - **Sensemaking**
- * RCLens: Interactive Rare Category Exploration and Identification
- * EVA: Visual Analytics to Identify Fraudulent Events
- * Supporting Handoff in Asynchronous Collaborative Sensemaking Using Knowledge-Transfer Graphs
- * CRICTO: Supporting Sensemaking through Crowdsourced Information Schematization
- * Visual Causality Analysis Made Practical
+  * RCLens: Interactive Rare Category Exploration and Identification
+  * EVA: Visual Analytics to Identify Fraudulent Events
+  * Supporting Handoff in Asynchronous Collaborative Sensemaking Using Knowledge-Transfer Graphs
+  * CRICTO: Supporting Sensemaking through Crowdsourced Information Schematization
+  * Visual Causality Analysis Made Practical
 
 
 
 #### Friday
 
 * *Paper Session* - **Evaluation**
- * Imagining Replications: Graphical Prediction & Discrete Visualizations Improve Recall & Estimation of Effect Uncertainty 
- * A Systematic Review of Experimental Studies on Data Glyphs
- * The Hologram in My Hand: How Effective is Interactive Exploration of 3D Visualizations in Immersive Tangible Augmented Reality?
- * Evaluating Cartogram Effectiveness
- * Keeping Multiple Views Consistent: Constraints, Validations and Exceptions in Visualization Authoring
+  * Imagining Replications: Graphical Prediction & Discrete Visualizations Improve Recall & Estimation of Effect Uncertainty 
+  * A Systematic Review of Experimental Studies on Data Glyphs
+  * The Hologram in My Hand: How Effective is Interactive Exploration of 3D Visualizations in Immersive Tangible Augmented Reality?
+  * Evaluating Cartogram Effectiveness
+  * Keeping Multiple Views Consistent: Constraints, Validations and Exceptions in Visualization Authoring
 
 
 -----
