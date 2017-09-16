@@ -1,10 +1,8 @@
 ---
-title: IEEE VIS'17 for Practitioners
+title: IEEE VIS events for practitioners from biology and medicine
 layout: main-2017
 permalink: /year/2017/info/overview-amp-topics/practitioner-guide/biology-medicine
 ---
-
-## IEEE VIS events for practitioners from biology and medicine
 
 
 #### Sunday
@@ -21,16 +19,16 @@ This workshop brings together researchers from the visualization, bioinformatics
 #### Thursday
 
 * *Paper Session* - **Visualization in Biology and Medicine**
- * Instant Construction and Visualization of Crowded Biological Environments
- * Abstractocyte: A Visual Tool for Exploring Nanoscale Astroglial Cells
- * Decision Graph Embedding for High-Resolution Manometry Diagnosis
- * Visualization Multipipeline for Communicating Biology
+  * Instant Construction and Visualization of Crowded Biological Environments
+  * Abstractocyte: A Visual Tool for Exploring Nanoscale Astroglial Cells
+  * Decision Graph Embedding for High-Resolution Manometry Diagnosis
+  * Visualization Multipipeline for Communicating Biology
 
 
 #### Friday
 * *Paper Session* - **Applications and visual analysis**
- * BASTet: Shareable and reproducible analysis and visualization of mass spectrometry imaging data via OpenMSI
- * Multiscale Visualization and Scale-Adaptive Modification of DNA Nanostructures
+  * BASTet: Shareable and reproducible analysis and visualization of mass spectrometry imaging data via OpenMSI
+  * Multiscale Visualization and Scale-Adaptive Modification of DNA Nanostructures
  
  
 
