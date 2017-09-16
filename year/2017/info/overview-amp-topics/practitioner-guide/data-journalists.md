@@ -1,10 +1,8 @@
 ---
-title: IEEE VIS'17 for Practitioners
+title: IEEE VIS for data journalists
 layout: main-2017
 permalink: /year/2017/info/overview-amp-topics/practitioner-guide/data-journalists
 ---
-
-## IEEE VIS for data journalists
 
 #### Sunday
 
@@ -25,29 +23,29 @@ A live hackathon to scientific data discovery. You’ll leave the workshop with 
 
 #### Tuesday
 * *Paper Session* - **Techniques**
- * Visualizing Nonlinear Narratives with Story Curves
- * MyBrush: Brushing and Linking with Personal Agency
- * Nonlinear Dot Plots
- * VisTiles: Coordinating and Combining Co-located Mobile Devices for Visual Data Exploration
- * Uncertainty Visualization by Representative Sampling from Prediction Ensembles
+  * Visualizing Nonlinear Narratives with Story Curves
+  * MyBrush: Brushing and Linking with Personal Agency
+  * Nonlinear Dot Plots
+  * VisTiles: Coordinating and Combining Co-located Mobile Devices for Visual Data Exploration
+  * Uncertainty Visualization by Representative Sampling from Prediction Ensembles
 
 
 #### Wednesday
 * *Paper Session* - **[VIS Arts Program (VISAP) Session 1](http://visap.uic.edu/2017/index.html)**
 
 * *Paper Session* - **Perception**
- * Data Visualization Saliency Model: A Tool for Evaluating Abstract Data Visualizations
- * Open vs Closed Shapes: New Perceptual Categories?
- * Perceptual Biases in Font Size as a Data Encoding
- * Priming and Anchoring Effects in Visualizations
- * Evaluating Interactive Graphical Encodings for Data Visualization
+  * Data Visualization Saliency Model: A Tool for Evaluating Abstract Data Visualizations
+  * Open vs Closed Shapes: New Perceptual Categories?
+  * Perceptual Biases in Font Size as a Data Encoding
+  * Priming and Anchoring Effects in Visualizations
+  * Evaluating Interactive Graphical Encodings for Data Visualization
  
 
 * *Paper Session* - **Design**
- * Scatterplots: Tasks, Data, and Designs
- * Considerations for Visualizing Comparison
- * Structuring Visualization Mock-ups at a Graphical Level by Dividing the Display Space
- * Bridging From Goals to Tasks with Design Study Analysis Reports
+  * Scatterplots: Tasks, Data, and Designs
+  * Considerations for Visualizing Comparison
+  * Structuring Visualization Mock-ups at a Graphical Level by Dividing the Display Space
+  * Bridging From Goals to Tasks with Design Study Analysis Reports
 
 
 
@@ -58,29 +56,29 @@ A live hackathon to scientific data discovery. You’ll leave the workshop with 
 * *Paper Session* - **[VIS Arts Program (VISAP) Session 2](http://visap.uic.edu/2017/index.html)**
 
 * *Paper Session* - **(CG&A)Sports Data Visual Analytics**
- * BKViz: A Basketball Visual Analysis Tool
- * Director's Cut: Analysis and Annotation of Soccer Matches
- * GapChart: a Gap Strategy to Visualize the Temporal Evolution of both Ranks and Scores
- * Sport Tournament Predictions by Direct Manipulation
+  * BKViz: A Basketball Visual Analysis Tool
+  * Director's Cut: Analysis and Annotation of Soccer Matches
+  * GapChart: a Gap Strategy to Visualize the Temporal Evolution of both Ranks and Scores
+  * Sport Tournament Predictions by Direct Manipulation
 
 
 * *Paper Session* - **Understanding Visualization**
- * Conceptual and Methodological Issues in Evaluating Multidimensional Visualizations for Decision Support
- * Data Through Others' Eyes: The Impact of Visualizing Others' Expectations on Visualization Interpretation
- * Active Reading of Visualizations
- * Blinded with Science or Informed by Charts? A Replication Study
- * The explanatory visualization framework: An active learning framework for teaching creative computing using explanatory visualizations 
+  * Conceptual and Methodological Issues in Evaluating Multidimensional Visualizations for Decision Support
+  * Data Through Others' Eyes: The Impact of Visualizing Others' Expectations on Visualization Interpretation
+  * Active Reading of Visualizations
+  * Blinded with Science or Informed by Charts? A Replication Study
+  * The explanatory visualization framework: An active learning framework for teaching creative computing using explanatory visualizations 
 
 * **Dear Data Studio Event**
 
  
 #### Friday
 * *Paper Session* - **Evaluation**
- * Imagining Replications: Graphical Prediction & Discrete Visualizations Improve Recall & Estimation of Effect Uncertainty 
- * A Systematic Review of Experimental Studies on Data Glyphs
- * The Hologram in My Hand: How Effective is Interactive Exploration of 3D Visualizations in Immersive Tangible Augmented Reality?
- * Evaluating Cartogram Effectiveness
- * Keeping Multiple Views Consistent: Constraints, Validations and Exceptions in Visualization Authoring
+  * Imagining Replications: Graphical Prediction & Discrete Visualizations Improve Recall & Estimation of Effect Uncertainty 
+  * A Systematic Review of Experimental Studies on Data Glyphs
+  * The Hologram in My Hand: How Effective is Interactive Exploration of 3D Visualizations in Immersive Tangible Augmented Reality?
+  * Evaluating Cartogram Effectiveness
+  * Keeping Multiple Views Consistent: Constraints, Validations and Exceptions in Visualization Authoring
 
 * *VIS Capstone Address* - **[Data Humanism - The Revolution will be Visualized](/year/2017/capstone)**
 
