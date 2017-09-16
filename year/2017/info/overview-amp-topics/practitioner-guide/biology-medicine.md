@@ -18,7 +18,7 @@ This workshop brings together researchers from the visualization, bioinformatics
 
 #### Thursday
 
-* *Paper Session* - **Visualization in Biology and Medicine**
+* *Paper Session* - **Visualization in Biology and Medicine** - 8:30am-10:10am, Room: 207 LECTURE HALL
   * Instant Construction and Visualization of Crowded Biological Environments
   * Abstractocyte: A Visual Tool for Exploring Nanoscale Astroglial Cells
   * Decision Graph Embedding for High-Resolution Manometry Diagnosis
@@ -26,7 +26,7 @@ This workshop brings together researchers from the visualization, bioinformatics
 
 
 #### Friday
-* *Paper Session* - **Applications and visual analysis**
+* *Paper Session* - **Applications and visual analysis** - 8:30am-10:10am, Room: 106-ABC
   * BASTet: Shareable and reproducible analysis and visualization of mass spectrometry imaging data via OpenMSI
   * Multiscale Visualization and Scale-Adaptive Modification of DNA Nanostructures
  
