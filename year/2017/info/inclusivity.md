@@ -16,7 +16,7 @@ Inclusivity Content at IEEE VIS includes:
 
 
 **Monday**
-* VISKids Hello (Monday, OCTOBER 2; 12:15PM - 12:45PM; Location: 103-B)
+* Meetup: VISKids Hello (Monday, OCTOBER 2; 12:15PM - 12:45PM; Location: 103-B)
 
 **Tuesday**
 * Meetup: VISParents (Tuesday, OCTOBER 3; 12:15PM - 2:00PM; Location: 103-B)
