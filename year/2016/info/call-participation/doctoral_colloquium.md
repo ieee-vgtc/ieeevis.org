@@ -1,7 +1,7 @@
 ---
 title: Doctoral Colloquium
 layout: main-2016
-permalink: /year/2016/info/call-participation/doctoral-colloquium
+permalink: /year/2016/info/call-participation/doctoral_colloquium
 ---
 
 We solicit submissions to the doctoral colloquium (DC) for **IEEE VIS
