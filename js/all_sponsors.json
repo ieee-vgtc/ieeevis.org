@@ -932,7 +932,7 @@
     {
         "src": "/attachments/supporters/2017/dl/converted/logo-tableau.png", 
         "company": "Tableau Software", 
-        "href": "www.tableau.com", 
+        "href": "http://www.tableau.com", 
         "class": "Diamond", 
         "year": 2017
     }, 
@@ -1058,7 +1058,7 @@
     {
         "src": "/attachments/supporters/2017/dl/converted/SCI-logo-transparent-black.png", 
         "company": "SCI Institute", 
-        "href": "sci.utah.edu", 
+        "href": "http://sci.utah.edu", 
         "class": "Academic", 
         "year": 2017
     }, 
