@@ -33,6 +33,9 @@ for pl in _permalinks:
         print('fix permalinks in these files:')
         print(_permalinks[pl])
         print('---')
+
+for pl in _permalinks:
+    if len(_permalinks[pl]) > 1:
         sys.exit("$(error duplicate permalinks found)")
 
 if len(_bad_extensions) > 0:

@@ -1,7 +1,7 @@
 ---
 title: VAST Challenge
 layout: main-2017
-permalink: /year/2017/info/overview-amp-topics/vast-challenge
+permalink: /year/2017/info/sessions/vast-challenge
 ---
 
 SUNDAY, OCTOBER 23  
