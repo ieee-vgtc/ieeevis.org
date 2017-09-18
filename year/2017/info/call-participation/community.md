@@ -73,7 +73,10 @@ faculty, post-docs, etc. and all types of job seekers from students to
 practitioners. 
 
 The AJF will be continuously held throughout VISWeek concurrently with other 
-activities.  The primary activities include: 
+activities, in addition to the Networking and Poster session from 5:15 to 7:00 PM
+on Wednesday, October 4th.
+
+The primary activities include: 
 
 - "I’m job hunting!" and "I’m hiring!" badge ribbons available to all attendees. 
 By wearing a ribbon, you will be able to find other VIS attendees that are
