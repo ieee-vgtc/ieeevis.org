@@ -932,7 +932,7 @@
     {
         "src": "/attachments/supporters/2017/dl/converted/logo-tableau.png", 
         "company": "Tableau Software", 
-        "href": "", 
+        "href": "http://www.tableau.com", 
         "class": "Diamond", 
         "year": 2017
     }, 
@@ -946,35 +946,35 @@
     {
         "src": "/attachments/supporters/2017/dl/converted/valcri_logo_subline_cmyk.png", 
         "company": "Middlesex University", 
-        "href": "", 
+        "href": "http://valcri.org", 
         "class": "Gold", 
         "year": 2017
     }, 
     {
         "src": "/attachments/supporters/2017/dl/converted/ms-logo.png", 
         "company": "Microsoft Research", 
-        "href": "", 
+        "href": "https://www.microsoft.com/en-us/research", 
         "class": "Gold", 
         "year": 2017
     }, 
     {
         "src": "/attachments/supporters/2017/dl/converted/IBM_Research_Logo.png", 
         "company": "IBM Research", 
-        "href": "", 
+        "href": "http://www.research.ibm.com", 
         "class": "Gold", 
         "year": 2017
     }, 
     {
         "src": "/attachments/supporters/2017/dl/converted/logo-intel.png", 
         "company": "Intel", 
-        "href": "", 
+        "href": "https://www.intel.com", 
         "class": "Gold", 
         "year": 2017
     }, 
     {
         "src": "/attachments/supporters/2017/dl/converted/cray_logo_registered_2945c.png", 
         "company": "Cray, Inc.", 
-        "href": "", 
+        "href": "https://www.cray.com", 
         "class": "Silver", 
         "year": 2017
     }, 
@@ -988,28 +988,28 @@
     {
         "src": "/attachments/supporters/2017/dl/converted/DR-logo-stacked_vector_RED.png", 
         "company": "Disney Research", 
-        "href": "", 
+        "href": "https://www.disneyresearch.com", 
         "class": "Silver", 
         "year": 2017
     }, 
     {
         "src": "/attachments/supporters/2017/dl/converted/il_logo_advancing.png", 
         "company": "INTELLIGENT LIGHT", 
-        "href": "", 
+        "href": "http://www.ilight.com", 
         "class": "Silver", 
         "year": 2017
     }, 
     {
         "src": "/attachments/supporters/2017/dl/converted/Kitware_Logo.png", 
         "company": "Kitware, Inc.", 
-        "href": "", 
+        "href": "http://www.kitware.com", 
         "class": "Silver", 
         "year": 2017
     }, 
     {
         "src": "/attachments/supporters/2017/dl/converted/logo-siemens.png", 
         "company": "Siemens", 
-        "href": "", 
+        "href": "http://www.siemens.com", 
         "class": "Silver", 
         "year": 2017
     }, 
@@ -1023,7 +1023,7 @@
     {
         "src": "/attachments/supporters/2017/dl/converted/adobe_logo_standard.png", 
         "company": "Adobe", 
-        "href": "", 
+        "href": "http://www.adobe.com", 
         "class": "Silver", 
         "year": 2017
     }, 
@@ -1044,7 +1044,7 @@
     {
         "src": "/attachments/supporters/2017/dl/converted/IACS_CMYK_LightBackgrounds.png", 
         "company": "Harvard University", 
-        "href": "", 
+        "href": "https://iacs.seas.harvard.edu", 
         "class": "Bronze", 
         "year": 2017
     }, 
@@ -1058,14 +1058,14 @@
     {
         "src": "/attachments/supporters/2017/dl/converted/SCI-logo-transparent-black.png", 
         "company": "SCI Institute", 
-        "href": "", 
+        "href": "http://sci.utah.edu", 
         "class": "Academic", 
         "year": 2017
     }, 
     {
         "src": "/attachments/supporters/2017/dl/converted/VRVis-Logo-notext.png", 
         "company": "VRVis Zentrum f\u00fcr Virtual Reality und Visualisierung Forschungs-GmbH", 
-        "href": "", 
+        "href": "http://www.vrvis.at", 
         "class": "Academic", 
         "year": 2017
     }, 
@@ -1079,14 +1079,14 @@
     {
         "src": "/attachments/supporters/2017/dl/converted/Polytechnic-CGT.png", 
         "company": "Purdue University", 
-        "href": "", 
+        "href": "https://polytechnic.purdue.edu/degrees/data-visualization", 
         "class": "Academic", 
         "year": 2017
     }, 
     {
         "src": "/attachments/supporters/2017/dl/converted/logo-asu.png", 
         "company": "ASU", 
-        "href": "", 
+        "href": "https://engineering.asu.edu", 
         "class": "Academic", 
         "year": 2017
     }, 
@@ -1100,14 +1100,14 @@
     {
         "src": "/attachments/supporters/2017/dl/converted/CRC Press logo Blue.png", 
         "company": "CRC Press", 
-        "href": "", 
+        "href": "https://www.crcpress.com", 
         "class": "Publisher", 
         "year": 2017
     }, 
     {
         "src": "/attachments/supporters/2017/dl/converted/logo-springer.png", 
         "company": "Springer Nature", 
-        "href": "", 
+        "href": "http://www.springer.com", 
         "class": "Publisher", 
         "year": 2017
     }, 
