@@ -21,6 +21,19 @@ production: site
 staging: site
 	cd _site && ../scripts/sync_with_s3_boto.py $(STAGING_BRANCH) $(STAGING_BUCKET)
 
+check: check-bad-links check-permalink-paths check-content-expiration
+
+################################################################################
+
+check-bad-links:
+	./scripts/check-links.sh
+
+check-permalink-paths:
+	./scripts/check-permalink-paths.py
+
+check-content-expiration:
+	./scripts/check-content-expiration.py
+
 ################################################################################
 
 autogen: papers_program panels posters vast_challenge_program dc_program sv_directory
@@ -39,7 +52,15 @@ papers_program:
 
 vast_challenge_program:
 	./scripts/write_vast_challenge_md.py > data/autogen/vast_challenge.md
-	cat data/vast_challenge_front_matter.txt data/autogen/vast_challenge.md > year/2016/info/overview-amp-topics/vast-challenge.md
+	cat data/vast_challenge_front_matter.txt data/autogen/vast_challenge.md > year/2017/info/overview-amp-topics/vast-challenge.md
+
+scivis_contest:
+	./scripts/write_scivis_contest_md.py > data/autogen/scivis_contest.md
+	cat data/scivis_contest_front_matter.txt data/autogen/scivis_contest.md > year/2017/info/overview-amp-topics/scivis-contest.md
+
+vis_in_practice:
+	./scripts/write_vis_in_practice_md.py > data/autogen/vis_in_practice.md
+	cat data/vis_in_practice_front_matter.txt data/autogen/vis_in_practice.md > year/2017/info/overview-amp-topics/vis-in-practice.md
 
 dc_program:
 	./scripts/write_dc_md.py > data/autogen/dc.md

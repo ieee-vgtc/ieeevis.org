@@ -11,7 +11,8 @@ contact: "meetups@ieeevis.org"
 * [DECISIVe Workshop contd.](#decisive) (Monday)
 * [VISParents](#vis-parents) (Tuesday)
 * [Junior Faculty, Researchers, and Practitioners Happy Hour](#junior-faculty) (Tuesday)
-* [Sonification; augmenting visualization](#sonification) (Tuesday)
+* [Sonification: augmenting visualization](#sonification) (Tuesday)
+* [VisLies: New and Improved!](#vislies) (Tuesday)
 * [Vision Science at InfoVis](#vision-science) (Wednesday)
 * [Velo Club de Vis](#velo-club) (Thursday)
 * [Open Inventor Academic Program](#open-inventor) (Thursday)
@@ -22,7 +23,7 @@ contact: "meetups@ieeevis.org"
 
 Sunday, OCTOBER 1  
 12:20 - 12:45PM  
-Location: 103-A   
+Location: 106-ABC   
 
 Organizers: Jagoda Walny and Kate Isaacs  
 Contact: [community@ieeevis.org](mailto:community@ieeevis.org)  
@@ -129,6 +130,21 @@ The topic for this Meetup is the use of sound to enhance and clarify visual repr
 
 | |
 
+## <a name="vislies"></a> VisLies: New and Improved!
+
+Tuesday, OCTOBER 3  
+7:00PM - 9:00PM  
+Location: 103-A   
+
+
+Organizer: Georges Grinstein, Bernice Rogowitz, Kenneth Moreland, and Claire Lauer  
+
+Please join us on Tuesday night, October 3, for VisLies. This fun and engaging evening session showcases examples of egregious perceptual, cognitive, and conceptual errors in visualization, presented by members of the Vis community. Examples from our own work, from published papers, from news outlets, and from the internet highlight the many ways the visual representation can misrepresent the underlying phenomena in the data. This is a great opportunity for amusement and for learning, and every year we walk away with a smile on our faces and insights that may one day save the world. We will also present results of a contest which asked students to create deceptive visualizations using a variety of datasets.
+
+If you have examples to present at VisLies, please visit our web site: [http://vislies.org](http://vislies.org). Or email us at [vislies2017@vislies.org](mailto:vislies2017@vislies.org). Or just show up and say you have something interesting to share. Our twitter hashtag is #VisLies.
+
+| |
+
 ## <a name="vision-science"></a> Vision Science at InfoVis
 
 Wednesday, OCTOBER 4  
@@ -195,3 +211,4 @@ Organizers: Robert Kosara and Noeska Smit
 Contact: [rkosara@tableau.com](mailto:rkosara@tableau.com), [noeska.smit@uib.no](mailto:noeska.smit@uib.no)
  
 When you look around online, you find a lot of colorful pictures but little reliable information about visualization or visualization research. But what about all the good research work that is going on? What about YOUR work? Let’s talk about how you can tell the world outside of the VIS community about what you do, why it matters, and what excites you about it. We’ll chat about how to start a blog, and how to not let it die after three postings. We’ll also talk about how it bolsters your academic credentials and gets your name out into the world. Come hear from some of the people who have been doing this blogging thing successfully for over a decade, and what they’ve learned in the process.
+

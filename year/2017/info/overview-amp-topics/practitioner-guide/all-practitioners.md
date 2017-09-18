@@ -1,10 +1,8 @@
 ---
-title: IEEE VIS'17 for Practitioners
+title: IEEE VIS events interesting for all practitioners
 layout: main-2017
 permalink: /year/2017/info/overview-amp-topics/practitioner-guide/all-practitioners
 ---
-
-## IEEE VIS events interesting for all practitioners
 
 #### Sunday
 
@@ -54,11 +52,11 @@ A live hackathon to scientific data discovery. You’ll leave the workshop with 
 #### Friday
 
 * *Paper Session* - **Evaluation**  
- * Imagining Replications: Graphical Prediction & Discrete Visualizations Improve Recall & Estimation of Effect Uncertainty (*** Honourable Mention for Best Paper ***)
- * A Systematic Review of Experimental Studies on Data Glyphs
- * The Hologram in My Hand: How Effective is Interactive Exploration of 3D Visualizations in Immersive Tangible Augmented Reality?
- * Evaluating Cartogram Effectiveness
- * Keeping Multiple Views Consistent: Constraints, Validations and Exceptions in Visualization Authoring
+  * Imagining Replications: Graphical Prediction & Discrete Visualizations Improve Recall & Estimation of Effect Uncertainty (*** Honourable Mention for Best Paper ***)
+  * A Systematic Review of Experimental Studies on Data Glyphs
+  * The Hologram in My Hand: How Effective is Interactive Exploration of 3D Visualizations in Immersive Tangible Augmented Reality?
+  * Evaluating Cartogram Effectiveness
+  * Keeping Multiple Views Consistent: Constraints, Validations and Exceptions in Visualization Authoring
 
 
 * *VIS Capstone Address* - **[Data Humanism - The Revolution will be Visualized](/year/2017/capstone)**
