@@ -111,6 +111,7 @@ staff!
 - [Diversity in Visualization - panel](/year/2017/info/panels#diversity-panel)
 - [Junior Faculty, Researchers, and Practitioners Happy Hour - meetup](/year/2017/info/meetups#junior-faculty)
 - [Velo Club de Vis - meetup](/year/2017/info/meetups#velo-club)
+- [Bridging the Divide: Lessons from the Trenches of Interdisciplinary and Applied Visualization Research - panel in the VizSec Symposium](http://vizsec.org/vizsec2017/#panel) 
 
 ### Contact
 
