@@ -2,6 +2,7 @@
 layout: main-2017
 title: Welcome
 ---
+Please note in your planning that Arizona does not participate in daylight savings time. Arizona is always on Mountain Standard Time (during VIS that is the same time as California).
 
 **Quick links**
 
