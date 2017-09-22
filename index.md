@@ -2,6 +2,7 @@
 layout: main-2017
 title: Welcome
 ---
+Please note in your planning that Arizona does not participate in daylight savings time. Arizona is currently on Pacific Daylight Time (same time as California).
 
 **Quick links**
 
