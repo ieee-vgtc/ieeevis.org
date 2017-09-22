@@ -10,16 +10,16 @@ Promoting and fostering inclusion is important to IEEE Vis 2017. This year, the 
 Inclusivity Content at IEEE VIS includes:
 
 **Sunday**
-* Workshop: AVID: Advancing Visualization Inclusion and Diversity (Sunday, October 1; 8:30AM-12:10PM; 106-ABC)
-* Meetup: VIS Newcomers Meetup (Sunday, OCTOBER 1; 12:20 - 12:45PM; Location: 103-A)
-* Meetup: Career Plans for Women (Sunday, OCTOBER 1; 2:00PM - 4:00PM; Location: 103-B)
+* Workshop: AVID: Advancing Visualization Inclusion and Diversity (Sunday, Oct. 1; 8:30AM-12:10PM; 106-ABC)
+* Meetup: VIS Newcomers Meetup (Sunday, Oct. 1; 12:20 - 12:45PM; Location: 103-A)
+* Meetup: Career Plans for Women (Sunday, Oct. 1; 2:00PM - 4:00PM; Location: 103-B)
 
 
 **Monday**
-* Meetup: VISKids Hello (Monday, OCTOBER 2; 12:15PM - 12:45PM; Location: 103-B)
+* Meetup: VISKids Hello (Monday, Oct. 2; 12:15PM - 12:45PM; Location: 103-B)
 
 **Tuesday**
-* Meetup: VISParents (Tuesday, OCTOBER 3; 12:15PM - 2:00PM; Location: 103-B)
+* Meetup: VISParents (Tuesday, Oct. 3; 12:15PM - 2:00PM; Location: 103-B)
 
 **Thursday**
-* Panel: Diversity in Visualization (Thursday, OCTOBER 5; 2:00PM-3:40PM; Location: TBD)
+* Panel: Diversity in Visualization (Thursday, Oct. 5; 2:00PM-3:40PM; Location: 101-ABC)
