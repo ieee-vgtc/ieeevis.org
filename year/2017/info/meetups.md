@@ -48,7 +48,7 @@ Contact: [diehl@dbvis.inf.uni-konstanz.de](mailto:diehl@dbvis.inf.uni-konstanz.d
 This Meetup is a natural follow up of the [AVID: Advancing Visualization Inclusion and Diversity workshop](http://ieeevis.org/year/2017/info/workshops#avid). The goal of the Meetup session is to discuss possible career paths of women in the field of Visualization and Visual Analytics. Successful female researchers will share their career experience and highlight guidelines and lessons learned. The participants will get to know successful female role models in their field of research which will be a great opportunity to learn from their experience. The Meetup session should inspire female Ph.D. students to work in our research area and, due to the availability of travel support from the strategic research on "Quantitative Methods for Visual Computing” (SFB-TRR 161, http://www.sfbtrr161.de/) funded by the German Research Foundation (DFG), more female Ph.D. and Master students will be able to attend the VisWeek conference.
 
 We will provide DATA, BIB, Food, and Drinks!
-Now matter which [gender](https://www.quora.com/Scientifically-how-many-sexes-genders-are-there) you are :-)
+No matter which [gender](https://www.quora.com/Scientifically-how-many-sexes-genders-are-there) you are :-)
 Come and join us!
 
 | |
