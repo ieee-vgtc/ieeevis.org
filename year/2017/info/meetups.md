@@ -10,6 +10,7 @@ contact: "meetups@ieeevis.org"
 * [VISKids Hello](#vis-kids) (Monday)
 * [DECISIVe Workshop contd.](#decisive) (Monday)
 * [VISParents](#vis-parents) (Tuesday)
+* [Inclusion and Diversity: Academic and Corporate Perspectives](#inclusion)(Tuesday)
 * [Junior Faculty, Researchers, and Practitioners Happy Hour](#junior-faculty) (Tuesday)
 * [Sonification: augmenting visualization](#sonification) (Tuesday)
 * [VisLies: New and Improved!](#vislies) (Tuesday)
@@ -97,6 +98,21 @@ Organizers: Michelle A. Borkin and Tino Weinkauf
 Contact: [m.borkin@northeastern.edu](mailto:m.borkin@northeastern.edu)  
 
 Whether you are a new parent, expectant parent, experienced wise parent, or considering some day to be a parent, come attend the first VISParents meet-up to discuss work-life balance topics at VIS.  In this open roundtable conversation topics will include work-life balance in general, going into academia versus industry, balancing time with your VISKid, going on paternity leave, being a VISParent while completing your dissertation as a student, and being a VISParent while trying to achieve tenure as a professor.  Please come share your wisdom and experiences in this open supportive VIS environment.  VISKids are also welcome to attend.
+
+
+| |
+
+## <a name="inclusion"></a> Inclusion and Diversity: Academic and Corporate Perspectives
+
+Tuesday, OCTOBER 3  
+5:00PM - 6:00PM  
+Location: 103-A   
+
+Organizers: Kelly Gaither    
+Contact: [kelly@tacc.utexas.edu](mailto:kelly@tacc.utexas.edu)   
+
+ Intel has led inclusion and diversity initiatives in the high-tech space for a number of years. Through their Global Diversity and Inclusion division, they have a number of initiatives focused on retaining a diverse workforce, supporting a more inclusive workforce, building understanding of the value of inclusion and diversity, and encouraging their employees to speak personally about inclusion and diversity and what it has meant for them. In parallel, there are a number of initiatives ongoing in the academic sector that are successful at educating, hiring and training a more diverse workforce. In this meetup, Intel Global Diversity and Inclusion will share their perspectives and discuss how academic initiatives compare.
+
 
 | |
 
