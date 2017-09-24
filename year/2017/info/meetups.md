@@ -9,6 +9,7 @@ contact: "meetups@ieeevis.org"
 * [Career Plans for Women](#career-women) (Sunday)
 * [VISKids Hello](#vis-kids) (Monday)
 * [DECISIVe Workshop contd.](#decisive) (Monday)
+* [BioVis Community Meetup](#biovis) (Monday)
 * [VISParents](#vis-parents) (Tuesday)
 * [Inclusion and Diversity: Academic and Corporate Perspectives](#inclusion)(Tuesday)
 * [Junior Faculty, Researchers, and Practitioners Happy Hour](#junior-faculty) (Tuesday)
@@ -85,6 +86,21 @@ DECISIVe website: [http://decisive-workshop.dbvis.de/](http://decisive-workshop.
 
 
 This Meetup is a follow up of the DECISIVe Workshop, where we will continue the discussions initiated during the workshop and pursue group activities. The Meetup is also a chance for additional attendees who aren't able to come to the Workshop to partake in the discussions.
+
+
+| |
+
+## <a name="biovis"></a> BioVis Community Meetup
+
+Monday, OCTOBER 2  
+6:00PM - 7:00PM  
+Location: 103-B   
+
+
+Organizers: Nils Gehlenborg
+Contact: [nils@hms.harvard.edu](mailto:nils@hms.harvard.edu)
+
+Join members of the BioVis community for a meetup to hear about ongoing initiatives and future events. If you are interested in getting involved in BioVis activities, you will be able to get to meet some of the organizers of the BioVis 2018 symposium and other events. And of course, this is an excellent opportunity to meet practitioners who are working at the interface of data visualization and biology and to chat about science.
 
 | |
 
