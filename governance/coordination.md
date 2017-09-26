@@ -1,7 +1,7 @@
 ---
 title: Financial and Coordination Policies for IEEE VIS
 layout: main-2017
-permalink: /year/2017/info/committees/coordination.md
+permalink: /governance/coordination
 ---
 
 ## I. Events held in conjunction with IEEE VIS 

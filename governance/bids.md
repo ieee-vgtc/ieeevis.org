@@ -1,7 +1,7 @@
 ---
 title: VIS Bid Guidelines
 layout: main-2017
-permalink: /year/2017/info/committees/bids
+permalink: /governance/bids
 ---
 
 VIS welcomes bids for future conferences, to be submitted to the VEC (VIS Executive Committee). Currently, we
