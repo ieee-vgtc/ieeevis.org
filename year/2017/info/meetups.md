@@ -121,7 +121,7 @@ Whether you are a new parent, expectant parent, experienced wise parent, or cons
 ## <a name="inclusion"></a> Inclusion and Diversity: Academic and Corporate Perspectives
 
 Tuesday, OCTOBER 3  
-5:00PM - 6:00PM  
+3:00PM - 3:30PM  
 Location: 103-A   
 
 Organizers: Kelly Gaither    
