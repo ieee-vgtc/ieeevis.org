@@ -55,7 +55,7 @@ Authors: Bartosz Kupiec, Vijayraj Mahida, Timothy Luciani, Andrew Burks, G.E. Ma
 
 *Multi-Challenge Award for Aesthetic Design*  
 **ClockPetals: Interactive Sequential Analysis of Traffic Patterns**  
-Authors: Hui Tang, Wenjie Wu, Zheng Zhou, Sijin Wang, Aijun Huang, Yafeng Niu, Yingjie Victor Chen, Zhenyu Cheryl Qian
+Authors: Zheng Zhou, Sijin Wang, Wenjie Wu, Aijun Huang, Yafeng Niu, Hui Tang, Yingjie Victor Chen, Zhenyu Cheryl Qian
 
 **WindNebula: Vectorial-Temporal Analysis for Environmental Assessment**  
 Authors: Hui Tang, Wenjie Wu, Zheng Zhou, Sijin Wang, Aijun Huang, Yafeng Niu, Yingjie Victor Chen, Zhenyu Cheryl Qian
