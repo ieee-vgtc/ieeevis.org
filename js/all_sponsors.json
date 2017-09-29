@@ -1028,6 +1028,13 @@
         "year": 2017
     }, 
     {
+        "src": "/attachments/supporters/tmp/logo-tacc.png", 
+        "company": "TACC", 
+        "href": "https://www.tacc.utexas.edu/", 
+        "class": "Silver", 
+        "year": 2017
+    },
+    {
         "src": "/attachments/supporters/tmp/NVLogo_2D.PNG", 
         "company": "nvidia", 
         "href": "http://www.nvidia.com/", 
