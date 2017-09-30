@@ -7,6 +7,12 @@ contact: "web@ieeevis.org"
 
 The early registration period for IEEE VIS 2017 ran through **August 25, 2017**. Standard registration fees now apply.
 
+**Onsite Registration**
+ 
+Attendees should register online and pay via credit card, or we can accept traveler’s checks for onsite payment. If you have a **balance due**, you will be required to pay this prior to receiving your badge. You can do this by logging into your registration account and paying via credit card or we can accept a traveler’s check onsite.
+ 
+**Please note – we will NOT accept cash onsite**
+
 <p class="ieeevis-btn-wrapper"><a href="http://www.cvent.com/events/2017-ieee-visualization-conference-vis-/event-summary-63f90d372ae44480b4f8d7071a2b2fd6.aspx" width="150" class="ieeevis-btn">Register Now</a></p>
 
 The following table shows all registration fees in USD. 
