@@ -36,7 +36,7 @@ Location: TBD
 Robert S. Laramee (Organizer), Swansea University  
 Rita Borgo, Kings College
 Vetria Byrd, Purdue Polytechnic Institute  
-Aviva Frank, TBA University  
+Aviva Frank, State University of New York, Purchase  
 Kelly Gaither, University of Texas, Austin  
 Ronald Metoyer, University of Notre Dame
 Erica Yang, Science and Technology Facilities Council (STFC)

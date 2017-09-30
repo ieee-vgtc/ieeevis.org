@@ -9,7 +9,9 @@ contact: "meetups@ieeevis.org"
 * [Career Plans for Women](#career-women) (Sunday)
 * [VISKids Hello](#vis-kids) (Monday)
 * [DECISIVe Workshop contd.](#decisive) (Monday)
+* [BioVis Community Meetup](#biovis) (Monday)
 * [VISParents](#vis-parents) (Tuesday)
+* [Inclusion and Diversity: Academic and Corporate Perspectives](#inclusion)(Tuesday)
 * [Junior Faculty, Researchers, and Practitioners Happy Hour](#junior-faculty) (Tuesday)
 * [Sonification: augmenting visualization](#sonification) (Tuesday)
 * [VisLies: New and Improved!](#vislies) (Tuesday)
@@ -48,7 +50,7 @@ Contact: [diehl@dbvis.inf.uni-konstanz.de](mailto:diehl@dbvis.inf.uni-konstanz.d
 This Meetup is a natural follow up of the [AVID: Advancing Visualization Inclusion and Diversity workshop](http://ieeevis.org/year/2017/info/workshops#avid). The goal of the Meetup session is to discuss possible career paths of women in the field of Visualization and Visual Analytics. Successful female researchers will share their career experience and highlight guidelines and lessons learned. The participants will get to know successful female role models in their field of research which will be a great opportunity to learn from their experience. The Meetup session should inspire female Ph.D. students to work in our research area and, due to the availability of travel support from the strategic research on "Quantitative Methods for Visual Computing” (SFB-TRR 161, http://www.sfbtrr161.de/) funded by the German Research Foundation (DFG), more female Ph.D. and Master students will be able to attend the VisWeek conference.
 
 We will provide DATA, BIB, Food, and Drinks!
-Now matter which [gender](https://www.quora.com/Scientifically-how-many-sexes-genders-are-there) you are :-)
+No matter which [gender](https://www.quora.com/Scientifically-how-many-sexes-genders-are-there) you are :-)
 Come and join us!
 
 | |
@@ -85,6 +87,21 @@ DECISIVe website: [http://decisive-workshop.dbvis.de/](http://decisive-workshop.
 
 This Meetup is a follow up of the DECISIVe Workshop, where we will continue the discussions initiated during the workshop and pursue group activities. The Meetup is also a chance for additional attendees who aren't able to come to the Workshop to partake in the discussions.
 
+
+| |
+
+## <a name="biovis"></a> BioVis Community Meetup
+
+Monday, OCTOBER 2  
+6:00PM - 7:00PM  
+Location: 103-B   
+
+
+Organizers: Nils Gehlenborg
+Contact: [nils@hms.harvard.edu](mailto:nils@hms.harvard.edu)
+
+Join members of the BioVis community for a meetup to hear about ongoing initiatives and future events. If you are interested in getting involved in BioVis activities, you will be able to get to meet some of the organizers of the BioVis 2018 symposium and other events. And of course, this is an excellent opportunity to meet practitioners who are working at the interface of data visualization and biology and to chat about science.
+
 | |
 
 ## <a name="vis-parents"></a> VISParents
@@ -97,6 +114,21 @@ Organizers: Michelle A. Borkin and Tino Weinkauf
 Contact: [m.borkin@northeastern.edu](mailto:m.borkin@northeastern.edu)  
 
 Whether you are a new parent, expectant parent, experienced wise parent, or considering some day to be a parent, come attend the first VISParents meet-up to discuss work-life balance topics at VIS.  In this open roundtable conversation topics will include work-life balance in general, going into academia versus industry, balancing time with your VISKid, going on paternity leave, being a VISParent while completing your dissertation as a student, and being a VISParent while trying to achieve tenure as a professor.  Please come share your wisdom and experiences in this open supportive VIS environment.  VISKids are also welcome to attend.
+
+
+| |
+
+## <a name="inclusion"></a> Inclusion and Diversity: Academic and Corporate Perspectives
+
+Tuesday, OCTOBER 3  
+3:00PM - 5:00PM  
+Location: 103-A   
+
+Organizers: Kelly Gaither    
+Contact: [kelly@tacc.utexas.edu](mailto:kelly@tacc.utexas.edu)   
+
+ Intel has led inclusion and diversity initiatives in the high-tech space for a number of years. Through their Global Diversity and Inclusion division, they have a number of initiatives focused on retaining a diverse workforce, supporting a more inclusive workforce, building understanding of the value of inclusion and diversity, and encouraging their employees to speak personally about inclusion and diversity and what it has meant for them. In parallel, there are a number of initiatives ongoing in the academic sector that are successful at educating, hiring and training a more diverse workforce. In this meetup, Intel Global Diversity and Inclusion will share their perspectives and discuss how academic initiatives compare.
+
 
 | |
 
