@@ -5,7 +5,7 @@ permalink: /year/2017/info/registration/hotel-information
 contact: "web@ieeevis.org"
 ---
 
-In 2017, IEEE VIS visits the city of Phoenix, Arizona, USA, for the conference’s 28th year. The conference will be located at the Hyatt Regency Phoenix, across from the Phoenix Convention Center. The conference rate is $209/night. Tax is 12.57% tax for single or double occupancy rooms. The cutoff date for reservations under this rate is September 8, 2017, at 5PM PST. In order to make a reservation at the Hyatt Regency Phoenix under the conference rate, click the button below.
+In 2017, IEEE VIS visits the city of Phoenix, Arizona, USA, for the conference’s 28th year. The conference hotel will be located at the Hyatt Regency Phoenix, across from the Phoenix Convention Center where the conference is held. The conference rate is $209/night. Tax is 12.57% tax for single or double occupancy rooms. The cutoff date for reservations under this rate is September 8, 2017, at 5PM PST. In order to make a reservation at the Hyatt Regency Phoenix under the conference rate, click the button below.
 
 <p class="ieeevis-btn-wrapper"><a href="https://aws.passkey.com/event/15934070/owner/2336/home" class="ieeevis-btn">Make a Reservation</a></p>
 
