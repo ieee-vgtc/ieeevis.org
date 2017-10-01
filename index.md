@@ -2,9 +2,12 @@
 layout: main-2017
 title: Welcome
 ---
-Please note in your planning that Arizona does not participate in daylight savings time. Arizona is always on Mountain Standard Time (during VIS that is the same time as California).
 
 **Quick links**
+
+Free continental breakfast will be set out at 7:30am each morning.
+
+Please note in your planning that Arizona does not participate in daylight savings time. Arizona is always on Mountain Standard Time (during VIS that is the same time as California).
 
 Now available: [full program PDF](http://ieeevis.org/attachments/vis17-program-final.pdf), [pocket program PDF](http://ieeevis.org/attachments/vis17-badgeinsert.pdf). 
 
@@ -12,7 +15,7 @@ New this year: [practitioner's guide](http://ieeevis.org/year/2017/info/overview
 
 Register for the [conference](http://ieeevis.org/year/2017/info/registration/conference-registration), and [book your hotel](https://aws.passkey.com/event/15934070/owner/2336/home) within our conference block.
 
-Welcome to **IEEE VIS 2017**!
+**Welcome to IEEE VIS 2017**!
 
 After twenty years, we are excited to be returning to Phoenix,
 Arizona.  Located in the Southwest, the city is easy to reach and has
