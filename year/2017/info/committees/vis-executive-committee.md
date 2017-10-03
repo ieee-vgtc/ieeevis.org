@@ -20,7 +20,8 @@ permalink: /year/2017/info/committees/vis-executive-committee
 **Supporting Documentation**
 
 * [IEEE VIS Executive Committee Charter](/attachments/vec_charter_150310.pdf)
-* [VIS Bid Guidelines](/attachments/VISBidGuidelines.pdf)
+* [VIS Bid Guidelines](http://ieeevis.org/governance/bids)
+* [Financial and Coordination Policies for IEEE VIS](http://ieeevis.org/governance/coordination)
 
  
 
