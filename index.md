@@ -5,6 +5,8 @@ title: Welcome
 
 **Quick links**
 
+[View and contribute VIS 2017 photos.](https://photos.google.com/share/AF1QipNdOmsau4ob_RcwpRvDBh30g4uD09-o36yOQ_2l5Fq9drIxWfgZzGkSNQnta4DPCg?key=RnJ4TGoyV3NWVWw0dDQ0bjYzM0dpbVJUSm1yR0xn)
+
 Free continental breakfast will be set out at 7:30am each morning.
 
 Please note in your planning that Arizona does not participate in daylight savings time. Arizona is always on Mountain Standard Time (during VIS that is the same time as California).
