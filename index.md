@@ -9,6 +9,8 @@ title: Welcome
 
 Free continental breakfast will be set out at 7:30am each morning.
 
+VIS Conference App: [iOS](https://itunes.apple.com/us/app/vis2017/id1289563218?mt=8) | [Android](https://play.google.com/store/apps/details?id=com.confApp.android.commonapp)
+
 Please note in your planning that Arizona does not participate in daylight savings time. Arizona is always on Mountain Standard Time (during VIS that is the same time as California).
 
 Now available: [full program PDF](http://ieeevis.org/attachments/vis17-program-final.pdf), [pocket program PDF](http://ieeevis.org/attachments/vis17-badgeinsert.pdf). 
