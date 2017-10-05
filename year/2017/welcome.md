@@ -1,7 +1,7 @@
 ---
 layout: main-2017
 title: Welcome
-permalink: /year/2017/info/welcome
+permalink: /year/2017/welcome
 ---
 
 Welcome to **IEEE VIS 2017**!
