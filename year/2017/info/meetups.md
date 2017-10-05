@@ -16,7 +16,7 @@ contact: "meetups@ieeevis.org"
 * [Sonification: augmenting visualization](#sonification) (Tuesday)
 * [VisLies: New and Improved!](#vislies) (Tuesday)
 * [Vision Science at InfoVis](#vision-science) (Wednesday)
-* [Velo Club de Vis](#velo-club) (Thursday)
+* [Velo Club de Vis](#velo-club) (<s>Thursday</s>!!!! NOW ON WEDNESDAY !!!!)
 * [Open Inventor Academic Program](#open-inventor) (Thursday)
 * [Blogging: How to Start and Keep Telling the World About your Work](#blog) (Thursday)
 
@@ -192,8 +192,8 @@ Vision science provides an empirical basis for techniques and design practices i
 
 ## <a name="velo-club"></a> Velo Club de Vis
 
-Thursday, OCTOBER 5  
-6:00PM - 7:00PM  
+<s>Thursday, OCTOBER 5</s> NOW ON WEDNESDAY, OCTOBER 4  
+5:15PM - 6:00PM  
 Location: 103-B   
 
 Organizers: Jason Dykes   
