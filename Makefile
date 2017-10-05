@@ -46,6 +46,10 @@ posters:
 	./scripts/write_posters_md.py > data/autogen/posters.md
 	cat data/posters_front_matter.txt data/autogen/posters.md > year/2017/info/posters.md
 
+papers_program_2016:
+	./scripts/write_program_md_2016.py > data/autogen/program_2016.md
+	cat data/program_front_matter_2016.txt data/autogen/program_2016.md > year/2016/info/overview-amp-topics/papers-sessions.md
+
 papers_program:
 	./scripts/write_program_md.py > data/autogen/program.md
 	cat data/program_front_matter.txt data/autogen/program.md > year/2017/info/overview-amp-topics/papers-sessions.md

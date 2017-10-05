@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="shortcut icon" href="/sites/default/files/favicon.png" type="image/x-icon" />
+    <title>IEEE VIS 2018</title>
+
+    <link type="text/css" rel="stylesheet" media="all" href="/css/all.css" />
+    <link type="text/css" rel="stylesheet" media="print" href="/css/print.css" />
+    <script src="/js/d3.v4.min.js"></script>
+    <script src="/js/sponsors.js"></script>
+    <script src="/js/common.js"></script>
+  </head>
+  <body class="sidebars" >
+    <div id="header-region" class="clear-block">
+      <div id="header_bar" class="clear-block">
+	<div id="block-block-3" class="clear-block block block-block">
+	  <div class="content">
+	    <div id="header_text"></div>
+	    <img src="/assets/VIS-webbanner2018.jpg" alt="VIS 2018 banner"/>
+	  </div>
+	</div>
+      </div>
+    </div>
+    <div id="wrapper">
+      <div id="container" class="clear-block">
+	<div id="header">
+	  <div id="logo-floater">
+	  </div>
+	</div>
+	{% include left_sidebar-2018.html %}
+	<div id="center">
+	  <div id="squeeze">
+	    <div class="right-corner">
+	      <div class="left-corner">
+		<h2>{{ page.title }}</h2>
+		<div class="clear-block">
+		  <div id="node-3270" class="node">
+		    <div class="content clear-block">
+		      {{ content }}
+		      <div class="clear-block"><div class="meta"></div></div>
+		    </div>
+		  </div>
+		</div>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+	{% include right_sidebar-2018.html %}
+      </div>
+    </div>
+    {% include footer-2018.html %}
+  </body>
+</html>

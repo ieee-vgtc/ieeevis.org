@@ -20,6 +20,7 @@ Inclusivity Content at IEEE VIS includes:
 
 **Tuesday**
 * Meetup: VISParents (Tuesday, Oct. 3; 12:15PM - 2:00PM; Location: 103-B)
+* Meetup: Inclusion and Diversity: Academic and Corporate Perspectives (Tuesday, Oct. 3; 3:00PM - 5:00PM; Location: 103-A)
 
 **Thursday**
 * Panel: Diversity in Visualization (Thursday, Oct. 5; 2:00PM-3:40PM; Location: 101-ABC)

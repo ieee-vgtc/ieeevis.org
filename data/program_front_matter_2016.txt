@@ -1,0 +1,11 @@
+---
+title: Papers Sessions
+layout: main
+permalink: /year/2016/info/overview-amp-topics/papers-sessions
+---
+
+[J] (*TVCG* journal special issue (SI) papers)  
+[T] (previously published *TVCG* journal papers presented at VIS)  
+[C] conference papers  
+
+
