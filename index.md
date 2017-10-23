@@ -5,6 +5,8 @@ title: Welcome
 
 **Quick links**
 
+Did you attend VIS 2017? We'd love to hear your feedback: https://www.surveymonkey.com/r/V_I_S_2017 
+
 [View and contribute VIS 2017 photos.](https://photos.google.com/share/AF1QipNdOmsau4ob_RcwpRvDBh30g4uD09-o36yOQ_2l5Fq9drIxWfgZzGkSNQnta4DPCg?key=RnJ4TGoyV3NWVWw0dDQ0bjYzM0dpbVJUSm1yR0xn)
 
 Free continental breakfast will be set out at 7:30am each morning.
