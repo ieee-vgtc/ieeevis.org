@@ -4,8 +4,17 @@ title: Welcome
 permalink: /year/2018/welcome
 ---
 
-Welcome to **IEEE VIS 2018**!
+**Quick links**
 
-VIS 2018 General Chairs,  
-Holger Thiesel and Petra Specht
+Did you attend VIS 2017? We'd love to hear your feedback: [https://www.surveymonkey.com/r/V_I_S_2017](https://www.surveymonkey.com/r/V_I_S_2017)
 
+Welcome to IEEE VIS 2018 in Berlin!
+
+The IEEE VIS conference comes - for the second time after 2014 - to Europe! Berlin is one of the most vibrant and interesting cities in Europe. It offers many cultural highlights, historic sites, touristic sightseeing as well as plenty of restaurants and entertainment around. Explore this unique city along with attending IEEE VIS! Despite being a hotspot, hotel and restaurant prices are still rather affordable in Berlin.
+
+The conference will be held October 21-26, 2018, in the Estrel Hotel Berlin. It will include programs for students, academics, artists, industry and commercial practitioners, government researchers, and anyone with interests in visualization and data analytics. The conference trend has been to draw over 1,000 participants from dozens of countries to a week of research presentations, tutorials, workshops, panels, demonstrations, posters, and exhibitions.
+
+We invite you to participate in IEEE Visual Analytics Science and Technology (VAST), IEEE Information Visualization (InfoVis), and IEEE Scientific Visualization (SciVis), or one of the many additional events by sharing your research, insights, experience, and enthusiasm.
+
+VIS 2018 General Chair
+Holger Theisel, University of Magdeburg
