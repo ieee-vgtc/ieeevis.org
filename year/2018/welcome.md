@@ -18,3 +18,9 @@ We invite you to participate in IEEE Visual Analytics Science and Technology (VA
 
 VIS 2018 General Chair
 Holger Theisel, University of Magdeburg
+
+----
+
+Follow [@ieeevis](https://twitter.com/ieeevis/) to keep up with conference activities and announcements.
+
+Questions? E-mail [info(at)ieeevis.org](mailto:info@ieeevis.org)
