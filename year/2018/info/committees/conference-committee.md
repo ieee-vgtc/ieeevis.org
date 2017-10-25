@@ -1,7 +1,7 @@
 ---
 title: Conference Committee
 layout: main-2017
-permalink: /year/2017/info/committees/conference-committee
+permalink: /year/2018/info/committees/conference-committee
 ---
 
 <table border='0' class='committee_list'>
@@ -383,7 +383,7 @@ permalink: /year/2017/info/committees/conference-committee
       <td>Tableau (InfoVis)</td>
     </tr>
     <tr>
-      <td>Jim Ahrens</td>
+      <td>James Ahrens</td>
       <td>Los Alamos National Laboratory (SciVis)</td>
     </tr>
     <tr class='committee_section'>
@@ -440,7 +440,7 @@ permalink: /year/2017/info/committees/conference-committee
     </tr>
     <tr>
       <td>Hendrik Strobelt</td>
-      <td>Harvard University</td>
+      <td>IBM</td>
     </tr>
     <tr>
       <td>Cody Dunne</td>
