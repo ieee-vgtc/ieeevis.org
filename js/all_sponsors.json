@@ -1124,5 +1124,19 @@
         "href": "http://www.morganclaypool.com/", 
         "class": "Publisher", 
         "year": 2017
+    },
+    {
+        "src": "/attachments/supporters/2018/converted/dfg.png", 
+        "company": "DFG", 
+        "href": "", 
+        "class": "Diamond", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/converted/bosch.png", 
+        "company": "Bosch", 
+        "href": "", 
+        "class": "Silver", 
+        "year": 2018
     }
 ]
