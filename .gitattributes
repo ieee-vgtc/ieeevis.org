@@ -1,0 +1,7 @@
+# set the default behavior (even if individuals do not have core.autocrlf set)
+* text=auto
+
+# scripts should always have LF endings on checkout (esp. important for those using Windows Subsystem for Linux to build)
+# for info on linux subsystem, see <https://msdn.microsoft.com/en-us/commandline/wsl/install-win10>.
+*.sh text eol=lf
+*.bash text eol=lf
