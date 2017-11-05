@@ -1,0 +1,549 @@
+2018_general_chairs@ieeevis.org
+    petra@isg.cs.uni-magdeburg.de
+    theisel@ovgu.de
+archive@ieeevis.org
+    c.dunne@northeastern.edu
+    hendrik@strobelt.com
+art@ieeevis.org
+    myjyby@gmail.com
+    t.nagel@hs-mannheim.de
+associated_conference_events@ieeevis.org
+    art@ieeevis.org
+    doctoral_coll@ieeevis.org
+    ldav@ieeevis.org
+    scivis_contest@ieeevis.org
+    vast_challenge@ieeevis.org
+    vds@ieeevis.org
+    viskids@ieeevis.org
+    vizsec@ieeevis.org
+    workshops@ieeevis.org
+beliv@ieeevis.org
+    michael.sedlmair@univie.ac.at
+biovis@ieeevis.org
+    g.elisabeta.marai@gmail.com
+community@ieeevis.org
+    anab@lri.fr
+    weiwei.cui@microsoft.com
+    woodring@lanl.gov
+core_committee@ieeevis.org
+    archive@ieeevis.org
+    event_planning@ieeevis.org
+    finance@ieeevis.org
+    general_chair@ieeevis.org
+    incoming_chairs@ieeevis.org
+    program@ieeevis.org
+    vec_chair@ieeevis.org
+    vice_chair@ieeevis.org
+doctoral_coll@ieeevis.org
+    fanny@dgp.toronto.edu
+    marc.streit@jku.at
+    rmacieje@asu.edu
+    timo.ropinski@uni-ulm.de
+event_planning@ieeevis.org
+    nicole@ctocevents.com
+eventplanner@ieeevis.org
+    liz@ctocevents.com
+    nicole@ctocevents.com
+ff@ieeevis.org
+    ayanju04@gmail.com
+    katerina.vrotsou@liu.se
+    leoli@adobe.com
+finance@ieeevis.org
+    lauvil@illinois.edu
+    mariacv@gmail.com
+general_chair@ieeevis.org
+    theisel@ovgu.de
+incoming_chairs@ieeevis.org
+    cyberpsychologist@me.com
+    endert@gatech.edu
+    kirby@cs.utah.edu
+    pascucci@sci.utah.edu
+    wesley.willett@ucalgary.ca
+info@ieeevis.org
+    jesuscaban@gmail.com
+    mhaley@sfu.ca
+    vis2016gc@gmail.com
+infovis_oc@ieeevis.org
+    alex@sci.utah.edu
+    anab@lri.fr
+    basole@gatech.edu
+    christopher.collins@uoit.ca
+    elm@umd.edu
+    fanny.chevalier@inria.fr
+    franconeri@northwestern.edu
+    huamin@cse.ust.hk
+    j.dykes@city.ac.uk
+    jtalbot@tableau.com
+    leoli@adobe.com
+    marc.streit@jku.at
+    michael.sedlmair@univie.ac.at
+    miriah@cs.utah.edu
+    petra.isenberg@inria.fr
+    tgdwyer@gmail.com
+infovis_papers@ieeevis.org
+    franconeri@northwestern.edu
+    petra.isenberg@inria.fr
+    tgdwyer@gmail.com
+infovis_posters@ieeevis.org
+    miriah@cs.utah.edu
+    nath@microsoft.com
+infovis_sc@ieeevis.org
+    j.dykes@city.ac.uk
+    Jean-Daniel.Fekete@inria.fr
+    jheer@uw.edu
+    pfister@seas.harvard.edu
+    scnorth@gmail.com
+    sheelagh@ucalgary.ca
+    tmm@cs.ubc.ca
+infrastructure_committees@ieeevis.org
+    ff@ieeevis.org
+    meetups@ieeevis.org
+    publications@ieeevis.org
+    publicity@ieeevis.org
+    sv@ieeevis.org
+    web@ieeevis.org
+ldav@ieeevis.org
+    garth@cs.uni-kl.de
+main_conference_events@ieeevis.org
+    panels@ieeevis.org
+    papers@ieeevis.org
+    posters@ieeevis.org
+    tutorials@ieeevis.org
+meetups@ieeevis.org
+    aashish.chaudhary@kitware.com
+    adam.perer@gmail.com
+    rita.borgo@kcl.ac.uk
+organizing_committee@ieeevis.org
+    abonmail@gmail.com
+    adam.perer@gmail.com
+    alex@sci.utah.edu
+    allen@sci.utah.edu
+    amit@sdsc.edu
+    anab@lri.fr
+    angus.forbes@gmail.com
+    basole@gatech.edu
+    bfisher@sfu.ca
+    Cagatay.Turkay.1@city.ac.uk
+    chaoli.wang@nd.edu
+    christopher.collins@uoit.ca
+    cscheid@cs.arizona.edu
+    daniela.oelke@siemens.com
+    elm@umd.edu
+    endert@gatech.edu
+    fanny.chevalier@inria.fr
+    franconeri@northwestern.edu
+    garth@cs.uni-kl.de
+    gau.chau@gmail.com
+    ghweber@lbl.gov
+    grinstein@cs.uml.edu
+    hank@uoregon.edu
+    hanwei.shen@gmail.com
+    hendrik@strobelt.com
+    hentschel@vr.rwth-aachen.de
+    hguo@anl.gov
+    huamin@cse.ust.hk
+    ingrid.hotz@liu.se
+    j.dykes@city.ac.uk
+    james.ahrens@gmail.com
+    jcbenne@sandia.gov
+    jean-daniel.fekete@inria.fr
+    jheer@uw.edu
+    joern.kohlhammer@igd.fraunhofer.de
+    johnwenskovitch@gmail.com
+    justintalbot@gmail.com
+    katerina.vrotsou@liu.se
+    katie.osterdahl@kitware.com
+    kelly@tacc.utexas.edu
+    kirby@cs.utah.edu
+    kris.cook@pnnl.gov
+    lauvil@illinois.edu
+    lbornn@sfu.ca
+    leoli@adobe.com
+    liushixia@gmail.com
+    ltharrison@wpi.edu
+    m.borkin@northeastern.edu
+    marc.streit@jku.at
+    mariacv@gmail.com
+    mark.a.whiting@pnnl.gov
+    matkovic@vrvis.at
+    mhaley@sfu.ca
+    michael.sedlmair@univie.ac.at
+    miksch@ifs.tuwien.ac.at
+    miriah@cs.utah.edu
+    myjyby@gmail.com
+    natalia.andrienko@iais.fraunhofer.de
+    petra.isenberg@inria.fr
+    petra@isg.cs.uni-magdeburg.de
+    pfister@seas.harvard.edu
+    pl@llnl.gov
+    remco@cs.tufts.edu
+    rmacieje@asu.edu
+    scnorth@gmail.com
+    sheelagh@ucalgary.ca
+    sjengle@cs.usfca.edu
+    Steffen.Koch@vis.uni-stuttgart.de
+    tatiana.von.landesberger@gris.tu-darmstadt.de
+    tgdwyer@gmail.com
+    theisel@ovgu.de
+    thomas.torsney-weir@univie.ac.at
+    tmm@cs.ubc.ca
+    tobias.schreck@cgv.tugraz.at
+    torsten.moeller@univie.ac.at
+    vahan.yoghourdjian@gmail.com
+    viola@cg.tuiwen.ac.at
+    visweeksvchairs@gmail.com
+    wdou1@uncc.edu
+    weinkauf@kth.se
+    wischoll@wright.edu
+    woodring@lanl.gov
+    xiaoru.yuan@pku.edu.cn
+    zhange@engr.orst.edu
+organizing_committee_2016@ieeevis.org
+    abonmail@gmail.com
+    aforbes@uic.edu
+    alan@keahey.org
+    alex@sci.utah.edu
+    allen@sci.utah.edu
+    basole@gatech.edu
+    berk.geveci@kitware.com
+    bfisher@sfu.ca
+    bongshin@microsoft.com
+    daniel.best@pnnl.gov
+    daniela.oelke@siemens.com
+    elm@umd.edu
+    endert@gatech.edu
+    enrico.bertini@nyu.edu
+    fanny.chevalier@inria.fr
+    g.elisabeta.marai@gmail.com
+    garth@cs.uni-kl.de
+    gau.chau@gmail.com
+    gennady.andrienko@iais.fraunhofer.de
+    ggrinstein@gmail.com
+    ghweber@lbl.gov
+    hank@cs.uoregon.edu
+    hanwei.shen@gmail.com
+    hentschel@vr.rwth-aachen.de
+    j.b.t.m.roerdink@rug.nl
+    j.dykes@city.ac.uk
+    james.ahrens@gmail.com
+    jean-daniel.fekete@inria.fr
+    jesus.j.caban.civ@mail.mil
+    jheer@uw.edu
+    jichen@umbc.edu
+    jing.yang@uncc.edu
+    joao.comba@gmail.com
+    joern.kohlhammer@igd.fraunhofer.de
+    johnwenskovitch@gmail.com
+    justintalbot@gmail.com
+    kirby@sci.utah.edu
+    klma@ucdavis.edu
+    kris.cook@pnl.gov
+    lauvil@illinois.edu
+    leitte@cs.uni-kl.de
+    liushixia@gmail.com
+    marc.streit@jku.at
+    margit@igw.tuwien.ac.at
+    mariacv@gmail.com
+    mark.a.whiting@pnl.gov
+    markus.hadwiger@kaust.edu.sa
+    matkovic@vrvis.at
+    mhaley@sfu.ca
+    michael.sedlmair@univie.ac.at
+    miriah.meyer@gmail.com
+    myjyby@gmail.com
+    natalia.andrienko@iais.fraunhofer.de
+    Nathalie.Henry@microsoft.com
+    petra.isenberg@inria.fr
+    pfister@seas.harvard.edu
+    pierre.dragice@gmail.com
+    remcochang@gmail.com
+    scnorth@gmail.com
+    sheelagh@ucalgary.ca
+    shixia@tsinghua.edu.cn
+    stasko@cc.gatech.edu
+    tatiana.von.landesberger@gris.tu-darmstadt.de
+    tgdwyer@gmail.com
+    thomas.torsney-weir@univie.ac.at
+    tmm@cs.ubc.ca
+    tobias.schreck@cgv.tugraz.at
+    tpeterka@mcs.anl.gov
+    vis2016gc@gmail.com
+    visweeksvchairs@gmail.com
+    wdou1@uncc.edu
+    weinkauf@kth.se
+    xiaoru.yuan@pku.edu.cn
+outreach@ieeevis.org
+    community@ieeevis.org
+    supporters@ieeevis.org
+    vip@ieeevis.org
+panels@ieeevis.org
+    danyelf@microsoft.com
+    endert@gatech.edu
+    viola@cg.tuwien.ac.at
+papers@ieeevis.org
+    bfisher@sfu.ca
+    elm@umd.edu
+    franconeri@northwestern.edu
+    ingrid.hotz@liu.se
+    kirby@cs.utah.edu
+    liushixia@gmail.com
+    tgdwyer@gmail.com
+    tobias.schreck@cgv.tugraz.at
+    xiaoru.yuan@pku.edu.cn
+posters@ieeevis.org
+    garth@cs.uni-kl.de
+    ghweber@lbl.gov
+    miriah@cs.utah.edu
+    natalia.andrienko@iais.fraunhofer.de
+    petra.isenberg@inria.fr
+    wdou1@uncc.edu
+previous_archive@ieeevis.org
+    hendrik@strobelt.com
+previous_art@ieeevis.org
+    angus.forbes@gmail.com
+    myjyby@gmail.com
+previous_beliv@ieeevis.org
+    michael.sedlmair@univie.ac.at
+previous_community@ieeevis.org
+    anab@lri.fr
+    woodring@lanl.gov
+    zhange@engr.orst.edu
+previous_doctoral_coll@ieeevis.org
+    hank@uoregon.edu
+    marc.streit@jku.at
+    tatiana.von.landesberger@gris.tu-darmstadt.de
+previous_ff@ieeevis.org
+    hguo@anl.gov
+    katerina.vrotsou@liu.se
+    leoli@adobe.com
+previous_finance@ieeevis.org
+    lauvil@illinois.edu
+    mariacv@gmail.com
+previous_general_chair@ieeevis.org
+    james.ahrens@gmail.com
+previous_incoming_chairs@ieeevis.org
+    petra@isg.cs.uni-magdeburg.de
+    theisel@ovgu.de
+previous_infovis_papers@ieeevis.org
+    franconeri@northwestern.edu
+    petra.isenberg@inria.fr
+    tgdwyer@gmail.com
+previous_infovis_posters@ieeevis.org
+    petra.isenberg@inria.fr
+    tgdwyer@gmail.com
+previous_ldav@ieeevis.org
+    garth@cs.uni-kl.de
+    jcbenne@sandia.gov
+previous_meetups@ieeevis.org
+    abonmail@gmail.com
+    fanny.chevalier@inria.fr
+    matkovic@vrvis.at
+previous_panels@ieeevis.org
+    endert@gatech.edu
+    michael.sedlmair@univie.ac.at
+    viola@cg.tuwien.ac.at
+previous_program@ieeevis.org
+    gau.chau@gmail.com
+previous_publications@ieeevis.org
+    mhaley@cs.sfu.ca
+previous_publicity@ieeevis.org
+    adam.perer@gmail.com
+    alex@sci.utah.edu
+    katie.osterdahl@kitware.com
+previous_scivis_contest@ieeevis.org
+    amit@sdsc.edu
+    thomas.wischgoll@wright.edu
+previous_scivis_papers@ieeevis.org
+    ingrid.hotz@liu.se
+    kirby@cs.utah.edu
+    xiaoru.yuan@pku.edu.cn
+previous_scivis_posters@ieeevis.org
+    <none>
+previous_supporters@ieeevis.org
+    allen@sci.utah.edu
+    basole@gatech.edu
+    joern.kohlhammer@igd.fraunhofer.de
+    kelly@tacc.utexas.edu
+previous_sv@ieeevis.org
+    johnwenskovitch@gmail.com
+    thomas.torsney-weir@univie.ac.at
+    vahan.yoghourdjian@gmail.com
+    visweeksvchairs@gmail.com
+previous_tutorials@ieeevis.org
+    chaoli.wang@nd.edu
+    christopher.collins@uoit.ca
+    Steffen.Koch@vis.uni-stuttgart.de
+previous_vast_challenge@ieeevis.org
+    ggrinstein@cs.umass.edu
+    kris.cook@pnnl.gov
+    mark.a.whiting@pnnl.gov
+previous_vast_papers@ieeevis.org
+    huamin@cse.ust.hk
+    remco@cs.tufts.edu
+    tobias.schreck@cgv.tugraz.at
+previous_vast_posters@ieeevis.org
+    <none>
+previous_vds@ieeevis.org
+    alex@sci.utah.edu
+    lbornn@sfu.ca
+    torsten.moeller@univie.ac.at
+previous_vice_chair@ieeevis.org
+    rmacieje@asu.edu
+previous_vip@ieeevis.org
+    daniela.oelke@siemens.com
+    hentschel@vr.rwth-aachen.de
+    justintalbot@gmail.com
+previous_vizsec@ieeevis.org
+    sjengle@cs.usfca.edu
+previous_web@ieeevis.org
+    cscheid@cs.arizona.edu
+    ltharrison@wpi.edu
+    mhaley@sfu.ca
+previous_workshops@ieeevis.org
+    huamin@cse.ust.hk
+    pl@llnl.gov
+    remco@cs.tufts.edu
+program@ieeevis.org
+    gau.chau@gmail.com
+publications@ieeevis.org
+    mhaley@sfu.ca
+publicity@ieeevis.org
+    behrisch@g.harvard.edu
+    d.w.archambault@swansea.ac.uk
+    katie.osterdahl@kitware.com
+sc_liaisons@ieeevis.org
+    hanwei.shen@gmail.com
+    J.Dykes@city.ac.uk
+    miksch@ifs.tuwien.ac.at
+    tmm@cs.ubc.ca
+scivis_contest@ieeevis.org
+    patchett2002@gmail.com
+    thomas.wischgoll@wright.edu
+scivis_oc@ieeevis.org
+    abonmail@gmail.com
+    allen@sci.utah.edu
+    amit@sdsc.edu
+    chaoli.wang@nd.edu
+    garth@cs.uni-kl.de
+    ghweber@ucdavis.edu
+    hank@uoregon.edu
+    hanwei.shen@gmail.com
+    hentschel@vr.rwth-aachen.de
+    hguo@anl.gov
+    ingrid.hotz@liu.se
+    katie.osterdahl@kitware.com
+    kelly@tacc.utexas.edu
+    kirby@cs.utah.edu
+    pl@llnl.gov
+    viola@cg.tuwien.ac.at
+    wischoll@wright.edu
+    woodring@lanl.gov
+    xiaoru.yuan@pku.edu.cn
+scivis_papers@ieeevis.org
+    Daniel.Weiskopf@visus.uni-stuttgart.de
+    fuji@ics.keio.ac.jp
+    ghweber@lbl.gov
+scivis_posters@ieeevis.org
+    chen.8028@osu.edu
+    garth@cs.uni-kl.de
+scivis_sc@ieeevis.org
+    anders.ynnerman@liu.se
+    baoquan.chen@gmail.com
+    csilva@nyu.edu
+    fuji@ics.keio.ac.jp
+    hagen@informatik.uni-kl.de
+    hwshen@cse.ohio-state.edu
+    james.ahrens@gmail.com
+    silver@ece.rutgers.edu
+supporters@ieeevis.org
+    alex@sci.utah.edu
+    allen@sci.utah.edu
+    joern.kohlhammer@igd.fraunhofer.de
+    kelly@tacc.utexas.edu
+sv@ieeevis.org
+    fumeng_yang@brown.edu
+    gerrits@isg.cs.uni-magdeburg.de
+    jw87@vt.edu
+    thomas.torsney-weir@univie.ac.at
+    tluciani21@gmail.com
+testlist@ieeevis.org
+    cscheid@cs.arizona.edu
+tutorials@ieeevis.org
+    chaoli.wang@nd.edu
+    christopher.collins@uoit.ca
+    Steffen.Koch@vis.uni-stuttgart.de
+vast-challenge@ieeevis.org
+    vast_challenge@ieeevis.org
+vast@ieeevis.org
+    matt@cs.wpi.edu
+vast_challenge@ieeevis.org
+    ggrinstein@cs.umass.edu
+    kris.cook@pnnl.gov
+    mark.a.whiting@pnnl.gov
+vast_papers@ieeevis.org
+    huamin@cse.ust.hk
+    remco@cs.tufts.edu
+    tobias.schreck@cgv.tugraz.at
+vast_posters@ieeevis.org
+    tatiana.von.landesberger@gris.informatik.tu-darmstadt.de
+    wdou1@uncc.edu
+vast_sc@ieeevis.org
+    bfisher@sfu.ca
+    ebertd@purdue.edu
+    gennady.andrienko@iais.fraunhofer.de
+    keim@informatik.uni-konstanz.de
+    miksch@ifs.tuwien.ac.at
+    min.chen@oerc.ox.ac.uk
+    santucci@dis.uniroma1.it
+    stasko@cc.gatech.edu
+vds-papers@ieeevis.org
+    adam.perer@gmail.com
+    cscheid@cs.arizona.edu
+vds@ieeevis.org
+    torsten.moeller@univie.ac.at
+vec@ieeevis.org
+    ari@cs.stonybrook.edu
+    bfisher@sfu.ca
+    csilva@nyu.edu
+    hagen@informatik.uni-kl.de
+    hwshen@cse.ohio-state.edu
+    j.dykes@city.ac.uk
+    Jean-Daniel.Fekete@inria.fr
+    mark.livingston@nrl.navy.mil
+    miksch@ifs.tuwien.ac.at
+    pfister@seas.harvard.edu
+    rachael.b.brady@gmail.com
+    tmm@cs.ubc.ca
+vice_chair@ieeevis.org
+    bernhard.preim@ovgu.de
+    hege@zib.de
+    scheuermann@informatik.uni-leipzig.de
+vip@ieeevis.org
+    daniela.oelke@siemens.com
+    hentschel@vr.rwth-aachen.de
+    mabrehme@microsoft.com
+vis2016-gc@ieeevis.org
+    jesus.j.caban.civ@mail.mil
+    vis2016gc@gmail.com
+visa-letters@ieeevis.org
+    nicole@ctocevents.com
+    veronica@ctocevents.com
+viskids@ieeevis.org
+    m.borkin@northeastern.edu
+    weinkauf@kth.se
+visreg@ieeevis.org
+    mariacv@gmail.com
+    nicole@ctocevents.com
+vizsec@ieeevis.org
+    diane.staheli@ll.mit.edu
+web@ieeevis.org
+    alper.sarikaya@microsoft.com
+    bilal.alsallakh@us.bosch.com
+    cscheid@cs.arizona.edu
+    dorwarth@isg.cs.uni-magdeburg.de
+    ltharrison@wpi.edu
+    mhaley@sfu.ca
+workshops@ieeevis.org
+    J.D.Wood@city.ac.uk
+    natalia.andrienko@iais.fraunhofer.de
+    pl@llnl.gov
