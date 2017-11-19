@@ -15,6 +15,14 @@ permalink: /year/2018/info/committees/conference-committee
       <td>University of Magdeburg</td>
     </tr>
     <tr class='committee_section'>
+      <th colspan='2'>Coordinating Chair</th>
+      <th>&nbsp;</th>
+    </tr>
+    <tr>
+      <td>Petra Specht</td>
+      <td>University of Magdeburg</td>
+    </tr>
+    <tr class='committee_section'>
       <th colspan='2'>Vice Chair</th>
       <th>&nbsp;</th>
     </tr>
@@ -405,14 +413,6 @@ permalink: /year/2018/info/committees/conference-committee
     <tr>
       <td>Allen Sanderson</td>
       <td>The University of Utah (SciVis)</td>
-    </tr>
-    <tr class='committee_section'>
-      <th colspan='2'>Coordinating Chair</th>
-      <th>&nbsp;</th>
-    </tr>
-    <tr>
-      <td>Petra Specht</td>
-      <td>University of Magdeburg</td>
     </tr>
     <tr class='committee_section'>
       <th colspan='2'>Finance Chairs</th>
