@@ -163,6 +163,18 @@ permalink: /year/2018/info/committees/conference-committee
       <td>Lawrence Livermore National Laboratory (SciVis)</td>
     </tr>
     <tr class='committee_section'>
+      <th colspan='2'>SciVis Short Papers Chairs</th>
+      <th>&nbsp;</th>
+    </tr>
+    <tr>
+      <td>Gordon Kindlmann</td>
+      <td>University of Chicago</td>
+    </tr>
+    <tr>
+      <td>Luis Gustavo Nonato</td>
+      <td>University of São Paulo</td>
+    </tr>
+    <tr class='committee_section'>
       <th colspan='2'>Arts Program Chairs</th>
       <th>&nbsp;</th>
     </tr>
