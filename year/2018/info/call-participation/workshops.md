@@ -39,7 +39,7 @@ Workshop proposals should include:
 * the intended result and impact of the workshop,
 * the plan for publication (see the classes listed below),
 * the number of poster slots requested, if the workshop intends to feature posters,
-* the proposed dates for the call for participation, author notification, and camera-ready deadlines (author notification must be prior to the early registration deadline of September 7, 2018; for inclusion of materials on the USB stick the camera-ready deadline must be prior to **XXXX 2018**).
+* the proposed dates for the call for participation, author notification, and camera-ready deadlines (author notification must be prior to the early registration deadline of September 7, 2018; for inclusion of materials on the USB stick the camera-ready deadline must be prior to August 25, 2018).
 
 Because the number of workshop time slots is limited, half-day workshop proposals are strongly encouraged.  However, well-justified full-day proposals will also be considered.  Full-day proposals may optionally state what changes would be implemented to allow the workshop schedule to fit within a half day.
 
@@ -109,17 +109,18 @@ The workshop organizers will receive the following support from the VIS conferen
 * room and AV support suitable for up to 100 attendees,
 * food and beverages for attendees: coffee breaks throughout the day, Sunday evening opening reception, space in the poster display area, if requested (from limited pool set aside for standard workshops; available space depends on the specifics of the venue; early requests given priority over late requests),
 * PCS (Precision Conference Solutions) support for managing submissions and the review process,
-* inclusion of the workshop materials or proceedings on the USB stick for dissemination to attendees of the conference, if requested (materials must be provided by **XXXX 2018**)
+* inclusion of the workshop materials or proceedings on the USB stick for dissemination to attendees of the conference, if requested (materials must be provided by August 25, 2018)
 * IEEE Xplore Digital Library publication of the workshop proceedings, if requested.
 
 If the requirements of the workshop exceed this default support, the workshop organizers are expected to coordinate with the workshop chairs and possibly raise funds to support the workshop activities.
 Fundraising plans must be discussed with the workshop and supporters chairs prior to contacting any potential funder.
 For more information, see the guidelines for [Financial and Coordination Policies for IEEE VIS](https://docs.google.com/document/d/1kp6q93hpP6m0v2gJyqZwRd46nf2baR6q9Dxd39Pkb7Q/edit?usp=sharing).
 
+
 ## IMPORTANT DATES
 
-| Proposal Submission               | TBD | 
-| Notification                      | TBD |
-| Final Submission of Summaries	    | TBD |
+| Proposal Submission               | February 16, 2018 |
+| Notification                      | March 6, 2018 |
+| Final Submission of Summaries	    | August 1, 2018 |
 
 All deadlines are at **5:00pm Pacific Time (PDT)**.
