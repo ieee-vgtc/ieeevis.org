@@ -7,7 +7,9 @@ permalink: /year/2018/info/call-participation/call-for-participation
 **IEEE VIS 2018** is the premier forum for advances in visualization for academia, government, and industry. This week-long event brings together researchers and practitioners with a shared interest in visualization solutions. IEEE VIS 2018 is now soliciting novel research contributions and innovative applications in all areas of visualization as captured by the three main conferences:
 
 IEEE Conference on Visual Analytics Science & Technology (VAST)
+
 IEEE Conference on Information Visualization (InfoVis)
+
 IEEE Conference on Scientific Visualization (SciVis)
 
 As the leading academic event on visualization research, VIS expects important, impactful, and potentially transformative contributions. Submissions will be judged on their importance, potential impact, degree to which the evidence supports the findings, appropriateness of methodology, and the process followed. Please submit your best work.
