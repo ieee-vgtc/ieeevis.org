@@ -4,141 +4,39 @@ layout: main-2018
 permalink: /year/2018/info/call-participation/vast-paper-types
 ---
 
-The **IEEE Conference on Visual Analytics Science and Technology (IEEE
-VAST 2017)** is the leading international conference dedicated to
-advances in visual analytics. The scope of the conference, co-located
-at VIS with the annual IEEE Scientific Visualization Conference and
-the IEEE Information Visualization Conference, includes both
-fundamental research contributions within visual analytics as well as
-applications of visual analytics in science, engineering, medicine,
-health, media, business, social interaction, security and
-investigative analysis, and other disciplines. We invite you to
-participate in IEEE VAST 2017 by submitting your original research and
-application papers.
+The **IEEE Conference on Visual Analytics Science and Technology (IEEE VAST 2018)** is the leading international conference dedicated to advances in visual analytics. The scope of the conference, co-located at VIS with the annual [IEEE Scientific Visualization Conference](scivis-paper-types) and the [IEEE Information Visualization Conference](infovis-paper-types), includes both fundamental research contributions within visual analytics as well as applications of visual analytics in science, engineering, medicine, health, media, business, social interaction, security and investigative analysis, and other disciplines. We invite you to participate in IEEE VAST 2018 by submitting your original research and application papers.
 
-Following the successful two-track arrangement in previous years, IEEE
-VAST 2017 will again feature an expanded set of accepted papers in two
-categories:
+Following the successful two-track arrangement in previous years, IEEE VAST 2018 will again feature an expanded set of accepted papers in two categories:
 
-* **TVCG Track**: Papers that exhibit the highest quality in terms of
-  originality, rigor and significance will appear in a special issue
-  of IEEE Transactions on Visualization and Computer Graphics
-  (TVCG). The acceptance rate is anticipated to be similar to that of
-  past years (around 22%-25%), subject to the decisions resulting from
-  the review process. After initial notification of review results,
-  conditionally accepted papers (including supplemental material) will
-  undergo a revision and review cycle in order to ensure that they are
-  acceptable for publication and presentation in the journal. The
-  paper and supplemental material will also be submitted to the IEEE
-  Digital Library, subject to its standard terms and conditions.
+* ***TVCG* Track**: Papers that exhibit the highest quality in terms of originality, rigor and significance will appear in a special issue of IEEE Transactions on Visualization and Computer Graphics (TVCG). The acceptance rate is anticipated to be similar to that of past years (around 22%-25%), subject to the decisions resulting from the review process. After initial notification of review results, conditionally accepted papers (including supplemental material) will undergo a revision and review cycle in order to ensure that they are acceptable for publication and presentation in the journal. The paper and supplemental material will also be submitted to the IEEE Digital Library, subject to its standard terms and conditions.
 
-* **Conference-only Track**: Top quality and timely, innovative VAST
-  submissions may be accepted for the conference-only track. Those
-  papers, which feature new contributions, will be presented as
-  Conference Papers during IEEE VAST, and will be included on the IEEE
-  VIS USB Proceedings. After initial notification of review results,
-  conditionally accepted papers (including supplemental material) will
-  undergo a revision and approval cycle. The paper and supplemental
-  material will be submitted to the IEEE Digital Library subject to
-  its standard terms and conditions.
+* **Conference-only Track**: Top quality and timely, innovative VAST submissions may be accepted for the conference-only track. Those papers, which feature new contributions, will be presented as Conference Papers during IEEE VAST, and will be included on the IEEE VIS USB Proceedings. After initial notification of review results, conditionally accepted papers (including supplemental material) will undergo a revision and approval cycle. The paper and supplemental material will be submitted to the IEEE Digital Library subject to its standard terms and conditions.
 
-Visual analytics is the science of analytical reasoning supported by
-highly interactive visual interfaces. People use visual analytics
-tools and techniques in all aspects of science, engineering, business,
-and government to synthesize information into knowledge; derive
-insight from massive, dynamic, and often conflicting data; detect the
-expected and discover the unexpected; provide timely, defensible, and
-understandable assessments; and communicate assessments effectively
-for action. The issues stimulating this body of research provide a
-grand challenge in science: turning information overload into a
-significant opportunity. Visual analytics requires interdisciplinary
-science, going beyond traditional scientific and information
-visualization to include statistics, mathematics, knowledge
-representation, management and discovery technologies, cognitive and
-perceptual sciences, decision sciences, and more. Your submission
-should help develop and/or apply visual analytics, clearly showing an
-interdisciplinary approach.
+Visual analytics is the science of analytical reasoning supported by highly interactive visual interfaces. People use visual analytics tools and techniques in all aspects of science, engineering, business, and government to synthesize information into knowledge; derive insight from massive, dynamic, and often conflicting data; detect the expected and discover the unexpected; provide timely, defensible, and understandable assessments; and communicate assessments effectively for action. The issues stimulating this body of research provide a grand challenge in science: turning information overload into a significant opportunity. Visual analytics requires interdisciplinary science, going beyond traditional scientific and information visualization to include statistics, mathematics, knowledge representation, management and discovery technologies, cognitive and perceptual sciences, decision sciences, and more. Your submission should help develop and/or apply visual analytics, clearly showing an interdisciplinary approach.
 
-From its outset, IEEE VAST has always given great emphasis to
-applications of visual analytics. While VAST 2017 seeks submissions in
-all areas of visual analytics, it particularly welcomes papers that
-make advances towards understanding or solving real world problems, or
-that impact a particular application in a significant way. A strong
-application paper, for which technique novelty is not essential,
-typically features one of the following qualities: namely high or
-broad impact, novel application, innovative technical adaptation or
-integration, or insightful experience or evaluation. For further
-discussion of application papers, see the VAST paper types below.
+From its outset, IEEE VAST has always given great emphasis to applications of visual analytics. While VAST 2018 seeks submissions in all areas of visual analytics, it particularly welcomes papers that make advances towards understanding or solving real world problems, or that impact a particular application in a significant way. A strong application paper, for which technique novelty is not essential, typically features one of the following qualities: namely high or broad impact, novel application, innovative technical adaptation or integration, or insightful experience or evaluation. For further discussion of application papers, see the VAST paper types below.
 
 ## Topics
 
 Suggested topics for papers include, but are not limited to:
 
-* Visual representations and interaction techniques including the
-  principles for depicting information, new visual paradigms,
-  statistical graphics, geospatial visualizations, the science of
-  interaction, and approaches for generating visual analytic
-  visualization and interactions.
-* Data management and knowledge representation including scalable data
-  representations for high volume and stream data, statistical and
-  semantic signatures, and synthesis of information from diverse data
-  sources.
-* Mathematical foundations and algorithms for data transformations to
-  allow interactive visual analysis.
-* Analytical reasoning including the human analytic discourse,
-  knowledge discovery methods, perception and cognition, and
-  collaborative visual analytics
-* Presentation, production, and dissemination methods including
-  methods and tools for capturing the analytics process, methods for
-  elicitation of stakeholder constraints, priorities & processes for
-  incorporation in analysis, and storytelling for specific and varying
-  audiences.
-* Applications of visual analysis techniques, including but not
-  limited to applications in science, engineering, humanities,
-  business, public safety, commerce, and logistics as far as they
-  contribute to visual analytics are of particular interest.
-* Evaluation methods, visual ethical analysis such as privacy,
-  security, & regulatory compliance, interoperability, and technology
-  practice & experience.
-* Discourse visualization and visual representations of the reasoning
-  process.
-* Algorithms and technologies which are fundamental for visual
-  analytics, including user and device adaptivity, web interfaces and
-  mobile or other novel devices.
-  
-Please note that topics primarily involving spatial data (such as
-scalar, vector and tensor fields) might be a better match for SciVis:
-the IEEE Conference on Scientific Visualization at IEEE
-VIS. Similarly, topics which clearly focus on information
-visualization, e.g., graphical representation of abstract data to aid
-cognition, might be a better match for the IEEE InfoVis Conference,
-also at IEEE VIS. Papers chairs reserve the right to move papers
-between conferences based on its topic and perceived fit.
+* Visual representations and interaction techniques including the principles for depicting information, new visual paradigms, statistical graphics, geospatial visualizations, the science of interaction, and approaches for generating visual analytic visualization and interactions.
+* Data management and knowledge representation including scalable data representations for high volume and stream data, statistical and semantic signatures, and synthesis of information from diverse data sources.
+* Mathematical foundations and algorithms for data transformations to allow interactive visual analysis.
+* Analytical reasoning including the human analytic discourse, knowledge discovery methods, perception and cognition, and collaborative visual analytics.
+* Presentation, production, and dissemination methods including methods and tools for capturing the analytics process, methods for elicitation of stakeholder constraints, priorities & processes for incorporation in analysis, and storytelling for specific and varying audiences.
+* Applications of visual analysis techniques, including but not limited to applications in science, engineering, humanities, business, public safety, commerce, and logistics as far as they contribute to visual analytics are of particular interest.
+* Evaluation methods, visual ethical analysis such as privacy, security, & regulatory compliance, interoperability, and technology practice & experience.
+* Discourse visualization and visual representations of the reasoning process.
+* Algorithms and technologies which are fundamental for visual analytics, including user and device adaptivity, web interfaces and mobile or other novel devices.
+
+Please note that topics primarily involving spatial data (such as scalar, vector and tensor fields) might be a better match for [SciVis: the IEEE Conference on Scientific Visualization](scivis-paper-types) at IEEE VIS. Similarly, topics which clearly focus on information visualization, e.g., graphical representation of abstract data to aid cognition, might be a better match for [InfoVis: the IEEE InfoVis Conference](infovis-paper-types), also at IEEE VIS. Papers chairs reserve the right to move papers between conferences based on its topic and perceived fit.
 
 ## Paper Types
 
-VAST has two tracks, TVCG and Conference-only tracks, which correspond
-to different levels of originality, rigor, and significance. In
-general, VAST papers should be written, submitted and reviewed in the
-same way as papers at the other two VIS conferences (i.e., InfoVis and
-SciVis), following the detailed submission guidelines. However, with
-the rapid development of the science, technology and application of
-visual analytics, it is sensible to adjust our understanding of VAST
-publications from time to time. We provide the following
-clarifications about paper types for VAST 2016, beyond the discussion
-of the five paper types in the shared guidelines.
+VAST has two tracks, TVCG and Conference-only tracks, which correspond to different levels of originality, rigor, and significance. In general, VAST papers should be written, submitted and reviewed in the same way as papers at the other two VIS conferences (i.e., InfoVis and SciVis), following the detailed submission guidelines. However, with the rapid development of the science, technology and application of visual analytics, it is sensible to adjust our understanding of VAST publications from time to time. We provide the following clarifications about paper types for VAST 2018, beyond the discussion of the five paper types in the shared guidelines.
 
-In visual analytics, concepts, theories, algorithms, techniques,
-designs, systems, empirical studies and applications normally create a
-context where analysis, visualization and interaction are integrated
-to optimize the combination of human and machine capabilities. It is
-this context that differentiates VAST from other conferences in VIS,
-while data involved can be spatial or non-spatial, techniques can be
-human-centric or machine-centric, and the application domain can be
-almost any academic discipline, industry, business sector, or
-governmental operation. Within such a context, an individual VAST
-paper may give a strong focus on an aspect where novel contributions
-reside, or place its emphasis on the integration of different aspects.
+In visual analytics, concepts, theories, algorithms, techniques, designs, systems, empirical studies and applications normally create a context where analysis, visualization and interaction are integrated to optimize the combination of human and machine capabilities. It is this context that differentiates VAST from other conferences in VIS, while data involved can be spatial or non-spatial, techniques can be human-centric or machine-centric, and the application domain can be almost any academic discipline, industry, business sector, or governmental operation. Within such a context, an individual VAST paper may give a strong focus on an aspect where novel contributions reside, or place its emphasis on the integration of different aspects.
 
 VAST papers typically fall into one of these six categories:
 
@@ -146,22 +44,17 @@ VAST papers typically fall into one of these six categories:
 * Technique and Algorithm
 * Design Study
 * Empirical Study (referred to as the Evaluation type in in the shared guidelines)
-* System
 * Application (as a separate category from the Design Study type in the shared guidelines)
+* System
 
 ### Theory and Model
 
 * Fundamentals of visual analytics.
-* Conceptual understanding and modelling of visual analytics (e.g.,
-  definitions, taxonomies, analytic frameworks, and research methods,
-  etc.).
-* Philosophical and sociological discourses of visual analytics (e.g.,
-  human vs machine, ethics, data security, uncertainty, biases, and
-  privacy, etc.)
+* Conceptual understanding and modelling of visual analytics (e.g., definitions, taxonomies, analytic frameworks, and research methods, etc.)
+* Philosophical and sociological discourses of visual analytics (e.g., human vs machine, ethics, data security, uncertainty, biases, and privacy, etc.)
 * Perception and cognition in visual analytics.
 * Mathematical abstraction and modelling of visual analytics processes.
-* Concepts and models that govern quality metrics and benchmarks for
-  evaluating visual analytics processes and systems.
+* Concepts and models that govern quality metrics and benchmarks for evaluating visual analytics processes and systems.
 
 Examples:
 
