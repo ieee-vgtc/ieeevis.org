@@ -4,75 +4,64 @@ layout: main-2018
 permalink: /year/2018/info/call-participation/infovis-paper-types
 ---
 
-The IEEE Information Visualization conference ("InfoVis") solicits
-research papers on a diverse set of topics related to information
-visualization. Broadly defined, information visualization is the
-design of visual data representations and interaction techniques that
-support human activities where the spatial layout of the visual
-representation is not a direct mapping of spatial relationships in the
-data. Papers may contribute novel visual encoding or interaction
-techniques, evaluations of InfoVis techniques and tools, models or
-theories related to InfoVis, systems that support visual data
-analysis, or applications of information visualization to
-domain-specific problems. None of these guidelines are in any way
-prescriptive; in fact, many successful papers combine two contribution
-types, and some of the very best papers often combine several.
+The IEEE Information Visualization conference (“InfoVis”) solicits original research papers on a diverse set of topics related to information visualization.  Broadly defined, information visualization covers human visual data exploration, analysis, and communication within displays that flexibly encode data in perceptually effective ways.
 
-Please note that topics primarily involving spatial data (such as
-scalar, vector and tensor fields) might be a better match for the IEEE
-SciVis Conference at IEEE VIS. Similarly, topics that clearly focus on
-visual analytics, e.g., computational solutions facilitated by visual
-interfaces to support analysis, might be a better match for the IEEE
-VAST Conference, also at IEEE VIS. Papers chairs reserve the right to
-move papers between conferences based on its topic and perceived fit.
+We encourage papers from novel research areas that pertain to information visualization. Papers may contribute new or improved visual encoding or interaction techniques, evaluations of InfoVis techniques and tools, models or theories related to InfoVis, systems that support visual data analysis, or applications of information visualization to domain-specific problems. This list is not prescriptive; in fact, many successful papers combine two contribution types, and some of the very best papers often combine several.
+
 
 ## Topics
 
-Research contributions are welcomed across a range of topics
-including, but not limited to:
+Research contributions are welcomed across a range of topics including, but not limited to:
 
 *Information visualization techniques for*
 
+* causality and uncertainty data
+* collaboration support (both co-located and distributed)
+* combinations of abstract and spatial data
 * graphs (networks), trees (hierarchies), and other relational data
+* heterogeneous data
 * high-dimensional data and dimensionality reduction
 * multivariate data
-* heterogeneous data
-* personal or social data (health, energy, finance, fitness, email, etc.)
-* text and documents
-* non-numeric data (categorical data, nominal data, etc.)
 * non-expert audiences
-* causality and uncertainty data
-* time-series & temporal event data
+* non-numeric data (categorical data, nominal data, etc.)
+* personal or social data (health, energy, finance, fitness, email, etc.)
 * spatial data, particularly visualized with a new spatial mapping
-* combinations of abstract and spatial data
 * streaming or time-varying data
+* text and documents (e.g. using Natural Language Processing techniques)
+* time-series & temporal event data
+* machine-learning approaches
 * very large datasets
 
 *Interaction techniques for visualizations or for supporting the data analysis process, including* 
 
-* recordkeeping, sensemaking, and storytelling
-* collaboration support (both co-located and distributed)
+* recordkeeping and sensemaking
+* storytelling
 * integration of visualization with other software tools
-* post-WIMP interactions (pen, touch, speech, gestures, etc.)
+* post-WIMP interactions (pen, touch, speech, gestures, mixed reality, etc.)
 * focus + context and overview + detail methods
 * zooming, navigation, and distortion techniques
 * brushing and linking
 * coordinated multiple views
 * data labeling, editing, and annotation
+* visual data mining and visual knowledge discovery 
+
 
 *Integration of visualizations into the context of use, including*
 
-* visual design and aesthetics
 * minimal attention contexts (e.g. ambient displays, second screens)
 * mobile and ubiquitous applications
 * public environments
+* situated visualization (e.g. augmented reality)
+
 
 *Information visualization fundamentals and methodologies:*
 
-* novel algorithms and mathematics
+* cognition and perception  
+* visual design and aesthetics
+* novel algorithms, mathematics, machine learning or optimisation techniques that solve problems related to abstract data visualization
 * taxonomies and models
 * research methodology, discussions, and frameworks
-* cognition and perception
+
 
 *Evaluation:*
 
@@ -85,43 +74,26 @@ including, but not limited to:
 * case studies (involving real users)
 * replications of past studies that validate or contradict key findings
 
+
 *Applied information visualization:*
 
 * reports of information visualization in domains where it has impact
 * using information visualization for education and teaching
 * design studies
+* visualization toolkit design
+
+Please note that topics primarily involving encodings where the spatial layout is given by the dataset (such as scalar, vector and tensor fields) might be a better match for the "[IEEE SciVis Conference at IEEE VIS](http://staging.ieeevis.org/year/2018/info/call-participation/scivis-paper-types)". Similarly, topics that clearly focus on visual analytics, e.g., an integration of data analysis algorithms and visual interfaces to support analysis, might be a better match for the IEEE VAST Conference, also at IEEE VIS. The papers co-chairs reserve the right to move papers between these three conferences based on topic and perceived fit.
 
 ## Paper Types
 
-VIS papers typically fall into one of five categories: technique,
-system, design study, evaluation, or model. We briefly discuss these
-categories below. Although your main paper type has to be specified
-during the paper submission process, papers can include elements of
-more than one of these categories; in fact, successful papers
-sometimes combine elements from several paper types. Please see
+VIS papers often fall into one or many of five main categories: technique, system, design study, evaluation, or model. We briefly discuss these categories below. Although your main paper type has to be specified during the paper submission process, papers can include elements of more than one of these categories; in fact, successful papers sometimes combine elements from several paper types. Please see
 "[Process and Pitfalls in Writing Information Visualization Research
-Papers](https://www.cs.ubc.ca/labs/imager/tr/2008/pitfalls/)" by Tamara Munzner for more detailed discussion on how to write
-a successful VIS paper.
-
-The paper types below include several example papers demonstrating
-each respective paper type. All of these example papers are selected
-from Best Papers or Honorable Mentions at past InfoVis conferences.
+Papers](https://www.cs.ubc.ca/labs/imager/tr/2008/pitfalls/)" by Tamara Munzner for more detailed discussion on how to write a successful VIS paper.
+The paper types below include several example papers demonstrating each respective paper type. All of these example papers are selected from Best Papers or Honorable Mentions at past InfoVis conferences.
 
 ### Paper Type: Technique 
 
-Technique papers introduce novel techniques or algorithms that have
-not previously appeared in the literature, or that significantly
-extend known techniques or algorithms, for example by scaling to
-datasets of much larger size than before or by generalizing a
-technique to a larger class of uses. The technique or algorithm
-description provided in the paper should be complete enough that a
-competent graduate student in visualization could implement the work,
-and the authors should create a prototype implementation of the
-methods. Relevant previous work must be referenced, and the advantage
-of the new methods over it should be clearly demonstrated. There
-should be a discussion of the tasks and datasets for which this new
-method is appropriate, as well as its limitations. Evaluation is
-likely to strengthen technique papers.
+Technique papers introduce novel techniques or algorithms that have not previously appeared in the literature, or that significantly extend known techniques or algorithms, for example by scaling to datasets of much larger size than before or by generalizing a technique to a larger class of uses. The technique or algorithm description provided in the paper should be complete enough that a competent graduate student in visualization could implement the work, and the authors should create a prototype implementation of the methods. Relevant previous work must be referenced, and the advantage of the new methods over it should be clearly demonstrated. There should be a discussion of the tasks and datasets for which this new method is appropriate, as well as its limitations. Evaluation is likely to strengthen technique papers.
 
 Examples:
 
@@ -143,7 +115,7 @@ Examples:
 
 ### Paper Type: System
 
-System papers present a blend of algorithms, technical requirements, user requirements, and design that solves a major problem. The system that is described is both novel and important, and has been implemented. The rationale for significant design decisions is provided, design alternatives and final design choices are discussed, and the system is compared to documented, best-of-breed systems already in use. The comparison includes specific discussion of how the described system differs from and is, in some significant respects, superior to those systems. For example, the described system may offer substantial advancements in the performance or usability of visualization systems, or novel capabilities. Every effort should be made to eliminate external factors (such as advances in processor performance, memory sizes or operating system features) that would affect this comparison. For further suggestions, please review "How (and How Not) to Write a Good Systems Paper" by Roy Levin and David Redell, and "Empirical Methods in CS and AI" by Toby Walsh.
+System papers present a blend of algorithms, technical requirements, user requirements, and design that solves a major problem. The system that is described is both novel and important, and has been implemented. The rationale for significant design decisions is provided, design alternatives and final design choices are discussed, and the system is compared to documented, best-of-breed systems already in use. The comparison includes specific discussion of how the described system differs from and is, in some significant respects, superior to those systems. For example, the described system may offer substantial advancements in the performance or usability of visualization systems, or novel capabilities. Every effort should be made to eliminate external factors (such as advances in processor performance, memory sizes or operating system features) that would affect this comparison. For further suggestions, please review “How (and How Not) to Write a Good Systems Paper” by Roy Levin and David Redell, and “Empirical Methods in CS and AI” by Toby Walsh.
 
 Examples:
 
@@ -156,26 +128,7 @@ Examples:
 
 ### Paper Type: Application/Design Study 
 
-Application/Design Study papers explore the choices made when applying
-visualization and visual analytics techniques in an application area,
-for example relating the visual encodings and interaction techniques
-to the requirements of the target task. In addition,
-Application/Design Study papers have been the norm when researchers
-describe the use of visualization techniques to glean insights from
-problems in engineering and science. Although a significant amount of
-application domain background information can be useful to provide a
-framing context in which to discuss the specifics of the target task,
-the primary focus of the case study must be on the use of
-visualization in this domain. The results of the Application/Design
-Study, including insights generated in the application domain, should
-be clearly conveyed. Describing new techniques and algorithms
-developed to solve the target problem will strengthen a Design Study
-paper, but the requirements for novelty are less stringent than in a
-Technique paper. Where necessary, the identification of the underlying
-parametric space and its efficient search must be aptly described. The
-work will be judged by the design lessons learned or insights gleaned
-for visualization research, on which future contributors can build. We
-invite submissions on any application area.
+Application/Design Study papers explore the choices made when applying visualization and visual analytics techniques in an application area, for example relating the visual encodings and interaction techniques to the requirements of the target task. In addition, Application/Design Study papers have been the norm when researchers describe the use of visualization techniques to glean insights from problems in engineering and science. Although a significant amount of application domain background information can be useful to provide a framing context in which to discuss the specifics of the target task, the primary focus of the case study must be on the use of visualization in this domain. The results of the Application/Design Study, including insights generated in the application domain, should be clearly conveyed. Describing new techniques and algorithms developed to solve the target problem will strengthen a Design Study paper, but the requirements for novelty are less stringent than in a Technique paper. Where necessary, the identification of the underlying parametric space and its efficient search must be aptly described. The work will be judged by the design lessons learned or insights gleaned for visualization research, on which future contributors can build. We invite submissions on any application area.
 
 Examples:
 
@@ -193,21 +146,9 @@ Examples:
 
 ### Paper Type: Evaluation
 
-Evaluation papers explore the usage of visualization and visual
-analytics by human users, and typically present an empirical study of
-visualization techniques or systems. Authors are not necessarily
-expected to implement the systems used in these studies themselves;
-the research contribution will be judged on the validity and
-importance of the results as opposed to the novelty of the systems or
-techniques under study. The conference committee appreciates the
-difficulty and importance of designing and performing rigorous
-evaluation, including the definition of appropriate hypotheses, tasks,
-data sets, selection of subjects and cases, data collection,
-validation and conclusions. The goal of such efforts should be to move
-from description toward prediction and explanation.
+Evaluation papers explore the usage of visualization and visual analytics by human users, and typically present an empirical study, either qualitative or quantitative,  of visualization techniques or systems. Authors are not necessarily expected to implement the systems used in these studies themselves; the research contribution will be judged on the validity and importance of the results as opposed to the novelty of the systems or techniques under study. The conference committee appreciates the difficulty and importance of designing and performing rigorous evaluation, including where appropriate, the definition of hypotheses, tasks, data sets, the rigorous collection and examination/analysis/coding of data, the  selection of subjects and cases, as well as  validation, discussion and conclusions. The goal of evaluation papers is often to better understand data analysis by analyzing how humans use or perceive particular visual representations within specific analysis environments.
 
-Carpendale (2008) provides excellent advice to guide research in
-InfoVis evaluation:
+Carpendale (2008) provides excellent advice to guide research in InfoVis evaluation:
 
 * Empirical methodology must be chosen sensitively as a good fit to
   the research question, the situation and the research goals.
@@ -241,13 +182,7 @@ Examples:
 
 ### Paper Type: Theory/Model
 
-Theory/Model papers present new interpretations of the foundational
-theory of visualization and visual analytics, including models,
-typologies or taxonomies of the design, development, or use of
-visualization in particular contexts. Implementations are usually not
-relevant for papers in this category. Papers should focus on basic
-advancement in our understanding of how visualization techniques
-complement and exploit properties of human vision and cognition.
+Theory/Model papers present new interpretations of the foundational theory of visualization and visual analytics, including models, typologies or taxonomies of the design, development, or use of visualization in particular contexts. Implementations are usually not relevant for papers in this category. Papers should focus on basic advancement in our understanding of how visualization techniques complement and exploit properties of human vision and cognition.
 
 Examples:
 
@@ -262,8 +197,9 @@ Examples:
 
 ### Papers Co-Chairs
 
-* Tim Dwyer, Monash University, Australia
-* Niklas Elmqvist, University of Maryland, College Park, USA
-* Steven Franconeri, Northwestern University, USA
+* Tim Dwyer, *Monash University, Australia*
+* Steven Franconeri, *Northwestern University, USA*
+* Petra Isenberg, *Inria, France*
+
 
 Email: [infovis_papers@ieeevis.org](mailto:infovis_papers@ieeevis.org).
