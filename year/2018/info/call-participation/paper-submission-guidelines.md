@@ -16,13 +16,13 @@ All conferences at IEEE VIS use similar submission and review processes. Please 
 
 ## Submission System
 
-All three conferences at IEEE VIS use the [Precision Conference System (PCS)](https://new.precisionconference.com/vgtc) to handle their submission and reviewing process. When submitting your manuscript, please make sure that you submit it to your intended conference by clicking the appropriate conference header in the conference system landing page. If you are unsure which venue you should submit to, you can use the paper types and topics on this website ([VAST](http://ieeevis.org/year/2018/info/call-participation/vast-paper-types), [InfoVis](http://ieeevis.org/year/2018/info/call-participation/infovis-paper-types), and [SciVis](http://ieeevis.org/year/2018/info/call-participation/scivis-paper-types)), as well as last year’s published proceedings as a guideline.
+All three conferences at IEEE VIS use the [Precision Conference System (PCS)](https://new.precisionconference.com/vgtc) to handle their submission and reviewing process. When submitting your manuscript, please make sure that you submit it to your intended conference by clicking the appropriate conference header in the conference system landing page. If you are unsure which venue you should submit to, you can use the paper types and topics on this website ([VAST](vast-paper-types), [InfoVis](infovis-paper-types), and [SciVis](scivis-paper-types)), as well as last year’s published proceedings as a guideline.
 
 ## Submission Criteria
 
 # Topic Area
 
-Each of the three main VIS conferences—[VAST](http://ieeevis.org/year/2018/info/call-participation/vast-paper-types), [InfoVis](http://ieeevis.org/year/2018/info/call-participation/infovis-paper-types), and [SciVis](http://ieeevis.org/year/2018/info/call-participation/scivis-paper-types)—encompass different parts of the visualization field. Authors are responsible for selecting the area in which their paper fits best by submitting to the appropriate conference (see the individual calls for each conference). 
+Each of the three main VIS conferences—[VAST](vast-paper-types), [InfoVis](infovis-paper-types), and [SciVis](scivis-paper-types)—encompass different parts of the visualization field. Authors are responsible for selecting the area in which their paper fits best by submitting to the appropriate conference (see the individual calls for each conference). 
 
 # Anonymization
 
