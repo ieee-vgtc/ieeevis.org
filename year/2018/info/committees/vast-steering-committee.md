@@ -6,7 +6,6 @@ permalink: /year/2017/info/committees/vast-steering-committee
 
 | Gennady Andrienko | *Fraunhofer IAIS* |
 | Min Chen	| *Oxford University*
-| David Ebert	| *Purdue University*
 | Brian Fisher	| *Simon Fraser University*
 | Daniel Keim	| *University of Konstanz*
 | Silvia Miksch	| *Vienna University of Technology*
