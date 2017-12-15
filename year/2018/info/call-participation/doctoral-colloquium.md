@@ -25,8 +25,8 @@ Contingent upon pending requests for external sponsorship of the VIS DC, we may 
 
 ## Submissions
 
-The deadline for DC submissions is extended to May 22, 2018, 5pm PDT.  
-Notification: July 11th, 2018.
+The deadline for DC submissions is **Thursday, May 10, 2018, 5pm PDT**.  
+Notification: July 11, 2018.
 
 Applicants to the Doctoral Colloquium should submit:
 
@@ -41,9 +41,9 @@ Student submissions will be peer-reviewed and selections will be made on the bas
 
 ## Doctoral Colloquium Chairs
 
-Fanny Chevalier, *University of Toronto*
-Ross Maciejewski, *Arizona State University*  
-Timo Ropinski, *University of Ulm*
+Fanny Chevalier, *University of Toronto*  
+Ross Maciejewski, *Arizona State University*     
+Timo Ropinski, *University of Ulm*  
 Marc Streit, *Johannes Kepler University Linz*
 
 Contact VIS DC co-chairs: [doctoral_coll@ieeevis.org](mailto:doctoral_coll@ieeevis.org)
