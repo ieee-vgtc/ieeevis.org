@@ -1,7 +1,7 @@
 ---
 title: VAST Steering Committee
-layout: main-2017
-permalink: /year/2017/info/committees/vast-steering-committee
+layout: main-2018
+permalink: /year/2018/info/committees/vast-steering-committee
 ---
 
 | Gennady Andrienko | *Fraunhofer IAIS* |
