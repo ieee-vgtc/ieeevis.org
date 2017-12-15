@@ -5,7 +5,7 @@ permalink: /year/2018/info/call-participation/workshops
 contact: workshops@ieeevis.org
 ---
 
-# Call for workshop proposals
+# Call for Workshop proposals
 
 We solicit workshops related to all areas of visualization including visual analytics, information visualization, and scientific visualization.
 The workshops venue at IEEE VIS provides an informal setting for participants to discuss advanced topics in visualization, involve experts in the field, disseminate work in progress, and promote new ideas.
@@ -22,8 +22,8 @@ Rather, workshops should engage the participation of all attendees. We especiall
 
 In choosing workshop topics, please note that the following workshops are pre-approved, to avoid large overlaps:
 
-* BELIV: Evaluation and Beyond - Methodological Approaches for Visualization
-* BioVis Challenges
+* [BELIV: Evaluation and Beyond - Methodological Approaches for Visualization](http://beliv.cs.univie.ac.at)
+* [BioVis Challenges](http://biovis.net/2018/ieeevis/)
 * VAST Challenge
 
 ## Submission requirements
@@ -49,7 +49,7 @@ If the proposed workshop is a follow-up of a previous workshop, please include a
 Organizers should also submit a _Requirements Survey_ to indicate requested facilities including room setup, any needed supplies or materials, and timing preferences (schedule requests are handled on a best-effort request and cannot always be accommodated).
 -->
 
-**The proposal should not exceed four pages.** Please visit [http://junctionpublishing.org/vgtc/Tasks/camera.html](http://junctionpublishing.org/vgtc/Tasks/camera.html) for details and submit via [PCS](http://precisionconference.com/~vgtc/).
+**The proposal should not exceed four pages.** Please visit [http://junctionpublishing.org/vgtc/Tasks/camera.html](http://junctionpublishing.org/vgtc/Tasks/camera.html) for details and submit via [PCS](https://new.precisionconference.com/vgtc).
 
 ## Publication strategy
 
