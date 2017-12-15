@@ -89,6 +89,7 @@ Please note that topics primarily involving encodings where the spatial layout i
 VIS papers often fall into one or many of five main categories: technique, system, design study, evaluation, or model. We briefly discuss these categories below. Although your main paper type has to be specified during the paper submission process, papers can include elements of more than one of these categories; in fact, successful papers sometimes combine elements from several paper types. Please see
 "[Process and Pitfalls in Writing Information Visualization Research
 Papers](https://www.cs.ubc.ca/labs/imager/tr/2008/pitfalls/)" by Tamara Munzner for more detailed discussion on how to write a successful VIS paper.
+
 The paper types below include several example papers demonstrating each respective paper type. All of these example papers are selected from Best Papers or Honorable Mentions at past InfoVis conferences.
 
 ### Paper Type: Technique 
@@ -97,21 +98,10 @@ Technique papers introduce novel techniques or algorithms that have not previous
 
 Examples:
 
-* Steve Kieffer, Tim Dwyer, Kim Marriott, Michael Wybrow. HOLA:
-  Human-like Orthogonal Network Layout. IEEE Transactions on
-  Visualization & Computer Graphics, 22(1):349-358, 2016. ([DOI](http://ieeexplore.ieee.org/abstract/document/7192690/))
-* Ali K. Al-Awami, Johanna Beyer, Hendrik Strobelt, Narayanan
-  Kasthuri, Jeff W. Lichtman, Hanspeter Pfister, Markus
-  Hadwiger. NeuroLines: A Subway Map Metaphor for Visualizing
-  Nanoscale Neuronal Connectivity. IEEE Transactions on Visualization
-  & Computer Graphics, 20(12):2369-2378, 2014. ([DOI](http://ieeexplore.ieee.org/abstract/document/6875935/))
-* Samuel Gratzl, Nils Gehlenborg, Alexander Lex, Hanspeter Pfister,
-  Marc Streit. Domino: Extracting, Comparing, and Manipulating Subsets
-  across Multiple Tabular Datasets. IEEE Transactions on Visualization
-  & Computer Graphics, 20(12):2023-2032, 2014. ([DOI](http://ieeexplore.ieee.org/document/6875920/))
-* Michael J. McGuffin, Igor Jurisica. Interaction Techniques for
-  Selecting and Manipulating Subgraphs in Network Visualizations. IEEE
-  Transactions on Visualization & Computer Graphics, 15(6):937-944, 2009. ([DOI](http://ieeexplore.ieee.org/abstract/document/5290697/))
+* Steve Kieffer, Tim Dwyer, Kim Marriott, Michael Wybrow. HOLA: Human-like Orthogonal Network Layout. IEEE *Transactions on Visualization & Computer Graphics*, 22(1):349-358, 2016. ([DOI](http://ieeexplore.ieee.org/abstract/document/7192690/))
+* Ali K. Al-Awami, Johanna Beyer, Hendrik Strobelt, Narayanan Kasthuri, Jeff W. Lichtman, Hanspeter Pfister, Markus Hadwiger. NeuroLines: A Subway Map Metaphor for Visualizing Nanoscale Neuronal Connectivity. IEEE *Transactions on Visualization & Computer Graphics*, 20(12):2369-2378, 2014. ([DOI](http://ieeexplore.ieee.org/abstract/document/6875935/))
+* Samuel Gratzl, Nils Gehlenborg, Alexander Lex, Hanspeter Pfister, Marc Streit. Domino: Extracting, Comparing, and Manipulating Subsets across Multiple Tabular Datasets. IEEE *Transactions on Visualization & Computer Graphics*, 20(12):2023-2032, 2014. ([DOI](http://ieeexplore.ieee.org/document/6875920/))
+* Michael J. McGuffin, Igor Jurisica. Interaction Techniques for Selecting and Manipulating Subgraphs in Network Visualizations. IEEE *Transactions on Visualization & Computer Graphics*, 15(6):937-944, 2009. ([DOI](http://ieeexplore.ieee.org/abstract/document/5290697/))
 
 ### Paper Type: System
 
@@ -119,12 +109,8 @@ System papers present a blend of algorithms, technical requirements, user requir
 
 Examples:
 
-* Arvind Satyanarayan, Dominik Moritz, Kanit Wongsuphasawat, Jeffrey
-  Heer. Vega-Lite: A Grammar of Interactive Graphics. IEEE
-  Transactions on Visualization & Computer Graphics, 23(1):341-350, 2017. ([DOI](http://ieeexplore.ieee.org/document/7539624/))
-* Lauro Lins, James T. Klosowski, Carlos Scheidegger. Nanocubes for
-  Real-Time Exploration of Spatiotemporal Datasets. IEEE Transactions
-  on Visualization & Computer Graphics, 19(12):2456-2465, 2013. ([DOI](http://ieeexplore.ieee.org/document/6634137/))
+* Arvind Satyanarayan, Dominik Moritz, Kanit Wongsuphasawat, Jeffrey Heer. Vega-Lite: A Grammar of Interactive Graphics. IEEE *Transactions on Visualization & Computer Graphics*, 23(1):341-350, 2017. ([DOI](http://ieeexplore.ieee.org/document/7539624/))
+* Lauro Lins, James T. Klosowski, Carlos Scheidegger. Nanocubes for Real-Time Exploration of Spatiotemporal Datasets. IEEE *Transactions on Visualization & Computer Graphics*, 19(12):2456-2465, 2013. ([DOI](http://ieeexplore.ieee.org/document/6634137/))
 
 ### Paper Type: Application/Design Study 
 
@@ -132,17 +118,10 @@ Application/Design Study papers explore the choices made when applying visualiza
 
 Examples:
 
-* Cydney B. Nielsen, Shaun D. Jackman, Inanc Birol, Steven
-  J. M. Jones. ABySS-Explorer: Visualizing Genome Sequence
-  Assemblies. IEEE Transactions on Visualization and Computer
-  Graphics, 15(6):881-888, 2009. ([DOI](http://ieeexplore.ieee.org/document/5290690/))
-* Miriah Meyer, Tamara Munzner, and Hanspeter Pfister. MizBee: A
-  Multiscale Synteny Browser. IEEE Transactions on Visualization and
-  Computer Graphics, 15(6):897-904, 2009. ([DOI](http://ieeexplore.ieee.org/document/5290692/))
-* Zhicheng Liu, John Stasko, Timothy Sullivan. SellTrend:
-  Inter-Attribute Visual Analysis of Temporal Transaction Data. IEEE
-  Transactions on Visualization and Computer Graphics,
-  15(6):1025-1032, 2009. ([DOI](http://ieeexplore.ieee.org/abstract/document/5290708/))
+* Cydney B. Nielsen, Shaun D. Jackman, Inanc Birol, Steven J. M. Jones. ABySS-Explorer: Visualizing Genome Sequence
+  Assemblies. IEEE *Transactions on Visualization & Computer Graphics*, 15(6):881-888, 2009. ([DOI](http://ieeexplore.ieee.org/document/5290690/))
+* Miriah Meyer, Tamara Munzner, and Hanspeter Pfister. MizBee: A Multiscale Synteny Browser. IEEE *Transactions on Visualization & Computer Graphics*, 15(6):897-904, 2009. ([DOI](http://ieeexplore.ieee.org/document/5290692/))
+* Zhicheng Liu, John Stasko, Timothy Sullivan. SellTrend: Inter-Attribute Visual Analysis of Temporal Transaction Data. IEEE *Transactions on Visualization & Computer Graphics*, 15(6):1025-1032, 2009. ([DOI](http://ieeexplore.ieee.org/abstract/document/5290708/))
 
 ### Paper Type: Evaluation
 
@@ -167,18 +146,15 @@ Carpendale (2008) provides excellent advice to guide research in InfoVis evaluat
 Examples:
 
 * Evanthia Dimara, Anastasia Bezerianos, Pierre Dragicevic. The
-  Attraction Effect in Information Visualization. IEEE Transactions on
-  Visualization & Computer Graphics, 23(1):471-480, 2017. ([DOI](http://ieeexplore.ieee.org/document/7539348/))
+  Attraction Effect in Information Visualization. IEEE *Transactions on Visualization & Computer Graphics*, 23(1):471-480, 2017. ([DOI](http://ieeexplore.ieee.org/document/7539348/))
 * Yalong Yang, Tim Dwyer, Sarah Goodwin, Kim Marriott. Many-to-Many
   Geographically-Embedded Flow Visualisation: An Evaluation. IEEE
-  Transactions on Visualization & Computer Graphics, 23(1):411-420, 2017. ([DOI](http://ieeexplore.ieee.org/document/7539669/))
+  *Transactions on Visualization & Computer Graphics*, 23(1):411-420, 2017. ([DOI](http://ieeexplore.ieee.org/document/7539669/))
 * Roger Beecham, Jason Dykes, Wouter Meulemans, Aidan Slingsby,
   Cagatay Turkay, Jo Wood. Map LineUps: effects of spatial structure
-  on graphical inference. IEEE Transactions on Visualization &
-  Computer Graphics, 23(1):391-400, 2017. ([DOI](http://ieeexplore.ieee.org/document/7539286/))
+  on graphical inference. IEEE *Transactions on Visualization & Computer Graphics*, 23(1):391-400, 2017. ([DOI](http://ieeexplore.ieee.org/document/7539286/))
 * Matthew Kay, Jeffrey Heer. Beyond Weber’s Law: A Second Look at
-  Ranking Visualizations of Correlation. IEEE Transactions on
-  Visualization & Computer Graphics, 22(1):469-478, 2016. ([DOI](http://ieeexplore.ieee.org/document/7192661/))
+  Ranking Visualizations of Correlation. IEEE *Transactions on Visualization & Computer Graphics*, 22(1):469-478, 2016. ([DOI](http://ieeexplore.ieee.org/document/7192661/))
 
 ### Paper Type: Theory/Model
 
@@ -187,11 +163,10 @@ Theory/Model papers present new interpretations of the foundational theory of vi
 Examples:
 
 * Gordon Kindlmann, Carlos Scheidegger. An Algebraic Process for
-  Visualization Design. IEEE Transactions on Visualization & Computer
-  Graphics, 20(12):2181-2190, 2014. ([DOI](http://ieeexplore.ieee.org/abstract/document/6875930/))
+  Visualization Design. IEEE *Transactions on Visualization & Computer Graphics*, 20(12):2181-2190, 2014. ([DOI](http://ieeexplore.ieee.org/abstract/document/6875930/))
 * Michael Sedlmair, Miriah Meyer, Tamara Munzner. Design Study
   Methodology: Reflections from the Trenches and the Stacks. IEEE
-  Transactions on Visualization & Computer Graphics, 18(12):2431-2440, 2012. ([DOI](http://ieeexplore.ieee.org/document/6327248/))
+  *Transactions on Visualization & Computer Graphics*, 18(12):2431-2440, 2012. ([DOI](http://ieeexplore.ieee.org/document/6327248/))
 * Jarke J. van Wijk. The value of visualization. In Proceedings of the
   IEEE Conference on Visualization, pp. 79-86, 2005. ([DOI](http://ieeexplore.ieee.org/document/1532781/))
 
