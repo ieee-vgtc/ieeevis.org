@@ -1,7 +1,7 @@
 ---
 title: VIS Executive Committee
-layout: main-2017
-permalink: /year/2017/info/committees/vis-executive-committee
+layout: main-2018
+permalink: /year/2018/info/committees/vis-executive-committee
 ---
 
 | Jason Dykes | *City University London<br>(InfoVis Steering Rep.)*
@@ -10,12 +10,12 @@ permalink: /year/2017/info/committees/vis-executive-committee
 | Hans Hagen	| *Technische Universität Kaiserslautern<br>(SciVis Steering Rep.)*
 | Arie Kaufman	| *Stony Brook University<br>(VGTC Director)*
 | Silvia Miksch	| *Vienna University of Technology<br>(VAST Steering Rep.)*
-| Mark Livingston	| *Naval Research Laboratory<br>(VGTC Vice-Chair for Conferences)*
-| Claudio Silva	| *New York University Polytechnic<br>(VGTC Chair)*
-| Tamara Munzner	| *University of British Columbia<br>(VEC Chair)*
+| Aditi Majumder	| *University of California, Irvine<br>(VGTC Vice-Chair for Conferences)*
+| Claudio T. Silva	| *New York University Polytechnic<br>(VGTC Chair)*
+| Lisa Avila| *Kitware<br>(VEC Chair)*
 | Hanspeter Pfister	| *Harvard University<br>(VGTC Director)*
-| Han-Wei Shen	| *Ohio State University<br>(SciVis Steering Rep.)*
-| Rachael Brady	| *Cisco Systems, Inc.<br>(Member at Large)*
+| James Ahrens	| *Los Alamos National Laboratory<br>(SciVis Steering Rep.)*
+| Miriah Meyer	| *University of Utah<br>(Member at Large)*
 
 **Supporting Documentation**
 
