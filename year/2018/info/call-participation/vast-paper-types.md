@@ -4,7 +4,7 @@ layout: main-2018
 permalink: /year/2018/info/call-participation/vast-paper-types
 ---
 
-The **IEEE Conference on Visual Analytics Science and Technology (IEEE VAST 2018)** is the leading international conference dedicated to advances in visual analytics. The scope of the conference, co-located at VIS with the annual [IEEE Scientific Visualization Conference](scivis-paper-types) and the [IEEE Information Visualization Conference](infovis-paper-types), includes both fundamental research contributions within visual analytics as well as applications of visual analytics in science, engineering, medicine, health, media, business, social interaction, security and investigative analysis, and other disciplines. We invite you to participate in IEEE VAST 2018 by submitting your original research and application papers.
+The **IEEE Conference on Visual Analytics Science and Technology (VAST 2018)** is the leading international conference dedicated to advances in visual analytics. The scope of the conference, co-located at VIS with the annual [IEEE Scientific Visualization Conference](scivis-paper-types) and the [IEEE Information Visualization Conference](infovis-paper-types), includes both fundamental research contributions within visual analytics as well as applications of visual analytics in science, engineering, medicine, health, media, business, social interaction, security and investigative analysis, and other disciplines. We invite you to participate in IEEE VAST 2018 by submitting your original research and application papers.
 
 Following the successful two-track arrangement in previous years, IEEE VAST 2018 will again feature an expanded set of accepted papers in two categories:
 
