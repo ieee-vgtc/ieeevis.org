@@ -5,7 +5,7 @@ permalink: /year/2018/info/call-participation/workshops
 contact: workshops@ieeevis.org
 ---
 
-# Call for workshop proposals
+# Call for Workshop proposals
 
 We solicit workshops related to all areas of visualization including visual analytics, information visualization, and scientific visualization.
 The workshops venue at IEEE VIS provides an informal setting for participants to discuss advanced topics in visualization, involve experts in the field, disseminate work in progress, and promote new ideas.
