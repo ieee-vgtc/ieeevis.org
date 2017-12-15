@@ -1,7 +1,7 @@
 ---
 title: SciVis Steering Committee
-layout: main-2017
-permalink: /year/2017/info/committees/scivis-steering-committee
+layout: main-2018
+permalink: /year/2018/info/committees/scivis-steering-committee
 ---
 
 | James Ahrens	| *Los Alamos National Laboratory*
@@ -9,6 +9,5 @@ permalink: /year/2017/info/committees/scivis-steering-committee
 | Issei Fujishiro	| *Keio University*
 | Hans Hagen	| *Technische Universität Kaiserslautern*
 | Han-Wei Shen	| *The Ohio State University*
-| Claudio Silva	| *New York University*
-| Deborah Silver	| *Rutgers University*
-| Anders Ynnerman | *Linköping University* 
+| Claudio T. Silva	| *New York University*
+| Deborah Silver	| *Rutgers University* 
