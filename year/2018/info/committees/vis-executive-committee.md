@@ -15,7 +15,7 @@ permalink: /year/2018/info/committees/vis-executive-committee
 | Lisa Avila| *Kitware<br>(VEC Chair)*
 | Hanspeter Pfister	| *Harvard University<br>(VGTC Director)*
 | James Ahrens	| *Los Alamos National Laboratory<br>(SciVis Steering Rep.)*
-| Miriah Meyer	| *University of Utah<br>(Member at Large)*
+| Miriah Meyer	| *University of Utah<br>(VGTC Vice-Chair)*
 
 **Supporting Documentation**
 
