@@ -4,7 +4,7 @@ layout: main-2018
 permalink: /year/2018/info/committees/vis-executive-committee
 ---
 
-| Jason Dykes | *City University London<br>(InfoVis Steering Rep.)*
+| Jason Dykes | *City, University London<br>(InfoVis Steering Rep.)*
 | Jean-Daniel Fekete	| *Inria<br>(InfoVis Steering Rep.)*
 | Brian Fisher	| *Simon Fraser University<br>(VAST Steering Rep.)*
 | Hans Hagen	| *Technische Universität Kaiserslautern<br>(SciVis Steering Rep.)*
