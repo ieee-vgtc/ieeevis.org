@@ -10,7 +10,7 @@ permalink: /year/2018/info/committees/infovis-steering-committee
 | Jeff Heer	| *University of Washington*
 | Stephen North	| *Infovisible, LLC*
 | Hanspeter Pfister	| *Harvard University*
-| Melanie Tory	| *Tableau Software*
+| Melanie Tory	| *Tableau Research*
 
 **[InfoVis Steering Committee Governance FAQ](/attachments/InfoVis_SC_Policies_FAQ.pdf)**
 
