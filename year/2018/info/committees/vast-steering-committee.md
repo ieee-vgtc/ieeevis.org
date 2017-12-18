@@ -4,7 +4,7 @@ layout: main-2018
 permalink: /year/2018/info/committees/vast-steering-committee
 ---
 
-| Gennady Andrienko | *Fraunhofer IAIS* |
+| Gennady Andrienko | *Fraunhofer IAIS and City University London* |
 | Min Chen	| *Oxford University*
 | Brian Fisher	| *Simon Fraser University*
 | Daniel Keim	| *University of Konstanz*
