@@ -34,6 +34,8 @@ Suggested topics include, but are not limited to:
 
 **Application areas of visualization:** mathematics; physical sciences and engineering; earth, space, and environmental sciences; urban science; business and finance; social and information sciences; education; humanities; multimedia (image/video/music); robotics; sensor networks; cybersecurity; visualization for visualization research; visualization for the masses; terrain visualization; geographic/geospatial visualization; software visualization; bioinformatics; and molecular, biomedical, and medical visualization.
 
+Please note that papers that focus on visual analytics might be a better match for the IEEE VAST Conference at IEEE VIS. Similarly, papers that focus on information visualization might be a better match for the IEEE InfoVis Conference, also at IEEE VIS. The papers co-chairs reserve the right to move papers between these three conferences based on topic and perceived fit.
+
 ## Paper Types
 
 ### Paper Type: Technique
