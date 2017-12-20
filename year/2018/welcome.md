@@ -4,10 +4,6 @@ title: Welcome
 permalink: /year/2018/welcome
 ---
 
-**Quick links**
-
-Did you attend VIS 2017? We'd love to hear your feedback: [https://www.surveymonkey.com/r/V_I_S_2017](https://www.surveymonkey.com/r/V_I_S_2017)
-
 **Welcome to IEEE VIS 2018 in Berlin!**
 
 The IEEE VIS conference comes - for the second time after 2014 - to Europe! Berlin is one of the most vibrant and interesting cities in Europe. It offers many cultural highlights, historic sites, touristic sightseeing as well as plenty of restaurants and entertainment around. Explore this unique city along with attending IEEE VIS! Despite being a hotspot, hotel and restaurant prices are still rather affordable in Berlin.
