@@ -72,7 +72,7 @@ permalink: /year/2018/info/committees/conference-committee
     </tr>
     <tr>
       <td>Petra Isenberg</td>
-      <td>INRIA (InfoVis)</td>
+      <td>Inria (InfoVis)</td>
     </tr>
     <tr>
       <td>Issei Fujishiro</td>
@@ -179,7 +179,7 @@ permalink: /year/2018/info/committees/conference-committee
     </tr>
     <tr>
       <td>Jeremy Boy</td>
-      <td>INRIA</td>
+      <td>Inria</td>
     </tr>
     <tr>
       <td>Till Nagel</td>
