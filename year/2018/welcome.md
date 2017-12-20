@@ -1,14 +1,9 @@
 ---
 layout: main-2018
-title: Welcome
+title: Welcome to IEEE VIS 2018 in Berlin!
 permalink: /year/2018/welcome
 ---
-
-**Quick links**
-
-Did you attend VIS 2017? We'd love to hear your feedback: [https://www.surveymonkey.com/r/V_I_S_2017](https://www.surveymonkey.com/r/V_I_S_2017)
-
-**Welcome to IEEE VIS 2018 in Berlin!**
+IEEE VIS is the worldwide largest and most important conference on Scientific Visualization, Information Visualization and Visual Analytics. It is the premier forum for advances in visualization in academia, science, government, industry, and beyond.
 
 The IEEE VIS conference comes - for the second time after 2014 - to Europe! Berlin is one of the most vibrant and interesting cities in Europe. It offers many cultural highlights, historic sites, touristic sightseeing as well as plenty of restaurants and entertainment around. Explore this unique city along with attending IEEE VIS! Despite being a hotspot, hotel and restaurant prices are still rather affordable in Berlin.
 
