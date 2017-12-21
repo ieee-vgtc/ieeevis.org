@@ -124,3 +124,9 @@ For more information, see the guidelines for [Financial and Coordination Policie
 | Final Submission of Summaries	    | August 1, 2018 |
 
 All deadlines are at **5:00pm Pacific Time (PDT)**.
+
+## Workshop Chairs
+
+* Natalia Andrienko, *Fraunhofer Institute IAIS and City, University of London (VAST)*
+* Jo Wood,	*City, University of London (InfoVis)*
+* Peter Lindstrom,	*Lawrence Livermore National Laboratory (SciVis)*
