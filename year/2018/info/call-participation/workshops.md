@@ -119,7 +119,7 @@ For more information, see the guidelines for [Financial and Coordination Policie
 
 ## IMPORTANT DATES
 
-| Proposal Submission               | February 16, 2018 |
+| Proposal Submission               | February 15, 2018 |
 | Notification                      | March 6, 2018 |
 | Final Submission of Summaries	    | August 1, 2018 |
 
