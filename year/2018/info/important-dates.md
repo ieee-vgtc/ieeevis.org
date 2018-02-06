@@ -17,6 +17,7 @@ permalink: /year/2018/info/important-dates
 | VIS Arts Program submission                          | June 23, 2018 |
 | LDAV full paper submission                           | June 24, 2018 |
 | Papers second round submission                       | June 27, 2018 |
+| BELIV Paper submission                               | June 30, 2018 |
 | Papers final acceptance notification                 | July 11, 2018 |
 | Doctoral colloquium notification                     | July 11, 2018 |
 | VDS paper submission                                 | tba           |
