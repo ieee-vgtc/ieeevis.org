@@ -4,7 +4,7 @@ layout: main-2018
 permalink: /year/2018/capstone
 ---
 
-<img src="../../assets/joachim-buhmann.jpg"
+<img src="/assets/joachim-buhmann.jpg"
   alt="Joachim Buhmann" 
   style="float: right; margin-right: 16px;"
   width="230px" >
