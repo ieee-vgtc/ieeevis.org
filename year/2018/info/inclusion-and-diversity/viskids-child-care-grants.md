@@ -1,7 +1,7 @@
 ---
 title: VisKids Child Care Grants
-layout: main-2017
-permalink: /year/2017/info/exhibition/viskids-child-care-grants
+layout: main-2018
+permalink: /year/2018/info/inclusion-and-diversity/viskids-child-care-grants
 contact: viskids@ieeevis.org
 ---
 
