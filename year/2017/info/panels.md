@@ -28,7 +28,7 @@ Contact: [groeller@cg.tuwien.ac.at](mailto:groeller@cg.tuwien.ac.at)
 
 Scale and scalability have been recurring topics in our field. Recent developments like smart data, machine learning, and advances in domains like biology, cartography, smart communities, and communication pose novel challenges to scalability and use of scale. Examples include support for scale-transparent visual computing, cross-scale visualization and interaction, massive multi-scale techniques, scale integration, cross-scale labeling and annotation, cross scales on structure and dynamics, and continuous scales. 
 
-## <a name="diversity-panel"></a> [Diversity in Visualization](https://youtu.be/-6TmLPPRjqc) 
+## <a name="diversity-panel"></a> [Diversity in Visualization](https://vimeo.com/240582265) 
 Thursday, OCTOBER 5  
 2:00PM-3:40PM 
 Location: TBD
@@ -45,7 +45,7 @@ Contact: [r.s.laramee@swansea.ac.uk](mailto:r.s.laramee@swansea.ac.uk)
 
 This panel will address the lively topic of diversity in the fields of data visualization and visual analytics from gender, cultural, and technological points of view.
 
-## <a name="ml-agenda"></a> [How do Recent Machine Learning Advances Impact the Data Visualization Research Agenda?](http://ieeevis.org) 
+## <a name="ml-agenda"></a> [How do Recent Machine Learning Advances Impact the Data Visualization Research Agenda?](https://vimeo.com/240317738) 
 Thursday, OCTOBER 5  
 10:30AM-12:10PM  
 Location: 207 Lecture Hall  
@@ -97,7 +97,7 @@ Contact: [J.Dykes@city.ac.uk](mailto:J.Dykes@city.ac.uk)
 
 Design study research methodologies emphasize the need for reflection to generate knowledge. We ask six researchers to reflect upon the role of reflection in design studies, as we try to share and develop good practice. Come along to participate in an interactive conversation around reflection, that underpins applied visualization research.
 
-## <a name="vision-science"></a> [Vision Science Meets Visualization](http://ieeevis.org)
+## <a name="vision-science"></a> [Vision Science Meets Visualization](https://vimeo.com/240736387)
 Wednesday, OCTOBER 4  
 2:00PM-3:40PM  
 Location: 101-ABC  
