@@ -10,7 +10,7 @@ contact: scivis_papers@ieeevis.org
 | Hamish Carr | University of Leeds |
 | Baoquan Chen | Shandong University |
 | Min Chen | Oxford University |
-| Paolo Cignoni | ISTI-CNR, Italy |
+| Paolo Cignoni | ISTI-CNR |
 | Joao Luiz Comba | Universidade Federal do Rio Grande do Sul |
 | Harish Doraiswamy | New York University |
 | Alireza Entezari | University of Florida |
@@ -29,7 +29,7 @@ contact: scivis_papers@ieeevis.org
 | Koji Koyamada | Kyoto University |
 | Barbora Kozlikova | Masaryk University |
 | Jens Krüger | University of Duisburg-Essen |
-| Robert S. Laramee | Swansea University, UK |
+| Robert S. Laramee | Swansea University |
 | Joshua Levine | University of Arizona |
 | Aidong Lu | UNC Charlotte |
 | Kwan-Liu Ma | University of California, Davis |
