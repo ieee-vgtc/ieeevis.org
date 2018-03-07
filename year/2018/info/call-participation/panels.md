@@ -29,7 +29,7 @@ We note that submitting similar topics to multiple venues (e.g., panels and work
 
 Submissions should be submitted via [PCS](http://new.precisionconference.com/vgtc/). Please note the [formatting guidelines](http://junctionpublishing.org/vgtc/Tasks/camera.html) when preparing your submission. 
 
-Feel free to address any questions concerning submission, format, and content to panels@ieeevis.org.
+Feel free to address any questions concerning submission, format, and content to [panels@ieeevis.org](mailto:panels@ieeevis.org).
 
 ## PAST PANELS
 Panels will be recorded and posted to Vimeo for archival viewing. Panels from 2017 can be found at [http://ieeevis.org/year/2017/info/panels](http://ieeevis.org/year/2017/info/panels).
