@@ -1138,5 +1138,12 @@
         "href": "", 
         "class": "Silver", 
         "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/IVU_Logo_2017.jpg", 
+        "company": "IVU", 
+        "href": "", 
+        "class": "NonProfit/Small Company/Startup", 
+        "year": 2018
     }
 ]
