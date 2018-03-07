@@ -20,3 +20,5 @@ See "Upload Files" in the top right.
 Add a JSON entry to the end of [the all sponsors file](https://github.com/ieee-vgtc/ieeevis.org/blob/master/js/all_sponsors.json).
 
 There you can specify additional fields including `class` such as `Diamond` and `href` for a link to the sponsor's website.
+
+At this point, the logos should automatically show on staging.
