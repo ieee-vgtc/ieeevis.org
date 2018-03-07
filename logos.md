@@ -15,6 +15,8 @@ Upload logos to the [appropriate year in the supporters folder](https://github.c
 
 See "Upload Files" in the top right.
 
+For convenience, here is a [direct link to the 2018 upload](https://github.com/ieee-vgtc/ieeevis.org/upload/master/attachments/supporters/2018).
+
 # Step 2) modify the logos file
 
 Add a JSON entry to the end of [the all sponsors file](https://github.com/ieee-vgtc/ieeevis.org/blob/master/js/all_sponsors.json).
