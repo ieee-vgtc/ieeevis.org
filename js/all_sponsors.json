@@ -1142,8 +1142,36 @@
     {
         "src": "/attachments/supporters/2018/IVU_Logo_2017.jpg", 
         "company": "IVU", 
-        "href": "", 
+        "href": "https://www.ivu.de", 
         "class": "NonProfit/Small Company/Startup", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/DKRZ-Logo_mitUnterzeile.jpg", 
+        "company": "DKRZ", 
+        "href": "https://www.dkrz.de", 
+        "class": "Bronze", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/dr-logo-red.pdf", 
+        "company": "Disney Research", 
+        "href": "https://www.disneyresearch.com", 
+        "class": "Non-profit/Publisher", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/think-cell_logo_vis2018_grau_screen.png", 
+        "company": "think-cell", 
+        "href": "https://www.think-cell.com/de/", 
+        "class": "Gold", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/OVGU_SIGN_web_Farbig.jpg", 
+        "company": "OvGU", 
+        "href": "http://www.ovgu.de", 
+        "class": "Financial Co-Sponsor", 
         "year": 2018
     }
 ]
