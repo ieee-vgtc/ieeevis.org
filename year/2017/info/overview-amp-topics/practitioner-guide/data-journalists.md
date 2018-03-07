@@ -22,6 +22,7 @@ A live hackathon to scientific data discovery. You’ll leave the workshop with 
 * *Workshop* - **[Visualization for the Digital Humanities](http://vis4dh.dbvis.de/)** - The purpose of this workshop is to propose new research directions in visualization for the digital humanities, to familiarize the visualization research community with the problems faced by digital humanities researchers, and to foster future collaboration between visualization and digital humanities research.
 
 #### Tuesday
+
 * *Paper Session* - **Techniques** - 2:00pm-3:40pm, Room: 301-D
   * Visualizing Nonlinear Narratives with Story Curves
   * MyBrush: Brushing and Linking with Personal Agency
@@ -40,7 +41,6 @@ A live hackathon to scientific data discovery. You’ll leave the workshop with 
   * Priming and Anchoring Effects in Visualizations
   * Evaluating Interactive Graphical Encodings for Data Visualization
  
-
 * *Paper Session* - **Design** - 10:30am-12:10pm, Room: 301-D
   * Scatterplots: Tasks, Data, and Designs
   * Considerations for Visualizing Comparison
@@ -73,6 +73,7 @@ A live hackathon to scientific data discovery. You’ll leave the workshop with 
 
  
 #### Friday
+
 * *Paper Session* - **Evaluation** - 8:30am-10:10am, Room: 105-ABC
   * Imagining Replications: Graphical Prediction & Discrete Visualizations Improve Recall & Estimation of Effect Uncertainty 
   * A Systematic Review of Experimental Studies on Data Glyphs
