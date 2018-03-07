@@ -7,4 +7,5 @@ done
 # Move straggling pages
 
 mv _site/instructions.html _site/instructions
+mv _site/logos.html _site/logos
 
