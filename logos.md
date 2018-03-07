@@ -26,3 +26,4 @@ There you can specify additional fields including `class` such as `Diamond` and 
 Convenience link: [direct link to editing all sponsors](https://github.com/ieee-vgtc/ieeevis.org/edit/master/js/all_sponsors.json).
 
 At this point, the logos should automatically show on staging.
+
