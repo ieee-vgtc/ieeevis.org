@@ -111,7 +111,7 @@ All authors will receive reviews of their submission explaining the decision and
 
 ### BEST POSTER AWARDS
 
-The chairs of each conference will award a 'Best Poster' prize to the authors of what is deemed the strongest submission to the conference according to the reviewing criteria. 'Best Poster' authors will receive a signed certificate. Test.
+The chairs of each conference will award a 'Best Poster' prize to the authors of what is deemed the strongest submission to the conference according to the reviewing criteria. 'Best Poster' authors will receive a signed certificate.
 
 ### CHAIRS
 
