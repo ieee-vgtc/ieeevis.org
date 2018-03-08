@@ -1142,7 +1142,7 @@
     {
         "src": "/attachments/supporters/2018/think-cell_logo_vis2018_grau_screen.png", 
         "company": "think-cell", 
-        "href": "https://www.think-cell.com/de/", 
+        "href": "https://www.think-cell.com/developers", 
         "class": "Gold", 
         "year": 2018
     },
@@ -1173,5 +1173,5 @@
         "href": "https://www.disneyresearch.com", 
         "class": "Non-Profit/Publisher", 
         "year": 2018
-    },
+    }
 ]
