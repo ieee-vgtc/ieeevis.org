@@ -18,6 +18,7 @@ Topics can include--but are not limited to--any of those listed in the calls for
 [InfoVis](/year/2018/info/call-participation/infovis-paper-types), and 
 [SciVis](/year/2018/info/call-participation/scivis-paper-types). 
 Tutorials with an application focus and including hands-on demos are also encouraged.
+Successful proposals will receive up to 2 complimentary full week conference registrations for tutorial presenters.
 
 ## TUTORIAL DETAIL
 
