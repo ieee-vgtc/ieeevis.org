@@ -1133,10 +1133,45 @@
         "year": 2018
     },
     {
+        "src": "/attachments/supporters/2018/think-cell_logo_vis2018_grau_screen.png", 
+        "company": "think-cell", 
+        "href": "https://www.think-cell.com/developers", 
+        "class": "Gold", 
+        "year": 2018
+    },
+    {
         "src": "/attachments/supporters/2018/converted/bosch.png", 
         "company": "Bosch", 
         "href": "", 
         "class": "Silver", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/DKRZ-Logo_mitUnterzeile.jpg", 
+        "company": "DKRZ", 
+        "href": "https://www.dkrz.de", 
+        "class": "Bronze", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/IVU_Logo_2017.jpg", 
+        "company": "IVU", 
+        "href": "https://www.ivu.de", 
+        "class": "Startup / Small Company", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/dr-logo-red_converted.png", 
+        "company": "Disney Research",
+        "href": "https://www.disneyresearch.com", 
+        "class": "Non-Profit / Publisher / Academic", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/OVGU_SIGN_web_Farbig.jpg", 
+        "company": "OvGU", 
+        "href": "http://www.ovgu.de", 
+        "class": "Financial Co-Sponsor", 
         "year": 2018
     }
 ]

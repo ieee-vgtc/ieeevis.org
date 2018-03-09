@@ -19,7 +19,7 @@ Topics can include--but are not limited to--any of those listed in the calls for
 [SciVis](/year/2018/info/call-participation/scivis-paper-types). 
 Tutorials with an application focus and including hands-on demos are also encouraged.
 
-## TUTORIAL DETAIL
+## DETAILS
 
 Proposals will be evaluated on the basis of the tutorial’s importance and suitability for presentation in a tutorial format, 
 the past experience and qualifications of the instructors, the overall balance in the tutorial program, and the likely attendance 

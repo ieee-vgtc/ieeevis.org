@@ -78,12 +78,12 @@ A live hackathon to scientific data discovery. You’ll leave the workshop with 
 
  
 #### Friday
+
 * *Paper Session* - **ML3: Classification** - 8:30am-10:10am, Room: 102-ABC
   * Do Convolutional Neural Networks learn Class Hierarchy?
   * Visual Diagnosis of Tree Boosting Methods
   * A Workflow for Visual Diagnostics of Binary Classifiers using Instance-Level Explanations
   * TreePOD: Sensitivity-Aware Selection of Pareto-Optimal Decision Trees
-
 
 -----
 *** 

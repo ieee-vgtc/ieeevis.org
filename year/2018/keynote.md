@@ -4,7 +4,7 @@ layout: main-2018
 permalink: /year/2018/keynote
 ---
 
-<img src="../../assets/dieter-schmalstieg.jpg"
+<img src="/assets/dieter-schmalstieg.jpg"
   alt="dieter schmalstieg" 
   style="float: right; margin-right: 16px;"
   width="230px" >
