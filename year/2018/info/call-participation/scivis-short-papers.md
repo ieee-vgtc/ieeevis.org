@@ -21,10 +21,9 @@ Authors of accepted short papers may subsequently submit to TVCG (the journal, n
 
 All deadlines are at **5:00pm Pacific Time (PDT)**.
 
-
 ### SciVis Short Papers Co-Chairs
 
 * Gordon Kindlmann, *University of Chicago, USA*
-* Luis Gustavo Nonato, *Universidade de São Paulo, Brazil*
+* Luis Gustavo Nonato, *Universidade de Sao Paulo, Brazil*
 
 Email: [scivis_shortpapers@ieeevis.org](mailto:scivis_shortpapers@ieeevis.org)
