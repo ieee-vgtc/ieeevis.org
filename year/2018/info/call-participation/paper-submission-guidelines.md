@@ -18,6 +18,10 @@ All conferences at IEEE VIS use similar submission and review processes. Please 
 
 All three conferences at IEEE VIS use the [Precision Conference System (PCS)](https://new.precisionconference.com/vgtc) to handle their submission and reviewing process. When submitting your manuscript, please make sure that you submit it to your intended conference by clicking the appropriate conference header in the conference system landing page. If you are unsure which venue you should submit to, you can use the paper types and topics on this website ([VAST](vast-paper-types), [InfoVis](infovis-paper-types), and [SciVis](scivis-paper-types)), as well as last year’s published proceedings as a guideline.
 
+## Formatting and Language Guidelines
+
+Papers must follow the [formatting guidelines for IEEE VIS *TVCG* Journal submissions](http://junctionpublishing.org/vgtc/Track/vis-tvcg.html). Papers should include full-color figures throughout and we encourage authors to showcase their work with annotated, well described, large, and detailed graphics. We also encourage the placement of a teaser image at the top of the very first page to showcase your work visually. IEEE VIS reviewers appreciate high-quality submissions with correct English spelling and grammar, so non-native English speakers may wish to enlist an English language editing service.
+
 ## Submission Criteria
 
 # Topic Area
@@ -45,10 +49,6 @@ At the time of submission, it is required by the authors to state explicitly in 
 All VIS papers undergo a rigorous review process involving at least four reviewers over several rounds of reviewing. However, before peer review begins, papers may be moved to another conference at the discretion of the co-chairs for the individual conferences. In such a case, the authors will be contacted about this change. At this time, a paper may also be *desk rejected—rejected* outright before it enters peer review—by the papers chairs if they determine that the submission is clearly out of scope for the VIS conferences, is written using poor language that precludes effective communication, does not follow the formatting guidelines, or is otherwise not appropriate. 
 
 All decisions after the first round of reviews are either *conditional acceptances* or *rejections*. Virtually all conditionally accepted papers come with written requirements for final acceptance. Effectively addressing these requirements in a second round version of the paper is essential and the responsibility of the authors. Reviewers may sometimes communicate directly with authors to address minor points in the revised paper, effectively allowing for additional reviewing rounds. However, such additional communication is at the discretion of reviewers and not a requirement. If the revised version of a paper fails to address feedback to the satisfaction of the reviewers, the paper will ultimately be rejected after the second reviewing round.
-
-## Formatting and Language Guidelines
-
-Papers must follow the [formatting guidelines for IEEE VIS *TVCG* Journal submissions](http://junctionpublishing.org/vgtc/Track/vis-tvcg.html). Papers should include full-color figures throughout and we encourage authors to showcase their work with annotated, well described, large, and detailed graphics. We also encourage the placement of a teaser image at the top of the very first page to showcase your work visually. IEEE VIS reviewers appreciate high-quality submissions with correct English spelling and grammar, so non-native English speakers may wish to enlist an English language editing service.
 
 ## Page Length Restrictions
 
