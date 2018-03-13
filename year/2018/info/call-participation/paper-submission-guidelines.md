@@ -3,8 +3,23 @@ title: IEEE VIS Paper Submission Guidelines
 layout: main-2018
 permalink: /year/2018/info/call-participation/paper-submission-guidelines
 ---
+All conferences at IEEE VIS use similar submission and review processes. Please read the individual paper types and topics documents for each of the conferences here: VAST, InfoVis, and SciVis. Make sure that you carefully read the guidelines below before submitting your paper. This page lists the most important submission guidelines.
 
-All conferences at IEEE VIS use similar submission and review processes. Please read the individual paper types and topics documents for each of the conferences here: VAST, InfoVis, and SciVis. Make sure that you carefully read the guidelines below before submitting your paper. Here is a summary of the most important submission guidelines:
+## Contents
+
+- [Important Submission Requirements](#important-submission-requirements)
+- [Submission System](#submission-system)
+- [Formatting and Language Guidelines](#formatting-and-language-guidelines)
+- [Topic Area](#topic-area)
+- [Anonymization](#anonymization)
+- [Abstract Submission](#abstract-submission)
+- [Plagiarism](#plagiarism)
+- [Review Process](#review-process)
+- [Page Length Restrictions](#page-length-restrictions)
+- [Supplemental Material](#supplemental-material)
+- [Resubmitting Rejected Papers](#resubmitting-rejected-papers)
+- [General Expectations](#general-expectations)
+- [Ethics Guidelines](#ethics-guidelines)
 
 ## Important Submission Requirements
 
