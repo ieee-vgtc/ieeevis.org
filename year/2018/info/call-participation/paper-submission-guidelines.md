@@ -1,5 +1,5 @@
 ---
-title: IEEE VIS Submission Guidelines
+title: IEEE VIS Paper Submission Guidelines
 layout: main-2018
 permalink: /year/2018/info/call-participation/paper-submission-guidelines
 ---
