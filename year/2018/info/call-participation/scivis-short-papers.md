@@ -1,10 +1,9 @@
 ---
 title: IEEE SciVis 2018 - Short Paper Call for Participation
 layout: main-2018
-permalink: /year/2018/info/call-participation/scivis-paper-types
+permalink: /year/2018/info/call-participation/scivis-short-papers
 contact: scivis_shortpapers@ieeevis.org
---
-
+---
 
 For the first time, the 2018 **IEEE Scientific Visualization (SciVis)** conference solicits submissions in a new short paper format.  Short papers offer a new way to contribute recent results and preliminary work to the VIS conference, which may be especially valuable for younger researchers. Accepted short papers will be presented at the VIS conference, in a 10 minute presentation (half the 20 minute full paper presentation).
 
@@ -22,10 +21,9 @@ Authors of accepted short papers may subsequently submit to TVCG (the journal, n
 
 All deadlines are at **5:00pm Pacific Time (PDT)**.
 
-
 ### SciVis Short Papers Co-Chairs
 
 * Gordon Kindlmann, *University of Chicago, USA*
-* Luis Gustavo Nonato, *Universidade de São Paulo, Brazil*
+* Luis Gustavo Nonato, *Universidade de Sao Paulo, Brazil*
 
 Email: [scivis_shortpapers@ieeevis.org](mailto:scivis_shortpapers@ieeevis.org)
