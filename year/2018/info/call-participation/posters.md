@@ -17,7 +17,7 @@ In addition to a poster being displayed throughout IEEE VIS
   attendants)
 * interactive poster sessions will provide a forum for presenting your
   work and discussing new ideas with your peers
-* [video previews](/year/2018/info/presenter-information/video-previews)
+* [video previews](https://vimeo.com/groups/480818/videos)
   for posters are strongly suggested
 * one presenter per poster will be eligible for the reduced
   conference rate for authors
@@ -75,7 +75,7 @@ Visit the [Posters FAQ](/year/2018/info/call-participation/posters-faq) page for
 All IEEE VIS poster submissions should be made through a single
 submission category on PCS - IEEE VIS Poster.
 
-After logging into PCS at [https://precisionconference.com/~vgtc/](https://precisionconference.com/~vgtc/), start your submission by selecting "IEEE VIS Posters 2018" and then select the conference to which you are submitting a poster:
+After logging into PCS at [https://new.precisionconference.com/vgtc](https://new.precisionconference.com/vgtc), start your submission by selecting "IEEE VIS Posters 2018" and then select the conference to which you are submitting a poster:
 
 * Scientific Visualization (SciVis) - for conference themes see  
   [IEEE SciVis 2018 – Topics and Paper Types](/year/2018/info/call-participation/scivis-paper-types)
@@ -91,7 +91,7 @@ After logging into PCS at [https://precisionconference.com/~vgtc/](https://preci
 | Submission Deadline				| **Saturday, June 16, 2018**
 | Notification of Acceptance			| **Sunday, July 22, 2018**
 | Final Submission of Camera Ready Summaries	| **Wednesday, August 1, 2018**
-| Submission of Video Previews			| **Sunday, August 5, 2018** (see also [Video Previews](/year/2018/info/presenter-information/video-previews))
+| Submission of Video Previews			| **Sunday, August 5, 2018** (see also [Video Previews](https://vimeo.com/groups/480818/videos))
 
 All deadlines are at **5:00pm Pacific Time (PDT)**.
 
