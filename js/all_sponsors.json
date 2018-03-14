@@ -1128,7 +1128,7 @@
     {
         "src": "/attachments/supporters/2018/converted/dfg.png", 
         "company": "DFG", 
-        "href": "http://www.dfg.de", 
+        "href": "http://www.dfg.de/en/index.jsp", 
         "class": "Diamond", 
         "year": 2018
     },
@@ -1142,7 +1142,7 @@
     {
         "src": "/attachments/supporters/2018/converted/bosch.png", 
         "company": "Bosch", 
-        "href": "https://www.boschresearch.com/", 
+        "href": "http://www.boschresearch.com/", 
         "class": "Gold", 
         "year": 2018
     },
@@ -1156,7 +1156,7 @@
     {
         "src": "/attachments/supporters/2018/IVU_Logo_2017.jpg", 
         "company": "IVU", 
-        "href": "https://www.ivu.de", 
+        "href": "https://www.ivu.com", 
         "class": "Startup / Small Company", 
         "year": 2018
     },
@@ -1170,7 +1170,7 @@
     {
         "src": "/attachments/supporters/2018/OVGU_SIGN_web_Farbig.jpg", 
         "company": "OvGU", 
-        "href": "http://www.ovgu.de", 
+        "href": "http://www.ovgu.de/en/", 
         "class": "Financial Co-Sponsor", 
         "year": 2018
     }
