@@ -1,7 +1,7 @@
 ---
 title: Travel Directions
-layout: main-2017
-permalink: /year/2017/info/registration/travel-directions
+layout: main-2018
+permalink: /year/2018/info/registration/travel-directions
 contact: "web@ieeevis.org"
 ---
 

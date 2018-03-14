@@ -1,7 +1,7 @@
 ---
 title: Room and Ride Sharing
-layout: main-2017
-permalink: /year/2017/info/registration/sharing
+layout: main-2018
+permalink: /year/2018/info/registration/sharing
 contact: "web@ieeevis.org"
 ---
 
