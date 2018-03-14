@@ -1,7 +1,7 @@
 ---
 title: Hotel Information
-layout: main-2017
-permalink: /year/2017/info/registration/hotel-information
+layout: main-2018
+permalink: /year/2018/info/registration/hotel-information
 contact: "web@ieeevis.org"
 ---
 

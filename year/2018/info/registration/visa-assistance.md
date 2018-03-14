@@ -1,7 +1,7 @@
 ---
 title: Visa Assistance
-layout: main-2017
-permalink: /year/2017/info/registration/visa-assistance
+layout: main-2018
+permalink: /year/2018/info/registration/visa-assistance
 ---
 
 If you are planning to attend VIS 2017 and will need a visa, we encourage you to visit the [U.S. visa policy website](https://travel.state.gov/content/visas/en.html) for updates on visa procedures and applications. Please allow ample time for visa processing.
