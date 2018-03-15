@@ -29,9 +29,9 @@ compared to city centers.
 * Further information on the bid process is in Section IV of the VEC Charter, and further information on how
 the roster of front-line organizers is determined in conjunction between the VEC, the conference steering
 committees, and the GCs is in the Appendix. See http://ieeevis.org/attachments/vec_charter.pdf
-* In 2017 the VEC Chair is Tamara Munzner (vec_chair@ieeevis.org) and the IEEE Liaison is Nicole Finn
+* In 2018 the VEC Chair is Lisa Avila (vec_chair@ieeevis.org) and the IEEE Liaison is Nicole Finn
 (eventplanner@ieeevis.org). The full VEC (vec@ieeevis.org) membership is listed at
-http://ieeevis.org/year/2017/info/committees/vis-executive-committee
+http://ieeevis.org/year/2018/info/committees/vis-executive-committee
 * In the schedule below, one week means five business days (Monday to Friday).
 
 ## Procedure Overview
