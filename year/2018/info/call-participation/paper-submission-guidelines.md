@@ -3,7 +3,7 @@ title: IEEE VIS Paper Submission Guidelines
 layout: main-2018
 permalink: /year/2018/info/call-participation/paper-submission-guidelines
 ---
-All conferences at IEEE VIS use similar submission and review processes. Please read the individual paper types and topics documents for each of the conferences here: [VAST](vast-paper-types), [InfoVis](infovis-paper-types), and [SciVis](scivis-paper-types). Make sure that you carefully read the guidelines below before submitting your paper. Here is a summary of the most important submission guidelines:
+All conferences at IEEE VIS use similar submission and review processes. Please read the individual paper types and topics documents for each of the conferences here: [VAST](vast-paper-types), [InfoVis](infovis-paper-types), and [SciVis](scivis-paper-types). Make sure that you carefully read the guidelines below before submitting your paper.
 
 ## Contents
 
