@@ -23,6 +23,7 @@ All deadlines are at **5:00pm Pacific Time (PDT)**.
 
 ### SciVis Short Papers Co-Chairs
 
+* Berk Geveci, *Kitware Inc., USA*
 * Gordon Kindlmann, *University of Chicago, USA*
 * Luis Gustavo Nonato, *Universidade de Sao Paulo, Brazil*
 
