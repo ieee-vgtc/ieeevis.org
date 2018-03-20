@@ -20,7 +20,7 @@ The Estrel Hotel and Congress Center is located in the district Berlin-Neukölln
 
 Berlin is a vibrant city and one of the most interesting cities in Europe. It offers many cultural highlights, touristic sightseeing as well as plenty of restaurants and entertainment around.
 
-Find more information about the city of Berlin under this link: <a href="https://www.visitberlin.de/en/sightseeing-in-berlin">https://www.visitberlin.de</a>.
+Find more information about the city of Berlin under this link: <a href="https://www.visitberlin.de/en/sightseeing-in-berlin">www.visitberlin.de</a>.
 
 Berlin is well connected with all major airlines. It is well reachable from all over the world. The local public transport network consists of several integrated systems. These include the U-Bahn and S-Bahn urban rail systems, regional railway services, a tramway system, a bus network and a number of ferry services.
 
