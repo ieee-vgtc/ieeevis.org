@@ -12,7 +12,7 @@ The conference rate is €138/night for single occupancy and €150/night for do
 Staying in the conference hotel has a lot of advantages not only for the participants. Having occupied many rooms improves renting conditions of the conference facilities and is therefore good for the whole conference. In particular, it may allow better onsite food and beverage covering. Because of this, we ask you to book the hotel only via the link below.
 
 In order to make a reservation at Estrel Berlin under the conference rate, click the reservation button.
-<p class="ieeevis-btn-wrapper"><a href="https://reservations.travelclick.com/17417?groupID=1783758" class="ieeevis-btn">Make a Reservation</a></p>
+<p class="ieeevis-btn-wrapper"><a href="https://reservations.travelclick.com/17417?groupID=1783758" class="ieeevis-btn">Book your VIS 2018 hotel room</a></p>
 
 Address: Hotel Estrel Berlin, Sonnenallee 225, 12057 Berlin, Germany
 
