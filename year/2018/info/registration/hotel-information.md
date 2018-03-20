@@ -5,7 +5,7 @@ permalink: /year/2018/info/registration/hotel-information
 contact: "web@ieeevis.org"
 ---
 
-In 2018, IEEE VIS takes place at <a href="http://www.estrel.com/en/home.html">Estrel Hotel & Congress Center in Berlin, Germany</a>. Estrel Berlin is Germany’s largest hotel and it is connected with several spacious and modern conference rooms.
+In 2018, IEEE VIS takes place at <a href="http://www.estrel.com/en/home.html">Estrel Hotel & Congress Center in Berlin</a>,  Germany. Estrel Berlin is Germany’s largest hotel and it is connected with several spacious and modern conference rooms.
 
 The conference rate is €138/night for single occupancy and €150/night for double occupancy (including tax, not including breakfast). The cutoff date for reservations under this rate is July 27, 2018. After this date, we cannot guarantee availability of the hotel rooms for the specified conditions.
 
