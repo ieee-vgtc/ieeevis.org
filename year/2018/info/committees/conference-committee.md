@@ -165,6 +165,10 @@ permalink: /year/2018/info/committees/conference-committee
       <th colspan='2'>SciVis Short Papers Chairs</th>
       <th>&nbsp;</th>
     </tr>
+     <tr>
+      <td>Berk Geveci</td>
+      <td>Kitware Inc.</td>
+    </tr>
     <tr>
       <td>Gordon Kindlmann</td>
       <td>University of Chicago</td>
