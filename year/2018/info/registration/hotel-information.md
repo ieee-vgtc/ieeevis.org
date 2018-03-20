@@ -13,7 +13,7 @@ Staying in the conference hotel has a lot of advantages not only for the partici
 
 In order to make a reservation at Estrel Berlin under the conference rate, click the button below.
 
-<p class="ieeevis-btn-wrapper"><a href="https://reservations.travelclick.com/17417?groupID=1783758" class="ieeevis-btn">Make a Reservation</a></p>
+<a href="https://reservations.travelclick.com/17417?groupID=1783758" class="ieeevis-btn">Make a Reservation</a>
 
 Address: Hotel Estrel Berlin, Sonnenallee 225, 12057 Berlin, Germany
 
@@ -21,7 +21,7 @@ The Estrel Hotel and Congress Center is located in the district Berlin-Neukölln
 
 Berlin is a vibrant city and one of the most interesting cities in Europe. It offers many cultural highlights, touristic sightseeing as well as plenty of restaurants and entertainment around.
 
-<a href="https://www.visitberlin.de/en/sightseeing-in-berlin">https://www.visitberlin.de/en/sightseeing-in-berlin</a>
+Find more information about the city of Berlin <a href="https://www.visitberlin.de/en/sightseeing-in-berlin">here</a>.
 
 Berlin is well connected with all major airlines. It is well reachable from all over the world. The local public transport network consists of several integrated systems. These include the U-Bahn and S-Bahn urban rail systems, regional railway services, a tramway system, a bus network and a number of ferry services.
 
