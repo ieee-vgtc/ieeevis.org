@@ -6,7 +6,7 @@ permalink: /year/2018/info/call-participation/scivis-paper-types
 
 The **IEEE Scientific Visualization (SciVis)** conference solicits novel research ideas and innovative applications in all areas of scientific visualization. The scope of the conference, co-located at VIS with the annual [IEEE Visual Analytics](vast-paper-types) and [IEEE Information Visualization](infovis-paper-types) Conferences, includes both fundamental research contributions within scientific visualization, as well as advances toward understanding or solving real world problems, or that impact a particular application in a significant way.
 
-For the first time, IEEE SciVis 2018 will feature a separate short papers track with a submission deadline of June 13, 2018, i.e., after notifications for full papers have been sent out. Watch this space for further updates and links to the call for participation for IEEE SciVis short papers. 
+For the first time, IEEE SciVis 2018 will feature a separate short papers track with a submission deadline of June 13, 2018, i.e., after notifications for full papers have been sent out. This is the call for participation for [IEEE SciVis short papers](scivis-short-papers).
 
 This call for participation is for [regular full paper submissions](call-for-participation) (with abstract deadline of March 21, 2018, and paper deadline of March 31, 2018) 
 
