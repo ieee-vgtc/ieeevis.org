@@ -3,7 +3,7 @@ title: IEEE VIS Paper Submission Guidelines
 layout: main-2018
 permalink: /year/2018/info/call-participation/paper-submission-guidelines
 ---
-All conferences at IEEE VIS use similar submission and review processes. Please read the individual paper types and topics documents for each of the conferences here: [VAST](vast-paper-types), [InfoVis](infovis-paper-types), and [SciVis](scivis-paper-types). Make sure that you carefully read the guidelines below before submitting your paper. Here is a summary of the most important submission guidelines:
+All conferences at IEEE VIS use similar submission and review processes. Please read the individual paper types and topics documents for each of the conferences here: [VAST](vast-paper-types), [InfoVis](infovis-paper-types), and [SciVis](scivis-paper-types). Make sure that you carefully read the guidelines below before submitting your paper.
 
 ## Contents
 
@@ -23,7 +23,7 @@ All conferences at IEEE VIS use similar submission and review processes. Please 
 
 ## Important Submission Requirements
 
-* Abstract vs. full deadline - submission information (title, abstract, authors, keywords) are due on **March 21**, and full papers with supplemental material are due on **March 31**.
+* Abstract vs. full deadline - submission information (title, abstract, authors) are due on **March 21**, and full papers with supplemental material are due on **March 31**.
 * 9+2 page restriction - VIS papers are **strictly** limited to 9 pages of content plus an additional 2 pages of references. Papers may be shorter than this but must make a similar contribution to a longer paper.
 * Resubmissions encouraged - authors are encouraged to include reviews and responses for previously rejected papers in their submission to IEEE VIS.
 * Optional single-blind or double-blind - reviewers’ identities are not revealed. Authors may choose whether to anonymize their submission or not.
@@ -47,7 +47,7 @@ All three conferences at IEEE VIS allow both single-blind (not anonymized) as we
 
 # Abstract submission
 
-Note that submission of an abstract for each paper is **mandatory** by March 21, and full papers with all supplemental material are due on March 31. Late submissions, or submissions without a previously submitted abstract, will not be allowed. Furthermore, submission information—including title, abstract, keywords, and author—**MUST** be complete by the abstract deadline on March 21. In particular, adding authors after the abstract deadline is not allowed. The author information is used for detecting conflicts of interest when assigning papers to program committee members and reviewers, so it must be complete by the time abstracts are submitted.
+Note that submission of an abstract for each paper is **mandatory** by March 21, and full papers with all supplemental material are due on March 31. Late submissions, or submissions without a previously submitted abstract, will not be allowed. Furthermore, submission information—including title, abstract, and author—**MUST** be complete by the abstract deadline on March 21. In particular, adding authors after the abstract deadline is not allowed. The author information is used for detecting conflicts of interest when assigning papers to program committee members and reviewers, so it must be complete by the time abstracts are submitted.
 
 # Plagiarism
 
