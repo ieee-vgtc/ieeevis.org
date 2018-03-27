@@ -60,6 +60,12 @@
         "year": 2011
     }, 
     {
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/VelirLogo_3-colorPMS.jpg", 
+        "href": "http://www.velir.com/", 
+        "class": "Silver", 
+        "year": 2011
+    }, 
+    {
         "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/ak_peters.jpg", 
         "href": "http://www.akpeters.com/", 
         "class": "Publisher", 
@@ -1140,7 +1146,7 @@
         "year": 2018
     },
     {
-        "src": "/attachments/supporters/2018/think-cell_logo_vis2018_grau_screen.png", 
+        "src": "/attachments/supporters/2018/think-cell_transparent_screen.png", 
         "company": "think-cell", 
         "href": "https://www.think-cell.com/developers", 
         "class": "Gold", 
@@ -1149,7 +1155,14 @@
     {
         "src": "/attachments/supporters/2018/DKRZ-Logo_mitUnterzeile.jpg", 
         "company": "DKRZ", 
-        "href": "https://www.dkrz.de", 
+        "href": "https://www.dkrz.de/dkrz-partner-for-climate-research?set_language=en&cl=en", 
+        "class": "Bronze", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/3D_Interactive_Logo_Final_RGB-01.png", 
+        "company": "3dInteractive", 
+        "href": "http://www.3dinteractive.de/", 
         "class": "Bronze", 
         "year": 2018
     },
