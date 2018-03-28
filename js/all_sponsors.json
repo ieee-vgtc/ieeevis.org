@@ -1138,14 +1138,7 @@
         "class": "Diamond", 
         "year": 2018
     },
-   {
-        "src": "/attachments/supporters/2018/Bayer_screen_RGB.png", 
-        "company": "Bayer", 
-        "href": "https://www.bayer.com/", 
-        "class": "Gold", 
-        "year": 2018
-    },
-    {
+       {
         "src": "/attachments/supporters/2018/converted/bosch.png", 
         "company": "Bosch", 
         "href": "http://www.boschresearch.com/", 
@@ -1156,6 +1149,13 @@
         "src": "/attachments/supporters/2018/think-cell_transparent_screen.png", 
         "company": "think-cell", 
         "href": "https://www.think-cell.com/developers", 
+        "class": "Gold", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/Bayer_screen_RGB.png", 
+        "company": "Bayer", 
+        "href": "https://www.bayer.com/", 
         "class": "Gold", 
         "year": 2018
     },
