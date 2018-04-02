@@ -1,3 +1,10 @@
+----
+-title: InfoVis Program Committee
+-layout: main-2018
+-permalink: /year/2018/info/committees/infovis-program-committee
+-contact: infovis_papers@ieeevis.org
+----
+
 Bilal   Alsallakh,   Bosch
 
 Natalia Andrienko,   Fraunhofer Institute IAIS
