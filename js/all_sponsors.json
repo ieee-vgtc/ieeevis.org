@@ -1166,6 +1166,20 @@
         "year": 2018
     },
     {
+        "src": "/attachments/supporters/2018/KAUST_logo-right-big.png", 
+        "company": "KAUST", 
+        "href": "https://vcc.kaust.edu.sa/Pages/Home.aspx ", 
+        "class": "Silver", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/ms-logo.png", 
+        "company": "Microsoft Research", 
+        "href": "https://www.microsoft.com/en-us/research/", 
+        "class": "Silver", 
+        "year": 2018
+    },
+      {
         "src": "/attachments/supporters/2018/DKRZ-Logo_mitUnterzeile.jpg", 
         "company": "DKRZ", 
         "href": "https://www.dkrz.de/dkrz-partner-for-climate-research?set_language=en&cl=en", 
