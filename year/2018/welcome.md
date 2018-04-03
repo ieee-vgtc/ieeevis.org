@@ -13,7 +13,7 @@ The conference will be held **21-26 October 2018** in the Estrel Hotel Berlin. I
 We invite you to participate in IEEE Visual Analytics Science and Technology (VAST), IEEE Information Visualization (InfoVis), and IEEE Scientific Visualization (SciVis), or one of the many additional events by sharing your research, insights, experience, and enthusiasm.
 
 ***VIS 2018 General Chair***  
-Holger Theisel, *University of MAGDEBURG*
+Holger Theisel, *University of Magdeburg*
 
 ----
 
