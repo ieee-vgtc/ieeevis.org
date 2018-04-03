@@ -4,129 +4,66 @@ layout: main-2018
 permalink: /year/2018/info/committees/infovis-program-committee
 contact: infovis_papers@ieeevis.org
 ---
-
-Bilal   Alsallakh,   Bosch
-
-Natalia Andrienko,   Fraunhofer Institute IAIS
-
-Benjamin    Bach,   University of Edinburgh
-
-Rahul   Basole,   Georgia Tech
-
-Leslie  Blaha,   PNNL
-
-Rita    Borgo,   Swansea University
-
-Michelle    Borkin,   Northeastern University
-
-Jeremy  Boy,   United Nations
-
-Matthew Brehmer,   Microsoft Research
-
-Michael Burch,   TUE
-
-Nan Cao,   TongJi University
-
-Michael Correll,   Tableau
-
-Weiwei  Cui,   MSR China
-
-Pierre  Dragicevic,   INRIA
-
-Jean-Daniel Fekete,   Inria
-
-Danyel  Fisher,   Microsoft Research
-
-Angus   Forbes,   UCSC
-
-Nils    Gehlenborg,   Harvard
-
-Michael Gleicher,   University of Wisconsin
-
-Sarah   Goodwin,   RMIT
-
-Carsten Goerg,   University of Colorado
-
-Lane    Harrison,   Worcester Polytechnic Institute
-
-Helwig  Hauser,   University of Bergen
-
-Marti   Hearst,   UC Berkeley
-
-Nathalie    Henry-Riche,   Microsoft Research
-
-Jessica Hullman,   University of Washington
-
-Samuel  Huron,   Telecom ParisTech
-
-Kate    Isaacs,   University of Arizona
-
-Yvonne  Jansen,   CNRS
-
-Daniel  Keim,   Universiteit Konstanz
-
-Stephen Kobourov,   University of Arizona
-
-Bum Chul    Kwon,   IBM Research
-
-Heidi   Lam,   Tableau Software
-
-Bongshin    Lee,   Microsoft Research
-
-Liu Zhicheng,   Adobe
-
-Ross    Maciejewski,   Arizona State University
-
-Rosane  Minghim,   Universidade de Sao Paulo
-
-Alvitta Ottley,   Washington University in St. Louis
-
-Charles Perin,   City University London
-
-Helen   Purchase,   Glasgow
-
-Penny   Rheingans,   UMBC
-
-Bernice Rogowitz,   Visual Perspectives Consulting
-
-Arvind  Satyanarayan,   MIT
-
-Karen   Schloss,   University of Wisonsin
-
-Heidrun Schumann,   University of Rostock
-
-Michael Sedlmair,   University of Vienna
-
-Jinwook Seo,   Seoul National University
-
-Vidya   Setlur,   Tableau
-
-Conglei Shi,   IBM Research
-
-Aidan   Slingsby,   City University London
-
-John    Stasko,   Georgia Tech
-
-Marc    Streit,   Johannes Kepler University Linz
-
-Hendrik Strobelt,   IBM Research
-
-Danielle    Szafir,   University of Colorado
-
-Melanie Tory,   Tableau Software
-
-Cagatay Turkay,   City University London
-
-Frank   van Ham,   IBM Research
-
-Kevin   Verbeek,   TUE
-
-Manuela Waldner,   TU VIenna
-
-Jagoda  Walny,   University of Calgary
-
-Martin  Wattenberg,   Google
-
-Jo  Wood,   City University London
-
-Michael Wybrow,   Monash University
+| Bilal Alsallakh | Bosch Research, USA |
+| Natalia Andrienko | Fraunhofer Institute IAIS, Germany |
+| Benjamin Bach | University of Edinburgh, UK |
+| Rahul Basole | Georgia Tech, USA |
+| Leslie Blaha | Pacific Northwest National Laboratory, USA |
+| Rita Borgo | Swansea University, UK |
+| Michelle Borkin | Northeastern University, USA |
+| Jeremy Boy | UN Global Pulse |
+| Matthew Brehmer | Microsoft Research, USA |
+| Michael Burch | Technische Universiteit Eindhoven, NL |
+| Nan Cao | TongJi University, China |
+| Michael Correll | Tableau Software, USA |
+| Weiwei Cui | Microsoft Research, China |
+| Pierre Dragicevic | Inria, France |
+| Jean-Daniel Fekete | Inria, France |
+| Danyel Fisher | Microsoft Research, USA |
+| Angus Forbes | University of California, Santa Cruz, USA |
+| Nils Gehlenborg | Harvard University, USA |
+| Michael Gleicher | University of Wisconsin, USA |
+| Sarah Goodwin | RMIT University, Australia |
+| Carsten Goerg | University of Colorado, USA |
+| Lane Harrison | Worcester Polytechnic Institute, USA |
+| Helwig Hauser | University of Bergen, Norway |
+| Marti Hearst | UC Berkeley, USA |
+| Nathalie Henry-Riche | Microsoft Research, USA |
+| Jessica Hullman | University of Washington, USA |
+| Samuel Huron | Telecom ParisTech, France |
+| Kate Isaacs | University of Arizona, USA |
+| Yvonne Jansen | CNRS, France |
+| Daniel Keim | Universität Konstanz, Germany |
+| Stephen Kobourov | University of Arizona, USA |
+| Bum Chul Kwon | IBM Research, USA |
+| Heidi Lam | Tableau Software, USA |
+| Bongshin Lee | Microsoft Research, USA |
+| Liu Zhicheng | Adobe Research, USA |
+| Ross Maciejewski | Arizona State University, USA |
+| Rosane Minghim | Universidade de Sao Paulo, Brazil |
+| Alvitta Ottley | Washington University in St. Louis, USA |
+| Charles Perin | City University London, UK |
+| Helen Purchase | University of Glasgow, UK |
+| Penny Rheingans | University of Maryland Baltimore County, USA |
+| Bernice Rogowitz | Visual Perspectives Consulting, USA |
+| Arvind Satyanarayan | Massachusetts Institute of Technology, USA |
+| Karen Schloss | University of Wisonsin, USA |
+| Heidrun Schumann | University of Rostock, Germany |
+| Michael Sedlmair | Jacobs University Bremen, Germany |
+| Jinwook Seo | Seoul National University, Korea |
+| Vidya Setlur | Tableau Software, USA |
+| Conglei Shi | IBM Research, USA |
+| Aidan Slingsby | City University London, UK |
+| John Stasko | Georgia Tech, USA |
+| Marc Streit | Johannes Kepler University Linz, Austria |
+| Hendrik Strobelt | IBM Research, USA |
+| Danielle Szafir | University of Colorado, USA |
+| Melanie Tory | Tableau Software, USA |
+| Cagatay Turkay | City University London, UK |
+| Frank van Ham | IBM Research, NL |
+| Kevin Verbeek | Technische Universiteit Eindhoven, NL |
+| Manuela Waldner | Technische Universität Vienna, Austria |
+| Jagoda Walny | University of Calgary, CA |
+| Martin Wattenberg | Google, USA |
+| Jo Wood | City University London, UK |
+| Michael Wybrow | Monash University, Australia  |
