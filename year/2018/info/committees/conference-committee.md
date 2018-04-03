@@ -183,7 +183,7 @@ permalink: /year/2018/info/committees/conference-committee
     </tr>
     <tr>
       <td>Jeremy Boy</td>
-      <td>Inria</td>
+      <td>UN Global Pulse</td>
     </tr>
     <tr>
       <td>Till Nagel</td>
