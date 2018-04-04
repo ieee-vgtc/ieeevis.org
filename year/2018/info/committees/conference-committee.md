@@ -12,7 +12,7 @@ permalink: /year/2018/info/committees/conference-committee
     </tr>
     <tr>
       <td>Holger Theisel</td>
-      <td>University of Magdeburg</td>
+      <td><i>University of Magdeburg</i></td>
     </tr>
     <tr class='committee_section'>
       <th colspan='2'>Coordinating Chair</th>
