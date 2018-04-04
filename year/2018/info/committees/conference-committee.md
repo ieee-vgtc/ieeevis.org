@@ -403,7 +403,7 @@ permalink: /year/2018/info/committees/conference-committee
     </tr>
     <tr>
       <td>Melanie Tory</td>
-      <td>Tableau (InfoVis)</td>
+      <td>Tableau Research(InfoVis)</td>
     </tr>
     <tr>
       <td>James Ahrens</td>
