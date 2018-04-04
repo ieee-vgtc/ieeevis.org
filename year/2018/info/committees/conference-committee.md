@@ -214,7 +214,7 @@ permalink: /year/2018/info/committees/conference-committee
       <td>Los Alamos National Laboratory</td>
     </tr>
     <tr>
-      <td>Thomas Wischoll</td>
+      <td>Thomas Wischgoll</td>
       <td>Wright State University</td>
     </tr>
     <tr class='committee_section'>
