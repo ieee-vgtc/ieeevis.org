@@ -19,8 +19,8 @@ contact: scivis_papers@ieeevis.org
 | Markus Hadwiger | King Abdullah University of Science and Technology |
 | Hans Hagen | University of Kaiserslautern |
 | Christopher G. Healey | North Carolina State University |
-| Bernd Hentschel | RWTH Aachen |
-| Mario Hlawitschka | HTWK Leipzig |
+| Bernd Hentschel | RWTH Aachen University |
+| Mario Hlawitschka | Leipzig University of Applied Sciences |
 | Ingrid Hotz | Linköping University |
 | Katherine Isaacs | University of Arizona |
 | Chris R. Johnson | University of Utah |
@@ -31,12 +31,12 @@ contact: scivis_papers@ieeevis.org
 | Jens Krüger | University of Duisburg-Essen |
 | Robert S. Laramee | Swansea University |
 | Joshua Levine | University of Arizona |
-| Aidong Lu | UNC Charlotte |
+| Aidong Lu | University of North Carolina at Charlotte |
 | Kwan-Liu Ma | University of California, Davis |
-| Liz Marai | Univeristy of Illinois, Chicago |
+| Liz Marai | University of Illinois at Chicago |
 | Mahsa Mirzargar | University of Miami |
 | Torsten Möller | University of Vienna |
-| Vijay Natarajan | Indian Institute of Science, Bangalore |
+| Vijay Natarajan | Indian Institute of Science |
 | Luis Gustavo Nonato | Universidade de São Paulo |
 | Steffen Oeltze-Jafra | University of Leipzig |
 | Renato Pajarola | University of Zurich |
@@ -50,7 +50,7 @@ contact: scivis_papers@ieeevis.org
 | Lisa Sobierajski-Avila | Kitware |
 | Julian Tierny | Sorbonne Universites UPMC |
 | Xavier Tricoche | Purdue University |
-| Anna Vilanova | TU Delft |
+| Anna Vilanova | Delft University of Technology |
 | Bei Wang | University of Utah |
 | Chaoli Wang | University of Notre Dame |
 | Rüdiger Westermann | Technical University of Munich |
