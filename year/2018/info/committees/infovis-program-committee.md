@@ -62,7 +62,7 @@ contact: infovis_papers@ieeevis.org
 | Cagatay Turkay | *City, University of London, UK* |
 | Frank van Ham | *IBM Research, NL* |
 | Kevin Verbeek | *Technische Universiteit Eindhoven, NL* |
-| Manuela Waldner | *Technische Universität Vienna, Austria* |
+| Manuela Waldner | *Vienna University of Technology, Austria* |
 | Jagoda Walny | *University of Calgary, CA* |
 | Martin Wattenberg | *Google, USA* |
 | Jo Wood | *City, University of London, UK* |
