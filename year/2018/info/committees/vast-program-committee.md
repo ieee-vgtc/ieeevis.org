@@ -61,7 +61,7 @@ contact: vast_papers@ieeevis.org
 | Hans-Jörg Schulz | Aarhus University |
 | Lei Shi | Airbnb Inc. |
 | Conglei Shi | Chinese Academy of Sciences |
-| Claudio Silva | New York University |
+| Claudio T. Silva | New York University |
 | Bettina Speckmann | Eindhoven University of Technology |
 | Maoyuan Sun | University of Massachusetts Dartmouth |
 | Shigeo Takahashi | University of Aizu |
