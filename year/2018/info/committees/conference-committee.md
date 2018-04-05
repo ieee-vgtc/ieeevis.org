@@ -12,7 +12,7 @@ permalink: /year/2018/info/committees/conference-committee
     </tr>
     <tr>
       <td>Holger Theisel</td>
-      <td>University of Magdeburg</td>
+      <td><i>University of Magdeburg</i></td>
     </tr>
     <tr class='committee_section'>
       <th colspan='2'>Coordinating Chair</th>
@@ -20,7 +20,7 @@ permalink: /year/2018/info/committees/conference-committee
     </tr>
     <tr>
       <td>Petra Specht</td>
-      <td>University of Magdeburg</td>
+      <td><i>University of Magdeburg</i></td>
     </tr>
     <tr class='committee_section'>
       <th colspan='2'>Vice Chair</th>
@@ -28,15 +28,15 @@ permalink: /year/2018/info/committees/conference-committee
     </tr>
     <tr>
       <td>Hans-Christian Hege</td>
-      <td>Zuse Institute Berlin</td>
+      <td><i>Zuse Institute Berlin</i></td>
     </tr>
     <tr>
       <td>Bernhard Preim</td>
-      <td>University of Magdeburg</td>
+      <td><i>University of Magdeburg</i></td>
     </tr>
     <tr>
       <td>Gerik Scheuermann</td>
-      <td>Leipzig University</td>
+      <td><i>Leipzig University</i></td>
     </tr>
     <tr class='committee_section'>
       <th colspan='2'>Program Chairs</th>
@@ -44,7 +44,7 @@ permalink: /year/2018/info/committees/conference-committee
     </tr>
     <tr>
       <td>Gautam Chaudhary</td>
-      <td>Alcon</td>
+      <td><i>Alcon</i></td>
     </tr>
     <tr class='committee_section'>
       <th colspan='2'>Papers Chairs</th>
@@ -52,39 +52,39 @@ permalink: /year/2018/info/committees/conference-committee
     </tr>
     <tr>
       <td>Remco Chang</td>
-      <td>Tufts University (VAST)</td>
+      <td><i>Tufts University (VAST)</i></td>
     </tr>
     <tr>
       <td>Huamin Qu</td>
-      <td>Hong Kong University of Science and Technology (VAST)</td>
+      <td><i>Hong Kong University of Science and Technology (VAST)</i></td>
     </tr>
     <tr>
       <td>Tobias Schreck</td>
-      <td>Graz University of Technology (VAST)</td>
+      <td><i>Graz University of Technology (VAST)</i></td>
     </tr>
     <tr>
       <td>Tim Dwyer</td>
-      <td>Monash University (InfoVis)</td>
+      <td><i>Monash University (InfoVis)</i></td>
     </tr>
     <tr>
       <td>Steve Franconeri</td>
-      <td>Northwestern University (InfoVis)</td>
+      <td><i>Northwestern University (InfoVis)</i></td>
     </tr>
     <tr>
       <td>Petra Isenberg</td>
-      <td>Inria (InfoVis)</td>
+      <td><i>Inria (InfoVis)</i></td>
     </tr>
     <tr>
       <td>Issei Fujishiro</td>
-      <td>Keio University (SciVis)</td>
+      <td><i>Keio University (SciVis)</i></td>
     </tr>
     <tr>
       <td>Gunther Weber</td>
-      <td>Lawrence Berkeley National Laboratory (SciVis)</td>
+      <td><i>Lawrence Berkeley National Laboratory (SciVis)</i></td>
     </tr>
     <tr>
       <td>Daniel Weiskopf</td>
-      <td>University of Stuttgart (SciVis)</td>
+      <td><i>University of Stuttgart (SciVis)</i></td>
     </tr>
     <tr class='committee_section'>
       <th colspan='2'>Posters Chairs</th>
@@ -92,26 +92,26 @@ permalink: /year/2018/info/committees/conference-committee
     </tr>
     <tr>
       <td>Wenwen Dou</td>
-      <td>University of North Carolina at Charlotte (VAST)</td>
+      <td><i>University of North Carolina at Charlotte (VAST)</i></td>
     </tr>
     <tr>
       <td>Tatiana von Landesberger</td>
-      <td>TU Darmstadt (VAST)</td>
+      <td><i>Darmstadt University of Technology (VAST)</i></td>
     </tr>
     <tr>
       <td>Miriah Meyer</td>
-      <td>University of Utah (InfoVis)</td>
+      <td><i>University of Utah (InfoVis)</i></td>
     </tr><tr>
       <td>Nathalie Henry Riche</td>
-      <td>Microsoft (InfoVis)</td>
+      <td><i>Microsoft Research (InfoVis)</i></td>
     </tr>
     <tr>
       <td>Jian Chen</td>
-      <td>The Ohio State University (SciVis)</td>
+      <td><i>The Ohio State University (SciVis)</i></td>
     </tr>
     <tr>
       <td>Christoph Garth</td>
-      <td>University of Kaiserslautern (SciVis)</td>
+      <td><i>University of Kaiserslautern (SciVis)</i></td>
     </tr>
     <tr class='committee_section'>
       <th colspan='2'>Panels Chairs</th>
@@ -119,15 +119,15 @@ permalink: /year/2018/info/committees/conference-committee
     </tr>
     <tr>
       <td>Alex Endert</td>
-      <td>Georgia Institute of Technology (VAST)</td>
+      <td><i>Georgia Institute of Technology (VAST)</i></td>
     </tr>
     <tr>
       <td>Danyel Fisher</td>
-      <td>Microsoft Research (InfoVis)</td>
+      <td><i>Microsoft Research (InfoVis)</i></td>
     </tr>
     <tr>
       <td>Ivan Viola</td>
-      <td>Vienna University of Technology (SciVis)</td>
+      <td><i>Vienna University of Technology (SciVis)</i></td>
     </tr>
     <tr class='committee_section'>
       <th colspan='2'>Tutorial Chairs</th>
@@ -135,15 +135,15 @@ permalink: /year/2018/info/committees/conference-committee
     </tr>
     <tr>
       <td>Steffen Koch</td>
-      <td>University of Stuttgart (VAST)</td>
+      <td><i>University of Stuttgart (VAST)</i></td>
     </tr>
     <tr>
       <td>Christopher Collins</td>
-      <td>University of Ontario Institute of Technology (InfoVis)</td>
+      <td><i>University of Ontario Institute of Technology (InfoVis)</i></td>
     </tr>
     <tr>
       <td>Chaoli Wang</td>
-      <td>University of Notre Dame (SciVis)</td>
+      <td><i>University of Notre Dame (SciVis)</i></td>
     </tr>
     <tr class='committee_section'>
       <th colspan='2'>Workshop Chairs</th>
@@ -151,15 +151,15 @@ permalink: /year/2018/info/committees/conference-committee
     </tr>
     <tr>
       <td>Natalia Andrienko</td>
-      <td>Fraunhofer Institute IAIS and City, University London (VAST)</td>
+      <td><i>Fraunhofer IAIS and City, University of London (VAST)</i></td>
     </tr>
     <tr>
       <td>Jo Wood</td>
-      <td>City, University of London (InfoVis)</td>
+      <td><i>City, University of London (InfoVis)</i></td>
     </tr>
     <tr>
       <td>Peter Lindstrom</td>
-      <td>Lawrence Livermore National Laboratory (SciVis)</td>
+      <td><i>Lawrence Livermore National Laboratory (SciVis)</i></td>
     </tr>
     <tr class='committee_section'>
       <th colspan='2'>SciVis Short Papers Chairs</th>
@@ -167,15 +167,15 @@ permalink: /year/2018/info/committees/conference-committee
     </tr>
      <tr>
       <td>Berk Geveci</td>
-      <td>Kitware Inc.</td>
+      <td><i>Kitware</i></td>
     </tr>
     <tr>
       <td>Gordon Kindlmann</td>
-      <td>University of Chicago</td>
+      <td><i>University of Chicago</i></td>
     </tr>
     <tr>
       <td>Luis Gustavo Nonato</td>
-      <td>University of São Paulo</td>
+      <td><i>University of São Paulo</i></td>
     </tr>
     <tr class='committee_section'>
       <th colspan='2'>Arts Program Chairs</th>
@@ -183,11 +183,11 @@ permalink: /year/2018/info/committees/conference-committee
     </tr>
     <tr>
       <td>Jeremy Boy</td>
-      <td>Inria</td>
+      <td><i>UN Global Pulse</i></td>
     </tr>
     <tr>
       <td>Till Nagel</td>
-      <td>University of Applied Sciences Mannheim</td>
+      <td><i>University of Applied Sciences Mannheim</i></td>
     </tr>
     <tr class='committee_section'>
       <th colspan='2'>VAST Challenge Chairs</th>
@@ -195,15 +195,15 @@ permalink: /year/2018/info/committees/conference-committee
     </tr>
     <tr>
       <td>Kristin Cook</td>
-      <td>Pacific Northwest National Laboratory</td>
+      <td><i>Pacific Northwest National Laboratory</i></td>
     </tr>
     <tr>
       <td>Georges Grinstein</td>
-      <td>University of Massachusetts-Lowell</td>
+      <td><i>University of Massachusetts Lowell</i></td>
     </tr>
     <tr>
       <td>Mark Whiting</td>
-      <td>Pacific Northwest National Laboratory</td>
+      <td><i>Pacific Northwest National Laboratory</i></td>
     </tr>
     <tr class='committee_section'>
       <th colspan='2'>SciVis Contest Chairs</th>
@@ -211,11 +211,11 @@ permalink: /year/2018/info/committees/conference-committee
     </tr>
     <tr>
       <td>John Patchett</td>
-      <td>Los Alamos National Laboratory</td>
+      <td><i>Los Alamos National Laboratory</i></td>
     </tr>
     <tr>
-      <td>Thomas Wischoll</td>
-      <td>Wright State University</td>
+      <td>Thomas Wischgoll</td>
+      <td><i>Wright State University</i></td>
     </tr>
     <tr class='committee_section'>
       <th colspan='2'>VDS Workshop Liaison</th>
@@ -223,7 +223,7 @@ permalink: /year/2018/info/committees/conference-committee
     </tr>
     <tr>
       <td>Torsten Möller</td>
-      <td>University of Vienna</td>
+      <td><i>University of Vienna</i></td>
     </tr>
     <tr class='committee_section'>
       <th colspan='2'>LDAV Symposium Liaison</th>
@@ -231,7 +231,7 @@ permalink: /year/2018/info/committees/conference-committee
     </tr>
     <tr>
       <td>Christoph Garth</td>
-      <td>University of Kaiserslautern</td>
+      <td><i>University of Kaiserslautern</i></td>
     </tr>
     <tr class='committee_section'>
       <th colspan='2'>VizSec Symposium Liaison</th>
@@ -239,7 +239,7 @@ permalink: /year/2018/info/committees/conference-committee
     </tr>
     <tr>
       <td>Diane Staheli</td>
-      <td>MIT, Lincoln Laboratory</td>
+      <td><i>MIT Lincoln Laboratory</i></td>
     </tr>
     <tr class='committee_section'>
       <th colspan='2'>BELIV Workshop</th>
@@ -247,7 +247,7 @@ permalink: /year/2018/info/committees/conference-committee
     </tr>
     <tr>
       <td>Michael Sedlmair</td>
-      <td>University of Vienna</td>
+      <td><i>University of Vienna</i></td>
     </tr>
     <tr class='committee_section'>
       <th colspan='2'>BioVis Challenges Workshop</th>
@@ -255,7 +255,7 @@ permalink: /year/2018/info/committees/conference-committee
     </tr>
     <tr>
       <td>Cagatay Turkay</td>
-      <td>City University London</td>
+      <td><i>City, University of London</i></td>
     </tr>
     <tr class='committee_section'>
       <th colspan='2'>Vis in Practice Chairs</th>
@@ -263,15 +263,15 @@ permalink: /year/2018/info/committees/conference-committee
     </tr>
     <tr>
       <td>Daniela Oelke</td>
-      <td>Siemens AG (VAST)</td>
+      <td><i>Siemens AG (VAST)</i></td>
     </tr>
     <tr>
       <td>Matthew Brehmer</td>
-      <td>Microsoft Research (InfoVis)</td>
+      <td><i>Microsoft Research (InfoVis)</i></td>
     </tr>
     <tr>
       <td>Bernd Hentschel</td>
-      <td>RWTH Aachen University (SciVis)</td>
+      <td><i>RWTH Aachen University (SciVis)</i></td>
     </tr>
     <tr class='committee_section'>
       <th colspan='2'>Doctoral Colloquium Chairs</th>
@@ -279,19 +279,19 @@ permalink: /year/2018/info/committees/conference-committee
     </tr>
     <tr>
       <td>Ross Maciejewski</td>
-      <td>Arizona State University (VAST)</td>
+      <td><i>Arizona State University (VAST)</i></td>
     </tr>
     <tr>
       <td>Fanny Chevalier</td>
-      <td>University of Toronto (InfoVis)</td>
+      <td><i>University of Toronto (InfoVis)</i></td>
     </tr>
     <tr>
       <td>Timo Ropinski</td>
-      <td>Ulm University (SciVis)</td>
+      <td><i>Ulm University (SciVis)</i></td>
     </tr>
     <tr>
       <td>Marc Streit</td>
-      <td>Johannes Kepler University Linz</td>
+      <td><i>Johannes Kepler University Linz</i></td>
     </tr>
     <tr class='committee_section'>
       <th colspan='2'>Fast Forward &amp; Video Previews Chairs</th>
@@ -299,15 +299,15 @@ permalink: /year/2018/info/committees/conference-committee
     </tr>
     <tr>
       <td>Zhicheng Leo Liu</td>
-      <td>Adobe Systems (VAST)</td>
+      <td><i>Adobe Systems (VAST)</i></td>
     </tr>
     <tr>
       <td>Katerina Vrotsou</td>
-      <td>Linköping University (InfoVis)</td>
+      <td><i>Linköping University (InfoVis)</i></td>
     </tr>
     <tr>
       <td>Ayan Biswas</td>
-      <td>Los Alamos National Laboratory (SciVis)</td>
+      <td><i>Los Alamos National Laboratory (SciVis)</i></td>
     </tr>
     <tr class='committee_section'>
       <th colspan='2'>Meetup Chairs</th>
@@ -315,15 +315,15 @@ permalink: /year/2018/info/committees/conference-committee
     </tr>
     <tr>
       <td>Adam Perer</td>
-      <td>IBM (VAST)</td>
+      <td><i>IBM Research (VAST)</i></td>
     </tr>
     <tr>
       <td>Rita Borgo</td>
-      <td>King's College, London (InfoVis)</td>
+      <td><i>King's College London (InfoVis)</i></td>
     </tr>
     <tr>
       <td>Aashish Chaudhary</td>
-      <td>Kitware (SciVis)</td>
+      <td><i>Kitware (SciVis)</i></td>
     </tr>
     <tr class='committee_section'>
       <th colspan='2'>Community Chairs</th>
@@ -331,15 +331,15 @@ permalink: /year/2018/info/committees/conference-committee
     </tr>
     <tr>
       <td>Anastasia Bezerianos</td>
-      <td>Université Paris-Sud</td>
+      <td><i>Université Paris-Sud</i></td>
     </tr>
     <tr>
       <td>Weiwei Cui</td>
-      <td>Microsoft Research China</td>
+      <td><i>Microsoft Research China</i></td>
     </tr>
     <tr>
       <td>Jonathan Woodring</td>
-      <td>Los Alamos National Laboratory</td>
+      <td><i>Los Alamos National Laboratory</i></td>
     </tr>
     <tr class='committee_section'>
       <th colspan='2'>Student Volunteers Chairs</th>
@@ -347,19 +347,19 @@ permalink: /year/2018/info/committees/conference-committee
     </tr>
     <tr>
       <td>Tim Gerrits</td>
-      <td>University of Magdeburg</td>
+      <td><i>University of Magdeburg</i></td>
     </tr>
     <tr>
       <td>Tim Luciani</td>
-      <td>University of Illinois at Chicago</td>
+      <td><i>University of Illinois at Chicago</i></td>
     </tr>
     <tr>
       <td>Thomas Torsney-Weir</td>
-      <td>University of Vienna</td>
+      <td><i>University of Vienna</i></td>
     </tr>
     <tr>
       <td>Fumeng Yang</td>
-      <td>Brown University, Providence</td>
+      <td><i>Brown University</i></td>
     </tr>
     <tr class='committee_section'>
       <th colspan='2'>Publicity Chairs</th>
@@ -367,15 +367,15 @@ permalink: /year/2018/info/committees/conference-committee
     </tr>
     <tr>
       <td>Michael Behrisch</td>
-      <td>Harvard University (VAST)</td>
+      <td><i>Harvard University (VAST)</i></td>
     </tr>
     <tr>
       <td>Daniel Archambault</td>
-      <td>Swansea University (InfoVis)</td>
+      <td><i>Swansea University (InfoVis)</i></td>
     </tr>
     <tr>
       <td>Katie Osterdahl</td>
-      <td>Kitware (SciVis)</td>
+      <td><i>Kitware (SciVis)</i></td>
     </tr>
     <tr class='committee_section'>
       <th colspan='2'>Inclusivity Chairs</th>
@@ -383,11 +383,11 @@ permalink: /year/2018/info/committees/conference-committee
     </tr>
     <tr>
       <td>Michelle Borkin</td>
-      <td>Northeastern</td>
+      <td><i>Northeastern University</i></td>
     </tr>
     <tr>
       <td>Kelly Gaither</td>
-      <td>Texas Advanced Computing Center</td>
+      <td><i>Texas Advanced Computing Center</i></td>
     </tr>
     <tr class='committee_section'>
       <th colspan='2'>Steering Committee Liaisons</th>
@@ -395,19 +395,19 @@ permalink: /year/2018/info/committees/conference-committee
     </tr>
     <tr>
       <td>Lisa Avila</td>
-      <td>Kitware (VIS)</td>
+      <td><i>Kitware (VIS)</i></td>
     </tr>
     <tr>
       <td>Silvia Miksch</td>
-      <td>Vienna University of Technology (VAST)</td>
+      <td><i>Vienna University of Technology (VAST)</i></td>
     </tr>
     <tr>
       <td>Melanie Tory</td>
-      <td>Tableau (InfoVis)</td>
+      <td><i>Tableau Research (InfoVis)</i></td>
     </tr>
     <tr>
       <td>James Ahrens</td>
-      <td>Los Alamos National Laboratory (SciVis)</td>
+      <td><i>Los Alamos National Laboratory (SciVis)</i></td>
     </tr>
     <tr class='committee_section'>
       <th colspan='2'>Supporters Chairs</th>
@@ -415,19 +415,19 @@ permalink: /year/2018/info/committees/conference-committee
     </tr>
     <tr>
       <td>Jörn Kohlhammer</td>
-      <td>Fraunhofer Darmstadt (VAST)</td>
+      <td><i>Fraunhofer IGD (VAST)</i></td>
     </tr>
     <tr>
       <td>Alexander Lex</td>
-      <td>University of Utah (InfoVis)</td>
+      <td><i>University of Utah (InfoVis)</i></td>
     </tr>
     <tr>
       <td>Kelly Gaither</td>
-      <td>Texas Advanced Computing Center (SciVis)</td>
+      <td><i>Texas Advanced Computing Center (SciVis)</i></td>
     </tr>
     <tr>
       <td>Allen Sanderson</td>
-      <td>The University of Utah (SciVis)</td>
+      <td><i>University of Utah (SciVis)</i></td>
     </tr>
     <tr class='committee_section'>
       <th colspan='2'>Finance Chairs</th>
@@ -435,11 +435,11 @@ permalink: /year/2018/info/committees/conference-committee
     </tr>
     <tr>
       <td>Loretta Auvil</td>
-      <td>University of Illinois at Urbana-Champaign</td>
+      <td><i>University of Illinois at Urbana–Champaign</i></td>
     </tr>
     <tr>
       <td>Maria Velez</td>
-      <td>CA Technologies</td>
+      <td><i>CA Technologies</i></td>
     </tr>
     <tr class='committee_section'>
       <th colspan='2'>Publication &amp; Project Coordinator</th>
@@ -447,7 +447,7 @@ permalink: /year/2018/info/committees/conference-committee
     </tr>
     <tr>
       <td>Meghan Haley</td>
-      <td>Junction Publishing</td>
+      <td><i>Junction Publishing</i></td>
     </tr>
     <tr class='committee_section'>
       <th colspan='2'>Archive Chairs</th>
@@ -455,11 +455,11 @@ permalink: /year/2018/info/committees/conference-committee
     </tr>
     <tr>
       <td>Cody Dunne</td>
-      <td>Northeastern University</td>
+      <td><i>Northeastern University</i></td>
     </tr>
     <tr>
       <td>Hendrik Strobelt</td>
-      <td>IBM</td>
+      <td><i>IBM Research</i></td>
     </tr>
     <tr class='committee_section'>
       <th colspan='2'>Web Chairs</th>
@@ -467,23 +467,23 @@ permalink: /year/2018/info/committees/conference-committee
     </tr>
     <tr>
       <td>Bilal Alsallakh</td>
-      <td>BOSCH Research</td>
+      <td><i>BOSCH Research</i></td>
     </tr>
     <tr>
       <td>Heiko Dorwarth</td>
-      <td>University of Magdeburg</td>
+      <td><i>University of Magdeburg</i></td>
     </tr>
     <tr>
       <td>Lane Harrison</td>
-      <td>Worcester Polytechnic Institute</td>
+      <td><i>Worcester Polytechnic Institute</i></td>
     </tr>
     <tr>
       <td>Alper Sarıkaya</td>
-      <td>Microsoft</td>
+      <td><i>Microsoft Research</i></td>
     </tr>
     <tr>
       <td>Carlos Scheidegger</td>
-      <td>University of Arizona</td>
+      <td><i>University of Arizona</i></td>
     </tr>
   </tbody>
 </table>

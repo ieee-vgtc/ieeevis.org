@@ -9,7 +9,7 @@ permalink: /year/2018/info/committees/vis-executive-committee
 | Jason Dykes | *City, University of London<br>(InfoVis Steering Rep.)*
 | Jean-Daniel Fekete	| *Inria<br>(InfoVis Steering Rep.)*
 | Brian Fisher	| *Simon Fraser University<br>(VAST Steering Rep.)*
-| Hans Hagen	| *Technische Universität Kaiserslautern<br>(SciVis Steering Rep.)*
+| Hans Hagen	| *University of Kaiserslautern<br>(SciVis Steering Rep.)*
 | Arie Kaufman	| *Stony Brook University<br>(VGTC Director)*
 | Aditi Majumder	| *University of California, Irvine<br>(VGTC Vice-Chair for Conferences)*
 | Miriah Meyer	| *University of Utah<br>(VGTC Vice-Chair)*

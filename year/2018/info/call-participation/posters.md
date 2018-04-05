@@ -29,9 +29,11 @@ Examples of appropriate visualization work include, but are not limited to:
 * new angles on existing (collections of) work or known data sets,
 * work in progress presented prior to its full publication,
 * any work that might particularly benefit from demonstration to and
-  active discussion with the visualization community, and
+  active discussion with the visualization community,
 * the application of visualization and analytics techniques to
-  specific application areas.
+  specific application areas, and
+* highlights of recent visualization work presented or published in 
+  another venue 
 
 We particularly encourage contributions that take advantage of the nature
 of the poster space and forum to present and raise awareness of the work
@@ -84,6 +86,11 @@ After logging into PCS at [https://new.precisionconference.com/vgtc](https://new
 * Visual Analytics Science and Technologies (VAST) - for conference
   themes see [IEEE VAST 2018 – Topics and Paper Types](/year/2018/info/call-participation/vast-paper-types)
 
+### PLAGIARISM
+
+All submissions must be either: 1) original work that has not been presented previously at any workshop, symposium, or conference, or published previously in any archived conference proceeding, magazine, or journal; or 2) a summary that highlights work presented or published in a related venue with a clear statement of attribution to the original work. 
+
+At the time of submission, it is required by the authors to state explicitly in the submission form that the submitted work is the work by the authors themselves, or is a summary of previously presented/published work with clear attribution. Plagiarism in any form is unacceptable and will lead to a removal of the submission from the review process. For more information, please see the [IEEE plagiarism FAQ](https://www.ieee.org/publications_standards/publications/rights/plagiarism_FAQ.html) and the [IEEE Publication Services and Products Board Operations Manual](http://www.ieee.org/documents/opsmanual.pdf).
 
 ### IMPORTANT DATES
 
