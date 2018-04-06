@@ -11,7 +11,7 @@ title: Instructions for editing the website
 
 # Contributing
 
-Thanks for helping with the ieeevis.org website. The easiest way
+Thank you for helping with the ieeevis.org website. The easiest way
 for you to contribute to the website is to edit the file you want to
 change, directly in your browser.  What will happen behind the scenes
 after you're done with an edit is that GitHub will automatically
