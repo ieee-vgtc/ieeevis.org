@@ -9,7 +9,7 @@ For the first time, the 2018 **IEEE Scientific Visualization (SciVis)** conferen
 
 The IEEE SciVis short papers have the same Topics and Types as [SciVis full papers](http://ieeevis.org/year/2018/info/call-participation/scivis-paper-types).  The difference is that short papers are half the length: **four pages plus up to one page of references**. Submissions will be in the VGTC conference two-column format, in line with the [IEEE VIS formatting guidelines](http://junctionpublishing.org/vgtc/Tasks/camera.html).
 
-The short paper submission deadline is June 13, 2018, creating an opportunity to showcase late-breaking research results arising after the full paper deadline in March.  This deadline is one week after the June 6 notification for conditional acceptance of full papers, enabling the distillation and focused expression of work that otherwise might not be part of VIS.  Short papers also complement the Poster format (with a June 16 deadline).  Short papers will be reviewed based on guidelines that encourage accepting work that is more modest in scope than full papers, but still significant and interesting for the VIS audience, analogous to the successful [EuroVis Short Papers](https://www.eurovis2018.org/submitters-short-papers/) format.
+The short paper submission deadline is June 13, 2018, creating an opportunity to showcase late-breaking research results arising after the full paper deadline in March.  This deadline is one week after the June 6 notification for conditional acceptance of full papers, enabling the distillation and focused expression of work that otherwise might not be part of VIS.  Short papers also complement the Poster format (with a June 16 deadline).  Short papers will be reviewed based on guidelines that encourage accepting work that is more modest in scope than full papers, but still significant and interesting for the VIS audience. Short papers will be included on the conference proceedings and go under the SciVIs title in IEEE Xplore with a proper DOI number. 
 
 Authors of accepted short papers may subsequently submit to TVCG (the journal, not to the VIS conference) a full paper on the same topic, consistent with the TVCG standard of asking for "more than 30 percent new material and insights" compared to a previous conference paper.
 
@@ -21,10 +21,10 @@ Authors of accepted short papers may subsequently submit to TVCG (the journal, n
 
 All deadlines are at **5:00pm Pacific Time (PDT)**.
 
-### SciVis Short Papers Co-Chairs
+### SciVis Short Paper Co-Chairs
 
-* Berk Geveci, *Kitware Inc., USA*
+* Berk Geveci, *Kitware Inc.*
 * Gordon Kindlmann, *University of Chicago, USA*
-* Luis Gustavo Nonato, *Universidade de Sao Paulo, Brazil*
+* Luis Gustavo Nonato, *Universidade de São Paulo, Brazil*
 
 Email: [scivis_shortpapers@ieeevis.org](mailto:scivis_shortpapers@ieeevis.org)
