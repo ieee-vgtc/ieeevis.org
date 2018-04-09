@@ -1,7 +1,7 @@
 ---
 title: VISKids
 layout: main-2018
-permalink: /year/2017/info/exhibition/viskids-event
+permalink: /year/2018/info/inclusion-and-diversity/viskids-event
 contact: viskids@ieeevis.org
 ---
 
