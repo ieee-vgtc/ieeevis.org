@@ -12,7 +12,6 @@ contact: scivis_papers@ieeevis.org
 | Min Chen | *Oxford University* |
 | Paolo Cignoni | *ISTI-CNR* |
 | Joao Luiz Comba | *Universidade Federal do Rio Grande do Sul* |
-| Harish Doraiswamy | *New York University* |
 | Alireza Entezari | *University of Florida* |
 | Steffen Frey | *University of Stuttgart* |
 | Kelly Gaither | *University of Texas, Austin* |
@@ -48,7 +47,7 @@ contact: scivis_papers@ieeevis.org
 | Han-Wei Shen | *The Ohio State University* |
 | Claudio Silva | *New York University* |
 | Lisa Sobierajski-Avila | *Kitware* |
-| Julian Tierny | *Sorbonne Universites UPMC* |
+| Julien Tierny | *Sorbonne Université* |
 | Xavier Tricoche | *Purdue University* |
 | Anna Vilanova | *Delft University of Technology* |
 | Bei Wang | *University of Utah* |
