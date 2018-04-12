@@ -8,7 +8,7 @@ contact: scivis_papers@ieeevis.org
 | James Ahrens | *Los Alamos National Laboratory* |
 | Roxana Bujack | *Los Alamos National Laboratory* |
 | Hamish Carr | *University of Leeds* |
-| Baoquan Chen | *Peking University/Shandong Universityv* |
+| Baoquan Chen | *Peking University/Shandong University* |
 | Min Chen | *Oxford University* |
 | Paolo Cignoni | *ISTI-CNR* |
 | Joao Luiz Comba | *Universidade Federal do Rio Grande do Sul* |
