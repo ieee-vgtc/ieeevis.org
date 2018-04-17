@@ -22,7 +22,7 @@ permalink: /year/2018/info/important-dates
 | Papers final acceptance notification                 | July 11, 2018 |
 | Doctoral colloquium notification                     | July 11, 2018 |
 | VDS paper submission                                 | July 13, 2018 |
-| VAST contest deadline                                | tba           |
+| VAST challenge deadline                              | July 13, 2018 |
 | VizSec paper submission                              | July 18, 2018 |
 | SciVis short papers notification                     | July 19, 2018 |
 | Posters notification                                 | July 22, 2018 |
