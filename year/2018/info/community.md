@@ -1,5 +1,5 @@
 ---
-title: community
+title: Community
 layout: main-2018
 permalink: /year/2018/info/call-participation/community
 contact: community@ieeevis.org
