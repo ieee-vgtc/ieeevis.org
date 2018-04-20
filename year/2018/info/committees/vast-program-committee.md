@@ -41,8 +41,8 @@ contact: vast_papers@ieeevis.org
 | Robert Kosara | *Tableau Research* |
 | David Laidlaw | *Brown University* |
 | Alexander Lex | *University of Utah* |
-| Zhicheng Liu | *Tsinghua University* |
-| Shixia Liu | *Adobe Research* |
+| Zhicheng Liu | *Adobe Research* |
+| Shixia Liu | *Tsinghua University* |
 | Kwan-Liu Ma | *University of California, Davis* |
 | Kresimir Matkovic | *VRVis Research Center* |
 | Laura McNamara | *Sandia National Laboratories* |
@@ -59,8 +59,8 @@ contact: vast_papers@ieeevis.org
 | Giuseppe Santucci | *University of Rome La Sapienza* |
 | Carlos Scheidegger | *University of Arizona* |
 | Hans-Jörg Schulz | *Aarhus University* |
-| Lei Shi | *Airbnb Inc.* |
-| Conglei Shi | *Chinese Academy of Sciences* |
+| Lei Shi | *Chinese Academy of Sciences* |
+| Conglei Shi | *Airbnb Inc.* |
 | Claudio T. Silva | *New York University* |
 | Bettina Speckmann | *Eindhoven University of Technology* |
 | Maoyuan Sun | *University of Massachusetts Dartmouth* |
