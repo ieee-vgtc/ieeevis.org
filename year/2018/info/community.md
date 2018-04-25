@@ -65,8 +65,8 @@ Vis Buddies is in conjunction with the Newcomers Meetup [VIS Newcomers Meetup](/
 
 ### <a name="ajf"></a>Asynchronous Job Fair
 
-This year, we will be having our first *Asynchronous Job Fair* (AJF) at VIS
-2017! The purpose of the *AJF* is to help connect job seekers and researchers
+This year, we will be having our second *Asynchronous Job Fair* (AJF) at VIS
+2018! The purpose of the *AJF* is to help connect job seekers and researchers
 with employers, staff, and faculty over the course of VIS. This includes all
 types of job opportunities: staff, industry positions, software engineers,
 faculty, post-docs, etc. and all types of job seekers from students to
