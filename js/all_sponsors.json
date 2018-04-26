@@ -1132,6 +1132,7 @@
         "year": 2017
     },
     {
+    {
         "src": "/attachments/supporters/2018/converted/dfg.png", 
         "company": "DFG", 
         "href": "http://www.dfg.de/en/index.jsp", 
@@ -1144,6 +1145,12 @@
         "class": "Diamond", 
         "year": 2018
      },
+        "src": "/attachments/supporters/2018/logo-tableau.png", 
+        "company": "Tableau Software", 
+        "href": "http://www.tableau.com", 
+        "class": "Platinum", 
+        "year": 2018
+    }, 
      {
         "src": "/attachments/supporters/2018/converted/bosch.png", 
         "company": "Bosch", 
