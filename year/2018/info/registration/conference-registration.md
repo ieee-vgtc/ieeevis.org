@@ -5,7 +5,7 @@ permalink: /year/2018/info/registration/conference-registration
 contact: "web@ieeevis.org"
 ---
 
-The early registration period for IEEE VIS 2017 ran through **September 7, 2018**. Standard registration fees now apply.
+The early registration period for IEEE VIS 2018 lasts until **September 7, 2018**. Afterwards the standard registration fees apply.
 
 **Onsite Registration**
  
