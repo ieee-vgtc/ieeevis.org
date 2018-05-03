@@ -5,7 +5,7 @@ permalink: /year/2018/info/registration/conference-registration
 contact: "web@ieeevis.org"
 ---
 
-The early registration period for IEEE VIS 2017 ran through **August 25, 2017**. Standard registration fees now apply.
+The early registration period for IEEE VIS 2017 ran through **September 7, 2018**. Standard registration fees now apply.
 
 **Onsite Registration**
  
@@ -13,7 +13,7 @@ Attendees should register online and pay via credit card, or we can accept trave
  
 **Please note – we will NOT accept cash onsite**
 
-<p class="ieeevis-btn-wrapper"><a href="http://www.cvent.com/events/2017-ieee-visualization-conference-vis-/event-summary-63f90d372ae44480b4f8d7071a2b2fd6.aspx" width="150" class="ieeevis-btn">Register Now</a></p>
+<p class="ieeevis-btn-wrapper"><a href="https://www.conftool.com/ieeevis2018/index.php?page=index" width="150" class="ieeevis-btn">Register Now</a></p>
 
 The following table shows all registration fees in USD. 
 
@@ -164,6 +164,6 @@ The following table shows all registration fees in USD.
 
 IEEE, ACM and ISCB all allow member discounted prices. 
 
-All cancellations requested in **writing** and received before **September 1, 2017** will be refunded, minus the **cancellation fee of US$50**. Special consideration for refund requests after this date will be done on a case-by-case basis. For those requiring visas to come to the US, please request your visa invitation letter and make your visa appointment as soon as possible. 
+All cancellations requested in **writing** and received before **September 20, 2018** will be refunded, minus the **cancellation fee of 50€**. Special consideration for refund requests after this date will be done on a case-by-case basis. For those requiring visas to come to the US, please request your visa invitation letter and make your visa appointment as soon as possible. 
 
 Please submit all cancellation/refund requests to [visreg@ieeevis.org](mailto:visreg@ieeevis.org). 
