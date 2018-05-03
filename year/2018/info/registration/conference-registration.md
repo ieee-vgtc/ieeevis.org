@@ -9,7 +9,7 @@ The early registration period for IEEE VIS 2018 lasts until **September 7, 2018*
 
 **Onsite Registration**
  
-Attendees should register online and pay via credit card, or we can accept traveler’s checks for onsite payment. If you have a **balance due**, you will be required to pay this prior to receiving your badge. You can do this by logging into your registration account and paying via credit card or we can accept a traveler’s check onsite.
+Attendees should register online and pay via credit card or wire transfer. If you have a **balance due**, you will be required to pay this prior to receiving your badge. You can do this by logging into your registration account and paying via credit card or we can accept a traveler’s check onsite.
  
 **Please note – we will NOT accept cash onsite**
 
