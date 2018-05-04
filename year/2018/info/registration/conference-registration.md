@@ -7,7 +7,7 @@ contact: "web@ieeevis.org"
 
 The early registration period for IEEE VIS 2018 lasts until **September 7, 2018**. Afterwards the standard registration fees apply.
 
-** Registration**
+**Registration**
  
 Attendees should register online in advance and pay via credit card or wire transfer. 
  
