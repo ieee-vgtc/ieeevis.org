@@ -30,7 +30,7 @@ The following table shows all registration fees in EUR.
     <tr> 
       <td>Full Week Non-Member</td>
       <td>€810</td> 
-      <td>E€970</td> 
+      <td>€970</td> 
     </tr> 
     <tr> 
       <td>Full Week Student IEEE/ISCB/ACM Member</td>
