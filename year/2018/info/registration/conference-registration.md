@@ -149,7 +149,7 @@ The following table shows all registration fees in EUR.
      </tr> 
     <tr> 
       <td>Extra USB Proceedings</td> 
-      <td>$55</td> 
+      <td>€45</td> 
       <td>&nbsp;</td> 
     </tr> 
     <tr> 
