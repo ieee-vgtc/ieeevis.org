@@ -162,6 +162,6 @@ The following table shows all registration fees in EUR.
 
 IEEE, ACM and ISCB all allow member discounted prices. 
 
-All cancellations requested in **writing** and received before **September 20, 2018** will be refunded, minus the **cancellation fee of 50€**. Special consideration for refund requests after this date will be done on a case-by-case basis. For those requiring visas to come to Germany, please request your visa invitation letter and make your visa appointment as soon as possible. 
+All cancellations requested in **writing** and received before **September 20, 2018** will be refunded, minus the **cancellation fee of €50**. Special consideration for refund requests after this date will be done on a case-by-case basis. For those requiring visas to come to Germany, please request your visa invitation letter and make your visa appointment as soon as possible. 
 
 Please submit all cancellation/refund requests to [visreg@ieeevis.org](mailto:visreg@ieeevis.org). 
