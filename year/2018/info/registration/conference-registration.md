@@ -149,12 +149,12 @@ The following table shows all registration fees in EUR.
       <td>&nbsp;</td> 
      </tr> 
     <tr> 
-      <td>Extra USB Proceedings</td> 
+      <td>Additional USB Proceedings</td> 
       <td>€45</td> 
       <td>&nbsp;</td> 
     </tr> 
     <tr> 
-      <td>Extra Banquet Ticket</td> 
+      <td>Additional Banquet Ticket</td> 
       <td>€60</td> 
       <td>&nbsp;</td> 
     </tr> 
