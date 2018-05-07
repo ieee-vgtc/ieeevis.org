@@ -6,12 +6,10 @@ contact: "web@ieeevis.org"
 ---
 
 The early registration period for IEEE VIS 2018 lasts until **September 7, 2018**. Afterwards the standard registration fees apply.
-The conference fee includes the reception and banquet tickets as well as the USB proceedings.
+The Full week conference fee includes the reception and banquet tickets as well as the USB proceedings.
 
 Attendees should register online in advance and pay via credit card or wire transfer. 
  
-**Please note – we will NOT accept cash onsite**
-
 <p class="ieeevis-btn-wrapper"><a href="https://www.conftool.com/ieeevis2018/index.php?page=index" width="150" class="ieeevis-btn">Register Now</a></p>
 
 The following table shows all registration fees in EUR. 
