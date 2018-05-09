@@ -6,7 +6,7 @@ contact: "web@ieeevis.org"
 ---
 
 <table border="1">
-  	<thead>
+  	<thead style="border-bottom: 2px solid #494949;">
   		<tr>
   			<th></th>
   			<th colspan="3">Sunday (Oct 21, 2018)</th>
