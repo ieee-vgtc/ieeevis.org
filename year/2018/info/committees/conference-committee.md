@@ -197,6 +197,10 @@ permalink: /year/2018/info/committees/conference-committee
       <td>Kristin Cook</td>
       <td><i>Pacific Northwest National Laboratory</i></td>
     </tr>
+     <tr>
+      <td>Jordan Crouser</td>
+      <td><i>Smith College</i></td>
+    </tr>
     <tr>
       <td>Georges Grinstein</td>
       <td><i>University of Massachusetts Lowell</i></td>
