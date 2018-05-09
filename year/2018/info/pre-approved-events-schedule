@@ -5,16 +5,16 @@ permalink: /year/2018/info/pre-approved-events-schedule
 contact: "web@ieeevis.org"
 ---
 
-<table border="2">
-  	<TR><TH>
-    <TH colspan="3">Sunday (Oct 21, 2018)
+<table border="1">
+  	<TR><TH><TD>
+    <TH colspan="3">Sunday (Oct 21, 2018)<TD>
     <TH colspan="4">Monday (Oct 22, 2018)
-    <TR><TH>Session 1: 8:30am-10:10am<TD>BELIV<TD>LDAV<TD>VAST Challenge<TD>VizSec<TD>VDS<TD>VIP<TD>BioVis Challenge
+    <TR><TH>Session 1: 8:30am-10:10am<TD><TD>BELIV<TD>LDAV<TD>VAST Challenge<TD><TD>VizSec<TD>VDS<TD>VIP<TD>BioVis Challenge
 
-    <TR><TH>Session 2: 10:30am-12:10pm<TD>BELIV<TD>LDAV<TD>VAST Challenge<TD>VizSec<TD>VDS<TD>VIP<TD>BioVis Challenge
+    <TR><TH>Session 2: 10:30am-12:10pm<TD><TD>BELIV<TD>LDAV<TD>VAST Challenge<TD><TD>VizSec<TD>VDS<TD>VIP<TD>BioVis Challenge
 
-    <TR><TH>Session 3: 2:00pm-3:40pm<TD>BELIV<TD>LDAV<TD>VAST Challenge<TD>VizSec<TD>VDS<TD>VIP<TD>
+    <TR><TH>Session 3: 2:00pm-3:40pm<TD><TD>BELIV<TD>LDAV<TD>VAST Challenge<TD><TD>VizSec<TD>VDS<TD>VIP<TD>
 
-    <TR><TH>Session 4: 4:15pm-5:55pm<TD>BELIV<TD>LDAV<TD>VAST Challenge<TD>VizSec<TD>VDS<TD>VIP<TD>
+    <TR><TH>Session 4: 4:15pm-5:55pm<TD><TD>BELIV<TD>LDAV<TD>VAST Challenge<TD><TD>VizSec<TD>VDS<TD>VIP<TD>
  
-</table> 
+</table>
