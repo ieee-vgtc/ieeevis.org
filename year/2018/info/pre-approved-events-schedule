@@ -7,15 +7,48 @@ contact: "web@ieeevis.org"
 
 <table border="1">
   <tbody>
+  
     <tr>
-      <td><strong></strong></td>
-      <td><strong>Sunday (Oct 21, 2018)</strong></td> 
-      <td><strong>Monday (Oct 22, 2018)</strong></td>
+      <td>
+        <table border="0">
+          <td></td>
+        </table> 
+      </td>
     </tr>
     <tr>
-      <td><strong>Session 1: 8:30am-10:10am</strong></td>
-      <td>BELIV</td> 
-      <td>LDAV</td>
+      <td>
+        <table border="1">
+          <td><strong>Sunday (Oct 21, 2018)</strong></td> 
+        </table> 
+      </td>
     </tr>
+    <tr>
+      <td>
+        <table border="1">
+          <td><strong>Sunday (Oct 22, 2018)</strong></td> 
+        </table> 
+      </td>
+    </tr>
+    
+    <tr>
+      <td>
+        <table border="1">
+          <td>Session 1: 8:30am-10:10am</td> 
+          <td>BELIV</td> 
+          <td>LDAV</td>
+          <td>VAST Challenge</td>
+        </table> 
+      </td>
+      
+      <td>
+        <table border="1">
+          <td>VizSec</td> 
+          <td>VDS</td> 
+          <td>VIP</td>
+          <td>BioVis Challenge</td>
+        </table> 
+      </td>
+    </tr>
+    
   </tbody> 
 </table> 
