@@ -198,7 +198,7 @@ permalink: /year/2018/info/committees/conference-committee
       <td><i>Pacific Northwest National Laboratory</i></td>
     </tr>
      <tr>
-      <td>Jordan Crouserk</td>
+      <td>Jordan Crouser</td>
       <td><i>Smith College</i></td>
     </tr>
     <tr>
