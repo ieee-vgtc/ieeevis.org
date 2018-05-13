@@ -60,6 +60,12 @@
         "year": 2011
     }, 
     {
+        "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/VelirLogo_3-colorPMS.jpg", 
+        "href": "http://www.velir.com/", 
+        "class": "Silver", 
+        "year": 2011
+    }, 
+    {
         "src": "/attachments/supporterssites/visweek.vgtc.org/files/supporter/ak_peters.jpg", 
         "href": "http://www.akpeters.com/", 
         "class": "Publisher", 
@@ -1128,15 +1134,91 @@
     {
         "src": "/attachments/supporters/2018/converted/dfg.png", 
         "company": "DFG", 
-        "href": "http://www.dfg.de", 
+        "href": "http://www.dfg.de/en/index.jsp", 
         "class": "Diamond", 
         "year": 2018
     },
-    {
+    {    "src": "/attachments/supporters/tmp/nsf_t.png", 
+        "company": "NSF", 
+        "href": "http://www.nsf.gov/", 
+        "class": "Diamond", 
+        "year": 2018
+     },
+      {
+        "src": "/attachments/supporters/2018/logo-tableau.png", 
+        "company": "Tableau Software", 
+        "href": "http://www.tableau.com", 
+        "class": "Platinum", 
+        "year": 2018
+    }, 
+     {
         "src": "/attachments/supporters/2018/converted/bosch.png", 
         "company": "Bosch", 
-        "href": "", 
+        "href": "http://www.boschresearch.com/", 
+        "class": "Gold", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/think-cell_transparent_screen.png", 
+        "company": "think-cell", 
+        "href": "https://www.think-cell.com/developers", 
+        "class": "Gold", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/Bayer.png", 
+        "company": "Bayer", 
+        "href": "https://www.bayer.com/", 
+        "class": "Gold", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/KAUST_logo-right-big.png", 
+        "company": "KAUST", 
+        "href": "https://vcc.kaust.edu.sa/Pages/Home.aspx ", 
         "class": "Silver", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/ms-logo.png", 
+        "company": "Microsoft Research", 
+        "href": "https://www.microsoft.com/en-us/research/", 
+        "class": "Silver", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/DKRZ-Logo_mitUnterzeile.jpg", 
+        "company": "DKRZ", 
+        "href": "https://www.dkrz.de/dkrz-partner-for-climate-research?set_language=en&cl=en", 
+        "class": "Bronze", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/3D_Interactive_Logo_Final_RGB-01.png", 
+        "company": "3dInteractive", 
+        "href": "http://www.3dinteractive.de/", 
+        "class": "Bronze", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/IVU_Logo_2017.jpg", 
+        "company": "IVU", 
+        "href": "https://www.ivu.com", 
+        "class": "Startup / Small Company", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/dr-logo-red_converted.png", 
+        "company": "Disney Research",
+        "href": "https://www.disneyresearch.com", 
+        "class": "Non-Profit / Publisher / Academic", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/OVGU_SIGN_web_Farbig.jpg", 
+        "company": "OvGU", 
+        "href": "http://www.ovgu.de/en/", 
+        "class": "Financial Co-Sponsor", 
         "year": 2018
     }
 ]

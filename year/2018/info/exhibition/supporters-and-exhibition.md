@@ -20,7 +20,7 @@ You can register as a VIS supporter by clicking [here](http://www.cvent.com/d/st
 
 * Gain first hand access to highly talented and skilled individuals for recruitment into your product development and research teams. Many of the conference participants are job seeking senior doctoral candidates and postdoctoral research fellows. There will be a virtual job fair to match jobseekers with employers, where gold, platinum, and diamond supporters are given priority.
 
-* Increase visibility among conference attendees with a exhibit. The 2018 exhibits will be held in high traffic areas to maximize the interaction between supporters and attendees. An exhibit gives the opportunity to promote your company through print, presentation, media, and personal contact. Exhibit days are October 23-25, 2018, the highest frequency days of the conference.
+* Increase visibility among conference attendees with an exhibit. The 2018 exhibits will be held in high traffic areas to maximize the interaction between supporters and attendees. An exhibit gives the opportunity to promote your company through print, presentation, media, and personal contact. Exhibit days are October 23-25, 2018, the highest frequency days of the conference.
 
 
 * In addition to exhibit space, platinum and diamond supporters and above will have a time slot to present their technologies and research in the official conference supporter track.

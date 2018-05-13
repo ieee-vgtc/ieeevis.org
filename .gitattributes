@@ -5,3 +5,4 @@
 # for info on linux subsystem, see <https://msdn.microsoft.com/en-us/commandline/wsl/install-win10>.
 *.sh text eol=lf
 *.bash text eol=lf
+*.md text eol=lf

@@ -1,11 +1,11 @@
 ---
-layout: main-2017
+layout: main-2018
 title: Instructions for editing the website
 ---
 
 <style type="text/css">
 .instructions-img {
-width: 620px;
+  width: 620px;
 }
 </style>
 
@@ -96,6 +96,6 @@ changes.
 
 This is the result of five years of legacy pages written atop of each other. We're slowly improving the situation, but the legacy content is currently quite messy. Pull requests are welcome.
 
-# How to compare staging and production
+# How to compare staging and production files
 
 This link [compares staging and production branches](https://github.com/ieee-vgtc/ieeevis.org/compare/production).

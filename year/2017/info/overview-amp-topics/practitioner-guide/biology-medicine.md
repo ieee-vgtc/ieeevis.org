@@ -26,11 +26,11 @@ This workshop brings together researchers from the visualization, bioinformatics
 
 
 #### Friday
+
 * *Paper Session* - **Applications and visual analysis** - 8:30am-10:10am, Room: 106-ABC
   * BASTet: Shareable and reproducible analysis and visualization of mass spectrometry imaging data via OpenMSI
   * Multiscale Visualization and Scale-Adaptive Modification of DNA Nanostructures
- 
- 
+
 
 -----
 *** 

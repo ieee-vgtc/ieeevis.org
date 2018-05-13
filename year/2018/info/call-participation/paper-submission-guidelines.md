@@ -1,14 +1,29 @@
 ---
-title: IEEE VIS Submission Guidelines
+title: IEEE VIS Paper Submission Guidelines
 layout: main-2018
 permalink: /year/2018/info/call-participation/paper-submission-guidelines
 ---
+All conferences at IEEE VIS use similar submission and review processes. Please read the individual paper types and topics documents for each of the conferences here: [VAST](vast-paper-types), [InfoVis](infovis-paper-types), and [SciVis](scivis-paper-types). Make sure that you carefully read the guidelines below before submitting your paper.
 
-All conferences at IEEE VIS use similar submission and review processes. Please read the individual paper types and topics documents for each of the conferences here: VAST, InfoVis, and SciVis. Make sure that you carefully read the guidelines below before submitting your paper. Here is a summary of the most important submission guidelines:
+## Contents
+
+- [Important Submission Requirements](#important-submission-requirements)
+- [Submission System](#submission-system)
+- [Formatting and Language Guidelines](#formatting-and-language-guidelines)
+- [Topic Area](#topic-area)
+- [Anonymization](#anonymization)
+- [Abstract Submission](#abstract-submission)
+- [Plagiarism](#plagiarism)
+- [Review Process](#review-process)
+- [Page Length Restrictions](#page-length-restrictions)
+- [Supplemental Material](#supplemental-material)
+- [Resubmitting Rejected Papers](#resubmitting-rejected-papers)
+- [General Expectations](#general-expectations)
+- [Ethics Guidelines](#ethics-guidelines)
 
 ## Important Submission Requirements
 
-* Abstract vs. full deadline - submission information (title, abstract, authors, keywords) are due on **March 21**, and full papers with supplemental material are due on **March 31**.
+* Abstract vs. full deadline - submission information (title, abstract, authors) are due on **March 21**, and full papers with supplemental material are due on **March 31**.
 * 9+2 page restriction - VIS papers are **strictly** limited to 9 pages of content plus an additional 2 pages of references. Papers may be shorter than this but must make a similar contribution to a longer paper.
 * Resubmissions encouraged - authors are encouraged to include reviews and responses for previously rejected papers in their submission to IEEE VIS.
 * Optional single-blind or double-blind - reviewers’ identities are not revealed. Authors may choose whether to anonymize their submission or not.
@@ -18,7 +33,9 @@ All conferences at IEEE VIS use similar submission and review processes. Please 
 
 All three conferences at IEEE VIS use the [Precision Conference System (PCS)](https://new.precisionconference.com/vgtc) to handle their submission and reviewing process. When submitting your manuscript, please make sure that you submit it to your intended conference by clicking the appropriate conference header in the conference system landing page. If you are unsure which venue you should submit to, you can use the paper types and topics on this website ([VAST](vast-paper-types), [InfoVis](infovis-paper-types), and [SciVis](scivis-paper-types)), as well as last year’s published proceedings as a guideline.
 
-## Submission Criteria
+## Formatting and Language Guidelines
+
+Papers must follow the [formatting guidelines for IEEE VIS *TVCG* Journal submissions](http://junctionpublishing.org/vgtc/Track/vis-tvcg.html). Papers should include full-color figures throughout and we encourage authors to showcase their work with annotated, well described, large, and detailed graphics. We also encourage the placement of a teaser image at the top of the very first page to showcase your work visually. IEEE VIS reviewers appreciate high-quality submissions with correct English spelling and grammar, so non-native English speakers may wish to enlist an English language editing service.
 
 # Topic Area
 
@@ -30,7 +47,7 @@ All three conferences at IEEE VIS allow both single-blind (not anonymized) as we
 
 # Abstract submission
 
-Note that submission of an abstract for each paper is **mandatory** by March 21, and full papers with all supplemental material are due on March 31. Late submissions, or submissions without a previously submitted abstract, will not be allowed. Furthermore, submission information—including title, abstract, keywords, and author—**MUST** be complete by the abstract deadline on March 21. In particular, adding authors after the abstract deadline is not allowed. The author information is used for detecting conflicts of interest when assigning papers to program committee members and reviewers, so it must be complete by the time abstracts are submitted.
+Note that submission of an abstract for each paper is **mandatory** by March 21, and full papers with all supplemental material are due on March 31. Late submissions, or submissions without a previously submitted abstract, will not be allowed. Furthermore, submission information—including title, abstract, and author—**MUST** be complete by the abstract deadline on March 21. In particular, adding authors after the abstract deadline is not allowed. The author information is used for detecting conflicts of interest when assigning papers to program committee members and reviewers, so it must be complete by the time abstracts are submitted.
 
 # Plagiarism
 
@@ -46,13 +63,9 @@ All VIS papers undergo a rigorous review process involving at least four reviewe
 
 All decisions after the first round of reviews are either *conditional acceptances* or *rejections*. Virtually all conditionally accepted papers come with written requirements for final acceptance. Effectively addressing these requirements in a second round version of the paper is essential and the responsibility of the authors. Reviewers may sometimes communicate directly with authors to address minor points in the revised paper, effectively allowing for additional reviewing rounds. However, such additional communication is at the discretion of reviewers and not a requirement. If the revised version of a paper fails to address feedback to the satisfaction of the reviewers, the paper will ultimately be rejected after the second reviewing round.
 
-## Formatting and Language Guidelines
-
-Papers must follow the [formatting guidelines for IEEE VIS *TVCG* Journal submissions](http://junctionpublishing.org/vgtc/Track/vis-tvcg.html). Papers should include full-color figures throughout and we encourage authors to showcase their work with annotated, well described, large, and detailed graphics. We also encourage the placement of a teaser image at the top of the very first page to showcase your work visually. IEEE VIS reviewers appreciate high-quality submissions with correct English spelling and grammar, so non-native English speakers may wish to enlist an English language editing service.
-
 ## Page Length Restrictions
 
-The length of a paper should be commensurate with its contribution, up to a maximum of nine (9) pages with an additional two (2) pages allowed only for references. Please ensure that your submission contains no content beyond references on the (optional) tenth and eleventh page (including figures, tables, or acknowledgments). Manuscripts that are submitted with non-reference content beyond 9 pages may be required to be shortened by the authors on very short notice (within 24 hours), or even desk rejected (for egregious violations).  Papers may be shorter than 9 pages but must make a similar contribution to a longer paper. Using effective and informative graphics can be a good use of the available space.
+Paper length may be up to a maximum of nine (9) pages with an additional two (2) pages allowed only for references. Please ensure that your submission contains no content beyond references on the (optional) tenth and eleventh page (including figures, tables, or acknowledgments). Manuscripts that are submitted with non-reference content beyond 9 pages may be required to be shortened by the authors on very short notice (within 24 hours), or even desk rejected (for egregious violations).  Papers may be shorter than 9 pages but must make a similar contribution to a longer paper. Using effective and informative graphics can be a good use of the available space.
 
 Pages 10 and 11 are strictly reserved for references only. A paper does not have to include two full pages of references, but the generous allocation of these pages is meant to signify the importance that IEEE VIS attaches to authors fully anchoring their work in both its full academic context and the state of the art.
 
