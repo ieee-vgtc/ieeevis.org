@@ -12,7 +12,7 @@ We invite you to participate in IEEE VIS 2018 by supporting and exhibiting at th
 
 To support VIS 2018, please contact [supporters@ieeevis.org](mailto:supporters@ieeevis.org). We will soon provide an online registration link here. 
 
-<!--You can register as a VIS 2017 supporter by clicking [here](http://www.cvent.com/events/2017-ieee-visualization-conference-supporter-vis-/registration-d22aeff4b0d54841b2b367fc8178323d.aspx).-->
+You can register as a VIS supporter by clicking [here](http://www.cvent.com/d/stqbw8).
 
 ## Why Support and Exhibit at IEEE VIS 2018
 
