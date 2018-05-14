@@ -36,7 +36,9 @@ Panels will be recorded and posted to Vimeo for archival viewing. Panels from 20
 
 ## IMPORTANT DATES
 **Friday, June 15, 2018**   | Proposal Submission
+
 **Friday, August 10, 2018** | Notification
+
 **Friday, August 24, 2018** | Final Submission of Panel Summaries and Video Fast Forwards
 
 All deadlines are at **5:00pm Pacific Time (PDT)**.
