@@ -31,4 +31,4 @@ We invite you to participate in IEEE VIS 2018 by supporting and exhibiting at th
 
 For more details please see the [IEEE VIS 2018 Supporter Prospectus](VIS_Supporters_Prospectus_2018.pdf).
 
-You also can contact the supporter chairs: [supporters@ieeevis.org](mailto:supporters@ieeevis.org). 
+You can also contact the supporter chairs: [supporters@ieeevis.org](mailto:supporters@ieeevis.org). 
