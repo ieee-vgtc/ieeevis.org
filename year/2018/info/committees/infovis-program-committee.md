@@ -52,7 +52,7 @@ contact: infovis_papers@ieeevis.org
 | Michael Sedlmair | *Jacobs University Bremen, Germany* |
 | Jinwook Seo | *Seoul National University, Korea* |
 | Vidya Setlur | *Tableau Research, USA* |
-| Conglei Shi | *IBM Research, USA* |
+| Conglei Shi | *Airbnb Inc., USA* |
 | Aidan Slingsby | *City, University of London, UK* |
 | John Stasko | *Georgia Institute of Technology, USA* |
 | Marc Streit | *Johannes Kepler University Linz, Austria* |
