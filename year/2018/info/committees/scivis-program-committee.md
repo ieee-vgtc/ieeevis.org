@@ -47,7 +47,7 @@ contact: scivis_papers@ieeevis.org
 | Han-Wei Shen | *The Ohio State University* |
 | Claudio Silva | *New York University* |
 | Lisa Sobierajski-Avila | *Kitware* |
-| Julien Tierny | *Sorbonne Université* |
+| Julien Tierny | *CNRS/Sorbonne Université* |
 | Xavier Tricoche | *Purdue University* |
 | Anna Vilanova | *Delft University of Technology* |
 | Bei Wang | *University of Utah* |

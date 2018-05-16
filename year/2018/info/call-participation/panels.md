@@ -35,12 +35,22 @@ Feel free to address any questions concerning submission, format, and content to
 Panels will be recorded and posted to Vimeo for archival viewing. Panels from 2017 can be found at [http://ieeevis.org/year/2017/info/panels](http://ieeevis.org/year/2017/info/panels).
 
 ## IMPORTANT DATES
-Proposal Submission               | **Friday, June 15, 2018**
-
-Notification                      | **Friday, August 10, 2018**
-
-Final Submission of Panel Summaries and Video Fast Forwards       | **Friday, August 24, 2018**
-
+<table border="1">
+  	<tbody>
+  		<tr>
+  			<td>Friday, June 15, 2018</td>
+  			<td>Proposal Submission</td>
+  		</tr>
+    <tr>
+  			<td>Friday, August 10, 2018</td>
+  			<td>Notification</td>
+  		</tr>
+    <tr>
+  			<td>Friday, August 24, 2018</td>
+  			<td>Final Submission of Panel Summaries and Video Fast Forwards</td>
+  		</tr>
+  	</tbody>
+</table>
 All deadlines are at **5:00pm Pacific Time (PDT)**.
 
 ## CHAIRS
