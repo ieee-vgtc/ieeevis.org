@@ -28,7 +28,7 @@ permalink: /year/2018/info/important-dates
 | Posters notification                                 | July 22, 2018 |
 | SciVis contest deadline                              | July 31, 2018 |
 | Student Volunteer application deadline               | Aug 01, 2018  |
-| Panels notification                                  | Aug 05, 2018  |
+| Panels notification                                  | Aug 10, 2018  |
 | Meetups early submission deadline                    | tba           |
 | VAST contest notification                            | tba           |
 | Doctoral Dissertation Award Nomination deadline      | tba           |
