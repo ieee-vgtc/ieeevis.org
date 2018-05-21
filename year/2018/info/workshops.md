@@ -12,7 +12,7 @@ permalink: /year/2018/info/workshops
 * [DSIA: Data Systems for Interactive Analysis](#dsia)
 * [Workshop on Visualization for Communication (VisComm)](#viscomm)
 * [Machine Learning from User Interaction for Visualization and Analytics](#machine-learning)
-* [Workshop on Visual Storytelling for the Exploration and Explanation of Machine Learning Models](#viz-for-ml)
+* [Workshop on Visualization for AI Explainability (VISxAI)](#visxai)
 
 ## <a name="digital-humanities"></a> 3rd Workshop on Visualization for the Digital Humanities
 
@@ -109,8 +109,7 @@ Contact: jw87@vt.edu
 The goal of this workshop is to bring together researchers from across the VIS community to share their knowledge and build collaborations at the intersection of the Machine Learning and Visualization fields, with a focus on learning from user interaction.  Our intention in this workshop is to pull expertise from across all fields of VIS in order to generate open discussion about how we currently learn from user interaction and where we can go with future research in this area.  Further, we hope to collaboratively create a research agenda that explores the future of machine learning with user interaction based on the discussion during the workshop.
 
 
-## <a name="viz-for-ml"></a> Visual Storytelling for the Exploration and Explanation of Machine Learning Models
-
+## <a name="visxai"></a> [Workshop on Visualization for AI Explainability (VISxAI)](http://visxai.io)
 
 Mennatallah El-Assady, University of Konstanz / University of Ontario Institute of Technology  
 Duen Horng Chau, Georgia Tech  
@@ -118,4 +117,6 @@ Adam Perer, IBM Research / Carnegie Mellon University
 Hendrik Strobelt, IBM Research / MIT-IBM Watson AI Lab  
 Fernanda Viegas, Google Brain
 
-Contact: hendrik@strobelt.com
+Contact: orga.visxai@gmail.com
+
+The goal of this workshop is to initiate a call for "explainables" that explain how AI techniques work using visualizations. We believe the VIS community can leverage their expertise in creating visual narratives to bring new insight into the often obfuscated complexity of AI systems.
