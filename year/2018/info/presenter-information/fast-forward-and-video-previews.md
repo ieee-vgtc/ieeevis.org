@@ -50,9 +50,9 @@ vertical-align: top;
 </td></tr>
 <tr><td class="left">Audio</td><td class="videopreview">Narration and free-to-use music<br>
 ** More details below</td><td class="fastforward">None</td></tr>
-<tr><td rowspan="2" class="left">Who</td><td colspan="2">Papers (VAST, InfoVis, SciVis, TVCG, CG&amp;A, VISAP)<br>
+<tr><td rowspan="2" class="left">Who</td><td colspan="2">Papers (VAST, InfoVis, SciVis, TVCG, CG&amp;A, VISAP)<br>Panels<br>
 ** Please submit only one video that can be used with audio as VP and without audio as FF</td></tr>
-<tr><td class="videopreview">Panels<br>Posters (all)</td><td class="fastforward">Posters (only best and honorable mention posters)<br>SciVis contest<br>VISAP art event<br>Supporters<br></td></tr>
+<tr><td class="videopreview">Posters (all)</td><td class="fastforward">Posters (only best and honorable mention posters)<br>SciVis contest<br>VISAP art event<br>Supporters<br></td></tr>
 </tbody>
 </table>
 
