@@ -10,8 +10,8 @@ permalink: /year/2018/info/important-dates
 | Full papers submission                               | Mar 31, 2018 |
 | Tutorials submission                                 | Apr 30, 2018 |
 | Doctoral colloquium submission                       | May 22, 2018 |
-| VIS Arts Program submission                          | June 1, 2018 |
 | Papers conditional acceptance notification           | June 06, 2018 |
+| VIS Arts Program submission                          | June 08, 2018 |
 | SciVis short papers submission                       | June 13, 2018 |
 | Panels submission                                    | June 15, 2018 |
 | Posters submission                                   | June 16, 2018 |
