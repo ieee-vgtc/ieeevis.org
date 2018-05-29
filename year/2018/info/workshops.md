@@ -4,7 +4,7 @@ layout: main-2018
 permalink: /year/2018/info/workshops
 ---
 
-* [3rd Workshop on Visualization for the Digital Humanities](#digital-humanities)
+* [Workshop on Visualization for the Digital Humanities](#vis4dh)
 * [Toward a Design Language for Data Physicalization](#dataphys)
 * [CityVis -- Urban Data Visualization](#cityvis)
 * [VisGuides: 2nd Workshop on the Creation, Curation, Critique and Conditioning of Principles and Guidelines in Visualization](#visguides)
@@ -14,18 +14,19 @@ permalink: /year/2018/info/workshops
 * [Machine Learning from User Interaction for Visualization and Analytics](#machine-learning)
 * [Workshop on Visualization for AI Explainability (VISxAI)](#visxai)
 
-## <a name="digital-humanities"></a> 3rd Workshop on Visualization for the Digital Humanities
+## <a name="vis4dh"></a> [Workshop on Visualization for the Digital Humanities](http://www.vis4dh.org/)
 
-
+Mennatallah El-Assady, University of Konstanz  
+Stefan Jänicke, Leipzig University  
+David Joseph Wrisley, New York University  
 Eric Alexander, Carleton College  
 Adam James Bradley, University of Ontario Institute of Technology  
 Min Chen, University of Oxford  
-Mennatallah El-Assady, University of Konstanz / University of Ontario Institute of Technology  
-Uta Hinrichs, The University of St Andrews  
-Stefan Jänicke, Leipzig University  
-David Joseph Wrisley, New York University
+Uta Hinrichs, The University of St Andrews
 
-Contact: mennatallah.el-assady@uni-konstanz.de
+Contact: menna.el-assady@uni.kn
+
+We are witnessing a growth in collaborations between the humanities and computing. One only need to look to the media arts, visual communication, information visualization, and digital humanities to see exciting new examples of interdisciplinary research. In this year's workshop, we hope to feature some of this visual innovation in the realm of applied visualization, as well as to explore new avenues for interdisciplinary and collaborative research between visualization and the humanities. We will explore different vocabularies and conceptual frameworks deployed by computer science on the one hand and the humanities on the other, and use these to think about how to engage differences, as potentially rich opportunities rather than seeing them as barriers.
 
 
 ## <a name="dataphys"></a> [Toward a Design Language for Data Physicalization](http://dataphys.org/workshops/vis18/)
@@ -59,7 +60,7 @@ Alexandra Diehl, University of Konstanz
 Benjamin Bach, University of Edinburgh  
 Alfie Abdul-Rahman, King's College London
 
-Contact: diehl@dbvis.inf
+Contact: diehl@dbvis.inf.uni-konstanz.de
 
 The ever-increasing global awareness, practice, and teaching of information and data visualization include a growing audience of consumers and creators. We, as a scientific community must put careful emphasis on the collection and curation of knowledge in the area. The goal of this workshop is to discuss and consolidate guidelines, best practices, controversies, and success stories in the field of information visualization.
 
@@ -86,13 +87,14 @@ Contact: organizers@interactive-analysis.org
 DSIA brings together researchers at the intersection of databases, machine learning, and interactive visualization. These three areas have important things to say to each other. Modern data visualization depends on the cutting edge of both database and machine learning research: database researchers are exploring techniques for storing and querying massive amounts of data; machine learning techniques provide ways to discover unexpected patterns and to automate and scale well-defined analysis procedures. This workshop explores the idea that the next generation of database, machine learning, and interactive visualization systems should not be designed in isolation. For example, machine learning techniques might recommend improved data transformation and visual encoding decisions. Or, database query optimizers might take advantage of perceptual constraints, while prefetching methods reduce latency by modeling likely interactions. This workshop seeks to increase cross-pollination between these fields.
 
 
-## <a name="viscomm"></a> Workshop on Visualization for Communication (VisComm)
-
+## <a name="viscomm"></a> [Workshop on Visualization for Communication (VisComm)](https://viscomm.io/)
 
 Robert Kosara, Tableau Research  
 Benjamin Watson, North Carolina State University
 
 Contact: bwatson@ncsu.edu
+
+While visualization research is still largely focused on data analysis, most people's experience with visualization is in the form of communication and presentation, as seen now in publications such as the New York Times and from an independent community of visualization practitioners and bloggers. The VisComm workshop will bring together both practitioners and researchers from a broad range of disciplines to address the questions raised by visualization's new communicative role. We encourage participation from journalists, designers and others that do not typically attend IEEE VIS and write academic manuscripts. Accordingly, we seek not only short papers but also visual case studies: one-page abstracts with video walkthroughs of communicative visualizations.
 
 
 ## <a name="machine-learning"></a> [Machine Learning from User Interaction for Visualization and Analytics](https://learningfromusersworkshop.github.io/)
