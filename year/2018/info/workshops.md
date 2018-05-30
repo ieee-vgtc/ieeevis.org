@@ -16,13 +16,13 @@ permalink: /year/2018/info/workshops
 
 ## <a name="vis4dh"></a> [Workshop on Visualization for the Digital Humanities](http://www.vis4dh.org/)
 
+Mennatallah El-Assady, University of Konstanz  
+Stefan Jänicke, Leipzig University  
+David Joseph Wrisley, New York University  
 Eric Alexander, Carleton College  
 Adam James Bradley, University of Ontario Institute of Technology  
 Min Chen, University of Oxford  
-Mennatallah El-Assady, University of Konstanz / University of Ontario Institute of Technology  
-Uta Hinrichs, The University of St Andrews  
-Stefan Jänicke, Leipzig University  
-David Joseph Wrisley, New York University
+Uta Hinrichs, The University of St Andrews
 
 Contact: menna.el-assady@uni.kn
 
