@@ -33,7 +33,7 @@ Submissions should be emailed to
 
 To best accommodate the needs ranging from early planned proposals to impromptu meetups on site, we accept different types of submission, depending on the period when the idea of a meetup sparks: early submissions, rolling submissions, and impromptu meetups. All three are equally good, although later submissions will be considered subject to room availability.
 
-| Early Submission Deadline | **Friday, August 3, 2018, 2018** |
+| Early Submission Deadline | **Friday, August 3, 2018** |
 | Notification | **Friday, August 10, 2018** |
 
 *Rolling submission*: Submissions after the early submission deadline will be considered subject to room availability. Later submissions will be processed and notified within a couple of days.
