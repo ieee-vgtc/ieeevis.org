@@ -34,6 +34,7 @@ permalink: /year/2018/info/important-dates
 | Doctoral Dissertation Award Nomination deadline      | tba           |
 | SciVis contest notification                          | Aug 31, 2018  |
 | Early registration deadline                          | Sep 07, 2018  |
+| Video preview and fastforward deadline               | Aug 15, 2018  |
 
 
 <script src="important-dates.js"></script>
