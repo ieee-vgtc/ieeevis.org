@@ -21,8 +21,8 @@ permalink: /year/2018/info/important-dates
 | LDAV full paper submission                           | July 1, 2018 |
 | Papers final acceptance notification                 | July 11, 2018 |
 | Doctoral colloquium notification                     | July 11, 2018 |
-| VDS paper submission                                 | July 13, 2018 |
 | VAST challenge deadline                              | July 13, 2018 |
+| VDS paper submission                                 | July 16, 2018 |
 | DSIA challenge deadline                              | July 17, 2018 |
 | VizSec paper submission                              | July 18, 2018 |
 | SciVis short papers notification                     | July 19, 2018 |
