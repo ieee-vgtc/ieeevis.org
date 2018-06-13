@@ -10,7 +10,9 @@ Promoting and fostering inclusion is important to IEEE VIS. This year, the IEEE 
 Inclusivity Content at IEEE VIS 2018 will include meet-ups, panels, and events focused around inclusivity, awareness in our community, and family through VISKids events and meet-ups.
 
 ### Inclusivity & Diversity Co-Chairs
+
 Michelle Borkin (Northeastern University)
+
 Kelly Gaither (Texas Advanced Computing Center)
 
 ### Contact
