@@ -38,7 +38,7 @@ Panels will be recorded and posted to Vimeo for archival viewing. Panels from 20
 <table border="1">
   	<tbody>
   		<tr>
-  			<td>Friday, June 15, 2018</td>
+  			<td>Friday, June 29, 2018</td>
   			<td>Proposal Submission</td>
   		</tr>
     <tr>
