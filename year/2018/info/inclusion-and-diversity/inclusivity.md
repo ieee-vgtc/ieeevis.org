@@ -21,5 +21,8 @@ Please contact [inclusivity@ieeevis.org](mailto:inclusivity@ieeevis.org) with an
  
 ### Support Inclusivity & Diversity at IEEE VIS
 
+Inclusivity & Diversity at IEEE VIS is supported by the following organizations:
+PUNCH Cyber Analytics Group
+
 If you are interested in being an Inclusivity & Diversity supporter, please contact [supporters@ieeevis.org](mailto:supporters@ieeevis.org).
  
