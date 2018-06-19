@@ -25,5 +25,7 @@ Inclusivity & Diversity at IEEE VIS is supported by the following organizations:
 
 - <a href="https://punchcyber.com/">PUNCH Cyber Analytics Group</a>
 
+
+
 If you are interested in being an Inclusivity & Diversity supporter, please contact [supporters@ieeevis.org](mailto:supporters@ieeevis.org).
  
