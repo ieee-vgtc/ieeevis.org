@@ -362,6 +362,10 @@ permalink: /year/2018/info/committees/conference-committee
       <td><i>University of Vienna</i></td>
     </tr>
     <tr>
+      <td>John Wenskovitch</td>
+      <td><i>Virginia Tech</i></td>
+    </tr>
+    <tr>
       <td>Fumeng Yang</td>
       <td><i>Brown University</i></td>
     </tr>
