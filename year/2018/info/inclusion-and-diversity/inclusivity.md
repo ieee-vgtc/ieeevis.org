@@ -24,6 +24,7 @@ Please contact [inclusivity@ieeevis.org](mailto:inclusivity@ieeevis.org) with an
 Inclusivity & Diversity at IEEE VIS is supported by the following organizations:
 
 - <a href="https://punchcyber.com/">PUNCH Cyber Analytics Group</a>
+- <a href="https://www.kitware.com/">Kitware, Inc.</a>
 
 
 
