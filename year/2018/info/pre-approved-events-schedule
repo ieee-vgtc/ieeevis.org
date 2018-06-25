@@ -4,54 +4,1378 @@ layout: main-2018
 permalink: /year/2018/info/pre-approved-events-schedule
 contact: "web@ieeevis.org"
 ---
-<table border="1">
-  	<thead>
-  		<tr>
-  			<th style="border-bottom: 2px solid #494949;"></th>
-  			<th colspan="3" style="border-bottom: 2px solid #494949;">Sunday (Oct 21, 2018)</th>
-  			<th colspan="4" style="border-bottom: 2px solid #494949;">Monday (Oct 22, 2018)</th>
-  		</tr>
-  	</thead>
-  	<tbody>
-  		<tr>
-  			<td>Session 1: 8:30am-10:10am</td>
-  			<td>BELIV</td>
-  			<td>LDAV</td>
-  			<td>VAST Challenge</td>
-  			<td>VizSec</td>
-  			<td>VDS</td>
-  			<td>VIP</td>
-  			<td>BioVis Challenges</td>
-  		</tr>
-  		<tr>
-  			<td>Session 2: 10:30am-12:10pm</td>
-  			<td>BELIV</td>
-  			<td>LDAV</td>
-  			<td>VAST Challenge</td>
-  			<td>VizSec</td>
-  			<td>VDS</td>
-  			<td>VIP</td>
-  			<td>BioVis Challenges</td>
-  		</tr>
-  		<tr>
-  			<td>Session 3: 2:00pm-3:40pm</td>
-  			<td>BELIV</td>
-  			<td>LDAV</td>
-  			<td>VAST Challenge</td>
-  			<td>VizSec</td>
-  			<td>VDS</td>
-  			<td>VIP</td>
-  			<td></td>
-  		</tr>
-  		<tr>
-  			<td>Session 4: 4:15pm-5:55pm</td>
-  			<td>BELIV</td>
-  			<td>LDAV</td>
-  			<td>VAST Challenge</td>
-  			<td>VizSec</td>
-  			<td>VDS</td>
-  			<td>VIP</td>
-  			<td></td>
-  		</tr>
-  	</tbody>
+
+		    	<style id="Kopie von 2018_Program - Sun-Mon_final_fuer Janos_27089_Styles">
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+.xl6627089
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl6727089
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl6827089
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl6927089
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:red;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl7027089
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl7127089
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:red;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl7227089
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl7327089
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:1.0pt solid windowtext;
+	border-left:1.0pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl7427089
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:middle;
+	border-top:1.0pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:1.0pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl7527089
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:1.0pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl7627089
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl7727089
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:1.0pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl7827089
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:1.0pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl7927089
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:14.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl8027089
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:14.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:1.0pt solid windowtext;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl8127089
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#D8E4BC;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl8227089
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#D8E4BC;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl8327089
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	background:#D8E4BC;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl8427089
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#D8E4BC;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl8527089
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#D8E4BC;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl8627089
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	background:#D8E4BC;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl8727089
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	background:#D8E4BC;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl8827089
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#FCD5B4;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl8927089
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#FCD5B4;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl9027089
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	background:#FCD5B4;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl9127089
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	background:#CCC0DA;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl9227089
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	background:#CCC0DA;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl9327089
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	background:#CCC0DA;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl9427089
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	background:#FCD5B4;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl9527089
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#FCD5B4;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl9627089
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#FCD5B4;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl9727089
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	background:#FCD5B4;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl9827089
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	background:#FCD5B4;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl9927089
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#8DB4E2;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl10027089
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl10127089
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl10227089
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:white;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#632523;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl10327089
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:white;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;
+	background:#632523;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl10427089
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:white;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#632523;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl10527089
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:white;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	background:#632523;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl10627089
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:white;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	background:#632523;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl10727089
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:white;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	background:#632523;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl10827089
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:1.0pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	background:#D8E4BC;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl10927089
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:1.0pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+-->
+</style>
+
+<div id="Kopie von 2018_Program - Sun-Mon_final_fuer Janos_27089" align=center
+x:publishsource="Excel">
+
+<table border=0 cellpadding=0 cellspacing=0 width=1250 class=xl6727089
+ style='border-collapse:collapse;table-layout:auto;width:940pt'>
+ <col class=xl7627089 width=90 style='mso-width-source:userset;mso-width-alt:
+ 3291;width:68pt'>
+ <col class=xl6727089 width=145 span=8 style='mso-width-source:userset;
+ mso-width-alt:5302;width:109pt'>
+ <tr height=40 style='mso-height-source:userset;height:30.0pt'>
+  <td height=40 class=xl7427089 width=90 style='height:30.0pt;width:68pt'>&nbsp;</td>
+  <td colspan=8 class=xl7927089 width=1160 style='border-right:1.0pt solid black;
+  width:872pt'>Saturday (Oct 20, 2018)</td>
+ </tr>
+ <tr height=36 style='mso-height-source:userset;height:27.0pt'>
+  <td height=36 class=xl7327089 style='height:27.0pt'>Full Day</td>
+  <td colspan=8 class=xl9127089 style='border-right:.5pt solid black'>Doctoral
+  Colloquium<span style='mso-spacerun:yes'>   </span>(by invitation only)</td>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+  <td height=20 class=xl7627089 style='height:15.0pt'></td>
+  <td class=xl6727089></td>
+  <td class=xl6727089></td>
+  <td class=xl6727089></td>
+  <td class=xl6727089></td>
+  <td class=xl6727089></td>
+  <td class=xl6727089></td>
+  <td class=xl6727089></td>
+  <td class=xl6727089></td>
+ </tr>
+ <tr class=xl6627089 height=40 style='mso-height-source:userset;height:30.0pt'>
+  <td height=40 class=xl7427089 style='height:30.0pt'>&nbsp;</td>
+  <td colspan=8 class=xl7927089 width=1160 style='border-right:1.0pt solid black;
+  width:872pt'>Sunday (Oct 21, 2018)</td>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+  <td rowspan=6 height=120 class=xl7727089 style='height:90.0pt'>Session 1</td>
+  <td rowspan=6 class=xl9927089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>BELIV</td>
+  <td rowspan=6 class=xl9927089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>LDAV</td>
+  <td rowspan=6 class=xl9927089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>VAST Challenge</td>
+  <td rowspan=6 class=xl8127089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>Introduction to IATK: An Immersive Visual Analytics toolkit</td>
+  <td rowspan=6 class=xl8827089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>3rd Workshop on Visualization for the Digital Humanities</td>
+  <td rowspan=6 class=xl8127089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>Everything except the chart 2018</td>
+  <td rowspan=6 class=xl8827089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>Toward a Design Language for Data Physicalization</td>
+  <td rowspan=6 class=xl9527089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>Workshop on Visualization for Communication (VisComm)</td>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+  <td height=20 class=xl7527089 style='height:15.0pt'>&nbsp;</td>
+  <td class=xl6827089 width=145 style='width:109pt'></td>
+  <td class=xl6827089 width=145 style='width:109pt'></td>
+  <td class=xl6827089 width=145 style='width:109pt'></td>
+  <td class=xl6827089 width=145 style='width:109pt'></td>
+  <td class=xl6827089 width=145 style='width:109pt'></td>
+  <td class=xl6727089></td>
+  <td class=xl6827089 width=145 style='width:109pt'></td>
+  <td class=xl7227089>&nbsp;</td>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+  <td rowspan=6 height=120 class=xl7727089 style='height:90.0pt'>Session 2</td>
+  <td rowspan=6 class=xl9927089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>BELIV</td>
+  <td rowspan=6 class=xl9927089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>LDAV</td>
+  <td rowspan=6 class=xl9927089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>VAST Challenge</td>
+  <td rowspan=6 class=xl8127089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>Introduction to IATK: An Immersive Visual Analytics toolkit</td>
+  <td rowspan=6 class=xl8827089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>3rd Workshop on Visualization for the Digital Humanities</td>
+  <td rowspan=6 class=xl8127089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>Everything except the chart 2018</td>
+  <td rowspan=6 class=xl8827089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>Toward a Design Language for Data Physicalization</td>
+  <td rowspan=6 class=xl9527089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>Workshop on Visualization for Communication (VisComm)</td>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+  <td height=20 class=xl7527089 style='height:15.0pt'>&nbsp;</td>
+  <td class=xl6827089 width=145 style='width:109pt'></td>
+  <td class=xl6827089 width=145 style='width:109pt'></td>
+  <td class=xl6827089 width=145 style='width:109pt'></td>
+  <td class=xl6827089 width=145 style='width:109pt'></td>
+  <td class=xl6827089 width=145 style='width:109pt'></td>
+  <td class=xl6827089 width=145 style='width:109pt'></td>
+  <td class=xl6827089 width=145 style='width:109pt'></td>
+  <td class=xl7027089 width=145 style='width:109pt'>&nbsp;</td>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+  <td rowspan=6 height=120 class=xl7727089 style='height:90.0pt'>Session 3</td>
+  <td rowspan=6 class=xl9927089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>BELIV</td>
+  <td rowspan=6 class=xl9927089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>LDAV</td>
+  <td rowspan=6 class=xl9927089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>VAST Challenge</td>
+  <td rowspan=6 class=xl8127089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>Tutorial on Comparative Visualization: Interactive Designs and
+  Algorithms Depending on Data and Tasks</td>
+  <td rowspan=6 class=xl8827089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>3rd Workshop on Visualization for the Digital Humanities</td>
+  <td rowspan=6 class=xl8127089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>Tutorial on Recent Feature Tracking Techniques</td>
+  <td rowspan=6 class=xl8827089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>DSIA: Data Systems for Interactive Analysis</td>
+  <td rowspan=6 class=xl8427089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>Topological Data Analysis Made Easy with the Topology ToolKit
+  (TTK)</td>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+  <td height=20 class=xl7527089 style='height:15.0pt'>&nbsp;</td>
+  <td class=xl6727089></td>
+  <td class=xl6727089></td>
+  <td class=xl6727089></td>
+  <td class=xl6727089></td>
+  <td class=xl6727089></td>
+  <td class=xl6827089 width=145 style='width:109pt'></td>
+  <td class=xl6827089 width=145 style='width:109pt'></td>
+  <td class=xl7027089 width=145 style='width:109pt'>&nbsp;</td>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+  <td rowspan=6 height=120 class=xl7727089 style='border-bottom:1.0pt solid black;
+  height:90.0pt'>Session 4</td>
+  <td rowspan=6 class=xl9927089 width=145 style='border-bottom:1.0pt solid black;
+  width:109pt'>BELIV</td>
+  <td rowspan=6 class=xl9927089 width=145 style='border-bottom:1.0pt solid black;
+  width:109pt'>LDAV</td>
+  <td rowspan=6 class=xl9927089 width=145 style='border-bottom:1.0pt solid black;
+  width:109pt'>VAST Challenge</td>
+  <td rowspan=6 class=xl8127089 width=145 style='border-bottom:1.0pt solid black;
+  width:109pt'>Tutorial on Comparative Visualization: Interactive Designs and
+  Algorithms Depending on Data and Tasks</td>
+  <td rowspan=6 class=xl8827089 width=145 style='border-bottom:1.0pt solid black;
+  width:109pt'>3rd Workshop on Visualization for the Digital Humanities</td>
+  <td rowspan=6 class=xl8127089 width=145 style='border-bottom:1.0pt solid black;
+  width:109pt'>Tutorial on Recent Feature Tracking Techniques</td>
+  <td rowspan=6 class=xl8827089 width=145 style='border-bottom:1.0pt solid black;
+  width:109pt'>DSIA: Data Systems for Interactive Analysis</td>
+  <td rowspan=6 class=xl8427089 width=145 style='border-bottom:1.0pt solid black;
+  width:109pt'>Topological Data Analysis Made Easy with the Topology ToolKit
+  (TTK)</td>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+ </tr>
+ <tr height=0 style='display:none;mso-height-source:userset;mso-height-alt:
+  300'>
+  <td class=xl7627089></td>
+  <td class=xl6727089></td>
+  <td class=xl6727089></td>
+  <td class=xl6727089></td>
+  <td class=xl6727089></td>
+  <td class=xl6727089></td>
+  <td class=xl6727089></td>
+  <td class=xl6727089></td>
+  <td class=xl6727089></td>
+ </tr>
+ <tr height=0 style='display:none;mso-height-source:userset;mso-height-alt:
+  300'>
+  <td class=xl7627089></td>
+  <td class=xl6727089></td>
+  <td class=xl6727089></td>
+  <td class=xl6727089></td>
+  <td class=xl6727089></td>
+  <td class=xl6727089></td>
+  <td class=xl6727089></td>
+  <td class=xl6727089></td>
+  <td class=xl6727089></td>
+ </tr>
+ <tr height=0 style='display:none;mso-height-source:userset;mso-height-alt:
+  300'>
+  <td class=xl7627089></td>
+  <td colspan=8 rowspan=4 class=xl10227089 width=1160 style='border-bottom:
+  .5pt solid black;width:872pt'>Opening Reception (7pm-9pm)</td>
+ </tr>
+ <tr height=0 style='display:none;mso-height-source:userset;mso-height-alt:
+  300'>
+  <td class=xl7627089></td>
+ </tr>
+ <tr height=0 style='display:none;mso-height-source:userset;mso-height-alt:
+  300'>
+  <td class=xl7627089></td>
+ </tr>
+ <tr height=0 style='display:none;mso-height-source:userset;mso-height-alt:
+  300'>
+  <td class=xl7627089></td>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+  <td height=20 class=xl7627089 style='height:15.0pt'></td>
+  <td class=xl6727089></td>
+  <td class=xl6727089></td>
+  <td class=xl6727089></td>
+  <td class=xl6727089></td>
+  <td class=xl6727089></td>
+  <td class=xl6727089></td>
+  <td class=xl6727089></td>
+  <td class=xl6727089></td>
+ </tr>
+ <tr height=40 style='mso-height-source:userset;height:30.0pt'>
+  <td height=40 class=xl7427089 style='height:30.0pt'>&nbsp;</td>
+  <td colspan=8 class=xl7927089 width=1160 style='border-right:1.0pt solid black;
+  width:872pt'>Monday (Oct 22, 2018)</td>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+  <td rowspan=6 height=120 class=xl7727089 style='height:90.0pt'>Session 1</td>
+  <td rowspan=6 class=xl9927089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>VizSec</td>
+  <td rowspan=6 class=xl9927089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>VDS</td>
+  <td rowspan=6 class=xl9927089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>VIP</td>
+  <td rowspan=6 class=xl9927089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>BioVis Challenge</td>
+  <td rowspan=6 class=xl8127089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>Urban Trajectory Data Visualization</td>
+  <td rowspan=6 class=xl8827089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>VisGuides: 2nd Workshop on the Creation, Curation, Critique and
+  Conditioning of Principles and Guidelines in Visualization</td>
+  <td rowspan=6 class=xl8827089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>VISREG - Visual Summarization and Report Generation: Beyond
+  Scatter-Plots and Bar-Charts</td>
+  <td rowspan=6 class=xl9527089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>Machine Learning from User Interaction for Visualization and
+  Analytics</td>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+  <td height=20 class=xl7527089 style='height:15.0pt'>&nbsp;</td>
+  <td class=xl6827089 width=145 style='width:109pt'></td>
+  <td class=xl6827089 width=145 style='width:109pt'></td>
+  <td class=xl6727089></td>
+  <td class=xl6827089 width=145 style='width:109pt'></td>
+  <td class=xl6727089></td>
+  <td class=xl6727089></td>
+  <td class=xl6827089 width=145 style='width:109pt'></td>
+  <td class=xl7027089 width=145 style='width:109pt'>&nbsp;</td>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+  <td rowspan=6 height=120 class=xl7727089 style='height:90.0pt'>Session 2</td>
+  <td rowspan=6 class=xl9927089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>VizSec</td>
+  <td rowspan=6 class=xl9927089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>VDS</td>
+  <td rowspan=6 class=xl9927089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>VIP</td>
+  <td rowspan=6 class=xl9927089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>BioVis Challenge</td>
+  <td rowspan=6 class=xl8127089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>Urban Trajectory Data Visualization</td>
+  <td rowspan=6 class=xl8827089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>VisGuides: 2nd Workshop on the Creation, Curation, Critique and
+  Conditioning of Principles and Guidelines in Visualization</td>
+  <td rowspan=6 class=xl8827089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>VISREG - Visual Summarization and Report Generation: Beyond
+  Scatter-Plots and Bar-Charts</td>
+  <td rowspan=6 class=xl9527089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>Machine Learning from User Interaction for Visualization and
+  Analytics</td>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+  <td height=20 class=xl7527089 style='height:15.0pt'>&nbsp;</td>
+  <td class=xl6827089 width=145 style='width:109pt'></td>
+  <td class=xl6827089 width=145 style='width:109pt'></td>
+  <td class=xl6827089 width=145 style='width:109pt'></td>
+  <td class=xl6727089></td>
+  <td class=xl6927089 width=145 style='width:109pt'></td>
+  <td class=xl6827089 width=145 style='width:109pt'></td>
+  <td class=xl6927089 width=145 style='width:109pt'></td>
+  <td class=xl7127089 width=145 style='width:109pt'>&nbsp;</td>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+  <td rowspan=6 height=120 class=xl7727089 style='height:90.0pt'>Session 3</td>
+  <td rowspan=6 class=xl9927089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>VizSec</td>
+  <td rowspan=6 class=xl9927089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>VDS</td>
+  <td rowspan=6 class=xl9927089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>VIP</td>
+  <td rowspan=6 class=xl8827089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>CityVis – Urban Data Visualization</td>
+  <td rowspan=6 class=xl8127089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>Cost-benefit Analysis in Visualization: Theory and Practice</td>
+  <td rowspan=6 class=xl8827089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>VisGuides: 2nd Workshop on the Creation, Curation, Critique and
+  Conditioning of Principles and Guidelines in Visualization</td>
+  <td rowspan=6 class=xl8127089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>Storyboards for Science: Combining the Visual and Verbal to
+  Create Engaging Communication&nbsp;&nbsp;</td>
+  <td rowspan=6 class=xl9527089 width=145 style='border-bottom:.5pt solid black;
+  width:109pt'>Workshop on Visualization for AI Explainability (VISxAI)</td>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+  <td height=20 class=xl7527089 style='height:15.0pt'>&nbsp;</td>
+  <td class=xl6727089></td>
+  <td class=xl6727089></td>
+  <td class=xl6727089></td>
+  <td class=xl6827089 width=145 style='width:109pt'></td>
+  <td class=xl6727089></td>
+  <td class=xl6827089 width=145 style='width:109pt'></td>
+  <td class=xl6727089></td>
+  <td class=xl7227089>&nbsp;</td>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+  <td rowspan=6 height=120 class=xl7727089 style='border-bottom:1.0pt solid black;
+  height:90.0pt'>Session 4</td>
+  <td rowspan=6 class=xl9927089 width=145 style='border-bottom:1.0pt solid black;
+  width:109pt'>VizSec</td>
+  <td rowspan=6 class=xl9927089 width=145 style='border-bottom:1.0pt solid black;
+  width:109pt'>VDS</td>
+  <td rowspan=6 class=xl9927089 width=145 style='border-bottom:1.0pt solid black;
+  width:109pt'>VIP</td>
+  <td rowspan=6 class=xl8827089 width=145 style='border-bottom:1.0pt solid black;
+  width:109pt'>CityVis – Urban Data Visualization</td>
+  <td rowspan=6 class=xl8127089 width=145 style='border-bottom:1.0pt solid black;
+  width:109pt'>Cost-benefit Analysis in Visualization: Theory and Practice</td>
+  <td rowspan=6 class=xl8827089 width=145 style='border-bottom:1.0pt solid black;
+  width:109pt'>VisGuides: 2nd Workshop on the Creation, Curation, Critique and
+  Conditioning of Principles and Guidelines in Visualization</td>
+  <td rowspan=6 class=xl8127089 width=145 style='border-bottom:1.0pt solid black;
+  width:109pt'>Storyboards for Science: Combining the Visual and Verbal to
+  Create Engaging Communication&nbsp;&nbsp;</td>
+  <td rowspan=6 class=xl9527089 width=145 style='border-bottom:1.0pt solid black;
+  width:109pt'>Workshop on Visualization for AI Explainability (VISxAI)</td>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+ </tr>
+ <tr height=20 style='mso-height-source:userset;height:15.0pt'>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=90 style='width:68pt'></td>
+  <td width=145 style='width:109pt'></td>
+  <td width=145 style='width:109pt'></td>
+  <td width=145 style='width:109pt'></td>
+  <td width=145 style='width:109pt'></td>
+  <td width=145 style='width:109pt'></td>
+  <td width=145 style='width:109pt'></td>
+  <td width=145 style='width:109pt'></td>
+  <td width=145 style='width:109pt'></td>
+ </tr>
+ <![endif]>
 </table>
+
+</div>
