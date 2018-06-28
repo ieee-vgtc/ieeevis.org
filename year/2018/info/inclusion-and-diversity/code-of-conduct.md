@@ -8,7 +8,7 @@ IEEE VIS is committed to providing an inclusive and harassment-free environment 
 
 Anyone who experiences, observes, or has knowledge of threatening behavior is encouraged to immediately report the incident to [ombuds@ieeevis.org](mailto:ombuds@ieeevis.org). All information shared will be kept confidential. In cases where a public response is deemed necessary, the identities of victims and reporters will remain confidential unless those individuals consent otherwise.
 
-IEEE Vis reserves the right to take appropriate action to foster an inclusive and respectful environment. Attendees violating these rules may be asked to leave the conference without a refund, at the sole discretion of the conference organizers. In addition, attendees are subject to the [IEEE Code of Ethics](https://www.ieee.org/about/corporate/governance/p7-8.html).
+IEEE VIS reserves the right to take appropriate action to foster an inclusive and respectful environment. Attendees violating these rules may be asked to leave the conference without a refund, at the sole discretion of the conference organizers. In addition, attendees are subject to the [IEEE Code of Ethics](https://www.ieee.org/about/corporate/governance/p7-8.html).
 
 ### Contact
 
