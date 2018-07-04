@@ -32,5 +32,6 @@ Inclusivity & Diversity at IEEE VIS is supported by the following organizations:
 </ul>
 
 
+
 If you are interested in being an Inclusivity & Diversity supporter, please contact [supporters@ieeevis.org](mailto:supporters@ieeevis.org).
  
