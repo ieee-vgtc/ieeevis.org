@@ -25,7 +25,7 @@ Inclusivity & Diversity at IEEE VIS is supported by the following organizations:
 
 - <a href="https://punchcyber.com/">PUNCH Cyber Analytics Group</a>
 - <a href="https://www.kitware.com/">Kitware, Inc.</a>
-- <a href="https://www.gicentre.net/">giCentre</a>
+- <a href="https://www.gicentre.net/">giCentre, London</a>
 - <a href="http://vdl.sci.utah.edu/">Visualization Design Lab, Utah</a>
 - <a href="http://www.uni-magdeburg.de/en/">University of Magdeburg</a>
 
