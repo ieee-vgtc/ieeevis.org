@@ -16,7 +16,7 @@ permalink: /year/2018/info/workshops
 
 
 ## <a name="vis4dh"></a> [Workshop on Visualization for the Digital Humanities](http://www.vis4dh.org/)
-Sunday, Oct 21: 8:30am-5:55pm
+Sunday, Oct 21: 9:00am-6:00pm
 
 Mennatallah El-Assady, University of Konstanz  
 Stefan Jänicke, Leipzig University  
@@ -32,7 +32,7 @@ We are witnessing a growth in collaborations between the humanities and computin
 
 
 ## <a name="dataphys"></a> [Toward a Design Language for Data Physicalization](http://dataphys.org/workshops/vis18/)
-Sunday, Oct 21: 8:30am-12:10pm
+Sunday, Oct 21: 9:00am-12:40pm
 
 Trevor Hogan, Cork Institute of Technology  
 Uta Hinrichs, University of St Andrews  
@@ -47,7 +47,7 @@ The use of physical representations to facilitate communication, analysis, teach
 
 
 ## <a name="viscomm"></a> [Workshop on Visualization for Communication (VisComm)](https://viscomm.io/)
-Sunday, Oct 21: 8:30am-12:10pm
+Sunday, Oct 21: 9:00am-12:40pm
 
 Robert Kosara, Tableau Research  
 Benjamin Watson, North Carolina State University
@@ -58,7 +58,7 @@ While visualization research is still largely focused on data analysis, most peo
 
 
 ## <a name="dsia"></a> [DSIA: Data Systems for Interactive Analysis](http://www.interactive-analysis.org/)
-Sunday, Oct 21: 2:00pm-5:55pm
+Sunday, Oct 21: 2:20pm-6:00pm
 
 Dominik Moritz, University of Washington  
 Joseph Cottam, Pacific Northwest National Laboratory  
@@ -71,7 +71,7 @@ DSIA brings together researchers at the intersection of databases, machine learn
 
 
 ## <a name="visguides"></a> [VisGuides: 2nd Workshop on the Creation, Curation, Critique and Conditioning of Principles and Guidelines in Visualization](http://workshop.visguides.org)
-Monday, Oct 22: 8:30am-5:55pm
+Monday, Oct 22: 9:00am-6:00pm
 
 Alexandra Diehl, University of Konstanz  
 Benjamin Bach, University of Edinburgh  
@@ -83,7 +83,7 @@ The ever-increasing global awareness, practice, and teaching of information and 
 
 
 ## <a name="visreg"></a> [VISREG - Visual Summarization and Report Generation: Beyond Scatter-Plots and Bar-Charts](http://isgwww.cs.ovgu.de/visualisierung/visreg/)
-Monday, Oct 22: 8:30am-12:10pm
+Monday, Oct 22: 9:00am-12:40pm
 
 Johanna Schmidt, Austrian Institute of Technology  
 Gabriel Mistelbauer, Otto-von-Guericke University  
@@ -94,7 +94,7 @@ Visual summarization of data can be employed to assess the most important aspect
 
 
 ## <a name="machine-learning"></a> [Machine Learning from User Interaction for Visualization and Analytics](https://learningfromusersworkshop.github.io/)
-Monday, Oct 22: 8:30am-12:10pm
+Monday, Oct 22: 9:00am-12:40pm
 
 John Wenskovitch, Virginia Tech  
 Michelle Dowling, Virginia Tech  
@@ -109,7 +109,7 @@ The goal of this workshop is to bring together researchers from across the VIS c
 
 
 ## <a name="cityvis"></a> [CityVis -- Urban Data Visualization](https://www.cityvis.io/workshop.html)
-Monday, Oct 22: 2:00pm-5:55pm
+Monday, Oct 22: 2:20pm-6:00pm
 
 Sebastian Meier, Technologiestiftung  
 Nina Hälker, HafenCity University  
@@ -121,7 +121,7 @@ Visualization as a tool for analysis, exploration and communication has become a
 
 
 ## <a name="visxai"></a> [Workshop on Visualization for AI Explainability (VISxAI)](http://visxai.io)
-Monday, Oct 22: 2:00pm-5:55pm
+Monday, Oct 22: 2:20pm-6:00pm
 
 Mennatallah El-Assady, University of Konstanz / University of Ontario Institute of Technology  
 Duen Horng Chau, Georgia Tech  
