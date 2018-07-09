@@ -108,7 +108,8 @@ Monday, Oct 22: 2:20pm-6:00pm
 
 David Rogers, Los Alamos National Laboratory, Los Alamos, New Mexico, United States  
 Francesca Samsel, University of Texas, Austin, Texas, United States  
-Sean Cunningham, The University of Texas, Austin, Texas, United States   
+Sean Cunningham, The University of Texas, Austin, Texas, United States
+Benjamin Bach, University of Edinburgh
 
 Communicating science - the results from experiments, simulations and visualizations is challenging on many levels, but it is critical to everything we do. If it is true that we are 'wired for story', then developing narratives to connect people with your science is critical.
 But what are the elements of narrative - of story - that can be used to present science this way? Drawing on the experience of writers, artists, and videographers with decades of experience in science communication, we present hands-on, example-based approach to developing narratives through storyboarding - a visual method of developing the structure, imagery and narrative of engaging stories. 
