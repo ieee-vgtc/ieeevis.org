@@ -1173,6 +1173,13 @@
         "year": 2018
     },
     {
+        "src": "/attachments/supporters/2018/frauenhofer_igd.png", 
+        "company": "Fraunhofer IGD", 
+        "href": "https://www.igd.fraunhofer.de/en", 
+        "class": "Gold", 
+        "year": 2018
+    },
+    {
         "src": "/attachments/supporters/2018/KAUST_logo-right-big.png", 
         "company": "KAUST", 
         "href": "https://vcc.kaust.edu.sa/Pages/Home.aspx ", 
@@ -1246,6 +1253,27 @@
         "src": "/attachments/supporters/2018/VRVIS.png", 
         "company": "VRVIS",
         "href": "https://www.vrvis.at/", 
+        "class": "Non-Profit / Publisher /      Academic / Other", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/giCentre.png", 
+        "company": "giCentre",
+        "href": "https://www.gicentre.net/", 
+        "class": "Non-Profit / Publisher /      Academic / Other", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/sci_utha.png", 
+        "company": "SCI Utah",
+        "href": "https://www.sci.utah.edu/", 
+        "class": "Non-Profit / Publisher /      Academic / Other", 
+        "year": 2018
+    },
+            {
+        "src": "/attachments/supporters/2018/mdpi.png", 
+        "company": "MDPI",
+        "href": "http://www.mdpi.com/", 
         "class": "Non-Profit / Publisher /      Academic / Other", 
         "year": 2018
     },
