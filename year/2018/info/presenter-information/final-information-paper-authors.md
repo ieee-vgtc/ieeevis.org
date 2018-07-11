@@ -1,10 +1,8 @@
 ---
-title: final-information-paper-authors
+title: Final Information for Paper Authors
 layout: main-2018
 permalink: /year/2018/info/presenter-information/final-information-paper-authors
 ---
-
-# Final Information for Paper Authors
 
 This page provides authors of accepted papers with important information for the remainder of the process until the conference.
 
