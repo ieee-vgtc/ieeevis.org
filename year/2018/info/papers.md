@@ -23,16 +23,204 @@ In addition, authors of papers from the IEEE Computer Graphics and Applications 
 
 ### <a name='vast-j'></a>*TVCG* SI Journal papers
 
-**Paper Title**
-<br/>
-Authors: 
+
+**A Visual Analytics Framework for Spatiotemporal Trade Network Analysis**
+ <br/> 
+Authors: Hong Wang, Yafeng Lu, Shade Shutters, Michael Steptoe, Feng Wang, Steven Landis
+
+**A Visual Analytics Framework for the Detection of Anomalous Call Stack Trees in High Performance Computing Applications**
+ <br/> 
+Authors: Cong Xie, Wei Xu, Klaus Mueller
+
+**An Interactive Method to Improve Crowdsourced Annotations**
+ <br/> 
+Authors: Changjian Chen, Shixia Liu, Yafeng Lu, Fangxin Ouyang, Bin Wang
+
+**Analysis of Flight Variability: a Systematic Approach**
+ <br/> 
+Authors: Natalia Andrienko, Gennady Andrienko, Jose Manuel Cordero Garcia, David Scarlatti
+
+**BitExTract: Interactive Visualization for Extracting Bitcoin Exchange Intelligence**
+ <br/> 
+Authors: Xuanwu Yue, Xinhuan Shu, Xinyu ZHU, Xinnan DU, Zheqing Yu, Dimitrios Papadopoulos
+
+**Clustrophile 2: Guided Visual Clustering Analysis**
+ <br/> 
+Authors: Marco Cavallo, Cagatay Demiralp
+
+**Cost-benefit Analysis of Visualization in Virtual Environments**
+ <br/> 
+Authors: Min Chen, Kelly Gaither, Nigel John, Brian McCann
+
+**Doccurate: A Curation-Based Approach for Clinical Text Visualization**
+ <br/> 
+Authors: Nicole Sultanum, Devin Singh, Michael Brudno, Fanny Chevalier
+
+**DQNViz: A Visual Analytics Approach to Understand Deep Q-Networks**
+ <br/> 
+Authors: Junpeng Wang, Liang Gou, Han-Wei Shen, Hao Yang
+
+**Drag and Track:  A Direct Manipulation Interface for Contextualizing Data Instances within a Continuous Parameter Space**
+ <br/> 
+Authors: Daniel Orban, Daniel Keefe, Ayan Biswas, James Ahrens, David Rogers
+
+**Duet: Helping Data Analysis Novices Conduct Pairwise Comparisons by Minimal Specification**
+ <br/> 
+Authors: Po-Ming Law, Rahul Basole, Yanhong Wu
+
+**Enhancing Web-based Analytics Applications through Provenance**
+ <br/> 
+Authors: Akhilesh Camisetty, Chaitanya Chandurkar, Maoyuan Sun, David Koop
+
+**EnsembleLens: Ensemble-based Visual Exploration of Anomaly Detection Algorithms with Multidimensional Data**
+ <br/> 
+Authors: Ke Xu, Meng Xia, Xing Mu, Yun Wang, Nan Cao
+
+**Evaluating Multi-Dimensional Visualizations for Understanding Fuzzy Clusters**
+ <br/> 
+Authors: Ying Zhao, Feng Luo, Minghui Chen, Yingchao Wang, Jiazhi Xia, Fangfang Zhou, Yi Chen, Wei Chen
+
+**ForVizor: Visualizing Spatio-Temporal Team Formations in Soccer**
+ <br/> 
+Authors: Yingcai Wu, Xiao Xie, Jiachen Wang, Dazhen Deng, Hongye Liang, Hui Zhang, Wei Chen
+
+**Futzing and Moseying: Interviews with Professional Data Analysts on Exploration Practices**
+ <br/> 
+Authors: Sara Alspaugh, Nava Zokaei, Andrea Liu, Cindy Jin, Marti Hearst
+
+**GAN Lab: Understanding Complex Deep Generative Models using Interactive Visual Experimentation**
+ <br/> 
+Authors: Minsuk Kahng, Nikhil Thorat, Duen Horng Chau, Fernanda Viegas, Martin Wattenberg
+
+**GraphProtector: a Visual Interface for Employing and Assessing Multiple Privacy Preserving Graph Algorithms**
+ <br/> 
+Authors: Xumeng Wang, Wei Chen, Huihua Guan, Wenlong Chen, Rusheng Pan, Jia-Kai Chou, Kwan-Liu Ma
+
+**Identification of Temporally Varying Areas of Interest in Long Duration Eye Tracking Data Sets**
+ <br/> 
+Authors: Prithiviraj Kaliappa Gounder Muthumanickam, Katerina Vrotsou, Aida Nordman, Jimmy Johansson, Matthew Cooper
+
+**iForest: Interpreting Random Forests via Visual Analytics**
+ <br/> 
+Authors: Xun Zhao, Yanhong Wu, Dik Lun Lee, Weiwei Cui
+
+**InkPlanner: Supporting Prewriting via Intelligent Visual Diagramming**
+ <br/> 
+Authors: Zhicong Lu, Mingming Fan, Yun Wang, Jian Zhao, Michelle Annett, Daniel Wigdor
+
+**KnowledgePearls: Provenance-Based Visualization Retrieval**
+ <br/> 
+Authors: Holger Stitz, Samuel Gratzl, Harald Piringer, Thomas Zichner, Marc Streit
+
+**Lessons Learned Developing a Visual Analytics Solution for Investigative Analysis of Scamming Activities**
+ <br/> 
+Authors: Jay Koven, Cristian Felix, Hossein Siadati, Enrico Bertini, Markus Jakobsson
+
+**Manifold: A Model-Agnostic Framework for Interpretation and Diagnosis of Machine Learning Models**
+ <br/> 
+Authors: Jiawei Zhang, Yang Wang, Piero Molino, Lezhi Li, David Ebert
+
+**MAQUI: Interweaving Queries and Pattern Mining for Recursive Event Sequence Exploration**
+ <br/> 
+Authors: Po-Ming Law, Zhicheng Liu, Sana Malik, Rahul Basole
+
+**MotionRugs: Visualizing Collective Trends in Space and Time**
+ <br/> 
+Authors: Juri Buchmuller, Dominik Jackle, Eren Cakmak, Ulrik Brandes, Daniel Keim
+
+**RegressionExplorer: Interactive Exploration of Logistic Regression Models with Subgroup Analysis**
+ <br/> 
+Authors: Jarke van Wijk, Marcel van 't Veer, Patrick Houthuizen, Eveline H. J. Mestrom, Erik H.H.M. Korsten, Arthur R.A. Bouwman
+
+**RetainVis: Visual Analytics with Interpretable and Interactive Recurrent Neural Network on Electronic Medical Records**
+ <br/> 
+Authors: Bum Chul Kwon, Min-Je Choi, Joanne Kim, Edward Choi, Young Bin Kim, Soonwook Kwon, Jaegul Choo
+
+**RuleMatrix: Visualizing and Understanding Classifiers with Rules**
+ <br/> 
+Authors: Yao Ming, Huamin Qu, Enrico Bertini
+
+**Seq2Seq-Vis: A Visual Debugging Tool for Sequence to Sequence Models**
+ <br/> 
+Authors: Hendrik Strobelt, Sebastian Gehrmann, Michael Behrisch, Adam Perer, Hanspeter Pfister, Alexander M. Rush
+
+**SIRIUS: Dual, Symmetric, Interactive Dimension Reductions**
+ <br/> 
+Authors: Michelle Dowling, John Wenskovitch, J.T. Fry, Leanna House, Scotland Leman, Chris North
+
+**Situ: Identifying and explaining suspicious behavior in networks**
+ <br/> 
+Authors: John Goodall, Eric Ragan, Chad Steed, Joel Reed, Gregory Richardson, Kelly Huffer, Jason Laska
+
+**TPFlow: Progressive Partition and Multidimensional Pattern Extraction for Large-Scale Spatio-Temporal Data Analysis**
+ <br/> 
+Authors: Dongyu Liu, Panpan Xu, Liu Ren
+
+**ViBr: Visualizing Bipartite Relations at Scale with the Minimum Description Length Principle**
+ <br/> 
+Authors: Gromit Yeuk-Yin Chan, Panpan Xu, Zeng Dai, Liu Ren
+
+**VIS Author Profiles: Interactive Descriptions of Publication Records Combining Text and Visualization**
+ <br/> 
+Authors: Shahid Latif, Fabian Beck
+
+**VIS4ML: An Ontology for Visual Analytics Assisted Machine Learning**
+ <br/> 
+Authors: Dominik Sacha, Matthias Kraus, Daniel Keim, Min Chen
+
+**Visual Abstraction of the Large Scale Geospatial Origin-Destination Movement Data**
+ <br/> 
+Authors: Zhiguang Zhou, Linhao Meng, Cheng Tang, Ying Zhao, Zhiyong Guo, Miaoxin Hu
+
+**Visual Analysis of the Temporal Evolution of Ensemble Forecast Sensitivities**
+ <br/> 
+Authors: Alexander Kumpf, Marc Rautenhaus, Michael Riemer, Rüdiger Westermann
+
+**Visual Analytics for Topic Model Optimization based on User-Steerable Speculative Execution**
+ <br/> 
+Authors: Mennatallah El-Assady, Fabian Sperrle, Oliver Deussen, Daniel Keim, Christopher Collins
+
+**Visual Progression Analysis of Event Sequence Data**
+ <br/> 
+Authors: Shunan Guo, Zhuochen Jin, David Gotz, Fan Du, Hongyuan Zha, Nan Cao
+
+**Vulnus: Visual Vulnerability Analysis for Network Security**
+ <br/> 
+Authors: Marco Angelini, Graziano Blasilli, Tiziana Catarci, Simone Lenti, Giuseppe Santucci
+
+
 
 
 ### <a name='vast-c'></a>Conference papers
 
-**Paper Title**
-<br/>
-Authors: 
+
+**Analyzing the Noise Robustness of Deep Neural Networks**
+ <br/> 
+Authors: Mengchen Liu, Shixia Liu, Hang Su, Kelei Cao, Jun Zhu
+
+**EmbeddingVis: A Visual Analytics Approach to Comparative Network Embedding Inspection**
+ <br/> 
+Authors: Quan Li, Kristanto Sean Njotoprawiro, Hammad Haleem, Qiaoan Chen, Chris YI, Xiaojuan Ma
+
+**Segue: Overviewing Evolution Patterns of Egocentric Networks by Interactive Construction of Spatial Layouts**
+ <br/> 
+Authors: Po-Ming Law, Yanhong Wu, Rahul Basole
+
+**SMARTexplore: Simplifying High-Dimensional Data Analysis through a Table-Based Visual Analytics Approach**
+ <br/> 
+Authors: Michael Blumenschein, Michael Behrisch, Stefanie Schmid, Simon Butscher, Deborah R. Wahl, Karoline Villinger, Harald Reiterer, Daniel Keim
+
+**The Effect of Proximity in Social Data Charts on Perceived Unity**
+ <br/> 
+Authors: Marlen Promann, Sabine Brunswicker
+
+**The Effect of Semantic Interaction on Foraging in Text Analysis**
+ <br/> 
+Authors: John Wenskovitch, Lauren Bradel, Michelle Dowling, Leanna House, Chris North
+
+**VUSphere: Visual Analysis of Video Utilization in Online Distance Education**
+ <br/> 
+Authors: Huan He, Qinghua Zheng, Bo Dong
 
 
 <hr/>
