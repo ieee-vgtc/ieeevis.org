@@ -1277,10 +1277,17 @@
         "class": "Non-Profit / Publisher /      Academic / Other", 
         "year": 2018
     },
-            {
+    {
         "src": "/attachments/supporters/2018/mdpi.png", 
         "company": "MDPI",
         "href": "http://www.mdpi.com/", 
+        "class": "Non-Profit / Publisher /      Academic / Other", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/OVGU_SIGN_web_Farbig.jpg", 
+        "company": "OvGU", 
+        "href": "http://www.ovgu.de/en/",
         "class": "Non-Profit / Publisher /      Academic / Other", 
         "year": 2018
     },
