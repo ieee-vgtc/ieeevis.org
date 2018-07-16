@@ -166,6 +166,10 @@ All cancellations requested in **writing** and received before **September 20, 2
 
 Please submit all cancellation/refund requests to [visreg@ieeevis.org](mailto:visreg@ieeevis.org). 
 
-For those requiring visas to come to Germany, please send your request to [visa-letters@ieeevis.org](mailto:visa-letters@ieeevis.org) and make your visa appointment as soon as possible. 
+**Visa Assistance**
+
+For those requiring visas to come to Germany, please send your request to [visa-letters@ieeevis.org](mailto:visa-letters@ieeevis.org) and make your visa appointment as soon as possible. We will send the visa letter after registration and payment.
+
+
 
 
