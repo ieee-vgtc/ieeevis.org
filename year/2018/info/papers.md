@@ -452,7 +452,7 @@ Authors: Sergej Stoppel, Magnus Paulson Erga, Stefan Bruckner
 
 **Interactive Obstruction-free Lensing for Volumetric Data Visualization**
 <br>
-Authors: Michael traoré, Christophe Hurter, Alexandru Telea
+Authors: Michael Traoré, Christophe Hurter, Alexandru Telea
 
 **Visual Analysis of Aneurysm Data using Statistical Graphics**
 <br>
