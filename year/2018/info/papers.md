@@ -414,30 +414,205 @@ Authors: Jo  Wood, Alexander  Kachkaev, Jason  Dykes
 <br>
 Authors: Brian David Ondov, Nicole  Jardine, Niklas  Elmqvist, Steven  Franconeri
 
-
-
 <hr/>
 
 ## <a name='scivis'></a>SciVis *TVCG* SI Journal papers
 
-**Paper Title**
-<br/>
-Authors: 
+**Persistence Atlas for Critical Point Variability in Ensembles**
+<br>
+Authors: Guillaume Favelier, Noura Faraj, Brian Summa, Julien Tierny
 
+**Deadeye: A Novel Preattentive Visualization Technique Based on Dichoptic Presentation**
+<br>
+Authors: Andrey Krekhov, Jens Krueger
 
+**Labels on Levels: Labeling of Multi-Scale Multi-Instance and Crowded 3D Biological Environments**
+<br>
+Authors: David Kouřil, Ladislav Čmolík, Barbora Kozlikova, Hsiang-Yun Wu, Graham Johnson, David S. Goodsell, Arthur Olson, Eduard Gröller, Ivan Viola
+
+**Probabilistic Asymptotic Decider for Topological Ambiguity Resolution in Level-Set Extraction for Uncertain 2D Data**
+<br>
+Authors: Tushar Athawale, Chris R. Johnson
+
+**Visualization of Bubble Formation in Porous Media**
+<br>
+Authors: Hui Zhang, Steffen Frey, Holger Steeb, David Uribe, Thomas Ertl, Wenping Wang
+
+**Interactive Visualization of RNA and DNA Structures**
+<br>
+Authors: Norbert Lindow, Daniel Baum, Morgan Leborgne, Hans-Christian Hege
+
+**Gaia Sky: Navigating the Gaia Catalog**
+<br>
+Authors: Toni Sagristà Sellés, Stefan Jordan, Thomas Mueller, Filip Sadlo
+
+**Firefly: Illumination Drones for Interactive Visualization**
+<br>
+Authors: Sergej Stoppel, Magnus Paulson Erga, Stefan Bruckner
+
+**Interactive Obstruction-free Lensing for Volumetric Data Visualization**
+<br>
+Authors: Michael traore, Christophe Hurter, Alexandru Telea
+
+**Visual Analysis of Aneurysm Data using Statistical Graphics**
+<br>
+Authors: Monique Meuschke, Tobias Günther, Philipp Berg, Ralph Wickenhoefer, Markus Gross, Bernhard Preim, Kai Lawonn
+
+**Dynamic Volume Lines: Visual Comparison of 3D Volumes through Space-filling Curves**
+<br>
+Authors: Johannes Weissenböck, Bernhard Fröhler, Eduard Gröller, Johann Kastner, Christoph Heinzl
+
+**CoDDA: A Flexible Copula-based Distribution Driven Analysis Framework for Large-Scale Multivariate Data**
+<br>
+Authors: Subhashis Hazarika, Soumya Dutta, Han-Wei Shen, Jen-Ping Chen
+
+**Robust and Fast Extraction of 3D Symmetric Tensor Field Topology**
+<br>
+Authors: Lawrence Roy, Prashant Kumar, Yue Zhang, Eugene Zhang
+
+**Interactive 3D Visual Analysis of Atmospheric Fronts**
+<br>
+Authors: Michael Alexander Kern, Timothy David Hewson, Andreas Schäfler, Rüdiger Westermann, Marc Rautenhaus
+
+**Exploring Time-Varying Multivariate Volume Data Using Matrix of Isosurface Similarity Maps**
+<br>
+Authors: Jun Tao, Martin Imre, Chaoli Wang, Nitesh V Chawla, Hanqi Guo, Gökhan Sever, Seung Hyun Kim
+
+**Recirculation Surfaces for Flow Visualization**
+<br>
+Authors: Thomas Wilde, Christian Roessl, Holger Theisel
+
+**An Interactive Framework for Visualization of Weather Forecast Ensembles**
+<br>
+Authors: Bo Ma, Alireza Entezari
+
+**Interactive Visualization of 3D Histopathology in Native Resolution**
+<br>
+Authors: Martin Falk, Anders Ynnerman, Darren Treanor, Claes Lundström
+
+**Visual Analysis of Spatio-temporal Relations of Pairwise Attributes in  Unsteady Flow**
+<br>
+Authors: Marzieh Berenjkoub, Rodolfo Ostilla Monico, Robert S. Laramee, Guoning Chen
+
+**Time-Dependent Flow seen through Approximate Observer Killing Fields**
+<br>
+Authors: Markus Hadwiger, Matej Mlejnek, Thomas Theussl, Peter Rautek
+
+**Hexahedral Mesh Structure Visualization and Evaluation**
+<br>
+Authors: Kaoji Cotrik Xu, Guoning Chen
+
+**A Declarative Grammar of Flexible Volume Visualization Pipelines**
+<br>
+Authors: Min Shih, Charles Rozhon, Kwan-Liu Ma
+
+**Objective Vortex Corelines of Finite-sized Objects in Fluid Flows**
+<br>
+Authors: Tobias Günther, Holger Theisel
+
+**DT-MRI Streamsurfaces Revisited**
+<br>
+Authors: Michael Ankele, Thomas Schultz
+
+**Tensor Field Visualization using Fiber Surfaces of Invariant Space**
+<br>
+Authors: Felix Raith, Christian Blecha, Thomas Nagel, Francesco Parisio, Olaf Kolditz, Fabian Günther, Markus Stommel, Gerik Scheuermann
+
+**Culling for Extreme-Scale Segmentation Volumes: A Hybrid Deterministic and Probabilistic Approach**
+<br>
+Authors: Johanna Beyer, Haneen Mohammed, Marco Agus, Ali K. Al-Awami, Hanspeter Pfister, Markus Hadwiger
+
+**Shared-Memory Parallel Computation of Morse-Smale Complexes with Improved Accuracy**
+<br>
+Authors: Attila Gyulassy, Peer-Timo Bremer, Valerio Pascucci
+
+**Details-First, Show Context, Overview Last: Supporting Exploration of Viscous Fingers in Large-Scale Ensemble Simulations**
+<br>
+Authors: Timothy Basil Luciani, Andrew T Burks, Cassiano Sugiyama, Jonathan Komperda, Liz G.Elisabeta Marai
+
+**CPU Iso-surface Ray Tracing of Adaptive Mesh Refinement Data**
+<br>
+Authors: Feng Wang, Ingo Wald, Qi Wu, Will Usher, Chris R. Johnson
+
+**Visualization of Large Molecular Trajectories**
+<br>
+Authors: David Duran Rosich, Pedro Hermosilla Casajus, Timo Ropinski, Barbora Kozlikova, Àlvar Vinacua, Pere-Pau Vázquez
+
+**Visualization of Neuronal Structures in Wide-field Microscopy Brain Images**
+<br>
+Authors: Saeed Boorboor, Shreeraj Jadhav, Mala Ananth, David Talmage, Lorna W Role, Arie Kaufman
+
+**A Study of the Trade-off between Reduced Precision and Resolution for Scientific Data Analysis and Visualization**
+<br>
+Authors: Duong Hoang, Pavol Klacansky, Harsh Bhatia, Peer-Timo Bremer, Peter Lindstrom, Valerio Pascucci
 
 <hr/>
 
 ## <a name='tvcg'></a>*TVCG*
 
-**Paper Title**
-<br/>
-Authors: 
+**Towards High-quality Visualization of Superfluid Vortices**
+<br>
+Authors: Yulong Guo, Xiaopei Liu, Chi Xiong, Xuemiao Xu, Chi-Wing Fu
+
+**Tensor Decompositions for Integral Histogram Compression and Look-Up**
+<br>
+Authors: Rafael Ballester-Ripoll, Renato Pajarola
+
+**Semantic Flow Graph: A Framework for Discovering Object Relationships in Flow Fields**
+<br>
+Authors: Jun Tao, Chaoli Wang, Nitesh Chawla, Lei Shi, Seung Hyun Kim
+
+**Multi-Material Volume Rendering with a Physically-Based Surface Reflection Model**
+<br>
+Authors: Oleg Igouchkine, Yubo Zhang, Kwan-Liu Ma
+
+**A Model of Spatial Directness in Interactive Visualization**
+<br>
+Authors: Stefan Bruckner, Tobias Isenberg, Timo Ropinski, Alexander Wiebel
+
+**An Exploratory Framework for Cyclone Identification and Tracking**
+<br>
+Authors: Akash Anil Valsangkar, Joy Merwin Monteiro, Vidya Narayanan, Ingrid Hotz, Vijay Natarajan
+
+**Robust Tracing and Visualization of Heterogeneous Microvascular Networks**
+<br>
+Authors: Pavel Govyadinov, Tasha Womack, Jason L. Eriksen, Guoning Chen, David Mayerich
+
+**Animation Plans for Before-And-After Satellite images**
+<br>
+Authors: María-Jesús Lobo, Caroline Appert, Emmanuel Pietriga
+
+**Classification of Blood Flow Patterns in Cerebral Aneurysms**
+<br>
+Authors: Monique Meuschke, Steffen Oeltze-Jafra, Oliver Beuing, Bernhard Preim, Kai Lawonn
+
+**Efficient Local Statistical Analysis via Point-Wise Histograms in Tetrahedral Meshes and Curvilinear**
+<br>
+Authors: Bo Zhou, Yi-Jen Chiang, Cong Wang
+
+**A Scalable Hybrid Scheme for Ray-Casting of Unstructured Volume Data**
+<br>
+Authors: Roba Binyahib, Tom Peterka, Matthew Larsen, Kwan-Liu Ma, Hank Childs
+
+**Popup-Plots: Warping Temporal Data Visualization**
+<br>
+Authors: Johanna Schmidt, Dominik Fleischmann, Bernhard Preim, Norbert Brandle, Gabriel Mistelbauer
+
+**Shadow Accrual Maps: Efficient Accumulation of City-Scale Shadows over Time**
+<br>
+Authors: Fabio Miranda, Harish Doraiswamy, Marcos Lage, Luc Wilson, Mondrian Hsieh, Claudio T. Silva
+
+**A Generative Model for Volume Rendering**
+<br>
+Authors: Matthew Berger, Jixian Li, Joshua A. Levine
+
+**Decal-Lenses: Interactive Lenses on Surfaces for Multivariate Visualization**
+<br>
+Authors: Allan Rocha, Julio Daniel Silva, Usman R. Alim, Sheelagh Carpendale, and Mario Costa Sousa
 
 <hr/>
 
 ## <a name='cga'></a>*CG&A*
-
 
 **Paper Title**
 <br/>
