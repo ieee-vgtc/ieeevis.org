@@ -610,6 +610,114 @@ Authors: Matthew Berger, Jixian Li, Joshua A. Levine
 <br>
 Authors: Allan Rocha, Julio Daniel Silva, Usman R. Alim, Sheelagh Carpendale, and Mario Costa Sousa
 
+**A Visual Analytics Framework for Identifying Topic Drivers in Media**
+<br/>
+Authors: Yafeng Lu,  Hong Wang, Steven Landis, and Ross Maciejewski
+
+**StreamExplorer: A Multi-Stage System for Visually Exploring Events in Social Streams**
+<br/>
+Authors: Yingcai Wu, Zhutian Chen, Guodao Sun, Xiao Xie, Nan Cao, Shixia Liu, Weiwei Cui
+
+**ATOM: A Grammar for Unit Visualizations**
+<br/>
+Authors: Deokgun Park, Steven M. Drucker, Roland Fernandez, and Niklas Elmqvist
+
+**Graph Thumbnails: Identifying and Comparing Multiple Graphs at a Glance**
+<br/>
+Authors: Vahan Yoghourdjian, Tim Dwyer, Karsten Klein, Kim Marriott, and Michael Wybrow
+
+**A Multiresolution Streamgraph Approach to Explore Hierarchical Time Series**
+<br/>
+Authors: Erick Cuenca, Arnaud Sallaberry, Florence Ying Wang and Pascal Poncelet
+
+**Line Graph or Scatter Plot? Automatic Selection of Methods for Visualizing Trends in Time Series**
+<br/>
+Authors: Yunhai Wang, Fubo Han, Lifeng Zhu, Oliver Deussen, Baoquan Chen
+
+**Is There a Robust Technique for Selecting Aspect Ratios in Line Charts?**
+<br/>
+Authors: Yunhai Wang, Zeyu Wang, Lifeng Zhu, Jian Zhang, Chi-Wing Fu, Changhe Tu and Baoquan Chen
+
+**A Perception-Driven Approach to Supervised Dimensionality Reduction for Visualization**
+<br/>
+Authors: Yunhai Wang, Kang Feng, Xiaowei Chu, Jian Zhang, Chi-Wing Fu, Michael Sedlmair, Xiaohui Yu, and Baoquan Chen
+
+**Exploration Strategies for Discovery of Interactivity in Visualizations**
+<br/>
+Authors: Tanja Blascheck, Lindsay MacDonald Vermeulen, Jo Vermeulen, Charles Perin, Wesley Willett, Thomas Ertl and Sheelagh Carpendale
+
+**Using Dashboard Networks to Visualize Multiple Patient Histories: A Design Study on Post-operative Prostate Cancer**
+<br/>
+Authors: Jürgen Bernard, David Sessler, Jörn Kohlhammer, and Roy A. Ruddle
+
+**A Semantic-based Method for Visualizing Large Image Collections**
+<br/>
+Authors: Xiao Xie, Xiwen Cai, Junpei Zhou, Nan Cao, Yingcai Wu
+
+**Smart Brushing for Parallel Coordinates**
+<br/>
+Authors: Richard Roberts, Robert S Laramee, Gary A Smith, Paul Brookes, and Tony D'Cruze
+
+**ColorMapND: A Data-Driven Approach and Tool for Mapping Multivariate Data to Color**
+<br/>
+Authors: Shenghui Cheng, Wei Xu and Klaus Mueller
+
+**Lineage: Visualizing Multivariate Clinical Data in Genealogy Graphs**
+<br/>
+Authors: Carolina Nobre, Nils Gehlenborg, Hilary Coon, and Alexander Lex
+
+**Exploring Variability within Ensembles of Decadal Climate Predictions**
+<br/>
+Authors: Christopher P. Kappe, Michael Böttinger, Heike Leitte
+
+**Bridging Text Visualization and Mining: A Task-Driven Survey**
+<br/>
+Authors: Shixia Liu, Xiting Wang, Christopher Collins, Wenwen Dou, Fangxin Ouyang,  Mennatallah El-Assady, Liu Jiang, Daniel Keim
+
+**Visual Analytics in Deep Learning: An Interrogative Survey for theNext Frontiers**
+<br/>
+Authors: Fred Hohman, Minsuk Kahng, Robert Pienta, Duen Horng (Polo)
+
+**Correlation Judgment and Visualization Features: A Comparative Study**
+<br/>
+Authors: Fumeng Yang, Lane Harrison, Ronald A. Rensink , Steven Franconeri , Remco Chang
+
+**A Vector Field Design Approach to Animated Transitions**
+<br/>
+Authors: Yong Wang, Daniel Archambault, Carlos E. Scheidegger, Huamin Qu
+
+**Precision Risk Analysis of Cancer Therapy with Interactive Nomograms and Survival Plots**
+<br/>
+Authors: G.E. Marai, C. Ma, A. Burks, F. Pellolio, G. Canahuate, D. Vock, A.S.R. Mohamed, C.D. Fuller
+
+**Visualizing a Thinker’s Life**
+<br/>
+Authors: Patrick Riehmann, Dora Kiesel, Martin Kohlhaas, and Bernd Froehlich
+
+**KAVAGait: Knowledge-Assisted Visual Analytics for Clinical Gait Analysis**
+<br/>
+Authors: Markus Wagner, Djordje Slijepcevic, Brian Horsak, Alexander Rind, Matthias Zeppelzauer, and Wolfgang Aigner
+
+**PhotoRecomposer: Interactive Photo Recomposition by Cropping**
+<br/>
+Authors: Yuan Liang, Xiting Wang, Song-Hai Zhang, Shi-Min Hu, Shixia Liu
+
+**Task-Based Effectiveness of Basic Visualizations**
+<br/>
+Authors: Bahador Saket, Alex Endert, Cagatay Demiralp
+
+**Visualization of Cultural Heritage Collection Data: State of the Art and Future Challenges**
+<br/>
+Authors: Florian Windhager; Paolo Federico; Günther Schreder; Katrin Glinka; Marian Dörk; Silvia Miksch; Eva Mayr
+
+**Multidimensional Projection for Visual Analytics: Linking Techniques with Distortions, Tasks, and Layout Enrichment**
+<br/>
+Authors: Luis Gustavo Nonato and Michael Aupetit
+
+**Commercial Visual Analytics Systems – Advances in the Big Data Analytics Field**
+<br/>
+Authors: Michael Behrisch, DirkStreeb, Florian Stoffel, Daniel Seebacher, Stefan H agen Weber, Sebastian Mittelstaedt, Hanspeter Pfister, Daniel Keim
+
 <hr/>
 
 ## <a name='cga'></a>*CG&A*
