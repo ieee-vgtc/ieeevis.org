@@ -424,11 +424,11 @@ Authors: Guillaume Favelier, Noura Faraj, Brian Summa, Julien Tierny
 
 **Deadeye: A Novel Preattentive Visualization Technique Based on Dichoptic Presentation**
 <br>
-Authors: Andrey Krekhov, Jens Krueger
+Authors: Andrey Krekhov, Jens Krüger
 
 **Labels on Levels: Labeling of Multi-Scale Multi-Instance and Crowded 3D Biological Environments**
 <br>
-Authors: David Kouřil, Ladislav Čmolík, Barbora Kozlikova, Hsiang-Yun Wu, Graham Johnson, David S. Goodsell, Arthur Olson, Eduard Gröller, Ivan Viola
+Authors: David Kouřil, Ladislav Čmolík, Barbora Kozlíková, Hsiang-Yun Wu, Graham Johnson, David S. Goodsell, Arthur Olson, Eduard Gröller, Ivan Viola
 
 **Probabilistic Asymptotic Decider for Topological Ambiguity Resolution in Level-Set Extraction for Uncertain 2D Data**
 <br>
@@ -452,7 +452,7 @@ Authors: Sergej Stoppel, Magnus Paulson Erga, Stefan Bruckner
 
 **Interactive Obstruction-free Lensing for Volumetric Data Visualization**
 <br>
-Authors: Michael traore, Christophe Hurter, Alexandru Telea
+Authors: Michael traoré, Christophe Hurter, Alexandru Telea
 
 **Visual Analysis of Aneurysm Data using Statistical Graphics**
 <br>
@@ -480,7 +480,7 @@ Authors: Jun Tao, Martin Imre, Chaoli Wang, Nitesh V Chawla, Hanqi Guo, Gökhan 
 
 **Recirculation Surfaces for Flow Visualization**
 <br>
-Authors: Thomas Wilde, Christian Roessl, Holger Theisel
+Authors: Thomas Wilde, Christian Rössl, Holger Theisel
 
 **An Interactive Framework for Visualization of Weather Forecast Ensembles**
 <br>
@@ -536,7 +536,7 @@ Authors: Feng Wang, Ingo Wald, Qi Wu, Will Usher, Chris R. Johnson
 
 **Visualization of Large Molecular Trajectories**
 <br>
-Authors: David Duran Rosich, Pedro Hermosilla Casajus, Timo Ropinski, Barbora Kozlikova, Àlvar Vinacua, Pere-Pau Vázquez
+Authors: David Duran Rosich, Pedro Hermosilla Casajus, Timo Ropinski, Barbora Kozlíková, Àlvar Vinacua, Pere-Pau Vázquez
 
 **Visualization of Neuronal Structures in Wide-field Microscopy Brain Images**
 <br>
