@@ -46,7 +46,13 @@ Authors: Xuanwu Yue, Xinhuan Shu, Xinyu ZHU, Xinnan DU, Zheqing Yu, Dimitrios Pa
 
 **Clustrophile 2: Guided Visual Clustering Analysis**
  <br/> 
-Authors: Marco Cavallo, Cagatay Demiralp
+Authors: Marco Cavallo, Çagatay 
+
+
+
+
+
+lp
 
 **Cost-benefit Analysis of Visualization in Virtual Environments**
  <br/> 
@@ -674,9 +680,9 @@ Authors: Christopher P. Kappe, Michael Böttinger, Heike Leitte
 <br/>
 Authors: Shixia Liu, Xiting Wang, Christopher Collins, Wenwen Dou, Fangxin Ouyang, Mennatallah El-Assady, Liu Jiang, Daniel Keim
 
-**Visual Analytics in Deep Learning: An Interrogative Survey for theNext Frontiers**
+**Visual Analytics in Deep Learning: An Interrogative Survey for the Next Frontiers**
 <br/>
-Authors: Fred Hohman, Minsuk Kahng, Robert Pienta, Duen Horng (Polo)
+Authors: Fred Hohman, Minsuk Kahng, Robert Pienta, Duen Horng
 
 **Correlation Judgment and Visualization Features: A Comparative Study**
 <br/>
@@ -688,11 +694,11 @@ Authors: Yong Wang, Daniel Archambault, Carlos E. Scheidegger, Huamin Qu
 
 **Precision Risk Analysis of Cancer Therapy with Interactive Nomograms and Survival Plots**
 <br/>
-Authors: G.E. Marai, C. Ma, A. Burks, F. Pellolio, G. Canahuate, D. Vock, A.S.R. Mohamed, C.D. Fuller
+Authors: G.Elisabeta Marai, Chihua Ma, Andrew T. Burks, Filippo Pellolio, Guadalupe Canahuate, David M. Vock, Abdallah S.R. Mohamed, C. David Fuller
 
 **Visualizing a Thinker’s Life**
 <br/>
-Authors: Patrick Riehmann, Dora Kiesel, Martin Kohlhaas, Bernd Froehlich
+Authors: Patrick Riehmann, Dora Kiesel, Martin Kohlhaas, Bernd Fröhlich
 
 **KAVAGait: Knowledge-Assisted Visual Analytics for Clinical Gait Analysis**
 <br/>
@@ -704,7 +710,7 @@ Authors: Yuan Liang, Xiting Wang, Song-Hai Zhang, Shi-Min Hu, Shixia Liu
 
 **Task-Based Effectiveness of Basic Visualizations**
 <br/>
-Authors: Bahador Saket, Alex Endert, Cagatay Demiralp
+Authors: Bahador Saket, Alex Endert, Çagatay Demiralp
 
 **Visualization of Cultural Heritage Collection Data: State of the Art and Future Challenges**
 <br/>
