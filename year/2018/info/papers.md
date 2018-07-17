@@ -42,17 +42,11 @@ Authors: Natalia Andrienko, Gennady Andrienko, Jose Manuel Cordero Garcia, David
 
 **BitExTract: Interactive Visualization for Extracting Bitcoin Exchange Intelligence**
  <br/> 
-Authors: Xuanwu Yue, Xinhuan Shu, Xinyu ZHU, Xinnan DU, Zheqing Yu, Dimitrios Papadopoulos
+Authors: Xuanwu Yue, Xinhuan Shu, Xinyu Zhu, Xinnan Du, Zheqing Yu, Dimitrios Papadopoulos
 
 **Clustrophile 2: Guided Visual Clustering Analysis**
  <br/> 
-Authors: Marco Cavallo, Çagatay 
-
-
-
-
-
-lp
+Authors: Marco Cavallo, Çagatay Demiralp
 
 **Cost-benefit Analysis of Visualization in Virtual Environments**
  <br/> 
