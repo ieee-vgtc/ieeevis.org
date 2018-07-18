@@ -123,7 +123,7 @@ permalink: /year/2018/info/committees/conference-committee
     </tr>
     <tr>
       <td>Danyel Fisher</td>
-      <td><i>Microsoft Research (InfoVis)</i></td>
+      <td><i>Honeycomb.io (InfoVis)</i></td>
     </tr>
     <tr>
       <td>Ivan Viola</td>
