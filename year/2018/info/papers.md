@@ -26,7 +26,7 @@ In addition, authors of papers from the IEEE Computer Graphics and Applications 
 
 **A Visual Analytics Framework for Spatiotemporal Trade Network Analysis**
  <br/> 
-Authors: Hong Wang, Yafeng Lu, Shade Shutters, Michael Steptoe, Feng Wang, Steven Landis
+Authors: Hong Wang, Yafeng Lu, Shade Shutters, Michael Steptoe, Feng Wang, Steven Landis, Ross Maciejewski
 
 **A Visual Analytics Framework for the Detection of Anomalous Call Stack Trees in High Performance Computing Applications**
  <br/> 
@@ -42,7 +42,7 @@ Authors: Natalia Andrienko, Gennady Andrienko, Jose Manuel Cordero Garcia, David
 
 **BitExTract: Interactive Visualization for Extracting Bitcoin Exchange Intelligence**
  <br/> 
-Authors: Xuanwu Yue, Xinhuan Shu, Xinyu Zhu, Xinnan Du, Zheqing Yu, Dimitrios Papadopoulos
+Authors: Xuanwu Yue, Xinhuan Shu, Xinyu ZHU, Xinnan Du, Zheqing Yu, Dimitrios Papadopoulos, Siyuan Liu
 
 **Clustrophile 2: Guided Visual Clustering Analysis**
  <br/> 
@@ -78,11 +78,11 @@ Authors: Ke Xu, Meng Xia, Xing Mu, Yun Wang, Nan Cao
 
 **Evaluating Multi-Dimensional Visualizations for Understanding Fuzzy Clusters**
  <br/> 
-Authors: Ying Zhao, Feng Luo, Minghui Chen, Yingchao Wang, Jiazhi Xia, Fangfang Zhou, Yi Chen, Wei Chen
+Authors: Ying Zhao, Feng Luo, Minghui Chen, Yingchao Wang, Jiazhi Xia, Fangfang Zhou, Yunhai Wang, Yi Chen, Wei Chen
 
 **ForVizor: Visualizing Spatio-Temporal Team Formations in Soccer**
  <br/> 
-Authors: Yingcai Wu, Xiao Xie, Jiachen Wang, Dazhen Deng, Hongye Liang, Hui Zhang, Wei Chen
+Authors: Yingcai Wu, Xiao Xie, Jiachen Wang, Dazhen Deng, Hongye Liang, Hui Zhang, Shoubin Cheng, Wei Chen
 
 **Futzing and Moseying: Interviews with Professional Data Analysts on Exploration Practices**
  <br/> 
@@ -94,7 +94,7 @@ Authors: Minsuk Kahng, Nikhil Thorat, Duen Horng Chau, Fernanda Viegas, Martin W
 
 **GraphProtector: a Visual Interface for Employing and Assessing Multiple Privacy Preserving Graph Algorithms**
  <br/> 
-Authors: Xumeng Wang, Wei Chen, Huihua Guan, Wenlong Chen, Rusheng Pan, Jia-Kai Chou, Kwan-Liu Ma
+Authors: Xumeng Wang, Wei Chen, Huihua Guan, Wenlong Chen, Rusheng Pan, Jia-Kai Chou, Chris Bryan, Kwan-Liu Ma
 
 **Identification of Temporally Varying Areas of Interest in Long Duration Eye Tracking Data Sets**
  <br/> 
@@ -134,7 +134,7 @@ Authors: Jarke van Wijk, Marcel van 't Veer, Patrick Houthuizen, Eveline H. J. M
 
 **RetainVis: Visual Analytics with Interpretable and Interactive Recurrent Neural Network on Electronic Medical Records**
  <br/> 
-Authors: Bum Chul Kwon, Min-Je Choi, Joanne Kim, Edward Choi, Young Bin Kim, Soonwook Kwon, Jaegul Choo
+Authors: Bum Chul Kwon, Min-Je Choi, Joanne Kim, Edward Choi, Young Bin Kim, Soonwook Kwon, Jimeng Sun, Jaegul Choo
 
 **RuleMatrix: Visualizing and Understanding Classifiers with Rules**
  <br/> 
@@ -150,7 +150,7 @@ Authors: Michelle Dowling, John Wenskovitch, J.T. Fry, Leanna House, Scotland Le
 
 **Situ: Identifying and explaining suspicious behavior in networks**
  <br/> 
-Authors: John Goodall, Eric Ragan, Chad Steed, Joel Reed, Gregory Richardson, Kelly Huffer, Jason Laska
+Authors: John Goodall, Eric Ragan, Chad Steed, Joel Reed, Gregory Richardson, Kelly Huffer, Robert Bridges, Jason Laska
 
 **TPFlow: Progressive Partition and Multidimensional Pattern Extraction for Large-Scale Spatio-Temporal Data Analysis**
  <br/> 
@@ -170,7 +170,7 @@ Authors: Dominik Sacha, Matthias Kraus, Daniel Keim, Min Chen
 
 **Visual Abstraction of the Large Scale Geospatial Origin-Destination Movement Data**
  <br/> 
-Authors: Zhiguang Zhou, Linhao Meng, Cheng Tang, Ying Zhao, Zhiyong Guo, Miaoxin Hu
+Authors: Zhiguang Zhou, Linhao Meng, Cheng Tang, Ying Zhao, Zhiyong Guo, Miaoxin Hu, Wei Chen
 
 **Visual Analysis of the Temporal Evolution of Ensemble Forecast Sensitivities**
  <br/> 
@@ -208,7 +208,7 @@ Authors: Po-Ming Law, Yanhong Wu, Rahul Basole
 
 **SMARTexplore: Simplifying High-Dimensional Data Analysis through a Table-Based Visual Analytics Approach**
  <br/> 
-Authors: Michael Blumenschein, Michael Behrisch, Stefanie Schmid, Simon Butscher, Deborah R. Wahl, Karoline Villinger, Harald Reiterer, Daniel Keim
+Authors: Michael Blumenschein, Michael Behrisch, Stefanie Schmid, Simon Butscher, Deborah R. Wahl, Karoline Villinger, Britta Renner, Harald Reiterer, Daniel Keim
 
 **The Effect of Proximity in Social Data Charts on Perceived Unity**
  <br/> 
