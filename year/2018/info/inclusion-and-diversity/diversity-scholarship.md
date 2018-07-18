@@ -5,8 +5,6 @@ permalink: /year/2018/info/inclusion-and-diversity/diversity-scholarship
 contact: inclusivity@ieeevis.org
 ---
 
-## IEEE VIS 2018 Inclusivity & Diversity Scholarship
-
 IEEE VIS welcomes and encourages participation by people of all backgrounds and identities.  We are committed to fostering and sustaining an environment of respect and inclusivity. To increase participation by underrepresented or historically marginalized groups, IEEE VIS is offering need-based scholarships for conference attendance. We invite you to submit your [application online](https://goo.gl/forms/IzC6ofZO6Xozv5wh2). 
 
 Eligible applicants are from underrepresented and/or marginalized groups including but not limited to: gender, identity, race, ethnicity, disabilities, discipline. Applicants must be aged 18 years or older. Preference will be given to applicants with a demonstrated financial need (e.g., undergraduate students that are not currently funded for visualization research) and applicants who are new to the visualization research community. 
