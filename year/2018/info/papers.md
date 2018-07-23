@@ -56,7 +56,7 @@ Authors: Min Chen, Kelly Gaither, Nigel John, Brian McCann
  <br/> 
 Authors: Nicole Sultanum, Devin Singh, Michael Brudno, Fanny Chevalier
 
-**DQNViz: A Visual Analytics Approach to Understand Deep Q-Networks** (honorable mentions)
+**DQNViz: A Visual Analytics Approach to Understand Deep Q-Networks** (honorable mention)
  <br/> 
 Authors: Junpeng Wang, Liang Gou, Han-Wei Shen, Hao Yang
 
@@ -140,7 +140,7 @@ Authors: Bum Chul Kwon, Min-Je Choi, Joanne Kim, Edward Choi, Young Bin Kim, Soo
  <br/> 
 Authors: Yao Ming, Huamin Qu, Enrico Bertini
 
-**Seq2Seq-Vis: A Visual Debugging Tool for Sequence to Sequence Models** (honorable mentions)
+**Seq2Seq-Vis: A Visual Debugging Tool for Sequence to Sequence Models** (honorable mention)
  <br/> 
 Authors: Hendrik Strobelt, Sebastian Gehrmann, Michael Behrisch, Adam Perer, Hanspeter Pfister, Alexander M. Rush
 
@@ -298,7 +298,7 @@ Authors: Di Weng, Ran Chen, Zikun Deng, Feiran Wu, Jingmin Chen, Yingcai Wu
 <br>
 Authors: Mathieu Le Goc, Charles Perin, Sean Follmer, Jean-Daniel Fekete, Pierre Dragicevic
 
-**Charticulator: Interactive Construction of Bespoke Chart Layouts** (honorable mentions)
+**Charticulator: Interactive Construction of Bespoke Chart Layouts** (honorable mention)
 <br>
 Authors: Donghao Ren, Bongshin Lee, Matthew Brehmer
 
@@ -314,7 +314,7 @@ Authors: Timothy Major, Rahul C. Basole
 <br>
 Authors: Carolina Nobre, Marc Streit, Alexander Lex
 
-**Visual Semantics of Colormap Data Visualizations** (honorable mentions)
+**Visual Semantics of Colormap Data Visualizations** (honorable mention)
 <br>
 Authors: Karen Schloss, Connor C Gramazio, A. Taylor Silverman, Madeline L. Parker, Audrey S Wang
 
@@ -406,7 +406,7 @@ Authors: Alper Sarikaya, Michael Correll, Lyn Bartram, Melanie Tory, Danyel A Fi
 <br>
 Authors: Tan Tang, Sadia Rubab, Jiewen Lai, Weiwei Cui, Lingyun Yu, Yingcai Wu
 
-**Design Exposition with Literate Visualization** (honorable mentions)
+**Design Exposition with Literate Visualization** (honorable mention)
 <br>
 Authors: Jo Wood, Alexander Kachkaev, Jason Dykes
 
@@ -426,7 +426,7 @@ Authors: Guillaume Favelier, Noura Faraj, Brian Summa, Julien Tierny
 <br>
 Authors: Andrey Krekhov, Jens Krüger
 
-**Labels on Levels: Labeling of Multi-Scale Multi-Instance and Crowded 3D Biological Environments** (honorable mentions)
+**Labels on Levels: Labeling of Multi-Scale Multi-Instance and Crowded 3D Biological Environments** (honorable mention)
 <br>
 Authors: David Kouřil, Ladislav Čmolík, Barbora Kozlíková, Hsiang-Yun Wu, Graham Johnson, David S. Goodsell, Arthur Olson, Eduard Gröller, Ivan Viola
 
@@ -446,7 +446,7 @@ Authors: Norbert Lindow, Daniel Baum, Morgan Leborgne, Hans-Christian Hege
 <br>
 Authors: Toni Sagristà Sellés, Stefan Jordan, Thomas Mueller, Filip Sadlo
 
-**Firefly: Illumination Drones for Interactive Visualization** (honorable mentions)
+**Firefly: Illumination Drones for Interactive Visualization** (honorable mention)
 <br>
 Authors: Sergej Stoppel, Magnus Paulson Erga, Stefan Bruckner
 
