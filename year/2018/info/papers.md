@@ -28,7 +28,7 @@ In addition, authors of papers from the IEEE Computer Graphics and Applications 
  <br/> 
 Authors: Hong Wang, Yafeng Lu, Shade Shutters, Michael Steptoe, Feng Wang, Steven Landis, Ross Maciejewski
 
-**A Visual Analytics Framework for the Detection of Anomalous Call Stack Trees in High Performance Computing Applications** (honorable mentions)
+**A Visual Analytics Framework for the Detection of Anomalous Call Stack Trees in High Performance Computing Applications** (honorable mention)
  <br/> 
 Authors: Cong Xie, Wei Xu, Klaus Mueller
 
