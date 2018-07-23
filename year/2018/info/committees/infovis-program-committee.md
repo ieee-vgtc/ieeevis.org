@@ -19,7 +19,7 @@ contact: infovis_papers@ieeevis.org
 | Weiwei Cui | *Microsoft Research, China* |
 | Pierre Dragicevic | *Inria, France* |
 | Jean-Daniel Fekete | *Inria, France* |
-| Danyel Fisher | *Microsoft Research, USA* |
+| Danyel Fisher | *Honeycomb.io, USA* |
 | Angus Forbes | *University of California, Santa Cruz, USA* |
 | Nils Gehlenborg | *Harvard University, USA* |
 | Michael Gleicher | *University of Wisconsin, USA* |
