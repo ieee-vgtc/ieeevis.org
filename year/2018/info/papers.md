@@ -28,7 +28,7 @@ In addition, authors of papers from the IEEE Computer Graphics and Applications 
  <br/> 
 Authors: Hong Wang, Yafeng Lu, Shade Shutters, Michael Steptoe, Feng Wang, Steven Landis, Ross Maciejewski
 
-**A Visual Analytics Framework for the Detection of Anomalous Call Stack Trees in High Performance Computing Applications** (honorable mention)
+**A Visual Analytics Framework for the Detection of Anomalous Call Stack Trees in High Performance Computing Applications** (Honorable Mention)
  <br/> 
 Authors: Cong Xie, Wei Xu, Klaus Mueller
 
@@ -56,7 +56,7 @@ Authors: Min Chen, Kelly Gaither, Nigel John, Brian McCann
  <br/> 
 Authors: Nicole Sultanum, Devin Singh, Michael Brudno, Fanny Chevalier
 
-**DQNViz: A Visual Analytics Approach to Understand Deep Q-Networks** (honorable mention)
+**DQNViz: A Visual Analytics Approach to Understand Deep Q-Networks** (Honorable Mention)
  <br/> 
 Authors: Junpeng Wang, Liang Gou, Han-Wei Shen, Hao Yang
 
