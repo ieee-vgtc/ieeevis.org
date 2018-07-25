@@ -70,10 +70,10 @@ Technical and Legal Details:
 - Content: 
   - does not include a title slide with the title of the work, authors, affiliations, etc. at the start of the video. We will add this to all videos in a consistent style.
 - Submission:
-  - videos will be uploaded as a **new Fast Forward video submission** using the PCS submission website (http://precisionconference.com/~vgtc). Please request a PCS login from the conference organizers if you do not have one.
+  - videos will be uploaded as a **new Fast Forward video submission** using the PCS submission website (https://new.precisionconference.com/vgtc). Please request a PCS login from the conference organizers if you do not have one.
   - name the video file \<track name>_\<ID>, where ID is the number automatically assigned when you first submitted your work on PCS. If your video does not have an accompanying PCS submission, use track name for the name of the event and ID for your last name.(e.g., vast_paper-100.mp4, meetups-guo.mp4)
 
-Please **make sure that your video adheres to these specification otherwise it will not be accepted** and will have to be revised.
+Please **make sure that your video adheres to these specifications otherwise it will not be accepted** and will have to be revised.
 
 For questions or more information, please email ff@ieeevis.org.
 

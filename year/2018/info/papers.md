@@ -28,7 +28,7 @@ In addition, authors of papers from the IEEE Computer Graphics and Applications 
  <br/> 
 Authors: Hong Wang, Yafeng Lu, Shade Shutters, Michael Steptoe, Feng Wang, Steven Landis, Ross Maciejewski
 
-**A Visual Analytics Framework for the Detection of Anomalous Call Stack Trees in High Performance Computing Applications** (honorable mention)
+**A Visual Analytics Framework for the Detection of Anomalous Call Stack Trees in High Performance Computing Applications** (Honorable Mention)
  <br/> 
 Authors: Cong Xie, Wei Xu, Klaus Mueller
 
@@ -56,7 +56,7 @@ Authors: Min Chen, Kelly Gaither, Nigel John, Brian McCann
  <br/> 
 Authors: Nicole Sultanum, Devin Singh, Michael Brudno, Fanny Chevalier
 
-**DQNViz: A Visual Analytics Approach to Understand Deep Q-Networks** (honorable mention)
+**DQNViz: A Visual Analytics Approach to Understand Deep Q-Networks** (Honorable Mention)
  <br/> 
 Authors: Junpeng Wang, Liang Gou, Han-Wei Shen, Hao Yang
 
@@ -140,7 +140,7 @@ Authors: Bum Chul Kwon, Min-Je Choi, Joanne Kim, Edward Choi, Young Bin Kim, Soo
  <br/> 
 Authors: Yao Ming, Huamin Qu, Enrico Bertini
 
-**Seq2Seq-Vis: A Visual Debugging Tool for Sequence to Sequence Models** (honorable mention)
+**Seq2Seq-Vis: A Visual Debugging Tool for Sequence to Sequence Models** (Honorable Mention)
  <br/> 
 Authors: Hendrik Strobelt, Sebastian Gehrmann, Michael Behrisch, Adam Perer, Hanspeter Pfister, Alexander M. Rush
 
@@ -152,7 +152,7 @@ Authors: Michelle Dowling, John Wenskovitch, J.T. Fry, Leanna House, Scotland Le
  <br/> 
 Authors: John Goodall, Eric Ragan, Chad Steed, Joel Reed, Gregory Richardson, Kelly Huffer, Robert Bridges, Jason Laska
 
-**TPFlow: Progressive Partition and Multidimensional Pattern Extraction for Large-Scale Spatio-Temporal Data Analysis** (best paper)
+**TPFlow: Progressive Partition and Multidimensional Pattern Extraction for Large-Scale Spatio-Temporal Data Analysis** (Best Paper)
  <br/> 
 Authors: Dongyu Liu, Panpan Xu, Liu Ren
 
@@ -246,7 +246,7 @@ Authors: Eugene Wu, Remco Chang, Abigail Mosca, Gabriel Ryan
 <br>
 Authors: Biswaksen Patnaik, Andrea Batch, Niklas Elmqvist
 
-**Formalizing Visualization Design Knowledge as Constraints: Actionable and Extensible Models in Draco** (best paper)
+**Formalizing Visualization Design Knowledge as Constraints: Actionable and Extensible Models in Draco** (Best Paper)
 <br>
 Authors: Dominik Moritz, Chenglong Wang, Greg L. Nelson, Halden Lin, Adam M. Smith, Bill Howe, Jeffrey Heer
 
@@ -298,7 +298,7 @@ Authors: Di Weng, Ran Chen, Zikun Deng, Feiran Wu, Jingmin Chen, Yingcai Wu
 <br>
 Authors: Mathieu Le Goc, Charles Perin, Sean Follmer, Jean-Daniel Fekete, Pierre Dragicevic
 
-**Charticulator: Interactive Construction of Bespoke Chart Layouts** (honorable mention)
+**Charticulator: Interactive Construction of Bespoke Chart Layouts** (Honorable Mention)
 <br>
 Authors: Donghao Ren, Bongshin Lee, Matthew Brehmer
 
@@ -314,7 +314,7 @@ Authors: Timothy Major, Rahul C. Basole
 <br>
 Authors: Carolina Nobre, Marc Streit, Alexander Lex
 
-**Visual Semantics of Colormap Data Visualizations** (honorable mention)
+**Visual Semantics of Colormap Data Visualizations** (Honorable Mention)
 <br>
 Authors: Karen Schloss, Connor C Gramazio, A. Taylor Silverman, Madeline L. Parker, Audrey S Wang
 
@@ -406,7 +406,7 @@ Authors: Alper Sarikaya, Michael Correll, Lyn Bartram, Melanie Tory, Danyel A Fi
 <br>
 Authors: Tan Tang, Sadia Rubab, Jiewen Lai, Weiwei Cui, Lingyun Yu, Yingcai Wu
 
-**Design Exposition with Literate Visualization** (honorable mention)
+**Design Exposition with Literate Visualization** (Honorable Mention)
 <br>
 Authors: Jo Wood, Alexander Kachkaev, Jason Dykes
 
@@ -422,11 +422,11 @@ Authors: Brian David Ondov, Nicole Jardine, Niklas Elmqvist, Steven Franconeri
 <br>
 Authors: Guillaume Favelier, Noura Faraj, Brian Summa, Julien Tierny
 
-**Deadeye: A Novel Preattentive Visualization Technique Based on Dichoptic Presentation** (best paper)
+**Deadeye: A Novel Preattentive Visualization Technique Based on Dichoptic Presentation** (Best Paper)
 <br>
 Authors: Andrey Krekhov, Jens Krüger
 
-**Labels on Levels: Labeling of Multi-Scale Multi-Instance and Crowded 3D Biological Environments** (honorable mention)
+**Labels on Levels: Labeling of Multi-Scale Multi-Instance and Crowded 3D Biological Environments** (Honorable Mention)
 <br>
 Authors: David Kouřil, Ladislav Čmolík, Barbora Kozlíková, Hsiang-Yun Wu, Graham Johnson, David S. Goodsell, Arthur Olson, Eduard Gröller, Ivan Viola
 
@@ -446,7 +446,7 @@ Authors: Norbert Lindow, Daniel Baum, Morgan Leborgne, Hans-Christian Hege
 <br>
 Authors: Toni Sagristà Sellés, Stefan Jordan, Thomas Mueller, Filip Sadlo
 
-**Firefly: Illumination Drones for Interactive Visualization** (honorable mention)
+**Firefly: Illumination Drones for Interactive Visualization** (Honorable Mention)
 <br>
 Authors: Sergej Stoppel, Magnus Paulson Erga, Stefan Bruckner
 
