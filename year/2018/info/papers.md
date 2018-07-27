@@ -354,7 +354,7 @@ Authors: Daniel Haehn, James Tompkin, Hanspeter Pfister
 <br>
 Authors: Anna Gogolou, Theophanis Tsandilas, Themis Palpanas, Anastasia Bezerianos
 
-**IDMVis: Temporal Event Sequence Visualization in Support of Type 1 Diabetes Treatment Decision**
+**IDMVis: Temporal Event Sequence Visualization for Type 1 Diabetes Treatment Decision Support**
 <br>
 Authors: Yixuan Zhang, Kartik Chanana, Cody Dunne
 
