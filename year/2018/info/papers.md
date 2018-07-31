@@ -821,7 +821,7 @@ Authors: Anke Friederici, Habib Toye, Ibrahim Hoteit, Tino Weinkauf, Holger Thei
 
 **FTLE Ridge Lines for Long Integration Times**
 <br/>
-Authors: Thomas Wilde, Christian Roessl, Holger Theisel
+Authors: Thomas Wilde, Christian Rössl, Holger Theisel
 
 **Ocean Current Segmentation at Different Depths and Correlation with Temperature in a MPAS-Ocean Simulation**
 <br/>
