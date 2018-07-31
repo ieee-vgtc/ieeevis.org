@@ -10,6 +10,7 @@ permalink: /year/2018/info/papers
 * [SciVis](#scivis) (*TVCG* journal special issue (SI) papers)
 * [*TVCG*](#tvcg) (previously published *TVCG* journal papers presented at VIS)
 * [*CG&A*](#cga) (previously published *CG&A* magazine papers presented at VIS)
+* [*SciVis short papers*](#svsp)
 
 The proceedings of VAST, InfoVis, and SciVis are published as a special issue of the flagship journal IEEE Transactions on Visualization and Computer Graphics (TVCG). The special issue has the publication date of January in the following year and is published online the first day of the conference, with [Early Access preprints](https://www.computer.org/csdl/trans/tg/preprint/index.html) publicly available by Sep 1. All authors of regular TVCG papers from the previous year in the area of visualization have been invited to give an oral presentation about their work at VIS; these talks are integrated within the topical papers sessions. This closely coupled relationship between TVCG and VIS supports the timely exchange of new ideas and rapid dissemination of visualization research via an integrated forum for both publications and presentations. 
 
@@ -722,6 +723,122 @@ Authors: Michael Behrisch, Dirk Streeb, Florian Stoffel, Daniel Seebacher, Stefa
 
 ## <a name='cga'></a>*CG&A*
 
-**Paper Title**
+**Physical Visualization of Geospatial Datasets**
 <br/>
-Authors: 
+Authors: Hessam Djavaherpour, Ali Mahdavi-Amiri, Faramarz F. Samavati
+
+**Typology of Uncertainty in Static Geolocated Graphs for Visualization**
+<br/>
+Authors: Tatiana von Landesberger, Sebastian Bremm, Marcel Wunderlich
+
+**Impact of Spatial Scales on the Intercomparison of Climate Scenarios**
+<br/>
+Authors: Wei Luo, Michael Steptoe, Zheng Chang, Robert Link, Leon Clarke, Ross Maciejewski
+
+**Urban Space Explorer: A Visual Analytics System for Urban Planning**
+<br/>
+Authors: Alireza Karduni, Isaac Cho, Ginette Wessel, William Ribarsky, Eric Sauda, Wenwen Dou
+
+**Terrain Model Reconstruction from Terrestrial LiDAR Data Using Radial Basis Functions**
+<br/>
+Authors: Jules Morel, Alexandra Bac, Cédric Véga
+
+**Name Profiler Toolkit**
+<br/>
+Authors: Feng Wang, Brett Hansen, Ryan Simmons, Ross Maciejewski 
+
+**OpenSpace: Changing the Narrative of Public Dissemination in Astronomical Visualization from What to How**
+<br/>
+Authors: Alexander Bock, Emil Axelsson, Carter Emmart, Masha Kuznetsova, Charles Hansen, Anders Ynnerman
+
+**Belle2VR: A Virtual-Reality Visualization of Subatomic Particle Physics in the Belle II Experiment**
+<br/>
+Authors: Zach Duer, Leo Piilonen, and George Glasson
+
+**Application-Driven Design: Help Students Understand Employment and See the “Big Picture”**
+<br/>
+Authors: Li Liu, Deborah Silver, Karen Bemis
+
+**Management of Cerebral Aneurysm Descriptors based on an Automatic Ostium Extraction**
+<br/>
+Authors: Monique Meuschke, Tobias Günther, Ralph Wickenhöfer, Markus Gross, Bernhard Preim, Kai Lawonn
+
+**Toward a Multimodal Diagnostic Exploratory Visualization of Focal Cortical Dysplasia**
+<br/>
+Authors: Shin-Ting Wu, Raphael Voltoline, Wallace S. Loos, J.A. Iván Rubianes, Lionis S. Watanabe, Bárbara J. Amorim, A. Carolina Coan, Fernando Cendes, Clarissa L. Yasuda
+
+**Evaluating and Optimizing Evacuation Plans for Crowd Egress**
+<br/>
+Authors: Vinícius J. Cassol, Estêvão Smania Testa, Cláudio Rosito Jung, Muhammad Usman, Petros Faloutsos, Glen Berseth, Mubbasir Kapadia, Norman I. Badler, Soraia Raupp Musse
+
+<hr/>
+
+## <a name='svsp'></a>*SciVis short papers*
+
+**An Organic Visual Metaphor for Public Understanding of Conditional Co-occurrences**
+<br/>
+Authors: Keshav Dasu, Takanori Fujiwara, Kwan-Liu Ma
+
+**VAPLI: Novel Visual Abstraction for Protein-Lipid Interactions**
+<br/>
+Authors: Naif Alharbi, Matthieu Chavent, Michael Krone, Robert S. Laramee 
+
+**Color Interpolation for non-Euclidean Color Spaces**
+<br/>
+Authors: Max Zeyen, Tobias Post, Hans Hagen, James Ahrens, David Rogers, Roxana Bujack
+
+**VRGE: An Immersive Visualization Application for the Geosciences**
+<br/>
+Authors: David A. B. Hyde, Tyler R. Hall, Jef Caers
+
+**3De Interactive Lenses for Visualization in Virtual Environments**
+<br/>
+Authors: Roberta C. R. Mota, Allan Rocha, Julio D. Silva, Usman R. Alim, Ehud Sharlin
+
+**Toward A Deep Understanding of What Makes a Scientific Visualization Memorable**
+<br/>
+Authors: Rui Li, Jian Chen
+
+**Ordering Perceptions about Perceptual Order**
+<br/>
+Authors: Roxana Bujack, Terece L Turton, David Rogers, James Ahrens
+
+**QuFlow: Visualizing Parameter Flow in Quantum Circuits for Understanding Quantum Computation**
+<br/>
+Authors: Siyuan Lin, Hao Jiang, Lingyun Sun
+
+**Cluster-Based Visualization for Merger Tree Data: The Challenge of Missing Expectations**
+<br/>
+Authors: Annie Preston, Kwan-Liu Ma
+
+**Visualization of Uncertainty for Computationally Intensive Simulations Using High Fidelity Emulators**
+<br/>
+Authors: Ayan Biswas, Earl Lawrence, James Ahrens
+
+**A Lagrangian Method for Extracting Eddy Boundaries in the Red Sea and the Gulf of Aden**
+<br/>
+Authors: Anke Friederici, Habib Toye, Ibrahim Hoteit, Tino Weinkauf, Holger Theisel, Markus Hadwiger
+
+**FTLE Ridge Lines for Long Integration Times**
+<br/>
+Authors: Thomas Wilde, Christian Roessl, Holger Theisel
+
+**Ocean Current Segmentation at Different Depths and Correlation with Temperature in a MPAS-Ocean Simulation**
+<br/>
+Authors: Petra Gospodnetic, Divya Banesh, Philip Wolfram, Mark Petersen, Hans Hagen, James Ahrens, Markus Rauhut
+
+**TimeTubes: Automatic Extraction of Observable Blazar Features from Long-Term, Multi-Dimensional Datasets**
+<br/>
+Authors: Naoko Sawada, Masanori Nakayama, Makoto Uemura, Issei Fujishiro
+
+**aflak: Pluggable Visual Programming Environment with Quick Feedback Loop Tuned for Astrophysical Observations**
+<br/>
+Authors: Malik Olivier Boussejra, Kazuya Matsubayashi, Yuriko Takeshima, Shunya Takekawa, Rikuo Uchiki, Makoto Uemura, Issei Fujishiro
+
+**Biclusters based Visual Exploration of Multivariate Scientific Data**
+<br/>
+Authors: Xiangyang He, Yubo Tao, Qirui Wang, Hai Lin
+
+
+
+
