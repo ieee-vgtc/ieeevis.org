@@ -587,7 +587,7 @@ Authors: María-Jesús Lobo, Caroline Appert, Emmanuel Pietriga
 <br>
 Authors: Monique Meuschke, Steffen Oeltze-Jafra, Oliver Beuing, Bernhard Preim, Kai Lawonn
 
-**Efficient Local Statistical Analysis via Point-Wise Histograms in Tetrahedral Meshes and Curvilinear**
+**Efficient Local Statistical Analysis via Point-Wise Histograms in Tetrahedral Meshes and Curvilinear Grids**
 <br>
 Authors: Bo Zhou, Yi-Jen Chiang, Cong Wang
 
