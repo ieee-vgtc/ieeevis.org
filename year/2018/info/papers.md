@@ -637,7 +637,7 @@ Authors: Yunhai Wang, Fubo Han, Lifeng Zhu, Oliver Deussen, Baoquan Chen
 
 **Is There a Robust Technique for Selecting Aspect Ratios in Line Charts?**
 <br/>
-Authors: Yunhai Wang, Zeyu Wang, Lifeng Zhu, Jian Zhang, Chi-Wing Fu, Changhe Tu, Baoquan Chen
+Authors: Yunhai Wang, Zeyu Wang, Lifeng Zhu, Jian Zhang, Chi-Wing Fu, Changhe Tu, Baoquan Chen, Zhanglin Cheng
 
 **A Perception-Driven Approach to Supervised Dimensionality Reduction for Visualization**
 <br/>
