@@ -102,3 +102,83 @@ Authors: Yulong Guo, Xiaopei Liu, Chi Xiong, Xuemiao Xu, Chi-Wing Fu
 Authors: Monique Meuschke, Steffen Oeltze-Jafra, Oliver Beuing, Bernhard Preim, Kai Lawonn
 
 <hr/>
+
+**TUESDAY, OCTOBER 23**  
+**4:20pm-6:00pm**  
+**Conv 1, Sec C**  
+*VAST: Spatio-Temporal Data *  
+*Session Chair: TBA* 
+
+**Visual Abstraction of the Large Scale Geospatial Origin-Destination Movement Data**
+ <br/> 
+Authors: Zhiguang Zhou, Linhao Meng, Cheng Tang, Ying Zhao, Zhiyong Guo, Miaoxin Hu, Wei Chen
+
+**Analysis of Flight Variability: a Systematic Approach**
+ <br/> 
+Authors: Natalia Andrienko, Gennady Andrienko, Jose Manuel Cordero Garcia, David Scarlatti
+
+**ForVizor: Visualizing Spatio-Temporal Team Formations in Soccer**
+ <br/> 
+Authors: Yingcai Wu, Xiao Xie, Jiachen Wang, Dazhen Deng, Hongye Liang, Hui Zhang, Shoubin Cheng, Wei Chen
+
+**MotionRugs: Visualizing Collective Trends in Space and Time**
+ <br/> 
+Authors: Juri Buchmuller, Dominik Jackle, Eren Cakmak, Ulrik Brandes, Daniel Keim
+
+**Identification of Temporally Varying Areas of Interest in Long Duration Eye Tracking Data Sets**
+ <br/> 
+Authors: Prithiviraj Kaliappa Gounder Muthumanickam, Katerina Vrotsou, Aida Nordman, Jimmy Johansson, Matthew Cooper
+
+<hr/>
+
+**TUESDAY, OCTOBER 23**  
+**4:20pm-6:00pm**  
+**Conv 1, Sec D**  
+*InfoVis: Evaluation & Applications*  
+*Session Chair: TBA*
+
+**A Heuristic Approach to Value-Driven Evaluation of Visualizations**
+<br>
+Authors: Emily Wall, Meeshu Agnihotri, Laura Matzen, Kristin Divis, Michael Haass, Alex Endert, John Stasko
+
+**Patterns and Pace: Quantifying Diverse Exploration Behavior with Visualizations on the Web**
+<br>
+Authors: Mi Feng, Evan Peck, Lane Harrison
+
+**Lineage: Visualizing Multivariate Clinical Data in Genealogy Graphs**
+<br/>
+Authors: Carolina Nobre, Nils Gehlenborg, Hilary Coon, Alexander Lex
+
+**IDMVis: Temporal Event Sequence Visualization for Type 1 Diabetes Treatment Decision Support**
+<br>
+Authors: Yixuan Zhang, Kartik Chanana, Cody Dunne
+
+**Visualization of Cultural Heritage Collection Data: State of the Art and Future Challenges**
+<br/>
+Authors: Florian Windhager, Paolo Federico, Günther Schreder, Katrin Glinka, Marian Dörk, Silvia Miksch, Eva Mayr
+
+<hr/>
+
+**TUESDAY, OCTOBER 23**  
+**4:20pm-6:00pm**  
+**Conv 1, Estrel AB**  
+*SciVis: Biological Applications*  
+*Session Chair: TBA* 
+
+**Interactive Visualization of RNA and DNA Structures**
+<br>
+Authors: Norbert Lindow, Daniel Baum, Morgan Leborgne, Hans-Christian Hege
+
+**Labels on Levels: Labeling of Multi-Scale Multi-Instance and Crowded 3D Biological Environments**
+<br>
+Authors: David Kouřil, Ladislav Čmolík, Barbora Kozlíková, Hsiang-Yun Wu, Graham Johnson, David S. Goodsell, Arthur Olson, Eduard Gröller, Ivan Viola
+
+**Visualization of Large Molecular Trajectories**
+<br>
+Authors: David Duran Rosich, Pedro Hermosilla Casajus, Timo Ropinski, Barbora Kozlíková, Àlvar Vinacua, Pere-Pau Vázquez
+
+**Robust Tracing and Visualization of Heterogeneous Microvascular Networks**
+<br>
+Authors: Pavel Govyadinov, Tasha Womack, Jason L. Eriksen, Guoning Chen, David Mayerich
+
+<hr/>
