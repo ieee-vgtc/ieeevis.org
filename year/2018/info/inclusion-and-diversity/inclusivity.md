@@ -7,13 +7,32 @@ Visualization taps into the very best capabilities of our brains, transforming f
 
 Promoting and fostering inclusion is important to IEEE VIS. This year, the IEEE VIS community is providing opportunities to underrepresented groups as well as educating the community on the benefits of a more inclusive culture and programming. Acknowledging the uniqueness of each individual, IEEE VIS seeks to cultivate an environment that encourages freedom of expression. As part of our efforts, we are proud to announce a variety of meetups, workshops and panels that are focused on inclusion and diversity.
 
-Inclusivity Content at IEEE VIS 2018 will include meet-ups, panels, and events focused around inclusivity, awareness in our community, and family through VISKids events and meet-ups.
+Inclusivity Content at IEEE VIS 2018 will also include meetup events focused around inclusivity, awareness in our community, and family through VISKids events and meet-ups.
 
-### Inclusivity & Diversity Co-Chairs
+### VIS 2018 Inclusivity & Diversity Committee
 
-Michelle Borkin (Northeastern University)
+Michelle Borkin (Northeastern University, Co-Chair)
 
-Kelly Gaither (Texas Advanced Computing Center)
+Kelly Gaither (Texas Advanced Computing Center, Co-Chair)
+
+R. Jordan Crouser (Smith College, VISKids Liaison) 
+
+Meg Pirrung (PNNL, Student Liaison) 
+
+
+### VIS 2018 Inclusivity & Diversity Advisory Board
+Lisa Avila (Kitware)
+
+David Ebert (Purdue)
+
+Ronald Metoyer (Notre Dame)
+
+Miriah Meyer (University of Utah)
+
+Tamara Munzner (University of British Columbia)
+
+Penny Rheingans (University of Maryland Baltimore County)
+
 
 ### Contact
 
