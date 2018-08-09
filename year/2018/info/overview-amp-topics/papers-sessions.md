@@ -8,8 +8,8 @@ permalink: /year/2018/info/overview-amp-topics/papers-sessions
 <hr/>
 
 **TUESDAY, OCTOBER 23**  
-**08:45am-11:00am**  
-**Convention Hall 1(Sections A+B+C+D)**  
+**08:30am-11:00am**  
+**Convention Hall 1, Sec C+D**  
 *VIS: VIS Awards & Best Papers*  
 *Session Chair: Best Paper Award Committees*
 
