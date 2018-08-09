@@ -4,7 +4,11 @@ layout: main-2018
 permalink: /year/2018/info/overview-amp-topics/papers-sessions
 ---
 
+[J] (TVCG journal special issue (SI) papers)
+[T] (previously published TVCG journal papers presented at VIS)
+[C] VAST conference papers
 
+<br>
 <hr/>
 
 **TUESDAY, OCTOBER 23**  
@@ -407,6 +411,34 @@ Authors: Tanja Blascheck, Lonni Besançon, Anastasia Bezerianos, Bongshin Lee, P
 <hr/>
 
 **WEDNESDAY, OCTOBER 24**  
+**11:00am-12:40pm**    
+**Estrel Rm3** 
+**CG&A Session 1**  
+*Session Chair: TBA*
+
+**Physical Visualization of Geospatial Datasets**
+<br/>
+Authors: Hessam Djavaherpour, Ali Mahdavi-Amiri, Faramarz F. Samavati
+
+**Typology of Uncertainty in Static Geolocated Graphs for Visualization**
+<br/>
+Authors: Tatiana von Landesberger, Sebastian Bremm, Marcel Wunderlich
+
+**Impact of Spatial Scales on the Intercomparison of Climate Scenarios**
+<br/>
+Authors: Wei Luo, Michael Steptoe, Zheng Chang, Robert Link, Leon Clarke, Ross Maciejewski
+
+**Urban Space Explorer: A Visual Analytics System for Urban Planning**
+<br/>
+Authors: Alireza Karduni, Isaac Cho, Ginette Wessel, William Ribarsky, Eric Sauda, Wenwen Dou
+
+**Name Profiler Toolkit**
+<br/>
+Authors: Feng Wang, Brett Hansen, Ryan Simmons, Ross Maciejewski 
+
+<hr/>
+
+**WEDNESDAY, OCTOBER 24**  
 **02:20pm-04:00pm**  
 **Convention Hall 1, Section C**  
 **VAST: High Dimensional Data**  
@@ -708,6 +740,34 @@ Authors: Luis Gustavo Nonato and Michael Aupetit
 **Exploration Strategies for Discovery of Interactivity in Visualizations**
 <br>
 Authors: Tanja Blascheck, Lindsay MacDonald Vermeulen, Jo Vermeulen, Charles Perin, Wesley Willett, Thomas Ertl, Sheelagh Carpendale
+
+<hr/>
+
+**THURSDAY, OCTOBER 25**   
+**11:00am-12:40pm**  
+**Estrel Rm3**  
+**CG&A Session 2**  
+*Session Chair: TBA*
+
+**OpenSpace: Changing the Narrative of Public Dissemination in Astronomical Visualization from What to How**
+<br/>
+Authors: Alexander Bock, Emil Axelsson, Carter Emmart, Masha Kuznetsova, Charles Hansen, Anders Ynnerman
+
+**Belle2VR: A Virtual-Reality Visualization of Subatomic Particle Physics in the Belle II Experiment**
+<br/>
+Authors: Zach Duer, Leo Piilonen, and George Glasson
+
+**Application-Driven Design: Help Students Understand Employment and See the “Big Picture”**
+<br/>
+Authors: Li Liu, Deborah Silver, Karen Bemis
+
+**Management of Cerebral Aneurysm Descriptors based on an Automatic Ostium Extraction**
+<br/>
+Authors: Monique Meuschke, Tobias Günther, Ralph Wickenhöfer, Markus Gross, Bernhard Preim, Kai Lawonn
+
+**Toward a Multimodal Diagnostic Exploratory Visualization of Focal Cortical Dysplasia**
+<br/>
+Authors: Shin-Ting Wu, Raphael Voltoline, Wallace S. Loos, J.A. Iván Rubianes, Lionis S. Watanabe, Bárbara J. Amorim, A. Carolina Coan, Fernando Cendes, Clarissa L. Yasuda
 
 <hr/>
 
