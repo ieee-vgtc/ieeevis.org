@@ -247,10 +247,10 @@ Authors: Wiebke Köpp, Tino Weinkauf
 <hr/>
 
 **WEDNESDAY, OCTOBER 24**  
-**9:00am-10:40am** 
+**9:00am-10:40am**  
 **Estrel Hall A+B**  
 **SciVis: Biomedical Visualization**  
-*Session Chair: TBA*
+*Session Chair: TBA* 
 
 **Visual Analysis of Aneurysm Data using Statistical Graphics**
 <br>
@@ -495,7 +495,7 @@ Authors: Alper Sarikaya, Michael Correll, Lyn Bartram, Melanie Tory, Danyel A Fi
 <hr/>
 
 **WEDNESDAY, OCTOBER 24**  
-**02:20pm-04:00pm** 
+**02:20pm-04:00pm**  
 **Estrel Hall A+B**  
 **SciVis: Space and Physics**  
 *Session Chair: TBA*
