@@ -4,9 +4,9 @@ layout: main-2018
 permalink: /year/2018/info/overview-amp-topics/papers-sessions
 ---
 
-[J] (TVCG journal special issue (SI) papers)
-[T] (previously published TVCG journal papers presented at VIS)
-[C] VAST conference papers
+[J] (*TVCG* journal special issue (SI) papers)  
+[T] (previously published *TVCG* journal papers presented at VIS)  
+[C] conference papers  
 
 <br>
 <hr/>
@@ -112,7 +112,7 @@ Authors: Jun Tao, Chaoli Wang, Nitesh Chawla, Lei Shi, Seung Hyun Kim
 **TUESDAY, OCTOBER 23**  
 **4:20pm-6:00pm**  
 **Convention Hall 1, Section C**  
-**VAST: Spatio-Temporal Data **  
+**VAST: Spatio-Temporal Data**  
 *Session Chair: TBA* 
 
 **Visual Abstraction of the Large Scale Geospatial Origin-Destination Movement Data**
@@ -384,7 +384,7 @@ Authors: Matthew Berger, Jixian Li, Joshua A. Levine
 
 **WEDNESDAY, OCTOBER 24**  
 **11:00am-12:40pm**    
-**Estrel Hall C**
+**Estrel Hall C**  
 **InfoVis: Devices: Small & Large**  
 *Session Chair: TBA*
 
@@ -412,28 +412,28 @@ Authors: Tanja Blascheck, Lonni Besançon, Anastasia Bezerianos, Bongshin Lee, P
 
 **WEDNESDAY, OCTOBER 24**  
 **11:00am-12:40pm**    
-**Estrel Rm3** 
+**Estrel Rm3**  
 **CG&A Session 1**  
 *Session Chair: TBA*
 
 **Physical Visualization of Geospatial Datasets**
-<br/>
+<br>
 Authors: Hessam Djavaherpour, Ali Mahdavi-Amiri, Faramarz F. Samavati
 
 **Typology of Uncertainty in Static Geolocated Graphs for Visualization**
-<br/>
+<br>
 Authors: Tatiana von Landesberger, Sebastian Bremm, Marcel Wunderlich
 
 **Impact of Spatial Scales on the Intercomparison of Climate Scenarios**
-<br/>
+<br>
 Authors: Wei Luo, Michael Steptoe, Zheng Chang, Robert Link, Leon Clarke, Ross Maciejewski
 
 **Urban Space Explorer: A Visual Analytics System for Urban Planning**
-<br/>
+<br>
 Authors: Alireza Karduni, Isaac Cho, Ginette Wessel, William Ribarsky, Eric Sauda, Wenwen Dou
 
 **Name Profiler Toolkit**
-<br/>
+<br>
 Authors: Feng Wang, Brett Hansen, Ryan Simmons, Ross Maciejewski 
 
 <hr/>
@@ -580,7 +580,7 @@ Authors: Mathieu Le Goc, Charles Perin, Sean Follmer, Jean-Daniel Fekete, Pierre
 <hr/>
 
 **THURSDAY, OCTOBER 25**   
-**9:00am-10:40am** 
+**9:00am-10:40am**  
 **Estrel Hall A+B**  
 **SciVis: Tensors**  
 *Session Chair: TBA* 
@@ -632,10 +632,10 @@ Authors: Zhicong Lu, Mingming Fan, Yun Wang, Jian Zhao, Michelle Annett, Daniel 
 <hr/>
 
 **THURSDAY, OCTOBER 25**  
-**11:00am-12:40pm** 
+**11:00am-12:40pm**  
 **Convention Hall 1, Section C**  
 **VAST: Deep Learning**  
-*Session Chair: TBA*
+*Session Chair: TBA* 
 
 **Visual Analytics in Deep Learning: An Interrogative Survey for the Next Frontiers**
 <br>
@@ -688,10 +688,10 @@ Authors: Qianwen Wang, Zhen Li, Siwei Fu, Weiwei Cui, Huamin Qu
 <hr/>
 
 **THURSDAY, OCTOBER 25**   
-**11:00am-12:40pm**
+**11:00am-12:40pm**  
 **Estrel Hall A+B**  
 **SciVis: Scalable Techniques**  
-*Session Chair: TBA*
+*Session Chair: TBA* 
 
 **Culling for Extreme-Scale Segmentation Volumes: A Hybrid Deterministic and Probabilistic Approach**
 <br>
@@ -750,29 +750,29 @@ Authors: Tanja Blascheck, Lindsay MacDonald Vermeulen, Jo Vermeulen, Charles Per
 *Session Chair: TBA*
 
 **OpenSpace: Changing the Narrative of Public Dissemination in Astronomical Visualization from What to How**
-<br/>
+<br>
 Authors: Alexander Bock, Emil Axelsson, Carter Emmart, Masha Kuznetsova, Charles Hansen, Anders Ynnerman
 
 **Belle2VR: A Virtual-Reality Visualization of Subatomic Particle Physics in the Belle II Experiment**
-<br/>
+<br>
 Authors: Zach Duer, Leo Piilonen, and George Glasson
 
 **Application-Driven Design: Help Students Understand Employment and See the “Big Picture”**
-<br/>
+<br>
 Authors: Li Liu, Deborah Silver, Karen Bemis
 
 **Management of Cerebral Aneurysm Descriptors based on an Automatic Ostium Extraction**
-<br/>
+<br>
 Authors: Monique Meuschke, Tobias Günther, Ralph Wickenhöfer, Markus Gross, Bernhard Preim, Kai Lawonn
 
 **Toward a Multimodal Diagnostic Exploratory Visualization of Focal Cortical Dysplasia**
-<br/>
+<br>
 Authors: Shin-Ting Wu, Raphael Voltoline, Wallace S. Loos, J.A. Iván Rubianes, Lionis S. Watanabe, Bárbara J. Amorim, A. Carolina Coan, Fernando Cendes, Clarissa L. Yasuda
 
 <hr/>
 
 **THURSDAY, OCTOBER 25**  
-**02:20pm-04:00pm**
+**02:20pm-04:00pm**  
 **Convention Hall 1, Section C**  
 **VAST: Graph and Image**  
 *Session Chair: TBA*
@@ -800,7 +800,7 @@ Authors: Yuan Liang, Xiting Wang, Song-Hai Zhang, Shi-Min Hu, Shixia Liu
 <hr/>
 
 **THURSDAY, OCTOBER 25**  
-**02:20pm-04:00pm**
+**02:20pm-04:00pm**  
 **Convention Hall 1, Section D**  
 **InfoVis: Perception & Cognition 1**  
 *Session Chair: TBA* 
@@ -828,10 +828,10 @@ Authors: Yunhai Wang, Zeyu Wang, Lifeng Zhu, Jian Zhang, Chi-Wing Fu, Changhe Tu
 <hr/>
 
 **THURSDAY, OCTOBER 25**   
-**02:20pm-04:00pm**
+**02:20pm-04:00pm**  
 **Estrel A+B**  
 **SciVis: Topology, Geometry, and Precision**  
-*Session Chair: TBA*
+*Session Chair: TBA* 
 
 **Persistence Atlas for Critical Point Variability in Ensembles**
 <br>
@@ -856,7 +856,7 @@ Authors: Duong Hoang, Pavol Klacansky, Harsh Bhatia, Peer-Timo Bremer, Peter Lin
 <hr/>
 
 **THURSDAY, OCTOBER 25**   
-**02:20pm-04:00pm** 
+**02:20pm-04:00pm**  
 **Estrel Hall C**  
 **SciVis Short Papers: Visual Abstractions, Perceptual Study and Immersive Visualization**  
 *Session Chair: TBA*
@@ -896,7 +896,7 @@ Authors: Siyuan Lin, Hao Jiang, Lingyun Sun
 <hr/>
 
 **THURSDAY, OCTOBER 25**  
-**04:20pm-06:00pm** 
+**04:20pm-06:00pm**  
 **Convention Hall 1, Section C**  
 **VAST: Explainable and VA-Assisted ML**  
 *Session Chair: TBA*
@@ -924,10 +924,10 @@ Authors: Dominik Sacha, Matthias Kraus, Daniel Keim, Min Chen
 <hr/>
 
 **THURSDAY, OCTOBER 25**  
-**04:20pm-06:00pm** 
+**04:20pm-06:00pm**  
 **Convention Hall 1, Section D**  
 **InfoVis: Perception & Cognition 2**  
-*Session Chair: TBA*
+*Session Chair: TBA* 
 
 **Mitigating the Attraction Effect with Visualizations**
 <br>
@@ -952,7 +952,7 @@ Authors: Fumeng Yang, Lane Harrison, Ronald A. Rensink, Steven Franconeri, Remco
 <hr/>
 
 **THURSDAY, OCTOBER 25**   
-**04:20pm-06:00pm** 
+**04:20pm-06:00pm**  
 **Estrel Hall A+B**  
 **SciVis: Interaction and Multivariate Data**  
 *Session Chair: TBA*
@@ -980,9 +980,9 @@ Authors: Allan Rocha, Julio Daniel Silva, Usman R. Alim, Sheelagh Carpendale, Ma
 <hr/>
 
 **THURSDAY, OCTOBER 25**   
-**04:20pm-06:00pm** 
+**04:20pm-06:00pm**  
 **Estrel Hall C**  
-**SciVis Short Papers: Flow, Astrophysics, and Computationally Intensive Data Visualization**
+**SciVis Short Papers: Flow, Astrophysics, and Computationally Intensive Data Visualization**  
 *Session Chair: TBA*
 
 **Cluster-Based Visualization for Merger Tree Data: The Challenge of Missing Expectations**
@@ -1021,7 +1021,7 @@ Authors: Xiangyang He, Yubo Tao, Qirui Wang, Hai Lin
 <hr/>
 
 **FRIDAY, OCTOBER 26**  
-**9:00am-10:40am** 
+**9:00am-10:40am**  
 **Convention Hall 1, Section C**  
 **VAST: Event and Sequence**  
 *Session Chair: TBA*
@@ -1077,10 +1077,10 @@ Authors: Nina McCurdy, Julie Gerdes, Miriah Meyer
 <hr/>
 
 **FRIDAY, OCTOBER 26**   
-**9:00am-10:40am** 
+**9:00am-10:40am**  
 **Estrel Hall C**  
 **SciVis: Time-varying Data**  
-*Session Chair: TBA*
+*Session Chair: TBA* 
 
 **Exploring Time-Varying Multivariate Volume Data Using Matrix of Isosurface Similarity Maps**
 <br>
