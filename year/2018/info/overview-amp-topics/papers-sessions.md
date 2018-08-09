@@ -245,7 +245,23 @@ Authors: Wiebke Köpp, Tino Weinkauf
 **9:00am-10:40am** 
 **Conv 1, Estrel AB**  
 *SciVis: Biomedical Visualization*  
-*Session Chair: TBA* 
+*Session Chair: TBA*
+
+**Visual Analysis of Aneurysm Data using Statistical Graphics**
+<br>
+Authors: Monique Meuschke, Tobias Günther, Philipp Berg, Ralph Wickenhoefer, Markus Gross, Bernhard Preim, Kai Lawonn
+
+**Interactive Visualization of 3D Histopathology in Native Resolution**
+<br>
+Authors: Martin Falk, Anders Ynnerman, Darren Treanor, Claes Lundström
+
+**Visualization of Neuronal Structures in Wide-field Microscopy Brain Images**
+<br>
+Authors: Saeed Boorboor, Shreeraj Jadhav, Mala Ananth, David Talmage, Lorna W Role, Arie Kaufman
+
+**Classification of Blood Flow Patterns in Cerebral Aneurysms**
+<br>
+Authors: Monique Meuschke, Steffen Oeltze-Jafra, Oliver Beuing, Bernhard Preim, Kai Lawonn
 
 <hr/>
 
@@ -255,6 +271,26 @@ Authors: Wiebke Köpp, Tino Weinkauf
 *VAST: Text*  
 *Session Chair: TBA*
 
+**Bridging Text Visualization and Mining: A Task-Driven Survey**
+<br/>
+Authors: Shixia Liu, Xiting Wang, Christopher Collins, Wenwen Dou, Fangxin Ouyang, Mennatallah El-Assady, Liu Jiang, Daniel Keim
+
+**Doccurate: A Curation-Based Approach for Clinical Text Visualization**
+ <br/> 
+Authors: Nicole Sultanum
+
+**VIS Author Profiles: Interactive Descriptions of Publication Records Combining Text and Visualization**
+ <br/> 
+Authors: Shahid Latif, Fabian Beck, Devin Singh, Michael Brudno, Fanny Chevalier
+
+**A Visual Analytics Framework for Identifying Topic Drivers in Media**
+<br/>
+Authors: Yafeng Lu, Hong Wang, Steven Landis, Ross Maciejewski
+
+**Visualizing a Thinker’s Life**
+<br/>
+Authors: Patrick Riehmann, Dora Kiesel, Martin Kohlhaas, Bernd Fröhlich
+
 <hr/>
 
 **WEDNESDAY, OCTOBER 24**  
@@ -262,6 +298,26 @@ Authors: Wiebke Köpp, Tino Weinkauf
 **Conv 1, Sec C**  
 *VAST: Applications*  
 *Session Chair: TBA*
+
+**Commercial Visual Analytics Systems – Advances in the Big Data Analytics Field**
+<br/>
+Authors: Michael Behrisch, Dirk Streeb, Florian Stoffel, Daniel Seebacher, Stefan Hagen Weber, Sebastian Mittelstaedt, Hanspeter Pfister, Daniel Keim
+
+**BitExTract: Interactive Visualization for Extracting Bitcoin Exchange Intelligence**
+ <br/> 
+Authors: Xuanwu Yue, Xinhuan Shu, Xinyu ZHU, Xinnan Du, Zheqing Yu, Dimitrios Papadopoulos, Siyuan Liu
+
+**KAVAGait: Knowledge-Assisted Visual Analytics for Clinical Gait Analysis**
+<br/>
+Authors: Markus Wagner, Djordje Slijepcevic, Brian Horsak, Alexander Rind, Matthias Zeppelzauer, Wolfgang Aigner
+
+**Precision Risk Analysis of Cancer Therapy with Interactive Nomograms and Survival Plots**
+<br/>
+Authors: G.Elisabeta Marai, Chihua Ma, Andrew T. Burks, Filippo Pellolio, Guadalupe Canahuate, David M. Vock, Abdallah S.R. Mohamed, C. David Fuller
+
+**VUSphere: Visual Analysis of Video Utilization in Online Distance Education**
+ <br/> 
+Authors: Huan He, Qinghua Zheng, Bo Dong
 
 <hr/>
 
@@ -271,13 +327,53 @@ Authors: Wiebke Köpp, Tino Weinkauf
 *InfoVis: Graphs & Trees*  
 *Session Chair: TBA* 
 
+**Juniper: A Tree+Table Approach to Multivariate Graph Visualization**
+<br>
+Authors: Carolina Nobre, Marc Streit, Alexander Lex
+
+**Graph Thumbnails: Identifying and Comparing Multiple Graphs at a Glance**
+<br/>
+Authors: Vahan Yoghourdjian, Tim Dwyer, Karsten Klein, Kim Marriott, Michael Wybrow
+
+**Structure-Based Suggestive Exploration: A New Approach for Effective Exploration of Large Networks**
+<br>
+Authors: Fangzhou Guo, Wei Chen, Dongming Han, Jiacheng Pan, Xiaotao Nie, Jiazhi Xia, Xiaolong (Luke) Zhang
+
+**Structure-aware Fisheye Views for Efficient Large Graph Exploration**
+<br>
+Authors: Yunhai Wang, Yanyan Wang, Yinqi Sun, Haifeng Zhang, Chi-Wing Fu, Michael Sedlmair, Baoquan Chen, Oliver Deussen
+
+**Graphicle: Exploring Units, Networks, and Context in a Blended Visualization Approach**
+<br>
+Authors: Timothy Major, Rahul C. Basole
+
 <hr/>
 
 **WEDNESDAY, OCTOBER 24**  
 **11:00am-12:40pm**  
 **Conv 1, Estrel AB**  
 *SciVis: Volume Visualization*  
-*Session Chair: TBA* 
+*Session Chair: TBA*
+
+**Interactive Obstruction-free Lensing for Volumetric Data Visualization**
+<br>
+Authors: Michael Traoré, Christophe Hurter, Alexandru Telea
+
+**Dynamic Volume Lines: Visual Comparison of 3D Volumes through Space-filling Curves**
+<br>
+Authors: Johannes Weissenböck, Bernhard Fröhler, Eduard Gröller, Johann Kastner, Christoph Heinzl
+
+**A Declarative Grammar of Flexible Volume Visualization Pipelines**
+<br>
+Authors: Min Shih, Charles Rozhon, Kwan-Liu Ma
+
+**Multi-Material Volume Rendering with a Physically-Based Surface Reflection Model**
+<br>
+Authors: Oleg Igouchkine, Yubo Zhang, Kwan-Liu Ma
+
+**A Generative Model for Volume Rendering**
+<br>
+Authors: Matthew Berger, Jixian Li, Joshua A. Levine
 
 <hr/>
 
@@ -285,7 +381,27 @@ Authors: Wiebke Köpp, Tino Weinkauf
 **11:00am-12:40pm**    
 **Estrel C**
 *InfoVis: Devices: Small & Large*  
-*Session Chair: TBA* 
+*Session Chair: TBA*
+
+**Vistrates: A Component Model for Ubiquitous Analytics**
+<br>
+Authors: Sriram Karthik Badam, Andreas Mathisen, Roman Rädle, Clemens Nylandsted Klokmose, Niklas Elmqvist
+
+**SmartCues: A Multitouch Query Approach for Details-on-Demand through Dynamically Computed Overlays**
+<br>
+Authors: Hariharan Subramonyam, Eytan Adar
+
+**Multiple Coordinated Views at Large Displays for Multiple Users: Empirical Findings on User Behavior, Movements, and Distances**
+<br>
+Authors: Ricardo Langner, Ulrike Kister, Raimund Dachselt
+
+**Visualizing Ranges over Time on Mobile Phones: A Task-Based Crowdsourced Evaluation**
+<br>
+Authors: Matthew Brehmer, Bongshin Lee, Petra Isenberg, Eun Kyoung Choe
+
+**Glanceable Visualization: Studies of Data Comparison Performance on Smartwatches**
+<br>
+Authors: Tanja Blascheck, Lonni Besançon, Anastasia Bezerianos, Bongshin Lee, Petra Isenberg
 
 <hr/>
 
@@ -295,6 +411,26 @@ Authors: Wiebke Köpp, Tino Weinkauf
 *VAST: High Dimensional Data*  
 *Session Chair: TBA*
 
+**SIRIUS: Dual, Symmetric, Interactive Dimension Reductions**
+ <br/> 
+Authors: Michelle Dowling, John Wenskovitch, J.T. Fry, Leanna House, Scotland Leman, Chris North
+
+**A Perception-Driven Approach to Supervised Dimensionality Reduction for Visualization**
+<br/>
+Authors: Yunhai Wang, Kang Feng, Xiaowei Chu, Jian Zhang, Chi-Wing Fu, Michael Sedlmair, Xiaohui Yu, Baoquan Chen
+
+**SMARTexplore: Simplifying High-Dimensional Data Analysis through a Table-Based Visual Analytics Approach**
+ <br/> 
+Authors: Michael Blumenschein, Michael Behrisch, Stefanie Schmid, Simon Butscher, Deborah R. Wahl, Karoline Villinger, Britta Renner, Harald Reiterer, Daniel Keim
+
+**ColorMapND: A Data-Driven Approach and Tool for Mapping Multivariate Data to Color**
+<br/>
+Authors: Shenghui Cheng, Wei Xu, Klaus Mueller
+
+**EmbeddingVis: A Visual Analytics Approach to Comparative Network Embedding Inspection**
+ <br/> 
+Authors: Quan Li, Kristanto Sean Njotoprawiro, Hammad Haleem, Qiaoan Chen, Chris YI, Xiaojuan Ma
+
 <hr/>
 
 **WEDNESDAY, OCTOBER 24**  
@@ -302,6 +438,26 @@ Authors: Wiebke Köpp, Tino Weinkauf
 **Conv 1, Sec D**  
 *InfoVis: Text & Communication*  
 *Session Chair: TBA* 
+
+**Evaluating 'Graphical Perception' with CNNs**
+<br>
+Authors: Daniel Haehn, James Tompkin, Hanspeter Pfister
+
+**NLIZE: A Perturbation-Driven Visual Interrogation Tool for Analyzing and Interpreting Natural Language Inference Models**
+<br>
+Authors: Shusen Liu, Zhimin Li, Tao Li, Vivek Srikumar, Valerio Pascucci, Peer-Timo Bremer
+
+**Elastic Documents: Coupling Text and Tables through Contextual Visualizations for Enhanced Document Reading**
+<br>
+Authors: Sriram Karthik Badam, Zhicheng Liu, Niklas Elmqvist
+
+**Augmenting Visualizations with Interactive Data Facts to Facilitate Interpretation and Communication**
+<br>
+Authors: Arjun Srinivasan, Steven Drucker, Alex Endert, John Stasko
+
+**What Do We Talk About When We Talk About Dashboards?**
+<br>
+Authors: Alper Sarikaya, Michael Correll, Lyn Bartram, Melanie Tory, Danyel A Fisher
 
 <hr/>
 
@@ -311,13 +467,25 @@ Authors: Wiebke Köpp, Tino Weinkauf
 *SciVis: Space and Physics*  
 *Session Chair: TBA*
 
-<hr/>
+**Visualization of Bubble Formation in Porous Media**
+<br>
+Authors: Hui Zhang, Steffen Frey, Holger Steeb, David Uribe, Thomas Ertl, Wenping Wang
 
-**WEDNESDAY, OCTOBER 24**  
-**02:20pm-04:00pm** 
-**Estrel C**  
-*SciVis: SciVis Contest*  
-*Session Chair: TBA*
+**Gaia Sky: Navigating the Gaia Catalog**
+<br>
+Authors: Toni Sagristà Sellés, Stefan Jordan, Thomas Mueller, Filip Sadlo
+
+**Interactive 3D Visual Analysis of Atmospheric Fronts**
+<br>
+Authors: Michael Alexander Kern, Timothy David Hewson, Andreas Schäfler, Rüdiger Westermann, Marc Rautenhaus
+
+**An Interactive Framework for Visualization of Weather Forecast Ensembles**
+<br>
+Authors: Bo Ma, Alireza Entezari
+
+**Animation Plans for Before-And-After Satellite images**
+<br>
+Authors: María-Jesús Lobo, Caroline Appert, Emmanuel Pietriga
 
 <hr/>
 <hr/>
