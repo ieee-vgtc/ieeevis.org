@@ -576,9 +576,9 @@ Authors: Rafael Ballester-Ripoll, Renato Pajarola
 *VAST: Interactive Analytics and Design*  
 *Session Chair: TBA*
 
-**An Interactive Framework for Visualization of Weather Forecast Ensembles**
-<br>
-Authors: Bo Ma, Alireza Entezari
+**An Interactive Method to Improve Crowdsourced Annotations**
+ <br/> 
+Authors: Changjian Chen, Shixia Liu, Yafeng Lu, Fangxin Ouyang, Bin Wang
 
 **RegressionExplorer: Interactive Exploration of Logistic Regression Models with Subgroup Analysis**
  <br/> 
