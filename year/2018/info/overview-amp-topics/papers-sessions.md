@@ -5,7 +5,7 @@ permalink: /year/2018/info/overview-amp-topics/papers-sessions
 ---
 
 
-
+<hr/>
 
 **TUESDAY, OCTOBER 23**  
 **08:45am-11:00am**  
@@ -191,6 +191,26 @@ Authors: Pavel Govyadinov, Tasha Womack, Jason L. Eriksen, Guoning Chen, David M
 *VAST: Ensemble and Provenance*  
 *Session Chair: TBA*
 
+**Visual Analysis of the Temporal Evolution of Ensemble Forecast Sensitivities**
+ <br/> 
+Authors: Alexander Kumpf, Marc Rautenhaus, Michael Riemer, Rüdiger Westermann
+
+**EnsembleLens: Ensemble-based Visual Exploration of Anomaly Detection Algorithms with Multidimensional Data**
+ <br/> 
+Authors: Ke Xu, Meng Xia, Xing Mu, Yun Wang, Nan Cao
+
+**Exploring Variability within Ensembles of Decadal Climate Predictions**
+<br/>
+Authors: Christopher P. Kappe, Michael Böttinger, Heike Leitte
+
+**KnowledgePearls: Provenance-Based Visualization Retrieval**
+ <br/> 
+Authors: Holger Stitz, Samuel Gratzl, Harald Piringer, Thomas Zichner, Marc Streit
+
+**Enhancing Web-based Analytics Applications through Provenance**
+ <br/> 
+Authors: Akhilesh Camisetty, Chaitanya Chandurkar, Maoyuan Sun, David Koop
+
 <hr/>
 
 **WEDNESDAY, OCTOBER 24**  
@@ -198,6 +218,26 @@ Authors: Pavel Govyadinov, Tasha Womack, Jason L. Eriksen, Guoning Chen, David M
 **Conv 1, Sec D**  
 *InfoVis: Time*  
 *Session Chair: TBA* 
+
+**Comparing Similarity Perception in Time Series Visualizations**
+<br>
+Authors: Anna Gogolou, Theophanis Tsandilas, Themis Palpanas, Anastasia Bezerianos
+
+**A Multiresolution Streamgraph Approach to Explore Hierarchical Time Series**
+<br/>
+Authors: Erick Cuenca, Arnaud Sallaberry, Florence Ying Wang, Pascal Poncelet
+
+**Line Graph or Scatter Plot? Automatic Selection of Methods for Visualizing Trends in Time Series**
+<br/>
+Authors: Yunhai Wang, Fubo Han, Lifeng Zhu, Oliver Deussen, Baoquan Chen
+
+**A Vector Field Design Approach to Animated Transitions**
+<br/>
+Authors: Yong Wang, Daniel Archambault, Carlos E. Scheidegger, Huamin Qu
+
+**Temporal Treemaps: Static Visualization of Evolving Trees**
+<br>
+Authors: Wiebke Köpp, Tino Weinkauf
 
 <hr/>
 
