@@ -10,7 +10,7 @@ permalink: /year/2018/info/overview-amp-topics/papers-sessions
 **TUESDAY, OCTOBER 23**  
 **08:30am-11:00am**  
 **Convention Hall 1, Section C+D**  
-**VIS: Opening & VIS Awards & Best Papers**
+**VIS: Opening & VIS Awards & Best Papers** 
 *Session Chair: Best Paper Award Committees*
 
 **TPFlow: Progressive Partition and Multidimensional Pattern Extraction for Large-Scale Spatio-Temporal Data Analysis** *(Best Paper Award, VAST)*  
