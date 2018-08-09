@@ -98,9 +98,9 @@ Authors: Tobias Günther, Holger Theisel
 <br>
 Authors: Yulong Guo, Xiaopei Liu, Chi Xiong, Xuemiao Xu, Chi-Wing Fu
 
-**Classification of Blood Flow Patterns in Cerebral Aneurysms**
+**Semantic Flow Graph: A Framework for Discovering Object Relationships in Flow Fields**
 <br>
-Authors: Monique Meuschke, Steffen Oeltze-Jafra, Oliver Beuing, Bernhard Preim, Kai Lawonn
+Authors: Jun Tao, Chaoli Wang, Nitesh Chawla, Lei Shi, Seung Hyun Kim
 
 <hr/>
 
