@@ -5,6 +5,8 @@ permalink: /year/2018/info/overview-amp-topics/papers-sessions
 ---
 
 
+
+
 **TUESDAY, OCTOBER 23**  
 **08:45am-11:00am**  
 **Convention Hall 1(Sections A+B+C+D)**  
@@ -21,7 +23,6 @@ Authors: Dominik Moritz, Chenglong Wang, Greg L. Nelson, Halden Lin, Adam M. Smi
 Authors: Andrey Krekhov, Jens Krueger
 
 <hr/>
-
 
 **TUESDAY, OCTOBER 23**  
 **2:20pm-4:00pm**  
@@ -182,3 +183,255 @@ Authors: David Duran Rosich, Pedro Hermosilla Casajus, Timo Ropinski, Barbora Ko
 Authors: Pavel Govyadinov, Tasha Womack, Jason L. Eriksen, Guoning Chen, David Mayerich
 
 <hr/>
+<hr/>
+
+**WEDNESDAY, OCTOBER 24**  
+**9:00am-10:40am**  
+**Conv 1, Sec C**  
+*VAST: Ensemble and Provenance*  
+*Session Chair: TBA*
+
+<hr/>
+
+**WEDNESDAY, OCTOBER 24**  
+**9:00am-10:40am**   
+**Conv 1, Sec D**  
+*InfoVis: Time*  
+*Session Chair: TBA* 
+
+<hr/>
+
+**WEDNESDAY, OCTOBER 24**  
+**9:00am-10:40am** 
+**Conv 1, Estrel AB**  
+*SciVis: Biomedical Visualization*  
+*Session Chair: TBA* 
+
+<hr/>
+
+**WEDNESDAY, OCTOBER 24**  
+**9:00am-10:40am**  
+**Estrel C**  
+*VAST: Text*  
+*Session Chair: TBA*
+
+<hr/>
+
+**WEDNESDAY, OCTOBER 24**  
+**11:00am-12:40pm**  
+**Conv 1, Sec C**  
+*VAST: Applications*  
+*Session Chair: TBA*
+
+<hr/>
+
+**WEDNESDAY, OCTOBER 24**  
+**11:00am-12:40pm**    
+**Conv 1, Sec D**  
+*InfoVis: Graphs & Trees*  
+*Session Chair: TBA* 
+
+<hr/>
+
+**WEDNESDAY, OCTOBER 24**  
+**11:00am-12:40pm**  
+**Conv 1, Estrel AB**  
+*SciVis: Volume Visualization*  
+*Session Chair: TBA* 
+
+<hr/>
+
+**WEDNESDAY, OCTOBER 24**  
+**11:00am-12:40pm**    
+**Estrel C**
+*InfoVis: Devices: Small & Large*  
+*Session Chair: TBA* 
+
+<hr/>
+
+**WEDNESDAY, OCTOBER 24**  
+**02:20pm-04:00pm**  
+**Conv 1, Sec C**  
+*VAST: High Dimensional Data*  
+*Session Chair: TBA*
+
+<hr/>
+
+**WEDNESDAY, OCTOBER 24**  
+**02:20pm-04:00pm**      
+**Conv 1, Sec D**  
+*InfoVis: Text & Communication*  
+*Session Chair: TBA* 
+
+<hr/>
+
+**WEDNESDAY, OCTOBER 24**  
+**02:20pm-04:00pm** 
+**Conv 1, Estrel AB**  
+*SciVis: Space and Physics*  
+*Session Chair: TBA*
+
+<hr/>
+
+**WEDNESDAY, OCTOBER 24**  
+**02:20pm-04:00pm** 
+**Estrel C**  
+*SciVis: SciVis Contest*  
+*Session Chair: TBA*
+
+<hr/>
+<hr/>
+
+**THURSDAY, OCTOBER 25**  
+**9:00am-10:40am**  
+**Conv 1, Sec C**  
+*VAST: Security, Privacy, and Anomaly*  
+*Session Chair: TBA*
+
+<hr/>
+
+**THURSDAY, OCTOBER 25**  
+**9:00am-10:40am**   
+**Conv 1, Sec D**  
+*InfoVis: Immersive Analytics*  
+*Session Chair: TBA* 
+
+<hr/>
+
+**THURSDAY, OCTOBER 25**   
+**9:00am-10:40am** 
+**Conv 1, Estrel AB**  
+*SciVis: Tensors*  
+*Session Chair: TBA* 
+
+<hr/>
+
+**THURSDAY, OCTOBER 25**   
+**9:00am-10:40am**  
+**Estrel C**  
+*VAST: Interactive Analytics and Design*  
+*Session Chair: TBA*
+
+<hr/>
+
+**THURSDAY, OCTOBER 25**  
+**11:00am-12:40pm** 
+**Conv 1, Sec C**  
+*VAST: Deep Learning*  
+*Session Chair: TBA*
+
+<hr/>
+
+**THURSDAY, OCTOBER 25**  
+**11:00am-12:40pm**  
+**Conv 1, Sec D**  
+*InfoVis: Design & Storytelling*  
+*Session Chair: TBA* 
+
+<hr/>
+
+**THURSDAY, OCTOBER 25**   
+**11:00am-12:40pm**
+**Conv 1, Estrel AB**  
+*SciVis: Scalable Techniques*  
+*Session Chair: TBA* 
+
+<hr/>
+
+**THURSDAY, OCTOBER 25**   
+**11:00am-12:40pm**  
+**Estrel C**  
+*InfoVis: Interaction*  
+*Session Chair: TBA*
+
+<hr/>
+
+**THURSDAY, OCTOBER 25**  
+**02:20pm-04:00pm**
+**Conv 1, Sec C**  
+*VAST: Graph and Image*  
+*Session Chair: TBA*
+
+<hr/>
+
+**THURSDAY, OCTOBER 25**  
+**02:20pm-04:00pm**
+**Conv 1, Sec D**  
+*InfoVis: Perception & Cognition 1*  
+*Session Chair: TBA* 
+
+<hr/>
+
+**THURSDAY, OCTOBER 25**   
+**02:20pm-04:00pm**
+**Conv 1, Estrel AB**  
+*SciVis: Topology, Geometry, and Precision*  
+*Session Chair: TBA* 
+
+<hr/>
+
+**THURSDAY, OCTOBER 25**   
+**02:20pm-04:00pm** 
+**Estrel C**  
+*SciVis: (SciVis Short) Visual Abstractions, Perceptual Study and Immersive Visualization*  
+*Session Chair: TBA*
+
+<hr/>
+
+**THURSDAY, OCTOBER 25**  
+**04:20pm-06:00pm** 
+**Conv 1, Sec C**  
+*VAST: Explainable and VA-Assisted ML*  
+*Session Chair: TBA*
+
+<hr/>
+
+**THURSDAY, OCTOBER 25**  
+**04:20pm-06:00pm** 
+**Conv 1, Sec D**  
+*InfoVis: Perception & Cognition 2*  
+*Session Chair: TBA* 
+
+<hr/>
+
+**THURSDAY, OCTOBER 25**   
+**04:20pm-06:00pm** 
+**Conv 1, Estrel AB**  
+*SciVis: Interaction and Multivariate Data*  
+*Session Chair: TBA* 
+
+<hr/>
+
+**THURSDAY, OCTOBER 25**   
+**04:20pm-06:00pm** 
+**Estrel C**  
+*SciVis: (SciVis Short) Flow, Astrophysics, and Computationally Intensive Data Visualization*  
+*Session Chair: TBA*
+
+<hr/>
+<hr/>
+
+**FRIDAY, OCTOBER 26**  
+**9:00am-10:40am** 
+**Conv 1, Sec C**  
+*VAST: Event and Sequence*  
+*Session Chair: TBA*
+
+<hr/>
+
+**FRIDAY, OCTOBER 26**   
+**9:00am-10:40am**  
+**Conv 1, Sec D**  
+*InfoVis: Uncertainty & Error*  
+*Session Chair: TBA* 
+
+<hr/>
+
+**FRIDAY, OCTOBER 26**   
+**9:00am-10:40am** 
+**Estrel C**  
+*SciVis: Time-varying Data*  
+*Session Chair: TBA* 
+
+
+
