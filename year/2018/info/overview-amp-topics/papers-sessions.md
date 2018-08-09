@@ -31,23 +31,23 @@ Authors: Andrey Krekhov, Jens Krueger
 *Session Chair: TBA*  
 
 **Evaluating Multi-Dimensional Visualizations for Understanding Fuzzy Clusters**
- <br/> 
+<br> 
 Authors: Ying Zhao, Feng Luo, Minghui Chen, Yingchao Wang, Jiazhi Xia, Fangfang Zhou, Yunhai Wang, Yi Chen, Wei Chen
 
 **The Effect of Proximity in Social Data Charts on Perceived Unity**
- <br/> 
+<br> 
 Authors: Marlen Promann, Sabine Brunswicker
 
 **Futzing and Moseying: Interviews with Professional Data Analysts on Exploration Practices**
- <br/> 
+<br> 
 Authors: Sara Alspaugh, Nava Zokaei, Andrea Liu, Cindy Jin, Marti Hearst
 
 **The Effect of Semantic Interaction on Foraging in Text Analysis**
- <br/> 
+<br> 
 Authors: John Wenskovitch, Lauren Bradel, Michelle Dowling, Leanna House, Chris North
 
 **Cost-benefit Analysis of Visualization in Virtual Environments**
- <br/> 
+<br> 
 Authors: Min Chen, Kelly Gaither, Nigel John, Brian McCann
 
 <hr/>
@@ -63,7 +63,7 @@ Authors: Min Chen, Kelly Gaither, Nigel John, Brian McCann
 Authors: Vladimir Molchanov, Lars Linsen
 
 **Using Dashboard Networks to Visualize Multiple Patient Histories: A Design Study on Post-operative Prostate Cancer**
-<br/>
+<br>
 Authors: Jürgen Bernard, David Sessler, Jörn Kohlhammer, Roy A. Ruddle
 
 **Towards Better Spatial Integration in Ranking Visualization**
@@ -111,23 +111,23 @@ Authors: Jun Tao, Chaoli Wang, Nitesh Chawla, Lei Shi, Seung Hyun Kim
 *Session Chair: TBA* 
 
 **Visual Abstraction of the Large Scale Geospatial Origin-Destination Movement Data**
- <br/> 
+<br> 
 Authors: Zhiguang Zhou, Linhao Meng, Cheng Tang, Ying Zhao, Zhiyong Guo, Miaoxin Hu, Wei Chen
 
 **Analysis of Flight Variability: a Systematic Approach**
- <br/> 
+<br> 
 Authors: Natalia Andrienko, Gennady Andrienko, Jose Manuel Cordero Garcia, David Scarlatti
 
 **ForVizor: Visualizing Spatio-Temporal Team Formations in Soccer**
- <br/> 
+<br> 
 Authors: Yingcai Wu, Xiao Xie, Jiachen Wang, Dazhen Deng, Hongye Liang, Hui Zhang, Shoubin Cheng, Wei Chen
 
 **MotionRugs: Visualizing Collective Trends in Space and Time**
- <br/> 
+<br> 
 Authors: Juri Buchmuller, Dominik Jackle, Eren Cakmak, Ulrik Brandes, Daniel Keim
 
 **Identification of Temporally Varying Areas of Interest in Long Duration Eye Tracking Data Sets**
- <br/> 
+<br> 
 Authors: Prithiviraj Kaliappa Gounder Muthumanickam, Katerina Vrotsou, Aida Nordman, Jimmy Johansson, Matthew Cooper
 
 <hr/>
@@ -147,7 +147,7 @@ Authors: Emily Wall, Meeshu Agnihotri, Laura Matzen, Kristin Divis, Michael Haas
 Authors: Mi Feng, Evan Peck, Lane Harrison
 
 **Lineage: Visualizing Multivariate Clinical Data in Genealogy Graphs**
-<br/>
+<br>
 Authors: Carolina Nobre, Nils Gehlenborg, Hilary Coon, Alexander Lex
 
 **IDMVis: Temporal Event Sequence Visualization for Type 1 Diabetes Treatment Decision Support**
@@ -155,7 +155,7 @@ Authors: Carolina Nobre, Nils Gehlenborg, Hilary Coon, Alexander Lex
 Authors: Yixuan Zhang, Kartik Chanana, Cody Dunne
 
 **Visualization of Cultural Heritage Collection Data: State of the Art and Future Challenges**
-<br/>
+<br>
 Authors: Florian Windhager, Paolo Federico, Günther Schreder, Katrin Glinka, Marian Dörk, Silvia Miksch, Eva Mayr
 
 <hr/>
@@ -192,23 +192,23 @@ Authors: Pavel Govyadinov, Tasha Womack, Jason L. Eriksen, Guoning Chen, David M
 *Session Chair: TBA*
 
 **Visual Analysis of the Temporal Evolution of Ensemble Forecast Sensitivities**
- <br/> 
+<br> 
 Authors: Alexander Kumpf, Marc Rautenhaus, Michael Riemer, Rüdiger Westermann
 
 **EnsembleLens: Ensemble-based Visual Exploration of Anomaly Detection Algorithms with Multidimensional Data**
- <br/> 
+<br> 
 Authors: Ke Xu, Meng Xia, Xing Mu, Yun Wang, Nan Cao
 
 **Exploring Variability within Ensembles of Decadal Climate Predictions**
-<br/>
+<br>
 Authors: Christopher P. Kappe, Michael Böttinger, Heike Leitte
 
 **KnowledgePearls: Provenance-Based Visualization Retrieval**
- <br/> 
+<br> 
 Authors: Holger Stitz, Samuel Gratzl, Harald Piringer, Thomas Zichner, Marc Streit
 
 **Enhancing Web-based Analytics Applications through Provenance**
- <br/> 
+<br> 
 Authors: Akhilesh Camisetty, Chaitanya Chandurkar, Maoyuan Sun, David Koop
 
 <hr/>
@@ -224,15 +224,15 @@ Authors: Akhilesh Camisetty, Chaitanya Chandurkar, Maoyuan Sun, David Koop
 Authors: Anna Gogolou, Theophanis Tsandilas, Themis Palpanas, Anastasia Bezerianos
 
 **A Multiresolution Streamgraph Approach to Explore Hierarchical Time Series**
-<br/>
+<br>
 Authors: Erick Cuenca, Arnaud Sallaberry, Florence Ying Wang, Pascal Poncelet
 
 **Line Graph or Scatter Plot? Automatic Selection of Methods for Visualizing Trends in Time Series**
-<br/>
+<br>
 Authors: Yunhai Wang, Fubo Han, Lifeng Zhu, Oliver Deussen, Baoquan Chen
 
 **A Vector Field Design Approach to Animated Transitions**
-<br/>
+<br>
 Authors: Yong Wang, Daniel Archambault, Carlos E. Scheidegger, Huamin Qu
 
 **Temporal Treemaps: Static Visualization of Evolving Trees**
@@ -272,23 +272,23 @@ Authors: Monique Meuschke, Steffen Oeltze-Jafra, Oliver Beuing, Bernhard Preim, 
 *Session Chair: TBA*
 
 **Bridging Text Visualization and Mining: A Task-Driven Survey**
-<br/>
+<br>
 Authors: Shixia Liu, Xiting Wang, Christopher Collins, Wenwen Dou, Fangxin Ouyang, Mennatallah El-Assady, Liu Jiang, Daniel Keim
 
 **Doccurate: A Curation-Based Approach for Clinical Text Visualization**
- <br/> 
+<br> 
 Authors: Nicole Sultanum
 
 **VIS Author Profiles: Interactive Descriptions of Publication Records Combining Text and Visualization**
- <br/> 
+<br> 
 Authors: Shahid Latif, Fabian Beck, Devin Singh, Michael Brudno, Fanny Chevalier
 
 **A Visual Analytics Framework for Identifying Topic Drivers in Media**
-<br/>
+<br>
 Authors: Yafeng Lu, Hong Wang, Steven Landis, Ross Maciejewski
 
 **Visualizing a Thinker’s Life**
-<br/>
+<br>
 Authors: Patrick Riehmann, Dora Kiesel, Martin Kohlhaas, Bernd Fröhlich
 
 <hr/>
@@ -300,23 +300,23 @@ Authors: Patrick Riehmann, Dora Kiesel, Martin Kohlhaas, Bernd Fröhlich
 *Session Chair: TBA*
 
 **Commercial Visual Analytics Systems – Advances in the Big Data Analytics Field**
-<br/>
+<br>
 Authors: Michael Behrisch, Dirk Streeb, Florian Stoffel, Daniel Seebacher, Stefan Hagen Weber, Sebastian Mittelstaedt, Hanspeter Pfister, Daniel Keim
 
 **BitExTract: Interactive Visualization for Extracting Bitcoin Exchange Intelligence**
- <br/> 
+<br> 
 Authors: Xuanwu Yue, Xinhuan Shu, Xinyu ZHU, Xinnan Du, Zheqing Yu, Dimitrios Papadopoulos, Siyuan Liu
 
 **KAVAGait: Knowledge-Assisted Visual Analytics for Clinical Gait Analysis**
-<br/>
+<br>
 Authors: Markus Wagner, Djordje Slijepcevic, Brian Horsak, Alexander Rind, Matthias Zeppelzauer, Wolfgang Aigner
 
 **Precision Risk Analysis of Cancer Therapy with Interactive Nomograms and Survival Plots**
-<br/>
+<br>
 Authors: G.Elisabeta Marai, Chihua Ma, Andrew T. Burks, Filippo Pellolio, Guadalupe Canahuate, David M. Vock, Abdallah S.R. Mohamed, C. David Fuller
 
 **VUSphere: Visual Analysis of Video Utilization in Online Distance Education**
- <br/> 
+<br> 
 Authors: Huan He, Qinghua Zheng, Bo Dong
 
 <hr/>
@@ -332,7 +332,7 @@ Authors: Huan He, Qinghua Zheng, Bo Dong
 Authors: Carolina Nobre, Marc Streit, Alexander Lex
 
 **Graph Thumbnails: Identifying and Comparing Multiple Graphs at a Glance**
-<br/>
+<br>
 Authors: Vahan Yoghourdjian, Tim Dwyer, Karsten Klein, Kim Marriott, Michael Wybrow
 
 **Structure-Based Suggestive Exploration: A New Approach for Effective Exploration of Large Networks**
@@ -412,23 +412,23 @@ Authors: Tanja Blascheck, Lonni Besançon, Anastasia Bezerianos, Bongshin Lee, P
 *Session Chair: TBA*
 
 **SIRIUS: Dual, Symmetric, Interactive Dimension Reductions**
- <br/> 
+<br> 
 Authors: Michelle Dowling, John Wenskovitch, J.T. Fry, Leanna House, Scotland Leman, Chris North
 
 **A Perception-Driven Approach to Supervised Dimensionality Reduction for Visualization**
-<br/>
+<br>
 Authors: Yunhai Wang, Kang Feng, Xiaowei Chu, Jian Zhang, Chi-Wing Fu, Michael Sedlmair, Xiaohui Yu, Baoquan Chen
 
 **SMARTexplore: Simplifying High-Dimensional Data Analysis through a Table-Based Visual Analytics Approach**
- <br/> 
+<br> 
 Authors: Michael Blumenschein, Michael Behrisch, Stefanie Schmid, Simon Butscher, Deborah R. Wahl, Karoline Villinger, Britta Renner, Harald Reiterer, Daniel Keim
 
 **ColorMapND: A Data-Driven Approach and Tool for Mapping Multivariate Data to Color**
-<br/>
+<br>
 Authors: Shenghui Cheng, Wei Xu, Klaus Mueller
 
 **EmbeddingVis: A Visual Analytics Approach to Comparative Network Embedding Inspection**
- <br/> 
+<br> 
 Authors: Quan Li, Kristanto Sean Njotoprawiro, Hammad Haleem, Qiaoan Chen, Chris YI, Xiaojuan Ma
 
 <hr/>
@@ -497,23 +497,23 @@ Authors: María-Jesús Lobo, Caroline Appert, Emmanuel Pietriga
 *Session Chair: TBA*
 
 **Vulnus: Visual Vulnerability Analysis for Network Security**
- <br/> 
+<br> 
 Authors: Marco Angelini, Graziano Blasilli, Tiziana Catarci, Simone Lenti, Giuseppe Santucci
 
 **GraphProtector: a Visual Interface for Employing and Assessing Multiple Privacy Preserving Graph Algorithms**
- <br/> 
+<br> 
 Authors: Xumeng Wang, Wei Chen, Huihua Guan, Wenlong Chen, Rusheng Pan, Jia-Kai Chou, Chris Bryan, Kwan-Liu Ma
 
 **Situ: Identifying and explaining suspicious behavior in networks**
- <br/> 
+<br> 
 Authors: John Goodall, Eric Ragan, Chad Steed, Joel Reed, Gregory Richardson, Kelly Huffer, Robert Bridges, Jason Laska
 
 **A Visual Analytics Framework for the Detection of Anomalous Call Stack Trees in High Performance Computing Applications**
- <br/> 
+<br> 
 Authors: Cong Xie, Wei Xu, Klaus Mueller
 
 **Lessons Learned Developing a Visual Analytics Solution for Investigative Analysis of Scamming Activities**
- <br/> 
+<br> 
 Authors: Jay Koven, Cristian Felix, Hossein Siadati, Enrico Bertini, Markus Jakobsson
 
 <hr/>
@@ -577,23 +577,23 @@ Authors: Rafael Ballester-Ripoll, Renato Pajarola
 *Session Chair: TBA*
 
 **An Interactive Method to Improve Crowdsourced Annotations**
- <br/> 
+<br> 
 Authors: Changjian Chen, Shixia Liu, Yafeng Lu, Fangxin Ouyang, Bin Wang
 
 **RegressionExplorer: Interactive Exploration of Logistic Regression Models with Subgroup Analysis**
- <br/> 
+<br> 
 Authors: Jarke van Wijk, Marcel van 't Veer, Patrick Houthuizen, Eveline H. J. Mestrom, Erik H.H.M. Korsten, Arthur R.A. Bouwman
 
 **Drag and Track:  A Direct Manipulation Interface for Contextualizing Data Instances within a Continuous Parameter Space**
- <br/> 
+<br> 
 Authors: Daniel Orban, Daniel Keefe, Ayan Biswas, James Ahrens, David Rogers
 
 **Clustrophile 2: Guided Visual Clustering Analysis**
- <br/> 
+<br> 
 Authors: Marco Cavallo, Çagatay Demiralp
 
 **InkPlanner: Supporting Prewriting via Intelligent Visual Diagramming**
- <br/> 
+<br> 
 Authors: Zhicong Lu, Mingming Fan, Yun Wang, Jian Zhao, Michelle Annett, Daniel Wigdor
 
 <hr/>
@@ -605,23 +605,23 @@ Authors: Zhicong Lu, Mingming Fan, Yun Wang, Jian Zhao, Michelle Annett, Daniel 
 *Session Chair: TBA*
 
 **Visual Analytics in Deep Learning: An Interrogative Survey for the Next Frontiers**
-<br/>
+<br>
 Authors: Fred Hohman, Minsuk Kahng, Robert Pienta, Duen Horng
 
 **Analyzing the Noise Robustness of Deep Neural Networks**
- <br/> 
+<br> 
 Authors: Mengchen Liu, Shixia Liu, Hang Su, Kelei Cao, Jun Zhu
 
 **DQNViz: A Visual Analytics Approach to Understand Deep Q-Networks** (Honorable Mention)
- <br/> 
+<br> 
 Authors: Junpeng Wang, Liang Gou, Han-Wei Shen, Hao Yang
 
 **RetainVis: Visual Analytics with Interpretable and Interactive Recurrent Neural Network on Electronic Medical Records**
- <br/> 
+<br> 
 Authors: Bum Chul Kwon, Min-Je Choi, Joanne Kim, Edward Choi, Young Bin Kim, Soonwook Kwon, Jimeng Sun, Jaegul Choo
 
 **GAN Lab: Understanding Complex Deep Generative Models using Interactive Visual Experimentation**
- <br/> 
+<br> 
 Authors: Minsuk Kahng, Nikhil Thorat, Duen Horng Chau, Fernanda Viegas, Martin Wattenberg
 
 <hr/>
@@ -637,7 +637,7 @@ Authors: Minsuk Kahng, Nikhil Thorat, Duen Horng Chau, Fernanda Viegas, Martin W
 Authors: Ethan Kerzner, Sarah Goodwin, Jason Dykes, Sara V Jones, Miriah Meyer
 
 **ATOM: A Grammar for Unit Visualizations**
-<br/>
+<br>
 Authors: Deokgun Park, Steven M. Drucker, Roland Fernandez, Niklas Elmqvist
 
 **Design Exposition with Literate Visualization**
@@ -697,15 +697,15 @@ Authors: Donghao Ren, Bongshin Lee, Matthew Brehmer
 Authors: Ali Sarvghad, Bahador Saket, Alex Endert, Nadir Weibel
 
 **Smart Brushing for Parallel Coordinates**
-<br/>
+<br>
 Authors: Richard Roberts, Robert S Laramee, Gary A Smith, Paul Brookes, Tony D'Cruze
 
 **Multidimensional Projection for Visual Analytics: Linking Techniques with Distortions, Tasks, and Layout Enrichment**
-<br/>
+<br>
 Authors: Luis Gustavo Nonato and Michael Aupetit
 
 **Exploration Strategies for Discovery of Interactivity in Visualizations**
-<br/>
+<br>
 Authors: Tanja Blascheck, Lindsay MacDonald Vermeulen, Jo Vermeulen, Charles Perin, Wesley Willett, Thomas Ertl, Sheelagh Carpendale
 
 <hr/>
@@ -717,23 +717,23 @@ Authors: Tanja Blascheck, Lindsay MacDonald Vermeulen, Jo Vermeulen, Charles Per
 *Session Chair: TBA*
 
 **ViBr: Visualizing Bipartite Relations at Scale with the Minimum Description Length Principle**
- <br/> 
+<br> 
 Authors: Gromit Yeuk-Yin Chan, Panpan Xu, Zeng Dai, Liu Ren
 
 **Segue: Overviewing Evolution Patterns of Egocentric Networks by Interactive Construction of Spatial Layouts**
- <br/> 
+<br> 
 Authors: Po-Ming Law, Yanhong Wu, Rahul Basole
 
 **A Visual Analytics Framework for Spatiotemporal Trade Network Analysis**
- <br/> 
+<br> 
 Authors: Hong Wang, Yafeng Lu, Shade Shutters, Michael Steptoe, Feng Wang, Steven Landis, Ross Maciejewski
 
 **A Semantic-based Method for Visualizing Large Image Collections**
-<br/>
+<br>
 Authors: Xiao Xie, Xiwen Cai, Junpei Zhou, Nan Cao, Yingcai Wu
 
 **PhotoRecomposer: Interactive Photo Recomposition by Cropping**
-<br/>
+<br>
 Authors: Yuan Liang, Xiting Wang, Song-Hai Zhang, Shi-Min Hu, Shixia Liu
 
 <hr/>
@@ -761,7 +761,7 @@ Authors: Michael Correll, Mingwei Li, Gordon L Kindlmann, Carlos Scheidegger
 Authors: Yunhai Wang, Zeyu Wang, Chi-Wing Fu, Hansjörg Schmauder, Oliver Deussen, Daniel Weiskopf
 
 **Is There a Robust Technique for Selecting Aspect Ratios in Line Charts?**
-<br/>
+<br>
 Authors: Yunhai Wang, Zeyu Wang, Lifeng Zhu, Jian Zhang, Chi-Wing Fu, Changhe Tu, Baoquan Chen, Zhanglin Cheng
 
 <hr/>
@@ -801,35 +801,35 @@ Authors: Duong Hoang, Pavol Klacansky, Harsh Bhatia, Peer-Timo Bremer, Peter Lin
 *Session Chair: TBA*
 
 **An Organic Visual Metaphor for Public Understanding of Conditional Co-occurrences**
-<br/>
+<br>
 Authors: Keshav Dasu, Takanori Fujiwara, Kwan-Liu Ma
 
 **VAPLI: Novel Visual Abstraction for Protein-Lipid Interactions**
-<br/>
+<br>
 Authors: Naif Alharbi, Matthieu Chavent, Michael Krone, Robert S. Laramee
 
 **Color Interpolation for non-Euclidean Color Spaces**
-<br/>
+<br>
 Authors: Max Zeyen, Tobias Post, Hans Hagen, James Ahrens, David Rogers, Roxana Bujack
 
 **VRGE: An Immersive Visualization Application for the Geosciences**
-<br/>
+<br>
 Authors: David A. B. Hyde, Tyler R. Hall, Jef Caers
 
 **3De Interactive Lenses for Visualization in Virtual Environments**
-<br/>
+<br>
 Authors: Roberta C. R. Mota, Allan Rocha, Julio D. Silva, Usman R. Alim, Ehud Sharlin
 
 **Toward A Deep Understanding of What Makes a Scientific Visualization Memorable**
-<br/>
+<br>
 Authors: Rui Li, Jian Chen
 
 **Ordering Perceptions about Perceptual Order**
-<br/>
+<br>
 Authors: Roxana Bujack, Terece L Turton, David Rogers, James Ahrens
 
 **QuFlow: Visualizing Parameter Flow in Quantum Circuits for Understanding Quantum Computation**
-<br/>
+<br>
 Authors: Siyuan Lin, Hao Jiang, Lingyun Sun
 
 <hr/>
@@ -841,23 +841,23 @@ Authors: Siyuan Lin, Hao Jiang, Lingyun Sun
 *Session Chair: TBA*
 
 **RuleMatrix: Visualizing and Understanding Classifiers with Rules**
- <br/> 
+<br> 
 Authors: Yao Ming, Huamin Qu, Enrico Bertini
 
 **iForest: Interpreting Random Forests via Visual Analytics**
- <br/> 
+<br> 
 Authors: Xun Zhao, Yanhong Wu, Dik Lun Lee, Weiwei Cui
 
 **Manifold: A Model-Agnostic Framework for Interpretation and Diagnosis of Machine Learning Models**
- <br/> 
+<br> 
 Authors: Jiawei Zhang, Yang Wang, Piero Molino, Lezhi Li, David Ebert
 
 **Visual Analytics for Topic Model Optimization based on User-Steerable Speculative Execution**
- <br/> 
+<br> 
 Authors: Mennatallah El-Assady, Fabian Sperrle, Oliver Deussen, Daniel Keim, Christopher Collins
 
 **VIS4ML: An Ontology for Visual Analytics Assisted Machine Learning**
- <br/> 
+<br> 
 Authors: Dominik Sacha, Matthias Kraus, Daniel Keim, Min Chen
 
 <hr/>
@@ -877,7 +877,7 @@ Authors: Evanthia Dimara, Gilles Bailly, Anastasia Bezerianos, Steven Franconeri
 Authors: Brian David Ondov, Nicole Jardine, Niklas Elmqvist, Steven Franconeri
 
 **Task-Based Effectiveness of Basic Visualizations**
-<br/>
+<br>
 Authors: Bahador Saket, Alex Endert, Çagatay Demiralp
 
 **At a Glance: Approximate Entropy as a Measure of Line Chart Visualization Complexity**
@@ -885,7 +885,7 @@ Authors: Bahador Saket, Alex Endert, Çagatay Demiralp
 Authors: Eugene Wu, Remco Chang, Abigail Mosca, Gabriel Ryan
 
 **Correlation Judgment and Visualization Features: A Comparative Study**
-<br/>
+<br>
 Authors: Fumeng Yang, Lane Harrison, Ronald A. Rensink, Steven Franconeri, Remco Chang
 
 <hr/>
@@ -925,35 +925,35 @@ Authors: Allan Rocha, Julio Daniel Silva, Usman R. Alim, Sheelagh Carpendale, Ma
 *Session Chair: TBA*
 
 **Cluster-Based Visualization for Merger Tree Data: The Challenge of Missing Expectations**
-<br/>
+<br>
 Authors: Annie Preston, Kwan-Liu Ma
 
 **Visualization of Uncertainty for Computationally Intensive Simulations Using High Fidelity Emulators**
-<br/>
+<br>
 Authors: Ayan Biswas, Earl Lawrence, James Ahrens
 
 **A Lagrangian Method for Extracting Eddy Boundaries in the Red Sea and the Gulf of Aden**
-<br/>
+<br>
 Authors: Anke Friederici, Habib Toye, Ibrahim Hoteit, Tino Weinkauf, Holger Theisel, Markus Hadwiger
 
 **FTLE Ridge Lines for Long Integration Times**
-<br/>
+<br>
 Authors: Thomas Wilde, Christian Rössl, Holger Theisel
 
 **Ocean Current Segmentation at Different Depths and Correlation with Temperature in a MPAS-Ocean Simulation**
-<br/>
+<br>
 Authors: Petra Gospodnetic, Divya Banesh, Philip Wolfram, Mark Petersen, Hans Hagen, James Ahrens, Markus Rauhut
 
 **TimeTubes: Automatic Extraction of Observable Blazar Features from Long-Term, Multi-Dimensional Datasets**
-<br/>
+<br>
 Authors: Naoko Sawada, Masanori Nakayama, Makoto Uemura, Issei Fujishiro
 
 **aflak: Pluggable Visual Programming Environment with Quick Feedback Loop Tuned for Astrophysical Observations**
-<br/>
+<br>
 Authors: Malik Olivier Boussejra, Kazuya Matsubayashi, Yuriko Takeshima, Shunya Takekawa, Rikuo Uchiki, Makoto Uemura, Issei Fujishiro
 
 **Biclusters based Visual Exploration of Multivariate Scientific Data**
-<br/>
+<br>
 Authors: Xiangyang He, Yubo Tao, Qirui Wang, Hai Lin
 
 <hr/>
@@ -966,23 +966,23 @@ Authors: Xiangyang He, Yubo Tao, Qirui Wang, Hai Lin
 *Session Chair: TBA*
 
 **MAQUI: Interweaving Queries and Pattern Mining for Recursive Event Sequence Exploration**
- <br/> 
+<br> 
 Authors: Po-Ming Law, Zhicheng Liu, Sana Malik, Rahul Basole
 
 **Seq2Seq-Vis: A Visual Debugging Tool for Sequence to Sequence Models** (Honorable Mention)
- <br/> 
+<br> 
 Authors: Hendrik Strobelt, Sebastian Gehrmann, Michael Behrisch, Adam Perer, Hanspeter Pfister, Alexander M. Rush
 
 **Visual Progression Analysis of Event Sequence Data**
- <br/> 
+<br> 
 Authors: Shunan Guo, Zhuochen Jin, David Gotz, Fan Du, Hongyuan Zha, Nan Cao
 
 **StreamExplorer: A Multi-Stage System for Visually Exploring Events in Social Streams**
-<br/>
+<br>
 Authors: Yingcai Wu, Zhutian Chen, Guodao Sun, Xiao Xie, Nan Cao, Shixia Liu, Weiwei Cui
 
 **Duet: Helping Data Analysis Novices Conduct Pairwise Comparisons by Minimal Specification**
- <br/> 
+<br> 
 Authors: Po-Ming Law, Rahul Basole, Yanhong Wu
 
 <hr/>
