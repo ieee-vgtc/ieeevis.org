@@ -412,7 +412,7 @@ Authors: Tanja Blascheck, Lonni Besançon, Anastasia Bezerianos, Bongshin Lee, P
 
 **WEDNESDAY, OCTOBER 24**  
 **11:00am-12:40pm**    
-**Estrel Rm3**  
+**Room III**  
 **CG&A Session 1**  
 *Session Chair: TBA*
 
@@ -745,7 +745,7 @@ Authors: Tanja Blascheck, Lindsay MacDonald Vermeulen, Jo Vermeulen, Charles Per
 
 **THURSDAY, OCTOBER 25**   
 **11:00am-12:40pm**  
-**Estrel Rm3**  
+**Room III**  
 **CG&A Session 2**  
 *Session Chair: TBA*
 
