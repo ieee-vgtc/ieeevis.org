@@ -32,8 +32,8 @@ permalink: /year/2018/info/important-dates
 | Student Volunteer application deadline               | Aug 01, 2018  |
 | Meetups early submission deadline                    | Aug  3, 2018  |
 | Panels notification                                  | Aug 10, 2018  |
-| Video preview and fastforward deadline               | Aug 15, 2018  |
 | VAST contest notification                            | Aug 14, 2018  |
+| Video preview and fastforward deadline               | Aug 15, 2018  |
 | SciVis contest notification                          | Aug 31, 2018  |
 | Early registration deadline                          | Sep 07, 2018  |
 
