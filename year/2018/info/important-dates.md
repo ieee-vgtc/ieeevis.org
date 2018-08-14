@@ -32,7 +32,7 @@ permalink: /year/2018/info/important-dates
 | Meetups early submission deadline                    | Aug  3, 2018  |
 | Panels notification                                  | Aug 10, 2018  |
 | Video preview and fastforward deadline               | Aug 15, 2018  |
-| VAST contest notification                            | tba           |
+| VAST contest notification                            | Aug 14, 2018           |
 | Doctoral Dissertation Award Nomination deadline      | tba           |
 | SciVis contest notification                          | Aug 31, 2018  |
 | Early registration deadline                          | Sep 07, 2018  |
