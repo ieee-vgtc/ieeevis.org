@@ -18,8 +18,8 @@ permalink: /year/2018/info/important-dates
 | Papers second round submission                       | June 27, 2018 |
 | Panels submission                                    | June 29, 2018 |
 | BELIV paper submission                               | June 30, 2018 |
-| Doctoral Dissertation Award Nomination deadline      | Jun 30, 2018  |
-| LDAV full paper submission                           | July 1, 2018 |
+| Doctoral Dissertation Award Nomination deadline      | June 30, 2018 |
+| LDAV full paper submission                           | July 1, 2018  |
 | Papers final acceptance notification                 | July 11, 2018 |
 | Doctoral colloquium notification                     | July 11, 2018 |
 | VAST challenge deadline                              | July 13, 2018 |

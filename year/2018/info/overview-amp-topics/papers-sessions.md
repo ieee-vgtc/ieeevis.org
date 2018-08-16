@@ -898,16 +898,16 @@ Authors: Siyuan Lin, Hao Jiang, Lingyun Sun
 **THURSDAY, OCTOBER 25**  
 **04:20pm-06:00pm**  
 **Convention Hall 1, Section C**  
-**VAST: Explainable and VA-Assisted ML**  
+**VAST: Explainable ML**  
 *Session Chair: TBA*
 
 **RuleMatrix: Visualizing and Understanding Classifiers with Rules (J)**
 <br> 
 Authors: Yao Ming, Huamin Qu, Enrico Bertini
 
-**iForest: Interpreting Random Forests via Visual Analytics (J)**
+**Seq2Seq-Vis: A Visual Debugging Tool for Sequence to Sequence Models (J)**
 <br> 
-Authors: Xun Zhao, Yanhong Wu, Dik Lun Lee, Weiwei Cui
+Authors: Hendrik Strobelt, Sebastian Gehrmann, Michael Behrisch, Adam Perer, Hanspeter Pfister, Alexander M. Rush
 
 **Manifold: A Model-Agnostic Framework for Interpretation and Diagnosis of Machine Learning Models (J)**
 <br> 
@@ -1023,16 +1023,16 @@ Authors: Xiangyang He, Yubo Tao, Qirui Wang, Hai Lin
 **FRIDAY, OCTOBER 26**  
 **9:00am-10:40am**  
 **Convention Hall 1, Section C**  
-**VAST: Event and Sequence**  
+**VAST: Event, Sequence and ML**  
 *Session Chair: TBA*
 
 **MAQUI: Interweaving Queries and Pattern Mining for Recursive Event Sequence Exploration (J)**
 <br> 
 Authors: Po-Ming Law, Zhicheng Liu, Sana Malik, Rahul Basole
 
-**Seq2Seq-Vis: A Visual Debugging Tool for Sequence to Sequence Models (J)**
+**iForest: Interpreting Random Forests via Visual Analytics (J)**
 <br> 
-Authors: Hendrik Strobelt, Sebastian Gehrmann, Michael Behrisch, Adam Perer, Hanspeter Pfister, Alexander M. Rush
+Authors: Xun Zhao, Yanhong Wu, Dik Lun Lee, Weiwei Cui
 
 **Visual Progression Analysis of Event Sequence Data (J)**
 <br> 
