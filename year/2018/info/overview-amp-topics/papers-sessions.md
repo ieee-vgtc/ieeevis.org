@@ -33,7 +33,7 @@ Authors: Andrey Krekhov, Jens Krueger
 **2:05pm-4:00pm**  
 **Convention Hall 1, Section C**  
 **VAST: Opening & Evaluation and Theory**  
-*Session Chair: TBA*  
+*Session Chair: Alvitta Ottley*  
 
 **Evaluating Multi-Dimensional Visualizations for Understanding Fuzzy Clusters (J)**
 <br> 
@@ -113,7 +113,7 @@ Authors: Jun Tao, Chaoli Wang, Nitesh Chawla, Lei Shi, Seung Hyun Kim
 **4:20pm-6:00pm**  
 **Convention Hall 1, Section C**  
 **VAST: Spatio-Temporal Data**  
-*Session Chair: TBA* 
+*Session Chair: Hans-Jörg Schulz* 
 
 **Visual Abstraction of the Large Scale Geospatial Origin-Destination Movement Data (J)**
 <br> 
@@ -194,7 +194,7 @@ Authors: Pavel Govyadinov, Tasha Womack, Jason L. Eriksen, Guoning Chen, David M
 **9:00am-10:40am**  
 **Convention Hall 1, Section C**  
 **VAST: Ensemble and Provenance**  
-*Session Chair: TBA*
+*Session Chair: Eric Ragan*
 
 **Visual Analysis of the Temporal Evolution of Ensemble Forecast Sensitivities (J)**
 <br> 
@@ -274,7 +274,7 @@ Authors: Monique Meuschke, Steffen Oeltze-Jafra, Oliver Beuing, Bernhard Preim, 
 **9:00am-10:40am**  
 **Estrel Hall C**  
 **VAST: Text**  
-*Session Chair: TBA*
+*Session Chair: Jian Zhao*
 
 **Bridging Text Visualization and Mining: A Task-Driven Survey (T)**
 <br>
@@ -302,7 +302,7 @@ Authors: Patrick Riehmann, Dora Kiesel, Martin Kohlhaas, Bernd Fröhlich
 **11:00am-12:40pm**  
 **Convention Hall 1, Section C**  
 **VAST: Applications**  
-*Session Chair: TBA*
+*Session Chair: Jörn Kohlhammer*
 
 **Commercial Visual Analytics Systems – Advances in the Big Data Analytics Field (T)**
 <br>
@@ -442,7 +442,7 @@ Authors: Feng Wang, Brett Hansen, Ryan Simmons, Ross Maciejewski
 **02:20pm-04:00pm**  
 **Convention Hall 1, Section C**  
 **VAST: High Dimensional Data**  
-*Session Chair: TBA*
+*Session Chair: Cagatay Turkay*
 
 **SIRIUS: Dual, Symmetric, Interactive Dimension Reductions (J)**
 <br> 
@@ -527,7 +527,7 @@ Authors: María-Jesús Lobo, Caroline Appert, Emmanuel Pietriga
 **9:00am-10:40am**  
 **Convention Hall 1, Section C**  
 **VAST: Security, Privacy, and Anomaly**  
-*Session Chair: TBA*
+*Session Chair: Nan Cao*
 
 **Vulnus: Visual Vulnerability Analysis for Network Security (J)**
 <br> 
@@ -607,7 +607,7 @@ Authors: Rafael Ballester-Ripoll, Renato Pajarola
 **9:00am-10:40am**  
 **Estrel Hall C**  
 **VAST: Interactive Analytics and Design**  
-*Session Chair: TBA*
+*Session Chair: Adam Perer*
 
 **An Interactive Method to Improve Crowdsourced Annotations (J)**
 <br> 
@@ -635,7 +635,7 @@ Authors: Zhicong Lu, Mingming Fan, Yun Wang, Jian Zhao, Michelle Annett, Daniel 
 **11:00am-12:40pm**  
 **Convention Hall 1, Section C**  
 **VAST: Deep Learning**  
-*Session Chair: TBA* 
+*Session Chair: Torsten Möller* 
 
 **Visual Analytics in Deep Learning: An Interrogative Survey for the Next Frontiers (T)**
 <br>
@@ -775,7 +775,7 @@ Authors: Shin-Ting Wu, Raphael Voltoline, Wallace S. Loos, J.A. Iván Rubianes,
 **02:20pm-04:00pm**  
 **Convention Hall 1, Section C**  
 **VAST: Graph and Image**  
-*Session Chair: TBA*
+*Session Chair: Fabian Beck*
 
 **ViBr: Visualizing Bipartite Relations at Scale with the Minimum Description Length Principle (J)**
 <br> 
@@ -899,7 +899,7 @@ Authors: Siyuan Lin, Hao Jiang, Lingyun Sun
 **04:20pm-06:00pm**  
 **Convention Hall 1, Section C**  
 **VAST: Explainable ML**  
-*Session Chair: TBA*
+*Session Chair: Jaegul Choo*
 
 **RuleMatrix: Visualizing and Understanding Classifiers with Rules (J)**
 <br> 
@@ -1024,7 +1024,7 @@ Authors: Xiangyang He, Yubo Tao, Qirui Wang, Hai Lin
 **9:00am-10:40am**  
 **Convention Hall 1, Section C**  
 **VAST: Event, Sequence, and ML**  
-*Session Chair: TBA*
+*Session Chair: Carlos Scheidegger*
 
 **MAQUI: Interweaving Queries and Pattern Mining for Recursive Event Sequence Exploration (J)**
 <br> 
