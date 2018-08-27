@@ -10,8 +10,8 @@ permalink: /year/2018/capstone
   width="230px" >
   <p>
     <strong>Friday, October 26, 2018</strong><br>
-    <strong>Time: tba</strong><br>
-    <strong>Location: tba</strong>
+    <strong>Time: 11:00 am</strong><br>
+    <strong>Location: Convention 1, Section C</strong>
   </p>
   
 <strong> Joachim M. Buhmann </strong> <br> is full professor in the Department of Computer Science at ETH Zurich since 2003 representing the research area “Information Science and Engineering”. He studied physics at the Technical University of Munich and received a doctoral degree for his research work on artificial neural networks. After  research appointments at the University of Southern California (1988-1991) and at the Lawrence Livermore National Laboratory (1991-1992) he served as a professor for applied computer science at the University of Bonn (1992-2003).<br>
