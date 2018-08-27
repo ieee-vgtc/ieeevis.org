@@ -11,7 +11,7 @@ permalink: /year/2018/keynote
   <p> 
     <strong>Tuesday, October 23, 2018</strong><br />
     <strong>Time: 11:20 am</strong><br />
-    <strong>Location: Convention 1, Sec. C + D</strong>
+    <strong>Location: Conv 1, Sec C+D</strong>
   </p> 
   <p>
   <strong>Dieter Schmalstieg</strong><br/> is full professor and head of the Institute of Computer Graphics
