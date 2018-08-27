@@ -1,5 +1,5 @@
 ---
-title: keynote
+title: Keynote
 layout: main-2018
 permalink: /year/2018/keynote
 ---
