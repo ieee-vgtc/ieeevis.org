@@ -1,5 +1,5 @@
 ---
-title: capstone
+title: Capstone
 layout: main-2018
 permalink: /year/2018/capstone
 ---
@@ -21,7 +21,6 @@ permalink: /year/2018/capstone
 </p>
 
 <p><strong>Can I believe what I see? - Information theoretic algorithm validation</strong><br>
-
 Data Science promises us a methodology and algorithms to gain insights in ubiquitous Big Data. Sophisticated algorithmic techniques seek to identify and visualize non-accidental patterns that may be (causally) linked to mechanisms in the natural sciences, but also in the social sciences, medicine, technology, and governance. When we use machine learning algorithms to inspect the often high-dimensional, uncertain, and high-volume data to filter out and visualize relevant information, we aim to abstract from accidental factors in our experiments and thereby generalize over data fluctuations. Doing this, we often rely on highly nonlinear algorithms.<br>
 
 This talk presents arguments advocating an information theoretic framework for algorithm analysis, where an algorithm is characterized as a computational evolution of a posterior distribution on the output space with a quantitative stopping criterion. The method allows us to investigate complex data analysis pipelines, such as those found in computational neuroscience, neurology, and molecular biology. I will demonstrate this concept for the validation of algorithms using the example of a statistical analysis of diffusion tensor imaging data. In addition, on the example of gene expression data, I will demonstrate how different spectral clustering methods can be validated by showing their robustness to data fluctuations and yet sufficient sensitivity to changes in the data. All in all, an information-theoretical method is presented for validating data analysis algorithms, offering the potential of more trustful results in Visual Analytics.
