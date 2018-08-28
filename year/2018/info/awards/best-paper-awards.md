@@ -8,53 +8,61 @@ permalink: /year/2018/info/awards/best-paper-awards
 
 ### Best Paper Award
 
-**[Title]**
+**TPFlow: Progressive Partition and Multidimensional Pattern Extraction for Large-Scale Spatio-Temporal Data Analysis (J)**
 <br/>
-Authors: [Author list]
+Authors: Dongyu Liu, Panpan Xu, Liu Ren
 
 ### Best Paper Honorable Mention
 
-**[Title]**
+**A Visual Analytics Framework for the Detection of Anomalous Call Stack Trees in High Performance Computing Applications**
 <br/>
-Authors: [Author list]
+Authors: Cong Xie, Wei Xu, Klaus Mueller
 
-**[Title]**
+**DQNViz: A Visual Analytics Approach to Understand Deep Q-Networks**
 <br/>
-Authors: [Author list]
+Authors: Junpeng Wang, Liang Gou, Han-Wei Shen, Hao Yang
+
+**Seq2Seq-Vis: A Visual Debugging Tool for Sequence to Sequence Models**
+<br/>
+Authors: Hendrik Strobelt, Sebastian Gehrmann, Michael Behrisch, Adam Perer, Hanspeter Pfister, Alexander M. Rush
 
 ## InfoVis
 
 ### Best Paper Award
 
-**[Title]**
+**Formalizing Visualization Design Knowledge as Constraints: Actionable and Extensible Models in Draco (J)**
 <br/>
-Authors: [Author list]
+Authors: Dominik Moritz, Chenglong Wang, Greg L. Nelson, Halden Lin, Adam M. Smith, Bill Howe, Jeffrey Heer
 
 ### Best Paper Honorable Mention
 
-**[Title]**
+**Charticulator: Interactive Construction of Bespoke Chart Layouts**
 <br/>
-Authors: [Author list]
+Authors: Donghao Ren, Bongshin Lee, Matthew Brehmer
 
-**[Title]**
+**Visual Semantics of Colormap Data Visualizations**
 <br/>
-Authors: [Author list]
+Authors: Karen Schloss, Connor C Gramazio, A. Taylor Silverman, Madeline L. Parker, Audrey S Wang
+
+**Design Exposition with Literate Visualization**
+<br/>
+Authors: Jo Wood, Alexander Kachkaev, Jason Dykes
 
 ## SciVis
 
 ### Best Paper Award
 
-**[Title]**
+**Deadeye: A Novel Preattentive Visualization Technique Based on Dichoptic Presentation (J)**
 <br/>
-Authors: [Author list]
+Authors: Andrey Krekhov, Jens Krueger
 
 ### Best Paper Honorable Mention
 
-**[Title]**
+**Labels on Levels: Labeling of Multi-Scale Multi-Instance and Crowded 3D Biological Environments**
 <br/>
-Authors: [Author list]
+Authors: David Kouřil, Ladislav Čmolík, Barbora Kozlíková, Hsiang-Yun Wu, Graham Johnson, David S. Goodsell, Arthur Olson, Eduard Gröller, Ivan Viola
 
-**[Title]**
+**Firefly: Illumination Drones for Interactive Visualization**
 <br/>
-Authors: [Author list]
+Authors: Sergej Stoppel, Magnus Paulson Erga, Stefan Bruckner
 
