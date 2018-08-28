@@ -51,6 +51,7 @@ Inclusivity & Diversity at IEEE VIS is supported by the following organizations:
   <li><a href="https://www.ibm.com/">IBM</a></li>
   <li><a href="https://https://www.harvard.edu/">Harvard University</a></li>
   <li><a href="https://http://hdc.cs.arizona.edu/">University of Arizona</a></li>
+  <li><a href="https://http://vis.gatech.edu/">Georgia Tech Visualization Lab</a></li>
  </ul>
 
 
