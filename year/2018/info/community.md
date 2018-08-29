@@ -88,7 +88,7 @@ held on Thursday from 4 to 6 pm, after other job events. This is a "speed-dating
 both job seekers and employers to *quickly* identify people in the community that are looking 
 for jobs or new hires, exchange information, and potentially meet at a later date. Please 
 bring information for exchange, such as business cards, flyers, or CVs. VIS Supporters 
-will the CVs of attendees that provide it during VIS registration.
+will have the CVs of attendees that provide it during VIS registration.
 - CVs will be distributed to [Supporters](/year/2017/info/exhibition/supporters-and-exhibition) 
 prior to VIS, to help make connections during VIS, by sharing your information and CVs with the 
 supporters. During online registration you will be able to upload your CV and
