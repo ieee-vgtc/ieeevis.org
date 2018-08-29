@@ -8,7 +8,7 @@ permalink: /year/2018/info/awards/best-paper-awards
 
 ### Best Paper Award
 
-**TPFlow: Progressive Partition and Multidimensional Pattern Extraction for Large-Scale Spatio-Temporal Data Analysis (J)**
+**TPFlow: Progressive Partition and Multidimensional Pattern Extraction for Large-Scale Spatio-Temporal Data Analysis**
 <br/>
 Authors: Dongyu Liu, Panpan Xu, Liu Ren
 
@@ -30,7 +30,7 @@ Authors: Hendrik Strobelt, Sebastian Gehrmann, Michael Behrisch, Adam Perer, Han
 
 ### Best Paper Award
 
-**Formalizing Visualization Design Knowledge as Constraints: Actionable and Extensible Models in Draco (J)**
+**Formalizing Visualization Design Knowledge as Constraints: Actionable and Extensible Models in Draco**
 <br/>
 Authors: Dominik Moritz, Chenglong Wang, Greg L. Nelson, Halden Lin, Adam M. Smith, Bill Howe, Jeffrey Heer
 
@@ -52,9 +52,9 @@ Authors: Jo Wood, Alexander Kachkaev, Jason Dykes
 
 ### Best Paper Award
 
-**Deadeye: A Novel Preattentive Visualization Technique Based on Dichoptic Presentation (J)**
+**Deadeye: A Novel Preattentive Visualization Technique Based on Dichoptic Presentation**
 <br/>
-Authors: Andrey Krekhov, Jens Krueger
+Authors: Andrey Krekhov, Jens Krüger
 
 ### Best Paper Honorable Mention
 
