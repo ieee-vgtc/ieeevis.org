@@ -49,7 +49,9 @@ Inclusivity & Diversity at IEEE VIS is supported by the following organizations:
   <li><a href="http://sci.utah.edu/">Scientific Computing and Imaging (SCI) Institute, University of Utah</a></li>
   <li><a href="http://www.uni-magdeburg.de/en/">University of Magdeburg</a></li>
   <li><a href="https://www.ibm.com/">IBM</a></li>
-</ul>
+  <li><a href="https://https://www.harvard.edu/">Harvard University</a></li>
+  <li><a href="https://http://hdc.cs.arizona.edu/">University of Arizona</a></li>
+ </ul>
 
 
 
