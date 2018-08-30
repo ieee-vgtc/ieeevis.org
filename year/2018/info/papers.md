@@ -529,7 +529,7 @@ Authors: Attila Gyulassy, Peer-Timo Bremer, Valerio Pascucci
 
 **Details-First, Show Context, Overview Last: Supporting Exploration of Viscous Fingers in Large-Scale Ensemble Simulations**
 <br>
-Authors: Timothy Basil Luciani, Andrew T Burks, Cassiano Sugiyama, Jonathan Komperda, Liz G.Elisabeta Marai
+Authors: Timothy Basil Luciani, Andrew T. Burks, Cassiano Sugiyama, Jonathan Komperda, G. Elisabeta Marai
 
 **CPU Iso-surface Ray Tracing of Adaptive Mesh Refinement Data**
 <br>
@@ -689,7 +689,7 @@ Authors: Yong Wang, Daniel Archambault, Carlos E. Scheidegger, Huamin Qu
 
 **Precision Risk Analysis of Cancer Therapy with Interactive Nomograms and Survival Plots**
 <br/>
-Authors: G.Elisabeta Marai, Chihua Ma, Andrew T. Burks, Filippo Pellolio, Guadalupe Canahuate, David M. Vock, Abdallah S.R. Mohamed, C. David Fuller
+Authors: G. Elisabeta Marai, Chihua Ma, Andrew T. Burks, Filippo Pellolio, Guadalupe Canahuate, David M. Vock, Abdallah S.R. Mohamed, C. David Fuller
 
 **Visualizing a Thinker’s Life**
 <br/>
