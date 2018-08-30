@@ -677,7 +677,7 @@ Authors: Shixia Liu, Xiting Wang, Christopher Collins, Wenwen Dou, Fangxin Ouyan
 
 **Visual Analytics in Deep Learning: An Interrogative Survey for the Next Frontiers**
 <br/>
-Authors: Fred Hohman, Minsuk Kahng, Robert Pienta, Duen Horng
+Authors: Fred Hohman, Minsuk Kahng, Robert Pienta, Duen Horng Chau
 
 **Correlation Judgment and Visualization Features: A Comparative Study**
 <br/>
