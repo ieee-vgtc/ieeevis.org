@@ -639,7 +639,7 @@ Authors: Zhicong Lu, Mingming Fan, Yun Wang, Jian Zhao, Michelle Annett, Daniel 
 
 **Visual Analytics in Deep Learning: An Interrogative Survey for the Next Frontiers (T)**
 <br>
-Authors: Fred Hohman, Minsuk Kahng, Robert Pienta, Duen Horng
+Authors: Fred Hohman, Minsuk Kahng, Robert Pienta, Duen Horng Chau
 
 **Analyzing the Noise Robustness of Deep Neural Networks (C)**
 <br> 
