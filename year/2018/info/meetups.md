@@ -9,7 +9,7 @@ contact: "meetups@ieeevis.org"
 * [VISKids Hello](#vis-kids) (Monday)
 * [VISParents](#vis-parents) (Tuesday)
 * [VisLies!](#vislies) (Tuesday)
-* [Succeeding by Failing: The Iceberg in VIS Careers](#careers) (Tuesday)
+* [Follow-up meetup to the panel 'Succeeding by Failing: The Iceberg in VIS Careers'(#careers) (Tuesday)
 * [Junior Faculty, Researchers, and Practitioners Happy Hour](#junior-faculty) (Tuesday)
 * [Building an Inclusive VIS Community](#inclusion) (Thursday)
 * [VIS Job-fair](#vis-jobfair) (Thursday)
