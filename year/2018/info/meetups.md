@@ -90,8 +90,7 @@ Tuesday, October 23
 Location: Room 30312
 
 Organizers:  Luana Micallef and Tatiana von Landesberger
-Contact: [lm@di.ku.dk](mailto:lm@di.ku.dk), [tatiana.von.landesberger@gris.tu-darmstadt.de]
-(mailto:tatiana.von.landesberger@gris.tu-darmstadt.de)
+Contact: [lm@di.ku.dk](mailto:lm@di.ku.dk), [tatiana.von.landesberger@gris.tu-darmstadt.de](mailto:tatiana.von.landesberger@gris.tu-darmstadt.de)
 
 We will continue discussing the challenges we encounter in VIS careers and ways how our community can help. This is your chance to share your experiences with peers and to contribute to the suggestions we will put forward to the VIS steering committees to nurture a welcoming and supportive atmosphere in our highly competitive work culture. We hope that these suggestions we help the steering committees reflect on the changes that need to be made during the restructuring process of our community. Everyone (be it students, postdocs, professors, researchers from academia or industry) is welcome to join! This will also help us initiate a support network for the VIS community whereby we can help each out with the various challenges and pressures we encounter at different stages of our careers (e.g., dealing with rejections and career uncertainties, getting funding, finding a balance between work and our personal life, coping with stress). If you cannot attend but you still want to voice your opinion, then post your questions and comments anonymously at [http://www.luanamicallef.com/succeedingbyfailing/](http://www.luanamicallef.com/succeedingbyfailing/)
 
