@@ -302,12 +302,12 @@ permalink: /year/2018/info/committees/conference-committee
       <th>&nbsp;</th>
     </tr>
     <tr>
-      <td>Zhicheng Leo Liu</td>
-      <td><i>Adobe Systems (VAST)</i></td>
+      <td>Katerina Vrotsou</td>
+      <td><i>Linköping University (VAST)</i></td>
     </tr>
     <tr>
-      <td>Katerina Vrotsou</td>
-      <td><i>Linköping University (InfoVis)</i></td>
+      <td>Zhicheng Leo Liu</td>
+      <td><i>Adobe Systems (InfoVis)</i></td>
     </tr>
     <tr>
       <td>Ayan Biswas</td>
