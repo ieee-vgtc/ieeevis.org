@@ -21,13 +21,13 @@ InfoVis currently considers conferences 10 and 20 years prior to the current con
 
 SciVis currently considers 15 and 25 years prior to the current conference.
 
-## VAST 2008: 10 Years Test of Time Award
+## VAST 2008: 10 Years Test of Time Award 
 **Spatio-temporal Aggregation for Visual Analysis of Movements** 
 Authors: Gennady Andrienko and Natalia Andrienko 
 
 Proc. IEEE VAST 2008, pages 51-58, 2008.
 
-## InfoVis
+## InfoVis 
 **1998: An Operator Interaction Framework For Visualization Systems** 
 Authors: Chi, E.H.; Riedl, J. 
 
@@ -39,7 +39,7 @@ Authors: George G. Robertson; Roland Fernandez; Danyel Fisher; Bongshin Lee; Joh
 Inspired by the Roslings’ Gapminder, Robertson et al. conducted experiments to establish whether and when the animated transitions used in Trendalyzer might be effective. Their comparison of three trend visualization methods found small multiples to be preferable for analysis but animation to be fastest for presentation, enjoyable, exciting and error-prone. These empirical findings draw attention to some of the difficult trade-offs encountered in visualization, helping designers navigate the evolving design space for exploration and communication with some confidence in knowledge of the likely implications of their decisions. The work itself has been widely accepted, broadly cited and applied by many in visualization design contexts. It has seeded follow up studies and acted as a model for the controlled empirical study of dynamic visualization in use and can inspire others to assess the efficacy of emerging visualization methods.
 
 
-## SciVis:
+## SciVis
 **1993: Acceleration techniques for GPU-based volume rendering**
 Authors: Jens H. Krüger; Rüdiger Westermann 
 
