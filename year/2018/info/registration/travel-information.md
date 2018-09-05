@@ -21,6 +21,20 @@ contact: "web@ieeevis.org"
   * [From Berlin Schönefeld Airport SXF  ](#car-schoenefeld)
   * [Parking](#car-parking)
 * [Things To Do in Berlin - Neukölln](#todo)
+  * [Bike Rental](#bike)
+  * [Turks Food Market](#food-market)
+  * [Café Geschwister Nothaft](#cafe)
+  * [Comenius Garden](#garden)
+  * [Historic Forge – Rixdorf  ](#rixdorf)
+  * [Neukölln Info Center  ](#info-center)
+  * [Icecream Manufactory](#icecream)
+  * [Guided Kayak Tours ](#kayak)
+   * [Guided Kayak Tour East](#kayak-east)
+   * [Kayak Night Tour](#kayak-night)
+  * [Supermarket and Pharmacy](#supermarket-pharmacy)
+  * [Tempelhof Field – former airport](#tempelhof)
+
+
 
 
 
@@ -133,7 +147,7 @@ A favourite of locals and tourists alike, Neukölln Info Center is located on Ka
 Walking distance: 1.9 km (22 minutes)
 For more information: https://www.souvenirmanufaktur.de
 
-### <a name='ice-cream'></a>Icecream Manufactory  
+### <a name='icecream'></a>Icecream Manufactory  
 Summer, sun and icecream! What do you need more? You like to taste delicious naturally flavor and icecream without dyestuffs? Well, you should try the icecream manufactory and your summer dreams come true. 
 
 Address: Karl-Marx-Platz 17, 12043 Berlin
