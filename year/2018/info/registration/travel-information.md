@@ -165,7 +165,7 @@ Duration 3 hours, 8 kilometers, 29€/25€
 Starting at the meeting point Urbahnhafen on the Landwehrkanal through Kreuzberg and Neukölln and back. 
 Duration 2 hours, 5 kilometers, 21€/17€
 
-For more information: <a href="www.paddleberlin.de">https://www.paddleberlin.de</a>
+For more information: <a href="https://www.paddleberlin.de">https://www.paddleberlin.de</a>
 
 <a name='supermarket-pharmacy'></a>**Supermarket and Pharmacy**    
 Here you can get what you want for daily needs. 
