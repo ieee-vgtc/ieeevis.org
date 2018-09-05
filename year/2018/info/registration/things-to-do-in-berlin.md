@@ -13,8 +13,8 @@ contact: "web@ieeevis.org"
 * [Neukölln Info Center  ](#info-center)
 * [Icecream Manufactory](#icecream)
 * [Guided Kayak Tours ](#kayak)
-  * [Guided Kayak Tour East](#kayak-east)
-  * [Kayak Night Tour](#kayak-night)
+* [Guided Kayak Tour East](#kayak-east)
+* [Kayak Night Tour](#kayak-night)
 * [Supermarket and Pharmacy](#supermarket-pharmacy)
 * [Tempelhof Field – former airport](#tempelhof)
 
