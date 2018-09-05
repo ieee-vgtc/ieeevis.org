@@ -21,20 +21,30 @@ InfoVis currently considers conferences 10 and 20 years prior to the current con
 
 SciVis currently considers 15 and 25 years prior to the current conference.
 
-VAST 2008: 10 Years Test of Time Award
+## VAST 2008: 10 Years Test of Time Award
+**Spatio-temporal Aggregation for Visual Analysis of Movements** 
+Authors: Gennady Andrienko and Natalia Andrienko 
 
-Gennady Andrienko and Natalia Andrienko
-Spatio-temporal Aggregation for Visual Analysis of Movements
 Proc. IEEE VAST 2008, pages 51-58, 2008.
 
 ## InfoVis
-**1998: An Operator Interaction Framework For Visualization Systems. Chi, E.H.; Riedl, J.**
+**1998: An Operator Interaction Framework For Visualization Systems** 
+Authors: Chi, E.H.; Riedl, J. 
 
-**2008: Effectiveness of Animation in Trend Visualization. George G. Robertson; Roland Fernandez; Danyel Fisher; Bongshin Lee; John T. Stasko**
+The operator interaction framework established a foundation for understanding interaction in InfoVis by characterizing actions or ‘operators’ in relation to the visualization pipeline. The model introduced in this work helps both system designers and end users understand and predict the effects of interaction by identifying that they occur at different levels of abstraction. As such, it is a foundational work contributing to the visualization reference model and it established an important basis for engineering of interaction in visualization systems. The paper has been extensively cited, including many recent citations, indicating its continued relevance even 20 years later.
+
+**2008: Effectiveness of Animation in Trend Visualization** 
+Authors: George G. Robertson; Roland Fernandez; Danyel Fisher; Bongshin Lee; John T. Stasko 
+
+Inspired by the Roslings’ Gapminder, Robertson et al. conducted experiments to establish whether and when the animated transitions used in Trendalyzer might be effective. Their comparison of three trend visualization methods found small multiples to be preferable for analysis but animation to be fastest for presentation, enjoyable, exciting and error-prone. These empirical findings draw attention to some of the difficult trade-offs encountered in visualization, helping designers navigate the evolving design space for exploration and communication with some confidence in knowledge of the likely implications of their decisions. The work itself has been widely accepted, broadly cited and applied by many in visualization design contexts. It has seeded follow up studies and acted as a model for the controlled empirical study of dynamic visualization in use and can inspire others to assess the efficacy of emerging visualization methods.
+
 
 ## SciVis:
-**1993:  Texture splats for 3D scalar and vector field visualization  by Crawfis and Max**
+**1993: Acceleration techniques for GPU-based volume rendering**
+Authors: Jens H. Krüger; Rüdiger Westermann 
 
-**2003: Acceleration techniques for GPU-based volume rendering  by Kruger and Westermann**
+
+**2003: Texture splats for 3D scalar and vector field visualization** 
+Authors: Roger Crawfis; Nelson L. Max
 
 
