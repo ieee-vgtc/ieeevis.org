@@ -10,6 +10,7 @@ contact: "web@ieeevis.org"
   * [Berlin Tegel Airport (TXL)](#airport-tegel)
   * [Berlin Schönefeld Airport (SXF)](#airport-schoenefeld)
 * [Public transport](#public-transport) 
+  * [start station: Berlin Central Train Station (Hauptbahnhof)](#central-station)
   * [start station: Südkreuz Station ](#suedkreuz) 
   * [start station: Ostbahnhof Station](#ostbahnhof)
   * [Public transport tickets](#tickets)
@@ -47,7 +48,7 @@ Sonnenallee 225
 Phone +49 30 6831 0
 
 ## <a name='airport'></a>Airport transfer
-### <a name='airport-tegel'></a>Berlin Tegel Airport (TXL) 
+** <a name='airport-tegel'></a>Berlin Tegel Airport (TXL) **
 Take the X9 bus line from the airport to the "Jungfernheide" bus stop. Transfer then to the S42 S-Bahn commuter train line (Ringbahn) until you reach the "Sonnenallee" stop.
 Public transport journey duration: roughly 40 minutes
 Taxi journey duration: roughly 30 minutes
@@ -60,7 +61,7 @@ Taxi journey duration: roughly 15 minutes
 Taxi price: roughly 35 euros 
 
 ## <a name='public-transport'></a>Public transport
-**start station: Berlin Central Train Station (Hauptbahnhof)**  
+**<a name='central-station'></a>start station: Berlin Central Train Station (Hauptbahnhof)**  
 Take the M41 bus line until you reach the "Ziegrastraße" stop.
 Public transport journey duration: roughly 40 minutes
 Taxi journey duration: roughly 20 minutes
@@ -161,7 +162,7 @@ The Spree River and the Landwehr Canal run through Berlin like a blue ribbon and
 Starting at the meeting point Urbahnhafen we paddle on the Landwehrkanal through Kreuzberg, Neukölln to the Eastern Harbour. There and back with two Watergate passages. 
 Duration 3 hours, 8 kilometers, 29€/25€
 
-#### <a name=kayak-night''></a>Kayak Night Tour 
+#### <a name='kayak-night'></a>Kayak Night Tour 
 Starting at the meeting point Urbahnhafen on the Landwehrkanal through Kreuzberg and Neukölln and back. 
 Duration 2 hours, 5 kilometers, 21€/17€
 
