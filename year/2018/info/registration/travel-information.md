@@ -100,7 +100,7 @@ When leaving the airport go right onto Am Seegraben / B96a, then left onto the A
 
 <a name='car-parking'></a>**Parking**   
 The hotel has its own underground parking garage offering 450 parking spaces (18 euros per day).
-For more information on the convention center visit: https://www.estrel.com/en/convention-center.html
+For more information on the convention center visit: <a href="https://www.estrel.com/en/convention-center.html">https://www.estrel.com/en/convention-center.html</a>
 
 
 ## <a name='todo'></a>Things To Do in Berlin - Neukölln
@@ -140,19 +140,19 @@ Rixdorf is in the heart of historical Neukölln, where you can bask in the ways 
 
 Address: Richardplatz 28, 12055 Berlin 
 Walking distance: 2.3 km (30 minutes)
-For more information: http://www.feine-klingen.de
+For more information: <a href="http://www.feine-klingen.de">http://www.feine-klingen.de</a>
 
 <a name='info-center'></a>**Neukölln Info Center**    
 A favourite of locals and tourists alike, Neukölln Info Center is located on Karl-Marx-Str. In this souvenir shop, you'll find products made in Neukölln, including wines, honey, liqueurs, postcards, buttons, vintage tin signs, t-shirts, bags, posters and other one-of-a-kind gifts. Stickers that read "Smile, you're in Neukölln!" in German are a particular crowd-pleaser.
  
 Walking distance: 1.9 km (22 minutes)
-For more information: https://www.souvenirmanufaktur.de
+For more information: <a href="https://www.souvenirmanufaktur.de">https://www.souvenirmanufaktur.de</a>
 
 <a name='icecream'></a>**Icecream Manufactory**   
 Summer, sun and icecream! What do you need more? You like to taste delicious naturally flavor and icecream without dyestuffs? Well, you should try the icecream manufactory and your summer dreams come true. 
 
 Address: Karl-Marx-Platz 17, 12043 Berlin
-For more information: https://www.eismanufaktur-berlin.de
+For more information: <a href="https://www.eismanufaktur-berlin.de">https://www.eismanufaktur-berlin.de</a>
 
 <a name='kayak'></a>**Guided Kayak Tours**   
 The Spree River and the Landwehr Canal run through Berlin like a blue ribbon and show us the natural origins of the metropolis. In comfortable, safe kayaks, accompanied by expert guides you can discover this area. 
@@ -165,7 +165,7 @@ Duration 3 hours, 8 kilometers, 29€/25€
 Starting at the meeting point Urbahnhafen on the Landwehrkanal through Kreuzberg and Neukölln and back. 
 Duration 2 hours, 5 kilometers, 21€/17€
 
-For more information: www.paddleberlin.de
+For more information: <a href="www.paddleberlin.de">www.paddleberlin.de</a>
 
 <a name='supermarket-pharmacy'></a>**Supermarket and Pharmacy**    
 Here you can get what you want for daily needs. 
@@ -178,6 +178,5 @@ Located on the grounds of the former Tempelhof airport, Tempelhof Field is large
  
 Walking distance: 3.1 km/36 minutes
 S-Bahn: S41 (12 minutes) exit station: Tempelhof
-For more information: https://www.thf-berlin.de
-
+For more information: <a href="https://www.thf-berlin.de">https://www.thf-berlin.de</a>
 
