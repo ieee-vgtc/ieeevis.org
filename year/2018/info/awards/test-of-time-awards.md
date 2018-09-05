@@ -24,17 +24,19 @@ SciVis currently considers 15 and 25 years prior to the current conference.
 ## VAST 2008: 10 Years Test of Time Award 
 **Spatio-temporal Aggregation for Visual Analysis of Movements** 
 Authors: Gennady Andrienko and Natalia Andrienko 
-
+<a href="https://doi.org/10.1109/VAST.2008.4677356">https://doi.org/10.1109/VAST.2008.4677356</a><br>
 Proc. IEEE VAST 2008, pages 51-58, 2008.
 
 ## InfoVis 
 **1998: An Operator Interaction Framework For Visualization Systems** 
 Authors: Chi, E.H.; Riedl, J. 
+<a href="https://doi.org/10.1109/INFVIS.1998.729560">https://doi.org/10.1109/INFVIS.1998.729560</a><br>
 
 The operator interaction framework established a foundation for understanding interaction in InfoVis by characterizing actions or ‘operators’ in relation to the visualization pipeline. The model introduced in this work helps both system designers and end users understand and predict the effects of interaction by identifying that they occur at different levels of abstraction. As such, it is a foundational work contributing to the visualization reference model and it established an important basis for engineering of interaction in visualization systems. The paper has been extensively cited, including many recent citations, indicating its continued relevance even 20 years later.
 
 **2008: Effectiveness of Animation in Trend Visualization** 
 Authors: George G. Robertson; Roland Fernandez; Danyel Fisher; Bongshin Lee; John T. Stasko 
+<a href="https://doi.org/10.1109/TVCG.2008.125">https://doi.org/10.1109/TVCG.2008.125</a><br>
 
 Inspired by the Roslings’ Gapminder, Robertson et al. conducted experiments to establish whether and when the animated transitions used in Trendalyzer might be effective. Their comparison of three trend visualization methods found small multiples to be preferable for analysis but animation to be fastest for presentation, enjoyable, exciting and error-prone. These empirical findings draw attention to some of the difficult trade-offs encountered in visualization, helping designers navigate the evolving design space for exploration and communication with some confidence in knowledge of the likely implications of their decisions. The work itself has been widely accepted, broadly cited and applied by many in visualization design contexts. It has seeded follow up studies and acted as a model for the controlled empirical study of dynamic visualization in use and can inspire others to assess the efficacy of emerging visualization methods.
 
@@ -42,6 +44,7 @@ Inspired by the Roslings’ Gapminder, Robertson et al. conducted experiments to
 ## SciVis
 **1993: Acceleration techniques for GPU-based volume rendering**
 Authors: Jens H. Krüger; Rüdiger Westermann 
+<a href="https://doi.org/10.1109/VISUAL.2003.1250384">https://doi.org/10.1109/VISUAL.2003.1250384</a><br>
 
 In the 90s after volume rendering was first introduced, many research ideas were introduced to accelerate ray casting that ran on CPUs, among which early ray termination and empty space leaping are the most popular techniques. Later with the advent of GPUs and 3D texture hardware, volume rendering was made to run at an interactive
 speed for data of moderate size. For very large scale
@@ -56,6 +59,7 @@ term impact to the application areas.
 
 **2003: Texture splats for 3D scalar and vector field visualization** 
 Authors: Roger Crawfis; Nelson L. Max
+<a href="https://doi.org/10.1109/VISUAL.1993.398877">https://doi.org/10.1109/VISUAL.1993.398877</a><br>
 
 Vector field visualization continues to be one of the most active
 topics for scientific visualization research. To visualize three
