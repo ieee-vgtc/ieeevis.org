@@ -5,7 +5,8 @@ permalink: /year/2018/info/overview-amp-topics/scivis-contest
 ---
 
 ## Papers
- 
-**TITLE**  
-Authors: 
+
+*[Invited Presentation]*
+**Deep Water Impacts**  
+Authors: Galen Gisler and Robert Weaver 
 
