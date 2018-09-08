@@ -40,24 +40,7 @@ Authors: George G. Robertson; Roland Fernandez; Danyel Fisher; Bongshin Lee; Joh
 
 Inspired by the Roslings’ Gapminder, Robertson et al. conducted experiments to establish whether and when the animated transitions used in Trendalyzer might be effective. Their comparison of three trend visualization methods found small multiples to be preferable for analysis but animation to be fastest for presentation, enjoyable, exciting and error-prone. These empirical findings draw attention to some of the difficult trade-offs encountered in visualization, helping designers navigate the evolving design space for exploration and communication with some confidence in knowledge of the likely implications of their decisions. The work itself has been widely accepted, broadly cited and applied by many in visualization design contexts. It has seeded follow up studies and acted as a model for the controlled empirical study of dynamic visualization in use and can inspire others to assess the efficacy of emerging visualization methods.
 
-
-## SciVis
-**1993: Acceleration techniques for GPU-based volume rendering**
-Authors: Jens H. Krüger; Rüdiger Westermann <br>
-<a href="https://doi.org/10.1109/VISUAL.2003.1250384">https://doi.org/10.1109/VISUAL.2003.1250384</a><br>
-
-In the 90s after volume rendering was first introduced, many research ideas were introduced to accelerate ray casting that ran on CPUs, among which early ray termination and empty space leaping are the most popular techniques. Later with the advent of GPUs and 3D texture hardware, volume rendering was made to run at an interactive
-speed for data of moderate size. For very large scale
-volumes, however, the speed of GPU-based volume rendering can still bequite
-slow due to the expensive per-fragment operations involved. In this paper, the authors show how to exploit early z-test to terminate fragment processing when its opacity reaches full, and how to skip empty space along rays. These were two issues mostly
-overlooked at that time,  and believed hard to implement on GPUs. After 15 years since the paper was  published, the techniques presented are still used and became even more relevant as more powerful GPUs become available. The 2018 SciVis Test of Time
-award committee selected this paper as the  15 year IEEE SciVis Test of Time
-award winner based on its originality, the importance, and the long
-term impact to the application areas.
-
-
-
-**2003: Texture splats for 3D scalar and vector field visualization** 
+**1993: Texture splats for 3D scalar and vector field visualization** 
 Authors: Roger Crawfis; Nelson L. Max <br>
 <a href="https://doi.org/10.1109/VISUAL.1993.398877">https://doi.org/10.1109/VISUAL.1993.398877</a><br>
 
@@ -74,6 +57,20 @@ reconstruction function for 3D signals to produce texture maps for the
 splats. Even compared to the techniques developed recently, the method still
 produces flow animations in the best quality.  The 2018 SciVis Test of Time
 award committee selected this paper as the 25 years IEEE SciVis Test of Time
+award winner based on its originality, the importance, and the long
+term impact to the application areas.
+
+## SciVis
+**2003: Acceleration techniques for GPU-based volume rendering**
+Authors: Jens H. Krüger; Rüdiger Westermann <br>
+<a href="https://doi.org/10.1109/VISUAL.2003.1250384">https://doi.org/10.1109/VISUAL.2003.1250384</a><br>
+
+In the 90s after volume rendering was first introduced, many research ideas were introduced to accelerate ray casting that ran on CPUs, among which early ray termination and empty space leaping are the most popular techniques. Later with the advent of GPUs and 3D texture hardware, volume rendering was made to run at an interactive
+speed for data of moderate size. For very large scale
+volumes, however, the speed of GPU-based volume rendering can still bequite
+slow due to the expensive per-fragment operations involved. In this paper, the authors show how to exploit early z-test to terminate fragment processing when its opacity reaches full, and how to skip empty space along rays. These were two issues mostly
+overlooked at that time,  and believed hard to implement on GPUs. After 15 years since the paper was  published, the techniques presented are still used and became even more relevant as more powerful GPUs become available. The 2018 SciVis Test of Time
+award committee selected this paper as the  15 year IEEE SciVis Test of Time
 award winner based on its originality, the importance, and the long
 term impact to the application areas.
 
