@@ -1,7 +1,7 @@
 ---
 title: Doctoral Colloquium
 layout: main-2018
-permalink: /year/2018/info/overview-amp-topics/doctoral-colloquium
+permalink: /year/2018/info/doctoral-colloquium
 ---
 
 (Invitation only event)

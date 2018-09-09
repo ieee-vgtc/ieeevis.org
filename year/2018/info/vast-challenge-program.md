@@ -1,7 +1,7 @@
 ---
 title: VAST Challenge
 layout: main-2018
-permalink: /year/2018/info/overview-amp-topics/vast-challenge-program
+permalink: /year/2018/info/vast-challenge-program
 ---
 
 Workshop:  

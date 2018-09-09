@@ -1,7 +1,7 @@
 ---
 title: Papers Sessions
 layout: main-2018
-permalink: /year/2018/info/overview-amp-topics/papers-sessions
+permalink: /year/2018/info/papers-sessions
 ---
 
 [J] (*TVCG* journal special issue (SI) papers)  
