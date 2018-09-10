@@ -26,7 +26,8 @@ contact: "web@ieeevis.org"
 ## <a name='hotel'></a>Travel Directions Hotel
 The following are available options for getting to the Estrel Berlin hotel, directly adjacent to the Estrel Berlin Convention center where VIS will be hosted this year. The Estrel Berlin Convention Center is located 13 kilometers from Berlin Schönefeld Airport and about 21 kilometers from Airport Tegel. Guests flying to Berlin have multiple transportation options, including taxis, buses or the metro, called S-Bahn, with stops located right in front of the hotel.
 
-The Estrel Berlin is located at: Sonnenallee 225, 12057 Berlin, Germany, Phone +49 30 6831 0
+The Estrel Berlin is located at: Sonnenallee 225, 12057 Berlin, Germany
+Phone +49 30 6831 0
 
 ## <a name='airport'></a>Airport transfer
 <a name='airport-tegel'></a>**Berlin Tegel Airport (TXL)**  
