@@ -31,9 +31,7 @@ The Estrel Berlin is located at: Sonnenallee 225, 12057 Berlin, Germany, Phone +
 ## <a name='airport'></a>Airport transfer
 <a name='airport-tegel'></a>**Berlin Tegel Airport (TXL)**  
 Public transport: Take the X9 bus line from the airport to bus stop “Jungfernheide”. Then transfer to the S42 S-Bahn commuter train line (Ringbahn) until you reach the stop “Sonnenallee”. 
-
 Ticket AB, price 2.80 euros, travel time roughly 45 minutes.
-
 Taxi drive: Price about 40 euros, travel time roughly 30 minutes.
 
 
