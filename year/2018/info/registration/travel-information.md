@@ -78,22 +78,22 @@ To reach the Estrel using Berlin’s public transport facilities, you need a one
 
 ## <a name='car'></a>Travelling by car
 <a name='car-west-south'></a>**From the West / South**  
-When approaching Berlin from the A2 or A9 autobahns, switch on to the A10 / Berliner Ring, then onto the A115 and afterwards onto the A100 in the direction Wilmersdorf / Kurfürstendamm / Flughafen Schönefeld.Take exit 26 "Grenzallee" and follow the construction detour signs that will take you via Bergiusstraße, Haberstraße and Neuköllnische Allee and bring you onto Grenzallee. At the traffic light intersection that follows, turn left on Sonnenallee. After approximately 500 meters, the Estrel is on the right hand side. 
+When approaching Berlin from the autobahn A2 or A9, switch on to  A10 / Berliner Ring, then onto  A115 and afterwards onto A100 in  direction Wilmersdorf / Kurfürstendamm / Flughafen Schönefeld.Take exit 26 "Grenzallee" and follow the construction detour signs that will take you via Bergiusstraße, Haberstraße and Neuköllnische Allee and bring you onto Grenzallee. At the traffic light intersection that follows, turn left on Sonnenallee. After approximately 500 meters, the Estrel is on the right hand side. 
 
 <a name='car-north'></a>**From the North**   
-Take the A24 Dreieck Havelland interchange onto A10 / Berliner Ring toward Berlin, then change onto the A111 autobahn in the direction Flughafen Tegel / Berlin-Zentrum / Berlin-Reinickendorf. Shortly afterwards take the A100 autobahn. Take exit 26 “Grenzallee“ and follow the construction detour signs that will take you via Bergiusstraße, Haberstraße and Neuköllnische Allee and bring you onto Grenzallee. At the traffic light intersection that follows, turn left on Sonnenallee. After approximately 500 meters, the Estrel is on the right hand side. 
+Take the autobahn A24 interchange “Dreieck Havelland” onto A10 / Berliner Ring toward Berlin, then change onto A111 in  direction Flughafen Tegel / Berlin-Zentrum / Berlin-Reinickendorf. Shortly afterwards take the A100 . Take exit 26 “Grenzallee“ and follow the construction detour signs that will take you via Bergiusstraße, Haberstraße and Neuköllnische Allee and bring you onto Grenzallee. At the traffic light intersection that follows, turn left on Sonnenallee. After approximately 500 meters, the Estrel is on the right hand side. 
 
 <a name='car-east'></a>**From the East**     
-When approaching Berlin from the A13 or A12 / A10 autobahns, take the "Schönefelder Kreuz" interchange onto the A113 toward Berlin-Zentrum. Take exit 26 “Grenzallee“ and follow the construction detour signs that will take you via Bergiusstraße, Haberstraße and Neuköllnische Allee and bring you onto Grenzallee. At the traffic light intersection that follows, turn left on Sonnenallee. After approximately 500 meters, the Estrel is on the right hand side. 
+When approaching Berlin from the autobahn A13 or A12 / A10, take the interchange “Schönefelder Kreuz”  onto  A113 toward Berlin-Zentrum. Take exit 26 “Grenzallee“ and follow the construction detour signs that will take you via Bergiusstraße, Haberstraße and Neuköllnische Allee and bring you onto Grenzallee. At the traffic light intersection that follows, turn left on Sonnenallee. After approximately 500 meters, the Estrel is on the right hand side. 
 
 <a name='car-tegel'></a>**From Berlin Tegel Airport TXL**   
-Take the "Saatwinkler Damm" slip road onto the A111 autobahn toward Dresden / Magdeburg / Leipzig / Zentrum, which becomes the A100. Take exit 26 “Grenzallee“ and follow the construction detour signs that will take you via Bergiusstraße, Haberstraße and Neuköllnische Allee and bring you onto Grenzallee. At the traffic light intersection that follows, turn left on Sonnenallee. After approximately 500 meters, the Estrel is on the right hand side. 
+Take the exit “Saatwinkler Damm” onto autobahn A111 toward Dresden / Magdeburg / Leipzig / Zentrum, which becomes the A100. Take exit 26 “Grenzallee“ and follow the construction detour signs that will take you via Bergiusstraße, Haberstraße and Neuköllnische Allee and bring you onto Grenzallee. At the traffic light intersection that follows, turn left on Sonnenallee. After approximately 500 meters, the Estrel is on the right hand side. 
 
 <a name='car-schoenefeld'></a>**From Berlin Schönefeld Airport SXF**   
-When leaving the airport go right onto Am Seegraben / B96a, then left onto the A113 autobahn in the direction Berlin-Zentrum. Take exit 26 “Grenzallee“ and follow the construction detour signs that will take you via Bergiusstraße, Haberstraße and Neuköllnische Allee and bring you onto Grenzallee. At the traffic light intersection that follows, turn left on Sonnenallee. After approximately 500 meters, the Estrel is on the right hand side. 
+When leaving the airport turn right onto “Am Seegraben” / B96a, then left onto autobahn A113 toward Berlin-Zentrum. Take exit 26 “Grenzallee“ and follow the construction detour signs that will take you via Bergiusstraße, Haberstraße and Neuköllnische Allee and bring you onto Grenzallee. At the traffic light intersection that follows, turn left on Sonnenallee. After approximately 500 meters, the Estrel is on the right hand side. 
 
 <a name='car-parking'></a>**Parking**   
 The hotel has its own underground parking garage offering 450 parking spaces (18 euros per day).
-For more information on the convention center visit: <a href="https://www.estrel.com/en/convention-center.html">https://www.estrel.com/en/convention-center.html</a>
+For more information on the convention center please visit: <a href="https://www.estrel.com/en/convention-center.html">https://www.estrel.com/en/convention-center.html</a>
 
 
