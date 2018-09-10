@@ -37,7 +37,7 @@ Public transport: Take the X9 bus line from the airport to bus stop “Jungfernh
 Public transport: Take the 171 bus line until you reach the bus stop “Sonnenallee”. (Ticket ABC, price 3.40 euros, travel time roughly 50 minutes. Taxi drive: price about 35 euros, travel time roughly 15 minutes.)
 
 
-## <a name='public-transport'></a>Public transport 
+## <a name='public-transport'></a>General Information about Public transport in Berlin
 Berlin has a public transportation infrastructure providing diverse modes of urban mobility. There is the metro (S-Bahn) and the suburban railway system (U-Bahn), buses, trams and ferries. The S-Bahn is operated by the Deutsche Bahn, the other transport systems by BVG. They are joined together in a traffic network (VBB), with a common tariff and ticket system.
 
 The city of Berlin and the surrounding suburbs are divided into three tariff zones:
