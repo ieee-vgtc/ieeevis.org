@@ -23,6 +23,7 @@ Berlin knows what the cultural heart desires. Not only is the city brimming with
 <a name='bike'></a>**Bike Rental**   
 The next rental station for bikes in Neukölln is Rent a Bike 44. 
 Find the rental station at: Mahlower Str. 9, 12049 Berlin, Phone: +491577 7800606
+
 For more information: Facebook - Rent a Bike 44 in Neukölln, 
 
 <a name='food-market'></a>**Turkish Food Market**    
@@ -44,26 +45,31 @@ Address: Richardstraße 35, 12043 Berlin, Walking distance: 1.2 km (15 minutes)
 Rixdorf is in the heart of historical Neukölln, where you can bask in the ways of old village life. Dating back to 1624, the heritage-protected historic forge at Richardplatz is a great place to start your journey back in time. Here, you'll find artisans in full swing, crafting cutlery and artworks using traditional tools and techniques. You can get a glimpse of the craftsmen at work Mondays through Fridays from 2:00 p.m. - 4:00 p.m. 
 
 Address: Richardplatz 28, 12055 Berlin, Walking distance: 2.3 km (30 minutes)
+
 For more information: <a href="http://www.feine-klingen.de">http://www.feine-klingen.de</a>
 
 <a name='info-center'></a>**Neukölln Info Center**    
 A favorite of locals and tourists alike, Neukölln Info Center is located on Karl-Marx-Str. In this souvenir shop, you'll find products made in Neukölln, including wines, honey, liqueurs, postcards, buttons, vintage tin signs, t-shirts, bags, posters and other one-of-a-kind gifts. 
  
 Walking distance: 1.9 km (22 minutes)
+
 For more information: <a href="https://www.souvenirmanufaktur.de">https://www.souvenirmanufaktur.de</a>
 
 <a name='icecream'></a>**Icecream Manufactory**   
 You like to taste delicious naturally flavor and icecream without dyestuffs? Well, then you should try the icecream manufactory.
 
 Address: Karl-Marx-Platz 17, 12043 Berlin.
+
 For more information: <a href="https://www.eismanufaktur-berlin.de">https://www.eismanufaktur-berlin.de</a>
 
 <a name='supermarket-pharmacy'></a>**Supermarket and Pharmacy**    
 Here you can get what you want for daily needs. 
+
 Address:  Grenzallee 4-6, 12057 Berlin
 
 <a name='tempelhof'></a>**Tempelhof Field – former airport**    
 Located on the grounds of the former Tempelhof airport, Tempelhof Field is larger than New York's Central Park with over 300 hectares for bike riding, skating, kite flying, urban gardening, strolling or just doing your own thing. It's hard to believe that up until a few years ago, air commuters could fly right from here. Tempelhof played a key role after World War II during the Berlin blockade, when supply planes landed at the site in 90-second intervals. You can read about this and other notable events in the airport's history on various plaques on the field.
-Walking distance: 3.1 km / 36 minutes, S-Bahn: S41 (12 minutes) exit station: Tempelhof
+Walking distance: 3.1 km / 36 minutes, S-Bahn: S41 (12 minutes) exit station: Tempelhof.
+
 For more information: <a href="https://www.thf-berlin.de">https://www.thf-berlin.de</a>
 
