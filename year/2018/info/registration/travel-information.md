@@ -10,9 +10,9 @@ contact: "web@ieeevis.org"
   * [Berlin Tegel Airport (TXL)](#airport-tegel)
   * [Berlin Schönefeld Airport (SXF)](#airport-schoenefeld)
 * [Public transport](#public-transport) 
-  * [start station: Berlin Central Train Station (Hauptbahnhof)](#central-station)
-  * [start station: Südkreuz Station ](#suedkreuz) 
-  * [start station: Ostbahnhof Station](#ostbahnhof)
+  * [Start station: Berlin Central Train Station (Hauptbahnhof)](#central-station)
+  * [Start station: Südkreuz Station ](#suedkreuz) 
+  * [Start station: Ostbahnhof Station](#ostbahnhof)
   * [Public transport tickets](#tickets)
 * [Travelling by car](#car)
   * [From the West / South](#car-west-south)
@@ -24,16 +24,16 @@ contact: "web@ieeevis.org"
 
 
 ## <a name='hotel'></a>Travel Directions Hotel
-The following are available options for getting to the Estrel Berlin hotel, directly adjacent to the Estrel Berlin Convention center where VIS will be hosted this year. The Estrel Berlin Convention Center is located 13 kilometers from Berlins Schönefeld Airport and about 21 kilometers from the Airport Tegel. Guests flying into Berlin have multiple transportation options, including taxis, buses or the metro, called S-Bahn, with stops located right in front of the hotel.
+The following are available options for getting to the Estrel Berlin hotel, directly adjacent to the Estrel Berlin Convention center where VIS will be hosted this year. The Estrel Berlin Convention Center is located 13 kilometers from Berlin Schönefeld Airport and about 21 kilometers from Airport Tegel. Guests flying to Berlin have multiple transportation options, including taxis, buses or the metro, called S-Bahn, with stops located right in front of the hotel.
 
-The Estrel Berlin is located at:
-Sonnenallee 225
-12057 Berlin, Germany
-Phone +49 30 6831 0
+The Estrel Berlin is located at: Sonnenallee 225, 12057 Berlin, Germany, Phone +49 30 6831 0
 
 ## <a name='airport'></a>Airport transfer
 <a name='airport-tegel'></a>**Berlin Tegel Airport (TXL)**  
-Public transport: Take the X9 bus line from the airport to the “Jungfernheide” bus stop. Transfer then to the S42 S-Bahn commuter train line (Ringbahn) until you reach the “Sonnenallee” stop. Ticket AB, price 2.80 euros, travel time roughly 45 minutes.
+Public transport: Take the X9 bus line from the airport to bus stop “Jungfernheide”. Then transfer to the S42 S-Bahn commuter train line (Ringbahn) until you reach the stop “Sonnenallee”. 
+
+Ticket AB, price 2.80 euros, travel time roughly 45 minutes.
+
 Taxi drive: Price about 40 euros, travel time roughly 30 minutes.
 
 
