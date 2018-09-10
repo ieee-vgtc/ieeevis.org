@@ -21,23 +21,17 @@ contact: "web@ieeevis.org"
 ## <a name='todo'></a>Things To Do in Berlin - Neukölln
 
 <a href="/attachments/HotelMap_Estrel_Neukoelln.pdf">Things To Do in Berlin AT-A-GLANCE</a>  
-Berlin knows what the cultural heart desires. Not only is the city brimming with interesting sites, but it also boasts of more than 9,000 restaurants, some 180 museums, and over 200 different performance stages. In Berlin, there is no simply no resisting a night out. Neukölln is fast becoming one of Berlin's most exciting, creative districts – a community in the midst of transformation. Cafés, art galleries, Turkish supermarkets, hip bars and unique shops exist side-by-side in a myriad of shapes, colours and sizes. We've put together a list of the neighbourhood's hotspots to give you a taste of the best of Neukölln. Here are some must-see attractions, all within walking distance of the Estrel. Test
+Berlin knows what the cultural heart desires. Not only is the city brimming with interesting sites, but it also boasts of more than 9,000 restaurants, some 180 museums, and over 200 different performance stages. In Berlin, there is simply no resisting a night out. Neukölln is fast becoming one of Berlin's most exciting, creative districts – a community in the midst of transformation. Cafés, art galleries, Turkish supermarkets, hip bars and unique shops exist side-by-side in a myriad of shapes, colours and sizes. We've put together a list of the neighborhood's hotspots to give you a taste of the best of Neukölln. Here are some must-see attractions, all within walking distance of the Estrel. Try them out!
 
 <a name='bike'></a>**Bike Rental**   
-The next Rental station for bikes in Neukölln is Rent a Bike 44. 
-Find the rental station at:
-Mahlower Str. 9
-12049 Berlin
+The next rental station for bikes in Neukölln is Rent a Bike 44. 
+Find the rental station at: Mahlower Str. 9, 12049 Berlin, Phone: +491577 7800606
+For more information: Facebook - Rent a Bike 44 in Neukölln, 
 
-For more information: 
-Facebook - Rent a Bike 44 in Neukölln
-Phone: +491577 7800606
-
-<a name='food-market'></a>**Turks Food Market**    
+<a name='food-market'></a>**Turkish Food Market**    
 Fresh fruits at unbeatable prices, gourmet spreads and stands with colourful fabrics, flowers and knick-knacks are waiting to be discovered at this Turkish market along the Maybachufer. With so many stalls to choose from, you'll feel like you've been whisked away to a bazaar in the heart of Istanbul. Going to Berlin's second-largest market is like venturing off on a culinary holiday, with vendors selling freshly-baked gözleme, sticky-sweet baklava, falafel and African peanut soup. Open every Tuesday and Friday from 11 a.m. until 6 p.m., this internationally renowned market is popular with tourists and locals alike.
  
-Walking distance: 3.5 km (43 minutes)
-Bus M41 to Hermannplatz, then walking: 3.5 km (23 minutes)
+Take the bus M41 to Hermannplatz, then walking: 1.1 km (14 minutes).
 
 <a name='cafe'></a>**Café Geschwister Nothaft**  
 Proving that good things come in all shapes and sizes, you'll find the petite, charming Café Geschwister Nothaft located behind the Sonnenallee S-Bahn station to be an unforgettable experience. Get comfortable on cosy couches and peruse the café's magazine collection, or while away the hours surfing the web on complimentary WiFi. In addition to a wide variety of specialty coffees, as well as freshly pressed juices made with ingredients such as ginger, carrots, apples and oranges, patrons can also indulge in traditional Canadian cakes, vegan baked goods, not to mention panini with hummus or goat cheese.
