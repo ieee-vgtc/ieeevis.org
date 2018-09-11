@@ -58,6 +58,7 @@ Address:  Grenzallee 4-6, 12057 Berlin
 
 <a name='tempelhof'></a>**Tempelhof Field – former airport**    
 Located on the grounds of the former Tempelhof airport, Tempelhof Field is larger than New York's Central Park with over 300 hectares for bike riding, skating, kite flying, urban gardening, strolling or just doing your own thing. It's hard to believe that up until a few years ago, air commuters could fly right from here. Tempelhof played a key role after World War II during the Berlin blockade, when supply planes landed at the site in 90-second intervals. You can read about this and other notable events in the airport's history on various plaques on the field.<br/>
-Walking distance: 3.1 km / 36 minutes, S-Bahn: S41 (12 minutes) exit station: Tempelhof.<br/>
+Walking distance: 3.1 km / 36 minutes <br/>
+S-Bahn: S41 (12 minutes) exit station: Tempelhof.<br/>
 For more information: <a href="https://www.thf-berlin.de">https://www.thf-berlin.de</a>
 
