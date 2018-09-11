@@ -4,10 +4,10 @@ layout: main-2018
 permalink: /year/2018/info/registration/things-to-do-in-berlin
 contact: "web@ieeevis.org"
 ---
-## <a name='todo'></a>Things To Do in Berlin-Neukölln
-
-Berlin knows what the cultural heart desires. Not only is the city brimming with interesting sites, but it also boasts of more than 9,000 restaurants, some 180 museums, and over 200 different performance stages. In Berlin, there is simply no resisting a night out. Neukölln is fast becoming one of Berlin's most exciting, creative districts – a community in the midst of transformation. Cafés, art galleries, Turkish supermarkets, hip bars and unique shops exist side-by-side in a myriad of shapes, colors and sizes. We've put together a list of the neighborhood's hotspots to give you a taste of the best of Neukölln. Here are some must-see attractions, all within walking distance of the Estrel. Try them out!
+Berlin (<a href="https://www.visitberlin.de/en">Visit Berlin) knows what the cultural heart desires. Not only is the city brimming with interesting sites, but it also boasts of more than 9,000 restaurants, some 180 museums, and over 200 different performance stages. In Berlin, there is simply no resisting a night out. Neukölln is fast becoming one of Berlin's most exciting, creative districts – a community in the midst of transformation. Cafés, art galleries, Turkish supermarkets, hip bars and unique shops exist side-by-side in a myriad of shapes, colors and sizes. We've put together a list of the neighborhood's hotspots to give you a taste of the best of Neukölln. Here are some must-see attractions, all within walking distance of the Estrel. Try them out!
 <a href="/attachments/HotelMap_Estrel_Neukoelln.pdf">Map of the area surrounding the hotel</a> 
+
+## <a name='todo'></a>Things To Do in Berlin-Neukölln
 
 * [Bike Rental](#bike)
 * [Turkish Food Market](#food-market)
