@@ -24,21 +24,18 @@ contact: "web@ieeevis.org"
 
 
 ## <a name='hotel'></a>Travel Directions Hotel
-The following are available options for getting to the Estrel Berlin hotel, directly adjacent to the Estrel Berlin Convention center where VIS will be hosted this year. The Estrel Berlin Convention Center is located 13 kilometers from Berlin Schönefeld Airport and about 21 kilometers from Airport Tegel. Guests flying to Berlin have multiple transportation options, including taxis, buses or the metro, called S-Bahn, with stops located right in front of the hotel.
-
+The following are available options for getting to the Estrel Berlin hotel, directly adjacent to the Estrel Berlin Convention center where VIS will be hosted this year. The Estrel Berlin Convention Center is located 13 kilometers from Berlin Schönefeld Airport and about 21 kilometers from Airport Tegel. Guests flying to Berlin have multiple transportation options, including taxis, buses or the metro, called S-Bahn, with stops located right in front of the hotel.<br/>
 The Estrel Berlin is located at: Sonnenallee 225, 12057 Berlin, Germany<br/>
 Phone: +49 30 6831 0
 
 ## <a name='airport'></a>Airport transfer
 <a name='airport-tegel'></a>**Berlin Tegel Airport (TXL)**  
-Public transport: Take the X9 bus line from the airport to bus stop “Jungfernheide”. Then transfer to the S42 S-Bahn commuter train line (Ringbahn) until you reach the stop “Sonnenallee”. 
-
+Public transport: Take the X9 bus line from the airport to bus stop “Jungfernheide”. Then transfer to the S42 S-Bahn commuter train line (Ringbahn) until you reach the stop “Sonnenallee”. <br/>
 Ticket AB, price 2.80 euros, travel time roughly 45 minutes. <br/>
 Taxi drive: price about 40 euros, travel time roughly 30 minutes.
 
 <a name='airport-schoenefeld'></a>**Berlin Schönefeld Airport (SXF)**  
-Public transport: Take the 171 bus line until you reach the bus stop “Sonnenallee”. 
-
+Public transport: Take the 171 bus line until you reach the bus stop “Sonnenallee”. <br/>
 Ticket ABC, price 3.40 euros, travel time roughly 50 minutes. <br/>
 Taxi drive: price about 35 euros, travel time roughly 15 minutes.
 
@@ -57,17 +54,20 @@ Tickets are valid for all public transport in Berlin: S-Bahn, U-Bahn, buses, tra
 For route planning you will most likely use some online app (which is also recommended in view of the complexity of the transport network in Berlin). Maps (U-Bahn, S-Bahn) can be downloaded here: [route map of Berlin](https://berlinmap360.com/carte/pdf/en/berlin-u-bahn-map.pdf), [route map of Greater Berlin](https://sbahn.berlin/fileadmin/user_upload/Liniennetz/S_U-Bahn-Netz.pdf).
 More detailed information can be found at the [BVG-webpage](https://www.bvg.de/en) (U-Bahn, bus, tram, ferries) and the [S-Bahn webpage](https://sbahn.berlin/).
 
-
 <a name='central-station'></a> **Starting point: Berlin Central Train Station (Hauptbahnhof)**   
-Public transport: Take the M41 bus line until you reach the “Ziegrastraße” stop. (Ticket AB, price 2.80 euros, travel time roughly 40 minutes. Taxi drive: price about 20 euros, travel time roughly 20 minutes.)
-
+Public transport: Take the M41 bus line until you reach the “Ziegrastraße” stop. <br/>
+Ticket AB, price 2.80 euros, travel time roughly 40 minutes. <br/>
+Taxi drive: price about 20 euros, travel time roughly 20 minutes.
 
 <a name='suedkreuz'></a>**Starting point: Südkreuz Station**  
-Public transport: Take the S42 S-Bahn commuter train line (Ringbahn) until you reach the stop “Sonnenallee”. (Ticket AB, price 2.80 euros, travel time roughly 10 minutes. Taxi drive: price about 18 euros, travel time roughly 14 minutes.)
-
+Public transport: Take the S42 S-Bahn commuter train line (Ringbahn) until you reach the stop “Sonnenallee”. <br/>
+Ticket AB, price 2.80 euros, travel time roughly 10 minutes. <br/>
+Taxi drive: price about 18 euros, travel time roughly 14 minutes.
 
 <a name='ostbahnhof'></a>**Starting point: Ostbahnhof Station**    
-Public transport: Take either one of the S5, S75 or S9 S-Bahn commuter train lines until you reach the “Ostkreuz” station. Then transfer to the S41 S-Bahn line (Ringbahn) and continue until you reach the stop “Sonnenallee”. (Ticket AB, price 2.80 euros, travel time roughly 15 minutes. Taxi drive: price about 16 euros, travel time roughly 15 minutes.)
+Public transport: Take either one of the S5, S75 or S9 S-Bahn commuter train lines until you reach the “Ostkreuz” station. Then transfer to the S41 S-Bahn line (Ringbahn) and continue until you reach the stop “Sonnenallee”. <br/>
+Ticket AB, price 2.80 euros, travel time roughly 15 minutes. <br/>
+Taxi drive: price about 16 euros, travel time roughly 15 minutes.
 
 <a name='tickets'></a>**Public transport tickets**   
 To reach the Estrel using Berlin’s public transport facilities, you need a one way ticket for the AB zone, costing 2.80 euros for adults (exception: when travelling from the Berlin-Schönefeld Airport SXF, you need a one-way ABC zone ticket, costing 3.40 euros for adults). You can purchase tickets at the BVG service counters, the ticket vending machines located in the S-Bahn and U-Bahn stations or on busses directly from the driver (please have change ready for bus drivers). 
