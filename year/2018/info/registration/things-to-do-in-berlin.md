@@ -4,7 +4,11 @@ layout: main-2018
 permalink: /year/2018/info/registration/things-to-do-in-berlin
 contact: "web@ieeevis.org"
 ---
-* [Things To Do in Berlin-Neukölln](#todo)
+## <a name='todo'></a>Things To Do in Berlin-Neukölln
+
+Berlin knows what the cultural heart desires. Not only is the city brimming with interesting sites, but it also boasts of more than 9,000 restaurants, some 180 museums, and over 200 different performance stages. In Berlin, there is simply no resisting a night out. Neukölln is fast becoming one of Berlin's most exciting, creative districts – a community in the midst of transformation. Cafés, art galleries, Turkish supermarkets, hip bars and unique shops exist side-by-side in a myriad of shapes, colors and sizes. We've put together a list of the neighborhood's hotspots to give you a taste of the best of Neukölln. Here are some must-see attractions, all within walking distance of the Estrel. Try them out!
+<a href="/attachments/HotelMap_Estrel_Neukoelln.pdf">Map of the area surrounding the hotel</a> 
+
 * [Bike Rental](#bike)
 * [Turkish Food Market](#food-market)
 * [Café Geschwister Nothaft](#cafe)
@@ -14,11 +18,6 @@ contact: "web@ieeevis.org"
 * [Icecream Manufactory](#icecream)
 * [Supermarket and Pharmacy](#supermarket-pharmacy)
 * [Tempelhof Field – former airport](#tempelhof)
-
-## <a name='todo'></a>Things To Do in Berlin-Neukölln
-
-<a href="/attachments/HotelMap_Estrel_Neukoelln.pdf">Things To Do in Berlin AT A GLANCE</a>  
-Berlin knows what the cultural heart desires. Not only is the city brimming with interesting sites, but it also boasts of more than 9,000 restaurants, some 180 museums, and over 200 different performance stages. In Berlin, there is simply no resisting a night out. Neukölln is fast becoming one of Berlin's most exciting, creative districts – a community in the midst of transformation. Cafés, art galleries, Turkish supermarkets, hip bars and unique shops exist side-by-side in a myriad of shapes, colors and sizes. We've put together a list of the neighborhood's hotspots to give you a taste of the best of Neukölln. Here are some must-see attractions, all within walking distance of the Estrel. Try them out!
 
 <a name='bike'></a>**Bike Rental**   
 The next rental station for bikes in Neukölln is Rent a Bike 44. <br/>
