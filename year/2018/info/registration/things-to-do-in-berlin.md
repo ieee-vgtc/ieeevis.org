@@ -6,7 +6,7 @@ contact: "web@ieeevis.org"
 ---
 * [Things To Do in Berlin - Neukölln](#todo)
 * [Bike Rental](#bike)
-* [Turks Food Market](#food-market)
+* [Turkish Food Market](#food-market)
 * [Café Geschwister Nothaft](#cafe)
 * [Comenius Garden](#garden)
 * [Historic Forge – Rixdorf  ](#rixdorf)
