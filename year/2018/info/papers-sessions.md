@@ -61,7 +61,7 @@ Authors: Min Chen, Kelly Gaither, Nigel John, Brian McCann
 **2:05pm-4:00pm**  
 **Convention Hall 1, Section D**  
 **InfoVis: Opening & Multiple Dimensions**  
-*Session Chair: TBA*  
+*Session Chair: Arvind Satyanarayan*  
 
 **Shape-preserving Star Coordinates (J)**
 <br>
@@ -89,7 +89,7 @@ Authors: Rebecca Faust, David Glickenstein, Carlos Scheidegger
 **2:05pm-4:00pm**  
 **Estrel Hall A+B**  
 **SciVis: Opening & Flow Features**  
-*Session Chair: TBA* 
+*Session Chair: Roxana Bujak* 
 
 **Recirculation Surfaces for Flow Visualization (J)**
 <br>
@@ -141,7 +141,7 @@ Authors: Prithiviraj Kaliappa Gounder Muthumanickam, Katerina Vrotsou, Aida Nord
 **4:20pm-6:00pm**  
 **Convention Hall 1, Section D**  
 **InfoVis: Evaluation & Applications**  
-*Session Chair: TBA*
+*Session Chair: Evanthia Dimara*
 
 **A Heuristic Approach to Value-Driven Evaluation of Visualizations (J)**
 <br>
@@ -169,7 +169,7 @@ Authors: Florian Windhager, Paolo Federico, Günther Schreder, Katrin Glinka, Ma
 **4:20pm-6:00pm**  
 **Estrel Hall A+B**  
 **SciVis: Biological Applications**  
-*Session Chair: TBA* 
+*Session Chair: Elisabeta (Liz) Marai* 
 
 **Interactive Visualization of RNA and DNA Structures (J)**
 <br>
@@ -222,7 +222,7 @@ Authors: Akhilesh Camisetty, Chaitanya Chandurkar, Maoyuan Sun, David Koop
 **9:00am-10:40am**   
 **Convention Hall 1, Section D**  
 **InfoVis: Time**  
-*Session Chair: TBA* 
+*Session Chair: Enrico Bertini* 
 
 **Comparing Similarity Perception in Time Series Visualizations (J)**
 <br>
@@ -250,7 +250,7 @@ Authors: Wiebke Köpp, Tino Weinkauf
 **9:00am-10:40am**  
 **Estrel Hall A+B**  
 **SciVis: Biomedical Visualization**  
-*Session Chair: TBA* 
+*Session Chair: Barbora Kozlikova* 
 
 **Visual Analysis of Aneurysm Data using Statistical Graphics (J)**
 <br>
@@ -330,7 +330,7 @@ Authors: Huan He, Qinghua Zheng, Bo Dong
 **11:00am-12:40pm**    
 **Convention Hall 1, Section D**  
 **InfoVis: Graphs & Trees**  
-*Session Chair: TBA* 
+*Session Chair: Yingcai Wu* 
 
 **Juniper: A Tree+Table Approach to Multivariate Graph Visualization (J)**
 <br>
@@ -358,7 +358,7 @@ Authors: Timothy Major, Rahul C. Basole
 **11:00am-12:40pm**  
 **Estrel Hall A+B**  
 **SciVis: Volume Visualization**  
-*Session Chair: TBA*
+*Session Chair: Timo Ropinksi*
 
 **Interactive Obstruction-free Lensing for Volumetric Data Visualization (J)**
 <br>
@@ -386,7 +386,7 @@ Authors: Matthew Berger, Jixian Li, Joshua A. Levine
 **11:00am-12:40pm**    
 **Estrel Hall C**  
 **InfoVis: Devices: Small & Large**  
-*Session Chair: TBA*
+*Session Chair: Wesley Willet*
 
 **Vistrates: A Component Model for Ubiquitous Analytics (J)**
 <br>
@@ -414,7 +414,7 @@ Authors: Tanja Blascheck, Lonni Besançon, Anastasia Bezerianos, Bongshin Lee, P
 **11:00am-12:40pm**    
 **Room III**  
 **CG&A Session 1**  
-*Session Chair: TBA*
+*Session Chair: Theresa-Marie Rhyne*
 
 **Physical Visualization of Geospatial Datasets**
 <br>
@@ -470,7 +470,7 @@ Authors: Quan Li, Kristanto Sean Njotoprawiro, Hammad Haleem, Qiaoan Chen, Chris
 **02:20pm-04:00pm**      
 **Convention Hall 1, Section D**  
 **InfoVis: Text & Communication**  
-*Session Chair: TBA* 
+*Session Chair: Shixia Liu* 
 
 **Evaluating 'Graphical Perception' with CNNs (J)**
 <br>
@@ -498,7 +498,7 @@ Authors: Alper Sarikaya, Michael Correll, Lyn Bartram, Melanie Tory, Danyel A Fi
 **02:20pm-04:00pm**  
 **Estrel Hall A+B**  
 **SciVis: Space and Physics**  
-*Session Chair: TBA*
+*Session Chair: Jens Krüger*
 
 **Visualization of Bubble Formation in Porous Media (J)**
 <br>
@@ -555,7 +555,7 @@ Authors: Jay Koven, Cristian Felix, Hossein Siadati, Enrico Bertini, Markus Jako
 **9:00am-10:40am**   
 **Convention Hall 1, Section D**  
 **InfoVis: Immersive Analytics**  
-*Session Chair: TBA*
+*Session Chair: Jagoda Walny*
 
 **Origin-Destination Flow Maps in Immersive Environments (J)**
 <br>
@@ -583,7 +583,7 @@ Authors: Mathieu Le Goc, Charles Perin, Sean Follmer, Jean-Daniel Fekete, Pierre
 **9:00am-10:40am**  
 **Estrel Hall A+B**  
 **SciVis: Tensors**  
-*Session Chair: TBA* 
+*Session Chair: Ingrid Hotz* 
 
 **Robust and Fast Extraction of 3D Symmetric Tensor Field Topology (J)**
 <br>
@@ -663,7 +663,7 @@ Authors: Minsuk Kahng, Nikhil Thorat, Duen Horng Chau, Fernanda Viegas, Martin W
 **11:00am-12:40pm**  
 **Convention Hall 1, Section D**  
 **InfoVis: Design & Storytelling**  
-*Session Chair: TBA* 
+*Session Chair: Jessica Hullman* 
 
 **A Framework for Creative Visualization-Opportunities Workshops (J)**
 <br>
@@ -691,7 +691,7 @@ Authors: Qianwen Wang, Zhen Li, Siwei Fu, Weiwei Cui, Huamin Qu
 **11:00am-12:40pm**  
 **Estrel Hall A+B**  
 **SciVis: Scalable Techniques**  
-*Session Chair: TBA* 
+*Session Chair: Steffen Fey* 
 
 **Culling for Extreme-Scale Segmentation Volumes: A Hybrid Deterministic and Probabilistic Approach (J)**
 <br>
@@ -719,7 +719,7 @@ Authors: Roba Binyahib, Tom Peterka, Matthew Larsen, Kwan-Liu Ma, Hank Childs
 **11:00am-12:40pm**  
 **Estrel Hall C**  
 **InfoVis: Interaction**  
-*Session Chair: TBA*
+*Session Chair: Manuela Waldner*
 
 **Charticulator: Interactive Construction of Bespoke Chart Layouts (J)**  
 <br>
@@ -747,7 +747,7 @@ Authors: Tanja Blascheck, Lindsay MacDonald Vermeulen, Jo Vermeulen, Charles Per
 **11:00am-12:40pm**  
 **Room III**  
 **CG&A Session 2**  
-*Session Chair: TBA*
+*Session Chair: Gerik Scheuermann*
 
 **OpenSpace: Changing the Narrative of Public Dissemination in Astronomical Visualization from What to How**
 <br>
@@ -763,11 +763,11 @@ Authors: Li Liu, Deborah Silver, Karen Bemis
 
 **Management of Cerebral Aneurysm Descriptors based on an Automatic Ostium Extraction**
 <br>
-Authors: Monique Meuschke, Tobias Günther, Ralph Wickenhöfer, Markus Gross, Bernhard Preim, Kai Lawonn
+Authors: Monique Meuschke, Tobias Günther, Ralph Wickenhöfer, Markus Gross, Bernhard Preim, Kai Lawonn
 
 **Toward a Multimodal Diagnostic Exploratory Visualization of Focal Cortical Dysplasia**
 <br>
-Authors: Shin-Ting Wu, Raphael Voltoline, Wallace S. Loos, J.A. Iván Rubianes, Lionis S. Watanabe, Bárbara J. Amorim, A. Carolina Coan, Fernando Cendes, Clarissa L. Yasuda
+Authors: Shin-Ting Wu, Raphael Voltoline, Wallace S. Loos, J.A. Iván Rubianes, Lionis S. Watanabe, Bárbara J. Amorim, A. Carolina Coan, Fernando Cendes, Clarissa L. Yasuda
 
 <hr/>
 
@@ -803,7 +803,7 @@ Authors: Yuan Liang, Xiting Wang, Song-Hai Zhang, Shi-Min Hu, Shixia Liu
 **02:20pm-04:00pm**  
 **Convention Hall 1, Section D**  
 **InfoVis: Perception & Cognition 1**  
-*Session Chair: TBA* 
+*Session Chair: Danielle Szafir* 
 
 **Visual Semantics of Colormap Data Visualizations (J)**
 <br>
@@ -817,13 +817,13 @@ Authors: Yunhai Wang, Xin Chen, Tong Ge, Chen Bao, Michael Sedlmair, Chi-Wing Fu
 <br>
 Authors: Michael Correll, Mingwei Li, Gordon L Kindlmann, Carlos Scheidegger
 
-**Image-based Aspect Ratio Selection (J)**
-<br>
-Authors: Yunhai Wang, Zeyu Wang, Chi-Wing Fu, Hansjörg Schmauder, Oliver Deussen, Daniel Weiskopf
-
 **Is There a Robust Technique for Selecting Aspect Ratios in Line Charts? (T)**
 <br>
 Authors: Yunhai Wang, Zeyu Wang, Lifeng Zhu, Jian Zhang, Chi-Wing Fu, Changhe Tu, Baoquan Chen, Zhanglin Cheng
+
+**Image-based Aspect Ratio Selection (J)**
+<br>
+Authors: Yunhai Wang, Zeyu Wang, Chi-Wing Fu, Hansjörg Schmauder, Oliver Deussen, Daniel Weiskopf
 
 <hr/>
 
@@ -831,7 +831,7 @@ Authors: Yunhai Wang, Zeyu Wang, Lifeng Zhu, Jian Zhang, Chi-Wing Fu, Changhe Tu
 **02:20pm-04:00pm**  
 **Estrel A+B**  
 **SciVis: Topology, Geometry, and Precision**  
-*Session Chair: TBA* 
+*Session Chair: Bei Wang* 
 
 **Persistence Atlas for Critical Point Variability in Ensembles (J)**
 <br>
@@ -927,7 +927,7 @@ Authors: Dominik Sacha, Matthias Kraus, Daniel Keim, Min Chen
 **04:20pm-06:00pm**  
 **Convention Hall 1, Section D**  
 **InfoVis: Perception & Cognition 2**  
-*Session Chair: TBA* 
+*Session Chair: Karen Schloss* 
 
 **Mitigating the Attraction Effect with Visualizations (J)**
 <br>
@@ -955,7 +955,7 @@ Authors: Fumeng Yang, Lane Harrison, Ronald A. Rensink, Steven Franconeri, Remco
 **04:20pm-06:00pm**  
 **Estrel Hall A+B**  
 **SciVis: Interaction and Multivariate Data**  
-*Session Chair: TBA*
+*Session Chair: Luis Gustavo Nonato*
 
 **Firefly: Illumination Drones for Interactive Visualization (J)**
 <br>
@@ -1052,7 +1052,7 @@ Authors: Po-Ming Law, Rahul Basole, Yanhong Wu
 **9:00am-10:40am**  
 **Convention Hall 1, Section D**  
 **InfoVis: Uncertainty & Error**  
-*Session Chair: TBA* 
+*Session Chair: Lace Padilla* 
 
 **Visualizing Uncertain Tropical Cyclone Predictions using Representative Samples from Ensembles of Forecast Tracks (J)**
 <br>
@@ -1080,7 +1080,7 @@ Authors: Nina McCurdy, Julie Gerdes, Miriah Meyer
 **9:00am-10:40am**  
 **Estrel Hall C**  
 **SciVis: Time-varying Data**  
-*Session Chair: TBA* 
+*Session Chair: Steffen Oeltze-Jafra* 
 
 **Exploring Time-Varying Multivariate Volume Data Using Matrix of Isosurface Similarity Maps (J)**
 <br>
