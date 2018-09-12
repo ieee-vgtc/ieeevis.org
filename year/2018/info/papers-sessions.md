@@ -763,11 +763,11 @@ Authors: Li Liu, Deborah Silver, Karen Bemis
 
 **Management of Cerebral Aneurysm Descriptors based on an Automatic Ostium Extraction**
 <br>
-Authors: Monique Meuschke, Tobias Günther, Ralph Wickenhöfer, Markus Gross, Bernhard Preim, Kai Lawonn
+Authors: Monique Meuschke, Tobias Günther, Ralph Wickenhöfer, Markus Gross, Bernhard Preim, Kai Lawonn
 
 **Toward a Multimodal Diagnostic Exploratory Visualization of Focal Cortical Dysplasia**
 <br>
-Authors: Shin-Ting Wu, Raphael Voltoline, Wallace S. Loos, J.A. Iván Rubianes, Lionis S. Watanabe, Bárbara J. Amorim, A. Carolina Coan, Fernando Cendes, Clarissa L. Yasuda
+Authors: Shin-Ting Wu, Raphael Voltoline, Wallace S. Loos, J.A. Iván Rubianes, Lionis S. Watanabe, Bárbara J. Amorim, A. Carolina Coan, Fernando Cendes, Clarissa L. Yasuda
 
 <hr/>
 
@@ -817,13 +817,13 @@ Authors: Yunhai Wang, Xin Chen, Tong Ge, Chen Bao, Michael Sedlmair, Chi-Wing Fu
 <br>
 Authors: Michael Correll, Mingwei Li, Gordon L Kindlmann, Carlos Scheidegger
 
-**Image-based Aspect Ratio Selection (J)**
-<br>
-Authors: Yunhai Wang, Zeyu Wang, Chi-Wing Fu, Hansjörg Schmauder, Oliver Deussen, Daniel Weiskopf
-
 **Is There a Robust Technique for Selecting Aspect Ratios in Line Charts? (T)**
 <br>
 Authors: Yunhai Wang, Zeyu Wang, Lifeng Zhu, Jian Zhang, Chi-Wing Fu, Changhe Tu, Baoquan Chen, Zhanglin Cheng
+
+**Image-based Aspect Ratio Selection (J)**
+<br>
+Authors: Yunhai Wang, Zeyu Wang, Chi-Wing Fu, Hansjörg Schmauder, Oliver Deussen, Daniel Weiskopf
 
 <hr/>
 
