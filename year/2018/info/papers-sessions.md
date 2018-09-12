@@ -721,7 +721,7 @@ Authors: Roba Binyahib, Tom Peterka, Matthew Larsen, Kwan-Liu Ma, Hank Childs
 **InfoVis: Interaction**  
 *Session Chair: Manuela Waldner*
 
-**Charticulator: Interactive Construction of Bespoke Chart Layouts (J)**  
+**Charticulator: Interactive Construction of Bespoke Chart Layouts (J)**
 <br>
 Authors: Donghao Ren, Bongshin Lee, Matthew Brehmer
 
@@ -785,7 +785,7 @@ Authors: Gromit Yeuk-Yin Chan, Panpan Xu, Zeng Dai, Liu Ren
 <br> 
 Authors: Po-Ming Law, Yanhong Wu, Rahul Basole
 
-**A Visual Analytics Framework for Spatiotemporal Trade Network Analysis (J)**  
+**A Visual Analytics Framework for Spatiotemporal Trade Network Analysis (J)**
 <br> 
 Authors: Hong Wang, Yafeng Lu, Shade Shutters, Michael Steptoe, Feng Wang, Steven Landis, Ross Maciejewski
 
