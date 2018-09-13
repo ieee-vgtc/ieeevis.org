@@ -26,6 +26,7 @@ SciVis currently considers 15 and 25 years prior to the current conference.
 Authors: Gennady Andrienko and Natalia Andrienko <br>
 <a href="https://doi.org/10.1109/VAST.2008.4677356">https://doi.org/10.1109/VAST.2008.4677356</a><br>
 Proc. IEEE VAST 2008, pages 51-58, 2008.
+
 Analyzing and visualizing data about object movements has been a prevailing topic since the advent of VAST. Because of its scale and complexity, this form of spatiotemporal data has always posed a major challenge to the tasks of observing and analyzing movements visually. In this 2008 VAST paper, co-authors Gennady and Natalia Andrienko, presented the first in-depth study on the methods for aggregating movement data and visual designs for depicting aggregated information. The work has provided subsequent research on this topic with a significant benchmark, and its influence and impact remains prevalent today.
 
 ## InfoVis 
