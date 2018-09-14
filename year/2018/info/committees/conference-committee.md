@@ -493,6 +493,10 @@ permalink: /year/2018/info/committees/conference-committee
       <td>Carlos Scheidegger</td>
       <td><i>University of Arizona</i></td>
     </tr>
+    <tr>
+      <td>Janos Zimmermann</td>
+      <td><i>University of Magdeburg</i></td>
+    </tr>
   </tbody>
 </table>
 
