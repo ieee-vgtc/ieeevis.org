@@ -1207,17 +1207,24 @@
         "class": "Bronze", 
         "year": 2018
     },
-     {
+    {
         "src": "/attachments/supporters/2018/Kitware_Logo.png", 
         "company": "Kitware", 
         "href": "https://www.kitware.com/", 
         "class": "Bronze", 
         "year": 2018
     },
-        {
+    {
         "src": "/attachments/supporters/2018/IBM.png", 
         "company": "IBM", 
         "href": "http://research.ibm.com/", 
+        "class": "Bronze", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/Pix4D.png", 
+        "company": "Pix4D", 
+        "href": "https://pix4d.com/", 
         "class": "Bronze", 
         "year": 2018
     },
@@ -1319,7 +1326,14 @@
         "class": "Non-Profit / Publisher /      Academic / Other", 
         "year": 2018
     },
-        {
+    {
+        "src": "/attachments/supporters/2018/Maryland.png", 
+        "company": "University of Maryland", 
+        "href": "https://www.umd.edu/",
+        "class": "Non-Profit / Publisher /      Academic / Other", 
+        "year": 2018
+    },
+    {
         "src": "/attachments/supporters/2018/iscb-logo-Affiliated-Conference-2014.jpg", 
         "company": "ISCB", 
         "href": "https://www.iscb.org/",
