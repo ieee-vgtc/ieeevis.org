@@ -79,7 +79,7 @@ Alfie Abdul-Rahman, King's College London
 
 Contact: diehl@dbvis.inf.uni-konstanz.de
 
-The ever-increasing global awareness, practice, and teaching of information and data visualization include a growing audience of consumers and creators. We, as a scientific community must put careful emphasis on the collection and curation of knowledge in the area. The goal of this workshop is to discuss and consolidate guidelines, best practices, controversies, and success stories in the field of information visualization.
+The ever-increasing global awareness, practice, and teaching of information and data visualization include a growing audience of consumers and creators. We, as a scientific community must put careful emphasis on the collection and curation of knowledge in the area. The goal of this workshop is to discuss and consolidate guidelines, best practices, controversies, and success stories in the field of information visualization. Please also visit our discussion forum: [http://visguides.org](http://visguides.org).
 
 
 ## <a name="visreg"></a> [VISREG - Visual Summarization and Report Generation: Beyond Scatter-Plots and Bar-Charts](http://isgwww.cs.ovgu.de/visualisierung/visreg/)
