@@ -70,7 +70,7 @@ Contact: organizers@interactive-analysis.org
 DSIA brings together researchers at the intersection of databases, machine learning, and interactive visualization. These three areas have important things to say to each other. Modern data visualization depends on the cutting edge of both database and machine learning research: database researchers are exploring techniques for storing and querying massive amounts of data; machine learning techniques provide ways to discover unexpected patterns and to automate and scale well-defined analysis procedures. This workshop explores the idea that the next generation of database, machine learning, and interactive visualization systems should not be designed in isolation. For example, machine learning techniques might recommend improved data transformation and visual encoding decisions. Or, database query optimizers might take advantage of perceptual constraints, while prefetching methods reduce latency by modeling likely interactions. This workshop seeks to increase cross-pollination between these fields.
 
 
-## <a name="visguides"></a> [VisGuides: 2nd Workshop on the Creation, Curation, Critique and Conditioning of Principles and Guidelines in Visualization](http://workshop.visguides.org)
+## <a name="visguides"></a> [VisGuides: 2nd Workshop on the Creation, Curation, Critique and Conditioning of Principles and Guidelines in Visualization](http://visguides.org)
 Monday, Oct 22: 9:00am-6:00pm
 
 Alexandra Diehl, University of Konstanz  
