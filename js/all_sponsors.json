@@ -1256,7 +1256,14 @@
         "class": "Startup / Small Company", 
         "year": 2018
     },	
-     {
+    {
+        "src": "/attachments/supporters/2018/Google.png", 
+        "company": "Google", 
+        "href": "http://www.google.com/", 
+        "class": "Startup / Small Company", 
+        "year": 2018
+    },	
+    {
         "src": "/attachments/supporters/2018/HDC-Logo.png", 
         "company": "University of Arizona", 
         "href": "http://hdc.cs.arizona.edu/", 
