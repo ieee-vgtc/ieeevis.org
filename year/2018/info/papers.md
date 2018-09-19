@@ -315,9 +315,9 @@ Authors: Timothy Major, Rahul C. Basole
 <br>
 Authors: Carolina Nobre, Marc Streit, Alexander Lex
 
-**Visual Semantics of Colormap Data Visualizations** (Honorable Mention)
+**Mapping Color to Meaning in Colormap Data Visualizations** (Honorable Mention)
 <br>
-Authors: Karen Schloss, Connor C Gramazio, A. Taylor Silverman, Madeline L. Parker, Audrey S Wang
+Authors: Karen B. Schloss, Connor C. Gramazio, Allison T. Silverman, Madeline L. Parker, Audrey S. Wang
 
 **A Heuristic Approach to Value-Driven Evaluation of Visualizations**
 <br>
@@ -741,7 +741,7 @@ Authors: Alireza Karduni, Isaac Cho, Ginette Wessel, William Ribarsky, Eric Saud
 
 **Terrain Model Reconstruction from Terrestrial LiDAR Data Using Radial Basis Functions**
 <br/>
-Authors: Jules Morel, Alexandra Bac, Cédric Véga
+Authors: Jules Morel, Alexandra Bac, Cédric Véga
 
 **Name Profiler Toolkit**
 <br/>
@@ -761,15 +761,15 @@ Authors: Li Liu, Deborah Silver, Karen Bemis
 
 **Management of Cerebral Aneurysm Descriptors based on an Automatic Ostium Extraction**
 <br/>
-Authors: Monique Meuschke, Tobias Günther, Ralph Wickenhöfer, Markus Gross, Bernhard Preim, Kai Lawonn
+Authors: Monique Meuschke, Tobias Günther, Ralph Wickenhöfer, Markus Gross, Bernhard Preim, Kai Lawonn
 
 **Toward a Multimodal Diagnostic Exploratory Visualization of Focal Cortical Dysplasia**
 <br/>
-Authors: Shin-Ting Wu, Raphael Voltoline, Wallace S. Loos, J.A. Iván Rubianes, Lionis S. Watanabe, Bárbara J. Amorim, A. Carolina Coan, Fernando Cendes, Clarissa L. Yasuda
+Authors: Shin-Ting Wu, Raphael Voltoline, Wallace S. Loos, J.A. Iván Rubianes, Lionis S. Watanabe, Bárbara J. Amorim, A. Carolina Coan, Fernando Cendes, Clarissa L. Yasuda
 
 **Evaluating and Optimizing Evacuation Plans for Crowd Egress**
 <br/>
-Authors: Vinícius J. Cassol, Estêvão Smania Testa, Cláudio Rosito Jung, Muhammad Usman, Petros Faloutsos, Glen Berseth, Mubbasir Kapadia, Norman I. Badler, Soraia Raupp Musse
+Authors: Vinícius J. Cassol, Estêvão Smania Testa, Cláudio Rosito Jung, Muhammad Usman, Petros Faloutsos, Glen Berseth, Mubbasir Kapadia, Norman I. Badler, Soraia Raupp Musse
 
 <hr/>
 
