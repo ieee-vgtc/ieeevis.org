@@ -54,7 +54,6 @@ Inclusivity & Diversity at IEEE VIS is supported by the following organizations:
   <li><a href="http://vis.gatech.edu/">Georgia Tech Visualization Lab</a></li>
   <li><a href="https://www.umd.edu/">University of Maryland</a></li>
   <li><a href="https://www.tacc.utexas.edu/">Texas Advanced Computing Center (TACC)</a></li>
- 
  </ul>
 
 
