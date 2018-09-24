@@ -1363,8 +1363,29 @@
     },
     {
         "src": "/attachments/supporters/2018/CRC.png", 
-        "company": "CRR Press", 
+        "company": "CRC Press", 
         "href": "https://www.crcpress.com/",
+        "class": "Non-Profit / Publisher /      Academic / Other", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/Morgan.png", 
+        "company": "Morgan Claypool", 
+        "href": "https://www.morganclaypool.com/",
+        "class": "Non-Profit / Publisher /      Academic / Other", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/Springer_Nature.png", 
+        "company": "Springer Nature", 
+        "href": "https://www.springernature.com/de/",
+        "class": "Non-Profit / Publisher /      Academic / Other", 
+        "year": 2018
+    },
+     {
+        "src": "/attachments/supporters/2018/Ensad.png", 
+        "company": "Ensad", 
+        "href": "https://www.ensad.fr/",
         "class": "Non-Profit / Publisher /      Academic / Other", 
         "year": 2018
     },
