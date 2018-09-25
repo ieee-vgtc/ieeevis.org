@@ -805,9 +805,9 @@ Authors: Yuan Liang, Xiting Wang, Song-Hai Zhang, Shi-Min Hu, Shixia Liu
 **InfoVis: Perception & Cognition 1**  
 *Session Chair: Danielle Szafir* 
 
-**Visual Semantics of Colormap Data Visualizations (J)**
+**Mapping Color to Meaning in Colormap Data Visualizations (J)**
 <br>
-Authors: Karen Schloss, Connor C Gramazio, A. Taylor Silverman, Madeline L. Parker, Audrey S Wang
+Authors: Karen B. Schloss, Connor C. Gramazio, Allison T. Silverman, Madeline L. Parker, Audrey S. Wang
 
 **Optimizing Color Assignment for Perception of Class Separability in Multiclass Scatterplots (J)**
 <br>

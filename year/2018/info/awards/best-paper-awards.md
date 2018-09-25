@@ -40,9 +40,9 @@ Authors: Dominik Moritz, Chenglong Wang, Greg L. Nelson, Halden Lin, Adam M. Smi
 <br/>
 Authors: Donghao Ren, Bongshin Lee, Matthew Brehmer
 
-**Visual Semantics of Colormap Data Visualizations**
+**Mapping Color to Meaning in Colormap Data Visualizations**
 <br/>
-Authors: Karen Schloss, Connor C Gramazio, A. Taylor Silverman, Madeline L. Parker, Audrey S Wang
+Authors: Karen B. Schloss, Connor C. Gramazio, Allison T. Silverman, Madeline L. Parker, Audrey S. Wang
 
 **Design Exposition with Literate Visualization**
 <br/>

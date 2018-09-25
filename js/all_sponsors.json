@@ -1180,6 +1180,13 @@
         "year": 2018
     },
     {
+        "src": "/attachments/supporters/2018/intel_rgb_3000.png", 
+        "company": "Intel", 
+        "href": "http://software.intel.com/sdvis", 
+        "class": "Gold", 
+        "year": 2018
+    },
+    {
         "src": "/attachments/supporters/2018/KAUST_logo-right-big.png", 
         "company": "KAUST", 
         "href": "https://vcc.kaust.edu.sa/Pages/Home.aspx ", 
@@ -1194,7 +1201,7 @@
         "year": 2018
     },
     {
-        "src": "/attachments/supporters/2018/DKRZ-Logo_mitUnterzeile.jpg", 
+        "src": "/attachments/supporters/2018/DKRZ-Logo_mitUnterzeile.png", 
         "company": "DKRZ", 
         "href": "https://www.dkrz.de/dkrz-partner-for-climate-research?set_language=en&cl=en", 
         "class": "Bronze", 
@@ -1229,7 +1236,28 @@
         "year": 2018
     },
     {
-        "src": "/attachments/supporters/2018/IVU_Logo_2017.jpg", 
+        "src": "/attachments/supporters/2018/TACC.png", 
+        "company": "TACC", 
+        "href": "https://www.tacc.utexas.edu", 
+        "class": "Bronze", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/Adobe.png", 
+        "company": "Adobe", 
+        "href": "https://www.adobe.com/", 
+        "class": "Bronze", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/Siemens.png", 
+        "company": "Siemens", 
+        "href": "https://www.siemens.com/corporate-technology", 
+        "class": "Bronze", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/IVU_Logo_2017.png", 
         "company": "IVU", 
         "href": "https://www.ivu.com", 
         "class": "Startup / Small Company", 
@@ -1320,14 +1348,14 @@
         "year": 2018
     },
     {
-        "src": "/attachments/supporters/2018/OVGU_SIGN_web_Farbig.jpg", 
+        "src": "/attachments/supporters/2018/OVGU_SIGN_web_Farbig.png", 
         "company": "OvGU", 
         "href": "http://www.ovgu.de/en/",
         "class": "Non-Profit / Publisher /      Academic / Other", 
         "year": 2018
     },
      {
-        "src": "/attachments/supporters/2018/Parsons_Logo3_Large_RGB.jpg", 
+        "src": "/attachments/supporters/2018/Parsons_Logo3_Large_RGB.png", 
         "company": "Parsons", 
         "href": "https://www.newschool.edu/parsons/",
         "class": "Non-Profit / Publisher /      Academic / Other", 
@@ -1337,6 +1365,34 @@
         "src": "/attachments/supporters/2018/Maryland.png", 
         "company": "University of Maryland", 
         "href": "https://www.umd.edu/",
+        "class": "Non-Profit / Publisher /      Academic / Other", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/CRC.png", 
+        "company": "CRC Press", 
+        "href": "https://www.crcpress.com/",
+        "class": "Non-Profit / Publisher /      Academic / Other", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/Morgan.png", 
+        "company": "Morgan Claypool", 
+        "href": "https://www.morganclaypool.com/",
+        "class": "Non-Profit / Publisher /      Academic / Other", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/Springer_Nature.png", 
+        "company": "Springer Nature", 
+        "href": "https://www.springernature.com/de/",
+        "class": "Non-Profit / Publisher /      Academic / Other", 
+        "year": 2018
+    },
+     {
+        "src": "/attachments/supporters/2018/EnsAD_logo.png", 
+        "company": "Ensad", 
+        "href": "https://www.ensad.fr/",
         "class": "Non-Profit / Publisher /      Academic / Other", 
         "year": 2018
     },
