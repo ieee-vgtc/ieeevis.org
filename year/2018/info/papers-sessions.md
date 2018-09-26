@@ -859,7 +859,7 @@ Authors: Duong Hoang, Pavol Klacansky, Harsh Bhatia, Peer-Timo Bremer, Peter Lin
 **02:20pm-04:00pm**  
 **Estrel Hall C**  
 **SciVis Short Papers: Visual Abstractions, Perceptual Study and Immersive Visualization**  
-*Session Chair: TBA*
+*Session Chair: Joao Comba*
 
 **An Organic Visual Metaphor for Public Understanding of Conditional Co-occurrences**
 <br>
@@ -983,7 +983,7 @@ Authors: Allan Rocha, Julio Daniel Silva, Usman R. Alim, Sheelagh Carpendale, Ma
 **04:20pm-06:00pm**  
 **Estrel Hall C**  
 **SciVis Short Papers: Flow, Astrophysics, and Computationally Intensive Data Visualization**  
-*Session Chair: TBA*
+*Session Chair: Joshua Levine*
 
 **Cluster-Based Visualization for Merger Tree Data: The Challenge of Missing Expectations**
 <br>
