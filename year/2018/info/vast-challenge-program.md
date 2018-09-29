@@ -11,6 +11,7 @@ Sunday, October 21, 2018
 <br />Agenda: TBA
 <br />Contact:
 [vast-challenge@ieeevis.org](mailto:vast-challenge@ieeevis.org)
+<br />Workshop agenda at [http://vacommunity.org/VAST+Challenge+2018+Workshop+Agenda](http://vacommunity.org/VAST+Challenge+2018+Workshop+Agenda)
 
 ## Papers
  
