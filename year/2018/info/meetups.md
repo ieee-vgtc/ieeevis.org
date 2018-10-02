@@ -6,14 +6,12 @@ contact: "meetups@ieeevis.org"
 ---
 
 * [VIS Newcomers](#vis-newcomers) (Sunday)
-* [Sino-German Visualization Workshop] (#sino-german) (Sunday)
 * [VISKids Hello](#vis-kids) (Monday)
 * [VISParents](#vis-parents) (Tuesday)
 * [VisLies!](#vislies) (Tuesday)
 * [Follow-up meetup to the panel 'Succeeding by Failing: The Iceberg in VIS Careers'](#careers) (Tuesday)
 * [Junior Faculty, Researchers, and Practitioners Happy Hour](#junior-faculty) (Tuesday)
 * [Inviwo](#inviwo) (Wednesday)
-* [VisRocks](#visrocks) (Wednesday)
 * [Building an Inclusive VIS Community](#inclusion) (Thursday)
 * [VIS Job-fair](#vis-jobfair) (Thursday)
 * [Visualization Meets Vision Science](#vision-science) (Thursday)
@@ -36,19 +34,6 @@ Attending VIS for the first time can be overwhelming, especially if you don’t 
 NOTE: Lunch is not prepaid, each meetup attendee pays for their own lunch. 
 
 For more activities outside of the Newcomers Meetup, or if you are unable to attend the meetup, please see Vis Buddies, a [Community](http://ieeevis.org/year/2017/info/call-participation/community) program bringing together groups of new and old VIS attendees for additional activities outside of this meetup.
-
-| |
-
-## <a name="sino-german"></a> Sino-German  Visualization Workshop 
-
-Sunday, OCTOBER 21  
-2:00PM - 6:00PM
-Location: Lyon
-
-Organizers: Yunhai Wang, Oliver Deussen    
-Contact: [cloudseawang@gmail.com](mailto:cloudseawang@gmail.com), [oliver.deussen@uni-konstanz.de](mailto:oliver.deussen@uni-konstanz.de) 
-
-The China-German Meetup on Visualization aims at bringing together German and Chinese Researchers in the field of visualization. We want to strengthen existing collaborations and projects as well as foster new research ideas. The workshop will be a venue to present posters and discuss research with high-level professors of the field. 
 
 
 | |
@@ -141,22 +126,6 @@ During the meetup users and developers of the Inviwo visualization framework (ww
 
 | |
 
-## <a name="visrocks"></a> VisRocks!
-
-Wednesday, October 24
-5:20PM - 6:20PM
-Location: Room 30310
-
-Organizers: Michael Sedlmair, Jean-Daniel Fekete    
-Contact: [Michael.Sedlmair@visus.uni-stuttgart.de](mailto:Michael.Sedlmair@visus.uni-stuttgart.de), [Jean-Daniel.Fekete@inria.fr](mailto:Jean-Daniel.Fekete@inria.fr)   
-
-Many VIS researchers are playing music. Since the parties at VIS are fun and attract many participants and their friends to the conference, as of 2019 we are planning to add another style of party where VIS researchers will entertain their colleagues by playing some music, and thus add to the fun. We expect that VisRocks will allow all generations of VIS musicians to play together and facilitate connections in a relaxed atmosphere.
-
-We invite everybody to the meetup who reflects with this idea. E.g., you might be an individual musician who would potentially like to play at such an event, you might already have a (partial) band of VIS folks, or you are not playing music yourself but would like to get involved in organizing VisRocks. Our current idea of VisRocks is to solicit a diverse set of musical styles, such as novel musical pieces, covers of existing pieces, or covers with transformed lyrics. But nothing is set in stone yet and we would love to discuss with you on how to go forward. 
-
-
-
-| |
 ## <a name="inclusion"></a> Building an Inclusive VIS Community
 
 Thursday, October 25
