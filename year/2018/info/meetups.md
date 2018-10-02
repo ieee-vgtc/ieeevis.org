@@ -6,14 +6,17 @@ contact: "meetups@ieeevis.org"
 ---
 
 * [VIS Newcomers](#vis-newcomers) (Sunday)
+* [Sino-German Visualization Workshop](#sino-german) (Sunday)
 * [VISKids Hello](#vis-kids) (Monday)
 * [VISParents](#vis-parents) (Tuesday)
 * [VisLies!](#vislies) (Tuesday)
 * [Follow-up meetup to the panel 'Succeeding by Failing: The Iceberg in VIS Careers'](#careers) (Tuesday)
 * [Junior Faculty, Researchers, and Practitioners Happy Hour](#junior-faculty) (Tuesday)
 * [Inviwo](#inviwo) (Wednesday)
+* [VisRocks](#visrocks) (Wednesday)
 * [Building an Inclusive VIS Community](#inclusion) (Thursday)
 * [VIS Job-fair](#vis-jobfair) (Thursday)
+* [VISAP Workshop](#visap) (Thursday)
 * [Visualization Meets Vision Science](#vision-science) (Thursday)
 * [Velo Club de Vis](#velo-club) (Thursday)
 * [Broadening Intellectual Diversity of Visualization Research Papers](#diversity) (Thursday)
@@ -23,7 +26,7 @@ contact: "meetups@ieeevis.org"
 ## <a name="vis-newcomers"></a> VIS Newcomers 
 
 Sunday, OCTOBER 21  
-12:50PM - 1:20PM
+12:50PM - 1:20PM  
 Location: Estrel Room II
 
 Organizers: Anastasia Bezerianos, Jonathan Woodring and Weiwei Cui    
@@ -35,13 +38,25 @@ NOTE: Lunch is not prepaid, each meetup attendee pays for their own lunch.
 
 For more activities outside of the Newcomers Meetup, or if you are unable to attend the meetup, please see Vis Buddies, a [Community](http://ieeevis.org/year/2017/info/call-participation/community) program bringing together groups of new and old VIS attendees for additional activities outside of this meetup.
 
+| |
+
+## <a name="sino-german"></a> Sino-German  Visualization Workshop 
+
+Sunday, OCTOBER 21  
+2:00PM - 6:00PM   
+Location: Lyon
+
+Organizers: Yunhai Wang, Oliver Deussen    
+Contact: [cloudseawang@gmail.com](mailto:cloudseawang@gmail.com), [oliver.deussen@uni-konstanz.de](mailto:oliver.deussen@uni-konstanz.de) 
+
+The China-German Meetup on Visualization aims at bringing together German and Chinese Researchers in the field of visualization. We want to strengthen existing collaborations and projects as well as foster new research ideas. The workshop will be a venue to present posters and discuss research with high-level professors of the field. 
 
 | |
 
 ## <a name="vis-kids"></a> VISKids Hello 
 
-Monday, October 22
-4:00PM - 4:30PM
+Monday, October 22  
+4:00PM - 4:30PM   
 Location:  Room 30212
 
 Organizers: Michelle A. Borkin, R. Jordan Crouser, and Kelly Gaither    
@@ -53,11 +68,10 @@ VISKids has provided child care grants to VIS conference attendees since 2015.  
 
 | |
 
-
 ## <a name="vis-parents"></a> VISParents
 
-Tuesday, October 23
-12:30pm - 2:00pm
+Tuesday, October 23 
+12:30pm - 2:00pm    
 Location: Room 30312
 
 Organizers: Michelle A. Borkin and Tino Weinkauf   
@@ -65,13 +79,12 @@ Contact: [m.borkin@northeastern.edu](mailto:m.borkin@northeastern.edu)
 
 Whether you are a new parent, expectant parent, experienced wise parent, or considering some day to be a parent, come attend the first VISParents meet-up to discuss work-life balance topics at VIS.  In this open roundtable conversation topics will include work-life balance in general, going into academia versus industry, balancing time with your VISKid, going on paternity leave, being a VISParent while completing your dissertation as a student, and being a VISParent while trying to achieve tenure as a professor.  Please come share your wisdom and experiences in this open supportive VIS environment.  VISKids are also welcome to attend.
 
-
 | |
 
 ## <a name="vislies"></a> VisLies!
 
-Tuesday, October 23
-12:30PM - 2:00PM
+Tuesday, October 23 
+12:30PM - 2:00PM    
 Location: Room 30310
 
 
@@ -86,8 +99,8 @@ Make VisLies more fun for yourself and everyone else by sharing your favorite (o
 
 ## <a name="careers"></a> Follow-up meetup to the panel 'Succeeding by Failing: The Iceberg in VIS Careers'
 
-Tuesday, October 23
-4:20PM - 6:00PM
+Tuesday, October 23 
+4:20PM - 6:00PM   
 Location: Room 30312
 
 Organizers:  Luana Micallef and Tatiana von Landesberger  
@@ -99,8 +112,8 @@ We will continue discussing the challenges we encounter in VIS careers and ways 
 
 ## <a name="junior-faculty"></a> Junior Faculty, Researchers, and Practitioners Happy Hour
 
-Tuesday, October 23
-6:00PM - 8:00PM
+Tuesday, October 23 
+6:00PM - 8:00PM   
 Location: Estrel Hall A
 
 Organizers: Kristi Potter and Remco Chang   
@@ -114,8 +127,8 @@ The goal of this meetup is to provide a safe environment for junior Vis research
 
 ## <a name="inviwo"></a> Inviwo
 
-Wednesday, October 24
-2:30PM - 4:00PM
+Wednesday, October 24 
+2:30PM - 4:00PM   
 Location: Room 30310
 
 Organizers: Timo Ropinski    
@@ -126,10 +139,25 @@ During the meetup users and developers of the Inviwo visualization framework (ww
 
 | |
 
+## <a name="visrocks"></a> VisRocks!
+
+Wednesday, October 24 
+5:20PM - 6:20PM   
+Location: Room 30310
+
+Organizers: Michael Sedlmair, Jean-Daniel Fekete    
+Contact: [Michael.Sedlmair@visus.uni-stuttgart.de](mailto:Michael.Sedlmair@visus.uni-stuttgart.de), [Jean-Daniel.Fekete@inria.fr](mailto:Jean-Daniel.Fekete@inria.fr)   
+
+Many VIS researchers are playing music. Since the parties at VIS are fun and attract many participants and their friends to the conference, as of 2019 we are planning to add another style of party where VIS researchers will entertain their colleagues by playing some music, and thus add to the fun. We expect that VisRocks will allow all generations of VIS musicians to play together and facilitate connections in a relaxed atmosphere.
+
+We invite everybody to the meetup who reflects with this idea. E.g., you might be an individual musician who would potentially like to play at such an event, you might already have a (partial) band of VIS folks, or you are not playing music yourself but would like to get involved in organizing VisRocks. Our current idea of VisRocks is to solicit a diverse set of musical styles, such as novel musical pieces, covers of existing pieces, or covers with transformed lyrics. But nothing is set in stone yet and we would love to discuss with you on how to go forward. 
+
+| |
+
 ## <a name="inclusion"></a> Building an Inclusive VIS Community
 
-Thursday, October 25
-10:40AM - 11:40AM
+Thursday, October 25  
+10:40AM - 11:40AM   
 Location: Room 30310
 
 Organizers: Michelle Borkin, Kelly Gaither, R. Jordan Crouser, and Meg Pirrung    
@@ -137,28 +165,39 @@ Contact: [m.borkin@northeastern.edu](mailto:m.borkin@northeastern.edu)
 
 Diversity of perspective is the key to innovation, but ensuring equal access requires concrete action. To this end, the members of the IEEE VIS 2018 Inclusivity & Diversity Committee invite you to this community forum to connect, share your experiences, and explore what it means to build an inclusive VIS community. (To learn more about Inclusivity & Diversity at VIS and its current initiatives, please visit: [http://ieeevis.org/year/2018/info/inclusion-and-diversity/inclusivity](http://ieeevis.org/year/2018/info/inclusion-and-diversity/inclusivity))
 
-
-
-
 | |
 
 ## <a name="vis-jobfair"></a> VIS Job-fair meetup
 
-Thursday, October 25
-4:10 PM - 6:00 PM
+Thursday, October 25  
+4:10PM - 6:00PM   
 Location: Estrel Room IV
-
 
 Organizers: Anastasia Bezerianos, Jonathan Woodring and Weiwei Cui    
 Contact: community@ieeevis.org	
 
 As a complement to the <b>Asynchronous Job Fair</b>, we are organizing a job “speed-dating” meetup. Its goal is to bring together job seekers and employers in one venue to trade CV and employment information. Both job seekers and employers should attend with the expectation to be prepared with "low-tech" information, such as paper and flyers to exchange. If you are an interested job seeker, please bring your contact information to share, such as printed CVs, email addresses on notecards or business cards, for example. Likewise for employers, please be prepared with business cards, brochure, and other paper-based information.
+
+| |
+
+## <a name="visap"></a> VISAP Workshop 
+
+Thursday, October 25  
+4:20PM - 6:00PM   
+Location: Room 30310
+
+Organizers: Till Nagel, Jeremy Boy
+Contact: Till Nagel (t.nagel@hs-mannheim.de), Jeremy Boy <myjyby@gmail.com>
+
+
+A hands-on workshop around this year’s theme of data and identity, an exceptional follow up to last year’s successful Dear Data workshop.
+
 | |
 
 ## <a name="vision-science"></a> Visualization Meets Vision Science
 
-Thursday, October 25
-6:00 PM - 7:00 PM
+Thursday, October 25  
+6:00PM - 7:00PM   
 Location: Conv 1, Sec D
 
 Organizers: Madison Elliott, Zoya Bylinskii, Christine Nothelfer, Cindy Xiong and Danielle Albers Szafir    
@@ -168,10 +207,9 @@ Vision science provides both an empirical basis for techniques and design practi
 
 | |
 
-
 ## <a name="velo-club"></a> Velo Club de Vis
 
-Thursday, October 25
+Thursday, October 25  
 6:15 PM - 7:00 PM
 Location: Estrel Hall C
 
@@ -183,13 +221,12 @@ A chance for VIS cyclists to discuss cycling and to prepare and sign in for Le T
 
 More information on this year VIS bike ride to come, stay tuned!
 
-
 | |
 
 ## <a name="diversity"></a> Broadening Intellectual Diversity of Visualization Research Papers
 
-Thursday, October 25
-6:00 PM - 7:00 PM
+Thursday, October 25  
+6:00PM - 7:00PM   
 Location: Estrel Room IV
 
 Organizers:  Bongshin Lee, Liz Marai, Danielle Albers Szafir, Kate Isaacs, Cagatay Turkay, and Sheelagh Carpendale    
@@ -201,13 +238,12 @@ In this meetup, we will discuss broader types of contributions with aims to prom
 To facilitate initial discussion, we will provide a set of research contribution types with example papers, along with a brief review of contribution types in other research communities. While this would not be exhaustive it would serve as a good starting point. 
 We will discuss the concrete next steps we can and should take to ensure a successful implantation and application of the research contribution types. We also plan to continue our discussion and communication with the meetup participants through a Slack channel.
 
-
 | |
 
 ## <a name="food"></a> Good Food Meets Good Science
 
-Thursday, October 25
-7:00 PM 
+Thursday, October 25  
+7:00PM   
 Location: Room 30310
 
 Organizers: Daniel Archambault, Andreas Kerren    
