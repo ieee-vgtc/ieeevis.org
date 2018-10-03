@@ -5,12 +5,15 @@ permalink: /year/2018/info/future-locations
 ---
 
 ## VIS 2019  
-**October 20-25, 2019, Vancouver (Canada)**<br>
+**October 20-25, 2019, Vancouver, BC, Canada**<br>
 *(Dates tentative, will be confirmed after venue contract signed.)*<br>
-General Chair: Brian Fisher, *Simon Fraser University*
+General Chair: Brian Fisher, *Simon Fraser University*<br>
+Brian Fisher, *Simon Fraser University*<br>
+Alex Endert, *Georgia Institute of Technology*<br>
+Wesley Willett, *University of Calgary*
 
 ## VIS 2020  
-**October 2020, Salt Lake City Utah**<br>
+**October 2020, Salt Lake City, Utah**<br>
 *(Tentative, will be confirmed after venue contract signed.)*<br>
 General Chairs: Mike Kirby and Valerio Pascucci, *University of Utah*
 
