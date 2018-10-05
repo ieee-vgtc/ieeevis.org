@@ -6,7 +6,7 @@ contact: "web@ieeevis.org"
 ---
 
 * [Holger Theisel](#holger-theisel)
-* [Petra Specht(#petra-specht)
+* [Petra Specht](#petra-specht)
 * [Tim Gerrits](#tim-gerrits)
 
 ##Berlin - personal recommendations
