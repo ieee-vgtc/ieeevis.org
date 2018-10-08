@@ -9,7 +9,7 @@ contact: "web@ieeevis.org"
 * [Petra Specht](#petra-specht)
 * [Tim Gerrits](#tim-gerrits)
 
-##Berlin - personal recommendations
+## Berlin - personal recommendations
 
 Berlin is full of extraordinary places. Collecting all of them is simply
 impossible. Some of the VIS 2018 organizers either live in Berlin or
@@ -17,7 +17,7 @@ visit the town regularly. They have their own personal favourite spots
 in Berlin. On this web site, they share them with the VIS community.
 
 
-<a name='holger-theisel'></a>Holger Theisel (General Chair)
+<a name='holger-theisel'></a>Holger Theisel (General Chair)  
 Once in Berlin, I often visit the "Kulturbrauerei". Originally built as
 a huge brewery in the 19th century, it is nowadays a cultural center
 including several concert halls, theatres, cinemas, clubs and bars. I
@@ -27,7 +27,7 @@ here in recent years.
 
 
 
-<a name='petra-specht)'></a>Petra Specht (Coordinating Chair)
+<a name='petra-specht)'></a>Petra Specht (Coordinating Chair)  
 One of my favorite places in Berlin is the Museum Berggruen. There you
 can find works of Pablo Picasso, Paul Klee, Henri Matisse and Alberto
 Giacometti from the private collection of Heinz Berggruen.  I like the
@@ -37,7 +37,7 @@ is very interesting and touching.
 
 
 
-<a name='tim-gerrits'></a>Tim Gerits (Student Volunteers Chair)
+<a name='tim-gerrits'></a>Tim Gerits (Student Volunteers Chair)  
 Things to do:
 1. If the weather is nice, a boat trip on the spree is nice to see a lot
 of the city. Maybe start at the beautiful Schloss Charlottenburg and
