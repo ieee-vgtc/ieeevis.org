@@ -16,7 +16,7 @@ contact: "meetups@ieeevis.org"
 * [VisRocks](#visrocks) (Wednesday)
 * [Building an Inclusive VIS Community](#inclusion) (Thursday)
 * [VIS Job-fair](#vis-jobfair) (Thursday)
-* [VISAP Workshop](#visap) (Thursday)
+* [VISAP’18 workshop: Data visualizations with a strong identity](#visap) (Thursday)
 * [Visualization Meets Vision Science](#vision-science) (Thursday)
 * [Velo Club de Vis](#velo-club) (Thursday)
 * [Broadening Intellectual Diversity of Visualization Research Papers](#diversity) (Thursday)
@@ -180,17 +180,18 @@ As a complement to the <b>Asynchronous Job Fair</b>, we are organizing a job “
 
 | |
 
-## <a name="visap"></a> VISAP Workshop 
+## <a name="visap"></a> VISAP’18 workshop: Data visualizations with a strong identity 
 
 Thursday, October 25  
 4:20PM - 6:00PM   
 Location: Room 30310
 
-Organizers: Till Nagel, Jeremy Boy
-Contact: Till Nagel (t.nagel@hs-mannheim.de), Jeremy Boy <myjyby@gmail.com>
+Organizers: Caroline Goulard, Ludovic Riffault
+Contact: [contact@dataveyes.com](mailto:contact@dataveyes.com)
 
+Whatever your dataset is about, visual metaphors are a great help to build visualizations of data that embody the subject. The purpose of this workshop is to show to participants the power of visual forms, but also their complexity. Indeed, for a single representation, users can associate different connotations, which totally change the identity of the project. Same thing for a pattern, that can be read in various ways (as in the Rorschach test). Together with the participants we will have a playful workshop, figuring out the associations of spontaneous ideas caused by visualizations, and the possibilities to render a particular subject based on real data.
+[http://visap.net/workshop](http://visap.net/workshop)
 
-A hands-on workshop around this year’s theme of data and identity, an exceptional follow up to last year’s successful Dear Data workshop.
 
 | |
 
