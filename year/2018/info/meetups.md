@@ -186,7 +186,7 @@ Thursday, October 25
 4:20PM - 6:00PM   
 Location: Room 30310
 
-Organizers: Caroline Goulard, Ludovic Riffault
+Organizers: Caroline Goulard, Ludovic Riffault    
 Contact: [contact@dataveyes.com](mailto:contact@dataveyes.com)
 
 Whatever your dataset is about, visual metaphors are a great help to build visualizations of data that embody the subject. The purpose of this workshop is to show to participants the power of visual forms, but also their complexity. Indeed, for a single representation, users can associate different connotations, which totally change the identity of the project. Same thing for a pattern, that can be read in various ways (as in the Rorschach test). Together with the participants we will have a playful workshop, figuring out the associations of spontaneous ideas caused by visualizations, and the possibilities to render a particular subject based on real data.
