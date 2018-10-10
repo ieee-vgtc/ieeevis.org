@@ -5,12 +5,6 @@ permalink: /year/2018/info/registration/personal-recommendations
 contact: "web@ieeevis.org"
 ---
 
-* [Holger Theisel](#holger-theisel)
-* [Petra Specht](#petra-specht)
-* [Tim Gerrits](#tim-gerrits)
-
-## Berlin - personal recommendations
-
 Berlin is full of extraordinary places. Collecting all of them is simply
 impossible. Some of the VIS 2018 organizers either live in Berlin or
 visit the town regularly. They have their own personal favourite spots
