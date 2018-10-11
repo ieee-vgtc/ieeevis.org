@@ -5,7 +5,7 @@ title: Instructions for editing the website
 
 <style type="text/css">
 .instructions-img {
-  width: 620px;
+   width: 620px;
 }
 </style>
 
