@@ -61,7 +61,7 @@ Authors: Nicole Sultanum, Devin Singh, Michael Brudno, Fanny Chevalier
  <br/> 
 Authors: Junpeng Wang, Liang Gou, Han-Wei Shen, Hao Yang
 
-**Drag and Track:  A Direct Manipulation Interface for Contextualizing Data Instances within a Continuous Parameter Space**
+**Drag and Track:  A Direct Manipulation Interface for Contextualizing Data Instances within a Continuous Parameter Space**
  <br/> 
 Authors: Daniel Orban, Daniel Keefe, Ayan Biswas, James Ahrens, David Rogers
 
@@ -838,7 +838,6 @@ Authors: Malik Olivier Boussejra, Kazuya Matsubayashi, Yuriko Takeshima, Shunya 
 **Biclusters based Visual Exploration of Multivariate Scientific Data**
 <br/>
 Authors: Xiangyang He, Yubo Tao, Qirui Wang, Hai Lin
-
 
 
 
