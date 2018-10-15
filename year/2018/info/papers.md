@@ -131,7 +131,7 @@ Authors: Juri Buchmuller, Dominik Jackle, Eren Cakmak, Ulrik Brandes, Daniel Kei
 
 **RegressionExplorer: Interactive Exploration of Logistic Regression Models with Subgroup Analysis**
  <br/> 
-Authors: Jarke van Wijk, Marcel van 't Veer, Patrick Houthuizen, Eveline H. J. Mestrom, Erik H.H.M. Korsten, Arthur R.A. Bouwman
+Authors: Dennis Dingen, Marcel van 't Veer, Patrick Houthuizen, Eveline H. J. Mestrom, Erik H.H.M. Korsten, Arthur R.A. Bouwman, Jarke van Wijk
 
 **RetainVis: Visual Analytics with Interpretable and Interactive Recurrent Neural Network on Electronic Medical Records**
  <br/> 
