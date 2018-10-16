@@ -4,11 +4,6 @@ layout: main-2018
 permalink: /year/2018/info/posters
 ---
 
----
-title: Posters
-layout: main-2018
-permalink: /year/2018/info/posters
----
 
 **Health Visualizations at Home: Who Sees What Where**, Bon Adriel Aseniero, Anthony Tang, Sheelagh Carpendale
 
