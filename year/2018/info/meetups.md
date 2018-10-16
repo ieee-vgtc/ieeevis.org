@@ -245,7 +245,7 @@ We will discuss the concrete next steps we can and should take to ensure a succe
 
 Thursday, October 25  
 7:00PM   
-Location: Room 30310
+Location: Restaurant "Zur Gerichtslaube", Poststraße 28, D-10178 Berlin
 
 Organizers: Daniel Archambault, Andreas Kerren    
 Contact: [d.w.archambault@swansea.ac.uk](mailto:d.w.archambault@swansea.ac.uk)
