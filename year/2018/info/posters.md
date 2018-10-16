@@ -4,6 +4,12 @@ layout: main-2018
 permalink: /year/2018/info/posters
 ---
 
+---
+title: Posters
+layout: main-2018
+permalink: /year/2018/info/posters
+---
+
 **Health Visualizations at Home: Who Sees What Where**, Bon Adriel Aseniero, Anthony Tang, Sheelagh Carpendale
 
 **A Multi-View Image-Based Volume Visualization Technique**, Salaheddin Alakkari, John Dingliana
@@ -22,7 +28,7 @@ permalink: /year/2018/info/posters
 
 **Refolding the Earth: Interactive Myriahedral Projection and Fabrication**, Nicolas Belmonte, Yang Wang
 
-**<span style="color:red">[Honorable Mention]</span> Integrated Visualization of Structure and Attribute Similarity of Multivariate Graphs**, Philip Berger, Mohammad Chegini, Heidrun Schumann, Christian Tominski
+**<span style="color:firebrick">[Honorable Mention]</span> Integrated Visualization of Structure and Attribute Similarity of Multivariate Graphs**, Philip Berger, Mohammad Chegini, Heidrun Schumann, Christian Tominski
 
 **Mure.js: Toward Flexible Authoring and Reshaping of Networks**, Alex Bigelow, Carolina Nobre, Alexander Lex, Miriah Meyer
 
@@ -98,15 +104,15 @@ permalink: /year/2018/info/posters
 
 **Towards Visual Data Exploration at Wall-Sized Displays by Combining Physical Navigation with Spatially-Aware Devices**, Ricardo Langner, Raimund Dachselt
 
-**<span style="color:red">[Honorable Mention]</span> A Scale-Space Filtering Approach for the Multi-Resolution Illustrative Visualization of Multivariate Data**, Jenny Hyunjung Lee, Klaus Mueller
+**<span style="color:firebrick">[Honorable Mention]</span> A Scale-Space Filtering Approach for the Multi-Resolution Illustrative Visualization of Multivariate Data**, Jenny Hyunjung Lee, Klaus Mueller
 
-**<span style="color:red">[Best Poster]</span> Conveying Uncertainty in Archived War Diaries with GeoBlobs**, Johannes Liem, Eirini Goudarouli, Steven Hirschorn, Jo Wood, Charles Perin
+**<span style="color:firebrick">[Best Poster]</span> Conveying Uncertainty in Archived War Diaries with GeoBlobs**, Johannes Liem, Eirini Goudarouli, Steven Hirschorn, Jo Wood, Charles Perin
 
 **Visualizing Attention in Sequence-to-Sequence Summarization Models**, Halden Lin, Tongshuang Wu, Kanit Wongsuphasawat, Yejin Choi, Jeffrey Heer
 
 **Visualizing Dynamic Networks of Long Sequences with Pixel Matrix Array**, Lijing Lin, Liwenhan Xie, Zhuo Zhang, Xiaoru Yuan
 
-**<span style="color:red">[Honorable Mention]</span> Visualizing Time in Temporal Event Sequences**, Jessica Magallanes-Castaneda, Lindsey van Gemeren, Steven Wood, Maria-Cruz Villa-Uriol
+**<span style="color:firebrick">[Honorable Mention]</span> Visualizing Time in Temporal Event Sequences**, Jessica Magallanes-Castaneda, Lindsey van Gemeren, Steven Wood, Maria-Cruz Villa-Uriol
 
 **Perceptually Optimized Color Selection for Visualization**, Subhrajyoti Maji, John Dingliana
 
@@ -120,9 +126,9 @@ permalink: /year/2018/info/posters
 
 **Bonus Miracle Tool: Visual Exploration of Nutrients across the Baltic Sea Region**, Carlo Navarra, Tina Neset, Juile Wilk, Alena Bartosova, René Capell
 
-**<span style="color:red">[Best Poster]</span> Developing Virtual Reality Visualizations of Dinosaur Track Creation with Scientific Sketching**, Johannes Novotny, Joshua Tveite, Morgan L. Turner, Stephen Gatesy, Fritz Drury, Peter Falkingham, David H. Laidlaw
+**<span style="color:firebrick">[Best Poster]</span> Developing Virtual Reality Visualizations of Dinosaur Track Creation with Scientific Sketching**, Johannes Novotny, Joshua Tveite, Morgan L. Turner, Stephen Gatesy, Fritz Drury, Peter Falkingham, David H. Laidlaw
 
-**<span style="color:red">[Best Poster]</span> CerebroVis: Topology- and Constraint-based Network Layout for the Visualization of Cerebrovascular Arteries**, Aditeya Pandey, Harsh Shukla, Geoffrey S. Young, Lei Qin, Cody Dunne, Michelle A. Borkin
+**<span style="color:firebrick">[Best Poster]</span> CerebroVis: Topology- and Constraint-based Network Layout for the Visualization of Cerebrovascular Arteries**, Aditeya Pandey, Harsh Shukla, Geoffrey S. Young, Lei Qin, Cody Dunne, Michelle A. Borkin
 
 **GitHub Viz: An Interactive Visualization to Acquire Knowledge from Authoritative Developers**, Chanhee Park, Sungjun Do, Eunjeong Lee, Hanna Jang, Sungchan Jeong, Hyunwoo Han, Kyungwon Lee
 
@@ -148,7 +154,7 @@ permalink: /year/2018/info/posters
 
 **Towards a Visual Analytics Pipeline for the Analysis of Recurring Patterns in Time Series Data**, Florian Spechtenhauser, Rastislav Hronsky, Torsten Möller, Harald Piringer
 
-**<span style="color:red">[Best Poster]</span> Urban DataSphere: Exploring Immersive Multiview Visualizations in Cities**, Maxim Spur, Vincent Tourre
+**<span style="color:firebrick">[Best Poster]</span> Urban DataSphere: Exploring Immersive Multiview Visualizations in Cities**, Maxim Spur, Vincent Tourre
 
 **Visual Analysis of Abnormal Thickness of Intraretinal Layers**, Jörg Stüwe, Martin Röhlig, Heidrun Schumann, Ruby Kala Prakasam, Oliver Stachs
 
@@ -162,13 +168,11 @@ permalink: /year/2018/info/posters
 
 **Subspace Shapes: Enhancing High-Dimensional Subspace Structures via Ambient Occlusion Shading**, Bing Wang, Klaus Mueller
 
-**<span style="color:red">[Honorable Mention]</span> Data Embroidery: Exploring Alternative Mediums for Personal Physicalization**, Kendra Wannamaker, Lora Oehlberg, Sheelagh Carpendale, Wesley Willett
+**<span style="color:firebrick">[Honorable Mention]</span> Data Embroidery: Exploring Alternative Mediums for Personal Physicalization**, Kendra Wannamaker, Lora Oehlberg, Sheelagh Carpendale, Wesley Willett
 
-**<span style="color:red">[Honorable Mention]</span> Evaluation of Guide Wire Proficiency During a Catheter-based Intervention**, Johannes Waschke, Katja Isabel Paul, Peter Lanzer, Mario Hlawitschka
+**<span style="color:firebrick">[Honorable Mention]</span> Evaluation of Guide Wire Proficiency During a Catheter-based Intervention**, Johannes Waschke, Katja Isabel Paul, Peter Lanzer, Mario Hlawitschka
 
 **Manual and Automatic Tree Editing with Applications to Microbiome Time-series Data**, Zehua Zeng, Niklas Elmqvist, Catherine Plaisant
 
 **Increasing Understanding of Survey Re-Weighting with Visualization**, Yufei Zhang, David Borland, David Gotz
-
-
 
