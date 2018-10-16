@@ -14,7 +14,9 @@ permalink: /year/2018/info/posters
 
 **Effects of Declinism and Distinction Biases on Data Visualization**  , Hasan Alp Boz, Rafiye Kececi, Yasemin Yasaroglu, Selim Balcisoy 
 
-**An Interactive Tool for Feature Analysis of Outliers in Multi-Dimensional Data**  , Kentaro Asai, Tsukasa Fukusato, Takeo Igarashiulti-Dimensional Projections Explorer: Searching through Techniques, Quality Measures, Analytic asks, and Layout Enrichments, Michaël Aupetit, Mosammat Samiha Sadeka, Ali Sajjad, Luis Gustavo Nonato
+**An Interactive Tool for Feature Analysis of Outliers in Multi-Dimensional Data**  , Kentaro Asai, Tsukasa Fukusato, Takeo Igarashi 
+
+**Multi-Dimensional Projections Explorer: Searching through Techniques**  , Quality Measures, Analytic asks, and Layout Enrichments, Michaël Aupetit, Mosammat Samiha Sadeka, Ali Sajjad, Luis Gustavo Nonato
 
 **Zooming on Tokens: Seamless Display Modes for Annotation Analysis**  , Martin Baumann, Steffen Koch, Harutyun Minasyan, Thomas Ertl
 
@@ -167,4 +169,5 @@ permalink: /year/2018/info/posters
 **Manual and Automatic Tree Editing with Applications to Microbiome Time-series Data**  , Zehua Zeng, Niklas Elmqvist, Catherine Plaisant
 
 **Increasing Understanding of Survey Re-Weighting with Visualization**  , Yufei Zhang, David Borland, David Gotz
+
 
