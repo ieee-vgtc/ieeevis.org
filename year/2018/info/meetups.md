@@ -245,10 +245,12 @@ We will discuss the concrete next steps we can and should take to ensure a succe
 
 Thursday, October 25  
 7:00PM   
-Location: Room 30310
+Location: Restaurant "Zur Gerichtslaube", Poststraße 28, D-10178 Berlin
 
 Organizers: Daniel Archambault, Andreas Kerren    
 Contact: [d.w.archambault@swansea.ac.uk](mailto:d.w.archambault@swansea.ac.uk)
 
 Tired of bad food? Didn’t have something local when attending the conference and regretted it? Want the good scientific discussions to continue around a local specialty of the area?
-This meetup is designed to take participants to a restaurant serving good food that is a local specialty of the area. We aim for an accessible price so that anyone can attend.  People can sign up on a first come first served basis.  The audience should bring an interesting scientific topic to discuss at dinner. An appetite for local cuisine is also highly recommended.
+This meetup is designed to take participants to a restaurant serving good food that is a local specialty of the area. We aim for an accessible price so that anyone can attend.  People can sign up (see below) on a first come first served basis.  The audience should bring an interesting scientific topic to discuss at dinner. An appetite for local cuisine is also highly recommended.
+
+Please register [here!](https://docs.google.com/forms/d/e/1FAIpQLScJjiJBrOMIL_Wyy9BiMc5_0wmS4Mj2Zl7a8FkfXUlpSzl5JQ/viewform?usp=sf_link)

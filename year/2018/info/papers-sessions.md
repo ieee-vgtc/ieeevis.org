@@ -720,7 +720,7 @@ Authors: Changjian Chen, Shixia Liu, Yafeng Lu, Fangxin Ouyang, Bin Wang
 
 **RegressionExplorer: Interactive Exploration of Logistic Regression Models with Subgroup Analysis (J)**
 <br> 
-Authors: Jarke van Wijk, Marcel van 't Veer, Patrick Houthuizen, Eveline H. J. Mestrom, Erik H.H.M. Korsten, Arthur R.A. Bouwman
+Authors: Dennis Dingen, Marcel van 't Veer, Patrick Houthuizen, Eveline H. J. Mestrom, Erik H.H.M. Korsten, Arthur R.A. Bouwman, Jarke van Wijk
 <br>[Video Preview](https://vimeo.com/289787606)
 
 **Drag and Track:  A Direct Manipulation Interface for Contextualizing Data Instances within a Continuous Parameter Space (J)**
