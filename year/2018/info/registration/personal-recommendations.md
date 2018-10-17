@@ -31,7 +31,7 @@ is very interesting and touching.
 
 
 
-**Tim Gerits (Student Volunteers Chair)**  
+**Tim Gerrits (Student Volunteers Chair)**  
 Things to do:
 1. If the weather is nice, a boat trip on the spree is nice to see a lot
 of the city. Maybe start at the beautiful Schloss Charlottenburg and
