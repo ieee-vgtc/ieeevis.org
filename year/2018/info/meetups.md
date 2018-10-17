@@ -20,6 +20,7 @@ contact: "meetups@ieeevis.org"
 * [Visualization Meets Vision Science](#vision-science) (Thursday)
 * [Velo Club de Vis](#velo-club) (Thursday)
 * [Broadening Intellectual Diversity of Visualization Research Papers](#diversity) (Thursday)
+* [Women in Vis](#viswomen) (Thursday)
 * [Good Food Meets Good Science](#food) (Thursday)
 
 
@@ -70,7 +71,7 @@ VISKids has provided child care grants to VIS conference attendees since 2015.  
 
 ## <a name="vis-parents"></a> VISParents
 
-Tuesday, October 23 
+Tuesday, October 23   
 12:30pm - 2:00pm    
 Location: Room 30312
 
@@ -83,7 +84,7 @@ Whether you are a new parent, expectant parent, experienced wise parent, or cons
 
 ## <a name="vislies"></a> VisLies!
 
-Tuesday, October 23 
+Tuesday, October 23   
 12:30PM - 2:00PM    
 Location: Room 30310
 
@@ -99,7 +100,7 @@ Make VisLies more fun for yourself and everyone else by sharing your favorite (o
 
 ## <a name="careers"></a> Follow-up meetup to the panel 'Succeeding by Failing: The Iceberg in VIS Careers'
 
-Tuesday, October 23 
+Tuesday, October 23   
 4:20PM - 6:00PM   
 Location: Room 30312
 
@@ -112,7 +113,7 @@ We will continue discussing the challenges we encounter in VIS careers and ways 
 
 ## <a name="junior-faculty"></a> Junior Faculty, Researchers, and Practitioners Happy Hour
 
-Tuesday, October 23 
+Tuesday, October 23   
 6:00PM - 8:00PM   
 Location: Estrel Hall A
 
@@ -127,7 +128,7 @@ The goal of this meetup is to provide a safe environment for junior Vis research
 
 ## <a name="inviwo"></a> Inviwo
 
-Wednesday, October 24 
+Wednesday, October 24   
 2:30PM - 4:00PM   
 Location: Room 30310
 
@@ -141,7 +142,7 @@ During the meetup users and developers of the Inviwo visualization framework (ww
 
 ## <a name="visrocks"></a> VisRocks!
 
-Wednesday, October 24 
+Wednesday, October 24   
 5:20PM - 6:20PM   
 Location: Room 30310
 
@@ -156,7 +157,7 @@ We invite everybody to the meetup who reflects with this idea. E.g., you might b
 
 ## <a name="inclusion"></a> Building an Inclusive VIS Community
 
-Thursday, October 25  
+Thursday, October 25    
 10:40AM - 11:40AM   
 Location: Room 30310
 
@@ -211,7 +212,7 @@ Vision science provides both an empirical basis for techniques and design practi
 ## <a name="velo-club"></a> Velo Club de Vis
 
 Thursday, October 25  
-6:15 PM - 7:00 PM
+6:15 PM - 7:00 PM   
 Location: Estrel Hall C
 
 Organizers: Jason Dykes    
@@ -240,6 +241,25 @@ To facilitate initial discussion, we will provide a set of research contribution
 We will discuss the concrete next steps we can and should take to ensure a successful implantation and application of the research contribution types. We also plan to continue our discussion and communication with the meetup participants through a Slack channel.
 
 | |
+
+## <a name="viswomen"></a> Women in Vis
+
+Thursday, October 25  
+6:00PM - 7:00PM   
+Location: Room 30312
+
+Organizers:  Bei Wang     
+Contact: [wang.bei@gmail.com](mailto:wang.bei@gmail.com)  
+
+We would like to get to know women in vis in person; and more
+importantly, discussing a community effort to create a webpage that
+includes short descriptions of ALL women in vis, and a mailing list to serve as a place for information sharing,
+informal mentoring and community support. 
+
+
+
+| |
+
 
 ## <a name="food"></a> Good Food Meets Good Science
 
