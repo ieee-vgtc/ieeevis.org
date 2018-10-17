@@ -83,13 +83,13 @@ participating in the *AJF*. These will be located at the registration table.
 - *We strongly suggest carrying either a curriculum vitae (CV), resume, 
 business card, or note cards with links, such as LinkedIn or online CVs, to 
 help facilitate information exchange during VIS.* 
-- A [Job-Fair Meetup](/year/2018/info/call-participation/meetups) to be held tentatively
+- A [Job-Fair Meetup](/year/2018/info/meetups#vis-jobfair) to be held tentatively
 held on Thursday from 4 to 6 pm, after other job events. This is a "speed-dating" meetup for 
 both job seekers and employers to *quickly* identify people in the community that are looking 
 for jobs or new hires, exchange information, and potentially meet at a later date. Please 
 bring information for exchange, such as business cards, flyers, or CVs. VIS Supporters 
 will have the CVs of attendees that provide it during VIS registration.
-- CVs will be distributed to [Supporters](/year/2017/info/exhibition/supporters-and-exhibition) 
+- CVs will be distributed to [Supporters](/year/2018/info/exhibition/supporters-and-exhibition) 
 prior to VIS, to help make connections during VIS, by sharing your information and CVs with the 
 supporters. During online registration you will be able to upload your CV and
 interests. If you did not upload your CV during online registration, we will
@@ -111,10 +111,12 @@ your fellow VIS attendees, even if you are not actively seeking employment or
 staff!
 
 ### <a name="other-events"></a> Other community-building events in VIS that we are aware of (tell us of yours!)
+* Many excellent [Meetups](/year/2018/info/meetups) this year related to diversity in VIS, as well as career advice.
+* 
 
 ### Contact
 
-For more information contact IEEE VIS 2017 Community Chairs:
+For more information contact IEEE VIS 2018 Community Chairs:
 
 * Anastasia Bezerianos, Université Paris-Sud
 * Jonathan Woodring, Los Alamos National Laboratory
