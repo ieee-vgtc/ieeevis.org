@@ -11,3 +11,4 @@ permalink: /year/2018/info/committees/scivis-steering-committee
 | Han-Wei Shen	| *The Ohio State University*
 | Claudio T. Silva	| *New York University*
 | Deborah Silver	| *Rutgers University* 
+| Anders Ynnerman  | *Linköping University*
