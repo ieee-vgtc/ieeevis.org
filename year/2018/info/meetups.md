@@ -28,7 +28,7 @@ contact: "meetups@ieeevis.org"
 
 Sunday, OCTOBER 21  
 12:50PM - 1:20PM  
-Location: Estrel Room II
+Location: Estrel Room III
 
 Organizers: Anastasia Bezerianos, Jonathan Woodring and Weiwei Cui    
 Contact: [community@ieeevis.org](mailto:community@ieeevis.org)  
@@ -115,7 +115,7 @@ We will continue discussing the challenges we encounter in VIS careers and ways 
 
 Tuesday, October 23   
 6:00PM - 8:00PM   
-Location: Estrel Hall A
+Location: Estrel Hall A+B
 
 Organizers: Kristi Potter and Remco Chang   
 Contact: [kristi.potter@nrel.gov](mailto:kristi.potter@nrel.gov)   
