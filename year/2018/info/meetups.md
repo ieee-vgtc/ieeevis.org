@@ -245,7 +245,7 @@ We will discuss the concrete next steps we can and should take to ensure a succe
 ## <a name="viswomen"></a> Women in Vis
 
 Thursday, October 25  
-6:00PM - 7:00PM   
+6:00PM - 8:00PM   
 Location: Room 30312
 
 Organizers:  Bei Wang     
