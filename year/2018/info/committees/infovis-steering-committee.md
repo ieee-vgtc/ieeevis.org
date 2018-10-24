@@ -12,7 +12,9 @@ permalink: /year/2018/info/committees/infovis-steering-committee
 | Hanspeter Pfister	| *Harvard University*
 | Melanie Tory	| *Tableau Research*
 
-**[InfoVis Steering Committee Governance FAQ](/attachments/InfoVis_SC_Policies_FAQ.pdf)**
+* [InfoVis Steering Committee Governance FAQ](/attachments/InfoVis_SC_Policies_FAQ.pdf)
+
+* [InfoVis Steering Committee meeting minutes](/governance/infovis-steering-committee/minutes)
 
 **[InfoVis Steering Committee Minutes](/governance/infovis-steering-committee/minutes)**
 
