@@ -14,3 +14,5 @@ permalink: /year/2018/info/committees/infovis-steering-committee
 
 **[InfoVis Steering Committee Governance FAQ](/attachments/InfoVis_SC_Policies_FAQ.pdf)**
 
+**[InfoVis Steering Committee Minutes](/governance/infovis-steering-committee/minutes)**
+
