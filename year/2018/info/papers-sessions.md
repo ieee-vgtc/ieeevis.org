@@ -328,7 +328,7 @@ Authors: Shixia Liu, Xiting Wang, Christopher Collins, Wenwen Dou, Fangxin Ouyan
 
 **Doccurate: A Curation-Based Approach for Clinical Text Visualization (J)**
 <br> 
-Authors: Nicole Sultanum
+Authors: Nicole Sultanum, Devin Singh, Michael Brudno, Fanny Chevalier
 <br>[Video Preview](https://vimeo.com/289787431)
 
 **VIS Author Profiles: Interactive Descriptions of Publication Records Combining Text and Visualization (J)**
