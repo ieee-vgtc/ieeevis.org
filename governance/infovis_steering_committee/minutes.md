@@ -4,4 +4,5 @@ layout: main-2018
 permalink: /governance/infovis_steering_committee/minutes
 ---
 
-TBD.
+* [2018-09-14 Meeting Minutes](2018-09-14-infovis-sc-minutes.pdf)
+
