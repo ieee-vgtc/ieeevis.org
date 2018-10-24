@@ -16,5 +16,3 @@ permalink: /year/2018/info/committees/infovis-steering-committee
 
 * [InfoVis Steering Committee meeting minutes](/governance/infovis-steering-committee/minutes)
 
-**[InfoVis Steering Committee Minutes](/governance/infovis-steering-committee/minutes)**
-
