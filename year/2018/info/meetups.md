@@ -16,7 +16,7 @@ contact: "meetups@ieeevis.org"
 * [VisRocks](#visrocks) (Wednesday)
 * [Building an Inclusive VIS Community](#inclusion) (Thursday)
 * [VIS Job-fair](#vis-jobfair) (Thursday)
-* [VISAP’18 workshop: Data visualizations with a strong identity](#visap) (Thursday)
+* [VISAP’18 workshop: Data visualizations with a strong identity - ROOM CHANGE!](#visap) (Thursday)
 * [Visualization Meets Vision Science](#vision-science) (Thursday)
 * [Velo Club de Vis](#velo-club) (Thursday)
 * [Broadening Intellectual Diversity of Visualization Research Papers](#diversity) (Thursday)
@@ -185,7 +185,7 @@ As a complement to the <b>Asynchronous Job Fair</b>, we are organizing a job “
 
 Thursday, October 25  
 4:20PM - 6:00PM   
-Location: Room 30310
+Location: NOW: Room 30341 
 
 Organizers: Caroline Goulard, Ludovic Riffault    
 Contact: [contact@dataveyes.com](mailto:contact@dataveyes.com)
