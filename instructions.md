@@ -78,8 +78,8 @@ Please do not contact web chairs with requests such as "please add this content 
 
 ### Who's responsible for what?
 
-The point-of-contact for each page in the website is the contact
-person in each page's front matter (which is visible on each page by
+The point-of-contact address for each page in the website is the contact
+email address in each page's front matter (which is visible on each page by
 looking at the footer). 
 
 If a page does not have an assigned contact, then 1) that's likely a
