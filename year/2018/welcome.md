@@ -2,6 +2,7 @@
 layout: main-2018
 title: Welcome to IEEE VIS 2018 in Berlin!
 permalink: /year/2018/welcome
+contact: general_chair@ieeevis.org
 ---
 
 IEEE VIS is the worldwide largest and most important conference on Scientific Visualization, Information Visualization and Visual Analytics. It is the premier forum for advances in visualization in academia, science, government, industry, and beyond.
