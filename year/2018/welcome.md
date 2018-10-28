@@ -1,6 +1,6 @@
 ---
 layout: main-2018
-title: Welcome to IEEE VIS 2018 in Berlin!
+title: Thank you
 permalink: /year/2018/welcome
 contact: general_chair@ieeevis.org
 ---
@@ -65,7 +65,8 @@ last-minute requests and problems). This was far above usual business.
 Holger Theisel and Petra Specht   
 (VIS 2018 General Chair and Coordinating Chair)
 
-
+<br>
+## Welcome to IEEE VIS 2018 in Berlin!
 
 IEEE VIS is the worldwide largest and most important conference on Scientific Visualization, Information Visualization and Visual Analytics. It is the premier forum for advances in visualization in academia, science, government, industry, and beyond.
 
