@@ -65,7 +65,7 @@ last-minute requests and problems). This was far above usual business.
 Holger Theisel and Petra Specht   
 (VIS 2018 General Chair and Coordinating Chair)
 
-/hr
+----
 
 ## Welcome to IEEE VIS 2018 in Berlin!
 
