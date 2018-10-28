@@ -67,7 +67,7 @@ Holger Theisel and Petra Specht
 
 ----
 
-
+   
 ## Welcome to IEEE VIS 2018 in Berlin!
 
 IEEE VIS is the worldwide largest and most important conference on Scientific Visualization, Information Visualization and Visual Analytics. It is the premier forum for advances in visualization in academia, science, government, industry, and beyond.
