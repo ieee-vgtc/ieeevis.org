@@ -60,9 +60,9 @@ the hotel rooms), Katharina Domke and Remigiusz Przytarski (for being
 constantly there for us and finding creative solutions for lots of
 last-minute requests and problems). This was far above usual business.
 
-Come to IEEE VIS 2019 in Vancouver!
+***Come to IEEE VIS 2019 in Vancouver!***
 
-Holger Theisel and Petra Specht
+Holger Theisel and Petra Specht   
 (VIS 2018 General Chair and Coordinating Chair)
 
 
