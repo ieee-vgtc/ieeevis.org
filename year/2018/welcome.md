@@ -1,6 +1,6 @@
 ---
 layout: main-2018
-title: Thank you
+title: Thank you!
 permalink: /year/2018/welcome
 contact: general_chair@ieeevis.org
 ---
@@ -66,6 +66,7 @@ Holger Theisel and Petra Specht
 (VIS 2018 General Chair and Coordinating Chair)
 
 ----
+
 
 ## Welcome to IEEE VIS 2018 in Berlin!
 
