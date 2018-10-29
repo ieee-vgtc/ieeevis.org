@@ -7,19 +7,19 @@ permalink: /year/2018/info/awards/best-poster-awards
 
 **CerebroVis: Topology and Constraint-based Network Layout for the Visualization of Cerebrovascular Arteries**
 <br/>
-Authros: Aditeya Pandey, Harsh Shukla, Geoffrey S. Young, Lei Qin, Cody Dunne, Michelle A. Borkin 
+Authors: Aditeya Pandey, Harsh Shukla, Geoffrey S. Young, Lei Qin, Cody Dunne, Michelle A. Borkin 
 
 **Developing Virtual Reality Visualizations of Dinosaur Track Creation with Scientific Sketching**
 <br/>
-Authros: Johannes Novotny, Joshua Tveite, Morgan L. Turner, Stephen Gatesy, Fritz Drury, Peter Falkingham, David H. Laidlaw
+Authors: Johannes Novotny, Joshua Tveite, Morgan L. Turner, Stephen Gatesy, Fritz Drury, Peter Falkingham, David H. Laidlaw
 
 **Conveying Uncertainty in Archived War Diaries with GeoBlobs**
 <br/>
-Authros: Johannes Liem, Eirini Goudarouli, Steven Hirschorn, Jo Wood, Charles Perin
+Authors: Johannes Liem, Eirini Goudarouli, Steven Hirschorn, Jo Wood, Charles Perin
 
 **Urban DataSphere: Exploring Immersive Multiview Visualizations in Cities**
 <br/>
-Authros: Maxim Spur, Vincent Tourre
+Authors: Maxim Spur, Vincent Tourre
 
 ### Honorable mentions:
 
