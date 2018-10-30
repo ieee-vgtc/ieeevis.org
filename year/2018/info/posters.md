@@ -176,7 +176,7 @@ permalink: /year/2018/info/posters
 **Towards Data Science for the Masses: A Study of Data Scientists and Their Interactions with Clients**, Abigail Mosca, Shannon Robinson, Meredith Clarke, Rebecca Redelmeier, Sebastian Coates, Dylan Cashman, Remco Chang
 <br>[Video Preview](https://vimeo.com/290331146)
 
-**Bonus Miracle Tool: Visual Exploration of Nutrients across the Baltic Sea Region**, Carlo Navarra, Tina Neset, Juile Wilk, Alena Bartosova, René Capell
+**Bonus Miracle Tool: Visual Exploration of Nutrients across the Baltic Sea Region**, Carlo Navarra, Tina Neset, Julie Wilk, Alena Bartosova, René Capell
 <br>[Video Preview](https://vimeo.com/290331029)
 
 **<span style="color:firebrick">[Best Poster]</span> Developing Virtual Reality Visualizations of Dinosaur Track Creation with Scientific Sketching**, Johannes Novotny, Joshua Tveite, Morgan L. Turner, Stephen Gatesy, Fritz Drury, Peter Falkingham, David H. Laidlaw
