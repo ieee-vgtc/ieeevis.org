@@ -1,6 +1,6 @@
 ---
 layout: main-2019
-title: Welcome!
+title: "Welcome!"
 permalink: /year/2019/welcome
 contact: general_chair@ieeevis.org
 ---
