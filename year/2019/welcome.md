@@ -13,9 +13,9 @@ For 2019, IEEE VIS will take place in Vancouver, one of Canada's most iconic tec
 
 *Stay tuned or follow [@ieeevis](https://twitter.com/ieeevis/) for announcements and calls for submissions (coming in December 2018).*
 
-***VIS 2019 General Chairs***
-Alex Endert, Georgia Institute of Technology\
-Brian Fisher, Simon Fraser University\
+***VIS 2019 General Chairs***<br/>
+Alex Endert, Georgia Institute of Technology<br/>
+Brian Fisher, Simon Fraser University<br/>
 Wesley Willett, University of Calgary
 
 ----
