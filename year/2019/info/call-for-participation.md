@@ -11,7 +11,7 @@ This week-long event brings together researchers and practitioners with a shared
 IEEE VIS 2019 is now soliciting novel research contributions and innovative applications in all areas of visualization 
 as captured by its three main conference tracks:
 
-*IEEE Conference on Visual Analytics Science & Technology (VAST):*<br />
+[IEEE Conference on Visual Analytics Science & Technology (VAST):](../info/vast-paper-types)
 Papers in VAST typically focus on problems that integrate data analysis algorithms and visual interfaces to support data analysis 
 and analytical reasoning. 
 
