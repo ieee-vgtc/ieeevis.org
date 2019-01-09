@@ -1,8 +1,9 @@
 ---
-title: vast-paper-types
+title: Call For Participation | Vast Paper Types
 layout: main-2019
 permalink: /year/2019/info/call-participation/vast-paper-types
 ---
+
 The **IEEE Conference on Visual Analytics Science and Technology (VAST)** is the leading international conference dedicated to 
 advances in visual analytics. Visual analytics is the science of analytical reasoning supported by highly interactive visual interfaces.
 People use visual analytics tools and techniques in all aspects of science, engineering, business, and government to synthesize 

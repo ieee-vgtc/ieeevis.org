@@ -1,7 +1,7 @@
 ---
 title: Call For Participation
 layout: main-2019
-permalink: /year/2019/info/cfp/doctoral-colloquium
+permalink: /year/2019/info/call-participation/doctoral-colloquium
 ---
 
 IEEE VIS Doctoral Colloquium
