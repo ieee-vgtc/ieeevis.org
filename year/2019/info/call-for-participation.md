@@ -3,15 +3,13 @@ title: Call For Participation
 layout: main-2019
 permalink: /year/2019/info/call-participation/call-for-participation
 ---
-
-Call For Paper Submissions
         
-IEEE VIS 2019 is the premier forum for advances in visualization for academia, government, and industry. 
+**IEEE VIS 2019** is the premier forum for advances in visualization for academia, government, and industry. 
 This week-long event brings together researchers and practitioners with a shared interest in visualization. 
 IEEE VIS 2019 is now soliciting novel research contributions and innovative applications in all areas of visualization 
 as captured by its three main conference tracks:
 
-*IEEE Conference on Visual Analytics Science & Technology (VAST):*<br />
+[IEEE Conference on Visual Analytics Science & Technology (VAST)][../vast-paper-types.md]:<br />
 Papers in VAST typically focus on problems that integrate data analysis algorithms and visual interfaces to support data analysis 
 and analytical reasoning. 
 
@@ -32,7 +30,7 @@ Full papers accepted to IEEE InfoVis, SciVis, and most of VAST will appear in a 
 Visualization and Computer Graphics (TVCG). Some papers of the VAST conference will be published as archival, conference publications.
 
 ## Submission Dates
-All deadlines are at 5:00pm Pacific Time (PDT).
+All deadlines are at *5:00pm Pacific Time (PDT).*
 
 * Abstract submission (MANDATORY)<br />
   Thursday, March 21, 2019
