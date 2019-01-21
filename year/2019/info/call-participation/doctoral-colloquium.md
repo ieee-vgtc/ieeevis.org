@@ -14,7 +14,7 @@ The DC call is open to all Ph.D. students — regardless of whether they are pre
 All research topics suitable for the IEEE VAST, IEEE InfoVis, and IEEE SciVis main programs as well as associated workshops and symposia are appropriate for the Doctoral Colloquium. The Doctoral Colloquium strongly commits to achieving diversity among the student participants, including diversity across research groups and geographical area.
 
 ## Format
-The colloquium will consist of both parallel sessions of student presentations as well as common discussions with the expert panelists. A catered lunch and a roundtable discussion session will give student participants the opportunity to interact more informally with panelists.
+The colloquium will consist of both parallel sessions with student presentations and common discussions with the expert panelists. A catered lunch and a roundtable discussion session will give student participants the opportunity to interact more informally with panelists.
 
 Only selected applicants will be allowed to participate in the colloquium and will be expected to attend the full day of events.
 
@@ -27,7 +27,7 @@ Notification: July 11, 2019.
 
 Applicants to the Doctoral Colloquium should submit:
 *	A four-page summary of their thesis research, including the problem being addressed, methodology and plan of research, a description of the progress to date, and the type of input expected from DC panelists. The writing should be in a proposal format, in order to facilitate feedback from the panelists as to the validity of your problem and the efficacy of your approach. The structure should follow the format used by most universities for a thesis proposal: an Introduction, a Related Work, Preliminary Methods, Preliminary Results, Proposed Work, Discussion, Questions for the Panel, and Conclusion. The summary should have a single author – the student submitting the entry. Please distinguish clearly between work that has been accomplished and that which remains to be completed. As indicated above, the summary should identify clearly, in a separate section, the feedback the student expects from the panel. 
-*	A short, signed statement (pdf or text) from the student’s advisor supporting the student’s attendance at the colloquium and confirming that the student is in a good position to benefit from participating. It has to include information about the stage of the PhD project and expected finish date. Note that this should NOT be a letter of recommendation; a brief statement of support is sufficient. The statement should be appended to the student submission pdf file, not sent via email. 
+*	A short, signed statement (pdf or text) from the student’s advisor supporting the student’s attendance at the colloquium and confirming that the student is in a good position to benefit from participating. This statement should include information about the stage of the PhD project and expected finish date. Note that this should NOT be a letter of recommendation; a brief statement of support is sufficient. The statement should be appended to the student submission pdf file, not sent via email. 
 
 Please submit [via PCS](http://new.precisionconference.com/vgtc).
 
