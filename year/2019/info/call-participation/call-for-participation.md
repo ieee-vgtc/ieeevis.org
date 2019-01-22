@@ -18,7 +18,7 @@ Papers in InfoVis typically relate to the design or evaluation of new or improve
 of abstract data (such as graphs, tables, or text data).
 
 [IEEE Conference on Scientific Visualization (SciVis)](scivis-paper-types):<br />
-Papers in SciVis typically focus on new or improved visual encodings, mathematical models, algorithms, or interaction techniques for the visualization of data related to science and engineering (often representing scalar, vector, or tensor fields).
+Papers in SciVis typically focus on new or improved visual encodings, mathematical models, algorithms, or interaction techniques for the visualization of data related to science and engineering, as well as integration into novel applications and systems. 
 
 *Which conference track should I submit to?*<br />
 We encourage you to allocate your submission to one of the three tracks above. But if you are unsure, you will have the option 
