@@ -18,7 +18,7 @@ Papers in InfoVis typically relate to the design or evaluation of new or improve
 of abstract data (such as graphs, tables, or text data).
 
 [IEEE Conference on Scientific Visualization (SciVis)](scivis-paper-types):<br />
-Papers in SciVis typically focus on new or improved visual encodings, mathematical models, algorithms, or interaction techniques for the visualization of data related to science and engineering (often representing scalar, vector, or tensor fields).
+Papers in SciVis typically focus on new or improved visual encodings, mathematical models, algorithms, or interaction techniques for the visualization of data related to science and engineering, as well as integration into novel applications and systems. 
 
 *Which conference track should I submit to?*<br />
 We encourage you to allocate your submission to one of the three tracks above. But if you are unsure, you will have the option 
@@ -53,7 +53,6 @@ During this time, reviewers will ensure that necessary conditions for acceptance
 
 Additionally, IEEE VIS 2019 will feature a separate, short papers track with a submission deadline of June 13, 2019, after 
 notifications for full papers have been sent out. You can find out more in the call for participation for [IEEE VIS Short Papers](shortpapers). 
-[Add link here]
 
 When preparing your submission, please make sure that you carefully read and adhere to the paper submission guidelines. 
 
