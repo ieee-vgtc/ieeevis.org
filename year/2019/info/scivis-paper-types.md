@@ -1,5 +1,5 @@
 ---
-title: scivis-paper-types
+title: SciVis Paper Types
 layout: main-2019
 permalink: /year/2019/info/call-participation/scivis-paper-types
 ---
@@ -167,9 +167,9 @@ Transactions on Visualization and Computer Graphics , 20(12).
 Visualization. IEEE Transactions on Visualization and Computer Graphics, 24(1).
 
 ## Papers Co-Chairs
-Issei Fujishiro, Keio University, Japan
-Peter Lindstrom, Lawrence Livermore National Laboratory, USA
-Gunther H. Weber, Lawrence Berkeley National Laboratory, USA
-Daniel Weiskopf, University of Stuttgart, Germany
+* Issei Fujishiro, Keio University, Japan
+* Peter Lindstrom, Lawrence Livermore National Laboratory, USA
+* Gunther H. Weber, Lawrence Berkeley National Laboratory, USA
+* Daniel Weiskopf, University of Stuttgart, Germany
 
 Email: scivis_papers@ieeevis.org
