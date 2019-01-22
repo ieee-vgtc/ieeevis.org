@@ -18,8 +18,7 @@ Papers in InfoVis typically relate to the design or evaluation of new or improve
 of abstract data (such as graphs, tables, or text data).
 
 *IEEE Conference on Scientific Visualization (SciVis):*<br />
-Papers in SciVis typically relate to the design or evaluation of new or improved visual encodings or interaction techniques 
-of data where the spatial layout is given by the dataset (such as scalar, vector and tensor fields).
+Papers in SciVis typically focus on new or improved visual encodings, mathematical models, algorithms, or interaction techniques for the visualization of data related to science and engineering (often representing scalar, vector, or tensor fields).
 
 *Which conference track should I submit to?*<br />
 We encourage you to allocate your submission to one of the three tracks above. But if you are unsure, you will have the option 
@@ -45,20 +44,23 @@ All deadlines are at *5:00pm Pacific Time (PDT).*
 * Camera-ready copy<br />
   Thursday, August 1, 2019
 
-## Submission Guidelines
-When preparing your submission, please make sure that you carefully read and adhere to the paper submission guidelines. 
-Additionally, IEEE VIS 2019 will feature a separate, short papers track with a submission deadline of June XXX, 2019, after 
-notifications for full papers have been sent out. You can find out more in the call for participation for IEEE VIS Short Papers. 
-[Add link here]
-
-## Reviewing Criteria
+## Submission Guidelines and Reviewing Criteria
 As the leading academic event on visualization research, IEEE VIS expects important, impactful, and potentially transformative 
 contributions. Submissions will be judged on their importance, potential impact, degree to which the evidence supports the findings, 
 appropriateness of methodology, and the research process followed. Papers and any supplemental material are only conditionally accepted 
 and will undergo a full revision and review cycle after initial notification of review results. 
 During this time, reviewers will ensure that necessary conditions for acceptance have been met in the new revision.
 
+Additionally, IEEE VIS 2019 will feature a separate, short papers track with a submission deadline of June XXX, 2019, after 
+notifications for full papers have been sent out. You can find out more in the call for participation for IEEE VIS Short Papers. 
+[Add link here]
+
+When preparing your submission, please make sure that you carefully read and adhere to the paper submission guidelines. 
+
 The three conference tracks at IEEE VIS 2019 use the same submission and review process. The conferences differ in the topics, 
-emphasis, and approach, as described in the conference-specific information linked to above.
+emphasis, and approach, as described in the conference-specific for [VAST](vast-paper-types), InfoVis, and SciVis.
+
+## Open Access Policy
+Visualization research is better communicated and acted on if it is freely accessible to the research community, practitioners, and the general public. Therefore, all paper authors are encouraged to share their accepted paper in an open access repository before the print deadline in accordance with IEEE copyright regulations.  [include link to OA page]
 
 Email: papers@ieeevis.org
