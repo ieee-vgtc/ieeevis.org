@@ -1,5 +1,5 @@
 ---
-title: infovis-paper-types
+title: InfoVis Paper Types
 layout: main-2019
 permalink: /year/2019/info/call-participation/infovis-paper-types
 ---
@@ -10,7 +10,7 @@ visual encoding or interaction techniques; evaluations of techniques and tools; 
 theories related to visualization; systems that support visual data analysis; and the application of
 visualization to a broad range real-world contexts and domains.
 
-##Topics
+## Topics
 Research contributions are welcomed across a range of topics including, but not limited to:
 * **Visual encoding and interactive visualization techniques for a broad range of data
 types,** such as: causality and uncertainty data; graphs (networks), trees (hierarchies),
