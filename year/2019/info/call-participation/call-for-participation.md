@@ -13,11 +13,11 @@ as captured by its three main conference tracks:
 Papers in VAST typically focus on problems that integrate data analysis algorithms and visual interfaces to support data analysis 
 and analytical reasoning. 
 
-*IEEE Conference on Information Visualization (InfoVis):*<br/>
+[IEEE Conference on Information Visualization (InfoVis)](infovis-paper-types):<br />
 Papers in InfoVis typically relate to the design or evaluation of new or improved visual encodings or interaction techniques 
 of abstract data (such as graphs, tables, or text data).
 
-*IEEE Conference on Scientific Visualization (SciVis):*<br />
+[IEEE Conference on Scientific Visualization (SciVis)](scivis-paper-types):<br />
 Papers in SciVis typically focus on new or improved visual encodings, mathematical models, algorithms, or interaction techniques for the visualization of data related to science and engineering (often representing scalar, vector, or tensor fields).
 
 *Which conference track should I submit to?*<br />
@@ -58,9 +58,11 @@ notifications for full papers have been sent out. You can find out more in the c
 When preparing your submission, please make sure that you carefully read and adhere to the paper submission guidelines. 
 
 The three conference tracks at IEEE VIS 2019 use the same submission and review process. The conferences differ in the topics, 
-emphasis, and approach, as described in the conference-specific for [VAST](vast-paper-types), InfoVis, and SciVis.
+emphasis, and approach, as described in the conference-specific for [VAST](vast-paper-types), [InfoVis](infovis-paper-types), and [SciVis](scivis-paper-types).
 
 ## Open Access Policy
-Visualization research is better communicated and acted on if it is freely accessible to the research community, practitioners, and the general public. Therefore, all paper authors are encouraged to share their accepted paper in an open access repository before the print deadline in accordance with IEEE copyright regulations.  [include link to OA page]
+Visualization research is better communicated and acted on if it is freely accessible to the research community, practitioners, and the general public. Therefore, all paper authors are encouraged to share their accepted paper in an open access repository before the print deadline in accordance with IEEE copyright regulations.  
+
+[//]: #[include link to OA page]
 
 Email: papers@ieeevis.org
