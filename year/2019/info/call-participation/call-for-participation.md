@@ -51,8 +51,8 @@ appropriateness of methodology, and the research process followed. Papers and an
 and will undergo a full revision and review cycle after initial notification of review results. 
 During this time, reviewers will ensure that necessary conditions for acceptance have been met in the new revision.
 
-Additionally, IEEE VIS 2019 will feature a separate, short papers track with a submission deadline of June XXX, 2019, after 
-notifications for full papers have been sent out. You can find out more in the call for participation for IEEE VIS Short Papers. 
+Additionally, IEEE VIS 2019 will feature a separate, short papers track with a submission deadline of June 13, 2019, after 
+notifications for full papers have been sent out. You can find out more in the call for participation for [IEEE VIS Short Papers](shortpapers). 
 [Add link here]
 
 When preparing your submission, please make sure that you carefully read and adhere to the paper submission guidelines. 
