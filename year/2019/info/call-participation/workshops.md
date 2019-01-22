@@ -10,15 +10,15 @@ We solicit workshops related to all areas of visualization. They provide an info
 
 # Workshops should:
 
-* emphasize emerging ideas, concepts, or technologies that are currently too nascent or too interdisciplinary for a full symposium; or
+* emphasize emerging ideas, concepts, or technologies that are currently too nascent or too interdisciplinary for a full symposium; 
 
-* bring together experts on a subject to create a report, white-paper, or proposal that  requires interactive work sessions, and that is of potential interest to a substantial segment of the visualization community.
+* bring together experts on a subject to create a report, white-paper, or proposal that  requires interactive work sessions, and that is of potential interest to a substantial segment of the visualization community; and/or
 
 * encourage information flow not solely from the presenters to the audience, but rather engage the participation of all attendees, for example, through collective or small group discussions.
  
 Possible topics may include emerging or persisting problems, development of research agendas, networking for finding common interests and possibilities for cooperation, interaction with domain experts involving analysis of their domain problems, contests on solving specific visualization problems, etc.
 
-In choosing workshop topics, please check what workshops will be pre-approved, to avoid large overlaps. The list of the pre-approved workshops will be published as soon as it becomes available.
+In choosing workshop topics to propose, please consider the list of workshops that will be pre-approved and try to avoid large overlaps. The list of the pre-approved workshops will be published as soon as it becomes available.
 
 ## Submission requirements
 
