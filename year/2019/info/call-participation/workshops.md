@@ -8,6 +8,12 @@ contact: workshops@ieeevis.org
 # Call for Workshop proposals
 We solicit workshops related to all areas of visualization. They provide an informal setting in IEEE VIS for participants to discuss advanced topics in visualization, involve experts in the field, disseminate work in progress, and promote new ideas. Workshops at IEEE VIS are open to all registered attendees (“invitation only” workshops will not be approved).
 
+## Important dates
+
+* Proposal Submission: **February 15, 2019**
+* Notification: **March 8, 2019**
+* Final Submission of Summaries: **August 1, 2019**
+
 # Workshops should:
 
 * emphasize emerging ideas, concepts, or technologies that are currently too nascent or too interdisciplinary for a full symposium; 
@@ -92,7 +98,7 @@ Organizers should consider what steps they will take to encourage a diversity of
 If accepted, workshops are required to prepare a short summary (~50 words) for the printed program; if desired a longer summary of ~90 words may be submitted for the web program.
 
 
-## Workshop Support
+## Workshop support
 
 The workshop organizers will receive the following support from the VIS conference:
 
@@ -106,15 +112,9 @@ The workshop organizers will receive the following support from the VIS conferen
 Please check the conference website for upcoming information concerning available funds for special purposes, such as supporting diversity.
 If the requirements of the workshop exceed this default support, the workshop organizers are expected to coordinate with the workshop chairs and possibly raise funds to support the workshop activities. Fundraising plans must be discussed with the workshop and supporters chairs prior to contacting any potential funder. For more information, see the guidelines for Financial and Coordination Policies for IEEE VIS.
 
-## IMPORTANT DATES
-
-* Proposal Submission: **February 15, 2019**
-* Notification: **March 8, 2019**
-* Final Submission of Summaries: **August 1, 2019**
-
 All deadlines are at **5:00pm Pacific Time (PDT)**.
 
-## Workshop Chairs
+## Workshop chairs
 
 * Adam Perer, *Carnegie Mellon University (VAST)*
 * Anastasia Bezerianos, *University of Paris-Sud (InfoVis)*
