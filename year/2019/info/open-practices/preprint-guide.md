@@ -18,11 +18,9 @@ The repository must meet the following criteria:
 
 The following are currently the only repositories that are confirmed to meet all criteria for being findable, freely accessible, uniquely identifiable, and reliable:
 
--   [http://osf.io/preprints](http://osf.io/preprints) - [walkthrough for posting](https://docs.google.com/document/d/1ZsNLXSDZB5MOTj0FGtPNGZ4FKSAGJ4FrtgoMZf4z-xw/edit?usp=sharing)
-   
--   [http://arxiv.org](http://arxiv.org) - [[walkthrough in progress](https://docs.google.com/document/d/1oth87A9mnXK_skh1zgplto4W_eXYPZHkY3DN26gWUR4/edit)]
-    
--   [http://zenodo.org](http://zenodo.org)
+* [http://osf.io/preprints](http://osf.io/preprints) - [walkthrough for posting](https://docs.google.com/document/d/1ZsNLXSDZB5MOTj0FGtPNGZ4FKSAGJ4FrtgoMZf4z-xw/edit?usp=sharing)
+* [http://arxiv.org](http://arxiv.org) - [[walkthrough in progress](https://docs.google.com/document/d/1oth87A9mnXK_skh1zgplto4W_eXYPZHkY3DN26gWUR4/edit)]
+* [http://zenodo.org](http://zenodo.org)
     
 If you would like to use another repository that you believe meets the criteria, please email open_practices@ieeevis.org
 
