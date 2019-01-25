@@ -44,7 +44,7 @@ Because the number of workshop time slots is limited, half-day workshop proposal
 
 If the proposed workshop is a follow-up of a previous workshop, please include a discussion of the results and the impact of any previous workshops.
 
-The proposal should not exceed four pages. Please visit http://junctionpublishing.org/vgtc/Tasks/camera.html for details and submit via PCS.
+The proposal should not exceed four pages. Please visit http://junctionpublishing.org/vgtc/Tasks/camera.html for formatting details, and submit proposals through [PCS](https://new.precisionconference.com/vgtc).
 
 ## Publication strategy
 
