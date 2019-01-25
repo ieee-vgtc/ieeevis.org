@@ -4,6 +4,8 @@ layout: main-2019
 permalink: /year/2019/info/open-practices/preprint-guide
 ---
 
+[back to Open Practices index](open-practices)  
+
 Visualization research is better communicated and acted on if it is freely accessible to the research community, practitioners, and the general public. Therefore, all paper authors are encouraged to share their accepted paper in an open access repository before the print deadline in accordance with IEEE copyright regulations.
 
 ## Open Access Repository Criteria

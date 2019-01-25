@@ -4,6 +4,8 @@ layout: main-2019
 permalink: /year/2019/info/open-practices/mission
 ---
 
+[back to Open Practices index](open-practices)  
+
 ## Mission
 
 The Open Practice Chairs (OPCs) of VIS aim to improve the accessibility, transparency, replicability, and reproducibility of visualization research. More specifically, the chairs will work to advance the following goals:
