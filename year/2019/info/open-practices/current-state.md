@@ -4,6 +4,8 @@ layout: main-2019
 permalink: /year/2019/info/open-practices/current-state
 ---
 
+[back to Open Practices index](open-practices)  
+
 This page tracks the state of open practices at VIS. For details on data collection, see ([Haroz 2018](https://osf.io/8ag3w/)).
 
 Reliable means that the artifact is stored in a reliable open practice repository rather than a personal webpage or github project.
