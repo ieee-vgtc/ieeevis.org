@@ -1,7 +1,7 @@
 ---
 title: Open Practices
 layout: main-2019
-permalink: /year/2019/info/open-practices/index
+permalink: /year/2019/info/open-practices/intro
 ---
 
 To make visualization research more broadly accessible, more scrutinizable, and more reproducible, VIS encourages openness and transparency in all facets of submitted work. Guidelines for open practices will be communicated through these pages in future years, awaiting approval of open practice policies. For now, authors of all accepted papers are encouraged to share their accepted paper in an open access repository before the print deadline.
