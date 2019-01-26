@@ -4,7 +4,7 @@ layout: main-2019
 permalink: /year/2019/info/open-practices/current-state
 ---
 
-[back to Open Practices index](open-practices)  
+[back to Open Practices](open-practices)  
 
 This page tracks the state of open practices at VIS. For details on data collection, see ([Haroz 2018](https://osf.io/8ag3w/)).
 

@@ -4,7 +4,7 @@ layout: main-2019
 permalink: /year/2019/info/open-practices/mission
 ---
 
-[back to Open Practices index](open-practices)  
+[back to Open Practices](open-practices)  
 
 ## Mission
 
