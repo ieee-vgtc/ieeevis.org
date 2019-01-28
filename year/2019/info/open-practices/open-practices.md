@@ -8,9 +8,9 @@ To make visualization research more broadly accessible, more scrutinizable, and 
 
 If you have any questions or concerns related to open practices, please contact the open practice chairs: [open_practices@ieeevis.org](mailto:open_practices@ieeevis.org)
 
-<!-- [Open Materials and Empirical Data Guide]() -->  
+<!-- [Open Materials and Empirical Data Guide]() -->
 [Open Access Preprint Guide](preprint-guide)  
-<!-- [Mission statement]() -->  
+<!-- [Mission statement]() -->
 [Current State of Open Practices at VIS](current-state)  
 
 
