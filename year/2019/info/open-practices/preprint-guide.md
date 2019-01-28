@@ -13,7 +13,7 @@ Visualization research is better communicated and acted on if it is freely acces
 1. **Findable**. The repository project must be indexed or registered via a searchable resource such as Google
 1. **Freely accessible**. There can be no cost or sign-up requirement for viewing
 1. **Identifiable**. Content has a unique and persistent identifier (e.g., a DOI or Arxiv ID). The content is also immutable and timestamped. Multiple versions are fine, as long as the previous versions and timestamps are retained.
-1. **Reliable**. The repository has a stated plan for long-term reliability ([example](http://help.osf.io/m/faqs/l/726460-faqs#what-if-you-run-out-of-funding-what-happens-to-my-data))
+1. **Reliable**. The repository has a stated plan for long-term reliability ([example](http://help.osf.io/m/faqs/l/726460-faqs#what-if-you-run-out-of-funding-what-happens-to-my-data)) <!-- [arxiv](https://confluence.cornell.edu/display/arxivpub/arXiv+Budgets+and+Reserve+Fund+Policy) -->
     
 
 The only repositories that are currently confirmed to meet all criteria are:
@@ -22,7 +22,7 @@ The only repositories that are currently confirmed to meet all criteria are:
 * [http://arxiv.org](http://arxiv.org) - [walkthrough in progress](https://docs.google.com/document/d/1oth87A9mnXK_skh1zgplto4W_eXYPZHkY3DN26gWUR4/edit)
 * [http://zenodo.org](http://zenodo.org)
     
-If you would like to use another repository that you believe meets the criteria, please email open_practices@ieeevis.org. A personal website, lab website, or Github repository does NOT meet the criteria.
+If you would like to use another repository such as an institutional repository, please email an explanation of how it meets all criteria to open_practices@ieeevis.org. A personal website, lab website, or Github repository does NOT meet the criteria.
 
 ## Sharing the Open Version with VIS
 
