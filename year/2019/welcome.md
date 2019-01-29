@@ -11,8 +11,6 @@ We invite you to share your research, insights, and enthusiasm at IEEE Visual An
 
 For 2019, IEEE VIS will take place in Vancouver, one of Canada's most iconic tech cities. Part of the Cascadia Innovation Corridor and home to the Canadian IT Supercluster, Vancouver is also renowned for its scenic beauty, outdoor activities, and vibrant west-coast culture.
 
-*Stay tuned or follow [@ieeevis](https://twitter.com/ieeevis/) for announcements and calls for submissions (coming in December 2018).*
-
 ***VIS 2019 General Chairs***<br/>
 Alex Endert, Georgia Institute of Technology<br/>
 Brian Fisher, Simon Fraser University<br/>
