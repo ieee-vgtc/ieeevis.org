@@ -66,6 +66,6 @@ For arXiv, follow these [instructions](https://arxiv.org/help/jref).
 If you have any questions or concerns related to open practices, please contact the open practice chairs: [open_practices@ieeevis.org](mailto:open_practices@ieeevis.org)
 * Steve Haroz (Inria - Saclay, France)  
 * Cagatay Turkey (City University - London, UK)  
-* Soumya Douta (Los Alamos National Laboratory - Los Alamos, USA)  
+* Soumya Dutta (Los Alamos National Laboratory - Los Alamos, USA)  
 
 <br /> <a rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/"> <img src="https://licensebuttons.net/p/zero/1.0/80x15.png" style="border-style: none;" alt="CC0" /> </a>
