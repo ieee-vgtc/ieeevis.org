@@ -14,7 +14,7 @@ To make visualization research more broadly accessible, more scrutinizable, and 
 
 If you have any questions or concerns related to open practices, please contact the open practice chairs: [open_practices@ieeevis.org](mailto:open_practices@ieeevis.org)
 * Steve Haroz (Inria - Saclay, France)  
-* Cagatay Turkey (City University - London, UK)  
+* Cagatay Turkay (City, University of London, London, UK)  
 * Soumya Dutta (Los Alamos National Laboratory - Los Alamos, USA)  
 
 
