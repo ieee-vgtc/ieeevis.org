@@ -1,5 +1,5 @@
 ---
-title: Workshops
+title: Workshops - Call For Participation
 layout: main-2019
 permalink: /year/2019/info/call-participation/workshops
 contact: workshops@ieeevis.org
@@ -9,8 +9,8 @@ We solicit workshops related to all areas of visualization. They provide an info
 
 ## Important dates
 
-* Proposal Submission: **February 15, 2019**
-* Notification: **March 8, 2019**
+* Proposal Submission: **February 28, 2019**
+* Notification: **March 15, 2019**
 * Final Submission of Summaries: **August 1, 2019**
 
 # Workshops should:
