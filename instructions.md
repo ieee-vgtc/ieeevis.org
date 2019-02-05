@@ -1,11 +1,11 @@
 ---
-layout: main-2018
+layout: main-2019
 title: Instructions for editing the website
 ---
 
 <style type="text/css">
 .instructions-img {
-   width: 620px;
+   width: 100%;
 }
 </style>
 
