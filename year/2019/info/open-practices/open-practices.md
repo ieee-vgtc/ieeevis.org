@@ -4,7 +4,7 @@ layout: main-2019
 permalink: /year/2019/info/open-practices/open-practices
 ---
 
-To make visualization research more broadly accessible, more scrutinizable, and more reproducible, VIS encourages openness and transparency in all facets of submitted work. Guidelines for open practices will be communicated through these pages in future years, awaiting approval of open practice policies. For now, authors of all accepted papers are encouraged to share their accepted paper in an open access repository before the print deadline.
+To make visualization research more broadly accessible, more scrutinizable, and more reproducible, VIS encourages openness and transparency in all facets of submitted work. Guidelines for open practices will be communicated through these pages, starting next year. For now, authors of all accepted papers are encouraged to share their accepted paper in an open access repository before the print deadline.
 
 <!-- [Open Materials and Empirical Data Guide]() -->
 [Open Access Preprint Guide](preprint-guide)  
