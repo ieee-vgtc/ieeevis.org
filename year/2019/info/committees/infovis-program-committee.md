@@ -1,9 +1,8 @@
 ---
-title: infovis-program-committee
+title: InfoVis Program Committee
 layout: main-2019
 permalink: /year/2019/info/committees/infovis-program-committee
 ---
-## InfoVis Program Committee
 
 | Bilal Alsallakh | *BOSCH Research North America* |
 | Daniel Archambault | *Swansea University* |
