@@ -57,6 +57,6 @@ All deadlines are at **5:00pm Pacific Time (PDT)**.
 
 ## Chairs
 
-Wei Chen, *Zhejiang University*
+Wei Chen, *Zhejiang University*  
 Danyel Fisher, *Honeycomb.io*  
 Joshua A. Levine, *University of Arizona* 
