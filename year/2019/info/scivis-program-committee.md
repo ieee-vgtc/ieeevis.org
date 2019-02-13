@@ -51,7 +51,7 @@ permalink: /year/2019/info/committees/scivis-program-committee
 | Gerik Scheuermann | *Leipzig University, Germany* |
 | Han-Wei Shen | *The Ohio State University , USA* |
 | Claudio Silva | *New York University, USA* |
-| Julien Tierny | *CNRS, France* |
+| Julien Tierny | *CNRS/Sorbonne Université, France* |
 | Xavier Tricoche | *Purdue University , USA* |
 | Anna Vilanova | *Delft University of Technology, Netherlands* |
 | Bei Wang | *Scientific Computing and Imaging Institute, USA* |
