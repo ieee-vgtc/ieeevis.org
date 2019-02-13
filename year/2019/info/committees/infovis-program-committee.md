@@ -2,79 +2,79 @@
 title: InfoVis Program Committee
 layout: main-2019
 permalink: /year/2019/info/committees/infovis-program-committee
+contact: infovis_papers@ieeevis.org
 ---
-
-| Bilal Alsallakh | *BOSCH Research North America* |
-| Daniel Archambault | *Swansea University* |
-| Benjamin Bach | *Edinburgh University* |
-| Lyn Bartram | *Simon Fraser University* |
-| Rahul Basole | *Georgia Institute of Technology* |
-| Leilani Battle | *University of Washington* |
-| Anastasia Bezerianos | *Univ Paris-Sud, CNRS, Inria, UniversitÈ Paris Saclay* |
-| Rita Borgo | *Kings College London* |
-| Michelle Borkin | *Northeastern University* |
-| Nadia Boukhelifa | *INRA* |
-| Jeremy Boy | *United Nations* |
-| Matthew Brehmer | *Microsoft Research* |
-| Michael Burch | *Eindhoven University of Technology, Eindhoven University of Technology* |
-| Nan Cao | *Tongji College of Design and Innovation* |
-| Sheelagh Carpendale | *University of Calgary, Simon Fraser University* |
-| Maxime Cordeil | ** |
-| Michael Correll | *Tableau Software* |
-| Pierre Dragicevic | *Inria* |
-| Steven Drucker | *Microsoft Research* |
-| Jason Dykes | *City, University of London* |
-| Jean-Daniel Fekete | *Inria* |
-| Angus Forbes | *University of California, Santa Cruz* |
-| Steven Franconeri | *Northwestern University* |
-| Sarah Goodwin | *Monash University* |
-| Carsten Gˆrg | *University of Colorado* |
-| Lane Harrison | *WPI* |
-| Marti Hearst | *UC Berkeley* |
-| Nathalie Henry Riche | *Microsoft Research* |
-| Uta Hinrichs | *The University of St Andrews* |
-| Heike Hofmann | *Iowa State University* |
-| Kasper HornbÊk | *University of Copenhagen* |
-| Jessica Hullman | *University of Washington* |
-| Christophe Hurter | *Ecole National de l'Aviation Civile* |
-| Katherine Isaacs | *University of Arizona* |
-| Yvonne Jansen | *Sorbonne UniversitÈ, CNRS, ISIR* |
-| Jessie Kennedy | *Edinburgh Napier University* |
-| Sung-Hee Kim | ** |
-| Stephen Kobourov | *University of Arizona* |
-| Bum Chul Kwon | *IBM Research* |
-| Bongshin Lee | *Microsoft Research* |
-| Alexander Lex | *University of Utah* |
-| Zhicheng Liu | *Adobe Research* |
-| Ronald Metoyer | *University of Notre Dame* |
-| Wouter Meulemans | *TU Eindhoven* |
-| Rosane Minghim | *University of S„o Paulo* |
-| Tamara Munzner | *University of British Columbia* |
-| Stephen North | *Infovisible* |
-| Lora Oehlberg | *University of Calgary* |
-| Alvitta Ottley | *Washington University in St. Louis* |
-| Adam Perer | *Carnegie Mellon University* |
-| Hanspeter Pfister | *Harvard University* |
-| Penny Rheingans | *UMBC* |
-| Paul Rosen | *University of South Florida* |
-| Arvind Satyanarayan | *MIT* |
-| Karen Schloss | *University of Wisconsin - Madison* |
-| Jinwook Seo | *Seoul National University* |
-| Vidya Setlur | *Tableau Research, Tableau Software* |
-| Conglei Shi | *Airbnb Inc.* |
-| Aidan Slingsby | *City, University of London* |
-| Bettina Speckmann | *Eindhoven University of Technology* |
-| John Stasko | *Georgia Institute of Technology* |
-| Hendrik Strobelt | *IBM Research AI* |
-| Danielle Szafir | *University of Colorado Boulder* |
-| Christian Tominski | *University of Rostock* |
-| Melanie Tory | *Tableau Research* |
-| Cagatay Turkay | *City, University of London* |
-| Frank van Ham | *IBM* |
-| Kevin Verbeek | *Eindhoven University of Technology* |
-| Romain Vuillemot | *Ecole Centrale de Lyon* |
-| Manuela Waldner | *TU Wien* |
-| Jagoda Walny | *University of Calgary* |
-| Martin Wattenberg | *Google* |
-| Yingcai Wu | *Zhejiang University* |
-| Michael Wybrow | *Monash University* |
+| Bilal Alsallakh | *BOSCH Research, USA* |
+| Daniel Archambault | *Swansea University, UK* |
+| Benjamin Bach | *Edinburgh University, UK* |
+| Lyn Bartram | *Simon Fraser University, Canada* |
+| Rahul Basole | *Georgia Institute of Technology, USA* |
+| Leilani Battle | *University of Washington, USA* |
+| Anastasia Bezerianos | *Univ Paris-Sud, France* |
+| Rita Borgo | *Kings College London, UK* |
+| Michelle Borkin | *Northeastern University, USA* |
+| Nadia Boukhelifa | *INRA, France* |
+| Jeremy Boy | *UN Global Pulse, USA* |
+| Matthew Brehmer | *Microsoft Research, USA* |
+| Michael Burch | *Eindhoven University of Technology, Netherlands* |
+| Nan Cao | *Tongji College of Design and Innovation, China* |
+| Sheelagh Carpendale | *Simon Fraser University, Canada* |
+| Maxime Cordeil | *Monash University, Australia* |
+| Michael Correll | *Tableau Software, USA* |
+| Pierre Dragicevic | *Inria, France* |
+| Steven Drucker | *Microsoft Research, USA* |
+| Jason Dykes | *City, University of London, UK* |
+| Jean-Daniel Fekete | *Inria, France* |
+| Angus Forbes | *University of California, Santa Cruz, USA* |
+| Steven Franconeri | *Northwestern University, USA* |
+| Sarah Goodwin | *Monash University, Australia* |
+| Carsten Gˆrg | *University of Colorado, USA* |
+| Lane Harrison | *Worcester Polytechnic Institute, USA* |
+| Marti Hearst | *University of California, Berkeley, USA* |
+| Nathalie Henry Riche | *Microsoft Research, USA* |
+| Uta Hinrichs | *University of St Andrews, UK* |
+| Heike Hofmann | *Iowa State University, USA* |
+| Kasper HornbÊk | *University of Copenhagen, Denmark* |
+| Jessica Hullman | *Northwestern University, USA* |
+| Christophe Hurter | *Ecole National de l'Aviation Civile, France* |
+| Katherine Isaacs | *University of Arizona, USA* |
+| Yvonne Jansen | *CNRS, France* |
+| Jessie Kennedy | *Edinburgh Napier University, UK* |
+| Sung-Hee Kim | *Dong-eui University, Korea* |
+| Stephen Kobourov | *University of Arizona, USA* |
+| Bum Chul Kwon | *IBM Research, USA* |
+| Bongshin Lee | *Microsoft Research, USA* |
+| Alexander Lex | *University of Utah, USA* |
+| Zhicheng Liu | *Adobe Research, USA* |
+| Ronald Metoyer | *University of Notre Dame, USA* |
+| Wouter Meulemans | *Eindhoven University of Technology, Netherlands* |
+| Rosane Minghim | *University of S„o Paulo, Brazil* |
+| Tamara Munzner | *University of British Columbia, Canada* |
+| Stephen North | *Infovisible, USA* |
+| Lora Oehlberg | *University of Calgary, Canada* |
+| Alvitta Ottley | *Washington University in St. Louis, USA* |
+| Adam Perer | *Carnegie Mellon University, USA* |
+| Hanspeter Pfister | *Harvard University, USA* |
+| Penny Rheingans | *University of Maine, USA* |
+| Paul Rosen | *University of South Florida, USA* |
+| Arvind Satyanarayan | *Massachusetts Institute of Technology, USA* |
+| Karen Schloss | *University of Wisconsin, USA* |
+| Jinwook Seo | *Seoul National University, Korea* |
+| Vidya Setlur | *Tableau Research, USA* |
+| Conglei Shi | *Airbnb, USA* |
+| Aidan Slingsby | *City, University of London, UK* |
+| Bettina Speckmann | *Eindhoven University of Technology, Netherlands* |
+| John Stasko | *Georgia Institute of Technology, USA* |
+| Hendrik Strobelt | *IBM Research, USA* |
+| Danielle Szafir | *University of Colorado Boulder, USA* |
+| Christian Tominski | *University of Rostock, Germany* |
+| Melanie Tory | *Tableau Research, USA* |
+| Cagatay Turkay | *City, University of London, USA* |
+| Frank van Ham | *IBM, USA* |
+| Kevin Verbeek | *Eindhoven University of Technology, Netherlands* |
+| Romain Vuillemot | *Ecole Centrale de Lyon, France* |
+| Manuela Waldner | *Vienna University of Technology, Austria* |
+| Jagoda Walny | *University of Calgary, Canada* |
+| Martin Wattenberg | *Google, USA* |
+| Yingcai Wu | *Zhejiang University, China* |
+| Michael Wybrow | *Monash University, Australia* |
