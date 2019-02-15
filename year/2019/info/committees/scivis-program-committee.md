@@ -1,7 +1,8 @@
 ---
-title: scivis-program-committee
+title: SciVis Program Committee
 layout: main-2019
 permalink: /year/2019/info/committees/scivis-program-committee
+contact: scivis_papers@ieeevis.org
 ---
 | Wes Bethel | *Lawrence Berkeley National Laboratory, USA* |
 | Stefan Bruckner | *University of Bergen, Norway* |
