@@ -28,13 +28,13 @@ contact: infovis_papers@ieeevis.org
 | Angus Forbes | *University of California, Santa Cruz, USA* |
 | Steven Franconeri | *Northwestern University, USA* |
 | Sarah Goodwin | *Monash University, Australia* |
-| Carsten Gˆrg | *University of Colorado, USA* |
+| Carsten Görg | *University of Colorado, USA* |
 | Lane Harrison | *Worcester Polytechnic Institute, USA* |
 | Marti Hearst | *University of California, Berkeley, USA* |
 | Nathalie Henry Riche | *Microsoft Research, USA* |
 | Uta Hinrichs | *University of St Andrews, UK* |
 | Heike Hofmann | *Iowa State University, USA* |
-| Kasper HornbÊk | *University of Copenhagen, Denmark* |
+| Kasper Hornbæk | *University of Copenhagen, Denmark* |
 | Jessica Hullman | *Northwestern University, USA* |
 | Christophe Hurter | *Ecole National de l'Aviation Civile, France* |
 | Katherine Isaacs | *University of Arizona, USA* |
@@ -48,7 +48,7 @@ contact: infovis_papers@ieeevis.org
 | Zhicheng Liu | *Adobe Research, USA* |
 | Ronald Metoyer | *University of Notre Dame, USA* |
 | Wouter Meulemans | *Eindhoven University of Technology, Netherlands* |
-| Rosane Minghim | *University of S„o Paulo, Brazil* |
+| Rosane Minghim | *University of São Paulo, Brazil* |
 | Tamara Munzner | *University of British Columbia, Canada* |
 | Stephen North | *Infovisible, USA* |
 | Lora Oehlberg | *University of Calgary, Canada* |
