@@ -58,7 +58,7 @@ contact: scivis_papers@ieeevis.org
 | Bei Wang | *University of Utah, USA* |
 | Chaoli Wang | *University of Notre Dame, USA* |
 | Tino Weinkauf | *KTH Royal Institute of Technology, Sweden* |
-| Rüdiger Westermann | *Technical University Munich, Germany* |
+| Rüdiger Westermann | *Technical University of Munich, Germany* |
 | Anders Ynnerman | *Linköping University, Sweden* |
 | Xiaoru Yuan | *Peking University, China* |
 | Eugene Zhang | *Oregon State University, USA* |
