@@ -1,5 +1,5 @@
 ---
-title: paper-submission-guidelines
+title: Paper Submission Guidelines
 layout: main-2019
 permalink: /year/2019/info/call-participation/paper-submission-guidelines
 ---
