@@ -58,7 +58,7 @@ contact: infovis_papers@ieeevis.org
 | Penny Rheingans | *University of Maine, USA* |
 | Paul Rosen | *University of South Florida, USA* |
 | Arvind Satyanarayan | *Massachusetts Institute of Technology, USA* |
-| Karen Schloss | *University of Wisconsin, USA* |
+| Karen Schloss | *University of Wisconsin - Madison, USA* |
 | Jinwook Seo | *Seoul National University, Korea* |
 | Vidya Setlur | *Tableau Research, USA* |
 | Conglei Shi | *Airbnb, USA* |
