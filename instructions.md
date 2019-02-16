@@ -3,12 +3,6 @@ layout: main-2019
 title: Instructions for editing the website
 ---
 
-<style type="text/css">
-.instructions-img {
-   width: 100%;
-}
-</style>
-
 # Contributing
 
 Thank you for helping with the ieeevis.org website. The easiest way
