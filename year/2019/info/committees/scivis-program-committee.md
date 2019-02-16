@@ -8,8 +8,8 @@ contact: scivis_papers@ieeevis.org
 | Stefan Bruckner | *University of Bergen, Norway* |
 | Roxana Bujack | *Los Alamos National Laboratory, USA* |
 | Hamish Carr | *University of Leeds, United Kingdom* |
-| Baoquan Chen | *Shandong University, China* |
-| Min Chen | *University of Oxford, United Kingdom* |
+| Baoquan Chen | *Peking University/Shandong University, China* |
+| Min Chen | *Oxford University, United Kingdom* |
 | Hank Childs | *University of Oregon, USA* |
 | Paolo Cignoni | *ISTI-CNR, Italy* |
 | Joao Comba | *Universidade Federal do Rio Grande do Sul, Brazil* |
@@ -31,7 +31,7 @@ contact: scivis_papers@ieeevis.org
 | Koji Koyamada | *Kyoto University, Japan* |
 | Barbora Kozlikova | *Masaryk University, Czech Republic* |
 | Michael Krone | *University of Tübingen, Germany* |
-| Jens Krueger | *University of Duisburg-Essen, Germany* |
+| Jens Krüger | *University of Duisburg-Essen, Germany* |
 | David Laidlaw | *Brown University, USA* |
 | Robert Laramee | *Swansea University, United Kingdom* |
 | Joshua Levine | *University of Arizona, USA* |
@@ -55,10 +55,10 @@ contact: scivis_papers@ieeevis.org
 | Julien Tierny | *CNRS/Sorbonne Université, France* |
 | Xavier Tricoche | *Purdue University , USA* |
 | Anna Vilanova | *Delft University of Technology, Netherlands* |
-| Bei Wang | *Scientific Computing and Imaging Institute, USA* |
+| Bei Wang | *University of Utah, USA* |
 | Chaoli Wang | *University of Notre Dame, USA* |
 | Tino Weinkauf | *KTH Royal Institute of Technology, Sweden* |
-| Rüdiger Westermann | *Technical University Munich, Germany* |
+| Rüdiger Westermann | *Technical University of Munich, Germany* |
 | Anders Ynnerman | *Linköping University, Sweden* |
 | Xiaoru Yuan | *Peking University, China* |
 | Eugene Zhang | *Oregon State University, USA* |
