@@ -9,7 +9,7 @@ contact: infovis_papers@ieeevis.org
 | Benjamin Bach | *Edinburgh University, UK* |
 | Lyn Bartram | *Simon Fraser University, Canada* |
 | Rahul Basole | *Georgia Institute of Technology, USA* |
-| Leilani Battle | *University of Washington, USA* |
+| Leilani Battle | *University of Maryland, College Park, USA* |
 | Anastasia Bezerianos | *Univ Paris-Sud, France* |
 | Rita Borgo | *Kings College London, UK* |
 | Michelle Borkin | *Northeastern University, USA* |
@@ -20,7 +20,7 @@ contact: infovis_papers@ieeevis.org
 | Nan Cao | *Tongji College of Design and Innovation, China* |
 | Sheelagh Carpendale | *Simon Fraser University, Canada* |
 | Maxime Cordeil | *Monash University, Australia* |
-| Michael Correll | *Tableau Software, USA* |
+| Michael Correll | *Tableau Research, USA* |
 | Pierre Dragicevic | *Inria, France* |
 | Steven Drucker | *Microsoft Research, USA* |
 | Jason Dykes | *City, University of London, UK* |
