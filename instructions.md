@@ -3,12 +3,6 @@ layout: main-2019
 title: Instructions for editing the website
 ---
 
-<style type="text/css">
-.instructions-img {
-   width: 100%;
-}
-</style>
-
 # Contributing
 
 Thank you for helping with the ieeevis.org website. The easiest way
@@ -99,6 +93,3 @@ This is the result of five years of legacy pages written atop of each other. We'
 # How to compare staging and production files
 
 This link [compares staging and production branches](https://github.com/ieee-vgtc/ieeevis.org/compare/production).
-
-
-
