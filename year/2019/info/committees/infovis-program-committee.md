@@ -6,9 +6,9 @@ contact: infovis_papers@ieeevis.org
 ---
 | Bilal Alsallakh | *BOSCH Research, USA* |
 | Daniel Archambault | *Swansea University, UK* |
-| Benjamin Bach | *Edinburgh University, UK* |
+| Benjamin Bach | *University of Edinburgh, UK* |
 | Lyn Bartram | *Simon Fraser University, Canada* |
-| Rahul Basole | *Georgia Institute of Technology, USA* |
+| Rahul Basole | *Accenture, USA* |
 | Leilani Battle | *University of Maryland, College Park, USA* |
 | Anastasia Bezerianos | *Univ Paris-Sud, France* |
 | Rita Borgo | *Kings College London, UK* |
@@ -20,7 +20,7 @@ contact: infovis_papers@ieeevis.org
 | Nan Cao | *Tongji College of Design and Innovation, China* |
 | Sheelagh Carpendale | *Simon Fraser University, Canada* |
 | Maxime Cordeil | *Monash University, Australia* |
-| Michael Correll | *Tableau Research, USA* |
+| Michael Correll | *Tableau Software, USA* |
 | Pierre Dragicevic | *Inria, France* |
 | Steven Drucker | *Microsoft Research, USA* |
 | Jason Dykes | *City, University of London, UK* |
@@ -60,7 +60,7 @@ contact: infovis_papers@ieeevis.org
 | Arvind Satyanarayan | *Massachusetts Institute of Technology, USA* |
 | Karen Schloss | *University of Wisconsin - Madison, USA* |
 | Jinwook Seo | *Seoul National University, Korea* |
-| Vidya Setlur | *Tableau Research, USA* |
+| Vidya Setlur | *Tableau Software, USA* |
 | Conglei Shi | *Airbnb, USA* |
 | Aidan Slingsby | *City, University of London, UK* |
 | Bettina Speckmann | *Eindhoven University of Technology, Netherlands* |
@@ -68,9 +68,9 @@ contact: infovis_papers@ieeevis.org
 | Hendrik Strobelt | *IBM Research, USA* |
 | Danielle Szafir | *University of Colorado Boulder, USA* |
 | Christian Tominski | *University of Rostock, Germany* |
-| Melanie Tory | *Tableau Research, USA* |
-| Cagatay Turkay | *City, University of London, USA* |
-| Frank van Ham | *IBM, USA* |
+| Melanie Tory | *Tableau Software, USA* |
+| Cagatay Turkay | *City, University of London, UK* |
+| Frank van Ham | *IBM, Netherlands* |
 | Kevin Verbeek | *Eindhoven University of Technology, Netherlands* |
 | Romain Vuillemot | *Ecole Centrale de Lyon, France* |
 | Manuela Waldner | *Vienna University of Technology, Austria* |
