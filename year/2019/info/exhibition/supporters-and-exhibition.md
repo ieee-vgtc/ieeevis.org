@@ -7,9 +7,9 @@ contact: supporters@ieeevis.org
 
 We invite you to participate in IEEE VIS by supporting and exhibiting at the conference.  IEEE VIS is the premier forum for advances in scientific and information visualization in academia, science, government, and industry. A full complement of research presentations, tutorials, symposiums, workshops, panels, demonstrations, posters, and exhibitions make this conference one of the largest and most important gatherings researchers and professionals who specialize in the visual analysis of data. 
 
+For more details please see the [IEEE VIS 2019 Supporter Prospectus](VIS_Supporters_Prospectus_2019.pdf).
 
 Sign-up will be available soon!
-
 
 ## Why Support and Exhibit at IEEE VIS
 
@@ -27,7 +27,5 @@ Sign-up will be available soon!
 * Receive complimentary or reduced conference registrations enabling your company to reach potential customers and recruit potential candidates.
 
 * Support an inclusivity and diversity initiative through donations that provide grants to diverse candidates and to parents to support childcare costs!
-
-For more details please see the [IEEE VIS 2019 Supporter Prospectus](VIS_Supporters_Prospectus_2019.pdf).
 
 You can also contact the supporter chairs: [supporters@ieeevis.org](mailto:supporters@ieeevis.org). 
