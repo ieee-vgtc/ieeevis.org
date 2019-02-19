@@ -35,7 +35,7 @@ permalink: /year/2019/info/committees/vast-program-committee
 | Andreas Kerren | *Linnaeus University* |
 | Azam Khan | *Autodesk* |
 | Jörn Kohlhammer | *Fraunhofer IGD* |
-| Bum Chul Kwon | *IBM* |
+| Bum Chul Kwon | *IBM Research* |
 | Dirk Lehmann | *University of Magdeburg* |
 | Mengchen Liu | *Microsoft* |
 | Shixia Liu | *Tsinghua University* |
