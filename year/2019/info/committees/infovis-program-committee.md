@@ -73,7 +73,7 @@ contact: infovis_papers@ieeevis.org
 | Frank van Ham | *IBM, USA* |
 | Kevin Verbeek | *Eindhoven University of Technology, Netherlands* |
 | Romain Vuillemot | *Ecole Centrale de Lyon, France* |
-| Manuela Waldner | *Vienna University of Technology, Austria* |
+| Manuela Waldner | *TU Wien, Austria* |
 | Jagoda Walny | *University of Calgary, Canada* |
 | Martin Wattenberg | *Google, USA* |
 | Yingcai Wu | *Zhejiang University, China* |
