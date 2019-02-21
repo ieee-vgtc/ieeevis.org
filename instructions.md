@@ -1,7 +1,13 @@
 ---
-layout: main-2019
+layout: main-2018
 title: Instructions for editing the website
 ---
+
+<style type="text/css">
+.instructions-img {
+   width: 620px;
+}
+</style>
 
 # Contributing
 
@@ -28,19 +34,19 @@ The *easiest* way to suggest a change is to go on the bottom of the page you wan
 
 The *best* way to suggest a change is to go on the bottom of the page you want to change and click on “suggest a fix”. You will again be taken to GitHub. For this one you will be asked to log in to a GitHub account. After you do so, you will be shown an interface that looks like this:
 
-<img src="attachments/instructions-1.png" style="width: 100%">
+<img src="attachments/instructions-1.png" class="instructions-img">
 
 After you’re done making the edits, you’ll go to the bottom of the page where there’s this:
 
-<img src="attachments/instructions-2.png" style="width: 100%">
+<img src="attachments/instructions-2.png" class="instructions-img">
 
 After you click on "Propose file change", you’ll be taken to something that looks like this, where you can click on "Create Pull Request":
 
-<img src="attachments/instructions-3.png" style="width: 100%">
+<img src="attachments/instructions-3.png" class="instructions-img">
 
 After you click on that, web gets both a bug report and a proposed change:
 
-<img src="attachments/instructions-4.png" style="width: 100%">
+<img src="attachments/instructions-4.png" class="instructions-img">
 
 If the change is simple, we’ll simply say "OK". If the change requires reviewers, we can ask for people to comment on the thread. After everyone says OK, we merge the change and then we will be able to push it to staging.ieeevis.org
 
@@ -93,3 +99,6 @@ This is the result of five years of legacy pages written atop of each other. We'
 # How to compare staging and production files
 
 This link [compares staging and production branches](https://github.com/ieee-vgtc/ieeevis.org/compare/production).
+
+
+
