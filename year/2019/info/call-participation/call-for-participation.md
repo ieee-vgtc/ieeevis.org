@@ -54,9 +54,7 @@ During this time, reviewers will ensure that necessary conditions for acceptance
 Additionally, IEEE VIS 2019 will feature a separate, short papers track with a submission deadline of June 13, 2019, after 
 notifications for full papers have been sent out. You can find out more in the call for participation for [IEEE VIS Short Papers](shortpapers). 
 
-[//]: #[When preparing your submission, please make sure that you carefully read and adhere to the [paper submission guidelines](paper-submission-guidelines).]
-
-The submission system and detailed paper submission guidelines will be available soon.
+When preparing your submission, please make sure that you carefully read and adhere to the [paper submission guidelines](paper-submission-guidelines).
 
 The three conference tracks at IEEE VIS 2019 use the same submission and review process. The conferences differ in the topics, 
 emphasis, and approach, as described in the conference-specific for [VAST](vast-paper-types), [InfoVis](infovis-paper-types), and [SciVis](scivis-paper-types).
