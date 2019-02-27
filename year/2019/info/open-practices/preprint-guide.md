@@ -25,24 +25,24 @@ These repositories are confirmed to meet all criteria:
 * [http://osf.io/preprints](http://osf.io/preprints) - [walkthrough](https://docs.google.com/document/d/1ZsNLXSDZB5MOTj0FGtPNGZ4FKSAGJ4FrtgoMZf4z-xw/edit?usp=sharing)
 * [http://arxiv.org](http://arxiv.org) - [walkthrough in progress](https://docs.google.com/document/d/1oth87A9mnXK_skh1zgplto4W_eXYPZHkY3DN26gWUR4/edit)
 * [http://zenodo.org](http://zenodo.org)
-    
+
 If you would like to use another repository such as an institutional repository, please email an explanation of how it meets all criteria to open_practices@ieeevis.org. A personal website, lab website, or Github repository does NOT meet the criteria.
 
 ## Sharing the Open Version with VIS
 
-After your paper is accepted and before the print deadline, PCS will have a textbox where you can enter the URL that points to the version of your paper in the open access repository. This paper should be the final “author version”. If you have any issues, please contact the open practice chairs. If you cannot share the paper on an approved open access repository, you must enter the reason instead of the URL.
+After your paper is accepted and before the print deadline, PCS will have a textbox where you can enter the URL that points to the version of your paper in the open access repository. This paper should be the final “author version”. If you have any issues, please contact the open practice chairs. If you cannot share the paper on an approved open access repository, you can enter the reason instead of the URL.
 
-  
+
 
 ## Is sharing the preprint compatible with IEEE’s publication policy?
 
 Yes! Until you sign the IEEE copyright form, the paper is 100% yours, and you can post it anywhere you like. After you sign the copyright form, IEEE explicitly allows you to keep the article on an open access preprint repository. This quote comes from the [IEEE author FAQ](https://www.ieee.org/content/dam/ieee-org/ieee/web/org/pubs/author_faq.pdf):
 
-> **Can an author post his manuscript on a preprint server such as ArXiv?**  
+> **Can an author post their manuscript on a preprint server such as ArXiv?**  
 > Yes. The IEEE recognizes that many authors share their unpublished
 > manuscripts on public sites. Once manuscripts have been accepted for
 > publication by IEEE, an author is required to post an IEEE copyright
-> notice on his preprint. Upon publication, the author must replace the
+> notice on the preprint. Upon publication, the author must replace the
 > preprint with either 1) the full citation to the IEEE work with
 > Digital Object Identifiers (DOI) or a link to the paper’s abstract in
 > IEEE Xplore, or 2) the accepted version only (not the IEEE published
@@ -59,7 +59,7 @@ For arXiv, follow these [instructions](https://arxiv.org/help/jref).
 ## What about Plan-S?
 
 [Plan-S](https://www.coalition-s.org/) is an upcoming European policy requiring publicly funded research publications to be open access (available for free). However, it only relates to open access of papers via the publisher, not preprints or other open practices such as open materials, open data, or preregistration. It can, however, impact which publisher you choose.  
-  
+
 
 ---
 
