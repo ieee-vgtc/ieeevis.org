@@ -1,5 +1,5 @@
 ---
-title: Application Spotlights: Call for Participation
+title: Application Spotlights&colon; Call for Participation
 layout: main-2019
 permalink: /year/2019/info/call-participation/application-spotlights-cfp
 ---
