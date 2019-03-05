@@ -27,7 +27,7 @@ permalink: /year/2019/info/committees/vast-program-committee
 | Michael Gleicher | *University of Wisconsin* |
 | Michael Glueck | *Autodesk* |
 | John Goodall | *Oak Ridge National Laboratory* |
-| David Gotz | *University  of North Carolina at Chapel Hill * |
+| David Gotz | *University  of North Carolina at Chapel Hill* |
 | Eduard Gröller | *Vienna University of Technology* |
 | Yun Jang | *Sejong University* |
 | Jimmy Johansson | *Linköping University* |
