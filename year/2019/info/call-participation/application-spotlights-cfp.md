@@ -13,12 +13,13 @@ We envision an Application Spotlight as a fast-paced, session-sized event (90min
 Those interested in organizing a spotlight should submit a proposal by creating a submission in PCS. The committee will review and evaluate those proposals. Organizers will select the topics to be addressed, recruit speakers for those topics, decide with each speaker on the title of his/her presentation, and provide other information as needed. Moreover, depending on the topic at hand, organizers may choose to publish part of the resulting material. Potential publication venues include VIS-related IEEE journals and electronic publication through IEEE xplore. It is, however, the responsibility of the Spotlight Organizers - not the IEEE VIS (Spotlight) Chairs - to create a journal-level publication opportunity. In contrast, organizers may decide not to publish at all and use the Spotlight as a means to present new content relevant to both an application domain and the VIS community and foster a lively discussion around their selected topic.
 
 ## Preparation of the Proposal
-The Application Spotlight Organizer should provide the following information:
-Title: Describe the subject of your spotlight session as accurately and specifically as possible in not more than ten words.
-Summary: Describe your spotlight in no more than 1500 characters, including spaces. The summary should be written to attract those who work on your specific topic area as well as those who work in related areas. Based on experience, we suggest the following outline: Explain the problem area to be addressed by the speakers and why it is important in significant applications. Explain in as much detail as possible the basic research questions in visualization and analytics that are likely to be triggered by the application. Discuss any methodological advances that are helpful in the application domain and its potential conrributions to basic research.
+The Application Spotlight Organizers should provide the following information:
+* Title: Describe the subject of your spotlight session as accurately and specifically as possible in not more than ten words.
+* Summary: Describe your spotlight in no more than 1500 characters, including spaces. The summary should be written to attract those who work on your specific topic area as well as those who work in related areas. Based on experience, we suggest the following outline: Explain the problem area to be addressed by the speakers and why it is important in significant applications. Explain in as much detail as possible the basic research questions in visualization and analytics that are likely to be triggered by the application. Discuss any methodological advances that are helpful in the application domain and its potential conrributions to basic research.
+* List of organizers
 
 The PDF of your proposal should be submitted via PCS.
 
 ## Important Dates
-Proposals due: April 1, 2019
+Proposals due: April 1, 2019  <br/>
 Acceptance notification: May 1, 2019
