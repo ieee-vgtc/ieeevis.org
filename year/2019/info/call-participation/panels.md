@@ -18,7 +18,7 @@ Panelists should be experts in their fields who can discuss the challenges of vi
 VIS Panels value diversity in perspective, opinion, and representation. The most interesting sessions are the ones where there are many different perspectives. In selecting panels, the committee will favor panels that reflect the breadth and richness of the VIS community. In curating a panel, we urge you to consider speakers that come from a variety of intellectual backgrounds, with diverse genders, ethnicities, and nationalities.
 
 ## Panel Logistics
-Panels are scheduled for the duration of an entire paper session; panel proposals should thus target one hour and 40 minutes total duration, including question and discussion periods. We strongly recommend that in order to keep to time, the chair of the panel is not one of the panel speakers.
+Panels are scheduled for the duration of an entire paper session; panel proposals should thus target one hour and 30 minutes total duration, including question and discussion periods. We strongly recommend that in order to keep to time, the chair of the panel is not one of the panel speakers.
 
 IEEE VIS videorecords and archives panels, making them available online. Many VIS participants, as well as people who cannot attend, have found these archived panels to be a valuable part of the process. Panel organizers may choose not to have the panels made available to the public.
 
