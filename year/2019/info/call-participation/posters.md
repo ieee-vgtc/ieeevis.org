@@ -7,7 +7,7 @@ contact: posters@ieeevis.org
 
 The **IEEE VIS 2019 Poster Program** offers a timely venue to present and discuss original work  or highlights of recent work published or presented in another venue (please see the Plagiarism statement in the end)   through a forum that encourages graphical presentation, demonstration and active engagement with IEEE VIS participants.
 
-In addition to a poster being displayed throughout IEEE VIS
+In addition to a poster being displayed throughout IEEE VIS:
 
 * a two-page summary of your work will be included in the electronic conference proceedings (USB memory stick distributed to conference attendees);
 * interactive poster sessions will provide a forum for presenting your work and discussing new ideas with your peers;
@@ -31,10 +31,7 @@ We particularly encourage contributions that take advantage of the nature of the
 
 ### INFORMATION FOR AUTHORS
 
-Poster authors must submit a two-page summary of their work in the VGTC conference two-column format in line with the IEEE VIS Posters’ formatting 
-
-Guidelines: http://junctionpublishing.org/vgtc/Track/vis.html
- and use the poster format.
+Poster authors must submit a two-page summary of their work in the VGTC conference two-column format in line with the IEEE VIS Posters’ formatting Guidelines: [http://junctionpublishing.org/vgtc/Track/vis.html](http://junctionpublishing.org/vgtc/Track/vis.html) and use the poster format.
 
 Summaries should include a concise description of the idea, the
 results or findings, supporting imagery and figures, and a discussion
@@ -79,8 +76,8 @@ At the time of submission, it is required by the authors to state explicitly in 
 
 | Submission Deadline				| **Friday, June 14, 2019**
 | Notification of Acceptance				| **Monday, July 22, 2019**
-| Final Submission of Camera Ready Summaries	| **Thursday, August 1, 2018**
-| Submission of Video Previews			| **Sunday, August 5, 2018** <!-- (see also [Video Previews](/year/2018/info/presenter-information/video-previews)) -->
+| Final Submission of Camera Ready Summaries	| **Thursday, August 1, 2019**
+| Submission of Video Previews			| **Monday, August 5, 2019** <!-- (see also [Video Previews](/year/2018/info/presenter-information/video-previews)) -->
 
 All deadlines are at **5:00pm Pacific Time (PDT)**.
 
@@ -100,7 +97,7 @@ All authors will receive reviews of their submission explaining the decision and
 
 ### BEST POSTER RESEARCH AWARDS 
 
-The chairs of each conference will award two categories of awards. The ‘Best Poster Research’ awards will recognize the most significant research contributions based on the submitted 2 page poster summary. These awards will be noted in the program and presented with a signed certificate. 
+The chairs of each conference will award two categories of awards. The ‘Best Poster Research’ awards will recognize the most significant research contributions based on the submitted two-page poster summary. These awards will be noted in the program and presented with a signed certificate. 
 
 ### BEST POSTER DESIGN AWARDS
 
