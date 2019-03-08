@@ -46,7 +46,6 @@ permalink: /year/2019/info/committees/vast-program-committee
 | Chris North | *Virginia Polytechnic Institute and State University* |
 | Deokgun Park | *University of Texas, Arlington* |
 | Enamul Prince | *York University* |
-| Heidrun Schumann | *University of Rostock* |
 | Michael Sedlmair | *University of Stuttgart* |
 | Conglei Shi | *Airbnb Inc.* |
 | Lei Shi | *Chinese Academy of Sciences* |
