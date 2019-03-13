@@ -302,4 +302,3 @@ Bilal Alsallakh	|	Bosch
 Alper Sarikaya	|	Microsoft
 <br>
 Jagoda Walny Nix	|	University of Calgary
-<hr/>
