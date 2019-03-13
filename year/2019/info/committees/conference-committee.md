@@ -1,11 +1,11 @@
 
 **General Chairs**
 <br>
-Brian Fisher		UBC
+Brian Fisher | UBC
 <br>
-Alex Endert		Georgia Tech
+Alex Endert | Georgia Tech
 <br>
-Wesley Willett		University of Calgary
+Wesley Willett | University of Calgary
 
 <hr/>
 
@@ -16,15 +16,15 @@ Gautam Chaudhary	Alcon
 
 **Papers Chairs**	
 <br>
-Remco Chang |	Tufts University|  (vAST)
+Remco Chang |	Tufts University | (vAST)
 <br>
 Daniel Keim	| Universität Konstanz | (vAST)
 <br>
 Ross Maciejewski | Arizona State University | (vAST)
 <br>
-Petra Isenberg	|Inria | (InfoVis)
+Petra Isenberg	| Inria | (InfoVis)
 <br>
-Miriah Meyer| University of Utah | (InfoVis)
+Miriah Meyer | University of Utah | (InfoVis)
 <br>
 Jo Wood	| City, University of London | (InfoVis)
 <br>
@@ -35,7 +35,18 @@ Issei Fujishiro	| Keio University | (SciVis)
 Daniel Weiskopf |	University of Stuttgart | (SciVis)
 <br>
 Peter Lindstrom	Lawrence Livermore National Laboratory
+<hr/>
 
+
+**Short Papers Chairs**	
+<br>
+Jing Yang	|	University of North Carolina at Charlotte	|	VAST
+<br>
+Fanny Chevalier	|	University of Toronto	|	InfoVis
+<br>
+Roxana Bujack	|	Los Alamos National Laboratory	|	SciVis
+<br>
+Luis Gustavo Nonato	|	Universidade de Sao Paulo	
 <hr/>
 
 **Posters Chairs**	
@@ -72,27 +83,6 @@ Michael Sedlmair	|	Uni Stuttgart	|	InfoVis
 Hongfeng Yu	|	University of Nebraska-Lincoln	|	SciVis
 <hr/>
 
-**Workshop Chairs**	
-<br>
-Adam Perer	|	Carnegie Mellon University	|	VAST
-<br>
-Anastasia Bezerianos	|	Uni Paris Sud	|	InfoVis
-<br>
-Chaoli Wang	|	Notre Dame	|	SciVis
-<br>
-Natalia Andrienko	|	Fraunhofer Institute IAIS and City, University London	
-<hr/>
-
-**Short Papers Chairs**	
-<br>
-Jing Yang	|	University of North Carolina at Charlotte	|	VAST
-<br>
-Fanny Chevalier	|	University of Toronto	|	InfoVis
-<br>
-Roxana Bujack	|	Los Alamos National Laboratory	|	SciVis
-<br>
-Luis Gustavo Nonato	|	Universidade de Sao Paulo	
-<hr/>
 
 **Application Spotlights**	
 <br>
@@ -110,6 +100,16 @@ Steve Haroz	|	Inria
 Soumya Dutta	|	Los Alamos National Laboratory
 <hr/>
 
+**Workshop Chairs**	
+<br>
+Adam Perer	|	Carnegie Mellon University	|	VAST
+<br>
+Anastasia Bezerianos	|	Uni Paris Sud	|	InfoVis
+<br>
+Chaoli Wang	|	Notre Dame	|	SciVis
+<br>
+Natalia Andrienko	|	Fraunhofer Institute IAIS and City, University London	
+<hr/>
 
 **VAST Challenge Chairs**	
 <br>
