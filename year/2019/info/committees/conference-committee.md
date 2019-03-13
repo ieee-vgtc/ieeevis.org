@@ -253,6 +253,8 @@ Arvind Satyanarayan	|	MIT
 
 **Steering Committee Liaisons**	
 <br>
+Lisa Avila	|	Kitware | VEC Chair
+<br>
 Silvia Miksch	|	Vienna University of Technology	|	VAST
 <br>
 Melanie Tory	|	Tableau Software	|	InfoVis
