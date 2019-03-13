@@ -25,7 +25,7 @@ Petra Isenberg	|Inria | (InfoVis)
 <br>
 Miriah Meyer| University of Utah | (InfoVis)
 <br>
-Jo Wood	| City University of London | (InfoVis)
+Jo Wood	| City, University of London | (InfoVis)
 <br>
 Gunther Weber	| Lawrence Berkeley National Laboratory | (SciVis)
 <br>
@@ -39,8 +39,6 @@ Peter Lindstrom	Lawrence Livermore National Laboratory
 
 Posters Chairs	
 <br>
-Gautam Chaudhary	Alcon
-<hr/>
 Tatiana von Landesberger	|	TU Darmstadt	|	VAST
 <br>
 Steffen Koch	|	Uni Stuttgart	|	VAST
@@ -57,11 +55,29 @@ Daniel Jonsson	|	Linköping University	|	SciVis
 
 Panels Chairs	
 <br>
-
-<hr/>
 Wei Chen	|	Zhejiang University	|	VAST
 <br>
 Danyel Fisher	|	Honeycomb.io	|	InfoVis
 <br>
 Josh Levine	|	University of Arizona	|	SciVis
 <hr/>
+Tutorial Chairs	
+<br>
+Kresimir Matkovic	|	VRVis Research Center	|	VAST
+<br>
+Michael Sedlmair	|	Uni Stuttgart	|	InfoVis
+<br>
+Hongfeng Yu	|	University of Nebraska-Lincoln	|	SciVis
+<hr/>
+
+Workshop Chairs	
+<br>
+Adam Perer	|	Carnegie Mellon University	|	VAST
+<br>
+Anastasia Bezerianos	|	Uni Paris Sud	|	InfoVis
+<br>
+Chaoli Wang	|	Notre Dame	|	SciVis
+<br>
+Natalia Andrienko	|	Fraunhofer Institute IAIS and City, University London	|	
+<hr/>
+
