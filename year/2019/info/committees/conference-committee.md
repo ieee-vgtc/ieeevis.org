@@ -1,9 +1,5 @@
 
-|   | xzczxc | zxcz |      | zxcz |
-
-
-
-General Chairs
+**General Chairs**
 <br>
 Brian Fisher		UBC
 <br>
@@ -13,12 +9,12 @@ Wesley Willett		University of Calgary
 
 <hr/>
 
-Program Chairs	
+**Program Chairs**	
 <br>
 Gautam Chaudhary	Alcon
 <hr/>
 
-Papers Chairs	
+**Papers Chairs**	
 <br>
 Remco Chang |	Tufts University|  (vAST)
 <br>
@@ -42,7 +38,7 @@ Peter Lindstrom	Lawrence Livermore National Laboratory
 
 <hr/>
 
-Posters Chairs	
+**Posters Chairs**	
 <br>
 Tatiana von Landesberger	|	TU Darmstadt	|	VAST
 <br>
@@ -58,7 +54,7 @@ Daniel Jonsson	|	Linköping University	|	SciVis
 
 <hr/>
 
-Panels Chairs	
+**Panels Chairs**	
 <br>
 Wei Chen	|	Zhejiang University	|	VAST
 <br>
@@ -66,7 +62,7 @@ Danyel Fisher	|	Honeycomb.io	|	InfoVis
 <br>
 Josh Levine	|	University of Arizona	|	SciVis
 <hr/>
-Tutorial Chairs	
+Tutorial Chairs**	
 <br>
 Kresimir Matkovic	|	VRVis Research Center	|	VAST
 <br>
@@ -75,7 +71,7 @@ Michael Sedlmair	|	Uni Stuttgart	|	InfoVis
 Hongfeng Yu	|	University of Nebraska-Lincoln	|	SciVis
 <hr/>
 
-Workshop Chairs	
+**Workshop Chairs**	
 <br>
 Adam Perer	|	Carnegie Mellon University	|	VAST
 <br>
@@ -86,7 +82,7 @@ Chaoli Wang	|	Notre Dame	|	SciVis
 Natalia Andrienko	|	Fraunhofer Institute IAIS and City, University London	
 <hr/>
 
-Short Papers Chairs	
+**Short Papers Chairs**	
 <br>
 Jing Yang	|	University of North Carolina at Charlotte	|	VAST
 <br>
@@ -97,7 +93,7 @@ Roxana Bujack	|	Los Alamos National Laboratory	|	SciVis
 Luis Gustavo Nonato	|	Universidade de Sao Paulo	
 <hr/>
 
-Arts Program Chairs	
+**Arts Program Chairs**	
 <br>
 Till Nagel	|	HS Mannheim
 <br>
@@ -106,42 +102,43 @@ Maria Lantin	|	Emily Carr University
 Yoon Chung Han	|	San Jose State University
 <hr/>
 
-VAST Challenge Chairs	
+**VAST Challenge Chairs**	
 <br>
 Kristin Cook	|	Pacific Northwest National Laboratory
 <br>
 Jordan Crouser	|	Smith College
 <hr/>
 
-SciVis Contest Chairs	
+**SciVis Contest Chairs**	
 <br>
 John Patchett	|	Los Alamos National Laboratory
 <br>
 Silvio Rizzi	|	Argonne National Laboratory
 
 <hr/>
-VDS Workshop Liaison	
+
+**VDS Workshop Liaison**
 <br>
 Adam Perer	|	Carnegie Mellon University
 <br>
 Shixia Liu	|	Tsinghua University
 <hr/>
 
-LDAV Symposium Liaison	
+**LDAV Symposium Liaison**
 <br>
 Ken Moreland	|	Sandia National Laboratories
 <br>
 Hongfeng Yu	|	University of Nebraska–Lincoln
 <hr/>
 
-VizSec Symposium Liaison	
+**VizSec Symposium Liaison**	
 <br>
 Dustin Arendt	|	Pacific Northwest National Laboratories
 <br>
 Robert Gove	|	Two Six Labs
 <hr/>
 
-BioVis Challenges Workshop	
+**BioVis Challenges Workshop**
 <br>
 Anamaria Crisan	|	University of British Columbia
 <br>
@@ -149,7 +146,7 @@ Cydney Nielsen	|	Microsoft
 <hr/>
 
 
-Vis in Practice Chairs	
+**Vis in Practice Chairs**	
 <br>
 Daniela Oelke	|	Siemens
 <br>
@@ -158,7 +155,7 @@ Matthew Brehmer	|	Microsoft Research
 Matt Larsen	|	Livermore National Laboratory
 <hr/>
 
-Doctoral Colloquium Chairs
+**Doctoral Colloquium Chairs**
 <br>
 Wolfgang Aigner	|	St. Pölten University of Applied Sciences	|	VAST
 <br>
@@ -169,7 +166,7 @@ Timo Ropinski	|	Ulm University	|	SciVis
 David Gotz	|	University of North Carolina	|	
 <hr/>
 
-Fast Forward & Video Previews Chairs	
+**Fast Forward & Video Previews Chairs**	
 <br>
 Jian Zhao	|	FXPAL	|	VAST
 <br>
@@ -181,7 +178,7 @@ Narges Mahyar	|	University of Massachusetts, Amherst	|	InfoVis
 
 <hr/>
 
-Meetup Chairs	
+**Meetup Chairs**	
 <br>
 Zhicheng Leo Liu	|	Adobe	|	VAST
 <br>
@@ -191,7 +188,7 @@ Aashish Chaudhary	|	Kitware	|	SciVis
 <hr/>
 
 
-Community Chairs	
+**Community Chairs**	
 <br>
 Jaegul Choo	|	Korea University
 <br>
@@ -200,8 +197,7 @@ Jessica Hullman	|	Northwestern University
 Weiwei Cui	|	Microsoft Research China
 <hr/>
 
-Student Volunteers Chairs	
-
+**Student Volunteers Chairs**	
 <br>
 Fumeng Yang	|	Brown University, Providence
 <br>
@@ -212,7 +208,7 @@ Tim Gerrits	|	University of Magdeburg
 Bon Adriel Aseniero	|	University of Calgary
 <hr/>
 
-Publicity Chairs	
+Publicity Chairs**	
 <br>
 Michael Behrisch	|	Harvard	|	VAST
 <br>
@@ -221,7 +217,7 @@ Daniel Archambault	|	Swansea University	|	InfoVis
 Noeska Smit	|	University of Bergen	|	SciVis
 <hr/>
 
-Inclusivity Chairs	
+**Inclusivity Chairs**	
 <br>
 Michelle Borkin	|	Northeastern University
 <br>
@@ -230,7 +226,7 @@ Kelly Gaither	|	Texas Advanced Computing Center
 Arvind Satyanarayan	|	MIT
 <hr/>
 
-Steering Committee Liaisons	
+**Steering Committee Liaisons**	
 <br>
 Silvia Miksch	|	Vienna University of Technology	|	VAST
 <br>
@@ -239,7 +235,7 @@ Melanie Tory	|	Tableau Software	|	InfoVis
 Deborah Silver	|	Rutgers University	|	SciVis
 <hr/>
 
-Supporters Chairs	
+**Supporters Chairs**	
 <br>
 Jörn Kohlhammer	|	Fraunhofer Darmstadt	|	VAST
 <br>
@@ -249,20 +245,20 @@ Jordan Crouser	|	Smith College	|	SciVis
 
 <hr/>
 
-Finance Chairs	
+**Finance Chairs**	
 <br>
 Loretta Auvil	|	University of Illinois at Urbana-Champaign
 <br>
 Maria Velez	|	CA Technologies
 <hr/>
 
-Publication & Project Coordinator	
+**Publication & Project Coordinator**
 <br>
 Meghan Haley |	Junction Publishing
 
 <hr/>
 
-Archive Chairs	
+**Archive Chairs**	
 <br>
 Hendrik Strobelt	|	Harvard University / IBM
 <br>
@@ -270,7 +266,7 @@ Cody Dunne	|	Northeastern University
 
 <hr/>
 
-Web Chairs	
+**Web Chairs**	
 <br>
 Lane Harrison	|	Worcester Polytechnic Institute
 <br>
