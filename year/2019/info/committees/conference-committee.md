@@ -1,9 +1,6 @@
 
 |   | xzczxc | zxcz |      | zxcz |
-|---|--------|------|------|------|
-|   | xcv    | xvcx |      |      |
-|   |        | xcvx  sfdsd fsd fdsfds| xcvx |      |
-|   |        | xvcx |      |      |
+
 
 
 General Chairs
