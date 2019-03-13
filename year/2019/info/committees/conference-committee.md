@@ -171,13 +171,14 @@ David Gotz	|	University of North Carolina	|
 
 Fast Forward & Video Previews Chairs	
 <br>
-Wolfgang Aigner	|	St. Pölten University of Applied Sciences	|	VAST
+Jian Zhao	|	FXPAL	|	VAST
 <br>
-Uta Hinrichs	|	University of St. Andrews	|	InfoVis
+Ayan Biswas	|	Los Alamos National Laboratory	|	SciVis
 <br>
-Timo Ropinski	|	Ulm University	|	SciVis
+Charles Perin	|	University of Victoria	|	InfoVis
 <br>
-David Gotz	|	University of North Carolina	|	
+Narges Mahyar	|	University of Massachusetts, Amherst	|	InfoVis
+
 <hr/>
 
 Meetup Chairs	
