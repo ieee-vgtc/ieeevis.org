@@ -94,14 +94,29 @@ Roxana Bujack	|	Los Alamos National Laboratory	|	SciVis
 Luis Gustavo Nonato	|	Universidade de Sao Paulo	
 <hr/>
 
-**Arts Program Chairs**	
+**Application Spotlights**	
 <br>
-Till Nagel	|	HS Mannheim
+Alex Endert	|	Georgia Tech
 <br>
-Maria Lantin	|	Emily Carr University
-<br>
-Yoon Chung Han	|	San Jose State University
+Bernd Hentschel	|	RWTH Aachen University
 <hr/>
+
+**Application Spotlights**	
+<br>
+Alex Endert	|	Georgia Tech
+<br>
+Bernd Hentschel	|	RWTH Aachen University
+<hr/>
+
+**Open Practices**	
+<br>
+Cagatay Turkay	|	City University London
+<br>
+Steve Haroz	|	Inria
+<br>
+Soumya Dutta	|	Los Alamos National Laboratory
+<hr/>
+
 
 **VAST Challenge Chairs**	
 <br>
@@ -132,6 +147,23 @@ Ken Moreland	|	Sandia National Laboratories
 Hongfeng Yu	|	University of Nebraska–Lincoln
 <hr/>
 
+**Vis4DH Workshop Liaison**	
+<br>
+Menna El Assady	|	University of Konstanz
+<hr/>
+
+**VAHC Workshop Liaison**	
+<br>
+David Gotz	|	University of North Carolina
+<br>
+Theresia Gschwandtner	|	TU Wien
+<br>
+David Borland	|	Renci
+<br>
+Juergen Bernard	|	TU Darmstadt
+<hr/>
+
+
 **VizSec Symposium Liaison**	
 <br>
 Dustin Arendt	|	Pacific Northwest National Laboratories
@@ -145,7 +177,6 @@ Anamaria Crisan	|	University of British Columbia
 <br>
 Cydney Nielsen	|	Microsoft
 <hr/>
-
 
 **Vis in Practice Chairs**	
 <br>
