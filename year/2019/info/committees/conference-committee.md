@@ -101,13 +101,6 @@ Alex Endert	|	Georgia Tech
 Bernd Hentschel	|	RWTH Aachen University
 <hr/>
 
-**Application Spotlights**	
-<br>
-Alex Endert	|	Georgia Tech
-<br>
-Bernd Hentschel	|	RWTH Aachen University
-<hr/>
-
 **Open Practices**	
 <br>
 Cagatay Turkay	|	City University London
