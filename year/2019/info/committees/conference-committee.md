@@ -62,7 +62,8 @@ Danyel Fisher	|	Honeycomb.io	|	InfoVis
 <br>
 Josh Levine	|	University of Arizona	|	SciVis
 <hr/>
-Tutorial Chairs**	
+
+**Tutorial Chairs**	
 <br>
 Kresimir Matkovic	|	VRVis Research Center	|	VAST
 <br>
@@ -208,7 +209,7 @@ Tim Gerrits	|	University of Magdeburg
 Bon Adriel Aseniero	|	University of Calgary
 <hr/>
 
-Publicity Chairs**	
+**Publicity Chairs**	
 <br>
 Michael Behrisch	|	Harvard	|	VAST
 <br>
