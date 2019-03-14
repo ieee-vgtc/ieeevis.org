@@ -11,30 +11,30 @@ Wesley Willett | University of Calgary
 
 **Program Chairs**	
 <br>
-Gautam Chaudhary	Alcon
+Gautam Chaudhary | Alcon
 <hr/>
 
 **Papers Chairs**	
 <br>
-Remco Chang |	Tufts University | (vAST)
+Remco Chang |	Tufts University | VAST
 <br>
-Daniel Keim	| Universität Konstanz | (vAST)
+Daniel Keim	| Universität Konstanz | VAST
 <br>
-Ross Maciejewski | Arizona State University | (vAST)
+Ross Maciejewski | Arizona State University | VAST
 <br>
-Petra Isenberg	| Inria | (InfoVis)
+Petra Isenberg	| Inria | InfoVis
 <br>
-Miriah Meyer | University of Utah | (InfoVis)
+Miriah Meyer | University of Utah | InfoVis
 <br>
-Jo Wood	| City, University of London | (InfoVis)
+Jo Wood	| City University London | InfoVis
 <br>
-Gunther Weber	| Lawrence Berkeley National Laboratory | (SciVis)
+Gunther Weber	| Lawrence Berkeley National Laboratory | SciVis
 <br>
-Issei Fujishiro	| Keio University | (SciVis)
+Issei Fujishiro	| Keio University | SciVis
 <br>
-Daniel Weiskopf |	University of Stuttgart | (SciVis)
+Daniel Weiskopf |	University of Stuttgart | SciVis
 <br>
-Peter Lindstrom	Lawrence Livermore National Laboratory
+Peter Lindstrom | Lawrence Livermore National Laboratory | SciVis
 <hr/>
 
 
@@ -78,7 +78,7 @@ Josh Levine	|	University of Arizona	|	SciVis
 <br>
 Kresimir Matkovic	|	VRVis Research Center	|	VAST
 <br>
-Michael Sedlmair	|	Uni Stuttgart	|	InfoVis
+Michael Sedlmair	|	University of Stuttgart	|	InfoVis
 <br>
 Hongfeng Yu	|	University of Nebraska-Lincoln	|	SciVis
 <hr/>
@@ -93,22 +93,22 @@ Bernd Hentschel	|	RWTH Aachen University
 
 **Open Practices**	
 <br>
-Cagatay Turkay	|	City University London
+Cagatay Turkay	|	City University London |	VAST
 <br>
-Steve Haroz	|	Inria
+Steve Haroz	|	Inria	|	InfoVis
 <br>
-Soumya Dutta	|	Los Alamos National Laboratory
+Soumya Dutta	|	Los Alamos National Laboratory	|	SciVis
 <hr/>
 
 **Workshop Chairs**	
 <br>
 Adam Perer	|	Carnegie Mellon University	|	VAST
 <br>
-Anastasia Bezerianos	|	Uni Paris Sud	|	InfoVis
+Anastasia Bezerianos	|	Université Paris Sud	|	InfoVis
 <br>
 Chaoli Wang	|	Notre Dame	|	SciVis
 <br>
-Natalia Andrienko	|	Fraunhofer Institute IAIS and City, University London	
+Natalia Andrienko	|	Fraunhofer Institute IAIS and City University London	
 <hr/>
 
 **VAST Challenge Chairs**	
@@ -173,11 +173,11 @@ Cydney Nielsen	|	Microsoft
 
 **Vis in Practice Chairs**	
 <br>
-Daniela Oelke	|	Siemens
+Daniela Oelke	|	Siemens	|	VAST
 <br>
-Matthew Brehmer	|	Microsoft Research
+Matthew Brehmer	|	Microsoft Research	|	InfoVis
 <br>
-Matt Larsen	|	Livermore National Laboratory
+Matt Larsen	|	Livermore National Laboratory	|	SciVis
 <hr/>
 
 **Doctoral Colloquium Chairs**
