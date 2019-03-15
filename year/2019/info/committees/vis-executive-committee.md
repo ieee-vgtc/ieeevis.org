@@ -4,18 +4,18 @@ layout: main-2019
 permalink: /year/2019/info/committees/vis-executive-committee
 ---
 
-| VGTC Chair | Jim Ahrens | Los Alamos National Laboratory
-| VEC Chair | Lisa Avila | Kitware
-| InfoVis SC Rep | Sheelagh Carpendale | University of Calgary
-| InfoVis SC Rep | Jason Dykes | City University London
-| VAST SC Rep | Brian Fisher | Simon Fraser University
-| VGTC Vice Chair for Conferences | Aditi Majumder UC Irvine
-| VGTC Vice Chair | Miriah Meyer | University of Utah
-| VAST SC Rep | Silvia Miksch | Vienna University of Technology
-| VGTC Director | Robert Morehead | Mississippi State University
-| VGTC Director | Klaus Mueller | Stony Brook University
-| SciVis SC Rep | Han-Wei Shen | The Ohio State University
-| SciVis SC Rep | Deborah Silver | Rutgers University
+| Jim Ahrens | *Los Alamos National Laboratory<br>(VGTC Chair.)*
+| Lisa Avila | *Kitware<br>(VEC Chair.)*
+| Sheelagh Carpendale | *University of Calgary<br>(InfoVis SC Rep.)*
+| Jason Dykes | *City University London<br>(InfoVis SC Rep.)*
+| Brian Fisher | *Simon Fraser University<br>(VAST SC Rep.)*
+| *Aditi Majumder UC Irvine<br>(VGTC Vice Chair for Conferences.)*
+| Miriah Meyer | *University of Utah<br>(VGTC Vice Chair.)*
+| Silvia Miksch | *Vienna University of Technology<br>(VAST SC Rep.)*
+| Robert Morehead | *Mississippi State University<br>(VGTC Director.)*
+| Klaus Mueller | *Stony Brook University<br>(VGTC Director.)*
+| Han-Wei Shen | *The Ohio State University<br>(SciVis SC Rep.)*
+| Deborah Silver | *Rutgers University<br>(SciVis SC Rep.)*
 
 
 **Supporting Documentation**
