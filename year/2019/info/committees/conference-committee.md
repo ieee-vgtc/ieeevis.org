@@ -1,5 +1,5 @@
 ---
-title: VAST Steering Committee
+title: Conference Committee
 layout: main-2019
 permalink: /year/2019/info/committees/conference-committee
 ---
