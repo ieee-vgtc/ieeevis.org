@@ -1,3 +1,8 @@
+---
+title: VAST Steering Committee
+layout: main-2019
+permalink: /year/2019/info/committees/conference-committee
+---
 
 **General Chairs**
 <br>
