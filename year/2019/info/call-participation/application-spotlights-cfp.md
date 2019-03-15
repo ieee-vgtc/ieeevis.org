@@ -21,5 +21,12 @@ The Application Spotlight Organizers should provide the following information:
 The PDF of your proposal should be submitted via PCS.
 
 ## Important Dates
-Proposals due: April 1, 2019  <br/>
-Acceptance notification: May 1, 2019
+Proposals due: April 1, 2019  
+Acceptance notification: May 1, 2019  
+
+## Chairs
+Alex Endert, *Georgia Tech*  
+Bernd Hentschel, *RWTH Aachen*  
+Kristi Potter, *NREL*  
+
+*For questions regarding Application Spotlights, please email: [spotlights@ieeevis.org](mailto:spotlights@ieeevis.org)*
