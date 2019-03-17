@@ -8,14 +8,10 @@ permalink: /year/2019/info/committees/conference-committee
 | Alex Endert | *Georgia Tech* |
 | Brian Fisher | *University of British Columbia* |
 | Wesley Willett | *University of Calgary* |
-
-<br/>
-
+|---|---|
 | **Program Chairs** | |
 | Gautam Chaudhary | *Alcon* |
-
-<br/>
-
+---
 | **Papers Chairs** | |
 | Remco Chang | *Tufts University (VAST)* |
 | Daniel Keim | *Universität Konstanz (VAST)* |
@@ -28,7 +24,7 @@ permalink: /year/2019/info/committees/conference-committee
 | Daniel Weiskopf | *University of Stuttgart (SciVis)* |
 | Peter Lindstrom | *Lawrence Livermore National Laboratory (SciVis)* |
 
-<br/>
+---
 
 | **Short Papers Chairs** | |
 | Jing Yang | *University of North Carolina at Charlotte (VAST)* |
