@@ -5,10 +5,9 @@ permalink: /year/2019/info/committees/conference-committee
 ---
 
 **General Chairs**
-| Brian Fisher | *UBC* |
 | Alex Endert | *Georgia Tech* |
+| Brian Fisher | *University of British Columbia* |
 | Wesley Willett | *University of Calgary* |
-
 <hr/>
 
 **Program Chairs** 
