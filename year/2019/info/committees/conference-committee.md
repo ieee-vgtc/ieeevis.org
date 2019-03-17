@@ -5,305 +5,203 @@ permalink: /year/2019/info/committees/conference-committee
 ---
 
 **General Chairs**
-<br>
-Brian Fisher | UBC
-<br>
-Alex Endert | Georgia Tech
-<br>
-Wesley Willett | University of Calgary
+| Brian Fisher | *UBC* |
+| Alex Endert | *Georgia Tech* |
+| Wesley Willett | *University of Calgary* |
 
 <hr/>
 
-**Program Chairs**	
-<br>
-Gautam Chaudhary | Alcon
+**Program Chairs** 
+| Gautam Chaudhary | *Alcon* |
 <hr/>
 
-**Papers Chairs**	
-<br>
-Remco Chang |	Tufts University | VAST
-<br>
-Daniel Keim	| Universität Konstanz | VAST
-<br>
-Ross Maciejewski | Arizona State University | VAST
-<br>
-Petra Isenberg	| Inria | InfoVis
-<br>
-Miriah Meyer | University of Utah | InfoVis
-<br>
-Jo Wood	| City University London | InfoVis
-<br>
-Gunther Weber	| Lawrence Berkeley National Laboratory | SciVis
-<br>
-Issei Fujishiro	| Keio University | SciVis
-<br>
-Daniel Weiskopf |	University of Stuttgart | SciVis
-<br>
-Peter Lindstrom | Lawrence Livermore National Laboratory | SciVis
+**Papers Chairs** 
+| Remco Chang | *Tufts University (VAST)* |
+| Daniel Keim | *Universität Konstanz (VAST)* |
+| Ross Maciejewski | *Arizona State University (VAST)* |
+| Petra Isenberg | *Inria (InfoVis)* |
+| Miriah Meyer | *University of Utah (InfoVis)* |
+| Jo Wood | *City University London (InfoVis)* |
+| Gunther Weber | *Lawrence Berkeley National Laboratory (SciVis)* |
+| Issei Fujishiro | *Keio University (SciVis)* |
+| Daniel Weiskopf | *University of Stuttgart (SciVis)* |
+| Peter Lindstrom | *Lawrence Livermore National Laboratory (SciVis)* |
 <hr/>
 
 
-**Short Papers Chairs**	
-<br>
-Jing Yang	|	University of North Carolina at Charlotte	|	VAST
-<br>
-Fanny Chevalier	|	University of Toronto	|	InfoVis
-<br>
-Roxana Bujack	|	Los Alamos National Laboratory	|	SciVis
-<br>
-Luis Gustavo Nonato	|	Universidade de Sao Paulo	
+**Short Papers Chairs** 
+| Jing Yang | *University of North Carolina at Charlotte (VAST)* |
+| Fanny Chevalier | *University of Toronto (InfoVis)* |
+| Roxana Bujack | *Los Alamos National Laboratory (SciVis)* |
+| Luis Gustavo Nonato | *Universidade de Sao Paulo* |
 <hr/>
 
-**Posters Chairs**	
-<br>
-Tatiana von Landesberger	|	TU Darmstadt	|	VAST
-<br>
-Steffen Koch	|	Uni Stuttgart	|	VAST
-<br>
-Nathalie Riche	|	Microsoft	|	InfoVis
-<br>
-Christopher Collins	|	University of Ontario Institute of Technology	|	InfoVis
-<br>
-Jian Chen	|	The Ohio State University	|	SciVis
-<br>
-Daniel Jonsson	|	Linköping University	|	SciVis
+**Posters Chairs** 
+| Tatiana von Landesberger | *TU Darmstadt (VAST)* |
+| Steffen Koch | *Uni Stuttgart (VAST)* |
+| Nathalie Riche | *Microsoft (InfoVis)* |
+| Christopher Collins | *University of Ontario Institute of Technology (InfoVis)* |
+| Jian Chen | *The Ohio State University (SciVis)* |
+| Daniel Jonsson | *Linköping University (SciVis)* |
 
 <hr/>
 
-**Panels Chairs**	
-<br>
-Wei Chen	|	Zhejiang University	|	VAST
-<br>
-Danyel Fisher	|	Honeycomb.io	|	InfoVis
-<br>
-Josh Levine	|	University of Arizona	|	SciVis
+**Panels Chairs** 
+| Wei Chen | *Zhejiang University (VAST)* |
+| Danyel Fisher | *Honeycomb.io (InfoVis)* |
+| Josh Levine | *University of Arizona (SciVis)* |
 <hr/>
 
-**Tutorial Chairs**	
-<br>
-Kresimir Matkovic	|	VRVis Research Center	|	VAST
-<br>
-Michael Sedlmair	|	University of Stuttgart	|	InfoVis
-<br>
-Hongfeng Yu	|	University of Nebraska-Lincoln	|	SciVis
+**Tutorial Chairs** 
+| Kresimir Matkovic | *VRVis Research Center (VAST)* |
+| Michael Sedlmair | *University of Stuttgart (InfoVis)* |
+| Hongfeng Yu | *University of Nebraska-Lincoln (SciVis)* |
 <hr/>
 
 
-**Application Spotlights**	
-<br>
-Alex Endert	|	Georgia Tech
-<br>
-Bernd Hentschel	|	RWTH Aachen University
+**Application Spotlights** 
+| Alex Endert | *Georgia Tech* |
+| Bernd Hentschel | *RWTH Aachen University* |
 <hr/>
 
-**Open Practices**	
-<br>
-Cagatay Turkay	|	City University London |	VAST
-<br>
-Steve Haroz	|	Inria	|	InfoVis
-<br>
-Soumya Dutta	|	Los Alamos National Laboratory	|	SciVis
+**Open Practices** 
+| Cagatay Turkay | *City University London (VAST)* |
+| Steve Haroz | *Inria (InfoVis)* |
+| Soumya Dutta | *Los Alamos National Laboratory (SciVis)* |
 <hr/>
 
-**Workshop Chairs**	
-<br>
-Adam Perer	|	Carnegie Mellon University	|	VAST
-<br>
-Anastasia Bezerianos	|	Université Paris Sud	|	InfoVis
-<br>
-Chaoli Wang	|	Notre Dame	|	SciVis
-<br>
-Natalia Andrienko	|	Fraunhofer Institute IAIS and City University London	
+**Workshop Chairs** 
+| Adam Perer | *Carnegie Mellon University (VAST)* |
+| Anastasia Bezerianos | *Université Paris Sud (InfoVis)* |
+| Chaoli Wang | *Notre Dame (SciVis)* |
+| Natalia Andrienko | *Fraunhofer Institute IAIS and City University Londo* |
 <hr/>
 
-**VAST Challenge Chairs**	
-<br>
-Kristin Cook	|	Pacific Northwest National Laboratory
-<br>
-Jordan Crouser	|	Smith College
+**VAST Challenge Chairs** 
+| Kristin Cook | *Pacific Northwest National Laboratory* |
+| Jordan Crouser | *Smith College* |
 <hr/>
 
-**SciVis Contest Chairs**	
-<br>
-John Patchett	|	Los Alamos National Laboratory
-<br>
-Silvio Rizzi	|	Argonne National Laboratory
+**SciVis Contest Chairs** 
+| John Patchett | *Los Alamos National Laboratory* |
+| Silvio Rizzi | *Argonne National Laboratory* |
 
 <hr/>
 
 **VDS Workshop Liaison**
-<br>
-Adam Perer	|	Carnegie Mellon University
-<br>
-Shixia Liu	|	Tsinghua University
+| Adam Perer | *Carnegie Mellon University* |
+| Shixia Liu | *Tsinghua University* |
 <hr/>
 
 **LDAV Symposium Liaison**
-<br>
-Ken Moreland	|	Sandia National Laboratories
-<br>
-Hongfeng Yu	|	University of Nebraska–Lincoln
+| Ken Moreland | *Sandia National Laboratories* |
+| Hongfeng Yu | *University of Nebraska–Lincoln* |
 <hr/>
 
-**Vis4DH Workshop Liaison**	
-<br>
-Menna El Assady	|	University of Konstanz
+**Vis4DH Workshop Liaison** 
+| Menna El Assady | *University of Konstanz* |
 <hr/>
 
-**VAHC Workshop Liaison**	
-<br>
-David Gotz	|	University of North Carolina
-<br>
-Theresia Gschwandtner	|	TU Wien
-<br>
-David Borland	|	Renci
-<br>
-Juergen Bernard	|	TU Darmstadt
+**VAHC Workshop Liaison** 
+| David Gotz | *University of North Carolina* |
+| Theresia Gschwandtner | *TU Wien* |
+| David Borland | *Renci* |
+| Juergen Bernard | *TU Darmstadt* |
 <hr/>
 
 
-**VizSec Symposium Liaison**	
-<br>
-Dustin Arendt	|	Pacific Northwest National Laboratories
-<br>
-Robert Gove	|	Two Six Labs
+**VizSec Symposium Liaison** 
+| Dustin Arendt | *Pacific Northwest National Laboratories* |
+| Robert Gove | *Two Six Labs* |
 <hr/>
 
 **BioVis Challenges Workshop**
-<br>
-Anamaria Crisan	|	University of British Columbia
-<br>
-Cydney Nielsen	|	Microsoft
+| Anamaria Crisan | *University of British Columbia* |
+| Cydney Nielsen | *Microsoft* |
 <hr/>
 
-**Vis in Practice Chairs**	
-<br>
-Daniela Oelke	|	Siemens	|	VAST
-<br>
-Matthew Brehmer	|	Microsoft Research	|	InfoVis
-<br>
-Matt Larsen	|	Livermore National Laboratory	|	SciVis
+**Vis in Practice Chairs** 
+| Daniela Oelke | *Siemens (VAST)* |
+| Matthew Brehmer | *Microsoft Research (InfoVis)* |
+| Matt Larsen | *Livermore National Laboratory (SciVis)* |
 <hr/>
 
 **Doctoral Colloquium Chairs**
-<br>
-Wolfgang Aigner	|	St. Pölten University of Applied Sciences	|	VAST
-<br>
-Uta Hinrichs	|	University of St. Andrews	|	InfoVis
-<br>
-Timo Ropinski	|	Ulm University	|	SciVis
-<br>
-David Gotz	|	University of North Carolina	|	
+| Wolfgang Aigner | *St. Pölten University of Applied Sciences (VAST)* |
+| Uta Hinrichs | *University of St. Andrews (InfoVis)* |
+| Timo Ropinski | *Ulm University (SciVis)* |
+| David Gotz | *University of North Carolina* |
 <hr/>
 
-**Fast Forward & Video Previews Chairs**	
-<br>
-Jian Zhao	|	FXPAL	|	VAST
-<br>
-Ayan Biswas	|	Los Alamos National Laboratory	|	SciVis
-<br>
-Charles Perin	|	University of Victoria	|	InfoVis
-<br>
-Narges Mahyar	|	University of Massachusetts, Amherst	|	InfoVis
+**Fast Forward & Video Previews Chairs** 
+| Jian Zhao | *FXPAL (VAST)* |
+| Ayan Biswas | *Los Alamos National Laboratory (SciVis)* |
+| Charles Perin | *University of Victoria (InfoVis)* |
+| Narges Mahyar | *University of Massachusetts, Amherst (InfoVis)* |
 
 <hr/>
 
-**Meetup Chairs**	
-<br>
-Zhicheng Leo Liu	|	Adobe	|	VAST
-<br>
-Rita Borgo	|	King's College, London	|	InfoVis
-<br>
-Aashish Chaudhary	|	Kitware	|	SciVis
+**Meetup Chairs** 
+| Zhicheng Leo Liu | *Adobe (VAST)* |
+| Rita Borgo | *King's College, London (InfoVis)* |
+| Aashish Chaudhary | *Kitware (SciVis)* |
 <hr/>
 
 
-**Community Chairs**	
-<br>
-Jaegul Choo	|	Korea University
-<br>
-Jessica Hullman	|	Northwestern University
-<br>
-Weiwei Cui	|	Microsoft Research China
+**Community Chairs** 
+| Jaegul Choo | *Korea University* |
+| Jessica Hullman | *Northwestern University* |
+| Weiwei Cui | *Microsoft Research China* |
 <hr/>
 
-**Student Volunteers Chairs**	
-<br>
-Fumeng Yang	|	Brown University, Providence
-<br>
-Tim Luciani	|	University of Illinois at Chicago
-<br>
-Tim Gerrits	|	University of Magdeburg
-<br>
-Bon Adriel Aseniero	|	University of Calgary
+**Student Volunteers Chairs** 
+| Fumeng Yang | *Brown University, Providence* |
+| Tim Luciani | *University of Illinois at Chicago* |
+| Tim Gerrits | *University of Magdeburg* |
+| Bon Adriel Aseniero | *University of Calgary* |
 <hr/>
 
-**Publicity Chairs**	
-<br>
-Michael Behrisch	|	Harvard	|	VAST
-<br>
-Daniel Archambault	|	Swansea University	|	InfoVis
-<br>
-Noeska Smit	|	University of Bergen	|	SciVis
+**Publicity Chairs** 
+| Michael Behrisch | *Harvard (VAST)* |
+| Daniel Archambault | *Swansea University (InfoVis)* |
+| Noeska Smit | *University of Bergen (SciVis)* |
 <hr/>
 
-**Inclusivity Chairs**	
-<br>
-Michelle Borkin	|	Northeastern University
-<br>
-Kelly Gaither	|	Texas Advanced Computing Center
-<br>
-Arvind Satyanarayan	|	MIT
+**Inclusivity Chairs** 
+| Michelle Borkin | *Northeastern University* |
+| Kelly Gaither | *Texas Advanced Computing Center* |
+| Arvind Satyanarayan | *MIT* |
 <hr/>
 
-**Steering Committee Liaisons**	
-<br>
-Lisa Avila	|	Kitware | VEC Chair
-<br>
-Silvia Miksch	|	Vienna University of Technology	|	VAST
-<br>
-Melanie Tory	|	Tableau Software	|	InfoVis
-<br>
-Deborah Silver	|	Rutgers University	|	SciVis
+**Steering Committee Liaisons** 
+| Lisa Avila | *Kitware (VEC Chair)* |
+| Silvia Miksch | *Vienna University of Technology (VAST)* |
+| Melanie Tory | *Tableau Software (InfoVis)* |
+| Deborah Silver | *Rutgers University (SciVis)* |
 <hr/>
 
-**Supporters Chairs**	
-<br>
-Jörn Kohlhammer	|	Fraunhofer Darmstadt	|	VAST
-<br>
-Alexander Lex	|	University of Utah	|	InfoVis
-<br>
-Jordan Crouser	|	Smith College	|	SciVis
-
+**Supporters Chairs** 
+| Jörn Kohlhammer | *Fraunhofer Darmstadt (VAST)* |
+| Alexander Lex | *University of Utah (InfoVis)* |
+| Jordan Crouser | *Smith College (SciVis)* |
 <hr/>
 
-**Finance Chairs**	
-<br>
-Loretta Auvil	|	University of Illinois at Urbana-Champaign
-<br>
-Maria Velez	|	CA Technologies
+**Finance Chairs** 
+| Loretta Auvil | *University of Illinois at Urbana-Champaign* |
+| Maria Velez | *CA Technologies* |
 <hr/>
 
 **Publication & Project Coordinator**
-<br>
-Meghan Haley |	Junction Publishing
-
+| Meghan Haley | *Junction Publishing* |
 <hr/>
 
-**Archive Chairs**	
-<br>
-Hendrik Strobelt	|	Harvard University / IBM
-<br>
-Cody Dunne	|	Northeastern University
-
+**Archive Chairs** 
+| Hendrik Strobelt | *Harvard University / IBM* |
+| Cody Dunne | *Northeastern University* |
 <hr/>
 
-**Web Chairs**	
-<br>
-Lane Harrison	|	Worcester Polytechnic Institute
-<br>
-Bilal Alsallakh	|	Bosch
-<br>
-Alper Sarikaya	|	Microsoft
-<br>
-Jagoda Walny Nix	|	University of Calgary
+**Web Chairs** 
+| Lane Harrison | *Worcester Polytechnic Institute* |
+| Bilal Alsallakh | *Bosch* |
+| Alper Sarikaya | *Microsoft* |
+| Jagoda Walny Nix | *University of Calgary* |
