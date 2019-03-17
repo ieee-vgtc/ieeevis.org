@@ -4,13 +4,14 @@ layout: main-2019
 permalink: /year/2019/info/committees/conference-committee
 ---
 
-**General Chairs**
+| **General Chairs** | | 
 | Alex Endert | *Georgia Tech* |
 | Brian Fisher | *University of British Columbia* |
 | Wesley Willett | *University of Calgary* |
+
 <hr/>
 
-**Program Chairs** 
+**Program Chairs** <br>
 | Gautam Chaudhary | *Alcon* |
 <hr/>
 
