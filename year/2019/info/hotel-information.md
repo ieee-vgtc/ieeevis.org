@@ -11,7 +11,7 @@ The Pinnacle Hotel Harbourfront is located in the Coal Harbour neighborhood of d
 
 Or call: +1-844-337-3118
 
-Single Double Room Rate: $225 CAD
+Single or Double Room Rate: $225 CAD
 
 Reservations Must Be Made by September 15th.
  
