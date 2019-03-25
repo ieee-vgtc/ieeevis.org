@@ -12,6 +12,7 @@ permalink: /year/2019/info/committees/vast-program-committee
 | Enrico Bertini | *New York University* |
 | Alessio Bertone | *Dresden University of Technology* |
 | Tanja Blascheck | *Inria* |
+| Eli Brown | *DePaul University* |
 | Paolo Buono | *University of Bary* |
 | Duen Horng Chau | *Georgia Institute of Technology* |
 | Wei Chen | *Zhejiang University* |
