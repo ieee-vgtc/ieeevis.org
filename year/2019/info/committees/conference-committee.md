@@ -54,7 +54,8 @@ permalink: /year/2019/info/committees/conference-committee
 |---
 | **Application Spotlights** | |
 | Alex Endert | *Georgia Tech* |
-| Bernd Hentschel | *RWTH Aachen University* |
+| Bernd Hentschel | *d.velop AG* |
+| Kristi Potter | NREL |
 |---
 | **Open Practices** | |
 | Cagatay Turkay | *City University London (VAST)* |

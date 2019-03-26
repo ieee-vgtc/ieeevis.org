@@ -15,7 +15,7 @@ Those interested in organizing a spotlight should submit a proposal by creating 
 ## Preparation of the Proposal
 The Application Spotlight Organizers should provide the following information:
 * Title: Describe the subject of your spotlight session as accurately and specifically as possible in not more than ten words.
-* Summary: Describe your spotlight in no more than 1500 characters, including spaces. The summary should be written to attract those who work on your specific topic area as well as those who work in related areas. Based on experience, we suggest the following outline: Explain the problem area to be addressed by the speakers and why it is important in significant applications. Explain in as much detail as possible the basic research questions in visualization and analytics that are likely to be triggered by the application. Discuss any methodological advances that are helpful in the application domain and its potential conrributions to basic research.
+* Summary: Describe your spotlight in no more than 1500 characters, including spaces. The summary should be written to attract those who work on your specific topic area as well as those who work in related areas. Based on experience, we suggest the following outline: Explain the problem area to be addressed by the speakers and why it is important in significant applications. Explain in as much detail as possible the basic research questions in visualization and analytics that are likely to be triggered by the application. Discuss any methodological advances that are helpful in the application domain and its potential contributions to basic research.
 * List of organizers
 
 The PDF of your proposal should be submitted via PCS.
@@ -26,7 +26,7 @@ Acceptance notification: May 6, 2019
 
 ## Chairs
 Alex Endert, *Georgia Tech*  
-Bernd Hentschel, *RWTH Aachen*  
+Bernd Hentschel, *d.velop AG*  
 Kristi Potter, *NREL*  
 
 *For questions regarding Application Spotlights, please email: [spotlights@ieeevis.org](mailto:spotlights@ieeevis.org)*
