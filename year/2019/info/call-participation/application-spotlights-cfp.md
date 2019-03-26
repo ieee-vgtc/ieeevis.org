@@ -21,8 +21,8 @@ The Application Spotlight Organizers should provide the following information:
 The PDF of your proposal should be submitted via PCS.
 
 ## Important Dates
-Proposals due: April 1, 2019  
-Acceptance notification: May 1, 2019  
+Proposals due: April 15, 2019  
+Acceptance notification: May 6, 2019  
 
 ## Chairs
 Alex Endert, *Georgia Tech*  
