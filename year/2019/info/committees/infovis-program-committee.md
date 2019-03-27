@@ -27,6 +27,7 @@ contact: infovis_papers@ieeevis.org
 | Jean-Daniel Fekete | *Inria, France* |
 | Angus Forbes | *University of California, Santa Cruz, USA* |
 | Steven Franconeri | *Northwestern University, USA* |
+| Nils Gehlenborg | *Harvard Medical School, USA* |
 | Sarah Goodwin | *Monash University, Australia* |
 | Carsten Görg | *University of Colorado, USA* |
 | Lane Harrison | *Worcester Polytechnic Institute, USA* |
