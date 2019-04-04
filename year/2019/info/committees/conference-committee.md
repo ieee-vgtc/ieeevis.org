@@ -68,6 +68,11 @@ permalink: /year/2019/info/committees/conference-committee
 | Chaoli Wang | *Notre Dame (SciVis)* |
 | Natalia Andrienko | *Fraunhofer Institute IAIS and City University Londo* |
 |---
+| **Arts Program Chairs** | |
+| Till Nagel | *HS Mannheim* |
+| Maria Lantin | *Emily Carr University* |
+| Yoon Chung Han  | *San Jose State University* |
+|---
 | **VAST Challenge Chairs** | |
 | Kristin Cook | *Pacific Northwest National Laboratory* |
 | Jordan Crouser | *Smith College* |
