@@ -9,7 +9,7 @@ We invite you to participate in IEEE VIS by supporting and exhibiting at the con
 
 For more details please see the [IEEE VIS 2019 Supporter Prospectus](VIS_Supporters_Prospectus_2019.pdf).
 
-Sign-up will be available soon!
+<p class="ieeevis-btn-wrapper"><a href="http://www.cvent.com/d/v6qky6" width="150" class="ieeevis-btn">Sign up now</a></p>
 
 ## Why Support and Exhibit at IEEE VIS
 
