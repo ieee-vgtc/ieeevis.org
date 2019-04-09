@@ -13,6 +13,9 @@ permalink: /year/2018/keynote
     <strong>Time: 11:20 am</strong><br />
     <strong>Location: Conv 1, Sec C+D</strong>
   </p> 
+  
+  [Video Presentation](https://vimeo.com/308979581)
+  
   <p>
   <strong>Dieter Schmalstieg</strong><br/> is full professor and head of the Institute of Computer Graphics
   and Vision at Graz University of Technology, Austria. His current research interests are augmented reality,
