@@ -117,7 +117,9 @@ Sarah Goodwin, RMIT University / Monash University
 
 Contact: meier@technologiestiftung-berlin.de
 
-Visualization as a tool for analysis, exploration and communication has become a driving force in the task of unravelling the complex urban fabrics that form our cities. Yet, there is a crucial need to bridge the gap between the flood of urban data and the capacity of decision makers to integrate that data into effective and informed decisions. The CityVis workshop wants to critically assess this notion and ask how data and visualization can be used to serve and better understand or organize urban processes, focusing on an explicitly "human-centric" perspective (i.e. decision support systems, co-creation or evaluation methods).
+Visualization as a tool for analysis, exploration and communication has become a driving force in the task of unravelling the complex urban fabrics that form our cities. Yet, there is a crucial need to bridge the gap between the flood of urban data and the capacity of decision makers to integrate that data into effective and informed decisions. The CityVis workshop wants to critically assess this notion and ask how data and visualization can be used to serve and better understand or organize urban processes, focusing on an explicitly "human-centric" perspective (i.e. decision support systems, co-creation or evaluation methods).  
+
+[Video Presentation](https://vimeo.com/318210267)
 
 
 ## <a name="visxai"></a> [Workshop on Visualization for AI Explainability (VISxAI)](http://visxai.io)
