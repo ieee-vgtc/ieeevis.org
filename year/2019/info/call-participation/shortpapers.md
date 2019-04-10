@@ -14,7 +14,7 @@ The short paper submission deadline is June 13, 2019, creating an opportunity to
 
 Short papers can be up to four pages plus up to one page of references. Submissions will be in the VGTC conference two-column format, in line with the [IEEE VIS formatting guidelines](http://junctionpublishing.org/vgtc/Tasks/camera.html).
 
-The submission system and detailed paper submission guidelines will be available soon.
+Short papers must be submitted through the [Precision Conference System](https://new.precisionconference.com/submissions).
 
 ### Publication Details:
 Accepted short papers will be presented at the VIS conference. They will also be included on the conference proceedings and published in IEEE Xplore with a proper DOI number.  
