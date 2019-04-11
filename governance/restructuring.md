@@ -29,6 +29,6 @@ The reVISe Committee meets weekly and makes its minutes as well as other pertine
 
 The reVISe committee has defined a set of design goals, which are publicly available [here](https://docs.google.com/document/d/1A7iVpl7N-D3yfx4lY1bLG8ZjDHJPj0wauY3ywI-xwFU/edit).
 
-If you would like to give feedback on any aspect related to this committee, please write to [mailto:revise@ieeevis.org](revise@ieeevis.org).
+If you would like to give feedback on any aspect related to this committee, please write to [revise@ieeevis.org](mailto:revise@ieeevis.org).
 
 **Committee Members**:  Tamara Munzner (chair), Min Chen, Alex Endert, Christoph Garth, Petra Isenberg, Alexander Lex, Shixia Liu, Torsten Möller, Anders Ynnerman.
