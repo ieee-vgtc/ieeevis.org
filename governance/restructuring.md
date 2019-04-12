@@ -23,12 +23,14 @@ The VIS Restructuring Committee has concluded its work and has spawned new commi
 
 ### The reVISe Committee (2019-ongoing)
 
-The reVISe committee was formed in early 2019 with the goal of proposing a specific proposal for re-organizing the academic conferences (VAST, InfoVis, SciVis) under a single umbrella. 
-    
-The reVISe Committee meets weekly and makes its minutes as well as other pertinent documents available on this [folder](https://drive.google.com/open?id=1A7iVpl7N-D3yfx4lY1bLG8ZjDHJPj0wauY3ywI-xwFU). 
 
-The reVISe committee has defined a set of design goals, which are publicly available [here](https://docs.google.com/document/d/1A7iVpl7N-D3yfx4lY1bLG8ZjDHJPj0wauY3ywI-xwFU/edit).
 
-If you would like to give feedback on any aspect related to this committee, please write to [revise@ieeevis.org](mailto:revise@ieeevis.org).
+The reVISe Committee was struck in February 2019 by the VEC (VIS Executive Committee), with the mandate of creating a concrete proposal for re-organizing the academic conferences (VAST, InfoVis, SciVis) under a single umbrella, including paper reviewing and governance. It meets weekly, and posts intermediate work products regularly including summarized meeting minutes and key findings. To contact the committee with feedback on any aspect of its work, please write to [revise@ieeevis.org](mailto:revise@ieeevis.org).
 
-**Committee Members**:  Tamara Munzner (chair), Min Chen, Alex Endert, Christoph Garth, Petra Isenberg, Alexander Lex, Shixia Liu, Torsten Möller, Anders Ynnerman.
+We made a [google drive](https://drive.google.com/drive/u/0/folders/1W8Cj0OdjOYxBJxxJzNcmYdNIFt9M0AAD) folder available that contains: 
+- [Meeting Minutes](https://drive.google.com/drive/u/0/folders/1RgMh9o_OUsGRQHWMLm4CCSGBU3539WIM)
+- [Working Documents](https://drive.google.com/drive/u/0/folders/1dqssldHbXLmAD9zeOqHCbfNTb8gjeHKS)
+
+**Committee Members**: Tamara Munzner (chair), Min Chen, Alex Endert, Christoph Garth, Petra Isenberg, Alexander Lex, Shixia Liu, Torsten Möller, Anders Ynnerman.
+
+
