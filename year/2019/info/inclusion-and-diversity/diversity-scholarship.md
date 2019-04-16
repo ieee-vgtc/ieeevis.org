@@ -13,7 +13,9 @@ The VIS 2019 Inclusivity & Diversity Scholarship Committee will review applicati
 
 ### Application and Timeline:
 
-* Application form (posted early summer 2019) 
+* Applications form (will be posted May 1, 2019)
+* Deadline: June 30, 2019
+* Notifications Sent: August 1, 2019
 
 ### Contact
 
