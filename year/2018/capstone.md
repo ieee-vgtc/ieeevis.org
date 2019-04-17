@@ -14,6 +14,8 @@ permalink: /year/2018/capstone
     <strong>Location: Conv 1, Sec C</strong>
   </p>
   
+  [Video Presentation](https://vimeo.com/304098835)
+  
   <p>
   
 <strong> Joachim M. Buhmann </strong> <br> is full professor for Computer Science at ETH Zurich since 2003 representing the research area "Information Science and Engineering". He studied physics at the Technical University of Munich and received a doctoral degree for his research work on artificial neural networks. After research appointments at the University of Southern California (1988-1991) and at the Lawrence Livermore National Laboratory (1991-1992) he served as a professor for applied computer science at the University of Bonn (1992-2003). His research interests range from statistical learning theory to applications of machine learning and artificial intelligence. Research projects are focused on topics in neuroscience, biology and medical sciences, as well as signal processing and computer vision. He has presided the German Society for Pattern Recognition (DAGM e.V.) from 2009-2015. Since 2014 he serves as Vice-Rector for Study Programmes at ETH Zurich. In 2017, he was elected as a member of the Swiss Academy of Technical Sciences SATW, as an honorary member of the German Pattern Recognition Society DAGM and as a research council member of the Swiss National Science Foundation.

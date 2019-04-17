@@ -34,7 +34,6 @@ permalink: /year/2019/info/committees/vast-program-committee
 | Jimmy Johansson | *Linköping University* |
 | Eser Kandogan | *IBM Research* |
 | Andreas Kerren | *Linnaeus University* |
-| Azam Khan | *Autodesk* |
 | Jörn Kohlhammer | *Fraunhofer IGD* |
 | Bum Chul Kwon | *IBM Research* |
 | Dirk Lehmann | *University of Magdeburg* |

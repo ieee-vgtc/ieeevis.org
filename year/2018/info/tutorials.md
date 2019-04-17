@@ -27,7 +27,9 @@ Immersive Analytics is an emerging interdisciplinary research area that investig
 - supports an infovis pipeline for virtual and augmented reality environments;
 - visualizes large (up to 1 million) data points at an optimal framerate for immersive applications; and,
 - provides a technology-agnostic model for user interactions with immersive visualizations.
-This tutorial will introduce participants to the Unity game engine and teach practical skills for implementing immersive data visualisations using IATK.
+This tutorial will introduce participants to the Unity game engine and teach practical skills for implementing immersive data visualisations using IATK.  
+
+[Video Presentation](https://vimeo.com/320646218)
 
 ## <a name="Everything_except_chart"></a> Everything except the chart 2018
 Sunday, Oct 21: 9:00am-12:40pm
