@@ -17,10 +17,10 @@ permalink: /year/2019/info/workshops
 ## <a name="cityvis"></a> [CityVis: 2nd Workshop on Urban Data Visualization — Focus: The Role of the Citizen](http://www.cityvis.io/)
 Date and Time: TBD
 
-Lyn Bartram, Simon Fraser University
-Alex Godwin, American University
-Sarah Goodwin, Monash University
-Sebastian Meier, Technologiestiftung Berlin
+* Lyn Bartram, Simon Fraser University
+* Alex Godwin, American University
+* Sarah Goodwin, Monash University
+* Sebastian Meier, Technologiestiftung Berlin
 
 Contact: contact@sebastianmeier.eu
 
@@ -29,9 +29,9 @@ With the growth and increasing density of urban areas, new technologies are emer
 ## <a name="disa"></a> [DSIA 2019: Data Systems for Interactive Analysis](http://www.interactive-analysis.org/)
 Date and Time: TBD
 
-Leilani Battle, University of Maryland, College Park
-Dominik Moritz, University of Washington
-Joseph Cottam, Pacific Northwest National Laboratory
+* Leilani Battle, University of Maryland, College Park
+* Dominik Moritz, University of Washington
+* Joseph Cottam, Pacific Northwest National Laboratory
 
 Contact: leilani@cs.umd.edu
 
@@ -40,14 +40,14 @@ The primary goal of the DSIA workshop is to bring together researchers from the 
 ## <a name="eviva-ml"></a> [EVIVA-ML: Evaluation of Interactive Visual Machine Learning Systems](https://eviva-ml.github.io/)
 Date and Time: TBD
 
-Nadia Boukhelifa, INRA
-Anastasia Bezerianos, Univ Paris-Sud
-Enrico Bertini, New York University
-Christopher Collins, University of Ontario Institute of Technology
-Steven Drucker, Microsoft Research
-Alex Endert, Georgia Institute of Technology
-Jessica Hullman, Northwestern University
-Michael Sedlmair, University of Stuttgart
+* Nadia Boukhelifa, INRA
+* Anastasia Bezerianos, Univ Paris-Sud
+* Enrico Bertini, New York University
+* Christopher Collins, University of Ontario Institute of Technology
+* Steven Drucker, Microsoft Research
+* Alex Endert, Georgia Institute of Technology
+* Jessica Hullman, Northwestern University
+* Michael Sedlmair, University of Stuttgart
 
 Contact: nadia.boukhelifa@inra.fr
 
@@ -56,15 +56,15 @@ In interactive visual machine learning (IVML), a human operator and a machine co
 ## <a name="mlui"></a> [MLUI: Machine Learning from User Interactions for Visualization and Analytics](https://learningfromusersworkshop.github.io/)
 Date and Time: TBD
 
-John Wenskovitch, Virginia Tech
-Michelle Dowling, Virginia Tech
-Chris North, Virginia Tech
-Remco Chang, Tufts University
-Alex Endert, Georgia Institute of Technology
-David Rogers, Los Alamos National Laboratory
-Fabian Camilo Pe&ntilde;a Lozano, Universidad de los Andes
-Sriram Yarlagadda, DePaul University
-Eli T Brown, DePaul University
+* John Wenskovitch, Virginia Tech
+* Michelle Dowling, Virginia Tech
+* Chris North, Virginia Tech
+* Remco Chang, Tufts University
+* Alex Endert, Georgia Institute of Technology
+* David Rogers, Los Alamos National Laboratory
+* Fabian Camilo Pe&ntilde;a Lozano, Universidad de los Andes
+* Sriram Yarlagadda, DePaul University
+* Eli T Brown, DePaul University
 
 Contact: johnwenskovitch@gmail.com
 
@@ -74,21 +74,21 @@ To achieve this goal, we propose a half-day workshop that incor- porates paper p
 ## <a name="multilayer"></a> [Multilayer Nets: Challenges in Multilayer Network Visualization and Analysis](https://www.list.lu/event/multilayernetworks/)
 Date and Time: TBD
 
-Fintan McGee, Luxembourg Institute of Science and Technology
-Tatiana von Landesberger, TU Darmstadt
-Daniel Archambault, Swansea University
-Mohammad Ghoniem, Luxembourg Institute of Science and Technology
+* Fintan McGee, Luxembourg Institute of Science and Technology
+* Tatiana von Landesberger, TU Darmstadt
+* Daniel Archambault, Swansea University
+* Mohammad Ghoniem, Luxembourg Institute of Science and Technology
 
 Contact: fintan.mcgee@list.lu
 
 Multiple types of nodes/edges in a network are often flattened into a single network. However, real-world data and systems are often more accurately modelled as a set of interacting networks, or layers, with different node and edge types. The concept of Multilayer Networks has recently become prominent in the field of complex systems and the topic is increasing in popularity in a range of domains. Multilayer Networks provide new challenges for visualization, visual analytics, interaction, and modelling. Building on a recent Dagstuhl seminar, our half day workshop will provide a venue for discussion of this important emerging topic. The vision is to stimulate research on Multilayer Networks within the wider visualization and visual analytics communities. The workshop will provide a platform for short presentations on work in progress related to this topic, time for discussions, and a keynote from Prof. Guy Melançon -- a leading researcher in the visualization of multilayer networks.
 
-## <a name="setva"></a> [SetVA: Set Visual Analytics](http://www.example.com/)
+## <a name="setva"></a> [SetVA: Set Visual Analytics](https://setva.win.tue.nl/)
 Date and Time: TBD
 
-Daniel Archambault, Swansea University
-Wouter Meulemans, TU Eindhoven
-Luana Micallef, University of Copenhagen
+* Daniel Archambault, Swansea University
+* Wouter Meulemans, TU Eindhoven
+* Luana Micallef, University of Copenhagen
 
 Contact: w.meulemans@tue.nl
 
@@ -97,11 +97,11 @@ The visualization of sets of elements and their intersections is a fundamental p
 ## <a name="visxai"></a> [Vis X AI: 2nd Workshop on Visualization for AI Explainability](http://visxai.io/)
 Date and Time: TBD
 
-Hendrik Strobelt, IBM Research AI
-Mennatallah El-Assady, University of Konstanz
-Adam Perer, Carnegie Mellon University
-Duen Horng Chau, Georgia Institute of Technology
-Fernanda Viegas, Google Brain
+* Hendrik Strobelt, IBM Research AI
+* Mennatallah El-Assady, University of Konstanz
+* Adam Perer, Carnegie Mellon University
+* Duen Horng Chau, Georgia Institute of Technology
+* Fernanda Viegas, Google Brain
 
 Contact: hendrik@strobelt.com
 
@@ -110,11 +110,11 @@ This workshop focuses on how we, as a visualization community, can use our exper
 ## <a name="visxvision"></a> [Vis X Vision: Workshop on Novel Directions in Vision Science and Visualization Research](https://visxvision.com/)
 Date and Time: TBD
 
-Madison Elliott, University of British Columbia
-Zoya Bylinskii, MIT
-Christine Nothelfer, Northwestern University
-Cindy Xiong, Northwestern University
-Danielle Albers Szafir, University of Colorado Boulder
+* Madison Elliott, University of British Columbia
+* Zoya Bylinskii, MIT
+* Christine Nothelfer, Northwestern University
+* Cindy Xiong, Northwestern University
+* Danielle Albers Szafir, University of Colorado Boulder
 
 Contact: maelliott1010@gmail.com
 
@@ -123,10 +123,10 @@ Interdisciplinary work across vision science and visualization has provided a ne
 ## <a name="viscomm"></a> [VisComm: Workshop on Visualization for Communication](https://viscomm.io/)
 Date and Time: TBD
 
-Benjamin Watson, North Carolina State University
-Robert Kosara, Tableau Research
-Steve Haroz, INRIA
-Noeska Natasja Smit, University of Bergen
+* Benjamin Watson, North Carolina State University
+* Robert Kosara, Tableau Research
+* Steve Haroz, INRIA
+* Noeska Natasja Smit, University of Bergen
 
 Contact: bwatson@ncsu.edu
 
