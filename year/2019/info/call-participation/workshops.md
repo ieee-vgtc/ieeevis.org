@@ -5,6 +5,8 @@ permalink: /year/2019/info/call-participation/workshops
 contact: workshops@ieeevis.org
 ---
 
+[Workshops 2019 Program Now Online](/year/2019/info/workshops)
+
 We solicit workshops related to all areas of visualization. They provide an informal setting in IEEE VIS for participants to discuss advanced topics in visualization, involve experts in the field, disseminate work in progress, and promote new ideas. Workshops at IEEE VIS are open to all registered attendees (“invitation only” workshops will not be approved).
 
 ## Important dates
