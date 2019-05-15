@@ -1,10 +1,4 @@
 ---
-title: meetups
-layout: main-2019
-permalink: /year/2019/info/call-participation/meetups
----
-
----
 title: Meetups
 layout: main-2019
 permalink: /year/2019/info/call-participation/meetups
