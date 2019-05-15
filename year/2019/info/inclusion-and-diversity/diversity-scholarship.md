@@ -11,7 +11,7 @@ Eligible applicants are from underrepresented and/or marginalized groups includi
 
 The VIS 2019 Inclusivity & Diversity Scholarship Committee will review applications based on eligibility, need, and impact. Scholarships awarded will include:
 
-* Complementary conference registration.
+* Complimentary conference registration.
 * On average, based on need, $1000 per recipient will be provided for travel and subsistence. These funds may not cover all costs, but are intended to fill in costs for recipients that might not otherwise be able to attend the conference. Funds can be used to help support travel, lodging, and childcare. Recipients will need to keep original travel tickets, expense receipts and evidence of payment up to the subscribed limits for reimbursement once the conference is over. 
 * An assigned a mentor to guide receipients through the conference experience. 
 * A social event including the recipients and mentors to be held at VIS 2019.
