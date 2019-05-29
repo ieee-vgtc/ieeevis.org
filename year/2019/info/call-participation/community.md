@@ -103,7 +103,7 @@ your fellow VIS attendees, even if you are not actively seeking employment or
 staff!
 
 ### <a name="other-events"></a> Other community-building events in VIS that we are aware of (tell us of yours!)
-* Many excellent [Meetups](/year/2018/info/meetups) this year related to diversity in VIS, as well as career advice.
+* Many excellent [Meetups](/year/2019/info/call-participation/meetups) this year related to diversity in VIS, as well as career advice.
 <!-- (TODO Add more -->
 
 ### Contact
