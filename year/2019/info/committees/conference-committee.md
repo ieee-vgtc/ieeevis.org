@@ -35,7 +35,7 @@ permalink: /year/2019/info/committees/conference-committee
 | Luis Gustavo Nonato | *Universidade de Sao Paulo* |
 |---
 | **Posters Chairs** | |
-| Tatiana von Landesberger | *TU Darmstadt (VAST)* |
+| Tatiana von Landesberger | *Karlsruher Institut für Technologie (VAST)* |
 | Steffen Koch | *Uni Stuttgart (VAST)* |
 | Nathalie Riche | *Microsoft (InfoVis)* |
 | Christopher Collins | *University of Ontario Institute of Technology (InfoVis)* |
