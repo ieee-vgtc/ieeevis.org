@@ -14,6 +14,7 @@ The activities and the room are *open to everyone,* not just awardees of the chi
 
 Grants of up to $500 per family are available for VIS attendees who are bringing small children to the conference or who incur extra expenses in leaving their children at home. The grants will be given as a reimbursement for expenses but attendees are responsible for making their own arrangements for child care. If requests exceed available funding, or if additional funding becomes available, preference will be given to students and early career attendees who are presenting at the conference.
 
+See the dedicated page for [child care grants](./viskids-child-care-grants) for details.
 
 ### VISKids Room
 
