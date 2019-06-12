@@ -38,6 +38,82 @@ Authors of accepted short papers may subsequently submit to TVCG (the journal, n
 
 All deadlines are at **5:00pm Pacific Time (PDT)**.
 
+### Program Committee:
+
+| Greg Abram               | *Texas Advanced Computing Center,  USA*                      |
+| David Auber              | *Université de Bordeaux, France*                             |
+| Michael Behrisch         | *Harvard University, USA*                                    |
+| Matthew Berger           | *Vanderbilt University, USA*                                 |
+| Anne Berres              | *Oak Ridge National Laboratory, USA*                         |
+| Lonni Besancon           | *Université Paris Sud, France*                               |
+| Johanna Beyer            | *Harvard University, USA*                                    |
+| Peer-Timo Bremer         | *Lawrence Livermore National Laboratory, USA*                |
+| Ayan Biswas              | *Los Alamos National Lab, USA*                               |
+| Tanja Blascheck          | *Inria, France*                                              |
+| Chris Bryan              | *Arizona State University, USA*                              |
+| Jian Chen                | *Ohio State University, USA*                                 |
+| Siming Chen              | *Fraunhofer IAIS, Germany*                                   |
+| Shenghui Cheng           | *Shenzhen Research Institute of Big Data, China*             |
+| Isaac Cho                | *University of North Carolina at Charlotte, USA*             |
+| Jaegul Choo              | *Korea University, South Korea*                              |
+| Wei wei Cui              | *Microsoft Research Asia, China*                             |
+| Paolo Ciuccarelli        | *Politecnico di Milano, Italy*                               |
+| Joseph A. Cottam         | *Pacific Northwest National Laboratory, USA*                 |
+| Evanthia Dimara          | *Sorbonne Université, France*                                |
+| Fan Du                   | *Adobe Research, USA*                                        |
+| Soumya Dutta             | *Los Alamos National Lab, USA*                               |
+| Shamal Dohuki            | *University of Duhok, Iraq*                                  |
+| James Eagan              | *Télécom Paritech, France*                                   |
+| Geoffrey Ellis           | *University of Konstanz, Germany*                            |
+| Cristian Felix           | *NYU Polytechnic School of Engineering, USA*                 |
+| Paolo Federico           | *Nokia, Finland*                                             |
+| Nivan Ferreira           | *Federal University of Pernambuco, Brazil*                   |
+| Siwei Fu                 | *IBM Research-Almaden, USA*                                  |
+| Mohammad Ghoneim         | *Luxembourg Institute of Science and Technology, Luxembourg* |
+| Christina Gillmann       | *Technische Universität Kaiserslautern, Germany*             |
+| Florian Heimerl          | *University of Wisconsin - Madison, USA*                     |
+| Mona Hosseinkhani Loorak | *Huawei Consumer Business Group, Canada*                     |
+| Yifan Hu                 | *Yahoo Labs, USA*                                            |
+| Takayuki Itoh            | *Ochanomizu University, Japan*                               |
+| Stefan Jänicke           | *University of Leipzig, Germany*                             |
+| Karsten Klein            | *University of Konstanz, Germany*                            |
+| Søren Knudsen            | *University of Calgary, Canada*                              |
+| Marcos Lage              | *Fluminense Federal University, Brazil*                      |
+| Heidi Lam                | *Tableau Research, USA*                                      |
+| Quan Li                  | *WeBank, China*                                              |
+| Shusen Liu               | *Lawrence Livermore National Laboratory, USA*                |
+| Yafeng Lu                | *Arizona State University, USA*                              |
+| Justin Matejka           | *Autodesk Research, USA*                                     |
+| Elisabeta Marai          | *University of Illinois at Chicago, USA*                     |
+| Fabio Miranda            | *New York University, USA*                                   |
+| Deokgun Park             | *University of Texas at Arlington, USA*                      |
+| Fernando V. Paulovich    | *Dalhousie University, Canada*                               |
+| Charles Perin            | *University of Victoria, Canada*                             |
+| Bruno Pinaud             | *Université de Bordeaux, France*                             |
+| Kristi Potter            | *National Renewable Energy Laboratory, USA*                  |
+| Fateme Rajabiyazdi       | *McGill University, Canada*                                  |
+| Alejandro Ribes          | *Électricité de France, France*                              |
+| Bernice Rogowitz         | *Columbia University, USA*                                   |
+| Allen Sanderson          | *University of Utah, USA*                                    |
+| Alper Sarikaya           | *Microsoft, USA*                                             |
+| Ali Sarvghad             | *University of Massachusetts Amherst, USA*                   |
+| David Schroeder          | *Gonzaga University, USA*                                    |
+| Brian Summa              | *Tulane University, USA*                                     |
+| Guodao Sun               | *Zhejiang University of Technology, China*                   |
+| Alexandru Telea          | *University of Groningen, Netherlands*                       |
+| Cagatay Turkay           | *University of London, UK*                                   |
+| Paola Valdivia           | *Inria, France*                                              |
+| Huy Vo                   | *New York University, USA*                                   |
+| Xiting Wang              | *Microsoft Research Asia, China*                             |
+| Yunhai wang              | *Shandong University, China*                                 |
+| Yanhong Wu               | *Visa Research, USA*                                         |
+| Cong Xie                 | *Facebook, USA*                                              |
+| Hongfeng Yu              | *University of Nebraska-Lincoln, USA*                        |
+| Dirk Zeckzer             | *University of Leipzig, Germany*                             |
+| Jiawan Zhang             | *Tianjin University, China*                                  |
+| Ye Zhao                  | *Kent State University, USA*                                 |
+| Ying Zhao                | *Central South University, China*                            |
+
 ### Vis Short Paper Co-Chairs:
 
 * Roxana Bujack, *Los Alamos National Laboratory, USA*
