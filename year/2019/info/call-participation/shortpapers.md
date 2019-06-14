@@ -56,7 +56,7 @@ All deadlines are at **5:00pm Pacific Time (PDT)**.
 | Shenghui Cheng           | *Shenzhen Research Institute of Big Data, China*             |
 | Isaac Cho                | *University of North Carolina at Charlotte, USA*             |
 | Jaegul Choo              | *Korea University, South Korea*                              |
-| Wei wei Cui              | *Microsoft Research Asia, China*                             |
+| Weiwei Cui               | *Microsoft Research Asia, China*                             |
 | Paolo Ciuccarelli        | *Politecnico di Milano, Italy*                               |
 | Joseph A. Cottam         | *Pacific Northwest National Laboratory, USA*                 |
 | Evanthia Dimara          | *Sorbonne Université, France*                                |
@@ -105,7 +105,7 @@ All deadlines are at **5:00pm Pacific Time (PDT)**.
 | Paola Valdivia           | *Inria, France*                                              |
 | Huy Vo                   | *New York University, USA*                                   |
 | Xiting Wang              | *Microsoft Research Asia, China*                             |
-| Yunhai wang              | *Shandong University, China*                                 |
+| Yunhai Wang              | *Shandong University, China*                                 |
 | Yanhong Wu               | *Visa Research, USA*                                         |
 | Cong Xie                 | *Facebook, USA*                                              |
 | Hongfeng Yu              | *University of Nebraska-Lincoln, USA*                        |
