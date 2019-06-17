@@ -94,7 +94,6 @@ All deadlines are at **5:00pm Pacific Time (PDT)**.
 | Fateme Rajabiyazdi       | *McGill University, Canada*                                  |
 | Alejandro Ribes          | *Électricité de France, France*                              |
 | Bernice Rogowitz         | *Columbia University, USA*                                   |
-| Allen Sanderson          | *University of Utah, USA*                                    |
 | Alper Sarikaya           | *Microsoft, USA*                                             |
 | Ali Sarvghad             | *University of Massachusetts Amherst, USA*                   |
 | David Schroeder          | *Gonzaga University, USA*                                    |
