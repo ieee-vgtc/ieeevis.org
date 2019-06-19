@@ -40,15 +40,15 @@ Panels will be recorded and posted to Vimeo for archival viewing. Panels from 20
 <table border="1">
   	<tbody>
   		<tr>
-  			<td>Friday, June 29, 2019</td>
+  			<td>Saturday, June 29, 2019</td>
   			<td>Proposal Submission</td>
   		</tr>
     <tr>
-  			<td>Friday, August 10, 2019</td>
+  			<td>Saturday, August 10, 2019</td>
   			<td>Notification</td>
   		</tr>
     <tr>
-  			<td>Friday, August 24, 2019</td>
+  			<td>Saturday, August 24, 2019</td>
   			<td>Final Submission of Panel Summaries and Video Fast Forwards</td>
   		</tr>
   	</tbody>
