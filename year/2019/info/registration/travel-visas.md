@@ -11,12 +11,12 @@ If you are planning to attend VIS 2019 and may need a visa, we encourage you to 
 ## Electronic Travel Authorization (eTA)
 
 Since 2016, the Canadian government now requires most visitors (except for U.S. citizens and visitors with a valid visa)
-arriving in Canada by air to complete an Electronic Travel Authorization (eTA) before traveling. If you are arriving by air and are not a Canadian citizen/resident or American citizen and are not traveling on another visa, you will most likely need to obtain an eTA. Please consult the [Canadian Electronic Travel Authorization portal] (https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta.html) for more information.
+arriving in Canada by air to complete an Electronic Travel Authorization (eTA) before traveling. If you are arriving by air and are not a Canadian citizen/resident or American citizen and are not traveling on another visa, you will most likely need to obtain an eTA. Please consult the [Canadian Electronic Travel Authorization portal](https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/eta.html) for more information.
 
 
 ## Visa Letter Requests
 
-For visitors who need a visa in order to enter Canada, visa letter requests are handled through the VIS 2019 registration system when you register for the conference. *You must be fully registered for the conference before any letter can be issued.* 
+For visitors who need a visa in order to enter Canada, visa letter requests are handled through the VIS 2019 registration system when you register for the conference. **You must be fully registered for the conference before any letter can be issued.** 
 
 The generated letter will contain the following:
 
