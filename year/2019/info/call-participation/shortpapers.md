@@ -72,7 +72,6 @@ All deadlines are at **5:00pm Pacific Time (PDT)**.
 | Mohammad Ghoneim         | *Luxembourg Institute of Science and Technology, Luxembourg* |
 | Christina Gillmann       | *Technische Universität Kaiserslautern, Germany*             |
 | Florian Heimerl          | *University of Wisconsin - Madison, USA*                     |
-| Mona Hosseinkhani Loorak | *Huawei Consumer Business Group, Canada*                     |
 | Yifan Hu                 | *Yahoo Labs, USA*                                            |
 | Takayuki Itoh            | *Ochanomizu University, Japan*                               |
 | Stefan Jänicke           | *University of Leipzig, Germany*                             |
