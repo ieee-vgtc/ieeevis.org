@@ -95,7 +95,6 @@ All deadlines are at **5:00pm Pacific Time (PDT)**.
 | Bernice Rogowitz         | *Columbia University, USA*                                   |
 | Alper Sarikaya           | *Microsoft, USA*                                             |
 | Ali Sarvghad             | *University of Massachusetts Amherst, USA*                   |
-| David Schroeder          | *Gonzaga University, USA*                                    |
 | Brian Summa              | *Tulane University, USA*                                     |
 | Guodao Sun               | *Zhejiang University of Technology, China*                   |
 | Alexandru Telea          | *University of Groningen, Netherlands*                       |
