@@ -108,7 +108,7 @@ permalink: /year/2019/info/committees/conference-committee
 |---
 | **Vis in Practice Chairs** | |
 | Daniela Oelke | *Siemens (VAST)* |
-| Matthew Brehmer | *Microsoft Research (InfoVis)* |
+| Matthew Brehmer | *Independent (InfoVis)* |
 | Matt Larsen | *Livermore National Laboratory (SciVis)* |
 |---
 | **Doctoral Colloquium Chairs**| |
