@@ -31,7 +31,7 @@ a) Choose a license (the default arXiv license is recommended by IEEE)
 ![](arxiv_guide_2.png) 
 ![](arxiv_guide_3.png) 
  
-Note that you may need endorsement in a category if it is the first time you’ve submitted to arXiv.org, especially in this category.  See https://arxiv.org/help/endorsement
+Note that you may need endorsement in a category if it is the first time you’ve submitted to arXiv.org, especially in this category.  See [https://arxiv.org/help/endorsement](https://arxiv.org/help/endorsement).
  
 There is currently no category explicitly for visualization. Some categories to consider might be: *cs.HC: Human Computer Interaction, cs.GR: Graphics or cs.LG:Learning*, however, feel free to choose any other category that best fits your paper.
  
