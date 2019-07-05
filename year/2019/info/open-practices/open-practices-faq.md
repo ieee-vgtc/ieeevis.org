@@ -18,10 +18,10 @@ In order to ensure that papers are discoverable and remain accessible long-term,
  
 3. Identifiable - For citations and references to be useful, papers must have a globally unique and persistent identifier (e.g., a DOI). Content posted to the repository must also be immutable and timestamped. Multiple versions of a paper are acceptable, as long as previous versions and timestamps are retained.
  
-4. Reliable - Research should represent a permanent advancement of knowledge and understanding, so it is important that posted papers are available for perpetuity. The archive must therefore have an explicitly stated plan for long-term reliability ([example](http://help.osf.io/m/faqs/l/726460-faqs#what-if-you-run-out-of-funding-what-happens-to-my-data)), or it must deposit all papers in a dedicated “dark archive” such as [Portico](https://www.portico.org/) or [Clockss](https://clockss.org/).
+4. Reliable - Research should represent a permanent advancement of knowledge and understanding, so it is important that posted papers are available for perpetuity. The archive must therefore have an explicitly stated plan for long-term reliability ([example](https://help.osf.io/hc/en-us/articles/360019737894-FAQs#what-if-you-run-out-of-funding-what-happens-to-my-data)), or it must deposit all papers in a dedicated “dark archive” such as [Portico](https://www.portico.org/) or [Clockss](https://clockss.org/).
 
 
-A repository that meets the criteria for long-term reliability and is inline with IEEE policy is [http://arxiv.org](http://arxiv.org) (instructions). If you would like to use another repository such as an institutional repository, please email an explanation of how it meets the criteria to open_practices@ieeevis.org. A personal website, lab website, or any site that is not immutable and has no explicit plans for long-term availability (e.g. GitHub) does NOT meet the criteria.
+A repository that meets the criteria for long-term reliability and is inline with IEEE policy is [arXiv.org](http://arxiv.org) ([instructions](open-practices-arxiv)). If you would like to use another repository such as an institutional repository, please email an explanation of how it meets the criteria to open_practices@ieeevis.org. A personal website, lab website, or any site that is not immutable and has no explicit plans for long-term availability (e.g. GitHub) does NOT meet the criteria.
 
 ## Sharing the Open Version with VIS
 
