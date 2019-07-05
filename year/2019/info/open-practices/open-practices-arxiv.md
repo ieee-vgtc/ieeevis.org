@@ -4,6 +4,12 @@ layout: main-2019
 permalink: /year/2019/info/open-practices/open-practices-arxiv
 ---
 
+<style>
+.content img {
+  width: 100%;
+}
+</style>
+
 # How to share a paper via arXiv.org
 *This section was written by Joshua Levine and further edited by the Open Practice chairs.*
  
