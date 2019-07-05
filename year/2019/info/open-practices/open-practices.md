@@ -14,5 +14,5 @@ If you have any questions or concerns related to open practices, please contact 
 
 [Open Access Preprint Guide and FAQ](open-practices-faq)
 
-[Open Access Preprint Submission Guidance to arXiv](open-practices-faq)
+[Open Access Preprint Submission Guidance to arXiv](open-practices-arxiv)
 
