@@ -60,8 +60,6 @@ The three conference tracks at IEEE VIS 2019 use the same submission and review 
 emphasis, and approach, as described in the conference-specific for [VAST](vast-paper-types), [InfoVis](infovis-paper-types), and [SciVis](scivis-paper-types).
 
 ## Open Access Policy
-Visualization research is better communicated and acted on if it is freely accessible to the research community, practitioners, and the general public. Therefore, all paper authors are encouraged to share their accepted paper in an open access repository before the print deadline in accordance with IEEE copyright regulations.  
-
-[//]: #[include link to OA page]
+Visualization research is better communicated and acted on if it is freely accessible to the research community, practitioners, and the general public. Therefore, all paper authors are encouraged to share their accepted paper in an open access repository before the print deadline in accordance with IEEE copyright regulations. For instructions on how to post an accepted paper to an open access repository, please see the [VIS Open Practices Guidelines](/year/2019/info/open-practices/open-practices).
 
 Email: papers@ieeevis.org
