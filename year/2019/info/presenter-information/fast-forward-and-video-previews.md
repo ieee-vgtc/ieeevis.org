@@ -7,7 +7,7 @@ contact: ff@ieeevis.org
 
 Please **read the following instructions carefully** and submit your
 25-second video for the Video Previews archive and Fast Forward
-conference session by **August 15, 2018**.
+conference session by **August 15, 2019**.
 
 Video previews and fast forwards are a great opportunity to publicize
 your work or event to a wide audience. Video previews are accessible
@@ -50,7 +50,7 @@ vertical-align: top;
 </td></tr>
 <tr><td class="left">Audio</td><td class="videopreview">Narration and free-to-use music<br>
 ** More details below</td><td class="fastforward">None</td></tr>
-<tr><td rowspan="2" class="left">Who</td><td colspan="2">Papers (VAST, InfoVis, SciVis, TVCG, CG&amp;A, VISAP)<br>Panels<br>
+<tr><td rowspan="2" class="left">Who</td><td colspan="2">Papers (VAST, InfoVis, SciVis, Short Papers, TVCG, CG&amp;A, VISAP)<br>Panels<br>
 ** Please submit only one video that can be used with audio as VP and without audio as FF</td></tr>
 <tr><td class="videopreview">Posters (all)</td><td class="fastforward">Posters (only best and honorable mention posters)<br>SciVis contest<br>VISAP art event<br>Supporters<br></td></tr>
 </tbody>
@@ -80,6 +80,9 @@ For questions or more information, please email ff@ieeevis.org.
 
 Fast Forward and Video Previews Chairs
 
-- Zhicheng (Leo) Liu, Adobe (InfoVis)
-- Katerina Vrotsou, Linköping University (VAST)
+- Jian Zhao, FXPAL (VAST)
 - Ayan Biswas, Los Alamos National Laboratory (SciVis)
+- Charles Perin, University of Victoria (InfoVis)
+- Narges Mahyar, University of Massachusetts Amherst (InfoVis)
+
+
