@@ -16,7 +16,7 @@ Please check the second round reviewer comments (if any) and incorporate their s
 
 IMPORTANT: Please make sure the final submission data in PCS is identical to the final PDF (e.g. title, author names and last names, affiliations, author order, emails.) You might need to correct the information in your PCS login in order to update the author information. You can do this by logging into your PCS account > my account > Change my contact information.
 
-You can include a video of your work on the conference USB. Videos are usually up to 5 minutes in length, and you may also include other supplemental material such as additional images or source code on the USB. The web site above includes information on how to do so. The supplementary materials submitted initially for the 1st review cycle will NOT be automatically included in the conference USB or IEEE digital library. Only those submitted in the final version slot will.
+You can include a video of your work on the conference USB stick. TVCG requires that supplemental material is also peer-reviewed, hence, this is only allowed if you have already submitted a video and if the reviewers have found it acceptable. Videos are usually up to 5 minutes in length, and you may also include other supplemental material such as additional images or source code. The website above includes information on how to do so.
 
 At least one author per accepted paper must register to present the work. Also, an author from each paper will present a short preview in a prior session.
 
