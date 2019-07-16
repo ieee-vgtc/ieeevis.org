@@ -53,6 +53,10 @@ Authors: Wenbin He, Junpeng Wang, Hanqi Guo, Ko-Chih Wang, Han-Wei Shen, Mukund 
 
 ### Best Paper Honorable Mention
 
-**xxx**
+**Progressive Wasserstein Barycenters of Persistence Diagrams**
 <br/>
-Authors: yyy
+Authors: Jules Vidal, Joseph Budin, Julien Tierny
+
+**Toward Localized Topological Data Structures: Querying the Forest for the Tree**
+<br/>
+Authors: Pavol Klacansky, Attila Gyulassy, Peer-Timo Bremer, Valerio Pascucci
