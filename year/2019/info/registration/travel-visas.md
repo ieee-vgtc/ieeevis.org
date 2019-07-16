@@ -16,7 +16,7 @@ arriving in Canada by air to complete an Electronic Travel Authorization (eTA) b
 
 ## Visa Letter Requests
 
-For visitors who need a visa in order to enter Canada, visa letter requests are handled through the VIS 2019 registration system when you register for the conference. **You must be fully registered for the conference before any letter can be issued.** 
+For visitors who need a visa in order to enter Canada, visa letter requests are handled through the [VIS 2019 registration system](/year/2019/info/registration/conference-registration) when you register for the conference. **You must be fully registered for the conference before any letter can be issued.** 
 
 The generated letter will contain the following:
 

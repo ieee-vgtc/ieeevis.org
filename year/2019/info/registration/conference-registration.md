@@ -61,9 +61,9 @@ All registration fees will be charged in CAD dollars.
     </tr> 
     <tr> 
       <td>Full Week Life IEEE/ISCB/ACM Member</td> 
-      <td>$580	</td> 
-      <td>$430	</td> 
-      <td>$580	</td> 
+      <td>$580</td> 
+      <td>$430</td> 
+      <td>$580</td> 
       <td>$430</td>
     </tr> 
     <tr> 
@@ -181,7 +181,7 @@ All registration fees will be charged in CAD dollars.
     <tr> 
       <td>2 Day Speaker</td> 
       <td>$850</td> 
-      <td>$630	</td> 
+      <td>$630</td> 
       <td>$850</td> 
       <td>$630</td> 
     </tr> 
@@ -218,12 +218,12 @@ All registration fees will be charged in CAD dollars.
       <td>$100</td> 
       <td>&nbsp;</td> 
       <td>&nbsp;</td> 
-      <td>&nbsp;</td> 
-</tr> 
+      <td>&nbsp;</td>
+    </tr> 
   </tbody> 
 </table> 
 
-IEEE, ACM and ISCB all allow member discounted prices. 
+<p>IEEE, ACM and ISCB all allow member discounted prices.</p>
 
 All cancellations requested in **writing** and received before **October 1, 2019** will be refunded, minus the **cancellation fee of CAD $65**. Special consideration for refund requests after this date will be done on a case-by-case basis. 
 
