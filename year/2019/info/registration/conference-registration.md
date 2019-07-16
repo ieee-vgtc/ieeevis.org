@@ -28,8 +28,8 @@ All registration fees will be charged in CAD dollars.
       <td><strong>Conference Registration Category</strong></td>
       <td><strong>Category	Early Fees CAD (Ends September 20th)</strong></td> 
       <td><strong>Approximated cost in USD</strong></td> 
-      <td><strong>Late Fees CAD (Begins September 21st)</td>
-      <td><strong>Approximated cost in USD</td>
+      <td><strong>Late Fees CAD (Begins September 21st)</strong></td>
+      <td><strong>Approximated cost in USD</strong></td>
     </tr> 
     <tr>
       <td>Full Week IEEE/ISCB/ACM Member</td> 
