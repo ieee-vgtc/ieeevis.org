@@ -7,8 +7,6 @@ Best paper and honorable mention awards are selected per conference track by a d
 Both awards recognize outstanding work from the pool of accepted papers in each conference track.  
 Best paper committees use a variety of criteria to select the best paper including potential impact to the community, 
 the importance of any results obtained, technical challenges overcome, etc. 
-Generally only one best paper is selected per conference track each year and up to three honorable mention awards.
-
 
 ## VAST
 
