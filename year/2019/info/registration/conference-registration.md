@@ -223,7 +223,7 @@ All registration fees will be charged in CAD dollars.
   </tbody> 
 </table> 
 
-IEEE, ACM and ISCB all allow member discounted prices. 
+<p>IEEE, ACM and ISCB all allow member discounted prices.</p>
 
 All cancellations requested in **writing** and received before **October 1, 2019** will be refunded, minus the **cancellation fee of CAD $65**. Special consideration for refund requests after this date will be done on a case-by-case basis. 
 
