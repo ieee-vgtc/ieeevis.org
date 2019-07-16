@@ -28,7 +28,6 @@ Authors: Subhashis Hazarika, Haoyu Li, Ko-Chih Wang, Han-Wei Shen, Ching-Shan Ch
 <br/>
 Authors: Takanori Fujiwara, Oh-Yun Kwon, Kwan-Liu Ma
 
-
 ## InfoVis
 
 ### Best Paper Award
@@ -39,9 +38,9 @@ Authors: Jagoda Walny, Christian Frisson, Mieka West, Doris Kosminsky, Søren Kn
 
 ### Best Paper Honorable Mention
 
-**xxxxx**
+**The Perceptual Proxies of Visual Comparison**
 <br/>
-Authors: yyyyy
+Authors: Nicole Jardine, Brian D. Ondov, Niklas Elmqvist, Steven Franconeri
 
 ## SciVis
 
@@ -53,6 +52,11 @@ Authors: Wenbin He, Junpeng Wang, Hanqi Guo, Ko-Chih Wang, Han-Wei Shen, Mukund 
 
 ### Best Paper Honorable Mention
 
-**xxx**
+**Progressive Wasserstein Barycenters of Persistence Diagrams**
 <br/>
-Authors: yyy
+Authors: Jules Vidal, Joseph Budin, Julien Tierny
+
+**Toward Localized Topological Data Structures: Querying the Forest for the Tree**
+<br/>
+Authors: Pavol Klacansky, Attila Gyulassy, Peer-Timo Bremer, Valerio Pascucci
+
