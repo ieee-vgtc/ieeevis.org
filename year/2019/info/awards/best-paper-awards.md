@@ -4,8 +4,7 @@ layout: main-2019
 permalink: /year/2019/info/awards/best-paper-awards
 ---
 Best paper and honorable mention awards are selected per conference track by a dedicated committee of experienced community members. 
-Both awards recognize outstanding work from the pool of accepted papers in each conference track.  
-Best paper committees use a variety of criteria to select the best paper including potential impact to the community, 
+Both awards recognize outstanding work from the pool of accepted papers in each conference track. Best paper committees use a variety of criteria to select the best paper including potential impact to the community, 
 the importance of any results obtained, technical challenges overcome, etc. 
 
 ## VAST
