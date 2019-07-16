@@ -43,7 +43,7 @@ All deadlines are at *5:00pm Pacific Time (PDT).*
   Monday, July 8, 2019
 * Camera-ready copy<br />
   Thursday, August 1, 2019 <br />
-  [Final Instructions for Authors of Accepted Papers] (/year/2019/info/presenter-information/final-information-paper-authors)
+  [Final Instructions for Authors of Accepted Papers](/year/2019/info/presenter-information/final-information-paper-authors)
 
 ## Submission Guidelines and Reviewing Criteria
 As the leading academic event on visualization research, IEEE VIS expects important, impactful, and potentially transformative 
