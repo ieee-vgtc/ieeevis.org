@@ -24,4 +24,23 @@ At least one author per accepted paper must register to present the work. Also, 
 
 It is **mandatory** for authors of all VIS papers to submit a [25-sec Video Preview](http://ieeevis.org/year/2019/info/presenter-information/fast-forward-and-video-previews) by August 15.
 
+## COMMON EDITING MISTAKES AND NOTES FROM TVCG
+
+Under no circumstances will updates be accepted after 11.59 PM on August 1. We have allowed for exceptions in the past but we will be strict this year.  
+
+Common editting issues: 
+* Use the correct JOURNAL style template (http://junctionpublishing.org/vgtc/Tasks/camera_tvcg.html)
+* Index terms are mandatory
+* The abstract and index term sections use an em-dash between the heading and content; there should not be a space on either side of the em-dash and the content begins on the same line as the heading.
+* Acknowledgement section—is it complete and correct?
+* Titles: Capitalize the first letter of nouns, pronouns, verbs, adjectives, and adverbs; do not capitalize articles, coordinate conjunctions, or prepositions (unless the title begins with such a word).
+* Inclusion of the "manuscript received" block on the bottom of page 1 exactly as is. The 'xx’ placeholders should remain. They will be populated at a later date by TVCG. 
+* Do NOT include page numbers
+* Figure captions begin with “Fig. #” and go below the figure
+* Table captions begin with “Table #.” and go above the table
+* Figures should not be formatted vertically along a page and authors should not be stacking double column figures on top of single column figures, and vice versa. 
+* Text should not be wrapping around any figures, either.
+
+Authors, please pay attention to the whole template, not just the list above.
+
 We are looking forward to an exciting and vibrant IEEE VIS 2019!

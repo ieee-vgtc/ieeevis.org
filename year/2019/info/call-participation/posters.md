@@ -11,7 +11,7 @@ In addition to a poster being displayed throughout IEEE VIS:
 
 * a two-page summary of your work will be included in the electronic conference proceedings (USB memory stick distributed to conference attendees);
 * interactive poster sessions will provide a forum for presenting your work and discussing new ideas with your peers;
-* video previews for posters are strongly suggested;<!-- * [video previews](/year/2019/info/presenter-information/video-previews) for posters are strongly suggested; -->
+* [video previews](/year/2019/info/presenter-information/fast-forward-and-video-previews) for posters are strongly suggested;
 * one presenter per poster will be eligible for the reduced conference rate for authors;
 * best poster design award will be chosen (new this year). 
 

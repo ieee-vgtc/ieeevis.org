@@ -42,7 +42,8 @@ All deadlines are at *5:00pm Pacific Time (PDT).*
 * Final notification<br />
   Monday, July 8, 2019
 * Camera-ready copy<br />
-  Thursday, August 1, 2019
+  Thursday, August 1, 2019 <br />
+  [Final Instructions for Authors of Accepted Papers](/year/2019/info/presenter-information/final-information-paper-authors)
 
 ## Submission Guidelines and Reviewing Criteria
 As the leading academic event on visualization research, IEEE VIS expects important, impactful, and potentially transformative 
@@ -59,9 +60,9 @@ When preparing your submission, please make sure that you carefully read and adh
 The three conference tracks at IEEE VIS 2019 use the same submission and review process. The conferences differ in the topics, 
 emphasis, and approach, as described in the conference-specific for [VAST](vast-paper-types), [InfoVis](infovis-paper-types), and [SciVis](scivis-paper-types).
 
-## Open Access Policy
-Visualization research is better communicated and acted on if it is freely accessible to the research community, practitioners, and the general public. Therefore, all paper authors are encouraged to share their accepted paper in an open access repository before the print deadline in accordance with IEEE copyright regulations.  
+Authors of accepted papers should also follow the [instructions for preparing a camera-ready submission](/year/2019/info/presenter-information/final-information-paper-authors).
 
-[//]: #[include link to OA page]
+## Open Access Policy
+Visualization research is better communicated and acted on if it is freely accessible to the research community, practitioners, and the general public. Therefore, all paper authors are encouraged to share their accepted paper in an open access repository before the print deadline in accordance with IEEE copyright regulations. For instructions on how to post an accepted paper to an open access repository, please see the [VIS Open Practices Guidelines](/year/2019/info/open-practices/open-practices).
 
 Email: papers@ieeevis.org

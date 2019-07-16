@@ -50,7 +50,7 @@ In other words, you may post your paper to a preprint server, but after acceptan
 ## Which version of the paper can I share?
 Share the final preprint version of your accepted article that you create after all rounds of review because it is the most scrutinized and polished. Please do not share the version created by IEEE, which typically has page numbers.
  
-After you receive the DOI from IEEE, you can add it to the repository, which adds a link to the IEEE page. For arXiv, you can follow the guidance [here](open-practices-arxiv).
+After you receive the DOI from IEEE, you must add it to the repository, which adds a link to the IEEE page. For arXiv, you can follow the guidance [here](open-practices-arxiv).
 
 ## What about Plan-S?
 [Plan-S](https://www.coalition-s.org/) is an upcoming European policy requiring publicly funded research publications to be open access (available for free). However, it only relates to open access of papers via the publisher, not preprints or other open practices such as open materials, open data, or preregistration. It can, however, impact which publisher you choose.
