@@ -57,4 +57,3 @@ Authors: Jules Vidal, Joseph Budin, Julien Tierny
 **Toward Localized Topological Data Structures: Querying the Forest for the Tree**
 <br/>
 Authors: Pavol Klacansky, Attila Gyulassy, Peer-Timo Bremer, Valerio Pascucci
-
