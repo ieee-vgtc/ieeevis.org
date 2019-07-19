@@ -17,6 +17,8 @@ permalink: /year/2019/info/committees/vis-executive-committee
 | Han-Wei Shen | *The Ohio State University<br>(SciVis SC Rep.)*
 | Deborah Silver | *Rutgers University<br>(SciVis SC Rep.)*
 
+**Messages from the VEC**
+* [July 18, 2019: Open Letter to the VIS Community On Open Access Policy](https://drive.google.com/open?id=1-9bwz78kXLyOZEQhnvbvT8DnAUlJbkBQ)
 
 **Supporting Documentation**
 
