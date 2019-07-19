@@ -23,7 +23,7 @@ Authors: Subhashis Hazarika, Haoyu Li, Ko-Chih Wang, Han-Wei Shen, Ching-Shan Ch
 
 **Supporting Analysis of Dimensionality Reduction Results with Contrastive Learning**
 <br/>
-Authors: Takanori Fujiwara, Oh-Yun Kwon, Kwan-Liu Ma
+Authors: Takanori Fujiwara, Oh-Hyun Kwon, Kwan-Liu Ma
 
 ## InfoVis
 
