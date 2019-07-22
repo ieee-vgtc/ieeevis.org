@@ -77,7 +77,7 @@ At the time of submission, it is required by the authors to state explicitly in 
 | Submission Deadline				| **Friday, June 14, 2019**
 | Notification of Acceptance				| **Monday, July 22, 2019**
 | Final Submission of Camera Ready Summaries	| **Thursday, August 1, 2019**
-| Submission of Video Previews			| **Monday, August 5, 2019** <!-- (see also [Video Previews](/year/2018/info/presenter-information/video-previews)) -->
+| Submission of Video Previews			| **Thursday, August 15, 2019** <!-- (see also [Video Previews](/year/2018/info/presenter-information/video-previews)) -->
 
 All deadlines are at **5:00pm Pacific Time (PDT)**.
 
