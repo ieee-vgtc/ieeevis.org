@@ -1,8 +1,10 @@
 PRODUCTION_BUCKET=ieeevis.org
 STAGING_BUCKET=staging.ieeevis.org
+REDESIGN_BUCKET=redesign.ieeevis.org
 
 PRODUCTION_BRANCH=production
 STAGING_BRANCH=master
+REDESIGN_BRANCH=redesign
 
 all: site
 
@@ -16,6 +18,9 @@ production: site
 
 staging: site
 	cd _site && ../scripts/sync_with_s3_boto.py $(STAGING_BRANCH) $(STAGING_BUCKET)
+
+redesign: site
+	cd _site && ../scripts/sync_with_s3_boto.py $(REDESIGN_BRANCH) $(REDESIGN_BUCKET)
 
 check: check-bad-links check-permalink-paths check-content-expiration
 
@@ -42,6 +47,9 @@ staging-clean:
 
 production-clean:
 	aws s3 rm s3://$(PRODUCTION_BUCKET)/ --recursive
+
+redesign-clean:
+	aws s3 rm s3://$(REDESIGN_BUCKET)/ --recursive
 
 autogen-clean:
 	rm data/autogen/*
