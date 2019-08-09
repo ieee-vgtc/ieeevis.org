@@ -13,7 +13,7 @@ permalink: /year/2019/info/committees/vast-program-committee
 | Alessio Bertone | *Dresden University of Technology* |
 | Tanja Blascheck | *Inria* |
 | Eli Brown | *DePaul University* |
-| Paolo Buono | *University of Bary* |
+| Paolo Buono | *University of Bari* |
 | Duen Horng Chau | *Georgia Institute of Technology* |
 | Wei Chen | *Zhejiang University* |
 | Haeyong Chung | *University of Alabama, Huntsville* |
