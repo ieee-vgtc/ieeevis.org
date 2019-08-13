@@ -1,7 +1,9 @@
 *~
 .DS_Store
-_site/
+.jekyll-metadata
 .sass-cache/
+node_modules/
+_site/
 scripts/*.pyc
 /files
 data/autogen/

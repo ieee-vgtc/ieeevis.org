@@ -1,0 +1,38 @@
+{
+  "name": "ieeevis.org",
+  "version": "1.0.0",
+  "description": "This is the Jekyll version of the [IEEE VIS website](http://ieeevis.org).",
+  "main": "error.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "tailwindcss": "^1.0.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "jshint": "^2.10.2",
+    "jshint-loader": "^0.8.4",
+    "node-libs-browser": "^2.2.1",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.37.0",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ieee-vgtc/ieeevis.org.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ieee-vgtc/ieeevis.org/issues"
+  },
+  "homepage": "https://github.com/ieee-vgtc/ieeevis.org#readme"
+}

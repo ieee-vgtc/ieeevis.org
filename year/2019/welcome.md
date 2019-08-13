@@ -1,5 +1,5 @@
 ---
-layout: main-2019
+layout: main
 title: "Welcome to IEEE VIS 2019 in Vancouver!"
 permalink: /year/2019/welcome
 contact: general_chair@ieeevis.org
