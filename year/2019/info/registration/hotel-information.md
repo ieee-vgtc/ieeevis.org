@@ -5,8 +5,8 @@ permalink: /year/2019/info/registration/hotel-information
 contact: "web@ieeevis.org"
 ---
 
-# Venue
-All conference events for VIS 2019 will be held in the [Vancouver Convention Centre East Building](https://www.vancouverconventioncentre.com/facility/floor-plans-and-specs). Located on the waterfront in the core of Vancover's downtown, the venue is surrounded by a diverse set of restaurant, entertainment, and recreation options.
+# Conference Centre
+All conference events for VIS 2019 will be held in the [Vancouver Convention Centre East Building](https://www.vancouverconventioncentre.com/facility/floor-plans-and-specs). Located on the waterfront in the core of Vancover's downtown, the centre is surrounded by a diverse set of restaurant, entertainment, and recreation options.
 
 # Conference Hotel
 The Pinnacle Hotel Harbourfront is located in the Coal Harbour neighborhood of downtown Vancouver, just two blocks from the city’s famous Seawall and the Vancouver Convention Centre. It is among the closest hotels to the Canada Place Cruise Ship Terminal and within walking distance of all of downtown Vancouver’s top attractions including Stanley Park, Gastown and the Granville Street Entertainment District.
