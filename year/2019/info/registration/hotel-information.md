@@ -5,7 +5,6 @@ permalink: /year/2019/info/registration/hotel-information
 contact: "web@ieeevis.org"
 ---
 
-# Conference Centre
 All conference events for VIS 2019 will be held in the [Vancouver Convention Centre East Building](https://www.vancouverconventioncentre.com/facility/floor-plans-and-specs). Located on the waterfront in the core of Vancover's downtown, the centre is surrounded by a diverse set of restaurant, entertainment, and recreation options.
 
 # Conference Hotel
