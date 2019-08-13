@@ -19,3 +19,7 @@ The VIS papers chairs make their acceptance decisions independently, without acc
 Since 2015, authors of selected papers from the IEEE Computer Graphics and Applications (CG&A) from the previous year in the area of visualization have been invited to give an oral presentation about their work at VIS. This M1C2 (Magazine-First-Conference-Second) model increases the visibility of applied research and systems papers among the academic community and fosters synergies between the theoretical and the applied as aspects of the field.
 
 These talks are collected into two or more CG&A-focused sessions. Invitations are issued by the CG&A Editor-in-Chief (currently, Torsten Möller) in the Spring based on scope alignment with the VIS conference and the number of available slots (previously, 10). 
+
+## SIGGRAPH
+
+Coming soon...
