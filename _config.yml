@@ -9,7 +9,7 @@ url: "http://ieeevis.org" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 
-exclude: ['docs', 'data', 'extra', 'README.md', 'Makefile', 'scripts', 'files', '.DS_Store']
+exclude: ['docs', 'data', 'extra', 'README.md', 'Makefile', 'scripts', 'files', '.DS_Store', 'src', 'node_modules']
 
 defaults:
   -
@@ -18,3 +18,4 @@ defaults:
       type: "pages"
     values:
       contact: "web@ieeevis.org"
+      layout: "main"

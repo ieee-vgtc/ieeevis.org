@@ -1,4 +1,6 @@
-// tailwind.config.js
+// Tailwind Config
+// Restart development server to see any changes made here
+
 const { colors } = require('tailwindcss/defaultTheme')
 
 module.exports = {
@@ -9,12 +11,10 @@ module.exports = {
             default: '#0059AF',
             700: '#1571ca',
           },
-          secondary: colors.yellow,
-          neutral: colors.gray,
+          secondary: '#D8FFFC',
         }   
     }
   },
   variants: {},
   plugins: []
 }
-

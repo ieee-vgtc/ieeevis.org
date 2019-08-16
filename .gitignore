@@ -4,6 +4,7 @@
 .sass-cache/
 node_modules/
 _site/
+dist/
 scripts/*.pyc
 /files
 data/autogen/

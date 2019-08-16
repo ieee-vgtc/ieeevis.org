@@ -8,12 +8,13 @@
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     
     <!-- TODO: update favicons -->
-    <link rel="shortcut icon" href="/sites/default/files/favicon.png" type="image/x-icon" />
     
     <!-- Include Material Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <script src="/dist/bundle.js"></script>
+    <link href="/dist/main.css" rel="stylesheet">
+
     
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />

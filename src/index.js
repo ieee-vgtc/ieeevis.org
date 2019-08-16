@@ -1,3 +1,5 @@
-import './index.css';
+import style from "./styles/index.css";
 
-console.log('helloworld');
+import "./scripts/test.js";
+
+console.log('hellooooop world');
