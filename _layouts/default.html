@@ -7,11 +7,52 @@
 
     {% include header.html %}
 
+    <div class="card w-1/3">
+      <p class="font-zilla font-bold pb-4 text-xl">Card Heading</p>
+      <p class="font-fira text-base">This is a little card that shares a little bit of information about what's going on.</p>
+    </div>
+
+    <div class="card w-1/3 bg-blue-100">
+      <p class="font-zilla font-bold pb-4 text-xl">Card Heading</p>
+      <p class="font-fira">This is a little card that shares a little bit of information about what's going on.</p>
+    </div>
+
+    <div class="flex items-center m-4 border rounded-sm border-blue-700 text-blue-700 px-6 py-4 bg-blue-100 border-l-8">
+        <div class="mr-4">
+            <i class="material-icons text-4xl">info</i>
+        </div> 
+        <div>
+            <p class="font-zilla font-bold text-xl">Informational Alert</p>
+            <p class="font-fira">This is a little card that shares a little bit of information about what's going on.</p>
+        </div>
+    </div>
+
+    <table class="m-4 w-1/3 text-blue-700">
+      <tr class="border-b-2 border-blue-700 text-left text-xl font-bold">
+        <th class="font-zilla px-4 py-2">Table Header</th>
+        <th class="font-zilla px-4 py-2">Table Header 2</th>
+      </tr>
+      <tr class="hover:bg-blue-100 border-b border-blue-700">
+        <td class="font-fira px-4 py-2">Table Item 1</td>
+        <td class="font-fira px-4 py-2">Table Cell 1</td>
+      </tr>
+      <tr class="hover:bg-blue-100 border-b border-blue-700">
+          <td class="font-fira px-4 py-2">Table Item 2</td>
+          <td class="font-fira px-4 py-2">Table Cell 2</td>
+      </tr>
+      <tr class="hover:bg-blue-100 border-b-2 border-blue-700">
+        <td class="font-fira px-4 py-2">Table Item 3</td>
+        <td class="font-fira px-4 py-2">Table Cell 3</td>
+      </tr>
+    </table>
+
+
     <div class="page-content center">
       <div class="bg-secondary p-4">
         {{ content }}
       </div>
     </div>
+
   </body>
 
 </html>

@@ -13,6 +13,10 @@ module.exports = {
           },
           secondary: '#D8FFFC',
         }   
+    },
+    fontFamily: {
+      'zilla': ['"Zilla Slab"', 'serif'],
+      'fira': ["'Fira Sans'", 'sans-serif']
     }
   },
   variants: {},
