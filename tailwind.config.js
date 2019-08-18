@@ -12,13 +12,31 @@ module.exports = {
             700: '#1571ca',
           },
           secondary: '#D8FFFC',
-        }   
+        },
     },
+
     fontFamily: {
       'zilla': ['"Zilla Slab"', 'serif'],
       'fira': ["'Fira Sans'", 'sans-serif']
-    }
+    },
+
+    fontSize: {
+      'xl': '38px',
+      'lg': '32px',
+      'md': '22px',
+      'sm': '18px',
+    },
+
+    borderWidth: {
+      default: '1px',
+      '0': '0',
+      '2': '2px',
+      '3': '3px',
+      '4': '4px',
+      '8': '8px',
+    },
   },
+
   variants: {},
   plugins: []
 }
