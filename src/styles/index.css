@@ -1,4 +1,4 @@
-@import "tailwindcss/base";
+
 @import 'typography';
 
 @import "tailwindcss/components";
@@ -7,3 +7,125 @@
 @import 'cards';
 
 @import "tailwindcss/utilities";
+
+h1 {
+  @apply text-xl;
+  line-height: 46px;
+}
+
+h2 {
+  @apply text-lg;
+  line-height: 38px;
+}
+
+h3 {
+  @apply text-md;
+  line-height: 26px;
+}
+
+h4 {
+  @apply text-sm;
+  line-height: 22px;
+}
+
+p {
+  @apply font-fira mb-4;
+}
+
+a {
+  @apply font-fira text-blue-700 underline;
+}
+
+strong {
+  @apply font-bold;
+}
+
+em {
+  @apply italic;
+}
+
+ul {
+  @apply ml-10 font-fira;
+}
+
+ul li::before {
+  content: "\25e6";
+  @apply mr-4 text-green-500 font-fira;
+}
+
+ol {
+  @apply list-decimal ml-10 font-fira;
+}
+
+blockquote {
+  @apply border-l-4 border-green-600 py-4 px-5 font-fira my-4;
+}
+
+.button {
+  @apply tracking-wider flex align-middle bg-white border-2 border-blue-700 rounded text-center font-zilla text-blue-700 font-bold py-2 pl-2 pr-1 mb-4;
+}
+
+.button-blue {
+  @apply bg-blue-700 text-white;
+}
+
+table {
+  @apply font-fira mb-4;
+}
+
+tr {
+  @apply border-b border-dashed border-blue-700;
+}
+
+td {
+  @apply px-4 py-3;
+}
+
+tr:first-child {
+  border-style: solid none dashed;
+  @apply border-t-2 border-blue-700;
+}
+
+tr:last-child {
+  @apply border-b-2 border-solid border-blue-700;
+}
+
+hr {
+  @apply border-b-2 border-green-500 border-dashed relative mb-4;
+}
+
+hr::after {
+  @apply border-green-500 border-2 absolute rounded-full;
+  content: "";
+  right: -14px;
+  top: -4px;
+  width: 6px;
+  height: 6px;
+}
+
+/* Components */
+
+.card {
+  @apply bg-white mb-4 border rounded-sm border-blue-700 text-blue-700 px-6 py-4 relative;
+}
+
+.card::after {
+  content: '';
+  right: calc(100% - .5rem);
+  @apply top-0 left-0 bottom-0 absolute border-r border-blue-700;
+}
+
+/* Reset list style for nav */
+
+nav a {
+  @apply text-white no-underline;
+}
+
+nav ul {
+  @apply m-0;
+}
+
+nav li:before {
+  content: '';
+  @apply m-0;
+}
