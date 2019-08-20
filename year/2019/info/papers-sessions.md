@@ -34,7 +34,7 @@ Authors: Bryce Morrow, Trevor Manz, Arlene E. Chung, Nils Gehlenborg, David Gotz
 Authors: Subhashis Hazarika, Haoyu Li, Ko-Chih Wang, Han-Wei Shen, Ching-Shan Chou
 
 **Supporting Analysis of Dimensionality Reduction Results with Contrastive Learning (J)** *(Best Paper Honorable Mention)*  
-Authors: Takanori Fujiwara, Oh-Yun Kwon, Kwan-Liu Ma
+Authors: Takanori Fujiwara, Oh-Hyun Kwon, Kwan-Liu Ma
 
 **The What-If Tool: Interactive Probing of Machine Learning Models (J)**  
 Authors: James Wexler, Mahima Pushkarna, Tolga Bolukbasi, Martin Wattenberg, Fernanda Viegas, Jimbo Wilson
