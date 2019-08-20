@@ -20,7 +20,7 @@ from data import *
 import min_html as h
 import sys
 
-gc = get_spreadsheet("VIS2017 Program")
+gc = get_spreadsheet("web-VIS2019-Program")
 records = load_sheet_by_name(gc, "Program").get_all_records()
 sessions = load_sheet_by_name(gc, "Sessions").get_all_records()
 awards = dict((award["paper-id"], award) for award in load_sheet_by_name(gc, "Awards").get_all_records())
@@ -67,7 +67,8 @@ def award_string(award):
 
 def render_session(session, out):
     name = session["Key"]
-    venue = venue_name[guess_venue(session)]
+    # venue = venue_name[guess_venue(session)]
+    venue = session_dict[session["Key"]]["Venue"]
     out.write("**%s**  \n" % session_dict[name]["Day"].upper())
     out.write("**%s**  \n" % session_dict[name]["Time"])
     out.write("**Room: %s**  \n" % session_dict[name]["Room"])
@@ -87,7 +88,7 @@ def render_session(session, out):
 
 def session_key(session):
     order = {
-        "8": 0,
+        "9": 0,
         "10": 1,
         "2": 2,
         "4": 3,
@@ -99,5 +100,6 @@ def session_key(session):
     return (day, time)
 
 out = sys.stdout
-for session in sorted(group_by(records, lambda k: k['Session']), key = session_key):
+session_papers = group_by(records, lambda k: k['Session'])
+for session in sorted(session_papers, key = lambda session: session_dict[session['Key']]['Order']):
     render_session(session, out)
