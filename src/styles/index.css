@@ -242,30 +242,116 @@ nav li:before {
 
 /* Navigation */
 
-nav ul {
-  @apply mt-6;
-}
-
 nav li a {
   @apply text-green-500;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 nav li {
   @apply mb-1;
 }
 
-.nav-heading {
-  @apply uppercase font-bold text-xs;
+.submenu {
+  @apply bg-gray-100 p-0 my-4 flex flex-col;
 }
 
-.nav-heading-link {
+@screen md {
+  .submenu {
+    @apply p-12 flex-row;
+  }
+}
+
+.submenu__column {
+  @apply w-full flex flex-col;
+}
+
+@screen md {
+  .submenu__column {
+    @apply w-1/2;
+  }
+}
+
+.submenu__column:first-child {
+  @apply px-8;
+}
+
+@screen md {
+  .submenu__column:first-child {
+    @apply pr-10 pl-0;
+  }
+}
+
+/* Right half of submenu */
+.submenu__column:last-child {
+  @apply bg-blue-100 px-8 border-l-0;
+}
+
+@screen md {
+  .submenu__column:last-child {
+    @apply relative bg-gray-100 pl-10 pr-0 border-l border-blue-700 border-dashed;
+  }
+}
+
+.submenu__column:last-child::before {
+  @apply absolute text-blue-700;
+  content: "\25e6";
+  left: -4px;
+  top: -18px;
+}
+
+.submenu__column:last-child::after {
+  @apply absolute text-blue-700;
+  content: "\25e6";
+  left: -4px;
+  bottom: -15px;
+}
+
+.submenu__section {
+  @apply inline-block py-8;
+}
+
+/* If there's a second section put a border above it */
+.submenu__column .submenu__section:nth-child(2){
+  @apply border-t border-dashed border-blue-700;
+}
+
+.submenu__heading {
+  @apply uppercase font-extrabold text-xs;
+}
+
+.submenu__heading--blue {
   @apply text-blue-700;
 }
 
-.nav-subheading {
+.submenu__subheading {
   @apply text-gray-500;
 }
 
-.nav-description {
+.submenu__description {
   @apply text-gray-600 text-2xs;
+}
+
+.submenu__detailed-link {
+  @apply mt-6;
+}
+
+.submenu__detailed-link a {
+  @apply font-bold text-green-500;
+}
+
+.submenu__subcolumn-container {
+  @apply flex-col;
+}
+
+@screen sm {
+  .submenu__subcolumn-container {
+    @apply flex flex-row;
+  }
+}
+
+.submenu__subcolumn {
+  @apply mt-6 flex-grow;
 }
