@@ -296,17 +296,21 @@ nav li {
 }
 
 .submenu__column:last-child::before {
-  @apply absolute text-blue-700;
-  content: "\25e6";
+  @apply absolute border-2 rounded-full border-blue-700;
+  content: '';
   left: -4px;
-  top: -18px;
+  top: -11px;
+  width: 8px;
+  height: 8px;
 }
 
 .submenu__column:last-child::after {
-  @apply absolute text-blue-700;
-  content: "\25e6";
+  @apply absolute border-2 rounded-full border-blue-700;
+  content: '';
   left: -4px;
-  bottom: -15px;
+  bottom: -11px;
+  width: 8px;
+  height: 8px;
 }
 
 .submenu__section {
@@ -319,14 +323,14 @@ nav li {
 }
 
 .submenu__heading {
-  @apply uppercase font-extrabold text-xs;
+  @apply uppercase font-bold text-xs;
 }
 
 .submenu__heading--blue {
   @apply text-blue-700;
 }
 
-.submenu__subheading {
+.submenu__heading--gray {
   @apply text-gray-500;
 }
 
