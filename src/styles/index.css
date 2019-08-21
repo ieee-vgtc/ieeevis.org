@@ -242,15 +242,15 @@ nav li:before {
 
 /* Navigation */
 
-nav li a {
+.submenu li a {
   @apply text-green-500;
 }
 
-nav a:hover {
+.submenu a:hover {
   text-decoration: underline;
 }
 
-nav li {
+.submenu li {
   @apply mb-1;
 }
 
@@ -280,7 +280,7 @@ nav li {
 
 @screen md {
   .submenu__column:first-child {
-    @apply pr-10 pl-0;
+    @apply pr-16 pl-0;
   }
 }
 
@@ -291,7 +291,7 @@ nav li {
 
 @screen md {
   .submenu__column:last-child {
-    @apply relative bg-gray-100 pl-10 pr-0 border-l border-blue-700 border-dashed;
+    @apply relative bg-gray-100 pl-16 pr-0 border-l border-blue-700 border-dashed;
   }
 }
 
@@ -332,6 +332,10 @@ nav li {
 
 .submenu__heading--gray {
   @apply text-gray-500;
+}
+
+.submenu__heading--dark-gray {
+  @apply text-gray-700;
 }
 
 .submenu__description {
