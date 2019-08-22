@@ -37,11 +37,15 @@ em {
 }
 
 .button {
-  @apply tracking-wider flex align-middle bg-white border-2 border-blue-700 rounded-sm text-center text-blue-700 font-bold py-2 pl-2 pr-1;
+  @apply text-2xs tracking-wider flex align-middle bg-white border-2 border-blue-700 rounded-sm text-center text-blue-700 font-bold py-2 pl-4 pr-3 italic;
 }
 
 .button-blue {
   @apply bg-blue-700 text-white;
+}
+
+.button-teal {
+  @apply bg-teal-600 text-white border-0;
 }
 
 /* Markdown styles */
@@ -134,6 +138,22 @@ nav li:before {
   content: '';
   right: calc(100% - .5rem);
   @apply top-0 left-0 bottom-0 absolute border-r border-blue-700;
+}
+
+.callout-card {
+  @apply flex-1 px-0 py-8;
+}
+
+@screen sm {
+  .callout-card {
+    @apply p-8;
+  }
+}
+
+@screen lg {
+  .callout-card {
+    @apply p-16;
+  }
 }
 
 /* CSS shapes */
