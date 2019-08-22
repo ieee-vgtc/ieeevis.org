@@ -1,12 +1,28 @@
-const webpack = require('webpack')
-const path = require('path')
-const BrowserSyncPlugin = require('browser-sync-webpack-plugin')
-const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const webpack = require('webpack');
+const path = require('path');
+const VueLoaderPlugin = require('vue-loader/lib/plugin');
+const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
+const _root = path.resolve(__dirname, '..');
+
+function root(args) {
+  args = Array.prototype.slice.call(arguments, 0);
+  return path.join.apply(path, [_root].concat(args));
+}
 
 module.exports = {
   devtool: 'source-map',
   entry: path.resolve(__dirname, 'src/index.js'),
+
+  resolve: {
+    extensions: ['.js', '.vue'],
+    alias: {
+      'vue$': 'vue/dist/vue.esm.js',
+      '@': root('src')
+    }
+  },
+
   output: {
     path: __dirname + '/dist',
     filename: "bundle.js"
@@ -14,6 +30,12 @@ module.exports = {
  
   module: {
     rules: [
+      {
+        test: /\.vue$/,
+        loader: 'vue-loader',
+        include: /(src)/
+        // include: [root('src')]
+      },
       {
         test: /\.css$/,
         use: [
@@ -40,13 +62,15 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['env'],
+            presets: ['@babel/preset-env'],
+            plugins: ['@babel/plugin-syntax-dynamic-import']
           },
         },
       },
     ],
   },
   plugins: [
+    new VueLoaderPlugin(),
     new BrowserSyncPlugin({
         host: 'localhost',
         port: 3000,
@@ -63,4 +87,4 @@ module.exports = {
       chunkFilename: '[id].css',
     }),
   ]
-}
+};
