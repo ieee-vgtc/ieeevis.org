@@ -138,51 +138,51 @@
 
 
 
-    <script type="text/javascript">
-document.addEventListener('click', (e) => {
-  if(e.target.tagName.toLowerCase() != 'span') {
-    const all_menus = document.querySelectorAll("div.item");
-    const all_tabs = document.querySelectorAll("span.tab");
-    
-    for(let item of all_menus) {
-      if(!item.classList.contains('hidden')) {
-        item.classList.toggle('hidden');
-      }
-    }
-    
-    for(let tab of all_tabs) {
-      if(tab.classList.contains('bg-primary-700')) {
-        tab.classList.toggle('bg-primary-700');
-      }
-    }
-    
-  }
-})
+<!--    <script type="text/javascript">-->
+<!--document.addEventListener('click', (e) => {-->
+<!--  if(e.target.tagName.toLowerCase() != 'span') {-->
+<!--    const all_menus = document.querySelectorAll("div.item");-->
+<!--    const all_tabs = document.querySelectorAll("span.tab");-->
+<!--    -->
+<!--    for(let item of all_menus) {-->
+<!--      if(!item.classList.contains('hidden')) {-->
+<!--        item.classList.toggle('hidden');-->
+<!--      }-->
+<!--    }-->
+<!--    -->
+<!--    for(let tab of all_tabs) {-->
+<!--      if(tab.classList.contains('bg-primary-700')) {-->
+<!--        tab.classList.toggle('bg-primary-700');-->
+<!--      }-->
+<!--    }-->
+<!--    -->
+<!--  }-->
+<!--})-->
 
-function showMenu(e, item) {
-  const current_menu = document.getElementById(item);
-  const current_tab = e.target;
-  const all_menus = document.querySelectorAll("div.item");
-  const all_tabs = document.querySelectorAll("span.tab");
-  
-  current_menu.classList.toggle('hidden');
-  current_tab.classList.toggle('bg-primary-700');
-  
-  for(let item of all_menus) {
-    if(item.id != current_menu.id) { //check other nav items
-      if(!item.classList.contains('hidden')) {  //if they're still opened
-        item.classList.toggle('hidden');  //make them hidden
-      }
-    }
-  }
-  
-  for(let tab of all_tabs) {
-    if(tab.id != current_tab.id) { //check other tabs
-      if(tab.classList.contains('bg-primary-700')) { //if it's highlighted
-        tab.classList.toggle('bg-primary-700'); //remove highlight
-      }
-    }
-  }
-}
+<!--function showMenu(e, item) {-->
+<!--  const current_menu = document.getElementById(item);-->
+<!--  const current_tab = e.target;-->
+<!--  const all_menus = document.querySelectorAll("div.item");-->
+<!--  const all_tabs = document.querySelectorAll("span.tab");-->
+<!--  -->
+<!--  current_menu.classList.toggle('hidden');-->
+<!--  current_tab.classList.toggle('bg-primary-700');-->
+<!--  -->
+<!--  for(let item of all_menus) {-->
+<!--    if(item.id != current_menu.id) { //check other nav items-->
+<!--      if(!item.classList.contains('hidden')) {  //if they're still opened-->
+<!--        item.classList.toggle('hidden');  //make them hidden-->
+<!--      }-->
+<!--    }-->
+<!--  }-->
+<!--  -->
+<!--  for(let tab of all_tabs) {-->
+<!--    if(tab.id != current_tab.id) { //check other tabs-->
+<!--      if(tab.classList.contains('bg-primary-700')) { //if it's highlighted-->
+<!--        tab.classList.toggle('bg-primary-700'); //remove highlight-->
+<!--      }-->
+<!--    }-->
+<!--  }-->
+<!--}-->
 
-</script>
+<!--</script>-->

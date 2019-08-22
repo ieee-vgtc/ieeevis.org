@@ -1,5 +1,13 @@
 import style from "./styles/index.css";
 
-import "./scripts/test.js";
+import Navbar from './components/navbar'
+import Vue from 'vue'
 
-console.log('hellooooop world');
+document.addEventListener('DOMContentLoaded', () => {
+    new Vue({
+        el: '#app',
+        components: {
+            Navbar
+        }
+    });
+});
