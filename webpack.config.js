@@ -3,6 +3,8 @@ const path = require('path');
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
 const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+
 
 const _root = path.resolve(__dirname, '..');
 
@@ -27,7 +29,7 @@ module.exports = {
     path: __dirname + '/dist',
     filename: "bundle.js"
   },
- 
+
   module: {
     rules: [
       {
@@ -86,5 +88,6 @@ module.exports = {
       filename: '[name].css',
       chunkFilename: '[id].css',
     }),
+    new CleanWebpackPlugin(),
   ]
 };
