@@ -1,0 +1,127 @@
+/* Typography */
+
+body {
+    @apply font-body text-gray-700;
+}
+
+h1,
+.heading-xlarge {
+    @apply font-display font-bold text-primary;
+    @apply text-4xl mb-4;
+    line-height: 115%;
+}
+
+h2,
+.heading-large {
+    @apply font-display font-bold text-primary;
+    @apply text-3xl mb-4;
+    line-height: 115%;
+}
+
+h3,
+.heading-base {
+    @apply font-display font-bold text-primary;
+    @apply text-xl mb-4;
+    line-height: 115%;
+}
+
+h4, h5, h6,
+.heading-small {
+    @apply font-display font-bold text-primary;
+    @apply text-lg mb-4;
+    line-height: 115%;
+}
+
+strong {
+    @apply font-bold;
+}
+
+em {
+    @apply italic;
+}
+
+/* Links */
+.link,
+a:not(.button) {
+    @apply text-primary;
+    border-bottom: 1px dashed;
+}
+
+.link:hover,
+a:not(.button):hover {
+    @apply text-primary-600;
+    transition: color 200ms;
+}
+
+
+/* Markdown styles */
+
+
+p {
+    @apply mb-4;
+}
+
+
+ul {
+    @apply ml-8;
+}
+
+.content li {
+    @apply relative mt-3;
+}
+
+.content ul li::before {
+    content: "\25e6";
+    left: -1rem;
+    @apply absolute text-secondary;
+}
+
+.content ol {
+    @apply list-decimal ml-8;
+}
+
+.content blockquote {
+    @apply border-l-3 border-secondary py-4 px-5 my-4 text-lg;
+}
+
+.content table {
+    @apply mb-4;
+}
+
+.content tr {
+    @apply border-b border-dashed border-primary;
+}
+
+.content td, th {
+    @apply px-4 py-3;
+}
+
+.content tbody tr:first-child {
+    border-style: solid none dashed;
+    @apply border-t-2 border-primary;
+}
+
+table {
+    @apply mb-8 border-b-2 border-solid border-primary text-left;
+}
+
+thead {
+    @apply font-display font-bold text-lg text-primary;
+}
+
+thead + tbody {
+    @apply border-t-2 border-solid border-primary;
+}
+
+.content hr {
+    @apply border-b-2 border-secondary border-dashed relative my-12;
+}
+
+.content hr::after {
+    @apply border-secondary border-2 absolute rounded-full;
+    content: "";
+    right: -14px;
+    top: -4px;
+    width: 6px;
+    height: 6px;
+}

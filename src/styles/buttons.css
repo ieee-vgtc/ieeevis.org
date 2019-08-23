@@ -1,0 +1,39 @@
+/* Buttons */
+
+
+.button {
+    @apply inline-block rounded shadow-md;
+    @apply py-2 px-4;
+    @apply font-display font-medium whitespace-no-wrap;
+    @apply bg-primary text-white;
+    transition: background-color 200ms;
+}
+
+.button::after {
+    content: "→";
+}
+
+.button:hover {
+    @apply bg-primary-800;
+}
+
+.button-secondary {
+    @apply bg-secondary text-white;
+}
+
+.button-secondary:hover {
+    @apply bg-secondary-800;
+}
+
+.button-inverse {
+    @apply border-2 border-primary;
+    @apply bg-white text-primary;
+}
+
+.button-inverse:hover {
+    @apply bg-primary-100; 
+}
+
+.button + .button {
+    @apply ml-2;
+}

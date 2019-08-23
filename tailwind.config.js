@@ -5,30 +5,47 @@ const { colors } = require('tailwindcss/defaultTheme')
 
 module.exports = {
   theme: {
-    extend: {
-        colors: {
-          primary: {
-            default: '#0059AF',
-            700: '#1571ca',
-          },
-          secondary: '#D8FFFC',
-        },
+    colors: {
+      primary: {
+        default: '#0059AF',
+        800: '#085096',
+        700: '#0059AF',
+        600: '#337ABF',
+        200: '#BFD5EB',
+        100:'#E7F3FF',
+      },
+      secondary: {
+        default: '#00A599',
+        800: '#078A81',
+        700: '#00A899',
+        600: '#33B9AD',
+        200: '#BFE9E5',
+        100:'#E5F6F5',
+      },
+      accent: {
+        default: '#D8FFFC',
+      },
+      black: colors.black,
+      white: colors.white,
+      gray: colors.gray,
     },
 
     fontFamily: {
-      'zilla': ['"Zilla Slab"', 'serif'],
-      'fira': ["'Fira Sans'", 'sans-serif']
+      'display': ['"Zilla Slab"', 'serif'],
+      'body': ["'Fira Sans'", 'sans-serif']
     },
-
     fontSize: {
-      'xl': '38px',
-      'lg': '32px',
-      'md': '22px',
-      'sm': '18px',
-      'xs': '16px',
-      '2xs': '14px',
+      xs: '0.75rem',
+      sm: '0.875rem',
+      base: '1rem',
+      lg: '1.125rem',
+      xl: '1.25rem',
+      '2xl': '1.5rem',
+      '3xl': '1.875rem',
+      '4xl': '2.25rem',
+      '5xl': '3rem',
+      '6xl': '4rem',
     },
-
     borderWidth: {
       default: '1px',
       '0': '0',

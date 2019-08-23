@@ -1,0 +1,94 @@
+/* Sections */
+
+/* CSS shapes */
+
+.polygon-primary {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 100%, 70% 90%, 0 90%);
+  /* shape-outside: polygon(0 0, 100% 0, 100% 100%, 78% 100%, 70% 82%, 0 82%); */
+  height: 320px;
+  @apply bg-primary w-full flex flex-col justify-between relative;
+}
+
+.polygon-primary::after {
+  content: "";
+  right: calc(20% + 4px);
+  bottom: -3px;
+  width: 8px;
+  height: 8px;
+  @apply absolute border-white border-2 rounded-full mb-6;
+}
+
+.polygon-primary::before {
+  content: "";
+  right: 0;
+  bottom: 0;
+  @apply absolute border-b-2 border-white border-dashed w-1/5 mb-6;
+}
+
+.polygon-secondary {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 100%, 70% 90%, 0 90%);
+  /* shape-outside: polygon(0 0, 100% 0, 100% 100%, 75% 100%, 70% 90%, 0 90%); */
+  @apply bg-primary p-8 text-white w-full h-auto;
+}
+
+
+.polygon-paper {
+  clip-path: polygon(0 0, 85% 0, 100% 15%, 100% 100%, 0 100%);
+  @apply bg-white w-1/2 h-auto;
+}
+
+.section1, .section2 {
+  height: 400px;
+}
+
+.section2::before {
+  content: '';
+  width: 3rem;
+  height: 2rem;
+  top: calc(-2rem);
+  clip-path: polygon(100% 0, 0 100%, 100% 100%);
+  @apply bg-primary absolute;
+}
+
+.section2::after {
+  content: '';
+  width: calc(3rem - 3px);
+  height: calc(2rem - 2px);
+  top: calc(-2rem + 2px);
+  left: 3px;
+  clip-path: polygon(100% 0, 0 100%, 100% 100%);
+  @apply bg-white absolute;
+}
+
+@media (min-width: 768px) {
+  .section2::before {
+    content: '';
+    width: 5rem;
+    height: 3rem;
+    top: calc(-3rem);
+    clip-path: polygon(100% 0, 0 100%, 100% 100%);
+    @apply bg-primary absolute;
+  }
+
+  .section2::after {
+    content: '';
+    width: calc(5rem - 3px);
+    height: calc(3rem - 2px);
+    top: calc(-3rem + 2px);
+    left: 3px;
+    clip-path: polygon(100% 0, 0 100%, 100% 100%);
+    @apply bg-white absolute;
+  }
+}
+
+.middle-section {
+  top: -2rem;
+  left: 3rem;
+}
+
+@media (min-width: 768px) {
+  .middle-section {
+    top: -3rem;
+    left: 5rem;
+  }
+}

@@ -1,19 +1,14 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+<body>
     <div id="app">
-
-      {% include header.html %}
-
-      <div class="page-content center">
-        <div class="bg-secondary p-4">
-          {{ content }}
-        </div>
-      </div>
+        <navbar></navbar>
+        <main class="pt-8">
+            {{ content }}
+        </main>
     </div>
-  </body>
-
+</body>
 </html>

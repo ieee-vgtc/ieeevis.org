@@ -1,0 +1,11 @@
+/* Cards */
+
+.card {
+  @apply bg-white mb-4 border rounded-sm border-primary-700 text-primary px-6 py-4 relative;
+}
+
+.card::after {
+  content: '';
+  right: calc(100% - .5rem);
+  @apply top-0 left-0 bottom-0 absolute border-r border-primary;
+}

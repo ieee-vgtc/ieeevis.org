@@ -1,0 +1,127 @@
+/* Navigation */
+
+.active {
+  @apply flex flex-col;
+}
+
+.submenu {
+  @apply bg-gray-100 p-0 my-4;
+}
+
+@screen md {
+  .submenu {
+    @apply p-12 flex-row;
+  }
+}
+
+.submenu li a {
+  @apply text-secondary;
+}
+
+.submenu a:hover {
+  text-decoration: underline;
+}
+
+.submenu li {
+  @apply mb-1;
+}
+
+.submenu__column {
+  @apply w-full flex flex-col;
+}
+
+@screen md {
+  .submenu__column {
+    @apply w-1/2;
+  }
+}
+
+.submenu__column:first-child {
+  @apply px-8;
+}
+
+@screen md {
+  .submenu__column:first-child {
+    @apply pr-16 pl-0;
+  }
+}
+
+/* Right half of submenu */
+.submenu__column:last-child {
+  @apply bg-primary-100 px-8 border-l-0;
+}
+
+@screen md {
+  .submenu__column:last-child {
+    @apply relative bg-gray-100 pl-16 pr-0 border-l border-primary border-dashed;
+  }
+}
+
+.submenu__column:last-child::before {
+  @apply absolute border-2 rounded-full border-primary;
+  content: '';
+  left: -4px;
+  top: -11px;
+  width: 8px;
+  height: 8px;
+}
+
+.submenu__column:last-child::after {
+  @apply absolute border-2 rounded-full border-primary;
+  content: '';
+  left: -4px;
+  bottom: -11px;
+  width: 8px;
+  height: 8px;
+}
+
+.submenu__section {
+  @apply inline-block py-8;
+}
+
+/* If there's a second section put a border above it */
+.submenu__column .submenu__section:nth-child(2){
+  @apply border-t border-dashed border-primary;
+}
+
+.submenu__heading {
+  @apply uppercase font-bold text-xs;
+}
+
+.submenu__heading--primary {
+  @apply text-primary;
+}
+
+.submenu__heading--gray {
+  @apply text-gray-500;
+}
+
+.submenu__heading--dark-gray {
+  @apply text-gray-500;
+}
+
+.submenu__description {
+  @apply text-gray-500 text-xs;
+}
+
+.submenu__detailed-link {
+  @apply mt-6;
+}
+
+.submenu__detailed-link a {
+  @apply font-bold text-secondary;
+}
+
+.submenu__subcolumn-container {
+  @apply flex-col;
+}
+
+@screen sm {
+  .submenu__subcolumn-container {
+    @apply flex flex-row;
+  }
+}
+
+.submenu__subcolumn {
+  @apply mt-6 flex-grow;
+}
