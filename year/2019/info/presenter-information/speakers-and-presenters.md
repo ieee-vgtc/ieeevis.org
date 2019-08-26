@@ -3,8 +3,11 @@ title: Speakers and Presenters
 layout: main-2019
 permalink: /year/2019/info/presenter-information/speakers-and-presenters
 ---
-VIS Paper presenters have 20 minutes --- including questions --- for
-their talk. Please be respectful of this time limit.
+VIS Paper presenters have 15 minutes --- including questions --- for
+their talk. Please be respectful of this time limit.  
+
+VIS **Short Paper** presenters have 10 minutes --- including questions --- for
+their talk. The suggestion is 7 minutes for the presentation and 3 minutes for questions. Please be respectful of this time limit.  
 
 All meeting rooms will be equipped with a projector with a minimum
 native resolution of 1280 X 800. Each room is equipped with a "state
@@ -14,7 +17,7 @@ resolution of 1920 X 1200.
 To gain maximum size and benefit on the screen, we encourage speakers
 to utilize the 16x9 wide format Powerpoint templates.
 
-**Download the [Powerpoint template file](/assets/presentation-templates/vis18-16x9.ppt)**
+**Download the Powerpoint template file** (coming in September).
 
 We will have switched connections for presentations from laptops.
 
