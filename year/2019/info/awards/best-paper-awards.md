@@ -56,3 +56,25 @@ Authors: Jules Vidal, Joseph Budin, Julien Tierny
 **Toward Localized Topological Data Structures: Querying the Forest for the Tree**
 <br/>
 Authors: Pavol Klacansky, Attila Gyulassy, Peer-Timo Bremer, Valerio Pascucci
+
+
+
+## Short Papers Awards
+
+### Best Paper Award
+
+**Periphery Plots for Contextualizing Heterogeneous Time-Based Charts**
+<br/>
+Authors: Bryce Morrow, Trevor Manz, Arlene E. Chung, Nils Gehlenborg, David Gotz
+
+
+
+### Best Paper Honorable Mention
+
+**Graph-assisted Visualization of Microvascular Networks**
+<br/>
+Authors: Pavel Govyadinov, Tasha Womack, Jason Eriksen, David Mayerich, Guoning Chen
+
+**Learning Vis Tools: Teaching Data Visualization Tutorials**
+<br/>
+Authors: Leo Yu-Ho Lo, Yao Ming, Huamin Qu
