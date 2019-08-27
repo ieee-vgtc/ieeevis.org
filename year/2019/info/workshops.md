@@ -41,7 +41,7 @@ The primary goal of the DSIA workshop is to bring together researchers from the 
 Monday, Oct 21: 9:00am-12:20pm
 
 Nadia Boukhelifa, INRA<br/>
-Anastasia Bezerianos, Univ Paris-Sud<br/>
+Anastasia Bezerianos, Université Paris-Sud<br/>
 Enrico Bertini, New York University<br/>
 Christopher Collins, University of Ontario Institute of Technology<br/>
 Steven Drucker, Microsoft Research<br/>
@@ -75,7 +75,7 @@ To achieve this goal, we propose a half-day workshop that incor- porates paper p
 Monday, Oct 21: 2:20pm-5:40pm
 
 Fintan McGee, Luxembourg Institute of Science and Technology<br/>
-Tatiana von Landesberger, TU Darmstadt<br/>
+Tatiana von Landesberger, Technische Universität Darmstadt<br/>
 Daniel Archambault, Swansea University<br/>
 Mohammad Ghoniem, Luxembourg Institute of Science and Technology
 
@@ -87,7 +87,7 @@ Multiple types of nodes/edges in a network are often flattened into a single net
 Sunday, Oct 20: 9:00am-12:20pm
 
 Daniel Archambault, Swansea University<br/>
-Wouter Meulemans, TU Eindhoven<br/>
+Wouter Meulemans, Eindhoven University of Technology<br/>
 Luana Micallef, University of Copenhagen
 
 Contact: w.meulemans@tue.nl
@@ -111,7 +111,7 @@ This workshop focuses on how we, as a visualization community, can use our exper
 Sunday, Oct 20: 2:20pm-5:40pm
 
 Madison Elliott, University of British Columbia<br/>
-Zoya Bylinskii, MIT<br/>
+Zoya Bylinskii, Massachusetts Institute of Technology<br/>
 Christine Nothelfer, Northwestern University<br/>
 Cindy Xiong, Northwestern University<br/>
 Danielle Albers Szafir, University of Colorado Boulder
