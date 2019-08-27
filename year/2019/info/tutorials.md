@@ -18,11 +18,11 @@ contact: "tutorials@ieeevis.org"
 ## <a name="Topo"></a> Topological Data Analysis Made Easy with the Topology ToolKit, A Sequel
 Sunday, Oct 20: 9:00am-12:20pm
 
-Martin Falk, Linköping University  
-Charles Gueunet, Kitware  
-Joshua A Levine, University of Arizona  
-Jonas Lukasczyk, Technische Universität Kaiserslautern  
-Julien Tierny, CNRS/Sorbonne Université  
+Martin Falk, *Linköping University*  
+Charles Gueunet, *Kitware*  
+Joshua A Levine, *University of Arizona*  
+Jonas Lukasczyk, *Technische Universität Kaiserslautern*  
+Julien Tierny, *CNRS/Sorbonne Université*  
  
 This tutorial presents topological methods for the analysis and
 visualization of scientific data from a user’s perspective, with the
@@ -73,10 +73,10 @@ instructions for the download of the tutorial material package, etc.):
 ## <a name="VTK"></a> VTK-m - A ToolKit for Scientific Visualization on Many-Core Processors
 Sunday, Oct 20: 9:00am-12:40pm
 
-Hank Childs, University of Oregon  
-Kenneth Moreland, Sandia National Laboratories  
-David Pugmire, Oak Ridge National Laboratory  
-Robert Maynard, Kitware  
+Hank Childs, *University of Oregon*  
+Kenneth Moreland, *Sandia National Laboratories*  
+David Pugmire, *Oak Ridge National Laboratory*  
+Robert Maynard, *Kitware*  
 
 This tutorial will cover the VTK-m software, i.e., the many-core version
 of VTK (a popular open source toolkit for scientific visualization).
@@ -90,9 +90,9 @@ VTK-m code.
 ## <a name="Networks"></a> Visualizing Multivariate Networks
 Sunday, Oct 20: 2:20pm-5:40pm
 
-Carolina Nobre, University of Utah  
-Marc Streit, Johannes Kepler University  
-Alexander Lex, University of Utah  
+Carolina Nobre, *University of Utah*  
+Marc Streit, *Johannes Kepler University*  
+Alexander Lex, *University of Utah*  
 
 Multivariate networks (MVNs) are made up of nodes and their
 relationships (links), but also data about those nodes and links as
@@ -122,7 +122,7 @@ for a specific data and task combination.
 ## <a name="Better_Presentations"></a> Better Presentations for Visualization Research
 Sunday, Oct 20: 2:20pm-5:40pm
 
-Jon Schwabish, Urban Institute/PolicyViz  
+Jon Schwabish, *Urban Institute/PolicyViz*  
  
 Good visualization research presentations—as well as presentations for
 clients, administrators, and other stakeholders—can be crucial for
@@ -173,7 +173,7 @@ Presentations: A Guide for Scholars, Researchers, and Wonks.
 ## <a name="VDA"></a> Visual Analysis and Design
 Monday, Oct 21: 9:00am-12:20pm
 
-Tamara Munzner, University of British Columbia  
+Tamara Munzner, *University of British Columbia*  
 
 This introductory tutorial will provide a broad foundation for thinking
 systematically about visualization systems, built around the idea that
@@ -190,10 +190,10 @@ assumed.
 ## <a name="Stats"></a> Statistical Data Representation, Visualization, and Uncertainty Analysis
 Monday, Oct 21: 9:00am-12:20pm
 
-Soumya Dutta, Los Alamos National Laboratory  
-Hanqi Guo, Argonne National Laboratory  
-Hans-Christian Hege, Zuse Institute Berlin  
-Han-Wei Shen, The Ohio State University  
+Soumya Dutta, *Los Alamos National Laboratory*  
+Hanqi Guo, *Argonne National Laboratory*  
+Hans-Christian Hege, *Zuse Institute Berlin*  
+Han-Wei Shen, *The Ohio State University*  
 
 Efficient analysis and visualization of data using statistical methods
 have benefited the visualization community for many years. As the size
@@ -250,11 +250,11 @@ statistically supported methods of data visualization.
 ## <a name="Paper_Types"></a> Beyond Paper Types: How to Evaluate and Communicate VIS Research Contributions
 Monday, Oct 21: 9:00am-12:20pm
 
-Bongshin Lee, Microsoft Research  
-Petra Isenberg, Inria  
-John Stasko, Georgia Institute of Technology  
-Daniel Weiskopf, University of Stuttgart  
-Ross Maciejewski, Arizona State University  
+Bongshin Lee, *Microsoft Research*  
+Petra Isenberg, *Inria*  
+John Stasko, *Georgia Institute of Technology*  
+Daniel Weiskopf, *University of Stuttgart*  
+Ross Maciejewski, *Arizona State University*  
 
 Peer review plays a critical role in ensuring and improving the quality
 of academic research publications, and has a huge influence on culture
@@ -271,11 +271,11 @@ to better frame their own papers as an author.
 ## <a name="Social"></a> Visualization for Social Good
 Monday, Oct 21: 2:20pm-5:40pm
 
-Leilani Battle, University of Maryland  
-Michelle A. Borkin, Northeastern University  
-Michael Correll, Tableau Research  
-Lane Harrison, Worcester Polytechnic Institute  
-Evan Peck, Bucknell University  
+Leilani Battle, *University of Maryland*  
+Michelle A. Borkin, *Northeastern University*  
+Michael Correll, *Tableau Research*  
+Lane Harrison, *Worcester Polytechnic Institute*  
+Evan Peck, *Bucknell University*  
 
 We propose a tutorial based around the premise that visualization
 researchers, teachers, and practitioners can and should use the
@@ -294,9 +294,9 @@ novel dataset, or even just a new perspective on an existing problem.
 ## <a name="Eval"></a> User-Centred Evaluation in Visualization  
 Monday, Oct 21: 2:20pm-5:40pm
 
-Camilla Forsell, Linköping University  
-Matthew Cooper, Linköping University  
-Niklas Rönnberg, Linköping University  
+Camilla Forsell, *Linköping University*  
+Matthew Cooper, *Linköping University*  
+Niklas Rönnberg, *Linköping University*  
 
 The objective of this half-day introductory tutorial in user-centred
 evaluation in visualization is to introduce the topic, provide general
