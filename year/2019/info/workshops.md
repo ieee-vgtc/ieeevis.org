@@ -125,7 +125,7 @@ Sunday, Oct 20: 9:00am-12:20pm
 
 Benjamin Watson, North Carolina State University<br/>
 Robert Kosara, Tableau Research<br/>
-Steve Haroz, INRIA<br/>
+Steve Haroz, Inria<br/>
 Noeska Natasja Smit, University of Bergen
 
 Contact: bwatson@ncsu.edu
