@@ -16,7 +16,7 @@ contact: "tutorials@ieeevis.org"
 * [User-Centred Evaluation in Visualization](#Eval)
 
 ## <a name="Topo"></a> Topological Data Analysis Made Easy with the Topology ToolKit, A Sequel
-Sunday, Oct 20: 9:00am-12:20pm
+Sunday, October 20: 9:00am-12:20pm
 
 Martin Falk, *Linköping University*  
 Charles Gueunet, *Kitware*  
@@ -71,7 +71,7 @@ instructions for the download of the tutorial material package, etc.):
 
 
 ## <a name="VTK"></a> VTK-m - A ToolKit for Scientific Visualization on Many-Core Processors
-Sunday, Oct 20: 9:00am-12:40pm
+Sunday, October 20: 9:00am-12:40pm
 
 Hank Childs, *University of Oregon*  
 Kenneth Moreland, *Sandia National Laboratories*  
@@ -88,7 +88,7 @@ VTK-m code.
 
 
 ## <a name="Networks"></a> Visualizing Multivariate Networks
-Sunday, Oct 20: 2:20pm-5:40pm
+Sunday, October 20: 2:20pm-5:40pm
 
 Carolina Nobre, *University of Utah*  
 Marc Streit, *Johannes Kepler University*  
@@ -120,7 +120,7 @@ for a specific data and task combination.
 
 
 ## <a name="Better_Presentations"></a> Better Presentations for Visualization Research
-Sunday, Oct 20: 2:20pm-5:40pm
+Sunday, October 20: 2:20pm-5:40pm
 
 Jon Schwabish, *Urban Institute/PolicyViz*  
  
@@ -171,7 +171,7 @@ Presentations: A Guide for Scholars, Researchers, and Wonks.
 
  
 ## <a name="VDA"></a> Visual Analysis and Design
-Monday, Oct 21: 9:00am-12:20pm
+Monday, October 21: 9:00am-12:20pm
 
 Tamara Munzner, *University of British Columbia*  
 
@@ -188,7 +188,7 @@ assumed.
 
 
 ## <a name="Stats"></a> Statistical Data Representation, Visualization, and Uncertainty Analysis
-Monday, Oct 21: 9:00am-12:20pm
+Monday, October 21: 9:00am-12:20pm
 
 Soumya Dutta, *Los Alamos National Laboratory*  
 Hanqi Guo, *Argonne National Laboratory*  
@@ -248,7 +248,7 @@ statistically supported methods of data visualization.
 
 
 ## <a name="Paper_Types"></a> Beyond Paper Types: How to Evaluate and Communicate VIS Research Contributions
-Monday, Oct 21: 9:00am-12:20pm
+Monday, October 21: 9:00am-12:20pm
 
 Bongshin Lee, *Microsoft Research*  
 Petra Isenberg, *Inria*  
@@ -269,7 +269,7 @@ to better frame their own papers as an author.
 
 
 ## <a name="Social"></a> Visualization for Social Good
-Monday, Oct 21: 2:20pm-5:40pm
+Monday, October 21: 2:20pm-5:40pm
 
 Leilani Battle, *University of Maryland*  
 Michelle A. Borkin, *Northeastern University*  
@@ -292,7 +292,7 @@ novel dataset, or even just a new perspective on an existing problem.
 
 
 ## <a name="Eval"></a> User-Centred Evaluation in Visualization  
-Monday, Oct 21: 2:20pm-5:40pm
+Monday, October 21: 2:20pm-5:40pm
 
 Camilla Forsell, *Linköping University*  
 Matthew Cooper, *Linköping University*  
