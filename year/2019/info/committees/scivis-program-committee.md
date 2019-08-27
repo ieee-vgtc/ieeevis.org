@@ -53,7 +53,7 @@ contact: scivis_papers@ieeevis.org
 | Han-Wei Shen | *The Ohio State University , USA* |
 | Claudio Silva | *New York University, USA* |
 | Julien Tierny | *CNRS/Sorbonne Université, France* |
-| Xavier Tricoche | *Purdue University , USA* |
+| Xavier Tricoche | *Purdue University, USA* |
 | Anna Vilanova | *Delft University of Technology, Netherlands* |
 | Bei Wang | *University of Utah, USA* |
 | Chaoli Wang | *University of Notre Dame, USA* |
