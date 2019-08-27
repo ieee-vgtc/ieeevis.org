@@ -9,7 +9,7 @@ permalink: /year/2019/info/committees/conference-committee
 | | |
 |---
 | **General Chairs** | |
-| Alex Endert | *Georgia Tech* |
+| Alex Endert | *Georgia Institute of Technology* |
 | Brian Fisher | *Simon Fraser University* |
 | Wesley Willett | *University of Calgary* |
 |---
@@ -36,7 +36,7 @@ permalink: /year/2019/info/committees/conference-committee
 |---
 | **Posters Chairs** | |
 | Tatiana von Landesberger | *Karlsruher Institut für Technologie* |
-| Steffen Koch | *Uni Stuttgart* |
+| Steffen Koch | *University of Stuttgart* |
 | Nathalie Riche | *Microsoft* |
 | Christopher Collins | *University of Ontario Institute of Technology* |
 | Jian Chen | *The Ohio State University* |
@@ -53,7 +53,7 @@ permalink: /year/2019/info/committees/conference-committee
 | Hongfeng Yu | *University of Nebraska-Lincoln* |
 |---
 | **Application Spotlights** | |
-| Alex Endert | *Georgia Tech* |
+| Alex Endert | *Georgia Institute of Technology* |
 | Bernd Hentschel | *d.velop AG* |
 | Kristi Potter | *NREL* |
 |---
@@ -63,7 +63,7 @@ permalink: /year/2019/info/committees/conference-committee
 |---
 | **Workshop Chairs** | |
 | Adam Perer | *Carnegie Mellon University* |
-| Anastasia Bezerianos | *Université Paris Sud* |
+| Anastasia Bezerianos | *Université Paris-Sud* |
 | Chaoli Wang | *Notre Dame* |
 | Natalia Andrienko | *Fraunhofer Institute IAIS and City, University of London* |
 |---
@@ -95,7 +95,7 @@ permalink: /year/2019/info/committees/conference-committee
 | David Gotz | *University of North Carolina* |
 | Theresia Gschwandtner | *Vienna University of Technology* |
 | David Borland | *Renci* |
-| Juergen Bernard | *TU Darmstadt* |
+| Juergen Bernard | *Technische Universität Darmstadt* |
 |---
 | **VizSec Symposium Liaison** | |
 | Dustin Arendt | *Pacific Northwest National Laboratories* |
@@ -146,12 +146,12 @@ permalink: /year/2019/info/committees/conference-committee
 | **Inclusivity Chairs** | |
 | Michelle Borkin | *Northeastern University* |
 | Kelly Gaither | *Texas Advanced Computing Center* |
-| Arvind Satyanarayan | *MIT* |
+| Arvind Satyanarayan | *Massachusetts Institute of Technology* |
 |---
 | **Steering Committee Liaisons** | |
 | Lisa Avila | *Kitware (VEC Chair)* |
 | Silvia Miksch | *Vienna University of Technology (VAST)* |
-| Melanie Tory | *Tableau Software (InfoVis)* |
+| Melanie Tory | *Tableau Research (InfoVis)* |
 | Deborah Silver | *Rutgers University (SciVis)* |
 |---
 | **Supporters Chairs** | |
