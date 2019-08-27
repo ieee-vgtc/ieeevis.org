@@ -8,7 +8,7 @@ permalink: /year/2019/info/committees/vast-steering-committee
 | Min Chen	| *Oxford University*
 | Brian Fisher	| *Simon Fraser University*
 | John Stasko	| *Georgia Institute of Technology*
-| Tobias Schreck	| *TU Graz*
+| Tobias Schreck	| *Graz University of Technology*
 | Silvia Miksch	| *Vienna University of Technology*
 | Giuseppe Santucci	| *Università degli Studi di Roma "La Sapienza"*
 
