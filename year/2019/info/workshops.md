@@ -26,7 +26,7 @@ Contact: contact@sebastianmeier.eu
 
 With the growth and increasing density of urban areas, new technologies are emerging and data is becoming an essential asset to modern cities. Visualization as a tool for analysis, exploration and communication has become a driving force in the task of unravelling the complex urban fabrics that form our cities. In this workshop series, we want to critically assess this notion and ask how can data and data visualization be used to serve and better understand or even organize urban processes? We are particularly interested in multidisciplinary perspectives, especially on the human-centric component of urban visualizations. In the initial workshop at IEEE VIS 2018, we established a definition, goals and challenges for urban visualizations. Based on these findings, we propose to focus discussions in the 2nd workshop on the critical role of citizens in urban visualization and how they can help ensure future urban visualizations are designed, developed and evaluated more effectively.
 
-## <a name="disa"></a> [DSIA 2019: Data Systems for Interactive Analysis](http://www.interactive-analysis.org/)
+## <a name="dsia"></a> [DSIA 2019: Data Systems for Interactive Analysis](http://www.interactive-analysis.org/)
 Monday, Oct 21: 9:00am-12:20pm
 
 Leilani Battle, University of Maryland, College Park<br/>
