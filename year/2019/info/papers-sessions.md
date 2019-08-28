@@ -27,7 +27,7 @@ Authors: Jagoda Walny, Christian Frisson, Mieka West, Doris Kosminsky, Søren Kn
 **[S] InSituNet: Deep Image Synthesis for Parameter Space Exploration of Ensemble Simulations (J)** *(Best Paper Award)*  
 Authors: Wenbin He, Junpeng Wang, Hanqi Guo, Ko-Chih Wang, Han-Wei Shen, Mukund Raj, Youssef S. G. Nashed, Tom Peterka
 
-**Periphery Plots for Contextualizing Heterogeneous Time-Based Charts (J)** *(Best Paper Award)*  
+**Periphery Plots for Contextualizing Heterogeneous Time-Based Charts (C)** *(Best Paper Award)*  
 Authors: Bryce Morrow, Trevor Manz, Arlene E. Chung, Nils Gehlenborg, David Gotz
 
 <hr/>
@@ -105,27 +105,27 @@ Authors: Raghavendra Sridharamurthy, Talha Bin Masood, Adhitya Kamakshidasan, Vi
 **2:35-3:50PM**  
 **Room: Room 1**  
 *Short Papers: Novel Interfaces*  
-*Session Chair: *  
+*Session Chair: Nathalie Riche*  
 
-**Graph-assisted Visualization of Microvascular Networks (J)** *(Best Paper Honorable Mention)*  
+**Graph-assisted Visualization of Microvascular Networks (C)** *(Best Paper Honorable Mention)*  
 Authors: Pavel Govyadinov, Tasha Womack, Jason Eriksen, David Mayerich, Guoning Chen
 
-**Learning Vis Tools: Teaching Data Visualization Tutorials (J)** *(Best Paper Honorable Mention)*  
+**Learning Vis Tools: Teaching Data Visualization Tutorials (C)** *(Best Paper Honorable Mention)*  
 Authors: Leo Yu-Ho Lo, Yao Ming, Huamin Qu
 
-**Sociotechnical Considerations for Accessible Visualization Design (J)**  
+**Sociotechnical Considerations for Accessible Visualization Design (C)**  
 Authors: Alan Lundgard, Crystal Lee, Arvind Satyanarayan
 
-**Toward Interface Defaults for Vague Modifiers in Natural Language Interfaces for Visual Analysis (J)**  
+**Toward Interface Defaults for Vague Modifiers in Natural Language Interfaces for Visual Analysis (C)**  
 Authors: Marti Hearst, Melanie Tory, Vidya Setlur
 
-**VisWall: Visual Data Exploration using Direct Combination on Large Touch Displays (J)**  
+**VisWall: Visual Data Exploration using Direct Combination on Large Touch Displays (C)**  
 Authors: Mallika Agarwal, Arjun Srinivasan, John Stasko
 
-**EasyPZ.js: Interaction Binding For Pan and Zoom Visualizations (J)**  
+**EasyPZ.js: Interaction Binding For Pan and Zoom Visualizations (C)**  
 Authors: Michail Schwab, James Tompkin, Jeff Huang, Michelle A. Borkin
 
-**Would You Like A Chart With That? Incorporating Visualizations into Conversational Interfaces (J)**  
+**Would You Like A Chart With That? Incorporating Visualizations into Conversational Interfaces (C)**  
 Authors: Marti Hearst, Melanie Tory
 
 <hr/>
@@ -212,30 +212,30 @@ Authors: Frederik L. Dennig, Thomas E. Polk, Zudi Lin, Tobias Schreck, Hanspeter
 **4:10-5:40PM**  
 **Room: Room 1**  
 *Short Papers: Systems and Design Studies*  
-*Session Chair: *  
+*Session Chair: Michael Sedlmair*  
 
-**Designing Visual Guides for Casual Listeners of Live Orchestral Music (J)**  
+**Designing Visual Guides for Casual Listeners of Live Orchestral Music (C)**  
 Authors: Catherine Solis, Fahimeh Rajabiyazdi, Fanny Chevalier
 
-**Uncovering Data Landscapes through Data Reconnaissance and Task Wrangling (J)**  
+**Uncovering Data Landscapes through Data Reconnaissance and Task Wrangling (C)**  
 Authors: Anamaria Crisan, Tamara Munzner
 
-**Sabrina: Modeling and Visualization of Economy Data with Incremental Domain Knowledge (J)**  
+**Sabrina: Modeling and Visualization of Economy Data with Incremental Domain Knowledge (C)**  
 Authors: Alessio Arleo, Johannes Sorger, Chao Jia, Christos Tsigkanos, Roger A. Leite, Ilir Murturi, Manfred Klaffenboeck, Silvia Miksch, Shahram Dustdar, Michael Wimmer
 
-**Visual Analysis of the Time Management of Learning Multiple Courses in Online Learning Environment (J)**  
+**Visual Analysis of the Time Management of Learning Multiple Courses in Online Learning Environment (C)**  
 Authors: Huan He, Bo Dong, Qinghua Zheng, Dehai Di, Yating Lin
 
-**H-Matrix: Hierarchical Matrix for Visual Analysis of Cross-Linguistic Features in Large Learner Corpora (J)**  
+**H-Matrix: Hierarchical Matrix for Visual Analysis of Cross-Linguistic Features in Large Learner Corpora (C)**  
 Authors: Mariana Shimabukuro, Jessica Zipf, Mennatallah El-Assady, Christopher Collins
 
-**OCTVis: Ontology-based Comparison of Topic Models (J)**  
+**OCTVis: Ontology-based Comparison of Topic Models (C)**  
 Authors: Amon Ge, Hyeju Jang, Giuseppe Carenini, Kendall Ho, Young Ji Lee
 
-**MissBi: Visual Analysis of Missing Links in Bipartite Networks (J)**  
+**MissBi: Visual Analysis of Missing Links in Bipartite Networks (C)**  
 Authors: Jian Zhao, Maoyuan Sun, Francine Chen, Patrick Chiu
 
-**FacIt: Factorizing Tensors into Interpretable and Scrutinizable Patterns (J)**  
+**FacIt: Factorizing Tensors into Interpretable and Scrutinizable Patterns (C)**  
 Authors: Xidao Wen, Yu-Ru Lin, Yongsu Ahn, Konstantinos Pelechrinis, Xi Liu, Nan Cao
 
 <hr/>
@@ -319,33 +319,33 @@ Authors: Tobias Günther, Holger Theisel
 **9:00-10:30AM**  
 **Room: Room 1**  
 *Short Papers: Perception, Cognition, and Visualization Design*  
-*Session Chair: *  
+*Session Chair: Bernice Rogowitz*  
 
-**A Markov Model of Users' Interactive Behavior in Scatterplots (J)**  
+**A Markov Model of Users' Interactive Behavior in Scatterplots (C)**  
 Authors: Emily Wall, Arup Arcalgud, Kuhu Gupta, Andrew Jo
 
-**Slope-Dependent Rendering of Parallel Coordinates to Reduce Density Distortion and Ghost Clusters (J)**  
+**Slope-Dependent Rendering of Parallel Coordinates to Reduce Density Distortion and Ghost Clusters (C)**  
 Authors: David Pomerenke, Frederik L. Dennig, Daniel Keim, Johannes Fuchs, Michael Blumenschein
 
-**Evaluating Ordering Strategies of Star Glyph Axes (J)**  
+**Evaluating Ordering Strategies of Star Glyph Axes (C)**  
 Authors: Matthias Miller, Xuan Zhang, Johannes Fuchs, Michael Blumenschein
 
-**Interactive Visualisation of Hierarchical Quantitative Data: an Evaluation (J)**  
+**Interactive Visualisation of Hierarchical Quantitative Data: an Evaluation (C)**  
 Authors: Linda Woodburn, Yalong Yang, Kim Marriott
 
-**Evidence for Area as the Primary Visual Cue in Pie Charts (J)**  
+**Evidence for Area as the Primary Visual Cue in Pie Charts (C)**  
 Authors: Robert Kosara
 
-**Visual cues in estimation of part-to-whole comparison (J)**  
+**Visual cues in estimation of part-to-whole comparison (C)**  
 Authors: Stephen Redmond
 
-**Towards a Design Space for Mitigating Cognitive Bias in Visual Analytics (J)**  
+**Towards a Design Space for Mitigating Cognitive Bias in Visual Analytics (C)**  
 Authors: Emily Wall, John Stasko, Alex Endert
 
-**Thumbnails for Data Stories: Survey of Current Practice (J)**  
+**Thumbnails for Data Stories: Survey of Current Practice (C)**  
 Authors: Hwiyeon Kim, Juyoung Oh, Yunha Han, Sungahn Ko, Matthew Brehmer, Bum Chul Kwon
 
-**Towards Quantifying multiple view layouts in visualisation as seen from research publications (J)**  
+**Towards Quantifying multiple view layouts in visualisation as seen from research publications (C)**  
 Authors: Hayder Mahdi Al-maneea, Jonathan C Roberts
 
 <hr/>
@@ -536,30 +536,30 @@ Authors: Xuanwu Yue, Jiaxin Bai, Qinhan Liu, Yiyang Tang, Abishek Puri, Ke Li, H
 **2:20-3:50PM**  
 **Room: Room 1**  
 *Short Papers: VIS Meets Machine Learning*  
-*Session Chair: *  
+*Session Chair: Martin Wattenberg*  
 
-**Visualization Assessment: A Machine Learning Approach (J)**  
+**Visualization Assessment: A Machine Learning Approach (C)**  
 Authors: Xin Fu, Yun Wang, Haoyu Dong, Weiwei Cui, Haidong Zhang
 
-**A Deep Learning Approach to Selecting Representative Time Steps for Time-Varying Multivariate Data (J)**  
+**A Deep Learning Approach to Selecting Representative Time Steps for Time-Varying Multivariate Data (C)**  
 Authors: William P. Porter, Yunhao Xing, Blaise R von Ohlen, Jun Han, Chaoli Wang
 
-**Disentangled Representation of Data Distributions in Scatterplots (J)**  
+**Disentangled Representation of Data Distributions in Scatterplots (C)**  
 Authors: Jaemin Jo, Jinwook Seo
 
-**Toward Perception-based Evaluation of Clustering Techniques for Visual Analytics (J)**  
+**Toward Perception-based Evaluation of Clustering Techniques for Visual Analytics (C)**  
 Authors: Michaël Aupetit, Michael Sedlmair, Mostafa M. Abbas, Halima Bensmail
 
-**SANVis: Visual Analytics for Understanding Self Attention Networks (J)**  
+**SANVis: Visual Analytics for Understanding Self Attention Networks (C)**  
 Authors: Cheonbok Park, Inyoup Na, Yongjang Jo, Sungbok Shin, Yoo Jaehyo, Bum Chul Kwon, Jian Zhao, Hyungjong Noh, Yeonsoo Lee, Jaegul Choo
 
-**TeleGam: Combining Visualization and Verbalization for Interpretable Machine Learning (J)**  
+**TeleGam: Combining Visualization and Verbalization for Interpretable Machine Learning (C)**  
 Authors: Fred Hohman, Arjun Srinivasan, Steven Drucker
 
-**Visualizing RNN States with Predictive Semantic Encodings (J)**  
+**Visualizing RNN States with Predictive Semantic Encodings (C)**  
 Authors: Lindsey Sawatzky, Steven Bergner, Fred Popowich
 
-**FeatureExplorer: Interactive Feature Selection and Exploration of Regression Models for Hyperspectral Images (J)**  
+**FeatureExplorer: Interactive Feature Selection and Exploration of Regression Models for Hyperspectral Images (C)**  
 Authors: Jieqiong Zhao, Morteza Karimzadeh, Ali Masjedi, Taojun Wang, Xiwen Zhang, Melba Crawford, David Ebert
 
 <hr/>
@@ -825,33 +825,33 @@ Authors: Siming Chen, Jie Li, Gennady Andrienko, Natalia Andrienko, Yun Wang, Ph
 **2:20-3:50PM**  
 **Room: Room 1**  
 *Short Papers: Biology, Chemistry, and Medicine*  
-*Session Chair: *  
+*Session Chair: Ivan Viola*  
 
-**scenery: Flexible Virtual Reality Visualization on the Java VM (J)**  
+**scenery: Flexible Virtual Reality Visualization on the Java VM (C)**  
 Authors: Ulrik Günther, Tobias Pietzsch, Aryaman Gupta, Kyle I.S. Harrington, Pavel Tomancak, Stefan Gumhold, Ivo F. Sbalzarini
 
-**Interactive Dendritic Spine Analysis Based on 3D Morphological Features (J)**  
+**Interactive Dendritic Spine Analysis Based on 3D Morphological Features (C)**  
 Authors: JunYoung Choi, Sang-Eun Lee, Eunji Cho, Yutaro Kashiwagi, Shigeo Okabe, Sunghoe Chang, Won-Ki Jeong
 
-**High Fidelity Visualization of Large Scale Digitally Reconstructed Brain Circuitry with Signed Distance Functions (J)**  
+**High Fidelity Visualization of Large Scale Digitally Reconstructed Brain Circuitry with Signed Distance Functions (C)**  
 Authors: Jonas Karlsson, Marwan Abdellah, Sebastien Speierer, Alessandro Enrico Foni, Samuel Lapere, Felix Schurmann
 
-**Visual Inspection of DBS Efficacy (J)**  
+**Visual Inspection of DBS Efficacy (C)**  
 Authors: Brad Eric Hollister, Chris Butson, Gordon Duffley, Chris R. Johnson, Paul Rosen
 
-**TempoCave: Visualizing Dynamic Connectome Datasets to Support Cognitive Behavioral Therapy (J)**  
+**TempoCave: Visualizing Dynamic Connectome Datasets to Support Cognitive Behavioral Therapy (C)**  
 Authors: Ran Xu, Manu Mathew Thomas, Alex Leow, Olusola A. Ajilore, Angus G. Forbes
 
-**RuleVis: Constructing Patterns and Rules for Rule-based Models (J)**  
+**RuleVis: Constructing Patterns and Rules for Rule-based Models (C)**  
 Authors: David Abramov, Jasmine Tan Otto, Mahika Dubey, Cassia Artanegara, Pierre Boutillier, Walter Fontana, Angus G. Forbes
 
-**ElectroLens: Understanding atomistic simulations through spatially-resolved visualization of high-dimensional features (J)**  
+**ElectroLens: Understanding atomistic simulations through spatially-resolved visualization of high-dimensional features (C)**  
 Authors: Xiangyun Lei, Fred Hohman, Duen Horng Chau, Andrew J Medford
 
-**Analyzing Time Attributes in Event Sequences (J)**  
+**Analyzing Time Attributes in Event Sequences (C)**  
 Authors: Jessica Magallanes, Lindsey van Gemeren, Steven Wood, Maria-Cruz Villa-Uriol
 
-**Evaluating Alignment Approaches in Superimposed Time-series and Temporal Event-sequence Visualizations (J)**  
+**Evaluating Alignment Approaches in Superimposed Time-series and Temporal Event-sequence Visualizations (C)**  
 Authors: Yixuan Zhang, Sara Di Bartolomeo, Fangfang Sheng, Holly Jimison, Cody Dunne
 
 <hr/>
@@ -935,33 +935,33 @@ Authors: Ji Qi, Vincent Bloemen, Shihan Wang, Jarke van Wijk, Huub van de Weteri
 **4:10-5:40PM**  
 **Room: Room 1**  
 *Short Papers: Multi-Dimensional Data, Time Series, Graphs, and Trees*  
-*Session Chair: *  
+*Session Chair: Tobias Schreck*  
 
-**Interpreting Distortions in Dimensionality Reduction by Superimposing Neighbourhood Graphs (J)**  
+**Interpreting Distortions in Dimensionality Reduction by Superimposing Neighbourhood Graphs (C)**  
 Authors: Benoît Colange, Laurent Vuillon, Sylvain Lespinats, Denys Dutykh
 
-**Hi-D Maps: An Interactive Visualization Technique for Multi-dimensional Categorical Data. (J)**  
+**Hi-D Maps: An Interactive Visualization Technique for Multi-dimensional Categorical Data. (C)**  
 Authors: Radi Muhammad Reza, Benjamin Watson
 
-**Conditional Parallel Coordinates (J)**  
+**Conditional Parallel Coordinates (C)**  
 Authors: Daniel Weidele
 
-**Towards Enhancing RadViz Analysis and Interpretation (J)**  
+**Towards Enhancing RadViz Analysis and Interpretation (C)**  
 Authors: Marco Angelini, Graziano Blasilli, Simone Lenti, Alessia Palleschi, Giuseppe Santucci
 
-**Time Varying Predominance Tag Maps (J)**  
+**Time Varying Predominance Tag Maps (C)**  
 Authors: Martin Reckziegel, Stefan Jänicke
 
-**SAX Navigator: Time Series Exploration Through Hierarchical Clustering (J)**  
+**SAX Navigator: Time Series Exploration Through Hierarchical Clustering (C)**  
 Authors: Nicholas Ruta, Naoko Sawada, Katy McKeough, Michael Behrisch, Johanna Beyer
 
-**Nonuniform Timeslicing of Dynamic Graphs Based on Visual Complexity (J)**  
+**Nonuniform Timeslicing of Dynamic Graphs Based on Visual Complexity (C)**  
 Authors: Yong Wang, Daniel Archambault, Hammad Haleem, Torsten Moeller, Yanhong Wu, Huamin Qu
 
-**Interactive Bicluster Aggregation in Bipartite Graphs (J)**  
+**Interactive Bicluster Aggregation in Bipartite Graphs (C)**  
 Authors: Maoyuan Sun, David Koop, Jian Zhao, Chris North, Naren Ramakrishnan
 
-**Overlap-Free Drawing of Generalized Pythagoras Trees for Hierarchy Visualization (J)**  
+**Overlap-Free Drawing of Generalized Pythagoras Trees for Hierarchy Visualization (C)**  
 Authors: Tanja Munz, Michael Burch, Toon van Benthem, Yoeri Poels, Fabian Beck, Daniel Weiskopf
 
 <hr/>
@@ -1045,30 +1045,30 @@ Authors: Hannah Kim, Dongjin Choi, Barry Drake, Alex Endert, Haesun Park
 **9:00-10:30AM**  
 **Room: Room 1**  
 *Short Papers: Scalar, Vector, and Tensor Fields*  
-*Session Chair: *  
+*Session Chair: Bei Wang*  
 
-**Data-Driven Colormap Optimization for 2D Scalar Field Visualization (J)**  
+**Data-Driven Colormap Optimization for 2D Scalar Field Visualization (C)**  
 Authors: Qiong Zeng, Yinqiao Wang, Ivan Viola, Wenting Zhang, Jian Zhang, Changhe Tu, Yunhai Wang
 
-**Evaluating Gradient Perception in Color-coded Scalar Fields (J)**  
+**Evaluating Gradient Perception in Color-coded Scalar Fields (C)**  
 Authors: Khairi Reda, Michael E. Papka
 
-**GalStamps: Analyzing Real and Simulated Galaxy Observations (J)**  
+**GalStamps: Analyzing Real and Simulated Galaxy Observations (C)**  
 Authors: Nina McCurdy, Miriah Meyer
 
-**Point Movement in a DSL for Higher-Order FEM Visualization (J)**  
+**Point Movement in a DSL for Higher-Order FEM Visualization (C)**  
 Authors: Teodoro Collin, Charisee Chiw, L. Ridgway Scott, John Reppy, Gordon L Kindlmann
 
-**Unsteady Flow Visualization via Physics based Pathline Exploration (J)**  
+**Unsteady Flow Visualization via Physics based Pathline Exploration (C)**  
 Authors: Duong Nguyen, Lei Zhang, Robert S. Laramee, David Thompson, Rodolfo Ostilla Monico, Guoning Chen
 
-**Visualization of Symmetries in Fourth-Order Stiffness Tensors (J)**  
+**Visualization of Symmetries in Fourth-Order Stiffness Tensors (C)**  
 Authors: Chiara Hergl, Thomas Nagel, Olaf Kolditz, Gerik Scheuermann
 
-**Hybrid Grids for Sparse Volume Rendering (J)**  
+**Hybrid Grids for Sparse Volume Rendering (C)**  
 Authors: Stefan Zellmann, Deborah Meurer, Ulrich Lang
 
-**Efficient Space Skipping and Adaptive Sampling of Unstructured Volumes using Hardware Accelerated Ray Tracing (J)**  
+**Efficient Space Skipping and Adaptive Sampling of Unstructured Volumes using Hardware Accelerated Ray Tracing (C)**  
 Authors: Nate Morrical, Will Usher, Ingo Wald, Valerio Pascucci
 
 <hr/>
