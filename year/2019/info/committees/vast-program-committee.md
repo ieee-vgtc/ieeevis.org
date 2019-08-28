@@ -54,7 +54,7 @@ permalink: /year/2019/info/committees/vast-program-committee
 | Maoyuan Sun | *University of Massachusetts Dartmouth* |
 | Shigeo Takahashi | *University of Aizu* |
 | Cagatay Turkay | *City, University of London* |
-| Katerina Vrotsou | *Linköping Univ* |
+| Katerina Vrotsou | *Linköping University* |
 | Chris Weaver | *University of Oklahoma* |
 | Leland Wilkinson | *SYSTAT Software* |
 | Yingcai Wu | *Zhejiang University* |

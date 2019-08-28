@@ -17,11 +17,12 @@ the private key to access the spreadsheet from the script.
 
 from data import *
 
+import codecs
 import min_html as h
 import sys
 
-gc = get_spreadsheet("50WordSummaries") ## Ask Panels folks to change this name
-panels = load_sheet_by_name(gc, "Ranking all").get_all_records()
+gc = get_spreadsheet("web-VIS2019-Program")
+panels = load_sheet_by_name(gc, "Panels").get_all_records()
 panel_dict = dict((panel["Title"], panel) for panel in panels)
 
 date_dict = { 25: "TUESDAY, OCTOBER 25TH",
@@ -37,20 +38,15 @@ time_dict = { 8: "8:30AM-10:10AM",
 tkey = { 8: 1, 10: 2, 2: 3, 4: 4 }
 
 # out = sys.stdout
-for panel in sorted(panel_dict.values(), key = lambda panel: (panel["Date"], tkey[panel["Time"]])):
-    print "* %s" % panel["Title"]
-print
+# for panel in sorted(panel_dict.values(), key = lambda panel: (panel["Date"], tkey[panel["Time"]])):
+#     print "* %s" % panel["Title"]
+# print
 
-for panel in sorted(panel_dict.values(), key = lambda panel: (panel["Date"], tkey[panel["Time"]])):
-    print "#### %s" % panel["Title"]
-    print
-    print "%s  " % date_dict[panel["Date"]]
-    print "%s  " % time_dict[panel["Time"]]
-    print "Location: %s" % panel["Location"]
-    print
-    print "Organizer: %s  " % panel["Organizer"]
-    sys.stdout.write(("Panelists: %s\n" % panel["Panelists"]).encode("utf-8"))
-    print
-    print panel["50 Word Summary"]
-    print
+out = codecs.open('output/panels.txt', 'w', 'utf8')
+for panel in panels:
+    out.write("## <a name=\"%s\">%s</a>\n\n" % (panel["SessionID"], panel["Title"]))
+    out.write("%s: %s in %s\n\n" % (panel["Date"], panel["Time"], panel["Location"]))
+    out.write("Organizers: %s\n\n" % panel["Organizers"])
+    out.write(panel["Abstract"])
+    out.write("\n\n")
     

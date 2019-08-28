@@ -42,7 +42,7 @@ contact: scivis_papers@ieeevis.org
 | G. Elisabeta Marai | *University of Illinois at Chicago, USA* |
 | Kenneth Moreland | *Sandia National Laboratories, USA* |
 | Vijay Natarajan | *Indian Institute of Science, India* |
-| Steffen Oeltze-Jafra | *University of Leipzig , Germany* |
+| Steffen Oeltze-Jafra | *University of Leipzig, Germany* |
 | Alex Pang | *University of California, Santa Cruz, USA* |
 | Voicu Popescu | *Purdue University, USA* |
 | David Pugmire | *Oak Ridge National Laboratory, USA* |
@@ -53,7 +53,7 @@ contact: scivis_papers@ieeevis.org
 | Han-Wei Shen | *The Ohio State University , USA* |
 | Claudio Silva | *New York University, USA* |
 | Julien Tierny | *CNRS/Sorbonne Université, France* |
-| Xavier Tricoche | *Purdue University , USA* |
+| Xavier Tricoche | *Purdue University, USA* |
 | Anna Vilanova | *Delft University of Technology, Netherlands* |
 | Bei Wang | *University of Utah, USA* |
 | Chaoli Wang | *University of Notre Dame, USA* |
