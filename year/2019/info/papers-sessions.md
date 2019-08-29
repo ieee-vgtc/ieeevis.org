@@ -605,7 +605,7 @@ Authors: Kathryn P Williams, Alex Bigelow, Katherine Isaacs
 **[I] How People Visually Represent Discrete Constraint Problem (T)**  
 Authors: Xu Zhu, Miguel A. Nacenta, Özgür Akgun, Peter Nightingale
 
-**[I] Preserving Command Line Workflow for a Package Management (T)**  
+**[I] Preserving Command Line Workflow for a Package Management using ASCII DAG Visualization (T)**  
 Authors: Katherine E. Isaacs, Todd Gamblin
 
 **[S] Inviwo - A Visualization System with Usage Abstraction Levels (T)**  
