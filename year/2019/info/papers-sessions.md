@@ -91,7 +91,7 @@ Authors: Steve Petruzza, Attila Gyulassy, Samuel Leventhal, Jackson Baglino, Mic
 Authors: Jules Vidal, Joseph Budin, Julien Tierny
 
 **[S] The Effect of Data Transformations on Scalar Field Topological Analysis of High-Order FEM Solutions (J)**  
-Authors: Ashok Jallepalli, Joshua A. Levine, Mike Kirby
+Authors: Ashok Jallepalli, Joshua A. Levine, Robert M. (Mike) Kirby
 
 **[S] Toward Localized Topological Data Structures: Querying the Forest for the Tree (J)** *(Best Paper Honorable Mention)*  
 Authors: Pavol Klacansky, Attila Gyulassy, Peer-Timo Bremer, Valerio Pascucci
