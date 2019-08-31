@@ -113,10 +113,10 @@ Haihan Lin, Carolina Nobre, Amanda Bakian, Alexander Lex
 **Icons are Best: Ranking Visualizations for Proportion Estimation**  
 Zhengliang Liu, Melanie Bancilhon, Alvitta Ottley  
 
-**Ratio-finalDraft.pdf**  
+**50/50 Perception Often Isn’t 20/20: The Role of Context and Value on Perceptual Biases in Ratio Perception**  
 Caitlyn M. McColeman, Mi Feng, Lane Harrison, Steven Franconeri  
 
-**TasksXTypes_qual-Aug1**  
+**A Qualitative Assessment of Basic Perceptual Tasks Employed While Reading Common Data Visualizations**  
 Caitlyn M. McColeman, Enrico Bertini, Steven Franconeri  
 
 **Towards Understanding the Life of Neurodiverse College Students Through Visualization**  
