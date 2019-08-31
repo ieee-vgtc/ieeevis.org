@@ -1,0 +1,68 @@
+/* Footer */
+
+footer li {
+    margin-bottom: 6px;
+}
+
+footer ul {
+    @apply ml-0;
+}
+
+footer li a {
+    @apply text-white border-b-0;
+}
+
+.footer__col::before {
+    @apply absolute border-2 rounded-full border-white;
+    content: '';
+    left: -10px;
+    bottom: -4px;
+    width: 8px;
+    height: 8px;
+}
+
+@screen sm {
+    .footer__col::before {
+        @apply absolute border-2 rounded-full border-white;
+        content: '';
+        right: -4px;
+        top: -10px;
+        left: auto;
+        width: 8px;
+        height: 8px;
+    }
+}
+
+.footer__col::after {
+    @apply absolute border-2 rounded-full border-white;
+    content: '';
+    right: -10px;
+    bottom: -4px;
+    width: 8px;
+    height: 8px;
+}
+
+@screen sm {
+    .footer__col::after {
+        @apply absolute border-2 rounded-full border-white;
+        content: '';
+        right: -4px;
+        bottom: -10px;
+        width: 8px;
+        height: 8px;
+    }
+}
+
+.footer__header {
+    @apply uppercase font-bold text-white tracking-wider;
+}
+
+.footer__year {
+    @apply relative pl-1 pr-2;
+}
+
+.footer__year::before {
+    content: '•';
+    @apply absolute;
+    left: -4px;
+}
