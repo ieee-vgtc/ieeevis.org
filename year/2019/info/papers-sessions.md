@@ -232,7 +232,7 @@ Authors: Mariana Shimabukuro, Jessica Zipf, Mennatallah El-Assady, Christopher C
 **OCTVis: Ontology-based Comparison of Topic Models (C)**  
 Authors: Amon Ge, Hyeju Jang, Giuseppe Carenini, Kendall Ho, Young Ji Lee
 
-**MissBi: Visual Analysis of Missing Links in Bipartite Networks (C)**  
+**MissBiN: Visual Analysis of Missing Links in Bipartite Networks (C)**  
 Authors: Jian Zhao, Maoyuan Sun, Francine Chen, Patrick Chiu
 
 **FacIt: Factorizing Tensors into Interpretable and Scrutinizable Patterns (C)**  
@@ -359,7 +359,7 @@ Authors: Hayder Mahdi Al-maneea, Jonathan C Roberts
 **[I] Toward Objective Evaluation of Working Memory in Visualizations: A Case Study Using Pupillometry and a Dual-Task Paradigm (J)**  
 Authors: Lace M. K. Padilla, Spencer Castro, P. Samuel Quinan, Ian T. Ruginski, Sarah Creem-Regehr
 
-**[I] VisTA: Towards Using Visual Analytics to Support the Investigation of Think-Aloud Sessions (J)**  
+**[I] VisTA: Integrating Machine Intelligence with Visualization to Support the Investigation of Think-Aloud Sessions (J)**  
 Authors: Mingming Fan, Ke Wu, Jian Zhao, Yue Li, Winter Wei, Khai Truong
 
 **[S] Embedding Meta-Information into Visualizations (T)**  
