@@ -135,6 +135,7 @@
 
 .page-sidebar {
     @apply flex flex-col self-start;
+    @apply relative;
     @apply order-1;
     @apply w-full;
     @apply pl-0 pb-8;
@@ -148,6 +149,40 @@
         @apply pl-8 pb-0;
         @apply border-l border-b-0;
     }
+}
+
+.page-sidebar::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    left: -10px;
+    bottom: -4px;
+    @apply border-2 border-primary rounded-full;
+    @apply absolute;
+}
+
+.page-sidebar::after {
+    content: '';
+    width: 8px;
+    height: 8px;
+    right: -10px;
+    bottom: -4px;
+    @apply border-2 border-primary rounded-full;
+    @apply absolute;
+}
+
+@screen md {
+    .page-sidebar::before {
+        left: -4px;
+        top: -10px;
+    }
+
+    .page-sidebar::after {
+        left: -4px;
+        bottom: -10px;
+    }
+
+
 }
 
 .page-sidebar__link {
