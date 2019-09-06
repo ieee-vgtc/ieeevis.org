@@ -3,43 +3,92 @@
 
 /* CSS shapes */
 
-.polygon-primary {
+.shape-section {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 100%, 70% 96%, 0 96%);
-    /* padding-bottom: 7%; */
-    @apply bg-primary w-full relative pb-20;
+    @apply w-full relative;
 }
 
 @screen lg {
-    .polygon-primary {
+    .shape-section {
         clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 100%, 70% 93%, 0 93%);
     }
 }
 
-.polygon-primary--light {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 100%, 70% 96%, 0 96%);
-    @apply bg-primary-600 relative text-white w-full pb-12;
+.shape-section--primary {
+    @apply bg-primary;
+    @apply pb-20;
 }
 
-@screen lg {
-    .polygon-primary--light {
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 100%, 70% 93%, 0 93%);
+.shape-section--primary-line {
+    @apply shape-section--primary;
+}
+
+.shape-section--primary-line::before,
+.shape-section--primary-line::after {
+    @apply hidden;
+}
+
+@screen md {
+    .shape-section--primary-line::before {
+        content: '';
+        right: 4rem;
+        top: 0;
+        @apply block;
+        @apply absolute;
+        @apply border-b-2 border-dashed border-white;
+        @apply mt-6;
+        @apply w-3/5;
+    }
+
+    .shape-section--primary-line::after {
+        content: '';
+        right: calc(4rem - 10px);
+        top: -4px;
+        width: 8px;
+        height: 8px;
+        @apply block;
+        @apply absolute;
+        @apply border-2 border-white rounded-full;
+        @apply mt-6;
     }
 }
 
-.polygon-primary--light::after {
+.shape-section--primary-light {
+    @apply bg-primary-600;
+    @apply pb-12;
+}
+
+.shape-section--primary-light::before {
+    content: "";
+    right: 0;
+    bottom: 0;
+    @apply absolute;
+    @apply border-b-2 border-white border-dashed;
+    @apply w-1/5;
+    @apply mb-6;
+}
+
+.shape-section--primary-light::after {
     content: "";
     right: calc(20% + 4px);
     bottom: -3px;
     width: 8px;
     height: 8px;
-    @apply absolute border-white border-2 rounded-full mb-6;
+    @apply absolute;
+    @apply border-white border-2 rounded-full;
+    @apply mb-6;
 }
 
-.polygon-primary--light::before {
-    content: "";
-    right: 0;
-    bottom: 0;
-    @apply absolute border-b-2 border-white border-dashed w-1/5 mb-6;
+.shape-section--gray {
+    @apply bg-gray-200;
+    @apply py-20;
+    @apply px-6;
+}
+
+@screen sm {
+    .shape-section--gray {
+        @apply px-16;
+    }
 }
 
 .polygon-paper {
@@ -50,50 +99,6 @@
 @screen md {
     .polygon-paper {
         @apply w-1/2 mr-8 ml-auto;
-    }
-}
-
-
-/* .section1, .section2 {
-    height: 400px;
-} */
-
-.section2::before {
-    content: '';
-    width: 3rem;
-    height: 2rem;
-    top: calc(-2rem);
-    clip-path: polygon(100% 0, 0 100%, 100% 100%);
-    @apply bg-primary absolute;
-}
-
-.section2::after {
-    content: '';
-    width: calc(3rem - 3px);
-    height: calc(2rem - 2px);
-    top: calc(-2rem + 2px);
-    left: 3px;
-    clip-path: polygon(100% 0, 0 100%, 100% 100%);
-    @apply bg-white absolute;
-}
-
-@media (min-width: 768px) {
-    .section2::before {
-        content: '';
-        width: 5rem;
-        height: 3rem;
-        top: calc(-3rem);
-        clip-path: polygon(100% 0, 0 100%, 100% 100%);
-        @apply bg-primary absolute;
-    }
-    .section2::after {
-        content: '';
-        width: calc(5rem - 3px);
-        height: calc(3rem - 2px);
-        top: calc(-3rem + 2px);
-        left: 3px;
-        clip-path: polygon(100% 0, 0 100%, 100% 100%);
-        @apply bg-white absolute;
     }
 }
 
