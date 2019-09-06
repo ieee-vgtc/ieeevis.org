@@ -8,15 +8,6 @@ permalink: /year/2019/keynote
   alt="katy borner" 
   style="float: right; margin-right: 16px;"
   width="230px" >
-<!--  <p> 
-    <strong>Tuesday, October 23, 2018</strong><br />
-    <strong>Time: 11:20 am</strong><br />
-    <strong>Location: Conv 1, Sec C+D</strong>
-  </p> 
-  
-  [Video Presentation](https://vimeo.com/308979581)
-  -->
-
 
 ## Data Visualization Literacy
 
