@@ -22,6 +22,7 @@ Organizers: Brian Fisher (Simon Fraser University), Petra Isenberg (Inria), Davi
 Empirical studies are an indispensable component in visualization as they allow us to not only understand the interactions between humans and computers, but they also enable us to evaluate and confirm our results and experiments.
 
 In this panel, we ask five researchers – "What are the top research questions for empirical studies in visualization?" Our panelists will cover a range of topics including:
+
 - A focus on cognitive science as well as synthesizing theoretical perspectives;
 - Causes of empirical studies focusing on narrow hypotheses vs. broad hypotheses as well as mechanisms for tracking them;
 - Understanding human-computer interaction in visualization and how we can predict performance;
@@ -37,5 +38,4 @@ Thursday, October 24: 2:20-3:50PM in Room 2+3
 Organizers: Brian Fisher (Simon Fraser University), Kristin Cook (Pacific Northwest National Laboratory), David Ebert (Purdue University), Daniel Keim (University of Konstanz)
 
 We have brought together leaders of the three groups that created visual analytics: a co-editor of Illuminating the Path, the leader of VisMaster, and the leader of VACCINE to discuss the history, present state, and future of visual analytics, "the science of analytical reasoning facilitated by interactive visual interfaces". In an open discussion with attendees panelists will give their perspectives on the origins and evolving goals of VA, what has worked, what has not, and what we have learned in the VA effort that might help us to build a more diverse and impactful VIS.
-
 
