@@ -522,7 +522,7 @@ Authors: Paulo Ivson, André Moreira, Francisco Queiroz, Wallas Santos, Waldemar
 Authors: Andreas Walch, Michael Schwärzler, Christian Luksch, Elmar Eisemann, Theresia Gschwandtner
 
 **[V] PlanningVis: A Visual Analytics Approach to Production Planning in Smart Factories (J)**  
-Authors: Dong Sun, Renfei Huang, Yong Wang, Yuanzhe Chen, Jia Zeng, Mingxuan Yuan, Ting-Cheun Pong, Huamin Qu
+Authors: Dong Sun, Renfei Huang, Yong Wang, Yuanzhe Chen, Jia Zeng, Mingxuan Yuan, Ting-Chuen Pong, Huamin Qu
 
 **[V] Visual Analytics for Electromagnetic Situation Awareness in Radio Monitoring and Management (J)**  
 Authors: Ying Zhao, Xiaobo Luo, Xiaru Lin, Hairong Wang, Xiaoyan Kui, Fangfang Zhou, Jinsong Wang, Yi Chen, Wei Chen
