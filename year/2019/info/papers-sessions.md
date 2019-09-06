@@ -91,7 +91,7 @@ Authors: Steve Petruzza, Attila Gyulassy, Samuel Leventhal, Jackson Baglino, Mic
 Authors: Jules Vidal, Joseph Budin, Julien Tierny
 
 **[S] The Effect of Data Transformations on Scalar Field Topological Analysis of High-Order FEM Solutions (J)**  
-Authors: Ashok Jallepalli, Joshua A. Levine, Mike Kirby
+Authors: Ashok Jallepalli, Joshua A. Levine, Robert M. (Mike) Kirby
 
 **[S] Toward Localized Topological Data Structures: Querying the Forest for the Tree (J)** *(Best Paper Honorable Mention)*  
 Authors: Pavol Klacansky, Attila Gyulassy, Peer-Timo Bremer, Valerio Pascucci
@@ -683,7 +683,7 @@ Authors: Shreeraj Jadhav, Saad Nadeem, Arie Kaufman
 **[S] Interactive Visualization and On-Demand Processing of Large Volume Data: A Fully GPU-Based Out-Of-Core Approach (T)**  
 Authors: Jonathan Sarton, Nicolas Courilleau, Yannick Remion, Laurent Lucas
 
-**[S] Scientific visualization, opacity optimization, Fourier approximation (T)**  
+**[S] Fourier Opacity Optimization for Scalable Exploration (T)**  
 Authors: Irene Baeza Rojo, Markus Gross, Tobias Günther
 
 **[S] Ray-based Exploration of Large Time-varying Volume Data Using Proxy Per-ray Distributions (T)**  
@@ -1070,6 +1070,3 @@ Authors: Stefan Zellmann, Deborah Meurer, Ulrich Lang
 
 **Efficient Space Skipping and Adaptive Sampling of Unstructured Volumes using Hardware Accelerated Ray Tracing (C)**  
 Authors: Nate Morrical, Will Usher, Ingo Wald, Valerio Pascucci
-
-<hr/>
-
