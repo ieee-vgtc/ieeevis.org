@@ -42,17 +42,25 @@ em {
 
 /* Links */
 .link,
-a:not(.button) {
+.content a:not(.button) {
     @apply text-primary;
     border-bottom: 1px dashed;
 }
 
 .link:hover,
-a:not(.button):hover {
+.content a:not(.button):hover {
     @apply text-primary-600;
     transition: color 200ms;
 }
 
+
+a.link--arrow {
+    @apply font-bold text-primary uppercase border-b-0;
+}
+
+a.link--arrow::after {
+    content: "→";
+}
 
 /* Markdown styles */
 
@@ -62,7 +70,7 @@ p {
 }
 
 
-ul {
+.content ul {
     @apply ml-8;
 }
 

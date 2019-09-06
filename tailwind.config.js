@@ -1,5 +1,4 @@
 // Tailwind Config
-// Restart development server to see any changes made here
 
 const { colors } = require('tailwindcss/defaultTheme')
 

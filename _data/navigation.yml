@@ -1,0 +1,256 @@
+# Example Navigation Config
+
+# - dropdown:
+#   display:
+#   sections:
+#     - subsections:
+#         - heading:
+#           heading_url:
+#           description:
+#           columns:
+#             - heading:
+#               links:
+#                 - text:
+#                   url:
+#                   is_new:
+#                   is_external
+
+- dropdown: "Attend"
+  display: true
+  sections:
+    - subsections:
+        - heading: "Attending VIS 2019"
+          heading_url: "https://www.google.com"
+          description: "TK TK TK Why attend this premier forum for advances in visualization"
+          columns:
+            - heading: "Attend"
+              links:
+                - text: "Registration"
+                  url: "https://www.google.com"
+                - text: "Conference Venue"
+                  url: "https://www.google.com"
+                - text: "Newcomer's Guide"
+                  url: "https://www.google.com"
+            - heading: "Travel"
+              links:
+                - text: "Accomodations"
+                  url: "https://www.google.com"
+                - text: "Visa & Travel"
+                  url: "https://www.google.com"
+                - text: "Things to do in City"
+                  url: "https://www.google.com"
+                  is_new: true
+
+        - heading: "Code of Conduct"
+          heading_url: "https://www.google.com"
+
+    - subsections:
+        - heading: "Equality, Inclusion & Diversity"
+          heading_url: "https://www.google.com"
+          columns:
+            - links:
+              - text: "Inclusivity & Diversity Scholarship"
+                description: "TK TK TK Offering need-based scholarships for conference attendance"
+                url: "https://www.google.com"
+              - text: "VisKids Childcare Grants"
+                description: "TK TK TK Grants to support our VISKids and young families"
+                url: "https://www.google.com"
+              - text: "VisKids"
+                description: "TK TK TK Space provided for discussions, play, and personal considerations"
+                url: "https://www.google.com"
+
+
+- dropdown: "Contribute"
+  display: true
+  sections:
+    - subsections:
+        - heading: "Call for Participation"
+          heading_url: "https://www.google.com"
+          description: "Submit your novel research contributions and innovative applications"
+          columns:
+            - heading: "Submit a Session"
+              links:
+                - text: "Papers"
+                  url: "https://www.google.com"
+                - text: "Short Papers"
+                  url: "https://www.google.com"
+                - text: "Posters"
+                  url: "https://www.google.com"
+                - text: "Tutorials"
+                  url: "https://www.google.com"
+                - text: "Workshops"
+                  url: "https://www.google.com"
+                - text: "Panels"
+                  url: "https://www.google.com"
+                - text: "Doctorial Colloquium"
+                  url: "https://www.google.com"
+                - text: "Application Spotlghts"
+                  url: "https://www.google.com"
+                  is_new: true
+            - heading: "Info for Presenters"
+              links:
+                - text: "Important Dates"
+                  url: "https://www.google.com"
+                - text: "Open Practices"
+                  url: "https://www.google.com"
+                  is_new: true
+                - text: "Video Previews"
+                  url: "https://www.google.com"
+
+    - subsections:
+        - heading: "Get Involved"
+          columns:
+            - links:
+              - text: "Organize a meetup"
+                description: "Meet people, discuss topics, and share experiences"
+                url: "https://www.google.com"
+              - text: "Student volunteers"
+                description: "Support the conference, build your research network, and get a discount"
+                url: "https://www.google.com"
+                is_external: true
+              - text: "Become a peer reviewer"
+                description: "Register to review submissions"
+                url: "https://www.google.com"
+              - text: "Become an organizer"
+                description: "TK TK TK Join the committees and help organize VIS"
+                url: "https://www.google.com"
+
+        - heading: "Supporters and Exhibition"
+          heading_url: "https://www.google.com"
+          description: "TK TK TK Your support makes this conference possible"
+
+
+- dropdown: "Program"
+  display: true
+  sections:
+    - subsections:
+        - heading: "Vis Program"
+          heading_url: "https://www.google.com"
+          columns:
+            - links:
+              - text: "Paper Sessions"
+                description: "See the latest research in theory, methods, and applications of visualization"
+                url: "https://www.google.com"
+              - text: "Posters"
+                description: "Discuss new and emerging ideas"
+                url: "https://www.google.com"
+              - text: "Tutorials"
+                description: "Learn new tools and application domains"
+                url: "https://www.google.com"
+              - text: "Workshops"
+                description: "Discuss emerging and advanced topics in an informal setting"
+                url: "https://www.google.com"
+              - text: "Panels"
+                description: "Discuss important and controversial applications and issues."
+                url: "https://www.google.com"
+              - text: "Doctorial Colloquium"
+                description: "Discuss in-progress Ph.D work with leading senior researchers"
+                url: "https://www.google.com"
+              - text: "Application Spotlights"
+                description: "Showcase practical, real-world applications of visualization"
+                url: "https://www.google.com"
+
+    - subsections:
+        - heading: "Program Guide"
+          description: "TK TK TK Get an overview of what’s happening at VIS 2019"
+          columns:
+            - links:
+              - text: "Download the App"
+                url: "https://www.google.com"
+              - text: "Pocket Program (PDF)"
+                url: "https://www.google.com"
+              - text: "Practioner Guide"
+                url: "https://www.google.com"
+            - links:
+              - text: "Keynote Address"
+                url: "https://www.google.com"
+              - text: "Capstone Address"
+                url: "https://www.google.com"
+
+        - heading: "Awards and Recognitions"
+          heading_url: "https://www.google.com"
+          description: "Recognize outstanding work by the conference community"
+          columns:
+            - links:
+              - text: "Best Paper Awards"
+                url: "https://www.google.com"
+              - text: "Best Poster Awards"
+                url: "https://www.google.com"
+              - text: "Service Awards"
+                url: "https://www.google.com"
+              - text: "VGTC VIS Awards"
+                url: "https://www.google.com"
+              - text: "Test of Time Awards"
+                url: "https://www.google.com"
+
+
+- dropdown: "Events & Community"
+  display: true
+  sections:
+    - subsections:
+        - heading: "Associated Events"
+          columns:
+            - links:
+              - text: "VIS Arts Program"
+                description: "TK TK TK Lorem ipsum dolor sit amet, consectetur"
+                url: "https://www.google.com"
+                is_external: true
+              - text: "VisInPractice"
+                description: "TK TK TK Lorem ipsum dolor sit amet, consectetur"
+                url: "https://www.google.com"
+                is_external: true
+              - text: "VizSec"
+                description: "TK TK TK Lorem ipsum dolor sit amet, consectetur"
+                url: "https://www.google.com"
+                is_external: true
+              - text: "VAHC: Visual Analytics in Healthcare"
+                description: "TK TK TK Lorem ipsum dolor sit amet, consectetur"
+                url: "https://www.google.com"
+                is_external: true
+              - text: "VDS: Vis in Data Science"
+                description: "TK TK TK Lorem ipsum dolor sit amet, consectetur"
+                url: "https://www.google.com"
+                is_external: true
+              - text: "VIS4DH: Vis for the Digital Humanities"
+                description: "TK TK TK Lorem ipsum dolor sit amet, consectetur"
+                url: "https://www.google.com"
+                is_external: true
+              - text: "LDAV: Large Data Analysis & Vis"
+                description: "TK TK TK Lorem ipsum dolor sit amet, consectetur"
+                url: "https://www.google.com"
+                is_external: true
+
+    - subsections:
+        - heading: "Competitions"
+          description: "TK TK TK Get an overview of what’s happening at VIS 2019"
+          columns:
+            - links:
+              - text: "VAST Challenge"
+                url: "https://www.google.com"
+                is_external: true
+              - text: "SciVis Contest"
+                url: "https://www.google.com"
+                is_external: true
+              - text: "BioViz Challenges"
+                url: "https://www.google.com"
+                is_external: true
+
+        - heading: "Community"
+          heading_url: "https://www.google.com"
+          description: "TK TK TK  TK Lorem ipsum dolor sit amet, consectetur"
+          columns:
+            - heading: "Connect"
+              links:
+                - text: "Vis Buddies"
+                  url: "https://www.google.com"
+                - text: "Meetups"
+                  url: "https://www.google.com"
+                - text: "Job Fair"
+                  url: "https://www.google.com"
+            - heading: "Social Groups"
+              links:
+                - text: "Velo Club de VIs"
+                  url: "https://www.google.com"
+                  is_external: true
+                - text: "Vis Pioneers Group"
+                  url: "https://www.google.com"

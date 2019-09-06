@@ -1,6 +1,6 @@
 const webpack = require('webpack');
 const path = require('path');
-const VueLoaderPlugin = require('vue-loader/lib/plugin');
+// const VueLoaderPlugin = require('vue-loader/lib/plugin');
 const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
@@ -32,12 +32,12 @@ module.exports = {
 
   module: {
     rules: [
-      {
-        test: /\.vue$/,
-        loader: 'vue-loader',
-        include: /(src)/
-        // include: [root('src')]
-      },
+      // {
+      //   test: /\.vue$/,
+      //   loader: 'vue-loader',
+      //   include: /(src)/
+      //   // include: [root('src')]
+      // },
       {
         test: /\.css$/,
         use: [
@@ -72,7 +72,7 @@ module.exports = {
     ],
   },
   plugins: [
-    new VueLoaderPlugin(),
+    // new VueLoaderPlugin(),
     new BrowserSyncPlugin({
         host: 'localhost',
         port: 3000,
