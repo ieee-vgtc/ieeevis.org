@@ -91,7 +91,7 @@ Authors: Steve Petruzza, Attila Gyulassy, Samuel Leventhal, Jackson Baglino, Mic
 Authors: Jules Vidal, Joseph Budin, Julien Tierny
 
 **[S] The Effect of Data Transformations on Scalar Field Topological Analysis of High-Order FEM Solutions (J)**  
-Authors: Ashok Jallepalli, Joshua A. Levine, Mike Kirby
+Authors: Ashok Jallepalli, Joshua A. Levine, Robert M. (Mike) Kirby
 
 **[S] Toward Localized Topological Data Structures: Querying the Forest for the Tree (J)** *(Best Paper Honorable Mention)*  
 Authors: Pavol Klacansky, Attila Gyulassy, Peer-Timo Bremer, Valerio Pascucci
@@ -232,7 +232,7 @@ Authors: Mariana Shimabukuro, Jessica Zipf, Mennatallah El-Assady, Christopher C
 **OCTVis: Ontology-based Comparison of Topic Models (C)**  
 Authors: Amon Ge, Hyeju Jang, Giuseppe Carenini, Kendall Ho, Young Ji Lee
 
-**MissBi: Visual Analysis of Missing Links in Bipartite Networks (C)**  
+**MissBiN: Visual Analysis of Missing Links in Bipartite Networks (C)**  
 Authors: Jian Zhao, Maoyuan Sun, Francine Chen, Patrick Chiu
 
 **FacIt: Factorizing Tensors into Interpretable and Scrutinizable Patterns (C)**  
@@ -359,7 +359,7 @@ Authors: Hayder Mahdi Al-maneea, Jonathan C Roberts
 **[I] Toward Objective Evaluation of Working Memory in Visualizations: A Case Study Using Pupillometry and a Dual-Task Paradigm (J)**  
 Authors: Lace M. K. Padilla, Spencer Castro, P. Samuel Quinan, Ian T. Ruginski, Sarah Creem-Regehr
 
-**[I] VisTA: Towards Using Visual Analytics to Support the Investigation of Think-Aloud Sessions (J)**  
+**[I] VisTA: Integrating Machine Intelligence with Visualization to Support the Investigation of Think-Aloud Sessions (J)**  
 Authors: Mingming Fan, Ke Wu, Jian Zhao, Yue Li, Winter Wei, Khai Truong
 
 **[S] Embedding Meta-Information into Visualizations (T)**  
@@ -605,7 +605,7 @@ Authors: Kathryn P Williams, Alex Bigelow, Katherine Isaacs
 **[I] How People Visually Represent Discrete Constraint Problem (T)**  
 Authors: Xu Zhu, Miguel A. Nacenta, Özgür Akgun, Peter Nightingale
 
-**[I] Preserving Command Line Workflow for a Package Management (T)**  
+**[I] Preserving Command Line Workflow for a Package Management using ASCII DAG Visualization (T)**  
 Authors: Katherine E. Isaacs, Todd Gamblin
 
 **[S] Inviwo - A Visualization System with Usage Abstraction Levels (T)**  
@@ -683,7 +683,7 @@ Authors: Shreeraj Jadhav, Saad Nadeem, Arie Kaufman
 **[S] Interactive Visualization and On-Demand Processing of Large Volume Data: A Fully GPU-Based Out-Of-Core Approach (T)**  
 Authors: Jonathan Sarton, Nicolas Courilleau, Yannick Remion, Laurent Lucas
 
-**[S] Scientific visualization, opacity optimization, Fourier approximation (T)**  
+**[S] Fourier Opacity Optimization for Scalable Exploration (T)**  
 Authors: Irene Baeza Rojo, Markus Gross, Tobias Günther
 
 **[S] Ray-based Exploration of Large Time-varying Volume Data Using Proxy Per-ray Distributions (T)**  
@@ -1070,6 +1070,3 @@ Authors: Stefan Zellmann, Deborah Meurer, Ulrich Lang
 
 **Efficient Space Skipping and Adaptive Sampling of Unstructured Volumes using Hardware Accelerated Ray Tracing (C)**  
 Authors: Nate Morrical, Will Usher, Ingo Wald, Valerio Pascucci
-
-<hr/>
-
