@@ -1,6 +1,6 @@
 ---
 title: Posters
-layout: main-2019
+layout: page
 permalink: /year/2019/info/call-participation/posters
 contact: posters@ieeevis.org
 ---

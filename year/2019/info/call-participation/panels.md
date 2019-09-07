@@ -1,6 +1,6 @@
 ---
 title: Panels
-layout: main-2019
+layout: page
 permalink: /year/2019/info/call-participation/panels
 contact: panels@ieeevis.org
 ---
