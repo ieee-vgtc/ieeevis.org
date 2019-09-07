@@ -9,7 +9,7 @@
         </div>
 
         <div class="nav_menu md:flex" v-bind:class="{ 'nav_menu--expanded': isExpanded }">
-        {% for nav in site.data.navigation %}
+        {% for nav in site.data.navigation.menu %}
             {% if nav.display %}
             <div class="nav_menu_item flex-initial font-display text-lg text-primary px-8 py-4 border-b border-primary-200 md:border-none" v-on:click="toggleMenuItems('{{ nav.dropdown }}')">
                 {{ nav.dropdown }}
@@ -66,9 +66,11 @@
             </div>
             {% endif %}
         {% endfor %}
+            {% if site.data.navigation.registration.display %}
             <div class="font-display text-lg text-primary px-8 py-4 border-b border-primary-200 md:border-none bg-accent">
                 Register
             </div>
+            {% endif %}
         </div>
 
         <div class="md:hidden flex-end p-4 text-primary font-display font-bold text-lg" v-on:click="toggleMenu()">
