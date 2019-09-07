@@ -11,7 +11,13 @@
         <div class="nav_menu md:flex" v-bind:class="{ 'nav_menu--expanded': isExpanded }">
         {% for nav in site.data.navigation.menu %}
             {% if nav.display %}
-            <div class="nav_menu_item flex-initial font-display text-lg text-primary px-8 py-4 border-b border-primary-200 md:border-none" v-on:click="toggleMenuItems('{{ nav.dropdown }}')">
+
+            {% assign is_active_class = '' %}
+            {% if page.active_nav == nav.dropdown %}
+            {% assign is_active_class = 'nav_menu_item--is-active' %}
+            {% endif %}
+
+            <div class="nav_menu_item {{is_active_class}} flex-initial font-display text-lg text-primary px-8 py-4 border-b border-primary-200 md:border-none" v-on:click="toggleMenuItems('{{ nav.dropdown }}')">
                 {{ nav.dropdown }}
                 <i class="material-icons align-middle" v-if="menu['{{ nav.dropdown }}']">arrow_drop_down</i>
                 <i class="material-icons align-middle" v-else>arrow_right</i>

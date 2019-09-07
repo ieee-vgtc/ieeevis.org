@@ -143,6 +143,21 @@
 
 .nav_menu_item {
   background: #fff;
+    position: relative;
+}
+
+.nav_menu_item.nav_menu_item--is-active {
+  @apply text-secondary;
+}
+
+.nav_menu_item.nav_menu_item--is-active::after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    @apply border-2 border-secondary;
+    @apply absolute;
 }
 
 .nav_menu--expanded {
