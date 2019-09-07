@@ -5,11 +5,11 @@
 
 <body>
     <div id="app">
-<!--         <navbar></navbar> -->
-        <main class="pt-8">
+        {% include navigation.html %}
+        <main>
             {{ content }}
         </main>
+        {% include footer.html %}
     </div>
-    {% include footer.html %}
 </body>
 </html>

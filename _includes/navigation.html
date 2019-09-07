@@ -1,0 +1,78 @@
+<!-- Navigation Bar -->
+
+<div id="navigation">
+    <nav class="nav bg-gray-100 md:bg-accent flex flex-start justify-between md:justify-start border-b-2 border-primary relative">
+        <div class="text-lg text-blue-700 p-4">
+            <a href="/">
+                <img src="/assets/vis2019_logo.svg" alt="VIS 2019" width="150">
+            </a>
+        </div>
+
+        <div class="nav_menu md:flex" v-bind:class="{ 'nav_menu--expanded': isExpanded }">
+        {% for nav in site.data.navigation %}
+            {% if nav.display %}
+            <div class="nav_menu_item flex-initial font-display text-lg text-primary px-8 py-4 border-b border-primary-200 md:border-none" v-on:click="toggleMenuItems('{{ nav.dropdown }}')">
+                {{ nav.dropdown }}
+                <i class="material-icons align-middle" v-if="menu['{{ nav.dropdown }}']">arrow_drop_down</i>
+                <i class="material-icons align-middle" v-else>arrow_right</i>
+            </div>
+
+            <div class="submenu md:flex" role="menu" aria-label="submenu" aria-hidden="true" v-if="menu['{{ nav.dropdown }}']">
+            {% for section in nav.sections %}
+                <div class="submenu__column">
+                    {% for subsection in section.subsections %}
+                        <div class="submenu__section">
+                            {% if subsection.heading_url %}
+                            <a class="link--arrow" href="{{ subsection.heading_url }}">{{ subsection.heading }}</a>
+                            {% else %}
+                            <span class="font-bold text-gray-700 uppercase">{{ subsection.heading }}</span>
+                            {% endif %}
+
+                            {% if subsection.description %}
+                            <p class="submenu__description">{{ subsection.description }}</p>
+                            {% endif %}
+
+                            {% if subsection.columns %}
+                            <div class="sm:flex sm:flex-row flex-col">
+                                {% for column in subsection.columns %}
+                                    <ul class="flex-grow mt-4">
+                                        <li class="submenu__heading submenu__heading--gray">{{ column.heading }}</li>
+                                        {% for link in column.links %}
+                                           <li>
+                                                <a href="{{ link.url }}">{{ link.text }}</a>
+
+                                                {% if link.is_external %}
+                                                <span><i class="material-icons align-middle text-secondary text-sm">open_in_new</i></span>
+                                                {% endif %}
+
+                                                {% if link.is_new %}
+                                                <span class="bg-accent text-primary-600 text-sm px-2 rounded-full">New</span>
+                                                {% endif %}
+
+                                                {% if link.description %}
+                                                <p class="submenu__description">{{ link.description }}</p>
+                                                {% endif %}
+                                            </li>
+                                        {% endfor %}
+                                    </ul>
+                                {% endfor %}
+                            </div>
+
+                            {% endif %}
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endfor %}
+            </div>
+            {% endif %}
+        {% endfor %}
+            <div class="font-display text-lg text-primary px-8 py-4 border-b border-primary-200 md:border-none bg-accent">
+                Register
+            </div>
+        </div>
+
+        <div class="md:hidden flex-end p-4 text-primary font-display font-bold text-lg" v-on:click="toggleMenu()">
+            <i class="material-icons align-middle">menu</i> Menu
+        </div>
+    </nav>
+</div>

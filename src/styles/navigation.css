@@ -1,166 +1,167 @@
 /* Navigation */
 
 .active {
-    @apply flex flex-col;
+  @apply flex flex-col;
 }
 
 .submenu {
-    @apply bg-gray-100 p-0 my-4;
+  @apply bg-gray-100;
 }
 
 @screen md {
-    .submenu {
-        @apply p-12 flex-row;
-    }
+  .submenu {
+    @apply p-12 flex-row;
+  }
 }
 
 .submenu li a {
-    @apply text-secondary;
+  @apply text-secondary;
 }
 
 .submenu a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .submenu li {
-    @apply mb-1;
+  @apply mb-1;
 }
 
 .submenu__column {
-    @apply w-full flex flex-col;
+  @apply w-full flex flex-col;
 }
 
 @screen md {
-    .submenu__column {
-        @apply w-1/2;
-    }
+  .submenu__column {
+    @apply w-1/2;
+  }
 }
 
 .submenu__column:first-child {
-    @apply px-8;
+  @apply px-8;
 }
 
 @screen md {
-    .submenu__column:first-child {
-        @apply pr-16 pl-0;
-    }
+  .submenu__column:first-child {
+    @apply pr-16 pl-0;
+  }
 }
-
 
 /* Right half of submenu */
-
 .submenu__column:last-child {
-    @apply bg-primary-100 px-8 border-l-0;
+  @apply bg-primary-100 px-8;
 }
 
 @screen md {
-    .submenu__column:last-child {
-        @apply relative bg-gray-100 pl-16 pr-0 border-l border-primary border-dashed;
-    }
+  .submenu__column:last-child {
+    @apply relative bg-gray-100 pl-16 pr-0 border-l border-primary border-dashed;
+  }
 }
 
-
-.submenu__column:last-child::before {
+@screen md {
+  .submenu__column:last-child::before {
     @apply absolute border-2 rounded-full border-primary;
     content: '';
     left: -4px;
     top: -11px;
     width: 8px;
     height: 8px;
-}
+  }
 
-.submenu__column:last-child::after {
+  .submenu__column:last-child::after {
     @apply absolute border-2 rounded-full border-primary;
     content: '';
-    left: -4px;
-    bottom: -11px;
-    width: 8px;
-    height: 8px;
+     left: -4px;
+     bottom: -11px;
+     width: 8px;
+     height: 8px;
+  }
 }
 
 .submenu__section {
-    @apply inline-block py-8;
+  @apply inline-block py-8;
 }
 
-
 /* If there's a second section put a border above it */
-
-.submenu__column .submenu__section:nth-child(2) {
-    @apply border-t border-dashed border-primary;
+.submenu__column .submenu__section:nth-child(2){
+  @apply border-t border-dashed border-primary;
 }
 
 .submenu__heading {
-    @apply uppercase font-bold text-xs;
+  @apply uppercase font-bold text-base;
 }
 
 .submenu__heading--primary {
-    @apply text-primary;
+  @apply text-primary;
 }
 
 .submenu__heading--gray {
-    @apply text-gray-500;
+  @apply text-gray-500;
 }
 
 .submenu__heading--dark-gray {
-    @apply text-gray-500;
+  @apply text-gray-500;
 }
 
 .submenu__description {
-    @apply text-gray-500 text-xs;
+  @apply text-gray-600 text-sm;
 }
 
 .submenu__detailed-link {
-    @apply mt-6;
+  @apply mt-6;
 }
 
 .submenu__detailed-link a {
-    @apply font-bold text-secondary;
+  @apply font-bold text-secondary;
 }
 
 .submenu__subcolumn-container {
-    @apply flex-col;
+  @apply flex-col;
 }
 
 @screen sm {
-    .submenu__subcolumn-container {
-        @apply flex flex-row;
-    }
+  .submenu__subcolumn-container {
+    @apply flex flex-row;
+  }
 }
 
 .submenu__subcolumn {
-    @apply mt-6 flex-grow;
+  @apply mt-6 flex-grow;
 }
 
-
-/* Sidebar */
-
-.page-sidebar {
-    @apply flex flex-col self-start;
-    @apply order-1;
-    @apply w-full;
-    @apply pl-0 pb-8;
-    @apply border-l-0 border-b border-dashed border-primary;
+.nav {
+  position: relative;
+  z-index: 999;
 }
 
-
-@screen md {
-    .page-sidebar {
-        @apply order-none;
-        @apply w-1/5;
-        @apply pl-8 pb-0;
-        @apply border-l border-b-0;
-    }
+.nav_menu {
+  display: none;
 }
 
-.page-sidebar__link {
-    @apply border-l border-secondary pr-2 pl-3 inline text-secondary whitespace-no-wrap mb-2;
+.nav_menu_item {
+  background: #fff;
+}
+
+.nav_menu--expanded {
+  display: block;
+  position: absolute;
+  top: 62px;
+  width: 100%;
 }
 
 @screen md {
-    .page-sidebar__link {
-        @apply border-l-0;
-        @apply pr-0 pl-0;
-        @apply block;
-        @apply whitespace-normal;
-    }
+  .nav_menu--expanded {
+    display: flex;
+    top: 0;
+  }
+
+  .submenu {
+    left: 0;
+    position: absolute;
+    top: 62px;
+    width: 100%;
+  }
+
+  .nav_menu_item {
+    background: transparent;
+  }
 }
