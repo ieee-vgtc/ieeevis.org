@@ -9,5 +9,6 @@
 @import 'footer';
 @import 'sponsor-layout';
 @import 'sections';
+@import 'sidebar';
 
 @import "tailwindcss/utilities";
