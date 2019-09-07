@@ -3,7 +3,7 @@
 }
 
 .sponsor-container svg {
-    @apply mr-4 mb-4;
+    @apply mr-4 mb-4 bg-gray-300;
 }
 
 .sponsor__row {

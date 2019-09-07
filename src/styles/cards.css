@@ -1,31 +1,38 @@
 /* Cards */
 
 .card {
-    @apply bg-white mb-4 border rounded-sm border-primary-700 text-primary p-6 relative flex flex-col;
+    @apply bg-white;
+    @apply mb-4 p-6;
+    @apply border rounded-sm border-primary-700;
+    @apply text-primary;
+    @apply relative;
+    @apply flex flex-col;
 }
 
 .card::after {
     content: '';
     right: calc(100% - .5rem);
-    @apply top-0 left-0 bottom-0 absolute border-r border-primary;
+    @apply top-0 left-0 bottom-0;
+    @apply absolute;
+    @apply border-r border-primary;
 }
+    @apply z-10;
 
 .event-card {
     left: 0%;
     bottom: -70px;
-    /* z-index: 1; */
     @apply z-10;
 }
 
 @screen md {
     .event-card {
         left: 20%;
-        /* z-index: 1; */
     }
 }
 
 .callout-card {
-    @apply flex-1 px-0 py-8;
+    @apply flex-1;
+    @apply px-0 py-8;
 }
 
 @screen sm {
@@ -41,15 +48,24 @@
 }
 
 .participation-card {
-    bottom: -5rem;
+    bottom: -8rem;
     left: 0;
-    @apply mx-16 absolute z-10 w-full bg-white mx-auto p-12 border-2 border-primary;
+    @apply absolute;
+    @apply bg-white;
+    @apply border-2 border-primary;
+    @apply w-full;
+    @apply p-8;
+    @apply z-10;
 }
 
 @screen md {
     .participation-card {
-        bottom: -7rem;
-        left: 4rem;
-        @apply w-2/5;
+        @apply w-1/2;
+    }
+}
+
+@screen lg {
+    .participation-card {
+        @apply p-12;
     }
 }
