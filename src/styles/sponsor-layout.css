@@ -1,0 +1,15 @@
+.sponsor-container {
+    @apply flex flex-wrap;
+}
+
+.sponsor-container svg {
+    @apply mr-4 mb-4;
+}
+
+.sponsor__row {
+    @apply pb-8 mb-8 border-b border-primary-200;
+}
+
+.sponsor__row:last-child {
+    @apply border-b-0;
+}

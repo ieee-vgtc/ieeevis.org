@@ -1,6 +1,6 @@
 ---
 title: Call For Participation
-layout: main-2019
+layout: landing
 permalink: /year/2019/info/call-participation/call-for-participation
 ---
         

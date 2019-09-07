@@ -1,3 +1,4 @@
+
 @import "tailwindcss/base";
 @import 'typography';
 
@@ -5,5 +6,8 @@
 @import 'navigation';
 @import 'buttons';
 @import 'cards';
+@import 'footer';
+@import 'sponsor-layout';
+@import 'sections';
 
 @import "tailwindcss/utilities";

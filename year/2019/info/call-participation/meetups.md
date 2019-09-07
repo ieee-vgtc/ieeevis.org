@@ -1,6 +1,6 @@
 ---
 title: Meetups
-layout: main-2019
+layout: page
 permalink: /year/2019/info/call-participation/meetups
 contact: meetups@ieeevis.org
 ---
