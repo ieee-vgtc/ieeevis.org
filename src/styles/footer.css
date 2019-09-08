@@ -54,14 +54,14 @@ footer li a {
 }
 
 .footer__header {
-    @apply uppercase font-bold text-white tracking-wider;
+    @apply uppercase font-bold text-white tracking-wider mb-6;
 }
 
-.footer__year {
+.footer__inline-link {
     @apply relative pl-1 pr-2;
 }
 
-.footer__year::before {
+.footer__inline-link::before {
     content: '•';
     @apply absolute;
     left: -4px;
