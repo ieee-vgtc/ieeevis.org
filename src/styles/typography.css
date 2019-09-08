@@ -88,9 +88,12 @@ p {
     @apply mb-4;
 }
 
+/* Apply to content only #/
+/#
 ul {
     @apply ml-8;
 }
+*/
 
 .content li {
     @apply relative mt-3;
