@@ -1,0 +1,13 @@
+.supporters__row {
+    @apply pt-3;
+    @apply border-b border-primary-200;
+}
+
+.supporters__row:last-child {
+    @apply border-b-0;
+}
+
+.supporters__row img {
+    max-width: 125px;
+    max-height: 50px;
+}

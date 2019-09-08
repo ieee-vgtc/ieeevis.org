@@ -1,0 +1,70 @@
+- category: Platinum
+  supporters:
+    - name: Tableau
+      image: /assets/supporters/tableau.png
+
+
+- category: Gold
+  supporters:
+    - name: Microsoft
+      image: /assets/supporters/microsoft.png
+
+
+- category: Bronze
+  supporters:
+    - name: Harvard Medical School, Department of Biomedical Informatics
+      image: /assets/supporters/DBMI.png
+
+    - name: Kitware
+      image: /assets/supporters/kitware.png
+
+    - name: IBM
+      image: /assets/supporters/tableau.png
+
+
+- category: Pearl
+  supporters:
+    - name: Otto von Guericke University Magdeburg
+      image: /assets/supporters/microsoft.png
+
+    - name: St. Pölten University
+      image: /assets/supporters/DBMI.png
+
+    - name: Northeastern University, College of Arts, Media and Design
+      image: /assets/supporters/kitware.png
+
+    - name: Springer
+      image: /assets/supporters/tableau.png
+
+    - name: VRVis
+      image: /assets/supporters/microsoft.png
+
+    - name: HDC Arizona
+      image: /assets/supporters/DBMI.png
+
+    - name: Uncharted
+      image: /assets/supporters/kitware.png
+
+
+- category: Other Donations
+  supporters:
+    - name: Sophos
+      image: /assets/supporters/microsoft.png
+
+    - name: Data machines
+      image: /assets/supporters/DBMI.png
+
+    - name: FireEye
+      image: /assets/supporters/kitware.png
+
+
+- category: In affiliation/cooperation with
+  supporters:
+    - name: International Society For Computational Biology
+      image: /assets/supporters/microsoft.png
+
+    - name: ACM In Cooperation
+      image: /assets/supporters/DBMI.png
+
+    - name: SigChi
+      image: /assets/supporters/kitware.png
