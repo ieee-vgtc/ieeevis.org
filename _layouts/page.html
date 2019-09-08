@@ -11,36 +11,7 @@ layout: default
             {{ content }}
         </div>
     </article>
-
-    <div
-        class="page-sidebar ">
-        <div class="mb-8 ">
-            <p class="uppercase font-bold text-gray-500 ">Submit A Session</p>
-            <div class="overflow-hidden md:ml-0 -ml-3 ">
-                <div class="md:ml-0 -ml-px ">
-                    <a href=" " class="page-sidebar__link ">Papers</a>
-                    <a href=" " class="page-sidebar__link ">Short Papers</a>
-                    <a href=" " class="page-sidebar__link ">Posters</a>
-                    <a href=" " class="page-sidebar__link ">Tutorials</a>
-                    <a href=" " class="page-sidebar__link ">Workshops</a>
-                    <a href=" " class="page-sidebar__link ">Panels</a>
-                    <a href=" " class="page-sidebar__link ">Doctoral Colloqium</a>
-                    <a href=" " class="page-sidebar__link ">Application Spotlights</a>
-                </div>
-            </div>
-        </div>
-        <div>
-            <p class="uppercase font-bold text-gray-500 ">Info For Presenters</p>
-            <div class="overflow-hidden md:ml-0 -ml-3 ">
-                <div class="md:ml-0 -ml-px ">
-                    <a href=" "
-                        class="page-sidebar__link ">Important
-                        Dates</a>
-                    <a href=" "
-                        class="page-sidebar__link ">Open
-                        Practices</a>
-                </div>
-            </div>
-        </div>
-    </div>
+    {% if page.sidebar %}
+        {% include sidebar.html %}
+    {% endif %}
 </div>
