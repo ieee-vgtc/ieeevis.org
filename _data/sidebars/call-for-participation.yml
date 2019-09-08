@@ -1,0 +1,27 @@
+- heading: "Submit A Session"
+  links:
+    - text: "Papers"
+      url: "/year/2019/info/call-participation/call-for-participation"
+    - text: "Short Papers"
+      url: "https://www.google.com"
+    - text: "Posters"
+      url: "https://www.google.com"
+    - text: "Tutorials"
+      url: "https://www.google.com"
+    - text: "Workshops"
+      url: "https://www.google.com"
+    - text: "Panels"
+      url: "https://www.google.com"
+    - text: "Doctoral Colloqium"
+      url: "https://www.google.com"
+    - text: "Application Spotlights"
+      url: "https://www.google.com"
+
+
+- heading: "Info For Presenters"
+  links:
+    - text: "Important Dates"
+      url: "https://www.google.com"
+    - text: "Open Practices"
+      url: "https://www.google.com"
+      
