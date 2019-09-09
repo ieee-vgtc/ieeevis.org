@@ -21,6 +21,8 @@
 
 registration:
   display: true
+  text: "Register"
+  url: "/year/2019/info/registration/conference-registration"
 
 menu:
   - dropdown: "Attend"

@@ -1,48 +1,54 @@
 <!-- Navigation Bar -->
 
 <div id="navigation">
-    <nav class="nav bg-gray-100 md:bg-accent flex flex-start justify-between md:justify-start border-b-2 border-primary relative">
-        <div class="text-lg text-blue-700 p-4">
+    <nav class="nav flex flex-start justify-between md:justify-start items-center">
+        <div class="logo flex-none text-lg text-blue-700 p-4">
             <a href="/">
                 <img src="/assets/vis2019_logo.svg" alt="VIS 2019" width="150">
             </a>
         </div>
 
-        <div class="nav_menu md:flex" v-bind:class="{ 'nav_menu--expanded': isExpanded }">
+        <div class="menu md:flex md:justify-end"
+            v-bind:class="{ 'menu--expanded': isExpanded }">
         {% for nav in site.data.navigation.menu %}
             {% if nav.display %}
 
             {% assign is_active_class = '' %}
             {% if page.active_nav == nav.dropdown %}
-            {% assign is_active_class = 'nav_menu_item--is-active' %}
+            {% assign is_active_class = 'menu_item--is-active' %}
             {% endif %}
 
-            <div class="nav_menu_item {{is_active_class}} flex-initial font-display text-lg px-8 py-4 border-b border-primary-200 md:border-none" v-on:click="toggleMenuItems('{{ nav.dropdown }}')" v-bind:class="{ 'nav_menu_item--focus': menu['{{ nav.dropdown }}'] }">
-                {{ nav.dropdown }}
+            <div class="menu_item {{is_active_class}} font-display text-lg md:text-base lg:text-lg px-8 md:px-3 lg:px-4 lg:mx-2 py-4 md:py-6 border-b-2 border-primary-200 md:border-none"
+                v-on:click="toggleMenuItems('{{ nav.dropdown }}')"
+                v-bind:class="{ 'menu_item--focused': menu['{{ nav.dropdown }}'] }">
+                <span class="whitespace-no-wrap">{{ nav.dropdown }}
                 <i class="material-icons align-middle" v-if="menu['{{ nav.dropdown }}']">arrow_drop_down</i>
                 <i class="material-icons align-middle" v-else>arrow_right</i>
+                </span>
             </div>
 
-            <div class="submenu md:flex" role="menu" aria-label="submenu" aria-hidden="true" v-if="menu['{{ nav.dropdown }}']">
+            <div class="dropdown md:flex" role="menu" aria-label="submenu" aria-hidden="true">
             {% for section in nav.sections %}
-                <div class="submenu__column">
+                <div class="dropdown__section">
                     {% for subsection in section.subsections %}
-                        <div class="submenu__section">
+                        <div class="dropdown__subsection">
                             {% if subsection.heading_url %}
-                            <a class="link--arrow" href="{{ subsection.heading_url }}">{{ subsection.heading }}</a>
+                                <a class="dropdown__heading link--arrow" href="{{ subsection.heading_url }}">{{ subsection.heading }}</a>
                             {% else %}
-                            <span class="font-bold text-gray-700 uppercase">{{ subsection.heading }}</span>
+                                <span class="dropdown__heading">{{ subsection.heading }}</span>
                             {% endif %}
 
                             {% if subsection.description %}
-                            <p class="submenu__description">{{ subsection.description }}</p>
+                                <p class="dropdown__description">{{ subsection.description }}</p>
                             {% endif %}
 
                             {% if subsection.columns %}
                             <div class="sm:flex sm:flex-row flex-col">
                                 {% for column in subsection.columns %}
-                                    <ul class="flex-grow mt-4">
-                                        <li class="submenu__heading submenu__heading--gray">{{ column.heading }}</li>
+                                    <ul class="flex-grow mt-4 md:mt-2">
+                                        {% if column.heading %}
+                                            <li class="dropdown__heading text-gray-500">{{ column.heading }}</li>
+                                        {% endif %}
                                         {% for link in column.links %}
                                            <li>
                                                 <a href="{{ link.url }}">{{ link.text }}</a>
@@ -56,7 +62,7 @@
                                                 {% endif %}
 
                                                 {% if link.description %}
-                                                <p class="submenu__description">{{ link.description }}</p>
+                                                <p class="dropdown__description">{{ link.description }}</p>
                                                 {% endif %}
                                             </li>
                                         {% endfor %}
@@ -72,14 +78,15 @@
             </div>
             {% endif %}
         {% endfor %}
-            {% if site.data.navigation.registration.display %}
-            <div class="font-display text-primary px-8 py-4 border-b border-primary-200 md:border-none bg-accent">
-                <a class="button">Register</a>
+        {% if site.data.navigation.registration.display %}
+            <div class="px-8 md:px-4 lg:px-8 lg:px-4 py-4 border-b-2 border-primary-200 md:border-none self-center">
+                <a class="button" href="{{ site.data.navigation.registration.url }}">{{ site.data.navigation.registration.text }}</a>
             </div>
-            {% endif %}
+        {% endif %}
         </div>
 
-        <div class="md:hidden flex-end p-4 text-primary font-display font-bold text-lg" v-on:click="toggleMenu()">
+        <div class="md:hidden flex-end p-4 text-primary font-display font-bold text-lg"
+            v-on:click="toggleMenu()">
             <i class="material-icons align-middle">menu</i> Menu
         </div>
     </nav>
