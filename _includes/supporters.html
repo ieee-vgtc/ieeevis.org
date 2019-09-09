@@ -1,0 +1,12 @@
+<div class="sm:w-2/3 sm:ml-12 ml-0 w-full ">
+    {% for row in site.data.supporters %}
+        <div class="supporters__row ">
+            <p class="uppercase font-bold text-sm text-gray-500 tracking-wider mb-6 ">{{ row.category }}</p>
+            <div class="flex flex-wrap items-start">
+                {% for supporter in row.supporters %}
+                    <img class="mr-6 mb-10" width="125" src="{{ supporter.image }}" alt="{{ supporter.name }}">
+                {% endfor %}
+            </div>
+        </div>
+    {% endfor %}
+</div>

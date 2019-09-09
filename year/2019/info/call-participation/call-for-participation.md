@@ -2,6 +2,7 @@
 title: Call For Participation
 layout: landing
 permalink: /year/2019/info/call-participation/call-for-participation
+sidebar: call-for-participation
 ---
         
 **IEEE VIS 2019** is the premier forum for advances in visualization for academia, government, and industry. 

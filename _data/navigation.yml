@@ -34,7 +34,7 @@ menu:
               - heading: "Attend"
                 links:
                   - text: "Registration"
-                    url: "https://www.google.com"
+                    url: "/year/2019/info/registration/conference-registration"
                   - text: "Conference Venue"
                     url: "https://www.google.com"
                   - text: "Newcomer's Guide"
