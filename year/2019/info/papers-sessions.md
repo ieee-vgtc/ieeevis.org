@@ -721,7 +721,7 @@ Authors: Jie Li, Siming Chen, Wei Chen, Gennady Andrienko, Natalia Andrienko
 **10:50AM-12:20PM**  
 **Room: Room 2+3**  
 *CG&A Session 2*  
-*Session Chair: Christopher Collins*  
+*Session Chair: Nathalie Riche*  
 
 **VitalVizor: A Visual Analytics System for Studying Urban Vitality**  
 Authors: Wei Zeng, Yu Ye
