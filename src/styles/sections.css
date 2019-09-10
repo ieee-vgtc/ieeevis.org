@@ -91,14 +91,21 @@
     }
 }
 
-.polygon-paper {
+.shape-paper {
     clip-path: polygon(100% 0, 100% 100%, 10% 100%, 0 90%, 0 0);
-    @apply bg-white w-full mx-0 my-16 h-auto top-0 right-0;
+    @apply bg-white;
+    @apply text-primary;
+    @apply w-full;
+    @apply mx-0 my-16;
+    @apply h-auto;
+    @apply top-0 right-0;
 }
 
 @screen md {
-    .polygon-paper {
-        @apply w-1/2 mr-8 ml-auto;
+    .shape-paper {
+        @apply w-3/5;
+        @apply mr-10;
+        @apply ml-auto;
     }
 }
 

@@ -2,109 +2,72 @@
 layout: default
 ---
 
-<div class="sm:px-16 px-0 py-16 m-6 relative ">
-    <h1 class="mb-6 font-fira ">VIS 2019</h1>
-    <h2>the premier forum for advances in visualization</h2>
-    <div class="event-card md:w-3/5 w-full bg-secondary-700 absolute sm:p-4 p-0 flex sm:flex-row flex-col align-middle ">
-        <div class="sm:w-1/2 w-full p-4 text-center text-white font-zilla self-center ">VIS|VAST INFOVIS SCIVIS</div>
-        <div
-            class="sm:w-1/2 w-full p-4 text-center text-white font-zilla self-center font-bold sm:border-l border-l-0 sm:border-t-0 border-t border-white ">
-            20-25
-            October 2019 in
-            Vancouver, Canada
-        </div>
-    </div>
-</div>
-<!-- Fix this to include section-content -->
-<div class="shape-section shape-section--primary px-6 pt-6 flex justify-end ">
-    <img class="w-3/5 md:block hidden absolute left-0 top-0 " src="https://via.placeholder.com/800x1200" alt=" ">
+{% include main-banner.html 
+    image-src="/assets/vis2019_logo.svg" 
+    image-alt="VIS 2019 Logo"
+    description="the premier forum for advances in visualization" 
+    event-info="20-25 October 2019 in Vancouver, Canada" %}
 
-    <div class="polygon-paper relative ">
-        <div class="p-16">
-            {{ content }}
-        </div>
-    </div>
-</div>
+{% include section-letter.html 
+    image-src="https://via.placeholder.com/800x1200"
+    image-alt="A placeholder image" %}
 
-<div class="bg-white p-10">
-    <div class="flex sm:flex-row flex-col ">
-        <div class="callout-card sm:border-r border-r-0 border-b border-dashed border-secondary-200 ">
-            <h3 class="mb-6 ">New Attendees Guide</h3>
-            <p class="mb-6 ">TK Learn about what to expect for your first VIS conference. Get tips on how to plan your
-                week, meet newcomers, etc.</p>
-            <button class="button button-secondary ">Learn more</button>
-        </div>
-        <div class="callout-card border-b border-dashed border-secondary-200 ">
-            <h3 class="mb-6 ">Get the Digital Program</h3>
-            <p class="mb-6 ">TK Learn about what to expect for your first VIS conference. Get tips on how to plan your
-                week, meet newcomers, etc.</p>
-            <button class="button button-secondary ">Download the App</button>
-        </div>
-    </div>
-    <div class="flex sm:flex-row flex-col ">
-        <div class="callout-card sm:border-r border-r-0 sm:border-b-0 border-b border-dashed border-secondary-200 ">
-            <h3 class="mb-6 ">Apply for the Diversity and Inclusion Scholarships</h3>
-            <p class="mb-6 ">TK Learn about what to expect for your first VIS conference. Get tips on how to plan your
-                week, meet newcomers, etc.</p>
-            <button class="button button-secondary ">Learn more</button>
-        </div>
-        <div class="callout-card ">
-            <h3 class="mb-6 ">Student Volunteers</h3>
-            <p class="mb-6 ">TK Learn about what to expect for your first VIS conference. Get tips on how to plan your
-                week, meet newcomers, etc.</p>
-            <button class="button button-secondary ">Learn more</button>
-        </div>
-    </div>
-</div>
-<div class="bg-gray-200 px-8 pt-8 sm:pb-8 pb-0 ">
-    <div class="flex sm:flex-row flex-col ">
-        <div class="flex flex-col sm:mr-2 mr-0 ">
-            <img class="mb-4 " src="https://via.placeholder.com/800x500 " alt=" ">
-            <img class="mb-4 " src="https://via.placeholder.com/800x1000 " alt=" ">
-        </div>
-        <div class="flex flex-col sm:mx-2 mx-0 ">
-            <img class="mb-4 " src="https://via.placeholder.com/800x1000 " alt=" ">
-            <img class="mb-4 " src="https://via.placeholder.com/800x500 " alt=" ">
-        </div>
-        <div class="flex flex-col sm:ml-2 ml-0 ">
-            <img class="mb-4 " src="https://via.placeholder.com/800x500 " alt=" ">
-            <img class="mb-4 " src="https://via.placeholder.com/800x1000 " alt=" ">
-        </div>
-    </div>
+<div class="callout-card--container">
+    {% include callout-card.html
+        title="New Attendees Guide"
+        description="TK Learn about what to expect for your first VIS conference. Get tips on how to plan your
+        week, meet newcomers, etc."
+        button-text="Learn more"
+        button-link="" %}
+    
+    {% include callout-card.html
+        title="Get the Digital Program"
+        description="TK Learn about what to expect for your first VIS conference. Get tips on how to plan your
+        week, meet newcomers, etc."
+        button-text="Learn more"
+        button-link="" %}
+    
+    {% include callout-card.html
+        title="Apply for the Diversity and Inclusion Scholarships"
+        description="TK Learn about what to expect for your first VIS conference. Get tips on how to plan your
+        week, meet newcomers, etc."
+        button-text="Learn more"
+        button-link="" %}
 
-    <div class="flex sm:flex-row flex-col my-6 ">
-        <div class="flex-1 sm:pr-6 pr-0 sm:mb-0 mb-8 ">
-            <p class="text-primary uppercase font-bold mb-1 ">See</p>
-            <p class="text-primary ">Explore the most recent advances in visualization</p>
-        </div>
-        <div class="flex-1 sm:px-6 px-0 sm:mb-0 mb-8 ">
-            <p class="text-primary uppercase font-bold mb-1 ">Learn</p>
-            <p class="text-primary ">Get hands on with tutorials and workshops</p>
-        </div>
-        <div class="flex-1 sm:px-6 pr-0 sm:mb-0 mb-8 ">
-            <p class="text-primary uppercase font-bold mb-1 ">Meet</p>
-            <p class="text-primary ">Join our creative, capable visualization community</p>
-        </div>
-        <div class="flex-1 sm:pl-6 pl-0 sm:mb-0 mb-8 ">
-            <p class="text-primary uppercase font-bold mb-1 ">Share</p>
-            <p class="text-primary ">Share your work and research findings</p>
-        </div>
-    </div>
+    {% include callout-card.html
+        title="Student Volunteers"
+        description="TK Learn about what to expect for your first VIS conference. Get tips on how to plan your
+        week, meet newcomers, etc."
+        button-text="Learn more"
+        button-link="" %}
+
+    {% include callout-card.html
+        title="Get the Digital Program"
+        description="TK Learn about what to expect for your first VIS conference. Get tips on how to plan your
+        week, meet newcomers, etc."
+        button-text="Learn more"
+        button-link="" %}
 </div>
 
-<div class="bg-white sm:px-16 px-10 sm:pt-16 pt-10 mb-40 ">
-    <div class="flex sm:flex-row flex-col ">
-        <div class="sm:w-1/3 w-full sm:mb-0 mb-16 ">
-            <h2 class="mb-6 ">IEEE VIS is made possible by our supporters.</h2>
-            <p class="mb-6 text-primary ">TK TK TK Our generous supporters help to fund our diveristy and inclusion
-                scholarship, childcare
-                grants and
-                more.
-                Participate in IEEE VIS by supporting and exhibiting at the conference.</p>
-            <button class="button button-blue align-middle ">Become a Supporter</button>
-        </div>
+<div class="bg-gray-200 ">
+    {% include photo-grid.html 
+        src1="https://via.placeholder.com/800x500" alt1="A placeholder image"
+        src2="https://via.placeholder.com/800x1000" alt2="A placeholder image"
+        src3="https://via.placeholder.com/800x1000" alt3="A placeholder image"
+        src4="https://via.placeholder.com/800x500" alt4="A placeholder image"
+        src5="https://via.placeholder.com/800x500" alt5="A placeholder image"
+        src6="https://via.placeholder.com/800x1000" alt6="A placeholder image" %}
 
-        {% include supporters.html %}
-
-    </div>
+    {% include taglines.html 
+        title1="See" description1="Explore the most recent advances in visualization"
+        title2="Learn" description2="Get hands on with tutorials and workshops"
+        title3="Meet" description3="Join our creative, capable visualization community"
+        title4="Share" description4="Share your work and research findings" %}
 </div>
+
+{% include supporters.html 
+    title="IEEE VIS is made possible by our supporters." 
+    description="TK TK TK Our generous supporters help to fund our diveristy and inclusion
+    scholarship, childcare grants and more. Participate in IEEE VIS by supporting and exhibiting at the conference."
+    button-text="Become a Supporter"
+    button-link="" %}
