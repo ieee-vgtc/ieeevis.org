@@ -522,7 +522,7 @@ Authors: Paulo Ivson, André Moreira, Francisco Queiroz, Wallas Santos, Waldemar
 Authors: Andreas Walch, Michael Schwärzler, Christian Luksch, Elmar Eisemann, Theresia Gschwandtner
 
 **[V] PlanningVis: A Visual Analytics Approach to Production Planning in Smart Factories (J)**  
-Authors: Dong Sun, Renfei Huang, Yong Wang, Yuanzhe Chen, Jia Zeng, Mingxuan Yuan, Ting-Cheun Pong, Huamin Qu
+Authors: Dong Sun, Renfei Huang, Yong Wang, Yuanzhe Chen, Jia Zeng, Mingxuan Yuan, Ting-Chuen Pong, Huamin Qu
 
 **[V] Visual Analytics for Electromagnetic Situation Awareness in Radio Monitoring and Management (J)**  
 Authors: Ying Zhao, Xiaobo Luo, Xiaru Lin, Hairong Wang, Xiaoyan Kui, Fangfang Zhou, Jinsong Wang, Yi Chen, Wei Chen
@@ -652,7 +652,7 @@ Authors: Nicola Pezzotti, Julian Thijssen, Alexander Mordvintsev, Thomas Höllt,
 Authors: Yuxin Ma, Anthony K. H. Tung, Wei Wang, Xiang Gao, Zhigeng Pan, Wei Chen
 
 **[I] A Recursive Subdivision Technique for Sampling Multi-class Scatterplots (J)**  
-Authors: Yunhai Wang, Xin Chen, Tong Ge, Jian Zhang, Ying Zhao, Chi-Wing Fu, Baoquan Chen, Oliver Deussen
+Authors: Xin Chen, Tong Ge, Jian Zhang, Baoquan Chen, Chi-Wing Fu, Oliver Deussen, Yunhai Wang
 
 **[I] Data Sampling in Multi-view and Multi-class Scatterplots via Set Cover Optimization (J)**  
 Authors: Ruizhen Hu, Tingkai Sha, Oliver van Kaick, Oliver Deussen, Hui Huang
@@ -661,7 +661,7 @@ Authors: Ruizhen Hu, Tingkai Sha, Oliver van Kaick, Oliver Deussen, Hui Huang
 Authors: Rafael Veras, Christopher Collins
 
 **[I] Improving the Robustness of Scagnostics (J)**  
-Authors: Yunhai Wang, Zeyu Wang, Michael Correll, Zhanglin Cheng, Tingting Liu, Oliver Deussen, Michael Sedlmair
+Authors: Yunhai Wang, Zeyu Wang, Tingting Liu, Michael Correll, Zhanglin Cheng, Oliver Deussen, Michael Sedlmair
 
 **[I] Winglets: Visualizing Association with Uncertainty in Multi-class Scatterplots (J)**  
 Authors: Min Lu, Shuaiqi Wang, Joel Lanir, Noa Fish, Yang Yue, Daniel CohenOr, Hui Huang
@@ -721,7 +721,7 @@ Authors: Jie Li, Siming Chen, Wei Chen, Gennady Andrienko, Natalia Andrienko
 **10:50AM-12:20PM**  
 **Room: Room 2+3**  
 *CG&A Session 2*  
-*Session Chair: Christopher Collins*  
+*Session Chair: Nathalie Riche*  
 
 **VitalVizor: A Visual Analytics System for Studying Urban Vitality**  
 Authors: Wei Zeng, Yu Ye
@@ -889,7 +889,7 @@ Authors: Gromit Yeuk-Yin Chan, Luis Gustavo Nonato, Alice Chu, Preeti Raghavan, 
 Authors: Siming Chen, Natalia Andrienko, Gennady Andrienko, Linara Adilova, Jeremie Barlet, Joerg Kindermann, Phong H. Nguyen, Olivier Thonnard, Cagatay Turkay
 
 **[I] ShapeWordle: Tailoring Wordles using Shape-aware Archimedean Spirals (J)**  
-Authors: Yunhai Wang, Xiaowei Chu, Kaiyi Zhang, Chen Bao, Xiaotong Li, Jian Zhang, Christophe Hurter, Chi-Wing Fu, Oliver Deussen
+Authors: Yunhai Wang, Xiaowei Chu, Kaiyi Zhang, Chen Bao, Xiaotong Li, Jian Zhang, Chi-Wing Fu, Christophe Hurter, Oliver Deussen, Bongshin Lee
 
 **[V] Semantic Concept Spaces: Guided Topic Model Refinement using Word-Embedding Projections (J)**  
 Authors: Mennatallah El-Assady, Rebecca Kehlbeck, Christopher Collins, Daniel Keim, Oliver Deussen
