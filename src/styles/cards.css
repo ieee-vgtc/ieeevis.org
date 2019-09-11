@@ -76,8 +76,9 @@
 }
 
 .participation-card {
-    bottom: -8rem;
-    left: 0;
+    bottom: -5rem;
+    left: 0rem;
+    max-height: 550px;
     @apply absolute;
     @apply bg-white;
     @apply border-2 border-primary;
@@ -86,9 +87,21 @@
     @apply z-10;
 }
 
+
 @screen md {
     .participation-card {
-        @apply w-1/2;
+        /* @apply w-1/2; */
+        @apply p-8;
+        width: auto;
+        max-width: 50%;
+        bottom: -4rem
+        
+    }
+}
+
+@screen lg {
+    .participation-card {
+        bottom: -6rem;
     }
 }
 
