@@ -3,6 +3,35 @@ title: Call For Participation
 layout: landing
 permalink: /year/2019/info/call-participation/call-for-participation
 sidebar: call-for-participation
+intro_section:
+  callout: callout IEEE Conference on Visual Analytics Science & Technology (VAST) callout IEEE Conference on Visual Analytics Science & Technology (VAST)
+  somethingelse: "something"
+  cards:
+    - title: "IEEE Conference on Visual Analytics Science & Technology (VAST)"
+      description: "Papers in VAST typically focus on problems that integrate data analysis algorithms and visual interfaces to support data
+      analysis and analytical reasoning."
+      button_text: "VAST Paper Types"
+      button_url: "/"
+    - title: "IEEE Conference on Information Visualization (InfoVis)"
+      description: "Papers in InfoVis typically relate to the design or evaluation of new or improved visual encodings or interaction techniques of abstract data (such as graphs, tables, or text data)."
+      button_text: "InfoVIS Paper Types"
+      button_url: "/"
+    - title: "IEEE Conference on Scientific Visualization (SciVis)"
+      description: "Papers in SciVis typically focus on new or improved visual encodings, mathematical models, algorithms, or interaction techniques for the visualization of data related to science and engineering, as well as integration into novel applications and systems."
+      button_text: "SciVis Paper Types"
+      button_url: "/"
+    - title: "IEEE Conference on Scientific Visualization (SciVis)"
+      description: "Papers in SciVis typically focus on new or improved visual encodings, mathematical models, algorithms, or interaction techniques for the visualization of data related to science and engineering, as well as integration into novel applications and systems."
+      button_text: "SciVis Paper Types"
+      button_url: "/"
+  content: |
+      **Which conference track should I submit to?**
+      
+      We encourage you to allocate your submission to one of the three tracks above. But if you are unsure, you will have the option to allow the paper chairs to allocate your paper to the one they deem the most appropriate.
+      
+      **Where will papers appear?**
+
+      **Full** papers accepted to [IEEE InfoVis, SciVis, and most of VAST](https://google.com) will appear in a special issue of the IEEE Transactions on Visualization and Computer Graphics (TVCG). Some papers of the VAST conference will be published as archival, conference publications.
 ---
         
 **IEEE VIS 2019** is the premier forum for advances in visualization for academia, government, and industry. 

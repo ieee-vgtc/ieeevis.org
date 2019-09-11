@@ -52,7 +52,7 @@ a:not(.button) {
     border-bottom: 1px dashed;
 } */
 
-.link {
+.link, .content a {
     @apply text-primary;
     border-bottom: 1px dashed;
 }
@@ -64,7 +64,7 @@ a:not(.button):hover {
     transition: color 200ms;
 } */
 
-.link:hover {
+.link:hover, .content a:hover {
     @apply text-primary-600;
     transition: color 200ms;
 }
@@ -94,6 +94,10 @@ ul {
     @apply ml-8;
 }
 */
+
+.content ol, .content ul {
+    @apply mb-4;
+}
 
 .content li {
     @apply relative mt-3;

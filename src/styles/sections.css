@@ -4,13 +4,15 @@
 /* CSS shapes */
 
 .shape-section {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 100%, 70% 96%, 0 96%);
+    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 100%, 70% 96%, 0 96%); */
+    clip-path: polygon(100% 0, 100% 100%, 75% 100%, 70% 98%, 0 98%, 0 0);
     @apply w-full relative;
 }
 
 @screen lg {
     .shape-section {
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 100%, 70% 93%, 0 93%);
+        /* clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 100%, 70% 93%, 0 93%); */
+        clip-path: polygon(100% 0, 100% 100%, 75% 100%, 70% 95%, 0 95%, 0 0);
     }
 }
 
@@ -37,7 +39,7 @@
         @apply absolute;
         @apply border-b-2 border-dashed border-white;
         @apply mt-6;
-        @apply w-3/5;
+        @apply w-4/5;
     }
 
     .shape-section--primary-line::after {
@@ -56,6 +58,12 @@
 .shape-section--primary-light {
     @apply bg-primary-600;
     @apply pb-12;
+}
+
+@screen sm {
+    .shape-section--primary-light {
+        @apply pb-16;
+    }
 }
 
 .shape-section--primary-light::before {
@@ -77,6 +85,13 @@
     @apply absolute;
     @apply border-white border-2 rounded-full;
     @apply mb-6;
+}
+
+@screen sm {
+    .shape-section--primary-light::before,
+    .shape-section--primary-light::after {
+        @apply mb-8;
+    }
 }
 
 .shape-section--gray {
@@ -110,11 +125,39 @@
 }
 
 .section-content {
-    @apply px-6 py-16;
+    @apply mx-6 py-16;
 }
 
 @screen sm {
     .section-content {
-        @apply px-16
+        @apply mx-8;
     }
+}
+
+@screen lg {
+    .section-content {
+        @apply mx-16;
+    }
+}
+
+.intro-content {
+    @apply text-white;
+    @apply w-full;
+    @apply mt-8;
+}
+
+@screen md {
+    .intro-content {
+        @apply w-1/2;
+    }
+}
+
+.intro-content a {
+    @apply border-b border-white border-dashed;
+}
+
+.intro-content a:hover {
+    @apply text-primary-200;
+    @apply border-primary-200;
+    transition: color 200ms;
 }
