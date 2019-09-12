@@ -1,22 +1,35 @@
 /* Cards */
 
+/* Generic Card*/
+
 .card {
-    @apply bg-white;
-    @apply mb-4 p-6;
-    @apply border rounded-sm border-primary-700;
-    @apply text-primary;
-    @apply relative;
     @apply flex flex-col;
+    @apply relative;
+    @apply mb-4 p-6;
+    @apply border border-primary-700 rounded;
+    @apply bg-accent;
+    @apply text-primary;
 }
 
 .card::after {
     content: '';
-    right: calc(100% - .5rem);
-    @apply top-0 left-0 bottom-0;
-    @apply absolute;
+    right: calc(100% - 0.5rem);
+    height: 100%;
+    @apply absolute top-0;
     @apply border-r border-primary;
 }
-    @apply z-10;
+
+    @screen md {
+        .card {
+            @apply mr-4;
+            min-width: 300px;
+            max-width: 400px;
+            flex: 1;
+        }
+    }
+
+
+/* Banner Card */
 
 .event-card {
     left: 0%;

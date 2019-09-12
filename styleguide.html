@@ -1,5 +1,5 @@
 ---
-layout: default 
+layout: default
 ---
 
 <div class="w-2/3 m-auto content">
@@ -117,10 +117,11 @@ layout: default
     <hr>
     <hr>
 
-    <div class="card w-1/2 ">
-        <p class="font-display font-bold pb-4 text-md ">Card Heading</p>
-        <p></p>This is a little card that shares a little bit of information about what's going on.</p>
-    </div>
+    {% include card.html
+        title="Card Heading"
+        description="This is a little card that shares a little bit of information about what's going on."
+        button_text="Button"
+        button_url="as" %}
 
     <div class="md:flex items-center mb-4 px-6 py-4 border border-primary border-l-8 rounded-sm bg-primary-100 ">
         <div class="mb-4 md:mb-0 md:mr-4 ">
