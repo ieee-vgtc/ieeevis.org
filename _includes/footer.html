@@ -5,6 +5,7 @@
         <a href="{{ site.github_repository }}/issues/new/?title={{ "Fix content problem on " | append: page.permalink | append: ".md" | url_encode }}" target="_blank" class="link">file a bug</a>, or
         <a href="{{ site.github_repository }}/edit/{{ site.github_pull_request_branch }}{{ page.permalink }}.md" target="_blank" class="link">suggest a fix</a>.
     </p>
+
     <div class="bg-secondary-700 sm:p-10 p-12 flex sm:flex-row flex-col">
         <div
             class="footer__col flex flex-col relative sm:mb-0 mb-8 sm:flex-1 flex-initial xl:pr-12 md:pr-6 sm:pr-4 pr-0 sm:border-r border-r-0 sm:border-b-0 border-b border-dashed">
@@ -15,7 +16,9 @@
 
                 <p class="uppercase mt-6">The premier forum for advances in visualization</p>
             </div>
-            <a href="" class="footer__header sm:mt-auto mt-10 mb-8 whitespace-no-wrap">Code Of Conduct
+
+            
+            <a href="{{ site.data.footer.code_of_conduct.url }}" class="footer__header sm:mt-auto mt-10 mb-8 whitespace-no-wrap">{{ site.data.footer.code_of_conduct.heading }}
                 <i class="material-icons align-middle">
                     arrow_right_alt
                 </i>
@@ -23,7 +26,7 @@
 
         </div>
 
-        {% for column in site.data.footer %}
+        {% for column in site.data.footer.columns %}
             <div class="sm:flex-1 flex-initial xl:px-12 md:px-6 sm:px-4 px-0 sm:mb-0 mb-8">
                 {% for section in column.section %}
                     <p class="footer__header">{{ section.heading }}</p>
@@ -38,7 +41,7 @@
                     {% else %}
                         <ul class="mb-6">
                             {% for link in section.links %}
-                            <li><a href="{{ link.url }}">{{ link.text }}</a></li>
+                                <li><a href="{{ link.url }}">{{ link.text }}</a></li>
                             {% endfor %}
                         </ul>
                     {% endif %}
@@ -89,7 +92,7 @@
             <p class="uppercase">© 2019 IEEE. Sponsored by the IEEE Computer Society Visualization and Graphics
                 Technical
                 Committee.</p>
-            <a href="" class="sm:mt-0 mt-12">IEEE Privacy Policy</a>
+            <a href="/" class="sm:mt-0 mt-12">IEEE Privacy Policy</a>
         </div>
     </div>
 </footer>
