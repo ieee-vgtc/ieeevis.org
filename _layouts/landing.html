@@ -17,7 +17,7 @@ layout: default
 
             <div class="flex md:flex-row flex-col flex-wrap {% if page.intro_section.callout %}lg:mt-24 mt-16{% else %}mt-0{%endif%}">
                 {% for card in page.intro_section.cards %}
-                    {% include landing-card.html 
+                    {% include card.html 
                         title=card.title
                         description=card.description
                         button_text=card.button_text

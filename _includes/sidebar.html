@@ -1,7 +1,9 @@
 <div class="page-sidebar ">
     {% for section in site.data.sidebars.[page.sidebar] %}
         <div class="my-4">
-            <p class="uppercase font-bold text-gray-500">{{ section.heading }}</p>
+            {% if section.heading %}
+                <p class="uppercase font-bold text-gray-500">{{ section.heading }}</p>
+            {% endif %}
             <div class="overflow-hidden md:ml-0 -ml-3">
                 <div class="md:ml-0 -ml-px">
                     {% for link in section.links %}

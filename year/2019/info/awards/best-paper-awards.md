@@ -1,6 +1,6 @@
 ---
 title: Best Paper Awards
-layout: main-2019
+layout: page
 permalink: /year/2019/info/awards/best-paper-awards
 ---
 Best paper and honorable mention awards are selected per conference track by a dedicated committee of experienced community members. 
