@@ -20,7 +20,7 @@
 
 .event-card {
     left: 0%;
-    bottom: -70px;
+    bottom: -90px;
     @apply z-10;
     @apply font-display;
 }
@@ -28,50 +28,53 @@
 @screen md {
     .event-card {
         left: 16.667%;
+        bottom: -70px;
     }
 }
 
-.callout-card--container {
+.main-card--container {
     @apply flex flex-col flex-wrap;
     @apply px-4 mb-8;
 }
 
 @screen sm {
-    .callout-card--container {
+    .main-card--container {
         @apply flex-row;
         @apply px-10;
     }
 }
 
-.callout-card {
+.main-card {
     @apply px-0 py-8; 
     @apply w-full;
+    @apply flex flex-col;
+    @apply items-start;
     @apply border-b border-dashed border-secondary-200;
 }
 
 @screen sm {
-    .callout-card {
+    .main-card {
         @apply p-8;
         @apply w-1/2;
     }
 }
 
 @screen lg {
-    .callout-card {
+    .main-card {
         @apply p-16;
     }
 }
 
-.callout-card:nth-child(even) {
+.main-card:nth-child(even) {
     @apply border-l-0;
 }
 
 @screen sm {
-    .callout-card:nth-child(even) {
+    .main-card:nth-child(even) {
        @apply border-l;
     }
 }
-.callout-card:nth-child(odd):last-child {
+.main-card:nth-child(odd):last-child {
     @apply border-0;
 }
 
