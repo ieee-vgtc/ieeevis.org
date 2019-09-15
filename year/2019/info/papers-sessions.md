@@ -548,7 +548,7 @@ Authors: William P. Porter, Yunhao Xing, Blaise R von Ohlen, Jun Han, Chaoli Wan
 Authors: Jaemin Jo, Jinwook Seo
 
 **Toward Perception-based Evaluation of Clustering Techniques for Visual Analytics (C)**  
-Authors: Michaël Aupetit, Michael Sedlmair, Mostafa M. Abbas, Halima Bensmail
+Authors: Michaël Aupetit, Michael Sedlmair, Mostafa M. Abbas, Abdelkader Baggag, Halima Bensmail
 
 **SANVis: Visual Analytics for Understanding Self Attention Networks (C)**  
 Authors: Cheonbok Park, Inyoup Na, Yongjang Jo, Sungbok Shin, Yoo Jaehyo, Bum Chul Kwon, Jian Zhao, Hyungjong Noh, Yeonsoo Lee, Jaegul Choo
