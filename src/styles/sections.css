@@ -111,7 +111,7 @@
     @apply bg-white;
     @apply text-primary;
     @apply w-full;
-    @apply mx-0 my-16;
+    @apply mx-0 mb-12 mt-20;
     @apply h-auto;
     @apply top-0 right-0;
 }
@@ -119,7 +119,7 @@
 @screen md {
     .shape-paper {
         @apply w-3/5;
-        @apply mr-10;
+        @apply mr-10 my-16;
         @apply ml-auto;
     }
 }
