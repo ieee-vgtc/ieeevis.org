@@ -61,14 +61,14 @@ Authors: Phong H. Nguyen, Rafael Henkin, Siming Chen, Natalia Andrienko, Gennady
 *Provocations*  
 *Session Chair: Petra Isenberg*  
 
-**[I] Criteria for Rigor in Visualization Design Study (J)**  
-Authors: Miriah Meyer, Jason Dykes
-
 **[I] Data by proxy – material traces as autographic visualizations (J)**  
 Authors: Dietmar Offenhuber
 
 **[I] Design by Immersion: A Transdisciplinary Approach to Problem-Driven Visualizations (J)**  
 Authors: Kyle Wm Hall, Adam James Bradley, Uta Hinrichs, Samuel Huron, Jo Wood, Christopher Collins, Sheelagh Carpendale
+
+**[I] Criteria for Rigor in Visualization Design Study (J)**  
+Authors: Miriah Meyer, Jason Dykes
 
 **[I] What is Interaction for Data Visualization? (J)**  
 Authors: Evanthia Dimara, Charles Perin

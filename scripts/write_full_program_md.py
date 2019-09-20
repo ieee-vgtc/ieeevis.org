@@ -51,13 +51,13 @@ def get_session_link(session):
         if not session["SessionID"]:
             return
         if session_type is "workshop":
-            return "/year/2019/info/workshops/#" + session["SessionID"]
+            return "/year/2019/info/workshops#" + session["SessionID"]
         if session_type is "tutorial":
-            return "/year/2019/info/tutorials/#" + session["SessionID"]
+            return "/year/2019/info/tutorials#" + session["SessionID"]
         if session_type is "panel":
-            return "/year/2019/info/panels/#" + session["SessionID"]
+            return "/year/2019/info/panels#" + session["SessionID"]
         if session_type is "session":
-            return "/year/2019/info/papers-sessions/#" + session["SessionID"]
+            return "/year/2019/info/papers-sessions#" + session["SessionID"]
 
 def render_time_slot(slot_sessions, out):
     for session in slot_sessions:
