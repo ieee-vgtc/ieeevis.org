@@ -1,18 +1,26 @@
 /* Footer */
 
-footer li {
+.footer {
+    @apply mt-16;
+}
+
+.footer li {
     margin-bottom: 6px;
 }
 
-footer ul {
+.footer ul {
     @apply ml-0;
 }
 
-footer li a {
+.footer li a {
     @apply text-white border-b-0;
 }
 
-.footer__col::before {
+.footer__header {
+    @apply relative;
+}
+
+.footer__header::before {
     @apply absolute border-2 rounded-full border-white;
     content: '';
     left: -10px;
@@ -21,19 +29,15 @@ footer li a {
     height: 8px;
 }
 
-@screen sm {
-    .footer__col::before {
-        @apply absolute border-2 rounded-full border-white;
-        content: '';
-        right: -4px;
-        top: -10px;
-        left: auto;
-        width: 8px;
-        height: 8px;
+    @screen md {
+        .footer__header::before {
+            right: -4px;
+            top: -10px;
+            left: auto;
+        }
     }
-}
 
-.footer__col::after {
+.footer__header::after {
     @apply absolute border-2 rounded-full border-white;
     content: '';
     right: -10px;
@@ -42,27 +46,44 @@ footer li a {
     height: 8px;
 }
 
-@screen sm {
-    .footer__col::after {
-        @apply absolute border-2 rounded-full border-white;
-        content: '';
-        right: -4px;
-        bottom: -10px;
-        width: 8px;
-        height: 8px;
+    @screen md {
+        .footer__header::after {
+            right: -4px;
+            bottom: -10px;
+        }
     }
-}
 
-.footer__header {
-    @apply uppercase font-bold text-white tracking-wider mb-6;
+
+.footer__heading {
+    @apply uppercase font-bold text-white tracking-wider;
 }
 
 .footer__inline-link {
     @apply relative pl-1 pr-2;
+    display: inline-block;
+    min-width: 3rem;
 }
 
 .footer__inline-link::before {
-    content: '•';
+    content: '\02219';
     @apply absolute;
-    left: -4px;
+    left: -9px;
+}
+
+/* Footer Links */
+
+.footer__link:hover {
+    border-bottom: 1px dashed;
+}
+
+
+/* Footer logos */
+
+.footer__logo img {
+    height: 25px;
+    width: auto;
+}
+
+.footer__logo + .footer__logo {
+    margin-left: 2rem;
 }

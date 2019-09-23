@@ -5,6 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Website for IEEE VIS.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://ieeevis.org" # the base hostname & protocol for your site
+year: 2019
 
 # Github settings
 github_repository: "https://github.com/ieee-vgtc/ieeevis.org"

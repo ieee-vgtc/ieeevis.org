@@ -6,10 +6,3 @@
     padding-right: 2rem;
     margin: auto;
 }
-
-    @screen md {
-        .container {
-            padding-left: 4rem;
-            padding-right: 4rem;
-        }
-    }

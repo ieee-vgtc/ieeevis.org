@@ -15,7 +15,7 @@ module.exports = {
       },
       secondary: {
         default: '#00A599',
-        800: '#078A81',
+        800: '#097E76',
         700: '#00A899',
         600: '#33B9AD',
         200: '#BFE9E5',
@@ -56,5 +56,8 @@ module.exports = {
   },
 
   variants: {},
-  plugins: []
+  plugins: [],
+  corePlugins: {
+    container: false,
+  }
 }
