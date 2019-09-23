@@ -170,3 +170,13 @@ thead+tbody {
     @apply absolute;
     left: -5px;
 }
+
+/* Measure: Set ideal line length for reading */
+
+.text-measure {
+    max-width: 40em;
+}
+
+.text-measure--wide {
+    max-width: 50em;
+}

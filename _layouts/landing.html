@@ -2,37 +2,43 @@
 layout: default
 ---
 
-<div class="lg:mx-16 sm:mx-8 mx-6 py-32 relative ">
-    <h1>{{ page.title }}</h1>
-    {% if page.intro_section.callout %}
-        <div class="participation-card ">
-            <p class="text-primary m-0 ">{{ page.intro_section.callout }}</p>
-        </div>
-    {% endif %}
-    
+<div class="header--medium header--background relative">
+    <div class="container">
+        <h1>{{ page.title }}</h1>
+    </div>
 </div>
-<div class="shape-section shape-section--primary-light">
-    <div class="shape-section {% if page.intro_section.callout %}shape-section--primary-line{% else %}shape-section--primary{% endif %} ">
-        <div class="section-content ">
-                {% for card in page.intro_section.cards %}
-                    {% include card.html
-                        title=card.title
-                        description=card.description
-                        button_text=card.button_text
-                        button_url=card.button_url %}
-                {% endfor %}
-            </div>
-            {% if page.intro_section.content %}
-                <div class="intro-content">
-                    {{ page.intro_section.content | markdownify }}
+
+<div class="section section--wrapper bg-primary-600">
+    <div class="section">
+        <div class="container">
+            <div class="section__content-wrapper {% if page.intro_section.callout %} section__content-wrapper--decorative {% endif %}">
+                {% if page.intro_section.callout %}
+                    <div class="section__callout mb-16">
+                        {{ page.intro_section.callout }}
+                    </div>
+                {% endif %}
+
+                <div class="flex md:flex-row flex-col flex-wrap">
+                    {% for card in page.intro_section.cards %}
+                        {% include card.html
+                            title=card.title
+                            description=card.description
+                            button_text=card.button_text
+                            button_url=card.button_url %}
+                    {% endfor %}
                 </div>
-            {% endif %}
+                {% if page.intro_section.content %}
+                    <div class="section__content text-measure">
+                        {{ page.intro_section.content | markdownify }}
+                    </div>
+                {% endif %}
+            </div>
         </div>
     </div>
 </div>
 
-<div class="md:px-16 px-6 py-16 flex md:flex-row flex-col justify-between ">
-    <div class="content md:w-3/5 w-full md:mt-0 mt-8 md:order-none order-2 ">
+<div class="container md:py-16 flex md:flex-row flex-col justify-between">
+    <div class="content md:w-3/5 w-full md:mt-0 mt-8 md:order-none order-2">
         {{ content }}
     </div>
 

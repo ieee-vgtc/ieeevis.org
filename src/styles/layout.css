@@ -1,0 +1,15 @@
+/* Containers */
+
+.container {
+    max-width: 1280px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: auto;
+}
+
+    @screen md {
+        .container {
+            padding-left: 4rem;
+            padding-right: 4rem;
+        }
+    }

@@ -1,110 +1,136 @@
 /* Sections */
 
-
-/* CSS shapes */
-
-.shape-section {
-    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 100%, 70% 96%, 0 96%); */
-    clip-path: polygon(100% 0, 100% 100%, 75% 100%, 70% 98%, 0 98%, 0 0);
-    @apply w-full relative;
-}
-
-@screen lg {
-    .shape-section {
-        /* clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 100%, 70% 93%, 0 93%); */
-        clip-path: polygon(100% 0, 100% 100%, 75% 100%, 70% 95%, 0 95%, 0 0);
-    }
-}
-
-.shape-section--primary {
+.section {
     @apply bg-primary;
-    @apply pb-20;
+    @apply relative;
+    margin-bottom: 15px;
 }
 
-.shape-section--primary-line {
-    @apply shape-section--primary;
-}
-
-.shape-section--primary-line::before,
-.shape-section--primary-line::after {
-    @apply hidden;
-}
-
-@screen md {
-    .shape-section--primary-line::before {
-        content: '';
-        right: 4rem;
-        top: 0;
-        @apply block;
-        @apply absolute;
-        @apply border-b-2 border-dashed border-white;
-        @apply mt-6;
-        @apply w-4/5;
+    .section::after {
+        content: "";
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: -29px; /* Fixes a 1px gap in Chrome */
+        height: 30px;
+        width: 30%;
+        clip-path: polygon(100% 0, 100% 100%, 30px 100%, 0 0);
+        background: inherit;
     }
 
-    .shape-section--primary-line::after {
-        content: '';
-        right: calc(4rem - 10px);
-        top: -4px;
-        width: 8px;
-        height: 8px;
-        @apply block;
-        @apply absolute;
-        @apply border-2 border-white rounded-full;
-        @apply mt-6;
+    @screen sm {
+        .section {
+            margin-bottom: 50px;
+        }
+
+        .section::after {
+            height: 50px;
+            bottom: -49px; /* Fixes a 1px gap in Chrome */
+            clip-path: polygon(100% 0, 100% 100%, 50px 100%, 0 0);
+        }
     }
+
+
+.section--wrapper {
+    padding-bottom: 25px;
+    margin-bottom: 50px;
 }
 
-.shape-section--primary-light {
-    @apply bg-primary-600;
-    @apply pb-12;
-}
+    @screen sm {
 
-@screen sm {
-    .shape-section--primary-light {
-        @apply pb-16;
+        .section--wrapper::after {
+            width: 30%;
+            height: 65px;
+            bottom: -64px; /* Fixes a 1px gap in Chrome */
+            clip-path: polygon(100% 0, 100% 100%, 65px 100%, 0 0);
+            background-image: url('/assets/theme/decorative_line_left.svg');
+            background-repeat: no-repeat;
+            background-position: 80px 20px;
+        }
     }
+
+
+/* Section Content Wrapper */
+
+.section__content-wrapper {
+    @apply py-16;
+    @apply relative z-10;
 }
 
-.shape-section--primary-light::before {
-    content: "";
-    right: 0;
-    bottom: 0;
-    @apply absolute;
-    @apply border-b-2 border-white border-dashed;
-    @apply w-1/5;
-    @apply mb-6;
-}
-
-.shape-section--primary-light::after {
-    content: "";
-    right: calc(20% + 4px);
-    bottom: -3px;
-    width: 8px;
-    height: 8px;
-    @apply absolute;
-    @apply border-white border-2 rounded-full;
-    @apply mb-6;
-}
-
-@screen sm {
-    .shape-section--primary-light::before,
-    .shape-section--primary-light::after {
-        @apply mb-8;
+    .section__content-wrapper--decorative {
+        background-image: url('/assets/theme/decorative_line_right.svg');
+        background-repeat: no-repeat;
+        background-position: right top 50px;
     }
+
+
+/* Section Content */
+
+.section__content {
+    @apply text-white;
+    @apply w-full;
+    @apply mt-8;
 }
 
-.shape-section--gray {
-    @apply bg-gray-200;
-    @apply py-20;
-    @apply px-6;
-}
-
-@screen sm {
-    .shape-section--gray {
-        @apply px-16;
+    .section__content a {
+        @apply border-b border-white border-dashed;
     }
+
+    .section__content a:hover {
+        @apply text-primary-200;
+        @apply border-primary-200;
+        transition: color 200ms;
+    }
+
+
+/* Section Callout Card */
+
+.section__callout {
+    @apply relative;
+    @apply w-full;
+    @apply border-2 border-primary;
+    @apply py-8 px-12;
+    margin-top: -8rem;
+    @apply bg-white;
+    @apply text-primary text-lg;
 }
+
+    @screen md {
+        .section__callout {
+            width: 50%;
+            min-width: 450px;
+            max-width: 600px;
+        }
+
+        .section__callout::before {
+            content: '';
+            width: 0;
+            height: 0;
+            display: block;
+            position: absolute;
+            top: -2px;
+            left: -66px;
+            border-left: 64px solid transparent;
+            border-right: 0px solid transparent;
+            border-bottom: 64px solid theme('colors.primary.default');
+        }
+
+        .section__callout::after {
+            content: '';
+            width: 0;
+            height: 0;
+            display: block;
+            position: absolute;
+            top: 1px;
+            left: -64px;
+            border-left: 62px solid transparent;
+            border-right: 0px solid transparent;
+            border-bottom: 62px solid white;
+        }
+    }
+
+
+
 
 .shape-paper {
     clip-path: polygon(100% 0, 100% 100%, 10% 100%, 0 90%, 0 0);
@@ -116,48 +142,10 @@
     @apply top-0 right-0;
 }
 
-@screen md {
-    .shape-paper {
-        @apply w-3/5;
-        @apply mr-10 my-16;
-        @apply ml-auto;
+    @screen md {
+        .shape-paper {
+            @apply w-3/5;
+            @apply mr-10 my-16;
+            @apply ml-auto;
+        }
     }
-}
-
-.section-content {
-    @apply mx-6 py-16;
-}
-
-@screen sm {
-    .section-content {
-        @apply mx-8;
-    }
-}
-
-@screen lg {
-    .section-content {
-        @apply mx-16;
-    }
-}
-
-.intro-content {
-    @apply text-white;
-    @apply w-full;
-    @apply mt-8;
-}
-
-@screen md {
-    .intro-content {
-        @apply w-1/2;
-    }
-}
-
-.intro-content a {
-    @apply border-b border-white border-dashed;
-}
-
-.intro-content a:hover {
-    @apply text-primary-200;
-    @apply border-primary-200;
-    transition: color 200ms;
-}

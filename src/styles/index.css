@@ -1,14 +1,17 @@
 
 @import "tailwindcss/base";
 @import 'typography';
+@import 'layout';
 
 @import "tailwindcss/components";
 @import 'navigation';
+@import 'header';
+@import 'footer';
+@import 'sections';
+
 @import 'buttons';
 @import 'cards';
-@import 'footer';
 @import 'supporters-layout';
-@import 'sections';
 @import 'sidebar';
 
 @import "tailwindcss/utilities";

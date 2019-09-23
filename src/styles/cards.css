@@ -90,39 +90,3 @@
 .main-card:nth-child(odd):last-child {
     @apply border-0;
 }
-
-.participation-card {
-    bottom: -5rem;
-    left: 0rem;
-    max-height: 550px;
-    @apply absolute;
-    @apply bg-white;
-    @apply border-2 border-primary;
-    @apply w-full;
-    @apply p-8;
-    @apply z-10;
-}
-
-
-@screen md {
-    .participation-card {
-        /* @apply w-1/2; */
-        @apply p-8;
-        width: auto;
-        max-width: 50%;
-        bottom: -4rem
-        
-    }
-}
-
-@screen lg {
-    .participation-card {
-        bottom: -6rem;
-    }
-}
-
-@screen lg {
-    .participation-card {
-        @apply p-12;
-    }
-}

@@ -2,15 +2,17 @@
 layout: default
 ---
 
-<header class="shape-section shape-section--gray">
-    <h1>{{ page.title }}</h1>
+<header class="section bg-gray-200">
+    <div class="header">
+        <div class="container">
+            <h1>{{ page.title }}</h1>
+        </div>
+    </div>
 </header>
 
-<div class="md:px-16 px-6 py-16 flex md:flex-row flex-col justify-between ">
-    <article class="content md:w-3/5 w-full md:mt-0 mt-8 md:order-none order-2 ">
-        <div class="mb-10 ">
-            {{ content }}
-        </div>
+<div class="container md:py-16 flex md:flex-row flex-col justify-between">
+    <article class="content md:w-3/5 w-full md:mt-0 mt-8 md:order-none order-2">
+        {{ content }}
     </article>
 
     {% if page.sidebar %}
