@@ -17,7 +17,7 @@ resolution of 1920 X 1200.
 To gain maximum size and benefit on the screen, we encourage speakers
 to utilize the 16x9 wide format Powerpoint templates.
 
-**Download the Powerpoint template file** (coming in September).
+[**Download the Powerpoint template file**](/attachments/vis19-16x9-Tahoma.ppt).
 
 We will have switched connections for presentations from laptops.
 
