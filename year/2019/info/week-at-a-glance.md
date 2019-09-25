@@ -109,9 +109,9 @@ permalink: /year/2019/info/week-at-a-glance
 
 * Application Spotlight: Visualization paradigms in the renewable energy space (location: Room 15)
 
-*6:00-7:00PM*
+*6:00-7:30PM*
 
-* FF (Tue & Wed Sessions) (location: TBA)
+* FF (Tue & Wed Sessions) (location: Ballroom A)
 
 <hr/>
 
@@ -217,9 +217,9 @@ permalink: /year/2019/info/week-at-a-glance
 
 * Break 
 
-*4:10-5:10PM*
+*4:10-5:40PM*
 
-* FF (Thu & Fri Sessions) (location: Ballroom ABC)
+* FF (Thu & Fri Sessions) (location: Ballroom A)
 
 *5:10-7:00PM*
 
