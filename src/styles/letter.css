@@ -1,0 +1,19 @@
+/* Letter */
+
+.letter {
+    clip-path: polygon(100% 0, 100% 100%, 65px 100%, 0 92%, 0 0);
+    @apply bg-white;
+    @apply w-full;
+    @apply px-12 py-16;
+    @apply h-auto;
+    @apply top-0 right-0;
+    @apply text-primary;
+}
+
+    @screen lg {
+        .letter {
+            @apply w-3/5;
+            @apply px-20 py-24;
+            @apply ml-auto;
+        }
+    }

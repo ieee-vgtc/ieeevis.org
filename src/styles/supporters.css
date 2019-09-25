@@ -1,0 +1,25 @@
+/* Supporter Logo Styles */
+
+.supporters__row {
+    @apply pt-4;
+    @apply border-b border-primary-200;
+}
+
+.supporters__row:last-child {
+    @apply border-b-0;
+}
+
+.supporter__logo {
+    max-height: 50px;
+    max-width: 125px;
+    transition: opacity 200ms ease-out;
+}
+
+    .supporter__logo--custom {
+        max-height: initial;
+        max-width: initial;
+    }
+
+    .supporter__logo:hover{
+        opacity: 0.5;
+    }

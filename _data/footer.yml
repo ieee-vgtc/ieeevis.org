@@ -1,10 +1,10 @@
 code_of_conduct:
-  heading: "Code of conduct"
+  heading: "Code of Conduct"
   url: "/year/2019/info/inclusion-and-diversity/code-of-conduct"
 
 
 columns:
-  - section: 
+  - section:
     - heading: "Past years archive"
       display_style: "inline"
       links:
@@ -78,20 +78,20 @@ columns:
           url: "http://www.hpc.msstate.edu/conferences/vis96/"
 
 
-  - section: 
+  - section:
     - heading: "Organizers"
       links:
         - text: "VIS Conference Committees"
           url: "/year/2019/info/committees/conference-committee"
-        # - text: "Steering Committees"
-        #   url: "https://www.google.com"
+        - text: "Steering Committees"
+          url: "https://www.google.com"
         # - text: "Conference Restructuring"
         #   url: "https://www.google.com"
         # - text: "Get involved"
         #   url: "https://www.google.com"
 
 
-  - section: 
+  - section:
     - heading: "Social media"
       links:
         - text: "Facebook"
@@ -99,10 +99,9 @@ columns:
         - text: "Twitter"
           url: "https://twitter.com/ieeevis"
 
-    - heading: "Co-located conferences"
-      links:
-        - text: "Information Plus"
-          url: "http://informationplusconference.com/2018/"
-        - text: "UIST 2019"
-          url: "http://uist.acm.org/uist2019/"
-      
+    # - heading: "Co-located conferences"
+    #   links:
+    #     - text: "Information Plus"
+    #       url: "http://informationplusconference.com/2018/"
+    #     - text: "UIST 2019"
+    #       url: "http://uist.acm.org/uist2019/"

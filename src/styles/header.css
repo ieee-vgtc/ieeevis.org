@@ -1,0 +1,13 @@
+/* Header */
+
+.header {
+    @apply py-16;
+}
+
+.header--medium {
+    @apply py-32;
+}
+
+.header--background {
+    background-image: url('/assets/theme/hex-pattern.png');
+}

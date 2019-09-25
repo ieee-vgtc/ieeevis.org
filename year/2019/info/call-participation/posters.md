@@ -1,6 +1,7 @@
 ---
 title: Posters
 layout: page
+sidebar: call-for-participation
 permalink: /year/2019/info/call-participation/posters
 contact: posters@ieeevis.org
 ---

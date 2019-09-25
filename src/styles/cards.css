@@ -45,27 +45,30 @@
     }
 }
 
+
+/* Info Grid */
+
 .main-card--container {
     @apply flex flex-col flex-wrap;
-    @apply px-4 mb-8;
+    @apply mb-8;
 }
 
-@screen sm {
+@screen md {
     .main-card--container {
         @apply flex-row;
-        @apply px-10;
+        @apply;
     }
 }
 
 .main-card {
-    @apply px-0 py-8; 
+    @apply px-0 py-8;
     @apply w-full;
     @apply flex flex-col;
     @apply items-start;
     @apply border-b border-dashed border-secondary-200;
 }
 
-@screen sm {
+@screen md {
     .main-card {
         @apply p-8;
         @apply w-1/2;
@@ -82,47 +85,18 @@
     @apply border-l-0;
 }
 
-@screen sm {
+@screen md {
     .main-card:nth-child(even) {
        @apply border-l;
+    }
+    .main-card:nth-last-child(1):nth-child(even) {
+       @apply border-b-0;
     }
 }
 .main-card:nth-child(odd):last-child {
     @apply border-0;
 }
 
-.participation-card {
-    bottom: -5rem;
-    left: 0rem;
-    max-height: 550px;
-    @apply absolute;
-    @apply bg-white;
-    @apply border-2 border-primary;
-    @apply w-full;
-    @apply p-8;
-    @apply z-10;
-}
-
-
-@screen md {
-    .participation-card {
-        /* @apply w-1/2; */
-        @apply p-8;
-        width: auto;
-        max-width: 50%;
-        bottom: -4rem
-        
+    .main-card:nth-last-child(2):nth-child(odd) {
+       @apply border-b-0;
     }
-}
-
-@screen lg {
-    .participation-card {
-        bottom: -6rem;
-    }
-}
-
-@screen lg {
-    .participation-card {
-        @apply p-12;
-    }
-}

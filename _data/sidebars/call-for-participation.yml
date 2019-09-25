@@ -1,4 +1,4 @@
-- heading: "Submit A Session"
+- heading: "Submit Your Work"
   links:
     - text: "Papers"
       url: "/year/2019/info/call-participation/call-for-participation"
@@ -18,7 +18,7 @@
       url: "/year/2019/info/call-participation/application-spotlights-cfp"
 
 
-- heading: "Info For Presenters"
+- heading: "Important Info"
   links:
     - text: "Important Dates"
       url: "/year/2019/info/important-dates"

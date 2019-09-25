@@ -1,0 +1,15 @@
+/* Containers */
+
+.container {
+    max-width: 1280px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+}
+
+@screen sm {
+    .container {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}

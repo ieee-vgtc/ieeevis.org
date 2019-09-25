@@ -1,70 +1,135 @@
+# Example Supporters Config
+#
+# - category: #Title of the category displayed
+#   image_size: #Optional. Only use to specify width that logos in this category should be displayed at. Omit to display logos at 125px
+#   supporters:
+#     - name:  #Name used in the alt text
+#       image: #Path to the logo image
+#       url:   #link to the supporter's website
+#
+#     - name:  #Name used in the alt text
+#       image: #Path to the logo image
+#       url:   #link to the supporter's website
+
+
 - category: Platinum
+  image_size: 200
   supporters:
-    - name: Tableau
+    - name: "Tableau"
       image: /assets/supporters/tableau.png
+      url: "https://www.tableau.com/"
 
 
 - category: Gold
+  image_size: 150
   supporters:
-    - name: Microsoft
+    - name: "Microsoft"
       image: /assets/supporters/microsoft.png
+      url: "https://www.microsoft.com/"
 
 
 - category: Bronze
   supporters:
-    - name: Harvard Medical School, Department of Biomedical Informatics
+    - name: "Harvard Medical School, Department of Biomedical Informatics"
       image: /assets/supporters/DBMI.png
+      url: "http://dbmi.hms.harvard.edu/"
 
-    - name: Kitware
+    - name: "Kitware, Inc"
       image: /assets/supporters/kitware.png
+      url: "https://www.kitware.com/"
 
-    - name: IBM
-      image: /assets/supporters/tableau.png
+    - name: "IBM/MIT"
+      image: /assets/supporters/ibm-mit.png
+      url: "https://mitibmwatsonailab.mit.edu/"
+
+    - name: "VIDI Chengying"
+      image: /assets/supporters/VIDI-Chengying.png
+      url: "https://web.cs.ucdavis.edu/~ma/"
 
 
 - category: Pearl
   supporters:
-    - name: Otto von Guericke University Magdeburg
-      image: /assets/supporters/microsoft.png
+    - name: "Otto von Guericke University Magdeburg"
+      image: /assets/supporters/magdeburg.jpg
+      url: "https://www.uni-magdeburg.de/"
 
-    - name: St. Pölten University
-      image: /assets/supporters/DBMI.png
+    - name: "University of Applied Sciences St. Pölten"
+      image: /assets/supporters/stpolten.jpg
+      url: "https://www.fhstp.ac.at/en"
 
-    - name: Northeastern University, College of Arts, Media and Design
-      image: /assets/supporters/kitware.png
+    - name: "Northeastern University, College of Arts, Media and Design"
+      image: /assets/supporters/northeastern.png
+      url: "https://camd.northeastern.edu/"
 
-    - name: Springer
-      image: /assets/supporters/tableau.png
+    - name: "Springer"
+      image: /assets/supporters/springer.png
+      url: "https://www.springer.com/"
 
-    - name: VRVis
-      image: /assets/supporters/microsoft.png
+    - name: "VRVis"
+      image: /assets/supporters/VRVIS.png
+      url: "https://www.vrvis.at/"
 
-    - name: HDC Arizona
-      image: /assets/supporters/DBMI.png
+    - name: "University of Arizona HDC"
+      image: /assets/supporters/hdc-arizona.png
+      url: "https://hdc.cs.arizona.edu/"
 
-    - name: Uncharted
-      image: /assets/supporters/kitware.png
+    - name: "Uncharted Software"
+      image: /assets/supporters/uncharted.png
+      url: "https://uncharted.software/"
+
+    - name: "Fraunhofer"
+      image: /assets/supporters/fraunhofer.png
+      url: "https://www.igd.fraunhofer.de/"
+
+    - name: "SCI"
+      image: /assets/supporters/sci.png
+      url: "https://www.sci.utah.edu/"
+
+    - name: "hs mannheim"
+      image: /assets/supporters/hsmannheim.png
+      url: "https://www.hs-mannheim.de/"
+
+    - name: "Parsons"
+      image: /assets/supporters/parsons.png
+      url: "https://www.newschool.edu/parsons/"
+
+    - name: "Morgan Claypool"
+      image: /assets/supporters/morganclaypool.png
+      url: "https://www.morganclaypool.com"
+
+    - name: "Google"
+      image: /assets/supporters/google.png
+      url: "https://google.com"
+
+    - name: "University of Maryland"
+      image: /assets/supporters/maryland.png
+      url: "https://www.umd.edu"
 
 
 - category: Other Donations
   supporters:
-    - name: Sophos
-      image: /assets/supporters/microsoft.png
+    - name: "Sophos"
+      image: /assets/supporters/sophos.png
+      url: "https://www.sophos.com/"
 
-    - name: Data machines
-      image: /assets/supporters/DBMI.png
+    - name: "Data Machines Corp"
+      image: /assets/supporters/datamachines.png
+      url: "http://www.datamachines.io/"
 
-    - name: FireEye
-      image: /assets/supporters/kitware.png
+    - name: "FireEye"
+      image: /assets/supporters/fireeye.png
+      url: "https://www.fireeye.com/"
 
+    - name: "NVidia"
+      image: /assets/supporters/nvidia.png
+      url: "https://nvidia.com"
 
 - category: In affiliation/cooperation with
   supporters:
-    - name: International Society For Computational Biology
-      image: /assets/supporters/microsoft.png
+    - name: "International Society For Computational Biology"
+      image: /assets/supporters/iscb-logo.jpg
+      url: "https://www.iscb.org/"
 
-    - name: ACM In Cooperation
-      image: /assets/supporters/DBMI.png
-
-    - name: SigChi
-      image: /assets/supporters/kitware.png
+    - name: "ACM SigChi"
+      image: /assets/supporters/ACM_SIGCHI.png
+      url: "https://sigchi.org/"

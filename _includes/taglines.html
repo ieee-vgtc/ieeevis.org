@@ -1,18 +1,20 @@
-<div class="flex sm:flex-row flex-col px-10 sm:py-8 py-4 ">
-    <div class="flex-1 sm:pr-6 pr-0 sm:mb-0 mb-8 ">
-        <p class="text-primary uppercase font-bold mb-1 ">{{ include.title1 }}</p>
-        <p class="text-primary text-xl">{{ include.description1 }}</p>
-    </div>
-    <div class="flex-1 sm:px-6 px-0 sm:mb-0 mb-8 ">
-        <p class="text-primary uppercase font-bold mb-1 ">{{ include.title2 }}</p>
-        <p class="text-primary text-xl">{{ include.description2 }}</p>
-    </div>
-    <div class="flex-1 sm:px-6 pr-0 sm:mb-0 mb-8 ">
-        <p class="text-primary uppercase font-bold mb-1 ">{{ include.title3 }}</p>
-        <p class="text-primary text-xl">{{ include.description3 }}</p>
-    </div>
-    <div class="flex-1 sm:pl-6 pl-0 sm:mb-0 mb-8 ">
-        <p class="text-primary uppercase font-bold mb-1 ">{{ include.title4 }}</p>
-        <p class="text-primary text-xl">{{ include.description4 }}</p>
+<div class="container">
+    <div class="flex flex-col sm:flex-row py-4 sm:py-8">
+        <div class="flex-1 sm:pr-6 mb-4 sm:mb-0">
+            <p class="heading-alt text-primary mb-1">{{ include.title1 }}</p>
+            <p class="text-primary text-lg">{{ include.description1 }}</p>
+        </div>
+        <div class="flex-1 sm:pr-6 mb-4 sm:mb-0">
+            <p class="heading-alt text-primary mb-1">{{ include.title2 }}</p>
+            <p class="text-primary text-lg">{{ include.description2 }}</p>
+        </div>
+        <div class="flex-1 sm:pr-6 mb-4 sm:mb-0">
+            <p class="heading-alt text-primary mb-1">{{ include.title3 }}</p>
+            <p class="text-primary text-lg">{{ include.description3 }}</p>
+        </div>
+        <div class="flex-1 mb-4 sm:mb-0">
+            <p class="heading-alt text-primary mb-1">{{ include.title4 }}</p>
+            <p class="text-primary text-lg">{{ include.description4 }}</p>
+        </div>
     </div>
 </div>
