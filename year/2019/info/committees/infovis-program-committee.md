@@ -15,7 +15,7 @@ contact: infovis_papers@ieeevis.org
 | Michelle Borkin | *Northeastern University, USA* |
 | Nadia Boukhelifa | *INRA, France* |
 | Jeremy Boy | *UN Global Pulse, USA* |
-| Matthew Brehmer | *Independent, Canada* |
+| Matthew Brehmer | *Tableau Research, USA* |
 | Michael Burch | *Eindhoven University of Technology, Netherlands* |
 | Nan Cao | *Tongji College of Design and Innovation, China* |
 | Sheelagh Carpendale | *Simon Fraser University, Canada* |
