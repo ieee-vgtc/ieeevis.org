@@ -128,24 +128,3 @@
             border-bottom: 62px solid white;
         }
     }
-
-
-
-
-.shape-paper {
-    clip-path: polygon(100% 0, 100% 100%, 10% 100%, 0 90%, 0 0);
-    @apply bg-white;
-    @apply text-primary;
-    @apply w-full;
-    @apply mx-0 mb-12 mt-20;
-    @apply h-auto;
-    @apply top-0 right-0;
-}
-
-    @screen md {
-        .shape-paper {
-            @apply w-3/5;
-            @apply mr-10 my-16;
-            @apply ml-auto;
-        }
-    }
