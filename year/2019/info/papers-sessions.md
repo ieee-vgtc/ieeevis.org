@@ -221,7 +221,7 @@ Authors: Catherine Solis, Fahimeh Rajabiyazdi, Fanny Chevalier
 Authors: Anamaria Crisan, Tamara Munzner
 
 **Sabrina: Modeling and Visualization of Economy Data with Incremental Domain Knowledge (C)**  
-Authors: Alessio Arleo, Johannes Sorger, Chao Jia, Christos Tsigkanos, Roger A. Leite, Ilir Murturi, Manfred Klaffenboeck, Silvia Miksch, Shahram Dustdar, Michael Wimmer
+Authors: Alessio Arleo, Christos Tsigkanos, Chao Jia, Roger A. Leite, Ilir Murturi, Manfred Klaffenboeck, Shahram Dustdar, Michael Wimmer, Silvia Miksch, Johannes Sorger
 
 **Visual Analysis of the Time Management of Learning Multiple Courses in Online Learning Environment (C)**  
 Authors: Huan He, Bo Dong, Qinghua Zheng, Dehai Di, Yating Lin
