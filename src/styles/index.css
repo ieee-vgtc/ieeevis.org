@@ -11,7 +11,7 @@
 
 @import 'buttons';
 @import 'cards';
-@import 'supporters-layout';
+@import 'supporters';
 @import 'sidebar';
 
 @import "tailwindcss/utilities";

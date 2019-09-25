@@ -34,6 +34,10 @@ h6,
     line-height: 115%;
 }
 
+.heading-alt {
+    @apply font-body uppercase font-bold tracking-widest;
+}
+
 strong {
     @apply font-bold;
 }
