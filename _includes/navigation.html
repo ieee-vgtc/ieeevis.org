@@ -91,4 +91,8 @@
             <i class="material-icons align-middle">menu</i> Menu
         </div>
     </nav>
+
+    <transition name="fade">
+        <div v-if="isExpanded" v-on:click="toggleMenu" class="navigation__overlay"></div>
+    </transition>
 </div>
