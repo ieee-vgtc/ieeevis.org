@@ -8,6 +8,8 @@ document.addEventListener('DOMContentLoaded', () => {
         data: function() {
           return {
             isExpanded: false,
+            isAriaHidden: true,
+            isAriaExpanded: false,
             menu: {}
           };
         },
@@ -22,9 +24,13 @@ document.addEventListener('DOMContentLoaded', () => {
           toggleMenuItems: function (menuId) {
             if (this.menu[menuId]) {
               this.menu[menuId] = false;
+              this.isAriaHidden = true;
+              this.isAriaExpanded = false;
             } else {
               this.resetMenuItems();
               this.menu[menuId] = true;
+              this.isAriaHidden = false;
+              this.isAriaExpanded= true;
             }
             this.$forceUpdate();
           },

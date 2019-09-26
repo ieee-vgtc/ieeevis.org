@@ -78,7 +78,7 @@ menu:
             heading_url: "/year/2019/info/call-participation/call-for-participation"
             description: "Submit your novel research contributions and innovative applications"
             columns:
-              - heading: "Submit a Session"
+              - heading: "Submit Your Work"
                 links:
                   - text: "Papers"
                     url: "/year/2019/info/call-participation/call-for-participation"
@@ -94,7 +94,7 @@ menu:
                     url: "/year/2019/info/call-participation/panels"
                   - text: "Doctorial Colloquium"
                     url: "/year/2019/info/call-participation/doctoral-colloquium"
-                  - text: "Application Spotlghts"
+                  - text: "Application Spotlights"
                     url: "/year/2019/info/call-participation/application-spotlights-cfp"
                     is_new: true
               - heading: "Info for Presenters"
@@ -114,7 +114,7 @@ menu:
                 - text: "Organize a meetup"
                   description: "Meet people, discuss topics, and share experiences"
                   url: "/year/2019/info/call-participation/meetups"
-                - text: "Student volunteers"
+                - text: "Become a student volunteer"
                   description: "Support the conference, build your research network, and get a discount"
                   url: "http://vissv.org/"
                   is_external: true
@@ -138,7 +138,7 @@ menu:
             # heading_url: "https://www.google.com"
             columns:
               - links:
-                - text: "Paper Sessions"
+                - text: "Papers"
                   description: "See the latest research in theory, methods, and applications of visualization"
                   url: "/year/2019/info/papers-sessions"
                 - text: "Posters"

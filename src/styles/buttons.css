@@ -5,6 +5,7 @@
     @apply py-2 px-4;
     @apply font-display font-medium whitespace-no-wrap;
     @apply bg-primary text-white;
+    @apply text-sm;
     transition: background-color 200ms;
 }
 

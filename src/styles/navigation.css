@@ -1,5 +1,30 @@
-/* Navigation */
+/* Logo */
 
+.logo--nav img {
+    width: 150px;
+}
+
+@screen md {
+    .logo--nav img {
+        width: 118px;
+    }
+}
+
+@screen lg {
+    .logo--nav img {
+        width: 150px;
+    }
+}
+
+.logo--main {
+    width: 250px;
+}
+
+@screen md {
+    .logo--main {
+        width: initial;
+    }
+}
 
 /* Navigation Bar */
 
@@ -56,7 +81,7 @@
       .menu--expanded {
         display: flex;
         top: 0;
-        position: relative;
+        /* position: relative; */
       }
 
       .dropdown {
@@ -138,15 +163,16 @@
 /* Sections */
 
 .dropdown__section {
-    @apply w-full flex flex-col;
+    @apply w-full;
+    @apply flex flex-col;
     @apply px-8 py-8;
 }
 
     @screen md {
         .dropdown__section {
             @apply w-1/2;
-            @apply m-16;
-            @apply py-0;
+            @apply my-16;
+            @apply py-0 px-16;
         }
     }
 
@@ -158,7 +184,9 @@
 
     @screen md {
         .dropdown__section + .dropdown__section {
-            @apply relative bg-gray-100 pl-16 pr-0 border-l border-primary border-dashed;
+            @apply relative bg-gray-100;
+            /* @apply pl-16; */
+            @apply border-l border-primary border-dashed;
         }
     }
 
@@ -209,7 +237,7 @@
 /* Headings and Typography */
 
 .dropdown__heading {
-  @apply uppercase font-bold text-gray-700 tracking-wider;
+  @apply uppercase font-bold text-gray-700 tracking-wide;
 }
 
 .dropdown__description {
@@ -217,7 +245,7 @@
 }
 
 .dropdown li a {
-    @apply text-secondary font-bold;
+    @apply text-secondary font-bold tracking-wide;
 }
 
 .dropdown a:hover {

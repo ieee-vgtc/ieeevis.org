@@ -2,9 +2,9 @@
 
 <div id="navigation">
     <nav class="nav flex flex-start justify-between md:justify-start items-center">
-        <div class="logo flex-none text-lg text-blue-700 p-4">
+        <div class="logo--nav flex-none text-lg text-blue-700 p-4 md:p-2 lg:p-4">
             <a href="/">
-                <img src="/assets/vis2019_logo.svg" alt="VIS 2019" width="150">
+                <img src="/assets/vis2019_logo.svg" alt="VIS 2019">
             </a>
         </div>
 
@@ -18,16 +18,17 @@
             {% assign is_active_class = 'menu_item--is-active' %}
             {% endif %}
 
-            <div class="menu_item {{is_active_class}} font-display text-lg md:text-base lg:text-lg px-8 md:px-3 lg:px-4 lg:mx-2 py-4 md:py-6 border-b-2 border-primary-200 md:border-none"
+            <button class="menu_item {{is_active_class}} font-display text-lg md:text-base lg:text-lg px-8 md:px-2 lg:px-4 mx-0 lg:mx-2 py-4 md:py-6 border-b-2 border-primary-200 md:border-none"
+                tabindex="0" role="menuitem"
                 v-on:click="toggleMenuItems('{{ nav.dropdown }}')"
                 v-bind:class="{ 'menu_item--focused': menu['{{ nav.dropdown }}'] }">
                 <span class="whitespace-no-wrap">{{ nav.dropdown }}
                 <i class="material-icons align-middle" v-if="menu['{{ nav.dropdown }}']">arrow_drop_down</i>
                 <i class="material-icons align-middle" v-else>arrow_right</i>
                 </span>
-            </div>
+            </button>
 
-            <div class="dropdown md:flex" role="menu" aria-label="submenu" aria-hidden="true">
+            <div class="dropdown md:flex" role="menu" aria-label="submenu" :aria-hidden="[isAriaHidden]" :aria-expanded="[isAriaExpanded]">
             {% for section in nav.sections %}
                 <div class="dropdown__section">
                     {% for subsection in section.subsections %}
@@ -79,7 +80,7 @@
             {% endif %}
         {% endfor %}
         {% if site.data.navigation.registration.display %}
-            <div class="px-8 md:px-4 lg:px-8 lg:px-4 py-4 border-b-2 border-primary-200 md:border-none self-center">
+            <div class="px-8 md:px-2 lg:px-4 py-4 border-b-2 border-primary-200 md:border-none self-center">
                 <a class="button" href="{{ site.data.navigation.registration.url }}">{{ site.data.navigation.registration.text }}</a>
             </div>
         {% endif %}
