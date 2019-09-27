@@ -1,5 +1,5 @@
 ---
-layout: main-2019
+layout: page
 title: Instructions for editing the website
 ---
 

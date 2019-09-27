@@ -56,7 +56,7 @@ a:not(.button) {
     border-bottom: 1px dashed;
 } */
 
-.link, .content a {
+.link, .content a:not(.button) {
     @apply text-primary;
     border-bottom: 1px dashed;
 }
@@ -68,7 +68,7 @@ a:not(.button):hover {
     transition: color 200ms;
 } */
 
-.link:hover, .content a:hover {
+.link:hover, .content a:hover:not(.button) {
     @apply text-primary-600;
     transition: color 200ms;
 }
@@ -99,8 +99,18 @@ ul {
 }
 */
 
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+    @apply mt-10;
+}
+
+
 .content ol, .content ul {
-    @apply mb-4;
+    @apply mb-4 ml-8;
 }
 
 .content li {
@@ -114,7 +124,7 @@ ul {
 }
 
 .content ol {
-    @apply list-decimal ml-8;
+    @apply list-decimal;
 }
 
 .content blockquote {
