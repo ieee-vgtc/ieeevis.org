@@ -262,3 +262,17 @@
 .dropdown li:last-child p {
     @apply mb-0;
 }
+
+
+
+/* Navigation Overlay */
+
+.navigation__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 100;
+    background: rgba(0, 89, 175, 0.85);
+    cursor: pointer;
+}
