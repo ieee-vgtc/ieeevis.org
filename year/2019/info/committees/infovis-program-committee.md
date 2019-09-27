@@ -1,6 +1,6 @@
 ---
 title: InfoVis Program Committee
-layout: main-2019
+layout: page
 permalink: /year/2019/info/committees/infovis-program-committee
 contact: infovis_papers@ieeevis.org
 ---
@@ -10,24 +10,24 @@ contact: infovis_papers@ieeevis.org
 | Lyn Bartram | *Simon Fraser University, Canada* |
 | Rahul Basole | *Accenture, USA* |
 | Leilani Battle | *University of Maryland, College Park, USA* |
-| Anastasia Bezerianos | *Univ Paris-Sud, France* |
-| Rita Borgo | *Kings College London, UK* |
+| Anastasia Bezerianos | *Université Paris-Sud, France* |
+| Rita Borgo | *King's College London, UK* |
 | Michelle Borkin | *Northeastern University, USA* |
 | Nadia Boukhelifa | *INRA, France* |
 | Jeremy Boy | *UN Global Pulse, USA* |
-| Matthew Brehmer | *Independent, Canada* |
+| Matthew Brehmer | *Tableau Research, USA* |
 | Michael Burch | *Eindhoven University of Technology, Netherlands* |
 | Nan Cao | *Tongji College of Design and Innovation, China* |
 | Sheelagh Carpendale | *Simon Fraser University, Canada* |
 | Maxime Cordeil | *Monash University, Australia* |
-| Michael Correll | *Tableau Software, USA* |
+| Michael Correll | *Tableau Research, USA* |
 | Pierre Dragicevic | *Inria, France* |
 | Steven Drucker | *Microsoft Research, USA* |
 | Jason Dykes | *City, University of London, UK* |
 | Jean-Daniel Fekete | *Inria, France* |
 | Angus Forbes | *University of California, Santa Cruz, USA* |
 | Steven Franconeri | *Northwestern University, USA* |
-| Nils Gehlenborg | *Harvard Medical School, USA* |
+| Nils Gehlenborg | *Harvard University, USA* |
 | Sarah Goodwin | *Monash University, Australia* |
 | Carsten Görg | *University of Colorado, USA* |
 | Lane Harrison | *Worcester Polytechnic Institute, USA* |
@@ -61,7 +61,7 @@ contact: infovis_papers@ieeevis.org
 | Arvind Satyanarayan | *Massachusetts Institute of Technology, USA* |
 | Karen Schloss | *University of Wisconsin - Madison, USA* |
 | Jinwook Seo | *Seoul National University, Korea* |
-| Vidya Setlur | *Tableau Software, USA* |
+| Vidya Setlur | *Tableau Research, USA* |
 | Conglei Shi | *Airbnb, USA* |
 | Aidan Slingsby | *City, University of London, UK* |
 | Bettina Speckmann | *Eindhoven University of Technology, Netherlands* |
@@ -69,12 +69,12 @@ contact: infovis_papers@ieeevis.org
 | Hendrik Strobelt | *IBM Research, USA* |
 | Danielle Szafir | *University of Colorado Boulder, USA* |
 | Christian Tominski | *University of Rostock, Germany* |
-| Melanie Tory | *Tableau Software, USA* |
+| Melanie Tory | *Tableau Research, USA* |
 | Cagatay Turkay | *City, University of London, UK* |
 | Frank van Ham | *IBM, Netherlands* |
 | Kevin Verbeek | *Eindhoven University of Technology, Netherlands* |
 | Romain Vuillemot | *Ecole Centrale de Lyon, France* |
-| Manuela Waldner | *TU Wien, Austria* |
+| Manuela Waldner | *Vienna University of Technology, Austria* |
 | Jagoda Walny | *University of Calgary, Canada* |
 | Martin Wattenberg | *Google, USA* |
 | Yingcai Wu | *Zhejiang University, China* |

@@ -1,6 +1,6 @@
 ---
 title: Final Information for Paper Authors
-layout: main-2019
+layout: page
 permalink: /year/2019/info/presenter-information/final-information-paper-authors
 ---
 

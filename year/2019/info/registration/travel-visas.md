@@ -1,6 +1,6 @@
 ---
 title: Travel and Visas
-layout: main-2019
+layout: page
 permalink: /year/2019/info/registration/travel-visas
 contact: "web@ieeevis.org"
 ---

@@ -1,6 +1,7 @@
 ---
 title: Tutorials
 layout: page
+sidebar: call-for-participation
 permalink: /year/2019/info/call-participation/tutorials
 contact: tutorials@ieeevis.org
 ---

@@ -1,6 +1,6 @@
 ---
 title: IEEE Event Conduct and Safety Statement
-layout: main-2019
+layout: page
 permalink: /year/2019/info/inclusion-and-diversity/event-conduct-safety
 ---
 

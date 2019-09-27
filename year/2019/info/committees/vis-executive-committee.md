@@ -1,15 +1,15 @@
 ---
 title: VIS Executive Committee
-layout: main-2019
+layout: page
 permalink: /year/2019/info/committees/vis-executive-committee
 ---
 
 | Jim Ahrens | *Los Alamos National Laboratory<br>(VGTC Chair.)*
 | Lisa Avila | *Kitware<br>(VEC Chair.)*
 | Sheelagh Carpendale | *University of Calgary<br>(InfoVis SC Rep.)*
-| Jason Dykes | *City University London<br>(InfoVis SC Rep.)*
+| Jason Dykes | *City, University of London<br>(InfoVis SC Rep.)*
 | Brian Fisher | *Simon Fraser University<br>(VAST SC Rep.)*
-| Aditi Majumder | *UC Irvine<br>(VGTC Vice Chair for Conferences.)*
+| Aditi Majumder | *University of California, Irvine<br>(VGTC Vice Chair for Conferences.)*
 | Miriah Meyer | *University of Utah<br>(VGTC Vice Chair.)*
 | Silvia Miksch | *Vienna University of Technology<br>(VAST SC Rep.)*
 | Robert Morehead | *Mississippi State University<br>(VGTC Director.)*

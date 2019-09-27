@@ -1,6 +1,7 @@
 ---
 title: Panels
 layout: page
+sidebar: call-for-participation
 permalink: /year/2019/info/call-participation/panels
 contact: panels@ieeevis.org
 ---

@@ -1,5 +1,5 @@
 ---
-title: IEEE Vis 2019 - Short Papers Call for Participation
+title: Short Papers Call for Participation
 layout: page
 sidebar: call-for-participation
 permalink: /year/2019/info/call-participation/shortpapers

@@ -1,6 +1,6 @@
 ---
 title: IEEE VIS Code of Conduct
-layout: main-2019
+layout: page
 permalink: /year/2019/info/inclusion-and-diversity/code-of-conduct
 ---
 

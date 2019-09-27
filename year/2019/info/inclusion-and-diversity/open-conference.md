@@ -1,6 +1,6 @@
 ---
 title: IEEE Computer Society Open Conference Statement
-layout: main-2019
+layout: page
 permalink: /year/2019/info/inclusion-and-diversity/open-conference
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Supporters and Exhibition
-layout: landing
+layout: page
 permalink: /year/2019/info/exhibition/supporters-and-exhibition
 contact: supporters@ieeevis.org
 ---

@@ -3,7 +3,6 @@ title: Conference Registration
 layout: page
 permalink: /year/2019/info/registration/conference-registration
 contact: "web@ieeevis.org"
-sidebar: attending-vis-2019
 ---
 
 The early registration period for IEEE VIS 2019 lasts until **September 20, 2019**. Afterwards the standard registration fees apply.

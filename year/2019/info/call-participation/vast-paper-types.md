@@ -1,6 +1,7 @@
 ---
 title: VAST Paper Types
-layout: main-2019
+layout: page
+sidebar: call-for-participation
 permalink: /year/2019/info/call-participation/vast-paper-types
 ---
 

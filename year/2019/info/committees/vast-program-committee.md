@@ -1,6 +1,6 @@
 ---
 title: VAST Program Committee
-layout: main-2019
+layout: page
 permalink: /year/2019/info/committees/vast-program-committee
 ---
 
@@ -13,7 +13,7 @@ permalink: /year/2019/info/committees/vast-program-committee
 | Alessio Bertone | *Dresden University of Technology* |
 | Tanja Blascheck | *Inria* |
 | Eli Brown | *DePaul University* |
-| Paolo Buono | *University of Bary* |
+| Paolo Buono | *University of Bari* |
 | Duen Horng Chau | *Georgia Institute of Technology* |
 | Wei Chen | *Zhejiang University* |
 | Haeyong Chung | *University of Alabama, Huntsville* |
@@ -54,7 +54,7 @@ permalink: /year/2019/info/committees/vast-program-committee
 | Maoyuan Sun | *University of Massachusetts Dartmouth* |
 | Shigeo Takahashi | *University of Aizu* |
 | Cagatay Turkay | *City, University of London* |
-| Katerina Vrotsou | *Linköping Univ* |
+| Katerina Vrotsou | *Linköping University* |
 | Chris Weaver | *University of Oklahoma* |
 | Leland Wilkinson | *SYSTAT Software* |
 | Yingcai Wu | *Zhejiang University* |

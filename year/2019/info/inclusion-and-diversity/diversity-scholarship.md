@@ -1,6 +1,6 @@
 ---
 title: IEEE VIS 2019 Inclusivity & Diversity Scholarship
-layout: main-2019
+layout: page
 permalink: /year/2019/info/inclusion-and-diversity/diversity-scholarship
 contact: inclusivity@ieeevis.org
 ---

@@ -1,6 +1,6 @@
 ---
 title: Fast Forward and Video Previews
-layout: main-2019
+layout: page
 permalink: /year/2019/info/presenter-information/fast-forward-and-video-previews
 contact: ff@ieeevis.org
 ---

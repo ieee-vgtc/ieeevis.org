@@ -1,14 +1,14 @@
 ---
 title: InfoVis Steering Committee
-layout: main-2019
+layout: page
 permalink: /year/2019/info/committees/infovis-steering-committee
 ---
 
-| Melanie Tory | *Tableau Software* |
+| Melanie Tory | *Tableau Research* |
 | Fernanda Viegas | *Google* |
 | Sheelagh Carpendale | *Simon Fraser University* |
 | Jeff Heer | *University of Washington* |
-| Jason Dykes | *City University London* |
+| Jason Dykes | *City, University London* |
 | Hanspeter Pfister | *Harvard University* |
 | Stephen North | *Infovisible* |
 

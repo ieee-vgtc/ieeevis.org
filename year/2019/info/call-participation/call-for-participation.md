@@ -1,7 +1,7 @@
 ---
 title: Call For Participation
-layout: landing
 permalink: /year/2019/info/call-participation/call-for-participation
+layout: landing
 sidebar: call-for-participation
 intro_section:
   callout: "IEEE VIS 2019 is now soliciting novel research contributions and innovative applications in all areas of visualization as captured by its three main conference tracks: VAST, InfoVis, and SciVis."
@@ -10,15 +10,15 @@ intro_section:
       description: "Papers in VAST typically focus on problems that integrate data analysis algorithms and visual interfaces to support data
       analysis and analytical reasoning."
       button_text: "VAST Paper Types"
-      button_url: "/"
+      button_url: "/year/2019/info/call-participation/vast-paper-types"
     - title: "IEEE Conference on Information Visualization (InfoVis)"
       description: "Papers in InfoVis typically relate to the design or evaluation of new or improved visual encodings or interaction techniques of abstract data (such as graphs, tables, or text data)."
       button_text: "InfoVIS Paper Types"
-      button_url: "/"
+      button_url: "/year/2019/info/call-participation/infovis-paper-types/"
     - title: "IEEE Conference on Scientific Visualization (SciVis)"
       description: "Papers in SciVis typically focus on new or improved visual encodings, mathematical models, algorithms, or interaction techniques for the visualization of data related to science and engineering, as well as integration into novel applications and systems."
       button_text: "SciVis Paper Types"
-      button_url: "/"
+      button_url: "/year/2019/info/call-participation/scivis-paper-types/"
   content: |
       **Which conference track should I submit to?**
       
@@ -29,46 +29,27 @@ intro_section:
       Full papers accepted to [IEEE InfoVis, SciVis, and most of VAST](https://google.com) will appear in a special issue of the IEEE Transactions on Visualization and Computer Graphics (TVCG). Some papers of the VAST conference will be published as archival, conference publications.
 ---
         
-**IEEE VIS 2019** is the premier forum for advances in visualization for academia, government, and industry. 
-This week-long event brings together researchers and practitioners with a shared interest in visualization. 
-IEEE VIS 2019 is now soliciting novel research contributions and innovative applications in all areas of visualization 
-as captured by its three main conference tracks:
 
-[IEEE Conference on Visual Analytics Science & Technology (VAST)](vast-paper-types):<br />
-Papers in VAST typically focus on problems that integrate data analysis algorithms and visual interfaces to support data analysis 
-and analytical reasoning. 
-
-[IEEE Conference on Information Visualization (InfoVis)](infovis-paper-types):<br />
-Papers in InfoVis typically relate to the design or evaluation of new or improved visual encodings or interaction techniques 
-of abstract data (such as graphs, tables, or text data).
-
-[IEEE Conference on Scientific Visualization (SciVis)](scivis-paper-types):<br />
-Papers in SciVis typically focus on new or improved visual encodings, mathematical models, algorithms, or interaction techniques for the visualization of data related to science and engineering, as well as integration into novel applications and systems. 
-
-*Which conference track should I submit to?*<br />
-We encourage you to allocate your submission to one of the three tracks above. But if you are unsure, you will have the option 
-to allow the paper chairs to allocate your paper to the one they deem the most appropriate.
-
-*Where will papers appear?*<br />
-Full papers accepted to IEEE InfoVis, SciVis, and most of VAST will appear in a special issue of the IEEE Transactions on 
-Visualization and Computer Graphics (TVCG). Some papers of the VAST conference will be published as archival, conference publications.
 
 ## Submission Dates
-All deadlines are at *5:00pm Pacific Time (PDT).*
+All deadlines are at **5:00pm Pacific Time (PDT).**
 
-* Abstract submission (MANDATORY)<br />
-  Thursday, March 21, 2019
-* Paper submission<br />
-  Sunday, March 31, 2019
-* Notification of results of first review cycle<br />
-  Thursday, June 6, 2019
-* Paper submission for second review cycle<br />
-  Monday, June 24, 2019
-* Final notification<br />
-  Monday, July 8, 2019
-* Camera-ready copy<br />
-  Thursday, August 1, 2019 <br />
-  [Final Instructions for Authors of Accepted Papers](/year/2019/info/presenter-information/final-information-paper-authors)
+| Submission Activity | Date |
+|----------|------|
+| Abstract submission (MANDATORY) | Thursday, March 21, 2019 |
+| Paper submission | Sunday, March 31, 2019 |
+| Notification of results of first review cycle | Thursday, June 6, 2019 |
+| Paper submission for second review cycle | Monday, June 24, 2019 |
+| Final notification | Monday, July 8, 2019 |
+| Camera-ready copy | Thursday, August 1, 2019 |
+
+{% include alert.html
+    title="Final Instructions for Authors of Accepted Papers"
+    description="Important information for authors of accepted papers for the remainder of the process until the conference."
+    button-text="View Instructions"
+    button-url="/year/2019/info/presenter-information/final-information-paper-authors"
+%}
+
 
 ## Submission Guidelines and Reviewing Criteria
 As the leading academic event on visualization research, IEEE VIS expects important, impactful, and potentially transformative 
