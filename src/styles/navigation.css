@@ -101,11 +101,16 @@
     transition: color, background-color 250ms ease;
     cursor: pointer;
     @apply text-primary;
+    text-align: left;
+    width: 100%;
+    @apply text-primary;
 }
 
-    @screen md {
-      .menu_item {
+@screen md {
+    .menu_item {
         background: transparent;
+        text-align: center;
+        width: auto;
       }
     }
 
