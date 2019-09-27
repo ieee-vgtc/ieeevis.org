@@ -28,7 +28,7 @@
                 </span>
             </button>
 
-            <div class="dropdown md:flex" role="menu" aria-label="submenu" :aria-hidden="[isAriaHidden]" :aria-expanded="[isAriaExpanded]">
+            <div class="dropdown" role="menu" aria-label="submenu" :aria-hidden="[isAriaHidden]" :aria-expanded="[isAriaExpanded]">
             {% for section in nav.sections %}
                 <div class="dropdown__section">
                     {% for subsection in section.subsections %}
@@ -93,6 +93,7 @@
     </nav>
 
     <transition name="fade">
-        <div v-if="isExpanded" v-on:click="toggleMenu" class="navigation__overlay"></div>
+        <div v-if="hasMenuItemExpanded" v-on:click="resetMenuItems()" class="navigation__overlay"></div>
     </transition>
+
 </div>
