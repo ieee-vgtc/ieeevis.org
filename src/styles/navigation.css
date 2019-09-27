@@ -146,13 +146,13 @@
 
 .dropdown {
     @apply bg-gray-100;
-    overflow: hidden;
+    display: none;
     max-height: 0;
-    transition: max-height 300ms ease;
 }
 
     .menu_item--focused + .dropdown {
-        max-height: 1500px;
+        display: block;
+        animation: expandMenu 300ms ease forwards;
     }
 
     @screen md {
@@ -162,8 +162,24 @@
             @apply shadow-lg;
             transition: none;
         }
+
+        .menu_item--focused + .dropdown {
+            display: flex;
+            max-height: 1000px;
+            animation: none;
+        }
     }
 
+@keyframes expandMenu {
+    0% {
+        display: block;
+        overflow: hidden;
+        max-height: 0;
+    }
+    100% {
+        max-height: 1000px;
+    }
+}
 
 /* Sections */
 
@@ -273,11 +289,18 @@
 /* Navigation Overlay */
 
 .navigation__overlay {
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 100%;
     top: 0;
     z-index: 100;
-    background: rgba(0, 89, 175, 0.85);
+    background: rgba(0, 89, 175, 0.4);
     cursor: pointer;
+}
+
+.fade-enter-active, .fade-leave-active {
+    transition: opacity .15s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
 }

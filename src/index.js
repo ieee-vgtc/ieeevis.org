@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
             isCollapsed: false,
             isCollapsedPrevious: false,
             isExpanded: false,
+            hasMenuItemExpanded: false,
             isAriaHidden: true,
             isAriaExpanded: false,
             menu: {}
@@ -69,11 +70,13 @@ document.addEventListener('DOMContentLoaded', () => {
               this.menu[menuId] = false;
               this.isAriaHidden = true;
               this.isAriaExpanded = false;
+              this.hasMenuItemExpanded = false;
             } else {
               this.resetMenuItems();
               this.menu[menuId] = true;
               this.isAriaHidden = false;
               this.isAriaExpanded= true;
+              this.hasMenuItemExpanded = true;
             }
             this.$forceUpdate();
           },
@@ -84,6 +87,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 this.menu[key] = false;
               }
             }
+            this.hasMenuItemExpanded = false;
           },
 
           hasMenuItemsOpen: function () {
