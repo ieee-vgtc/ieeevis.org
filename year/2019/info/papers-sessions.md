@@ -319,7 +319,7 @@ Authors: Tobias Günther, Holger Theisel
 **9:00-10:30AM**  
 **Room: Room 1**  
 *Short Papers: Perception, Cognition, and Visualization Design*  
-*Session Chair: Bernice Rogowitz*  
+*Session Chair: Colin Ware*  
 
 **A Markov Model of Users' Interactive Behavior in Scatterplots (C)**  
 Authors: Emily Wall, Arup Arcalgud, Kuhu Gupta, Andrew Jo
