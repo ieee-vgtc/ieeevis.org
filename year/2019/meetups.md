@@ -233,7 +233,7 @@ Thursday, October 24
 4:10 PM - 5:40 PM    
 Location: Room 14
 
-Organizer: Alexandra Diehl, Johanna Schmidt    
+Organizer: Alexandra Diehl, Johanna Schmidt, Renato Pajarola    
 Contact: [diehl@ifi.uzh.ch](mailto:diehl@ifi.uzh.ch)
 
 There has been a long journey since 1991, the time of the first visualization symposium, until today. Since then, the VIS community has grown up in different ways. In this meetup, we would like to learn and share information and experiences about how this community developed in terms of diversity. We also would like to share useful resources and information to promote diversity in the visualization and scientific environment, exploring current challenges, and potential actions to increase diversity. In a previous meetup, at VIS in 2017, we addressed career paths for women in the visualization field. Now, we want to expand the scope of this meetup to other kinds of diversity including gender, but also geography, scientific background, age, and ethnicity. Our main goal is to wrap-up the history of diversity in VIS from its beginning until today. As a second goal, we would like to give the opportunity to the participants to share common experiences, to learn more about useful resources, and support and endorsement programs. The meetup is considered to accompany other activities and initiatives currently undertaking by the VIS conference to increase diversity. We hope that participants will get to know each other better, to share good advice in terms of reducing the ties, and to increase the heterogeneity of our VIS scientific community. If you would like to actively contribute to the meetup program to share your personal experiences, please let the organizers know.
