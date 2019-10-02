@@ -1,6 +1,6 @@
 PRODUCTION_BUCKET=ieeevis.org
 STAGING_BUCKET=staging.ieeevis.org
-NEW_BUCKET=new.ieeevis.org
+NEW_BUCKET=redesign.ieeevis.org
 
 PRODUCTION_BRANCH=production
 STAGING_BRANCH=master
