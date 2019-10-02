@@ -1,8 +1,10 @@
 PRODUCTION_BUCKET=ieeevis.org
 STAGING_BUCKET=staging.ieeevis.org
+NEW_BUCKET=new.ieeevis.org
 
 PRODUCTION_BRANCH=production
 STAGING_BRANCH=master
+NEW_BRANCH=development
 
 all: site
 
@@ -16,6 +18,9 @@ production: site
 
 staging: site
 	cd _site && ../scripts/sync_with_s3_boto.py $(STAGING_BRANCH) $(STAGING_BUCKET)
+
+new: 
+	cd _site && ../scripts/sync_with_s3_boto.py $(NEW_BRANCH) $(NEW_BUCKET)
 
 check: check-bad-links check-permalink-paths check-content-expiration
 
