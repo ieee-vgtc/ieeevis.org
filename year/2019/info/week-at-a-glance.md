@@ -79,7 +79,7 @@ permalink: /year/2019/info/week-at-a-glance
 
 * [Posters](/year/2019/info/posters) (location: Exhibition Hall A)
 * LDAV (location: Ballroom A)
-* VisInPractice (location: Ballroom B)
+* [VisInPractice](https://visinpractice.github.io) (location: Ballroom B)
 * [VAST Challenge](https://vast-challenge.github.io/2019/) (location: Ballroom C)
 
 *10:30-10:50AM*
