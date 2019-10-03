@@ -319,7 +319,7 @@ Authors: Tobias Günther, Holger Theisel
 **9:00-10:30AM**  
 **Room: Room 1**  
 *Short Papers: Perception, Cognition, and Visualization Design*  
-*Session Chair: Bernice Rogowitz*  
+*Session Chair: Colin Ware*  
 
 **A Markov Model of Users' Interactive Behavior in Scatterplots (C)**  
 Authors: Emily Wall, Arup Arcalgud, Kuhu Gupta, Andrew Jo
@@ -1047,6 +1047,12 @@ Authors: Hannah Kim, Dongjin Choi, Barry Drake, Alex Endert, Haesun Park
 *Short Papers: Scalar, Vector, and Tensor Fields*  
 *Session Chair: Bei Wang*  
 
+**Efficient Space Skipping and Adaptive Sampling of Unstructured Volumes using Hardware Accelerated Ray Tracing (C)**  
+Authors: Nate Morrical, Will Usher, Ingo Wald, Valerio Pascucci
+
+**Hybrid Grids for Sparse Volume Rendering (C)**  
+Authors: Stefan Zellmann, Deborah Meurer, Ulrich Lang
+
 **Data-Driven Colormap Optimization for 2D Scalar Field Visualization (C)**  
 Authors: Qiong Zeng, Yinqiao Wang, Ivan Viola, Wenting Zhang, Jian Zhang, Changhe Tu, Yunhai Wang
 
@@ -1064,9 +1070,3 @@ Authors: Duong Nguyen, Lei Zhang, Robert S. Laramee, David Thompson, Rodolfo Ost
 
 **Visualization of Symmetries in Fourth-Order Stiffness Tensors (C)**  
 Authors: Chiara Hergl, Thomas Nagel, Olaf Kolditz, Gerik Scheuermann
-
-**Hybrid Grids for Sparse Volume Rendering (C)**  
-Authors: Stefan Zellmann, Deborah Meurer, Ulrich Lang
-
-**Efficient Space Skipping and Adaptive Sampling of Unstructured Volumes using Hardware Accelerated Ray Tracing (C)**  
-Authors: Nate Morrical, Will Usher, Ingo Wald, Valerio Pascucci
