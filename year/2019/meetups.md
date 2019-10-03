@@ -13,6 +13,7 @@ permalink: /year/2019/info/meetups
 * [VisLies!](#vislies) (Tuesday)
 * [ClimbVis](#climb-vis) (Tuesday)
 * [Openness, Transparency, and Credibility in Visualization Research](#openness) (Tuesday)
+* [Junior Faculty, Researchers, and Practitioners Happy Hour](#junior-faculty) (Tuesday)
 * [VIS Job-fair](#vis-jobfair) (Wednesday)
 * [Open Practices at VIS: journey so far and moving forward](#open-practices) (Wednesday)
 * [Building an Inclusive VIS Community](#inclusion) (Wednesday)
@@ -149,6 +150,21 @@ So let’s discuss how we can bootstrap the openness of our own research.
 * General: Have you made a mistake you think others could learn from? Do you have a success story you’d like to share?
 
 Let’s discuss the many issues involved in learning a new approach to research and work together to improve the transparency, openness, and credibility of our work.
+
+| |
+
+## <a name="junior-faculty"></a> Junior Faculty, Researchers, and Practitioners Happy Hour
+
+Tuesday, October 22   
+6:00PM - 8:00PM   
+Location: Room 2+3
+
+Organizers: Kristi Potter and Remco Chang   
+Contact: [kristi.potter@nrel.gov](mailto:kristi.potter@nrel.gov)   
+
+Join your fellow junior-level faculty, researchers, and practitioners in our first ever happy hour!
+
+The goal of this meetup is to provide a safe environment for junior Vis researchers to gather and discuss challenges faced in and out of the work environment. The VIS community has always been very supportive of its junior members, however, one missing link among these wide range of programs is support for the junior professors, early career researchers and practitioners.  Junior researchers face significant amount of pressure and are often overwhelmed by the drastic change from being a student (or a postdoc). Many junior researchers have little training in project management, grant-writing, mentoring, teaching, and establishing a research agenda. As a result, they struggle maintaining a work-life balance and have few (if no) outlet in seeking help, advice, or support. Attendees will have the opportunity to meet fellow early career researchers, participate in peer mentoring, and as a result build a social network (or a cohort) that will continue to support beyond the VIS conference.
 
 | |
 
