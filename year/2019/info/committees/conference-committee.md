@@ -107,7 +107,7 @@ permalink: /year/2019/info/committees/conference-committee
 | Cydney Nielsen | *Microsoft* |
 |---
 | **Vis in Practice Chairs** | |
-| Matthew Brehmer | *Independent* |
+| Matthew Brehmer | *Tableau* |
 | Matt Larsen | *Livermore National Laboratory* |
 | Daniela Oelke | *Siemens* |
 |---

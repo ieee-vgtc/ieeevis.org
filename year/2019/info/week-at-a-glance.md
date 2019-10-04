@@ -79,8 +79,8 @@ permalink: /year/2019/info/week-at-a-glance
 
 * [Posters](/year/2019/info/posters) (location: Exhibition Hall A)
 * LDAV (location: Ballroom A)
-* VisInPractice (location: Ballroom B)
-* VAST Challenge (location: Ballroom C)
+* [VisInPractice](https://visinpractice.github.io) (location: Ballroom B)
+* [VAST Challenge](https://vast-challenge.github.io/2019/) (location: Ballroom C)
 
 *10:30-10:50AM*
 
@@ -109,9 +109,9 @@ permalink: /year/2019/info/week-at-a-glance
 
 * Application Spotlight: Visualization paradigms in the renewable energy space (location: Room 15)
 
-*6:00-7:00PM*
+*6:00-7:30PM*
 
-* FF (Tue & Wed Sessions) (location: TBA)
+* FF (Tue & Wed Sessions) (location: Ballroom A)
 
 <hr/>
 
@@ -181,7 +181,7 @@ permalink: /year/2019/info/week-at-a-glance
 * [Flow](/year/2019/info/papers-sessions#flow) (location: Ballroom C)
 * [Short Papers: Perception, Cognition, and Visualization Design](/year/2019/info/papers-sessions#shortdesign) (location: Room 1)
 * VizSec (location: Room 2+3)
-* VISAP Session 1 (location: Room 8+15)
+* [VISAP Session 1](/year/2019/info/papers-sessions#visap1) (location: Room 8+15)
 
 *9:00AM-5:40PM*
 
@@ -217,9 +217,9 @@ permalink: /year/2019/info/week-at-a-glance
 
 * Break 
 
-*4:10-5:10PM*
+*4:10-5:40PM*
 
-* FF (Thu & Fri Sessions) (location: Ballroom ABC)
+* FF (Thu & Fri Sessions) (location: Ballroom A)
 
 *5:10-7:00PM*
 
@@ -238,8 +238,12 @@ permalink: /year/2019/info/week-at-a-glance
 * [XAI and Fairness](/year/2019/info/papers-sessions#fairness) (location: Ballroom A)
 * [Vis for Software and Systems](/year/2019/info/papers-sessions#vissystems) (location: Ballroom B)
 * [Large Data and Dimensionality Reduction](/year/2019/info/papers-sessions#largedata) (location: Ballroom C)
-* VISAP Session 2 (location: Room 2+3)
-* SIGGRAPH Session (location: Room 8+15)
+* [VISAP Session 2](/year/2019/info/papers-sessions#visap2) (location: Room 2+3)
+* [SIGGRAPH Session](/year/2019/info/papers-sessions#siggraph) (location: Room 8+15)
+
+*9:00AM-12:20PM*
+
+* [BioVis Challenge](http://biovis.net/2019/biovisChallenges_vis/) (location: Room 1)
 
 *9:00AM-5:40PM*
 

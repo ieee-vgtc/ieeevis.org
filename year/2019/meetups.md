@@ -13,6 +13,7 @@ permalink: /year/2019/info/meetups
 * [VisLies!](#vislies) (Tuesday)
 * [ClimbVis](#climb-vis) (Tuesday)
 * [Openness, Transparency, and Credibility in Visualization Research](#openness) (Tuesday)
+* [Junior Faculty, Researchers, and Practitioners Happy Hour](#junior-faculty) (Tuesday)
 * [VIS Job-fair](#vis-jobfair) (Wednesday)
 * [Open Practices at VIS: journey so far and moving forward](#open-practices) (Wednesday)
 * [Building an Inclusive VIS Community](#inclusion) (Wednesday)
@@ -152,6 +153,21 @@ Let’s discuss the many issues involved in learning a new approach to research 
 
 | |
 
+## <a name="junior-faculty"></a> Junior Faculty, Researchers, and Practitioners Happy Hour
+
+Tuesday, October 22   
+6:00PM - 8:00PM   
+Location: Room 2+3
+
+Organizers: Kristi Potter and Remco Chang   
+Contact: [kristi.potter@nrel.gov](mailto:kristi.potter@nrel.gov)   
+
+Join your fellow junior-level faculty, researchers, and practitioners in our first ever happy hour!
+
+The goal of this meetup is to provide a safe environment for junior Vis researchers to gather and discuss challenges faced in and out of the work environment. The VIS community has always been very supportive of its junior members, however, one missing link among these wide range of programs is support for the junior professors, early career researchers and practitioners.  Junior researchers face significant amount of pressure and are often overwhelmed by the drastic change from being a student (or a postdoc). Many junior researchers have little training in project management, grant-writing, mentoring, teaching, and establishing a research agenda. As a result, they struggle maintaining a work-life balance and have few (if no) outlet in seeking help, advice, or support. Attendees will have the opportunity to meet fellow early career researchers, participate in peer mentoring, and as a result build a social network (or a cohort) that will continue to support beyond the VIS conference.
+
+| |
+
 ## <a name="vis-jobfair"></a> VIS Job-fair meetup
 
 Wednesday, October 23    
@@ -233,7 +249,7 @@ Thursday, October 24
 4:10 PM - 5:40 PM    
 Location: Room 14
 
-Organizer: Alexandra Diehl, Johanna Schmidt    
+Organizer: Alexandra Diehl, Johanna Schmidt, Renato Pajarola    
 Contact: [diehl@ifi.uzh.ch](mailto:diehl@ifi.uzh.ch)
 
 There has been a long journey since 1991, the time of the first visualization symposium, until today. Since then, the VIS community has grown up in different ways. In this meetup, we would like to learn and share information and experiences about how this community developed in terms of diversity. We also would like to share useful resources and information to promote diversity in the visualization and scientific environment, exploring current challenges, and potential actions to increase diversity. In a previous meetup, at VIS in 2017, we addressed career paths for women in the visualization field. Now, we want to expand the scope of this meetup to other kinds of diversity including gender, but also geography, scientific background, age, and ethnicity. Our main goal is to wrap-up the history of diversity in VIS from its beginning until today. As a second goal, we would like to give the opportunity to the participants to share common experiences, to learn more about useful resources, and support and endorsement programs. The meetup is considered to accompany other activities and initiatives currently undertaking by the VIS conference to increase diversity. We hope that participants will get to know each other better, to share good advice in terms of reducing the ties, and to increase the heterogeneity of our VIS scientific community. If you would like to actively contribute to the meetup program to share your personal experiences, please let the organizers know.
