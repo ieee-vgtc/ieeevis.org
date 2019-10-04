@@ -123,7 +123,7 @@ permalink: /year/2018/info/committees/conference-committee
     </tr>
     <tr>
       <td>Danyel Fisher</td>
-      <td><i>Microsoft Research (InfoVis)</i></td>
+      <td><i>Honeycomb.io (InfoVis)</i></td>
     </tr>
     <tr>
       <td>Ivan Viola</td>
@@ -302,12 +302,12 @@ permalink: /year/2018/info/committees/conference-committee
       <th>&nbsp;</th>
     </tr>
     <tr>
-      <td>Zhicheng Leo Liu</td>
-      <td><i>Adobe Systems (VAST)</i></td>
+      <td>Katerina Vrotsou</td>
+      <td><i>Linköping University (VAST)</i></td>
     </tr>
     <tr>
-      <td>Katerina Vrotsou</td>
-      <td><i>Linköping University (InfoVis)</i></td>
+      <td>Zhicheng Leo Liu</td>
+      <td><i>Adobe Systems (InfoVis)</i></td>
     </tr>
     <tr>
       <td>Ayan Biswas</td>
@@ -360,6 +360,10 @@ permalink: /year/2018/info/committees/conference-committee
     <tr>
       <td>Thomas Torsney-Weir</td>
       <td><i>University of Vienna</i></td>
+    </tr>
+    <tr>
+      <td>John Wenskovitch</td>
+      <td><i>Virginia Tech</i></td>
     </tr>
     <tr>
       <td>Fumeng Yang</td>
@@ -488,6 +492,10 @@ permalink: /year/2018/info/committees/conference-committee
     <tr>
       <td>Carlos Scheidegger</td>
       <td><i>University of Arizona</i></td>
+    </tr>
+    <tr>
+      <td>Janos Zimmermann</td>
+      <td><i>University of Magdeburg</i></td>
     </tr>
   </tbody>
 </table>

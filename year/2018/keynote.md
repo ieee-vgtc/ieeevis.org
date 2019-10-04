@@ -1,5 +1,5 @@
 ---
-title: keynote
+title: Keynote
 layout: main-2018
 permalink: /year/2018/keynote
 ---
@@ -10,9 +10,12 @@ permalink: /year/2018/keynote
   width="230px" >
   <p> 
     <strong>Tuesday, October 23, 2018</strong><br />
-    <strong>Time: tba</strong><br />
-    <strong>Location: tba</strong>
+    <strong>Time: 11:20 am</strong><br />
+    <strong>Location: Conv 1, Sec C+D</strong>
   </p> 
+  
+  [Video Presentation](https://vimeo.com/308979581)
+  
   <p>
   <strong>Dieter Schmalstieg</strong><br/> is full professor and head of the Institute of Computer Graphics
   and Vision at Graz University of Technology, Austria. His current research interests are augmented reality,

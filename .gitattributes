@@ -6,3 +6,6 @@
 *.sh text eol=lf
 *.bash text eol=lf
 *.md text eol=lf
+
+# Don't ever merge robots.txt into our directory.
+robots.txt merge=ours

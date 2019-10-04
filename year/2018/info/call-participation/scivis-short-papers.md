@@ -13,7 +13,7 @@ The short paper submission deadline is June 13, 2018, creating an opportunity to
 
 Authors of accepted short papers may subsequently submit to TVCG (the journal, not to the VIS conference) a full paper on the same topic, consistent with the TVCG standard of asking for "more than 30 percent new material and insights" compared to a previous conference paper.
 
-### Important Dates
+### Important Dates:
 
 * Submission Deadline: **June 13, 2018**
 * Notification: **July 19, 2018**
@@ -21,10 +21,35 @@ Authors of accepted short papers may subsequently submit to TVCG (the journal, n
 
 All deadlines are at **5:00pm Pacific Time (PDT)**.
 
-### SciVis Short Paper Co-Chairs
+
+### SciVis Short Paper Co-Chairs:
 
 * Berk Geveci, *Kitware Inc.*
 * Gordon Kindlmann, *University of Chicago, USA*
 * Luis Gustavo Nonato, *Universidade de São Paulo, Brazil*
 
 Email: [scivis_shortpapers@ieeevis.org](mailto:scivis_shortpapers@ieeevis.org)
+
+### Program Committee
+
+| Dirk       Zeckzer   | Leipzig University                     |
+| Nivan      Ferreira  | Universidade Federal de Pernambuco     |
+| John       Patchett  | Los Alamos National Laboratory         |
+| Brian      Summa     | Tulane University                      |
+| Johanna    Beyer     | Harvard University                     |
+| Hongfeng   Yu        | University of Nebraska-Lincoln         |
+| Peter      Lindstrom | Lawrence Livermore National Laboratory |
+| Chaoli     Wang      | University of Notre Dame               |
+| Kristi     Potter    | National Renewable Energy Laboratory   |
+| Torsten    Kuhlen    | RWTH Aachen University                 |
+| Ayan       Biswas    | Los Alamos National Laboratory         |
+| Greg       Abram     | University of Texas at Austin          |
+| David      Schroeder | Gonzaga University                     |
+| Hank       Childs    | University of Oregon                   |
+| Alejandro  Ribes     | EDF Lab                                |
+| Aashish    Chaudhary | Kitware Inc.                           |
+| Carson     Brownlee  | Intel                                  |
+| Allen      Sanderson | University of Utah                     |
+| Huy        Vo        | The City College of New York           |
+| Patrick    O'Leary   | Kitware, Inc.                          |
+| Guido      Reina     | University of Stuttgart                |

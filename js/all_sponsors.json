@@ -1161,7 +1161,7 @@
     {
         "src": "/attachments/supporters/2018/think-cell_transparent_screen.png", 
         "company": "think-cell", 
-        "href": "https://www.think-cell.com/developers", 
+        "href": "https://www.think-cell.com/vis2018", 
         "class": "Gold", 
         "year": 2018
     },
@@ -1169,6 +1169,20 @@
         "src": "/attachments/supporters/2018/Bayer.png", 
         "company": "Bayer", 
         "href": "https://www.bayer.com/", 
+        "class": "Gold", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/frauenhofer_igd.png", 
+        "company": "Fraunhofer IGD", 
+        "href": "https://www.igd.fraunhofer.de/en", 
+        "class": "Gold", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/intel_rgb_3000.png", 
+        "company": "Intel", 
+        "href": "http://software.intel.com/sdvis", 
         "class": "Gold", 
         "year": 2018
     },
@@ -1187,7 +1201,7 @@
         "year": 2018
     },
     {
-        "src": "/attachments/supporters/2018/DKRZ-Logo_mitUnterzeile.jpg", 
+        "src": "/attachments/supporters/2018/DKRZ-Logo_mitUnterzeile.png", 
         "company": "DKRZ", 
         "href": "https://www.dkrz.de/dkrz-partner-for-climate-research?set_language=en&cl=en", 
         "class": "Bronze", 
@@ -1201,24 +1215,199 @@
         "year": 2018
     },
     {
-        "src": "/attachments/supporters/2018/IVU_Logo_2017.jpg", 
+        "src": "/attachments/supporters/2018/Kitware_Logo.png", 
+        "company": "Kitware", 
+        "href": "https://www.kitware.com/", 
+        "class": "Bronze", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/IBM.png", 
+        "company": "IBM", 
+        "href": "http://research.ibm.com/", 
+        "class": "Bronze", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/Pix4D.png", 
+        "company": "Pix4D", 
+        "href": "https://pix4d.com/", 
+        "class": "Bronze", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/TACC.png", 
+        "company": "TACC", 
+        "href": "https://www.tacc.utexas.edu", 
+        "class": "Bronze", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/Adobe.png", 
+        "company": "Adobe", 
+        "href": "https://www.adobe.com/", 
+        "class": "Bronze", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/Siemens.png", 
+        "company": "Siemens", 
+        "href": "https://www.siemens.com/corporate-technology", 
+        "class": "Bronze", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/IVU_Logo_2017.png", 
         "company": "IVU", 
         "href": "https://www.ivu.com", 
         "class": "Startup / Small Company", 
         "year": 2018
     },
     {
+        "src": "/attachments/supporters/2018/domeprojection.png", 
+        "company": "domeprojection", 
+        "href": "https://www.domeprojection.com/", 
+        "class": "Startup / Small Company", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/daad_logo_blue_rgb.png", 
+        "company": "DAAD", 
+        "href": "https://www.daad.de/en/", 
+        "class": "Startup / Small Company", 
+        "year": 2018
+    },
+     {
+        "src": "/attachments/supporters/2018/moovel_Logos-02.png", 
+        "company": "moovel lab", 
+        "href": "https://lab.moovel.com/", 
+        "class": "Startup / Small Company", 
+        "year": 2018
+    },	
+    {
+        "src": "/attachments/supporters/2018/Google.png", 
+        "company": "Google", 
+        "href": "http://www.google.com/", 
+        "class": "Startup / Small Company", 
+        "year": 2018
+    },	
+    {
+        "src": "/attachments/supporters/2018/HDC-Logo.png", 
+        "company": "University of Arizona", 
+        "href": "http://hdc.cs.arizona.edu/", 
+        "class": "Non-Profit / Publisher /      Academic / Other",
+        "year": 2018
+    },	
+    {
         "src": "/attachments/supporters/2018/dr-logo-red_converted.png", 
         "company": "Disney Research",
         "href": "https://www.disneyresearch.com", 
-        "class": "Non-Profit / Publisher / Academic", 
+        "class": "Non-Profit / Publisher /      Academic / Other", 
         "year": 2018
     },
     {
         "src": "/attachments/supporters/2018/PUNCH.png", 
         "company": "PUNCH",
-        "href": "", 
-        "class": "Non-Profit / Publisher / Academic", 
+        "href": "https://punchcyber.com/",
+        "class": "Non-Profit / Publisher /      Academic / Other", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/DBMI.png",
+        "company": "DPMI",
+        "href": "http://dbmi.hms.harvard.edu/", 
+        "class": "Non-Profit / Publisher /      Academic / Other", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/VRVIS.png", 
+        "company": "VRVIS",
+        "href": "https://www.vrvis.at/", 
+        "class": "Non-Profit / Publisher /      Academic / Other", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/giCentre.png", 
+        "company": "giCentre",
+        "href": "https://www.gicentre.net/", 
+        "class": "Non-Profit / Publisher /      Academic / Other", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/SCILogo.png",
+        "company": "SCI Institute, University of Utah",
+        "href": "https://www.sci.utah.edu/", 
+        "class": "Non-Profit / Publisher /      Academic / Other", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/mdpi.png", 
+        "company": "MDPI",
+        "href": "http://www.mdpi.com/", 
+        "class": "Non-Profit / Publisher /      Academic / Other", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/OVGU_SIGN_web_Farbig.png", 
+        "company": "OvGU", 
+        "href": "http://www.ovgu.de/en/",
+        "class": "Non-Profit / Publisher /      Academic / Other", 
+        "year": 2018
+    },
+     {
+        "src": "/attachments/supporters/2018/Parsons_Logo3_Large_RGB.png", 
+        "company": "Parsons", 
+        "href": "https://www.newschool.edu/parsons/",
+        "class": "Non-Profit / Publisher /      Academic / Other", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/Maryland.png", 
+        "company": "University of Maryland", 
+        "href": "https://www.umd.edu/",
+        "class": "Non-Profit / Publisher /      Academic / Other", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/CRC.png", 
+        "company": "CRC Press", 
+        "href": "https://www.crcpress.com/",
+        "class": "Non-Profit / Publisher /      Academic / Other", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/Morgan.png", 
+        "company": "Morgan Claypool", 
+        "href": "https://www.morganclaypool.com/",
+        "class": "Non-Profit / Publisher /      Academic / Other", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/Springer_Nature.png", 
+        "company": "Springer Nature", 
+        "href": "https://www.springernature.com/de/",
+        "class": "Non-Profit / Publisher /      Academic / Other", 
+        "year": 2018
+    },
+     {
+        "src": "/attachments/supporters/2018/EnsAD_logo.png", 
+        "company": "Ensad", 
+        "href": "https://www.ensad.fr/",
+        "class": "Non-Profit / Publisher /      Academic / Other", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/iscb-logo-Affiliated-Conference-2014.jpg", 
+        "company": "ISCB", 
+        "href": "https://www.iscb.org/",
+        "class": "In affiliation/cooperation with", 
+        "year": 2018
+    },
+    {
+        "src": "/attachments/supporters/2018/ACM_SIGCHI_combined.png", 
+        "company": "ACM SIGCHI", 
+        "href": "https://sigchi.org/",
+        "class": "In affiliation/cooperation with", 
         "year": 2018
     },
     {

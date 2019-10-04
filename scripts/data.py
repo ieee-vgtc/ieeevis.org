@@ -21,9 +21,10 @@ from oauth2client.service_account import ServiceAccountCredentials
 # Data Loading
 
 def load_credentials():
-    scope = ['https://spreadsheets.google.com/feeds']
+    scope = ['https://spreadsheets.google.com/feeds',
+            'https://www.googleapis.com/auth/drive']
     credentials = ServiceAccountCredentials.from_json_keyfile_name(
-        'files/service-account-key.json',
+        'files/service-account-key-2019.json',
         scope)
     return credentials
 

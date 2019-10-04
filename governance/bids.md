@@ -1,6 +1,6 @@
 ---
 title: VIS Bid Guidelines
-layout: main-2018
+layout: main-2019
 permalink: /governance/bids
 ---
 
@@ -142,12 +142,12 @@ submit the COI (Conflict of Interest) form to the IEEE.
 sending the contract to Legal for signing (step 11).
 
 11. **Staff: Approve.** IEEE Liaison will send a copy of final hotel/convention center contract to that conference year's
-General Chair, Finance Chair and Program Chair for their review and final approval.
+General Chair, Finance Chair and Program Chair for their review and final approval.   
 **Turnaround time: 2 weeks**  
 **Deadline: April 15 Y2 or Y1 (18 months before conference minimum)**
 
 12. **IEEE: Sign.** IEEE Liaison sends the finalized contract to IEEE Legal. 10A. IEEE Liaison sends approved
-hotel/convention center contract(s) to the IEEE Contracts Team for review, processing and signature.
+hotel/convention center contract(s) to the IEEE Contracts Team for review, processing and signature.   
 **Turnaround Time for IEEE Liaison: 3 business days (once approvals are received)**  
 **Turnaround Time for IEEE Contracts/Legal Team: 4 weeks for domestic contracts or 6 weeks for
 international contracts** (except during the Nov/Dec blackout period when contract should not be sent to the IEEE

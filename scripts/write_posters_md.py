@@ -20,7 +20,9 @@ from data import *
 import min_html as h
 import sys
 
-gc = get_spreadsheet("VIS2017 Program")
+import codecs
+
+gc = get_spreadsheet("web-VIS2019-Program")
 posters = load_sheet_by_name(gc, "Posters").get_all_records()
 
 def award_string(poster):
@@ -29,10 +31,11 @@ def award_string(poster):
         return ""
     return " *(%s)*" % award
 
-out = sys.stdout
+# out = sys.stdout
+out = codecs.open('output/posters.txt', 'w', 'utf8')
 for poster in posters:
-    out.write(("**%s**%s  \n" % (poster["Title"], award_string(poster))).encode("utf-8"))
-    out.write(("%s  \n" % poster["Author list"]).encode("utf-8"))
-    out.write(("[Video Preview](%s)\n" % poster["FF Video"]).encode("utf-8"))    
+    out.write(("**%s**%s  \n" % (poster["Title"], award_string(poster))))
+    out.write(("%s  \n" % poster["Author list"]))
+    # out.write(("[Video Preview](%s)\n" % poster["FF Video"]).encode("utf-8"))    
     out.write("\n")
 
