@@ -162,7 +162,7 @@ Location: Room 2+3
 Organizers: Kristi Potter and Remco Chang   
 Contact: [kristi.potter@nrel.gov](mailto:kristi.potter@nrel.gov)   
 
-Join your fellow junior-level faculty, researchers, and practitioners in our first ever happy hour!
+Join your fellow junior-level faculty, researchers, and practitioners in our third annual happy hour!
 
 The goal of this meetup is to provide a safe environment for junior Vis researchers to gather and discuss challenges faced in and out of the work environment. The VIS community has always been very supportive of its junior members, however, one missing link among these wide range of programs is support for the junior professors, early career researchers and practitioners.  Junior researchers face significant amount of pressure and are often overwhelmed by the drastic change from being a student (or a postdoc). Many junior researchers have little training in project management, grant-writing, mentoring, teaching, and establishing a research agenda. As a result, they struggle maintaining a work-life balance and have few (if no) outlet in seeking help, advice, or support. Attendees will have the opportunity to meet fellow early career researchers, participate in peer mentoring, and as a result build a social network (or a cohort) that will continue to support beyond the VIS conference.
 
