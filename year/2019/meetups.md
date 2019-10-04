@@ -8,7 +8,7 @@ permalink: /year/2019/info/meetups
 * [SetVA - Workshop follow-up](#set-va) (Sunday)
 * [VISKids Hello](#vis-kids) (Monday)
 * [Good Food Meets Good Science](#food) (Monday)
-* [Vancouver Data Vis Meetup](#vancouver-vis) (Monday)
+* [Vancouver Data Vis Meetup](#vancouver) (Monday)
 * [VIS Newcomers](#vis-newcomers) (Tuesday)
 * [VISParents](#vis-parents) (Tuesday)
 * [VisLies!](#vislies) (Tuesday)
