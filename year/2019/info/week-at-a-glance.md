@@ -197,6 +197,7 @@ permalink: /year/2019/info/week-at-a-glance
 * [Animation and Sports](/year/2019/info/papers-sessions#animationsports) (location: Ballroom B)
 * [Multivariate & Multidimensional Data](/year/2019/info/papers-sessions#multidata) (location: Ballroom C)
 * [CG&A Session 1](/year/2019/info/papers-sessions#cga1) (location: Room 8+15)
+* Application Spotlight: Does AI mean data visualization is dead? (location: Room 1) 
 * VizSec (location: Room 2+3)
 
 *12:20-2:20PM*
