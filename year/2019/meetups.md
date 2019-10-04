@@ -8,6 +8,7 @@ permalink: /year/2019/info/meetups
 * [SetVA - Workshop follow-up](#set-va) (Sunday)
 * [VISKids Hello](#vis-kids) (Monday)
 * [Good Food Meets Good Science](#food) (Monday)
+* [Vancouver Data Vis Meetup](#vancouver-vis) (Monday)
 * [VIS Newcomers](#vis-newcomers) (Tuesday)
 * [VISParents](#vis-parents) (Tuesday)
 * [VisLies!](#vislies) (Tuesday)
@@ -63,6 +64,30 @@ Tired of bad food? Didn’t have something local when attending the conference a
 This meetup is designed to take participants to a restaurant serving good food that is a local specialty of the area. We aim for an accessible price so that anyone can attend.  People can sign up (see below) on a first come first served basis.  The audience should bring an interesting scientific topic to discuss at dinner. An appetite for local cuisine is also highly recommended.
 
 Please register [here!](https://docs.google.com/forms/d/e/1FAIpQLScSpQ1g2N1_OXjxcQ8bASVTbhbuMvmqIISllzM3xiZbnmSXaQ/viewform)
+
+| |
+
+## <a name="vancouver"></a> Vancouver Data Vis Meetup
+
+Monday, October 21    
+7:00 PM - 9:00 PM 
+Location: BrainStation, 455 Granville St #400 · Vancouver, BC (walking distance from the convention centre)
+
+Organizers: Johanna Fulda   
+Contact: [mailto:j.fulda@gmx.de](mailto:j.fulda@gmx.de)
+
+We think this is a great opportunity for the international visitors to see what’s happening in Vancouver's Data Viz community, and for the locals (who might not be able to attend the conference) to get a glimpse of the latest research in that area.
+ 
+Anybody who is willing to share their visualization work (research, projects, ideas) we'd love to see a 2-5 minute presentation from you!
+Feel free to contact me, then we can talk about the details and I'll put you on the agenda - or just come by and we'll play it by ear.
+
+We'll kick it off with those presentations and then should have enough time afterwards to network, ask follow-up questions, mingle and eat pizza.
+
+[BrainStation](https://brainstation.io) will host us this time - many thanks!!
+
+It's a great venue - and super conveniently close to the Convention Center, where the conference is at (5 minute walk)
+
+[Link on Meetup.com](https://www.meetup.com/Vancouver-Data-Visualization/events/265077240/)
 
 | |
 
