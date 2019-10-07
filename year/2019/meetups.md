@@ -50,15 +50,15 @@ Come to this gathering to learn more about the VISKids grants and conference act
 
 VISKids has provided child care grants to VIS conference attendees since 2015.  As part of Inclusivity and Diversity at IEEE VIS, VISKids also organize activities at the conference, and has a meeting room on-site. The activities and the room are open to everyone, not just awardees of the child care grant program.
 
-| |
+||
 
 ## <a name="ar-vr"></a> Data Visualization with AR/VR
 
-Monday, October 21
-6:30 PM - 8:30 PM
+Monday, October 21    
+6:30 PM - 8:30 PM    
 Location: Microsoft Vancouver, 7th Floor, 725 Granville Street
 
-Organizers: Jason Vantomme, Cydney Nielsen
+Organizers: Jason Vantomme, Cydney Nielsen    
 Contact: [jason.vantomme@microsoft.com](mailto:jason.vantomme@microsoft.com), [cydney.nielsen@microsoft.com](mailto:cydney.nielsen@microsoft.com)
 
 The goal of this meetup is to bring together people interested in visualizing data using technologies along the mixed reality spectrum - those that blend the physical world with the digital world - and include augmented reality (AR) and virtual reality (VR). The session will kick-off with a set of lightning talks where you can share your work in a short 2-3 minute format and then we will open it up as a mixer with demos and discussion.
