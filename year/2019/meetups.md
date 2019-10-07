@@ -7,6 +7,7 @@ permalink: /year/2019/info/meetups
 
 * [SetVA - Workshop follow-up](#set-va) (Sunday)
 * [VISKids Hello](#vis-kids) (Monday)
+* [Data Visualization with AR/VR](#ar-vr) (Monday)
 * [Good Food Meets Good Science](#food) (Monday)
 * [Vancouver Data Vis Meetup](#vancouver) (Monday)
 * [VIS Newcomers](#vis-newcomers) (Tuesday)
@@ -48,6 +49,21 @@ Contact: [m.borkin@northeastern.edu](mailto:m.borkin@northeastern.edu)
 Come to this gathering to learn more about the VISKids grants and conference activities, connect with other parents and families at the conference, and provide feedback and ideas for this and future years. The Inclusivity & Diversity Committee members will answer all your questions. Everyone is welcome to attend, including VISKids/families.
 
 VISKids has provided child care grants to VIS conference attendees since 2015.  As part of Inclusivity and Diversity at IEEE VIS, VISKids also organize activities at the conference, and has a meeting room on-site. The activities and the room are open to everyone, not just awardees of the child care grant program.
+
+| |
+
+## <a name="ar-vr"></a> Data Visualization with AR/VR
+
+Monday, October 21
+6:30 PM - 8:30 PM
+Location: Microsoft Vancouver, 7th Floor, 725 Granville Street
+
+Organizers: Jason Vantomme, Cydney Nielsen
+Contact: [jason.vantomme@microsoft.com](mailto:jason.vantomme@microsoft.com), [cydney.nielsen@microsoft.com](mailto:cydney.nielsen@microsoft.com)
+
+The goal of this meetup is to bring together people interested in visualizing data using technologies along the mixed reality spectrum - those that blend the physical world with the digital world - and include augmented reality (AR) and virtual reality (VR). The session will kick-off with a set of lightning talks where you can share your work in a short 2-3 minute format and then we will open it up as a mixer with demos and discussion.
+
+You must register on Eventbrite to receive a free ticket. [Link on eventbrite.com](https://www.eventbrite.com/e/data-visualization-with-arvr-tickets-75060619333)
 
 | |
 
