@@ -170,6 +170,9 @@ permalink: /year/2019/info/week-at-a-glance
 
 * Celebration of Life - Luana Micallef (location: TBA)
 
+*6:30-9:00PM*
+* [VIS Arts Program Opening Event](https://visap.net/program.html#exhibition) (location: South Foyer)
+
 <hr/>
 
 **Wednesday, October 23**
@@ -181,7 +184,7 @@ permalink: /year/2019/info/week-at-a-glance
 * [Flow](/year/2019/info/papers-sessions#flow) (location: Ballroom C)
 * [Short Papers: Perception, Cognition, and Visualization Design](/year/2019/info/papers-sessions#shortdesign) (location: Room 1)
 * VizSec (location: Room 2+3)
-* [VISAP Session 1](/year/2019/info/papers-sessions#visap1) (location: Room 8+15)
+* [VISAP Session 1](https://visap.net/program.html#session1) (location: Room 8+15)
 
 *9:00AM-5:40PM*
 
@@ -239,7 +242,7 @@ permalink: /year/2019/info/week-at-a-glance
 * [XAI and Fairness](/year/2019/info/papers-sessions#fairness) (location: Ballroom A)
 * [Vis for Software and Systems](/year/2019/info/papers-sessions#vissystems) (location: Ballroom B)
 * [Large Data and Dimensionality Reduction](/year/2019/info/papers-sessions#largedata) (location: Ballroom C)
-* [VISAP Session 2](/year/2019/info/papers-sessions#visap2) (location: Room 2+3)
+* [VISAP Session 2](https://visap.net/program.html#session2) (location: Room 2+3)
 * [SIGGRAPH Session](/year/2019/info/papers-sessions#siggraph) (location: Room 8+15)
 
 *9:00AM-12:20PM*
