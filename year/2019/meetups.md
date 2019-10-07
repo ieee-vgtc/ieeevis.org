@@ -63,7 +63,7 @@ Contact: [jason.vantomme@microsoft.com](mailto:jason.vantomme@microsoft.com), [c
 
 The goal of this meetup is to bring together people interested in visualizing data using technologies along the mixed reality spectrum - those that blend the physical world with the digital world - and include augmented reality (AR) and virtual reality (VR). The session will kick-off with a set of lightning talks where you can share your work in a short 2-3 minute format and then we will open it up as a mixer with demos and discussion.
 
-You must register on Eventbrite to receive a free ticket. [Link on eventbrite.com](https://www.eventbrite.com/e/data-visualization-with-arvr-tickets-75060619333)
+You must register on Eventbrite to receive a free ticket. [Link on eventbrite](https://www.eventbrite.com/e/data-visualization-with-arvr-tickets-75060619333)
 
 | |
 
@@ -86,11 +86,11 @@ Please register [here!](https://docs.google.com/forms/d/e/1FAIpQLScSpQ1g2N1_OXjx
 ## <a name="vancouver"></a> Vancouver Data Vis Meetup
 
 Monday, October 21    
-7:00 PM - 9:00 PM 
+7:00 PM - 9:00 PM
 Location: BrainStation, 455 Granville St #400 · Vancouver, BC (walking distance from the convention centre)
 
 Organizers: Johanna Fulda   
-Contact: [mailto:j.fulda@gmx.de](mailto:j.fulda@gmx.de)
+Contact: [j.fulda@gmx.de](mailto:j.fulda@gmx.de)
 
 We think this is a great opportunity for the international visitors to see what’s happening in Vancouver's Data Viz community, and for the locals (who might not be able to attend the conference) to get a glimpse of the latest research in that area.
  
