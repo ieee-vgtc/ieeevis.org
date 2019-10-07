@@ -65,6 +65,7 @@ The goal of this meetup is to bring together people interested in visualizing da
 
 You must register on Eventbrite to receive a free ticket. [Link on eventbrite](https://www.eventbrite.com/e/data-visualization-with-arvr-tickets-75060619333)
 
+
 | |
 
 ## <a name="food"></a> Good Food Meets Good Science
