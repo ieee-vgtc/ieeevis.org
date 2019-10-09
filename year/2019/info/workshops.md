@@ -71,7 +71,7 @@ Contact: johnwenskovitch@gmail.com
 The high-level goal of this workshop is to bring together researchers from across the VIS community to share their knowledge and build collaborations at the intersection of the Machine Learning and Visu- alization fields, with a focus on learning from user interaction. Our hope in this workshop is to pull expertise from across all fields of VIS in order to generate open discussion about how we currently learn from user interaction and where we can go with future research.
 To achieve this goal, we propose a half-day workshop that incor- porates paper presentations, posters, and free-form discussion. Our goal is to allow for the presentation of cutting-edge research, while also providing participants and speakers with time to exchange ideas and to discuss new research directions.
 
-## <a name="multilayer"></a> [Multilayer Nets: Challenges in Multilayer Network Visualization and Analysis](https://www.list.lu/event/multilayernetworks/)
+## <a name="multilayer"></a> [Multilayer Nets: Challenges in Multilayer Network Visualization and Analysis](https://www.multilayernetvis.org/)
 Monday, October 21: 2:20pm-5:40pm
 
 Fintan McGee, *Luxembourg Institute of Science and Technology*  
