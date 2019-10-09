@@ -4,8 +4,7 @@ layout: main-2019
 permalink: /year/2019/info/week-at-a-glance
 ---
 
-<!-- <img src="2019-schedule.svg" width="490" height="500" /> -->
-<object type="image/svg+xml" data="2019-schedule.svg"></object>
+<object type="image/svg+xml" data="2019-schedule.svg" style="margin-top: 20px;"></object>
 
 <a name="saturday">**Saturday, October 19**</a>
 
@@ -312,7 +311,7 @@ permalink: /year/2019/info/week-at-a-glance
 
 * VIS Capstone (location: Ballroom ABC)
 
-<<a name="friday-third">*12:00-12:30PM*</a>
+<a name="friday-third">*12:00-12:30PM*</a>
 
 * VIS Closing (location: Ballroom ABC)
 
