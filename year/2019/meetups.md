@@ -7,7 +7,9 @@ permalink: /year/2019/info/meetups
 
 * [SetVA - Workshop follow-up](#set-va) (Sunday)
 * [VISKids Hello](#vis-kids) (Monday)
+* [Data Visualization with AR/VR](#ar-vr) (Monday)
 * [Good Food Meets Good Science](#food) (Monday)
+* [Vancouver Data Vis Meetup](#vancouver) (Monday)
 * [VIS Newcomers](#vis-newcomers) (Tuesday)
 * [VISParents](#vis-parents) (Tuesday)
 * [VisLies!](#vislies) (Tuesday)
@@ -48,6 +50,22 @@ Come to this gathering to learn more about the VISKids grants and conference act
 
 VISKids has provided child care grants to VIS conference attendees since 2015.  As part of Inclusivity and Diversity at IEEE VIS, VISKids also organize activities at the conference, and has a meeting room on-site. The activities and the room are open to everyone, not just awardees of the child care grant program.
 
+||
+
+## <a name="ar-vr"></a> Data Visualization with AR/VR
+
+Monday, October 21    
+6:30 PM - 8:30 PM    
+Location: Microsoft Vancouver, 7th Floor, 725 Granville Street
+
+Organizers: Jason Vantomme, Cydney Nielsen    
+Contact: [jason.vantomme@microsoft.com](mailto:jason.vantomme@microsoft.com), [cydney.nielsen@microsoft.com](mailto:cydney.nielsen@microsoft.com)
+
+The goal of this meetup is to bring together people interested in visualizing data using technologies along the mixed reality spectrum - those that blend the physical world with the digital world - and include augmented reality (AR) and virtual reality (VR). The session will kick-off with a set of lightning talks where you can share your work in a short 2-3 minute format and then we will open it up as a mixer with demos and discussion.
+
+You must register on Eventbrite to receive a free ticket. [Link on eventbrite](https://www.eventbrite.com/e/data-visualization-with-arvr-tickets-75060619333)
+
+
 | |
 
 ## <a name="food"></a> Good Food Meets Good Science
@@ -63,6 +81,30 @@ Tired of bad food? Didn’t have something local when attending the conference a
 This meetup is designed to take participants to a restaurant serving good food that is a local specialty of the area. We aim for an accessible price so that anyone can attend.  People can sign up (see below) on a first come first served basis.  The audience should bring an interesting scientific topic to discuss at dinner. An appetite for local cuisine is also highly recommended.
 
 Please register [here!](https://docs.google.com/forms/d/e/1FAIpQLScSpQ1g2N1_OXjxcQ8bASVTbhbuMvmqIISllzM3xiZbnmSXaQ/viewform)
+
+| |
+
+## <a name="vancouver"></a> Vancouver Data Vis Meetup
+
+Monday, October 21    
+7:00 PM - 9:00 PM
+Location: BrainStation, 455 Granville St #400 · Vancouver, BC (walking distance from the convention centre)
+
+Organizers: Johanna Fulda   
+Contact: [j.fulda@gmx.de](mailto:j.fulda@gmx.de)
+
+We think this is a great opportunity for the international visitors to see what’s happening in Vancouver's Data Viz community, and for the locals (who might not be able to attend the conference) to get a glimpse of the latest research in that area.
+ 
+Anybody who is willing to share their visualization work (research, projects, ideas) we'd love to see a 2-5 minute presentation from you!
+Feel free to contact me, then we can talk about the details and I'll put you on the agenda - or just come by and we'll play it by ear.
+
+We'll kick it off with those presentations and then should have enough time afterwards to network, ask follow-up questions, mingle and eat pizza.
+
+[BrainStation](https://brainstation.io) will host us this time - many thanks!!
+
+It's a great venue - and super conveniently close to the Convention Center, where the conference is at (5 minute walk)
+
+[Link on Meetup.com](https://www.meetup.com/Vancouver-Data-Visualization/events/265077240/)
 
 | |
 
