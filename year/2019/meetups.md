@@ -63,6 +63,10 @@ Contact: [jason.vantomme@microsoft.com](mailto:jason.vantomme@microsoft.com), [c
 
 The goal of this meetup is to bring together people interested in visualizing data using technologies along the mixed reality spectrum - those that blend the physical world with the digital world - and include augmented reality (AR) and virtual reality (VR). The session will kick-off with a set of lightning talks where you can share your work in a short 2-3 minute format and then we will open it up as a mixer with demos and discussion.
 
+**Lightning talks**: If you would like to present your work in a lightning talk, please send us a maximum of 3 slides (including title slide) by Monday, October 14, 2019.
+ 
+**Demos**: If you would like to present a demo of a working system, please send us a title and description of the demo by Monday, October 14, 2019. We will be able to provide table space and power outlets for demos, but if you have any special requirements, let us know and we'll do our best to accommodate. If the demand for demos exceeds our capacity, we may have to limit demos on a first-come, first-served basis.
+
 You must register on Eventbrite to receive a free ticket. [Link on eventbrite](https://www.eventbrite.com/e/data-visualization-with-arvr-tickets-75060619333)
 
 
