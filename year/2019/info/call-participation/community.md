@@ -1,8 +1,8 @@
 ---
 title: Community
 layout: page
-sidebar: call-for-participation
 permalink: /year/2019/info/call-participation/community
+active_nav: "Events & Community"
 contact: community@ieeevis.org
 ---
 

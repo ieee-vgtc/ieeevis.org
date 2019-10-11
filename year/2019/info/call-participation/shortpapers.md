@@ -3,6 +3,7 @@ title: Short Papers Call for Participation
 layout: page
 sidebar: call-for-participation
 permalink: /year/2019/info/call-participation/shortpapers
+active_nav: "Contribute"
 ---
 
 IEEE Vis 2019 solicits submissions in a short paper format. Short papers draw from the same paper types and topics as full papers of VAST, Infovis and Scivis, ranging from theoretical to applied research contributions. 

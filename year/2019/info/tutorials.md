@@ -2,6 +2,7 @@
 title: Tutorials
 layout: page
 permalink: /year/2019/info/tutorials
+active_nav: "Program"
 contact: "tutorials@ieeevis.org"
 ---
 

@@ -1,7 +1,9 @@
 ---
 title: Open Practices
 layout: page
+sidebar: call-for-participation
 permalink: /year/2019/info/open-practices/open-practices
+active_nav: "Contribute"
 ---
 
 Visualization research is better communicated and acted on if it is freely accessible to the

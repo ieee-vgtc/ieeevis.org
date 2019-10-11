@@ -2,6 +2,7 @@
 title: Workshops
 layout: page
 permalink: /year/2019/info/workshops
+active_nav: "Program"
 ---
 
 * [CityVis: 2nd Workshop on Urban Data Visualization — Focus: The Role of the Citizen](#cityvis)

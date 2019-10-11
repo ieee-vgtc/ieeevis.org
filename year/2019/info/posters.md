@@ -2,6 +2,7 @@
 title: Posters
 layout: page
 permalink: /year/2019/info/posters
+active_nav: "Program"
 contact: "posters@ieeevis.org"
 ---
 

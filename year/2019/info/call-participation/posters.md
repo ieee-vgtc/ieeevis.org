@@ -3,6 +3,7 @@ title: Posters
 layout: page
 sidebar: call-for-participation
 permalink: /year/2019/info/call-participation/posters
+active_nav: "Contribute"
 contact: posters@ieeevis.org
 ---
 

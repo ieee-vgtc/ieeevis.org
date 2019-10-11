@@ -2,6 +2,7 @@
 title: Panels
 layout: page
 permalink: /year/2019/info/panels
+active_nav: "Program"
 ---
 
 

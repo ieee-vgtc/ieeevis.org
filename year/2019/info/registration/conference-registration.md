@@ -1,6 +1,7 @@
 ---
 title: Conference Registration
 layout: page
+active_nav: "Attend"
 permalink: /year/2019/info/registration/conference-registration
 contact: "web@ieeevis.org"
 ---

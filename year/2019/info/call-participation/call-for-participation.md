@@ -1,6 +1,7 @@
 ---
 title: Call For Participation
 permalink: /year/2019/info/call-participation/call-for-participation
+active_nav: "Contribute"
 layout: landing
 sidebar: call-for-participation
 intro_section:

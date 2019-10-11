@@ -1,6 +1,7 @@
 ---
 title: VISKids Child Care Grants
 layout: page
+active_nav: "Attend"
 permalink: /year/2019/info/inclusion-and-diversity/viskids-child-care-grants
 contact: viskids@ieeevis.org
 ---

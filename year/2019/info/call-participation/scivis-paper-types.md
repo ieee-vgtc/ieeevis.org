@@ -3,6 +3,7 @@ title: SciVis Paper Types
 layout: page
 sidebar: call-for-participation
 permalink: /year/2019/info/call-participation/scivis-paper-types
+active_nav: "Contribute"
 ---
 
 The **IEEE Scientific Visualization (SciVis)** conference solicits original research papers on a diverse

@@ -2,6 +2,7 @@
 title: Capstone
 layout: page
 permalink: /year/2019/capstone
+active_nav: "Program"
 ---
 
 <img src="/assets/johanna-drucker.jpeg"

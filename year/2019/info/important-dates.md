@@ -1,7 +1,9 @@
 ---
-title: Important-Dates
+title: Important Dates
 layout: page
+sidebar: call-for-participation
 permalink: /year/2019/info/important-dates
+active_nav: "Contribute"
 ---
 
 | Workshops submission                                 | Feb 15, 2018 |

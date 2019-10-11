@@ -2,6 +2,7 @@
 title: Keynote
 layout: page
 permalink: /year/2019/keynote
+active_nav: "Program"
 ---
 
 <img src="/assets/borner.png"

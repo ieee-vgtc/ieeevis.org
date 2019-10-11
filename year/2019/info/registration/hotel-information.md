@@ -1,6 +1,7 @@
 ---
 title: Venue & Hotel Information
 layout: page
+active_nav: "Attend"
 permalink: /year/2019/info/registration/hotel-information
 contact: "web@ieeevis.org"
 ---
