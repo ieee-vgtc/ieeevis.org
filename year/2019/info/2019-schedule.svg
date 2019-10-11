@@ -1,0 +1,396 @@
+<svg viewBox="0,0,490,500" width="490" height="500" 
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g class="plot" transform="translate(80, 30)">
+        <g class="amenities">
+            <g class="xaxis axis xaxis-top"/>
+            <g class="xaxis axis xaxis-bottom" transform="translate(25.5,400)" fill="none" font-size="10" font-family="sans-serif" text-anchor="middle">
+                <path class="domain" stroke="currentColor" d="M0.5,6V0.5H360.5V6"/>
+                <g class="tick" opacity="1" transform="translate(0.5,0)">
+                    <line stroke="currentColor" y2="6"/>
+                    <a xlink:href="week-at-a-glance#saturday" target="_parent">
+                        <text fill="currentColor" y="9" dy="0.71em" style="font-size: 12px; cursor: pointer;">
+                            <tspan x="0" y="9" dy="-0.29000000000000004em"/>
+                            <tspan x="0" y="9" dy="0.81em">Saturday</tspan>
+                            <tspan x="0" y="9" dy="1.9100000000000001em">19 Oct</tspan>
+                        </text>
+                    </a>
+                </g>
+                <g class="tick" opacity="1" transform="translate(60.5,0)">
+                    <line stroke="currentColor" y2="6"/>
+                    <a xlink:href="week-at-a-glance#sunday" target="_parent">
+                        <text fill="currentColor" y="9" dy="0.71em" style="font-size: 12px; cursor: pointer;">
+                            <tspan x="0" y="9" dy="-0.29000000000000004em"/>
+                            <tspan x="0" y="9" dy="0.81em">Sunday</tspan>
+                            <tspan x="0" y="9" dy="1.9100000000000001em">20 Oct</tspan>
+                        </text>
+                    </a>
+                </g>
+                <g class="tick" opacity="1" transform="translate(120.5,0)">
+                    <line stroke="currentColor" y2="6"/>
+                    <a xlink:href="week-at-a-glance#monday" target="_parent">
+                        <text fill="currentColor" y="9" dy="0.71em" style="font-size: 12px; cursor: pointer;">
+                            <tspan x="0" y="9" dy="-0.29000000000000004em"/>
+                            <tspan x="0" y="9" dy="0.81em">Monday</tspan>
+                            <tspan x="0" y="9" dy="1.9100000000000001em">21 Oct</tspan>
+                        </text>
+                    </a>
+                </g>
+                <g class="tick" opacity="1" transform="translate(180.5,0)">
+                    <line stroke="currentColor" y2="6"/>
+                    <a xlink:href="week-at-a-glance#tuesday" target="_parent">
+                        <text fill="currentColor" y="9" dy="0.71em" style="font-size: 12px; cursor: pointer;">
+                            <tspan x="0" y="9" dy="-0.29000000000000004em"/>
+                            <tspan x="0" y="9" dy="0.81em">Tuesday</tspan>
+                            <tspan x="0" y="9" dy="1.9100000000000001em">22 Oct</tspan>
+                        </text>
+                    </a>
+                </g>
+                <g class="tick" opacity="1" transform="translate(240.5,0)">
+                    <line stroke="currentColor" y2="6"/>
+                    <a xlink:href="week-at-a-glance#wednesday" target="_parent">
+                        <text fill="currentColor" y="9" dy="0.71em" style="font-size: 12px; cursor: pointer;">
+                            <tspan x="0" y="9" dy="-0.29000000000000004em"/>
+                            <tspan x="0" y="9" dy="0.81em">Wednesday</tspan>
+                            <tspan x="0" y="9" dy="1.9100000000000001em">23 Oct</tspan>
+                        </text>
+                    </a>
+                </g>
+                <g class="tick" opacity="1" transform="translate(300.5,0)">
+                    <line stroke="currentColor" y2="6"/>
+                    <a xlink:href="week-at-a-glance#thursday" target="_parent">
+                        <text fill="currentColor" y="9" dy="0.71em" style="font-size: 12px; cursor: pointer;">
+                            <tspan x="0" y="9" dy="-0.29000000000000004em"/>
+                            <tspan x="0" y="9" dy="0.81em">Thursday</tspan>
+                            <tspan x="0" y="9" dy="1.9100000000000001em">24 Oct</tspan>
+                        </text>
+                    </a>
+                </g>
+                <g class="tick" opacity="1" transform="translate(360.5,0)">
+                    <line stroke="currentColor" y2="6"/>
+                    <a xlink:href="week-at-a-glance#friday" target="_parent">
+                        <text fill="currentColor" y="9" dy="0.71em" style="font-size: 12px; cursor: pointer;">
+                            <tspan x="0" y="9" dy="-0.29000000000000004em"/>
+                            <tspan x="0" y="9" dy="0.81em">Friday</tspan>
+                            <tspan x="0" y="9" dy="1.9100000000000001em">25 Oct</tspan>
+                        </text>
+                    </a>
+                </g>
+            </g>
+            <g class="yaxis axis" transform="translate(-10, 0)" fill="none" font-size="10" font-family="sans-serif" text-anchor="end">
+                <path class="domain" stroke="currentColor" d="M-6,0.5H0.5V390.5H-6"/>
+                <g class="tick" opacity="1" transform="translate(0,0.5)">
+                    <line stroke="currentColor" x2="-6"/>
+                    <text fill="currentColor" x="-9" dy="0.32em" style="font-size: 12px;"> 8:00 AM</text>
+                </g>
+                <g class="tick" opacity="1" transform="translate(0,30.5)">
+                    <line stroke="currentColor" x2="-6"/>
+                    <text fill="currentColor" x="-9" dy="0.32em" style="font-size: 12px;"> 9:00 AM</text>
+                </g>
+                <g class="tick" opacity="1" transform="translate(0,60.5)">
+                    <line stroke="currentColor" x2="-6"/>
+                    <text fill="currentColor" x="-9" dy="0.32em" style="font-size: 12px;">10:00 AM</text>
+                </g>
+                <g class="tick" opacity="1" transform="translate(0,90.5)">
+                    <line stroke="currentColor" x2="-6"/>
+                    <text fill="currentColor" x="-9" dy="0.32em" style="font-size: 12px;">11:00 AM</text>
+                </g>
+                <g class="tick" opacity="1" transform="translate(0,120.5)">
+                    <line stroke="currentColor" x2="-6"/>
+                    <text fill="currentColor" x="-9" dy="0.32em" style="font-size: 12px;">12:00 PM</text>
+                </g>
+                <g class="tick" opacity="1" transform="translate(0,150.5)">
+                    <line stroke="currentColor" x2="-6"/>
+                    <text fill="currentColor" x="-9" dy="0.32em" style="font-size: 12px;"> 1:00 PM</text>
+                </g>
+                <g class="tick" opacity="1" transform="translate(0,180.5)">
+                    <line stroke="currentColor" x2="-6"/>
+                    <text fill="currentColor" x="-9" dy="0.32em" style="font-size: 12px;"> 2:00 PM</text>
+                </g>
+                <g class="tick" opacity="1" transform="translate(0,210.5)">
+                    <line stroke="currentColor" x2="-6"/>
+                    <text fill="currentColor" x="-9" dy="0.32em" style="font-size: 12px;"> 3:00 PM</text>
+                </g>
+                <g class="tick" opacity="1" transform="translate(0,240.5)">
+                    <line stroke="currentColor" x2="-6"/>
+                    <text fill="currentColor" x="-9" dy="0.32em" style="font-size: 12px;"> 4:00 PM</text>
+                </g>
+                <g class="tick" opacity="1" transform="translate(0,270.5)">
+                    <line stroke="currentColor" x2="-6"/>
+                    <text fill="currentColor" x="-9" dy="0.32em" style="font-size: 12px;"> 5:00 PM</text>
+                </g>
+                <g class="tick" opacity="1" transform="translate(0,300.5)">
+                    <line stroke="currentColor" x2="-6"/>
+                    <text fill="currentColor" x="-9" dy="0.32em" style="font-size: 12px;"> 6:00 PM</text>
+                </g>
+                <g class="tick" opacity="1" transform="translate(0,330.5)">
+                    <line stroke="currentColor" x2="-6"/>
+                    <text fill="currentColor" x="-9" dy="0.32em" style="font-size: 12px;"> 7:00 PM</text>
+                </g>
+                <g class="tick" opacity="1" transform="translate(0,360.5)">
+                    <line stroke="currentColor" x2="-6"/>
+                    <text fill="currentColor" x="-9" dy="0.32em" style="font-size: 12px;"> 8:00 PM</text>
+                </g>
+                <g class="tick" opacity="1" transform="translate(0,390.5)">
+                    <line stroke="currentColor" x2="-6"/>
+                    <text fill="currentColor" x="-9" dy="0.32em" style="font-size: 12px;"> 9:00 PM</text>
+                </g>
+            </g>
+            <g class="labels">
+                <g class="workshop" transform="translate(12.75, -20)">
+                    <text x="70.125" style="text-anchor: middle; font-size: 12px;">Workshops + Associated Events</text>
+                    <line y1="7" y2="7" x2="153" style="stroke: black;"/>
+                </g>
+                <g class="workshop" transform="translate(192.75, -20)">
+                    <text x="102" style="text-anchor: middle; font-size: 12px;">Conference</text>
+                    <line y1="7" y2="7" x2="204" style="stroke: black;"/>
+                </g>
+            </g>
+        </g>
+        <g class="bars">
+            <g class="days" transform="translate(0,0)">
+                <a xlink:href="week-at-a-glance#saturday" target="_parent">
+                    <rect class="spans" dx="0" y="30" height="260" width="51" style="fill: steelblue; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                        <title>9:00AM-5:40PM</title>
+                    </rect>
+                </a>
+            </g>
+            <g class="days" transform="translate(60,0)">
+                <rect class="spans" dx="0" y="30" height="260" width="51" style="fill: steelblue; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                    <title>9:00AM-5:40PM</title>
+                </rect>
+                <a xlink:href="week-at-a-glance#sunday-first" target="_parent">
+                    <rect class="spans" dx="0" y="30" height="100" width="51" style="fill: steelblue; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                        <title>9:00AM-12:20PM</title>
+                    </rect>
+                </a>
+                <rect class="spans" dx="0" y="75" height="10" width="51" style="fill: lightsalmon; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                    <title>10:30-10:50AM</title>
+                </rect>
+                <rect class="spans" dx="0" y="130" height="60" width="51" style="fill: lightsalmon; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                    <title>12:20-2:20PM</title>
+                </rect>
+                <rect class="spans" dx="0" y="190" height="45" width="51" style="fill: steelblue; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                    <title>2:20-3:50PM</title>
+                </rect>
+                <a xlink:href="week-at-a-glance#sunday-second" target="_parent">
+                    <rect class="spans" dx="0" y="190" height="100" width="51" style="fill: steelblue; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                        <title>2:20-5:40PM</title>
+                    </rect>
+                </a>
+                <rect class="spans" dx="0" y="235" height="10" width="51" style="fill: lightsalmon; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                    <title>3:50-4:10PM</title>
+                </rect>
+                <a xlink:href="week-at-a-glance#sunday-third" target="_parent">
+                    <rect class="spans" dx="0" y="245" height="45" width="51" style="fill: steelblue; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                        <title>4:10-5:40PM</title>
+                    </rect>
+                </a>
+                <a xlink:href="week-at-a-glance#sunday-fourth" target="_parent">
+                    <rect class="spans" dx="0" y="330" height="60" width="51" style="fill: steelblue; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                        <title>7:00-9:00PM</title>
+                    </rect>
+                </a>
+                <a xlink:href="week-at-a-glance#sunday-posters" target="_parent">
+                    <rect class="spans" dx="-7" y="30" height="360" width="10" style="fill: yellow; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                        <title>9:00AM-9:00PM</title>
+                    </rect>
+                </a>
+            </g>
+            <g class="days" transform="translate(120,0)">
+                <a xlink:href="week-at-a-glance#monday-first" target="_parent">
+                    <rect class="spans" dx="0" y="30" height="100" width="51" style="fill: steelblue; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                        <title>9:00AM-12:20PM</title>
+                    </rect>
+                </a>
+                <rect class="spans" dx="0" y="75" height="10" width="51" style="fill: lightsalmon; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                    <title>10:30-10:50AM</title>
+                </rect>
+                <rect class="spans" dx="0" y="130" height="60" width="51" style="fill: lightsalmon; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                    <title>12:20-2:20PM</title>
+                </rect>
+                <a xlink:href="week-at-a-glance#monday-second" target="_parent">
+                    <rect class="spans" dx="0" y="190" height="45" width="51" style="fill: steelblue; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                        <title>2:20-3:50PM</title>
+                    </rect>
+                    <rect class="spans" dx="0" y="190" height="100" width="51" style="fill: steelblue; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                        <title>2:20-5:40PM</title>
+                    </rect>
+                </a>
+                <rect class="spans" dx="0" y="235" height="10" width="51" style="fill: lightsalmon; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                    <title>3:50-4:10PM</title>
+                </rect>
+                <a xlink:href="week-at-a-glance#monday-third" target="_parent">
+                    <rect class="spans" dx="0" y="245" height="45" width="51" style="fill: steelblue; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                        <title>4:10-5:40PM</title>
+                    </rect>
+                </a>
+                <a xlink:href="week-at-a-glance#monday-fourth" target="_parent">
+                    <rect class="spans" dx="0" y="300" height="30" width="51" style="fill: steelblue; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                        <title>6:00-7:00PM</title>
+                    </rect>
+                </a>
+                <a xlink:href="week-at-a-glance#monday-posters" target="_parent">
+                    <rect class="spans" dx="-7" y="30" height="260" width="10" style="fill: yellow; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                        <title>9:00AM-5:40PM</title>
+                    </rect>
+                </a>
+            </g>
+            <g class="days" transform="translate(180,0)">
+                <a xlink:href="week-at-a-glance#tuesday-first" target="_parent">
+                    <rect class="spans" dx="0" y="15" height="45" width="51" style="fill: steelblue; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                        <title>8:30-10:00AM</title>
+                    </rect>
+                </a>
+                <a xlink:href="week-at-a-glance#tuesday-second" target="_parent">
+                    <rect class="spans" dx="0" y="60" height="30" width="51" style="fill: steelblue; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                        <title>10:00-11:00AM</title>
+                    </rect>
+                </a>
+                <rect class="spans" dx="0" y="90" height="9.999999999999986" width="51" style="fill: lightsalmon; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                    <title>11:00-11:20AM</title>
+                </rect>
+                <a xlink:href="week-at-a-glance#tuesday-third" target="_parent">
+                    <rect class="spans" dx="0" y="99.99999999999999" height="30.000000000000014" width="51" style="fill: steelblue; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                        <title>11:20AM-12:20PM</title>
+                    </rect>
+                </a>
+                <rect class="spans" dx="0" y="130" height="60" width="51" style="fill: lightsalmon; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                    <title>12:20-2:20PM</title>
+                </rect>
+                <a xlink:href="week-at-a-glance#tuesday-fourth" target="_parent">
+                    <rect class="spans" dx="0" y="190" height="45" width="51" style="fill: steelblue; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                        <title>2:20-3:50PM</title>
+                    </rect>
+                </a>
+                <a xlink:href="week-at-a-glance#tuesday-fourth" target="_parent">
+                    <rect class="spans" dx="0" y="197.5" height="37.5" width="51" style="fill: steelblue; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                        <title>2:35-3:50PM</title>
+                    </rect>
+                </a>
+                <rect class="spans" dx="0" y="235" height="10" width="51" style="fill: lightsalmon; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                    <title>3:50-4:10PM</title>
+                </rect>
+                <a xlink:href="week-at-a-glance#tuesday-fifth" target="_parent">
+                    <rect class="spans" dx="0" y="245" height="45" width="51" style="fill: steelblue; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                        <title>4:10-5:40PM</title>
+                    </rect>
+                </a>
+                <a xlink:href="week-at-a-glance#tuesday-sixth" target="_parent">
+                    <rect class="spans" dx="0" y="300" height="60" width="51" style="fill: steelblue; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                        <title>6:00-8:00PM</title>
+                    </rect>
+                </a>
+                <a xlink:href="week-at-a-glance#tuesday-posters" target="_parent">
+                    <rect class="spans" dx="-7" y="30" height="260" width="10" style="fill: yellow; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                        <title>9:00AM-5:40PM</title>
+                    </rect>
+                </a>
+            </g>
+            <g class="days" transform="translate(240,0)">
+                <a xlink:href="week-at-a-glance#wednesday-first" target="_parent">
+                    <rect class="spans" dx="0" y="30" height="45" width="51" style="fill: steelblue; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                        <title>9:00-10:30AM</title>
+                    </rect>
+                </a>
+                <rect class="spans" dx="0" y="75" height="10" width="51" style="fill: lightsalmon; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                    <title>10:30-10:50AM</title>
+                </rect>
+                <a xlink:href="week-at-a-glance#wednesday-second" target="_parent">
+                    <rect class="spans" dx="0" y="85" height="45" width="51" style="fill: steelblue; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                        <title>10:50AM-12:20PM</title>
+                    </rect>
+                </a>
+                <rect class="spans" dx="0" y="130" height="60" width="51" style="fill: lightsalmon; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                    <title>12:20-2:20PM</title>
+                </rect>
+                <a xlink:href="week-at-a-glance#wednesday-third" target="_parent">
+                    <rect class="spans" dx="0" y="190" height="45" width="51" style="fill: steelblue; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                        <title>2:20-3:50PM</title>
+                    </rect>
+                </a>
+                <rect class="spans" dx="0" y="235" height="10" width="51" style="fill: lightsalmon; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                    <title>3:50-4:10PM</title>
+                </rect>
+                <a xlink:href="week-at-a-glance#wednesday-fourth" target="_parent">
+                    <rect class="spans" dx="0" y="245" height="30" width="51" style="fill: steelblue; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                        <title>4:10-5:10PM</title>
+                    </rect>
+                </a>
+                <a xlink:href="week-at-a-glance#wednesday-fifth" target="_parent">
+                    <rect class="spans" dx="0" y="275" height="55" width="51" style="fill: steelblue; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                        <title>5:10-7:00PM</title>
+                    </rect>
+                </a>
+                <a xlink:href="week-at-a-glance#wednesday-sixth" target="_parent">
+                    <rect class="spans" dx="0" y="330" height="60" width="51" style="fill: steelblue; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                        <title>7:00-9:00PM</title>
+                    </rect>
+                </a>
+                <a xlink:href="week-at-a-glance#wednesday-posters" target="_parent">
+                    <rect class="spans" dx="-7" y="30" height="260" width="10" style="fill: yellow; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                        <title>9:00AM-5:40PM</title>
+                    </rect>
+                </a>
+            </g>
+            <g class="days" transform="translate(300,0)">
+                <a xlink:href="week-at-a-glance#thursday-first" target="_parent">
+                    <rect class="spans" dx="0" y="30" height="45" width="51" style="fill: steelblue; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                        <title>9:00-10:30AM</title>
+                    </rect>
+                </a>
+                <rect class="spans" dx="0" y="75" height="10" width="51" style="fill: lightsalmon; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                    <title>10:30-10:50AM</title>
+                </rect>
+                <a xlink:href="week-at-a-glance#thursday-second" target="_parent">
+                    <rect class="spans" dx="0" y="85" height="45" width="51" style="fill: steelblue; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                        <title>10:50AM-12:20PM</title>
+                    </rect>
+                </a>
+                <rect class="spans" dx="0" y="130" height="60" width="51" style="fill: lightsalmon; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                    <title>12:20-2:20PM</title>
+                </rect>
+                <a xlink:href="week-at-a-glance#thursday-third" target="_parent">
+                    <rect class="spans" dx="0" y="190" height="45" width="51" style="fill: steelblue; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                        <title>2:20-3:50PM</title>
+                    </rect>
+                </a>
+                <rect class="spans" dx="0" y="235" height="10" width="51" style="fill: lightsalmon; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                    <title>3:50-4:10PM</title>
+                </rect>
+                <a xlink:href="week-at-a-glance#thursday-fourth" target="_parent">
+                    <rect class="spans" dx="0" y="245" height="45" width="51" style="fill: steelblue; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                        <title>4:10-5:40PM</title>
+                    </rect>
+                </a>
+                <a xlink:href="week-at-a-glance#thursday-posters" target="_parent">
+                    <rect class="spans" dx="-7" y="30" height="260" width="10" style="fill: yellow; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                        <title>9:00AM-5:40PM</title>
+                    </rect>
+                </a>
+            </g>
+            <g class="days" transform="translate(360,0)">
+                <a xlink:href="week-at-a-glance#friday-first" target="_parent">
+                    <rect class="spans" dx="0" y="30" height="45" width="51" style="fill: steelblue; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                        <title>9:00-10:30AM</title>
+                    </rect>
+                </a>
+                <a xlink:href="week-at-a-glance#friday-second" target="_parent">
+                    <rect class="spans" dx="0" y="75" height="10" width="51" style="fill: lightsalmon; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                        <title>10:30-10:50AM</title>
+                    </rect>
+                </a>
+                <a xlink:href="week-at-a-glance#friday-third" target="_parent">
+                    <rect class="spans" dx="0" y="90" height="30" width="51" style="fill: steelblue; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                        <title>11:00AM-12:00PM</title>
+                    </rect>
+                </a>
+                <a xlink:href="week-at-a-glance#friday-fourth" target="_parent">
+                    <rect class="spans" dx="0" y="120" height="15" width="51" style="fill: steelblue; stroke: black; stroke-width: 0.5; cursor: pointer;">
+                        <title>12:00-12:30PM</title>
+                    </rect>
+                </a>
+            </g>
+        </g>
+    </g>
+</svg>

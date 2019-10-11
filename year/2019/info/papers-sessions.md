@@ -298,11 +298,12 @@ Authors: Maoyuan Sun, Jian Zhao, Hao Wu, Kurt Luther, Chris North, Naren Ramakri
 **[S] Accelerated Monte Carlo Rendering of Finite-Time Lyapunov Exponents (J)**  
 Authors: Irene Baeza Rojo, Markus Gross, Tobias Günther
 
+**[S] Detection and Visualization of Splat and Antisplat Events in Turbulent Flows (T)**  
+Authors: Baldwin Nsonga, Martin Niemann, Jochen Fröhlich, Joachim Staib, Stefan Gumhold, Gerik Scheuermann
+
 **[S] Analysis of the Near-Wall Flow in a Turbine Cascade by Splat Visualization (J)**  
 Authors: Baldwin Nsonga, Gerik Scheuermann, Stefan Gumhold, Jordi Ventosa-Molina, Denis Koschichow, Jochen Fröhlich
 
-**[S] Detection and Visualization of Splat and Antisplat Events in Turbulent Flows (T)**  
-Authors: Baldwin Nsonga, Martin Niemann, Jochen Fröhlich, Joachim Staib, Stefan Gumhold, Gerik Scheuermann
 
 **[S] Extreme-Scale Stochastic Particle Tracing for Uncertain Unsteady Flow Visualization and Analysis (T)**  
 Authors: Hanqi Guo, Wenbin He, Sangmin Seo, Han-Wei Shen, Emil Mihai Constantinescu, Chunhui Liu, Tom Peterka
