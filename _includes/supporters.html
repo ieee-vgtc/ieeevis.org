@@ -15,7 +15,7 @@
                             <a href="{{ supporter.url }}" target="_blank">
                                 <img class="mr-8 mb-10 supporter__logo {% if category.image_size %} supporter__logo--custom {% endif %}"
                                      width="{% if category.image_size %} {{category.image_size}} {% endif %}"
-                                     src="{{ supporter.image }}"
+                                     src="{{ supporter.image | relative_url }}"
                                      alt="{{ supporter.name }}">
                             </a>
                         {% endfor %}

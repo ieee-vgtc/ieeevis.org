@@ -2,14 +2,14 @@
     <div class="flex flex-col md:flex-row pt-6 md:pt-10">
         <div class="flex flex-col md:w-1/3 md:mr-2">
             <a class="photogrid" href="{{include.url1}}">
-                <img class="photogrid__img" src="{{ include.src1 }}" alt="{{ include.alt1 }}">
+                <img class="photogrid__img" src="{{ include.src1 | relative_url }}" alt="{{ include.alt1 }}">
                 <div class="photogrid__overlay">
                     <span class="photogrid__caption">{{ include.alt1 }}</span>
                 </div>
             </a>
 
             <a class="photogrid" href="{{include.url2}}">
-                <img class="photogrid__img photogrid__img--tall" src="{{ include.src2 }}" alt="{{ include.alt2 }}">
+                <img class="photogrid__img photogrid__img--tall" src="{{ include.src2 | relative_url }}" alt="{{ include.alt2 }}">
                 <div class="photogrid__overlay">
                     <span class="photogrid__caption">{{ include.alt2 }}</span>
                 </div>
@@ -18,14 +18,14 @@
 
         <div class="flex flex-col md:w-1/3 md:mx-2">
             <a class="photogrid" href="{{include.url3}}">
-                <img class="photogrid__img photogrid__img--tall" src="{{ include.src3 }}" alt="{{ include.alt3 }}">
+                <img class="photogrid__img photogrid__img--tall" src="{{ include.src3 | relative_url }}" alt="{{ include.alt3 }}">
                 <div class="photogrid__overlay">
                     <span class="photogrid__caption">{{ include.alt3 }}</span>
                 </div>
             </a>
 
             <a class="photogrid" href="{{include.url4}}">
-                <img class="photogrid__img" src="{{ include.src4 }}" alt="{{ include.alt4 }}">
+                <img class="photogrid__img" src="{{ include.src4 | relative_url }}" alt="{{ include.alt4 }}">
                 <div class="photogrid__overlay">
                     <span class="photogrid__caption">{{ include.alt4 }}</span>
                 </div>
@@ -34,14 +34,14 @@
 
         <div class="flex flex-col md:w-1/3 md:ml-2">
             <a class="photogrid" href="{{include.url5}}">
-                <img class="photogrid__img" src="{{ include.src5 }}" alt="{{ include.alt5 }}">
+                <img class="photogrid__img" src="{{ include.src5 | relative_url }}" alt="{{ include.alt5 }}">
                 <div class="photogrid__overlay">
                     <span class="photogrid__caption">{{ include.alt5 }}</span>
                 </div>
             </a>
 
             <a class="photogrid" href="{{include.url4}}">
-                <img class="photogrid__img photogrid__img--tall" src="{{ include.src6 }}" alt="{{ include.alt6 }}">
+                <img class="photogrid__img photogrid__img--tall" src="{{ include.src6 | relative_url }}" alt="{{ include.alt6 }}">
                 <div class="photogrid__overlay">
                     <span class="photogrid__caption">{{ include.alt6 }}</span>
                 </div>
