@@ -21,7 +21,23 @@ Sunday, October 20: 4:10-5:40PM in Room 15
 
 Organizers: Andy Wilson (Sandia National Laboratories, Albuquerque, New Mexico, USA)   
 
+Air and sea transport are critical parts of worldwide business and commerce. Data about airplane and ship
+movement are plentiful. With trillions of dollars in play, even small improvements and insights can
+make a big difference in practice. Visual analysis helps us identify patterns of behavior, inform decisions
+about routing and scheduling, and infer external influences upon the vehicles in motion.
 
+Analysis of air and maritime traffic is influenced by a few major factors that distinguish it from other types of
+trajectory data:
+1. Aircraft and ships have greater freedom of motion than automobiles and trains, which are limited to
+roads and railroad tracks.
+2. Behavior is determined by a combination of convention, external management, and responses to local,
+exigent circumstances like weather.
+3. Data coverage and quality vary widely depending on geography and sensor type.
+
+In our session, we will discuss the synergy between algorithms and visualization that arises while analyzing
+air and sea trajectory data. We will survey the current state of the art in addressing these challenges including
+work from computational geometry, machine learning and visual analytics, and demonstrate applications that
+address real-world needs.
 
 ## Visualization Software Development for Researchers and End Users - from general issues to specific challenges for medical applications  
 
