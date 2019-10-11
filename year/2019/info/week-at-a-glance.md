@@ -168,7 +168,7 @@ permalink: /year/2019/info/week-at-a-glance
 * Application Spotlight: Visualization Enabled Scientific Discovery (location: Room 2+3)
 * Supporters Presentations (location: Room 8+15)
 
-*6:30-9:00PM*
+<a name="tuesday-sixth">*6:30-9:00PM*</a>
 * [VIS Arts Program Opening Event](https://visap.net/program.html#exhibition) (location: South Foyer)
 
 <hr/>
