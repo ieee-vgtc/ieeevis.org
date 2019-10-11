@@ -49,24 +49,10 @@ em {
 
 /* Links */
 
-
-/* .link,
-a:not(.button) {
-    @apply text-primary;
-    border-bottom: 1px dashed;
-} */
-
 .link, .content a:not(.button) {
     @apply text-primary;
     border-bottom: 1px dashed;
 }
-
-
-/* .link:hover,
-a:not(.button):hover {
-    @apply text-primary-600;
-    transition: color 200ms;
-} */
 
 .link:hover, .content a:hover:not(.button) {
     @apply text-primary-600;
@@ -86,18 +72,12 @@ a.link--arrow::after {
     content: "→";
 }
 
+
 /* Markdown styles */
 
 p {
     @apply mb-4;
 }
-
-/* Apply to content only #/
-/#
-ul {
-    @apply ml-8;
-}
-*/
 
 .content h1,
 .content h2,
@@ -105,7 +85,17 @@ ul {
 .content h4,
 .content h5,
 .content h6 {
-    @apply mt-10;
+    @apply mt-8;
+}
+
+/* Remove top margins from very first heading in content areas */
+.content h1:first-child,
+.content h2:first-child,
+.content h3:first-child,
+.content h4:first-child,
+.content h5:first-child,
+.content h6:first-child {
+    @apply mt-0;
 }
 
 
