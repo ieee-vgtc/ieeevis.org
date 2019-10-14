@@ -204,7 +204,7 @@ permalink: /year/2019/info/week-at-a-glance
 *12:20-2:20PM*
 
 * Lunch Break 
-* Open Discussion: Restructuring IEEE VIS for the Future (location: Ballroom A)
+* Open Discussion 1-2pm: Restructuring IEEE VIS for the Future (location: Ballroom A)
 
 <a name="wednesday-third">*2:20-3:50PM*</a>
 
