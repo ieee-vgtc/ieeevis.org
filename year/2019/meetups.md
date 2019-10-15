@@ -28,8 +28,7 @@ permalink: /year/2019/info/meetups
 
 Sunday, October 20    
 12:20PM - 2:20PM    
-Location: Room 14
-
+Location: Room 14    
 Organizers:  Wouter Meulemans, Daniel Archambault    
 Contact: [w.meulemans@tue.nl](mailto:w.meulemans@tue.nl) 	
 
@@ -41,8 +40,7 @@ The primary idea of this meetup is to gather set-visualization enthusiasts to co
 
 Monday, October 21    
 4:00PM - 4:30PM    
-Location:  Room 16 (VisKids Room)
-
+Location: Room 16 (VisKids Room)    
 Organizers: Michelle Borkin, Kelly Gaither, and Arvind Satyanarayan    
 Contact: [m.borkin@northeastern.edu](mailto:m.borkin@northeastern.edu)   
 
@@ -56,8 +54,7 @@ VISKids has provided child care grants to VIS conference attendees since 2015.  
 
 Monday, October 21    
 6:30 PM - 8:30 PM    
-Location: Microsoft Vancouver, 7th Floor, 725 Granville Street
-
+Location: Microsoft Vancouver, 7th Floor, 725 Granville Street    
 Organizers: Jason Vantomme, Cydney Nielsen    
 Contact: [jason.vantomme@microsoft.com](mailto:jason.vantomme@microsoft.com), [cydney.nielsen@microsoft.com](mailto:cydney.nielsen@microsoft.com)
 
@@ -92,8 +89,7 @@ Please register [here!](https://docs.google.com/forms/d/e/1FAIpQLScSpQ1g2N1_OXjx
 
 Monday, October 21    
 7:00 PM - 9:00 PM
-Location: BrainStation, 455 Granville St #400 · Vancouver, BC (walking distance from the convention centre)
-
+Location: BrainStation, 455 Granville St #400 · Vancouver, BC (walking distance from the convention centre)    
 Organizers: Johanna Fulda   
 Contact: [j.fulda@gmx.de](mailto:j.fulda@gmx.de)
 
@@ -116,9 +112,7 @@ It's a great venue - and super conveniently close to the Convention Center, wher
 
 Tuesday, October 22    
 12:50PM - 2:20PM    
-Location: Room 1
-
-
+Location: Room 1    
 Organizers: Jessica Hullman, Jaegul Choo, and Weiwei Cui    
 Contact: [community@ieeevis.org](mailto:community@ieeevis.org)  
 
@@ -134,8 +128,7 @@ For more activities outside of the Newcomers Meetup, or if you are unable to att
 
 Tuesday, October 22    
 12:45PM - 2:20PM    
-Location: Room 16 (VisKids Room)
-
+Location: Room 16 (VisKids Room)    
 Organizers: Michelle Borkin, Kelly Gaither, and Arvind Satyanarayan   
 Contact: [m.borkin@northeastern.edu](mailto:m.borkin@northeastern.edu)  
 
@@ -163,8 +156,7 @@ For more information about VisLies, you can visit our website at [http://vislies
 
 Tuesday, October 22    
 12:30PM - 2:20PM    
-Location: Room 4
-
+Location: Room 4    
 Organizers: Kevin Allain    
 Contact: [kevin.allain@city.ac.uk](mailto:kevin.allain@city.ac.uk)
 
@@ -181,8 +173,7 @@ Climbing centres have walls paths designed for beginners as well as more challen
 
 Tuesday, October 22    
 4:10PM - 5:40PM    
-Location: Room 14
-
+Location: Room 14    
 Organizers: Lonni Besançon, André Calero Valdez, Fanny Chevalier, Michael Correll, Cody Dunne, Nils Gehlenborg, Lane Harrison, Steve Haroz, Jessica Hullman, Matthew Kay, Alvitta Ottley, Lace Padilla, Charles Perin, Arvind Satyanarayan, James Scott-Brown    
 Contact: [steve.haroz@gmail.com](mailt:steve.haroz@gmail.com)
 
@@ -203,8 +194,7 @@ Let’s discuss the many issues involved in learning a new approach to research 
 
 Tuesday, October 22   
 6:00PM - 8:00PM   
-Location: Room 2+3
-
+Location: Room 2+3    
 Organizers: Kristi Potter and Remco Chang   
 Contact: [kristi.potter@nrel.gov](mailto:kristi.potter@nrel.gov)   
 
@@ -301,7 +291,3 @@ Contact: [diehl@ifi.uzh.ch](mailto:diehl@ifi.uzh.ch)
 
 
 There has been a long journey since 1991, the time of the first visualization symposium, until today. Since then, the VIS community has grown up in different ways. In this meetup, we would like to learn and share information and experiences about how this community developed in terms of diversity. We also would like to share useful resources and information to promote diversity in the visualization and scientific environment, exploring current challenges, and potential actions to increase diversity. In a previous meetup, at VIS in 2017, we addressed career paths for women in the visualization field. Now, we want to expand the scope of this meetup to other kinds of diversity including gender, but also geography, scientific background, age, and ethnicity. Our main goal is to wrap-up the history of diversity in VIS from its beginning until today. As a second goal, we would like to give the opportunity to the participants to share common experiences, to learn more about useful resources, and support and endorsement programs. The meetup is considered to accompany other activities and initiatives currently undertaking by the VIS conference to increase diversity. We hope that participants will get to know each other better, to share good advice in terms of reducing the ties, and to increase the heterogeneity of our VIS scientific community. If you would like to actively contribute to the meetup program to share your personal experiences, please let the organizers know.
-
-
-
-
