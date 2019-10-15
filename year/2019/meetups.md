@@ -76,10 +76,10 @@ You must register on Eventbrite to receive a free ticket. [Link on eventbrite](h
 
 Monday, October 21    
 7:00 PM    
-Location: Ballroom C (meeting point)
-
+Location: Ballroom C (meeting point)    
 Organizers: Daniel Archambault, Andreas Kerren    
-Contact: [d.w.archambault@swansea.ac.uk](mailto:d.w.archambault@swansea.ac.uk)
+Contact: [d.w.archambault@swansea.ac.uk](mailto:d.w.archambault@swansea.ac.uk)    
+[Video Preview](https://vimeo.com/362329372)
 
 Tired of bad food? Didn’t have something local when attending the conference and regretted it? Want the good scientific discussions to continue around a local specialty of the area?
 This meetup is designed to take participants to a restaurant serving good food that is a local specialty of the area. We aim for an accessible price so that anyone can attend.  People can sign up (see below) on a first come first served basis.  The audience should bring an interesting scientific topic to discuss at dinner. An appetite for local cuisine is also highly recommended.
@@ -147,10 +147,10 @@ Whether you are a new parent, expectant parent, experienced wise parent, or cons
 
 Tuesday, October 22    
 12:30PM - 2:20PM    
-Location: Room 8+15
-
+Location: Room 8+15    
 Organizer: Kenneth Moreland and Bernice Rogowitz    
-Contact: [kmorel@sandia.gov](mailto:kmorel@sandia.gov), [bernice.e.rogowitz@gmail.com](mailto:bernice.e.rogowitz@gmail.com)
+Contact: [kmorel@sandia.gov](mailto:kmorel@sandia.gov), [bernice.e.rogowitz@gmail.com](mailto:bernice.e.rogowitz@gmail.com)    
+[Video Preview](https://vimeo.com/362329510)
 
 
 VisLies! is a yearly event at IEEE VIS. This fun and engaging evening session showcases examples of egregious perceptual, cognitive, and conceptual errors in visualization, presented by members of the Vis community. Examples from our own work, from published papers, and from the internet highlight the many ways the visual representation can misrepresent the underlying phenomena in the data. This is a great opportunity for amusement and for learning, and every year we walk away with a smile on our faces and ​insights that may one day save the world.
@@ -218,10 +218,11 @@ The goal of this meetup is to provide a safe environment for junior Vis research
 
 Wednesday, October 23    
 2:20PM - 3:50PM    
-Location: Exhibit Hall A
-
+Location: Exhibit Hall A    
 Organizers: Jessica Hullman, Jaegul Choo, and Weiwei Cui    
-Contact: [community@ieeevis.org](mailto:community@ieeevis.org)	
+Contact: [community@ieeevis.org](mailto:community@ieeevis.org)    
+[Video Preview](https://vimeo.com/362329572)
+
 
 As a complement to the <b>Asynchronous Job Fair</b>, we are organizing a job “speed-dating” meetup. Its goal is to bring together job seekers and employers in one venue to trade CV and employment information. Both job seekers and employers should attend with the expectation to be prepared with “low-tech” information, such as paper and flyers to exchange. If you are an interested job seeker, please bring your contact information to share, such as printed CVs, email addresses on notecards or business cards, for example. Likewise for employers, please be prepared with business cards, brochures, and other paper-based information.
 
@@ -280,10 +281,10 @@ The MeetUp is essential for sign-in, preparation and a ride briefing. It’s als
 
 Thursday, October 24    
 4:10 PM - 5:40 PM    
-Location: Room 13
-
+Location: Room 13    
 Organizers: Timo Ropinski    
-Contact: [timo.ropinski@uni-ulm.de](mailto:timo.ropinski@uni-ulm.de)   
+Contact: [timo.ropinski@uni-ulm.de](mailto:timo.ropinski@uni-ulm.de)    
+[Video Preview](https://vimeo.com/362329638)
 
 During the meetup users and developers of the Inviwo visualization framework (www.inviwo.org) will meet and discuss latest developments.
 
@@ -293,10 +294,11 @@ During the meetup users and developers of the Inviwo visualization framework (ww
 
 Thursday, October 24    
 4:10 PM - 5:40 PM    
-Location: Room 14
-
+Location: Room 14    
 Organizer: Alexandra Diehl, Johanna Schmidt, Renato Pajarola    
-Contact: [diehl@ifi.uzh.ch](mailto:diehl@ifi.uzh.ch)
+Contact: [diehl@ifi.uzh.ch](mailto:diehl@ifi.uzh.ch)    
+[Video Preview](https://vimeo.com/362329439)
+
 
 There has been a long journey since 1991, the time of the first visualization symposium, until today. Since then, the VIS community has grown up in different ways. In this meetup, we would like to learn and share information and experiences about how this community developed in terms of diversity. We also would like to share useful resources and information to promote diversity in the visualization and scientific environment, exploring current challenges, and potential actions to increase diversity. In a previous meetup, at VIS in 2017, we addressed career paths for women in the visualization field. Now, we want to expand the scope of this meetup to other kinds of diversity including gender, but also geography, scientific background, age, and ethnicity. Our main goal is to wrap-up the history of diversity in VIS from its beginning until today. As a second goal, we would like to give the opportunity to the participants to share common experiences, to learn more about useful resources, and support and endorsement programs. The meetup is considered to accompany other activities and initiatives currently undertaking by the VIS conference to increase diversity. We hope that participants will get to know each other better, to share good advice in terms of reducing the ties, and to increase the heterogeneity of our VIS scientific community. If you would like to actively contribute to the meetup program to share your personal experiences, please let the organizers know.
 
