@@ -6,3 +6,4 @@ scripts/*.pyc
 /files
 data/autogen/
 *.swp
+node_modules
