@@ -16,12 +16,14 @@ This year’s awardees are:
 **Visual Analytics of Student Learning Behaviors on K-12 Mathematics E-learning Platforms**
 <br/>
 Meng Xia, Mr Huan Wei, Min XU, Leo Yu Ho Lo, Yong Wang, Rong Zhang, Huamin Qu
+<br>[Video Preview](https://vimeo.com/361165889)
 
 ### Honorable Mention
 
 **Visual Analytics for Integrated Evolution of Physical and Cyber-Events: A Case of the World Cup in Social Media**
 <br/>
 Siming Chen, Xing Gao, Jie Li, Gennady Andrienko, Natalia Andrienko
+<br>[Video Preview](https://vimeo.com/361162892)
 
 ## InfoVis
 
@@ -30,20 +32,24 @@ Siming Chen, Xing Gao, Jie Li, Gennady Andrienko, Natalia Andrienko
 **Exploring Cheat Sheets for Data Visualization Techniques**
 <br/>
 Zezhong Wang, Lovisa Sundin, Dave Murray-Rust, Benjamin Bach
+<br>[Video Preview](https://vimeo.com/361160398)
 
 ### Honorable Mentions
 
 **A Qualitative Assessment of Basic Perceptual Tasks Employed While Reading Common Data Visualizations**
 <br/>
 Caitlyn McColeman, Enrico Bertini, Steven Franconeri
+<br>[Video Preview](https://vimeo.com/361165993)
 
 **Automatic Annotation of Visualizations**
 <br/>
 Chufan Lai, Zhixian Lin, Can Liu, Yun Han, Ruike Jiang, Xiaoru Yuan 
+<br>[Video Preview](https://vimeo.com/361162531)
 
 **Arctic Explorer: Visualization of Sea-Ice Concentration along Arctic Shipping Routes**
 <br/>
 Dylan Wootton, Ethan Ransom, Alexander Lex
+<br>[Video Preview](https://vimeo.com/361165729)
 
 ## SciVis
 
@@ -52,6 +58,7 @@ Dylan Wootton, Ethan Ransom, Alexander Lex
 **Linked View Visualization Using Clipboard-Style Mobile VR: Application to Communicating Forestry Data**
 <br/>
 Jung Who Nam, Charles Hobie Perry, Barry Ty Wilson, Daniel F. Keefe 
+<br>[Video Preview](https://vimeo.com/361162150)
 
 ## Best Poster Presentation Award
 - to be announced
