@@ -143,7 +143,13 @@ permalink: /year/2019/info/week-at-a-glance
 
 * Lunch Break 
 
-<a name="tuesday-fourth">*2:35-3:50PM*</a>
+<a name="tuesday-fourth">*2:20-2:35PM*</a>
+
+* [VAST Opening](/year/2019/info/papers-sessions#vasttour) (location: Ballroom A)
+* [InfoVis Opening](/year/2019/info/papers-sessions#provocations) (location: Ballroom B)
+* [SciVis Opening](/year/2019/info/papers-sessions#scalartopology) (location: Ballroom C)
+
+*2:35-3:50PM*
 
 * [A Tour of VAST](/year/2019/info/papers-sessions#vasttour) (location: Ballroom A)
 * [Provocations](/year/2019/info/papers-sessions#provocations) (location: Ballroom B)
