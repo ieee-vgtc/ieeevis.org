@@ -28,7 +28,7 @@ permalink: /year/2019/info/meetups
 
 Sunday, October 20    
 12:20PM - 2:20PM    
-Location: Room 14    
+Location: Room 13    
 Organizers:  Wouter Meulemans, Daniel Archambault    
 Contact: [w.meulemans@tue.nl](mailto:w.meulemans@tue.nl) 	
 
@@ -173,7 +173,7 @@ Climbing centres have walls paths designed for beginners as well as more challen
 
 Tuesday, October 22    
 4:10PM - 5:40PM    
-Location: Room 14    
+Location: Room 13    
 Organizers: Lonni Besançon, André Calero Valdez, Fanny Chevalier, Michael Correll, Cody Dunne, Nils Gehlenborg, Lane Harrison, Steve Haroz, Jessica Hullman, Matthew Kay, Alvitta Ottley, Lace Padilla, Charles Perin, Arvind Satyanarayan, James Scott-Brown    
 Contact: [steve.haroz@gmail.com](mailt:steve.haroz@gmail.com)
 
@@ -222,7 +222,7 @@ As a complement to the <b>Asynchronous Job Fair</b>, we are organizing a job “
 
 Wednesday, October 23    
 2:20PM - 3:50PM    
-Location: Room 14
+Location: Room 13
 
 Organizers: Cagatay Turkay    
 Contact: [cagatay.turkay@city.ac.uk](mailto:cagatay.turkay@city.ac.uk)
