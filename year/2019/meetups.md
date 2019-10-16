@@ -6,6 +6,7 @@ permalink: /year/2019/info/meetups
 
 
 * [SetVA - Workshop follow-up](#set-va) (Sunday)
+* [TTK - Developers](#ttk) (Sunday)
 * [VISKids Hello](#vis-kids) (Monday)
 * [Data Visualization with AR/VR](#ar-vr) (Monday)
 * [Good Food Meets Good Science](#food) (Monday)
@@ -33,6 +34,19 @@ Organizers:  Wouter Meulemans, Daniel Archambault
 Contact: [w.meulemans@tue.nl](mailto:w.meulemans@tue.nl) 	
 
 The primary idea of this meetup is to gather set-visualization enthusiasts to continue the discussions and ideas from the SetVA workshop in an informal setting.
+
+||
+
+## <a name="ttk"></a> TTK - Developer Meetup!
+
+Sunday, October 20    
+4:10PM - 5:40PM    
+Location: Room 13    
+Organizers: Jonas Lukasczyk    
+Contact: [jl@jluk.de ](mailto:jl@jluk.de ) 	
+
+
+During the meetup users and developers of the Topology ToolKit (https://topology-tool-kit.github.io/) will discuss latest developments. 
 
 ||
 
@@ -222,8 +236,7 @@ As a complement to the <b>Asynchronous Job Fair</b>, we are organizing a job “
 
 Wednesday, October 23    
 2:20PM - 3:50PM    
-Location: Room 13
-
+Location: Room 13    
 Organizers: Cagatay Turkay    
 Contact: [cagatay.turkay@city.ac.uk](mailto:cagatay.turkay@city.ac.uk)
 
@@ -232,12 +245,10 @@ VIS now has an Open Practices agenda and recruited Open Practices Chairs to help
 | |
 
 ## <a name="inclusion"></a> Building an Inclusive VIS Community
-Building an Inclusive VIS Community
 
 Wednesday, October 23    
 4:10PM - 5:10PM    
-Location: Room 14
-
+Location: Room 14    
 Organizers: Michelle Borkin, Kelly Gaither, and Arvind Satyanarayan    
 Contact: Michelle Borkin (m.borkin@northeastern.edu)
 
@@ -250,10 +261,10 @@ Diversity of perspective is the key to innovation, but ensuring equal access req
 
 Thursday, October 24    
 12:30 PM - 2:20 PM    
-Location: Room 14
-
+Location: Room 14    
 Organizers: Jason Dykes    
 Contact: [veloclubdevis@gmail.com](mailto:veloclubdevis@gmail.com)   
+[Video Preview](https://vimeo.com/365443034)
 
 A chance for VIS cyclists to get together and 
 * prepare for our Saturday Ride - Le Tour de VIS 
