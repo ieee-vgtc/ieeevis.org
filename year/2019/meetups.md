@@ -20,9 +20,9 @@ permalink: /year/2019/info/meetups
 * [VIS Job-fair](#vis-jobfair) (Wednesday)
 * [Open Practices at VIS: journey so far and moving forward](#open-practices) (Wednesday)
 * [Building an Inclusive VIS Community](#inclusion) (Wednesday)
-* [Velo Club de Vis](#velo-club) (Thursday)
 * [Inviwo](#inviwo) (Thursday)
 * [Viewpoints on Diversity through the VIS history](#viewpoints) (Thursday)
+* [Velo Club de Vis](#velo-club) (Thursday)
 
 
 ## <a name="set-va"></a> SetVA Workshop - Meetup!
@@ -255,26 +255,6 @@ Contact: Michelle Borkin (m.borkin@northeastern.edu)
 Diversity of perspective is the key to innovation, but ensuring equal access requires concrete action. To this end, the members of the IEEE VIS 2019 Inclusivity & Diversity Committee invite you to this community forum to connect, share your experiences, and explore what it means to build an inclusive VIS community. (To learn more about Inclusivity & Diversity at VIS and its current initiatives, please visit:
 [http://ieeevis.org/year/2019/info/inclusion-and-diversity/inclusivity](http://ieeevis.org/year/2019/info/inclusion-and-diversity/inclusivity))
 
-| |
-
-## <a name="velo-club"></a> Velo Club de Vis
-
-Thursday, October 24    
-12:30 PM - 2:20 PM    
-Location: Room 14    
-Organizers: Jason Dykes    
-Contact: [veloclubdevis@gmail.com](mailto:veloclubdevis@gmail.com)   
-[Video Preview](https://vimeo.com/365443034)
-
-A chance for VIS cyclists to get together and 
-* prepare for our Saturday Ride - Le Tour de VIS 
-* arrange a Friday ride in Vancouver 
-* chat about cycling!
-
-
-A chance for VIS cyclists to discuss cycling and to prepare and sign in for Le Tour de VIS  - the IEEE VIS post-conference road ride. [https://www.gicentre.net/velo-club-rides/](https://www.gicentre.net/velo-club-rides/)
-
-The MeetUp is essential for sign-in, preparation and a ride briefing. It’s also a good place to meet VIS cyclists and chat about bikes.
 
 | |
 
@@ -302,3 +282,24 @@ Contact: [diehl@ifi.uzh.ch](mailto:diehl@ifi.uzh.ch)
 
 
 There has been a long journey since 1991, the time of the first visualization symposium, until today. Since then, the VIS community has grown up in different ways. In this meetup, we would like to learn and share information and experiences about how this community developed in terms of diversity. We also would like to share useful resources and information to promote diversity in the visualization and scientific environment, exploring current challenges, and potential actions to increase diversity. In a previous meetup, at VIS in 2017, we addressed career paths for women in the visualization field. Now, we want to expand the scope of this meetup to other kinds of diversity including gender, but also geography, scientific background, age, and ethnicity. Our main goal is to wrap-up the history of diversity in VIS from its beginning until today. As a second goal, we would like to give the opportunity to the participants to share common experiences, to learn more about useful resources, and support and endorsement programs. The meetup is considered to accompany other activities and initiatives currently undertaking by the VIS conference to increase diversity. We hope that participants will get to know each other better, to share good advice in terms of reducing the ties, and to increase the heterogeneity of our VIS scientific community. If you would like to actively contribute to the meetup program to share your personal experiences, please let the organizers know.
+
+| |
+
+## <a name="velo-club"></a> Velo Club de Vis
+
+Thursday, October 24    
+5:45 PM - 6:45 PM    
+Location: Room 13    
+Organizers: Jason Dykes    
+Contact: [veloclubdevis@gmail.com](mailto:veloclubdevis@gmail.com)   
+[Video Preview](https://vimeo.com/365443034)
+
+A chance for VIS cyclists to get together and 
+* prepare for our Saturday Ride - Le Tour de VIS 
+* arrange a Friday ride in Vancouver 
+* chat about cycling!
+
+
+A chance for VIS cyclists to discuss cycling and to prepare and sign in for Le Tour de VIS  - the IEEE VIS post-conference road ride. [https://www.gicentre.net/velo-club-rides/](https://www.gicentre.net/velo-club-rides/)
+
+The MeetUp is essential for sign-in, preparation and a ride briefing. It’s also a good place to meet VIS cyclists and chat about bikes.
