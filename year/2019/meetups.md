@@ -6,6 +6,7 @@ permalink: /year/2019/info/meetups
 
 
 * [SetVA - Workshop follow-up](#set-va) (Sunday)
+* [TTK - Developers](#ttk) (Sunday)
 * [VISKids Hello](#vis-kids) (Monday)
 * [Data Visualization with AR/VR](#ar-vr) (Monday)
 * [Good Food Meets Good Science](#food) (Monday)
@@ -28,11 +29,24 @@ permalink: /year/2019/info/meetups
 
 Sunday, October 20    
 12:20PM - 2:20PM    
-Location: Room 14    
+Location: Room 13    
 Organizers:  Wouter Meulemans, Daniel Archambault    
 Contact: [w.meulemans@tue.nl](mailto:w.meulemans@tue.nl) 	
 
 The primary idea of this meetup is to gather set-visualization enthusiasts to continue the discussions and ideas from the SetVA workshop in an informal setting.
+
+||
+
+## <a name="ttk"></a> TTK - Developer Meetup!
+
+Sunday, October 20    
+4:10PM - 5:40PM    
+Location: Room 13    
+Organizers: Jonas Lukasczyk    
+Contact: [jl@jluk.de ](mailto:jl@jluk.de ) 	
+
+
+During the meetup users and developers of the Topology ToolKit (https://topology-tool-kit.github.io/) will discuss latest developments. 
 
 ||
 
@@ -173,7 +187,7 @@ Climbing centres have walls paths designed for beginners as well as more challen
 
 Tuesday, October 22    
 4:10PM - 5:40PM    
-Location: Room 14    
+Location: Room 13    
 Organizers: Lonni Besançon, André Calero Valdez, Fanny Chevalier, Michael Correll, Cody Dunne, Nils Gehlenborg, Lane Harrison, Steve Haroz, Jessica Hullman, Matthew Kay, Alvitta Ottley, Lace Padilla, Charles Perin, Arvind Satyanarayan, James Scott-Brown    
 Contact: [steve.haroz@gmail.com](mailt:steve.haroz@gmail.com)
 
@@ -222,7 +236,7 @@ As a complement to the <b>Asynchronous Job Fair</b>, we are organizing a job “
 
 Wednesday, October 23    
 2:20PM - 3:50PM    
-Location: Room 14
+Location: Room 13
 
 Organizers: Cagatay Turkay    
 Contact: [cagatay.turkay@city.ac.uk](mailto:cagatay.turkay@city.ac.uk)
