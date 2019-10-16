@@ -3,7 +3,7 @@ title: IEEE VIS
 email: web@ieeevis.org
 description: > # this means to ignore newlines until "baseurl:"
   Website for IEEE VIS.
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/year/2019/" # the subpath of your site, e.g. /blog/
 url: "http://ieeevis.org" # the base hostname & protocol for your site
 year: 2019
 

@@ -48,5 +48,8 @@ staging-clean:
 production-clean:
 	aws s3 rm s3://$(PRODUCTION_BUCKET)/ --recursive
 
+new-clean:
+	aws s3 rm s3://$(NEW_BUCKET)/ --recursive
+
 autogen-clean:
 	rm data/autogen/*
