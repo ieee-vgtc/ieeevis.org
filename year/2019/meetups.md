@@ -231,7 +231,6 @@ VIS now has an Open Practices agenda and recruited Open Practices Chairs to help
 | |
 
 ## <a name="inclusion"></a> Building an Inclusive VIS Community
-Building an Inclusive VIS Community
 
 Wednesday, October 23    
 4:10PM - 5:10PM    
