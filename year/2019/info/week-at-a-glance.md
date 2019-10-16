@@ -63,7 +63,7 @@ permalink: /year/2019/info/week-at-a-glance
 
 <a name="sunday-fourth">*7:00-9:00PM*</a>
 
-* Opening Reception (location: TBA)
+* Opening Reception (location: Exhibition Hall A)
 
 <hr/>
 
@@ -238,7 +238,7 @@ permalink: /year/2019/info/week-at-a-glance
 
 <a name="wednesday-sixth">*7:00-9:00PM*</a>
 
-* VIS Dinner Reception (location: TBA)
+* VIS Dinner Reception (location: Ballroom ABC)
 
 <hr/>
 
