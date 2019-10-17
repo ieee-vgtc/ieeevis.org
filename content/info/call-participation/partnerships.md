@@ -1,7 +1,6 @@
 ---
 title: Partnerships
 layout: page
-sidebar: call-for-participation
 permalink: /info/call-participation/partnerships
 ---
 
