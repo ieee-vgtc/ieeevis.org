@@ -25,7 +25,11 @@ production: site
 staging: site
 	cd _site && ../scripts/sync_with_s3_boto.py $(STAGING_BRANCH) $(STAGING_BUCKET)
 
-new: 
+stagingnew: newsite
+	cd _site && ../scripts/sync_with_s3_boto.py $(NEW_BRANCH) $(STAGING_BUCKET)
+
+
+new: newsite
 	cd _site && ../scripts/sync_with_s3_boto.py $(NEW_BRANCH) $(NEW_BUCKET)
 
 check: check-bad-links check-permalink-paths check-content-expiration
