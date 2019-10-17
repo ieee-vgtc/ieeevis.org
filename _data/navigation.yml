@@ -31,7 +31,7 @@ menu:
       - subsections:
           - heading: "Attending VIS 2019"
             # heading_url: "https://www.google.com"
-            description: "TK TK TK Why attend this premier forum for advances in visualization"
+            description: "Join us at the Vancouver Convention Centre East!"
             columns:
               - heading: "Attend"
                 links:
@@ -43,7 +43,7 @@ menu:
                   #   url: "https://www.google.com"
               - heading: "Travel"
                 links:
-                  - text: "Accomodations"
+                  - text: "Accommodation"
                     url: "/year/2019/info/registration/hotel-information"
                   - text: "Visa & Travel"
                     url: "/year/2019/info/registration/travel-visas"
@@ -60,14 +60,14 @@ menu:
             columns:
               - links:
                 - text: "Inclusivity & Diversity Scholarship"
-                  description: "TK TK TK Offering need-based scholarships for conference attendance"
+                  description: "Need-based scholarships for conference attendance"
                   url: "/year/2019/info/inclusion-and-diversity/diversity-scholarship"
-                - text: "VisKids Childcare Grants"
-                  description: "TK TK TK Grants to support our VISKids and young families"
-                  url: "/year/2019/info/inclusion-and-diversity/viskids-child-care-grants"
-                - text: "VisKids"
-                  description: "TK TK TK Space provided for discussions, play, and personal considerations"
+                - text: "VISKids"
+                  description: "Childcare and activities open to everyone"
                   url: "/year/2019/info/inclusion-and-diversity/viskids-event"
+                - text: "VISKids Childcare Grants"
+                  description: "Supporting our VISKids and young families"
+                  url: "/year/2019/info/inclusion-and-diversity/viskids-child-care-grants"
 
 
   - dropdown: "Contribute"
@@ -112,7 +112,7 @@ menu:
             columns:
               - links:
                 - text: "Organize a meetup"
-                  description: "Meet people, discuss topics, and share experiences"
+                  description: "Meet people for discussion and shared experiences"
                   url: "/year/2019/info/call-participation/meetups"
                 - text: "Become a student volunteer"
                   description: "Support the conference, build your research network, and get a discount"
@@ -127,7 +127,7 @@ menu:
 
           - heading: "Supporters and Exhibition"
             heading_url: "/year/2019/info/exhibition/supporters-and-exhibition"
-            description: "TK TK TK Your support makes this conference possible"
+            description: "Your support makes this conference possible"
 
 
   - dropdown: "Program"
@@ -135,23 +135,23 @@ menu:
     sections:
       - subsections:
           - heading: "Vis Program"
-            # heading_url: "https://www.google.com"
+            # heading_url: "/year/2019/info/week-at-a-glance"
             columns:
               - links:
                 - text: "Papers"
-                  description: "See the latest research in theory, methods, and applications of visualization"
+                  description: "The latest research in theory, methods, and applications of visualization"
                   url: "/year/2019/info/papers-sessions"
                 - text: "Posters"
-                  description: "Discuss new and emerging ideas"
+                  description: "Nascent and recent work"
                   url: "/year/2019/info/posters"
                 - text: "Tutorials"
                   description: "Learn new tools and application domains"
                   url: "/year/2019/info/tutorials"
                 - text: "Workshops"
-                  description: "Discuss emerging and advanced topics in an informal setting"
+                  description: "Informal setting to discuss emerging topics"
                   url: "/year/2019/info/workshops"
                 - text: "Panels"
-                  description: "Discuss important and controversial applications and issues."
+                  description: "Discuss important and controversial issues"
                   url: "/year/2019/info/panels"
                 # - text: "Doctorial Colloquium"
                 #   description: "Discuss in-progress Ph.D work with leading senior researchers"
@@ -161,8 +161,8 @@ menu:
                 #   url: "https://www.google.com"
 
       - subsections:
-          - heading: "Program Guide"
-            description: "TK TK TK Get an overview of what’s happening at VIS 2019"
+          - heading: "Plenary Sessions"
+            # description: "TK TK TK Get an overview of what’s happening at VIS 2019"
             columns:
               # - links:
               #   - text: "Download the App"
@@ -179,7 +179,7 @@ menu:
 
           - heading: "Awards and Recognitions"
             # heading_url: "https://www.google.com"
-            description: "Recognize outstanding work by the conference community"
+            description: "Recognize outstanding work by the VIS community"
             columns:
               - links:
                 - text: "Best Paper Awards"
@@ -201,38 +201,38 @@ menu:
           - heading: "Associated Events"
             columns:
               - links:
-                - text: "VIS Arts Program"
-                  description: "TK TK TK Lorem ipsum dolor sit amet, consectetur"
+                - text: "VIS Arts Program: Beyond Borders"
+                  description: "Where art, design, and research come together"
                   url: "https://visap.net/"
                   is_external: true
                 - text: "VisInPractice"
-                  description: "TK TK TK Lorem ipsum dolor sit amet, consectetur"
+                  description: "Invited talks by visualization practitioners"
                   url: "https://visinpractice.github.io/"
                   is_external: true
-                - text: "VizSec"
-                  description: "TK TK TK Lorem ipsum dolor sit amet, consectetur"
+                - text: "VizSec Symposium"
+                  description: "Visualization for Cyber Security"
                   url: "https://vizsec.org/vizsec2019/"
                   is_external: true
-                - text: "VAHC: Visual Analytics in Healthcare"
-                  description: "TK TK TK Lorem ipsum dolor sit amet, consectetur"
+                - text: "VAHC Workshop"
+                  description: "Visual Analytics for Healthcare"
                   url: "https://visualanalyticshealthcare.org/"
                   is_external: true
-                - text: "VDS: Vis in Data Science"
-                  description: "TK TK TK Lorem ipsum dolor sit amet, consectetur"
+                - text: "VDS Symposium"
+                  description: "Visualization in Data Science"
                   url: "http://www.visualdatascience.org/2019/index.html"
                   is_external: true
-                - text: "VIS4DH: Vis for the Digital Humanities"
-                  description: "TK TK TK Lorem ipsum dolor sit amet, consectetur"
+                - text: "VIS4DH Workshop"
+                  description: "Visualization for the Digital Humanities"
                   url: "http://www.vis4dh.org/"
                   is_external: true
-                - text: "LDAV: Large Data Analysis & Vis"
-                  description: "TK TK TK Lorem ipsum dolor sit amet, consectetur"
+                - text: "LDAV Symposium"
+                  description: "Big Data Analysis and Visualization"
                   url: "https://ldav.org/"
                   is_external: true
 
       - subsections:
           - heading: "Competitions"
-            description: "TK TK TK Get an overview of what’s happening at VIS 2019"
+            description: "Advancing visualization through competition"
             columns:
               - links:
                 - text: "VAST Challenge"
@@ -247,7 +247,7 @@ menu:
 
           - heading: "Community"
             heading_url: "/year/2019/info/call-participation/community"
-            description: "TK TK TK  TK Lorem ipsum dolor sit amet, consectetur"
+            description: "Explore social and topic-based community groups"
             columns:
               - heading: "Connect"
                 links:
