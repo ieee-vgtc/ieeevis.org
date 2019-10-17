@@ -4,7 +4,7 @@ layout: page
 permalink: /info/week-at-a-glance
 ---
 
-<object type="image/svg+xml" data="content/info/2019-schedule.svg" style="margin-top: 20px;"></object>
+<object type="image/svg+xml" data="/year/2019/content/info/2019-schedule.svg" style="margin-top: 20px;"></object>
 
 <a name="saturday">**Saturday, October 19**</a>
 
