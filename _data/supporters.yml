@@ -105,6 +105,10 @@
       image: /assets/supporters/maryland.png
       url: "https://www.umd.edu"
 
+    - name: "Data Visualization Society"
+      image: /assets/supporters/DVS.png
+      url: "https://www.datavisualizationsociety.com"
+
 
 - category: Other Donations
   supporters:
