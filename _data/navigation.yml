@@ -256,7 +256,7 @@ menu:
                   - text: "Vis Buddies"
                     url: "/year/2019/info/meetups#vis-newcomers"
                   - text: "Job Fair"
-                     url: "/year/2019/info/meetups#vis-jobfair"
+                    url: "/year/2019/info/meetups#vis-jobfair"
                   - text: "Other Meetups"
                     url: "/year/2019/info/meetups"
               - heading: "Social Groups"
