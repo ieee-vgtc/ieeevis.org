@@ -39,8 +39,9 @@ menu:
                     url: "/year/2019/info/registration/conference-registration"
                   # - text: "Conference Venue"
                   #   url: "https://www.google.com"
-                  # - text: "Newcomer's Guide"
-                  #   url: "https://www.google.com"
+                  - text: "Practitioner Guide"
+                    url: "https://visinpractice.github.io/guide.html"
+                    is_external: true                 
               - heading: "Travel"
                 links:
                   - text: "Accommodation"
@@ -118,9 +119,10 @@ menu:
                   description: "Support the conference, build your research network, and get a discount"
                   url: "http://vissv.org/"
                   is_external: true
-                # - text: "Become a peer reviewer"
-                #   description: "Register to review submissions"
-                #   url: "https://www.google.com"
+                - text: "Become a peer reviewer"
+                  description: "Volunteer to review submissions"
+                  url: "https://new.precisionconference.com/vgtc"
+                  is_external: true
                 # - text: "Become an organizer"
                 #   description: "TK TK TK Join the committees and help organize VIS"
                 #   url: "https://www.google.com"
@@ -153,12 +155,12 @@ menu:
                 - text: "Panels"
                   description: "Discuss important and controversial issues"
                   url: "/year/2019/info/panels"
-                # - text: "Doctorial Colloquium"
-                #   description: "Discuss in-progress Ph.D work with leading senior researchers"
-                #   url: "https://www.google.com"
-                # - text: "Application Spotlights"
-                #   description: "Showcase practical, real-world applications of visualization"
-                #   url: "https://www.google.com"
+                - text: "Doctorial Colloquium"
+                  description: "Discuss in-progress Ph.D work with leading senior researchers"
+                  url: "/year/2019/info/doctoral-colloquium"
+                - text: "Application Spotlights"
+                  description: "Showcase practical, real-world applications of visualization"
+                  url: "/year/2019/info/application-spotlights"
 
       - subsections:
           - heading: "Plenary Sessions"
@@ -184,8 +186,8 @@ menu:
               - links:
                 - text: "Best Paper Awards"
                   url: "/year/2019/info/awards/best-paper-awards"
-                # - text: "Best Poster Awards"
-                #   url: "https://www.google.com"
+                - text: "Best Poster Awards"
+                  url: "/year/2019/info/awards/best-poster-awards"
                 # - text: "Service Awards"
                 #   url: "https://www.google.com"
                 # - text: "VGTC VIS Awards"
@@ -251,12 +253,12 @@ menu:
             columns:
               - heading: "Connect"
                 links:
-                  # - text: "Vis Buddies"
-                  #   url: "https://www.google.com"
-                  - text: "Meetups"
+                  - text: "Vis Buddies"
+                    url: "/year/2019/info/meetups#vis-newcomers"
+                  - text: "Job Fair"
+                     url: "/year/2019/info/meetups#vis-jobfair"
+                  - text: "Other Meetups"
                     url: "/year/2019/info/meetups"
-                  # - text: "Job Fair"
-                  #   url: "https://www.google.com"
               - heading: "Social Groups"
                 links:
                   - text: "Velo Club de VIs"
