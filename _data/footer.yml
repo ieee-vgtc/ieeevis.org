@@ -83,12 +83,14 @@ columns:
       links:
         - text: "VIS Conference Committees"
           url: "/year/2019/info/committees/conference-committee"
+        - text: "Program Committees"
+          url: "/year/2019/info/committees/infovis-program-committee"
         - text: "Steering Committees"
-          url: "https://www.google.com"
-        # - text: "Conference Restructuring"
-        #   url: "https://www.google.com"
-        # - text: "Get involved"
-        #   url: "https://www.google.com"
+          url: "/year/2019/info/committees/infovis-steering-committee.md"
+        - text: "VIS Executive Committee"
+          url: "/year/2019/info/committees/vis-executive-committee"
+        - text: "Restructuring and reVISe"
+          url: ""/governance/restructuring"
 
 
   - section:
