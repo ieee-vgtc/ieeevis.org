@@ -90,7 +90,7 @@ columns:
         - text: "VIS Executive Committee"
           url: "/year/2019/info/committees/vis-executive-committee"
         - text: "Restructuring and reVISe"
-          url: ""/governance/restructuring"
+          url:  "/governance/restructuring"
 
 
   - section:
