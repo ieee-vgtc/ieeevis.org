@@ -42,6 +42,8 @@ menu:
                   - text: "Practitioner Guide"
                     url: "https://visinpractice.github.io/guide.html"
                     is_external: true                 
+                  - text: "Full Program"
+                    url: "/year/2019/info/week-at-a-glance"
               - heading: "Travel"
                 links:
                   - text: "Accommodation"
