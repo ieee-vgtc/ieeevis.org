@@ -14,5 +14,7 @@ IEEE VIS reserves the right to take appropriate action to foster an inclusive an
 
 Please contact [ombuds@ieeevis.org](mailto:ombuds@ieeevis.org) if you experience, observe, or have knowledge of behavior in violation of the Code of Conduct.
 
+The ombuds team for VIS 2019 is: Anastasia Bezerianos, Sheelagh Carpendale, Gautam Chaudhary, Christopher Collins, and Kristi Potter. You can also approach individual members of the Ombuds team individually (contact information will be avialable at Registration) or in person.
+
 Please contact [inclusivity@ieeevis.org](mailto:inclusivity@ieeevis.org) with any questions about the Code of Conduct and Inclusivity & Diversity at IEEE VIS.
  

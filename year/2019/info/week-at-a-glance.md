@@ -63,7 +63,7 @@ permalink: /year/2019/info/week-at-a-glance
 
 <a name="sunday-fourth">*7:00-9:00PM*</a>
 
-* Opening Reception (location: TBA)
+* Opening Reception (location: Exhibition Hall A)
 
 <hr/>
 
@@ -143,7 +143,13 @@ permalink: /year/2019/info/week-at-a-glance
 
 * Lunch Break 
 
-<a name="tuesday-fourth">*2:35-3:50PM*</a>
+<a name="tuesday-fourth">*2:20-2:35PM*</a>
+
+* [VAST Opening](/year/2019/info/papers-sessions#vasttour) (location: Ballroom A)
+* [InfoVis Opening](/year/2019/info/papers-sessions#provocations) (location: Ballroom B)
+* [SciVis Opening](/year/2019/info/papers-sessions#scalartopology) (location: Ballroom C)
+
+*2:35-3:50PM*
 
 * [A Tour of VAST](/year/2019/info/papers-sessions#vasttour) (location: Ballroom A)
 * [Provocations](/year/2019/info/papers-sessions#provocations) (location: Ballroom B)
@@ -204,7 +210,10 @@ permalink: /year/2019/info/week-at-a-glance
 *12:20-2:20PM*
 
 * Lunch Break 
-* Open Discussion: Restructuring IEEE VIS for the Future (location: Ballroom A)
+
+*1:00-2:00PM*
+
+* [reVISe Town Hall: Restructuring IEEE VIS for the Future](http://ieeevis.org/governance/restructuring) (location: Ballroom A)
 
 <a name="wednesday-third">*2:20-3:50PM*</a>
 
@@ -229,7 +238,7 @@ permalink: /year/2019/info/week-at-a-glance
 
 <a name="wednesday-sixth">*7:00-9:00PM*</a>
 
-* VIS Dinner Reception (location: TBA)
+* VIS Dinner Reception (location: Ballroom ABC)
 
 <hr/>
 
@@ -265,6 +274,9 @@ permalink: /year/2019/info/week-at-a-glance
 *12:20-2:20PM*
 
 * Lunch Break 
+
+*1:00-2:00PM*
+
 * VIS 2020 Kick-off Meeting (location: Ballroom A)
 
 <a name="thursday-third">*2:20-3:50PM*</a>
