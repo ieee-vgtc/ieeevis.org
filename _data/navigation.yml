@@ -135,7 +135,7 @@ menu:
     sections:
       - subsections:
           - heading: "Vis Program"
-            # heading_url: "/year/2019/info/week-at-a-glance"
+            heading_url: "/year/2019/info/week-at-a-glance"
             columns:
               - links:
                 - text: "Papers"
