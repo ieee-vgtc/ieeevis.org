@@ -106,7 +106,7 @@
       url: "https://www.morganclaypool.com"
 
     - name: "Google"
-      image: /assets/supporters/google.png
+      image: /assets/supporters/Google.png
       url: "https://google.com"
 
     - name: "University of Maryland"
@@ -117,9 +117,9 @@
       image: /assets/supporters/DVS.png
       url: "https://www.datavisualizationsociety.com"
 
-    - name: "University of South Floridad"
-      image: /assets/supporters/DVS.png
-      url: "https://www.datavisualizationsociety.com"
+    - name: "University of South Florida"
+      image: /assets/supporters/USF.png
+      url: "https://www.usf.edu"
 
 
 - category: Other Donations
