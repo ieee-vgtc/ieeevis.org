@@ -2,7 +2,7 @@
 title: Application Spotlights&colon; Call for Participation
 layout: page
 sidebar: call-for-participation
-permalink: /info/call-participation/application-spotlights-cfp
+permalink: /year/2019/info/call-participation/application-spotlights-cfp
 active_nav: "Contribute"
 ---
 
