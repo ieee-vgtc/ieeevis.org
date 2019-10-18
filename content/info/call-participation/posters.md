@@ -1,9 +1,7 @@
 ---
 title: Posters
-layout: page
-sidebar: call-for-participation
-permalink: /info/call-participation/posters
-active_nav: "Contribute"
+layout: main-2019
+permalink: /year/2019/info/call-participation/posters
 contact: posters@ieeevis.org
 ---
 
