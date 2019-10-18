@@ -2,7 +2,7 @@
 title: VAST Paper Types
 layout: page
 sidebar: call-for-participation
-permalink: /info/call-participation/vast-paper-types
+permalink: /year/2019/info/call-participation/vast-paper-types
 active_nav: "Contribute"
 ---
 
