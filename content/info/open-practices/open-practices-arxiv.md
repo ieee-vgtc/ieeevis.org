@@ -31,15 +31,15 @@ After your account is created, you can view your current submissions and create 
 
 **Note for Overleaf users (!):**  If you are using Overleaf, the easiest way to prepare a submission is to use the "Submit" button on Overleaf and scroll down to arXiv, download a zip file with all the needed files for your paper, and then click on the Submit button that takes you directly to arXiv pages for a new submission. Also see **Note-2** below.
 
-![](arxiv_guide_1.png)
+![](/year/2019/content/info/open-practices/arxiv_guide_1.png)
   
 
 ## Step-3.Complete the submission process
  
 a) Choose a license (the default arXiv license is recommended by IEEE)
  
-![](arxiv_guide_2.png) 
-![](arxiv_guide_3.png) 
+![](/year/2019/content/info/open-practices/arxiv_guide_2.png) 
+![](/year/2019/content/info/open-practices/arxiv_guide_3.png) 
  
 Note that you may need endorsement in a category if it is the first time you’ve submitted to arXiv.org, especially in this category.  See [https://arxiv.org/help/endorsement](https://arxiv.org/help/endorsement).  
 
@@ -51,11 +51,11 @@ b) Upload the pdf in the correct format, or alternatively in (La)Tex. Note that 
 
 **Important:** Please refer to **Note-1** at the end of the document for further guidance on submitting in `TeX/LaTeX` format.
 
-![](arxiv_guide_4.png) 
+![](/year/2019/content/info/open-practices/arxiv_guide_4.png) 
  
 c) Complete the metadata (title, abstract, authors)
 
-![](arxiv_guide_5.png) 
+![](/year/2019/content/info/open-practices/arxiv_guide_5.png) 
  
 d) After previewing, the system may need to process for a few minutes before you will have the option to submit it from the preview section.
 
@@ -73,7 +73,7 @@ When revising the article on arXiv, you can follow the following steps:
 * Under the "Actions" menu, click the "Replace" icon.
 * Once you are on the "Add Files" tab, select the "Bring files forward from previous version" to replace the `TeX` files. However, if you originally were able to submit a pdf directly, you can upload the pdf directly at this stage.
 
-![](arxiv_guide_6.png) 
+![](/year/2019/content/info/open-practices/arxiv_guide_6.png) 
 
 * [If you are uploading `TeX` files] Replace the `vgtc.cls` file with the new one
 * [If you are uploading `TeX` files] Replace your main `.tex` file since it should now have a line `\ieeedoi` with your DOI
