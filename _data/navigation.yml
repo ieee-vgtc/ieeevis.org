@@ -243,7 +243,7 @@ menu:
                   url: "https://press3.mcs.anl.gov/2019-scivis-contest/"
                   is_external: true
                 - text: "BioViz Challenges"
-                  url: "http://biovis.net/2019/ieeevis/"
+                  url: "http://biovis.net/2019/program_ieee/"
                   is_external: true
 
           - heading: "Community"
@@ -358,14 +358,15 @@ menu:
 
       - subsections:
           - heading: "Upcoming Years"
+            heading_url: "/year/2019/info/future-locations"
             columns:
              - links:
                 - text: "October 26-30, 2020, Salt Lake City, Utah, USA"
                   description: "General Chairs: Mike Kirby and Valerio Pascucci, University of Utah"
-                  url: "/"
+                  url: "/year/2019/info/future-locations"
                 - text: "October/November 2021, New Orleans, Louisiana, USA"
                   description: "General Chairs: Brian Summa, Tulane University, Gustavo Nonato, Universidade de São Paulo, Valerio Pascucci, University of Utah"
-                  url: "/"
+                  url: "/year/2019/info/future-locations"
                 - text: "Bidding"
                   description: "Guidelines to bid for a future location of IEEE VIS"
                   url: "/governance/bids"
