@@ -1,6 +1,6 @@
 ---
 title: Restructuring
-layout: main-2019
+layout: page
 permalink: /governance/restructuring
 ---
 

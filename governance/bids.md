@@ -1,6 +1,6 @@
 ---
 title: VIS Bid Guidelines
-layout: main-2019
+layout: page
 permalink: /governance/bids
 ---
 

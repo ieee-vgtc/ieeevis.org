@@ -1,6 +1,6 @@
 ---
 title: Minutes of the Infovis Steering Committee
-layout: main-2018
+layout: page
 permalink: /governance/infovis-steering-committee/minutes
 ---
 

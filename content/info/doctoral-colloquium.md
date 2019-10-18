@@ -1,6 +1,6 @@
 ---
 title: Doctoral Colloquium
-layout: main-2019
+layout: page
 permalink: /year/2019/info/doctoral-colloquium
 ---
 

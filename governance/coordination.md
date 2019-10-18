@@ -1,6 +1,6 @@
 ---
 title: Financial and Coordination Policies for IEEE VIS
-layout: main-2019
+layout: page
 permalink: /governance/coordination
 ---
 
