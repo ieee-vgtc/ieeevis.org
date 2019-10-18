@@ -4,7 +4,7 @@ layout: page
 permalink: /year/2019/info/committees/steering-committees
 ---
 
-IEEE VIS Comprises:
+IEEE VIS comprises:
 * [Visual Analytics Science and Technology (VAST)](#vast)
 * [Information Visualization (InfoVis)](#infovis)
 * [Scientific Visualization (SciVis)](#scivis)
