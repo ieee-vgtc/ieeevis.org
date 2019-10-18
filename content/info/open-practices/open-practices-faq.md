@@ -1,7 +1,7 @@
 ---
 title: Open Access Preprint Guide and FAQ
 layout: page
-permalink: /info/open-practices/open-practices-faq
+permalink: /year/2019/info/open-practices/open-practices-faq
 ---
 
 Visualization research is better communicated and acted on if it is freely accessible to the research community, practitioners, and the general public. This accessibility can be improved if authors post the final version of their accepted paper to a reliable open access repository. VIS can facilitate an increase in sharing of papers by informing authors of this option, establishing guidelines for which repositories are freely accessible and reliable, helping authors use those repositories, and dispelling misconceptions.
