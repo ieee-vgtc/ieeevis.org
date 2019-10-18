@@ -20,8 +20,6 @@
 
 - heading: "Important Info"
   links:
-    - text: "Important Dates"
-      url: "/year/2019/info/important-dates"
     - text: "Open Practices"
       url: "/year/2019/info/open-practices/open-practices"
     - text: "Video Previews"

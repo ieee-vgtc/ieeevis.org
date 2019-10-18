@@ -102,8 +102,6 @@ menu:
                     is_new: true
               - heading: "Info for Contributors"
                 links:
-                  - text: "Important Dates"
-                    url: "/year/2019/info/important-dates"
                   - text: "Open Practices"
                     url: "/year/2019/info/open-practices/open-practices"
                     is_new: true
