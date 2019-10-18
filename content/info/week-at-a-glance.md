@@ -5,7 +5,7 @@ permalink: /year/2019/info/week-at-a-glance
 ---
 
 # Schedule Shortcut (click to move to day/time)
-<object type="image/svg+xml" data="/year/2019/content/info/2019-schedule.svg" style="margin-top: 20px;"></object>
+<object type="image/svg+xml" data="/year/2019/info/2019-schedule.svg" style="margin-top: 20px;"></object>
 
 # Meetups
 [An up-to-date list of Meetups](/year/2019/info/meetups)
