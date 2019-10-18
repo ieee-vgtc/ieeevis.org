@@ -2,7 +2,7 @@
 title: Fast Forward and Video Previews
 layout: page
 sidebar: call-for-participation
-permalink: /info/presenter-information/fast-forward-and-video-previews
+permalink: /year/2019/info/presenter-information/fast-forward-and-video-previews
 active_nav: "Contribute"
 contact: ff@ieeevis.org
 ---
