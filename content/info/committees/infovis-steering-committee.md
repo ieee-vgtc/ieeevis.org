@@ -1,7 +1,7 @@
 ---
 title: InfoVis Steering Committee
 layout: page
-permalink: /info/committees/infovis-steering-committee
+permalink: /year/2019/info/committees/infovis-steering-committee
 ---
 
 | Melanie Tory | *Tableau Research* |
