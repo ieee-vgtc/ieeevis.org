@@ -9,15 +9,17 @@ permalink: /year/2019/info/committees/steering-committees
 * [Scientific Visualization](#scivis)
 
 ## <a name="vast"></a> VAST
+
 | Gennady Andrienko | *Fraunhofer IAIS and City, University of London* |
-| Min Chen	| *Oxford University*
-| Brian Fisher	| *Simon Fraser University*
-| John Stasko	| *Georgia Institute of Technology*
-| Tobias Schreck	| *Graz University of Technology*
-| Silvia Miksch	| *Vienna University of Technology*
-| Giuseppe Santucci	| *Università degli Studi di Roma "La Sapienza"*
+| Min Chen	| *Oxford University* |
+| Brian Fisher	| *Simon Fraser University* |
+| John Stasko	| *Georgia Institute of Technology* |
+| Tobias Schreck	| *Graz University of Technology* |
+| Silvia Miksch	| *Vienna University of Technology* |
+| Giuseppe Santucci	| *Università degli Studi di Roma "La Sapienza"* |
 
 ## <a name="infovis"></a> InfoVis
+
 | Melanie Tory | *Tableau Research* |
 | Fernanda Viegas | *Google* |
 | Sheelagh Carpendale | *Simon Fraser University* |
@@ -32,6 +34,7 @@ permalink: /year/2019/info/committees/steering-committees
 
 
 ## <a name="scivis"></a> SciVis
+
 | Baoquan Chen | *Shandong University* |
 | Issei Fujishiro | *Keio University* |
 | Han-Wei Shen | *The Ohio State University* |
@@ -39,3 +42,4 @@ permalink: /year/2019/info/committees/steering-committees
 | Deborah Silver | *Rutgers University* |
 | Daniel Weiskopf | *University of Stuttgart* |
 | Anders Ynnerman | *Linköping University* |
+
