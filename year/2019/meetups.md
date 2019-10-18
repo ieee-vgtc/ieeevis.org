@@ -17,6 +17,7 @@ permalink: /year/2019/info/meetups
 * [ClimbVis](#climb-vis) (Tuesday)
 * [Openness, Transparency, and Credibility in Visualization Research](#openness) (Tuesday)
 * [Junior Faculty, Researchers, and Practitioners Happy Hour](#junior-faculty) (Tuesday)
+* [BrUnch](#brunch) (Wednesday)
 * [VIS Job-fair](#vis-jobfair) (Wednesday)
 * [Open Practices at VIS: journey so far and moving forward](#open-practices) (Wednesday)
 * [Building an Inclusive VIS Community](#inclusion) (Wednesday)
@@ -215,6 +216,18 @@ Contact: [kristi.potter@nrel.gov](mailto:kristi.potter@nrel.gov)
 Join your fellow junior-level faculty, researchers, and practitioners in our third annual happy hour!
 
 The goal of this meetup is to provide a safe environment for junior Vis researchers to gather and discuss challenges faced in and out of the work environment. The VIS community has always been very supportive of its junior members, however, one missing link among these wide range of programs is support for the junior professors, early career researchers and practitioners.  Junior researchers face significant amount of pressure and are often overwhelmed by the drastic change from being a student (or a postdoc). Many junior researchers have little training in project management, grant-writing, mentoring, teaching, and establishing a research agenda. As a result, they struggle maintaining a work-life balance and have few (if no) outlet in seeking help, advice, or support. Attendees will have the opportunity to meet fellow early career researchers, participate in peer mentoring, and as a result build a social network (or a cohort) that will continue to support beyond the VIS conference.
+
+| |
+
+## <a name="brunch"></a> BrUnch
+
+Wednesday, October 23    
+12:20PM - 2:20PM    
+Location: VIS Registration Desk (meeting point)    
+Organizers: Roy Ruddle    
+Contact: [R.A.Ruddle@leeds.ac.uk](mailto:R.A.Ruddle@leeds.ac.uk)    
+
+Following on from last year’s impromptu meetup, the BrUnch aims to allow UK-based VIS people to meet, because that’s easier at VIS than when we’re back home. Come along to meet new faces, renew acquaintances, and have wide-ranging discussions over lunch. 
 
 | |
 
