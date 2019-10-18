@@ -5,7 +5,7 @@ permalink: /keynote
 active_nav: "Program"
 ---
 
-<img src="/assets/speakers/borner.png"
+<img src="/year/2019/assets/speakers/borner.png"
   alt="katy borner" 
   style="float: right; margin-right: 16px;"
   width="230px" >

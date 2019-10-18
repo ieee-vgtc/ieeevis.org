@@ -5,7 +5,7 @@ permalink: /capstone
 active_nav: "Program"
 ---
 
-<img src="/assets/speakers/johanna-drucker.jpeg"
+<img src="/year/2019/assets/speakers/johanna-drucker.jpeg"
   alt="Johanna Drucker" 
   style="float: right; margin-right: 16px;"
   width="230px" >
