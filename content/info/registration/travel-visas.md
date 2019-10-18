@@ -2,7 +2,7 @@
 title: Travel and Visas
 layout: page
 active_nav: "Attend"
-permalink: /info/registration/travel-visas
+permalink: /year/2019/info/registration/travel-visas
 contact: "web@ieeevis.org"
 ---
 
