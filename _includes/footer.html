@@ -5,8 +5,7 @@
         <div class="container">
             Problems with this webpage? Contact
             <a href="mailto:{{ page.contact | default: site.email }}" class="link">{{ page.contact | default: site.email }}</a>,
-            <a href="{{ site.github_repository }}/issues/new/?title={{ "Fix content problem on " | append: page.permalink | append: ".md" | url_encode }}" target="_blank" class="link">file a bug</a>, or
-            <a href="{{ site.github_repository }}/edit/{{ site.github_pull_request_branch }}{{ page.permalink }}.md" target="_blank" class="link">suggest a fix</a>.
+            <a href="{{ site.github_repository }}/issues/new/?title={{ "Fix content problem on " | append: page.permalink | append: ".md" | url_encode }}" target="_blank" class="link">file a bug</a>.
         </div>
     </div>
 
