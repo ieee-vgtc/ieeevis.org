@@ -140,6 +140,7 @@ menu:
       - subsections:
           - heading: "Vis Program"
             heading_url: "/year/2019/info/week-at-a-glance"
+            description: "See the complete conference program on the web or via the conference app"
             columns:
               - links:
                 - text: "Papers"
