@@ -1,7 +1,7 @@
 ---
 title: SciVis Steering Committee
 layout: page
-permalink: /info/committees/scivis-steering-committee
+permalink: /year/2019/info/committees/scivis-steering-committee
 ---
 
 | Baoquan Chen | *Shandong University* |
