@@ -157,9 +157,6 @@ menu:
                 - text: "Panels"
                   description: "Discuss important and controversial issues"
                   url: "/year/2019/info/panels"
-                - text: "Doctorial Colloquium"
-                  description: "Discuss in-progress Ph.D work with leading senior researchers"
-                  url: "/year/2019/info/doctoral-colloquium"
                 - text: "Application Spotlights"
                   description: "Showcase practical, real-world applications of visualization"
                   url: "/year/2019/info/application-spotlights"
@@ -269,3 +266,6 @@ menu:
                   - text: "Vis Pioneers Group"
                     url: "http://vacommunity.org/ieeevpg/"
                     is_external: true
+          - heading: "Doctorial Colloquium"
+            heading_url: "/year/2019/info/doctoral-colloquium"
+            description: "Discuss in-progress Ph.D work with leading senior researchers"
