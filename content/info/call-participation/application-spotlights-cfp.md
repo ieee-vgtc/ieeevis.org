@@ -1,9 +1,7 @@
 ---
 title: Application Spotlights&colon; Call for Participation
-layout: page
-sidebar: call-for-participation
-permalink: /info/call-participation/application-spotlights-cfp
-active_nav: "Contribute"
+layout: main-2019
+permalink: /year/2019/info/call-participation/application-spotlights-cfp
 ---
 
 There is a clear need to promote application-focused work in the VIS community. This is due both to the recognized need to engage real-world decision makers and to the growing awareness of the value of application work for generating basic research questions. The new format of Application Spotlights is one of several components - including the VAST Challenge, the SciVis Contest and the VisInPractice program - which aim at bridging the gap between fundamental research and practical applications. 

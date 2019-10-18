@@ -1,14 +1,13 @@
 ---
 title: Tutorials
-layout: page
-permalink: /info/tutorials
-active_nav: "Program"
+layout: main-2019
+permalink: /year/2019/info/tutorials
 contact: "tutorials@ieeevis.org"
 ---
 
 * [Topological Data Analysis Made Easy with the Topology ToolKit, A Sequel](#Topo)
-* [VTK-m - A ToolKit for Scientific Visualization on Many-Core Processors](#VTK)
 * [Visualizing Multivariate Networks](#Networks)
+* [VTK-m - A ToolKit for Scientific Visualization on Many-Core Processors](#VTK)
 * [Better Presentations for Visualization Research](#Better_Presentations)
 * [Visual Analysis and Design](#VDA)
 * [Statistical Data Representation, Visualization, and Uncertainty Analysis](#Stats)
@@ -71,25 +70,8 @@ instructions for the download of the tutorial material package, etc.):
 [https://forms.gle/gn7yn3JwzdBN4Mgr7](https://forms.gle/gn7yn3JwzdBN4Mgr7)
 
 
-## <a name="VTK"></a> VTK-m - A ToolKit for Scientific Visualization on Many-Core Processors
-Sunday, October 20: 9:00am-12:40pm
-
-Hank Childs, *University of Oregon*  
-Kenneth Moreland, *Sandia National Laboratories*  
-David Pugmire, *Oak Ridge National Laboratory*  
-Robert Maynard, *Kitware*  
-
-This tutorial will cover the VTK-m software, i.e., the many-core version
-of VTK (a popular open source toolkit for scientific visualization).
-VTK-m provides a portable performance infrastructure, which enables
-efficient performance on multi-core CPUs and NVIDIA GPUs, and provides
-an easy extensibility path to future architectures. Tutorial
-presentations will focus both on how to use VTK-m and on how to develop
-VTK-m code.
-
-
 ## <a name="Networks"></a> Visualizing Multivariate Networks
-Sunday, October 20: 2:20pm-5:40pm
+Sunday, October 20: 9:00am-12:40pm
 
 Carolina Nobre, *University of Utah*  
 Marc Streit, *Johannes Kepler University*  
@@ -118,6 +100,23 @@ also available for future reference in a companion website, available at
 The website provides an overview of all
 techniques as well as a wizard designed to help users select a technique
 for a specific data and task combination.
+
+
+## <a name="VTK"></a> VTK-m - A ToolKit for Scientific Visualization on Many-Core Processors
+Sunday, October 20: 2:20pm-5:40pm
+
+Hank Childs, *University of Oregon*  
+Kenneth Moreland, *Sandia National Laboratories*  
+David Pugmire, *Oak Ridge National Laboratory*  
+Robert Maynard, *Kitware*  
+
+This tutorial will cover the VTK-m software, i.e., the many-core version
+of VTK (a popular open source toolkit for scientific visualization).
+VTK-m provides a portable performance infrastructure, which enables
+efficient performance on multi-core CPUs and NVIDIA GPUs, and provides
+an easy extensibility path to future architectures. Tutorial
+presentations will focus both on how to use VTK-m and on how to develop
+VTK-m code.
 
 
 ## <a name="Better_Presentations"></a> Better Presentations for Visualization Research
