@@ -2,7 +2,7 @@
 title: Conference Registration
 layout: page
 active_nav: "Attend"
-permalink: info/registration/conference-registration
+permalink: /year/2019/info/registration/conference-registration
 contact: "web@ieeevis.org"
 ---
 
