@@ -2,7 +2,7 @@
 title: IEEE VIS Doctoral Colloquium
 layout: page
 sidebar: call-for-participation
-permalink: /info/call-participation/doctoral-colloquium
+permalink: /year/2019/info/call-participation/doctoral-colloquium
 active_nav: "Contribute"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Partnerships
 layout: page
-permalink: /info/call-participation/partnerships
+permalink: /year/2019/info/call-participation/partnerships
 ---
 
 ## TVCG

@@ -2,7 +2,7 @@
 title: Panels
 layout: page
 sidebar: call-for-participation
-permalink: /info/call-participation/panels
+permalink: /year/2019/info/call-participation/panels
 active_nav: "Contribute"
 contact: panels@ieeevis.org
 ---

@@ -2,7 +2,7 @@
 title: Short Papers Call for Participation
 layout: page
 sidebar: call-for-participation
-permalink: /info/call-participation/shortpapers
+permalink: /year/2019/info/call-participation/shortpapers
 active_nav: "Contribute"
 ---
 

@@ -1,7 +1,9 @@
 ---
 title: VAST Paper Types
-layout: main-2019
+layout: page
+sidebar: call-for-participation
 permalink: /year/2019/info/call-participation/vast-paper-types
+active_nav: "Contribute"
 ---
 
 The **IEEE Conference on Visual Analytics Science and Technology (VAST)** solicits original research papers on a set of diverse topics related to visual analytics. These papers may contribute towards new methods for human-in-the-loop computation; visualization and interaction techniques; representation of data and knowledge; models of analytical reasoning and discourse; and applications and systems of visual analytics to a broad range real-world contexts and domains.

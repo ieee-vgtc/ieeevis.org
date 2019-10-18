@@ -2,7 +2,7 @@
 title: SciVis Paper Types
 layout: page
 sidebar: call-for-participation
-permalink: /info/call-participation/scivis-paper-types
+permalink: /year/2019/info/call-participation/scivis-paper-types
 active_nav: "Contribute"
 ---
 

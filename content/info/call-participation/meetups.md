@@ -1,7 +1,7 @@
 ---
 title: Meetups
 layout: page
-permalink: /info/call-participation/meetups
+permalink: /year/2019/info/call-participation/meetups
 contact: meetups@ieeevis.org
 ---
 
