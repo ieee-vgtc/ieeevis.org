@@ -1,7 +1,7 @@
 ---
 title: InfoVis Program Committee
 layout: page
-permalink: /info/committees/infovis-program-committee
+permalink: /year/2019/info/committees/infovis-program-committee
 contact: infovis_papers@ieeevis.org
 ---
 | Bilal Alsallakh | *BOSCH Research, USA* |
