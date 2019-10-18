@@ -350,11 +350,11 @@ menu:
 
       - subsections:
           - heading: "Upcoming Years"
-          - columns:
-            - heading: ""
-              links:
+            columns:
+             - links:
                 - text: "October 26-30, 2020, Salt Lake City, Utah, USA"
-                - description: "General Chairs: Mike Kirby and Valerio Pascucci, University of Utah"
+                  description: "General Chairs: Mike Kirby and Valerio Pascucci, University of Utah"
+                  url: ""
                 - text: "October/November 2021, New Orleans, Louisiana, USA"
                 - description: "General Chairs: Brian Summa, Tulane University, Gustavo Nonato, Universidade de São Paulo, Valerio Pascucci, University of Utah"
                 - text: "Bidding"
