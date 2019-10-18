@@ -1,7 +1,7 @@
 ---
 title: Open Practices arXiv Guidance
 layout: page
-permalink: info/open-practices/open-practices-arxiv
+permalink: /year/2019/info/open-practices/open-practices-arxiv
 ---
 
 <style>
