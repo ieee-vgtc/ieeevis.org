@@ -1,7 +1,7 @@
 ---
 title: VAST Steering Committee
 layout: page
-permalink: /info/committees/vast-steering-committee
+permalink: /year/2019/info/committees/vast-steering-committee
 ---
 
 | Gennady Andrienko | *Fraunhofer IAIS and City, University of London* |
