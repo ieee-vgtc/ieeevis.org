@@ -15,11 +15,11 @@ intro_section:
     - title: "IEEE Conference on Information Visualization (InfoVis)"
       description: "Papers in InfoVis typically relate to the design or evaluation of new or improved visual encodings or interaction techniques of abstract data (such as graphs, tables, or text data)."
       button_text: "InfoVIS Paper Types"
-      button_url: "/year/2019/info/call-participation/infovis-paper-types/"
+      button_url: "/year/2019/info/call-participation/infovis-paper-types"
     - title: "IEEE Conference on Scientific Visualization (SciVis)"
       description: "Papers in SciVis typically focus on new or improved visual encodings, mathematical models, algorithms, or interaction techniques for the visualization of data related to science and engineering, as well as integration into novel applications and systems."
       button_text: "SciVis Paper Types"
-      button_url: "/year/2019/info/call-participation/scivis-paper-types/"
+      button_url: "/year/2019/info/call-participation/scivis-paper-types"
   content: |
       **Which conference track should I submit to?**
       
