@@ -1,7 +1,7 @@
 ---
 title: VAST Program Committee
 layout: page
-permalink: /info/committees/vast-program-committee
+permalink: /year/2019/info/committees/vast-program-committee
 ---
 
 | Wolfgang Aigner | *St. Pölten University of Applied Sciences* |
