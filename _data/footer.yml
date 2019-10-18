@@ -86,7 +86,7 @@ columns:
         - text: "Program Committees"
           url: "/year/2019/info/committees/infovis-program-committee"
         - text: "Steering Committees"
-          url: "/year/2019/info/committees/infovis-steering-committee.md"
+          url: "/year/2019/info/committees/infovis-steering-committee"
         - text: "VIS Executive Committee"
           url: "/year/2019/info/committees/vis-executive-committee"
         - text: "Restructuring and reVISe"
