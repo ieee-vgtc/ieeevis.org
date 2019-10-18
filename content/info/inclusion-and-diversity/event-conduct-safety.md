@@ -1,7 +1,7 @@
 ---
 title: IEEE Event Conduct and Safety Statement
 layout: page
-permalink: /info/inclusion-and-diversity/event-conduct-safety
+permalink: /year/2019/info/inclusion-and-diversity/event-conduct-safety
 ---
 
 IEEE believes that science, technology, and engineering are fundamental human activities, for which openness, international collaboration, and the free flow of talent and ideas are essential. Its meetings, conferences, and other events seek to enable engaging, thought provoking conversations that support IEEE’s core mission of advancing technology for humanity. Accordingly, IEEE is committed to providing a safe, productive, and welcoming environment to all participants, including staff and vendors, at IEEE-related events.
