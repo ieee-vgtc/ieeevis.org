@@ -6,6 +6,8 @@ permalink: /info/week-at-a-glance
 
 <object type="image/svg+xml" data="/year/2019/content/info/2019-schedule.svg" style="margin-top: 20px;"></object>
 
+[An up-to-date list of Meetups](/year/2019/info/meetups)
+
 <a name="saturday">**Saturday, October 19**</a>
 
 *9:00AM-5:40PM*
