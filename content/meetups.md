@@ -1,5 +1,5 @@
 ---
-title: meetups
+title: Meetups
 layout: page
 active_nav: "Events & Community"
 permalink: /year/2019/info/meetups

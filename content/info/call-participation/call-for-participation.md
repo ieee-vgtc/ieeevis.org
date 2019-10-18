@@ -27,7 +27,7 @@ intro_section:
       
       **Where will papers appear?**
       
-      Full papers accepted to [IEEE InfoVis, SciVis, and most of VAST](https://google.com) will appear in a special issue of the IEEE Transactions on Visualization and Computer Graphics (TVCG). Some papers of the VAST conference will be published as archival, conference publications.
+      Full papers accepted to IEEE InfoVis, SciVis, and most of VAST will appear in a special issue of the IEEE Transactions on Visualization and Computer Graphics (TVCG). Some papers of the VAST conference will be published as archival, conference publications.
 ---
         
 
