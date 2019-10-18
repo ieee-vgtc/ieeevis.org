@@ -117,11 +117,6 @@
       image: /assets/supporters/DVS.png
       url: "https://www.datavisualizationsociety.com"
 
-    - name: "University of South Florida"
-      image: /assets/supporters/USF.png
-      url: "https://www.usf.edu"
-
-
 - category: Other Donations
   supporters:
     - name: "Sophos"
@@ -139,6 +134,10 @@
     - name: "NVidia"
       image: /assets/supporters/nvidia.png
       url: "https://nvidia.com"
+
+    - name: "University of South Florida"
+      image: /assets/supporters/USF.png
+      url: "https://www.usf.edu"
 
 - category: In affiliation/cooperation with
   supporters:
