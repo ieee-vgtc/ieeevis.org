@@ -190,6 +190,10 @@ To use the conference app, download the CrowdCompass AttendeeHub for iOS or Andr
 <a name="tuesday-sixth">*6:30-9:00PM*</a>
 * [VIS Arts Program Opening Event](https://visap.net/program.html#exhibition) (location: South Foyer)
 
+*7:00-8:00PM*
+
+* Celebration of Life: Luana Micallef (location: Room 8+15)
+
 <hr/>
 
 <a name="wednesday">**Wednesday, October 23**</a>
