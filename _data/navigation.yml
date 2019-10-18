@@ -100,7 +100,7 @@ menu:
                   - text: "Application Spotlights"
                     url: "/year/2019/info/call-participation/application-spotlights-cfp"
                     is_new: true
-              - heading: "Info for Presenters"
+              - heading: "Info for Contributors"
                 links:
                   - text: "Important Dates"
                     url: "/year/2019/info/important-dates"
@@ -109,6 +109,8 @@ menu:
                     is_new: true
                   - text: "Video Previews"
                     url: "/year/2019/info/presenter-information/fast-forward-and-video-previews"
+                  - text: "Speakers and Presenters"
+                    url: "/year/2019/info/presenter-information/speakers-and-presenters"
 
       - subsections:
           - heading: "Get Involved"

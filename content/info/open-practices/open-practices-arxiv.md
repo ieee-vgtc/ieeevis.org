@@ -75,7 +75,7 @@ When revising the article on arXiv, you can follow the following steps:
 
 ![](/year/2019/content/info/open-practices/arxiv_guide_6.png) 
 
-* [If you are uploading `TeX` files] Replace the `vgtc.cls` file with the new one
+* [If you are uploading `TeX` files] Replace the `vgtc.cls` file with the revised `vgtc.cls` file included in the [updated `laTeX` template here](http://junctionpublishing.org/vgtc/Track/vis-menu.html)
 * [If you are uploading `TeX` files] Replace your main `.tex` file since it should now have a line `\ieeedoi` with your DOI
 * [If you are uploading `TeX` files] If you have changed any other `TeX` file, also make sure that you replace those as well
 * Once arXiv processed your pdf, and you are on the "Metadata" tab. arXiv has [guidance here](https://arxiv.org/help/prep) to support you in entering information here. For VIS papers, make sure to include the following information on this tab:
