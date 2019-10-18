@@ -4,7 +4,11 @@ layout: page
 permalink: /year/2019/info/committees/steering-committees
 ---
 
-## VAST
+* [Visual Analytics Science and Technology](#vast)
+* [Information Visualization](#infovis)
+* [Scientific Visualization](#scivis)
+
+## <a name="vast"></a> VAST
 | Gennady Andrienko | *Fraunhofer IAIS and City, University of London* |
 | Min Chen	| *Oxford University*
 | Brian Fisher	| *Simon Fraser University*
@@ -13,7 +17,7 @@ permalink: /year/2019/info/committees/steering-committees
 | Silvia Miksch	| *Vienna University of Technology*
 | Giuseppe Santucci	| *Università degli Studi di Roma "La Sapienza"*
 
-## InfoVis
+## <a name="infovis"></a> InfoVis
 | Melanie Tory | *Tableau Research* |
 | Fernanda Viegas | *Google* |
 | Sheelagh Carpendale | *Simon Fraser University* |
@@ -27,7 +31,7 @@ permalink: /year/2019/info/committees/steering-committees
 * [InfoVis Steering Committee meeting minutes](/governance/infovis-steering-committee/minutes)
 
 
-## SciVis
+## <a name="scivis"></a> SciVis
 | Baoquan Chen | *Shandong University* |
 | Issei Fujishiro | *Keio University* |
 | Han-Wei Shen | *The Ohio State University* |
