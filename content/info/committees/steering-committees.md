@@ -4,9 +4,10 @@ layout: page
 permalink: /year/2019/info/committees/steering-committees
 ---
 
-* [Visual Analytics Science and Technology](#vast)
-* [Information Visualization](#infovis)
-* [Scientific Visualization](#scivis)
+IEEE VIS Comprises:
+* [Visual Analytics Science and Technology (VAST)](#vast)
+* [Information Visualization (InfoVis)](#infovis)
+* [Scientific Visualization (SciVis)](#scivis)
 
 ## <a name="vast"></a> VAST
 
