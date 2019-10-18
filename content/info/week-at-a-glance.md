@@ -8,6 +8,12 @@ permalink: /year/2019/info/week-at-a-glance
 
 [An up-to-date list of Meetups](/year/2019/info/meetups)
 
+To use the conference app, download the CrowdCompass AttendeeHub for iOS or Android and use its search feature to look for "VIS". You can also access the app online using a laptop or other device by visiting https://event.crowdcompass.com/vis19/ in your browser. The conference password is "ieeevis19".
+
+[CrowdCompass AttendeeHub IOS App Store](https://apps.apple.com/app/crowdcompass-attendeehub/id604224729)
+
+[CrowdCompass AttendeeHub Google Play](https://play.google.com/store/apps/details?id=com.crowdcompass.app4815162342)
+
 <a name="saturday">**Saturday, October 19**</a>
 
 *9:00AM-5:40PM*
