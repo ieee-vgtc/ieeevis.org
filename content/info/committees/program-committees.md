@@ -9,6 +9,7 @@ permalink: /year/2019/info/committees/program-committees
 * [Scientific Visualization](#scivis)
 
 ## <a name="vast"></a> VAST
+
 | Wolfgang Aigner | *St. Pölten University of Applied Sciences* |
 | Natalia Andrienko | *Fraunhofer IAIS* |
 | Michaël Aupetit | *Qatar Computing Research Institute* |
@@ -69,6 +70,7 @@ permalink: /year/2019/info/committees/program-committees
 
 
 ## <a name="infovis"></a> InfoVis
+
 | Bilal Alsallakh | *BOSCH Research, USA* |
 | Daniel Archambault | *Swansea University, UK* |
 | Benjamin Bach | *University of Edinburgh, UK* |
@@ -146,6 +148,7 @@ permalink: /year/2019/info/committees/program-committees
 | Michael Wybrow | *Monash University, Australia* |
 
 ## <a name="scivis"></a> SciVis
+
 | Wes Bethel | *Lawrence Berkeley National Laboratory, USA* |
 | Stefan Bruckner | *University of Bergen, Norway* |
 | Roxana Bujack | *Los Alamos National Laboratory, USA* |
