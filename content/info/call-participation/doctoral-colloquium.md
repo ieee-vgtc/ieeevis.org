@@ -1,10 +1,12 @@
 ---
-title: Call For Participation
-layout: main-2019
-permalink: /year/2019/info/call-participation/doctoral-colloquium
+title: IEEE VIS Doctoral Colloquium
+layout: page
+sidebar: call-for-participation
+permalink: /info/call-participation/doctoral-colloquium
+active_nav: "Contribute"
 ---
 
-# IEEE VIS Doctoral Colloquium
+# Call For Participation
 We solicit submissions to the doctoral colloquium (DC) for IEEE VIS 2019. The DC is a single-day invitation-only event taking place the day before IEEE VIS, where Ph.D. students present their proposed dissertation work and receive feedback from leading senior visualization researchers. We invite contributions from the scientific visualization, information visualization, and visual analytics student communities.
 
 The colloquium will allow students to discuss their research directions in a supportive atmosphere with a panel of distinguished leaders and with their peers. Students can expect helpful feedback and fresh perspectives on their research topics and possible career paths and will have the opportunity to interact closely with expert researchers in their field. The colloquium will support community-building by connecting beginning and advanced researchers.
