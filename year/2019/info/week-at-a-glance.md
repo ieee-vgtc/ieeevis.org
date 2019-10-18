@@ -254,7 +254,7 @@ permalink: /year/2019/info/week-at-a-glance
 
 *9:00AM-12:20PM*
 
-* [BioVis Challenge](http://biovis.net/2019/biovisChallenges_vis/) (location: Room 1)
+* [BioVis Challenge](http://biovis.net/2019/program_ieee/) (location: Room 1)
 
 <a name="thursday-posters">*9:00AM-5:40PM*</a>
 
