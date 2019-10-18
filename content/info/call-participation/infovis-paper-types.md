@@ -2,7 +2,7 @@
 title: InfoVis Paper Types
 layout: page
 sidebar: call-for-participation
-permalink: /info/call-participation/infovis-paper-types
+permalink: /year/2019/info/call-participation/infovis-paper-types
 ---
 
 The **IEEE Information Visualization (InfoVis)** conference solicits original research papers on a diverse set of topics related to information visualization. Papers may contribute new or improved visual encoding or interaction techniques; evaluations of techniques and tools; models or theories related to visualization; systems that support visual data analysis; and the application of visualization to a broad range real-world contexts and domains.
