@@ -1,7 +1,7 @@
 ---
 title: Conference Committee
 layout: page
-permalink: /info/committees/conference-committee
+permalink: /year/2019/info/committees/conference-committee
 ---
 
 
