@@ -1,6 +1,7 @@
 ---
 title: meetups
-layout: main-2019
+layout: page
+active_nav: "Events & Community"
 permalink: /year/2019/info/meetups
 ---
 
