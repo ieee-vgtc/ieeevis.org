@@ -1,7 +1,7 @@
 ---
 title: Speakers and Presenters
 layout: page
-permalink: /info/presenter-information/speakers-and-presenters
+permalink: /year/2019/info/presenter-information/speakers-and-presenters
 ---
 VIS Paper presenters have 15 minutes --- including questions --- for
 their talk. Please be respectful of this time limit.  
