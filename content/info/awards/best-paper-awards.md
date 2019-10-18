@@ -2,9 +2,10 @@
 layout: page
 title: Best Paper Awards
 layout: page
-permalink: /info/awards/best-paper-awards
+permalink: /year/2019/info/awards/best-paper-awards
 active_nav: "Program"
 ---
+
 Best paper and honorable mention awards are selected per conference track by a dedicated committee of experienced community members. 
 Both awards recognize outstanding work from the pool of accepted papers in each conference track. Best paper committees use a variety of criteria to select the best paper including potential impact to the community, 
 the importance of any results obtained, technical challenges overcome, etc. 
