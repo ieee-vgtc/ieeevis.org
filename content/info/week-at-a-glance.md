@@ -1,7 +1,7 @@
 ---
 title: Week at a Glance
 layout: page
-permalink: /info/week-at-a-glance
+permalink: /year/2019/info/week-at-a-glance
 ---
 
 <object type="image/svg+xml" data="/year/2019/content/info/2019-schedule.svg" style="margin-top: 20px;"></object>
