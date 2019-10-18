@@ -266,6 +266,14 @@ menu:
                   - text: "Vis Pioneers Group"
                     url: "http://vacommunity.org/ieeevpg/"
                     is_external: true
+              - heading: "Social Media"
+                links:
+                  - text: "Facebook"
+                    url: "https://www.facebook.com/ieeevis"
+                    is_external: true
+                  - text: "Twitter"
+                    url: "https://twitter.com/ieeevis"
+                    is_external: true
           - heading: "Doctoral Colloquium"
             heading_url: "/year/2019/info/doctoral-colloquium"
             description: "Discuss in-progress Ph.D work with leading senior researchers"
@@ -354,10 +362,12 @@ menu:
              - links:
                 - text: "October 26-30, 2020, Salt Lake City, Utah, USA"
                   description: "General Chairs: Mike Kirby and Valerio Pascucci, University of Utah"
-                  url: ""
+                  url: "/"
                 - text: "October/November 2021, New Orleans, Louisiana, USA"
-                - description: "General Chairs: Brian Summa, Tulane University, Gustavo Nonato, Universidade de São Paulo, Valerio Pascucci, University of Utah"
+                  description: "General Chairs: Brian Summa, Tulane University, Gustavo Nonato, Universidade de São Paulo, Valerio Pascucci, University of Utah"
+                  url: "/"
                 - text: "Bidding"
-                - description: "Guidelines to bid for a future location of IEEE VIS"
+                  description: "Guidelines to bid for a future location of IEEE VIS"
+                  url: "/governance/bids"
                   #                  url: "/governance/VISBidGuidelines.pdf"
 
