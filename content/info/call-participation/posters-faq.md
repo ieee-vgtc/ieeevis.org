@@ -2,7 +2,7 @@
 title: Posters FAQ
 layout: page
 sidebar: call-for-participation
-permalink: /info/call-participation/posters-faq
+permalink: /year/2019/info/call-participation/posters-faq
 active_nav: "Contribute"
 ---
 
