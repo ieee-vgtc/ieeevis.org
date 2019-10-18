@@ -1,7 +1,7 @@
 ---
 title: IEEE VIS Code of Conduct
 layout: page
-permalink: /info/inclusion-and-diversity/code-of-conduct
+permalink: /year/2019/info/inclusion-and-diversity/code-of-conduct
 ---
 
 IEEE VIS is committed to providing an inclusive and harassment-free environment in all interactions regardless of gender, sexual orientation, disability, physical appearance, race, or religion. This commitment extends to  all IEEE VIS sponsored events and services (webinars, committee meetings, networking functions, online forums, chat rooms, and social media) and any interaction regardless of affiliation or position. As a community that aims to share ideas and freedom of thought and expression, it is essential that the interaction between attendees take place in an environment that recognizes the inherent worth of every person by being respectful of all. IEEE VIS does not tolerate harassment in any form. Harassment is any form of behavior intended to exclude, intimidate, or cause discomfort. Harassment includes, but is not limited to, the use of abusive or degrading language, intimidation, stalking, harassing photography or recording, inappropriate physical contact, and unwelcome sexual attention. 
