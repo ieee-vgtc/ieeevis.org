@@ -269,3 +269,108 @@ menu:
           - heading: "Doctorial Colloquium"
             heading_url: "/year/2019/info/doctoral-colloquium"
             description: "Discuss in-progress Ph.D work with leading senior researchers"
+
+  - dropdown: "Organization & History"
+    display: true
+    sections:
+      - subsections:
+          - heading: "Committees"
+            links:
+              - text: "VIS Conference Committees"
+                url: "/year/2019/info/committees/conference-committee"
+              - text: "Program Committees"
+                url: "/year/2019/info/committees/infovis-program-committee"
+              - text: "Steering Committees"
+                url: "/year/2019/info/committees/infovis-steering-committee"
+              - text: "VIS Executive Committee"
+                url: "/year/2019/info/committees/vis-executive-committee"
+              - text: "Restructuring and reVISe"
+                url:  "/governance/restructuring"
+
+      - subsections:
+          - heading: "Previous Years"
+            heading_url: "/year/2019/info/call-participation/community"
+            display_style: "inline"
+            links:
+              - text: "2018"
+                url: "http://ieeevis.org/year/2018/welcome"
+
+              - text: "2017"
+                url: "http://ieeevis.org/year/2017/welcome"
+
+              - text: "2016"
+                url: "http://ieeevis.org/year/2016/info/vis-welcome/welcome"
+
+              - text: "2015"
+                url: "http://ieeevis.org/year/2015/info/vis-welcome/welcome"
+
+              - text: "2014"
+                url: "http://ieeevis.org/year/2014/info/vis-welcome/welcome"
+
+              - text: "2013"
+                url: "http://ieeevis.org/year/2013/info/vis-welcome/welcome"
+
+              - text: "2012"
+                url: "http://ieeevis.org/year/2012/info/call-participation/welcome"
+
+              - text: "2011"
+                url: "http://ieeevis.org/year/2011/info/call-participation/welcome"
+
+              - text: "2010"
+                url: "http://vis.computer.org/VisWeek2010/"
+
+              - text: "2009"
+                url: "http://vis.computer.org/VisWeek2009/"
+
+              - text: "2008"
+                url: "http://vis.computer.org/VisWeek2008/"
+
+              - text: "2007"
+                url: "http://vis.computer.org/vis2007/"
+
+              - text: "2006"
+                url: "http://vis.computer.org/vis2006/"
+
+              - text: "2005"
+                url: "http://vis.computer.org/vis2005/"
+
+              - text: "2004"
+                url: "http://vis.computer.org/vis2004/"
+
+              - text: "2003"
+                url: "http://vis.computer.org/vis2003/"
+
+              - text: "2002"
+                url: "http://vis.computer.org/vis2002/"
+
+              - text: "2001"
+                url: "http://vis.computer.org/vis2001/"
+
+              - text: "2000"
+                url: "http://www.hpc.msstate.edu/conferences/vis00/"
+
+              - text: "1999"
+                url: "http://www.hpc.msstate.edu/conferences/vis99/"
+
+              - text: "1998"
+               url: "http://www.hpc.msstate.edu/conferences/vis98/"
+
+              - text: "1997"
+                url: "http://www.hpc.msstate.edu/conferences/vis97/"
+
+              - text: "1996"
+                url: "http://www.hpc.msstate.edu/conferences/vis96/"
+
+      - subsections:
+          - heading: "Upcoming Years"
+            columns:
+              - heading: "October 26-30, 2020, Salt Lake City, Utah, USA"
+                description: "General Chairs: Mike Kirby and Valerio Pascucci, University of Utah"
+              
+              - heading: "October/November 2021, New Orleans, Louisiana, USA"
+                description: "General Chairs: Brian Summa, Tulane University Gustavo Nonato, Universidade de São Paulo Valerio Pascucci, University of Utah"
+
+              - heading: "Bid Guidelines"
+                heading_url: "/governance/VISBidGuidelines.pdf"
+                description: "Guidelines to bid for a future location of the IEEE VIS Conference"
+
