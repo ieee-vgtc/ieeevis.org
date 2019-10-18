@@ -1,7 +1,7 @@
 ---
 title: VIS Executive Committee
 layout: page
-permalink: /info/committees/vis-executive-committee
+permalink: /year/2019/info/committees/vis-executive-committee
 ---
 
 | Jim Ahrens | *Los Alamos National Laboratory<br>(VGTC Chair.)*
