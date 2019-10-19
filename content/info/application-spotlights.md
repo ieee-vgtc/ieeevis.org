@@ -5,7 +5,7 @@ permalink: /year/2019/info/application-spotlights
 ---
 
 
-## <a name="Climate"></a> Visualization in Meteorology and Climate Sciences: Recent Research and Open Challenges  
+## <a name="climate"></a> Visualization in Meteorology and Climate Sciences: Recent Research and Open Challenges  
 
 Sunday, October 20: 2:20-3:50PM in Room 15  
 
@@ -15,7 +15,7 @@ Meteorology and climate sciences are recurrent application domains in research o
 
 
 
-## <a name="Trajectory"></a> Visual Analysis of Air and Maritime Trajectory Data
+## <a name="trajectory"></a> Visual Analysis of Air and Maritime Trajectory Data
 
 Sunday, October 20: 4:10-5:40PM in Room 15
 
@@ -51,7 +51,7 @@ We recently organized a Shonan seminar (#145) addressing this topic. As a group,
 Generally, requirements for successful visualizations differ from the requirements for successfully publishing a paper in the VIS community, i.e. scientific novelty does not speak for its applicability in daily routine. For example, the number of novel VIS contributions in the medical area does not directly translate into a larger number of VIS techniques being used in the clinical setting.  
 The proposed spotlight will be organized similar to a panel discussion. We will give one primer talk summarizing the Shonan seminar and one detailing the specific issues of medical visualization ourselves. Subsequently, four invited panelists will give additional perspectives on the problems: Chris Johnson, David Laidlaw, Paul Navratil and Anna Vilanova. There will be ample time for discussion since we want to give the vis community as a whole the opportunity to extend and refine the scope of the problem and to join the efforts of the seminar attendees to tackle these challenges. One specific outcome of this session will be a rough concept for a follow-up Dagstuhl meeting on this topic.
 
-## <a name="Energy"></a> Visualization Paradigms in the Renewable Energy Space
+## <a name="energy"></a> Visualization Paradigms in the Renewable Energy Space
 
 Monday, October 21: 4:10-5:40PM in Room 15
 
@@ -61,7 +61,7 @@ Visualization is commonly used in the renewable energy space, not only by analys
 
 
 
-## <a name="Discovery"></a> Visualization Enabled Scientific Discovery
+## <a name="discovery"></a> Visualization Enabled Scientific Discovery
 
 Tuesday, October 22: 4:10-5:40PM in Room 2+3  
 
@@ -88,7 +88,7 @@ In this Application Spotlight we will discuss these questions and some of the ne
 
 
 
-## <a name="Guidance"></a> Knowledge-assisted Visual Analytics meets Guidance and Onboarding
+## <a name="guidance"></a> Knowledge-assisted Visual Analytics meets Guidance and Onboarding
 
 Thursday, October 24: 4:10-5:40PM in Room 2+3  
 
@@ -98,7 +98,7 @@ Using explicit knowledge for both, onboarding and guidance can be highly benefic
 
 
 
-## <a name="DecisionMaking"></a> Feature-based Visual Interactive Systems to Optimize Decision Making
+## <a name="decision"></a> Feature-based Visual Interactive Systems to Optimize Decision Making
 
 Friday, October 25: 9:00-10:40AM in Room 2+3
 
