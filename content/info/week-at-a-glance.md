@@ -17,6 +17,10 @@ To use the conference app, download the CrowdCompass AttendeeHub for iOS or Andr
 
 [CrowdCompass AttendeeHub Google Play](https://play.google.com/store/apps/details?id=com.crowdcompass.app4815162342)
 
+# Week at a Glance
+[Download the pocket program (PDF)](/year/2019/assets/vis19-AAG-web.pdf)
+
+
 ---
 
 <a name="saturday">**Saturday, October 19**</a>
