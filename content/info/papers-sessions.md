@@ -788,8 +788,34 @@ Authors: Mohammad Raji, Alok Hota, Tanner Hobson, Jian Huang
 Authors: Nicola Pezzotti, Julian Thijssen, Alexander Mordvintsev, Thomas Höllt, Baldur van Lew, Boudewijn P.F. Lelieveldt, Elmar Eisemann, Anna Vilanova
 <br>[Video Preview](https://vimeo.com/360155729)
 		
-<hr/>		
+<hr/>	
+
+<a name="siggraph">**THURSDAY, OCTOBER 24**</a>  
+**9:00-10:30AM**  
+**Room: 8+15**  
+*SIGGRAPH Invited Papers* 
+*Session Chair: Klaus Mueller*  
 		
+**Volume Path Guiding Based on Zero-Variance Random Walk Theory**  
+Authors: Sebastian Herholz
+		
+**A Null-Scattering Path Integral Formulation of Light Transport**  
+Authors: Bailey Miller
+		
+**Warp-and-Project Tomography for Rapidly Deforming Objects**  
+Authors: Wolfgang Heidrich
+		
+**A Learned Shape-Adaptive Subsurface Scattering Model**  
+Authors: Delio Aleardo Vicini
+		
+**Designing Chain Reaction Contraptions From Causal Graphs**  
+Authors: Robin Roussel
+		
+**Neural Volumes: Learning Dynamic Renderable Volumes from Images**  
+Authors: Stephen Lombardi, Tomas Simon, Jason Saragih, Gabriel Schwartz, Andreas Lehrmann, Yaser Sheikh
+		
+<hr/>		
+	
 <a name="scatterplots">**THURSDAY, OCTOBER 24**</a>  
 **10:50AM-12:20PM**  
 **Room: Ballroom A**  
