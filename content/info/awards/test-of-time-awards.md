@@ -21,59 +21,37 @@ InfoVis currently considers conferences 10 and 20 years prior to the current con
 
 SciVis currently considers 15 and 25 years prior to the current conference.
 
-## VAST 2008: 10 Years Test of Time Award 
-**Spatio-temporal Aggregation for Visual Analysis of Movements** 
-Authors: Gennady Andrienko and Natalia Andrienko <br>
-<a href="https://doi.org/10.1109/VAST.2008.4677356">https://doi.org/10.1109/VAST.2008.4677356</a><br>
-Proc. IEEE VAST 2008, pages 51-58, 2008.
+## VAST 2009: 10 Years Test of Time Award 
+**Parallel tag clouds to explore and analyze faceted text corpora**  
+Authors: Christopher Collins, Fernanda B. Viegas, and Martin Wattenberg <br>
+<a href="https://doi.org/10.1109/VAST.2009.5333443">https://doi.org/10.1109/VAST.2009.5333443</a><br>
 
-Analyzing and visualizing data about object movements has been a prevailing topic since the advent of VAST. Because of its scale and complexity, this form of spatiotemporal data has always posed a major challenge to the tasks of observing and analyzing movements visually. In this 2008 VAST paper, co-authors Gennady and Natalia Andrienko, presented the first in-depth study on the methods for aggregating movement data and visual designs for depicting aggregated information. The work has provided subsequent research on this topic with a significant benchmark, and its influence and impact remains prevalent today.
+Do court cases differ from place to place? What kind of picture do we get by looking at a country's collection of law cases? We introduce parallel tag clouds: a new way to visualize differences amongst facets of very large metadata-rich text corpora. We have pointed parallel tag clouds at a collection of over 600,000 US Circuit Court decisions spanning a period of 50 years and have discovered regional as well as linguistic differences between courts. The visualization technique combines graphical elements from parallel coordinates and traditional tag clouds to provide rich overviews of a document collection while acting as an entry point for exploration of individual texts. We augment basic parallel tag clouds with a details-in-context display and an option to visualize changes over a second facet of the data, such as time. We also address text mining challenges such as selecting the best words to visualize, and how to do so in reasonable time periods to maintain interactivity.
 
 ## InfoVis 
-**1998: An Operator Interaction Framework For Visualization Systems** 
-Authors: Chi, E.H.; Riedl, J. <br>
-<a href="https://doi.org/10.1109/INFVIS.1998.729560">https://doi.org/10.1109/INFVIS.1998.729560</a><br>
+**1999: Cluster and calendar based visualization of time series data**  
+Authors: J.J. Van Wijk, E.R. Van Selow <br>
+<a href="https://doi.org/10.1109/INFVIS.1999.801851">https://doi.org/10.1109/INFVIS.1999.801851</a><br>
 
-The operator interaction framework established a foundation for understanding interaction in InfoVis by characterizing actions or ‘operators’ in relation to the visualization pipeline. The model introduced in this work helps both system designers and end users understand and predict the effects of interaction by identifying that they occur at different levels of abstraction. As such, it is a foundational work contributing to the visualization reference model and it established an important basis for engineering of interaction in visualization systems. The paper has been extensively cited, including many recent citations, indicating its continued relevance even 20 years later.
+A new method is presented to get an insight into univariate time series data. The problem addressed is how to identify patterns and trends on multiple time scales (days, weeks, seasons) simultaneously. The solution presented is to cluster similar daily data patterns, and to visualize the average patterns as graphs and the corresponding days on a calendar. This presentation provides a quick insight into both standard and exceptional patterns. Furthermore, it is well suited to interactive exploration. Two applications, numbers of employees present and energy consumption, are presented.
 
-**2008: Effectiveness of Animation in Trend Visualization** 
-Authors: George G. Robertson; Roland Fernandez; Danyel Fisher; Bongshin Lee; John T. Stasko <br>
-<a href="https://doi.org/10.1109/TVCG.2008.125">https://doi.org/10.1109/TVCG.2008.125</a><br>
+**2009: A Nested Model for Visualization Design and Validation**  
+Authors: Tamara Munzner <br>
+<a href="https://doi.org/10.1109/TVCG.2009.111">https://doi.org/10.1109/TVCG.2009.111</a><br>
 
-Inspired by the Roslings’ Gapminder, Robertson et al. conducted experiments to establish whether and when the animated transitions used in Trendalyzer might be effective. Their comparison of three trend visualization methods found small multiples to be preferable for analysis but animation to be fastest for presentation, enjoyable, exciting and error-prone. These empirical findings draw attention to some of the difficult trade-offs encountered in visualization, helping designers navigate the evolving design space for exploration and communication with some confidence in knowledge of the likely implications of their decisions. The work itself has been widely accepted, broadly cited and applied by many in visualization design contexts. It has seeded follow up studies and acted as a model for the controlled empirical study of dynamic visualization in use and can inspire others to assess the efficacy of emerging visualization methods.
+We present a nested model for the visualization design and validation with four layers: characterize the task and data in the vocabulary of the problem domain, abstract into operations and data types, design visual encoding and interaction techniques, and create algorithms to execute techniques efficiently. The output from a level above is input to the level below, bringing attention to the design challenge that an upstream error inevitably cascades to all downstream levels. This model provides prescriptive guidance for determining appropriate evaluation approaches by identifying threats to validity unique to each level. We also provide three recommendations motivated by this model: authors should distinguish between these levels when claiming contributions at more than one of them, authors should explicitly state upstream assumptions at levels above the focus of a paper, and visualization venues should accept more papers on domain characterization.
 
 ## SciVis
-**1993: Texture splats for 3D scalar and vector field visualization** 
-Authors: Roger Crawfis; Nelson L. Max <br>
-<a href="https://doi.org/10.1109/VISUAL.1993.398877">https://doi.org/10.1109/VISUAL.1993.398877</a><br>
+**1994: An evaluation of reconstruction filters for volume rendering**  
+Authors: Stephen Marschner and Richard Lobb <br>
+<a href="https://doi.org/10.1109/VISUAL.1994.346331">https://doi.org/10.1109/VISUAL.1994.346331</a><br>
 
-Vector field visualization continues to be one of the most active
-topics for scientific visualization research. To visualize three
-dimensional vectors, how to clearly depict the flow directions, the
-associated scalar attributes, and in the mean time to avoid 3D occlusion
-and visual cluttering remains to be a challenge problem. In this
-paper, the authors present one of the first techniques that employ
-volume rendering to combine scalar and vector fields to
-produce a single picture. Based on the concept of texture splatting, a
-well known volume rendering technique, the authors introduce an ideal
-reconstruction function for 3D signals to produce texture maps for the
-splats. Even compared to the techniques developed recently, the method still
-produces flow animations in the best quality.  The 2018 SciVis Test of Time
-award committee selected this paper as the 25 years IEEE SciVis Test of Time
-award winner based on its originality, the importance, and the long
-term impact to the application areas.
+To render images from a three-dimensional array of sample values, it is necessary to interpolate between the samples. This paper is concerned with interpolation methods that are equivalent to convolving the samples with a reconstruction filter; this covers all commonly used schemes, including trilinear and cubic interpolation. We first outline the formal basis of interpolation in three-dimensional signal processing theory. We then propose numerical metrics that can be used to measure filter characteristics that are relevant to the appearance of images generated using that filter. We apply those metrics to several previously used filters and relate the results to isosurface images of the interpolations. We show that the choice of interpolation scheme can have a dramatic effect on image quality, and we discuss the cost/benefit tradeoff inherent in choosing a filter.
 
-**2003: Acceleration techniques for GPU-based volume rendering**
-Authors: Jens H. Krüger; Rüdiger Westermann <br>
-<a href="https://doi.org/10.1109/VISUAL.2003.1250384">https://doi.org/10.1109/VISUAL.2003.1250384</a><br>
+**2004: Simplifying Flexible Isosurfaces Using local Geometric Measures**  
+Authors: Hamish Carr, Jack Snoeyink, Michiel van de Panne <br>
+<a href="https://doi.org/10.1109/VISUAL.2004.96">https://doi.org/10.1109/VISUAL.2004.96</a><br>
 
-In the 90s after volume rendering was first introduced, many research ideas were introduced to accelerate ray casting that ran on CPUs, among which early ray termination and empty space leaping are the most popular techniques. Later with the advent of GPUs and 3D texture hardware, volume rendering was made to run at an interactive
-speed for data of moderate size. For very large scale
-volumes, however, the speed of GPU-based volume rendering can still bequite
-slow due to the expensive per-fragment operations involved. In this paper, the authors show how to exploit early z-test to terminate fragment processing when its opacity reaches full, and how to skip empty space along rays. These were two issues mostly
-overlooked at that time,  and believed hard to implement on GPUs. After 15 years since the paper was  published, the techniques presented are still used and became even more relevant as more powerful GPUs become available. The 2018 SciVis Test of Time
-award committee selected this paper as the  15 year IEEE SciVis Test of Time
-award winner based on its originality, the importance, and the long
-term impact to the application areas.
+The contour tree, an abstraction of a scalar field that encodes the nesting relationships of isosurfaces, can be used to accelerate isosurface extraction, to identify important isovalues for volume-rendering transfer functions, and to guide exploratory visualization through a flexible isosurface interface. Many real-world data sets produce unmanageably large contour trees which require meaningful simplification. We define local geometric measures for individual contours, such as surface area and contained volume, and provide an algorithm to compute these measures in a contour tree. We then use these geometric measures to simplify the contour trees, suppressing minor topological features of the data. We combine this with a flexible isosurface interface to allow users to explore individual contours of a dataset interactively.
 
 
