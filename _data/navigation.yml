@@ -192,8 +192,8 @@ menu:
                 #   url: "https://www.google.com"
                 # - text: "VGTC VIS Awards"
                 #   url: "https://www.google.com"
-                # - text: "Test of Time Awards"
-                #   url: "https://www.google.com"
+                - text: "Test of Time Awards"
+                  url: "/year/2019/info/awards/test-of-time-awards"
 
 
   - dropdown: "Events & Community"
