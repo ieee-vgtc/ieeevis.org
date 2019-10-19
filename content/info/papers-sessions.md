@@ -793,7 +793,7 @@ Authors: Nicola Pezzotti, Julian Thijssen, Alexander Mordvintsev, Thomas Höllt,
 <a name="siggraph">**THURSDAY, OCTOBER 24**</a>  
 **9:00-10:30AM**  
 **Room: 8+15**  
-*SIGGRAPH Invited Papers* 
+*SIGGRAPH Invited Papers*  
 *Session Chair: Klaus Mueller*  
 		
 **Volume Path Guiding Based on Zero-Variance Random Walk Theory**  
