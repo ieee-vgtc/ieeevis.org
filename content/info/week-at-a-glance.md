@@ -45,9 +45,9 @@ To use the conference app, download the CrowdCompass AttendeeHub for iOS or Andr
 
 *9:00AM-5:40PM*
 
-* VDS (location: Ballroom A)
-* VAHC (location: Ballroom B)
-* VIS4DH (location: Ballroom C)
+* [VDS](http://www.visualdatascience.org/2019/program/) (location: Ballroom A)
+* [VAHC](https://visualanalyticshealthcare.org/program.html) (location: Ballroom B)
+* [VIS4DH](http://vis4dh.dbvis.de/schedule.html) (location: Ballroom C)
 
 <a name="sunday-posters">*9:00AM-9:00PM*</a>
 
@@ -70,7 +70,7 @@ To use the conference app, download the CrowdCompass AttendeeHub for iOS or Andr
 
 *2:20-3:50PM*
 
-* Application Spotlight: Visualization in meteorology and climate sciences: recent research and open challenge (location: Room 15)
+* [Application Spotlight: Visualization in meteorology and climate sciences: recent research and open challenge](/year/2019/info/application-spotlights#climate) (location: Room 15)
 
 *3:50-4:10PM*
 
@@ -78,7 +78,7 @@ To use the conference app, download the CrowdCompass AttendeeHub for iOS or Andr
 
 <a name="sunday-third">*4:10-5:40PM*</a>
 
-* Application Spotlight: Visual Analysis of Air and Maritime Trajectory Data (location: Room 15)
+* [Application Spotlight: Visual Analysis of Air and Maritime Trajectory Data](/year/2019/info/application-spotlights#trajectory) (location: Room 15)
 
 <a name="sunday-fourth">*7:00-9:00PM*</a>
 
@@ -99,7 +99,7 @@ To use the conference app, download the CrowdCompass AttendeeHub for iOS or Andr
 *9:00AM-5:40PM*
 
 * [Posters](/year/2019/info/posters) (location: Exhibition Hall A)
-* LDAV (location: Ballroom A)
+* [LDAV](https://ldav.org/program.html) (location: Ballroom A)
 * [VisInPractice](https://visinpractice.github.io) (location: Ballroom B)
 * [VAST Challenge](https://vast-challenge.github.io/2019/) (location: Ballroom C)
 
@@ -120,7 +120,7 @@ To use the conference app, download the CrowdCompass AttendeeHub for iOS or Andr
 
 *2:20-3:50PM*
 
-* Application Spotlight: Visualization Software Development for Researchers and End Users - from general issues to specific challenges for medical  (location: Room 15)
+* [Application Spotlight: Visualization Software Development for Researchers and End Users - from general issues to specific challenges for medical](/year/2019/info/application-spotlights#medical) (location: Room 15)
 
 *3:50-4:10PM*
 
@@ -128,7 +128,7 @@ To use the conference app, download the CrowdCompass AttendeeHub for iOS or Andr
 
 <a name="monday-third">*4:10-5:40PM*</a>
 
-* Application Spotlight: Visualization paradigms in the renewable energy space (location: Room 15)
+* [Application Spotlight: Visualization paradigms in the renewable energy space](/year/2019/info/application-spotlights#energy) (location: Room 15)
 
 <a name="monday-fourth">*6:00-7:30PM*</a>
 
@@ -156,7 +156,7 @@ To use the conference app, download the CrowdCompass AttendeeHub for iOS or Andr
 
 <a name="tuesday-third">*11:20AM-12:20PM*</a>
 
-* VIS Keynote (location: Ballroom ABC)
+* [VIS Keynote](/year/2019/info/keynote) (location: Ballroom ABC)
 
 *12:20-2:20PM*
 
@@ -190,7 +190,7 @@ To use the conference app, download the CrowdCompass AttendeeHub for iOS or Andr
 * [Features and Topology](/year/2019/info/papers-sessions#featurestopology) (location: Ballroom B)
 * [Bias & Patterns](/year/2019/info/papers-sessions#biaspatterns) (location: Ballroom C)
 * [Short Papers: Systems and Design Studies](/year/2019/info/papers-sessions#shortsystems) (location: Room 1)
-* Application Spotlight: Visualization Enabled Scientific Discovery (location: Room 2+3)
+* [Application Spotlight: Visualization Enabled Scientific Discovery](/year/2019/info/application-spotlights#discovery) (location: Room 2+3)
 * Supporters Presentations (location: Room 8+15)
 
 <a name="tuesday-sixth">*6:30-9:00PM*</a>
@@ -210,7 +210,7 @@ To use the conference app, download the CrowdCompass AttendeeHub for iOS or Andr
 * [Drawing Nodes and Edges](/year/2019/info/papers-sessions#nodesedges) (location: Ballroom B)
 * [Flow](/year/2019/info/papers-sessions#flow) (location: Ballroom C)
 * [Short Papers: Perception, Cognition, and Visualization Design](/year/2019/info/papers-sessions#shortdesign) (location: Room 1)
-* VizSec (location: Room 2+3)
+* [VizSec](https://vizsec.org/vizsec2019/) (location: Room 2+3)
 * [VISAP Session 1](https://visap.net/program.html#session1) (location: Room 8+15)
 
 <a name="wednesday-posters">*9:00AM-5:40PM*</a>
@@ -227,8 +227,8 @@ To use the conference app, download the CrowdCompass AttendeeHub for iOS or Andr
 * [Animation and Sports](/year/2019/info/papers-sessions#animationsports) (location: Ballroom B)
 * [Multivariate & Multidimensional Data](/year/2019/info/papers-sessions#multidata) (location: Ballroom C)
 * [CG&A Session 1](/year/2019/info/papers-sessions#cga1) (location: Room 8+15)
-* Application Spotlight: Does AI mean data visualization is dead? (location: Room 1) 
-* VizSec (location: Room 2+3)
+* [Application Spotlight: Does AI mean data visualization is dead?](/year/2019/info/application-spotlights#AI) (location: Room 1) 
+* [VizSec](https://vizsec.org/vizsec2019/) (location: Room 2+3)
 
 *12:20-2:20PM*
 
@@ -320,7 +320,7 @@ To use the conference app, download the CrowdCompass AttendeeHub for iOS or Andr
 * [Words & Documents](/year/2019/info/papers-sessions#worddocuments) (location: Ballroom B)
 * [What's the Difference?](/year/2019/info/papers-sessions#difference) (location: Ballroom C)
 * [Short Papers: Multi-Dimensional Data, Time Series, Graphs, and Trees](/year/2019/info/papers-sessions#shortvis) (location: Room 1)
-* Application Spotlight: Knowledge-assisted Visual Analytics meets Guidance and Onboarding (location: Room 2+3)
+* [Application Spotlight: Knowledge-assisted Visual Analytics meets Guidance and Onboarding](/year/2019/info/application-spotlights#onboarding) (location: Room 2+3) 
 
 <hr/>
 
@@ -332,7 +332,7 @@ To use the conference app, download the CrowdCompass AttendeeHub for iOS or Andr
 * [Color](/year/2019/info/papers-sessions#color) (location: Ballroom B)
 * [Searching & Querying](/year/2019/info/papers-sessions#searchingquerying) (location: Ballroom C)
 * [Short Papers: Scalar, Vector, and Tensor Fields](/year/2019/info/papers-sessions#shortfields) (location: Room 1)
-* Application Spotlight: Feature-based Visual Interactive Systems to Optimize Decision Making (location: Room 2+3)
+* [Application Spotlight: Feature-based Visual Interactive Systems to Optimize Decision Making](/year/2019/info/application-spotlights#decision) (location: Room 2+3) 
 
 *10:30-10:50AM*
 
@@ -340,7 +340,7 @@ To use the conference app, download the CrowdCompass AttendeeHub for iOS or Andr
 
 <a name="friday-second">*11:00-12:00PM*</a>
 
-* VIS Capstone (location: Ballroom ABC)
+* [VIS Capstone](/year/2019/info/capstone) (location: Ballroom ABC)
 
 <a name="friday-third">*12:00-12:30PM*</a>
 
