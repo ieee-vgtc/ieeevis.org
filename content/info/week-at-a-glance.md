@@ -156,7 +156,7 @@ To use the conference app, download the CrowdCompass AttendeeHub for iOS or Andr
 
 <a name="tuesday-third">*11:20AM-12:20PM*</a>
 
-* [VIS Keynote](/year/2019/info/keynote) (location: Ballroom ABC)
+* [VIS Keynote](/year/2019/keynote) (location: Ballroom ABC)
 
 *12:20-2:20PM*
 
@@ -340,7 +340,7 @@ To use the conference app, download the CrowdCompass AttendeeHub for iOS or Andr
 
 <a name="friday-second">*11:00-12:00PM*</a>
 
-* [VIS Capstone](/year/2019/info/capstone) (location: Ballroom ABC)
+* [VIS Capstone](/year/2019/capstone) (location: Ballroom ABC)
 
 <a name="friday-third">*12:00-12:30PM*</a>
 
