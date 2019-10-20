@@ -113,9 +113,9 @@ To use the conference app, download the CrowdCompass AttendeeHub for iOS or Andr
 
 <a name="monday-second">*2:20-5:40PM*</a>
 
-* [Workshop: Challenges in Multilayer Network Visualization and Analysis](/year/2019/info/workshops#multilayer) (location: Room 1)
+* [Workshop: Challenges in Multilayer Network Visualization and Analysis](/year/2019/info/workshops#multilayer) (location: Room 3)
 * [Tutorial: Visualization for Social Good](/year/2019/info/tutorials#Social) (location: Room 2)
-* [Workshop: 2nd Workshop on Visualization for AI Explainability (VISxAI)](/year/2019/info/workshops#visxai) (location: Room 3)
+* [Workshop: 2nd Workshop on Visualization for AI Explainability (VISxAI)](/year/2019/info/workshops#visxai) (location: Room 1)
 * [Tutorial: User-Centred Evaluation in Visualization](/year/2019/info/tutorials#Eval) (location: Room 8)
 
 *2:20-3:50PM*
