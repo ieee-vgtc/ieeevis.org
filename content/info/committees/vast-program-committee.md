@@ -19,7 +19,7 @@ permalink: /year/2019/info/committees/vast-program-committee
 | Haeyong Chung | *University of Alabama, Huntsville* |
 | Kristin Cook | *Pacific Northwest National Laboratory* |
 | Patricia Crossno | *Sandia National Laboratories* |
-| Jordan R. Crouser | *Smith College* |
+| R. Jordan Crouser | *Smith College* |
 | Aritra Dasgupta | *New Jersey Institute of Technology* |
 | Wenwen Dou | *University of North Carolina at Charlotte* |
 | David Ebert | *Purdue University* |

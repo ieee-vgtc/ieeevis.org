@@ -75,7 +75,7 @@ permalink: /year/2019/info/committees/conference-committee
 |---
 | **VAST Challenge Chairs** | |
 | Kristin Cook | *Pacific Northwest National Laboratory* |
-| Jordan Crouser | *Smith College* |
+| R. Jordan Crouser | *Smith College* |
 |---
 | **SciVis Contest Chairs** | |
 | John Patchett | *Los Alamos National Laboratory* |
