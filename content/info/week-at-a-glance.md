@@ -298,7 +298,7 @@ To use the conference app, download the CrowdCompass AttendeeHub for iOS or Andr
 
 * Lunch Break 
 
-*1:00-2:00PM*
+*1:00-1:25PM*
 
 * VIS 2020 Kick-off Meeting (location: Ballroom A)
 
