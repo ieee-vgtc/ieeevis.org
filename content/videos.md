@@ -5,7 +5,7 @@ permalink: /2019/info/videos
 active_nav: "Program"
 ---
 
-Monday, 20 October 2019 | [VDS](http://www.visualdatascience.org)  
+Sunday, 20 October 2019 | [VDS](http://www.visualdatascience.org)  
 
 Keynote: Interpretability - now what?  
 Been Kim, Google  
