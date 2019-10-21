@@ -1,7 +1,7 @@
 ---
 title: Videos
 layout: page
-permalink: /2019/info/videos
+permalink: /year/2019/info/videos
 active_nav: "Program"
 ---
 
