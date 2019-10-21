@@ -24,6 +24,7 @@ permalink: /year/2019/info/meetups
 * [Building an Inclusive VIS Community](#inclusion) (Thursday)
 * [Inviwo](#inviwo) (Thursday)
 * [Viewpoints on Diversity through the VIS history](#viewpoints) (Thursday)
+* [TTK - Developers - Second Meetup!](#ttk2) (Thursday)
 * [Velo Club de Vis](#velo-club) (Thursday)
 
 
@@ -296,6 +297,22 @@ Contact: [diehl@ifi.uzh.ch](mailto:diehl@ifi.uzh.ch)
 
 
 There has been a long journey since 1991, the time of the first visualization symposium, until today. Since then, the VIS community has grown up in different ways. In this meetup, we would like to learn and share information and experiences about how this community developed in terms of diversity. We also would like to share useful resources and information to promote diversity in the visualization and scientific environment, exploring current challenges, and potential actions to increase diversity. In a previous meetup, at VIS in 2017, we addressed career paths for women in the visualization field. Now, we want to expand the scope of this meetup to other kinds of diversity including gender, but also geography, scientific background, age, and ethnicity. Our main goal is to wrap-up the history of diversity in VIS from its beginning until today. As a second goal, we would like to give the opportunity to the participants to share common experiences, to learn more about useful resources, and support and endorsement programs. The meetup is considered to accompany other activities and initiatives currently undertaking by the VIS conference to increase diversity. We hope that participants will get to know each other better, to share good advice in terms of reducing the ties, and to increase the heterogeneity of our VIS scientific community. If you would like to actively contribute to the meetup program to share your personal experiences, please let the organizers know.
+
+
+| |
+
+
+## <a name="ttk2"></a> TTK - Developer Second Meetup!
+
+Tursday, October 20    
+5:40PM - 7:00PM    
+Location: Room 5    
+Organizers: Jonas Lukasczyk    
+Contact: [jl@jluk.de ](mailto:jl@jluk.de ) 	
+
+
+During the meetup users and developers of the Topology ToolKit (https://topology-tool-kit.github.io/) will discuss latest developments. 
+
 
 | |
 
