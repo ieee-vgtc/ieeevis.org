@@ -21,7 +21,7 @@ permalink: /year/2019/info/meetups
 * [BrUnch](#brunch) (Wednesday)
 * [VIS Job-fair](#vis-jobfair) (Wednesday)
 * [Open Practices at VIS: journey so far and moving forward](#open-practices) (Wednesday)
-* [Building an Inclusive VIS Community](#inclusion) (Wednesday)
+* [Building an Inclusive VIS Community](#inclusion) (Thursday)
 * [Inviwo](#inviwo) (Thursday)
 * [Viewpoints on Diversity through the VIS history](#viewpoints) (Thursday)
 * [Velo Club de Vis](#velo-club) (Thursday)
@@ -260,9 +260,9 @@ VIS now has an Open Practices agenda and recruited Open Practices Chairs to help
 
 ## <a name="inclusion"></a> Building an Inclusive VIS Community
 
-Wednesday, October 23    
-4:10PM - 5:10PM    
-Location: Room 14    
+Thursday, October 24    
+10:50PM - 12:20PM    
+Location: Room 8+15    
 Organizers: Michelle Borkin, Kelly Gaither, and Arvind Satyanarayan    
 Contact: Michelle Borkin (m.borkin@northeastern.edu)
 
@@ -285,7 +285,7 @@ During the meetup users and developers of the Inviwo visualization framework (ww
 
 | |
 
-## <a name="diversity"></a> Viewpoints on Diversity through the VIS history
+## <a name="viewpoints"></a> Viewpoints on Diversity through the VIS history
 
 Thursday, October 24    
 4:10 PM - 5:40 PM    
