@@ -31,6 +31,6 @@ We made a [google drive](https://drive.google.com/drive/u/0/folders/1W8Cj0OdjOYx
 - [Meeting Minutes](https://drive.google.com/drive/u/0/folders/1RgMh9o_OUsGRQHWMLm4CCSGBU3539WIM)
 - [Working Documents](https://drive.google.com/drive/u/0/folders/1dqssldHbXLmAD9zeOqHCbfNTb8gjeHKS)
 
-**Committee Members**: Tamara Munzner (chair), Min Chen, Alex Endert, Christoph Garth, Petra Isenberg, Alexander Lex, Shixia Liu, Torsten Möller, Anders Ynnerman.
+**Committee Members**: Tamara Munzner (chair), Min Chen, Alex Endert, Christoph Garth, Petra Isenberg, Alexander Lex, Shixia Liu, Anders Ynnerman.
 
 
