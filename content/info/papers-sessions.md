@@ -899,7 +899,7 @@ Authors: Zikun Deng, Di Weng, Jiahui Chen, Ren Liu, Zhibin Wang, Jie Bao, Yu Zhe
 <br>[Video Preview](https://vimeo.com/360154598)
 		
 **[V] OD Morphing: balancing simplicity with faithfulness for OD bundling (J)**  
-Authors: Yan Lyu, Xu Liu, Hanyi Chen, Arpan Mangal, Brian Lim, Kai Liu, Chao Chen
+Authors: Yan Lyu, Xu Liu, Hanyi Chen, Arpan Mangal, Kai Liu, Chao Chen, Brian Lim
 <br>[Video Preview](https://vimeo.com/360154344)
 		
 **[V] Semantics-Space-Time Cube: A Conceptual Framework for Systematic Analysis of Texts in Space and Time (T)**  
