@@ -7,12 +7,4 @@ active_nav: "Program"
 
 Sunday, 20 October 2019 | [VDS](http://www.visualdatascience.org)  
  
-<iframe src="https://player.vimeo.com/video/367667891" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>  
-
-<br><br>
-
-<iframe src="https://player.vimeo.com/video/367670818" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>  
-
-<br><br>
-
- <iframe src="https://player.vimeo.com/video/367668018" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe> 
+<div style='padding:56.25% 0 0 0;position:relative;'><iframe src='https://vimeo.com/showcase/6517822/embed' allowfullscreen frameborder='0' style='position:absolute;top:0;left:0;width:100%;height:100%;'></iframe></div>
