@@ -16,4 +16,4 @@ John Wenskovitch, Jian Zhao, Scott Carter, Matthew Cooper, Chris North
 https://player.vimeo.com/video/367670818
 
 VDS Poster FF  
-https://player.vimeo.com/video/367668018
+<iframe src="https://player.vimeo.com/video/367668018" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
