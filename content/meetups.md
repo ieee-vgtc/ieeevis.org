@@ -21,6 +21,7 @@ permalink: /year/2019/info/meetups
 * [BrUnch](#brunch) (Wednesday)
 * [VIS Job-fair](#vis-jobfair) (Wednesday)
 * [Open Practices at VIS: journey so far and moving forward](#open-practices) (Wednesday)
+* [Progressive Data Analysis and Visualization](#progressive) (Wednesday)
 * [Building an Inclusive VIS Community](#inclusion) (Thursday)
 * [Inviwo](#inviwo) (Thursday)
 * [Viewpoints on Diversity through the VIS history](#viewpoints) (Thursday)
@@ -258,6 +259,24 @@ Contact: [cagatay.turkay@city.ac.uk](mailto:cagatay.turkay@city.ac.uk)
 VIS now has an Open Practices agenda and recruited Open Practices Chairs to help shape the process together with the visualization community. This meetup will be an open discussion where we discuss the opportunities, challenges and ways forward for making visualisation research more open and freely accessible in the coming years. The organizers will briefly share an overview of the first steps taken along this agenda so far in this first year, and then the meeting will follow with a discussion where everyone voices their views and concerns. The plan is to take these points on board and share more widely to inform any further planning done along the open practices agenda.
 
 | |
+
+
+## <a name="progressive"></a> Progressive Data Analysis and Visualization
+
+Wednesday, October 23    
+4:10PM - 5:10PM    
+Location: Room 13    
+Organizers: Jean-Daniel Fekete    
+Contact: [Jean-Daniel.Fekete@inria.fr](mailto:Jean-Daniel.Fekete@inria.fr)
+
+Progressive Data Analysis and Visualization is a recent paradigm to allow visual analytics to scale to very large datasets. 
+The paradigm has been discussed during a Dagstuhl seminar (https://www.dagstuhl.de/18411), its report is available here: http://dx.doi.org/10.4230/DagRep.8.10.1
+The meetup will help researchers and practitioners interested in this paradigm share and coordinate the work for writing a book on the topic and explain in to a broader audience.
+
+
+| |
+
+
 
 ## <a name="inclusion"></a> Building an Inclusive VIS Community
 
