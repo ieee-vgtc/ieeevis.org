@@ -12,5 +12,6 @@ mv _site/keynote.html _site/keynote
 mv _site/capstone.html _site/capstone
 mv _site/videos.html _site/videos
 mv _site/welcome.html _site/welcome
+mv _site/testalert.html _site/testalert
 mv _site/styleguide.html _site/styleguide
 
