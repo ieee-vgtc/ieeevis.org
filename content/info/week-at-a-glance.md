@@ -167,6 +167,7 @@ To use the conference app, download the CrowdCompass AttendeeHub for iOS or Andr
 * [VAST Opening](/year/2019/info/papers-sessions#vasttour) (location: Ballroom A)
 * [InfoVis Opening](/year/2019/info/papers-sessions#provocations) (location: Ballroom B)
 * [SciVis Opening](/year/2019/info/papers-sessions#scalartopology) (location: Ballroom C)
+* [Short Papers Opening](/year/2019/info/papers-sessions#shortnovel) (location: Room 1)
 
 *2:35-3:50PM*
 
@@ -320,7 +321,7 @@ To use the conference app, download the CrowdCompass AttendeeHub for iOS or Andr
 * [Words & Documents](/year/2019/info/papers-sessions#worddocuments) (location: Ballroom B)
 * [What's the Difference?](/year/2019/info/papers-sessions#difference) (location: Ballroom C)
 * [Short Papers: Multi-Dimensional Data, Time Series, Graphs, and Trees](/year/2019/info/papers-sessions#shortvis) (location: Room 1)
-* [Application Spotlight: Knowledge-assisted Visual Analytics meets Guidance and Onboarding](/year/2019/info/application-spotlights#onboarding) (location: Room 2+3) 
+* [Application Spotlight: Knowledge-assisted Visual Analytics meets Guidance and Onboarding](/year/2019/info/application-spotlights#guidance) (location: Room 2+3) 
 
 <hr/>
 
