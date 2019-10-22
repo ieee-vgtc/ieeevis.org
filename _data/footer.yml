@@ -77,21 +77,19 @@ columns:
         - text: "1996"
           url: "http://www.hpc.msstate.edu/conferences/vis96/"
 
-
-  - section:
-    - heading: "Organizers"
-      links:
-        - text: "VIS Conference Committees"
-          url: "/year/2019/info/committees/conference-committee"
-        - text: "Program Committees"
-          url: "/year/2019/info/committees/program-committees"
-        - text: "Steering Committees"
-          url: "/year/2019/info/committees/steering-committees"
-        - text: "VIS Executive Committee"
-          url: "/year/2019/info/committees/vis-executive-committee"
-        - text: "Restructuring and reVISe"
-          url:  "/governance/restructuring"
-
+#  - section:
+#    - heading: "Organizers"
+#      links:
+#        - text: "VIS Conference Committees"
+#          url: "/year/2019/info/committees/conference-committee"
+#        - text: "Program Committees"
+#          url: "/year/2019/info/committees/program-committees"
+#        - text: "Steering Committees"
+#          url: "/year/2019/info/committees/steering-committees"
+#        - text: "VIS Executive Committee"
+#          url: "/year/2019/info/committees/vis-executive-committee"
+#        - text: "Restructuring and reVISe"
+#          url:  "/governance/restructuring"
 
   - section:
     - heading: "Social media"
