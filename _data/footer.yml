@@ -77,7 +77,7 @@ columns:
         - text: "1996"
           url: "http://www.hpc.msstate.edu/conferences/vis96/"
 
-
+<!--
   - section:
     - heading: "Organizers"
       links:
@@ -91,7 +91,7 @@ columns:
           url: "/year/2019/info/committees/vis-executive-committee"
         - text: "Restructuring and reVISe"
           url:  "/governance/restructuring"
-
+-->
 
   - section:
     - heading: "Social media"
