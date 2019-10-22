@@ -3,13 +3,13 @@ title: IEEE VIS
 email: web@ieeevis.org
 description: > # this means to ignore newlines until "baseurl:"
   Website for IEEE VIS.
-baseurl: "/year/2019/" # the subpath of your site, e.g. /blog/
+baseurl: "/year/2020/" # the subpath of your site, e.g. /blog/
 url: "http://ieeevis.org" # the base hostname & protocol for your site
-year: 2019
+year: 2020
 
 # Github settings
 github_repository: "https://github.com/ieee-vgtc/ieeevis.org"
-github_pull_request_branch: "development"
+github_pull_request_branch: "vis2020"
 
 # Build settings
 markdown: kramdown
