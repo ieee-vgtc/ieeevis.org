@@ -18,5 +18,6 @@ mv _site/webpack.common.js _site/year/2019
 mv _site/webpack.dev.js _site/year/2019
 mv _site/webpack.prod.js _site/year/2019
 mv _site/welcome _site/year/2019
+mv _site/testalert _site/year/2019
 
 
