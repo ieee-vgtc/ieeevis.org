@@ -20,13 +20,13 @@
 #                     is_external
 
 registration:
-  display: true
+  display: false
   text: "Register"
   url: "/year/2019/info/registration/conference-registration"
 
 menu:
   - dropdown: "Attend"
-    display: true
+    display: false
     sections:
       - subsections:
           - heading: "Attending VIS 2019"
@@ -78,49 +78,49 @@ menu:
     sections:
       - subsections:
           - heading: "Call for Participation"
-            heading_url: "/year/2019/info/call-participation/call-for-participation"
+            heading_url: "/year/2010/info/call-participation/call-for-participation"
             description: "Submit your novel research contributions and innovative applications"
-            columns:
-              - heading: "Submit Your Work"
-                links:
-                  - text: "Papers"
-                    url: "/year/2019/info/call-participation/call-for-participation"
-                  - text: "Short Papers"
-                    url: "/year/2019/info/call-participation/shortpapers"
-                  - text: "Posters"
-                    url: "/year/2019/info/call-participation/posters"
-                  - text: "Tutorials"
-                    url: "/year/2019/info/call-participation/tutorials"
-                  - text: "Workshops"
-                    url: "/year/2019/info/call-participation/workshops"
-                  - text: "Panels"
-                    url: "/year/2019/info/call-participation/panels"
-                  - text: "Doctorial Colloquium"
-                    url: "/year/2019/info/call-participation/doctoral-colloquium"
-                  - text: "Application Spotlights"
-                    url: "/year/2019/info/call-participation/application-spotlights-cfp"
-                    is_new: true
-              - heading: "Info for Contributors"
-                links:
-                  - text: "Open Practices"
-                    url: "/year/2019/info/open-practices/open-practices"
-                    is_new: true
-                  - text: "Video Previews"
-                    url: "/year/2019/info/presenter-information/fast-forward-and-video-previews"
-                  - text: "Speakers and Presenters"
-                    url: "/year/2019/info/presenter-information/speakers-and-presenters"
+         #   columns:
+         #     - heading: "Submit Your Work"
+         #       links:
+         #         - text: "Papers"
+         #           url: "/year/2019/info/call-participation/call-for-participation"
+         #         - text: "Short Papers"
+         #           url: "/year/2019/info/call-participation/shortpapers"
+         #         - text: "Posters"
+         #           url: "/year/2019/info/call-participation/posters"
+         #         - text: "Tutorials"
+         #           url: "/year/2019/info/call-participation/tutorials"
+         #         - text: "Workshops"
+         #           url: "/year/2019/info/call-participation/workshops"
+         #         - text: "Panels"
+         #           url: "/year/2019/info/call-participation/panels"
+         #         - text: "Doctorial Colloquium"
+         #           url: "/year/2019/info/call-participation/doctoral-colloquium"
+         #         - text: "Application Spotlights"
+         #           url: "/year/2019/info/call-participation/application-spotlights-cfp"
+         #           is_new: true
+         #     - heading: "Info for Contributors"
+         #       links:
+         #         - text: "Open Practices"
+         #           url: "/year/2019/info/open-practices/open-practices"
+         #           is_new: true
+         #         - text: "Video Previews"
+         #           url: "/year/2019/info/presenter-information/fast-forward-and-video-previews"
+         #         - text: "Speakers and Presenters"
+         #           url: "/year/2019/info/presenter-information/speakers-and-presenters"
 
       - subsections:
           - heading: "Get Involved"
             columns:
               - links:
-                - text: "Organize a meetup"
-                  description: "Meet people for discussion and shared experiences"
-                  url: "/year/2019/info/call-participation/meetups"
-                - text: "Become a student volunteer"
-                  description: "Support the conference, build your research network, and get a discount"
-                  url: "http://vissv.org/"
-                  is_external: true
+             #   - text: "Organize a meetup"
+             #     description: "Meet people for discussion and shared experiences"
+             #     url: "/year/2019/info/call-participation/meetups"
+             #   - text: "Become a student volunteer"
+             #     description: "Support the conference, build your research network, and get a discount"
+             #     url: "http://vissv.org/"
+             #     is_external: true
                 - text: "Become a peer reviewer"
                   description: "Volunteer to review submissions"
                   url: "https://new.precisionconference.com/vgtc"
@@ -130,12 +130,12 @@ menu:
                 #   url: "https://www.google.com"
 
           - heading: "Supporters and Exhibition"
-            heading_url: "/year/2019/info/exhibition/supporters-and-exhibition"
+            heading_url: "/year/2020/info/exhibition/supporters-and-exhibition"
             description: "Your support makes this conference possible"
 
 
   - dropdown: "Program"
-    display: true
+    display: false
     sections:
       - subsections:
           - heading: "Vis Program"
@@ -197,7 +197,7 @@ menu:
 
 
   - dropdown: "Events & Community"
-    display: true
+    display: false
     sections:
       - subsections:
           - heading: "Associated Events"
@@ -288,11 +288,11 @@ menu:
             - heading: ""
               links:
                 - text: "VIS Conference Committees"
-                  url: "/year/2019/info/committees/conference-committee"
-                - text: "Program Committees"
-                  url: "/year/2019/info/committees/program-committees"
+                  url: "/year/2020/info/committees/conference-committee"
+#                - text: "Program Committees"
+#                  url: "/year/2019/info/committees/program-committees"
                 - text: "Steering Committees"
-                  url: "/year/2019/info/committees/steering-committees"
+                  url: "/year/2020/info/committees/steering-committees"
                 - text: "VIS Executive Committee"
                   url: "/year/2019/info/committees/vis-executive-committee"
                 - text: "Restructuring and reVISe"
@@ -304,6 +304,8 @@ menu:
             columns:
               - heading: ""
                 links:
+                  - text: "2019"
+                    url: "http://ieeevis.org/year/2019/welcome"
                   - text: "2018"
                     url: "http://ieeevis.org/year/2018/welcome"
                   - text: "2017"
@@ -314,10 +316,10 @@ menu:
                     url: "http://ieeevis.org/year/2015/info/vis-welcome/welcome"
                   - text: "2014"
                     url: "http://ieeevis.org/year/2014/info/vis-welcome/welcome"
-                  - text: "2013"
-                    url: "http://ieeevis.org/year/2013/info/vis-welcome/welcome"
               - heading: ""
                 links:
+                  - text: "2013"
+                    url: "http://ieeevis.org/year/2013/info/vis-welcome/welcome"
                   - text: "2012"
                     url: "http://ieeevis.org/year/2012/info/call-participation/welcome"
                   - text: "2011"
@@ -328,10 +330,10 @@ menu:
                     url: "http://vis.computer.org/VisWeek2009/"
                   - text: "2008"
                     url: "http://vis.computer.org/VisWeek2008/"
-                  - text: "2007"
-                    url: "http://vis.computer.org/vis2007/"
               - heading: ""
                 links:
+                  - text: "2007"
+                    url: "http://vis.computer.org/vis2007/"
                   - text: "2006"
                     url: "http://vis.computer.org/vis2006/"
                   - text: "2005"
@@ -342,10 +344,10 @@ menu:
                     url: "http://vis.computer.org/vis2003/"
                   - text: "2002"
                     url: "http://vis.computer.org/vis2002/"
-                  - text: "2001"
-                    url: "http://vis.computer.org/vis2001/"
               - heading: ""
                 links:
+                  - text: "2001"
+                    url: "http://vis.computer.org/vis2001/"
                   - text: "2000"
                     url: "http://www.hpc.msstate.edu/conferences/vis00/"
                   - text: "1999"
@@ -359,15 +361,12 @@ menu:
 
       - subsections:
           - heading: "Upcoming Years"
-            heading_url: "/year/2019/info/future-locations"
+            heading_url: "/year/2020/info/future-locations"
             columns:
              - links:
-                - text: "October 26-30, 2020, Salt Lake City, Utah, USA"
-                  description: "General Chairs: Mike Kirby and Valerio Pascucci, University of Utah"
-                  url: "/year/2019/info/future-locations"
                 - text: "October/November 2021, New Orleans, Louisiana, USA"
                   description: "General Chairs: Brian Summa, Tulane University, Gustavo Nonato, Universidade de São Paulo, Valerio Pascucci, University of Utah"
-                  url: "/year/2019/info/future-locations"
+                  url: "/year/2020/info/future-locations"
                 - text: "Bidding"
                   description: "Guidelines to bid for a future location of IEEE VIS"
                   url: "/governance/bids"
