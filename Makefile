@@ -29,7 +29,7 @@ staging: site
 stagingnew: newsite
 	cd _site && ../scripts/sync_with_s3_boto.py $(NEW_BRANCH) $(STAGING_BUCKET)
 
-stagingnew: newsite
+staging2020: newsite
 	cd _site && ../scripts/sync_with_s3_boto.py $(2020_BRANCH) $(STAGING_BUCKET)
 
 productionnew: newsite
