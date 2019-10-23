@@ -5,7 +5,7 @@ permalink: /year/2019/info/awards/best-poster-awards
 ---
 The best poster awards and honorable mentions are assigned by dedicated committees per poster track. Experienced researchers in the committees provided individual assessments for a selection of the most promising poster candidates made by the poster co-chairs of each track. Based on these assessments the awardees were chosen.  
 
-New this year is the best presentation award which will be assigned to a poster that is excellent regarding effective use of poster format, design, and aesthetics by the VIS 2019 poster co-chairs during the course of the conference.
+New this year is the best presentation awards which were assigned to a poster from each conference that is excellent regarding effective use of poster format, design, and aesthetics. This award was judged by the VIS 2019 poster co-chairs during the course of the conference.
 
 This year’s awardees are:
 
@@ -61,4 +61,24 @@ Jung Who Nam, Charles Hobie Perry, Barry Ty Wilson, Daniel F. Keefe
 <br>[Video Preview](https://vimeo.com/361162150)
 
 ## Best Poster Presentation Award
-- to be announced
+
+## VAST
+
+**Bridging AI Developers and End Users: An End-User-Centred Explainable AI Taxonomy and Visual Vocabularies**
+<br/>
+Weina Jin, Sheelagh Carpendale, Ghassan Hamarneh, and Diane Gromala
+<br>[Video Preview](https://vimeo.com/361161864)
+
+## InfoVis
+
+**Exploring Cheat Sheets for Data Visualization Techniques**
+<br/>
+Zezhong Wang, Lovisa Sundin, Dave Murray-Rust, Benjamin Bach
+<br>[Video Preview](https://vimeo.com/361160398)
+
+## SciVis
+**Open-Source Presentation of Spherical Content on Repurposed Hardware**
+<br/>
+Don Engel, Mark Murnane, Nicole Trenholm, Ben Daniels, Jeffrey Halverson
+<br>[Video Preview](https://vimeo.com/361161486)
+
