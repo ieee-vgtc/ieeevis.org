@@ -6,23 +6,23 @@ module.exports = {
   theme: {
     colors: {
       primary: {
-        default: '#846247',
-        800: '#4e3a2a',
-        700: '#846247',
-        600: '#b3855f',
-        200: '#e0a778',
-        100:'#e0a778',
-      },
-      secondary: {
-        default: '#dc4400',
-        800: '#dc4400',
-        700: '#e46b36',
+        default: '#da4726',
+        800: '#da4400',
+        700: '#da4726',
         600: '#de8e6b',
         200: '#edb8a1',
         100:'#edb8a1',
       },
+      secondary: {
+        default: '#c42026',
+        800: '#b42026',
+        700: '#c42026',
+        600: '#d3855f',
+        200: '#e0a778',
+        100:'#e0a778',
+      },
       accent: {
-        default: '#ffc5ac',
+        default: '#4f3a2b',
       },
       black: colors.black,
       white: colors.white,
