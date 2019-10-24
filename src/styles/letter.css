@@ -7,7 +7,7 @@
     @apply px-12 py-16;
     @apply h-auto;
     @apply top-0 right-0;
-    @apply text-primary;
+    @apply black;
 }
 
     @screen lg {
