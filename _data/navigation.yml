@@ -191,7 +191,7 @@ menu:
                 # - text: "Service Awards"
                 #   url: "https://www.google.com"
                 - text: "VGTC VIS Awards"
-                  url: "/year/2019/info/awards/vgtc-vis-awards.md"
+                  url: "/year/2019/info/awards/vgtc-vis-awards"
                 - text: "Test of Time Awards"
                   url: "/year/2019/info/awards/test-of-time-awards"
 
