@@ -1,7 +1,7 @@
 ---
 title: VGTC-VIS-Awards
 layout: page
-permalink: /year/2019/info/vgtc-vis-awards
+permalink: /year/2019/info/awards/vgtc-vis-awards
 ---
 
 During VIS 2019, the following VGTC Awards were granted:
