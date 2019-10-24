@@ -371,7 +371,7 @@ menu:
             columns:
              - links:
                 - text: "October/November 2021, New Orleans, Louisiana, USA"
-                  description: "General Chairs: Brian Summa, Tulane University, Gustavo Nonato, Universidade de São Paulo, Valerio Pascucci, University of Utah"
+                  description: ""
                   url: "/"
                 - text: "Bidding"
                   description: "Guidelines to bid for a future location of IEEE VIS"
