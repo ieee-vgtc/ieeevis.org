@@ -190,8 +190,8 @@ menu:
                   url: "/year/2019/info/awards/best-poster-awards"
                 # - text: "Service Awards"
                 #   url: "https://www.google.com"
-                # - text: "VGTC VIS Awards"
-                #   url: "https://www.google.com"
+                - text: "VGTC VIS Awards"
+                  url: "/year/2019/info/awards/vgtc-vis-awards.md"
                 - text: "Test of Time Awards"
                   url: "/year/2019/info/awards/test-of-time-awards"
 
