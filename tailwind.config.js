@@ -6,12 +6,12 @@ module.exports = {
   theme: {
     colors: {
       primary: {
-        default: '#da4726',
-        800: '#da4400',
-        700: '#da4726',
-        600: '#de8e6b',
-        200: '#edb8a1',
-        100:'#edb8a1',
+        default: '#7f6c5e',
+        800: '#7f6c5e',
+        700: '#7f6c5e',
+        600: '#b9aba1',
+        200: '#b9aba1',
+        100:'#b9aba1',
       },
       secondary: {
         default: '#c42026',
@@ -22,7 +22,7 @@ module.exports = {
         100:'#e0a778',
       },
       accent: {
-        default: '#4f3a2b',
+        default: '#b9aba1',
       },
       black: colors.black,
       white: colors.white,
