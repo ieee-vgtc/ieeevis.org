@@ -11,10 +11,6 @@ General Chairs: Mike Kirby and Valerio Pascucci, *University of Utah*
 ## VIS 2021
 **October/November 2021, New Orleans, Louisiana, USA**<br>  
 (Tentative, will be confirmed after venue contract signed.)<br>  
-General Chairs: 
-Brian Summa, Tulane University
-Gustavo Nonato, Universidade de São Paulo
-Valerio Pascucci, University of Utah
 
 
 Guidelines to bid for a future location of the IEEE VIS Conference:<br>
