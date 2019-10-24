@@ -45,23 +45,23 @@ Authors: Bryce Morrow, Trevor Manz, Arlene E. Chung, Nils Gehlenborg, David Gotz
 		
 **[V] NNVA: Neural Network Assisted Visual Analysis of Yeast Cell Polarization Simulation (J)** *(Best Paper Honorable Mention)*  
 Authors: Subhashis Hazarika, Haoyu Li, Ko-Chih Wang, Han-Wei Shen, Ching-Shan Chou
-<br>[Video Preview](https://vimeo.com/360155766)
+<br>[Video Preview](https://vimeo.com/360155766) | [VIS 2019 Talk](https://vimeo.com/368441728)
 		
 **[V] Supporting Analysis of Dimensionality Reduction Results with Contrastive Learning (J)** *(Best Paper Honorable Mention)*  
 Authors: Takanori Fujiwara, Oh-Hyun Kwon, Kwan-Liu Ma
-<br>[Video Preview](https://vimeo.com/360484919)
+<br>[Video Preview](https://vimeo.com/360484919) | [VIS 2019 Talk](https://vimeo.com/368441312)
 		
 **[V] The What-If Tool: Interactive Probing of Machine Learning Models (J)**  
 Authors: James Wexler, Mahima Pushkarna, Tolga Bolukbasi, Martin Wattenberg, Fernanda Viegas, Jimbo Wilson
-<br>[Video Preview](https://vimeo.com/360154686)
+<br>[Video Preview](https://vimeo.com/360154686) | [VIS 2019 Talk](https://vimeo.com/368443363)
 		
 **[V] Understanding the Role of Alternatives in Data Analysis Practices (J)**  
 Authors: Jiali Liu, Nadia Boukhelifa, James Eagan
-<br>[Video Preview](https://vimeo.com/360155794)
+<br>[Video Preview](https://vimeo.com/360155794) | [VIS 2019 Talk](https://vimeo.com/368440457)
 		
 **[V] VASABI: Doing User Behaviour Analytics through Interactive Visual Hierarchical User Profiles (J)**  
 Authors: Phong H. Nguyen, Rafael Henkin, Siming Chen, Natalia Andrienko, Gennady Andrienko, Olivier Thonnard, Cagatay Turkay
-<br>[Video Preview](https://vimeo.com/360156177)
+<br>[Video Preview](https://vimeo.com/360156177) | [VIS 2019 Talk](https://vimeo.com/368440126)
 		
 <hr/>		
 		
@@ -305,11 +305,11 @@ Authors: Fritz Lekschas, Michael Behrisch, Benjamin Bach, Peter Kerpedjiev, Nils
 		
 **[S] Multi-Scale Procedural Animations of Microtubule Dynamics Based on Measured Data (J)**  
 Authors: Tobias Klein, Ivan Viola, Eduard Gröller, Peter Mindek
-<br>[Video Preview](https://vimeo.com/359999585)
+<br>[Video Preview](https://vimeo.com/359999585) | [VIS 2019 Talk](https://vimeo.com/368585818)
 		
 **[S] OpenSpace: A System for Astrographics (J)**  
 Authors: Alexander Bock, Emil Axelsson, Jonathas Costa, Gene Payne, Micah Acinapura, Vivian Trakinski, Carter B Emmart PhD, Claudio T. Silva, Charles Hansen, Anders Ynnerman
-<br>[Video Preview](https://vimeo.com/359998824)
+<br>[Video Preview](https://vimeo.com/359998824) | [VIS 2019 Talk](https://vimeo.com/368590395)
 		
 **[S] Scale-Space Splatting: Reforming Spacetime for the Cross-Scale Exploration of Integral Measures in Molecular Dynamics (J)**  
 Authors: Juraj Pálenik, Jan Byška, Stefan Bruckner, Helwig Hauser
