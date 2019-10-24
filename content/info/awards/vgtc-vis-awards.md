@@ -1,6 +1,6 @@
 ---
 title: VGTC-VIS-Awards
-layout: main-2019
+layout: page
 permalink: /year/2019/info/vgtc-vis-awards
 ---
 
