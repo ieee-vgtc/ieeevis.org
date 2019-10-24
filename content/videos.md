@@ -16,3 +16,7 @@ Monday, 21 October 2019 | [LDAV](https://ldav.org)
 
 <div style='padding:56.34% 0 0 0;position:relative;'><iframe src='https://vimeo.com/showcase/6518210/embed' allowfullscreen frameborder='0' style='position:absolute;top:0;left:0;width:100%;height:100%;'></iframe></div>
 <br>
+
+Tuesday-Wednesday, 22-23 October 2019 | [Full Papers](http://ieeevis.org/year/2019/info/papers-sessions)  
+
+<div style='padding:56.25% 0 0 0;position:relative;'><iframe src='https://vimeo.com/showcase/6524122/embed' allowfullscreen frameborder='0' style='position:absolute;top:0;left:0;width:100%;height:100%;'></iframe></div>
