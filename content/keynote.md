@@ -12,7 +12,7 @@ active_nav: "Program"
 
 ## Data Visualization Literacy
 
-*Katy Börner*  
+*Katy Börner*  | [VIS 2019 Talk](https://vimeo.com/368708656)
 
 In the information age, the ability to read and make data visualizations is as important as the ability to read and write. This talk introduces a theoretical data visualization framework (DVL) meant to empower anyone to systematically render data into insights using temporal, geospatial, topical, and network analyses and visualizations. Exemplarily, the DVL is applied to
 (1) Map science and technology, see interactive data visualizations from the Places & Spaces: Mapping Science exhibit (http://scimaps.org) and recent PNAS special issue on Modelling and Visualizing Science and Technology Developments (https://www.pnas.org/modeling).
