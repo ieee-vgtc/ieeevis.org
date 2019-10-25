@@ -21,19 +21,19 @@ Please note that sessions are composed of papers mixed from the VAST [V], InfoVi
 		
 **[V] FlowSense: A Natural Language Interface for Visual Data Exploration within a Dataflow System (J)** *(Best Paper Award)*  
 Authors: Bowen Yu, Claudio T. Silva
-<br>[Video Preview](https://vimeo.com/360154533)
+<br>[Video Preview](https://vimeo.com/360154533) | [VIS 2019 Talk](https://vimeo.com/368702648)
 		
 **[I] Data Changes Everything: Challenges and Opportunities in Data Visualization Design Handoff (J)** *(Best Paper Award)*  
 Authors: Jagoda Walny, Christian Frisson, Mieka West, Doris Kosminsky, Søren Knudsen, Sheelagh Carpendale, Wesley Willett
-<br>[Video Preview](https://vimeo.com/360483702)
+<br>[Video Preview](https://vimeo.com/360483702) | [VIS 2019 Talk](https://vimeo.com/368703151)
 		
 **[S] InSituNet: Deep Image Synthesis for Parameter Space Exploration of Ensemble Simulations (J)** *(Best Paper Award)*  
 Authors: Wenbin He, Junpeng Wang, Hanqi Guo, Ko-Chih Wang, Han-Wei Shen, Mukund Raj, Youssef S. G. Nashed, Tom Peterka
-<br>[Video Preview](https://vimeo.com/359998980)
+<br>[Video Preview](https://vimeo.com/359998980) 
 		
 **Periphery Plots for Contextualizing Heterogeneous Time-Based Charts (C)** *(Best Paper Award)*  
 Authors: Bryce Morrow, Trevor Manz, Arlene E. Chung, Nils Gehlenborg, David Gotz
-<br>[Video Preview](https://vimeo.com/363453522)
+<br>[Video Preview](https://vimeo.com/363453522) | [VIS 2019 Talk](https://vimeo.com/368703866)
 		
 <hr/>		
 		
@@ -317,7 +317,7 @@ Authors: Juraj Pálenik, Jan Byška, Stefan Bruckner, Helwig Hauser
 		
 **[S] ScaleTrotter: Illustrative Visual Travels Across Negative Scales (J)**  
 Authors: Sarkis Halladjian, Haichao Miao, David Kouřil, Eduard Gröller, Ivan Viola, Tobias Isenberg
-<br>[Video Preview](https://vimeo.com/359999391)
+<br>[Video Preview](https://vimeo.com/359999391) | [VIS 2019 Talk](https://vimeo.com/368618319)
 		
 <hr/>		
 		
