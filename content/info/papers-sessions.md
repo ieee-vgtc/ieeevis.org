@@ -29,7 +29,7 @@ Authors: Jagoda Walny, Christian Frisson, Mieka West, Doris Kosminsky, Søren Kn
 		
 **[S] InSituNet: Deep Image Synthesis for Parameter Space Exploration of Ensemble Simulations (J)** *(Best Paper Award)*  
 Authors: Wenbin He, Junpeng Wang, Hanqi Guo, Ko-Chih Wang, Han-Wei Shen, Mukund Raj, Youssef S. G. Nashed, Tom Peterka
-<br>[Video Preview](https://vimeo.com/359998980) 
+<br>[Video Preview](https://vimeo.com/359998980) | [VIS 2019 Talk](https://vimeo.com/368709571) 
 		
 **Periphery Plots for Contextualizing Heterogeneous Time-Based Charts (C)** *(Best Paper Award)*  
 Authors: Bryce Morrow, Trevor Manz, Arlene E. Chung, Nils Gehlenborg, David Gotz
