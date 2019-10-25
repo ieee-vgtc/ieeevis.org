@@ -13,4 +13,5 @@ mv _site/capstone.html _site/capstone
 mv _site/videos.html _site/videos
 mv _site/welcome.html _site/welcome
 mv _site/styleguide.html _site/styleguide
+mv _site/internal.html _site/internal
 
