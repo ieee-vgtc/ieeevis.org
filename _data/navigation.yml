@@ -198,7 +198,7 @@ menu:
 
 
   - dropdown: "Events & Community"
-    display: false
+    display: true
     sections:
       - subsections:
           - heading: "Associated Events"
@@ -239,27 +239,27 @@ menu:
             columns:
               - links:
                 - text: "VAST Challenge"
-                  url: "https://vast-challenge.github.io/2019/"
+                  url: "https://vast-challenge.github.io/2020/"
                   is_external: true
-                - text: "SciVis Contest"
-                  url: "https://press3.mcs.anl.gov/2019-scivis-contest/"
-                  is_external: true
-                - text: "BioViz Challenges"
-                  url: "http://biovis.net/2019/program_ieee/"
-                  is_external: true
+#                - text: "SciVis Contest"
+#                  url: "https://press3.mcs.anl.gov/2019-scivis-contest/"
+#                  is_external: true
+#                - text: "BioViz Challenges"
+#                  url: "http://biovis.net/2019/program_ieee/"
+#                  is_external: true
 
           - heading: "Community"
-            heading_url: "/year/2019/info/call-participation/community"
+#           heading_url: "/year/2019/info/call-participation/community"
             description: "Explore social and topic-based community groups"
             columns:
-              - heading: "Connect"
-                links:
-                  - text: "Vis Buddies"
-                    url: "/year/2019/info/meetups#vis-newcomers"
-                  - text: "Job Fair"
-                    url: "/year/2019/info/meetups#vis-jobfair"
-                  - text: "Other Meetups"
-                    url: "/year/2019/info/meetups"
+#              - heading: "Connect"
+#                links:
+#                  - text: "Vis Buddies"
+#                    url: "/year/2019/info/meetups#vis-newcomers"
+#                  - text: "Job Fair"
+#                    url: "/year/2019/info/meetups#vis-jobfair"
+#                  - text: "Other Meetups"
+#                    url: "/year/2019/info/meetups"
               - heading: "Social Groups"
                 links:
                   - text: "Velo Club de VIs"
@@ -276,9 +276,9 @@ menu:
                   - text: "Twitter"
                     url: "https://twitter.com/ieeevis"
                     is_external: true
-          - heading: "Doctoral Colloquium"
-            heading_url: "/year/2019/info/doctoral-colloquium"
-            description: "Discuss in-progress Ph.D work with leading senior researchers"
+#          - heading: "Doctoral Colloquium"
+#            heading_url: "/year/2019/info/doctoral-colloquium"
+#            description: "Discuss in-progress Ph.D work with leading senior researchers"
 
   - dropdown: "Organization & History"
     display: true
@@ -367,7 +367,7 @@ menu:
 
       - subsections:
           - heading: "Upcoming Years"
-            heading_url: "/"
+#            heading_url: "/"
             columns:
              - links:
                 - text: "October/November 2021, New Orleans, Louisiana, USA"
