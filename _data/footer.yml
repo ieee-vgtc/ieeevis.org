@@ -8,6 +8,9 @@ columns:
     - heading: "Past years archive"
       display_style: "inline"
       links:
+        - text: "2019"
+          url: "http://ieeevis.org/year/2019/welcome"
+
         - text: "2018"
           url: "http://ieeevis.org/year/2018/welcome"
 
