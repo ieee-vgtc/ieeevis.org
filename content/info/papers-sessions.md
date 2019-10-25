@@ -702,7 +702,7 @@ Authors: Jieqiong Zhao, Morteza Karimzadeh, Ali Masjedi, Taojun Wang, Xiwen Zhan
 		
 **[V] explAIner: A Visual Analytics Framework for Interactive and Explainable Machine Learning (J)**  
 Authors: Thilo Spinner, Udo Schlegel, Hanna Schaefer, Mennatallah El-Assady
-<br>[Video Preview](https://vimeo.com/360154764)
+<br>[Video Preview](https://vimeo.com/360154764) | [VIS 2019 Talk](https://vimeo.com/368699132)
 		
 **[V] Explaining Vulnerabilities to Adversarial Machine Learning through Visual Analytics (J)**  
 Authors: Yuxin Ma, Tiankai Xie, Jundong Li, Ross Maciejewski
@@ -710,15 +710,15 @@ Authors: Yuxin Ma, Tiankai Xie, Jundong Li, Ross Maciejewski
 		
 **[V] FairSight: Visual Analytics for Fairness in Decision Making (J)**  
 Authors: Yongsu Ahn, Yu-Ru Lin
-<br>[Video Preview](https://vimeo.com/360155342)
+<br>[Video Preview](https://vimeo.com/360155342) | [VIS 2019 Talk](https://vimeo.com/368701050)
 		
 **[V] Summit: Scaling Deep Learning Interpretability by Visualizing Activation and Attribution Summarizations (J)**  
 Authors: Fred Hohman, Haekyu Park, Caleb Robinson, Duen Horng Chau
-<br>[Video Preview](https://vimeo.com/360154453)
+<br>[Video Preview](https://vimeo.com/360154453) | [VIS 2019 Talk](https://vimeo.com/368704428)
 		
 **[V] FairVis: Visual Analytics for Discovering Intersectional Bias in Machine Learning (C)**  
 Authors: Àngel Alexander Cabrera, Will Epperson, Fred Hohman, Minsuk Kahng, Jamie Morgenstern, Duen Horng Chau
-<br>[Video Preview](https://vimeo.com/360155233)
+<br>[Video Preview](https://vimeo.com/360155233) | [VIS 2019 Talk](https://vimeo.com/368702211)
 		
 **[V] Visual Genealogy of Deep Neural Networks (T)**  
 Authors: Qianwen Wang, Jun Yuan, Shuxin Chen, Hang Su, Huamin Qu, Shixia Liu
