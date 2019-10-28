@@ -67,7 +67,7 @@ Nicolas Grossmann, Oscar Casares-Magaz, Ludvig P. Muren, Vitali Moiseenko, John 
 [Video Preview](https://vimeo.com/361163162)
 
 **An Interactive Exploratory Visualization System for Comparing Clusters of Instagram Photos**  
-Hyunwoo Han, Kyungwon Lee  
+Hyeonsik Gong, Hyunwoo Han, Kyungwon Lee  
 [Video Preview](https://vimeo.com/361162477)
 
 **Necklace: A Guided Interaction and Comparison Metaphorical Interface for Medical Claim Analysis**  
