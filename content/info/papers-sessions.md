@@ -706,7 +706,7 @@ Authors: Thilo Spinner, Udo Schlegel, Hanna Schaefer, Mennatallah El-Assady
 		
 **[V] Explaining Vulnerabilities to Adversarial Machine Learning through Visual Analytics (J)**  
 Authors: Yuxin Ma, Tiankai Xie, Jundong Li, Ross Maciejewski
-<br>[Video Preview](https://vimeo.com/360154813)
+<br>[Video Preview](https://vimeo.com/360154813) | [VIS 2019 Talk](https://vimeo.com/369214358)
 		
 **[V] FairSight: Visual Analytics for Fairness in Decision Making (J)**  
 Authors: Yongsu Ahn, Yu-Ru Lin
