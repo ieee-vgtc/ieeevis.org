@@ -803,7 +803,7 @@ Authors: Nicola Pezzotti, Julian Thijssen, Alexander Mordvintsev, Thomas Höllt,
 
 **Volume Path Guiding Based on Zero-Variance Random Walk Theory**  
 Authors: Sebastian Herholz
-<br>[DOI](https://doi.org/110.1145/3230635)
+<br>[DOI](https://doi.org/10.1145/3230635)
 
 **A Null-Scattering Path Integral Formulation of Light Transport**  
 Authors: Bailey Miller
