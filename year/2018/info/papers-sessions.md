@@ -4,8 +4,8 @@ layout: main-2018
 permalink: /year/2018/info/papers-sessions
 ---
 
-[J] (*TVCG* journal special issue (SI) papers)  
-[T] (previously published *TVCG* journal papers presented at VIS)  
+[J] *TVCG* journal special issue (SI) papers
+[T] previously published *TVCG* journal papers presented at VIS
 [C] conference papers  
 
 <br>
