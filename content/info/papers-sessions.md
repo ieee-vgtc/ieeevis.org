@@ -557,7 +557,7 @@ Authors: Adam James Bradley, Mennatallah El-Assady, Katharine Coles, Eric Alexan
 		
 **Graphoto: Aesthetically Pleasing Charts for Casual Information Visualization**  
 Authors: Hi Jwan Park, Arie Kaufman, Klaus Mueller
-<br>[Video Preview](https://vimeo.com/359999850) | [DOI](https://doi.org/10.1109/MCG.2018.2879066
+<br>[Video Preview](https://vimeo.com/359999850) | [DOI](https://doi.org/10.1109/MCG.2018.2879066)
 		
 <hr/>		
 		
