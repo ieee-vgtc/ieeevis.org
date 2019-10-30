@@ -94,7 +94,7 @@ Authors: Jaemin Jo, Frédéric Vernier, Pierre Dragicevic, Jean-Daniel Fekete
 **DimReader: Axis lines that explain non-linear projections (J)**
 <br>
 Authors: Rebecca Faust, David Glickenstein, Carlos Scheidegger
-<br>[Video Preview](https://vimeo.com/289784574 | [DOI](https://doi.org/10.1109/TVCG.2018.2865194)
+<br>[Video Preview](https://vimeo.com/289784574) | [DOI](https://doi.org/10.1109/TVCG.2018.2865194)
 
 <hr/>
 
@@ -962,7 +962,7 @@ Authors: Michael Correll, Mingwei Li, Gordon L Kindlmann, Carlos Scheidegger
 **Is There a Robust Technique for Selecting Aspect Ratios in Line Charts? (T)**
 <br>
 Authors: Yunhai Wang, Zeyu Wang, Lifeng Zhu, Jian Zhang, Chi-Wing Fu, Changhe Tu, Baoquan Chen, Zhanglin Cheng
-<br>[Video Preview](https://vimeo.com/289789006)| [DOI](https://doi.org/10.1109/TVCG.2018.2787113)
+<br>[Video Preview](https://vimeo.com/289789006)| [DOI](https://doi.org/10.1109/TVCG.2017.2787113)
 
 **Image-based Aspect Ratio Selection (J)**
 <br>
