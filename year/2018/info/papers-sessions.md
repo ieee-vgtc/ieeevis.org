@@ -934,7 +934,7 @@ Authors: Xiao Xie, Xiwen Cai, Junpei Zhou, Nan Cao, Yingcai Wu
 **PhotoRecomposer: Interactive Photo Recomposition by Cropping (T)**
 <br>
 Authors: Yuan Liang, Xiting Wang, Song-Hai Zhang, Shi-Min Hu, Shixia Liu
-<br>[Video Preview](https://vimeo.com/289788924) | [DOI](https://doi.org/10.1109/TVCG.2018.2764895)
+<br>[Video Preview](https://vimeo.com/289788924) | [DOI](https://doi.org/10.1109/TVCG.2017.2764895)
 
 <hr/>
 
