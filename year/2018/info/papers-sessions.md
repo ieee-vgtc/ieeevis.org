@@ -94,7 +94,8 @@ Authors: Jaemin Jo, Frédéric Vernier, Pierre Dragicevic, Jean-Daniel Fekete
 **DimReader: Axis lines that explain non-linear projections (J)**
 <br>
 Authors: Rebecca Faust, David Glickenstein, Carlos Scheidegger
-<br>[Video Preview](https://vimeo.com/289784574 | [DOI](https://doi.org/10.1109/TVCG.2018.2865194)
+<br>[Video Preview](https://vimeo.com/289784574) | [DOI](https://doi.org/10.1109/TVCG.2018.2865194)
+
 
 <hr/>
 
@@ -934,7 +935,8 @@ Authors: Xiao Xie, Xiwen Cai, Junpei Zhou, Nan Cao, Yingcai Wu
 **PhotoRecomposer: Interactive Photo Recomposition by Cropping (T)**
 <br>
 Authors: Yuan Liang, Xiting Wang, Song-Hai Zhang, Shi-Min Hu, Shixia Liu
-<br>[Video Preview](https://vimeo.com/289788924) | [DOI](https://doi.org/10.1109/TVCG.2018.2764895)
+<br>[Video Preview](https://vimeo.com/289788924) | [DOI](https://doi.org/10.1109/TVCG.2017.2764895)
+
 
 <hr/>
 
@@ -962,7 +964,8 @@ Authors: Michael Correll, Mingwei Li, Gordon L Kindlmann, Carlos Scheidegger
 **Is There a Robust Technique for Selecting Aspect Ratios in Line Charts? (T)**
 <br>
 Authors: Yunhai Wang, Zeyu Wang, Lifeng Zhu, Jian Zhang, Chi-Wing Fu, Changhe Tu, Baoquan Chen, Zhanglin Cheng
-<br>[Video Preview](https://vimeo.com/289789006)| [DOI](https://doi.org/10.1109/TVCG.2018.2787113)
+<br>[Video Preview](https://vimeo.com/289789006)| [DOI](https://doi.org/10.1109/TVCG.2017.2787113)
+
 
 **Image-based Aspect Ratio Selection (J)**
 <br>
@@ -1297,3 +1300,5 @@ Authors: Akash Anil Valsangkar, Joy Merwin Monteiro, Vidya Narayanan, Ingrid Hot
 <br>
 Authors: Johanna Schmidt, Dominik Fleischmann, Bernhard Preim, Norbert Brandle, Gabriel Mistelbauer
 <br>[Video Preview](https://vimeo.com/289789393) | [DOI](https://doi.org/10.1109/TVCG.2018.2841385)
+
+
