@@ -75,23 +75,23 @@ Authors: Phong H. Nguyen, Rafael Henkin, Siming Chen, Natalia Andrienko, Gennady
 		
 **[I] Data by proxy – material traces as autographic visualizations (J)**  
 Authors: Dietmar Offenhuber
-<br>[Video Preview](https://vimeo.com/360050094) | [DOI](https://doi.org/10.1109/TVCG.2019.2934788)
+<br>[Video Preview](https://vimeo.com/360050094) | [VIS 2019 Talk](https://vimeo.com/369708962) | [DOI](https://doi.org/10.1109/TVCG.2019.2934788)
 		
 **[I] Design by Immersion: A Transdisciplinary Approach to Problem-Driven Visualizations (J)**  
 Authors: Kyle Wm Hall, Adam James Bradley, Uta Hinrichs, Samuel Huron, Jo Wood, Christopher Collins, Sheelagh Carpendale
-<br>[Video Preview](https://vimeo.com/360483922) | [DOI](https://doi.org/10.1109/TVCG.2019.2934790)
+<br>[Video Preview](https://vimeo.com/360483922) | [VIS 2019 Talk](https://vimeo.com/369711296) | [DOI](https://doi.org/10.1109/TVCG.2019.2934790)
 		
 **[I] Criteria for Rigor in Visualization Design Study (J)**  
 Authors: Miriah Meyer, Jason Dykes
-<br>[Video Preview](https://vimeo.com/361976920) | [DOI](https://doi.org/10.1109/TVCG.2019.2934539)
+<br>[Video Preview](https://vimeo.com/361976920) | [VIS 2019 Talk](https://vimeo.com/369711672) | [DOI](https://doi.org/10.1109/TVCG.2019.2934539)
 		
 **[I] What is Interaction for Data Visualization? (J)**  
 Authors: Evanthia Dimara, Charles Perin
-<br>[Video Preview](https://vimeo.com/360445743) | [DOI](https://doi.org/10.1109/TVCG.2019.2934283)
+<br>[Video Preview](https://vimeo.com/360445743) | [VIS 2019 Talk](https://vimeo.com/369712001) | [DOI](https://doi.org/10.1109/TVCG.2019.2934283)
 		
 **[I] Why Authors Don't Visualize Uncertainty (J)**  
 Authors: Jessica Hullman
-<br>[Video Preview](https://vimeo.com/360050405) | [DOI](https://doi.org/10.1109/TVCG.2019.2934287)
+<br>[Video Preview](https://vimeo.com/360050405) | [VIS 2019 Talk](https://vimeo.com/369712212) | [DOI](https://doi.org/10.1109/TVCG.2019.2934287)
 
 		
 <hr/>		
@@ -117,7 +117,6 @@ Authors: Ashok Jallepalli, Joshua A. Levine, Robert M. (Mike) Kirby
 **[S] Toward Localized Topological Data Structures: Querying the Forest for the Tree (J)** *(Best Paper Honorable Mention)*  
 Authors: Pavol Klacansky, Attila Gyulassy, Peer-Timo Bremer, Valerio Pascucci
 <br>[Video Preview](https://vimeo.com/359998742) | [DOI](https://doi.org/10.1109/TVCG.2019.2934257)
-
 		 
 **[S] Edit Distance between Merge Trees (T)**  
 Authors: Raghavendra Sridharamurthy, Talha Bin Masood, Adhitya Kamakshidasan, Vijay Natarajan
@@ -201,19 +200,19 @@ Authors: Yao Ming, Panpan Xu, Furui Cheng, Huamin Qu, Liu Ren
 		
 **[S] Dynamic Nested Tracking Graphs (J)**  
 Authors: Jonas Lukasczyk, Christoph Garth, Tim Biedert, Ross Maciejewski, Gunther H. Weber, Heike Leitte
-<br>[Video Preview](https://vimeo.com/359999289) | [DOI](https://doi.org/10.1109/TVCG.2019.2934368)
+<br>[Video Preview](https://vimeo.com/359999289) | [VIS 2019 Talk](https://vimeo.com/369973119) | [DOI](https://doi.org/10.1109/TVCG.2019.2934368)
 		
 **[S] Extraction and Visual Analysis of Potential Vorticity Banners around the Alps (J)**  
 Authors: Robin Bader, Michael Sprenger, Nikolina Ban, Stefan Rüdisühli, Christoph Schär, Tobias Günther
-<br>[Video Preview](https://vimeo.com/359998953) | [DOI](https://doi.org/10.1109/TVCG.2019.2934310)
+<br>[Video Preview](https://vimeo.com/359998953) | [VIS 2019 Talk](https://vimeo.com/369973468) | [DOI](https://doi.org/10.1109/TVCG.2019.2934310)
 
 **[S] Multi-Scale Topological Analysis of Asymmetric Tensor Fields on Surfaces (J)**  
 Authors: Fariba Khan, Lawrence Roy, Eugene Zhang, Botong Qu, Shih-Hsuan Hung, Harry Yeh, Robert S. Laramee, Yue Zhang
-<br>[Video Preview](https://vimeo.com/359999144) | [DOI](https://doi.org/10.1109/TVCG.2019.2934314)
+<br>[Video Preview](https://vimeo.com/359999144) | [VIS 2019 Talk](https://vimeo.com/369974295) | [DOI](https://doi.org/10.1109/TVCG.2019.2934314)
 
 **[S] Vector Field Topology of Time-Dependent Flows in a Steady Reference Frame (J)**  
 Authors: Irene Baeza Rojo, Tobias Günther
-<br>[Video Preview](https://vimeo.com/359999444) | [DOI](https://doi.org/10.1109/TVCG.2019.2934375)
+<br>[Video Preview](https://vimeo.com/359999444) | [VIS 2019 Talk](https://vimeo.com/369974413) | [DOI](https://doi.org/10.1109/TVCG.2019.2934375)
 
 **[S] Feature Tracking by Two-Step Optimization (T)**  
 Authors: Andrea Schnorr, Dirk N. Helmrich, Dominik Denker, Torsten W. Kuhlen, Bernd Hentschel
@@ -221,7 +220,7 @@ Authors: Andrea Schnorr, Dirk N. Helmrich, Dominik Denker, Torsten W. Kuhlen, Be
 		
 **[V] Scalable Topological Data Analysis and Visualization for Interpreting Data-Driven Models in Scientific Applications (J)**  
 Authors: Shusen Liu, Di Wang, Dan Maljovec, Rushil Anirudh, Jayaraman J. Thiagarajan, Sam Ade Jacobs, Brian C. Van Essen, David Hysom, Jae-Seung Yeom, Jim Gaffney, J. Luc Peterson, Peter B. Robinson, Harsh Bhatia, Valerio Pascucci, Brian K. Spears, Peer-Timo Bremer
-<br>[Video Preview](https://vimeo.com/360155819) | [DOI](https://doi.org/10.1109/TVCG.2019.2934594)
+<br>[Video Preview](https://vimeo.com/360155819) | [VIS 2019 Talk](https://vimeo.com/369974559) | [DOI](https://doi.org/10.1109/TVCG.2019.2934594)
 		
 <hr/>		
 		
@@ -739,11 +738,11 @@ Authors: Qianwen Wang, Jun Yuan, Shuxin Chen, Hang Su, Huamin Qu, Shixia Liu
 		
 **[V] CloudDet: Interactive Visual Analysis of Anomalous Performances in Cloud Computing Systems (J)**  
 Authors: Ke Xu, Yun Wang, Leni Yang, Yifang Wang, Bo Qiao, Si Qin, Yong Xu, Haidong Zhang, Huamin Qu
-<br>[Video Preview](https://vimeo.com/360154740) | [DOI](https://doi.org/10.1109/TVCG.2019.2934613)
+<br>[Video Preview](https://vimeo.com/360154740) | [VIS 2019 Talk](https://vimeo.com/370668674) | [DOI](https://doi.org/10.1109/TVCG.2019.2934613)
 		
 **[I] Visualizing a Moving Target: A Design Study on Task Parallel Programs in the Presence of Evolving Data and Concerns (J)**  
 Authors: Kathryn P Williams, Alex Bigelow, Katherine Isaacs
-<br>[Video Preview](https://vimeo.com/360050356) | [DOI](https://doi.org/10.1109/TVCG.2019.2934285)
+<br>[Video Preview](https://vimeo.com/360050356) | [VIS 2019 Talk](https://vimeo.com/370668837) | [DOI](https://doi.org/10.1109/TVCG.2019.2934285)
 
 **[I] How People Visually Represent Discrete Constraint Problem (T)**  
 Authors: Xu Zhu, Miguel A. Nacenta, Özgür Akgun, Peter Nightingale
@@ -759,7 +758,7 @@ Authors: Daniel Jönsson, Peter Steneteg, Erik Sundén, Rickard Englund, Sathish
 		
 **[V] Exploranative Code Quality Documents (J)**  
 Authors: Haris Mumtaz, Shahid Latif, Fabian Beck, Daniel Weiskopf
-<br>[Video Preview](https://vimeo.com/360154571) | [DOI](https://doi.org/10.1109/TVCG.2019.2934669)
+<br>[Video Preview](https://vimeo.com/360154571) | [VIS 2019 Talk](https://vimeo.com/370669433) | [DOI](https://doi.org/10.1109/TVCG.2019.2934669)
 
 <hr/>		
 		
@@ -867,7 +866,7 @@ Authors: Min Lu, Shuaiqi Wang, Joel Lanir, Noa Fish, Yang Yue, Daniel CohenOr, H
 		
 **[S] Void-and-Cluster Sampling of Large Scattered Data and Trajectories (J)**  
 Authors: Tobias Rapp, Christoph Peters, Carsten Dachsbacher
-<br>[Video Preview](https://vimeo.com/359999170) | [DOI](https://doi.org/10.1109/TVCG.2019.2934335)
+<br>[Video Preview](https://vimeo.com/359999170) | [VIS 2019 Talk](https://vimeo.com/370669755) | [DOI](https://doi.org/10.1109/TVCG.2019.2934335)
 
 **[S] FeatureLego: Volume Exploration Using Exhaustive Clustering of Super-Voxels (T)**  
 Authors: Shreeraj Jadhav, Saad Nadeem, Arie Kaufman
@@ -991,27 +990,27 @@ Authors: Zhaosong Huang, Yafeng Lu, Elizabeth A. Mack, Wei Chen, Ross Maciejewsk
 		
 **[I] Illusion of Causality in Visualized Data (J)**  
 Authors: Cindy Xiong, Joel Shapiro, Jessica Hullman, Steven Franconeri
-<br>[Video Preview](https://vimeo.com/360049821) | [DOI](https://doi.org/10.1109/TVCG.2019.2934399)
+<br>[Video Preview](https://vimeo.com/360049821) | [VIS 2019 Talk](https://vimeo.com/370881473) | [DOI](https://doi.org/10.1109/TVCG.2019.2934399)
 
 **[V] Ablate, Variate, and Contemplate: Visual Analytics for Discovering Neural Architectures (J)**  
 Authors: Dylan Cashman, Adam Perer, Remco Chang, Hendrik Strobelt
-<br>[Video Preview](https://vimeo.com/360155168) | [DOI](https://doi.org/10.1109/TVCG.2019.2934261)
+<br>[Video Preview](https://vimeo.com/360155168) | [VIS 2019 Talk](https://vimeo.com/370881785) | [DOI](https://doi.org/10.1109/TVCG.2019.2934261)
 
 **[V] VASSL: A Visual Analytics Toolkit for Social Spambot Labeling (J)**  
 Authors: Mosab Khayat, Morteza Karimzadeh, Jieqiong Zhao, David Ebert
-<br>[Video Preview](https://vimeo.com/360155523) | [DOI](https://doi.org/10.1109/TVCG.2019.2934266)
+<br>[Video Preview](https://vimeo.com/360155523) | [VIS 2019 Talk](https://vimeo.com/370882767) | [DOI](https://doi.org/10.1109/TVCG.2019.2934266)
 
 **[V] Visual Interaction with Deep Learning Models through Collaborative Semantic Inference (J)**  
 Authors: Sebastian Gehrmann, Hendrik Strobelt, Robert Krüger, Kathryn Hite, Hanspeter Pfister, Alexander M. Rush
-<br>[Video Preview](https://vimeo.com/360155863) | [DOI](https://doi.org/10.1109/TVCG.2019.2934595)
+<br>[Video Preview](https://vimeo.com/360155863) | [VIS 2019 Talk](https://vimeo.com/370883129) | [DOI](https://doi.org/10.1109/TVCG.2019.2934595)
 
 **[V] ICE: An Interactive Configuration Explorer for High Dimensional Parameter Spaces (C)**  
 Authors: Anjul Tyagi, Klaus Mueller, Zhen Cao, Tyler Estro, Erez Zadok
-<br>[Video Preview](https://vimeo.com/360156102)
+<br>[Video Preview](https://vimeo.com/360156102) | [VIS 2019 Talk](https://vimeo.com/370883468)
 		
 **[V] Interactive Correction of Mislabeled Training Data (C)**  
 Authors: Xi Ye, Shouxing Xiang, Jiazhi Xia, Jing Wu, Yang Chen, Shixia Lu
-<br>[Video Preview](https://vimeo.com/360154277)
+<br>[Video Preview](https://vimeo.com/360154277) | [VIS 2019 Talk](https://vimeo.com/370883679)
 		
 <hr/>		
 		
