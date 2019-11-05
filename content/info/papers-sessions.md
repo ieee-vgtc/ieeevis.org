@@ -332,19 +332,19 @@ Authors: Sarkis Halladjian, Haichao Miao, David Kouřil, Eduard Gröller, Ivan V
 		
 **[I] A Deep Generative Model for Graph Layout (J)**  
 Authors: Oh-Hyun Kwon, Kwan-Liu Ma
-<br>[Video Preview](https://vimeo.com/360049688) | [DOI](https://doi.org/10.1109/TVCG.2019.2934396)
+<br>[Video Preview](https://vimeo.com/360049688) | [VIS 2019 Talk](https://vimeo.com/369974954) | [DOI](https://doi.org/10.1109/TVCG.2019.2934396)
 
 **[I] DeepDrawing: A Deep Learning Approach to Graph Drawing (J)**  
 Authors: Yong Wang, Zhihua Jin, Qianwen Wang, Weiwei Cui, Tengfei Ma, Huamin Qu
-<br>[Video Preview](https://vimeo.com/360049919) | [DOI](https://doi.org/10.1109/TVCG.2019.2934798)
+<br>[Video Preview](https://vimeo.com/360049919) | [VIS 2019 Talk](https://vimeo.com/369976078) | [DOI](https://doi.org/10.1109/TVCG.2019.2934798)
 
 **[I] Interactive Structure-aware Blending of Diverse Edge Bundling Visualizations (J)**  
 Authors: Yunhai Wang, Mingliang Xue, Yanyan Wang, Xinyuan Yan, Baoquan Chen, Chi-Wing Fu, Christophe Hurter
-<br>[Video Preview](https://vimeo.com/360050223) | [DOI](https://doi.org/10.1109/TVCG.2019.2934805)
+<br>[Video Preview](https://vimeo.com/360050223) | [VIS 2019 Talk](https://vimeo.com/369976850) | [DOI](https://doi.org/10.1109/TVCG.2019.2934805)
 
 **[I] Persistent Homology Guided Force-Directed Graph Layouts (J)**  
 Authors: Ashley Suh, Mustafa Hajij, Bei Wang, Carlos Scheidegger, Paul Rosen
-<br>[Video Preview](https://vimeo.com/360050009) | [DOI](https://doi.org/10.1109/TVCG.2019.2934802)
+<br>[Video Preview](https://vimeo.com/360050009) | [VIS 2019 Talk](https://vimeo.com/369977717) | [DOI](https://doi.org/10.1109/TVCG.2019.2934802)
 
 **[I] Graph Drawing by Stochastic Gradient Descent (T)**  
 Authors: J X Zheng, D F M Goodman, S Pawar
@@ -472,23 +472,23 @@ Authors: Connor C. Gramazio, Jeff Huang, David H. Laidlaw
 		
 **[I] A Comparative Evaluation of Animation and Small Multiples for Trend Visualization on Mobile Phones (J)**  
 Authors: Matthew Brehmer, Bongshin Lee, Petra Isenberg, Eun Kyoung Choe
-<br>[Video Preview](https://vimeo.com/360049784) | [DOI](https://doi.org/10.1109/TVCG.2019.2934397)
+<br>[Video Preview](https://vimeo.com/360049784) | [VIS 2019 Talk](https://vimeo.com/369979414) | [DOI](https://doi.org/10.1109/TVCG.2019.2934397)
 
 **[I] A Comparison of Visualizations for Identifying Correlation Over Time and Space (J)**  
 Authors: Vanessa Peña-Araya, Emmanuel Pietriga, Anastasia Bezerianos
-<br>[Video Preview](https://vimeo.com/360050071) | [DOI](https://doi.org/10.1109/TVCG.2019.2934807)
+<br>[Video Preview](https://vimeo.com/360050071) | [VIS 2019 Talk](https://vimeo.com/369980230) | [DOI](https://doi.org/10.1109/TVCG.2019.2934807)
 
 **[I] Common Fate for Animated Transitions in Visualization (J)**  
 Authors: Amira Chalbi, Jacob Ritchie, Deokgun Park, Jungu Choi, Nicolas Roussel, Niklas Elmqvist, Fanny Chevalier
-<br>[Video Preview](https://vimeo.com/360484281) | [DOI](https://doi.org/10.1109/TVCG.2019.2934288)
+<br>[Video Preview](https://vimeo.com/360484281) | [VIS 2019 Talk](https://vimeo.com/369980464) | [DOI](https://doi.org/10.1109/TVCG.2019.2934288)
 
 **[V] CourtTime: Generating Actionable Insights into Tennis Matches Using Visual Analytics (J)**  
 Authors: Thomas E. Polk, Dominik Jäckle, Johannes Häußler, Jing Yang
-<br>[Video Preview](https://vimeo.com/360155110) | [DOI](https://doi.org/10.1109/TVCG.2019.2934243)
+<br>[Video Preview](https://vimeo.com/360155110) | [VIS 2019 Talk](https://vimeo.com/369981083) | [DOI](https://doi.org/10.1109/TVCG.2019.2934243)
 
 **[V] Tac-Simur: Visual Analytics for Tactic-based Match Simulation of Table Tennis (J)**  
 Authors: Jiachen Wang, Kejian Zhao, Dazhen Deng, Anqi Cao, Xiao Xie, Zheng Zhou, Hui Zhang, Yingcai Wu
-<br>[Video Preview](https://vimeo.com/360154177) | [DOI](https://doi.org/10.1109/TVCG.2019.2934630)
+<br>[Video Preview](https://vimeo.com/360154177) | [VIS 2019 Talk](https://vimeo.com/369981638) | [DOI](https://doi.org/10.1109/TVCG.2019.2934630)
 
 **[V] COPE: Interactive Exploration of Co-occurrence Patterns in Spatial Time Series (T)**  
 Authors: Jie Li, Siming Chen, Kang Zhang, Gennady Andrienko, Natalia Andrienko
@@ -614,15 +614,15 @@ Authors: Jorge A. Wagner, Wolfgang Stuerzlinger, Luciana Nedel
 
 **[I] The Impact of Immersion on Cluster Identification Tasks (J)**  
 Authors: Matthias Kraus, Niklas Kai Weiler, Daniela Oelke, Johannes Kehrer, Daniel Keim, Johannes Fuchs
-<br>[Video Preview](https://vimeo.com/360049662) | [DOI](https://doi.org/10.1109/TVCG.2019.2934395)
+<br>[Video Preview](https://vimeo.com/360049662) | [VIS 2019 Talk](https://vimeo.com/370323673) | [DOI](https://doi.org/10.1109/TVCG.2019.2934395)
 
 **[I] There Is No Spoon: Evaluating Performance, Space Use, and Presence with Expert Domain Users in Immersive Analytics (J)**  
 Authors: Andrea Batch, Andrew Cunningham, Maxime Cordeil, Niklas Elmqvist, Tim Dwyer, Bruce H Thomas, Kim Marriott
-<br>[Video Preview](https://vimeo.com/360050033) | [DOI](https://doi.org/10.1109/TVCG.2019.2934803)
+<br>[Video Preview](https://vimeo.com/360050033) | [VIS 2019 Talk](https://vimeo.com/370324954) | [DOI](https://doi.org/10.1109/TVCG.2019.2934803)
 
 **[S] Deadeye Visualization Revisited: Investigation of Preattentiveness and Applicability in Virtual Environments (J)**  
 Authors: Andrey Krekhov, Sebastian Cmentowski, Andre Waschk, Jens Krueger
-<br>[Video Preview](https://vimeo.com/359999349) | [DOI](https://doi.org/10.1109/TVCG.2019.2934370)
+<br>[Video Preview](https://vimeo.com/359999349) | [VIS 2019 Talk](https://vimeo.com/370325606) | [DOI](https://doi.org/10.1109/TVCG.2019.2934370)
 
 <hr/>		
 		
@@ -1130,15 +1130,15 @@ Authors: Siming Chen, Natalia Andrienko, Gennady Andrienko, Linara Adilova, Jere
 		
 **[I] ShapeWordle: Tailoring Wordles using Shape-aware Archimedean Spirals (J)**  
 Authors: Yunhai Wang, Xiaowei Chu, Kaiyi Zhang, Chen Bao, Xiaotong Li, Jian Zhang, Chi-Wing Fu, Christophe Hurter, Oliver Deussen, Bongshin Lee
-<br>[Video Preview](https://vimeo.com/360050251) | [DOI](https://doi.org/10.1109/TVCG.2019.2934783)
+<br>[Video Preview](https://vimeo.com/360050251) | [VIS 2019 Talk](https://vimeo.com/370886854) | [DOI](https://doi.org/10.1109/TVCG.2019.2934783)
 
 **[V] Semantic Concept Spaces: Guided Topic Model Refinement using Word-Embedding Projections (J)**  
 Authors: Mennatallah El-Assady, Rebecca Kehlbeck, Christopher Collins, Daniel Keim, Oliver Deussen
-<br>[Video Preview](https://vimeo.com/360154204) | [DOI](https://doi.org/10.1109/TVCG.2019.2934654)
+<br>[Video Preview](https://vimeo.com/360154204) | [VIS 2019 Talk](https://vimeo.com/370887904) | [DOI](https://doi.org/10.1109/TVCG.2019.2934654)
 
 **[V] VIANA: Visual Interactive Annotation of Argumentation (C)**  
 Authors: Fabian Sperrle, Rita Sevastjanova, Rebecca Kehlbeck, Mennatallah El-Assady
-<br>[Video Preview](https://vimeo.com/360154233)
+<br>[Video Preview](https://vimeo.com/360154233) | [VIS 2019 Talk](https://vimeo.com/370888115)
 		
 **[V] Topic-based Exploration and Embedded Visualizations for Research Idea Generation (T)**  
 Authors: Hua Guo, David H. Laidlaw
