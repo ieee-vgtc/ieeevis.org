@@ -364,7 +364,7 @@ Authors: Maoyuan Sun, Jian Zhao, Hao Wu, Kurt Luther, Chris North, Naren Ramakri
 		
 **[S] Accelerated Monte Carlo Rendering of Finite-Time Lyapunov Exponents (J)**  
 Authors: Irene Baeza Rojo, Markus Gross, Tobias Günther
-<br>[Video Preview](https://vimeo.com/359999098) | [DOI](https://doi.org/10.1109/TVCG.2019.2934313)
+<br>[Video Preview](https://vimeo.com/359999098) | [VIS 2019 Talk](https://vimeo.com/371266581) | [DOI](https://doi.org/10.1109/TVCG.2019.2934313)
 
 **[S] Detection and Visualization of Splat and Antisplat Events in Turbulent Flows (T)**  
 Authors: Baldwin Nsonga, Martin Niemann, Jochen Fröhlich, Joachim Staib, Stefan Gumhold, Gerik Scheuermann
@@ -372,7 +372,7 @@ Authors: Baldwin Nsonga, Martin Niemann, Jochen Fröhlich, Joachim Staib, Stefan
 		
 **[S] Analysis of the Near-Wall Flow in a Turbine Cascade by Splat Visualization (J)**  
 Authors: Baldwin Nsonga, Gerik Scheuermann, Stefan Gumhold, Jordi Ventosa-Molina, Denis Koschichow, Jochen Fröhlich
-<br>[Video Preview](https://vimeo.com/359999261) | [DOI](https://doi.org/10.1109/TVCG.2019.2934367)
+<br>[Video Preview](https://vimeo.com/359999261) | [VIS 2019 Talk](https://vimeo.com/371266864) | [DOI](https://doi.org/10.1109/TVCG.2019.2934367)
 
 **[S] Extreme-Scale Stochastic Particle Tracing for Uncertain Unsteady Flow Visualization and Analysis (T)**  
 Authors: Hanqi Guo, Wenbin He, Sangmin Seo, Han-Wei Shen, Emil Mihai Constantinescu, Chunhui Liu, Tom Peterka
@@ -508,7 +508,7 @@ Authors: Salman Mahmood, Klaus Mueller
 		
 **[I] An Incremental Dimensionality Reduction Method for Visualizing Streaming Multidimensional Data (J)**  
 Authors: Takanori Fujiwara, Jia-Kai Chou, Shilpika Shilpika, Panpan Xu, Liu Ren, Kwan-Liu Ma
-<br>[Video Preview](https://vimeo.com/360050443) | [DOI](https://doi.org/10.1109/TVCG.2019.2934433)
+<br>[Video Preview](https://vimeo.com/360050443) | [VIS 2019 Talk](https://vimeo.com/371267332) | [DOI](https://doi.org/10.1109/TVCG.2019.2934433)
 
 **[S] Feature Level-Sets: Generalizing Iso-surfaces to Multi-variate Data (T)**  
 Authors: Jochen Jankowai, Ingrid Hotz
@@ -520,11 +520,11 @@ Authors: Rafael Ballester-Ripoll, Peter Lindstrom, Renato Pajarola
 		
 **[V] Selection Bias Tracking and Detailed Subset Comparison for High-Dimensional Data (J)**  
 Authors: David Borland, Wenyuan Wang, Jonathan Zhang, Joshua Shrestha, David Gotz
-<br>[Video Preview](https://vimeo.com/360154972) | [DOI](https://doi.org/10.1109/TVCG.2019.2934209)
+<br>[Video Preview](https://vimeo.com/360154972) | [VIS 2019 Talk](https://vimeo.com/371268138) | [DOI](https://doi.org/10.1109/TVCG.2019.2934209)
 
 **[V] Visual Analysis of High-Dimensional Event Sequence Data via Dynamic Hierarchical Aggregation (J)**  
 Authors: David Gotz, Jonathan Zhang, Wenyuan Wang, Joshua Shrestha, David Borland
-<br>[Video Preview](https://vimeo.com/360154915) | [DOI](https://doi.org/10.1109/TVCG.2019.2934661)
+<br>[Video Preview](https://vimeo.com/360154915) | [VIS 2019 Talk](https://vimeo.com/371268853) | [DOI](https://doi.org/10.1109/TVCG.2019.2934661)
 
 <hr/>		
 		
@@ -634,7 +634,7 @@ Authors: Andrey Krekhov, Sebastian Cmentowski, Andre Waschk, Jens Krueger
 		
 **[V] Interactive Learning for Identifying Relevant Tweets to Support Real-time Situational Awareness (J)**  
 Authors: Luke Snyder, Yi-Shan Lin, Morteza Karimzadeh, Dan Goldwasser, David Ebert
-<br>[Video Preview](https://vimeo.com/360154855) | [DOI](https://doi.org/10.1109/TVCG.2019.2934614)
+<br>[Video Preview](https://vimeo.com/360154855) | [VIS 2019 Talk](https://vimeo.com/371269786) | [DOI](https://doi.org/10.1109/TVCG.2019.2934614)
 
 **[I] A Systematic Review of Visualization in Building Information Modeling (T)**  
 Authors: Paulo Ivson, André Moreira, Francisco Queiroz, Wallas Santos, Waldemar Celes
@@ -642,19 +642,19 @@ Authors: Paulo Ivson, André Moreira, Francisco Queiroz, Wallas Santos, Waldemar
 		
 **[V] LightGuider: Guiding Interactive Lighting Design using Suggestions, Provenance, and Quality Visualization (J)**  
 Authors: Andreas Walch, Michael Schwärzler, Christian Luksch, Elmar Eisemann, Theresia Gschwandtner
-<br>[Video Preview](https://vimeo.com/360154391) | [DOI](https://doi.org/10.1109/TVCG.2019.2934658)
+<br>[Video Preview](https://vimeo.com/360154391) | [VIS 2019 Talk](https://vimeo.com/371269980) | [DOI](https://doi.org/10.1109/TVCG.2019.2934658)
 
 **[V] PlanningVis: A Visual Analytics Approach to Production Planning in Smart Factories (J)**  
 Authors: Dong Sun, Renfei Huang, Yong Wang, Yuanzhe Chen, Jia Zeng, Mingxuan Yuan, Ting-Chuen Pong, Huamin Qu
-<br>[Video Preview](https://vimeo.com/360155601) | [DOI](https://doi.org/10.1109/TVCG.2019.2934275)
+<br>[Video Preview](https://vimeo.com/360155601) | [VIS 2019 Talk](https://vimeo.com/371270160) | [DOI](https://doi.org/10.1109/TVCG.2019.2934275)
 
 **[V] Visual Analytics for Electromagnetic Situation Awareness in Radio Monitoring and Management (J)**  
 Authors: Ying Zhao, Xiaobo Luo, Xiaru Lin, Hairong Wang, Xiaoyan Kui, Fangfang Zhou, Jinsong Wang, Yi Chen, Wei Chen
-<br>[Video Preview](https://vimeo.com/360154252) | [DOI](https://doi.org/10.1109/TVCG.2019.2934655)
+<br>[Video Preview](https://vimeo.com/360154252) | [VIS 2019 Talk](https://vimeo.com/371270285) | [DOI](https://doi.org/10.1109/TVCG.2019.2934655)
 
 **[V] sPortfolio: Stratified Visual Analysis of Stock Portfolios (J)**  
 Authors: Xuanwu Yue, Jiaxin Bai, Qinhan Liu, Yiyang Tang, Abishek Puri, Ke Li, Huamin Qu
-<br>[Video Preview](https://vimeo.com/360154484) | [DOI](https://doi.org/10.1109/TVCG.2019.2934660)
+<br>[Video Preview](https://vimeo.com/360154484) | [VIS 2019 Talk](https://vimeo.com/371271099) | [DOI](https://doi.org/10.1109/TVCG.2019.2934660)
 
 <hr/>		
 		
