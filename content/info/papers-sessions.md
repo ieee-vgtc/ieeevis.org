@@ -801,23 +801,23 @@ Authors: Nicola Pezzotti, Julian Thijssen, Alexander Mordvintsev, Thomas Höllt,
 *Session Chair: Klaus Mueller*  
 
 **Volume Path Guiding Based on Zero-Variance Random Walk Theory**  
-Authors: Sebastian Herholz
+Authors: Sebastian Herholz, Yangyang Zhao, Oskar Elek, Derek Nowrouzezahrai, Hendrik P. A. Lensch, Jaroslav Křivánek
 <br>[DOI](https://doi.org/10.1145/3230635)
 
 **A Null-Scattering Path Integral Formulation of Light Transport**  
-Authors: Bailey Miller
+Authors: Bailey Miller, Iliyan Georgiev Autodesk, Wojciech Jarosz
 <br>[DOI](https://doi.org/10.1145/3306346.3323025)
 
 **Warp-and-Project Tomography for Rapidly Deforming Objects**  
-Authors: Wolfgang Heidrich
+Authors: Guangming Zang, Ramzi Idoughi, Ran Tao, Gilles Lubineau, Peter Wonka, Wolfgang Heidrich
 <br>[DOI](https://doi.org/10.1145/3306346.3322965)
 
 **A Learned Shape-Adaptive Subsurface Scattering Model**  
-Authors: Delio Aleardo Vicini
+Authors: Delio Vicini, Vladlen Koltun, Wenzel Jakob
 <br>[DOI](https://doi.org/10.1145/3306346.3322974)
 
 **Designing Chain Reaction Contraptions From Causal Graphs**  
-Authors: Robin Roussel
+Authors: Robin Roussel, Marie-Paule Cani, Jean-Claude Léon, Niloy J. Mitra
 <br>[DOI](https://doi.org/10.1145/3306346.3322977)
 
 **Neural Volumes: Learning Dynamic Renderable Volumes from Images**  
