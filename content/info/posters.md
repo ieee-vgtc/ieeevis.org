@@ -24,7 +24,7 @@ Martin Bellgardt, Alexander Enneking, Torsten Wolfgang Kuhlen
 
 **Exploring Carnivorous Plant Habitats based on Images from Social Media**  
 Rafael Andrés Blanco, Zujany Salazar, Tobias Isenberg  
-[Video Preview](https://vimeo.com/361162635)
+[Video Preview](https://vimeo.com/372908424)
 
 **Interactive Visualization for Real-Time Geospatial Data with Plotly Dash**  
 Sydney Brougham, Jonathan P. Leidig, Greg Wolffe  
