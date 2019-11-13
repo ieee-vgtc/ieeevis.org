@@ -5,7 +5,7 @@ active_nav: "Program"
 permalink: /year/2019/info/papers-sessions		
 ---		
 		
-Please note that sessions are composed of papers mixed from the VAST [V], InfoVis [I], and SciVis [S] conferences, and are marked as such preceding the paper titles.  In addition, the final publication venue for each paper is marked in parentheses following the title:		
+Please note that sessions are composed of papers mixed from the VAST [V], InfoVis [I], and SciVis [S] conferences, and are marked as such preceding the paper titles. In addition, the final publication venue for each paper is marked in parentheses following the title:		
 		
 * (J) TVCG journal special issue (SI) papers		
 * (T) Previously published TVCG journal papers presented at VIS		
@@ -112,11 +112,11 @@ Authors: Jules Vidal, Joseph Budin, Julien Tierny
 		
 **[S] The Effect of Data Transformations on Scalar Field Topological Analysis of High-Order FEM Solutions (J)**  
 Authors: Ashok Jallepalli, Joshua A. Levine, Robert M. (Mike) Kirby
-<br>[Video Preview](https://vimeo.com/359999206)  | [VIS 2019 Talk](https://vimeo.com/371442697) | [VIS 2019 Talk](https://vimeo.com/371442697) | [DOI](https://doi.org/10.1109/TVCG.2019.2934338)
+<br>[Video Preview](https://vimeo.com/359999206) [VIS 2019 Talk](https://vimeo.com/371442697) | [DOI](https://doi.org/10.1109/TVCG.2019.2934338)
 		
 **[S] Toward Localized Topological Data Structures: Querying the Forest for the Tree (J)** *(Best Paper Honorable Mention)*  
 Authors: Pavol Klacansky, Attila Gyulassy, Peer-Timo Bremer, Valerio Pascucci
-<br>[Video Preview](https://vimeo.com/359998742)  | [VIS 2019 Talk](https://vimeo.com/371444168) | [VIS 2019 Talk](https://vimeo.com/371444168) | [DOI](https://doi.org/10.1109/TVCG.2019.2934257)
+<br>[Video Preview](https://vimeo.com/359998742) | [VIS 2019 Talk](https://vimeo.com/371444168) | [DOI](https://doi.org/10.1109/TVCG.2019.2934257)
 		 
 **[S] Edit Distance between Merge Trees (T)**  
 Authors: Raghavendra Sridharamurthy, Talha Bin Masood, Adhitya Kamakshidasan, Vijay Natarajan
@@ -586,7 +586,7 @@ Authors: Bahador Saket, Samuel Huron, Charles Perin, Alex Endert
 
 **[S] Artifact-Based Rendering: Harnessing Natural and Traditional Visual Media for More Expressive and Engaging 3D Visualizations (J)**  
 Authors: Seth A Johnson, Francesca Samsel, Greg Abram, Daniel Olson, Andrew Solis, Bridger Herman, Philip Wolfram, Christophe Langlet, Daniel F. Keefe
-<br>[Video Preview](https://vimeo.com/359998878)  | [VIS 2019 Talk](https://vimeo.com/372530934) | [DOI](https://doi.org/10.1109/TVCG.2019.2934260)
+<br>[Video Preview](https://vimeo.com/359998878) | [VIS 2019 Talk](https://vimeo.com/372530934) | [DOI](https://doi.org/10.1109/TVCG.2019.2934260)
 
 **[V] Origraph: Interactive Network Wrangling (C)**  
 Authors: Alex Bigelow, Carolina Nobre, Miriah Meyer, Alexander Lex
@@ -962,11 +962,11 @@ Authors: Jochen Görtler, Thilo Spinner, Dirk Streeb, Daniel Weiskopf, Oliver De
 
 **[S] A Structural Average of Labeled Merge Trees for Uncertainty Visualization (J)**  
 Authors: Lin Yan, Yusu Wang, Elizabeth Munch, Ellen Gasparovic, Bei Wang
-<br>[Video Preview](https://vimeo.com/359998912)  | [VIS 2019 Talk](https://vimeo.com/372718601) | [DOI](https://doi.org/10.1109/TVCG.2019.2934242)
+<br>[Video Preview](https://vimeo.com/359998912) | [VIS 2019 Talk](https://vimeo.com/372718601) | [DOI](https://doi.org/10.1109/TVCG.2019.2934242)
 
 **[S] Multiscale Visual Drilldown for the Analysis of Large Ensembles of Multi-Body Protein Complexes (J)**  
 Authors: Katarina Furmanova, Adam Jurčík, Barbora Kozlikova, Helwig Hauser, Jan Byška
-<br>[Video Preview](https://vimeo.com/359999233)  | [VIS 2019 Talk](https://vimeo.com/372719933) | [DOI](https://doi.org/10.1109/TVCG.2019.2934333)
+<br>[Video Preview](https://vimeo.com/359999233) | [VIS 2019 Talk](https://vimeo.com/372719933) | [DOI](https://doi.org/10.1109/TVCG.2019.2934333)
 
 **[S] eFESTA: Ensemble Feature Exploration with Surface Density Estimates (T)**  
 Authors: Wenbin He, Hanqi Guo, Han-Wei Shen, Tom Peterka
