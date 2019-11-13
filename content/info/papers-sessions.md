@@ -104,7 +104,7 @@ Authors: Jessica Hullman
 		
 **[S] High-throughput feature extraction for measuring attributes of deforming open cell foams (J)**  
 Authors: Steve Petruzza, Attila Gyulassy, Samuel Leventhal, Jackson Baglino, Michael Czabaj, Ashely Spears, Valerio Pascucci
-<br>[Video Preview](https://vimeo.com/359999616) | [DOI](https://doi.org/10.1109/TVCG.2019.2934620)
+<br>[Video Preview](https://vimeo.com/359999616) | [VIS 2019 Talk](https://vimeo.com/371440631) | [DOI](https://doi.org/10.1109/TVCG.2019.2934620)
 		
 **[S] Progressive Wasserstein Barycenters of Persistence Diagrams (J)** *(Best Paper Honorable Mention)*  
 Authors: Jules Vidal, Joseph Budin, Julien Tierny
@@ -112,11 +112,11 @@ Authors: Jules Vidal, Joseph Budin, Julien Tierny
 		
 **[S] The Effect of Data Transformations on Scalar Field Topological Analysis of High-Order FEM Solutions (J)**  
 Authors: Ashok Jallepalli, Joshua A. Levine, Robert M. (Mike) Kirby
-<br>[Video Preview](https://vimeo.com/359999206) | [DOI](https://doi.org/10.1109/TVCG.2019.2934338)
+<br>[Video Preview](https://vimeo.com/359999206)  | [VIS 2019 Talk](https://vimeo.com/371442697) | [VIS 2019 Talk](https://vimeo.com/371442697) | [DOI](https://doi.org/10.1109/TVCG.2019.2934338)
 		
 **[S] Toward Localized Topological Data Structures: Querying the Forest for the Tree (J)** *(Best Paper Honorable Mention)*  
 Authors: Pavol Klacansky, Attila Gyulassy, Peer-Timo Bremer, Valerio Pascucci
-<br>[Video Preview](https://vimeo.com/359998742) | [DOI](https://doi.org/10.1109/TVCG.2019.2934257)
+<br>[Video Preview](https://vimeo.com/359998742)  | [VIS 2019 Talk](https://vimeo.com/371444168) | [VIS 2019 Talk](https://vimeo.com/371444168) | [DOI](https://doi.org/10.1109/TVCG.2019.2934257)
 		 
 **[S] Edit Distance between Merge Trees (T)**  
 Authors: Raghavendra Sridharamurthy, Talha Bin Masood, Adhitya Kamakshidasan, Vijay Natarajan
@@ -574,19 +574,19 @@ Authors: Fearn Bishop, Johannes Zagermann, Ulrike Pfeil, Gemma Sanderson, Harald
 
 **[I] Critical Reflections of Visualization Authoring Systems (J)**  
 Authors: Arvind Satyanarayan, Bongshin Lee, Donghao Ren, Jeffrey Heer, John Stasko, John R Thompson, Matthew Brehmer, Zhicheng Liu
-<br>[Video Preview](https://vimeo.com/360484371) | [DOI](https://doi.org/10.1109/TVCG.2019.2934281)
+<br>[Video Preview](https://vimeo.com/360484371) | [VIS 2019 Talk](https://vimeo.com/372529109) | [DOI](https://doi.org/10.1109/TVCG.2019.2934281)
 
 **[I] Decoding Complex Visualizations in Science Museums – An Empirical Study (J)**  
 Authors: Joyce Ma, Kwan-Liu Ma, Jennifer Frazier
-<br>[Video Preview](https://vimeo.com/360049861) | [DOI](https://doi.org/10.1109/TVCG.2019.2934401)
+<br>[Video Preview](https://vimeo.com/360049861) | [VIS 2019 Talk](https://vimeo.com/372529828) | [DOI](https://doi.org/10.1109/TVCG.2019.2934401)
 
 **[I] Investigating Direct Manipulation of Graphical Encodings as a Method for User Interaction (J)**  
 Authors: Bahador Saket, Samuel Huron, Charles Perin, Alex Endert
-<br>[Video Preview](https://vimeo.com/360445782) | [DOI](https://doi.org/10.1109/TVCG.2019.2934534)
+<br>[Video Preview](https://vimeo.com/360445782) | [VIS 2019 Talk](https://vimeo.com/372530797) | [DOI](https://doi.org/10.1109/TVCG.2019.2934534)
 
 **[S] Artifact-Based Rendering: Harnessing Natural and Traditional Visual Media for More Expressive and Engaging 3D Visualizations (J)**  
 Authors: Seth A Johnson, Francesca Samsel, Greg Abram, Daniel Olson, Andrew Solis, Bridger Herman, Philip Wolfram, Christophe Langlet, Daniel F. Keefe
-<br>[Video Preview](https://vimeo.com/359998878) | [DOI](https://doi.org/10.1109/TVCG.2019.2934260)
+<br>[Video Preview](https://vimeo.com/359998878)  | [VIS 2019 Talk](https://vimeo.com/372530934) | [DOI](https://doi.org/10.1109/TVCG.2019.2934260)
 
 **[V] Origraph: Interactive Network Wrangling (C)**  
 Authors: Alex Bigelow, Carolina Nobre, Miriah Meyer, Alexander Lex
@@ -838,23 +838,23 @@ Authors: Yuxin Ma, Anthony K. H. Tung, Wei Wang, Xiang Gao, Zhigeng Pan, Wei Che
 		
 **[I] A Recursive Subdivision Technique for Sampling Multi-class Scatterplots (J)**  
 Authors: Xin Chen, Tong Ge, Jian Zhang, Baoquan Chen, Chi-Wing Fu, Oliver Deussen, Yunhai Wang
-<br>[Video Preview](https://vimeo.com/360050562) | [DOI](https://doi.org/10.1109/TVCG.2019.2934541)
+<br>[Video Preview](https://vimeo.com/360050562) | [VIS 2019 Talk](https://vimeo.com/372532134) | [DOI](https://doi.org/10.1109/TVCG.2019.2934541)
 		
 **[I] Data Sampling in Multi-view and Multi-class Scatterplots via Set Cover Optimization (J)**  
 Authors: Ruizhen Hu, Tingkai Sha, Oliver van Kaick, Oliver Deussen, Hui Huang
-<br>[Video Preview](https://vimeo.com/360049945) | [DOI](https://doi.org/10.1109/TVCG.2019.2934799)
+<br>[Video Preview](https://vimeo.com/360049945) | [VIS 2019 Talk](https://vimeo.com/372532278) | [DOI](https://doi.org/10.1109/TVCG.2019.2934799)
 
 **[I] Discriminability Tests for Visualization Effectiveness and Scalability (J)**  
 Authors: Rafael Veras, Christopher Collins
-<br>[Video Preview](https://vimeo.com/360484488) | [DOI](https://doi.org/10.1109/TVCG.2019.2934432)
+<br>[Video Preview](https://vimeo.com/360484488) | [VIS 2019 Talk](https://vimeo.com/372532401) | [DOI](https://doi.org/10.1109/TVCG.2019.2934432)
 
 **[I] Improving the Robustness of Scagnostics (J)**  
 Authors: Yunhai Wang, Zeyu Wang, Tingting Liu, Michael Correll, Zhanglin Cheng, Oliver Deussen, Michael Sedlmair
-<br>[Video Preview](https://vimeo.com/360050165)  | [DOI](https://doi.org/10.1109/TVCG.2019.2934796)
+<br>[Video Preview](https://vimeo.com/360050165) | [VIS 2019 Talk](https://vimeo.com/372532516) | [DOI](https://doi.org/10.1109/TVCG.2019.2934796)
 
 **[I] Winglets: Visualizing Association with Uncertainty in Multi-class Scatterplots (J)**  
 Authors: Min Lu, Shuaiqi Wang, Joel Lanir, Noa Fish, Yang Yue, Daniel CohenOr, Hui Huang
-<br>[Video Preview](https://vimeo.com/360050129) | [DOI](https://doi.org/10.1109/TVCG.2019.2934811)
+<br>[Video Preview](https://vimeo.com/360050129) | [VIS 2019 Talk](https://vimeo.com/372532721) | [DOI](https://doi.org/10.1109/TVCG.2019.2934811)
 
 <hr/>		
 		
@@ -958,15 +958,15 @@ Authors: Aashish Chaudhary, Sankhesh J. Jhaveri, Alvaro Sanchez, Lisa S. Avila, 
 		
 **[I] Uncertainty-Aware Principal Component Analysis (J)**  
 Authors: Jochen Görtler, Thilo Spinner, Dirk Streeb, Daniel Weiskopf, Oliver Deussen
-<br>[Video Preview](https://vimeo.com/360050141) | [DOI](https://doi.org/10.1109/TVCG.2019.2934812)
+<br>[Video Preview](https://vimeo.com/360050141) | [VIS 2019 Talk](https://vimeo.com/372717650) | [DOI](https://doi.org/10.1109/TVCG.2019.2934812)
 
 **[S] A Structural Average of Labeled Merge Trees for Uncertainty Visualization (J)**  
 Authors: Lin Yan, Yusu Wang, Elizabeth Munch, Ellen Gasparovic, Bei Wang
-<br>[Video Preview](https://vimeo.com/359998912) | [DOI](https://doi.org/10.1109/TVCG.2019.2934242)
+<br>[Video Preview](https://vimeo.com/359998912)  | [VIS 2019 Talk](https://vimeo.com/372718601) | [DOI](https://doi.org/10.1109/TVCG.2019.2934242)
 
 **[S] Multiscale Visual Drilldown for the Analysis of Large Ensembles of Multi-Body Protein Complexes (J)**  
 Authors: Katarina Furmanova, Adam Jurčík, Barbora Kozlikova, Helwig Hauser, Jan Byška
-<br>[Video Preview](https://vimeo.com/359999233) | [DOI](https://doi.org/10.1109/TVCG.2019.2934333)
+<br>[Video Preview](https://vimeo.com/359999233)  | [VIS 2019 Talk](https://vimeo.com/372719933) | [DOI](https://doi.org/10.1109/TVCG.2019.2934333)
 
 **[S] eFESTA: Ensemble Feature Exploration with Surface Density Estimates (T)**  
 Authors: Wenbin He, Hanqi Guo, Han-Wei Shen, Tom Peterka
@@ -1098,19 +1098,19 @@ Authors: Yixuan Zhang, Sara Di Bartolomeo, Fangfang Sheng, Holly Jimison, Cody D
 		
 **[I] CerebroVis: Designing an Abstract yet Spatially Contextualized Cerebral Arteries Network Visualization (J)**  
 Authors: Aditeya Pandey, Harsh Shukla, Geoffrey S. Young, Lei Qin, Amir A. Zamani, Liangge Hsu, Raymond Huang, Cody Dunne, Michelle A. Borkin
-<br>[Video Preview](https://vimeo.com/360049888) | [DOI](https://doi.org/10.1109/TVCG.2019.2934402)
+<br>[Video Preview](https://vimeo.com/360049888) | [VIS 2019 Talk](https://vimeo.com/372721381) | [DOI](https://doi.org/10.1109/TVCG.2019.2934402)
 
 **[S] Cohort-based T-SSIM Visual Computing for Radiation Therapy Prediction and Exploration (J)**  
 Authors: Andrew Wentzel, Peter Haula, Timothy Basil Luciani, Baher Elgohari, Hesham Elhalawani, Guadalupe Canahuate, David M. Vock, Clifton David Fuller, G. Elisabeta Marai
-<br>[Video Preview](https://vimeo.com/359999477) | [DOI](https://doi.org/10.1109/TVCG.2019.2934546)
+<br>[Video Preview](https://vimeo.com/359999477) | [VIS 2019 Talk](https://vimeo.com/372723303) | [DOI](https://doi.org/10.1109/TVCG.2019.2934546)
 
 **[S] DeepOrganNet: On-the-Fly Reconstruction and Visualization of 3D / 4D Lung Models from Single-View Projections by Deep Deformation Network (J)**  
 Authors: Yifan Wang, Zichun Zhong, Jing Hua
-<br>[Video Preview](https://vimeo.com/359999320) | [DOI](https://doi.org/10.1109/TVCG.2019.2934369)
+<br>[Video Preview](https://vimeo.com/359999320) | [VIS 2019 Talk](https://vimeo.com/372723520) | [DOI](https://doi.org/10.1109/TVCG.2019.2934369)
 
 **[S] Temporal Views of Flattened Mitral Valve Geometries (J)**  
 Authors: Pepe Eulzer, Sandy Engelhardt, Nils Lichtenberg, Raffaele de Simone, Kai Lawonn
-<br>[Video Preview](https://vimeo.com/359999188) | [DOI](https://doi.org/10.1109/TVCG.2019.2934337)
+<br>[Video Preview](https://vimeo.com/359999188) | [VIS 2019 Talk](https://vimeo.com/372724832) | [DOI](https://doi.org/10.1109/TVCG.2019.2934337)
 
 **[V] Motion Browser: Visualizing and Understanding Complex Upper Limb Movement Under Obstetrical Brachial Plexus Injuries (J)**  
 Authors: Gromit Yeuk-Yin Chan, Luis Gustavo Nonato, Alice Chu, Preeti Raghavan, Viswanath Aluru, Claudio T. Silva
