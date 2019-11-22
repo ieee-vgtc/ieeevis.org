@@ -120,7 +120,7 @@ Authors: Pavol Klacansky, Attila Gyulassy, Peer-Timo Bremer, Valerio Pascucci
 		 
 **[S] Edit Distance between Merge Trees (T)**  
 Authors: Raghavendra Sridharamurthy, Talha Bin Masood, Adhitya Kamakshidasan, Vijay Natarajan
-<br>[Video Preview](https://vimeo.com/364568965) | [DOI](https://doi.org/10.1109/TVCG.2018.2873612)
+<br>[Video Preview](https://vimeo.com/364568965)  | [VIS 2019 Talk](https://vimeo.com/373019044) | [DOI](https://doi.org/10.1109/TVCG.2018.2873612)
 		
 <hr/>		
 		
@@ -168,27 +168,27 @@ Authors: Marti Hearst, Melanie Tory
 		
 **[V] GUIRO: User-Guided Matrix Reordering (J)**  
 Authors: Michael Behrisch, Tobias Schreck, Hanspeter Pfister
-<br>[Video Preview](https://vimeo.com/360155686) | [DOI](https://doi.org/10.1109/TVCG.2019.2934300)
+<br>[Video Preview](https://vimeo.com/360155686) | [VIS 2019 Talk](https://vimeo.com/374041222) | [DOI](https://doi.org/10.1109/TVCG.2019.2934300)
 		
 **[S] LassoNet: Deep Lasso-Selection of 3D Point Clouds (J)**  
 Authors: Zhutian Chen, Wei Zeng, ZhiGuang Yang, Lingyun Yu, Chi-Wing Fu, Huamin Qu
-<br>[Video Preview](https://vimeo.com/359999060) | [DOI](https://doi.org/10.1109/TVCG.2019.2934332)
+<br>[Video Preview](https://vimeo.com/359999060) | [VIS 2019 Talk](https://vimeo.com/374041372) | [DOI](https://doi.org/10.1109/TVCG.2019.2934332)
 		
 **[S] TSR-TVD: Temporal Super-Resolution for Time-Varying Data Analysis and Visualization (J)**  
 Authors: Jun Han, Chaoli Wang
-<br>[Video Preview](https://vimeo.com/359998660) | [DOI](https://doi.org/10.1109/TVCG.2019.2934255)
+<br>[Video Preview](https://vimeo.com/359998660) | [VIS 2019 Talk](https://vimeo.com/374042188) | [DOI](https://doi.org/10.1109/TVCG.2019.2934255)
 
 **[I] GenerativeMap: Visualization and Exploration of Dynamic Density Maps via Generative Learning Model (J)**  
 Authors: Chen Chen, Changbo Wang, Xue Bai, Peiying Zhang, Chenhui Li
-<br>[Video Preview](https://vimeo.com/360050049) | [DOI](https://doi.org/10.1109/TVCG.2019.2934806)
+<br>[Video Preview](https://vimeo.com/360050049) | [VIS 2019 Talk](https://vimeo.com/374042397) | [DOI](https://doi.org/10.1109/TVCG.2019.2934806)
 
 **[V] Facetto: Combining Unsupervised and Supervised Learning for Hierarchical Phenotype Analysis in Multi-Channel Image Data (J)**  
 Authors: Robert Krüger, Johanna Beyer, Won-Dong Jang, Nam Wook Kim, Artem Sokolov, Peter Sorger, Hanspeter Pfister
-<br>[Video Preview](https://vimeo.com/360156054) | [DOI](https://doi.org/10.1109/TVCG.2019.2934547)
+<br>[Video Preview](https://vimeo.com/360156054) | [VIS 2019 Talk](https://vimeo.com/374042499) | [DOI](https://doi.org/10.1109/TVCG.2019.2934547)
 
 **[V] ProtoSteer: Steering Deep Sequence Model with Prototypes (J)**  
 Authors: Yao Ming, Panpan Xu, Furui Cheng, Huamin Qu, Liu Ren
-<br>[Video Preview](https://vimeo.com/360155554) | [DOI](https://doi.org/10.1109/TVCG.2019.2934267)
+<br>[Video Preview](https://vimeo.com/360155554) | [VIS 2019 Talk](https://vimeo.com/374042799) | [DOI](https://doi.org/10.1109/TVCG.2019.2934267)
 
 <hr/>		
 		
@@ -240,11 +240,11 @@ Authors: Christine Nothelfer, Steven Franconeri
 
 **[I] A Task-based Taxonomy of Cognitive Biases for Information Visualization (T)**  
 Authors: Evanthia Dimara, Steven Franconeri, Catherine Plaisant, Anastasia Bezerianos, Pierre Dragicevic
-<br>[Video Preview](https://vimeo.com/364568413) | [DOI](https://doi.org/10.1109/TVCG.2018.2872577)
+<br>[Video Preview](https://vimeo.com/364568413) | [VIS 2019 Talk](https://vimeo.com/373008296) | [DOI](https://doi.org/10.1109/TVCG.2018.2872577)
 		
 **[I] The Curse of Knowledge in Visual Data Communication (T)**  
 Authors: Cindy Xiong, Lisanne van Weelden, Steven Franconeri
-<br>[Video Preview](https://vimeo.com/364568644) | [DOI](10.1109/TVCG.2019.2917689)
+<br>[Video Preview](https://vimeo.com/364568644) | [VIS 2019 Talk](https://vimeo.com/373016230) | [DOI](10.1109/TVCG.2019.2917689)
 
 **[V] Evaluating Perceptual Bias During Geometric Scaling of Scatterplots (J)**  
 Authors: Yating Wei, Honghui Mei, Ying Zhao, Shuyue Zhou, Bingru Lin, Haojin Jiang, Wei Chen
@@ -304,7 +304,7 @@ Authors: Xidao Wen, Yu-Ru Lin, Yongsu Ahn, Konstantinos Pelechrinis, Xi Liu, Nan
 		
 **[I] Pattern-Driven Navigation in 2D Multiscale Visualizations with Scalable Insets (J)**  
 Authors: Fritz Lekschas, Michael Behrisch, Benjamin Bach, Peter Kerpedjiev, Nils Gehlenborg, Hanspeter Pfister
-<br>[Video Preview](https://vimeo.com/360445699) | [DOI](https://doi.org/10.1109/TVCG.2019.2934555)
+<br>[Video Preview](https://vimeo.com/360445699) | [VIS 2019 Talk](https://vimeo.com/374042877) | [DOI](https://doi.org/10.1109/TVCG.2019.2934555)
 
 **[S] Multi-Scale Procedural Animations of Microtubule Dynamics Based on Measured Data (J)**  
 Authors: Tobias Klein, Ivan Viola, Eduard Gröller, Peter Mindek
@@ -316,7 +316,7 @@ Authors: Alexander Bock, Emil Axelsson, Jonathas Costa, Gene Payne, Micah Acinap
 
 **[S] Scale-Space Splatting: Reforming Spacetime for the Cross-Scale Exploration of Integral Measures in Molecular Dynamics (J)**  
 Authors: Juraj Pálenik, Jan Byška, Stefan Bruckner, Helwig Hauser
-<br>[Video Preview](https://vimeo.com/359998771) | [DOI](https://doi.org/10.1109/TVCG.2019.2934258)
+<br>[Video Preview](https://vimeo.com/359998771) | [VIS 2019 Talk](https://vimeo.com/374045821) | [DOI](https://doi.org/10.1109/TVCG.2019.2934258)
 
 **[S] ScaleTrotter: Illustrative Visual Travels Across Negative Scales (J)**  
 Authors: Sarkis Halladjian, Haichao Miao, David Kouřil, Eduard Gröller, Ivan Viola, Tobias Isenberg
@@ -348,7 +348,7 @@ Authors: Ashley Suh, Mustafa Hajij, Bei Wang, Carlos Scheidegger, Paul Rosen
 
 **[I] Graph Drawing by Stochastic Gradient Descent (T)**  
 Authors: J X Zheng, D F M Goodman, S Pawar
-<br>[Video Preview](https://vimeo.com/364569741) | [DOI](https://doi.org/10.1109/TVCG.2018.2859997)
+<br>[Video Preview](https://vimeo.com/364569741) | [VIS 2019 Talk](https://vimeo.com/373015168) | [DOI](https://doi.org/10.1109/TVCG.2018.2859997)
 
 **[V] The Effect of Edge Bundling and Seriation on Sensemaking of Biclusters in Bipartite Graphs (T)**  
 Authors: Maoyuan Sun, Jian Zhao, Hao Wu, Kurt Luther, Chris North, Naren Ramakrishnan
@@ -368,7 +368,7 @@ Authors: Irene Baeza Rojo, Markus Gross, Tobias Günther
 
 **[S] Detection and Visualization of Splat and Antisplat Events in Turbulent Flows (T)**  
 Authors: Baldwin Nsonga, Martin Niemann, Jochen Fröhlich, Joachim Staib, Stefan Gumhold, Gerik Scheuermann
-<br>[Video Preview](https://vimeo.com/364569430) | [DOI](https://doi.org/10.1109/TVCG.2019.2920157)
+<br>[Video Preview](https://vimeo.com/364569430) | [VIS 2019 Talk](https://vimeo.com/373020771) | [DOI](https://doi.org/10.1109/TVCG.2019.2920157)
 		
 **[S] Analysis of the Near-Wall Flow in a Turbine Cascade by Splat Visualization (J)**  
 Authors: Baldwin Nsonga, Gerik Scheuermann, Stefan Gumhold, Jordi Ventosa-Molina, Denis Koschichow, Jochen Fröhlich
@@ -384,7 +384,7 @@ Authors: Jun Han, Jun Tao, Chaoli Wang
 		
 **[S] Hyper-Objective Vortices (T)**  
 Authors: Tobias Günther, Holger Theisel
-<br>[Video Preview](https://vimeo.com/364568933) | [DOI](https://doi.org/10.1109/TVCG.2018.2868760)
+<br>[Video Preview](https://vimeo.com/364568933) | [VIS 2019 Talk](https://vimeo.com/373017590)| [DOI](https://doi.org/10.1109/TVCG.2018.2868760)
 		
 <hr/>		
 		
@@ -396,39 +396,39 @@ Authors: Tobias Günther, Holger Theisel
 		
 **A Markov Model of Users' Interactive Behavior in Scatterplots (C)**  
 Authors: Emily Wall, Arup Arcalgud, Kuhu Gupta, Andrew Jo
-<br>[Video Preview](https://vimeo.com/363954377)
+<br>[Video Preview](https://vimeo.com/363954377) | [VIS 2019 Talk](https://vimeo.com/373792145)
 		
 **Slope-Dependent Rendering of Parallel Coordinates to Reduce Density Distortion and Ghost Clusters (C)**  
 Authors: David Pomerenke, Frederik L. Dennig, Daniel Keim, Johannes Fuchs, Michael Blumenschein
-<br>[Video Preview](https://vimeo.com/363951887)
+<br>[Video Preview](https://vimeo.com/363951887) | [VIS 2019 Talk](https://vimeo.com/373792354)
 		
 **Evaluating Ordering Strategies of Star Glyph Axes (C)**  
 Authors: Matthias Miller, Xuan Zhang, Johannes Fuchs, Michael Blumenschein
-<br>[Video Preview](https://vimeo.com/363452113)
+<br>[Video Preview](https://vimeo.com/363452113) | [VIS 2019 Talk](https://vimeo.com/373792795)
 		
 **Interactive Visualisation of Hierarchical Quantitative Data: an Evaluation (C)**  
 Authors: Linda Woodburn, Yalong Yang, Kim Marriott
-<br>[Video Preview](https://vimeo.com/363040988)
+<br>[Video Preview](https://vimeo.com/363040988) | [VIS 2019 Talk](https://vimeo.com/373793154)
 		
 **Evidence for Area as the Primary Visual Cue in Pie Charts (C)**  
 Authors: Robert Kosara
-<br>[Video Preview](https://vimeo.com/363041944)
+<br>[Video Preview](https://vimeo.com/363041944) | [VIS 2019 Talk](https://vimeo.com/373793866)
 		
 **Visual cues in estimation of part-to-whole comparison (C)**  
 Authors: Stephen Redmond
-<br>[Video Preview](https://vimeo.com/363042298)
+<br>[Video Preview](https://vimeo.com/363042298) | [VIS 2019 Talk](https://vimeo.com/373794253)
 		
 **Towards a Design Space for Mitigating Cognitive Bias in Visual Analytics (C)**  
 Authors: Emily Wall, John Stasko, Alex Endert
-<br>[Video Preview](https://vimeo.com/363451921)
+<br>[Video Preview](https://vimeo.com/363451921) | [VIS 2019 Talk](https://vimeo.com/373794397)
 		
 **Thumbnails for Data Stories: Survey of Current Practice (C)**  
 Authors: Hwiyeon Kim, Juyoung Oh, Yunha Han, Sungahn Ko, Matthew Brehmer, Bum Chul Kwon
-<br>[Video Preview](https://vimeo.com/363451965)
+<br>[Video Preview](https://vimeo.com/363451965) | [VIS 2019 Talk](https://vimeo.com/373794459)
 		
 **Towards Quantifying multiple view layouts in visualisation as seen from research publications (C)**  
 Authors: Hayder Mahdi Al-maneea, Jonathan C Roberts
-<br>[Video Preview](https://vimeo.com/363453583)
+<br>[Video Preview](https://vimeo.com/363453583) | [VIS 2019 Talk](https://vimeo.com/373794692)
 		
 <hr/>		
 		
@@ -448,11 +448,11 @@ Authors: Mingming Fan, Ke Wu, Jian Zhao, Yue Li, Winter Wei, Khai Truong
 
 **[S] Embedding Meta-Information into Visualizations (T)**  
 Authors: Alok Hota, Jian Huang
-<br>[Video Preview](https://vimeo.com/364569334) | [DOI](https://doi.org/10.1109/TVCG.2019.2916098)
+<br>[Video Preview](https://vimeo.com/364569334) | [VIS 2019 Talk](https://vimeo.com/373019920) | [DOI](https://doi.org/10.1109/TVCG.2019.2916098)
 
 **[S] On Evaluating Runtime Performance of Interactive Visualizations (T)**  
 Authors: Valentin Bruder, Christoph Müller, Steffen Frey, Thomas Ertl
-<br>[Video Preview](https://vimeo.com/364569107) | [DOI](https://doi.org/10.1109/TVCG.2019.2898435)
+<br>[Video Preview](https://vimeo.com/364569107) | [VIS 2019 Talk](https://vimeo.com/373019651) | [DOI](https://doi.org/10.1109/TVCG.2019.2898435)
 		
 **[V] The Validity and Generalizability of Summative Evaluation Methods in Visual Analytics (J)**  
 Authors: Mosab Khayat, Morteza Karimzadeh, David Ebert, Arif Ghafoor
@@ -460,7 +460,7 @@ Authors: Mosab Khayat, Morteza Karimzadeh, David Ebert, Arif Ghafoor
 
 **[V] An Analysis of Automated Visual Analysis Classification: Interactive Visualization Task Inference of Cancer Genomics Domain Experts (T)**  
 Authors: Connor C. Gramazio, Jeff Huang, David H. Laidlaw
-<br>[Video Preview](https://vimeo.com/364568057) | [DOI](https://doi.org/10.1109/TVCG.2017.2734659)
+<br>[Video Preview](https://vimeo.com/364568057) | [VIS 2019 Talk](https://vimeo.com/373004721) | [DOI](https://doi.org/10.1109/TVCG.2017.2734659)
 		
 <hr/>		
 		
@@ -504,7 +504,7 @@ Authors: Jie Li, Siming Chen, Kang Zhang, Gennady Andrienko, Natalia Andrienko
 		
 **[V] Taxonomizer: A Visual Analytics Framework for Constructing Fully Labeled Hierarchies from Multivariate Data (T)**  
 Authors: Salman Mahmood, Klaus Mueller
-<br>[Video Preview](https://vimeo.com/364568009)
+<br>[Video Preview](https://vimeo.com/364568009) | [VIS 2019 Talk](https://vimeo.com/373004086)
 		
 **[I] An Incremental Dimensionality Reduction Method for Visualizing Streaming Multidimensional Data (J)**  
 Authors: Takanori Fujiwara, Jia-Kai Chou, Shilpika Shilpika, Panpan Xu, Liu Ren, Kwan-Liu Ma
@@ -566,8 +566,6 @@ Authors: Ji Hwan Park, Arie Kaufman, Klaus Mueller
 *(De)Construction*  
 *Session Chair: Jason Dykes*  
 
-
-
 **[I] Construct-A-Vis: Free-Form Visualization Creation for Children (J)**  
 Authors: Fearn Bishop, Johannes Zagermann, Ulrike Pfeil, Gemma Sanderson, Harald Reiterer, Uta Hinrichs
 <br>[Video Preview](https://vimeo.com/360050203) | [VIS 2019 Talk](https://vimeo.com/372528128) | [DOI](https://doi.org/10.1109/TVCG.2019.2934804)
@@ -610,7 +608,7 @@ Authors: Matt Whitlock, Keke Wu, Danielle Albers Szafir
 
 **[I] Evaluating an Immersive Space-Time Cube Geovisualization for Intuitive Trajectory Data Exploration (J)**  
 Authors: Jorge A. Wagner, Wolfgang Stuerzlinger, Luciana Nedel
-<br>[Video Preview](https://vimeo.com/360049740) | [DOI](https://doi.org/10.1109/TVCG.2019.2934415)
+<br>[Video Preview](https://vimeo.com/360049740) | [VIS 2019 Talk](https://vimeo.com/370107834) | [DOI](https://doi.org/10.1109/TVCG.2019.2934415)
 
 **[I] The Impact of Immersion on Cluster Identification Tasks (J)**  
 Authors: Matthias Kraus, Niklas Kai Weiler, Daniela Oelke, Johannes Kehrer, Daniel Keim, Johannes Fuchs
@@ -666,35 +664,35 @@ Authors: Xuanwu Yue, Jiaxin Bai, Qinhan Liu, Yiyang Tang, Abishek Puri, Ke Li, H
 		
 **Visualization Assessment: A Machine Learning Approach (C)**  
 Authors: Xin Fu, Yun Wang, Haoyu Dong, Weiwei Cui, Haidong Zhang
-<br>[Video Preview](https://vimeo.com/363041569)
+<br>[Video Preview](https://vimeo.com/363041569) | [VIS 2019 Talk](https://vimeo.com/374186092)
 		
 **A Deep Learning Approach to Selecting Representative Time Steps for Time-Varying Multivariate Data (C)**  
 Authors: William P. Porter, Yunhao Xing, Blaise R von Ohlen, Jun Han, Chaoli Wang
-<br>[Video Preview](https://vimeo.com/363040865)
+<br>[Video Preview](https://vimeo.com/363040865) | [VIS 2019 Talk](https://vimeo.com/374186242)
 		
 **Disentangled Representation of Data Distributions in Scatterplots (C)**  
 Authors: Jaemin Jo, Jinwook Seo
-<br>[Video Preview](https://vimeo.com/363042207)
+<br>[Video Preview](https://vimeo.com/363042207) | [VIS 2019 Talk](https://vimeo.com/374186426)
 		
 **Toward Perception-based Evaluation of Clustering Techniques for Visual Analytics (C)**  
 Authors: Michaël Aupetit, Michael Sedlmair, Mostafa M. Abbas, Abdelkader Baggag, Halima Bensmail
-<br>[Video Preview](https://vimeo.com/363452065)
+<br>[Video Preview](https://vimeo.com/363452065) | [VIS 2019 Talk](https://vimeo.com/374186581)
 		
 **SANVis: Visual Analytics for Understanding Self Attention Networks (C)**  
 Authors: Cheonbok Park, Inyoup Na, Yongjang Jo, Sungbok Shin, Yoo Jaehyo, Bum Chul Kwon, Jian Zhao, Hyungjong Noh, Yeonsoo Lee, Jaegul Choo
-<br>[Video Preview](https://vimeo.com/363452350)
+<br>[Video Preview](https://vimeo.com/363452350) | [VIS 2019 Talk](https://vimeo.com/374186897)
 		
 **TeleGam: Combining Visualization and Verbalization for Interpretable Machine Learning (C)**  
 Authors: Fred Hohman, Arjun Srinivasan, Steven Drucker
-<br>[Video Preview](https://vimeo.com/363042141)
+<br>[Video Preview](https://vimeo.com/363042141) | [VIS 2019 Talk](https://vimeo.com/374187072)
 		
 **Visualizing RNN States with Predictive Semantic Encodings (C)**  
 Authors: Lindsey Sawatzky, Steven Bergner, Fred Popowich
-<br>[Video Preview](https://vimeo.com/363951597)
+<br>[Video Preview](https://vimeo.com/363951597) | [VIS 2019 Talk](https://vimeo.com/374187437)
 		
 **FeatureExplorer: Interactive Feature Selection and Exploration of Regression Models for Hyperspectral Images (C)**  
 Authors: Jieqiong Zhao, Morteza Karimzadeh, Ali Masjedi, Taojun Wang, Xiwen Zhang, Melba Crawford, David Ebert
-<br>[Video Preview](https://vimeo.com/363456411)
+<br>[Video Preview](https://vimeo.com/363456411) | [VIS 2019 Talk](https://vimeo.com/374187616)
 		
 <hr/>		
 		
@@ -746,15 +744,15 @@ Authors: Kathryn P Williams, Alex Bigelow, Katherine Isaacs
 
 **[I] How People Visually Represent Discrete Constraint Problem (T)**  
 Authors: Xu Zhu, Miguel A. Nacenta, Özgür Akgun, Peter Nightingale
-<br>[Video Preview](https://vimeo.com/365291194) | [DOI](https://doi.org/10.1109/TVCG.2019.2895085)
+<br>[Video Preview](https://vimeo.com/365291194) | [VIS 2019 Talk](https://vimeo.com/373009233) | [DOI](https://doi.org/10.1109/TVCG.2019.2895085)
 		
 **[I] Preserving Command Line Workflow for a Package Management using ASCII DAG Visualization (T)**  
 Authors: Katherine E. Isaacs, Todd Gamblin
-<br>[Video Preview](https://vimeo.com/364568377) | [DOI](https://doi.org/10.1109/TVCG.2018.2859974)
+<br>[Video Preview](https://vimeo.com/364568377) | [VIS 2019 Talk](https://vimeo.com/373007507) | [DOI](https://doi.org/10.1109/TVCG.2018.2859974)
 		
 **[S] Inviwo - A Visualization System with Usage Abstraction Levels (T)**  
 Authors: Daniel Jönsson, Peter Steneteg, Erik Sundén, Rickard Englund, Sathish Kottravel, Martin Falk, Ingrid Hotz, Anders Ynnerman, Timo Ropinski
-<br>[Video Preview](https://vimeo.com/365297341) | [DOI](https://doi.org/10.1109/TVCG.2019.2920639)
+<br>[Video Preview](https://vimeo.com/365297341) | [VIS 2019 Talk](https://vimeo.com/373020911) | [DOI](https://doi.org/10.1109/TVCG.2019.2920639)
 		
 **[V] Exploranative Code Quality Documents (J)**  
 Authors: Haris Mumtaz, Shahid Latif, Fabian Beck, Daniel Weiskopf
@@ -786,7 +784,7 @@ Authors: Thom Castermans, Kevin Verbeek, Bettina Speckmann, Michel A. Westenberg
 
 **[S] Scientific Visualization as a Microservice (T)**  
 Authors: Mohammad Raji, Alok Hota, Tanner Hobson, Jian Huang
-<br>[Video Preview](https://vimeo.com/364569370) | [DOI](https://doi.org/10.1109/TVCG.2018.2879672)
+<br>[Video Preview](https://vimeo.com/364569370) | [VIS 2019 Talk](https://vimeo.com/373020392) | [DOI](https://doi.org/10.1109/TVCG.2018.2879672)
 		
 **[V] GPGPU Linear Complexity tSNE Optimization (J)**  
 Authors: Nicola Pezzotti, Julian Thijssen, Alexander Mordvintsev, Thomas Höllt, Baldur van Lew, Boudewijn P.F. Lelieveldt, Elmar Eisemann, Anna Vilanova
@@ -894,7 +892,7 @@ Authors: Ko-Chih Wang, Tzu-Hsuan Wei, Shareef Naeem, Han-Wei Shen
 
 **[V] A Visual Analytics System for Exploring, Monitoring, and Forecasting Road Traffic Congestion (T)**  
 Authors: Chunggi Lee, Yeonjun Kim, Seungmin Jin, Dongmin Kim, Ross Maciejewski, David Ebert, Sungahn Ko
-<br>[Video Preview](https://vimeo.com/364568300) | [DOI](https://doi.org/10.1109/TVCG.2019.2922597)
+<br>[Video Preview](https://vimeo.com/364568300) | [VIS 2019 Talk](https://vimeo.com/373006261) | [DOI](https://doi.org/10.1109/TVCG.2019.2922597)
 
 **[I] SmartCube: An Adaptive Data Management Architecture for the Real-Time Visualization of Spatiotemporal Datasets (J)**  
 Authors: Can Liu, Cong Wu, Hanning Shao, Xiaoru Yuan
@@ -914,7 +912,7 @@ Authors: Yan Lyu, Xu Liu, Hanyi Chen, Arpan Mangal, Kai Liu, Chao Chen, Brian Li
 
 **[V] Semantics-Space-Time Cube: A Conceptual Framework for Systematic Analysis of Texts in Space and Time (T)**  
 Authors: Jie Li, Siming Chen, Wei Chen, Gennady Andrienko, Natalia Andrienko
-<br>[Video Preview](https://vimeo.com/364568102) | [DOI](https://doi.org/10.1109/TVCG.2018.2882449)
+<br>[Video Preview](https://vimeo.com/364568102) | [VIS 2019 Talk](https://vimeo.com/373005219) | [DOI](https://doi.org/10.1109/TVCG.2018.2882449)
 		
 <hr/>		
 		
@@ -970,11 +968,11 @@ Authors: Katarina Furmanova, Adam Jurčík, Barbora Kozlikova, Helwig Hauser, Ja
 
 **[S] eFESTA: Ensemble Feature Exploration with Surface Density Estimates (T)**  
 Authors: Wenbin He, Hanqi Guo, Han-Wei Shen, Tom Peterka
-<br>[Video Preview](https://vimeo.com/364569031) | [DOI](https://doi.org/10.1109/TVCG.2018.2879866)
+<br>[Video Preview](https://vimeo.com/364569031) | [VIS 2019 Talk](https://vimeo.com/373019496) | [DOI](https://doi.org/10.1109/TVCG.2018.2879866)
 
 **[S] Visualization and Visual Analysis of Ensemble Data: A Survey (T)**  
 Authors: Junpeng Wang, Subhashis Hazarika, Cheng Li, Han-Wei Shen
-<br>[Video Preview](https://vimeo.com/364569796) | [DOI](https://doi.org/10.1109/TVCG.2018.2853721)
+<br>[Video Preview](https://vimeo.com/364569796) | [VIS 2019 Talk](https://vimeo.com/373017114) | [DOI](https://doi.org/10.1109/TVCG.2018.2853721)
 
 **[V] Exploring the Sensitivity of Choropleths under Attribute Uncertainty (T)**  
 Authors: Zhaosong Huang, Yafeng Lu, Elizabeth A. Mack, Wei Chen, Ross Maciejewski
@@ -1054,39 +1052,39 @@ Authors: Siming Chen, Jie Li, Gennady Andrienko, Natalia Andrienko, Yun Wang, Ph
 		
 **scenery: Flexible Virtual Reality Visualization on the Java VM (C)**  
 Authors: Ulrik Günther, Tobias Pietzsch, Aryaman Gupta, Kyle I.S. Harrington, Pavel Tomancak, Stefan Gumhold, Ivo F. Sbalzarini
-<br>[Video Preview](https://vimeo.com/363041672)
+<br>[Video Preview](https://vimeo.com/363041672) | [VIS 2019 Talk](https://vimeo.com/374680957)
 		
 **Interactive Dendritic Spine Analysis Based on 3D Morphological Features (C)**  
 Authors: JunYoung Choi, Sang-Eun Lee, Eunji Cho, Yutaro Kashiwagi, Shigeo Okabe, Sunghoe Chang, Won-Ki Jeong
-<br>[Video Preview](https://vimeo.com/364567245)
+<br>[Video Preview](https://vimeo.com/364567245) | [VIS 2019 Talk](https://vimeo.com/374687797)
 		
 **High Fidelity Visualization of Large Scale Digitally Reconstructed Brain Circuitry with Signed Distance Functions (C)**  
 Authors: Jonas Karlsson, Marwan Abdellah, Sebastien Speierer, Alessandro Enrico Foni, Samuel Lapere, Felix Schurmann
-<br>[Video Preview](https://vimeo.com/363452920)
+<br>[Video Preview](https://vimeo.com/363452920) | [VIS 2019 Talk](https://vimeo.com/374690348)  
 		
 **Visual Inspection of DBS Efficacy (C)**  
 Authors: Brad Eric Hollister, Chris Butson, Gordon Duffley, Chris R. Johnson, Paul Rosen
-<br>[Video Preview](https://vimeo.com/364569960)
+<br>[Video Preview](https://vimeo.com/364569960)  
 		
 **TempoCave: Visualizing Dynamic Connectome Datasets to Support Cognitive Behavioral Therapy (C)**  
 Authors: Ran Xu, Manu Mathew Thomas, Alex Leow, Olusola A. Ajilore, Angus G. Forbes
-<br>[Video Preview](https://vimeo.com/363456447)
+<br>[Video Preview](https://vimeo.com/363456447) | [VIS 2019 Talk](https://vimeo.com/374691477)
 		
 **RuleVis: Constructing Patterns and Rules for Rule-based Models (C)**  
 Authors: David Abramov, Jasmine Tan Otto, Mahika Dubey, Cassia Artanegara, Pierre Boutillier, Walter Fontana, Angus G. Forbes
-<br>[Video Preview](https://vimeo.com/363456476)
+<br>[Video Preview](https://vimeo.com/363456476) | [VIS 2019 Talk](https://vimeo.com/374691687)
 		
 **ElectroLens: Understanding atomistic simulations through spatially-resolved visualization of high-dimensional features (C)**  
 Authors: Xiangyun Lei, Fred Hohman, Duen Horng Chau, Andrew J Medford
-<br>[Video Preview](https://vimeo.com/363453632)
+<br>[Video Preview](https://vimeo.com/363453632) | [VIS 2019 Talk](https://vimeo.com/374693496)
 		
 **Analyzing Time Attributes in Event Sequences (C)**  
 Authors: Jessica Magallanes, Lindsey van Gemeren, Steven Wood, Maria-Cruz Villa-Uriol
-<br>[Video Preview](https://vimeo.com/363952342)
+<br>[Video Preview](https://vimeo.com/363952342) | [VIS 2019 Talk](https://vimeo.com/374693697)
 		
 **Evaluating Alignment Approaches in Superimposed Time-series and Temporal Event-sequence Visualizations (C)**  
 Authors: Yixuan Zhang, Sara Di Bartolomeo, Fangfang Sheng, Holly Jimison, Cody Dunne
-<br>[Video Preview](https://vimeo.com/363452044)
+<br>[Video Preview](https://vimeo.com/363452044) | [VIS 2019 Talk](https://vimeo.com/374693882)
 		
 <hr/>		
 		
@@ -1126,7 +1124,7 @@ Authors: Gromit Yeuk-Yin Chan, Luis Gustavo Nonato, Alice Chu, Preeti Raghavan, 
 
 **[V] LDA Ensembles for Interactive Exploration and Categorization of Behaviors (T)**  
 Authors: Siming Chen, Natalia Andrienko, Gennady Andrienko, Linara Adilova, Jeremie Barlet, Joerg Kindermann, Phong H. Nguyen, Olivier Thonnard, Cagatay Turkay
-<br>[Video Preview](https://vimeo.com/364568366) | [DOI](https://doi.org/10.1109/TVCG.2019.2904069)
+<br>[Video Preview](https://vimeo.com/364568366) | [VIS 2019 Talk](https://vimeo.com/373006662) | [DOI](https://doi.org/10.1109/TVCG.2019.2904069)
 		
 **[I] ShapeWordle: Tailoring Wordles using Shape-aware Archimedean Spirals (J)**  
 Authors: Yunhai Wang, Xiaowei Chu, Kaiyi Zhang, Chen Bao, Xiaotong Li, Jian Zhang, Chi-Wing Fu, Christophe Hurter, Oliver Deussen, Bongshin Lee
@@ -1190,39 +1188,39 @@ Authors: Ji Qi, Vincent Bloemen, Shihan Wang, Jarke van Wijk, Huub van de Weteri
 		
 **Interpreting Distortions in Dimensionality Reduction by Superimposing Neighbourhood Graphs (C)**  
 Authors: Benoît Colange, Laurent Vuillon, Sylvain Lespinats, Denys Dutykh
-<br>[Video Preview](https://vimeo.com/363451896)
+<br>[Video Preview](https://vimeo.com/363451896) | [VIS 2019 Talk](https://vimeo.com/374699571)
 		
 **Hi-D Maps: An Interactive Visualization Technique for Multi-dimensional Categorical Data. (C)**  
 Authors: Radi Muhammad Reza, Benjamin Watson
-<br>[Video Preview](https://vimeo.com/364569030)
+<br>[Video Preview](https://vimeo.com/364569030) | [VIS 2019 Talk](https://vimeo.com/374700400)
 		
 **Conditional Parallel Coordinates (C)**  
 Authors: Daniel Weidele
-<br>[Video Preview](https://vimeo.com/363040925)
+<br>[Video Preview](https://vimeo.com/363040925) | [VIS 2019 Talk](https://vimeo.com/374700912)
 		
 **Towards Enhancing RadViz Analysis and Interpretation (C)**  
 Authors: Marco Angelini, Graziano Blasilli, Simone Lenti, Alessia Palleschi, Giuseppe Santucci
-<br>[Video Preview](https://vimeo.com/363453287)
+<br>[Video Preview](https://vimeo.com/363453287) | [VIS 2019 Talk](https://vimeo.com/374701026)
 		
 **Time Varying Predominance Tag Maps (C)**  
 Authors: Martin Reckziegel, Stefan Jänicke
-<br>[Video Preview](https://vimeo.com/363041739)
+<br>[Video Preview](https://vimeo.com/363041739)  
 		
 **SAX Navigator: Time Series Exploration Through Hierarchical Clustering (C)**  
 Authors: Nicholas Ruta, Naoko Sawada, Katy McKeough, Michael Behrisch, Johanna Beyer
-<br>[Video Preview](https://vimeo.com/364567202)
+<br>[Video Preview](https://vimeo.com/364567202) | [VIS 2019 Talk](https://vimeo.com/374701226)
 		
 **Nonuniform Timeslicing of Dynamic Graphs Based on Visual Complexity (C)**  
 Authors: Yong Wang, Daniel Archambault, Hammad Haleem, Torsten Moeller, Yanhong Wu, Huamin Qu
-<br>[Video Preview](https://vimeo.com/363040656)
+<br>[Video Preview](https://vimeo.com/363040656) | [VIS 2019 Talk](https://vimeo.com/374701528)
 		
 **Interactive Bicluster Aggregation in Bipartite Graphs (C)**  
 Authors: Maoyuan Sun, David Koop, Jian Zhao, Chris North, Naren Ramakrishnan
-<br>[Video Preview](https://vimeo.com/363040807)
+<br>[Video Preview](https://vimeo.com/363040807) | [VIS 2019 Talk](https://vimeo.com/374701864)
 		
 **Overlap-Free Drawing of Generalized Pythagoras Trees for Hierarchy Visualization (C)**  
 Authors: Tanja Munz, Michael Burch, Toon van Benthem, Yoeri Poels, Fabian Beck, Daniel Weiskopf
-<br>[Video Preview](https://vimeo.com/363452307)
+<br>[Video Preview](https://vimeo.com/363452307) | [VIS 2019 Talk](https://vimeo.com/374702141)
 		
 <hr/>		
 		
@@ -1250,7 +1248,7 @@ Authors: Minjeong Shin, Alexander Soen, Benjamin T. Readshaw, Stephen Michael Bl
 
 **[V] WeSeer: Visual Analysis for Better Information Cascade Prediction of WeChat Articles (T)**  
 Authors: Quan Li, Ziming Wu, Lingling Yi, Kristanto Sean N, Huamin Qu, Xiaojuan Ma
-<br>[Video Preview](https://vimeo.com/364571456) | [DOI](https://doi.org/10.1109/TVCG.2018.2867776)
+<br>[Video Preview](https://vimeo.com/364571456) | [VIS 2019 Talk](https://vimeo.com/373002523) | [DOI](https://doi.org/10.1109/TVCG.2018.2867776)
 		
 **[V] R-Map: A Map Metaphor for Visualizing Information Reposting Process in Social Media (J)**  
 Authors: Shuai Chen, Sihang Li, Siming Chen, Xiaoru Yuan
@@ -1278,7 +1276,7 @@ Authors: Aritra Dasgupta, Jorge Poco, Bernice Rogowitz, Kyungsik Han, Enrico Ber
 		
 **[S] Measuring and Modeling the Feature Detection Threshold Functions of Colormaps (T)**  
 Authors: Colin Ware, Terece L. Turton, Roxana Bujack, Francesca Samsel, Piyush Shrivastava, David H. Rogers
-<br>[Video Preview](https://vimeo.com/364569128) | [DOI](https://doi.org/10.1109/TVCG.2018.2855742)
+<br>[Video Preview](https://vimeo.com/364569128) | [VIS 2019 Talk](https://vimeo.com/373019757) | [DOI](https://doi.org/10.1109/TVCG.2018.2855742)
 
 **[S] Measuring the Effects of Scalar and Spherical Colormaps on Ensembles of DMRI Tubes (T)**  
 Authors: Jian Chen, Guohao Zhang, Wesley Chiou, David H. Laidlaw, Alexander P. Auchus
@@ -1326,7 +1324,7 @@ Authors: Hannah Kim, Dongjin Choi, Barry Drake, Alex Endert, Haesun Park
 		
 **Efficient Space Skipping and Adaptive Sampling of Unstructured Volumes using Hardware Accelerated Ray Tracing (C)**  
 Authors: Nate Morrical, Will Usher, Ingo Wald, Valerio Pascucci
-<br>[Video Preview](https://vimeo.com/363452086)
+<br>[Video Preview](https://vimeo.com/363452086) 
 		
 **Hybrid Grids for Sparse Volume Rendering (C)**  
 Authors: Stefan Zellmann, Deborah Meurer, Ulrich Lang
@@ -1334,24 +1332,24 @@ Authors: Stefan Zellmann, Deborah Meurer, Ulrich Lang
 		
 **Data-Driven Colormap Optimization for 2D Scalar Field Visualization (C)**  
 Authors: Qiong Zeng, Yinqiao Wang, Ivan Viola, Wenting Zhang, Jian Zhang, Changhe Tu, Yunhai Wang
-<br>[Video Preview](https://vimeo.com/363042086)
+<br>[Video Preview](https://vimeo.com/363042086) 
 		
 **Evaluating Gradient Perception in Color-coded Scalar Fields (C)**  
 Authors: Khairi Reda, Michael E. Papka
-<br>[Video Preview](https://vimeo.com/363042264)
+<br>[Video Preview](https://vimeo.com/363042264) 
 		
 **GalStamps: Analyzing Real and Simulated Galaxy Observations (C)**  
 Authors: Nina McCurdy, Miriah Meyer
-<br>[Video Preview](https://vimeo.com/363040619)
+<br>[Video Preview](https://vimeo.com/363040619) 
 		
 **Point Movement in a DSL for Higher-Order FEM Visualization (C)**  
 Authors: Teodoro Collin, Charisee Chiw, L. Ridgway Scott, John Reppy, Gordon L Kindlmann
-<br>[Video Preview](https://vimeo.com/363040730)
+<br>[Video Preview](https://vimeo.com/363040730) 
 		
 **Unsteady Flow Visualization via Physics based Pathline Exploration (C)**  
 Authors: Duong Nguyen, Lei Zhang, Robert S. Laramee, David Thompson, Rodolfo Ostilla Monico, Guoning Chen
-<br>[Video Preview](https://vimeo.com/363042555)
+<br>[Video Preview](https://vimeo.com/363042555) 
 		
 **Visualization of Symmetries in Fourth-Order Stiffness Tensors (C)**  
 Authors: Chiara Hergl, Thomas Nagel, Olaf Kolditz, Gerik Scheuermann
-<br>[Video Preview](https://vimeo.com/363042029)
+<br>[Video Preview](https://vimeo.com/363042029) 
