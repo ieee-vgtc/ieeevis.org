@@ -2,7 +2,7 @@
 title: Tutorials
 layout: page
 sidebar: call-for-participation
-permalink: /year/2019/info/call-participation/tutorials
+permalink: /info/call-participation/tutorials
 active_nav: "Contribute"
 contact: tutorials@ieeevis.org
 ---
@@ -10,9 +10,9 @@ contact: tutorials@ieeevis.org
 Tutorials are intended to cover a wide selection of topics related to IEEE VIS 2019 and provide background on new tools and application domains necessary for research in scientific visualization, information visualization, visual analytics, and general topics that span multiple of these areas. Tutorial attendees come from diverse backgrounds, including, among others: volume and flow visualization, information visualization, geographic visualization, visual analytics, high performance computing, and scientific application communities.
 
 We are soliciting half-day tutorial proposals in the areas of visualization systems, mathematical foundations, research methods, design and development methodology, and application areas. We welcome new tools and techniques for visualization, domains in which visualization applies, methods for undertaking visualization research, as well as proposals on more traditional visualization topics. Topics can include–but are not limited to–any of those listed in the calls for papers for
-[VAST](/year/2019/info/call-participation/vast-paper-types), 
-[InfoVis](/year/2019/info/call-participation/infovis-paper-types), and 
-[SciVis](/year/2019/info/call-participation/scivis-paper-types).
+[VAST](vast-paper-types), 
+[InfoVis](infovis-paper-types), and 
+[SciVis](scivis-paper-types).
 Tutorials with an application focus and including hands-on demos are also encouraged. Successful proposals will receive up to 2 complimentary full week conference registrations for tutorial presenters.
 
 ## DETAILS

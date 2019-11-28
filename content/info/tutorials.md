@@ -2,7 +2,7 @@
 title: Tutorials
 layout: page
 active_nav: "Program"
-permalink: /year/2019/info/tutorials
+permalink: /info/tutorials
 contact: "tutorials@ieeevis.org"
 ---
 

@@ -2,7 +2,7 @@
 title: Papers Sessions		
 layout: page
 active_nav: "Program"
-permalink: /year/2019/info/papers-sessions		
+permalink: /info/papers-sessions		
 ---		
 		
 Please note that sessions are composed of papers mixed from the VAST [V], InfoVis [I], and SciVis [S] conferences, and are marked as such preceding the paper titles. In addition, the final publication venue for each paper is marked in parentheses following the title:		

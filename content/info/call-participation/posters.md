@@ -2,7 +2,7 @@
 title: Posters
 layout: page
 sidebar: call-for-participation
-permalink: /year/2019/info/call-participation/posters
+permalink: /info/call-participation/posters
 active_nav: "Contribute"
 contact: posters@ieeevis.org
 ---
@@ -13,7 +13,7 @@ In addition to a poster being displayed throughout IEEE VIS:
 
 * a two-page summary of your work will be included in the electronic conference proceedings (USB memory stick distributed to conference attendees);
 * interactive poster sessions will provide a forum for presenting your work and discussing new ideas with your peers;
-* [video previews](/year/2019/info/presenter-information/fast-forward-and-video-previews) for posters are strongly suggested;
+* [video previews]({{ 'info/presenter-information/fast-forward-and-video-previews' | relative_url }}) for posters are strongly suggested;
 * one presenter per poster will be eligible for the reduced conference rate for authors;
 * best poster design award will be chosen (new this year). 
 
@@ -52,7 +52,7 @@ Authors whose posters are accepted for IEEE VIS will be asked to refine their po
 
 The poster itself only needs to be prepared for and brought to the poster session at IEEE VIS but should be on display throughout the week.  
 
-Visit the [Posters FAQ](http://ieeevis.org/year/2019/info/call-participation/posters-faq) page for some useful tips for authors.
+Visit the [Posters FAQ](posters-faq) page for some useful tips for authors.
 
 ### SUBMISSION INSTRUCTIONS
 
@@ -62,11 +62,11 @@ submission category on PCS - IEEE VIS Poster.
 After logging into PCS at [https://new.precisionconference.com/~vgtc/](https://new.precisionconference.com/~vgtc/), start your submission by selecting "IEEE VIS Posters 2019" and then select the conference to which you are submitting a poster:
 
 * Scientific Visualization (SciVis) <!-- - for conference themes see  
-  [IEEE SciVis 2019 – Topics and Paper Types](/year/2019/info/call-participation/scivis-paper-types) -->
+  [IEEE SciVis 2019 – Topics and Paper Types](scivis-paper-types) -->
 * Information Visualization (InfoVis) <!-- - for conference themes see  
-  [IEEE InfoVis 2019 – Topics and Paper Types](/year/2019/info/call-participation/infovis-paper-types) -->
+  [IEEE InfoVis 2019 – Topics and Paper Types](infovis-paper-types) -->
 * Visual Analytics Science and Technologies (VAST) <!-- - for conference
-  themes see [IEEE VAST 2019 – Topics and Paper Types](/year/2019/info/call-participation/vast-paper-types) -->
+  themes see [IEEE VAST 2019 – Topics and Paper Types](vast-paper-types) -->
 
 ### Plagiarism
 All submissions must be either: 1) original work that has not been presented previously at any workshop, symposium, or conference, or published previously in any archived conference proceeding, magazine, or journal; or 2) a summary that highlights work presented or published in a related venue with a clear statement of attribution to the original work.

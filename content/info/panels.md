@@ -2,7 +2,7 @@
 title: Panels
 layout: page
 active_nav: "Program"
-permalink: /year/2019/info/panels
+permalink: /info/panels
 ---
 
 

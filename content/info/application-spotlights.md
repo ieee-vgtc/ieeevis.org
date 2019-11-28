@@ -1,7 +1,7 @@
 ---
 title: Application Spotlights
 layout: page
-permalink: /year/2019/info/application-spotlights
+permalink: /info/application-spotlights
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 title: Poster Awards
 layout: page
-permalink: /year/2019/info/awards/best-poster-awards
+permalink: /info/awards/best-poster-awards
 ---
 The best poster awards and honorable mentions are assigned by dedicated committees per poster track. Experienced researchers in the committees provided individual assessments for a selection of the most promising poster candidates made by the poster co-chairs of each track. Based on these assessments the awardees were chosen.  
 

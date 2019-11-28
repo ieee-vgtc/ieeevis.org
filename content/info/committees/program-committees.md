@@ -1,7 +1,7 @@
 ---
 title: IEEE VIS Program Committees
 layout: page
-permalink: /year/2019/info/committees/program-committees
+permalink: /info/committees/program-committees
 ---
 
 IEEE VIS comprises:

@@ -2,7 +2,7 @@
 title: Open Practices
 layout: page
 sidebar: call-for-participation
-permalink: /year/2019/info/open-practices/open-practices
+permalink: /info/open-practices/open-practices
 active_nav: "Contribute"
 ---
 

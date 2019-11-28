@@ -2,6 +2,6 @@
     <h3 class="heading--base">{{ include.title }}</h3>
     <p>{{ include.description }}</p>
     <div class="mt-auto">
-        <a href="{{ include.button_url }}" class="button button-inverse mt-4">{{ include.button_text }}</a>
+        <a href="{{ include.button_url | relative_url }}" class="button button-inverse mt-4">{{ include.button_text }}</a>
     </div>
 </div>

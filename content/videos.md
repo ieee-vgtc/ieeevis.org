@@ -1,7 +1,7 @@
 ---
 title: Videos
 layout: page
-permalink: /year/2019/info/videos
+permalink: /info/videos
 active_nav: "Program"
 ---
 New this year, we will be posting select video presentations from the Ballroom A morning sessions. Please check [https://vimeo.com/vgtcommunity](https://vimeo.com/vgtcommunity) in the coming 4-6 weeks for a full archive of the conference.  

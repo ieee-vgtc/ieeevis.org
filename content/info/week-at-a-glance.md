@@ -1,15 +1,15 @@
 ---
 title: VIS Program
 layout: page
-permalink: /year/2019/info/week-at-a-glance
+permalink: info/week-at-a-glance
 ---
 
 # Schedule Shortcut (click to move to day/time)
-<object type="image/svg+xml" data="/year/2019/info/2019-schedule.svg" style="margin-top: 20px;"></object>
+<object type="image/svg+xml" data="{{ 'content/info/2019-schedule.svg' | relative_url }}" style="margin-top: 20px;"></object>
 
-[Download the pocket program (PDF)](/year/2019/assets/vis19-AAG-web.pdf)
+[Download the pocket program (PDF)]({{ 'assets/vis19-AAG-web.pdf' | relative_url }})
 
-[Download session printout (PDF)](/year/2019/assets/vis19-printout.pdf)
+[Download session printout (PDF)]({{ 'assets/vis19-printout.pdf' | relative_url }})
 
 
 # Meetups

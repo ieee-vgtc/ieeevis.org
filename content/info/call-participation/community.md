@@ -1,7 +1,7 @@
 ---
 title: Community
 layout: page
-permalink: /year/2019/info/call-participation/community
+permalink: /info/call-participation/community
 active_nav: "Events & Community"
 contact: community@ieeevis.org
 ---
@@ -86,7 +86,7 @@ participating in the *AJF*. These will be located at the registration table.
 business card, or note cards with links, such as LinkedIn or online CVs, to 
 help facilitate information exchange during VIS.* 
 - A Job-Fair Meetup to be held tentatively held in addition to other job events. This is a "speed-dating" meetup for both job seekers and employers to *quickly* identify people in the community that are looking for jobs or new hires, exchange information, and potentially meet at a later date. Please bring information for exchange, such as business cards, flyers, or CVs. VIS Supporters will have the CVs of attendees that provide it during VIS registration.<!-- (TODO [Job-Fair Meetup](/year/2019/info/meetups#...)) -->
-- CVs will be distributed to [Supporters](/year/2019/info/exhibition/supporters-and-exhibition) prior to VIS, to help make connections during VIS, by sharing your information and CVs with the supporters. During online registration you will be able to upload your CV and interests. If you did not upload your CV during online registration, we will have a collection tray near the *AJF* ribbons at the live registration desk,
+- CVs will be distributed to [Supporters]({{ '/info/exhibition/supporters-and-exhibition' | relative_url }}) prior to VIS, to help make connections during VIS, by sharing your information and CVs with the supporters. During online registration you will be able to upload your CV and interests. If you did not upload your CV during online registration, we will have a collection tray near the *AJF* ribbons at the live registration desk,
 and they will be distributed to Supporters after VIS. 
 - We will pin up and post job, post-doc, staff, etc. flyers to the VIS 
 corkboard if you are unable to attend VIS in person. Send your opportunity 
@@ -104,7 +104,7 @@ your fellow VIS attendees, even if you are not actively seeking employment or
 staff!
 
 ### <a name="other-events"></a> Other community-building events in VIS that we are aware of (tell us of yours!)
-* Many excellent [Meetups](/year/2019/info/call-participation/meetups) this year related to diversity in VIS, as well as career advice.
+* Many excellent [Meetups]({{ 'info/call-participation/meetups' | relative_url }}) this year related to diversity in VIS, as well as career advice.
 <!-- (TODO Add more -->
 
 ### Contact

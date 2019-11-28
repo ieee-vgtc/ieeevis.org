@@ -9,12 +9,26 @@ year: 2019
 
 # Github settings
 github_repository: "https://github.com/ieee-vgtc/ieeevis.org"
-github_pull_request_branch: "development"
+github_pull_request_branch: "vis2019"
 
 # Build settings
 markdown: kramdown
 
-exclude: ['docs', 'data', 'extra', 'README.md', 'Makefile', 'scripts', 'files', '.DS_Store', 'src', 'node_modules']
+exclude: [
+  '.DS_Store',
+  'data',
+  'docs',
+  'files',
+  'extra',
+  'README.md',
+  'Makefile',
+  'node_modules',
+  'output',
+  'package*',
+  'scripts',
+  'src',
+  'tailwind.config.js',
+  'webpack*' ]
 
 defaults:
   -

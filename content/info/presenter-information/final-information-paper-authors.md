@@ -1,7 +1,7 @@
 ---
 title: Final Information for Paper Authors
 layout: page
-permalink: /year/2019/info/presenter-information/final-information-paper-authors
+permalink: /info/presenter-information/final-information-paper-authors
 ---
 
 This page provides authors of accepted papers with important information for the remainder of the process until the conference.
@@ -22,7 +22,7 @@ At least one author per accepted paper must register to present the work. Also, 
 
 ## VIDEO PREVIEW SUBMISSION
 
-It is **mandatory** for authors of all VIS papers to submit a [25-sec Video Preview](http://ieeevis.org/year/2019/info/presenter-information/fast-forward-and-video-previews) by August 15.
+It is **mandatory** for authors of all VIS papers to submit a [25-sec Video Preview]({{ 'info/presenter-information/fast-forward-and-video-previews' | relative_url }}) by August 15.
 
 ## COMMON EDITING MISTAKES AND NOTES FROM TVCG
 

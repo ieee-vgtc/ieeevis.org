@@ -30,7 +30,7 @@ menu:
     sections:
       - subsections:
           - heading: "Attending VIS 2019"
-            # heading_url: "https://www.google.com"
+            heading_url: "/year/2019/welcome"
             description: "Join us at the Vancouver Convention Centre East!"
             columns:
               - heading: "Attend"
@@ -296,7 +296,7 @@ menu:
                 - text: "VIS Executive Committee"
                   url: "/year/2019/info/committees/vis-executive-committee"
                 - text: "Restructuring and reVISe"
-                  url:  "/governance/restructuring"
+                  url:  "/year/2019/governance/restructuring"
 
       - subsections:
           - heading: "Previous Years"
@@ -370,6 +370,6 @@ menu:
                   url: "/year/2019/info/future-locations"
                 - text: "Bidding"
                   description: "Guidelines to bid for a future location of IEEE VIS"
-                  url: "/governance/bids"
+                  url: "/year/2019/governance/bids"
                   #                  url: "/governance/VISBidGuidelines.pdf"
 

@@ -2,7 +2,7 @@
 title: Meetups
 layout: page
 active_nav: "Events & Community"
-permalink: /year/2019/info/meetups
+permalink: /info/meetups
 ---
 
 
@@ -287,7 +287,7 @@ Organizers: Michelle Borkin, Kelly Gaither, and Arvind Satyanarayan
 Contact: Michelle Borkin (m.borkin@northeastern.edu)
 
 Diversity of perspective is the key to innovation, but ensuring equal access requires concrete action. To this end, the members of the IEEE VIS 2019 Inclusivity & Diversity Committee invite you to this community forum to connect, share your experiences, and explore what it means to build an inclusive VIS community. (To learn more about Inclusivity & Diversity at VIS and its current initiatives, please visit:
-[http://ieeevis.org/year/2019/info/inclusion-and-diversity/inclusivity](http://ieeevis.org/year/2019/info/inclusion-and-diversity/inclusivity))
+[http://ieeevis.org/year/2019/info/inclusion-and-diversity/inclusivity]({{ 'info/inclusion-and-diversity/inclusivity' | relative_url }}))
 
 
 | |

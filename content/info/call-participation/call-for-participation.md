@@ -1,6 +1,6 @@
 ---
 title: Call For Participation
-permalink: /year/2019/info/call-participation/call-for-participation
+permalink: /info/call-participation/call-for-participation
 active_nav: "Contribute"
 layout: landing
 sidebar: call-for-participation
@@ -11,15 +11,15 @@ intro_section:
       description: "Papers in VAST typically focus on problems that integrate data analysis algorithms and visual interfaces to support data
       analysis and analytical reasoning."
       button_text: "VAST Paper Types"
-      button_url: "/year/2019/info/call-participation/vast-paper-types"
+      button_url: "/info/call-participation/vast-paper-types"
     - title: "IEEE Conference on Information Visualization (InfoVis)"
       description: "Papers in InfoVis typically relate to the design or evaluation of new or improved visual encodings or interaction techniques of abstract data (such as graphs, tables, or text data)."
       button_text: "InfoVIS Paper Types"
-      button_url: "/year/2019/info/call-participation/infovis-paper-types"
+      button_url: "/info/call-participation/infovis-paper-types"
     - title: "IEEE Conference on Scientific Visualization (SciVis)"
       description: "Papers in SciVis typically focus on new or improved visual encodings, mathematical models, algorithms, or interaction techniques for the visualization of data related to science and engineering, as well as integration into novel applications and systems."
       button_text: "SciVis Paper Types"
-      button_url: "/year/2019/info/call-participation/scivis-paper-types"
+      button_url: "/info/call-participation/scivis-paper-types"
   content: |
       **Which conference track should I submit to?**
       
@@ -48,7 +48,7 @@ All deadlines are at **5:00pm Pacific Time (PDT).**
     title="Final Instructions for Authors of Accepted Papers"
     description="Important information for authors of accepted papers for the remainder of the process until the conference."
     button-text="View Instructions"
-    button-url="/year/2019/info/presenter-information/final-information-paper-authors"
+    button-url="/info/presenter-information/final-information-paper-authors"
 %}
 
 
@@ -67,9 +67,9 @@ When preparing your submission, please make sure that you carefully read and adh
 The three conference tracks at IEEE VIS 2019 use the same submission and review process. The conferences differ in the topics, 
 emphasis, and approach, as described in the conference-specific for [VAST](vast-paper-types), [InfoVis](infovis-paper-types), and [SciVis](scivis-paper-types).
 
-Authors of accepted papers should also follow the [instructions for preparing a camera-ready submission](/year/2019/info/presenter-information/final-information-paper-authors).
+Authors of accepted papers should also follow the [instructions for preparing a camera-ready submission]({{ '/info/presenter-information/final-information-paper-authors' | relative_url }}).
 
 ## Open Access Policy
-Visualization research is better communicated and acted on if it is freely accessible to the research community, practitioners, and the general public. Therefore, all paper authors are encouraged to share their accepted paper in an open access repository before the print deadline in accordance with IEEE copyright regulations. For instructions on how to post an accepted paper to an open access repository, please see the [VIS Open Practices Guidelines](/year/2019/info/open-practices/open-practices).
+Visualization research is better communicated and acted on if it is freely accessible to the research community, practitioners, and the general public. Therefore, all paper authors are encouraged to share their accepted paper in an open access repository before the print deadline in accordance with IEEE copyright regulations. For instructions on how to post an accepted paper to an open access repository, please see the [VIS Open Practices Guidelines]({{ '/info/open-practices/open-practices' | relative_url }}).
 
 Email: papers@ieeevis.org

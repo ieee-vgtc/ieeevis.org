@@ -2,7 +2,7 @@
 layout: page
 title: Best Paper Awards
 layout: page
-permalink: /year/2019/info/awards/best-paper-awards
+permalink: /info/awards/best-paper-awards
 active_nav: "Program"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: SciVis Program Committee
 layout: page
-permalink: /year/2019/info/committees/scivis-program-committee
+permalink: /info/committees/scivis-program-committee
 contact: scivis_papers@ieeevis.org
 ---
 | Wes Bethel | *Lawrence Berkeley National Laboratory, USA* |

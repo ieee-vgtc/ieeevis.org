@@ -1,7 +1,7 @@
 ---
 title: VIS Executive Committee
 layout: page
-permalink: /year/2019/info/committees/vis-executive-committee
+permalink: /info/committees/vis-executive-committee
 ---
 
 | Jim Ahrens | *Los Alamos National Laboratory<br>(VGTC Chair.)*
@@ -23,8 +23,5 @@ permalink: /year/2019/info/committees/vis-executive-committee
 **Supporting Documentation**
 
 * [IEEE VIS Executive Committee Charter](/attachments/vec_charter_150310.pdf)
-* [VIS Bid Guidelines](http://ieeevis.org/governance/bids)
+* [VIS Bid Guidelines]({{ 'governance/bids' | relative_url }})
 * [Financial and Coordination Policies for IEEE VIS](http://ieeevis.org/governance/coordination)
-
- 
-

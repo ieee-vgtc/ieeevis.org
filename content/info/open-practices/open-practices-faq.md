@@ -1,7 +1,7 @@
 ---
 title: Open Access Preprint Guide and FAQ
 layout: page
-permalink: /year/2019/info/open-practices/open-practices-faq
+permalink: /info/open-practices/open-practices-faq
 ---
 
 Visualization research is better communicated and acted on if it is freely accessible to the research community, practitioners, and the general public. This accessibility can be improved if authors post the final version of their accepted paper to a reliable open access repository. VIS can facilitate an increase in sharing of papers by informing authors of this option, establishing guidelines for which repositories are freely accessible and reliable, helping authors use those repositories, and dispelling misconceptions.
@@ -68,7 +68,7 @@ Share the final preprint version of your accepted article that you create after 
  
 Make sure that the revised version has: i) the copyright statement on the bottom-left on the first page and ii) a statement with a link to the paper on IEEEXplore on the first page (or on top of odd-numbered pages). Once everything is in place, resubmit the revised preprint to the OA repository to replace the version you submitted earlier. 
 
-If you have uploaded your preprint to arXiv, you can follow the [guidance on this page](http://ieeevis.org/year/2019/info/open-practices/open-practices-arxiv) under the “**5.Update arXiv record post publication**” step for revising your record on arXiv.
+If you have uploaded your preprint to arXiv, you can follow the [guidance on this page](open-practices-arxiv) under the “**5.Update arXiv record post publication**” step for revising your record on arXiv.
 
 
 ## What about other repositories such as OSF, bioaRxiv, etc?

@@ -1,7 +1,7 @@
 ---
 title: Speakers and Presenters
 layout: page
-permalink: /year/2019/info/presenter-information/speakers-and-presenters
+permalink: /info/presenter-information/speakers-and-presenters
 ---
 VIS Paper presenters have 15 minutes --- including questions --- for
 their talk. Please be respectful of this time limit.  
@@ -17,7 +17,7 @@ resolution of 1920 X 1200.
 To gain maximum size and benefit on the screen, we encourage speakers
 to utilize the 16x9 wide format Powerpoint templates.
 
-[**Download the Powerpoint template file**](/year/2019/assets/vis19-16x9-Tahoma.ppt).
+[**Download the Powerpoint template file**]({{ 'assets/vis19-16x9-Tahoma.ppt' | relative_url }}).
 
 We will have switched connections for presentations from laptops.
 

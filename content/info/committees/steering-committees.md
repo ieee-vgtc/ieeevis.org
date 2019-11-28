@@ -1,7 +1,7 @@
 ---
 title: IEEE VIS Steering Committees
 layout: page
-permalink: /year/2019/info/committees/steering-committees
+permalink: /info/committees/steering-committees
 ---
 
 IEEE VIS comprises:
@@ -31,7 +31,7 @@ IEEE VIS comprises:
 
 * [InfoVis Steering Committee Governance FAQ](/attachments/InfoVis_SC_Policies_FAQ.pdf)
 
-* [InfoVis Steering Committee meeting minutes](/governance/infovis-steering-committee/minutes)
+* [InfoVis Steering Committee meeting minutes]({{ 'governance/infovis-steering-committee/minutes' | relative_url }})
 
 
 ## <a name="scivis"></a> SciVis

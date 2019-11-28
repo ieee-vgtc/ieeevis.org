@@ -1,7 +1,7 @@
 ---
 title: Supporters and Exhibition
 layout: page
-permalink: /year/2019/info/exhibition/supporters-and-exhibition
+permalink: /info/exhibition/supporters-and-exhibition
 active_nav: "Contribute"
 contact: supporters@ieeevis.org
 ---

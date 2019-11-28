@@ -1,7 +1,7 @@
 ---
 title: Future Locations for IEEE VIS Conferences
 layout: page
-permalink: /year/2019/info/future-locations
+permalink: /info/future-locations
 ---
 
 ## VIS 2020

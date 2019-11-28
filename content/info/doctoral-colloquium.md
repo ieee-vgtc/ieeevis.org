@@ -1,7 +1,7 @@
 ---
 title: Doctoral Colloquium
 layout: page
-permalink: /year/2019/info/doctoral-colloquium
+permalink: /info/doctoral-colloquium
 ---
 
 (Invitation only event)
