@@ -7,6 +7,7 @@ The only exception to this is data located in `/attachments`, which should be ac
 ### Changes since forking from the `development` branch
 
 *11/27/2019*
+
 Site should always be built with an explicit destination of `./_site/year/2019`.  Due to this change, we can remove /year/2019 from all internal links.
 
 * All explicit links are replaced with relative links, or using the `{{ '/relative/link/to/content' | relative_url }}` when a side-by-side link isn't possible.
@@ -16,9 +17,9 @@ Site should always be built with an explicit destination of `./_site/year/2019`.
 
 ### Still to-do
 
-[ ] Back-up staging S3 bucket
-[ ] Try modifying the Makefile to build everything from a naked `vis2019` repository (not including "attachments")
-[ ] Set up GitHub action to build to staging on push
+- [ ] Back-up staging S3 bucket
+- [ ] Try modifying the Makefile to build everything from a naked `vis2019` repository (not including "attachments")
+- [ ] Set up GitHub action to build to staging on push
 
 # ieeevis.org
 
