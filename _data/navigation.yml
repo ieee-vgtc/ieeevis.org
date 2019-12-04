@@ -204,34 +204,34 @@ menu:
           - heading: "Associated Events"
             columns:
               - links:
-                - text: "VIS Arts Program: Beyond Borders"
+                - text: "VIS Arts Program: Beyond Borders (coming soon)"
                   description: "Where art, design, and research come together"
-                  url: "https://visap.net/"
-                  is_external: true
-                - text: "VisInPractice"
+#                  url: "https://visap.net/"
+#                  is_external: true
+                - text: "VisInPractice (coming soon)"
                   description: "Invited talks by visualization practitioners"
-                  url: "https://visinpractice.github.io/"
-                  is_external: true
-                - text: "VizSec Symposium"
+#                  url: "https://visinpractice.github.io/"
+#                  is_external: true
+                - text: "VizSec Symposium (coming soon)"
                   description: "Visualization for Cyber Security"
-                  url: "https://vizsec.org/vizsec2019/"
-                  is_external: true
-                - text: "VAHC Workshop"
+#                  url: "https://vizsec.org/vizsec2019/"
+#                  is_external: true
+                - text: "VAHC Workshop (coming soon)"
                   description: "Visual Analytics for Healthcare"
-                  url: "https://visualanalyticshealthcare.org/"
-                  is_external: true
-                - text: "VDS Symposium"
+#                  url: "https://visualanalyticshealthcare.org/"
+#                  is_external: true
+                - text: "VDS Symposium (coming soon)"
                   description: "Visualization in Data Science"
-                  url: "http://www.visualdatascience.org/2019/index.html"
-                  is_external: true
-                - text: "VIS4DH Workshop"
+#                  url: "http://www.visualdatascience.org/2019/index.html"
+#                  is_external: true
+                - text: "VIS4DH Workshop (coming soon)"
                   description: "Visualization for the Digital Humanities"
-                  url: "http://www.vis4dh.org/"
-                  is_external: true
-                - text: "LDAV Symposium"
+#                  url: "http://www.vis4dh.org/"
+#                  is_external: true
+                - text: "LDAV Symposium (coming soon)"
                   description: "Big Data Analysis and Visualization"
-                  url: "https://ldav.org/"
-                  is_external: true
+#                  url: "https://ldav.org/"
+#                  is_external: true
 
       - subsections:
           - heading: "Competitions"
@@ -241,9 +241,9 @@ menu:
                 - text: "VAST Challenge"
                   url: "https://vast-challenge.github.io/2020/"
                   is_external: true
-#                - text: "SciVis Contest"
-#                  url: "https://press3.mcs.anl.gov/2019-scivis-contest/"
-#                  is_external: true
+                - text: "SciVis Contest"
+                  url: "https://thomas.theussl.gitlab.io/2020-scivis-contest/"
+                  is_external: true
 #                - text: "BioViz Challenges"
 #                  url: "http://biovis.net/2019/program_ieee/"
 #                  is_external: true
