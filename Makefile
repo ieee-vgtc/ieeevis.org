@@ -19,6 +19,11 @@ newsite:
 	./scripts/fix_file_extensions.sh
 	./scripts/buildyear.sh
 
+new2019:
+	npm run-script build
+	jekyll build -d ./_site/year/2019
+	./scripts/fix_file_extensions.sh
+
 production: site
 	cd _site && ../scripts/sync_with_s3_boto.py $(PRODUCTION_BRANCH) $(PRODUCTION_BUCKET)
 
@@ -33,6 +38,9 @@ productionnew: newsite
 
 new: newsite
 	cd _site && ../scripts/sync_with_s3_boto.py $(NEW_BRANCH) $(NEW_BUCKET)
+
+build2019: new2019
+	cd _site && ../scripts/sync_with_s3_boto.py vis2019 $(STAGING_BUCKET)
 
 check: check-bad-links check-permalink-paths check-content-expiration
 
