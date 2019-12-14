@@ -1,11 +1,14 @@
 *~
 .DS_Store
 .jekyll-metadata
+.jekyll-cache/
 .sass-cache/
-node_modules/
+.vscode/
 _site/
 dist/
-scripts/*.pyc
-/files
+files/
 data/autogen/
+node_modules/
+scripts/*.pyc
+__pycache__
 *.swp

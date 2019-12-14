@@ -20,9 +20,8 @@ newsite:
 	./scripts/buildyear.sh
 
 new2019:
-	npm run-script build
+	npm run-script build; \
 	jekyll build -d ./_site/year/2019
-	./scripts/fix_file_extensions.sh
 
 production: site
 	cd _site && ../scripts/sync_with_s3_boto.py $(PRODUCTION_BRANCH) $(PRODUCTION_BUCKET)
