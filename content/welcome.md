@@ -10,8 +10,9 @@ VIS 2020 will be the year’s premier forum for advances in theory, methods, and
 We invite you to share your research, insights, and enthusiasm at IEEE Visual Analytics Science and Technology (VAST), IEEE Information Visualization (InfoVis), and IEEE Scientific Visualization (SciVis). The 2020 program will also feature a diverse range of symposia and co-located events, including Visualization in Practice, Visualization in Data Science, the VIS Arts Program, and data analysis Challenge competitions, as well as an Application Spotlights track.
 
 ***VIS 2020 General Chairs***<br/>
-Mike Kirby, University of Utah<br/>
-Valerio Pascucci, University of Utah
+Valerio Pascucci, University of Utah<br/>
+Mike Kirby, University of Utah
+
 
 ----
 
