@@ -6,7 +6,7 @@ done
 
 # Move straggling pages
 
-mv _site/instructions.html _site/instructions
-mv _site/welcome.html _site/welcome
-mv _site/styleguide.html _site/styleguide
+[ -f _site/instructions.html ] && mv _site/instructions.html _site/instructions
+[ -f _site/welcome.html ] && mv _site/welcome.html _site/welcome
+[ -f _site/styleguide.html ] && mv _site/styleguide.html _site/styleguide
 
