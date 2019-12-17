@@ -20,6 +20,7 @@ newsite:
 	./scripts/buildyear.sh
 
 new2019:
+	npm install; \
 	npm run-script build; \
 	jekyll build -d ./_site/year/2019
 
