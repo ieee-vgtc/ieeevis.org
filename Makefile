@@ -20,6 +20,12 @@ newsite:
 	./scripts/fix_file_extensions.sh
 	./scripts/buildyear.sh
 
+new2020:
+	npm install
+	npm run-script build
+	jekyll build -d ./_site/year/2020
+	./scripts/fix_file_extensions.sh
+
 production: site
 	cd _site && ../scripts/sync_with_s3_boto.py $(PRODUCTION_BRANCH) $(PRODUCTION_BUCKET)
 
@@ -29,13 +35,13 @@ staging: site
 stagingnew: newsite
 	cd _site && ../scripts/sync_with_s3_boto.py $(NEW_BRANCH) $(STAGING_BUCKET)
 
-staging2020: newsite
+staging2020: new2020
 	cd _site && ../scripts/sync_with_s3_boto.py $(2020_BRANCH) $(STAGING_BUCKET)
 
 productionnew: newsite
 	cd _site && ../scripts/sync_with_s3_boto.py $(NEW_BRANCH) $(PRODUCTION_BUCKET)
 
-production2020: newsite
+production2020: new2020
 	cd _site && ../scripts/sync_with_s3_boto.py $(2020_BRANCH) $(PRODUCTION_BUCKET)
 
 new: newsite
