@@ -1,7 +1,7 @@
 ---
 title: SciVis Paper Types
-layout: main-2020
-permalink: /year/2020/info/call-participation/scivis-paper-types
+layout: page
+permalink: /info/call-participation/scivis-paper-types
 ---
 The **IEEE Scientific Visualization (SciVis)** conference solicits original research papers on a diverse set of topics related to scientific visualization. Papers may contribute new or improved visual encoding or interaction techniques; evaluations of techniques and tools; models or theories related to scientific visualization; systems that support visual data analysis; and the application of scientific visualization to a broad range of real-world contexts and domains.
 

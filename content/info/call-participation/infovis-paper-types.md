@@ -1,7 +1,7 @@
 ---
 title: InfoVis Paper Types
-layout: main-2020
-permalink: /year/2020/info/call-participation/infovis-paper-types
+layout: page
+permalink: /info/call-participation/infovis-paper-types
 ---
 
 IEEE InfoVis 2020 - Topics and Paper Types

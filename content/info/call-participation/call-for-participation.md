@@ -1,7 +1,7 @@
 ---
 title: Call For Participation
-layout: main-2020
-permalink: /year/2020/info/call-participation/call-for-participation
+layout: landing
+permalink: /info/call-participation/call-for-participation
 ---
         
 IEEE VIS 2020 is now soliciting novel research contributions and innovative applications in all areas of visualization 
