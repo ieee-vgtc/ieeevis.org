@@ -78,14 +78,13 @@ menu:
     sections:
       - subsections:
           - heading: "Call for Participation"
-#            heading_url: "/year/2010/info/call-participation/call-for-participation"
-            heading_url: "/"
-            description: "Submit your novel research contributions and innovative applications (coming soon)"
-         #   columns:
-         #     - heading: "Submit Your Work"
-         #       links:
-         #         - text: "Papers"
-         #           url: "/year/2019/info/call-participation/call-for-participation"
+            heading_url: "/year/2020/info/call-participation/call-for-participation"
+            description: "Submit your novel research contributions and innovative applications"
+            columns:
+              - heading: "Submit Your Work"
+                links:
+                  - text: "Papers"
+                    url: "/year/2020/info/call-participation/call-for-participation"
          #         - text: "Short Papers"
          #           url: "/year/2019/info/call-participation/shortpapers"
          #         - text: "Posters"
