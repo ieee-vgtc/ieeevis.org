@@ -3,8 +3,8 @@ title: Call For Participation
 layout: landing
 permalink: /info/call-participation/call-for-participation
 ---
-        
-IEEE VIS 2020 is now soliciting novel research contributions and innovative applications in all areas of visualization 
+
+**IEEE VIS 2020** is now soliciting novel research contributions and innovative applications in all areas of visualization 
 as captured by its three main conference tracks:
 
 [IEEE Conference on Visual Analytics Science & Technology (VAST)](vast-paper-types):<br />
