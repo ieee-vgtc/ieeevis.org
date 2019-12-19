@@ -5,19 +5,19 @@ permalink: /info/call-participation/scivis-paper-types
 ---
 The **IEEE Scientific Visualization (SciVis)** conference solicits original research papers on a diverse set of topics related to scientific visualization. Papers may contribute new or improved visual encoding or interaction techniques; evaluations of techniques and tools; models or theories related to scientific visualization; systems that support visual data analysis; and the application of scientific visualization to a broad range of real-world contexts and domains.
 
-##Topics
+## Topics
 Research contributions are welcomed across a range of topics including, but not limited to:
-**Visualization, rendering, and manipulation of spatial data:** scalar, vector, and tensor fields; multidimensional, multi-field, multi-modal, and multivariate data; time-varying data; regular and unstructured grids; point-based data; and volumetric data.
-**Foundations:** visualization taxonomies and models; mathematical theories for visualization; perception (theory, color, texture, scene, motion); cognition; aesthetics; information theoretic approaches; knowledge-assisted visualization; presentation; production; dissemination; and visual design.
-**Systems and methodologies:** system and toolkit design; topology-based and geometry-based techniques; feature extraction and pattern analysis; glyph-based, texture-based, and pixel-oriented techniques; uncertainty, view-dependent, and illustrative visualization; visual storytelling; computational steering; sonification; collaborative and distributed visualization; and integrating spatial and non-spatial data visualization.
-**Large data visualization:** parallel, distributed, cluster, and grid computing; high-performance computing on multi-core, GPU, FPGA, and embedded devices; petascale and exascale visualization; scalability; visualization over networks; compression; multi-resolution techniques; and streaming data.
-**Data science:** scalable data management on and off the cloud; storage and data analytics; information extraction and knowledge discovery from big data; statistical modeling; data mining; machine learning, including deep learning; clustering techniques; application of computer vision techniques; and visual steering for data retrieval.
-**Interaction:** human-computer interaction for visualization; interaction design; coordinated multiple views; brushing & linking; focus & context; zooming and navigation; data editing, manipulation, and deformation; guided visualization; multimodal input devices; haptics for visualization; mobile and ubiquitous visualization; and interaction with visualizations in different display environments.
-**Display techniques:** large and high-resolution displays; gigapixel displays; small displays; mobile devices; wrist and wearable displays; stereo displays; immersive and virtual environments; mixed and augmented visualization; and projector-camera systems.
-**Evaluation and user studies:** task and requirements analysis; metrics and benchmarks; qualitative evaluation; quantitative evaluation; laboratory studies; eye tracking studies and studies with other physiological sensors; field studies; usability studies; design studies; validation and verification; crowdsourcing; and human computation.
-**Application areas of visualization:** mathematics; physical sciences and engineering; earth, space, and environmental sciences; urban science; business and finance; social and information sciences; education; humanities; multimedia (image/video/music); robotics; sensor networks; cybersecurity; visualization for visualization research; visualization for the masses; terrain visualization; geographic/geospatial visualization; software visualization; bioinformatics; and molecular, biomedical, and medical visualization.
+* **Visualization, rendering, and manipulation of spatial data:** scalar, vector, and tensor fields; multidimensional, multi-field, multi-modal, and multivariate data; time-varying data; regular and unstructured grids; point-based data; and volumetric data.
+* **Foundations:** visualization taxonomies and models; mathematical theories for visualization; perception (theory, color, texture, scene, motion); cognition; aesthetics; information theoretic approaches; knowledge-assisted visualization; presentation; production; dissemination; and visual design.
+* **Systems and methodologies:** system and toolkit design; topology-based and geometry-based techniques; feature extraction and pattern analysis; glyph-based, texture-based, and pixel-oriented techniques; uncertainty, view-dependent, and illustrative visualization; visual storytelling; computational steering; sonification; collaborative and distributed visualization; and integrating spatial and non-spatial data visualization.
+* **Large data visualization:** parallel, distributed, cluster, and grid computing; high-performance computing on multi-core, GPU, FPGA, and embedded devices; petascale and exascale visualization; scalability; visualization over networks; compression; multi-resolution techniques; and streaming data.
+* **Data science:** scalable data management on and off the cloud; storage and data analytics; information extraction and knowledge discovery from big data; statistical modeling; data mining; machine learning, including deep learning; clustering techniques; application of computer vision techniques; and visual steering for data retrieval.
+* **Interaction:** human-computer interaction for visualization; interaction design; coordinated multiple views; brushing & linking; focus & context; zooming and navigation; data editing, manipulation, and deformation; guided visualization; multimodal input devices; haptics for visualization; mobile and ubiquitous visualization; and interaction with visualizations in different display environments.
+* **Display techniques:** large and high-resolution displays; gigapixel displays; small displays; mobile devices; wrist and wearable displays; stereo displays; immersive and virtual environments; mixed and augmented visualization; and projector-camera systems.
+* **Evaluation and user studies:** task and requirements analysis; metrics and benchmarks; qualitative evaluation; quantitative evaluation; laboratory studies; eye tracking studies and studies with other physiological sensors; field studies; usability studies; design studies; validation and verification; crowdsourcing; and human computation.
+* **Application areas of visualization:** mathematics; physical sciences and engineering; earth, space, and environmental sciences; urban science; business and finance; social and information sciences; education; humanities; multimedia (image/video/music); robotics; sensor networks; cybersecurity; visualization for visualization research; visualization for the masses; terrain visualization; geographic/geospatial visualization; software visualization; bioinformatics; and molecular, biomedical, and medical visualization.
 
-##Paper Types
+## Paper Types
 VIS papers often fall into one or more of five main categories: technique & algorithm; system; application & design study; empirical study; or theory & model. Although your main paper type has to be specified during the paper submission process, papers can include elements of more than one of these categories.
 
 ### Paper Type: Technique & Algorithm
@@ -62,9 +62,9 @@ Examples:
  * Marai, G. A. (2018). Activity-Centered Domain Characterization for Problem-Driven Scientific Visualization. IEEE Transactions on Visualization and Computer Graphics, 24(1).
 
 ## Paper Chairs
-Peter Lindstrom, Lawrence Livermore National Laboratory
-Luis Gustavo Nonato, Universidade de Sao Paulo
-Rüdiger Westermann, Technical University of Munich
+ * Peter Lindstrom, Lawrence Livermore National Laboratory
+ * Luis Gustavo Nonato, Universidade de Sao Paulo
+ * Rüdiger Westermann, Technical University of Munich
 
 Email: scivis_papers@ieeevis.org.
 
