@@ -2,6 +2,7 @@
 title: Call For Participation
 layout: landing
 permalink: /info/call-participation/call-for-participation
+contact: papers@ieeevis.org
 ---
 
 **IEEE VIS 2020** is now soliciting novel research contributions and innovative applications in all areas of visualization 

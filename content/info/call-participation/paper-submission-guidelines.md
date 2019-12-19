@@ -2,6 +2,7 @@
 title: Paper Submission Guidelines
 layout: page
 permalink: /info/call-participation/paper-submission-guidelines
+contact: papers@ieeevis.org
 ---
 All conferences at IEEE VIS use similar submission and review processes. 
 Please read the individual paper types and topics documents for each of the conferences here: [VAST](vast-paper-types), [InfoVis](infovis-paper-types), and [SciVis](scivis-paper-types). We encourage you to submit your paper to one of these three tracks. If you are unsure which track to choose, you will have the option when submitting your paper to request that the paper chairs assign your paper to the track they deem the most appropriate. 

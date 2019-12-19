@@ -2,6 +2,7 @@
 title: InfoVis Paper Types
 layout: page
 permalink: /info/call-participation/infovis-paper-types
+contact: papers@ieeevis.org
 ---
 
 IEEE InfoVis 2020 - Topics and Paper Types
