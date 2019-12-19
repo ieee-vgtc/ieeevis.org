@@ -1,7 +1,7 @@
 ---
 title: Final Information for Paper Authors
-layout: main-2020
-permalink: /year/2020/info/presenter-information/final-information-paper-authors
+layout: page
+permalink: /info/presenter-information/final-information-paper-authors
 ---
 
 This page provides authors of accepted papers with important information for the remainder of the process until the conference.
