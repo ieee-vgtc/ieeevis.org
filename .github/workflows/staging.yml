@@ -1,5 +1,5 @@
 ## Author: Alper Sarikaya
-## Last modified: 2019-12-26 🎄
+## Last modified: 2019-12-27 🎄
 ## This script should be run on every commit to an active branch on this repository.
 ## This action will build the entire site from scratch and deploy to the staging S3 bucket.
 
