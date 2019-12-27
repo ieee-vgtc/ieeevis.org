@@ -55,16 +55,21 @@ jobs:
       run: make site
       
     ## BUILD LAST YEAR (currently: vis2019)
+    ## TODO: does checking out again wipe working directory?  (actions/checkout#33 says no)
+    - name: Checkout last year (2019)
+      uses: actions/checkout@v2
+      with:
+        ref: vis2019
     - name: Build last year (2019)
-      run: |
-        git checkout vis2019
-        make new2019
+      run: make new2019
         
     ## BUILD THIS YEAR (currently: vis2020)
     ## ./scripts/fix_file_extensions.sh moves some evergreen content from current year
-    - name: Build this year (2020)
-      run: |
-        git checkout vis2020
-        make staging2020
+    - name: Checkout this year (2020)
+      uses: actions/checkout@v2
+      with:
+        ref: vis2020
+    - name: Build this year (2020) + deploy
+      run: make staging2020
       
     
