@@ -40,7 +40,6 @@ jobs:
       run: |
         gem install bundler
         gem install jekyll
-        bundle install
     - name: Set up AWS credentials (+ set default user)
       run: |
         mkdir -p ~/.aws
