@@ -20,10 +20,11 @@ jobs:
 
     steps:
     ## SET UP STEPS
-    - name: Checkout 'master' branch
-      uses: actions/checkout@v2
-      with:
-        ref: master
+    - uses: actions/checkout@v2
+    - name: Get all branches and checkout master
+      run: |
+        git fetch --no-tags --prune --depth=1 origin +refs/heads/*:refs/remotes/origin/*
+        git checkout master
     - name: Set up Python 2.7.x
       uses: actions/setup-python@v1
       with:
@@ -48,28 +49,22 @@ jobs:
         aws_access_key_id =  ${{ secrets.aws_deploy_key_id }}
         aws_secret_access_key =  ${{ secrets.aws_secret_access_key }}" > ~/.aws/credentials
         export IEEEVIS_AWS_USER=default
-        
   
     ## BUILD ARCHIVE YEARS (2018 and before)
     - name: Build archive years
       run: make site
       
     ## BUILD LAST YEAR (currently: vis2019)
-    ## TODO: does checking out again wipe working directory?  (actions/checkout#33 says no)
-    - name: Checkout last year (2019)
-      uses: actions/checkout@v2
-      with:
-        ref: vis2019
     - name: Build last year (2019)
-      run: make new2019
+      run: |
+        git checkout vis2019
+        make new2019
         
     ## BUILD THIS YEAR (currently: vis2020)
     ## ./scripts/fix_file_extensions.sh moves some evergreen content from current year
-    - name: Checkout this year (2020)
-      uses: actions/checkout@v2
-      with:
-        ref: vis2020
     - name: Build this year (2020) + deploy
-      run: make staging2020
+      run: |
+        git checkout vis2020
+        make staging2020
       
     
