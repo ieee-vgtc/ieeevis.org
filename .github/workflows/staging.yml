@@ -48,7 +48,7 @@ jobs:
         echo "[default]
         aws_access_key_id =  ${{ secrets.aws_deploy_key_id }}
         aws_secret_access_key =  ${{ secrets.aws_secret_access_key }}" > ~/.aws/credentials
-        export IEEEVIS_AWS_USER=default
+      ## SET IEEEVIS_AWS_USER environment variable to "default" in deploy step
   
     ## BUILD ARCHIVE YEARS (2018 and before)
     - name: Build archive years
@@ -63,6 +63,8 @@ jobs:
     ## BUILD THIS YEAR (currently: vis2020)
     ## ./scripts/fix_file_extensions.sh moves some evergreen content from current year
     - name: Build this year (2020) + deploy
+      env:
+        IEEEVIS_AWS_USER: default
       run: |
         git checkout vis2020
         make staging2020
