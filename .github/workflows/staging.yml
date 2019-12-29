@@ -1,0 +1,72 @@
+## Author: Alper Sarikaya
+## Last modified: 2019-12-27 🎄
+## This script should be run on every commit to an active branch on this repository.
+## This action will build the entire site from scratch and deploy to the staging S3 bucket.
+
+name: build staging
+
+on:
+  push:
+    # build staging whenever someone pushes to master (archive), last year's (vis2019),
+    # or this year's site (vis2020)
+    branches: 
+      - master
+      - vis2019
+      - vis2020
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    ## SET UP STEPS
+    - uses: actions/checkout@v2
+    - name: Get all branches and checkout master
+      run: |
+        git fetch --no-tags --prune --depth=1 origin +refs/heads/*:refs/remotes/origin/*
+        git checkout master
+    - name: Set up Python 2.7.x
+      uses: actions/setup-python@v1
+      with:
+        python-version: '2.x'
+    - name: Install python dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r scripts/requirements.txt
+    - name: Install Ruby 2.6.x
+      uses: actions/setup-ruby@v1
+      with:
+        ruby-version: '2.6.x'
+    - name: Install ruby dependencies
+      run: |
+        gem install bundler
+        gem install jekyll
+    - name: Set up AWS credentials (+ set default user)
+      run: |
+        mkdir -p ~/.aws
+        touch ~/.aws/credentials
+        echo "[default]
+        aws_access_key_id =  ${{ secrets.aws_deploy_key_id }}
+        aws_secret_access_key =  ${{ secrets.aws_secret_access_key }}" > ~/.aws/credentials
+      ## SET IEEEVIS_AWS_USER environment variable to "default" in deploy step
+  
+    ## BUILD ARCHIVE YEARS (2018 and before)
+    - name: Build archive years
+      run: make site
+      
+    ## BUILD LAST YEAR (currently: vis2019)
+    - name: Build last year (2019)
+      run: |
+        git checkout vis2019
+        make new2019
+        
+    ## BUILD THIS YEAR (currently: vis2020)
+    ## ./scripts/fix_file_extensions.sh moves some evergreen content from current year
+    - name: Build this year (2020) + deploy
+      env:
+        IEEEVIS_AWS_USER: default
+      run: |
+        git checkout vis2020
+        make staging2020
+      
+    
