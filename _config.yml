@@ -14,7 +14,22 @@ github_pull_request_branch: "vis2020"
 # Build settings
 markdown: kramdown
 
-exclude: ['docs', 'data', 'extra', 'README.md', 'Makefile', 'scripts', 'files', '.DS_Store', 'src', 'node_modules']
+exclude: [
+  '.DS_Store',
+  'docs',
+  'data',
+  'extra',
+  'files',
+  'README.md',
+  'Makefile',
+  'scripts',
+  'files',
+  'node_modules',
+  'output',
+  'scripts',
+  'src',
+  'tailwind.config.js',
+  'webpack*' ]
 
 defaults:
   -

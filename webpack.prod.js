@@ -28,7 +28,7 @@ module.exports = merge(common, {
         new CompressionPlugin(),
 
         new PurgecssPlugin({
-            paths: glob.sync(path.join(__dirname, '{_includes,_layouts}') + '/**/*', { nodir: true }),
+            paths: glob.sync(path.join(__dirname, '{_includes,_layouts,content}') + '/**/*', { nodir: true }),
             extractors: [
                 {
                     extractor: TailwindExtractor,
