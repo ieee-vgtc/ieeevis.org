@@ -128,8 +128,7 @@ files_to_remove = diff['to_delete']
 print "Removing %s files:" % len(files_to_remove)
 for o in files_to_remove:
     print "  %s" % o
-# ALPER TODO: figure out how we only remove things that are added for this specific year?
-# delete_objects(files_to_remove)
+delete_objects(files_to_remove)
 
 files_to_keep = diff['same']
 print "Not touching %s other files." % len(files_to_keep)
