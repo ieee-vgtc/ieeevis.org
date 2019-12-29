@@ -26,14 +26,18 @@ function send_to_create_gh_flow_new() {
   
   var p = base + permalink;
   var i = p.lastIndexOf('/');
-  var filename = p.substr(i + 1) + ".md";
   var pWithoutFilename = p.substring(0, i);
+
+  // filename should contain last directory (see <https://github.com/isaacs/github/issues/1527> for discussion)
+  var dirAndFile = permalink.match(/.*\/(.+\/.+)/);
+  var filename = dirAndFile.length === 2 ? dirAndFile[1] + ".md" : p.substr(i + 1) + ".md";
 
   var yaml_front_matter;
   yaml_front_matter = ["---",
     "title: " + p.substr(i + 1),
     "layout: page",
     "permalink: " + permalink.replace("content/", ""),
+    "contact: [committee-name]@ieeevis.org",
     "---\n\n"];
   yaml_front_matter = yaml_front_matter.join("\n");
   window.location = pWithoutFilename + "?filename=" + filename + "&value=" + encodeURIComponent(yaml_front_matter);

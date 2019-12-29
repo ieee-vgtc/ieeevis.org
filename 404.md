@@ -11,6 +11,6 @@ report.
 ## Trying to create a new page?
 
 If you are attempting to create a new webpage, please
-[click on this link](javascript:send_to_create_gh_flow()).
+[click on this link](javascript:send_to_create_gh_flow_new()).
 
 <script src="{{ '/error.js' | relative_url }}"></script>
