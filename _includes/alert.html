@@ -4,7 +4,7 @@
         <p class="text-primary mb-0">{{ include.description }}</p>
     </div>
     <div>
-        <a href="{{ include.button-url }}" class="button">
+        <a href="{{ include.button-url | relative_url }}" class="button">
         {{ include.button-text }}
     </a>
     </div>
