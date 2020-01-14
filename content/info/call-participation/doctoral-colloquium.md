@@ -2,7 +2,7 @@
 title: doctoral-colloquium
 layout: page
 permalink: /info/call-participation/doctoral-colloquium
-contact: [committee-name]@ieeevis.org
+contact: doctoral_coll@ieeevis.org
 ---
 
 # IEEE VIS Doctoral Colloquium
