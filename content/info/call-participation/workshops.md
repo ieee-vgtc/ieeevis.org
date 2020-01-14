@@ -15,7 +15,7 @@ We solicit workshops related to all areas of visualization. They provide an info
 
 All deadlines are at **5:00pm Pacific Time (PDT)**.
 
-# Workshops should:
+## Workshops should:
 
 * emphasize emerging ideas, concepts, or technologies that are currently too nascent or too interdisciplinary for a full symposium;
 
