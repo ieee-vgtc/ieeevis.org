@@ -1,6 +1,6 @@
 ---
-title: Call For Participation
-layout: landing
+title: Papers - Call For Participation
+layout: page
 permalink: /info/call-participation/call-for-participation
 contact: papers@ieeevis.org
 ---
@@ -23,7 +23,8 @@ Papers in SciVis typically focus on new or improved visual encodings, mathematic
 Full papers accepted to IEEE InfoVis, SciVis, and most of VAST will appear in a special issue of the IEEE Transactions on 
 Visualization and Computer Graphics (TVCG). Some papers of the VAST conference will be published as archival, conference publications.
 
-## Submission Dates
+## Important Dates
+
 All deadlines are at *5:00pm Pacific Time (PDT).*
 
 * Abstract submission (MANDATORY)<br />
