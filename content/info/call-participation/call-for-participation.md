@@ -1,27 +1,31 @@
 ---
 title: Papers - Call For Participation
-layout: page
 permalink: /info/call-participation/call-for-participation
 contact: papers@ieeevis.org
+active_nav: "Contribute"
+layout: landing
+sidebar: call-for-participation
+intro_section:
+  callout: "IEEE VIS 2020 is now soliciting novel research contributions and innovative applications in all areas of visualization as captured by its three main conference tracks: VAST, InfoVis, and SciVis."
+  cards:
+    - title: "IEEE Conference on Visual Analytics Science & Technology (VAST)"
+      description: "Papers in VAST typically focus on problems that integrate data analysis algorithms and visual interfaces to support data analysis and analytical reasoning."
+      button_text: "VAST Paper Types"
+      button_url: "/info/call-participation/vast-paper-types"
+    - title: "IEEE Conference on Information Visualization (InfoVis)"
+      description: "Papers in InfoVis typically relate to the design or evaluation of new or improved visual encodings or interaction techniques of abstract data such as graphs, tables, or text data, as well as models and theories of visualization."
+      button_text: "InfoVIS Paper Types"
+      button_url: "/info/call-participation/infovis-paper-types"
+    - title: "IEEE Conference on Scientific Visualization (SciVis)"
+      description: "Papers in SciVis typically focus on new or improved visual encodings, mathematical models, algorithms, or interaction techniques for the visualization of data related to science and engineering, as well as integration into novel applications and systems."
+      button_text: "SciVis Paper Types"
+      button_url: "/info/call-participation/scivis-paper-types"
+  content: |
+      
+      **Where will papers appear?**
+      
+      Full papers accepted to IEEE InfoVis, SciVis, and most of VAST will appear in a special issue of the IEEE Transactions on Visualization and Computer Graphics (TVCG). Some papers of the VAST conference will be published as archival, conference publications.
 ---
-
-**IEEE VIS 2020** is now soliciting novel research contributions and innovative applications in all areas of visualization 
-as captured by its three main conference tracks:
-
-[IEEE Conference on Visual Analytics Science & Technology (VAST)](vast-paper-types):<br />
-Papers in VAST typically focus on problems that integrate data analysis algorithms and visual interfaces to support data 
-analysis and analytical reasoning.
-
-[IEEE Conference on Information Visualization (InfoVis)](infovis-paper-types):<br />
-Papers in InfoVis typically relate to the design or evaluation of new or improved visual encodings or interaction techniques 
-of abstract data such as graphs, tables, or text data, as well as models and theories of visualization.
-
-[IEEE Conference on Scientific Visualization (SciVis)](scivis-paper-types):<br />
-Papers in SciVis typically focus on new or improved visual encodings, mathematical models, algorithms, or interaction techniques for the visualization of data related to science and engineering, as well as integration into novel applications and systems.
-
-*Where will papers appear?*<br />
-Full papers accepted to IEEE InfoVis, SciVis, and most of VAST will appear in a special issue of the IEEE Transactions on 
-Visualization and Computer Graphics (TVCG). Some papers of the VAST conference will be published as archival, conference publications.
 
 ## Important Dates
 
