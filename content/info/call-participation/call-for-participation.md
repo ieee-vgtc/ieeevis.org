@@ -31,19 +31,21 @@ intro_section:
 
 All deadlines are at *5:00pm Pacific Time (PDT).*
 
-* Abstract submission (MANDATORY)<br />
-  Saturday, March 21, 2020
-* Paper submission<br />
-  Tuesday, March 31, 2020
-* Notification of results of first review cycle<br />
-  Saturday, June 6, 2020
-* Paper submission for second review cycle<br />
-  Wednesday, June 24, 2020
-* Final notification<br />
-  Wednesday, July 8, 2020
-* Camera-ready copy<br />
-  Saturday, August 1, 2020 <br />
-  [Final Instructions for Authors of Accepted Papers](/year/2020/info/presenter-information/final-information-paper-authors)
+| Submission activity | Date |
+|---------------------|------|
+| Abstract submission (MANDATORY) | Saturday, March 21, 2020 |
+| Paper submission | Tuesday, March 31, 2020 |
+| Notification of results of first review cycle | Saturday, June 6, 2020 |
+| Paper submission for second review cycle | Wednesday, June 24, 2020 |
+| Final notification | Wednesday, July 8, 2020 |
+| Camera-ready copy | Saturday, August 1, 2020 |
+
+{% include alert.html
+  title="Final Instructions for Authors of Accepted Papers"
+  description="Important information for authors of accepted papers."
+  button-text="View instructions"
+  button-url="/info/presenter-information/final-information-paper-authors"
+%}
 
 ## Submission Guidelines and Reviewing Criteria
 As the leading academic event on visualization research, IEEE VIS expects important, impactful, and potentially transformative 

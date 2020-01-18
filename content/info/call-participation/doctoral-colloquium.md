@@ -2,6 +2,8 @@
 title: Doctoral Colloquium - Call For Participation
 layout: page
 permalink: /info/call-participation/doctoral-colloquium
+active_nav: "Contribute"
+sidebar: call-for-participation
 contact: doctoral_coll@ieeevis.org
 ---
 

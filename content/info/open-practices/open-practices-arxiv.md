@@ -2,6 +2,9 @@
 title: Open Practices arXiv Guidance
 layout: page
 permalink: /info/open-practices/open-practices-arxiv
+active_nav: "Contribute"
+sidebar: call-for-participation
+contact: open_practices@ieeevis.org
 ---
 
 <style>

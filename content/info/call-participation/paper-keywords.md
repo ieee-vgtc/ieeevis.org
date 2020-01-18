@@ -2,6 +2,8 @@
 title: VIS Paper Submission Keywords
 layout: page
 permalink: /info/call-participation/paper-keywords
+active_nav: "Contribute"
+sidebar: call-for-participation
 contact: papers@ieeevis.org
 ---
 

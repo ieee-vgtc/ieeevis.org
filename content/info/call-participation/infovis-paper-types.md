@@ -2,6 +2,7 @@
 title: InfoVis Paper Types
 layout: page
 permalink: /info/call-participation/infovis-paper-types
+active_nav: "Contribute"
 contact: papers@ieeevis.org
 ---
 

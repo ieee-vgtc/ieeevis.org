@@ -1,9 +1,10 @@
 ---
 title: Open Practices
 layout: page
-sidebar: call-for-participation
 permalink: /info/open-practices/open-practices
 active_nav: "Contribute"
+sidebar: call-for-participation
+contact: open_practices@ieeevis.org
 ---
 
 Visualization research is better communicated and acted on if it is freely accessible to the

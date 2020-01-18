@@ -2,6 +2,7 @@
 title: Final Information for Paper Authors
 layout: page
 permalink: /info/presenter-information/final-information-paper-authors
+active_nav: "Contribute"
 contact: papers@ieeevis.org
 ---
 
