@@ -3,6 +3,7 @@ title: VAST Paper Types
 layout: page
 permalink: /info/call-participation/vast-paper-types
 active_nav: "Contribute"
+sidebar: call-for-participation
 contact: papers@ieeevis.org
 ---
 

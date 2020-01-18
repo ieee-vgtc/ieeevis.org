@@ -3,6 +3,7 @@ title: Paper Submission Guidelines
 layout: page
 permalink: /info/call-participation/paper-submission-guidelines
 active_nav: "Contribute"
+sidebar: call-for-participation
 contact: papers@ieeevis.org
 ---
 All conferences at IEEE VIS use similar submission and review processes. 
