@@ -269,6 +269,10 @@
     @apply text-secondary font-bold tracking-wide;
 }
 
+.dropdown li a.dropdown__disabled {
+    @apply text-gray-400;
+}
+
 .dropdown a:hover {
     text-decoration: underline;
 }

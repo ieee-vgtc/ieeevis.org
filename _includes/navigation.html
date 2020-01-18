@@ -51,8 +51,12 @@
                                             <li class="dropdown__heading text-gray-500">{{ column.heading }}</li>
                                         {% endif %}
                                         {% for link in column.links %}
-                                           <li>
+                                            <li>
+                                                {% if link.url %}
                                                 <a href="{{ link.url }}">{{ link.text }}</a>
+                                                {% else %}
+                                                <a class="dropdown__disabled" title="Content forthcoming.">{{ link.text }}</a>
+                                                {% endif %}
 
                                                 {% if link.is_external %}
                                                 <span><i class="material-icons align-middle text-secondary text-sm">open_in_new</i></span>

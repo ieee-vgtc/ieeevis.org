@@ -1,6 +1,5 @@
 {%capture canonical_url %}{{ page.permalink | relative_url }}{% endcapture %}
 <aside class="sidebar ">
-    This url: {{ canonical_url }}
     {% for section in site.data.sidebars.[page.sidebar] %}
         <div class="my-4">
             {% if section.heading %}
