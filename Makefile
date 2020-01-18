@@ -35,7 +35,9 @@ staging: site
 stagingnew: newsite
 	cd _site && ../scripts/sync_with_s3_boto.py $(NEW_BRANCH) $(STAGING_BUCKET)
 
+# don't want to index staging...
 staging2020: new2020
+	cp -f robots.txt -t _site/
 	cd _site && ../scripts/sync_with_s3_boto.py $(2020_BRANCH) $(STAGING_BUCKET)
 
 productionnew: newsite

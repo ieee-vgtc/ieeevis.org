@@ -71,5 +71,5 @@
     }
 
     .sidebar__link--disabled {
-        @apply text-gray;
+        @apply text-gray-500;
     }
