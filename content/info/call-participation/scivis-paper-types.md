@@ -4,7 +4,7 @@ layout: page
 permalink: /info/call-participation/scivis-paper-types
 active_nav: "Contribute"
 sidebar: call-for-participation
-contact: papers@ieeevis.org
+contact: scivis_papers@ieeevis.org
 ---
 The **IEEE Scientific Visualization (SciVis)** conference solicits original research papers on a diverse set of topics related to scientific visualization. Papers may contribute new or improved visual encoding or interaction techniques; evaluations of techniques and tools; models or theories related to scientific visualization; systems that support visual data analysis; and the application of scientific visualization to a broad range of real-world contexts and domains.
 

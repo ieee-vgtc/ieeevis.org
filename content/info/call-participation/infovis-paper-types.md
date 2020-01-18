@@ -4,10 +4,8 @@ layout: page
 permalink: /info/call-participation/infovis-paper-types
 active_nav: "Contribute"
 sidebar: call-for-participation
-contact: papers@ieeevis.org
+contact: infovis_papers@ieeevis.org
 ---
-
-IEEE InfoVis 2020 - Topics and Paper Types
 
 The **IEEE Information Visualization (InfoVis)** conference solicits original research papers on a diverse set of topics related to information visualization. Papers may contribute new or improved visual encoding or interaction techniques; evaluations of techniques and tools; models or theories related to visualization; systems that support visual data analysis; and the application of visualization to a broad range of real-world contexts and domains.
 

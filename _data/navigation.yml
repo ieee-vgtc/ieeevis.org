@@ -22,55 +22,55 @@
 registration:
   display: false
   text: "Register"
-  url: "/year/2019/info/registration/conference-registration"
+  url: "/year/2020/info/registration/conference-registration"
 
 menu:
   - dropdown: "Attend"
     display: false
     sections:
       - subsections:
-          - heading: "Attending VIS 2019"
+          - heading: "Attending VIS 2020"
             # heading_url: "https://www.google.com"
             description: "Join us at the Vancouver Convention Centre East!"
             columns:
               - heading: "Attend"
                 links:
                   - text: "Registration"
-                    url: "/year/2019/info/registration/conference-registration"
+                    url: "/year/2020/info/registration/conference-registration"
                   # - text: "Conference Venue"
                   #   url: "https://www.google.com"
                   - text: "Practitioner Guide"
                     url: "https://visinpractice.github.io/guide.html"
                     is_external: true                 
                   - text: "Full Program"
-                    url: "/year/2019/info/week-at-a-glance"
+                    url: "/year/2020/info/week-at-a-glance"
               - heading: "Travel"
                 links:
                   - text: "Accommodation"
-                    url: "/year/2019/info/registration/hotel-information"
+                    url: "/year/2020/info/registration/hotel-information"
                   - text: "Visa & Travel"
-                    url: "/year/2019/info/registration/travel-visas"
+                    url: "/year/2020/info/registration/travel-visas"
                   # - text: "Things to do in City"
                   #   url: "https://www.google.com"
                   #   is_new: true
 
           - heading: "Code of Conduct"
-            heading_url: "/year/2019/info/inclusion-and-diversity/code-of-conduct"
+            heading_url: "/year/2020/info/inclusion-and-diversity/code-of-conduct"
 
       - subsections:
           - heading: "Equality, Inclusion & Diversity"
-            heading_url: "/year/2019/info/inclusion-and-diversity/inclusivity"
+            heading_url: "/year/2020/info/inclusion-and-diversity/inclusivity"
             columns:
               - links:
                 - text: "Inclusivity & Diversity Scholarship"
                   description: "Need-based scholarships for conference attendance"
-                  url: "/year/2019/info/inclusion-and-diversity/diversity-scholarship"
+                  url: "/year/2020/info/inclusion-and-diversity/diversity-scholarship"
                 - text: "VISKids"
                   description: "Childcare and activities open to everyone"
-                  url: "/year/2019/info/inclusion-and-diversity/viskids-event"
+                  url: "/year/2020/info/inclusion-and-diversity/viskids-event"
                 - text: "VISKids Childcare Grants"
                   description: "Supporting our VISKids and young families"
-                  url: "/year/2019/info/inclusion-and-diversity/viskids-child-care-grants"
+                  url: "/year/2020/info/inclusion-and-diversity/viskids-child-care-grants"
 
 
   - dropdown: "Contribute"
@@ -86,29 +86,29 @@ menu:
                   - text: "Papers"
                     url: "/year/2020/info/call-participation/call-for-participation"
                   - text: "Short Papers"
-         #           url: "/year/2019/info/call-participation/shortpapers"
+         #           url: "/year/2020/info/call-participation/shortpapers"
                   - text: "Posters"
-         #           url: "/year/2019/info/call-participation/posters"
+         #           url: "/year/2020/info/call-participation/posters"
                   - text: "Tutorials"
-         #           url: "/year/2019/info/call-participation/tutorials"
+         #           url: "/year/2020/info/call-participation/tutorials"
                   - text: "Workshops"
                     url: "/year/2020/info/call-participation/workshops"
                   - text: "Panels"
-         #           url: "/year/2019/info/call-participation/panels"
+         #           url: "/year/2020/info/call-participation/panels"
                   - text: "Doctorial Colloquium"
                     url: "/year/2020/info/call-participation/doctoral-colloquium"
                   - text: "Application Spotlights"
-         #           url: "/year/2019/info/call-participation/application-spotlights-cfp"
+         #           url: "/year/2020/info/call-participation/application-spotlights-cfp"
          #           is_new: true
               - heading: "Info for Contributors"
                 links:
                   - text: "Open Practices"
-                    url: "/year/2019/info/open-practices/open-practices"
+                    url: "/year/2020/info/open-practices/open-practices"
                   - text: "Video Previews"
-         #           url: "/year/2019/info/presenter-information/fast-forward-and-video-previews"
+         #           url: "/year/2020/info/presenter-information/fast-forward-and-video-previews"
          #           is_new: true
                   - text: "Speakers and Presenters"
-         #           url: "/year/2019/info/presenter-information/speakers-and-presenters"
+         #           url: "/year/2020/info/presenter-information/speakers-and-presenters"
          #           is_new: true
 
       - subsections:
@@ -117,7 +117,7 @@ menu:
               - links:
                 - text: "Organize a meetup"
                   description: "Meet people for discussion and shared experiences"
-             #     url: "/year/2019/info/call-participation/meetups"
+             #     url: "/year/2020/info/call-participation/meetups"
                 - text: "Become a student volunteer"
                   description: "Support the conference, build your research network, and get a discount"
              #     url: "http://vissv.org/"
@@ -140,32 +140,32 @@ menu:
     sections:
       - subsections:
           - heading: "Vis Program"
-            heading_url: "/year/2019/info/week-at-a-glance"
+            heading_url: "/year/2020/info/week-at-a-glance"
             description: "See the complete conference program on the web or via the conference app"
             columns:
               - links:
                 - text: "Papers"
                   description: "The latest research in theory, methods, and applications of visualization"
-                  url: "/year/2019/info/papers-sessions"
+                  url: "/year/2020/info/papers-sessions"
                 - text: "Posters"
                   description: "Nascent and recent work"
-                  url: "/year/2019/info/posters"
+                  url: "/year/2020/info/posters"
                 - text: "Tutorials"
                   description: "Learn new tools and application domains"
-                  url: "/year/2019/info/tutorials"
+                  url: "/year/2020/info/tutorials"
                 - text: "Workshops"
                   description: "Informal setting to discuss emerging topics"
-                  url: "/year/2019/info/workshops"
+                  url: "/year/2020/info/workshops"
                 - text: "Panels"
                   description: "Discuss important and controversial issues"
-                  url: "/year/2019/info/panels"
+                  url: "/year/2020/info/panels"
                 - text: "Application Spotlights"
                   description: "Showcase practical, real-world applications of visualization"
-                  url: "/year/2019/info/application-spotlights"
+                  url: "/year/2020/info/application-spotlights"
 
       - subsections:
           - heading: "Plenary Sessions"
-            # description: "TK TK TK Get an overview of what’s happening at VIS 2019"
+            # description: "TK TK TK Get an overview of what’s happening at VIS 2020"
             columns:
               # - links:
               #   - text: "Download the App"
@@ -176,9 +176,9 @@ menu:
               #     url: "https://www.google.com"
               - links:
                 - text: "Keynote Address"
-                  url: "/year/2019/keynote"
+                  url: "/year/2020/keynote"
                 - text: "Capstone Address"
-                  url: "/year/2019/capstone"
+                  url: "/year/2020/capstone"
 
           - heading: "Awards and Recognitions"
             # heading_url: "https://www.google.com"
@@ -186,15 +186,15 @@ menu:
             columns:
               - links:
                 - text: "Best Paper Awards"
-                  url: "/year/2019/info/awards/best-paper-awards"
+                  url: "/year/2020/info/awards/best-paper-awards"
                 - text: "Best Poster Awards"
-                  url: "/year/2019/info/awards/best-poster-awards"
+                  url: "/year/2020/info/awards/best-poster-awards"
                 # - text: "Service Awards"
                 #   url: "https://www.google.com"
                 # - text: "VGTC VIS Awards"
                 #   url: "https://www.google.com"
                 - text: "Test of Time Awards"
-                  url: "/year/2019/info/awards/test-of-time-awards"
+                  url: "/year/2020/info/awards/test-of-time-awards"
 
 
   - dropdown: "Events & Community"
@@ -214,7 +214,7 @@ menu:
 #                  is_external: true
                 - text: "VizSec Symposium (coming soon)"
                   description: "Visualization for Cyber Security"
-#                  url: "https://vizsec.org/vizsec2019/"
+#                  url: "https://vizsec.org/vizsec2020/"
 #                  is_external: true
                 - text: "VAHC Workshop (coming soon)"
                   description: "Visual Analytics for Healthcare"
@@ -222,7 +222,7 @@ menu:
 #                  is_external: true
                 - text: "VDS Symposium (coming soon)"
                   description: "Visualization in Data Science"
-#                  url: "http://www.visualdatascience.org/2019/index.html"
+#                  url: "http://www.visualdatascience.org/2020/index.html"
 #                  is_external: true
                 - text: "VIS4DH Workshop (coming soon)"
                   description: "Visualization for the Digital Humanities"
@@ -245,21 +245,21 @@ menu:
                   url: "https://thomas.theussl.gitlab.io/2020-scivis-contest/"
                   is_external: true
 #                - text: "BioViz Challenges"
-#                  url: "http://biovis.net/2019/program_ieee/"
+#                  url: "http://biovis.net/2020/program_ieee/"
 #                  is_external: true
 
           - heading: "Community"
-#           heading_url: "/year/2019/info/call-participation/community"
+#           heading_url: "/year/2020/info/call-participation/community"
             description: "Explore social and topic-based community groups"
             columns:
 #              - heading: "Connect"
 #                links:
 #                  - text: "Vis Buddies"
-#                    url: "/year/2019/info/meetups#vis-newcomers"
+#                    url: "/year/2020/info/meetups#vis-newcomers"
 #                  - text: "Job Fair"
-#                    url: "/year/2019/info/meetups#vis-jobfair"
+#                    url: "/year/2020/info/meetups#vis-jobfair"
 #                  - text: "Other Meetups"
-#                    url: "/year/2019/info/meetups"
+#                    url: "/year/2020/info/meetups"
               - heading: "Social Groups"
                 links:
                   - text: "Velo Club de VIs"
@@ -353,11 +353,11 @@ menu:
                 - text: "VIS Conference Committees (coming soon)"
 #                  url: "/year/2020/info/committees/conference-committee"
                 - text: "Program Committees (coming soon)"
-#                  url: "/year/2019/info/committees/program-committees"
+#                  url: "/year/2020/info/committees/program-committees"
                 - text: "Steering Committees  (coming soon)"
 #                  url: "/year/2020/info/committees/steering-committees"
                 - text: "VIS Executive Committee (coming soon)"
- #                 url: "/year/2019/info/committees/vis-executive-committee"
+ #                 url: "/year/2020/info/committees/vis-executive-committee"
                 - text: "Restructuring and reVISe"
                   url:  "/governance/restructuring"
 
@@ -372,5 +372,4 @@ menu:
                 - text: "Bidding"
                   description: "Guidelines to bid for a future location of IEEE VIS"
                   url: "/governance/bids"
-                  #                  url: "/governance/VISBidGuidelines.pdf"
 
