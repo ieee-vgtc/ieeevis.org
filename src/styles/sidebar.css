@@ -69,3 +69,7 @@
     .sidebar__link--active {
         @apply font-bold;
     }
+
+    .sidebar__link--disabled {
+        @apply text-gray;
+    }

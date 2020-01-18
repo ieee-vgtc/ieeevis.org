@@ -1,4 +1,4 @@
-{%capture canonical_url %}{{ page.permalink | prepend: site.baseurl }}{% endcapture %}
+{%capture canonical_url %}{{ page.permalink | relative_url }}{% endcapture %}
 <aside class="sidebar ">
     This url: {{ canonical_url }}
     {% for section in site.data.sidebars.[page.sidebar] %}

@@ -43,7 +43,7 @@
             height: 65px;
             bottom: -64px; /* Fixes a 1px gap in Chrome */
             clip-path: polygon(100% 0, 100% 100%, 65px 100%, 0 0);
-            background-image: url('/assets/theme/decorative_line_left.svg');
+            background-image: url('../assets/theme/decorative_line_left.svg');
             background-repeat: no-repeat;
             background-position: 80px 20px;
         }
@@ -58,7 +58,7 @@
 }
 
     .section__content-wrapper--decorative {
-        background-image: url('/assets/theme/decorative_line_right.svg');
+        background-image: url('../assets/theme/decorative_line_right.svg');
         background-repeat: no-repeat;
         background-position: right top 50px;
     }
