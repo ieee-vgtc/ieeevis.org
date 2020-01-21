@@ -242,7 +242,7 @@ menu:
                   url: "https://vast-challenge.github.io/2020/"
                   is_external: true
                 - text: "SciVis Contest"
-                  url: "https://thomas.theussl.gitlab.io/2020-scivis-contest/"
+                  url: "https://kaust-vislab.github.io/SciVis2020/"
                   is_external: true
 #                - text: "BioViz Challenges"
 #                  url: "http://biovis.net/2020/program_ieee/"
