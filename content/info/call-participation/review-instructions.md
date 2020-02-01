@@ -1,9 +1,9 @@
 ---
-title: review-instructions
+title: Review Instructions
 layout: page
 permalink: /info/call-participation/review-instructions
 contact: papers@ieeevis.org
-sidebar:call-for-participation
+sidebar: call-for-participation
 ---
 
 intro_section:
@@ -30,6 +30,7 @@ Both primaries and secondaries:
 ## Reviewing Phase 
 
 This phase completes by May 8, 2020 11:00 pm Pacific Time (PDT).
+
 During this phase, both primaries and secondaries:
 * Write a regular review of your assigned papers. See the ‘ADDITIONAL GUIDANCE’ below that may inform your review.
 
