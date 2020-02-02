@@ -101,5 +101,5 @@ At least one author of an accepted paper must attend the conference to present t
 All VIS conferences adhere to the [VGTC ethics guidelines for reviewers](http://vgtc.org/about_us/conferences/ethics-guidelines). Please contact the papers co-chairs for the relevant conference if you feel that a reviewer has violated these guidelines.
 
 ## Paper Submission Keywords
-Authors are expected to select appropriate keywords for submitted papers. These keywords are specified when submitting vis PCS. Please see the [VIS Paper Submission Keywords](/info/call-participation/paper-keywords) for descriptions of the keywords, sample papers, and history of how the keywords are selected.
+Authors are expected to select appropriate keywords for submitted papers. These keywords are specified when submitting vis PCS. Please see the [VIS Paper Submission Keywords](paper-keywords) for descriptions of the keywords, sample papers, and history of how the keywords are selected.
 
