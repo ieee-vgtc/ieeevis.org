@@ -25,7 +25,7 @@ Make sure that you carefully read the guidelines below before submitting your pa
 - [Resubmitting Rejected Papers](#resubmitting-rejected-papers)
 - [General Expectations](#general-expectations)
 - [Ethics Guidelines](#ethics-guidelines)
-- [Paper Keywords](#keywords)
+- [Paper Keywords](#paper-submission-keywords)
 
 ## Important Submission Requirements
 
