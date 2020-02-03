@@ -6,8 +6,7 @@ contact: papers@ieeevis.org
 sidebar: call-for-participation
 ---
 
-intro_section:
-  callout: "IEEE VIS 2020 employs a two-phase review process ..."
+IEEE VIS 2020 employs a two-phase review process ...
 
 ## Review Assignment Phase
 
@@ -54,12 +53,12 @@ Secondaries:
 * Discuss with the primary reviewer to agree on a recommendation in the first review cycle.
 
 
-## DECISION PHASE== (from May 15 to May 31)
+## Decision Phase (from May 15 to May 31)
 Primaries and secondaries:
 * Please be available electronically for discussion with the papers chairs about the papers, your recommendation, and the review process. This is particularly important if any of your review assignments are contentious or controversial. If you will not be available to field our questions, please let us know in advance.
 
 
-## ADDITIONAL GUIDANCE
+## Additional Guidance
 
 ### Paper Quality
 As an IEEE VIS PC member, you are in a position to directly control the quality of the VIS papers program. The work you accept will be the papers you will see being presented at the conference in October. Make sure that you stand behind the work you recommend for acceptance! Most importantly, this means that you should only accept high-quality papers that will contribute significantly to the VIS scientific community.
