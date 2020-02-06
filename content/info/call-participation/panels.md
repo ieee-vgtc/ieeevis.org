@@ -40,22 +40,12 @@ Feel free to address any questions concerning submission, format, and content to
 Panels will be recorded and posted to Vimeo for archival viewing. Panels from  2018 can be found at [http://ieeevis.org/year/2018/info/panels](http://ieeevis.org/year/2018/info/panels) and from 2019 can be found at [http://ieeevis.org/year/2019/info/panels](http://ieeevis.org/year/2019/info/panels)
 
 ## IMPORTANT DATES
-<table border="1">
-  <tbody>
-    <tr>
-      <td>Monday, June 29, 2020</td>
-      <td>Proposal Submission</td>
-    </tr>
-    <tr>
-      <td>Monday, August 10, 2020</td>
-      <td>Notification</td>
-    </tr>
-    <tr>
-      <td>Monday, August 24, 2020</td>
-      <td>Final Submission of Panel Summaries and Video Fast Forwards</td>
-    </tr>
-  </tbody>
-</table>
+| Date | Activity |
+|-----------------------|---------------------|
+| Monday, June 29, 2020 | Proposal Submission |
+| Monday, August 10, 2020 | Notification |
+| Monday, August 24, 2020 | Final Submission of Panel Summaries and Video Fast Forwards |
+      
 All deadlines are at **5:00pm Pacific Time (PDT)**.
 
 ## Chairs
