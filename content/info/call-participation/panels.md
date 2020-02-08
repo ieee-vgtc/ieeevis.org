@@ -21,11 +21,13 @@ VIS Panels value diversity in perspective, opinion, and representation. The most
 
 
 ## Panel Logistics
+
 Panels are scheduled for the duration of an entire paper session; panel proposals should thus target one hour and 30 minutes total duration, including question and discussion periods. We strongly recommend that in order to keep to time, the chair of the panel is not one of the panel speakers.
 
 IEEE VIS record videos to archive panels, making them available online. Many VIS participants, as well as people who cannot attend, have found these archived panels to be a valuable part of the process. Panel organizers may choose not to have the panels made available to the public.
 
 ## Submissions
+
 Panel proposals should describe the topic to be addressed and identify the prospective panelists. Each panelist should include a position statement on the topic and a short biography, the total of which should be limited to 500 words for each panelist, up to a maximum of four pages for the whole panel. In case the panel follows up on the topic of a previously held panel, we ask the organizers to point this out and to detail the advances expected from the follow-up. 
 
 Panel organizers should also submit a short description of the panel format and schedule (max. 1 page). This should be in a separate document from the proposal itself, and should describe the order of topics to be discussed, time to be spent on panelist presentations, and mechanisms for encouraging audience participation. Based on audience feedback, the duration of panelist presentations should allow ample time for intra-panel discussion and discussions between the panel and the audience.
@@ -37,11 +39,13 @@ Submissions should be submitted via [PCS](http://new.precisionconference.com/vgt
 Feel free to address any questions concerning submission, format, and content to [panels@ieeevis.org](mailto:panels@ieeevis.org).
 
 ## Past Panels
+
 Panels will be recorded and posted to Vimeo for archival viewing. Panels from  2018 can be found at [http://ieeevis.org/year/2018/info/panels](http://ieeevis.org/year/2018/info/panels) and from 2019 can be found at [http://ieeevis.org/year/2019/info/panels](http://ieeevis.org/year/2019/info/panels)
 
 ## IMPORTANT DATES
+
 | Date | Activity |
-|-----------------------|---------------------|
+|------|----------|
 | Monday, June 29, 2020 | Proposal Submission |
 | Monday, August 10, 2020 | Notification |
 | Monday, August 24, 2020 | Final Submission of Panel Summaries and Video Fast Forwards |
@@ -50,6 +54,6 @@ All deadlines are at **5:00pm Pacific Time (PDT)**.
 
 ## Chairs
 
-Daniel Archambault, *Swansea University*
-Michael Behrisch, *Utrecht University*
+Daniel Archambault, *Swansea University* <br />
+Michael Behrisch, *Utrecht University* <br />
 Joshua A. Levine, *University of Arizona* 
