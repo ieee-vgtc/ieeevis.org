@@ -1,15 +1,22 @@
 ## Author: Alper Sarikaya
 ## Last modified: 2020-02-09 🎂
-## This script should be run only when a released is published *for the current branch*
-## This action will build the entire site from scratch, taking all commits from *other* 
-##   branches as production-ready, and only checking out this branch up to the tagged 
-##   release SHA.
+## This script should be run only when a released is published *for the current year*.
+## 
+## This action will build the entire site from scratch, taking ALL commits from *other*
+##   branches as production-ready, and only checking out the current year's branch up to
+##   the tagged release SHA.
+##
+## NOTE: only create releases on the latest branch (currently: vis2020).
+##       e.g., `git checkout {sha}`, `git tag -a v2020.1.1 -m "v2020.1.1"`, 
+##             `git push --tags`, and then create a release in GitHub from that tag.
+##             
 ##
 ## This script is based on staging.yml.  The only differences: 
 ## * the triggers are published releases, not any push to the repository
 ## * the initial checkout also gets available tags
 ## * the `release` event's tag is used to check out the current branch 
 ##   (disregarding any commits made after the release was created)
+## * the script deploys to production instead of staging
 
 ## TODO: note last step still deploys to staging; currently verifying script works...
 
@@ -20,8 +27,6 @@ on:
     # deploy production whenever someone publishes a release on the current year's branch.
     types: 
       - published
-    branch:
-      - vis2020
     
 jobs:
   build:
@@ -78,5 +83,3 @@ jobs:
       run: |
         git checkout ${{ github.event.release.tag_name }}
         make staging2020
-      
-    
