@@ -117,6 +117,10 @@
       image: /assets/supporters/DVS.png
       url: "https://www.datavisualizationsociety.com"
 
+    - name: "Adobe"
+      image: /assets/supporters/adobe.png
+      url: "https://www.adobe.com"
+
 - category: Other Donations
   supporters:
     - name: "Sophos"
