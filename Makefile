@@ -48,7 +48,7 @@ production2020: new2020
 	cd _site && ../scripts/sync_with_s3_boto.py $(2020_BRANCH) $(PRODUCTION_BUCKET)
 
 release2020: new2020
-	cd _site && ../scripts/sync_with_s3_boto.py $(2020_RELEASE) $(STAGING_BUCKET)
+	cd _site && ../scripts/sync_with_s3_boto.py $(2020_RELEASE) $(PRODUCTION_BUCKET)
 
 new: newsite
 	cd _site && ../scripts/sync_with_s3_boto.py $(NEW_BRANCH) $(NEW_BUCKET)
