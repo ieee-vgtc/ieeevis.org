@@ -105,7 +105,7 @@ except KeyError:
     exit(1)
 
 # skip verifying if this is a release triggered by a GitHub action
-if git_branch_name.endsWith("-release"):
+if git_branch_name.endswith("-release"):
     global branch_sha
     branch_sha = run_cmd_get_lines('git', 'rev-parse', 'HEAD')[0].strip()
 else:
