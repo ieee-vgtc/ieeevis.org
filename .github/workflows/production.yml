@@ -18,8 +18,6 @@
 ##   (disregarding any commits made after the release was created)
 ## * the script deploys to production instead of staging
 
-## TODO: note last step still deploys to staging; currently verifying script works...
-
 name: deploy production on release
 
 on:
@@ -82,4 +80,4 @@ jobs:
         IEEEVIS_AWS_USER: default
       run: |
         git checkout ${{ github.event.release.tag_name }}
-        make staging2020
+        make release2020

@@ -104,11 +104,16 @@ except KeyError:
     print "Instead, got %s" % str(sys.argv[1:])
     exit(1)
 
-try:
-    check_if_git_is_clean()
-except Exception, e:
-    print "Error:", str(e)
-    exit(1)
+# skip verifying if this is a release triggered by a GitHub action
+if git_branch_name.endsWith("-release"):
+    global branch_sha
+    branch_sha = run_cmd_get_lines('git', 'rev-parse', 'HEAD')[0].strip()
+else:
+    try:
+        check_if_git_is_clean()
+    except Exception, e:
+        print "Error:", str(e)
+        exit(1)
 
 session = boto3.Session(profile_name=os.environ["IEEEVIS_AWS_USER"])
 resource = session.resource('s3')

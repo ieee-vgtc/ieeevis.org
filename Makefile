@@ -6,6 +6,7 @@ PRODUCTION_BRANCH=production
 STAGING_BRANCH=master
 NEW_BRANCH=development
 2020_BRANCH=vis2020
+2020_RELEASE=vis2020-release
 
 all: site
 
@@ -45,6 +46,9 @@ productionnew: newsite
 
 production2020: new2020
 	cd _site && ../scripts/sync_with_s3_boto.py $(2020_BRANCH) $(PRODUCTION_BUCKET)
+
+release2020: new2020
+	cd _site && ../scripts/sync_with_s3_boto.py $(2020_RELEASE) $(STAGING_BUCKET)
 
 new: newsite
 	cd _site && ../scripts/sync_with_s3_boto.py $(NEW_BRANCH) $(NEW_BUCKET)
