@@ -31,7 +31,7 @@ It is **mandatory** for authors of all VIS papers to submit a [25-sec Video Prev
 Under no circumstances will updates be accepted after 11.59 PM on August 1. We have allowed for exceptions in the past but we will be strict this year.  
 
 Common editting issues: 
-* Use the correct JOURNAL style template (http://junctionpublishing.org/vgtc/Tasks/camera_tvcg.html)
+* Use the correct JOURNAL style template (http://vgtc.org/publications/journal)
 * Index terms are mandatory
 * The abstract and index term sections use an em-dash between the heading and content; there should not be a space on either side of the em-dash and the content begins on the same line as the heading.
 * Acknowledgement section—is it complete and correct?

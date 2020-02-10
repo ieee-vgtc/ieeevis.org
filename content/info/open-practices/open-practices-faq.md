@@ -62,7 +62,6 @@ Share the final preprint version of your accepted article that you create after 
 **After you receive the DOI from IEEE**, you must either add the DOI to the repository to add a link to the IEEEXplore page or include that information directly on the pdf. Depending on how you produced your document and requirements of the repository (for instance, arXiV requires TeX files to be submitted), you have two options:
 
 * If you have produced your pdf using LaTeX, you can follow the following steps:
-	- Replace your existing `vgtc.cls` file with the new `vgtc.cls` file included in the revised IEEE VIS latex template, which you can [download from here](http://junctionpublishing.org/vgtc/Track/vis-tvcg.html). Note that there are different templates for TVCG and conference papers. Also note that you should not be making any changes to the `.cls` file, you just need to replace the old `vgtc.cls` file you used with the new version.
 	- Use the `\documentclass[preprint,journal]{vgtc}` in your main TeX file
 	- Insert a `\ieeedoi` command with your DOI within the preamble of your main `TeX` file (i.e., anywhere between the `\documentclass` and `\begin{document}` commands), e.g.,`\ieeedoi{10.1109/TVCG.2019.2934609} `
 	- Compile and produce a new pdf file
