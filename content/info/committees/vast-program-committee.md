@@ -1,7 +1,7 @@
 ---
 title: VAST Program Committee
 layout: page
-permalink: /year/2019/info/committees/vast-program-committee
+permalink: /info/committees/vast-program-committee
 ---
 
 | Gennady Andrienko | *Fraunhofer IAIS* |
