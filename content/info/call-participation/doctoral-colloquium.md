@@ -33,7 +33,7 @@ Applicants to the Doctoral Colloquium should submit:
 
 Please submit [via PCS](http://new.precisionconference.com/vgtc).
 
-Formatting guidelines and LaTeX/Word templates can be found [here](http://junctionpublishing.org/vgtc/Tasks/camera.html).
+Formatting guidelines and LaTeX/Word templates can be found [here](http://vgtc.org/publications/conference).
 
 Student submissions will be peer-reviewed and selections will be made on the basis of their contribution to the colloquium goals, strength of research direction, and the advisor’s assessment. Accepted submissions will be printed for colloquium participants.
 
