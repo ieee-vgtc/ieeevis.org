@@ -3,6 +3,8 @@ title: Tutorials - Call For Participation
 layout: page
 permalink: /info/call-participation/tutorials
 contact: tutorials@ieeevis.org
+active_nav: "Contribute"
+sidebar: call-for-participation
 ---
 
 Tutorials are intended to cover a wide selection of topics related to IEEE VIS 2020 and provide background on new tools, methods, systems, and application domains necessary for research in scientific visualization, information visualization, visual analytics, and topics that span multiple of these areas. Tutorial attendees come from diverse backgrounds, including, among others: volume and flow visualization, information visualization, geographic visualization, visual analytics, high performance computing, visual data science, and scientific application communities.
