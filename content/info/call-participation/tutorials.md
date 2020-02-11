@@ -1,5 +1,5 @@
 ---
-title: tutorials
+title: Tutorials - Call For Participation
 layout: page
 permalink: /info/call-participation/tutorials
 contact: tutorials@ieeevis.org
@@ -13,7 +13,7 @@ We are soliciting half-day tutorial proposals in the areas of visualization syst
 [SciVis](/year/2020/info/call-participation/scivis-paper-types).
 Tutorials with an application focus and including hands-on demos are also encouraged. Successful proposals will receive up to 2 complimentary full week conference registrations for tutorial presenters.
 
-## DETAILS
+## Details
 
 Proposals will be evaluated on the basis of the tutorial’s fit to VIS topics and suitability for presentation in a tutorial format, the past experience and qualifications of the instructors, the overall balance in the tutorial program, and the likely attendance of the tutorial. Repeated tutorial proposals should note in which years identical or similar tutorials have been presented, and will be judged in part by the attendance of the previous versions.
 
@@ -26,14 +26,14 @@ All tutorial proposals should include:
 
 Proposals should not exceed three pages, and should be [submitted via PCS](http://new.precisionconference.com/vgtc/). Please note the [formatting guidelines](http://junctionpublishing.org/vgtc/Tasks/camera.html) when preparing your submission. Authors of accepted tutorials are required to prepare a short summary for the printed program (~50 words).
 
-## IMPORTANT DATES
+## Important Dates
 * Proposal Submission: **Thursday, April 30, 2020**
 * Notification: **Thursday, May 28, 2020**
 * Final Submission of Summaries: **Saturday, August 1, 2020**
 
 All deadlines are at **5:00pm Pacific Time (PDT)**.
 
-## CHAIRS
+## Chairs
 
 * Jessica Hullman, *Northwestern University*
 * Kresimir Matkovic, *VRVis*
