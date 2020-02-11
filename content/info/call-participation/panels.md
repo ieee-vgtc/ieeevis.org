@@ -5,6 +5,8 @@ sidebar: call-for-participation
 permalink: /info/call-participation/panels
 active_nav: "Contribute"
 contact: panels@ieeevis.org
+active_nav: "Contribute"
+sidebar: call-for-participation
 ---
 
 IEEE VIS 2020 Panels should address important and/or controversial applications and issues in visualization and its subfields today. In particular, we invite panels that:

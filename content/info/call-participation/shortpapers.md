@@ -5,6 +5,8 @@ permalink: /info/call-participation/shortpapers
 active_nav: "Contribute"
 sidebar: call-for-participation
 contact: vis_shortpapers@ieeevis.org
+active_nav: "Contribute"
+sidebar: call-for-participation
 ---
 
 IEEE Vis 2020 solicits submissions in a short paper format. Short papers draw from the same paper types and topics as full papers of VAST, Infovis and Scivis, ranging from theoretical to applied research contributions. 
