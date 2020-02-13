@@ -7,15 +7,63 @@ sidebar: call-for-participation
 contact: papers@ieeevis.org
 ---
 
-At VIS 2019, the VEC and the V-I-S Steering Committees adopted a proposal by the reVISe committee to replace the current PCS keywords with a new set of keywords to improve the reviewing process. 
+At VIS 2019, the VEC and the V-I-S Steering Committees adopted a proposal by the reVISe committee to replace the current PCS keywords with a new set of keywords to improve the reviewing process. The motivation for this change, as well as a preliminary brief overview of the new keywords can be found in the reVISe Amended Proposal.
 
-The motivation for this change, as well as a preliminary brief overview of the new keywords can be found in the reVISe Amended Proposal.
+## Contents
 
-An more comprehensive explanatory set of pages is currently under preparation. Please check back when the PCS submissions open.
+- [Summary](#summary)
+- [History](#history)
+- [Keyword Use](#keyword-use)
+- [Keywords](#keywords)
+- [Example Papers](#example-papers)
 
-The following are the categories of keywords and their descriptions:
+## Summary
 
-## Data Types and Their Use in Visualization and Visual Analytics
+* Starting in 2020 IEEE VIS will use a new set of keywords in the submission process
+* Keywords are meant to support matching of papers to reviewers
+* Authors should use keywords differently than in previous years:
+    * Authors **should** check keywords to **indicate expertise** required to review their submitted paper.
+    * They **should NOT** check all keywords necessary to describe the content of their submitted paper.
+* Reviewers use the keywords to rate their expertise, as in the years before.
+
+
+## Keyword Use
+
+Keywords in the paper submission and review system (PCS) are meant to help match papers to the most appropriate reviewers. Without going into the technical detail, there is an algorithm that tries to suggest reviewers for papers based on the expertise reviewers provided for keywords and based on the keywords selected for each paper. Below we give advice on how keywords should be used by authors and reviewers to ensure the best matches.
+
+### For authors
+
+When submitting a paper in the submission system, the corresponding author will have to select keywords to describe the expertise required to review their paper. Note that this is a change from the keyword usage in previous years where authors were asked to describe the content of their paper. Instead now, authors should imagine that the list of keywords is preceded by the following phrase:
+
+*“A reviewer judging my work should have expertise related to…”*
+
+Authors can choose **any number of keywords** to define required expertise. Keywords can also be combined to describe a specific required expertise (see examples below).
+
+Authors can also provide **additional keywords** in using the available text fields. These additional keywords cannot be taken into account to recommend a paper automatically to potential reviewers with the selected expertise but they might be used during manual assignments and will be used to collect data for future iterations on the keyword set. 
+
+For junior authors we strongly suggest consulting with their advisor about the most appropriate keywords to choose.
+
+### For reviewers
+
+A reviewer should imagine preceding each keyword by the phrase:
+
+ *“I have the following level of expertise related to…”*
+
+and then **for each keyword** select an expertise rating among four options:
+
+* **None:** I have not published on or read enough papers related to the keyword to feel comfortable giving advice as a reviewer.
+* **Limited:** I have limited experience and knowledge related to the keyword. I can give some advice as a reviewer but not about specific details.
+* **Competent:** I feel competent to give input as a reviewer on at least some topics covered by this keyword. I understand and can discuss topics related to this keyword.
+* **Expert:** I am an expert in topics covered by this keyword. I can provide guidance, troubleshoot and answer questions related to this keyword or contexts where it is used.
+
+Reviewers can also specify **additional expertise keywords** in provided text fields. These additional keywords cannot be taken into account by the paper-matching algorithm and, therefore, will not be used to automatically recommend papers to a reviewer but paper chairs and PC members might take them into account for manual assignments from papers to reviewers and they will be used to collect data on future iterations of the keyword set. 
+
+
+## Keywords
+
+Following is the complete list of keywords with a description for each keyword:
+
+### Data Types and Their Use in Visualization and Visual Analytics
 * **Geospatial Data** (Geospatial): data with geospatial (lat/lon) locations or trajectories
 * **Graph/Network and Tree Data** (Network): data with network (node/link) or tree/hierarchy structure
 * **High-dimensional Data** (HD): data with a large number of dimension columns (features/attributes) that requires extra effort to process
@@ -29,8 +77,8 @@ The following are the categories of keywords and their descriptions:
 * **Other Data** (OtherData): a data type that does not reasonably fit into any other category
 * **DataType Agnostic** (NAData):	no special expertise on data types is required for my paper
 
-## Intended Contributions to Visualization and Visual Analytics
-### General Contributions
+### Intended Contributions to Visualization and Visual Analytics
+#### General Contributions
 *	**Algorithms** (Algorithm): the design or implementation of data analysis/visualization algorithms
 *	**Data Abstractions and Types** (DataAbstr): the process of reducing a particular body of data to a simplified representation and/or improvements or new uses of datasets/-types
 *	**Datasets** (Datasets): contributing new datasets for benchmarking or understanding techniques / the field itself
@@ -47,12 +95,13 @@ Systems	Software Architecture, Toolkit/Library, Language	...designing/implementi
 *	**Taxonomy, Models, Frameworks, Theory** (Theory): deriving systematic characterizations of a particular space (e.g. design space, taxonomy of techniques), novel abstractions of concepts, discussions of formalisms
 *	**Visual Representation Design** (VisDesign): designing data visualization / visual representations and/or practices/processes of visualization design
 *	**Other Contribution** (OtherContrib): a contribution type that does not reasonabily fit in any other category
-### Evaluation Contributions
+
+#### Evaluation Contributions
 *	**Computational Benchmark Studies** (CompBenchmark): design/conducting/analysis of computational benchmark studies that for example compare performance results from running implemented techniques/algorithms
 *	**Human-Subjects Qualitative Studies** (HumanQual): design/conducting/analysis of qualitative empirical studies involving human participants
 *	**Human-Subjects Quantitative Studies** (HumanQuant):	design/conducting/analysis of quantitative empirical studies involving human participants
 
-## Application Areas for Visualization and Visual Analytics 
+### Application Areas for Visualization and Visual Analytics 
 *	**Computing: Software, Networks, Security, Performance Engr., Distr. Systems, Databases** (CompSystems):	applications to the general computing domain incl. software, networks, security, databases, visualization (Vis4Vis) etc.
 *	**Life Sciences, Health, Medicine, Biology, Bioinformatics, Genomics** (LifeBio):	applications to the life sciences: incl. medicine, biology, bioinformatics, genomics, health informatics, or others
 *	**Machine Learning, Statistics, Modelling, and Simulation Applications** (MLStatsModel):	applications to machine learning, statistics, modelling, or simulation applications (note: find ML for VIS under "Techniques" below)
@@ -61,8 +110,8 @@ Systems	Software Architecture, Toolkit/Library, Language	...designing/implementi
 *	**Other Application Areas** (OtherApp):	applications to an application area that does not reasonably fit in any other category
 *	**Domain Agnostic** (NAApp):	no special expertise on application areas is required for my paper
 
-## Visualization and Visual Analytics Related Topics and Techniques
-### Human Factors
+### Visualization and Visual Analytics Related Topics and Techniques
+#### Human Factors
 *	**Collaboration** (Collab):	collaborative data analysis, collaborative workflows, and theories of collaboration
 *	**Color** (Color):	the use of color in visualization
 *	**Communication/Presentation, Storytelling** (Storytelling):	using visualization to communicate or present a narrative or story from data
@@ -71,7 +120,8 @@ Systems	Software Architecture, Toolkit/Library, Language	...designing/implementi
 *	**Mixed Initiative Human-Machine Analysis** (MixedInit):	balancing computational and human effort for data analysis
 *	**Perception & Cognition** (Perception):	perception and cognition
 *	**Personal Visualization, Personal Visual Analytics** (PersonalVis):	design of interactive visual representations for use in a personal context; analytical reasoning by visual representations for use in a personal context
-### Stats & Math, Machine Learning, Data Management Methods & Algorithms
+
+#### Stats & Math, Machine Learning, Data Management Methods & Algorithms
 *	**Data Clustering and Aggregation** (ClusterAgg):	algorithmic and visualization approaches for aggregating or clustering data
 *	**Data Management, Processing, Wrangling** (DataMgmt):	steps for cleaning, processing, and managing data
 *	**Dimensionality Reduction** (DimRed):	the use of / techniques for reducing the number of variables under consideration
@@ -79,12 +129,14 @@ Systems	Software Architecture, Toolkit/Library, Language	...designing/implementi
 *	**Large-Scale Data Techniques** (BigData):	techniques specific to handling large amounts of data
 *	**Machine Learning Techniques** (ML):	the use of machine learning in visualization / visual analytics
 *	**Mathematical Foundations & Numerical Methods** (Math):	mathematical foundations and numerical methods and their use
-### Spatial Field Methods & Algorithms
+
+#### Spatial Field Methods & Algorithms
 *	**Computational Topology-based Techniques** (CompTop):	computational topology and/or topological abstractions and their use
 *	**Isosurface Techniques** (Isosurfaces):	extraction and use of isosurfaces and generalizations
 *	**Vector, Tensor & Flow Visualization** (Flow):	techniques for vector fields, tensor flow, tractography, and fluid mechanics
 *	**Volume Rendering** (Volumes):	rendering techniques and algorithms for direct visualization of volumetric data
-### General Visualization Methods
+
+#### General Visualization Methods
 *	**Animation and Motion-related Techniques** (Motion): methods using animation or other forms for the display of motion
 *	**Art & Graphic Design** (Art):	data art, art practice, art-science collaboration, graphic design practice, ...
 *	**Cartography, Maps** (Maps):	design and use of maps and mapping technology
