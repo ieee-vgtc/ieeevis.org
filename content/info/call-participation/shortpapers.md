@@ -43,5 +43,6 @@ All deadlines are at **5:00pm Pacific Time (PDT)**.
 * Wenwen Dou, *University of North Carolina at Charlotte, USA*
 * Alexander Lex, *University of Utah, USA* 
 * Timo Ropinski, *Ulm University, Germany*
+
 Email: [vis_shortpapers@ieeevis.org](mailto:vis_shortpapers@ieeevis.org)
 
