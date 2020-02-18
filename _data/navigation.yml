@@ -276,9 +276,11 @@ menu:
                   - text: "Twitter"
                     url: "https://twitter.com/ieeevis"
                     is_external: true
-#          - heading: "Doctoral Colloquium"
-#            heading_url: "/year/2020/info/doctoral-colloquium"
-#            description: "Discuss in-progress Ph.D work with leading senior researchers"
+          - heading: "Doctoral Colloquium"
+            # temporarly using the cfp page for DC here, TODO change later with the actual event information
+            heading_url: "/year/2020/info/call-participation/doctoral-colloquium"
+            #heading_url: "/year/2020/info/doctoral-colloquium"
+            description: "Discuss in-progress Ph.D work with leading senior researchers"
 
   - dropdown: "Organization & History"
     display: true
