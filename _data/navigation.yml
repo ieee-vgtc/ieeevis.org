@@ -354,8 +354,8 @@ menu:
               links:
                 - text: "VIS Conference Committees (coming soon)"
 #                  url: "/year/2020/info/committees/conference-committee"
-                - text: "Program Committees (coming soon)"
-#                  url: "/year/2020/info/committees/program-committees"
+                - text: "Program Committees"
+                  url: "/year/2020/info/committees/program-committees"
                 - text: "Steering Committees  (coming soon)"
 #                  url: "/year/2020/info/committees/steering-committees"
                 - text: "VIS Executive Committee (coming soon)"
