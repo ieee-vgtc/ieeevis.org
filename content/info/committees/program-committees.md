@@ -148,7 +148,7 @@ Contact: vast_papers@ieeevis.org
 | Kevin Verbeek | *Eindhoven University of Technology, Netherlands* |
 | Romain Vuillemot | *Ecole Centrale de Lyon, France* |
 | Manuela Waldner | *Vienna University of Technology, Austria* |
-| Jagoda Walny | *University of Calgary, Canada* |
+| Jagoda Walny | *Canada Energy Regulator, Canada* |
 | Yunhai Wang | *Shandong University, China* |
 | Chris Weaver | *University of Oklahoma, USA* |
 | Wesley Willett | *University of Calgary, Canada* |
