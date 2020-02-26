@@ -168,7 +168,7 @@ Contact: infovis_papers@ieeevis.org
 | Harsh Bhatia | *Lawrence Livermore National Laboratory, USA* |
 | Peer-Timo Bremer | *Lawrence Livermore National Laboratory, USA* |
 | Stefan Bruckner | *University of Bergen, Norway* |
-| Roxana Bujack | *Lawrence Livermore National Laboratory, USA* |
+| Roxana Bujack | *Los Alamos National Laboratory, USA* |
 | Hamish Carr | *University of Leeds, United Kingdom* |
 | Guoning Chen | *University of Houston, USA* |
 | Hank Childs | *University of Oregon, USA* |
@@ -187,7 +187,7 @@ Contact: infovis_papers@ieeevis.org
 | Christopher G. Healey | *North Carolina State University, USA* |
 | Hans-Christian Hege | *Zuse Institute Berlin, Germany* |
 | Ingrid Hotz | *Linköping University, Sweden* |
-| Jing Hua | *Wayne State Universitym USA* |
+| Jing Hua | *Wayne State University, USA* |
 | Jian Huang | *University of Tennessee Knoxville, USA* |
 | Tobias Isenberg | *INRIA, France* |
 | Andrew Johnson | *University of Illinois Chicago, USA* |
@@ -200,16 +200,16 @@ Contact: infovis_papers@ieeevis.org
 | Patric Ljung | *Linköping University, Sweden* |
 | Claes Lundström | *Linköping University, Sweden* |
 | Kwan-Liu Ma | *University of California, Davis, USA* |
-| G. Elisabeta Marai | *Univeristy of Illinois, Chicago, USA* |
+| G. Elisabeta Marai | *University of Illinois, Chicago, USA* |
 | Kenneth Moreland | *Sandia National Laboratories, USA* |
 | Paul Navratil | *Texas Advanced Computing Center, USA* |
 | Steffen Oeltze-Jafra | *University of Magdeburg, Germany* |
 | Renato Pajarola | *University of Zurich, Switzerland* |
 | Alex Pang | *University of California, Santa Cruz, USA* |
 | Voicu Popescu | *Purdue University, USA* |
-| Kristi Potter | *University of Oregon, USA* |
+| Kristi Potter | *National Renewable Energy Laboratory, USA* |
 | Bernhard Preim | *University Magdeburg, Germany* |
-| David Pugmire | *ORNL, USA* |
+| David Pugmire | *Oak Ridge National Laboratory, USA* |
 | Timo Ropinski | *Ulm University, Germany* |
 | Paul Rosenthal | *University of Rostock, Germany* |
 | Oliver Rübel | *Lawrence Berkeley National Laboratory, USA* |
