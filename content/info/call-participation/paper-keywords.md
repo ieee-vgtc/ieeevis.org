@@ -150,3 +150,18 @@ Systems	Software Architecture, Toolkit/Library, Language	...designing/implementi
 *	**Specific Computing and Rendering Hardware** (Hardware):	how to use specific computing or rendering hardware for visualization (CPU/GPU clusters, etc)
 *	**Uncertainty Visualization** (Uncertainty):	visually communicating uncertainty (of data, models, algorithmic results, or the visualization process)
 * **OtherTopic**: a visualization/visual analytics related topic/technique that does not reasonably fit in any category above
+
+## Example Papers
+The following example papers show how previously published VAST, InfoVis, and SciVis papers can be described using the keywords above.
+
+| Conference | Title | Citation count on IEEEXplore | Link | Paper Type | Keyword 1 | Keyword 2 | Keyword 3 | Keyword 4+ |
+|------------|-----------------------------------------------------------------------------------------------------|------------------------------|---------------------------------------------|----------------------------|--------------|-----------------|---------------|-------------|
+| InfoVis | D³ Data-Driven Documents | 922 | http://dx.doi.org/10.1109/TVCG.2011.185 | System | Software | Systems | Charts |  |
+| InfoVis | UpSet: Visualization of Intersecting Sets | 328 | http://dx.doi.org/10.1109/TVCG.2014.2346248 | Technique | VisDesign | OtherData: Sets | Tabular |  |
+| InfoVis | Narrative Visualization: Telling Stories with Data | 252 | http://dx.doi.org/10.1109/TVCG.2010.179 | Theory | Storytelling | Theory |  |  |
+| SciVis | A Systematic Review on the Practice of Evaluating Visualization | 101 | http://dx.doi.org/10.1109/TVCG.2013.126 | Empirical Studies | HumanQuant | HumanQual | STAR |  |
+| SciVis | Fixed-Rate Compressed Floating-Point Arrays | 95 | http://dx.doi.org/10.1109/TVCG.2014.2346458 | Technique | Algorithm | Systems | CompBenchmark | DataMgmt |
+| SciVis | Contour Boxplots: A Method for Characterizing Uncertainty in Feature Sets from Simulation Ensembles | 86 | http://dx.doi.org/10.1109/TVCG.2013.143 | Technique | Scalar | DataAbstr | Isosurfaces | Uncertainty |
+| VAST | Visual Exploration of Big Spatio-Temporal Urban Data: A Study of New York City Taxi Trips | 220 | http://dx.doi.org/10.1109/TVCG.2013.226 | Application / Design Study | Geospatial | Time | Application |  |
+| VAST | SensePlace2: GeoTwitter analytics support for situational awareness | 141 | http://dx.doi.org/10.1109/VAST.2011.6102456 | Application / Design Study | Text | Geospatial | SocHum | Application |
+| VAST | Enterprise Data Analysis and Visualization: An Interview Study | 105 | http://dx.doi.org/10.1109/TVCG.2012.219 | Empirical Study | HumanQual | SocHum |  |  |
