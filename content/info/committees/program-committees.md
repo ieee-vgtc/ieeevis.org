@@ -87,7 +87,7 @@ Contact: vast_papers@ieeevis.org
 | Benjamin Bach | *University of Edinburgh, UK* |
 | Lyn Bartram | *Simon Fraser University, Canada* |
 | Enrico Bertini | *New York University, USA* |
-| Nadia Boukhelifa | *INRIA, France* |
+| Nadia Boukhelifa | *INRAE, France* |
 | Jeremy Boy | *UN Global Pulse, USA* |
 | Ulrik Brandes | *ETH Zürich, Switzerland* |
 | Michael Burch | *Eindhoven University of Technology, Netherlands* |
@@ -123,7 +123,7 @@ Contact: vast_papers@ieeevis.org
 | Shixia Liu | *Tsinghua University, China* |
 | Kwan-Liu Ma | *University of California Davis, USA* |
 | Wouter Meulemans | *Eindhoven University of Technology, Netherlands* |
-| Rosane Minghim | *University of São Paulo, Brazil* |
+| Rosane Minghim | *University College Cork, Ireland* |
 | Dominik Moritz | *Carnegie Mellon University, USA* |
 | Tamara Munzner | *University of British Columbia, Canada* |
 | Stephen North | *Infovisible, USA* |
