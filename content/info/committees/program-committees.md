@@ -163,7 +163,7 @@ Contact: infovis_papers@ieeevis.org
 
 ## SciVis Program Committee
 
-| Marco Agus | *Center for Advanced Studies, Research, and Development in Sardinia, Italy* |
+| Marco Agus | *Hamad Bin Khalifa University, Qatar* |
 | Johanna Beyer | *Harvard University, USA* |
 | Harsh Bhatia | *Lawrence Livermore National Laboratory, USA* |
 | Peer-Timo Bremer | *Lawrence Livermore National Laboratory, USA* |
@@ -188,9 +188,9 @@ Contact: infovis_papers@ieeevis.org
 | Hans-Christian Hege | *Zuse Institute Berlin, Germany* |
 | Ingrid Hotz | *Linköping University, Sweden* |
 | Jing Hua | *Wayne State University, USA* |
-| Jian Huang | *University of Tennessee Knoxville, USA* |
+| Jian Huang | *University of Tennessee, Knoxville, USA* |
 | Tobias Isenberg | *INRIA, France* |
-| Andrew Johnson | *University of Illinois Chicago, USA* |
+| Andrew Johnson | *University of Illinois, Chicago, USA* |
 | Barbora Kozlikova | *Masaryk University, Czech Republic* |
 | Michael Krone | *University of Tübingen, Germany* |
 | Jens Krüger | *University of Duisburg-Essen, Germany* |
@@ -208,7 +208,7 @@ Contact: infovis_papers@ieeevis.org
 | Alex Pang | *University of California, Santa Cruz, USA* |
 | Voicu Popescu | *Purdue University, USA* |
 | Kristi Potter | *National Renewable Energy Laboratory, USA* |
-| Bernhard Preim | *University Magdeburg, Germany* |
+| Bernhard Preim | *University of Magdeburg, Germany* |
 | David Pugmire | *Oak Ridge National Laboratory, USA* |
 | Timo Ropinski | *Ulm University, Germany* |
 | Paul Rosenthal | *University of Rostock, Germany* |
@@ -216,15 +216,15 @@ Contact: infovis_papers@ieeevis.org
 | Filip Sadlo | *Heidelberg University, Germany* |
 | Carlos Scheidegger | *University of Arizona, USA* |
 | Gerik Scheuermann | *Universität Leipzig, Germany* |
-| Jens Schneider | *Hamad Bin Khalifa University, Quatar* |
+| Jens Schneider | *Hamad Bin Khalifa University, Qatar* |
 | Thomas Schultz | *University of Bonn, Germany* |
 | Han-Wei Shen | *The Ohio State University, USA* |
 | Claudio Silva | *New York University, USA* |
 | Brian Summa | *Tulane University, USA* |
-| Holger Theisel | *Magdeburg University, Germany* |
+| Holger Theisel | *University of Magdeburg, Germany* |
 | Xavier Tricoche | *Purdue University, USA* |
 | Ivan Viola | *King Abdullah University of Science and Technology, Saudi-Arabia* |
-| Huy Vo | *New York University, USA* |
+| Huy Vo | *CUNY City College, USA* |
 | Chaoli Wang | *University of Notre Dame, USA* |
 | Gunther Weber | *Lawrence Berkeley National Laboratory, USA* |
 | Tino Weinkauf | *KTH Royal Institute of Technology, Sweden* |
