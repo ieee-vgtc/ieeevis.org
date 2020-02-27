@@ -131,7 +131,7 @@ Contact: vast_papers@ieeevis.org
 | Hanspeter Pfister | *Harvard University, USA* |
 | Jorge Poco | *Getulio Vargas Foundation, Brazil* |
 | Donghao Ren | *Apple, USA* |
-| Panagiotis Ristsos | *Bangor University, UK* |
+| Panagiotis Ritsos | *Bangor University, UK* |
 | Paul Rosen | *University of South Florida, USA* |
 | Alper Sarikaya | *Microsoft, USA* |
 | Arvind Satyanarayan | *Massachusetts Institute of Technology, USA* |
@@ -141,7 +141,7 @@ Contact: vast_papers@ieeevis.org
 | Vidya Setlur | *Tableau Research, USA* |
 | Conglei Shi | *Airbnb, USA* |
 | Aidan Slingsby | *City, University of London, UK* |
-| Alexandru Telea | *University of Groningen, Netherlands* |
+| Alexandru Telea | *Utrecht University, Netherlands* |
 | Christian Tominski | *University of Rostock, Germany* |
 | Frank van Ham | *IBM, Netherlands* |
 | Andrew Vande Moere | *KU Leuven, Belgium* |
