@@ -189,7 +189,7 @@ Contact: infovis_papers@ieeevis.org
 | Ingrid Hotz | *Linköping University, Sweden* |
 | Jing Hua | *Wayne State University, USA* |
 | Jian Huang | *University of Tennessee, Knoxville, USA* |
-| Tobias Isenberg | *INRIA, France* |
+| Tobias Isenberg | *Inria, France* |
 | Andrew Johnson | *University of Illinois, Chicago, USA* |
 | Barbora Kozlikova | *Masaryk University, Czech Republic* |
 | Michael Krone | *University of Tübingen, Germany* |
