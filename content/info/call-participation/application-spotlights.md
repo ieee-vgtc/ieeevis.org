@@ -39,6 +39,9 @@ Upon acceptance, we will ask organizers to submit their final spotlight informat
 This information will be published on ieeevis.org.
 During the time leading up to the conference, there will be regular check-ins by the spotlight co-chairs to provide support to organizers while they are setting up their spotlights.
 
+Feel free to contact us at [spotlights@ieeevis.org](mailto:spotlights@ieeevis.org) if you have any questions concerning submission, format, and content of your application spotlight.
+
+
 ## IMPORTANT DATES
 
 | Date | Activity |
