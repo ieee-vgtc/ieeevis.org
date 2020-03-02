@@ -91,7 +91,7 @@ Contact: vast_papers@ieeevis.org
 | Jeremy Boy | *UN Global Pulse, USA* |
 | Ulrik Brandes | *ETH Zürich, Switzerland* |
 | Michael Burch | *Eindhoven University of Technology, Netherlands* |
-| Zoya Bylinskii | *Adobe, UK* |
+| Zoya Bylinskii | *Adobe, USA* |
 | Nan Cao | *Tongji College of Design and Innovation, China* |
 | Maxime Cordeil | *Monash University, Australia* |
 | Michael Correll | *Tableau Research, USA* |
