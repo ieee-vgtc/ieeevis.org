@@ -21,8 +21,17 @@ main {
     margin-top: 70px; /* Push down to compensate for fixed nav*/
 }
 
-    @screen md {
-        main {
-            margin-top: 0;
-        }
+@screen md {
+    main {
+        margin-top: 0;
     }
+}
+
+.home-alert{
+    margin-left: auto;
+    position: relative;
+    width: 50%;
+    margin-top: 2.5rem;
+    float: right;
+    z-index: 99;
+}

@@ -1,4 +1,9 @@
+
+{% if include.layout == "home" %}
+<div class="md:flex items-center mb-4 px-6 py-4 border border-primary border-l-8 rounded-sm home-alert">
+{% else %}
 <div class="md:flex items-center mb-4 px-6 py-4 border border-primary border-l-8 rounded-sm bg-primary-100">
+{% endif %}
     <div class="mb-4 md:mb-0 md:mr-4">
         <p class="heading-base mb-0">{{ include.title }}</p>
         <p class="text-primary mb-0">{{ include.description }}</p>
