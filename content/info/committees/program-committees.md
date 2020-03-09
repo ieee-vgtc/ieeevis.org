@@ -88,7 +88,7 @@ Contact: vast_papers@ieeevis.org
 | Lyn Bartram | *Simon Fraser University, Canada* |
 | Enrico Bertini | *New York University, USA* |
 | Nadia Boukhelifa | *INRAE, France* |
-| Jeremy Boy | *UN Global Pulse, USA* |
+| Jeremy Boy | *UNDP Accelerator Lab Network, USA* |
 | Ulrik Brandes | *ETH Zürich, Switzerland* |
 | Michael Burch | *Eindhoven University of Technology, Netherlands* |
 | Zoya Bylinskii | *Adobe, USA* |
