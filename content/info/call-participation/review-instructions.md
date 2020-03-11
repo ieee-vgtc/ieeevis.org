@@ -6,7 +6,7 @@ contact: papers@ieeevis.org
 sidebar: call-for-participation
 ---
 
-The success of the IEEE VIS 2020 papers program relies on a knowledgeable, experienced, and ethical community of reviewers. IEEE VIS 2020 employs a two-phase, [(author-optional) double-blind review](#http://ieeevis.org/year/2020/info/call-participation/paper-submission-guidelines#important-submission-requirements) process that follows the review process for IEEE TVCG, the journal in which most IEEE VIS full papers are published. All papers are reviewed by at least 4 reviewers, at least 2 of which are IPC members and at least 2 of which are external members of the community. All reviewers are bound to the [ethics guidelines of the IEEE VGTC](#http://vgtc.org/about-us/conferences/ethics-guidelines).
+The success of the IEEE VIS 2020 papers program relies on a knowledgeable, experienced, and ethical community of reviewers. IEEE VIS 2020 employs a two-phase, [(author-optional) double-blind review](http://ieeevis.org/year/2020/info/call-participation/paper-submission-guidelines#important-submission-requirements) process that follows the review process for IEEE TVCG, the journal in which most IEEE VIS full papers are published. All papers are reviewed by at least 4 reviewers, at least 2 of which are IPC members and at least 2 of which are external members of the community. All reviewers are bound to the [ethics guidelines of the IEEE VGTC](http://vgtc.org/about-us/conferences/ethics-guidelines).
 
 This page provides detailed instructions for both IPC reviewers and external reviewers.
 
@@ -31,9 +31,9 @@ This page provides detailed instructions for both IPC reviewers and external rev
 ## Keywords Update
 **By March 21**
 
-At VIS 2019, the VEC and the V-I-S Steering Committees adopted a proposal by the reVISe committee to replace the current PCS keywords with a new set of keywords to improve the reviewing process. **You will need to update your expertise in PCS with these new keywords.** Please read through the [summary of the new keywords](#http://ieeevis.org/year/2020/info/call-participation/paper-keywords), which includes instructions for reviewers on how to select for expertise.
+At VIS 2019, the VEC and the V-I-S Steering Committees adopted a proposal by the reVISe committee to replace the current PCS keywords with a new set of keywords to improve the reviewing process. **You will need to update your expertise in PCS with these new keywords.** Please read through the [summary of the new keywords](http://ieeevis.org/year/2020/info/call-participation/paper-keywords), which includes instructions for reviewers on how to select for expertise.
 
-1. Log onto the [PCS system](#https://new.precisionconference.com/).
+1. Log onto the [PCS system](https://new.precisionconference.com/).
 
 2. Go to the Reviews tab.
 
@@ -49,7 +49,7 @@ At VIS 2019, the VEC and the V-I-S Steering Committees adopted a proposal by the
 
 If you have not yet updated your keywords then see the [Keywords Update](#Keywords Update) phase above.
 
-1. Log onto the [PCS system](#https://new.precisionconference.com/).
+1. Log onto the [PCS system](https://new.precisionconference.com/).
 
 2. Go to the Reviews tab.
 
@@ -57,7 +57,7 @@ If you have not yet updated your keywords then see the [Keywords Update](#Keywor
 
 4. Click on "Conflicts".
 
-5. Click the checkbox beside each author with whom you are in conflict.  The checkbox will flash green to indicate that your conflict has been recorded.  There is no submit button on this page.  You can type an institution name in the "Search" box in the upper-right corner to show people from a particular institution.  For guidance on reviewer conflicts-of-interest please see the [IEEE VGTC ethics guidelines for reviewers](#http://vgtc.org/about_us/conferences/ethics-guidelines).
+5. Click the checkbox beside each author with whom you are in conflict.  The checkbox will flash green to indicate that your conflict has been recorded.  There is no submit button on this page.  You can type an institution name in the "Search" box in the upper-right corner to show people from a particular institution.  For guidance on reviewer conflicts-of-interest please see the [IEEE VGTC ethics guidelines for reviewers](http://vgtc.org/about_us/conferences/ethics-guidelines).
 
 6. Click on the VAST/InfoVis/SciVis tab under the Reviews tab to return to your main reviewing page.
 
@@ -76,7 +76,7 @@ Please do not hesitate to add new, qualified reviewers that are not already in t
 
 Follow up with the external reviewer and ensure that they accept the invitation. If they decline or do not respond in a timely manner, please find a replacement as soon as possible.
 
-Do not ask other IPC members from any of the three tracks (VAST, InfoVis, SciVis) to be external reviewers. The full IPC list can be found on the [conference website](#http://ieeevis.org/year/2020/info/committees/program-committees). (Note that they are also marked as "cmte" on the review assignment screen in PCS.)
+Do not ask other IPC members from any of the three tracks (VAST, InfoVis, SciVis) to be external reviewers. The full IPC list can be found on the [conference website](http://ieeevis.org/year/2020/info/committees/program-committees). (Note that they are also marked as "cmte" on the review assignment screen in PCS.)
 
 ## First Round Reviewing
 **April 3 thru May 8**
@@ -143,9 +143,9 @@ For each of the papers for which you are the primary reviewer and that has recei
 ## Keywords Update
 **By March 21**
 
-At VIS 2019, the VEC and the V-I-S Steering Committees adopted a proposal by the reVISe committee to replace the current PCS keywords with a new set of keywords to improve the reviewing process. **You will need to update your expertise in PCS with these new keywords.** Please read through the [summary of the new keywords](#http://ieeevis.org/year/2020/info/call-participation/paper-keywords), which includes instructions for reviewers on how to select for expertise.
+At VIS 2019, the VEC and the V-I-S Steering Committees adopted a proposal by the reVISe committee to replace the current PCS keywords with a new set of keywords to improve the reviewing process. **You will need to update your expertise in PCS with these new keywords.** Please read through the [summary of the new keywords](http://ieeevis.org/year/2020/info/call-participation/paper-keywords), which includes instructions for reviewers on how to select for expertise.
 
-1. Log onto the [PCS system](#https://new.precisionconference.com/).
+1. Log onto the [PCS system](https://new.precisionconference.com/).
 
 2. Go to the Reviews tab.
 
@@ -181,7 +181,7 @@ All reviewers should make sure to follow the basic principles outlined below. As
 * Find reasons to accept papers: have an open-mind or at least disclose your biases. It is easier to find reasons to reject papers than to point out the contributions that they bring to the community. Emphasize positive aspects to help surface impactful research to the community.
 * Be tactful and polite: emotional rants or sarcastic comments have no place in a professional review. Ask yourself if you could read your review aloud in front of an audience including the authors.
 
-Additionally, all reviewers are bound to the [ethics guidelines of the IEEE VGTC](#http://vgtc.org/about-us/conferences/ethics-guidelines). Please make sure you are familiar with these guidelines.
+Additionally, all reviewers are bound to the [ethics guidelines of the IEEE VGTC](http://vgtc.org/about-us/conferences/ethics-guidelines). Please make sure you are familiar with these guidelines.
 
 ## What is a minor revision?
 All IEEE VIS acceptances are conditional after the first round of reviewing, after which authors will be asked to perform a minor revision on the paper. While a select few papers do not require any changes at all, this is very rare. In other words, reviewing in the first round becomes one of deciding which papers will be acceptable for publication after a minor revision. No paper is perfect; rather, your job is to identify the work that will have a significant contribution to visualization after the authors get a period of four weeks to address reviewer comments.
