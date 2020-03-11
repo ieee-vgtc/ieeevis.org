@@ -10,20 +10,27 @@ The success of the IEEE VIS 2020 papers program relies on a knowledgeable, exper
 
 This page provides detailed instructions for both IPC reviewers and external reviewers.
 
-[IPC Reviewing Instructions](#IPC Reviewing Instructions)
-[Keywords Update, by March 21](#Keywords Update)
-[Bidding, March 22 thru March 31](#Bidding)
-[Assigning External Reviewers, April 3 thru April 10](#Assigning External Reviewers)
-[First Round Reviewing, April 3 thru May 8](#First Round Reviewing)
-[Discussion, May 9 thru May 15](#Discussion)
-[First Round Decisions, May 15 thru May 30](#First Round Decisions)
-[Shepherding, June 6 thru July 1](#Shepherding)
-[Second Round Reviewing, July 1 thru July 8](#Second Round Reviewing)
-[External Reviewing Instructions](#External Reviewing Instructions)
-[Keywords Update, by April 3](#Keywords Update 1)
-[Reviewing, April 3 thru May 8](#Reviewing)
-[Discussion, May 9 thru May 15[(#Discussion 1)
-[Additional Reviewing Guidance](#Additional Reviewing Guidance)
+## Contents
+
+- [IPC Reviewing Instructions](#IPC Reviewing Instructions)
+  - [Keywords Update, by March 21](#Keywords Update)
+  - [Bidding, March 22 thru March 31](#Bidding)
+  - [Assigning External Reviewers, April 3 thru April 10](#Assigning External Reviewers)
+  - [First Round Reviewing, April 3 thru May 8](#First Round Reviewing)
+  - [Discussion, May 9 thru May 15](#Discussion)
+  - [First Round Decisions, May 15 thru May 30](#First Round Decisions)
+  - [Shepherding, June 6 thru July 1](#Shepherding)
+  - [Second Round Reviewing, July 1 thru July 8](#Second Round Reviewing)
+- [External Reviewing Instructions](#External Reviewing Instructions)
+  - [Keywords Update, by April 3](#Keywords Update 1)
+  - [Reviewing, April 3 thru May 8](#Reviewing)
+  - [Discussion, May 9 thru May 15](#Discussion 1)
+- [Additional Reviewing Guidance](#Additional Reviewing Guidance)
+  - [Paper Quality](#Paper Quality)
+  - [Reviewing Ethics](#Reviewing Ethics)
+  - [What is a minor revision?](#What is a minor revision?)
+  - [Managing Resubmission Materials](#Managing Resubmission Materials)
+  - [Assigning Scores, Requesting Revisions](#Assigning Scores, Requesting Revisions)
 
 
 # IPC Reviewing Instructions
