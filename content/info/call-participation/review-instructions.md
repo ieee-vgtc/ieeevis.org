@@ -6,7 +6,7 @@ contact: papers@ieeevis.org
 sidebar: call-for-participation
 ---
 
-The success of the IEEE VIS 2020 papers program relies on a knowledgeable, experienced, and ethical community of reviewers. IEEE VIS 2020 employs a two-phase, [(author-optional) double-blind review](http://ieeevis.org/year/2020/info/call-participation/paper-submission-guidelines#important-submission-requirements) process that follows the review process for IEEE TVCG, the journal in which most IEEE VIS full papers are published. All papers are reviewed by at least 4 reviewers, at least 2 of which are IPC members and at least 2 of which are external members of the community. All reviewers are bound to the [ethics guidelines of the IEEE VGTC](http://vgtc.org/about-us/conferences/ethics-guidelines).
+The success of the IEEE VIS 2020 papers program relies on a knowledgeable, experienced, and ethical community of reviewers. IEEE VIS 2020 employs a two-phase, [(author-optional) double-blind review](paper-submission-guidelines#important-submission-requirements) process that follows the review process for IEEE TVCG, the journal in which most IEEE VIS full papers are published. All papers are reviewed by at least 4 reviewers, at least 2 of which are IPC members and at least 2 of which are external members of the community. All reviewers are bound to the [ethics guidelines of the IEEE VGTC](http://vgtc.org/about-us/conferences/ethics-guidelines).
 
 This page provides detailed instructions for both IPC reviewers and external reviewers.
 
@@ -31,7 +31,7 @@ This page provides detailed instructions for both IPC reviewers and external rev
 ## Keywords Update
 **By March 21**
 
-At VIS 2019, the VEC and the V-I-S Steering Committees adopted a proposal by the reVISe committee to replace the current PCS keywords with a new set of keywords to improve the reviewing process. **You will need to update your expertise in PCS with these new keywords.** Please read through the [summary of the new keywords](http://ieeevis.org/year/2020/info/call-participation/paper-keywords), which includes instructions for reviewers on how to select for expertise.
+At VIS 2019, the VEC and the V-I-S Steering Committees adopted a proposal by the reVISe committee to replace the current PCS keywords with a new set of keywords to improve the reviewing process. **You will need to update your expertise in PCS with these new keywords.** Please read through the [summary of the new keywords](paper-keywords), which includes instructions for reviewers on how to select for expertise.
 
 1. Log onto the [PCS system](https://new.precisionconference.com/).
 
@@ -47,7 +47,7 @@ At VIS 2019, the VEC and the V-I-S Steering Committees adopted a proposal by the
 ## Bidding
 **March 22 thru March 31**
 
-If you have not yet updated your keywords then see the [Keywords Update](#Keywords Update) phase above.
+If you have not yet updated your keywords then see the [Keywords Update](#keywords_update) phase above.
 
 1. Log onto the [PCS system](https://new.precisionconference.com/).
 
@@ -143,7 +143,7 @@ For each of the papers for which you are the primary reviewer and that has recei
 ## Keywords Update
 **By March 21**
 
-At VIS 2019, the VEC and the V-I-S Steering Committees adopted a proposal by the reVISe committee to replace the current PCS keywords with a new set of keywords to improve the reviewing process. **You will need to update your expertise in PCS with these new keywords.** Please read through the [summary of the new keywords](http://ieeevis.org/year/2020/info/call-participation/paper-keywords), which includes instructions for reviewers on how to select for expertise.
+At VIS 2019, the VEC and the V-I-S Steering Committees adopted a proposal by the reVISe committee to replace the current PCS keywords with a new set of keywords to improve the reviewing process. **You will need to update your expertise in PCS with these new keywords.** Please read through the [summary of the new keywords](paper-keywords), which includes instructions for reviewers on how to select for expertise.
 
 1. Log onto the [PCS system](https://new.precisionconference.com/).
 
@@ -159,7 +159,7 @@ At VIS 2019, the VEC and the V-I-S Steering Committees adopted a proposal by the
 ## Reviewing 
 **April 3 thru May 8**
 
-High-quality reviews are critical to the quality of the conference program. Please familiarize yourself with the reviewing ethics and guidelines described in [Additional Reviewing Guidance](#Additional Reviewing Guidance).
+High-quality reviews are critical to the quality of the conference program. Please familiarize yourself with the reviewing ethics and guidelines described in [Additional Reviewing Guidance](#additional_reviewing_guidance).
 
 ## Discussion 
 **May 9 thru May 15**
