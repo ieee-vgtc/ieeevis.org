@@ -122,7 +122,7 @@ menu:
               - links:
                 - text: "Organize a meetup"
                   description: "Meet people for discussion and shared experiences"
-             #     url: "/year/2020/info/call-participation/meetups"
+                  url: "/year/2020/info/call-participation/meetups"
                 - text: "Become a student volunteer"
                   description: "Support the conference, build your research network, and get a discount"
              #     url: "http://vissv.org/"
