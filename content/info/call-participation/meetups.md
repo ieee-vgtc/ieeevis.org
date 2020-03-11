@@ -52,5 +52,7 @@ Note: Meetups submission made by Agust 7 may have the chance to be inluded in pr
 ### Chairs
 
 Ayan Biswas, *Los Alamos National Laboratory*
+
 Evanthia Dimara, *University of Konstanz*
+
 Katerina Vrotsou, *Linköping University*
