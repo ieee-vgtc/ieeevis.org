@@ -12,6 +12,8 @@ This page provides detailed instructions for both IPC reviewers and external rev
 
 # Contents
 
+Note: Dates are subject to change due to [our coronavirus response]({{ '/info/coronavirus-info' | relative_url }}).
+
 - [IPC Reviewing Instructions](#ipc-reviewing-instructions)
   - [Keywords Update, by March 21](#keywords-update)
   - [Bidding, March 22 thru March 31](#bidding)
