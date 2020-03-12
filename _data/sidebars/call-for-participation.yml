@@ -5,7 +5,7 @@
     - text: "Short Papers"
       url: "/year/2020/info/call-participation/shortpapers"
     - text: "Posters"
-    #   url: "/year/2020/info/call-participation/posters"
+      url: "/year/2020/info/call-participation/posters"
     - text: "Tutorials"
       url: "/year/2020/info/call-participation/tutorials"
     - text: "Workshops"

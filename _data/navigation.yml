@@ -88,7 +88,8 @@ menu:
                   - text: "Short Papers"
                     url: "/year/2020/info/call-participation/shortpapers"
                   - text: "Posters"
-         #           url: "/year/2020/info/call-participation/posters"
+                    url: "/year/2020/info/call-participation/posters"
+                    is_new: true
                   - text: "Tutorials"
                     url: "/year/2020/info/call-participation/tutorials"
                   - text: "Workshops"

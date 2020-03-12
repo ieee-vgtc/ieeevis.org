@@ -1,5 +1,5 @@
 ---
-title: Posters Call for Participation
+title: Posters - Call for Participation
 layout: page
 permalink: /info/call-participation/posters
 active_nav: "Contribute"
@@ -37,7 +37,7 @@ We particularly encourage contributions that take advantage of the electronic an
 
 ### INFORMATION FOR AUTHORS
 
-Poster authors must submit a two-page summary of their work in the VGTC conference two-column format in line with the IEEE VIS Posters’ formatting guidelines: http://junctionpublishing.org/vgtc/Track/vis.html, using the poster format.
+Poster authors must submit a two-page summary of their work in the VGTC conference two-column format in line with the [IEEE VIS Posters’ formatting guidelines](http://junctionpublishing.org/vgtc/Track/vis.html), using the poster format.
 
 Summaries should include a concise description of the idea, the results or findings, supporting imagery and figures, and a discussion of the implications of the work to the selected domain. Full literature searches are not expected, although relevant citations should be included.
 
@@ -45,9 +45,9 @@ Authors whose posters are accepted for IEEE VIS will be asked to refine their tw
 
 The electronic posters themselves have to be created using a provided web-based interface. Access to this interface will be granted after the two-page summary has been accepted for presentation.  
 
-Presenters are also encouraged to submit an accompanying video or other supplementary materials by following the IEEE VIS formatting guidelines http://junctionpublishing.org/vgtc/Tasks/supplement.html.
+Presenters are also encouraged to submit an accompanying video or other supplementary materials by following the IEEE VIS formatting guidelines: <http://junctionpublishing.org/vgtc/Tasks/supplement.html>.
 
-Visit the [Posters FAQ](http://ieeevis.org/year/2020/info/call-participation/posters-faq) page for some useful tips for authors.
+Visit the [Posters FAQ](posters-faq) page for some useful tips for authors.
 
 ### SUBMISSION INSTRUCTIONS
 
@@ -56,11 +56,11 @@ All IEEE VIS poster submissions should be made through a single submission categ
 After logging into PCS at [https://new.precisionconference.com/~vgtc/](https://new.precisionconference.com/~vgtc/), start your submission by selecting "IEEE VIS Posters 2020", and then select the conference to which you are submitting a poster:
 
 * Visual Analytics Science and Technologies (VAST) - for conference
-  themes see [IEEE VAST 2020 – Topics and Paper Types](/year/2020/info/call-participation/vast-paper-types)
+  themes see [IEEE VAST 2020 – Topics and Paper Types](vast-paper-types)
 * Information Visualization (InfoVis) - for conference themes see 
-  [IEEE InfoVis 2020 – Topics and Paper Types](/year/2020/info/call-participation/infovis-paper-types)
+  [IEEE InfoVis 2020 – Topics and Paper Types](infovis-paper-types)
 * Scientific Visualization (SciVis) - for conference themes see 
-  [IEEE SciVis 2020 – Topics and Paper Types](/year/2020/info/call-participation/scivis-paper-types)
+  [IEEE SciVis 2020 – Topics and Paper Types](scivis-paper-types)
 
 ### Plagiarism
 All submissions must be either: 1) original work that has not been presented previously at any workshop, symposium, or conference, and not published previously in any archived conference proceeding, magazine, or journal; or 2) a summary that highlights work presented or published in a related venue with a clear statement of attribution to the original work.
@@ -97,12 +97,12 @@ One poster from each conference will be awarded for ‘Best Poster Design’, wh
 
 ### CHAIRS
 
-Alex Endert, *Georgia Tech (VAST)*
-Steffen Koch, *University of Stuttgart (VAST)*  
-Christophe Hurter, *French Civil Aviation University (InfoVis)*
-Michael Sedlmair, *University of Stuttgart (InfoVis)*  
-Daniel Jönsson, *Linköping University (SciVis)*  
-Filip Sadlo, *Heidelberg University (SciVis)* 
+* Alex Endert, *Georgia Tech (VAST)*
+* Steffen Koch, *University of Stuttgart (VAST)*  
+* Christophe Hurter, *French Civil Aviation University (InfoVis)*
+* Michael Sedlmair, *University of Stuttgart (InfoVis)*  
+* Daniel Jönsson, *Linköping University (SciVis)*  
+* Filip Sadlo, *Heidelberg University (SciVis)* 
 
 
 
