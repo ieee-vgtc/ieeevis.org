@@ -68,6 +68,7 @@ While the conference is [transitioning to a combined reviewer model](/governance
 | Claudio T. Silva | *New York University, USA* |
 | Bettina Speckmann | *TU Eindhoven, Netherlands* |
 | Marc Streit | *Johannes Kepler University Linz, Austria* |
+| Hendrik Strobelt | *IBM Research, USA* |
 | Maoyuan Sun | *Northern Illinois University, USA* |
 | Alexandru Telea | *Utrecht University, Netherlands* |
 | Melanie Tory | *Tableau Software, USA* |
