@@ -83,7 +83,7 @@ Please do not hesitate to add new, qualified reviewers that are not already in t
 
 Follow up with the external reviewer and ensure that they accept the invitation. If they decline or do not respond in a timely manner, please find a replacement as soon as possible.
 
-Do not ask other IPC members from any of the three tracks (VAST, InfoVis, SciVis) to be external reviewers. The full IPC list can be found on the [conference website]({{ /info/committees/program-committees | relative_url }}). (Note that they are also marked as "cmte" on the review assignment screen in PCS.)
+Do not ask other IPC members from any of the three tracks (VAST, InfoVis, SciVis) to be external reviewers. The full IPC list can be found on the [conference website]({{ '/info/committees/program-committees' | relative_url }}). (Note that they are also marked as "cmte" on the review assignment screen in PCS.)
 
 ## First Round Reviewing
 **April 3 thru May 8**
