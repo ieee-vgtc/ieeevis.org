@@ -54,7 +54,7 @@ At VIS 2019, the VEC and the V-I-S Steering Committees adopted a proposal by the
 ## <a name="ipc-bidding"></a> Bidding
 **March 22 thru March 31**
 
-If you have not yet updated your keywords then see the [Keywords Update](#keywords_update) phase above.
+If you have not yet updated your keywords then see the [Keywords Update](#ipc-keywords-update) phase above.
 
 1. Log onto the [PCS system](https://new.precisionconference.com/).
 
@@ -101,7 +101,7 @@ However, you should also be on the lookout for bold, creative, and potentially t
 
 If you have any questions in this regard about a particular paper, please either flag this in the confidential section of your review or email the paper chairs directly. Your insight and ability to look beyond the surface is exactly the kind of guidance the paper chairs need from an experienced IPC.
 
-Please see [Additional Reviewing Guidance](#Additional Reviewing Guidance) for further considerations.
+Please see [Additional Reviewing Guidance](#additional-reviewing-guidance) for further considerations.
 
 ## <a name="ipc-discussion"></a> Discussion
 **May 9 thru May 15**
@@ -166,7 +166,7 @@ At VIS 2019, the VEC and the V-I-S Steering Committees adopted a proposal by the
 ## <a name="er-reviewing"></a> Reviewing
 **April 3 thru May 8**
 
-High-quality reviews are critical to the quality of the conference program. Please familiarize yourself with the reviewing ethics and guidelines described in [Additional Reviewing Guidance](#additional_reviewing_guidance).
+High-quality reviews are critical to the quality of the conference program. Please familiarize yourself with the reviewing ethics and guidelines described in [Additional Reviewing Guidance](#additional-reviewing-guidance).
 
 ## <a name="er-discussion"></a> Discussion
 **May 9 thru May 15**
