@@ -1,7 +1,10 @@
 ---
 title: Posters FAQ
-layout: main-2020
-permalink: http://vis.org/year/2020/info/call-participation/posters-faq
+layout: page
+permalink: /info/call-participation/posters-faq
+contact: posters@ieeevis.org
+active_nav: "Contribute"
+sidebar: call-for-participation
 ---
 
 *What is the purpose of submitting a poster?*
