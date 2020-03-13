@@ -110,7 +110,6 @@ Contact: vast_papers@ieeevis.org
 | Angus Forbes | *University of California, Santa Cruz, USA* |
 | Steven Franconeri | *Northwestern University, USA* |
 | Carsten Görg | *University of Colorado, USA* |
-| Uta Hinrichs | *University of St Andrews, UK* |
 | Heike Hofmann | *Iowa State University, USA* |
 | Jessica Hullman | *Northwestern University, USA* |
 | Christophe Hurter | *Ecole National de l'Aviation Civile, France* |
