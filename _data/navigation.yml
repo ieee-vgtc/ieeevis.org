@@ -99,7 +99,7 @@ menu:
                   - text: "Doctoral Colloquium"
                     url: "/year/2020/info/call-participation/doctoral-colloquium"
                   - text: "Application Spotlights"
-         #           url: "/year/2020/info/call-participation/application-spotlights-cfp"
+                    url: "/year/2020/info/call-participation/spotlights"
          #           is_new: true
               - heading: "Info for Contributors"
                 links:
