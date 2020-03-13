@@ -10,8 +10,9 @@ module.exports = {
         800: '#7f6c5e',
         700: '#7f6c5e',
         600: '#b9aba1',
+        500: colors.white,
         200: '#b9aba1',
-        100:'#b9aba1',
+        100: '#b9aba1',
       },
       secondary: {
         default: '#c42026',
