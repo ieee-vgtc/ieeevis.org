@@ -61,6 +61,8 @@ When preparing your submission, please make sure that you carefully read and adh
 The three conference tracks at IEEE VIS 2020 use the same submission and review process. The conferences differ in the topics, 
 emphasis, and approach, as described in the conference-specific for [VAST](vast-paper-types), [InfoVis](infovis-paper-types), and [SciVis](scivis-paper-types).
 
+Reviewers should be familiar with the [guidelines for reviewing papers for VIS](review-instructions).
+
 Authors of accepted papers should also follow the [instructions for preparing a camera-ready submission](/year/2020/info/presenter-information/final-information-paper-authors).
 
 ## Open Access Policy

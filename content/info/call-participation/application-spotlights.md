@@ -1,12 +1,10 @@
 ---
 title: Application Spotlights
 layout: page
-sidebar: call-for-participation
 permalink: /info/call-participation/spotlights
 active_nav: "Contribute"
-contact: spotlights@ieeevis.org
-active_nav: "Contribute"
 sidebar: call-for-participation
+contact: spotlights@ieeevis.org
 ---
 
 # Application Spotlights at IEEE VIS
