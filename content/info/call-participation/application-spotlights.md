@@ -57,4 +57,4 @@ All deadlines are at **5:00pm Pacific Time (PDT)**.
 
 Alex Endert, *Georgia Tech* <br />
 Bernd Hentschel, *d.velop AG* <br />
-Kristi Potter, *National Renewable Energy Center (NREL)* 
+Kristi Potter, *National Renewable Energy Laboratory (NREL)* 
