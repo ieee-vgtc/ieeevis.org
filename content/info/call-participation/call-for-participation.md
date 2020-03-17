@@ -34,7 +34,7 @@ All deadlines are at *5:00pm Pacific Time (PDT).*
 | Submission activity | Date |
 |---------------------|------|
 | Abstract submission (MANDATORY) | Saturday, March 21, 2020 |
-| Paper submission | Tuesday, March 31, 2020 |
+| Paper submission ([note extension]({{ '/info/coronavirus-info' | relative_url }})) | ~~Tuesday, March 31, 2020~~ Tuesday, April 14, 2020 |
 | Notification of results of first review cycle | Saturday, June 6, 2020 |
 | Paper submission for second review cycle | Wednesday, June 24, 2020 |
 | Final notification | Wednesday, July 8, 2020 |
@@ -60,6 +60,8 @@ When preparing your submission, please make sure that you carefully read and adh
 
 The three conference tracks at IEEE VIS 2020 use the same submission and review process. The conferences differ in the topics, 
 emphasis, and approach, as described in the conference-specific for [VAST](vast-paper-types), [InfoVis](infovis-paper-types), and [SciVis](scivis-paper-types).
+
+Reviewers should be familiar with the [guidelines for reviewing papers for VIS](review-instructions).
 
 Authors of accepted papers should also follow the [instructions for preparing a camera-ready submission](/year/2020/info/presenter-information/final-information-paper-authors).
 
