@@ -14,7 +14,7 @@ intro_section:
       button_url: "/info/call-participation/vast-paper-types"
     - title: "IEEE Conference on Information Visualization (InfoVis)"
       description: "Papers in InfoVis typically relate to the design or evaluation of new or improved visual encodings or interaction techniques of abstract data such as graphs, tables, or text data, as well as models and theories of visualization."
-      button_text: "InfoVIS Paper Types"
+      button_text: "InfoVis Paper Types"
       button_url: "/info/call-participation/infovis-paper-types"
     - title: "IEEE Conference on Scientific Visualization (SciVis)"
       description: "Papers in SciVis typically focus on new or improved visual encodings, mathematical models, algorithms, or interaction techniques for the visualization of data related to science and engineering, as well as integration into novel applications and systems."
