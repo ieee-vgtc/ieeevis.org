@@ -68,5 +68,6 @@ Examples:
  * Miriah Meyer, University of Utah
  * Nathalie Henry Riche, Microsoft Research
  * Jo Wood, City, University of London
+ * Niklas Elmqvist, University of Maryland, College Park
 
 Email: infovis_papers@ieeevis.org
