@@ -49,7 +49,7 @@ All three conferences at IEEE VIS allow both single-blind (not anonymized) as we
 
 # Abstract submission
 
-Note that submission of an abstract for each paper is **mandatory** by ~~March 21~~ **April 20**, and full papers with all supplemental material are due on April 14. Late submissions, or submissions without a previously submitted abstract, will not be allowed. Furthermore, submission information—including title, abstract, and author—**MUST** be complete by the abstract deadline on March 21. In particular, adding authors after the abstract deadline is not allowed. The author information is used for detecting conflicts of interest when assigning papers to program committee members and reviewers, so it must be complete by the time abstracts are submitted.
+Note that submission of an abstract for each paper is **mandatory** by ~~March 21~~ **April 20**, and full papers with all supplemental material are due on ~~April 14~~ **April 30**. Late submissions, or submissions without a previously submitted abstract, will not be allowed. Furthermore, submission information—including title, abstract, and author—**MUST** be complete by the abstract deadline on March 21. In particular, adding authors after the abstract deadline is not allowed. The author information is used for detecting conflicts of interest when assigning papers to program committee members and reviewers, so it must be complete by the time abstracts are submitted.
 
 # Plagiarism
 
