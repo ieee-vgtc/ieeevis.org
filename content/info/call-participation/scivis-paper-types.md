@@ -67,6 +67,7 @@ Examples:
 ## Paper Chairs
  * Peter Lindstrom, Lawrence Livermore National Laboratory
  * Luis Gustavo Nonato, Universidade de Sao Paulo
+ * Han-Wei Shen, The Ohio State University
  * Rüdiger Westermann, Technical University of Munich
 
 Email: scivis_papers@ieeevis.org.
