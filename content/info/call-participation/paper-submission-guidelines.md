@@ -33,7 +33,7 @@ Make sure that you carefully read the guidelines below before submitting your pa
 * 9+2 page restriction - VIS papers are **strictly** limited to 9 pages of content plus an additional 2 pages of references. Papers may be shorter than this but must make a similar contribution to a longer paper.
 * Resubmissions encouraged - authors are encouraged to include reviews and responses for previously rejected papers in their submission to IEEE VIS.
 * Optional single-blind or double-blind - reviewers’ identities are not revealed. Authors may choose whether to anonymize their submission or not.
-* Author information frozen after abstract deadline - the author list for a submission MUST be complete by the abstract submission deadline on ~~March 21~~ April 20.
+* Author information frozen after abstract deadline - the author list for a submission MUST be complete by the abstract submission deadline on ~~March 21~~ **April 20**.
 
 ## Submission System
 
@@ -49,7 +49,7 @@ All three conferences at IEEE VIS allow both single-blind (not anonymized) as we
 
 # Abstract submission
 
-Note that submission of an abstract for each paper is **mandatory** by ~~March 21~~ **April 20**, and full papers with all supplemental material are due on ~~April 14~~ **April 30**. Late submissions, or submissions without a previously submitted abstract, will not be allowed. Furthermore, submission information—including title, abstract, and author—**MUST** be complete by the abstract deadline on March 21. In particular, adding authors after the abstract deadline is not allowed. The author information is used for detecting conflicts of interest when assigning papers to program committee members and reviewers, so it must be complete by the time abstracts are submitted.
+Note that submission of an abstract for each paper is **mandatory** by ~~March 21~~ **April 20**, and full papers with all supplemental material are due on ~~April 14~~ **April 30**. Late submissions, or submissions without a previously submitted abstract, will not be allowed. Furthermore, submission information—including title, abstract, and author—**MUST** be complete by the abstract deadline on ~~March 21~~ **April 20**. In particular, adding authors after the abstract deadline is not allowed. The author information is used for detecting conflicts of interest when assigning papers to program committee members and reviewers, so it must be complete by the time abstracts are submitted.
 
 # Plagiarism
 
@@ -90,7 +90,7 @@ Authors are responsible for the content of the response letter, but effective le
 ## General Expectations
 We expect that submissions will clearly discuss novel and significant contributions and place them in the context of prior art in the field. This involves highlighting how the current contributions differ from and advance the state-of-the-art in visualization, especially, but not limited to previous work published in the IEEE Transactions on Visualization and Computer Graphics (TVCG) and other leading journals and conferences including IEEE VAST, IEEE InfoVis, IEEE SciVis, ACM SIGGRAPH, ACM CHI, UIST, EuroVis, and IEEE PacificVis.
 
-When submitting your abstract (for the March 21 deadline) you will be asked to provide a complete list of authors even when submitting an anonymized version of the manuscript. This is required to avoid potential conflicts of interest when assigning reviewers. Adding additional authors after the abstract deadline or the final acceptance of a paper will not be permitted.
+When submitting your abstract (for the ~~March 21~~ **April 20** deadline) you will be asked to provide a complete list of authors even when submitting an anonymized version of the manuscript. This is required to avoid potential conflicts of interest when assigning reviewers. Adding additional authors after the abstract deadline or the final acceptance of a paper will not be permitted.
 
 Submissions will be treated as confidential communications during the review process, thus submission does not constitute public disclosure of any ideas therein. Submissions should contain no information or materials that will be proprietary or confidential at the time of publication (at the conference), and should cite no publications that are proprietary or confidential at the time of publication. 
 
