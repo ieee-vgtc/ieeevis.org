@@ -35,10 +35,10 @@ All deadlines are at *5:00pm Pacific Time (PDT).*
 |---------------------|------|
 | Abstract submission (MANDATORY, [note extension]({{ '/info/coronavirus-info' | relative_url }})) | ~~Saturday, March 21, 2020~~ Monday, April 20, 2020 |
 | Paper submission ([note extension]({{ '/info/coronavirus-info' | relative_url }})) | ~~Tuesday, March 31, 2020~~ Thursday, April 30, 2020 |
-| Notification of results of first review cycle | Saturday, June 6, 2020 |
-| Paper submission for second review cycle | Wednesday, June 24, 2020 |
-| Final notification | Wednesday, July 8, 2020 |
-| Camera-ready copy | Saturday, August 1, 2020 |
+| Notification of results of first review cycle ([note extension]({{ '/info/coronavirus-info' | relative_url }})) | Saturday, ~~June 6, 2020~~ July 6, 2020 |
+| Paper submission for second review cycle ([note extension]({{ '/info/coronavirus-info' | relative_url }})) | Wednesday, ~~June 24, 2020~~ July 31, 2020 |
+| Final notification ([note extension]({{ '/info/coronavirus-info' | relative_url }})) | Wednesday, ~~July 8, 2020~~ August 14, 2020 |
+| Camera-ready copy ([note extension]({{ '/info/coronavirus-info' | relative_url }})) | Saturday, ~~August 1, 2020~~ September 7, 2020 |
 
 {% include alert.html
   title="Final Instructions for Authors of Accepted Papers"
