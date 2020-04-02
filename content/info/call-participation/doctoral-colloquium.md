@@ -24,8 +24,8 @@ Only selected applicants will be allowed to participate in the colloquium and wi
 Contingent upon pending requests for external sponsorship of the VIS DC, we may be able to partially fund the travel, conference registration, and lodging for accepted DC student participants.
 
 ## Submissions
-The deadline for DC submissions is **Wednesday, May 13, 2020, 5pm PDT**.  
-Notification: July 9, 2020.
+The deadline for DC submissions is ~~Wednesday, May 13, 2020, 5pm PDT~~ **Sunday, May 31, 2020, 5pm PDT**.  
+Notification: ~~Friday, July 9, 2020~~ **July 31, 2020**.
 
 Applicants to the Doctoral Colloquium should submit:
 *	A four-page summary describing their PhD research, including the problem being addressed, methodology and plan of research, a description of the progress to date, and the type of input expected from DC panelists. The four-page limit does not include references	. The writing should be in a proposal format in order to facilitate feedback from the panelists as to the validity of your problem and the efficacy of your approach. The structure should follow the format used by most universities for a thesis proposal: an Introduction, a Related Work, Preliminary Methods, Preliminary Results, Proposed Work, Discussion, Questions for the Panel, and Conclusion. The summary should have a single author – the student submitting the entry. Please distinguish clearly between work that has been accomplished and that remains to be completed. As indicated above, the summary should identify clearly, in a separate section, the feedback the student expects from the panel.
