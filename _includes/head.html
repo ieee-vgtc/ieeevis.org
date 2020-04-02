@@ -7,6 +7,11 @@
     <!-- TODO: configure SEO/OG tags -->
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
+    <!-- Bootstrap 4 includes -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- favicon -->
     <link rel="shortcut icon" href="{{ 'assets/favicon.png' | relative_url }}" type="image/x-icon" />
 
     <!-- Include Material Icons -->
@@ -21,4 +26,6 @@
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | relative_url | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | relative_url | prepend: site.url }}" />
+
+    
 </head>
