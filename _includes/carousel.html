@@ -29,33 +29,32 @@
 .carousel{background:#2f4357;margin-top:20px;}
 .carousel-item{text-align:center;min-height:280px;}
 
-.carousel-caption{position:absolute;right:15%;bottom:20px;left:15%;z-index:10;padding-top:20px;padding-bottom:20px;color:#fff;text-align:center;}
+.carousel-caption{position:absolute;right:15%;bottom:20px;left:15%;top:10%;z-index:10;padding-top:20px;padding-bottom:20px;color:#fff;text-align:center;}
 
 </style>
 
 <div class="home-alert">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <!-- <li data-target="#myCarousel" data-slide-to="1"></li> -->
+        {% for entry in site.data.carousel %}
+          <li data-target="#myCarousel" data-slide-to="{{ forloop.index }}" class="{{ entry.active }}"></li>
+        {% endfor %}
       </ol>
 
       <!-- Items -->
       <div class="carousel-inner">
-          <div class="carousel-item active">
-              <img src="{{ site.url }}{{ site.baseurl }}/assets/slider/coronavirus.jpg" alt="Slide 1" style="opacity: 0.3"/>
-              <div class="carousel-caption mb-4 md:mb-0 md:mr-4">
-                  <span class="block">{{ include.title }}</span>
-                  <p style="font-size: 12px">{{ include.description }}</p>
-                  <a href="{{ include.button-url | relative_url }}" class="button">
-                  {{ include.button-text }}
+        {% for entry in site.data.carousel %}
+          <div class="carousel-item {{ entry.active }}">
+              <img src="{{ site.url }}{{ site.baseurl }}/assets/carousel/{{ entry.image }}" alt="Slide 1" style="opacity: 0.3"/>
+              <div class="carousel-caption">
+                  <span class="block">{{ entry.title }}</span>
+                  <p style="font-size: 12px">{{ entry.description }}</p>
+                  <a href="{{ entry.button-url | relative_url }}" class="button">
+                  {{ entry.button-text }}
                   </a>
               </div>
-             
           </div>
-         <!--  <div class="carousel-item">
-              <img src="{{ site.url }}{{ site.baseurl }}/assets/slider/STS.jpg" alt="Slide 2" />
-          </div> -->
+        {% endfor %}
       </div>
 
         <!-- Carousel controls -->

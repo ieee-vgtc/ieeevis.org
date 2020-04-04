@@ -1,0 +1,12 @@
+- title: "COVID-19 impact on IEEE VIS 2020"
+  description: "IEEE VIS 2020 is still scheduled to be held as planned in the Fall of 2020. <br><br>Although the main conference activities are some time away, we appreciate that some of our community are impacted as they attempt to prepare their paper submissions. We have deliberated on the various issues. In our attempt to balance authors’ considerations with reviewer challenges, review time-table, or challenges in the review process, we have decided to <b>extend</b> the abstract submission deadline to <b>20 April 2020</b>, and to extend the paper submission deadline to <b>30 April 2020</b> ..."
+  button-text: "Read more"
+  button-url: "/info/coronavirus-info"
+  image: "coronavirus.jpg"
+  active: "active"
+
+- title: "SciVis Contest"
+  description: "The 2020 IEEE SciVis Contest is dedicated to create novel approaches or state of the art visualizations to assist domain scientists to better understand the complex transport mechanisms of eddies in the Red Sea under uncertainty"
+  button-text: "Read more"
+  button-url: "https://kaust-vislab.github.io/SciVis2020/"
+  image: "scivis.jpg"
