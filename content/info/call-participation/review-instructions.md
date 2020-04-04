@@ -15,18 +15,18 @@ This page provides detailed instructions for both IPC reviewers and external rev
 Note: Dates are subject to change due to [our coronavirus response]({{ '/info/coronavirus-info' | relative_url }}).
 
 - [IPC Reviewing Instructions](#ipc-reviewing-instructions)
-  - [Keywords Update, by March 21](#keywords-update)
-  - [Bidding, March 22 thru March 31](#bidding)
-  - [Assigning External Reviewers, April 15 thru April 19](#assigning-external-reviewers)
-  - [First Round Reviewing, April 15 thru May 11](#first-round-reviewing)
-  - [Discussion, May 12 thru May 17](#discussion)
-  - [First Round Decisions, May 18 thru May 30](#first-round-decisions)
-  - [Shepherding, June 6 thru July 1](#shepherding)
-  - [Second Round Reviewing, July 1 thru July 8](#second-round-reviewing)
+  - [Keywords Update, by April 20](#keywords-update)
+  - [Bidding, April 21 thru April 30](#bidding)
+  - [Assigning External Reviewers, May 1 thru May 10](#assigning-external-reviewers)
+  - [First Round Reviewing, May 1 thru June 7](#first-round-reviewing)
+  - [Discussion, June 8 thru June 14](#discussion)
+  - [First Round Decisions, June 15 thru June 29](#first-round-decisions)
+  - [Shepherding, July 7 thru July 31](#shepherding)
+  - [Second Round Reviewing, August 1 thru August 7](#second-round-reviewing)
 - [External Reviewing Instructions](#external-reviewing-instructions)
-  - [Keywords Update, by April 3](#keywords-update-1)
-  - [Reviewing, April 15 thru May 11](#reviewing)
-  - [Discussion, May 12 thru May 17](#discussion-1)
+  - [Keywords Update, by May 2](#keywords-update-1)
+  - [Reviewing, May 1 thru June 7](#reviewing)
+  - [Discussion, June 8 thru June 14](#discussion-1)
 - [Additional Reviewing Guidance](#additional-reviewing-guidance)
   - [Paper Quality](#paper-quality)
   - [Reviewing Ethics](#reviewing-ethics)
@@ -38,7 +38,7 @@ Note: Dates are subject to change due to [our coronavirus response]({{ '/info/co
 # IPC Reviewing Instructions
 
 ## Keywords Update
-**By March 21**
+**By April 20**
 
 At VIS 2019, the VEC and the V-I-S Steering Committees adopted a proposal by the reVISe committee to replace the current PCS keywords with a new set of keywords to improve the reviewing process. **You will need to update your expertise in PCS with these new keywords.** Please read through the [summary of the new keywords](paper-keywords), which includes instructions for reviewers on how to select for expertise.
 
@@ -54,7 +54,7 @@ At VIS 2019, the VEC and the V-I-S Steering Committees adopted a proposal by the
 
 
 ## Bidding
-**March 22 thru March 31**
+**April 21 thru April 30**
 
 If you have not yet updated your keywords then see the [Keywords Update](#keywords-update) phase above.
 
@@ -75,7 +75,7 @@ If you have not yet updated your keywords then see the [Keywords Update](#keywor
 8. For bidding, you will see four options for each submission: want, willing, reluctant, and conflict. The conflicted papers should be pre-selected as conflicts, based on steps 4-5 above. Please select “want” for papers that match your areas of expertise; typically, we expect that you mark 10 to 20 papers as “want”. *If you do not click an option, the system will record your preference as “willing”.* Please select “reluctant” for any papers that you feel are far from your expertise. You may find it easiest to first sort the list by the ‘score’ column, which estimates the match between your expertise and the paper keywords. Click the appropriate radio button beside each submission.  The radio button will flash green to indicate that your bid has been recorded.  There is no submit button on this page.  Submissions that have authors with whom you have declared a conflict will show "author conflict" in place of the radio buttons.
 
 ## Assigning External Reviewers
-**April 15 thru April 19**
+**May 1 thru May 10**
 
 **Both primaries and secondaries are to recruit ONE external reviewer each.** Make certain that this reviewer is NOT from the same institution/group as any of the other reviewers.
 
@@ -88,7 +88,7 @@ Follow up with the external reviewer and ensure that they accept the invitation.
 Do not ask other IPC members from any of the three tracks (VAST, InfoVis, SciVis) to be external reviewers. The full IPC list can be found on the [conference website]({{ '/info/committees/program-committees' | relative_url }}). (Note that they are also marked as "cmte" on the review assignment screen in PCS.)
 
 ## First Round Reviewing
-**April 15 thru May 11**
+**May 1 thru June 7**
 
 During this phase, both primaries and secondaries:
 * Write a regular review of their assigned papers.
@@ -106,12 +106,12 @@ If you have any questions in this regard about a particular paper, please either
 Please see [Additional Reviewing Guidance](#additional-reviewing-guidance) for further considerations.
 
 ## Discussion
-**May 12 thru May 17**
+**June 8 thru June 14**
 
 Primaries:
 * As soon as possible, initiate discussion with the other reviewers in order to reach a consensus about whether the paper should be conditionally accepted or rejected for publication.
 * Ensure that all reviewers contribute to the discussion about the paper. Consider emailing external reviewers directly if they are not responsive.
-* By the end of the discussion period, write a summary review with a recommendation of conditional acceptance or rejection based on the reviews and the discussion. *This summary review MUST explicitly spell out what the conditions are for turning a conditionally accepted paper into an accepted one.* The authors need to know what is required of them as well as what comments they should consider but that aren’t required to address. If you and the secondary reviewer cannot agree on a recommendation for a submission, please document the discussion in the confidential portion of the summary review. If views have changed or consensus cannot be achieved, please let us know why in the confidential comments. **Summary reviews are due on May 17.**
+* By the end of the discussion period, write a summary review with a recommendation of conditional acceptance or rejection based on the reviews and the discussion. *This summary review MUST explicitly spell out what the conditions are for turning a conditionally accepted paper into an accepted one.* The authors need to know what is required of them as well as what comments they should consider but that aren’t required to address. If you and the secondary reviewer cannot agree on a recommendation for a submission, please document the discussion in the confidential portion of the summary review. If views have changed or consensus cannot be achieved, please let us know why in the confidential comments. **Summary reviews are due on June 14.**
 
 Secondaries:
 * Discuss with the primary reviewer to agree on a recommendation in the first review cycle.
@@ -119,14 +119,14 @@ Secondaries:
 Please keep the discussion anonymous by referring to other reviewers as R1, R2, etc, and remember to not sign your name in the discussions.
 
 ## First Round Decisions
-**May 17 thru May 30**
+**June 15 thru June 29**
 
 Please be available electronically for discussion with the paper chairs about the papers, your recommendation, and the review process. This is particularly important if any of your review processes are contentious or controversial. If you will not be available to field our questions, please let the paper chairs know in advance.
 
 ## Shepherding	
-**June 6 thru July 1**
+**July 7 thru July 31**
 
-At the beginning of June, the paper chairs will send out conditional acceptance and rejection notifications. For some conditionally accepted papers the summary review indicates that there is either a longer set of things to change or a few that will require more careful work. For these papers the paper chairs will encourage authors to engage with the primary reviewer early in the revision period to clarify that their proposed edits/changes will be sufficient.
+At the beginning of July, the paper chairs will send out conditional acceptance and rejection notifications. For some conditionally accepted papers the summary review indicates that there is either a longer set of things to change or a few that will require more careful work. For these papers the paper chairs will encourage authors to engage with the primary reviewer early in the revision period to clarify that their proposed edits/changes will be sufficient.
 
 The paper chairs will reach out to primaries on shepherded papers to ensure their availability during this phase.
 
@@ -138,7 +138,7 @@ All shepherded papers must meet the same review expectations as other conditiona
 In communicating with authors, be careful not to send email with your signature attached in order to maintain your anonymity, and only correspond through the PCS system.
 
 ## Second Round Reviewing
-**July 1 thru July 8**
+**August 1 thru August 7**
 
 Primaries:
 For each of the papers for which you are the primary reviewer and that has received a conditional accept decision, please:
@@ -150,7 +150,7 @@ For each of the papers for which you are the primary reviewer and that has recei
 # External Reviewing Instructions
 
 ## Keywords Update
-**By April 3**
+**By May 2**
 
 At VIS 2019, the VEC and the V-I-S Steering Committees adopted a proposal by the reVISe committee to replace the current PCS keywords with a new set of keywords to improve the reviewing process. **You will need to update your expertise in PCS with these new keywords.** Please read through the [summary of the new keywords](paper-keywords), which includes instructions for reviewers on how to select for expertise.
 
@@ -166,12 +166,12 @@ At VIS 2019, the VEC and the V-I-S Steering Committees adopted a proposal by the
 
 
 ## Reviewing
-**April 15 thru May 11**
+**May 1 thru June 7**
 
 High-quality reviews are critical to the quality of the conference program. Please familiarize yourself with the reviewing ethics and guidelines described in [Additional Reviewing Guidance](#additional-reviewing-guidance).
 
 ## Discussion
-**May 12 thru May 17**
+**June 8 thru June 14**
 
 Following the completion of the reviewing phase, the primary reviewer will initiate a discussion with all reviewers of a paper through the PCS system. During this time you are to engage with the other reviewers to come to a consensus decision on whether to conditionally accept or reject the paper. Please keep the discussion anonymous by referring to other reviewers as R1, R2, etc, and remember to not sign your name in the discussions.
 
