@@ -6,6 +6,8 @@ contact: papers@ieeevis.org
 sidebar: call-for-participation
 ---
 
+**Updated 6 April 2020**
+
 The success of the IEEE VIS 2020 papers program relies on a knowledgeable, experienced, and ethical community of reviewers. IEEE VIS 2020 employs a two-phase, [(author-optional) double-blind review](paper-submission-guidelines#important-submission-requirements) process that follows the review process for IEEE TVCG, the journal in which most IEEE VIS full papers are published. All papers are reviewed by at least 4 reviewers, at least 2 of which are IPC members and at least 2 of which are external members of the community. All reviewers are bound to the [ethics guidelines of the IEEE VGTC](http://vgtc.org/about-us/conferences/ethics-guidelines).
 
 This page provides detailed instructions for both IPC reviewers and external reviewers.
@@ -17,15 +19,15 @@ Note: Dates are subject to change due to [our coronavirus response]({{ '/info/co
 - [IPC Reviewing Instructions](#ipc-reviewing-instructions)
   - [Keywords Update, by April 20](#keywords-update)
   - [Bidding, April 21 thru April 30](#bidding)
-  - [Assigning External Reviewers, May 1 thru May 10](#assigning-external-reviewers)
-  - [First Round Reviewing, May 1 thru June 7](#first-round-reviewing)
+  - [Assigning External Reviewers, May 4 thru May 10](#assigning-external-reviewers)
+  - [First Round Reviewing, May 4 thru June 7](#first-round-reviewing)
   - [Discussion, June 8 thru June 14](#discussion)
   - [First Round Decisions, June 15 thru June 29](#first-round-decisions)
   - [Shepherding, July 7 thru July 31](#shepherding)
   - [Second Round Reviewing, August 1 thru August 7](#second-round-reviewing)
 - [External Reviewing Instructions](#external-reviewing-instructions)
-  - [Keywords Update, by May 2](#keywords-update-1)
-  - [Reviewing, May 1 thru June 7](#reviewing)
+  - [Keywords Update, by May 3](#keywords-update-1)
+  - [Reviewing, May 4 thru June 7](#reviewing)
   - [Discussion, June 8 thru June 14](#discussion-1)
 - [Additional Reviewing Guidance](#additional-reviewing-guidance)
   - [Paper Quality](#paper-quality)
@@ -75,7 +77,7 @@ If you have not yet updated your keywords then see the [Keywords Update](#keywor
 8. For bidding, you will see four options for each submission: want, willing, reluctant, and conflict. The conflicted papers should be pre-selected as conflicts, based on steps 4-5 above. Please select “want” for papers that match your areas of expertise; typically, we expect that you mark 10 to 20 papers as “want”. *If you do not click an option, the system will record your preference as “willing”.* Please select “reluctant” for any papers that you feel are far from your expertise. You may find it easiest to first sort the list by the ‘score’ column, which estimates the match between your expertise and the paper keywords. Click the appropriate radio button beside each submission.  The radio button will flash green to indicate that your bid has been recorded.  There is no submit button on this page.  Submissions that have authors with whom you have declared a conflict will show "author conflict" in place of the radio buttons.
 
 ## Assigning External Reviewers
-**May 1 thru May 10**
+**May 4 thru May 10**
 
 **Both primaries and secondaries are to recruit ONE external reviewer each.** Make certain that this reviewer is NOT from the same institution/group as any of the other reviewers.
 
@@ -88,7 +90,7 @@ Follow up with the external reviewer and ensure that they accept the invitation.
 Do not ask other IPC members from any of the three tracks (VAST, InfoVis, SciVis) to be external reviewers. The full IPC list can be found on the [conference website]({{ '/info/committees/program-committees' | relative_url }}). (Note that they are also marked as "cmte" on the review assignment screen in PCS.)
 
 ## First Round Reviewing
-**May 1 thru June 7**
+**May 4 thru June 7**
 
 During this phase, both primaries and secondaries:
 * Write a regular review of their assigned papers.
@@ -150,7 +152,7 @@ For each of the papers for which you are the primary reviewer and that has recei
 # External Reviewing Instructions
 
 ## Keywords Update
-**By May 2**
+**By May 3**
 
 At VIS 2019, the VEC and the V-I-S Steering Committees adopted a proposal by the reVISe committee to replace the current PCS keywords with a new set of keywords to improve the reviewing process. **You will need to update your expertise in PCS with these new keywords.** Please read through the [summary of the new keywords](paper-keywords), which includes instructions for reviewers on how to select for expertise.
 
@@ -166,7 +168,7 @@ At VIS 2019, the VEC and the V-I-S Steering Committees adopted a proposal by the
 
 
 ## Reviewing
-**May 1 thru June 7**
+**May 4 thru June 7**
 
 High-quality reviews are critical to the quality of the conference program. Please familiarize yourself with the reviewing ethics and guidelines described in [Additional Reviewing Guidance](#additional-reviewing-guidance).
 
