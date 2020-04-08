@@ -210,10 +210,10 @@ menu:
           - heading: "Associated Events"
             columns:
               - links:
-                - text: "VIS Arts Program: Beyond Borders (coming soon)"
+                - text: "VIS Arts Program: Enchantment"
                   description: "Where art, design, and research come together"
-#                  url: "https://visap.net/"
-#                  is_external: true
+                  url: "https://visap.net/"
+                  is_external: true
                 - text: "VisInPractice"
                   description: "Invited talks by visualization practitioners"
                   url: "https://visinpractice.github.io/"
