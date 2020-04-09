@@ -226,14 +226,14 @@ menu:
                   description: "Visual Analytics for Healthcare"
 #                  url: "https://visualanalyticshealthcare.org/"
 #                  is_external: true
-                - text: "VDS Symposium (coming soon)"
+                - text: "VDS Symposium"
                   description: "Visualization in Data Science"
-#                  url: "http://www.visualdatascience.org/2020/index.html"
-#                  is_external: true
-                - text: "VIS4DH Workshop (coming soon)"
+                  url: "http://www.visualdatascience.org/2020/index.html"
+                  is_external: true
+                - text: "VIS4DH Workshop"
                   description: "Visualization for the Digital Humanities"
-#                  url: "http://www.vis4dh.org/"
-#                  is_external: true
+                  url: "http://www.vis4dh.org/"
+                  is_external: true
                 - text: "LDAV Symposium (coming soon)"
                   description: "Big Data Analysis and Visualization"
 #                  url: "https://ldav.org/"
@@ -250,9 +250,9 @@ menu:
                 - text: "SciVis Contest"
                   url: "https://kaust-vislab.github.io/SciVis2020/"
                   is_external: true
-#                - text: "BioViz Challenges"
-#                  url: "http://biovis.net/2020/program_ieee/"
-#                  is_external: true
+                - text: "BioVis Challenges"
+                  url: "http://biovis.net/2020/program_ieee/"
+                  is_external: true
 
           - heading: "Community"
 #           heading_url: "/year/2020/info/call-participation/community"
