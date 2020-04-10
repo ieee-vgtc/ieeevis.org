@@ -1,33 +1,31 @@
-<div class="home-alert">
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        {% for entry in site.data.carousel %}
-          <li data-target="#myCarousel" data-slide-to="{{ forloop.index }}" class="{{ entry.active }}"></li>
-        {% endfor %}
-      </ol>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    {% for entry in site.data.carousel %}
+      <li data-target="#myCarousel" data-slide-to="{{ forloop.index }}" class="{{ entry.active }}"></li>
+    {% endfor %}
+  </ol>
 
-      <!-- Items -->
-      <div class="carousel-inner">
-        {% for entry in site.data.carousel %}
-          <div class="carousel-item {{ entry.active }}">
-              <img class="carousel-img" src="{{ site.url }}{{ site.baseurl }}/assets/carousel/{{ entry.image }}" alt="Slide 1"/>
-              <div class="carousel-caption">
-                  <span class="block">{{ entry.title }}</span>
-                  <p class="carousel-p">{{ entry.description }}</p>
-                  <a href="{{ entry.button-url | relative_url }}" class="button">
-                  {{ entry.button-text }}
-                  </a>
-              </div>
+  <!-- Items -->
+  <div class="carousel-inner">
+    {% for entry in site.data.carousel %}
+      <div class="carousel-item {{ entry.active }}">
+          <img class="carousel-img" src="{{ site.url }}{{ site.baseurl }}/assets/carousel/{{ entry.image }}" alt="Slide 1"/>
+          <div class="carousel-caption">
+              <span class="block carousel-title">{{ entry.title }}</span>
+              <p class="carousel-p">{{ entry.description }}</p>
+              <a href="{{ entry.button-url | relative_url }}" class="button">
+              {{ entry.button-text }}
+              </a>
           </div>
-        {% endfor %}
       </div>
+    {% endfor %}
+  </div>
 
-        <!-- Carousel controls -->
-        <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#myCarousel" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </a>
-    </div>
+    <!-- Carousel controls -->
+    <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
 </div>
