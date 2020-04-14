@@ -1,8 +1,8 @@
 ---
-title: workshops
+title: Workshops
 layout: page
 permalink: /info/workshops
-contact: [committee-name]@ieeevis.org
+contact: workshops@ieeevis.org
 ---
 
 * [Fail Fest: A Workshop Celebrating the Scientific Value of Failure](#failfest)
