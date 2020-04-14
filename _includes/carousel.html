@@ -10,7 +10,7 @@
     {% for entry in site.data.carousel %}
       <div class="carousel-item {{ entry.active }}">
           {% if entry.image %}
-          <img class="carousel-img" src="{{ site.url }}{{ site.baseurl }}/assets/carousel/{{ entry.image }}" alt="Slide 1"/>
+          <img class="carousel-img" src="/year/2020/assets/carousel/{{ entry.image }}" alt="Slide 1"/>
           {% endif %}
           <div class="carousel-caption">
               <span class="block carousel-title">{{ entry.title }}</span>
