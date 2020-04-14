@@ -1,8 +1,13 @@
 <div class="header--background pt-32 pb-24 md:pb-32 relative" style="background-image: url('{{ '/assets/theme/hex-pattern.png' | relative_url }} ');">
 
-    <div class="container">
-        <img src="{{ include.image-src | relative_url }}" alt="{{ include.image-alt }}" class="logo--main" style="width:350px">
-        <p class="font-display text-primary text-2xl md:text-4xl font-medium mt-10 md:mt-12">{{ include.description }}</p>
+    <div class="container flex-parent">
+        <div class="title">
+            <img src="{{ include.image-src | relative_url }}" alt="{{ include.image-alt }}" class="logo--main" style="width:350px">
+            <p class="font-display text-primary text-2xl md:text-4xl font-medium mt-10 mr-20 md:mt-12">{{ include.description }}</p>
+        </div>
+        <div class="carousel-container">
+            {% include carousel.html %} 
+        </div>
     </div>
 
     <div class="event-card md:w-2/3 w-full bg-secondary-700 absolute md:p-4 p-0 flex md:flex-row flex-col align-middle ">

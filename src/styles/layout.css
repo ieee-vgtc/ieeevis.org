@@ -14,6 +14,25 @@
     }
 }
 
+.flex-parent {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.title {
+    flex: auto;
+    min-width: 520px;
+    max-width: 550px;
+}
+
+.carousel-container {
+    flex: auto;
+    width: 650px;
+    min-width: 400px;
+    max-width: 1000px;
+}
+
 
 /* Main */
 
@@ -27,11 +46,3 @@ main {
     }
 }
 
-.home-alert{
-    margin-left: auto;
-    position: relative;
-    width: 50%;
-    margin-top: 2.5rem;
-    float: right;
-    z-index: 99;
-}
