@@ -31,7 +31,7 @@ Proposals should not exceed three pages, and should be [submitted via PCS](http:
 ## Important Dates
 * Proposal Submission: ~~Thursday, April 30, 2020~~ **Sunday, May 31, 2020**
 * Notification: ~~Thursday, May 28, 2020~~ **Sunday, June 28, 2020**
-* Final Submission of Summaries: ~~Saturday, August 1, 2020~~ **Tuesday, September 1, 2020**
+* Final Submission of Summaries: ~~Saturday, August 1, 2020~~ **Monday, September 7, 2020**
 
 All deadlines are at **5:00pm Pacific Time (PDT)**.
 
