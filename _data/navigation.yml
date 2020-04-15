@@ -142,12 +142,12 @@ menu:
 
 
   - dropdown: "Program"
-    display: false
+    display: true
     sections:
       - subsections:
           - heading: "Vis Program"
-            heading_url: "/year/2020/info/week-at-a-glance"
-            description: "See the complete conference program on the web or via the conference app"
+#            heading_url: "/year/2020/info/week-at-a-glance"
+#            description: "See the complete conference program on the web or via the conference app"
             columns:
               - links:
                 - text: "Papers (coming soon)"
@@ -159,7 +159,7 @@ menu:
                 - text: "Tutorials (coming soon)"
                   description: "Learn new tools and application domains"
 #                  url: "/year/2020/info/tutorials"
-                - text: "Workshops (coming soon)"
+                - text: "Workshops"
                   description: "Informal setting to discuss emerging topics"
                   url: "/year/2020/info/workshops"
                 - text: "Panels (coming soon)"
