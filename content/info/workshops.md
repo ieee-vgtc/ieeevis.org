@@ -54,14 +54,14 @@ Alan MacEachren,	*Pennsylvania State University*
 
 Contact: clio@gatech.edu, sdodge@ucsb.edu, maceachren@psu.edu
 
-This workship will bring Geographic Information Scientists to the VIS community and stimulate new insights by providing a forum that connects diverse methods and ideas. The goal of this workshop is to interactively share advances in the visualization of network, flow and movement data for knowledge discovery, exploratory spatial data analysis (ESDA) and decision-making.
+This workshop will bring Geographic Information Scientists to the VIS community and stimulate new insights by providing a forum that connects diverse methods and ideas. The goal of this workshop is to interactively share advances in the visualization of network, flow and movement data for knowledge discovery, exploratory spatial data analysis (ESDA) and decision-making.
 
 
 ## <a name="trex"></a>[TREX: Workshop on TRust and EXpertise in Visual Analytics](https://trexvis.github.io/Workshop2020/index.html)
 When: TBD
 
 Eric Ragan,	*University of Florida*  
-Mahsan Nourani,	* University of Florida*  
+Mahsan Nourani,	*University of Florida*  
 Emily Wall,	*Georgia Tech, Atlanta*  
 John Goodall,	*Oak Ridge National Laboratory*  
 Aritra Dasgupta,	*New Jersey Institute of Technology (NJIT)*  
@@ -69,7 +69,8 @@ Kristin Cook,	*PNNL*
 
 Contact: mahsannourani@ufl.edu, eragan@ufl.edu
 
-Visual analytics (VA) systems combine computational support and human cognitive and perceptual skills to explore and analyze data. Many of these systems have been incorporating machine learning (ML) models and algorithms to introduce some level of automation to the analytical process. However, within this relationship, there are a number of aspects that can impact the effectiveness of the human-machine teaming, including: 1) People's domain and system expertise; 2) Human biases, including cognitive and perceptual biases; 3)Trust in ML models and visual representation of data.
+Visual analytics (VA) systems combine computational support and human cognitive and perceptual skills to explore and analyze data. Many of these systems have been incorporating machine learning (ML) models and algorithms to introduce some level of automation to the analytical process. However, within this relationship, there are a number of aspects that can impact the effectiveness of the human-machine teaming, including: 1) People's domain and system expertise; 2) Human biases, including cognitive and perceptual biases; 3) Trust in ML models and visual representation of data.
+
 Expertise, bias, and trust are intrinsically intertwined. Additionally, visual analytics systems are used in different fields and by people from various backgrounds, with different levels of domain expertise and experience with machine learning and visual analytics tools. This variety of experience and domain expertise among human users has opened the door for new research directions and challenges in the fields of visual analytics and machine learning. Designers who fail to consider the aforementioned diversities might introduce problems to the analysis effectiveness and user experience. Furthermore, experience and domain expertise might affect user trust in visual analytics tools; although, how and why they affect trust is still an open question. Trust will eventually affect how much the users would rely on and use the tool. While users will take advantage of their prior experiences to make better decisions with the assistance of analytic support, they might carry many cognitive biases that can negatively influence their decision-making or analysis process. Recent research shows trust in and reliance on the visual analytics systems/tools as well as user strategies and biases can be directly influenced by domain and system expertise (or lack of expertise). The goal of this workshop is to bring together researchers and practitioners from different disciplines to discuss and discover challenges in ML supported visual analytics tools and set the stage for future research directions and collaborations regarding these issues by proposing design guidelines, empirical findings, and VA techniques.
 
 
@@ -82,10 +83,7 @@ Lauren Anderson, *Carnegie Observatories*
 
 Contact: beiwang@sci.utah.edu
 
-We propose a workshop during VIS 2020 titled "Visualization in Astrophysics: Developing New Methods, Discovering Our Universe, Educating the Earth".
-The workshop aims to bring together researchers in astronomy and visualization in addressing emerging directions in visualization for large and complex astronomical datasets.
-It will facilitate close interactions among the attendees with the aim of accelerating the convergence between astronomy and visualization research, specifically in the development of practical visualization techniques and tools for large astronomical data.
-The workshop aims to have research talks in astronomy and visualization, including talks with planetaria content. It also aims to have moderated discussions and hands-on sessions to discuss potential solutions to mini-challenges involving well-curated astronomy data.
+We propose a workshop during VIS 2020 titled "Visualization in Astrophysics: Developing New Methods, Discovering Our Universe, Educating the Earth". The workshop aims to bring together researchers in astronomy and visualization in addressing emerging directions in visualization for large and complex astronomical datasets. It will facilitate close interactions among the attendees with the aim of accelerating the convergence between astronomy and visualization research, specifically in the development of practical visualization techniques and tools for large astronomical data. The workshop aims to have research talks in astronomy and visualization, including talks with planetaria content. It also aims to have moderated discussions and hands-on sessions to discuss potential solutions to mini-challenges involving well-curated astronomy data.
 
 
 ## <a name="visactivities"></a> [Workshop on Data Vis Activities to Facilitate Learning, Reflecting, Discussing, and Designing](https://visactivities.github.io/)
@@ -99,7 +97,7 @@ Mandy Keck, *Technische Universität Dresden*
 
 Contact: bbach@inf.ed.ac.uk
 
-This workshop focuses on data-visualization activities, especiallymethods and challenges for teaching and engaging with data visual-ization concepts, knowledge, and practices. For example,sketchingaids designers to consider alternative ideas; manipulatingtokenshelp students conceptualize quantities for data visualization; userinterviews anddiscussionshelp developers understand requirements.Workshops, classes, or collaborations with domain experts, ofteninclude hands-on data visualization activities that involve analog ordigital tools and materials and more or less well defined protocols.Recent years have seen the emergence of such data visualizationactivities in different contexts, including education, visualizationdesign, activism, self-reflection, and interdisciplinary collaboration.However, the broad range of contexts and target audiences thatData-Vis activities have been applied to makes it difficult to collectand identify commonalities and build knowledge in a systematicway. Thus, the goals of this workshop arei)start building an un-derstanding and to synthesize protocols and materials used to leaddata vis activities,ii)to bring together researchers, practitioners, andeducators from within and outside of the visualization community,iii)brainstorm, design, experience, and try novel activities, and toiv)discuss issues around goals, methods, audiences, materials, andevaluation for teaching data visualization
+This workshop focuses on data-visualization activities, especially methods and challenges for teaching and engaging with data visualization concepts, knowledge, and practices. For example, sketching aids designers to consider alternative ideas; manipulating tokens help students conceptualize quantities for data visualization; user interviews and discussions help developers understand requirements. Workshops, classes, or collaborations with domain experts, often include hands-on data visualization activities that involve analog or digital tools and materials and more or less well defined protocols. Recent years have seen the emergence of such data visualization activities in different contexts, including education, visualization design, activism, self-reflection, and interdisciplinary collaboration. However, the broad range of contexts and target audiences that Data-Vis activities have been applied to makes it difficult to collect and identify commonalities and build knowledge in a systematic way. Thus, the goals of this workshop are i) start building an understanding and to synthesize protocols and materials used to lead data vis activities, ii) to bring together researchers, practitioners, and educators from within and outside of the visualization community, iii) brainstorm, design, experience, and try novel activities, and to iv) discuss issues around goals, methods, audiences, materials, and evaluation for teaching data visualization.
 
 
 ## <a name="viscomm"></a> [VisComm: Workshop on Visualization for Communication](https://viscomm.io/)
@@ -126,7 +124,7 @@ Sheelagh Carpendale,	*Simon Fraser University*
 
 Contact: cperin@uvic.ca
 
-The goal of this workshop is to initiate the creation of one or several cards decks through a series of hands-on activities, that will serve as a tool for generating visualization design fictions. Although methods exist to ideate visualization designs, they are not tailored to design fictions. And although some methods exist for generating design fictions, they are not tailored to visualization. We believe that creating a design fiction method for envisioning tomorrow’s visualizations is essential for the research community to think about speculative design. There is also considerable pedagogical value in such a cards game, and these could result in a fun and creative in-class activity for teaching visualization design.
+The goal of this workshop is to initiate the creation of one or several cards decks through a series of hands-on activities, that will serve as a tool for generating visualization design fictions. Although methods exist to ideate visualization designs, they are not tailored to design fictions. And although some methods exist for generating design fictions, they are not tailored to visualization. We believe that creating a design fiction method for envisioning tomorrow's visualizations is essential for the research community to think about speculative design. There is also considerable pedagogical value in such a cards game, and these could result in a fun and creative in-class activity for teaching visualization design.
 
 
 ## <a name="visguides"></a> [VisGuides: 3rd Workshop on the Creation, Curation, Critique and Conditioning of Principles and Guidelines in Visualization](https://nms.kcl.ac.uk/c4pgv/)
