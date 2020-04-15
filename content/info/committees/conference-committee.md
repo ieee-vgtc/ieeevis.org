@@ -153,12 +153,12 @@ permalink: /info/committees/conference-committee
 | Lace Padilla | *University of California Merced* |
 | Alvitta Ottley | *Texas Advanced Computing Center* |
 | Arvind Satyanarayan | *MIT* |
-|---
-| **Steering Committee Liaisons** | |
-| Lisa Avila | *Kitware (VEC Chair)* |
-| Silvia Miksch | *Vienna University of Technology (VAST)* |
-| Deborah Silver | *Rutgers University (SciVis)* |
-| Melanie Tory | *Tableau Research (InfoVis)* |
+#|---
+#| **Steering Committee Liaisons** | |
+#| Lisa Avila | *Kitware (VEC Chair)* |
+#| Silvia Miksch | *Vienna University of Technology (VAST)* |
+#| Deborah Silver | *Rutgers University (SciVis)* |
+#| Melanie Tory | *Tableau Research (InfoVis)* |
 |---
 | **Supporters Chairs** | |
 | R. Jordan Crouser | *Smith College* |
