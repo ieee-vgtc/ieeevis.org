@@ -250,7 +250,7 @@ menu:
                   url: "https://kaust-vislab.github.io/SciVis2020/"
                   is_external: true
                 - text: "BioVis Challenges"
-                  url: "http://biovis.net/2020/program_ieee/"
+                  url: "http://biovis.net/2020/biovisChallenges_vis/"
                   is_external: true
 
           - heading: "Community"
