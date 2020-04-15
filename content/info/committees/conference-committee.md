@@ -26,9 +26,9 @@ permalink: /info/committees/conference-committee
 | Ruediger Westermann | *Technical University of Munich* |
 | Jo Wood | *City, University of London* |
 | Jing Yang | *University of North Carolina at Charlotte* |
-| Brian Fisher <span style="color:red">(ACCEPTED?)</span>| |
-| Niklas Elmqvist <span style="color:red">(ACCEPTED?)</span>| |
-| Han-Wei Shen <span style="color:red">(ACCEPTED?)</span>| |
+| Brian Fisher | *Simon Fraser University* |
+| Niklas Elmqvist | *University of Maryland* |
+| Han-Wei Shen | *Ohio University* |
 |---
 | **Short Papers Chairs** | |
 | Enrico Bertini | *NYU School of Engineering* |
@@ -56,9 +56,9 @@ permalink: /info/committees/conference-committee
 | Kresimir Matkovic | *VRVis Research Center* |
 | Hongfeng Yu | *University of Nebraska-Lincoln* |
 |---
-| **Application Spotlights <span style="color:red">(FROM 2019)</span>** | |
+| **Application Spotlights** | |
 | Alex Endert | *Georgia Institute of Technology* |
-| Bernd Hentschel | *d.velop AG* |
+| Bernd Hentschel | *RWTH Aachen University* |
 | Kristi Potter | *NREL* |
 |---
 | **Open Practices** | |
@@ -76,6 +76,7 @@ permalink: /info/committees/conference-committee
 | Yoon Chung Han | *San Jose State University* |
 | Carmen Hull | *University of Calgary* |
 | Maria Lantin | *Emily Carr University* |
+| Ha Na Lee | *University of Utah* |
 |---
 | **VAST Challenge Chairs** | |
 | Kristin Cook | *Pacific Northwest National Laboratory* |
@@ -85,35 +86,36 @@ permalink: /info/committees/conference-committee
 | Thomas Theussl | *KAUST* |
 | Silvio Rizzi | *Argonne National Laboratory* |
 |---
-| **VDS Workshop Liaison <span style="color:red">(FROM 2019)</span>**| |
+| **VDS Workshop Liaison**| |
 | Shixia Liu | *Tsinghua University* |
 | Adam Perer | *Carnegie Mellon University* |
 |---
-| **LDAV Symposium Liaison <span style="color:red">(FROM 2019)</span>**| |
-| Ken Moreland | *Sandia National Laboratories* |
+| **LDAV Symposium Liaison**| |
 | Hongfeng Yu | *University of Nebraska–Lincoln* |
+| Julien Tierney | *Sorbonne University* |
 |---
-| **Vis4DH Workshop Liaison <span style="color:red">(FROM 2019)</span>** | |
+| **Vis4DH Workshop Liaison** | |
 | Mennatallah El-Assady | *University of Konstanz* |
 |---
-| **VAHC Workshop Liaison <span style="color:red">(FROM 2019)</span>** | |
+| **VAHC Workshop Liaison** | |
 | Juergen Bernard | *Technische Universität Darmstadt* |
 | David Borland | *Renci* |
 | David Gotz | *University of North Carolina* |
 | Theresia Gschwandtner | *Vienna University of Technology* |
 |---
-| **VizSec Symposium Liaison <span style="color:red">(FROM 2019)</span>** | |
+| **VizSec Symposium Liaison** | |
 | Dustin Arendt | *Pacific Northwest National Laboratories* |
 | Robert Gove | *Two Six Labs* |
 |---
-| **BioVis Challenges Workshop <span style="color:red">(FROM 2019)</span>**| |
+| **BioVis Challenges Workshop Liason**| |
 | Anamaria Crisan | *University of British Columbia* |
-| Cydney Nielsen | *Microsoft* |
+| Carolina Nobre | *Harvard University* |
 |---
 | **Vis in Practice Chairs** | |
 | Matthew Brehmer | *Independent* |
 | Matt Larsen | *Livermore National Laboratory* |
 | Zhicheng (Leo) Liu | *Adobe* |
+| Sean McKenna | *Lucid Software* |
 |---
 | **Doctoral Colloquium Chairs**| |
 | Wolfgang Aigner | *St. Pölten University of Applied Sciences* |
@@ -121,13 +123,14 @@ permalink: /info/committees/conference-committee
 | Bei Wang | *University of Utah* |
 |---
 | **Fast Forward & Video Previews Chairs** | |
+| Benjamin Bach | *University of Edinburgh* |
 | Charles Perin | *University of Victoria* |
 | Junpeng Wang | *Virginia Tech* |
 | Jian Zhao | *University of Waterloo* |
 |---
 | **Meetup Chairs** | |
 | Ayan Biswas | *Kitware* |
-| Evanthia Dimara <span style="color:red">(ACCEPTED?)</span> | *University of Konstanz* |
+| Evanthia Dimara | *University of Konstanz* |
 | Katerina Vrotsou | *Linkoping University* |
 |---
 | **Community Chairs** | |
@@ -135,7 +138,7 @@ permalink: /info/committees/conference-committee
 | Weiwei Cui | *Microsoft Research China* |
 | Hsiang-Yun Wu| *TU Wien* |
 |---
-| **Student Volunteers Chairs <span style="color:red">(FROM 2019)</span>** | |
+| **Student Volunteers Chairs** | |
 | Bon Adriel Aseniero | *University of Calgary* |
 | Tim Gerrits | *University of Magdeburg* |
 | Tim Luciani | *University of Illinois at Chicago* |
@@ -149,7 +152,7 @@ permalink: /info/committees/conference-committee
 | **Inclusivity Chairs** | |
 | Lace Padilla | *University of California Merced* |
 | Alvitta Ottley | *Texas Advanced Computing Center* |
-| Arvind Satyanarayan <span style="color:red">(ACCEPTED?)</span>| *MIT* |
+| Arvind Satyanarayan | *MIT* |
 |---
 | **Steering Committee Liaisons** | |
 | Lisa Avila | *Kitware (VEC Chair)* |
@@ -159,19 +162,20 @@ permalink: /info/committees/conference-committee
 |---
 | **Supporters Chairs** | |
 | R. Jordan Crouser | *Smith College* |
-| Weiwei Cui <span style="color:red">(ACCEPTED?)</span>| *Microsoft Research China* |
+| Weiwei Cui | *Microsoft Research China* |
 | Brian Summa | *Tulane* |
 |---
 | **Finance Chairs** | |
 | Loretta Auvil | *University of Illinois at Urbana-Champaign* |
 | Maria Velez | *CA Technologies* |
+#|---
+#| **Publication & Project Coordinator**| |
+#| Meghan Haley | *Junction Publishing* |
 |---
-| **Publication & Project Coordinator**| |
-| Meghan Haley | *Junction Publishing* |
-|---
-| **Archive Chairs <span style="color:red">(FROM 2019)</span>** | |
+| **Archive Chairs** | |
 | Cody Dunne | *Northeastern University* |
 | Hendrik Strobelt | *Harvard University / IBM* |
+| Samuel Huron | *Telecom Paris* |
 |---
 | **Web Chairs** | |
 | Lane Harrison | *Worcester Polytechnic Institute* |
