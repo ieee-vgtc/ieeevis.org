@@ -169,38 +169,37 @@ menu:
                   description: "Showcase practical, real-world applications of visualization"
 #                  url: "/year/2020/info/application-spotlights"
 
-      - subsections:
-          - heading: "Plenary Sessions"
-            # description: "TK TK TK Get an overview of what’s happening at VIS 2020"
-            columns:
-              # - links:
-              #   - text: "Download the App"
-              #     url: "https://www.google.com"
-              #   - text: "Pocket Program (PDF)"
-              #     url: "https://www.google.com"
-              #   - text: "Practioner Guide"
-              #     url: "https://www.google.com"
-              - links:
-                - text: "Keynote Address"
-                  url: "/year/2020/keynote"
-                - text: "Capstone Address"
-                  url: "/year/2020/capstone"
-
-          - heading: "Awards and Recognitions"
-            # heading_url: "https://www.google.com"
-            description: "Recognize outstanding work by the VIS community"
-            columns:
-              - links:
-                - text: "Best Paper Awards"
-                  url: "/year/2020/info/awards/best-paper-awards"
-                - text: "Best Poster Awards"
-                  url: "/year/2020/info/awards/best-poster-awards"
+#      - subsections:
+#          - heading: "Plenary Sessions"
+#            # description: "TK TK TK Get an overview of what’s happening at VIS 2020"
+#            columns:
+#              # - links:
+#              #   - text: "Download the App"
+#              #     url: "https://www.google.com"
+#              #   - text: "Pocket Program (PDF)"
+#              #     url: "https://www.google.com"
+#              #   - text: "Practioner Guide"
+#              #     url: "https://www.google.com"
+#              - links:
+#                - text: "Keynote Address"
+#                  url: "/year/2020/keynote"
+#                - text: "Capstone Address"
+#                  url: "/year/2020/capstone"
+#          - heading: "Awards and Recognitions"
+#            # heading_url: "https://www.google.com"
+#            description: "Recognize outstanding work by the VIS community"
+#            columns:
+#              - links:
+#                - text: "Best Paper Awards"
+#                  url: "/year/2020/info/awards/best-paper-awards"
+#                - text: "Best Poster Awards"
+#                  url: "/year/2020/info/awards/best-poster-awards"
                 # - text: "Service Awards"
                 #   url: "https://www.google.com"
                 # - text: "VGTC VIS Awards"
                 #   url: "https://www.google.com"
-                - text: "Test of Time Awards"
-                  url: "/year/2020/info/awards/test-of-time-awards"
+#                - text: "Test of Time Awards"
+#                  url: "/year/2020/info/awards/test-of-time-awards"
 
 
   - dropdown: "Events & Community"
