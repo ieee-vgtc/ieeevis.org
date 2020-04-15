@@ -29,9 +29,9 @@ All tutorial proposals should include:
 Proposals should not exceed three pages, and should be [submitted via PCS](http://new.precisionconference.com/vgtc/). Please note the [formatting guidelines](http://junctionpublishing.org/vgtc/Tasks/camera.html) when preparing your submission. Authors of accepted tutorials are required to prepare a short summary for the printed program (~50 words).
 
 ## Important Dates
-* Proposal Submission: **Thursday, April 30, 2020**
-* Notification: **Thursday, May 28, 2020**
-* Final Submission of Summaries: **Saturday, August 1, 2020**
+* Proposal Submission: ~~Thursday, April 30, 2020~~ **Sunday, May 31, 2020**
+* Notification: ~~Thursday, May 28, 2020~~ **Sunday, June 28, 2020**
+* Final Submission of Summaries: ~~Saturday, August 1, 2020~~ **Tuesday, September 1, 2020**
 
 All deadlines are at **5:00pm Pacific Time (PDT)**.
 
