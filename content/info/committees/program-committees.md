@@ -218,7 +218,6 @@ Contact: infovis_papers@ieeevis.org
 | Gerik Scheuermann | *Universität Leipzig, Germany* |
 | Jens Schneider | *Hamad Bin Khalifa University, Qatar* |
 | Thomas Schultz | *University of Bonn, Germany* |
-| Han-Wei Shen | *The Ohio State University, USA* |
 | Claudio Silva | *New York University, USA* |
 | Brian Summa | *Tulane University, USA* |
 | Holger Theisel | *University of Magdeburg, Germany* |
