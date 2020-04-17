@@ -111,6 +111,9 @@ permalink: /info/committees/conference-committee
 | Anamaria Crisan | *University of British Columbia* |
 | Carolina Nobre | *Harvard University* |
 |---
+| **BELIV Workshop Liason**| |
+| Kyle Hall | *University of Calgary* |
+|---
 | **Vis in Practice Chairs** | |
 | Matthew Brehmer | *Independent* |
 | Matt Larsen | *Livermore National Laboratory* |
