@@ -66,6 +66,6 @@ Reviewers should be familiar with the [guidelines for reviewing papers for VIS](
 Authors of accepted papers should also follow the [instructions for preparing a camera-ready submission](/year/2020/info/presenter-information/final-information-paper-authors).
 
 ## Open Access Policy
-Visualization research is better communicated and acted on if it is freely accessible to the research community, practitioners, and the general public. Therefore, all paper authors are encouraged to share their accepted paper in an open access repository before the print deadline in accordance with IEEE copyright regulations. For instructions on how to post an accepted paper to an open access repository, please see the [VIS Open Practices Guidelines](/year/2019/info/open-practices/open-practices).
+Visualization research is better communicated and acted on if it is freely accessible to the research community, practitioners, and the general public. Therefore, all paper authors are encouraged to share their accepted paper in an open access repository before the print deadline in accordance with IEEE copyright regulations. For instructions on how to post an accepted paper to an open access repository, please see the [VIS Open Practices Guidelines](/year/2020/info/open-practices/open-practices).
 
 Email: papers@ieeevis.org
