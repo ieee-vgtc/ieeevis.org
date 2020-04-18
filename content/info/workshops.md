@@ -5,6 +5,8 @@ permalink: /info/workshops
 contact: workshops@ieeevis.org
 ---
 
+## Accepted Workshops
+Here is the list of the accepted workshops. Please visit their individual websites for details on the topics and submission deadlines, or contact the organizers directly if no website is available yet. 
 * [Fail Fest: A Workshop Celebrating the Scientific Value of Failure](#failfest)
 * [MLUI 2020: Machine Learning from User Interaction for Visualization and Analytics](#mlui)
 * [MoVIS:	Information Visualization of Geospatial Networks, Flows and Movement](#movis)
@@ -15,6 +17,8 @@ contact: workshops@ieeevis.org
 * [Vis Futures: Design Fiction Methods for Envisioning Tomorrow's Visualizations](#visfutures)
 * [VisGuides: 3rd Workshop on the Creation, Curation, Critique and Conditioning of Principles and Guidelines in Visualization](#visguides)
 * [IEEE VIS Workshop on Visualization Psychology](#vispsy)
+
+<hr/>
 
 ## <a name="failfest"></a> Fail Fest: A Workshop Celebrating the Scientific Value of Failure
 When: TBD
