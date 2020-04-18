@@ -158,7 +158,7 @@ The following example papers show how previously published VAST, InfoVis, and Sc
 |------------|-----------------------------------------------------------------------------------------------------|------------------------------|---------------------------------------------|----------------------------|--------------|-----------------|---------------|-------------|
 | InfoVis | [D³ Data-Driven Documents](http://dx.doi.org/10.1109/TVCG.2011.185) | 922 | System | Software | Systems | Charts |  |
 | InfoVis | [UpSet: Visualization of Intersecting Sets](http://dx.doi.org/10.1109/TVCG.2014.2346248) | 328 | Technique | VisDesign | OtherData: Sets | Tabular |  |
-| InfoVis | Narrative Visualization: Telling Stories with Data](http://dx.doi.org/10.1109/TVCG.2010.179) | 252 |  Theory | Storytelling | Theory |  |  |
+| InfoVis | [Narrative Visualization: Telling Stories with Data](http://dx.doi.org/10.1109/TVCG.2010.179) | 252 |  Theory | Storytelling | Theory |  |  |
 | SciVis | [A Systematic Review on the Practice of Evaluating Visualization](http://dx.doi.org/10.1109/TVCG.2013.126) | 101 | Empirical Studies | HumanQuant | HumanQual | STAR |  |
 | SciVis | [Fixed-Rate Compressed Floating-Point Arrays](http://dx.doi.org/10.1109/TVCG.2014.2346458) | 95 | Technique | Algorithm | Systems | CompBenchmark | DataMgmt |
 | SciVis | [Contour Boxplots: A Method for Characterizing Uncertainty in Feature Sets from Simulation Ensembles](http://dx.doi.org/10.1109/TVCG.2013.143) | 86 | Technique | Scalar | DataAbstr | Isosurfaces | Uncertainty |
