@@ -39,7 +39,7 @@ When submitting a paper in the submission system, the corresponding author will 
 
 Authors can choose **any number of keywords** to define required expertise. Keywords can also be combined to describe a specific required expertise (see examples below).
 
-Authors can also provide **additional keywords** in using the available text fields. These additional keywords cannot be taken into account to recommend a paper automatically to potential reviewers with the selected expertise but they might be used during manual assignments and will be used to collect data for future iterations on the keyword set. 
+Authors can also provide **additional keywords** in using the available text fields. These additional keywords cannot be taken into account to recommend a paper automatically to potential reviewers with the selected expertise but they might be used during manual assignments and will be used to collect data for future iterations on the keyword set.
 
 For junior authors we strongly suggest consulting with their advisor about the most appropriate keywords to choose.
 
@@ -56,7 +56,7 @@ and then **for each keyword** select an expertise rating among four options:
 * **Competent:** I feel competent to give input as a reviewer on at least some topics covered by this keyword. I understand and can discuss topics related to this keyword.
 * **Expert:** I am an expert in topics covered by this keyword. I can provide guidance, troubleshoot and answer questions related to this keyword or contexts where it is used.
 
-Reviewers can also specify **additional expertise keywords** in provided text fields. These additional keywords cannot be taken into account by the paper-matching algorithm and, therefore, will not be used to automatically recommend papers to a reviewer but paper chairs and PC members might take them into account for manual assignments from papers to reviewers and they will be used to collect data on future iterations of the keyword set. 
+Reviewers can also specify **additional expertise keywords** in provided text fields. These additional keywords cannot be taken into account by the paper-matching algorithm and, therefore, will not be used to automatically recommend papers to a reviewer but paper chairs and PC members might take them into account for manual assignments from papers to reviewers and they will be used to collect data on future iterations of the keyword set.
 
 
 ## Keywords
@@ -68,7 +68,7 @@ Following is the complete list of keywords with a description for each keyword:
 * **Graph/Network and Tree Data** (Network): data with network (node/link) or tree/hierarchy structure
 * **High-dimensional Data** (HD): data with a large number of dimension columns (features/attributes) that requires extra effort to process
 *	**Data Models** (Models): the structure of statistical and simulation models, model results and outputs, and the parameter spaces of model inputs as for example in machine learning
-*	**Scalar Field Data** (Scalar): spatial/volume data with one or more scalar variables 
+*	**Scalar Field Data** (Scalar): spatial/volume data with one or more scalar variables
 * **Image and Video Data** (ImageVideo): imagery data in the form of stills or video
 *	**Tabular Data** (Tabular):	tables of row/column data with a moderate number of columns that are directly represented
 * **Temporal Data** (Time):	data that has a temporal component (e.g. time series, time-oriented data, events, time-varying data, trajectories over time...)
@@ -88,7 +88,7 @@ Following is the complete list of keywords with a description for each keyword:
 *	**Guidelines** (Guidelines): deriving or applying guidelines for design and use of visualization & visual analytics techniques
 *	**Interaction Design** (Interaction): the design of interaction techniques and/or interaction design methodologies and practices for any interaction modalities (touch, pen, mouse, speech, proxemics, ...)
 *	**Process/Workflow Design** (Workflow): designing, developing, evaluating, or improving data analysis workflows
-Systems	Software Architecture, Toolkit/Library, Language	...designing/implementing novel platforms/libraries/toolkits for developing or testing
+*   **Software Architecture, Toolkit/Library, Language** (System): designing/implementing novel platforms/libraries/toolkits for developing or testing
 *	**Software Prototype** (Software):	writing or analyzing concrete implementations of tools / systems / applications
 *	**State-of-the-art Survey** (STAR):	conducting, structuring, and writing systematic literature reviews
 *	**Task Abstractions & Application Domains** (Domain_Task):	the practice of eliciting domain or task abstractions and challenges from specific application domains
@@ -101,7 +101,7 @@ Systems	Software Architecture, Toolkit/Library, Language	...designing/implementi
 *	**Human-Subjects Qualitative Studies** (HumanQual): design/conducting/analysis of qualitative empirical studies involving human participants
 *	**Human-Subjects Quantitative Studies** (HumanQuant):	design/conducting/analysis of quantitative empirical studies involving human participants
 
-### Application Areas for Visualization and Visual Analytics 
+### Application Areas for Visualization and Visual Analytics
 *	**Computing: Software, Networks, Security, Performance Engr., Distr. Systems, Databases** (CompSystems):	applications to the general computing domain incl. software, networks, security, databases, visualization (Vis4Vis) etc.
 *	**Life Sciences, Health, Medicine, Biology, Bioinformatics, Genomics** (LifeBio):	applications to the life sciences: incl. medicine, biology, bioinformatics, genomics, health informatics, or others
 *	**Machine Learning, Statistics, Modelling, and Simulation Applications** (MLStatsModel):	applications to machine learning, statistics, modelling, or simulation applications (note: find ML for VIS under "Techniques" below)
@@ -154,14 +154,14 @@ Systems	Software Architecture, Toolkit/Library, Language	...designing/implementi
 ## Example Papers
 The following example papers show how previously published VAST, InfoVis, and SciVis papers can be described using the keywords above.
 
-| Conference | Title | Citation count on IEEEXplore | Link | Paper Type | Keyword 1 | Keyword 2 | Keyword 3 | Keyword 4+ |
+| Conf. | Title | Citations |  Paper Type | Keyword 1 | Keyword 2 | Keyword 3 | Keyword 4 |
 |------------|-----------------------------------------------------------------------------------------------------|------------------------------|---------------------------------------------|----------------------------|--------------|-----------------|---------------|-------------|
-| InfoVis | D³ Data-Driven Documents | 922 | http://dx.doi.org/10.1109/TVCG.2011.185 | System | Software | Systems | Charts |  |
-| InfoVis | UpSet: Visualization of Intersecting Sets | 328 | http://dx.doi.org/10.1109/TVCG.2014.2346248 | Technique | VisDesign | OtherData: Sets | Tabular |  |
-| InfoVis | Narrative Visualization: Telling Stories with Data | 252 | http://dx.doi.org/10.1109/TVCG.2010.179 | Theory | Storytelling | Theory |  |  |
-| SciVis | A Systematic Review on the Practice of Evaluating Visualization | 101 | http://dx.doi.org/10.1109/TVCG.2013.126 | Empirical Studies | HumanQuant | HumanQual | STAR |  |
-| SciVis | Fixed-Rate Compressed Floating-Point Arrays | 95 | http://dx.doi.org/10.1109/TVCG.2014.2346458 | Technique | Algorithm | Systems | CompBenchmark | DataMgmt |
-| SciVis | Contour Boxplots: A Method for Characterizing Uncertainty in Feature Sets from Simulation Ensembles | 86 | http://dx.doi.org/10.1109/TVCG.2013.143 | Technique | Scalar | DataAbstr | Isosurfaces | Uncertainty |
-| VAST | Visual Exploration of Big Spatio-Temporal Urban Data: A Study of New York City Taxi Trips | 220 | http://dx.doi.org/10.1109/TVCG.2013.226 | Application / Design Study | Geospatial | Time | Application |  |
-| VAST | SensePlace2: GeoTwitter analytics support for situational awareness | 141 | http://dx.doi.org/10.1109/VAST.2011.6102456 | Application / Design Study | Text | Geospatial | SocHum | Application |
-| VAST | Enterprise Data Analysis and Visualization: An Interview Study | 105 | http://dx.doi.org/10.1109/TVCG.2012.219 | Empirical Study | HumanQual | SocHum |  |  |
+| InfoVis | [D³ Data-Driven Documents](http://dx.doi.org/10.1109/TVCG.2011.185) | 922 | System | Software | Systems | Charts |  |
+| InfoVis | [UpSet: Visualization of Intersecting Sets](http://dx.doi.org/10.1109/TVCG.2014.2346248) | 328 | Technique | VisDesign | OtherData: Sets | Tabular |  |
+| InfoVis | Narrative Visualization: Telling Stories with Data](http://dx.doi.org/10.1109/TVCG.2010.179) | 252 |  Theory | Storytelling | Theory |  |  |
+| SciVis | [A Systematic Review on the Practice of Evaluating Visualization](http://dx.doi.org/10.1109/TVCG.2013.126) | 101 | Empirical Studies | HumanQuant | HumanQual | STAR |  |
+| SciVis | [Fixed-Rate Compressed Floating-Point Arrays](http://dx.doi.org/10.1109/TVCG.2014.2346458) | 95 | Technique | Algorithm | Systems | CompBenchmark | DataMgmt |
+| SciVis | [Contour Boxplots: A Method for Characterizing Uncertainty in Feature Sets from Simulation Ensembles](http://dx.doi.org/10.1109/TVCG.2013.143) | 86 | Technique | Scalar | DataAbstr | Isosurfaces | Uncertainty |
+| VAST | [Visual Exploration of Big Spatio-Temporal Urban Data: A Study of New York City Taxi Trips](http://dx.doi.org/10.1109/TVCG.2013.226) | 220 | Application / Design Study | Geospatial | Time | Application |  |
+| VAST | [SensePlace2: GeoTwitter analytics support for situational awareness](http://dx.doi.org/10.1109/VAST.2011.6102456) | 141 |  Application / Design Study | Text | Geospatial | SocHum | Application |
+| VAST | [Enterprise Data Analysis and Visualization: An Interview Study](http://dx.doi.org/10.1109/TVCG.2012.219) | 105 | Empirical Study | HumanQual | SocHum |  |  |
