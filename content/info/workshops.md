@@ -23,12 +23,14 @@ Here is the list of the accepted workshops. Please visit their individual websit
 ## <a name="failfest"></a> Fail Fest: A Workshop Celebrating the Scientific Value of Failure
 When: TBD
 
-TBD
+Jane L. Adams, *University of Vermont* <br>
+R. Jordan Crouser, *Smith College* <br>
+Lonni Besançon,	*Linköpings universitet* <br> 
+Paul Rosen, *University of South Florida*
 
 Contact: janelydiaadams@gmail.com
 
-TBD
-
+Failure is a crucial part of the scientific process, but it is rarely given the same respect as success. Fail Fest, a half day workshop at IEEE VIS 2020, is a chance for the visualization community to share personal research failures and celebrate the important knowledge gained through these experiences. The workshop will cumulate strategies for building a VIS community that acknowledges failure and embraces its scientific value.
 
 ## <a name="mlui"></a> [Machine Learning from User Interaction for Visualization and Analytics](https://learningfromusersworkshop.github.io/)
 When: TBD
@@ -46,7 +48,7 @@ Contact: johnwenskovitch@gmail.com
 
 The high-level goal of this workshop is to bring together researchers from across the VIS community to share their knowledge and build collaborations at the intersection of the Machine Learning and Visualization fields, with a focus on learning from user interaction. Our hope in this workshop is to pull expertise from across all fields of VIS in order to generate open discussion about how we currently learn from user interaction and where we can go with future research.
 
-To achieve this goal, we propose a full-day workshop that incorporates paper presentations, keynotes, and free-form discussion. Our goal is to allow for the presentation of cutting-edge research, while also providing participants and speakers with time to exchange ideas and to discuss new research directions.
+To achieve this goal, we propose a workshop that incorporates paper presentations, keynotes, and free-form discussion. Our goal is to allow for the presentation of cutting-edge research, while also providing participants and speakers with time to exchange ideas and to discuss new research directions.
 
 
 ## <a name="movis"></a> [Information Visualization of Geospatial Networks, Flows and Movement](http://move.geog.ucsb.edu/movis2020/)
