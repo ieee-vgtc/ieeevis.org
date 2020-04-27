@@ -16,7 +16,7 @@ IEEE VIS reserves the right to take appropriate action to foster an inclusive an
 
 Please contact [ombuds@ieeevis.org](mailto:ombuds@ieeevis.org) if you experience, observe, or have knowledge of behavior in violation of the Code of Conduct.
 
-The ombuds team for VIS 2019 is: 
+The ombuds team for VIS 2020 is: 
 
 - Anastasia Bezerianos
 - Sheelagh Carpendale
