@@ -132,6 +132,8 @@ menu:
                   description: "Volunteer to review submissions"
                   url: "https://new.precisionconference.com/vgtc"
                   is_external: true
+                - text: "Code of Conduct"
+                  url: "/year/2020/info/inclusion-and-diversity/code-of-conduct"
                 # - text: "Become an organizer"
                 #   description: "TK TK TK Join the committees and help organize VIS"
                 #   url: "https://www.google.com"
