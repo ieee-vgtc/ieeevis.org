@@ -10,8 +10,6 @@ We invite you to participate in IEEE VIS by supporting and exhibiting at the con
 
 For more details please see the [IEEE VIS 2020 Supporter Prospectus]({{ 'content/info/exhibition/VIS_Supporters_Prospectus_2020.pdf' | relative_url }}).
 
-<p class="ieeevis-btn-wrapper"><a href="http://www.cvent.com/d/v6qky6" width="150" class="ieeevis-btn">Sign up now</a> <span style="color: red;">no link yet??</span></p>  
-
 ## Why Support and Exhibit at IEEE VIS 2020
 
 * Meet over 1000 conference participants&mdash;potential customers and collaborators&mdash;leading researchers from government, industry, and academia from around the world who specialize in visual data analysis.
