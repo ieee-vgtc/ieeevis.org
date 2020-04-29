@@ -80,7 +80,7 @@ Visual analytics (VA) systems combine computational support and human cognitive 
 Expertise, bias, and trust are intrinsically intertwined. Additionally, visual analytics systems are used in different fields and by people from various backgrounds, with different levels of domain expertise and experience with machine learning and visual analytics tools. This variety of experience and domain expertise among human users has opened the door for new research directions and challenges in the fields of visual analytics and machine learning. Designers who fail to consider the aforementioned diversities might introduce problems to the analysis effectiveness and user experience. Furthermore, experience and domain expertise might affect user trust in visual analytics tools; although, how and why they affect trust is still an open question. Trust will eventually affect how much the users would rely on and use the tool. While users will take advantage of their prior experiences to make better decisions with the assistance of analytic support, they might carry many cognitive biases that can negatively influence their decision-making or analysis process. Recent research shows trust in and reliance on the visual analytics systems/tools as well as user strategies and biases can be directly influenced by domain and system expertise (or lack of expertise). The goal of this workshop is to bring together researchers and practitioners from different disciplines to discuss and discover challenges in ML supported visual analytics tools and set the stage for future research directions and collaborations regarding these issues by proposing design guidelines, empirical findings, and VA techniques.
 
 
-## <a name="visastro"></a> Visualization in Astrophysics: Developing New Methods, Discovering Our Universe, Educating the Earth
+## <a name="visastro"></a> [Visualization in Astrophysics: Developing New Methods, Discovering Our Universe, Educating the Earth](http://www.sci.utah.edu/~beiwang/visastro2020/)
 When: TBD
 
 Bei Wang, *Scientific Computing and Imaging Institute*  
@@ -119,7 +119,7 @@ Contact: bwatson@ncsu.edu
 Our proposed half-day workshop will bring together communicative visualization practitioners with researchers from several fields to address the questions raised by the rapidly growing communicative uses of visualization (e.g. in-news graphics, information graphics). These questions span issues of audience, application, evaluation, understanding and practice. To encourage participation from communities that do not typically attend IEEE Visualization and write academic papers, we will not only accept short papers but also visual case studies, and recruit program committee members from those communities. We have organized this workshop before with great success: at VIS 2018 with around 70 participants and nine papers and posters, and at VIS 2019 with around 60 participants (the room was over capacity, with people turned away) and 13 papers and posters.
 
 
-## <a name="visfutures"></a> Vis Futures: Design Fiction Methods for Envisioning Tomorrow's Visualizations
+## <a name="visfutures"></a> [Vis Futures: Design Fiction Methods for Envisioning Tomorrow's Visualizations](https://visfutures.github.io/)
 When: TBD
 
 Charles Perin, *University of Victoria*  
