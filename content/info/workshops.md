@@ -20,7 +20,7 @@ Here is the list of the accepted workshops. Please visit their individual websit
 
 <hr/>
 
-## <a name="failfest"></a> Fail Fest: A Workshop Celebrating the Scientific Value of Failure
+## <a name="failfest"></a> [Fail Fest: A Workshop Celebrating the Scientific Value of Failure](https://failfest.github.io/)
 When: TBD
 
 Jane L. Adams, *University of Vermont* <br>
@@ -30,7 +30,7 @@ Paul Rosen, *University of South Florida*
 
 Contact: janelydiaadams@gmail.com
 
-Failure is a crucial part of the scientific process, but it is rarely given the same respect as success. Fail Fest, a half day workshop at IEEE VIS 2020, is a chance for the visualization community to share personal research failures and celebrate the important knowledge gained through these experiences. The workshop will cumulate strategies for building a VIS community that acknowledges failure and embraces its scientific value.
+Failure is a crucial part of the scientific process, but it is rarely given the same respect as success. FailFest, a half day workshop at IEEE VIS 2020, is a chance for the visualization community to share personal research failures and celebrate the important knowledge gained through these experiences. The workshop will cumulate strategies for building a VIS community that acknowledges failure and embraces its scientific value.
 
 ## <a name="mlui"></a> [Machine Learning from User Interaction for Visualization and Analytics](https://learningfromusersworkshop.github.io/)
 When: TBD
