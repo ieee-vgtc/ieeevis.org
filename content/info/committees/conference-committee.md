@@ -104,8 +104,7 @@ permalink: /info/committees/conference-committee
 | Theresia Gschwandtner | *Vienna University of Technology* |
 |---
 | **VizSec Symposium Liaison** | |
-| Dustin Arendt | *Pacific Northwest National Laboratories* |
-| Robert Gove | *Two Six Labs* |
+| Jörn Kohlhammer | *Fraunhofer Institute for Computer Graphics* |
 |---
 | **BioVis Challenges Workshop Liason**| |
 | Anamaria Crisan | *University of British Columbia* |
