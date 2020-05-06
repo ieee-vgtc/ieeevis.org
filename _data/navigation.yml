@@ -235,7 +235,7 @@ menu:
                   description: "Visualization for the Digital Humanities"
                   url: "http://www.vis4dh.org/"
                   is_external: true
-                - text: "LDAV Symposium (coming soon)"
+                - text: "LDAV Symposium"
                   description: "Big Data Analysis and Visualization"
                   url: "https://ldav.org/"
                   is_external: true
