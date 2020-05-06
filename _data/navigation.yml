@@ -237,8 +237,8 @@ menu:
                   is_external: true
                 - text: "LDAV Symposium (coming soon)"
                   description: "Big Data Analysis and Visualization"
-#                  url: "https://ldav.org/"
-#                  is_external: true
+                  url: "https://ldav.org/"
+                  is_external: true
                 - text: "BELIV Workshop"
                   description: "From a Distance: Research practices during the COVID-19 pandemic and beyond."
                   url: "https://beliv-workshop.github.io/"
