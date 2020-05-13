@@ -187,4 +187,4 @@ permalink: /info/committees/conference-committee
 | Lane Harrison | *Worcester Polytechnic Institute* |
 | Steve Petruzza | *University of Utah* |
 | Alper Sarikaya | *Microsoft* |
-| Jagoda Walny | *University of Calgary* |
+| Jagoda Walny | *Canada Energy Regulator* |
