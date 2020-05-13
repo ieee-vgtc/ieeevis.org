@@ -26,6 +26,8 @@ All tutorial proposals should include:
 * A description of the tutorial’s organization including time allocation and outline for major course topics (500 words minimum);
 * The background and contact information for each instructor.
 
+In addition, due to the possibility of a virtual conference in 2020, all proposals should include a description of how the organizers will adjust the tutorial to a virtual format. 
+
 Proposals should not exceed three pages, and should be [submitted via PCS](http://new.precisionconference.com/vgtc/). Please note the [formatting guidelines](http://junctionpublishing.org/vgtc/Tasks/camera.html) when preparing your submission. Authors of accepted tutorials are required to prepare a short summary for the printed program (~50 words).
 
 ## Important Dates
