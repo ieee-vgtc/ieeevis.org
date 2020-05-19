@@ -114,7 +114,7 @@ staff!
 For more information contact IEEE VIS 2020 Community Chairs:
 
 * Jaegul Choo, *Korea University*
-* Weiwei Cui, *Microsoft Research China*
-* Hsiang-Yun, *Wu TU Wien*
+* Karen Schloss, *University of Wisconsin-Madison*
+* Hsiang-Yun Wu, *TU Wien*
 
 email: [community@ieeevis.org](community@ieeevis.org)
