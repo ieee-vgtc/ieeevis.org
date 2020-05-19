@@ -260,7 +260,7 @@ menu:
                   is_external: true
 
           - heading: "Community"
-#           heading_url: "/year/2020/info/call-participation/community"
+            heading_url: "/year/2020/info/call-participation/community"
             description: "Explore social and topic-based community groups"
             columns:
 #              - heading: "Connect"
