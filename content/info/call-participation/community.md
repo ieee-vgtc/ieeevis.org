@@ -113,7 +113,7 @@ staff!
 
 For more information contact IEEE VIS 2020 Community Chairs:
 
-* Jaegul Choo, *Korea University*
+* Jaegul Choo, *KAIST*
 * Karen Schloss, *University of Wisconsin-Madison*
 * Hsiang-Yun Wu, *TU Wien*
 
