@@ -13,11 +13,13 @@ IEEE Vis 2020 solicits submissions in a short paper format. Short papers draw fr
 
 Short papers welcome submissions describing original work with focused and concise research contributions, incremental work such as follow-up extensions or evaluations of existing methods, or exploratory work.   
 
-The short paper submission deadline is June 13, 2020, creating an opportunity to showcase late-breaking research results. This deadline is one week after the June 6 notification for conditional acceptance of full papers, enabling the distillation and focused expression of work that otherwise might not be part of VIS.  
+The short paper submission deadline is June 13, 2020, creating an opportunity to showcase late-breaking research results.
 
 ### Submission Guidelines:
 
 Short papers can be up to four pages plus up to one page of references. Submissions will be in the VGTC conference two-column format, in line with the [IEEE VIS formatting guidelines](http://junctionpublishing.org/vgtc/Tasks/camera.html).
+
+**To submit a short paper, go to [the PCS system](https://new.precisionconference.com/submissions) and select “VGTC > VIS 2020 > VIS 2020 Short Papers” to set up a submission.**
 
 
 ### Publication Details:
