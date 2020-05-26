@@ -30,6 +30,8 @@ We made a [google drive](https://drive.google.com/drive/u/0/folders/1W8Cj0OdjOYx
 - [Meeting Minutes](https://drive.google.com/drive/u/0/folders/1RgMh9o_OUsGRQHWMLm4CCSGBU3539WIM)
 - [Working Documents](https://drive.google.com/drive/u/0/folders/1dqssldHbXLmAD9zeOqHCbfNTb8gjeHKS)
 
+Also, we have prepared a document describing the [area model that will be implemented starting in 2021](/governance/area-model).
+
 **Committee Members 2018-2019**: Tamara Munzner (chair), Min Chen, Alex Endert, Christoph Garth, Petra Isenberg, Alexander Lex, Shixia Liu, Torsten Möller, Anders Ynnerman.  
 **Committee Members 2019-2020**: Christoph Garth (chair), Min Chen, Alex Endert, Petra Isenberg, Alexander Lex, Shixia Liu,  Anders Ynnerman.
 
