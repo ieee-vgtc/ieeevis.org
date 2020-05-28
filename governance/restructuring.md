@@ -24,13 +24,16 @@ The VIS Restructuring Committee has concluded its work and has spawned new commi
 ### The reVISe Committee (2019-ongoing)
 
 
-
 The reVISe Committee was struck in February 2019 by the VEC (VIS Executive Committee), with the mandate of creating a concrete proposal for re-organizing the academic conferences (VAST, InfoVis, SciVis) under a single umbrella, including paper reviewing and governance. It meets weekly, and posts intermediate work products regularly including summarized meeting minutes and key findings. To contact the committee with feedback on any aspect of its work, please write to [revise@ieeevis.org](mailto:revise@ieeevis.org).
 
 We made a [google drive](https://drive.google.com/drive/u/0/folders/1W8Cj0OdjOYxBJxxJzNcmYdNIFt9M0AAD) folder available that contains: 
 - [Meeting Minutes](https://drive.google.com/drive/u/0/folders/1RgMh9o_OUsGRQHWMLm4CCSGBU3539WIM)
 - [Working Documents](https://drive.google.com/drive/u/0/folders/1dqssldHbXLmAD9zeOqHCbfNTb8gjeHKS)
 
-**Committee Members**: Tamara Munzner (chair), Min Chen, Alex Endert, Christoph Garth, Petra Isenberg, Alexander Lex, Shixia Liu, Torsten Möller, Anders Ynnerman.
+Also, we have prepared a document describing the [area model that will be implemented starting in 2021](/governance/area-model).
+
+**Committee Members 2018-2019**: Tamara Munzner (chair), Min Chen, Alex Endert, Christoph Garth, Petra Isenberg, Alexander Lex, Shixia Liu, Torsten Möller, Anders Ynnerman.  
+**Committee Members 2019-2020**: Christoph Garth (chair), Min Chen, Alex Endert, Petra Isenberg, Alexander Lex, Shixia Liu,  Anders Ynnerman.
+
 
 
