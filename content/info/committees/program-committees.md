@@ -11,7 +11,7 @@ While the conference is [transitioning to a combined reviewer model](/governance
 * [VAST Program Committee](#vast-program-committee)
 * [InfoVis Program Committee](#infovis-program-committee)
 * [SciVis Program Committee](#scivis-program-committee)
-* [Short Papers Program Committee](#short-Papers-program-committee)
+* [Short Papers Program Committee](#short-papers-program-committee)
 
 ## VAST Program Committee
 
