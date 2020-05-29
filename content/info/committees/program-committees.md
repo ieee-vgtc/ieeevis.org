@@ -6,12 +6,12 @@ permalink: /info/committees/program-committees
 contact: papers@ieeevis.org
 ---
 
-While the conference is [transitioning to a combined reviewer model](/governance/restructuring), we present the IPC list segmented by VAST, InfoVis, and SciVis.  
+While the conference is [transitioning to a combined reviewer model](/governance/restructuring), we present the IPC list segmented by VAST, InfoVis, SciVis, and Short Papers.  
 
 * [VAST Program Committee](#vast-program-committee)
 * [InfoVis Program Committee](#infovis-program-committee)
 * [SciVis Program Committee](#scivis-program-committee)
-
+* [Short Papers Program Committee](#short-papers-program-committee)
 
 ## VAST Program Committee
 
@@ -78,7 +78,7 @@ While the conference is [transitioning to a combined reviewer model](/governance
 | Ye Zhao | *Kent State University, USA* |
 | Ying Zhao | *Central South University, China* |
 
-Contact: vast_papers@ieeevis.org
+Contact: [vast_papers@ieeevis.org](mailto:vast_papers@ieeevis.org)
 
 ## InfoVis Program Committee
 
@@ -159,7 +159,7 @@ Contact: vast_papers@ieeevis.org
 | Xiaoru Yuan | *Peking University, China* |
 | Jian Zhao | *University of Waterloo, Canada* |
 
-Contact: infovis_papers@ieeevis.org
+Contact: [infovis_papers@ieeevis.org](mailto:infovis_papers@ieeevis.org)
 
 ## SciVis Program Committee
 
@@ -233,4 +233,140 @@ Contact: infovis_papers@ieeevis.org
 | Xiaoru Yuan | *Peking University, China* |
 | Eugene Zhang | *Oregon State University, USA* |
 
-Contact: scivis_papers@ieeevis.org
+Contact: [scivis_papers@ieeevis.org](mailto:scivis_papers@ieeevis.org)
+
+## Short Papers Program Committee
+
+James Eagan | *LTCI, Télécom Paris, Institut Polytechnique de Paris, France* | 
+Dongyu Liu | *MIT, USA*
+Mennatallah El-Assady | *University of Konstanz, Germany*
+Mona Hosseinkhani Loorak | *University of Calgary, USA*
+Michelle Dowling | *Virginia Polytechnic Institution and State University, USA*
+Divya Banesh | *University of California, Davis, USA*
+Ke Xu | *The Hong Kong University of Science and Technology, China*
+Holger Stitz | *datavisyn GmbH, Austria*
+Charles Perin | *University of Victoria, Canada*
+Alexander Rind | *St. Poelten University of Applied Sciences, Austria*
+Paolo Federico | *Nokia, Italy*
+Heidi Lam | *Google Inc., USA*
+Greg Abram | *University of Texas at Austin, USA*
+Alex Godwin | *American University, USA*
+Jan Byška | *Masaryk University, Czech Republic*
+Thomas Höllt | *TU Delft, Netherlands*
+Thomas Polk | *University of Konstanz, Germany*
+Uta Hinrichs | *The University of St Andrews, United Kingdom*
+Bruno Pinaud | *Université de Bordeaux, France*
+Quan Li | *WeBank, China*
+Matthew Berger | *Vanderbilt University, USA*
+Xiting Wang | *Microsoft Research Asia, China*
+David Koop | *Northern Illinois University, USA*
+Alark Joshi | *University of San Francisco, USA*
+Jürgen Bernard | *University of British Columbia, Canada*
+Søren Knudsen | *University of Calgary, Canada*
+Justin Matejka | *Autodesk Research, Canada*
+Alejandro Ribes | *EDF Lab, France*
+Takayuki Itoh | *Ochanomizu University, Japan*
+Wei Xu | *Brookhaven National Laboratory, USA*
+Jesus Pulido | *Los Alamos National Lab, USA*
+Yanhong Wu | *Visa Research, USA*
+Jaegul Choo | *KAIST, Korea, Republic of*
+John Wenskovitch | *Virginia Polytechnic Institute and State University, USA*
+Shusen Liu | *Lawrence Livermore National Laboratory , USA*
+Cong Xie | *Facebook, USA*
+Mario Hlawitschka | *Leipzig University of Applied Sciences, Germany*
+Peer-Timo Bremer | *Lawrence Livermore National Laboratory, USA*
+Josua Krause | *Accern, USA*
+Tarik Crnovrsanin | *University of California, USA*
+Weiwei Cui | *Microsoft Research Asia, China*
+Narges Mahyar | *University of Massachusetts Amherst, USA*
+Bernice Rogowitz | *Columbia University, USA*
+Jo Vermeulen | *Aarhus University, Denmark*
+Alexander Bock | *Linköping University, Sweden*
+Nina McCurdy | *University of Utah, USA*
+Aritra Dasgupta | *New Jersey Institute of Technology, USA*
+Geoffrey Ellis | *University of Konstanz, Germany*
+Kate Schroeder | *Gonzaga University, USA*
+Alper Sarikaya | *Microsoft Corporation, USA*
+Sungsoo Ray Hong | *George Mason University, USA*
+Michael Krone | *University of Tübingen, Germany*
+Jiawan Zhang | *Tianjin University, China*
+Cindy Xiong | *Northwestern University, USA*
+Fabio Miranda | *New York University, USA*
+Paola Valdivia | *INRIA, France*
+Renata Georgia Raidou | *TU Wien, Austria*
+Stefan Jänicke | *University of Southern Denmark, Denmark*
+Florian Heimerl | *University of Wisconsin-Madison, USA*
+Yafeng Lu | *Arizona State University, USA*
+Kristi Potter | *National Renewable Energy Laboratory, USA*
+Guido Reina | *University of Stuttgart, Germany*
+Enamul Hoque | *York University, Canada*
+Cristian Felix | *NYU, USA*
+Helen-Nicole Kostis | *USRA/GESTAR NASA/GSFC, USA*
+Isaac Cho | *University of North Carolina at Charlotte, USA*
+Jiazhi Xia | *Central South University, China*
+Yea-Seul Kim | *University of Washington, USA*
+Alexandru Telea | *Utrecht University, Netherlands*
+Minsuk Kahng | *Georgia Tech, USA*
+Shamal AL-Dohuki | *University of Duhok , Iraq*
+Lonni Besançon | *Linköpings universitet, Sweden*
+Panpan Xu | *Bosch Research, USA*
+Katarína Furmanová | *Masaryk University, Czech Republic*
+Huy Vo | *CUNY City College, USA*
+Anne Berres | *Oak Ridge National Laboratory, USA*
+Emily Wall | *Georgia Tech, USA*
+Siming Chen | *Fraunhofer IAIS, Germany*
+Ying Zhao | *Central South University, China*
+Dirk Zeckzer | *Leipzig University, Germany*
+Dylan Cashman | *Tufts University, USA*
+Noeska Smit | *University of Bergen, Norway*
+Allen Sanderson | *University of Utah, USA*
+Deokgun Park | *University of Texas, USA*
+Arjun Srinivasan | *Georgia Institute of Technology, USA*
+Haichao Miao | *TU Wien, Austria*
+Johanna Beyer | *Harvard University, USA*
+Ye Zhao | *Kent State University, USA*
+Siwei Fu | *The Hong Kong University of Science and Technology, China*
+Christopher Andrews | *Middlebury College, USA*
+Ayan Biswas | *Los Alamos National Laboratory, USA*
+Mike Glueck | *Chatham Labs, Canada*
+Shenghui Cheng | *Stony Brook University, USA*
+Tushar Athawale | *University of Utah, USA*
+Evanthia Dimara | *University of Konstanz, Germany*
+Hsiang-Yun Wu | *TU Wien, Austria*
+Robert Krüger | *Harvard University, USA*
+Michael Behrisch | *Utrecht University, Netherlands*
+Daniel Haehn | *University of Massachusetts Boston, USA*
+Po-Ming Law | *Georgia Institute of Technology, USA*
+Barbora Kozlikova | *Masaryk University, Czech Republic*
+Fereshteh Amini | *Microsoft, USA*
+Jorge Poco | *Getulio Vargas Foundation, Brazil*
+Chris Bryan | *Arizona State University, USA*
+Mohammad Ghoniem | *Luxembourg Institute of Science and Technology, Luxembourg*
+Guodao Sun | *Zhejiang University of Technology, China*
+Jian Chen | *The Ohio State University, USA*
+Fritz Lekschas | *Harvard University, USA*
+G. Elisabeta Marai | *University of Illinois at Chicago, USA*
+Fan Du | *Adobe Research, USA*
+Gabriel Mistelbauer | *Otto-von-Guericke University Magdeburg, Germany*
+Qing Chen | *Ecole Polytechnique, France*
+Nivan Ferreira | *Universidade Federal de Pernambuco, Brazil*
+Nam Wook Kim | *Boston College, USA*
+Yao Ming | *Hong Kong University of Science and Technology, China*
+Ali Sarvghad | *University of Massachusetts Amherst, USA*
+Alex Bigelow | *University of Arizona, USA*
+Bahador Saket | *Georgia Institute of Technology, USA*
+Soumya Dutta | *Los Alamos National Laboratory, USA*
+Marcos Lage | *Universidade Federal Fluminense , Brazil*
+Hongfeng Yu | *UNL, USA*
+Kai Lawonn | *University of Jena, Germany*
+Bum Chul Kwon | *IBM Research, USA*
+Christina Gillmann | *University of Kaiserslautern, Germany*
+Monique Meuschke | *University of Magdeburg, Germany*
+Kuno Kurzhals | *ETH Zürich, Switzerland*
+Carolina Nobre | *Harvard University, USA*
+Cagatay Turkay | *University of Warwick, United Kingdom*
+Fateme Rajabiyazdi | *McGill University, Canada*
+Fernando Paulovich | *Dalhousie University, Canada*
+Karsten Klein | *University of Konstanz, Germany* 
+
+Contact: [vis_shortpapers@ieeevis.org](mailto:vis_shortpapers@ieeevis.org)
