@@ -7,6 +7,14 @@ sidebar: call-for-participation
 contact: doctoral_coll@ieeevis.org
 ---
 
+***UPDATE: Deadline extension of DC to June 30, 2020 & virtual track***
+
+*Due to a number of complications caused by the COVID-19 situation we have decided to extend the submission deadline for the doctoral colloquium to June 30, 2020. With that, we aim to especially give those PhD students impacted by the situation the opportunity to participate at the event. Please also note that it has also been decided that the DC will include a virtual track. So not everyone will need to participate in person.*
+
+*In case of any questions please don't hesitate to contact the VIS DC co-chairs: doctoral_coll@ieeevis.org*
+
+## General Information
+
 We solicit submissions to the doctoral colloquium (DC) for IEEE VIS 2020. The DC is a single-day by invitation-only event taking place the day before IEEE VIS on Oct. 24, 2020. Ph.D. students present their proposed dissertation work and receive feedback from leading senior visualization researchers. We invite contributions from student communities involved in all areas of visualization.
 
 The colloquium will allow students to discuss their research directions in a supportive atmosphere with a panel of distinguished leaders and with their peers. Students can expect helpful feedback and fresh perspectives on their research topics and possible career paths and will have the opportunity to interact closely with expert researchers in their field. The colloquium will support community-building by connecting early-career and established researchers.
@@ -24,7 +32,7 @@ Only selected applicants will be allowed to participate in the colloquium and wi
 Contingent upon pending requests for external sponsorship of the VIS DC, we may be able to partially fund the travel, conference registration, and lodging for accepted DC student participants.
 
 ## Submissions
-The deadline for DC submissions is ~~Wednesday, May 13, 2020, 5pm PDT~~ **Sunday, May 31, 2020, 5pm PDT**.  
+The deadline for DC submissions is ~~Wednesday, May 13, 2020, 5pm PDT~~ **Tuesday, June 30, 2020, 5pm PDT**.  
 Notification: ~~Friday, July 9, 2020~~ **July 31, 2020**.
 
 Applicants to the Doctoral Colloquium should submit:
