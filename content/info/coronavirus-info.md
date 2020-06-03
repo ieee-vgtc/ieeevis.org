@@ -5,7 +5,11 @@ permalink: /info/coronavirus-info
 contact: info@ieeevis.org
 ---
 
-**Updated 19 March 2020**
+**Update 2 June 2020**
+
+Currently, the plan for VIS 2020 is to move forward as scheduled, with the addition of a remote participation component for attendees. The proceedings will be released as usual on IEEE Xplore. The committee will continue monitoring conditions and will provide updates if plans change. Please continue to check our website regularly for further updates. In the meantime, we advise not to book any travel arrangements yet.
+
+**Update 19 March 2020**
 
 IEEE VIS 2020 is still scheduled to be held as planned in the Fall of 2020. However, we acknowledge that the situation is very dynamic, and we will continue to monitor events and update things accordingly. In particular, we have spent substantial time in the last few days to strike a reasonable balance between providing some immediate relief in terms of time and flexibility for the people already affected by the pandemic and the disruption that will inevitably happen in the following months. This message summarizes the final revision of the papers submission timeline that we have developed in response to the current situation.
 
