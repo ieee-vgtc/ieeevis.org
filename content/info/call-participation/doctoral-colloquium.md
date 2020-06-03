@@ -9,7 +9,7 @@ contact: doctoral_coll@ieeevis.org
 
 ***UPDATE: Deadline extension of DC to June 30, 2020 & virtual track***
 
-*Due to a number of complications caused by the COVID-19 situation we have decided to extend the submission deadline for the doctoral colloquium to June 30, 2020. With that, we aim to especially give those PhD students impacted by the situation the opportunity to participate at the event. Please also note that it has also been decided that the DC will include a virtual track. So not everyone will need to participate in person.*
+*Due to a number of complications caused by the COVID-19 situation we have decided to extend the submission deadline for the doctoral colloquium to June 30, 2020. With that, we aim to especially give those PhD students impacted by the situation the opportunity to participate at the event. Please note that it has also been decided that the DC will include a virtual track. So not everyone will need to participate in person.*
 
 *In case of any questions please don't hesitate to contact the VIS DC co-chairs: doctoral_coll@ieeevis.org*
 
