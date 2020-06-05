@@ -26,30 +26,30 @@ registration:
 
 menu:
   - dropdown: "Attend"
-    display: false
+    display: true
     sections:
       - subsections:
-          - heading: "Attending VIS 2020"
+          #- heading: "Attending VIS 2020"
             # heading_url: "https://www.google.com"
-            description: "Join us at the Vancouver Convention Centre East!"
-            columns:
-              - heading: "Attend"
-                links:
-                  - text: "Registration"
-                    url: "/year/2020/info/registration/conference-registration"
+            # description: "Join us at the Vancouver Convention Centre East!"
+            #columns:
+              #- heading: "Attend"
+              #  links:
+              #    - text: "Registration"
+              #      url: "/year/2020/info/registration/conference-registration"
                   # - text: "Conference Venue"
                   #   url: "https://www.google.com"
-                  - text: "Practitioner Guide"
-                    url: "https://visinpractice.github.io/guide.html"
-                    is_external: true                 
-                  - text: "Full Program"
-                    url: "/year/2020/info/week-at-a-glance"
-              - heading: "Travel"
-                links:
-                  - text: "Accommodation"
-                    url: "/year/2020/info/registration/hotel-information"
-                  - text: "Visa & Travel"
-                    url: "/year/2020/info/registration/travel-visas"
+              #    - text: "Practitioner Guide"
+              #      url: "https://visinpractice.github.io/guide.html"
+              #      is_external: true                 
+              #    - text: "Full Program"
+              #      url: "/year/2020/info/week-at-a-glance"
+              #- heading: "Travel"
+              #  links:
+              #    - text: "Accommodation"
+              #      url: "/year/2020/info/registration/hotel-information"
+              #    - text: "Visa & Travel"
+              #      url: "/year/2020/info/registration/travel-visas"
                   # - text: "Things to do in City"
                   #   url: "https://www.google.com"
                   #   is_new: true
@@ -379,7 +379,7 @@ menu:
 #            heading_url: "/"
             columns:
              - links:
-                - text: "October/November 2021, New Orleans, Louisiana, USA"
+                - text: "October 23 - 28 2021, New Orleans, Louisiana, USA"
                   description: ""
                   url: "/"
                 - text: "Bidding"
