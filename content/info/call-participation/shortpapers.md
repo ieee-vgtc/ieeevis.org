@@ -29,11 +29,11 @@ Authors of accepted short papers may subsequently submit to TVCG (the journal, n
 
 Concurrent submissions of short papers and posters are not possible.
 
-### Important Dates:
+### Important Dates (deadline extension):
 
-* Submission Deadline: **June 13, 2020** (no separate abstract deadline)
-* Notification: **July 18, 2020**
-* Submission of Camera-Ready Final Version: **August 1, 2020**
+* Submission Deadline: **July 13, 2020** (no separate abstract deadline)
+* Notification: **August 18, 2020**
+* Submission of Camera-Ready Final Version: **August 25, 2020**
 
 All deadlines are at **5:00pm Pacific Time (PDT)**.
 
