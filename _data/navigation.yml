@@ -26,7 +26,7 @@ registration:
 
 menu:
   - dropdown: "Attend"
-    display: true
+    display: false
     sections:
       - subsections:
           #- heading: "Attending VIS 2020"
