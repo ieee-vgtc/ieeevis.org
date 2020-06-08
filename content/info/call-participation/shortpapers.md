@@ -31,9 +31,9 @@ Concurrent submissions of short papers and posters are not possible.
 
 ### Important Dates (deadline extension):
 
-* Submission Deadline: **July 13, 2020** (no separate abstract deadline)
-* Notification: **August 18, 2020**
-* Submission of Camera-Ready Final Version: **August 25, 2020**
+* Submission Deadline: ~~June 13, 2020~~ **July 13, 2020** (no separate abstract deadline)
+* Notification: ~~July 18, 2020~~ **August 18, 2020**
+* Submission of Camera-Ready Final Version: ~~August 1, 2020~~ **August 25, 2020**
 
 All deadlines are at **5:00pm Pacific Time (PDT)**.
 
