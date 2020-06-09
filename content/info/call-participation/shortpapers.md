@@ -13,7 +13,7 @@ IEEE Vis 2020 solicits submissions in a short paper format. Short papers draw fr
 
 Short papers welcome submissions describing original work with focused and concise research contributions, incremental work such as follow-up extensions or evaluations of existing methods, or exploratory work.   
 
-The short paper submission deadline is June 13, 2020, creating an opportunity to showcase late-breaking research results.
+The short paper submission deadline is ~~June 13, 2020~~ **July 13, 2020**, creating an opportunity to showcase late-breaking research results.
 
 ### Submission Guidelines:
 
