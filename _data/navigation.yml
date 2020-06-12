@@ -219,10 +219,10 @@ menu:
                   description: "Invited talks by visualization practitioners"
                   url: "https://visinpractice.github.io/"
                   is_external: true
-                - text: "VizSec Symposium (coming soon)"
+                - text: "VizSec Symposium"
                   description: "Visualization for Cyber Security"
-#                  url: "https://vizsec.org/vizsec2020/"
-#                  is_external: true
+                  url: "https://vizsec.org/vizsec2020/"
+                  is_external: true
                 - text: "VAHC Workshop (coming soon)"
                   description: "Visual Analytics for Healthcare"
 #                  url: "https://visualanalyticshealthcare.org/"
