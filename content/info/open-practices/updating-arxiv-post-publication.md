@@ -1,3 +1,12 @@
+---
+title: Open Practices arXiv Guidance
+layout: page
+permalink: /info/open-practices/updating-arxiv-post-publication
+active_nav: "Contribute"
+contact: open_practices@ieeevis.org
+---
+
+
 ## Updating the arXiv record post publication 
 Once your paper is processed for publication by IEEE (post final acceptance) and after you receive the DOI, you must post an IEEE copyright notice on your preprint. According to IEEE author FAQ, you can replace the preprint with either: 1) the full citation to the IEEE work with Digital Object Identifiers (DOI) or a link to the paper’s abstract in IEEE Xplore, or 2) the accepted version only (not the IEEE published version), including the IEEE copyright notice and full citation, with a link to the final, published paper in IEEE Xplore.
 
