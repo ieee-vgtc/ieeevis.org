@@ -1,5 +1,5 @@
 ---
-title: Open Practices arXiv Guidance
+title: Open Practices arXiv Guidance for First Time Users
 layout: page
 permalink: /info/open-practices/arxiv-first-time-user
 active_nav: "Contribute"
