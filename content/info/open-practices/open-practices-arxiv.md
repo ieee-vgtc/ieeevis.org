@@ -26,7 +26,7 @@ contact: open_practices@ieeevis.org
 Are you:
 
 * [a first-time arXiv.org user who needs help with registration in the arXiv system?](arxiv-first-time-user)
-* [an overleaf user who needs help getting your paper on the arXiv?](overleaf-user)
+* [an Overleaf user who needs help getting your paper on the arXiv?](overleaf-user)
 * [a previous arXiv user looking for advice specific to IEEE VIS submissions to the arXiv?](vis-specific-arxiv-recommendations)
 
 ## Updating the arXiv record post-publication
