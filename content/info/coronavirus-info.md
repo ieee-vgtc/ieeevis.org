@@ -5,6 +5,12 @@ permalink: /info/coronavirus-info
 contact: info@ieeevis.org
 ---
 
+**Update 19 June 2020**
+
+Following discussions with IEEE, VEC and the VAST, InfoVIS and SciVIS Steering Committees, we the General Chairs have decided not to host the physical meeting in Salt Lake City this year. Instead the conference will be held in a virtual forum using a video conferencing platform, the details of which are currently being worked out. It is our intention to retain as much of the original conference program as is practical, including paper presentations, keynotes, and poster sessions.   
+
+Further details will be provided as soon as possible as we work out how to address each type of session. We look forward to your participation in this exciting new environment and are committed to maintaining the academic value and integrity of the conference.  While our publication policy remains unchanged, we view this as an opportunity to expand our horizons! 
+
 **Update 2 June 2020**
 
 Currently, the plan for VIS 2020 is to move forward as scheduled, with the addition of a remote participation component for attendees. The proceedings will be released as usual on IEEE Xplore. The committee will continue monitoring conditions and will provide updates if plans change. Please continue to check our website regularly for further updates. In the meantime, we advise not to book any travel arrangements yet.
