@@ -1,6 +1,6 @@
 ---
 layout: homepage
-title: "Welcome to IEEE VIS 2020 in Salt Lake City!"
+title: "Welcome to IEEE VIS 2020!"
 permalink: /welcome
 contact: general_chair@ieeevis.org
 ---
