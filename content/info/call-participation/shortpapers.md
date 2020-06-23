@@ -25,8 +25,8 @@ Short papers can be up to four pages plus up to one page of references. Submissi
 ### Publication Details:
 Accepted short papers will be presented at the VIS conference. They will also be included in the conference proceedings and published in IEEE Xplore and assigned a DOI.  
 
-Authors of accepted short papers may subsequently submit to TVCG (the journal, not to the VIS conference) a full paper on the same topic, consistent with the TVCG standard of asking for “more than 30 percent new material and insights” compared to a previous conference paper.
-
+Authors of accepted short papers may subsequently submit to TVCG a full paper on the same topic, consistent with [the TVCG standard](https://www.computer.org/publications/author-resources/peer-review/journals#preliminary) requiring that papers previously published in conference proceedings make additional substantial scientific contributions that build upon the material of the conference publication or include this material as a part of a larger research effort. The authors are encouraged to make mention of this in their cover letter, provide a copy of the previous conference submission and an outline of the added contributions. Providing these materials will help TVCG reviewers to better gauge the scientific value of the work and defuse any possible misconceptions. 
+ 
 Concurrent submissions of short papers and posters are not possible.
 
 ### Important Dates (deadline extension):
