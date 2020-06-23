@@ -48,7 +48,7 @@ Panels will be recorded and posted to Vimeo for archival viewing. Panels from  2
 
 | Date | Activity |
 |------|----------|
-| ~Monday, June 29, 2020~ Wednesday, July 15, 2020 | Proposal Submission |
+| ~~Monday, June 29, 2020~~ Wednesday, July 15, 2020 | Proposal Submission |
 | Monday, August 10, 2020 | Notification |
 | Monday, August 24, 2020 | Final Submission of Panel Summaries and Video Fast Forwards |
       
