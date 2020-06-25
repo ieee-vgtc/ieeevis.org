@@ -152,7 +152,7 @@ The workshop wants to deliver concrete ideas and meta-guidelines about how the v
 - Based on this collection, exercise, create, and discuss a possible framework, or template, or methodology to capture guidelines.
 - Discuss a research agenda on how to address open questions around guidelines and how on-going research - in any field of visualization - can contribute to sustainable management and discussion of guidelines.
 
-## <a name="vispsy"></a> IEEE VIS Workshop on Visualization Psychology
+## <a name="vispsy"></a> [IEEE VIS Workshop on Visualization Psychology](https://sites.google.com/view/vispsych/)
 When: TBD
 
 Danielle Albers Szafir,	*University of Colorado Boulder*  
