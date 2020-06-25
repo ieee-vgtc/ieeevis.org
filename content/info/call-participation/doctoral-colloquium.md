@@ -7,9 +7,11 @@ sidebar: call-for-participation
 contact: doctoral_coll@ieeevis.org
 ---
 
-***UPDATE: Deadline extension of DC to June 30, 2020 & virtual track***
+***UPDATE: VIS DC is going to be fully virtual. Deadline extended to June 30, 2020.***
 
-*Due to a number of complications caused by the COVID-19 situation we have decided to extend the submission deadline for the doctoral colloquium to June 30, 2020. With that, we aim to especially give those PhD students impacted by the situation the opportunity to participate at the event. Please note that it has also been decided that the DC will include a virtual track. So not everyone will need to participate in person.*
+The IEEE DC event will be fully virtual, making it easier for students to participate. We invite contributions from student communities involved in all areas of visualization.
+
+*Due to a number of complications caused by the COVID-19 situation we have decided to extend the submission deadline for the doctoral colloquium to June 30, 2020. With that, we aim to especially give those Ph.D. students impacted by the situation the opportunity to participate in the event virtually.*
 
 *In case of any questions please don't hesitate to contact the VIS DC co-chairs: doctoral_coll@ieeevis.org*
 
