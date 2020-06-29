@@ -5,7 +5,12 @@ active_nav: "Program"
 permalink: /info/papers-sessions		
 ---		
 
-<script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
+<!-- <script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script> -->
+
+<!-- TODO this default style is ugly -->
+<link href="http://addtocalendar.com/atc/1.5/atc-style-blue.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="https://addtocalendar.com/atc/1.5/atc.min.js" async defer></script>
+
 <script type="text/javascript" src="https://momentjs.com/downloads/moment.min.js"></script>
 <script type="text/javascript" src="https://momentjs.com/downloads/moment-timezone-with-data.min.js"></script>
 
@@ -133,7 +138,7 @@ permalink: /info/papers-sessions
 <a>{{entry.location}}</a>
 
 <!-- Button code -->
-<div title="Add to Calendar" class="addeventatc">
+<!-- <div title="Add to Calendar" class="addeventatc">
     Add to My Calendar
     <span class="start">{{entry.start}}</span>
     <span class="end">{{entry.end}}</span>
@@ -141,7 +146,20 @@ permalink: /info/papers-sessions
     <span class="title">{{entry.title}}</span>
     <span class="description">{{entry.title}} - {{entry.authors}}</span>
     <span class="location">{{entry.location}}</span>
-</div>
+</div> -->
+
+<span class="addtocalendar atc-style-blue">
+    <var class="atc_event">
+        <var class="atc_date_start">{{entry.start}}</var>
+        <var class="atc_date_end">{{entry.end}}</var>
+        <var class="atc_timezone">America/Denver</var>
+        <var class="atc_title">{{entry.title}}</var>
+        <var class="atc_description">{{entry.title}} - {{entry.authors}}</var>
+        <var class="atc_location">{{entry.location}}</var>
+        <!-- <var class="atc_organizer">Luke Skywalker</var>
+        <var class="atc_organizer_email">luke@starwars.com</var> -->
+    </var>
+</span>
 
 <br/>
 {% endfor %}
