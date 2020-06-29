@@ -25,9 +25,17 @@ permalink: /info/papers-sessions
 <hr/>
 
 <script type="text/javascript">
+
+  var default_timezone = "America/Denver"
   var times_select = document.getElementById('timezone');
-  var date_format = "ddd do, LT"
+  var print_date_format = "LLL" //#ddd do, LT"
+  var schedule_date_format = "YYYY-MM-DD HH:MM"
   
+  // TODO get actual now, this is hardcoded only for testing
+  var now = "2019-10-22 09:45"
+  var start_soon_mins = 30
+
+
   var zone_names = moment.tz.names()
 
   // TODO maybe we could make this list static
@@ -39,21 +47,46 @@ permalink: /info/papers-sessions
     times_select.appendChild(opt);
   }
   
-  function getLocalAndOriginalTime(t){
-    let otime = moment.tz(t,"America/Denver")
+  function getLocalTime(t){
+    let otime = moment.tz(t,default_timezone)
     let newtime = otime.clone().tz(times_select.value)
-    console.log("in ", otime.format(date_format), "out", newtime.format(date_format))
-    return newtime.format(date_format)
+    return newtime.format(print_date_format)
   }
 
   times_select.onchange = function() {
     var value = this.value;
     var newzone = moment.tz.zone(value)
 
-    var elements = document.getElementsByClassName("time");
-    var elements_text = document.getElementsByClassName("time_value");
-    for(var i=0; i<elements.length; i++) {
-      elements_text[i].innerHTML = "<b>"+getLocalAndOriginalTime(elements[i].value)+"</b>"
+    var start_time_elements = document.getElementsByClassName("start_time");
+    var end_time_elements = document.getElementsByClassName("end_time");
+    var start_time_el_text = document.getElementsByClassName("start_time_text");
+    var end_time_el_text = document.getElementsByClassName("end_time_text");
+
+    for(var i=0; i<start_time_elements.length; i++) {
+      let ms_start = moment(now).diff(moment(start_time_elements[i].value));
+      let ms_end = moment(end_time_elements[i].value).diff(moment(now));
+      let d_start = moment.duration(ms_start);
+      let d_end = moment.duration(ms_end);
+
+      let converted_start_time = getLocalTime(start_time_elements[i].value)
+      let converted_end_time = getLocalTime(end_time_elements[i].value)
+
+      //console.log("diff mins start" , d_start.asMinutes())
+      //console.log("diff mins end" , d_end.asMinutes())
+      
+      if(d_start.asMinutes() >= 0 && d_end.asMinutes() >= 0){
+        start_time_el_text[i].innerHTML = '<span style="color: red">[ Live Now ]</span>&nbsp;' +"<b>"+converted_start_time+"</b>"
+        end_time_el_text[i].innerHTML = converted_end_time
+      }
+      else if(d_start.asMinutes() >= -(start_soon_mins) && d_end.asMinutes() >= 0){
+        start_time_el_text[i].innerHTML = '<span style="color: orange">[ Start Soon ]</span>&nbsp;' +"<b>"+converted_start_time+"</b>"
+        end_time_el_text[i].innerHTML = converted_end_time
+      }
+      else{
+        start_time_el_text[i].innerHTML = converted_start_time
+        end_time_el_text[i].innerHTML = converted_end_time
+      }
+      
     }
 
   };
@@ -76,9 +109,9 @@ permalink: /info/papers-sessions
     return zone;
   }
 
-  document.getElementById('guessTime').onclick = function() {
-    guessTimeZone()
-  };
+  // document.getElementById('guessTime').onclick = function() {
+  //   guessTimeZone()
+  // };
 
 </script>
 
@@ -86,13 +119,13 @@ permalink: /info/papers-sessions
 {% for entry in site.data.papers %}
 
 <a href="#" data-toggle="tooltip" data-placement="top" title="Original Time: {{entry.start}}">
-  <input type="hidden" class="time" value="{{entry.start}}">
-  <b class="time_value">{{entry.start}}</b>
+  <input type="hidden" class="start_time" value="{{entry.start}}">
+  <b class="start_time_text">{{entry.start}}</b>
 </a>
 <span>-</span>
 <a href="#" data-toggle="tooltip" data-placement="top" title="Original Time: {{entry.end}}">
-  <input type="hidden" class="time" value="{{entry.end}}">
-  <b class="time_value">{{entry.end}}</b>
+  <input type="hidden" class="end_time" value="{{entry.end}}">
+  <b class="end_time_text">{{entry.end}}</b>
 </a>
 
 <h4>{{entry.title}}</h4>
