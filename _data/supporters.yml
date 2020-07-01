@@ -12,139 +12,144 @@
 #       url:   #link to the supporter's website
 
 
-- category: Platinum
-  image_size: 200
-  supporters:
-    - name: "Tableau"
-      image: /assets/supporters/tableau.png
-      url: "https://www.tableau.com/"
+# - category: Platinum
+#   image_size: 200
+#   supporters:
+#     - name: "Tableau"
+#       image: /assets/supporters/tableau.png
+#       url: "https://www.tableau.com/"
 
 
-- category: Gold
-  image_size: 150
+# - category: Gold
+#   image_size: 150
+#   supporters:
+#     - name: "Microsoft"
+#       image: /assets/supporters/microsoft.png
+#       url: "https://www.microsoft.com/"
+
+
+- category: Bronze
   supporters:
     - name: "Microsoft"
       image: /assets/supporters/microsoft.png
       url: "https://www.microsoft.com/"
 
+#   supporters:
+#     - name: "Harvard Medical School, Department of Biomedical Informatics"
+#       image: /assets/supporters/DBMI.png
+#       url: "http://dbmi.hms.harvard.edu/"
 
-- category: Bronze
-  supporters:
-    - name: "Harvard Medical School, Department of Biomedical Informatics"
-      image: /assets/supporters/DBMI.png
-      url: "http://dbmi.hms.harvard.edu/"
+#     - name: "Kitware, Inc"
+#       image: /assets/supporters/kitware.png
+#       url: "https://www.kitware.com/"
 
-    - name: "Kitware, Inc"
-      image: /assets/supporters/kitware.png
-      url: "https://www.kitware.com/"
+#     - name: "KAUST"
+#       image: /assets/supporters/KAUST.png
+#       url: "https://vcc.kaust.edu.sa/Pages/Home.aspx"
 
-    - name: "KAUST"
-      image: /assets/supporters/KAUST.png
-      url: "https://vcc.kaust.edu.sa/Pages/Home.aspx"
+#     - name: "IBM/MIT"
+#       image: /assets/supporters/ibm-mit.png
+#       url: "https://mitibmwatsonailab.mit.edu/"
 
-    - name: "IBM/MIT"
-      image: /assets/supporters/ibm-mit.png
-      url: "https://mitibmwatsonailab.mit.edu/"
+#     - name: "Siemens"
+#       image: /assets/supporters/Siemens.png
+#       url: "https://siemens.com/"
 
-    - name: "Siemens"
-      image: /assets/supporters/Siemens.png
-      url: "https://siemens.com/"
-
-    - name: "VIDI Chengying"
-      image: /assets/supporters/VIDI-Chengying.png
-      url: "https://web.cs.ucdavis.edu/~ma/"
+#     - name: "VIDI Chengying"
+#       image: /assets/supporters/VIDI-Chengying.png
+#       url: "https://web.cs.ucdavis.edu/~ma/"
 
 
-- category: Pearl
-  supporters:
-    - name: "Otto von Guericke University Magdeburg"
-      image: /assets/supporters/magdeburg.jpg
-      url: "https://www.uni-magdeburg.de/"
+# - category: Pearl
+#   supporters:
+#     - name: "Otto von Guericke University Magdeburg"
+#       image: /assets/supporters/magdeburg.jpg
+#       url: "https://www.uni-magdeburg.de/"
 
-    - name: "University of Applied Sciences St. Pölten"
-      image: /assets/supporters/stpolten.jpg
-      url: "https://www.fhstp.ac.at/en"
+#     - name: "University of Applied Sciences St. Pölten"
+#       image: /assets/supporters/stpolten.jpg
+#       url: "https://www.fhstp.ac.at/en"
 
-    - name: "Northeastern University, College of Arts, Media and Design"
-      image: /assets/supporters/northeastern.png
-      url: "https://camd.northeastern.edu/"
+#     - name: "Northeastern University, College of Arts, Media and Design"
+#       image: /assets/supporters/northeastern.png
+#       url: "https://camd.northeastern.edu/"
 
-    - name: "Springer"
-      image: /assets/supporters/springer.png
-      url: "https://www.springer.com/"
+#     - name: "Springer"
+#       image: /assets/supporters/springer.png
+#       url: "https://www.springer.com/"
 
-    - name: "VRVis"
-      image: /assets/supporters/VRVIS.png
-      url: "https://www.vrvis.at/"
+#     - name: "VRVis"
+#       image: /assets/supporters/VRVIS.png
+#       url: "https://www.vrvis.at/"
 
-    - name: "University of Arizona HDC"
-      image: /assets/supporters/hdc-arizona.png
-      url: "https://hdc.cs.arizona.edu/"
+#     - name: "University of Arizona HDC"
+#       image: /assets/supporters/hdc-arizona.png
+#       url: "https://hdc.cs.arizona.edu/"
 
-    - name: "Uncharted Software"
-      image: /assets/supporters/uncharted.png
-      url: "https://uncharted.software/"
+#     - name: "Uncharted Software"
+#       image: /assets/supporters/uncharted.png
+#       url: "https://uncharted.software/"
 
-    - name: "Fraunhofer"
-      image: /assets/supporters/fraunhofer.png
-      url: "https://www.igd.fraunhofer.de/"
+#     - name: "Fraunhofer"
+#       image: /assets/supporters/fraunhofer.png
+#       url: "https://www.igd.fraunhofer.de/"
 
-    - name: "SCI"
-      image: /assets/supporters/sci.png
-      url: "https://www.sci.utah.edu/"
+#     - name: "SCI"
+#       image: /assets/supporters/sci.png
+#       url: "https://www.sci.utah.edu/"
 
-    - name: "hs mannheim"
-      image: /assets/supporters/hsmannheim.png
-      url: "https://www.hs-mannheim.de/"
+#     - name: "hs mannheim"
+#       image: /assets/supporters/hsmannheim.png
+#       url: "https://www.hs-mannheim.de/"
 
-    - name: "Parsons"
-      image: /assets/supporters/parsons.png
-      url: "https://www.newschool.edu/parsons/"
+#     - name: "Parsons"
+#       image: /assets/supporters/parsons.png
+#       url: "https://www.newschool.edu/parsons/"
 
-    - name: "Morgan Claypool"
-      image: /assets/supporters/morganclaypool.png
-      url: "https://www.morganclaypool.com"
+#     - name: "Morgan Claypool"
+#       image: /assets/supporters/morganclaypool.png
+#       url: "https://www.morganclaypool.com"
 
-    - name: "Google"
-      image: /assets/supporters/Google.png
-      url: "https://google.com"
+#     - name: "Google"
+#       image: /assets/supporters/Google.png
+#       url: "https://google.com"
 
-    - name: "University of Maryland"
-      image: /assets/supporters/maryland.png
-      url: "https://www.umd.edu"
+#     - name: "University of Maryland"
+#       image: /assets/supporters/maryland.png
+#       url: "https://www.umd.edu"
 
-    - name: "Data Visualization Society"
-      image: /assets/supporters/DVS.png
-      url: "https://www.datavisualizationsociety.com"
+#     - name: "Data Visualization Society"
+#       image: /assets/supporters/DVS.png
+#       url: "https://www.datavisualizationsociety.com"
 
-- category: Other Donations
-  supporters:
-    - name: "Sophos"
-      image: /assets/supporters/sophos.png
-      url: "https://www.sophos.com/"
+# - category: Other Donations
+#   supporters:
+#     - name: "Sophos"
+#       image: /assets/supporters/sophos.png
+#       url: "https://www.sophos.com/"
 
-    - name: "Data Machines Corp"
-      image: /assets/supporters/datamachines.png
-      url: "http://www.datamachines.io/"
+#     - name: "Data Machines Corp"
+#       image: /assets/supporters/datamachines.png
+#       url: "http://www.datamachines.io/"
 
-    - name: "FireEye"
-      image: /assets/supporters/fireeye.png
-      url: "https://www.fireeye.com/"
+#     - name: "FireEye"
+#       image: /assets/supporters/fireeye.png
+#       url: "https://www.fireeye.com/"
 
-    - name: "NVidia"
-      image: /assets/supporters/nvidia.png
-      url: "https://nvidia.com"
+#     - name: "NVidia"
+#       image: /assets/supporters/nvidia.png
+#       url: "https://nvidia.com"
 
-    - name: "University of South Florida"
-      image: /assets/supporters/USF.png
-      url: "https://www.usf.edu"
+#     - name: "University of South Florida"
+#       image: /assets/supporters/USF.png
+#       url: "https://www.usf.edu"
 
-- category: In affiliation/cooperation with
-  supporters:
-    - name: "International Society For Computational Biology"
-      image: /assets/supporters/iscb-logo.jpg
-      url: "https://www.iscb.org/"
+# - category: In affiliation/cooperation with
+#   supporters:
+#     - name: "International Society For Computational Biology"
+#       image: /assets/supporters/iscb-logo.jpg
+#       url: "https://www.iscb.org/"
 
-    - name: "ACM SigChi"
-      image: /assets/supporters/ACM_SIGCHI.png
-      url: "https://sigchi.org/"
+#     - name: "ACM SigChi"
+#       image: /assets/supporters/ACM_SIGCHI.png
+#       url: "https://sigchi.org/"
