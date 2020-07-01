@@ -32,7 +32,7 @@
   supporters:
     - name: "Microsoft"
       image: /assets/supporters/microsoft.png
-      url: "https://www.microsoft.com/"
+      url: "https://www.microsoft.com/research"
 
 #   supporters:
 #     - name: "Harvard Medical School, Department of Biomedical Informatics"
