@@ -17,10 +17,11 @@ No, posters will **not** be published/indexed through IEEE Xplore. The aim of th
 
 *What are my responsibilities as a poster author?*
 
-To facilitate dissemination, discussion, and access, posters will be available on the electronic displays during  IEEE VIS. The number of poster displays will be around 20, and posters will be rotated throughout the week. Viewers will also be able to interactively select posters on the electronic displays. In addition, posters will be  presented in person,  by standing with the interactive poster during the scheduled poster session itself to describe the work and to answer questions. Each poster will be scheduled for one viewing session of approx. 30 minutes. If the poster has multiple authors, not all authors need to be there, however, the poster must be staffed by at least one person at all times during the respective poster session. 
+To facilitate dissemination, discussion, and access, posters will be available on the conference website during IEEE VIS. In addition, posters will be  presented in person during the scheduled virtual poster session itself (more details will follow). Presenters will be able to describe the work and to answer questions. Each poster will be scheduled for one viewing session. If the poster has multiple authors, not all authors need to be there, however, the poster must be staffed by at least one person at all times during the respective poster session. 
+
 *What do I have to submit: the two-page summary, the poster, or both?*
 
-You need to submit the two-page summary and any accompanying materials that help explain your work and that are indicative of what you will show at the poster session. The electronic poster itself only needs to be prepared for accepted submissions and can be created through a web-based interface. The link to it and a detailed description will be provided after acceptance to the conference..
+You need to submit the two-page summary and any accompanying materials that help explain your work and that are indicative of what you will show at the poster session. The electronic poster itself only needs to be prepared for accepted submissions and can be created through a web-based interface. The link to it and a detailed description will be provided after acceptance to the conference.
 
 *Can I get an extension to the deadline?*
 
@@ -28,16 +29,4 @@ The submission deadline is a hard deadline. We do not give extensions because we
 
 *What makes for a good poster?*
 
-The key content of the poster should be easy to interpret from two or three meters away. The poster may also have more dense text, graphics, or videos, suitable for viewers who come for a closer look, standing perhaps one meter away. Consider also that the material on the poster should be useful for you to illustrate important aspects of your work when discussing it individually with attendees during your session. This may involve text, but may focus predominantly on (interactive) visualization - it is IEEE VIS after all! Don't forget to include your name, affiliation, and contact information on the poster. At the respective poster session, you should have your business card or a leaflet ready to give to interested people.
-
-*Will I have an internet connection for my laptop?*
-
-No - we can't guarantee this. You shouldn't plan on having an internet connection during your session as we cannot guarantee that there will be reliable wireless access.
-
-*Will AC power be available for my laptop or other devices?*
-
-Sorry, we can't promise AC power outlets. Please charge your batteries before the session.
-
-*Can I leave my laptop or other equipment in the poster area before or after the session?*
-
-The poster session is in an unsecured open area. Keep an eye on your laptop and take all your gear with you.
+The key content of the poster should convey a good overview of the presented topic. The poster may also have more dense text, graphics, or videos, suitable for viewers who are interested in the details of the work. Consider also that the material on the poster should be useful for you to illustrate important aspects of your work when discussing it individually with attendees during your session. This may involve text, but may focus predominantly on (interactive) visualization - it is IEEE VIS after all! Don't forget to include your name, affiliation, and contact information on the poster. At the respective virtual poster session, you should have your contact details or a link to a virtual leaflet ready to give it to interested people.
