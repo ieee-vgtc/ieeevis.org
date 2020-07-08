@@ -19,5 +19,6 @@ For more details please see the [IEEE VIS 2020 Supporter Prospectus]({{ 'content
 * Gold supporters and above will be able to present their technologies and research in an official industry forum held during the conference.
 * Silver supporters and above can increase the visibility of their products/organization through commercial videos played during virtual waiting rooms.
 * Silver supporters and above will also be featured in a product highlight email sent to VIS registrants before and after the conference.
-
+* Platinum supporters and above will have the opportunity to speak at a dedicated sponser session and be featured in a sponsor slide during the general session.
+* Diamond supporters will have a speaking opportunity at a dedicated industry forum and can sponsor the electronic poster program with their company logo displayed between poster transitions.
 You can also contact the supporter chairs: [supporters@ieeevis.org](mailto:supporters@ieeevis.org). 
