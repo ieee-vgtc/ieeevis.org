@@ -5,165 +5,99 @@ permalink: /info/tutorials
 contact: tutorials@ieeevis.org
 ---
 
-<b color="red">TODO: CHANGE TEXT for tutorials</b>
-
 ## Accepted Tutorials
-Here is the list of the accepted workshops. Please visit their individual websites for details on the topics and submission deadlines, or contact the organizers directly if no website is available yet. 
-* [Fail Fest: A Workshop Celebrating the Scientific Value of Failure](#failfest)
-* [MLUI 2020: Machine Learning from User Interaction for Visualization and Analytics](#mlui)
-* [MoVIS:	Information Visualization of Geospatial Networks, Flows and Movement](#movis)
-* [TREX: Workshop on TRust and EXpertise in Visual Analytics](#trex)
-* [VisActivities: Workshop on Data Vis Activities to Facilitate Learning, Reflecting, Discussing, and Designing](#visactivities)
-* [Visualization in Astrophysics: Developing New Methods, Discovering Our Universe, Educating the Earth](#visastro)
-* [VisComm: Workshop on Visualization for Communication](#viscomm)
-* [Vis Futures: Design Fiction Methods for Envisioning Tomorrow's Visualizations](#visfutures)
-* [VisGuides: 3rd Workshop on the Creation, Curation, Critique and Conditioning of Principles and Guidelines in Visualization](#visguides)
-* [IEEE VIS Workshop on Visualization Psychology](#vispsy)
+Here is the list of the accepted tutorials. 
+* [Visualization Analysis and Design](#VAD)
+* [Color Basics for Creating Visualizations](#CBCV)
+* [Scientific Visualization in Houdini: How to use Visual Effects Software for a Cinematic Presentation of Science](#Houdini)
+* [Topological Data Analysis Made Easy with the Topology ToolKit, What is New?](#TTK)
+* [ParaView Tutorial ](#ParaView)
+* [Theory and Application of Visualization Color Tools and Strategies](#TAVC)
+* [How to Make Your Empirical Research Transparent](#Empirical)
+* [Artifact-Based Rendering: VR Visualization by Hand ](#VR)
 
 <hr/>
 
-## <a name="failfest"></a> [Fail Fest: A Workshop Celebrating the Scientific Value of Failure](https://failfest.github.io/)
+## <a name="VAD"></a> Visualization Analysis and Design
 When: TBD
 
-Jane L. Adams, *University of Vermont* <br>
-R. Jordan Crouser, *Smith College* <br>
-Lonni Besançon,	*Linköpings universitet* <br> 
-Paul Rosen, *University of South Florida*
+Tamara Munzner, *University of British Columbia* 
 
-Contact: janelydiaadams@gmail.com
+This introductory tutorial will provide a broad foundation for thinking systematically about visualization systems, built around the idea that becoming familiar with analyzing existing systems is a good springboard for designing new ones. The major data types of concern in visual analytics, information visualization, and scientific visualization will all be covered: tables, networks, and sampled spatial data. This tutorial is focused on data and task abstractions, and the design choices for visual encoding and interaction; it will not cover algorithms. No background in computer science or visualization is assumed.
 
-Failure is a crucial part of the scientific process, but it is rarely given the same respect as success. FailFest, a half day workshop at IEEE VIS 2020, is a chance for the visualization community to share personal research failures and celebrate the important knowledge gained through these experiences. The workshop will cumulate strategies for building a VIS community that acknowledges failure and embraces its scientific value.
-
-## <a name="mlui"></a> [Machine Learning from User Interaction for Visualization and Analytics](https://learningfromusersworkshop.github.io/)
+## <a name="CBCV"></a> Color Basics for Creating Visualizations
 When: TBD
 
-John Wenskovitch, *Virginia Polytechnic Institute and State University*  
-Michelle Dowling, *Virginia Polytechnic Institution and State University*  
-Eli T Brown,	*DePaul University*  
-Kristin Cook,	*PNNL*
-Ab Mosca, *Tufts University*  
-Conny Walchshofer, *Johannes Kepler University Linz*  
-Marc Streit,	*Johannes Kepler University Linz*  
-Kai Xu,	*Middlesex University*  
+Theresa-Marie Rhyne, *Visualization Consultant*
 
-Contact: johnwenskovitch@gmail.com
+We provide an overview of the basics of color theory and demonstrate how to apply the concepts to visualization. Our tutorial is intended for a broad audience of individuals interested in understanding the mysteries of color. Our journey includes the introduction to the concepts of color models and harmony, a review of color vision principles, the defining of color gamut, spaces and systems, and demonstrating online and mobile apps for performing color analyses of digital media. Freely available commercial and research tools for your continued use in color selection and color deficiency assessments are highlighted. The tutorial includes concepts from art and design such as extending the fundamentals of the Bauhaus into data visualization as well as overviews of color perception and appearance principals for vision. Emerging trends in automated color selection and deep learning colorization are also highlighted.
 
-The high-level goal of this workshop is to bring together researchers from across the VIS community to share their knowledge and build collaborations at the intersection of the Machine Learning and Visualization fields, with a focus on learning from user interaction. Our hope in this workshop is to pull expertise from across all fields of VIS in order to generate open discussion about how we currently learn from user interaction and where we can go with future research.
-
-To achieve this goal, we propose a workshop that incorporates paper presentations, keynotes, and free-form discussion. Our goal is to allow for the presentation of cutting-edge research, while also providing participants and speakers with time to exchange ideas and to discuss new research directions.
-
-
-## <a name="movis"></a> [Information Visualization of Geospatial Networks, Flows and Movement](http://move.geog.ucsb.edu/movis2020/)
+## <a name="Houdini"></a> Scientific Visualization in Houdini: How to use Visual Effects Software for a Cinematic Presentation of Science
 When: TBD
 
-Clio Andris,	*Georgia Tech*  
-Somayeh Dodge,	*University of California at Santa Barbara*  
-Alan MacEachren,	*Pennsylvania State University*  
+Kalina Borkiewicz,	*University of Illinois at Urbana-Champaign*<br> 
+AJ Christensen,	*University of Illinois at Urbana-Champaign* 
 
-Contact: clio@gatech.edu, sdodge@ucsb.edu, maceachren@psu.edu
+Cinematic scientific visualization makes three dimensional scientific phenomena approachable for mass audiences by using the artistic language of film including elements like camera choreography, lighting design, comprehensive scenic environments, and more. Cinematic scientific visualizations are an engaging way for domain experts to communicate niche information with the public, to refute widely held misconceptions, and to inspire the scientists of the future. Science films that feature these visualizations are screened at science centers to millions of viewers over the span of 10+ years and bridge different languages and cultures. They are shared widely on social media, featured regularly in television programs, and contribute to the success of public lectures.
 
-This workshop will bring Geographic Information Scientists to the VIS community and stimulate new insights by providing a forum that connects diverse methods and ideas. The goal of this workshop is to interactively share advances in the visualization of network, flow and movement data for knowledge discovery, exploratory spatial data analysis (ESDA) and decision-making.
+If you are a domain expert looking to share your data more widely, or a visualization designer who has focused on more analytical tools, what better way is there to get started with a Hollywood style than by using Hollywood tools? This tutorial will introduce participants to Houdini, a visual effects software package that can generate cinematic-quality data visualizations with ease and efficiency. It is used and appreciated by most major animation and visual effects film studios for its procedural architecture, its modular design, and out-of-the-box rendering algorithms, all important features for ease-of-use in the field of data visualization. Houdini is a general-purpose image-making software that differs from most traditional scientific visualization tools in that it is optimized for look development and design functionality.
+
+In this tutorial, participants will learn how to use Houdini to create a production-quality visualization from start to finish. They will translate a tornado cloud simulation into a Houdini-friendly format using Python, then ingest it into Houdini, transform it, add an environment, a camera, and a light source which mimics a sunset. Participants will be able to experiment with their own data transfer functions, camera movement, and lighting design. Several pre-made Houdini sample scenes will be explored to show how to create derivative data, how to turn 2D images into 3D height fields, and how to manipulate polygons, point clouds, and volumes.
 
 
-## <a name="trex"></a>[TREX: Workshop on TRust and EXpertise in Visual Analytics](https://trexvis.github.io/Workshop2020/index.html)
+## <a name="TTK"></a> Topological Data Analysis Made Easy with the Topology ToolKit, What is New?
 When: TBD
 
-Eric Ragan,	*University of Florida*  
-Mahsan Nourani,	*University of Florida*  
-Emily Wall,	*Georgia Tech, Atlanta*  
-John Goodall,	*Oak Ridge National Laboratory*  
-Aritra Dasgupta,	*New Jersey Institute of Technology (NJIT)*  
-Kristin Cook,	*PNNL*  
+Martin Falk, *Linköping University* <br>
+Christoph Garth, *Technische Universität Kaiserslautern* <br>
+Charles Gueunet, *Kitware* <br>
+Pierre Guillou, *Sorbonne Université* <br>
+Attila Gyulassy, *University of Utah* <br>
+Lutz Hofmann, *Heidelberg University* <br>
+Christopher P Kappe, *TU Kaiserslautern* <br>
+Joshua A Levine, *University of Arizona* <br>
+Jonas Lukasczyk, *Technische Universität Kaiserslautern* <br>
+Julien Tierny, *France Sorbonne Université* <br>
+Jules Vidal, *Sorbonne Université*
 
-Contact: mahsannourani@ufl.edu, eragan@ufl.edu
+This tutorial presents topological methods for the analysis and visualization of scientific data from a user’s perspective, with the Topology ToolKit (TTK), an open-source library for topological data analysis. Topological methods have gained considerably in popularity and maturity over the last twenty years and success stories of established methods have been documented in a wide range of applications (combustion, chemistry, astrophysics, material sciences, etc.) with both acquired and simulated data, in both post-hoc and in-situ contexts. This tutorial aims to fill a gap by providing a beginner’s introduction to topological methods for practitioners, researchers, students, and lecturers. In particular, instead of focusing on theoretical aspects and algorithmic details, this tutorial focuses on how topological methods can be useful in practice for concrete data analysis tasks such as segmentation, feature extraction or tracking. The tutorial describes in detail how to achieve these tasks with TTK. In comparison to the last two iterations of this tutorial, this iteration emphasizes the features of TTK which now appear to be the most popular, as well as the latest additions to the library. First, we provide a general introduction to topological methods and their application in data analysis, and a brief overview of TTK’s main entry point for end users, namely ParaView, will be presented. Second, we will proceed to a hands-on session demoing the main features of TTK as well as its most recent additions. Third, we will present advanced usages of TTK, including the usage of TTK with Python, the development of a new module for TTK as well as the integration of TTK into a pre-existing system. Presenters of this tutorial include experts in topological methods, core authors of TTK as well as active users, coming from academia and industry. A large part of the tutorial will be dedicated to hands-on exercises and a rich material package will be provided to the participants. This tutorial mostly targets students, practitioners and researchers who are not necessarily experts in topological methods but who are interested in using them in their daily tasks. We also target researchers already familiar to topological methods and who are interested in using or contributing to TTK. We kindly ask potential attendees to optionally pre-register at the following address, in order for us to reach out to them ahead of the tutorial with information updates (for instance, last minute updates, instructions for the download of the tutorial material package, etc.): https://forms.gle/CvrY3oWZB9hWSQJb9
+Tutorial web page (including all material, TTK pre-installs in virtual machines, code, data, demos, video tutorials, slides, etc): https://topology-tool-kit.github.io/ieeeVisTutorial.html
 
-Visual analytics (VA) systems combine computational support and human cognitive and perceptual skills to explore and analyze data. Many of these systems have been incorporating machine learning (ML) models and algorithms to introduce some level of automation to the analytical process. However, within this relationship, there are a number of aspects that can impact the effectiveness of the human-machine teaming, including: 1) People's domain and system expertise; 2) Human biases, including cognitive and perceptual biases; 3) Trust in ML models and visual representation of data.
-
-Expertise, bias, and trust are intrinsically intertwined. Additionally, visual analytics systems are used in different fields and by people from various backgrounds, with different levels of domain expertise and experience with machine learning and visual analytics tools. This variety of experience and domain expertise among human users has opened the door for new research directions and challenges in the fields of visual analytics and machine learning. Designers who fail to consider the aforementioned diversities might introduce problems to the analysis effectiveness and user experience. Furthermore, experience and domain expertise might affect user trust in visual analytics tools; although, how and why they affect trust is still an open question. Trust will eventually affect how much the users would rely on and use the tool. While users will take advantage of their prior experiences to make better decisions with the assistance of analytic support, they might carry many cognitive biases that can negatively influence their decision-making or analysis process. Recent research shows trust in and reliance on the visual analytics systems/tools as well as user strategies and biases can be directly influenced by domain and system expertise (or lack of expertise). The goal of this workshop is to bring together researchers and practitioners from different disciplines to discuss and discover challenges in ML supported visual analytics tools and set the stage for future research directions and collaborations regarding these issues by proposing design guidelines, empirical findings, and VA techniques.
-
-
-## <a name="visastro"></a> [Visualization in Astrophysics: Developing New Methods, Discovering Our Universe, Educating the Earth](http://www.sci.utah.edu/~beiwang/visastro2020/)
+## <a name="ParaView"></a> ParaView Tutorial
 When: TBD
 
-Bei Wang, *Scientific Computing and Imaging Institute*  
-Juna Kollmeier, *Carnegie Observatories*  
-Lauren Anderson, *Carnegie Observatories*  
+John M Patchett, *Los Alamos National Laboratory*<br>
+Ethan Stam, *Los Alamos National Laboratory*<br>
+Dan Lipsa, *Kitware*<br>
+Michael Migliore, *Kitware*<br>
+Kenneth Moreland, *Sandia National Laboratories*
 
-Contact: beiwang@sci.utah.edu
+ParaView is a flexible, extensible, open source, visualization tool that can operate both serially and in distributed memory parallel modes. It can be used to visualize and analyze both large and small data, both interactively and in batch. In this tutorial, we will expose the pipeline based design of the tool and show attendees how they can get meaningful visualizations from their data. We will cover frequently used ParaView workflows, including data wrangling, common filters for transforming data for visualization, choosing representations, exploring the rendering capabilities, and manipulating color maps. Attendees will leave the tutorial confident in their ability to run ParaView and find solutions to their problems. 
 
-We propose a workshop during VIS 2020 titled "Visualization in Astrophysics: Developing New Methods, Discovering Our Universe, Educating the Earth". The workshop aims to bring together researchers in astronomy and visualization in addressing emerging directions in visualization for large and complex astronomical datasets. It will facilitate close interactions among the attendees with the aim of accelerating the convergence between astronomy and visualization research, specifically in the development of practical visualization techniques and tools for large astronomical data. The workshop aims to have research talks in astronomy and visualization, including talks with planetaria content. It also aims to have moderated discussions and hands-on sessions to discuss potential solutions to mini-challenges involving well-curated astronomy data.
-
-
-## <a name="visactivities"></a> [Workshop on Data Vis Activities to Facilitate Learning, Reflecting, Discussing, and Designing](https://visactivities.github.io/)
+## <a name="TAVC"></a> Theory and Application of Visualization Color Tools and Strategies
 When: TBD
 
-Samuel Huron, *Telecom Paris Tech*  
-Benjamin Bach, *University of Edinburgh*  
-Uta Hinrichs, *University of St Andrews*  
-Jonathan C. Roberts, *Bangor University*  
-Mandy Keck, *Technische Universität Dresden*  
-
-Contact: bbach@inf.ed.ac.uk
-
-This workshop focuses on data-visualization activities, especially methods and challenges for teaching and engaging with data visualization concepts, knowledge, and practices. For example, sketching aids designers to consider alternative ideas; manipulating tokens help students conceptualize quantities for data visualization; user interviews and discussions help developers understand requirements. Workshops, classes, or collaborations with domain experts, often include hands-on data visualization activities that involve analog or digital tools and materials and more or less well defined protocols. Recent years have seen the emergence of such data visualization activities in different contexts, including education, visualization design, activism, self-reflection, and interdisciplinary collaboration. However, the broad range of contexts and target audiences that Data-Vis activities have been applied to makes it difficult to collect and identify commonalities and build knowledge in a systematic way. Thus, the goals of this workshop are i) start building an understanding and to synthesize protocols and materials used to lead data vis activities, ii) to bring together researchers, practitioners, and educators from within and outside of the visualization community, iii) brainstorm, design, experience, and try novel activities, and to iv) discuss issues around goals, methods, audiences, materials, and evaluation for teaching data visualization.
+Francesca Samsel, *University of Texas at Austin*<br>
+Danielle Albers Szafir, *University of Colorado*<br>
+Karen Schloss, *University of Wisconsin-Madison*
+  
+In this tutorial, we will discuss the theory and usage of color encoding design for visualization, including state-of-the-art strategies and tools. Several new color palette and colormap construction tools such as Colorgorical, Color Crafter, ColorMoves, CCCtool have recently been released. This tutorial is designed to help participants understand their features, strengths and constraints in order to enable the selection of the tool that best aligns with their needs. We will first discuss principles, decisions, and mechanisms for designing effective color encodings and then explore these tools in hands-on sessions, creating color palettes and colormaps, and testing them on data. We will close with a discussion of how future tools may aid in open challenges for using color in visualization. 
 
 
-## <a name="viscomm"></a> [VisComm: Workshop on Visualization for Communication](https://viscomm.io/)
+## <a name="Empirical"></a> How to Make Your Empirical Research Transparent
 When: TBD
 
-Adriana Arcia, *Columbia University*  
-Alvitta Ottley, *Washington University*  
-Robert Kosara, *Tableau Research*  
-Benjamin Watson, *North Carolina State University*   
+Steve Haroz, *Inria*
 
-Contact: bwatson@ncsu.edu
+Two fundamental tenets of scientific research are that it can be scrutinized and built-upon. Both require that the collected data, supporting materials, and decision timing be shared, so others can examine, reuse, and extend them. This tutorial will teach how you can share the artifacts of your own research. You will learn about the benefits gained by making different components or stages of research transparent, including decision timing, data collection procedures, raw data, and analysis & code. And for each, there will be tips and tricks as well as a walkthrough on how to share your work using the Open Science Framework. Bringing your laptop is highly encouraged.
 
-Our proposed half-day workshop will bring together communicative visualization practitioners with researchers from several fields to address the questions raised by the rapidly growing communicative uses of visualization (e.g. in-news graphics, information graphics). These questions span issues of audience, application, evaluation, understanding and practice. To encourage participation from communities that do not typically attend IEEE Visualization and write academic papers, we will not only accept short papers but also visual case studies, and recruit program committee members from those communities. We have organized this workshop before with great success: at VIS 2018 with around 70 participants and nine papers and posters, and at VIS 2019 with around 60 participants (the room was over capacity, with people turned away) and 13 papers and posters.
+We will also discuss what to do (and what you do not need to do) when reviewing a paper with open materials. You will hopefully walk away with an improved ability to make your own research more empirically replicable and computationally reproducible. These skills can enable you to have a greater impact on the field by facilitating reuse and further development of your ideas by both other researchers and those who wish to apply your work.
 
-
-## <a name="visfutures"></a> [Vis Futures: Design Fiction Methods for Envisioning Tomorrow's Visualizations](https://visfutures.github.io/)
+## <a name="VR"></a> Artifact-Based Rendering: VR Visualization by Hand
 When: TBD
 
-Charles Perin, *University of Victoria*  
-Wesley Willett,	*University of Calgary*  
-Katherine Currier, *University of Calgary*  
-Lora Oehlberg,	*University of Calgary*  
-Sheelagh Carpendale,	*Simon Fraser University*  
+Daniel F. Keefe, *University of Minnesota*<br>
+Francesca Samsel, *University of Texas at Austin*<br>
+Bridger Herman, *University of Minnesota*
 
-Contact: cperin@uvic.ca
-
-The goal of this workshop is to initiate the creation of one or several cards decks through a series of hands-on activities, that will serve as a tool for generating visualization design fictions. Although methods exist to ideate visualization designs, they are not tailored to design fictions. And although some methods exist for generating design fictions, they are not tailored to visualization. We believe that creating a design fiction method for envisioning tomorrow's visualizations is essential for the research community to think about speculative design. There is also considerable pedagogical value in such a cards game, and these could result in a fun and creative in-class activity for teaching visualization design.
-
-
-## <a name="visguides"></a> [VisGuides: 3rd Workshop on the Creation, Curation, Critique and Conditioning of Principles and Guidelines in Visualization](https://nms.kcl.ac.uk/c4pgv/)
-When: TBD
-
-Alfie Abdul-Rahman, *King's College London*  
-Alexandra Diehl, *University of Zurich*  
-Benjamin Bach, *University of Edinburgh*  
-
-Contact: alfie.abdulrahman@kcl.ac.uk
-
-Our VisGuides 2020 Workshop proposal focuses on the analysis, design, reflection, and discussion of applicable frameworks to mastering guidelines in visualization by the broader visualization community, embedded in a larger research agenda of visualization theory and practices.
-
-This workshop follows-up the ideas from the IEEE VIS 2016 and 2018 Workshop on Creation, Curation, Critique and Conditioning of Principles and Guidelines in Visualization (C4PGV) (http://c4pgv.swansea.ac.uk, https://c4pgv.dbvis.de/).
-
-The workshop wants to deliver concrete ideas and meta-guidelines about how the visualization community can contribute to the collection, storage, formulation, and dissemination of guidelines - within and beyond the visualization community. To make this possible, we aim at:
-- Discussing work-in-progress and current activities around visualization guidelines.
-- Collect a comprehensive list of common and less common guidelines.
-- Based on this collection, exercise, create, and discuss a possible framework, or template, or methodology to capture guidelines.
-- Discuss a research agenda on how to address open questions around guidelines and how on-going research - in any field of visualization - can contribute to sustainable management and discussion of guidelines.
-
-## <a name="vispsy"></a> [IEEE VIS Workshop on Visualization Psychology](https://sites.google.com/view/vispsych/)
-When: TBD
-
-Danielle Albers Szafir,	*University of Colorado Boulder*  
-Rita Borgo,	*Kings College London*  
-Darren J. Edwards,	*Swansea University*  
-Lace Padilla, *UC Merced*  
-Brian David Fisher,	*Simon Fraser University*  
-Min Chen,	*University of Oxford*  
-
-Contact: d.j.edwards@swansea.ac.uk, min.chen@oerc.ox.ac.uk
-
-Before 2010, each VIS conference typically featured 0-2 papers on empirical studies. The VisWeek 2010 in Salt Lake City became a turning point, and since then more and more empirical study papers have been presented at VIS. Between 2016 and 2019, there were some 60 empirical study papers in VIS/TVCG tracks. Many young talents who are knowledgeable in both VIS and psychology emerged in the VIS community, while many colleagues in psychology are authoring and co-authoring such papers and attending VIS conferences. It is therefore timely to ask: Is there a need for "Visualization Psychology" as a new interdisciplinary subject? Led by young researchers in both VIS and psychology, this proposed workshop will complement BELIV and VISxVISION by (i) identifying a broad range of visualization phenomena that cannot be adequately explained by existing theories and experiments in VIS and psychology; (ii) Exploring the research questions beyond the scope of visual perception and reaching out to more research findings in psychology in many areas of cognition; and (iii) Enabling visualization and visual analytics to become a rich playground for making fundamental discoveries in psychology and cognitive science in general.
+Artifact-Based Rendering (ABR) is a new approach to designing immersive data-driven visualizations entirely from physical materials. Introduced in last year's technical program, the theory behind ABR is that harnessing the richness of nature and traditional artistic materials can help us create more effective data-driven visualizations by expanding the visual language available to us in digital space. Participants will arrive to see tables with clay, paints, drawing materials and more. The tutorial consists of four sections: 1. introducing ABR concepts and tools, 2. active physical crafting and then digitizing artifacts, and 3. attaching the artifacts to example datasets, and 4. a VR/slideshow presentation of the visualizations created and reflections on the experience and future potential.
