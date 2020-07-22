@@ -33,15 +33,14 @@
     - name: "Microsoft"
       image: /assets/supporters/microsoft.png
       url: "https://www.microsoft.com/research"
+    - name: "Kitware, Inc"
+      image: /assets/supporters/kitware.png
+      url: "https://www.kitware.com/"
 
 #   supporters:
 #     - name: "Harvard Medical School, Department of Biomedical Informatics"
 #       image: /assets/supporters/DBMI.png
 #       url: "http://dbmi.hms.harvard.edu/"
-
-#     - name: "Kitware, Inc"
-#       image: /assets/supporters/kitware.png
-#       url: "https://www.kitware.com/"
 
 #     - name: "KAUST"
 #       image: /assets/supporters/KAUST.png
