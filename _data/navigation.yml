@@ -223,8 +223,8 @@ menu:
                   description: "Visualization for Cyber Security"
                   url: "https://vizsec.org/vizsec2020/"
                   is_external: true
-                - text: "VAHC Workshop (coming soon)"
-                  description: "Visual Analytics for Healthcare"
+#                - text: "VAHC Workshop (coming soon)"
+#                  description: "Visual Analytics for Healthcare"
 #                  url: "https://visualanalyticshealthcare.org/"
 #                  is_external: true
                 - text: "VDS Symposium"
