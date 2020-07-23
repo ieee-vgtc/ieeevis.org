@@ -235,6 +235,10 @@ menu:
                   description: "Visualization for the Digital Humanities"
                   url: "http://www.vis4dh.org/"
                   is_external: true
+                - text: "VISxAI Workshop"
+                  description: "3rd Workshop on Visualization for AI Explainability"
+                  url: "https://visxai.io/"
+                  is_external: true
                 - text: "LDAV Symposium"
                   description: "Big Data Analysis and Visualization"
                   url: "https://ldav.org/"
