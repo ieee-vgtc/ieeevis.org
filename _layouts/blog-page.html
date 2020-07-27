@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<header class="section bg-gray-200">
+    <div class="header">
+        <div class="container">
+            <h1 class="mb-0">{{ page.title }}</h1>
+        </div>
+    </div>
+</header>
+
+<div class="container md:py-16 flex md:flex-row flex-col justify-between">
+    <article class="content md:w-3/5 w-full md:mt-0 mt-8 md:order-none order-2">
+        {{ content }}
+    </article>
+
+    <aside class="sidebar ">
+        <div class="my-4">
+            <p class="heading-alt text-gray-500">All posts</p>
+            <div class="overflow-hidden md:ml-0 -ml-3">
+                <div class="md:ml-0 -ml-px">
+                    {% for post in site.posts %}
+                    <!-- TODO fix this prefix url for the post -->>
+                        <a href="/year/2020/{{ post.url }}" class="sidebar__link {% if canonical_url == post.url %}sidebar__link--active{% endif %}">{{ post.title }}</a>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </aside>
+</div>
