@@ -21,8 +21,8 @@ layout: default
             <div class="overflow-hidden md:ml-0 -ml-3">
                 <div class="md:ml-0 -ml-px">
                     {% for post in site.posts %}
-                    <!-- TODO fix this prefix url for the post -->>
-                        <a href="/year/2020/{{ post.url }}" class="sidebar__link {% if canonical_url == post.url %}sidebar__link--active{% endif %}">{{ post.title }}</a>
+                    <!-- TODO fix this prefix url for the post -->
+                        <a href="{{ post.url }}" class="sidebar__link {% if canonical_url == post.url %}sidebar__link--active{% endif %}">{{ post.title }}</a>
                     {% endfor %}
                 </div>
             </div>

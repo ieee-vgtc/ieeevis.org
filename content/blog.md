@@ -11,7 +11,6 @@ contact: web@ieeevis.org
 {% if post.image %}
 <img src="{{ post.image }}" />
 {% endif %}
-<p>{{ post.url }}</p>
 <div>{{ post.content }}</div>
 <hr/>
 {% endfor %}
