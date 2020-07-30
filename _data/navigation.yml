@@ -169,7 +169,7 @@ menu:
 #                  url: "/year/2020/info/panels"
                 - text: "Application Spotlights"
                   description: "Showcase practical, real-world applications of visualization"
-                  url: "/year/2020/info/application-spotlights"
+                  url: "/year/2020/info/spotlights"
 
 #      - subsections:
 #          - heading: "Plenary Sessions"
