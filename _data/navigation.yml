@@ -125,8 +125,8 @@ menu:
                   description: "Meet people for discussion and shared experiences"
                   url: "/year/2020/info/call-participation/meetups"
                 - text: "Become a student volunteer"
-                  description: "Support the conference, build your research network, and get a discount"
-             #     url: "http://vissv.org/"
+                  description: "Support the conference and build your research network"
+                  url: "http://vissv.org/"
                   is_external: true
                 - text: "Become a peer reviewer"
                   description: "Volunteer to review submissions"
