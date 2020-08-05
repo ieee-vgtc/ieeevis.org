@@ -43,7 +43,7 @@ permalink: /info/committees/conference-committee
 | Christophe Hurter | *French Civil Aviation University* |
 | Daniel Jonsson | *Linköping University* |
 | Steffen Koch | *University of Stuttgart* |
-| Filip Sadlo | *The Ohio State University* |
+| Filip Sadlo | *Heidelberg University* |
 | Michael Sedlmair | *Stuttgart* |
 |---
 | **Panels Chairs** | |
