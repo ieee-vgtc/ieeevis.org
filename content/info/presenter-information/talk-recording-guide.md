@@ -92,80 +92,56 @@ If you create the captions using a different software package, subtitles in the 
 
 ## Conference Track and Colocated Event Short Name Prefixes
 
-<table>
-<thead align="center">
-<td class="header"><b>VIS Full Papers Tracks</b></td>
-<td class="header"><b>Short Name Prefix</b></td></thead>
-<tbody>
-<tr><td class="left">VAST</td><td>f-vast</td></tr>
-<tr><td class="left">Info Vis</td><td>f-info</td></tr>
-<tr><td class="left">SciVis</td><td>f-scivis</td></tr>
-</tbody>
-</table>
+| **VIS Full Papers Tracks**     | **Short Name Prefix** |
+|--------------------------------|-----------------------|
+| **VAST**                       | f-vast                |
+| **Info Vis**                   | f-info                |
+| **SciVis**                     | f-scivis              |
 
-<table>
-<thead align="center">
-<td class="header"><b>VIS Short Papers Tracks</b></td>
-<td class="header"><b>Short Name Prefix</b></td></thead>
-<tbody>
-<tr><td class="left">VAST</td><td>s-vast</td></tr>
-<tr><td class="left">Info Vis</td><td>s-info</td></tr>
-<tr><td class="left">SciVis</td><td>s-scivis</td></tr>
-</tbody>
-</table>
+| **VIS Short Papers Tracks**     | **Short Name Prefix** |
+|---------------------------------|-----------------------|
+| **VAST**                        | s-vast                |
+| **Info Vis**                    | s-info                |
+| **SciVis**                      | s-scivis              |
 
-<table>
-<thead align="center">
-<td class="header"><b>Colocated Events</b></td>
-<td class="header"><b>Short Name Prefix</b></td></thead>
-<tbody>
-<tr><td class="left">VIS Arts Program</td><td>a-arts</td></tr>
-<tr><td class="left">VisInPractice</td><td>a-visinpractice</td></tr>
-<tr><td class="left">VizSec</td><td>a-vizsec</td></tr>
-<tr><td class="left">VDS</td><td>a-vds</td></tr>
-<tr><td class="left">VIS4DH</td><td>a-vis4dh</td></tr>
-<tr><td class="left">VISxAI</td><td>a-visxai</td></tr>
-<tr><td class="left">Large</td><td>Data Analysis and Visualization	a-ldav</td></tr>
-<tr><td class="left">BELIV</td><td>a-beliv</td></tr>
-<tr><td class="left">VAST Challenge</td><td>a-vastchallenge</td></tr>
-<tr><td class="left">SciVis Contest</td><td>a-sciviscontest</td></tr>
-<tr><td class="left">BioVis Challenge</td><td>a-biovischallenge</td></tr>
-</tbody>
-</table>
+| **Colocated Events**                      | **Short Name Prefix** |
+|-------------------------------------------|-----------------------|
+| **VIS Arts Program**                      | a-arts                |
+| **VisInPractice**                         | a-visinpractice       |
+| **VizSec**                                | a-vizsec              |
+| **VDS**                                   | a-vds                 |
+| **VIS4DH**                                | a-vis4dh              |
+| **VISxAI**                                | a-visxai              |
+| **Large Data Analysis and Visualization** | a-ldav                |
+| **BELIV**                                 | a-beliv               |
+| **VAST Challenge**                        | a-vastchallenge       |
+| **SciVis Contest**                        | a-sciviscontest       |
+| **BioVis Challenge**                      | a-biovischallenge     |
 
-<table>
-<thead align="center">
-<td class="header"><b>Tutorials</b></td>
-<td class="header"><b>Short Name Prefix</b></td></thead>
-<tbody>
-<tr><td class="left">Visualization Analysis and Design</td><td>t-analysisdesign</td></tr>
-<tr><td class="left">Color Basics for Creating Visualizations</td><td>t-colorbasics</td></tr>
-<tr><td class="left">Scientific Visualization in Houdini</td><td>t-scivishoudini</td></tr>
-<tr><td class="left">Topological Data Analysis Made Easy with the Topology Toolkit</td><td>t-ttk</td></tr>
-<tr><td class="left">ParaView Tutorial</td><td>t-paraview</td></tr>
-<tr><td class="left">Theory and Application of Visualization Color Tools and Strategies</td><td>t-theorycolortools</td></tr>
-<tr><td class="left">How to Make Your Empirical Research Transparent</td><td>t-empiricaltransparent</td></tr>
-<tr><td class="left">Artifact Based Rendering: VR Visualization by Hand</td><td>t-artifactvr</td></tr>
-</tbody>
-</table>
+| **Tutorials**                                                          | **Short Name Prefix**  |
+|------------------------------------------------------------------------|------------------------|
+| **Visualization Analysis and Design**                                  | t-analysisdesign       |
+| **Color Basics for Creating Visualizations**                           | t-colorbasics          |
+| **Scientific Visualization in Houdini**                                | t-scivishoudini        |
+| **Topological Data Analysis Made Easy with the Topology Toolkit**      | t-ttk                  |
+| **ParaView Tutorial**                                                  | t-paraview             |
+| **Theory and Application of Visualization Color Tools and Strategies** | t-theorycolortools     |
+| **How to Make Your Empirical Research Transparent**                    | t-empiricaltransparent |
+| **Artifact Based Rendering: VR Visualization by Hand**                 | t-artifactvr           |
 
-<table>
-<thead align="center">
-<td class="header"><b>Workshops</b></td>
-<td class="header"><b>Short Name Prefix</b></td></thead>
-<tbody>
-<tr><td class="left">Fail Fest</td><td>w-failfest</td></tr>
-<tr><td class="left">MLUI 2020</td><td>w-mlui</td></tr>
-<tr><td class="left">MoVis</td><td>w-movis</td></tr>
-<tr><td class="left">TREX</td><td>w-trex</td></tr>
-<tr><td class="left">VisActivities</td><td>w-activities</td></tr>
-<tr><td class="left">Visualization in Astrophysics</td><td>w-astrophysics</td></tr>
-<tr><td class="left">VisComm</td><td>w-comm</td></tr>
-<tr><td class="left">Vis Futures</td><td>w-futures</td></tr>
-<tr><td class="left">VisGuides</td><td>w-guides</td></tr>
-<tr><td class="left">IEEE VIS Workshop on Visualization Psychology</td><td>w-psychology</td></tr>
-</tbody>
-</table>
+| **Workshops**                                      | **Short Name Prefix** |
+|----------------------------------------------------|-----------------------|
+| **Fail Fest**                                      | w-failfest            |
+| **MLUI 2020**                                      | w-mlui                |
+| **MoVis**                                          | w-movis               |
+| **TREX**                                           | w-trex                |
+| **VisActivities**                                  | w-activities          |
+| **Visualization in Astrophysics**                  | w-astrophysics        |
+| **VisComm**                                        | w-comm                |
+| **Vis Futures**                                    | w-futures             |
+| **VisGuides**                                      | w-guides              |
+| **IEEE VIS Workshop on Visualization Psychology**  | w-psychology          | 
+
 
 For questions or more information, please email tech@ieeevis.org.
 
