@@ -119,7 +119,7 @@ menu:
                   - text: "Recording your Talk"
                     url: "/year/2020/info/presenter-information/talk-recording-guide"
                     is_new: true
-                  - text: "Virtual Guidance for Colocated Events, Tutorials, and Workshops"
+                  - text: "Guidance for Virtual Events"
                     url: "/year/2020/info/presenter-information/guidance-for-colocated-events"
                     is_new: true
 
