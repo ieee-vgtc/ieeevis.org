@@ -98,11 +98,9 @@ If you create the captions using a different software package, subtitles in the 
 | **Info Vis**                   | f-info                |
 | **SciVis**                     | f-scivis              |
 
-| **VIS Short Papers Tracks**     | **Short Name Prefix** |
-|---------------------------------|-----------------------|
-| **VAST**                        | s-vast                |
-| **Info Vis**                    | s-info                |
-| **SciVis**                      | s-scivis              |
+| **VIS Short Papers**                      | **Short Name Prefix** |
+|-------------------------------------------|-----------------------|
+| **VAST, Info Vis, SciVis** (single track) | s-short               |
 
 | **Colocated Events**                      | **Short Name Prefix** |
 |-------------------------------------------|-----------------------|
