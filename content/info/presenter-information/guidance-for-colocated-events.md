@@ -8,8 +8,19 @@ contact: tech@ieeevis.org
 ---
 
 The VIS 2020 Tech Committee will be managing streaming of your event to Youtube and
-scheduling of Zoom calls for live components (e.g., paper chairs and speakers, panels, keynotes).
-To help us manage streaming of your event, we will need detailed information about the event’s schedule.
+scheduling of Zoom calls for live components (e.g., question and answer sessions paper chairs and speakers,
+panels, keynotes). To help us manage streaming of your event, we will need detailed information about the event’s schedule.
+
+In general, your event will consist of playback of prerecorded videos (paper presentations or other presentations)
+and live interaction for Q&A with speakers or panels. Questions will be asked
+over a chat application (Youtube Chat and [Discord](https://discord.com/)) which the chair can relay to the speaker(s)
+in the Zoom call. Only those answering questions or facilitating the session will be in the Zoom call,
+those watching the session will view it on Youtube and interact through chat.
+It is possible for some presentations to be given live, though we advise this only be done for special scenarios
+(e.g., a keynote presentation, short opening or closing by the chairs).
+The majority of talks and sessions should be prerecorded to avoid
+potential issues impacting the event (e.g., networking, time zones, etc.).
+
 
 Terminology used in this document:
 
@@ -22,6 +33,7 @@ Terminology used in this document:
   Youtube, e.g., a live or recorded presentation is given, an interactive panel, etc.
 - **Session**: A session consists of one or more time slots, e.g., a set of paper presentations,
   a single keynote talk. Longer events may consist of multiple sessions, separated by breaks.
+  Each session will have its own Youtube stream, Zoom call, and Discord channel.
 
 ## Scheduling your Event
 
@@ -60,6 +72,7 @@ For each presentation (live or recorded) in a Time Slot we need:
 
 
 ## Presentation Videos
+
 Prerecorded videos played during your event (e.g., paper presentations)
 must be formatted and named
 following the [VIS talk recording guidelines](/year/2020/info/presenter-information/talk-recording-guide).
@@ -78,6 +91,21 @@ The unique identifier is used to uniquely associate a video with a Time Slot dur
 in which it should be played. While the choice of this is up to the organizers of each event,
 it must be unique! Good options are: a number corresponding to the time slot, paper submission ID (if applicable),
 talk title (if unique during the event).
+
+## Virtual Conference Webpage
+
+The virtual VIS conference webpage will be created using [Mini-Conf](https://github.com/Mini-Conf/Mini-Conf),
+and managed by the web committee (web@ieeevis.org). If you would like, the Mini-Conf webpage can provide
+a virtual conference presence for your colocated event as well, e.g., embed each
+session's Youtube stream and chat channels, PDF links, calendar information, etc.
+Please let the web and tech committees know if you would like your colocated
+event to be hosted on the VIS conference webpage as well, or would prefer to receive the Youtube
+and chat information to provide this information separately through your event's webpage.
+It is also possible to do both, if you would like to include links to each session's Youtube stream on your
+webpage, but also take advantage of the calendar and other features of including your
+event in the main VIS virtual conference page.
+Whichever option you choose, the tech committee will manage the streaming infrastructure for your
+event (Youtube, Zoom, chat).
 
 For questions or more information, please email tech@ieeevis.org.
 
