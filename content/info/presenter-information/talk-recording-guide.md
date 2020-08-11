@@ -8,10 +8,10 @@ contact: tech@ieeevis.org
 ---
 
 Please **read the following instructions carefully** for guidelines
-on preparing your video presentation for VIS 2020, or a VIS 2020 co-located event.
-If you’re presenting at VIS 2020, your talk is due with your camera ready submission
-on **September 7, 2020**. Due dates for co-located events may vary, please check with
-your co-located event.
+on preparing your video presentation for VIS 2020, or a VIS 2020 associated event.
+If you're presenting a VIS full or short paper your talk is due with your camera ready submission
+on **September 7, 2020**. Due dates for associated events may vary, please check with
+your associated event for information.
 
 Your talk submission consists of two pieces:
 
@@ -28,30 +28,20 @@ Your presentation must be in the following format:
 - 1920x1080 resolution at 30FPS
 - MPEG-4 using H.264 encoding (file extension is .mp4)
 - VIS full & short papers: the maximum size for your video is 500MB.
-  Co-located event talk sizes and lengths may vary, please see your co-located event for details
+  Associated event talk sizes and lengths may vary, please see your associated event for details
 - To encode/re-encode your video in the right format, you can use the free software [Handbrake](https://handbrake.fr/)
 - To check that your video is in the right format, you can use the free software [MediaInfo](https://mediaarea.net/en/MediaInfo)
 
 
-<style>
-td.header {
-    background-color: #fde5cc;
-}
-td.left {
-    font-weight: bold;
-    vertical-align: top;
-}
-</style>
-
 ## File Naming Convention
 Your video file must be named following a `<shortname>_<uniqueidentifier>.mp4` convention.
 The prefix is assigned based on the track or event your video is included in.
-For the the short name prefix please find your event or track in the tables [below](#conference-track-and-colocated-event-short-name-prefixes).
+For the the short name prefix please find your event or track in the tables [below](#conference-track-and-associated-event-short-name-prefixes).
 <!--https://docs.google.com/spreadsheets/d/1unVDXq4kqj0iZ_2d_TYU8a61NG65bg_dX6IU2jdOUJY/edit?usp=sharing-->
 Your talk’s unique identifier is:
 
 - VIS Papers: Your submission ID from PCS is your unique identifier
-- Colocated Events: Your event organizers will send information about the unique identifier
+- Associated Events: Your event organizers will send information about the unique identifier
 
 
 ## Recording Your Talk
@@ -90,7 +80,7 @@ subtitles to play during your video. During the conference your video will be pl
 If you create the captions using a different software package, subtitles in the SRT format are also acceptable.
 
 
-## Conference Track and Colocated Event Short Name Prefixes
+## Conference Track and Associated Event Short Name Prefixes
 
 | **VIS Full Papers Tracks**     | **Short Name Prefix** |
 |--------------------------------|-----------------------|
@@ -102,7 +92,7 @@ If you create the captions using a different software package, subtitles in the 
 |-------------------------------------------|-----------------------|
 | **VAST, Info Vis, SciVis** (single track) | s-short               |
 
-| **Colocated Events**                      | **Short Name Prefix** |
+| **Associated Events**                     | **Short Name Prefix** |
 |-------------------------------------------|-----------------------|
 | **VIS Arts Program**                      | a-arts                |
 | **VisInPractice**                         | a-visinpractice       |

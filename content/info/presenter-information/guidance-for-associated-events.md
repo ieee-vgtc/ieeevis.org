@@ -1,8 +1,8 @@
 ---
-title: Technical Guidance for Colocated Events, Tutorials, and Workshops
+title: Technical Guidance for Associated Events, Tutorials, and Workshops
 layout: page
 sidebar: call-for-participation
-permalink: /info/presenter-information/guidance-for-colocated-events
+permalink: /info/presenter-information/guidance-for-associated-events
 active_nav: "Contribute"
 contact: tech@ieeevis.org
 ---
@@ -86,7 +86,7 @@ following the [VIS talk recording guidelines](/year/2020/info/presenter-informat
 
 Each video provided must be named following a `<shortname>_<uniqueidentifier>.mp4` convention.
 The short name is assigned to your event by the Tech Committee to help us organize your event's content,
-and can be found [here for your event](/year/2020/info/presenter-information/talk-recording-guide#conference-track-and-colocated-event-short-name-prefixes).
+and can be found [here for your event](/year/2020/info/presenter-information/talk-recording-guide#conference-track-and-associated-event-short-name-prefixes).
 The unique identifier is used to uniquely associate a video with a Time Slot during your event
 in which it should be played. While the choice of this is up to the organizers of each event,
 it must be unique! Good options are: a number corresponding to the time slot, paper submission ID (if applicable),
@@ -96,9 +96,9 @@ talk title (if unique during the event).
 
 The virtual VIS conference webpage will be created using [Mini-Conf](https://github.com/Mini-Conf/Mini-Conf),
 and managed by the web committee (web@ieeevis.org). If you would like, the Mini-Conf webpage can provide
-a virtual conference presence for your colocated event as well, e.g., embed each
+a virtual conference presence for your associated event as well, e.g., embed each
 session's Youtube stream and chat channels, PDF links, calendar information, etc.
-Please let the web and tech committees know if you would like your colocated
+Please let the web and tech committees know if you would like your associated
 event to be hosted on the VIS conference webpage as well, or would prefer to receive the Youtube
 and chat information to provide this information separately through your event's webpage.
 It is also possible to do both, if you would like to include links to each session's Youtube stream on your
