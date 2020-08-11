@@ -48,7 +48,8 @@ Your talk’s unique identifier is:
 
 We recommend using [OBS Studio](https://obsproject.com/) to record your presentation, which is free and cross-platform.
 If you are familiar with other recording software please feel free to use it instead.
-See our [tutorial](https://youtu.be/yg1P_Infw5A) for a guide on how to use OBS Studio to record your talk,
+Watch our tutorial on [Youtube](https://youtu.be/yg1P_Infw5A) or via [direct download](http://sci.utah.edu/~will/public/vis2020-recording-tutorial.mp4)
+for a guide on how to use OBS Studio to record your talk,
 should you choose to use it.
 Please also see our [guide](/year/2020/assets/vis2020-talk-recording-guide.pdf)
 for information on recording a compelling and high-quality talk.
