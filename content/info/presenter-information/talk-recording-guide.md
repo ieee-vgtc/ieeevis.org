@@ -24,19 +24,22 @@ does not contain copyrighted audio or video content.
 
 ## Presentation Length
 
-- VIS Full Papers: the maximum length of your talk is **15 minutes**. We recommend a 12 minute talk with 3 minutes for questions,
-- VIS Short Papers: the maximum length of your talk is **10 minutes**. We recommend a 7 minute talk with 3 minutes for questions.
+- VIS Full Papers: the maximum length of your talk is **15 minutes**, including questions. We recommend a 12 minute talk with 3 minutes for questions,
+- VIS Short Papers: the maximum length of your talk is **10 minutes**, including questions. We recommend a 7 minute talk with 3 minutes for questions.
 - Associated Events: please consult your associated event for information.
 
 ## Encoding Your Video
 Your presentation must be in the following format:
 
-- 1920x1080 resolution at 30FPS
+- 1920x1080 resolution at 30FPS.
 - MPEG-4 using H.264 encoding (file extension is .mp4)
 - VIS full & short papers: the maximum size for your video is 500MB.
   Associated event talk sizes and lengths may vary, please see your associated event for details
 - To encode/re-encode your video in the right format, you can use the free software [Handbrake](https://handbrake.fr/)
 - To check that your video is in the right format, you can use the free software [MediaInfo](https://mediaarea.net/en/MediaInfo)
+
+To make full use of the 16x9 video aspect ratio we recommend using the 16x9 wide format Powerpoint template:
+[Download the VIS 2020 Powerpoint template here](/year/2020/assets/vis2020-16x9.ppt).
 
 ## File Naming Convention
 Your video file must be named following a `<shortname>_<uniqueidentifier>.mp4` convention.
@@ -47,7 +50,6 @@ Your talk’s unique identifier is:
 
 - VIS Papers: Your submission ID from PCS is your unique identifier
 - Associated Events: Your event organizers will send information about the unique identifier
-
 
 ## Recording Your Talk
 
