@@ -22,7 +22,7 @@ and after the conference.
 
 This year, due to IEEE VIS going fully virtual, video previews are linked 
 from the conference's webpage and will be compiled into 'trailers', one for
-each session. There will be no Fast-Forward session this year. 
+each session. **There will be no Fast-Forward session this year.** 
 
 
 
@@ -37,7 +37,8 @@ played during the FF session **without** the audio track while the
 author speaks. Voiceover narration in the audio track is strongly
 recommended to make the archival video most useful, but is not
 mandatory.
--->
+--
+
 
 
 <!--
@@ -139,7 +140,7 @@ You have **no Video-Preview** to submit for the following tracks:
   - Videos will be uploaded **through the PCS author submission page of your accepted submission** (https://new.precisionconference.com/vgtc). You will find a new upload field labeled **Video Preview**.  
   - Submit your caption/subtitle file (.srt) separately in the new field: **Video Preview (Caption File)**. Please do not bake the subtitles into the video! We will do the integration in a consistent way.
   - If your fast forward video is not for a paper and has no associated entry in the PCS system (e.g., TVCG or CG&amp;A papers), create a new Fast Forward and Video Previews submission in the system (make a new submission to VGTC - VIS 2020 - VIS 2020 Fast Forwards and Video Previews). Please request a PCS login from the conference organizers if you do not have one.  
-  - Name the video file &lt;track name&gt; -&lt;ID&gt;, where ID is the number automatically assigned when you first submitted your work on PCS (i.e., your paper ID). If your video does not have an accompanying PCS submission, use track name for the name of the event and ID for your last name (e.g., vast_paper-100.mp4, meetups-guo.mp4). Please name your caption file in the same way (e.g., vast_paper-100.srt, meetups-guo.srt).
+  - Name the video file &lt;track name&gt;-&lt;ID&gt;, where ID is the number automatically assigned when you first submitted your work on PCS (i.e., your paper ID). If your video does not have an accompanying PCS submission, use track name for the name of the event and ID for your last name (e.g., vast_paper-100.mp4, meetups-guo.mp4). Please name your caption file in the same way (e.g., vast_paper-100.srt, meetups-guo.srt).
 
 
 Please **make sure that your video adheres to these specifications otherwise it will not be accepted** and will have to be revised.
@@ -172,7 +173,7 @@ For questions or more information, please email ff@ieeevis.org.
 
 
 
-Fast Forward and Video Previews Chairs
+Video Previews Chairs
 
 
 - Jian Zhao, University of Waterloo (VAST)
