@@ -26,6 +26,10 @@ At least one author per accepted paper must register to present the work. Also, 
 
 It is **mandatory** for authors of all VIS papers to submit a [25-sec Video Preview](http://ieeevis.org/year/2020/info/presenter-information/fast-forward-and-video-previews) by September 7.
 
+## PAPER PRESENTATION VIDEO RECORDING
+
+It is **mandatory** for authors of all VIS papers to submit a [recording of their paper presentation](/year/2020/info/presenter-information/talk-recording-guide) by September 7.
+
 ## COMMON EDITING MISTAKES AND NOTES FROM TVCG
 
 Under no circumstances will updates be accepted after 11.59 PM on September 7. We have allowed for exceptions in the past but we will be strict this year.  
