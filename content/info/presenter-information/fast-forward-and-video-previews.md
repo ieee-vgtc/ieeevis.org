@@ -22,7 +22,7 @@ and after the conference.
 
 This year, due to IEEE VIS going fully virtual, video previews are linked 
 from the conference's webpage and will be compiled into 'trailers', one for
-each session. There will be no Fast-Forward session this year. 
+each session. **There will be no Fast-Forward session this year.** 
 
 
 
@@ -37,7 +37,8 @@ played during the FF session **without** the audio track while the
 author speaks. Voiceover narration in the audio track is strongly
 recommended to make the archival video most useful, but is not
 mandatory.
--->
+--
+
 
 
 <!--
@@ -172,7 +173,7 @@ For questions or more information, please email ff@ieeevis.org.
 
 
 
-Fast Forward and Video Previews Chairs
+Video Previews Chairs
 
 
 - Jian Zhao, University of Waterloo (VAST)
