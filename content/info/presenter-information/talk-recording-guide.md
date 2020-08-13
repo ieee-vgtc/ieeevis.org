@@ -22,6 +22,12 @@ Guidance for creating both and requirements for file encoding and naming are pro
 Videos will be streamed live to Youtube during the conference, please make sure your video
 does not contain copyrighted audio or video content.
 
+## Presentation Length
+
+- VIS Full Papers: the maximum length of your talk is **15 minutes**. We recommend a 12 minute talk with 3 minutes for questions,
+- VIS Short Papers: the maximum length of your talk is **10 minutes**. We recommend a 7 minute talk with 3 minutes for questions.
+- Associated Events: please consult your associated event for information.
+
 ## Encoding Your Video
 Your presentation must be in the following format:
 
@@ -31,7 +37,6 @@ Your presentation must be in the following format:
   Associated event talk sizes and lengths may vary, please see your associated event for details
 - To encode/re-encode your video in the right format, you can use the free software [Handbrake](https://handbrake.fr/)
 - To check that your video is in the right format, you can use the free software [MediaInfo](https://mediaarea.net/en/MediaInfo)
-
 
 ## File Naming Convention
 Your video file must be named following a `<shortname>_<uniqueidentifier>.mp4` convention.
