@@ -111,8 +111,8 @@ menu:
                   - text: "Open Practices"
                     url: "/year/2020/info/open-practices/open-practices"
                   - text: "Video Previews"
-         #           url: "/year/2020/info/presenter-information/fast-forward-and-video-previews"
-         #           is_new: true
+                    url: "/year/2020/info/presenter-information/fast-forward-and-video-previews"
+                    is_new: true
                   - text: "Speakers and Presenters"
          #           url: "/year/2020/info/presenter-information/speakers-and-presenters"
          #           is_new: true
