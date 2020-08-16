@@ -90,15 +90,14 @@ If you create the captions using a different software package, subtitles in the 
 
 ## Conference Track and Associated Event Short Name Prefixes
 
-| **VIS Full Papers Tracks**     | **Short Name Prefix** |
-|--------------------------------|-----------------------|
-| **VAST**                       | f-vast                |
-| **Info Vis**                   | f-info                |
-| **SciVis**                     | f-scivis              |
-
-| **VIS Short Papers**                      | **Short Name Prefix** |
-|-------------------------------------------|-----------------------|
-| **VAST, Info Vis, SciVis** (single track) | s-short               |
+| **VIS Paper Tracks**                      | **Short Name Prefix** |
+|--------------------------------------------|-----------------------|
+| **VAST**                                   | f-vast                |
+| **Info Vis**                               | f-info                |
+| **SciVis**                                 | f-scivis              |
+| **TVCG**                                   | f-tvcg                |
+| **CG & A**                                 | f-cga                 |
+| **Short Papers (VAST, Info Vis, SciVis)**  | s-short               |
 
 | **Associated Events**                     | **Short Name Prefix** |
 |-------------------------------------------|-----------------------|
