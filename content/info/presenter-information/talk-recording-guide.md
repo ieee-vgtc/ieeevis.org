@@ -137,6 +137,12 @@ If you create the captions using a different software package, subtitles in the 
 | **VisGuides**                                      | w-guides              |
 | **IEEE VIS Workshop on Visualization Psychology**  | w-psychology          | 
 
+| **Application Spotlights**                                                                | **Short Name Prefix** |
+|-------------------------------------------------------------------------------------------|-----------------------|
+| **Challenges in the Visualization of Bioelectric Fields for Cardiac and Neural Research** | l-bio                 |
+| **Recent Challenges in Medical Visualization**                                            | l-med                 |
+| **Opportunities and Challenges in Cosmology Visualization**                               | l-cosmo               |
+| **The Role of Visualization in Industrial Production**                                    | l-industrial          |
 
 For questions or more information, please email tech@ieeevis.org.
 
