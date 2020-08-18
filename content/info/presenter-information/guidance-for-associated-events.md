@@ -25,10 +25,10 @@ potential issues impacting the event (e.g., networking, time zones, etc.).
 Terminology used in this document:
 
 - **Session Chair**: an individual who keeps presenters on time and moderates Q&A
-- **Participant**: individuals who are speaking and presenting in the Zoom call
-- **Watcher**: individuals viewing the event via the Youtube stream.
-  Watchers can post questions through a chat application (Discord, Youtube chat) which can
-  be monitored by the Session Chair and relayed to the Participants.
+- **Contributors**: individuals who are speaking and presenting in the Zoom call
+- **Attendee**: individuals viewing the event via the Youtube stream.
+  Attendees can post questions through a chat application (Discord, Youtube chat) which can
+  be monitored by the Session Chair and relayed to the Contributors.
 - **Time Slot**: A time during your event where something happens that requires Zoom and
   Youtube, e.g., a live or recorded presentation is given, an interactive panel, etc.
 - **Session**: A session consists of one or more time slots, e.g., a set of paper presentations,
@@ -51,13 +51,13 @@ Time Slots in the Session and what will occur in each Time Slot:
 
 - Live Zoom presentations
 - Replays of prerecorded video presentations (e.g., paper presentations, short talks)
-- Question and answer or other interactions with Participants (e.g., panels, questions to paper authors)
+- Question and answer or other interactions with Contributors (e.g., panels, questions to paper authors)
 
 For each Session we also need:
 
-- The number of Participants (including the Session Chair) who will be in the Zoom call and their contact information (names and emails)
+- The number of Contributors (including the Session Chair) who will be in the Zoom call and their contact information (names and emails)
 
-Note that Watchers do not count toward the number of Participants, as they view the stream on Youtube and interact via chat.
+Note that Attendees do not count toward the number of Contributors, as they view the stream on Youtube and interact via chat.
 
 For each presentation (live or recorded) in a Time Slot we need:
 
