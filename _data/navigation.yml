@@ -89,7 +89,6 @@ menu:
                     url: "/year/2020/info/call-participation/shortpapers"
                   - text: "Posters"
                     url: "/year/2020/info/call-participation/posters"
-                    is_new: true
                   - text: "Tutorials"
                     url: "/year/2020/info/call-participation/tutorials"
                   - text: "Workshops"
@@ -100,28 +99,25 @@ menu:
                     url: "/year/2020/info/call-participation/doctoral-colloquium"
                   - text: "Application Spotlights"
                     url: "/year/2020/info/call-participation/spotlights"
-         #           is_new: true
               - heading: "Info for Contributors"
                 links:
                   - text: "Submission Information"
                     url: "/year/2020/info/call-participation/paper-submission-guidelines"
                   - text: "Submission Keywords"
                     url: "/year/2020/info/call-participation/paper-keywords"
-                    is_new: true
                   - text: "Open Practices"
                     url: "/year/2020/info/open-practices/open-practices"
                   - text: "Video Previews"
                     url: "/year/2020/info/presenter-information/fast-forward-and-video-previews"
-                    is_new: true
                   - text: "Speakers and Presenters"
-         #           url: "/year/2020/info/presenter-information/speakers-and-presenters"
-         #           is_new: true
+                    url: "/year/2020/info/presenter-information/speakers-and-presenters"
+                    is_new: true
                   - text: "Recording your Talk (coming soon)"
-                    #url: "/year/2020/info/presenter-information/talk-recording-guide"
-                    #is_new: true
+                    url: "/year/2020/info/presenter-information/talk-recording-guide"
+                    is_new: true
                   - text: "Guidance for Virtual Events (coming soon)"
-                    #url: "/year/2020/info/presenter-information/guidance-for-associated-events"
-                    #is_new: true
+                    url: "/year/2020/info/presenter-information/guidance-for-associated-events"
+                    is_new: true
 
       - subsections:
           - heading: "Get Involved"
@@ -170,9 +166,9 @@ menu:
                 - text: "Workshops"
                   description: "Informal setting to discuss emerging topics"
                   url: "/year/2020/info/workshops"
-                - text: "Panels (coming soon)"
+                - text: "Panels"
                   description: "Discuss important and controversial issues"
-#                  url: "/year/2020/info/panels"
+                  url: "/year/2020/info/panels"
                 - text: "Application Spotlights"
                   description: "Showcase practical, real-world applications of visualization"
                   url: "/year/2020/info/spotlights"
