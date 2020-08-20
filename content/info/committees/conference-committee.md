@@ -185,6 +185,6 @@ permalink: /info/committees/conference-committee
 |---
 | **Web Chairs** | |
 | Lane Harrison | *Worcester Polytechnic Institute* |
-| Steve Petruzza | *University of Utah* |
+| Steve Petruzza | *University of Utah, Utah State University* |
 | Alper Sarikaya | *Microsoft* |
 | Jagoda Walny | *Canada Energy Regulator* |
