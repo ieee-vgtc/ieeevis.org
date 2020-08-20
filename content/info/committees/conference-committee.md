@@ -192,4 +192,12 @@ permalink: /info/committees/conference-committee
 | **Technology Chairs** | |
 | Alexander Bock | *Linköping University* |
 | Martin Falk | *Linköping University* |
-| Will Usher | *SCI Institute University of Utah* |
+| Will Usher | *University of Utah* |
+|---
+| **Virtual Chairs** | |
+| Daniela Giorgi | *CNR* |
+| Amy Gooch | *University of Utah* |
+| Ingrid Hotz | *Linköping University* |
+| Vijay Natarajan | * Indian Institute of Science * |
+| Carolina Nobre | *Harvard University* |
+| Kristi Potter | *NREL* |
