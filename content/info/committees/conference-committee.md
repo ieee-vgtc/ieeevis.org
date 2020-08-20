@@ -137,7 +137,7 @@ permalink: /info/committees/conference-committee
 |---
 | **Community Chairs** | |
 | Jaegul Choo | *Korea University* |
-| Weiwei Cui | *Microsoft Research China* |
+| Karen Schloss | *University of Wisconsin-Madison* |
 | Hsiang-Yun Wu| *TU Wien* |
 |---
 | **Student Volunteers Chairs** | |
