@@ -188,3 +188,8 @@ permalink: /info/committees/conference-committee
 | Steve Petruzza | *University of Utah, Utah State University* |
 | Alper Sarikaya | *Microsoft* |
 | Jagoda Walny | *Canada Energy Regulator* |
+|---
+| **Technology Chairs** | |
+| Alexander Bock | *Linköping University* |
+| Martin Falk | *Linköping University* |
+| Will Usher | *SCI Institute University of Utah* |
