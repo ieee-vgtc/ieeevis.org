@@ -9,7 +9,7 @@ contact: ff@ieeevis.org
 
 
 Please **read the following instructions carefully** and submit your
-25-second video for the online Video Previews by **September 07, 2020**.
+25-second video for the online Video Previews by **September 14, 2020** (updated from: _September 07_).
 
 
 Video previews and fast forwards are a great opportunity to publicize
