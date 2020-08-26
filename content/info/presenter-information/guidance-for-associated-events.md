@@ -87,6 +87,7 @@ following the [VIS talk recording guidelines](/year/2020/info/presenter-informat
 Each video provided must be named following a `<shortname>_<uniqueidentifier>.mp4` convention.
 The short name is assigned to your event by the Tech Committee to help us organize your event's content,
 and can be found [here for your event](/year/2020/info/presenter-information/talk-recording-guide#conference-track-and-associated-event-short-name-prefixes).
+If your event is submitting through **IEEE Xplore** follow the naming convention on the submission site.
 The unique identifier is used to uniquely associate a video with a Time Slot during your event
 in which it should be played. While the choice of this is up to the organizers of each event,
 it must be unique! Good options are: a number corresponding to the time slot, paper submission ID (if applicable),
