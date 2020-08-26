@@ -137,7 +137,7 @@ permalink: /info/committees/conference-committee
 |---
 | **Community Chairs** | |
 | Jaegul Choo | *Korea University* |
-| Weiwei Cui | *Microsoft Research China* |
+| Karen Schloss | *University of Wisconsin-Madison* |
 | Hsiang-Yun Wu| *TU Wien* |
 |---
 | **Student Volunteers Chairs** | |
@@ -147,7 +147,7 @@ permalink: /info/committees/conference-committee
 | Fumeng Yang | *Brown University, Providence* |
 |---
 | **Publicity Chairs** | |
-| Bum Chul Kwon | *Harvard* |
+| Bum Chul Kwon | *IBM Research* |
 | Michael Correll | *Tableau* |
 | Noeska Smit | *University of Bergen* |
 |---
@@ -155,14 +155,6 @@ permalink: /info/committees/conference-committee
 | Lace Padilla | *University of California Merced* |
 | Alvitta Ottley | *Texas Advanced Computing Center* |
 | Arvind Satyanarayan | *MIT* |
-{% comment %}
-|---
-| **Steering Committee Liaisons** | |
-| Lisa Avila | *Kitware (VEC Chair)* |
-| Silvia Miksch | *Vienna University of Technology (VAST)* |
-| Deborah Silver | *Rutgers University (SciVis)* |
-| Melanie Tory | *Tableau Research (InfoVis)* |
-{% endcomment %}
 |---
 | **Supporters Chairs** | |
 | R. Jordan Crouser | *Smith College* |
@@ -172,11 +164,6 @@ permalink: /info/committees/conference-committee
 | **Finance Chairs** | |
 | Loretta Auvil | *University of Illinois at Urbana-Champaign* |
 | Maria Velez | *CA Technologies* |
-{% comment %}
-|---
-| **Publication & Project Coordinator**| |
-| Meghan Haley | *Junction Publishing* |
-{% endcomment %}
 |---
 | **Archive Chairs** | |
 | Cody Dunne | *Northeastern University* |
@@ -185,6 +172,19 @@ permalink: /info/committees/conference-committee
 |---
 | **Web Chairs** | |
 | Lane Harrison | *Worcester Polytechnic Institute* |
-| Steve Petruzza | *University of Utah* |
+| Steve Petruzza | *University of Utah, Utah State University* |
 | Alper Sarikaya | *Microsoft* |
 | Jagoda Walny | *Canada Energy Regulator* |
+|---
+| **Technology Chairs** | |
+| Alexander Bock | *Linköping University* |
+| Martin Falk | *Linköping University* |
+| Will Usher | *University of Utah* |
+|---
+| **Virtual Chairs** | |
+| Daniela Giorgi | *CNR* |
+| Amy Gooch | *University of Utah* |
+| Ingrid Hotz | *Linköping University* |
+| Vijay Natarajan | * Indian Institute of Science * |
+| Carolina Nobre | *Harvard University* |
+| Kristi Potter | *NREL* |
