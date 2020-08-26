@@ -25,11 +25,11 @@ At least one author per accepted paper must register to present the work. There 
 
 ## VIDEO PREVIEW SUBMISSION
 
-**DEADLINE: September 7.** It is **mandatory** for SciVis authors and optional for VAST and InfoVis authors to submit a [25-sec Video Preview](/year/2020/info/presenter-information/fast-forward-and-video-previews). Video previews should be submitted through the IEEE submission system.
+**DEADLINE: September 14.** It is **mandatory** for SciVis authors and optional for VAST and InfoVis authors to submit a [25-sec Video Preview](/year/2020/info/presenter-information/fast-forward-and-video-previews). Video previews should be submitted through the IEEE submission system.
 
 ## PAPER PRESENTATION VIDEO RECORDING
 
-**DEADLINE: September 7.** It is **mandatory** for authors of all VIS papers to submit a [recording of their paper presentation](/year/2020/info/presenter-information/talk-recording-guide). Presentations should be submitted through the IEEE submission system.
+**DEADLINE: September 14.** It is **mandatory** for authors of all VIS papers to submit a [recording of their paper presentation](/year/2020/info/presenter-information/talk-recording-guide). Presentations should be submitted through the IEEE submission system.
 
 ## COMMON EDITING MISTAKES AND NOTES FROM TVCG
 

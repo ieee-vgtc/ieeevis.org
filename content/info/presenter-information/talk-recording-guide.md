@@ -9,9 +9,8 @@ contact: tech@ieeevis.org
 
 Please **read the following instructions carefully** for guidelines
 on preparing your video presentation for VIS 2020, or a VIS 2020 associated event.
-If you're presenting a VIS full or short paper your talk is due with your camera ready submission
-on **September 7, 2020**. Due dates for associated events may vary, please check with
-your associated event for information.
+If you're presenting a VIS full or short paper your talk is due on **September 14, 2020**.
+**Associated events, workshops:** Due dates for associated events may vary, please check with your associated event for information.
 
 Your talk submission consists of two pieces:
 
@@ -24,8 +23,8 @@ does not contain copyrighted audio or video content.
 
 ## Presentation Length
 
-- VIS Full Papers: the maximum length of your talk is **15 minutes**, including questions. We recommend a 12 minute talk with 3 minutes for questions,
-- VIS Short Papers: the maximum length of your talk is **10 minutes**, including questions. We recommend a 7 minute talk with 3 minutes for questions.
+- VIS Full Papers: the maximum length of your talk is **15 minutes**, including questions. We recommend a 12 minute talk with 3 minutes for questions. At least 1 minute must be left for questions.
+- VIS Short Papers: the maximum length of your talk is **10 minutes**, including questions. We recommend a 7 minute talk with 3 minutes for questions. At least 1 minute must be left for questions
 - Associated Events: please consult your associated event for information.
 
 ## Encoding Your Video
@@ -48,8 +47,8 @@ For the the short name prefix please find your event or track in the tables [bel
 <!--https://docs.google.com/spreadsheets/d/1unVDXq4kqj0iZ_2d_TYU8a61NG65bg_dX6IU2jdOUJY/edit?usp=sharing-->
 Your talk’s unique identifier is:
 
-- VIS Papers: Your submission ID from PCS is your unique identifier
-- Associated Events: Your event organizers will send information about the unique identifier
+- Videos submitted through IEEE Xplore: please follow the guidance on IEEE Xplore when naming your submission materials. 
+- Other associated events and workshops: Your event organizers will send information about the unique identifier
 
 ## Recording Your Talk
 
