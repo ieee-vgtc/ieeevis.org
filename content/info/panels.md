@@ -5,8 +5,6 @@ active_nav: "Program"
 permalink: /info/panels
 ---
 
-# THIS IS LAST YEAR'S PANEL!
-
 ## <a name="panel-raidou">Why should I stay in Academia? Bridging Generations of Researchers in Visualization</a>
 
 DAY, MONTH DATE: TIME in LOCATION
