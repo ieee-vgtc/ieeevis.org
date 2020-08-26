@@ -7,40 +7,34 @@ permalink: /info/panels
 
 # THIS IS LAST YEAR'S PANEL!
 
-## <a name="panel-freire">Exploring Reproducibility in Vis: Expanding on the National Academies' Report on Reproducibility and Replicability in Science</a>
+## <a name="panel-raidou">Why should I stay in Academia? Bridging Generations of Researchers in Visualization</a>
 
-Tuesday, October 22: 2:20-3:50PM in Room 2+3
+DAY, MONTH DATE: TIME in LOCATION
 
-Organizers: Juliana Freire (New York University), Jean-Daniel Fekete (Inria), Steve Haroz (Inria), Carlos Scheidegger (University of Arizona)
-<br>[Video Preview](https://vimeo.com/360156262)
+Organizers: Renata G. Raidou (University of Groningen), Ingrid Hotz (Linköping University)
+<br>[Video Preview]()
 
-The National Academies of Sciences, Engineering, and Medicine has recently released the report Reproducibility and Replicability in Science. This report has prompted discussions within many disciplines about the extent of reproducibility and replicability challenges and strategies for improving. This panel discussion will begin with an overview of the National Academies' report, followed by comments from other panelists on particular reproducibility challenges faced by the visualization community and how those challenges might be addressed.
+The question "(Why) should I stay in academia?" emerges often in the minds of researchers and in discussions in our community. In general, junior researchers might be more affected, but this is a choice that all levels of academic seniority face. Our panel targets an open discussion on the active choice of “staying or leaving” and its reasons, on the positives and negatives of both possible paths (academia vs. industry), and on how we, as a community, can foster a healthier environment to support and equip our members---whether they decide to stay in academia, or not. Our choice of panelists (Silvia Miksch, Johanna Beyer, Chuck Hansen, Jan Reininghaus, Bei Wang, and Jack van Wijk) pays attention to the inclusion of researchers from different academic ages and with different paths, to reflect different career and life challenges. We have ensured gender balance among our panelists, as female researchers often face different (and additional) challenges, and we have included a panelist from industry, to represent both sides of the coin. We anticipate that our panel will engage a large group of researchers at different career stages in a lively discussion to shape our community.
 
-## <a name="panel-abdul-rahman">Top Research Questions for Empirical Studies in Visualization</a>
+## <a name="panel-correll">Visualization for Social Good</a>
 
-Wednesday, October 23: 2:20-3:50PM in Room 8+15
+DAY, MONTH DATE: TIME in LOCATION
 
-Organizers: Brian Fisher (Simon Fraser University), Petra Isenberg (Inria), David H. Laidlaw	(Brown University), Melanie Tory (Tableau Research), Daniel Weiskopf (University of Stuttgart), Alfie Abdul-Rahman (King's College London)
-<br>[Video Preview](https://vimeo.com/360156233)
+Organizers: Leilani Battle (University of Maryland), Michelle A. Borkin (Northeastern University), Michael Correll (Tableau Software), Lane Harrison (Worcester Polytechnic Institute), Evan Peck (Bucknell University)
+<br>[Video Preview]()
 
-Empirical studies are an indispensable component in visualization as they allow us to not only understand the interactions between humans and computers, but they also enable us to evaluate and confirm our results and experiments.
+After reflection on the Visualization for Social Good tutorial at IEEE VIS 2019, we noticed a perception that work using the power of visualization to further the public good was under-studied or otherwise not part of the main VIS conference. At the same time, there is a growing "techlash" that highlights the potential of data science (and data visualization) as tools for reinforcing structures of inequality and injustice. We envision this panel to function as a way of airing these competing viewpoints and providing guidance on how the visualization community should use their power and responsibilities in the world. As such, we have centered our panelists' statements around response to a single question:
 
-In this panel, we ask five researchers – "What are the top research questions for empirical studies in visualization?" Our panelists will cover a range of topics including:
+What role (if any) should data visualization play in effecting positive change in the world?
 
-- A focus on cognitive science as well as synthesizing theoretical perspectives;
-- Causes of empirical studies focusing on narrow hypotheses vs. broad hypotheses as well as mechanisms for tracking them;
-- Understanding human-computer interaction in visualization and how we can predict performance;
-- The need for a great diversity of empirical studies and the gap between research and practice; and
-- Empirical research beyond user studies, quantitative characterizations to evaluate visualization, as well as the role of eye tracking.
+## <a name="panel-satyanarayan">The role of vis and data researchers during a public health crisis</a>
 
-Express your comments, questions, feedback, and suggestions at <http://thisisalfie.com/top-research-questions>
+DAY, MONTH DATE: TIME in LOCATION
 
-## <a name="panel-fisher2">Visual Analytics, past, present and future</a>
+Organizers: Arvind Satyanarayan (Massachusetts Institute of Technology), Carlos Scheidegger (University of Arizona)
+<br>[Video Preview]()
 
-Thursday, October 24: 2:20-3:50PM in Room 2+3
+We in the field like to think of visualization and data analysis as an unconditional good: a tool that enables clarity, communicates truth, and facilitates understanding. It stands to reason, then, that in a public health crisis such as the one we are going through, visualization and data researchers should be a part of the solution. But can we, and should we? What are the risks? Does the self-image of the field hold up with the current existing sociopolitical context?
 
-Organizers: Brian Fisher (Simon Fraser University), Kristin Cook (Pacific Northwest National Laboratory), David Ebert (Purdue University), Daniel Keim (University of Konstanz)
-<br>[Video Preview](https://vimeo.com/360156204)
-
-We have brought together leaders of the three groups that created visual analytics: a co-editor of Illuminating the Path, the leader of VisMaster, and the leader of VACCINE to discuss the history, present state, and future of visual analytics, "the science of analytical reasoning facilitated by interactive visual interfaces". In an open discussion with attendees panelists will give their perspectives on the origins and evolving goals of VA, what has worked, what has not, and what we have learned in the VA effort that might help us to build a more diverse and impactful VIS.
+In this panel, we will bring top researchers in visualization and data management to discuss how—and whether—visualization and data researchers can build effective solutions for urgent public health problems.
 
