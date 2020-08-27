@@ -97,7 +97,7 @@ If your track is not listed, please check for updates later as all track chairs 
 
 Video Previews are **required** for the following tracks:
 - SciVis Papers
-- VizSec
+- VizSec Papers
 - VISAP
 - Short Papers
 - TVCG Papers
@@ -109,6 +109,7 @@ Video Previews are **optional** for the following tracks:
 - VAST Papers
 - SciVis Contest
 - Posters
+- VizSec Posters
 
 
 You have **no Video-Preview** to submit for the following tracks:
