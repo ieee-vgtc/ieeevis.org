@@ -8,7 +8,7 @@ contact: viskids@ieeevis.org
 
 The IEEE VIS conference is excited to support our VISKids and young families!
 
-Grants of up to $500 per family are available for VIS attendees who are bringing small children to the conference or who incur extra expenses in leaving their children at home. The grants will be given as a reimbursement for expenses but attendees are responsible for making their own arrangements for child care. If requests exceed available funding, or if additional funding becomes available, preference will be given to students and early career attendees who are presenting at the conference.
+Grants of up to $500 per family are available for VIS attendees who incur extra expenses while participating in VIS. The grants will be given as a reimbursement for expenses but attendees are responsible for making their own arrangements for child care. If requests exceed available funding, or if additional funding becomes available, preference will be given to students and early career attendees who are presenting at the conference.
  
 ### Examples of allowable expenses
 
@@ -42,9 +42,9 @@ Grants of up to $500 per family are available for VIS attendees who are bringing
 
 ### Application and deadline
 
-* [Application Form](https://forms.gle/QbQRAKrcMwHrJPKd8)
-* Deadline: July 31, 2019
-* Notification: August 14, 2019
+* [Application Form](https://forms.gle/FbjgJRqJ1V7bNN3h7)
+* Deadline: September 18, 2020
+* Notification: September 30, 2020
 
 ### VISKids Community
 
