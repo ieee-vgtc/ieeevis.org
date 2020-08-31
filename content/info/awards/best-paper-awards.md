@@ -2,7 +2,8 @@
 title: Best Paper Awards
 layout: page
 permalink: /info/awards/best-paper-awards
-contact: [committee-name]@ieeevis.org
+contact: papers@ieeevis.org
+active_nav: "Program"
 ---
 
 Best paper and honorable mention awards are selected per conference track by a dedicated committee of experienced community members. 
