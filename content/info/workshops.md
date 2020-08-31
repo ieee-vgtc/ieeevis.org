@@ -21,7 +21,7 @@ Here is the list of the accepted workshops. Please visit their individual websit
 <hr/>
 
 ## <a name="failfest"></a> [Fail Fest: A Workshop Celebrating the Scientific Value of Failure](https://failfest.github.io/)
-When: TBD
+When: Sunday Oct 25,  11:50am-3:15pm (Mountain Time - USA)
 
 Jane L. Adams, *University of Vermont* <br>
 R. Jordan Crouser, *Smith College* <br>
@@ -33,7 +33,7 @@ Contact: janelydiaadams@gmail.com
 Failure is a crucial part of the scientific process, but it is rarely given the same respect as success. FailFest, a half day workshop at IEEE VIS 2020, is a chance for the visualization community to share personal research failures and celebrate the important knowledge gained through these experiences. The workshop will cumulate strategies for building a VIS community that acknowledges failure and embraces its scientific value.
 
 ## <a name="mlui"></a> [Machine Learning from User Interaction for Visualization and Analytics](https://learningfromusersworkshop.github.io/)
-When: TBD
+When: Sunday Oct 25,  8:00am-11:25am (Mountain Time - USA)
 
 John Wenskovitch, *Virginia Polytechnic Institute and State University*  
 Michelle Dowling, *Virginia Polytechnic Institution and State University*  
@@ -52,7 +52,7 @@ To achieve this goal, we propose a workshop that incorporates paper presentation
 
 
 ## <a name="movis"></a> [Information Visualization of Geospatial Networks, Flows and Movement](http://move.geog.ucsb.edu/movis2020/)
-When: TBD
+When: Monday Oct 26,  11:50am-3:15pm (Mountain Time - USA)
 
 Clio Andris,	*Georgia Tech*  
 Somayeh Dodge,	*University of California at Santa Barbara*  
@@ -64,7 +64,7 @@ This workshop will bring Geographic Information Scientists to the VIS community 
 
 
 ## <a name="trex"></a>[TREX: Workshop on TRust and EXpertise in Visual Analytics](https://trexvis.github.io/Workshop2020/index.html)
-When: TBD
+When: Sunday Oct 25,  11:50am-3:15pm (Mountain Time - USA)
 
 Eric Ragan,	*University of Florida*  
 Mahsan Nourani,	*University of Florida*  
@@ -81,7 +81,7 @@ Expertise, bias, and trust are intrinsically intertwined. Additionally, visual a
 
 
 ## <a name="visastro"></a> [Visualization in Astrophysics: Developing New Methods, Discovering Our Universe, Educating the Earth](http://www.sci.utah.edu/~beiwang/visastro2020/)
-When: TBD
+When: Monday Oct 26,  11:50am-3:15pm (Mountain Time - USA)
 
 Bei Wang, *Scientific Computing and Imaging Institute*  
 Juna Kollmeier, *Carnegie Observatories*  
@@ -93,7 +93,7 @@ We propose a workshop during VIS 2020 titled "Visualization in Astrophysics: Dev
 
 
 ## <a name="visactivities"></a> [Workshop on Data Vis Activities to Facilitate Learning, Reflecting, Discussing, and Designing](https://visactivities.github.io/)
-When: TBD
+When: Monday Oct 26,  8:00am-11:25am (Mountain Time - USA)
 
 Samuel Huron, *Telecom Paris Tech*  
 Benjamin Bach, *University of Edinburgh*  
@@ -107,7 +107,7 @@ This workshop focuses on data-visualization activities, especially methods and c
 
 
 ## <a name="viscomm"></a> [VisComm: Workshop on Visualization for Communication](https://viscomm.io/)
-When: TBD
+When: Sunday Oct 25,  11:50am-3:15pm (Mountain Time - USA)
 
 Adriana Arcia, *Columbia University*  
 Alvitta Ottley, *Washington University*  
@@ -120,7 +120,7 @@ Our proposed half-day workshop will bring together communicative visualization p
 
 
 ## <a name="visfutures"></a> [Vis Futures: Design Fiction Methods for Envisioning Tomorrow's Visualizations](https://visfutures.github.io/)
-When: TBD
+When: Monday Oct 26,  11:50am-3:15pm (Mountain Time - USA)
 
 Charles Perin, *University of Victoria*  
 Wesley Willett,	*University of Calgary*  
@@ -134,7 +134,7 @@ The goal of this workshop is to initiate the creation of one or several cards de
 
 
 ## <a name="visguides"></a> [VisGuides: 3rd Workshop on the Creation, Curation, Critique and Conditioning of Principles and Guidelines in Visualization](https://nms.kcl.ac.uk/c4pgv/)
-When: TBD
+When: Sunday Oct 25,  8:00am-11:25am (Mountain Time - USA)
 
 Alfie Abdul-Rahman, *King's College London*  
 Alexandra Diehl, *University of Zurich*  
@@ -153,7 +153,7 @@ The workshop wants to deliver concrete ideas and meta-guidelines about how the v
 - Discuss a research agenda on how to address open questions around guidelines and how on-going research - in any field of visualization - can contribute to sustainable management and discussion of guidelines.
 
 ## <a name="vispsy"></a> [IEEE VIS Workshop on Visualization Psychology](https://sites.google.com/view/vispsych/)
-When: TBD
+When: Monday Oct 26,  8:00am-11:25am (Mountain Time - USA)
 
 Danielle Albers Szafir,	*University of Colorado Boulder*  
 Rita Borgo,	*Kings College London*  
