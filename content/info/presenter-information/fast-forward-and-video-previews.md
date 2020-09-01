@@ -108,9 +108,9 @@ Video Previews are **optional** for the following tracks:
 - InfoVis Papers
 - VAST Papers
 - SciVis Contest
-- Posters
 - VizSec Posters
-
+- Posters
+- Workshops
 
 You have **no Video-Preview** to submit for the following tracks:
 - Tutorials
