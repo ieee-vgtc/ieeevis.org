@@ -142,7 +142,8 @@ You have **no Video-Preview** to submit for the following tracks:
     - VAST (TVCG track), InfoVis, and SciVis papers: [IEEE CPS link 1]( https://www.ieeecps.org/#!/auth/login?ak=1&pid=6npUPAW09ZkWTxZu1x6eqt)
     - VAST conference track papers: [IEEE CPS link 2]( https://www.ieeecps.org/#!/auth/login?ak=1&pid=1STjhXEs7pnq6MVRHsS1GZ)
     - Short papers: [IEEE CPS link 3](https://www.ieeecps.org/#!/auth/login?ak=1&pid=6FmDqudXOcyXV0lDKiEQXe)
-    - TVCG and CG&amp;A papers: [IEEE CPS link 4](https://www.ieeecps.org/)
+    - TVCG papers: [IEEE CPS link 4](https://ieeecps.org/#!/ak/3FHCZuzSIxlcfPtV5l4cwl/preparation-information)
+    - CG&amp;A papers: [IEEE CPS link 5](https://ieeecps.org/#!/ak/6SBnuotlf7vEKUw5IQNo4o/preparation-information)
   - If your video preview is for VizSec, VISAP, Posters, or SciVis Contest, please submit it through the [PCS author submission page](https://new.precisionconference.com/vgtc) of your accepted submissions. 
     - You will find two new upload fields labeled **Video Preview** and **Video Preview (Caption File)**. Please upload your video (.mp4 file) and caption file (.srt file) to the corresponding field.
   - If your fast forward video is not associated with an existing entry in the PCS system, please create a new Video-Preview submission in the system (make a new submission to VGTC - VIS 2020 - VIS 2020 Fast Forwards and Video Previews). Please request a PCS login from the conference organizers if you do not have one.
