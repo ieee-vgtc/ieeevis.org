@@ -9,7 +9,7 @@ contact: papers@ieeevis.org
 
 This page provides authors of accepted papers with important information for the remainder of the process until the conference.
 
-## CAMERA READY PAPER SUBMISSION
+## Camera-Ready Paper Submission
 
 **DEADLINE: September 7.** Submit final papers and supplemental materials via the IEEE submission system. A link to the IEEE submission system was included in your final paper acceptance letter.
 
@@ -23,15 +23,17 @@ You can submit a video of your work for inclusion in the digital archive. TVCG r
 
 At least one author per accepted paper must register to present the work. There will be no fast-forward presentations at VIS this year.
 
-## VIDEO PREVIEW SUBMISSION
+## Video Preview Submission
 
 **DEADLINE: September 14.** It is **mandatory** for SciVis authors and optional for VAST and InfoVis authors to submit a [25-sec Video Preview](/year/2020/info/presenter-information/fast-forward-and-video-previews). Video previews should be submitted through the IEEE submission system.
 
-## PAPER PRESENTATION VIDEO RECORDING
+## Paper Presentation Video Recording
 
 **DEADLINE: September 14.** It is **mandatory** for authors of all VIS papers to submit a [recording of their paper presentation](/year/2020/info/presenter-information/talk-recording-guide). Presentations should be submitted through the IEEE submission system.
 
-## COMMON EDITING MISTAKES AND NOTES FROM TVCG
+We provide a PowerPoint template that can be used for your presentation.  Feel free to download the template with [imperial measurements]({{ 'assets/vis2020-16x9-imperial.ppt' | relative_url }}) or [metric measurements]({{ 'assets/vis2020-16x9-metric.ppt' | relative_url }}).
+
+## Common Editing Mistakes and Notes from TVCG
 
 Under no circumstances will updates be accepted after 11.59 PM on September 7. We have allowed for exceptions in the past but we will be strict this year.  
 
