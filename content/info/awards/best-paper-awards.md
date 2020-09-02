@@ -55,7 +55,7 @@ Authors: Fritz Lekschas, Xinyi Zhou, Wei Chen, Nils Gehlenborg, Benjamin Bach, a
 
 **Data Visceralization: Enabling Deeper Understanding of Data Using Virtual Reality**
 <br/>
-Authors: Benjamin, David Brown, Bongshin Lee, Christophe Hurter, Steven Drucker, and Tim Dwyer 
+Authors: Benjamin Lee, David Brown, Bongshin Lee, Christophe Hurter, Steven Drucker, and Tim Dwyer 
 
 ## SciVis
 
