@@ -181,7 +181,8 @@ permalink: /info/committees/conference-committee
 | Martin Falk | *Linköping University* |
 | Will Usher | *University of Utah* |
 |---
-| **Virtual Chairs** | |
+| **Virtual Conference Chairs** | |
+| Gautam Chaudhary | *Alcon* |
 | Daniela Giorgi | *CNR* |
 | Amy Gooch | *University of Utah* |
 | Ingrid Hotz | *Linköping University* |
