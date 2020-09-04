@@ -61,22 +61,15 @@ Authors: Benjamin Lee, David Brown, Bongshin Lee, Christophe Hurter, Steven Druc
 
 ### Best Paper Award
 
-**InSituNet: Deep Image Synthesis for Parameter Space Exploration of Ensemble Simulations**
+**Objective Observer-Relative Flow Visualization in Curved Spaces for Unsteady 2D Geophysical Flows**
 <br/>
-Authors: Wenbin He, Junpeng Wang, Hanqi Guo, Ko-Chih Wang, Han-Wei Shen, Mukund Raj, Youssef S. G. Nashed, Tom Peterka
-<br>[Video Preview](https://vimeo.com/359998980)
+Authors: Peter Rautek, Matej Mlejnek, Johanna Beyer, Jakob Troidl, Hanspeter Pfister, Thomas Theussl, Markus Hadwiger
 
 ### Best Paper Honorable Mention
 
-**Progressive Wasserstein Barycenters of Persistence Diagrams**
+**Interactive Black Hole Visualization**
 <br/>
-Authors: Jules Vidal, Joseph Budin, Julien Tierny
-<br>[Video Preview](https://vimeo.com/360007493)
-
-**Toward Localized Topological Data Structures: Querying the Forest for the Tree**
-<br/>
-Authors: Pavol Klacansky, Attila Gyulassy, Peer-Timo Bremer, Valerio Pascucci
-<br>[Video Preview](https://vimeo.com/359998742)
+Authors: Annemieke Verbraeck, Elmar Eisemann
 
 
 
