@@ -12,12 +12,12 @@
 #       url:   #link to the supporter's website
 
 
-- category: Platinum
-  image_size: 200
-  supporters:
-    - name: "Tableau"
-      image: /assets/supporters/tableau.png
-      url: "https://www.tableau.com/"
+#- category: Platinum
+#  image_size: 200
+#  supporters:
+#    - name: "Tableau"
+#      image: /assets/supporters/tableau.png
+#      url: "https://www.tableau.com/"
 
 
 # - category: Gold
