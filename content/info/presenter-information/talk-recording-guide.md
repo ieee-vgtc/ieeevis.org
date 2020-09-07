@@ -41,14 +41,15 @@ To make full use of the 16x9 video aspect ratio we recommend using the 16x9 wide
 [Download the VIS 2020 Powerpoint template here](/year/2020/assets/vis2020-16x9.ppt).
 
 ## File Naming Convention
+
+- Videos submitted through IEEE CPS: please follow the guidance on IEEE CPS when naming your submission materials. 
+
+- Other associated events, workshops, tutorials:
 Your video file must be named following a `<shortname>_<uniqueidentifier>.mp4` convention.
 The prefix is assigned based on the track or event your video is included in.
 For the the short name prefix please find your event or track in the tables [below](#conference-track-and-associated-event-short-name-prefixes).
-<!--https://docs.google.com/spreadsheets/d/1unVDXq4kqj0iZ_2d_TYU8a61NG65bg_dX6IU2jdOUJY/edit?usp=sharing-->
-Your talk’s unique identifier is:
+Your event organizers will send information about the unique identifier.
 
-- Videos submitted through IEEE Xplore: please follow the guidance on IEEE Xplore when naming your submission materials. 
-- Other associated events and workshops: Your event organizers will send information about the unique identifier
 
 ## Recording Your Talk
 
