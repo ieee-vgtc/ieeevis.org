@@ -26,19 +26,20 @@ registration:
 
 menu:
   - dropdown: "Attend"
-    display: false
+    display: true
     sections:
       - subsections:
-          #- heading: "Attending VIS 2020"
-            # heading_url: "https://www.google.com"
-            # description: "Join us at the Vancouver Convention Centre East!"
-            #columns:
-              #- heading: "Attend"
-              #  links:
-              #    - text: "Registration"
-              #      url: "/year/2020/info/registration/conference-registration"
+          - heading: "Attending VIS 2020"
+            heading_url: "#"
+            description: "Join us online on our virtual site! (TBD)"
+            columns:
+              - heading: "Attend"
+                links:
+                  - text: "Registration"
+                    url: "/year/2020/info/registration/conference-registration"
+                    is_new: true
                   # - text: "Conference Venue"
-                  #   url: "https://www.google.com"
+                  #   url: "#"
               #    - text: "Practitioner Guide"
               #      url: "https://visinpractice.github.io/guide.html"
               #      is_external: true                 
