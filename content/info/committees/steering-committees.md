@@ -34,7 +34,6 @@ IEEE VIS comprises three steering committees:
 
 | Gennady Andrienko | *Fraunhofer Institute IAIS and City University London* |
 | Min Chen | *Oxford University* |
-| Brian Fisher | *Simon Fraser University* |
 | Silvia Miksch | *Vienna University of Technology* |
 | Giuseppe Santucci | *Università degli Studi di Roma "La Sapienza"* |
 | Tobias Schreck | *TU Graz* |
