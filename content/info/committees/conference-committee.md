@@ -153,7 +153,7 @@ permalink: /info/committees/conference-committee
 |---
 | **Inclusivity Chairs** | |
 | Lace Padilla | *University of California Merced* |
-| Alvitta Ottley | *Texas Advanced Computing Center* |
+| Alvitta Ottley | *Washington University* |
 | Arvind Satyanarayan | *MIT* |
 |---
 | **Supporters Chairs** | |
