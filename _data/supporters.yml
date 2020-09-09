@@ -18,10 +18,10 @@
    - name: "Intel"
      image: /assets/supporters/intel_2020.png
      url: "https://intel.com"
-
-   - name: "NVidia"
-     image: /assets/supporters/nvidia.png
-     url: "https://nvidia.com"
+#
+#   - name: "NVidia"
+#     image: /assets/supporters/nvidia.png
+#     url: "https://nvidia.com"
 
    - name: "Tableau"
      image: /assets/supporters/tableau_alt.png
@@ -37,9 +37,9 @@
 #
 - category: Bronze
   supporters:
-   - name: "IBM/MIT"
-     image: /assets/supporters/ibm-mit.png
-     url: "https://mitibmwatsonailab.mit.edu/"
+#   - name: "IBM/MIT"
+#     image: /assets/supporters/ibm-mit.png
+#     url: "https://mitibmwatsonailab.mit.edu/"
 
    - name: "Kitware, Inc"
      image: /assets/supporters/kitware.png
@@ -49,10 +49,10 @@
      image: /assets/supporters/microsoft.png
      url: "https://www.microsoft.com/research"
 
-   - name: "Siemens"
-     image: /assets/supporters/Siemens.png
-     url: "https://siemens.com/"
-
+#   - name: "Siemens"
+#     image: /assets/supporters/Siemens.png
+#     url: "https://siemens.com/"
+#
 #     - name: "VIDI Chengying"
 #       image: /assets/supporters/VIDI-Chengying.png
 #       url: "https://web.cs.ucdavis.edu/~ma/"
@@ -67,17 +67,17 @@
 
 - category: Pearl
   supporters:
-   - name: "3DMD"
-     image: /assets/supporters/3dmd-logo.png
-     url: "https://3dmd.com/"
+#   - name: "3DMD"
+#     image: /assets/supporters/3dmd-logo.png
+#     url: "https://3dmd.com/"
 
-   - name: "Allegro AI"
-     image: /assets/supporters/allegro-AI.png
-     url: "https://allegro.ai/"
+#   - name: "Allegro AI"
+#     image: /assets/supporters/allegro-AI.png
+#     url: "https://allegro.ai/"
 
-   - name: "Google"
-     image: /assets/supporters/Google.png
-     url: "https://google.com"
+#   - name: "Google"
+#     image: /assets/supporters/Google.png
+#     url: "https://google.com"
 
    - name: "SCI"
      image: /assets/supporters/sci.png
