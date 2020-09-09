@@ -1,8 +1,9 @@
 ---
-title: conference-registration
+title: Conference Registration
 layout: page
+active_nav: "Attend"
 permalink: /info/registration/conference-registration
-contact: [committee-name]@ieeevis.org
+contact: core_committee@ieeevis.org
 ---
 
 
