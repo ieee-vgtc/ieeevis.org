@@ -40,15 +40,25 @@
 #
 - category: Bronze
   supporters:
-   - name: "Microsoft"
-     image: /assets/supporters/microsoft.png
-     url: "https://www.microsoft.com/research"
-   
+   - name: "IBM/MIT"
+     image: /assets/supporters/ibm-mit.png
+     url: "https://mitibmwatsonailab.mit.edu/"
+
    - name: "Kitware, Inc"
      image: /assets/supporters/kitware.png
      url: "https://www.kitware.com/"
 
-#   supporters:
+   - name: "Microsoft"
+     image: /assets/supporters/microsoft.png
+     url: "https://www.microsoft.com/research"
+
+   - name: "Siemens"
+     image: /assets/supporters/Siemens.png
+     url: "https://siemens.com/"
+
+#     - name: "VIDI Chengying"
+#       image: /assets/supporters/VIDI-Chengying.png
+#       url: "https://web.cs.ucdavis.edu/~ma/"
 #     - name: "Harvard Medical School, Department of Biomedical Informatics"
 #       image: /assets/supporters/DBMI.png
 #       url: "http://dbmi.hms.harvard.edu/"
@@ -60,15 +70,6 @@
    - name: "IBM/MIT"
      image: /assets/supporters/ibm-mit.png
      url: "https://mitibmwatsonailab.mit.edu/"
-
-   - name: "Siemens"
-     image: /assets/supporters/Siemens.png
-     url: "https://siemens.com/"
-
-#     - name: "VIDI Chengying"
-#       image: /assets/supporters/VIDI-Chengying.png
-#       url: "https://web.cs.ucdavis.edu/~ma/"
-
 
 - category: Pearl
   supporters:
@@ -83,7 +84,11 @@
    - name: "Google"
      image: /assets/supporters/Google.png
      url: "https://google.com"
-   
+
+   - name: "SCI"
+     image: /assets/supporters/sci.png
+     url: "https://www.sci.utah.edu/"
+
 #     - name: "Otto von Guericke University Magdeburg"
 #       image: /assets/supporters/magdeburg.jpg
 #       url: "https://www.uni-magdeburg.de/"
@@ -116,10 +121,6 @@
 #       image: /assets/supporters/fraunhofer.png
 #       url: "https://www.igd.fraunhofer.de/"
 
-#     - name: "SCI"
-#       image: /assets/supporters/sci.png
-#       url: "https://www.sci.utah.edu/"
-
 #     - name: "hs mannheim"
 #       image: /assets/supporters/hsmannheim.png
 #       url: "https://www.hs-mannheim.de/"
@@ -143,18 +144,18 @@
 
 - category: Diversity/Inclusivity
   supporters:
-   - name: "TwoSix Labs"
-     image: /assets/supporters/TwoSix_Labs.png
-     url: "https://www.twosixlabs.com/"
+   - name: "Data Machines Corp"
+     image: /assets/supporters/datamachines.png
+     url: "http://www.datamachines.io/"
 
    - name: "Sophos"
      image: /assets/supporters/sophos.png
      url: "https://www.sophos.com/"
 
-   - name: "Data Machines Corp"
-     image: /assets/supporters/datamachines.png
-     url: "http://www.datamachines.io/"
-       
+   - name: "TwoSix Labs"
+     image: /assets/supporters/TwoSix_Labs.png
+     url: "https://www.twosixlabs.com/"
+
 #     - name: "FireEye"
 #       image: /assets/supporters/fireeye.png
 #       url: "https://www.fireeye.com/"
