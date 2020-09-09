@@ -16,7 +16,7 @@
   image_size: 200
   supporters:
    - name: "Intel"
-     image: /assets/supporters/intel_2015.png
+     image: /assets/supporters/intel_2020.png
      url: "https://intel.com"
 
    - name: "NVidia"
@@ -26,9 +26,6 @@
    - name: "Tableau"
      image: /assets/supporters/tableau.png
      url: "https://www.tableau.com/"
-    
-
-
 
 # - category: Gold
 #   image_size: 150
@@ -66,10 +63,7 @@
 #     - name: "KAUST"
 #       image: /assets/supporters/KAUST.png
 #       url: "https://vcc.kaust.edu.sa/Pages/Home.aspx"
-#
-   - name: "IBM/MIT"
-     image: /assets/supporters/ibm-mit.png
-     url: "https://mitibmwatsonailab.mit.edu/"
+
 
 - category: Pearl
   supporters:
@@ -142,7 +136,8 @@
 #       image: /assets/supporters/DVS.png
 #       url: "https://www.datavisualizationsociety.com"
 
-- category: Diversity/Inclusivity
+
+- category: Diversity/Inclusivity Scholorships
   supporters:
    - name: "Data Machines Corp"
      image: /assets/supporters/datamachines.png
@@ -155,6 +150,7 @@
    - name: "TwoSix Labs"
      image: /assets/supporters/TwoSix_Labs.png
      url: "https://www.twosixlabs.com/"
+
 
 #     - name: "FireEye"
 #       image: /assets/supporters/fireeye.png
