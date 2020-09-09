@@ -24,7 +24,7 @@
      url: "https://nvidia.com"
 
    - name: "Tableau"
-     image: /assets/supporters/tableau.png
+     image: /assets/supporters/tableau_alt.png
      url: "https://www.tableau.com/"
 
 # - category: Gold
