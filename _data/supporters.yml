@@ -16,7 +16,7 @@
   image_size: 200
   supporters:
    - name: "Intel"
-     image: /assets/supporters/intel_2015.png
+     image: /assets/supporters/intel_2020.png
      url: "https://intel.com"
 
    - name: "NVidia"
@@ -24,7 +24,7 @@
      url: "https://nvidia.com"
 
    - name: "Tableau"
-     image: /assets/supporters/tableau.png
+     image: /assets/supporters/tableau_alt.png
      url: "https://www.tableau.com/"
     
 
@@ -67,9 +67,6 @@
 #       image: /assets/supporters/KAUST.png
 #       url: "https://vcc.kaust.edu.sa/Pages/Home.aspx"
 #
-   - name: "IBM/MIT"
-     image: /assets/supporters/ibm-mit.png
-     url: "https://mitibmwatsonailab.mit.edu/"
 
 - category: Pearl
   supporters:
@@ -88,6 +85,7 @@
    - name: "SCI"
      image: /assets/supporters/sci.png
      url: "https://www.sci.utah.edu/"
+
 
 #     - name: "Otto von Guericke University Magdeburg"
 #       image: /assets/supporters/magdeburg.jpg
@@ -142,7 +140,7 @@
 #       image: /assets/supporters/DVS.png
 #       url: "https://www.datavisualizationsociety.com"
 
-- category: Diversity/Inclusivity
+- category: Diversity/Inclusivity Scholorships
   supporters:
    - name: "Data Machines Corp"
      image: /assets/supporters/datamachines.png
