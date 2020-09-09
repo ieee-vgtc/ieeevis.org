@@ -12,12 +12,22 @@
 #       url:   #link to the supporter's website
 
 
-#- category: Platinum
-#  image_size: 200
-#  supporters:
-#    - name: "Tableau"
-#      image: /assets/supporters/tableau.png
-#      url: "https://www.tableau.com/"
+- category: Platinum
+  image_size: 200
+  supporters:
+   - name: "Intel"
+     image: /assets/supporters/intel_2015.png
+     url: "https://intel.com"
+
+   - name: "NVidia"
+     image: /assets/supporters/nvidia.png
+     url: "https://nvidia.com"
+
+   - name: "Tableau"
+     image: /assets/supporters/tableau.png
+     url: "https://www.tableau.com/"
+    
+
 
 
 # - category: Gold
@@ -26,41 +36,54 @@
 #     - name: "Microsoft"
 #       image: /assets/supporters/microsoft.png
 #       url: "https://www.microsoft.com/"
-
-
+#
+#
 - category: Bronze
   supporters:
-    - name: "Microsoft"
-      image: /assets/supporters/microsoft.png
-      url: "https://www.microsoft.com/research"
-    - name: "Kitware, Inc"
-      image: /assets/supporters/kitware.png
-      url: "https://www.kitware.com/"
+   - name: "Microsoft"
+     image: /assets/supporters/microsoft.png
+     url: "https://www.microsoft.com/research"
+   
+   - name: "Kitware, Inc"
+     image: /assets/supporters/kitware.png
+     url: "https://www.kitware.com/"
 
 #   supporters:
 #     - name: "Harvard Medical School, Department of Biomedical Informatics"
 #       image: /assets/supporters/DBMI.png
 #       url: "http://dbmi.hms.harvard.edu/"
-
+#
 #     - name: "KAUST"
 #       image: /assets/supporters/KAUST.png
 #       url: "https://vcc.kaust.edu.sa/Pages/Home.aspx"
+#
+   - name: "IBM/MIT"
+     image: /assets/supporters/ibm-mit.png
+     url: "https://mitibmwatsonailab.mit.edu/"
 
-#     - name: "IBM/MIT"
-#       image: /assets/supporters/ibm-mit.png
-#       url: "https://mitibmwatsonailab.mit.edu/"
-
-#     - name: "Siemens"
-#       image: /assets/supporters/Siemens.png
-#       url: "https://siemens.com/"
+   - name: "Siemens"
+     image: /assets/supporters/Siemens.png
+     url: "https://siemens.com/"
 
 #     - name: "VIDI Chengying"
 #       image: /assets/supporters/VIDI-Chengying.png
 #       url: "https://web.cs.ucdavis.edu/~ma/"
 
 
-# - category: Pearl
-#   supporters:
+- category: Pearl
+  supporters:
+   - name: "3DMD"
+     image: /assets/supporters/3dmd-logo.png
+     url: "https://3dmd.com/"
+
+   - name: "Allegro AI"
+     image: /assets/supporters/allegro-AI.png
+     url: "https://allegro.ai/"
+
+   - name: "Google"
+     image: /assets/supporters/Google.png
+     url: "https://google.com"
+   
 #     - name: "Otto von Guericke University Magdeburg"
 #       image: /assets/supporters/magdeburg.jpg
 #       url: "https://www.uni-magdeburg.de/"
@@ -109,9 +132,6 @@
 #       image: /assets/supporters/morganclaypool.png
 #       url: "https://www.morganclaypool.com"
 
-#     - name: "Google"
-#       image: /assets/supporters/Google.png
-#       url: "https://google.com"
 
 #     - name: "University of Maryland"
 #       image: /assets/supporters/maryland.png
@@ -121,23 +141,24 @@
 #       image: /assets/supporters/DVS.png
 #       url: "https://www.datavisualizationsociety.com"
 
-# - category: Other Donations
-#   supporters:
-#     - name: "Sophos"
-#       image: /assets/supporters/sophos.png
-#       url: "https://www.sophos.com/"
+- category: Diversity/Inclusivity
+  supporters:
+   - name: "TwoSix Labs"
+     image: /assets/supporters/TwoSix_Labs.png
+     url: "https://www.twosixlabs.com/"
 
-#     - name: "Data Machines Corp"
-#       image: /assets/supporters/datamachines.png
-#       url: "http://www.datamachines.io/"
+   - name: "Sophos"
+     image: /assets/supporters/sophos.png
+     url: "https://www.sophos.com/"
 
+   - name: "Data Machines Corp"
+     image: /assets/supporters/datamachines.png
+     url: "http://www.datamachines.io/"
+       
 #     - name: "FireEye"
 #       image: /assets/supporters/fireeye.png
 #       url: "https://www.fireeye.com/"
 
-#     - name: "NVidia"
-#       image: /assets/supporters/nvidia.png
-#       url: "https://nvidia.com"
 
 #     - name: "University of South Florida"
 #       image: /assets/supporters/USF.png
