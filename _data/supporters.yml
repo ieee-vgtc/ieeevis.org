@@ -26,9 +26,6 @@
    - name: "Tableau"
      image: /assets/supporters/tableau_alt.png
      url: "https://www.tableau.com/"
-    
-
-
 
 # - category: Gold
 #   image_size: 150
@@ -66,11 +63,6 @@
 #     - name: "KAUST"
 #       image: /assets/supporters/KAUST.png
 #       url: "https://vcc.kaust.edu.sa/Pages/Home.aspx"
-<<<<<<< HEAD
-#
-=======
-
->>>>>>> added supporter
 
 - category: Pearl
   supporters:
@@ -90,10 +82,6 @@
      image: /assets/supporters/sci.png
      url: "https://www.sci.utah.edu/"
 
-<<<<<<< HEAD
-
-=======
->>>>>>> added supporter
 #     - name: "Otto von Guericke University Magdeburg"
 #       image: /assets/supporters/magdeburg.jpg
 #       url: "https://www.uni-magdeburg.de/"
@@ -161,10 +149,6 @@
      image: /assets/supporters/TwoSix_Labs.png
      url: "https://www.twosixlabs.com/"
 
-<<<<<<< HEAD
-=======
-
->>>>>>> added supporter
 #     - name: "FireEye"
 #       image: /assets/supporters/fireeye.png
 #       url: "https://www.fireeye.com/"
