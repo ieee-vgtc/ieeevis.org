@@ -24,7 +24,7 @@
      url: "https://nvidia.com"
 
    - name: "Tableau"
-     image: /assets/supporters/tableau_alt.png
+     image: /assets/supporters/tableau.png
      url: "https://www.tableau.com/"
 
 # - category: Gold
@@ -63,6 +63,7 @@
 #     - name: "KAUST"
 #       image: /assets/supporters/KAUST.png
 #       url: "https://vcc.kaust.edu.sa/Pages/Home.aspx"
+
 
 - category: Pearl
   supporters:
@@ -135,6 +136,7 @@
 #       image: /assets/supporters/DVS.png
 #       url: "https://www.datavisualizationsociety.com"
 
+
 - category: Diversity/Inclusivity Scholorships
   supporters:
    - name: "Data Machines Corp"
@@ -148,6 +150,7 @@
    - name: "TwoSix Labs"
      image: /assets/supporters/TwoSix_Labs.png
      url: "https://www.twosixlabs.com/"
+
 
 #     - name: "FireEye"
 #       image: /assets/supporters/fireeye.png
