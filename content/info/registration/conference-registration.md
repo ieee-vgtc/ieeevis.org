@@ -17,7 +17,7 @@ The early registration period for the Virtual IEEE VIS 2020 lasts until **Septem
 
 **To register, talk to TINA, our AI Assistant.** 
 
-We realize that this year has impacted people in various ways — sometimes very disproportionately. We invite **registrants requiring support due to special circumstances** to apply for the use of the diversity and inclusivity funds and/or hardship funds (as appropriate), which may be used to offset registration costs.
+We realize that this year has impacted people in various ways — sometimes very disproportionately. We invite **registrants requiring support due to special circumstances** to apply for the use of the diversity and inclusivity funds and/or fee waiver funds (as appropriate), which may be used to offset registration costs.
 If due to various hardship circumstances you are required to register due to providing a content-item but are not able to do so, you may apply for a hardship exemption. These will be decided upon by the General Chairs and the VEC chair. To apply, please submit a one page (Letter/A4) request stating the content-item and the nature of your hardship request to [fee_waiver@ieeevis.org](mailto:fee_waiver@ieeevis.org). 
 
 Note that this year (only), the registration will be attached to content-items (e.g. papers, short papers, posters, panel organization, etc.). For each content-item presented at IEEE VIS 2020, only one author is required to register as content provider. We have created a tier system to catalog the various content-items and the associated registration costs.
