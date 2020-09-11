@@ -6,16 +6,28 @@ permalink: /info/registration/conference-registration
 contact: finance@ieeevis.org
 ---
 
+<script language="javascript">
+function eventFire(el, etype){
+  if (el.fireEvent) {
+    el.fireEvent('on' + etype);
+  } else {
+    var evObj = document.createEvent('Events');
+    evObj.initEvent(etype, true, false);
+    el.dispatchEvent(evObj);
+  }
+}
+</script>
+
 This year brings challenges, but also opportunities. While we are saddened by the fact that we cannot be together in Salt Lake City, we are excited by the opportunity a virtual format brings us to expand our community. Even virtual conferences have costs, and hence registration fees are a necessity. To encourage new attendees and ensure maximum exposure for our various content presenters, we have made conference participation for conference attendees free while charging a fee for our content providers. 
 
 We invite registrants requiring support due to special circumstances to apply for the use of the [diversity and inclusivity funds](/year/2020/info/inclusion-and-diversity/diversity-scholarship) and/or limited [fee waiver funds](#fee-waiver) (as appropriate), which may be used to offset registration costs. This model, while imperfect, aims at making sure that we keep running a vibrant and fiscally healthy conference even during these difficult times. Note that this year (only), the registration will be attached to content-items (e.g. papers, short papers, posters, panel organization, etc.). For each content-item presented at IEEE VIS 2020, only one author is required to register. We have created a tier system to catalog the various content-items and the associated registration costs. For further information, please see our [Registration FAQ](#registration-faqs).
-
 
 All attendees need to register online in advance.
 
 The early registration period for the Virtual IEEE VIS 2020 lasts until **September 30, 2020**. Afterwards the standard registration fees apply.
 
-**To register, talk to TINA, our AI Assistant.** 
+**To register, talk to TINA, our AI Assistant or click**<a href="javascript:eventFire(document.getElementById('frame-launcher-btn'), 'click');"> HERE</a>
+ 
 
 We realize that this year has impacted people in various ways — sometimes very disproportionately. We invite **registrants requiring support due to special circumstances** to apply for the use of the diversity and inclusivity funds and/or fee waiver funds (as appropriate), which may be used to offset registration costs.
 If due to various hardship circumstances you are required to register due to providing a content-item but are not able to do so, you may apply for a fee waiver. These will be decided upon by the General Chairs and the VEC chair. To apply, please submit a one page (Letter/A4) request stating the content-item and the nature of your hardship request to [fee_waiver@ieeevis.org](mailto:fee_waiver@ieeevis.org). 
