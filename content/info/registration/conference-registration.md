@@ -26,7 +26,9 @@ All attendees need to register online in advance.
 
 The early registration period for the Virtual IEEE VIS 2020 lasts until **September 30, 2020**. Afterwards the standard registration fees apply.
 
-**To register, talk to TINA, our AI Assistant or click**<a href="javascript:eventFire(document.getElementById('frame-launcher-btn'), 'click');"> HERE</a>
+**To register, talk to TINA, our AI Assistant or** <a class="button" href="javascript:eventFire(document.getElementById('frame-launcher-btn'), 'click');"> REGISTER HERE</a>
+
+
  
 
 We realize that this year has impacted people in various ways — sometimes very disproportionately. We invite **registrants requiring support due to special circumstances** to apply for the use of the diversity and inclusivity funds and/or fee waiver funds (as appropriate), which may be used to offset registration costs.
