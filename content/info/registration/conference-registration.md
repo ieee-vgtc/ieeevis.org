@@ -6,7 +6,10 @@ permalink: /info/registration/conference-registration
 contact: finance@ieeevis.org
 ---
 
-This year brings challenges, but also opportunities. While we are saddened by the fact that we cannot be together in Salt Lake City, we are excited by the opportunity a virtual format brings us to expand our community. To encourage new attendees and ensure maximum exposure for our various content presenters, we have made conference participation for conference attendees free while charging a fee for our content providers. 
+This year brings challenges, but also opportunities. While we are saddened by the fact that we cannot be together in Salt Lake City, we are excited by the opportunity a virtual format brings us to expand our community. Even virtual conferences have costs, and hence registration fees are a necessity. To encourage new attendees and ensure maximum exposure for our various content presenters, we have made conference participation for conference attendees free while charging a fee for our content providers. 
+
+We invite registrants requiring support due to special circumstances to apply for the use of the [diversity and inclusivity funds](/year/2020/info/inclusion-and-diversity/diversity-scholarship) and/or limited [fee waiver funds](#fee-waiver) (as appropriate), which may be used to offset registration costs. This model, while imperfect, aims at making sure that we keep running a vibrant and fiscally healthy conference even during these difficult times. Note that this year (only), the registration will be attached to content-items (e.g. papers, short papers, posters, panel organization, etc.). For each content-item presented at IEEE VIS 2020, only one author is required to register. We have created a tier system to catalog the various content-items and the associated registration costs. For further information, please see our [Registration FAQ](#registration-faqs).
+
 
 All attendees need to register online in advance.
 
@@ -69,16 +72,17 @@ All registration fees will be charged in USD dollars.
 **Registration fees are not refundable.**
 Please submit all cancellation requests to [registration@ieeevis.org](mailto:registration@ieeevis.org). 
 
+## Fee waiver
 
+We realize that this year has impacted people in various ways — sometimes very disproportionately. If due to various hardship circumstances you are required to register due to providing a content-item but are not able to do so, you may apply for a hardship exemption. These will be decided upon by the General Chairs and the VEC chair. To apply, please submit a one page (Letter/A4) request stating the content-item and the nature of your hardship request.  Please submit your request to [fee_waiver@ieeevis.org](mailto:fee_waiver@ieeevis.org) by *30 September for consideration*.
 
-
-**Registration FAQs** 
+## Registration FAQs
 
 **Q: The term 'content-item' was used.  What does this mean?  I have not heard this at IEEE VIS before.**
-A: For this year, we are associating fees with 'content-items' and not with participants. A content-item is a paper, short paper, poster, panel organization, or presentation that is given at any VIS conference track or associated event, including all symposiums and workshops. A single registration fee must be paid for each content-item.  
+A: For this year, we are associating fees with ‘content-items’ and not with participants.  A content-item is associated with a paper, short paper, poster, panel organization, and/or workshop organization and presentation.  One content-item registration fee must be paid for a paper, short-paper and/or poster content-item.  Two content-item registration fees must be paid for a panel organization and/or workshop organization and presentation content-item.  
 
-**Q: Who has to register for content-items?**
-A: All presenters need to register because the video consent form is part of registration.
+**Q: As a follow-up on the previous question:  is the content-item registration fee the same for papers and workshops, etc.?**
+A: Papers published in the IEEE TVCG journal or IEEE Xplore require one ‘high tier’ content-item registration fee.   Panels and workshop organization require two lower-tier content-item registration fees.  Posters and workshop presentations require one ‘low tier’ content-item registration fee. For further clarifications please contact [registration@ieeevis.org](mailto:registration@ieeevis.org).
 
 **Q: I am a contributor to multiple content-items. Do I need to register multiple times?**
 A: Not necessarily. Each content-item requires only one registration fee be paid. For example:
@@ -90,11 +94,11 @@ For example authors A and C may register.
 A: We have decided to leave this decision up to the discretion of the authors/organizers of each content-item.
 
 **Q: I am a co-author on a paper, and a subgroup of the co-authors have decided to split the content-item registration cost.  Can this be done?  Can we get separate (split bill) receipts?**
-A: Under special circumstances and with some restrictions, this may be do-able.  You should reach out to [registration@ieeevis.org](mailto:registration@ieeevis.org). .
+A:  Under special circumstances and with some restrictions, this may be do-able. You should reach out to [registration@ieeevis.org](mailto:registration@ieeevis.org).
 
 **Q: I am the author presenting a paper. Do I need to be the one who registers for this content-item?**
 A: No. Any author can register.  
 
+If you have additional clarification questions, please contact: [registration@ieeevis.org](mailto:registration@ieeevis.org).
 
 
-If you have additional clarification questions, please contact: [registration@ieeevis.org](mailto:registration@ieeevis.org). 
