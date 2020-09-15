@@ -139,6 +139,10 @@
 
 - category: Diversity/Inclusivity Scholarships
   supporters:
+   - name: "Data Intensive Science"
+     image: /assets/supporters/data_intensive_science.jpg
+     url: "https://dataintensivescience.org/"
+
    - name: "Data Machines Corp"
      image: /assets/supporters/datamachines.png
      url: "http://www.datamachines.io/"
