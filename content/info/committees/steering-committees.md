@@ -5,37 +5,22 @@ active_nav: "Organization & History"
 permalink: /info/committees/steering-committees
 ---
 
-IEEE VIS comprises three steering committees:
-* [SciVis Steering Committee](#scivis-steering-committee)
-* [InfoVis Steering Committee](#infovis-steering-committee)
-* [VAST Steering Committee](#vast-steering-committee)
+# The IEEE VIS Steeering Committee
 
-## SciVis Steering Committee
+The task of the IEEE VIS Steering Committee (VSC) is to provide long-term scientific and organizational oversight of IEEE VIS.  Its remit includes handling of all cross-year policy questions. The VSC should be consulted on key initiatives arising from the general chairs, the Visualization Executive Committee (VEC), and the community and should establish mechanisms for this communication. The VSC has 9 members, all serving 4-year terms. For more details on the VSC see the IEEE VIS Charter.
 
-| Baoquan Chen | *Shandong University* |
-| Issei Fujishiro | *Keio University* |
-| Han-Wei Shen | *The Ohio State University* |
-| Claudio T. Silva | *New York University* |
+Current members of the VSC are:
+
+| Daniel  Weiskopf  | *University of Stuttgart* |
 | Deborah Silver | *Rutgers University* |
-| Daniel Weiskopf | *University of Stuttgart* |
-| Anders Ynnerman | *Linköping University* |
+| Huamin Qu  | *Hong Kong University of Science and Technology* |
+| Melanie Tory  | *Tableau* |
+| Petra Isenberg | *Inria* |
+| Robert Moorhead  | *Mississippi State University* |
+| Shixia Liu  | *Tsinghua University* |
+| Stephen North  | *Infovisible* |
+| Tobias Schreck  | *TU Graz* |
 
-## InfoVis Steering Committee
+We made a google drive folder available that contains:
 
-| Sheelagh Carpendale | *Simon Fraser University* |
-| Jason Dykes | *City University London* |
-| Jeff Heer | *University of Washington* |
-| Stephen North | *Infovisible* |
-| Hanspeter Pfister | *Harvard University* |
-| Melanie Tory | *Tableau Software* |
-| Fernanda Viegas | *Google* |
-
-## VAST Steering Committee
-
-| Gennady Andrienko | *Fraunhofer Institute IAIS and City University London* |
-| Min Chen | *Oxford University* |
-| Silvia Miksch | *Vienna University of Technology* |
-| Giuseppe Santucci | *Università degli Studi di Roma "La Sapienza"* |
-| Tobias Schreck | *TU Graz* |
-| John Stasko | *Georgia Institute of Technology* |
-| Huamin Qu | *Hong Kong University of Science and Technology* |
+* [Public Meeting Minutes](https://drive.google.com/drive/folders/1sgjPLu9JwmyjHzWhHSx82U_BdcODBSH1?usp=sharing)
