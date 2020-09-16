@@ -28,15 +28,6 @@ The early registration period for the Virtual IEEE VIS 2020 lasts until **Octobe
 
 **To register, talk to our AI Assistant ** <a class="button" href="javascript:eventFire(document.getElementById('frame-launcher-btn'), 'click');"> TINA </a>
 
-
- 
-
-We realize that this year has impacted people in various ways — sometimes very disproportionately. We invite **registrants requiring support due to special circumstances** to apply for the use of the diversity and inclusivity funds and/or fee waiver funds (as appropriate), which may be used to offset registration costs.
-If due to various hardship circumstances you are required to register due to providing a content-item but are not able to do so, you may apply for a fee waiver. These will be decided upon by the General Chairs and the VEC chair. To apply, please submit a one page (Letter/A4) request stating the content-item and the nature of your hardship request to [fee_waiver@ieeevis.org](mailto:fee_waiver@ieeevis.org). 
-
-
-This model, while imperfect, aims at making sure that we keep running a vibrant and fiscally healthy conference even during these difficult times.
-
 **General attendees:** Free conference registration will provide access to main conference tracks, symposia, tutorials and workshops. Conference publications will be made accessible for a limited time via miniconf site.
 
 **General attendees with conference content download :** Same benefits for general attendees, plus link to downloadable VIS 2020 conference proceedings and content.
