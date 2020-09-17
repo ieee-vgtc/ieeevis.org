@@ -26,7 +26,7 @@ All attendees need to register online in advance.
 
 The early registration period for the Virtual IEEE VIS 2020 lasts until **October 9th, 2020**. Afterwards the standard registration fees apply.
 
-**To register, talk to our AI Assistant ** <a class="button" href="javascript:eventFire(document.getElementById('frame-launcher-btn'), 'click');"> TINA </a>
+**To register, talk to our AI Assistant** <a class="button" href="javascript:eventFire(document.getElementById('frame-launcher-btn'), 'click');"> TINA </a>
 
 **General attendees:** Free conference registration will provide access to main conference tracks, symposia, tutorials and workshops. Conference publications will be made accessible for a limited time via miniconf site.
 
@@ -83,30 +83,48 @@ We realize that this year has impacted people in various ways — sometimes very
 ## Registration FAQs
 
 **Q: The term 'content-item' was used.  What does this mean?  I have not heard this at IEEE VIS before.**
-A. For this year, we are associating fees with ‘content-items’ and not with participants. One or more content-items are associated with a paper, short paper, poster, presentation, associated event organization, panel organization, and contest organization. The details are provided in response to other questions.
+<ul>
+For this year, we are associating fees with ‘content-items’ and not with participants. One or more content-items are associated with a paper, short paper, poster, presentation, associated event organization, panel organization, and contest organization. The details are provided in response to other questions.
+</ul>
 
 **Q: As a follow-up on the previous question:  is the content-item registration fee the same for papers and workshops, etc.?**
-A. All papers and short papers in the main VIS tracks published in the IEEE TVCG journal or IEEE Xplore require one 'Tier 1' content-item registration fee. 
-All papers from associated events published in IEEE Xplore require one 'tier 1' content-item registration fee. 
-All posters require one 'Tier 2' content-item registration fee. 
-Workshops not choosing to publish on, but are part of the downloadable conference content, require up to two workshop organizer registrations (tier 2), and one payment for each content part of downloadable conference content. Cap of $1,200 per workshop
-All invited TVCG and CG&A papers require one 'Tier 2' content-item registration fee. 
-Panel speakers with short presentations will receive complimentary registrations.
+<ul>
+<li>All papers and short papers in the main VIS tracks published in the IEEE TVCG journal or IEEE Xplore require one 'Tier 1' content-item registration fee. </li>
+<li>All papers from associated events published in IEEE Xplore require one 'tier 1' content-item registration fee. </li>
+<li>All posters require one 'Tier 2' content-item registration fee. </li>
+<li>Workshops not choosing to publish on IEEE TVCG journal or IEEE Xplore, but that are part of the downloadable conference content, require up to two workshop organizer registrations (tier 2), and one payment for each content part of downloadable conference content (Cap of $1,200 per workshop).</li>
+<li>All invited TVCG and CG&A papers require one 'Tier 2' content-item registration fee. </li>
+<li>Panel speakers with short presentations will receive complimentary registrations.</li>
+</ul>
+
+**Q:  Are short papers part of Xplore?**
+<ul>
+Yes, papers and short papers are both archival publications through Xplore and therefore considered 'Tier 1' content-items.
+</ul>
 
 **Q: I am a contributor to multiple content-items. Do I need to register multiple times?**
-A: Not necessarily. Each content-item requires only one registration fee be paid. For example:
+<ul>
+Not necessarily. Each content-item requires only one registration fee be paid. For example:
 If paper X has authors A,B,C and poster Y has authors B,C,D:
 only two paid content-item registrations are needed.
 For example authors A and C may register.
-
+</ul>
+  
 **Q: How do you decide who should pay for the content-item registration?**
-A: We have decided to leave this decision up to the discretion of the authors/organizers of each content-item.
+<ul>
+We have decided to leave this decision up to the discretion of the authors/organizers of each content-item.
+</ul>
 
 **Q: I am a co-author on a paper, and a subgroup of the co-authors have decided to split the content-item registration cost.  Can this be done?  Can we get separate (split bill) receipts?**
-A:  Under special circumstances and with some restrictions, this may be do-able. You should reach out to [registration@ieeevis.org](mailto:registration@ieeevis.org).
+<ul>
+Under special circumstances and with some restrictions, this may be do-able. You should reach out to [registration@ieeevis.org](mailto:registration@ieeevis.org).
+</ul>
 
 **Q: I am the author presenting a paper. Do I need to be the one who registers for this content-item?**
-A: No. Any author can register.  
+<ul>
+No. Any author can register.  
+</ul>
+
 
 If you have additional clarification questions, please contact: [registration@ieeevis.org](mailto:registration@ieeevis.org).
 
