@@ -117,7 +117,8 @@ We have decided to leave this decision up to the discretion of the authors/organ
 
 **Q: I am a co-author on a paper, and a subgroup of the co-authors have decided to split the content-item registration cost.  Can this be done?  Can we get separate (split bill) receipts?**
 <ul>
-Under special circumstances and with some restrictions, this may be do-able. You should reach out to [registration@ieeevis.org](mailto:registration@ieeevis.org).
+Under special circumstances and with some restrictions, this may be do-able. 
+You should reach out to [registration@ieeevis.org](mailto:registration@ieeevis.org).
 </ul>
 
 **Q: I am the author presenting a paper. Do I need to be the one who registers for this content-item?**
