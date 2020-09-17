@@ -36,7 +36,7 @@ The early registration period for the Virtual IEEE VIS 2020 lasts until **Octobe
 
 **Content provider tier 2:** Conference attendee paying for other content-items such as workshop organization and presentation, tutorials, panel organization, posters, application spotlights, invited presenters from TVCG and CG&A, etc.  
 
-**Note to content providers:** All content providers need to register in order to sign video waiver form. A single content provider registration fee must be paid for each content-item. 
+**Note to content providers:** All content providers need to register in order to sign video waiver form. Content provider registration fees must be paid for each content-item (see the FAQ for more details), and these fees must be paid prior to the conference.
 
 
 All registration fees will be charged in USD dollars. 
