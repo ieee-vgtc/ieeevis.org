@@ -77,20 +77,24 @@ Authors: Annemieke Verbraeck, Elmar Eisemann
 
 ### Best Paper Award
 
-**Periphery Plots for Contextualizing Heterogeneous Time-Based Charts**
+**The Anatomical Edutainer**
 <br/>
-Authors: Bryce Morrow, Trevor Manz, Arlene E. Chung, Nils Gehlenborg, David Gotz
-<br>[Video Preview](https://vimeo.com/363453522)
+Authors: Marwin Schindler, Hsiang-Yun,
+ Renata Georgia Raidou
+<br>
 
 
 ### Best Paper Honorable Mention
 
-**Graph-assisted Visualization of Microvascular Networks**
+**Encodable: Configurable Grammar
+ for Visualization Components**
 <br/>
-Authors: Pavel Govyadinov, Tasha Womack, Jason Eriksen, David Mayerich, Guoning Chen
-<br>[Video Preview](https://vimeo.com/363452229)
+Author: Krist Wongsuphasawat
+<br>
 
-**Learning Vis Tools: Teaching Data Visualization Tutorials**
+**PRAGMA: Interactively Constructing
+ Functional Brain Parcellations**
 <br/>
-Authors: Leo Yu-Ho Lo, Yao Ming, Huamin Qu
-<br>[Video Preview](https://vimeo.com/363041257)
+Authors: Authors: Roza Gunes Bayrak, Nhung
+ Hoang, Colin Blake Hansen, Catie Chang, Matthew Berger
+<br>
