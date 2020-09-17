@@ -28,3 +28,7 @@
   button-text: "Read more"
   button-url: "http://biovis.net/2020/biovisChallenges_vis/"
   image: "biovischallenge.jpg"
+
+- title: "Supporters"
+  #button-url: "http://biovis.net/2020/biovisChallenges_vis/"
+  image: "supporters.jpg"
