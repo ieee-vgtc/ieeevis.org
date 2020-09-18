@@ -13,7 +13,7 @@ The IEEE VIS 2020 Poster Program offers a timely venue to present and discuss or
 
 In line with the full conference, the presentation of posters will take place online. There will be 1-2 dedicated poster sessions in which poster authors can virtually meet and discuss their work with conference participants. An additional web presence of posters will replace the traditional physical installation of poster boards. More concrete details will follow soon.
 
-In addition to the electronic poster and its virtual presentation, the submitted two-page summary will be included in the electronic conference proceedings. Also, one presenter per poster will be eligible for the reduced conference rate for authors.
+In addition to the electronic poster and its virtual presentation, the submitted two-page summary will be included in the electronic conference proceedings.
 
 Examples of appropriate visualization work include, but are not limited to:
 
@@ -70,9 +70,9 @@ At the time of submission, it is required by the authors to state explicitly in 
 
 All deadlines are at **5:00pm Pacific Time (PDT)**.
 
-### POSTER SESSIONS
+### POSTER SESSION
 
-There will be 1-2 dedicated poster presentation sessions throughout the week in which the virtual posters will be presented. During these times, one or more authors have to be available online at their electronic poster to discuss their work. More details will follow soon.
+There will be one dedicated poster session in which the virtual posters will be presented. During this session, one or more authors have to be available online at their electronic poster to discuss their work. More details will follow soon.
 
 ### POSTER REVIEW PROCESS
 
