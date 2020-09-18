@@ -5,11 +5,8 @@
   image: "mariocapecchi.jpg"
   active: "active"
 
-- title: "COVID-19 impact on IEEE VIS 2020"
-  description: "Following discussions with IEEE, VEC and the VAST, InfoVIS and SciVIS Steering Committees, we the General Chairs have decided not to host the physical meeting in Salt Lake City this year."
-  button-text: "Read more"
-  button-url: "/info/coronavirus-info"
-  image: "coronavirus.jpg"
+- title: "Supporters"
+  image: "supporters.jpg"
 
 - title: "SciVis Contest"
   description: "The 2020 IEEE SciVis Contest is dedicated to create novel approaches or state of the art visualizations to assist domain scientists to better understand the complex transport mechanisms of eddies in the Red Sea under uncertainty."
@@ -29,6 +26,8 @@
   button-url: "http://biovis.net/2020/biovisChallenges_vis/"
   image: "biovischallenge.jpg"
 
-- title: "Supporters"
-  #button-url: "http://biovis.net/2020/biovisChallenges_vis/"
-  image: "supporters.jpg"
+- title: "COVID-19 impact on IEEE VIS 2020"
+  description: "Following discussions with IEEE, VEC and the VAST, InfoVIS and SciVIS Steering Committees, we the General Chairs have decided not to host the physical meeting in Salt Lake City this year."
+  button-text: "Read more"
+  button-url: "/info/coronavirus-info"
+  image: "coronavirus.jpg"
