@@ -160,6 +160,9 @@
    - name: "Gravitas AI"
      image: /assets/supporters/Gravitas_AI.png
      url: "https://gravitas.ai/"
+   - name: "SuperMiniStream"
+     image: /assets/supporters/superministream.png
+     url: "https://www.superministream.com/"
 
 #     - name: "FireEye"
 #       image: /assets/supporters/fireeye.png
