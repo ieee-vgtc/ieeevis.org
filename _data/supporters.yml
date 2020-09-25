@@ -56,9 +56,7 @@
 #     - name: "VIDI Chengying"
 #       image: /assets/supporters/VIDI-Chengying.png
 #       url: "https://web.cs.ucdavis.edu/~ma/"
-#     - name: "Harvard Medical School, Department of Biomedical Informatics"
-#       image: /assets/supporters/DBMI.png
-#       url: "http://dbmi.hms.harvard.edu/"
+
 #
 #     - name: "KAUST"
 #       image: /assets/supporters/KAUST.png
@@ -78,6 +76,10 @@
 #   - name: "Google"
 #     image: /assets/supporters/Google.png
 #     url: "https://google.com"
+
+   - name: "Harvard Medical School, Department of Biomedical Informatics"
+     image: /assets/supporters/DBMI.png
+     url: "http://dbmi.hms.harvard.edu/"
 
    - name: "SCI"
      image: /assets/supporters/sci.png
