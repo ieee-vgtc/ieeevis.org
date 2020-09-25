@@ -30,6 +30,7 @@ In this panel, we will bring top researchers in visualization and data managemen
 Friday, October 30: 10:00am-11:30am MDT
 
 Organizers: Leilani Battle (University of Maryland), Michelle A. Borkin (Northeastern University), Michael Correll (Tableau Software), Lane Harrison (Worcester Polytechnic Institute), Evan Peck (Bucknell University)
+<br>Panelists: Catherine D'Ignazio (Tufts University), Ronald Metoyer (University of Notre Dame), Michelle Borkin (Northeastern University), Evan Peck (Bucknell University)
 <br>[Video Preview]()
 
 After reflection on the Visualization for Social Good tutorial at IEEE VIS 2019, we noticed a perception that work using the power of visualization to further the public good was under-studied or otherwise not part of the main VIS conference. At the same time, there is a growing "techlash" that highlights the potential of data science (and data visualization) as tools for reinforcing structures of inequality and injustice. We envision this panel to function as a way of airing these competing viewpoints and providing guidance on how the visualization community should use their power and responsibilities in the world. As such, we have centered our panelists' statements around response to a single question:
