@@ -20,8 +20,8 @@ The VIS 2020 Inclusivity & Diversity Scholarship Committee will review applicati
 ### Application and Timeline:
 
 * [Applications form](https://forms.gle/nLp2GnZCxxp9ucVv9)
-* Deadline: September 18, 2020
-* Notifications Sent: September 30, 2020
+* Deadline: ~~September 18, 2020~~ October 2, 2020
+* Notifications Sent: ~~September 30, 2020~~ October 9, 2020
 
 ### Inclusivity & Diversity Scholarship Committee
 
