@@ -130,7 +130,7 @@ menu:
                   url: "/year/2020/info/call-participation/meetups"
                 - text: "Become a student volunteer"
                   description: "Support the conference and build your research network"
-                  url: "https://vissv.github.io/index.html/"
+                  url: "http://www.vissv.org"
                   is_external: true
                 - text: "Become a peer reviewer"
                   description: "Volunteer to review submissions"
