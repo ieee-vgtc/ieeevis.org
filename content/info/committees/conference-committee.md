@@ -114,9 +114,9 @@ permalink: /info/committees/conference-committee
 | Kyle Hall | *University of Calgary* |
 |---
 | **Vis in Practice Chairs** | |
-| Matthew Brehmer | *Independent* |
+| Matthew Brehmer | *Tableau* |
 | Matt Larsen | *Livermore National Laboratory* |
-| Zhicheng (Leo) Liu | *Adobe* |
+| Zhicheng (Leo) Liu | *University of Maryland* |
 | Sean McKenna | *Lucid Software* |
 |---
 | **Doctoral Colloquium Chairs**| |
