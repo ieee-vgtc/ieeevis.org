@@ -43,8 +43,9 @@ menu:
               #    - text: "Practitioner Guide"
               #      url: "https://visinpractice.github.io/guide.html"
               #      is_external: true                 
-              #    - text: "Full Program"
-              #      url: "/year/2020/info/week-at-a-glance"
+                  - text: "Full Program"
+                    url: "/year/2020/info/week-at-a-glance"
+                    is_new: true
               #- heading: "Travel"
               #  links:
               #    - text: "Accommodation"
@@ -152,8 +153,8 @@ menu:
     sections:
       - subsections:
           - heading: "Vis Program"
-#            heading_url: "/year/2020/info/week-at-a-glance"
-#            description: "See the complete conference program on the web or via the conference app"
+            heading_url: "/year/2020/info/week-at-a-glance"
+            description: "See the complete conference program"
             columns:
               - links:
                 - text: "Papers (coming soon)"
