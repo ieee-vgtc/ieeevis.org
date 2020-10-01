@@ -121,6 +121,9 @@ menu:
                   - text: "Guidance for Virtual Events"
                     url: "/year/2020/info/presenter-information/guidance-for-associated-events"
                     is_new: true
+                  - text: "Presenting at the Virtual Conference"
+                    url: "/year/2020/info/presenter-information/presenting-virtually"
+                    is_new: true
 
       - subsections:
           - heading: "Get Involved"
