@@ -23,3 +23,12 @@ For more details please see the [IEEE VIS 2020 Supporter Prospectus]({{ 'content
 * Diamond supporters will have a speaking opportunity at a dedicated industry forum and can sponsor the electronic poster program with their company logo displayed between poster transitions.
 
 You can also contact the supporter chairs: [supporters@ieeevis.org](mailto:supporters@ieeevis.org). 
+
+## VIS 2020 Exhibitor Information
+
+On this page, you will find answers to all of your frequently asked questions concerning what you will
+receive, what is being requested from you, information about the exhibition, and who to contact. We
+are excited to have your support for the conference and look forward to a great event.
+
+<br/>
+<embed src="{{ 'assets/vis2020-exhibitor-information.pdf' | relative_url }}" type="application/pdf" width="100%" height="800px" />
