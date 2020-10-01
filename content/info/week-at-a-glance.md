@@ -1,5 +1,5 @@
 ---
-title: VIS Program
+title: VIS Preliminary Program
 layout: page
 permalink: info/week-at-a-glance
 ---
