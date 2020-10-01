@@ -622,7 +622,7 @@ div.password-description ul {
   margin-bottom: 0;
 }
 .password-parent {
-  margin: 0 0 0 0;
+  margin: 0;
 }
 /*
 ** Password confirmation checker
@@ -1098,7 +1098,7 @@ div.date-calendar-day span.year {
   font-family: Verdana, Arial, sans-serif;
   font-size: 1.1em;
   margin: 0;
-  padding: 2.5em .5em .5em .5em;
+  padding: 2.5em .5em .5em;
   position: relative;
   width: 15.5em;
 }
@@ -2499,7 +2499,7 @@ div#main_navtxt {
 	float: left;
 	font: bold 11px/18px Verdana, Arial, Helvetica, sans-serif;
 	color: #999999;
-	padding: 5px 5px 5px 5px;
+	padding: 5px;
 }
 div#main_navtxt a {
 	color: #004E8E;
@@ -2934,7 +2934,7 @@ table .mini-day-on a {
 .calendar-calendar div.day {
   float: right;
   text-align: center;
-  padding: 0.125em 0.25em 0 0.25em;
+  padding: 0.125em 0.25em 0;
   margin: 0;
   background-color: #f3f3f3;
   border: 1px solid gray;
@@ -4969,7 +4969,7 @@ span.toggleAccordion {
   color: #F5F6F5;
   font-size: 20px;
   background: #0099cc;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 20px;
   text-decoration: none;
 }
 
