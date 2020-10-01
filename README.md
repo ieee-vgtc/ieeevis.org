@@ -1,4 +1,4 @@
-# ieeevis.org
+# ieeevisamazing.org
 
 This is the Jekyll version of the [IEEE VIS website](http://ieeevis.org).  
 
