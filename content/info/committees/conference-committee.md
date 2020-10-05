@@ -33,7 +33,7 @@ permalink: /info/committees/conference-committee
 | **Short Papers Chairs** | |
 | Enrico Bertini | *NYU School of Engineering* |
 | Roxana Bujack | *Los Alamos National Laboratory* |
-| Christopher Collins | *Vialab* |
+| Christopher Collins | *Ontario Tech University* |
 | Wenwen Dou | *UNCC* |
 | Alexander Lex | *University of Utah* |
 | Timo Ropinski | *Ulm University* |
