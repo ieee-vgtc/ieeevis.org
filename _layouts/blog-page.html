@@ -1,7 +1,8 @@
 ---
 layout: default
+permalink: /blog
 ---
-
+{%capture canonical_url %}{{ page.permalink | relative_url }}{% endcapture %}
 <header class="section bg-gray-200">
     <div class="header">
         <div class="container">
@@ -22,7 +23,7 @@ layout: default
                 <div class="md:ml-0 -ml-px">
                     {% for post in site.posts %}
                     <!-- TODO fix this prefix url for the post -->
-                        <a href="{{ post.url }}" class="sidebar__link {% if canonical_url == post.url %}sidebar__link--active{% endif %}">{{ post.title }}</a>
+                        <a href="{{canonical_url}}/{{ post.url }}" class="sidebar__link {% if canonical_url == post.url %}sidebar__link--active{% endif %}">{{ post.title }}</a>
                     {% endfor %}
                 </div>
             </div>
