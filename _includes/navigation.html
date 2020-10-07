@@ -10,13 +10,20 @@
 
         <div class="menu md:flex md:justify-end"
             v-bind:class="{ 'menu--expanded': isExpanded }">
-            {% if site.data.navigation.blog.display %}
-            <div class="px-8 md:px-2 lg:px-4 py-4 border-b-2 border-primary-200 md:border-none self-center">
-                <button class="menu_item {{is_active_class}} font-display text-lg md:text-base lg:text-lg px-8 md:px-2 lg:px-4 mx-0 lg:mx-2 py-4 md:py-6 border-b-2 border-primary-200 md:border-none" tabindex="0" role="menuitem">
+
+        {% if site.data.navigation.blog.display %}
+
+            {% assign is_active_class = '' %}
+            {% if page.active_nav == 'Blog' %}
+            {% assign is_active_class = 'menu_item--is-active' %}
+            {% endif %}
+
+            <button class="menu_item {{is_active_class}} font-display text-lg md:text-base lg:text-lg px-8 md:px-2 lg:px-4 mx-0 lg:mx-2 py-4 md:py-6 border-b-2 border-primary-200 md:border-none" tabindex="0" role="menuitem">
                 <a href="{{ site.data.navigation.blog.url }}">{{ site.data.navigation.blog.text }}</a>
-                </button>
-            </div>
+            </button>
+
         {% endif %}
+
         {% for nav in site.data.navigation.menu %}
             {% if nav.display %}
 

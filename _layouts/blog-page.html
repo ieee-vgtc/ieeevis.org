@@ -12,16 +12,20 @@ layout: default
 
 <div class="container md:py-16 flex md:flex-row flex-col justify-between">
     <article class="content md:w-3/5 w-full md:mt-0 mt-8 md:order-none order-2">
+        {% if page.date %}
+        <p class="tiny">{{ page.date | date: '%B %d, %Y' }}</p>
+        {% endif %}
         {{ content }}
     </article>
 
     <aside class="sidebar ">
         <div class="my-4">
-            <p class="heading-alt text-gray-500">All posts</p>
+            <p class="heading-alt text-gray-500"><a href="{{ "/blog" | relative_url }}">All posts</a></p>
             <div class="overflow-hidden md:ml-0 -ml-3">
                 <div class="md:ml-0 -ml-px">
                     {% for post in site.posts %}
-                        <a href="{{ post.url }}" class="sidebar__link {% if canonical_url == post.url %}sidebar__link--active{% endif %}">{{ post.title }}</a>
+                    {% capture post_url %}{{ post.url | relative_url }}{% endcapture %}
+                        <a href="{{ post_url }}" class="sidebar__link {% if canonical_url == post_url %}sidebar__link--active{% endif %}">{{ post.title }}</a>
                     {% endfor %}
                 </div>
             </div>
