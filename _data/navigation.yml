@@ -19,10 +19,15 @@
 #                     is_new:
 #                     is_external
 
-registration:
-  display: false
-  text: "Register"
-  url: "/year/2020/info/registration/conference-registration"
+# registration:
+#   display: false
+#   text: "Register"
+#   url: "/year/2020/info/registration/conference-registration"
+
+blog: 
+    display: true
+    text: "Blog"
+    url: "/year/2020/blog"
 
 menu:
   - dropdown: "Attend"
