@@ -17,7 +17,7 @@ In this blog post we will briefly introduce the main changes coming, after givin
 ## History
 IEEE VIS has undergone many changes over its history. Founded in 1990 as the “IEEE Conference on Visualization”, it originally mostly disseminated work that would have fit best into today’s SciVis conference. In 1995, the IEEE Symposium on Information Visualization (InfoVis) was held for the first time (the oldest surviving website is from [1996](https://www.hpc.msstate.edu/conferences/vis96/)), and finally the IEEE Symposium on Visual Analytics, Science and Technology (VAST) joined the conference. InfoVis and VAST graduated to “conferences” from the “smaller” symposium event type in 2007 and 2011 respectively (using IEEE’s terminology). In the mid-2000s, VIS also began a now well-established collaboration with the top journal for visualization research, IEEE Transactions on Visualization and Computer Graphics (TVCG), that now publishes most papers of these three conferences. All of this is well illustrated in this figure by [Isenberg et al.](https://sites.google.com/site/vispubdata/home):
 
-![](assets/posts/HistoryUpdate2018.jpg)
+![]({{ 'assets/posts/HistoryUpdate2018.jpg' | relative_url }})
 
 In that time, VIS has grown to a large conference with about 1200 attendees, multiple satellite events and workshops, and an impressive volume of high quality publications.
 
