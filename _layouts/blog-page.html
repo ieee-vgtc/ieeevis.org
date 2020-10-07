@@ -22,7 +22,7 @@ permalink: /blog-page
             <div class="overflow-hidden md:ml-0 -ml-3">
                 <div class="md:ml-0 -ml-px">
                     {% for post in site.posts %}
-                        <a href="{{canonical_url}}{{ post.url }}" class="sidebar__link {% if canonical_url == post.url %}sidebar__link--active{% endif %}">{{ post.title }}</a>
+                        <a href="{{ post.url }}" class="sidebar__link {% if canonical_url == post.url %}sidebar__link--active{% endif %}">{{ post.title }}</a>
                     {% endfor %}
                 </div>
             </div>

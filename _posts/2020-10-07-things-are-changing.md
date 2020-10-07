@@ -2,7 +2,7 @@
 title: Things are Changing in 2021
 description: We are introducing a blog for IEEE VIS
 layout: page
-permalink: things-are-changing-2021
+permalink: /blog/things-are-changing-2021
 ---
 
 Hello VIS Community!

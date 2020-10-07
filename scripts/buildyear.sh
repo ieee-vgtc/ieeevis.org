@@ -5,6 +5,7 @@ mkdir _site/year/2020
 
 mv _site/assets _site/year/2020
 mv _site/content _site/year/2020
+mv _site/blog _site/year/2020
 mv _site/dist _site/year/2020
 mv _site/info _site/year/2020
 mv _site/tailwind.config.js _site/year/2020
