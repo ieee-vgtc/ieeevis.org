@@ -24,10 +24,10 @@
 #   text: "Register"
 #   url: "/year/2020/info/registration/conference-registration"
 
-blog: 
+blog:
     display: true
     text: "Blog"
-    url: "/year/2020/blog"
+    url: "/year/2020/blog/index"
 
 menu:
   - dropdown: "Attend"
@@ -47,7 +47,7 @@ menu:
                   #   url: "#"
               #    - text: "Practitioner Guide"
               #      url: "https://visinpractice.github.io/guide.html"
-              #      is_external: true                 
+              #      is_external: true
                   - text: "Full Program"
                     url: "/year/2020/info/week-at-a-glance"
                     is_new: true
