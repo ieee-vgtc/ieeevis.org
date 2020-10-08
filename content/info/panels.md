@@ -37,4 +37,4 @@ After reflection on the Visualization for Social Good tutorial at IEEE VIS 2019,
 
 What role (if any) should data visualization play in effecting positive change in the world?
 
-For panelist statements, bios, and other information, please visit: [https://vis4good.github.io/](https://vis4good.github.io/
+For panelist statements, bios, and other information, please visit: [https://vis4good.github.io/](https://vis4good.github.io/)
