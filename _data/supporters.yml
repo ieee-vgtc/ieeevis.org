@@ -109,10 +109,6 @@
 #       image: /assets/supporters/hdc-arizona.png
 #       url: "https://hdc.cs.arizona.edu/"
 
-#     - name: "Uncharted Software"
-#       image: /assets/supporters/uncharted.png
-#       url: "https://uncharted.software/"
-
 #     - name: "Fraunhofer"
 #       image: /assets/supporters/fraunhofer.png
 #       url: "https://www.igd.fraunhofer.de/"
@@ -156,6 +152,10 @@
    - name: "TwoSix Labs"
      image: /assets/supporters/TwoSix_Labs.png
      url: "https://www.twosixlabs.com/"
+
+   - name: "Uncharted Software"
+     image: /assets/supporters/uncharted.png
+     url: "https://uncharted.software/"
 
 - category: Technology
   supporters:
