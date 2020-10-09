@@ -9,7 +9,7 @@ contact: tech@ieeevis.org
 
 # Before Your Session
 
-One or two days before your session you will receive an automated email
+One to four days before your session you will receive an automated email
 from our scheduling system containing information about the session. This
 email will include the schedule, general information about how the sessions
 will work, and the Zoom, Youtube and Discord links.
@@ -67,6 +67,19 @@ one needs to be monitored. We recommend monitoring the Discord chat, which will
 provide a richer experience and is where you can continue the conversion
 after the session ends.
 
+## As the Session Chair
+
+As the chair you will provide live introductions to each recorded talk
+and help relay questions from the chat to the presenter, similar to the typical
+chair role in an in-person conference. Questions will
+be asked over YouTube chat and Discord, which you can select from and read
+back to the presenter over Zoom. It is important you repeat each question
+back over Zoom so that the presenter and other attendees can hear them.
+The Youtube and Discord chat channels are synchronized with each other,
+so you only need to monitor one. We recommend watching the Discord chat.
+The technician can also help you in monitoring the chat for questions.
+Please also see our example video below on chairing the session.
+
 ## The End of Your Session
 There is a **hard cut-off** 10 minutes after
 the session is scheduled to end to allow time to set up the next session,
@@ -81,11 +94,21 @@ a presenter in the virtual conference.
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/m-2eoQGoxFo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+Also available on [BiliBili](https://www.bilibili.com/video/BV1jZ4y157fj)
+
 ## Live Presentation over Zoom
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/NSdQZKnadnw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+Also available on [BiliBili](https://www.bilibili.com/video/BV1dk4y1k7Nj)
+
 ## Live Panel over Zoom 
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Qg01LslV2xI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Also available on [BiliBili](https://www.bilibili.com/video/BV14A411J7ZD)
+
+## Chairing a Virtual Session
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nhb-m2C-TIg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
