@@ -123,6 +123,7 @@ permalink: /info/committees/conference-committee
 | Wolfgang Aigner | *St. Pölten University of Applied Sciences* |
 | Uta Hinrichs | *University of St. Andrews* |
 | Bei Wang | *University of Utah* |
+| Danielle Szafir | *University of Colorado Boulder* |
 |---
 | **Fast Forward & Video Previews Chairs** | |
 | Benjamin Bach | *University of Edinburgh* |
