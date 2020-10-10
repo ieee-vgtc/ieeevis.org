@@ -1,15 +1,12 @@
 ---
-title: Things are Changing in 2021
+title: Things are Changing in 2021: The New VIS Conference
 description: We are introducing a blog for IEEE VIS
 layout: blog-page
 active_nav: Blog
 authors: The reVISe Committee; corresponding: Alexander Lex and Min Chen
-auhtor_contact: revise@ieeevis.org
+author_contact: revise@ieeevis.org
 permalink: /blog/things-are-changing-2021
 ---
-
-
-# Things are Changing in 2021: The New VIS Conference
 
 Hello VIS Community!
 
