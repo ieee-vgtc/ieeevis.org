@@ -5,8 +5,8 @@
         <div class="container">
             {% capture source_file %}{{ page.permalink | append: ".md" }}{% endcapture %}
             Problems with this webpage? Contact
-            <a href="mailto:{{ page.contact | default: site.email }}" class="link">{{ page.contact | default: site.email }}</a>,
-            <a href="{{ site.github_repository }}/issues/new/?title={{ "Fix content problem on year/2020/" | append: source_file | url_encode }}" target="_blank" class="link">file a bug</a>, 
+            <a href="mailto:{{ page.contact | default: site.email }}" class="link">{% if page.author_contact %}{{ page.author_contact }}{% else %}{{ page.contact | default: site.email }}{% endif %}</a>,
+            <a href="{{ site.github_repository }}/issues/new/?title={{ "Fix content problem on year/2020/" | append: source_file | url_encode }}" target="_blank" class="link">file a bug</a>,
             or <a href="{{ site.github_repository }}/edit/vis2020/content/{{ source_file }}" target="_blank" class="link">suggest a fix</a>.
         </div>
     </div>

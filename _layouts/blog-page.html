@@ -12,9 +12,10 @@ layout: default
 
 <div class="container md:py-16 flex md:flex-row flex-col justify-between">
     <article class="content md:w-3/5 w-full md:mt-0 mt-8 md:order-none order-2">
-        {% if page.date %}
-        <p class="tiny">{{ page.date | date: '%B %d, %Y' }}</p>
-        {% endif %}
+        <div class="byline-container">
+            <p class="byline">{{ page.authors }}</p>
+            <p class="post-date">{{ page.date | date: '%B %d, %Y' }}</p>
+        </div>
         {{ content }}
     </article>
 

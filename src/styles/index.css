@@ -20,5 +20,7 @@
 @import 'photogrid';
 @import 'supporters';
 
+@import 'blog';
+
 /* Utilities*/
 @import "tailwindcss/utilities";
