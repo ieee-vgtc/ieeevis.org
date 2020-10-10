@@ -13,7 +13,11 @@ layout: default
 <div class="container md:py-16 flex md:flex-row flex-col justify-between">
     <article class="content md:w-3/5 w-full md:mt-0 mt-8 md:order-none order-2">
         <div class="byline-container">
+            {% if page.author_contact %}
+            <p class="byline"><a href="mailto:{{ page.author_contact }}">{{ page.authors }}</a></p>
+            {% else %}
             <p class="byline">{{ page.authors }}</p>
+            {% endif %}
             <p class="post-date">{{ page.date | date: '%B %d, %Y' }}</p>
         </div>
         {{ content }}
