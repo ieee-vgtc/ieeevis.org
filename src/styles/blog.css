@@ -1,15 +1,18 @@
+.blog-title a {
+    border-bottom: none !important;
+}
+
 .byline {
-    /* font-style: italic; */
+    margin-bottom: 0;
 }
 
 .post-date {
     font-weight: 900;
-    text-align: right;
-    /* margin-bottom: 0; */
 }
 
 .byline-container {
     display: flex;
-    justify-content: space-between;
+    flex-flow: column nowrap;
+    text-align: right;
     margin-bottom: 1.5rem;
 }

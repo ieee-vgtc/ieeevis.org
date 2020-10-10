@@ -7,7 +7,7 @@ contact: web@ieeevis.org
 ---
 
 {% for post in site.posts limit:3 %}
-<h1>{{ post.title }}</h1>
+<h1 class="blog-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h1>
 <div class="byline-container">
     {% if post.author_contact %}
     <p class="byline"><a href="mailto:{{ post.author_contact }}">{{ post.authors }}</a></p>
