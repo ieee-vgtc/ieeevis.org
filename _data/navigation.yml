@@ -51,6 +51,9 @@ menu:
                   - text: "Full Program"
                     url: "/year/2020/info/week-at-a-glance"
                     is_new: true
+                  - text: "Media Requests"
+                    url: "/year/2020/info/media-requests"
+                    is_new: true
               #- heading: "Travel"
               #  links:
               #    - text: "Accommodation"
