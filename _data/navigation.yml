@@ -168,12 +168,12 @@ menu:
             description: "See the complete conference program"
             columns:
               - links:
-                - text: "Papers (coming soon)"
+                - text: "Papers"
                   description: "The latest research in theory, methods, and applications of visualization"
-#                  url: "/year/2020/info/papers-sessions"
-                - text: "Posters (coming soon)"
+                  url: "/year/2020/info/papers-sessions"
+                - text: "Posters"
                   description: "Nascent and recent work"
-#                  url: "/year/2020/info/posters"
+                  url: "/year/2020/info/posters"
                 - text: "Tutorials"
                   description: "Learn new tools and application domains"
                   url: "/year/2020/info/tutorials"
