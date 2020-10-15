@@ -62,7 +62,7 @@ Ultimately, we hope that these changes will aid in unifying, strengthening, and 
 ## What’s Next?
 
 We will follow up this introductory post with blog posts about:
-* The area model.
+* The [area model]({% post_url 2020-10-15-vis-21-area-model %}).
 * The new keywords.
 * The new governance structure of VIS.
 
