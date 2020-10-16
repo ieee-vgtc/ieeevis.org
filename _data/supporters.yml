@@ -157,6 +157,10 @@
      image: /assets/supporters/uncharted.png
      url: "https://uncharted.software/"
 
+   - name: "Uncharted Software"
+     image: /assets/supporters/visus.png
+     url: "https://visus.org/"
+
 - category: Technology
   supporters:
    - name: "Gravitas AI"
