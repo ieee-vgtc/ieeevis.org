@@ -37,10 +37,6 @@
 #
 - category: Bronze
   supporters:
-#   - name: "IBM/MIT"
-#     image: /assets/supporters/ibm-mit.png
-#     url: "https://mitibmwatsonailab.mit.edu/"
-
    - name: "Kitware, Inc"
      image: /assets/supporters/kitware.png
      url: "https://www.kitware.com/"
@@ -166,6 +162,11 @@
    - name: "Gravitas AI"
      image: /assets/supporters/Gravitas_AI.png
      url: "https://gravitas.ai/"
+
+   - name: "IBM/MIT"
+     image: /assets/supporters/ibm-mit.png
+     url: "https://mitibmwatsonailab.mit.edu/"
+
    - name: "SuperMiniStream"
      image: /assets/supporters/superministream.png
      url: "https://www.superministream.com/"
