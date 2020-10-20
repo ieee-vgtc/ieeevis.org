@@ -35,8 +35,8 @@ menu:
     sections:
       - subsections:
           - heading: "Attending VIS 2020"
-            heading_url: "#"
-            description: "Join us online on our virtual site! (TBD)"
+            heading_url: "https://virtual.ieeevis.org/"
+            description: "Join us online on our virtual site!"
             columns:
               - heading: "Attend"
                 links:

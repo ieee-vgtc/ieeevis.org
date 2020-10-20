@@ -18,13 +18,13 @@ function eventFire(el, etype){
 }
 </script>
 
-This year brings challenges, but also opportunities. While we are saddened by the fact that we cannot be together in Salt Lake City, we are excited by the opportunity a virtual format brings us to expand our community. Even virtual conferences have costs, and hence registration fees are a necessity. To encourage new attendees and ensure maximum exposure for our various content presenters, we have made conference participation for conference attendees free while charging a fee for our content providers. 
+This year brings challenges, but also opportunities. While we are saddened by the fact that we cannot be together in Salt Lake City, we are excited by the opportunity a virtual format brings us to expand our community. Even virtual conferences have costs, and hence registration fees are a necessity. To encourage new attendees and ensure maximum exposure for our various content presenters, we have made conference participation for conference attendees free while charging a fee for our content providers.
 
 We invite registrants requiring support due to special circumstances to apply for the use of the [diversity and inclusivity funds](/year/2020/info/inclusion-and-diversity/diversity-scholarship) and/or limited [fee waiver funds](#fee-waiver) (as appropriate), which may be used to offset registration costs. This model, while imperfect, aims at making sure that we keep running a vibrant and fiscally healthy conference even during these difficult times. Note that this year (only), the registration will be attached to content-items (e.g. papers, short papers, posters, panel organization, etc.). Only one author in the case of papers, short papers and similar documents which are considered content-items must register.  Workshops and panels are considered separately. For further information, please see our [Registration FAQ](#registration-faqs).
 
 All attendees need to register online in advance.
 
-The early registration period for the Virtual IEEE VIS 2020 lasts until **October 9th, 2020**. Afterwards the standard registration fees apply.
+The early registration period for the [Virtual IEEE VIS 2020](https://virtual.ieeevis.org) lasts until **October 9th, 2020**. Afterwards the standard registration fees apply.
 
 **To register, talk to our AI Assistant** <a class="button" href="javascript:eventFire(document.getElementById('frame-launcher-btn'), 'click');"> TINA </a>
 
@@ -34,47 +34,47 @@ The early registration period for the Virtual IEEE VIS 2020 lasts until **Octobe
 
 **Content provider tier 1:** Conference attendee paying for papers and short papers published at VIS2020 through IEEE TVCG / Xplore.
 
-**Content provider tier 2:** Conference attendee paying for other content-items such as workshop organization and presentation, tutorials, panel organization, posters, application spotlights, invited presenters from TVCG and CG&A, etc.  
+**Content provider tier 2:** Conference attendee paying for other content-items such as workshop organization and presentation, tutorials, panel organization, posters, application spotlights, invited presenters from TVCG and CG&A, etc.
 
 **Note to content providers:** All content providers need to register in order to sign video waiver form. Content provider registration fees must be paid for each content-item (see the FAQ for more details), and *these fees must be paid prior to the conference*.
 
 
-All registration fees will be charged in USD dollars. 
+All registration fees will be charged in USD dollars.
 
 
 <table border="1">
   <tbody>
     <tr>
       <td><strong>Conference Registration Category</strong></td>
-      <td><strong>Category	Early Fees USD (Ends October 9th)</strong></td> 
+      <td><strong>Category	Early Fees USD (Ends October 9th)</strong></td>
       <td><strong>Late Fees USD (Begins October 10th)</strong></td>
-    </tr> 
+    </tr>
     <tr>
-      <td>General attendee</td> 
-      <td>Free</td> 
-      <td>Free</td> 
-    </tr> 
-    <tr> 
+      <td>General attendee</td>
+      <td>Free</td>
+      <td>Free</td>
+    </tr>
+    <tr>
       <td>General attendee plus downloadable content</td>
-      <td>$10</td> 
-      <td>$10</td> 
-    </tr> 
-    <tr> 
+      <td>$10</td>
+      <td>$10</td>
+    </tr>
+    <tr>
       <td>Content provider tier 1</td>
-      <td>$400</td>  
-      <td>$450</td> 
-    </tr> 
-    <tr> 
-      <td>Content provider tier 2</td> 
-      <td>$100</td> 
-      <td>$150</td> 
-    </tr> 
-  </tbody> 
-</table> 
+      <td>$400</td>
+      <td>$450</td>
+    </tr>
+    <tr>
+      <td>Content provider tier 2</td>
+      <td>$100</td>
+      <td>$150</td>
+    </tr>
+  </tbody>
+</table>
 
 
 **Registration fees are not refundable.**
-Please submit all cancellation requests to [registration@ieeevis.org](mailto:registration@ieeevis.org). 
+Please submit all cancellation requests to [registration@ieeevis.org](mailto:registration@ieeevis.org).
 
 ## Fee waiver
 
@@ -109,7 +109,7 @@ If paper X has authors A,B,C and poster Y has authors B,C,D:
 only two paid content-item registrations are needed.
 For example authors A and C may register.
 </ul>
-  
+
 **Q: How do you decide who should pay for the content-item registration?**
 <ul>
 We have decided to leave this decision up to the discretion of the authors/organizers of each content-item.
@@ -122,7 +122,7 @@ Under special circumstances and with some restrictions, this may be do-able. You
 
 **Q: I am the author presenting a paper. Do I need to be the one who registers for this content-item?**
 <ul>
-No. Any author can register.  
+No. Any author can register.
 </ul>
 
 
