@@ -28,7 +28,7 @@ permalink: /info/committees/conference-committee
 | Jing Yang | *University of North Carolina at Charlotte* |
 | Brian Fisher | *Simon Fraser University* |
 | Niklas Elmqvist | *University of Maryland* |
-| Han-Wei Shen | *Ohio University* |
+| Han-Wei Shen | *The Ohio State University* |
 |---
 | **Short Papers Chairs** | |
 | Enrico Bertini | *NYU School of Engineering* |

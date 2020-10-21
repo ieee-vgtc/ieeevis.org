@@ -27,14 +27,14 @@
      image: /assets/supporters/tableau.png
      url: "https://www.tableau.com/"
 
-# - category: Gold
-#   image_size: 150
-#   supporters:
-#     - name: "Microsoft"
-#       image: /assets/supporters/microsoft.png
-#       url: "https://www.microsoft.com/"
-#
-#
+- category: Silver
+  image_size: 150
+  supporters:
+   - name: "Autodesk"
+     image: /assets/supporters/Autodesk_Logo.png
+     url: "https://www.autodesk.com/research"
+
+
 - category: Bronze
   supporters:
    - name: "Kitware, Inc"

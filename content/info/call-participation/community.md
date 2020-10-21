@@ -1,3 +1,4 @@
+
 ---
 title: Community
 layout: page
@@ -91,13 +92,8 @@ for job seekers to publically post your CV, resume, and/or contact information.
 In case you do not want your CV publically visible, there will be a drop off
 tray for CVs near registration, which will be collected and shared with Supporters
 after VISWeek.
--->
-We will collect the job, post-doc, staff, etc. flyers and 
-publicly share them online among the conference attendees in the job market. For potential 
-employers, please fill out the online form [here](https://forms.gle/JPBkWHXGQ2nHznoA9) 
-by 10/23 (Fri). In this form, you can tell us whether you would like to participate in 
-the job fair virtual meetup described below. 
-
+--> 
+We will collect the job postings and publicly share them online [here](https://sites.google.com/view/vis-2020-job-postings/home) . For potential employers, please fill out the online form [here](https://sites.google.com/view/vis-2020-job-postings/submit-job-posting) to create a job posting. In  this form, we also ask whether you would like to participate in the job fair virtual meetup described below. 
 
 <!--
 ### <a name="ajf"></a>Asynchronous Job Fair
@@ -134,7 +130,7 @@ help facilitate information exchange during VIS.*
 <!--
 - A Job-Fair Meetup to be held tentatively held in addition to other job events. 
 -->
-This is a virtual "speed-dating" meetup for both job seekers and employers to *quickly* identify people in the community that are looking for jobs or new hires, exchange information, and potentially meet at a later date. Please bring information for exchange, such as business cards, flyers, or CVs. We will contact those job seekers and empoyers for further details. 
+This is a virtual "speed-dating" meetup for both job seekers and employers to *quickly* identify people in the community that are looking for jobs or new hires, exchange information, and potentially meet at a later date. Potential job seekers can sign up for this meetup [here](https://sites.google.com/view/vis-2020-job-postings/job-fair-meetup). For more details, please visit our job postings website [here](https://sites.google.com/view/vis-2020-job-postings/home).
 
 <!--
 VIS Supporters will have the CVs of attendees that provide it during VIS registration.
