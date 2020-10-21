@@ -23,7 +23,7 @@ VisLies! is a yearly event at IEEE VIS. This fun and engaging evening session sh
 
 For more information about VisLies, you can visit our website at [http://vislies.org](http://vislies.org).
 
-[The Zoom link for VisLies! Meetup will be available here soon. Login will  be required.]
+[The Zoom link for VisLies! Meetup will be available [here](https://virtual.ieeevis.org/session_m-comm.html) soon. Login will  be required.]
 
 ## <a name="vis-newcomers"></a>VisBuddies meetup
 
@@ -45,7 +45,7 @@ Contact: rkosara@tableau.com
 
 Publishing your paper is all good and well, but how does the rest of the world learn about it? What ways do you have to get even academic researchers to learn about your research if they happened to miss your conference talk? There’s a healthy (if small) visualization community on Twitter, but blogging hasn’t been so hot lately, and we haven’t really established much of a foothold on YouTube. Let’s chat about what tools we have to publicize visualization research, from old-school blogging to social media, podcasts to vlogs, and beyond (anybody want to start a vis TikTok?).
 
-[The Zoom link for Publish or Publicize Meetup will be available here soon. Login will be required.]
+[The Zoom link for Publish or Publicize Meetup will be available [here](https://virtual.ieeevis.org/session_m-publish.html) soon. Login will be required.]
 
 ## <a name="viscomm"></a>VisComm Meetup
 
@@ -56,7 +56,7 @@ Contact: aa2594@cumc.columbia.edu
 
 This informal gathering is an opportunity to network with others interested in using visualization for communication. Come to find a collaborator, discuss best practices, share resources, or just have some social time! Be ready to introduce yourself and say a sentence or two about what you hope to get out of meetup.
 
-[The Zoom link for VisComm Meetup will be available here soon. Login will be required.]
+[The Zoom link for VisComm Meetup will be available [here](https://virtual.ieeevis.org/session_m-publish.html) soon. Login will be required.]
 
 ## <a name="vis-jobfair"></a>VIS Job-fair meetup
 
