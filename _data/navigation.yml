@@ -42,7 +42,6 @@ menu:
                 links:
                   - text: "Registration"
                     url: "/year/2020/info/registration/conference-registration"
-                    is_new: true
                   # - text: "Conference Venue"
                   #   url: "#"
               #    - text: "Practitioner Guide"
@@ -50,10 +49,11 @@ menu:
               #      is_external: true
                   - text: "Full Program"
                     url: "/year/2020/info/week-at-a-glance"
-                    is_new: true
                   - text: "Media Requests"
                     url: "/year/2020/info/media-requests"
                     is_new: true
+                  - text: "Coronavirus Information"
+                    url: "/year/2020/info/coronavirus-info"
               #- heading: "Travel"
               #  links:
               #    - text: "Accommodation"
@@ -119,19 +119,14 @@ menu:
                     url: "/year/2020/info/open-practices/open-practices"
                   - text: "Video Previews"
                     url: "/year/2020/info/presenter-information/fast-forward-and-video-previews"
-                    is_new: true
                   - text: "Speakers and Presenters"
                     url: "/year/2020/info/presenter-information/final-information-paper-authors"
-                    is_new: true
                   - text: "Recording your Talk"
                     url: "/year/2020/info/presenter-information/talk-recording-guide"
-                    is_new: true
                   - text: "Guidance for Virtual Events"
                     url: "/year/2020/info/presenter-information/guidance-for-associated-events"
-                    is_new: true
                   - text: "Presenting at the Virtual Conference"
                     url: "/year/2020/info/presenter-information/presenting-virtually"
-                    is_new: true
 
       - subsections:
           - heading: "Get Involved"
