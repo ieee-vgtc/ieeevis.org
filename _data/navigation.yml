@@ -275,17 +275,17 @@ menu:
                   is_external: true
 
           - heading: "Community"
-            heading_url: "/year/2020/info/call-participation/community"
+            # heading_url: "/year/2020/info/call-participation/community"
             description: "Explore social and topic-based community groups"
             columns:
-#              - heading: "Connect"
-#                links:
-#                  - text: "Vis Buddies"
-#                    url: "/year/2020/info/meetups#vis-newcomers"
-#                  - text: "Job Fair"
-#                    url: "/year/2020/info/meetups#vis-jobfair"
-#                  - text: "Other Meetups"
-#                    url: "/year/2020/info/meetups"
+              - heading: "Connect"
+                links:
+                  - text: "Vis Buddies"
+                    url: "/year/2020/info/meetups#vis-newcomers"
+                  - text: "Job Fair"
+                    url: "/year/2020/info/meetups#vis-jobfair"
+                  - text: "Other Meetups"
+                    url: "/year/2020/info/meetups"
               - heading: "Social Groups"
                 links:
                   - text: "Velo Club de VIs"
