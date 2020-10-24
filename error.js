@@ -1,5 +1,5 @@
 function send_to_create_gh_flow() {
-  var base = "https://github.com/ieee-vgtc/ieeevis.org/new/vis2020";
+  var base = "https://github.com/ieee-vgtc/ieeevis.org/new/vis2021";
   var p = base + window.location.pathname;
   var i = p.lastIndexOf("/");
   var filename = p.substr(i + 1) + ".md";
@@ -15,15 +15,15 @@ function send_to_create_gh_flow() {
   window.location = pWithoutFileName + "?filename=" + filename + "&value=" + encodeURIComponent(yaml_front_matter);
 }
 
-// ALPER try for vis2020
+// ALPER try for vis2021
 function send_to_create_gh_flow_new() {
-  var base = "https://github.com/ieee-vgtc/ieeevis.org/new/vis2020";
+  var base = "https://github.com/ieee-vgtc/ieeevis.org/new/vis2021";
 
   var permalink = window.location.pathname;
-  // try to strip out year/2020/ and replace with content/ if possible to get the actual permaline
-  var year2020 = /year\/2020/g;
-  permalink = permalink.replace(year2020, "content");
-  
+  // try to strip out year/2021/ and replace with content/ if possible to get the actual permaline
+  var year2021 = /year\/2021/g;
+  permalink = permalink.replace(year2021, "content");
+
   var p = base + permalink;
   var i = p.lastIndexOf('/');
   var pWithoutFilename = p.substring(0, i);

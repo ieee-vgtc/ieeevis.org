@@ -27,11 +27,11 @@
 blog:
     display: true
     text: "Blog"
-    url: "/year/2020/blog/index"
+    url: "/year/2021/blog/index"
 
 menu:
   - dropdown: "Attend"
-    display: true
+    display: false
     sections:
       - subsections:
           - heading: "Attending VIS 2020"
@@ -84,7 +84,7 @@ menu:
 
 
   - dropdown: "Contribute"
-    display: true
+    display: false
     sections:
       - subsections:
           - heading: "Call for Participation"
@@ -155,7 +155,7 @@ menu:
 
 
   - dropdown: "Program"
-    display: true
+    display: false
     sections:
       - subsections:
           - heading: "Vis Program"
@@ -216,7 +216,7 @@ menu:
 
 
   - dropdown: "Events & Community"
-    display: true
+    display: false
     sections:
       - subsections:
           - heading: "Associated Events"
@@ -318,6 +318,8 @@ menu:
             columns:
               - heading: ""
                 links:
+                  - text: "2020"
+                    url: "http://ieeevis.org/year/2020/welcome"
                   - text: "2019"
                     url: "http://ieeevis.org/year/2019/welcome"
                   - text: "2018"
@@ -379,13 +381,13 @@ menu:
             - heading: ""
               links:
                 - text: "VIS Conference Committees"
-                  url: "/year/2020/info/committees/conference-committee"
+                  url: "/year/2021/info/committees/conference-committee"
                 - text: "Program Committees"
-                  url: "/year/2020/info/committees/program-committees"
+                  url: "/year/2021/info/committees/program-committees"
                 - text: "Steering Committees"
-                  url: "/year/2020/info/committees/steering-committees"
+                  url: "/year/2021/info/committees/steering-committees"
                 - text: "VIS Executive Committee"
-                  url: "/year/2020/info/committees/vis-executive-committee"
+                  url: "/year/2021/info/committees/vis-executive-committee"
                 - text: "Restructuring and reVISe"
                   url:  "/governance/restructuring"
 
@@ -394,9 +396,9 @@ menu:
 #            heading_url: "/"
             columns:
              - links:
-                - text: "October 23 - 28 2021, New Orleans, Louisiana, USA"
-                  description: ""
-                  url: "/"
+                # - text: "October 23 - 28 2021, New Orleans, Louisiana, USA"
+                #   description: ""
+                #   url: "/"
                 - text: "Bidding"
                   description: "Guidelines to bid for a future location of IEEE VIS"
                   url: "/governance/bids"

@@ -6,8 +6,8 @@
             {% capture source_file %}{{ page.permalink | append: ".md" }}{% endcapture %}
             Problems with this webpage? Contact
             <a href="mailto:{{ page.contact | default: site.email }}" class="link">{% if page.author_contact %}{{ page.author_contact }}{% else %}{{ page.contact | default: site.email }}{% endif %}</a>,
-            <a href="{{ site.github_repository }}/issues/new/?title={{ "Fix content problem on year/2020/" | append: source_file | url_encode }}" target="_blank" class="link">file a bug</a>,
-            or <a href="{{ site.github_repository }}/edit/vis2020/content/{{ source_file }}" target="_blank" class="link">suggest a fix</a>.
+            <a href="{{ site.github_repository }}/issues/new/?title={{ "Fix content problem on year/2021/" | append: source_file | url_encode }}" target="_blank" class="link">file a bug</a>,
+            or <a href="{{ site.github_repository }}/edit/vis2021/content/{{ source_file }}" target="_blank" class="link">suggest a fix</a>.
         </div>
     </div>
 
@@ -18,7 +18,7 @@
                         md:border-r border-r-0 md:border-b-0 border-b border-dashed">
                 <div>
                 <a href="/">
-                    <img src="{{ '/assets/vis2020_logo-white.svg' | relative_url }}" alt="VIS 2020" width="150">
+                    <img src="{{ '/assets/vis2021_logo_white.svg' | relative_url }}" alt="VIS 2021" width="150">
                 </a>
                 <p class="uppercase mt-6">The premier forum for advances in visualization and visual analytics</p>
             </div>
