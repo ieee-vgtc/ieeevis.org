@@ -1,5 +1,5 @@
 ## Author: Alper Sarikaya
-## Last modified: 2019-12-27 🎄
+## Last modified: 2020-10-24 🎃
 ## This script should be run on every commit to an active branch on this repository.
 ## This action will build the entire site from scratch and deploy to the staging S3 bucket.
 
@@ -7,12 +7,13 @@ name: build staging
 
 on:
   push:
-    # build staging whenever someone pushes to master (archive), last year's (vis2019),
-    # or this year's site (vis2020)
-    branches: 
+    # build staging whenever someone pushes to master (archive), previous year's (vis2019,
+    # vis2020), or this year's site (vis2021)
+    branches:
       - master
       - vis2019
       - vis2020
+      - vis2021
 
 jobs:
   build:
@@ -49,24 +50,27 @@ jobs:
         aws_access_key_id =  ${{ secrets.aws_deploy_key_id }}
         aws_secret_access_key =  ${{ secrets.aws_secret_access_key }}" > ~/.aws/credentials
       ## SET IEEEVIS_AWS_USER environment variable to "default" in deploy step
-  
+
     ## BUILD ARCHIVE YEARS (2018 and before)
     - name: Build archive years
       run: make site
-      
-    ## BUILD LAST YEAR (currently: vis2019)
-    - name: Build last year (2019)
+
+    ## BUILD PREVIOUS YEARS (currently: vis2019, vis2020)
+    - name: Build previous year (2019)
       run: |
         git checkout vis2019
         make new2019
-        
-    ## BUILD THIS YEAR (currently: vis2020)
+
+    - name: Build previous year (2020)
+      run: |
+        git checkout vis2020
+        make new2020
+
+    ## BUILD THIS YEAR (currently: vis2021)
     ## ./scripts/fix_file_extensions.sh moves some evergreen content from current year
-    - name: Build this year (2020) + deploy
+    - name: Build this year (2021) + deploy
       env:
         IEEEVIS_AWS_USER: default
       run: |
-        git checkout vis2020
-        make staging2020
-      
-    
+        git checkout vis2021
+        make staging2021
