@@ -3,10 +3,11 @@
 This is the Jekyll version of the [IEEE VIS website](http://ieeevis.org).
 
 
-The `vis2019` branch (the page you're currently viewing) is the website for the 2019 edition of the IEEE VIS conference.  
+The `vis2019` branch (the page you're currently viewing) is the website for the 2019 edition of the IEEE VIS conference.
 
 To edit files in other years, check out the other `vis*` branches.  Click the below links to teleport:
-- [vis2020](https://github.com/ieee-vgtc/ieeevis.org/tree/vis2020) - the 2020 website
+- [vis2021](https://github.com/ieee-vgtc/ieeevis.org/tree/vis2021) - the 2021 site
+- [vis2020](https://github.com/ieee-vgtc/ieeevis.org/tree/vis2020) - the 2020 site
 - [master](https://github.com/ieee-vgtc/ieeevis.org/tree/master) - the original website design (years 2018 and previous)
 
 ## Contributing
