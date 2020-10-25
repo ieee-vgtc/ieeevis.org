@@ -20,7 +20,7 @@ IEEE VIS has undergone many changes over its history. Founded in 1990 as the “
 
 
 ![]({{ 'assets/posts/IEEE_VIS_History_Update_2021.png' | relative_url }})
-[See PDF Version]({{'assets/posts/IEEE_VIS_History_Update_2021.png'| relative_url }})
+[See PDF Version]({{'assets/posts/IEEE_VIS_History_Update_2021.pdf'| relative_url }})
 
 In that time, VIS has grown to a large conference with about 1200 attendees, and became the umbrella conference for longstanding symposia, such as LDAV, VisSec, and VDS, and home to various associated events and workshops.
 
@@ -63,8 +63,8 @@ Ultimately, we hope that these changes will aid in unifying, strengthening, and 
 
 We will follow up this introductory post with blog posts about:
 * The [area model]({% post_url 2020-10-15-vis-21-area-model %}).
-* The new keywords.
-* The new governance structure of VIS.
+* The new keywords (for [authors]({% post_url 2020-10-18-keywords-for-authors %}) and [program committee members]({% post_url 2020-10-18-keywords-for-pc-members %})).
+* The new [governance structure]({% post_url 2020-10-17-designing-vis-governance %}) of VIS.
 
 The reVISe committee will also, as in 2019, hold another town-hall meeting at VIS 2020 to answer questions by the community about the upcoming changes. You are also welcome to leave comments or ask questions by e-mailing [revise@ieeevis.org](mailto:revise@ieeevis.org).
 
