@@ -26,7 +26,7 @@ The idea behind the governance model is based on a study and in-depth discussion
 
 After in-depth and long discussions on various governance models an overall structure began to emerge. The starting point was the definition of a senior steering committee which carries the long term responsibility and decides on strategies and policies. The operation of the annual conference is the responsibility of the executive committee. The relation between the bodies in the governance model also relies on chain of proposal, decision and ratification. This makes it possible to have a model that builds on delegation of mandate and initiatives and still ensures consensus within the whole structure. It also creates transparency in decisions and appointments. 
 
-![governance_model_figure](governance_model_figure.pdf)
+[![VIS Governance Overview]({{ 'assets/posts/vis-governance.svg' | relative_url }})]({{ 'assets/posts/vis-governance.svg' | relative_url }})
 
 Some of the critical design choices are related to the role of the program committee and the curation of the areas. After a long discussion we decided to have a unified program committee for all of VIS. The main benefit of this setup is that PC members will be available to review across multiple areas and it also prevents formation of reviewing silos. The main challenge here is of course the management of the PC and the assignment of manuscripts. A consequence of the unified PC was also the need to appoint overall program chairs to coordinate the work of area program chairs and ensure that the same policy applies to all areas and assist the chairs in any overall matters arising in working with the area model.  
 
