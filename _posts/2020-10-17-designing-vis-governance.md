@@ -43,3 +43,7 @@ Christoph Garth (chair), Min Chen, Alex Endert, Petra Isenberg, Alexander Lex, S
 ## Acknowledgements
 
 We would like to take this opportunity to thank two previous members of the reVISe committee: Tamara Munzner (chair) and Torsten Möller, the 2017-2019 reconstruction committee (Hanspeter Pfister (chair), Hans Hagen, Daniel Keim, Tamara Munzner, Stephen North), the VEC, the VAST, InfoVis, SciVis SCs, VIS2019 and VIS2020 OCs, and everyone who participated in town-halls or gave feedback in some other way !
+
+#### Note
+
+An earlier version of this post mistakenly contained an incorrect depiction of the governance structure.
