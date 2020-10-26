@@ -11,6 +11,7 @@ contact: meetups@ieeevis.org
 * [Publish or Publicize](#publish) (Wednesday)
 * [VisComm Meetup](#viscomm) (Thursday)
 * [VIS Job-fair meetup](#vis-jobfair) (Thursday)
+* [Le tour de VIS 2020 - MeetUp in Watopia](#vis-velo) (Thursday)
 
 ## <a name="vislies"></a>VisLies!
 
@@ -68,3 +69,19 @@ Contact: community@ieeevis.org
 The goal of VIS Job-fair is to bring together job seekers and employers in one virtual venue to trade CV and employment information. Both job seekers and employers should attend with the expectation to be prepared with the link to their CV files as well as that to their job description or fliers.
 
 [Vis Job-fair organizers will provide their own meeting plattform]
+
+
+## <a name="vis-velo"></a> Le tour de VIS 2020 - MeetUp in Watopia
+
+Thursday, October 29<br>
+3:00PM Mountain Time<br>
+Organizer: Jason Dykes <br>
+Contact: J.Dykes@city.ac.uk
+
+After an exciting test ride, Dan and Jason would like to invite you to join them in the wilds of Watopia for a Zwift group ride during IEEE VIS.
+
+You'll need a trainer, Zwift, and a Zoom connection but we've set it up so that we all stay together during the ride whatever individual workout we decide to try. We recommend this light training ride - ready for longer ride at the weekend, but go with whatever you like - Zwift will keep us together!
+
+Visit [VÉLO CLUB de VIS](https://www.gicentre.net/velo-club-de-vis) for details. 
+
+
