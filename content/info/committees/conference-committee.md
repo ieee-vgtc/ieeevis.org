@@ -167,7 +167,6 @@ permalink: /info/committees/conference-committee
 | Maria Velez | *CA Technologies* |
 |---
 | **Archive Chairs** | |
-| Cody Dunne | *Northeastern University* |
 | Hendrik Strobelt | *Harvard University / IBM* |
 | Samuel Huron | *Telecom Paris* |
 |---
