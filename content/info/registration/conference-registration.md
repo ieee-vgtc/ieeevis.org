@@ -6,18 +6,6 @@ permalink: /info/registration/conference-registration
 contact: finance@ieeevis.org
 ---
 
-<script language="javascript">
-function eventFire(el, etype){
-  if (el.fireEvent) {
-    el.fireEvent('on' + etype);
-  } else {
-    var evObj = document.createEvent('Events');
-    evObj.initEvent(etype, true, false);
-    el.dispatchEvent(evObj);
-  }
-}
-</script>
-
 This year brings challenges, but also opportunities. While we are saddened by the fact that we cannot be together in Salt Lake City, we are excited by the opportunity a virtual format brings us to expand our community. Even virtual conferences have costs, and hence registration fees are a necessity. To encourage new attendees and ensure maximum exposure for our various content presenters, we have made conference participation for conference attendees free while charging a fee for our content providers.
 
 We invite registrants requiring support due to special circumstances to apply for the use of the [diversity and inclusivity funds](/year/2020/info/inclusion-and-diversity/diversity-scholarship) and/or limited [fee waiver funds](#fee-waiver) (as appropriate), which may be used to offset registration costs. This model, while imperfect, aims at making sure that we keep running a vibrant and fiscally healthy conference even during these difficult times. Note that this year (only), the registration will be attached to content-items (e.g. papers, short papers, posters, panel organization, etc.). Only one author in the case of papers, short papers and similar documents which are considered content-items must register.  Workshops and panels are considered separately. For further information, please see our [Registration FAQ](#registration-faqs).
@@ -25,8 +13,6 @@ We invite registrants requiring support due to special circumstances to apply fo
 All attendees need to register online in advance.
 
 The early registration period for the [Virtual IEEE VIS 2020](https://virtual.ieeevis.org) lasts until **October 9th, 2020**. Afterwards the standard registration fees apply.
-
-**To register, talk to our AI Assistant** <a class="button" href="javascript:eventFire(document.getElementById('frame-launcher-btn'), 'click');"> TINA </a>
 
 **General attendees:** Free conference registration will provide access to main conference tracks, symposia, tutorials and workshops. Conference publications will be made accessible for a limited time via miniconf site.
 
