@@ -100,10 +100,9 @@
     position: relative;
     transition: color, background-color 250ms ease;
     cursor: pointer;
-    @apply text-primary;
     text-align: left;
     width: 100%;
-    @apply text-primary;
+    @apply text-secondary;
 }
 
 @screen md {
@@ -111,11 +110,14 @@
         background: transparent;
         text-align: center;
         width: auto;
+        @apply text-white;
       }
     }
 
     /* State: Hover and Focused */
-    .menu_item:hover,
+    .menu_item:hover{
+        @apply text-accent-minor;
+    }
     .menu_item--focused {
         @apply text-secondary bg-accent;
     }
