@@ -12,7 +12,7 @@ module.exports = {
         600: '#26853c', // '#b9aba1',
         500: colors.white,
         200: '#6aa868', // '#b9aba1',
-        100: '#a4cd9c', // '#b9aba1',
+        100: colors.white, // '#b9aba1',
       },
       secondary: {
         default: '#6f2184', // '#c42026',
@@ -23,7 +23,8 @@ module.exports = {
         100: colors.white, // '#e0a778',
       },
       accent: {
-        default: '#fbc31b', // '#b9aba1',
+        default: '#6f2184', // '#b9aba1',
+        minor: '#fbc31b',
       },
       black: colors.black,
       white: colors.white,
