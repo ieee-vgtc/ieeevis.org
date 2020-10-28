@@ -137,8 +137,8 @@
 
     @screen md {
         .menu_item.menu_item--is-active {
-          @apply text-secondary;
-          box-shadow: inset 0 -4px theme('colors.secondary.default');
+          @apply text-accent-minor;
+          box-shadow: inset 0 -4px theme('colors.accent.minor');
         }
     }
 
