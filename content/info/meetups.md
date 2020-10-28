@@ -68,6 +68,15 @@ Contact: community@ieeevis.org
 
 The goal of VIS Job-fair is to bring together job seekers and employers in one virtual venue to trade CV and employment information. Both job seekers and employers should attend with the expectation to be prepared with the link to their CV files as well as that to their job description or fliers.
 
+To register for the meetup, please visit: https://sites.google.com/view/vis-2020-job-postings/job-fair-meetup. 
+To post jobs on our online job posting site, please visit: https://sites.google.com/view/vis-2020-job-postings/submit-job-posting
+To see job postings, please visit: https://sites.google.com/view/vis-2020-job-postings
+
+
+The VIS 2020 Job Fair Meetup will take place over Congregate.Live. We will send a link to the Congregate session by 11am on October 29. If you submitted a job posting and indicated you will attend the meetup, there is no need to sign up again.
+
+
+
 [Vis Job-fair organizers will provide their own meeting plattform]
 
 
