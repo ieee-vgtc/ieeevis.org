@@ -119,7 +119,7 @@
         @apply text-accent-minor;
     }
     .menu_item--focused {
-        @apply text-secondary bg-accent;
+        @apply text-accent-minor bg-accent;
     }
 
     @screen md {
@@ -129,6 +129,7 @@
 
         .menu_item--focused,
         .menu_item--focused:hover {
+            @apply text-accent;
             @apply bg-gray-100;
         }
     }
