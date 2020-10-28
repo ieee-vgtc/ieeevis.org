@@ -143,7 +143,7 @@ permalink: /info/committees/conference-committee
 |---
 | **Student Volunteers Chairs** | |
 | Bon Adriel Aseniero | *University of Calgary* |
-| Tim Gerrits | *University of Magdeburg* |
+| Tim Gerrits | *University of Münster* |
 | Tim Luciani | *University of Illinois at Chicago* |
 | Fumeng Yang | *Brown University, Providence* |
 |---
