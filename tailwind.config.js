@@ -28,9 +28,19 @@ module.exports = {
       },
       black: colors.black,
       white: colors.white,
-      gray: colors.gray,
-    },
-
+      gray: {
+        '100': '#feffff', 
+        '200': '#f2f3f2', 
+        '300': '#e6e7e4', 
+        '400': '#bdbdbd', 
+        '500': '#9e9e9e', 
+        '600': '#757575', 
+        '700': '#616161', 
+        '800': '#424242', 
+        '900': '#212121', 
+      }, //colors.gray, 
+    }, 
+    
     fontFamily: {
       'display': ['"Zilla Slab"', 'serif'],
       'body': ["'Fira Sans'", 'sans-serif']
