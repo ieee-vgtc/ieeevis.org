@@ -19,11 +19,11 @@
 }
 
 .button-secondary {
-    @apply bg-secondary text-white;
+    @apply bg-accent-minor text-accent;
 }
 
 .button-secondary:hover {
-    @apply bg-secondary-800;
+    @apply text-accent-minor bg-secondary-800;
 }
 
 .button-inverse {
