@@ -6,6 +6,8 @@ permalink: /info/committees/vis-executive-committee
 contact: vec@ieeevis.org
 ---
 
+Interested in joining the VIS Organizing Committee? There are still a few open positions for VIS 2021. Self-nominations will be accepted through November 7, 2020 using this [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSd326i-v6ayCEujtB4Ywj7sbJU7REV1m9W8ziQBxTG9uikfVg/viewform?usp=sf_link). 
+
 | Jim Ahrens | *Los Alamos National Laboratory<br>(VGTC Chair.)*
 | Lisa Avila | *Kitware<br>(VEC Chair.)*
 | Sheelagh Carpendale | *Simon Fraser University<br>(InfoVis SC Rep.)*
