@@ -12,6 +12,7 @@ contact: meetups@ieeevis.org
 * [VisComm Meetup](#viscomm) (Thursday)
 * [VIS Job-fair meetup](#vis-jobfair) (Thursday)
 * [Le tour de VIS 2020 - MeetUp in Watopia](#vis-velo) (Thursday)
+* [Vélo Club de VIS meetup (2nd)](#vis-velo2) (Friday)
 
 ## <a name="vislies"></a>VisLies!
 
@@ -93,4 +94,31 @@ You'll need a trainer, Zwift, and a Zoom connection but we've set it up so that 
 
 Visit [VÉLO CLUB de VIS](https://www.gicentre.net/velo-club-de-vis) for details. 
 
+
+## <a name="#vis-velo2"></a> Vélo Club de VIS meetup (2nd)
+
+Friday, October 29<br>
+2:00PM Mountain Time<br>
+Organizer: Jason Dykes <br>
+Contact: J.Dykes@city.ac.uk
+
+Le Tour de VIS is Le Tour de Virtuel.
+Ride anywhere this weekend.
+
+We have set up rides of 25km, 50km, 75km and 100km on the Vélo Club de VIS Strava Club.<br>
+Take your pick - but log your intention.
+
+Visit https://www.strava.com/clubs/237151
+
+Then ride on the day and log your activity as “Le Tour de VIS VIRTUEL“.<br>
+Wear your VIS colours if you can, describe the ride and post photos.
+
+At the pre-ride MeetUp we will share stories and inspire one another!<br>
+So please :
+
+ * wear VIS colours if you have them
+ * set a Zoom BACKGROUND that shows some aspect of your intended ride
+ * prepare to talk to this  
+
+Hope to see you on Friday.
 
