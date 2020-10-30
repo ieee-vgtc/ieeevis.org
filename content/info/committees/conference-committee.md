@@ -5,6 +5,11 @@ active_nav: "Organization & History"
 permalink: /info/committees/conference-committee
 ---
 
+**This conference committee still lists the [2020 organizing commmitee](/year/2020/info/committees/conference-committee).**
+
+**We plan to update this roster for 2021 shortly.**
+
+----
 
 |---
 | | |

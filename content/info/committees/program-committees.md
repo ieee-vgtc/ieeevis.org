@@ -6,7 +6,13 @@ permalink: /info/committees/program-committees
 contact: papers@ieeevis.org
 ---
 
-While the conference is [transitioning to a combined reviewer model](/governance/restructuring), we present the IPC list segmented by VAST, InfoVis, SciVis, and Short Papers.  
+**This program committee still lists the [2020 program commmitee](/year/2020/info/committees/program-committee).**
+
+**We plan to update this roster for 2021 shortly.**
+
+----
+
+While the conference is [transitioning to a combined reviewer model](/governance/restructuring), we present the IPC list segmented by VAST, InfoVis, SciVis, and Short Papers.
 
 * [VAST Program Committee](#vast-program-committee)
 * [InfoVis Program Committee](#infovis-program-committee)
