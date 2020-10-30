@@ -6,7 +6,7 @@ permalink: /info/committees/program-committees
 contact: papers@ieeevis.org
 ---
 
-**This program committee still lists the [2020 program commmitee](/year/2020/info/committees/program-committee).**
+**This program committee still lists the [2020 program commmitee](/year/2020/info/committees/program-committees).**
 
 **We plan to update this roster for 2021 shortly.**
 
