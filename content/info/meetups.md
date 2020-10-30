@@ -95,9 +95,9 @@ You'll need a trainer, Zwift, and a Zoom connection but we've set it up so that 
 Visit [VÉLO CLUB de VIS](https://www.gicentre.net/velo-club-de-vis) for details. 
 
 
-## <a name="#vis-velo2"></a> Vélo Club de VIS meetup (2nd)
+## <a name="vis-velo2"></a> Vélo Club de VIS meetup (2nd)
 
-Friday, October 29<br>
+Friday, October 30<br>
 2:00PM Mountain Time<br>
 Organizer: Jason Dykes <br>
 Contact: J.Dykes@city.ac.uk
