@@ -6,30 +6,41 @@ module.exports = {
   theme: {
     colors: {
       primary: {
-        default: '#00421f', // '#7f6c5e',
-        800: '#00421f', // '#7f6c5e',
-        700: '#00421f', // '#7f6c5e',
-        600: '#4da977', // '#b9aba1',
+        default: '#26853c', // '#7f6c5e',
+        800: '#004c03', // '#7f6c5e',
+        700: '#00661c', // '#7f6c5e',
+        600: '#26853c', // '#b9aba1',
         500: colors.white,
-        200: '#4da977', // '#b9aba1',
-        100: '#4da977', // '#b9aba1',
+        200: '#6aa868', // '#b9aba1',
+        100: colors.white, // '#b9aba1',
       },
       secondary: {
-        default: '#772583', // '#c42026',
-        800: '#772583', // '#b42026',
-        700: '#853b8f', // '#c42026',
-        600: '#ffd86b', // '#d3855f',
-        200: '#ffeec0', // '#e0a778',
-        100: '#ffeec0', // '#e0a778',
+        default: '#6f2184', // '#c42026',
+        800: '#6f2184', // '#b42026',
+        700: '#853899', // '#c42026',
+        600: '#9b4faf', // '#d3855f',
+        200: colors.white, // '#e0a778',
+        100: colors.white, // '#e0a778',
       },
       accent: {
-        default: '#339d64', // '#b9aba1',
+        default: '#6f2184', // '#b9aba1',
+        minor: '#fbc31b',
       },
       black: colors.black,
       white: colors.white,
-      gray: colors.gray,
-    },
-
+      gray: {
+        '100': '#feffff', 
+        '200': '#f2f3f2', 
+        '300': '#e6e7e4', 
+        '400': '#bdbdbd', 
+        '500': '#9e9e9e', 
+        '600': '#757575', 
+        '700': '#616161', 
+        '800': '#424242', 
+        '900': '#212121', 
+      }, //colors.gray, 
+    }, 
+    
     fontFamily: {
       'display': ['"Zilla Slab"', 'serif'],
       'body': ["'Fira Sans'", 'sans-serif']

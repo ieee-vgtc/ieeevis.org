@@ -31,8 +31,9 @@
 .nav {
     --navigation-height: 70px;
     z-index: 999;
-    @apply bg-white;
-    @apply border-primary border-b-2;
+    @apply bg-accent;
+    @apply border-secondary border-b-2;
+    @apply text-white;
     height: var(--navigation-height);
 
     /* Fixed on small screens */
@@ -50,6 +51,10 @@
 
 
 /* Menu */
+
+.hamburger_menu {
+    @apply text-white;
+}
 
 .menu {
     /* Full height and scroll on small screens */
@@ -100,10 +105,9 @@
     position: relative;
     transition: color, background-color 250ms ease;
     cursor: pointer;
-    @apply text-primary;
     text-align: left;
     width: 100%;
-    @apply text-primary;
+    @apply text-secondary;
 }
 
 @screen md {
@@ -111,13 +115,16 @@
         background: transparent;
         text-align: center;
         width: auto;
+        @apply text-white;
       }
     }
 
     /* State: Hover and Focused */
-    .menu_item:hover,
+    .menu_item:hover{
+        @apply text-accent-minor;
+    }
     .menu_item--focused {
-        @apply text-secondary bg-accent;
+        @apply text-accent-minor bg-accent;
     }
 
     @screen md {
@@ -127,6 +134,7 @@
 
         .menu_item--focused,
         .menu_item--focused:hover {
+            @apply text-accent;
             @apply bg-gray-100;
         }
     }
@@ -135,8 +143,8 @@
 
     @screen md {
         .menu_item.menu_item--is-active {
-          @apply text-secondary;
-          box-shadow: inset 0 -4px theme('colors.secondary.default');
+          @apply text-accent-minor;
+          box-shadow: inset 0 -4px theme('colors.accent.minor');
         }
     }
 
