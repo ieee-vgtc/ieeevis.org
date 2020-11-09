@@ -6,7 +6,7 @@ permalink: /info/committees/vis-executive-committee
 contact: vec@ieeevis.org
 ---
 
-Interested in joining the VIS Organizing Committee? There are still a few open positions for VIS 2021. Self-nominations will be accepted through November 7, 2020 using this [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSd326i-v6ayCEujtB4Ywj7sbJU7REV1m9W8ziQBxTG9uikfVg/viewform?usp=sf_link). 
+Interested in joining the VIS Organizing Committee? There are still a few open positions for VIS 2021. Self-nominations will be accepted through November 10, 2020 using this [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSd326i-v6ayCEujtB4Ywj7sbJU7REV1m9W8ziQBxTG9uikfVg/viewform?usp=sf_link). You can see a description of the open positions in this [document](https://docs.google.com/document/d/1n7eRKEwrDEcrsFT85GbRWKJSovcHekHVa8r0T0wwYGY/edit?usp=sharing). 
 
 | Jim Ahrens | *Los Alamos National Laboratory<br>(VGTC Chair.)*
 | Lisa Avila | *Kitware<br>(VEC Chair.)*
