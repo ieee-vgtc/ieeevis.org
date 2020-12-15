@@ -19,6 +19,3 @@ Current members of the VSC are:
 | Melanie Tory | *Tableau Software* |
 | Daniel Weiskopf | *University of Stuttgart* |
 
-We made a google drive folder available that contains:
-
-* [Public Meeting Minutes](https://drive.google.com/drive/folders/1sgjPLu9JwmyjHzWhHSx82U_BdcODBSH1?usp=sharing)

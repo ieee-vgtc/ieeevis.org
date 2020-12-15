@@ -375,21 +375,20 @@ menu:
                   - text: "1996"
                     url: "http://www.hpc.msstate.edu/conferences/vis96/"
 
-     - subsections:
+      - subsections:
          - heading: "Committees"
            columns:
-           - heading: ""
-             links:
-               - text: "VIS Conference Committees"
-                 url: "/year/2021/info/committees/conference-committee"
-#                - text: "Program Committees"
-#                  url: "/year/2021/info/committees/program-committees"
-               - text: "Steering Committees"
-                 url: "/year/2021/info/committees/steering-committees"
-               - text: "VIS Executive Committee"
-                 url: "/year/2021/info/committees/vis-executive-committee"
-#                - text: "Restructuring and reVISe"
-#                  url:  "/governance/restructuring"
+             - links:
+                 - text: "VIS Conference Committees"
+                   url: "/year/2021/info/committees/conference-committee"
+                 # - text: "Program Committees"
+                 #   url: "/year/2021/info/committees/program-committees"
+                 - text: "Steering Committees"
+                   url: "/year/2021/info/committees/steering-committees"
+                 - text: "VIS Executive Committee"
+                   url: "/year/2021/info/committees/vis-executive-committee"
+                 # - text: "Restructuring and reVISe"
+                 #   url:  "/governance/restructuring"
 
       - subsections:
           - heading: "Upcoming Years"
