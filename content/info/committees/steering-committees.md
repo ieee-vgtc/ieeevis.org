@@ -9,15 +9,15 @@ The task of the IEEE VIS Steering Committee (VSC) is to provide long-term scient
 
 Current members of the VSC are:
 
-| Daniel  Weiskopf  | *University of Stuttgart* |
-| Deborah Silver | *Rutgers University* |
-| Huamin Qu  | *Hong Kong University of Science and Technology* |
-| Melanie Tory  | *Tableau* |
 | Petra Isenberg | *Inria* |
-| Robert Moorhead  | *Mississippi State University* |
-| Shixia Liu  | *Tsinghua University* |
-| Stephen North  | *Infovisible* |
-| Tobias Schreck  | *TU Graz* |
+| Shixia Liu | *Tsinghua University* |
+| Robert Morehead | *Mississippi State University* |
+| Stephen North | *Infovisible* |
+| Huamin Qu | *Hong Kong University of Science and Technology* |
+| Tobias Schreck | *TU Graz* |
+| Deborah Silver | *Rutgers University* |
+| Melanie Tory | *Tableau Software* |
+| Daniel Weiskopf | *University of Stuttgart* |
 
 We made a google drive folder available that contains:
 
