@@ -9,6 +9,7 @@ The task of the IEEE VIS Steering Committee (VSC) is to provide long-term scient
 
 Current members of the VSC are:
 
+| **Name** | **Affiliation** |
 | Petra Isenberg | *Inria* |
 | Shixia Liu | *Tsinghua University* |
 | Robert Morehead | *Mississippi State University* |

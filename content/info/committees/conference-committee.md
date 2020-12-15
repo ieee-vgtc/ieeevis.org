@@ -57,10 +57,6 @@ permalink: /info/committees/conference-committee
 | Stefan Bruckner | *University of Bergen* |
 | Christophe Hurter | *French Civil Aviation University* |
 |---
-| **VSC Liasons** | |
-| Stephen North | *Infovisible* |
-| Petra Isenberg | *Inria* |
-|---
 | **Application Spotlights** | |
 | Soumya Dutta | *Los Alamos National Laboratory* |
 | Kristi Potter | *NREL* |

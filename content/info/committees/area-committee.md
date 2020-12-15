@@ -5,6 +5,7 @@ active_nav: "Organization & History"
 permalink: /info/committees/area-committee
 ---
 
+| **Name** | **Affiliation** |
 | Steven Drucker | *Microsoft Research* |
 | Alex Endert | *Georgia Tech* |
 | Issei Fujishiro | *Keio University* |

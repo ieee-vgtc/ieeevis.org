@@ -6,6 +6,7 @@ permalink: /info/committees/vis-executive-committee
 contact: vec@ieeevis.org
 ---
 
+| **Name** | **Affiliation** |
 | Lisa Avila | *Kitware* |
 | Sheelagh Carpendale | *Simon Fraser University* |
 | Gautam Chaudhary | *Alcon* |
