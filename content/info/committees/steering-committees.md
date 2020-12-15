@@ -1,5 +1,5 @@
 ---
-title: Steering Committee
+title: Visualization Steering Committee
 layout: page
 active_nav: "Organization & History"
 permalink: /info/committees/steering-committees
