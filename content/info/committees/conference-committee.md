@@ -44,7 +44,7 @@ permalink: /info/committees/conference-committee
 | **Posters Chairs** | |
 | Vijay Natarajan | *IISc Bangalore* |
 | Adam Perer | *Carnegie Mellon University* |
-| Michael Sedlmair | *Stuttgart* |
+| Michael Sedlmair | *University of Stuttgart* |
 | Anna Vilanova | *TU Eindhoven* |
 |---
 | **Panels Chairs** | |
@@ -59,7 +59,7 @@ permalink: /info/committees/conference-committee
 |---
 | **Application Spotlights** | |
 | Soumya Dutta | *Los Alamos National Laboratory* |
-| Kristi Potter | *NREL* |
+| Kristi Potter | *National Renewable Energy Laboratory* |
 | Noeska Smit | *University of Bergen* |
 |---
 | **Open Practices** | |
@@ -81,16 +81,16 @@ permalink: /info/committees/conference-committee
 | R. Jordan Crouser | *Smith College* |
 |---
 | **SciVis Contest Chairs** | |
-| Thomas Theußl | *Kaust* |
+| Thomas Theußl | *KAUST* |
 | Alex Razoumov | *WestGrid* |
 |---
 | **VDS Workshop Liaison**| |
 | Liang Gou | *Bosch Research* |
 |---
 | **LDAV Symposium Liaisons**| |
-| Kristi Potter | *NREL* |
+| Kristi Potter | *National Renewable Energy Laboratory* |
 | Julien Tierny | *Sorbonne University* |
-| Chaoli Wang | *Notre Dame* |
+| Chaoli Wang | *University of Notre Dame* |
 |---
 | **Vis4DH Workshop Liaison** | |
 | Mennatallah El-Assady | *University of Konstanz* |
@@ -100,7 +100,7 @@ permalink: /info/committees/conference-committee
 | Hendrik Strobelt | *IBM* |
 | Adam Perer | *Carnegie Mellon University* |
 |---
-| **VizSec Symposium Liaison** | |
+| **VIZSec Symposium Liaison** | |
 | Marco Angelini | *University of Rome “La Sapienza”* |
 |---
 | **Vis in Practice Chairs** | |
@@ -126,13 +126,6 @@ permalink: /info/committees/conference-committee
 | Bettina Speckmann | *TU Eindhoven* |
 | Emily Wall | *Emory University* |
 | Wesley Willett | *University of Calgary* |
-|---
-| **Publications Chairs** | |
-| Anastasia Bezerianos | *Uni Paris Sud* |
-| Sheelagh Carpendale | *Simon Fraser University* |
-| Chris Collins | *Ontario Tech University* |
-| Gautam Chaudhary | *Alcon* |
-| Kristi Potter | *NREL* |
 |---
 | **Meetup Chairs** | |
 | Ayan Biswas | *Los Alamos National Lab* |
@@ -190,7 +183,7 @@ permalink: /info/committees/conference-committee
 | Michail Schwab | *Northeastern University (Google in 2021)* |
 | Will Usher | *University of Utah* |
 |---
-| **Virtual Conference Chairs** | |
+| **Virtual VIS Chairs** | |
 | Gautam Chaudhary | *Alcon* |
 | Daniela Giorgi | *Istituto di Scienza e Tecnologie dell'Informazione, CNR - Area della Ricerca di Pisa* |
 | Amy Gooch | *University of Utah* |
