@@ -12,27 +12,16 @@ permalink: /info/committees/conference-committee
 | Brian Summa | *Tulane University* |
 | Luis Gustavo Nonato | *Universidade de Sao Paulo* |
 |---
-| **Program Chair** | |
+| **Program Chairs** | |
 | Gautam Chaudhary | *Alcon* |
-| Josh Levine | *University of Arizona* |
+| Joshua A. Levine | *University of Arizona* |
 |---
-| **Overall Papers Chairs** | |
+| **Overall Paper Chairs** | |
 | Bongshin Lee | *Microsoft Research* |
 | Silvia Miksch | *Vienna University of Technology* |
 | Anders Ynnerman | *Linköping University* |
 |---
-| **Overall Papers Chairs** | |
-| Steven Drucker | *Microsoft Research* |
-| Alex Endert | *Georgia Tech* |
-| Issei Fujishiro | *Keio University* |
-| Christoph Garth | *University of Kaiserslautern* |
-| Heidi Lam | *Google* |
-| Heike Leitte | *University of Kaiserslautern* |
-| Penny Rheingans | *University of Maine* |
-| Carlos Scheidegger | *University of Arizona* |
-| Hendrik Strobelt | *IBM* |
-|---
-| **Area Papers Chairs** | |
+| **Area Paper Chairs** | |
 | Anastasia Bezerianos | *Uni Paris Sud* |
 | Jian Chen | *The Ohio State University* |
 | Wei Chen | *Zhejiang University* |
@@ -50,7 +39,7 @@ permalink: /info/committees/conference-committee
 | Michelle Borkin | *Northeastern University* |
 | Wenwen Dou | *University of North Carolina at Charlotte* |
 | Steffen Koch | *University of Stuttgart* |
-| Chaoli Wang | *University of Notre Dame * |
+| Chaoli Wang | *University of Notre Dame* |
 |---
 | **Posters Chairs** | |
 | Vijay Natarajan | *IISc Bangalore* |
@@ -67,6 +56,10 @@ permalink: /info/committees/conference-committee
 | Jessica Hulmann | *Northwestern University* |
 | Stefan Bruckner | *University of Bergen* |
 | Christophe Hurter | *French Civil Aviation University* |
+|---
+| **VSC Liasons** | |
+| Stephen North | *Infovisible* |
+| Petra Isenberg | *Inria* |
 |---
 | **Application Spotlights** | |
 | Soumya Dutta | *Los Alamos National Laboratory* |
@@ -98,7 +91,7 @@ permalink: /info/committees/conference-committee
 | **VDS Workshop Liaison**| |
 | Liang Gou | *Bosch Research* |
 |---
-| **LDAV Symposium Liaison**| |
+| **LDAV Symposium Liaisons**| |
 | Kristi Potter | *NREL* |
 | Julien Tierny | *Sorbonne University* |
 | Chaoli Wang | *Notre Dame* |
@@ -106,7 +99,7 @@ permalink: /info/committees/conference-committee
 | **Vis4DH Workshop Liaison** | |
 | Mennatallah El-Assady | *University of Konstanz* |
 |---
-| **Vis4AI Workshop Liaison** | |
+| **Vis4AI Workshop Liaisons** | |
 | Mennatallah El-Assady | *University of Konstanz* |
 | Hendrik Strobelt | *IBM* |
 | Adam Perer | *Carnegie Mellon University* |
@@ -149,12 +142,6 @@ permalink: /info/committees/conference-committee
 | Ayan Biswas | *Los Alamos National Lab* |
 | Evanthia Dimara | *University of Konstanz* |
 | Katerina Vrotsou | *Linkoping University* |
-|---
-| **Conference Manager** | |
-| Michelle Ocampo | *IEEE Computer Society* |
-|---
-| **VEC Chair** | |
-| Lisa Avila | *Kitware* |
 |---
 | **Community Chairs** | |
 | Lane Harrison | *Worcester Polytechnic Institute* |
