@@ -21,19 +21,29 @@ permalink: /info/committees/conference-committee
 | Silvia Miksch | *Vienna University of Technology* |
 | Anders Ynnerman | *Linköping University* |
 |---
-| **Area Paper Chairs** | |
-| Anastasia Bezerianos | *Uni Paris Sud* |
+| **Area 1 Paper Chairs - Theoretical & Empirical** | |
 | Jian Chen | *The Ohio State University* |
-| Wei Chen | *Zhejiang University* |
 | Christopher Collins | *Vialab* |
+|---
+| **Area 2 Paper Chairs - Applications** | |
+| Wei Chen | *Zhejiang University* |
 | Alex Lex | *University of Utah* |
+|---
+| **Area 3 Paper Chairs - Systems & Rendering** | |
 | Michael Gleicher | *University of Wisconsin-Madison* |
-| Eduard Gröller | *TU Wien* |
-| Bernhard Preim | *Otto-von-Guericke University Magdeburg* |
-| Jinwook Seo | *Seoul National University* |
-| Xiaoru Yuan | *Peking University* |
-| Jing Yang | *University of North Carolina at Charlotte* |
 | Rüdiger Westermann | *Technical University of Munich* |
+|---
+| **Area 4 Paper Chairs - Representations & Interaction** | |
+| Anastasia Bezerianos | *Uni Paris Sud* |
+| Bernhard Preim | *Otto-von-Guericke University Magdeburg* |
+|---
+| **Area 5 Paper Chairs - Data Transformations** | |
+| Eduard Gröller | *TU Wien* |
+| Xiaoru Yuan | *Peking University* |
+|---
+| **Area 6 Paper Chairs - Analytics & Decisions** | |
+| Jinwook Seo | *Seoul National University* |
+| Jing Yang | *University of North Carolina at Charlotte* |
 |---
 | **Short Papers Chairs** | |
 | Michelle Borkin | *Northeastern University* |
