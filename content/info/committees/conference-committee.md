@@ -103,8 +103,7 @@ permalink: /info/committees/conference-committee
 | **VIZSec Symposium Liaison** | |
 | Marco Angelini | *University of Rome “La Sapienza”* |
 |---
-| **Vis in Practice Chairs** | |
-| Zhicheng (Leo) Liu | *Adobe* |
+| **Vis in Practice Chair** | |
 | Sean McKenna | *Lucid Software* |
 |---
 | **Doctoral Colloquium Chairs**| |
