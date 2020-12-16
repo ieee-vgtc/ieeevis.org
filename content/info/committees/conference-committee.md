@@ -21,27 +21,27 @@ permalink: /info/committees/conference-committee
 | Silvia Miksch | *Vienna University of Technology* |
 | Anders Ynnerman | *Linköping University* |
 |---
-| **Area 1 Paper Chairs - Theoretical & Empirical** | |
+| **Area 1 Paper Chairs &nbsp;&nbsp;&nbsp;—** | **Theoretical & Empirical** |
 | Jian Chen | *The Ohio State University* |
 | Christopher Collins | *Vialab* |
 |---
-| **Area 2 Paper Chairs - Applications** | |
+| **Area 2 Paper Chairs &nbsp;&nbsp;&nbsp;—** | **Applications** | |
 | Wei Chen | *Zhejiang University* |
 | Alex Lex | *University of Utah* |
 |---
-| **Area 3 Paper Chairs - Systems & Rendering** | |
+| **Area 3 Paper Chairs &nbsp;&nbsp;&nbsp;—** | **Systems & Rendering** | |
 | Michael Gleicher | *University of Wisconsin-Madison* |
 | Rüdiger Westermann | *Technical University of Munich* |
 |---
-| **Area 4 Paper Chairs - Representations & Interaction** | |
+| **Area 4 Paper Chairs &nbsp;&nbsp;&nbsp;—** | **Representations & Interaction** | |
 | Anastasia Bezerianos | *Uni Paris Sud* |
 | Bernhard Preim | *Otto-von-Guericke University Magdeburg* |
 |---
-| **Area 5 Paper Chairs - Data Transformations** | |
+| **Area 5 Paper Chairs &nbsp;&nbsp;&nbsp;—** | **Data Transformations** | |
 | Eduard Gröller | *TU Wien* |
 | Xiaoru Yuan | *Peking University* |
 |---
-| **Area 6 Paper Chairs - Analytics & Decisions** | |
+| **Area 6 Paper Chairs &nbsp;&nbsp;&nbsp;—** | **Analytics & Decisions** | |
 | Jinwook Seo | *Seoul National University* |
 | Jing Yang | *University of North Carolina at Charlotte* |
 |---
