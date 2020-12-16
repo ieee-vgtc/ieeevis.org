@@ -1,5 +1,5 @@
 ---
-title: Area Curation Committe
+title: Area Curation Committee
 layout: page
 active_nav: "Organization & History"
 permalink: /info/committees/area-committee
