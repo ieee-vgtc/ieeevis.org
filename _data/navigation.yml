@@ -391,6 +391,11 @@ menu:
                    url: "/year/2021/info/committees/area-committee"
                  # - text: "Restructuring and reVISe"
                  #   url:  "/governance/restructuring"
+         - heading: "Documentation"
+           columns:
+             - links:
+                 - text: "Updating the website content"
+                   url: "/year/2021/info/contributing"
 
       - subsections:
           - heading: "Upcoming Years"
