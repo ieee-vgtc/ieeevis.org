@@ -5,7 +5,7 @@ This is the Jekyll version of the [IEEE VIS website](http://ieeevis.org).
 The `master` branch (the page you're currently viewing) is the archived version of the site (years 2018 and earlier).
 
 To edit files in other years, check the other `vis*` branches.  Click the below links to teleport:
-- [vis2021](https://github.com/ieee-vgtc/ieeevis.org/tree/vis2021) - the 2020 site
+- [vis2021](https://github.com/ieee-vgtc/ieeevis.org/tree/vis2021) - **the current 2021 site**
 - [vis2020](https://github.com/ieee-vgtc/ieeevis.org/tree/vis2020) - the 2020 site
 - [vis2019](https://github.com/ieee-vgtc/ieeevis.org/tree/vis2019) - the 2019 redesign
 
