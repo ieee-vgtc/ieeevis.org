@@ -15,6 +15,8 @@ We’re introducing a blog for IEEE VIS, and we’ll kick off the blog with a se
 Regular attendees of VIS are aware that big changes are coming to VIS in 2021: VIS 2020 will be the last time we will have three separate conferences (VAST, InfoVis, and SciVis). Instead, going forward the content of these three conferences will be under one single conference: IEEE VIS: Visualization & Visual Analytics – or shortened to just IEEE VIS.
 
 In this blog post we briefly introduce the main changes coming, after giving a bit of historical context and rationale and will point to future posts in this series.
+
+<!--more-->
 ## A Brief History
 IEEE VIS has undergone many changes over its history. Founded in 1990 as the “IEEE Conference on Visualization”, it had a strong focus on topics that would have fit best into today’s SciVis conference. In 1995, the IEEE Symposium on Information Visualization (InfoVis) was held for the first time (the oldest surviving website is from [1996](https://www.hpc.msstate.edu/conferences/vis96/)), and in 2005 the IEEE Symposium on Visual Analytics, Science and Technology (VAST) was established. InfoVis and VAST graduated to “conferences” from the “smaller” symposia in 2007 and 2011 respectively (using IEEE’s terminology). In the mid-2000s, VIS began a collaboration with the top journal for visualization research, *IEEE Transactions on Visualization and Computer Graphics (TVCG)*, which now publishes most papers of these three conferences. All of this is well illustrated in this figure based on [Isenberg et al.](https://sites.google.com/site/vispubdata/home):
 
