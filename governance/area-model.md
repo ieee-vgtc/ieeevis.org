@@ -39,7 +39,7 @@ Visualization (or VIS) is the study of the transformation of data to visual repr
 
 ## Description of VIS Areas
 
-### Area 1 – Theoretical & Empirical
+### Area 1: Theoretical & Empirical
 This area focuses on theoretical and empirical research topics that aim to establish the foundation of VIS as a scientific subject. As such, work submitted to this area may also relate closely to the topics covered in other areas. Work submitted to this area should contribute either theoretical or empirical research. 
 
 **Theoretical Work**
