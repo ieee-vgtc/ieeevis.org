@@ -22,7 +22,7 @@
 # registration:
 #   display: false
 #   text: "Register"
-#   url: "/year/2020/info/registration/conference-registration"
+#   url: "/year/2021/info/registration/conference-registration"
 
 blog:
     display: true
@@ -41,100 +41,100 @@ menu:
               - heading: "Attend"
                 links:
                   - text: "Registration"
-                    url: "/year/2020/info/registration/conference-registration"
+                    url: "/year/2021/info/registration/conference-registration"
                   # - text: "Conference Venue"
                   #   url: "#"
               #    - text: "Practitioner Guide"
               #      url: "https://visinpractice.github.io/guide.html"
               #      is_external: true
                   - text: "Full Program"
-                    url: "/year/2020/info/week-at-a-glance"
+                    url: "/year/2021/info/week-at-a-glance"
                   - text: "Media Requests"
-                    url: "/year/2020/info/media-requests"
+                    url: "/year/2021/info/media-requests"
                     is_new: true
                   - text: "Coronavirus Information"
-                    url: "/year/2020/info/coronavirus-info"
+                    url: "/year/2021/info/coronavirus-info"
               #- heading: "Travel"
               #  links:
               #    - text: "Accommodation"
-              #      url: "/year/2020/info/registration/hotel-information"
+              #      url: "/year/2021/info/registration/hotel-information"
               #    - text: "Visa & Travel"
-              #      url: "/year/2020/info/registration/travel-visas"
+              #      url: "/year/2021/info/registration/travel-visas"
                   # - text: "Things to do in City"
                   #   url: "https://www.google.com"
                   #   is_new: true
 
           - heading: "Code of Conduct"
-            heading_url: "/year/2020/info/inclusion-and-diversity/code-of-conduct"
+            heading_url: "/year/2021/info/inclusion-and-diversity/code-of-conduct"
 
       - subsections:
           - heading: "Equality, Inclusion & Diversity"
-            heading_url: "/year/2020/info/inclusion-and-diversity/inclusivity"
+            heading_url: "/year/2021/info/inclusion-and-diversity/inclusivity"
             columns:
               - links:
                 - text: "Inclusivity & Diversity Scholarship"
                   description: "Need-based scholarships for conference attendance"
-                  url: "/year/2020/info/inclusion-and-diversity/diversity-scholarship"
+                  url: "/year/2021/info/inclusion-and-diversity/diversity-scholarship"
                 - text: "VISKids"
                   description: "Childcare and activities open to everyone"
-                  url: "/year/2020/info/inclusion-and-diversity/viskids-event"
+                  url: "/year/2021/info/inclusion-and-diversity/viskids-event"
                 - text: "VISKids Childcare Grants"
                   description: "Supporting our VISKids and young families"
-                  url: "/year/2020/info/inclusion-and-diversity/viskids-child-care-grants"
+                  url: "/year/2021/info/inclusion-and-diversity/viskids-child-care-grants"
 
 
   - dropdown: "Contribute"
-    display: false
+    display: true
     sections:
       - subsections:
           - heading: "Call for Participation"
-            heading_url: "/year/2020/info/call-participation/call-for-participation"
-            description: "Submit your novel research contributions and innovative applications"
+            # heading_url: "/year/2021/info/call-participation/call-for-participation"
+            description: "Submit your novel research contributions and innovative applications (CFPs under development!)"
             columns:
               - heading: "Submit Your Work"
                 links:
-                  - text: "Papers"
-                    url: "/year/2020/info/call-participation/call-for-participation"
+                  - text: "Papers (coming soon)"
+                    # url: "/year/2021/info/call-participation/call-for-participation"
                   - text: "Short Papers"
-                    url: "/year/2020/info/call-participation/shortpapers"
-                  - text: "Posters"
-                    url: "/year/2020/info/call-participation/posters"
-                  - text: "Tutorials"
-                    url: "/year/2020/info/call-participation/tutorials"
+                    url: "/year/2021/info/call-participation/shortpapers"
+                  # - text: "Posters"
+                  #   url: "/year/2021/info/call-participation/posters"
+                  - text: "Tutorials (coming soon)"
+                    # url: "/year/2021/info/call-participation/tutorials"
                   - text: "Workshops"
-                    url: "/year/2020/info/call-participation/workshops"
-                  - text: "Panels"
-                    url: "/year/2020/info/call-participation/panels"
-                  - text: "Doctoral Colloquium"
-                    url: "/year/2020/info/call-participation/doctoral-colloquium"
-                  - text: "Application Spotlights"
-                    url: "/year/2020/info/call-participation/spotlights"
-              - heading: "Info for Contributors"
-                links:
-                  - text: "Submission Information"
-                    url: "/year/2020/info/call-participation/paper-submission-guidelines"
-                  - text: "Submission Keywords"
-                    url: "/year/2020/info/call-participation/paper-keywords"
-                  - text: "Open Practices"
-                    url: "/year/2020/info/open-practices/open-practices"
-                  - text: "Video Previews"
-                    url: "/year/2020/info/presenter-information/fast-forward-and-video-previews"
-                  - text: "Speakers and Presenters"
-                    url: "/year/2020/info/presenter-information/final-information-paper-authors"
-                  - text: "Recording your Talk"
-                    url: "/year/2020/info/presenter-information/talk-recording-guide"
-                  - text: "Guidance for Virtual Events"
-                    url: "/year/2020/info/presenter-information/guidance-for-associated-events"
-                  - text: "Presenting at the Virtual Conference"
-                    url: "/year/2020/info/presenter-information/presenting-virtually"
+                    url: "/year/2021/info/call-participation/workshops"
+                  - text: "Panels (coming soon)"
+                    # url: "/year/2021/info/call-participation/panels"
+                  - text: "Doctoral Colloquium (coming soon)"
+                    # url: "/year/2021/info/call-participation/doctoral-colloquium"
+                  - text: "Application Spotlights (coming soon)"
+                    # url: "/year/2021/info/call-participation/spotlights"
+              # - heading: "Info for Contributors"
+              #   links:
+              #     - text: "Submission Information"
+              #       url: "/year/2021/info/call-participation/paper-submission-guidelines"
+              #     - text: "Submission Keywords"
+              #       url: "/year/2021/info/call-participation/paper-keywords"
+              #     - text: "Open Practices"
+              #       url: "/year/2021/info/open-practices/open-practices"
+              #     - text: "Video Previews"
+              #       url: "/year/2021/info/presenter-information/fast-forward-and-video-previews"
+              #     - text: "Speakers and Presenters"
+              #       url: "/year/2021/info/presenter-information/final-information-paper-authors"
+              #     - text: "Recording your Talk"
+              #       url: "/year/2021/info/presenter-information/talk-recording-guide"
+              #     - text: "Guidance for Virtual Events"
+              #       url: "/year/2021/info/presenter-information/guidance-for-associated-events"
+              #     - text: "Presenting at the Virtual Conference"
+              #       url: "/year/2021/info/presenter-information/presenting-virtually"
 
       - subsections:
           - heading: "Get Involved"
             columns:
               - links:
-                - text: "Organize a meetup"
+                - text: "Organize a meetup (coming soon)"
                   description: "Meet people for discussion and shared experiences"
-                  url: "/year/2020/info/call-participation/meetups"
+                  # url: "/year/2021/info/call-participation/meetups"
                 - text: "Become a student volunteer"
                   description: "Support the conference and build your research network"
                   url: "http://www.vissv.org"
@@ -144,13 +144,13 @@ menu:
                   url: "https://new.precisionconference.com/vgtc"
                   is_external: true
                 - text: "Code of Conduct"
-                  url: "/year/2020/info/inclusion-and-diversity/code-of-conduct"
+                  url: "/year/2021/info/inclusion-and-diversity/code-of-conduct"
                 # - text: "Become an organizer"
                 #   description: "TK TK TK Join the committees and help organize VIS"
                 #   url: "https://www.google.com"
 
           - heading: "Supporters"
-            heading_url: "/year/2020/info/exhibition/supporters-and-exhibition"
+            heading_url: "/year/2021/info/exhibition/supporters-and-exhibition"
             description: "Your support makes this conference possible"
 
 
@@ -159,28 +159,28 @@ menu:
     sections:
       - subsections:
           - heading: "Vis Program"
-            heading_url: "/year/2020/info/week-at-a-glance"
+            heading_url: "/year/2021/info/week-at-a-glance"
             description: "See the complete conference program"
             columns:
               - links:
                 - text: "Papers"
                   description: "The latest research in theory, methods, and applications of visualization"
-                  url: "/year/2020/info/papers-sessions"
+                  url: "/year/2021/info/papers-sessions"
                 - text: "Posters"
                   description: "Nascent and recent work"
-                  url: "/year/2020/info/posters"
+                  url: "/year/2021/info/posters"
                 - text: "Tutorials"
                   description: "Learn new tools and application domains"
-                  url: "/year/2020/info/tutorials"
+                  url: "/year/2021/info/tutorials"
                 - text: "Workshops"
                   description: "Informal setting to discuss emerging topics"
-                  url: "/year/2020/info/workshops"
+                  url: "/year/2021/info/workshops"
                 - text: "Panels"
                   description: "Discuss important and controversial issues"
-                  url: "/year/2020/info/panels"
+                  url: "/year/2021/info/panels"
                 - text: "Application Spotlights"
                   description: "Showcase practical, real-world applications of visualization"
-                  url: "/year/2020/info/spotlights"
+                  url: "/year/2021/info/spotlights"
 
 #      - subsections:
 #          - heading: "Plenary Sessions"
@@ -204,15 +204,15 @@ menu:
 #            columns:
 #              - links:
 #                - text: "Best Paper Awards"
-#                  url: "/year/2020/info/awards/best-paper-awards"
+#                  url: "/year/2021/info/awards/best-paper-awards"
 #                - text: "Best Poster Awards"
-#                  url: "/year/2020/info/awards/best-poster-awards"
+#                  url: "/year/2021/info/awards/best-poster-awards"
                 # - text: "Service Awards"
                 #   url: "https://www.google.com"
                 # - text: "VGTC VIS Awards"
                 #   url: "https://www.google.com"
 #                - text: "Test of Time Awards"
-#                  url: "/year/2020/info/awards/test-of-time-awards"
+#                  url: "/year/2021/info/awards/test-of-time-awards"
 
 
   - dropdown: "Events & Community"
@@ -270,22 +270,23 @@ menu:
                 - text: "SciVis Contest"
                   url: "https://kaust-vislab.github.io/SciVis2020/"
                   is_external: true
+
                 - text: "BioVis Challenges"
                   url: "http://biovis.net/2020/biovisChallenges_vis/"
                   is_external: true
 
           - heading: "Community"
-            # heading_url: "/year/2020/info/call-participation/community"
+            # heading_url: "/year/2021/info/call-participation/community"
             description: "Explore social and topic-based community groups"
             columns:
               - heading: "Connect"
                 links:
                   - text: "Vis Buddies"
-                    url: "/year/2020/info/meetups#vis-newcomers"
+                    url: "/year/2021/info/meetups#vis-newcomers"
                   - text: "Job Fair"
-                    url: "/year/2020/info/meetups#vis-jobfair"
+                    url: "/year/2021/info/meetups#vis-jobfair"
                   - text: "Other Meetups"
-                    url: "/year/2020/info/meetups"
+                    url: "/year/2021/info/meetups"
               - heading: "Social Groups"
                 links:
                   - text: "Velo Club de VIs"
@@ -303,9 +304,7 @@ menu:
                     url: "https://twitter.com/ieeevis"
                     is_external: true
           - heading: "Doctoral Colloquium"
-            # temporarly using the cfp page for DC here, TODO change later with the actual event information
-            heading_url: "/year/2020/info/call-participation/doctoral-colloquium"
-            #heading_url: "/year/2020/info/doctoral-colloquium"
+            #heading_url: "/year/2021/info/doctoral-colloquium"
             description: "Discuss in-progress Ph.D work with leading senior researchers"
 
   - dropdown: "Organization & History"
