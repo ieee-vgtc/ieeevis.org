@@ -11,9 +11,9 @@ We solicit workshops related to all areas of visualization. They provide an info
 
 ## Important Dates
 
-* Proposal Submission               **February 28, 2020**
-* Notification                      **March 16, 2020**
-* Final Submission of Summaries	    **August 1, 2020**
+* Proposal Submission               **February 28, 2021**
+* Notification                      **March 16, 2021**
+* Final Submission of Summaries	    **August 1, 2021**
 
 All deadlines are at **5:00pm Pacific Time (PDT)**.
 
@@ -45,7 +45,7 @@ Workshop proposals should include:
 * the intended result and impact of the workshop,
 * the plan for publication (see the classes listed below),
 * the number of poster slots requested, if the workshop intends to feature posters,
-* the proposed dates for the call for participation, author notification, and camera-ready deadlines (author notification must be prior to the early registration deadline of **September 7, 2020**; for inclusion of materials on the USB stick the camera-ready deadline must be prior to **August 25, 2020**).
+* the proposed dates for the call for participation, author notification, and camera-ready deadlines (author notification must be prior to the early registration deadline of **September 20, 2021**; for inclusion of materials on the USB stick, the camera-ready deadline must be prior to **September 1, 2021**).
 
 Because the number of workshop time slots is limited, half-day workshop proposals are strongly encouraged.  However, well-justified full-day proposals will also be considered.  Full-day proposals may optionally state what changes would be implemented to allow the workshop schedule to fit within a half day.
 
@@ -63,7 +63,7 @@ If papers or position papers are foreseen according to the planned workshop, the
     - papers are on the conference USB stick
     - papers are considered archival
 
-    Re-use of the content in a follow-up publication is only allowed in a proper journal (no conference special issue) as an extended version provided that the original paper is extended by at least 30% (subject to the rules of the given journal).Example: [BELIV](http://beliv.org/) workshop series.
+    Re-use of the content in a follow-up publication is only allowed in a proper journal (no conference special issue) as an extended version provided that the original paper is extended by at least 30% (subject to the rules of the given journal). Example: [BELIV](https://beliv-workshop.github.io/) workshop series.
 
 * _Short position statements / work in progress notes_ (similar to posters):
     - papers may or may not be available at a central digital library (with DOI); proceedings could also be published in a different way
@@ -103,7 +103,7 @@ The workshop chairs will balance the proposed topics in order to support the div
 
 Organizers should consider what steps they will take to encourage a diversity of participants in their workshop (e.g., a balance of experience, background, gender, etc.) with the aim of making participation as inclusive as possible.
 
-If accepted, workshops are required to prepare a short summary (50-100 words) for the workshops website and the web program.
+If accepted, workshops are required to prepare a short summary (50&ndash;100 words) for the workshops website and the web program.
 
 
 ## Workshop Support
@@ -112,9 +112,9 @@ The workshop organizers will receive the following support from the VIS conferen
 
 * one complimentary 1-day registration for an invited speaker,
 * room and AV support suitable for around 100 attendees,
-* food and beverages for attendees: coffee breaks throughout the day, Sunday evening opening reception, space in the poster display area, if requested (from limited pool set aside for standard workshops; available space depends on the specifics of the venue; early requests given priority over late requests),,
+* food and beverages for attendees: coffee breaks throughout the day, Sunday evening opening reception, space in the poster display area, if requested (from limited pool set aside for standard workshops; available space depends on the specifics of the venue; early requests given priority over late requests),
 * PCS (Precision Conference Solutions) support for managing submissions and the review process,
-* inclusion of the workshop materials or proceedings on the USB stick for dissemination to attendees of the conference, if requested (materials must be provided by August 25, 2020)
+* inclusion of the workshop materials or proceedings on the USB stick for dissemination to attendees of the conference, if requested (materials must be provided by September 1, 2021)
 * IEEE Xplore Digital Library publication of the workshop proceedings, if requested (considered archival).
 
 Please check the conference website for upcoming information concerning available funds for special purposes, such as supporting diversity. If the requirements of the workshop exceed this default support, the workshop organizers are expected to coordinate with the workshop chairs and possibly raise funds to support the workshop activities. Fundraising plans must be discussed with the workshop and supporters chairs prior to contacting any potential funder. For more information, see the guidelines for [Financial and Coordination Policies for IEEE VIS](http://ieeevis.org/governance/coordination).
@@ -123,6 +123,6 @@ Please check the conference website for upcoming information concerning availabl
 
 ## Workshop Chairs
 
-* Adam Perer, *Carnegie Mellon University (VAST)*
-* Anastasia Bezerianos, *University of Paris-Sud (InfoVis)*
-* Chaoli Wang, *University of Notre Dame (SciVis)*
+* Johanna Beyer, *Harvard University, USA*
+* Filip Sadlo, *Heidelberg University, Germany*
+* Yingcai Wu, *Zhejiang University, China*
