@@ -6,6 +6,8 @@ active_nav: "Contribute"
 contact: supporters@ieeevis.org
 ---
 
+**Please note that this copy is specific to 2020; 2021 content is forthcoming.  Please e-mail supporters@ieeevis.org for questions in the meantime.**
+
 We invite you to participate in IEEE VIS by supporting the conference. IEEE VIS is the premier forum for advances in scientific and information visualization in academia, science, government, and industry. A full complement of research presentations, tutorials, symposia, workshops, panels, demonstrations, posters, and exhibitions make this conference one of the largest and most important gatherings researchers and professionals who specialize in the visual analysis of data.
 
 For more details please see the [IEEE VIS 2020 Supporter Prospectus]({{ 'content/info/exhibition/VIS_Supporters_Prospectus_2020.pdf' | relative_url }}).
@@ -22,7 +24,7 @@ For more details please see the [IEEE VIS 2020 Supporter Prospectus]({{ 'content
 * Platinum supporters and above will have the opportunity to speak at a dedicated sponser session and be featured in a sponsor slide during the general session.
 * Diamond supporters will have a speaking opportunity at a dedicated industry forum and can sponsor the electronic poster program with their company logo displayed between poster transitions.
 
-You can also contact the supporter chairs: [supporters@ieeevis.org](mailto:supporters@ieeevis.org). 
+You can also contact the supporter chairs: [supporters@ieeevis.org](mailto:supporters@ieeevis.org).
 
 ## VIS 2020 Exhibitor Information
 
