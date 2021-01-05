@@ -18,53 +18,53 @@ The short paper submission deadline is **June 13, 2021**, creating an opportunit
 ### Short Paper Examples:
 
 #### Paper Type: Technique or Algorithm
-The Anatomical Edutainer
-Marwin Schindler, Hsiang-Yun, Renata Georgia Raidou
+The Anatomical Edutainer\
+Marwin Schindler, Hsiang-Yun, Renata Georgia Raidou\
 IEEE VIS Short Papers 2020 \[Best Paper\]
 
-Periphery Plots for Contextualizing Heterogeneous Time-Based Charts
-Bryce Morrow, Trevor Manz, Arlene E. Chung, Nils Gehlenborg, David Gotz
+Periphery Plots for Contextualizing Heterogeneous Time-Based Charts\
+Bryce Morrow, Trevor Manz, Arlene E. Chung, Nils Gehlenborg, David Gotz\
 IEEE VIS Short Papers 2019 \[Best Paper\]
 
 #### Paper Type: System or Tool
-Encodable: Configurable Grammar for Visualization Components
-Krist Wongsuphasawat
+Encodable: Configurable Grammar for Visualization Components\
+Krist Wongsuphasawat\
 IEEE VIS Short Papers 2020 \[Honorable Mention\]
 
-Learning Vis Tools: Teaching Data Visualization Tutorials
-Leo Yu-Ho Lo, Yao Ming, Huamin Qu
+Learning Vis Tools: Teaching Data Visualization Tutorials\
+Leo Yu-Ho Lo, Yao Ming, Huamin Qu\
 IEEE VIS Short Papers 2019 \[Honorable Mention\]
 
 #### Paper Type: Application or Design Study
-PRAGMA: Interactively Constructing Functional Brain Parcellations
-Roza Gunes Bayrak, Nhung Hoang, Colin Blake Hansen, Catie Chang, Matthew Berger
+PRAGMA: Interactively Constructing Functional Brain Parcellations\
+Roza Gunes Bayrak, Nhung Hoang, Colin Blake Hansen, Catie Chang, Matthew Berger\
 IEEE VIS Short Papers 2020 \[Honorable Mention\]
 
-Graph-assisted Visualization of Microvascular Networks 
-Pavel Govyadinov, Tasha Womack, Jason Eriksen, David Mayerich, Guoning Chen
+Graph-assisted Visualization of Microvascular Networks\
+Pavel Govyadinov, Tasha Womack, Jason Eriksen, David Mayerich, Guoning Chen\
 IEEE VIS Short Papers 2019 \[Honorable Mention\]
 
 #### Paper Type: Empirical Study
-Evaluating Ordering Strategies of Star Glyph Axes
-Authors: Matthias Miller, Xuan Zhang, Johannes Fuchs, Michael Blumenschein
+Evaluating Ordering Strategies of Star Glyph Axes\
+Authors: Matthias Miller, Xuan Zhang, Johannes Fuchs, Michael Blumenschein\
 IEEE VIS Short Papers 2019
 
-Evidence for Area as the Primary Visual Cue in Pie Charts
-Authors: Robert Kosara
+Evidence for Area as the Primary Visual Cue in Pie Charts\
+Authors: Robert Kosara\
 IEEE VIS Short Papers 2019
 
 #### Paper Type: Theory or Model
-Characterizing Automated Data Insights
-Authors: Po-Ming Law, Alex Endert, John Stasko
+Characterizing Automated Data Insights\
+Authors: Po-Ming Law, Alex Endert, John Stasko\
 IEEE VIS Short Papers 2020
 
-Knowing what to look for: A Fact-Evidence Reasoning Framework for Decoding Communicative Visualization
-Authors: Sahaj Vaidya, Aritra Dasgupta
+Knowing what to look for: A Fact-Evidence Reasoning Framework for Decoding Communicative Visualization\
+Authors: Sahaj Vaidya, Aritra Dasgupta\
 IEEE VIS Short Papers 2020
 
 ### Submission Guidelines:
 
-Short papers can be up to four pages plus up to one page of references. Submissions will be in the VGTC conference two-column format, in line with the [IEEE VIS formatting guidelines](http://vgtc.org/publications/conference).
+Short papers can be up to four pages plus up to one page of references. Submissions will be in the VGTC conference two-column format, in line with the [IEEE VIS formatting guidelines](https://tc.computer.org/vgtc/publications/conference/).
 
 Short Papers allow single-blind (not anonymized) or double-blind (anonymized) submissions while reviewers’ identities are not revealed. Authors may choose whether to anonymize their submission or not. Double-blind submissions should NOT include author names or institutions on the cover page of the initial submission, and authors should make an effort to ensure that there is no revealing information in the text, such as obvious citations to authors’ previous work, or making acknowledgments to colleagues of long-standing.
 
@@ -78,7 +78,7 @@ Authors of accepted short papers may subsequently submit to TVCG a full paper on
  
 Concurrent submissions of short papers and posters are not possible (i.e., one cannot submit the same work both as a Short Paper and as a Poster).
 
-### Important Dates (deadline extension):
+### Important Dates:
 
 * Submission Deadline: **June 13, 2021** (no separate abstract deadline)
 * Notification: **July 18, 2021**
