@@ -23,7 +23,7 @@ permalink: /info/committees/conference-committee
 |---
 | **Area 1 Paper Chairs &nbsp;&nbsp;&nbsp;—** | **Theoretical & Empirical** |
 | Jian Chen | *The Ohio State University* |
-| Christopher Collins | *Vialab* |
+| Christopher Collins | *Ontario Tech University* |
 |---
 | **Area 2 Paper Chairs &nbsp;&nbsp;&nbsp;—** | **Applications** | |
 | Wei Chen | *Zhejiang University* |
