@@ -13,5 +13,7 @@ contact: vec@ieeevis.org
 | Min Chen | *Oxford* |
 | Chris Collins | *Ontario Tech University* |
 | Jason Dykes | *City University London* |
+| Bongshin Lee | *Microsoft Research* |
 | Ross Maciejewski | *Arizona State University* |
+| Elisabeta Marai | *University of Illinois at Chicago* |
 | Klaus Mueller | *Stony Brook University* |
