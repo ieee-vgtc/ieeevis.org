@@ -88,13 +88,13 @@ menu:
     sections:
       - subsections:
           - heading: "Call for Participation"
-            # heading_url: "/year/2021/info/call-participation/call-for-participation"
+            heading_url: "/year/2021/info/call-participation/call-for-participation"
             description: "Submit your novel research contributions and innovative applications (CFPs under development!)"
             columns:
               - heading: "Submit Your Work"
                 links:
-                  - text: "Papers (coming soon)"
-                    # url: "/year/2021/info/call-participation/call-for-participation"
+                  - text: "Papers"
+                    url: "/year/2021/info/call-participation/call-for-participation"
                   - text: "Short Papers"
                     url: "/year/2021/info/call-participation/shortpapers"
                   # - text: "Posters"
@@ -109,10 +109,10 @@ menu:
                     # url: "/year/2021/info/call-participation/doctoral-colloquium"
                   - text: "Application Spotlights (coming soon)"
                     # url: "/year/2021/info/call-participation/spotlights"
-              # - heading: "Info for Contributors"
-              #   links:
-              #     - text: "Submission Information"
-              #       url: "/year/2021/info/call-participation/paper-submission-guidelines"
+              - heading: "Info for Contributors"
+                links:
+                   - text: "Submission Information"
+                     url: "/year/2021/info/call-participation/paper-submission-guidelines"
               #     - text: "Submission Keywords"
               #       url: "/year/2021/info/call-participation/paper-keywords"
               #     - text: "Open Practices"
