@@ -111,7 +111,7 @@ menu:
                     # url: "/year/2021/info/call-participation/spotlights"
               - heading: "Info for Contributors"
                 links:
-                   - text: "Submission Information"
+                   - text: "Paper Submission Guidelines"
                      url: "/year/2021/info/call-participation/paper-submission-guidelines"
               #     - text: "Submission Keywords"
               #       url: "/year/2021/info/call-participation/paper-keywords"
@@ -216,96 +216,95 @@ menu:
 
 
   - dropdown: "Events & Community"
-    display: false
+    display: true
     sections:
-      - subsections:
-          - heading: "Associated Events"
-            columns:
-              - links:
-                - text: "VIS Arts Program: Enchantment"
-                  description: "Where art, design, and research come together"
-                  url: "https://visap.net/"
-                  is_external: true
-                - text: "VisInPractice"
-                  description: "Invited talks by visualization practitioners"
-                  url: "https://visinpractice.github.io/"
-                  is_external: true
-                - text: "VizSec Symposium"
-                  description: "Visualization for Cyber Security"
-                  url: "https://vizsec.org/vizsec2020/"
-                  is_external: true
-#                - text: "VAHC Workshop (coming soon)"
-#                  description: "Visual Analytics for Healthcare"
-#                  url: "https://visualanalyticshealthcare.org/"
-#                  is_external: true
-                - text: "VDS Symposium"
-                  description: "Visualization in Data Science"
-                  url: "http://www.visualdatascience.org/2020/index.html"
-                  is_external: true
-                - text: "VIS4DH Workshop"
-                  description: "Visualization for the Digital Humanities"
-                  url: "http://www.vis4dh.org/"
-                  is_external: true
-                - text: "VISxAI Workshop"
-                  description: "3rd Workshop on Visualization for AI Explainability"
-                  url: "https://visxai.io/"
-                  is_external: true
-                - text: "LDAV Symposium"
-                  description: "Big Data Analysis and Visualization"
-                  url: "https://ldav.org/"
-                  is_external: true
-                - text: "BELIV Workshop"
-                  description: "From a Distance: Research practices during the COVID-19 pandemic and beyond."
-                  url: "https://beliv-workshop.github.io/"
-                  is_external: true
+#       - subsections:
+#           - heading: "Associated Events"
+#             columns:
+#               - links:
+#                 - text: "VIS Arts Program: Enchantment"
+#                   description: "Where art, design, and research come together"
+#                   url: "https://visap.net/"
+#                   is_external: true
+#                 - text: "VisInPractice"
+#                   description: "Invited talks by visualization practitioners"
+#                   url: "https://visinpractice.github.io/"
+#                   is_external: true
+#                 - text: "VizSec Symposium"
+#                   description: "Visualization for Cyber Security"
+#                   url: "https://vizsec.org/vizsec2020/"
+#                   is_external: true
+#                 - text: "VAHC Workshop (coming soon)"
+#                   description: "Visual Analytics for Healthcare"
+#                   url: "https://visualanalyticshealthcare.org/"
+#                   is_external: true
+#                 - text: "VDS Symposium"
+#                   description: "Visualization in Data Science"
+#                   url: "http://www.visualdatascience.org/2020/index.html"
+#                   is_external: true
+#                 - text: "VIS4DH Workshop"
+#                   description: "Visualization for the Digital Humanities"
+#                   url: "http://www.vis4dh.org/"
+#                   is_external: true
+#                 - text: "VISxAI Workshop"
+#                   description: "3rd Workshop on Visualization for AI Explainability"
+#                   url: "https://visxai.io/"
+#                   is_external: true
+#                 - text: "LDAV Symposium"
+#                   description: "Big Data Analysis and Visualization"
+#                   url: "https://ldav.org/"
+#                   is_external: true
+#                 - text: "BELIV Workshop"
+#                   description: "From a Distance: Research practices during the COVID-19 pandemic and beyond."
+#                   url: "https://beliv-workshop.github.io/"
+#                   is_external: true
 
       - subsections:
           - heading: "Competitions"
             description: "Advancing visualization through competition"
             columns:
               - links:
-                - text: "VAST Challenge"
-                  url: "https://vast-challenge.github.io/2020/"
-                  is_external: true
+                # - text: "VAST Challenge"
+                #   url: "https://vast-challenge.github.io/2020/"
+                #   is_external: true
                 - text: "SciVis Contest"
-                  url: "https://kaust-vislab.github.io/SciVis2020/"
+                  url: "https://scivis2021.netlify.app/"
                   is_external: true
+                # - text: "BioVis Challenges"
+                #   url: "http://biovis.net/2020/biovisChallenges_vis/"
+                #   is_external: true
 
-                - text: "BioVis Challenges"
-                  url: "http://biovis.net/2020/biovisChallenges_vis/"
-                  is_external: true
-
-          - heading: "Community"
-            # heading_url: "/year/2021/info/call-participation/community"
-            description: "Explore social and topic-based community groups"
-            columns:
-              - heading: "Connect"
-                links:
-                  - text: "Vis Buddies"
-                    url: "/year/2021/info/meetups#vis-newcomers"
-                  - text: "Job Fair"
-                    url: "/year/2021/info/meetups#vis-jobfair"
-                  - text: "Other Meetups"
-                    url: "/year/2021/info/meetups"
-              - heading: "Social Groups"
-                links:
-                  - text: "Velo Club de VIs"
-                    url: "https://www.gicentre.net/velo-club-de-vis/"
-                    is_external: true
-                  - text: "Vis Pioneers Group"
-                    url: "http://vacommunity.org/ieeevpg/"
-                    is_external: true
-              - heading: "Social Media"
-                links:
-                  - text: "Facebook"
-                    url: "https://www.facebook.com/ieeevis"
-                    is_external: true
-                  - text: "Twitter"
-                    url: "https://twitter.com/ieeevis"
-                    is_external: true
-          - heading: "Doctoral Colloquium"
-            #heading_url: "/year/2021/info/doctoral-colloquium"
-            description: "Discuss in-progress Ph.D work with leading senior researchers"
+          # - heading: "Community"
+          #   # heading_url: "/year/2021/info/call-participation/community"
+          #   description: "Explore social and topic-based community groups"
+          #   columns:
+          #     - heading: "Connect"
+          #       links:
+          #         - text: "Vis Buddies"
+          #           url: "/year/2021/info/meetups#vis-newcomers"
+          #         - text: "Job Fair"
+          #           url: "/year/2021/info/meetups#vis-jobfair"
+          #         - text: "Other Meetups"
+          #           url: "/year/2021/info/meetups"
+          #     - heading: "Social Groups"
+          #       links:
+          #         - text: "Velo Club de VIs"
+          #           url: "https://www.gicentre.net/velo-club-de-vis/"
+          #           is_external: true
+          #         - text: "Vis Pioneers Group"
+          #           url: "http://vacommunity.org/ieeevpg/"
+          #           is_external: true
+          #     - heading: "Social Media"
+          #       links:
+          #         - text: "Facebook"
+          #           url: "https://www.facebook.com/ieeevis"
+          #           is_external: true
+          #         - text: "Twitter"
+          #           url: "https://twitter.com/ieeevis"
+          #           is_external: true
+          # - heading: "Doctoral Colloquium"
+          #   #heading_url: "/year/2021/info/doctoral-colloquium"
+          #   description: "Discuss in-progress Ph.D work with leading senior researchers"
 
   - dropdown: "Organization & History"
     display: true
