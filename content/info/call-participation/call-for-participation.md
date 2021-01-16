@@ -56,7 +56,7 @@ All deadlines are at **5:00pm Pacific Time (PDT).**
 
 As the leading academic event on visualization research, IEEE VIS expects important, impactful, and potentially transformative contributions. Submissions will be judged on their importance, potential impact, degree to which the evidence supports the findings, appropriateness of methodology, and the research process followed. After initial notification of review results, papers and any supplemental material are only conditionally accepted and will undergo a full revision and review cycle. During this revision cycle, reviewers will ensure that necessary conditions for acceptance have been met.
 
-IEEE VIS 2021also features a separate, short papers track with a submission deadline after notifications for full papers have been sent out. You can find out more in the [call for participation for short papers](shortpapers). 
+IEEE VIS 2021 also features a separate, short papers track with a submission deadline after notifications for full papers have been sent out. You can find out more in the [call for participation for short papers](shortpapers). 
 
 When preparing your submission, please make sure that you carefully read and adhere to the [paper submission guidelines](paper-submission-guidelines).
 
