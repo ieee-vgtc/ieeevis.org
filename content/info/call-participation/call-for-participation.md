@@ -7,6 +7,7 @@ layout: landing
 sidebar: call-for-participation
 intro_section:
   callout: "In 2021, IEEE VIS transitions from the three sub-conferences (VAST, InfoVis, and SciVis) to one unified conference. IEEE VIS 2021 is now soliciting novel research contributions and innovative applications in all areas of visualization."
+  global_url: true
   cards:
     - title: "Area 1: Theoretical & Empirical"
       description: "This area focuses on theoretical and empirical research topics that aim to establish the foundation of VIS as a scientific subject."
