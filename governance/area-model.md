@@ -2,23 +2,21 @@
 title: The VIS Area Model for 2021+
 layout: page
 permalink: /governance/area-model
+sidetoc: true
 ---
 
-* TOC
-{:toc}
+## Introduction
 
-## Introduction 
- 
-For IEEE VIS 2021 and beyond, the conference changes how it groups shared research interests as part of the reviewing process. Previously, the conference consisted of three sub-conferences, each with similar but separate reviewing processes. Instead, the new area model groups different research topics in Visualization and Visual Analytics into six areas. This allows research papers on closely-related topics to be reviewed in a coherent manner. To ensure a high quality review process, two area paper chairs oversee the reviewing process for each area and draw program committee members from a large joint program committee (PC). The mechanism of a unified PC across all areas allows area co-chairs to have access to wider expertise than was previously the case. 
+For IEEE VIS 2021 and beyond, the conference changes how it groups shared research interests as part of the reviewing process. Previously, the conference consisted of three sub-conferences, each with similar but separate reviewing processes. Instead, the new area model groups different research topics in Visualization and Visual Analytics into six areas. This allows research papers on closely-related topics to be reviewed in a coherent manner. To ensure a high quality review process, two area paper chairs oversee the reviewing process for each area and draw program committee members from a large joint program committee (PC). The mechanism of a unified PC across all areas allows area co-chairs to have access to wider expertise than was previously the case.
 
-This page provides guidance on how the area model affects authors, reviewers, paper chairs, and the reviewing process more generally. It also gives guidance on how to make an appropriate choice during paper submission. 
+This page provides guidance on how the area model affects authors, reviewers, paper chairs, and the reviewing process more generally. It also gives guidance on how to make an appropriate choice during paper submission.
 
 ## How Will the Area Model Affect Me?
 
 ### VIS Areas and Paper Authors
-As an author, your main task is to choose an area for your submission. You should think of areas mostly as logistical divisions that ensure a high-quality reviewing process. First, try to find an area for your paper based on the topics grouped in the area. Secondly, if your paper could go into multiple areas, look at the area paper chairs and their expertise. Which area has the area paper chairs with expertise related to your paper? Note that program committee members are not exclusive to an area, so you do not have to worry about identifying which PC members would be suitable to review your manuscript. 
+As an author, your main task is to choose an area for your submission. You should think of areas mostly as logistical divisions that ensure a high-quality reviewing process. First, try to find an area for your paper based on the topics grouped in the area. Secondly, if your paper could go into multiple areas, look at the area paper chairs and their expertise. Which area has the area paper chairs with expertise related to your paper? Note that program committee members are not exclusive to an area, so you do not have to worry about identifying which PC members would be suitable to review your manuscript.
 There are two exceptions to the general recommendations above:
-* Do not submit to an area if you or any of your co-authors are in conflict with both area paper chairs. 
+* Do not submit to an area if you or any of your co-authors are in conflict with both area paper chairs.
 * If you or one of your co-authors is an area paper chair, you cannot submit to your own area.
 
 The FAQ below answers further specific questions about choosing areas.
@@ -28,7 +26,7 @@ The area model has two types of paper chairs: Overall paper chairs (OPCs) and ar
 
 ### VIS Areas and Reviewers
 
-Each IEEE VIS paper will be assigned two members from the program committee as well as two external reviewers. For external reviewers the reviewing process remains unchanged. Program committee members will see one change: paper bidding will now happen across all papers submitted to IEEE VIS. To ease bidding, several mechanisms (for example, improved keywords) will be put in place in the conference submission system (PCS) to ensure that it remains manageable. 
+Each IEEE VIS paper will be assigned two members from the program committee as well as two external reviewers. For external reviewers the reviewing process remains unchanged. Program committee members will see one change: paper bidding will now happen across all papers submitted to IEEE VIS. To ease bidding, several mechanisms (for example, improved keywords) will be put in place in the conference submission system (PCS) to ensure that it remains manageable.
 
 
 ## The VIS Area Model
@@ -40,23 +38,23 @@ Visualization (or VIS) is the study of the transformation of data to visual repr
 ## Description of VIS Areas
 
 ### Area 1: Theoretical & Empirical
-This area focuses on theoretical and empirical research topics that aim to establish the foundation of VIS as a scientific subject. As such, work submitted to this area may also relate closely to the topics covered in other areas. Work submitted to this area should contribute either theoretical or empirical research. 
+This area focuses on theoretical and empirical research topics that aim to establish the foundation of VIS as a scientific subject. As such, work submitted to this area may also relate closely to the topics covered in other areas. Work submitted to this area should contribute either theoretical or empirical research.
 
 **Theoretical Work**
 
 Theoretical work which aims to contribute to fundamental questions that relate to how we understand, assess, categorize, or formalize visualizations and/or visual analytics work. Topics of interest include:
    * Concept Formulation: surveys with organization, synthesis, and reflection; taxonomies and ontologies; guidelines and principles; lexica, syntaxes (grammars), semantics, pragmatics of visualization; and information security, privacy, ethics and professionalism in visualization.
    * Model Development: conceptual models and simulation models for describing aspects of visualization processes (e.g., color perception, knowledge acquisition, collaborative decision making, etc.).
-   * Mathematical Formalization: mathematical frameworks, quality metrics, theorems (i.e., mathematically-defined causal relations in VIS).   
+   * Mathematical Formalization: mathematical frameworks, quality metrics, theorems (i.e., mathematically-defined causal relations in VIS).
 
 **Empirical Research**
 
-Empirical research aims to contribute research methodologies or concrete results of assessments of a visualization / visual analytics contribution or its context of use. 
+Empirical research aims to contribute research methodologies or concrete results of assessments of a visualization / visual analytics contribution or its context of use.
 Topic of interest include:
-   * Research Methodology: general methodologies for conducting VIS research, e.g., typology, grounded theory, empirical studies, design studies, task analysis, user engagement, qualitative and quantitative research, etc. 
-   * Empirical Studies: controlled (e.g., typical laboratory experiments), semi-controlled (e.g., typical crowdsourcing studies), and uncontrolled studies (e.g., small group discussions, think aloud exercises, field observation, ethnographic studies, etc.), which may be in the forms of qualitative or quantitative research and which may be further categorized according to their objectives as follows: 
+   * Research Methodology: general methodologies for conducting VIS research, e.g., typology, grounded theory, empirical studies, design studies, task analysis, user engagement, qualitative and quantitative research, etc.
+   * Empirical Studies: controlled (e.g., typical laboratory experiments), semi-controlled (e.g., typical crowdsourcing studies), and uncontrolled studies (e.g., small group discussions, think aloud exercises, field observation, ethnographic studies, etc.), which may be in the forms of qualitative or quantitative research and which may be further categorized according to their objectives as follows:
    * Empirical Studies for Evaluation: studies for assessing the effectiveness and usability of specific VIS techniques, tools, systems, and workflows, for collecting lessons learned from failures, and for establishing the best practice.
-   * Empirical Studies for Observation, Data Acquisition, and Hypothesis Formulation: studies for observing phenomena in visualization processes, stimulating hypothesis formulation, and collecting data to inform computational models and quality metrics. 
+   * Empirical Studies for Observation, Data Acquisition, and Hypothesis Formulation: studies for observing phenomena in visualization processes, stimulating hypothesis formulation, and collecting data to inform computational models and quality metrics.
    * Empirical Studies for Understanding and Theory Validation: studies for understanding the human factors in visualization processes, including perceptual factors (e.g., visual and nonvisual sensory processes, perception, attention, etc.) and cognitive factors (e.g., memory, learning, reasoning, decision-making, problem-solving, knowledge, emotion, etc.)
 
 **Example Papers:**
@@ -91,7 +89,7 @@ Topics of interest include:
 ________________
 
 ### Area 3: Systems & Rendering
-This area focuses on the themes of building systems, algorithms for rendering, and alternate input and output modalities. Papers submitted to this area may present new visualization system architectures, support different computing platforms and development environments, or exploit commodity and specialized hardware devices for either rendering or interaction modalities beyond the desktop. The rendering theme includes algorithms and techniques both in software and through hardware acceleration, and also algorithms for graph layout and label placement. 
+This area focuses on the themes of building systems, algorithms for rendering, and alternate input and output modalities. Papers submitted to this area may present new visualization system architectures, support different computing platforms and development environments, or exploit commodity and specialized hardware devices for either rendering or interaction modalities beyond the desktop. The rendering theme includes algorithms and techniques both in software and through hardware acceleration, and also algorithms for graph layout and label placement.
 
 Topics of interest include:
 
@@ -133,15 +131,15 @@ ________________
 
 ### Area 4: Representations & Interaction
 
-This area focuses on the design of visual representations and interaction techniques for different types of data, users, and visualization tasks. In principle, the data concerned can be of any data types, such as spatial or non-spatial; continuous or discrete; statistic, temporal or streaming; numerical, textual or imagery, etc. The user concerned can be from any user groups (e.g., scientists, scholars, students, analysts, administrators, or the general public) and of any level of visualization literacy and skills. The tasks concerned can be of any operational needs, such as effective information dissemination, rapid data observation, and explorative information seeking. The visual representations concerned can be of elementary encoding (e.g., visual channels, statistical graphics) as well as complex visual mapping (e.g., spatiotemporal data visualization and coordinated multiple views), and can be in visual as well as non-visual forms for enabling visualization via different human sensory devices. The interaction techniques can be based on traditional WIMP (windows, icons, menus, and pointers) and direct manipulation. Papers submitted to this area are normally expected to emphasize their novel contributions in terms of the design of visual representations and interaction techniques, while the work may also discuss the related hardware and software components for data transformation, image synthesis and displays, interaction, and immersion (see also Areas 3 and 5). 
+This area focuses on the design of visual representations and interaction techniques for different types of data, users, and visualization tasks. In principle, the data concerned can be of any data types, such as spatial or non-spatial; continuous or discrete; statistic, temporal or streaming; numerical, textual or imagery, etc. The user concerned can be from any user groups (e.g., scientists, scholars, students, analysts, administrators, or the general public) and of any level of visualization literacy and skills. The tasks concerned can be of any operational needs, such as effective information dissemination, rapid data observation, and explorative information seeking. The visual representations concerned can be of elementary encoding (e.g., visual channels, statistical graphics) as well as complex visual mapping (e.g., spatiotemporal data visualization and coordinated multiple views), and can be in visual as well as non-visual forms for enabling visualization via different human sensory devices. The interaction techniques can be based on traditional WIMP (windows, icons, menus, and pointers) and direct manipulation. Papers submitted to this area are normally expected to emphasize their novel contributions in terms of the design of visual representations and interaction techniques, while the work may also discuss the related hardware and software components for data transformation, image synthesis and displays, interaction, and immersion (see also Areas 3 and 5).
 
 Topics of interests include:
 
 * Visual Channels: geometric channels (e.g., location, size, orientation, shape, etc.), optical channels (e.g., color, opacity, shading, motion, etc.), topological and relational channels (e.g., connection, overlapping, etc.), and semantic channels (e.g., number, text, glyph, etc.).
-* Visual Representations: for textual data, tabular data, relational data (e.g., hierarchy, tree, set, graph/network), geospatial data, temporal data, imagery data, geometric data (mesh-, point-, line-, curve-based data), field-based data (e.g., volumetric, vector, and tensor field), corpus data, multi-type data, uncertain and missing data, models, functions, and procedures (e.g., algorithms and software), etc. in raw, filtered, or transformed (e.g., aggregated) form. 
+* Visual Representations: for textual data, tabular data, relational data (e.g., hierarchy, tree, set, graph/network), geospatial data, temporal data, imagery data, geometric data (mesh-, point-, line-, curve-based data), field-based data (e.g., volumetric, vector, and tensor field), corpus data, multi-type data, uncertain and missing data, models, functions, and procedures (e.g., algorithms and software), etc. in raw, filtered, or transformed (e.g., aggregated) form.
 * Interaction Techniques: UI design for visualization, zoom and navigation, magic lens, query-based exploration, direct manipulation, interactive deformation,natural interaction, user-adaptive interaction,  interoperation between interaction and visualization tasks, editing tools, collaborative visualization, etc.
 * Visual Communication Techniques: focus+context design, illustrative and explanatory visualization, stylized visual representations, storytelling and narrative visualization, textual annotation for visualization, etc.
-* Intelligent Visualization and Interaction: Automated visualization generation, mixed-initiative visual interaction, learning UI models for automated capabilities in visualization systems.  
+* Intelligent Visualization and Interaction: Automated visualization generation, mixed-initiative visual interaction, learning UI models for automated capabilities in visualization systems.
 * Technical Discourses on Visual Representations and Interaction Techniques: visual and interactional metaphors, scalability of visual mapping, and interaction costs, 2D vs. 3D representations, static vs. animated representations, visualization literacy, etc.
 
 **Example Papers:**
@@ -159,13 +157,13 @@ ________________
 
 ### Area 5: Data Transformations
 
-This area focuses on the algorithms and techniques that transform data from one form to another to enable effective and efficient visual mapping as required by the intended visual representations. In principle, the source and destination data can be of any data types, such as spatial or non-spatial; continue or discrete; statistical, temporal or streaming; numerical, textual or imagery, etc. Such data transformation, which may sometimes be referred to as wrangling or munging in some other fields, may include extracting information from the source data (e.g., surface extraction from volume data, and network construction from textual data), integrating data from different sources (e.g., multi-modality registration), reorganizing data for efficient processing (e.g., hierarchical data representations), enriching data with additional information and functions (e.g., uncertainty analysis and label generation), and improving data quality and usability (e.g., data cleansing). Papers submitted to this area are normally expected to emphasize their novel contributions in terms of the algorithms and techniques for data transformation, while the work may also discuss the intended visual representations and their generation (see also Areas 3 and 4). 
+This area focuses on the algorithms and techniques that transform data from one form to another to enable effective and efficient visual mapping as required by the intended visual representations. In principle, the source and destination data can be of any data types, such as spatial or non-spatial; continue or discrete; statistical, temporal or streaming; numerical, textual or imagery, etc. Such data transformation, which may sometimes be referred to as wrangling or munging in some other fields, may include extracting information from the source data (e.g., surface extraction from volume data, and network construction from textual data), integrating data from different sources (e.g., multi-modality registration), reorganizing data for efficient processing (e.g., hierarchical data representations), enriching data with additional information and functions (e.g., uncertainty analysis and label generation), and improving data quality and usability (e.g., data cleansing). Papers submitted to this area are normally expected to emphasize their novel contributions in terms of the algorithms and techniques for data transformation, while the work may also discuss the intended visual representations and their generation (see also Areas 3 and 4).
 
 Topics of of interests include:
 
 * Information Extraction and Data Abstraction: keyword extraction, metadata extraction, surface extraction, feature extraction, pattern recognition, structural and semantic analysis, skeletonization, spatial abstraction, topological abstraction, temporal feature tracking, multi-material interfaces, etc.
 * Data Integration: multi-modality, multi-stage, and multi-level data registration, spatial and non-spatial data integration, multi-field representations, etc.
-* Data Reorganization: voxelization, triangularization, multi-resolution sampling and representations (e.g., discrete sampling, volumetric lattices, wavelet representations), spatial partitioning (e.g., octree, k-d tree, bounding volume), data segmentation, compressed data representations, frequency-domain representations, databases for query-based visualization, etc. 
+* Data Reorganization: voxelization, triangularization, multi-resolution sampling and representations (e.g., discrete sampling, volumetric lattices, wavelet representations), spatial partitioning (e.g., octree, k-d tree, bounding volume), data segmentation, compressed data representations, frequency-domain representations, databases for query-based visualization, etc.
 * Data Enrichment: uncertainty analysis, deformable models, label generation, spatialization, etc.
 * Data Wrangling and Improvement: data wrangling, data re-shaping, data cleaning, data editing, data smoothing, and data modelling.
 * Mathematical Frameworks for Data Transformation: numerical analysis, computational geometry, topological analysis, graph theory, statistical analysis, probability theory, information theory, dimensionality reduction, etc.
@@ -210,35 +208,35 @@ Topics of interest include:
 ## Frequently Asked Questions
 
 1. **My paper fits equally well into two areas – which one should I pick?** <br>
-Pick the area where the area paper chairs are likely the most knowledgeable about your paper. Note that program committee members are not specific to the area and can be chosen by any area paper chair. 
+Pick the area where the area paper chairs are likely the most knowledgeable about your paper. Note that program committee members are not specific to the area and can be chosen by any area paper chair.
 1. **What happens if I pick the “wrong” area?** <br>
-Due to the unified program committee, it is unlikely that your choice would have a strong negative effect on the choice of reviewers and the quality of reviews for your paper. If the area paper chairs feel strongly that your paper is in the wrong area (or both are conflicted with your paper), they can, in exceptional cases, liaise with the chairs of other areas to propose a move to the authors. 
+Due to the unified program committee, it is unlikely that your choice would have a strong negative effect on the choice of reviewers and the quality of reviews for your paper. If the area paper chairs feel strongly that your paper is in the wrong area (or both are conflicted with your paper), they can, in exceptional cases, liaise with the chairs of other areas to propose a move to the authors.
 1. **Can I tell who reviews in which area?**<br>
-No, the program committee is unified, and PC members are likely to review papers from multiple areas. 
+No, the program committee is unified, and PC members are likely to review papers from multiple areas.
 1. **My submission does not fit into any area – what should I do?** <br>
-Closely review the descriptions of the areas below. We expect that all papers within the scope of VIS will be able to find one or multiple areas that are suitable to handle a submission. If you believe that your manuscript is in scope of VIS, but does not fit into any area, please contact the overall paper chairs.  
+Closely review the descriptions of the areas below. We expect that all papers within the scope of VIS will be able to find one or multiple areas that are suitable to handle a submission. If you believe that your manuscript is in scope of VIS, but does not fit into any area, please contact the overall paper chairs.
 1. **How do areas and keywords relate?** <br>
-Keywords are an important instrument to match your submitted manuscript to qualified program committee members, who will indicate interest in papers through a bidding process, be assigned by the area paper chairs to papers that are a good match, then invite competent external reviewers, and who will also write a review themselves. Areas are administrative divisions, what matters most is that you will have area paper chairs that can correctly identify the qualified program committee members and make informed decisions about your manuscript. 
+Keywords are an important instrument to match your submitted manuscript to qualified program committee members, who will indicate interest in papers through a bidding process, be assigned by the area paper chairs to papers that are a good match, then invite competent external reviewers, and who will also write a review themselves. Areas are administrative divisions, what matters most is that you will have area paper chairs that can correctly identify the qualified program committee members and make informed decisions about your manuscript.
 1. **How do paper awards work in the new area model?** <br>
 Best paper awards and honorable mentions are given out for a certain percentage of all papers. Area paper chairs will nominate papers from their area for these awards. Final decisions on awards will be made independent of areas by a separate committee.
 1. **What happens if my co-authors or I are in conflict with both area paper chairs?** <br>
-In case of a conflict of interest with both area paper chairs, you need to send your paper to another area. This needs to be done because the area paper chairs are the final instance to make an accept or reject decision. To judge whether you are in a conflict of interest refer to the  VGTC ethics guidelines for reviewers - which equally apply here. You may also check with the area paper chairs to verify your conflict of interest in case of doubt.   
+In case of a conflict of interest with both area paper chairs, you need to send your paper to another area. This needs to be done because the area paper chairs are the final instance to make an accept or reject decision. To judge whether you are in a conflict of interest refer to the  VGTC ethics guidelines for reviewers - which equally apply here. You may also check with the area paper chairs to verify your conflict of interest in case of doubt.
 1. **How will areas be reflected in the IEEE VIS program?** <br>
-Areas are only an administrative division in the reviewing process. Areas will not be reflected anywhere in the conference program. For example, sessions will be curated independent of the areas papers were submitted to. 
+Areas are only an administrative division in the reviewing process. Areas will not be reflected anywhere in the conference program. For example, sessions will be curated independent of the areas papers were submitted to.
 1. **How do VIS areas differ from areas/subcommittees in other conferences?** <br>
-Compared to ACM CHI’s subcommittees, IEEE VIS has no area-specific program committee. Also, at VIS acceptance is recommended by the area paper chairs and confirmed by the overall paper chairs. At CHI, the area-specific program committee makes a joint decision in the program committee meeting. 
+Compared to ACM CHI’s subcommittees, IEEE VIS has no area-specific program committee. Also, at VIS acceptance is recommended by the area paper chairs and confirmed by the overall paper chairs. At CHI, the area-specific program committee makes a joint decision in the program committee meeting.
 1. **Some areas don’t seem as coherent as others. Is that true?** <br>
-For some areas, the main subject has enjoyed more structured development over the years and has established a set of relatively well-defined topics. In other cases, an area encompasses a few topics that could potentially become separate areas in the future when the research activities on these topics have reached a certain scale. The area model is expected to evolve in response to the emergence of new topics and the rapid development of some existing topics. This change will be managed by a dedicated area curation committe (review the restructuring proposal and future governance documentation for details). 
+For some areas, the main subject has enjoyed more structured development over the years and has established a set of relatively well-defined topics. In other cases, an area encompasses a few topics that could potentially become separate areas in the future when the research activities on these topics have reached a certain scale. The area model is expected to evolve in response to the emergence of new topics and the rapid development of some existing topics. This change will be managed by a dedicated area curation committe (review the restructuring proposal and future governance documentation for details).
 1. **Which areas will have the best acceptance rates?** <br>
 All areas have the same target acceptance rates, but slight variations in individual years may occur, as the final decision on acceptance is made by the overall program chairs, who ensure consistent quality and a balanced program.
 1. **Whom should I contact if I have a question on a specific area?** <br>
-Please contact the area chairs of that specific area. 
+Please contact the area chairs of that specific area.
 1. **Why are APCs banned from submitting to their own area?** <br>
 It may appear unusual that APCs cannot submit to their own area (“self-submission”), given that strong expertise in exactly their area is one of the reasons they are appointed. reVISe considered many alternatives, but ultimately proposed this model for the following reasons:
     * Without self-submissions, avoiding conflicts of interest and leaks of information about the review process at the chair level becomes a realistic goal. As APCs do not have access to information about other areas’ papers, they cannot inadvertently learn about the reviews and reviewers of their own papers, and are completely removed from the decision process happening in other areas that involve their own papers. Avoiding conflicts of interest and potential sources for deanonymization increase the trust that authors have in the review process overall.
-    * The unified program committee allows the selection of expert reviewers, supported by the new keyword mechanisms, independently of the area a paper is submitted in. Furthermore, in the analysis of the area model during its development, it became apparent that many papers fit well in several areas. Hence, for the vast majority of cases, not allowing self-submission will not compromise the quality of reviewing, and avoids more drastic restrictions, such as disallowing APC submissions completely. 
+    * The unified program committee allows the selection of expert reviewers, supported by the new keyword mechanisms, independently of the area a paper is submitted in. Furthermore, in the analysis of the area model during its development, it became apparent that many papers fit well in several areas. Hence, for the vast majority of cases, not allowing self-submission will not compromise the quality of reviewing, and avoids more drastic restrictions, such as disallowing APC submissions completely.
     * In some cases, an APC paper will not fit well into another area. However, experience with journal editors shows that a managing editor does not have to be an expert in an area, as long as they can rely on a pool of a qualified reviewers, which is ensured by the unified PC. The choice to block APCs from submitting was balanced against other considered solutions such as involving additional shadow paper chairs or chairs from other areas to help out in cases of conflict. The current solution is the one that involves the least chances to reveal anonymous information and the one that is administratively the most simple solution. Hence, the approach taken balances potential unpleasantness with process simplicity and transparency.
    * Finally, the choice to block APCs from submitting to their own area is consistent with practices in other conferences.  Paper chair positions are considered an honor taken on by senior community members.  Many who fill these roles are in a position in their scientific careers at which they can give priority to service to the community, yet they still are actively involved in scientific research and publication. It is not unusual in other communities to entirely disallow submissions of chairs overseeing a papers process (for example, all SIGPLAN conferences, including POPL, and PLDI; theory conferences such as STOC, FOCS, SODA, SOCG, ICALP, ESA). The model at VIS offers a compromise between striving for reviewing quality and integrity and  allowing APCs to still contribute to the scientific content of the conference.
-   
+
 
 As all other aspects of the area model, this will be closely watched by ACC, and alternatives will be considered if the need arises.

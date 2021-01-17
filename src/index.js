@@ -107,4 +107,34 @@ document.addEventListener('DOMContentLoaded', () => {
           }
         }
     });
+
+    // automatically highlight TOC sidebar entries
+    const navItems = Array.from(document.querySelectorAll('.sidebar-toc li a'));
+    if (navItems.length !== 0) {
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const id = "#" + entry.target.getAttribute('id');
+            const navItemIndex = navItems.findIndex(nav_item => nav_item.getAttribute('href') === id);
+            if (navItemIndex !== -1) {
+              for (let i in navItems) {
+                if (i == navItemIndex)
+                  navItems[i].classList.add('sidebar__link--active');
+                else
+                  navItems[i].classList.remove('sidebar__link--active');
+              }
+            }
+          }
+          // OR, can use the following code to show all active, but it's annoying if no header is currently in scroll-view
+          // const id = entry.target.getAttribute('id');
+          // const selector = ".sidebar-toc li a[href='#" + id + "']";
+          // if (entry.intersectionRatio > 0)
+          //   document.querySelector(selector).classList.add('sidebar__link--active');
+          // else
+          //   document.querySelector(selector).classList.remove('sidebar__link--active');
+        });
+      });
+
+      document.querySelectorAll('article h2, article h3').forEach(section => observer.observe(section));
+    }
 });

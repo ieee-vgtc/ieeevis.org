@@ -1,3 +1,9 @@
+/* Body */
+
+html {
+    scroll-behavior: smooth;
+}
+
 /* Containers */
 
 .container {
@@ -38,6 +44,10 @@
 
 main {
     margin-top: 70px; /* Push down to compensate for fixed nav*/
+}
+
+article, aside {
+    scroll-margin-top: 30px;
 }
 
 @screen md {

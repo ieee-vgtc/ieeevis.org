@@ -1,18 +1,20 @@
 /* Sidebar */
 
 .sidebar {
-    @apply flex flex-col self-start;
-    @apply relative;
+    @apply flex flex-col self-start sticky;
+    /* @apply relative; */
     @apply order-1;
     @apply w-full;
     @apply pl-0 pb-8;
     @apply border-l-0 border-b border-dashed border-primary;
+
+    top: 2rem;
 }
 
     @screen md {
         .sidebar {
             @apply order-none;
-            @apply w-1/5;
+            @apply w-1/4;
             @apply pl-8 pb-0;
             @apply border-l border-b-0;
         }
@@ -73,3 +75,9 @@
     .sidebar__link--disabled {
         @apply text-gray-400;
     }
+
+/* Sidebar TOC styling */
+
+.sidebar-toc ul ul {
+    padding-left: 2rem;
+}
