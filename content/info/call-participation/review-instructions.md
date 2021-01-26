@@ -13,18 +13,18 @@ This page provides detailed instructions for both PC reviewers and external revi
 # Contents
 
 - [PC Reviewing Instructions](#pc-reviewing-instructions)
-  - [Keywords Update](#keywords-update)
-  - [Bidding](#bidding)
-  - [Assigning External Reviewers](#assigning-external-reviewers)
-  - [First Round Reviewing](#first-round-reviewing)
-  - [Discussion](#discussion)
-  - [First Round Decisions](#first-round-decisions)
-  - [Shepherding](#shepherding)
-  - [Second Round Reviewing](#second-round-reviewing)
+  - [Keywords Update, by March 20](#keywords-update)
+  - [Bidding, March 22 thru March 31](#bidding)
+  - [Assigning External Reviewers, April 14 thru April 21](#assigning-external-reviewers)
+  - [First Round Reviewing, April 14 thru May 7](#first-round-reviewing)
+  - [Discussion, May 8 thru May 14](#discussion)
+  - [First Round Decisions, May 15 thru June 6](#first-round-decisions)
+  - [Shepherding, June 7 thru June 24](#shepherding)
+  - [Second Round Reviewing, June 25 thru July 7](#second-round-reviewing)
 - [External Reviewing Instructions](#external-reviewing-instructions)
-  - [Keywords Update](#keywords-update-1)
-  - [Reviewing](#reviewing)
-  - [Discussion](#discussion-1)
+  - [Keywords Update, by March 20](#keywords-update-1)
+  - [Reviewing, April 14 thru May 7](#reviewing)
+  - [Discussion, May 8 thru May 14](#discussion-1)
 - [Additional Reviewing Guidance](#additional-reviewing-guidance)
   - [Paper Quality](#paper-quality)
   - [Reviewing Ethics](#reviewing-ethics)
@@ -55,7 +55,7 @@ Please note that the Area Curation Committee (ACC) also continuously collects in
 
 
 ## Bidding
-**March 21 thru March 31**
+**March 22 thru March 31**
 
 If you have not yet updated your keywords then see the [Keywords Update](#keywords-update) phase above.
 
@@ -125,12 +125,12 @@ Secondaries:
 Please keep the discussion anonymous by referring to other reviewers as R1, R2, etc., and remember to not sign your name in the discussions.
 
 ## First Round Decisions
-**May 14 thru June 7**
+**May 15 thru June 6**
 
 Please be available electronically for discussion with the paper chairs about the papers, your recommendation, and the review process. This is particularly important if any of your review processes are contentious or controversial. If you will not be available to field our questions, please let the paper chairs know in advance.
 
 ## Shepherding	
-**June 7 thru June 28**
+**June 7 thru June 24**
 
 At the beginning of June, the paper chairs will send out conditional acceptance and rejection notifications. For some conditionally accepted papers the summary review indicates that there is either a longer set of things to change or a few that will require more careful work. For these papers the paper chairs will encourage authors to engage with the primary and secondary reviewers early in the revision period to clarify that their proposed edits/changes will be sufficient.
 
@@ -144,7 +144,7 @@ All shepherded papers must meet the same review expectations as other conditiona
 In communicating with authors, be careful not to send email with your signature attached in order to maintain your anonymity, and only correspond through the PCS system.
 
 ## Second Round Reviewing
-**July 1 thru August 8**
+**June 25 thru July 7**
 
 Primaries:
 For each of the papers for which you are the primary reviewer and that has received a conditional accept decision, please:
