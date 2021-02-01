@@ -17,3 +17,4 @@ contact: vec@ieeevis.org
 | Ross Maciejewski | *Arizona State University* |
 | Elisabeta Marai | *University of Illinois at Chicago* |
 | Klaus Mueller | *Stony Brook University* |
+| Holger Theisel | *University of Magdeburg* |
