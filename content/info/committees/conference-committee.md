@@ -63,8 +63,8 @@ permalink: /info/committees/conference-committee
 | Michael Correll | *Tableau Software* |
 |---
 | **Tutorial Chairs** | |
-| Jessica Hulmann | *Northwestern University* |
 | Stefan Bruckner | *University of Bergen* |
+| Jessica Hulmann | *Northwestern University* |
 | Christophe Hurter | *French Civil Aviation University* |
 |---
 | **Application Spotlights** | |
@@ -73,9 +73,9 @@ permalink: /info/committees/conference-committee
 | Noeska Smit | *University of Bergen* |
 |---
 | **Open Practices** | |
+| Lonni Besançon | *Monash University* |
 | Carlos Scheidegger | *University of Arizona* |
 | Cagatay Turkay | *University of Warwick* |
-| Lonni Besançon | *Monash University* |
 |---
 | **Workshop Chairs** | |
 | Johanna Beyer | *Harvard University* |
@@ -94,7 +94,7 @@ permalink: /info/committees/conference-committee
 | Thomas Theußl | *KAUST* |
 | Alex Razoumov | *WestGrid* |
 |---
-| **VDS Workshop Liaison**| |
+| **VDS Symposium Liaison**| |
 | Liang Gou | *Bosch Research* |
 |---
 | **LDAV Symposium Liaisons**| |
@@ -105,15 +105,18 @@ permalink: /info/committees/conference-committee
 | **Vis4DH Workshop Liaison** | |
 | Mennatallah El-Assady | *University of Konstanz* |
 |---
-| **Vis4AI Workshop Liaisons** | |
+| **VISxAI Workshop Liaisons** | |
 | Mennatallah El-Assady | *University of Konstanz* |
-| Hendrik Strobelt | *IBM* |
 | Adam Perer | *Carnegie Mellon University* |
+| Hendrik Strobelt | *IBM* |
 |---
 | **VIZSec Symposium Liaison** | |
 | Marco Angelini | *University of Rome “La Sapienza”* |
 |---
 | **Vis in Practice Chair** | |
+| Matthew Brehmer | *Tableau Research* |
+| Matt Larsen | *Lawrence Livermore National Laboratory* |
+| Zhicheng (Leo) Liu | *Adobe* | 
 | Sean McKenna | *Lucid Software* |
 |---
 | **Doctoral Colloquium Chairs**| |
@@ -162,6 +165,7 @@ permalink: /info/committees/conference-committee
 | Lace Padilla | *University of California Merced* |
 |---
 | **Supporters Chairs** | |
+| Eli T. Brown | *DePaul University* |
 | R. Jordan Crouser | *Smith College* |
 | Valerio Pascucci | *University of Utah* |
 |---
@@ -182,6 +186,7 @@ permalink: /info/committees/conference-committee
 |---
 | **Web Chairs** | |
 | Dylan Cashman | *Novartis* |
+| Andrew Cunningham | *University of South Australia* |
 | Noura Faraj | *Université de Montpellier - LIRMM* |
 | Steve Petruzza | *Utah State University* |
 | Alper Sarikaya | *Microsoft* |
