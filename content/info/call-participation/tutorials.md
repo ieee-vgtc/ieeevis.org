@@ -7,13 +7,9 @@ active_nav: "Contribute"
 sidebar: call-for-participation
 ---
 
-Tutorials are intended to cover a wide selection of topics related to IEEE VIS 2020 and provide background on new tools, methods, systems, and application domains necessary for research in scientific visualization, information visualization, visual analytics, and topics that span multiple of these areas. Tutorial attendees come from diverse backgrounds, including, among others: volume and flow visualization, information visualization, geographic visualization, visual analytics, high performance computing, visual data science, and scientific application communities.
+Tutorials are intended to cover a wide selection of topics related to IEEE VIS 2021 and provide background on new tools, methods, systems, and application domains necessary for research in scientific visualization, information visualization, visual analytics, and topics that span multiple of these areas. Tutorial attendees come from diverse backgrounds, including, among others: volume and flow visualization, information visualization, geographic visualization, visual analytics, high performance computing, visual data science, visualization in artificial intelligence, extended reality technologies and scientific application communities.
 
-We are soliciting half-day tutorial proposals in the areas of visualization systems, mathematical foundations, research methods, design and development methodology, and application areas. Topics can include–but are not limited to–any of those listed in the calls for papers for
-[VAST](/year/2020/info/call-participation/vast-paper-types), 
-[InfoVis](/year/2020/info/call-participation/infovis-paper-types), and 
-[SciVis](/year/2020/info/call-participation/scivis-paper-types).
-Tutorials with an application focus and including hands-on demos are also encouraged. Successful proposals will receive up to 2 complimentary full week conference registrations for tutorial presenters.
+We are soliciting half-day tutorial proposals in the areas of visualization systems, mathematical foundations, research methods, design and development methodology, and application areas. We welcome tutorials on new tools and techniques for visualization, domains in which visualization applies, methods for undertaking visualization research, as well as proposals on more traditional visualization topics. Topics can include–but are not limited to–any of those listed in the calls for papers for all [areas in visualisation](year/2021/info/call-participation/call-for-participation). Tutorials with an application focus and including hands-on demos are also encouraged.
 
 ## Details
 
@@ -24,24 +20,23 @@ All tutorial proposals should include:
 * The level of background knowledge assumed by the tutorial (beginning, intermediate, or advanced);
 * An abstract of the tutorial topic;
 * A description of the tutorial’s organization including time allocation and outline for major course topics (500 words minimum);
-* The background and contact information for each instructor.
-
-In addition, due to the possibility of a virtual conference in 2020, all proposals should include a description of how the organizers will adjust the tutorial to a virtual format. 
+* The background and contact information for each instructor;
+* Since the format (virtual or physical) for VIS 2021 has not yet been officially decided, please include a description of how your tutorial will be conducted differently in a virtual or physical setting.
 
 Proposals should not exceed three pages, and should be [submitted via PCS](http://new.precisionconference.com/vgtc/). Please note the [formatting guidelines](http://junctionpublishing.org/vgtc/Tasks/camera.html) when preparing your submission. Authors of accepted tutorials are required to prepare a short summary for the printed program (~50 words).
 
 ## Important Dates
-* Proposal Submission: ~~Thursday, April 30, 2020~~ **Sunday, May 31, 2020**
-* Notification: ~~Thursday, May 28, 2020~~ **Sunday, June 28, 2020**
-* Final Submission of Summaries: ~~Saturday, August 1, 2020~~ **Monday, September 7, 2020**
+* Proposal Submission: **Friday, April 30, 2021**
+* Notification: **Friday, May 28, 2021**
+* Final Submission of Summaries: **Sunday, August 1, 2021**
 
 All deadlines are at **5:00pm Pacific Time (PDT)**.
 
 ## Chairs
 
-* Jessica Hullman, *Northwestern University*
-* Kresimir Matkovic, *VRVis*
-* Hongfeng Yu, *University of Nebraska-Lincoln*
+* Stefan Bruckner, *University of Bergen, Norway*
+* Jessica Hullman, *Northwestern University, USA*
+* Christophe Hurter, *University of Toulouse, France*
 
 Feel free to address any questions concerning submission, format, and content to [tutorials@ieeevis.org](mailto:tutorials@ieeevis.org).
 
