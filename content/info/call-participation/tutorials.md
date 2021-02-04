@@ -23,7 +23,7 @@ All tutorial proposals should include:
 * The background and contact information for each instructor;
 * Since the format (virtual or physical) for VIS 2021 has not yet been officially decided, please include a description of how your tutorial will be conducted differently in a virtual or physical setting.
 
-Proposals should not exceed three pages, and should be [submitted via PCS](http://new.precisionconference.com/vgtc/). Please note the [formatting guidelines](http://junctionpublishing.org/vgtc/Tasks/camera.html) when preparing your submission. Authors of accepted tutorials are required to prepare a short summary for the printed program (~50 words).
+Proposals should not exceed three pages, and should be [submitted via PCS](http://new.precisionconference.com/vgtc/). Please note the [formatting guidelines](https://tc.computer.org/vgtc/publications/conference/) when preparing your submission. Authors of accepted tutorials are required to prepare a short summary for the printed program (~50 words).
 
 ## Important Dates
 * Proposal Submission: **Friday, April 30, 2021**
