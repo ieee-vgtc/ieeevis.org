@@ -51,7 +51,7 @@ Because the number of workshop time slots is limited, half-day workshop proposal
 
 If the proposed workshop is a follow-up of a previous workshop, please include a discussion of the results and the impact of any previous workshops.
 
-**The proposal should not exceed four pages.** Please visit [http://vgtc.org/publications/conference](https://tc.computer.org/vgtc/publications/conference) for formatting details and submit via [PCS](https://new.precisionconference.com/vgtc).
+**The proposal should not exceed four pages.** Please visit [VGTC website](https://tc.computer.org/vgtc/publications/conference) for formatting details and submit via [PCS](https://new.precisionconference.com/vgtc).
 
 
 ## Publication strategy
