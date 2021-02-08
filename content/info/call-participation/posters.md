@@ -29,7 +29,7 @@ Examples of appropriate visualization work include, but are not limited to:
 
 ### INFORMATION FOR AUTHORS
 
-Poster authors must submit a two-page summary of their work in the VGTC conference two-column format in line with the [IEEE VIS Posters’ formatting guidelines](http://vgtc.org/publications/conference), using the poster format.
+Poster authors must submit a two-page summary of their work in the VGTC conference two-column format in line with the [IEEE VIS Posters’ formatting guidelines](https://tc.computer.org/vgtc/publications/conference), using the poster format.
 
 Summaries should include a concise description of the idea, the results or findings, supporting imagery and figures, and a discussion of the implications of the work to the selected domain. Full literature searches are not expected, although relevant citations should be included.
 

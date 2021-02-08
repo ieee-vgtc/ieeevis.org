@@ -13,7 +13,7 @@ This page provides authors of accepted papers with important information for the
 
 **DEADLINE: September 7.** Submit final papers and supplemental materials via the IEEE submission system. A link to the IEEE submission system was included in your final paper acceptance letter.
 
-Camera-ready papers may not exceed 11 pages (9 pages of main text and 2 pages of references). The [VGTC website](http://vgtc.org/publications/journal) has complete information regarding formatting requirements of your final revised PDF. We do not need hardcopy.
+Camera-ready papers may not exceed 11 pages (9 pages of main text and 2 pages of references). The [VGTC website](https://tc.computer.org/vgtc/publications/journal) has complete information regarding formatting requirements of your final revised PDF. We do not need hardcopy.
 
 Please check the second round reviewer comments (if any) and incorporate their suggestions. Note: there will not be further detailed proof-reading of your submission, so PLEASE read through your manuscript very carefully to fix any remaining grammar and spelling problems. If you are not a native English speaker, we very strongly recommend you recruit one to do the final careful pass on your paper. Also note the strict page limits. The 10th and 11th pages, if used, may not contain anything other than references (we will be strict on this). Finally, your paper should not be anonymized in the final version. The paper must include authors and affiliations. Note that if you have been anonymizing then you may find you have to trim your text to fit into the page limits once authors and affiliations are added.
 
@@ -38,7 +38,7 @@ We provide a PowerPoint template that can be used for your presentation.  Feel f
 Under no circumstances will updates be accepted after 11.59 PM on September 7. We have allowed for exceptions in the past but we will be strict this year.  
 
 Common editing issues: 
-* Use the correct JOURNAL style template (http://vgtc.org/publications/journal).
+* Use the correct JOURNAL style template (https://tc.computer.org/vgtc/publications/journal).
 * Index terms are mandatory.
 * The abstract and index term sections use an em-dash between the heading and content; there should not be a space on either side of the em-dash and the content begins on the same line as the heading.
 * Acknowledgment section—is it complete and correct?

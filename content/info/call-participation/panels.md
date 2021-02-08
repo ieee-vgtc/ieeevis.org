@@ -36,7 +36,7 @@ Panel organizers should also submit a short description of the panel format and 
 
 We note that submitting similar topics to multiple venues (e.g., panels and workshops) is likely to result in at most one accepted proposal so that a broad range of topics can be presented at the conference.
 
-Submissions should be submitted via [PCS](http://new.precisionconference.com/vgtc/). Please note the [formatting guidelines](http://vgtc.org/publications/conference) when preparing your submission. 
+Submissions should be submitted via [PCS](http://new.precisionconference.com/vgtc/). Please note the [formatting guidelines](https://tc.computer.org/vgtc/publications/conference) when preparing your submission. 
 
 Feel free to address any questions concerning submission, format, and content to [panels@ieeevis.org](mailto:panels@ieeevis.org).
 
