@@ -9,9 +9,10 @@ Do you want to meet people who share the same interests with you, discuss a topi
 
 ### What is a meetup?
 
-Meetups are an excellent forum to discuss a wide range of topics related to visualization. For example, if you are an experienced researcher or practitioner, consider submitting a proposal to share your knowledge in an informal setting with conference participants. Meetups welcome cross-disciplinary proposals and proposals that are devoted to particular discipline methods. For example, some recent meetups have included opportunities to discuss topics related to sonification to augment visualization, machine learning for big data, inclusion and diversity in visualization research, work-life balance topics, the connection between art and science, deceptive visualizations. VIS2020 is eager to expand its meetup sessions and will consider proposals given technology resources and time availability. All meetups are public and open to everyone.
+Meetups are an excellent forum to discuss a wide range of topics related to visualization. For example, if you are an experienced researcher or practitioner, consider submitting a proposal to share your knowledge in an informal setting with conference participants. Meetups welcome cross-disciplinary proposals and proposals that are devoted to particular discipline methods. For example, some recent meetups have included opportunities to discuss topics related to sonification to augment visualization, machine learning for big data, inclusion and diversity in visualization research, work-life balance topics, the connection between art and science, deceptive visualizations. VIS2021 is eager to expand its meetup sessions and will consider proposals given technology resources and time availability. All meetups are public and open to everyone.
 
-This year meetups will be organized as online group meetings taking place virtually over [Zoom](https://support.zoom.us/hc/en-us) which gives the opportunity to reach out to a wider group of participants. You can choose whether you want to organize a formal meeting or a casual gathering. Meetups will be scheduled before/after the regular paper sessions.
+
+Meetups will be organized as online group meetings taking place virtually over [Zoom](https://support.zoom.us/hc/en-us) which gives the opportunity to reach out to a wider group of participants. You can choose whether you want to organize a formal meeting or a casual gathering. Meetups will be scheduled before/after the regular paper sessions.
 
 
 ### What do you get?
@@ -39,7 +40,15 @@ Submissions should be emailed to
 Submissions will be considered subject to time and technology resources availability. Early submissions will be given a priority. 
 
 
-| Rolling Submission | **From August 7, 2020 to October 16, 2020** | 
+| Early  Submission | **From August 6, 2021 ** | 
+| Notification | Friday, August 13, 2021 |
+
+Note: Meetups submission made by August 7 may have the chance to be included in the programme and fast forward video.
+
+Rolling submission: Submissions after the early submission deadline will be considered subject to room availability. Later submissions will be processed and notified within a couple of days.
+
+
+| Rolling Submission | **From August 6, 2021 to October 15, 2021** | 
 | Notification | **Within a few days** |
 
 
@@ -48,6 +57,6 @@ Submissions will be considered subject to time and technology resources availabi
 
 Ayan Biswas, *Los Alamos National Laboratory*
 
-Evanthia Dimara, *University of Konstanz*
+Evanthia Dimara, *Utrecht University*
 
 Katerina Vrotsou, *Linköping University*
