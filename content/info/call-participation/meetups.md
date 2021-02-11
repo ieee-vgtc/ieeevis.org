@@ -40,12 +40,12 @@ Submissions should be emailed to
 Submissions will be considered subject to time and technology resources availability. Early submissions will be given a priority. 
 
 
-| Early  Submission | **From August 6, 2021 ** | 
-| Notification | Friday, August 13, 2021 |
+| Early  Submission | **From August 6, 2021** | 
+| Notification |  **August 13, 2021** |
 
-Note: Meetups submission made by August 7 may have the chance to be included in the programme and fast forward video.
+Note: Meetups submission made by August 6 may have the chance to be included in the programme and fast forward video.
 
-Rolling submission: Submissions after the early submission deadline will be considered subject to room availability. Later submissions will be processed and notified within a couple of days.
+Rolling submission: Submissions after the early submission deadline will be considered subject to timeslot availability. Later submissions will be processed and notified within a couple of days.
 
 
 | Rolling Submission | **From August 6, 2021 to October 15, 2021** | 
