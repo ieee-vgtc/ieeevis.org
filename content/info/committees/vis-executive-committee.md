@@ -18,3 +18,7 @@ contact: vec@ieeevis.org
 | Elisabeta Marai | *University of Illinois at Chicago* |
 | Klaus Mueller | *Stony Brook University* |
 | Holger Theisel | *University of Magdeburg* |
+
+**Public Meeting Notes**  
+
+[January 8, 2021](https://drive.google.com/file/d/1EpkiQWEfc0hMx56sbK8bbQe_bgBU0cwp/view?usp=sharing)
