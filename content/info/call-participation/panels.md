@@ -32,9 +32,9 @@ IEEE VIS record videos to archive panels, making them available online. Many VIS
 
 ## Submissions
 
-Panel proposals should describe the topic to be addressed and identify the prospective panelists. Each panelist should include a position statement on the topic and a short biography, the total of which should be limited to 500 words for each panelist, up to a maximum of four pages for the whole panel. In case the panel follows up on the topic of a previously held panel, we ask the organizers to point this out and to detail the advances expected from the follow-up. 
-
-Panel organizers should also submit a short description of the panel format and schedule (max. 1 page). This should be in a separate document from the proposal itself, and should describe the order of topics to be discussed, time to be spent on panelist presentations, and mechanisms for encouraging audience participation. Based on audience feedback, the duration of panelist presentations should allow ample time for intra-panel discussion and discussions between the panel and the audience.
+Panel proposals should consist of **two documents**:
+1. A description of the topic and statements from prospective panelists (max. 4 pages). Each panelist should include a position statement on the topic and a short biography, the total of which should be limited to *500 words* for each panelist. In case the panel follows up on the topic of a previously held panel, we ask the organizers to point this out and to detail the advances expected from the follow-up.
+2. A short description of the panel format and schedule (max. 1 page). This should be in a separate document from the proposal itself, and should describe the order of topics to be discussed, time to be spent on panelist presentations, and mechanisms for encouraging audience participation. Based on audience feedback, the duration of panelist presentations should allow ample time for intra-panel discussion and discussions between the panel and the audience.
 
 We note that submitting similar topics to multiple venues (e.g., panels and workshops) is likely to result in at most one accepted proposal so that a broad range of topics can be presented at the conference.
 
