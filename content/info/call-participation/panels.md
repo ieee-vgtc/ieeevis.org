@@ -43,7 +43,7 @@ Submissions should be submitted via [PCS](http://new.precisionconference.com/vgt
 Feel free to address any questions concerning submission, format, and content to [panels@ieeevis.org](mailto:panels@ieeevis.org).
 
 ## Past Panels
-Panels will be recorded and posted to Vimeo for archival viewing. Panels from  2020 can be found at [http://ieeevis.org/year/2020/info/panels](http://ieeevis.org/year/2020/info/panels) and from 2019 can be found at [http://ieeevis.org/year/2019/info/panels](http://ieeevis.org/year/2019/info/panels).
+Panels will be recorded and posted to Vimeo for archival viewing. Panels from 2020 can be found at [http://ieeevis.org/year/2020/info/panels](http://ieeevis.org/year/2020/info/panels) and from 2019 can be found at [http://ieeevis.org/year/2019/info/panels](http://ieeevis.org/year/2019/info/panels).
 
 ## IMPORTANT DATES
 
