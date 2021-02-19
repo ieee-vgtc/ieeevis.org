@@ -9,7 +9,7 @@ active_nav: "Contribute"
 sidebar: call-for-participation
 ---
 
-IEEE VIS 2020 Panels should address important and/or controversial applications and issues in visualization and its subfields today. In particular, we invite panels that:
+IEEE VIS 2021 Panels should address important and/or controversial applications and issues in visualization and its subfields today. In particular, we invite panels that:
 
 * Bring together interest groups and discuss cross-cutting issues that apply to the broad VIS community
 * Connect visualization with interesting application fields.
@@ -48,9 +48,9 @@ Panels will be recorded and posted to Vimeo for archival viewing. Panels from  2
 
 | Date | Activity |
 |------|----------|
-| ~~Monday, June 29, 2020~~ Wednesday, July 15, 2020 | Proposal Submission |
-| Monday, August 10, 2020 | Notification |
-| Monday, August 24, 2020 | Final Submission of Panel Summaries and Video Fast Forwards |
+| Thursday, July 15, 2021 | Proposal Submission |
+| Monday, August 09, 2021 | Notification |
+| Monday, August 23, 2021 | Final Submission of Panel Summaries and Video Fast Forwards |
       
 All deadlines are at **5:00pm Pacific Time (PDT)**.
 
@@ -58,4 +58,4 @@ All deadlines are at **5:00pm Pacific Time (PDT)**.
 
 Daniel Archambault, *Swansea University* <br />
 Michael Behrisch, *Utrecht University* <br />
-Joshua A. Levine, *University of Arizona* 
+Michael Correll, *Tableau Research* 
