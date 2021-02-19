@@ -132,9 +132,9 @@ menu:
           - heading: "Get Involved"
             columns:
               - links:
-                - text: "Organize a meetup (coming soon)"
+                - text: "Organize a meetup"
                   description: "Meet people for discussion and shared experiences"
-                  # url: "/year/2021/info/call-participation/meetups"
+                  url: "/year/2021/info/call-participation/meetups"
                 - text: "Become a student volunteer (coming soon)"
                   description: "Support the conference and build your research network"
                   # url: "http://www.vissv.org"
