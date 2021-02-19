@@ -24,6 +24,8 @@ VIS Panels value diversity in perspective, opinion, and representation. The most
 
 ## Panel Logistics
 
+**All panels will be online and remote in a similar format as in 2020.**
+
 Panels are scheduled for the duration of an entire paper session; panel proposals should thus target one hour and 30 minutes total duration, including question and discussion periods. We strongly recommend that in order to keep to time, the chair of the panel is not one of the panel speakers.
 
 IEEE VIS record videos to archive panels, making them available online. Many VIS participants, as well as people who cannot attend, have found these archived panels to be a valuable part of the process. Panel organizers may choose not to have the panels made available to the public.
@@ -41,8 +43,7 @@ Submissions should be submitted via [PCS](http://new.precisionconference.com/vgt
 Feel free to address any questions concerning submission, format, and content to [panels@ieeevis.org](mailto:panels@ieeevis.org).
 
 ## Past Panels
-
-Panels will be recorded and posted to Vimeo for archival viewing. Panels from  2018 can be found at [http://ieeevis.org/year/2018/info/panels](http://ieeevis.org/year/2018/info/panels) and from 2019 can be found at [http://ieeevis.org/year/2019/info/panels](http://ieeevis.org/year/2019/info/panels)
+Panels will be recorded and posted to Vimeo for archival viewing. Panels from  2020 can be found at [http://ieeevis.org/year/2020/info/panels](http://ieeevis.org/year/2020/info/panels) and from 2019 can be found at [http://ieeevis.org/year/2019/info/panels](http://ieeevis.org/year/2019/info/panels).
 
 ## IMPORTANT DATES
 
