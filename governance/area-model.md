@@ -147,6 +147,7 @@ Topics of interests include:
 * Visual Channels: R. Bujack, T. Turton, F. Samsel, D. Rogers, J. Ahrens, and C. Ware. “The Good, the Bad, and the Ugly: A Theoretical Framework for the Assessment of Continuous Colormaps.” IEEE Transactions on Visualization and Computer Graphics, 24(1): 2018.
 * Visual Representations: Bach, B., Shi, C., Heulot, N., Madhyastha, T., Grabowski, T., & Dragicevic, P. Time curves: Folding time to visualize patterns of temporal evolution in data. IEEE transactions on visualization and computer graphics, 22(1): 2016.
 * Interaction Techniques: E. Hoque, V. Setlur, M. Tory, and I. Dykeman. “Applying Pragmatics Principles for Interaction with Visual Analytics.” IEEE Transactions on Visualization and Computer Graphics, 24(1): 2018
+* * Interaction Techniques: A. Srinivasan and J. Stasko. “Orko: Facilitating Multimodal Interaction for Visual Network Exploration and Analysis.”  IEEE Transactions on Visualization and Computer Graphics, 24(1): 2018.
 * Visual Communication Techniques: M. Brehmer, B. Lee, B. Bach, N. Henry Riche, and T. Munzner. “Timelines Revisited: A Design Space and Considerations for Expressive Storytelling.” IEEE Transactions on Visualization and Computer Graphics, 2018
 * Intelligent Visualization and Interaction: F. Dabek and J. J. Caban. “A Grammar-based Approach for Modeling User Interactions and Generating Suggestions During the Data Exploration Process.” IEEE Transactions on Visualization and Computer Graphics, 23(1): 2017. doi: 10.1109/TVCG.2016.2598471
 * Intelligent Visualization and Interaction: B. Saket, H. Kim, E. T. Brown, A. Endert. “Visualization by Demonstration: An Interaction Paradigm for Visual Data Exploration.” IEEE Transactions on Visualization and Computer Graphics, 22(1): 2016
@@ -172,7 +173,7 @@ Topics of of interests include:
 
 **Example Papers:**
 * Information Extraction and Data Abstraction: Tierny, J. and Carr, H. (2017). Jacobi Fiber Surfaces for Bivariate Reeb Space Computation. IEEE Transactions on Visualization and Computer Graphics, 23(1).
-* Data Integration: A. Srinivasan and J. Stasko. “Orko: Facilitating Multimodal Interaction for Visual Network Exploration and Analysis.”  IEEE Transactions on Visualization and Computer Graphics, 24(1):2018.
+* Data Integration: H. Strobelt, D. Oelke, C. Rohrdantz, A. Stoffel, D. A. Keim and O. Deussen "Document Cards: A Top Trumps Visualization for Documents" IEEE Transactions on Visualization and Computer Graphics, vol. 15, no. 6, pp. 1145-1152, 2009
 * Data Wrangling and Improvement:  A. Bigelow, C. Nobre, M. Meyer, A. Lex. “Origraph: Interactive Network Wrangling.” IEEE VAST, 2019.
 * Data Reorganization: H. Miao, E. De Llano, J. Sorger, Y. Ahmadi, T. Kekic, T. Isenberg, E. Gröller, I. Barisic, and I. Viola. “Multiscale Visualization and Scale-Adaptive Modification of DNA Nanostructures.”  IEEE Transactions on Visualization and Computer Graphics, 24(1):2018.
 * Data Enrichment: S. Hazarika, A. Biswas, and H.-W. Shen. “Uncertainty Visualization Using Copula-Based Analysis in Mixed Distribution Models.” IEEE Transactions on Visualization and Computer Graphics, 24(1):446-456,  2018.
