@@ -34,7 +34,7 @@ permalink: /info/committees/conference-committee
 | Rüdiger Westermann | *Technical University of Munich* |
 |---
 | **Area 4 Paper Chairs &nbsp;&nbsp;&nbsp;—** | **Representations & Interaction** | |
-| Anastasia Bezerianos | *Uni Paris Sud* |
+| Anastasia Bezerianos | *Université Paris Saclay* |
 | Bernhard Preim | *Otto-von-Guericke University Magdeburg* |
 |---
 | **Area 5 Paper Chairs &nbsp;&nbsp;&nbsp;—** | **Data Transformations** | |
