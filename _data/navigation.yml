@@ -141,7 +141,7 @@ menu:
                   is_external: true
                 - text: "Become a peer reviewer"
                   description: "Volunteer to review submissions"
-                  url: "https://new.precisionconference.com/vgtc"
+                  url: "https://new.precisionconference.com/review_volunteering"
                   is_external: true
                 - text: "Code of Conduct"
                   url: "/year/2021/info/inclusion-and-diversity/code-of-conduct"
