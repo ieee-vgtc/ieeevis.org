@@ -83,7 +83,7 @@ Topics of interest include:
    * Application Domains: S. Dutta, C.-M. Chen, G. Heinlein, H.-W. Shen and J.-P. Chen. “In Situ Distribution Guided Analysis and Visualization of Transonic Jet Engine Simulations”, IEEE Transactions on Visualization and Computer Graphics, 23(1):811-820, 2016. doi: 10.1109/TVCG.2016.2598604
    * Application-specific Technical Solutions: F. Lekschas, B. Bach, P. Kerpedjiev, N. Gehlenborg, H. Pfister. “HiPiler: Visual Exploration of Large Genome Interaction Matrices with Interactive Small Multiples”, IEEE Transactions on Visualization and Computer Graphics, 24(1):522-531, 2017. doi: 10.1109/TVCG.2017.2745978
    * Application-specific Technical Solutions: K. Bladin et al., "Globe Browsing: Contextualized Spatio-Temporal Planetary Surface Visualization," IEEE Transactions on Visualization and Computer Graphics, 24(1): 802-811, 2018. [SciVis 2017 Best Paper Award]doi: 10.1109/TVCG.2017.2743958
-   * Insight Documentation: G. A. Marai. “Activity-Centered Domain Characterization for Problem-Driven Scientific Visualization”, IEEE Transactions on Visualization and Computer Graphics, 24(1):913-922. doi: 10.1109/TVCG.2017.2744459
+   * Insight Documentation: G. E. Marai. “Activity-Centered Domain Characterization for Problem-Driven Scientific Visualization”, IEEE Transactions on Visualization and Computer Graphics, 24(1):913-922. doi: 10.1109/TVCG.2017.2744459
    * Insight Documentation: H. Lam, M. Tory, and T. Munzner. “Bridging From Goals to Tasks with Design Study Analysis Reports”, IEEE Transactions on Visualization and Computer Graphics, 24(1):435-445, 2018. doi:  10.1109/TVCG.2017.2744319
 
 ________________
