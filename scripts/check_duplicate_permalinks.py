@@ -15,9 +15,9 @@ for root, dirs, files in os.walk(top, topdown=False):
     for file in files:
         if file.endswith('.md'):
           location = os.path.join(root, file)
-          yaml = fm.load(location)
+          yaml = fm.load(location.decode('utf-8'))
           if 'permalink' in yaml.keys():
-            pl = yaml['permalink'] 
+            pl = yaml['permalink']
             if pl in _permalinks:
                 _permalinks[pl].append(location)
             else:
@@ -42,4 +42,4 @@ if len(_bad_extensions) > 0:
     print('ERROR: bad extensions found in permalinks')
     for filename, pl in _bad_extensions:
         print('File %s has a bad permalink extension (%s)' % (filename, pl))
-        
+
