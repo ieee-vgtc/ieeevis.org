@@ -17,7 +17,7 @@ for root, dirs, files in os.walk(top, topdown=False):
           location = os.path.join(root, file)
           with open(location, 'r') as f:
             # Fixing utf-8 encoding issue https://stackoverflow.com/a/9942822
-            yaml = fm.loads(f.read().encode('utf-8').strip())
+            yaml = fm.load(f)
             if 'permalink' in yaml.keys():
                 pl = yaml['permalink']
                 if pl in _permalinks:
