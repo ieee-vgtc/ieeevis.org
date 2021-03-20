@@ -391,19 +391,19 @@ menu:
                  #   url:  "/governance/restructuring"
 
       - subsections:
-          - heading: "Upcoming Years"
+         - heading: "Upcoming Years"
 #            heading_url: "/"
-            columns:
+           columns:
+            - links:
+              - text: "2022 in Melbourne, Victoria, Australia"
+                description: ""
+                url: "/"
+              - text: "Bidding"
+                description: "Guidelines to bid for a future location of IEEE VIS"
+                url: "/governance/bids"
+         - heading: "Web Documentation"
+           columns:
              - links:
-                - text: "2022 in Melbourne, Victoria, Australia"
-                  description: ""
-                  url: "/"
-                - text: "Bidding"
-                  description: "Guidelines to bid for a future location of IEEE VIS"
-                  url: "/governance/bids"
-           - heading: "Web Documentation"
-             columns:
-               - links:
-                   - text: "Updating the website content"
-                     url: "/year/2021/info/contributing"
-
+               - text: "Updating the website content"
+                 url: "/year/2021/info/contributing"
+          
