@@ -15,16 +15,16 @@ for root, dirs, files in os.walk(top, topdown=False):
     for file in files:
         if file.endswith('.md'):
           location = os.path.join(root, file)
-          print(location.decode('utf-8')), repr(location)
-          yaml = fm.load(location.decode('utf-8'))
-          if 'permalink' in yaml.keys():
-            pl = yaml['permalink']
-            if pl in _permalinks:
-                _permalinks[pl].append(location)
-            else:
-                _permalinks[pl] = [location]
-            if pl.endswith('.md'):
-                _bad_extensions.append((file, pl))
+          with open(location, 'r') as f:
+            yaml = fm.load(f)
+            if 'permalink' in yaml.keys():
+                pl = yaml['permalink']
+                if pl in _permalinks:
+                    _permalinks[pl].append(location)
+                else:
+                    _permalinks[pl] = [location]
+                if pl.endswith('.md'):
+                    _bad_extensions.append((file, pl))
 
 
 for pl in _permalinks:
