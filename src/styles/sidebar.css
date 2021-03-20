@@ -9,6 +9,7 @@
     @apply border-l-0 border-b border-dashed border-primary;
 
     top: 2rem;
+    background-color: #fff;
 }
 
     @screen md {
