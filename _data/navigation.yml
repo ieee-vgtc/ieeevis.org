@@ -389,6 +389,11 @@ menu:
                    url: "/year/2021/info/committees/area-committee"
                  # - text: "Restructuring and reVISe"
                  #   url:  "/governance/restructuring"
+         - heading: "Governance Documents"
+           columns:
+             - links:
+               - text: "IEEE Governance Structure"
+                 url: "https://drive.google.com/file/d/1CzoEKf0CiHvybLsB44OcoD9OFiCTT210/view"
 
       - subsections:
          - heading: "Upcoming Years"
