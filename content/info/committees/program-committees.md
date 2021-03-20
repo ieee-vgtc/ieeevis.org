@@ -4,10 +4,8 @@ layout: page
 active_nav: "Organization & History"
 permalink: /info/committees/program-committees
 contact: papers@ieeevis.org
+sidetoc: true
 ---
-
-- [Full Papers Program Committee](#full-papers-program-committee)
-- [Short Papers Program Committee](#short-papers-program-committee)
 
 ## Full Papers Program Committee
 
