@@ -15,6 +15,7 @@ for root, dirs, files in os.walk(top, topdown=False):
     for file in files:
         if file.endswith('.md'):
           location = os.path.join(root, file)
+          print(location.decode('utf-8')), repr(location)
           yaml = fm.load(location.decode('utf-8'))
           if 'permalink' in yaml.keys():
             pl = yaml['permalink']
