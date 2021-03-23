@@ -6,7 +6,7 @@
 node_modules/
 _site/
 dist/
-scripts/*.pyc
+scripts/**/*.pyc
 /files
 data/autogen/
 *.swp
