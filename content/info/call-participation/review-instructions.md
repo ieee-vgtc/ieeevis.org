@@ -57,28 +57,36 @@ Please note that the Area Curation Committee (ACC) also continuously collects in
 ## Bidding
 **March 22 thru March 31**
 
-If you have not yet updated your keywords then see the [Keywords Update](#keywords-update) phase above.
+We cannot overemphasize the importance of bidding: proper and timely bidding is crucial for the successful paper assignment. Please complete your bidding by **March 31, 2021**.
 
 1. Log onto the [PCS system](https://new.precisionconference.com/).
 
 2. Go to the Reviews tab.
 
-3. Click on "Review (as a committee member)" beside "VIS".
+3. Click on the "Review (as a committee member)" action for the "VIS 2021 Papers" category.
 
-4. Click on "Conflicts".
+4. Click on the "Conflicts" link.
 
-5. Click the checkbox beside each author with whom you are in conflict. The checkbox will flash green to indicate that your conflict has been recorded. There is no submit button on this page.  You can type an institution name in the "Search" box in the upper-right corner to show people from a particular institution. For guidance on reviewer conflicts-of-interest please see the [IEEE VGTC ethics guidelines for reviewers](http://tc.computer.org/vgtc/conferences/ethics-guidelines).
+5. Click the checkbox for each author with whom you are in conflict. The checkbox will flash green to indicate that your conflict has been recorded. There is no submit button on this page.  
+   
+   You can type an institution name in the "Search" box in the upper-right corner to show people from a particular institution. For guidance on reviewer conflicts-of-interest please see the [IEEE VGTC ethics guidelines for reviewers](http://tc.computer.org/vgtc/conferences/ethics-guidelines).
 
-As a new process this year you will also be asked to provide conflicts with other PC members. This has to be done to avoid conflicts during the paper assignment process.
+To bid papers, continue to follow these steps:
 
-As a new process this year you will also be asked to provide conflicts with other PC members. This has to be done to avoid conflicts during the paper assignment process.
+6. Click on "VIS 2021 Papers" under the Reviews tab to return to your main reviewing page.
 
-6. Click on the VIS tab under the Reviews tab to return to your main reviewing page.
+7. Click on the "Bidding" link.
 
-7. Click on "Bidding".
+8. For bidding, you will see four options for each submission: want, willing, reluctant, and conflict. The conflicted papers should be pre-selected as conflicts, based on steps 4-5 above: these paeprs will show "author conflict" instead of the radio buttons. 
+   
+   You can select an option by clicking the appropriate radio button beside each submission. The radio button will flash green to indicate that your bid has been recorded. There is no submit button on this page.
+   
+   Please select “want” for papers that match your areas of expertise; we expect that you mark *at least 50 papers as want or willing*. Please select “reluctant” for any papers that you feel are far from your expertise. Note that, *if you do not select any option, the system will record your preference as “willing” by default*. 
 
-8. For bidding, you will see four options for each submission: want, willing, reluctant, and conflict. The conflicted papers should be pre-selected as conflicts, based on steps 4-5 above. Please select “want” for papers that match your areas of expertise; typically, we expect that you mark *at least 50 papers as want or willing*. *If you do not click an option, the system will record your preference as “willing”*. Please select “reluctant” for any papers that you feel are far from your expertise. You may find it easiest to first sort the list by the ‘score’ column, which estimates the match between your expertise and the paper keywords. Click the appropriate radio button beside each submission.  The radio button will flash green to indicate that your bid has been recorded.  There is no submit button on this page.  Submissions that have authors with whom you have declared a conflict will show "author conflict" in place of the radio buttons.
-In order to filter papers of interest to you, use the search box (which searches in all table fields) and the option to see papers by area or keyword. You can find additional information about bidding strategies on the [IEEEVIS blog] (http://ieeevis.org/year/2021/blog/keywords-for-pc-members).
+### Useful Tips for Bidding   
+As a unified conference, the number of submissions drastically increased. It may be too time consuming to read through all the abstracts carefully. You may first sort the list by the ‘score’ column, which estimates the match between your expertise and the paper keywords.   
+
+Another way to find papers that match your expertise and interest is to use (1) the search box (which searches in all the fields) and (2) the option to see papers by area or keyword. You can find additional information about bidding strategies on the [IEEE VIS blog](http://ieeevis.org/year/2021/blog/keywords-for-pc-members).
 
 ## Assigning External Reviewers
 **April 14 thru April 21**
