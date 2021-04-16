@@ -218,34 +218,34 @@ menu:
   - dropdown: "Events & Community"
     display: true
     sections:
-#       - subsections:
-#           - heading: "Associated Events"
-#             columns:
-#               - links:
-#                 - text: "VIS Arts Program: Enchantment"
-#                   description: "Where art, design, and research come together"
-#                   url: "https://visap.net/"
-#                   is_external: true
+       - subsections:
+           - heading: "Associated Events"
+             columns:
+               - links:
+                 - text: "VIS Arts Program: Enchantment"
+                   description: "Where art, design, and research come together"
+                   url: "https://visap.net/"
+                   is_external: true
 #                 - text: "VisInPractice"
 #                   description: "Invited talks by visualization practitioners"
 #                   url: "https://visinpractice.github.io/"
 #                   is_external: true
-#                 - text: "VizSec Symposium"
-#                   description: "Visualization for Cyber Security"
-#                   url: "https://vizsec.org/vizsec2020/"
-#                   is_external: true
-#                 - text: "VAHC Workshop (coming soon)"
-#                   description: "Visual Analytics for Healthcare"
-#                   url: "https://visualanalyticshealthcare.org/"
-#                   is_external: true
-#                 - text: "VDS Symposium"
-#                   description: "Visualization in Data Science"
-#                   url: "http://www.visualdatascience.org/2020/index.html"
-#                   is_external: true
-#                 - text: "VIS4DH Workshop"
-#                   description: "Visualization for the Digital Humanities"
-#                   url: "http://www.vis4dh.org/"
-#                   is_external: true
+                 - text: "VizSec Symposium"
+                   description: "Visualization for Cyber Security"
+                   url: "https://vizsec.org/"
+                   is_external: true
+                 - text: "VAHC Workshop"
+                   description: "Visual Analytics for Healthcare"
+                   url: "https://visualanalyticshealthcare.org/"
+                   is_external: true
+                 - text: "VDS Symposium"
+                   description: "Visualization in Data Science"
+                   url: "http://www.visualdatascience.org/2021/index.html"
+                   is_external: true
+                 - text: "VIS4DH Workshop"
+                   description: "Visualization for the Digital Humanities"
+                   url: "http://www.vis4dh.org/"
+                   is_external: true
 #                 - text: "VISxAI Workshop"
 #                   description: "3rd Workshop on Visualization for AI Explainability"
 #                   url: "https://visxai.io/"
@@ -264,9 +264,9 @@ menu:
             description: "Advancing visualization through competition"
             columns:
               - links:
-                # - text: "VAST Challenge"
-                #   url: "https://vast-challenge.github.io/2020/"
-                #   is_external: true
+                - text: "VAST Challenge"
+                  url: "https://vast-challenge.github.io/2021/"
+                  is_external: true
                 - text: "SciVis Contest"
                   url: "https://scivis2021.netlify.app/"
                   is_external: true
