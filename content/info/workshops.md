@@ -19,7 +19,6 @@ Here is the list of the accepted workshops. Please visit their individual websit
 * [VisXVision: Workshop on Novel Directions in Vision Science and Visualization Research](#visxvision)
 * [2nd IEEE VIS Workshop on Data Vis Activities to Facilitate Learning, Reflecting, Discussing and Designing](#visactivities)
 * [alt.VIS](#altvis)
-* [VAHC: Visual Analytics in Healthcare](#vahc)
 
 <hr/>
 
@@ -73,7 +72,7 @@ Contact: mtory@tableau.com
 Interacting with data has become an integral part of many people’s daily lives. Not only working professionals but also lay individuals and data-enthusiasts engage in a broad range of activities that involve data, to achieve their goals in work, social, and personal contexts. The emerging area of human-data interaction encompasses all aspects where humans touch and engage with data, bringing new challenges and opportunities to visualization and visual analytics researchers and practitioners. Despite the huge potential in facilitating human-data interaction for more effective, productive, and rewarding experiences, current visualization research focuses on limited aspects of how people interact with data. This workshop aims to understand the broader ecosystem of data activities and explore the roles that visualization can play in a broader spectrum of human-data interaction.
 
 
-## <a name="socialgood"></a> [Visualization for Social Good]()
+## <a name="socialgood"></a> [Visualization for Social Good](https://vis4good.github.io/)
 
 Leilani Battle, *University of Maryland* <br>
 Michelle Borkin, *Northeastern University* <br>
@@ -155,12 +154,5 @@ Contact: lonni.besancon@gmail.com
 
 Often the most transformative ideas and challenges come from unexpected and serendipitous sources. Yet, conferences are not often perceived of as a place for non-traditional, controversial, or outré work. Borrowing from the long-running and successful “alt.chi” model from the ACM SIGCHI conference, we propose an “alt.VIS” workshop as an avenue for surfacing work that would otherwise not find a home through the standard VIS conference review process.
 
-## <a name="vahc"></a> [VAHC: Visual Analytics in Healthcare](https://www.visualanalyticshealthcare.org/cfp.html)
-
-Jürgen Bernard, *University of Zurich* <br>
-Annie T. Chen, *University of Washington* <br>
-Danny T.Y. Wu, *University of Cincinnati* 
-
-Contact: vahc.sig@gmail.com
 
 
