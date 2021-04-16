@@ -214,46 +214,45 @@ menu:
 #                - text: "Test of Time Awards"
 #                  url: "/year/2021/info/awards/test-of-time-awards"
 
-
   - dropdown: "Events & Community"
     display: true
     sections:
-       - subsections:
-           - heading: "Associated Events"
-             columns:
-              - links:
-                - text: "VIS Arts Program: dis/connected"
-                  description: "Where art, design, and research come together"
-                  url: "https://visap.net/"
-                  is_external: true
-                - text: "VisInPractice"
-                  description: "Invited talks by visualization practitioners"
-                  url: ""
-                  is_external: true
-                - text: "LDAV Symposium"
-                  description: "Big Data Analysis and Visualization"
-                  url: ""
-                  is_external: true
-                - text: "VDS Symposium"
-                  description: "Visualization in Data Science"
-                  url: ""
-                  is_external: true
-                - text: "VizSec Symposium"
-                  description: "Visualization for Cyber Security"
-                  url: "https://vizsec.org/vizsec2021/"
-                  is_external: true
-                - text: "VAHC Workshop"
-                  description: "Visual Analytics for Healthcare"
-                  url: "https://visualanalyticshealthcare.org/"
-                  is_external: true
-                - text: "VIS4DH Workshop"
-                  description: "Visualization for the Digital Humanities"
-                  url: "http://www.vis4dh.org/"
-                  is_external: true
-                - text: "VISxAI Workshop"
-                  description: "Visualization for AI Explainability"
-                  url: ""
-                  is_external: true
+      - subsections:
+          - heading: "Associated Events"
+            columns:
+            - links:
+              - text: "VIS Arts Program: dis/connected"
+                description: "Where art, design, and research come together"
+                url: "https://visap.net/"
+                is_external: true
+              - text: "VisInPractice (coming soon)"
+                description: "Invited talks by visualization practitioners"
+                # url: ""
+                is_external: true
+              - text: "LDAV Symposium"
+                description: "Big Data Analysis and Visualization"
+                url: ""
+                is_external: true
+              - text: "VDS Symposium (coming soon)"
+                description: "Visualization in Data Science"
+                # url: ""
+                is_external: true
+              - text: "VizSec Symposium"
+                description: "Visualization for Cyber Security"
+                url: "https://vizsec.org/vizsec2021/"
+                is_external: true
+              - text: "VAHC Workshop"
+                description: "Visual Analytics for Healthcare"
+                url: "https://visualanalyticshealthcare.org/"
+                is_external: true
+              - text: "VIS4DH Workshop"
+                description: "Visualization for the Digital Humanities"
+                url: "http://www.vis4dh.org/"
+                is_external: true
+              - text: "VISxAI Workshop (coming soon)"
+                description: "Visualization for AI Explainability"
+                # url: ""
+                is_external: true
       - subsections:
           - heading: "Competitions"
             description: "Advancing visualization through competition"
@@ -406,4 +405,4 @@ menu:
              - links:
                - text: "Updating the website content"
                  url: "/year/2021/info/contributing"
-          
+
