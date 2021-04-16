@@ -259,7 +259,7 @@ menu:
             columns:
               - links:
                 - text: "BioVis Challenges"
-                  url: "http://biovis.net/2020/biovisChallenges_vis/"
+                  url: "http://biovis.net/2021/ieeevis/"
                   is_external: true
                 - text: "SciVis Contest"
                   url: "https://scivis2021.netlify.app/"
