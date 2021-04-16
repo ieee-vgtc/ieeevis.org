@@ -229,9 +229,9 @@ menu:
                 description: "Invited talks by visualization practitioners"
                 # url: ""
                 is_external: true
-              - text: "LDAV Symposium"
+              - text: "LDAV Symposium (coming soon)"
                 description: "Big Data Analysis and Visualization"
-                url: ""
+                # url: ""
                 is_external: true
               - text: "VDS Symposium (coming soon)"
                 description: "Visualization in Data Science"
