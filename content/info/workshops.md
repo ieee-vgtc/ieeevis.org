@@ -73,7 +73,7 @@ Contact: mtory@tableau.com
 Interacting with data has become an integral part of many people’s daily lives. Not only working professionals but also lay individuals and data-enthusiasts engage in a broad range of activities that involve data, to achieve their goals in work, social, and personal contexts. The emerging area of human-data interaction encompasses all aspects where humans touch and engage with data, bringing new challenges and opportunities to visualization and visual analytics researchers and practitioners. Despite the huge potential in facilitating human-data interaction for more effective, productive, and rewarding experiences, current visualization research focuses on limited aspects of how people interact with data. This workshop aims to understand the broader ecosystem of data activities and explore the roles that visualization can play in a broader spectrum of human-data interaction.
 
 
-## <a name="socialgood"></a> [Visualization for Social Good]()
+## <a name="socialgood"></a> [Visualization for Social Good](https://vis4good.github.io/)
 
 Leilani Battle, *University of Maryland* <br>
 Michelle Borkin, *Northeastern University* <br>
