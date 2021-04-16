@@ -220,42 +220,42 @@ menu:
         - heading: "Associated Events"
           columns:
             - links:
-            - text: "VIS Arts Program: Enchantment"
-              description: "Where art, design, and research come together"
-              url: "https://visap.net/"
-              is_external: true
-#           - text: "VisInPractice"
-#             description: "Invited talks by visualization practitioners"
-#             url: "https://visinpractice.github.io/"
-#             is_external: true
-            - text: "VizSec Symposium"
-              description: "Visualization for Cyber Security"
-              url: "https://vizsec.org/"
-              is_external: true
-            - text: "VAHC Workshop"
-              description: "Visual Analytics for Healthcare"
-              url: "https://visualanalyticshealthcare.org/"
-              is_external: true
-            - text: "VDS Symposium"
-              description: "Visualization in Data Science"
-              url: "http://www.visualdatascience.org/2021/index.html"
-              is_external: true
-            - text: "VIS4DH Workshop"
-              description: "Visualization for the Digital Humanities"
-              url: "http://www.vis4dh.org/"
-              is_external: true
-#           - text: "VISxAI Workshop"
-#             description: "3rd Workshop on Visualization for AI Explainability"
-#             url: "https://visxai.io/"
-#             is_external: true
-#           - text: "LDAV Symposium"
-#             description: "Big Data Analysis and Visualization"
-#             url: "https://ldav.org/"
-#             is_external: true
-#           - text: "BELIV Workshop"
-#             description: "From a Distance: Research practices during the COVID-19 pandemic and beyond."
-#             url: "https://beliv-workshop.github.io/"
-#             is_external: true
+              - text: "VIS Arts Program: Enchantment"
+                description: "Where art, design, and research come together"
+                url: "https://visap.net/"
+                is_external: true
+  #           - text: "VisInPractice"
+  #             description: "Invited talks by visualization practitioners"
+  #             url: "https://visinpractice.github.io/"
+  #             is_external: true
+              - text: "VizSec Symposium"
+                description: "Visualization for Cyber Security"
+                url: "https://vizsec.org/"
+                is_external: true
+              - text: "VAHC Workshop"
+                description: "Visual Analytics for Healthcare"
+                url: "https://visualanalyticshealthcare.org/"
+                is_external: true
+              - text: "VDS Symposium"
+                description: "Visualization in Data Science"
+                url: "http://www.visualdatascience.org/2021/index.html"
+                is_external: true
+              - text: "VIS4DH Workshop"
+                description: "Visualization for the Digital Humanities"
+                url: "http://www.vis4dh.org/"
+                is_external: true
+  #           - text: "VISxAI Workshop"
+  #             description: "3rd Workshop on Visualization for AI Explainability"
+  #             url: "https://visxai.io/"
+  #             is_external: true
+  #           - text: "LDAV Symposium"
+  #             description: "Big Data Analysis and Visualization"
+  #             url: "https://ldav.org/"
+  #             is_external: true
+  #           - text: "BELIV Workshop"
+  #             description: "From a Distance: Research practices during the COVID-19 pandemic and beyond."
+  #             url: "https://beliv-workshop.github.io/"
+  #             is_external: true
       - subsections:
           - heading: "Competitions"
             description: "Advancing visualization through competition"
