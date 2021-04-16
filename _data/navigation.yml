@@ -222,7 +222,7 @@ menu:
            - heading: "Associated Events"
              columns:
               - links:
-                - text: "VIS Arts Program"
+                - text: "VIS Arts Program: dis/connected"
                   description: "Where art, design, and research come together"
                   url: "https://visap.net/"
                   is_external: true
