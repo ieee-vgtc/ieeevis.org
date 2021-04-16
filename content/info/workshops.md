@@ -19,7 +19,6 @@ Here is the list of the accepted workshops. Please visit their individual websit
 * [VisXVision: Workshop on Novel Directions in Vision Science and Visualization Research](#visxvision)
 * [2nd IEEE VIS Workshop on Data Vis Activities to Facilitate Learning, Reflecting, Discussing and Designing](#visactivities)
 * [alt.VIS](#altvis)
-* [VAHC: Visual Analytics in Healthcare](#vahc)
 
 <hr/>
 
@@ -155,12 +154,5 @@ Contact: lonni.besancon@gmail.com
 
 Often the most transformative ideas and challenges come from unexpected and serendipitous sources. Yet, conferences are not often perceived of as a place for non-traditional, controversial, or outré work. Borrowing from the long-running and successful “alt.chi” model from the ACM SIGCHI conference, we propose an “alt.VIS” workshop as an avenue for surfacing work that would otherwise not find a home through the standard VIS conference review process.
 
-## <a name="vahc"></a> [VAHC: Visual Analytics in Healthcare](https://www.visualanalyticshealthcare.org/cfp.html)
-
-Jürgen Bernard, *University of Zurich* <br>
-Annie T. Chen, *University of Washington* <br>
-Danny T.Y. Wu, *University of Cincinnati* 
-
-Contact: vahc.sig@gmail.com
 
 
