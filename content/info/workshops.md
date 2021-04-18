@@ -39,7 +39,9 @@ Kajetan Enge, *St. Poelten University of Applied Sciences* <br>
 Michael Iber, *St. Poelten University of Applied Sciences* <br>
 Alexander Rind, *St. Poelten University of Applied Sciences* <br>
 Niklas Elmqvist, *University of Maryland, College Park* <br>
-Robert Höldrich, *University of Music and Performing Arts Graz*
+Robert Höldrich, *University of Music and Performing Arts Graz* <br>
+Niklas Rönnberg, *Linköping University* <br>
+Bruce N. Walker, *Georgia Institute of Technology*
 
 Contact: kajetan.enge@fhstp.ac.at
 
