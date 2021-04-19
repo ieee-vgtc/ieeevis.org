@@ -233,9 +233,9 @@ menu:
                 description: "Big Data Analysis and Visualization"
                 # url: ""
                 is_external: true
-              - text: "VDS Symposium (coming soon)"
+              - text: "VDS Symposium"
                 description: "Visualization in Data Science"
-                # url: ""
+                url: "http://www.visualdatascience.org/2021/index.html"
                 is_external: true
               - text: "VizSec Symposium"
                 description: "Visualization for Cyber Security"
