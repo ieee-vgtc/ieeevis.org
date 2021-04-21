@@ -249,9 +249,9 @@ menu:
                 description: "Visualization for the Digital Humanities"
                 url: "http://www.vis4dh.org/"
                 is_external: true
-              - text: "VISxAI Workshop (coming soon)"
+              - text: "VISxAI Workshop"
                 description: "Visualization for AI Explainability"
-                # url: ""
+                url: "http://visxai.io/"
                 is_external: true
       - subsections:
           - heading: "Competitions"
