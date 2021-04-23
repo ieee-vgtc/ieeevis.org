@@ -60,16 +60,16 @@ Increase your visibility and reputation as a member of the VIS community and wit
 
 Ultimately, being a GC is about working for the community to shape a great conference. This has its own rewards, and people are appreciative. Former GCs report on the satisfaction of giving back to the community through an important and influential service role that has long-lasting effect.
 
-“_People had a good time, and it is rewarding when they express their appreciation for that._”
+> “_People had a good time, and it is rewarding when they express their appreciation for that._”
 
-“_Folks still come up to me, over 10 years later, remembering interacting with me at that VIS or at least remembering the conference that year and recognizing I was the chair. I suspect that that exposure is also a benefit in ways that are less visible to me._”
+> “_Folks still come up to me, over 10 years later, remembering interacting with me at that VIS or at least remembering the conference that year and recognizing I was the chair. I suspect that that exposure is also a benefit in ways that are less visible to me._”
 
-“_We worked hard to leave the conference in better shape than when we arrived._”
+> “_We worked hard to leave the conference in better shape than when we arrived._”
 
-If you are inspired to do so, then please connect with the IEEE VIS Executive Committee ([VEC](mailto:vec@ieeevis.org)) with your ideas, and check [the two-stage process for volunteering](https://ieeevis.org/governance/bids).
+If you are inspired to do so, then please connect with the IEEE VIS Executive Committee ([VEC](mailto:vec@ieeevis.org)) with your ideas, and check the two-stage [IEEE VIS General Chair Applications & Bid Process](https://ieeevis.org/governance/bids).
 
 Remember, that
- * **Stage 1 commits you to nothing**, it simply initiates some discussion.<br/>**It does not involve any consideration of venues or negotiations with conference centres or hotels**.<br/>This all comes later (Stage 2!) and with support from the IEEE events team.
+ * **Stage 1 commits you to nothing**, it simply initiates some discussion.<br/>**It does not involve any consideration of venues or negotiations with conference centres or hotels** This all comes later (Stage 2!) and with support from the IEEE events team.
  * What we need initially are **desire, ambition, capability, and potential** in terms of people and locations that have possibilities.
 
 Ultimately, VIS as a community is looking for capable people to either take the conference to new places, or to revisit favourite places that we know. In both cases we hope that they will build upon this fantastic conference series to move us forwards and in exciting new directions that are good for them, their colleagues, their city and IEEE VIS.  Our former GCs have certainly found it to be a rewarding experience.
@@ -79,3 +79,8 @@ Ultimately, VIS as a community is looking for capable people to either take the 
 
 > “_Mid-career and senior people in our field often acknowledge that they have benefited from those who have preceded us — former teachers, mentors and researchers.  They also are looking at ways to invest in others. Certainly there are great service roles with our community, but being a General Chair at IEEE VIS is an opportunity to both be in a leadership and service role simultaneously. In doing so, a person has the opportunity to partner with others seeking to steer and grow our community efforts while at the same time serving the current and next generation of visualization scientists._”<br/>
 **Mike Kirby (General Chair, IEEE VIS 2020, Salt Lake City)**
+
+---
+
+## Change Log
+* 23 April 2021 - created by VEC
