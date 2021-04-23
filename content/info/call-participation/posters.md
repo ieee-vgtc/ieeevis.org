@@ -55,9 +55,9 @@ At the time of submission, it is required by the authors to state explicitly in 
 
 ### IMPORTANT DATES
 
-* Submission Deadline: **Monday, June 14, 2021**
-* Notification of Acceptance: **Thursday, July 22, 2021**
-* Final Submission of Camera Ready Summaries and Electronic Poster: **Sunday, August 15, 2021**
+* Submission Deadline: **Monday, June 21, 2021**
+* Notification of Acceptance: **Thursday, July 29, 2021**
+* Final Submission of Camera Ready Summaries and Electronic Poster: **Sunday, August 22, 2021**
 
 All deadlines are at **5:00pm Pacific Time (PDT)**.
 
