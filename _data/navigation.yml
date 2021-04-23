@@ -225,9 +225,9 @@ menu:
                 description: "Where art, design, and research come together"
                 url: "https://visap.net/"
                 is_external: true
-              - text: "VisInPractice (coming soon)"
+              - text: "VisInPractice"
                 description: "Invited talks by visualization practitioners"
-                # url: ""
+                url: "https://visinpractice.github.io/"
                 is_external: true
               - text: "LDAV Symposium (coming soon)"
                 description: "Big Data Analysis and Visualization"
