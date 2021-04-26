@@ -1,7 +1,7 @@
 ---
 title: IEEE VIS - Being General Chair of IEEE VIS
 layout: page
-permalink: /governance/bids
+permalink: /governance/general-chairs
 ---
 
 ## Being General Chair of IEEE VIS
