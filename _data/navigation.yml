@@ -155,32 +155,32 @@ menu:
 
 
   - dropdown: "Program"
-    display: false
+    display: true
     sections:
       - subsections:
           - heading: "Vis Program"
-            heading_url: "/year/2021/info/week-at-a-glance"
-            description: "See the complete conference program"
+            # heading_url: "/year/2021/info/week-at-a-glance"
+            # description: "See the complete conference program"
             columns:
               - links:
-                - text: "Papers"
-                  description: "The latest research in theory, methods, and applications of visualization"
-                  url: "/year/2021/info/papers-sessions"
-                - text: "Posters"
-                  description: "Nascent and recent work"
-                  url: "/year/2021/info/posters"
-                - text: "Tutorials"
-                  description: "Learn new tools and application domains"
-                  url: "/year/2021/info/tutorials"
+              #   - text: "Papers"
+              #     description: "The latest research in theory, methods, and applications of visualization"
+              #     url: "/year/2021/info/papers-sessions"
+              #   - text: "Posters"
+              #     description: "Nascent and recent work"
+              #     url: "/year/2021/info/posters"
+              #   - text: "Tutorials"
+              #     description: "Learn new tools and application domains"
+              #     url: "/year/2021/info/tutorials"
                 - text: "Workshops"
                   description: "Informal setting to discuss emerging topics"
                   url: "/year/2021/info/workshops"
-                - text: "Panels"
-                  description: "Discuss important and controversial issues"
-                  url: "/year/2021/info/panels"
-                - text: "Application Spotlights"
-                  description: "Showcase practical, real-world applications of visualization"
-                  url: "/year/2021/info/spotlights"
+                # - text: "Panels"
+                #   description: "Discuss important and controversial issues"
+                #   url: "/year/2021/info/panels"
+                # - text: "Application Spotlights"
+                #   description: "Showcase practical, real-world applications of visualization"
+                #   url: "/year/2021/info/spotlights"
 
 #      - subsections:
 #          - heading: "Plenary Sessions"
