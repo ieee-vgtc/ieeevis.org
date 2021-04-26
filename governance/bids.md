@@ -58,7 +58,8 @@ _To follow ..._
 ---
 
 ## Change Log
-* 23 April 2021 - Updated by VEC in light of reVISe governance changes
+* 26 April 2021 - VEC : updated in light of General Chairs page 
+* 23 April 2021 - VEC : updated in light of reVISe governance changes
 * 26 Sep 2017 - Converted to markdown, update years approved & email addresses
 * 15 Nov 2016 - Further amendments approved by VEC
 * 24 October 2016 - Amendments approved by VEC
