@@ -1,20 +1,20 @@
 ---
-title: IEEE VIS - Being a General Chair
+title: IEEE VIS - Being General Chair of IEEE VIS
 layout: page
-permalink: /governance/generalChairs
+permalink: /governance/bids
 ---
 
-## Being a General Chair
+## Being General Chair of IEEE VIS
 
-Being a General Chair (GC) for IEEE VIS is a lot of work, but it’s a rewarding and well supported role that puts you at the head of a talented team of enthusiastic and capable people from around the world.
+Being a General Chair (GC) for IEEE VIS puts you at the head of a talented team of enthusiastic and capable people from around the world. It enables you to draw upon these people, and your own local talent, to deliver an exciting VIS conference in your way, as you bring the global visualization community to you. It is a lot of work, but it’s a rewarding, influential and well supported role.
 
 This setup has enabled many members of the community to deliver great international conferences in places that are important to them and in a way that they have contributed to shaping. Here, some of these former General Chairs describe and reflect on their experiences when taking on this important role, to let the community know a little about the benefits, opportunities, and of course workload associated with being the GC of IEEE VIS. We hope that this will inspire other individuals and groups to volunteer and lead our community into the VIS future.
 
 > “_It is a big commitment, and not something to take on lightly, but in the end it is really fun. I would recommend it to anyone with the energy and desire to be involved in the community._”<br/>
-**Valerio Pascucci (General Chair, IEEE VIS 2020, Salt Lake City)**
+**Valerio Pascucci (General Co-Chair, IEEE VIS 2020, Salt Lake City)**
 
 > “_You learn a lot about our community and yourself. Even if you are very experienced in several aspects of VIS organization. Chairing a VIS conference is different and brings you many new insights that you never expected._”<br/>
-**Holger Theisel (General Chair, IEEE VIS 2018, Berlin)**
+**Holger Theisel (General Co-Chair, IEEE VIS 2018, Berlin)**
 
 > “_It is like hosting an event for a thousand of your closest friends_”<br/>
 **Jim Ahrens (General Chair, IEEE VIS 2019, Phoenix)**
@@ -66,21 +66,27 @@ Ultimately, being a GC is about working for the community to shape a great confe
 
 > “_We worked hard to leave the conference in better shape than when we arrived._”
 
-If you are inspired to do so, then please connect with the IEEE VIS Executive Committee ([VEC](mailto:vec@ieeevis.org)) with your ideas, and check the two-stage [IEEE VIS General Chair Applications & Bid Process](https://ieeevis.org/governance/bids).
+#### Think About it!
+
+If you are inspired to think about hosting VIS, then please connect with the IEEE VIS Executive Committee ([VEC](mailto:vec@ieeevis.org)) with your ideas, and check the two-stage [IEEE VIS General Chair Applications & Bid Process](https://ieeevis.org/governance/bids).
 
 Remember, that
  * **Stage 1 commits you to nothing**, it simply initiates some discussion.<br/>**It does not involve any consideration of venues or negotiations with conference centres or hotels** This all comes later (Stage 2!) and with support from the IEEE events team.
  * What we need initially are **desire, ambition, capability, and potential** in terms of people and locations that have possibilities.
 
-Ultimately, VIS as a community is looking for capable people to either take the conference to new places, or to revisit favourite places that we know. In both cases we hope that they will build upon this fantastic conference series to move us forwards and in exciting new directions that are good for them, their colleagues, their city and IEEE VIS.  Our former GCs have certainly found it to be a rewarding experience.
+Ultimately, VIS _as a community_ is looking for capable people to either take the conference to new places, or to revisit favourite places that we know. In both cases we hope that they will build upon this fantastic conference series to move us forwards and in exciting new directions that are good for them, their colleagues, their city and IEEE VIS. Our former GCs have certainly found it to be a rewarding experience - personally, and for their organization and host city.
 
-> "_Serving your community as a GC of VIS can be one of the most rewarding professional experiences of your career. If you love VIS, the whole field, you can contribute and make your impression on the conference. It was a privilege working with some of the best people I have ever met, people of integrity and commitment who love the conference and the community and give their best efforts to its success. If you open yourself to it, you can learn a lot from the experience and make friends for a lifetime. Though it is a profound relief when it is over, you can look back with pride, and you will find there were many happy times along the way._"<br/>
-**Terry Yoo (General Chair, IEEE VIS 2016, Baltimore)**
+> "_Serving your community as a GC of VIS can be one of the most rewarding professional experiences of your career. If you love VIS, the whole field, you can contribute and make your impression on the conference. It was a privilege working with some of the best people I have ever met, people of integrity and commitment who love the conference and the community and give their best efforts to its success. If you open yourself to it, you can learn a lot from the experience and make friends for a lifetime. Though it is a profound relief when it is over, you can look back with pride, and you will find there were many happy times along the way._"
+**Terry Yoo (General Co-Chair, IEEE VIS 2016, Baltimore)**
 
-> “_Mid-career and senior people in our field often acknowledge that they have benefited from those who have preceded us — former teachers, mentors and researchers.  They also are looking at ways to invest in others. Certainly there are great service roles with our community, but being a General Chair at IEEE VIS is an opportunity to both be in a leadership and service role simultaneously. In doing so, a person has the opportunity to partner with others seeking to steer and grow our community efforts while at the same time serving the current and next generation of visualization scientists._”<br/>
-**Mike Kirby (General Chair, IEEE VIS 2020, Salt Lake City)**
+> "_Hosting the IEEE VIS conference positions the chair's institution at the forefront of the international visualization academic research community, and positions the host city as a world-class tourism destination, providing both the institution and the city with invaluable Marketing and Public Relations opportunities. It also enables the chair to grow the conference and keep it relevant by infusing new ideas, new concepts, new venues and local talent, upon which future conferences can build_"
+**Maxine Brown (General Co-Chair, IEEE VIS 2015, Chicago)**
+
+> “_Mid-career and senior people in our field often acknowledge that they have benefited from those who have preceded us — former teachers, mentors and researchers.  They also are looking at ways to invest in others. Certainly there are great service roles with our community, but being a General Chair at IEEE VIS is an opportunity to both be in a leadership and service role simultaneously. In doing so, a person has the opportunity to partner with others seeking to steer and grow our community efforts while at the same time serving the current and next generation of visualization scientists._”
+**Mike Kirby (General Co-Chair, IEEE VIS 2020, Salt Lake City)**
 
 ---
 
 ## Change Log
-* 23 April 2021 - created by VEC
+* 26 April 2021 - VEC : minor updates on proofing
+* 23 April 2021 - VEC : created
