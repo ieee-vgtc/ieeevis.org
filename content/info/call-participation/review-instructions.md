@@ -16,15 +16,15 @@ This page provides detailed instructions for both PC reviewers and external revi
   - [Keywords Update, by March 20](#keywords-update)
   - [Bidding, March 22 thru March 31](#bidding)
   - [Assigning External Reviewers, April 14 thru April 21](#assigning-external-reviewers)
-  - [First Round Reviewing, April 14 thru May 7](#first-round-reviewing)
-  - [Discussion, May 8 thru May 14](#discussion)
-  - [First Round Decisions, May 15 thru June 6](#first-round-decisions)
-  - [Shepherding, June 7 thru June 24](#shepherding)
-  - [Second Round Reviewing, June 25 thru July 7](#second-round-reviewing)
+  - [First Round Reviewing, April 14 thru May 14](#first-round-reviewing)
+  - [Discussion, May 15 thru May 21](#discussion)
+  - [First Round Decisions, TBA](#first-round-decisions)
+  - [Shepherding, TBA](#shepherding)
+  - [Second Round Reviewing, TBA](#second-round-reviewing)
 - [External Reviewing Instructions](#external-reviewing-instructions)
   - [Keywords Update, by March 20](#keywords-update-1)
-  - [Reviewing, April 14 thru May 7](#reviewing)
-  - [Discussion, May 8 thru May 14](#discussion-1)
+  - [Reviewing, April 14 thru May 14](#reviewing)
+  - [Discussion, May 15 thru May 21](#discussion-1)
 - [Additional Reviewing Guidance](#additional-reviewing-guidance)
   - [Paper Quality](#paper-quality)
   - [Reviewing Ethics](#reviewing-ethics)
@@ -102,7 +102,7 @@ Follow up with the external reviewer and ensure that they accept the invitation.
 Do not ask other PC, APC, or OPC members to be external reviewers. The full PC list can be found on the [conference website]({{ '/info/committees/program-committees' | relative_url }}). (Note that they are also marked as "cmte" on the review assignment screen in PCS.)
 
 ## First Round Reviewing
-**April 14 thru May 7**
+**April 14 thru May 14**
 
 During this phase, both primaries and secondaries:
 * Write a regular review of their assigned papers.
@@ -120,12 +120,12 @@ If you have any questions in this regard about a particular paper, please either
 Please see [Additional Reviewing Guidance](#additional-reviewing-guidance) for further considerations.
 
 ## Discussion
-**May 8 thru May 14**
+**May 15 thru May 21**
 
 Primaries:
 * As soon as possible, initiate discussion with the other reviewers in order to reach a consensus about whether the paper should be conditionally accepted or rejected for publication.
 * Ensure that all reviewers contribute to the discussion about the paper. Consider emailing external reviewers directly if they are not responsive.
-* By the end of the discussion period, write a summary review with a recommendation of conditional acceptance or rejection based on the reviews and the discussion. *This summary review MUST explicitly spell out what the conditions are for turning a conditionally accepted paper into an accepted one.* The authors need to know what is required of them as well as what comments they should consider but that aren’t required to address. If you and the secondary reviewer cannot agree on a recommendation for a submission, please document the discussion in the confidential portion of the summary review. If views have changed or consensus cannot be achieved, please let us know why in the confidential comments. **Summary reviews are due on May 14.**
+* By the end of the discussion period, write a summary review with a recommendation of conditional acceptance or rejection based on the reviews and the discussion. *This summary review MUST explicitly spell out what the conditions are for turning a conditionally accepted paper into an accepted one.* The authors need to know what is required of them as well as what comments they should consider but that aren’t required to address. If you and the secondary reviewer cannot agree on a recommendation for a submission, please document the discussion in the confidential portion of the summary review. If views have changed or consensus cannot be achieved, please let us know why in the confidential comments. **Summary reviews are due on May 21.**
 
 Secondaries:
 * Discuss with the primary reviewer to agree on a recommendation in the first review cycle.
@@ -133,12 +133,12 @@ Secondaries:
 Please keep the discussion anonymous by referring to other reviewers as R1, R2, etc., and remember to not sign your name in the discussions.
 
 ## First Round Decisions
-**May 15 thru June 6**
+**TBA**
 
 Please be available electronically for discussion with the paper chairs about the papers, your recommendation, and the review process. This is particularly important if any of your review processes are contentious or controversial. If you will not be available to field our questions, please let the paper chairs know in advance.
 
 ## Shepherding	
-**June 7 thru June 24**
+**TBA**
 
 At the beginning of June, the paper chairs will send out conditional acceptance and rejection notifications. For some conditionally accepted papers the summary review indicates that there is either a longer set of things to change or a few that will require more careful work. For these papers the paper chairs will encourage authors to engage with the primary and secondary reviewers early in the revision period to clarify that their proposed edits/changes will be sufficient.
 
@@ -152,7 +152,7 @@ All shepherded papers must meet the same review expectations as other conditiona
 In communicating with authors, be careful not to send email with your signature attached in order to maintain your anonymity, and only correspond through the PCS system.
 
 ## Second Round Reviewing
-**June 25 thru July 7**
+**TBA**
 
 Primaries:
 For each of the papers for which you are the primary reviewer and that has received a conditional accept decision, please:
@@ -179,12 +179,12 @@ For each of the papers for which you are the primary reviewer and that has recei
 
 
 ## Reviewing
-**Apr 14 thru May 7**
+**Apr 14 thru May 14**
 
 High-quality reviews are critical to the quality of the conference program. Please familiarize yourself with the reviewing ethics and guidelines described in [Additional Reviewing Guidance](#additional-reviewing-guidance).
 
 ## Discussion
-**May 8 thru May14**
+**May 15 thru May 21**
 
 Following the completion of the reviewing phase, the primary reviewer will initiate a discussion with all reviewers of a paper through the PCS system. During this time you are to engage with the other reviewers to come to a consensus decision on whether to conditionally accept or reject the paper. Please keep the discussion anonymous by referring to other reviewers as R1, R2, etc., and remember to not sign your name in the review or the discussions.
 
