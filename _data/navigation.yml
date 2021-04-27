@@ -397,16 +397,16 @@ menu:
               - text: "2022 in Melbourne, Victoria, Australia"
                 description: ""
                 url: "/"
-              # - text: "Bidding"
-              #   description: "Guidelines to bid for a future location of IEEE VIS"
-              #   url: "/governance/bids"
-         - heading: "Hosting IEEE Vis"
-           columns:
-            - links:
-              - text: "IEEE VIS General Chair Applications & Bid Process"
-                url: "/governance/bids"
-              - text: "Being General Chair of IEEE VIS"
-                url: "/governance/generalChairs"
+              - text: "Bidding"
+                description: "Guidelines to bid for a future location of IEEE VIS"
+                #url: "/governance/bids"
+         # - heading: "Hosting IEEE Vis"
+         #   columns:
+         #    - links:
+         #      - text: "IEEE VIS General Chair Applications & Bid Process"
+         #        url: "/governance/bids"
+         #      - text: "Being General Chair of IEEE VIS"
+         #        url: "/governance/generalChairs"
          - heading: "Web Documentation"
            columns:
              - links:
