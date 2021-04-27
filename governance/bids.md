@@ -9,6 +9,7 @@ IEEE VIS welcomes applications from candidates who would like to act as General 
 Those who are interested should use the [IEEE VIS General Chair Application Form](https://docs.google.com/forms/d/1AaIJ62xvdRFLhhh7IY_HIleNS9TEjGDuutx12PDWgS4/edit?ts=602bda3a) to contact the VIS Executive Committee ([VEC](mailto:vec@ieeevis.org)) with their ideas, credentials and possible host cities.
 
 We are looking to hold IEEE VIS in well-connected cities around the world that could provide the facilities and backdrop for an excellent conference.
+Former General Chairs describe the role, offering some experience of [Being General Chair of IEEE VIS](/governance/generalChairs) to inspire others to lead our community into the VIS future.
 
 ## Process
 
