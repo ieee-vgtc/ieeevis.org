@@ -10,12 +10,12 @@ The role of the VEC is to oversee the planning and success of IEEE VIS. The VEC 
 The current VEC members are:
 
 | **Name** | **Affiliation** |
-| Lisa Avila | *Kitware* |
+| Lisa Avila - Chair | *Kitware* |
 | Sheelagh Carpendale | *Simon Fraser University* |
 | Gautam Chaudhary | *Alcon* |
 | Min Chen | *Oxford* |
 | Chris Collins | *Ontario Tech University* |
-| Jason Dykes | *City University London* |
+| Jason Dykes - Vice Chair | *City University London* |
 | Bongshin Lee | *Microsoft Research* |
 | Ross Maciejewski | *Arizona State University* |
 | Elisabeta Marai | *University of Illinois at Chicago* |
