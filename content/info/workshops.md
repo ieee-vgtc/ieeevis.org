@@ -5,9 +5,16 @@ permalink: /info/workshops
 contact: workshops@ieeevis.org
 ---
 
-## Accepted Workshops
-Here is the list of the accepted workshops. Please visit their individual websites for details on the topics and submission deadlines, or contact the organizers directly if no website is available yet. 
+## Pre-Approved Workshops
+These workshops were pre-approved by the VIS Executive Committee. Please visit their individual websites for details on the topics and submission deadlines, or contact the organizers directly if no website is available yet. 
 
+* [VAHC 2021: 12th workshop on Visual Analytics in Healthcare](#vahc)
+* [VIS4DH: 6th Workshop on Visualization for the Digital Humanities](#vis4dh)
+* [VISxAI: 4th Workshop on Visualization for AI Explainability](#visxai)
+
+
+## Accepted Workshops
+These workshops went through our [submission/review process](http://ieeevis.org/year/2021/info/call-participation/workshops). Please visit their individual websites for details on the topics and submission deadlines, or contact the organizers directly if no website is available yet. 
 
 * [Exploring Opportunities and Challenges for Natural Language Techniques to Support Visual Analysis Tasks](#natlang)
 * [Workshop on Audio-Visual Analytics – Towards a Research Agenda for Integrating Sonification and Visualization](#sonification)
@@ -21,6 +28,39 @@ Here is the list of the accepted workshops. Please visit their individual websit
 * [alt.VIS](#altvis)
 
 <hr/>
+
+## <a name="vahc"></a> [VAHC 2021: 12th workshop on Visual Analytics in Healthcare](https://visualanalyticshealthcare.org/)
+
+Jürgen Bernard, *University of Zurich* <br>
+Annie T. Chen,	*University of Washington* <br>
+Danny T.Y. Wu, *University of Cincinnati* 
+
+Contact: vahc@ieeevis.org
+
+Visual Analytics in Healthcare is the premier research event exploring the application of data visualization and visual analytics to biomedicine. VAHC 2021 will bring together medical experts, leading scientists, and visionaries to discuss opportunities and challenges in using visual analytics techniques to help patients, clinicians, public health researchers, and others leverage the power of complex health datasets.
+
+
+## <a name="vis4dh"></a> [VIS4DH: 6th Workshop on Visualization for the Digital Humanities](http://www.vis4dh.org/)
+
+Houda Lamqaddamm, *KU Leuven* <br>
+Florian Windhager, *Danube University Krems*
+
+Contact: vis4dh@ieeevis.org
+
+The VIS4DH workshop brings together researchers and practitioners from the fields of visualization and the humanities to discuss new research directions at the intersection of visualization and (digital) humanities research.
+
+
+## <a name="visxai"></a> [VISxAI: 4th Workshop on Visualization for AI Explainability](http://visxai.io/)
+
+Adam Perer, *Carnegie Mellon University* <br>
+Fred Hohman, *Apple* <br>
+Hendrik Strobelt, *MIT-IBM Watson AI Lab* <br>
+Mennatallah El-Assady, *University of Konstanz*
+
+Contact: orga.visxai@gmail.com
+
+The role of visualization in artificial intelligence (AI) gained significant attention in recent years. With the growing complexity of AI models, the critical need for understanding their inner-workings has increased. Visualization is potentially a powerful technique to fill such a critical need.  The goal of this workshop is to initiate a call for "explainables" / "explorables" that explain how AI techniques work using visualization. We believe the VIS community can leverage their expertise in creating visual narratives to bring new insight into the often obfuscated complexity of AI systems.
+
 
 ## <a name="natlang"></a> [Exploring Opportunities and Challenges for Natural Language Techniques to Support Visual Analysis Tasks]()
 
