@@ -243,18 +243,9 @@ menu:
                 description: "Visualization for Cyber Security"
                 url: "https://vizsec.org/vizsec2021/"
                 is_external: true
-              - text: "VAHC Workshop"
-                description: "Visual Analytics for Healthcare"
-                url: "https://visualanalyticshealthcare.org/"
-                is_external: true
-              - text: "VIS4DH Workshop"
-                description: "Visualization for the Digital Humanities"
-                url: "http://www.vis4dh.org/"
-                is_external: true
-              - text: "VISxAI Workshop"
-                description: "Visualization for AI Explainability"
-                url: "http://visxai.io/"
-                is_external: true
+              - text: "IEEE VIS Workshops"
+                description: "Informal settings to discuss emerging topics"
+                url: "/year/2021/info/workshops"
       - subsections:
           - heading: "Competitions"
             description: "Advancing visualization through competition"
