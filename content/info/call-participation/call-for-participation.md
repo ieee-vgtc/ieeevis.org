@@ -48,10 +48,10 @@ All deadlines are at **5:00pm Pacific Time (PDT).**
 |---------------------|------|
 | Abstract submission (MANDATORY) | Sunday, March 21, 2021 |
 | Paper submission | Wednesday, March 31, 2021 |
-| Notification of results of first review cycle | TBA |
-| Paper submission for second review cycle | TBA |
-| Final notification | TBA |
-| Camera-ready copy | TBA |
+| Notification of results of first review cycle | Sunday, June 13, 2021 |
+| Paper submission for second review cycle | Thursday, July 1, 2021 |
+| Final notification | Thursday, July 15, 2021 |
+| Camera-ready copy | Sunday, August 8, 2021 |
 
 ## Submission Guidelines and Reviewing Criteria
 
