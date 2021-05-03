@@ -18,9 +18,9 @@ This page provides detailed instructions for both PC reviewers and external revi
   - [Assigning External Reviewers, April 14 thru April 21](#assigning-external-reviewers)
   - [First Round Reviewing, April 14 thru May 14](#first-round-reviewing)
   - [Discussion, May 15 thru May 21](#discussion)
-  - [First Round Decisions, TBA](#first-round-decisions)
-  - [Shepherding, TBA](#shepherding)
-  - [Second Round Reviewing, TBA](#second-round-reviewing)
+  - [First Round Decisions, May 22 thru June 13](#first-round-decisions)
+  - [Shepherding, June 14 thru July 1](#shepherding)
+  - [Second Round Reviewing, July 2 thru July 14](#second-round-reviewing)
 - [External Reviewing Instructions](#external-reviewing-instructions)
   - [Keywords Update, by March 20](#keywords-update-1)
   - [Reviewing, April 14 thru May 14](#reviewing)
@@ -133,12 +133,12 @@ Secondaries:
 Please keep the discussion anonymous by referring to other reviewers as R1, R2, etc., and remember to not sign your name in the discussions.
 
 ## First Round Decisions
-**TBA**
+**May 22 thru June 13**
 
 Please be available electronically for discussion with the paper chairs about the papers, your recommendation, and the review process. This is particularly important if any of your review processes are contentious or controversial. If you will not be available to field our questions, please let the paper chairs know in advance.
 
 ## Shepherding	
-**TBA**
+**June 14 thru July 1**
 
 At the beginning of June, the paper chairs will send out conditional acceptance and rejection notifications. For some conditionally accepted papers the summary review indicates that there is either a longer set of things to change or a few that will require more careful work. For these papers the paper chairs will encourage authors to engage with the primary and secondary reviewers early in the revision period to clarify that their proposed edits/changes will be sufficient.
 
@@ -152,7 +152,7 @@ All shepherded papers must meet the same review expectations as other conditiona
 In communicating with authors, be careful not to send email with your signature attached in order to maintain your anonymity, and only correspond through the PCS system.
 
 ## Second Round Reviewing
-**TBA**
+**July 2 thru July 14**
 
 Primaries:
 For each of the papers for which you are the primary reviewer and that has received a conditional accept decision, please:
