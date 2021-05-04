@@ -62,7 +62,7 @@ Contact: orga.visxai@gmail.com
 The role of visualization in artificial intelligence (AI) gained significant attention in recent years. With the growing complexity of AI models, the critical need for understanding their inner-workings has increased. Visualization is potentially a powerful technique to fill such a critical need.  The goal of this workshop is to initiate a call for "explainables" / "explorables" that explain how AI techniques work using visualization. We believe the VIS community can leverage their expertise in creating visual narratives to bring new insight into the often obfuscated complexity of AI systems.
 
 
-## <a name="natlang"></a> [Exploring Opportunities and Challenges for Natural Language Techniques to Support Visual Analysis Tasks]()
+## <a name="natlang"></a> [Exploring Opportunities and Challenges for Natural Language Techniques to Support Visual Analysis Tasks](https://www.nlvizworkshop.com/)
 
 Vidya Setlur, *Tableau Research* <br>
 Arjun Srinivasan, *Tableau Research*
