@@ -231,9 +231,9 @@ menu:
                 description: "Invited talks by visualization practitioners"
                 url: "https://visinpractice.github.io/"
                 is_external: true
-              - text: "LDAV Symposium (coming soon)"
+              - text: "LDAV Symposium"
                 description: "Big Data Analysis and Visualization"
-                # url: ""
+                url: "https://ldav.org/"
                 is_external: true
               - text: "VDS Symposium"
                 description: "Visualization in Data Science"
