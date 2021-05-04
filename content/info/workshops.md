@@ -122,7 +122,7 @@ Michael Correll, *Tableau Research* <br>
 Lane Harrison, *Worcester Polytechnic Institute* <br>
 Evan Peck, *Bucknell University*
 
-Contact: mcorrell@tableau.com
+Contact: vis4good-org@googlegroups.com
 
 Visualization, like all fields connected with how we collect, interpret, and communicate data, has an immense potential impact on society, for good or for ill. We should make our values as a field explicit, criticize and critique the work we do that has a potential for harm, develop a pedagogy around the socially responsible design and use of visualization, and develop good patterns for fruitful collaboration with stakeholders working on key societal problems. 
 We are the representatives of a long-time effort around better integrating social good and social causes into the culture and program of the IEEE VIS community, and raising awareness and recognition of how visualizations and visualization research can impact society. As part of this effort we organized the Visualization for Social Good tutorial at IEEE VIS 2019 and a panel on Visualization for Social Good at IEEE VIS 2020.
@@ -183,7 +183,7 @@ Contact: samuel.huron@telecom-paristech.fr
 
 This Data Vis Activities workshop is a sequel to our successful workshop at IEEE VIS 2020, focusing on methods and challenges for teaching and engaging with data visualization concepts, knowledge, and practices. Examples of such activities include sketching for design, constructing to learn, user interviews to elicit impressions and discussions to help developers understand requirements. Recent years have seen the emergence of such data visualization activities and associated research in different contexts, including education, visualization design, activism, self-reflection, and interdisciplinary collaboration. While our 2020 half-day workshop focused on providing activity research a dedicated platform and on start building a community, this workshop will focus on I) creating, running, and reflecting on activities especially in online settings, II) discussing higher-level issues in regards to activities, visualization education, and engagement, as well as III) discussing concrete future steps to build a permanent forum and community around these topics. Given that IEEE VIS 2021 is likely to run online, we design our workshop activities with an online setting in mind.
 
-## <a name="altvis"></a> [alt.VIS]()
+## <a name="altvis"></a> [alt.VIS](https://altvis.github.io/)
 
 Jane L. Adams, *University of Vermont* <br>
 Lonni Besançon, *Monash University, Linköpings Universitet* <br>
