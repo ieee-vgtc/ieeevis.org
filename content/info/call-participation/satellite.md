@@ -15,7 +15,7 @@ valuable in-person experiences that we've come to expect from a VIS conference, 
 Each satellite will be an official IEEE event. While we would like the specifics of the satellite plans to be open-ended to encourage creativity in their design, there are certain aspects that we would like to see in each:
 
 * Each satellite will have a small auxiliary program that woud complement the virtual program and take advantage of the virtual program's compressed schedule. For example, this can be a session per day before/after the virtual VIS program.  Example sessions include: lightning talks for students/researchers, panels, posters, Q/A sessions with local content providers, or lab/software demonstrations. We would like proposers to be creative in their local program.
-* Each satellite will be integrated into the virtual program.  This will be done via short videos from each site that can be used to promote local research labs or satellite programs. The frequency, length, and format of these **shout outs** are still being determined and will be driven by virtual program considerations. 
+* Each satellite will be featured on the VIS website and integrated into the virtual program via **shout outs**.  Shout outs will be via short videos from each site that can be used to promote local research labs or satellite programs. The frequency, length, and format of shout outs are still being determined and will be driven by virtual program considerations. 
 
 ## Who runs a VIS Satellite?
 Each satellite site will have a **local chair(s)** who will plan, coordinate, and run each satellite location. For their efforts, local chairs will be considered full members of the organizing committee with distinction. 
