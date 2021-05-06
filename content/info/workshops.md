@@ -101,7 +101,7 @@ Visual analytics (VA) systems combine computational support and human cognitive 
 Recent research shows trust in and reliance on the visual analytics systems/tools as well as user strategies and biases can be directly influenced by domain and system expertise (or lack of expertise). The goal of this workshop is to bring together researchers and practitioners from different disciplines to discuss and discover challenges in ML supported visual analytics tools and set the stage for future research directions and collaborations regarding these issues by proposing design guidelines, empirical findings, and VA techniques.
 
 
-## <a name="hdi"></a> [Human-Data Interaction]()
+## <a name="hdi"></a> [Human-Data Interaction](https://sites.google.com/view/hdi-vis2021/home)
 
 Lyn Bartram, *Simon Fraser University* <br>
 Sheelagh Carpendale, *Simon Fraser University* <br>
