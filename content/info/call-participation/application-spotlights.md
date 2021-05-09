@@ -8,7 +8,7 @@ contact: spotlights@ieeevis.org
 ---
 
 # Application Spotlights at IEEE VIS
-There is a clear need to promote application-focused work in the VIS community. This is both due to the recognized need to engage real-world decision makers and to the growing awareness of the value of application work for generating basic research questions. Since 2019, we created a new format to help address this need: Application Spotlights. It is one of several components - including the VAST Challenge, the SciVis Contest and the VisInPractice program - which aim at bridging the gap between fundamental research and practical applications.
+There is a clear need to promote application-focused work in the VIS community. This is both due to the recognized need to engage real-world decision makers and to the growing awareness of the value of application work for generating basic research questions. Since 2019, we created a new format to help address this need: Application Spotlights. It is one of several components - including the VAST Challenge, the SciVis Contest and the [VisInPractice program](/year/2021/info/visinpractice) - which aim at bridging the gap between fundamental research and practical applications.
 
 
 ## What is an Application Spotlight?
@@ -44,7 +44,7 @@ Feel free to contact us at spotlights@ieeevis.org if you have any questions conc
 | May 10, 2021 | Notification |
 | May 28, 2021 | Final Submissions due |
 | t.b.d. | Announcement of Spotlights on ieeevis.org |
-      
+
 All deadlines are at **5:00pm Pacific Time (PDT)**.
 
 ## Chairs
