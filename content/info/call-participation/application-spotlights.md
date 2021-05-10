@@ -40,8 +40,8 @@ Feel free to contact us at spotlights@ieeevis.org if you have any questions conc
 
 | Date | Activity |
 |------|----------|
-| April 30, 2021 | Proposal Submission |
-| May 10, 2021 | Notification |
+| ~~April 30, 2021~~ May 17, 2021 | Proposal Submission |
+| ~~May 10, 2021~~ May 19, 2021 | Notification |
 | May 28, 2021 | Final Submissions due |
 | t.b.d. | Announcement of Spotlights on ieeevis.org |
       
