@@ -13,6 +13,7 @@ We invite you to share your research, insights, and enthusiasm at IEEE VIS. The 
 Brian Summa, Tulane University<br/>
 Luis Gustavo Nonato, Universidade de Sao Paulo
 
+----
 
 Follow [@ieeevis on Twitter](https://twitter.com/ieeevis), the [IEEE VIS page on Facebook](https://www.facebook.com/ieeevis), or [sign up to our mailing list](https://ieeevis.us20.list-manage.com/subscribe?u=874d4e627b4758f4438963e98&id=6c036e3c40) to keep up with conference activities and announcements.
 
