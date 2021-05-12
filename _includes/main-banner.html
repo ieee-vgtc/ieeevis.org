@@ -13,9 +13,12 @@
     <div class="event-card md:w-2/3 w-full bg-secondary-700 absolute md:p-4 p-0 flex md:flex-row flex-col align-middle ">
         <div class="md:w-1/2 w-full p-4 text-center text-white text-lg self-center ">IEEE VIS: Visualization &amp; Visual Analytics</div>
         <div class="md:w-1/2 w-full p-4 text-center text-white text-lg self-center font-bold md:border-l border-l-0 md:border-t-0 border-t border-secondary-200 ">
-            <span class="md:inline block">{{ include.event-date }}</span>
+            <!-- Note, this has changed only for 2021 virtual conference, you can revert back to the previous format (commented below) -->
+            <span class="md:inline block">Virtually, {{ include.event-date }}</span>
+            
+            <!-- <span class="md:inline block">{{ include.event-date }}</span>
             <span class="md:inline hidden"> in </span>
-            <span class="md:inline block">{{ include.event-location }}</span>
+            <span class="md:inline block">{{ include.event-location }}</span> -->
         </div>
     </div>
 
