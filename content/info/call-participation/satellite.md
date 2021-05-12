@@ -2,7 +2,6 @@
 title: VIS 2021 Satellite Program
 layout: page
 permalink: /info/call-participation/satellite
-active_nav: "Contribute"
 sidebar: call-for-participation
 contact: general_chair@ieeevis.org
 ---
@@ -21,7 +20,7 @@ Each satellite will be an official IEEE event. While we would like the specifics
 Each satellite site will have a **local chair(s)** who will plan, coordinate, and run each satellite location. For their efforts, local chairs will be considered full members of the organizing committee with distinction. 
 
 ## How to propose a VIS Satellite.
-Potential local chairs should submit a plan to the 2021 General Chairs (<general_chair@ieeevis.org>)  by **July 1, 2021** and with decisions being made by **August 1, 2021**.
+Potential local chairs should submit a short letter of interest to the 2021 General Chairs (<general_chair@ieeevis.org>) by **July 1, 2021**.  Full plans will be due by **August 1, 2021**.
 
 Each Satellite plan should have the following components:
 * A plan on how the local program will be organized. This plan must follow all local laws, safety protocols and COVID restrictions, and comply with the IEEE guidelines and the [VIS code of conduct](http://ieeevis.org/year/2021/info/inclusion-and-diversity/code-of-conduct).  
