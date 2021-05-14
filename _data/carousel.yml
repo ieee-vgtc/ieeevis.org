@@ -1,3 +1,10 @@
+- title: "VIS 2021 Satellite Program"
+  description: "We are excited to announce the IEEE VIS 2021 Satellite Program.  Volunteer to host a satellite event."
+  button-text: "Read more"
+  button-url: "/info/call-participation/satellite"
+  image: "earth.jpeg"
+  active: "active"
+
 # - title: "Keynote speaker: Nobel prize Mario Capecchi"
 #   description: "For the first time in the history of the VIS conference, we will have a Nobel prize awardee as the keynote speaker: Mario Capecchi co-winner of the 2007 Nobel Prize in Physiology or Medicine."
 #   button-text: "Read more"
