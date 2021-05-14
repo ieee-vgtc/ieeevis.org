@@ -136,7 +136,7 @@ menu:
               - links:
                 - text: "VIS 2021 Satellite Program"
                   description: "Volunteer to host a satellite event"
-                  url: "/year/2021/info/call-participation/satellite'
+                  url: "/year/2021/info/call-participation/satellite"
                 - text: "Organize a meetup"
                   description: "Meet people for discussion and shared experiences"
                   url: "/year/2021/info/call-participation/meetups"
