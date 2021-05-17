@@ -1,5 +1,5 @@
 ---
-title: IEEE VIS 2020 Inclusivity & Diversity Scholarship
+title: IEEE VIS 2021 Inclusivity & Diversity Scholarship
 layout: page
 active_nav: "Attend"
 permalink: /info/inclusion-and-diversity/diversity-scholarship
@@ -10,7 +10,7 @@ IEEE VIS welcomes and encourages participation by people of all backgrounds and 
 
 Eligible applicants are from underrepresented and/or marginalized groups including but not limited to: gender, identity, race, ethnicity, disabilities, discipline. Applicants must be aged 18 years or older. Preference will be given to applicants with a demonstrated financial need (e.g., undergraduate students that are not currently funded for visualization research) and applicants who are new to the visualization research community. 
 
-The VIS 2020 Inclusivity & Diversity Scholarship Committee will review applications based on eligibility, need, and impact. Scholarships awarded will include:
+The VIS 2021 Inclusivity & Diversity Scholarship Committee will review applications based on eligibility, need, and impact. Scholarships awarded will include:
 
 * Complimentary conference registration.
 * Based on need, fund will be provided for recipients that might not otherwise be able to attend the conference. Funds can be used to help support registration cost, WiFi hotspot expenses, and childcare. Recipients will need to keep original expense receipts and evidence of payment up to the subscribed limits for reimbursement once the conference is over. 
@@ -19,21 +19,14 @@ The VIS 2020 Inclusivity & Diversity Scholarship Committee will review applicati
 
 ### Application and Timeline:
 
-* [Applications form](https://forms.gle/nLp2GnZCxxp9ucVv9)
-* Deadline: ~~September 18, 2020~~ October 2, 2020
-* Notifications Sent: ~~September 30, 2020~~ October 9, 2020
+* [Applications form](https://forms.gle/NHDVMBHLJ9rgpP8Z6)
+* Deadline: August 31, 2021
+* Notifications Sent: September 15, 2021
 
-### Inclusivity & Diversity Scholarship Committee
+### Inclusivity & Diversity Scholarship Chairs
 
-* Michelle Borkin (Northeastern University, Co-Chair)
-* Arvind Satyanarayan (MIT, Co-Chair)
-* Christopher Collins (Ontario Tech University)
-* Alexander Lex (University of Utah)
-* Ronald Metoyer (University of Notre Dame)
 * Alvitta Ottley (Washington University in St. Louis)
-* Leilani Battle (University of Maryland, College Park)
-* Carlos Scheidegger (University of Arizona)
-* Josh Levine (University of Arizona)
+* Lace Padilla (University of California, Merced)
 
 
 ### Contact
