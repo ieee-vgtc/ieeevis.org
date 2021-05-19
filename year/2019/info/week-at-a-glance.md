@@ -36,11 +36,11 @@ permalink: /year/2019/info/week-at-a-glance
 
 *10:30-10:50AM*
 
-* Break 
+* Break
 
 *12:20-2:20PM*
 
-* Lunch Break 
+* Lunch Break
 
 <a name="sunday-second">*2:20-5:40PM*</a>
 
@@ -55,7 +55,7 @@ permalink: /year/2019/info/week-at-a-glance
 
 *3:50-4:10PM*
 
-* Break 
+* Break
 
 <a name="sunday-third">*4:10-5:40PM*</a>
 
@@ -81,16 +81,16 @@ permalink: /year/2019/info/week-at-a-glance
 
 * [Posters](/year/2019/info/posters) (location: Exhibition Hall A)
 * LDAV (location: Ballroom A)
-* [VisInPractice](https://visinpractice.github.io) (location: Ballroom B)
+* [VisInPractice](https://visinpractice.github.io/assets/vip2019/) (location: Ballroom B)
 * [VAST Challenge](https://vast-challenge.github.io/2019/) (location: Ballroom C)
 
 *10:30-10:50AM*
 
-* Break 
+* Break
 
 *12:20-2:20PM*
 
-* Lunch Break 
+* Lunch Break
 
 <a name="monday-second">*2:20-5:40PM*</a>
 
@@ -105,7 +105,7 @@ permalink: /year/2019/info/week-at-a-glance
 
 *3:50-4:10PM*
 
-* Break 
+* Break
 
 <a name="monday-third">*4:10-5:40PM*</a>
 
@@ -133,7 +133,7 @@ permalink: /year/2019/info/week-at-a-glance
 
 *11:00-11:20AM*
 
-* Break 
+* Break
 
 <a name="tuesday-third">*11:20AM-12:20PM*</a>
 
@@ -141,7 +141,7 @@ permalink: /year/2019/info/week-at-a-glance
 
 *12:20-2:20PM*
 
-* Lunch Break 
+* Lunch Break
 
 <a name="tuesday-fourth">*2:20-2:35PM*</a>
 
@@ -163,7 +163,7 @@ permalink: /year/2019/info/week-at-a-glance
 
 *3:50-4:10PM*
 
-* Break 
+* Break
 
 <a name="tuesday-fifth">*4:10-5:40PM*</a>
 
@@ -196,7 +196,7 @@ permalink: /year/2019/info/week-at-a-glance
 
 *10:30-10:50AM*
 
-* Break 
+* Break
 
 <a name="wednesday-second">*10:50AM-12:20PM*</a>
 
@@ -204,12 +204,12 @@ permalink: /year/2019/info/week-at-a-glance
 * [Animation and Sports](/year/2019/info/papers-sessions#animationsports) (location: Ballroom B)
 * [Multivariate & Multidimensional Data](/year/2019/info/papers-sessions#multidata) (location: Ballroom C)
 * [CG&A Session 1](/year/2019/info/papers-sessions#cga1) (location: Room 8+15)
-* Application Spotlight: Does AI mean data visualization is dead? (location: Room 1) 
+* Application Spotlight: Does AI mean data visualization is dead? (location: Room 1)
 * VizSec (location: Room 2+3)
 
 *12:20-2:20PM*
 
-* Lunch Break 
+* Lunch Break
 
 *1:00-2:00PM*
 
@@ -226,7 +226,7 @@ permalink: /year/2019/info/week-at-a-glance
 
 *3:50-4:10PM*
 
-* Break 
+* Break
 
 <a name="wednesday-fourth">*4:10-5:40PM*</a>
 
@@ -262,7 +262,7 @@ permalink: /year/2019/info/week-at-a-glance
 
 *10:30-10:50AM*
 
-* Break 
+* Break
 
 <a name="thursday-second">*10:50AM-12:20PM*</a>
 
@@ -273,7 +273,7 @@ permalink: /year/2019/info/week-at-a-glance
 
 *12:20-2:20PM*
 
-* Lunch Break 
+* Lunch Break
 
 *1:00-2:00PM*
 
@@ -289,7 +289,7 @@ permalink: /year/2019/info/week-at-a-glance
 
 *3:50-4:10PM*
 
-* Break 
+* Break
 
 <a name="thursday-fourth">*4:10-5:40PM*</a>
 
@@ -313,7 +313,7 @@ permalink: /year/2019/info/week-at-a-glance
 
 *10:30-10:50AM*
 
-* Break 
+* Break
 
 <a name="friday-second">*11:00-12:00PM*</a>
 

@@ -5,39 +5,39 @@ permalink: /year/2017/info/panels
 contact: "panels@ieeevis.org"
 ---
 
-* [A Matter of Scale - Scale Matters](#scale-matters)
-* [Diversity in Visualization](#diversity-panel)
-* [How do Recent Machine Learning Advances Impact the Data Visualization Research Agenda?](#ml-agenda)
-* [Increasing the Impact of Visualization Research](#vip)
-* [Reflection on Reflection in Design Studies](#design-studies)
-* [Vision Science Meets Visualization](#vision-science)
+- [<a name="scale-matters"></a> A Matter of Scale - Scale Matters](#-a-matter-of-scale---scale-matters)
+- [<a name="diversity-panel"></a> Diversity in Visualization](#-diversity-in-visualization)
+- [<a name="ml-agenda"></a> How do Recent Machine Learning Advances Impact the Data Visualization Research Agenda?](#-how-do-recent-machine-learning-advances-impact-the-data-visualization-research-agenda)
+- [<a name="vip"></a> Increasing the Impact of Visualization Research](#-increasing-the-impact-of-visualization-research)
+- [<a name="design-studies"></a> Reflection on Reflection in Design Studies](#-reflection-on-reflection-in-design-studies)
+- [<a name="vision-science"></a> Vision Science Meets Visualization](#-vision-science-meets-visualization)
 
 
-## <a name="scale-matters"></a> [A Matter of Scale - Scale Matters](http://ieeevis.org) 
-Friday, OCTOBER 6  
-8:30AM-10:10AM  
-Location: 101-ABC   
+## <a name="scale-matters"></a> [A Matter of Scale - Scale Matters](http://ieeevis.org)
+Friday, OCTOBER 6
+8:30AM-10:10AM
+Location: 101-ABC
 
-Arthur Olson (Organizer), The Scripps Research Institute  
-Eduard Groeller (Organizer), TU Vienna  
-Alan M. MacEachren, Pennsylvania State University  
-Todd Richmond, USC Institute for Creative Technologies  
+Arthur Olson (Organizer), The Scripps Research Institute
+Eduard Groeller (Organizer), TU Vienna
+Alan M. MacEachren, Pennsylvania State University
+Todd Richmond, USC Institute for Creative Technologies
 Claudio Silva, New York University
 
 Contact: [groeller@cg.tuwien.ac.at](mailto:groeller@cg.tuwien.ac.at)
 
-Scale and scalability have been recurring topics in our field. Recent developments like smart data, machine learning, and advances in domains like biology, cartography, smart communities, and communication pose novel challenges to scalability and use of scale. Examples include support for scale-transparent visual computing, cross-scale visualization and interaction, massive multi-scale techniques, scale integration, cross-scale labeling and annotation, cross scales on structure and dynamics, and continuous scales. 
+Scale and scalability have been recurring topics in our field. Recent developments like smart data, machine learning, and advances in domains like biology, cartography, smart communities, and communication pose novel challenges to scalability and use of scale. Examples include support for scale-transparent visual computing, cross-scale visualization and interaction, massive multi-scale techniques, scale integration, cross-scale labeling and annotation, cross scales on structure and dynamics, and continuous scales.
 
-## <a name="diversity-panel"></a> [Diversity in Visualization](https://vimeo.com/240582265) 
-Thursday, OCTOBER 5  
-2:00PM-3:40PM 
+## <a name="diversity-panel"></a> [Diversity in Visualization](https://vimeo.com/240582265)
+Thursday, OCTOBER 5
+2:00PM-3:40PM
 Location: TBD
 
-Robert S. Laramee (Organizer), Swansea University  
+Robert S. Laramee (Organizer), Swansea University
 Rita Borgo, Kings College
-Vetria Byrd, Purdue Polytechnic Institute  
-Aviva Frank, State University of New York, Purchase  
-Kelly Gaither, University of Texas, Austin  
+Vetria Byrd, Purdue Polytechnic Institute
+Aviva Frank, State University of New York, Purchase
+Kelly Gaither, University of Texas, Austin
 Ronald Metoyer, University of Notre Dame
 Erica Yang, Science and Technology Facilities Council (STFC)
 
@@ -45,33 +45,33 @@ Contact: [r.s.laramee@swansea.ac.uk](mailto:r.s.laramee@swansea.ac.uk)
 
 This panel will address the lively topic of diversity in the fields of data visualization and visual analytics from gender, cultural, and technological points of view.
 
-## <a name="ml-agenda"></a> [How do Recent Machine Learning Advances Impact the Data Visualization Research Agenda?](https://vimeo.com/240317738) 
-Thursday, OCTOBER 5  
-10:30AM-12:10PM  
-Location: 207 Lecture Hall  
+## <a name="ml-agenda"></a> [How do Recent Machine Learning Advances Impact the Data Visualization Research Agenda?](https://vimeo.com/240317738)
+Thursday, OCTOBER 5
+10:30AM-12:10PM
+Location: 207 Lecture Hall
 
-Timo Ropinski (Organizer), Ulm University  
-Daniel Archambault, Swansea University  
-Min Chen, Oxford University  
-Ross Maciejewski, Arizona State University  
-Klaus Mueller, Stony Brook University  
-Alexandru Telea, University of Groningen  
+Timo Ropinski (Organizer), Ulm University
+Daniel Archambault, Swansea University
+Min Chen, Oxford University
+Ross Maciejewski, Arizona State University
+Klaus Mueller, Stony Brook University
+Alexandru Telea, University of Groningen
 Martin Wattenberg, Google
 
 Contact: [timo.ropinski@uni-ulm.de](mailto:timo.ropinski@uni-ulm.de)
 
 Nowadays, machine learning approaches have revolutionized many domains. As this pushes the human out of the loop, the human-in-the-loop paradigm might be endangered. Thus, we would like to investigate, which old visualization challenges are rendered obsolete, and which new visualization challenges arise from the recent advances in machine learning.
 
-## <a name="vip"></a> [Increasing the Impact of Visualization Research](http://www.visinpractice.rwth-aachen.de/panel.html)
-Tuesday, OCTOBER 3  
-2:00PM-3:40PM  
-Location: 101-ABC  
+## <a name="vip"></a> [Increasing the Impact of Visualization Research](https://visinpractice.github.io/assets/vip2017/)
+Tuesday, OCTOBER 3
+2:00PM-3:40PM
+Location: 101-ABC
 
-Steven M. Drucker, Microsoft Research  
-Adam Perer, IBM Research  
-Daniela Oelke, Siemens  
-Melanie Tory, Tableau Research  
-Krist Wongsuphasawat, Twitter  
+Steven M. Drucker, Microsoft Research
+Adam Perer, IBM Research
+Daniela Oelke, Siemens
+Melanie Tory, Tableau Research
+Krist Wongsuphasawat, Twitter
 Justing Talbot, Tableau Research
 
 Contact: [vip@ieeevis.org](mailto:vip@ieeevis.org)
@@ -80,17 +80,17 @@ The Vis in Practice panel is part of the IEEE VIS 2017 main program and provides
 
 
 ## <a name="design-studies"></a> [Reflection on Reflection in Design Studies](http://ieeevis.org)
-Thursday, OCTOBER 5  
-4:15PM-5:55PM  
-Location: 101-ABC  
+Thursday, OCTOBER 5
+4:15PM-5:55PM
+Location: 101-ABC
 
-Jason Dykes (Organizer), City University of London  
-Miriah Meyer (Organizer), University of Utah  
+Jason Dykes (Organizer), City University of London
+Miriah Meyer (Organizer), University of Utah
 Uta Hinrichs, St. Andrews University
-Nathalie Henry Riche, Microsoft Research  
-Remco Chang, Tufts University  
-Petra Isenberg, Inria  
-Heidi Lam, Tableau Research  
+Nathalie Henry Riche, Microsoft Research
+Remco Chang, Tufts University
+Petra Isenberg, Inria
+Heidi Lam, Tableau Research
 Tamara Munzner, University of British Columbia
 
 Contact: [J.Dykes@city.ac.uk](mailto:J.Dykes@city.ac.uk)
@@ -98,18 +98,18 @@ Contact: [J.Dykes@city.ac.uk](mailto:J.Dykes@city.ac.uk)
 Design study research methodologies emphasize the need for reflection to generate knowledge. We ask six researchers to reflect upon the role of reflection in design studies, as we try to share and develop good practice. Come along to participate in an interactive conversation around reflection, that underpins applied visualization research.
 
 ## <a name="vision-science"></a> [Vision Science Meets Visualization](https://vimeo.com/240736387)
-Wednesday, OCTOBER 4  
-2:00PM-3:40PM  
-Location: 101-ABC  
+Wednesday, OCTOBER 4
+2:00PM-3:40PM
+Location: 101-ABC
 
-Christine Nothelfer (Organizer), Northwestern University  
-Zoya Bylinskii (Organizer), Massachusetts Institute of Technology  
-Madison Elliott (Organizer), University of British Columbia  
-Cindy Xiong (Organizer), Northwestern University  
-Danielle Albers Szafir (Organizer), University of Colorado Boulder  
-Ronald Rensink, University of British Columbia  
-Steven Franconeri, Northwestern University  
-Karen Schloss, University of Wisconsin-Madison  
+Christine Nothelfer (Organizer), Northwestern University
+Zoya Bylinskii (Organizer), Massachusetts Institute of Technology
+Madison Elliott (Organizer), University of British Columbia
+Cindy Xiong (Organizer), Northwestern University
+Danielle Albers Szafir (Organizer), University of Colorado Boulder
+Ronald Rensink, University of British Columbia
+Steven Franconeri, Northwestern University
+Karen Schloss, University of Wisconsin-Madison
 Ruth Rosenholtz, Masachusetts Institute of Technology
 
 Contact: [Danielle.Szafir@Colorado.EDU](mailto:Danielle.Szafir@Colorado.EDU)
