@@ -40,8 +40,8 @@ menu:
                   # - text: "Conference Venue"
                   #   url: "https://www.google.com"
                   - text: "Practitioner Guide"
-                    url: "https://visinpractice.github.io/guide.html"
-                    is_external: true                 
+                    url: "https://visinpractice.github.io/assets/vip2019/"
+                    is_external: true
                   - text: "Full Program"
                     url: "/year/2019/info/week-at-a-glance"
               - heading: "Travel"
@@ -209,7 +209,7 @@ menu:
                   is_external: true
                 - text: "VisInPractice"
                   description: "Invited talks by visualization practitioners"
-                  url: "https://visinpractice.github.io/"
+                  url: "https://visinpractice.github.io/assets/vip2019/"
                   is_external: true
                 - text: "VizSec Symposium"
                   description: "Visualization for Cyber Security"

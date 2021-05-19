@@ -55,11 +55,11 @@ To use the conference app, download the CrowdCompass AttendeeHub for iOS or Andr
 
 *10:30-10:50AM*
 
-* Break 
+* Break
 
 *12:20-2:20PM*
 
-* Lunch Break 
+* Lunch Break
 
 <a name="sunday-second">*2:20-5:40PM*</a>
 
@@ -74,7 +74,7 @@ To use the conference app, download the CrowdCompass AttendeeHub for iOS or Andr
 
 *3:50-4:10PM*
 
-* Break 
+* Break
 
 <a name="sunday-third">*4:10-5:40PM*</a>
 
@@ -100,16 +100,16 @@ To use the conference app, download the CrowdCompass AttendeeHub for iOS or Andr
 
 * [Posters](/year/2019/info/posters) (location: Exhibition Hall A)
 * [LDAV](https://ldav.org/program.html) (location: Ballroom A)
-* [VisInPractice](https://visinpractice.github.io) (location: Ballroom B)
+* [VisInPractice](https://visinpractice.github.io/assets/vip2019/) (location: Ballroom B)
 * [VAST Challenge](https://vast-challenge.github.io/2019/) (location: Ballroom C)
 
 *10:30-10:50AM*
 
-* Break 
+* Break
 
 *12:20-2:20PM*
 
-* Lunch Break 
+* Lunch Break
 
 <a name="monday-second">*2:20-5:40PM*</a>
 
@@ -124,7 +124,7 @@ To use the conference app, download the CrowdCompass AttendeeHub for iOS or Andr
 
 *3:50-4:10PM*
 
-* Break 
+* Break
 
 <a name="monday-third">*4:10-5:40PM*</a>
 
@@ -152,7 +152,7 @@ To use the conference app, download the CrowdCompass AttendeeHub for iOS or Andr
 
 *11:00-11:20AM*
 
-* Break 
+* Break
 
 <a name="tuesday-third">*11:20AM-12:20PM*</a>
 
@@ -160,7 +160,7 @@ To use the conference app, download the CrowdCompass AttendeeHub for iOS or Andr
 
 *12:20-2:20PM*
 
-* Lunch Break 
+* Lunch Break
 
 <a name="tuesday-fourth">*2:20-2:35PM*</a>
 
@@ -183,7 +183,7 @@ To use the conference app, download the CrowdCompass AttendeeHub for iOS or Andr
 
 *3:50-4:10PM*
 
-* Break 
+* Break
 
 <a name="tuesday-fifth">*4:10-5:40PM*</a>
 
@@ -220,7 +220,7 @@ To use the conference app, download the CrowdCompass AttendeeHub for iOS or Andr
 
 *10:30-10:50AM*
 
-* Break 
+* Break
 
 <a name="wednesday-second">*10:50AM-12:20PM*</a>
 
@@ -228,12 +228,12 @@ To use the conference app, download the CrowdCompass AttendeeHub for iOS or Andr
 * [Animation and Sports](/year/2019/info/papers-sessions#animationsports) (location: Ballroom B)
 * [Multivariate & Multidimensional Data](/year/2019/info/papers-sessions#multidata) (location: Ballroom C)
 * [CG&A Session 1](/year/2019/info/papers-sessions#cga1) (location: Room 8+15)
-* [Application Spotlight: Does AI mean data visualization is dead?](/year/2019/info/application-spotlights#AI) (location: Room 1) 
+* [Application Spotlight: Does AI mean data visualization is dead?](/year/2019/info/application-spotlights#AI) (location: Room 1)
 * [VizSec](https://vizsec.org/vizsec2019/) (location: Room 2+3)
 
 *12:20-2:20PM*
 
-* Lunch Break 
+* Lunch Break
 
 *1:00-2:00PM*
 
@@ -250,7 +250,7 @@ To use the conference app, download the CrowdCompass AttendeeHub for iOS or Andr
 
 *3:50-4:10PM*
 
-* Break 
+* Break
 
 <a name="wednesday-fourth">*4:10-5:40PM*</a>
 
@@ -286,7 +286,7 @@ To use the conference app, download the CrowdCompass AttendeeHub for iOS or Andr
 
 *10:30-10:50AM*
 
-* Break 
+* Break
 
 <a name="thursday-second">*10:50AM-12:20PM*</a>
 
@@ -297,7 +297,7 @@ To use the conference app, download the CrowdCompass AttendeeHub for iOS or Andr
 
 *12:20-2:20PM*
 
-* Lunch Break 
+* Lunch Break
 
 *1:00-1:25PM*
 
@@ -313,7 +313,7 @@ To use the conference app, download the CrowdCompass AttendeeHub for iOS or Andr
 
 *3:50-4:10PM*
 
-* Break 
+* Break
 
 <a name="thursday-fourth">*4:10-5:40PM*</a>
 
@@ -321,7 +321,7 @@ To use the conference app, download the CrowdCompass AttendeeHub for iOS or Andr
 * [Words & Documents](/year/2019/info/papers-sessions#worddocuments) (location: Ballroom B)
 * [What's the Difference?](/year/2019/info/papers-sessions#difference) (location: Ballroom C)
 * [Short Papers: Multi-Dimensional Data, Time Series, Graphs, and Trees](/year/2019/info/papers-sessions#shortvis) (location: Room 1)
-* [Application Spotlight: Knowledge-assisted Visual Analytics meets Guidance and Onboarding](/year/2019/info/application-spotlights#guidance) (location: Room 2+3) 
+* [Application Spotlight: Knowledge-assisted Visual Analytics meets Guidance and Onboarding](/year/2019/info/application-spotlights#guidance) (location: Room 2+3)
 
 <hr/>
 
@@ -333,11 +333,11 @@ To use the conference app, download the CrowdCompass AttendeeHub for iOS or Andr
 * [Color](/year/2019/info/papers-sessions#color) (location: Ballroom B)
 * [Searching & Querying](/year/2019/info/papers-sessions#searchingquerying) (location: Ballroom C)
 * [Short Papers: Scalar, Vector, and Tensor Fields](/year/2019/info/papers-sessions#shortfields) (location: Room 1)
-* [Application Spotlight: Feature-based Visual Interactive Systems to Optimize Decision Making](/year/2019/info/application-spotlights#decision) (location: Room 2+3) 
+* [Application Spotlight: Feature-based Visual Interactive Systems to Optimize Decision Making](/year/2019/info/application-spotlights#decision) (location: Room 2+3)
 
 *10:30-10:50AM*
 
-* Break 
+* Break
 
 <a name="friday-second">*11:00-12:00PM*</a>
 
