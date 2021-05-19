@@ -23,7 +23,7 @@ To register or participate in these Community events, please see the correspondi
 * [Asynchronous Job Fair and Job-Fair Meetup](#ajf)
 * [Other community-building events in VIS that we are aware of (tell us of yours!)](#other-events)
 -->
-* [Vis Buddies Virtual Meetup](#visbuddies)
+* [VisBuddies Virtual Meetup](#visbuddies)
 * [Job Flyer Online Posting](#job-flyers)
 * [Job-Fair Virtual Meetup](#ajf)
 
@@ -55,10 +55,10 @@ collect CVs/resumes for job hunters.
 
 
 <!-- ### <a name="visbuddies"></a>Vis Buddies -->
-### <a name="visbuddies"></a>Vis Buddies Vitual Meetup
-**Tuesday, 27 October 2020, 13:40:00 Mountain Time**
+### <a name="visbuddies"></a>VisBuddies Virtual Meetup
+<!-- **Tuesday, 27 October 2020, 13:40:00 Mountain Time** -->
 
-It brings together new and returning VIS attendees with similar interests. For newcomers, this is a chance to meet experienced researchers in the field. For returning attendees, it is a chance to meet fresh talent joining VIS for the first time. You can volunteer for VisBuddies on the registration form (the latest a week prior to VIS). Based on your declared interests in the registration form, we will match pairs or small groups of attendees with different levels of VIS experience, and contact the groups via email prior to VIS. 
+VisBuddies brings together new and returning VIS attendees with similar interests. For newcomers, this is a chance to meet experienced researchers in the field. For returning attendees, it is a chance to meet fresh talent joining VIS for the first time. You can volunteer for VisBuddies on the registration form (the latest a week prior to VIS). Based on your declared interests in the registration form, we will match pairs or small groups of attendees with different levels of VIS experience, and contact the groups via email prior to VIS. 
 
 Suggested Buddies activities include:
 
@@ -93,13 +93,13 @@ In case you do not want your CV publically visible, there will be a drop off
 tray for CVs near registration, which will be collected and shared with Supporters
 after VISWeek.
 --> 
-We will collect the job postings and publicly share them online [here](https://sites.google.com/view/vis-2020-job-postings/home) . For potential employers, please fill out the online form [here](https://sites.google.com/view/vis-2020-job-postings/submit-job-posting) to create a job posting. In  this form, we also ask whether you would like to participate in the job fair virtual meetup described below. 
+(Coming soon!) We will collect the job postings and publicly share them online<!--[here](https://sites.google.com/view/vis-2020-job-postings/home)-->. For potential employers, please fill out the online form in the forthcoming VIS registration<!--, or [here](https://sites.google.com/view/vis-2020-job-postings/submit-job-posting)--> to create a job posting. In this form, we also ask whether you would like to participate in the job fair virtual meetup described below. 
 
 <!--
 ### <a name="ajf"></a>Asynchronous Job Fair
 -->
 ### <a name="ajf"></a>Job-Fair Virtual Meetup
-**Thursday, 29 October 2020, 13:40:00 Mountain Time**
+<!--**Thursday, 29 October 2020, 13:40:00 Mountain Time**-->
 
 <!--
 This year, we will be having our third *Asynchronous Job Fair* (AJF) at VIS
@@ -130,7 +130,7 @@ help facilitate information exchange during VIS.*
 <!--
 - A Job-Fair Meetup to be held tentatively held in addition to other job events. 
 -->
-This is a virtual "speed-dating" meetup for both job seekers and employers to *quickly* identify people in the community that are looking for jobs or new hires, exchange information, and potentially meet at a later date. Potential job seekers can sign up for this meetup [here](https://sites.google.com/view/vis-2020-job-postings/job-fair-meetup). For more details, please visit our job postings website [here](https://sites.google.com/view/vis-2020-job-postings/home).
+(Coming soon!) This is a virtual "speed-dating" meetup for both job seekers and employers to *quickly* identify people in the community that are looking for jobs or new hires, exchange information, and potentially meet at a later date. Potential job seekers can sign up for this meetup online<!--[here](https://sites.google.com/view/vis-2020-job-postings/job-fair-meetup)-->. <!--For more details, please visit our job postings website [here](https://sites.google.com/view/vis-2021-job-postings/home).-->
 
 <!--
 VIS Supporters will have the CVs of attendees that provide it during VIS registration.
@@ -167,8 +167,8 @@ staff!
 
 For more information contact IEEE VIS 2020 Community Chairs:
 
-* Jaegul Choo, *KAIST*
 * Karen Schloss, *University of Wisconsin-Madison*
 * Hsiang-Yun Wu, *TU Wien*
+* Lane Harrison, *Worcester Polytechnic Institute*
 
 email: [community@ieeevis.org](community@ieeevis.org)

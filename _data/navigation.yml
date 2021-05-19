@@ -263,10 +263,10 @@ menu:
                   url: "https://vast-challenge.github.io/2021/"
                   is_external: true
 
-          # - heading: "Community"
-          #   # heading_url: "/year/2021/info/call-participation/community"
-          #   description: "Explore social and topic-based community groups"
-          #   columns:
+          - heading: "Community"
+            heading_url: "/year/2021/info/call-participation/community"
+            description: "Explore social and topic-based community groups"
+            columns:
           #     - heading: "Connect"
           #       links:
           #         - text: "Vis Buddies"
@@ -283,14 +283,14 @@ menu:
           #         - text: "Vis Pioneers Group"
           #           url: "http://vacommunity.org/ieeevpg/"
           #           is_external: true
-          #     - heading: "Social Media"
-          #       links:
-          #         - text: "Facebook"
-          #           url: "https://www.facebook.com/ieeevis"
-          #           is_external: true
-          #         - text: "Twitter"
-          #           url: "https://twitter.com/ieeevis"
-          #           is_external: true
+              - heading: "Social Media"
+                links:
+                  - text: "Facebook"
+                    url: "https://www.facebook.com/ieeevis"
+                    is_external: true
+                  - text: "Twitter"
+                    url: "https://twitter.com/ieeevis"
+                    is_external: true
           # - heading: "Doctoral Colloquium"
           #   #heading_url: "/year/2021/info/doctoral-colloquium"
           #   description: "Discuss in-progress Ph.D work with leading senior researchers"
