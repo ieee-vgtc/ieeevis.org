@@ -31,29 +31,29 @@ blog:
 
 menu:
   - dropdown: "Attend"
-    display: false
+    display: true
     sections:
-      - subsections:
-          - heading: "Attending VIS 2020"
-            heading_url: "https://virtual.ieeevis.org/"
-            description: "Join us online on our virtual site!"
-            columns:
-              - heading: "Attend"
-                links:
-                  - text: "Registration"
-                    url: "/year/2021/info/registration/conference-registration"
+      # - subsections:
+      #     - heading: "Attending VIS 2020"
+      #       heading_url: "https://virtual.ieeevis.org/"
+      #       description: "Join us online on our virtual site!"
+      #       columns:
+      #         - heading: "Attend"
+      #           links:
+      #             - text: "Registration"
+      #               url: "/year/2021/info/registration/conference-registration"
                   # - text: "Conference Venue"
                   #   url: "#"
               #    - text: "Practitioner Guide"
               #      url: "https://visinpractice.github.io/guide.html"
               #      is_external: true
-                  - text: "Full Program"
-                    url: "/year/2021/info/week-at-a-glance"
-                  - text: "Media Requests"
-                    url: "/year/2021/info/media-requests"
-                    is_new: true
-                  - text: "Coronavirus Information"
-                    url: "/year/2021/info/coronavirus-info"
+                  # - text: "Full Program"
+                  #   url: "/year/2021/info/week-at-a-glance"
+                  # - text: "Media Requests"
+                  #   url: "/year/2021/info/media-requests"
+                  #   is_new: true
+                  # - text: "Coronavirus Information"
+                  #   url: "/year/2021/info/coronavirus-info"
               #- heading: "Travel"
               #  links:
               #    - text: "Accommodation"
@@ -64,8 +64,8 @@ menu:
                   #   url: "https://www.google.com"
                   #   is_new: true
 
-          - heading: "Code of Conduct"
-            heading_url: "/year/2021/info/inclusion-and-diversity/code-of-conduct"
+          # - heading: "Code of Conduct"
+          #   heading_url: "/year/2021/info/inclusion-and-diversity/code-of-conduct"
 
       - subsections:
           - heading: "Equality, Inclusion & Diversity"
