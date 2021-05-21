@@ -4,7 +4,6 @@ layout: page
 permalink: /info/call-participation/community
 active_nav: "Events & Community"
 sidebar: call-for-participation
-active_nav: "Contribute"
 contact: community@ieeevis.org
 ---
 
