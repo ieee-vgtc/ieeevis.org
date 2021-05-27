@@ -19,10 +19,10 @@ The Visual Analytics Science and Technology (VAST) Challenge is an annual contes
 
 #### Monday
 
-* *Workshop* - **[Vis in Practice: Visualization Solutions in the Wild](http://www.visinpractice.rwth-aachen.de/workshop.html)** -
+* *Workshop* - **[Vis in Practice: Visualization Solutions in the Wild](https://visinpractice.github.io/assets/vip2017/workshop.html)** -
 Providing an opportunity for visualization practitioners and researchers to meet and share experiences, insights, and ideas in applying the latest visualization and visual analytics research to real world problems.
 
-* **[Discovery Jam](http://discoveryjam.com/)** - 
+* **[Discovery Jam](http://discoveryjam.com/)** -
 A live hackathon to scientific data discovery. You’ll leave the workshop with skills for communicating with scientists, approaches to cross-disciplinary collaboration, and new ideas to pursue further.
 
 * *Tutorial* - **[Large-scale Web-based Visual Analytics Made Easy](/year/2017/info/tutorials#Large-scale_Web-based_VA)**
@@ -33,7 +33,7 @@ A live hackathon to scientific data discovery. You’ll leave the workshop with 
 
 * *VIS Keynote Address* - **[Analytics Inspired Visualization: a Holistic In-situ Scientific Workflow at Extreme Scale](/year/2017/keynote)** - 10:50am-11:50am, Room: 301-CD
 
-* *Panel* - **[VIP - Increasing the Impact of Visualization Research](http://www.visinpractice.rwth-aachen.de/panel.html)** - 2:00pm-3:40pm, Room 101-ABC
+* *Panel* - **[VIP - Increasing the Impact of Visualization Research](https://visinpractice.github.io/assets/vip2017/panel.html)** - 2:00pm-3:40pm, Room 101-ABC
 
 * **Supporters Presentations** - 4:15pm-5:55pm, Room: 101-ABC
 
@@ -63,9 +63,9 @@ A live hackathon to scientific data discovery. You’ll leave the workshop with 
 
 
 -----
-*** 
+***
 
-> _Make sure to also check out the full program of the conference which can be found here: [http://ieeevis.org/](http://ieeevis.org/). 
+> _Make sure to also check out the full program of the conference which can be found here: [http://ieeevis.org/](http://ieeevis.org/).
 Depending on your specific domain and current data analysis challenges you will likely find more interesting events there!_
 
 

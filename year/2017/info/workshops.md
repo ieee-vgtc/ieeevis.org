@@ -5,29 +5,29 @@ permalink: /year/2017/info/workshops
 contact: "workshops@ieeevis.org"
 ---
 
-* [Immersive Analytics: Exploring Future Visualization and Interaction Technologies for Data Analytics](#immersive-analytics)
-* [Discovery Jam](#discovery-jam)
-* [DSIA: Data Systems for Interactive Analysis](#interactive-analysis)
-* [DECISIVe 2017: 2nd Workshop on Dealing with Cognitive Biases in Visualizations](#decisive)
-* [2nd Pedagogy of Data Visualization Workshop](#pedagogy)
-* [2nd Workshop on Visualization for the Digital Humanities](#vis-dh)
-* [Visual Analytics for Interpretable, User-Driven Deep Learning](#interpretable-dl)
-* [AVID: Advancing Visualization Inclusion and Diversity](#avid)
-* [Vis in Practice: Visualization Solutions in the Wild](#vip)
+- [<a name="immersive-analytics"></a> Immersive Analytics: Exploring Future Visualization and Interaction Technologies for Data Analytics](#-immersive-analytics-exploring-future-visualization-and-interaction-technologies-for-data-analytics)
+- [<a name="discovery-jam"></a> Discovery Jam](#-discovery-jam)
+- [<a name="interactive-analysis"></a> DSIA: Data Systems for Interactive Analysis](#-dsia-data-systems-for-interactive-analysis)
+- [<a name="decisive"></a> DECISIVe 2017: 2nd Workshop on Dealing with Cognitive Biases in Visualizations](#-decisive-2017-2nd-workshop-on-dealing-with-cognitive-biases-in-visualizations)
+- [<a name="pedagogy"></a> 2nd Pedagogy of Data Visualization Workshop](#-2nd-pedagogy-of-data-visualization-workshop)
+- [<a name="vis-dh"></a> 2nd Workshop on Visualization for the Digital Humanities](#-2nd-workshop-on-visualization-for-the-digital-humanities)
+- [<a name="interpretable-dl"></a> VADL 2017: Workshop on Visual Analytics for Deep Learning](#-vadl-2017-workshop-on-visual-analytics-for-deep-learning)
+- [<a name="avid"></a> AVID: Advancing Visualization Inclusion and Diversity](#-avid-advancing-visualization-inclusion-and-diversity)
+- [<a name="vip"></a> Vis in Practice - Visualization Solutions in the Wild](#-vis-in-practice---visualization-solutions-in-the-wild)
 
 
-## <a name="immersive-analytics"></a> [Immersive Analytics: Exploring Future Visualization and Interaction Technologies for Data Analytics](http://immersiveanalytics.net)  
-Sunday, October 1  
-8:30AM-5:55PM  
-102-ABC  
+## <a name="immersive-analytics"></a> [Immersive Analytics: Exploring Future Visualization and Interaction Technologies for Data Analytics](http://immersiveanalytics.net)
+Sunday, October 1
+8:30AM-5:55PM
+102-ABC
 
-Benjamin Bach, University of Edinburgh, UK / Harvard University, MA  
-Maxime Cordeil, Monash University, VIC  
-Tim Dwyer, Monash University, VIC  
-Bongshin Lee, Microsoft Research  
-Bahador Saket, Georgia Tech  
-Alex Endert, Georgia Tech  
-Christopher Collins, University of Ontario Institute of Technology  
+Benjamin Bach, University of Edinburgh, UK / Harvard University, MA
+Maxime Cordeil, Monash University, VIC
+Tim Dwyer, Monash University, VIC
+Bongshin Lee, Microsoft Research
+Bahador Saket, Georgia Tech
+Alex Endert, Georgia Tech
+Christopher Collins, University of Ontario Institute of Technology
 Sheelagh Carpendale, University of Calgary
 
 Contact: benj.bach@gmail.com
@@ -42,14 +42,14 @@ physical and tangible visualization, as well as interaction techniques.
 
 
 ## <a name="discovery-jam"></a> [Discovery Jam](http://discoveryjam.com)
-Monday, October 2  
-8:30AM-5:55PM  
-101-ABC  
+Monday, October 2
+8:30AM-5:55PM
+101-ABC
 
-David Rogers, Los Alamos National Lab  
-Dan Keefe, University of Minnesota  
-Francesca Samsel, University of Texas at Austin  
-Miriah Meyer, University of Utah  
+David Rogers, Los Alamos National Lab
+Dan Keefe, University of Minnesota
+Francesca Samsel, University of Texas at Austin
+Miriah Meyer, University of Utah
 Cecilia Aragon, University of Washington
 
 Contact: info@discoveryjam.com
@@ -62,20 +62,20 @@ Each DiscoveryJam scientist is matched with a small group of attendees. In
 the morning each group holds interactive discussions with their scientist
 about specific data and science problems. In the afternoon, each group hacks
 away on the scientist's data. We'll create sketches, prototypes, and sample
-visualizations, and then present them to the entire workshop. You'll leave 
-the workshop with skills for communicating with scientists, approaches to 
-cross-disciplinary collaboration, and research ideas to pursue further.  
+visualizations, and then present them to the entire workshop. You'll leave
+the workshop with skills for communicating with scientists, approaches to
+cross-disciplinary collaboration, and research ideas to pursue further.
 Bring your laptop and your favorite vis tools to dig into data with us.
 
 
-## <a name="interactive-analysis"></a> [DSIA: Data Systems for Interactive Analysis](http://www.interactive-analysis.org)  
-Monday, October 2  
-8:30AM-12:10PM  
-211-AB  
+## <a name="interactive-analysis"></a> [DSIA: Data Systems for Interactive Analysis](http://www.interactive-analysis.org)
+Monday, October 2
+8:30AM-12:10PM
+211-AB
 
-Remco Chang, Tufts University  
-Danyel Fisher, Microsoft Research  
-Jeffrey Heer, University of Washington  
+Remco Chang, Tufts University
+Danyel Fisher, Microsoft Research
+Jeffrey Heer, University of Washington
 Carlos Scheidegger, University of Arizona
 
 Contact: organizers@interactive-analysis.org
@@ -99,13 +99,13 @@ between these fields.
 
 
 ## <a name="decisive"></a> [DECISIVe 2017: 2nd Workshop on Dealing with Cognitive Biases in Visualizations](http://decisive-workshop.dbvis.de)
-Monday, October 2  
-8:30AM-12:10PM  
-105-ABC  
+Monday, October 2
+8:30AM-12:10PM
+105-ABC
 
-Geoffrey Ellis, University of Konstanz, Germany  
-Evanthia Dimara, Inria Saclay, France  
-Donald Kretz, Applied Research Associates, USA  
+Geoffrey Ellis, University of Konstanz, Germany
+Evanthia Dimara, Inria Saclay, France
+Donald Kretz, Applied Research Associates, USA
 Alex Endert, Georgia Tech, USA
 
 Contact: ellis@dbvis.inf.uni-konstanz.de
@@ -130,16 +130,16 @@ practical ways to reduce or overcome these potentially harmful effects,
 especially in adapting the tools developers design and build.
 
 
-## <a name="pedagogy"></a> [2nd Pedagogy of Data Visualization Workshop](http://vgl.cs.usfca.edu/pdvw/2017)  
-Sunday, October 1  
-2:00PM-5:55PM  
-106-ABC  
+## <a name="pedagogy"></a> [2nd Pedagogy of Data Visualization Workshop](http://vgl.cs.usfca.edu/pdvw/2017)
+Sunday, October 1
+2:00PM-5:55PM
+106-ABC
 
-Alark Joshi, University of San Francisco  
-Eytan Adar, University of Michigan  
-Enrico Bertini, New York University  
-Sophie Engle, University of San Francisco  
-Marti Hearst, University of California Berkeley  
+Alark Joshi, University of San Francisco
+Eytan Adar, University of Michigan
+Enrico Bertini, New York University
+Sophie Engle, University of San Francisco
+Marti Hearst, University of California Berkeley
 Daniel Keefe, University of Minnesota
 
 Contact: apjoshi@usfca.edu
@@ -155,16 +155,16 @@ classes, teaching at a liberal arts college, teaching a professional masters'
 course, and so on.
 
 
-## <a name="vis-dh"></a> [2nd Workshop on Visualization for the Digital Humanities](http://vis4dh.dbvis.de)  
-Monday, October 2  
-2:00PM-5:55PM  
-105-ABC  
+## <a name="vis-dh"></a> [2nd Workshop on Visualization for the Digital Humanities](http://vis4dh.dbvis.de)
+Monday, October 2
+2:00PM-5:55PM
+105-ABC
 
-Stefan Janicke, Leipzig University, Germany  
-Christopher Collins, University of Ontario Institute of Technology, Canada  
-Michael Correll, University of Washington, USA  
-Mennatallah El-Assady, University of Konstanz, Germany  
-Daniel Keim, University of Konstanz, Germany  
+Stefan Janicke, Leipzig University, Germany
+Christopher Collins, University of Ontario Institute of Technology, Canada
+Michael Correll, University of Washington, USA
+Mennatallah El-Assady, University of Konstanz, Germany
+Daniel Keim, University of Konstanz, Germany
 David Wrisley, New York University Abu Dhabi, UAE
 
 Contact: stjaenicke@informatik.uni-leipzig.de
@@ -178,14 +178,14 @@ digital humanities researchers, and (3) to establish future collaborations
 between visualization and digital humanities scholars.
 
 
-## <a name="interpretable-dl"></a> [VADL 2017: Workshop on Visual Analytics for Deep Learning](https://vadl2017.github.io)  
-Monday, October 2  
-2:00PM-5:55PM  
-211-AB  
+## <a name="interpretable-dl"></a> [VADL 2017: Workshop on Visual Analytics for Deep Learning](https://vadl2017.github.io)
+Monday, October 2
+2:00PM-5:55PM
+211-AB
 
-Jaegul Choo, Korea University  
-Shixia Liu, Tsinghua University  
-Jason Yosinski, Uber AI Labs  
+Jaegul Choo, Korea University
+Shixia Liu, Tsinghua University
+Jason Yosinski, Uber AI Labs
 Deokgun Park, University of Maryland, College Park
 
 Contact: jchoo@korea.ac.kr
@@ -199,12 +199,12 @@ opportunity to discuss and explore ways to harmonize the power of automated
 techniques and exploratory nature of interactive visualization.
 
 
-## <a name="avid"></a> [AVID: Advancing Visualization Inclusion and Diversity](https://www.avid-vis.org)  
-Sunday, October 1  
-8:30AM-12:10PM  
-106-ABC  
+## <a name="avid"></a> [AVID: Advancing Visualization Inclusion and Diversity](https://www.avid-vis.org)
+Sunday, October 1
+8:30AM-12:10PM
+106-ABC
 
-Penny Rheingans, University of Maryland, Baltimore County  
+Penny Rheingans, University of Maryland, Baltimore County
 Kelly Gaither, University of Texas
 
 Contact: rheingan@umbc.edu
@@ -227,14 +227,14 @@ opportunities in visualization, a greater understanding of challenges and
 strategies, and a wider network of those sharing their goals.
 
 
-## <a name="vip"></a> [Vis in Practice - Visualization Solutions in the Wild](http://www.visinpractice.rwth-aachen.de)  
-Monday, October 2  
-2:00PM-5:55PM  
-207 Lecture Hall  
+## <a name="vip"></a> [Vis in Practice - Visualization Solutions in the Wild](https://visinpractice.github.io/assets/vip2017/)
+Monday, October 2
+2:00PM-5:55PM
+207 Lecture Hall
 
-Bernd Hentschel, RWTH Aachen University  
-Daniela Oelke, Siemens AG  
-Justin Talbot, Tableau Research  
+Bernd Hentschel, RWTH Aachen University
+Daniela Oelke, Siemens AG
+Justin Talbot, Tableau Research
 
 Contact: vip@ieeevis.org
 
