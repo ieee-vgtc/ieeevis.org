@@ -26,5 +26,5 @@ Contact:
 
 Regan Pickett<br>
 *IEEE Computer Society*<br>
-*r.pickett@computer.org*<br>
+*supporters@ieeevis.org*<br>
 *+1 714-822-8022*<br>
