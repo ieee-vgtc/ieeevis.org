@@ -155,7 +155,7 @@ menu:
                 #   url: "https://www.google.com"
 
           - heading: "Supporters"
-            # heading_url: "/year/2021/info/exhibition/supporters-and-exhibition"
+            heading_url: "/year/2021/info/exhibition/supporters-and-exhibition"
             description: "Your support makes this conference possible (CFP coming soon)"
 
 
