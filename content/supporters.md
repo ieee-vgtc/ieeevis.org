@@ -1,11 +1,10 @@
 ---
-title: supporters
+title: Exhibitor & Sponsorship Opportunities
 layout: page
 permalink: /supporters
 contact: supporters@ieeevis.org
 ---
 
-## Exhibitor & Sponsorship Opportunities
 Whether you are showcasing new products and services or recruiting new talent, VIS 2021 is where the international computing and applications community convenes – providing an opportunity to highlight what your company has to offer and reach decision-makers with real buying power.
 
 Reasons why you should take part in VIS 2021:
