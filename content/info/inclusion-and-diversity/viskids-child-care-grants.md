@@ -13,9 +13,9 @@ Grants of up to $500 per family are available for VIS attendees who incur extra 
 ### Examples of allowable expenses
 
 * Home-based babysitting or child care services incurred because of
-  attendance at the conference.
+  attendance at the conference or approved satellite events.
 * Babysitting or child care services on location in the city of the
-  conference.
+  conference or approved satellite events.
 * Expenses incurred in bringing a caregiver (or family member not
   attending the meeting acting as a caregiver) to the meeting. This
   includes airfare/train fare and hotel expenses.
@@ -42,9 +42,9 @@ Grants of up to $500 per family are available for VIS attendees who incur extra 
 
 ### Application and deadline
 
-* [Application Form](https://forms.gle/FbjgJRqJ1V7bNN3h7)
-* Deadline: ~~September 18, 2020~~ October 2, 2020
-* Notification: ~~September 30, 2020~~ October 9, 2020
+* [Application Form](https://forms.gle/bQa6pWdvZnvFtnLeA)
+* Deadline: August 31, 2021
+* Notification: September 15, 2021
 
 ### VISKids Community
 
@@ -60,7 +60,7 @@ childcare grants program.
 If you are interested in being a VISKids supporter, please contact [supporters@ieeevis.org](mailto:supporters@ieeevis.org).
  
 **NOTE: There will be no conference sponsored childcare services
-on-site at the meeting. The conference does not sanction or recommend
+on-site at the meeting or satellite events. The conference does not sanction or recommend
 specific childcare providers, and does not assume responsibility or
 liability for childcare services of any sort. It is the responsibility
 of the parent(s) to thoroughly investigate all childcare providers.**
