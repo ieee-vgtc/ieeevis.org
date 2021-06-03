@@ -75,12 +75,13 @@ menu:
                 - text: "Inclusivity & Diversity Scholarship"
                   description: "Need-based scholarships for conference attendance"
                   url: "/year/2021/info/inclusion-and-diversity/diversity-scholarship"
+                - text: "VISKids Childcare Grants"
+                  description: "Supporting our VISKids and young families"
+                  url: "/year/2021/info/inclusion-and-diversity/viskids-child-care-grants"
 #                 - text: "VISKids"
 #                   description: "Childcare and activities open to everyone"
 #                   url: "/year/2021/info/inclusion-and-diversity/viskids-event"
-                 - text: "VISKids Childcare Grants"
-                   description: "Supporting our VISKids and young families"
-                   url: "/year/2021/info/inclusion-and-diversity/viskids-child-care-grants"
+                 
 
 
   - dropdown: "Contribute"
