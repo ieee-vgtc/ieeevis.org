@@ -23,12 +23,12 @@
 #      image: /assets/supporters/tableau.png
 #      url: "https://www.tableau.com/"
 
-# - category: Silver
-#   image_size: 150
-#   supporters:
-#    - name: "Autodesk"
-#      image: /assets/supporters/Autodesk_Logo.png
-#      url: "https://www.autodesk.com/research"
+ - category: Silver
+   image_size: 150
+   supporters:
+    - name: "Autodesk"
+      image: /assets/supporters/autodesk.png
+      url: "https://www.autodesk.com/research"
 
 
  - category: Bronze
