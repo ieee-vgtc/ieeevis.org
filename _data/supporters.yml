@@ -31,11 +31,11 @@
 #      url: "https://www.autodesk.com/research"
 
 
-# - category: Bronze
-#   supporters:
-#    - name: "Kitware, Inc"
-#      image: /assets/supporters/kitware.png
-#      url: "https://www.kitware.com/"
+ - category: Bronze
+   supporters:
+    - name: "Kitware, Inc"
+      image: /assets/supporters/kitware.png
+      url: "https://www.kitware.com/"
 
 #    - name: "Microsoft"
 #      image: /assets/supporters/microsoft.png
@@ -53,8 +53,8 @@
 #      url: "https://www.sci.utah.edu/"
 
 
-# - category: Diversity/Inclusivity Scholarships
-#   supporters:
+ - category: Diversity/Inclusivity Scholarships
+   supporters:
 #    - name: "Data Intensive Science"
 #      image: /assets/supporters/data_intensive_science.jpg
 #      url: "https://dataintensivescience.org/"
@@ -71,9 +71,9 @@
 #      image: /assets/supporters/TwoSix_Labs.png
 #      url: "https://www.twosixlabs.com/"
 
-#    - name: "Uncharted Software"
-#      image: /assets/supporters/uncharted.png
-#      url: "https://uncharted.software/"
+    - name: "Uncharted Software"
+      image: /assets/supporters/uncharted.png
+      url: "https://uncharted.software/"
 
 #    - name: "Uncharted Software"
 #      image: /assets/supporters/visus.png
