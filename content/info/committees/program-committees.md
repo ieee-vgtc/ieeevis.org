@@ -213,6 +213,130 @@ Contact: [papers@ieeevis.org](mailto:papers@ieeevis.org)
 
 ## Short Papers Program Committee
 
-To be announced.
+Shamal AL-Dohuki | *University of Duhok , Iraq*
+Bilal Alsallakh | *Bosch Research North America, USA*
+Fereshteh Amini | *Microsoft, USA*
+Christopher Andrews | *Middlebury College, USA*
+Daniel Archambault | *Swansea University, UK*
+Tushar Athawale | *University of Utah, USA*
+Benjamin Bach | *University of Edinburgh, UK*
+Divya Banesh | *University of California, Davis, USA*
+Michael Behrisch | *Utrecht University, Netherlands*
+Matthew Berger | *Vanderbilt University, USA*
+Jürgen Bernard | *University of Zurich, Switzerland*
+Anne Berres | *Oak Ridge National Laboratory, USA*
+Johanna Beyer | *Harvard University, USA*
+Ayan Biswas | *Los Alamos National Laboratory, USA*
+Jeremy Boy | *United Nations, USA*
+Chris Bryan | *Arizona State University, USA*
+Michael Burch | *University of Applied Sciences of the Grisons, Switzerland*
+Jan Byška | *Masaryk University, University of Bergen, Czech Republic, Norway*
+Nan Cao | *Tongji University, China*
+Hamish Carr | *University of Leeds, UK*
+Dylan Cashman | *Tufts University, USA*
+Qing Chen | *Tongji University, China*
+Siming Chen | *Fudan University, China*
+Shenghui Cheng | *Chinese University of Hong Kong, Shenzhen, China*
+Isaac Cho | *University of North Carolina at Charlotte, USA*
+Jaegul Choo | *KAIST, South Korea*
+Michael Correll | *Tableau Research, USA*
+Michelle Dowling | *Grand Valley State University, USA*
+Soumya Dutta | *Los Alamos National Laboratory, USA*
+Mennatallah El-Assady | *University of Konstanz, Germany*
+Geoffrey Ellis | *University of Konstanz, Germany*
+Danyel Fisher | *Honeycomb, USA*
+Angus Forbes | *University of California, Santa Cruz, USA*
+Steffen Frey | *University of Groningen, Netherlands*
+Siwei Fu | *Zhejiang Lab, China*
+Issei Fujishiro | *Keio University, Japan*
+Takanori Fujiwara | *University of California, Davis, USA*
+Katarína Furmanová | *Masaryk University, Czech Republic*
+Mohammad Ghoniem | *Luxembourg Institute of Science and Technology, Luxembourg*
+Christina Gillmann | *Leipzig University, Germany*
+Alex Godwin | *American University, USA*
+John Alexis Guerra-Gomez | *Northeastern University, USA*
+Tobias Günther | *Friedrich-Alexander-University Erlangen-Nürnberg, Germany*
+Hanqi Guo | *Argonne National Laboratory, USA*
+Markus Hadwiger | *KAUST, Kingdom of Saudi Arabia*
+Hans Hagen | *University of Kaiserslautern, Germany*
+Jun Han | *University of Notre Dame, USA*
+Wenbin He | *Bosch Research North America, USA*
+Christopher G. Healey | *North Carolina State University, USA*
+Thomas Höllt | *TU Delft, Netherlands*
+Seok-Hee Hong | *University of Sydney, Australia*
+Sungsoo Ray Hong | *George Mason University, USA*
+Enamul Hoque | *York University, USA*
+Mona Hosseinkhani Loorak | *University of Calgary, Canada*
+Ingrid Hotz | *Linköping University, Sweden*
+Jessica Hullman | *Northwestern University, USA*
+Katherine Isaacs | *University of Arizona, USA*
+Yun Jang | *Sejong University, South Korea*
+Jimmy Johansson | *Linköping University, Sweden*
+Alark Joshi | *University of San Francisco, USA*
+Alireza Karduni | *Northwestern University, USA*
+Yea-Seul Kim | *University of Wisconsin-Madison, USA*
+Jörn Kohlhammer | *Fraunhofer IGD, Germany*
+Barbora Kozlikova | *Masaryk University, Czech Republic*
+Josua Krause | *Accern, USA*
+Jens Krueger | *University of Duisburg-Essen, Germany*
+Robert Krüger | *Harvard University, USA*
+Kostiantyn Kucher | *Linnaeus University, Sweden*
+Kuno Kurzhals | *University of Stuttgart, Germany*
+Bum Chul Kwon | *IBM Research, USA*
+Oh-Hyun Kwon | *Apple, USA*
+Marcos Lage | *Universidade Federal Fluminense , Brazil*
+Po-Ming Law | *Georgia Institute of Technology, USA*
+Dirk Lehmann | *University Magdeburg, Germany*
+Fritz Lekschas | *Harvard University, USA*
+Lars Linsen | *Westfälische Wilhelms-Universität Münster, Germany*
+Dongyu Liu | *MIT, USA*
+Kwan-Liu Ma | *University of California, Davis, USA*
+G. Elisabeta Marai | *University of Illinois at Chicago, USA*
+Eva Mayr | *Danube University Krems, Austria*
+Nina McCurdy | *University of Utah, USA*
+Monique Meuschke | *University of Magdeburg, Germany*
+Yao Ming | *Bloomberg, Hong Kong*
+Fabio Miranda | *University of Illinois at Chicago, USA*
+Steffen Oeltze-Jafra | *University Magdeburg, Germany*
+Vanessa Peña-Araya | *Université Paris-Saclay, CNRS, Inria, LRI, France*
+Bruno Pinaud | *Université de Bordeaux, France*
+Thomas Polk | *University of Konstanz, Germany*
+Voicu Popescu | *Purdue University, USA*
+David Pugmire | *Oak Ridge National Laboratory, USA*
+Jesus Pulido | *Los Alamos National Laboratory, USA*
+Renata Georgia Raidou | *TU Wien, Austria*
+Fatemeh Rajabiyazdi | *Carleton University, USA*
+Alejandro Ribes | *EDF Lab, France*
+Alexander Rind | *St. Poelten University of Applied Sciences, Austria*
+Paul Rosen | *University of South Florida, USA*
+Oliver Rübel | *Lawrence Berkeley National Laboratory, USA*
+Filip Sadlo | *Heidelberg University, Germany*
+Allen Sanderson | *University of Utah, USA*
+Ali Sarvghad | *University of Massachusetts Amherst, USA*
+Arvind Satyanarayan | *MIT, USA*
+Michail Schwab | *Northeastern University, USA*
+Vidya Setlur | *Tableau Research, USA*
+Aidan Slingsby | *City University of London, UK*
+Bettina Speckmann | *Eindhoven University of Technology, Netherlands*
+Arjun Srinivasan | *Tableau Research, USA*
+Guodao Sun | *Zhejiang University of Technology, China*
+Maoyuan Sun | *Northern Illinois University, USA*
+Jun Tao | *Sun Yat-sen University, China*
+Xavier Tricoche | *Purdue University , USA*
+Cagatay Turkay | *University of Warwick, UK*
+Paola Valdivia | *Université Paris-Saclay, CNRS, Inria, LRI, France*
+Rafael Veras | *Huawei Research, Canada*
+Huy Vo | *CUNY City College, USA*
+Junpeng Wang | *Visa Research, USA*
+Yong Wang | *Singapore Management University, Singapore*
+Yunhai Wang | *Shandong University, China*
+John Wenskovitch | *Virginia Polytechnic Institute and State University, USA*
+Yanhong Wu | *Visa Research, USA*
+Michael Wybrow | *Monash University, Australia*
+Meng Xia | *KAIST, South Korea*
+Cong Xie | *Facebook, USA*
+Cindy Xiong | *University of Massachusetts Amherst, USA*
+Yalong Yang | *Harvard University, USA*
+Dirk Zeckzer | *Leipzig University, Germany*
 
-Contact: [vis_shortpapers@ieeevis.org](mailto:vis_shortpapers@ieeevis.org)
+Contact: [shortpapers@ieeevis.org](mailto:shortpapers@ieeevis.org)
