@@ -12,7 +12,8 @@ Our goals in Community are organizing activities at IEEE VIS conference that con
 The Community activities are open to all registered IEEE VIS participants, regardless of seniority and affiliation. The activities are organized by the IEEE VIS Community Chairs, who can be reached at [community@ieeevis.org](community@ieeevis.org).
 
 This year, there will be a few virtual meetup events, as follows. 
-<!-- 
+
+<!--
 To register or participate in these Community events, please see the corresponding details below.
 * [Tips and Tricks for Attending VIS for your First Time](#tips)
 * [Years in Attendance and Badge Bling](#years)
@@ -163,7 +164,7 @@ staff!
 
 ### Contact
 
-For more information contact IEEE VIS 2020 Community Chairs:
+For more information contact IEEE VIS 2021 Community Chairs:
 
 * Karen Schloss, *University of Wisconsin-Madison*
 * Hsiang-Yun Wu, *TU Wien*
