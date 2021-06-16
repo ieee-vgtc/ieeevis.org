@@ -12,8 +12,8 @@
 #   image: "mariocapecchi.jpg"
 #   active: "active"
 
- - title: "Supporters"
-   image: "supporters.png"
+- title: "Supporters"
+  image: "supporters.png"
 
 # - title: "SciVis Contest"
 #   description: "The 2020 IEEE SciVis Contest is dedicated to create novel approaches or state of the art visualizations to assist domain scientists to better understand the complex transport mechanisms of eddies in the Red Sea under uncertainty."
