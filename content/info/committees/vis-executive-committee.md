@@ -25,3 +25,6 @@ The current VEC members are:
 **Public Meeting Notes**  
 
 [January 8, 2021](https://drive.google.com/file/d/1EpkiQWEfc0hMx56sbK8bbQe_bgBU0cwp/view?usp=sharing)
+[February 12, 2021](https://drive.google.com/file/d/1iVZgos2MpzR30kXtXX9be1Om86S9c73K/view?usp=sharing)
+[March 12, 2021](https://drive.google.com/file/d/11lXkJDze9OFanC3Li7m8hnZdNyEIQfhg/view?usp=sharing)
+[April 9, 2021](https://drive.google.com/file/d/1VtggC55ddZ5bDm6ekCTQhTe_ARx-rC3S/view?usp=sharing)
