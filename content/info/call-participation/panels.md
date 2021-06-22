@@ -49,7 +49,7 @@ Panels will be recorded and posted to Vimeo for archival viewing. Panels from 20
 
 | Date | Activity |
 |------|----------|
-| Wednesday, June 30, 2021 | Proposal Submission |
+| ~~Wednesday, June 30, 2021~~ **extended** Monday, July 12, 2021 | Proposal Submission |
 | Monday, August 09, 2021 | Notification |
 | Tuesday, August 24, 2021 | Final Submission of Panel Summaries and Video Fast Forwards |
       
