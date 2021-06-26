@@ -1,9 +1,15 @@
+- title: "VIS 2021 Elections"
+  description: "Register before the deadline for the 2021 VIS Steering Committee (VSC) and the VIS Executive Committee (VEC)."
+  button-text: "Register To Vote"
+  button-url: "https://urldefense.proofpoint.com/v2/url?u=https-3A__eur02.safelinks.protection.outlook.com_-3Furl-3Dhttps-253A-252F-252Fforms.gle-252FKjGwXonvipVPUHXk7-26data-3D04-257C01-257C-257C07cf99615390404f14b508d935d84c4e-257Ccc7df24760ce4a0f9d75704cf60efc64-257C1-257C0-257C637600025370111281-257CUnknown-257CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0-253D-257C1000-26sdata-3DA4h8-252BvTaHawE3FiNjCtn0sbXrZ-252Bombd98P09NJfus-252BI-253D-26reserved-3D0&d=DwMGaQ&c=ZbgFmJjg4pdtrnL2HUJUDw&r=RGA_76Tm7TQLZossjl6HEc_UpY5zlLEHr0JMoOH-xOw&m=BrT4DuFevwZYCRn8c0XHS5LgprIo9u1DkQuC5NWLgCY&s=OClwK9LBJnyDHrDJA318Au8qL9LK9o-X1sF500zBDD8&e="
+  image: "vote.jpeg"
+  active: "active"
+
 - title: "VIS 2021 Satellite Program"
   description: "We are excited to announce the IEEE VIS 2021 Satellite Program.  Volunteer to host a satellite event."
   button-text: "Read more"
   button-url: "/info/call-participation/satellite"
   image: "earth.jpeg"
-  active: "active"
 
 # - title: "Keynote speaker: Nobel prize Mario Capecchi"
 #   description: "For the first time in the history of the VIS conference, we will have a Nobel prize awardee as the keynote speaker: Mario Capecchi co-winner of the 2007 Nobel Prize in Physiology or Medicine."
@@ -12,8 +18,15 @@
 #   image: "mariocapecchi.jpg"
 #   active: "active"
 
+- title: "Nominate VIS 2021 Committees"
+  description: "We are accepting nominations for candidates for the 2021 VIS Steering Committee (VSC) and the VIS Executive Committee (VEC)."
+  button-text: "Nominate a candidate"
+  button-url: "https://forms.gle/pDLS2Y1oK4GxGTt49"
+  image: "vote.jpeg"
+
 - title: "Supporters"
   image: "supporters.png"
+
 
 # - title: "SciVis Contest"
 #   description: "The 2020 IEEE SciVis Contest is dedicated to create novel approaches or state of the art visualizations to assist domain scientists to better understand the complex transport mechanisms of eddies in the Red Sea under uncertainty."
