@@ -26,9 +26,9 @@ Only selected applicants will be allowed to participate in the colloquium and th
 With an NSF travel grant, we may be able to partially fund the travel, conference registration, and lodging for accepted DC student participants for US-based Universities.
 
 ## Submissions
-The deadline for DC submissions is June 30, 2021 5:00pm Pacific Time (PDT)
+The deadline for DC submissions is extended to July 15, 2021, at 5:00pm Pacific Time (PDT).
 
-Notification: **July 31, 2021**
+Notification: **August 15, 2021**
 
 Applicants to the Doctoral Colloquium should submit:
 *	A four-page summary describing their PhD research, including 
