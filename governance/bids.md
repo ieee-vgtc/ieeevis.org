@@ -66,7 +66,7 @@ The intention will be to develop a full bid that involves a host city, specific 
 | 2 | VEC | Review | Apr 15 | Y&nbsp;-3 | 6 weeks |
 | 3 | VEC Chair | Connect | Apr 22 | Y&nbsp;-3  | 1 week |
 | 4 | IEEE Liaison | Request & Respond | May 31 | Y&nbsp;-3  | 5 weeks |
-| 5 | **Potential GCs** | **Stage 2: Detailed Bid** | Aug 31 | Y&nbsp;-3  | 3 months |
+| 5 | **Provisional GCs** | **Stage 2: Detailed Bid** | Aug 31 | Y&nbsp;-3  | 3 months |
 | 6 | VEC | Decide & Inform | Oct 31 | Y&nbsp;-3 | 3 months |
 | 7 | IEEE Liaison | Release/Confirm | Dec 15 | Y&nbsp;-3 | 2 weeks |
 | 8 | IEEE Liaison + **GPF Chairs** | Negotiate | Mar 31 | Y&nbsp;-2  | 4.5 months<br/>(steps 8-10) |
