@@ -105,26 +105,25 @@ Inform the VEC of your interest in acting as General Chair for IEEE VIS, by subm
 
 ### 3. VEC Chair: Connect
 
-For the bids within North America, put the bidder in touch with the _IEEE Liaison to VIS_, _VIS Program Chairs_ and _VIS Finance Chairs_ who will initiate the engagement with venues in the target city. For the bids in cities outside of North America, send the proposed GCs the current standard template that the IEEE Liaison uses for venue engagement as a source of logistics information.
+For the bids within North America, put the provisional GCs in touch with the _IEEE Liaison to VIS_, _VIS Program Chairs_ and _VIS Finance Chairs_ who will initiate the engagement with venues in the target city. For the bids in cities outside of North America, send the provisional GCs the current standard template that the IEEE Liaison uses for venue engagement as a source of logistics information.
 
 **Deadline: April 22 Y&nbsp;-3**
 
 
 ### 4. IEEE Liaison: Request & Respond _(North American bids only)_
 
-IEEE Liaison sends out a customized RFPs (_Request for Proposals_) to venues in your target city, within one week of hearing from the VEC Chair, with a two-week cutoff date for the venues to _respond_. The Liaison will forward the full set of responses within two weeks of that date.
+IEEE Liaison sends out a customized RFPs (_Request for Proposals_) to venues in the target city, within one week of hearing from the VEC Chair, with a two-week cutoff date for the venues to _respond_. The Liaison will forward the full set of responses within two weeks of that date.
 
-The customized RFPs will be based on the standard RFP template, which has already been vetted by the finance and program chairs and includes information on meeting room size requirements, room rates, wifi, food/beverage, student volunteer rooms, hotel rebates if held at convention center, and other logistics issues that most prospective general chairs will not be deeply familiar with. Having the IEEE Liaison in the loop from the very beginning of initial contact with venues will make the later contract negotiation phase (Step 8) go much faster. The Liaison will collect all of the venue responses and forward them in a single batch to the bidder the VEC Chair.
+The customized RFPs will be based on the standard RFP template, which has already been vetted by the finance and program chairs and includes information on meeting room size requirements, room rates, wifi, food/beverage, student volunteer rooms, hotel rebates if held at convention center, and other logistics issues that most prospective general chairs will not be deeply familiar with. Having the IEEE Liaison in the loop from the very beginning of initial contact with venues will make the later contract negotiation phase (Step 8) go much faster. The Liaison will collect all of the venue responses and forward them in a single batch to the GCs and the VEC Chair.
 
-Bidders outside North America are also welcome to request RFP support from the IEEE Liaison, but the financial and logistical landscape outside of North America is sufficiently different that bidders may choose to investigate options themselves. In that case, the expectation is not that the exact equivalent of RFP responses would be submitted by bidders outside North America, given that the hotel situation is quite different. The template is simply a source of useful information. There is flexibility on the format according to the situation of the bidders, as
-discussed in Step 5 below.
+GCs outside North America are also welcome to request RFP support from the IEEE Liaison, but the financial and logistical landscape outside of North America is sufficiently different that GCs may choose to investigate options themselves. In that case, the expectation is not that the exact equivalent of RFP responses would be submitted by GCs outside North America, given that the hotel situation is quite different. The template is simply a source of useful information. There is flexibility on the format according to the situation of the GCs, as discussed in Step 5 below.
 
 **Deadline: April 30 Y&nbsp;-3 (Request) &amp; May 31 Y&nbsp;-3 (Respond).**
 
 
-### 5. **Potential GCs: Submit Detailed Bid**
+### 5. **Provisional GCs: Submit Detailed Bid**
 
-GCs create and submit the Detailed Bid proposal document to the VEC Chair, who will forward it to the rest of the VEC for consideration. Your Detailed Bid proposal should incorporate information from the venue responses. Visit the venues in person, if possible, as part of your decision making process. Issues that you should consider and document include the following:
+GCs create and submit the _Detailed Bid_ proposal document to the VEC Chair, who will forward it to the rest of the VEC for consideration. Your _Detailed Bid_ proposal should incorporate information from the venue responses. Visit the venues in person, if possible, as part of your decision making process. Issues that you should consider and document include the following:
 
  * hotel room costs,
  * local transit,
@@ -141,7 +140,7 @@ Bids from within North America do not need to address budget questions beyond th
 
 Information about availability of local event planning and support of a local University is useful but not formally required.
 
-Non-US bidders may need to work with the Finance Chairs to understand budget issues.
+Provisional GCs leading proposals to hold VIS outside of the US may need to work with the Finance Chairs to understand budget issues.
 
 **Deadline: August 31  Y&nbsp;-3**
 
@@ -150,9 +149,9 @@ Non-US bidders may need to work with the Finance Chairs to understand budget iss
 
 The VEC will discuss the bids and make a decision on whether to go ahead.
 
-The VEC Chair will inform successful bidder(s), who become(s) the GC(s), the IEEE Liaison, and the VSC members.
+The VEC Chair will inform successful Provisional GC(s), who become(s) the GC(s) for the proposed conference, the IEEE Liaison, and the VSC members.
 
-Decisions should be made at least two years (ideally three years) in advance of the planned conference.
+Decisions should be made at least two years (_ideally three years_) in advance of the planned conference.
 
 **Notification Deadline: November 30  Y&nbsp;-3**
 
@@ -168,7 +167,7 @@ IEEE Liaison releases options for un-chosen venues. IEEE Liaison confirms with t
 
 IEEE Liaison is responsible for negotiating the venue (hotel or convention center) contract and obtaining all required documentation for contract submission to the IEEE Contracts Department.
 
-For locations outside North America,  responsibility for negotiation may be transferred to or shared with the General Chair. Local Staff will be included in this process.
+For locations outside North America, responsibility for negotiation may be transferred to or shared with the General Chair. Local Staff will be included in this process.
 
 **Deadline: March 31 Y&nbsp;-2**  _Steps 8-10 run in parallel_
 
@@ -197,7 +196,8 @@ _(18 months before conference minimum)_
 
 ### 12. IEEE Legal: Sign
 
-IEEE Liaison sends the finalized contract to IEEE Legal. 10A. IEEE Liaison sends approved hotel/convention center contract(s) to the IEEE Contracts Team for review, processing and signature.
+IEEE Liaison sends the finalized contract to IEEE Legal.
+IEEE Liaison sends approved hotel/convention center contract(s) to the IEEE Contracts Team for review, processing and signature.
 
  * **Turnaround Time for IEEE Liaison: 3 business days (once approvals are received)**
  * **Turnaround Time for IEEE Contracts/Legal Team: 4 weeks for domestic contracts or 6 weeks for international contracts**<br/>_(except during the Nov/Dec blackout period when contracts should not be sent to the IEEE Contracts team unless deeply urgent)_
@@ -208,7 +208,7 @@ _(17 months before conference minimum)_
 
 ### 13. Liaison + GPF Chairs: Additions
 
-GPF Chairs and IEEE Liaison will revisit the contract annually to consider addenda based on lessons learned from the latest VIS, including whether to keep any ROFR (right of first refusal) space that reserved in case of attendance growth.
+GPF Chairs and IEEE Liaison will revisit the contract annually to consider addenda based on lessons learned from the latest VIS, including whether to retain any ROFR (right of first refusal) space that had been reserved in case of attendance growth.
 
 **Deadline: March Y&nbsp;-1**
 _(19 months before conference; No later than Q1 of the following conference year)_
