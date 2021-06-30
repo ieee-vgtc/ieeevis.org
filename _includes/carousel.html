@@ -13,13 +13,27 @@
           <img class="carousel-img" src="/year/2021/assets/carousel/{{ entry.image }}" alt="Slide 1"/>
           {% endif %}
           {% if entry.description %}
-          <div class="carousel-caption">
-              <span class="block carousel-title">{{ entry.title }}</span>
-              <p class="carousel-p">{{ entry.description }}</p>
-              <a href="{{ entry.button-url | relative_url }}" class="button">
-              {{ entry.button-text }}
-              </a>
-          </div>
+
+              {% if entry.darken %}
+              <div class="carousel-caption carousel-darken">
+                  <span class="block carousel-title">{{ entry.title }}</span>
+                  <p class="carousel-p">{{ entry.description }}</p>
+                  <a href="{{ entry.button-url | relative_url }}" class="button">
+                  {{ entry.button-text }}
+                  </a>
+              </div>
+
+              {% else %}
+              <div class="carousel-caption">
+                  <span class="block carousel-title">{{ entry.title }}</span>
+                  <p class="carousel-p">{{ entry.description }}</p>
+                  <a href="{{ entry.button-url | relative_url }}" class="button">
+                  {{ entry.button-text }}
+                  </a>
+              </div>
+
+              {% endif %}
+
           {% endif %}
       </div>
     {% endfor %}

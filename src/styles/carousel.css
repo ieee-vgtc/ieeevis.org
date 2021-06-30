@@ -186,6 +186,10 @@
   transform: translate(-50%, -50%);
 }
 
+.carousel-darken {
+  background-color: rgba(0,0,0,0.4);
+}
+
 .carousel-title {
   font-size: 18px;
   font-weight: 700;
