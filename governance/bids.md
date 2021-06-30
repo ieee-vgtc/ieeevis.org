@@ -38,8 +38,6 @@ Provisionally approved General Chairs will be introduced to IEEE contacts and wi
 IEEE will provide support in assessing venues, negotiating prices, finding accommodation and contracts, etc. in developing this full bid. The level and specifics of support provided by the IEEE will depend on the general location, but discussions with IEEE representatives are essential at this stage.
 The intention will be to develop a full bid that involves a host city, specific venue, costings, and options for timing. The VEC will consider such bids and establish a series of future conferences accordingly.
 
-**Currently, we are accepting expressions of interest for 2023 and onwards.**
-
 ## Expectations
 
 * The role of General Chairs (GCs) may be fulfilled by an individual or a small team (maximum of three), who work together closely with well-defined roles.
@@ -150,8 +148,6 @@ Provisional GCs leading proposals to hold VIS outside of the US may need to work
 The VEC will discuss the bids and make a decision on whether to go ahead.
 
 The VEC Chair will inform successful Provisional GC(s), who become(s) the GC(s) for the proposed conference, the IEEE Liaison, and the VSC members.
-
-Decisions should be made at least two years (_ideally three years_) in advance of the planned conference.
 
 **Notification Deadline: November 30  Y&nbsp;-3**
 
