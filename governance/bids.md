@@ -45,7 +45,7 @@ The intention will be to develop a full bid that involves a host city, specific 
 * The role of General Chairs (GCs) may be fulfilled by an individual or a small team (maximum of three), who work together closely with well-defined roles.
 * The conference will be run in close association with the VIS Steering Committee (VSC) and VEC in accordance with the roles and responsibilities described in the [IEEE VIS Charter](https://drive.google.com/file/d/1CzoEKf0CiHvybLsB44OcoD9OFiCTT210/view?usp=sharing).
 * The bid can be for a different city than where the GCs live or work, to open up the chair-ship to people who live in places that are not amenable for hosting large conferences.
-* Dates should be in the mid-October to earlY&nbsp;-November time frame.
+* Dates should be in the mid-October to early-November time frame.
 * The VEC would like some flexibility in terms of the year in which the conference will occur, to be able to vary geographic locations year by year.
 * If you have any questions about this process or want to discuss your ideas, please contact the VEC at [vec@ieeevis.org](mailto:vec@ieeevis.org).
  * Note suggested timings and locations are indicative at this stage and venues are not considered. Decisions on timings and venue are determined in close collaboration with the IEEE who contact venues and establish a detailed proposal depending upon costs and availability once potential General Chairs and indicative timings and locations have been approved.
@@ -62,16 +62,16 @@ The intention will be to develop a full bid that involves a host city, specific 
 
 | Step | Who | What | Deadline | Year | Turnaround |
 | ---- | -------------- | ----------- | ----: | --: | ------------ |
-| 1 | **Potential GCs** | **Stage 1: Initial Application** | Feb 15| Y&nbsp;-3  |
+| 1 | **Potential GCs** | **Stage 1: Initial Application** | Feb 15| Y&nbsp;-3  | &nbsp; |
 | 2 | VEC | Review | Apr 15 | Y&nbsp;-3 | 6 weeks |
 | 3 | VEC Chair | Connect | Apr 22 | Y&nbsp;-3  | 1 week |
 | 4 | IEEE Liaison | Request & Respond | May 31 | Y&nbsp;-3  | 5 weeks |
 | 5 | **Potential GCs** | **Stage 2: Detailed Bid** | Aug 31 | Y&nbsp;-3  | 3 months |
 | 6 | VEC | Decide & Inform | Oct 31 | Y&nbsp;-3 | 3 months |
 | 7 | IEEE Liaison | Release/Confirm | Dec 15 | Y&nbsp;-3 | 2 weeks |
-| 8 | IEEE Liaison + **GPF Chairs** | Negotiate | Mar 31 | Y&nbsp;-2  | 4.5 months<br/>(steps 7-9) |
-| 9 | IEEE Liaison + **GPF Chairs** | Site Visit 1 | Mar 31 | Y&nbsp;-2 | 4.5 months<br/>(steps 7-9) |
-| 10 | Finance + **General** | Forms | Mar 31 | Y&nbsp;-2 | |
+| 8 | IEEE Liaison + **GPF Chairs** | Negotiate | Mar 31 | Y&nbsp;-2  | 4.5 months<br/>(steps 8-10) |
+| 9 | IEEE Liaison + **GPF Chairs** | Site Visit 1 | Mar 31 | Y&nbsp;-2 | 4.5 months<br/>(steps 8-10) |
+| 10 | Finance + **General** | Forms | Mar 31 | Y&nbsp;-2 | 4.5 months<br/>(steps 8-10) |
 | 11 | **GPF Chairs** | Approve | Apr 15 | Y&nbsp;-2  | 2 weeks |
 | 12 | IEEE Legal | Sign | Jun 1 | Y&nbsp;-2  | 4 or 6 weeks |
 | 13 | IEEE Liaison + **GPF Chairs** | Additions | Mar | Y&nbsp;-1  | |
@@ -229,7 +229,7 @@ _(6 months before conference)_
 ---
 
 ## Change Log
-* 29 June 2021 - VEC : updated to add _Important Dates_ and _Procedure Details_
+* 30 June 2021 - VEC : updated to add _Important Dates_ and _Procedure Details_
 * 26 April 2021 - VEC : updated in light of General Chairs page
 * 23 April 2021 - VEC : updated in light of reVISe governance changes
 * 26 Sep 2017 - Converted to markdown, update years approved & email addresses
