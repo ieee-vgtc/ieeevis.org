@@ -12,7 +12,7 @@ Current members of the VSC are:
 | **Name** | **Affiliation** |
 | Petra Isenberg | *Inria* |
 | Shixia Liu | *Tsinghua University* |
-| Robert Morehead | *Mississippi State University* |
+| Robert Moorhead | *Mississippi State University* |
 | Stephen North | *Infovisible* |
 | Huamin Qu | *Hong Kong University of Science and Technology* |
 | Tobias Schreck | *TU Graz* |
