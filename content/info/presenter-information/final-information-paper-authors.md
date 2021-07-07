@@ -31,7 +31,7 @@ At least one author per accepted paper must register to present the work. There 
 
 **DEADLINE: September 14.** It is **mandatory** for authors of all VIS papers to submit a [recording of their paper presentation](/year/2020/info/presenter-information/talk-recording-guide). Presentations should be submitted through the IEEE submission system.
 
-We provide a PowerPoint template that can be used for your presentation.  Feel free to download the template with [imperial measurements]({{ 'assets/vis2020-16x9-imperial.ppt' | relative_url }}) or [metric measurements]({{ 'assets/vis2020-16x9-metric.ppt' | relative_url }}).
+We provide a PowerPoint template that can be used for your presentation.  Feel free to download the template with [imperial measurements]({{ 'assets/vis2021-16x9-imperial.pptx' | relative_url }}) or [metric measurements]({{ 'assets/vis2021-16x9-metric.pptx' | relative_url }}).
 
 ## Common Editing Mistakes and Notes from TVCG
 
