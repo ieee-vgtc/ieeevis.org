@@ -9,7 +9,7 @@ contact: ff@ieeevis.org
 
 
 Please **read the following instructions carefully** and submit your
-25-second video for the online Video Previews by **September 14, 2020** (updated from: _September 07_).
+25-second video for the online Video Previews by **August 15, 2021**. However, if your track has a camera-ready deadline after August 15, you can submit your video previews by September 1, 2021.
 
 
 Video previews and fast forwards are a great opportunity to publicize
@@ -20,7 +20,7 @@ and after the conference.
 
 
 
-This year, due to IEEE VIS going fully virtual, video previews are linked 
+Like last year, due to IEEE VIS going fully virtual, video previews are linked 
 from the conference's webpage and will be compiled into 'trailers', one for
 each session. **There will be no Fast-Forward session this year.** 
 
@@ -96,28 +96,24 @@ If your track is not listed, please check for updates later as all track chairs 
 
 
 Video Previews are **required** for the following tracks:
-- SciVis Papers
-- VizSec Papers
+- VIS Full Papers
+- VIS Short Papers
+- VIS Supporters
 - VISAP
-- Short Papers
 - TVCG Papers
 - CG&amp;A Papers
 
 
 Video Previews are **optional** for the following tracks:
-- InfoVis Papers
-- VAST Papers
+- VIS Posters
+- Meetups
+- LDAV
+- VIS 2021 Overview
 - SciVis Contest
-- VizSec Posters
-- Posters
-- Workshops
 
 You have **no Video-Preview** to submit for the following tracks:
-- Tutorials
+- Doctor Colloquium
 - VAST Challenge
-- Meetups
-- Vis in Practice
-- Workshops
 
 
 
@@ -138,15 +134,7 @@ You have **no Video-Preview** to submit for the following tracks:
 - **Content:** 
   - Please do NOT include a title slide with the title of the work, authors, affiliations, etc. at the start of the video. We will add this to all videos in a consistent style.
 - **Submission:**
-  - If your video preview is for VAST papers, InfoVis papers, SciVis papers, short papers, TVCG, or CG&amp;A papers, please submit it through the IEEE CPS system with the correct link below. The system includes details on how to name your file. 
-    - VAST (TVCG track), InfoVis, and SciVis papers: [IEEE CPS link 1]( https://www.ieeecps.org/#!/auth/login?ak=1&pid=6npUPAW09ZkWTxZu1x6eqt)
-    - VAST conference track papers: [IEEE CPS link 2]( https://www.ieeecps.org/#!/auth/login?ak=1&pid=1STjhXEs7pnq6MVRHsS1GZ)
-    - Short papers: [IEEE CPS link 3](https://www.ieeecps.org/#!/auth/login?ak=1&pid=6FmDqudXOcyXV0lDKiEQXe)
-    - TVCG papers: [IEEE CPS link 4](https://ieeecps.org/#!/ak/3FHCZuzSIxlcfPtV5l4cwl/preparation-information)
-    - CG&amp;A papers: [IEEE CPS link 5](https://ieeecps.org/#!/ak/6SBnuotlf7vEKUw5IQNo4o/preparation-information)
-  - If your video preview is for VizSec, VISAP, Posters, or SciVis Contest, please submit it through the [PCS author submission page](https://new.precisionconference.com/vgtc) of your accepted submissions. 
-    - You will find two new upload fields labeled **Video Preview** and **Video Preview (Caption File)**. Please upload your video (.mp4 file) and caption file (.srt file) to the corresponding field.
-  - If your fast forward video is not associated with an existing entry in the PCS system, please create a new Video-Preview submission in the system (make a new submission to VGTC - VIS 2020 - VIS 2020 Fast Forwards and Video Previews). Please request a PCS login from the conference organizers if you do not have one.
+  - Video previews need to be submitted through the IEEE CPS system. The submission links for individual tracks will be updated shortly.
   - Please submit your video file and caption/subtitle file separately and do not bake the subtitles into the video. We will do the integration in a consistent way.
 
 
@@ -183,7 +171,7 @@ For questions or more information, please email ff@ieeevis.org.
 Video Previews Chairs
 
 
-- Jian Zhao, University of Waterloo (VAST)
-- Junpeng Wang, Visa Research (SciVis)
-- Benjamin Bach, University of Edinburgh (InfoVis)
-- Charles Perin, University of Victoria (InfoVis)
+- Benjamin Bach, University of Edinburgh
+- Subhashis Hazarika, Los Alamos National Laboratory
+- Bahador Saket, Lawyaw
+- Junpeng Wang, Visa Research
