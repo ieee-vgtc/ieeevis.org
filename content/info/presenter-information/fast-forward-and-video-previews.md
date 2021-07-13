@@ -9,7 +9,9 @@ contact: ff@ieeevis.org
 
 
 Please **read the following instructions carefully** and submit your
-25-second video for the online Video Previews by **August 15, 2021**. However, if your track has a camera-ready deadline after August 15, you can submit your video previews by September 1, 2021.
+25-second video for the online Video Previews by the following deadlines:
+- Main Events: Aug. 15
+- Associated Events: Sept. 1
 
 
 Video previews and fast forwards are a great opportunity to publicize
@@ -115,24 +117,9 @@ You have **no Video-Preview** to submit for the following tracks:
 - Doctor Colloquium
 - VAST Challenge
 
+Please see the [Information Guide for Contributors](/year/2020/info/presenter-information/talk-recording-guide)on how to format your Video Preview.
 
-
-
-## Technical and Legal Details: 
-
-
-- Length: 25 seconds
-- Maximum file size: 50MB
-- Resolution: 1920 x 1080 px, at 30 frames/s
-- Format: MPEG-4 using H.264 encoding (filename extension .mp4)
-- **Media player:**
-  - Video plays in the VLC media player version 2.2.4 (freely available at http://www.videolan.org/vlc) without additional software, codecs or settings
-- **Audio:**
-  - Should contain narration (supported by subtitles). 
-  - We discourage salient music to focus viewers’ attention on the content.
-  - If you want to have music, you must certify that any audio is free from copyright or that you are licensed to use it.
-- **Content:** 
-  - Please do NOT include a title slide with the title of the work, authors, affiliations, etc. at the start of the video. We will add this to all videos in a consistent style.
+ 
 - **Submission:**
   - Video previews need to be submitted through the IEEE CPS system. The submission links for individual tracks will be updated shortly.
   - Please submit your video file and caption/subtitle file separately and do not bake the subtitles into the video. We will do the integration in a consistent way.
@@ -140,7 +127,7 @@ You have **no Video-Preview** to submit for the following tracks:
 
 Please **make sure that your video adheres to these specifications otherwise it will not be accepted** and will have to be revised.
 
-
+<!-- 
 ## Helpful links
 
 
@@ -149,9 +136,9 @@ There exists a wide range of software to create videos. Here is a list of widely
 - Camtasia: https://www.techsmith.com/video-editor.html
 - OpenShot: https://www.openshot.org 
 - Adobe Premiere:  https://www.adobe.com/ca/products/premiere.html	
-- iMovie: https://www.apple.com/imovie/
+- iMovie: https://www.apple.com/imovie/ -->
 
-
+<!-- 
 **Automated Subtitles / Captions:**
 We ask that you submit a .srt file along with your video. One way to create such a file is to use the automatic YouTube captioning functionality as explained here:  https://support.google.com/youtube/answer/6373554. Generating captions automatically can take some time. Make sure that you manually correct the generated subtitles for errors by directly editing the .srt file in a text editor. If captions cannot be generated manually, you can use the YouTube Studio interface to add captions manually, too.
 
@@ -161,7 +148,7 @@ We ask that you submit a .srt file along with your video. One way to create such
 - To check that your video is in the right format, we recommend to use the free software MediaInfo: https://mediaarea.net/en/MediaInfo
 
 
-
+ -->
 
 For questions or more information, please email ff@ieeevis.org.
 
