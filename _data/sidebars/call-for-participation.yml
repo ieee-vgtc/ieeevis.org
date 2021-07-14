@@ -28,16 +28,16 @@
 #     - text: "Open Practices"
 #       url: "/year/2021/info/open-practices/open-practices"
 
-# - heading: "Participating virtually"
-#   links:
-#     - text: "Speakers and Presenters"
-#       url: "/year/2021/info/presenter-information/final-information-paper-authors"
-#     - text: "Video Previews"
-#       url: "/year/2021/info/presenter-information/fast-forward-and-video-previews"
-#     - text: "Recording your Talk"
-#       url: "/year/2021/info/presenter-information/talk-recording-guide"
-#     - text: "Guidance for Virtual Events"
-#       url: "/year/2021/info/presenter-information/guidance-for-associated-events"
-#     - text: "Presenting at the Virtual Conference"
-#       url: "/year/2021/info/presenter-information/presenting-virtually"
+- heading: "Participating virtually"
+  links:
+    - text: "Speakers and Presenters"
+      url: "/year/2021/info/presenter-information/final-information-paper-authors"
+    - text: "Video Previews"
+      url: "/year/2021/info/presenter-information/fast-forward-and-video-previews"
+    - text: "Recording your Talk"
+      url: "/year/2021/info/presenter-information/talk-recording-guide"
+    - text: "Guidance for Virtual Events"
+      url: "/year/2021/info/presenter-information/guidance-for-associated-events"
+    - text: "Presenting at the Virtual Conference"
+      url: "/year/2021/info/presenter-information/presenting-virtually"
 
