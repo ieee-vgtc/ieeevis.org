@@ -7,38 +7,89 @@ active_nav: "Contribute"
 contact: tech@ieeevis.org
 ---
 
-Please **read the following instructions carefully** for guidelines
-on preparing your video presentation for VIS 2020, or a VIS 2020 associated event.
-If you're presenting a VIS full or short paper your talk is due on **September 14, 2020**.
-**Associated events, workshops:** Due dates for associated events may vary, please check with your associated event for information.
+Please **read the following instructions carefully** for guidelines on preparing your video recordings for VIS 2021, or a VIS 2021 associated event.  You will need the following information in order to prepare your recorded **Presentation Videos** as well as your **Video Preview** if required.
 
-Your talk submission consists of two pieces:
+Work must be submitted via IEEE CPS by  5:00pm Pacific Time (PDT) on the dates listed below.
+**Video Previews:**
+  Main Events: Aug. 15
+  Associated Events: Sept. 1
 
-1. The video recording of your talk, following the encoding and naming conventions described below
-2. A subtitles file containing captions for your talk, following the same naming convention as the video
+**Presentation Videos:**
+  Full/Short Papers: Sept. 8
+  Posters/Symposia: Sept. 15
+  Workshops: Sept. 22
 
-Guidance for creating both and requirements for file encoding and naming are provided below.
-Videos will be streamed live to Youtube during the conference, please make sure your video
-does not contain copyrighted audio or video content.
+## IEEE Visualization 2021 is a fully virtual conference
 
-## Presentation Length
+Presentations at IEEE Vis 2021 will consist largely of the streaming of prerecorded videos with small live interaction components. Live presentations will be reserved for special scenarios (e.g., a keynote presentation, short opening or closing by the chairs). The majority of talks and sessions should be prerecorded to avoid potential issues impacting the event (e.g., networking, time zones, etc.).
 
+Only those answering questions or facilitating the session will be in the interactive Zoom call
+Watching the session will be done through embedded content available on the IEEE Visualization 2021 Web Page.
+Questions by the audience will be asked over sli.do, a chat application seamlessly embedded in the web page. Session chairs will relay questions on sli.do to the speaker(s) on the Zoom call. Discord and GatherTown options will be available for socializing or discussions.  
+
+Video previews are a great opportunity to publicize your work or event to a wide audience. Video previews are accessible from the conference website on the VIS Vimeo channel prior to, during, and after the conference. 
+
+**IEEE Visualization allows authors to release their video preview on websites and any social media platform prior to the conference, but authors should not release their presentation videos to the public until AFTER the conference.  Do not upload them to YouTube, they may conflict with the conference uploads.**
+ 
+
+Terminology used in this document:
+
+- **Session Chair**: an individual who keeps presenters on time and moderates Q&A
+- **Contributors**: individuals who are speaking and presenting in the Zoom call
+- **Attendee**: individuals viewing the event via the Youtube stream.
+  Attendees can post questions through a chat application (Discord, Youtube chat) which can
+  be monitored by the Session Chair and relayed to the Contributors.
+- **Time Slot**: A time during your event where something happens that requires Zoom and
+  Youtube, e.g., a live or recorded presentation is given, an interactive panel, etc.
+- **Session**: A session consists of one or more time slots, e.g., a set of paper presentations,
+  a single keynote talk. Longer events may consist of multiple sessions, separated by breaks.
+  Each session will have its own Youtube stream, Zoom call, and Q&A or discussion channels.
+ 
+
+## Technical Information for Recordings
+
+Your submission consists of two pieces:
+1. Video Preview
+  * A 25-second video that clearly communicates the research and contribution, inviting readers to read your paper.
+  * Must be self-contained.
+  * Despite recent years’ Fast-Forwards sessions, we discourage humor and trailer-like ‘ads’ because the video will exist for a long time and can be shared widely by the authors on social media and other channels.
+  * Should contain audio narration. However, we discourage background music and request that the video focuses viewers’ attention on the content.
+  * Subtitles will be automatically generated in order to increase accessibility.  
+
+2. Presentation Video
+  * Must follow the formatting described below.
+
+Guidance for creating both and requirements for file encoding and naming are provided below. Videos will be streamed live to YouTube and the YouTube video is embedded in the conference website during the conference, please make sure your videos do not contain copyrighted audio or video content.
+
+##Presentation Length
+
+- VIS Video Previews: 25 seconds, Maximum file size: 50MB
 - VIS Full Papers: the maximum length of your talk is **15 minutes**, including questions. We recommend a 12 minute talk with 3 minutes for questions. At least 1 minute must be left for questions.
 - VIS Short Papers: the maximum length of your talk is **10 minutes**, including questions. We recommend a 7 minute talk with 3 minutes for questions. At least 1 minute must be left for questions
 - Associated Events: please consult your associated event for information.
 
-## Encoding Your Video
-Your presentation must be in the following format:
+## Recorded Videos Format
 
-- 1920x1080 resolution at 30FPS.
-- MPEG-4 using H.264 encoding (file extension is .mp4)
-- VIS full & short papers: the maximum size for your video is 500MB.
-  Associated event talk sizes and lengths may vary, please see your associated event for details
-- To encode/re-encode your video in the right format, you can use the free software [Handbrake](https://handbrake.fr/)
-- To check that your video is in the right format, you can use the free software [MediaInfo](https://mediaarea.net/en/MediaInfo)
+Recorded videos played during your event (e.g., paper presentations) must be formatted and named following the VIS talk recording guidelines.
 
 To make full use of the 16x9 video aspect ratio we recommend using the 16x9 wide format Powerpoint template:
 [Download the VIS 2020 Powerpoint template here](/year/2020/assets/vis2020-16x9.ppt).
+
+All video submissions must meet the following requirements:
+- 1920x1080 resolution at 30FPS
+- Maximum Size:  
+  - 50MB	for Video Previews
+  - 500MB for VIS Full and Short papers
+  - Associated event talk sizes and lengths may vary, please see your associated event for details
+- MPEG-4 using H.264 encoding (file extension is .mp4)
+- Audio: We discourage salient music to focus viewers’ attention on the content. If you want to have music, you must certify that any audio is free from copyright or that you are licensed to use it.
+- Naming:
+  - Files must be named following the <shortname>_<uniqueidentifier>.mp4 convention, see details below
+  - Each file must be associated with a specific Time Slot during your event via its unique identifier so that it can be played at the appropriate time
+- Verification:
+  - To encode/re-encode your video in the right format, you can use the free software [Handbrake](https://handbrake.fr/)
+  - To check that your video is in the right format, you can use the free software [MediaInfo](https://mediaarea.net/en/MediaInfo)
+
 
 ## File Naming Convention
 
@@ -65,29 +116,6 @@ so if you speak during a slide transition **the audio will not be recorded**. Th
 
 After recording your talk, please rewatch it to ensure the video and audio are recorded correctly.
 
-## Providing Subtitles with Your Video
-
-Youtube can automatically generate captions for you, which you can download and include with your video.
-The automatic captions can take some time to generate and may need some correction, so if you use the
-automatic generation take this time into account before the deadline (allow at least a half day or more
-to provide sufficient buffer). You can also use Youtube’s captioning tool to create the captions yourself.
-If you use Youtube’s automatic captioning, be sure to check them for errors in their editor before downloading them.
-
-After the captions have been created (automatically or by hand), you can download them by going to the
-subtitles page when editing your video information in Youtube studio. You can then click the three dots
-next to the subtitles you want to download and select download from the menu to download the sbv or srt file
-containing your subtitles. Include this file with your video, following the same naming convention:
-`<shortname>_<uniqueidentifier>.sbv/srt`. This process is also demonstrated in our
-[talk recording tutorial](https://youtu.be/yg1P_Infw5A).
-
-You can test your subtitles by playing your video in VLC with the sbv file in the same directory, so
-that VLC will find it. Then right-click the VLC window and select the subtitle menu item to pick your
-subtitles to play during your video. During the conference your video will be played using the
-"small" subtitle size setting in VLC.
-
-If you create the captions using a different software package, subtitles in the SRT format are also acceptable.
-
-
 ## Conference Track and Associated Event Short Name Prefixes
 
 | **VIS Paper Tracks**                      | **Short Name Prefix** |
@@ -102,7 +130,7 @@ If you create the captions using a different software package, subtitles in the 
 | **Associated Events**                     | **Short Name Prefix** |
 |-------------------------------------------|-----------------------|
 | **VIS Arts Program**                      | a-arts                |
-| **VisInPractice**                         | a-visinpractice       |
+| **VisInPractice**                         | a-vip     |
 | **VizSec**                                | a-vizsec              |
 | **VDS**                                   | a-vds                 |
 | **VIS4DH**                                | a-vis4dh              |
@@ -150,5 +178,5 @@ Technical Committee
 
 - Will Usher, SCI Institute, University of Utah
 - Alexander Bock, Linköping University 
-- Martin Falk, Linköping University 
+- Micha Schwab, Google  
 
