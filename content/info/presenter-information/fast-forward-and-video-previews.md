@@ -117,12 +117,12 @@ You have **no Video-Preview** to submit for the following tracks:
 - Doctor Colloquium
 - VAST Challenge
 
-Please see the [Information Guide for Contributors](/year/2020/info/presenter-information/talk-recording-guide)on how to format your Video Preview.
+Please see the [Information Guide for Contributors](/year/2020/info/presenter-information/talk-recording-guide) on how to format your Video Preview.
 
  
-- **Submission:**
-  - Video previews need to be submitted through the IEEE CPS system. The submission links for individual tracks will be updated shortly.
-  - Please submit your video file and caption/subtitle file separately and do not bake the subtitles into the video. We will do the integration in a consistent way.
+## How to submit?
+- Video previews need to be submitted through the IEEE CPS system. The submission links for individual tracks will be updated shortly.
+- Please submit your video file and caption/subtitle file separately and do not bake the subtitles into the video. We will do the integration in a consistent way.
 
 
 Please **make sure that your video adheres to these specifications otherwise it will not be accepted** and will have to be revised.
