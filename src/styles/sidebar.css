@@ -3,7 +3,7 @@
 .sidebar {
     @apply flex flex-col self-start sticky;
     /* @apply relative; */
-    @apply order-1;
+    @apply order-2;
     @apply w-full;
     @apply pl-0 pb-8;
     @apply border-l-0 border-b border-dashed border-primary;
