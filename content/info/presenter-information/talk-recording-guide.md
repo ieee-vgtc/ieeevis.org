@@ -171,7 +171,9 @@ If you create the captions using a different software package, subtitles in the 
 | **BELIV**                                 | a-beliv               |
 | **VAST Challenge**                        | a-vastchallenge       |
 | **SciVis Contest**                        | a-sciviscontest       |
-| **BioVis Challenge**                      | a-biovischallenge     | -->
+| **BioVis Challenge**                      | a-biovischallenge     |  
+
+
 <!-- 
 | **Tutorials**                                                          | **Short Name Prefix**  |
 |------------------------------------------------------------------------|------------------------|
