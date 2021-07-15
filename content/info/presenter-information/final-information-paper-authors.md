@@ -21,7 +21,7 @@ IMPORTANT: Please make sure the final submission data in PCS is identical to the
 
 You can submit a video of your work for inclusion in the digital archive. TVCG requires that supplemental material is also peer-reviewed, hence, this is only allowed if you have already submitted a video and if the reviewers have found it acceptable. Videos are usually up to 5 minutes in length, and you may also include other supplemental material such as additional images or source code. The IEEE submission system includes information on how to do so.
 
-At least one author per accepted paper must register to present the work. There will be no fast-forward presentations at VIS this year.
+At least one author per accepted paper must register to present the work, which will be indicated in the IEEE submission system.
 
 ## Video Preview Submission
 
