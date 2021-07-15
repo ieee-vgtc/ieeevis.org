@@ -78,7 +78,7 @@ Guidance for creating both and requirements for file encoding and naming are pro
 
 - VIS Video Previews: 25 seconds, Maximum file size: 50MB
 - VIS Full Papers: the maximum length of your talk is **15 minutes**, including questions. We recommend a 12 minute talk with 3 minutes for questions. At least 1 minute must be left for questions.
-- VIS Short Papers: the maximum length of your talk is **10 minutes**, including questions. We recommend a 7 minute talk with 3 minutes for questions. At least 1 minute must be left for questions
+- VIS Short Papers: the maximum length of your talk is **10 minutes**, including questions. We recommend a 8 minute talk with 2 minutes for questions. At least 1 minute must be left for questions
 - Associated Events: please consult your associated event for information.
 
 ## Recorded Videos Format
