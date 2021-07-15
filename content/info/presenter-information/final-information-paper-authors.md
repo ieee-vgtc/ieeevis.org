@@ -17,7 +17,7 @@ Camera-ready papers may not exceed 11 pages (9 pages of main text and 2 pages of
 
 Please check the second round reviewer comments (if any) and incorporate their suggestions. Note: there will not be further detailed proof-reading of your submission, so PLEASE read through your manuscript very carefully to fix any remaining grammar and spelling problems. If you are not a native English speaker, we very strongly recommend you recruit one to do the final careful pass on your paper. Also note the strict page limits. The 10th and 11th pages, if used, may not contain anything other than references (we will be strict on this). Finally, your paper should not be anonymized in the final version. The paper must include authors and affiliations. Note that if you have been anonymizing then you may find you have to trim your text to fit into the page limits once authors and affiliations are added.
 
-IMPORTANT: Please make sure the final submission data in PCS is identical to the final PDF (e.g., title, author names and last names, affiliations, author order, email addresses.) You might need to correct the information in your PCS login in order to update the author information. You can do this by logging into your PCS account > my account > Change my contact information.
+IMPORTANT: Please make sure the final submission data in PCS is identical to the final PDF (e.g., title, author names and last names, affiliations, author order, email addresses.) You might need to correct the information in your PCS login in order to update the author information. You can do this by logging into your PCS account > my account > Change my contact information. Note that the author list has to be **identical** to the list that you provided for the abstract submission deadline (March 21).
 
 You can submit a video of your work for inclusion in the digital archive. TVCG requires that supplemental material is also peer-reviewed, hence, this is only allowed if you have already submitted a video and if the reviewers have found it acceptable. Videos are usually up to 5 minutes in length, and you may also include other supplemental material such as additional images or source code. The IEEE submission system includes information on how to do so.
 
@@ -25,7 +25,7 @@ At least one author per accepted paper must register to present the work. There 
 
 ## Video Preview Submission
 
-**DEADLINE: August 15.** It is **mandatory** for SciVis authors and optional for VAST and InfoVis authors to submit a [25-sec Video Preview](/year/2021/info/presenter-information/fast-forward-and-video-previews). Video previews should be submitted through the IEEE submission system.
+**DEADLINE: August 15.** It is **optional** for authors to submit a [25-sec Video Preview](/year/2021/info/presenter-information/fast-forward-and-video-previews). Video previews should be submitted through the IEEE submission system.
 
 ## Paper Presentation Video Recording
 
