@@ -87,7 +87,7 @@ Guidance for creating both and requirements for file encoding and naming are pro
 Recorded videos played during your event (e.g., paper presentations) must be formatted and named following the VIS talk recording guidelines.
 
 To make full use of the 16x9 video aspect ratio we recommend using the 16x9 wide format Powerpoint template:
-[Download the VIS 2020 Powerpoint template here](/year/2020/assets/vis2020-16x9.ppt).
+[Download the VIS 2021 Powerpoint template here](/year/2021/assets/vis2021-16x9-metric.pptx).
 
 All video submissions must meet the following requirements:
 - 1920x1080 resolution at 30FPS
