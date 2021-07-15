@@ -161,14 +161,14 @@ menu:
 
 
   - dropdown: "Program"
-    display: false
+    display: true
     sections:
       - subsections:
           - heading: "Vis Program"
-            # heading_url: "/year/2021/info/week-at-a-glance"
-            # description: "See the complete conference program"
-            columns:
-              - links:
+            heading_url: "/year/2021/info/week-at-a-glance"
+            description: "See the complete conference program"
+            # columns:
+            #   - links:
               #   - text: "Papers"
               #     description: "The latest research in theory, methods, and applications of visualization"
               #     url: "/year/2021/info/papers-sessions"
@@ -178,9 +178,9 @@ menu:
               #   - text: "Tutorials"
               #     description: "Learn new tools and application domains"
               #     url: "/year/2021/info/tutorials"
-                - text: "Workshops"
-                  description: "Informal setting to discuss emerging topics"
-                  url: "/year/2021/info/workshops"
+                # - text: "Workshops"
+                #   description: "Informal setting to discuss emerging topics"
+                #   url: "/year/2021/info/workshops"
                 # - text: "Panels"
                 #   description: "Discuss important and controversial issues"
                 #   url: "/year/2021/info/panels"
