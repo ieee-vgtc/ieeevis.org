@@ -122,7 +122,7 @@ If you are familiar with other recording software please feel free to use it ins
 Watch our tutorial on [Youtube](https://youtu.be/yg1P_Infw5A) or via [direct download](http://sci.utah.edu/~will/public/vis2020-recording-tutorial.mp4)
 for a guide on how to use OBS Studio to record your talk,
 should you choose to use it.
-Please also see our [guide](/year/2020/assets/vis2020-talk-recording-guide.pdf)
+Please also see our [guide](/year/2021/assets/vis2021-talk-recording-guide.pdf)
 for information on recording a compelling and high-quality talk.
 We do not recommend using Powerpoint’s built in recording since the recording is done per-slide,
 so if you speak during a slide transition **the audio will not be recorded**. These issues can be tough to catch and fix. 
