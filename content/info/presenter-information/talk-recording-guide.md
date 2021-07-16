@@ -28,7 +28,7 @@ Only those answering questions or facilitating the session will be in the intera
 Watching the session will be done through embedded content available on the IEEE Visualization 2021 Web Page.
 Questions by the audience will be asked over sli.do, a chat application seamlessly embedded in the web page. Session chairs will relay questions on sli.do to the speaker(s) on the Zoom call. Discord and GatherTown options will be available for socializing or discussions.  
 
-Video previews are a great opportunity to publicize your work or event to a wide audience. Video previews are accessible from the conference website on the VIS YoutTube channel prior to, during, and after the conference. 
+Video previews are a great opportunity to publicize your work or event to a wide audience. Video previews are accessible from the conference website on the VIS YouTube channel prior to, during, and after the conference. 
 
 IEEE Visualization allows authors to release their video preview on websites and any social media platform prior to the conference, but **authors should not release their presentation videos to the public until AFTER the conference**.  Do not upload your presentation vide to YouTube, as such videos may conflict with the conference uploads.
  
@@ -69,13 +69,13 @@ Your submission consists of three pieces:
   * Should contain audio narration. However, we discourage background music and request that the video focuses viewers’ attention on the content.
   * Subtitles are mandatory to increase accessibility. See below for tips on how to create and include subtitles
   * File Name: `[EventPrefix]_[PaperID]_[FirstAuthorLastName]_Preview.mp4` 
-    *  Example: `f-vis_0001_Smith_Preview.mp4`
+    *  Example: `v-full_0001_Smith_Preview.mp4`
 
 2. Presentation Video
   * Must follow the formatting described below.
   * Subtitles are mandatory to increase accessibility. See below for tips on how to create and include subtitles
   * File Name: `[EventPrefix]_[PaperID]_[FirstAuthorLastName]_Presentation.mp4` 
-    * Example:  `f-vis_0001_Smith_Presentation.mp4`
+    * Example:  `v-full_0001_Smith_Presentation.mp4`
   
 3. Representative Image
   * Authors are asked to submit a representative preview image that will be used as an icon next to the listing of the paper on our web pages.
@@ -83,7 +83,7 @@ Your submission consists of three pieces:
   * Image Size Limit: 1920 x 1080 Maximum
   * You will also be asked to provide a plaintext file with an image caption (100 words or less).
   * File Name: `[EventPrefix]_[PaperID]_[FirstAuthorLastName]_Image.png`
-    * Example: `f-vis_0001_Smith_Image.png`
+    * Example: `v-full_0001_Smith_Image.png`
 
 
 Guidance for creating both and requirements for file encoding and naming are provided below. Videos will be streamed live to YouTube and the YouTube video is embedded in the conference website during the conference, please make sure your videos do not contain copyrighted audio or video content.
@@ -151,7 +151,7 @@ If you create the captions using a different software package, subtitles in the 
  
 ## Conference Track and Associated Event Prefixes
 
-| **VIS Tracks**                             | **Event Prefix**      |
+| **VIS Events**                             | **Event Prefix**      |
 |--------------------------------------------|-----------------------|
 | **VIS Full Papers**                        | v-full                |
 | **VIS Short Papers**                       | v-short               |
