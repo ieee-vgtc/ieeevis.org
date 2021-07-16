@@ -36,6 +36,11 @@
     - name: "Kitware, Inc"
       image: /assets/supporters/kitware.png
       url: "https://www.kitware.com/"
+      
+    - name: "Fraunhofer IGD"
+      image: /assets/supporters/igd.png
+      url: "http://www.igd.fraunhofer.de/"
+
 
 #    - name: "Microsoft"
 #      image: /assets/supporters/microsoft.png
