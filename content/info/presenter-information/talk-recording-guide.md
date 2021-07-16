@@ -9,7 +9,7 @@ contact: tech@ieeevis.org
 
 Please **read the following instructions carefully** for guidelines on preparing your video recordings for VIS 2021, or a VIS 2021 associated event.  You will need the following information in order to prepare your recorded **Presentation Videos** as well as your **Video Preview** if required.
 
-Work must be submitted via IEEE CPS by  5:00pm Pacific Time (PDT) on the dates listed below.
+Work must be submitted via IEEE CPS by 5:00pm Pacific Time (PDT) on the dates listed below.
 
 **Video Previews:**
   * Main Events: Aug. 15
@@ -22,17 +22,17 @@ Work must be submitted via IEEE CPS by  5:00pm Pacific Time (PDT) on the dates l
 
 ## IEEE Visualization 2021 is a fully virtual conference
 
-Presentations at IEEE Vis 2021 will consist largely of the streaming of prerecorded videos with small live interaction components. Live presentations will be reserved for special scenarios (e.g., a keynote presentation, short opening or closing by the chairs). The majority of talks and sessions should be prerecorded to avoid potential issues impacting the event (e.g., networking, time zones, etc.).
+Presentations at IEEE VIS 2021 will consist largely of the streaming of prerecorded videos with small live interaction components. Live presentations will be reserved for special scenarios (e.g., a keynote presentation, short opening or closing by the chairs). The majority of talks and sessions should be prerecorded to avoid potential issues impacting the event (e.g., networking, time zones, etc.).
 
 Only those answering questions or facilitating the session will be in the interactive Zoom call
 Watching the session will be done through embedded content available on the IEEE Visualization 2021 Web Page.
 Questions by the audience will be asked over sli.do, a chat application seamlessly embedded in the web page. Session chairs will relay questions on sli.do to the speaker(s) on the Zoom call. Discord and GatherTown options will be available for socializing or discussions.  
 
-Video previews are a great opportunity to publicize your work or event to a wide audience. Video previews are accessible from the conference website on the VIS Vimeo channel prior to, during, and after the conference. 
+Video previews are a great opportunity to publicize your work or event to a wide audience. Video previews are accessible from the conference website on the VIS YoutTube channel prior to, during, and after the conference. 
 
 IEEE Visualization allows authors to release their video preview on websites and any social media platform prior to the conference, but **authors should not release their presentation videos to the public until AFTER the conference**.  Do not upload your presentation vide to YouTube, as such videos may conflict with the conference uploads.
  
-
+<!--
 Terminology used in this document:
 
 - **Session Chair**: an individual who keeps presenters on time and moderates Q&A
@@ -45,7 +45,19 @@ Terminology used in this document:
 - **Session**: A session consists of one or more time slots, e.g., a set of paper presentations,
   a single keynote talk. Longer events may consist of multiple sessions, separated by breaks.
   Each session will have its own Youtube stream, Zoom call, and Q&A or discussion channels.
- 
+-->
+
+
+## File Naming Convention
+
+- All files (videos, subtitles, images) are uploaded through IEEE CPS: please use the following guidance when naming your submission materials. 
+
+- Name all files with the following convention: 
+`[EventPrefix]_[PaperID]_[FirstAuthorLastName]_[SubmissionItem].[ext]`.  
+
+- For the the `[EventPrefix]` please find your event or track in the tables [below](#conference-track-and-associated-event-short-name-prefixes).
+Your event organizers will send any additional information about the unique identifier they expect you to use.  
+
 
 ## Technical Information for Recordings
 
@@ -55,22 +67,23 @@ Your submission consists of three pieces:
   * Must be self-contained.
   * Despite recent years’ Fast-Forwards sessions, we discourage humor and trailer-like ‘ads’ because the video will exist for a long time and can be shared widely by the authors on social media and other channels.
   * Should contain audio narration. However, we discourage background music and request that the video focuses viewers’ attention on the content.
-  * Subtitles will be automatically generated in order to increase accessibility.  However, for best accuracy, see below for tips on how to create and include subtitles files.
-  * File Name: `ShortName_PaperID_FirstAuthorLastName_Preview.mp4` 
-    *  Example: `f-info_001_Smith_Preview.mp4`
+  * Subtitles are mandatory to increase accessibility. See below for tips on how to create and include subtitles
+  * File Name: `[EventPrefix]_[PaperID]_[FirstAuthorLastName]_Preview.mp4` 
+    *  Example: `f-vis_0001_Smith_Preview.mp4`
 
 2. Presentation Video
   * Must follow the formatting described below.
-  * Optional: include a subtitles file containing captions for your talk.
-  * File Name: `ShortName_PaperID_FirstAuthorLastName_Presentation.mp4` 
-    * Example:  `f-scivis_001_Smith_Presentation.mp4`
+  * Subtitles are mandatory to increase accessibility. See below for tips on how to create and include subtitles
+  * File Name: `[EventPrefix]_[PaperID]_[FirstAuthorLastName]_Presentation.mp4` 
+    * Example:  `f-vis_0001_Smith_Presentation.mp4`
   
 3. Representative Image
   * Authors are asked to submit a representative preview image that will be used as an icon next to the listing of the paper on our web pages.
   * File Format: png
   * Image Size Limit: 1920 x 1080 Maximum
-  * File Name: `ShortName_PaperID_FirstAuthorLastName_Image.png`
-    * Example: `s-short_001_Smith_Image.png`
+  * You will also be asked to provide a plaintext file with an image caption (100 words or less).
+  * File Name: `[EventPrefix]_[PaperID]_[FirstAuthorLastName]_Image.png`
+    * Example: `f-vis_0001_Smith_Image.png`
 
 
 Guidance for creating both and requirements for file encoding and naming are provided below. Videos will be streamed live to YouTube and the YouTube video is embedded in the conference website during the conference, please make sure your videos do not contain copyrighted audio or video content.
@@ -86,8 +99,7 @@ Guidance for creating both and requirements for file encoding and naming are pro
 
 Recorded videos played during your event (e.g., paper presentations) must be formatted and named following the VIS talk recording guidelines.
 
-To make full use of the 16x9 video aspect ratio we recommend using the 16x9 wide format Powerpoint template:
-[Download the VIS 2021 Powerpoint template here](/year/2021/assets/vis2021-16x9-metric.pptx).
+To make full use of the 16x9 video aspect ratio we recommend using the 16x9 wide format Powerpoint template that can be used for your presentation.  Feel free to download the template with [imperial measurements]({{ 'assets/vis2021-16x9-imperial.pptx' | relative_url }}) or [metric measurements]({{ 'assets/vis2021-16x9-metric.pptx' | relative_url }}).
 
 All video submissions must meet the following requirements:
 - 1920x1080 resolution at 30FPS
@@ -97,22 +109,11 @@ All video submissions must meet the following requirements:
   - Associated event talk sizes and lengths may vary, please see your associated event for details
 - MPEG-4 using H.264 encoding (file extension is .mp4)
 - Audio: We discourage salient music to focus viewers’ attention on the content. If you want to have music, you must certify that any audio is free from copyright or that you are licensed to use it.
-- Naming:
-  - Files must be named following the `ShortName_PaperID_FirstAuthorLastName_<Presentation|Preview>.mp4` convention, see details below
-  - Each file must be associated with a specific Time Slot during your event via its unique identifier so that it can be played at the appropriate time
 - Verification:
   - To encode/re-encode your video in the right format, you can use the free software [Handbrake](https://handbrake.fr/)
   - To check that your video is in the right format, you can use the free software [MediaInfo](https://mediaarea.net/en/MediaInfo)
 
-
-## File Naming Convention
-
-- Videos submitted through IEEE CPS: please follow the guidance on IEEE CPS when naming your submission materials. 
-
-- Other associated events, workshops, tutorials:
-Your video file must be named following a `ShortName_PaperID_FirstAuthorLastName_<Presentation|Preview>.mp4` convention unless specified by the event. The prefix, `ShortName`, is assigned based on the track or event your video is included in.
-For the the short name prefix please find your event or track in the tables [below](#conference-track-and-associated-event-short-name-prefixes).
-Your event organizers will send information about the unique identifier.
+<!-- time slot info? -->
 
 
 ## Recording Your Talk
@@ -130,7 +131,7 @@ so if you speak during a slide transition **the audio will not be recorded**. Th
 After recording your talk, please rewatch it to ensure the video and audio are recorded correctly.
   
   
-## Optional: Providing Subtitles with Your Video
+## Mandatory: Providing Subtitles with Your Video
   
 There are a number of tools that are available to generate captions for you, which you can download and include with your video. Among the free options, YouTube, Veed.io, and Facebook, for example, have free tools that automatically create closed captions and make it possible to download these.  
   
@@ -141,37 +142,43 @@ Please note two important things for this:
 There are also a number of paid services that enable the transcription of videos, such as Amberscript. Lastly, it is also possible to manually create the subtitles using for example the YouTube captioning tool, Adobe Premiere Pro, or Amara.
 Regardless of the tool you are using, please make sure that the subtitles are accurate and correctly timed for the benefit of all attendees. Videos containing subtitles have a considerably higher engagement and retention rate than one’s without.
   
-After the captions have been created (automatically or by hand), you can download them by going to the subtitles page when editing your video information in YouTube Studio. You can then click the three dots next to the subtitles you want to download and select download from the menu to download the .sbv or .srt file containing your subtitles. Make sure that you manually correct the generated subtitles for errors by directly editing the .srt file in a text editor. Include this file with your video, following the same naming convention: `ShortName_PaperID_FirstAuthorLastName_<Presentation|Preview>.sbv` or `ShortName_PaperID_FirstAuthorLastName_<Presentation|Preview>.srt`. This process is also demonstrated in our [talk recording tutorial on Youtube](https://youtu.be/yg1P_Infw5A) or via [direct download](http://sci.utah.edu/~will/public/vis2020-recording-tutorial.mp4).
+After the captions have been created (automatically or by hand), you can download them by going to the subtitles page when editing your video information in YouTube Studio. You can then click the three dots next to the subtitles you want to download and select download from the menu to download the .sbv or .srt file containing your subtitles. Make sure that you manually correct the generated subtitles for errors by directly editing the .srt file in a text editor. Include this file with your video, following the same naming convention: `[EventPrefix]_[PaperID]_[FirstAuthorLastName]_<Presentation|Preview>.sbv` or `[EventPrefix]_[PaperID]_[FirstAuthorLastName]<Presentation|Preview>.srt`. This process is also demonstrated in our [talk recording tutorial on Youtube](https://youtu.be/yg1P_Infw5A) or via [direct download](http://sci.utah.edu/~will/public/vis2020-recording-tutorial.mp4).
   
 You can test your subtitles by playing your video in VLC with the .sbv file in the same directory so that VLC will find it. Then right-click the VLC window and select the subtitle menu item to pick your subtitles to play during your video. During the conference, your video will be played using the “small” subtitle size setting in VLC.
   
 If you create the captions using a different software package, subtitles in the .srt format are also acceptable.
 
  
-## Conference Track and Associated Event Short Name Prefixes
+## Conference Track and Associated Event Prefixes
 
-| **VIS Paper Tracks**                      | **Short Name Prefix** |
+| **VIS Tracks**                             | **Event Prefix**      |
 |--------------------------------------------|-----------------------|
-| **VAST**                                   | f-vast                |
-| **Info Vis**                               | f-info                |
-| **SciVis**                                 | f-scivis              |
-| **TVCG**                                   | f-tvcg                |
-| **CG & A**                                 | f-cga                 |
-| **Short Papers (VAST, Info Vis, SciVis)**  | s-short               |
+| **VIS Full Papers**                        | v-full                |
+| **VIS Short Papers**                       | v-short               |
+| **VIS Posters**                            | v-posters             |
+| **TVCG Presentations**                     | v-tvcg                |
+| **CG&A Presentations**                     | v-cga                 |
 
-| **Associated Events**                     | **Short Name Prefix** |
-|-------------------------------------------|-----------------------|
-| **VIS Arts Program**                      | a-arts                |
-| **VisInPractice**                         | a-vip     |
-| **VizSec**                                | a-vizsec              |
-| **VDS**                                   | a-vds                 |
-| **VIS4DH**                                | a-vis4dh              |
-| **VISxAI**                                | a-visxai              |
-| **Large Data Analysis and Visualization** | a-ldav                |
-| **BELIV**                                 | a-beliv               |
-| **VAST Challenge**                        | a-vastchallenge       |
-| **SciVis Contest**                        | a-sciviscontest       |
-| **BioVis Challenge**                      | a-biovischallenge     |  
+| **Associated Events**                      | **Event Prefix**      |
+|--------------------------------------------|-----------------------|
+| **VIS Arts Program**                       | a-visap               |
+| **VizSec**                                 | a-vizsec              |
+| **VDS**                                    | a-vds                 |
+| **LDAV**                                   | a-ldav                |
+| **VAHC**                                   | a-vahc                |
+| **VIS4DH**                                 | a-vis4dh              |
+| **VISxAI**                                 | a-visxai              |
+| **VAST Challenge**                         | a-vastchallenge       |
+| **SciVis Contest**                         | a-sciviscontest       |
+| **BioVis Challenge**                       | a-biovischallenge     |  
+
+| **Workshops**                              | **Event Prefix**      |
+|--------------------------------------------|-----------------------|
+| **MLUI**                                   | w-mlui                |
+| **Visualization for Social Good**          | w-vis4good            |
+| **TREX**                                   | w-trex                |
+
+Additional event prefixes will be added shortly.  If your track is not listed, please check for updates later as all track chairs are finalizing their decisions.
 
 
 <!-- 
