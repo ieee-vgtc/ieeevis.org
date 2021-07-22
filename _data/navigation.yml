@@ -19,10 +19,10 @@
 #                     is_new:
 #                     is_external
 
-# registration:
-#   display: false
-#   text: "Register"
-#   url: "/year/2021/info/registration/conference-registration"
+registration:
+   display: true
+   text: "Register"
+   url: "/year/2021/info/registration/conference-registration"
 
 blog:
     display: true
