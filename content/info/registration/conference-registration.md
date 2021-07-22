@@ -9,7 +9,7 @@ contact: finance@ieeevis.org
 The 2021 IEEE Visualization conference is organized as a virtual conference for the second year in a row. Thanks to the dedication of our volunteer organizers, we have been able to keep costs for running the conference low. We are able to offer low registration fees and continue to offer free to students as well as free options for diversity and inclusivity.
 
 <ul>
-  <a href="https://google.com">REGISTER NOW &raquo;</a>
+  <a href="https://www.eventbrite.com/e/159364715153/">REGISTER NOW &raquo;</a>
 </ul>
 
 ## Registration Fees 
@@ -39,18 +39,18 @@ The list of content items that require content fee payment include:
   <li> <b>VIS Full paper or Short paper</b>: $450</li>
   <li> <b>Symposium or Workshop paper (publishing in IEEE Xplore)</b>: $450</li>
   <li> <b>TVCG or CG&A paper</b>: $125</li>
-  <li> <b>VIS poster</b>: $125</li>
+  <li> <b>VIS, Symposium, or Workshop poster</b>: $125</li>
 </ul>
 
-**Content fees should be paid by September 5, 2021.
-**Content fees are not refundable.**
+**Content fees should be paid by September 5, 2021. Content fees are not refundable.**
+**Content fee payment system and detailed payment instruction will be available soon.**
 
 
 ## Registration FAQs
 
 **Q: There are multiple authors in my paper. Do we need to pay multiple content fees?**
 <ul>
-Only one content fee is associated with a content-item, regardless of the number of authors. VIS papers, short papers, Symposium or workshop papers published in Xplore, poster and invited papers need to pay content fees.
+Only one content fee is associated with a content-item, regardless of the number of authors. VIS papers, short papers, Symposium or workshop papers published in Xplore, poster and invited papers need to pay content fees. Outside of the one content fee, all authors who are attending the conference need to register.
 </ul>
 
 **Q: Is the individual who pays a content fee registered for the conference?**
