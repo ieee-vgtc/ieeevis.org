@@ -8,9 +8,9 @@ contact: finance@ieeevis.org
 
 The 2021 IEEE Visualization conference is organized as a virtual conference for the second year in a row. Thanks to the dedication of our volunteer organizers, we have been able to keep costs for running the conference low. We are able to offer low registration fees and continue to offer free to students as well as free options for diversity and inclusivity.
 
-<ul>
-  <a href="https://www.eventbrite.com/e/159364715153/">REGISTER NOW &raquo;</a>
-</ul>
+
+<a class="button" href="https://www.eventbrite.com/e/159364715153/">REGISTER NOW</a>
+
 
 ## Registration Fees 
 
