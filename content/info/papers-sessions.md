@@ -375,10 +375,10 @@ Authors: Sara Di Bartolomeo, Mirek Riedewald, Wolfgang Gatterbauer, Cody Dunne
 Authors: Jian Zhao, Mingming Fan, Mi Feng
 
 **Words of Estimative Correlation: Studying Verbalizations of Scatterplots**  
-Authors: Rafael Henkin (r.henkin@qmul.ac.uk) and Cagatay Turkay (cagatay.turkay@warwick.ac.uk)
+Authors: Rafael Henkin, Cagatay Turkay
 
 **TimeTubesX: A Query-Driven Visual Exploration of Observable, Photometric, and Polarimetric Behaviors of Blazars**  
-Authors: Naoko Sawada; Makoto Uemura; Johanna Beyer; Hanspeter Pfister; Issei Fujishiro
+Authors: Naoko Sawada, Makoto Uemura, Johanna Beyer, Hanspeter Pfister, Issei Fujishiro
 
 **SSR-TVD: Spatial Super-Resolution for Time-Varying Data Analysis and Visualization**  
 Authors: Jun Han, Chaoli Wang
@@ -387,7 +387,7 @@ Authors: Jun Han, Chaoli Wang
 Authors: Shreeraj Jadhav, Konstantin Dmitriev, Joseph Marino, Matthew Barish, Arie E. Kaufman
 
 **Understanding Missing Links in Bipartite Networks with MissBiN**  
-Authors: Jian Zhao, Maoyuan Sun, Francine Chen, and Patrick Chiu
+Authors: Jian Zhao, Maoyuan Sun, Francine Chen, Patrick Chiu
 
 **Touch and Beyond: Comparing Physical and Virtual Reality Visualizations**  
 Authors: Kurtis Danyluk, Teoman Tomo Ulusoy, Wei Wei, Wesley Willett
@@ -399,13 +399,13 @@ Authors: Izabela Gołębiowska, Arzu Çöltekin
 Authors: Sebastian Weiss, Mustafa Isik, Justus Thies, Rüdiger Westermann
 
 **Augmenting Parallel Coordinates Plots with Color-coded Stacked Histograms**  
-Authors: Jinwook Bok; Bohyoung Kim; Jinwook Seo
+Authors: Jinwook Bok, Bohyoung Kim, Jinwook Seo
 
 **embComp: Visual Interactive Comparison of Vector Embeddings**  
 Authors: F Heimerl, C Kralj, T Möller, M Gleicher
 
 **Imma Sort by two or more attributes with Interpretable Monotonic Multi-Attribute Sorting**  
-Authors: Yan Lyu, Fan Gao, I-Shuen Wu, and Brian Y. Lim
+Authors: Yan Lyu, Fan Gao, I-Shuen Wu, Brian Y. Lim
 
 **Affective Congruence in Visualization Design: Influences on Reading Categorical Maps**  
 Authors: Cary L. Anderson, Anthony C. Robinson
@@ -414,19 +414,19 @@ Authors: Cary L. Anderson, Anthony C. Robinson
 Authors: Ruizhen Hu, Bin Chen, Juzhan Xu, Oliver van Kaick, Oliver Deussen, and Hui Huang
 
 **VIS30K: A Collection of Figures and Tables from {IEEE} Visualization Conference Publications**  
-Authors: Jian Chen, Meng Ling, Rui Li, Petra Isenberg, Tobias Isenberg, Michael Sedlmair, Torsten Möller,Robert S. Laramee, Han-Wei Shen, Katharina Wünsche, and Qiru Wang
+Authors: Jian Chen, Meng Ling, Rui Li, Petra Isenberg, Tobias Isenberg, Michael Sedlmair, Torsten Möller,Robert S. Laramee, Han-Wei Shen, Katharina Wünsche, Qiru Wang
 
 **Integrated Dual Analysis of Quantitative and Qualitative High-Dimensional Data**  
 Authors: Juliane Müller, Laura Garrison, Philipp Ulbrich, Stefanie Schreiber, Stefan Bruckner, Helwig Hauser, Steffen Oeltze-Jafra
 
 **Scalable Scalable Vector Graphics: Automatic Translation of Interactive SVGs to a Multithread VDOM for Fast Rendering**  
-Authors: Michail Schwab, David Saffo, Nicholas Bond, Shash Sinha, Cody Dunne, Jeff Huang, James Tompkin, and Michelle A. Borkin
+Authors: Michail Schwab, David Saffo, Nicholas Bond, Shash Sinha, Cody Dunne, Jeff Huang, James Tompkin, Michelle A. Borkin
 
 **Net2Vis - A Visual Grammar for Automatically Generating Publication-Tailored CNN Architecture Visualizations**  
 Authors: Alex Bäuerle, Christian van Onzenoodt, and Timo Ropinski
 
 **ask-Based Effectiveness of Interactive Contiguous Area Cartograms**  
-Authors: Ian K. Duncan (Yale-NUS College, Singapore),Shi Tingsheng (Yale-NUS College, Singapore),Simon T. Perrault (Singapore University of Technology and Design),Michael T. Gastner (Yale-NUS College, Singapore)
+Authors: Ian K. Duncan, Shi Tingsheng, Simon T. Perrault, Michael T. Gastner
 
 **DimLift: Interactive Hierarchical Data Exploration through Dimensional Bundling**  
 Authors: Laura Garrison, Juliane Müller, Stefanie Schreiber, Steffen Oeltze-Jafra, Helwig Hauser, Stefan Bruckner
@@ -450,22 +450,22 @@ Authors: Aditeya Pandey, Uzma Haque Syeda, Chaitya Shah, John Alexis Guerra Gome
 Authors: Marianne Procopio, Ab Mosca, Carlos E Scheidegger, Eugene Wu, Remco Chan
 
 **Interactive Visual Exploration of Longitudinal Historical Career Mobility Data**  
-Authors: Wang, Yifang; Liang, Hongye; Shu, Xinhuan; Wang, Jiachen ; Xu, Ke; Deng, Zikun; Campbell, Cameron; Chen, Bijia; Wu, Yingcai; Qu, Huamin
+Authors: Yifang Wang, Hongye Liang, Xinhuan Shu, Jiachen Wang, Ke Xu, Zikun Deng, Cameron Campbell, Bijia Chen, Yingcai Wu, Huamin Qu
 
 **Declutter and Focus: Empirically Evaluating Design Guidelines for Effective Data Communication**  
 Authors: Kiran Ajani, Elsie Lee, Cindy Xiong, Cole Nussbaumer Knaflic, William Kemper, and Steven Franconeri
 
 **Visual Analysis of Multi-Parameter Distributions across Ensembles of 3D Fields**  
-Authors: Alexander Kumpf, Josef Stumpfegger, Patrick Fabian Härtl, and Rüdiger Westermann
+Authors: Alexander Kumpf, Josef Stumpfegger, Patrick Fabian Härtl, Rüdiger Westermann
 
 **FTK: A Simplicial Spacetime Meshing Framework for Robust and Scalable Feature Tracking**  
-Authors: Hanqi Guo, David Lenz, Jiayi Xu, Xin Liang, Wenbin He, Iulian R. Grindeanu, Han-Wei Shen, Tom Peterka, Todd Munson, and Ian Foster
+Authors: Hanqi Guo, David Lenz, Jiayi Xu, Xin Liang, Wenbin He, Iulian R. Grindeanu, Han-Wei Shen, Tom Peterka, Todd Munson, Ian Foster
 
 **Visualization of 3D stress tensor fields using superquadric glyphs on displacement streamlines**  
-Authors: Mohak Patel and David H. Laidlaw
+Authors: Mohak Patel, David H. Laidlaw
 
 **Inspecting the Running Process of Horizontal Federated Learning via Visual Analytics**  
-Authors: Quan Li, Xiguang Wei, Huanbin Lin, Yang Liu, Tianjian Chen, and Xiaojuan Ma
+Authors: Quan Li, Xiguang Wei, Huanbin Lin, Yang Liu, Tianjian Chen, Xiaojuan Ma
 
 **The Unmet Data Visualization Needs of Decision Makers within Organizations**  
 Authors: Dimara, Evanthia; Zhang, Harry; Tory, Melanie; Franconeri, Steven
@@ -513,10 +513,10 @@ Authors: Doris Jung-Lin Lee, Vidya Setlur, Melanie Tory, Karrie Karahalios, Adit
 Authors: Nate Morrical, Ingo Wald, Will Usher, Valerio Pascucci
 
 **HisVA: a Visual Analytics System for Learning History**  
-Authors: Dongyun Han, Gorakh Parsad, Hwiyeon Kim, Jaekyom Shim, Oh-Sang Kwon, Kyung A Son, Jooyoung Lee, Isaac Cho, and Sungahn Ko
+Authors: Dongyun Han, Gorakh Parsad, Hwiyeon Kim, Jaekyom Shim, Oh-Sang Kwon, Kyung A Son, Jooyoung Lee, Isaac Cho, Sungahn Ko
 
 **Conceptual metaphor and graphical convention influence the interpretation of line graphs**  
-Authors: Greg Woodin, Bodo Winter & Lace Padilla
+Authors: Greg Woodin, Bodo Winter Lace Padilla
 
 **Implicit Error, Uncertainty and Confidence in Visualization: an Archaeological Case Study**  
 Authors: Georgia Panagiotidou, Ralf Vandam, Jeroen Poblome, Andrew Vande Moere
