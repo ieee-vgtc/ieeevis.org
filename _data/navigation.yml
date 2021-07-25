@@ -167,11 +167,12 @@ menu:
           - heading: "Vis Program"
             heading_url: "/year/2021/info/week-at-a-glance"
             description: "See the complete conference program"
-            # columns:
-            #   - links:
-              #   - text: "Papers"
-              #     description: "The latest research in theory, methods, and applications of visualization"
-              #     url: "/year/2021/info/papers-sessions"
+            columns:
+              - links:
+                - text: "Papers"
+                  description: "The latest research in theory, methods, and applications of visualization"
+                  url: "/year/2021/info/papers-sessions"
+                  is_new: true
               #   - text: "Posters"
               #     description: "Nascent and recent work"
               #     url: "/year/2021/info/posters"
