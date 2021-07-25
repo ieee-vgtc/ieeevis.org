@@ -411,7 +411,7 @@ Authors: Yan Lyu, Fan Gao, I-Shuen Wu, Brian Y. Lim
 Authors: Cary L. Anderson, Anthony C. Robinson
 
 **Shape-driven Coordinate Ordering for Star Glyph Sets via Reinforcement Learning**  
-Authors: Ruizhen Hu, Bin Chen, Juzhan Xu, Oliver van Kaick, Oliver Deussen, and Hui Huang
+Authors: Ruizhen Hu, Bin Chen, Juzhan Xu, Oliver van Kaick, Oliver Deussen Hui Huang
 
 **VIS30K: A Collection of Figures and Tables from {IEEE} Visualization Conference Publications**  
 Authors: Jian Chen, Meng Ling, Rui Li, Petra Isenberg, Tobias Isenberg, Michael Sedlmair, Torsten Möller,Robert S. Laramee, Han-Wei Shen, Katharina Wünsche, Qiru Wang
@@ -423,7 +423,7 @@ Authors: Juliane Müller, Laura Garrison, Philipp Ulbrich, Stefanie Schreiber, S
 Authors: Michail Schwab, David Saffo, Nicholas Bond, Shash Sinha, Cody Dunne, Jeff Huang, James Tompkin, Michelle A. Borkin
 
 **Net2Vis - A Visual Grammar for Automatically Generating Publication-Tailored CNN Architecture Visualizations**  
-Authors: Alex Bäuerle, Christian van Onzenoodt, and Timo Ropinski
+Authors: Alex Bäuerle, Christian van Onzenoodt, Timo Ropinski
 
 **ask-Based Effectiveness of Interactive Contiguous Area Cartograms**  
 Authors: Ian K. Duncan, Shi Tingsheng, Simon T. Perrault, Michael T. Gastner
@@ -435,7 +435,7 @@ Authors: Laura Garrison, Juliane Müller, Stefanie Schreiber, Steffen Oeltze-Jaf
 Authors: Hsiang-Yun Wu, Martin Nöllenburg, Ivan Viola
 
 **A Progressive Approach to Scalar Field Topology**  
-Authors: Jules Vidal, Pierre Guillou, and Julien Tierny
+Authors: Jules Vidal, Pierre Guillou, Julien Tierny
 
 **Optimization and Augmentation for Data Parallel Contour Trees**  
 Authors: Hamish A. Carr, Oliver Rübel, Gunther H. Weber, James P. Ahrens
@@ -453,7 +453,7 @@ Authors: Marianne Procopio, Ab Mosca, Carlos E Scheidegger, Eugene Wu, Remco Cha
 Authors: Yifang Wang, Hongye Liang, Xinhuan Shu, Jiachen Wang, Ke Xu, Zikun Deng, Cameron Campbell, Bijia Chen, Yingcai Wu, Huamin Qu
 
 **Declutter and Focus: Empirically Evaluating Design Guidelines for Effective Data Communication**  
-Authors: Kiran Ajani, Elsie Lee, Cindy Xiong, Cole Nussbaumer Knaflic, William Kemper, and Steven Franconeri
+Authors: Kiran Ajani, Elsie Lee, Cindy Xiong, Cole Nussbaumer Knaflic, William Kemper, Steven Franconeri
 
 **Visual Analysis of Multi-Parameter Distributions across Ensembles of 3D Fields**  
 Authors: Alexander Kumpf, Josef Stumpfegger, Patrick Fabian Härtl, Rüdiger Westermann
@@ -480,7 +480,7 @@ Authors: Jose A. Iglesias-Guitian, Prajita Mane, Bochang Moon
 Authors: Junpeng Wang, Wei Zhang, Hao Yang, Chin-Chia Michael Yeh, Liang Wang
 
 **Visual Cascade Analytics of Large-scale Spatiotemporal Data**  
-Authors: Zikun Deng, Di Weng, Yuxuan Liang, Jie Bao, Yu Zheng, Tobias Schreck, Mingliang Xu, and Yingcai Wu
+Authors: Zikun Deng, Di Weng, Yuxuan Liang, Jie Bao, Yu Zheng, Tobias Schreck, Mingliang Xu, Yingcai Wu
 
 **Can visualization alleviate dichotomous thinking? Effects of visual representations on the cliff effect**  
 Authors: Jouni Helske, Satu Helske, Matthew Cooper, Anders Ynnerman, Lonni Besançon
@@ -492,13 +492,13 @@ Authors: Ayan Biswas , Soumya Dutta, Earl Lawrence, John Patchett, Jon C. Calhou
 Authors: Kilian Werner and Christoph Garth
 
 **Showing Data about People: A Design Space of Anthropographics**  
-Authors: Luiz Morais, Yvonne Jansen, Nazareno Andrade, and Pierre Dragicevic
+Authors: Luiz Morais, Yvonne Jansen, Nazareno Andrade, Pierre Dragicevic
 
 **Tracking Internal Frames of Reference for Consistent Molecular Distribution Functions**  
 Authors: Robin Skånberg, Martin Falk, Mathieu Linares, Anders Ynnerman, Ingrid Hotz
 
 **Nebula: A Coordinating Grammar of Graphics**  
-Authors: Ran Chen, Xinhuan Shu, Jiahui Chen, Di Weng, Junxiu Tang, Siwei Fu, and Yingcai Wu
+Authors: Ran Chen, Xinhuan Shu, Jiahui Chen, Di Weng, Junxiu Tang, Siwei Fu, Yingcai Wu
 
 **Interactive Graph Construction for Graph-Based Semi-Supervised Learning**  
 Authors: Changjian Chen, Zhaowei Wang, Jing Wu, Xiting Wang, Lan-Zhe Guo, Yu-Feng Li, Shixia Liu
@@ -516,7 +516,7 @@ Authors: Nate Morrical, Ingo Wald, Will Usher, Valerio Pascucci
 Authors: Dongyun Han, Gorakh Parsad, Hwiyeon Kim, Jaekyom Shim, Oh-Sang Kwon, Kyung A Son, Jooyoung Lee, Isaac Cho, Sungahn Ko
 
 **Conceptual metaphor and graphical convention influence the interpretation of line graphs**  
-Authors: Greg Woodin, Bodo Winter Lace Padilla
+Authors: Greg Woodin, Bodo Winter, Lace Padilla
 
 **Implicit Error, Uncertainty and Confidence in Visualization: an Archaeological Case Study**  
 Authors: Georgia Panagiotidou, Ralf Vandam, Jeroen Poblome, Andrew Vande Moere
