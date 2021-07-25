@@ -411,7 +411,7 @@ Authors: Yan Lyu, Fan Gao, I-Shuen Wu, Brian Y. Lim
 Authors: Cary L. Anderson, Anthony C. Robinson
 
 **Shape-driven Coordinate Ordering for Star Glyph Sets via Reinforcement Learning**  
-Authors: Ruizhen Hu, Bin Chen, Juzhan Xu, Oliver van Kaick, Oliver Deussen Hui Huang
+Authors: Ruizhen Hu, Bin Chen, Juzhan Xu, Oliver van Kaick, Oliver Deussen, Hui Huang
 
 **VIS30K: A Collection of Figures and Tables from {IEEE} Visualization Conference Publications**  
 Authors: Jian Chen, Meng Ling, Rui Li, Petra Isenberg, Tobias Isenberg, Michael Sedlmair, Torsten Möller,Robert S. Laramee, Han-Wei Shen, Katharina Wünsche, Qiru Wang
