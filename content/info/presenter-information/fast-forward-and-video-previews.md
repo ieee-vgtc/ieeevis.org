@@ -120,6 +120,7 @@ You have **no Video-Preview** to submit for the following tracks:
 - Doctor Colloquium
 - VAST Challenge
 
+## How to record your video?
 Please see the [Talk Recording Guide](/year/2021/info/presenter-information/talk-recording-guide) on how to format your Video Preview.
 
  
