@@ -227,6 +227,7 @@ Jürgen Bernard | *University of Zurich, Switzerland*
 Anne Berres | *Oak Ridge National Laboratory, USA*
 Johanna Beyer | *Harvard University, USA*
 Ayan Biswas | *Los Alamos National Laboratory, USA*
+Tanja Blascheck | *University of Stuttgart, Germany*
 Jeremy Boy | *United Nations, USA*
 Chris Bryan | *Arizona State University, USA*
 Michael Burch | *University of Applied Sciences of the Grisons, Switzerland*
@@ -326,12 +327,12 @@ Xavier Tricoche | *Purdue University , USA*
 Cagatay Turkay | *University of Warwick, UK*
 Paola Valdivia | *Université Paris-Saclay, CNRS, Inria, LRI, France*
 Rafael Veras | *Huawei Research, Canada*
-Huy Vo | *CUNY City College, USA*
 Junpeng Wang | *Visa Research, USA*
 Yong Wang | *Singapore Management University, Singapore*
 Yunhai Wang | *Shandong University, China*
 John Wenskovitch | *Virginia Polytechnic Institute and State University, USA*
 Yanhong Wu | *Visa Research, USA*
+Yingcai Wu | *State Key Lab of CAD & CG, Zhejiang University, China*
 Michael Wybrow | *Monash University, Australia*
 Meng Xia | *KAIST, South Korea*
 Cong Xie | *Facebook, USA*
