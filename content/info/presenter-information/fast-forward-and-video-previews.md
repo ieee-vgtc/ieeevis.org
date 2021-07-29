@@ -99,6 +99,8 @@ If your track is not listed, please check for updates later as all track chairs 
 
 Video Previews are **required** for the following tracks:
 - VIS Short Papers
+- VizSec Full Papers
+- VizSec Short Papers
 - VIS Supporters
 - VISAP
 - TVCG Papers
@@ -107,6 +109,7 @@ Video Previews are **required** for the following tracks:
 
 Video Previews are **optional** for the following tracks:
 - VIS Full Papers
+- VizSec Posters
 - VIS Posters
 - Meetups
 - LDAV
@@ -117,6 +120,7 @@ You have **no Video-Preview** to submit for the following tracks:
 - Doctor Colloquium
 - VAST Challenge
 
+## How to record your video?
 Please see the [Talk Recording Guide](/year/2021/info/presenter-information/talk-recording-guide) on how to format your Video Preview.
 
  
@@ -159,6 +163,6 @@ Video Previews Chairs
 
 
 - Benjamin Bach, University of Edinburgh
-- Subhashis Hazarika, Los Alamos National Laboratory
+- Subhashis Hazarika, Palo Alto Research Center
 - Bahador Saket, Lawyaw
 - Junpeng Wang, Visa Research
