@@ -16,7 +16,7 @@ Reasons why you should take part in VIS 2021:
 
 Diamond, Gold, Silver, Bronze, and Pearl level packages are available now.
 
-[Download the VIS 2021 Prospectus](/assets/supporters/VIS-Prospectus-2021-rp-071321.pdf).
+[Download the VIS 2021 Prospectus](/assets/supporters/VIS-Prospectus-2021-rp-072321.pdf).
 
 VIS 2021 attracts decision-makers looking for the next generation of products, solutions, networking, and advanced-industry perspectives. Put yourself in the position to meet them by supporting VIS 2021!
 
