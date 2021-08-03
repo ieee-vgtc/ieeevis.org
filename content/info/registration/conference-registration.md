@@ -17,8 +17,8 @@ The 2021 IEEE Visualization conference is organized as a virtual conference for 
 All participants in VIS (attendees, organizers, speakers, etc.) must register by selecting the admission ticket that best fits them from the options below:
 
 <ul>
-  <li> <b>Member Admission</b>: $25 for members of IEEE, ACM, ICMB, and AMIA.</li>
-  <li> <b>Non-member Admission</b>: $40 for non-members.</li>
+  <li> <b>Member Admission</b>: US$25 for members of IEEE, ACM, ICMB, and AMIA.</li>
+  <li> <b>Non-member Admission</b>: US$40 for non-members.</li>
   <li> <b>Student Admission</b>: free registration for active students.</li>
   <li> <b>Diversity Admission</b>: free registration for individuals residing in countries where the per capita Gross National Income (GNI) is US$15,000 or less. <a href="https://www.ieee.org/membership/join/emember-countries.html">See list here</a>.</li>
   <li> <b>Inclusivity Admission</b>: free registration for individuals in need of financial assistance that reside in countries not included on the Diversity Admission list.</li>
@@ -36,10 +36,10 @@ Content fees will be required for IEEE Xplore papers and short papers, posters a
 
 The list of content items that require content fee payment include:
 <ul>
-  <li> <b>VIS Full paper or Short paper</b>: $450</li>
-  <li> <b>Symposium or Workshop paper (publishing in IEEE Xplore)</b>: $450</li>
-  <li> <b>TVCG or CG&A paper</b>: $125</li>
-  <li> <b>VIS, Symposium, or Workshop poster</b>: $125</li>
+  <li> <b>VIS Full paper or Short paper</b>: US$450</li>
+  <li> <b>Symposium or Workshop paper (publishing in IEEE Xplore)</b>: US$450</li>
+  <li> <b>TVCG or CG&A paper</b>: US$125</li>
+  <li> <b>VIS, Symposium, or Workshop poster</b>: US$125</li>
 </ul>
 
 **Content fees should be paid by September 5, 2021. Content fees are not refundable.**
