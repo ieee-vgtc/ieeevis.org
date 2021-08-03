@@ -27,7 +27,7 @@ A repository that meets the criteria for long-term reliability and is inline wit
 
 ## Sharing the Open Version with VIS
 
-After your paper is accepted and before the camera-ready deadline, PCS will have a textbox where you can enter the URL that points to the preprint version of your article in the open access repository if you have shared it. This paper should be the final “author version”. If you have any issues or questions, please contact the open practice chairs. If you cannot share the paper on an approved open access repository, please enter the reason instead of the URL.
+After your paper is accepted and during the final stages of the publication process, the Author Submission Portal from IEEE will have a textbox that will ask you for the URL that points to the preprint version of your article in the open access repository if you have shared it. This textbox will be within a form that you will access under the "Presenter and Preprint Submission" section. The paper you are sharing should be the final “author version”. If you have any issues or questions, please contact the open practice chairs. If you cannot share the paper on an approved open access repository, please enter the reason instead of the URL.
 
   
 
