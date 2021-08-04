@@ -523,3 +523,129 @@ Authors: Georgia Panagiotidou, Ralf Vandam, Jeroen Poblome, Andrew Vande Moere
 
 <hr/>
 
+## Short Papers
+
+**Towards a Survey on Static and Dynamic Hypergraph Visualizations**  
+Authors: Maximilian T. Fischer, Alexander Frings, Daniel Keim, Daniel Seebacher
+
+**CloudFindr: A Deep Learning Cloud Artifact Masker for Satellite DEM Data**  
+Authors: Kalina Borkiewicz, Viraj Shah, J.P. Naiman, Chuanyue Shen, Stuart Levy, Jeffrey D Carpenter
+
+**An Exploration And Validation of Visual Factors in Understanding Classification Rule Sets**  
+Authors: Jun Yuan, Oded Nov, Enrico Bertini
+
+**Fast & Accurate Gaussian Kernel Density Estimation**  
+Author: Jeffrey Heer
+
+**TimeElide: Visual Analysis of Non-Contiguous Time Series Slices**  
+Authors: Michael Oppermann, Luce Liu, Tamara Munzner
+
+**Time-Varying Fuzzy Contour Trees**  
+Authors: Anna-Pia Lohfink, Frederike Gartzky, Florian Wetzels, Luisa Vollmer, Christoph Garth
+
+**A Visual Analytics System for Water Distribution System Optimization**  
+Authors: Yiran Li, Erin Musabandesu, Takanori Fujiwara, Frank J. Loge, Kwan-Liu Ma
+
+**Gemini²: Generating Keyframe-Oriented Animated Transitions Between Statistical Graphics**  
+Authors: Younghoon Kim, Jeffrey Heer
+
+**On The Potential of Zines as a Medium for Visualization**  
+Author: Andrew M McNutt
+
+**CellProfiler Analyst Web (CPAW) - Exploration, analysis, and classification of biological images on the web**  
+Authors: Bella Baidak, Yahiya Hussain, Emma Kelminson, Thouis Ray Jones, Loraine Franke, Daniel Haehn
+
+**GeoSneakPique: Visual autocompletion for geospatial queries**  
+Authors: Vidya Setlur, Sarah Battersby, Tracy Kam Hung Wong
+
+**Semantic Resizing of Charts Through Generalization: A Case Study with Line Charts**  
+Authors: Vidya Setlur, Haeyong Chung
+
+**Contrastive Identification of Covariate Shift in Image Data**  
+Authors: Matthew Olson, Thuy-Vy Nguyen, Gaurav Dixit, Neale Ratzlaff, Weng-Keen Wong, Minsuk Kahng
+
+**A Mixed-Initiative Visual Analytics Approach for Qualitative Causal Modeling**  
+Authors: Fahd Husain, Pascale Proulx, Meng-Wei Chang, Rosa Romero-Gómez, Holland Marie Vasquez
+
+**Atlas: Grammar-based Procedural Generation of Data Visualizations**  
+Authors: Zhicheng Liu, Chen Chen, Francisco Morales, Yishan Zhao
+
+**"Why did my AI agent lose?": Visual Analytics for Scaling Up AAR/AI**  
+Authors: Delyar Tabatabai, Anita Ruangrotsakun, Jed Irvine, Jonathan Dodge, Zeyad Shureih, Kin-Ho Lam, Margaret Burnett, Alan Paul Fern, Minsuk Kahng
+
+**Inspecting the Process of Bank Credit Rating via Visual Analytics**  
+Authors: Qiangqiang Liu, Tangzhi Ye, Zhihua Zhu, Xiaojuan Ma, Quan Li
+
+**Narrative Sensemaking: Strategies for Narrative Maps Construction**  
+Authors: Brian Felipe Keith Norambuena, Tanushree Mitra, Chris North
+
+**Bayesian Modelling of Alluvial Diagram Complexity**  
+Authors: Anjana Arunkumar, Shashank Ginjpalli, Chris Bryan
+
+**Visually Connecting Historical Figures Through Event Knowledge Graphs**  
+Authors: Shahid Latif, Shivam Agarwal, Simon Gottschalk, Carina Chrosch, Yanick Christian Tchenko, Felix Feit, Johannes Jahn, Tobias Braun, Elena Demidova, Fabian Beck
+
+**Text Visualization and Close Reading for Journalism with Storifier**  
+Authors: Nicole Sultanum, Anastasia Bezerianos, Fanny Chevalier
+
+**Where and Why is My Bot Failing? A Visual Analytics Approach for Investigating Failures in Chatbot Conversation Flows**  
+Authors: Avi Yaeli, Sergey Zeltyn
+
+**VAINE: Visualization and AI for Natural Experiments**  
+Authors: Grace Guo, Maria Glenski, Zhuanyi Huang, Emily Saldanha, Alex Endert, Svitlana Volkova, Dustin L Arendt
+
+**Ray-traced Shell Traversal of Tetrahedral Meshes for Direct Volume Visualization**  
+Authors: Alper Şahıstan, Serkan Demirci, Nate Morrical, Stefan Zellmann, Aytek Aman, Ingo Wald, Ugur Gudukbay
+
+**Segmentation driven Peeling for Visual Analysis of Electronic Transitions**  
+Authors: Mohit Sharma, Talha Bin Masood, Signe Sidwall Thygesen, Mathieu Linares, Ingrid Hotz, Vijay Natarajan
+
+**Exact Analytical Parallel Vectors**  
+Authors: Hanqi Guo, Tom Peterka
+
+**Uncertainty Visualization of the Marching Squares and Marching Cubes Topology Cases**  
+Authors: Tushar M. Athawale, Sudhanshu Sane, Chris R. Johnson
+
+**Conceptualizing Visual Analytic Interventions for Content Moderation**  
+Authors: Sahaj Vaidya, Jie Cai, Soumyadeep Basu, Azadeh Naderi, Donghee Yvette Wohn, Aritra Dasgupta
+
+**AiR: An Augmented Reality Application for Visualizing Air Pollution**  
+Authors: Noble Saji Mathews, Sridhar Chimalakonda, Suresh Jain
+
+**Intercept Graph: An Interactive Radial Visualization for Comparison of State Changes**  
+Authors: Shaolun Ruan, Yong Wang, Qiang Guan
+
+**When Red Means Good, Bad, or Canada:Exploring People's Reasoning for Choosing Color Palettes**  
+Authors: Jarryullah Ahmad, Elaine Huynh, Fanny Chevalier
+
+**How Learners Sketch Data Stories**  
+Authors: Rahul Bhargava, Dee Williams, Catherine D'Ignazio
+
+**Understanding the Effects of Visualizing Missing Values on Visual Data Exploration**  
+Authors: Hayeong Song, Yu Fu, Bahador Saket, John Stasko
+
+**Semantic Explanation of Interactive Dimensionality Reduction**  
+Authors: Yail Bian, Chris North, Eric Krokos, Sarah Joseph
+
+**Automatic Y-axis Rescaling in Dynamic Visualizations**  
+Authors: Jacob Fisher, Remco Chang, Eugene Wu
+
+**ConVIScope: Visual Analytics for Exploring Patient Conversations**  
+Authors: Raymond Li, Enamul Hoque, Giuseppe Carenini, Richard Lester, Raymond Chau
+
+**Does the Layout Really Matter? A Study on Visual Model Accuracy Estimation**  
+Authors: Nicolas Grossmann, Jürgen Bernard, Michael Sedlmair, Manuela Waldner
+
+**Histogram binning revisited with a focus on human perception**  
+Authors: Raphael Sahann, Torsten Moeller, Johanna Schmidt
+
+**AdViCE: Aggregated Visual Counterfactual Explanations for Machine Learning Model Validation**  
+Authors: Steffen Holter, Oscar Alejandro Gomez, Jun Yuan, Enrico Bertini
+
+**Jurassic Mark: Inattentional Blindness for a Datasaurus Reveals that Visualizations are Explored, not Seen**  
+Authors: Tal Boger, Steven Most, Steven Franconeri
+
+**Fixation and Creativity in Data Visualization Design: Experiences and Perspectives of Practitioners**  
+Authors: Paul Parsons, Prakash Chandra Shukla, Chorong Park
+
+<hr/>
