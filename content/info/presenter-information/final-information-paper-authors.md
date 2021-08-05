@@ -36,7 +36,7 @@ At least one author per accepted paper must register to present the work, which 
 Under no circumstances will updates be accepted after 11.59 PM on August 8. We have allowed for exceptions in the past but we will be strict this year.  
 
 Common editing issues: 
-* Use the correct JOURNAL style template ([https://tc.computer.org/vgtc/publications/journal]()).
+* Use the correct JOURNAL style template [https://tc.computer.org/vgtc/publications/journal](https://tc.computer.org/vgtc/publications/journal).
 * Index terms are mandatory.
 * The abstract and index term sections use an em-dash between the heading and content; there should not be a space on either side of the em-dash and the content begins on the same line as the heading.
 * Acknowledgment section—is it complete and correct?
