@@ -98,7 +98,6 @@ If your track is not listed, please check for updates later as all track chairs 
 
 
 Video Previews are **required** for the following tracks:
-- VIS Short Papers
 - VizSec Full Papers
 - VizSec Short Papers
 - VIS Supporters
@@ -109,6 +108,7 @@ Video Previews are **required** for the following tracks:
 
 Video Previews are **optional** for the following tracks:
 - VIS Full Papers
+- VIS Short Papers
 - VizSec Posters
 - VIS Posters
 - Meetups
