@@ -178,20 +178,21 @@ If you create the captions using a different software package, subtitles in the 
 | **Visualization for Social Good**          | w-vis4good            |
 | **TREX**                                   | w-trex                |
 
+| **Tutorials**                                                                                   | **Short Name Prefix**  |
+|-------------------------------------------------------------------------------------------------|------------------------|
+| **Color Matters in Visualization**                                                              | t-color                |
+| **Topological Analysis of Ensemble Scalar Data with TTK**                                       | t-ttk                  |
+| **Riemannian Geometry for Scientific Visualization**                                            | t-riemannian           |
+| **User-Centred Evaluation in Visualization**                                                    | t-usereval             |
+| **IEEE VIS Full Paper Review Model and Process: Becoming a (Better) Program Committee Member**  | t-reviewers            |
+| **Observable: Quick and effective visualization prototyping with reactive notebooks**           | t-observable           |
+| **Visualization Analysis and Design**                                                           | t-analysisdesign       |
+
+
 Additional event prefixes will be added shortly.  If your track is not listed, please check for updates later as all track chairs are finalizing their decisions.
 
 
 <!-- 
-| **Tutorials**                                                          | **Short Name Prefix**  |
-|------------------------------------------------------------------------|------------------------|
-| **Visualization Analysis and Design**                                  | t-analysisdesign       |
-| **Color Basics for Creating Visualizations**                           | t-colorbasics          |
-| **Scientific Visualization in Houdini**                                | t-scivishoudini        |
-| **Topological Data Analysis Made Easy with the Topology Toolkit**      | t-ttk                  |
-| **ParaView Tutorial**                                                  | t-paraview             |
-| **Theory and Application of Visualization Color Tools and Strategies** | t-theorycolortools     |
-| **How to Make Your Empirical Research Transparent**                    | t-empiricaltransparent |
-| **Artifact Based Rendering: VR Visualization by Hand**                 | t-artifactvr           |
 
 | **Workshops**                                      | **Short Name Prefix** |
 |----------------------------------------------------|-----------------------|
