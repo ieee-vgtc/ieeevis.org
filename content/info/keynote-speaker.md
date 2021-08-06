@@ -5,7 +5,7 @@ permalink: /info/keynote-speaker
 contact: info@ieeevis.org
 ---
 
-<img src="/year/2020/assets/carousel/danah_boyd.jpg"
+<img src="/year/2021/assets/carousel/danah_boyd.jpg"
      alt="Keynote Speaker danah boyd" />
 <br/>
 
