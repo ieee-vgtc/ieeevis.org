@@ -16,9 +16,9 @@ Work must be submitted via IEEE CPS by 5:00pm Pacific Time (PDT) on the dates li
   * Associated Events: Sept. 1
 
 **Presentation Videos:**
-  * Full/Short Papers: Sept. 8
-  * Posters/Symposia: Sept. 15
-  * Workshops: Sept. 22
+  * Full/Short Papers: Sept. 12
+  * Posters/Symposia: Sept. 19
+  * Workshops: Sept. 26
 
 ## IEEE Visualization 2021 is a fully virtual conference
 
