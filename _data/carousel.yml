@@ -1,3 +1,15 @@
+- title: "Keynote Speaker: danah boyd"
+  button-text: "Read more"
+  button-url: "/info/keynote-speaker"
+  image: "danah_boyd.jpg"
+  active: "active"
+
+- title: "Capstone Speakers: Fernanda Viégas and Martin Wattenberg"
+  button-text: "Read more"
+  button-url: "/info/capstone-speaker"
+  image: "fm_hi.jpeg"
+  active: "active"
+
 - title: "Vote in VIS 2021 Elections"
   description: "Register by Sep. 10 to vote in the VIS 2021 elections! Eligible voters are active members of the VIS community, who have participated in 3 out of the 5 most recent VIS conferences (upcoming 2021 included)."
   button-text: "Register To Vote"
