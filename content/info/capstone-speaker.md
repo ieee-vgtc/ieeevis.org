@@ -3,7 +3,7 @@ layout: page
 title: "Capstone Speakers: Fernanda Viégas and Martin Wattenberg"
 permalink: /info/capstone-speaker
 contact: info@ieeevis.org
-active_nav: "Attend"
+active_nav: "Program"
 ---
 
 <img src="/year/2021/assets/carousel/fm_hi.jpeg"
