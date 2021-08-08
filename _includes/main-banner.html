@@ -1,12 +1,12 @@
-<div class="header--background pt-32 pb-24 md:pb-32 relative" style="background-image: url('{{ '/assets/theme/hex-pattern.png' | relative_url }} ');">
+<div class="header--background pt-24 pb-12 md:pb-24 relative" style="background-image: url('{{ '/assets/theme/hex-pattern.png' | relative_url }} ');">
 
-    <div class="container flex-parent">
+    <div class="container flex-parent items-center">
         <div class="title">
             <img src="{{ include.image-src | relative_url }}" alt="{{ include.image-alt }}" class="logo--main" style="width:350px">
             <p class="font-display text-primary text-2xl md:text-4xl font-medium mt-10 mr-20 md:mt-12">{{ include.description }}</p>
         </div>
         <div class="carousel-container">
-            {% include carousel.html %} 
+            {% include carousel.html %}
         </div>
     </div>
 
@@ -15,7 +15,7 @@
         <div class="md:w-1/2 w-full p-4 text-center text-white text-lg self-center font-bold md:border-l border-l-0 md:border-t-0 border-t border-secondary-200 ">
             <!-- Note, this has changed only for 2021 virtual conference, you can revert back to the previous format (commented below) -->
             <span class="md:inline block">Virtual, {{ include.event-date }}</span>
-            
+
             <!-- <span class="md:inline block">{{ include.event-date }}</span>
             <span class="md:inline hidden"> in </span>
             <span class="md:inline block">{{ include.event-location }}</span> -->

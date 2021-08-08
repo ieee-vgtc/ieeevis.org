@@ -3,13 +3,14 @@ layout: page
 title: "Keynote Speaker: danah boyd"
 permalink: /info/keynote-speaker
 contact: info@ieeevis.org
+active_nav: "Attend"
 ---
 
 <img src="/year/2021/assets/carousel/danah_boyd.jpg"
      alt="Keynote Speaker danah boyd" />
 <br/>
 
-We are very excited to announce that danah boyd will give VIS 2021's keynote presentation. 
+We are very excited to announce that danah boyd will give VIS 2021's keynote presentation.
 Dr. boyd is an internationally recognized authority on the ways people
 use networked social media as a context for social interaction. She has been called the
 “high priestess” of online social network sites by the *Financial Times*. Dr. boyd’s research
