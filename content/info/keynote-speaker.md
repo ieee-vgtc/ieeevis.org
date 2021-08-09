@@ -3,7 +3,7 @@ layout: page
 title: "Keynote Speaker: danah boyd"
 permalink: /info/keynote-speaker
 contact: info@ieeevis.org
-active_nav: "Attend"
+active_nav: "Program"
 ---
 
 <img src="/year/2021/assets/carousel/danah_boyd.jpg"
