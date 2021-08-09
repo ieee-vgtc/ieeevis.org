@@ -10,8 +10,8 @@ contact: ff@ieeevis.org
 
 Please **read the following instructions carefully** and submit your
 25-second video for the online Video Previews by the following deadlines:
-- Main Events: Aug. 15
-- Associated Events: Sept. 1
+- VIS Full/Short Papers: Aug. 15
+- All Associated Events and TVCG/CG&amp;A Presentations: Sept. 1
 
 
 Video previews and fast forwards are a great opportunity to publicize
@@ -102,9 +102,8 @@ Video Previews are **required** for the following tracks:
 - VizSec Short Papers
 - VIS Supporters
 - VISAP
-- TVCG Papers
-- CG&amp;A Papers
-
+- TVCG Paper Presentations
+- CG&amp;A Paper Presentations
 
 Video Previews are **optional** for the following tracks:
 - VIS Full Papers
