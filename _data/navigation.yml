@@ -19,10 +19,10 @@
 #                     is_new:
 #                     is_external
 
-# registration:
-#   display: false
-#   text: "Register"
-#   url: "/year/2021/info/registration/conference-registration"
+registration:
+   display: true
+   text: "Register"
+   url: "/year/2021/info/registration/conference-registration"
 
 blog:
     display: true
@@ -33,15 +33,15 @@ menu:
   - dropdown: "Attend"
     display: true
     sections:
-      # - subsections:
-      #     - heading: "Attending VIS 2020"
-      #       heading_url: "https://virtual.ieeevis.org/"
-      #       description: "Join us online on our virtual site!"
-      #       columns:
-      #         - heading: "Attend"
-      #           links:
-      #             - text: "Registration"
-      #               url: "/year/2021/info/registration/conference-registration"
+      - subsections:
+        - heading: "Attending VIS 2021"
+          # heading_url: "https://virtual.ieeevis.org/"
+          # description: "Join us online on our virtual site!"
+          columns:
+            - heading: "Attend"
+              links:
+                - text: "Registration"
+                  url: "/year/2021/info/registration/conference-registration"
                   # - text: "Conference Venue"
                   #   url: "#"
               #    - text: "Practitioner Guide"
@@ -112,24 +112,24 @@ menu:
                     url: "/year/2021/info/call-participation/application-spotlights"
               - heading: "Info for Contributors"
                 links:
-                   - text: "Paper Submission Guidelines"
-                     url: "/year/2021/info/call-participation/paper-submission-guidelines"
-                   - text: "Review Instructions"
-                     url: "/year/2021/info/call-participation/review-instructions"
-              #     - text: "Submission Keywords"
-              #       url: "/year/2021/info/call-participation/paper-keywords"
-              #     - text: "Open Practices"
-              #       url: "/year/2021/info/open-practices/open-practices"
-              #     - text: "Video Previews"
-              #       url: "/year/2021/info/presenter-information/fast-forward-and-video-previews"
-              #     - text: "Speakers and Presenters"
-              #       url: "/year/2021/info/presenter-information/final-information-paper-authors"
-              #     - text: "Recording your Talk"
-              #       url: "/year/2021/info/presenter-information/talk-recording-guide"
-              #     - text: "Guidance for Virtual Events"
-              #       url: "/year/2021/info/presenter-information/guidance-for-associated-events"
-              #     - text: "Presenting at the Virtual Conference"
-              #       url: "/year/2021/info/presenter-information/presenting-virtually"
+                  - text: "Paper Submission Guidelines"
+                    url: "/year/2021/info/call-participation/paper-submission-guidelines"
+                  - text: "Review Instructions"
+                    url: "/year/2021/info/call-participation/review-instructions"
+                  - text: "Submission Keywords"
+                    url: "/year/2021/info/call-participation/paper-keywords"
+                  - text: "Open Practices"
+                    url: "/year/2021/info/open-practices/open-practices"
+                  - text: "Video Previews"
+                    url: "/year/2021/info/presenter-information/fast-forward-and-video-previews"
+                  - text: "Final Information for Paper Authors"
+                    url: "/year/2021/info/presenter-information/final-information-paper-authors"
+                  - text: "Recording your Talk"
+                    url: "/year/2021/info/presenter-information/talk-recording-guide"
+                  # - text: "Guidance for Virtual Events"
+                  #   url: "/year/2021/info/presenter-information/guidance-for-associated-events"
+                  # - text: "Presenting at the Virtual Conference"
+                  #   url: "/year/2021/info/presenter-information/presenting-virtually"
 
       - subsections:
           - heading: "Get Involved"
@@ -161,26 +161,29 @@ menu:
 
 
   - dropdown: "Program"
-    display: false
+    display: true
     sections:
       - subsections:
           - heading: "Vis Program"
-            # heading_url: "/year/2021/info/week-at-a-glance"
-            # description: "See the complete conference program"
+            heading_url: "/year/2021/info/week-at-a-glance"
+            description: "See the complete conference program"
             columns:
               - links:
-              #   - text: "Papers"
-              #     description: "The latest research in theory, methods, and applications of visualization"
-              #     url: "/year/2021/info/papers-sessions"
+                - text: "Papers"
+                  description: "The latest research in theory, methods, and applications of visualization"
+                  url: "/year/2021/info/papers-sessions"
+                  is_new: true
               #   - text: "Posters"
               #     description: "Nascent and recent work"
               #     url: "/year/2021/info/posters"
-              #   - text: "Tutorials"
-              #     description: "Learn new tools and application domains"
-              #     url: "/year/2021/info/tutorials"
+                - text: "Tutorials"
+                  description: "Learn new tools and application domains"
+                  url: "/year/2021/info/tutorials"
+                  is_new: true
                 - text: "Workshops"
                   description: "Informal setting to discuss emerging topics"
                   url: "/year/2021/info/workshops"
+                  is_new: true
                 # - text: "Panels"
                 #   description: "Discuss important and controversial issues"
                 #   url: "/year/2021/info/panels"

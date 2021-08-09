@@ -1,5 +1,5 @@
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
+  <ol class="carousel-indicators my-2">
     {% for entry in site.data.carousel %}
       <li data-target="#myCarousel" data-slide-to="{{ forloop.index }}" class="{{ entry.active }}"></li>
     {% endfor %}
@@ -10,9 +10,9 @@
     {% for entry in site.data.carousel %}
       <div class="carousel-item {{ entry.active }}">
           {% if entry.image %}
-          <img class="carousel-img" src="/year/2021/assets/carousel/{{ entry.image }}" alt="Slide 1"/>
+          <img class="d-block w-100" src="/year/2021/assets/carousel/{{ entry.image }}" />
           {% endif %}
-          {% if entry.description %}
+          {% if entry.description or entry.button-text %}
 
               {% if entry.darken %}
               <div class="carousel-caption carousel-darken">
@@ -24,7 +24,7 @@
               </div>
 
               {% else %}
-              <div class="carousel-caption">
+              <div class="carousel-caption d-none d-md-block bg-dark my-4 p-2 pb-5">
                   <span class="block carousel-title">{{ entry.title }}</span>
                   <p class="carousel-p">{{ entry.description }}</p>
                   <a href="{{ entry.button-url | relative_url }}" class="button">

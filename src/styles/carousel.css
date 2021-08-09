@@ -24,9 +24,10 @@
   margin-right: -100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  transition: -webkit-transform .6s ease-in-out;
+  /* ALPER: for now, disable transitions; it doesn't seem to want to work with w-100 style */
+  /* transition: -webkit-transform .6s ease-in-out;
   transition: transform .6s ease-in-out;
-  transition: transform .6s ease-in-out, -webkit-transform .6s ease-in-out;
+  transition: transform .6s ease-in-out, -webkit-transform .6s ease-in-out; */
 }
 
 @media (prefers-reduced-motion:reduce) {
@@ -149,17 +150,12 @@
 }
 
 .carousel-caption {
-  position: absolute;
-  right: 20%;
-  bottom: 20px;
-  left: 20%;
-  top: 5%;
-  z-index: 10;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: #fff;
-  text-align: center;
+  position: relative;
+  /* padding-bottom: 50px; */
+  left: 0;
+  top: 0;
   text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+  @apply text-gray-200;
 }
 
 @media only screen and (max-width: 768px) {

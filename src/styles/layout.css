@@ -33,8 +33,7 @@ html {
 }
 
 .carousel-container {
-    flex: auto;
-    width: 650px;
+    width: 600px;
     min-width: 400px;
     max-width: 1000px;
 }

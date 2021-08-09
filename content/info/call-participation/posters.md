@@ -34,13 +34,18 @@ Poster authors must submit a two-page summary of their work in the VGTC conferen
 
 Summaries should include a concise description of the idea, the results or findings, supporting imagery and figures, and a discussion of the implications of the work to the selected domain. Full literature searches are not expected, although relevant citations should be included.
 
-Authors whose posters are accepted for IEEE VIS will be asked to refine their two-page summaries based upon feedback from reviewers and submit an electronic poster.
+#### Camera Ready Submission
 
-The electronic posters will be created using a provided web-based interface. Access to this interface will be granted after the two-page summary has been accepted for presentation.
+Two page summary: Authors whose posters are accepted for IEEE VIS will be asked to refine their two-page summaries based upon feedback from reviewers and submit an electronic poster. Use the same format as the initial submission.
 
-Presenters are also encouraged to submit an accompanying preview video. Video preview is a great opportunity to publicize your work or event to a wide audience. A video preview should be self-explaining and self-contained. Technical characteristics of the video will be made available at [http://ieeevis.org/year/2021/info/presenter-information/fast-forward-and-video-previews](http://ieeevis.org/year/2021/info/presenter-information/fast-forward-and-video-previews)
+Poster: PDF format, A0 size, preferably landscape. 
+
+Preview Image: PNG format, Size 1920 x 1080
+
+Video Preview: Presenters are also encouraged to submit an accompanying preview video. Video preview is a great opportunity to publicize your work or event to a wide audience. A video preview should be self-explaining and self-contained. Further instructions are available at [http://ieeevis.org/year/2021/info/presenter-information/fast-forward-and-video-previews](http://ieeevis.org/year/2021/info/presenter-information/fast-forward-and-video-previews)
 
 Visit the [Posters FAQ](http://ieeevis.org/year/2021/info/call-participation/posters-faq) page for some useful tips for authors.
+
 
 ### SUBMISSION INSTRUCTIONS
 

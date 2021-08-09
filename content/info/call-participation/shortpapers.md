@@ -82,7 +82,7 @@ Concurrent submissions of short papers and posters are not possible (i.e., one c
 
 * Submission Deadline: **~~June 13~~ June 20, 2021** (no separate abstract deadline)
 * Notification: **~~July 18~~  July 25, 2021**
-* Submission of Camera-Ready Final Version: **~~August 1~~ August 8, 2021**
+* Submission of Camera-Ready Final Version: **~~August 8~~ August 13, 2021**
 
 All deadlines are at **5:00pm Pacific Time (PDT)**.
 
