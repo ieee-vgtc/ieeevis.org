@@ -16,9 +16,9 @@ Work must be submitted via IEEE CPS by 5:00pm Pacific Time (PDT) on the dates li
   * Associated Events: Sept. 1
 
 **Presentation Videos:**
-  * Full/Short Papers: ~~Sept. 8~~, Sept. 12
-  * Posters/Symposia: ~~Sept. 15~~, Sept. 19
-  * Workshops: ~~Sept. 22~~, Sept. 26
+  * Full/Short VIS Papers, TVCG/CG&A Presentations: ~~Sept. 8~~, Sept. 12
+  * Symposia/VisInPractice/VISAP: ~~Sept. 15~~, Sept. 19
+  * Workshops/Tutorials/Challenges: ~~Sept. 22~~, Sept. 26
 
 ## IEEE Visualization 2021 is a fully virtual conference
 
@@ -164,8 +164,10 @@ If you create the captions using a different software package, subtitles in the 
 |--------------------------------------------|-----------------------|
 | **VIS Arts Program**                       | a-visap               |
 | **VizSec**                                 | a-vizsec              |
+| **VizSec Posters**                         | a-vizsec-posters      |
 | **VDS**                                    | a-vds                 |
 | **LDAV**                                   | a-ldav                |
+| **LDAV Posters**                           | a-ldav-posters        |
 | **VAHC**                                   | a-vahc                |
 | **VIS4DH**                                 | a-vis4dh              |
 | **VISxAI**                                 | a-visxai              |
@@ -179,34 +181,21 @@ If you create the captions using a different software package, subtitles in the 
 | **Visualization for Social Good**          | w-vis4good            |
 | **TREX**                                   | w-trex                |
 
-| **Tutorials**                                                                                   | **Short Name Prefix**  |
-|-------------------------------------------------------------------------------------------------|------------------------|
-| **Color Matters in Visualization**                                                              | t-color                |
-| **Topological Analysis of Ensemble Scalar Data with TTK**                                       | t-ttk                  |
-| **Riemannian Geometry for Scientific Visualization**                                            | t-riemannian           |
-| **User-Centred Evaluation in Visualization**                                                    | t-usereval             |
-| **IEEE VIS Full Paper Review Model and Process: Becoming a (Better) Program Committee Member**  | t-reviewers            |
-| **Observable: Quick and effective visualization prototyping with reactive notebooks**           | t-observable           |
-| **Visualization Analysis and Design**                                                           | t-analysisdesign       |
+| **Tutorials**                                                                                   | **Event Prefix** |
+|-------------------------------------------------------------------------------------------------|------------------|
+| **Color Matters in Visualization**                                                              | t-color          |
+| **Topological Analysis of Ensemble Scalar Data with TTK**                                       | t-ttk            |
+| **Riemannian Geometry for Scientific Visualization**                                            | t-riemannian     |
+| **User-Centred Evaluation in Visualization**                                                    | t-usereval       |
+| **IEEE VIS Full Paper Review Model and Process: Becoming a (Better) Program Committee Member**  | t-reviewers      |
+| **Observable: Quick and effective visualization prototyping with reactive notebooks**           | t-observable     |
+| **Visualization Analysis and Design**                                                           | t-analysisdesign |
 
 
 Additional event prefixes will be added shortly.  If your track is not listed, please check for updates later as all track chairs are finalizing their decisions.
 
 
 <!-- 
-
-| **Workshops**                                      | **Short Name Prefix** |
-|----------------------------------------------------|-----------------------|
-| **Fail Fest**                                      | w-failfest            |
-| **MLUI 2020**                                      | w-mlui                |
-| **MoVis**                                          | w-movis               |
-| **TREX**                                           | w-trex                |
-| **VisActivities**                                  | w-activities          |
-| **Visualization in Astrophysics**                  | w-astrophysics        |
-| **VisComm**                                        | w-comm                |
-| **Vis Futures**                                    | w-futures             |
-| **VisGuides**                                      | w-guides              |
-| **IEEE VIS Workshop on Visualization Psychology**  | w-psychology          | 
 
 | **Application Spotlights**                                                                | **Short Name Prefix** |
 |-------------------------------------------------------------------------------------------|-----------------------|
