@@ -16,7 +16,7 @@ Work must be submitted via IEEE CPS by 5:00pm Pacific Time (PDT) on the dates li
   * Associated Events: Sept. 1
 
 **Presentation Videos:**
-  * Full/Short VIS Papers, TVCG/CG&A Presentations: ~~Sept. 8~~, Sept. 12
+  * Full/Short VIS Papers, TVCG/CG&amp;A Presentations: ~~Sept. 8~~, Sept. 12
   * Symposia/VisInPractice/VISAP: ~~Sept. 15~~, Sept. 19
   * Workshops/Tutorials/Challenges: ~~Sept. 22~~, Sept. 26
 
