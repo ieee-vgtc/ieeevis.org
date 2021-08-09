@@ -64,6 +64,7 @@ Your event organizers will send any additional information about the unique iden
 Your submission consists of three pieces:
 1. Video Preview
   * A 25-second video that clearly communicates the research and contribution, inviting readers to read your paper.
+  * Please do NOT include the paper title or authors' information. The FF chairs will add these as a 5-second title slide in front of your 25-second video in a consistent way.
   * Must be self-contained.
   * Despite recent years’ Fast-Forwards sessions, we discourage humor and trailer-like ‘ads’ because the video will exist for a long time and can be shared widely by the authors on social media and other channels.
   * Should contain audio narration. However, we discourage background music and request that the video focuses viewers’ attention on the content.
