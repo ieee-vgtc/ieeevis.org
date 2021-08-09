@@ -112,7 +112,7 @@ Video Previews are **optional** for the following tracks:
 - VizSec Posters
 - VIS Posters
 - Meetups
-- LDAV
+- LDAV (Papers and Posters)
 - VIS 2021 Overview
 - SciVis Contest
 
