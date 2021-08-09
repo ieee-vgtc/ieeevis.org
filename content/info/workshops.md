@@ -157,7 +157,7 @@ Contact: johnwenskovitch@gmail.com
 The high-level goal of this workshop is to bring together researchers from across the VIS community to share their knowledge and build collaborations at the intersection of the Machine Learning and Visualization fields, with a focus on learning from user interaction. Our hope in this workshop is to pull expertise from across all fields of VIS in order to generate open discussion about how we currently learn from user interaction and where we can go with future research.  To achieve this goal, we propose a half-day workshop that incorporates paper presentations, keynotes, and free-form discussion.  Our goal is to allow for the presentation of cutting-edge research, while also providing participants and speakers with time to exchange ideas and to discuss new research directions.
 
 
-## <a name="visxvision"></a> [VisXVision: Workshop on Novel Directions in Vision Science and Visualization Research]()
+## <a name="visxvision"></a> [VisXVision: Workshop on Novel Directions in Vision Science and Visualization Research](https://visxvision.com/vis-2021/)
 
 Cindy Xiong, *University of Massachusetts Amherst* <br>
 Christine Nothelfer, *Northwestern University* <br>
