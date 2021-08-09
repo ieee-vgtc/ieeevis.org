@@ -34,7 +34,7 @@ The VGTC promotes research in computer graphics, visualization, visual analytics
 
 The VGTC goals are to contribute to our members’ professional development and advancement, help advance the state-of-the-art in visualization and computer graphics, promote national agendas in visualization and computer graphics, and foster inter-disciplinary interaction in all of our activities.
 
-Visual computing encompasses a wide field of research and practice in *visualization* and *computer graphics*, and each is represented by a special international VGTC conference – visual analytics (VAST), information visualization (InfoVis), scientific visualization (SciVis), virtual reality and 3D user interfaces (VR), augmented and mixed reality (ISMAR), visualization of large and big data (LDAV), visualization of biological data (BioVis), and mixed topics on visualization and computer graphics (PacificVis and EuroVis).
+Visual computing encompasses a wide field of research and practice in **visualization** and **computer graphics**, and each is represented by a special international VGTC conference – visual analytics (VAST), information visualization (InfoVis), scientific visualization (SciVis), virtual reality and 3D user interfaces (VR), augmented and mixed reality (ISMAR), visualization of large and big data (LDAV), visualization of biological data (BioVis), and mixed topics on visualization and computer graphics (PacificVis and EuroVis).
 We invite you to [join our online community](https://www.ieee.org/membership-catalog/productdetail/showProductDetailPage.html?product=CMYVG731&N=4294925450+4294925448&tcType=Computer%20Society&searchResults=Y) and learn more about the VGTC and its activities.
 
  
