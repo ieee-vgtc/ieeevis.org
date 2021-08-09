@@ -34,8 +34,8 @@ The VGTC promotes research in computer graphics, visualization, visual analytics
 
 The VGTC goals are to contribute to our members’ professional development and advancement, help advance the state-of-the-art in visualization and computer graphics, promote national agendas in visualization and computer graphics, and foster inter-disciplinary interaction in all of our activities.
 
-Visual computing encompasses a wide field of research and practice in visualization and computer graphics, and each is represented by a special international VGTC conference – visual analytics (VAST), information visualization (InfoVis), scientific visualization (SciVis), virtual reality and 3D user interfaces (VR), augmented and mixed reality (ISMAR), visualization of large and big data (LDAV), visualization of biological data (BioVis), and mixed topics on visualization and computer graphics (PacificVis and EuroVis).
-We invite you to join our online community and learn more about the VGTC and its activities.
+Visual computing encompasses a wide field of research and practice in *visualization* and *computer graphics*, and each is represented by a special international VGTC conference – visual analytics (VAST), information visualization (InfoVis), scientific visualization (SciVis), virtual reality and 3D user interfaces (VR), augmented and mixed reality (ISMAR), visualization of large and big data (LDAV), visualization of biological data (BioVis), and mixed topics on visualization and computer graphics (PacificVis and EuroVis).
+We invite you to [join our online community](https://www.ieee.org/membership-catalog/productdetail/showProductDetailPage.html?product=CMYVG731&N=4294925450+4294925448&tcType=Computer%20Society&searchResults=Y) and learn more about the VGTC and its activities.
 
  
 ## About the IEEE Computer Society - Celebrating 75 Years
@@ -49,5 +49,5 @@ The IEEE Computer Society traces its origins back to 1946. For 75 years, our mem
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oM5mcBtpLeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Discover the benefits of membership and join today!
+Discover the [benefits of membership](https://www.computer.org/membership) and join today!
 
