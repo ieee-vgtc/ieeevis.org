@@ -29,7 +29,7 @@ At least one author per accepted paper must register to present the work, which 
 
 ## Paper Presentation Video Recording
 
-**DEADLINE: September 8.** It is **mandatory** for authors of all VIS papers to submit a [recording of their paper presentation](/year/2021/info/presenter-information/talk-recording-guide). Presentations should be submitted through the IEEE submission system.
+**DEADLINE: September 12.** It is **mandatory** for authors of all VIS papers to submit a [recording of their paper presentation](/year/2021/info/presenter-information/talk-recording-guide). Presentations should be submitted through the IEEE submission system.
 
 ## Common Editing Mistakes and Notes from TVCG
 
