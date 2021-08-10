@@ -21,7 +21,7 @@ To facilitate dissemination, discussion, and access, posters will be available o
 
 *What do I have to submit: the two-page summary, the poster, or both?*
 
-You need to submit the two-page summary and any accompanying materials that help explain your work and that are indicative of what you will show at the poster session. The electronic poster itself only needs to be prepared for accepted submissions and can be created through a web-based interface. The link to it and a detailed description will be provided after acceptance to the conference.
+You need to submit the two-page summary and any accompanying materials that help explain your work and that are indicative of what you will show at the poster session. The electronic poster itself only needs to be prepared for accepted submissions. Detailed description regarding submission of final content will be provided after acceptance to the conference.
 
 *Can I get an extension to the deadline?*
 
