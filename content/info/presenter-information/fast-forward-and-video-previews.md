@@ -98,26 +98,28 @@ If your track is not listed, please check for updates later as all track chairs 
 
 
 Video Previews are **required** for the following tracks:
-- VizSec Full Papers
-- VizSec Short Papers
-- VIS Supporters
-- VISAP
 - TVCG Paper Presentations
 - CG&amp;A Paper Presentations
+- VizSec Full/Short Papers
+- VISAP
+- VIS Supporters
 
 Video Previews are **optional** for the following tracks:
 - VIS Full Papers
 - VIS Short Papers
-- VizSec Posters
 - VIS Posters
-- Meetups
+- VIS Panels
+- VizSec Posters
 - LDAV (Papers and Posters)
-- VIS 2021 Overview
 - SciVis Contest
+- VIS 2021 Overview
+- Meetups
+- Supporters
 
 You have **no Video-Preview** to submit for the following tracks:
 - Doctor Colloquium
 - VAST Challenge
+- Tutorials
 
 ## How to record your video?
 Please see the [Talk Recording Guide](/year/2021/info/presenter-information/talk-recording-guide) on how to format your Video Preview.
