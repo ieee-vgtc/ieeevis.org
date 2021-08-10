@@ -27,7 +27,7 @@ and mixed and augmented reality."
 ---
 
  
-![VGTC Logo](/assets/supporters/vgtc.png)
+![VGTC Logo](/year/2021/assets/supporters/vgtc.png)
 
 ## About the IEEE Computer Society’s VGTC
 
@@ -38,7 +38,7 @@ The VGTC goals are to contribute to our members’ professional development and 
 Visual computing encompasses a wide field of research and practice in **visualization** and **computer graphics**, and each is represented by a special international VGTC conference – visual analytics (VAST), information visualization (InfoVis), scientific visualization (SciVis), virtual reality and 3D user interfaces (VR), augmented and mixed reality (ISMAR), visualization of large and big data (LDAV), visualization of biological data (BioVis), and mixed topics on visualization and computer graphics (PacificVis and EuroVis).
 We invite you to [join our online community](https://www.ieee.org/membership-catalog/productdetail/showProductDetailPage.html?product=CMYVG731&N=4294925450+4294925448&tcType=Computer%20Society&searchResults=Y) and learn more about the VGTC and its activities.
 
-![IEEE Logo](/assets/supporters/ieee.png)
+![IEEE Logo](/year/2021/assets/supporters/ieee.png)
 
 ## About the IEEE Computer Society - Celebrating 75 Years
 
