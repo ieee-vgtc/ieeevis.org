@@ -16,31 +16,6 @@ permalink: /info/committees/conference-committee
 | Gautam Chaudhary | *Alcon* |
 | Joshua A. Levine | *University of Arizona* |
 |---
-| **Local Satellite Chairs** | | |
-| Joshua A. Levine | *University of Arizona* | Tucson, AZ, USA |
-| Ross Maciejewski | *Arizona State* | Tucson, AZ, USA |
-| Nirav Merchant | *University of Arizona* | Tucson, AZ, USA |
-| Diane Staheli | *Massachusetts Institute of Technology* | Boston, MA, USA |
-| Fabio Miranda  | *University of Illinois at Chicago* | Chicago, IL, USA |
-| Victor A. Mateevitsi | *Argonne National Laboratory* | Chicago, IL, USA |
-| Søren Knudsen | *IT University of Copenhagen* | Copenhagen, Denmark |
-| Anders Ynnerman | *Linköping University* | Linköping, Sweden |
-| Ingrid Hotz | *Linköping University* | Linköping, Sweden |
-| Andreas Kerren | *Linköping University* | Linköping, Sweden |
-| Alexander Bock | *Linköping University* | Linköping, Sweden |
-| Tim Dwyer | *Monash University* | Melbourne, Australia |
-| Sarah Goodwin | *Monash University* | Melbourne, Australia |
-| Michael Wybrow | *Monash University* | Melbourne, Australia |
-| Barrett Ens | *Monash University* | Melbourne, Australia |
-| Lonni Besancon | *Monash University* | Melbourne, Australia |
-| Adam Perer | *Carnegie Mellon University* | Pittsburgh, PA, USA |
-| Yu-Ru Lin | *University of Pittsburgh* | Pittsburgh, PA, USA |
-| Dominik Moritz | *Carnegie Mellon University* | Pittsburgh, PA, USA |
-| Jeffrey Heer | *University of Washington* | Seattle, WA, USA |
-| Joseph Cottam | *Pacific Northwest National Laboratory* | Seattle, WA, USA |
-| Kalina Borkiewicz | *NCSA at the University of Illinois at Urbana-Champaign* | Urbana-Champaign, IL, USA |
-| Loretta Auvil | *NCSA at the University of Illinois at Urbana-Champaign* | Urbana-Champaign, IL, USA |
-|---
 | **Overall Paper Chairs** | |
 | Bongshin Lee | *Microsoft Research* |
 | Silvia Miksch | *Vienna University of Technology* |
