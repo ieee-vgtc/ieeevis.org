@@ -11,7 +11,7 @@ contact: ff@ieeevis.org
 Please **read the following instructions carefully** and submit your
 25-second video for the online Video Previews by the following deadlines:
 - VIS Full/Short Papers: Aug. 15
-- All Associated Events and TVCG/CG&amp;A Presentations: Sept. 1
+- All Other Events and TVCG/CG&amp;A Presentations: Sept. 1
 
 
 Video previews and fast forwards are a great opportunity to publicize
@@ -115,6 +115,7 @@ Video Previews are **optional** for the following tracks:
 - VIS 2021 Overview
 - Meetups
 - Supporters
+- Workshops (one per workshop)
 
 You have **no Video-Preview** to submit for the following tracks:
 - Doctor Colloquium
