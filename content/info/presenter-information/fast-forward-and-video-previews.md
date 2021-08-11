@@ -86,11 +86,12 @@ vertical-align: top;
 
 
 - A video preview should be self-explaining and self-contained. 
-- It should clearly communicate your research and contribution and invite readers to read your paper.
+- It should **clearly communicate** your research and contribution and invite readers to read your paper.
 - Other than in recent years' Fast-Forwards sessions, we discourage humor and trailer-like 'ads'. 
 - The video will exist for a long time and can be shared widely by the authors on social media and other channels. 
-- The video should contain audio narration. We discourage salient music to focus viewers’ attention on the content.
-- Subtitles are mandatory to increase accessibility. See below for tips on how to create and include subtitles
+- The video **should contain audio narration**. We discourage salient music to focus viewers’ attention on the content.
+- Subtitles are **mandatory** to increase accessibility. See below for tips on how to create and include subtitles
+- **Do not include any title slide at the beginning of the video**, as we will add a consistent title to the video preview containing: the paper title, authors, and session information.
 
 
 ## Do I need to submit a Video-Preview? 
@@ -127,7 +128,7 @@ Please see the [Talk Recording Guide](/year/2021/info/presenter-information/talk
 
  
 ## How to submit?
-- Video previews need to be submitted through the IEEE CPS system. The submission links for individual tracks will be updated shortly.
+- Video previews need to be submitted through the IEEE CPS system. **Please watch for submission instructions from your respective chairs**.
 - Please submit your video file and caption/subtitle file separately and do not bake the subtitles into the video. We will do the integration in a consistent way.
 
 
