@@ -13,7 +13,7 @@ Work must be submitted via IEEE CPS by 5:00pm Pacific Time (PDT) on the dates li
 
 **Video Previews:**
   * VIS Full/Short Papers: Aug. 15
-  * All Associated Events and TVCG/CG&amp;A Presentations: Sept. 1
+  * All Other Events and TVCG/CG&amp;A Presentations: Sept. 1
 
 **Presentation Videos:**
   * Full/Short VIS Papers, TVCG/CG&amp;A Presentations: ~~Sept. 8~~, Sept. 12
@@ -143,7 +143,7 @@ Please note two important things for this:
 There are also a number of paid services that enable the transcription of videos, such as Amberscript. Lastly, it is also possible to manually create the subtitles using for example the YouTube captioning tool, Adobe Premiere Pro, or Amara.
 Regardless of the tool you are using, please make sure that the subtitles are accurate and correctly timed for the benefit of all attendees. Videos containing subtitles have a considerably higher engagement and retention rate than one’s without.
   
-After the captions have been created (automatically or by hand), you can download them by going to the subtitles page when editing your video information in YouTube Studio. You can then click the three dots next to the subtitles you want to download and select download from the menu to download the .sbv or .srt file containing your subtitles. Make sure that you manually correct the generated subtitles for errors by directly editing the .srt file in a text editor. Include this file with your video, following the same naming convention: `[EventPrefix]_[PaperID]_[FirstAuthorLastName]_<Presentation|Preview>.sbv` or `[EventPrefix]_[PaperID]_[FirstAuthorLastName]<Presentation|Preview>.srt`. This process is also demonstrated in our [talk recording tutorial on Youtube](https://youtu.be/yg1P_Infw5A) or via [direct download](http://sci.utah.edu/~will/public/vis2020-recording-tutorial.mp4).
+After the captions have been created (automatically or by hand), you can download them by going to the subtitles page when editing your video information in YouTube Studio. You can then click the three dots next to the subtitles you want to download and select download from the menu to download the .sbv or .srt file containing your subtitles. Make sure that you manually correct the generated subtitles for errors by directly editing the .srt file in a text editor. Include this file with your video, following the same naming convention: `[EventPrefix]_[PaperID]_[FirstAuthorLastName]_<Presentation|Preview>.sbv` or `[EventPrefix]_[PaperID]_[FirstAuthorLastName]_<Presentation|Preview>.srt`. This process is also demonstrated in our [talk recording tutorial on Youtube](https://youtu.be/yg1P_Infw5A) or via [direct download](http://sci.utah.edu/~will/public/vis2020-recording-tutorial.mp4).
   
 You can test your subtitles by playing your video in VLC with the .sbv file in the same directory so that VLC will find it. Then right-click the VLC window and select the subtitle menu item to pick your subtitles to play during your video. During the conference, your video will be played using the “small” subtitle size setting in VLC.
   
@@ -159,13 +159,14 @@ If you create the captions using a different software package, subtitles in the 
 | **VIS Posters**                            | v-posters             |
 | **TVCG Presentations**                     | v-tvcg                |
 | **CG&A Presentations**                     | v-cga                 |
+| **VIS Panels**                             | v-panels              |
 
 | **Associated Events**                      | **Event Prefix**      |
 |--------------------------------------------|-----------------------|
 | **VIS Arts Program**                       | a-visap               |
+| **VisInPractice**                          | a-visinpractice       |
 | **VizSec**                                 | a-vizsec              |
 | **VizSec Posters**                         | a-vizsec-posters      |
-| **VDS**                                    | a-vds                 |
 | **LDAV**                                   | a-ldav                |
 | **LDAV Posters**                           | a-ldav-posters        |
 | **VAHC**                                   | a-vahc                |
