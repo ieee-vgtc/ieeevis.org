@@ -9,10 +9,6 @@ contact: info@ieeevis.org
 **University of Arizona and Arizona State University**<br>
 Chairs: Joshua A. Levine, Ross Maciejewski, and Nirav Merchant.
 
-## Boston, MA, USA
-**Massachusetts Institute of Technology**<br>
-Chair: Diane Staheli
-
 ## Chicago, IL, USA
 **University of Illinois at Chicago and Argonne National Laboratory**<br>
 Chairs: Fabio Miranda and Victor A. Mateevitsi
