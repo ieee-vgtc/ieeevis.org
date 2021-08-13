@@ -12,8 +12,6 @@ More detail about papers and their associated presentations will be released wit
 
 ## VIS Full Papers
 
-### Applications
-
 **TIVEE: Visual Exploration and Explanation of Badminton Tactics in Immersive Visualizations**  
 Authors: Xiangtong Chu, Xiao Xie, Shuainan Ye, Haolin Lu, Hongguang Xiao, Zeqing Yuan, Zhutian Chen, Hui Zhang, Yingcai Wu
 
@@ -86,10 +84,6 @@ Authors: Theo Jaunet, Corentin Kervadec, Romain Vuillemot, Grigory Antipov, Moez
 **Towards replacing physical testing of granular materials with a Topology-based Model**  
 Authors: Aniketh Venkat, Attila Gyulassy, Graham Kosiba, Amitesh Maiti, Henry Reinstein, Richard Gee, Peer-Timo Bremer, Valerio Pascucci
 
-<hr/>
-
-### Analytics & Decisions
-
 **Lumos: Increasing Awareness of Analytic Behavior during Visual Data Analysis**  
 Authors: Arpit Narechania, Adam Coscia, Emily Wall, Alex Endert
 
@@ -117,9 +111,6 @@ Authors: Natkamon Tovanich, Pierre Dragicevic, Petra Isenberg
 **VideoModerator: A Risk-aware Framework for Multimodal Video Moderation in E-Commerce**  
 Authors: Tan Tang, Yanhong Wu, Lingyun Yu, Yuhong Li, Yingcai Wu
 
-**Neo: Generalizing Confusion Matrix Visualization to Hierarchical and Multi-Output Labels**  
-Authors: Jochen Görtler, Fred Hohman, Dominik Moritz, Kanit Wongsuphasawat, Donghao Ren, Rahul Nair
-
 **VBridge: Connecting the Dots Between Features, Explanations, and Data for Healthcare Models**  
 Authors: Furui Cheng, Dongyu Liu, Fan Du, Yanna Lin, Alexandra Zytek, Haomin Li, Huamin Qu, Kalyan Veeramachaneni
 
@@ -146,10 +137,6 @@ Authors: Johannes Knittel, Steffen Koch, Tan Tang, Wei Chen, Yingcai Wu, Shixia 
 
 **Human-in-the-loop Extraction of Interpretable Concepts in Deep Learning Models**  
 Authors: Zhenge Zhao, Panpan Xu, Carlos Scheidegger, Liu Ren
-
-<hr/>
-
-### Theoretical & Empirical
 
 **Exploring the personal informatics analysis gap: "There's a lot of bacon"**  
 Authors: Jimmy Moore, Pascal Goffin, Jason Wiese, Miriah Meyer
@@ -223,10 +210,6 @@ Authors: Spencer Castro, Helia Hosseinpour, P. Samuel Quinan, Lace Padilla
 **The Weighted Average Illusion: Biases in Perceived Mean Position in Scatterplots**  
 Authors: Matt-Ian Hong, Jessica Witt, Danielle Szafir
 
-<hr/>
-
-### Representations & Interaction
-
 **Kori: Interactive Synthesis of Text and Charts in Data Documents**  
 Authors: Shahid Latif, Zheng Zhou, Yoon Kim, Fabian Beck, Nam Wook Kim
 
@@ -284,10 +267,6 @@ Authors: Weiwei Cui, Jinpeng Wang, He Huang, Yun Wang, Chin-Yew Lin, Haidong Zha
 **Automatic Polygon Layout for Primal-Dual Visualization of Hypergraphs**  
 Authors: Botong Qu, Eugene Zhang, Yue Zhang
 
-<hr/>
-
-### Data Transformations
-
 **A Domain-Oblivious Approach for Learning Concise Representations of Filtered Topological Spaces for Clustering**  
 Authors: Yu Qin, Brittany Terese Fasy, Carola Wenk, Brian Summa
 
@@ -330,10 +309,6 @@ Authors: Jan-Tobias Sohns, Michaela Schmitt, Fabian Jirasek, Hans Hasse, Heike L
 **Joint t-SNE for Comparable Projections of Multiple High-Dimensional Datasets**  
 Authors: Yinqiao Wang, Lu Chen, Jaemin Jo, Yunhai Wang
 
-<hr/>
-
-### Systems & Rendering
-
 **Propagating Visual Designs to Numerous Plots and Dashboards**  
 Authors: Saiful Khan, Phong Nguyen, Alfie Abdul-Rahman, Benjamin Bach, Min Chen, Euan Freeman, Cagatay Turkay
 
@@ -343,7 +318,7 @@ Authors: Sehi L'Yi, Qianwen Wang, Fritz Lekschas, Nils Gehlenborg
 **DIEL: Interactive Visualization Beyond the Here and Now**  
 Authors: Yifan Wu, Remco Chang, Joseph Hellerstein, Arvind Satyanarayan, eugene Wu
 
-**VizFixer: A Linter and Fixer Framework for Data Visualization**  
+**VizLinter: A Linter and Fixer Framework for Data Visualization**  
 Authors: Qing Chen, Fuling Sun, Xinyue Xu, Zui Chen, Jiazhe Wang, Nan Cao
 
 **Rapid Labels: Point-Feature Labeling on GPU**  
