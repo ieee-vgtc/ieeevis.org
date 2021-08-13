@@ -10,7 +10,7 @@ More detail about papers and their associated presentations will be released wit
 <hr />
 
 
-## Full Papers
+## VIS Full Papers
 
 ### Applications
 
@@ -369,7 +369,7 @@ Authors: Sara Di Bartolomeo, Mirek Riedewald, Wolfgang Gatterbauer, Cody Dunne
 
 <hr/>
 
-### TVCG
+### TVCG Papers Accepted for Presentation
 
 **ChartSeer: Interactive Steering Exploratory Visual Analysis with Machine Intelligence**  
 Authors: Jian Zhao, Mingming Fan, Mi Feng
@@ -523,7 +523,47 @@ Authors: Georgia Panagiotidou, Ralf Vandam, Jeroen Poblome, Andrew Vande Moere
 
 <hr/>
 
-## Short Papers
+## CG&amp;A Papers Accepted for Presentation
+
+**What we talk about when we talk about data physicality**
+Authors: Dietmar Offenhuber
+
+**Data Badges: Making an Academic Profile through a DIY wearable physicalisation**
+Authors: Georgia Panagiotidou, Sinem Görücü, Andrew Vande Moere
+
+**Move&amp;Find: The value of kinesthetic experience in a casual data representation**
+Authors: Jörn Hurtienne, Franzisca Maas, Astrid Carolus, Daniel Reinhardt, Cordula Baur, Carolin Wienrich
+
+**Slave Voyages:reflections on data sculptures**
+Authors: Doris Kosminsky, Douglas Thomaz de Oliveira
+
+**Narrative Physicalisation: Supporting Interactive Engagement with Personal Data**
+Authors: Maria Karyda, Danielle Wilde, Mette Gislev Kjærsgaard
+
+**Data Clothing and BigBarChart: designing physical data reports on indoor pollutants for individuals and communities**
+Authors: Laura J. Perovich, Phoebe Cai, Amber Guo, Kristin Zimmerman, Katherine Paseman, Dayanna Espinoza Silva, Julia G. Brody
+
+**Dynamic 3D Visualization of Climate Model Development and Results**
+Authors: Jeremy Walton, Samantha Adams, Wolfgang Hayek, Piotr Florek, Harold Dyson
+
+**Mapping the Hazard: Visual Analysis of Flood Impact on Urban Mobility**
+Authors: Kuang-Ting Huang
+
+**Exploring the Design Space of Sankey Diagrams for the Food-Energy-Water Nexus**
+Authors: Brandon Mathis, Yuxin Ma, Michelle Mancenido, Ross Maciejewski
+
+**QuteVis: Visually Studying Transportation Patterns Using Multi-Sketch Query of Joint Traffic Situations**
+Authors: Shamal AL-Dohuki, Ye Zhao, Farah Kamw, Jing Yang, Xinyue Ye, Wei Chen
+
+**Many Views Are Not Enough: Designing for Synoptic Insights in Cultural Collections**
+Authors: Florian Windhager, Saminu Salisu, Roger A. Leite, Velitchko Filipov, Silvia Miksch, Günther Schreder, Eva Mayr
+
+**CLEVis: A Semantic Driven Visual Analytics System for Community Level Events**
+Authors: Chao Ma, Ye Zhao, Andrew Curtis, Farah Kamw, Shamal AL-Dohuki, Jing Yang, Suphanut Jamonnak, Ismael Ali
+ 
+<hr/>
+
+## VIS Short Papers
 
 **Towards a Survey on Static and Dynamic Hypergraph Visualizations**  
 Authors: Maximilian T. Fischer, Alexander Frings, Daniel Keim, Daniel Seebacher
