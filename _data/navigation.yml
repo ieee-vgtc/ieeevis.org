@@ -42,6 +42,8 @@ menu:
               links:
                 - text: "Registration"
                   url: "/year/2021/info/registration/conference-registration"
+                - text: "Satellite Sites"
+                  url: "/year/2021/info/satellite"
                   # - text: "Conference Venue"
                   #   url: "#"
               #    - text: "Practitioner Guide"
