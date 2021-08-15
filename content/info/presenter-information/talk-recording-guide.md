@@ -160,6 +160,7 @@ If you create the captions using a different software package, subtitles in the 
 | **TVCG Presentations**                     | v-tvcg                |
 | **CG&A Presentations**                     | v-cga                 |
 | **VIS Panels**                             | v-panels              |
+| **Application Spotlights**                 | v-spotlights          |
 
 | **Associated Events**                      | **Event Prefix**      |
 |--------------------------------------------|-----------------------|
@@ -194,17 +195,6 @@ If you create the captions using a different software package, subtitles in the 
 
 
 Additional event prefixes will be added shortly.  If your track is not listed, please check for updates later as all track chairs are finalizing their decisions.
-
-
-<!-- 
-
-| **Application Spotlights**                                                                | **Short Name Prefix** |
-|-------------------------------------------------------------------------------------------|-----------------------|
-| **Challenges in the Visualization of Bioelectric Fields for Cardiac and Neural Research** | l-bio                 |
-| **Recent Challenges in Medical Visualization**                                            | l-med                 |
-| **Opportunities and Challenges in Cosmology Visualization**                               | l-cosmo               |
-| **The Role of Visualization in Industrial Production**                                    | l-industrial          |
- -->
   
 For questions or more information, please email tech@ieeevis.org.
 
