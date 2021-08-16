@@ -194,7 +194,7 @@ permalink: /info/committees/conference-committee
 |---
 | **Technology Chairs** | |
 | Alex Bock | *Linköping University* |
-| Michail Schwab | *Northeastern University (Google in 2021)* |
+| Michail Schwab | *Google* |
 | Will Usher | *University of Utah* |
 |---
 | **Virtual VIS Chairs** | |
@@ -204,3 +204,27 @@ permalink: /info/committees/conference-committee
 | Vijay Natarajan | *IISc Bangalore* |
 | Kristi Potter | *NREL* |
 | Paul Rosen | *University of Central Florida* |
+|---
+| **Local Satellite Chairs** | | |
+| Joshua A. Levine | *University of Arizona* | Tucson, AZ, USA |
+| Ross Maciejewski | *Arizona State* | Tucson, AZ, USA |
+| Nirav Merchant | *University of Arizona* | Tucson, AZ, USA |
+| Fabio Miranda  | *University of Illinois at Chicago* | Chicago, IL, USA |
+| Victor A. Mateevitsi | *Argonne National Laboratory* | Chicago, IL, USA |
+| Søren Knudsen | *IT University of Copenhagen* | Copenhagen, Denmark |
+| Anders Ynnerman | *Linköping University* | Linköping, Sweden |
+| Ingrid Hotz | *Linköping University* | Linköping, Sweden |
+| Andreas Kerren | *Linköping University* | Linköping, Sweden |
+| Alexander Bock | *Linköping University* | Linköping, Sweden |
+| Tim Dwyer | *Monash University* | Melbourne, Australia |
+| Sarah Goodwin | *Monash University* | Melbourne, Australia |
+| Michael Wybrow | *Monash University* | Melbourne, Australia |
+| Barrett Ens | *Monash University* | Melbourne, Australia |
+| Lonni Besancon | *Monash University* | Melbourne, Australia |
+| Adam Perer | *Carnegie Mellon University* | Pittsburgh, PA, USA |
+| Yu-Ru Lin | *University of Pittsburgh* | Pittsburgh, PA, USA |
+| Dominik Moritz | *Carnegie Mellon University* | Pittsburgh, PA, USA |
+| Jeffrey Heer | *University of Washington* | Seattle, WA, USA |
+| Joseph Cottam | *Pacific Northwest National Laboratory* | Seattle, WA, USA |
+| Kalina Borkiewicz | *NCSA at the University of Illinois at Urbana-Champaign* | Urbana-Champaign, IL, USA |
+| Loretta Auvil | *NCSA at the University of Illinois at Urbana-Champaign* | Urbana-Champaign, IL, USA |
