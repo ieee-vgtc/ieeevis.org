@@ -2,7 +2,7 @@
 title: elections
 layout: page
 permalink: /info/elections
-contact: [committee-name]@ieeevis.org
+contact: elections@ieeevis.org
 ---
 
 More information coming soon!
