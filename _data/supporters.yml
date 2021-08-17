@@ -29,6 +29,10 @@
     - name: "Autodesk"
       image: /assets/supporters/autodesk.png
       url: "https://www.autodesk.com/research"
+      
+    - name: "Microsoft"
+      image: /assets/supporters/microsoft.png
+      url: "https://www.microsoft.com/research"
 
 
  - category: Bronze
@@ -40,11 +44,6 @@
     - name: "Fraunhofer IGD"
       image: /assets/supporters/igd.png
       url: "http://www.igd.fraunhofer.de/"
-
-
-#    - name: "Microsoft"
-#      image: /assets/supporters/microsoft.png
-#      url: "https://www.microsoft.com/research"
 
 
  - category: Pearl
