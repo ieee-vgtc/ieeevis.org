@@ -1,5 +1,5 @@
 ---
-title: elections
+title: Elections
 layout: page
 permalink: /info/elections
 contact: elections@ieeevis.org
