@@ -153,6 +153,9 @@ menu:
                   is_external: true
                 - text: "Code of Conduct"
                   url: "/year/2021/info/inclusion-and-diversity/code-of-conduct"
+                - text: "Elections"  
+                  description: "Register to vote and nominate/review candidates for the VSC/VEC"
+                  url: "/year/2021/info/elections"
                 # - text: "Become an organizer"
                 #   description: "TK TK TK Join the committees and help organize VIS"
                 #   url: "https://www.google.com"
