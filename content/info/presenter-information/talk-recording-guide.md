@@ -182,6 +182,13 @@ If you create the captions using a different software package, subtitles in the 
 | **MLUI**                                   | w-mlui                |
 | **Visualization for Social Good**          | w-vis4good            |
 | **TREX**                                   | w-trex                |
+| **NL VIZ**                                 | w-nlviz               |
+| **Audio-Visual Analytics**                 | w-ava                 |
+| **Human Data Interaction**                 | w-hdi                 |
+| **VisComm**                                | w-viscomm             |
+| **VisXVision**                             | w-visxvision          |
+| **VisActivities**                          | w-visactivities       |
+| **alt.VIS**                                | w-altvis              |
 
 | **Tutorials**                                                                                   | **Event Prefix** |
 |-------------------------------------------------------------------------------------------------|------------------|
