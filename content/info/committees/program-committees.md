@@ -13,14 +13,15 @@ Eytan Adar | *University of Michigan, USA*
 Marco Agus | *Hamad Bin Khalifa University, Qatar*
 James Ahrens | *Los Alamos National Laboratory, USA*
 Wolfgang Aigner | *St. Poelten University of Applied Sciences, Austria*
-Danielle Albers Szafir | *University of Colorado at Boulder, USA*
 Gennady Andrienko | *Fraunhofer IAIS, Germany / City, University of London, UK*
 Michaël Aupetit | *Qatar Computing Research Institute, HBKU, Qatar*
+Lisa Sobierajski Avila | *Kitware, USA*
 Lyn Bartram | *Simon Fraser University, Canada*
 Michael Behrisch | *Utrecht University, Netherlands*
 Matthew Berger | *Vanderbilt University, USA*
 Alessio Bertone | *Dresden University of Technology, Germany*
-Johanna  Beyer | *Harvard University, USA*
+Lonni Besançon | *Monash University, Australia*
+Johanna Beyer | *Harvard University, USA*
 Harsh Bhatia | *Lawrence Livermore National Laboratory, USA*
 Tanja Blascheck | *University of Stuttgart, Germany*
 Alexander Bock | *Linköping University, Sweden*
@@ -74,6 +75,7 @@ David Gotz | *University of North Carolina, Chapel Hill , USA*
 Stefan Gumhold | *TU Dresden, Germany*
 Tobias Günther | *Friedrich-Alexander University of Erlangen-Nuremberg, Germany*
 Hanqi Guo | *Argonne National Laboratory, USA*
+Daniel Haehn | *University of Massachusetts Boston, USA*
 Lane Harrison | *Worcester Polytechnic Institute, USA*
 Marti Hearst | *UC Berkeley, USA*
 Jeffrey Heer | *University of Washington, USA*
@@ -117,9 +119,8 @@ Peter Lindstrom | *Lawrence Livermore National Laboratory, USA*
 Mengchen Liu | *Microsoft, USA*
 Shixia Liu | *Tsinghua University, China*
 Shusen Liu | *Lawrence Livermore National Laboratory, USA*
-Mark  Livingston | *Naval Research Laboratory, USA*
+Mark Livingston | *Naval Research Laboratory, USA*
 Patric  Ljung | *Linköping University, Sweden*
-Lonni Besançon | *Monash University, Australia*
 Aidong Lu | *UNC Charlotte, USA*
 Yafeng Lu | *Bloomberg, USA*
 Claes Lundström | *Linköping University, Sweden*
@@ -175,7 +176,7 @@ Tobias Schreck | *Graz University of Technology, Austria*
 Thomas Schultz | *University of Bonn, Germany*
 Hans-Joerg Schulz | *Aarhus University, Denmark*
 Lei Shi | *Beihang University, China*
-Lisa Sobierajski Avila | *Kitware, USA*
+Danielle Albers Szafir | *University of Colorado at Boulder, USA*
 Jun Tao | *Sun Yat-sen University, China*
 Alexandru Telea | *Utrecht University, Netherlands*
 Holger Theisel | *Magdeburg University, Germany*
