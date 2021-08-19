@@ -8,8 +8,9 @@ contact: finance@ieeevis.org
 
 The 2021 IEEE Visualization conference is organized as a virtual conference for the second year in a row. Thanks to the dedication of our volunteer organizers, we have been able to keep costs for running the conference low. We are able to offer low registration fees and continue to offer free to students as well as free options for diversity and inclusivity.
 
-
 <a class="button" href="https://www.eventbrite.com/e/159364715153/">REGISTER NOW</a>
+
+<a class="button" href="https://cvent.me/K0rglW">PAY CONTENT FEES NOW</a>
 
 
 ## Registration Fees 
@@ -25,6 +26,7 @@ All participants in VIS (attendees, organizers, speakers, etc.) must register by
 </ul>
 
 All attendees need to register and will have access to conference downloadable content.
+
 **Registration fees are refundable up to 30 days before the beginning of the conference.**
 
 
@@ -42,8 +44,9 @@ The list of content items that require content fee payment include:
   <li> <b>VIS, Symposium, or Workshop poster</b>: US$125</li>
 </ul>
 
+In order to pay the content fees, you need to provide the submission ID for papers and posters. The ID was assigned when publications were submitted for review via PCS.  Invited papers need to use the ID assigned by their editor.
+
 **Content fees should be paid by September 5, 2021. Content fees are not refundable.**
-**Content fee payment system and detailed payment instruction will be available soon.**
 
 
 ## Registration FAQs
