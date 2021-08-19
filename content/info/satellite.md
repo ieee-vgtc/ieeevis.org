@@ -5,10 +5,6 @@ permalink: /info/satellite
 contact: info@ieeevis.org
 ---
 
-## Tucson, AZ, USA
-**University of Arizona and Arizona State University**<br>
-Chairs: Joshua A. Levine, Ross Maciejewski, and Nirav Merchant.
-
 ## Chicago, IL, USA
 **University of Illinois at Chicago and Argonne National Laboratory**<br>
 Chairs: Fabio Miranda and Victor A. Mateevitsi
@@ -32,6 +28,10 @@ Chairs: Adam Perer, Yu-Ru Lin, and Dominik Moritz
 ## Seattle, WA, USA
 **University of Washington and Pacific Northwest National Laboratory**<br>
 Chairs: Jeffrey Heer and Joseph Cottam
+
+## Tucson, AZ, USA
+**University of Arizona and Arizona State University**<br>
+Chairs: Joshua A. Levine, Ross Maciejewski, and Nirav Merchant.
 
 ## Urbana-Champaign, IL, USA
 **The National Center for Supercomputing Applications (NCSA) at the University of Illinois at Urbana-Champaign**<br>
