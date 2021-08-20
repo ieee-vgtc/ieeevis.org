@@ -25,6 +25,8 @@ Chairs: Tim Dwyer, Sarah Goodwin, Michael Wybrow, Barrett Ens, Lonni Besancon, a
 **Carnegie Mellon University and University of Pittsburgh**<br>
 Chairs: Adam Perer, Yu-Ru Lin, and Dominik Moritz
 
+<a class="button" href="https://dig.cmu.edu/2021/08/19/vis-satellite.html/">More Information</a>
+
 ## Seattle, WA, USA
 **University of Washington and Pacific Northwest National Laboratory**<br>
 Chairs: Jeffrey Heer and Joseph Cottam
