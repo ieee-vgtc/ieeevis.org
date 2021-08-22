@@ -22,6 +22,6 @@ Please visit the [VSC Candidates](/year/2021/info/vsc-candidates) and [VEC Candi
 Questions about the elections process can be directed to the VIS Elections Chairs at [elections@ieeevis.org](mailto:elections@ieeevis.org).
 
 **VIS Elections Chairs**
-Bettina Speckmann (TU Eindhoven)
-Emily Wall (Emory University)
-Wesley Willett (University of Calgary)
+* Bettina Speckmann (TU Eindhoven)
+* Emily Wall (Emory University)
+* Wesley Willett (University of Calgary)
