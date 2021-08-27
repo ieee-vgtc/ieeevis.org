@@ -25,6 +25,8 @@ Chairs: Tim Dwyer, Sarah Goodwin, Michael Wybrow, Barrett Ens, Lonni Besancon, a
 **Carnegie Mellon University and University of Pittsburgh**<br>
 Chairs: Adam Perer, Yu-Ru Lin, and Dominik Moritz
 
+<a class="button" href="https://dig.cmu.edu/2021/08/19/vis-satellite.html">More Information</a>
+
 ## Seattle, WA, USA
 **University of Washington and Pacific Northwest National Laboratory**<br>
 Chairs: Jeffrey Heer and Joseph Cottam
@@ -32,6 +34,8 @@ Chairs: Jeffrey Heer and Joseph Cottam
 ## Tucson, AZ, USA
 **University of Arizona and Arizona State University**<br>
 Chairs: Joshua A. Levine, Ross Maciejewski, and Nirav Merchant.
+
+<a class="button" href="https://azvis2021.github.io/">More Information</a>
 
 ## Urbana-Champaign, IL, USA
 **The National Center for Supercomputing Applications (NCSA) at the University of Illinois at Urbana-Champaign**<br>

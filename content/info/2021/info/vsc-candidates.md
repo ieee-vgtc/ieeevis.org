@@ -1,0 +1,36 @@
+---
+title: VSC Candidates - VIS 2021 Elections
+layout: page
+permalink: /info/2021/info/vsc-candidates
+contact: elections@ieeevis.org
+---
+
+# 2021 VIS Steering Committee (VSC) Candidates 
+The VIS Steering Committee (VSC) provides scientific and organizational oversight of IEEE VIS. It is the highest level committee at IEEE VIS and develops long term strategy and policy, appoints scientific content chairs, manages relationships with journals, ratifies specified VEC appointments and decisions, and oversees the evolution of the area model that defines the conference.
+
+The VSC provides oversight and planning for the VIS conference as described in the [VIS Charter](https://docs.google.com/document/d/1OlfURrAEbgH0w4Gn8rbe5WpO4zusdatshf_ZqB6YVF0/).
+
+The 2021 candidates for the VSC are:
+[Chris Johnson](#chrisjohnson)
+[Kwan-Liu Ma](#kwanliuma)
+[Bernhard Preim](#bernhardpreim)
+[Anna Vilanova](#annavilanova)
+
+## <a name=“chrisjohnson”></a>Chris Johnson
+I am a faculty member within and founding director of the Scientific Computing and Imaging (SCI) Institute at the University of Utah where I am a Distinguished Professor of Computer Science and hold faculty appointments in the Departments of Physics and Bioengineering (http://www.cs.utah.edu/~crj/).  I have made multiple technical contributions in scalar, vector, and tensor field visualization, problem solving environments, uncertainty visualization, and biomedical computing and visualization.  I Co-Chaired the IEEE Visualization Conference in 2000 and Co-Chaired the IEEE Large Data Analysis and Visualization (LDAV) Symposium in 2012.  I served on the Executive Committee of the IEEE VGTC 2012-2016, served on the LDAV Steering Committee for several years and also served on the IEEE VGTC Awards Committee multiple times, along with many other IEEE VIS committees. I have also had impact on the field through my many professional leadership roles.  I currently serve on the Flatiron Institute Scientific Advisory Board, the Carnegie Institution for Science Advisory Council, the Johann Radon Institute for Computational and Applied Mathematics Scientific Advisory Board, the External Advisory Board of the Michigan Institute for Computational Discovery and Engineering and has served on more than 40 additional national or international external advisory boards.      
+
+My vision for IEEE VIS is to continue to provide the premier international forum for presenting innovations in visualization and visual analytics methods and applications across science, engineering, medicine, humanities, commerce, the arts and to expand into new areas.  I would like to see IEEE VIS grow in size, have a more significant industrial presence, and be more inclusive.
+
+## <a name=“kwanliuma”></a>Kwan-Liu Ma  
+I have been working in the field of visualization over the past 33 years. My research has covered a very wide range of topics in visualization, high-performance computing, and human computer interaction. I am an IEEE Fellow and I received the VGTC Visualization Technical Achievement award in 2013. I have done extensive service to our research community including chairing the technical programs of IEEE VIS (2008, 2009, 2015, 2016), IEEE PacificVis (2008), EuroVis (2015, 2016) and many others. I have also served on multiple steering committees (LDAV, VizSEC, EGPGV, PacificVis, etc.), editorial boards (IEEE CG&A, IEEE TVCG, ACM TiiS, etc.), and several IEEE VIS best papers and VGTC awards committees. My career essentially grows with the evolution of the VIS conference.
+
+As a VSC member, besides the regular duties, I think, with my long term and wide connection to the Asian research community, I can serve as a unique channel for effective communication of the vision, mission, value, and  operations of the IEEE VIS as well as for conveying the perspectives and expectations of the Asian community. In  addition, with my wide visualization research interests and experiences, I feel I can perform many of the VSC duties very well.  
+
+## <a name=“bernhardpreim”></a>Bernhard Preim 
+Let me briefly introduce myself. After working for an independent research institute for computer assisted diagnosis and treatment, I became Chair of Visualization in Magdeburg 2003. My research is quite application-oriented still with a strong bias towards medical applications. To carry out such application-driven research, I also deal with Human Computer Interaction. Thus, I am also familiar with HCI conferences and the German HCI community. I regularly participated in the IEEE Visualization conference since 2001 with paper presentations, as organizer of tutorials and participant of panel discussions. Four of my Phd students presented at the Doctoral Colloquium. As a European, I’m of course also familiar with the EuroVis conference where InfoVis, SciVis and Visual Analytics were always united. Thus, I was very positive about the REVISE activities shaping the future IEEE VisWeeks. I consider the current time quite exciting; in particular the shift towards hybrid conferences that probably needs careful planning and refinement to provide an attractive experience for both on-site and remote participants.
+
+I founded (together with Charl Botha, NL) the Eurographics Workshop Series on Visual Computing in Biology and Medicine (VCBM), which was the first application-oriented Eurographics Workshop. After being heavily involved in organizing the first two workshops, I was leading the steering committee of this workshop for 10 years. I served as paper chair of VCBM (2008, 2010, 2016), VMV (2012) and EuroVis (2013). I also served in some award committees, e.g., the EuroVis Best Paper Committee in 2011 and the EuroVis Phd Award Committee in 2019. The largest conference, I was happy to organize, was the German HCI conference 2020 with about 800 participants and a rich programme with many tutorials, workshops and demo sessions. At the same time, this was an opportunity to get an in-depth experience with organizing a virtual event. I have been in the SciVis programme committee for many years and currently serve as Area Chair which makes me aware of the potential of this model but also with some limitations. The intense experience as Area Chair also leads to some thoughts on quality assurance and schedule.
+
+## <a name=“annavilanova”></a>Anna Vilanova 
+I am honored to have been nominated to become a VSC member, and I will be honored to serve the visualization community as a VSC member from which I have been a member for more than 20 years. IEEE Vis is an excellent, friendly and open community that we should take care of and preserve. In my view, we should keep high-quality standards in our conferences and reviewing process while being supportive, open, broad and welcoming to new research developments. A good balance has to be found between supporting existing fields and embracing new ones, as well as, between fundamental and applied research both being very necessary. Diversity is a very important aspect of a healthy community, research wise, gender, age, origin ... In my opinion, IEEE Vis community should be proud and support the career of our young talented researchers. Furthermore, I am an active member of the European visualization community, EUROGRAPHICS (EuroVis). I can bring the possibility to strengthen the connection between these communities.
+
