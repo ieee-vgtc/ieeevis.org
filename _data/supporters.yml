@@ -12,16 +12,16 @@
 #       url:   #link to the supporter's website
 
 
-# - category: Platinum
-#   image_size: 200
-#   supporters:
+ - category: Diamond
+   image_size: 200
+   supporters:
 #    - name: "Intel"
 #      image: /assets/supporters/intel_2020.png
 #      url: "https://intel.com"
 
-#    - name: "Tableau"
-#      image: /assets/supporters/tableau.png
-#      url: "https://www.tableau.com/"
+    - name: "Tableau"
+      image: /assets/supporters/tableau.jpg
+      url: "https://www.tableau.com/"
 
  - category: Silver
    image_size: 150
@@ -48,9 +48,6 @@
 
  - category: Pearl
    supporters:
-#    - name: "Harvard Medical School, Department of Biomedical Informatics"
-#      image: /assets/supporters/DBMI.png
-#      url: "http://dbmi.hms.harvard.edu/"
 
     - name: "SCI"
       image: /assets/supporters/sci.png
@@ -59,6 +56,11 @@
 
  - category: Diversity/Inclusivity Scholarships
    supporters:
+   
+    - name: "Harvard Medical School"
+      image: /assets/supporters/harvard.png
+      url: "https://dbmi.hms.harvard.edu/education/master-biomedical-informatics"
+      
 #    - name: "Data Intensive Science"
 #      image: /assets/supporters/data_intensive_science.jpg
 #      url: "https://dataintensivescience.org/"
@@ -71,9 +73,9 @@
 #      image: /assets/supporters/sophos.png
 #      url: "https://www.sophos.com/"
 
-#    - name: "TwoSix Labs"
-#      image: /assets/supporters/TwoSix_Labs.png
-#      url: "https://www.twosixlabs.com/"
+    - name: "TwoSix Labs"
+      image: /assets/supporters/twosix.png
+      url: "https://www.twosixtech.com/"
 
     - name: "Uncharted Software"
       image: /assets/supporters/uncharted.png
