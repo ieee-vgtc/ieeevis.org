@@ -25,6 +25,7 @@ To register or participate in these Community events, please see the correspondi
 * [VisBuddies Virtual Meetup](#visbuddies)
 * [Job Flyer Online Posting](#job-flyers)
 * [Job-Fair Virtual Meetup](#ajf)
+* [Student Mentorship Program](#smp)
 
 <!-- 
 ### <a name="tips"></a> Tips and Tricks for Attending VIS for your First Time 
@@ -161,6 +162,11 @@ staff!
 * Many excellent [Meetups]({{ 'info/call-participation/meetups' | relative_url }}) this year related to diversity in VIS, as well as career advice.
 -->
 <!-- (TODO Add more -->
+
+### <a name="smp"></a>Student Mentorship Program
+<!--**Thursday, 29 October 2020, 13:40:00 Mountain Time**-->
+(Coming soon!) Students are invited to participate in a one-hour session during which they may ask questions and advice from industry experts. This is your opportunity to get expert advice on career next steps, career choices, and insights into working in the industry. For more information about the Student Mentorship Program contact [supporters@ieeevis.org](supporters@ieeevis.org).
+
 
 ### Contact
 
