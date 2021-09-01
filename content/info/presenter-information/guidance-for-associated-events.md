@@ -7,13 +7,12 @@ active_nav: "Contribute"
 contact: tech@ieeevis.org
 ---
  
-
 ## Scheduling your Event
 
 Please fill out information for your event following the
 [templates provided](https://docs.google.com/spreadsheets/d/1ZAkXGlEoV-kynAfYJ4zjlewGtH_oTd8F3nlG7sibgys/edit?usp=sharing).
 The tech committee will reach out to the organizers of each event to collect this information.
-All times should be in 24-hour format in the Mountain Time zone, and formatted as HHMM (H: hour, M: minute).
+All times should be in 24-hour format in the US Central Time zone, and formatted as HHMM (H: hour, M: minute).
 If you do not have the specific presentations set for each Time Slot, please provide the schedule and
 Time Slots for the event so that we can begin setting things up. We can fill in the videos and speaker
 information for the Time Slots when they are ready, but the sooner this information
@@ -31,7 +30,6 @@ For each Session we also need:
 - The number of Contributors (including the Session Chair) who will be in the Zoom call and their contact information (names and emails)
   - One presenter from each submission is required to attend the Q&A and, for a better watching experience, IEEE Visualization recommends only one person from each submission be present during Q&A.
 
-
 Note that Attendees do not count toward the number of Contributors, as they view the embedded stream and use embedded chat using sli.do on the conference web pages.
 
 For each presentation (live or recorded) in a Time Slot we need:
@@ -45,7 +43,7 @@ For each presentation (live or recorded) in a Time Slot we need:
   - At the end of a group of talks
   - Concurrent with the talks (i.e., people interrupt a tutorial with questions)
 
-All recorded presentations will be submitted as discussed in the [Information Guide for Contributors](/year/2020/info/presenter-information/talk-recording-guide).
+All recorded presentations will be submitted as discussed in the [Information Guide for Contributors](/year/2021/info/presenter-information/talk-recording-guide).
 
 For questions or more information, please email tech@ieeevis.org.
 
