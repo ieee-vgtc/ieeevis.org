@@ -16,6 +16,7 @@ This year, there will be a few virtual meetup events:
 * [VisBuddies Virtual Meetup](#visbuddies)
 * [Job Flyer Online Posting](#job-flyers)
 * [Job-Fair Virtual Meetup](#ajf)
+* [Student Mentorship Program](#smp)
 
 
 ### <a name="visbuddies"></a>VisBuddies Virtual Meetup
@@ -41,6 +42,11 @@ Links to Job Posting sites on the Virtual VIS website and on IEEEVIS.org are for
 
 ### <a name="ajf"></a>VIS Virtual Job Fair Meetup
 We will collect the job postings and publicly share them online. For potential employers, please fill out the online form in the forthcoming VIS registration to create a job posting. In this form, we also ask whether you would like to participate in the job fair virtual meetup described below.
+
+
+### <a name="smp"></a>Student Mentorship Program
+<!--**Thursday, 29 October 2020, 13:40:00 Mountain Time**-->
+(Coming soon!) Students are invited to participate in a one-hour session during which they may ask questions and advice from industry experts. This is your opportunity to get expert advice on career next steps, career choices, and insights into working in the industry. For more information about the Student Mentorship Program contact [supporters@ieeevis.org](supporters@ieeevis.org).
 
 
 ### Contact
