@@ -11,156 +11,37 @@ Our goals in Community are organizing activities at IEEE VIS conference that con
 
 The Community activities are open to all registered IEEE VIS participants, regardless of seniority and affiliation. The activities are organized by the IEEE VIS Community Chairs, who can be reached at [community@ieeevis.org](community@ieeevis.org).
 
-This year, there will be a few virtual meetup events, as follows. 
+This year, there will be a few virtual meetup events:
 
-<!--
-To register or participate in these Community events, please see the corresponding details below.
-* [Tips and Tricks for Attending VIS for your First Time](#tips)
-* [Years in Attendance and Badge Bling](#years)
-* [Job Flyer Posting](#job-flyers)
-* [Vis Buddies and VIS Newcomers Meetup](#visbuddies)
-* [Asynchronous Job Fair and Job-Fair Meetup](#ajf)
-* [Other community-building events in VIS that we are aware of (tell us of yours!)](#other-events)
--->
 * [VisBuddies Virtual Meetup](#visbuddies)
 * [Job Flyer Online Posting](#job-flyers)
 * [Job-Fair Virtual Meetup](#ajf)
 
-<!-- 
-### <a name="tips"></a> Tips and Tricks for Attending VIS for your First Time 
--->
 
-<!-- 
-If this is your first time attending VIS, welcome! We have collected
-[some advice from those of us who regularly attend VIS that might be
-helpful to you](https://docs.google.com/document/d/1ot7JHpXcfOMYZuUw0fl4_PghImxHogCrGgPm61CBMx4/edit?usp=sharing).
-Furthermore, please consider signing up for Vis Buddies (see below)
-and blinging up your badge with a first-time attendee sticker to strike
-up conversations with your fellow attendees. 
--->
-
-<!-- 
-### <a name="years"></a> Years in Attendance and Badge Bling
--->
-
-<!-- 
-To spark discussion and connection, we will be providing stickers that allow
-you to display how many years you've been at VIS, whether it's your 1st, 2nd,
-or 10th or more time to VIS. We will also be providing "bling" to be able to spruce
-up your badge, along with your year in attendance sticker. These stickers will be 
-located near the registration desk, along with the job fair ribbons and a tray to 
-collect CVs/resumes for job hunters.
--->
-
-
-<!-- ### <a name="visbuddies"></a>Vis Buddies -->
 ### <a name="visbuddies"></a>VisBuddies Virtual Meetup
 <!-- **Tuesday, 27 October 2020, 13:40:00 Mountain Time** -->
 
-VisBuddies brings together new and returning VIS attendees with similar interests. For newcomers, this is a chance to meet experienced researchers in the field. For returning attendees, it is a chance to meet fresh talent joining VIS for the first time. You can volunteer for VisBuddies on the registration form (the latest a week prior to VIS). Based on your declared interests in the registration form, we will match pairs or small groups of attendees with different levels of VIS experience, and contact the groups via email prior to VIS. 
+VisBuddies brings together new and returning VIS attendees with similar interests. For *newcomers*, this is a chance to meet experienced researchers in the field. For *returning attendees*, it is a chance to meet new members joining VIS and welcome them into our community. 
 
-Suggested Buddies activities include:
-
-<!-- (TODO [VIS Newcomers Meetup](/year/2019/info/meetups#vis-newcomers)) -->
-<!-- 
-* Attend the VIS Newcomers Meetup together (highly recommended)
-* Have lunch, dinner, coffee, etc. with your Buddies at least once
--->
-* Introduce your colleagues to your Buddies
+Suggested VisBuddies activities include:
+* Build connections between experienced researchers and new members of the VIS community
 * Discuss interesting sessions to attend
-* Ask questions to experiened researchers
 * Share tips on successful research
-<!-- (TODO [VIS Newcomers Meetup](/year/2019/info/meetups#vis-newcomers)) -->
-<!--
-Vis Buddies is in conjunction with the Newcomers Meetup VIS Newcomers Meetup. After the Meetup, we will help you connect with your buddies (if you have not done so already). 
--->
+
+Date/time: TBD
+To sign up, please fill out this brief form: https://forms.gle/v7h6W1uKnnhaF31aA
 
 ### <a name="job-flyers"></a>Job Flyer Posting
 
-<!-- 
-We will pin up and post job, post-doc, staff, etc. flyers to the corkboard 
-near registration if you are unable to attend VISWeek in person. Send your 
-flyers to [community@ieeevis.org](mailto:community@ieeevis.org) as a PDF. 
-*The deadline to recieve these is a week prior to VIS, otherwise we cannot 
-guarantee that it will be posted to the corkboard by the first day of VIS.*
--->
+Do you have a job you are seeking to fill? If so, please complete this online form and we will include your posting on the Virtual VIS website and on IEEEVIS.org (optional).  You can also use this form sign up to host a “table” at the Virtual Job Fair.
 
-<!-- 
-Additionally, the reverse side of the corkboard/poster will be available
-for job seekers to publically post your CV, resume, and/or contact information.
-In case you do not want your CV publically visible, there will be a drop off
-tray for CVs near registration, which will be collected and shared with Supporters
-after VISWeek.
---> 
-(Coming soon!) We will collect the job postings and publicly share them online<!--[here](https://sites.google.com/view/vis-2020-job-postings/home)-->. For potential employers, please fill out the online form in the forthcoming VIS registration<!--, or [here](https://sites.google.com/view/vis-2020-job-postings/submit-job-posting)--> to create a job posting. In this form, we also ask whether you would like to participate in the job fair virtual meetup described below. 
+Job posting form: https://forms.gle/KTiifBygPcBnJudF8
 
-<!--
-### <a name="ajf"></a>Asynchronous Job Fair
--->
-### <a name="ajf"></a>Job-Fair Virtual Meetup
-<!--**Thursday, 29 October 2020, 13:40:00 Mountain Time**-->
+Links to Job Posting sites on the Virtual VIS website and on IEEEVIS.org are forthcoming.
 
-<!--
-This year, we will be having our third *Asynchronous Job Fair* (AJF) at VIS
-2020! The purpose of the *AJF* is to help connect job seekers and researchers
-with employers, staff, and faculty over the course of VIS. This includes all
-types of job opportunities: staff, industry positions, software engineers,
-faculty, post-docs, etc. and all types of job seekers from students to
-practitioners. 
--->
-<!-- (TODO [Job-Fair Meetup](/year/2019/info/meetups#...)) -->
-<!--
-The AJF will be continuously held throughout VISWeek concurrently with other 
-activities, in addition to the Job-Fair Meetup. 
--->
+### <a name="ajf"></a>VIS Virtual Job Fair Meetup
+We will collect the job postings and publicly share them online. For potential employers, please fill out the online form in the forthcoming VIS registration to create a job posting. In this form, we also ask whether you would like to participate in the job fair virtual meetup described below.
 
-<!--
-The primary activities include: 
--->
-
-<!--
-- "I’m job hunting!" and "I’m hiring!" badge ribbons available to all attendees. 
-By wearing a ribbon, you will be able to find other VIS attendees that are
-participating in the *AJF*. These will be located at the registration table. 
-- *We strongly suggest carrying either a curriculum vitae (CV), resume, 
-business card, or note cards with links, such as LinkedIn or online CVs, to 
-help facilitate information exchange during VIS.* 
--->
-<!--
-- A Job-Fair Meetup to be held tentatively held in addition to other job events. 
--->
-(Coming soon!) This is a virtual "speed-dating" meetup for both job seekers and employers to *quickly* identify people in the community that are looking for jobs or new hires, exchange information, and potentially meet at a later date. Potential job seekers can sign up for this meetup online<!--[here](https://sites.google.com/view/vis-2020-job-postings/job-fair-meetup)-->. <!--For more details, please visit our job postings website [here](https://sites.google.com/view/vis-2021-job-postings/home).-->
-
-<!--
-VIS Supporters will have the CVs of attendees that provide it during VIS registration.
--->
-<!-- (TODO [Job-Fair Meetup](/year/2019/info/meetups#...)) -->
-<!-- 
-- CVs will be distributed to [Supporters]({{ '/info/exhibition/supporters-and-exhibition' | relative_url }}) prior to VIS, to help make connections during VIS, by sharing your information and CVs with the supporters. During online registration you will be able to upload your CV and interests. If you did not upload your CV during online registration, we will have a collection tray near the *AJF* ribbons at the live registration desk,
-and they will be distributed to Supporters after VIS. 
-- We will pin up and post job, post-doc, staff, etc. flyers to the VIS 
-corkboard if you are unable to attend VIS in person. Send your opportunity 
-flyer to [community@ieeevis.org](mailto:community@ieeevis.org) as a PDF. 
-The deadline for these is a week prior to VIS, otherwise we cannot guarantee 
-that it will be posted to the corkboard by the first day of VIS. 
-- Additionally, the reverse side of the corkboard/poster will be available
-for job seekers to publically post your CV, resume, and/or contact information.
-In case you do not want your CV publically visible, there will be a drop off
-tray for CVs near registration, which will be collected and shared with Supporters
-after VISWeek.
--->
-
-<!-- 
-Please use the *AJF* as an opportunity to strike up a conversation with
-your fellow VIS attendees, even if you are not actively seeking employment or
-staff!
--->
-
-<!-- 
-### <a name="other-events"></a> Other community-building events in VIS that we are aware of (tell us of yours!)
-* Many excellent [Meetups]({{ 'info/call-participation/meetups' | relative_url }}) this year related to diversity in VIS, as well as career advice.
--->
-<!-- (TODO Add more -->
 
 ### Contact
 
