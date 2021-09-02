@@ -6,6 +6,10 @@ permalink: /info/presenter-information/guidance-for-associated-events
 active_nav: "Contribute"
 contact: tech@ieeevis.org
 ---
+
+## Event Organizer Information
+
+This page provides information to organizers of associated events, workshops, tutorials, application spotlights, and other events about how to provide information about the schedule of their event to the technical committee.
  
 ## Scheduling your Event
 

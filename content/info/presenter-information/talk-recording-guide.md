@@ -7,6 +7,10 @@ active_nav: "Contribute"
 contact: tech@ieeevis.org
 ---
 
+## Presenter Information
+
+This page provides information to presenters at IEEE VIS about how to prepare your recorded talk.
+
 Please **read the following instructions carefully** for guidelines on preparing your video recordings for VIS 2021, or a VIS 2021 associated event.  You will need the following information in order to prepare your recorded **Presentation Videos** as well as your **Video Preview** if required.
 
 Work must be submitted via IEEE CPS by 5:00pm Pacific Time (PDT) on the dates listed below.
