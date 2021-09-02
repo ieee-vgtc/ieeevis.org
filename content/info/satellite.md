@@ -19,7 +19,10 @@ Chairs: Anders Ynnerman, Ingrid Hotz, Andreas Kerren, and Alexander Bock
 
 ## Melbourne, Australia
 **Monash University**<br>
+
 Chairs: Tim Dwyer, Sarah Goodwin, Michael Wybrow, Barrett Ens, Lonni Besancon, and Maxime Cordeil
+
+<a class="button" href="https://docs.google.com/document/d/e/2PACX-1vTJAGjKxA1GNb7bzanq3G1mALT9v2nr-rRHBkwl4AkmYtmEUHwBnsHySO-pHn-dWUnMogz6UZk2IykN/pub">More Information</a>
 
 ## Pittsburgh, PA, USA
 **Carnegie Mellon University and University of Pittsburgh**<br>
