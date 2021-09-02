@@ -154,6 +154,7 @@ menu:
                   - text: "Elections"
                     description: "Register to vote and nominate/review candidates for the VSC/VEC"
                     url: "/year/2021/info/elections"
+                    is_new: true
                 # - text: "Become an organizer"
                 #   description: "TK TK TK Join the committees and help organize VIS"
                 #   url: "https://www.google.com"
