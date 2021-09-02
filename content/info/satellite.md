@@ -13,9 +13,11 @@ Chairs: Fabio Miranda and Victor A. Mateevitsi
 **IT University of Copenhagen**<br>
 Chair: Søren Knudsen
 
-## Linköping, Sweden
+## Norrköping, Sweden
 **Linköping University**<br>
-Chairs: Anders Ynnerman, Ingrid Hotz, Andreas Kerren, and Alexander Bock
+Chairs: Alexander Bock, Ingrid Hotz, Andreas Kerren, Miriah Meyer, and Anders Ynnerman 
+
+<a class="button" href="https://swevis2021.github.io">More Information</a>
 
 ## Melbourne, Australia
 **Monash University**<br>
