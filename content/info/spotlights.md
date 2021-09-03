@@ -155,12 +155,14 @@ Contact: [evan.savage@nrel.gov](mailto:evan.savage@nrel.gov)
 The energy sector faces many deep uncertainties about the future, including climate change, growth in energy demand and technologic capabilities, and cybersecurity. Deep uncertainty is characterized by a level of uncertainty where we do not know how to model a system or how to value the desirability of outcomes. Methodologies exist to evaluate the level of uncertainty in a problem, and to help reason on risk and decisions; however, traditional making and visualization techniques may not be applicable when facing deeply uncertain problems. In this application spotlight, we will provide an overview of deep uncertainty and the unique challenges it poses, the need for decision making under deep uncertainty (DMDU) methodologies, followed by several lightning talk topics. Our speakers will discuss the challenge of visualizing deep uncertainty, deep uncertainty in power sector resilience planning and how to visualize alternatives across a wide range of possible futures, and specific visual analytic tools relevant to deep uncertainty planning. We will finish with a half hour moderated discussion where audience participation is encouraged.
 
 ### Schedule
+
 ### Speakers
-| Speakers | Topic | Length of Talk|
+
+| Speakers | Topic | Length of Talk |
 |---|---|---|
-| Steven Popper | Overview of Deep Uncertainty | 20 mins 
+| Steven Popper | Overview of Deep Uncertainty | 20 mins |
 | Kristi Potter | Challenges to Visualization with Deep Uncertainty | 15 mins |
-| Nathan Lee | Power Sector Resilience: Planning for a Deeply Uncertain Future | 15 mins|
+| Nathan Lee | Power Sector Resilience: Planning for a Deeply Uncertain Future | 15 mins |
 | David Gold | Visual analytics as a tool for decision making under deep uncertainty: an exploration of adaptation, vulnerability and robustness | 15 mins |
 | Moderated by Robert Lempert | Guided discussion: planned set of questions and audience discussion | 40 mins |
 
