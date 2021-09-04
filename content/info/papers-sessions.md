@@ -253,7 +253,7 @@ Authors: Yunhai Wang, Da Cheng, Zhirui Wang, Jian Zhang, Liang Zhou, Gaoqi He, O
 Authors: Rebecca Kehlbeck, Jochen Görtler, Yunhai Wang, Oliver Deussen
 
 **Scope2Screen: Focus+Context Techniques for Pathology Tumor Assessment in Multivariate Image Data**  
-Authors: Jared Jessup, Robert Krüger, Simon Warchol, John Hoffer, Jeremy Muhlich, Cecily C. Ritch, Giorgio Gaglia, Shannon Coy, Yu-An Chen, Jia-Ren Lin, Sandro Santagata, Peter Sorger
+Authors: Jared Jessup, Robert Krüger, Simon Warchol, John Hoffer, Jeremy Muhlich, Cecily C. Ritch, Giorgio Gaglia, Shannon Coy, Yu-An Chen, Jia-Ren Lin, Sandro Santagata, Peter Sorger, Hanspeter Pfister
 
 **GlyphCreator: Towards Automatic Generation of Example-based Circular Glyphs**  
 Authors: Lu Ying, Tan Tang, Yuzhe Luo, Lvkesheng Shen, Xiao Xie, Lingyun Yu, Yingcai Wu
