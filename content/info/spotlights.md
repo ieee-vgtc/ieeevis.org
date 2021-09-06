@@ -149,7 +149,7 @@ When: TBD
 
 Evan Savage, *National Renewable Energy Laboratory, United States*
 
-Contact: [evan.savage@nrel.gov](mailto:evan.savage@nrel.gov)
+Contact: [savagee@stanford.edu](mailto:savagee@stanford.edu)
 
 ### Summary
 The energy sector faces many deep uncertainties about the future, including climate change, growth in energy demand and technologic capabilities, and cybersecurity. Deep uncertainty is characterized by a level of uncertainty where we do not know how to model a system or how to value the desirability of outcomes. Methodologies exist to evaluate the level of uncertainty in a problem, and to help reason on risk and decisions; however, traditional making and visualization techniques may not be applicable when facing deeply uncertain problems. In this application spotlight, we will provide an overview of deep uncertainty and the unique challenges it poses, the need for decision making under deep uncertainty (DMDU) methodologies, followed by several lightning talk topics. Our speakers will discuss the challenge of visualizing deep uncertainty, deep uncertainty in power sector resilience planning and how to visualize alternatives across a wide range of possible futures, and specific visual analytic tools relevant to deep uncertainty planning. We will finish with a half hour moderated discussion where audience participation is encouraged.
