@@ -79,8 +79,8 @@ For more details and announcements, visit this link: [https://fairpayvis2021.git
 
 <!-- Friday, October 30: 10:00am-11:30am MDT -->
 
-Organizers: Arvind Satyanarayan (MIT CSAIL)
-<br>Panelists: Danielle Szafir (CU Boulder), Crystal Lee (MIT CSAIL), Alan Lundgard (MIT CSAIL), Keke Wu (CU Boulder)
+Organizers: Arvind Satyanarayan (MIT CSAIL), Danielle Szafir (UNC Chapel Hill), Crystal Lee (MIT CSAIL), Alan Lundgard (MIT CSAIL), Keke Wu (CU Boulder)
+<br>Panelists: Cynthia Bennett (CMU and Apple), Lilian de Greef (Apple), Chancey Fleet (New York Public Library), Zoe Gross (Autistic Self Advocacy Network), Ariel Schwartz (MGH Institute of Health Professions), Rua Williams (Purdue University)
 
 <!-- <br>[Video Preview](https://youtu.be/4Ci7KoLzFZ4) -->
 
