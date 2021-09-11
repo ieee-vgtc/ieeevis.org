@@ -400,7 +400,7 @@ Authors: Michail Schwab, David Saffo, Nicholas Bond, Shash Sinha, Cody Dunne, Je
 **Net2Vis - A Visual Grammar for Automatically Generating Publication-Tailored CNN Architecture Visualizations**  
 Authors: Alex Bäuerle, Christian van Onzenoodt, Timo Ropinski
 
-**ask-Based Effectiveness of Interactive Contiguous Area Cartograms**  
+**Task-Based Effectiveness of Interactive Contiguous Area Cartograms**  
 Authors: Ian K. Duncan, Shi Tingsheng, Simon T. Perrault, Michael T. Gastner
 
 **DimLift: Interactive Hierarchical Data Exploration through Dimensional Bundling**  
