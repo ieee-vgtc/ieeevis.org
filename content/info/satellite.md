@@ -12,6 +12,7 @@ Chairs: Fabio Miranda and Victor A. Mateevitsi
 ## Copenhagen, Denmark
 **IT University of Copenhagen**<br>
 Chair: Søren Knudsen
+<a class="button" href="http://vis21cph.itu.dk/">More Information</a>
 
 ## Norrköping, Sweden
 **Linköping University**<br>
