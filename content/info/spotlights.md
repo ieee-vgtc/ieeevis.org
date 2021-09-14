@@ -7,36 +7,15 @@ contact: spotlights@ieeevis.org
 
 # Accepted Application Spotlights
 Below you will find the list of the accepted Spotlights. If you have any questions about any of the spotlight sessions, please contact the organizers listed below directly.
- 
-* [Uncertainty-aware visual analytics in applications - Towards a systematic approach](#spot1)
 * [In Situ Inference: Advanced Data Science for Space Weather Modeling](#spot2)
 * [Bridging Visualization with Radiation Oncology](#spot3)
 * [Challenges for Visualization in Immersive Planetarium Domes](#spot4)
+* [Uncertainty-aware visual analytics in applications - Towards a systematic approach](#spot1)
 * [Visualization Challenges in Deep Uncertainty](#spot5)
 <hr/>
 
-## <a name="spot1"></a> Uncertainty-aware visual analytics in applications - Towards a systematic approach
-When: TBD
-
-### Organizers
-Christina Gillmann, *Leipzig University, Germany*
-Petra Gospodnetic, *Fraunhofer ITWM, Kaiserslautern, Germany*
-Karsten Rink, *Helmholtz-Centre for Environmental Research, Leipzig, Germany*
-
-Contact: [gillmann@informatik.uni-leipzig.de](mailto:gillmann@informatik.uni-leipzig.de)
-
-### Summary
-
-Visual analytics has been demonstrated to be a powerful tool in a variety of applications. However, the analysis process itself is affected by a variety of uncertainties, such as uncertainty arising from data or computational models. On top of this processing uncertainty, human-computer-interaction introduces yet another type of uncertainty. Any of these uncertainties may influence the decision-making process, especially if they are not known to the user.
-Although this problem is quite known, there does not exist a standard workflow that assists in examining and analyzing uncertainties in visual analytics cycles. This may be due to a variety of challenges. On the one hand, visual analytics and the incorporation of uncertainties are not fully understood yet. Especially when considering choices made by humans, the resulting uncertainty is hard to quantify and determine. On the other hand, applications are manifold and each of them introduces specific requirements for the visual analytics process, thus making the standardization difficult.
-In this application spotlight, we aim to shed light on the uncertainty-aware visual analytics and provide three different application fields showing where uncertainties arise and how they influence the decision-making process. The spotlight is intended to identify common workflows in all shown applications and foster discussions on how to provide a unified approach to handle uncertainty in visual analytics approaches.
-
-### Schedule
-TBA
-
-
 ## <a name="spot2"></a>In Situ Inference: Advanced Data Science for Space Weather Modeling
-When: TBD
+When: Wednesday (October 27th, 2021) 11:50-1:20 pm
 
 ### Organizers
 
@@ -79,10 +58,11 @@ Statistical Analysis - Natalie Klein (10 min)
 Conclusion - Ayan Biswas (10 mins)
 Q & A (20 mins)
 
+***
 
 ## <a name="spot3"></a>Bridging Visualization with Radiation Oncology
 
-When: TBD
+When: Thursday (October 29th, 2021) 8:00-9:30 am
 
 ### Organizers
 Renata G. Raidou, *TU Wien, Austria*
@@ -122,9 +102,11 @@ The structure of our spotlight will include talks from vis and RO specialists, a
 #### Talk 4: *Multi-parametric imaging for tumor characterization and target delineation*
 *Uulke van der Heide* (Netherlands Cancer Institute, the Netherlands): Uulke van der Heide received his training as medical physicist at the department of radiotherapy of the University Medical Center in Utrecht, the Netherlands and worked there as a medical physicist until 2011. He now works as a medical physicist and group leader at the Netherlands Cancer Institute in Amsterdam, the Netherlands. He holds a chair as professor of imaging in radiotherapy at the Leiden University Medical Center. He participates as teacher and course director in the ESTRO school. His research group works on the improvement of target definition in radiotherapy by application of MRI and the development and validation of quantitative imaging methods for tumor characterization for radiotherapy dose painting. He further leads the MR-guided radiotherapy program at the Netherlands Cancer Institute.
 
+***
+
 ## <a name="spot4"></a>Challenges for Visualization in Immersive Planetarium Domes
 
-When: TBD
+When: Thursday (October 28th, 2021) 9:55-11:25 am
 
 ### Organizers
 
@@ -141,9 +123,32 @@ This application spotlight will feature speakers with experience from the visual
 ### Schedule
 TBA
 
+***
+
+## <a name="spot1"></a> Uncertainty-aware visual analytics in applications - Towards a systematic approach
+When: Friday (October 29th, 2021) 8:00-9:30 am
+
+### Organizers
+Christina Gillmann, *Leipzig University, Germany*
+Petra Gospodnetic, *Fraunhofer ITWM, Kaiserslautern, Germany*
+Karsten Rink, *Helmholtz-Centre for Environmental Research, Leipzig, Germany*
+
+Contact: [gillmann@informatik.uni-leipzig.de](mailto:gillmann@informatik.uni-leipzig.de)
+
+### Summary
+
+Visual analytics has been demonstrated to be a powerful tool in a variety of applications. However, the analysis process itself is affected by a variety of uncertainties, such as uncertainty arising from data or computational models. On top of this processing uncertainty, human-computer-interaction introduces yet another type of uncertainty. Any of these uncertainties may influence the decision-making process, especially if they are not known to the user.
+Although this problem is quite known, there does not exist a standard workflow that assists in examining and analyzing uncertainties in visual analytics cycles. This may be due to a variety of challenges. On the one hand, visual analytics and the incorporation of uncertainties are not fully understood yet. Especially when considering choices made by humans, the resulting uncertainty is hard to quantify and determine. On the other hand, applications are manifold and each of them introduces specific requirements for the visual analytics process, thus making the standardization difficult.
+In this application spotlight, we aim to shed light on the uncertainty-aware visual analytics and provide three different application fields showing where uncertainties arise and how they influence the decision-making process. The spotlight is intended to identify common workflows in all shown applications and foster discussions on how to provide a unified approach to handle uncertainty in visual analytics approaches.
+
+### Schedule
+TBA
+
+***
+
 ## <a name="spot5"></a>Visualization Challenges in Deep Uncertainty
 
-When: TBD
+When: Friday (October 29th, 2021) 9:55-11:25 am
 
 ### Organizer
 
