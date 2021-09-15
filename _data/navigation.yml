@@ -401,7 +401,7 @@ menu:
                     description: ""
                     url: "/"
                   - text: "How to Host IEEE VIS"
-                    description: "Guidelines to bid for a future location of IEEE VIS (coming soon)"
+                    description: "Guidelines to bid for a future location of IEEE VIS"
                     url: "/governance/bids"
                   - text: "Being General Chair of IEEE VIS"
                     url: "/governance/generalChairs"
