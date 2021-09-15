@@ -29,8 +29,8 @@ Committee: Brian Fisher, Shixia Liu, Catherine Plaisant (chair), Jonathan Robert
 ## InfoVis
 <b>2001: <br>
 Ordered Treemap Layouts.<br>
-Ben Shneiderman & Martin Wattenberg </b><br>
-DOI: [10.1109/INFVIS.2000.885086](https://doi.org/10.1109/INFVIS.2000.885086)
+Ben Shneiderman & Martin Wattenberg. </b><br>
+DOI: [10.1109/INFVIS.2001.963283](https://doi.org/10.1109/INFVIS.2001.963283)
 
 <b>_followup journal paper_<br>
 Ordered and Quantum Treemaps: Making effective use of 2D space to display hierarchies.<br>
@@ -53,13 +53,13 @@ Committee: Tamara Munzner (chair), Tim Dwyer, Melanie Tory
 ## SciVis
 
 <b>1996: <br>
-The Design and Implementation of an Object-Oriented Toolkit for 3D Graphics and Visualization<br>
-William J. Schroeder, Kenneth M. Martin, William E. Lorensen</b><br>
+The Design and Implementation of an Object-Oriented Toolkit for 3D Graphics and Visualization.<br>
+William J. Schroeder, Kenneth M. Martin, William E. Lorensen.</b><br>
 DOI: [10.1109/VISUAL.1996.567752]( https://doi.org/10.1109/VISUAL.1996.567752)
 
-followup book
-The Visualization Toolkit: an Object-Oriented Approach to 3D Graphics.
-Will Schroeder, Ken Martin, Bill Lorensen.
+<b>_followup book_<br>
+The Visualization Toolkit: an Object-Oriented Approach to 3D Graphics.<br>
+Will Schroeder, Ken Martin, Bill Lorensen.</b><br>
 ISBN: 978-1930934191
 
 This work describes the design and inspiration for a system that has become an open source foundation for visualization work worldwide. The Visualization Toolkit, VTK, is so pervasive it has passed into visualization folklore. This paper and the subsequent VTK user’s guide serve as the principal references for this work, receiving thousands of citations, with over a thousand citations combined in the past five years. VTK has become part of our oxygen, so much so that the toolkit may be underrepresented in an analysis of citations alone. Among systems papers, this paper stands out as an example of work that shifted our field and anchored the open and transparent nature of our science.
