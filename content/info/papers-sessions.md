@@ -1,5 +1,5 @@
 ---
-title: Papers Sessions
+title: Papers
 layout: page
 active_nav: "Program"
 permalink: /info/papers-sessions
