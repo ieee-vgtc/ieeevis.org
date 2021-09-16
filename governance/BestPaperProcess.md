@@ -14,36 +14,20 @@ From 2021, as a unified conference, IEEE VIS will have two tiers of awards for f
 * **Best paper award:** papers with a best paper award represent the top 1% of papers submitted to IEEE VIS in a given year
 * **Honorable mention award:** papers with an honorable mention award are in the top 5% of papers submitted to IEEE VIS in a given year
 
+## Best Paper Process for years prior to VIS 2021 
+The process of best paper selection in the most recent years prior to VIS 2021 involved the paper chairs of each individual conference (VAST, InfoVis, SciVis) selecting a shortlist of 5-10 papers. The paper chairs then nominated a best paper committee that was unconflicted with the selected papers and approved by each individual steering committee. The shortlist was sent to the best paper committee to select a best paper and a small number of typically 1-3 honorable mention award papers.
+
+In the very early years of the conference the best paper process was handled even differently. Sometimes there was an audience vote, sometimes a paper chair selection. In addition, the Vis conference used to have a case study paper category and gave out best case study paper awards as well. A documentation of this process has not been shared so the above information is based on the memory of some of our most senior community members. 
+
+## Best Paper Process for VIS 2021 Onwards
+
 ### Candidate Selection
-**During Review:**
-For each assigned paper, each program committee member gives a 5-point rating to indicate to which degree the paper deserves a paper award. 
-They also write a best paper award recommendation in case of a high rating. In addition, the reviewers assigned to a paper discuss whether the paper deserves an award. 
-The discussion is documented by the primaries on their review form.
-
-**After Review:**
-Area paper chairs create a short list of up to the ceiling of 5% of all papers from their area to avoid potential issues with discretization. 
-For example, an area with 50 submissions should nominate 3 papers maximum (the ceiling of 0.05*50 papers). These papers should be selected from the clear accept category. 
-
-The overall paper chairs are responsible for selecting the final short list such that the final list contains a maximum of 5% of all papers submitted to the conference. 
-The overall paper chairs choose which papers to exclude in case the sum of all suggestions from the area paper chairs exceeds 5% of all submitted papers. 
-Paper pdfs and review metadata for papers on the short list will be handed to a best paper committee that selects the best papers from the list. 
-All papers not chosen from the final shortlist made by the overall paper chairs will become honorable mention papers. 
+Candidates from each area are nominated by the area paper chairs based on recommendations of program committee members and reviewers. The overall paper chairs are responsible for nominating a best paper committee and sending a final short list to this committee for selection. 
 
 ### Best Paper Award Committee
-After the candidate list has been established, the overall paper chairs propose a best paper committee. 
-Members of the committee cannot have a paper in the top 5% list. 
-The committee has at least 5 members and is approved by the Visualization Executive Committee (VEC). 
-The committee should be broad enough in expertise to represent the IEEE VIS areas and should as much as possible represent a mix of academic lineage and demographics. 
-Committee members should have a record of serving on the IEEE VIS PC or related conferences. 
-It is recommended that the committee includes at least one past paper chair, past award winner, and past best paper committee member. 
+After the candidate list has been established, the overall paper chairs propose a best paper committee. Members of the committee cannot have a paper in the top 5% list. The committee has at least 5 members and is approved by the Visualization Executive Committee (VEC). The committee should be broad enough in expertise to represent the IEEE VIS areas and should as much as possible represent a mix of academic lineage and demographics. Committee members should have a record of serving on the IEEE VIS PC or related conferences. 
 
 ### Best Paper Committee Decision Making Process
-The committee receives the shortlisted papers with paper metadata including: anonymized reviews, best paper nomination scores, summary of changes, revised paper, and 
-best paper discussion text. The main task of the committee is to select the best papers from the shortlist. The remaining papers from the shortlist will receive an honorable 
-mention award. The overall number of best paper awards cannot exceed 1% of all papers submitted to the conference.
+The committee receives the shortlisted papers with paper metadata including: anonymized reviews, best paper nomination scores, summary of changes, revised paper, and best paper discussion text. The main task of the committee is to select the best papers from the shortlist. The remaining papers from the shortlist will receive an honorable mention award. The overall number of best paper awards cannot exceed 1% of all papers submitted to the conference.
+The reviewing process typically involves the following steps: (1) narrowing down choices for best papers by nomination scores and review scores as well as the summarized best paper nomination discussions; then (2) completing a more in-depth review of the remaining materials to choose the final set of best papers. 3) Reading papers that are in the final candidate list for the best paper award. 
 
-The committee is free to choose their own decision making mechanisms. The IEEE Visualization Steering Committee recommends to 
-(1) narrow down choices for best papers by nomination scores and review scores as well as the summarized best paper nomination discussions; then 
-(2) complete a more in-depth review of the remaining materials to choose the final set of best papers. 
-We do not expect the committee to re-review papers but in cases where the above information does not lead to a clear decision, 
-the submissions can be read to make their own judgement.
