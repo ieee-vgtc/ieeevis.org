@@ -26,32 +26,59 @@ SciVis currently considers 15 and 25 years prior to the current conference.
 Authors: Christopher Collins, Fernanda B. Viegas, and Martin Wattenberg <br>
 <a href="https://doi.org/10.1109/VAST.2009.5333443">https://doi.org/10.1109/VAST.2009.5333443</a><br>
 
-Do court cases differ from place to place? What kind of picture do we get by looking at a country's collection of law cases? We introduce parallel tag clouds: a new way to visualize differences amongst facets of very large metadata-rich text corpora. We have pointed parallel tag clouds at a collection of over 600,000 US Circuit Court decisions spanning a period of 50 years and have discovered regional as well as linguistic differences between courts. The visualization technique combines graphical elements from parallel coordinates and traditional tag clouds to provide rich overviews of a document collection while acting as an entry point for exploration of individual texts. We augment basic parallel tag clouds with a details-in-context display and an option to visualize changes over a second facet of the data, such as time. We also address text mining challenges such as selecting the best words to visualize, and how to do so in reasonable time periods to maintain interactivity.
+In this 2009 VAST paper, co-authors Christopher Collins, Fernanda B. Viegas, and Martin Wattenberg investigated such a problem and presented a new visualization technique called Parallel Tag Clouds, successfully visualizing both terms and facets relationships.
+
+This elegant solution has influenced many subsequent research activities and applications dealing with this problem, as demonstrated by the overall number and the increasing trend of citations in the last ten years and by the different research and application fields that today still refer to this 2009 proposal, like applications in the domain of Financial Engineering, Data Management, or Multimedia Management and Retrieval.
+
+Committee: Giuseppe Santucci (chair), Remco Chang, Brian Fisher
 
 ## InfoVis 
 **1999: Cluster and calendar based visualization of time series data**  
 Authors: J.J. Van Wijk, E.R. Van Selow <br>
 <a href="https://doi.org/10.1109/INFVIS.1999.801851">https://doi.org/10.1109/INFVIS.1999.801851</a><br>
 
-A new method is presented to get an insight into univariate time series data. The problem addressed is how to identify patterns and trends on multiple time scales (days, weeks, seasons) simultaneously. The solution presented is to cluster similar daily data patterns, and to visualize the average patterns as graphs and the corresponding days on a calendar. This presentation provides a quick insight into both standard and exceptional patterns. Furthermore, it is well suited to interactive exploration. Two applications, numbers of employees present and energy consumption, are presented.
+Cluster and calendar based visualization of time series data combines time-series cluster analysis with a novel calendar-based visualization scheme to aid the analysis of univariate time-series data. The work’s contributions lie both in its principled combination of data mining and visualization methods, motivated by a real-world domain problem — thus serving as an example for what would become the discipline of visual analytics — and in its contribution of a straightforward and effective calendar visualization scheme that has been adopted by subsequent visualization tools.
+
+The premise of breaking down time-series data into clusters and visualizing those is important and influential, and represents one of the earliest combinations of cluster analysis and visualization. The InfoVis and VAST communities continue to make use of this approach as it can be effective for turning an overwhelming amount of data into digestible chunks.
+
+The paper also includes an interesting and formative redesign process from a 3D representation to a more informative 2D one. The energy conservation application provides a compelling motivation and real-world grounding for the technique contributions. Overall, this work serves as an early exemplar of research that integrates theory/formalism and design/practice.
+
+Committee: Jeff Heer, Fernanda Viegas, Niklas Elmqvist 
 
 **2009: A Nested Model for Visualization Design and Validation**  
 Authors: Tamara Munzner <br>
 <a href="https://doi.org/10.1109/TVCG.2009.111">https://doi.org/10.1109/TVCG.2009.111</a><br>
 
-We present a nested model for the visualization design and validation with four layers: characterize the task and data in the vocabulary of the problem domain, abstract into operations and data types, design visual encoding and interaction techniques, and create algorithms to execute techniques efficiently. The output from a level above is input to the level below, bringing attention to the design challenge that an upstream error inevitably cascades to all downstream levels. This model provides prescriptive guidance for determining appropriate evaluation approaches by identifying threats to validity unique to each level. We also provide three recommendations motivated by this model: authors should distinguish between these levels when claiming contributions at more than one of them, authors should explicitly state upstream assumptions at levels above the focus of a paper, and visualization venues should accept more papers on domain characterization.
+The “Nested Model for Visualization Design and Validation” paper is useful for anyone planning, conducting or assessing visualization research. At its core, it asks a triple of very simple but important methodological questions that value consistency and coherence:
+
+- what assertion is your research paper making?
+- what would it take for that assertion to be credible?
+- does your paper show this to be the case?
+
+It tackles these big issues comprehensively and pragmatically, showing us how to do applied visualization research appropriately. In doing so, the paper has changed the way in which we think about validity in visualization research, and has been influential beyond our domain.
+
+As a theoretical research paper “Nested Model” is very clear in objectives, claims, description of the model itself, and use of a series of complementary examples as test cases. It reflects very well on its scope, assumptions, limitations, and implications, guiding visualization researchers in the wide range of papers that we write.
+
+The paper has the stated "hope of creating a more unified visualization literature where [problem driven and technique driven research] interleave usefully". It has enabled the visualization community to make significant progress in achieving this by developing an approach that is the basis for much of the research that we conduct today.  Maybe, after a decade of influence, “A Nested Model” is “The Nested Model”.
+
+Committee: Jason Dykes, Danyel Fisher, Jean-Daniel Fekete
+
 
 ## SciVis
 **1994: An evaluation of reconstruction filters for volume rendering**  
 Authors: Stephen Marschner and Richard Lobb <br>
 <a href="https://doi.org/10.1109/VISUAL.1994.346331">https://doi.org/10.1109/VISUAL.1994.346331</a><br>
 
-To render images from a three-dimensional array of sample values, it is necessary to interpolate between the samples. This paper is concerned with interpolation methods that are equivalent to convolving the samples with a reconstruction filter; this covers all commonly used schemes, including trilinear and cubic interpolation. We first outline the formal basis of interpolation in three-dimensional signal processing theory. We then propose numerical metrics that can be used to measure filter characteristics that are relevant to the appearance of images generated using that filter. We apply those metrics to several previously used filters and relate the results to isosurface images of the interpolations. We show that the choice of interpolation scheme can have a dramatic effect on image quality, and we discuss the cost/benefit tradeoff inherent in choosing a filter.
+Interpolation underpins all volume rendering algorithms and the choice of an interpolation scheme can have a dramatic effect on image quality. This paper was one of the first to analyze the process of interpolation and present it as a formal basis in 3D signal processing theory. The paper also presented a set of metrics to help quantify the characteristics various filters in use and artifacts resulting from those filters.
+
+Committee: Min Chen, Alex Pang, Deborah Silver
 
 **2004: Simplifying Flexible Isosurfaces Using local Geometric Measures**  
 Authors: Hamish Carr, Jack Snoeyink, Michiel van de Panne <br>
 <a href="https://doi.org/10.1109/VISUAL.2004.96">https://doi.org/10.1109/VISUAL.2004.96</a><br>
 
-The contour tree, an abstraction of a scalar field that encodes the nesting relationships of isosurfaces, can be used to accelerate isosurface extraction, to identify important isovalues for volume-rendering transfer functions, and to guide exploratory visualization through a flexible isosurface interface. Many real-world data sets produce unmanageably large contour trees which require meaningful simplification. We define local geometric measures for individual contours, such as surface area and contained volume, and provide an algorithm to compute these measures in a contour tree. We then use these geometric measures to simplify the contour trees, suppressing minor topological features of the data. We combine this with a flexible isosurface interface to allow users to explore individual contours of a dataset interactively.
+The contour tree is a graph based representation that displays how the topology of a level set changes with the scalar value. It is a very useful depiction that describes the structure of the scalar field. The paper, Simplifying Felxible Isosurfaces Using Geometric Measures, helped popularize the concept of the contour tree and showed how it could be used for guided interactive data exploration especially for visualizing  flexible isosurfaces.
+
+Committee: Min Chen, Alex Pang, Deborah Silver
 
 
