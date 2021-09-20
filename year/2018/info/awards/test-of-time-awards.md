@@ -29,6 +29,8 @@ Proc. IEEE VAST 2008, pages 51-58, 2008.
 
 Analyzing and visualizing data about object movements has been a prevailing topic since the advent of VAST. Because of its scale and complexity, this form of spatiotemporal data has always posed a major challenge to the tasks of observing and analyzing movements visually. In this 2008 VAST paper, co-authors Gennady and Natalia Andrienko, presented the first in-depth study on the methods for aggregating movement data and visual designs for depicting aggregated information. The work has provided subsequent research on this topic with a significant benchmark, and its influence and impact remains prevalent today.
 
+Committee:  Min Chen (chair), Giuseppe Santucci, John Stasko
+
 ## InfoVis 
 **1998: An Operator Interaction Framework For Visualization Systems** 
 Authors: Chi, E.H.; Riedl, J. <br>
@@ -36,11 +38,15 @@ Authors: Chi, E.H.; Riedl, J. <br>
 
 The operator interaction framework established a foundation for understanding interaction in InfoVis by characterizing actions or ‘operators’ in relation to the visualization pipeline. The model introduced in this work helps both system designers and end users understand and predict the effects of interaction by identifying that they occur at different levels of abstraction. As such, it is a foundational work contributing to the visualization reference model and it established an important basis for engineering of interaction in visualization systems. The paper has been extensively cited, including many recent citations, indicating its continued relevance even 20 years later.
 
+Committee:  Melanie Tory (chair), Sheelagh Carpendale, Jean-Daniel Fekete
+
 **2008: Effectiveness of Animation in Trend Visualization** 
 Authors: George G. Robertson; Roland Fernandez; Danyel Fisher; Bongshin Lee; John T. Stasko <br>
 <a href="https://doi.org/10.1109/TVCG.2008.125">https://doi.org/10.1109/TVCG.2008.125</a><br>
 
 Inspired by the Roslings’ Gapminder, Robertson et al. conducted experiments to establish whether and when the animated transitions used in Trendalyzer might be effective. Their comparison of three trend visualization methods found small multiples to be preferable for analysis but animation to be fastest for presentation, enjoyable, exciting and error-prone. These empirical findings draw attention to some of the difficult trade-offs encountered in visualization, helping designers navigate the evolving design space for exploration and communication with some confidence in knowledge of the likely implications of their decisions. The work itself has been widely accepted, broadly cited and applied by many in visualization design contexts. It has seeded follow up studies and acted as a model for the controlled empirical study of dynamic visualization in use and can inspire others to assess the efficacy of emerging visualization methods.
+
+Committee:  Jason Dykes (chair), Hanspeter Pfister, Stephen North
 
 ## SciVis
 **1993: Texture splats for 3D scalar and vector field visualization** 
@@ -63,6 +69,8 @@ award committee selected this paper as the 25 years IEEE SciVis Test of Time
 award winner based on its originality, the importance, and the long
 term impact to the application areas.
 
+Committee:  Tom Ertl, Chris Johnson, Kwan-Liu Ma, Edi Gröller, Han-Wei Shen (chair)
+
 **2003: Acceleration techniques for GPU-based volume rendering**
 Authors: Jens H. Krüger; Rüdiger Westermann <br>
 <a href="https://doi.org/10.1109/VISUAL.2003.1250384">https://doi.org/10.1109/VISUAL.2003.1250384</a><br>
@@ -76,4 +84,4 @@ award committee selected this paper as the  15 year IEEE SciVis Test of Time
 award winner based on its originality, the importance, and the long
 term impact to the application areas.
 
-
+Committee:  Tom Ertl, Chris Johnson, Kwan-Liu Ma, Edi Gröller, Han-Wei Shen (chair)
