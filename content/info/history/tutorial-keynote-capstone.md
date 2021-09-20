@@ -1,5 +1,5 @@
 ---
-title: History - Tutorials, Keynotes, Capstone Speakers
+title: History
 layout: page
 permalink: /info/history/tutorial-keynote-capstone
 contact: archive@ieeevis.org
