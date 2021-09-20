@@ -1,5 +1,5 @@
 ---
-title: History - Awards
+title: History
 layout: page
 permalink: /info/history/awards
 contact: archive@ieeevis.org
