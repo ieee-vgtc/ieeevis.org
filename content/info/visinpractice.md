@@ -13,9 +13,11 @@ The **VisInPractice** program is an opportunity for visualization practitioners 
 
 # Program
 
-The entire VisInPractice program will take place virtually on Monday, October 25, 2021 between 8:00 and 13:30 Central Daylight Time (GMT -5). 
+The entire VisInPractice program will take place virtually on Monday, October 25, 2021 between 8:00 and 15:30 Central Daylight Time (GMT -5). 
 
 Full program details including panelist bios and the start times of the panels will be announced in the weeks leading up to the event.
+
+![Panel 1: Moving between Academia and Industry](https://visinpractice.github.io/assets/a-visinpractice_panel1.png)
 
 **Panel 1**: _Moving between Academia and Industry_ (moderated by Zhicheng Leo Liu); panelists:
 
@@ -24,6 +26,7 @@ Full program details including panelist bios and the start times of the panels w
 * Melanie Tory, _Northeastern University_
 * Jian Zhao, _University of Waterloo_
 
+![Panel 2: Tools of the Trade](https://visinpractice.github.io/assets/a-visinpractice_panel2.png)
 
 **Panel 2**: _Tools of the Trade_ (moderated by Sean McKenna); panelists:
 
@@ -32,20 +35,25 @@ Full program details including panelist bios and the start times of the panels w
 * Nicolas Kruchten, _Plotly_
 * Krist Wongsuphasawat, _Airbnb_
 
+![Panel 3: Practioner Collaborations](https://visinpractice.github.io/assets/a-visinpractice_panel3.png)
+
 
 **Panel 3**: _Practioner Collaborations_ (moderated by Matt Larsen); panelists:
 
 * Cyrus Harrison, _Lawrence Livermore National Laboratory_
 * Janine Bennett, _Sandia National Laboratory_
-* Axel Huebl, _Lawrence Berkely National Laboratory_
+* Axel Huebl, _Lawrence Berkeley National Laboratory_
 * Renata Raidou, _TU Wien_
 * Steve Morley, _Los Alamos National Laboratory_
 
+
+![Panel 4: Writing About Visualization](https://visinpractice.github.io/assets/a-visinpractice_panel4.png)
 
 **Panel 4**: _Writing About Visualization_ (moderated by Matthew Brehmer); panelists:
 
 * Mary Aviles, editor of _[Nightingale (Journal of the Data Visualization Society)](https://nightingaledvs.com/)_
 * Tiziana Alocci, editor of _[Market Cafe Magazine](https://www.marketcafemag.com/)_
+* Piero Zagami, editor of _[Market Cafe Magazine](https://www.marketcafemag.com/)_
 * Christian Miles, editor of _[Source / Target](https://sourcetarget.email/)_
 * Danielle Szafir, editor of _[Multiple Views: Visualization Research Explained](https://medium.com/multiple-views-visualization-research-explained)_
 
