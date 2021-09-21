@@ -77,24 +77,13 @@ Authors: Annemieke Verbraeck, Elmar Eisemann
 
 ### Best Paper Award
 
-**The Anatomical Edutainer**
-<br/>
-Authors: Marwin Schindler, Hsiang-Yun,
- Renata Georgia Raidou
-<br>
-
+**Jurassic Mark: Inattentional Blindness for a Datasaurus Reveals that Visualizations are Explored, not Seen**  
+Authors: Tal Boger, Steven Most, Steven Franconeri
 
 ### Best Paper Honorable Mention
 
-**Encodable: Configurable Grammar
- for Visualization Components**
-<br/>
-Author: Krist Wongsuphasawat
-<br>
+**Semantic Resizing of Charts Through Generalization: A Case Study with Line Charts**  
+Authors: Vidya Setlur, Haeyong Chung
 
-**PRAGMA: Interactively Constructing
- Functional Brain Parcellations**
-<br/>
-Authors: Authors: Roza Gunes Bayrak, Nhung
- Hoang, Colin Blake Hansen, Catie Chang, Matthew Berger
-<br>
+**Exact Analytical Parallel Vectors**  
+Authors: Hanqi Guo, Tom Peterka
