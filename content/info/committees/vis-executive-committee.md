@@ -22,15 +22,11 @@ The current VEC members are:
 | Klaus Mueller | *Stony Brook University* |<br>
 | Holger Theisel | *University of Magdeburg* |<br>
 
-**Call for Nominations and Voter Registration**<br>
-VIS Executive and Steering Committee Elections
- 
-Voter Registration: Complete [VIS voter registration form](https://docs.google.com/forms/d/e/1FAIpQLSfk6ERYLmo6CAFcWwe7S7gX8GHRuW0dAptuW_n9cOpO_v1qHQ/viewform) by September 10th<br>
-Nominations: Complete [nomination form](https://docs.google.com/forms/d/e/1FAIpQLScd7Gh2hxuGWSXhKcYCgfov2K0AWV-2aqEfER_g-f3BVTNfxg/viewform) to recommend candidates for VSC or VEC by July 1st
- 
-Eligible members of the VIS community can register to vote in this year's election and nominate candidates for positions on the VEC or VSC. Multiple nominations and self-nominations are permitted. See [registration form](https://docs.google.com/forms/d/e/1FAIpQLSfk6ERYLmo6CAFcWwe7S7gX8GHRuW0dAptuW_n9cOpO_v1qHQ/viewform) and [nomination form](https://docs.google.com/forms/d/e/1FAIpQLScd7Gh2hxuGWSXhKcYCgfov2K0AWV-2aqEfER_g-f3BVTNfxg/viewform) for full eligibility criteria. We encourage all VIS community members to get involved by nominating potential candidates and voting in our election.
+## VIS Executive and Steering Committee Elections
+Each year the VIS community elects one new member each to the VEC and VSC. 
+See the [VIS Elections](/year/2021/info/elections) page for more details.
 
-**Public Meeting Notes**  
+## Public Meeting Notes
 
 [January 8, 2021](https://drive.google.com/file/d/1EpkiQWEfc0hMx56sbK8bbQe_bgBU0cwp/view?usp=sharing)<br>
 [February 12, 2021](https://drive.google.com/file/d/1iVZgos2MpzR30kXtXX9be1Om86S9c73K/view?usp=sharing)<br>
