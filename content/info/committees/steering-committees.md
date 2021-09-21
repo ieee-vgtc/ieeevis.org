@@ -20,5 +20,9 @@ Current members of the VSC are:
 | Melanie Tory | *Tableau Software* |
 | Daniel Weiskopf | *University of Stuttgart* |
 
-**Public Meeting Notes**  
+## VIS Executive and Steering Committee Elections
+Each year the VIS community elects one new member each to the VEC and VSC. 
+See the [VIS Elections](/year/2021/info/elections) page for more details.
+
+## Public Meeting Notes  
 All [public meetings notes are available here](https://drive.google.com/drive/folders/1sgjPLu9JwmyjHzWhHSx82U_BdcODBSH1?usp=sharing)
