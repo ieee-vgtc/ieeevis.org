@@ -163,6 +163,7 @@ If you create the captions using a different software package, subtitles in the 
 | **VIS Posters**                            | v-posters             |
 | **TVCG Presentations**                     | v-tvcg                |
 | **CG&A Presentations**                     | v-cga                 |
+| **SIGGRAPH Presentations**                 | v-siggraph            |
 | **VIS Panels**                             | v-panels              |
 | **Application Spotlights**                 | v-spotlights          |
 
