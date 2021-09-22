@@ -8,11 +8,13 @@ contact: info@ieeevis.org
 ## Chicago, IL, USA
 **University of Illinois at Chicago and Argonne National Laboratory**<br>
 Chairs: Fabio Miranda and Victor A. Mateevitsi
+
 <a class="button" href="https://www.evl.uic.edu/vis-chicago/">More Information</a>
 
 ## Copenhagen, Denmark
 **IT University of Copenhagen**<br>
 Chair: Søren Knudsen
+
 <a class="button" href="http://vis21cph.itu.dk/">More Information</a>
 
 ## Norrköping, Sweden
