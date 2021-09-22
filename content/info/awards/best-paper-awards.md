@@ -6,84 +6,98 @@ contact: papers@ieeevis.org
 active_nav: "Program"
 ---
 
-Best paper and honorable mention awards are selected per conference track by a dedicated committee of experienced community members. 
-Both awards recognize outstanding work from the pool of accepted papers in each conference track. Best paper committees use a variety of criteria to select the best paper including potential impact to the community, 
-the importance of any results obtained, technical challenges overcome, etc. 
+Best paper and honorable mention awards are selected by a dedicated committee of experienced community members. Both awards recognize outstanding work from the pool of accepted papers. Best paper committees use a variety of criteria to select the best paper including potential impact to the community, the importance of any results obtained, technical challenges overcome, etc.
 
-## VAST
+## Full Papers
 
-### Best Paper Award
+### Best Paper Awards
 
-**VATLD: A Visual Analytics System to Assess, Understand and Improve Traffic Light Detection**
+**Feature Curves and Surfaces of 3D Asymmetric Tensor Fields**
 <br/>
-Authors: Liang Gou, Lincan Zou, Nanxiang Li, Michael Hofmann, Shekar Arvind Kumar, Axel Wendt, and Liu Ren 
+Authors: Shih-Hsuan Hung, Yue Zhang, Harry Yeh, Eugene Zhang 
 
-### Best Paper Honorable Mention
-
-**In Search of Patient Zero: Visual Analytics of Pathogen Transmission Pathways in Hospitals**
+**IRVINE: Using Interactive Clustering and Labeling to Analyze Correlation Patterns: A Design Study from the Manufacturing of Electrical Engines**
 <br/>
-Authors: Tom Baumgartl, Markus Petzold_, Marcel Wunderlich, Markus Höhn, Daniel Archambault, Michael Lieser, Alexander Dalpke, Simone Scheithauer, Michael Marschollek, Vanessa M. Eichel, Nico T. Mutters, and Tatiana von Landesberger
+Authors: Joscha Eirich, Jakob Bonart, Dominik Jäckle, Michael Sedlmair, Ute Schmid, Kai Fischbach, Tobias Schreck, Jürgen Bernard
 
-**Preserving Minority Structures in Graph Sampling**
+**Perception! Immersion! Empowerment! Superpowers as Inspiration for Visualization**
 <br/>
-Authors: Ying Zhao, Haojin Jiang, Qi’an Chen, Yaqi Qin, Huixuan Xie, Yitao Wu, Shixia Liu, Zhiguang Zhou, Jiazhi Xia, and Fangfang Zhou
+Authors: Wesley Willett, Bon Adriel Aseniero, Sheelagh Carpendale, Pierre Dragicevic, Yvonne Jansen, Lora Oehlberg, Petra Isenberg
 
-## InfoVis
-
-### Best Paper Award
-
-**Visual Reasoning Strategies and Satisficing: How Uncertainty Visualization Design Impacts Effect Size Judgments and Decisions**
+**Simultaneous Matrix Orderings for Graph Collections**
 <br/>
-Authors: Alex Kale, Matthew Kay, and Jessica Hullman
+Authors: Nathan van Beusekom, Wouter Meulemans, Bettina Speckmann
 
-### Best Paper Honorable Mention
+### Best Paper Honorable Mentions
 
-**A Design Space of Vision Science Methods for Visualization Research**
+**An Evaluation-Focused Framework for Visualization Recommendation Algorithms**
 <br/>
-Authors: Madison Elliott, Christine Nothelfer Nielsen, Cindy Xiong, and Danielle Albers Szafir
+Authors: Zehua Zeng, Phoebe Moh, Fan Du, Jane Hoffswell, Tak Yeon Lee, Sana Malik, Eunyee Koh, Leilani Battle
 
-
-**A Simple Pipeline for Coherent Grid Maps**
+**Augmenting Sports Videos with VisCommentator**
 <br/>
-Authors: Wouter Meulemans, Max Sondag, and Bettina Speckmann
+Authors: Zhutian Chen, Shuainan Ye, Xiangtong Chu, Haijun Xia, Hui Zhang, Huamin Qu, Yingcai Wu
 
-
-**A Generic Framework and Library for Exploration of Small Multiples through Interactive Piling**
+**Causal Support: Modeling Causal Inferences with Visualizations**
 <br/>
-Authors: Fritz Lekschas, Xinyi Zhou, Wei Chen, Nils Gehlenborg, Benjamin Bach, and Hanspeter Pfister
+Authors: Alex Kale, Yifan Wu, Jessica Hullman
 
-
-**Data Visceralization: Enabling Deeper Understanding of Data Using Virtual Reality**
+**Communicating Visualizations without Visuals: Investigation of Visualization Alternative Text for People with Visual Impairments**
 <br/>
-Authors: Benjamin Lee, David Brown, Bongshin Lee, Christophe Hurter, Steven Drucker, and Tim Dwyer 
+Authors: Crescentia Jung, Shubham R. Mehta, Atharva Kulkarni, Yuhang Zhao, Yea-Seul Kim
 
-## SciVis
-
-### Best Paper Award
-
-**Objective Observer-Relative Flow Visualization in Curved Spaces for Unsteady 2D Geophysical Flows**
+**Context Matters: A Theory of Semantic Discriminability for Perceptual Encoding Systems**
 <br/>
-Authors: Peter Rautek, Matej Mlejnek, Johanna Beyer, Jakob Troidl, Hanspeter Pfister, Thomas Theussl, Markus Hadwiger
+Authors: Kushin Mukherjee, Brian N. Yin, Brianne E. Sherman, Laurent Lessard, Karen Schloss
 
-### Best Paper Honorable Mention
-
-**Interactive Black Hole Visualization**
+**Explanatory Journeys: Visualising to Understand and Explain Administrative Justice Paths of Redress**
 <br/>
-Authors: Annemieke Verbraeck, Elmar Eisemann
+Authors: Jonathan C. Roberts, Peter W. S. Butcher, Ann Sherlock, Sarah Nason
 
+**Interactive Exploration of Physically-Observable Objective Vortices in Unsteady 2D Flow**
+<br/>
+Authors: Xingdi Zhang, Markus Hadwiger, Thomas Theussl, Peter Rautek
+
+**KG4Vis: A Knowledge Graph-Based Approach for Visualization Recommendation**
+<br/>
+Authors: Haotian Li, Yong Wang, Songheng Zhang, Yangqiu Song, Huamin Qu
+
+**Loon: Using Exemplars to Visualize Large Scale Microscopy Data**
+<br/>
+Authors: Devin Lange, Eddie Polanco, Robert L. Judson-Torres, Thomas A. Zangle, Alexander Lex
+
+**M^2Lens: Visualizing and Explaining Multimodal Models for Sentiment Analysis**
+<br/>
+Authors: Xingbo Wang, Jianben He, Zhihua Jin, Muqiao Yang, Yong Wang, Huamin Qu
+
+**Real-Time Visual Analysis of High-Volume Social Media Posts**
+<br/>
+Authors: Johannes Knittel, Steffen Koch, Tan Tang, Wei Chen, Yingcai Wu, Shixia Liu, Thomas Ertl
+
+**Rethinking the Ranks of Visual Channels**
+<br/>
+Authors: Caitlyn M. McColeman, Fumeng Yang, Timothy F. Brady, Steven Franconeri
+
+**SightBi: Exploring Cross-View Data Relationships with Biclusters**
+<br/>
+Authors: Maoyuan Sun, Abdul Rahman Shaikh, Hamed Alhoori, Jian Zhao
+
+**spEuler: Semantics-preserving Euler Diagrams**
+<br/>
+Authors: Rebecca Kehlbeck, Jochen Görtler, Yunhai Wang, Oliver Deussen
+
+**VBridge: Connecting the Dots Between Features, Explanations, and Data for Healthcare Models**
+<br/>
+Authors: Furui Cheng, Dongyu Liu, Fan Du, Yanna Lin, Alexandra Zytek, Haomin Li, Huamin Qu, Kalyan Veeramachaneni
+
+**VizSnippets: Compressing Visualization Bundles Into Representative Previews for Browsing Visualization Collections**
+<br/>
+Authors: Michael Oppermann, Tamara Munzner
 
 
 ## Short Papers Awards
 
 ### Best Paper Award
 
-**Jurassic Mark: Inattentional Blindness for a Datasaurus Reveals that Visualizations are Explored, not Seen**  
-Authors: Tal Boger, Steven Most, Steven Franconeri
-
 ### Best Paper Honorable Mention
 
-**Semantic Resizing of Charts Through Generalization: A Case Study with Line Charts**  
-Authors: Vidya Setlur, Haeyong Chung
-
-**Exact Analytical Parallel Vectors**  
-Authors: Hanqi Guo, Tom Peterka
