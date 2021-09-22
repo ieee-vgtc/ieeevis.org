@@ -7,8 +7,957 @@ permalink: /info/papers-sessions
 
 More detail about papers and their associated presentations will be released with the virtual website.
 
+<hr/>
+
+<a>**Tuesday, October 26**</a>
+**10:00-11:30AM CDT (UTC-5)**
+*Best Papers*
+*Session Chair: Bongshin Lee, Silvia Miksch, Anders Ynnerman*
+
+**Simultaneous Matrix Orderings for Graph Collections**
+Authors: Nathan van Beusekom, Wouter Meulemans, Bettina Speckmann
+
+**IRVINE: Using Interactive Clustering and Labeling to Analyze Correlation Patterns: A Design Study from the Manufacturing of Electrical Engines**
+Authors: Joscha Eirich, Jakob Bonart, Dominik Jäckle, Michael Sedlmair, Ute Schmid, Kai Fischbach, Tobias Schreck, Jürgen Bernard
+
+**Perception! Immersion! Empowerment! Superpowers as Inspiration for Visualization**
+Authors: Wesley Willett, Bon Adriel Aseniero, Sheelagh Carpendale, Pierre Dragicevic, Yvonne Jansen, Lora Oehlberg, Petra Isenberg
+
+**Feature Curves and Surfaces of 3D Asymmetric Tensor Fields**
+Authors: Shih-Hsuan Hung, Yue Zhang, Harry Yeh, Eugene Zhang
+
+**Jurassic Mark: Inattentional Blindness for a Datasaurus Reveals that Visualizations are Explored, not Seen**
+Authors: Tal Boger, Steven Most, Steven Franconeri
+<br/>
+
+
+<hr/>
+
+<a>**Wednesday, October 27**</a>
+**08:00-09:30AM CDT (UTC-5)**
+*Explainable AI and Machine Learning*
+*Session Chair: Hendrik Strobelt*
+
+**AffectiveTDA: Using Topological Data Analysis for Improved Explainability in Affective Computing**
+Authors: Hamza Elhamdadi, Shaun Canavan, Paul Rosen
+
+**Human-in-the-loop Extraction of Interpretable Concepts in Deep Learning Models**
+Authors: Zhenge Zhao, Panpan Xu, Carlos Scheidegger, Liu Ren
+
+**Towards Visual Explainable Active Learning for Zero-Shot Classification**
+Authors: Shichao Jia, zeyu li, Nuo Chen, Jiawan Zhang
+
+**M^2Lens: Visualizing and Explaining Multimodal Models for Sentiment Analysis**
+Authors: Xingbo Wang, Jianben He, Zhihua Jin, Muqiao Yang, Yong Wang, Huamin Qu
+
+**NeuroCartography: Scalable Automatic Visual Summarization of Concepts in Deep Neural Networks**
+Authors: Haekyu Park, Nilaksh Das, Rahul Duggal, Austin Wright, Omar Shaikh, Fred Hohman, Duen Horng Chau
+
+**Visual Analytics for RNN-Based Deep Reinforcement Learning**
+Authors: Junpeng Wang, Wei Zhang, Hao Yang, Chin-Chia Michael Yeh, Liang Wang
+<br/>
+
+
+<hr/>
+
+<a>**Wednesday, October 27**</a>
+**08:00-09:30AM CDT (UTC-5)**
+*Interaction*
+*Session Chair: Christian Tominski*
+
+**Task-Based Effectiveness of Interactive Contiguous Area Cartograms**
+Authors: Ian K. Duncan, Shi Tingsheng, Simon T. Perrault, Michael T. Gastner
+
+**Nebula: A Coordinating Grammar of Graphics**
+Authors: Ran Chen, Xinhuan Shu, Jiahui Chen, Di Weng, Junxiu Tang, Siwei Fu, Yingcai Wu
+
+**Rotate or Wrap? Interactive Visualisations of Cyclical Data on Cylindrical or Toroidal Topologies**
+Authors: Kun-Ting Chen, Tim Dwyer, Benjamin Bach, Kim Marriott
+
+**DIEL: Interactive Visualization Beyond the Here and Now**
+Authors: Yifan Wu, Remco Chang, Joseph Hellerstein, Arvind Satyanarayan, Eugene Wu
+
+**VizSnippets: Compressing Visualization Bundles Into Representative Previews for Browsing Visualization Collections**
+Authors: Michael Oppermann, Tamara Munzner
+
+**Interactive Dimensionality Reduction for Comparative Analysis**
+Authors: Takanori Fujiwara, Xinhai Wei, Jian Zhao, Kwan-Liu Ma
+<br/>
+
+
+<hr/>
+
+<a>**Wednesday, October 27**</a>
+**08:00-09:30AM CDT (UTC-5)**
+*Surfaces and Volumes*
+*Session Chair: Koji Kayamada*
+
+**Real-Time Denoising of Volumetric Path Tracing for Direct Volume Rendering**
+Authors: Jose A. Iglesias-Guitian, Prajita Mane, Bochang Moon
+
+**Learning Adaptive Sampling and Reconstruction for Volume Visualization**
+Authors: Sebastian Weiss, Mustafa Isik, Justus Thies, Rüdiger Westermann
+
+**STNet: An End-to-End Generative Framework for Synthesizing Spatiotemporal Super-Resolution Volumes**
+Authors: Jun Han, Hao Zheng, Danny Chen, Chaoli Wang
+
+**Interactive Exploration of Physically-Observable Objective Vortices in Unsteady 2D Flow**
+Authors: Xingdi Zhang, Markus Hadwiger, Thomas Theussl, Peter Rautek
+
+**3D Virtual Pancreatography**
+Authors: Shreeraj Jadhav, Konstantin Dmitriev, Joseph Marino, Matthew Barish, Arie E. Kaufman
+
+**Visual Analysis of Multi-Parameter Distributions across Ensembles of 3D Fields**
+Authors: Alexander Kumpf, Josef Stumpfegger, Patrick Fabian Härtl, Rüdiger Westermann
+<br/>
+
+
+<hr/>
+
+<a>**Wednesday, October 27**</a>
+**08:00-09:30AM CDT (UTC-5)**
+*Graphical Perception and Coloring*
+*Session Chair: Danielle Albers Szafir*
+
+**Context Matters: A Theory of Semantic Discriminability for Perceptual Encoding Systems**
+Authors: Kushin Mukherjee, Brian Yin, Brianne Sherman, Laurent Lessard, Karen Schloss
+
+**Conceptual Metaphor and Graphical Convention Influence the Interpretation of Line Graphs**
+Authors: Greg Woodin, Bodo Winter, Lace Padilla
+
+**Rethinking the Ranks of Visual Channels**
+Authors: Caitlyn McColeman, Fumeng Yang, Timothy F. Brady, Steven Franconeri
+
+**Affective Congruence in Visualization Design: Influences on Reading Categorical Maps**
+Authors: Cary L. Anderson, Anthony C. Robinson
+
+**Modeling Just Noticeable Differences in Charts**
+Authors: Min Lu, Joel Lanir, Chufeng Wang, Yucong Yao, Wen Zhang, Oliver Deussen, Hui Huang
+
+**Augmenting Parallel Coordinates Plots with Color-coded Stacked Histograms**
+Authors: Jinwook Bok, Bohyoung Kim, Jinwook Seo
+<br/>
+
+
+<hr/>
+
+<a>**Wednesday, October 27**</a>
+**08:00-09:30AM CDT (UTC-5)**
+*Short Papers: Social Sciences, Software Tools, Journalism, and Storytelling*
+*Session Chair: Siming Chen*
+
+**GeoSneakPique: Visual autocompletion for geospatial queries**
+Authors: Vidya Setlur, Sarah Battersby, Tracy Kam Hung Wong
+
+**Atlas: Grammar-based Procedural Generation of Data Visualizations**
+Authors: Zhicheng Liu, Chen Chen, Francisco Morales, Yishan Zhao
+
+**On The Potential of Zines as a Medium for Visualization**
+Authors: Andrew M McNutt
+
+**Narrative Sensemaking: Strategies for Narrative Maps Construction**
+Authors: Brian Felipe Keith Norambuena, Tanushree Mitra, Chris North
+
+**Text Visualization and Close Reading for Journalism with Storifier**
+Authors: Nicole Sultanum, Anastasia Bezerianos, Fanny Chevalier
+
+**Conceptualizing Visual Analytic Interventions for Content Moderation**
+Authors: Sahaj Vaidya, Jie Cai, Soumyadeep Basu, Azadeh Naderi, Donghee Yvette Wohn, Aritra Dasgupta
+
+**How Learners Sketch Data Stories**
+Authors: Rahul Bhargava, Dee Williams, Catherine D'Ignazio
+
+**Gemini²: Generating Keyframe-Oriented Animated Transitions Between Statistical Graphics**
+Authors: Younghoon Kim, Jeffrey Heer
+<br/>
+
+
+<hr/>
+
+<a>**Wednesday, October 27**</a>
+**10:00-11:30AM CDT (UTC-5)**
+*Perspectives and Reflections*
+*Session Chair: Kwan-Liu Ma*
+
+**Seek for Success: A Visualization Approach for Understanding the Dynamics of Academic Careers**
+Authors: Yifang Wang, Tai-Quan Peng, Huihua Lu, Haoren Wang, Xiao Xie, Huamin Qu, Yingcai Wu
+
+**VitaLITy: Promoting Serendipitous Discovery of Academic Literature with Transformers & Visual Analytics**
+Authors: Arpit Narechania, Alireza Karduni, Ryan Wesslen, Emily Wall
+
+**VIS30K: A Collection of Figures and Tables From IEEE Visualization Conference Publications**
+Authors: Jian Chen, Meng Ling, Rui Li, Petra Isenberg, Tobias Isenberg, Michael Sedlmair, Torsten Möller, Robert S. Laramee, Han-Wei Shen, Katharina Wüsche, Qiru Wang
+
+**Gender in 30 Years of IEEE Visualization**
+Authors: Natkamon Tovanich, Pierre Dragicevic, Petra Isenberg
+
+**E-ffective: A Visual Analytic System for Exploring the Emotion and Effectiveness of Inspirational Speeches**
+Authors: Kevin Maher, Zeyuan Huang, Jiancheng Song, Xiaoming Deng, Yu-Kun Lai, Cuixia Ma, Hao Wang, Yong-Jin Liu, Hongan Wang
+
+**Explanatory Journeys: Visualising to Understand and Explain Administrative Justice Paths of Redress**
+Authors: Jonathan Roberts, Peter Butcher, Ann Sherlock, Sarah Nason
+<br/>
+
+
+<hr/>
+
+<a>**Wednesday, October 27**</a>
+**10:00-11:30AM CDT (UTC-5)**
+*Decision Making*
+*Session Chair: Daniel Archambault*
+
+**The Unmet Data Visualization Needs of Decision Makers within Organizations**
+Authors: Evanthia Dimara, Harry Zhang, Melanie Tory, Steven Franconeri
+
+**Knowledge Rocks: Adding Knowledge Assistance to Visualization Systems**
+Authors: Anna-Pia Lohfink, Simon Duque Anton, Heike Leitte, Christoph Garth
+
+**A Critical Reflection on Visualization Research: Where Do Decision Making Tasks Hide?**
+Authors: Evanthia Dimara, John Stasko
+
+**From Jam Session to Concert Hall: Synchronous Communication and Collaboration Around Data in Organizations**
+Authors: Matthew Brehmer, Robert Kosara
+
+**Causal Support: Modeling Causal Inferences with Visualizations**
+Authors: Alex Kale, Yifan Wu, Jessica Hullman
+
+**Sibyl: Understanding and Addressing the Usability Challenges of Machine Learning In High-Stakes Decision Making**
+Authors: Alexandra Zytek, Dongyu Liu, Rhema Vaithianathan, Kalyan Veeramachaneni
+<br/>
+
+
+<hr/>
+
+<a>**Wednesday, October 27**</a>
+**10:00-11:30AM CDT (UTC-5)**
+*Multi-View and Visual Environments*
+*Session Chair: Christophe Hurter*
+
+**Semantic Snapping for Guided Multi-View Visualization Design**
+Authors: Yngve S. Kristiansen, Laura Garrison, Stefan Bruckner
+
+**SightBi: Exploring Cross-View Data Relationships with Biclusters**
+Authors: Maoyuan Sun, Abdul Rahman Shaikh, Hamed Alhoori, Jian Zhao
+
+**matExplorer: Visual Exploration on Predicting of Ionic Conductivity for Solid-State Electrolytes**
+Authors: Jiansu Pu, Hui Shao, Boyang Gao, Zhengguo Zhu, Yanlin Zhu, Yunbo Rao, Yong Xiang
+
+**TimeTubesX: A Query-Driven Visual Exploration of Observable, Photometric, and Polarimetric Behaviors of Blazars**
+Authors: Naoko Sawada, Makoto Uemura, Johanna Beyer, Hanspeter Pfister, Issei Fujishiro
+
+**Towards replacing physical testing of granular materials with a Topology-based Model**
+Authors: Aniketh Venkat, Attila Gyulassy, Graham Kosiba, Amitesh Maiti, Henry Reinstein, Richard Gee, Peer-Timo Bremer, Valerio Pascucci
+
+**Tracking Internal Frames of Reference for Consistent Molecular Distribution Functions**
+Authors: Robin Skånberg, Martin Falk, Mathieu Linares, Anders Ynnerman, Ingrid Hotz
+<br/>
+
+
+<hr/>
+
+<a>**Wednesday, October 27**</a>
+**10:00-11:30AM CDT (UTC-5)**
+*CG&A Papers: Data Physicalization*
+*Session Chair: Trevor Hogan*
+
+**What we talk about when we talk about data physicality**
+Authors: Dietmar Offenhuber
+
+**Data Badges: Making an Academic Profile through a DIY wearable physicalisation**
+Authors: Georgia Panagiotidou, Sinem Görücü, Andrew Vande Moere
+
+**Move&Find: The value of kinesthetic experience in a casual data representation**
+Authors: Jörn Hurtienne, Franzisca Maas, Astrid Carolus, Daniel Reinhardt, Cordula Baur, Carolin Wienrich
+
+**Slave Voyages:reflections on data sculptures**
+Authors: Doris Kosminsky, Douglas Thomaz de Oliveira
+
+**Narrative Physicalisation: Supporting Interactive Engagement with Personal Data**
+Authors: Maria Karyda, Danielle Wilde, Mette Gislev Kjærsgaard
+
+**Data Clothing and BigBarChart: designing physical data reports on indoor pollutants for individuals and communities**
+Authors: Laura J. Perovich, Phoebe Cai, Amber Guo, Kristin Zimmerman, Katherine Paseman, Dayanna Espinoza Silva, Julia G. Brody
+<br/>
+
+
+<hr/>
+
+<a>**Wednesday, October 27**</a>
+**10:00-11:30AM CDT (UTC-5)**
+*Short Papers: AI+VIS*
+*Session Chair: Aritra Dasgupta*
+
+**CloudFindr: A Deep Learning Cloud Artifact Masker for Satellite DEM Data**
+Authors: Kalina Borkiewicz, Viraj Shah, J.P. Naiman, Chuanyue Shen, Stuart Levy, Jeffrey D Carpenter
+
+**An Exploration And Validation of Visual Factors in Understanding Classification Rule Sets**
+Authors: Jun Yuan, Oded Nov, Enrico Bertini
+
+**Fast & Accurate Gaussian Kernel Density Estimation**
+Authors: Jeffrey Heer
+
+**"Why did my AI agent lose?": Visual Analytics for Scaling Up AAR/AI**
+Authors: Delyar Tabatabai, Anita Ruangrotsakun, Jed Irvine, Jonathan Dodge, Zeyad Shureih, Kin-Ho Lam, Margaret Burnett, Alan Paul Fern, Minsuk Kahng
+
+**VAINE: Visualization and AI for Natural Experiments**
+Authors: Grace Guo, Maria Glenski, Zhuanyi Huang, Emily Saldanha, Alex Endert, Svitlana Volkova, Dustin L Arendt
+
+**Semantic Explanation of Interactive Dimensionality Reduction**
+Authors: Yail Bian, Chris North, Eric Krokos, Sarah Joseph
+
+**AdViCE: Aggregated Visual Counterfactual Explanations for Machine Learning Model Validation**
+Authors: Steffen Holter, Oscar Alejandro Gomez, Jun Yuan, Enrico Bertini
+
+**Contrastive Identification of Covariate Shift in Image Data**
+Authors: Matthew Olson, Thuy-Vy Nguyen, Gaurav Dixit, Neale Ratzlaff, Weng-Keen Wong, Minsuk Kahng
+<br/>
+
+
+<hr/>
+
+<a>**Wednesday, October 27**</a>
+**12:00-01:30PM CDT (UTC-5)**
+*Recommendation and Automation*
+*Session Chair: Torsten Möller*
+
+**InfoColorizer: Interactive Recommendation of Color Palettes for Infographics**
+Authors: Lin-Ping Yuan, Ziqi Zhou, Jian Zhao, Yiqiu Guo, Fan Du, Huamin Qu
+
+**A Mixed-Initiative Approach to Reusing Infographic Charts**
+Authors: Weiwei Cui, Jinpeng Wang, He Huang, Yun Wang, Chin-Yew Lin, Haidong Zhang, Dongmei Zhang
+
+**Kori: Interactive Synthesis of Text and Charts in Data Documents**
+Authors: Shahid Latif, Zheng Zhou, Yoon Kim, Fabian Beck, Nam Wook Kim
+
+**Deconstructing Categorization in Visualization Recommendation: A Taxonomy and Comparative Study**
+Authors: Doris Jung-Lin Lee, Vidya Setlur, Melanie Tory, Karrie Karahalios, Aditya Parameswaran
+
+**KG4Vis: A Knowledge Graph-Based Approach for Visualization Recommendation**
+Authors: Haotian Li, Yong Wang, Songheng Zhang, Yangqiu Song, Huamin Qu
+
+**VizLinter: A Linter and Fixer Framework for Data Visualization**
+Authors: Qing Chen, Fuling Sun, Xinyue Xu, Zui Chen, Jiazhe Wang, Nan Cao
+<br/>
+
+
+<hr/>
+
+<a>**Wednesday, October 27**</a>
+**12:00-01:30PM CDT (UTC-5)**
+*Immersive Environments, Personal Vis, and Dashboards*
+*Session Chair: Yalong Yang*
+
+**Propagating Visual Designs to Numerous Plots and Dashboards**
+Authors: Saiful Khan, Phong Nguyen, Alfie Abdul-Rahman, Benjamin Bach, Min Chen, Euan Freeman, Cagatay Turkay
+
+**Exploring the Personal Informatics Analysis Gap: "There's a Lot of Bacon"**
+Authors: Jimmy Moore, Pascal Goffin, Jason Wiese, Miriah Meyer
+
+**What's the Situation with Situated Visualization? A Survey and Perspectives on Situatedness**
+Authors: Nathalie Bressa, Henrik Korsgaard, Aurélien Tabard, Steven Houben, Jo Vermeulen
+
+**TIVEE: Visual Exploration and Explanation of Badminton Tactics in Immersive Visualizations**
+Authors: Xiangtong Chu, Xiao Xie, Shuainan Ye, Haolin Lu, Hongguang Xiao, Zeqing Yuan, Zhutian Chen, Hui Zhang, Yingcai Wu
+
+**Touch and Beyond: Comparing Physical and Virtual Reality Visualizations**
+Authors: Kurtis Danyluk, Teoman Ulusoy, Wei Wei, Wesley Willett
+
+**An Automated Approach to Reasoning About Task-Oriented Visualization Insights in Responsive Visualization**
+Authors: Hyeok Kim, Ryan Rossi, Abhraneel Sarma, Dominik Moritz, Jessica Hullman
+<br/>
+
+
+<hr/>
+
+<a>**Wednesday, October 27**</a>
+**12:00-01:30PM CDT (UTC-5)**
+*Multi-Dimensional Data*
+*Session Chair: Michael Sedlmair*
+
+**Imma Sort by Two or More Attributes With Interpretable Monotonic Multi-Attribute Sorting**
+Authors: Yan Lyu, Fan Gao, I-Shuen Wu, Brian Y. Lim
+
+**Integrated Dual Analysis of Quantitative and Qualitative High-Dimensional Data**
+Authors: Juliane Müller, Laura Garrison, Philipp Ulbrich, Stefanie Schreiber, Stefan Bruckner, Helwig Hauser, Steffen Oeltze-Jafra
+
+**Revisiting Dimensionality Reduction Approaches for Visual Cluster Analysis: An Empirical Study**
+Authors: Jiazhi Xia, Yuchen Zhang, Jie Song, Yang Chen, Yunhai Wang, Shixia Liu
+
+**DimLift: Interactive Hierarchical Data Exploration through Dimensional Bundling**
+Authors: Laura Garrison, Juliane Müller, Stefanie Schreiber, Steffen Oeltze-Jafra, Helwig Hauser, Stefan Bruckner
+
+**Attribute-based Explanations of Non-Linear Embeddings of High-Dimensional Data**
+Authors: Jan-Tobias Sohns, Michaela Schmitt, Fabian Jirasek, Hans Hasse, Heike Leitte
+
+**Measuring and Explaining the Inter-Cluster Reliability of Multidimensional Projections**
+Authors: Hyeon Jeon, Hyung-Kwon Ko, Jaemin Jo, Youngtaek Kim, Jinwook Seo
+<br/>
+
+
+<hr/>
+
+<a>**Wednesday, October 27**</a>
+**12:00-01:30PM CDT (UTC-5)**
+*CG&A Papers: Visualizing big issues: Culture, Climate Change, and Communities*
+*Session Chair: Kai Xu*
+
+**Dynamic 3D Visualization of Climate Model Development and Results**
+Authors: Jeremy Walton, Samantha Adams, Wolfgang Hayek, Piotr Florek, Harold Dyson
+
+**Mapping the Hazard: Visual Analysis of Flood Impact on Urban Mobility**
+Authors: Kuang-Ting Huang
+
+**Exploring the Design Space of Sankey Diagrams for the Food-Energy-Water Nexus**
+Authors: Brandon Mathis, Yuxin Ma, Michelle Mancenido, Ross Maciejewski
+
+**QuteVis: Visually Studying Transportation Patterns Using Multi-Sketch Query of Joint Traffic Situations**
+Authors: Shamal AL-Dohuki, Ye Zhao, Farah Kamw, Jing Yang, Xinyue Ye, Wei Chen
+
+**Many Views Are Not Enough: Designing for Synoptic Insights in Cultural Collections**
+Authors: Florian Windhager, Saminu Salisu, Roger A. Leite, Velitchko Filipov, Silvia Miksch, Günther Schreder, Eva Mayr
+
+**CLEVis: A Semantic Driven Visual Analytics System for Community Level Events**
+Authors: Chao Ma, Ye Zhao, Andrew Curtis, Farah Kamw, Shamal AL-Dohuki, Jing Yang, Suphanut Jamonnak, Ismael Ali
+<br/>
+
+
+<hr/>
+
+<a>**Thursday, October 28**</a>
+**08:00-09:30AM CDT (UTC-5)**
+*Sports, Commerce, and Social Media*
+*Session Chair: Romain Vuillemot*
+
+**Augmenting Sports Videos with VisCommentator**
+Authors: Zhutian Chen, Shuainan Ye, Xiangtong Chu, Haijun Xia, Hui Zhang, Huamin Qu, Yingcai Wu
+
+**TacticFlow: Visual Analytics of Ever-Changing Tactics in Racket Sports**
+Authors: Jiang Wu, Dongyu Liu, Ziyang Guo, Qingyang Xu, Yingcai Wu
+
+**VideoModerator: A Risk-aware Framework for Multimodal Video Moderation in E-Commerce**
+Authors: Tan Tang, Yanhong Wu, Lingyun Yu, Yuhong Li, Yingcai Wu
+
+**A Visualization Approach for Monitoring Order Processing in E-Commerce Warehouse**
+Authors: Junxiu Tang, Yuhua Zhou, Tan Tang, Di Weng, Boyang Xie, Lingyun Yu, Huaqiang Zhang, Yingcai Wu
+
+**MiningVis: Visual Analytics of the Bitcoin Mining Economy**
+Authors: Natkamon Tovanich, Nicolas Soulié, Nicolas Heulot, Petra Isenberg
+
+**Real-Time Visual Analysis of High-Volume Social Media Posts**
+Authors: Johannes Knittel, Steffen Koch, Tan Tang, Wei Chen, Yingcai Wu, Shixia Liu, Thomas Ertl
+<br/>
+
+
+<hr/>
+
+<a>**Thursday, October 28**</a>
+**08:00-09:30AM CDT (UTC-5)**
+*Studies and Evaluation Methodology*
+*Session Chair: Cindy Xiong*
+
+**CoUX: Collaborative Visual Analysis of Think-Aloud Usability Test Videos for Digital Interfaces**
+Authors: Ehsan Jahangirzadeh Soure, Emily Kuang, Mingming Fan, Jian Zhao
+
+**Professional Differences: A Comparative Study of Visualization Task Performance and Spatial Ability Across Disciplines**
+Authors: Kyle Hall, Anthony Kouroupis, Anastasia Bezerianos, Danielle Albers Szafir, Christopher Collins
+
+**Rainbow Dash: Intuitiveness, Interpretability and Memorability of the Rainbow Color Scheme in Visualization**
+Authors: Izabela Golebiowska, Arzu Çöltekin
+
+**Understanding Data Visualization Design Practice**
+Authors: Paul Parsons
+
+**Learning Objectives, Insights, and Assessments: How Specification Formats Impact Design**
+Authors: Elsie Lee, Shiqing He, Eytan Adar
+
+**Untidy Data: The Unreasonable Effectiveness of Tables**
+Authors: Lyn Bartram, Michael Correll, Melanie Tory
+<br/>
+
+
+<hr/>
+
+<a>**Thursday, October 28**</a>
+**08:00-09:30AM CDT (UTC-5)**
+*Accessible Visualization and Natural Language*
+*Session Chair: Melanie Tory*
+
+**Accessible Visualization via Natural Language Descriptions: A Four-Level Model of Semantic Content**
+Authors: Alan Lundgard, Arvind Satyanarayan
+
+**Towards Understanding Sensory Substitution for Accessible Visualization: An Interview Study**
+Authors: Pramod Chundury, Biswaksen Patnaik, Yasmin Reyazuddin, Christine Tang, Jonathan Lazar, Niklas Elmqvist
+
+**Communicating Visualizations without Visuals: Investigation of Visualization Alternative Text for People with Visual Impairments**
+Authors: Crescentia Jung, Shubham Mehta, Atharva Kulkarni, Yuhang Zhao, Yea-Seul Kim
+
+**Natural Language to Visualization by Neural Machine Translation**
+Authors: Yuyu Luo, Nan Tang, Guoliang Li, Jiawei Tang, Chengliang Chai, Xuedi Qin
+
+**GenNI: Human-AI Collaboration for Data-Backed Text Generation**
+Authors: Hendrik Strobelt, Jambay Kinley, Robert Krüger, Johanna Beyer, Hanspeter Pfister, Alexander Rush
+
+**Words of Estimative Correlation: Studying Verbalizations of Scatterplots**
+Authors: Rafael Henkin, Cagatay Turkay
+<br/>
+
+
+<hr/>
+
+<a>**Thursday, October 28**</a>
+**08:00-09:30AM CDT (UTC-5)**
+*Flow, Topology, and Fields*
+*Session Chair: Gerik Scheuermann*
+
+**FTK: A Simplicial Spacetime Meshing Framework for Robust and Scalable Feature Tracking**
+Authors: Hanqi Guo, David Lenz, Jiayi Xu, Xin Liang, Wenbin He, Iulian R. Grindeanu, Han-Wei Shen, Tom Peterka, Todd Munson, Ian Foster
+
+**A Progressive Approach to Scalar Field Topology**
+Authors: Jules Vidal, Pierre Guillou, Julien Tierny
+
+**Unordered Task-Parallel Augmented Merge Tree Construction**
+Authors: Kilian Werner, Christoph Garth
+
+**Wasserstein Distances, Geodesics and Barycenters of Merge Trees**
+Authors: Mathieu Pont, Jules Vidal, Julie Delon, Julien Tierny
+
+**Optimization and Augmentation for Data Parallel Contour Trees**
+Authors: Hamish A. Carr, Oliver Rübel, Gunther H. Weber, James P. Ahrens
+
+**A Domain-Oblivious Approach for Learning Concise Representations of Filtered Topological Spaces for Clustering**
+Authors: Yu Qin, Brittany Terese Fasy, Carola Wenk, Brian Summa
+<br/>
+
+
+<hr/>
+
+<a>**Thursday, October 28**</a>
+**10:00-11:30AM CDT (UTC-5)**
+*Grammar and Learning*
+*Session Chair: Dominik Moritz*
+
+**ChartSeer: Interactive Steering Exploratory Visual Analysis with Machine Intelligence**
+Authors: Jian Zhao, Mingming Fan, Mi Feng
+
+**Net2Vis - A Visual Grammar for Automatically Generating Publication-Tailored CNN Architecture Visualizations**
+Authors: Alex Bäuerle, Christian van Onzenoodt, Timo Ropinski
+
+**Gosling: A Grammar-based Toolkit for Scalable and Interactive Genomics Data Visualization**
+Authors: Sehi L'Yi, Qianwen Wang, Fritz Lekschas, Nils Gehlenborg
+
+**THALIS: Human-Machine Analysis of Longitudinal Symptoms in Cancer Therapy**
+Authors: Carla Floricel, Md Nafiul Nipu, Mikayla Biggs, Andrew Wentzel, Guadalupe Canahuate, Lisanne van Dijk, Abdallah Mohamed, Clifton David Fuller, G. Elisabeta Marai
+
+**MultiVision: Designing Analytical Dashboards with Deep Learning Based Recommendation**
+Authors: Aoyu Wu, Yun Wang, Mengyu Zhou, Xinyi He, Haidong Zhang, Huamin Qu, Dongmei Zhang
+
+**Interactive Graph Construction for Graph-Based Semi-Supervised Learning**
+Authors: Changjian Chen, Zhaowei Wang, Jing Wu, Xiting Wang, Lan-Zhe Guo, Yu-Feng Li, Shixia Liu
+<br/>
+
+
+<hr/>
+
+<a>**Thursday, October 28**</a>
+**10:00-11:30AM CDT (UTC-5)**
+*Autonomous Driving, Urban, and Spatiotemporal Data*
+*Session Chair: Catagay Turkay*
+
+**Geo-Context Aware Study of Vision-Based Autonomous Driving Models and Spatial Video Data**
+Authors: Suphanut Jamonnak, Ye Zhao, Xinyi Huang, Md Amiruzzaman
+
+**Visual Evaluation for Autonomous Driving**
+Authors: Yijie Hou, Chengshun Wang, Junhong Wang, Xiangyang Xue, Xiaolong Zhang, Jun Zhu, Dongliang Wang, Siming Chen
+
+**Where Can We Help? A Visual Analytics Approach to Diagnosing and Improving Semantic Segmentation of Movable Objects**
+Authors: Wenbin He, Lincan Zou, Shekar Arvind Kumar, Liang Gou, Liu Ren
+
+**Compass: Towards Better Causal Analysis of Urban Time Series**
+Authors: Zikun Deng, Di Weng, Xiao Xie, Jie Bao, Yu Zheng, Mingliang Xu, Wei Chen, Yingcai Wu
+
+**Visual Cascade Analytics of Large-scale Spatiotemporal Data**
+Authors: Zikun Deng, Di Weng, Yuxuan Liang, Jie Bao, Yu Zheng, Tobias Schreck, Mingliang Xu, Yingcai Wu
+
+**DDLVis: Real-time Visual Query of Spatiotemporal Data Distribution via Density Dictionary Learning**
+Authors: Chenhui Li, George Baciu, Yunzhe WANG, Junjie Chen, Changbo Wang
+<br/>
+
+
+<hr/>
+
+<a>**Thursday, October 28**</a>
+**10:00-11:30AM CDT (UTC-5)**
+*Scalability and Rendering*
+*Session Chair: Hanqi Guo*
+
+**Interactive Focus+Context Rendering for Hexahedral Mesh Inspection**
+Authors: Christoph Neuhauser, Junpeng Wang, Rüdiger Westermann
+
+**Differentiable Direct Volume Rendering**
+Authors: Sebastian Weiss, Rüdiger Westermann
+
+**Accelerating Unstructured Mesh Point Location with RT Cores**
+Authors: Nate Morrical, Ingo Wald, Will Usher, Valerio Pascucci
+
+**Probabilistic Occlusion Culling using Confidence Maps for High-Quality Rendering of Large Particle Data**
+Authors: Mohamed Ibrahim, Peter Rautek, Guido Reina, Marco Agus, Markus Hadwiger
+
+**A Memory Efficient Encoding for Ray Tracing Large Unstructured Data**
+Authors: Ingo Wald, Nate Morrical, Stefan Zellmann
+
+**Pyramid-based Scatterplots Sampling for Progressive and Streaming Data Visualization**
+Authors: Xin Chen, Jian Zhang, Chi-Wing Fu, Jean-Daniel Fekete, Yunhai Wang
+<br/>
+
+
+<hr/>
+
+<a>**Thursday, October 28**</a>
+**10:00-11:30AM CDT (UTC-5)**
+*Short Papers: Graphs, Charts, and Perception*
+*Session Chair: Tanja Blascheck*
+
+**TimeElide: Visual Analysis of Non-Contiguous Time Series Slices**
+Authors: Michael Oppermann, Luce Liu, Tamara Munzner
+
+**Semantic Resizing of Charts Through Generalization: A Case Study with Line Charts**
+Authors: Vidya Setlur, Haeyong Chung
+
+**Bayesian Modelling of Alluvial Diagram Complexity**
+Authors: Anjana Arunkumar, Shashank Ginjpalli, Chris Bryan
+
+**When Red Means Good, Bad, or Canada: Exploring People's Reasoning for Choosing Color Palettes**
+Authors: Jarryullah Ahmad, Elaine Huynh, Fanny Chevalier
+
+**Does the Layout Really Matter? A Study on Visual Model Accuracy Estimation**
+Authors: Nicolas Grossmann, Jürgen Bernard, Michael Sedlmair, Manuela Waldner
+
+**Histogram binning revisited with a focus on human perception**
+Authors: Raphael Sahann, Torsten Möller, Johanna Schmidt
+
+**Fixation and Creativity in Data Visualization Design: Experiences and Perspectives of Practitioners**
+Authors: Paul Parsons, Prakash Chandra Shukla, Chorong Park
+
+**Towards a Survey on Static and Dynamic Hypergraph Visualizations**
+Authors: Maximilian T. Fischer, Alexander Frings, Daniel Keim, Daniel Seebacher
+<br/>
+
+
+<hr/>
+
+<a>**Thursday, October 28**</a>
+**12:00-01:30PM CDT (UTC-5)**
+*Time Series and Events*
+*Session Chair: Wolfgang Aigner*
+
+**KD-Box: Line-segment-based KD-tree for Interactive Exploration of Large-scale Time-Series Data**
+Authors: Yue Zhao, Jian Zhang, Chi-Wing Fu, Mingliang Xu, Dominik Moritz, Yunhai Wang
+
+**Sequen-C: A Multilevel Overview of Temporal Event Sequences**
+Authors: Jessica Magallanes, Tony Stone, Paul Morris, Suzanne Mason, Steven Wood, Maria-Cruz Villa-Uriol
+
+**EVis: Visually Analyzing Environmentally Driven Events**
+Authors: Tinghao Feng, Jing Yang, Martha-Cary Eppes, Zhaocong Yang, Faye Moser
+
+**Interactive Visual Exploration of Longitudinal Historical Career Mobility Data**
+Authors: Yifang Wang, Hongye Liang, Xinhuan Shu, Jiachen Wang, Ke Xu, Zikun Deng, Cameron Campbell, Bijia Chen, Yingcai Wu, Huamin Qu
+
+**HisVA: a Visual Analytics System for Learning History**
+Authors: Dongyun Han, Gorakh Parsad, Hwiyeon Kim, Jaekyom Shim, Oh-Sang Kwon, Kyung Son, Jooyoung Lee, Isaac Cho, Sungahn Ko
+
+**SSR-TVD: Spatial Super-Resolution for Time-Varying Data Analysis and Visualization**
+Authors: Jun Han, Chaoli Wang
+<br/>
+
+
+<hr/>
+
+<a>**Thursday, October 28**</a>
+**12:00-01:30PM CDT (UTC-5)**
+*Graphs and Trees*
+*Session Chair: Johannes Fuchs*
+
+**Multi-level Area Balancing of Clustered Graphs**
+Authors: Hsiang-Yun Wu, Martin Nöllenburg, Ivan Viola
+
+**Understanding Missing Links in Bipartite Networks with MissBiN**
+Authors: Jian Zhao, Maoyuan Sun, Francine Chen, Patrick Chiu
+
+**A State-of-the-Art Survey of Tasks for Tree Design and Evaluation with a Curated Task Dataset**
+Authors: Aditeya Pandey, Uzma Syeda, Chaitya Shah, John Alexis Guerra Gomez, Michelle A. Borkin
+
+**Edge-Path Bundling: A Less Ambiguous Edge Bundling Approach**
+Authors: Markus Wallinger, Daniel Archambault, David Auber, Martin Nöllenburg, Jaakko Peltonen
+
+**STRATISFIMAL LAYOUT: A Modular Optimization Model for Laying Out Layered Node-link Network Visualizations**
+Authors: Sara Di Bartolomeo, Mirek Riedewald, Wolfgang Gatterbauer, Cody Dunne
+
+**Interactive Visual Pattern Search on Graph Data via Graph Representation Learning**
+Authors: Huan Song, Zeng Dai, Panpan Xu, Liu Ren
+<br/>
+
+
+<hr/>
+
+<a>**Thursday, October 28**</a>
+**12:00-01:30PM CDT (UTC-5)**
+*Mitigating Bias*
+*Session Chair: Evanthia Dimara*
+
+**Left, Right, and Gender: Exploring Interaction Traces to Mitigate Human Biases**
+Authors: Emily Wall, Arpit Narechania, Adam Coscia, Jamal Paden, Alex Endert
+
+**VisQA: X-raying Vision and Language Reasoning in Transformers**
+Authors: Theo Jaunet, Corentin Kervadec, Romain Vuillemot, Grigory Antipov, Moez Baccouche, Christian Wolf
+
+**The Weighted Average Illusion: Biases in Perceived Mean Position in Scatterplots**
+Authors: Matt-Ian Hong, Jessica Witt, Danielle Albers Szafir
+
+**Impact of Cognitive Biases on Progressive Visualization**
+Authors: Marianne Procopio, Ab Mosca, Carlos Scheidegger, Eugene Wu, Remco Chang
+
+**Improving Visualization Interpretation Using Counterfactuals**
+Authors: Smiti Kaul, David Borland, Nan Cao, David Gotz
+
+**Lumos: Increasing Awareness of Analytic Behavior during Visual Data Analysis**
+Authors: Arpit Narechania, Adam Coscia, Emily Wall, Alex Endert
+<br/>
+
+
+<hr/>
+
+<a>**Thursday, October 28**</a>
+**12:00-01:30PM CDT (UTC-5)**
+*Short Papers: Applications*
+*Session Chair: Michael Krone*
+
+**A Visual Analytics System for Water Distribution System Optimization**
+Authors: Yiran Li, Erin Musabandesu, Takanori Fujiwara, Frank J. Loge, Kwan-Liu Ma
+
+**CellProfiler Analyst Web (CPAW) - Exploration, analysis, and classification of biological images on the web**
+Authors: Bella Baidak, Yahiya Hussain, Emma Kelminson, Thouis Ray Jones, Loraine Franke, Daniel Haehn
+
+**Inspecting the Process of Bank Credit Rating via Visual Analytics**
+Authors: Qiangqiang Liu, Tangzhi Ye, Zhihua Zhu, Xiaojuan Ma, Quan Li
+
+**Where and Why is My Bot Failing? A Visual Analytics Approach for Investigating Failures in Chatbot Conversation Flows**
+Authors: Avi Yaeli, Sergey Zeltyn
+
+**AiR: An Augmented Reality Application for Visualizing Air Pollution**
+Authors: Noble Saji Mathews, Sridhar Chimalakonda, Suresh Jain
+
+**ConVIScope: Visual Analytics for Exploring Patient Conversations**
+Authors: Raymond Li, Enamul Hoque, Giuseppe Carenini, Richard Lester, Raymond Chau
+
+**Visually Connecting Historical Figures Through Event Knowledge Graphs**
+Authors: Shahid Latif, Shivam Agarwal, Simon Gottschalk, Carina Chrosch, Yanick Christian Tchenko, Felix Feit, Johannes Jahn, Tobias Braun, Elena Demidova, Fabian Beck
+
+**Understanding the Effects of Visualizing Missing Values on Visual Data Exploration**
+Authors: Hayeong Song, Yu Fu, Bahador Saket, John Stasko
+<br/>
+
+
+<hr/>
+
+<a>**Friday, October 29**</a>
+**08:00-09:30AM CDT (UTC-5)**
+*Data-Driven Communication and Storytelling*
+*Session Chair: Zhicheng Liu*
+
+**A Design Space for Applying the Freytag's Pyramid Structure to Data Stories**
+Authors: Leni Yang, Xian XU, Xingyu Lan, Ziyan Liu, Shunan Guo, Yang Shi, Huamin Qu, Nan Cao
+
+**Kineticharts: Augmenting Affective Expressiveness of Charts in Data Stories with Animation Design**
+Authors: Xingyu Lan, Yang Shi, Yanqiu Wu, Xiaohan Jiao, Nan Cao
+
+**Interactive Data Comics**
+Authors: Zezhong Wang, Hugo Romat, Fanny Chevalier, Nathalie Henry Riche, Dave Murray-Rust, Benjamin Bach
+
+**Declutter and Focus: Empirically Evaluating Design Guidelines for Effective Data Communication**
+Authors: Kiran Ajani, Elsie Lee, Cindy Xiong, Cole Knaflic, William Kemper, Steven Franconeri
+
+**Showing Data about People: A Design Space of Anthropographics**
+Authors: Luiz Morais, Yvonne Jansen, Nazareno Andrade, Pierre Dragicevic
+
+**Visual Arrangements of Bar Charts Influence Comparisons in Viewer Takeaways**
+Authors: Cindy Xiong, Vidya Setlur, Benjamin Bach, Kylie Lin, Eunyee Koh, Steven Franconeri
+<br/>
+
+
+<hr/>
+
+<a>**Friday, October 29**</a>
+**08:00-09:30AM CDT (UTC-5)**
+*Glyphs and Sets*
+*Session Chair: Johannes Fuchs*
+
+**Generative Design Inspiration for Glyphs with Diatoms**
+Authors: Matthew Brehmer, Robert Kosara, Carmen Hull
+
+**GlyphCreator: Towards Automatic Generation of Example-based Circular Glyphs**
+Authors: Lu Ying, Tan Tang, Yuzhe Luo, Lvkesheng Shen, Xiao Xie, Lingyun Yu, Yingcai Wu
+
+**Shape-driven Coordinate Ordering for Star Glyph Sets via Reinforcement Learning**
+Authors: Ruizhen Hu, Bin Chen, Juzhan Xu, Oliver van Kaick, Oliver Deussen, Hui Huang
+
+**F2-Bubbles: Faithful Bubble Set Construction and Flexible Editing**
+Authors: Yunhai Wang, Da Cheng, Zhirui Wang, Jian Zhang, Liang Zhou, Gaoqi He, Oliver Deussen
+
+**spEuler: Semantics-preserving Euler Diagrams**
+Authors: Rebecca Kehlbeck, Jochen Görtler, Yunhai Wang, Oliver Deussen
+
+**Visualization of 3D Stress Tensor Fields Using Superquadric Glyphs on Displacement Streamlines**
+Authors: Mohak Patel, David H. Laidlaw
+<br/>
+
+
+<hr/>
+
+<a>**Friday, October 29**</a>
+**08:00-09:30AM CDT (UTC-5)**
+*Uncertainty*
+*Session Chair: Matthew Kay*
+
+**Network Hypothetical Outcome Plots for Visualizing Uncertainty in Probabilistic Network Data**
+Authors: Dongping Zhang, Eytan Adar, Jessica Hullman
+
+**Implicit Error, Uncertainty and Confidence in Visualization: an Archaeological Case Study**
+Authors: Georgia Panagiotidou, Ralf Vandam, Jeroen Poblome, Andrew Moere
+
+**Examining Effort in 1D Uncertainty Communication Using Individual Differences in Working Memory and NASA-TLX**
+Authors: Spencer Castro, Helia Hosseinpour, P. Samuel Quinan, Lace Padilla
+
+**Can Visualization Alleviate Dichotomous Thinking? Effects of Visual Representations on the Cliff Effect**
+Authors: Jouni Helske, Satu Helske, Matthew Cooper, Anders Ynnerman, Lonni Besançon
+
+**Effect of Uncertainty Visualizations on Myopic Loss Aversion and Equity Premium Puzzle in Retirement Investment Decisions**
+Authors: Ryan Wesslen, Alireza Karduni, Doug Markant, Wenwen Dou
+
+**Visualization Equilibrium**
+Authors: Paula Kayongo, Glenn Sun, Jason Hartline, Jessica Hullman
+<br/>
+
+
+<hr/>
+
+<a>**Friday, October 29**</a>
+**08:00-09:30AM CDT (UTC-5)**
+*Short Papers: Mathematics, Topology, and Rendering*
+*Session Chair: Bei Wang*
+
+**Time-Varying Fuzzy Contour Trees**
+Authors: Anna-Pia Lohfink, Frederike Gartzky, Florian Wetzels, Luisa Vollmer, Christoph Garth
+
+**Ray-traced Shell Traversal of Tetrahedral Meshes for Direct Volume Visualization**
+Authors: Alper Şahıstan, Serkan Demirci, Nate Morrical, Stefan Zellmann, Aytek Aman, Ingo Wald, Ugur Gudukbay
+
+**Segmentation driven Peeling for Visual Analysis of Electronic Transitions**
+Authors: Mohit Sharma, Talha Bin Masood, Signe Sidwall Thygesen, Mathieu Linares, Ingrid Hotz, Vijay Natarajan
+
+**Exact Analytical Parallel Vectors**
+Authors: Hanqi Guo, Tom Peterka
+
+**Uncertainty Visualization of the Marching Squares and Marching Cubes Topology Cases**
+Authors: Tushar M. Athawale, Sudhanshu Sane, Chris R. Johnson
+
+**Intercept Graph: An Interactive Radial Visualization for Comparison of State Changes**
+Authors: Shaolun Ruan, Yong Wang, Qiang Guan
+
+**Automatic Y-axis Rescaling in Dynamic Visualizations**
+Authors: Jacob Fisher, Remco Chang, Eugene Wu
+
+**A Mixed-Initiative Visual Analytics Approach for Qualitative Causal Modeling**
+Authors: Fahd Husain, Pascale Proulx, Meng-Wei Chang, Rosa Romero-Gómez, Holland Marie Vasquez
+<br/>
+
+
+<hr/>
+
+<a>**Friday, October 29**</a>
+**10:00-11:30AM CDT (UTC-5)**
+*Model Evaluation*
+*Session Chair: Adam Perer*
+
+**Inspecting the Running Process of Horizontal Federated Learning via Visual Analytics**
+Authors: Quan Li, Xiguang Wei, Huanbin Lin, Yang Liu, Tianjian Chen, Xiaojuan Ma
+
+**An Evaluation-Focused Framework for Visualization Recommendation Algorithms**
+Authors: Zehua Zeng, Phoebe Moh, Fan Du, Jane Hoffswell, Tak Yeon Lee, Sana Malik, Eunyee Koh, Leilani Battle
+
+**Visual Analysis of Hyperproperties for Understanding Model Checking Results**
+Authors: Tom Horak, Norine Coenen, Niklas Metzger, Christopher Hahn, Tamara Flemisch, Julián Méndez, Dennis Dimov, Bernd Finkbeiner, Raimund Dachselt
+
+**FairRankVis: A Visual Analytics Framework for Exploring Algorithmic Fairness in Graph Mining Models**
+Authors: Tiankai Xie, Yuxin Ma, Jian Kang, Hanghang Tong, Ross Maciejewski
+
+**embComp: Visual Interactive Comparison of Vector Embeddings**
+Authors: Florian Heimerl, Christoph Kralj, Torsten Möller, Michael Gleicher
+
+**VBridge: Connecting the Dots Between Features, Explanations, and Data for Healthcare Models**
+Authors: Furui Cheng, Dongyu Liu, Fan Du, Yanna Lin, Alexandra Zytek, Haomin Li, Huamin Qu, Kalyan Veeramachaneni
+<br/>
+
+
+<hr/>
+
+<a>**Friday, October 29**</a>
+**10:00-11:30AM CDT (UTC-5)**
+*Biological and Medical Visualization*
+*Session Chair: Bara Kozlikova*
+
+**COVID-view: Diagnosis of COVID-19 using Chest CT**
+Authors: Shreeraj Jadhav, Gaofeng Deng, Marlene Zawin, Arie E. Kaufman
+
+**LoopGrafter: Visual Support for the Grafting Workflow of Protein Loops**
+Authors: Filip Opálený, Pavol Ulbrich, Joan Planas-Iglesias, Jan Byška, Gaspar Pinto, David Bednář, Katarína Furmanová, Barbora Kozlikova
+
+**ThreadStates: State-based Visual Analysis of Disease Progression**
+Authors: Qianwen Wang, Tali Mazor, Theresa Harbig, Ethan Cerami, Nils Gehlenborg
+
+**Loon: Using Exemplars to Visualize Large Scale Microscopy Data**
+Authors: Devin Lange, Eddie Polanco, Robert Judson-Torres, Thomas Zangle, Alexander Lex
+
+**Scope2Screen: Focus+Context Techniques for Pathology Tumor Assessment in Multivariate Image Data**
+Authors: Jared Jessup, Robert Krüger, Simon Warchol, John Hoffer, Jeremy Muhlich, Cecily C. Ritch, Giorgio Gaglia, Shannon Coy, Yu-An Chen, Jia-Ren Lin, Sandro Santagata, Peter Sorger, Hanspeter Pfister
+
+**Multiscale Unfolding: Illustratively Visualizing the Whole Genome at a Glance**
+Authors: Sarkis Halladjian, David Kouril, Haichao Miao, Eduard Gröller, Ivan Viola, Tobias Isenberg
+<br/>
+
+
+<hr/>
+
+<a>**Friday, October 29**</a>
+**10:00-11:30AM CDT (UTC-5)**
+*Efficient Representation and Layout*
+*Session Chair: Markus Hadwiger*
+
+**Rapid Labels: Point-Feature Labeling on GPU**
+Authors: Václav Pavlovec, Ladislav Čmolík
+
+**Scalable Scalable Vector Graphics: Automatic Translation of Interactive SVGs to a Multithread VDOM for Fast Rendering**
+Authors: Michail Schwab, David Saffo, Nicholas Bond, Shash Sinha, Cody Dunne, Jeff Huang, James Tompkin, Michelle A. Borkin
+
+**Probabilistic Data-Driven Sampling via Multi-Criteria Importance Analysis**
+Authors: Ayan Biswas, Soumya Dutta, Earl Lawrence, John Patchett, Jon C. Calhoun, James P. Ahrens
+
+**An Efficient Dual-Hierarchy tSNE Minimization**
+Authors: Mark van de Ruit, Markus Billeter, Elmar Eisemann
+
+**Joint t-SNE for Comparable Projections of Multiple High-Dimensional Datasets**
+Authors: Yinqiao Wang, Lu Chen, Jaemin Jo, Yunhai Wang
+
+**Automatic Polygon Layout for Primal-Dual Visualization of Hypergraphs**
+Authors: Botong Qu, Eugene Zhang, Yue Zhang
+<br/>
+
+
+
 <hr />
 
+What follows is the list of individual papers.
+
+<hr />
 
 ## VIS Full Papers
 
