@@ -10,129 +10,87 @@ More detail about posters and their associated presentations will be released wi
 
 <hr />
 
-**Visual Exploration of Network Meta-Analysis Data**
-Authors: Huan He, Irbaz Bin Riaz, Syed Arsalan Ahmed Naqvi, Rabbia Siddiqi, M. Hassan Murad, Hongfang Liu
+**Empowering Natural Language to Visualization Neural Translation using Synthesized Benchmarks**<br/>
+Authors: Yuyu Luo, Jiawei Tang, Guoliang Li, Chengliang Chai
 
-**regvis.net – A Visual Bibliography of Regulatory Visualization**
-Authors: Zhibin Niu, Runlin Li, Junqi Wu, yaqi xue, Jiawan Zhang
+**Visualization to Study Bias in Image Annotations and to Support Annotation Based on Semantic Differential**<br/>
+Authors: Akari Iijima, Takayuki Itoh
 
-**Emergency Department Wait Time Visibility: Stakeholder perspectives**
-Authors: Katie Walker, Melanie Stephenson, Anne Loupis, Tim Dwyer
+**Argo Scholar: Interactive Visual Exploration of Literature in Browsers**<br/>
+Authors: Kevin Li, Haoyang Yang, Anish Upadhayay, Zhiyan Zhou, Jon Saad-Falcon, Duen Horng Chau
 
-**A Design Critique of Charts in SEC 10-K Filings**
-Authors: Nathan Garrett
+**Towards Automatic Grading of D3.js Visualizations**<br/>
+Authors: Matthew Hull, Connor Guerin, Justin Lu Chen, Susanta Kumar Routray, Duen Horng Chau
 
-**A Minimally Constrained Optimization Algorithm for Table Cartograms**
-Authors: Andrew McNutt, Gordon Kindlmann
+**A Visualization Authoring Model for Post-WIMP Interfaces**<br/>
+Authors: Marc Satkowski, Weizhou Luo, Raimund Dachselt
 
-**A Hybrid Multi-Layer Network Visualization for Exploring Overlapping Biclusters**
-Authors: Ainhoa Zapirain, Nicolas Medoc, Mohammad Ghoniem
+**TrafficVis: Visualizing Suspicious Meta-Clusters for Human Trafficking Detection**<br/>
+Authors: Catalina Vajiac, Andreas Olligschlaeger, Yifei Li, Pratheeksha Nair, Meng-Chieh Lee, Namyong Park, Reihaneh Rabbany, Duen Horng Chau, Christos Faloutsos
 
-**Supporting Music Education through Visualizations of MIDI Recordings**
-Authors: Frank Heyen, Michael Sedlmair
+**Enhancing Understanding of Constitutional Law through Visual Design**<br/>
+Authors: Yiwen Xing, Nicholas Cole, Rita Borgo, Alfie Abdul-Rahman
 
-**Visualizing Branches and Metrics of Version Control Systems on Mobile Devices**
-Authors: Will Boyd, Nicholas Diliberti, Haeyong Chung
+**Evaluating the Effect of Visualizing Dimensions Search Space on Exploratory Visual Data Analysis**<br/>
+Authors: Abeer Alsaiari, Andrew E. Johnson
 
-**Evaluating the Effects of Visualizing Missing Values on Data Exploration**
-Authors: Hayeong Song, Bahador Saket, John Stasko
+**Show or Tell? Visual and Verbal Representations Bias Position Recall**<br/>
+Authors: Cristina R. Ceja, Cindy Xiong
 
-**Mapping Researchers with PeopleMap**
-Authors: Jon Saad-Falcon, Omar Shaikh, Zijie Wang, Austin Wright, Sasha Richardson, Duen Horng Chau
+**3D Animation of Wildfire Plumes**<br/>
+Authors: Carl Drews
 
-**Tangible Volumetric Brushing in Augmented Reality**
-Authors: Stéphane Gosset, Mickael SERENO, Lonni Besançon, Tobias Isenberg
+**Visualization of Bias of Machine Learning for Content Recommendation**<br/>
+Authors: Ami Tochigi, Takayuki Itoh, Xiting Wang
 
-**Exploring a Multi-focus Visual Comparison of Dynamic Graphs**
-Authors: Hagen Tarner, Ivan Beschastnikh, Fabian Beck
+**Dynamic Ranking of IEEE VIS Author Importance**<br/>
+Authors: Daniel Witschard, Ilir Jusufi, Andreas Kerren
 
-**PlotWorkspace: An Interactive Visual Analytics Tool for Field Phenotyping Data**
-Authors: Aristides Mairena, Carl Gutwin
+**PhosProViz: A Web-based Platform for Interactive Visual Exploration of Phosphoproteomics Network Data**<br/>
+Authors: Irene Font Peradejordi, Shreya Chandrasekar, Berk Turhan, Selim Kalayci, Jeffrey Johnson, Zeynep H. Gümüş
 
-**Interactive Radviz Visualization System Using Hierarchical Approach for Large-Multidimensional Data**
-Authors: Hyeonsik Gong, Hyoji Ha, Kyungwon Lee
+**Visilence: An Interactive Visualization Tool for Error Resilience Analysis**<br/>
+Authors: Shaolun Ruan, Yong Wang, Qiang Guan
 
-**Visualization of Marine Plastic Pollution Data in Augmented Reality**
-Authors: Yoon Chung Han, Darpan Goyal
+**Evaluating Performance of Rendering with Containerized Visualization Tools**<br/>
+Authors: Renee Waverly Sonntag, Joseph Insley, Janet Knowles, Victor A. Mateevitsi, Michael E. Papka, Silvio Rizzi
 
-**Interactive Visual Exploration of defect prediction in industrial setting  through explainable models based on SHAP values**
-Authors: Milot Gashi, Belgin Mutlu, Josef Suschnigg, Patrick Ofner, Stefan Pichler, Tobias Schreck
+**Designing a Base Map for Users with Low Vision**<br/>
+Authors: Vaidehi Patil, David Kelley, Lisa Everdyke
 
-**An Interactive System for Analyzing Plant Embryo Cell Division**
-Authors: Jiayi Hong, Ferran Argelaguet Sanz, Alain Trubuil, Tobias Isenberg
+**Solving Constraint Optimisation Problems in Augmented Reality**<br/>
+Authors: Alexander Turkovic, Guido Tack, Maxime Cordeil
 
-**Interactive Seismic Data Visualization via Virtual Reality Devices**
-Authors: Min Gao, Hailong Wang, Shunlong Ye, Lijun Wang, Richen Liu
+**A User-Centered Survey of Immersive Analytics**<br/>
+Authors: Payod Panda, Sana Behnam-Asl, Byungsoo Kim, Elif Sener
 
-**Robust 3-D Field Line Query Based on Data Fusion of Multiple Leap Motions**
-Authors: Shunlong Ye, Guang Yang, Ziyu Yao, Xueyi Chen, Ting Jin, Genlin Ji, Richen Liu
+**Visual Analysis of Corporate Tolerance to Sales Decline by Industry**<br/>
+Authors: Masahiko Itoh, Yoshiki Hiramine, Kohei Arimoto
 
-**Multi-user Collaborative Volume Data Illustration and Visualization**
-Authors: Chuyu Zhang, Xiaojian Chen, Yu Zhu, Xiaohan Wang, Siru Chen, Richen Liu
-
-**Towards a Knowledge-Based Recommendation System for Genomics Visualization**
-Authors: Aditeya Pandey, Sehi L'Yi, Nils Gehlenborg
-
-**Looking to the Past to Visualize the Present: Revisiting W.E.B. Du Bois' Abolitionist Visualizations**
-Authors: Andrew Cunningham, Alyxander Burns, Narges Mahyar
-
-**Visualizing Participatory Inequities in Classroom Data**
-Authors: Poorna Talkad Sukumar, Daniel Reinholz, Niral Shah, Aaron Striegel
-
-**Physicalization Inspired by Kirigami**
-Authors: Foroozan Daneshzand, Bhairavi Warke, Charles Perin, Sheelagh Carpendale
-
-**Exploring Active Practice in Spatial Thinking**
-Authors: Maryam Rezaie, Lien Quach, Victor Cheung, Sheelagh Carpendale
-
-**A Taxonomy of Visualization Research Cases of Sentiment Analysis Data based on Visual Metaphors**
-Authors: Hyoji Ha, Kyungwon Lee
-
-**Prototype for Visualizing Point Clouds by Using Voxels with Different Resolutions Depending on the Distance**
-Authors: Masahiko Itoh, Yuto Honma
-
-**Visual Analysis of COVID-19 Community Surveillance**
-Authors: Huan He, Liwei Wang, Andrew Wen, Ming Huang, Yanshan Wang, Hongfang Liu
-
-**Towards Understanding Multimodal Interaction for Visual Data Analysis**
-Authors: Marcel Ruoff, Alexander Maedche
-
-**Immersive visualisation of COVID-19 UK travel and US happiness data**
-Authors: Rhys Williams, Dan Farmer, Jonathan Roberts, Panagiotis Ritsos
-
-**Music Genre Bars**
+**Evaluating & Updating Music Genre Bars**<br/>
 Authors: Swaroop Panda, Shatarupa Thakurta Roy
 
-**Generating Seizure-Inducing Sequences with Interactive Visualizations**
-Authors: Laura South, Michelle Borkin
+**What are the topics in football? Extracting time-series topics from game episodes**<br/>
+Authors: Gota Shirato, Natalia Andrienko, Gennady Andrienko
 
-**Situated Visualization in Motion**
-Authors: LIJIE YAO, Anastasia Bezerianos, Petra Isenberg
+**Interactive Probing of Multivariate Time Series Prediction Models: A Case of Freight Rate Analysis**<br/>
+Authors: Haonan Xu, Haotian Li, Yong Wang
 
-**Subjective Views in Co-Located Augmented Reality–Initial Design**
-Authors: Mickael SERENO, Tobias Isenberg
+**MultiAggr: A Technique for Aggregating Multivariate Networks**<br/>
+Authors: Pranav Rajan, Derya Akbaba, Jack Wilburn, Roni Choudhury, Alexander Lex
 
-**Effect of Word Placement on At-a-glance Perception in Word Clouds**
-Authors: Muyang Shi, Danielle Szafir, Eric Alexander
+**OPPVIS: Visualizing Online Partisan Polarization on COVID-19**<br/>
+Authors: Zachary Yang, Anne Imouza, Kellin Pelrine, Sacha Lévy, Jiewen Liu, Gabrielle Desrosiers-Brisebois, Jean-François Godbout, André Blais, Reihaneh Rabbany
 
-**Visualizing Symptom Development During Head and Neck Cancer Treatment**
-Authors: Carla Floricel, Md Nafiul Nipu, Andrew Wentzel, Naveen Kumar, Lisanne van Dijk, Guadalupe Canahuate, Clifton David Fuller, G. Elisabeta Marai
+**A Network Visualization of Sustainable Consumption Corridors**<br/>
+Authors: Michael Jeffrey Daniel Hoefer, Stephen Voida
 
-**COVID Gowns: Breaking Scales with an Unknown End**
-Authors: Sarah Storteboom, Tatiana Losev, Neil Chulpongsatorn, Jackie Yu, Sheelagh Carpendale, Søren Knudsen
+**Turing Galaxy: Visualizing Turing Award Laureates**<br/>
+Authors: Xinyuan Yan, Yifang Ma
 
-**Black and White Textures for Visualization on E-ink Displays**
-Authors: Yuanyang Zhong, Tobias Isenberg, Petra Isenberg
+**COVID-19 Dashboard: Tracking the Regional Pandemic Trend**<br/>
+Authors: Huan He, Andrew Wen, Liwei Wang, Ming Huang, Yanshan Wang, Hongfang Liu
 
-**Automatic Generation of Data Legends for 3D Multi-Variate Artist Driven Visualizations**
-Authors: Claire Weissman, Bridger Herman, Stephanie Zeller, Francesca Samsel, Daniel Keefe
-
-**UrbanForest: Seeing the data forest despite the trees**
-Authors: Akm Islam, Aritra Dasgupta
-
-**Designing Visual Learning Analytics for Supporting Equity in STEM Classrooms**
-Authors: Ali Raza, Bill Penuel, Tamara Sumner
-
-**Speech-Based Emotion Recognition using Neural Networks and Information Visualization**
-Authors: Jumana Almahmoud, Kruthika Kikkeri
+**Interactive Visual Exploration of Pairwise Meta-Analysis Results**<br/>
+Authors: Huan He, Irbaz Bin Riaz, Syed Arsalan Ahmed Naqvi, Rabbia Siddiqi, Noureen Asghar, Mahnoor Islam, M. Hassan Murad, Hongfang Liu
 
