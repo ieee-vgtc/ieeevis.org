@@ -99,5 +99,14 @@ Authors: Michael Oppermann, Tamara Munzner
 
 ### Best Paper Award
 
+**Jurassic Mark: Inattentional Blindness for a Datasaurus Reveals that Visualizations are Explored, not Seen**  
+Authors: Tal Boger, Steven Most, Steven Franconeri
+
 ### Best Paper Honorable Mention
+
+**Semantic Resizing of Charts Through Generalization: A Case Study with Line Charts**  
+Authors: Vidya Setlur, Haeyong Chung
+
+**Exact Analytical Parallel Vectors**  
+Authors: Hanqi Guo, Tom Peterka
 
