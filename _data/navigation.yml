@@ -176,9 +176,9 @@ menu:
                     description: "The latest research in theory, methods, and applications of visualization"
                     url: "/year/2021/info/papers-sessions"
                     is_new: true
-                  #   - text: "Posters"
-                  #     description: "Nascent and recent work"
-                  #     url: "/year/2021/info/posters"
+                  - text: "Posters"
+                    description: "Nascent and recent work"
+                    url: "/year/2021/info/posters"
                   - text: "Tutorials"
                     description: "Learn new tools and application domains"
                     url: "/year/2021/info/tutorials"
