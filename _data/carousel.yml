@@ -1,8 +1,26 @@
+- title: "VIS 2022 now in Oklahoma"
+  image: "downtown_okc.jpg"
+  description: "Due to the ongoing COVID-19 pandemic, VIS 2022 will be held in Oklahoma City, OK, and the Melbourne, Australia event will be postponed until 2023. "
+  button-text: "Read more"
+  button-url: "/blog/vis-22-in-oklahoma"
+  active: "active"
+
+- title: "Best Paper Awards Announced"
+  image: "exposure_lights.jpg"
+  description: "The Best Paper awards for full papers and short papers have been announced."
+  button-text: "See the awards"
+  button-url: "/info/awards/best-paper-awards"
+
+- title: "Paper Sessions Schedule Announced"
+  image: "clock.jpg"
+  description: "The tentative schedule for paper presentations has been released."
+  button-text: "See schedule"
+  button-url: "/info/papers-sessions"
+
 - title: "Keynote Speaker: danah boyd"
   button-text: "Read more"
   button-url: "/info/keynote-speaker"
   image: "danah_boyd.jpg"
-  active: "active"
 
 - title: "Capstone Speakers: Fernanda Viégas and Martin Wattenberg"
   button-text: "Read more"
@@ -26,7 +44,7 @@
   description: "Join us by participating in one of our worldwide, in-person satellite events."
   button-text: "See sites"
   button-url: "/info/satellite"
-  image: "earth.jpeg"
+  image: "earth.jpg"
 
 - title: "Supporters"
   image: "supporters.png"
