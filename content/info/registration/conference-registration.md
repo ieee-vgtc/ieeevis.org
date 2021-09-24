@@ -40,13 +40,13 @@ The list of content items that require content fee payment include:
 <ul>
   <li> <b>VIS Full paper or Short paper</b>: US$450</li>
   <li> <b>Symposium or Workshop paper (publishing in IEEE Xplore)</b>: US$450</li>
-  <li> <b>TVCG or CG&A paper</b>: US$125</li>
+  <li> <b>TVCG, CG&A or SIGGRAPH paper</b>: US$125</li>
   <li> <b>VIS, Symposium, or Workshop poster</b>: US$125</li>
 </ul>
 
 In order to pay the content fees, you need to provide the submission ID for papers and posters. The ID was assigned when publications were submitted for review via PCS.  Invited papers need to use the ID assigned by their editor.
 
-**Content fees should be paid by September 5, 2021. Content fees are not refundable.**
+**Content fees should be paid as soon as possible. Content fees are not refundable.**
 
 
 ## Registration FAQs
