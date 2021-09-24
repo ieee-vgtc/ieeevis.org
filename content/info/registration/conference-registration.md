@@ -34,13 +34,13 @@ All attendees need to register and will have access to conference downloadable c
 
 ## Content Fees
 
-Content fees will be required for IEEE Xplore papers and short papers, posters and invited papers from TVCG and CG&A. This year content fees are not being collected for other content items, like panels, tutorials, and symposia and workshops which are not published with IEEE Xplore. The individual who pays the content fee also needs to register for an admission ticket, because content fee payments are NOT considered a registration for conference admission.
+Content fees will be required for IEEE Xplore papers and short papers, posters and invited presentations from TVCG, CG&A, and SIGGRAPH papers. This year content fees are not being collected for other content items, like panels, tutorials, and symposia and workshops which are not published with IEEE Xplore. The individual who pays the content fee also needs to register for an admission ticket, because content fee payments are NOT considered a registration for conference admission.
 
 The list of content items that require content fee payment include:
 <ul>
   <li> <b>VIS Full paper or Short paper</b>: US$450</li>
   <li> <b>Symposium or Workshop paper (publishing in IEEE Xplore)</b>: US$450</li>
-  <li> <b>TVCG or CG&A paper</b>: US$125</li>
+  <li> <b>TVCG, CG&A, and SIGGRAPH presentations</b>: US$125</li>
   <li> <b>VIS, Symposium, or Workshop poster</b>: US$125</li>
 </ul>
 
