@@ -11,6 +11,12 @@
   button-text: "See the awards"
   button-url: "/info/awards/best-paper-awards"
 
+- title: "Test of Time Awards Announced"
+  image: "watch_old_wood.jpg"
+  description: "The Test of Time awards for Infovis, VAST, and SciVis have been announced."
+  button-text: "See the awards"
+  button-url: "/info/awards/test-of-time-awards"
+
 - title: "Paper Sessions Schedule Announced"
   image: "clock.jpg"
   description: "The tentative schedule for paper presentations has been released."
