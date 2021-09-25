@@ -650,6 +650,9 @@ Authors: Maximilian T. Fischer, Alexander Frings, Daniel Keim, Daniel Seebacher
 *Time Series and Events*<br/>
 *Session Chair: Wolfgang Aigner*
 
+**Interactive Visual Exploration of Longitudinal Historical Career Mobility Data**<br/>
+Authors: Yifang Wang, Hongye Liang, Xinhuan Shu, Jiachen Wang, Ke Xu, Zikun Deng, Cameron Campbell, Bijia Chen, Yingcai Wu, Huamin Qu
+
 **KD-Box: Line-segment-based KD-tree for Interactive Exploration of Large-scale Time-Series Data**<br/>
 Authors: Yue Zhao, Jian Zhang, Chi-Wing Fu, Mingliang Xu, Dominik Moritz, Yunhai Wang
 
@@ -658,9 +661,6 @@ Authors: Jessica Magallanes, Tony Stone, Paul Morris, Suzanne Mason, Steven Wood
 
 **EVis: Visually Analyzing Environmentally Driven Events**<br/>
 Authors: Tinghao Feng, Jing Yang, Martha-Cary Eppes, Zhaocong Yang, Faye Moser
-
-**Interactive Visual Exploration of Longitudinal Historical Career Mobility Data**<br/>
-Authors: Yifang Wang, Hongye Liang, Xinhuan Shu, Jiachen Wang, Ke Xu, Zikun Deng, Cameron Campbell, Bijia Chen, Yingcai Wu, Huamin Qu
 
 **HisVA: a Visual Analytics System for Learning History**<br/>
 Authors: Dongyun Han, Gorakh Parsad, Hwiyeon Kim, Jaekyom Shim, Oh-Sang Kwon, Kyung Son, Jooyoung Lee, Isaac Cho, Sungahn Ko
@@ -893,7 +893,7 @@ Authors: Tiankai Xie, Yuxin Ma, Jian Kang, Hanghang Tong, Ross Maciejewski
 **embComp: Visual Interactive Comparison of Vector Embeddings**<br/>
 Authors: Florian Heimerl, Christoph Kralj, Torsten Möller, Michael Gleicher
 
-**VBridge: Connecting the Dots Between Features, Explanations, and Data for Healthcare Models**<br/>
+**VBridge: Connecting the Dots Between Features and Data to Explain Healthcare Models**<br/>
 Authors: Furui Cheng, Dongyu Liu, Fan Du, Yanna Lin, Alexandra Zytek, Haomin Li, Huamin Qu, Kalyan Veeramachaneni
 <br/>
 
