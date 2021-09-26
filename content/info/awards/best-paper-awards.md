@@ -97,6 +97,16 @@ Authors: Michael Oppermann, Tamara Munzner
 
 ## Short Papers Awards
 
+The awards for short papers were selected by the best paper committee (short papers) from a competitive list of candidates.
+
+We would like to thank the committee members   
+Markus Hadwiger,  
+Yunhai Wang,  
+and Yingcai Wu  
+for their work and dedication.
+
+Congratulations to the awardees!
+
 ### Best Paper Award
 
 **Jurassic Mark: Inattentional Blindness for a Datasaurus Reveals that Visualizations are Explored, not Seen**  
@@ -109,4 +119,9 @@ Authors: Vidya Setlur, Haeyong Chung
 
 **Exact Analytical Parallel Vectors**  
 Authors: Hanqi Guo, Tom Peterka
+
+
+
+
+
 
