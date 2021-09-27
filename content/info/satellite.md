@@ -38,7 +38,9 @@ Chairs: Adam Perer, Yu-Ru Lin, and Dominik Moritz
 
 ## Seattle, WA, USA
 **University of Washington and Pacific Northwest National Laboratory**<br>
-Chairs: Jeffrey Heer and Joseph Cottam
+Chairs: Leilani Battle, Joseph Cottam, and Jeffrey Heer
+
+<a class="button" href="https://idl.cs.washington.edu/vis-satellite/">More Information</a>
 
 ## Tucson, AZ, USA
 **University of Arizona and Arizona State University**<br>
