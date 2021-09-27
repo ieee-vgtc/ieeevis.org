@@ -40,6 +40,7 @@ jobs:
         ruby-version: '2.6.x'
     - name: Install ruby dependencies
       run: |
+        gem install rdoc --pre
         gem install bundler
         gem install jekyll
     - name: Set up AWS credentials (+ set default user)
