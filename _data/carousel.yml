@@ -3,6 +3,7 @@
   description: "The Best Paper awards for full papers and short papers have been announced."
   button-text: "See the awards"
   button-url: "/info/awards/best-paper-awards"
+  active: "active"
 
 - title: "Test of Time Awards Announced"
   image: "watch_old_wood.jpg"
@@ -16,7 +17,7 @@
   button-text: "See schedule"
   button-url: "/info/papers-sessions"
 
-- title: "Keynote Speaker: danah boyd"
+- title: "Keynote Speaker: Danah Boyd"
   button-text: "Read more"
   button-url: "/info/keynote-speaker"
   image: "danah_boyd.jpg"
@@ -31,20 +32,12 @@
   description: "Due to the ongoing COVID-19 pandemic, VIS 2022 will be held in Oklahoma City, OK, and the Melbourne, Australia event will be postponed until 2023. "
   button-text: "Read more"
   button-url: "/blog/vis-22-in-oklahoma"
-  active: "active"
   
 - title: "Vote in VIS 2021 Elections"
   description: "Register by Sep. 10 to vote in the VIS 2021 elections! Eligible voters are active members of the VIS community, who have participated in 3 out of the 5 most recent VIS conferences (upcoming 2021 included)."
   button-text: "Register To Vote"
   button-url: "http://ieeevis.org/year/2021/info/elections"
   image: "vote.jpeg"
-
-# - title: "Nominate VIS 2021 Committees"
-#   description: "Deadline extended to July 8! Nominate candidates to represent you on the VIS Steering Committee (VSC) and VIS Executive Committee (VEC)."
-#   button-text: "Nominate a candidate"
-#   button-url: "https://forms.gle/pDLS2Y1oK4GxGTt49"
-#   image: "nominate.jpeg"
-#   darken: true
 
 - title: "VIS 2021 Satellite Program"
   description: "Join us by participating in one of our worldwide, in-person satellite events."
@@ -58,6 +51,12 @@
   button-text: "Become a supporter"
   button-url: "/info/exhibition/supporters-and-exhibition"
 
+# - title: "Nominate VIS 2021 Committees"
+#   description: "Deadline extended to July 8! Nominate candidates to represent you on the VIS Steering Committee (VSC) and VIS Executive Committee (VEC)."
+#   button-text: "Nominate a candidate"
+#   button-url: "https://forms.gle/pDLS2Y1oK4GxGTt49"
+#   image: "nominate.jpeg"
+#   darken: true
 
 # - title: "SciVis Contest"
 #   description: "The 2020 IEEE SciVis Contest is dedicated to create novel approaches or state of the art visualizations to assist domain scientists to better understand the complex transport mechanisms of eddies in the Red Sea under uncertainty."
