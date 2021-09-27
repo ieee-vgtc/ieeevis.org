@@ -1,10 +1,3 @@
-- title: "VIS 2022 now in Oklahoma"
-  image: "downtown_okc.jpg"
-  description: "Due to the ongoing COVID-19 pandemic, VIS 2022 will be held in Oklahoma City, OK, and the Melbourne, Australia event will be postponed until 2023. "
-  button-text: "Read more"
-  button-url: "/blog/vis-22-in-oklahoma"
-  active: "active"
-
 - title: "Best Paper Awards Announced"
   image: "exposure_lights.jpg"
   description: "The Best Paper awards for full papers and short papers have been announced."
@@ -33,6 +26,13 @@
   button-url: "/info/capstone-speaker"
   image: "fm_hi.jpeg"
 
+- title: "VIS 2022 now in Oklahoma"
+  image: "downtown_okc.jpg"
+  description: "Due to the ongoing COVID-19 pandemic, VIS 2022 will be held in Oklahoma City, OK, and the Melbourne, Australia event will be postponed until 2023. "
+  button-text: "Read more"
+  button-url: "/blog/vis-22-in-oklahoma"
+  active: "active"
+  
 - title: "Vote in VIS 2021 Elections"
   description: "Register by Sep. 10 to vote in the VIS 2021 elections! Eligible voters are active members of the VIS community, who have participated in 3 out of the 5 most recent VIS conferences (upcoming 2021 included)."
   button-text: "Register To Vote"
