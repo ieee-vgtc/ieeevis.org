@@ -197,9 +197,14 @@ menu:
                     #is_new: true
 
       - subsections:
-           - heading: "Plenary Sessions"
+          - heading: "Plenary Sessions"
   #            # description: "TK TK TK Get an overview of what’s happening at VIS 2020"
-             columns:
+            columns:
+              - links:
+                - text: "Keynote Address"
+                  url: "/year/2021/keynote"
+                - text: "Capstone Address"
+                  url: "/year/2021/capstone"
   #              # - links:
   #              #   - text: "Download the App"
   #              #     url: "https://www.google.com"
@@ -207,11 +212,7 @@ menu:
   #              #     url: "https://www.google.com"
   #              #   - text: "Practioner Guide"
   #              #     url: "https://www.google.com"
-               - links:
-                 - text: "Keynote Address"
-                   url: "/year/2021/keynote"
-                 - text: "Capstone Address"
-                   url: "/year/2021/capstone"
+               
           - heading: "Awards and Recognitions"
             # heading_url: "https://www.google.com"
             description: "Recognize outstanding work by the VIS community"
