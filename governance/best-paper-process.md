@@ -1,8 +1,8 @@
 ---
-title: BestPaperProcess
+title: Best Paper Process
 layout: page
-permalink: /governance/BestPaperProcess
-contact: [committee-name]@ieeevis.org
+permalink: /governance/best-paper-process
+contact: vsc@ieeevis.org
 ---
 
 ## Best Paper Award Criteria

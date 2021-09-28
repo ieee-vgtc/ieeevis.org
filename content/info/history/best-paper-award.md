@@ -1,8 +1,8 @@
 ---
-title: HistoricalBestPaperAwards.md
+title: History Best Paper Awards
 layout: page
-permalink: /history/HistoricalBestPaperAwards.md
-contact: [committee-name]@ieeevis.org
+permalink: /history/best-paper-award
+contact: archive@ieeevis.org
 ---
 
 ### 2020
