@@ -818,7 +818,7 @@ Authors: Mohak Patel, David H. Laidlaw
 *Uncertainty*<br/>
 *Session Chair: Matthew Kay*
 
-**Network Hypothetical Outcome Plots for Visualizing Uncertainty in Probabilistic Network Data**<br/>
+**Visualizing Uncertainty in Probabilistic Graphs with Network Hypothetical Outcome Plots (NetHOPs)**<br/>
 Authors: Dongping Zhang, Eytan Adar, Jessica Hullman
 
 **Implicit Error, Uncertainty and Confidence in Visualization: an Archaeological Case Study**<br/>
