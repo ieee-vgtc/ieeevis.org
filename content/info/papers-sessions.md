@@ -303,7 +303,7 @@ Authors: Delyar Tabatabai, Anita Ruangrotsakun, Jed Irvine, Jonathan Dodge, Zeya
 Authors: Grace Guo, Maria Glenski, Zhuanyi Huang, Emily Saldanha, Alex Endert, Svitlana Volkova, Dustin L Arendt
 
 **Semantic Explanation of Interactive Dimensionality Reduction**<br/>
-Authors: Yail Bian, Chris North, Eric Krokos, Sarah Joseph
+Authors: Yali Bian, Chris North, Eric Krokos, Sarah Joseph
 
 **AdViCE: Aggregated Visual Counterfactual Explanations for Machine Learning Model Validation**<br/>
 Authors: Steffen Holter, Oscar Alejandro Gomez, Jun Yuan, Enrico Bertini
