@@ -675,7 +675,7 @@ Authors: Jun Han, Chaoli Wang
 <a>**Thursday, October 28**</a><br/>
 **12:00-01:30PM CDT (UTC-5)**<br/>
 *Graphs and Trees*<br/>
-*Session Chair: Johannes Fuchs*
+*Session Chair: Jean-Daniel Fekete*
 
 **Multi-level Area Balancing of Clustered Graphs**<br/>
 Authors: Hsiang-Yun Wu, Martin Nöllenburg, Ivan Viola
