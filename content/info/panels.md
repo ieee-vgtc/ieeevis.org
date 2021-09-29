@@ -11,7 +11,7 @@ permalink: /info/panels
 
 Organizer: Jock Mackinlay (Tableau Software),
 <br>Moderator: Jessica Hullman (Northwestern University)
-<br>Panelists: Ben Shneiderman (University of Maryland), Tamara Munzner (University of British Columbia), Jack van Wijk (Eindhoven University of Technology)
+<br>Panelists: Ben Shneiderman (University of Maryland), Tamara Munzner (University of British Columbia), Jack van Wijk (Eindhoven University of Technology), Jock Mackinlay (Tableau Software)
 
 We like to think that most of the important lessons learned about visualization can be extracted from research papers and books. But visualization research and innovation are also driven by the perspectives, goals, and values of those making and witnessing discoveries. Findings about what visualization techniques, methods, or theories don't seem to work, and perspectives on visualization's value in improving data work that experts develop over years, are critical for guiding future innovation efficiently toward maximum impact. This IEEE VIS 2021 panel brings together four experts with multiple decades of active involvement in visualization innovation for a lively discussion with each other, the moderator, and the audience. We’ll target what’s not so obvious from the papers alone, and how these reflections point toward important areas for future innovation.
 
@@ -66,7 +66,7 @@ Questions from the audience are welcomed during the panel discussion.
 <!-- Friday, October 30: 10:00am-11:30am MDT -->
 
 Organizers: Derya Akbaba (University of Utah), Kiran Gadhave (University of Utah)
-<br>Panelists: Saiph Savage (Northeastern University), Danielle Albers Szafir (University of North Carolina), Alexander Lex (University of Utah), Steve Haroz (Inria, Universite Paris-Saclay)
+<br>Panelists: Saiph Savage (Northeastern University), Danielle Albers Szafir (University of North Carolina), Alexander Lex (University of Utah), Steve Haroz (Inria, Universite Paris-Saclay), Khairi Reda (Indiana University)
 
 <!-- <br>[Video Preview](https://youtu.be/4Ci7KoLzFZ4) -->
 
