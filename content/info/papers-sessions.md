@@ -90,7 +90,7 @@ Authors: Takanori Fujiwara, Xinhai Wei, Jian Zhao, Kwan-Liu Ma
 <a>**Wednesday, October 27**</a><br/>
 **08:00-09:30AM CDT (UTC-5)**<br/>
 *Surfaces and Volumes*<br/>
-*Session Chair: Koji Kayamada*
+*Session Chair: Koji Koyamada*
 
 **Real-Time Denoising of Volumetric Path Tracing for Direct Volume Rendering**<br/>
 Authors: Jose A. Iglesias-Guitian, Prajita Mane, Bochang Moon
