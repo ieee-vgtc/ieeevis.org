@@ -903,7 +903,7 @@ Authors: Furui Cheng, Dongyu Liu, Fan Du, Yanna Lin, Alexandra Zytek, Haomin Li,
 <a>**Friday, October 29**</a><br/>
 **10:00-11:30AM CDT (UTC-5)**<br/>
 *Biological and Medical Visualization*<br/>
-*Session Chair: Bara Kozlikova*
+*Session Chair: Barbora Kozlikova*
 
 **COVID-view: Diagnosis of COVID-19 using Chest CT**<br/>
 Authors: Shreeraj Jadhav, Gaofeng Deng, Marlene Zawin, Arie E. Kaufman
