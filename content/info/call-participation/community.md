@@ -28,14 +28,15 @@ Suggested VisBuddies activities include:
 * Discuss interesting sessions to attend
 * Share tips on successful research
 
-Date/time: TBD
-To sign up, please fill out this brief form: https://forms.gle/v7h6W1uKnnhaF31aA
+Date/time: TBD 
+
+[VisBuddies Signup Form](https://forms.gle/v7h6W1uKnnhaF31aA)
 
 ### <a name="job-flyers"></a>Job Flyer Posting
 
 Do you have a job you are seeking to fill? If so, please complete this online form and we will include your posting on the Virtual VIS website and on IEEEVIS.org (optional).  You can also use this form sign up to host a “table” at the Virtual Job Fair.
 
-Job posting form: https://forms.gle/KTiifBygPcBnJudF8
+[VIS Community Job Posting Form](https://forms.gle/KTiifBygPcBnJudF8)
 
 Links to Job Posting sites on the Virtual VIS website and on IEEEVIS.org are forthcoming.
 
