@@ -1,7 +1,7 @@
 ---
 title: History Best Paper Awards
 layout: page
-permalink: /history/best-paper-award
+permalink: /info/history/best-paper-award
 contact: archive@ieeevis.org
 ---
 
