@@ -711,7 +711,7 @@ Authors: Emily Wall, Arpit Narechania, Adam Coscia, Jamal Paden, Alex Endert
 Authors: Theo Jaunet, Corentin Kervadec, Romain Vuillemot, Grigory Antipov, Moez Baccouche, Christian Wolf
 
 **The Weighted Average Illusion: Biases in Perceived Mean Position in Scatterplots**<br/>
-Authors: Matt-Ian Hong, Jessica Witt, Danielle Albers Szafir
+Authors: Matt-Heun Hong, Jessica Witt, Danielle Albers Szafir
 
 **Impact of Cognitive Biases on Progressive Visualization**<br/>
 Authors: Marianne Procopio, Ab Mosca, Carlos Scheidegger, Eugene Wu, Remco Chang
