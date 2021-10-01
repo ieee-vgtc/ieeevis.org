@@ -15,9 +15,9 @@
  - category: Diamond
    image_size: 200
    supporters:
-#    - name: "Intel"
-#      image: /assets/supporters/intel_2020.png
-#      url: "https://intel.com"
+    - name: "Intel"
+      image: /assets/supporters/intel.png
+      url: "https://intel.com"
 
     - name: "Tableau"
       image: /assets/supporters/tableau.jpg
