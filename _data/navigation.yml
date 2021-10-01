@@ -202,9 +202,9 @@ menu:
             columns:
               - links:
                 - text: "Keynote Address"
-                  url: "/year/2021/keynote"
+                  url: "/year/2021/info/keynote-speaker"
                 - text: "Capstone Address"
-                  url: "/year/2021/capstone"
+                  url: "/year/2021/info/capstone-speaker"
   #              # - links:
   #              #   - text: "Download the App"
   #              #     url: "https://www.google.com"
@@ -370,11 +370,6 @@ menu:
                     url: "http://www.hpc.msstate.edu/conferences/vis97/"
                   - text: "1996"
                     url: "http://www.hpc.msstate.edu/conferences/vis96/"
-          - heading: "Previous Awards"
-            columns:
-              - links:
-                  - text: "Historical Best Paper Awards"
-                    url: "/year/2021/info/history/best-paper-award"
 
       - subsections:
           - heading: "Committees"
