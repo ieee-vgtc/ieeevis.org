@@ -10,23 +10,33 @@ Best paper and honorable mention awards are selected by a dedicated committee of
 
 ## Full Papers
 
-### Best Paper Awards
+The Best Papers Committee for VIS 2021 full papers consists of five distinguished members: Stephen North (Chair), Tatiana Landesberger von Antburg, Stefan Bruckner, Ingrid Hotz, and G. Elisabeta Marai. The Papers Chairs Committee would like to thank the Best Papers Committee for their work and to congratulate the awardees!
+
+### Best Papers
 
 **Feature Curves and Surfaces of 3D Asymmetric Tensor Fields**
 <br/>
 Authors: Shih-Hsuan Hung, Yue Zhang, Harry Yeh, Eugene Zhang 
 
+Justification: “This paper makes fundamental advances to the field of asymmetric tensor field visualization. It contributes a novel topological approach in conjunction with a practical algorithmic solution. Thus, this study addresses a challenging problem with outstanding, innovative solutions, and has high potential to impact future visualization applications in tensor visualization.”
+
 **IRVINE: Using Interactive Clustering and Labeling to Analyze Correlation Patterns: A Design Study from the Manufacturing of Electrical Engines**
 <br/>
 Authors: Joscha Eirich, Jakob Bonart, Dominik Jäckle, Michael Sedlmair, Ute Schmid, Kai Fischbach, Tobias Schreck, Jürgen Bernard
+
+Justification: “This paper is a model design study on applying visual analytics to a manufacturing process. It addresses a practical, emerging, and largely unexplored problem, and presents exemplary collaborative work highlighting the power of visual analytics. The proposed solution was developed in deep collaboration with domain experts over several iterations, carefully distilling tasks and effective visualizations. The paper showcases a strong evaluation, and convincingly demonstrates the practical utility of the proposed analytics and interaction modalities that clearly improve the performance of manufacturing engineering professionals in analytic tasks.”
 
 **Perception! Immersion! Empowerment! Superpowers as Inspiration for Visualization**
 <br/>
 Authors: Wesley Willett, Bon Adriel Aseniero, Sheelagh Carpendale, Pierre Dragicevic, Yvonne Jansen, Lora Oehlberg, Petra Isenberg
 
+Justification: “This paper is bold, innovative, fun, thorough and persuasive, and a wonderful and rare example of breakthrough, creative thinking about data visualization research. It introduces two theoretical frameworks to explore the dual issue of epistemic powers (i.e. that advance knowledge) in vision and cognition, and their important key mechanics, which span instruments to fairness and accessibility. It provides an original, important and legitimate perspective on what we do, including a wider perspective on evaluating the benefits of visualization. This paper will be remembered for many years for its original perspective, thought-provoking messages and persuasive explanations.”
+
 **Simultaneous Matrix Orderings for Graph Collections**
 <br/>
 Authors: Nathan van Beusekom, Wouter Meulemans, Bettina Speckmann
+
+Justification: “This paper presents a technically sound approach and novel evaluation technique for simultaneous matrix ordering of multiple graphs. This is an important problem in graph comparison and in dynamic graph visualization. The paper is outstanding in its clarity, and aims at reproducible results. The evaluation that is presented should have considerable impact on future research. This work has wide applicability both in graph drawing, and in other matrix-based visualizations.”
 
 ### Best Paper Honorable Mentions
 
@@ -95,7 +105,7 @@ Authors: Furui Cheng, Dongyu Liu, Fan Du, Yanna Lin, Alexandra Zytek, Haomin Li,
 Authors: Michael Oppermann, Tamara Munzner
 
 
-## Short Papers Awards
+## Short Papers
 
 The awards for short papers were selected by the best paper committee (short papers) from a competitive list of candidates.
 
@@ -107,12 +117,12 @@ for their work and dedication.
 
 Congratulations to the awardees!
 
-### Best Paper Award
+### Best Papers
 
 **Jurassic Mark: Inattentional Blindness for a Datasaurus Reveals that Visualizations are Explored, not Seen**  
 Authors: Tal Boger, Steven Most, Steven Franconeri
 
-### Best Paper Honorable Mention
+### Best Paper Honorable Mentions
 
 **Semantic Resizing of Charts Through Generalization: A Case Study with Line Charts**  
 Authors: Vidya Setlur, Haeyong Chung
