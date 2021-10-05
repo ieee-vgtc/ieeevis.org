@@ -25,7 +25,7 @@ intro_section:
 ---
 
  
-![VGTC Logo](/year/2021/assets/supporters/fraunhofer-igd.png)
+![Fraunhofer IGD Logo](/year/2021/assets/supporters/gd.png)
 
 ## About Fraunhofer IGD
 
