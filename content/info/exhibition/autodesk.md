@@ -13,8 +13,6 @@ intro_section:
  
 ![Autodesk Logo](/year/2021/assets/supporters/autodesk.png)
 
-## About Autodesk
-
 Autodesk is a global leader in design and make technology. With expertise across architecture, engineering, construction, design, 
 manufacturing, and entertainment, we help innovators everywhere solve today’s pressing challenges. Our mission is to empower 
 innovators with ingenuity and the right tools to work and think flexibly so they can achieve the new possible and to design 
