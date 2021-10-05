@@ -4,7 +4,7 @@ permalink: /info/exhibition/kitware
 contact: supporters@ieeevis.org
 active_nav: "Contribute"
 layout: landing
-sidebar: vgtc
+sidebar: kitware
 intro_section:
   global_url: true
 ---
