@@ -13,7 +13,7 @@ intro_section:
  
 ![Autodesk Logo](/year/2021/assets/supporters/autodesk.png)
 
-## About the IEEE Computer Society’s VGTC
+## About Autodesk
 
 Autodesk is a global leader in design and make technology. With expertise across architecture, engineering, construction, design, 
 manufacturing, and entertainment, we help innovators everywhere solve today’s pressing challenges. Our mission is to empower 
