@@ -4,7 +4,7 @@ permalink: /info/exhibition/microsoft
 contact: supporters@ieeevis.org
 active_nav: "Contribute"
 layout: landing
-sidebar: vgtc
+sidebar: microsoft
 intro_section:
   global_url: true
 ---
