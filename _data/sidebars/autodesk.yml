@@ -1,0 +1,23 @@
+- heading: "Social Media"
+  links:
+    - text: "Facebook"
+      url: "https://www.facebook.com/autodesk"
+    - text: "Twitter"
+      url: "https://twitter.com/autodesk"
+    - text: "LinkedIn"
+      url: "https://www.linkedin.com/company/autodesk"
+    - text: "Instagram"
+      url: "https://www.instagram.com/autodesk"
+
+
+- heading: "Website"
+  links:
+     - text: "https://www.autodesk.com/research/overview"
+       url: "https://www.autodesk.com/research/overview"
+
+- heading: "Contact Us"
+  links:
+    - text: "Bon Aseniero"
+      url: "mailto:bon.aseniero@autodesk.com"
+    - text: "Justin Matejka"
+      url: "mailto:justin.matejka@autodesk.com"
