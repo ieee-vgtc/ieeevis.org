@@ -404,9 +404,6 @@ Authors: Hyeon Jeon, Hyung-Kwon Ko, Jaemin Jo, Youngtaek Kim, Jinwook Seo
 **Dynamic 3D Visualization of Climate Model Development and Results**<br/>
 Authors: Jeremy Walton, Samantha Adams, Wolfgang Hayek, Piotr Florek, Harold Dyson
 
-**Mapping the Hazard: Visual Analysis of Flood Impact on Urban Mobility**<br/>
-Authors: Kuang-Ting Huang
-
 **Exploring the Design Space of Sankey Diagrams for the Food-Energy-Water Nexus**<br/>
 Authors: Brandon Mathis, Yuxin Ma, Michelle Mancenido, Ross Maciejewski
 
