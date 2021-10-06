@@ -1,0 +1,22 @@
+- heading: "Social Media"
+  links:
+    - text: "Facebook"
+      url: "https://www.facebook.com/Tableau/"
+    - text: "Twitter"
+      url: "https://www.twitter.com/tableau"
+    - text: "LinkedIn"
+      url: "https://www.linkedin.com/company/tableau-software"
+    - text: "YouTube"
+      url: "https://www.youtube.com/c/tableausoftware/videos"
+
+
+- heading: "Website"
+  links:
+     - text: "https://www.tableau.com/"
+       url: "https://www.tableau.com/"
+
+- heading: "Contact Us"
+  links:
+    - text: "General Inquiries"
+      url: "https://www.tableau.com/about/contact#contact_general-inquiry"
+    - text: +1 206-633-3400

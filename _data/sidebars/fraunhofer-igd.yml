@@ -1,0 +1,20 @@
+- heading: "Social Media"
+  links:
+    - text: "Facebook"
+      url: "https://de-de.facebook.com/FraunhoferIGD/"
+    - text: "Twitter"
+      url: "https://twitter.com/fraunhofer_igd?lang=en"
+    - text: "YouTube"
+      url: "https://www.youtube.com/user/fhvcc"
+
+
+- heading: "Website"
+  links:
+     - text: "https://www.igd.fraunhofer.de/en"
+       url: "https://www.igd.fraunhofer.de/en"
+
+- heading: "Contact Us"
+  links:
+    - text: "joern.kohlhammer@igd.fraunhofer.de"
+      url: "mailto:joern.kohlhammer@igd.fraunhofer.de"
+    - text: +49 6151 155-646
