@@ -417,6 +417,8 @@ menu:
                     url: "/governance/bids"
                   - text: "Being General Chair of IEEE VIS"
                     url: "/governance/generalChairs"
+                  - text: "2021 VIS Area Curation Committee Executive Summary"
+                    url: "/governance/acc-summary"
           # - heading: "Hosting IEEE Vis"
           #   columns:
           #    - links:
