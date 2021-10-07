@@ -905,9 +905,6 @@ Authors: Furui Cheng, Dongyu Liu, Fan Du, Yanna Lin, Alexandra Zytek, Haomin Li,
 **COVID-view: Diagnosis of COVID-19 using Chest CT**<br/>
 Authors: Shreeraj Jadhav, Gaofeng Deng, Marlene Zawin, Arie E. Kaufman
 
-**LoopGrafter: Visual Support for the Grafting Workflow of Protein Loops**<br/>
-Authors: Filip Opálený, Pavol Ulbrich, Joan Planas-Iglesias, Jan Byška, Gaspar Pinto, David Bednář, Katarína Furmanová, Barbora Kozlikova
-
 **ThreadStates: State-based Visual Analysis of Disease Progression**<br/>
 Authors: Qianwen Wang, Tali Mazor, Theresa Harbig, Ethan Cerami, Nils Gehlenborg
 
