@@ -1,9 +1,9 @@
 ---
-title: Tableau
+title: Supporter Spotlight: Tableau
 permalink: /info/exhibition/salesforce
 contact: supporters@ieeevis.org
 active_nav: "Contribute"
-layout: landing
+layout: page
 sidebar: salesforce
 intro_section:
   global_url: true
