@@ -1,5 +1,5 @@
 ---
-title: Supporter Spotlight: Tableau
+title: Tableau
 permalink: /info/exhibition/salesforce
 contact: supporters@ieeevis.org
 active_nav: "Contribute"
