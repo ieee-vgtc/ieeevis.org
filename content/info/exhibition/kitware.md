@@ -3,7 +3,7 @@ title: Kitware
 permalink: /info/exhibition/kitware
 contact: supporters@ieeevis.org
 active_nav: "Contribute"
-layout: landing
+layout: page
 sidebar: kitware
 intro_section:
   global_url: true

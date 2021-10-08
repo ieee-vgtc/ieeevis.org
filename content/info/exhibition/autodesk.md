@@ -3,7 +3,7 @@ title: Autodesk
 permalink: /info/exhibition/autodesk
 contact: supporters@ieeevis.org
 active_nav: "Contribute"
-layout: landing
+layout: page
 sidebar: autodesk
 intro_section:
   global_url: true
