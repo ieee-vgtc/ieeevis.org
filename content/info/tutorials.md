@@ -57,9 +57,10 @@ Bongshin Lee, *Microsoft Research* <br>
 Petra Isenberg, *Inria* <br>
 Anastasia Bezerianos, *Université Paris-Sud / Université Paris-Saclay*
 
-Two fundamental tenets of scientific research are that it can be scrutinized and built-upon. Both require that the collected data, supporting materials, and decision timing be shared, so others can examine, reuse, and extend them. This tutorial will teach how you can share the artifacts of your own research. You will learn about the benefits gained by making different components or stages of research transparent, including decision timing, data collection procedures, raw data, and analysis & code. And for each, there will be tips and tricks as well as a walkthrough on how to share your work using the Open Science Framework. Bringing your laptop is highly encouraged.
+The main goal of this tutorial is to offer insight into the tasks and expectations for program committee members of the IEEE VIS full papers program. 
+Peer review is one of the critical components of academic research communities: it plays a crucial role in achieving high quality research publications and has a huge influence on the research community’s culture. For academic conferences like IEEE VIS, the program committee (PC) is a backbone of the peer review process. How the PC members work and coordinate throughout the review process affects the quality of the paper program and the experiences of multiple groups of people involved in the review process, including authors, reviewers, and paper chairs. We want this tutorial to serve as a resource for future PC members (as well as novice PC members) and help them successfully serve in this important role. 
 
-We will also discuss what to do (and what you do not need to do) when reviewing a paper with open materials. You will hopefully walk away with an improved ability to make your own research more empirically replicable and computationally reproducible. These skills can enable you to have a greater impact on the field by facilitating reuse and further development of your ideas by both other researchers and those who wish to apply your work.
+For more details on the tutorial and signing up as a test PC member, please visit this website: https://sites.google.com/view/ieeevis-pc-tutorial/
 
 
 ## <a name="UEV"></a> User-Centred Evaluation in Visualization
