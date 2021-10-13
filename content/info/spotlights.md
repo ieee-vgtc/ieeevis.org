@@ -15,7 +15,7 @@ Below you will find the list of the accepted Spotlights. If you have any questio
 <hr/>
 
 ## <a name="spot2"></a>In Situ Inference: Advanced Data Science for Space Weather Modeling
-When: Wednesday (October 27th, 2021) 11:50-1:20 pm
+When: Wednesday (October 27th, 2021) 12:00-1:30 pm
 
 ### Organizers
 
@@ -48,6 +48,17 @@ contour tree segmentation) to detect and track BBFs. Statistical tools combined 
 of these techniques form a more comprehensive picture of BBF activity and their potential
 causes.
 
+### Speakers
+**Ayan Biswas - Los Alamos National Laboratory:** Ayan Biswas is a scientist in the Data Science at Scale team (CCS-3) at Los Alamos National Laboratory. His research interests include exascale data analysis and reduction, in situ workflows, uncertainty quantification, statistical analysis and high-dimensional data visualization. He also has vast experience in working with vector fields and information theory applications for visualization and analysis. He received his PhD in Data Visualization from The Ohio State University in 2016. (Contact him at ayan@lanl.gov)
+
+**Steve Morley - Los Alamos National Laboratory:** Steve Morley is a scientist in the Space Science and Applications group (ISR-1) at Los Alamos National Laboratory (LANL), where they have worked for over 10 years. Prior to joining LANL they worked at the University of Newcastle, Rutherford Appleton Laboratory, and British Antarctic Survey. They received their Ph.D. in Physics (2004) from the University of Southampton. Their work is primarily focused on physics of the coupled solar wind-magnetosphere-ionosphere system, and its application in the space weather domain. Their research interests include electron radiation belt dynamics, solar energetic particle events, magnetospheric substorms, and numerical space weather prediction.
+
+**Subhashis Hazarika – Palo Alto Research Center:** Subhashis Hazarika is currently a Research Scientist at the Intelligent Systems Lab, Palo Alto Research Center. Prior to this, he was a Postdoctoral Researcher at the Data Science at Scale Team, Los Alamos National Laboratory. He received his Masters and Ph.D. in Computer Science and Engineering from The Ohio State University, with specialization in Scientific Visualization and Data Analysis. His primary research interests are large-scale data analysis and visualization, statistical data modeling, and machine learning.
+
+**Divya Banesh - Los Alamos National Laboratory:** Divya Banesh received her Ph.D. in Computer Science from the University of California, Davis. She is currently a Postdoctoral Researcher in the Data Science Team at Los Alamos National Laboratory. Her core interests are feature identification and analysis in computer vision, image processing, topology and machine learning.
+
+**Natalie Klein - Los Alamos National Laboratory:** Natalie Klein is a scientist in the Statistical Sciences group at Los Alamos National Laboratory. Natalie’s research centers on the development and application of statistical and machine learning approaches in a variety of application areas, including hyperspectral imaging, laser-induced breakdown spectroscopy, and high-dimensional physics simulations. Klein holds a joint Ph.D. in Statistics and Machine Learning from Carnegie Mellon University.
+
 ### Schedule
 
 Introduction - Ayan Biswas (10 mins)
@@ -62,7 +73,7 @@ Q & A (20 mins)
 
 ## <a name="spot3"></a>Bridging Visualization with Radiation Oncology
 
-When: Thursday (October 29th, 2021) 8:00-9:30 am
+When: Thursday (October 28th, 2021) 8:00-9:30 am
 
 ### Organizers
 Renata G. Raidou, *TU Wien, Austria*
@@ -79,34 +90,37 @@ The structure of our spotlight will include talks from vis and RO specialists, a
 	 	
 [1] M. Schlachter, R. G. Raidou, L. P. Muren, B. Preim, P. M. Putora, and K. Bühler. State-of-the-art report: Visual computing in radiation therapy planning. In Computer Graphics Forum, vol. 38, pp. 753–779. Wiley Online Library, 2019. [doi: 10.1111/cgf.13726](http://dx.doi.org/10.1111/cgf.13726)
 
-
-### Schedule
-
- We plan a 90-minute program: *opening* (5 minutes), four *short talks* from invited speakers (two vis and two RO speakers; 40 minutes in total), guided *panel discussion* (20 minutes), *audience discussion* (25 minutes), and few minutes for *closing remarks*.
-	 	
-	 	
 ### Speakers
 #### Talk 1: *Challenges and opportunities in fusing AI and visual computing for radiotherapy planning*
 
 *Katja Bühler* (VRVis Research Center, Austria): Katja Bühler is Scientific Director of VRVis GmbH Vienna, an applied research center for Visual Computing founded in 2000 in Austria with the mission to bridge the gap between science and industry. She completed her studies in Mathematics at KIT, Karlsruhe, Germany, and holds a PhD in Computer Science from TU Wien. In 2003 she became head of the Biomedical Image Informatics Group at VRVis. She is member of the management board of Austrian Bioimaging and associate editor of Computers and Graphics, the Visual Computer and Frontiers in Bioinformatics. Katja’s scientific roots are in reliable computing, numerics and geometry processing. Today's focus of her research is on the development of highly efficient methods to provide access to information encoded in biomedical images with the aim to accelerate image-based decision making. For this purpose, she is fusing expertise in image processing, machine and deep learning, high performance computing, data mining, visualization and human computer interaction to novel visual computing solutions for medicine and life science. The software emerged from the groups research is helping radiologists, radiotherapists, cancer biologists and surgeons to efficiently cope with multi-modal data and to accelerate diagnostic tasks in their daily clinical routine. The e-science platform Brain* addresses the urgent need to manage and exploit image intense data collections and accelerates multi-omics and image-based research in neuroscience.
-	 	
-	 	
+	 	 	
 #### Talk 2: *From medical visualization research to clinical practice: obstacles and opportunities*
 *Noeska Smit* (University of Bergen & Haukeland University Hospital, Norway): Noeska Smit is an Associate Professor (tenure track) in the visualization research group at the University of Bergen, Norway, since 2017, where she leads a team researching multimodal medical visualization. She is also affiliated with the Mohn Medical Imaging and Visualization (MMIV) center as a senior researcher at the Haukeland University Hospital. After working as a radiographer for three years, she completed her studies in Computer Science at the Delft University of Technology, the Netherlands, specializing in Computer Graphics and Visualization in 2012. In 2016, she obtained her PhD in medical visualization at the same institute in collaboration with the Anatomy and Embryology department at the LUMC in Leiden. Currently, she is researching novel interactive visualization approaches for multimodal medical imaging data. Her current focus in this context is on multi-parametric MR acquisitions.
-	 	
-	 	
+
 #### Talk 3: *Modeling dose-response data in radiation therapy*
 *Vitali Moiseenko* (University of California San Diego, USA): Professor at UCSD where he leads research on biological effects of ionizing radiation with primary focus on analyzing outcomes data in cancer patients receiving radiation therapy. Having completed his post-doctoral fellowship at the National Radiological Protection Board, UK, Vitali obtained his board certification from the Canadian College of Physicists in Medicine in 2004. He has extensively published on the topic of radiation-induced toxicity in cancer patients with emphasis on adverse effects seen in patients treated for genitourinary, gastrointestinal, and head&neck cancers. At the time of preparing this biosketch Vitali has 147 peer-reviewed papers, 9 book chapters and 2 Task Group reports published. Vitali has served on the American Association of Physicists in Medicine/American Society for Radiation Oncology (AAPM/ASTRO) Working Groups, QUANTEC (Quantitative Analysis of Normal Tissue Effects in the Clinic), and HyTEC (High Dose per Fraction, Hypofractionated Treatment Effects in the Clinic), which were set to summarize and produce consensus guidelines for normal tissue tolerance following conventionally fractionated and hypofractionated radiation therapy. His current interest is finding ways to make radiation therapy personalized by accounting for patient-specific features, from biomarkers to anatomic signatures. In particular, visual analytics may provide tools to predict how patients respond to radiotherapy when commonly used metrics omit features impacting response.
-	 	
 	 	
 #### Talk 4: *Multi-parametric imaging for tumor characterization and target delineation*
 *Uulke van der Heide* (Netherlands Cancer Institute, the Netherlands): Uulke van der Heide received his training as medical physicist at the department of radiotherapy of the University Medical Center in Utrecht, the Netherlands and worked there as a medical physicist until 2011. He now works as a medical physicist and group leader at the Netherlands Cancer Institute in Amsterdam, the Netherlands. He holds a chair as professor of imaging in radiotherapy at the Leiden University Medical Center. He participates as teacher and course director in the ESTRO school. His research group works on the improvement of target definition in radiotherapy by application of MRI and the development and validation of quantitative imaging methods for tumor characterization for radiotherapy dose painting. He further leads the MR-guided radiotherapy program at the Netherlands Cancer Institute.
 
+### Schedule
+
+Opening: By the organizers 
+Four short talks: 
+1. Challenges and opportunities in fusing AI and visual computing for radiotherapy planning by Katja Buehler (VRVis, Austria)
+2. From medical visualization research to clinical practice: obstacles and opportunities by Noeska Smit (University of Bergen, Norway)
+3. Modeling dose-response data in radiation therapy by Vitali Moiseenko (University of California San Diego, USA)
+4. Multi-parametric imaging for tumor characterization and target delineation by Uulke van der Heide (Netherlands Cancer Institute, the Netherlands)
+Guided panel discussion: same as the talks above, moderated by the organizers
+Audience discussion: open session with the four speakers above and the audience
+Final closing remarks: By the organizers (1-2 minutes)
+ 	
 ***
 
 ## <a name="spot4"></a>Challenges for Visualization in Immersive Planetarium Domes
 
-When: Thursday (October 28th, 2021) 9:55-11:25 am
+When: Thursday (October 28th, 2021) 10:00-11:30 am
 
 ### Organizers
 
@@ -142,13 +156,17 @@ Although this problem is quite known, there does not exist a standard workflow t
 In this application spotlight, we aim to shed light on the uncertainty-aware visual analytics and provide three different application fields showing where uncertainties arise and how they influence the decision-making process. The spotlight is intended to identify common workflows in all shown applications and foster discussions on how to provide a unified approach to handle uncertainty in visual analytics approaches.
 
 ### Schedule
-TBA
+Introduction (given by the Organizers) (10 mins)
+Katja Schladitz, Fraunhofer ITWM Kaiserslautern (15 mins)
+Tushar Athawale, SCI Institute Utah (15 mins)
+Ibrahim Demir, University of Iowa (15 mins)
+Open Discussion (45 mins)
 
 ***
 
 ## <a name="spot5"></a>Visualization Challenges in Deep Uncertainty
 
-When: Friday (October 29th, 2021) 9:55-11:25 am
+When: Friday (October 29th, 2021) 10:00-11:30 am
 
 ### Organizer
 
