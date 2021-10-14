@@ -10,7 +10,7 @@ Join us *Thursday Oct. 28th* from *2:00 - 3:30PM CDT* at the IEEE VIS Townhall. 
 and come suggest priorities for the IEEE VIS governing bodies to address as we move towards VIS 2022. All members of the VIS community are welcome!
 
 ## Townhall Agenda
-* Recap of 2021 Accomplisments by the Visualization Executive Committee (VEC) - Lisa Avila (VEC Chair, xxxx - 2021)
+* Recap of 2021 Accomplisments by the Visualization Executive Committee (VEC) - Lisa Avila (VEC Chair, 2017 - 2021)
 * Updates from the Visualization Steering Committee (VSC) - Stephen North or Petra Isenberg (VSC Chair, xxxx - present)
 * Summary of the paper reviewing process from the Overall Paper Chairs (OPC) - Bongshin Lee (OPC 2021, 2022; VEC Member 2021 - present)
 * Getting involved with VIS governance - Christoph Garth (Area Curation Committee, 2021 - present)
