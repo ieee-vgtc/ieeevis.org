@@ -205,6 +205,8 @@ menu:
                   url: "/year/2021/info/keynote-speaker"
                 - text: "Capstone Address"
                   url: "/year/2021/info/capstone-speaker"
+                - text: "Vis Townhall"
+                  url: "/year/2021/info/townhall"
   #              # - links:
   #              #   - text: "Download the App"
   #              #     url: "https://www.google.com"

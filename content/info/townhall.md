@@ -1,11 +1,10 @@
 ---
-title: townhall
+title: IEEE Vis Townhall
 layout: page
 permalink: /info/townhall
-contact: [committee-name]@ieeevis.org
+contact: vec@ieeevis.org
 ---
 
-# IEEE VIS Townhall
 As part of IEEE VIS's ongoing efforts to engage with our community, the IEEE VIS governance bodies are seekng feedback from the VIS community! 
 Join us *Thursday Oct. 28th* from *2:00 - 3:30PM CDT* at the IEEE VIS Townhall. Learn more about what the IEEE VIS governing bodies took on as priorities for VIS 2021,
 and come suggest priorities for the IEEE VIS governing bodies to address as we move towards VIS 2022. All members of the VIS community are welcome!
