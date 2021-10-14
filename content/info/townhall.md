@@ -17,4 +17,4 @@ and come suggest priorities for the IEEE VIS governing bodies to address as we m
 * Getting involved with VIS 2022 and beyond - David Ebert (Incoming General Chair for VIS 2022)
 * Setting priorities for VIS 2022 and beyond, an open forum for discussing community priorities and topics related to IEEE VIS governance.
 
-Prior to the townhall, we are soliciting input on priorities and topics to be discussed. If you have any ideas you would like to raise, please provide input to slid.io-ROSSFIGUREOUTLINK.
+Prior to the townhall, we are soliciting input on priorities and topics to be discussed. If you have any ideas you would like to raise, please provide input [here](https://app.sli.do/event/6payv5ez?section=7b9b7a38-86f0-4b35-b161-ef2a10a75523).
