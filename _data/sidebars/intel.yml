@@ -1,0 +1,22 @@
+- heading: "Social Media"
+  links:
+    - text: "Facebook"
+      url: "https://www.facebook.com/Intel"
+    - text: "Twitter"
+      url: "https://twitter.com/intel"
+    - text: "LinkedIn"
+      url: "https://www.linkedin.com/company/intel-corporation"
+    - text: "YouTube"
+      url: "https://www.youtube.com/user/channelintel"
+
+
+- heading: "Website"
+  links:
+     - text: "https://intel.com/oneAPI-RenderKit"
+       url: "https://intel.com/oneAPI-RenderKit"
+
+- heading: "Contact Us"
+  links:
+    - text: "james.l.jeffers@intel.com"
+      url: "mailto:james.l.jeffers@intel.com"
+    - text: +1-408-765-8080
