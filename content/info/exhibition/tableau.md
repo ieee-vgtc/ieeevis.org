@@ -1,10 +1,10 @@
 ---
 title: Tableau
-permalink: /info/exhibition/salesforce
+permalink: /info/exhibition/tableau
 contact: supporters@ieeevis.org
 active_nav: "Contribute"
 layout: page
-sidebar: salesforce
+sidebar: tableau
 intro_section:
   global_url: true
 ---
