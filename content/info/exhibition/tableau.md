@@ -1,6 +1,6 @@
 ---
 title: Tableau
-permalink: /info/exhibition/salesforce
+permalink: /info/exhibition/tableau
 contact: supporters@ieeevis.org
 active_nav: "Contribute"
 layout: page
