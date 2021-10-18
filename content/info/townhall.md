@@ -11,10 +11,21 @@ and come suggest priorities for the IEEE VIS governing bodies to address as we m
 
 ## Townhall Agenda
 * Recap of 2021 Accomplisments by the Visualization Executive Committee (VEC) - Lisa Avila (VEC Chair, 2017 - 2021)
-* Updates from the Visualization Steering Committee (VSC) - Stephen North or Petra Isenberg (VSC Chair, xxxx - present)
-* Summary of the paper reviewing process from the Overall Paper Chairs (OPC) - Bongshin Lee (OPC 2021, 2022; VEC Member 2021 - present)
+* Updates from the Visualization Steering Committee (VSC) - Stephen North (VSC Chair, 2020 - present)
+* Summary of the paper reviewing process from the Overall Paper Chairs (OPC) - Anders Ynnerman (OPC 2021, 2022)
 * Getting involved with VIS governance - Christoph Garth (Area Curation Committee, 2021 - present)
 * Getting involved with VIS 2022 and beyond - David Ebert (Incoming General Chair for VIS 2022)
 * Setting priorities for VIS 2022 and beyond, an open forum for discussing community priorities and topics related to IEEE VIS governance.
 
 Prior to the townhall, we are soliciting input on priorities and topics to be discussed. If you have any ideas you would like to raise, please provide input [here](https://app.sli.do/event/6payv5ez?section=7b9b7a38-86f0-4b35-b161-ef2a10a75523).
+
+## Townhall Panelists
+* Lisa Avila (VEC Chair, 2017 - 2021)
+* David Ebert (Incoming General Chair for VIS 2022)
+* Christoph Garth (Area Curation Committee, 2021 - present)
+* Bongshin Lee (OPC 2021, 2022; VEC Member 2021 - present)
+* Ross Maciejewski (VEC Co-Chair, 2021 - present)
+* Silvia Miksch (OPC 2021, 2022)
+* Klaus Mueller (IEEE TVCG EiC)
+* Emily Wall (Elections Co-Chair 2021 - present)
+* Anders Ynnerman (OPC 2021, 2022)
