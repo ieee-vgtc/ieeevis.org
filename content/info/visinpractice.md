@@ -29,7 +29,7 @@ The panelists include [Hank Childs](http://cdux.cs.uoregon.edu/childs.html) (Uni
 
 Today, data visualization practitioners are flooded with a barrage of different tools at their disposal, from libraries (D3) to applications (Tableau, Power BI) to entire platforms (Observable, Jupyter). How do we manage it all? Come explore and discuss this space with industry practitioners and experts that consume with these tools and build new tools on a daily basis. What limitations and trade-offs are there when selecting between different tools for different audiences? How can we promote stronger engagement between researchers and practitioners as we build these tools? What upcoming challenges will we face with the next generation of data vis tools? 
         
-The panelists include: [Zan Armstrong](https://www.zanarmstrong.com/) (Observable), [Stephanie Kirmer](https://skirmer.github.io/) (Saturn Cloud), [Nicolas Kruchten](http://nicolas.kruchten.com/) (Plotly), and [Krist Wongsuphasawat](https://kristw.yellowpigz.com/) (Airbnb).
+The panelists include: [Zan Armstrong](https://www.zanarmstrong.com/) (Observable), [Stephanie Kirmer](https://skirmer.github.io/) (project44), [Nicolas Kruchten](http://nicolas.kruchten.com/) (Plotly), and [Krist Wongsuphasawat](https://kristw.yellowpigz.com/) (Airbnb).
 
 ![Panel 3: Practioner Collaborations](https://visinpractice.github.io/assets/a-visinpractice_panel3.png)
 
