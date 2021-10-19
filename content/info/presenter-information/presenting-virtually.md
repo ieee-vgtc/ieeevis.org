@@ -26,7 +26,7 @@ and test everyone's audio and video set up. Make sure you are in a well-lit
 and quiet room, and have your laptop plugged in.
 The Zoom meeting information will be included in the automated
 session information email.
-**Please make sure your Zoom is updated to the latest version.**
+**Please make sure your Zoom is updated to the latest version (5.8).**
 After the audio/video check the technician will communicate with
 you over Zoom's text chat, so have this open in the pop-out view mode.
 
