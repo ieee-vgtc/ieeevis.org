@@ -12,7 +12,7 @@ contact: tech@ieeevis.org
 One to four days before your session you will receive an automated email
 from our scheduling system containing information about the session. This
 email will include the schedule, general information about how the sessions
-will work, and the Zoom, Youtube and Discord links.
+will work, the Zoom link, and the sli.do link.
 You will receive one such email for each session where you are a presenter,
 chair, or organizer.
 In each Zoom meeting there will be a technician managing the stream
@@ -59,26 +59,23 @@ should turn your video on.
 When your presentation video has ended the technician will switch the
 stream to display the Zoom meeting to allow live responses to questions
 from attendees.
-Questions will be asked via Youtube and Discord chat,
-the technician and chair will monitor these for questions and relay them to
-the presenters over Zoom's text chat.
-The Youtube and Discord chats will be synchronized, so only
-one needs to be monitored. We recommend monitoring the Discord chat, which will
-provide a richer experience and is where you can continue the conversion
-after the session ends.
+Questions will be asked via sli.do,
+the chair will monitor the sli.do and relay them to
+the presenters.
 
 ## As the Session Chair
 
 As the chair you will provide live introductions to each recorded talk
-and help relay questions from the chat to the presenter, similar to the typical
-chair role in an in-person conference. Questions will
-be asked over YouTube chat and Discord, which you can select from and read
-back to the presenter over Zoom. It is important you repeat each question
+and ask the presenter question from sli.do, similar to the typical
+chair role in an in-person conference. Each title slide for a session will
+contain a QR code that will allow attendees to ask sli.do queations ono their
+mobile devide. **Please point out this code and remind attendees to use sli.do
+for their questions**  Select sli.do questions, which will be sorted by most popular,
+and read back to the presenter over Zoom.  The technican will moderate the sli.do questions.
+It is important you repeat each question
 back over Zoom so that the presenter and other attendees can hear them.
-The Youtube and Discord chat channels are synchronized with each other,
-so you only need to monitor one. We recommend watching the Discord chat.
-The technician can also help you in monitoring the chat for questions.
-Please also see our example video below on chairing the session.
+Please also see our example video from 2020 below on chairing the session. The only differences this year are
+the use of sli.do and the removal of youtube chat.
 
 ## The End of Your Session
 There is a **hard cut-off** 10 minutes after
