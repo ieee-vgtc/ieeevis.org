@@ -36,10 +36,8 @@ preparing to speak or speaking on the stream.
 # During Your Session
 
 If your session contains playback of pre-recorded videos
-(e.g., paper presentations), the technician will play these back directly to Youtube.
-The videos will also be screen-shared back to Zoom so you can follow the session
-without watching YouTube. Note that the quality of screen sharing on Zoom is lower
-than the quality that will be seen on Youtube.
+(e.g., paper presentations), the technician will play these back directly on Youtube.
+The technican will switch between the pre-recorded videos and the live session.
 
 ## Do Not Watch Yourself on Youtube
 
@@ -59,8 +57,8 @@ should turn your video on.
 When your presentation video has ended the technician will switch the
 stream to display the Zoom meeting to allow live responses to questions
 from attendees.
-Questions will be asked via sli.do,
-the chair will monitor the sli.do and relay them to
+Questions will be asked via sli.do.
+The chair will monitor the sli.do and relay them to
 the presenters.
 
 ## As the Session Chair
@@ -68,11 +66,10 @@ the presenters.
 As the chair you will provide live introductions to each recorded talk
 and ask the presenter question from sli.do, similar to the typical
 chair role in an in-person conference. Each title slide for a session will
-contain a QR code that will allow attendees to ask sli.do queations ono their
-mobile devide. **Please point out this code and remind attendees to use sli.do
-for their questions**  Select sli.do questions, which will be sorted by most popular,
-and read back to the presenter over Zoom.  The technican will moderate the sli.do questions.
-It is important you repeat each question
+contain a QR code that will allow attendees to ask sli.do questions on their
+mobile device. **Please point out this code and remind attendees to use sli.do
+for their questions**  Sli.do questions will be sorted by most popular and will be
+moderated by the technican. It is important you repeat each question
 back over Zoom so that the presenter and other attendees can hear them.
 Please also see our example video from 2020 below on chairing the session. The only differences this year are
 the use of sli.do and the removal of youtube chat.
@@ -84,8 +81,9 @@ so please keep to the session schedule.
 Additional discussion after the session can be continued on Discord.
 
 # Example Session Tutorials
-Please watch the example session tutorials below to see what to expect as
-a presenter in the virtual conference.
+Please watch the example session tutorials for 2020 below to see what to expect as
+a presenter in the virtual conference.  The only differences between 2020 and this year are the inclusion
+of sli.do questions and the removal of youtube chat.
 
 ## Recorded Talk with Live Q&A
 
