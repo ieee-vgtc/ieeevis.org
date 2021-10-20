@@ -46,6 +46,10 @@ Chairs: Leilani Battle, Joseph Cottam, and Jeffrey Heer
 **University of Arizona and Arizona State University**<br>
 Chairs: Joshua A. Levine, Ross Maciejewski, and Nirav Merchant.
 
+Sponsored by:
+
+<img src = "/year/2021/assets/supporters/dsi.png" alt = "DSI Logo" width = "100px"/>
+
 <a class="button" href="https://azvis2021.github.io/">More Information</a>
 
 ## Urbana-Champaign, IL, USA
