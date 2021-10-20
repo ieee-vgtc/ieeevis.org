@@ -558,7 +558,7 @@ Authors: Changjian Chen, Zhaowei Wang, Jing Wu, Xiting Wang, Lan-Zhe Guo, Yu-Fen
 <a>**Thursday, October 28**</a><br/>
 **10:00-11:30AM CDT (UTC-5)**<br/>
 *Autonomous Driving, Urban, and Spatiotemporal Data*<br/>
-*Session Chair: Catagay Turkay*
+*Session Chair: Cagatay Turkay*
 
 **Geo-Context Aware Study of Vision-Based Autonomous Driving Models and Spatial Video Data**<br/>
 Authors: Suphanut Jamonnak, Ye Zhao, Xinyi Huang, Md Amiruzzaman
