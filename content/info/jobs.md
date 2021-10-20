@@ -112,16 +112,12 @@ Attend job fair meetup? Yes
 
 **Computer Scientist - Semi-automated methods for interacting with augmented reality in digital twins and smart cities scenarios** at German Aerospace Center (DLR) (Braunschweig, Germany), start date: 2022-01-01
 
-[NA](NA)
-
 Contact: andreas.gerndt@dlr.de  
 Start time flexible? Yes  
 Attend job fair meetup? No
 
 
 **Computer Scientist - Software research for in-situ analysis and interactive visualization of large scientific datasets** at German Aerospace Center (DLR) (Braunschweig, Germany), start date: 2022-01-01
-
-[NA](NA)
 
 Contact: andreas.gerndt@dlr.de  
 Start time flexible? Yes  
@@ -130,16 +126,12 @@ Attend job fair meetup? No
 
 **Computer Scientist - Interactive visualisation of trains of the future and emission data maps** at German Aerospace Center (DLR) (Braunschweig, Germany), start date: 2022-01-01
 
-[NA](NA)
-
 Contact: andreas.gerndt@dlr.de  
 Start time flexible? Yes  
 Attend job fair meetup? No
 
 
 **Computer Scientist - Visual Analytics for big georeferenced Data** at German Aerospace Center (DLR) (Braunschweig, Germany), start date: 2022-01-01
-
-[NA](NA)
 
 Contact: andreas.gerndt@dlr.de  
 Start time flexible? Yes  
