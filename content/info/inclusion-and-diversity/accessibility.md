@@ -2,7 +2,7 @@
 title: accessibility
 layout: page
 permalink: /info/inclusion-and-diversity/accessibility
-contact: [accessibility]@ieeevis.org
+contact: accessibility@ieeevis.org
 ---
 # VIS 2021 Accessibility FAQ
  

@@ -27,6 +27,11 @@
   button-url: "/info/capstone-speaker"
   image: "fm_hi.jpeg"
 
+- title: "Job postings"
+  button-text: "Read more"
+  button-url: "/info/jobs"
+  image: "jobs.jpeg"
+
 - title: "VIS 2022 now in Oklahoma"
   image: "downtown_okc.jpg"
   description: "Due to the ongoing COVID-19 pandemic, VIS 2022 will be held in Oklahoma City, OK, and the Melbourne, Australia event will be postponed until 2023. "
