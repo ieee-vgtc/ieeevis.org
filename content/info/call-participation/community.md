@@ -47,7 +47,7 @@ We will collect the job postings and publicly share them online. For potential e
 
 ### <a name="smp"></a>Student Mentorship Program
 <!--**Thursday, 29 October 2020, 13:40:00 Mountain Time**-->
-(Coming soon!) Students are invited to participate in a one-hour session during which they may ask questions and advice from industry experts. This is your opportunity to get expert advice on career next steps, career choices, and insights into working in the industry. For more information about the Student Mentorship Program contact [supporters@ieeevis.org](supporters@ieeevis.org).
+Students are invited to participate in a one-hour session during which they may ask questions and advice from industry experts. This is your opportunity to get expert advice on career next steps, career choices, and insights into working in the industry. For more information about the Student Mentorship Program contact [supporters@ieeevis.org](supporters@ieeevis.org).
 
 
 ### Contact
