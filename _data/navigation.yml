@@ -35,8 +35,8 @@ menu:
     sections:
       - subsections:
           - heading: "Attending VIS 2021"
-            # heading_url: "https://virtual.ieeevis.org/"
-            # description: "Join us online on our virtual site!"
+            heading_url: "https://virtual.ieeevis.org/"
+            description: "Join the conference online on our virtual site!"
             columns:
               - heading: "Attend"
                 links:
@@ -215,7 +215,7 @@ menu:
   #              #     url: "https://www.google.com"
   #              #   - text: "Practioner Guide"
   #              #     url: "https://www.google.com"
-               
+
           - heading: "Awards and Recognitions"
             # heading_url: "https://www.google.com"
             description: "Recognize outstanding work by the VIS community"
