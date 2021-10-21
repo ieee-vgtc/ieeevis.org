@@ -40,6 +40,12 @@ Chairs: Adam Perer, Yu-Ru Lin, and Dominik Moritz
 **University of Washington and Pacific Northwest National Laboratory**<br>
 Chairs: Leilani Battle, Joseph Cottam, and Jeffrey Heer
 
+Sponsored by:
+
+<img src = "/year/2021/assets/supporters/idl-300.png" alt = "IDL Logo" height = "50px"/>
+<img src = "/year/2021/assets/supporters/zB_pLWHH_400x400.jpeg" alt = "Paul Allen School" height = "50px"/>
+<img src = "/year/2021/assets/supporters/Tableau_Software_Logo_Small.png" alt = "Tableau Logo" height = "50px"/>
+
 <a class="button" href="https://idl.cs.washington.edu/vis-satellite/">More Information</a>
 
 ## Tucson, AZ, USA
@@ -48,7 +54,7 @@ Chairs: Joshua A. Levine, Ross Maciejewski, and Nirav Merchant.
 
 Sponsored by:
 
-<img src = "/year/2021/assets/supporters/dsi.png" alt = "DSI Logo" width = "100px"/>
+<img src = "/year/2021/assets/supporters/dsi.png" alt = "DSI Logo" height = "50px"/>
 
 <a class="button" href="https://azvis2021.github.io/">More Information</a>
 
@@ -56,5 +62,10 @@ Sponsored by:
 **The National Center for Supercomputing Applications (NCSA) at the University of Illinois at Urbana-Champaign**<br>
 Chairs: Kalina Borkiewicz and Loretta Auvil
 
-<a class="button" href="https://ieeevissatellite.web.illinois.edu/">More Information</a>
+Sponsored by:
 
+<img src = "/year/2021/assets/supporters/illinois.png" alt = "University of Illinois Logo" height = "50px"/>
+<img src = "/year/2021/assets/supporters/ncsa.png" alt = "National Center for Supercomputing Applications Logo" height = "50px"/>
+<img src = "/year/2021/assets/supporters/staerkel-planetarium.png" alt = "Parkland College - William M. Staerkel Planetarium Logo" height = "50px"/>
+
+<a class="button" href="https://ieeevissatellite.web.illinois.edu/">More Information</a>
