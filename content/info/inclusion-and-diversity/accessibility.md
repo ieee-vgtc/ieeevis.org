@@ -1,10 +1,9 @@
 ---
-title: accessibility
+title: VIS 2021 Accessibility FAQ
 layout: page
 permalink: /info/inclusion-and-diversity/accessibility
 contact: accessibility@ieeevis.org
 ---
-# VIS 2021 Accessibility FAQ
  
 IEEE VIS seeks to cultivate an environment that encourages participation and inclusion. Our goal is to make IEEV VIS 2021 as accessible as possible. The following is information about the accessibility of various components of VIS 2021. Please contact us at accessibility@ieeevis.org, if you have questions, concerns or would like to provide feedback.
  
