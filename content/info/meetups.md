@@ -10,7 +10,7 @@ contact: meetups@ieeevis.org
 * [Vis Buddies meetup](#vis-newcomers) (Tuesday)
 * [Better Online Presentations](#onlinepres) (Tuesday)
 * [VisComm Meetup](#viscomm) (Thursday)
-* [VIS Job-fair meetup](#vis-jobfair) (Thursday)
+* [Job Fair meetup](#vis-jobfair) (Thursday)
 
 ## <a name="vislies"></a>VisLies!
 
@@ -70,11 +70,13 @@ This informal gathering is an opportunity to network with others interested in u
 
 ## <a name="vis-jobfair"></a>VIS Job-fair meetup
 
-Thursday, October 29<br>
-13:40PM - 2:40PM Mountain Time<br>
-Organizer: Hsiang-Yun Wu, Karen Schloss, Jaegul Choo<br>
+Thursday, October 28<br>
+14:00:00 CDT <br>
+Organizer: Hsiang-Yun Wu, Karen Schloss, Lane Harrison<br>
 Contact: community@ieeevis.org
 
-The goal of VIS Job-fair is to bring together job seekers and employers in one virtual venue to trade CV and employment information. Both job seekers and employers should attend with the expectation to be prepared with the link to their CV files as well as that to their job description or fliers.
 
-[Vis Job-fair organizers will provide their own meeting plattform]
+The goal is to bring together job seekers and employers in one virtual venue to trade CV and employment information. Job seekers in attendance are asked to be prepared to share a link to their CV.  Employers in attendance are asked to be prepared with job descriptions and details on how to apply. Employers are also encouraged to include their job postings on the IEEE VIS Job Fair site by submitting this form: https://forms.gle/d6V3u2s8d1TXcjXb9.
+
+[The Zoom link for Job fair Meetup will be available here soon. Login will be required.]
+
