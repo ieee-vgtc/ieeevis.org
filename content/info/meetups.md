@@ -11,6 +11,8 @@ contact: meetups@ieeevis.org
 * [Better Online Presentations](#onlinepres) (Tuesday)
 * [VisComm Meetup](#viscomm) (Thursday)
 * [VIS Job-fair meetup](#vis-jobfair) (Thursday)
+* [Gender Representation and Diversity at IEEE VIS meetup](#vis-gender) (Wednesday)
+
 
 ## <a name="vislies"></a>VisLies!
 
@@ -78,3 +80,17 @@ Contact: community@ieeevis.org
 The goal of VIS Job-fair is to bring together job seekers and employers in one virtual venue to trade CV and employment information. Both job seekers and employers should attend with the expectation to be prepared with the link to their CV files as well as that to their job description or fliers.
 
 [Vis Job-fair organizers will provide their own meeting plattform]
+
+
+## <a name="vis-gender"></a> Gender Representation and Diversity at IEEE VIS
+
+Wednesday, October 27<br>
+15:00:00 CDT <br>
+Organizer: Petra Isenberg, Natkamon Tovanich <br>
+Contact: natkamon.tovanich@inria.fr
+
+Based on our empirical analysis on “Gender in 30 Years IEEE Visualization”, we would like to encourage a wide discussion on possible causes and solutions to gender gaps in the VIS community. The paper discusses numbers but does not suggest possible action - which we hope to start discussing as part of this meetup. 
+
+Beyond gender diversity, we would also like to discuss other diversity characteristics (e.g., research area, academic linage, demographic, etc.). We are interested in exploring ways to collect this kind of data and brainstorm new ideas to improve awareness and inclusion in the IEEE VIS conference.
+
+[The Zoom link for Gender Representation and Diversity Meetup will be available here soon. Login will be required.]
