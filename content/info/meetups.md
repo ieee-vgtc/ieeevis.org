@@ -62,12 +62,13 @@ Topics will include:
 
 ## <a name="viscomm"></a>VisComm Meetup
 
-Thursday, October 29<br>
-13:40PM - 2:40PM Mountain Time<br>
+Wednesday, October 27<br>
+14:00:00 CDT <br>
 Organizer: Adriana Arcia<br>
 Contact: aa2594@cumc.columbia.edu
 
-This informal gathering is an opportunity to network with others interested in using visualization for communication. Come to find a collaborator, discuss best practices, share resources, or just have some social time! Be ready to introduce yourself and say a sentence or two about what you hope to get out of meetup.
+This informal gathering is an opportunity to network with others interested in using visualization for communication. We will also be unveiling the new VisComm community directory. Add yourself! 
+https://forms.gle/68Fsqwn3PBZKihZz7
 
 [The Zoom link for VisComm Meetup will be available here soon. Login will be required.]
 
