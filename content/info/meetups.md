@@ -12,6 +12,9 @@ contact: meetups@ieeevis.org
 * [VisComm Meetup](#viscomm) (Thursday)
 * [VIS Job-fair meetup](#vis-jobfair) (Thursday)
 
+* [Climate Change AI meets Vis Community: Engagement, Collaboration and Research Opportunities Meetup](#climate) (Thursday)
+
+
 ## <a name="vislies"></a>VisLies!
 
 Tuesday, October 27<br>
@@ -78,3 +81,24 @@ Contact: community@ieeevis.org
 The goal of VIS Job-fair is to bring together job seekers and employers in one virtual venue to trade CV and employment information. Both job seekers and employers should attend with the expectation to be prepared with the link to their CV files as well as that to their job description or fliers.
 
 [Vis Job-fair organizers will provide their own meeting plattform]
+
+
+## <a name="climate"></a>Climate Change AI meets Vis Community: Engagement, Collaboration and Research Opportunities  meetup
+
+Thursday, October 28<br>
+14:00:00 CDT <br>
+Organizer: Subhashis Hazarika, Peetak Mitra<br>
+Contact: shazarika@parc.com
+
+Climate change is one of the greatest threats facing life on earth. Scientists and engineers from different domains are joining forces with climate scientists to find solutions to a diverse set of socio-economic problems arising from climate change.  
+ 
+Climate Change AI (CCAI) is an organization composed of volunteers from academia and industry whose core mission is to catalyze impactful work at the intersection of climate change and machine learning. CCAI is actively involved in building a community of diverse stakeholders, providing educational resources, and filling essential infrastructure gaps such as limited-term funding, tools for community engagement and collaboration, and datasets. They have also successfully organized a series of climate change workshops at top machine learning conferences like ICML, ICLR, and NeurIPS, and just launched a $1.8M grants program to catalyze research in this area.
+ 
+The goal of this IEEE Vis meetup is to provide a platform for the visualization research community to interact with CCAI and identify possible engagement, collaboration, and research opportunities.  We feel that the Vis research community has a lot to offer to further the mission of CCAI. In this meetup, we will have core committee members from CCAI talk about their organization and how to get involved at various levels.  
+ 
+If you are a visualization researcher (early-career or senior) and want to actively engage in climate change research, this will be an excellent networking platform.  
+ 
+Climate Change AI website: https://www.climatechange.ai/ 
+
+
+[The Zoom link for Climate Change AI  Meetup will be available here soon. Login will be required.]
