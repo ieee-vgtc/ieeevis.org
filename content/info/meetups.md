@@ -7,8 +7,8 @@ contact: meetups@ieeevis.org
 ---
 
 * [VisLies!](#vislies) (Tuesday)
-* [VisBuddies meetup](#vis-newcomers) (Tuesday)
-* [Publish or Publicize](#publish) (Wednesday)
+* [Vis Buddies meetup](#vis-newcomers) (Tuesday)
+* [Better Online Presentations](#onlinepres) (Tuesday)
 * [VisComm Meetup](#viscomm) (Thursday)
 * [VIS Job-fair meetup](#vis-jobfair) (Thursday)
 
@@ -27,27 +27,35 @@ For more information about VisLies, you can visit our website at [http://vislies
 
 ## <a name="vis-newcomers"></a>VisBuddies meetup
 
-Tuesday, October 26<br>
-14:00:00 CDT <br>
-Organizer: Hsiang-Yun Wu, Karen Schloss, Lane Harrison<br>
+Tuesday, October 27<br>
+13:40PM - 2:40PM Mountain Time<br>
+Organizer: Hsiang-Yun Wu, Karen Schloss, Jaegul Choo<br>
 Contact: community@ieeevis.org
-
 
 VisBuddies brings together new and returning VIS attendees with similar interests. For newcomers, this is a chance to meet experienced researchers in the field. For returning attendees, it is a chance to meet fresh talent joining VIS for the first time. You can volunteer for VisBuddies on the registration form (the latest a week prior to VIS). Based on the declared interests of attendees in the registration form, we will match pairs or small groups of attendees with different levels of VIS experience, and contact the groups via email prior to VIS.
 
-[The Zoom link for VisBuddies Meetup will be available here soon. Login will  be required.]
+[VisBudies organizers will provide their own meeting plattform]
 
+## <a name="onlinepres"></a>Better Online Presentations
 
-## <a name="publish"></a>Publish or Publicize: How to get word out about your research beyond academia
-
-Wednesday, October 28<br>
-13:40PM - 2:40PM Mountain Time<br>
+Tuesday, October 26<br>
+14:00:00 CDT <br>
 Organizer: Robert Kosara<br>
-Contact: rkosara@tableau.com
+Contact: kosara@tableau.com
 
-Publishing your paper is all good and well, but how does the rest of the world learn about it? What ways do you have to get even academic researchers to learn about your research if they happened to miss your conference talk? There’s a healthy (if small) visualization community on Twitter, but blogging hasn’t been so hot lately, and we haven’t really established much of a foothold on YouTube. Let’s chat about what tools we have to publicize visualization research, from old-school blogging to social media, podcasts to vlogs, and beyond (anybody want to start a vis TikTok?).
+We've all suffered through too many Zoom meetings and online talks over the last 18 months. And we'll likely be doing this for a while longer. So how do you make your talk or lecture work when it's virtual? How do you keep people's attention? What mistakes make your talk boring or hard to listen to?
+The goal of this meetup is to talk about a variety of topics around virtual talks and online classes, and learn from each other.
+Topics will include:
+•        Common mistakes we've all seen people make in presentations and how to avoid them. The idea is to become aware of them so you can avoid making them yourself!
+•        Should you be visible all the time during your talk? What are the pros and cons?
+•        Technical and setup questions, like types of microphones and cameras, how to  keep audio and video in sync, etc.
+•        Making the best use of your equipment with proper microphone and camera technique, etc.
+•        Getting fancy with green screen, streaming software, teleprompters, etc.
+•        The difference between a live talk and recording: basic editing, sound sweetening, etc.
+•        Making it interactive: features built into software like Zoom, and other tools to use for polls, small-group collaboration, etc.
+•        Anything else participants want to ask about or contribute
 
-[The Zoom link for Publish or Publicize Meetup will be available here soon. Login will be required.]
+[The Zoom link for Better Online Presentations Meetup will be available here soon. Login will be required.]
 
 ## <a name="viscomm"></a>VisComm Meetup
 
