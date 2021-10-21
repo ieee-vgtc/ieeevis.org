@@ -7,7 +7,7 @@ contact: meetups@ieeevis.org
 ---
 
 * [VisLies!](#vislies) (Tuesday)
-* [Vis Buddies meetup](#vis-newcomers) (Tuesday)
+* [VisBuddies meetup](#vis-newcomers) (Tuesday)
 * [Publish or Publicize](#publish) (Wednesday)
 * [VisComm Meetup](#viscomm) (Thursday)
 * [VIS Job-fair meetup](#vis-jobfair) (Thursday)
@@ -27,14 +27,16 @@ For more information about VisLies, you can visit our website at [http://vislies
 
 ## <a name="vis-newcomers"></a>VisBuddies meetup
 
-Tuesday, October 27<br>
-13:40PM - 2:40PM Mountain Time<br>
-Organizer: Hsiang-Yun Wu, Karen Schloss, Jaegul Choo<br>
+Tuesday, October 26<br>
+14:00:00 CDT <br>
+Organizer: Hsiang-Yun Wu, Karen Schloss, Lane Harrison<br>
 Contact: community@ieeevis.org
+
 
 VisBuddies brings together new and returning VIS attendees with similar interests. For newcomers, this is a chance to meet experienced researchers in the field. For returning attendees, it is a chance to meet fresh talent joining VIS for the first time. You can volunteer for VisBuddies on the registration form (the latest a week prior to VIS). Based on the declared interests of attendees in the registration form, we will match pairs or small groups of attendees with different levels of VIS experience, and contact the groups via email prior to VIS.
 
-[VisBudies organizers will provide their own meeting plattform]
+[The Zoom link for VisBuddies Meetup will be available here soon. Login will  be required.]
+
 
 ## <a name="publish"></a>Publish or Publicize: How to get word out about your research beyond academia
 
