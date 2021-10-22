@@ -1,26 +1,26 @@
 ---
-title: IEEE VIS 2020 Meetups
+title: IEEE VIS 2021 Meetups
 layout: page
 active_nav: "Events & Community"
 permalink: /info/meetups
 contact: meetups@ieeevis.org
 ---
 
-* [VisLies!](#vislies) (Tuesday)
-* [Vis Buddies meetup](#vis-newcomers) (Tuesday)
-* [Better Online Presentations](#onlinepres) (Tuesday)
-* [VisComm Meetup](#viscomm) (Thursday)
-* [VIS Job-fair meetup](#vis-jobfair) (Thursday)
-* [Gender Representation and Diversity at IEEE VIS meetup](#vis-gender) (Wednesday)
+* [VisLies! Meetup](#vislies) (Tuesday)
+* [Vis Buddies Meetup](#vis-newcomers) (Tuesday)
+* [Better Online Presentations Meetup](#onlinepres) (Tuesday)
+* [VisComm Meetup](#viscomm) (Wednesday)
+* [Gender Representation and Diversity at IEEE VIS Meetup](#vis-gender) (Wednesday)
+* [VIS Job-fair Meetup](#vis-jobfair) (Thursday)
 * [Climate Change AI meets Vis Community: Engagement, Collaboration and Research Opportunities Meetup](#climate) (Thursday)
 
 
-## <a name="vislies"></a>VisLies!
+## <a name="vislies"></a>VisLies! Meetup
 
-Tuesday, October 27<br>
-13:40PM - 2:40PM Mountain Time<br>
+Tuesday, October 26<br>
+15:00:00 CDT<br>
 Organizer: Kenneth Moreland and Bernice Rogowitz<br>
-Contact: kmorel@sandia.gov, bernice.e.rogowitz@gmail.com
+Contact: bernice.e.rogowitz@gmail.com
 
 VisLies! is a yearly event at IEEE VIS. This fun and engaging evening session showcases examples of egregious perceptual, cognitive, and conceptual errors in visualization, presented by members of the Vis community.  Examples from our own work, from published papers, and from the internet highlight the many ways the visual representation can misrepresent the underlying phenomena in the data. This is a great opportunity for amusement and for learning, and every year we walk away with a smile on our faces and insights that may one day save the world.
 
@@ -28,18 +28,18 @@ For more information about VisLies, you can visit our website at [http://vislies
 
 [The Zoom link for VisLies! Meetup will be available here soon. Login will  be required.]
 
-## <a name="vis-newcomers"></a>VisBuddies meetup
+## <a name="vis-newcomers"></a>VisBuddies Meetup
 
-Tuesday, October 27<br>
-13:40PM - 2:40PM Mountain Time<br>
-Organizer: Hsiang-Yun Wu, Karen Schloss, Jaegul Choo<br>
+Tuesday, October 26<br>
+14:00:00 CDTe<br>
+Organizer: Hsiang-Yun Wu, Karen Schloss, Lane Harrison<br>
 Contact: community@ieeevis.org
 
 VisBuddies brings together new and returning VIS attendees with similar interests. For newcomers, this is a chance to meet experienced researchers in the field. For returning attendees, it is a chance to meet fresh talent joining VIS for the first time. You can volunteer for VisBuddies on the registration form (the latest a week prior to VIS). Based on the declared interests of attendees in the registration form, we will match pairs or small groups of attendees with different levels of VIS experience, and contact the groups via email prior to VIS.
 
-[VisBudies organizers will provide their own meeting plattform]
+[The Zoom link for VisBuddies Meetup will be available here soon. Login will  be required.]
 
-## <a name="onlinepres"></a>Better Online Presentations
+## <a name="onlinepres"></a>Better Online Presentations Meetup
 
 Tuesday, October 26<br>
 14:00:00 CDT <br>
@@ -72,20 +72,8 @@ https://forms.gle/68Fsqwn3PBZKihZz7
 
 [The Zoom link for VisComm Meetup will be available here soon. Login will be required.]
 
-## <a name="vis-jobfair"></a>VIS Job-fair meetup
 
-Thursday, October 28<br>
-14:00:00 CDT <br>
-Organizer: Hsiang-Yun Wu, Karen Schloss, Lane Harrison<br>
-Contact: community@ieeevis.org
-
-The goal is to bring together job seekers and employers in one virtual venue to trade CV and employment information. Job seekers in attendance are asked to be prepared to share a link to their CV.  Employers in attendance are asked to be prepared with job descriptions and details on how to apply. Employers are also encouraged to include their job postings on the IEEE VIS Job Fair site by submitting this form: https://forms.gle/d6V3u2s8d1TXcjXb9.
-
-[The Zoom link for Job fair Meetup will be available here soon. Login will be required.]
-
-[Vis Job-fair organizers will provide their own meeting plattform]
-
-## <a name="vis-gender"></a> Gender Representation and Diversity at IEEE VIS
+## <a name="vis-gender"></a> Gender Representation and Diversity at IEEE VIS Meetup
 
 Wednesday, October 27<br>
 15:00:00 CDT <br>
@@ -98,7 +86,20 @@ Beyond gender diversity, we would also like to discuss other diversity character
 
 [The Zoom link for Gender Representation and Diversity Meetup will be available here soon. Login will be required.]
 
-## <a name="climate"></a>Climate Change AI meets Vis Community: Engagement, Collaboration and Research Opportunities  meetup
+## <a name="vis-jobfair"></a>VIS Job-fair Meetup
+
+Thursday, October 28<br>
+14:00:00 CDT <br>
+Organizer: Hsiang-Yun Wu, Karen Schloss, Lane Harrison<br>
+Contact: community@ieeevis.org
+
+The goal is to bring together job seekers and employers in one virtual venue to trade CV and employment information. Job seekers in attendance are asked to be prepared to share a link to their CV.  Employers in attendance are asked to be prepared with job descriptions and details on how to apply. Employers are also encouraged to include their job postings on the IEEE VIS Job Fair site by submitting this form: https://forms.gle/d6V3u2s8d1TXcjXb9.
+
+[The Zoom link for Job-fair Meetup will be available here soon. Login will be required.]
+
+
+
+## <a name="climate"></a>Climate Change AI meets Vis Community: Engagement, Collaboration and Research Opportunities Meetup
 
 Thursday, October 28<br>
 14:00:00 CDT <br>
