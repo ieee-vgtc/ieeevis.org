@@ -285,12 +285,12 @@ menu:
             columns:
               - heading: "Connect"
                 links:
-                  # - text: "Vis Buddies"
-                  #   url: "/year/2021/info/meetups#vis-newcomers"
+                  - text: "Vis Buddies"
+                    url: "/year/2021/info/meetups#vis-newcomers"
                   - text: "Job Postings"
                     url: "/year/2021/info/jobs"
-                  # - text: "Other Meetups"
-                  #   url: "/year/2021/info/meetups"
+                  - text: "Other Meetups"
+                    url: "/year/2021/info/meetups"
               - heading: "Social Groups"
                 links:
                   - text: "Velo Club de VIs"
