@@ -195,7 +195,7 @@ permalink: /info/committees/conference-committee
 | **Technology Chairs** | |
 | Alex Bock | *Linköping University* |
 | Michail Schwab | *Google* |
-| Will Usher | *University of Utah* |
+| Will Usher | *Intel* |
 |---
 | **Virtual VIS Chairs** | |
 | Gautam Chaudhary | *Alcon* |
