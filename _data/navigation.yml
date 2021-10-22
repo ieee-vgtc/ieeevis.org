@@ -77,6 +77,9 @@ menu:
                   - text: "Inclusivity & Diversity Scholarship"
                     description: "Need-based scholarships for conference attendance"
                     url: "/year/2021/info/inclusion-and-diversity/diversity-scholarship"
+                  - text: "Accessibility"
+                    description: "Supporting access for all attendees"
+                    url: "/year/2021/info/inclusion-and-diversity/accessibility"
                   - text: "VISKids Childcare Grants"
                     description: "Supporting our VISKids and young families"
                     url: "/year/2021/info/inclusion-and-diversity/viskids-child-care-grants"
@@ -284,8 +287,8 @@ menu:
                 links:
                   - text: "Vis Buddies"
                     url: "/year/2021/info/meetups#vis-newcomers"
-                  - text: "Job Fair"
-                    url: "/year/2021/info/meetups#vis-jobfair"
+                  - text: "Job Postings"
+                    url: "/year/2021/info/jobs"
                   - text: "Other Meetups"
                     url: "/year/2021/info/meetups"
               - heading: "Social Groups"
@@ -293,9 +296,9 @@ menu:
                   - text: "Velo Club de VIs"
                     url: "https://www.gicentre.net/velo-club-de-vis/"
                     is_external: true
-              #         - text: "Vis Pioneers Group"
-              #           url: "http://vacommunity.org/ieeevpg/"
-              #           is_external: true
+                  # - text: "Vis Pioneers Group"
+                  #   url: "http://vacommunity.org/ieeevpg/"
+                  #   is_external: true
               - heading: "Social Media"
                 links:
                   - text: "Facebook"

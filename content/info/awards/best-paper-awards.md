@@ -131,7 +131,21 @@ Authors: Vidya Setlur, Haeyong Chung
 Authors: Hanqi Guo, Tom Peterka
 
 
+## Posters
 
+We would like to thank the members of the best poster committee: Alex Endert, Christophe Hurter, and Daniel Jönsson. The committee received a short list of the top 6 posters, which were recommended as best poster candidates by the reviewers. After resolving potential conflicts of interest, they selected 1 best poster and 2 honorable mention awards.
 
+Congratulations to the awardees!
 
+### Best Poster
 
+**Towards Automatic Grading of D3.js Visualizations**
+Authors: Matthew Hull, Connor Guerin, Justin Chen, Susanta Routray, Duen Horng Chau
+
+### Best Poster Honorable Mentions
+
+**TrafficVis: Fighting Human Trafficking Through Visualization**
+Authors: Catalina Vajiac, Andreas Olligschlaeger, Yifei Li, Pratheeksha Nair, Meng-Chieh Lee, Namyong Park, Reihaneh Rabbany, Duen Horng Chau, Christos Faloutsos
+
+**Argo Scholar: Interactive Visual Exploration of Literature in Browsers**
+Authors: Kevin Li, Haoyang Yang, Anish Upadhayay, Zhiyan Zhou, Jon Saad-Falcon, Duen Horng Chau

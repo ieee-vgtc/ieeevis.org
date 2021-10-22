@@ -10,23 +10,23 @@ More detail about posters and their associated presentations will be released wi
 
 <hr />
 
+**(Best Poster) Towards Automatic Grading of D3.js Visualizations**<br/>
+Authors: Matthew Hull, Connor Guerin, Justin Lu Chen, Susanta Kumar Routray, Duen Horng Chau
+
+**(Honorable Mention) TrafficVis: Visualizing Suspicious Meta-Clusters for Human Trafficking Detection**<br/>
+Authors: Catalina Vajiac, Andreas Olligschlaeger, Yifei Li, Pratheeksha Nair, Meng-Chieh Lee, Namyong Park, Reihaneh Rabbany, Duen Horng Chau, Christos Faloutsos
+
+**(Honorable Mention) Argo Scholar: Interactive Visual Exploration of Literature in Browsers**<br/>
+Authors: Kevin Li, Haoyang Yang, Anish Upadhayay, Zhiyan Zhou, Jon Saad-Falcon, Duen Horng Chau
+
 **Empowering Natural Language to Visualization Neural Translation using Synthesized Benchmarks**<br/>
 Authors: Yuyu Luo, Jiawei Tang, Guoliang Li, Chengliang Chai
 
 **Visualization to Study Bias in Image Annotations and to Support Annotation Based on Semantic Differential**<br/>
 Authors: Akari Iijima, Takayuki Itoh
 
-**Argo Scholar: Interactive Visual Exploration of Literature in Browsers**<br/>
-Authors: Kevin Li, Haoyang Yang, Anish Upadhayay, Zhiyan Zhou, Jon Saad-Falcon, Duen Horng Chau
-
-**Towards Automatic Grading of D3.js Visualizations**<br/>
-Authors: Matthew Hull, Connor Guerin, Justin Lu Chen, Susanta Kumar Routray, Duen Horng Chau
-
 **A Visualization Authoring Model for Post-WIMP Interfaces**<br/>
 Authors: Marc Satkowski, Weizhou Luo, Raimund Dachselt
-
-**TrafficVis: Visualizing Suspicious Meta-Clusters for Human Trafficking Detection**<br/>
-Authors: Catalina Vajiac, Andreas Olligschlaeger, Yifei Li, Pratheeksha Nair, Meng-Chieh Lee, Namyong Park, Reihaneh Rabbany, Duen Horng Chau, Christos Faloutsos
 
 **Enhancing Understanding of Constitutional Law through Visual Design**<br/>
 Authors: Yiwen Xing, Nicholas Cole, Rita Borgo, Alfie Abdul-Rahman
