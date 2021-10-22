@@ -280,19 +280,19 @@ menu:
             heading_url: "/year/2021/info/call-participation/community"
             description: "Explore social and topic-based community groups"
             columns:
-              #     - heading: "Connect"
-              #       links:
-              #         - text: "Vis Buddies"
-              #           url: "/year/2021/info/meetups#vis-newcomers"
-              #         - text: "Job Fair"
-              #           url: "/year/2021/info/meetups#vis-jobfair"
-              #         - text: "Other Meetups"
-              #           url: "/year/2021/info/meetups"
-              #     - heading: "Social Groups"
-              #       links:
-              #         - text: "Velo Club de VIs"
-              #           url: "https://www.gicentre.net/velo-club-de-vis/"
-              #           is_external: true
+              - heading: "Connect"
+                links:
+                  - text: "Vis Buddies"
+                    url: "/year/2021/info/meetups#vis-newcomers"
+                  - text: "Job Fair"
+                    url: "/year/2021/info/meetups#vis-jobfair"
+                  - text: "Other Meetups"
+                    url: "/year/2021/info/meetups"
+              - heading: "Social Groups"
+                links:
+                  - text: "Velo Club de VIs"
+                    url: "https://www.gicentre.net/velo-club-de-vis/"
+                    is_external: true
               #         - text: "Vis Pioneers Group"
               #           url: "http://vacommunity.org/ieeevpg/"
               #           is_external: true
