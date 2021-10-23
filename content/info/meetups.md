@@ -29,6 +29,9 @@ For more information about VisLies, you can visit our website at [http://vislies
 
 [The Zoom link for VisLies! Meetup will be available here soon. Login will  be required.]
 
+[Connect to VisLies! Meetup](https://virtual.ieeevis.org/year/2021/event_m-vislies.html)
+
+
 ## <a name="vis-newcomers"></a>VisBuddies Meetup
 
 Tuesday, October 26<br>
@@ -39,6 +42,9 @@ Contact: community@ieeevis.org
 VisBuddies brings together new and returning VIS attendees with similar interests. For newcomers, this is a chance to meet experienced researchers in the field. For returning attendees, it is a chance to meet fresh talent joining VIS for the first time. You can volunteer for VisBuddies on the registration form (the latest a week prior to VIS). Based on the declared interests of attendees in the registration form, we will match pairs or small groups of attendees with different levels of VIS experience, and contact the groups via email prior to VIS.
 
 [The Zoom link for VisBuddies Meetup will be available here soon. Login will  be required.]
+
+[Connect to VisBuddies Meetup](https://virtual.ieeevis.org/year/2021/event_m-visbuddies.html)
+
 
 ## <a name="onlinepres"></a>Better Online Presentations Meetup
 
@@ -61,6 +67,9 @@ Topics will include:
 
 [The Zoom link for Better Online Presentations Meetup will be available here soon. Login will be required.]
 
+[Connect to Better Online Presentations Meetup](https://virtual.ieeevis.org/year/2021/event_m-betteronline.html)
+
+
 ## <a name="viscomm"></a>VisComm Meetup
 
 Wednesday, October 27<br>
@@ -73,6 +82,7 @@ https://forms.gle/68Fsqwn3PBZKihZz7
 
 [The Zoom link for VisComm Meetup will be available here soon. Login will be required.]
 
+[Connect to VisComm Meetup](https://virtual.ieeevis.org/year/2021/event_m-viscomm-meetup.html)
 
 ## <a name="vis-gender"></a> Gender Representation and Diversity at IEEE VIS Meetup
 
@@ -87,6 +97,7 @@ Beyond gender diversity, we would also like to discuss other diversity character
 
 [The Zoom link for Gender Representation and Diversity Meetup will be available here soon. Login will be required.]
 
+[Connect to Gender Representation and Diversity Meetup](https://virtual.ieeevis.org/year/2021/event_m-gender.html)
 
 ## <a name="vis-evaluate"></a>Evaluating Complex Interactive Visualizations Meetup
 
@@ -99,6 +110,7 @@ The goal of this meetup is to foster a discussion on how we, as visualization re
 
 [The Zoom link for Job-fair Meetup will be available here soon. Login will be required.]
 
+[Connect to Evaluating Complex Interactive Visualizations Meetup](https://virtual.ieeevis.org/year/2021/events.html)
 
 
 ## <a name="vis-jobfair"></a>Job-fair Meetup
@@ -112,6 +124,7 @@ The goal is to bring together job seekers and employers in one virtual venue to 
 
 [The Zoom link for Job-fair Meetup will be available here soon. Login will be required.]
 
+[Connect to Job-fair Meetup](https://virtual.ieeevis.org/year/2021/session_m-jobfair.html)
 
 
 ## <a name="climate"></a>Climate Change AI meets Vis Community: Engagement, Collaboration and Research Opportunities Meetup
@@ -135,5 +148,6 @@ Climate Change AI website: https://www.climatechange.ai/
 [The Zoom link for Climate Change AI  Meetup will be available here soon. Login will be required.]
 
 
+[Connect to Climate Change AI meets Vis Meetup](https://virtual.ieeevis.org/year/2021/event_m-climate.html)
 
 
