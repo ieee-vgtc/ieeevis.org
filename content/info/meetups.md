@@ -11,9 +11,10 @@ contact: meetups@ieeevis.org
 * [Better Online Presentations Meetup](#onlinepres) (Tuesday)
 * [VisComm Meetup](#viscomm) (Wednesday)
 * [Gender Representation and Diversity at IEEE VIS Meetup](#vis-gender) (Wednesday)
+* [Evaluating Complex Interactive Visualizations Meetup](#vis-evaluate) (Wednesday)
 * [Job-fair Meetup](#vis-jobfair) (Thursday)
 * [Climate Change AI meets Vis Community: Engagement, Collaboration and Research Opportunities Meetup](#climate) (Thursday)
-* [Evaluating Complex Interactive Visualizations Meetup](#vis-evaluate) (Thursday)
+
 
 ## <a name="vislies"></a>VisLies! Meetup
 
@@ -86,6 +87,20 @@ Beyond gender diversity, we would also like to discuss other diversity character
 
 [The Zoom link for Gender Representation and Diversity Meetup will be available here soon. Login will be required.]
 
+
+## <a name="vis-evaluate"></a>Evaluating Complex Interactive Visualizations Meetup
+
+Wednesday, October 27<br>
+14:00:00 CDT <br>
+Organizer: Carolina Nobre, Alexander Lex, Lane Harrison<br>
+Contact: cnobre@g.harvard.edu , alex@sci.utah.edu, ltharrison@wpi.edu
+
+The goal of this meetup is to foster a discussion on how we, as visualization researchers, can better evaluate the complex interactive visualization (CIV) tools and systems we develop. The challenges of evaluating these systems include the several design decisions involved in developing CIVS, as well as the complexity and diversity of analysis strategies and abilities of the users of these interfaces. We plan on facilitating discussions along two main threads: (1) validating the design of CIVS, and (2) designing scalable experiments to evaluate CIVs.
+
+[The Zoom link for Job-fair Meetup will be available here soon. Login will be required.]
+
+
+
 ## <a name="vis-jobfair"></a>Job-fair Meetup
 
 Thursday, October 28<br>
@@ -119,17 +134,6 @@ Climate Change AI website: https://www.climatechange.ai/
 
 [The Zoom link for Climate Change AI  Meetup will be available here soon. Login will be required.]
 
-
-## <a name="vis-evaluate"></a>Evaluating Complex Interactive Visualizations Meetup
-
-Thursday, October 28<br>
-15:00:00 CDT <br>
-Organizer: Carolina Nobre, Alexander Lex, Lane Harrison<br>
-Contact: cnobre@g.harvard.edu , alex@sci.utah.edu, ltharrison@wpi.edu
-
-The goal of this meetup is to foster a discussion on how we, as visualization researchers, can better evaluate the complex interactive visualization (CIV) tools and systems we develop. The challenges of evaluating these systems include the several design decisions involved in developing CIVS, as well as the complexity and diversity of analysis strategies and abilities of the users of these interfaces. We plan on facilitating discussions along two main threads: (1) validating the design of CIVS, and (2) designing scalable experiments to evaluate CIVs.
-
-[The Zoom link for Job-fair Meetup will be available here soon. Login will be required.]
 
 
 
