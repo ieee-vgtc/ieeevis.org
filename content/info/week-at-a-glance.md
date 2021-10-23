@@ -14,3 +14,5 @@ Below is a high-level overview of the schedule of events taking place at the con
 
 [Download the program (PDF)]({{ 'assets/vis2021-program.pdf' | relative_url }})
 
+# Meetups
+[IEEE VIS 2021 Meetups](/year/2021/info/meetups)
