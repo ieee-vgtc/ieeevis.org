@@ -27,7 +27,6 @@ VisLies! is a yearly event at IEEE VIS. This fun and engaging evening session sh
 
 For more information about VisLies, you can visit our website at [http://vislies.org](http://vislies.org).
 
-[The Zoom link for VisLies! Meetup will be available here soon. Login will  be required.]
 
 [Connect to VisLies! Meetup](https://virtual.ieeevis.org/year/2021/event_m-vislies.html)
 
@@ -41,7 +40,6 @@ Contact: community@ieeevis.org
 
 VisBuddies brings together new and returning VIS attendees with similar interests. For newcomers, this is a chance to meet experienced researchers in the field. For returning attendees, it is a chance to meet fresh talent joining VIS for the first time. You can volunteer for VisBuddies on the registration form (the latest a week prior to VIS). Based on the declared interests of attendees in the registration form, we will match pairs or small groups of attendees with different levels of VIS experience, and contact the groups via email prior to VIS.
 
-[The Zoom link for VisBuddies Meetup will be available here soon. Login will  be required.]
 
 [Connect to VisBuddies Meetup](https://virtual.ieeevis.org/year/2021/event_m-visbuddies.html)
 
@@ -56,16 +54,18 @@ Contact: kosara@tableau.com
 We've all suffered through too many Zoom meetings and online talks over the last 18 months. And we'll likely be doing this for a while longer. So how do you make your talk or lecture work when it's virtual? How do you keep people's attention? What mistakes make your talk boring or hard to listen to?
 The goal of this meetup is to talk about a variety of topics around virtual talks and online classes, and learn from each other.
 Topics will include:
-•        Common mistakes we've all seen people make in presentations and how to avoid them. The idea is to become aware of them so you can avoid making them yourself!
-•        Should you be visible all the time during your talk? What are the pros and cons?
-•        Technical and setup questions, like types of microphones and cameras, how to  keep audio and video in sync, etc.
-•        Making the best use of your equipment with proper microphone and camera technique, etc.
-•        Getting fancy with green screen, streaming software, teleprompters, etc.
-•        The difference between a live talk and recording: basic editing, sound sweetening, etc.
-•        Making it interactive: features built into software like Zoom, and other tools to use for polls, small-group collaboration, etc.
-•        Anything else participants want to ask about or contribute
+*  Common mistakes we've all seen people make in presentations and how to avoid them. 
+   The idea is to become aware of them so you can avoid making them yourself!
+*  Should you be visible all the time during your talk? What are the pros and cons?
+*  Technical and setup questions, like types of microphones and cameras, 
+   how to keep audio and video in sync, etc.
+*  Making the best use of your equipment with proper microphone and camera technique, etc.
+*  Getting fancy with green screen, streaming software, teleprompters, etc.
+*  The difference between a live talk and recording: basic editing, sound sweetening, etc.
+*  Making it interactive: features built into software like Zoom, 
+   and other tools to use for polls, small-group collaboration, etc.
+*  Anything else participants want to ask about or contribute
 
-[The Zoom link for Better Online Presentations Meetup will be available here soon. Login will be required.]
 
 [Connect to Better Online Presentations Meetup](https://virtual.ieeevis.org/year/2021/event_m-betteronline.html)
 
@@ -78,9 +78,9 @@ Organizer: Adriana Arcia<br>
 Contact: aa2594@cumc.columbia.edu
 
 This informal gathering is an opportunity to network with others interested in using visualization for communication. We will also be unveiling the new VisComm community directory. Add yourself! 
-https://forms.gle/68Fsqwn3PBZKihZz7
+[https://forms.gle/68Fsqwn3PBZKihZz7](https://forms.gle/68Fsqwn3PBZKihZz7)
 
-[The Zoom link for VisComm Meetup will be available here soon. Login will be required.]
+
 
 [Connect to VisComm Meetup](https://virtual.ieeevis.org/year/2021/event_m-viscomm-meetup.html)
 
@@ -95,7 +95,6 @@ Based on our empirical analysis on “Gender in 30 Years IEEE Visualization”, 
 
 Beyond gender diversity, we would also like to discuss other diversity characteristics (e.g., research area, academic linage, demographic, etc.). We are interested in exploring ways to collect this kind of data and brainstorm new ideas to improve awareness and inclusion in the IEEE VIS conference.
 
-[The Zoom link for Gender Representation and Diversity Meetup will be available here soon. Login will be required.]
 
 [Connect to Gender Representation and Diversity Meetup](https://virtual.ieeevis.org/year/2021/event_m-gender.html)
 
@@ -108,7 +107,6 @@ Contact: cnobre@g.harvard.edu , alex@sci.utah.edu, ltharrison@wpi.edu
 
 The goal of this meetup is to foster a discussion on how we, as visualization researchers, can better evaluate the complex interactive visualization (CIV) tools and systems we develop. The challenges of evaluating these systems include the several design decisions involved in developing CIVS, as well as the complexity and diversity of analysis strategies and abilities of the users of these interfaces. We plan on facilitating discussions along two main threads: (1) validating the design of CIVS, and (2) designing scalable experiments to evaluate CIVs.
 
-[The Zoom link for Job-fair Meetup will be available here soon. Login will be required.]
 
 [Connect to Evaluating Complex Interactive Visualizations Meetup](https://virtual.ieeevis.org/year/2021/events.html)
 
@@ -120,9 +118,9 @@ Thursday, October 28<br>
 Organizer: Hsiang-Yun Wu, Karen Schloss, Lane Harrison<br>
 Contact: community@ieeevis.org
 
-The goal is to bring together job seekers and employers in one virtual venue to trade CV and employment information. Job seekers in attendance are asked to be prepared to share a link to their CV.  Employers in attendance are asked to be prepared with job descriptions and details on how to apply. Employers are also encouraged to include their job postings on the IEEE VIS Job Fair site by submitting this form: https://forms.gle/d6V3u2s8d1TXcjXb9.
+The goal is to bring together job seekers and employers in one virtual venue to trade CV and employment information. Job seekers in attendance are asked to be prepared to share a link to their CV.  Employers in attendance are asked to be prepared with job descriptions and details on how to apply. Employers are also encouraged to include their job postings on the IEEE VIS Job Fair site by submitting this form: 
+[https://forms.gle/d6V3u2s8d1TXcjXb9](https://forms.gle/d6V3u2s8d1TXcjXb9).
 
-[The Zoom link for Job-fair Meetup will be available here soon. Login will be required.]
 
 [Connect to Job-fair Meetup](https://virtual.ieeevis.org/year/2021/session_m-jobfair.html)
 
@@ -142,11 +140,8 @@ The goal of this IEEE Vis meetup is to provide a platform for the visualization 
  
 If you are a visualization researcher (early-career or senior) and want to actively engage in climate change research, this will be an excellent networking platform.  
  
-Climate Change AI website: https://www.climatechange.ai/ 
-
-
-[The Zoom link for Climate Change AI  Meetup will be available here soon. Login will be required.]
-
+Climate Change AI website: 
+[https://www.climatechange.ai/](https://www.climatechange.ai/)
 
 [Connect to Climate Change AI meets Vis Meetup](https://virtual.ieeevis.org/year/2021/event_m-climate.html)
 
