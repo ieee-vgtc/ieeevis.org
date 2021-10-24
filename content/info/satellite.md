@@ -15,11 +15,23 @@ Chairs: Fabio Miranda and Victor A. Mateevitsi
 **IT University of Copenhagen**<br>
 Chair: Søren Knudsen
 
+Sponsored by:
+
+<img class="mr-8 mb-10 supporter__logo  supporter__logo--custom" src = "/year/2021/assets/supporters/EY.png" alt = "EY Denmark Logo" width = "150"/>
+<img class="mr-8 mb-10 supporter__logo  supporter__logo--custom" src = "/year/2021/assets/supporters/invisio.png" alt = "Inviso by Devoteam Logo" width = "150"/>
+<img class="mr-8 mb-10 supporter__logo  supporter__logo--custom" src = "/year/2021/assets/supporters/cph.png" alt = "IT University of Copenhagen Logo" width = "150"/>
+
 <a class="button" href="http://vis21cph.itu.dk/">More Information</a>
 
 ## Norrköping, Sweden
 **Linköping University**<br>
 Chairs: Alexander Bock, Ingrid Hotz, Andreas Kerren, Miriah Meyer, and Anders Ynnerman 
+
+Sponsored by:
+
+<img class="mr-8 mb-10 supporter__logo  supporter__logo--custom" src = "/year/2021/assets/supporters/visual-sweden.png" alt = "Visual Sweden Logo" width = "150"/>
+<img class="mr-8 mb-10 supporter__logo  supporter__logo--custom" src = "/year/2021/assets/supporters/norrkoping.png" alt = "Norrköping Visualization Centre Logo" width = "150"/>
+
 
 <a class="button" href="https://swevis2021.github.io">More Information</a>
 
