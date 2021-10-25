@@ -17,9 +17,9 @@ Chair: Søren Knudsen
 
 Sponsored by:
 
-<img class="mr-8 mb-10 supporter__logo  supporter__logo--custom" src = "/year/2021/assets/supporters/EY.png" alt = "EY Denmark Logo" width = "150"/>
+<img class="mr-8 mb-10 supporter__logo  supporter__logo--custom" src = "/year/2021/assets/supporters/ey.png" alt = "EY Denmark Logo" width = "150"/>
 <img class="mr-8 mb-10 supporter__logo  supporter__logo--custom" src = "/year/2021/assets/supporters/invisio.png" alt = "Inviso by Devoteam Logo" width = "150"/>
-<img class="mr-8 mb-10 supporter__logo  supporter__logo--custom" src = "/year/2021/assets/supporters/cph.png" alt = "IT University of Copenhagen Logo" width = "150"/>
+<img class="mr-8 mb-10 supporter__logo  supporter__logo--custom" src = "/year/2021/assets/supporters/itu.jpg" alt = "IT University of Copenhagen Logo" width = "150"/>
 
 <a class="button" href="http://vis21cph.itu.dk/">More Information</a>
 
