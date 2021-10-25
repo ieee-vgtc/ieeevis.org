@@ -13,7 +13,7 @@ The **VisInPractice** program is an opportunity for visualization practitioners 
 
 # Program
 
-VisInPractice will take place virtually on Monday, October 25, 2021 between 8:00 and 15:30 Central Daylight Time (GMT -5). 
+VisInPractice will take place virtually on Monday, October 25, 2021 between 8:00 and 15:30 Central Daylight Time (GMT -5) In the **[#royal](https://virtual.ieeevis.org/year/2021/room_room2.html)** livestream track and Discord channel. More info on the [Virtual IEEE VIS conference site](https://virtual.ieeevis.org/year/2021/event_a-visinpractice.html) (conference registration required).
 
 ![Panel 1: Moving between Academia and Industry](https://visinpractice.github.io/assets/a-visinpractice_panel1.png)
 
