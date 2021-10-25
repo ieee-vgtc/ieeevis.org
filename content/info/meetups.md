@@ -6,29 +6,15 @@ permalink: /info/meetups
 contact: meetups@ieeevis.org
 ---
 
-* [VisLies! Meetup](#vislies) (Tuesday)
+
 * [Vis Buddies Meetup](#vis-newcomers) (Tuesday)
 * [Better Online Presentations Meetup](#onlinepres) (Tuesday)
+* [VisLies! Meetup](#vislies) (Tuesday)
 * [VisComm Meetup](#viscomm) (Wednesday)
-* [Gender Representation and Diversity at IEEE VIS Meetup](#vis-gender) (Wednesday)
 * [Evaluating Complex Interactive Visualizations Meetup](#vis-evaluate) (Wednesday)
+* [Gender Representation and Diversity at IEEE VIS Meetup](#vis-gender) (Wednesday)
 * [Job-fair Meetup](#vis-jobfair) (Thursday)
 * [Climate Change AI meets Vis Community: Engagement, Collaboration and Research Opportunities Meetup](#climate) (Thursday)
-
-
-## <a name="vislies"></a>VisLies! Meetup
-
-Tuesday, October 26<br>
-15:00:00 CDT<br>
-Organizer: Kenneth Moreland and Bernice Rogowitz<br>
-Contact: bernice.e.rogowitz@gmail.com
-
-VisLies! is a yearly event at IEEE VIS. This fun and engaging evening session showcases examples of egregious perceptual, cognitive, and conceptual errors in visualization, presented by members of the Vis community.  Examples from our own work, from published papers, and from the internet highlight the many ways the visual representation can misrepresent the underlying phenomena in the data. This is a great opportunity for amusement and for learning, and every year we walk away with a smile on our faces and insights that may one day save the world.
-
-For more information about VisLies, you can visit our website at [http://vislies.org](http://vislies.org).
-
-
-[Connect to VisLies! Meetup](https://virtual.ieeevis.org/year/2021/event_m-vislies.html)
 
 
 ## <a name="vis-newcomers"></a>VisBuddies Meetup
@@ -70,6 +56,24 @@ Topics will include:
 [Connect to Better Online Presentations Meetup](https://virtual.ieeevis.org/year/2021/event_m-betteronline.html)
 
 
+
+## <a name="vislies"></a>VisLies! Meetup
+
+Tuesday, October 26<br>
+15:00:00 CDT<br>
+Organizer: Kenneth Moreland and Bernice Rogowitz<br>
+Contact: bernice.e.rogowitz@gmail.com
+
+VisLies! is a yearly event at IEEE VIS. This fun and engaging evening session showcases examples of egregious perceptual, cognitive, and conceptual errors in visualization, presented by members of the Vis community.  Examples from our own work, from published papers, and from the internet highlight the many ways the visual representation can misrepresent the underlying phenomena in the data. This is a great opportunity for amusement and for learning, and every year we walk away with a smile on our faces and insights that may one day save the world.
+
+For more information about VisLies, you can visit our website at [http://vislies.org](http://vislies.org).
+
+
+[Connect to VisLies! Meetup](https://virtual.ieeevis.org/year/2021/event_m-vislies.html)
+
+
+
+
 ## <a name="viscomm"></a>VisComm Meetup
 
 Wednesday, October 27<br>
@@ -83,6 +87,20 @@ This informal gathering is an opportunity to network with others interested in u
 
 
 [Connect to VisComm Meetup](https://virtual.ieeevis.org/year/2021/event_m-viscomm-meetup.html)
+
+
+## <a name="vis-evaluate"></a>Evaluating Complex Interactive Visualizations Meetup
+
+Wednesday, October 27<br>
+14:00:00 CDT <br>
+Organizer: Carolina Nobre, Alexander Lex, Lane Harrison<br>
+Contact: cnobre@g.harvard.edu , alex@sci.utah.edu, ltharrison@wpi.edu
+
+The goal of this meetup is to foster a discussion on how we, as visualization researchers, can better evaluate the complex interactive visualization (CIV) tools and systems we develop. The challenges of evaluating these systems include the several design decisions involved in developing CIVS, as well as the complexity and diversity of analysis strategies and abilities of the users of these interfaces. We plan on facilitating discussions along two main threads: (1) validating the design of CIVS, and (2) designing scalable experiments to evaluate CIVs.
+
+
+[Connect to Evaluating Complex Interactive Visualizations Meetup](https://virtual.ieeevis.org/year/2021/events.html)
+
 
 ## <a name="vis-gender"></a> Gender Representation and Diversity at IEEE VIS Meetup
 
@@ -98,17 +116,6 @@ Beyond gender diversity, we would also like to discuss other diversity character
 
 [Connect to Gender Representation and Diversity Meetup](https://virtual.ieeevis.org/year/2021/event_m-gender.html)
 
-## <a name="vis-evaluate"></a>Evaluating Complex Interactive Visualizations Meetup
-
-Wednesday, October 27<br>
-14:00:00 CDT <br>
-Organizer: Carolina Nobre, Alexander Lex, Lane Harrison<br>
-Contact: cnobre@g.harvard.edu , alex@sci.utah.edu, ltharrison@wpi.edu
-
-The goal of this meetup is to foster a discussion on how we, as visualization researchers, can better evaluate the complex interactive visualization (CIV) tools and systems we develop. The challenges of evaluating these systems include the several design decisions involved in developing CIVS, as well as the complexity and diversity of analysis strategies and abilities of the users of these interfaces. We plan on facilitating discussions along two main threads: (1) validating the design of CIVS, and (2) designing scalable experiments to evaluate CIVs.
-
-
-[Connect to Evaluating Complex Interactive Visualizations Meetup](https://virtual.ieeevis.org/year/2021/events.html)
 
 
 ## <a name="vis-jobfair"></a>Job-fair Meetup
