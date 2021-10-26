@@ -35,7 +35,7 @@ Contact: Hannah McKinney, Research Manager, hlm@bu.edu
 **Postdoctoral Fellowship: Data Visualization for Computational Social Science** at Centre Marc Bloch Berlin, CNRS (Berlin & Potsdam, Germany), start date: 2022-01-01
 
 
-[https://cmb.huma-num.fr/wp-content/uploads/2021/10/Post_Doctoral_Position_Offer___DataViz___CSS.pdf](https://cmb.huma-num.fr/wp-content/uploads/2021/10/Post_Doctoral_Position_Offer___DataViz___CSS.pdf)
+[https://cmb.huma-num.fr/wp-content/uploads/2021/10/Post\_Doctoral\_Position\_Offer\_\_\_DataViz\_\_\_CSS.pdf](https://cmb.huma-num.fr/wp-content/uploads/2021/10/Post\_Doctoral\_Position\_Offer\_\_\_DataViz\_\_\_CSS.pdf)
 
 Start time flexible? Yes  
 Attend job fair meetup? Yes  
