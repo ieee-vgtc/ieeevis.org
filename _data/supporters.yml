@@ -52,14 +52,14 @@
     - name: "SCI"
       image: /assets/supporters/sci.png
       url: "https://www.sci.utah.edu/"
+      
+    - name: "Harvard Medical School"
+      image: /assets/supporters/harvard.png
+      url: "https://dbmi.hms.harvard.edu/education/master-biomedical-informatics"
 
 
  - category: Diversity/Inclusivity Scholarships
    supporters:
-   
-    - name: "Harvard Medical School"
-      image: /assets/supporters/harvard.png
-      url: "https://dbmi.hms.harvard.edu/education/master-biomedical-informatics"
       
 #    - name: "Data Intensive Science"
 #      image: /assets/supporters/data_intensive_science.jpg
