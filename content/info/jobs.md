@@ -35,7 +35,7 @@ Contact: Hannah McKinney, Research Manager, hlm@bu.edu
 **Postdoctoral Fellowship: Data Visualization for Computational Social Science** at Centre Marc Bloch Berlin, CNRS (Berlin & Potsdam, Germany), start date: 2022-01-01
 
 
-[https://cmb.huma-num.fr/wp-content/uploads/2021/10/Post_Doctoral_Position_Offer___DataViz___CSS.pdf](https://cmb.huma-num.fr/wp-content/uploads/2021/10/Post_Doctoral_Position_Offer___DataViz___CSS.pdf)
+[https://cmb.huma-num.fr/wp-content/uploads/2021/10/Post_Doctoral_Position_Offer\_\_\_DataViz\_\_\_CSS.pdf](https://cmb.huma-num.fr/wp-content/uploads/2021/10/Post_Doctoral_Position_Offer___DataViz___CSS.pdf)
 
 Start time flexible? Yes  
 Attend job fair meetup? Yes  
@@ -65,6 +65,15 @@ Contact: Prof. Dr. Lena Gieseke, l.gieseke@filmuniversitaet.de
 Start time flexible? Yes  
 Attend job fair meetup? No, please contact directly  
 Contact: andreas.gerndt@dlr.de  
+### Icahn School of Medicine at Mount Sinai
+**Postdoctoral fellow on Cancer Moonshot Initiative Data Visualization** at Icahn School of Medicine at Mount Sinai (New York City, NY, USA), start date: 2021-11-01
+
+
+[https://careers.mountsinai.org/jobs/2705110?lang=en-us](https://careers.mountsinai.org/jobs/2705110?lang=en-us)
+
+Start time flexible? Yes  
+Attend job fair meetup? Yes  
+Contact: zeynep.gumus@mssm.edu  
 ### Indiana University-Purdue University Indianapolis
 **Assistant/Associate Professor of Data Science** at Indiana University-Purdue University Indianapolis (Indianapolis, IN), start date: 2022-08-01
 
@@ -88,6 +97,15 @@ Contact: redak@iu.edu
 Start time flexible? Yes  
 Attend job fair meetup? No, please contact directly  
 Contact: sohaib.ghani@kaust.edu.sa  
+### King Abdullah University of Science and Technology
+**Postdoctoral Associate** at King Abdullah University of Science and Technology (KAUST, Saudi Arabia), start date: 2022-01-01
+
+
+[nanovis.kaust.edu.sa](nanovis.kaust.edu.sa)
+
+Start time flexible? Yes  
+Attend job fair meetup? No, please contact directly  
+Contact: ivan.viola@kaust.edu.sa  
 ### King's College London
 **Postdoctoral Position** at King's College London (London, United Kingdom), start date: 2022-04-01
 
@@ -97,6 +115,15 @@ Contact: sohaib.ghani@kaust.edu.sa
 Start time flexible? No  
 Attend job fair meetup? No, please contact directly  
 Contact: Alfie Abdul-Rahman, alfie.abdulrahman@kcl.ac.uk  
+### Purdue University
+**Assistant/Associate Professor in Interactive Media and Computer Graphics** at Purdue University (West Lafayette, IN, USA), start date: 2022-08-15
+
+
+[https://careers.purdue.edu/job/West-Lafayette-AssistantAssociate-Professor-in-Interactive-Media-and-Computer-Graphics-IN-47906/796399400](https://careers.purdue.edu/job/West-Lafayette-AssistantAssociate-Professor-in-Interactive-Media-and-Computer-Graphics-IN-47906/796399400)
+
+Start time flexible? Yes  
+Attend job fair meetup? No, please contact directly  
+Contact: Paul Parsons, parsonsp@purdue.edu  
 ### Roux Institute, Northeastern University
 **Research Professor (Open Rank) in Data Visualization** at Roux Institute, Northeastern University (Portland, Maine, USA), start date: 2021-11-01
 
@@ -135,6 +162,20 @@ Contact: Melanie Tory, m.tory@northeastern.edu
 Start time flexible? Yes  
 Attend job fair meetup? Yes  
 Contact: bsumma@tulane.edu  
+### University of A Coruña, CITIC - Centre for ICT Research
+**PhD Student** at University of A Coruña, CITIC - Centre for ICT Research (A Coruña, Spain), start date: 2022-03-01
+
+
+[http://www.j4lley.com/contact.htm](http://www.j4lley.com/contact.htm)
+
+**Postdoctoral Researcher** at University of A Coruña, CITIC - Centre for ICT Research (A Coruña Spain,), start date: 2022-04-01
+
+
+[http://www.j4lley.com/contact.htm](http://www.j4lley.com/contact.htm)
+
+Start time flexible? Yes  
+Attend job fair meetup? No, please contact directly  
+Contact: j.iglesias.guitian@udc.es  
 ### University of Waterloo
 **Postdoctoral Fellow** at University of Waterloo (Waterloo, ON, Canada), start date: 2022-01-01
 
@@ -144,7 +185,26 @@ Contact: bsumma@tulane.edu
 Start time flexible? Yes  
 Attend job fair meetup? No, please contact directly  
 Contact: Jian Zhao, jianzhao@uwaterloo.ca  
+## Government
+### NASA
+**Scientific Data Visualization Fellowship** at NASA (Greenbelt, MD, USA), start date: 2021-11-15
+
+
+[https://ssaihq.com/employment/Careers.aspx?req=21-3296&type=JOBDESCR](https://ssaihq.com/employment/Careers.aspx?req=21-3296&type=JOBDESCR)
+
+Start time flexible? No  
+Attend job fair meetup? No, please contact directly  
+Contact: mark.subbarao@nasa.gov  
 ## Industry
+### Databricks
+**Software Engineer** at Databricks (San Francisco, CA or Seattle, WA (USA)), start date: 2022-01-03
+
+
+[https://docs.google.com/document/d/1QNBTOXZzIm8rRT8W-OGdHzSUgDORkEmwadxkOTnj2ak/edit?usp=sharing](https://docs.google.com/document/d/1QNBTOXZzIm8rRT8W-OGdHzSUgDORkEmwadxkOTnj2ak/edit?usp=sharing)
+
+Start time flexible? Yes  
+Attend job fair meetup? Yes  
+Contact: Contact Justin (justin.talbot@databricks.com) and Kanit (kanit.w@databricks.com)  
 ### Kitware
 **Scientific Visualization Developer** at Kitware (USA - Multiple Locations), start date: 2021-11-01
 
@@ -169,7 +229,34 @@ Contact: Jian Zhao, jianzhao@uwaterloo.ca
 Start time flexible? Yes  
 Attend job fair meetup? Yes  
 Contact: John Westbrook; john.westbrook@kitware.com  
+### ViSOAR LLC
+**Software Engineer** at ViSOAR LLC (Salt Lake City, UT (and remote)), start date: 2021-11-01
+
+
+[https://docs.google.com/document/d/1MUr2vdZS1SJPd8QJbNaNfZeL9fAJPRlvHMDokl43gSc/](https://docs.google.com/document/d/1MUr2vdZS1SJPd8QJbNaNfZeL9fAJPRlvHMDokl43gSc/)
+
+Start time flexible? Yes  
+Attend job fair meetup? Yes  
+Contact: Dr. Amy Gooch, amy@visus.net  
 ## Student
+### King Abdullah University of Science and Technology
+**PhD student** at King Abdullah University of Science and Technology (KAUST, Saudi Arabia), start date: 2022-01-01
+
+
+[ivan.viola@kaust.edu.sa](ivan.viola@kaust.edu.sa)
+
+Start time flexible? Yes  
+Attend job fair meetup? No, please contact directly  
+Contact: ivan.viola@kaust.edu.sa  
+### National Center for Atmospheric Research
+**Student Assistant II/III: Scientific Data Visualization Designer** at National Center for Atmospheric Research (Boulder, CO, USA / Remote), start date: 2021-12-01
+
+
+[https://ucar.wd5.myworkdayjobs.com/UCAR_Careers/job/Mesa-Lab-Building/Student-Assistant-II-III--Scientific-Data-Visualization-Designer_REQ-2021-273-1](https://ucar.wd5.myworkdayjobs.com/UCAR_Careers/job/Mesa-Lab-Building/Student-Assistant-II-III--Scientific-Data-Visualization-Designer_REQ-2021-273-1)
+
+Start time flexible? Yes  
+Attend job fair meetup? No, please contact directly  
+Contact: Nihanth Cherukuru, ncheruku@ucar.edu  
 ### University of Zurich (UZH)
 **Ph.D Position in Visual Analytics for Multiple Sclerosis** at University of Zurich (UZH) (Zurich, Switzerland), start date: 2021-12-01
 
