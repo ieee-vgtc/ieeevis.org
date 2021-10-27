@@ -135,7 +135,17 @@ Planetariums have been at the forefront of science education since their incepti
 This application spotlight will feature speakers with experience from the visualization domain and the planetarium world that introduce some of the terminology of the field, highlight the ongoing endeavors in this rapidly evolving field, as well as discuss some of the open challenges with a call-to-action to the community to utilize more of these underappreciated display environments. A portion of the application spotlight will be dedicated to an interactive discussion of the speakers with the audiences.
 
 ### Schedule
-TBA
+
+1. Introduction to the topic by Mark Subbarao, NASA Scientific Visualization Studio
+2. Lucia Marchetti, University of Cape Town:  Big Data visualisation in immersive environments at the IDIA visualisation Lab and Iziko planetarium
+3. Tom Kwasnitschka, GEOMAR:  A dome for ocean science, and the palette of tools it comes with
+4. KaChun Yu, Denver Museum of Nature and Science:  Educational Research Using Digital Planetariums
+5. Panel Discussion.  Moderator:  Anders Ynnerman, Linköping University
+    * Ryan Wyatt, California Academy of Sciences
+    * Carter Emmart, American Museum of Natural History
+    * Jackie Faherty, American Museum of Natural History
+    * Dayna Thompson, Ball State
+ 6. Summary by Alexander Bock, Linköping University
 
 ***
 
