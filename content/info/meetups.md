@@ -99,7 +99,7 @@ Contact: cnobre@g.harvard.edu , alex@sci.utah.edu, ltharrison@wpi.edu
 The goal of this meetup is to foster a discussion on how we, as visualization researchers, can better evaluate the complex interactive visualization (CIV) tools and systems we develop. The challenges of evaluating these systems include the several design decisions involved in developing CIVS, as well as the complexity and diversity of analysis strategies and abilities of the users of these interfaces. We plan on facilitating discussions along two main threads: (1) validating the design of CIVS, and (2) designing scalable experiments to evaluate CIVs.
 
 
-[Connect to Evaluating Complex Interactive Visualizations Meetup](https://virtual.ieeevis.org/year/2021/events.html)
+[Connect to Evaluating Complex Interactive Visualizations Meetup](https://virtual.ieeevis.org/year/2021/session_m-evaluating.html)
 
 
 ## <a name="vis-gender"></a> Gender Representation and Diversity at IEEE VIS Meetup
