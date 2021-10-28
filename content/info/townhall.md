@@ -27,5 +27,6 @@ Prior to the townhall, we are soliciting input on priorities and topics to be di
 * Ross Maciejewski (VEC Co-Chair, 2021 - present)
 * Silvia Miksch (OPC 2021)
 * Klaus Mueller (IEEE TVCG EiC)
+* Stephen North (VSC Chair 2021 - present)
 * Emily Wall (Elections Co-Chair 2021 - present)
 * Anders Ynnerman (OPC 2021, 2022)
