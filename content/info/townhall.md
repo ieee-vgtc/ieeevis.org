@@ -25,7 +25,7 @@ Prior to the townhall, we are soliciting input on priorities and topics to be di
 * Christoph Garth (Area Curation Committee, 2021 - present)
 * Bongshin Lee (OPC 2021, 2022; VEC Member 2021 - present)
 * Ross Maciejewski (VEC Co-Chair, 2021 - present)
-* Silvia Miksch (OPC 2021, 2022)
+* Silvia Miksch (OPC 2021)
 * Klaus Mueller (IEEE TVCG EiC)
 * Emily Wall (Elections Co-Chair 2021 - present)
 * Anders Ynnerman (OPC 2021, 2022)
