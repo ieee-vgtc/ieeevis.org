@@ -121,7 +121,7 @@ Beyond gender diversity, we would also like to discuss other diversity character
 ## <a name="vis-jobfair"></a>Job-fair Meetup
 
 Thursday, October 28<br>
-14:00:00 CDT <br>
+15:00:00 CDT <br>
 Organizer: Hsiang-Yun Wu, Karen Schloss, Lane Harrison<br>
 Contact: community@ieeevis.org
 
