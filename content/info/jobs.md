@@ -21,8 +21,22 @@ Questions? Contact the Community Committee (Jaegul Choo, Karen Schloss, Hsiang-Y
 
 ## Academic
 
-### Boston University Center for Antiracist Research
+### Boston College
 
+**Research Associate** at Boston College (Boston, USA), start date: 2022-02-01
+
+
+[https://docs.google.com/document/d/17vVKjHjPu4F7R9dDap9XFPq6KVx6QMKTXjMBeQDiplE/edit?usp=sharing](https://docs.google.com/document/d/17vVKjHjPu4F7R9dDap9XFPq6KVx6QMKTXjMBeQDiplE/edit?usp=sharing)
+
+**Postdoctoral Fellow** at Boston College (Boston, USA), start date: 2022-03-01
+
+
+[https://docs.google.com/document/d/1kJomOo-Dg-U3mxw3PRRqS3wtl4cEEVj-mgdhSdndKbw/edit?usp=sharing](https://docs.google.com/document/d/1kJomOo-Dg-U3mxw3PRRqS3wtl4cEEVj-mgdhSdndKbw/edit?usp=sharing)
+
+Start time flexible? Yes  
+Attend job fair meetup? No, please contact directly  
+Contact: nam.wook.kim@bc.edu  
+### Boston University Center for Antiracist Research
 **Data Visualization Fellow** at Boston University Center for Antiracist Research (Boston, MA, USA), start date: 2021-11-01
 
 
@@ -40,6 +54,35 @@ Contact: Hannah McKinney, Research Manager, hlm@bu.edu
 Start time flexible? Yes  
 Attend job fair meetup? Yes  
 Contact: marian.doerk@fh-potsdam.de  
+### Cyberinfrastructure for Network Science (CNS) Center at Indiana University
+**Senior Software Developer (with JavaScript Mastery)** at Cyberinfrastructure for Network Science (CNS) Center at Indiana University (Bloomington, IN, USA), start date: 2021-11-29
+
+
+[https://hrms.indiana.edu/psp/PH1PRD_PUB/EMPLOYEE/HRMS_PUB/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&SiteId=1&FOCUS=Applicant&JobOpeningId=296572&PostingSeq=1](https://hrms.indiana.edu/psp/PH1PRD_PUB/EMPLOYEE/HRMS_PUB/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&SiteId=1&FOCUS=Applicant&JobOpeningId=296572&PostingSeq=1)
+
+**Angular Software Developer** at Cyberinfrastructure for Network Science (CNS) Center at Indiana University (Bloomington, IN, USA), start date: 2021-11-29
+
+
+[https://hrms.indiana.edu/psc/PH1PRD_PUB/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&SiteId=1&JobOpeningId=296379&PostingSeq=1&PortalActualURL=...](https://hrms.indiana.edu/psc/PH1PRD_PUB/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&SiteId=1&JobOpeningId=296379&PostingSeq=1&PortalActualURL=https%3a%2f%2fhrms.indiana.edu%2fpsc%2fPH1PRD_PUB%2fEMPLOYEE%2fHRMS%2fc%2fHRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL%3fPage%3dHRS_APP_JBPST_FL%26Action%3dU%26FOCUS%3dApplicant%26SiteId%3d1%26JobOpeningId%3d296379%26PostingSeq%3d1&PortalRegistryName=EMPLOYEE&PortalServletURI=https%3a%2f%2fhrms.indiana.edu%2fpsp%2fPH1PRD_PUB%2f&PortalURI=https%3a%2f%2fhrms.indiana.edu%2fpsc%2fPH1PRD_PUB%2f&PortalHostNode=HRMS&NoCrumbs=yes&PortalKeyStruct=yes)
+
+**Junior Angular Software Developer** at Cyberinfrastructure for Network Science (CNS) Center at Indiana University (Bloomington, IN, USA), start date: 2021-11-29
+
+
+[https://hrms.indiana.edu/psp/PH1PRD_PUB/EMPLOYEE/HRMS_PUB/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&SiteId=1&FOCUS=Applicant&JobOpeningId=296424&PostingSeq=1](https://hrms.indiana.edu/psp/PH1PRD_PUB/EMPLOYEE/HRMS_PUB/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&SiteId=1&FOCUS=Applicant&JobOpeningId=296424&PostingSeq=1)
+
+**IT Project Manager** at Cyberinfrastructure for Network Science (CNS) Center at Indiana University (Bloomington, IN, USA), start date: 2021-11-29
+
+
+[https://hrms.indiana.edu/psp/PH1PRD_PUB/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&SiteId=1&JobOpeningId=297135&PostingSeq=1](https://hrms.indiana.edu/psp/PH1PRD_PUB/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&SiteId=1&JobOpeningId=297135&PostingSeq=1)
+
+**UX Designer** at Cyberinfrastructure for Network Science (CNS) Center at Indiana University (Bloomington, IN, USA), start date: 2021-11-29
+
+
+[https://hrms.indiana.edu/psc/PH1PRD_PUB/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&SiteId=1&JobOpeningId=297282&PostingSeq=1](https://hrms.indiana.edu/psc/PH1PRD_PUB/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&SiteId=1&JobOpeningId=297282&PostingSeq=1)
+
+Start time flexible? Yes  
+Attend job fair meetup? No, please contact directly  
+Contact: Matthew Martindale, masmarti@iu.edu  
 ### Film University Babelsberg KONRAD WOLF
 **Professor of Data Analytics and Audiovisual Media** at Film University Babelsberg KONRAD WOLF (Potsdam, Germany), start date: 2022-10-01
 
@@ -49,6 +92,15 @@ Contact: marian.doerk@fh-potsdam.de
 Start time flexible? No  
 Attend job fair meetup? No, please contact directly  
 Contact: Prof. Dr. Lena Gieseke, l.gieseke@filmuniversitaet.de  
+### Georgia Institute of Technology
+**Faculty** at Georgia Institute of Technology (Atlanta, GA, USA), start date: 2022-08-01
+
+
+[https://ic.gatech.edu/about/faculty-hiring](https://ic.gatech.edu/about/faculty-hiring)
+
+Start time flexible? Yes  
+Attend job fair meetup? No, please contact directly  
+Contact: recruiting-ic@cc.gatech.edu  
 ### German Aerospace Center (DLR)
 **Computer Scientist - Semi-automated methods for interacting with augmented reality in digital twins and smart cities scenarios** at German Aerospace Center (DLR) (Braunschweig, Germany), start date: 2022-01-01
 
@@ -221,6 +273,15 @@ Contact: jhernand@uniandes.edu.co
 Start time flexible? Yes  
 Attend job fair meetup? No, please contact directly  
 Contact: dfk@umn.edu  
+### University of Utah
+**Postdoctoral Fellow in Scientific Data Analysis and Visualization** at University of Utah (Salt Lake City, UT, USA), start date: 2022-01-01
+
+
+[http://www.sci.utah.edu/~beiwang/toposketch/Postdoc-Ad.pdf](http://www.sci.utah.edu/~beiwang/toposketch/Postdoc-Ad.pdf)
+
+Start time flexible? Yes  
+Attend job fair meetup? No, please contact directly  
+Contact: beiwang@sci.utah.edu  
 ### University of Waterloo
 **Postdoctoral Fellow** at University of Waterloo (Waterloo, ON, Canada), start date: 2022-01-01
 
@@ -239,6 +300,16 @@ Contact: Jian Zhao, jianzhao@uwaterloo.ca
 Start time flexible? Yes  
 Attend job fair meetup? No, please contact directly  
 Contact: Lane Harrison, ltharrison@wpi.edu  
+## Applied Research Center
+### VRVis Zentrum für Virtual Reality und Visualisierung Forschungs-GmbH
+**Visualization Researcher (f/m/d) with focus on Big Life Science Data** at VRVis Zentrum für Virtual Reality und Visualisierung Forschungs-GmbH (Vienna, Austria), start date: 2022-01-01
+
+
+[https://www.vrvis.at/ueber-uns/offene-stellen/software-engineer-f/m/d-with-focus-on-visualization-of-big-life-science-data](https://www.vrvis.at/ueber-uns/offene-stellen/software-engineer-f/m/d-with-focus-on-visualization-of-big-life-science-data)
+
+Start time flexible? Yes  
+Attend job fair meetup? No, please contact directly  
+Contact: Katja Bühler, fsb@vrvis.at  
 ## Government
 ### NASA
 **Scientific Data Visualization Fellowship** at NASA (Greenbelt, MD, USA), start date: 2021-11-15
@@ -263,7 +334,7 @@ Contact: Wenbin He, wenbin.he2@us.bosch.com
 
 [https://www.celonis.com/careers/jobs?id=4275675003&search=Visualization](https://www.celonis.com/careers/jobs?id=4275675003&search=Visualization)
 
-**Senior UX Designer for Data Visualization** at Celonis (Munich, Germany, Madrid, Spain), start date: 2021-12-01
+**Senior UX Designer for Data Visualization** at Celonis (Munich, Germany; Madrid, Spain), start date: 2021-12-01
 
 
 [https://www.celonis.com/careers/jobs?id=4720275003&search=Visualization](https://www.celonis.com/careers/jobs?id=4720275003&search=Visualization)
@@ -309,6 +380,24 @@ Contact: Contact Justin (justin.talbot@databricks.com) and Kanit (kanit.w@databr
 Start time flexible? Yes  
 Attend job fair meetup? No, please contact directly  
 Contact: cameron.yick@datadoghq.com  
+### Elevait
+**Full Stack Web Developer** at Elevait (Dresden, Germany), start date: 2021-11-01
+
+
+[https://elevait.kenjo.io/full-stack-web-developer-m-f-d-210824](https://elevait.kenjo.io/full-stack-web-developer-m-f-d-210824)
+
+Start time flexible? Yes  
+Attend job fair meetup? No, please contact directly  
+Contact: hr@elevait.de  
+### IBM Research
+**Research Intern** at IBM Research (Cambridge, MA, United States), start date: 2021-05-23
+
+
+[https://careers.ibm.com/job/13837724/2022-summer-research-intern-impact-science-remote](https://careers.ibm.com/job/13837724/2022-summer-research-intern-impact-science-remote)
+
+Start time flexible? Yes  
+Attend job fair meetup? Yes  
+Contact: Bum Chul Kwon | bumchul.kwon@us.ibm.com  
 ### Kitware
 **Scientific Visualization Developer** at Kitware (USA - Multiple Locations), start date: 2021-11-01
 
