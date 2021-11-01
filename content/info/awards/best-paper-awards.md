@@ -96,7 +96,7 @@ Authors: Maoyuan Sun, Abdul Rahman Shaikh, Hamed Alhoori, Jian Zhao
 <br/>
 Authors: Rebecca Kehlbeck, Jochen Görtler, Yunhai Wang, Oliver Deussen
 
-**VBridge: Connecting the Dots Between Features, Explanations, and Data for Healthcare Models**
+**VBridge: Connecting the Dots Between Features and Data to Explain Healthcare Models**
 <br/>
 Authors: Furui Cheng, Dongyu Liu, Fan Du, Yanna Lin, Alexandra Zytek, Haomin Li, Huamin Qu, Kalyan Veeramachaneni
 
