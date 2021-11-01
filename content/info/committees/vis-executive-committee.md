@@ -28,10 +28,4 @@ See the [VIS Elections](/year/2021/info/elections) page for more details.
 
 ## Public Meeting Notes
 
-[January 8, 2021](https://drive.google.com/file/d/1EpkiQWEfc0hMx56sbK8bbQe_bgBU0cwp/view?usp=sharing)<br>
-[February 12, 2021](https://drive.google.com/file/d/1iVZgos2MpzR30kXtXX9be1Om86S9c73K/view?usp=sharing)<br>
-[March 12, 2021](https://drive.google.com/file/d/11lXkJDze9OFanC3Li7m8hnZdNyEIQfhg/view?usp=sharing)<br>
-[April 9, 2021](https://drive.google.com/file/d/1VtggC55ddZ5bDm6ekCTQhTe_ARx-rC3S/view?usp=sharing)<br>
-[July 9, 2021](https://drive.google.com/file/d/14iqf_GDFt99S84IMi7htHVFIY-52Il-D/view?usp=sharing)<br>
-[August 13, 2021](https://drive.google.com/file/d/1BkLV6u23n6D-0Yx96bxbYfG9QcP9IMgb/view?usp=sharing)<br>
-[September 10, 2021](https://drive.google.com/file/d/1w38cX654WRCCIWV6n4LcLKY-GNBIM2wJ/view?usp=sharing)<br>
+[All public meeting notes are available here.](https://drive.google.com/drive/folders/1H1i_gN-EyWPwEtnoprzo4d2fUO2gQfpi?usp=sharing)<br>
