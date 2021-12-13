@@ -12,54 +12,54 @@
 #       url:   #link to the supporter's website
 
 
- - category: Diamond
-   image_size: 200
-   supporters:
-    - name: "Intel"
-      image: /assets/supporters/intel.png
-      url: "https://intel.com"
+ # - category: Diamond
+ #   image_size: 200
+ #   supporters:
+ #    - name: "Intel"
+ #      image: /assets/supporters/intel.png
+ #      url: "https://intel.com"
 
-    - name: "Tableau"
-      image: /assets/supporters/tableau.jpg
-      url: "https://www.tableau.com/"
+ #    - name: "Tableau"
+ #      image: /assets/supporters/tableau.jpg
+ #      url: "https://www.tableau.com/"
 
- - category: Silver
-   image_size: 150
-   supporters:
-    - name: "Autodesk"
-      image: /assets/supporters/autodesk.png
-      url: "https://www.autodesk.com/research"
+ # - category: Silver
+ #   image_size: 150
+ #   supporters:
+ #    - name: "Autodesk"
+ #      image: /assets/supporters/autodesk.png
+ #      url: "https://www.autodesk.com/research"
       
-    - name: "Microsoft"
-      image: /assets/supporters/microsoft.png
-      url: "https://www.microsoft.com/research"
+ #    - name: "Microsoft"
+ #      image: /assets/supporters/microsoft.png
+ #      url: "https://www.microsoft.com/research"
 
 
- - category: Bronze
-   supporters:
-    - name: "Kitware, Inc"
-      image: /assets/supporters/kitware.png
-      url: "https://www.kitware.com/"
+ # - category: Bronze
+ #   supporters:
+ #    - name: "Kitware, Inc"
+ #      image: /assets/supporters/kitware.png
+ #      url: "https://www.kitware.com/"
       
-    - name: "Fraunhofer IGD"
-      image: /assets/supporters/igd.png
-      url: "https://www.igd.fraunhofer.de/en"
+ #    - name: "Fraunhofer IGD"
+ #      image: /assets/supporters/igd.png
+ #      url: "https://www.igd.fraunhofer.de/en"
 
 
- - category: Pearl
-   supporters:
+ # - category: Pearl
+ #   supporters:
 
-    - name: "SCI"
-      image: /assets/supporters/sci.png
-      url: "https://www.sci.utah.edu/"
+ #    - name: "SCI"
+ #      image: /assets/supporters/sci.png
+ #      url: "https://www.sci.utah.edu/"
       
-    - name: "Harvard Medical School"
-      image: /assets/supporters/harvard.png
-      url: "https://dbmi.hms.harvard.edu/education/master-biomedical-informatics"
+ #    - name: "Harvard Medical School"
+ #      image: /assets/supporters/harvard.png
+ #      url: "https://dbmi.hms.harvard.edu/education/master-biomedical-informatics"
 
 
- - category: Diversity/Inclusivity Scholarships
-   supporters:
+ # - category: Diversity/Inclusivity Scholarships
+ #   supporters:
       
 #    - name: "Data Intensive Science"
 #      image: /assets/supporters/data_intensive_science.jpg
@@ -73,13 +73,13 @@
 #      image: /assets/supporters/sophos.png
 #      url: "https://www.sophos.com/"
 
-    - name: "TwoSix Labs"
-      image: /assets/supporters/twosix.png
-      url: "https://www.twosixtech.com/"
+    # - name: "TwoSix Labs"
+    #   image: /assets/supporters/twosix.png
+    #   url: "https://www.twosixtech.com/"
 
-    - name: "Uncharted Software"
-      image: /assets/supporters/uncharted.png
-      url: "https://uncharted.software/"
+    # - name: "Uncharted Software"
+    #   image: /assets/supporters/uncharted.png
+    #   url: "https://uncharted.software/"
 
 #    - name: "Uncharted Software"
 #      image: /assets/supporters/visus.png
