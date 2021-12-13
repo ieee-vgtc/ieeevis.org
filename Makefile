@@ -5,8 +5,8 @@ NEW_BUCKET=redesign.ieeevis.org
 PRODUCTION_BRANCH=production
 STAGING_BRANCH=master
 NEW_BRANCH=development
-2021_BRANCH=vis2021
-2021_RELEASE=vis2021-release
+2022_BRANCH=vis2022
+2022_RELEASE=vis2022-release
 
 all: site
 
@@ -21,10 +21,10 @@ newsite:
 	./scripts/fix_file_extensions.sh
 	./scripts/buildyear.sh
 
-new2021:
+new2022:
 	npm install
 	npm run-script build
-	jekyll build -d ./_site/year/2021
+	jekyll build -d ./_site/year/2022
 	./scripts/fix_file_extensions.sh
 
 production: site
@@ -37,18 +37,18 @@ stagingnew: newsite
 	cd _site && ../scripts/sync_with_s3_boto.py $(NEW_BRANCH) $(STAGING_BUCKET)
 
 # don't want to index staging...
-staging2021: new2021
+staging2022: new2022
 	cp -f robots.txt -t _site/
-	cd _site && ../scripts/sync_with_s3_boto.py $(2021_BRANCH) $(STAGING_BUCKET)
+	cd _site && ../scripts/sync_with_s3_boto.py $(2022_BRANCH) $(STAGING_BUCKET)
 
 productionnew: newsite
 	cd _site && ../scripts/sync_with_s3_boto.py $(NEW_BRANCH) $(PRODUCTION_BUCKET)
 
-production2021: new2021
-	cd _site && ../scripts/sync_with_s3_boto.py $(2021_BRANCH) $(PRODUCTION_BUCKET)
+production2022: new2022
+	cd _site && ../scripts/sync_with_s3_boto.py $(2022_BRANCH) $(PRODUCTION_BUCKET)
 
-release2021: new2021
-	cd _site && ../scripts/sync_with_s3_boto.py $(2021_RELEASE) $(PRODUCTION_BUCKET)
+release2022: new2022
+	cd _site && ../scripts/sync_with_s3_boto.py $(2022_RELEASE) $(PRODUCTION_BUCKET)
 
 new: newsite
 	cd _site && ../scripts/sync_with_s3_boto.py $(NEW_BRANCH) $(NEW_BUCKET)
