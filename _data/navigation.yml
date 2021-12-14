@@ -22,12 +22,12 @@
 registration:
   display: false
   text: "Register"
-  url: "/year/2021/info/registration/conference-registration"
+  url: "/year/2022/info/registration/conference-registration"
 
 blog:
-  display: true
+  display: false
   text: "Blog"
-  url: "/year/2021/blog/index"
+  url: "/year/2022/blog/index"
 
 menu:
   - dropdown: "Attend"
@@ -41,98 +41,98 @@ menu:
               - heading: "Attend"
                 links:
                   - text: "Registration"
-                    url: "/year/2021/info/registration/conference-registration"
+                    url: "/year/2022/info/registration/conference-registration"
                   - text: "Satellite Sites"
-                    url: "/year/2021/info/satellite"
+                    url: "/year/2022/info/satellite"
                     # - text: "Conference Venue"
                     #   url: "#"
                 #    - text: "Practitioner Guide"
                 #      url: "https://visinpractice.github.io/guide.html"
                 #      is_external: true
                 # - text: "Full Program"
-                #   url: "/year/2021/info/week-at-a-glance"
+                #   url: "/year/2022/info/week-at-a-glance"
                 # - text: "Media Requests"
-                #   url: "/year/2021/info/media-requests"
+                #   url: "/year/2022/info/media-requests"
                 #   is_new: true
                 # - text: "Coronavirus Information"
-                #   url: "/year/2021/info/coronavirus-info"
+                #   url: "/year/2022/info/coronavirus-info"
                 #- heading: "Travel"
                 #  links:
                 #    - text: "Accommodation"
-                #      url: "/year/2021/info/registration/hotel-information"
+                #      url: "/year/2022/info/registration/hotel-information"
                 #    - text: "Visa & Travel"
-                #      url: "/year/2021/info/registration/travel-visas"
+                #      url: "/year/2022/info/registration/travel-visas"
                 # - text: "Things to do in City"
                 #   url: "https://www.google.com"
                 #   is_new: true
 
             # - heading: "Code of Conduct"
-            #   heading_url: "/year/2021/info/inclusion-and-diversity/code-of-conduct"
+            #   heading_url: "/year/2022/info/inclusion-and-diversity/code-of-conduct"
 
       - subsections:
           - heading: "Equality, Inclusion & Diversity"
-            heading_url: "/year/2021/info/inclusion-and-diversity/inclusivity"
+            heading_url: "/year/2022/info/inclusion-and-diversity/inclusivity"
             columns:
               - links:
                   - text: "Inclusivity & Diversity Scholarship"
                     description: "Need-based scholarships for conference attendance"
-                    url: "/year/2021/info/inclusion-and-diversity/diversity-scholarship"
+                    url: "/year/2022/info/inclusion-and-diversity/diversity-scholarship"
                   - text: "Accessibility"
                     description: "Supporting access for all attendees"
-                    url: "/year/2021/info/inclusion-and-diversity/accessibility"
+                    url: "/year/2022/info/inclusion-and-diversity/accessibility"
                   - text: "VISKids Childcare Grants"
                     description: "Supporting our VISKids and young families"
-                    url: "/year/2021/info/inclusion-and-diversity/viskids-child-care-grants"
+                    url: "/year/2022/info/inclusion-and-diversity/viskids-child-care-grants"
   #                 - text: "VISKids"
   #                   description: "Childcare and activities open to everyone"
-  #                   url: "/year/2021/info/inclusion-and-diversity/viskids-event"
+  #                   url: "/year/2022/info/inclusion-and-diversity/viskids-event"
 
   - dropdown: "Contribute"
     display: false
     sections:
       - subsections:
           - heading: "Call for Participation"
-            heading_url: "/year/2021/info/call-participation/call-for-participation"
+            heading_url: "/year/2022/info/call-participation/call-for-participation"
             description: "Submit your novel research contributions and innovative applications"
             columns:
               - heading: "Submit Your Work"
                 links:
                   - text: "Papers"
-                    url: "/year/2021/info/call-participation/call-for-participation"
+                    url: "/year/2022/info/call-participation/call-for-participation"
                   - text: "Short Papers"
-                    url: "/year/2021/info/call-participation/shortpapers"
+                    url: "/year/2022/info/call-participation/shortpapers"
                   - text: "Posters"
-                    url: "/year/2021/info/call-participation/posters"
+                    url: "/year/2022/info/call-participation/posters"
                   - text: "Tutorials"
-                    url: "/year/2021/info/call-participation/tutorials"
+                    url: "/year/2022/info/call-participation/tutorials"
                   - text: "Workshops"
-                    url: "/year/2021/info/call-participation/workshops"
+                    url: "/year/2022/info/call-participation/workshops"
                   - text: "Panels"
-                    url: "/year/2021/info/call-participation/panels"
+                    url: "/year/2022/info/call-participation/panels"
                   - text: "Doctoral Colloquium"
-                    url: "/year/2021/info/call-participation/doctoral-colloquium"
+                    url: "/year/2022/info/call-participation/doctoral-colloquium"
                   - text: "Application Spotlights"
-                    url: "/year/2021/info/call-participation/application-spotlights"
+                    url: "/year/2022/info/call-participation/application-spotlights"
               - heading: "Info for Contributors"
                 links:
                   - text: "Paper Submission Guidelines"
-                    url: "/year/2021/info/call-participation/paper-submission-guidelines"
+                    url: "/year/2022/info/call-participation/paper-submission-guidelines"
                   - text: "Review Instructions"
-                    url: "/year/2021/info/call-participation/review-instructions"
+                    url: "/year/2022/info/call-participation/review-instructions"
                   - text: "Submission Keywords"
-                    url: "/year/2021/info/call-participation/paper-keywords"
+                    url: "/year/2022/info/call-participation/paper-keywords"
                   - text: "Open Practices"
-                    url: "/year/2021/info/open-practices/open-practices"
+                    url: "/year/2022/info/open-practices/open-practices"
                   - text: "Video Previews"
-                    url: "/year/2021/info/presenter-information/fast-forward-and-video-previews"
+                    url: "/year/2022/info/presenter-information/fast-forward-and-video-previews"
                   - text: "Final Information for Paper Authors"
-                    url: "/year/2021/info/presenter-information/final-information-paper-authors"
+                    url: "/year/2022/info/presenter-information/final-information-paper-authors"
                   - text: "Recording your Talk"
-                    url: "/year/2021/info/presenter-information/talk-recording-guide"
+                    url: "/year/2022/info/presenter-information/talk-recording-guide"
                   - text: "Guidance for Virtual Events"
-                    url: "/year/2021/info/presenter-information/guidance-for-associated-events"
+                    url: "/year/2022/info/presenter-information/guidance-for-associated-events"
                   - text: "Presenting at the Virtual Conference"
-                    url: "/year/2021/info/presenter-information/presenting-virtually"
+                    url: "/year/2022/info/presenter-information/presenting-virtually"
                     is_new: true
 
       - subsections:
@@ -141,10 +141,10 @@ menu:
               - links:
                   - text: "VIS 2021 Satellite Program"
                     description: "Volunteer to host a satellite event"
-                    url: "/year/2021/info/call-participation/satellite"
+                    url: "/year/2022/info/call-participation/satellite"
                   - text: "Organize a meetup"
                     description: "Meet people for discussion and shared experiences"
-                    url: "/year/2021/info/call-participation/meetups"
+                    url: "/year/2022/info/call-participation/meetups"
                   - text: "Become a student volunteer"
                     description: "Support the conference and build your research network"
                     url: "http://www.vissv.org"
@@ -154,17 +154,17 @@ menu:
                     url: "https://new.precisionconference.com/review_volunteering"
                     is_external: true
                   - text: "Code of Conduct"
-                    url: "/year/2021/info/inclusion-and-diversity/code-of-conduct"
+                    url: "/year/2022/info/inclusion-and-diversity/code-of-conduct"
                   - text: "Elections"
                     description: "Register to vote and nominate/review candidates for the VSC/VEC"
-                    url: "/year/2021/info/elections"
+                    url: "/year/2022/info/elections"
                     is_new: true
                 # - text: "Become an organizer"
                 #   description: "TK TK TK Join the committees and help organize VIS"
                 #   url: "https://www.google.com"
 
           - heading: "Supporters"
-            heading_url: "/year/2021/info/exhibition/supporters-and-exhibition"
+            heading_url: "/year/2022/info/exhibition/supporters-and-exhibition"
             description: "Your support makes this conference possible (CFP coming soon)"
 
   - dropdown: "Program"
@@ -172,32 +172,32 @@ menu:
     sections:
       - subsections:
           - heading: "Vis Program"
-            heading_url: "/year/2021/info/week-at-a-glance"
+            heading_url: "/year/2022/info/week-at-a-glance"
             description: "See the complete conference program"
             columns:
               - links:
                   - text: "Papers"
                     description: "The latest research in theory, methods, and applications of visualization"
-                    url: "/year/2021/info/papers-sessions"
+                    url: "/year/2022/info/papers-sessions"
                     #is_new: true
                   - text: "Posters"
                     description: "Nascent and recent work"
-                    url: "/year/2021/info/posters"
+                    url: "/year/2022/info/posters"
                   - text: "Tutorials"
                     description: "Learn new tools and application domains"
-                    url: "/year/2021/info/tutorials"
+                    url: "/year/2022/info/tutorials"
                     #is_new: true
                   - text: "Workshops"
                     description: "Informal setting to discuss emerging topics"
-                    url: "/year/2021/info/workshops"
+                    url: "/year/2022/info/workshops"
                     #is_new: true
                   - text: "Panels"
                     description: "Discuss important and controversial issues"
-                    url: "/year/2021/info/panels"
+                    url: "/year/2022/info/panels"
                     #is_new: true
                   - text: "Application Spotlights"
                     description: "Showcase practical, real-world applications of visualization"
-                    url: "/year/2021/info/spotlights"
+                    url: "/year/2022/info/spotlights"
                     #is_new: true
 
       - subsections:
@@ -206,11 +206,11 @@ menu:
             columns:
               - links:
                 - text: "Keynote Address"
-                  url: "/year/2021/info/keynote-speaker"
+                  url: "/year/2022/info/keynote-speaker"
                 - text: "Capstone Address"
-                  url: "/year/2021/info/capstone-speaker"
+                  url: "/year/2022/info/capstone-speaker"
                 - text: "Vis Townhall"
-                  url: "/year/2021/info/townhall"
+                  url: "/year/2022/info/townhall"
   #              # - links:
   #              #   - text: "Download the App"
   #              #     url: "https://www.google.com"
@@ -225,15 +225,15 @@ menu:
             columns:
               - links:
                 - text: "Best Paper Awards"
-                  url: "/year/2021/info/awards/best-paper-awards"
+                  url: "/year/2022/info/awards/best-paper-awards"
   #                - text: "Best Poster Awards"
-  #                  url: "/year/2021/info/awards/best-poster-awards"
+  #                  url: "/year/2022/info/awards/best-poster-awards"
   # - text: "Service Awards"
   #   url: "https://www.google.com"
   # - text: "VGTC VIS Awards"
   #   url: "https://www.google.com"
                 - text: "Test of Time Awards"
-                  url: "/year/2021/info/awards/test-of-time-awards"
+                  url: "/year/2022/info/awards/test-of-time-awards"
 
   - dropdown: "Events & Community"
     display: false
@@ -248,7 +248,7 @@ menu:
                     is_external: true
                   - text: "VisInPractice"
                     description: "Invited talks by visualization practitioners"
-                    url: "/year/2021/info/visinpractice"
+                    url: "/year/2022/info/visinpractice"
                   - text: "LDAV Symposium"
                     description: "Big Data Analysis and Visualization"
                     url: "https://ldav.org/"
@@ -263,7 +263,7 @@ menu:
                     is_external: true
                   - text: "IEEE VIS Workshops"
                     description: "Informal settings to discuss emerging topics"
-                    url: "/year/2021/info/workshops"
+                    url: "/year/2022/info/workshops"
       - subsections:
           - heading: "Competitions"
             description: "Advancing visualization through competition"
@@ -280,17 +280,17 @@ menu:
                     is_external: true
 
           - heading: "Community"
-            heading_url: "/year/2021/info/call-participation/community"
+            heading_url: "/year/2022/info/call-participation/community"
             description: "Explore social and topic-based community groups"
             columns:
               - heading: "Connect"
                 links:
                   - text: "Vis Buddies"
-                    url: "/year/2021/info/meetups#vis-newcomers"
+                    url: "/year/2022/info/meetups#vis-newcomers"
                   - text: "Job Postings"
-                    url: "/year/2021/info/jobs"
+                    url: "/year/2022/info/jobs"
                   - text: "Other Meetups"
-                    url: "/year/2021/info/meetups"
+                    url: "/year/2022/info/meetups"
               - heading: "Social Groups"
                 links:
                   - text: "Velo Club de VIs"
@@ -308,7 +308,7 @@ menu:
                     url: "https://twitter.com/ieeevis"
                     is_external: true
           # - heading: "Doctoral Colloquium"
-          #   #heading_url: "/year/2021/info/doctoral-colloquium"
+          #   #heading_url: "/year/2022/info/doctoral-colloquium"
           #   description: "Discuss in-progress Ph.D work with leading senior researchers"
 
   - dropdown: "Organization & History"
@@ -382,22 +382,22 @@ menu:
             columns:
               - links:
                   - text: "Historical Best Paper Awards"
-                    url: "/year/2021/info/history/best-paper-award"
+                    url: "/year/2022/info/history/best-paper-award"
 
       - subsections:
           # - heading: "Committees"
           #   columns:
           #     - links:
           #         - text: "VIS 2021 Organizing Committee"
-          #           url: "/year/2021/info/committees/conference-committee"
+          #           url: "/year/2022/info/committees/conference-committee"
           #         - text: "Program Committees"
-          #           url: "/year/2021/info/committees/program-committees"
+          #           url: "/year/2022/info/committees/program-committees"
           #         - text: "VIS Steering Committee"
-          #           url: "/year/2021/info/committees/steering-committees"
+          #           url: "/year/2022/info/committees/steering-committees"
           #         - text: "VIS Executive Committee"
-          #           url: "/year/2021/info/committees/vis-executive-committee"
+          #           url: "/year/2022/info/committees/vis-executive-committee"
           #         - text: "Area Curation Committee"
-          #           url: "/year/2021/info/committees/area-committee"
+          #           url: "/year/2022/info/committees/area-committee"
           #         # - text: "Restructuring and reVISe"
           #         #   url:  "/governance/restructuring"
           - heading: "Governance Documents"
@@ -438,4 +438,4 @@ menu:
             columns:
               - links:
                   - text: "Updating the website content"
-                    url: "/year/2021/info/contributing"
+                    url: "/year/2022/info/contributing"
