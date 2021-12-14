@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     colors: {
       primary: {
-        default: '#26853c', // '#7f6c5e',
+        default: '#841617',//#26853c', // '#7f6c5e',
         800: '#004c03', // '#7f6c5e',
         700: '#00661c', // '#7f6c5e',
         600: '#7db68a', // '#b9aba1',
@@ -15,15 +15,15 @@ module.exports = {
         100: colors.white, // '#b9aba1',
       },
       secondary: {
-        default: '#6f2184', // '#c42026',
-        800: '#6f2184', // '#b42026',
-        700: '#853899', // '#c42026',
+        default: '#1d3160',//'#6f2184', // '#c42026',
+        800: '#1d3160',//'#6f2184', // '#b42026',
+        700: '#2473b6',//'#853899', // '#c42026',
         600: '#9b4faf', // '#d3855f',
         200: colors.white, // '#e0a778',
         100: colors.white, // '#e0a778',
       },
       accent: {
-        default: '#6f2184', // '#b9aba1',
+        default: '#1d3160',//'#6f2184', // '#b9aba1',
         minor: '#fbc31b',
       },
       black: colors.black,
