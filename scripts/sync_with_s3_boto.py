@@ -63,7 +63,7 @@ def check_if_git_is_clean():
 
     l = list(filter(lambda s: s != '', run_cmd_get_lines('git', 'status', '--porcelain')))
     if len(l) != 0:
-        raise Exception("Expected git working tree to be clean, but it appears not to be.")
+        raise Exception("Expected git working tree to be clean, but it appears not to be.  Instead, got msg: %s" % l)
 
     # grab the appropriate remote
     l = list(filter(lambda s: 'fetch' in s, run_cmd_get_lines('git', 'remote', '-v')))
