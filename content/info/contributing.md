@@ -31,7 +31,7 @@ Here's a video that illustrates the same process described in the text below:
 
 The *easiest* way to suggest a change is to go on the bottom of the page you want to change and click on “file a bug”. You will be taken to the GitHub website where you can describe the problem, and web@ will get a notification when the bug is filed.
 
-If you are an organization member, the *best* way to suggest a change is to go on the bottom of the page you want to change and click on "suggest a fix".  You can even go to a webpage that hasn't been created yet (like [http://ieeevis.org/year/2021/hellothere](http://ieeevis.org/year/2021/hellothere)) and click on the link for making a new page. You will be taken to GitHub to make your edits.
+If you are an organization member, the *best* way to suggest a change is to go on the bottom of the page you want to change and click on "suggest a fix".  You can even go to a webpage that hasn't been created yet (like [http://ieeevis.org/year/2022/hellothere](http://ieeevis.org/year/2022/hellothere)) and click on the link for making a new page. You will be taken to GitHub to make your edits.
 
 To continue, you will be asked to log in to a GitHub account. After you do so, you will be shown an interface that looks like this:
 
@@ -60,12 +60,12 @@ In other words, all of the discussion we've had here applies to production as we
 
 ## Where are the current files?
 
-Here is an example link for the [2020 paper CFP page](https://github.com/ieee-vgtc/ieeevis.org/blob/vis2021/content/info/call-participation/call-for-participation.md).
-Other URLs are available in similar places: [shortpapers](https://github.com/ieee-vgtc/ieeevis.org/blob/vis2021/content/info/call-participation/shortpapers.md), [posters](https://github.com/ieee-vgtc/ieeevis.org/blob/vis2021/content/info/call-participation/posters.md), [panels](https://github.com/ieee-vgtc/ieeevis.org/blob/vis2021/content/info/call-participation/panels.md).
+Here is an example link for the [2020 paper CFP page](https://github.com/ieee-vgtc/ieeevis.org/blob/vis2022/content/info/call-participation/call-for-participation.md).
+Other URLs are available in similar places: [shortpapers](https://github.com/ieee-vgtc/ieeevis.org/blob/vis2022/content/info/call-participation/shortpapers.md), [posters](https://github.com/ieee-vgtc/ieeevis.org/blob/vis2022/content/info/call-participation/posters.md), [panels](https://github.com/ieee-vgtc/ieeevis.org/blob/vis2022/content/info/call-participation/panels.md).
 
 Note how the URL on GitHub matches the URL on the website. <https://github.com/ieee-vgtc/ieeevis.org/blob/vis2020/content/info/call-participation/shortpapers.md> corresponds to <http://staging.ieeevis.org/year/2020/info/call-participation/shortpapers> (rename "/blob" to "/year" and remove the ".md" extension).
 
-Generally, we copy over all content from the previous year to the current year's branch.  If a corresponding page exists in the previous year, chances are that it exists in the current year, even though it might not be reachable through the navigation bar.  For example, you can change "2020" to "2021" to find and edit a file to in the current year's branch.
+Generally, we copy over all content from the previous year to the current year's branch.  If a corresponding page exists in the previous year, chances are that it exists in the current year, even though it might not be reachable through the navigation bar.  For example, you can change "2020" to "2022" to find and edit a file to in the current year's branch.
 
 ## Building the website locally
 
@@ -73,9 +73,9 @@ If you'd like, you can build the website locally and make edits there.  Here are
 
 1. Fork the repository using the button in the GitHub interface (from [ieee-vgtc/ieeevis.org](https://github.com/ieee-vgtc/ieeevis.org)).
 2. Clone your fork: e.g., `git clone git@github.com:yelper/ieeevis.org.git`
-3. Checkout the current year: e.g., `git checkout vis2021`
+3. Checkout the current year: e.g., `git checkout vis2022`
 4. Obtain dependencies: `npm install`
-5. Build and serve the website: `jekyll serve -d ./_site/year/2021/`.
+5. Build and serve the website: `jekyll serve -d ./_site/year/2022/`.
 6. To build the styling for the current year (and get live-reload whenever you edit a content file) run this command in a different console: `npm run-script start`.
 
 You will need to install node, npm, Ruby 2.7, and Jekyll to build the website. If you need to install Ruby, we recommend using "rbenv" and installing a modern version of Ruby (i.e., 2.7; [an article for installing on WSL](https://gorails.com/setup/windows/10)).  If you have Ruby installed but not Jekyll, run `gem install bundler jekyll; bundler install` from within your cloned repository.
@@ -118,8 +118,8 @@ This is the result of five years of legacy pages written atop of each other. We'
 
 ## How to compare staging and production files
 
-Unfortunately, there's not really an automatic link that does this for us.  To compare to change for 2021 (for example), take [the latest release tag](https://github.com/ieee-vgtc/ieeevis.org/releases) and compare it to the current branch name.
+Unfortunately, there's not really an automatic link that does this for us.  To compare to change for 2022 (for example), take [the latest release tag](https://github.com/ieee-vgtc/ieeevis.org/releases) and compare it to the current branch name.
 
-For example, as of this writing, the active branch is `vis2021` and [the latest release](https://github.com/ieee-vgtc/ieeevis.org/releases) is `v2021.1.7`.  To see what isn't yet on production, navigate to <https://github.com/ieee-vgtc/ieeevis.org/compare/v2021.1.7...vis2021>.
+For example, as of this writing, the active branch is `vis2022` and [the latest release](https://github.com/ieee-vgtc/ieeevis.org/releases) is `v2022.1.7`.  To see what isn't yet on production, navigate to <https://github.com/ieee-vgtc/ieeevis.org/compare/v2022.1.7...vis2022>.
 
 Web will attempt to make this link when sending pending approval requests to the core committee to make it easier to see what has changed in the last week.
