@@ -77,12 +77,17 @@ jobs:
         git checkout vis2020
         make new2020
 
-    ## BUILD THIS YEAR (currently: vis2021)
+    - name: Build previous year (2021)
+      run: |
+        git checkout vis2021
+        make new2021
+
+    ## BUILD THIS YEAR (currently: vis2022)
     ## ./scripts/fix_file_extensions.sh moves some evergreen content from current year
     ##    ∟ also only check out the tag linked to the triggering event
-    - name: Build this year (2021) + deploy
+    - name: Build this year (2022) + deploy
       env:
         IEEEVIS_AWS_USER: default
       run: |
         git checkout ${{ github.event.release.tag_name }}
-        make release2021
+        make release2022
