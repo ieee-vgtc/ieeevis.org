@@ -92,8 +92,8 @@ menu:
     sections:
       - subsections:
           - heading: "Call for Participation"
-            heading_url: "/year/2022/info/call-participation/call-for-participation"
-            description: "Submit your novel research contributions and innovative applications"
+#             heading_url: "/year/2022/info/call-participation/call-for-participation"
+#             description: "Submit your novel research contributions and innovative applications"
             columns:
               - heading: "Submit Your Work"
                 links:
