@@ -11,9 +11,9 @@ We solicit workshops related to all areas of visualization. They provide an info
 
 ## Important Dates
 
-* Proposal Submission               **February 28, 2021**
-* Notification                      **March 16, 2021**
-* Final Submission of Summaries	    **August 1, 2021**
+* Proposal Submission               **Sunday February 27, 2022**
+* Notification                      **Tuesday March 15, 2022**
+* Final Submission of Summaries	    **Monday August 1, 2022**
 
 All deadlines are at **5:00pm Pacific Time (PDT)**.
 
@@ -29,7 +29,7 @@ Possible topics may include emerging or persisting problems, development of rese
 
 In choosing workshop topics to propose, please consider the list of workshops that will be pre-approved and try to avoid large overlaps. The list of the pre-approved workshops will be published as soon as it becomes available.
 
-Note that workshops remain extremely well attended, but as new associated events and publication formats are introduced to VIS, the number of submitted papers may drop from previous years. So a more interactive format (rather than one based mainly on presentations of submitted papers) is encouraged. 
+Note that workshops remain extremely well attended, but as new associated events and publication formats are introduced to VIS, the number of submitted papers may drop from previous years. So a more interactive format (rather than one based mainly on presentations of submitted papers) is encouraged.
 
 
 ## Submission requirements
@@ -38,16 +38,20 @@ Workshop proposals should include:
 
 * a title,
 * the contact details of the organizers,
-* a brief description of the organizers' background, related publications, and research,
+* a brief description of the organizers’ background, related publications, and research,
 * the goals, the technical scope, the mission, and the proposed focus,
+* the intended format (e.g., mainly talks, mainly interactive sessions),
 * the planned activities, including the schedule during the session,
-* a statement of the organization and the development of the list of participants (intended size, detailed selection procedures and timeline for finalizing workshop presenters),
+* a statement of the organization and the development of the list of participants (intended size, detailed selection procedures, and timeline for finalizing workshop presenters),
+* a list of any special technology needed,
+* indication on how you would like your hybrid workshop to take place (since IEEE VIS is planned as a hybrid conference in 2022), what technology you would like to use, what support you would need from IEEE VIS (e.g., do you plan to have live talks, recorded talks, Miro boards, or live discussions, etc.),
 * the intended result and impact of the workshop,
+* a chosen measure for a successful CfP (e.g., number of submissions), possibly including an outline for a “backup policy” (e.g., changing the workshop format, or voluntarily withdrawing the workshop before acceptance notification is sent, but should not require the workshop organizers to submit emergency papers to their own workshop), 
 * the plan for publication (see the classes listed below),
-* the number of poster slots requested, if the workshop intends to feature posters,
-* the proposed dates for the call for participation, author notification, and camera-ready deadlines (author notification must be prior to the early registration deadline of **September 20, 2021**; for inclusion of materials on the USB stick, the camera-ready deadline must be prior to **September 1, 2021**).
+* the number of poster slots requested, if the workshop intends to feature posters, and
+* the proposed dates for the call for participation, author notification, and camera-ready deadlines (author notification must be prior to the early registration deadline for IEEE VIS; for inclusion of materials on IEEE Xplore and/or the downloadable proceedings, the camera-ready deadline must be prior to **August 22, 2022**).
 
-Because the number of workshop time slots is limited, half-day workshop proposals are strongly encouraged.  However, well-justified full-day proposals will also be considered.  Full-day proposals may optionally state what changes would be implemented to allow the workshop schedule to fit within a half day.
+Because the number of workshop time slots is limited, half-day workshop proposals are **strongly encouraged**. However, well-justified full-day proposals will also be considered. Full-day proposals may optionally state what changes would be implemented to allow the workshop schedule to fit within a half day.
 
 If the proposed workshop is a follow-up of a previous workshop, please include a discussion of the results and the impact of any previous workshops.
 
@@ -59,31 +63,32 @@ If the proposed workshop is a follow-up of a previous workshop, please include a
 If papers or position papers are foreseen according to the planned workshop, the proposal should state explicitly whether and how the papers or position statements will be published. Some examples of common publication strategies are:
 
 * _Regular publication_ (similar to small conferences):
-    - papers are available online at a central digital library (with DOI) or proceedings published in a different way
-    - papers are on the conference USB stick
+    - papers are available online at a central digital library with DOI (e.g., IEEE Xplore) or proceedings published in a different way
+    - papers are part of the downloadable proceedings
     - papers are considered archival
+    - authors with papers that are accepted for publication at IEEE Xplore will have to pay a content/publication fee
 
-    Re-use of the content in a follow-up publication is only allowed in a proper journal (no conference special issue) as an extended version provided that the original paper is extended by at least 30% (subject to the rules of the given journal). Example: [BELIV](https://beliv-workshop.github.io/) workshop series.
+    Accepted workshop papers can contribute to VIS full paper submissions in a future year. But, such submissions should not contain verbatim copies of previous content. Furthermore, any full paper submission to VIS must stand as its own contribution.
 
 * _Short position statements / work in progress notes_ (similar to posters):
     - papers may or may not be available at a central digital library (with DOI); proceedings could also be published in a different way
-    - papers may be available on the workshop's webpage
-    - papers may or may not be on the conference USB stick
+    - papers may be available on the workshop’s webpage
+    - papers may or may not be a part of the downloadable proceedings
     - papers are not considered archival but could be cited
 
     Re-use of the content in a follow-up publication is fully allowed, also in form of conference papers. Example: [Death of the Desktop workshop 2014](http://dataphys.org/workshops/vis14/).
 
 * _Semi-public notes_:
     - papers are not available at a central digital library
-    - papers may be available on the workshop's webpage
-    - papers may or may not be on the conference USB stick
+    - papers may be available on the workshop’s webpage
+    - papers may or may not be a part of the downloadable proceedings
     - papers are not considered archival but could be cited
 
     Re-use of the content in a follow-up publication is fully allowed, also in form of conference papers.
 
 * _Notes only for use at the workshop_:
     - papers are not available online at a central location
-    - papers are not on the conference USB stick
+    - papers are not a part of the downloadable proceedings
     - papers are not considered archival and should not be cited
 
     Re-use of the content in a follow-up publication is fully allowed, also in form of conference papers.
@@ -108,13 +113,13 @@ If accepted, workshops are required to prepare a short summary (50&ndash;100 wor
 
 ## Workshop Support
 
-The workshop organizers will receive the following support from the VIS conference:
+The workshop organizers will receive the following support from the VIS conference (subject to the format of the workshop):
 
 * one complimentary 1-day registration for an invited speaker,
-* room and AV support suitable for around 100 attendees,
-* food and beverages for attendees: coffee breaks throughout the day, Sunday evening opening reception, space in the poster display area, if requested (from limited pool set aside for standard workshops; available space depends on the specifics of the venue; early requests given priority over late requests),
+* room and AV support suitable for around 100 attendees (for in-person workshops),
+* food and beverages for attendees: coffee breaks throughout the day, Sunday evening opening reception, space in the poster display area, if requested (from limited pool set aside for standard workshops; available space depends on the specifics of the venue; early requests given priority over late requests) (for in-person workshops),
 * PCS (Precision Conference Solutions) support for managing submissions and the review process,
-* inclusion of the workshop materials or proceedings on the USB stick for dissemination to attendees of the conference, if requested (materials must be provided by September 1, 2021)
+* inclusion of the workshop materials or proceedings in the downloadable conference proceedings for dissemination to attendees of the conference and/or in IEEE Xplore, if requested (materials must be provided by August 22, 2022),
 * IEEE Xplore Digital Library publication of the workshop proceedings, if requested (considered archival).
 
 Please check the conference website for upcoming information concerning available funds for special purposes, such as supporting diversity. If the requirements of the workshop exceed this default support, the workshop organizers are expected to coordinate with the workshop chairs and possibly raise funds to support the workshop activities. Fundraising plans must be discussed with the workshop and supporters chairs prior to contacting any potential funder. For more information, see the guidelines for [Financial and Coordination Policies for IEEE VIS](http://ieeevis.org/governance/coordination).
@@ -125,4 +130,4 @@ Please check the conference website for upcoming information concerning availabl
 
 * Johanna Beyer, *Harvard University, USA*
 * Filip Sadlo, *Heidelberg University, Germany*
-* Yingcai Wu, *Zhejiang University, China*
+* Panpan Xu, *Amazon AWS, USA*
