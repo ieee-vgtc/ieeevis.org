@@ -9,6 +9,8 @@ VIS 2022 will be the year’s premier forum for advances in theory, methods, and
 
 We invite you to share your research, insights, and enthusiasm at IEEE VIS. The 2022 program will also feature a diverse range of symposia and co-located events, including Visualization in Practice, Visualization in Data Science, the VIS Arts Program, and data analysis Challenge competitions, as well as an Application Spotlights track.
 
+After two years of purely virtual events, we plan for an in-person part of the conference and express this by the motto: “VIS ’22 is about the people you meet”
+
 ***VIS 2022 General Chairs***<br/>
 [Danielle Szafir](https://danielleszafir.com/), University of North Carolina-Chapel Hill<br/>
 [David Ebert](https://www.ou.edu/coe/cs/people/ebert), University of Oklahoma<br/>
