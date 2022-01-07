@@ -113,7 +113,7 @@ permalink: /info/committees/conference-committee
 |---
 | **Meetup Chairs** | |
 | Ayan Biswas | *Los Alamos National Lab* |
-| Evanthia Dimara | *University of Konstanz* |
+| Evanthia Dimara | *Utrecht University* |
 | Yang Shi | *Tongji University* |
 |---
 | **Community Chairs** | |
