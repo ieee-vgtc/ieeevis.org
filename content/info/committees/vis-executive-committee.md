@@ -10,21 +10,21 @@ The role of the VEC is to oversee the planning and success of IEEE VIS. The VEC 
 The current VEC members are:
 
 | **Name** | **Affiliation** |<br>
-| Lisa Avila - Chair | *Kitware* |<br>
+| Anastasia Bezerianos | *LRI-Université Paris-Saclay* | <br>
+| Rita Borgo | *King's College London* | <br>
 | Sheelagh Carpendale | *Simon Fraser University* |<br>
 | Gautam Chaudhary | *Alcon* |<br>
 | Min Chen | *Oxford* |<br>
 | Chris Collins | *Ontario Tech University* |<br>
-| Jason Dykes - Vice Chair | *City University London* |<br>
 | Bongshin Lee | *Microsoft Research* |<br>
-| Ross Maciejewski | *Arizona State University* |<br>
+| Ross Maciejewski - Co-Chair | *Arizona State University* |<br>
 | Elisabeta Marai | *University of Illinois at Chicago* |<br>
 | Klaus Mueller | *Stony Brook University* |<br>
-| Holger Theisel | *University of Magdeburg* |<br>
+| Holger Theisel - Co-Chair| *University of Magdeburg* |<br>
 
 ## VIS Executive and Steering Committee Elections
 Each year the VIS community elects one new member each to the VEC and VSC. 
-See the [VIS Elections](/year/2021/info/elections) page for more details.
+See the [VIS Elections](/year/2022/info/elections) page for more details.
 
 ## Public Meeting Notes
 

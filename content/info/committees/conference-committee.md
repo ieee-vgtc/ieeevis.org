@@ -9,16 +9,17 @@ permalink: /info/committees/conference-committee
 | | |
 |---
 | **General Chairs** | |
-| Brian Summa | *Tulane University* |
-| Luis Gustavo Nonato | *Universidade de Sao Paulo* |
+| Danielle Szafir | *University of North Carolina-Chapel Hill* |
+| David Ebert | *Univeristy of Oklahoma* |
+| Hendrik Strobelt | *IBM Research , MIT-IBM Watson AI Lab* |
 |---
 | **Program Chairs** | |
 | Gautam Chaudhary | *Alcon* |
 | Joshua A. Levine | *University of Arizona* |
 |---
 | **Overall Paper Chairs** | |
+| Helwig Hauser | *University of Bergen* |
 | Bongshin Lee | *Microsoft Research* |
-| Silvia Miksch | *Vienna University of Technology* |
 | Anders Ynnerman | *Linköping University* |
 |---
 | **Area 1 Paper Chairs &nbsp;&nbsp;&nbsp;—** | **Theoretical & Empirical** |
@@ -26,113 +27,84 @@ permalink: /info/committees/conference-committee
 | Christopher Collins | *Ontario Tech University* |
 |---
 | **Area 2 Paper Chairs &nbsp;&nbsp;&nbsp;—** | **Applications** | |
-| Wei Chen | *Zhejiang University* |
-| Alex Lex | *University of Utah* |
+| Hamish A. Carr | *University of Leeds* |
+| Yingcai Wu | *Zhejiang University* |
 |---
 | **Area 3 Paper Chairs &nbsp;&nbsp;&nbsp;—** | **Systems & Rendering** | |
 | Michael Gleicher | *University of Wisconsin-Madison* |
-| Rüdiger Westermann | *Technical University of Munich* |
+| Tobias Isenberg | *INRIA* |
 |---
 | **Area 4 Paper Chairs &nbsp;&nbsp;&nbsp;—** | **Representations & Interaction** | |
 | Anastasia Bezerianos | *Université Paris Saclay* |
-| Bernhard Preim | *Otto-von-Guericke University Magdeburg* |
+| T. J. Jankun-Kelly | *Mississippi State University* |
 |---
 | **Area 5 Paper Chairs &nbsp;&nbsp;&nbsp;—** | **Data Transformations** | |
 | Eduard Gröller | *TU Wien* |
-| Xiaoru Yuan | *Peking University* |
+| Michael Sedlmair | *University of Stuttgart* |
 |---
 | **Area 6 Paper Chairs &nbsp;&nbsp;&nbsp;—** | **Analytics & Decisions** | |
 | Jinwook Seo | *Seoul National University* |
-| Jing Yang | *University of North Carolina at Charlotte* |
+| Alex Endert | *Georgia Tech* |
 |---
 | **Short Papers Chairs** | |
 | Michelle Borkin | *Northeastern University* |
-| Wenwen Dou | *University of North Carolina at Charlotte* |
-| Steffen Koch | *University of Stuttgart* |
+| Christoph Garth | *University of Kaiserslautern* |
+| Jonathan Roberts | *Bangor University* |
 | Chaoli Wang | *University of Notre Dame* |
 |---
 | **Posters Chairs** | |
 | Vijay Natarajan | *IISc Bangalore* |
 | Adam Perer | *Carnegie Mellon University* |
-| Michael Sedlmair | *University of Stuttgart* |
-| Anna Vilanova | *TU Eindhoven* |
+| Jessica Hullman | *Northwestern University* |
+| Barbora Kozlíková | *Masaryk University* |
 |---
 | **Panels Chairs** | |
-| Daniel Archambault | *Swansea University* |
-| Michael Behrisch | *Utrecht University* |
 | Michael Correll | *Tableau Software* |
+| Yunhai Wang | *Shandong Unversity* |
+| Hsiang-Yun Wu | *TU Wien* |
 |---
 | **Tutorial Chairs** | |
 | Stefan Bruckner | *University of Bergen* |
-| Jessica Hulmann | *Northwestern University* |
 | Christophe Hurter | *French Civil Aviation University* |
+| Mengchen Liu | *Microsoft Research* |
 |---
 | **Application Spotlights** | |
 | Soumya Dutta | *Los Alamos National Laboratory* |
-| Kristi Potter | *National Renewable Energy Laboratory* |
+| Michael Krone | *University of Tuebingen* |
 | Noeska Smit | *University of Bergen* |
 |---
 | **Open Practices** | |
 | Lonni Besançon | *Monash University* |
 | Carlos Scheidegger | *University of Arizona* |
-| Cagatay Turkay | *University of Warwick* |
+| Cody Dunne | *Northeastern University* |
 |---
 | **Workshop Chairs** | |
 | Johanna Beyer | *Harvard University* |
 | Filip Sadlo | *Heidelberg University* |
-| Yingcai Wu | *Zhejiang University* |
+| Panpan Xu | *Amazon AWS AI* |
 |---
 | **Arts Program Chairs** | |
-| Yoon Chung Han | *San Jose State University* |
+| Uta Hinrichs | *University of St. Andrews* |
 | Charles Perin | *University of Victoria* |
 |---
-| **VAST Challenge Chairs** | |
-| Kristin Cook | *Pacific Northwest National Laboratory* |
-| R. Jordan Crouser | *Smith College* |
-|---
-| **SciVis Contest Chairs** | |
-| Thomas Theußl | *KAUST* |
-| Alex Razoumov | *WestGrid* |
-|---
-| **VDS Symposium Liaison**| |
-| Liang Gou | *Bosch Research* |
-|---
-| **LDAV Symposium Liaisons**| |
-| Kristi Potter | *National Renewable Energy Laboratory* |
-| Julien Tierny | *Sorbonne University* |
-| Chaoli Wang | *University of Notre Dame* |
-|---
-| **Vis4DH Workshop Liaison** | |
-| Mennatallah El-Assady | *University of Konstanz* |
-|---
-| **VISxAI Workshop Liaisons** | |
-| Mennatallah El-Assady | *University of Konstanz* |
-| Adam Perer | *Carnegie Mellon University* |
-| Hendrik Strobelt | *IBM* |
-|---
-| **VIZSec Symposium Liaison** | |
-| Marco Angelini | *University of Rome “La Sapienza”* |
-|---
 | **Vis in Practice Chair** | |
-| Matthew Brehmer | *Tableau Research* |
-| Matt Larsen | *Lawrence Livermore National Laboratory* |
+| Sudhanshu Kumar Semwal | *University of Colorado* |
 | Zhicheng (Leo) Liu | *Adobe* | 
-| Sean McKenna | *Lucid Software* |
+| Anamaria Crisan | *Tableau Software* |
 |---
 | **Doctoral Colloquium Chairs**| |
 | Nan Cao | *Tongji University* |
-| Danielle Szafir | *University of Colorado Boulder* |
-| Bei Wang | *University of Utah* |
+| Karen B. Schloss | *Universoty of Wisconsin* |
+| Maxime Cordeil | *Monash University* |
 |---
 | **Fast Forward & Video Previews Chairs** | |
-| Benjamin Bach | *University of Edinburgh* |
-| Subhashis Hazarika | *Los Alamos National Laboratory* |
-| Bahador Saket | *MathWorks* |
-| Junpeng Wang | *Visa Research* |
+| Arjun Srinivasan | *Tableau Research* |
+| Jun Tao | *Sun Yat-sen University* |
 |---
 | **Publications Chairs** | |
 | Arvind Satyanarayan | *MIT* |
 | Jian Zhao | *University of Waterloo* |
+| Katerina Vrotsou | *Linkoping University* |
 |---
 | **Elections Chairs** | |
 | Bettina Speckmann | *TU Eindhoven* |
@@ -141,33 +113,38 @@ permalink: /info/committees/conference-committee
 |---
 | **Meetup Chairs** | |
 | Ayan Biswas | *Los Alamos National Lab* |
-| Evanthia Dimara | *University of Konstanz* |
-| Katerina Vrotsou | *Linkoping University* |
+| Evanthia Dimara | *Utrecht University* |
+| Yang Shi | *Tongji University* |
 |---
 | **Community Chairs** | |
 | Lane Harrison | *Worcester Polytechnic Institute* |
-| Karen Schloss | *University of Wisconsin* |
-| Hsiang-Yun Wu | *TU Wien* |
+| Qing Chen | *Tongji University* |
+| Alfie Abdul-Rahman | *King's College London* |
 |---
 | **Student Volunteers Chairs** | |
-| Bon Adriel Aseniero | *Autodesk* |
 | Beatrice Gobbo | *Politecnico di Milano* |
-| Nicole Sultanum | *University of Toronto* |
 | Juan Trelles | *University of Illinois Chicago* |
+| Chenguang Xu | *Universty of Oklahoma (local)* |
+| Kung-tini Cheng | *Monash University* |
+| Keke Wu | *University of Colorado Boulder* |
 |---
 | **Publicity Chairs** | |
 | Mennatallah El-Assady | *University of Konstanz* |
 | John Alexis Guerra Gómez | *Assistant Teaching Professor Northeastern University Silicon Valley* |
-| Bum Chul (BC) Kwon | *IBM Research* |
+| Alvitta Ottley | *Washington University in St. Louis* |
 |---
 | **Inclusivity Chairs** | |
-| Alvitta Ottley | *Washington University in St. Louis* |
 | Lace Padilla | *University of California Merced* |
+| Vetria Byrd | *Purdue University* |
+|---
+| **Accessibility Chairs** | |
+| Yea-Seul Kim | *University of Wisconsin Madison* |
+| Dominik Moritz | *Carnegie Mellon University* |
 |---
 | **Supporters Chairs** | |
 | Eli T. Brown | *DePaul University* |
-| R. Jordan Crouser | *Smith College* |
-| Valerio Pascucci | *University of Utah* |
+| Benjamin Bach | *University of Edinburgh* |
+| Juergen Bernhard | *University of Zurich* |
 |---
 | **Finance Chairs** | |
 | Loretta Auvil | *University of Illinois at Urbana-Champaign* |
@@ -180,51 +157,51 @@ permalink: /info/committees/conference-committee
 |---
 | **Archive Chairs** | |
 | Samuel Huron | *Télécom ParisTech* |
-| Hendrik Strobelt | *IBM* |
 | Carolina Nobre | *Harvard University* |
 | Kyle Hall | *University of Calgary* |
 |---
 | **Web Chairs** | |
 | Dylan Cashman | *Novartis* |
-| Andrew Cunningham | *University of South Australia* |
-| Noura Faraj | *Université de Montpellier - LIRMM* |
+| Rebecca Kehlbeck | *University of Konstanz* |
 | Steve Petruzza | *Utah State University* |
-| Alper Sarikaya | *Microsoft* |
-| Jagoda Walny Nix | *University of Calgary* |
+| Janos Zimmermann | *University of Magdeburg* |
 |---
 | **Technology Chairs** | |
 | Alex Bock | *Linköping University* |
-| Michail Schwab | *Google* |
-| Will Usher | *Intel* |
+| Johannes Knittel | *University of Stuttgart* |
+| John Thompson | *Microsoft Research* |
+| John Wenskovitch | *PNNL* |
 |---
 | **Virtual VIS Chairs** | |
 | Gautam Chaudhary | *Alcon* |
-| Daniela Giorgi | *Istituto di Scienza e Tecnologie dell'Informazione, CNR - Area della Ricerca di Pisa* |
 | Amy Gooch | *University of Utah* |
-| Vijay Natarajan | *IISc Bangalore* |
-| Kristi Potter | *NREL* |
 | Paul Rosen | *University of Central Florida* |
+| Daniel Baum | *Zuse Institute Berlin* |
+| Harish Doraiswamy | *Microsoft Research* |
+| Chris Weaver | *University of Oklahoma* |
+|---
+| **VAST Challenge Chairs** | |
+| Kristin Potter | *National Renewable Energy Lab* |
+| R. Jordan Crouser | *Smith College* |
+|---
+| **SciVis Contest Chairs** | |
+| Thomas Theußl | *KAUST* |
+| Divya Banesh | *Los Alamos National Lab* |
+|---
+| **VDS Symposium Liaison**| |
+| TBD |
+|---
+| **LDAV Symposium Liaisons**| |
+| TBD |
+|---
+| **Vis4DH Workshop Liaison** | |
+| TBD |
+|---
+| **VISxAI Workshop Liaisons** | |
+| TBD |
+|---
+| **VIZSec Symposium Liaison** | |
+| TBD |
 |---
 | **Local Satellite Chairs** | | |
-| Joshua A. Levine | *University of Arizona* | Tucson, AZ, USA |
-| Ross Maciejewski | *Arizona State* | Tucson, AZ, USA |
-| Nirav Merchant | *University of Arizona* | Tucson, AZ, USA |
-| Fabio Miranda  | *University of Illinois at Chicago* | Chicago, IL, USA |
-| Victor A. Mateevitsi | *Argonne National Laboratory* | Chicago, IL, USA |
-| Søren Knudsen | *IT University of Copenhagen* | Copenhagen, Denmark |
-| Anders Ynnerman | *Linköping University* | Linköping, Sweden |
-| Ingrid Hotz | *Linköping University* | Linköping, Sweden |
-| Andreas Kerren | *Linköping University* | Linköping, Sweden |
-| Alexander Bock | *Linköping University* | Linköping, Sweden |
-| Tim Dwyer | *Monash University* | Melbourne, Australia |
-| Sarah Goodwin | *Monash University* | Melbourne, Australia |
-| Michael Wybrow | *Monash University* | Melbourne, Australia |
-| Barrett Ens | *Monash University* | Melbourne, Australia |
-| Lonni Besancon | *Monash University* | Melbourne, Australia |
-| Adam Perer | *Carnegie Mellon University* | Pittsburgh, PA, USA |
-| Yu-Ru Lin | *University of Pittsburgh* | Pittsburgh, PA, USA |
-| Dominik Moritz | *Carnegie Mellon University* | Pittsburgh, PA, USA |
-| Jeffrey Heer | *University of Washington* | Seattle, WA, USA |
-| Joseph Cottam | *Pacific Northwest National Laboratory* | Seattle, WA, USA |
-| Kalina Borkiewicz | *NCSA at the University of Illinois at Urbana-Champaign* | Urbana-Champaign, IL, USA |
-| Loretta Auvil | *NCSA at the University of Illinois at Urbana-Champaign* | Urbana-Champaign, IL, USA |
+| TBD |
