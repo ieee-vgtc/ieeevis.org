@@ -99,8 +99,8 @@ menu:
                 links:
                   - text: "Papers"
                     url: "/year/2022/info/call-participation/call-for-participation"
-#                   - text: "Short Papers"
-#                     url: "/year/2022/info/call-participation/shortpapers"
+                  - text: "Short Papers"
+                    url: "/year/2022/info/call-participation/shortpapers"
 #                   - text: "Posters"
 #                     url: "/year/2022/info/call-participation/posters"
 #                   - text: "Tutorials"
