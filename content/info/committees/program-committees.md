@@ -10,7 +10,7 @@ sidetoc: true
 The Program Committees for VIS 2022 are still being recruited and will be announced later.
 
 
-## Full Papers Program Committee 2021
+## Full Papers Program Committee 
 
 Name | *Affiliation*
 
