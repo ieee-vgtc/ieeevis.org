@@ -7,6 +7,10 @@ sidebar: call-for-participation
 contact: open_practices@ieeevis.org
 ---
 
+**Disclaimer: These guidelines might update for 2022 - Please check back later**
+
+---
+
 Visualization research is better communicated and acted on if it is freely accessible to the
 research community, practitioners, and the general public. This accessibility can be improved if authors post the final version of their accepted paper to a reliable open access repository. VIS can facilitate an increase in sharing of papers by informing authors of this option, establishing guidelines for which repositories are freely accessible and reliable, helping authors use those repositories, and dispelling misconceptions.
 
