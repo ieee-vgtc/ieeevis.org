@@ -97,8 +97,8 @@ menu:
             columns:
               - heading: "Submit Your Work"
                 links:
-#                   - text: "Papers"
-#                     url: "/year/2022/info/call-participation/call-for-participation"
+                  - text: "Papers"
+                    url: "/year/2022/info/call-participation/call-for-participation"
 #                   - text: "Short Papers"
 #                     url: "/year/2022/info/call-participation/shortpapers"
 #                   - text: "Posters"
@@ -113,14 +113,14 @@ menu:
 #                     url: "/year/2022/info/call-participation/doctoral-colloquium"
 #                   - text: "Application Spotlights"
 #                     url: "/year/2022/info/call-participation/application-spotlights"
-#               - heading: "Info for Contributors"
-#                 links:
-#                   - text: "Paper Submission Guidelines"
-#                     url: "/year/2022/info/call-participation/paper-submission-guidelines"
-#                   - text: "Review Instructions"
-#                     url: "/year/2022/info/call-participation/review-instructions"
-#                   - text: "Submission Keywords"
-#                     url: "/year/2022/info/call-participation/paper-keywords"
+              - heading: "Info for Contributors"
+                links:
+                   - text: "Paper Submission Guidelines"
+                     url: "/year/2022/info/call-participation/paper-submission-guidelines"
+                   - text: "Review Instructions"
+                     url: "/year/2022/info/call-participation/review-instructions"
+                   - text: "Submission Keywords"
+                     url: "/year/2022/info/call-participation/paper-keywords"
 #                   - text: "Open Practices"
 #                     url: "/year/2022/info/open-practices/open-practices"
 #                   - text: "Video Previews"
