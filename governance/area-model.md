@@ -1,9 +1,11 @@
 ---
-title: The VIS Area Model for 2021+
+title: The VIS Area Model
 layout: page
 permalink: /governance/area-model
 sidetoc: true
 ---
+
+(Version 1: June 2021)
 
 ## Introduction
 
