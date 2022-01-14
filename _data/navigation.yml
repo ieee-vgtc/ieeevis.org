@@ -115,6 +115,9 @@ menu:
 #                     url: "/year/2022/info/call-participation/application-spotlights"
               - heading: "Info for Contributors"
                 links:
+                   - text: "Area Model for VIS"
+                     url: "/year/2022/info/call-participation/area-model"
+
                    - text: "Paper Submission Guidelines"
                      url: "/year/2022/info/call-participation/paper-submission-guidelines"
                    - text: "Review Instructions"
