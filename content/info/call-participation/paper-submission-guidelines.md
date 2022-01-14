@@ -7,7 +7,7 @@ sidebar: call-for-participation
 contact: papers@ieeevis.org
 ---
 
-Since 2021, IEEE Vis follows the new [area model](http://ieeevis.org/governance/area-model), and thus a paper for IEEE VIS should be submitted to one of six areas. Make sure that you carefully read both the descriptions for each of the six areas (see also the [area model FAQs](http://ieeevis.org/governance/area-model#frequently-asked-questions)) and the guidelines below before submitting your paper.
+Since 2021, IEEE Vis follows the new [area model](/year/2022/info/call-participation/area-model), and thus a paper for IEEE VIS should be submitted to one of six areas. Make sure that you carefully read both the descriptions for each of the six areas (see also the [area model FAQs](/year/2022/info/call-participation/area-model#frequently-asked-questions)) and the guidelines below before submitting your paper.
 
 ## Contents
 
@@ -35,7 +35,7 @@ Since 2021, IEEE Vis follows the new [area model](http://ieeevis.org/governance/
   
 ## Submission System
 
-IEEE VIS uses the [Precision Conference System (PCS)](https://new.precisionconference.com/vgtc) to handle the submission and reviewing process. When submitting your manuscript, please make sure that you submit it to your intended area by choosing the appropriate area from the list of six areas. In the [area description page](http://ieeevis.org/governance/area-model), you can find information guiding you to choose an appropriate area along with example papers for each area. 
+IEEE VIS uses the [Precision Conference System (PCS)](https://new.precisionconference.com/vgtc) to handle the submission and reviewing process. When submitting your manuscript, please make sure that you submit it to your intended area by choosing the appropriate area from the list of six areas. In the [area description page](/year/2022/info/call-participation/area-model), you can find information guiding you to choose an appropriate area along with example papers for each area. 
 
 ## Formatting and Language Guidelines
 
