@@ -2,11 +2,9 @@
 title: Short Paper Call for Participation
 layout: page
 permalink: /info/call-participation/shortpapers
-active_nav: "Contribute"
-sidebar: call-for-participation
 contact: vis_shortpapers@ieeevis.org
 active_nav: "Contribute"
-sidebar: call-for-participation
+sidebar: call-for-shortpapers
 ---
 
 IEEE VIS 2022 solicits submissions in a short paper format. Short Papers welcome submissions describing original work with focused and concise research contributions, incremental work such as follow-up extensions or evaluations of existing methods, or exploratory work. Short papers also welcome papers describing new systems or tools that offer practical value.
@@ -104,8 +102,8 @@ All deadlines are at **5:00pm Pacific Time (PDT)**.
 ### Vis Short Paper Co-Chairs:
 
 * Michelle Borkin, *Northeastern University, USA*
-* Christoph Garth, Technical University of Kaiserslautern, Germany*
-* Jonathan Roberts, Bangor University, United Kingdom*
+* Christoph Garth, *Technical University of Kaiserslautern, Germany*
+* Jonathan Roberts, *Bangor University, United Kingdom*
 * Chaoli Wang, *University of Notre Dame, USA*
 
 Email: [shortpapers@ieeevis.org](mailto:shortpapers@ieeevis.org)
