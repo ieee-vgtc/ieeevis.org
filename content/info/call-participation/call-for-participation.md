@@ -45,14 +45,14 @@ intro_section:
 
 All deadlines are at **5:00pm Pacific Time (PDT).**
 
-| Submission activity | Date |
-|---------------------|------|
-| Abstract submission (MANDATORY) | Monday, March 21, 2022 |
+| Submission activity | Date                     |
+|---------------------|--------------------------|
+| Abstract submission (MANDATORY) | Monday, March 21, 2022   |
 | Paper submission | Thursday, March 31, 2022 |
-| Notification of results of first review cycle | Monday, June 6, 2022 |
-| Paper submission for second review cycle | Friday, July 1, 2022 |
-| Final notification | Friday, July 8, 2022 |
-| Camera-ready copy | Monday, August 8, 2022 |
+| Notification of results of first review cycle | Monday, June 6, 2022     |
+| Paper submission for second review cycle | Friday, July 1, 2022     |
+| Final notification | Friday, July 15, 2022    |
+| Camera-ready copy | Monday, August 8, 2022   |
 
 ## Submission Guidelines and Reviewing Criteria
 
