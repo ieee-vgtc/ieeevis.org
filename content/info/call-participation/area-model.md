@@ -1,7 +1,7 @@
 ---
 title: The VIS Area Model for 2021+
 layout: page
-permalink: /governance/area-model
+permalink: /info/call-participation/area-model
 sidetoc: true
 ---
 
