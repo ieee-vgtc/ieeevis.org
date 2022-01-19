@@ -248,4 +248,4 @@ As all other aspects of the area model, this will be closely watched by ACC, and
 
 ## Previous Versions of the Area Model
 
-- [Version 1 from 2021](#)
+- [Version 1 from 2021](/year/2021/info/call-participation/area-model)
