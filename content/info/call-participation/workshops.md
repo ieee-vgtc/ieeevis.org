@@ -3,7 +3,7 @@ title: Workshops - Call For Participation
 layout: page
 permalink: /info/call-participation/workshops
 active_nav: "Contribute"
-sidebar: call-for-participation
+sidebar: call-for-workshops
 contact: workshops@ieeevis.org
 ---
 
