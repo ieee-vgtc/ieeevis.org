@@ -17,16 +17,16 @@
 #     - text: "Application Spotlights"
 #       url: "/year/2022/info/call-participation/application-spotlights"
 
-- heading: "Submission process"
-  links:
-    - text: "Paper submission guidelines"
-      url: "/year/2022/info/call-participation/paper-submission-guidelines"
-    - text: "Submission Keywords"
-      url: "/year/2022/info/call-participation/paper-keywords"
-    - text: "Review Instructions"
-      url: "/year/2022/info/call-participation/review-instructions"
-    - text: "Open Practices"
-      url: "/year/2022/info/open-practices/open-practices"
+# - heading: "Submission process"
+#   links:
+#     - text: "Paper submission guidelines"
+#       url: "/year/2022/info/call-participation/paper-submission-guidelines"
+#     - text: "Submission Keywords"
+#       url: "/year/2022/info/call-participation/paper-keywords"
+#     - text: "Review Instructions"
+#       url: "/year/2022/info/call-participation/review-instructions"
+#     - text: "Open Practices"
+#       url: "/year/2022/info/open-practices/open-practices"
 
     # - heading: "Participating virtually"
     #   links:
