@@ -12,12 +12,50 @@ What will happen behind the scenes after you're done with an edit is that GitHub
 
 ### Table of contents
 
+* [Policies](#policies)
 * [How to change an existing page](#how-to-change-an-existing-page)
 * [Staging vs Production](#staging-vs-production)
 * [Where are the current files?](#where-are-the-current-files)
 * [Building the website locally](#building-the-website-locally)
-* [Policies](#policies)
 * [How to compare staging and production files](#how-to-compare-staging-and-production-files)
+
+## Policies
+
+### By default, web chairs are not responsible for content
+
+Please do not contact web chairs with requests that include decisions over content. For example, "improve the text on page XYZ" is not a reasonable request to be made to web@; it's a request to be made to whoever is the responsible party.
+
+Please do not contact web chairs with requests such as "please add this content to the web site. You can decide where it goes". The web chairs are responsible for making sure the website is running smoothly, together with the rest of the web infrastructure. They are not responsible for content. You should contact them with, at least:
+
+- the URL where you want the page to go,
+- the specific content it should be there,
+- and the person who will be in charge of maintaining that content in the future.
+
+### Web chairs will generally update the website once a week
+
+As merge requests come in, web chairs will review them within one week, and then deploy to a staging website.  Then, the core team must approve changes before they are released to the production site.  This means that it will generally be about a week before a merge request submitted to web makes it to the production website.  
+
+Members of the organizing committee should keep this schedule in mind when they need updates to the website relating to their own committees.  Please refrain from making urgent requests or using language such as "ASAP" or "immediately", as the web team typically fields more than a hundred requests for changes throughout the year, on top of managing the virtual site.
+
+### Who's responsible for what?
+
+The point-of-contact address for each page in the website is the contact
+email address in each page's front matter (which is visible on each page by
+looking at the footer).
+
+If a page does not have an assigned contact, then 1) that's likely a
+bug that should be reported, 2) web@ is the default
+point-of-contact.
+
+This means that if you found a bug on the content of a webpage, you're
+welcome to create a pull request for the content to get
+fixed. However, if the fix involves anything more than trivial typos,
+we will wait for an OK from the point-of-contact before committing the
+changes.
+
+### What's with the content files all over the place?
+
+This is the result of five years of legacy pages written atop of each other. We're slowly improving the situation, but the legacy content is currently quite messy. Pull requests are welcome.
 
 ## How to change an existing page
 
@@ -60,12 +98,12 @@ In other words, all of the discussion we've had here applies to production as we
 
 ## Where are the current files?
 
-Here is an example link for the [2020 paper CFP page](https://github.com/ieee-vgtc/ieeevis.org/blob/vis2022/content/info/call-participation/call-for-participation.md).
+Here is an example link for the [2022 paper CFP page](https://github.com/ieee-vgtc/ieeevis.org/blob/vis2022/content/info/call-participation/call-for-participation.md).
 Other URLs are available in similar places: [shortpapers](https://github.com/ieee-vgtc/ieeevis.org/blob/vis2022/content/info/call-participation/shortpapers.md), [posters](https://github.com/ieee-vgtc/ieeevis.org/blob/vis2022/content/info/call-participation/posters.md), [panels](https://github.com/ieee-vgtc/ieeevis.org/blob/vis2022/content/info/call-participation/panels.md).
 
 Note how the URL on GitHub matches the URL on the website. <https://github.com/ieee-vgtc/ieeevis.org/blob/vis2020/content/info/call-participation/shortpapers.md> corresponds to <http://staging.ieeevis.org/year/2020/info/call-participation/shortpapers> (rename "/blob" to "/year" and remove the ".md" extension).
 
-Generally, we copy over all content from the previous year to the current year's branch.  If a corresponding page exists in the previous year, chances are that it exists in the current year, even though it might not be reachable through the navigation bar.  For example, you can change "2020" to "2022" to find and edit a file to in the current year's branch.
+Generally, we copy over all content from the previous year to the current year's branch.  If a corresponding page exists in the previous year, chances are that it exists in the current year, even though it might not be reachable through the navigation bar.  For example, you can change "2021" to "2022" to find and edit a file to in the current year's branch.
 
 ## Building the website locally
 
@@ -83,38 +121,6 @@ You will need to install node, npm, Ruby 2.7, and Jekyll to build the website. I
 If you cloned [ieee-vgtc/ieeevis.org](https://github.com/ieee-vgtc/ieeevis.org) directly, you will not have permissions to push commits to the repository, you'll get an authentication failure message from GitHub.  Delete your local repo copy, fork the repository on GitHub, and clone that instead.
 
 Finally, you can request a PR from your fork to the current branch of the upstream [ieee-vgtc/ieeevis.org](https://github.com/ieee-vgtc/ieeevis.org) repository (e.g., "ieee-vgtc/ieeevis.org:vis2020" from "yelper/ieeevis.org:master").
-
-## Policies
-
-### By default, web chairs are not responsible for content
-
-Please do not contact web chairs with requests that include decisions over content. For example, "improve the text on page XYZ" is not a reasonable request to be made to web@; it's a request to be made to whoever is the responsible party.
-
-Please do not contact web chairs with requests such as "please add this content to the web site. You can decide where it goes". The web chairs are responsible for making sure the website is running smoothly, together with the rest of the web infrastructure. They are not responsible for content. You should contact them with, at least:
-
-- the URL where you want the page to go,
-- the specific content it should be there,
-- and the person who will be in charge of maintaining that content in the future.
-
-### Who's responsible for what?
-
-The point-of-contact address for each page in the website is the contact
-email address in each page's front matter (which is visible on each page by
-looking at the footer).
-
-If a page does not have an assigned contact, then 1) that's likely a
-bug that should be reported, 2) web@ is the default
-point-of-contact.
-
-This means that if you found a bug on the content of a webpage, you're
-welcome to create a pull request for the content to get
-fixed. However, if the fix involves anything more than trivial typos,
-we will wait for an OK from the point-of-contact before committing the
-changes.
-
-### What's with the content files all over the place?
-
-This is the result of five years of legacy pages written atop of each other. We're slowly improving the situation, but the legacy content is currently quite messy. Pull requests are welcome.
 
 ## How to compare staging and production files
 
