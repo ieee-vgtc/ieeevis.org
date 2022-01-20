@@ -7,7 +7,7 @@ active_nav: "Contribute"
 contact: workshops@ieeevis.org
 ---
 
-(Version 1 from 2021 -- see [previous versions](#previous-versions-of-the-area-model))
+( This is version 1 introduced 2021 -- see [version history](#version-history-of-the-area-model))
 
 ## Introduction
 
@@ -246,6 +246,6 @@ It may appear unusual that APCs cannot submit to their own area (“self-submiss
 
 As all other aspects of the area model, this will be closely watched by ACC, and alternatives will be considered if the need arises.
 
-## Previous Versions of the Area Model
+## Version History of the Area Model
 
-- [Version 1 from 2021](/year/2021/info/call-participation/area-model)
+- This version: [Version 1](/year/2021/info/call-participation/area-model) introduced 2021
