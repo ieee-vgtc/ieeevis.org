@@ -43,7 +43,8 @@ address real-world needs.
 
 Monday, October 21: 2:20-3:50PM in Room 15
 
-Organizers: Christina Gillmann (University of Leipzig, Leipzig, Sachsen, Germany), Thomas Wischgoll (Wright State University, Dayton, Ohio, USA), Gerik Scheuermann (Institute of Computer Science, Leipzig University, Leipzig, Germany)  
+Organizers: Hank Childs (University of Oregon, USA), Takayuki Itoh (Ochanomizu University, Japan), Michael Krone (University of Tübingen, Germany), Guido Reina
+(University of Stuttgart, Germany), Christina Gillmann (University of Leipzig, Leipzig, Sachsen, Germany), Thomas Wischgoll (Wright State University, Dayton, Ohio, USA), Gerik Scheuermann (Institute of Computer Science, Leipzig University, Leipzig, Germany)  
 
 Visualization has evolved into a mature field of science; it has become widely accepted as a standard approach in diverse fields, ranging from physics over medicine to business intelligence. Over the years, many methods and tools have been developed and published, however, most of these are prototypes and never reach a state that can be reliably used by domain scientists. The prototypes are often neither sustainable nor extensible for subsequent research projects. Additionally, current problems and data sets have grown so large and complex that novel methods require an exceedingly large amount of engineering to approach.    
 This barrier to entry is a major hindrance for new Ph.D. students, which have no time budget for software engineering but have to produce research results. The vis community has no mechanism for amortizing development time. Thus, we either need to find a way to enable developing sophisticated and novel visualizations with minimal overhead or we need to incentivize and reward developing mature visualization applications and frameworks.  
