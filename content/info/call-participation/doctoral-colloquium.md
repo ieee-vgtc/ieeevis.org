@@ -9,7 +9,7 @@ contact: doctoral_coll@ieeevis.org
 
 ## General Information
 
-We solicit submissions to the doctoral colloquium (DC) for IEEE VIS 2021. The DC is a single-day, invitation-only event taking place the day before IEEE VIS on Saturday, Oct. 23, 2021. Participating Ph.D. students present their proposed dissertation work and receive feedback from leading senior visualization researchers. We invite contributions from student communities involved in all areas of visualization.
+We solicit submissions to the doctoral colloquium (DC) for IEEE VIS 2022. The DC is a single-day, invitation-only event taking place the day before IEEE VIS on Saturday, Oct. 15, 2022. Participating Ph.D. students present their proposed dissertation work and receive feedback from leading senior visualization researchers. We invite contributions from student communities involved in all areas of visualization.
 
 The colloquium will allow students to discuss their research directions in a supportive atmosphere with a panel of distinguished leaders and with their peers. Students can expect helpful feedback and fresh perspectives on their research topics and possible career paths and will have the opportunity to interact closely with expert researchers in their field. The colloquium will support community-building by connecting early-career and established researchers in a welcoming and mentorship-forward environment.
 
@@ -26,9 +26,9 @@ Only selected applicants will be allowed to participate in the colloquium and th
 With an NSF travel grant, we may be able to partially fund the travel, conference registration, and lodging for accepted DC student participants for US-based Universities.
 
 ## Submissions
-The deadline for DC submissions is extended to July 15, 2021, at 5:00pm Pacific Time (PDT).
+The deadline for DC submissions is extended to May 13, 2022, at 5:00pm Pacific Time (PDT).
 
-Notification: **August 15, 2021**
+Notification: **June 13, 2022**
 
 Applicants to the Doctoral Colloquium should submit:
 *	A four-page summary describing their PhD research, including 
@@ -45,8 +45,8 @@ Formatting guidelines and LaTeX/Word templates can be found [here](https://tc.co
 Student submissions will be reviewed by the DC Chairs and selections will be made on the basis of their contribution to the colloquium goals, strength of research direction, and the advisor’s assessment. Accepted submissions will be printed for colloquium participants, but will otherwise remain confidential.
 
 ## Doctoral Colloquium Chairs
-Bei Wang, *University of Utah*  
-Danielle Albers Szafir, *University of Colorado Boulder*  
+Karen Schloss, *University of Wisconsin-Madison*  
 Nan Cao, *Tongji University*  
+Maxime Cordeil, *The University of Queensland*  
 
 Contact VIS DC co-chairs: [doctoral_coll@ieeevis.org](mailto:doctoral_coll@ieeevis.org)
