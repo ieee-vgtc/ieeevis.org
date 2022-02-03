@@ -17,7 +17,7 @@ No, posters will **not** be published/indexed through IEEE Xplore. The aim of th
 
 *What are my responsibilities as a poster author?*
 
-To facilitate dissemination, discussion, and access, posters will be available on the conference website during IEEE VIS. In addition, posters will be  presented in person during the scheduled virtual poster session itself (more details will follow). Presenters will be able to describe the work and to answer questions. Each poster will be scheduled for one viewing session. If the poster has multiple authors, not all authors need to be there, however, the poster must be staffed by at least one person at all times during the respective poster session. 
+To facilitate dissemination, discussion, and access, posters will be available on the conference website during IEEE VIS. In addition, posters will be  presented in person during the scheduled poster session itself (more details will follow). Presenters will be able to describe the work and to answer questions. Each poster will be scheduled for one viewing session. If the poster has multiple authors, not all authors need to be there, however, the poster must be staffed by at least one person at all times during the respective poster session. 
 
 *What do I have to submit: the two-page summary, the poster, or both?*
 
@@ -29,4 +29,4 @@ The submission deadline is a hard deadline. We do not give extensions because we
 
 *What makes for a good poster?*
 
-The key content of the poster should convey a good overview of the presented topic. The poster may also have more dense text, graphics, or videos, suitable for viewers who are interested in the details of the work. Consider also that the material on the poster should be useful for you to illustrate important aspects of your work when discussing it individually with attendees during your session. This may involve text, but may focus predominantly on (interactive) visualization - it is IEEE VIS after all! Don't forget to include your name, affiliation, and contact information on the poster. At the respective virtual poster session, you should have your contact details or a link to a virtual leaflet ready to give it to interested people.
+The key content of the poster should convey a good overview of the presented topic. The poster may also have more dense text, graphics, or videos, suitable for viewers who are interested in the details of the work. Consider also that the material on the poster should be useful for you to illustrate important aspects of your work when discussing it individually with attendees during your session. This may involve text, but may focus predominantly on (interactive) visualization - it is IEEE VIS after all! Don't forget to include your name, affiliation, and contact information on the poster. At the respective poster session, you should have your contact details or a link to a virtual leaflet ready to give it to interested people.
