@@ -26,7 +26,9 @@
     - name: "Microsoft"
       image: /assets/supporters/microsoft.png
       url: "https://www.microsoft.com/"
-
+    - name: "Intel"
+      image: /assets/supporters/intel.png
+      url: "https://intel.com"
 
 - category: Bronze
   supporters:
@@ -53,6 +55,10 @@
     - name: "VIDI Chengying"
       image: /assets/supporters/VIDI-Chengying.png
       url: "https://web.cs.ucdavis.edu/~ma/"
+      
+    - name: "Simon Fraser University"
+      image: /assets/supporters/sfu.png
+      url: "https://www.sfu.ca/"
 
 
 - category: Pearl
