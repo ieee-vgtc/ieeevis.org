@@ -11,9 +11,9 @@ sidebar: call-for-participation
 
 The IEEE VIS 2022 Poster Program offers a timely venue to present and discuss original work or highlights of recent work published or presented in another venue (please see the plagiarism statement in the end) through a forum that encourages graphical presentation, demonstration, and active engagement with IEEE VIS participants.
 
-The presentation of posters will take place in a hybrid or virtual event. There will be 1-2 dedicated poster sessions in which poster authors can meet and discuss their work with conference participants. An additional web presence of posters will supplement the traditional physical installation of poster boards. More concrete details will follow soon, with the goal of creating an engaging atmosphere consistent with past in-person poster sessions.   
+The presentation of posters is likely to take place in a physical event. There will be 1-2 dedicated poster sessions in which poster authors can meet and discuss their work with conference participants. An additional web presence of posters will supplement the traditional physical installation of poster boards. More concrete details will follow soon, with the goal of creating an engaging atmosphere consistent with past in-person poster sessions.   
 
-In addition to the electronic poster and its hybrid or virtual presentation, the submitted two-page summary will be included in the electronic conference proceedings. 
+In addition to the poster presentation, the submitted two-page summary will be included in the electronic conference proceedings. 
 
 Examples of appropriate visualization work include, but are not limited to
 
@@ -52,13 +52,13 @@ At the time of submission, it is required by the authors to state explicitly in 
 
 * Submission Deadline: **Monday, June 27, 2022**
 * Notification of Acceptance: **Thursday, July 28, 2022**
-* Final Submission of Camera Ready Summaries and Electronic Poster: **Monday, August 22, 2022**
+* Final Submission of Camera Ready Summaries and Poster PDF: **Monday, August 22, 2022**
 
 All deadlines are at **5:00pm Pacific Time (PDT)**.
 
 ### POSTER SESSION
 
-There will be 1-2 dedicated poster presentation sessions throughout the week in which the hybrid or virtual posters will be presented. During these times, one or more authors have to be available online or physically at their poster to discuss their work. More details will follow soon.
+There will be 1-2 dedicated poster presentation sessions throughout the week in which the posters will be presented. During these times, one or more authors have to be available physically at their poster to discuss their work. More details will follow soon.
 
 ### POSTER REVIEW PROCESS
 
@@ -66,7 +66,7 @@ Each poster submission will be read and evaluated by at least two reviewers. Aut
 
 ### BEST POSTER AWARDS 
 
-The Best Poster awards will recognize the most outstanding poster contributions. It will be based on (1)  the significance of the research contributions described in the submitted two-page poster summaries, as well as (2) the clarity, creativity, and design of the electronic poster. These awards will be noted in the program and presented with a signed certificate.
+The Best Poster awards will recognize the most outstanding poster contributions. It will be based on (1)  the significance of the research contributions described in the submitted two-page poster summaries, as well as (2) the clarity, creativity, and design of the poster. These awards will be noted in the program and presented with a signed certificate.
 
 
 ### CHAIRS
