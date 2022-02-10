@@ -28,7 +28,7 @@ With an NSF travel grant, we may be able to partially fund the travel, conferenc
 ## Submissions
 The deadline for DC submissions is extended to May 13, 2022, at 5:00pm Pacific Time (PDT).
 
-Notification: **June 13, 2022**
+Notification: **June 30, 2022**
 
 Applicants to the Doctoral Colloquium should submit:
 *	A four-page summary describing their PhD research, including 
