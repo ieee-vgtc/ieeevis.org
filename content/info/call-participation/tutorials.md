@@ -7,9 +7,9 @@ active_nav: "Contribute"
 sidebar: call-for-participation
 ---
 
-Tutorials are intended to cover a wide selection of topics related to IEEE VIS 2021 and provide background on new tools, methods, systems, and application domains necessary for research in scientific visualization, information visualization, visual analytics, and topics that span multiple of these areas. Tutorial attendees come from diverse backgrounds, including, among others: volume and flow visualization, information visualization, geographic visualization, visual analytics, high performance computing, visual data science, visualization in artificial intelligence, extended reality technologies and scientific application communities.
+Tutorials are intended to cover a wide selection of topics related to IEEE VIS 2022 and provide background on new tools, methods, systems, and application domains necessary for research in scientific visualization, information visualization, visual analytics, and topics that span multiple of these areas. Tutorial attendees come from diverse backgrounds, including, among others: volume and flow visualization, information visualization, geographic visualization, visual analytics, high performance computing, visual data science, visualization in artificial intelligence, extended reality technologies and scientific application communities.
 
-We are soliciting half-day tutorial proposals in the areas of visualization systems, mathematical foundations, research methods, design and development methodology, and application areas. We welcome tutorials on new tools and techniques for visualization, domains in which visualization applies, methods for undertaking visualization research, as well as proposals on more traditional visualization topics. Topics can include–but are not limited to–any of those listed in the calls for papers for all [areas in visualization](/year/2021/info/call-participation/call-for-participation). Tutorials with an application focus and including hands-on demos are also encouraged.
+We are soliciting half-day tutorial proposals in the areas of visualization systems, mathematical foundations, research methods, design and development methodology, and application areas. We welcome tutorials on new tools and techniques for visualization, domains in which visualization applies, methods for undertaking visualization research, as well as proposals on more traditional visualization topics. Topics can include–but are not limited to–any of those listed in the calls for papers for all [areas in visualization](/year/2022/info/call-participation/call-for-participation). Tutorials with an application focus and including hands-on demos are also encouraged.
 
 ## Details
 
@@ -21,22 +21,23 @@ All tutorial proposals should include:
 * An abstract of the tutorial topic;
 * A description of the tutorial’s organization including time allocation and outline for major course topics (500 words minimum);
 * The background and contact information for each instructor;
-* Since the format (virtual or physical) for VIS 2021 has not yet been officially decided, please include a description of how your tutorial will be conducted differently in a virtual or physical setting.
+* Since the format (virtual or physical) for VIS 2022 has not yet been officially decided, please include a description of how your tutorial will be conducted differently in a virtual or physical setting.
 
 Proposals should not exceed three pages, and should be [submitted via PCS](http://new.precisionconference.com/vgtc/). Please note the [formatting guidelines](https://tc.computer.org/vgtc/publications/conference/) when preparing your submission. Authors of accepted tutorials are required to prepare a short summary for the printed program (~50 words).
 
 ## Important Dates
-* Proposal Submission: **Friday, April 30, 2021**
-* Notification: **Friday, May 28, 2021**
-* Final Submission of Summaries: **Sunday, August 1, 2021**
+* Proposal Submission: **Saturday, April 30, 2022**
+* Notification: **Saturday, May 28, 2022**
+* Final Submission of Summaries: **Monday, August 1, 2022**
 
 All deadlines are at **5:00pm Pacific Time (PDT)**.
 
 ## Chairs
 
 * Stefan Bruckner, *University of Bergen, Norway*
-* Jessica Hullman, *Northwestern University, USA*
 * Christophe Hurter, *University of Toulouse, France*
+* Mengchen Liu, *Microsoft Research, USA*
 
 Feel free to address any questions concerning submission, format, and content to [tutorials@ieeevis.org](mailto:tutorials@ieeevis.org).
+
 
