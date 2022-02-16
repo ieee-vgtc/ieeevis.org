@@ -60,7 +60,7 @@ permalink: /info/committees/conference-committee
 |---
 | **Panels Chairs** | |
 | Michael Correll | *Tableau Software* |
-| Yunhai Wang | *Shandong Unversity* |
+| Yunhai Wang | *Shandong University* |
 | Hsiang-Yun Wu | *TU Wien* |
 |---
 | **Tutorial Chairs** | |
