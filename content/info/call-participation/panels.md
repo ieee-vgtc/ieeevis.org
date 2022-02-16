@@ -1,3 +1,14 @@
+---
+title: Panels
+layout: page
+sidebar: call-for-participation
+permalink: /info/call-participation/panels
+active_nav: "Contribute"
+contact: panels@ieeevis.org
+active_nav: "Contribute"
+sidebar: call-for-participation
+---
+
 IEEE VIS 2022 Panels should address important and/or controversial applications and issues in visualization and its subfields today. In particular, we invite panels that:
 
 * Bring together interest groups and discuss cross-cutting issues that apply to the broad VIS community
