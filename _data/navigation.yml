@@ -101,16 +101,16 @@ menu:
                     url: "/year/2022/info/call-participation/call-for-participation"
                   - text: "Short Papers"
                     url: "/year/2022/info/call-participation/shortpapers"
-#                   - text: "Posters"
-#                     url: "/year/2022/info/call-participation/posters"
-#                   - text: "Tutorials"
-#                     url: "/year/2022/info/call-participation/tutorials"
+                  - text: "Posters"
+                    url: "/year/2022/info/call-participation/posters"
+                  - text: "Tutorials"
+                    url: "/year/2022/info/call-participation/tutorials"
                   - text: "Workshops"
                     url: "/year/2022/info/call-participation/workshops"
-#                   - text: "Panels"
-#                     url: "/year/2022/info/call-participation/panels"
-#                   - text: "Doctoral Colloquium"
-#                     url: "/year/2022/info/call-participation/doctoral-colloquium"
+                  - text: "Panels"
+                    url: "/year/2022/info/call-participation/panels"
+                  - text: "Doctoral Colloquium"
+                    url: "/year/2022/info/call-participation/doctoral-colloquium"
 #                   - text: "Application Spotlights"
 #                     url: "/year/2022/info/call-participation/application-spotlights"
               - heading: "Info for Contributors"
@@ -138,10 +138,10 @@ menu:
 #                     url: "/year/2022/info/presenter-information/presenting-virtually"
 #                     is_new: true
 
-#       - subsections:
-#           - heading: "Get Involved"
-#             columns:
-#               - links:
+      - subsections:
+          - heading: "Get Involved"
+            columns:
+              - links:
 #                   - text: "VIS 2021 Satellite Program"
 #                     description: "Volunteer to host a satellite event"
 #                     url: "/year/2022/info/call-participation/satellite"
@@ -158,9 +158,9 @@ menu:
 #                     is_external: true
 #                   - text: "Code of Conduct"
 #                     url: "/year/2022/info/inclusion-and-diversity/code-of-conduct"
-#                   - text: "Elections"
-#                     description: "Register to vote and nominate/review candidates for the VSC/VEC"
-#                     url: "/year/2022/info/elections"
+                  - text: "Elections"
+                    description: "Register to vote and nominate/review candidates for the VSC/VEC"
+                    url: "/year/2022/info/elections"
 #                     is_new: true
 #                 # - text: "Become an organizer"
 #                 #   description: "TK TK TK Join the committees and help organize VIS"
@@ -194,9 +194,9 @@ menu:
                     description: "Informal setting to discuss emerging topics"
                     url: "/year/2022/info/workshops"
                     #is_new: true
-                  - text: "Panels"
-                    description: "Discuss important and controversial issues"
-                    url: "/year/2022/info/panels"
+#                   - text: "Panels"
+#                     description: "Discuss important and controversial issues"
+#                     url: "/year/2022/info/panels"
                     #is_new: true
                   - text: "Application Spotlights"
                     description: "Showcase practical, real-world applications of visualization"
