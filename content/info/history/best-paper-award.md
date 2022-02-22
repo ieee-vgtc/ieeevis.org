@@ -5,6 +5,94 @@ permalink: /info/history/best-paper-award
 contact: archive@ieeevis.org
 ---
 
+### 2021
+
+#### Best Paper Awards:
+
+Shih-Hsuan Hung, Yue Zhang, Harry Yeh, Eugene Zhang
+**Feature Curves and Surfaces of 3D Asymmetric Tensor Fields**
+DOI: [10.1109/TVCG.2021.3114808](https://doi.org/10.1109/TVCG.2021.3114808)
+
+Joscha Eirich, Jakob Bonart, Dominik Jäckle, Michael Sedlmair, Ute Schmid, Kai Fischbach, Tobias Schreck, Jürgen Bernard
+**IRVINE: Using Interactive Clustering and Labeling to Analyze Correlation Patterns: A Design Study from the Manufacturing of Electrical Engines**
+DOI: [10.1109/TVCG.2021.3114797](https://doi.org/10.1109/TVCG.2021.3114797)
+
+Wesley Willett, Bon Adriel Aseniero, Sheelagh Carpendale, Pierre Dragicevic, Yvonne Jansen, Lora Oehlberg, Petra Isenberg
+**Perception! Immersion! Empowerment! Superpowers as Inspiration for Visualization**
+DOI: [10.1109/TVCG.2021.3114844](https://doi.org/10.1109/TVCG.2021.3114844)
+
+Nathan van Beusekom, Wouter Meulemans, Bettina Speckmann
+**Simultaneous Matrix Orderings for Graph Collections**
+DOI: [10.1109/TVCG.2021.3114773](https://doi.org/10.1109/TVCG.2021.3114773)
+
+
+#### Honorable Mention Awards:
+Zehua Zeng, Phoebe Moh, Fan Du, Jane Hoffswell, Tak Yeon Lee, Sana Malik, Eunyee Koh, Leilani Battle
+**An Evaluation-Focused Framework for Visualization Recommendation Algorithms**
+DOI: [10.1109/TVCG.2021.3114814](https://doi.org/10.1109/TVCG.2021.3114814)
+
+
+Zhutian Chen, Shuainan Ye, Xiangtong Chu, Haijun Xia, Hui Zhang, Huamin Qu, Yingcai Wu
+**Augmenting Sports Videos with VisCommentator**
+DOI: [10.1109/TVCG.2021.3114806](https://doi.org/10.1109/TVCG.2021.3114806)
+
+Alex Kale, Yifan Wu, Jessica Hullman
+**Causal Support: Modeling Causal Inferences with Visualizations**
+DOI: [10.1109/TVCG.2021.3114824](https://doi.org/10.1109/TVCG.2021.3114824)
+
+Crescentia Jung, Shubham R. Mehta, Atharva Kulkarni, Yuhang Zhao, Yea-Seul Kim
+**Communicating Visualizations without Visuals: Investigation of Visualization Alternative Text for People with Visual Impairments**
+DOI: [10.1109/TVCG.2021.3114846](https://doi.org/10.1109/TVCG.2021.3114846)
+
+Kushin Mukherjee, Brian N. Yin, Brianne E. Sherman, Laurent Lessard, Karen Schloss
+**Context Matters: A Theory of Semantic Discriminability for Perceptual Encoding Systems**
+DOI: [10.1109/TVCG.2021.3114780](https://doi.org/10.1109/TVCG.2021.3114780)
+
+Jonathan C. Roberts, Peter W. S. Butcher, Ann Sherlock, Sarah Nason
+**Explanatory Journeys: Visualising to Understand and Explain Administrative Justice Paths of Redress**
+DOI: [10.1109/TVCG.2021.3114818](https://doi.org/10.1109/TVCG.2021.3114818)
+
+Xingdi Zhang, Markus Hadwiger, Thomas Theussl, Peter Rautek
+**Interactive Exploration of Physically-Observable Objective Vortices in Unsteady 2D Flow**
+DOI: [10.1109/TVCG.2021.3115565](https://doi.org/10.1109/TVCG.2021.3115565)
+
+Haotian Li, Yong Wang, Songheng Zhang, Yangqiu Song, Huamin Qu
+**KG4Vis: A Knowledge Graph-Based Approach for Visualization Recommendation**
+DOI: [10.1109/TVCG.2021.3114863](https://doi.org/10.1109/TVCG.2021.3114863)
+
+Devin Lange, Eddie Polanco, Robert L. Judson-Torres, Thomas A. Zangle, Alexander Lex
+**Loon: Using Exemplars to Visualize Large-Scale Microscopy Data**
+DOI: [10.1109/TVCG.2021.3114766](https://doi.org/10.1109/TVCG.2021.3114766)
+
+Xingbo Wang, Jianben He, Zhihua Jin, Muqiao Yang, Yong Wang, Huamin Qu
+**M^2Lens: Visualizing and Explaining Multimodal Models for Sentiment Analysis**
+DOI: [10.1109/TVCG.2021.3114794](https://doi.org/10.1109/TVCG.2021.3114794)
+
+Johannes Knittel, Steffen Koch, Tan Tang, Wei Chen, Yingcai Wu, Shixia Liu, Thomas Ertl
+**Real-Time Visual Analysis of High-Volume Social Media Posts**
+DOI: [10.1109/TVCG.2021.3114800](https://doi.org/10.1109/TVCG.2021.3114800)
+
+Caitlyn M. McColeman, Fumeng Yang, Timothy F. Brady, Steven Franconeri
+**Rethinking the Ranks of Visual Channels**
+DOI: [10.1109/TVCG.2021.3114684](https://doi.org/10.1109/TVCG.2021.3114684)
+
+Maoyuan Sun, Abdul Rahman Shaikh, Hamed Alhoori, Jian Zhao
+**SightBi: Exploring Cross-View Data Relationships with Biclusters**
+DOI: [10.1109/TVCG.2021.3114801](https://doi.org/10.1109/TVCG.2021.3114801)
+
+Rebecca Kehlbeck, Jochen Görtler, Yunhai Wang, Oliver Deussen
+**spEuler: Semantics-preserving Euler Diagrams**
+DOI: [10.1109/TVCG.2021.3114834](https://doi.org/10.1109/TVCG.2021.3114834)
+
+Furui Cheng, Dongyu Liu, Fan Du, Yanna Lin, Alexandra Zytek, Haomin Li, Huamin Qu, Kalyan Veeramachaneni
+**VBridge: Connecting the Dots Between Features and Data to Explain Healthcare Models**
+DOI: [10.1109/TVCG.2021.3114836](https://doi.org/10.1109/TVCG.2021.3114836)
+
+Michael Oppermann, Tamara Munzner
+**VizSnippets: Compressing Visualization Bundles Into Representative Previews for Browsing Visualization Collections**
+DOI: [10.1109/TVCG.2021.3114841](https://doi.org/10.1109/TVCG.2021.3114841)
+
+
 ### 2020
 
 #### Best Paper Awards:
