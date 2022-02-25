@@ -22,6 +22,8 @@ The colloquium will consist of both parallel sessions of student presentations a
 
 Only selected applicants will be allowed to participate in the colloquium and those selected will be expected to attend the full day of events.
 
+We plan to have the DC in hybrid mode to accommodate constraints of students and panelists. More details are forthcoming.
+
 ## Funding
 With an NSF travel grant, we may be able to partially fund the travel, conference registration, and lodging for accepted DC student participants for US-based Universities.
 
