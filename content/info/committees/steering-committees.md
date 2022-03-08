@@ -12,13 +12,14 @@ Current members of the VSC are:
 | **Name** | **Affiliation** |
 | Petra Isenberg | *Inria* |
 | Shixia Liu | *Tsinghua University* |
+| Kwan-Liu Ma | *University of California at Davis* |
 | Robert Moorhead | *Mississippi State University* |
-| Stephen North | *Infovisible* |
-| Huamin Qu | *Hong Kong University of Science and Technology* |
+| Stephen North | *Infovisible* (Chair) |
 | Tobias Schreck | *TU Graz* |
 | Deborah Silver | *Rutgers University* |
 | Melanie Tory | *Tableau Software* |
-| Daniel Weiskopf | *University of Stuttgart* |
+| Anna Vilanova | *Eindhoven University of Technology* |
+
 
 ## VIS Executive and Steering Committee Elections
 Each year the VIS community elects one new member each to the VEC and VSC. 
