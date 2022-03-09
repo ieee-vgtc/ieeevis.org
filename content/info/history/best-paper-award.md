@@ -748,6 +748,17 @@ Norbert Lindow, Daniel Baum, Hans-Christian Hege.
 Awarded at: Vis.
 DOI: [10.1109/TVCG.2011.259](http://dx.doi.org/10.1109/TVCG.2011.259)
 
+#### Test of Time Award:
+Alan M. MacEachren, Anuj Jaiswal, Anthony C. Robinson, Scott Pezanowski, Alexander Savelyev, Prasenjit Mitra, Xiao Zhang, and Justine Blanford.
+**SensePlace2: GeoTwitter analytics support for situational awareness.**
+Awarded at: VAST.
+DOI: [10.1109/VAST.2011.6102456](http://dx.doi.org/10.1109/VAST.2011.6102456)
+
+Michael Bostock, Vadim Ogievetsky, Jeffrey Heer.
+**D³: Data-Driven Documents.**
+Awarded at: InfoVis.
+DOI: [10.1109/TVCG.2011.185](http://dx.doi.org/10.1109/TVCG.2011.185)
+
 
 ### 2010
 
@@ -1028,6 +1039,9 @@ DOI: [10.1109/TVCG.2006.168](http://dx.doi.org/10.1109/TVCG.2006.168)
 
 #### Test of Time Award:
 
+Marco Tarini, Paolo Cignoni, Claudio Montani.
+**Ambient Occlusion and Edge Cueing for Enhancing Real Time Molecular Visualization.**
+DOI: [10.1109/TVCG.2006.115](http://dx.doi.org/10.1109/TVCG.2006.115)
 
 Danny Holten.
 **Hierarchical Edge Bundles: Visualization of Adjacency Relations in Hierarchical Data.**
@@ -1039,6 +1053,8 @@ Jerry Alan Fails, Amy Karlson, Layla Shahamat, Ben Shneiderman.
 **A Visual Interface for Multivariate Temporal Data: Finding Patterns of Events across Multiple Histories.**
 Awarded at: VAST.
 DOI: [10.1109/VAST.2006.261421](http://dx.doi.org/10.1109/VAST.2006.261421)
+
+
 ### 2005
 
 #### Best Paper Awards:
@@ -1139,6 +1155,7 @@ V. Pascucci, K. Cole-McLaughlin.
 **Efficient computation of the topology of level sets.**
 Awarded at: Vis.
 DOI: [10.1109/VISUAL.2002.1183774](http://dx.doi.org/10.1109/VISUAL.2002.1183774)
+
 ### 2001
 
 #### Best Paper Award:
@@ -1148,6 +1165,14 @@ J. Kniss, G. Kindlmann, C. Hansen.
 **Interactive volume rendering using multi-dimensional transfer functions and direct manipulation widgets.**
 Awarded at: Vis.
 DOI: [10.1109/VISUAL.2001.964519](http://dx.doi.org/10.1109/VISUAL.2001.964519)
+
+#### Test of Time Award:
+Ben Shneiderman & Martin Wattenberg.
+**Ordered Treemap Layouts.**
+Awarded at: InfoVis.
+DOI: [10.1109/INFVIS.2001.963283](http://dx.doi.org/10.1109/INFVIS.2001.963283)
+Note: Awarded also to Ben Bederson under consideration of the follow-up journal article "Ordered and Quantum Treemaps: Making effective use of 2D space to display hierarchies.
+Benjamin B. Bederson, Ben Shneiderman, Martin Wattenberg. ACM TOG 21(4):833-854 2002. DOI: [10.1145/571647.571649](http://dx.doi.org/10.1145/571647.571649)."
 
 
 ### 2000
@@ -1272,6 +1297,13 @@ S.F. Roth, P. Lucas, J.A. Senn, C.C. Gomberg, M.B. Burks, P.J. Stroffolino, A.J.
 **Visage: a user interface environment for exploring information.**
 Awarded at: InfoVis.
 DOI: [10.1109/INFVIS.1996.559210](http://dx.doi.org/10.1109/INFVIS.1996.559210)
+
+William J. Schroeder, Kenneth M. Martin, William E. Lorensen.
+**The Design and Implementation of an Object-Oriented Toolkit for 3D Graphics and Visualization.**
+Awarded at: Vis.
+DOI: [10.1109/VISUAL.1996.567752](http://dx.doi.org/10.1109/VISUAL.1996.567752). Awarded under consideration of the follow-up book: "The Visualization Toolkit: an Object-Oriented Approach to 3D Graphics." Will Schroeder, Ken Martin, Bill Lorensen.
+
+
 ### 1995
 
 
