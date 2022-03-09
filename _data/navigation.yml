@@ -109,10 +109,12 @@ menu:
                     url: "/year/2022/info/call-participation/workshops"
                   - text: "Panels"
                     url: "/year/2022/info/call-participation/panels"
-#                   - text: "Doctoral Colloquium"
-#                     url: "/year/2022/info/call-participation/doctoral-colloquium"
-#                   - text: "Application Spotlights"
-#                     url: "/year/2022/info/call-participation/application-spotlights"
+                  - text: "Doctoral Colloquium"
+                    url: "/year/2022/info/call-participation/doctoral-colloquium"
+                    is_new: true
+                  - text: "Application Spotlights"
+                    url: "/year/2022/info/call-participation/application-spotlights"
+                    is_new: true
               - heading: "Info for Contributors"
                 links:
                    - text: "Area Model for VIS"
@@ -152,10 +154,10 @@ menu:
 #                     description: "Support the conference and build your research network"
 #                     url: "http://www.vissv.org"
 #                     is_external: true
-#                   - text: "Become a peer reviewer"
-#                     description: "Volunteer to review submissions"
-#                     url: "https://new.precisionconference.com/review_volunteering"
-#                     is_external: true
+                  - text: "Become a peer reviewer"
+                    description: "Volunteer to review submissions"
+                    url: "https://new.precisionconference.com/review_volunteering"
+                    is_external: true
 #                   - text: "Code of Conduct"
 #                     url: "/year/2022/info/inclusion-and-diversity/code-of-conduct"
                   - text: "Elections"
@@ -239,7 +241,7 @@ menu:
                   url: "/year/2022/info/awards/test-of-time-awards"
 
   - dropdown: "Events & Community"
-    display: false
+    display: true 
     sections:
       - subsections:
           - heading: "Associated Events"
@@ -247,23 +249,23 @@ menu:
               - links:
                   - text: "VIS Arts Program: dis/connected"
                     description: "Where art, design, and research come together"
-                    url: "https://visap.net/"
-                    is_external: true
+                    #url: "https://visap.net/"
+                    #is_external: true
                   - text: "VisInPractice"
                     description: "Invited talks by visualization practitioners"
-                    url: "/year/2022/info/visinpractice"
+                    #url: "/year/2022/info/visinpractice"
                   - text: "LDAV Symposium"
                     description: "Big Data Analysis and Visualization"
-                    url: "https://ldav.org/"
-                    is_external: true
+                    #url: "https://ldav.org/"
+                    #is_external: true
                   - text: "VDS Symposium"
                     description: "Visualization in Data Science"
-                    url: "http://www.visualdatascience.org/2021/index.html"
-                    is_external: true
+                    #url: "http://www.visualdatascience.org/"
+                    #is_external: true
                   - text: "VizSec Symposium"
                     description: "Visualization for Cyber Security"
-                    url: "https://vizsec.org/vizsec2021/"
-                    is_external: true
+                    #url: "https://vizsec.org/vizsec2022/"
+                    #is_external: true
                   - text: "IEEE VIS Workshops"
                     description: "Informal settings to discuss emerging topics"
                     url: "/year/2022/info/workshops"
@@ -273,46 +275,43 @@ menu:
             columns:
               - links:
                   - text: "BioVis Challenges"
-                    url: "http://biovis.net/2021/ieeevis/"
+                    url: "http://biovis.net/2022/ieeevis/"
                     is_external: true
                   - text: "SciVis Contest"
-                    url: "https://scivis2021.netlify.app/"
+                    url: "https://www.lanl.gov/projects/sciviscontest2022/"
                     is_external: true
                   - text: "VAST Challenge"
-                    url: "https://vast-challenge.github.io/2021/"
+                    url: "https://vast-challenge.github.io/2022/"
                     is_external: true
 
-          - heading: "Community"
-            heading_url: "/year/2022/info/call-participation/community"
-            description: "Explore social and topic-based community groups"
-            columns:
-              - heading: "Connect"
-                links:
-                  - text: "Vis Buddies"
-                    url: "/year/2022/info/meetups#vis-newcomers"
-                  - text: "Job Postings"
-                    url: "/year/2022/info/jobs"
-                  - text: "Other Meetups"
-                    url: "/year/2022/info/meetups"
-              - heading: "Social Groups"
-                links:
-                  - text: "Velo Club de VIs"
-                    url: "https://www.gicentre.net/velo-club-de-vis/"
-                    is_external: true
-                  # - text: "Vis Pioneers Group"
-                  #   url: "http://vacommunity.org/ieeevpg/"
-                  #   is_external: true
-              - heading: "Social Media"
-                links:
-                  - text: "Facebook"
-                    url: "https://www.facebook.com/ieeevis"
-                    is_external: true
-                  - text: "Twitter"
-                    url: "https://twitter.com/ieeevis"
-                    is_external: true
-          # - heading: "Doctoral Colloquium"
-          #   #heading_url: "/year/2022/info/doctoral-colloquium"
-          #   description: "Discuss in-progress Ph.D work with leading senior researchers"
+#          - heading: "Community"
+#            heading_url: "/year/2022/info/call-participation/community"
+#            description: "Explore social and topic-based community groups"
+#            columns:
+#              - heading: "Connect"
+#                links:
+#                  - text: "Vis Buddies"
+#                    url: "/year/2022/info/meetups#vis-newcomers"
+#                  - text: "Job Postings"
+#                    url: "/year/2022/info/jobs"
+#                  - text: "Other Meetups"
+#                    url: "/year/2022/info/meetups"
+#              - heading: "Social Groups"
+#                links:
+#                  - text: "Velo Club de VIs"
+#                    url: "https://www.gicentre.net/velo-club-de-vis/"
+#                    is_external: true
+#                  # - text: "Vis Pioneers Group"
+#                  #   url: "http://vacommunity.org/ieeevpg/"
+#                  #   is_external: true
+#              - heading: "Social Media"
+#                links:
+#                  - text: "Facebook"
+#                    url: "https://www.facebook.com/ieeevis"
+#                    is_external: true
+#                  - text: "Twitter"
+#                    url: "https://twitter.com/ieeevis"
+#                    is_external: true
 
   - dropdown: "Organization & History"
     display: true
