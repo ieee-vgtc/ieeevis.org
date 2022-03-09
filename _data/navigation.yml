@@ -258,7 +258,7 @@ menu:
                     #is_external: true
                   - text: "VDS Symposium"
                     description: "Visualization in Data Science"
-                    #url: "http://www.visualdatascience.org/2021/index.html"
+                    #url: "http://www.visualdatascience.org/"
                     #is_external: true
                   - text: "VizSec Symposium"
                     description: "Visualization for Cyber Security"
