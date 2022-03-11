@@ -35,13 +35,12 @@ Contact: beliv@ieeevis.org
 BELIV 2022 is the international forum to broadly discuss research methods in visualization. Our discussions span from novel and not-yet fully established evaluation methods for visualization tools and techniques, to methods that more generally establish the validity and scope of acquired visualization knowledge. BELIV supports contributions and discussions from the rich spectrum of visualization researchers, embracing the varied ways that researchers self-identify with respect to the main conference tracks at VIS.
 
 
-## <a name="vis4dh"></a> [VIS4DH: 7th Workshop on Visualization for the Digital Humanities](http://www.vis4dh.org/)
+## <a name="vis4dh"></a> [VIS4DH: 7th Workshop on Visualization for the Digital Humanities](http://vis4dh.dbvis.de/)
 
-Ana Crisan, *Tableau Software* <br>
-Liang Gou, *Bosch Research* <br>
-Alvitta Ottley, *Washington University in St. Louis* 
+Alfie Abdul-Rahman, *King's College London* <br>
+Houda Lamqaddam, *KU Leuven* 
 
-Contact: vis4dh@ieeevis.org
+Contact: vis4dh@gmail.com
 
 The VIS4DH workshop brings together researchers and practitioners from the fields of visualization and the humanities to discuss new research directions at the intersection of visualization and (digital) humanities research.
 
