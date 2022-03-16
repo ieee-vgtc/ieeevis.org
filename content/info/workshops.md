@@ -22,7 +22,7 @@ These workshops went through our [submission/review process](http://ieeevis.org/
 
 <hr/>
 
-## <a name="beliv"></a> [BELIV 2022: 9th Workshop on evaluation and BEyond - methodoLogIcal approaches for Visualization]()
+## <a name="beliv"></a> [BELIV 2022: 9th Workshop on evaluation and BEyond - methodoLogIcal approaches for Visualization](https://beliv-workshop.github.io/)
 
 Anastasia Bezerianos, *Université Paris Saclay* <br> 
 Kyle Hall, *University of Calgary* <br>
