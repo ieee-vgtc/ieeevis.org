@@ -247,7 +247,7 @@ menu:
           - heading: "Associated Events"
             columns:
               - links:
-                  - text: "VIS Arts Program: dis/connected"
+                  - text: "VIS Arts Program: Mingling Spaces"
                     description: "Where art, design, and research mingle"
                     url: "https://visap.net/"
                     is_external: true
