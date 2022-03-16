@@ -12,13 +12,13 @@ There is a clear need to promote application-focused work in the VIS community. 
 
 
 ## What is an Application Spotlight?
-An Application Spotlight is a fast-paced, session-sized event (90mins) that revolves around a central, practically relevant topic. It is meant to be lean, in the sense that both the application for and the organization of a spotlight is lightweight to entice participation from both within and outside of the traditional VIS community. The goal of a Spotlight session is to create a self-contained introduction to an application topic that is relevant to VIS. This includes
+An Application Spotlight is a fast-paced, session-sized event that revolves around a central, practically relevant topic. It is meant to be lean, in the sense that both the application for and the organization of a spotlight is lightweight to entice participation from both within and outside of the traditional VIS community. The goal of a Spotlight session is to create a self-contained introduction to an application topic that is relevant to VIS. This includes
 * an introduction into the problem domain at hand - ideally delivered by a domain scientist or practitioner from said domain and accessible for a VIS-focussed audience;
 * a well-honed description of the added value that advanced VIS solutions bring to the target domain;
 * an overview of the current state of the art of VIS work applied in the target field;
 * a clear statement of open VIS challenges that is suitable to seed R&D efforts concerning the Spotlight’s application area.
 
-With this in mind, a typical layout will include a primer talk that addresses the first two bullets by introducing the basics of the application domain and its specific requirements. This is followed by several coordinated presentations on the topic of interest, which show what has been achieved so far. The final aspect may be interspersed throughout the program, e.g. each presenter could highlight where they see yet uncharted territory. Alternatively, the organizers could deliver these points by a short panel discussion or a summarizing statement. Overall, a Spotlight will span a 90-minute session. We advise organizers to reserve ample room for open discussion with the audience to fulfill the “bridging the gap” mission of the Spotlight format.
+With this in mind, a typical layout will include a primer talk that addresses the first two bullets by introducing the basics of the application domain and its specific requirements. This is followed by several coordinated presentations on the topic of interest, which show what has been achieved so far. The final aspect may be interspersed throughout the program, e.g. each presenter could highlight where they see yet uncharted territory. Alternatively, the organizers could deliver these points by a short panel discussion or a summarizing statement. We advise organizers to reserve ample room for open discussion with the audience to fulfill the “bridging the gap” mission of the Spotlight format.
 
 
 ## Submission Preparation and Review Process
