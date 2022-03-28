@@ -959,7 +959,7 @@ Awarded at: VAST.
 DOI: [10.1109/VAST.2008.4677362](http://dx.doi.org/10.1109/VAST.2008.4677362)
 
 
-T. Schultz, H.-P. Seidel.
+Thomas Schultz, Hans-Peter Seidel.
 **Estimating Crossing Fibers: A Tensor Decomposition Approach.**
 Awarded at: Vis.
 DOI: [10.1109/TVGC.2008.128](http://dx.doi.org/10.1109/TVCG.2008.128)
