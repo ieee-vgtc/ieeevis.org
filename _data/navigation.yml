@@ -392,8 +392,8 @@ menu:
               - links:
                   - text: "VIS 2022 Organizing Committee"
                     url: "/year/2022/info/committees/conference-committee"
-          #         - text: "Program Committees"
-          #           url: "/year/2022/info/committees/program-committees"
+                  - text: "Program Committees"
+                    url: "/year/2022/info/committees/program-committees"
                   - text: "VIS Steering Committee"
                     url: "/year/2022/info/committees/steering-committees"
                   - text: "VIS Executive Committee"
