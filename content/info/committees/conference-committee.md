@@ -94,7 +94,7 @@ permalink: /info/committees/conference-committee
 |---
 | **Doctoral Colloquium Chairs**| |
 | Nan Cao | *Tongji University* |
-| Karen B. Schloss | *Universoty of Wisconsin* |
+| Karen B. Schloss | *University of Wisconsin* |
 | Maxime Cordeil | *Monash University* |
 |---
 | **Fast Forward & Video Previews Chairs** | |
