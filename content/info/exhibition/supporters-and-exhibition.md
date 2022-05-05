@@ -6,31 +6,25 @@ active_nav: "Contribute"
 contact: supporters@ieeevis.org
 ---
 
-Whether you are showcasing new products and services or recruiting new talent, VIS 2022 is where the international computing and applications community convenes – providing an opportunity to highlight what your company has to offer and reach decision-makers with real buying power.
+Whether you are recruiting new talent or showcasing key products and services, VIS 2022 is where the international computing and applications community convenes – providing an opportunity to highlight what your company has to offer and reach decision-makers with real buying power.
 
 Reasons why you should take part in VIS 2022:
 
- - **Grow Your Audience** – Grow your targeted leads - cultivate new business by removing physical location as a barrier, expanding your reach.
- - **Networking** – Make new and important connections through virtual meetings, discussions, and demonstrations on a wide range of computing and applications topics
- - **Increase Brand Awareness** – Position your company as a leader in the expanding and encompassing field of computer vision technologies to 5700+ attendees!
+ - **Grow Your Audience** - Meet over 1000 attendees with specialization in interactive data visualization and visual analytics, data science, machine learning, and more.
+ - **Meet potential job candidates** – Engage with potential future employees including PHD students, research associates, and faculty.
+ - **Benefit from joint in-person and virtual support** – experience both physical exhibition and expanded virtual branding opportunities as you position your company as a leader in the expanding field of computer vision.
+ - **Networking** – Make new and important connections through virtual meetings, discussions, and demonstrations on a wide range of computing and applications topics.
 
-[//]: # (Diamond, Gold, Silver, Bronze, and Pearl level packages are available now.)
+<p style="text-align: center;">**Diamond, Gold, Silver, Bronze, and Pearl level packages are available now.**</p>
 
-[//]: # ()
-[//]: # ([Download the VIS 2021 Prospectus]&#40;{{ '/assets/supporters/VIS-Prospectus-2021-rp-072321.pdf' | relative_url }}&#41;)
+<p style="text-align: center;">[Download the VIS 2022 Prospectus](https://ieeecs-media.computer.org/media/conferences/resources/VIS-Prospectus-2022-rp.pdf)</p>
 
-[//]: # ()
-[//]: # (VIS 2021 attracts decision-makers looking for the next generation of products, solutions, networking, and advanced-industry perspectives. Put yourself in the position to meet them by supporting VIS 2021!)
+VIS 2022 attracts decision-makers looking for the next generation of products, solutions, networking, and advanced-industry perspectives. Put yourself in the position to meet them by supporting VIS 2022.
 
-**!! We are currently working on a IEEE VIS 20222 Sponsor Prospectus !!**
-
-[//]: # (**Secure your sponsorship today!**)
+Secure your sponsorship today!
 
 Contact:
-
-[//]: # (Regan Pickett<br>)
-
-[//]: # (*IEEE Computer Society*<br>)
-*supporters@ieeevis.org*<br>
-
-[//]: # (*+1 714-822-8022*<br>)
+*Regan Pickett*
+*IEEE Computer Society*
+*supporters@ieeevis.org*
+*+1 714-822-8022*
