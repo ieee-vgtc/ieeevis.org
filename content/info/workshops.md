@@ -163,7 +163,7 @@ Dr. Emily Wall, *Emory University* <br>
 Contact: leibatt@cs.washington.edu
 
 
-## <a name="vis_testing"></a> [Visualization in Testing of Hardware, Software, and Manufacturing]()
+## <a name="vis_testing"></a> [Visualization in Testing of Hardware, Software, and Manufacturing](https://testvis.gitlab.io/)
 
 Katherine E. Isaacs, *Computer Science, University of Arizona* <br>
 Steffen Koch, *University of Stuttgart* <br>
@@ -171,7 +171,13 @@ Timo Ropinski, *Visual Computing Group, Ulm University* <br>
 Stefan Wagner, *Institute of Software Engineering, University of Stuttgart* <br>
 Daniel Weiskopf, *University of Stuttgart* <br>
 
-Contact: steffen.koch@vis.uni-stuttgart.de
+Contact: testvis@googlegroups.com
+
+Testing hardware, software, and other products is a highly relevant task to ensure quality and reliability. Due to the increasing complexity of such systems or products, testing tasks are not only an inevitable step that can occur at different stages of product life cycles, but they are getting increasingly complex as well. Such tasks include among others: test planning, defining tests and test data, carrying out test plans, as well as collecting and analyzing test results. Monitoring and profiling tasks are added when later phases in the life cycle of systems and products are taken into account. All these different tasks need to scale with an increasing number of tests conditions, parameters, test samples, boundary conditions, etc., and with more sophisticated analysis methods including AI-based approaches.
+
+While the visual representation of test results is not uncommon, interactive steering has the potential to advance test processes at different stages in a system’s or product’s life cycle. Interactive visualization can support test practitioners to cope with inherent complexity, e.g., by helping to orchestrate complex test procedures and analyses.
+
+Currently, there is a gap between industry practice in testing and visualization research. This workshop aims to bring together researchers and practitioners from different domains where testing is relevant. We see it as a first step toward building a community of stakeholders from industry and academia interested in visualizing test and monitoring-related problems. To achieve this gaol, the workshop will start a discussion on intrinsic problems of different test procedures to improve the understanding of differences and commonalities in different domains. In addition, we would like to collect examples for supporting test tasks visually and to discuss which testing problems can benefit from interactive visualization. By gathering examples and research approaches from this area, we aim to collect best practices that will serve as the basis for setting up a research agenda.
 
 
 {% comment %}
