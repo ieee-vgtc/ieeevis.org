@@ -165,10 +165,9 @@ menu:
 #                 # - text: "Become an organizer"
 #                 #   description: "TK TK TK Join the committees and help organize VIS"
 #                 #   url: "https://www.google.com"
-
-           - heading: "Supporters"
-             heading_url: "/year/2022/info/exhibition/supporters-and-exhibition"
-             description: "Your support makes this conference possible (CFP coming soon)"
+          - heading: "Supporters"
+            heading_url: "/year/2022/info/exhibition/supporters-and-exhibition"
+            description: "Your support makes this conference possible (CFP coming soon)"
 
   - dropdown: "Program"
     display: false
