@@ -28,7 +28,7 @@ We plan to have the DC in hybrid mode to accommodate constraints of students and
 With an NSF travel grant, we may be able to partially fund the travel, conference registration, and lodging for accepted DC student participants for US-based Universities.
 
 ## Submissions
-The deadline for DC submissions is extended to May 13, 2022, at 5:00pm Pacific Time (PDT).
+The deadline for DC submissions is extended to ~~May 13~~ **Updated deadline** May 15, 2022, at 5:00pm Pacific Time (PDT).
 
 Notification: **June 30, 2022**
 
@@ -48,7 +48,7 @@ Student submissions will be reviewed by the DC Chairs and selections will be mad
 
 ## Doctoral Colloquium Chairs
 Karen Schloss, *University of Wisconsin-Madison*  
-Nan Cao, *Tongji University*  
+Kate Isaacs, *University of Arizona*  
 Maxime Cordeil, *The University of Queensland*  
 
 Contact VIS DC co-chairs: [doctoral_coll@ieeevis.org](mailto:doctoral_coll@ieeevis.org)
