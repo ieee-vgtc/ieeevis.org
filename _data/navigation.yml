@@ -167,7 +167,7 @@ menu:
 #                 #   url: "https://www.google.com"
           - heading: "Supporters"
             heading_url: "/year/2022/info/exhibition/supporters-and-exhibition"
-            description: "Your support makes this conference possible (CFP coming soon)"
+            description: "Your support makes this conference possible!"
 
   - dropdown: "Program"
     display: false
