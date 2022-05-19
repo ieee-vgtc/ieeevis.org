@@ -71,7 +71,7 @@ The goal of this workshop is to initiate a call for "explainables" / "explorable
 
 
 
-## <a name="vis_guidelines"></a> [VisGuides: 4th IEEE Workshop on Visualization Guidelines Visualization Guidelines in Research, Design, and Education]()
+## <a name="vis_guidelines"></a> [VisGuides: 4th IEEE Workshop on Visualization Guidelines Visualization Guidelines in Research, Design, and Education](https://visguides-workshop.github.io/)
 
 Benjamin Bach, *The School of Informatics, University of Edinburgh* <br>
 Alfie Abdul-Rahman, *Department of Informatics, King's College London* <br>
