@@ -12,15 +12,22 @@ Since 2011, the authors of TVCG regular papers published over the previous year 
 
 Invitations are issued to all authors of regular TVCG papers in the area of visualization that have been accepted before June 15 of that year; subsequent requests roll over to the next year's VIS conference. Invitations are issued by TVCG at the time of paper acceptance; there is no selection process other than the decision of whether the topic fits within the scope of VIS, which is made by the TVCG Associate Editor-In-Chief designated as the VIS Liaison (currently, Han-Wei Shen). Material that was originally presented at another conference and extended for TVCG is not eligible to present at VIS. 
 
-The VIS papers chairs make their acceptance decisions independently, without access to the list of requested talks; it is provided to them on June 20, after the first-round acceptance decisions are announced, for use in the papers sessions creation process. 
+Note that VIS papers chairs make their acceptance decisions independently, without access to the list of requested talks from TVCG.  This list is provided to the Papers chairs on June 20, after the first-round acceptance decisions are announced, and is only used in the papers sessions creation process. 
 
 ## CG&A Partnership
 Since 2015, authors of selected papers from the IEEE Computer Graphics and Applications (CG&A) from the previous year in the area of visualization have been invited to give an oral presentation about their work at VIS. This M1C2 (Magazine-First-Conference-Second) model increases the visibility of applied research and systems papers among the academic community and fosters synergies between the theoretical and the applied aspects of the field.
 
-These talks are collected into two or more CG&A-focused sessions. Invitations are issued by the CG&A Editor-in-Chief (currently, Torsten Möller) in the Spring based on scope alignment with the VIS conference and the number of available slots.
+These talks are collected into two or more CG&A-focused sessions. Invitations are issued by the CG&A Associate Editor (currently, Tim Dwyer) in the Spring based on scope alignment with the VIS conference and the number of available slots.
 
 ## SIGGRAPH Partnership
-Since 2019, authors of selected papers from the ACM SIGGRAPH Transactions on Graphics (TOG) from the current year, in the area of visualization have been invited to give an oral presentation about their work at VIS. Similarly, authors of selected papers from the IEEE TVCG from the current year have already been invited to give an oral presentation about their work at SIGGRAPH earlier this year. This M1C2 (Magazine-First-Conference-Second) model increases the visibility of research and papers among the academic community and fosters synergies between the theoretical and the applied aspects of the field.
+Since 2019, authors of selected papers from the ACM SIGGRAPH Transactions on Graphics (TOG) from the current year, in the area of visualization, have been invited to give an oral presentation about their work at VIS. Similarly, authors of selected papers from the IEEE TVCG from the current year are invited to give an oral presentation about their work at SIGGRAPH.  Invitations are coordinated with the TOG Editor-in-Chief and IEEE VGTC's vice chair for conferences (currently, Jian Chen).
 
 These talks are collected in one SIGGRAPH-focused session.
 
+## IEEE VR Partnership
+Starting in 2022, authors of selected papers from IEEE VR, the IEEE Conference on Virtual Reality + 3D User Interfaces, will be invited to give an oral presentation about their work at VIS.  The goal of this partnership is to further cross-pollinate the VIS and VR communities, by inviting VR papers that have a visualization focus to present.  Invitations are issued through IEEE VGTC's vice chair for conferences (currently, Jian Chen).
+
+Like with SIGGRAPH, these talks are collected in one VR-focused session.
+
+
+Email: [program(at)ieeevis.org](mailto:program@ieeevis.org)
