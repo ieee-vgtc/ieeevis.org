@@ -10,7 +10,7 @@ all: site
 
 site:
 	./scripts/check_duplicate_permalinks.py
-	jekyll build
+	bundle exec jekyll build
 	./scripts/fix_file_extensions.sh
 
 production: site
