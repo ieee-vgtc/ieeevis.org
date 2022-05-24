@@ -35,8 +35,12 @@
  #      url: "https://www.microsoft.com/research"
 
 
- # - category: Bronze
- #   supporters:
+ - category: Bronze
+   supporters:
+     - name: "Unviversity of Oklaoma"
+       image: /assets/supporters/okl.png
+       url: "https://www.ou.edu/disc"
+      
  #    - name: "Kitware, Inc"
  #      image: /assets/supporters/kitware.png
  #      url: "https://www.kitware.com/"
