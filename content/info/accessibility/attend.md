@@ -1,11 +1,11 @@
 ---
-title: VIS 2021 Accessibility FAQ
+title: VIS 2022 Accessibile Conference
 layout: page
-permalink: /info/inclusion-and-diversity/accessibility
+permalink: /info/accessibility/attend
 contact: accessibility@ieeevis.org
 ---
  
-IEEE VIS seeks to cultivate an environment that encourages participation and inclusion. Our goal is to make IEEV VIS 2021 as accessible as possible. The following is information about the accessibility of various components of VIS 2021. Please contact us at accessibility@ieeevis.org, if you have questions, concerns or would like to provide feedback.
+IEEE VIS seeks to cultivate an environment that encourages participation and inclusion. Our goal is to make IEEV VIS 2022 as accessible as possible. The following is information about the accessibility of various components of VIS 2022. Please contact us at accessibility@ieeevis.org, if you have questions, concerns or would like to provide feedback.
  
 ## How do I communicate accessibility needs to organizers?
 During registration, you can indicate that you have accessibility needs. We will follow up with you to discuss your needs in more detail. If you find that any of the online platforms do not support your needs, you can contact accessibility@ieeevis.org, and we will work with you to ensure you can participate on the platforms.  
