@@ -37,6 +37,7 @@ You can make your submission document accessible by following these steps:
 
 
 ### For Word Users
+
 Microsoft Word can produce accessible documents. This works in most versions of Word for Windows, and works on the latest versions of Word for MacOS. If you do not have access to the latest Word for MacOS, you can edit the document on MacOS and perform the last step on a PC with Windows Word.
 
 1. Use the latest template.
@@ -96,6 +97,7 @@ Note that these steps will need to be performed **each time a new PDF is exporte
 **Your PDF should now have all accessibility metadata included!**
 
 ## Checking Accessibility of PDF Documents
+
 If you have followed the above steps, your final documents should be accessible. You are encouraged to double-check that all accessibility metadata is included.
 
 1. Open your PDF version in Adobe Acrobat (commercial version).
@@ -103,5 +105,5 @@ If you have followed the above steps, your final documents should be accessible.
 3. Use the default options, and select `Start Checking`. An accessibility check will be performed, and the report will be generated.
 4. You should now be able to see an overview in the `Accessibility Checker` side panel.
 Verify that none of the checks have failed here.
-Some checks (e.g “Logical Reading Order”) might give you a warning saying “Needs manual check”; these can be ignored.
+Some checks (e.g "Logical Reading Order") might give you a warning saying “Needs manual check”; these can be ignored.
 5. The `Headings` section might indicate that the “Appropriate Nesting” check failed; this can be ignored too.
