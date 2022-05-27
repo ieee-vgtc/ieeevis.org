@@ -125,7 +125,7 @@ permalink: /info/committees/conference-committee
 | Beatrice Gobbo | *Politecnico di Milano* |
 | Juan Trelles | *University of Illinois Chicago* |
 | Chenguang Xu | *Universty of Oklahoma (local)* |
-| Kung-tini Cheng | *Monash University* |
+| Kun-Ting Chen | *Monash University* |
 | Keke Wu | *University of Colorado Boulder* |
 |---
 | **Publicity Chairs** | |
