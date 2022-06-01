@@ -271,7 +271,7 @@ menu:
             description: "Advancing visualization through competition"
             columns:
               - links:
-                  - text: "BioMedVis Challenges"
+                  - text: "Bio+MedVis Challenges"
                     url: "http://biovis.net/2022/ieeevis/"
                     is_external: true
                   - text: "SciVis Contest"
