@@ -41,3 +41,4 @@ defaults:
       type: "pages"
     values:
       contact: "web@ieeevis.org"
+      layout: "main"
