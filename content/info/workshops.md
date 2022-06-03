@@ -92,7 +92,7 @@ Charles Perin, *Department of Computer Science, University of Victoria* <br>
 Contact: lonni.besancon@gmail.com
 
 
-## <a name="biomedical_ai"></a> [Visualization in BioMedical AI]()
+## <a name="biomedical_ai"></a> [Visualization in BioMedical AI](https://vis-biomed-ai.github.io/)
 
 Qianwen Wang, *Biomedical Informatics, Harvard Medical School* <br>
 Vicky Yao, *Computer Science, Rice University* <br>
@@ -101,6 +101,9 @@ Nils Gehlenborg, *Biomedical Informatics, Harvard Medical School* <br>
 
 Contact: qianwen_wang@hms.harvard.edu
 
+Artificial Intelligence (AI) is advancing biomedical science in many ways, from improving image-based diagnostics to identifying new drugs. Effective visualization can significantly improve the communication between AI systems and human users and is playing an increasingly important role in biomedical AI. However, visualization in biomedical AI is highly interdisciplinary and a mutual understanding is still missing across disciplines.
+
+The aim of this workshop is to explore the challenges and opportunities in this highly interdisciplinary research by bringing together researchers from data visualization, biomedical informatics, machine learning, and computational biologists. We hope this workshop can 1) attract more research interest from the VIS community to this newly emerging topic by showcasing successful applications and promising directions for using visualization in biomedical AI studies and 2) demonstrate the importance of design and share good visualization practices to biomedical AI researchers and broaden the impact of visualization research.
 
 ## <a name="nl_vis"></a> [NLVIZ Workshop: Exploring Research Opportunities for Natural Language, Text, and Data Visualization]()
 
