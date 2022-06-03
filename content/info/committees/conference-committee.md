@@ -213,10 +213,10 @@ permalink: /info/committees/conference-committee
 | Alfie Abdul-Rahman | *King's College London* |
 |---
 | **VISxAI Workshop Liaisons** | |
-| Adam Perer | *Carnegie Mellon University |
-| Angie Boggust | *Massachusetts Institute of Technology |
-| Fred Hohman | *Apple |
-| Hendrik Strobelt | *MIT-IBM Watson AI Lab |
+| Adam Perer | *Carnegie Mellon University* |
+| Angie Boggust | *Massachusetts Institute of Technology* |
+| Fred Hohman | *Apple* |
+| Hendrik Strobelt | *MIT-IBM Watson AI Lab* |
 | Mennatallah El-Assady | *ETH AI Center* |
 | Zijie Jay Wang | *Georgia Tech* |
 |---
