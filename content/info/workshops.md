@@ -113,14 +113,18 @@ Arjun Srinivasan, *Tableau Research* <br>
 Contact: vsetlur@tableau.com
 
 
-## <a name="viscomm"></a> [Fifth Workshop on Visualization for Communication (VisComm)]()
+## <a name="viscomm"></a> [Fifth Workshop on Visualization for Communication (VisComm)](https://viscomm.io/)
+
+While the visualization field consists of researchers exploring how people perceive information and different data visualization tools and platforms, there is an even larger community of analysts, practitioners, and organizations who are creating data and information visualizations and communicating their work every day. The challenges these groups face in communicating their work are often distinct from the research taking place in the academic community.
+
+The VisComm workshop brings together practitioners and researchers from a broad range of disciplines to address questions raised by the new and evolving role of data visualization in our everyday lives. We encourage participation from journalists, designers, practitioners, health communicators, and others who do not typically attend IEEE VIS. This year, we will kick things off a panel on the future of data visualization with Mike Bostock, Sheelagh Carpendale, Jessica Hullman, and Duncan Geere.
 
 Barbara Millet, *School of Communication, University of Miami* <br>
 Jonathan Schwabish, *Urban Institute* <br>
 Alvitta Ottley, *Department of Computer Science and Engineering, Washington University in St. Louis* <br>
 Alice Feng, *Urban Institute* <br>
 
-Contact: alvitta@wustl.edu
+Contact: viscomm_chairs@googlegroups.com
 
 
 ## <a name="viz_climate"></a> [Viz4Climate - Workshop on High-Impact Techniques for Visual Climate Science Communication]()
