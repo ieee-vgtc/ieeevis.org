@@ -165,6 +165,10 @@ Dr. Emily Wall, *Emory University* <br>
 
 Contact: vis4good-org@googlegroups.com
 
+There are many ways that work in visualization can have immediate social impact— working closely with community stakeholders, exploring how to present data for mass audiences, evaluating the potential of visualization for advocacy or as a tool to shape public policy— all have the potential to reshape society for the better. Thoughtfulness, reflection, and critique are likewise important to build up a clear picture of both the potential benefits and potential harms of visualization research.
+
+The Visualization for Social Good Workshop (Vis4Good) aims to provide a central venue within the IEEE VIS community for surfacing work that critiques, defines, or explores the impact of data visualization on society. Through a blend of paper sessions, invited presentations, and break-out groups, we hope that the inaugural Vis4Good 2022 Workshop encourages attendees to harness visualization research to tackle critical challenges in responsible AI, clean energy, human health and well-being, and other domain areas with critical societal impact.
+
 
 ## <a name="vis_testing"></a> [Visualization in Testing of Hardware, Software, and Manufacturing](https://testvis.gitlab.io/)
 
