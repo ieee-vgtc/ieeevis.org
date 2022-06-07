@@ -155,7 +155,7 @@ Julien Tierny, *CNRS, Paris, France Sorbonne Université* <br>
 Contact: julien.tierny@sorbonne-universite.fr
 
 
-## <a name="vis_social_good"></a> [Visualization for Social Good 2022]()
+## <a name="vis_social_good"></a> [Visualization for Social Good 2022](https://vis4good.github.io/)
 
 Leilani Battle, *Paul G. Allen School of Computer Science & Engineering, University of Washington* <br>
 Michelle A. Borkin, *Khoury College of Computer Sciences, Northeastern University* <br>
@@ -163,7 +163,7 @@ Lane Harrison, *Worcester Polytechnic Institute* <br>
 Narges Mahyar, *College of Information and Computer Sciences, University of Massachusetts Amherst* <br>
 Dr. Emily Wall, *Emory University* <br>
 
-Contact: leibatt@cs.washington.edu
+Contact: vis4good-org@googlegroups.com
 
 
 ## <a name="vis_testing"></a> [Visualization in Testing of Hardware, Software, and Manufacturing](https://testvis.gitlab.io/)
