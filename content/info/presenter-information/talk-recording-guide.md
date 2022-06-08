@@ -34,7 +34,7 @@ Questions by the audience will be asked over sli.do, a chat application seamless
 
 Video previews are a great opportunity to publicize your work or event to a wide audience. Video previews are accessible from the conference website on the VIS YouTube channel prior to, during, and after the conference. 
 
-IEEE Visualization allows authors to release their video preview on websites and any social media platform prior to the conference, but **authors should not release their presentation videos to the public until AFTER the conference**.  Do not upload your presentation vide to YouTube, as such videos may conflict with the conference uploads.
+IEEE Visualization allows authors to release their video preview on websites and any social media platform prior to the conference, but **authors should not release their presentation videos to the public until AFTER the conference**.  Do not upload your presentation video to YouTube, as such videos may conflict with the conference uploads.
  
 <!--
 Terminology used in this document:
