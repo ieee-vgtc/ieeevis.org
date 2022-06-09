@@ -80,7 +80,7 @@ Alexandra Diehl, *University of Zurich*
 Contact: diehl@ifi.uzh.ch
 
 
-## <a name="alt_vis"></a> [alt.VIS 2022]()
+## <a name="alt_vis"></a> [alt.VIS 2022](https://altvis.github.io/)
 
 Lonni Besançon, *Linköpings Universitet* <br>
 Andrew M McNutt, *Computer Science, University of Chicago* <br>
@@ -91,6 +91,7 @@ Charles Perin, *Department of Computer Science, University of Victoria* <br>
 
 Contact: lonni.besancon@gmail.com
 
+Often the most transformative ideas and challenges come from unexpected and serendipitous sources. Yet, conferences are not often perceived as a place for non-traditional, controversial, or outré work. We propose to continue the success of last year's "alt.VIS" workshop that borrows from the long-running and successful "alt.chi" model from the ACM SIGCHI conference; once again providing an avenue for surfacing work that would otherwise not find a home through the standard VIS conference review process.
 
 ## <a name="biomedical_ai"></a> [Visualization in BioMedical AI](https://vis-biomed-ai.github.io/)
 
