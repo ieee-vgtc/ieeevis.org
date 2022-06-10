@@ -23,12 +23,12 @@
  #      image: /assets/supporters/tableau.jpg
  #      url: "https://www.tableau.com/"
 
- # - category: Silver
- #   image_size: 150
- #   supporters:
- #    - name: "Autodesk"
- #      image: /assets/supporters/autodesk.png
- #      url: "https://www.autodesk.com/research"
+ - category: Silver
+   image_size: 150
+   supporters:
+     - name: "Autodesk"
+       image: /assets/supporters/autodesk.png
+       url: "https://www.autodesk.com/research"
       
  #    - name: "Microsoft"
  #      image: /assets/supporters/microsoft.png
@@ -36,23 +36,24 @@
 
 
  - category: Bronze
+   image_size: 120
    supporters:
      - name: "Unviversity of Oklaoma"
        image: /assets/supporters/okl.png
        url: "https://www.ou.edu/disc"
-      
- #    - name: "Kitware, Inc"
- #      image: /assets/supporters/kitware.png
- #      url: "https://www.kitware.com/"
       
  #    - name: "Fraunhofer IGD"
  #      image: /assets/supporters/igd.png
  #      url: "https://www.igd.fraunhofer.de/en"
 
 
- # - category: Pearl
- #   supporters:
-
+ - category: Pearl
+   image_size: 120
+   supporters:
+     - name: "Kitware, Inc"
+       image: /assets/supporters/kitware.png
+       url: "https://www.kitware.com/"
+      
  #    - name: "SCI"
  #      image: /assets/supporters/sci.png
  #      url: "https://www.sci.utah.edu/"
