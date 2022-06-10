@@ -179,7 +179,8 @@ Timo Ropinski, *Visual Computing Group, Ulm University* <br>
 Stefan Wagner, *Institute of Software Engineering, University of Stuttgart* <br>
 Daniel Weiskopf, *University of Stuttgart* <br>
 
-Contact: testvis@googlegroups.com
+Contact: testvis@googlegroups.com<br/>
+Website: [https://testvis.gitlab.io/testvis22/](https://testvis.gitlab.io/testvis22/)
 
 Testing hardware, software, and other products is a highly relevant task to ensure quality and reliability. Due to the increasing complexity of such systems or products, testing tasks are not only an inevitable step that can occur at different stages of product life cycles, but they are getting increasingly complex as well. Such tasks include among others: test planning, defining tests and test data, carrying out test plans, as well as collecting and analyzing test results. Monitoring and profiling tasks are added when later phases in the life cycle of systems and products are taken into account. All these different tasks need to scale with an increasing number of tests conditions, parameters, test samples, boundary conditions, etc., and with more sophisticated analysis methods including AI-based approaches.
 
