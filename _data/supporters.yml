@@ -13,7 +13,7 @@
 
 
  # - category: Diamond
- #   image_size: 200
+ #   image_size: 210
  #   supporters:
  #    - name: "Intel"
  #      image: /assets/supporters/intel.png
@@ -24,7 +24,7 @@
  #      url: "https://www.tableau.com/"
 
  - category: Silver
-   image_size: 150
+   image_size: 160
    supporters:
      - name: "Autodesk"
        image: /assets/supporters/autodesk.png
@@ -36,7 +36,7 @@
 
 
  - category: Bronze
-   image_size: 120
+   image_size: 100
    supporters:
      - name: "Unviversity of Oklaoma"
        image: /assets/supporters/okl.png
@@ -48,7 +48,7 @@
 
 
  - category: Pearl
-   image_size: 120
+   image_size: 100
    supporters:
      - name: "Kitware, Inc"
        image: /assets/supporters/kitware.png
