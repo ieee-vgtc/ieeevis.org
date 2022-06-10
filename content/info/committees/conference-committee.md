@@ -39,7 +39,7 @@ permalink: /info/committees/conference-committee
 | T. J. Jankun-Kelly | *Mississippi State University* |
 |---
 | **Area 5 Paper Chairs &nbsp;&nbsp;&nbsp;—** | **Data Transformations** | |
-| Eduard Gröller | *TU Wien* |
+| M. Eduard Gröller | *TU Wien* |
 | Michael Sedlmair | *University of Stuttgart* |
 |---
 | **Area 6 Paper Chairs &nbsp;&nbsp;&nbsp;—** | **Analytics & Decisions** | |
@@ -151,7 +151,7 @@ permalink: /info/committees/conference-committee
 | Loretta Auvil | *University of Illinois at Urbana-Champaign* |
 | Maria Valez | *CA Technologies* |
 |---
-| **Incoming General Chairs** | |
+| **Incoming General Chairs (VIS23)** | |
 | Tim Dwyer | *Monash University* |
 | Sarah Goodwin | *Monash University* |
 | Michael Wybrow | *Monash University* |
@@ -186,7 +186,7 @@ permalink: /info/committees/conference-committee
 | R. Jordan Crouser | *Smith College* |
 |---
 | **SciVis Contest Chairs** | |
-| Thomas Theußl | *KAUST* |
+| Alex Razoumov | *WestGrid* |
 | Divya Banesh | *Los Alamos National Lab* |
 |---
 | **Bio+MedVis Challenges Chairs** | |
