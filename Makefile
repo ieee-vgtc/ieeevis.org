@@ -12,19 +12,19 @@ all: site
 
 site:
 	./scripts/check_duplicate_permalinks.py
-	jekyll build
+	bundle exec jekyll build
 	./scripts/fix_file_extensions.sh
 
 newsite:
 #	./scripts/check_duplicate_permalinks.py
-	jekyll build
+	bundle exec jekyll build
 	./scripts/fix_file_extensions.sh
 	./scripts/buildyear.sh
 
 new2020:
 	npm install
 	npm run-script build
-	jekyll build -d ./_site/year/2020
+	bundle exec jekyll build -d ./_site/year/2020
 	./scripts/fix_file_extensions.sh
 
 production: site
