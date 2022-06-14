@@ -43,7 +43,7 @@ jobs:
       run: |
         gem install rdoc --pre
         gem install bundler
-        gem install jekyll
+        bundle
     - name: Set up AWS credentials (+ set default user)
       run: |
         mkdir -p ~/.aws
