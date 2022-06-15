@@ -79,6 +79,12 @@ Alexandra Diehl, *University of Zurich*
 
 Contact: diehl@ifi.uzh.ch
 
+The VisGuides 2022 Workshop focuses on the analysis, design, reflection, and discussion of applicable frameworks to mastering guidelines in visualization by the broader visualization community, embedded in a larger research agenda of visualization theory and practices. It follows-up the ideas from the IEEE VIS 2016, 2018, and 2020 Workshop on Creation, Curation, Critique and Conditioning of Principles and Guidelines in Visualization (C4PGV).
+
+The workshop also features an open call for being part of the program committee (PC) to provide an opportunity to advocate for guidelines in a broad range of topics. If you would like to get involved, contact visguides@lists.ifi.uzh.ch.
+
+The workshop will be held in a hybrid format. You can attend online or in person though we hope that you can join us in-person. Online sessions will be synchronous with the in-person workshop.
+
 
 ## <a name="alt_vis"></a> [alt.VIS 2022](https://altvis.github.io/)
 
@@ -116,16 +122,16 @@ Contact: vsetlur@tableau.com
 
 ## <a name="viscomm"></a> [Fifth Workshop on Visualization for Communication (VisComm)](https://viscomm.io/)
 
-While the visualization field consists of researchers exploring how people perceive information and different data visualization tools and platforms, there is an even larger community of analysts, practitioners, and organizations who are creating data and information visualizations and communicating their work every day. The challenges these groups face in communicating their work are often distinct from the research taking place in the academic community.
-
-The VisComm workshop brings together practitioners and researchers from a broad range of disciplines to address questions raised by the new and evolving role of data visualization in our everyday lives. We encourage participation from journalists, designers, practitioners, health communicators, and others who do not typically attend IEEE VIS. This year, we will kick things off a panel on the future of data visualization with Mike Bostock, Sheelagh Carpendale, Jessica Hullman, and Duncan Geere.
-
 Barbara Millet, *School of Communication, University of Miami* <br>
 Jonathan Schwabish, *Urban Institute* <br>
 Alvitta Ottley, *Department of Computer Science and Engineering, Washington University in St. Louis* <br>
 Alice Feng, *Urban Institute* <br>
 
 Contact: viscomm_chairs@googlegroups.com
+
+While the visualization field consists of researchers exploring how people perceive information and different data visualization tools and platforms, there is an even larger community of analysts, practitioners, and organizations who are creating data and information visualizations and communicating their work every day. The challenges these groups face in communicating their work are often distinct from the research taking place in the academic community.
+
+The VisComm workshop brings together practitioners and researchers from a broad range of disciplines to address questions raised by the new and evolving role of data visualization in our everyday lives. We encourage participation from journalists, designers, practitioners, health communicators, and others who do not typically attend IEEE VIS.
 
 
 ## <a name="viz_climate"></a> [Viz4Climate - Workshop on High-Impact Techniques for Visual Climate Science Communication]()
@@ -158,6 +164,8 @@ Paul Rosen, *University of South Florida* <br>
 Julien Tierny, *CNRS, Paris, France Sorbonne Université* <br>
 
 Contact: julien.tierny@sorbonne-universite.fr
+
+The IEEE VIS Workshop on Topological Data Analysis and Visualization aims at being an inclusive forum for the fast dissemination of the latest results in theory, algorithms, and applications of topological methods for the interactive and visual analysis of data. This workshop is a remodeling of the established TopoInVis workshop series, with the goal of being more diverse (in terms of applications) and inclusive (in terms of communities), with a clear will to open to other members of the visualization community potentially interested in topological methods, or experts in topological methods from other communities willing to experiment with interactive and visual applications.
 
 
 ## <a name="vis_social_good"></a> [Visualization for Social Good 2022](https://vis4good.github.io/)
