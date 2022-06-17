@@ -77,7 +77,9 @@ Benjamin Bach, *The School of Informatics, University of Edinburgh* <br>
 Alfie Abdul-Rahman, *Department of Informatics, King's College London* <br>
 Alexandra Diehl, *University of Zurich*
 
-Contact: diehl@ifi.uzh.ch
+The VisGuides 2022 Workshop focuses on the analysis, design, reflection, and discussion of applicable frameworks to mastering guidelines in visualization by the broader visualization community, embedded in a larger research agenda of visualization theory and practices. Goals include: Illustrating the use of best practices and guidelines in the wild; Constructing an open and democratic discussion about principles, guidelines, and recommendations; Discussing ideas and proposals of feasible approaches towards the formalization of visualization guidelines; To raise questions about the ethical, practical, and technical implications of establishing guidelines. Submit your work and ideas as either a short paper, long paper, or a guideline report discussing a guideline, its empirical evidence, application, and limitations. Submission deadline is July 22.
+
+Contact: visguides@lists.ifi.uzh.ch
 
 
 ## <a name="alt_vis"></a> [alt.VIS 2022](https://altvis.github.io/)
