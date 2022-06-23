@@ -114,12 +114,14 @@ Artificial Intelligence (AI) is advancing biomedical science in many ways, from 
 
 The aim of this workshop is to explore the challenges and opportunities in this highly interdisciplinary research by bringing together researchers from data visualization, biomedical informatics, machine learning, and computational biologists. We hope this workshop can 1) attract more research interest from the VIS community to this newly emerging topic by showcasing successful applications and promising directions for using visualization in biomedical AI studies and 2) demonstrate the importance of design and share good visualization practices to biomedical AI researchers and broaden the impact of visualization research.
 
-## <a name="nl_vis"></a> [NLVIZ Workshop: Exploring Research Opportunities for Natural Language, Text, and Data Visualization]()
+## <a name="nl_vis"></a> [NLVIZ Workshop: Exploring Research Opportunities for Natural Language, Text, and Data Visualization](https://nlvizworkshop2022.com/)
 
 Vidya Setlur, *Tableau Research* <br>
 Arjun Srinivasan, *Tableau Research* <br>
 
 Contact: vsetlur@tableau.com
+
+Natural language processing (NLP) has evolved as a promising field for helping users in their exploration and interaction with data for visual analysis tasks. The applications of NLP for supporting various aspects of the visual analysis workflow include: employing text processing methods for data preparation, supporting interaction modalities to help people naturally “ask” questions of their data, and generating captions and textual summaries to help readers take away key information from the chart or dashboard, among others. As the field of NLP matures, computers now have an increased capability of interpreting natural language and engaging in conversations with people. But, can NLP techniques and interactive visualizations work in concert to support an analytical conversation? If so, how? How can the increasing number of domain-specific corpora and their semantics be better utilized for supporting smarter data transformations and visualization defaults? How can we develop models to effectively summarize visualizations and highlight key data findings? Can text and charts be interactively linked to support interpretation and data-driven communication? Addressing these questions calls for research at the intersection of human-computer interaction, information visualization, and NLP, three fields with natural connections (pun intended) but rather infrequent meetings. 
 
 
 ## <a name="viscomm"></a> [Fifth Workshop on Visualization for Communication (VisComm)](https://viscomm.io/)
@@ -136,7 +138,7 @@ While the visualization field consists of researchers exploring how people perce
 The VisComm workshop brings together practitioners and researchers from a broad range of disciplines to address questions raised by the new and evolving role of data visualization in our everyday lives. We encourage participation from journalists, designers, practitioners, health communicators, and others who do not typically attend IEEE VIS.
 
 
-## <a name="viz_climate"></a> [Viz4Climate - Workshop on High-Impact Techniques for Visual Climate Science Communication]()
+## <a name="viz_climate"></a> [Viz4Climate - Workshop on High-Impact Techniques for Visual Climate Science Communication](https://svs.gsfc.nasa.gov/viz4climate)
 
 Helen-Nicole Kostis, *Scientific Visualization Studio, NASA Goddard Space Flight Center* <br>
 Dr. Mark SubbaRao, *Scientific Visualization Studio, NASA Goddard Space Flight Center* <br>
@@ -147,7 +149,7 @@ Contact: viz4climate@gmail.com
 Communicating climate science to the general public is necessary to enhance salience, understanding, and engagement and to accelerate action. Visualizations of climate data offer an integral way of communicating climate change findings to diverse audiences; however it is challenging due to the multi-dimensionality of data, the complexity of science, the diversity of users, their biases, and needs across different stakeholder groups. While graphics support thinking and enhance storytelling, creating data visualizations of climate data that can overcome comprehension difficulties, avoid misconceptions, preserve scientific integrity, and instill trust remains a challenge. This half-day workshop aims to establish a community of practice around data-driven visual climate science communication and in so doing address one of the grand challenges in our era. The workshop seeks to define what ‘high impact’ means in the domain of climate science communication, and to unpack the techniques, methods, and challenges for achieving it. The mission is to pull expertise from within IEEE Vis, bridge the gap between research and practice, and others who typically do not attend the conference, share lessons learned, identify directions for research, foster collaborations, and understand where and what we should do better as a community of practice.
 
 
-## <a name="trex"></a> [TREX: Workshop on TRust and EXpertise in Visualization]()
+## <a name="trex"></a> [TREX: Workshop on TRust and EXpertise in Visualization](https://trexvis.github.io/Workshop2022/)
 
 Mahsan Nourani, *University of Florida, Gainesville* <br>
 Eric Ragan, *University of Florida, Gainesville* <br>
