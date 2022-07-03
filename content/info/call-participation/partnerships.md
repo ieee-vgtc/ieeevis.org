@@ -24,11 +24,9 @@ Since 2019, authors of selected papers from the ACM SIGGRAPH Transactions on Gra
 
 These talks are collected in one SIGGRAPH-focused session.
 
-{% comment %}
 ## IEEE VR Partnership
 Starting in 2022, authors of selected papers from IEEE VR, the IEEE Conference on Virtual Reality + 3D User Interfaces, will be invited to give an oral presentation about their work at VIS.  The goal of this partnership is to further cross-pollinate the VIS and VR communities, by inviting VR papers that have a visualization focus to present.  Invitations are issued through IEEE VGTC's vice chair for conferences (currently, Jian Chen).
 
 Like with SIGGRAPH, these talks are collected in one VR-focused session.
-{% endcomment %}
 
 Email: [program(at)ieeevis.org](mailto:program@ieeevis.org)
