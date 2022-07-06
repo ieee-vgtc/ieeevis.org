@@ -157,11 +157,11 @@ For questions regarding paper submissions, please contact the Publication Chairs
 <table>
   <tr>
     <th>Category</th>
-    <th>Early Reg fee USD (Ends Sept. 2)</th>
-    <th>Late Reg fee USD (Ends Sept. 16)</th>
+    <th>Early Reg fee USD (Ends Sept. 16)</th>
+    <th>Late Reg fee USD</th>
   </tr>
 <tr>
-    <td>Virtual author registration</td>
+    <td>On-site or Virtual author registration</td>
     <td>$760</td>
     <td>$925</td>
 </tr>
