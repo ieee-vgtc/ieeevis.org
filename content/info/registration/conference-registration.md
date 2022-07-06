@@ -23,6 +23,7 @@ The 2022 IEEE Visualization and Visual Analytics Conference running from October
 <li>Each Author Registration is valid for <b>ONE</b> paper.</li>
 <li>The author registration deadline is September 16, 2022.</li>
 </ul>
+
 For questions regarding paper submissions, please contact the Publication Chairs at <a href="mailto:publications@ieeevis.org">publications@ieeevis.org</a>.
 
 ## NOTE ABOUT DIVERSITY AND INCLUSIVITY VIRTUAL PARTICIPANTS
@@ -125,28 +126,28 @@ For questions regarding paper submissions, please contact the Publication Chairs
   </tr>
 <tr>
     <td>Virtual IEEE/ACM Member</td>
-    <td>$760</td>
-    <td>$925</td>
+    <td>$250</td>
+    <td>$310</td>
 </tr>
 <tr>
     <td>Virtual Non-Member</td>
-    <td>$950</td>
-    <td>$1150</td>
+    <td>$350</td>
+    <td>$380</td>
 </tr>
 <tr>
     <td>Virtual Student IEEE/ACM Member</td>
-    <td>$410</td>
-    <td>$500</td>
+    <td>$135</td>
+    <td>$165</td>
 </tr>
 <tr>
     <td>Virtual Student Non-Member</td>
-    <td>$510</td>
-    <td>$625</td>
+    <td>$170</td>
+    <td>$210</td>
 </tr>
 <tr>
     <td>Virtual Life IEEE/ACM Member</td>
-    <td>$410</td>
-    <td>$500</td>
+    <td>$135</td>
+    <td>$165</td>
 </tr>
 </table>
 **Registration fees are refundable up to 30 days before the beginning of the conference.**
@@ -161,7 +162,7 @@ For questions regarding paper submissions, please contact the Publication Chairs
   </tr>
 <tr>
     <td>Virtual author registration</td>
-    <td>$670</td>
+    <td>$760</td>
     <td>$925</td>
 </tr>
 </table>
