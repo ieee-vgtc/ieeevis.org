@@ -19,7 +19,7 @@ The 2022 IEEE Visualization and Visual Analytics Conference running from October
 ## NOTE FOR AUTHORS
 <ul>
 <li>One author for each paper (full paper, short paper, or associated event paper published in IEEE Xplore) <b>MUST</b> register under the author registration type. This is true regardless of in-person or virtual presentation format.</li>
-<li>The author registering for the paper does not need to be the same as the paper presenter. 
+<li>The author registering for the paper does not need to be the same as the paper presenter. </li>
 <li>Each Author Registration is valid for <b>ONE</b> paper.</li>
 <li>The author registration deadline is September 16, 2022.</li>
 </ul>
