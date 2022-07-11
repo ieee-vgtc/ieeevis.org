@@ -8,7 +8,7 @@ permalink: info/week-at-a-glance
 
 Below is a *preliminary* schedule for Saturday-Monday of the conference, we will announce the Tuesday-Friday schedule soon.  Additional details for the events are available on their webpages, and more detailed information will be available soon on the virtual VIS website.
 
-Note that room/track assignments are not final; we currently only provide a list of the time slots below. 
+Note that room/track assignments are not final, and thus the columns in the table below do not represent the final tracks.  We currently have only released the list of the time slots (organized as rows). 
 
 <img src="/year/2022/assets/sat-mon.png" alt="Saturday-Monday Schedule">
 
