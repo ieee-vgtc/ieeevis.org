@@ -50,5 +50,6 @@ Student submissions will be reviewed by the DC Chairs and selections will be mad
 Karen Schloss, *University of Wisconsin-Madison*  
 Kate Isaacs, *University of Arizona*  
 Maxime Cordeil, *The University of Queensland*  
+Nan Cao, *Tongji University*
 
 Contact VIS DC co-chairs: [doctoral_coll@ieeevis.org](mailto:doctoral_coll@ieeevis.org)
