@@ -1,5 +1,5 @@
 ---
-title: IEEE VIS 2021 Inclusivity & Diversity Scholarship
+title: IEEE VIS 2022 Inclusivity & Diversity Scholarship
 layout: page
 active_nav: "Attend"
 permalink: /info/inclusion-and-diversity/diversity-scholarship
@@ -15,19 +15,17 @@ The VIS 2021 Inclusivity & Diversity Scholarship Committee will review applicati
 * Complimentary conference registration.
 * Based on need, fund will be provided for recipients that might not otherwise be able to attend the conference. Funds can be used to help support registration cost, WiFi hotspot expenses, and childcare. Recipients will need to keep original expense receipts and evidence of payment up to the subscribed limits for reimbursement once the conference is over. 
 * An assigned a mentor to guide receipients through the conference experience. 
-* A social event including the recipients and mentors to be held during VIS 2020.
 
 ### Application and Timeline:
 
-* [Application form](https://forms.gle/NHDVMBHLJ9rgpP8Z6)
-* Deadline: August 31, 2021
-* Notifications Sent: September 15, 2021
+* [Application form](https://forms.gle/VF7YZfEcN4Couz8W9) 
+* Deadline: August 14, 2022
+* Notifications Sent: Augest 26, 2022
 
 ### Inclusivity & Diversity Scholarship Chairs
 
-* Alvitta Ottley (Washington University in St. Louis)
 * Lace Padilla (University of California, Merced)
-
+* Vetria byrd (Purdue University)
 
 ### Contact
 

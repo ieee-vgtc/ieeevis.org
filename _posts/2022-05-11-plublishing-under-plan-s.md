@@ -3,9 +3,9 @@ title: Publishing papers covered under Plan-S
 description: Publishing papers covered under Plan-S 
 layout: blog-page
 active_nav: Blog
-authors: The VIS Executive Committee
-corresponding: Cody Dunne
-author_contact: vec@ieeevis.org
+authors: The VIS Open Practices Committee
+corresponding: Lonni Besançon, Cody Dunne
+author_contact: open_practices@ieeevis.org
 permalink: /blog/plublishing-under-plan-s
 ---
 
@@ -39,4 +39,3 @@ All IEEE VIS authors have the right to post a preprint of their submitted or acc
 Please let us know when you submit your camera-ready paper whether you believe that your paper is covered under Plan-S. There will be a field on PCS where you can note this and provide details about your funding agency. We will follow up with you individually with options and next steps to ensure your publication can appear in VIS.
 
 As VIS papers may end up published under different venues on IEEE Xplore (e.g., TVCG, OJCS, Proc. VIS) we are exploring the option of creating a VIS Anthology website that curates a list of all accepted VIS manuscripts.
-

@@ -30,3 +30,7 @@ The submission deadline is a hard deadline. We do not give extensions because we
 *What makes for a good poster?*
 
 The key content of the poster should convey a good overview of the presented topic. The poster may also have more dense text, graphics, or videos, suitable for viewers who are interested in the details of the work. Consider also that the material on the poster should be useful for you to illustrate important aspects of your work when discussing it individually with attendees during your session. This may involve text, but may focus predominantly on (interactive) visualization - it is IEEE VIS after all! Don't forget to include your name, affiliation, and contact information on the poster. At the respective poster session, you should have your contact details or a link to a virtual leaflet ready to give it to interested people.
+
+*Are additional pages allowed for references beyond a poster's two-page summary?*
+
+No.  The length for a poster's two-page summary is two pages, inclusize of references.

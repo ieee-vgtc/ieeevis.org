@@ -39,9 +39,9 @@ Feel free to contact us at application_spotlights@ieeevis.org if you have any qu
 
 | Date | Activity |
 |------|----------|
-| May 6, 2022 | Proposal Submission |
-| May 15, 2022 | Notification |
-| May 31, 2022 | Final Submissions due |
+| ~~May 6, 2022~~ **extended**: June 15, 2022 | Proposal Submission |
+| ~~May 15, 2022~~ **extended**: June 20, 2022  | Notification |
+| ~~May 31, 2022~~ **extended**: June 30, 2022  | Final Submissions due |
 | t.b.d. | Announcement of Spotlights on ieeevis.org |
 
 All deadlines are at **5:00pm Pacific Time (PDT)**.
