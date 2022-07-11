@@ -31,7 +31,7 @@ After your paper is accepted and during the final stages of the publication proc
 
   
 
-## Is sharing the preprint compatible with IEEE’s publication policy?
+## Is sharing the preprint compatible with IEEE's publication policy?
 
 Yes! Until you sign the IEEE copyright policy, the paper is 100% yours, and you can post your preprint anywhere you like. After you sign the copyright form, IEEE explicitly allows you to keep the article on a non-profit open access repository. This quote comes from the [IEEE author FAQ](https://www.ieee.org/content/dam/ieee-org/ieee/web/org/pubs/author_faq.pdf):
 
@@ -52,9 +52,9 @@ In other words, you may post your paper to a preprint server, but after acceptan
 ## Where can I share the paper?
 You are encouraged to share your paper on a repository that meets the Open Access Repository criteria that is also in line with IEEE's publication policies. 
 
-IEEE's current publication policies allow authors to submit preprints only to IEEE approved third-party repositories or institutional repositories. Currently, the only IEEE approved third-party repository is [arXiv.org](http://arxiv.org). We are working with IEEE to expand the list of approved repositories in the future.
+[IEEE's current publication policies](https://www.ieee.org/publications/rights/third-party-servers.html) allow authors to submit preprints only to IEEE approved third-party repositories or institutional repositories. Currently, the only IEEE approved third-party repository is [arXiv.org](http://arxiv.org). We are working with IEEE to expand the list of approved repositories in the future.
 
-To sum up, you are encouraged to share your paper either on [arXiv.org](http://arxiv.org)  or on your institutional repository as long as it meets the Open Access Repository criteria outlined above.
+To sum up, you are encouraged to share your paper either on [arXiv.org](http://arxiv.org) or on your institutional repository as long as it meets the Open Access Repository criteria outlined above.
 
 ## Which version of the paper can I share?
 Share the final preprint version of your accepted article that you create after all rounds of review because it is the most scrutinized and polished. Please do not share the version created by IEEE, which typically has page numbers. If you are using `LaTeX` to produce your paper, indicating the `preprint` option on your main `TeX` file will ensure that you produce a version that is compliant with IEEE's regulations. For submitting to arXiv, you can follow the guidance [here](open-practices-arxiv).
