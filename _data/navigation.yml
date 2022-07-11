@@ -20,7 +20,7 @@
 #                     is_external
 
 registration:
-  display: false
+  display: true
   text: "Register"
   url: "/year/2022/info/registration/conference-registration"
 
@@ -31,21 +31,20 @@ blog:
 
 menu:
   - dropdown: "Attend"
-    display: false
+    display: true
     sections:
       - subsections:
           - heading: "Attending VIS 2021"
-            heading_url: "https://virtual.ieeevis.org/"
-            description: "Join the conference online on our virtual site!"
+          #  heading_url: "https://virtual.ieeevis.org/"
+          #  description: "Join the conference online on our virtual site!"
             columns:
-              - heading: "Attend"
-                links:
-                  - text: "Registration"
-                    url: "/year/2022/info/registration/conference-registration"
-                  - text: "Satellite Sites"
-                    url: "/year/2022/info/satellite"
-                    # - text: "Conference Venue"
-                    #   url: "#"
+            - heading: "Attend"
+              links:
+                - text: "Registration"
+                  url: "/year/2022/info/registration/conference-registration"
+                  is_new: true
+                # - text: "Satellite Sites"
+                #   url: "/year/2022/info/satellite"
                 #    - text: "Practitioner Guide"
                 #      url: "https://visinpractice.github.io/guide.html"
                 #      is_external: true
@@ -55,19 +54,20 @@ menu:
                 #   url: "/year/2022/info/media-requests"
                 #   is_new: true
                 # - text: "Coronavirus Information"
-                #   url: "/year/2022/info/coronavirus-info"
-                #- heading: "Travel"
-                #  links:
+                #   url: ""
+            - heading: "Travel"
+              links:
                 #    - text: "Accommodation"
                 #      url: "/year/2022/info/registration/hotel-information"
-                #    - text: "Visa & Travel"
-                #      url: "/year/2022/info/registration/travel-visas"
+                - text: "Visa & Travel"
+                  url: "/year/2022/info/registration/travel-visas"
+                  is_new: true
                 # - text: "Things to do in City"
                 #   url: "https://www.google.com"
                 #   is_new: true
 
-            # - heading: "Code of Conduct"
-            #   heading_url: "/year/2022/info/inclusion-and-diversity/code-of-conduct"
+          - heading: "Code of Conduct"
+            heading_url: "/year/2022/info/inclusion-and-diversity/code-of-conduct"
 
       - subsections:
           - heading: "Equality, Inclusion & Diversity"
@@ -158,8 +158,8 @@ menu:
                     description: "Volunteer to review submissions"
                     url: "https://new.precisionconference.com/review_volunteering"
                     is_external: true
-#                   - text: "Code of Conduct"
-#                     url: "/year/2022/info/inclusion-and-diversity/code-of-conduct"
+                  - text: "Code of Conduct"
+                    url: "/year/2022/info/inclusion-and-diversity/code-of-conduct"
                   - text: "Elections"
                     description: "Register to vote and nominate/review candidates for the VSC/VEC"
                     url: "/year/2022/info/elections"
