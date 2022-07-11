@@ -17,7 +17,7 @@ These workshops were pre-approved by the VIS Executive Committee. Please visit t
 ## Accepted Workshops
 These workshops went through our [submission/review process](http://ieeevis.org/year/2022/info/call-participation/workshops). Please visit their individual websites for details on the topics and submission deadlines, or contact the organizers directly if no website is available yet. 
 
-* [VisGuides: 4th IEEE Workshop on Visualization Guidelines Visualization Guidelines in Research, Design, and Education](#vis_guidelines)
+* [VisGuides: 4th IEEE Workshop on Visualization Guidelines in Research, Design, and Education](#vis_guidelines)
 * [alt.VIS 2022](#alt_vis)
 * [Visualization in BioMedical AI](#biomedical_ai)
 * [NLVIZ Workshop: Exploring Research Opportunities for Natural Language, Text, and Data Visualization](#nl_vis)
@@ -71,7 +71,7 @@ The goal of this workshop is to initiate a call for "explainables" / "explorable
 
 
 
-## <a name="vis_guidelines"></a> [VisGuides: 4th IEEE Workshop on Visualization Guidelines Visualization Guidelines in Research, Design, and Education](https://visguides-workshop.github.io/)
+## <a name="vis_guidelines"></a> [VisGuides: 4th IEEE Workshop on Visualization Guidelines in Research, Design, and Education](https://visguides-workshop.github.io/)
 
 Benjamin Bach, *The School of Informatics, University of Edinburgh* <br>
 Alfie Abdul-Rahman, *Department of Informatics, King's College London* <br>
