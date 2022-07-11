@@ -20,7 +20,7 @@
 #                     is_external
 
 registration:
-  display: true
+  display: false
   text: "Register"
   url: "/year/2022/info/registration/conference-registration"
 
@@ -31,7 +31,7 @@ blog:
 
 menu:
   - dropdown: "Attend"
-    display: true
+    display: false
     sections:
       - subsections:
           - heading: "Attending VIS 2021"
@@ -172,7 +172,7 @@ menu:
             description: "Your support makes this conference possible!"
 
   - dropdown: "Program"
-    display: true
+    display: false
     sections:
       - subsections:
           - heading: "Vis Program"
