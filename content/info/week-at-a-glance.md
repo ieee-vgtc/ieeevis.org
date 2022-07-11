@@ -14,11 +14,11 @@ Note that room/track assignments are not final, and thus the columns in the tabl
 
 <hr/>
 
-<a>**Saturday, October 16**</a><br/>
+<a>**Saturday, October 15, 2022**</a><br/>
 
-*9:00 AM-5:00 PM CDT (UTC-5)*<br/>
+*2:00 PM-3:15 PM CDT (UTC-5)*<br/>
 
-* **Doctoral Colloquium** (Invite Only)<br/>
+* **Doctoral Colloquium** (Associated Event)<br/>
 Organizers: Karen Schloss, Kate Isaacs, Maxime Cordeil, Nan Cao
 
 <hr/>
@@ -28,24 +28,24 @@ Organizers: Karen Schloss, Kate Isaacs, Maxime Cordeil, Nan Cao
 *9:00 AM-5:00 PM CDT (UTC-5)*<br/>
 
 * **LDAV: 12th IEEE Symposium on Large Data Analysis and Visualization** (Associated Event)<br/>
-Organizers: Chaoli Wang, Kristi Potter, Peer-Timo Bremer
+Organizers: Chaoli Wang, Peer-Timo Bremer, Kristi Potter
 
 * **VIS4DH: 7th Workshop on Visualization for the Digital Humanities** (Associated Event)<br/>
-Organizers: Alfie Abdul-Rahman, Chris Weaver, Houda Lamqaddam
+Organizers: Alfie Abdul-Rahman, Houda Lamqaddam, Chris Weaver
 
 *9:00 AM-12:00 PM CDT (UTC-5)*<br/>
 
 * **VDS: Visualization in Data Science Symposium** (Associated Event)<br/>
-Organizers: Alvitta Ottley, Anamaria Crisan, Liang Gou
+Organizers: Liang Gou, Alvitta Ottley, Anamaria Crisan
 
 * **VAST Challenge** (Associated Event)<br/>
 Organizers: Kristin Cook, R. Jordan Crouser
 
 * **alt.VIS 2022** (Workshop)<br/>
-Organizers: Andrew McNutt, Arnaud Prouzeau, Charles Perin, Derya Akbaba, Jane Adams, Lonni Besançon
+Organizers: Lonni Besançon, Andrew McNutt, Arnaud Prouzeau, Jane Adams, Derya Akbaba, Charles Perin
 
 * **TREX: Workshop on TRust and EXpertise in Visualization** (Workshop)<br/>
-Organizers: Alireza Karduni, Brittany Davis Pierson, Cindy Xiong, Eric Ragan, Mahsan Nourani
+Organizers: Mahsan Nourani, Eric Ragan, Alireza Karduni, Cindy Xiong, Brittany Davis Pierson
 
 * **Color Scheming in Visualization** (Tutorial)<br/>
 Organizers: Theresa-Marie Rhyne
@@ -56,16 +56,16 @@ Organizers: Enamul Hoque, Shafiq Joty
 *2:00 PM-5:00 PM CDT (UTC-5)*<br/>
 
 * **Bio+MedVis Challenges** (Associated Event)<br/>
-Organizers: Daniel Jönsson, Renata Raidou, Thomas Höllt, Zeynep Gumus
+Organizers: Thomas Höllt, Zeynep Gumus, Daniel Jönsson, Renata Raidou
 
 * **Visualization for Social Good 2022** (Workshop)<br/>
-Organizers: Emily Wall, Lane Harrison, Leilani Battle, Michelle Borkin, Narges Mahyar
+Organizers: Leilani Battle, Michelle Borkin, Lane Harrison, Narges Mahyar, Emily Wall
 
 * **NLVIZ Workshop: Exploring Research Opportunities for Natural Language, Text, and Data Visualization** (Workshop)<br/>
-Organizers: Arjun Srinivasan, Vidya Setlur
+Organizers: Vidya Setlur, Arjun Srinivasan
 
 * **Multilayer Network Visualization: Theory and applications** (Tutorial)<br/>
-Organizers: Narinder Singh Punn, Sanjay Kumar Sonbhadra, Sonali Agarwal
+Organizers: Sonali Agarwal, Sanjay Kumar Sonbhadra, Narinder Singh Punn
 
 * **Visualization Analysis and Design** (Tutorial)<br/>
 Organizers: Tamara Munzner
@@ -80,27 +80,27 @@ Organizers: Romain Vuillemot
 *9:00 AM-5:00 PM CDT (UTC-5)*<br/>
 
 * **BELIV: 9th Workshop on evaluation and BEyond - methodoLogIcal approaches for Visualization** (Associated Event)<br/>
-Organizers: Anastasia Bezerianos, Kyle Hall, Matthew Kay, Miriah Meyer, Samuel Huron
+Organizers: Anastasia Bezerianos, Kyle Hall, Samuel Huron, Matthew Kay, Miriah Meyer
 
 * **VisInPractice** (Associated Event)<br/>
-Organizers: Anamaria Crisan, Chris Weaver, Sudhanshu Kumar Semwal, Zhicheng (Leo) Liu
+Organizers: Anamaria Crisan, Zhicheng (Leo) Liu, Sudhanshu Kumar Semwal, Chris Weaver
 
 *9:00 AM-12:00 PM CDT (UTC-5)*<br/>
 
 * **Workshop on Visualization in BioMedical AI** (Workshop)<br/>
-Organizers: Bum Chul Kwon, Nils Gehlenborg, Qianwen Wang, Vicky Yao
+Organizers: Qianwen Wang, Vicky Yao, Bum Chul Kwon, Nils Gehlenborg
 
 * **TestVis: Workshop on Visualization in Testing of Hardware, Software, and Manufacturing** (Workshop)<br/>
-Organizers: Daniel Weiskopf, Katherine Isaacs, Stefan Wagner, Steffen Koch, Timo Ropinski
+Organizers: Katherine Isaacs, Steffen Koch, Timo Ropinski, Stefan Wagner, Daniel Weiskopf
 
 * **VisComm: Fifth Workshop on Visualization for Communication** (Workshop)<br/>
-Organizers: Alice Feng, Alvitta Ottley, Barbara Millet, Jonathan Schwabish
+Organizers: Barbara Millet, Jonathan Schwabish, Alvitta Ottley, Alice Feng
 
 * **Topological Analysis of Ensemble Scalar Data with TTK, A Sequel** (Tutorial)<br/>
-Organizers: Bei Wang, Charles Gueunet, Christoph Garth, Federico Iuricich, Florian Wetzels, Jonas Lukasczyk, Joshua Levine, Jules Vidal, Julien Tierny, Mathieu Pont, Pierre Guillou
+Organizers: Christoph Garth, Charles Gueunet, Pierre Guillou, Federico Iuricich, Joshua Levine, Jonas Lukasczyk, Mathieu Pont, Julien Tierny, Jules Vidal, Bei Wang, Florian Wetzels
 
 * **Riemannian Geometry for Scientific Visualization** (Tutorial)<br/>
-Organizers: Markus Hadwiger, Peter Rautek, Thomas Theussl
+Organizers: Markus Hadwiger, Thomas Theussl, Peter Rautek
 
 * **Visualization in Bayesian workflow** (Tutorial)<br/>
 Organizers: Clinton Brownley
@@ -111,10 +111,10 @@ Organizers: Clinton Brownley
 Organizers: Adam Perer, Angie Boggust, Fred Hohman, Hendrik Strobelt, Mennatallah El-Assady, Zijie Jay Wang
 
 * **VisGuides: 4th IEEE Workshop on Visualization Guidelines in Research, Design, and Education** (Workshop)<br/>
-Organizers: Alexandra Diehl, Alfie Abdul-Rahman, Benjamin Bach
+Organizers: Benjamin Bach, Alfie Abdul-Rahman, Alexandra Diehl
 
 * **TopoInVis: Workshop on Topological Data Analysis and Visualization** (Workshop)<br/>
-Organizers: Julien Tierny, Paul Rosen, Talha Bin Masood, Vijay Natarajan
+Organizers: Talha Bin Masood, Vijay Natarajan, Paul Rosen, Julien Tierny
 
 * **Viz4Climate: Workshop on High Impact Techniques for Visual Climate Science Communication** (Workshop)<br/>
 Organizers: Helen-Nicole Kostis, Mark SubbaRao, Marlen Promann
@@ -123,7 +123,7 @@ Organizers: Helen-Nicole Kostis, Mark SubbaRao, Marlen Promann
 Organizers: Shan He
 
 * **VTK-m – A ToolKit for Scientific Visualization on Many-Core Processors** (Tutorial)<br/>
-Organizers: David Pugmire, Kenneth Moreland, Mark Bolstad, Silvio Rizzi, Tushar Athawale
+Organizers: Tushar Athawale, Kenneth Moreland, David Pugmire, Silvio Rizzi, Mark Bolstad
 
 
 <hr/>
