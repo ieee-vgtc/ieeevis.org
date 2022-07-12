@@ -16,7 +16,7 @@ Note that room/track assignments are not final, and thus the columns in the tabl
 
 <a>**Saturday, October 15, 2022**</a><br/>
 
-*2:00 PM-3:15 PM CDT (UTC-5)*<br/>
+*9:00 AM-5:00 PM CDT (UTC-5)*<br/>
 
 * **Doctoral Colloquium** (Associated Event)<br/>
 Organizers: Karen Schloss, Kate Isaacs, Maxime Cordeil, Nan Cao
