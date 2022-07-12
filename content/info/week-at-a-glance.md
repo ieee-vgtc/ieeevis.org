@@ -10,7 +10,18 @@ Below is a *preliminary* schedule for Saturday-Monday of the conference, we will
 
 Note that room/track assignments are not final, and thus the columns in the table below do not represent the final tracks.  We currently have only released the list of the time slots (organized as rows). 
 
-<img src="/year/2022/assets/sat-mon.png" alt="Saturday-Monday Schedule">
+<div style="position: relative;">
+<a href="/year/2022/assets/sat-mon.png">
+  <img src="/year/2022/assets/sat-mon.png" style="position: relative; left: 25px; width: calc(100% - 25px)" alt="Saturday-Monday Schedule">
+</a>
+<p style="position: absolute; top: 10px; left: 20px; transform-origin: 0 0; transform: rotate(90deg);">Sat.</p>
+<p style="position: absolute; top: 21%; left: 20px; transform-origin: 0 0; transform: rotate(90deg);">Sunday</p>
+<p style="position: absolute; top: 66%; left: 20px; transform-origin: 0 0; transform: rotate(90deg);">Monday</p>
+
+<p style="position: absolute; top: calc(100% + 7px); left: 9%;">Associated Events</p>
+<p style="position: absolute; top: calc(100% + 7px); left: 44%;">Workshops</p>
+<p style="position: absolute; top: calc(100% + 7px); left: 76%;">Tutorials</p>
+</div>
 
 <hr/>
 
