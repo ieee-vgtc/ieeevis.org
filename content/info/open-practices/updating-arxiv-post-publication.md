@@ -6,10 +6,11 @@ active_nav: "Contribute"
 contact: open_practices@ieeevis.org
 ---
 
-## Updating the arXiv record post publication 
+## Updating the arXiv record post publication
+
 Once your paper is processed for publication by IEEE (post final acceptance) and after you receive the DOI, you must post an IEEE copyright notice on your preprint. According to IEEE author FAQ, you can replace the preprint with either: 1) the full citation to the IEEE work with Digital Object Identifiers (DOI) or a link to the paper’s abstract in IEEE Xplore, or 2) the accepted version only (not the IEEE published version), including the IEEE copyright notice and full citation, with a link to the final, published paper in IEEE Xplore.
 
-After you follow the guidance on the [Open Access Preprint Guide and FAQ](open-practices-faq) under the "**Which version of the paper can I share?**" question and produced a pdf with a DOI link and copyright statement on it, you will also need to revise the version on arXiv. 
+After you follow the guidance on the [Open Access Preprint Guide and FAQ](open-practices-faq#which-version-of-the-paper-can-i-share) under the "**Which version of the paper can I share?**" heading and produced a pdf with a DOI link and copyright statement on it, you will also need to revise the version on arXiv.
 
 When revising the article on arXiv, you can follow the following steps:
 
@@ -17,7 +18,7 @@ When revising the article on arXiv, you can follow the following steps:
 * Under the "Actions" menu, click the "Replace" icon.
 * Once you are on the "Add Files" tab, select the "Bring files forward from previous version" to replace the `TeX` files. However, if you originally were able to submit a pdf directly, you can upload the pdf directly at this stage.
 
-![]({{ 'content/info/open-practices/arxiv_guide_6.png' | relative_url }}) 
+![]({{ 'content/info/open-practices/arxiv_guide_6.png' | relative_url }})
 
 * [If you are uploading `TeX` files] Replace any files you have changed since the last version.
 * Once arXiv processed your pdf, and you are on the "Metadata" tab. arXiv has [guidance here](https://arxiv.org/help/prep) to support you in entering information here. For VIS papers, make sure to include the following information on this tab:
