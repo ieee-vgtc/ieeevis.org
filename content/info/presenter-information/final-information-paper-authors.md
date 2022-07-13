@@ -50,6 +50,11 @@ For presenters who are attending virtually, these presentations should comply wi
 **DEADLINE: September 8.** As described in the [talk recording guide](/year/2022/info/presenter-information/talk-recording-guide), it is also **mandatory** for authors to submit a representative image with caption for use on the virtual website.
 
 
+### 6. Copyright Release
+
+**DEADLINE: September 8.** For papers that will be published in IEEE TVCG or on IEEE Xplore, authors are asked to complete a copyright release form.  This will be handled via IEEE's Conference Publishing Services (IEEE CPS) via a link provided to you via email.
+
+
 
 ## Common Editing Mistakes and Notes from TVCG
 
