@@ -9,7 +9,18 @@ contact: open_practices@ieeevis.org
 
 Visualization research is better communicated and acted on if it is freely accessible to the research community, practitioners, and the general public. This accessibility can be improved if authors post the final version of their accepted paper to a reliable open access repository. VIS can facilitate an increase in sharing of papers by informing authors of this option, establishing guidelines for which repositories are freely accessible and reliable, helping authors use those repositories, and dispelling misconceptions.
 
-## Open Access Repository Criteria
+This page provides answers to the following common questions authors have about open access preprints:
+
+* [What are the criteria for an open access repository?](#what-are-the-criteria-for-an-open-access-repository)
+* [Sharing the preprint with VIS in the Author Submission Portal](#sharing-the-preprint-with-vis-in-the-author-submission-portal)
+* [Is sharing the preprint compatible with IEEE's publication policy?](#is-sharing-the-preprint-compatible-with-ieees-publication-policy)
+* [Where can I share the paper?](#where-can-i-share-the-paper)
+* [Which version of the paper can I share?](#which-version-of-the-paper-can-i-share)
+* [Can I put my paper on my personal/institutional webpage?](#can-i-put-my-paper-on-my-personalinstitutional-webpage)
+* [What about Plan S?](#what-about-plan-s)
+* [What if I have questions, comments, concerns?](#what-if-i-have-questions-comments-concerns)
+
+## What are the criteria for an open access repository?
 
 In order to ensure that papers are discoverable and remain accessible long-term, authors are encouraged to post their work to an open access repository that meets the following criteria:
 
@@ -19,13 +30,13 @@ In order to ensure that papers are discoverable and remain accessible long-term,
 
 3. Identifiable—For citations and references to be useful, papers must have a globally unique and persistent identifier (e.g., a DOI). Content posted to the repository must also be immutable and timestamped. Multiple versions of a paper are acceptable, as long as previous versions and timestamps are retained.
 
-4. Reliable—Research should represent a permanent advancement of knowledge and understanding, so it is important that posted papers are available for perpetuity. The archive must therefore have an explicitly stated plan for long-term reliability ([example](https://help.osf.io/hc/en-us/articles/360019737894-FAQs#what-if-you-run-out-of-funding-what-happens-to-my-data)), or it must deposit all papers in a dedicated “dark archive” such as [Portico](https://www.portico.org/) or [Clockss](https://clockss.org/).
+4. Reliable—Research should represent a permanent advancement of knowledge and understanding, so it is important that posted papers are available for perpetuity. The archive must therefore have an explicitly stated plan for long-term reliability ([example](https://help.osf.io/hc/en-us/articles/360019737894-FAQs#what-if-you-run-out-of-funding-what-happens-to-my-data)), or it must deposit all papers in a dedicated "dark archive" such as [Portico](https://www.portico.org/) or [Clockss](https://clockss.org/).
 
 A repository that meets the criteria for long-term reliability and is inline with IEEE policy is [arXiv.org](http://arxiv.org) ([instructions](open-practices-arxiv)). If you would like to use another repository such as an institutional repository, please email an explanation of how it meets the criteria to open_practices@ieeevis.org. A personal website, lab website, or any site that is not immutable and has no explicit plans for long-term availability (e.g. GitHub) does not meet the criteria.
 
 ## Sharing the preprint with VIS in the Author Submission Portal
 
-After your paper is accepted and during the final stages of the publication process, the Author Submission Portal from IEEE will have a textbox that will ask you for the URL that points to the preprint version of your article in the open access repository if you have shared it. This textbox will be within a form that you will access under the "Presenter and Preprint Submission" section. The paper you are sharing should be the final “author version”. If you have any issues or questions, please contact the open practice chairs. If you cannot share the paper on an approved open access repository, please enter the reason instead of the URL.
+After your paper is accepted and during the final stages of the publication process, the Author Submission Portal from IEEE will have a textbox that will ask you for the URL that points to the preprint version of your article in the open access repository if you have shared it. This textbox will be within a form that you will access under the "Presenter and Preprint Submission" section. The paper you are sharing should be the final "author version". If you have any issues or questions, please contact the open practice chairs. If you cannot share the paper on an approved open access repository, please enter the reason instead of the URL.
 
 ## Is sharing the preprint compatible with IEEE's publication policy?
 
@@ -69,8 +80,8 @@ Share the final preprint version of your accepted article that you create after 
 	- Insert a `\ieeedoi` command with your DOI within the preamble of your main `TeX` file (i.e., anywhere between the `\documentclass` and `\begin{document}` commands), e.g.,`\ieeedoi{10.1109/TVCG.2019.2934609} `
 	- Compile and produce a new pdf file
 
-* If you have produced your pdf using other means, you can get an IEEE-produced copy of your paper for reposting at [https://authorgateway.ieee.org](https://authorgateway.ieee.org). Once logged in, download the “Author-submitted manuscript” PDF which will have the required information included.
- 
+* If you have produced your pdf using other means, you can get an IEEE-produced copy of your paper for reposting at [https://authorgateway.ieee.org](https://authorgateway.ieee.org). Once logged in, download the "Author-submitted manuscript" PDF which will have the required information included.
+
 Make sure that the revised version has: i) the copyright statement on the bottom-left on the first page and ii) a statement with a link to the paper on IEEEXplore on the first page (or on top of odd-numbered pages). Once everything is in place, resubmit the revised preprint to the OA repository to replace the version you submitted earlier. 
 
 If you have uploaded your preprint to arXiv, you can follow the [guidance on this page](open-practices-arxiv) under the "**5.Update arXiv record post publication**" step for revising your record on arXiv.
@@ -84,3 +95,7 @@ You are free to share a preprint of your paper on your personal or institutional
 [Plan-S](https://www.coalition-s.org/) is an upcoming European policy requiring publicly funded research publications to be open access (available for free). However, it only relates to open access of papers via the publisher, not preprints or other open practices such as open materials, open data, or preregistration. It can, however, impact which publisher you choose.
 
 Please see our blog post on [Publishing papers covered under Plan S](../../blog/plublishing-under-plan-s) for details.
+
+## What if I have questions, comments, concerns?
+
+If you have any questions or concerns related to this page or open practices, please contact the Open Practice chairs: open_practices@ieeevis.org.

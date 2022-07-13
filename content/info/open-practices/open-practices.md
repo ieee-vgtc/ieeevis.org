@@ -49,20 +49,53 @@ VIS authors have the right to post the final preprint version of their accepted 
 
 Please review the [Open Access Preprint Guide and FAQ](open-practices-faq), in which we provide:
 
-* [Criteria for which repositories are findable, accessible, identifiable, and reliable.](open-practices-faq#open-access-repository-criteria)
+* [Criteria for which repositories are findable, accessible, identifiable, and reliable.](open-practices-faq#what-are-the-criteria-for-an-open-access-repository)
 * [Instructions for sharing the preprint with VIS using the Author Submission Portal.](open-practices-faq#sharing-the-preprint-with-vis-in-the-author-submission-portal)
 * [A discussion of IEEE's preprint policy](open-practices-faq#is-sharing-the-preprint-compatible-with-ieees-publication-policy) and how it affects [where you can share the paper](open-practices-faq#where-can-i-share-the-paper) and [which version you can share](open-practices-faq#which-version-of-the-paper-can-i-share).
 * [Notice that you can put your paper on a personal or institutional webpage, but that it may not meet Open Access criteria](open-practices-faq#can-i-put-my-paper-on-my-personalinstitutional-webpage).
-* [An explanation of why Plan S does not affect preprints](open-practices-faq#what-about-plan-s)
+* [An explanation of why Plan S does not affect preprints](open-practices-faq#what-about-plan-s).
 
 We also provided [several tutorials you can follow](open-practices-arxiv) on how to post preprints on arXiv.
 
 ## **Recommendation** 2/2—Upload supplemental material to a free, open, and long-term archive
 
+_Note: each of these recommendations on the checklist are just that—recommendations. Following ANY of them, even if you do not follow them all, can improve the long-term value of your research to the community and the health of our field._
+
 **Camera-ready checklist:**
+
+1. Upload all supplemental materials required to reproduce the results in the paper to **both**
+   1. IEEE using the Author Submission Portal.
+   2. A free, reliable, and long-term archive—e.g. [OSF.io](https://osf.io/).
+
+   Examples of what materials we recommend including and how are described in the [supplemental material FAQ](supplemental-material-faq#what-supplemental-material-should-i-share).
+2. Include sufficient documentation so that your work can be easily used or extended by future researchers and practitioners.
+3. Release supplemental materials under a license that permits re-use by future researchers and practitioners—e.g. [Apache License 2.0](https://opensource.org/licenses/Apache-2.0) for code and [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for other materials.
 
 **More details:**
 
+The VIS community needs to take additional steps to help ensure that research presented at VIS is (1) reproducible, (2) replicable, and (3) extensible by future researchers. As such, the Open Practices Committee for IEEE VIS 2022 has provided these recommendations for supplemental materials that should be included with each paper.
+
+To provide some background on this initiative, the [2016 IEEE Workshop on the Future of Research Curation and Research Reproducibility](https://www.ieee.org/content/dam/ieee-org/ieee/web/org/ieee_reproducibility_workshop_report_final.pdf), at which IEEE employees were heavily represented, determined that:
+
+1. encouraging reproducibility and better curation of supplemental materials will lead to faster and more efficient science and 
+2. better curation can lead to faster commercialization and innovation.
+
+The workshop's report recommended that  research communities encourage reproducible content and set standards for it. The report argued:
+
+* Research artifacts should be storable, discoverable, and citable to be reused and so their creation is incentivized.
+* Code must be supplemented by documentation sufficient to run it (e.g,. recreate runtime environments, virtual environments).
+* Data must be supplemented by a description of how it was produced and how to interpret it.
+
+Please see also the [supplemental material FAQ](supplemental-material-faq), in which we answer the following questions:
+
+* [Where should I upload supplemental material?](supplemental-material-faq#where-should-i-upload-supplemental-material)
+* [What supplemental material should I share?](supplemental-material-faq#what-supplemental-material-should-i-share)
+* [What documentation should I include?](supplemental-material-faq#what-documentation-should-i-include)
+* [Should I specify a license for supplemental materials](supplemental-material-faq#should-i-specify-a-license-for-supplemental-materials) and, if so, [what license should I choose?](supplemental-material-faq#what-license-should-i-choose)
+
+
+
+
 ## Questions, comments, concerns?
 
-If you have any questions or concerns related to open practices, please contact the open practice chairs: open_practices@ieeevis.org.
+If you have any questions or concerns related to this page or open practices, please contact the Open Practice chairs: open_practices@ieeevis.org.
