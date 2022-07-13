@@ -24,7 +24,7 @@ The ombuds team for VIS 2022 is:
 - Christopher Collins 
 - Kristi Potter 
 
-You can also approach individual members of the Ombuds team individually (contact information will be avialable at Registration) or in person.
+You can also approach individual members of the Ombuds team individually (contact information will be available at Registration) or in person.
 
 Please contact [inclusivity@ieeevis.org](mailto:inclusivity@ieeevis.org) with any questions about the Code of Conduct and Inclusivity & Diversity at IEEE VIS.
  
