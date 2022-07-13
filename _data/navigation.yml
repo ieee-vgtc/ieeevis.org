@@ -57,8 +57,9 @@ menu:
                 #   url: ""
             - heading: "Travel"
               links:
-                #    - text: "Accommodation"
-                #      url: "/year/2022/info/registration/hotel-information"
+                - text: "Accommodation"
+                  url: "/year/2022/info/registration/hotel-information"
+                  is_new: true
                 - text: "Visa & Travel"
                   url: "/year/2022/info/registration/travel-visas"
                   is_new: true
@@ -133,10 +134,13 @@ menu:
               - links:
                    - text: "Final Information for Paper Authors"
                      url: "/year/2022/info/presenter-information/final-information-paper-authors"
+                     is_new: true
                    - text: "Video Previews"
                      url: "/year/2022/info/presenter-information/fast-forward-and-video-previews"
+                     is_new: true
                    - text: "Recording your Talk"
                      url: "/year/2022/info/presenter-information/talk-recording-guide"
+                     is_new: true
 #                   - text: "Guidance for Virtual Events"
 #                     url: "/year/2022/info/presenter-information/guidance-for-associated-events"
 #                   - text: "Presenting at the Virtual Conference"
