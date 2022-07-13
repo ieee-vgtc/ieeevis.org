@@ -9,27 +9,23 @@ contact: open_practices@ieeevis.org
 
 Visualization research is better communicated and acted on if it is freely accessible to the research community, practitioners, and the general public. This accessibility can be improved if authors post the final version of their accepted paper to a reliable open access repository. VIS can facilitate an increase in sharing of papers by informing authors of this option, establishing guidelines for which repositories are freely accessible and reliable, helping authors use those repositories, and dispelling misconceptions.
 
-
 ## Open Access Repository Criteria
 
 In order to ensure that papers are discoverable and remain accessible long-term, authors are encouraged to post their work to an open access repository that meets the following criteria:
 
-1. Findable - Research is most effectively disseminated if it can be easily searched for, especially when people do not know exactly what they are looking for. This discoverability can be critical for scholars trying to find research from which they can build. Therefore, papers in the archive must be indexed or registered via commonly used search engines. Thorough metadata, such as title, author, and possibly publication information about the peer-reviewed version should also be indexed with the paper.
+1. Findable—Research is most effectively disseminated if it can be easily searched for, especially when people do not know exactly what they are looking for. This discoverability can be critical for scholars trying to find research from which they can build. Therefore, papers in the archive must be indexed or registered via commonly used search engines. Thorough metadata, such as title, author, and possibly publication information about the peer-reviewed version should also be indexed with the paper.
  
-2. Accessible - Research is better communicated and acted on if it is freely accessible to the research community, practitioners, and the general public. Therefore, there can be no cost or sign-up requirement for viewing papers on the archive.
+2. Accessible—Research is better communicated and acted on if it is freely accessible to the research community, practitioners, and the general public. Therefore, there can be no cost or sign-up requirement for viewing papers on the archive.
  
-3. Identifiable - For citations and references to be useful, papers must have a globally unique and persistent identifier (e.g., a DOI). Content posted to the repository must also be immutable and timestamped. Multiple versions of a paper are acceptable, as long as previous versions and timestamps are retained.
+3. Identifiable—For citations and references to be useful, papers must have a globally unique and persistent identifier (e.g., a DOI). Content posted to the repository must also be immutable and timestamped. Multiple versions of a paper are acceptable, as long as previous versions and timestamps are retained.
  
-4. Reliable - Research should represent a permanent advancement of knowledge and understanding, so it is important that posted papers are available for perpetuity. The archive must therefore have an explicitly stated plan for long-term reliability ([example](https://help.osf.io/hc/en-us/articles/360019737894-FAQs#what-if-you-run-out-of-funding-what-happens-to-my-data)), or it must deposit all papers in a dedicated “dark archive” such as [Portico](https://www.portico.org/) or [Clockss](https://clockss.org/).
-
+4. Reliable—Research should represent a permanent advancement of knowledge and understanding, so it is important that posted papers are available for perpetuity. The archive must therefore have an explicitly stated plan for long-term reliability ([example](https://help.osf.io/hc/en-us/articles/360019737894-FAQs#what-if-you-run-out-of-funding-what-happens-to-my-data)), or it must deposit all papers in a dedicated “dark archive” such as [Portico](https://www.portico.org/) or [Clockss](https://clockss.org/).
 
 A repository that meets the criteria for long-term reliability and is inline with IEEE policy is [arXiv.org](http://arxiv.org) ([instructions](open-practices-arxiv)). If you would like to use another repository such as an institutional repository, please email an explanation of how it meets the criteria to open_practices@ieeevis.org. A personal website, lab website, or any site that is not immutable and has no explicit plans for long-term availability (e.g. GitHub) does not meet the criteria.
 
 ## Sharing the Open Version with VIS
 
 After your paper is accepted and during the final stages of the publication process, the Author Submission Portal from IEEE will have a textbox that will ask you for the URL that points to the preprint version of your article in the open access repository if you have shared it. This textbox will be within a form that you will access under the "Presenter and Preprint Submission" section. The paper you are sharing should be the final “author version”. If you have any issues or questions, please contact the open practice chairs. If you cannot share the paper on an approved open access repository, please enter the reason instead of the URL.
-
-  
 
 ## Is sharing the preprint compatible with IEEE's publication policy?
 
@@ -81,9 +77,3 @@ You are free to share a preprint of your paper on your personal or institutional
 
 ## What about Plan-S?
 [Plan-S](https://www.coalition-s.org/) is an upcoming European policy requiring publicly funded research publications to be open access (available for free). However, it only relates to open access of papers via the publisher, not preprints or other open practices such as open materials, open data, or preregistration. It can, however, impact which publisher you choose.
-
-
-
-
-
-
