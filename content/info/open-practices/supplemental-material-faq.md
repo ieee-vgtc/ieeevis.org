@@ -34,7 +34,7 @@ The ideal repository for your supplemental materials is:
 
 4. Immutable—The repository offers immutable versioning to support preregistrations.
 
-5. Reliable—The repository enables permanent advancement of knowledge and understanding by providing the supplemental material in perpetuity. E.g., it has a long-term sustainability plan (e.g. [OSF's](https://help.osf.io/hc/en-us/articles/360019737894-FAQs#what-if-you-run-out-of-funding-what-happens-to-my-data)) and are otherwise resilient to financial or corporate pressures.
+5. Reliable—The repository enables permanent advancement of knowledge and understanding by providing the supplemental material in perpetuity. E.g., it has a long-term sustainability plan (e.g. [OSF's](https://help.osf.io/hc/en-us/articles/360019737894-FAQs#what-if-you-run-out-of-funding-what-happens-to-my-data)) and is otherwise resilient to financial or corporate pressures.
 
 Based on these criteria, and for the sake of simplicity and consistency across VIS submissions, **we recommend that supplemental material be submitted to IEEE and/or to [OSF.io](https://osf.io/)**. Naturally, mirrors on both are even better for the community!
 
@@ -61,7 +61,7 @@ We recommend that authors include enough detail in their documentation so that t
 * A README.md file at the root folder of your supplemental material can explain the file and folder organization.
 * Include sufficient detail for others to understand how the materials relate to what is presented in the paper.
 * Include data dictionaries, codebooks, or metadata describing each  dataset, how it was produced, and how to interpret it.
-* Source code should be supplemented by a README.md file that explains how to set up and run the code, includign instructions for creating runtime or virtual environments.
+* Source code should be supplemented by a README.md file that explains how to set up and run the code, including instructions for creating runtime or virtual environments.
 
 ## Should I specify a license for supplemental materials?
 
