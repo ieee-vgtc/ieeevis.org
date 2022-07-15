@@ -48,7 +48,7 @@ Regardless of if you are attending in person or virtually, one author for each p
 
 For presenters who are attending virtually, these presentations should comply with the talk length requirements, as they will be played during the session.  Please leave room for live Q+A.  For presenters who are attending in person, this talk recording need not follow the exact specifications of the VIS format for length, e.g. it could provide extended information beyond what you will present in person.  We will not play this video during the conference, but it will be hosted on our virtual website.
 
-Videos are required for all presenters (virtual and in-person) to enable a consistent online experience (no missing videos from on-site presenters, backups in case of unforeseen circumstances) and as high-quality archival material. For on-site participants, we also see this as an opportunity to produce high-quality video content that could go beyond the scope of a live talk. 
+Videos are required for all presenters (virtual and in-person) to enable a consistent online experience (no missing videos from on-site presenters, redundancy in case of unforeseen circumstances) and as high-quality archival material. For on-site participants, we also see this as an opportunity to produce high-quality video content that could go beyond the scope of a live talk. 
 
 ### 5. Representative Image
 
