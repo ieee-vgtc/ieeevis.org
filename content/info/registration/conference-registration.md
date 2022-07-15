@@ -45,8 +45,8 @@ The 2022 IEEE Visualization and Visual Analytics Conference running from October
 ## FOR INVITED PARTNERSHIP PRESENTERS
 <ul>
 <li>One presenter for each invited <a href="/year/2022/info/call-participation/partnerships">partnership</a> (TVCG, CG&A, SIGGRAPH, and VR) presentation <b>MUST</b> register under the Invited Paper Presenter Registration type. This is true regardless of in-person or virtual presentation format.</li>
-<li>Each Invited Paper Presenter Registration is valid for <b>ONE</b> invited paper paper.</li>
-<li>The Invited Paper Presenter Registration <b>deadline is September 16, 2022.</b></li>
+<li>Each Invited Presenter Registration is valid for <b>ONE</b> invited presentation.</li>
+<li>The Invited Presenter Registration <b>deadline is September 16, 2022.</b></li>
 </ul>
 
 ### Invited Partnership Presenter Registration Fees
@@ -57,12 +57,12 @@ The 2022 IEEE Visualization and Visual Analytics Conference running from October
     <th>Late Reg fee USD (Ends Sept. 16)</th>
   </tr>
 <tr>
-    <td>Invited Paper Presenter Registration Fee</td>
+    <td>Invited Presenter Registration Fee</td>
     <td>$760</td>
     <td>$925</td>
 </tr>
 <tr>
-    <td>Invited Paper Student Presenter Registration Fee</td>
+    <td>Invited Student Presenter Registration Fee</td>
     <td>$410</td>
     <td>$500</td>
 </tr>
