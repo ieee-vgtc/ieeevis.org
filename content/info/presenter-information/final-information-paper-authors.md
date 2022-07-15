@@ -21,7 +21,10 @@ Please check the second round reviewer comments (if any) and incorporate their s
 
 IMPORTANT: Please make sure the final submission data in PCS is identical to the final PDF (e.g., title, author names and last names, affiliations, author order, email addresses.) You might need to correct the information in your PCS login in order to update the author information. You can do this by logging into your PCS account > my account > Change my contact information. Note that the author list has to be **identical** to the list that you provided for the abstract submission deadline (March 21).
 
-You can submit a supplemental video of your work for inclusion in the digital archive. TVCG requires that supplemental material is also peer-reviewed, hence, this is only allowed if you have already submitted a video and if the reviewers have found it acceptable. Videos are usually up to 5 minutes in length, and you may also include other supplemental material such as additional images or source code. 
+You can submit supplemental material (e.g. a video, appendix) for your work for inclusion in the digital archive. TVCG requires that supplemental material is also peer-reviewed, hence, this is only allowed if you have already submitted your supplemental material and if the reviewers have found it acceptable. Videos are usually up to 5 minutes in length, and you may also include other supplemental material such as additional images, appendices, or source code. 
+
+Please see our [Open Practices page](year/2022/info/open-practices/open-practices) for requirements and recommendations for open practice for VIS 2022.
+
 
 ## Other Required Submission Items
 
@@ -45,6 +48,8 @@ Regardless of if you are attending in person or virtually, one author for each p
 
 For presenters who are attending virtually, these presentations should comply with the talk length requirements, as they will be played during the session.  Please leave room for live Q+A.  For presenters who are attending in person, this talk recording need not follow the exact specifications of the VIS format for length, e.g. it could provide extended information beyond what you will present in person.  We will not play this video during the conference, but it will be hosted on our virtual website.
 
+Videos are required for all presenters (virtual and in-person) to enable a consistent online experience (no missing videos from on-site presenters, backups in case of unforeseen circumstances) and as high-quality archival material. For on-site participants, we also see this as an opportunity to produce high-quality video content that could go beyond the scope of a live talk. 
+
 ### 5. Representative Image
 
 **DEADLINE: September 8.** As described in the [talk recording guide](/year/2022/info/presenter-information/talk-recording-guide), it is also **mandatory** for authors to submit a representative image with caption for use on the virtual website.
@@ -58,7 +63,7 @@ For presenters who are attending virtually, these presentations should comply wi
 
 ## Common Editing Mistakes and Notes from TVCG
 
-Under no circumstances will updates be accepted after 11.59 PM on August 8. We have allowed for exceptions in the past but we will be strict this year.  
+Please make all efforts to submit your camera ready paper to PCS by August 8th.
 
 Common editing issues: 
 * Use the correct JOURNAL style template [https://tc.computer.org/vgtc/publications/journal](https://tc.computer.org/vgtc/publications/journal).
