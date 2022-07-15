@@ -7,11 +7,13 @@ sidebar: call-for-participation
 contact: papers@ieeevis.org
 ---
 
-This page provides authors of accepted papers with important information for the remainder of the process until the conference.
+This page provides authors of accepted IEEE VIS Full Papers with important information for the remainder of the process until the conference.  
+
+IEEE Vis Short Papers will follow a similar set of guidelines, with a couple of exceptions: (a) the camera ready deadline is one week earlier (August 1), (b) the paper length limits are shortened to 4+1 pages, and (c) talk length limits are shortened.
 
 ## Camera-Ready Paper Submission
 
-**DEADLINE: August 8.** Submit final papers and supplemental materials via the IEEE submission system. A link to the IEEE submission system was included in your final paper acceptance letter.
+**DEADLINE: August 8.** Submit final camera ready papers and supplemental materials via the PCS submission system.  Files submitted here are the default versions that we will for preparing proceedings in IEEE Xplore and the downloadable content.
 
 Camera-ready papers may not exceed 11 pages (9 pages of main text and 2 pages of references). The [VGTC website](https://tc.computer.org/vgtc/publications/journal) has complete information regarding formatting requirements of your final revised PDF. We do not need hardcopy.
 
@@ -19,21 +21,49 @@ Please check the second round reviewer comments (if any) and incorporate their s
 
 IMPORTANT: Please make sure the final submission data in PCS is identical to the final PDF (e.g., title, author names and last names, affiliations, author order, email addresses.) You might need to correct the information in your PCS login in order to update the author information. You can do this by logging into your PCS account > my account > Change my contact information. Note that the author list has to be **identical** to the list that you provided for the abstract submission deadline (March 21).
 
-You can submit a video of your work for inclusion in the digital archive. TVCG requires that supplemental material is also peer-reviewed, hence, this is only allowed if you have already submitted a video and if the reviewers have found it acceptable. Videos are usually up to 5 minutes in length, and you may also include other supplemental material such as additional images or source code. The IEEE submission system includes information on how to do so.
+You can submit supplemental material (e.g. a video, appendix) for your work for inclusion in the digital archive. TVCG requires that supplemental material is also peer-reviewed, hence, this is only allowed if you have already submitted your supplemental material and if the reviewers have found it acceptable. Videos are usually up to 5 minutes in length, and you may also include other supplemental material such as additional images, appendices, or source code. 
 
-At least one author per accepted paper must register to present the work, which will be indicated in the IEEE submission system.
+Please see our [Open Practices page](year/2022/info/open-practices/open-practices) for requirements and recommendations for open practice for VIS 2022.
 
-## Video Preview Submission
 
-**DEADLINE: August 15.** It is **optional** for authors to submit a [25-sec Video Preview](/year/2021/info/presenter-information/fast-forward-and-video-previews). Video previews should be submitted through the IEEE submission system.
+## Other Required Submission Items
 
-## Paper Presentation Video Recording
+Shortly after receiving final notifications from the second review cycle, the conference will send you an email from the Publications chairs with complete instructions.  This email will be sent to the corresponding author for the paper and it will include a unique submission ID.  The email will also include links to directly upload files via Dropbox.  Here is what you will be expected to submit and the deadlines for each item.
 
-**DEADLINE: September 12.** It is **mandatory** for authors of all VIS papers to submit a [recording of their paper presentation](/year/2021/info/presenter-information/talk-recording-guide). Presentations should be submitted through the IEEE submission system.
+### 1. Author registration
+
+Regardless of if you are attending in person or virtually, one author for each paper [must register](/year/2022/info/registration/conference-registration) at the speaker rate.  This does not need to be the author who is presenting the paper.
+
+### 2. Video Preview Submission
+
+**DEADLINE: August 15.** It is **mandatory** for authors to submit a [25-sec Video Preview](/year/2022/info/presenter-information/fast-forward-and-video-previews). 
+
+### 3. Author Information Form
+
+**Deadline: September 8.**  You will be asked to complete a brief google form that specifies: (a) Who will be presenting the paper, (b) if the presenter is planning to attend in person or virtually, (c) if you have posted your paper to a preprint server (and where), (d) if this publication is subject to Plan S, and (e) practitioner information.  Please use the same submission ID as was provided in the email we sent to you.   
+
+### 4. Paper Presentation Video Recording
+
+**DEADLINE: September 8.** It is **mandatory** for authors of all VIS papers to submit a [recording of their paper presentation](/year/2022/info/presenter-information/talk-recording-guide). 
+
+For presenters who are attending virtually, these presentations should comply with the talk length requirements, as they will be played during the session.  Please leave room for live Q+A.  For presenters who are attending in person, this talk recording need not follow the exact specifications of the VIS format for length, e.g. it could provide extended information beyond what you will present in person.  We will not play this video during the conference, but it will be hosted on our virtual website.
+
+Videos are required for all presenters (virtual and in-person) to enable a consistent online experience (no missing videos from on-site presenters, backups in case of unforeseen circumstances) and as high-quality archival material. For on-site participants, we also see this as an opportunity to produce high-quality video content that could go beyond the scope of a live talk. 
+
+### 5. Representative Image
+
+**DEADLINE: September 8.** As described in the [talk recording guide](/year/2022/info/presenter-information/talk-recording-guide), it is also **mandatory** for authors to submit a representative image with caption for use on the virtual website.
+
+
+### 6. Copyright Release
+
+**DEADLINE: September 8.** For papers that will be published in IEEE TVCG or on IEEE Xplore, authors are asked to complete a copyright release form.  This will be handled via IEEE's Conference Publishing Services (IEEE CPS) via a link provided to you via email.
+
+
 
 ## Common Editing Mistakes and Notes from TVCG
 
-Under no circumstances will updates be accepted after 11.59 PM on August 8. We have allowed for exceptions in the past but we will be strict this year.  
+Please make all efforts to submit your camera ready paper to PCS by August 8th.
 
 Common editing issues: 
 * Use the correct JOURNAL style template [https://tc.computer.org/vgtc/publications/journal](https://tc.computer.org/vgtc/publications/journal).
@@ -50,4 +80,24 @@ Common editing issues:
 
 Authors, please pay attention to the whole template, not just the list above.
 
-We are looking forward to an exciting and vibrant IEEE VIS 2021!
+We are looking forward to an exciting and vibrant IEEE VIS 2022!
+
+
+## Contact
+
+### Program Chairs
+
+* Gautam Chaudhary, *Alcon* 
+* Joshua A. Levine, *University of Arizona* 
+
+*Email: [program(at)ieeevis.org](mailto:program@ieeevis.org)*
+
+### Publication Chairs
+
+* Arvind Satyanarayan, *Massachusetts Institute of Technology*
+* Jian Zhao, *University of Waterloo*
+* Katerina Vrotsou, *Linkoping University*
+
+*Email: [publications(at)ieeevis.org](mailto:publications@ieeevis.org)*
+
+

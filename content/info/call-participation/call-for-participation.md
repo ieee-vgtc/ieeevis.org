@@ -54,6 +54,14 @@ All deadlines are at **5:00pm Pacific Time (PDT).**
 | Final notification | Friday, July 15, 2022    |
 | Camera-ready copy | Monday, August 8, 2022   |
 
+{% include alert.html
+  title="Final Instructions for Authors of Accepted Papers"
+  description="Important information for authors of accepted papers."
+  button-text="View instructions"
+  button-url="/info/presenter-information/final-information-paper-authors"
+%}
+
+
 ## Submission Guidelines and Reviewing Criteria
 
 As the leading academic event on visualization research, IEEE VIS expects important, impactful, and potentially transformative contributions. Submissions will be judged on their scientific quality and novelty, potential impact, degree to which the evidence supports the findings, appropriateness of methodology, and the research process followed. After the initial notification of review results, selected papers are only conditionally accepted and will undergo a full revision and review cycle: only papers that improve according to the required changes will be accepted after the second round review.

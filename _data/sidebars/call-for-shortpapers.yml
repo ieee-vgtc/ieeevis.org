@@ -28,14 +28,14 @@
     #     - text: "Open Practices"
     #       url: "/year/2022/info/open-practices/open-practices"
 
-    # - heading: "Participating virtually"
-    #   links:
-    #     - text: "Video Previews"
-    #       url: "/year/2022/info/presenter-information/fast-forward-and-video-previews"
-    #     - text: "Final Information for Paper Authors"
-    #       url: "/year/2022/info/presenter-information/final-information-paper-authors"
-    #     - text: "Recording your Talk"
-    #       url: "/year/2022/info/presenter-information/talk-recording-guide"
+- heading: "Participating in hybrid"
+  links:
+    - text: "Final Information for Paper Authors"
+      url: "/year/2022/info/presenter-information/final-information-paper-authors"
+    - text: "Video Previews"
+      url: "/year/2022/info/presenter-information/fast-forward-and-video-previews"
+    - text: "Recording your Talk"
+      url: "/year/2022/info/presenter-information/talk-recording-guide"
     #     - text: "Guidance for Virtual Events"
     #       url: "/year/2022/info/presenter-information/guidance-for-associated-events"
     # - text: "Presenting at the Virtual Conference"
