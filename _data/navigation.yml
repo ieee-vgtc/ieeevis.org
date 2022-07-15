@@ -34,7 +34,7 @@ menu:
     display: true
     sections:
       - subsections:
-          - heading: "Attending VIS 2021"
+          - heading: "Attending VIS 2022"
           #  heading_url: "https://virtual.ieeevis.org/"
           #  description: "Join the conference online on our virtual site!"
             columns:
