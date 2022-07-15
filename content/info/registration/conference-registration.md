@@ -8,16 +8,15 @@ contact: finance@ieeevis.org
 ## VIS 2022: HYBRID EVENT REGISTRATION
 The 2022 IEEE Visualization and Visual Analytics Conference running from October 16 - 21, is organized for the first time as a hybrid event. The in-person component of the conference will take place at the Omni Oklahoma City Hotel in Oklahoma City, Oklahoma, USA. The virtual component of the conference will provide access to the VIS community around the world who might not be able to travel with streaming sessions, live questions for presenters, and downloadable proceedings. 
 
-## IMPORTANT DATES
+### Important Dates
 <ul>
 <li>Registration opening July 31</li>
 <li>Early Registration deadline: September 2</li>
-<li>Author Registration deadline: September 16</li>
-<li>Invited Paper Presenter Registration: September 16</li>
+<li>Author / Invited Presenter Registration deadline: September 16</li>
 </ul>
 
 
-##  NOTE FOR AUTHORS
+## FOR AUTHORS
 <ul>
 <li>One author for each paper to be published in VGTC or IEEE Xplore (i.e., full paper, short paper, simposium or workshop paper published in IEEE Xplore) <b>MUST</b> register under the Author Registration type. This is true regardless of in-person or virtual presentation format.</li>
 <li>The author registering for the paper does not need to be the same as the paper presenter. </li>
@@ -27,7 +26,7 @@ The 2022 IEEE Visualization and Visual Analytics Conference running from October
 </ul>
 
 
-## AUTHOR REGISTRATION FEES
+### Author Registration Fees
 <table>
   <tr>
     <th>Category</th>
@@ -36,21 +35,21 @@ The 2022 IEEE Visualization and Visual Analytics Conference running from October
   </tr>
 <tr>
     <td>Author Registration</td>
-    <td>$670</td>
+    <td>$760</td>
     <td>$925</td>
 </tr>
 </table>
 **Author Registration fees are not refundable.**
 
 
-## NOTE FOR INVITED PAPER PRESENTERS
+## FOR INVITED PARTNERSHIP PRESENTERS
 <ul>
-<li>One presenter for each invited TVCG/CG&A/SIGGRAPH/VR papers <b>MUST</b> register under the Invited Paper Presenter Registration type. This is true regardless of in-person or virtual presentation format.</li>
+<li>One presenter for each invited <a href="/year/2022/info/call-participation/partnerships">partnership</a> (TVCG, CG&A, SIGGRAPH, and VR) presentation <b>MUST</b> register under the Invited Paper Presenter Registration type. This is true regardless of in-person or virtual presentation format.</li>
 <li>Each Invited Paper Presenter Registration is valid for <b>ONE</b> invited paper paper.</li>
 <li>The Invited Paper Presenter Registration <b>deadline is September 16, 2022.</b></li>
 </ul>
 
-##  INVITED PAPER PRESENTER REGISTRATION FEES
+### Invited Partnership Presenter Registration Fees
 <table>
   <tr>
     <th>Category</th>
@@ -59,7 +58,7 @@ The 2022 IEEE Visualization and Visual Analytics Conference running from October
   </tr>
 <tr>
     <td>Invited Paper Presenter Registration Fee</td>
-    <td>$670</td>
+    <td>$760</td>
     <td>$925</td>
 </tr>
 <tr>
@@ -72,13 +71,16 @@ The 2022 IEEE Visualization and Visual Analytics Conference running from October
 **Invited Paper Presenter Registration fees are not refundable.**
 
 
-## NOTE ABOUT DIVERSITY AND INCLUSIVITY VIRTUAL PARTICIPANTS
+## ALL OTHER ATTENDEES
+
+### Diversity and Inclusivity Virtual Participants
 <ul>
 <li>We will offer free virtual registration to individuals residing in countries where the per capita Gross National Income (GNI) is US$15,000 or less.  If you qualify, select the Diversity Admission option. <a href="https://www.ieee.org/membership/join/emember-countries.html">See list here</a>.</li>
 <li>Individuals who need financial assistance but reside in a country not included on the Diversity Admission list, can select the Inclusivity Admission option for a free virtual registration.</li>
 </ul>
 
-## ON-SITE PARTICIPANT REGISTRATION FEES
+
+### On-Site Participant Registration Fees
 <table>
   <tr>
     <th>Category</th>
@@ -163,7 +165,7 @@ The 2022 IEEE Visualization and Visual Analytics Conference running from October
 </table>
 **Registration fees are refundable up to 30 days before the beginning of the conference.**
 
-## VIRTUAL PARTICIPANT REGISTRATION FEES
+### Virtual Participant Registration Fees
 <table>
   <tr>
     <th>Category</th>
@@ -172,36 +174,36 @@ The 2022 IEEE Visualization and Visual Analytics Conference running from October
   </tr>
 <tr>
     <td>Virtual IEEE/ACM Member</td>
-    <td>$760</td>
-    <td>$925</td>
+    <td>$250</td>
+    <td>$310</td>
 </tr>
 <tr>
     <td>Virtual Non-Member</td>
-    <td>$950</td>
-    <td>$1150</td>
+    <td>$350</td>
+    <td>$380</td>
 </tr>
 <tr>
     <td>Virtual Student IEEE/ACM Member</td>
-    <td>$410</td>
-    <td>$500</td>
+    <td>$135</td>
+    <td>$165</td>
 </tr>
 <tr>
     <td>Virtual Student Non-Member</td>
-    <td>$510</td>
-    <td>$625</td>
+    <td>$170</td>
+    <td>$210</td>
 </tr>
 <tr>
     <td>Virtual Life IEEE/ACM Member</td>
-    <td>$410</td>
-    <td>$500</td>
+    <td>$135</td>
+    <td>$165</td>
 </tr>
 </table>
 **Registration fees are refundable up to 30 days before the beginning of the conference.**
 
-## VISA LETTER REQUESTS
-For on-site conference participants who need a visa to enter the United States of America, a visa invitation letter will be automatically generated using your name, organization, and address when you register for the conference. Requests for letters containing additional information, such as date of birth or passport information (number, date of issue, expiration date, place of issue), may be e-mailed to: <a href="mailto:visa-letters@ieeevis.org"> visa-letters@ieeevis.org</a>.  <b>You must be fully registered for the conference before any letter can be issued.</b>
+### Visa Letter Requests
+For on-site conference participants who need a visa to enter the United States of America, a <a href="/year/2022/info/registration/travel-visas">visa invitation letter</a> will be automatically generated using your name, organization, and address when you register for the conference. Requests for letters containing additional information, such as date of birth or passport information (number, date of issue, expiration date, place of issue), may be e-mailed to: <a href="mailto:visa-letters@ieeevis.org"> visa-letters@ieeevis.org</a>.  <b>You must be fully registered for the conference before any letter can be issued.</b>
 
-## REGISTRATION FAQS
+### Registration FAQS
 
 **Q: I am a poster author. Do I need to register using the Author Registration category?**
 <ul>
@@ -213,6 +215,6 @@ No. Posters are non-archival materials, and Author Registration is not needed. P
 No. Workshop or symposium papers not published in IEEE Xplore are non-archival materials, and Author Registration is unnecessary. Paper presenters and authors should use the regular On-site Participant or Virtual Participant Registration categories. 
 </ul>
 
-If you have additional clarification questions, please contact <a href="registration@ieeevis.org"> registration@ieeevis.org</a>
+If you have additional clarification questions, please contact <a href="mailto:registration@ieeevis.org"> registration@ieeevis.org</a>
 
 
