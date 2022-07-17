@@ -101,6 +101,8 @@ Your submission consists of three pieces:
   * You will also be asked to provide a plaintext file with an image caption (100 words or less).
   * File Name: `[UniquePaperID]_[FirstAuthorLastName]_Image.png`
     * Example: `v-full_0001_Smith_Image.png`
+  * Image Caption File Name: `[UniquePaperID]_[FirstAuthorLastName]_Image.txt`
+    * Example: `v-full_0001_Smith_Image.txt`
 
 
 Guidance for creating both and requirements for file encoding and naming are provided below. Pre-recorded presentation videos of speakers that attend online will be streamed online and all recorded videos might be hosted online for on-demand retrieval, so please make sure your videos do not contain copyrighted audio or video content.
