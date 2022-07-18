@@ -159,6 +159,8 @@ Brittany Davis, *Pierson Pacific North National Lab* <br>
 
 Contact: mahsannourani@ufl.edu
 
+Interactive visualization systems combine computational support, human cognitive, and perceptual skills to explore and analyze data. Many of these systems incorporate machine learning (ML) and Artificial Intelligence (AI) algorithms to introduce some level of automation to the analytical process. However, there are aspects that can impact the effectiveness of the human-machine collaboration, including, but not limited to: 1) People's domain and system expertise; 2) Human biases, including cognitive and perceptual biases; 3) Trust in ML models and visual representation of data. The goal of this workshop is to highlight and foster a conversation around the intersection of visualization and human-centered AI research and practice by providing an interdisciplinary platform from relevant fields to communicate challenges and novel findings around such topics.
+
 
 ## <a name="topo_in_vis"></a> [TopoInVis -- Topological Data Analysis and Visualization](https://topoinvis.org/)
 
