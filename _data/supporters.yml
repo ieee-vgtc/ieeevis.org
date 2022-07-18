@@ -53,7 +53,10 @@
      - name: "Kitware, Inc"
        image: /assets/supporters/kitware.png
        url: "https://www.kitware.com/"
-      
+     - name: "Uncharted Software"
+       image: /assets/supporters/uncharted.png
+       url: "https://uncharted.software/"
+       
  #    - name: "SCI"
  #      image: /assets/supporters/sci.png
  #      url: "https://www.sci.utah.edu/"
@@ -82,11 +85,7 @@
     #   image: /assets/supporters/twosix.png
     #   url: "https://www.twosixtech.com/"
 
-    # - name: "Uncharted Software"
-    #   image: /assets/supporters/uncharted.png
-    #   url: "https://uncharted.software/"
-
-#    - name: "Uncharted Software"
+#    - name: "ViSUS Software"
 #      image: /assets/supporters/visus.png
 #      url: "https://visus.org/"
 
