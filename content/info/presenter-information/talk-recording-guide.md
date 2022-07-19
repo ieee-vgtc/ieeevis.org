@@ -86,13 +86,13 @@ Your submission consists of three pieces:
   * Should contain audio narration. However, we discourage background music and request that the video focuses viewers’ attention on the content.
   * Subtitles are mandatory to increase accessibility. See below for tips on how to create and include subtitles
   * File Name: `[UniquePaperID]_[FirstAuthorLastName]_Preview.mp4` 
-    *  Example: `v-full_0001_Smith_Preview.mp4`
+      * Example: `v-full_0001_Smith_Preview.mp4`
 
 2. Presentation Video
   * Must follow the formatting described below.
   * Subtitles are mandatory to increase accessibility. See below for tips on how to create and include subtitles
   * File Name: `[UniquePaperID]_[FirstAuthorLastName]_Presentation.mp4` 
-    * Example:  `v-full_0001_Smith_Presentation.mp4`
+      * Example:  `v-full_0001_Smith_Presentation.mp4`
   
 3. Representative Image
   * Authors are asked to submit a representative preview image that will be used as an icon next to the listing of the paper on our web pages.
@@ -100,9 +100,9 @@ Your submission consists of three pieces:
   * Image Size Limit: 1920 x 1080 Maximum
   * You will also be asked to provide a plaintext file with an image caption (100 words or less).
   * File Name: `[UniquePaperID]_[FirstAuthorLastName]_Image.png`
-    * Example: `v-full_0001_Smith_Image.png`
+      * Example: `v-full_0001_Smith_Image.png`  
   * Image Caption File Name: `[UniquePaperID]_[FirstAuthorLastName]_Image.txt`
-    * Example: `v-full_0001_Smith_Image.txt`
+      * Example: `v-full_0001_Smith_Image.txt`
 
 
 Guidance for creating both and requirements for file encoding and naming are provided below. Pre-recorded presentation videos of speakers that attend online will be streamed online and all recorded videos might be hosted online for on-demand retrieval, so please make sure your videos do not contain copyrighted audio or video content.
