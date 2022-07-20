@@ -25,6 +25,8 @@ You can submit supplemental material (e.g. a video, appendix) for your work for 
 
 Please see our [Open Practices page](year/2022/info/open-practices/open-practices) for requirements and recommendations for open practice for VIS 2022.
 
+Please see our [VIS Accessibility Guide](year/2022/info/call-participation/make-pdf-accessible) for recommendations for VIS 2022 authors on how to make your contribution accessible for broader audiences.
+
 
 ## Other Required Submission Items
 
