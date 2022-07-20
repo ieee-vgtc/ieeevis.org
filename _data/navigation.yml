@@ -290,10 +290,10 @@ menu:
                     url: "https://vast-challenge.github.io/2022/"
                     is_external: true
 
-#          - heading: "Community"
-#            heading_url: "/year/2022/info/call-participation/community"
-#            description: "Explore social and topic-based community groups"
-#            columns:
+          - heading: "Community"
+            heading_url: "/year/2022/info/call-participation/community"
+            description: "Explore social and topic-based community groups"
+            columns:
 #              - heading: "Connect"
 #                links:
 #                  - text: "Vis Buddies"
@@ -310,14 +310,14 @@ menu:
 #                  # - text: "Vis Pioneers Group"
 #                  #   url: "http://vacommunity.org/ieeevpg/"
 #                  #   is_external: true
-#              - heading: "Social Media"
-#                links:
-#                  - text: "Facebook"
-#                    url: "https://www.facebook.com/ieeevis"
-#                    is_external: true
-#                  - text: "Twitter"
-#                    url: "https://twitter.com/ieeevis"
-#                    is_external: true
+              - heading: "Social Media"
+                links:
+                  - text: "Facebook"
+                    url: "https://www.facebook.com/ieeevis"
+                    is_external: true
+                  - text: "Twitter"
+                    url: "https://twitter.com/ieeevis"
+                    is_external: true
 
   - dropdown: "Organization & History"
     display: true
@@ -415,6 +415,8 @@ menu:
                     url: "/governance/IEEE-governance-structure"
                   - text: "Best Paper Process"
                     url: "/governance/best-paper-process"
+          - heading: "Code of Conduct"
+            heading_url: "/year/2022/info/inclusion-and-diversity/code-of-conduct"
 
 
       - subsections:
