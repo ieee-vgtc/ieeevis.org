@@ -23,9 +23,9 @@ IMPORTANT: Please make sure the final submission data in PCS is identical to the
 
 You can submit supplemental material (e.g. a video, appendix) for your work for inclusion in the digital archive. TVCG requires that supplemental material is also peer-reviewed, hence, this is only allowed if you have already submitted your supplemental material and if the reviewers have found it acceptable. Videos are usually up to 5 minutes in length, and you may also include other supplemental material such as additional images, appendices, or source code. 
 
-Please see our [Open Practices page](year/2022/info/open-practices/open-practices) for requirements and recommendations for open practice for VIS 2022.
+Please see our [Open Practices page](/year/2022/info/open-practices/open-practices) for requirements and recommendations for open practice for VIS 2022.
 
-Please see our [VIS Accessibility Guide](year/2022/info/call-participation/make-pdf-accessible) for recommendations for VIS 2022 authors on how to make your contribution accessible for broader audiences.
+Please see our [VIS Accessibility Guide](/year/2022/info/call-participation/make-pdf-accessible) for recommendations for VIS 2022 authors on how to make your contribution accessible for broader audiences.
 
 
 ## Other Required Submission Items
