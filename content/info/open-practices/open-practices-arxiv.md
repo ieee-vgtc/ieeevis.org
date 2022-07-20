@@ -23,6 +23,8 @@ contact: open_practices@ieeevis.org
 
 ## Getting started
 
+We have prepared tutorials for you on how to share a paper on arXiv.org depending on your background.
+
 Are you:
 
 * [a first-time arXiv.org user who needs help with registration in the arXiv system?](arxiv-first-time-user)

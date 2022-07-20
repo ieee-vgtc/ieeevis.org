@@ -50,7 +50,7 @@ Panels will be recorded and posted to Vimeo for archival viewing. Panels from 20
 
 | Date | Activity |
 |------|----------|
-| Thursday, June 30, 2022 | Proposal Submission |
+| Thursday, ~~June 30, 2022~~ **Extended: July 15, 2022** | Proposal Submission |
 | Tuesday, August 09, 2022 | Notification |
 | Wednesday, August 24, 2022 | Final Submission of Panel Summaries and Video Fast Forwards |
       

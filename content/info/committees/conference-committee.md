@@ -39,7 +39,7 @@ permalink: /info/committees/conference-committee
 | T. J. Jankun-Kelly | *Mississippi State University* |
 |---
 | **Area 5 Paper Chairs &nbsp;&nbsp;&nbsp;—** | **Data Transformations** | |
-| Eduard Gröller | *TU Wien* |
+| M. Eduard Gröller | *TU Wien* |
 | Michael Sedlmair | *University of Stuttgart* |
 |---
 | **Area 6 Paper Chairs &nbsp;&nbsp;&nbsp;—** | **Analytics & Decisions** | |
@@ -87,22 +87,23 @@ permalink: /info/committees/conference-committee
 | Uta Hinrichs | *University of St. Andrews* |
 | Charles Perin | *University of Victoria* |
 |---
-| **Vis in Practice Chair** | |
-| Sudhanshu Kumar Semwal | *University of Colorado* |
-| Zhicheng (Leo) Liu | *Adobe* | 
+| **Vis in Practice Chairs** | |
 | Anamaria Crisan | *Tableau Software* |
+| Zhicheng (Leo) Liu | *Adobe* | 
+| Sudhanshu Kumar Semwal | *University of Colorado* |
 |---
 | **Doctoral Colloquium Chairs**| |
 | Nan Cao | *Tongji University* |
-| Karen B. Schloss | *Universoty of Wisconsin* |
 | Maxime Cordeil | *Monash University* |
+| Katherine Isaacs | *University of Arizona* |
+| Karen B. Schloss | *University of Wisconsin* |
 |---
 | **Fast Forward & Video Previews Chairs** | |
 | Arjun Srinivasan | *Tableau Research* |
 | Jun Tao | *Sun Yat-sen University* |
 |---
 | **Publications Chairs** | |
-| Arvind Satyanarayan | *MIT* |
+| Arvind Satyanarayan | *Massachusetts Institute of Technology* |
 | Jian Zhao | *University of Waterloo* |
 | Katerina Vrotsou | *Linkoping University* |
 |---
@@ -125,11 +126,11 @@ permalink: /info/committees/conference-committee
 | Beatrice Gobbo | *Politecnico di Milano* |
 | Juan Trelles | *University of Illinois Chicago* |
 | Chenguang Xu | *Universty of Oklahoma (local)* |
-| Kung-tini Cheng | *Monash University* |
+| Kun-Ting Chen | *Monash University* |
 | Keke Wu | *University of Colorado Boulder* |
 |---
 | **Publicity Chairs** | |
-| Mennatallah El-Assady | *University of Konstanz* |
+| Mennatallah El-Assady | *ETH AI Center* |
 | John Alexis Guerra Gómez | *Assistant Teaching Professor Northeastern University Silicon Valley* |
 | Alvitta Ottley | *Washington University in St. Louis* |
 |---
@@ -150,7 +151,7 @@ permalink: /info/committees/conference-committee
 | Loretta Auvil | *University of Illinois at Urbana-Champaign* |
 | Maria Valez | *CA Technologies* |
 |---
-| **Incoming General Chairs** | |
+| **Incoming General Chairs (VIS23)** | |
 | Tim Dwyer | *Monash University* |
 | Sarah Goodwin | *Monash University* |
 | Michael Wybrow | *Monash University* |
@@ -181,27 +182,47 @@ permalink: /info/committees/conference-committee
 | Chris Weaver | *University of Oklahoma* |
 |---
 | **VAST Challenge Chairs** | |
-| Kristin Potter | *National Renewable Energy Lab* |
+| Kristin Cook | *Pacific Northwest National Laboratory* |
 | R. Jordan Crouser | *Smith College* |
 |---
 | **SciVis Contest Chairs** | |
-| Thomas Theußl | *KAUST* |
+| Alex Razoumov | *WestGrid* |
 | Divya Banesh | *Los Alamos National Lab* |
 |---
+| **Bio+MedVis Challenges Chairs** | |
+| Thomas Höllt | *TU Delft* |
+| Zeynep Gumus | *Mount Sinai School of Medicine* |
+| Daniel Jönsson | *Linköping University* |
+| Renata Raidou | *TU Wien* |
+|---
 | **VDS Symposium Liaison**| |
-| TBD |
+| Liang Gou | *Bosch Research* |
+| Alvitta Ottley | *Washington University in St. Louis* |
+| Anamaria Crisan | *Tableau Software* |
 |---
 | **LDAV Symposium Liaisons**| |
-| TBD |
-|---
-| **Vis4DH Workshop Liaison** | |
-| TBD |
-|---
-| **VISxAI Workshop Liaisons** | |
-| TBD |
+| Chaoli Wang | *University of Notre Dame* |
+| Peer-Timo Bremer | *Lawrence Livermore National Laboratory* |
+| Kristi Potter | *National Renewable Energy Lab* |
 |---
 | **VIZSec Symposium Liaison** | |
-| TBD |
+| Chris Bryan | *Arizona State University* |
 |---
-| **Local Satellite Chairs** | | |
-| TBD |
+| **Vis4DH Workshop Liaison** | |
+| Houda Lamqaddam | *KU Leuven* |
+| Alfie Abdul-Rahman | *King's College London* |
+|---
+| **VISxAI Workshop Liaisons** | |
+| Adam Perer | *Carnegie Mellon University* |
+| Angie Boggust | *Massachusetts Institute of Technology* |
+| Fred Hohman | *Apple* |
+| Hendrik Strobelt | *MIT-IBM Watson AI Lab* |
+| Mennatallah El-Assady | *ETH AI Center* |
+| Zijie Jay Wang | *Georgia Tech* |
+|---
+| **BELIV Workshop Liaisons** | |
+| Anastasia Bezerianos | *Université Paris Saclay* |
+| Kyle Hall | *University of Calgary* |
+| Samuel Huron | *Télécom ParisTech* |
+| Matthew Kay | *Northwestern University* |
+| Miriah Meyer | *Linköping University* |

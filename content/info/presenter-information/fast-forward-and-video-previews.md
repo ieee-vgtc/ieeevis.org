@@ -10,8 +10,8 @@ contact: ff@ieeevis.org
 
 Please **read the following instructions carefully** and submit your
 25-second video for the online Video Previews by the following deadlines:
-- VIS Full/Short Papers: Aug. 15
-- All Other Events and TVCG/CG&amp;A Presentations: Sept. 1
+- Aug. 15: VIS Full/Short Papers
+- Sept. 1: All other events, including [partnership](/year/2022/info/call-participation/partnerships) (TVCG, CG&amp;A, SIGGRAPH, and VR) presentations
 
 
 Video previews and fast forwards are a great opportunity to publicize
@@ -22,9 +22,11 @@ and after the conference.
 
 
 
-Like last year, due to IEEE VIS going fully virtual, video previews are linked 
+IEEE VIS will be hybrid for 2022.  Video previews are linked 
 from the conference's webpage and will be compiled into 'trailers', one for
-each session. **There will be no Fast-Forward session this year.** 
+each session.
+
+**There will be no Fast-Forward session this year.** 
 
 
 
@@ -99,28 +101,15 @@ If your track is not listed, please check for updates later as all track chairs 
 
 
 Video Previews are **required** for the following tracks:
-- TVCG Paper Presentations
-- CG&amp;A Paper Presentations
-- VizSec Full/Short Papers
-- VISAP
-- VIS Supporters
-
-Video Previews are **optional** for the following tracks:
 - VIS Full Papers
 - VIS Short Papers
-- VIS Posters
-- VIS Panels
-- VizSec Posters
-- LDAV (Papers and Posters)
-- SciVis Contest
-- VIS 2021 Overview
-- Meetups
-- Supporters
-- Workshops (one per workshop)
+- Invited [Partnership](/year/2022/info/call-participation/partnerships) Talks (including TVCG, CG&A, SIGGRAPH, and VR)
+
+Video Previews are **optional** for all other tracks and associated events, unless notified otherwise by the chairs for that track/event.
 
 You have **no Video-Preview** to submit for the following tracks:
 - Doctor Colloquium
-- VAST Challenge
+- Competitions (VAST Challenge, Bio+MedVis Challenge, SciVis Contest)
 - Tutorials
 
 ## How to record your video?
@@ -128,7 +117,7 @@ Please see the [Talk Recording Guide](/year/2021/info/presenter-information/talk
 
  
 ## How to submit?
-- Video previews need to be submitted through the IEEE CPS system. **Please watch for submission instructions from your respective chairs**.
+- Video previews will be submitted via a DropBox link distributed via email.
 - Please submit your video file and caption/subtitle file separately and do not bake the subtitles into the video. We will do the integration in a consistent way.
 
 
@@ -164,8 +153,5 @@ For questions or more information, please email ff@ieeevis.org.
 
 Video Previews Chairs
 
-
-- Benjamin Bach, University of Edinburgh
-- Subhashis Hazarika, Palo Alto Research Center
-- Bahador Saket, Lawyaw
-- Junpeng Wang, Visa Research
+- Arjun Srinivasan, *Tableau Research*
+- Jun Tao, *Sun Yat-sen University*

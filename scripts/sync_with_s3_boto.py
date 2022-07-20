@@ -61,7 +61,7 @@ def check_if_git_is_clean():
         raise Exception("Need git to be in the correct branch.\nExpected to be in branch '%s', but it seems we're in branch '%s' instead." %
                         (git_branch_name, branch))
 
-    l = list(filter(lambda s: s != '', run_cmd_get_lines('git', 'status', '--porcelain')))
+    l = list(filter(lambda s: 'Gemfile.lock' not in s and s != '', run_cmd_get_lines('git', 'status', '--porcelain')))
     if len(l) != 0:
         raise Exception("Expected git working tree to be clean, but it appears not to be.  Instead, got msg: %s" % l)
 
