@@ -79,30 +79,30 @@ Terminology used in this document:
 
 Your submission consists of three pieces:
 1. Video Preview
-  * A 25-second video that clearly communicates the research and contribution, inviting readers to read your paper.
-  * Please do NOT include the paper title or authors' information. The FF chairs will add these as a 5-second title slide in front of your 25-second video in a consistent way.
-  * Must be self-contained.
-  * Despite recent years’ Fast-Forwards sessions, we discourage humor and trailer-like ‘ads’ because the video will exist for a long time and can be shared widely by the authors on social media and other channels.
-  * Should contain audio narration. However, we discourage background music and request that the video focuses viewers’ attention on the content.
-  * Subtitles are mandatory to increase accessibility. See below for tips on how to create and include subtitles
-  * File Name: `[UniquePaperID]_[FirstAuthorLastName]_Preview.mp4` 
-      * Example: `v-full_0001_Smith_Preview.mp4`
+    * A 25-second video that clearly communicates the research and contribution, inviting readers to read your paper.
+    * Please do NOT include the paper title or authors' information. The FF chairs will add these as a 5-second title slide in front of your 25-second video in a consistent way.
+    * Must be self-contained.
+    * Despite recent years’ Fast-Forwards sessions, we discourage humor and trailer-like ‘ads’ because the video will exist for a long time and can be shared widely by the authors on social media and other channels.
+    * Should contain audio narration. However, we discourage background music and request that the video focuses viewers’ attention on the content.
+    * Subtitles are mandatory to increase accessibility. See below for tips on how to create and include subtitles
+    * File Name: `[UniquePaperID]_[FirstAuthorLastName]_Preview.mp4` 
+        * Example: `v-full_0001_Smith_Preview.mp4`
 
 2. Presentation Video
-  * Must follow the formatting described below.
-  * Subtitles are mandatory to increase accessibility. See below for tips on how to create and include subtitles
-  * File Name: `[UniquePaperID]_[FirstAuthorLastName]_Presentation.mp4` 
-      * Example:  `v-full_0001_Smith_Presentation.mp4`
+    * Must follow the formatting described below.
+    * Subtitles are mandatory to increase accessibility. See below for tips on how to create and include subtitles
+    * File Name: `[UniquePaperID]_[FirstAuthorLastName]_Presentation.mp4` 
+        * Example:  `v-full_0001_Smith_Presentation.mp4`
   
 3. Representative Image
-  * Authors are asked to submit a representative preview image that will be used as an icon next to the listing of the paper on our web pages.
-  * File Format: png
-  * Image Size Limit: 1920 x 1080 Maximum
-  * You will also be asked to provide a plaintext file with an image caption (100 words or less).
-  * File Name: `[UniquePaperID]_[FirstAuthorLastName]_Image.png`
-      * Example: `v-full_0001_Smith_Image.png`  
-  * Image Caption File Name: `[UniquePaperID]_[FirstAuthorLastName]_Image.txt`
-      * Example: `v-full_0001_Smith_Image.txt`
+    * Authors are asked to submit a representative preview image that will be used as an icon next to the listing of the paper on our web pages.
+    * File Format: png
+    * Image Size Limit: 1920 x 1080 Maximum
+    * You will also be asked to provide a plaintext file with an image caption (100 words or less).
+    * File Name: `[UniquePaperID]_[FirstAuthorLastName]_Image.png`
+        * Example: `v-full_0001_Smith_Image.png`  
+    * Image Caption File Name: `[UniquePaperID]_[FirstAuthorLastName]_Image.txt`
+        * Example: `v-full_0001_Smith_Image.txt`
 
 
 Guidance for creating both and requirements for file encoding and naming are provided below. Pre-recorded presentation videos of speakers that attend online will be streamed online and all recorded videos might be hosted online for on-demand retrieval, so please make sure your videos do not contain copyrighted audio or video content.
@@ -158,8 +158,8 @@ After recording your talk, please rewatch it to ensure the video and audio are r
 There are a number of tools that are available to generate captions for you, which you can download and include with your video. Among the free options, YouTube, Veed.io, and Facebook, for example, have free tools that automatically create closed captions and make it possible to download these.  
   
 Please note two important things for this: 
-* 1) in general it takes some time to generate the files and needs correction (particularly with uncommon words or terminology), so you should take this into account so that the video is finished before the deadline;
-* 2) if you use a social media platform to generate subtitles, please do not publish the video completely (not even private or unlisted) as it will interfere with the conference and will increase the work on the student volunteers and might lead to delays.  
+1. in general it takes some time to generate the files and needs correction (particularly with uncommon words or terminology), so you should take this into account so that the video is finished before the deadline;
+2. if you use a social media platform to generate subtitles, please do not publish the video completely (not even private or unlisted) as it will interfere with the conference and will increase the work on the student volunteers and might lead to delays.  
   
 There are also a number of paid services that enable the transcription of videos, such as Amberscript. Lastly, it is also possible to manually create the subtitles using for example the YouTube captioning tool, Adobe Premiere Pro, or Amara.
 Regardless of the tool you are using, please make sure that the subtitles are accurate and correctly timed for the benefit of all attendees. Videos containing subtitles have a considerably higher engagement and retention rate than one’s without.

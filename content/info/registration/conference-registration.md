@@ -18,7 +18,7 @@ The 2022 IEEE Visualization and Visual Analytics Conference running from October
 
 ## FOR AUTHORS
 <ul>
-<li>One author for each paper to be published in VGTC or IEEE Xplore (i.e., full paper, short paper, simposium or workshop paper published in IEEE Xplore) <b>MUST</b> register under the Author Registration type. This is true regardless of in-person or virtual presentation format.</li>
+<li>One author for each paper to be published in VGTC or IEEE Xplore (i.e., full paper, short paper, symposium or workshop paper published in IEEE Xplore) <b>MUST</b> register under the Author Registration type. This is true regardless of in-person or virtual presentation format.</li>
 <li>The author registering for the paper does not need to be the same as the paper presenter. </li>
 <li>Each Author Registration is valid for <b>ONE</b> paper.</li>
 <li>Posters and associated event papers not published on IEEE Xplore do not need to have an Author Registration. </li>
