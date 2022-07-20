@@ -5,10 +5,10 @@ permalink: /info/accessibility/attend
 contact: accessibility@ieeevis.org
 ---
  
-IEEE VIS seeks to cultivate an environment that encourages participation and inclusion. Our goal is to make IEEV VIS 2022 as accessible as possible. The following is information about the accessibility of various components of VIS 2022. Please contact us at accessibility@ieeevis.org, if you have questions, concerns or would like to provide feedback.
+IEEE VIS seeks to cultivate an environment that encourages participation and inclusion. Our goal is to make IEEV VIS 2022 as accessible as possible. The following is information about the accessibility of various components of VIS 2022. Please contact us at [accessibility@ieeevis.org](mailto:accessibility@ieeevis.org), if you have questions, concerns or would like to provide feedback.
  
 ## How do I communicate accessibility needs to organizers?
-During registration, you can indicate that you have accessibility needs. We will follow up with you to discuss your needs in more detail. If you find that any of the online platforms do not support your needs, you can contact accessibility@ieeevis.org, and we will work with you to ensure you can participate on the platforms.  
+During registration, you can indicate that you have accessibility needs. We will follow up with you to discuss your needs in more detail. If you find that any of the online platforms do not support your needs, you can contact [accessibility@ieeevis.org](mailto:accessibility@ieeevis.org), and we will work with you to ensure you can participate on the platforms.  
  
 ## Are the conference technologies accessible?
 We have made efforts to ensure that the pre-recorded video presentations and streamed sessions include captioning. 
@@ -28,5 +28,5 @@ Yes, all live events in the main sessions will be captioned by professional sten
 We encouraged presenters to be visible in the recorded talks but this was not required. Presenters in live sessions will be visible. 
  
 ## Whom should I contact if I have a problem with accessibility during the event?
-Please contact accessibility@ieeevis.org, and we will try to resolve your issue. 
+Please contact [accessibility@ieeevis.org](mailto:accessibility@ieeevis.org), and we will try to resolve your issue. 
 
