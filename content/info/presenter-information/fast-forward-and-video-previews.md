@@ -104,6 +104,7 @@ Video Previews are **required** for the following tracks:
 - VIS Full Papers
 - VIS Short Papers
 - Invited [Partnership](/year/2022/info/call-participation/partnerships) Talks (including TVCG, CG&A, SIGGRAPH, and VR)
+- VIS Arts Program
 
 Video Previews are **optional** for all other tracks and associated events, unless notified otherwise by the chairs for that track/event.
 
