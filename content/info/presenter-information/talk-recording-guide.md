@@ -73,6 +73,7 @@ Terminology used in this document:
 - The email with your Dropbox link for uploading files will also contain the unique paper id that you should use when naming your files.
 
 - Please note that you cannot use the provided link to retrieve what has already been uploaded. If you want to modify an existing file, please enter the exact same name or use the exact same Dropbox account that was used when the file was originally uploaded (this will ensure the old file is overwritten).
+- Whenever you upload something, we perform various initial checks automatically to make sure that your submitted files adhere to the specifications outlined in this document (including preliminary audio quality checks). The email with your Dropbox link for uploading files also contains a link to retrieve the results of this check. If any issues were found, we kindly ask you to fix them before the respective deadline.
 
 
 ## Technical Information for Recordings
