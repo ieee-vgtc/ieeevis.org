@@ -38,7 +38,7 @@ Regardless of if you are attending in person or virtually, one author for each p
 
 ### 2. Video Preview Submission
 
-**DEADLINE: August 15.** It is **mandatory** for authors to submit a [25-sec Video Preview](/year/2022/info/presenter-information/fast-forward-and-video-previews). 
+**DEADLINE: August 15.** It is **mandatory** for authors to submit a [25-sec Video Preview](/year/2022/info/presenter-information/fast-forward-and-video-previews). Video previews should be submitted through a DropBox link that will be distributed via email soon.
 
 ### 3. Author Information Form
 
