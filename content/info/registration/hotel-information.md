@@ -13,7 +13,7 @@ from the <a href="https://flyokc.com/"> Will Rogers World Airport </a> in downto
 
 # Conference Hotel
 
-The conference rate is <b>$185 per night </b> (not including taxes). The cutoff date for reservations under this rate is 
+The conference rate is <b>$189 per night </b> (not including taxes). The cutoff date for reservations under this rate is 
 <b>September 16, 2022</b>.  After this date, we cannot guarantee availability of the hotel rooms for the specified rate.
 
 Staying in the conference hotel has a lot of advantages not only for the participants. Having occupied many rooms improves renting conditions
