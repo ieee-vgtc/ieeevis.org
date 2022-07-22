@@ -42,9 +42,9 @@ Grants of up to $500 per family are available for VIS attendees who incur extra 
 
 ### Application and deadline
 
-* [Application Form](https://forms.gle/bQa6pWdvZnvFtnLeA)
-* Deadline: August 31, 2021
-* Notification: September 15, 2021
+* [Application Form](https://forms.gle/7n7pb9KAeGJjFCH67)
+* Deadline: August 14, 2022
+* Notifications Sent: Augest 26, 2022
 
 ### VISKids Community
 
