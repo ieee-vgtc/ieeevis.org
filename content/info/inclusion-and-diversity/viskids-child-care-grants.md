@@ -46,10 +46,6 @@ Grants of up to $500 per family are available for VIS attendees who incur extra 
 * Deadline: August 14, 2022
 * Notifications Sent: Augest 26, 2022
 
-### VISKids Community
-
-We share further information with the VISKids Community in an [online document](https://docs.google.com/document/d/1S5nkD4exOvY2hDn747RXfVjJCype4Co5iKYAutsT2WY/edit?usp=sharing). We invite you to participate and share your ideas and tips.
-
 ### Contact
 
 Please contact [VISKids@ieeevis.org](mailto:VISKids@ieeevis.org) with any questions about the
@@ -58,12 +54,21 @@ childcare grants program.
 ### Support VISKids
 
 If you are interested in being a VISKids supporter, please contact [supporters@ieeevis.org](mailto:supporters@ieeevis.org).
- 
+
+
+## VISKids Events
+
+### VISKids Room
+Throughout the duration of the conference, VISKids will have a room for meetings, discussions, play, and personal considerations (e.g., nursing). Kids are very welcome and encouraged to come hang-out!
+
+### VISKids Hello
+At the beginning of the conference, we will have a short gathering to inform about the VISKids grants and activities. The VISKids co-chairs will answer all questions. Everyone is welcome.
+
+### VISKids Community
+We share further information with the VISKids Community in an [online document](https://docs.google.com/document/d/1S5nkD4exOvY2hDn747RXfVjJCype4Co5iKYAutsT2WY/edit?usp=sharing). We invite you to participate and share your ideas and tips.
+
 **NOTE: There will be no conference sponsored childcare services
 on-site at the meeting or satellite events. The conference does not sanction or recommend
 specific childcare providers, and does not assume responsibility or
 liability for childcare services of any sort. It is the responsibility
 of the parent(s) to thoroughly investigate all childcare providers.**
-  
-
-
