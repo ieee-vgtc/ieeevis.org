@@ -20,7 +20,7 @@ The VIS 2021 Inclusivity & Diversity Scholarship Committee will review applicati
 
 * [Application form](https://forms.gle/VF7YZfEcN4Couz8W9) 
 * Deadline: August 14, 2022
-* Notifications Sent: Augest 26, 2022
+* Notifications Sent: August 26, 2022
 
 ### Inclusivity & Diversity Scholarship Chairs
 
