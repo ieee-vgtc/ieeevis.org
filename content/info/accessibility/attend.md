@@ -5,7 +5,7 @@ permalink: /info/accessibility/attend
 contact: accessibility@ieeevis.org
 ---
 
-IEEE VIS seeks to cultivate an environment that encourages participation and inclusion. Our goal is to make IEEV VIS 2022 as accessible as possible. The following is information about the accessibility of various components of VIS 2022. If you like to learn about our VIS Accessibility Guide for VIS 2022 authors on how to make your pdf accessible, please refer to [this guide](/year/2022/info/call-participation/make-pdf-accessible). Please get in touch with us at [accessibility@ieeevis.org](mailto:accessibility@ieeevis.org) if you have questions, concerns, or would like to provide feedback.
+IEEE VIS seeks to cultivate an environment that encourages participation and inclusion. Our goal is to make IEEE VIS 2022 as accessible as possible. The following is information about the accessibility of various components of VIS 2022. If you like to learn about our VIS Accessibility Guide for VIS 2022 authors on how to make your pdf accessible, please refer to [this guide](/year/2022/info/call-participation/make-pdf-accessible). Please get in touch with us at [accessibility@ieeevis.org](mailto:accessibility@ieeevis.org) if you have questions, concerns, or would like to provide feedback.
 
 ## Communicating accessibility needs
 During registration, you can indicate that you have accessibility needs. We will follow up with you to discuss your needs in more detail. If you find that any of the online platforms do not support your needs, you can contact [accessibility@ieeevis.org](mailto:accessibility@ieeevis.org), and we will work with you to ensure you can participate on the platforms.
