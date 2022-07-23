@@ -17,6 +17,8 @@ Grants of up to $500 per family are available for VIS attendees who incur extra 
 
 See the dedicated page for [child care grants](./viskids-child-care-grants) for details.
 
+### VISKids Room
+Throughout the duration of the conference, VISKids will have a room for meetings, discussions, play, and personal considerations (e.g., nursing). Kids are very welcome and encouraged to come hang-out!
 
 ### VISKids Hello
 
