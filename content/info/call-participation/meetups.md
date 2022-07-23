@@ -51,7 +51,7 @@ Note: Meetups submission made by August 6 may have the chance to be included in 
 Rolling submission: Submissions after the early submission deadline will be considered subject to timeslot availability. Later submissions will be processed and notified within a couple of days.
 
 
-| Rolling Submission | **From August 19, 2022 to October 15, 2021** | 
+| Rolling Submission | **From August 19, 2022 to October 15, 2022** | 
 | Notification | **Within a few days** |
 
 
