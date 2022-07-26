@@ -122,7 +122,7 @@ Recorded presentation videos for speakers that cannot attend the conference on-s
 
 Recorded videos must be formatted and named following the VIS talk recording guidelines.
 
-To make full use of the 16x9 video aspect ratio we recommend using the 16x9 wide format Powerpoint template that can be used for your presentation.  Feel free to download the template with [imperial measurements]({{ 'assets/vis2021-16x9-imperial.pptx' | relative_url }}) or [metric measurements]({{ 'assets/vis2021-16x9-metric.pptx' | relative_url }}).
+To make full use of the 16x9 video aspect ratio we recommend using the 16x9 wide format Powerpoint template that can be used for your presentation.  Feel free to download the template with [imperial measurements]({{ 'assets/vis2022-16x9-imperial.pptx' | relative_url }}) or [metric measurements]({{ 'assets/vis2022-16x9-metric.pptx' | relative_url }}).
 
 All video submissions must meet the following requirements:
 - 1920x1080 resolution at 30FPS
