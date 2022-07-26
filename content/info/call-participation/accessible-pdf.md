@@ -49,7 +49,7 @@ Microsoft Word can produce accessible documents. This works in most versions of 
 
 
 ### For LaTeX Users
-1. Download the latest [template](https://github.com/ieeevgtc/tvcg-journal-latex/releases).
+1. Download the latest [template and follow the formatting guidelines](https://tc.computer.org/vgtc/publications/journal/).
 2. **Use appropriate commands to create sections**, ordered/unordered lists, figures, tables, equations, etc.
 
 ## Adding Accessibility Metadata to a PDF
