@@ -143,15 +143,16 @@ All video submissions must meet the following requirements:
 
 We recommend using [OBS Studio](https://obsproject.com/) to record your presentation, which is free and cross-platform.
 If you are familiar with other recording software please feel free to use it instead.
-Watch our tutorial on [Youtube](https://youtu.be/yg1P_Infw5A) or via [direct download](http://sci.utah.edu/~will/public/vis2020-recording-tutorial.mp4)
-for a guide on how to use OBS Studio to record your talk,
-should you choose to use it.
-Please also see our [guide](/year/2021/assets/vis2021-talk-recording-guide.pdf)
+Please see our [guide](/year/2022/assets/vis2022-talk-recording-guide.pdf)
 for information on recording a compelling and high-quality talk.
+You can also watch our tutorial on [Youtube](https://youtu.be/yg1P_Infw5A) or via [direct download](http://sci.utah.edu/~will/public/vis2020-recording-tutorial.mp4)
+from previous years for a guide on how to use OBS Studio to record your talk,
+should you choose to use it (some instructions might be outdated, though).
 We do not recommend using Powerpoint’s built in recording since the recording is done per-slide,
 so if you speak during a slide transition **the audio will not be recorded**. These issues can be tough to catch and fix. 
 
 After recording your talk, please rewatch it to ensure the video and audio are recorded correctly.
+Once you have uploaded the talk via Dropbox, you should also check the results of the automatic check using the provided link in the email that contains the Dropbox upload request link. We recommend to upload the video as early as possible so that you have enough time to fix raised issues before the deadline.
   
   
 ## Mandatory: Providing Subtitles with Your Video
