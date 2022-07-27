@@ -27,13 +27,12 @@ Your paper will be read in different ways: on paper, on screen, through speech, 
 
 You can make your submission document accessible by following these steps:
 
-1.**Mark up content such as headings and lists appropriately**, using the correct Word template style or LaTeX markup.
+1. **Mark up content such as headings and lists appropriately**, using the correct Word template style or LaTeX markup.
 2. **Don’t rely only on color**. Charts that rely only on color to differentiate elements may not be usable for those of us with color vision differences, or for those who print papers in black and white. In figures, legends and the text that refers to the figures, use different shapes and patterns to provide another way to visually distinguish elements.
 3. **Provide a text description for all figures.** Figure descriptions are different to figure captions. Descriptions are an alternative to seeing the figure, and should provide important information that is not already in the paper or the caption.  Do not simply repeat the caption. 
 4. **Create every table as a real table**, not an image, and indicate which cells are headers.
 5. **Create every equation as a marked-up equation**, not an image of an equation.
 6. **Set the metadata** of your document.
-
 
 
 ### For Word Users
