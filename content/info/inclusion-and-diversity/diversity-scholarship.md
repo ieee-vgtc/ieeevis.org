@@ -13,7 +13,7 @@ Eligible applicants are from underrepresented and/or marginalized groups includi
 The VIS 2021 Inclusivity & Diversity Scholarship Committee will review applications based on eligibility, need, and impact. Scholarships awarded will include:
 
 * Complimentary conference registration.
-* Based on need, fund will be provided for recipients that might not otherwise be able to attend the conference. Funds can be used to help support registration cost, WiFi hotspot expenses, and childcare. Recipients will need to keep original expense receipts and evidence of payment up to the subscribed limits for reimbursement once the conference is over. 
+* Based on need, fund will be provided for recipients that might not otherwise be able to attend the conference. Funds can be used to help support registration cost, travel, lodging, WiFi hotspot expenses, childcare, and other costs of attending. Recipients will need to keep original expense receipts and evidence of payment up to the subscribed limits for reimbursement once the conference is over. 
 * An assigned a mentor to guide receipients through the conference experience. 
 
 ### Application and Timeline:
