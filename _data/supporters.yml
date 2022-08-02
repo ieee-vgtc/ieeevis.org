@@ -41,11 +41,6 @@
      - name: "Unviversity of Oklaoma"
        image: /assets/supporters/okl.png
        url: "https://www.ou.edu/disc"
-      
- #    - name: "Fraunhofer IGD"
- #      image: /assets/supporters/igd.png
- #      url: "https://www.igd.fraunhofer.de/en"
-
 
  - category: Pearl
    image_size: 100
@@ -56,7 +51,10 @@
      - name: "Uncharted Software"
        image: /assets/supporters/uncharted.png
        url: "https://uncharted.software/"
-       
+     - name: "Fraunhofer IGD"
+       image: /assets/supporters/igd.png
+       url: "https://www.igd.fraunhofer.de"
+
  #    - name: "SCI"
  #      image: /assets/supporters/sci.png
  #      url: "https://www.sci.utah.edu/"
