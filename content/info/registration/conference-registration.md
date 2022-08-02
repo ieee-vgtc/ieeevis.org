@@ -8,6 +8,10 @@ contact: finance@ieeevis.org
 ## VIS 2022: HYBRID EVENT REGISTRATION
 The 2022 IEEE Visualization and Visual Analytics Conference, running from October 16 - 21, is organized for the first time as a hybrid event. The on-site component of the conference will take place at the Omni Oklahoma City Hotel in Oklahoma City, Oklahoma, USA. The virtual component of the conference will provide access to the VIS community around the world who might not be able to travel with streaming sessions, live questions for presenters, and downloadable proceedings. 
 
+
+<a class="button" href="https://cvent.me/BW8evm">REGISTER NOW</a>
+
+
 ### Important Dates
 <ul>
 <li>Registration opening: July 31</li>
@@ -79,6 +83,7 @@ The 2022 IEEE Visualization and Visual Analytics Conference, running from Octobe
 <li>We will offer free virtual registration to individuals residing in countries where the per capita Gross National Income (GNI) is US$15,000 or less.  If you qualify, select the Diversity Admission option. <a href="https://www.ieee.org/membership/join/emember-countries.html">See list here</a>.</li>
 <li>Individuals who need financial assistance but reside in a country not included on the Diversity Admission list, can select the Inclusivity Admission option for a free virtual registration.</li>
 </ul>
+<a class="button" href="https://www.eventbrite.com/e/372186488807/">DIVERSITY AND INCLUSIVITY REGISTRATION ONLY</a>
 
 
 ### On-Site Participant Registration Fees
