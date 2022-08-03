@@ -29,6 +29,10 @@
      - name: "Autodesk"
        image: /assets/supporters/autodesk.png
        url: "https://www.autodesk.com/research"
+
+     - name: "KAUST"
+       image: /assets/supporters/vcc_kaust.png
+       url: "http://vcc.kaust.edu.sa/"
       
  #    - name: "Microsoft"
  #      image: /assets/supporters/microsoft.png
