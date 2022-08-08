@@ -86,4 +86,4 @@ The Best Poster awards will recognize the most outstanding poster contributions.
 * Vijay Natarajan, *IISc Bangalore*
 * Adam Perer, *Carnegie Mellon University*
 
-*Email: [posters(at)ieeevis.org](mailto:posters@ieeevis.org)*
+*Email: [posters@ieeevis.org](mailto:posters@ieeevis.org)*

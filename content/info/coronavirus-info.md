@@ -37,4 +37,4 @@ The safety and well-being of all conference participants is our main priority. W
 
 This is a great community, and if you need to drop out for a while to prioritize other things, then you should do so with our sincerest best wishes.  At the same time, we appreciate the strong response across our community to see IEEE VIS through these challenging times by working together.
 
-If you have any questions or need additional information, please email us for further details: [info(at)ieeevis.org](mailto:info@ieeevis.org)
+If you have any questions or need additional information, please email us for further details: [info@ieeevis.org](mailto:info@ieeevis.org)
