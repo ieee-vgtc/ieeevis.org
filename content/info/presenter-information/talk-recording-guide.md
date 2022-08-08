@@ -83,8 +83,8 @@ Your submission consists of three pieces:
     * A 25-second video that clearly communicates the research and contribution, inviting readers to read your paper.
     * Please do NOT include the paper title or authors' information. The FF chairs will add these as a 5-second title slide in front of your 25-second video in a consistent way.
     * Must be self-contained.
-    * Despite recent years’ Fast-Forwards sessions, we discourage humor and trailer-like ‘ads’ because the video will exist for a long time and can be shared widely by the authors on social media and other channels.
-    * Should contain audio narration. However, we discourage background music and request that the video focuses viewers’ attention on the content.
+    * Despite recent years' Fast-Forwards sessions, we discourage humor and trailer-like ‘ads' because the video will exist for a long time and can be shared widely by the authors on social media and other channels.
+    * Should contain audio narration. However, we discourage background music and request that the video focuses viewers' attention on the content.
     * Subtitles are mandatory to increase accessibility. See below for tips on how to create and include subtitles
     * File Name: `[UniquePaperID]_[FirstAuthorLastName]_Preview.mp4` 
         * Example: `v-full_0001_Smith_Preview.mp4`
@@ -131,7 +131,7 @@ All video submissions must meet the following requirements:
   - 500MB for VIS Full and Short papers
   - Associated event talk sizes and lengths may vary, please see your associated event for details
 - MPEG-4 using H.264 encoding (file extension is .mp4)
-- Audio: We discourage salient music to focus viewers’ attention on the content. If you want to have music, you must certify that any audio is free from copyright or that you are licensed to use it.
+- Audio: We discourage salient music to focus viewers' attention on the content. If you want to have music, you must certify that any audio is free from copyright or that you are licensed to use it.
 - Verification:
   - To encode/re-encode your video in the right format, you can use the free software [Handbrake](https://handbrake.fr/)
   - To check that your video is in the right format, you can use the free software [MediaInfo](https://mediaarea.net/en/MediaInfo)
@@ -148,7 +148,7 @@ for information on recording a compelling and high-quality talk.
 You can also watch our tutorial on [Youtube](https://youtu.be/yg1P_Infw5A) or via [direct download](http://sci.utah.edu/~will/public/vis2020-recording-tutorial.mp4)
 from previous years for a guide on how to use OBS Studio to record your talk,
 should you choose to use it (some instructions might be outdated, though).
-We do not recommend using Powerpoint’s built in recording since the recording is done per-slide,
+We do not recommend using Powerpoint's built in recording since the recording is done per-slide,
 so if you speak during a slide transition **the audio will not be recorded**. These issues can be tough to catch and fix. 
 
 After recording your talk, please rewatch it to ensure the video and audio are recorded correctly.
@@ -164,7 +164,7 @@ Please note two important things for this:
 2. if you use a social media platform to generate subtitles, please do not publish the video completely (not even private or unlisted) as it will interfere with the conference and will increase the work on the student volunteers and might lead to delays.  
   
 There are also a number of paid services that enable the transcription of videos, such as Amberscript. Lastly, it is also possible to manually create the subtitles using for example the YouTube captioning tool, Adobe Premiere Pro, or Amara.
-Regardless of the tool you are using, please make sure that the subtitles are accurate and correctly timed for the benefit of all attendees. Videos containing subtitles have a considerably higher engagement and retention rate than one’s without.
+Regardless of the tool you are using, please make sure that the subtitles are accurate and correctly timed for the benefit of all attendees. Videos containing subtitles have a considerably higher engagement and retention rate than one's without.
   
 After the captions have been created (automatically or by hand), you can download them by going to the subtitles page when editing your video information in YouTube Studio. You can then click the three dots next to the subtitles you want to download and select download from the menu to download the .sbv or .srt file containing your subtitles. Make sure that you manually correct the generated subtitles for errors by directly editing the .srt file in a text editor. Include this file with your video, following the same naming convention: `[UniquePaperID]_[FirstAuthorLastName]_<Presentation|Preview>.sbv` or `[UniquePaperID]_[FirstAuthorLastName]_<Presentation|Preview>.srt`. This process is also demonstrated in our [talk recording tutorial on Youtube](https://youtu.be/yg1P_Infw5A) or via [direct download](http://sci.utah.edu/~will/public/vis2020-recording-tutorial.mp4).
   
@@ -175,11 +175,11 @@ If you create the captions using a different software package, subtitles in the 
 
 ## Questions
 
-For questions or more information, please email tech@ieeevis.org.
+For questions or more information, please email [tech@ieeevis.org](mailto:tech@ieeevis.org).
 
 ### Tech Chairs
 
-- Johannes Knittel, University of Stuttgart
-- John Thompson, Microsoft Research
-- John Wenskovitch, PNNL
-- Alexander Bock, Linköping University 
+* Johannes Knittel, *University of Stuttgart*
+* John Thompson, *Microsoft Research*
+* John Wenskovitch, *PNNL*
+* Alexander Bock, *Linköping University*
