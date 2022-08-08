@@ -147,12 +147,10 @@ We ask that you submit a .srt file along with your video. One way to create such
 
  -->
 
-For questions or more information, please email ff@ieeevis.org.
 
-
-
-
-Video Previews Chairs
+## Video Previews Chairs
 
 - Arjun Srinivasan, *Tableau Research*
 - Jun Tao, *Sun Yat-sen University*
+
+*Email: [ff@ieeevis.org](mailto:ff@ieeevis.org)*
