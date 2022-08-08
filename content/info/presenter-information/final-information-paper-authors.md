@@ -92,7 +92,7 @@ We are looking forward to an exciting and vibrant IEEE VIS 2022!
 * Gautam Chaudhary, *Alcon* 
 * Joshua A. Levine, *University of Arizona* 
 
-*Email: [program(at)ieeevis.org](mailto:program@ieeevis.org)*
+*Email: [program@ieeevis.org](mailto:program@ieeevis.org)*
 
 ### Publication Chairs
 
@@ -100,6 +100,6 @@ We are looking forward to an exciting and vibrant IEEE VIS 2022!
 * Jian Zhao, *University of Waterloo*
 * Katerina Vrotsou, *Linkoping University*
 
-*Email: [publications(at)ieeevis.org](mailto:publications@ieeevis.org)*
+*Email: [publications@ieeevis.org](mailto:publications@ieeevis.org)*
 
 
