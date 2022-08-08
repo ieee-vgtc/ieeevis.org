@@ -30,7 +30,7 @@ Instead of appearing in TVCG, your VIS paper could appear in the fully-open-acce
 For short papers and other conference proceedings that do not appear in the TVCG Special Issue, [IEEE does not currently have an open access option](https://www.ieee.org/content/dam/ieee-org/ieee/web/org/pubs/author_version_faq.pdf). One option we are pursuing:
 Your paper could appear instead in the fully-open-access IEEE Open Journal of the Computer Society.
 
-If you have any questions, please reach out to the VIS Open Practices chairs (Lonni Besançon, Cody Dunne, and Carlos Scheidegger) at: open_practices@ieeevis.org.
+If you have any questions, please reach out to the VIS Open Practices chairs (Lonni Besançon, Cody Dunne, and Carlos Scheidegger) at: [open_practices@ieeevis.org](mailto:open_practices@ieeevis.org).
 
 **For everybody:**
 

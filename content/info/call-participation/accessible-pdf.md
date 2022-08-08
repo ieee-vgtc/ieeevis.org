@@ -93,5 +93,14 @@ If you have followed the above steps, your final documents should be accessible.
 3. Use the default options, and select `Start Checking`. An accessibility check will be performed, and the report will be generated.
 4. You should now be able to see an overview in the `Accessibility Checker` side panel.
 Verify that none of the checks have failed here.
-Some checks (e.g "Logical Reading Order") might give you a warning saying “Needs manual check”; these can be ignored.
-5. The `Headings` section might indicate that the “Appropriate Nesting” check failed; this can be ignored too.
+Some checks (e.g "Logical Reading Order") might give you a warning saying "Needs manual check"; these can be ignored.
+5. The `Headings` section might indicate that the "Appropriate Nesting" check failed; this can be ignored too.
+
+## Contact
+
+### Accessibility Chairs
+
+* Yea-Seul Kim *University of Wisconsin Madison*
+* Dominik Moritz *Carnegie Mellon University*
+
+*Email: [accessibility@ieeevis.org](mailto:accessibility@ieeevis.org)*
