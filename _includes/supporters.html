@@ -13,7 +13,7 @@
                     <div class="flex flex-wrap items-center">
                         {% for supporter in category.supporters %}
                             <a href="{{ supporter.url }}" target="_blank">
-                                <img class="mr-8 mb-10 supporter__logo {% if category.image_size %} supporter__logo--custom {% endif %}"
+                                <img class="mr-8 mb-6 supporter__logo {% if category.image_size %} supporter__logo--custom {% endif %}"
                                      width="{% if category.image_size %} {{category.image_size}} {% endif %}"
                                      src="{{ supporter.image | relative_url }}"
                                      alt="{{ supporter.name }}">

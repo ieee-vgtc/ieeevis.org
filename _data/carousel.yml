@@ -50,11 +50,17 @@
 #   button-url: "/info/satellite"
 #   image: "earth.jpg"
 
-# - title: "Supporters"
-#   image: "supporters.png"
-#   title: "IEEE VIS is made possible by our supporters"
-#   button-text: "Become a supporter"
-#   button-url: "/info/exhibition/supporters-and-exhibition"
+- title: "IEEE VIS is made possible by our supporters"
+  image: "20220810_supporters.png"
+  button-text: "Become a supporter"
+  button-url: "/info/exhibition/supporters-and-exhibition"
+  active: "active"
+
+- title: "Registration"
+  description: "Full week, one day, two day, and keynote + capstone registrations are still available."
+  button-text: "Register Now"
+  button-url: "/year/2022/info/registration/conference-registration"
+  image: 'small_exposure_lights.png'
 
 # - title: "Nominate VIS 2021 Committees"
 #   description: "Deadline extended to July 8! Nominate candidates to represent you on the VIS Steering Committee (VSC) and VIS Executive Committee (VEC)."
