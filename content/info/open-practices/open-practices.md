@@ -94,8 +94,6 @@ Please see also the [supplemental material FAQ](supplemental-material-faq), in w
 * [Should I specify a license for supplemental materials](supplemental-material-faq#should-i-specify-a-license-for-supplemental-materials) and, if so, [what license should I choose?](supplemental-material-faq#what-license-should-i-choose)
 
 
-
-
 ## Questions, comments, concerns?
 
-If you have any questions or concerns related to this page or open practices, please contact the Open Practice chairs: open_practices@ieeevis.org.
+If you have any questions or concerns related to this page or open practices, please contact the Open Practice chairs: [open_practices@ieeevis.org](mailto:open_practices@ieeevis.org).

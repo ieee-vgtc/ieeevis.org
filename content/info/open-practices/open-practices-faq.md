@@ -98,4 +98,4 @@ Please see our blog post on [Publishing papers covered under Plan S](../../blog/
 
 ## What if I have questions, comments, concerns?
 
-If you have any questions or concerns related to this page or open practices, please contact the Open Practice chairs: open_practices@ieeevis.org.
+If you have any questions or concerns related to this page or open practices, please contact the Open Practice chairs: [open_practices@ieeevis.org](mailto:open_practices@ieeevis.org).

@@ -114,7 +114,7 @@ You have **no Video-Preview** to submit for the following tracks:
 - Tutorials
 
 ## How to record your video?
-Please see the [Talk Recording Guide](/year/2021/info/presenter-information/talk-recording-guide) on how to format your Video Preview.
+Please see the [Talk Recording Guide](/year/2022/info/presenter-information/talk-recording-guide) on how to format your Video Preview.
 
  
 ## How to submit?
@@ -147,12 +147,10 @@ We ask that you submit a .srt file along with your video. One way to create such
 
  -->
 
-For questions or more information, please email ff@ieeevis.org.
 
-
-
-
-Video Previews Chairs
+## Video Previews Chairs
 
 - Arjun Srinivasan, *Tableau Research*
 - Jun Tao, *Sun Yat-sen University*
+
+*Email: [ff@ieeevis.org](mailto:ff@ieeevis.org)*

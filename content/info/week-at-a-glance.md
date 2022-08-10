@@ -146,4 +146,4 @@ Organizers: Tushar Athawale, Kenneth Moreland, David Pugmire, Silvio Rizzi, Mark
 * Gautam Chaudhary, *Alcon* 
 * Joshua A. Levine, *University of Arizona* 
 
-*Email: [program(at)ieeevis.org](mailto:program@ieeevis.org)*
+*Email: [program@ieeevis.org](mailto:program@ieeevis.org)*

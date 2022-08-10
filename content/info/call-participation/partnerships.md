@@ -29,4 +29,4 @@ Starting in 2022, authors of selected papers from IEEE VR, the IEEE Conference o
 
 Like with SIGGRAPH, these talks are collected in one VR-focused session.
 
-Email: [program(at)ieeevis.org](mailto:program@ieeevis.org)
+Email: [program@ieeevis.org](mailto:program@ieeevis.org)
