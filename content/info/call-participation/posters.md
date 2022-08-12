@@ -38,7 +38,7 @@ Summaries should include a concise description of the idea, the results or findi
 
 Two page summary: Authors whose posters are accepted for IEEE VIS will be asked to refine their two-page summaries based upon feedback from reviewers and submit an electronic poster. Use the same format as the initial submission.
 
-Poster: PDF format, A0 size.
+Poster: PDF format, A0 size, preferably portrait.
 
 Preview Image: PNG format, Size 1920 x 1080
 
