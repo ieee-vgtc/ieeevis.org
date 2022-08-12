@@ -199,19 +199,19 @@ menu:
                   - text: "Tutorials"
                     description: "Learn new tools and application domains"
                     url: "/year/2022/info/tutorials"
-                    is_new: true
+                    #is_new: true
                   - text: "Workshops"
                     description: "Informal setting to discuss emerging topics"
                     url: "/year/2022/info/workshops"
+                    #is_new: true
+                  - text: "Panels"
+                    description: "Discuss important and controversial issues"
+                    url: "/year/2022/info/panels"
                     is_new: true
-#                   - text: "Panels"
-#                     description: "Discuss important and controversial issues"
-#                     url: "/year/2022/info/panels"
-                    #is_new: true
-                  #- text: "Application Spotlights"
-                  #  description: "Showcase practical, real-world applications of visualization"
-                  #  url: "/year/2022/info/spotlights"
-                    #is_new: true
+                  - text: "Application Spotlights"
+                    description: "Showcase practical, real-world applications of visualization"
+                    url: "/year/2022/info/spotlights"
+                    is_new: true
 
       - subsections:
   #        - heading: "Plenary Sessions"
