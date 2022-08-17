@@ -24,7 +24,7 @@
  #      url: "https://www.tableau.com/"
 
  - category: Platinum
-   image_size: 150
+   image_size: 315
    supporters:
      - name: "Tableau"
        image: /assets/supporters/Tableau-Logo-CMYK.png
