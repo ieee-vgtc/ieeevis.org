@@ -23,12 +23,12 @@
  #      image: /assets/supporters/tableau.jpg
  #      url: "https://www.tableau.com/"
 
-- category: Platinum
-  image_size: 150
-  supporters:
-    - name: "Tableau"
-      image: /assets/supporters/Tableau-Logo-CMYK.png
-      url: "https://www.tableau.com/"
+ - category: Platinum
+   image_size: 150
+   supporters:
+     - name: "Tableau"
+       image: /assets/supporters/Tableau-Logo-CMYK.png
+       url: "https://www.tableau.com/"
 
  - category: Silver
    image_size: 240
