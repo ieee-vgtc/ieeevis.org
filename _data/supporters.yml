@@ -23,6 +23,13 @@
  #      image: /assets/supporters/tableau.jpg
  #      url: "https://www.tableau.com/"
 
+- category: Platinum
+  image_size: 150
+  supporters:
+    - name: "Tableau"
+      image: /assets/supporters/Tableau-Logo-CMYK.png
+      url: "https://www.tableau.com/"
+
  - category: Silver
    image_size: 240
    supporters:
@@ -37,7 +44,7 @@
      - name: "University of Oklahoma"
        image: /assets/supporters/uofoklahoma.png
        url: "ou.edu"
-      
+
  #    - name: "Microsoft"
  #      image: /assets/supporters/microsoft.png
  #      url: "https://www.microsoft.com/research"
@@ -69,7 +76,7 @@
  #    - name: "SCI"
  #      image: /assets/supporters/sci.png
  #      url: "https://www.sci.utah.edu/"
-      
+
  #    - name: "Harvard Medical School"
  #      image: /assets/supporters/harvard.png
  #      url: "https://dbmi.hms.harvard.edu/education/master-biomedical-informatics"
@@ -77,7 +84,7 @@
 
  # - category: Diversity/Inclusivity Scholarships
  #   supporters:
-      
+
 #    - name: "Data Intensive Science"
 #      image: /assets/supporters/data_intensive_science.jpg
 #      url: "https://dataintensivescience.org/"

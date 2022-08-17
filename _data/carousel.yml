@@ -37,7 +37,7 @@
 #   description: "Due to the ongoing COVID-19 pandemic, VIS 2022 will be held in Oklahoma City, OK, and the Melbourne, Australia event will be postponed until 2023. "
 #   button-text: "Read more"
 #   button-url: "/blog/vis-22-in-oklahoma"
-  
+
 # - title: "Vote in VIS 2021 Elections"
 #   description: "Register by Sep. 10 to vote in the VIS 2021 elections! Eligible voters are active members of the VIS community, who have participated in 3 out of the 5 most recent VIS conferences (upcoming 2021 included)."
 #   button-text: "Register To Vote"
@@ -51,7 +51,7 @@
 #   image: "earth.jpg"
 
 - title: "IEEE VIS is made possible by our supporters"
-  image: "20220816_supporters.png"
+  image: "20220817_supporters.png"
   button-text: "Become a supporter"
   button-url: "/info/exhibition/supporters-and-exhibition"
   active: "active"
