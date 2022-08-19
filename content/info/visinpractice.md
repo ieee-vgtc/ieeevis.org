@@ -5,62 +5,73 @@ permalink: /info/visinpractice
 contact: vip@ieeevis.org
 ---
 
-The **VisInPractice** associated event at **[IEEE VIS 2021](http://ieeevis.org/year/2021/welcome)** will feature four panels on the practice of visualization.
+The **VisInPractice** associated event at **[IEEE VIS 2022](http://ieeevis.org/year/2021/welcome)** will feature four panels on the practice of visualization.
 
 The **VisInPractice** program is an opportunity for visualization practitioners and researchers to meet and share experiences, insights, and ideas in applying data visualization and visual analytics to real use cases. Our goal is to acknowledge successful transfers of visualization research into applications as well as current visualization practices in industry.
 
+This year's Vis in Practice will be a hybrid event, with panel sessions being simultaneously in person and streamed.
 - - -
 
 # Program
 
-VisInPractice will take place virtually on Monday, October 25, 2021 between 8:00 and 15:30 Central Daylight Time (GMT -5) In the **[#royal](https://virtual.ieeevis.org/year/2021/room_room2.html)** livestream track and Discord channel. More info on the [Virtual IEEE VIS conference site](https://virtual.ieeevis.org/year/2021/event_a-visinpractice.html) (conference registration required).
+VisInPractice will take place on Monday, October 17, 2021 between 9:00 and 5:00 Central Daylight Time (GMT -5)
 
-![Panel 1: Moving between Academia and Industry](https://visinpractice.github.io/assets/a-visinpractice_panel1.png)
+### **Panel:**  _Vis x Accessibility_ (moderated by: Anamaria Crisan)
 
-**Panel 1**: _Moving between Academia and Industry_ (moderated by Zhicheng Leo Liu), 8:00 CDT.
+Description: This panel discussion will explore the opportunities and challenges of making data visualizations accessible toward individuals with vision, motor, and cognitive/neurological disabilities.
 
-Many of us attending IEEE VIS have spent our entire careers in either academia or industry, and sometimes wonder about the grass being greener on the other side. In this panel we bring together four panelists who have experiences in both academia and industry to discuss various topics related to moving between the two sectors. Why does one move back and forth? In what ways are academia and industry similar or different? What are the differences between research labs and product teams in the industry? What affects one’s movability from one place to another? 
+The panelists include: 
+* Frank Elavsky, _Carnegie Mellon University / Apple_
+* Kai Chang, _Google_
+* Jamie Tanner, _The  New York Times_
 
-The panelists include [Hank Childs](http://cdux.cs.uoregon.edu/childs.html) (University of Oregon), [Miguel Encarnação](https://t.co/pSaHTS8XWG?amp=1) (Regions Financial Corporation and University of Iowa), [Melanie Tory](https://www.melanietory.com/) (Northeastern University) and [Jian Zhao](https://www.jeffjianzhao.com/) (University of Waterloo). 
+### **Panel:** _Integrating Research and Products_ (moderated by: Zhicheng (Leo) Liu)
 
-![Panel 2: Tools of the Trade](https://visinpractice.github.io/assets/a-visinpractice_panel2.png)
+Description: Being successful in both research and products is often difficult, requiring carefully choosing project topics and balancing between multiple goals. This panel will focus on the factors and processes in transferring research results into products, as well as experiences on how products can inspire and shape research ideas. 
 
-**Panel 2**: _Tools of the Trade_ (moderated by Sean McKenna), 10:00 CDT.
+The panelists include:
+* Richard Brath, _Uncharted_
+* Dominik Moritz, _Apple_
+* Liu Ren, _Bosch_
+* Vidya Setlur, _Tableau_ 
 
-Today, data visualization practitioners are flooded with a barrage of different tools at their disposal, from libraries (D3) to applications (Tableau, Power BI) to entire platforms (Observable, Jupyter). How do we manage it all? Come explore and discuss this space with industry practitioners and experts that consume with these tools and build new tools on a daily basis. What limitations and trade-offs are there when selecting between different tools for different audiences? How can we promote stronger engagement between researchers and practitioners as we build these tools? What upcoming challenges will we face with the next generation of data vis tools? 
-        
-The panelists include: [Zan Armstrong](https://www.zanarmstrong.com/) (Observable), [Stephanie Kirmer](https://skirmer.github.io/) (project44), [Nicolas Kruchten](http://nicolas.kruchten.com/) (Plotly), and [Krist Wongsuphasawat](https://kristw.yellowpigz.com/) (Airbnb).
+### **Panel:** _VisInPractice: Diversity of Ideas_ (moderated by: Sudhanshu Semwal)
 
-![Panel 3: Practioner Collaborations](https://visinpractice.github.io/assets/a-visinpractice_panel3.png)
+Description: This VisInPractice panelist present their mature body of work–providing glimpses of Ideas and application gems, suggesting perhaps sample of some new areas for VisInPractice:
 
+The panelists include: 
+* A. Paz de Araujo, Hanes Oliveira,and David William Silva, _Symmetrix_
+* Hector Gerardo Perez Gonzalez, _University Autonoma de San Luis Potosy_
+* Terry Janssen, _University of Honolulu_
+* Alireza Taheri, _Sharif University of Technology_
 
-**Panel 3**: _Practioner Collaborations_ (moderated by Matt Larsen), 12:00 CDT.
+### **Panel:** _Bridging Academia, Industry, and Government_ (moderated by: Chris Weaver)
 
-Many IEEE VIS attendees are visualization experts that know the tools of the trade well, but for practitioners (i.e., domain scientists), the wealth of tools and techniques available can be overwhelming. Collaborations between visualization experts and domain scientists can have large payoffs, but the collaboration process is challenging. Overcoming different vocabularies, conflicting goals, and overcoming misconceptions are just of few of the challenges faced by both sides of the collaboration. In this panel, we discuss the collaboration process and associated challenges featuring five panelists on both sides: visualization experts and domains scientists. What are the key challegnes of the collaboration process? What were the biggest collaboration successes and failures? How can we effectively overcome language barriers? 
+Description: Visualization practitioners increasingly work in ways that span sectors, requiring extra care and effort to develop common ground and coordinate with people having diverse backgrounds, skills, interests, needs, and perspectives. This panel will focus on experiences in developing a broader reach for applications of visualization and the considerations and practices that have arisen from those experiences.
 
-The panelists include: [Cyrus Harrison](https://people.llnl.gov/harrison37) (Lawrence Livermore National Laboratory), [Janine Bennett](https://scholar.google.com/citations?user=ylETg_gAAAAJ&hl=en)_ (Sandia National Laboratory), [Axel Huebl](https://keybase.io/ax3l) (Lawrence Berkeley National Laboratory), [Renata Raidou](https://renataraidou.com/) (TU Wien), and [Steve Morley](https://scholar.google.com/citations?user=iQdBd5gAAAAJ&hl=en) (Los Alamos National Laboratory).
-
-![Panel 4: Writing About Visualization](https://visinpractice.github.io/assets/a-visinpractice_panel4.png)
-
-**Panel 4**: _Writing About Visualization_ (moderated by Matthew Brehmer), 14:00 CDT.
-
-While IEEE VIS attendees are accustomed to reading and writing academic papers about data visualization, they may be less familiar with non-academic writing dedicated to the subject, writing that is intended primarily for audiences of visualization practitioners. This panel brings together the editors of four unique publications, each with a unique format and set of perspectives on visualization. The panelists include [Mary Aviles](https://maryaviles.com/) (editor of _[Nightingale (Journal of the Data Visualization Society)](https://nightingaledvs.com/)_), [Tiziana Alocci](https://www.tizianaalocci.com/) & [Piero Zagami](https://pierozagami.com/) (co-founders of of _[Market Cafe Magazine](https://www.marketcafemag.com/)_), [Christian Miles](https://twitter.com/intent/follow/?screen_name=cjlmiles) (editor of the _[Source / Target](https://sourcetarget.email/)_ graph newsletter), and [Danielle Szafir](https://danielleszafir.com/) (editor of _[Multiple Views: Visualization Research Explained](https://medium.com/multiple-views-visualization-research-explained)_). Our discussion of publication origin stories and lessons learned will inspire VIS attendees to consider alternative publications, audiences, and formats for communicating their work.
+* Johanna Schmidt, _VRVis_
+* Dave King, _Exaptive_
+* Kim Klockow-McClain, _NOAA_
+* Bill Endres, _Oklahoma University_
 
 - - -
 
-# The VisInPractice 2021 Team
+# The VisInPractice 2022 Team
 
+* Anamaria Crisan, _Tableau Research_
 * Zhicheng (Leo) Liu, _University of Maryland_
-* Sean McKenna, _Lucid Software_
-* Matt Larsen, _Lawrence Livermore National Laboratory_
-* Matthew Brehmer, _Tableau Research_
+* Sudhanshu Semwal, _University of Colorado (Colorado Springs)_
+* Chris Weaver, _University of Oklahoma_
+
 
 **Email:** [vip@ieeevis.org](mailto:vip@ieeevis.org)
 
 **Twitter:** [@visinpractice](https://twitter.com/visinpractice)
 
-# Previous VisInPractice Events 
+- - -
 
+# Previous VisInPractice Events 
+* [VisInPractice 2021](http://ieeevis.org/year/2021/info/visinpractice) (virtual).
 * [VisInPractice 2020](https://visinpractice.github.io/assets/vip2020/index.html) (virtual).
 * [VisInPractice 2019](https://visinpractice.github.io/assets/vip2019/index.html) (Vancouver, Canada).
 * [VisInPractice 2018](https://visinpractice.github.io/assets/vip2018/index.html) (Berlin, Germany).
