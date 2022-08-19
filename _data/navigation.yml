@@ -42,7 +42,7 @@ menu:
               links:
                 - text: "Registration"
                   url: "/year/2022/info/registration/conference-registration"
-                  is_new: true
+                  #is_new: true
                 # - text: "Satellite Sites"
                 #   url: "/year/2022/info/satellite"
                 #    - text: "Practitioner Guide"
@@ -59,10 +59,10 @@ menu:
               links:
                 - text: "Accommodation"
                   url: "/year/2022/info/registration/hotel-information"
-                  is_new: true
+                  #is_new: true
                 - text: "Visa & Travel"
                   url: "/year/2022/info/registration/travel-visas"
-                  is_new: true
+                  #is_new: true
                 # - text: "Things to do in City"
                 #   url: "https://www.google.com"
                 #   is_new: true
@@ -136,13 +136,13 @@ menu:
               - links:
                    - text: "Final Information for Paper Authors"
                      url: "/year/2022/info/presenter-information/final-information-paper-authors"
-                     is_new: true
+                     #is_new: true
                    - text: "Video Previews"
                      url: "/year/2022/info/presenter-information/fast-forward-and-video-previews"
-                     is_new: true
+                     #is_new: true
                    - text: "Recording your Talk"
                      url: "/year/2022/info/presenter-information/talk-recording-guide"
-                     is_new: true
+                     #is_new: true
 #                   - text: "Guidance for Virtual Events"
 #                     url: "/year/2022/info/presenter-information/guidance-for-associated-events"
 #                   - text: "Presenting at the Virtual Conference"
@@ -189,13 +189,14 @@ menu:
             description: "See the conference program"
             columns:
               - links:
-                  #- text: "Papers"
-                  #  description: "The latest research in theory, methods, and applications of visualization"
-                  #  url: "/year/2022/info/papers-sessions"
-                    #is_new: true
-                  #- text: "Posters"
-                  #  description: "Nascent and recent work"
-                  #  url: "/year/2022/info/posters"
+                  - text: "Papers"
+                    description: "The latest research in theory, methods, and applications of visualization"
+                    url: "/year/2022/info/papers-sessions"
+                    is_new: true
+                  - text: "Posters"
+                    description: "Nascent and recent work"
+                    url: "/year/2022/info/posters"
+                    is_new: true
                   - text: "Tutorials"
                     description: "Learn new tools and application domains"
                     url: "/year/2022/info/tutorials"
@@ -207,11 +208,11 @@ menu:
                   - text: "Panels"
                     description: "Discuss important and controversial issues"
                     url: "/year/2022/info/panels"
-                    is_new: true
+                    #is_new: true
                   - text: "Application Spotlights"
                     description: "Showcase practical, real-world applications of visualization"
                     url: "/year/2022/info/spotlights"
-                    is_new: true
+                    #is_new: true
 
       - subsections:
   #        - heading: "Plenary Sessions"
@@ -261,7 +262,7 @@ menu:
                     is_external: true
                   - text: "VisInPractice"
                     description: "Invited talks by visualization practitioners"
-                    #url: "/year/2022/info/visinpractice"
+                    url: "/year/2022/info/visinpractice"
                   - text: "LDAV Symposium"
                     description: "Big Data Analysis and Visualization"
                     url: "https://ldav.org/"
