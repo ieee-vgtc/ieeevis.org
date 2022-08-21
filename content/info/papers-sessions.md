@@ -126,8 +126,8 @@ Authors: Tim Krake, Daniel Klötzl, Bernhard Eberhardt, Daniel Weiskopf
 **SizePairs: Achieving Stable and Balanced Temporal Treemaps using Hierarchical Size-based Paring**<br/>
 Authors: Chang Han, Jaemin Jo, Anyi Li, Bongshin Lee, Oliver Deussen, Yunhai Wang
 
-**Geometry-Aware Merge Tree Comparisons for Time-Varying Data with Interleaving Distances**<br/>
-Authors: Lin Yan, Talha Bin Masood, Farhan Rasheed, Ingrid Hotz, Bei Wang
+**LargeNetVis: visual exploration of large temporal networks based on community taxonomies**<br/>
+Authors: Claudio D. G. Linhares, Jean R. Ponciano, Diogenes S. Pedro, Luis E C Rocha, Agma J. M. Traina, Jorge Poco
 
 **ASTF: Visual Abstractions of Time-Varying Patterns in Radio Signals**<br/>
 Authors: Ying Zhao, Luhao Ge, Huixuan Xie, Genghuai Bai, Zhao Zhang, Qiang Wei, Yun Lin, Yuchao Liu, Fangfang Zhou
@@ -873,8 +873,8 @@ Authors: Mingliang Xue, Zhi Wang, Fahai Zhong, Yong Wang, Mingliang Xu, Oliver D
 **Visualizing Graph Neural Networks with CorGIE: Corresponding a Graph to Its Embedding**<br/>
 Authors: Zipeng Liu, Yang Wang, Jürgen Bernard, Tamara Munzner
 
-**LargeNetVis: visual exploration of large temporal networks based on community taxonomies**<br/>
-Authors: Claudio D. G. Linhares, Jean R. Ponciano, Diogenes S. Pedro, Luis E C Rocha, Agma J. M. Traina, Jorge Poco
+**Comparative Evaluation of Bipartite, Node-Link, and Matrix-Based Network Representations**<br/>
+Authors: Moataz Abdelaal, Nathan D Schiele, Katrin Angerbauer, Kuno Kurzhals, Michael Sedlmair, Daniel Weiskopf
 
 **Understanding Barriers to Network Exploration with Visualization: A Report from the Trenches**<br/>
 Authors: Mashael AlKadi, Vanessa Serrano, James Scott-Brown, Catherine Plaisant, Jean-Daniel Fekete, Uta Hinrichs, Benjamin Bach
@@ -978,8 +978,8 @@ Authors: Ping Hu, Saeed Boorboor, Joseph Marino, Arie E. Kaufman
 *Comparisons*<br/>
 *Session Chair: TBD*
 
-**Comparative Evaluation of Bipartite, Node-Link, and Matrix-Based Network Representations**<br/>
-Authors: Moataz Abdelaal, Nathan D Schiele, Katrin Angerbauer, Kuno Kurzhals, Michael Sedlmair, Daniel Weiskopf
+**Geometry-Aware Merge Tree Comparisons for Time-Varying Data with Interleaving Distances**<br/>
+Authors: Lin Yan, Talha Bin Masood, Farhan Rasheed, Ingrid Hotz, Bei Wang
 
 **Interpretable Anomaly Detection in Event Sequences via Sequence Matching and Visual Comparison**<br/>
 Authors: Shunan Guo, Zhuochen Jin, Qing Chen, David Gotz, Hongyuan Zha, Nan Cao
@@ -1077,6 +1077,4 @@ Authors: Ameya B Patil, Gaëlle Richer, Christopher Jermaine, Dominik Moritz, Je
 **On-Tube Attribute Visualization for Multivariate Trajectory Data**<br/>
 Authors: Yixuan Zhang, Yifan Sun, Joseph D Gaggiano, Neha Kumar, Clio Andris, Andrea G Parker
 <br/>
-
-
 
