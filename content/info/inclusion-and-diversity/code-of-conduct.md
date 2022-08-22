@@ -18,11 +18,24 @@ Please contact [ombuds@ieeevis.org](mailto:ombuds@ieeevis.org) if you experience
 
 The ombuds team for VIS 2022 is: 
 
-- Anastasia Bezerianos
-- Sheelagh Carpendale
-- Gautam Chaudhary
-- Christopher Collins 
-- Kristi Potter 
+<table style="text-align: center;">
+  <tbody>
+    <tr>
+      <td style="padding: 3px; width: 20%;"><img src="/year/2022/assets/ombuds-anastasia.jpeg" alt="ombuds-anastasia" style="min-width: 100px"/></td>
+      <td style="padding: 3px; width: 20%;"><img src="/year/2022/assets/ombuds-sheelagh.jpeg" alt="ombuds-sheelagh" style="min-width: 100px"/></td>
+      <td style="padding: 3px; width: 20%;"><img src="/year/2022/assets/ombuds-gautam.jpeg" alt="ombuds-gautam" style="min-width: 100px"/></td>
+      <td style="padding: 3px; width: 20%;"><img src="/year/2022/assets/ombuds-chris.jpeg" alt="ombuds-chris" style="min-width: 100px"/></td>
+      <td style="padding: 3px; width: 20%;"><img src="/year/2022/assets/ombuds-kristi.jpeg" alt="ombuds-kristi" style="min-width: 100px"/></td>
+    </tr>
+    <tr>
+      <td style="padding: 3px; width: 20%;">Anastasia Bezerianos</td>
+      <td style="padding: 3px; width: 20%;">Sheelagh Carpendale</td>
+      <td style="padding: 3px; width: 20%;">Gautam Chaudhary</td>
+      <td style="padding: 3px; width: 20%;">Christopher Collins</td>
+      <td style="padding: 3px; width: 20%;">Kristi Potter</td>
+    </tr>
+  </tbody>
+</table>
 
 You can also approach individual members of the Ombuds team individually (contact information will be available at Registration) or in person.
 
