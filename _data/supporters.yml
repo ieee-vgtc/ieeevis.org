@@ -44,6 +44,9 @@
     - name: "Fraunhofer IGD"
       image: /assets/supporters/igd.png
       url: "https://www.igd.fraunhofer.de/en"
+    - name: "Springer"
+      image: /assets/supporters/springer.png
+      url: "https://www.springer.com/us"
 
 
  - category: Pearl
