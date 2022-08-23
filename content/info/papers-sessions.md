@@ -7,7 +7,6 @@ permalink: /info/papers-sessions
 
 More detail about papers and their associated presentations will be released with the virtual website.  What follows is a list of papers groups by session.
 
-
 <hr/>
 
 <a>**Tuesday, October 18**</a><br/>
@@ -90,7 +89,7 @@ Authors: Simon Warchol, Robert Krüger, Ajit Johnson Nirmal, Giorgio Gaglia, Jar
 *Transforming Tabular Data and Grammars*<br/>
 *Session Chair: TBD*
 
-**Revealing the Semantics of Data Wrangling Script With COMANTICS**<br/>
+**Revealing the Semantics of Data Wrangling Scripts With COMANTICS**<br/>
 Authors: Kai Xiong, Zhongsu Luo, Siwei Fu, Yongheng Wang, Mingliang Xu, Yingcai Wu
 
 **Visualizing the Scripts of Data Wrangling with SOMNUS**<br/>
@@ -102,7 +101,7 @@ Authors: Ran Chen, Di Weng, Yanwei Huang, Xinhuan Shu, Jiayi Zhou, Guodao Sun, Y
 **HiTailor: Interactive Transformation and Visualization for Hierarchical Tabular Data**<br/>
 Authors: Guozheng Li, Runfei Li, Zicheng Wang, Chi Harold Liu, Min Lu, Guoren Wang
 
-**Animated Vega-Lite: A Unified Grammar of Interactive and Animated Visualizations**<br/>
+**Animated Vega-Lite: Unifying Animation with a Grammar of Interactive Graphics**<br/>
 Authors: Jonathan Zong, Josh M. Pollock, Dylan Wootton, Arvind Satyanarayan
 
 **No Grammar to Rule Them All:  A Survey of JSON-style DSLs for Visualization**<br/>
@@ -210,10 +209,10 @@ Authors: Huijie Guo, Meijun Liu, Bowen Yang, Ye Sun, Huamin Qu, Lei Shi
 **Fiber Uncertainty Visualization for Bivariate Data With Parametric and Nonparametric Noise Models**<br/>
 Authors: Mashael AlKadi, Vanessa Serrano, James Scott-Brown, Catherine Plaisant, Jean-Daniel Fekete, Uta Hinrichs, Benjamin Bach
 
-**Evaluating the Use of Uncertainty Visualisations for Imputations of Missing Values in Scatterplots**<br/>
+**Evaluating the Use of Uncertainty Visualisations for Imputations of Data Missing At Random in Scatterplots**<br/>
 Authors: Lu Ying, Xinhuan Shu, Dazhen Deng, Yuchen Yang, Tan Tang, Lingyun Yu, Yingcai Wu
 
-**Dispersion vs Disparity: Hiding Uncertainty Can Encourage Stereotyping When Visualizing Social Outcomes**<br/>
+**Dispersion vs Disparity: Hiding Variability Can Encourage Stereotyping When Visualizing Social Outcomes**<br/>
 Authors: Sunwoo Ha, Shayan Monadjemi, Roman Garnett, Alvitta Ottley
 
 **Communicating Uncertainty in Digital Humanities Visualization Research**<br/>
@@ -288,7 +287,7 @@ Authors: Marco Angelini, Graziano Blasilli, Simone Lenti, Alessia Palleschi, Giu
 **KiriPhys: Exploring New Data Physicalization Opportunities**<br/>
 Authors: Foroozan Daneshzand, Charles Perin, Sheelagh Carpendale
 
-**Transtopia: Supporting Expressive and Faithful Pictograph Design with Visual Style Transfer**<br/>
+**Supporting Expressive and Faithful Pictorial Visualization Design with Visual Style Transfer**<br/>
 Authors: Yang Shi, Pei Liu, Siji Chen, Mengdi Sun, Nan Cao
 
 **Self-Supervised Color-Concept Association via Image Colorization**<br/>
@@ -324,7 +323,7 @@ Authors: Anjul Kumar Tyagi, Cong Xie, Klaus Mueller
 **HetVis: A Visual Analysis Approach for Identifying Heterogeneity in Federated Learning**<br/>
 Authors: Xumeng Wang, Wei Chen, Jiazhi Xia, Zhen Wen, Rongchen Zhu, Tobias Schreck
 
-**Visual Exploration of Large-Scale Image Datasets for Machine Learning with Treemaps**<br/>
+**DendroMap: Visual Exploration of Large-Scale Image Datasets for Machine Learning with Treemaps**<br/>
 Authors: Donald R Bertucci, Md Montaser Hamid, Yashwanthi Anand, Anita Ruangrotsakun, Delyar Tabatabai, Melissa Perez, Minsuk Kahng
 
 **Diagnosing Ensemble Few-Shot Classifiers**<br/>
@@ -354,7 +353,7 @@ Authors: Lu Ying, Xinhuan Shu, Dazhen Deng, Yuchen Yang, Tan Tang, Lingyun Yu, Y
 **Dashboard Design Patterns**<br/>
 Authors: Benjamin Bach, Euan Freeman, Alfie Abdul-Rahman, Cagatay Turkay, Saiful Khan, Yulei Fan, Min Chen
 
-**A Representative Design Space of Multiclass Contour Visualization**<br/>
+**A Framework for Multiclass Contour Visualization**<br/>
 Authors: Sihang Li, Jiacheng Yu, Mingxuan Li, Le Liu, Xiaolong (Luke) Zhang, Xiaoru Yuan
 <br/>
 
@@ -375,10 +374,10 @@ Authors: Tingying He, Petra Isenberg, Raimund Dachselt, Tobias Isenberg
 **Photosensitive Accessibility for Interactive Data Visualizations**<br/>
 Authors: Laura South, Michelle A. Borkin
 
-**Extending assignment inference to colormap data visualizations**<br/>
+**Unifying Effects of Direct and Relational Associations for Visual Communication**<br/>
 Authors: Melissa A. Schoenlein, Johnny Campos, Kevin Lande, Laurent Lessard, Karen Schloss
 
-**A Scanner Deeply: Predicting Human Eye Movement on Visualizations Using Crowdsourced Data Collection**<br/>
+**A Scanner Deeply: Predicting Gaze Heatmaps on Visualizations Using Crowdsourced Eye Movement Data**<br/>
 Authors: Sungbok Shin, Sunghyo Chung, Sanghyun Hong, Niklas Elmqvist
 
 **Studying Early Decision Making with Progressive Bar Charts**<br/>
@@ -393,7 +392,7 @@ Authors: Ameya B Patil, Gaëlle Richer, Christopher Jermaine, Dominik Moritz, Je
 *Digital Humanities, e-Commerce, and Engineering*<br/>
 *Session Chair: TBD*
 
-**CohortVA: A Visual Analytic System for Progressive Exploration of Cohorts based on Historical Data**<br/>
+**CohortVA: A Visual Analytic System for Interactive Exploration of Cohorts based on Historical Data**<br/>
 Authors: Wei Zhang, Jason Kamkwai Wong, Xumeng Wang, Youcheng Gong, Rongchen Zhu, Kai Liu, Zihan Yan, Siwei Tan, Huamin Qu, Siming Chen, Wei Chen
 
 **PromotionLens: Inspecting Promotion Strategies of Online E-commerce via Visual Analytics**<br/>
@@ -408,7 +407,7 @@ Authors: Sayef Azad Sakin, Alex Bigelow, Mohammad Tohid, Connor Scully-Allison, 
 **Visual Analysis and Detection of Contrails in Aircraft Engine Simulations**<br/>
 Authors: Md Nafiul Alam Nipu, Carla Gabriela Floricel, Negar Naghash Zadeh, Roberto Paoli, G. Elisabeta Marai
 
-**DPVisCreator: Incorporating visual constraints to privacy-preserving visualization via differential privacy**<br/>
+**DPVisCreator: Incorporating Pattern Constraints to Privacy-preserving Visualizations via Differential Privacy**<br/>
 Authors: Jiehui Zhou, Xumeng Wang, Jason Kamkwai Wong, Huanliang Wang, Zhongwei Wang, Xiaoyu Yang, Xiaoran Yan, Haozhe Feng, Huamin Qu, Haochao Ying, Wei Chen
 <br/>
 
@@ -462,7 +461,7 @@ Authors: Jiang Wu, Dongyu Liu, Ziyang Guo, Yingcai Wu
 **Tac-Trainer: A Visual Analytics System for IoT-based Racket Sports Training**<br/>
 Authors: Jiachen Wang, Ji Ma, Kangping Hu, Zheng Zhou, Hui Zhang, Xiao Xie, Yingcai Wu
 
-**Omnioculars: Embedded Visualization for Augmenting Basketball Game Viewing Experiences**<br/>
+**The Quest for Omnioculars: Embedded Visualization for Augmenting Basketball Game Viewing Experiences**<br/>
 Authors: Tica Lin, Zhutian Chen, Yalong Yang, Daniele Chiappalupi, Johanna Beyer, Hanspeter Pfister
 <br/>
 
@@ -546,7 +545,7 @@ Authors: Qianwen Wang, Zhutian Chen, Yong Wang, Huamin Qu
 **Reinforcement Learning for Load-balanced Parallel Particle Tracing**<br/>
 Authors: Jiayi Xu, Hanqi Guo, Han-Wei Shen, Mukund Raj, Skylar W. Wurster, Tom Peterka
 
-**IDL: An Importance-Driven Latent Generation Method for Scientific Data**<br/>
+**IDLat: An Importance-Driven Latent Generation Method for Scientific Data**<br/>
 Authors: Jingyi Shen, Haoyu Li, Jiayi Xu, Ayan Biswas, Han-Wei Shen
 
 **DashBot: Insight-Driven Dashboard Generation Based on Deep Reinforcement Learning**<br/>
@@ -657,7 +656,7 @@ Authors: Philipp Fleck, Aimee Sousa Calepso, Sebastian Hubenschmid,Michael Sedlm
 **PuzzleFixer: A Visual Reassembly System for Immersive Fragments Restoration**<br/>
 Authors: Shuainan Ye, Zhutian Chen, Xiangtong Chu, Kang Li, Juntong Luo, Yi Li, Guohua Geng, Yingcai Wu
 
-**Effects of View Layout on Situated Analytics for Multiple Representations in Immersive Visualizaiton**<br/>
+**Effects of View Layout on Situated Analytics for Multiple Representations in Immersive Visualization**<br/>
 Authors: Zhen Wen, Wei Zeng, Luoxuan Weng, Yihan Liu, Mingliang Xu, Wei Chen
 
 **RoboHapalytics: A Robot Assisted Haptic Controller for Immersive Analytics**<br/>
@@ -729,19 +728,19 @@ Authors: Monique Meuschke, Uli Niemann, Benjamin Behrendt, Matthias Gutberlet, B
 *Infrastructure Management*<br/>
 *Session Chair: TBD*
 
-**A Systematic Review of BGP Visualization Tools: Mapping Techniques to Cyberattack and Anomaly Attributes**<br/>
+**The State of the Art in BGP Visualization Tools: A Mapping of Visualization Techniques to Cyberattack Types**<br/>
 Authors: Justin Raynor, Tarik Crnovrsanin, Sara Di Bartolomeo, Laura South, David Saffo, Cody Dunne
 
 **RISeer: Inspecting the Status and Dynamics of Regional Industrial Structure via Visual Analytics**<br/>
 Authors: Longfei Chen, Yang Ouyang, Haipeng Zhang, Suting Hong, Quan Li
 
-**PMU Tracker: A Visualization Platform for Egocentric Event Propagation Analysis in the Power Grid**<br/>
+**PMU Tracker: A Visualization Platform for Epicentric Event Propagation Analysis in the Power Grid**<br/>
 Authors: Anjana Arunkumar, Andrea Pinceti, Lalitha Sankar, Chris Bryan
 
 **ECoalVis: Visual Analysis of Control Strategies in Coal-fired Power Plants**<br/>
 Authors: Shuhan Liu, Di Weng, Yuan Tian, Zikun Deng, Haoran Xu, Xiangyu Zhu, Honglei Yin, Xianyuan Zhan, Yingcai Wu
 
-**A Visual Analytics System for Improving Traffic Forecasting Models**<br/>
+**A Visual Analytics System for Improving Attention-based Traffic Forecasting Models**<br/>
 Authors: Seungmin Jin, Hyunwook Lee, Cheonbok Park, Hyeshin Chu, Yunwon Tae, Jaegul Choo, Sungahn Ko
 
 **RCMVis: A Visual Analytics System for Route Choice Modeling**<br/>
@@ -810,7 +809,7 @@ Authors: Charles Perin
 *Provenance and Guidance*<br/>
 *Session Chair: TBD*
 
-**Provenance Representations and Resulting Strategies in an Exploratory Data Analysis Scenario**<br/>
+**The Inﬂuence of Visual Provenance Representations on Strategies in a Collaborative Hand-off Data Analysis Scenario**<br/>
 Authors: Jeremy E Block, Shaghayegh Esmaeili, Eric Ragan, John Goodall, Gregory David Richardson
 
 **Understanding How In-Visualization Provenance Can Support Trade-off Analysis**<br/>
@@ -1005,7 +1004,7 @@ Authors: Rita Sevastjanova, Eren Cakmak, Shauli Ravfogel, Ryan Cotterell, Mennat
 *Natural Language Interaction*<br/>
 *Session Chair: TBD*
 
-**Probablement, Wahrscheinlich, Likely? A Cross-Language Study of How People Verbalize Probabilities in Icon Array Visualizations**<br/>
+**"Probablement, Wahrscheinlich, Likely?" A Cross-Language Study of How People Verbalize Probabilities in Icon Array Visualizations**<br/>
 Authors: Noëlle Rakotondravony, Yiren Ding, Lane Harrison
 
 **FlowNL: Asking the Flow Data in Natural Languages**<br/>
@@ -1020,7 +1019,7 @@ Authors: Leni Yang, Cindy Xiong, Jason K. Wong, Aoyu Wu, Huamin Qu
 **Towards Natural Language-Based Visualization Authoring**<br/>
 Authors: Yun Wang, Zhitao Hou, Jiaqi Wang, Tongshuang Wu, Leixian Shen, He Huang, Haidong Zhang, Dongmei Zhang
 
-**Under- and Over-Texting: Exploring the Effect of Quantity and Content on Reader Preferences and Takeaways**<br/>
+**Striking a Balance: Reader Takeaways and Preferences when Integrating Text and Charts**<br/>
 Authors: Chase Stokes, Vidya Setlur, Bridget Cogley, Arvind Satyanarayan, Marti Hearst
 <br/>
 
@@ -1038,10 +1037,10 @@ Authors: Claudio D. G. Linhares, Daniel M. Lima, Jean R. Ponciano, Mauro M. Oliv
 **Visual Assistance in Development and Validation of Bayesian Networks for Clinical Decision Support**<br/>
 Authors: Juliane Müller-Sielaff, Seyed Behnam Beladi, Stephanie W. Vrede, Monique Meuschke, Peter J.F. Lucas, Johanna M.A. Pijnenborg, Steffen Oeltze-Jafra
 
-**Chartwalk: Navigating large collections of text notes in electronic health records for clinical chart review**<br/>
+**ChartWalk: Navigating large collections of text notes in electronic health records for clinical chart review**<br/>
 Authors: Nicole Sultanum, Farooq Naeem, Michael Brudno, Fanny Chevalier
 
-**Development and Evaluation of Two Approaches of Visual Sensitivity Analysis to Support Epidemiological Modelling**<br/>
+**Development and Evaluation of Two Approaches of Visual Sensitivity Analysis to Support Epidemiological Modeling**<br/>
 Authors: Erik Rydow, Rita Borgo, Hui Fang, Thomas Torsney-Weir, Ben Swallow, Thibaud Porphyre, Cagatay Turkay, Min Chen
 
 **A framework for evaluating dashboards in healthcare**<br/>
@@ -1077,4 +1076,6 @@ Authors: Ameya B Patil, Gaëlle Richer, Christopher Jermaine, Dominik Moritz, Je
 **On-Tube Attribute Visualization for Multivariate Trajectory Data**<br/>
 Authors: Yixuan Zhang, Yifan Sun, Joseph D Gaggiano, Neha Kumar, Clio Andris, Andrea G Parker
 <br/>
+
+
 
