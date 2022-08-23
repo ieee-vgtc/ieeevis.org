@@ -62,6 +62,7 @@ def check_if_git_is_clean():
                         (git_branch_name, branch))
 
     l = list(filter(lambda s: s != '', run_cmd_get_lines('git', 'status', '--porcelain')))
+    print("l is ", l)
     if len(l) != 0:
         raise Exception("Expected git working tree to be clean, but it appears not to be.")
 
