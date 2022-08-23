@@ -107,18 +107,18 @@ Daily sessions are four blocks per day, each 75 minutes.  There are breaks for c
 * **VizSec** (Associated Event)
 
 *9:00 AM-10:15 AM CDT (UTC-5)*<br/>
-* **Temporal Data** (VIS Full Papers Session)
 * **Decision Making and Reasoning** (VIS Full Papers Session)
+* **Temporal Data** (VIS Full Papers Session)
 * **VA and ML** (VIS Full Papers Session)
 * **Transforming Tabular Data and Grammars** (VIS Full Papers Session)
 * **VISAP Session 1** (Associated Event)
 
 *10:45 AM-12:00 PM CDT (UTC-5)*<br/>
 * **Uncertainty** (VIS Full Papers Session)
-* **Storytelling** (VIS Full Papers Session)
+* **DNA/Genome and Molecular Data/Vis** (VIS Full Papers Session)
 * **Dealing with Scale, Space, and Dimension** (VIS Full Papers Session)
 * **CG&A: Visualization in Industry** (Invited Partnership Presentations)
-* **Visualization Systems and Graph Visualization** (VIS Short Papers Session)
+* **Visual Analytics, Decision Support, and Machine Learning** (VIS aShort Papers Session)
 
 *2:00 PM-3:15 PM CDT (UTC-5)*<br/>
 * **VA for ML** (VIS Full Papers Session)
@@ -128,12 +128,12 @@ Daily sessions are four blocks per day, each 75 minutes.  There are breaks for c
 * **Data Analysis Methods for Climate Modeling of Extreme Weather Events** (Application Spotlight)
 
 *3:45 PM-5:00 PM CDT (UTC-5)*<br/>
-* **DNA/Genome and Molecular Data/Vis** (VIS Full Papers Session)
+* **Digital Humanities, e-Commerce, and Engineering** (VIS Full Papers Session)
 * **Sports Vis** (VIS Full Papers Session)
 * **Interpreting Machine Learning** (VIS Full Papers Session)
-* **Digital Humanities, e-Commerce, and Engineering** (VIS Full Papers Session)
 * **SIGGRAPH Invited Talks** (Invited Partnership Presentations)
 * **Merits and Limits of User Study Preregistration** (VIS Panel)
+* **Topology** (VIS Full Papers Session)
 <hr/>
 
 <a>**Thursday, October 20, 2022**</a><br/>
@@ -141,17 +141,17 @@ Daily sessions are four blocks per day, each 75 minutes.  There are breaks for c
 *9:00 AM-10:15 AM CDT (UTC-5)*<br/>
 * **ML for VIS** (VIS Full Papers Session)
 * **Interactive Dimensionality (High Dimensional Data)** (VIS Full Papers Session)
-* **Personal Visualization, Theory, Evaluation, and eXtended Reality** (VIS Short Papers Session)
-* **(Volume) Rendering** (VIS Full Papers Session)
 * **VISAP Session 2** (Associated Event)
+* **Personal Visualization, Theory, Evaluation, and eXtended Reality** (VIS aShort Papers Session)
+* **(Volume) Rendering** (VIS Full Papers Session)
 
 *10:45 AM-12:00 PM CDT (UTC-5)*<br/>
 * **Immersive Analytics and Situated Visualization** (VIS Full Papers Session)
 * **Questioning Data and Data Bias** (VIS Full Papers Session)
 * **Grand Challenges in Visual Analytic Systems** (VIS Panel)
-* **Scientific Visualization, Ensembles, and Accessibility** (VIS Short Papers Session)
-* **Neuro/Brain/Medical Data** (VIS Full Papers Session)
 * **Audio-Visual Analytics: Potential Applications of Combined Sonifications and Visualizations** (Application Spotlight)
+* **Visualization Systems and Graph Visualization** (VIS aShort Papers Session)
+* **Neuro/Brain/Medical Data** (VIS Full Papers Session)
 
 *2:00 PM-3:15 PM CDT (UTC-5)*<br/>
 * **Text, Language, and Image Data** (VIS Full Papers Session)
@@ -164,9 +164,9 @@ Daily sessions are four blocks per day, each 75 minutes.  There are breaks for c
 *3:45 PM-5:00 PM CDT (UTC-5)*<br/>
 * **Reflecting on Academia and our Field** (VIS Full Papers Session)
 * **Graphs and Networks** (VIS Full Papers Session)
+* **Storytelling** (VIS Full Papers Session)
 * **CG&A: Visualization Teaching and Literacy** (Invited Partnership Presentations)
-* **Visual Analytics, Decision Support, and Machine Learning** (VIS Short Papers Session)
-* **Topology** (VIS Full Papers Session)
+* **Scientific Visualization, Ensembles, and Accessibility** (VIS aShort Papers Session)
 <hr/>
 
 <a>**Friday, October 21, 2022**</a><br/>
@@ -174,9 +174,9 @@ Daily sessions are four blocks per day, each 75 minutes.  There are breaks for c
 *9:00 AM-10:15 AM CDT (UTC-5)*<br/>
 * **Natural Language Interaction** (VIS Full Papers Session)
 * **Visual Analytics of Health Data** (VIS Full Papers Session)
-* **Spatial Data** (VIS Full Papers Session)
-* **Is This (Panel) Good Enough for IEEE VIS?** (VIS Panel)
 * **Comparisons** (VIS Full Papers Session)
+* **Is This (Panel) Good Enough for IEEE VIS?** (VIS Panel)
+* **Spatial Data** (VIS Full Papers Session)
 * **Application Papers: How should we deal with them?** (Application Spotlight)
 
 *10:45 AM-12:00 PM CDT (UTC-5)*<br/>
