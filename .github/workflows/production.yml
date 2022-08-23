@@ -70,12 +70,12 @@ jobs:
     ## BUILD PREVIOUS YEARS (currently: vis2019, vis2020)
     - name: Build previous year (2019)
       run: |
-        git checkout vis2019
+        git switch -f vis2019
         make new2019
 
     - name: Build previous year (2020)
       run: |
-        git checkout vis2020
+        git switch -f vis2020
         make new2020
 
     ## BUILD THIS YEAR (currently: vis2021)
@@ -85,5 +85,5 @@ jobs:
       env:
         IEEEVIS_AWS_USER: default
       run: |
-        git checkout ${{ github.event.release.tag_name }}
+        git switch -f ${{ github.event.release.tag_name }}
         make release2021
