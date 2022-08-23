@@ -118,7 +118,7 @@ Daily sessions are four blocks per day, each 75 minutes.  There are breaks for c
 * **DNA/Genome and Molecular Data/Vis** (VIS Full Papers Session)
 * **Dealing with Scale, Space, and Dimension** (VIS Full Papers Session)
 * **CG&A: Visualization in Industry** (Invited Partnership Presentations)
-* **Visual Analytics, Decision Support, and Machine Learning** (VIS aShort Papers Session)
+* **Visual Analytics, Decision Support, and Machine Learning** (VIS Short Papers Session)
 
 *2:00 PM-3:15 PM CDT (UTC-5)*<br/>
 * **VA for ML** (VIS Full Papers Session)
@@ -142,7 +142,7 @@ Daily sessions are four blocks per day, each 75 minutes.  There are breaks for c
 * **ML for VIS** (VIS Full Papers Session)
 * **Interactive Dimensionality (High Dimensional Data)** (VIS Full Papers Session)
 * **VISAP Session 2** (Associated Event)
-* **Personal Visualization, Theory, Evaluation, and eXtended Reality** (VIS aShort Papers Session)
+* **Personal Visualization, Theory, Evaluation, and eXtended Reality** (VIS Short Papers Session)
 * **(Volume) Rendering** (VIS Full Papers Session)
 
 *10:45 AM-12:00 PM CDT (UTC-5)*<br/>
@@ -150,7 +150,7 @@ Daily sessions are four blocks per day, each 75 minutes.  There are breaks for c
 * **Questioning Data and Data Bias** (VIS Full Papers Session)
 * **Grand Challenges in Visual Analytic Systems** (VIS Panel)
 * **Audio-Visual Analytics: Potential Applications of Combined Sonifications and Visualizations** (Application Spotlight)
-* **Visualization Systems and Graph Visualization** (VIS aShort Papers Session)
+* **Visualization Systems and Graph Visualization** (VIS Short Papers Session)
 * **Neuro/Brain/Medical Data** (VIS Full Papers Session)
 
 *2:00 PM-3:15 PM CDT (UTC-5)*<br/>
@@ -166,7 +166,7 @@ Daily sessions are four blocks per day, each 75 minutes.  There are breaks for c
 * **Graphs and Networks** (VIS Full Papers Session)
 * **Storytelling** (VIS Full Papers Session)
 * **CG&A: Visualization Teaching and Literacy** (Invited Partnership Presentations)
-* **Scientific Visualization, Ensembles, and Accessibility** (VIS aShort Papers Session)
+* **Scientific Visualization, Ensembles, and Accessibility** (VIS Short Papers Session)
 <hr/>
 
 <a>**Friday, October 21, 2022**</a><br/>
