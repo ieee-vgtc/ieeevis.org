@@ -17,7 +17,7 @@ Reasons why you should take part in VIS 2022:
 
 <p style="text-align: center;">**Diamond, Gold, Silver, Bronze, and Pearl level packages are available now.**</p>
 
-<p style="text-align: center;"><a href="https://ieeecs-media.computer.org/media/conferences/resources/VIS-Prospectus-2022-rp.pdf" class="link">Download the VIS 2022 Prospectus</a></p>
+<p style="text-align: center;"><a href="/year/2022/assets/VIS-Prospectus-2022-rp.pdf" class="link">Download the VIS 2022 Prospectus</a></p>
 
 VIS 2022 attracts decision-makers looking for the next generation of products, solutions, networking, and advanced-industry perspectives. Put yourself in the position to meet them by supporting VIS 2022.
 
