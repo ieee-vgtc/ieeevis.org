@@ -56,9 +56,15 @@
   button-url: "/info/exhibition/supporters-and-exhibition"
   active: "active"
 
+- title: "Talk Recording Guide"
+  description: "Check out some tips for recording your VIS talk from the conference organizers."
+  button-text: "See the video"
+  button-url: "https://youtu.be/SfWOKH8IR5k"
+  image: "vis_presenting_tips.png"
+
 - title: "Registration"
   description: "Full week, one day, two day, and keynote + capstone registrations are still available."
-  button-text: "Register Now"
+  button-text: "Register now"
   button-url: "/info/registration/conference-registration"
   image: 'small_exposure_lights.png'
 
