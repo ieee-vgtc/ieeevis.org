@@ -5,7 +5,7 @@ active_nav: "Program"
 permalink: /info/papers-sessions
 ---
 
-More detail about papers and their associated presentations will be released with the virtual website.  What follows is a list of papers groups by session.
+More detail about papers and their associated presentations will be released with the virtual website.  What follows is a list of papers groups by session, note that sessions and times are still preliminary and might change in the final program.
 
 <hr/>
 
@@ -230,8 +230,8 @@ Authors: Hyeon Jeon, Hyung-Kwon Ko, Soohyun Lee, Jaemin Jo, Jinwook Seo
 *Uncertainty*<br/>
 *Session Chair: TBD*
 
-**Visual Reasoning for Uncertainty in Spatio-temporal Events of Historical Figures**<br/>
-Authors: Wei Zhang, Siwei Tan, Siming Chen, Linhao Meng, Tianye Zhang, Rongchen Zhu, Wei Chen
+**VERTIGo: A Visual Platform for Querying and Exploring Large Multilayer Networks**<br/>
+Authors: Erick Cuenca, Arnaud Sallaberry, Dino Ienco, Pascal Poncelet
 
 **Fiber Uncertainty Visualization for Bivariate Data With Parametric and Nonparametric Noise Models**<br/>
 Authors: Tushar M. Athawale, Chris R. Johnson, Sudhanshu Sane, David Pugmire
