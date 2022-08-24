@@ -1,7 +1,7 @@
 <div id="myCarousel" class="carousel bg-secondary slide" data-ride="carousel">
   <ol class="carousel-indicators my-2">
     {% for entry in site.data.carousel %}
-      <li data-target="#myCarousel" data-slide-to="{{ forloop.index }}" class="{{ entry.active }}"></li>
+      <li data-target="#myCarousel" data-slide-to="{{forloop.index0}}" class="{{ entry.active }}"></li>
     {% endfor %}
   </ol>
 
