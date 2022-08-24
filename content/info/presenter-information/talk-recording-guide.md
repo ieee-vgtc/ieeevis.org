@@ -49,6 +49,12 @@ IEEE Visualization allows authors to release their video preview on websites and
 
 To make videos accessible for everyone, you are required to provide subtitles with your recording (more on that below). In addition, make sure that your presentation itself is accessible by speaking clearly, using large fonts, and ensuring high contrast. Avoid saying "as you can see on this slide" and always describe all relevant visuals. You can find some [recommendations for giving accessible talks from SIGACCESS](http://www.sigaccess.org/welcome-to-sigaccess/resources/accessible-presentation-guide/) and if you have additional questions contact the [accessibility chairs](accessibility@ieeevis.org).
 
+The VIS 2022 conference organizers have put together some tips on making a compelling and informative talk.  We hope that this guidance is helpful for both recorded presentations and in person presentations.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SfWOKH8IR5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
 <!--
 Terminology used in this document:
 
