@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "COVID-19 impact on IEEE Vis 2020"
+title: "Coronavirus and IEEE VIS 2022"
 permalink: /info/coronavirus-info
 contact: info@ieeevis.org
 ---
