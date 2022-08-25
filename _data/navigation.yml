@@ -53,8 +53,9 @@ menu:
                 # - text: "Media Requests"
                 #   url: "/year/2022/info/media-requests"
                 #   is_new: true
-                # - text: "Coronavirus Information"
-                #   url: ""
+                - text: "Coronavirus Information"
+                  url: "/year/2022/info/coronavirus-info"
+                  is_new: true
             - heading: "Travel"
               links:
                 - text: "Accommodation"
