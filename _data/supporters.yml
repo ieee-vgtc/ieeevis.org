@@ -59,6 +59,9 @@
      - name: "Monash University"
        image: /assets/supporters/monash.png
        url: "https://www.monash.edu/it"
+     - name: "Springer"
+       image: /assets/supporters/springer-logo-transparent.png
+       url: "https://www.springer.com/us"
 
  - category: Pearl
    image_size: 150
@@ -72,6 +75,9 @@
      - name: "Fraunhofer IGD"
        image: /assets/supporters/igd.png
        url: "https://www.igd.fraunhofer.de"
+     - name: "VRVis"
+       image: /assets/supporters/VRVis-Logo.png
+       url: "https://www.vrvis.at/"
 
  #    - name: "SCI"
  #      image: /assets/supporters/sci.png
