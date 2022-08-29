@@ -14,7 +14,7 @@ Organizers: Aoyu Wu (HKUST), Dazhen Deng (Zhejiang University)
 
 <!-- <br>[Video Preview](TBD) -->
 
-More details forthcoming.
+In the past two decades, research in visual analytic (VA) systems has made tremendous progress, not just in terms of publications, but also in making successful applications in wide-ranging domains. Despite applause, we often hear several open and provocative questions from end users, developers, and peer researchers regarding the research value and rigor, such as: What can the visualization community learn from VA system research beyond solving ad-hoc domain problems? Does the field value too much on novel yet often complex visualizations? What are opportunities for more rigorous evaluation strategies? Is there a complete theory of visual analytics? This panel brings together six academic and/or industrial researchers with extensive experience in VA. The panelists will discuss grand challenges in visual analytic systems for making the research field more rigorous, valuable, and impactful. We anticipate this panel will function as a way of airing and calling for action on those challenges.
 
 ## <a name="panel-ghoniem">Merits and Limits of User Study Preregistration</a>
 
@@ -25,7 +25,7 @@ Organizers: Lonni Bensançon (Linköping University), Cody Dunne (Northeastern U
 
 <!-- <br>[Video Preview](TBD) -->
 
-More details forthcoming.
+The replication crisis has spawned a revolution in scientific methods, aimed at increasing the transparency, robustness, and reliability of scientific outcomes. In particular, the practice of preregistering study designs has shown important advantages. Preregistration can help limit questionable research practices, as well as increase the success rate of study replications. Many fields have now adopted preregistration as a default expectation for published studies. Yet, visualization research has only sparsely relied on this practice due to concerns about its lack of adequacy for visualization research and methods. With this panel, we have several goals: (1) explain the concept of preregistration to a wide visualization audience, (2) refute common misconceptions about the preregistration process, (3) provide insights about the merits and limits of preregistration gleaned from various fields, and (4) address the suitability of preregistration for a variety of types of visualization research.
 
 ## <a name="panel-möller">Is This (Panel) Good Enough for IEEE VIS?</a>
 
