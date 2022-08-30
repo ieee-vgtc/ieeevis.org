@@ -11,7 +11,7 @@ contact: ff@ieeevis.org
 Please **read the following instructions carefully** and submit your
 25-second video for the online Video Previews by the following deadlines:
 - Aug. 15: VIS Full/Short Papers
-- Sept. 1: All other events, including [partnership](/year/2022/info/call-participation/partnerships) (TVCG, CG&amp;A, SIGGRAPH, and VR) presentations
+- ~~Sept. 1~~ Sept. 8 (extended): All other events, including [partnership](/year/2022/info/call-participation/partnerships) (TVCG, CG&amp;A, SIGGRAPH, and VR) presentations
 
 
 Video previews and fast forwards are a great opportunity to publicize
