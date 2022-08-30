@@ -17,12 +17,12 @@ Work must be submitted via the provided Dropbox links on the dates listed below.
 
 **Video Previews:**
   * VIS Full/Short Papers: Aug. 15
-  * All Other Events and TVCG/CG&A Presentations: Sept. 1
+  * All Other Events and TVCG/CG&A Presentations: ~~Sept. 1~~ Sept. 8 (extended)
 
 **Presentation Videos:**
   * Full/Short VIS Papers, TVCG/CG&A Presentations: Sept. 8
-  * Symposia/VisInPractice/VISAP: Sept. 15
-  * Workshops/Tutorials/Challenges: Sept. 22
+  * Symposia, VisInPractice, VISAP: Sept. 15
+  * Invited SIGGRAPH/VR Presentations, Workshops, Tutorials, Challenges: Sept. 22
 
 ## IEEE Visualization 2022 is a hybrid conference
 
