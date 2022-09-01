@@ -10,142 +10,103 @@ Best paper and honorable mention awards are selected by a dedicated committee of
 
 ## Full Papers
 
-The Best Papers Committee for VIS 2021 full papers consists of five distinguished members: Stephen North (Chair), Tatiana Landesberger von Antburg, Stefan Bruckner, Ingrid Hotz, and G. Elisabeta Marai. The Papers Chairs Committee would like to thank the Best Papers Committee for their work and to congratulate the awardees!
+The Best Papers Committee for VIS 2022 full papers consists of seven distinguished members: Tamara Munzner (chair), Remco Chang, Ingrid Hotz, Petra Isenberg, Tatiana von Landesberger, Rüdiger Westermann, and Xiaoru Yuan. The Papers Chairs Committee would like to thank the Best Papers Committee for their work and to congratulate the awardees!
 
 ### Best Papers
 
-**Feature Curves and Surfaces of 3D Asymmetric Tensor Fields**
+**Affective Learning Objectives for Communicative Visualizations**
 <br/>
-Authors: Shih-Hsuan Hung, Yue Zhang, Harry Yeh, Eugene Zhang 
+Authors: Elsie Lee-Robbins, Eytan Adar 
 
-Justification: “This paper makes fundamental advances to the field of asymmetric tensor field visualization. It contributes a novel topological approach in conjunction with a practical algorithmic solution. Thus, this study addresses a challenging problem with outstanding, innovative solutions, and has high potential to impact future visualization applications in tensor visualization.”
+Justification: “This thoughtful and well-written paper presents an interesting and provocative perspective on visualization design, with a clear and compelling argument that all visualizations are affective whether that context is explicitly discussed or not. The paper's proposed taxonomy of affective learning objectives is informed by a methodologically sound and well-designed qualitative study. It provides guidance on how to improve the visualization community's mechanisms to surface those decisions, and help visualization designers reflect upon them.”
 
-**IRVINE: Using Interactive Clustering and Labeling to Analyze Correlation Patterns: A Design Study from the Manufacturing of Electrical Engines**
+**Multiple Forecast Visualizations (MFVs): Trade-offs in Trust and Performance in Multiple COVID-19 Forecast Visualizations**
 <br/>
-Authors: Joscha Eirich, Jakob Bonart, Dominik Jäckle, Michael Sedlmair, Ute Schmid, Kai Fischbach, Tobias Schreck, Jürgen Bernard
+Authors: Lace Padilla, Racquel Fygenson, Spencer C. Castro, Enrico Bertini
 
-Justification: “This paper is a model design study on applying visual analytics to a manufacturing process. It addresses a practical, emerging, and largely unexplored problem, and presents exemplary collaborative work highlighting the power of visual analytics. The proposed solution was developed in deep collaboration with domain experts over several iterations, carefully distilling tasks and effective visualizations. The paper showcases a strong evaluation, and convincingly demonstrates the practical utility of the proposed analytics and interaction modalities that clearly improve the performance of manufacturing engineering professionals in analytic tasks.”
+Justification: “This comprehensive yet concise paper illuminates an important visualization problem by providing empirical evidence for the link between COVID-19 forecast visualization design choices and trust: visualization design choices easily influence trust, but notably trust is not indicative of successful interpretation. The methodology is exemplary, with high ecological validity thanks to the use of real-world data, and a preregistered analysis plan for the first two studies in addition to a third study clearly labelled as exploratory. This nicely executed investigation features insightful results that include actionable design guidelines; the release of both data and analysis scripts provides a foundation for future analysis and exploration of this highly relevant topic.”
 
-**Perception! Immersion! Empowerment! Superpowers as Inspiration for Visualization**
+**Uncertainty-Aware Multidimensional Scaling**
 <br/>
-Authors: Wesley Willett, Bon Adriel Aseniero, Sheelagh Carpendale, Pierre Dragicevic, Yvonne Jansen, Lora Oehlberg, Petra Isenberg
+Authors: David Hägele, Tim Krake, Daniel Weiskopf
 
-Justification: “This paper is bold, innovative, fun, thorough and persuasive, and a wonderful and rare example of breakthrough, creative thinking about data visualization research. It introduces two theoretical frameworks to explore the dual issue of epistemic powers (i.e. that advance knowledge) in vision and cognition, and their important key mechanics, which span instruments to fairness and accessibility. It provides an original, important and legitimate perspective on what we do, including a wider perspective on evaluating the benefits of visualization. This paper will be remembered for many years for its original perspective, thought-provoking messages and persuasive explanations.”
-
-**Simultaneous Matrix Orderings for Graph Collections**
-<br/>
-Authors: Nathan van Beusekom, Wouter Meulemans, Bettina Speckmann
-
-Justification: “This paper presents a technically sound approach and novel evaluation technique for simultaneous matrix ordering of multiple graphs. This is an important problem in graph comparison and in dynamic graph visualization. The paper is outstanding in its clarity, and aims at reproducible results. The evaluation that is presented should have considerable impact on future research. This work has wide applicability both in graph drawing, and in other matrix-based visualizations.”
+Justification: “This clear and well-motivated paper addresses the significant open question of how to incorporate uncertainty into dimensionality reduction methods. It presents both a mathematical model and a numerical algorithm, with a detailed discussion of several visual encoding techniques that are suitable for analyzing the resulting uncertain data. The results include a detailed sensitivity analysis with a synthetic dataset, and a walkthrough of several real-world datasets to demonstrate the versatility of their algorithm and the benefits of their mathematical model.”
 
 ### Best Paper Honorable Mentions
 
-**An Evaluation-Focused Framework for Visualization Recommendation Algorithms**
+**ASTF: Visual Abstractions of Time-Varying Patterns in Radio Signals**
 <br/>
-Authors: Zehua Zeng, Phoebe Moh, Fan Du, Jane Hoffswell, Tak Yeon Lee, Sana Malik, Eunyee Koh, Leilani Battle
+Authors: Ying Zhao, Luhao Ge, Huixuan Xie, Genghuai Bai, Zhao Zhang, Qiang Wei, Yun Lin, Yuchao Liu, Fangfang Zhou
 
-**Augmenting Sports Videos with VisCommentator**
+**Breaking the Fourth Wall of Data Stories through Interaction**
 <br/>
-Authors: Zhutian Chen, Shuainan Ye, Xiangtong Chu, Haijun Xia, Hui Zhang, Huamin Qu, Yingcai Wu
+Authors: Yang Shi, Tian Gao, Xiaohan Jiao, Nan Cao
 
-**Causal Support: Modeling Causal Inferences with Visualizations**
+**ChartWalk: Navigating large collections of text notes in electronic health records for clinical chart review**
 <br/>
-Authors: Alex Kale, Yifan Wu, Jessica Hullman
+Authors: Nicole Sultanum, Farooq Naeem, Michael Brudno, Fanny Chevalier
 
-**Communicating Visualizations without Visuals: Investigation of Visualization Alternative Text for People with Visual Impairments**
+**Dashboard Design Patterns**
 <br/>
-Authors: Crescentia Jung, Shubham R. Mehta, Atharva Kulkarni, Yuhang Zhao, Yea-Seul Kim
+Authors: Benjamin Bach, Euan Freeman, Alfie Abdul-Rahman, Cagatay Turkay, Saiful Khan, Yulei Fan, Min Chen
 
-**Context Matters: A Theory of Semantic Discriminability for Perceptual Encoding Systems**
+**Evaluating the Use of Uncertainty Visualisations for Imputations of Data Missing At Random in Scatterplots**
 <br/>
-Authors: Kushin Mukherjee, Brian N. Yin, Brianne E. Sherman, Laurent Lessard, Karen Schloss
+Authors: Abhraneel Sarma, Shunan Guo, Jane Hoffswell, Ryan Rossi, Fan Du, Eunyee Koh, Matthew Kay
 
-**Explanatory Journeys: Visualising to Understand and Explain Administrative Justice Paths of Redress**
+**Exploring Interactions with Printed Data Visualizations in Augmented Reality**
 <br/>
-Authors: Jonathan C. Roberts, Peter W. S. Butcher, Ann Sherlock, Sarah Nason
+Authors: Wai Tong, Zhutian Chen, Meng Xia, Leo Yu-Ho Lo, Linping Yuan, Benjamin Bach, Huamin Qu
 
-**Interactive Exploration of Physically-Observable Objective Vortices in Unsteady 2D Flow**
+**Extending the Nested Model for User-Centric XAI: A Design Study on GNN-based Drug Repurposing**
 <br/>
-Authors: Xingdi Zhang, Markus Hadwiger, Thomas Theussl, Peter Rautek
+Authors: Qianwen Wang, Kexin Huang, Payal Chandak, Marinka Zitnik, Nils Gehlenborg
 
-**KG4Vis: A Knowledge Graph-Based Approach for Visualization Recommendation**
+**FoVolNet: Fast Volume Rendering using Foveated Deep Neural Networks**
 <br/>
-Authors: Haotian Li, Yong Wang, Songheng Zhang, Yangqiu Song, Huamin Qu
+Authors: David Bauer, Qi Wu, Kwan-Liu Ma
 
-**Loon: Using Exemplars to Visualize Large Scale Microscopy Data**
+**GRay: Ray Casting for Visualization and Interactive Data Exploration of Gaussian Mixture Models**
 <br/>
-Authors: Devin Lange, Eddie Polanco, Robert L. Judson-Torres, Thomas A. Zangle, Alexander Lex
+Authors: Kai Lawonn, Monique Meuschke, Pepe Eulzer, Matthias Mitterreiter, Joachim Giesen, Tobias Günther
 
-**M^2Lens: Visualizing and Explaining Multimodal Models for Sentiment Analysis**
+**Medley: Intent-based Recommendations to Support Dashboard Composition**
 <br/>
-Authors: Xingbo Wang, Jianben He, Zhihua Jin, Muqiao Yang, Yong Wang, Huamin Qu
+Authors: Aditeya Pandey, Arjun Srinivasan, Vidya Setlur
 
-**Real-Time Visual Analysis of High-Volume Social Media Posts**
+**OBTracker: Visual Analytics of Off-ball Movements in Basketball**
 <br/>
-Authors: Johannes Knittel, Steffen Koch, Tan Tang, Wei Chen, Yingcai Wu, Shixia Liu, Thomas Ertl
+Authors: Yihong Wu, Dazhen Deng, Xiao Xie, Moqi He, Jie Xu, Hongzeng Zhang, Hui Zhang, Yingcai Wu
 
-**Rethinking the Ranks of Visual Channels**
+**Quick Clusters: A GPU-Parallel Partitioning for Efficient Path Tracing of Unstructured Volumetric Grids**
 <br/>
-Authors: Caitlyn M. McColeman, Fumeng Yang, Timothy F. Brady, Steven Franconeri
+Authors: Nate Morrical, Alper Sahistan, Ugur Gudukbay, Ingo Wald, Valerio Pascucci
 
-**SightBi: Exploring Cross-View Data Relationships with Biclusters**
+**SliceTeller : A Data Slice-Driven Approach for Machine Learning Model Validation**
 <br/>
-Authors: Maoyuan Sun, Abdul Rahman Shaikh, Hamed Alhoori, Jian Zhao
+Authors: Xiaoyu Zhang, Jorge H Piazentin Ono, Huan Song, Liang Gou, Kwan-Liu Ma, Liu Ren
 
-**spEuler: Semantics-preserving Euler Diagrams**
+**Supporting Expressive and Faithful Pictorial Visualization Design with Visual Style Transfer**
 <br/>
-Authors: Rebecca Kehlbeck, Jochen Görtler, Yunhai Wang, Oliver Deussen
+Authors: Yang Shi, Pei Liu, Siji Chen, Mengdi Sun, Nan Cao
 
-**VBridge: Connecting the Dots Between Features and Data to Explain Healthcare Models**
+**The Quest for Omnioculars: Embedded Visualization for Augmenting Basketball Game Viewing Experiences**
 <br/>
-Authors: Furui Cheng, Dongyu Liu, Fan Du, Yanna Lin, Alexandra Zytek, Haomin Li, Huamin Qu, Kalyan Veeramachaneni
+Authors: Tica Lin, Zhutian Chen, Yalong Yang, Daniele Chiappalupi, Johanna Beyer, Hanspeter Pfister
 
-**VizSnippets: Compressing Visualization Bundles Into Representative Previews for Browsing Visualization Collections**
+**TrafficVis: Visualizing Organized Activity and Spatio-Temporal Patterns for Detecting Human Trafficking**
 <br/>
-Authors: Michael Oppermann, Tamara Munzner
+Authors: Catalina Vajiac, Duen Horng Chau, Andreas Olligschlaeger, Rebecca Mackenzie, Pratheeksha Nair, Meng-Chieh Lee, Yifei Li, Namyong Park, Reihaneh Rabbany, Christos Faloutsos
+
+**VDL-Surrogate: A View-Dependent Latent-based Model for Parameter Space Exploration of Ensemble Simulations**
+<br />
+Authors: Neng Shi, Jiayi Xu, Haoyu Li, Hanqi Guo, Jonathan Woodring, Han-Wei Shen
 
 
 ## Short Papers
 
-The awards for short papers were selected by the best paper committee (short papers) from a competitive list of candidates.
-
-We would like to thank the committee members   
-Markus Hadwiger,  
-Yunhai Wang,  
-and Yingcai Wu  
-for their work and dedication.
-
-Congratulations to the awardees!
-
-### Best Papers
-
-**Jurassic Mark: Inattentional Blindness for a Datasaurus Reveals that Visualizations are Explored, not Seen**  
-Authors: Tal Boger, Steven Most, Steven Franconeri
-
-### Best Paper Honorable Mentions
-
-**Semantic Resizing of Charts Through Generalization: A Case Study with Line Charts**  
-Authors: Vidya Setlur, Haeyong Chung
-
-**Exact Analytical Parallel Vectors**  
-Authors: Hanqi Guo, Tom Peterka
-
+To be announced.
 
 ## Posters
 
-We would like to thank the members of the best poster committee: Alex Endert, Christophe Hurter, and Daniel Jönsson. The committee received a short list of the top 6 posters, which were recommended as best poster candidates by the reviewers. After resolving potential conflicts of interest, they selected 1 best poster and 2 honorable mention awards.
-
-Congratulations to the awardees!
-
-### Best Poster
-
-**Towards Automatic Grading of D3.js Visualizations**
-Authors: Matthew Hull, Connor Guerin, Justin Chen, Susanta Routray, Duen Horng Chau
-
-### Best Poster Honorable Mentions
-
-**TrafficVis: Fighting Human Trafficking Through Visualization**
-Authors: Catalina Vajiac, Andreas Olligschlaeger, Yifei Li, Pratheeksha Nair, Meng-Chieh Lee, Namyong Park, Reihaneh Rabbany, Duen Horng Chau, Christos Faloutsos
-
-**Argo Scholar: Interactive Visual Exploration of Literature in Browsers**
-Authors: Kevin Li, Haoyang Yang, Anish Upadhayay, Zhiyan Zhou, Jon Saad-Falcon, Duen Horng Chau
+To be announced.
