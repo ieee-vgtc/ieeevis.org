@@ -36,4 +36,4 @@ Organizers: Robert S. Laramee (Nottingham University), Petra Isenberg (INRIA), T
 
 <!-- <br>[Video Preview](TBA) -->
 
-More details forthcoming.
+"The academic review process is broken," is a statement one often reads or hears. After getting the reviews back from the IEEE VIS conference, likely 75% (or so) of us agree. But is it really? The goal of this panel is to discuss the review process of the visualization community (broader than just IEEE VIS) and to brainstorm ways to improve upon it or to come to the conclusion that everything is fine.
