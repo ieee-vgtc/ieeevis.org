@@ -234,15 +234,15 @@ menu:
   #              #   - text: "Practioner Guide"
   #              #     url: "https://www.google.com"
 
-  #        - heading: "Awards and Recognitions"
-            # heading_url: "https://www.google.com"
-  #          description: "Recognize outstanding work by the VIS community"
-  #          columns:
-  #            - links:
-  #              - text: "Best Paper Awards"
-  #                url: "/year/2022/info/awards/best-paper-awards"
-  #                - text: "Best Poster Awards"
-  #                  url: "/year/2022/info/awards/best-poster-awards"
+         - heading: "Awards and Recognitions"
+           description: "Recognize outstanding work by the VIS community"
+           columns:
+             - links:
+               - text: "Best Paper Awards"
+                 url: "/year/2022/info/awards/best-paper-awards"
+                 is_new: true
+               # - text: "Best Poster Awards"
+               #   url: "/year/2022/info/awards/best-poster-awards"
   # - text: "Service Awards"
   #   url: "https://www.google.com"
   # - text: "VGTC VIS Awards"
