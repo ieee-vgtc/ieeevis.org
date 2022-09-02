@@ -3,6 +3,7 @@ title: Papers
 layout: page
 active_nav: "Program"
 permalink: /info/papers-sessions
+contact: papers@ieeevis.org
 ---
 
 More detail about papers and their associated presentations will be released with the virtual website.  What follows is a list of papers groups by session, note that sessions and times are still preliminary and might change in the final program.
@@ -137,6 +138,33 @@ Authors: Ying Zhao, Luhao Ge, Huixuan Xie, Genghuai Bai, Zhao Zhang, Qiang Wei, 
 
 **RankFIRST: Visual Analysis for Factor Investment by Ranking Stock Timeseries**<br/>
 Authors: Huijie Guo, Meijun Liu, Bowen Yang, Ye Sun, Huamin Qu, Lei Shi
+<br/>
+
+
+<hr/>
+
+<a>**Wednesday, October 19**</a><br/>
+**10:45-12:00PM CDT (UTC-5)**<br/>
+*SIGGRAPH Invited Talks*<br/>
+*Session Chair: Markus Hadwiger*
+
+**Image Features Influence Reaction Time: A Learned Probabilistic Perceptual Model for Saccade Latency**<br/>
+Authors: Budmonde Duinkharjav, Praneeth Chakravarthula, Rachel Brown, Anjul Patney, Qi Sun
+
+**CLIPasso: Semantically Aware Object Sketching**<br/>
+Authors: Yael Vinker, Ehsan Pajouheshgar, Jessica Y. Bo, Roman Christian Bachmann, Amit Bermano, Daniel Cohen-Or, Amir Zamir, Ariel Shamir
+
+**Joint Neural Phase Retrieval and Compression for Energy- and Computation-efficient Holography on the Edge**<br/>
+Authors: Yujie Wang, Praneeth Chakravarthula, Qi Sun, Baoquan Chen
+
+**Umbrella Meshes: Volumetric Elastic Mechanisms for Freeform Shape Deployment**<br/>
+Authors: Yingying Ren, Uday Kusupati, Julian Panetta, Florin Isvoranu, Davide Pellis, Tian Chen, Mark Pauly
+
+**Sketch2Pose: estimating a 3D character pose from a bitmap sketch**<br/>
+Authors: Kirill Brodt, Mikhail Bessmeltsev
+
+**Spelunking the Deep: Guaranteed Queries on General Neural Implicit Surfaces**<br/>
+Authors: Nicholas Sharp, Alec Jacobson
 <br/>
 
 
@@ -722,6 +750,33 @@ Authors: Jiachen Wang, Ji Ma, Kangping Hu, Zheng Zhou, Hui Zhang, Xiao Xie, Ying
 
 **The Quest for Omnioculars: Embedded Visualization for Augmenting Basketball Game Viewing Experiences**<br/>
 Authors: Tica Lin, Zhutian Chen, Yalong Yang, Daniele Chiappalupi, Johanna Beyer, Hanspeter Pfister
+<br/>
+
+
+<hr/>
+
+<a>**Thursday, October 20**</a><br/>
+**02:00-03:15PM CDT (UTC-5)**<br/>
+*VR Invited Talks*<br/>
+*Session Chair: David Laidlaw*
+
+**Breaking Plausibility Without Breaking Presence - Evidence For The Multi-Layer Nature Of Plausibility**<br/>
+Authors: Larissa Brübach, Franziska Westermeier, Carolin Wienrich, Marc Erich Latoschik
+
+**Combining Real-World Constraints on User Behavior with Deep Neural Networks for Virtual Reality (VR) Biometrics**<br/>
+Authors: Robert Miller, Natasha Kholgade Banerjee, Sean Banerjee
+
+**Real-Time Gaze Tracking with Event-Driven Eye Segmentation**<br/>
+Authors: Yu Feng, Nathan Goulding-Hotta, Asif Khan, Hans Reyserhove, Yuhao Zhu
+
+**Mood-Driven Colorization of Virtual Indoor Scenes**<br/>
+Authors: Michael S Solah, Haikun Huang, Jiachuan Sheng, Tian Feng, Marc Pomplun, Lap-Fai Yu
+
+**Omnidirectional Galvanic Vestibular Stimulation in Virtual Reality**<br/>
+Authors: Colin Groth, Jan-Philipp Tauscher, Nikkel Heesen, Max Hattenbach, Susana Castillo, Marcus Magnor
+
+**Comparing Direct and Indirect Methods of Audio Quality Evaluation in Virtual Reality Scenes of Varying Complexity**<br/>
+Authors: Thomas Robotham, Olli S. Rummukainen, Miriam Kurz, Marie Eckert, Emanuël A. P. Habets
 <br/>
 
 
