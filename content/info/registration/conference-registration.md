@@ -15,7 +15,7 @@ The 2022 IEEE Visualization and Visual Analytics Conference, running from Octobe
 ### Important Dates
 <ul>
 <li>Registration opening: July 31</li>
-<li>Early Registration deadline: <s>September 2</s> <b>Extended: September 9</b></li>
+<li>Early Registration deadline: <s>September 2</s> <b>Extended: September 7</b></li>
 <li>Author / Invited Presenter Registration deadline: September 16</li>
 </ul>
 
@@ -35,7 +35,7 @@ The 2022 IEEE Visualization and Visual Analytics Conference, running from Octobe
 <table>
   <tr>
     <th>Category</th>
-    <th>Early Reg fee USD (Ends <s>Sept 2</s> <b>Extended: Sept 9</b>)</th>
+    <th>Early Reg fee USD (Ends <s>Sept 2</s> <b>Extended: Sept 7</b>)</th>
     <th>Late Reg fee USD (Ends Sept. 16)</th>
   </tr>
 <tr>
@@ -58,7 +58,7 @@ The 2022 IEEE Visualization and Visual Analytics Conference, running from Octobe
 <table>
   <tr>
     <th>Category</th>
-    <th>Early Reg fee USD (Ends <s>Sept 2</s> <b>Extended: Sept 9</b>)</th>
+    <th>Early Reg fee USD (Ends <s>Sept 2</s> <b>Extended: Sept 7</b>)</th>
     <th>Late Reg fee USD (Ends Sept. 16)</th>
   </tr>
 <tr>
@@ -90,7 +90,7 @@ The 2022 IEEE Visualization and Visual Analytics Conference, running from Octobe
 <table>
   <tr>
     <th>Category</th>
-    <th>Early Reg fee USD (Ends <s>Sept 2</s> <b>Extended: Sept 9</b>)</th>
+    <th>Early Reg fee USD (Ends <s>Sept 2</s> <b>Extended: Sept 7</b>)</th>
     <th>Late Reg fee USD</th>
   </tr>
 <tr>
@@ -175,7 +175,7 @@ The 2022 IEEE Visualization and Visual Analytics Conference, running from Octobe
 <table>
   <tr>
     <th>Category</th>
-    <th>Early Reg fee USD (Ends <s>Sept 2</s> <b>Extended: Sept 9</b>)</th>
+    <th>Early Reg fee USD (Ends <s>Sept 2</s> <b>Extended: Sept 7</b>)</th>
     <th>Late Reg fee USD</th>
   </tr>
 <tr>
