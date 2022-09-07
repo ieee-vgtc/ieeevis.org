@@ -64,7 +64,7 @@ menu:
                 - text: "Visa & Travel"
                   url: "/year/2022/info/registration/travel-visas"
                   #is_new: true
-                - text: "Things to do in City"
+                - text: "Things to do in Oklahoma City"
                   url: "/year/2022/info/registration/what-to-do-in-okc"
                 #   is_new: true
 
