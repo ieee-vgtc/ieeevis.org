@@ -64,8 +64,8 @@ menu:
                 - text: "Visa & Travel"
                   url: "/year/2022/info/registration/travel-visas"
                   #is_new: true
-                # - text: "Things to do in City"
-                #   url: "https://www.google.com"
+                - text: "Things to do in City"
+                  url: "/year/2022/info/registration/what-to-do-in-okc"
                 #   is_new: true
 
           - heading: "Code of Conduct"

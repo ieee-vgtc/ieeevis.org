@@ -9,10 +9,8 @@ contact: "web@ieeevis.org"
 
 
 
-## What to do in Oklahoma City
+We recommend to use [https://www.visitokc.com](https://www.visitokc.com/).
 
-
-We recommend to use https://www.visitokc.com/.
 This website is a great resource to get Infromation about:
 * [How to get around](https://www.visitokc.com/plan-your-visit/transportation/)
 * [Map of OKC](https://www.visitokc.com/mapexplorer/)
