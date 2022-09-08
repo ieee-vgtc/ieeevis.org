@@ -20,6 +20,7 @@ This year, Community will host the following events and activities:
 
 ### <a name="visbuddies"></a>VisBuddies Meetup
 <!-- **Tuesday, 27 October 2020, 13:40:00 Mountain Time** -->
+**Tuesday, 18 October 2022, 12:00:00 CST in OK Station 4**
 
 VisBuddies brings together new and returning VIS attendees with similar interests. For *newcomers*, this is a chance to meet experienced researchers in the field. For *returning attendees*, it is a chance to meet new members joining VIS and welcome them into our community. 
 
@@ -29,8 +30,6 @@ Example VisBuddies activities include:
 * Share tips on successful research
 
 [VisBuddies Signup Form](https://forms.gle/qu2rAktBK2UzK2rF7)
-
-Date/time: TBD at VIS 2022 
 
 ### <a name="job-flyers"></a>Job Flyer Online Posting
 
@@ -42,17 +41,13 @@ If so, please complete this online form and we will include your posting on the 
 
 Links to the Job Postings will be included on the Virtual VIS website and on IEEEVIS.org.
 
-Date/time: TBD at VIS 2022 
-
 ### <a name="ajf"></a>VIS Job Fair Meetup
+**Wednesday, 19 October 2022, 15:45:00 CST in OK Station 2+3**
 
 At the VIS conference, we will host a meetup session which connects job seekers and researchers with employers, staff, and faculty.
 This includes all types of job opportunities: staff, industry positions, software engineers, faculty, post-docs, etc. and all types of job seekers from students to practitioners. 
 
 To participate, please join us at the event during VIS 2022.
-
-Date/time: TBD at VIS 2022
-
 
 <!--### <a name="smp"></a>Student Mentorship Program -->
 <!--**Thursday, 29 October 2020, 13:40:00 Mountain Time**-->
