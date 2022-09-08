@@ -92,6 +92,7 @@ Daily sessions are four blocks per day, each 75 minutes.  There are breaks for c
 * **Personal Visualization, Theory, Evaluation, and eXtended Reality** (VIS Short Papers Session)
 * **Neuro/Brain/Medical Data** (VIS Full Papers Session)
 * **VISAP Session 2** (Associated Event)
+* **SciVis Contest** (Associated Event)
 
 *10:45 AM-12:00 PM CDT (UTC-5)*<br/>
 * **Graphs and Networks** (VIS Full Papers Session)
@@ -107,7 +108,6 @@ Daily sessions are four blocks per day, each 75 minutes.  There are breaks for c
 * **Scientific Visualization, Ensembles, and Accessibility** (VIS Short Papers Session)
 * **CG&A: Visualization Teaching and Literacy** (Invited Partnership Presentations)
 * **VR Invited Talks** (Invited Partnership Presentations)
-* **SciVis Contest** (Associated Event)
 
 *3:45 PM-5:00 PM CDT (UTC-5)*<br/>
 * **Text, Language, and Image Data** (VIS Full Papers Session)
