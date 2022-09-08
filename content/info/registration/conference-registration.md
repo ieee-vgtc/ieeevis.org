@@ -15,7 +15,7 @@ The 2022 IEEE Visualization and Visual Analytics Conference, running from Octobe
 ### Important Dates
 <ul>
 <li>Registration opening: July 31</li>
-<li>Early Registration deadline: <s>September 2</s> <b>Extended: September 7</b></li>
+<li>Early Registration deadline: <s>September 2</s> <b>Extended: September 16</b></li>
 <li>Author / Invited Presenter Registration deadline: September 16</li>
 </ul>
 
