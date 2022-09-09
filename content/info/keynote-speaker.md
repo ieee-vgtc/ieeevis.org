@@ -20,8 +20,4 @@ style="height:400px"
 TBD
 </p>
 
-<p><b>About the speaker</b><br/>Dr. Marti Hearst is a professor in the School of Information at UC Berkeley, with a zero-percent appointment in the Computer Science Division. Her primary research interests are user interfaces for search engines, information visualization, natural language processing, and MOOCs. She wrote the first book on Search User Interfaces.
-<br/>
-Prof. Hearst received her BA, MS, and PhD degrees in Computer Science from the University of California at Berkeley, and she was a Member of the Research Staff at Xerox PARC from 1994 to 1997.
-<br/>
-Prof. Hearst has received an NSF CAREER award, an IBM Faculty Award, two Google Research Awards, an Okawa Foundation Research Grant, and four Excellence in Teaching Awards. She is an ACM Fellow, a member of the CHI Academy and a SIGIR Fellow. </p>
+<p><b>About the speaker</b><br/>Dr. Marti Hearst is a Professor at UC Berkeley in the School of Information and the Computer Science Division. Her research encompasses user interfaces with a focus on search,  information visualization with a focus on text, computational linguistics, and education at scale. She is the author of Search User Interfaces, the first academic book on that topic.  She is past President of Association of Computational Linguistics, a member of the CHI Academy, an ACM Fellow, a SIGIR Fellow, and has received four Excellence in Teaching Awards.
