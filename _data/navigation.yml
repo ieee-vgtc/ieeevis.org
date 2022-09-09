@@ -76,6 +76,9 @@ menu:
             heading_url: "/year/2022/info/inclusion-and-diversity/inclusivity"
             columns:
               - links:
+                  - text: "Land Recognition"
+                    description: "Recognition of the tribal land the conference takes place."
+                    url: "/year/2022/info/inclusion-and-diversity/land-recognition"
                   - text: "Inclusivity & Diversity Scholarship"
                     description: "Need-based scholarships for conference attendance"
                     url: "/year/2022/info/inclusion-and-diversity/diversity-scholarship"
