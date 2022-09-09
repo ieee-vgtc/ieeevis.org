@@ -8,7 +8,7 @@ active_nav: "Program"
 
 <img src="/year/2022/assets/carousel/capstone-kerry.jpeg"
 alt="Capstone Speaker: Dr. Kerry McGruder, University of Oklahoma" 
-style="height:600px"
+style="height:400px"
 />
 <br/>
 

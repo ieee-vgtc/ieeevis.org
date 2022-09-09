@@ -8,7 +8,7 @@ active_nav: "Program"
 
 <img src="/year/2022/assets/carousel/marti_hearst.jpg"
 alt="Capstone Speaker: Dr. Marti Hearst, UC Berkeley" 
-style="height:600px"
+style="height:400px"
 />
 <br/>
 
@@ -24,4 +24,4 @@ TBD
 <br/>
 Prof. Hearst received her BA, MS, and PhD degrees in Computer Science from the University of California at Berkeley, and she was a Member of the Research Staff at Xerox PARC from 1994 to 1997.
 <br/>
-Prof. Hearst has received an NSF CAREER award, an IBM Faculty Award, two Google Research Awards, an Okawa Foundation Research Grant, and four Excellence in Teaching Awards. She is an ACM Fellow. </p>
+Prof. Hearst has received an NSF CAREER award, an IBM Faculty Award, two Google Research Awards, an Okawa Foundation Research Grant, and four Excellence in Teaching Awards. She is an ACM Fellow, a member of the CHI Academy and a SIGIR Fellow. </p>
