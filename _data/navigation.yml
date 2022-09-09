@@ -76,6 +76,9 @@ menu:
             heading_url: "/year/2022/info/inclusion-and-diversity/inclusivity"
             columns:
               - links:
+                  - text: "Land Recognition"
+                    description: "Recognition of the tribal land the conference takes place."
+                    url: "/year/2022/info/inclusion-and-diversity/land-recognition"
                   - text: "Inclusivity & Diversity Scholarship"
                     description: "Need-based scholarships for conference attendance"
                     url: "/year/2022/info/inclusion-and-diversity/diversity-scholarship"
@@ -214,8 +217,36 @@ menu:
                     description: "Showcase practical, real-world applications of visualization"
                     url: "/year/2022/info/spotlights"
                     #is_new: true
-
       - subsections:
+          - heading: "Invited Speakers"
+#            heading_url: "/year/2022/info/week-at-a-glance"
+            description: "Keynote and Capstone Speakers"
+            columns:
+              - links:
+                  - text: "Keynote"
+                    description: "Dr. Marti Hearst, UC Berkeley – title TBD"
+                    url: "/year/2022/info/keynote-speaker"
+                    is_new: true
+                  - text: "Capstone"
+                    description: "Dr. Kerry McGruder, University of Oklahoma"
+                    url: "/year/2022/info/capstone-speaker"
+                    is_new: true
+          - heading: "Awards and Recognitions"
+            description: "Recognize outstanding work by the VIS community"
+            columns:
+             - links:
+               - text: "Best Paper Awards"
+                 url: "/year/2022/info/awards/best-paper-awards"
+                 is_new: true
+               # - text: "Best Poster Awards"
+               #   url: "/year/2022/info/awards/best-poster-awards"
+  # - text: "Service Awards"
+  #   url: "https://www.google.com"
+  # - text: "VGTC VIS Awards"
+  #   url: "https://www.google.com"
+  #              - text: "Test of Time Awards"
+  #                url: "/year/2022/info/awards/test-of-time-awards"
+  #      - subsections:
   #        - heading: "Plenary Sessions"
   #            # description: "TK TK TK Get an overview of what’s happening at VIS 2020"
   #          columns:
@@ -234,24 +265,8 @@ menu:
   #              #   - text: "Practioner Guide"
   #              #     url: "https://www.google.com"
 
-         - heading: "Awards and Recognitions"
-           description: "Recognize outstanding work by the VIS community"
-           columns:
-             - links:
-               - text: "Best Paper Awards"
-                 url: "/year/2022/info/awards/best-paper-awards"
-                 is_new: true
-               # - text: "Best Poster Awards"
-               #   url: "/year/2022/info/awards/best-poster-awards"
-  # - text: "Service Awards"
-  #   url: "https://www.google.com"
-  # - text: "VGTC VIS Awards"
-  #   url: "https://www.google.com"
-  #              - text: "Test of Time Awards"
-  #                url: "/year/2022/info/awards/test-of-time-awards"
-
   - dropdown: "Events & Community"
-    display: true 
+    display: true
     sections:
       - subsections:
           - heading: "Associated Events"

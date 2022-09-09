@@ -1,27 +1,23 @@
 ---
 layout: page
-title: "Keynote Speaker: danah boyd"
+title: "Keynote by Dr. Marti Hearst"
 permalink: /info/keynote-speaker
 contact: info@ieeevis.org
 active_nav: "Program"
 ---
 
-<img src="/year/2021/assets/carousel/danah_boyd.jpg"
-     alt="Keynote Speaker danah boyd" />
+<img src="/year/2022/assets/carousel/marti_hearst.jpg"
+alt="Capstone Speaker: Dr. Marti Hearst, UC Berkeley" 
+style="height:400px"
+/>
 <br/>
 
-We are very excited to announce that danah boyd will give VIS 2021's keynote presentation.
-Dr. boyd is an internationally recognized authority on the ways people
-use networked social media as a context for social interaction. She has been called the
-“high priestess” of online social network sites by the *Financial Times*. Dr. boyd’s research
-focuses on the intersection of technology, society, and policy. Currently, she is Founder
-& President of Data & Society, a research institute focused on examining the social
-and cultural issues that emerge around data-driven technologies. She is author of It’s
-Complicated and co-author of, *Participatory Culture in a Networked Era*, and *Hanging
-Out, Messing Around and Geeking Out*. danah is a Partner Researcher at Microsoft
-Research, and a Visiting Professor at New York University. She is on the board of the
-Crisis Text Line, a Trustee of Smithsonian’s National Museum of the American Indian,
-a member of the U.S. Department of Commerce Data Advisory Council and is on the
-advisory boards of the Electronic Privacy Information Center and both University of
-California at Berkeley and University of Michigan’s School of Information. Previously,
-danah was Fellow at Harvard University’s Berkman Center for Internet and Society.
+<p><b>Speaker</b> <br/>Dr. Marti Hearst, UC Berkeley</p>
+
+<p><b>Title</b> <br/>TBD</p>
+
+<p><b>Abstract</b> <br/>
+TBD
+</p>
+
+<p><b>About the speaker</b><br/>Dr. Marti Hearst is a Professor at UC Berkeley in the School of Information and the Computer Science Division. Her research encompasses user interfaces with a focus on search,  information visualization with a focus on text, computational linguistics, and education at scale. She is the author of Search User Interfaces, the first academic book on that topic.  She is past President of Association of Computational Linguistics, a member of the CHI Academy, an ACM Fellow, a SIGIR Fellow, and has received four Excellence in Teaching Awards.
