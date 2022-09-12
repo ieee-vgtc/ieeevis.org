@@ -45,6 +45,10 @@
        image: /assets/supporters/uofoklahoma.png
        url: "ou.edu"
 
+     - name: "Echo Investment Capital LLC"
+       image: /assets/supporters/echo.png
+       url: "https://www.echo.global"
+       
  #    - name: "Microsoft"
  #      image: /assets/supporters/microsoft.png
  #      url: "https://www.microsoft.com/research"
