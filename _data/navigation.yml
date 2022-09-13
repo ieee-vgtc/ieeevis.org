@@ -48,8 +48,13 @@ menu:
                 #    - text: "Practitioner Guide"
                 #      url: "https://visinpractice.github.io/guide.html"
                 #      is_external: true
-                # - text: "Full Program"
-                #   url: "/year/2022/info/week-at-a-glance"
+                - text: "Full Program"
+                  url: "/year/2022/info/week-at-a-glance"
+                  is_new: true
+                - text: "OU Open House"
+                  description: "Tour OU facilities, registration required"
+                  url: "/year/2022/assets/ou-open-house-invite.pdf"
+                  is_new: true
                 # - text: "Media Requests"
                 #   url: "/year/2022/info/media-requests"
                 #   is_new: true
@@ -190,7 +195,7 @@ menu:
       - subsections:
           - heading: "Vis Program"
             heading_url: "/year/2022/info/week-at-a-glance"
-            description: "See an overview of the conference program"
+            description: "Click to see an overview of the conference program"
             columns:
               - links:
                   - text: "Papers"
@@ -292,6 +297,10 @@ menu:
                   - text: "IEEE VIS Workshops"
                     description: "Informal settings to discuss emerging topics"
                     url: "/year/2022/info/workshops"
+                  - text: "University of Oklahoma Open House"
+                    description: "Tour OU facilities, registration required"
+                    url: "/year/2022/assets/ou-open-house-invite.pdf"
+                    is_new: true
       - subsections:
           - heading: "Competitions"
             description: "Advancing visualization through competition"
