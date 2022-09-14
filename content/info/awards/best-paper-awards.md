@@ -105,6 +105,8 @@ Authors: Neng Shi, Jiayi Xu, Haoyu Li, Hanqi Guo, Jonathan Woodring, Han-Wei She
 
 ## Short Papers
 
+The Best Papers Committee for VIS 2022 short papers consists of three distinguished members: Enrico Bertini, Min Chen, and Kawn-Liu Ma. The Short Papers Chairs would like to thank the Best Papers Committee for their work and to congratulate the awardees!
+
 ### Best Paper
 
 **Exploring D3 Implementation Challenges on Stack Overflow**
