@@ -105,7 +105,22 @@ Authors: Neng Shi, Jiayi Xu, Haoyu Li, Hanqi Guo, Jonathan Woodring, Han-Wei She
 
 ## Short Papers
 
-To be announced.
+### Best Paper
+
+**Exploring D3 Implementation Challenges on Stack Overflow**
+<br/>
+Authors: Leilani Battle, Danni Feng, Kelli Weber
+
+### Best Paper Honorable Mentions
+
+**Toward Systematic Considerations of Missingness in Visual Analytics**
+<br/>
+Authors: Abdul Rahman Shaikh, David Koop, Hamed Alhoori, Maoyuan Sun
+
+**ARShopping: In-Store Shopping Decision Support Through Augmented Reality and Immersive Visualization**
+<br/>
+Authors: Bingjie Xu, Shunan Guo, Eunyee Koh, Jane Hoffswell, Ryan Rossi, Fan Du
+
 
 ## Posters
 
