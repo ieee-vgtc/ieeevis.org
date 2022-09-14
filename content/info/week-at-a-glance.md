@@ -6,11 +6,11 @@ permalink: info/week-at-a-glance
 
 # Program week at a glance
 
-Below is a *preliminary* schedule the conference.  Additional details for the events are available on their webpages, and more detailed information will be available soon on the virtual VIS website.
+Below is a draft schedule the conference.  Additional details for the events are available on their webpages, and more detailed information will be available soon on the virtual VIS website.
 
-Note that room/track assignments are not final, and thus the columns in the table below do not represent the final tracks.  We currently have only released the list of the time slots (organized as rows). 
+Room assignments are indicated by columns.  The entire conference will run on Level Two of the Omni Oklahoma City Hotel.  [Here is a floor map](https://www.omnihotels.com/-/media/images/hotels/okcdtn/hotel/okcdtn-omni-oklahoma-city-floor-plans). 
 
-Daily sessions are four blocks per day, each 75 minutes.  There are breaks for coffee from 10:15-10:45am and 3:15-3:45pm.  A lunch break runs from 12:00-2:00pm each day.
+Daily sessions are four blocks per day, each 75 minutes.  There are breaks for coffee from 10:15-10:45am and 3:15-3:45pm.  A lunch break runs from 12:00-2:00pm each day.  Regular day programming ends at 5:00pm, with after hours programming beginning after short breaks.
 
 <!--
 <div style="position: relative;">
@@ -34,102 +34,166 @@ Daily sessions are four blocks per day, each 75 minutes.  There are breaks for c
 
 <hr/>
 
+<a>**Saturday, October 15, 2022**</a><br/>
+
+*9:00 AM-5:00 PM CDT (UTC-5)*<br/>
+* Bricktown, Myriad, and Oklahoma Station 1: **Doctoral Colloquium** (Invite only event)
+<hr/>
+
+<a>**Sunday, October 16, 2022**</a><br/>
+* Oklahoma Station 1: **VIS4DH: 7th Workshop on Visualization for the Digital Humanities** (Associated Event)
+* Oklahoma Station 4: **LDAV: 12th IEEE Symposium on Large Data Analysis and Visualization** (Associated Event)
+
+*9:00 AM-12:00 PM CDT (UTC-5)*<br/>
+* Oklahoma Station 5: **VDS: Visualization in Data Science Symposium** (Associated Event)
+* Oklahoma Station 6: **VAST Challenge** (Associated Event)
+* Oklahoma Station 7: **alt.VIS 2022** (Workshop)
+* Oklahoma Station 8: **TREX: Workshop on TRust and EXpertise in Visualization** (Workshop)
+* Mistletoe: **Color Scheming in Visualization** (Tutorial)
+* Pinon: **NLP4Vis: Natural Language Processing for Information Visualization** (Tutorial)
+
+*2:00 PM-5:00 PM CDT (UTC-5)*<br/>
+* Oklahoma Station 5: **Bio+MedVis Challenges** (Associated Event)
+* Oklahoma Station 8: **Visualization for Social Good 2022** (Workshop)
+* Pinon: **NLVIZ Workshop: Exploring Research Opportunities for Natural Language, Text, and Data Visualization** (Workshop)
+* Mistletoe: **Sports Data Analysis and Visualization** (Tutorial)
+* Oklahoma Station 6: **Multilayer Network Visualization: Theory and applications** (Tutorial)
+* Oklahoma Station 7: **Visualization Analysis and Design** (Tutorial)
+<hr/>
+
+<a>**Monday, October 17, 2022**</a><br/>
+
+*9:00 AM-5:00 PM CDT (UTC-5)*<br/>
+* Oklahoma Station 1: **VisInPractice** (Associated Event)
+* Oklahoma Station 4: **BELIV: 9th Workshop on evaluation and BEyond - methodoLogIcal approaches for Visualization** (Associated Event)
+
+*9:00 AM-12:00 PM CDT (UTC-5)*<br/>
+* Oklahoma Station 5: **Workshop on Visualization in BioMedical AI** (Workshop)
+* Oklahoma Station 7: **TestVis: Workshop on Visualization in Testing of Hardware, Software, and Manufacturing** (Workshop)
+* Oklahoma Station 8: **VisComm: Fifth Workshop on Visualization for Communication** (Workshop)
+* Mistletoe: **Riemannian Geometry for Scientific Visualization** (Tutorial)
+* Oklahoma Station 6: **Topological Analysis of Ensemble Scalar Data with TTK, A Sequel** (Tutorial)
+* Pinon: **Visualization in Bayesian workflow** (Tutorial)
+
+*2:00 PM-5:00 PM CDT (UTC-5)*<br/>
+* Oklahoma Station 5: **VISxAI: 5th Workshop on Visualization for AI Explainability** (Associated Event)
+* Oklahoma Station 6: **TopoInVis: Topological Data Analysis and Visualization** (Workshop)
+* Oklahoma Station 7: **VisGuides: 4th IEEE Workshop on Visualization Guidelines Visualization Guidelines in Research, Design, and Education** (Workshop)
+* Oklahoma Station 8: **Viz4Climate: Workshop on High Impact Techniques for Visual Climate Science Communication** (Workshop)
+* Mistletoe: **Analyze and Visualize Large Scale Geospatial Data with H3 and HexTile** (Tutorial)
+* Pinon: **VTK-m – A ToolKit for Scientific Visualization on Many-Core Processors** (Tutorial)
+<hr/>
+
 <a>**Tuesday, October 18, 2022**</a><br/>
 
-*9:00 AM-10:15 AM CDT (UTC-5)*<br/>
-* **VIS Opening / Awards** (Plenary Session)
+*8:30 AM-10:15 AM CDT (UTC-5)*<br/>
+* Oklahoma Station 4+5: **VIS Welcome** (8:30am-8:45am) 
+* Oklahoma Station 4+5: **VGTC Awards** (8:45am-9:30am)
+* Oklahoma Station 4+5: **Test of Time Awards** (9:30am-10:15am)
 
 *10:45 AM-12:00 PM CDT (UTC-5)*<br/>
-* **Best Papers** (VIS Full Papers Session)
+* Oklahoma Station 4+5: **VIS Opening** (10:45am-11:03am)
+* Oklahoma Station 4+5: **Best Papers** (11:03am-12:00pm)
 
 *2:00 PM-3:15 PM CDT (UTC-5)*<br/>
-* **VIS Keynote** (Plenary Session)
+* Oklahoma Station 4+5: **Industry Keynote** (2:00pm-2:15pm)
+* Oklahoma Station 4+5: **VIS Keynote** (2:15pm-3:15pm)
 
 *3:45 PM-5:00 PM CDT (UTC-5)*<br/>
-* **VIS Supporters Forum** (Plenary Session)
+* Oklahoma Station 4+5: **VIS Supporters Forum**
+
+*6:00 PM-8:00 PM CDT (UTC-5)*<br/>
+* Automobile Alley + Prefunction: **VISAP Opening Reception**
 <hr/>
 
 <a>**Wednesday, October 19, 2022**</a><br/>
 
 *9:00 AM-3:15 PM CDT (UTC-5)*<br/>
-* **VizSec** (Associated Event)
+* Pinon: **VizSec Symposium** (Associated Event)
 
 *9:00 AM-10:15 AM CDT (UTC-5)*<br/>
-* **Temporal Data** (VIS Full Papers Session)
-* **Decision Making and Reasoning** (VIS Full Papers Session)
-* **VA and ML** (VIS Full Papers Session)
-* **Transforming Tabular Data and Grammars** (VIS Full Papers Session)
-* **VISAP Session 1** (Associated Event)
+* Oklahoma Station 6+7+8: **Temporal Data** (VIS Full Papers Session)
+* Oklahoma Station 1: **Decision Making and Reasoning** (VIS Full Papers Session)
+* Oklahoma Station 4: **VA and ML** (VIS Full Papers Session)
+* Oklahoma Station 5: **Transforming Tabular Data and Grammars** (VIS Full Papers Session)
+* Mistletoe: **VISAP Session 1** (Associated Event)
 
 *10:45 AM-12:00 PM CDT (UTC-5)*<br/>
-* **VA for ML** (VIS Full Papers Session)
-* **Visualization Design** (VIS Full Papers Session)
-* **Understanding and Modeling How People Respond to Visualizations** (VIS Full Papers Session)
-* **Visualization Opportunities** (VIS Full Papers Session)
-* **SIGGRAPH Invited Talks** (Invited Partnership Presentations)
+* Oklahoma Station 4: **VA for ML** (VIS Full Papers Session)
+* Oklahoma Station 5: **Visualization Design** (VIS Full Papers Session)
+* Oklahoma Station 6+7+8: **Understanding and Modeling How People Respond to Visualizations** (VIS Full Papers Session)
+* Oklahoma Station 1: **Visualization Opportunities** (VIS Full Papers Session)
+* Mistletoe: **SIGGRAPH Invited Talks** (Invited Partnership Presentations)
 
 *2:00 PM-3:15 PM CDT (UTC-5)*<br/>
-* **Immersive Analytics and Situated Visualization** (VIS Full Papers Session)
-* **Questioning Data and Data Bias** (VIS Full Papers Session)
-* **Visualization Systems and Graph Visualization** (VIS Short Papers Session)
-* **(Volume) Rendering** (VIS Full Papers Session)
-* **Data Analysis Methods for Climate Modeling of Extreme Weather Events** (Application Spotlight)
+* Oklahoma Station 4: **Immersive Analytics and Situated Visualization** (VIS Full Papers Session)
+* Oklahoma Station 5: **Questioning Data and Data Bias** (VIS Full Papers Session)
+* Oklahoma Station 1: **Visualization Systems and Graph Visualization** (VIS Short Papers Session)
+* Oklahoma Station 6+7+8: **(Volume) Rendering** (VIS Full Papers Session)
+* Mistletoe: **Data Analysis Methods for Climate Modeling of Extreme Weather Events** (Application Spotlight)
 
 *3:45 PM-5:00 PM CDT (UTC-5)*<br/>
-* **DNA/Genome and Molecular Data/Vis** (VIS Full Papers Session)
-* **Uncertainty** (VIS Full Papers Session)
-* **CG&A: Visualization in Industry** (Invited Partnership Presentations)
-* **Dealing with Scale, Space, and Dimension** (VIS Full Papers Session)
-* **Grand Challenges in Visual Analytic Systems** (VIS Panel)
-* **Visual Analytics, Decision Support, and Machine Learning** (VIS Short Papers Session)
+* Oklahoma Station 1: **DNA/Genome and Molecular Data/Vis** (VIS Full Papers Session)
+* Oklahoma Station 5: **Uncertainty** (VIS Full Papers Session)
+* Mistletoe: **CG&A: Visualization in Industry** (Invited Partnership Presentations)
+* Oklahoma Station 6+7+8: **Dealing with Scale, Space, and Dimension** (VIS Full Papers Session)
+* Pinon: **Grand Challenges in Visual Analytic Systems** (VIS Panel)
+* Oklahoma Station 4: **Visual Analytics, Decision Support, and Machine Learning** (VIS Short Papers Session)
+
+*5:30 PM-7:00 PM CDT (UTC-5)*<br/>
+* Oklahoma Station 2+3: **VIS Combined Poster Session** (5:30pm-7:00pm)
+* VIS banquet follows (TBD)
 <hr/>
 
 <a>**Thursday, October 20, 2022**</a><br/>
 
 *9:00 AM-10:15 AM CDT (UTC-5)*<br/>
-* **ML for VIS** (VIS Full Papers Session)
-* **Interactive Dimensionality (High Dimensional Data)** (VIS Full Papers Session)
-* **Personal Visualization, Theory, Evaluation, and eXtended Reality** (VIS Short Papers Session)
-* **Neuro/Brain/Medical Data** (VIS Full Papers Session)
-* **VISAP Session 2** (Associated Event)
-* **SciVis Contest** (Associated Event)
+* Oklahoma Station 4: **ML for VIS** (VIS Full Papers Session)
+* Oklahoma Station 5: **Interactive Dimensionality (High Dimensional Data)** (VIS Full Papers Session)
+* Oklahoma Station 1: **Personal Visualization, Theory, Evaluation, and eXtended Reality** (VIS Short Papers Session)
+* Oklahoma Station 6+7+8: **Neuro/Brain/Medical Data** (VIS Full Papers Session)
+* Mistletoe: **VISAP Session 2** (Associated Event)
+* Pinon: **SciVis Contest** (Associated Event)
 
 *10:45 AM-12:00 PM CDT (UTC-5)*<br/>
-* **Graphs and Networks** (VIS Full Papers Session)
-* **Digital Humanities, e-Commerce, and Engineering** (VIS Full Papers Session)
-* **Sports Vis** (VIS Full Papers Session)
-* **Interpreting Machine Learning** (VIS Full Papers Session)
-* **Merits and Limits of User Study Preregistration** (VIS Panel)
-* **Audio-Visual Analytics: Potential Applications of Combined Sonifications and Visualizations** (Application Spotlight)
+* Oklahoma Station 5: **Graphs and Networks** (VIS Full Papers Session)
+* Oklahoma Station 1: **Digital Humanities, e-Commerce, and Engineering** (VIS Full Papers Session)
+* Oklahoma Station 6+7+8: **Sports Vis** (VIS Full Papers Session)
+* Oklahoma Station 4: **Interpreting Machine Learning** (VIS Full Papers Session)
+* Pinon: **Merits and Limits of User Study Preregistration** (VIS Panel)
+* Mistletoe: **Audio-Visual Analytics: Potential Applications of Combined Sonifications and Visualizations** (Application Spotlight)
 
 *2:00 PM-3:15 PM CDT (UTC-5)*<br/>
-* **Reflecting on Academia and our Field** (VIS Full Papers Session)
-* **Storytelling** (VIS Full Papers Session)
-* **Scientific Visualization, Ensembles, and Accessibility** (VIS Short Papers Session)
-* **CG&A: Visualization Teaching and Literacy** (Invited Partnership Presentations)
-* **VR Invited Talks** (Invited Partnership Presentations)
+* Oklahoma Station 5: **Reflecting on Academia and our Field** (VIS Full Papers Session)
+* Oklahoma Station 4: **Storytelling** (VIS Full Papers Session)
+* Oklahoma Station 1: **Scientific Visualization, Ensembles, and Accessibility** (VIS Short Papers Session)
+* Oklahoma Station 6+7+8: **CG&A: Visualization Teaching and Literacy** (Invited Partnership Presentations)
+* Mistletoe: **VR Invited Talks** (Invited Partnership Presentations)
 
 *3:45 PM-5:00 PM CDT (UTC-5)*<br/>
-* **Text, Language, and Image Data** (VIS Full Papers Session)
-* **Infrastructure Management** (VIS Full Papers Session)
-* **CG&A: Visualization Teaching and Literacy (cont.) and Machine Learning for Visualization** (Invited Partnership Presentations)
-* **Provenance and Guidance** (VIS Full Papers Session)
-* **Topology** (VIS Full Papers Session)
+* Oklahoma Station 4: **Text, Language, and Image Data** (VIS Full Papers Session)
+* Mistletoe: **Infrastructure Management** (VIS Full Papers Session)
+* Oklahoma Station 6+7+8: **CG&A: Visualization Teaching and Literacy (cont.) and Machine Learning for Visualization** (Invited Partnership Presentations)
+* Oklahoma Station 1: **Provenance and Guidance** (VIS Full Papers Session)
+* Oklahoma Station 5: **Topology** (VIS Full Papers Session)
+
+*6:00 PM-9:00 PM CDT (UTC-5)*<br/>
+* **OU Open House** (Location: off site, shuttles depart 5:45pm)
 <hr/>
 
 <a>**Friday, October 21, 2022**</a><br/>
 
 *9:00 AM-10:15 AM CDT (UTC-5)*<br/>
-* **Natural Language Interaction** (VIS Full Papers Session)
-* **Visual Analytics of Health Data** (VIS Full Papers Session)
-* **Comparisons** (VIS Full Papers Session)
-* **Is This (Panel) Good Enough for IEEE VIS?** (VIS Panel)
-* **Spatial Data** (VIS Full Papers Session)
-* **Application Papers: How should we deal with them?** (Application Spotlight)
+* Oklahoma Station 4: **Natural Language Interaction** (VIS Full Papers Session)
+* Oklahoma Station 5: **Visual Analytics of Health Data** (VIS Full Papers Session)
+* Oklahoma Station 1: **Comparisons** (VIS Full Papers Session)
+* Pinon: **Is This (Panel) Good Enough for IEEE VIS?** (VIS Panel)
+* Oklahoma Station 6+7+8: **Spatial Data** (VIS Full Papers Session)
+* Mistletoe: **Application Papers: How should we deal with them?** (Application Spotlight)
 
 *10:45 AM-12:00 PM CDT (UTC-5)*<br/>
-* **VIS Capstone** (Plenary Session)
-
+* Oklahoma Station 4+5: **VIS Capstone** (10:45am-11:45am)
+* Oklahoma Station 4+5: **VIS Closing** (11:45am-12:00pm)
 
 
 ### Program Co-Chairs

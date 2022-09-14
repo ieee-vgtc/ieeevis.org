@@ -105,7 +105,24 @@ Authors: Neng Shi, Jiayi Xu, Haoyu Li, Hanqi Guo, Jonathan Woodring, Han-Wei She
 
 ## Short Papers
 
-To be announced.
+The Best Papers Committee for VIS 2022 short papers consists of three distinguished members: Enrico Bertini, Min Chen, and Kawn-Liu Ma. The Short Papers Chairs would like to thank the Best Papers Committee for their work and to congratulate the awardees!
+
+### Best Paper
+
+**Exploring D3 Implementation Challenges on Stack Overflow**
+<br/>
+Authors: Leilani Battle, Danni Feng, Kelli Webber
+
+### Best Paper Honorable Mentions
+
+**Toward Systematic Considerations of Missingness in Visual Analytics**
+<br/>
+Authors: Abdul Rahman Shaikh, David Koop, Hamed Alhoori, Maoyuan Sun
+
+**ARShopping: In-Store Shopping Decision Support Through Augmented Reality and Immersive Visualization**
+<br/>
+Authors: Bingjie Xu, Shunan Guo, Eunyee Koh, Jane Hoffswell, Ryan Rossi, Fan Du
+
 
 ## Posters
 

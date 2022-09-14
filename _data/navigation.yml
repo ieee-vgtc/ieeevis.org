@@ -48,14 +48,19 @@ menu:
                 #    - text: "Practitioner Guide"
                 #      url: "https://visinpractice.github.io/guide.html"
                 #      is_external: true
-                # - text: "Full Program"
-                #   url: "/year/2022/info/week-at-a-glance"
+                - text: "Full Program"
+                  url: "/year/2022/info/week-at-a-glance"
+                  is_new: true
+                - text: "OU Open House"
+                  description: "Tour OU facilities, registration required"
+                  url: "/year/2022/assets/ou-open-house-invite.pdf"
+                  is_new: true
                 # - text: "Media Requests"
                 #   url: "/year/2022/info/media-requests"
                 #   is_new: true
                 - text: "Coronavirus Information"
                   url: "/year/2022/info/coronavirus-info"
-                  is_new: true
+                  #is_new: true
             - heading: "Travel"
               links:
                 - text: "Accommodation"
@@ -66,7 +71,7 @@ menu:
                   #is_new: true
                 - text: "Things to do in Oklahoma City"
                   url: "/year/2022/info/registration/what-to-do-in-okc"
-                #   is_new: true
+                  is_new: true
 
           - heading: "Code of Conduct"
             heading_url: "/year/2022/info/inclusion-and-diversity/code-of-conduct"
@@ -147,8 +152,8 @@ menu:
                    - text: "Recording your Talk"
                      url: "/year/2022/info/presenter-information/talk-recording-guide"
                      #is_new: true
-#                   - text: "Guidance for Virtual Events"
-#                     url: "/year/2022/info/presenter-information/guidance-for-associated-events"
+                   - text: "Guidance for Virtual Events"
+                     url: "/year/2022/info/presenter-information/guidance-for-associated-events"
 #                   - text: "Presenting at the Virtual Conference"
 #                     url: "/year/2022/info/presenter-information/presenting-virtually"
 #                     is_new: true
@@ -190,17 +195,15 @@ menu:
       - subsections:
           - heading: "Vis Program"
             heading_url: "/year/2022/info/week-at-a-glance"
-            description: "See the conference program"
+            description: "Click to see an overview of the conference program"
             columns:
               - links:
                   - text: "Papers"
                     description: "The latest research in theory, methods, and applications of visualization"
                     url: "/year/2022/info/papers-sessions"
-                    is_new: true
                   - text: "Posters"
                     description: "Nascent and recent work"
                     url: "/year/2022/info/posters"
-                    is_new: true
                   - text: "Tutorials"
                     description: "Learn new tools and application domains"
                     url: "/year/2022/info/tutorials"
@@ -294,6 +297,10 @@ menu:
                   - text: "IEEE VIS Workshops"
                     description: "Informal settings to discuss emerging topics"
                     url: "/year/2022/info/workshops"
+                  - text: "University of Oklahoma Open House"
+                    description: "Tour OU facilities, registration required"
+                    url: "/year/2022/assets/ou-open-house-invite.pdf"
+                    is_new: true
       - subsections:
           - heading: "Competitions"
             description: "Advancing visualization through competition"
