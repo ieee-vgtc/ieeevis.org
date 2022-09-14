@@ -111,7 +111,7 @@ The Best Papers Committee for VIS 2022 short papers consists of three distinguis
 
 **Exploring D3 Implementation Challenges on Stack Overflow**
 <br/>
-Authors: Leilani Battle, Danni Feng, Kelli Weber
+Authors: Leilani Battle, Danni Feng, Kelli Webber
 
 ### Best Paper Honorable Mentions
 
