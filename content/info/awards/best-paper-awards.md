@@ -117,7 +117,7 @@ Authors: Leilani Battle, Danni Feng, Kelli Webber
 
 **Toward Systematic Considerations of Missingness in Visual Analytics**
 <br/>
-Authors: Abdul Rahman Shaikh, David Koop, Hamed Alhoori, Maoyuan Sun
+Authors: Maoyuan Sun, Yue Ma, Yuanxin Wang, Tianyi Li, Jian Zhao, Yujun Liu, Ping-Shou Zhong
 
 **ARShopping: In-Store Shopping Decision Support Through Augmented Reality and Immersive Visualization**
 <br/>
