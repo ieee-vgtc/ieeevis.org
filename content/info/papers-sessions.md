@@ -13,11 +13,9 @@ More detail about papers and their associated presentations will be released wit
 
 <a>**Tuesday, October 18**</a><br/>
 **10:45-12:00PM CDT (UTC-5)**<br/>
-*Best Papers*<br/>
+**Room: Oklahoma Station 4+5**<br/>
+*VIS Opening + Best Papers*<br/>
 *Session Chair: Tamara Munzner*
-
-**VIS Opening**<br/>
-Authors: Helwig Hauser, Bongshin Lee, Anders Ynnerman, Michelle A. Borkin, Christoph Garth, Jonathan Roberts, Chaoli Wang
 
 **Affective Learning Objectives for Communicative Visualizations**<br/>
 Authors: Elsie Lee-Robbins, Eytan Adar
@@ -37,6 +35,7 @@ Authors: Leilani Battle, Danni Feng, Kelli Webber
 
 <a>**Wednesday, October 19**</a><br/>
 **09:00-10:15AM CDT (UTC-5)**<br/>
+**Room: Oklahoma Station 1**<br/>
 *Decision Making and Reasoning*<br/>
 *Session Chair: Lace Padilla*
 
@@ -64,8 +63,9 @@ Authors: Md Naimul Hoque, Wenbin He, Shekar Arvind Kumar, Liang Gou, Liu Ren
 
 <a>**Wednesday, October 19**</a><br/>
 **09:00-10:15AM CDT (UTC-5)**<br/>
+**Room: Oklahoma Station 4**<br/>
 *VA and ML*<br/>
-*Session Chair: TBD*
+*Session Chair: Cagatay Turkay*
 
 **Survey on Visual Analysis of Event Sequence Data**<br/>
 Authors: Yi Guo, Shunan Guo, Zhuochen Jin, Smiti Kaul, David Gotz, Nan Cao
@@ -91,6 +91,7 @@ Authors: Simon Warchol, Robert Krüger, Ajit Johnson Nirmal, Giorgio Gaglia, Jar
 
 <a>**Wednesday, October 19**</a><br/>
 **09:00-10:15AM CDT (UTC-5)**<br/>
+**Room: Oklahoma Station 5**<br/>
 *Transforming Tabular Data and Grammars*<br/>
 *Session Chair: Alexander Lex*
 
@@ -118,8 +119,9 @@ Authors: Andrew M McNutt
 
 <a>**Wednesday, October 19**</a><br/>
 **09:00-10:15AM CDT (UTC-5)**<br/>
+**Room: Oklahoma Station 6+7+8**<br/>
 *Temporal Data*<br/>
-*Session Chair: TBD*
+*Session Chair: Wolfgang Aigner*
 
 **Visualizing the Passage of Time with Video Temporal Pyramids**<br/>
 Authors: Melissa E Swift, Wyatt Ayers, Sophie Pallanck, Scott Wehrwein
@@ -145,6 +147,7 @@ Authors: Huijie Guo, Meijun Liu, Bowen Yang, Ye Sun, Huamin Qu, Lei Shi
 
 <a>**Wednesday, October 19**</a><br/>
 **10:45-12:00PM CDT (UTC-5)**<br/>
+**Room: Mistletoe**<br/>
 *SIGGRAPH Invited Talks*<br/>
 *Session Chair: Markus Hadwiger*
 
@@ -172,6 +175,7 @@ Authors: Nicholas Sharp, Alec Jacobson
 
 <a>**Wednesday, October 19**</a><br/>
 **10:45-12:00PM CDT (UTC-5)**<br/>
+**Room: Oklahoma Station 1**<br/>
 *Visualization Opportunities*<br/>
 *Session Chair: Melanie Tory*
 
@@ -199,8 +203,9 @@ Authors: Nils Rodrigues, Christoph Schulz, Sören Döring, Daniel Baumgartner, T
 
 <a>**Wednesday, October 19**</a><br/>
 **10:45-12:00PM CDT (UTC-5)**<br/>
+**Room: Oklahoma Station 4**<br/>
 *VA for ML*<br/>
-*Session Chair: TBD*
+*Session Chair: Timo Ropinski*
 
 **GNNLens: A Visual Analytics Approach for Prediction Error Diagnosis of Graph Neural Networks**<br/>
 Authors: Zhihua Jin, Yong Wang, Qianwen Wang, Yao Ming, Tengfei Ma, Huamin Qu
@@ -226,6 +231,7 @@ Authors: Weikai Yang, Xi Ye, Xingxing Zhang, Lanxi Xiao, Jiazhi Xia, Zhongyuan W
 
 <a>**Wednesday, October 19**</a><br/>
 **10:45-12:00PM CDT (UTC-5)**<br/>
+**Room: Oklahoma Station 5**<br/>
 *Visualization Design*<br/>
 *Session Chair: Miriah Meyer*
 
@@ -253,8 +259,9 @@ Authors: Sihang Li, Jiacheng Yu, Mingxuan Li, Le Liu, Xiaolong (Luke) Zhang, Xia
 
 <a>**Wednesday, October 19**</a><br/>
 **10:45-12:00PM CDT (UTC-5)**<br/>
+**Room: Oklahoma Station 6+7+8**<br/>
 *Understanding and Modeling How People Respond to Visualizations*<br/>
-*Session Chair: TBD*
+*Session Chair: Carolina Nobre*
 
 **A Survey of Perception-Based Visualization Studies by Task**<br/>
 Authors: Ghulam Jilani Quadri, Paul Rosen
@@ -280,6 +287,7 @@ Authors: Ameya B Patil, Gaëlle Richer, Christopher Jermaine, Dominik Moritz, Je
 
 <a>**Wednesday, October 19**</a><br/>
 **02:00-03:15PM CDT (UTC-5)**<br/>
+**Room: Oklahoma Station 1**<br/>
 *Short Papers: Visualization Systems and Graph Visualization*<br/>
 *Session Chair: Katherine E. Isaacs*
 
@@ -313,8 +321,9 @@ Authors: Jiwon Choi, Jaemin Jo
 
 <a>**Wednesday, October 19**</a><br/>
 **02:00-03:15PM CDT (UTC-5)**<br/>
+**Room: Oklahoma Station 4**<br/>
 *Immersive Analytics and Situated Visualization*<br/>
-*Session Chair: TBD*
+*Session Chair: Danielle Szafir*
 
 **Exploring Interactions with Printed Data Visualizations in Augmented Reality**<br/>
 Authors: Wai Tong, Zhutian Chen, Meng Xia, Leo Yu-Ho Lo, Linping Yuan, Benjamin Bach, Huamin Qu
@@ -340,6 +349,7 @@ Authors: Tica Lin, Yalong Yang, Johanna Beyer, Hanspeter Pfister
 
 <a>**Wednesday, October 19**</a><br/>
 **02:00-03:15PM CDT (UTC-5)**<br/>
+**Room: Oklahoma Station 5**<br/>
 *Questioning Data and Data Bias*<br/>
 *Session Chair: Emily Wall*
 
@@ -367,6 +377,7 @@ Authors: Haihan Lin, Derya Akbaba, Miriah Meyer, Alexander Lex
 
 <a>**Wednesday, October 19**</a><br/>
 **02:00-03:15PM CDT (UTC-5)**<br/>
+**Room: Oklahoma Station 6+7+8**<br/>
 *(Volume) Rendering*<br/>
 *Session Chair: Christoph Garth*
 
@@ -394,6 +405,7 @@ Authors: Daniel Cornel, Silvana Zechmeister, Eduard Gröller, Jürgen Waser
 
 <a>**Wednesday, October 19**</a><br/>
 **03:45-05:00PM CDT (UTC-5)**<br/>
+**Room: Mistletoe**<br/>
 *CG&A Papers: Visualization in Industry*<br/>
 *Session Chair: Michael Wybrow*
 
@@ -421,8 +433,9 @@ Authors: Vanessa Kretzschmar, Allan Rocha, Fabian Gunther, Markus Stommel, Gerik
 
 <a>**Wednesday, October 19**</a><br/>
 **03:45-05:00PM CDT (UTC-5)**<br/>
+**Room: Oklahoma Station 1**<br/>
 *DNA/Genome and Molecular Data/Vis*<br/>
-*Session Chair: TBD*
+*Session Chair: Michael Krone*
 
 **Multi-View Design Patterns and Responsive Visualization for Genomics Data**<br/>
 Authors: Sehi L'Yi, Nils Gehlenborg
@@ -448,6 +461,7 @@ Authors: Furui Cheng, Mark S Keller, Huamin Qu, Nils Gehlenborg, Qianwen Wang
 
 <a>**Wednesday, October 19**</a><br/>
 **03:45-05:00PM CDT (UTC-5)**<br/>
+**Room: Oklahoma Station 4**<br/>
 *Short Papers: Visual Analytics, Decision Support, and Machine Learning*<br/>
 *Session Chair: Matthew Berger*
 
@@ -481,8 +495,9 @@ Authors: Hyeon Jeon, Hyung-Kwon Ko, Soohyun Lee, Jaemin Jo, Jinwook Seo
 
 <a>**Wednesday, October 19**</a><br/>
 **03:45-05:00PM CDT (UTC-5)**<br/>
+**Room: Oklahoma Station 5**<br/>
 *Uncertainty*<br/>
-*Session Chair: TBD*
+*Session Chair: Kristi Potter*
 
 **VERTIGo: A Visual Platform for Querying and Exploring Large Multilayer Networks**<br/>
 Authors: Erick Cuenca, Arnaud Sallaberry, Dino Ienco, Pascal Poncelet
@@ -508,6 +523,7 @@ Authors: Vaishali Dhanoa, Conny Walchshofer, Andreas Hinterreiter, Eduard Gröll
 
 <a>**Wednesday, October 19**</a><br/>
 **03:45-05:00PM CDT (UTC-5)**<br/>
+**Room: Oklahoma Station 6+7+8**<br/>
 *Dealing with Scale, Space, and Dimension*<br/>
 *Session Chair: Michael Aupetit*
 
@@ -535,6 +551,7 @@ Authors: Marco Angelini, Graziano Blasilli, Simone Lenti, Alessia Palleschi, Giu
 
 <a>**Thursday, October 20**</a><br/>
 **09:00-10:15AM CDT (UTC-5)**<br/>
+**Room: Oklahoma Station 1**<br/>
 *Short Papers: Personal Visualization, Theory, Evaluation, and eXtended Reality*<br/>
 *Session Chair: Cindy Xiong*
 
@@ -568,8 +585,9 @@ Authors: Bingjie Xu, Shunan Guo, Eunyee Koh, Jane Hoffswell, Ryan Rossi, Fan Du
 
 <a>**Thursday, October 20**</a><br/>
 **09:00-10:15AM CDT (UTC-5)**<br/>
+**Room: Oklahoma Station 4**<br/>
 *ML for VIS*<br/>
-*Session Chair: TBD*
+*Session Chair: Daniel Jönsson*
 
 **AI4VIS: Survey on Artificial Intelligence Approaches for Data Visualization**<br/>
 Authors: Aoyu Wu, Yun Wang, Xinhuan Shu, Dominik Moritz, Weiwei Cui, Haidong Zhang, Dongmei Zhang, Huamin Qu
@@ -595,6 +613,7 @@ Authors: Dazhen Deng, Aoyu Wu, Huamin Qu, Yingcai Wu
 
 <a>**Thursday, October 20**</a><br/>
 **09:00-10:15AM CDT (UTC-5)**<br/>
+**Room: Oklahoma Station 5**<br/>
 *Interactive Dimensionality (High Dimensional Data)*<br/>
 *Session Chair: Lars Linsen*
 
@@ -622,6 +641,7 @@ Authors: Zixia Zhou, Xinrui Zu, Yuanyuan Wang, Boudewijn P.F. Lelieveldt, Qian T
 
 <a>**Thursday, October 20**</a><br/>
 **09:00-10:15AM CDT (UTC-5)**<br/>
+**Room: Oklahoma Station 6+7+8**<br/>
 *Neuro/Brain/Medical Data*<br/>
 *Session Chair: Johanna Beyer*
 
@@ -649,8 +669,9 @@ Authors: Monique Meuschke, Uli Niemann, Benjamin Behrendt, Matthias Gutberlet, B
 
 <a>**Thursday, October 20**</a><br/>
 **10:45-12:00PM CDT (UTC-5)**<br/>
+**Room: Oklahoma Station 1**<br/>
 *Digital Humanities, e-Commerce, and Engineering*<br/>
-*Session Chair: TBD*
+*Session Chair: Enrico Bertini*
 
 **CohortVA: A Visual Analytic System for Interactive Exploration of Cohorts based on Historical Data**<br/>
 Authors: Wei Zhang, Jason Kamkwai Wong, Xumeng Wang, Youcheng Gong, Rongchen Zhu, Kai Liu, Zihan Yan, Siwei Tan, Huamin Qu, Siming Chen, Wei Chen
@@ -676,8 +697,9 @@ Authors: Jiehui Zhou, Xumeng Wang, Jason Kamkwai Wong, Huanliang Wang, Zhongwei 
 
 <a>**Thursday, October 20**</a><br/>
 **10:45-12:00PM CDT (UTC-5)**<br/>
+**Room: Oklahoma Station 4**<br/>
 *Interpreting Machine Learning*<br/>
-*Session Chair: TBD*
+*Session Chair: Adam Perer*
 
 **StrategyAtlas: Strategy Analysis for Machine Learning Interpretability**<br/>
 Authors: Dennis Collaris, Jarke J. van Wijk
@@ -703,6 +725,7 @@ Authors: Zelin Ye, Min Chen
 
 <a>**Thursday, October 20**</a><br/>
 **10:45-12:00PM CDT (UTC-5)**<br/>
+**Room: Oklahoma Station 5**<br/>
 *Graphs and Networks*<br/>
 *Session Chair: Andreas Kerren*
 
@@ -730,6 +753,7 @@ Authors: Sicheng Song, Chenhui Li, Yujing Sun, Changbo Wang
 
 <a>**Thursday, October 20**</a><br/>
 **10:45-12:00PM CDT (UTC-5)**<br/>
+**Room: Oklahoma Station 6+7+8**<br/>
 *Sports Vis*<br/>
 *Session Chair: Johanna Schmidt*
 
@@ -757,6 +781,7 @@ Authors: Tica Lin, Zhutian Chen, Yalong Yang, Daniele Chiappalupi, Johanna Beyer
 
 <a>**Thursday, October 20**</a><br/>
 **02:00-03:15PM CDT (UTC-5)**<br/>
+**Room: Mistletoe**<br/>
 *VR Invited Talks*<br/>
 *Session Chair: David Laidlaw*
 
@@ -784,6 +809,7 @@ Authors: Thomas Robotham, Olli S. Rummukainen, Miriam Kurz, Marie Eckert, Emanu�
 
 <a>**Thursday, October 20**</a><br/>
 **02:00-03:15PM CDT (UTC-5)**<br/>
+**Room: Oklahoma Station 1**<br/>
 *Short Papers: Scientific Visualization, Ensembles, and Accessibility*<br/>
 *Session Chair: Hanqi Guo*
 
@@ -817,6 +843,7 @@ Authors: Nihanth Cherukuru, David Bailey, Tiffany Fourment, Becca Hatheway, Mari
 
 <a>**Thursday, October 20**</a><br/>
 **02:00-03:15PM CDT (UTC-5)**<br/>
+**Room: Oklahoma Station 4**<br/>
 *Storytelling*<br/>
 *Session Chair: Robert Laramee*
 
@@ -844,6 +871,7 @@ Authors: Prateek Mantri, Hariharan Subramonyam, Audrey Michal, Cindy Xiong
 
 <a>**Thursday, October 20**</a><br/>
 **02:00-03:15PM CDT (UTC-5)**<br/>
+**Room: Oklahoma Station 5**<br/>
 *Reflecting on Academia and our Field*<br/>
 *Session Chair: Petra Isenberg*
 
@@ -871,6 +899,7 @@ Authors: Hannah K. Bako, Xinyi Liu, Leilani Battle, Zhicheng Liu
 
 <a>**Thursday, October 20**</a><br/>
 **02:00-03:15PM CDT (UTC-5)**<br/>
+**Room: Oklahoma Station 6+7+8**<br/>
 *CG&A Papers: Visualization Teaching and Literacy*<br/>
 *Session Chair: Tamara Munzner*
 
@@ -898,6 +927,7 @@ Authors: Vetria L. Byrd, Nicole Dwenger
 
 <a>**Thursday, October 20**</a><br/>
 **03:45-05:00PM CDT (UTC-5)**<br/>
+**Room: Mistletoe**<br/>
 *Infrastructure Management*<br/>
 *Session Chair: Ross Maciejewski*
 
@@ -925,8 +955,9 @@ Authors: DongHwa Shin, Jaemin Jo, Bohyoung Kim, Hyunjoo Song, Shin-Hyung Cho, Ji
 
 <a>**Thursday, October 20**</a><br/>
 **03:45-05:00PM CDT (UTC-5)**<br/>
+**Room: Oklahoma Station 1**<br/>
 *Provenance and Guidance*<br/>
-*Session Chair: TBD*
+*Session Chair: Alvitta Ottley*
 
 **The Inﬂuence of Visual Provenance Representations on Strategies in a Collaborative Hand-off Data Analysis Scenario**<br/>
 Authors: Jeremy E Block, Shaghayegh Esmaeili, Eric Ragan, John Goodall, Gregory David Richardson
@@ -952,6 +983,7 @@ Authors: Anamaria Crisan, Shannah Fisher, Jennifer L. Gardy, Tamara Munzner
 
 <a>**Thursday, October 20**</a><br/>
 **03:45-05:00PM CDT (UTC-5)**<br/>
+**Room: Oklahoma Station 4**<br/>
 *Text, Language, and Image Data*<br/>
 *Session Chair: Steffen Koch*
 
@@ -979,6 +1011,7 @@ Authors: Valentin Bruder, Matthew Larsen, Thomas Ertl, Hank Childs, Steffen Frey
 
 <a>**Thursday, October 20**</a><br/>
 **03:45-05:00PM CDT (UTC-5)**<br/>
+**Room: Oklahoma Station 5**<br/>
 *Topology*<br/>
 *Session Chair: Julien Tierny*
 
@@ -1006,6 +1039,7 @@ Authors: Ping Hu, Saeed Boorboor, Joseph Marino, Arie E. Kaufman
 
 <a>**Thursday, October 20**</a><br/>
 **03:45-05:00PM CDT (UTC-5)**<br/>
+**Room: Oklahoma Station 6+7+8**<br/>
 *CG&A Papers: Visualization Teaching and Literacy (cont.) and Machine Learning for Visualization*<br/>
 *Session Chair: Jieqiong Zhao*
 
@@ -1033,8 +1067,9 @@ Authors: Philippe Caillou, Jonas Renault, Jean-Daniel Fekete, Anne-Catherine Let
 
 <a>**Friday, October 21**</a><br/>
 **09:00-10:15AM CDT (UTC-5)**<br/>
+**Room: Oklahoma Station 1**<br/>
 *Comparisons*<br/>
-*Session Chair: TBD*
+*Session Chair: Peter Lindstrom*
 
 **Geometry-Aware Merge Tree Comparisons for Time-Varying Data with Interleaving Distances**<br/>
 Authors: Lin Yan, Talha Bin Masood, Farhan Rasheed, Ingrid Hotz, Bei Wang
@@ -1060,6 +1095,7 @@ Authors: Rita Sevastjanova, Eren Cakmak, Shauli Ravfogel, Ryan Cotterell, Mennat
 
 <a>**Friday, October 21**</a><br/>
 **09:00-10:15AM CDT (UTC-5)**<br/>
+**Room: Oklahoma Station 4**<br/>
 *Natural Language Interaction*<br/>
 *Session Chair: John Stasko*
 
@@ -1087,8 +1123,9 @@ Authors: Chase Stokes, Vidya Setlur, Bridget Cogley, Arvind Satyanarayan, Marti 
 
 <a>**Friday, October 21**</a><br/>
 **09:00-10:15AM CDT (UTC-5)**<br/>
+**Room: Oklahoma Station 5**<br/>
 *Visual Analytics of Health Data*<br/>
-*Session Chair: TBD*
+*Session Chair: Bum Chul Kwon*
 
 **ClinicalPath: a Visualization tool to Improve the Evaluation of Electronic Health Records in Clinical Decision-Making**<br/>
 Authors: Claudio D. G. Linhares, Daniel M. Lima, Jean R. Ponciano, Mauro M. Olivatto, Marco A. Gutierrez, Jorge Poco, Caetano Traina Jr., Agma J. M. Traina
@@ -1114,6 +1151,7 @@ Authors: Qianwen Wang, Kexin Huang, Payal Chandak, Marinka Zitnik, Nils Gehlenbo
 
 <a>**Friday, October 21**</a><br/>
 **09:00-10:15AM CDT (UTC-5)**<br/>
+**Room: Oklahoma Station 6+7+8**<br/>
 *Spatial Data*<br/>
 *Session Chair: Holger Theisel*
 
@@ -1135,6 +1173,4 @@ Authors: Chuang Yang, Zhiwen Zhang, Zipei Fan, Renhe Jiang, Quanjun Chen, Xuan S
 **On-Tube Attribute Visualization for Multivariate Trajectory Data**<br/>
 Authors: Benjamin Russig, David Groß, Raimund Dachselt, Stefan Gumhold
 <br/>
-
-
 
