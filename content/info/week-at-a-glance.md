@@ -130,7 +130,7 @@ Daily sessions are four blocks per day, each 75 minutes.  There are breaks for c
 * Oklahoma Station 5: **Questioning Data and Data Bias** (VIS Full Papers Session)
 * Oklahoma Station 1: **Visualization Systems and Graph Visualization** (VIS Short Papers Session)
 * Oklahoma Station 6+7+8: **(Volume) Rendering** (VIS Full Papers Session)
-* Mistletoe: **Data Analysis Methods for Climate Modeling of Extreme Weather Events** (Application Spotlight)
+* Mistletoe: **Application Papers: How should we deal with them?** (Application Spotlight)
 
 *3:45 PM-5:00 PM CDT (UTC-5)*<br/>
 * Oklahoma Station 1: **DNA/Genome and Molecular Data/Vis** (VIS Full Papers Session)
@@ -189,7 +189,7 @@ Daily sessions are four blocks per day, each 75 minutes.  There are breaks for c
 * Oklahoma Station 1: **Comparisons** (VIS Full Papers Session)
 * Pinon: **Is This (Panel) Good Enough for IEEE VIS?** (VIS Panel)
 * Oklahoma Station 6+7+8: **Spatial Data** (VIS Full Papers Session)
-* Mistletoe: **Application Papers: How should we deal with them?** (Application Spotlight)
+* Mistletoe: **Data Analysis Methods for Climate Modeling of Extreme Weather Events** (Application Spotlight)
 
 *10:45 AM-12:00 PM CDT (UTC-5)*<br/>
 * Oklahoma Station 4+5: **VIS Capstone** (10:45am-11:45am)
