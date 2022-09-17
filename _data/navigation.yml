@@ -227,7 +227,7 @@ menu:
             columns:
               - links:
                   - text: "Keynote"
-                    description: "Dr. Marti Hearst, UC Berkeley – title TBD"
+                    description: "Dr. Marti Hearst, UC Berkeley"
                     url: "/year/2022/info/keynote-speaker"
                     is_new: true
                   - text: "Capstone"
