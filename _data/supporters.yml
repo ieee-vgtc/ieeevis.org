@@ -48,7 +48,7 @@
      - name: "Echo Investment Capital LLC"
        image: /assets/supporters/echo.png
        url: "https://www.echo.global"
-       
+
  #    - name: "Microsoft"
  #      image: /assets/supporters/microsoft.png
  #      url: "https://www.microsoft.com/research"
@@ -82,6 +82,9 @@
      - name: "VRVis"
        image: /assets/supporters/VRVis-Logo.png
        url: "https://www.vrvis.at/"
+     - name: "Nomic"
+       image: /assets/supporters/nomic_high_resolution.png
+       url: "nomic.ai"
 
  #    - name: "SCI"
  #      image: /assets/supporters/sci.png
