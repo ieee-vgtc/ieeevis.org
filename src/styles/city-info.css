@@ -1,0 +1,30 @@
+.city-info {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    display: grid;
+}
+
+.city-info > div {
+    cursor: pointer;
+}
+
+.city-info > div > h3 {
+    text-transform: uppercase;
+    align-items: center;
+    min-height: 75px;
+    display: flex;
+}
+
+.city-info > div > img {
+    object-fit: cover;
+    height: 352px;
+    width: 352px;
+}
+
+.city-info > div > p {
+    text-justify: inter-word;
+    text-align: justify;
+    margin-top: 10px;
+}

@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<header class="section bg-gray-200">
+    <div class="header">
+        <div class="container">
+            <h1 class="mb-0">{{ page.title }}</h1>
+        </div>
+    </div>
+</header>
+
+<div class="container md:py-16 flex md:flex-row flex-col justify-between">
+    <article class="content md:w-3/5 w-full md:mt-0 mt-8 md:order-none order-2">
+        {{ content }}
+
+        <div class="city-info">
+            {% for place in page.places %}
+                <div>
+                    <h3>{{ place.name }}</h3>
+                    <img height="200px" alt="Image of {{ place.name }}" src="{{ place.image }}" />
+                    <p>{{ place.description }}</p>
+                    <a href="{{ place.website }}" target="_blank" class="button">Visit Website</a>
+                    <a href="{{ place.google_maps }}" target="_blank" class="button">View on Google Maps</a>
+                </div>
+            {% endfor %}
+        </div>
+    </article>
+
+    {% if page.sidetoc %}
+        {% include sidetoc.html %}
+    {% endif %}
+</div>
