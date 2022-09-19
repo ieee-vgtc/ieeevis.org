@@ -7,7 +7,7 @@ contact: tutorials@ieeevis.org
 
 ## Accepted Tutorials
 Here is the list of the accepted tutorials. 
-* [Color Matters in Visualization](#CMV)
+* [Color Scheming in Visualization](#CMV)
 * [NLP4Vis: Natural Language Processing for Information Visualization](#NLP)
 * [Multilayer Network Visualization: Theory and applications](#MNV)
 * [Visualization Analysis and Design](#VAD)
@@ -20,7 +20,7 @@ Here is the list of the accepted tutorials.
 
 <hr/>
 
-## <a name="CMV"></a> Color Matters in Visualization
+## <a name="CMV"></a> Color Scheming in Visualization
 Sunday, October 16, 2022: 9:00 AM-12:00 PM CDT (UTC-5)
 
 Theresa-Marie Rhyne, *Visualization Consultant*
@@ -108,6 +108,7 @@ Visualization can be a powerful tool to help you build better statistical models
 Monday, October 17, 2022: 2:00 PM-5:00 PM CDT (UTC-5)
 
 Shan He, *Foursquare*
+Nick Rabinowitz, *Foursquare*
 
 Geospatial analysis can be challenging and time-consuming – from preparing data of different shapes, forms, sizes, to processing and visualizing large datasets at scale. In recent years, geospatial visualization has increasingly shifted from legacy GIS tools to web-based systems leveraging WebGL and other modern browser-based technologies to enable fast exploratory data analysis for a broader audience.
 
