@@ -19,9 +19,6 @@ Authors: Arvind Srinivasan, Abhinav Kannan, Niklas Elmqvist
 **Ditto: Exploring data in large display environments through speech+mid-air gesture interactions**<br/>
 Authors: Jillian Aurisano, Abeer Alsaiari, Abhinav Kumar, Moira Zellner, Jason Leigh, Barbara Di Eugenio, Andrew E Johnson
 
-**Can Visualization Tools Support Local Politicians in Making Environmentally-Sound Spatial Planning Decisions? Evaluation of Visual Analytics Tools through a Mixed Method of Experiments and Case Studies**<br/>
-Authors: Christina Hellevik
-
 **MitoVis: A Unified Visual Analytics System for End-to-End Neuronal Mitochondria Analysis**<br/>
 Authors: JunYoung Choi, Hyunjic Oh, Hakjun Lee, Su Yeon Kim, Seok-Kyu Kwon, Won-Ki Jeong
 
@@ -84,9 +81,6 @@ Authors: Matthew Blanco, Jonathan Zong, Arvind Satyanarayan
 
 **Processing Fluency Improves Trust in Scatterplot Visualizations**<br/>
 Authors: Hamza Elhamdadi, Lace Padilla, Cindy Xiong
-
-**Automated Animation Pipeline for Tumor Growth Models**<br/>
-Authors: Andrea Seung Kim, Aunnasha Sengupta, Aldo Badano
 
 **Dynamic visualizations for violence prevention**<br/>
 Authors: Luke Demarest
