@@ -23,17 +23,18 @@ Questions? Contact the Community Committee (Lane Harrison, Alfie Abdul-Rahman, Q
 
 ### Roux Institute, Northeastern University
 
-**Research Scientist - Data Visualization & Visual Analytics** at Roux Institute, Northeastern University (Portland, Maine, USA), start date: 2023-01-01
-https://northeastern.wd1.myworkdayjobs.com/en-US/careers/job/Portland-ME/Research-Scientist---Data-Visualization---Visual-Analytics_R104518
+**[Research Scientist - Data Visualization & Visual Analytics](https://northeastern.wd1.myworkdayjobs.com/en-US/careers/job/Portland-ME/Research-Scientist---Data-Visualization---Visual-Analytics_R104518)** at Roux Institute, Northeastern University (Portland, Maine, USA), start date: 2023-01-01
 
-**Postdoctoral Fellow** at Roux Institute, Northeastern University (Portland, Maine, USA), start date: 2023-01-01
-https://northeastern.wd1.myworkdayjobs.com/en-US/careers/job/Portland-ME/AR-VR-HCI-Postdoctoral-Fellow_R104097
 
-**Research Professor - VIS or HCI in Medicine** at Roux Institute, Northeastern University (Portland, Maine, USA), start date: 2023-01-01
-https://northeastern.wd1.myworkdayjobs.com/en-US/careers/job/Portland-ME/Research-Professor---Roux-Institute-Member--Human--Computer-Interactions-in-Medicine_R104517
 
-**Research Professor - VIS and Scientific Computing** at Roux Institute, Northeastern University (Portland, Maine, USA), start date: 2023-01-01
-https://northeastern.wd1.myworkdayjobs.com/en-US/careers/job/Portland-ME/Research-Professor-and-Roux-Institute-Member---Data-Visualization---Scientific-Computing--Open-Rank-_R104510
+[**Postdoctoral Fellow**](https://northeastern.wd1.myworkdayjobs.com/en-US/careers/job/Portland-ME/AR-VR-HCI-Postdoctoral-Fellow_R104097) at Roux Institute, Northeastern University (Portland, Maine, USA), start date: 2023-01-01
+
+
+[**Research Professor - VIS or HCI in Medicine**](https://northeastern.wd1.myworkdayjobs.com/en-US/careers/job/Portland-ME/Research-Professor---Roux-Institute-Member--Human--Computer-Interactions-in-Medicine_R104517) at Roux Institute, Northeastern University (Portland, Maine, USA), start date: 2023-01-01
+
+
+[**Research Professor - VIS and Scientific Computing**](https://northeastern.wd1.myworkdayjobs.com/en-US/careers/job/Portland-ME/Research-Professor-and-Roux-Institute-Member---Data-Visualization---Scientific-Computing--Open-Rank-_R104510) at Roux Institute, Northeastern University (Portland, Maine, USA), start date: 2023-01-01
+
 
 Start time flexible? Yes  
 Attend job fair meetup? Yes  
@@ -42,8 +43,8 @@ Contact: Melanie Tory, m.tory@northeastern.edu
 
 ### Brigham and Women's Hospital / Harvard Medical School
 
-**Postdoctoral Fellow in Uncertainty Visualization** at Brigham and Women's Hospital / Harvard Medical School (Boston, MA, USA), start date: 2022-11-01
-https://www.dropbox.com/s/payeih8nqe61m1y/VisPostdocJob.pdf?dl=0 
+[**Postdoctoral Fellow in Uncertainty Visualization**](https://www.dropbox.com/s/payeih8nqe61m1y/VisPostdocJob.pdf?dl=0) at Brigham and Women's Hospital / Harvard Medical School (Boston, MA, USA), start date: 2022-11-01
+ 
 
 Start time flexible? Yes  
 Attend job fair meetup? No, please contact directly    
@@ -52,8 +53,8 @@ Contact: Sarah Frisken, sfrisken@bwh.harvard.edu
 
 ### University of Illinois at Urbana-Champaign
 
-**Assistant Professor (Tenure-Track)** at University of Illinois at Urbana-Champaign (Urbana-Champaign, Illinois, USA), start date: 2023-08-16
-https://illinois.csod.com/ux/ats/careersite/1/home/requisition/971?c=illinois
+[**Assistant Professor (Tenure-Track)**](https://illinois.csod.com/ux/ats/careersite/1/home/requisition/971?c=illinois) at University of Illinois at Urbana-Champaign (Urbana-Champaign, Illinois, USA), start date: 2023-08-16
+
 
 Start time flexible? Yes  
 Attend job fair meetup? No, please contact directly    
@@ -63,12 +64,12 @@ Contact: Jane Jukes, j-jukes@illinois.edu
 ## Industry
 ### Ozette
 
-**Software Engineer, Front End** at Ozette (Seattle, WA, USA or Remote, USA), start date: 2022-11-01
-https://www.ozette.com/careers-apply/?jobid=4360989004#job-apply
-**Software Engineer, Platform** at Ozette (Seattle, WA, USA or Remote, USA), start date: 2022-11-01
-https://www.ozette.com/careers-apply/?jobid=4372361004#job-apply
-**ML/AI Scientist** at Ozette (Seattle, WA, USA or Remote, USA), start date: 2022-11-01
-https://www.ozette.com/careers-apply/?jobid=4663569004#job-apply
+[**Software Engineer, Front End**](https://www.ozette.com/careers-apply/?jobid=4360989004#job-apply) at Ozette (Seattle, WA, USA or Remote, USA), start date: 2022-11-01
+
+[**Software Engineer, Platform**](https://www.ozette.com/careers-apply/?jobid=4372361004#job-apply) at Ozette (Seattle, WA, USA or Remote, USA), start date: 2022-11-01
+
+[**ML/AI Scientist**](https://www.ozette.com/careers-apply/?jobid=4663569004#job-apply) at Ozette (Seattle, WA, USA or Remote, USA), start date: 2022-11-01
+
 
 Start time flexible? Yes  
 Attend job fair meetup? Yes  
