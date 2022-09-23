@@ -499,9 +499,6 @@ Authors: Hyeon Jeon, Hyung-Kwon Ko, Soohyun Lee, Jaemin Jo, Jinwook Seo
 *Uncertainty*<br/>
 *Session Chair: Kristi Potter*
 
-**VERTIGo: A Visual Platform for Querying and Exploring Large Multilayer Networks**<br/>
-Authors: Erick Cuenca, Arnaud Sallaberry, Dino Ienco, Pascal Poncelet
-
 **Fiber Uncertainty Visualization for Bivariate Data With Parametric and Nonparametric Noise Models**<br/>
 Authors: Tushar M. Athawale, Chris R. Johnson, Sudhanshu Sane, David Pugmire
 
@@ -525,7 +522,7 @@ Authors: Vaishali Dhanoa, Conny Walchshofer, Andreas Hinterreiter, Eduard Gröll
 **03:45-05:00PM CDT (UTC-5)**<br/>
 **Room: Oklahoma Station 6+7+8**<br/>
 *Dealing with Scale, Space, and Dimension*<br/>
-*Session Chair: Michael Aupetit*
+*Session Chair: Joshua A. Levine*
 
 **Multivariate Probabilistic Range Queries for Scalable Interactive 3D Visualization**<br/>
 Authors: Amani Waleed Ageeli, Alberto Jaspe-Villanueva, Ronell Sicat, Florian Mannuss, Peter Rautek, Markus Hadwiger
@@ -632,8 +629,8 @@ Authors: Jiazhi Xia, Linquan Huang, Weixing Lin, Xin Zhao, Jing Wu, Yang Chen, Y
 **Predicting User Preferences of Dimensionality Reduction Embedding Quality**<br/>
 Authors: Cristina Morariu, Adrien Bibal, Rene Cutura, Benoit Frenay, Michael Sedlmair
 
-**Deep Recursive Embedding for High-Dimensional Data**<br/>
-Authors: Zixia Zhou, Xinrui Zu, Yuanyuan Wang, Boudewijn P.F. Lelieveldt, Qian Tao
+**VERTIGo: A Visual Platform for Querying and Exploring Large Multilayer Networks**<br/>
+Authors: Erick Cuenca, Arnaud Sallaberry, Dino Ienco, Pascal Poncelet
 <br/>
 
 
