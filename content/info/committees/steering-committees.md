@@ -17,7 +17,7 @@ Current members of the VSC are:
 | Stephen North | *Infovisible* (Chair) |
 | Tobias Schreck | *TU Graz* |
 | Deborah Silver | *Rutgers University* |
-| Melanie Tory | *Tableau Software* |
+| Melanie Tory | *Northeastern University* |
 | Anna Vilanova | *Eindhoven University of Technology* |
 
 
