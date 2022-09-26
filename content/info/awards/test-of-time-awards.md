@@ -63,7 +63,7 @@ In the 1990s, the flood of available satellite and other remote-sensing data dro
 Committee: Hamish Carr, Kelly Gaither, Gerik Scheuermann, Kristi Potter
 
 <b>2007: <br>
-Efficient Computation and Visualization of Coherent Structures in Fluid Flow Applications.br>
+Efficient Computation and Visualization of Coherent Structures in Fluid Flow Applications.<br>
 Christoph Garth, Florian Gerhardt, Xavier Tricoche, Hans Hagen</b><br>
 DOI: [10.1109/TVCG.2007.70551](https://doi.org/10.1109/TVCG.2007.70551)
 
