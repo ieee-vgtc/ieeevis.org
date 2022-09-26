@@ -14,63 +14,69 @@ Papers are selected for each of the three conferences (VAST, InfoVis and SciVis)
 
 The decisions are based on objective measures such as the numbers of citations, and more subjective ones such as the quality and longevity and influence of ideas, outreach, uptake and effect not only in the research community, but also within application domains and visualization practice.
 
-VAST currently considers conferences 10 years prior to the current conference, InfoVis 10 and 20 years prior, and SciVis 15 and 25 years prior. 
+
+This year VAST gave out a 10-year test of time award, InfoVis a 10- and 20-year award, and SciVis a 14, 15 and 25 year award. 
+
 
 ## VAST
-<b>2011: <br>
-SensePlace2: GeoTwitter analytics support for situational awareness.<br>
-Alan M. MacEachren, Anuj Jaiswal, Anthony C. Robinson, Scott Pezanowski, Alexander Savelyev, Prasenjit Mitra, Xiao Zhang, and Justine Blanford.</b><br>
-DOI: [10.1109/VAST.2011.6102456](https://doi.org/10.1109/VAST.2011.6102456)
+<b>2012: <br>
+Enterprise Data Analysis and Visualization: An Interview Study<br>
+Sean Kandel, Andreas Paepcke, Joseph M. Hellerstein, Jeffrey Heer<br>
+DOI: [10.1109/TVCG.2012.219](https://doi.org/10.1109/TVCG.2012.219)
 
-The paper has over 400 citations, and is still regularly cited today as an early example of visual analytics for aggregated social media data. Published when Twitter was still ramping up, the paper described using tweets and their location data for situation awareness during emergencies.  It includes a survey of emergency practitioners and a useful discussion of situation awareness.  This work led to important discussions of the ethics of location-based data in crisis situations.
-
-Committee: Brian Fisher, Shixia Liu, Catherine Plaisant (chair), Jonathan Roberts
+  
+This paper considered deeper questions about how VA can be used and is used within the context of organizations. Their abstraction of high-level tasks and of user archetypes ('hackers', 'scripters', 'applications users') provides accessible framings of their findings helping other organizations to evaluate the costs/benefits of VA more effectively. These studies take a lot of work, recruiting people, coding the results, they make it look easy! Before this work we struggled to find the vocabulary to use, now we have framings that are easy to remember and conceptualise the space nicely. The paper provided the vocabulary for authors to use. The paper has received an impressive quantity of citations and patent citations, is still relevant today, and continues to be cited.
+  
+Committee: Jonathan C. Roberts (Chair), Claudio Silva, Jo Wood, Torsten Moeller
 
 ## InfoVis
-<b>2001: <br>
-Ordered Treemap Layouts.<br>
-Ben Shneiderman & Martin Wattenberg. </b><br>
-DOI: [10.1109/INFVIS.2001.963283](https://doi.org/10.1109/INFVIS.2001.963283)
+<b>2002: <br>
+SpaceTree: supporting exploration in large node link tree, design evolution and empirical evaluation.<br>
+Catherine Plaisant, Jesse  Grosjean, Benjamin B Bederson. </b><br>
+DOI: [10.1109/INFVIS.2002.1173148](https://doi.org/10.1109/INFVIS.2002.1173148)
 
-<b>_followup journal paper_<br>
-Ordered and Quantum Treemaps: Making effective use of 2D space to display hierarchies.<br>
-Benjamin B. Bederson, Ben Shneiderman, Martin Wattenberg. ACM TOG 21(4):833-854 2002</b><br>
-DOI: [10.1145/571647.571649]( https://doi.org/10.1145/571647.571649)
 
-This paper represents foundational work that underlies modern treemap algorithms. The 2001 InfoVis paper introduced a method to retain the order of items while also producing rectangles with low aspect ratios, similar to squarified tree maps. The approach addressed a critical problem of layout stability, where changes in the data set could result in dramatic discontinuous changes in the treemap layout. With trends towards interaction as a critical component of InfoVis system design, and the need to handle updating data, mechanisms to ensure layout stability were an important and long lasting contribution to InfoVis. Also notable are the introduction of meaningful metrics for assessing layout quality and a systematic and rigorous evaluation of several different treemap algorithms against those metrics; as such, the paper can also be commended as an early exemplar of algorithm quality benchmarking. The followup journal version paper also introduced the quantum treemap approach suitable for laying out images within the generated rectangles, and included a user study to assess human performance benefits of the new algorithms. These two papers in combination have been cited over 1000 times (June 2021, Google Scholar), and were an important step towards the current widespread adoption of the treemap family of techniques. 
+This paper introduced an interactive tree exploration technique that has been highly influential on later techniques and widely applied in different application areas, from biology to document visualization. Implementations of techniques inspired by SpaceTree are found in popular visualization toolkits, such as D3. The semantic zoom design is an interesting precursor to “scented widgets” which are found in many modern user interfaces. Arguably this highly cited paper was more rigorous and innovative in its approach compared to its contemporaries and was likely a trailblazer for a more “modern” style of VIS paper.  In particular, it included a rigorous empirical study which was relatively rare for InfoVis papers at the time.  Furthermore, it included greater discussion and reflection on the design process compared to contemporary and earlier papers that tended to focus on just the final result.
 
-Committee: Tamara Munzner (chair), Tim Dwyer, Melanie Tory
+Committee: Tim Dwyer, Lyn Batram, Steven Franconeri
 
-<b>2011: <br>
-D³: Data-Driven Documents.<br>
-Michael Bostock, Vadim Ogievetsky, Jeffrey Heer.</b><br>
-DOI: [10.1109/TVCG.2011.185](https://doi.org/10.1109/TVCG.2011.185)
+<b>2012 <br>
+Design Study Methodology: Reflections from the Trenches and the Stacks<br>
+Michael Sedlmair, Miriah Meyer, Tamara Munzner<br>
+DOI: [10.1109/TVCG.2011.185](https://doi.org/10.1109/TVCG.2011.185)](https://doi.org/10.1109/TVCG.2012.213)
 
-The sheer number of citations for this paper -- over 3300 according to Google Scholar in June 2021, the most for any InfoVis paper so far by a significant margin -- make it an easy recommendation for the 2011 Test of Time award.  This system paper proposed a new framework, called "D3", with unprecedented flexibility for creating web-based visualizations using a novel mechanism for binding data to HTML elements. D3's novel approach to dynamic data updates and support for interactivity was featured through many compelling examples.  Viewed with the benefit of ten-year hindsight, the phenomenal influence of D3, not only to the field of data visualization research, but also to the practical uptake of interactive visualization on the web, is a larger story of the remarkable efforts of the authors.  The open-source D3 system benefited greatly from the previous experiences of the authors in developing visualization frameworks such as Protovis (2009) and Prefuse (2005). D3 was supported by an amazing ecosystem of champions and developers, led tirelessly by the authors. Bostock later worked closely with the New York Times, using D3 to create visualizations that allowed journalists to immerse readers in data-rich stories as never before. By creating a framework that was compelling and easy for web developers to use to author interactive visualizations, the authors have undeniably helped to bring data visualization to the mainstream. This paper is a cornerstone contribution to this conference specifically and more generally to the success of our field as a whole.
+  
+This paper was the first to bring the  methodology of design studies  to the visualization community of researchers and practitioners,  setting  a comprehensive  framework for developing and deploying visualization solutions to real-world problems.  The authors reflected on their own extensive experience as well as a thorough literature survey of related methodologies from other disciplines to provide practical guidance in conducting design studies and collaborating with domain experts to create effective visualization tools. More than simply expanding the toolbox of evaluation methods (an important contribution in itself), this paper provided a principled foundation for how to think about the entire design process from problem analysis through the choice of  visualization solutions to validation and reflection on both outcomes and method, setting the stage for further practice and research. The impact of this paper has been extensive both within and beyond the Vis community, in research, education and practice. Evidence of impact beyond our own field is that over half the citations of this paper come from outside Visualization-focussed forums, including HCI, UX, bioinformatics, engineering, climate science, health and numerous domains, and it continues to be cited. This paper continues to be standard reading  in many visualization and visual analytics courses around the world. Design study methods are now the “gold standard” in approaching visualization solutions to real-world problems.
 
-Committee: Tamara Munzner (chair), Tim Dwyer, Melanie Tory
+Committee: Tim Dwyer, Lyn Batram, Steven Franconeri
 
 ## SciVis
 
-<b>1996: <br>
-The Design and Implementation of an Object-Oriented Toolkit for 3D Graphics and Visualization.<br>
-William J. Schroeder, Kenneth M. Martin, William E. Lorensen.</b><br>
+<b>1997: <br>
+ROAMing terrain: Real-time Optimally Adapting Meshes<br>
+Mark Duchaineau, Murray Wolinsky, David E. Sigeti, Mark C. Miller, Charles Aldrich, Mark B. Mineev-Weinstein<br>
 DOI: [10.1109/VISUAL.1996.567752]( https://doi.org/10.1109/VISUAL.1996.567752)
 
-<b>_followup book_<br>
-The Visualization Toolkit: an Object-Oriented Approach to 3D Graphics.<br>
-Will Schroeder, Ken Martin, Bill Lorensen.</b><br>
-ISBN: 978-1930934191
 
-This work describes the design and inspiration for a system that has become an open source foundation for visualization work worldwide. The Visualization Toolkit, VTK, is so pervasive it has passed into visualization folklore. This paper and the subsequent VTK user’s guide serve as the principal references for this work, receiving thousands of citations, with over a thousand citations combined in the past five years. VTK has become part of our oxygen, so much so that the toolkit may be underrepresented in an analysis of citations alone. Among systems papers, this paper stands out as an example of work that shifted our field and anchored the open and transparent nature of our science.
+In the 1990s, the flood of available satellite and other remote-sensing data drove the need for effective tools to render terrains efficiently.  Cited over 1400 times, this paper solved many of the outstanding issues by introducing split-merge operations for triangle bintrees, guaranteeing mesh consistency in a simple and elegant fashion. The work introduced in this paper profoundly influenced the state of the art for terrain rendering in films, games, flight simulation and remote sensing and continues to influence research efforts today.
 
-Committee: Hamish Carr, Issei Fujishiro, Penny Rheingans, Terry Yoo (chair)
+Committee: Hamish Carr, Kelly Gaither, Gerik Scheuermann, Kristi Potter
 
-<b>2006: <br>
-Ambient Occlusion and Edge Cueing for Enhancing Real Time Molecular Visualization.<br>
-Marco Tarini, Paolo Cignoni, Claudio Montani.</b><br>
-DOI: [10.1109/TVCG.2006.115](https://doi.org/10.1109/TVCG.2006.115)
+<b>2007: <br>
+Efficient Computation and Visualization of Coherent Structures in Fluid Flow Applications.br>
+Christoph Garth, Florian Gerhardt, Xavier Tricoche, Hans Hagen</b><br>
+DOI: [10.1109/TVCG.2007.70551](https://doi.org/10.1109/TVCG.2007.70551)
 
-This paper has received over 450 citations and is prominent both within the scientific visualization community as well as outside our direct community with 200 citations across the IEEE publications. The paper represents work that is not tied to a level of technology or research domain. It considers the problems of illustrating three dimensional structure in real time and considers the problem at differing levels of complexity, scale, and detail. It is an elegant treatment of a difficult problem and a model of effective presentation of lasting results in visualization research.
+This paper introduced foundational work analyzing fluid flows. One of the long-standing problems in visualizing fluids is vector visualization, namely the detection and display of significant boundaries such as separatrices in fluid-flow simulations.  In 2007, two papers simultaneously approached this problem from a new angle: extracting coherent structures by computing the FTLE or finite-time Lyapunov exponent, then analyzing the resulting scalar field.  Since its introduction, this powerful idea has become one of the principal methods of analyzing fluid flows.  Cited 234 times, this paper has provided the reference implementation for much of the subsequent work and is consistently cited every year as fundamental work that continues to be built upon today.
 
-Committee: Issei Fujishiro, Penny Rheingans, Terry Yoo (chair)
+Committee: Hamish Carr, Kelly Gaither, Gerik Scheuermann, Kristi Potter
+
+<b>2008 <br>
+A practical approach to Morse-Smale complex computation: Scalability and generality<br>
+Attila Gyulassy, Peer-Timo Bremer, Bernd Hamann, and Valerio Pascucci<br>
+DOI: [10.1109/TVCG.2008.110](https://doi.org/10.1109/TVCG.2008.110)
+  
+Committee: Hamish Carr, Kelly Gaither, Gerik Scheuermann, Kristi Potter
+  
+  
+This paper introduced the use of Digital Morse Theory in the visualization domain as part of the now decades-long application of computational topology to data analysis and visualisation at scale. This topic has seen consistent support from the Department of Energy as one of the approaches needed for exascale analysis, and has driven deep algorithmic improvements.  In this paper, the authors resolved massive complexity in the existing techniques by applying a simple discrete model of gradient analysis that could readily be computed at scale. Cited 231 times, this paper made multiple further developments feasible and established Morse-Smale Complexes as a first-class tool in the kit of techniques we apply to data, and continues to be relevant to anyone working with topological visualization.
