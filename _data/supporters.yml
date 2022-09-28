@@ -88,10 +88,9 @@
      - name: "giCentre"
        image: /assets/supporters/giCentre.png
        url: "https://gicentre.net"
-
- #    - name: "SCI"
- #      image: /assets/supporters/sci.png
- #      url: "https://www.sci.utah.edu/"
+     - name: "SCI"
+       image: /assets/supporters/sci.png
+       url: "https://www.sci.utah.edu/"
 
  #    - name: "Harvard Medical School"
  #      image: /assets/supporters/harvard.png

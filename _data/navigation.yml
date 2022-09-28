@@ -320,12 +320,12 @@ menu:
             heading_url: "/year/2022/info/call-participation/community"
             description: "Explore social and topic-based community groups"
             columns:
-#              - heading: "Connect"
-#                links:
+              - heading: "Connect"
+                links:
 #                  - text: "Vis Buddies"
 #                    url: "/year/2022/info/meetups#vis-newcomers"
-#                  - text: "Job Postings"
-#                    url: "/year/2022/info/jobs"
+                  - text: "Job Postings"
+                    url: "/year/2022/info/jobs"
 #                  - text: "Other Meetups"
 #                    url: "/year/2022/info/meetups"
 #              - heading: "Social Groups"
