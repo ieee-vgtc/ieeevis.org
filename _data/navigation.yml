@@ -245,10 +245,11 @@ menu:
                #   url: "/year/2022/info/awards/best-poster-awards"
   # - text: "Service Awards"
   #   url: "https://www.google.com"
-  # - text: "VGTC VIS Awards"
+  #            - text: "VGTC VIS Awards"
   #   url: "https://www.google.com"
-  #              - text: "Test of Time Awards"
-  #                url: "/year/2022/info/awards/test-of-time-awards"
+               - text: "Test of Time Awards"
+                 url: "/year/2022/info/awards/test-of-time-awards"
+                 is_new: true
   #      - subsections:
   #        - heading: "Plenary Sessions"
   #            # description: "TK TK TK Get an overview of what’s happening at VIS 2020"
