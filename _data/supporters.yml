@@ -97,12 +97,12 @@
  #      url: "https://dbmi.hms.harvard.edu/education/master-biomedical-informatics"
 
 
- # - category: Diversity/Inclusivity Scholarships
- #   supporters:
-
-#    - name: "Data Intensive Science"
-#      image: /assets/supporters/data_intensive_science.jpg
-#      url: "https://dataintensivescience.org/"
+ - category: Diversity/Inclusivity Scholarships
+   image_size: 150
+   supporters:
+     - name: "giCentre"
+       image: /assets/supporters/giCentre.png
+       url: "https://gicentre.net"
 
 #    - name: "Data Machines Corp"
 #      image: /assets/supporters/datamachines.png
@@ -119,6 +119,14 @@
 #    - name: "ViSUS Software"
 #      image: /assets/supporters/visus.png
 #      url: "https://visus.org/"
+
+ - category: Banquet
+   image_size: 150
+   supporters:
+     - name: "Northern Data"
+       image: /assets/supporters/northern_data.png
+       url: "https://northerndata.de/"
+
 
 # - category: Technology
 #   supporters:
