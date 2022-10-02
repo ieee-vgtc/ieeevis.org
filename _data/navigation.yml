@@ -231,7 +231,7 @@ menu:
                     url: "/year/2022/info/keynote-speaker"
                     is_new: true
                   - text: "Capstone"
-                    description: "Dr. Kerry McGruder, University of Oklahoma"
+                    description: "Dr. Kerry Magruder, University of Oklahoma"
                     url: "/year/2022/info/capstone-speaker"
                     is_new: true
           - heading: "Awards and Recognitions"

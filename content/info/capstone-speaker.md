@@ -1,18 +1,18 @@
 ---
 layout: page 
-title: "Capstone by Dr. Kerry McGruder"
+title: "Capstone by Dr. Kerry Magruder"
 permalink: /info/capstone-speaker 
 contact: info@ieeevis.org 
 active_nav: "Program"
 ---
 
 <img src="/year/2022/assets/carousel/capstone-kerry.jpeg"
-alt="Capstone Speaker: Dr. Kerry McGruder, University of Oklahoma" 
+alt="Capstone Speaker: Dr. Kerry Magruder, University of Oklahoma" 
 style="height:400px"
 />
 <br/>
 
-<p><b>Speaker</b> <br/>Dr. Kerry McGruder, University of Oklahoma</p>
+<p><b>Speaker</b> <br/>Dr. Kerry Magruder, University of Oklahoma</p>
 
 <p><b>Title</b> <br/>Galileo’s Telescopic Discoveries: Thinking Visually in the History of Science
 </p>
