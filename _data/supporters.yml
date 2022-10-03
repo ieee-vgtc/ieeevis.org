@@ -97,6 +97,9 @@
      - name: "SCI"
        image: /assets/supporters/sci.png
        url: "https://www.sci.utah.edu/"
+     - name: "NREL"
+       image: /assets/supporters/NREL.jpg
+       url: "https://www.nrel.gov/"
 
  #    - name: "Harvard Medical School"
  #      image: /assets/supporters/harvard.png
