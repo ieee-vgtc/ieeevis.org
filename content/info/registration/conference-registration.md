@@ -213,7 +213,7 @@ For on-site conference participants who need a visa to enter the United States o
 
 **Q: I am a poster author. Do I need to register using the Author Registration category?**
 <ul>
-No. Posters are non-archival materials, and Author Registration is not needed. Poster presenters and authors should use the regular On-Site Participant or Virtual Participant Registration categories. 
+No. Posters are non-archival materials, and Author Registration is not needed. Poster presenters and authors should use the regular On-Site Participant Registration category. 
 </ul>
 
 **Q: My workshop/symposium/associated event paper will not be published in IEEE Xplore. Do I need to register using the Author Registration category?**
