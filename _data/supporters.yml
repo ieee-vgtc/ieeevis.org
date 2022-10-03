@@ -100,6 +100,10 @@
      - name: "NREL"
        image: /assets/supporters/NREL.jpg
        url: "https://www.nrel.gov/"
+     - name: "Disney Studio Research"
+       image: /assets/supporters/disney.jpg
+       url: "https://studios.disneyresearch.com/"
+        
 
  #    - name: "Harvard Medical School"
  #      image: /assets/supporters/harvard.png
