@@ -10,7 +10,7 @@ permalink: /info/panels
 <!-- Tuesday, October 27: 12:00pm-1:30pm MDT -->
 
 Organizers: Aoyu Wu (HKUST), Dazhen Deng (Zhejiang University)
-<br>Panelists: Min Chen (University of Oxford), Shixia Liu (Tsinghua University), Daniel Keim (University of Konstanz), Ross Maciejewski (Arizona State University), Silvia Miksch (TU Wien), Hendrick Stobelt (IBM Research AI)
+<br>Panelists: Min Chen (University of Oxford), Shixia Liu (Tsinghua University), Daniel Keim (University of Konstanz), Ross Maciejewski (Arizona State University), Silvia Miksch (TU Wien), Hendrick Strobelt (IBM Research AI)
 
 <!-- <br>[Video Preview](TBD) -->
 
