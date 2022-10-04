@@ -15,7 +15,7 @@ Join us *Wednesday Oct. 19th* from *12:00 - 1:30PM CDT* at Room Oklahoma Station
 * Summary of the paper reviewing process from the Overall Paper Chairs (OPC) (Bongshin Lee)
 * Area Curation Commitee (David Laidlaw)
 * Getting involved in VIS 23, (Tim Dwyer, Michael Wybrow)
-* Open Practice Proposal (Lonni Besancon)
+* Open Practice Proposal (Lonni Besançon)
 
 Questions from the community are welcome during the townhall either onsite or via Discord/Slido
 
