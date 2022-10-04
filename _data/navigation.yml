@@ -446,6 +446,8 @@ menu:
                     url: "/governance/IEEE-governance-structure"
                   - text: "Best Paper Process"
                     url: "/governance/best-paper-process"
+                  - text: "VGTC Award Criteria"
+                    url: "https://tc.computer.org/vgtc/award-criteria/"
           - heading: "Code of Conduct"
             heading_url: "/year/2022/info/inclusion-and-diversity/code-of-conduct"
 
