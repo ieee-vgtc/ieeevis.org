@@ -254,7 +254,7 @@ menu:
           - heading: "Plenary Sessions"
   #            # description: "TK TK TK Get an overview of what’s happening at VIS 2020"
             columns:
-  #            - links:
+              - links:
   #              - text: "Keynote Address"
   #                url: "/year/2022/info/keynote-speaker"
   #              - text: "Capstone Address"
