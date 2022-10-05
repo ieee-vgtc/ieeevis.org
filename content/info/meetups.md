@@ -1,5 +1,5 @@
 ---
-title: IEEE VIS 2021 Meetups
+title: IEEE VIS 2022 Meetups
 layout: page
 active_nav: "Events & Community"
 permalink: /info/meetups
@@ -7,149 +7,129 @@ contact: meetups@ieeevis.org
 ---
 
 
-* [Vis Buddies Meetup](#vis-newcomers) (Tuesday)
-* [Better Online Presentations Meetup](#onlinepres) (Tuesday)
-* [VisLies! Meetup](#vislies) (Tuesday)
-* [VisComm Meetup](#viscomm) (Wednesday)
-* [Evaluating Complex Interactive Visualizations Meetup](#vis-evaluate) (Wednesday)
-* [Gender Representation and Diversity at IEEE VIS Meetup](#vis-gender) (Wednesday)
-* [Job-fair Meetup](#vis-jobfair) (Thursday)
-* [Climate Change AI meets Vis Community: Engagement, Collaboration and Research Opportunities Meetup](#climate) (Thursday)
-
-
-## <a name="vis-newcomers"></a>VisBuddies Meetup
-
-Tuesday, October 26<br>
-14:00:00 CDT<br>
-Organizer: Hsiang-Yun Wu, Karen Schloss, Lane Harrison<br>
-Contact: community@ieeevis.org
-
-VisBuddies brings together new and returning VIS attendees with similar interests. For newcomers, this is a chance to meet experienced researchers in the field. For returning attendees, it is a chance to meet fresh talent joining VIS for the first time. You can volunteer for VisBuddies on the registration form (the latest a week prior to VIS). Based on the declared interests of attendees in the registration form, we will match pairs or small groups of attendees with different levels of VIS experience, and contact the groups via email prior to VIS.
-
-
-[Connect to VisBuddies Meetup](https://virtual.ieeevis.org/year/2021/event_m-visbuddies.html)
-
-
-## <a name="onlinepres"></a>Better Online Presentations Meetup
-
-Tuesday, October 26<br>
-14:00:00 CDT <br>
-Organizer: Robert Kosara<br>
-Contact: kosara@tableau.com
-
-We've all suffered through too many Zoom meetings and online talks over the last 18 months. And we'll likely be doing this for a while longer. So how do you make your talk or lecture work when it's virtual? How do you keep people's attention? What mistakes make your talk boring or hard to listen to?
-The goal of this meetup is to talk about a variety of topics around virtual talks and online classes, and learn from each other.
-Topics will include:
-*  Common mistakes we've all seen people make in presentations and how to avoid them. 
-   The idea is to become aware of them so you can avoid making them yourself!
-*  Should you be visible all the time during your talk? What are the pros and cons?
-*  Technical and setup questions, like types of microphones and cameras, 
-   how to keep audio and video in sync, etc.
-*  Making the best use of your equipment with proper microphone and camera technique, etc.
-*  Getting fancy with green screen, streaming software, teleprompters, etc.
-*  The difference between a live talk and recording: basic editing, sound sweetening, etc.
-*  Making it interactive: features built into software like Zoom, 
-   and other tools to use for polls, small-group collaboration, etc.
-*  Anything else participants want to ask about or contribute
-
-
-[Connect to Better Online Presentations Meetup](https://virtual.ieeevis.org/year/2021/event_m-betteronline.html)
-
-
-
-## <a name="vislies"></a>VisLies! Meetup
-
-Tuesday, October 26<br>
-15:00:00 CDT<br>
-Organizer: Kenneth Moreland and Bernice Rogowitz<br>
-Contact: bernice.e.rogowitz@gmail.com
-
-VisLies! is a yearly event at IEEE VIS. This fun and engaging evening session showcases examples of egregious perceptual, cognitive, and conceptual errors in visualization, presented by members of the Vis community.  Examples from our own work, from published papers, and from the internet highlight the many ways the visual representation can misrepresent the underlying phenomena in the data. This is a great opportunity for amusement and for learning, and every year we walk away with a smile on our faces and insights that may one day save the world.
-
-For more information about VisLies, you can visit our website at [http://vislies.org](http://vislies.org).
-
-
-[Connect to VisLies! Meetup](https://virtual.ieeevis.org/year/2021/event_m-vislies.html)
+* [VisLies! Meetup](#vis-lies) (Tuesday)
+* [Visualization Literacy Meetup](#vis-literacy) (Tuesday)
+* [Early Career Meetup](#vis-earlycareer) (Tuesday)
+* [Diversity Meetup](#vis-diversity) (Wednesday)
+* [Drone Effect Meetup](#vis-drone) (Thursday)
+* [DOE CGF Meetup](#vis-doecgf) (Thursday)
 
 
 
 
-## <a name="viscomm"></a>VisComm Meetup
+## <a name="vis-lies"></a>VisLies! Meetup
 
-Wednesday, October 27<br>
-14:00:00 CDT <br>
-Organizer: Adriana Arcia<br>
-Contact: aa2594@cumc.columbia.edu
+Tuesday 18 October 2022<br>
+12:30-14:00pm CDT<br>
+Room: five moons 6<br>
+Organizers: Kenneth Moreland and Bernice Rogowitz <br>
+Contact: <br>
+morelandkd@ornl.gov <br>
+bernice.e.rogowitz@gmail.com <br>
 
-This informal gathering is an opportunity to network with others interested in using visualization for communication. We will also be unveiling the new VisComm community directory. Add yourself! 
-[https://forms.gle/68Fsqwn3PBZKihZz7](https://forms.gle/68Fsqwn3PBZKihZz7)
-
-
-
-[Connect to VisComm Meetup](https://virtual.ieeevis.org/year/2021/event_m-viscomm-meetup.html)
+VisLies! is a yearly event at IEEE VIS. This fun and engaging evening session showcases examples of egregious perceptual, cognitive, and conceptual errors in visualization, presented by members of the Vis community. Examples from our own work, from published papers, and from the internet highlight the many ways the visual representation can misrepresent the underlying phenomena in the data. This is a great opportunity for amusement and for learning, and every year we walk away with a smile on our faces and insights that may one day save the world. For more information about VisLies!, you can visit our website at [http://vislies.org](http://vislies.org).
 
 
-## <a name="vis-evaluate"></a>Evaluating Complex Interactive Visualizations Meetup
+## <a name="vis-literacy"></a>Next Steps for Visualization Literacy Meetup
 
-Wednesday, October 27<br>
-14:00:00 CDT <br>
-Organizer: Carolina Nobre, Alexander Lex, Lane Harrison<br>
-Contact: cnobre@g.harvard.edu , alex@sci.utah.edu, ltharrison@wpi.edu
+Tuesday 18 October 2022<br>
+17:00-18:00pm CDT<br>
+Room: five moons 6<br>
+Organizers: Lane Harrison and Matt Kay <br>
+Contact: <br>
+ltharrison@wpi.edu <br>
+mjskay@northwestern.edu<br>
 
-The goal of this meetup is to foster a discussion on how we, as visualization researchers, can better evaluate the complex interactive visualization (CIV) tools and systems we develop. The challenges of evaluating these systems include the several design decisions involved in developing CIVS, as well as the complexity and diversity of analysis strategies and abilities of the users of these interfaces. We plan on facilitating discussions along two main threads: (1) validating the design of CIVS, and (2) designing scalable experiments to evaluate CIVs.
+When it comes to visualization literacy, the VIS community is reaching critical mass. Many
+researchers are working on many aspects of visualization literacy, each with valuable
+perspectives and contributions. <br>
 
+In this meetup, we would like to bring together stakeholders at VIS who are interested in
+visualization literacy to connect on current progress and to explore future directions. <br>
 
-[Connect to Evaluating Complex Interactive Visualizations Meetup](https://virtual.ieeevis.org/year/2021/session_m-evaluating.html)
-
-
-## <a name="vis-gender"></a> Gender Representation and Diversity at IEEE VIS Meetup
-
-Wednesday, October 27<br>
-15:00:00 CDT <br>
-Organizer: Petra Isenberg, Natkamon Tovanich <br>
-Contact: natkamon.tovanich@inria.fr
-
-Based on our empirical analysis on “Gender in 30 Years IEEE Visualization”, we would like to encourage a wide discussion on possible causes and solutions to gender gaps in the VIS community. The paper discusses numbers but does not suggest possible action - which we hope to start discussing as part of this meetup. 
-
-Beyond gender diversity, we would also like to discuss other diversity characteristics (e.g., research area, academic linage, demographic, etc.). We are interested in exploring ways to collect this kind of data and brainstorm new ideas to improve awareness and inclusion in the IEEE VIS conference.
-
-
-[Connect to Gender Representation and Diversity Meetup](https://virtual.ieeevis.org/year/2021/event_m-gender.html)
-
-
-
-## <a name="vis-jobfair"></a>Job-fair Meetup
-
-Thursday, October 28<br>
-15:00:00 CDT <br>
-Organizer: Hsiang-Yun Wu, Karen Schloss, Lane Harrison<br>
-Contact: community@ieeevis.org
-
-The goal is to bring together job seekers and employers in one virtual venue to trade CV and employment information. Job seekers in attendance are asked to be prepared to share a link to their CV.  Employers in attendance are asked to be prepared with job descriptions and details on how to apply. Employers are also encouraged to include their job postings on the IEEE VIS Job Fair site by submitting this form: 
-[https://forms.gle/d6V3u2s8d1TXcjXb9](https://forms.gle/d6V3u2s8d1TXcjXb9).
+Some of our motivating questions include:<br>
+* What are the different working definitions of visualization literacy? What aspects of
+visualization literacy should we be measuring?
+* How does visualization literacy connect to other types of literacy? (e.g. health risk
+literacy, graphicacy, statistical literacy, media literacy, etc.)
+* How does visualization literacy develop in learners at different stages? (e.g. kids, young
+adults, college students, data scientists)
+Attendees will participate in brainstorming sessions and design activities, with the goal of
+reporting back to the meetup group by the end of the session. For all attendees, we will share a
+group notes document memorializing the event and resulting discussion.
 
 
-[Connect to Job-fair Meetup](https://virtual.ieeevis.org/year/2021/session_m-jobfair.html)
+## <a name="vis-earlycareer"></a> Early Career and Friends Happy Hour Meetup
+
+Tuesday 18 October 2022<br>
+17:00-18:00pm CDT<br>
+Room: five moons 7<br>
+Organizers: Kristi Potter, Remco Chang, Arvind Satyanarayan, and Josh Levine<br>
+Contact: <br>
+kristi.potter@nrel.gov <br>
 
 
-## <a name="climate"></a>Climate Change AI meets Vis Community: Engagement, Collaboration and Research Opportunities Meetup
+Join us for a meet and mingle with those finding themselves as, or who have ever been, early career faculty, researchers, and practitioners! The meetup is a place to meet or reunite with colleagues and friends who are interested in making this a supportive community for visualization professionals who are closer to their graduation than retirement.  The goal of this meetup is to provide a safe environment to gather and discuss challenges faced in and out of the work environment.  Attendees will have the opportunity to hear about current efforts in this space, participate in peer mentoring, and build a social network that will continue to support beyond the conference.
 
-Thursday, October 28<br>
-14:00:00 CDT <br>
-Organizer: Subhashis Hazarika, Peetak Mitra<br>
-Contact: shazarika@parc.com
 
-Climate change is one of the greatest threats facing life on earth. Scientists and engineers from different domains are joining forces with climate scientists to find solutions to a diverse set of socio-economic problems arising from climate change.  
- 
-Climate Change AI (CCAI) is an organization composed of volunteers from academia and industry whose core mission is to catalyze impactful work at the intersection of climate change and machine learning. CCAI is actively involved in building a community of diverse stakeholders, providing educational resources, and filling essential infrastructure gaps such as limited-term funding, tools for community engagement and collaboration, and datasets. They have also successfully organized a series of climate change workshops at top machine learning conferences like ICML, ICLR, and NeurIPS, and just launched a $1.8M grants program to catalyze research in this area.
- 
-The goal of this IEEE Vis meetup is to provide a platform for the visualization research community to interact with CCAI and identify possible engagement, collaboration, and research opportunities.  We feel that the Vis research community has a lot to offer to further the mission of CCAI. In this meetup, we will have core committee members from CCAI talk about their organization and how to get involved at various levels.  
- 
-If you are a visualization researcher (early-career or senior) and want to actively engage in climate change research, this will be an excellent networking platform.  
- 
-Climate Change AI website: 
-[https://www.climatechange.ai/](https://www.climatechange.ai/)
+## <a name="vis-diversity"></a> Diversity Scholar Meetup 
 
-[Connect to Climate Change AI meets Vis Meetup](https://virtual.ieeevis.org/year/2021/event_m-climate.html)
+Wednesday 19 October 2022<br>
+13:00-14:00pm CDT<br>
+Room: five moons 6<br>
+Organizers: Lace Padilla<br>
+Contact: <br>
+lace.m.k.padilla@gmail.com <br>
+
+
+Meet and greet with current and former diversity scholar recipients.
+
+## <a name="vis-drone"></a> Interactive Visualization for Analysis and Control of Drone Traffic Meetup 
+
+Thursday 20 October 2022<br>
+13:00-14:00pm CDT<br>
+Room: five moons 6<br>
+Organizers: Jimmy Johansson Westberg, Jonas Lundberg, and Karljohan Lundin Palmerius<br>
+Contact: <br>
+jimmy.johansson.westberg@liu.se <br>
+
+
+There is a current race in both research and industry to develop drones that trust-
+fully move around, orient themselves automatically, and provide services ranging from transport and maintenance to monitoring, remote presence and surveillance. Monitoring the behavior of drones requires real-time analysis of a large amount of high-dimensional temporal data.<br>
+
+The purpose of this meetup is to discuss current practice and future challenges in real-time, multidimensional analysis of drones with the use of interactive visualization including areas such as: <br>
+
+* Geospatial airspace visualization
+* 3D geospatial interaction
+* 3D path visualization and diagrams
+* Drone/robot plan/state/parameter information visualization
+* Linked views between 3D geospatial visualization and diagrams
+* Combined visualization of real-time data with historical and projected data
+
+
+## <a name="vis-doecgf"></a> DOE CGF / US National Labs Friends and Family Meetup 
+
+Thursday 20 October 2022<br>
+12:30-13:30pm CDT<br>
+Room: five moons 7<br>
+Organizers:  Kristi Potter and Ayan Biswas<br>
+Contact: <br>
+kristi.potter@nrel.gov <br>
+ayan@lanl.gov  <br>
+
+
+The DOE Computer Graphics forum is an annual event (since the mid 1970s) that serves as a venue for US government-sponsored computer graphics and visualization scientists, engineers and practitioners to share research and development activities and build community.  This event has been virtual the last 3 years and this meetup serves as the in-person social follow-up to this year’s virtual event, held in August. We invite those connected to or wanting to connect with the national labs to attend, including staff, faculty and students, industrial partners, and future collaborators! <br>
+
+We will start with a quick introduction of attendees and reserve the remaining time for socializing and networking. This meetup should give the early career personnel a chance to get connected with the more senior members of the group. We feel this has been lacking in the previous few years, due to the global pandemic situation. <br>
+
+
+
+
+
+
+
+
+
+
 
 
