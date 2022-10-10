@@ -10,7 +10,7 @@ permalink: /info/committees/conference-committee
 |---
 | **General Chairs** | |
 | Danielle Szafir | *University of North Carolina-Chapel Hill* |
-| David Ebert | *Univeristy of Oklahoma* |
+| David Ebert | *University of Oklahoma* |
 | Hendrik Strobelt | *IBM Research , MIT-IBM Watson AI Lab* |
 |---
 | **Program Chairs** | |
