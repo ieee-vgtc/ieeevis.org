@@ -24,7 +24,7 @@
  #      url: "https://www.tableau.com/"
 
  - category: Platinum+Banquet
-   image_size: 315
+   image_size: 400
    supporters:
      - name: "Northern Data"
        image: /assets/supporters/northern_data.png
@@ -32,7 +32,7 @@
 
 
  - category: Platinum
-   image_size: 315
+   image_size: 400
    supporters:
      - name: "Tableau"
        image: /assets/supporters/Tableau-Logo-CMYK.png
@@ -40,7 +40,7 @@
 
 
  - category: Silver
-   image_size: 240
+   image_size: 320
    supporters:
      - name: "Autodesk"
        image: /assets/supporters/autodesk.png
@@ -55,7 +55,7 @@
        url: "ou.edu"
 
      - name: "Echo Investment Capital LLC"
-       image: /assets/supporters/echo.png
+       image: /assets/supporters/echo_small.png
        url: "https://www.echo.global"
 
  #    - name: "Microsoft"
@@ -64,10 +64,10 @@
 
 
  - category: Bronze
-   image_size: 150
+   image_size: 200
    supporters:
      - name: "Unviversity of Oklaoma"
-       image: /assets/supporters/okl.png
+       image: /assets/supporters/okl_transparent.png
        url: "https://www.ou.edu/disc"
      - name: "Monash University"
        image: /assets/supporters/monash.png
@@ -92,7 +92,7 @@
        image: /assets/supporters/VRVis-Logo.png
        url: "https://www.vrvis.at/"
      - name: "Nomic"
-       image: /assets/supporters/nomic_high_resolution.png
+       image: /assets/supporters/nomic.png
        url: "https://home.nomic.ai"
      - name: "SCI"
        image: /assets/supporters/sci.png
