@@ -105,7 +105,7 @@ Authors: Neng Shi, Jiayi Xu, Haoyu Li, Hanqi Guo, Jonathan Woodring, Han-Wei She
 
 ## Short Papers
 
-The Best Papers Committee for VIS 2022 short papers consists of three distinguished members: Enrico Bertini, Min Chen, and Kawn-Liu Ma. The Short Papers Chairs would like to thank the Best Papers Committee for their work and to congratulate the awardees!
+The Best Papers Committee for VIS 2022 short papers consists of three distinguished members: Enrico Bertini, Min Chen, and Kwan-Liu Ma. The Short Papers Chairs would like to thank the Best Papers Committee for their work and to congratulate the awardees!
 
 ### Best Paper
 
@@ -126,4 +126,20 @@ Authors: Bingjie Xu, Shunan Guo, Eunyee Koh, Jane Hoffswell, Ryan Rossi, Fan Du
 
 ## Posters
 
-To be announced.
+The Best Posters Committee for VIS 2022 posters consists of three distinguished members: Alex Endert, Daniel Jönsson, and Michael Sedlmair. The Poster Chairs would like to thank the Best Posters Committee for their work and to congratulate the awardees!
+
+### Best Poster
+
+**Ditto: Exploring data in large display environments through speech+mid-air gesture interactions**
+<br/>
+Authors: Jillian Aurisano, Abeer Alsaiari, Abhinav Kumar, Moira Zellner, Jason Leigh, Barbara Di Eugenio, Andrew E Johnson
+
+### Best Poster Honorable Mentions
+
+**Dynamic visualizations for violence prevention**
+<br/> 
+Author: Luke Demarest
+
+**Processing Fluency Improves Trust in Scatterplot Visualizations**
+<br/>
+Authors: Hamza Elhamdadi, Lace Padilla, Cindy Xiong
