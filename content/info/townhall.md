@@ -13,7 +13,6 @@ Questions from the community are welcome during the townhall either onsite or vi
 * update of work of VIS steering commitee (VSC) (Petra Isenberg)
 * update of the VIS executive commitee (VEC) (Holger Theisel)
 * VGTC update (Bongshin Lee)
-* Summary of the paper reviewing process from the Overall Paper Chairs (OPC) (Bongshin Lee)
 * update of the work of Area Curation Commitee (ACC) (David Laidlaw)
 * Getting involved in VIS 23 (Tim Dwyer, Michael Wybrow)
 * Open Practice Proposal (Lonni Besançon)
