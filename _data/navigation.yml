@@ -261,6 +261,8 @@ menu:
   #                url: "/year/2022/info/capstone-speaker"
                - text: "Vis Townhall"
                  url: "/year/2022/info/townhall"
+               - text: "Vis Supporters Sessions"
+                 url: "/year/2022/info/supporters-sessions"
   #              # - links:
   #              #   - text: "Download the App"
   #              #     url: "https://www.google.com"
