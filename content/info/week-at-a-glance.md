@@ -57,7 +57,9 @@ Daily sessions are four blocks per day, each 75 minutes.  There are breaks for c
 * Oklahoma Station 8: **Visualization for Social Good 2022** (Workshop)
 * Pinon: **NLVIZ Workshop: Exploring Research Opportunities for Natural Language, Text, and Data Visualization** (Workshop)
 * Mistletoe: **Sports Data Analysis and Visualization** (Tutorial)
+{% comment %}
 * Oklahoma Station 6: **Multilayer Network Visualization: Theory and applications** (Tutorial)
+{% endcomment %}
 * Oklahoma Station 7: **Visualization Analysis and Design** (Tutorial)
 <hr/>
 
