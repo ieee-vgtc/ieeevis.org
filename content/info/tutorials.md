@@ -9,7 +9,9 @@ contact: tutorials@ieeevis.org
 Here is the list of the accepted tutorials. 
 * [Color Scheming in Visualization](#CMV)
 * [NLP4Vis: Natural Language Processing for Information Visualization](#NLP)
+{% comment %}
 * [Multilayer Network Visualization: Theory and applications](#MNV)
+{% endcomment %}
 * [Visualization Analysis and Design](#VAD)
 * [Sports Data Analysis and Visualization](#SDA)
 * [Topological Analysis of Ensemble Scalar Data with TTK, A Sequel](#TAE)
@@ -37,6 +39,7 @@ Shafiq Joty, *Nanyang Technological University* <br>
 
 This tutorial will provide an introduction to natural language processing (NLP) to the interested researchers in the visualization (Vis) community. It will first motivate why NLP4Vis is an important area of research and provide an overview of research topics on combining NLP and Vis techniques. Then an overview of basic NLP techniques for text analysis followed by state-of-the-art deep learning models for NLP will be covered. In the final part, we will focus on various application tasks at the intersection of NLP and Vis. We will conclude with an interactive discussion of future challenges for NLP+Vis applications. The audience will include researchers interested in applying NLP for visualizations as well as others who focus more generally at the intersection of machine learning and visualization.
 
+{% comment %}
 ## <a name="MNV"></a> Multilayer Network Visualization: Theory and applications
 Sunday, October 16, 2022: 2:00 PM-5:00 PM CDT (UTC-5)
 
@@ -45,7 +48,7 @@ Sanjay Kumar Sonbhadra, *Shiksha ’O’ Anusandhan, Bhubaneswar* <br>
 Dr. Narinder Singh Punn, *IIIT Allahabad* <br>
 
 Visualization plays a critical role to analyse and interpret the working of any system; however, this phase of study is mostly overlooked and hence requires special attention. The proposed tutorial is intended to provide a detailed coverage of contemporary multi-layer network visualization techniques to support the understanding of various existing complex systems. The tutorial is covering basics of multilayer networks along with various techniques of visualization under faceting perspective, application perspective and system perspective. Besides several use cases of multilayer networks and critical challenges incurred while developing multi-layer graph visualization will also be covered. Furthermore, future research directions are uncovered to address such challenges. This tutorial will definitely attract the researchers’ attention since multilayer networks are expected to play a significant role in the study of complex systems in the future. By bringing the visualization community closer to the application domains as well as the complex systems communities, better outcomes will be achieved for all stakeholders.
-
+{% endcomment %}
 
 ## <a name="VAD"></a> Visualization Analysis and Design
 Sunday, October 16, 2022: 2:00 PM-5:00 PM CDT (UTC-5)
