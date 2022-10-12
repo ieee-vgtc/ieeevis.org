@@ -30,7 +30,11 @@ Daily sessions are four blocks per day, each 75 minutes.  There are breaks for c
 
 <embed src="/year/2022/assets/vis2022-program.pdf" type="application/pdf" width="100%" height="400px" /><br/>
 
-<a href="/year/2022/assets/vis2022-program.pdf">Download the program (PDF)</a>
+<a href="/year/2022/assets/vis2022-program.pdf">Download the program (PDF)</a><br/>
+
+See these pages for a schedule and details for <a href="/year/2022/info/meetups">Meetups</a> and <a href="/year/2022/info/call-participation/community">Community Events</a>.<br/>
+
+See this page for a description of the <a href="/year/2022/info/supporters-session">Supporters Forum</a>.<br/>
 
 <hr/>
 
@@ -84,6 +88,9 @@ Daily sessions are four blocks per day, each 75 minutes.  There are breaks for c
 * Oklahoma Station 8: **Viz4Climate: Workshop on High Impact Techniques for Visual Climate Science Communication** (Workshop)
 * Mistletoe: **Analyze and Visualize Large Scale Geospatial Data with H3 and HexTile** (Tutorial)
 * Pinon: **VTK-m – A ToolKit for Scientific Visualization on Many-Core Processors** (Tutorial)
+
+*5:15 PM-7:00 PM CDT (UTC-5)*<br/>
+* Pinon: **IEEE Computer Society Panel and Reception**
 <hr/>
 
 <a>**Tuesday, October 18, 2022**</a><br/>
@@ -98,8 +105,8 @@ Daily sessions are four blocks per day, each 75 minutes.  There are breaks for c
 * Oklahoma Station 4+5: **Best Papers** (11:03am-12:00pm)
 
 *2:00 PM-3:15 PM CDT (UTC-5)*<br/>
-* Oklahoma Station 4+5: **Industry Keynote** (2:00pm-2:15pm)
-* Oklahoma Station 4+5: **VIS Keynote** (2:15pm-3:15pm)
+* Oklahoma Station 4+5: **Industry Keynote**: Northern Data (2:00pm-2:15pm)
+* Oklahoma Station 4+5: **VIS Keynote**: Dr. Marti Hearst (2:15pm-3:15pm)
 
 *3:45 PM-5:00 PM CDT (UTC-5)*<br/>
 * Oklahoma Station 4+5: **VIS Supporters Forum**
@@ -142,9 +149,11 @@ Daily sessions are four blocks per day, each 75 minutes.  There are breaks for c
 * Pinon: **Grand Challenges in Visual Analytic Systems** (VIS Panel)
 * Oklahoma Station 4: **Visual Analytics, Decision Support, and Machine Learning** (VIS Short Papers Session)
 
-*5:30 PM-7:00 PM CDT (UTC-5)*<br/>
-* Oklahoma Station 2+3: **VIS Combined Poster Session** (5:30pm-7:00pm)
-* VIS banquet follows (TBD)
+*5:30 PM-6:45 PM CDT (UTC-5)*<br/>
+* Oklahoma Station 2+3: **VIS Combined Poster Session** 
+
+*6:45 PM-9:30 PM CDT (UTC-5)*<br/>
+* Off site: **VIS Banquet at First American's Museum** (shuttles depart 6:30pm)
 <hr/>
 
 <a>**Thursday, October 20, 2022**</a><br/>
@@ -179,8 +188,8 @@ Daily sessions are four blocks per day, each 75 minutes.  There are breaks for c
 * Oklahoma Station 1: **Provenance and Guidance** (VIS Full Papers Session)
 * Oklahoma Station 5: **Topology** (VIS Full Papers Session)
 
-*6:00 PM-9:00 PM CDT (UTC-5)*<br/>
-* **OU Open House** (Location: off site, shuttles depart 5:45pm)
+*6:00 PM-8:30 PM CDT (UTC-5)*<br/>
+* Off site: **OU Open House** (shuttles depart 5:45pm)
 <hr/>
 
 <a>**Friday, October 21, 2022**</a><br/>
@@ -194,7 +203,7 @@ Daily sessions are four blocks per day, each 75 minutes.  There are breaks for c
 * Mistletoe: **Data Analysis Methods for Climate Modeling of Extreme Weather Events** (Application Spotlight)
 
 *10:45 AM-12:00 PM CDT (UTC-5)*<br/>
-* Oklahoma Station 4+5: **VIS Capstone** (10:45am-11:45am)
+* Oklahoma Station 4+5: **VIS Capstone**: Dr. Kerry Magruder (10:45am-11:45am)
 * Oklahoma Station 4+5: **VIS Closing** (11:45am-12:00pm)
 
 
