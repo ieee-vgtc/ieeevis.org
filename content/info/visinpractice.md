@@ -31,7 +31,7 @@ Description: Being successful in both research and products is often difficult, 
 
 The panelists include:
 * Richard Brath, _Uncharted_
-* Dominik Moritz, _Apple_
+* Dominik Moritz, _Carnegie Mellon University_
 * Liu Ren, _Bosch_
 * Vidya Setlur, _Tableau_ 
 
