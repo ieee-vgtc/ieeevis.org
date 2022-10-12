@@ -9,6 +9,8 @@ permalink: /info/jobs
 
 We will collect job postings and display them here through out the VIS 2022 meeting. 
 
+[VIS Community Job Posting Form](https://forms.gle/QDP6UU9Njb56a73KA)
+
 <!--
 To submit a posting, please click "Submit Posting" in the site menu. Postings will be updated daily on this page. 
 
