@@ -34,8 +34,8 @@ The replication crisis has spawned a revolution in scientific methods, aimed at 
 
 ## <a name="panel-möller">Is This (Panel) Good Enough for IEEE VIS?</a>
 <a>**Friday, October 21**</a><br/>
-**10:45AM-12:00PM CDT (UTC-5)**<br/>
-**Room: Pinion**<br/>
+**9:00-10:15AM CDT (UTC-5)**<br/>
+**Room: Pinon**<br/>
 <!-- Friday, October 30: 10:00am-11:30am MDT -->
 
 Organizers: Robert S. Laramee (Nottingham University), Petra Isenberg (INRIA), Tobias Isenberg (INRIA)
