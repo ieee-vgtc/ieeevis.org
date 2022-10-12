@@ -329,7 +329,7 @@ menu:
 #                    url: "/year/2022/info/meetups#vis-newcomers"
                   - text: "Job Postings"
                     url: "/year/2022/info/jobs"
-                  - text: "Other Meetups"
+                  - text: "Meetups"
                     url: "/year/2022/info/meetups"
 #              - heading: "Social Groups"
 #                links:
