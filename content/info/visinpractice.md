@@ -75,15 +75,20 @@ Description: Visualization practitioners increasingly work in ways that span sec
 ![image](https://user-images.githubusercontent.com/1891340/195414840-96f14d88-a0b5-4cb3-8956-537ba0a81ee3.png)
 
 Bill Endres is an Associate Professor in the English Department at the University of Oklahoma. He uses a variety of advanced imaging techniques  (multispectral, Reflectance Transformation Imaging, 3D-capture) to digitalize, recovery lost content, and study early illuminated manuscripts. Because these manuscripts are a play of light, he also develops interfaces to present and engage them in dynamic ways, including for virtual and augmented reality.  
-Website:      http://lichfield.ou.edu  
+Website:      [http://lichfield.ou.edu](http://lichfield.ou.edu)  
 Twitter:      @BillEndres
 
 
 Dave King has been involved in high-tech entrepreneurship since the early 1990s. A graduate of the Massachusetts Institute of Technology (MIT) with a bachelor’s degree in electrical engineering and computer science and a humanities concentration in the social sciences, Dave has spent 20+ years working in software development – from system architecture and large-scale database design, to the psychology of user interfaces, to the management of software development teams. Dave first helped pioneer paperless manufacturing information systems in the electronics industry, then focused on designing software platforms for ad-hoc data analysis. In 2011, Dave saw the need for a more modular and cross-disciplinary approach to data science and founded Exaptive in order to pursue ways that technology and community can be combined to facilitate innovation. Data visualization has always been a central component to his work. In 2015, his company was named by Gartner as one of five Cool New Vendors in the Life Sciences, and selected by the Bloor Group as one of the top 10 technologies to watch. Dave is also a photographer and author, and speaks internationally about data, technology, and the future of innovation.  
-Website:      https://www.exaptive.com
+Website:      [https://www.exaptive.com](https://www.exaptive.com)
+
+Kim Klockow is a Research Scientist with the National Severe Storms Laboratory Behavioral Insights Unit. Her research involves behavioral science focused on weather and climate risk, specifically issues in the communication of forecast uncertainty and hazardous weather warnings.  
+Website:      [https://www.nssl.noaa.gov/research/social/](https://www.nssl.noaa.gov/research/social/)  
+Twitter:      @kimklockow
+
 
 Johanna Schmidt studied computer science at the TU Wien, focusing on visual computing. She received her master's degree in 2011 and afterward continued with a Ph.D. in visualization at the TU Wien, which she finished in 2016. She worked as a scientist at AIT Austrian Institute of Technology, where she was responsible for developing visual analytics solutions for domain experts working with large movement data. In 2019 she joined the VRVis, where she became Head of the Visual Analytics group in July 2020. Johanna Schmidt's main research focuses on information visualization and visual analytics of large time-series data. She works with interactive visual systems supporting tasks like data quality assessment, decision-making, and predictive modeling.  
-Website:      https://www.vrvis.at/ueber-uns/team/infos/schmidt-johanna
+Website:      [https://www.vrvis.at/ueber-uns/team/infos/schmidt-johanna](https://www.vrvis.at/ueber-uns/team/infos/schmidt-johanna)
 
 
 ### **Panel:** _Integrating Research and Products_ (moderated by: Zhicheng (Leo) Liu) 15:45 - 17:00
@@ -101,18 +106,18 @@ The panelists include:
 Richard Brath is a partner at Uncharted software where he oversees visual innovation since 2003 for software companies and commercial organizations, ranging from some of the biggest financial companies to analytics startups. Richard's visualizations are in use by hundreds of thousands of users daily. Richard is critical of some foundational assumptions of visualization, such as the role of text or shape in visualization, which in turn lead to a PhD. Richard has recently authored [Visualizing with Text](https://www.amazon.com/Visualizing-Text-AK-Peters-Visualization/dp/0367259265) and previously co-authored [Graph Visualization and Analysis](https://www.amazon.com/Graph-Analysis-Visualization-Discovering-Opportunity/dp/1118845846/) together with David Jonker. Richard enjoys researching and designing new kinds of visualizations and analytics for graphs and text, as well as writing and presenting on them.
 
 Dominik Moritz is on the faculty at Carnegie Mellon University where he co-leads the Data Interaction Group (https://dig.cmu.edu/) at the Human-Computer Interaction Institute and manages the visualization team in Apple’s machine learning organization. At CMU, his group’s research develops interactive systems that empower everyone to effectively analyze and communicate data. Dominik's systems (Vega-Lite, Falcon, Draco, Voyager, and others) have won awards at academic venues (e.g. IEEE VIS and CHI), are widely used in industry, and by the Python and JavaScript data science communities. Dominik did his PhD at the Paul G. Allen School at the University of Washington, where he was advised by Jeff Heer and Bill Howe.  
-Website: www.domoritz.de  
+Website: [www.domoritz.de](www.domoritz.de)  
 Twitter: @domoritz
 
 
 Liu Ren is currently the VP and Chief Scientist in Bosch Research North America and Bosch Center of Artificial Intelligence.  He is responsible for shaping strategic directions and developing cutting-edge technologies in AI focusing on integrated Human-Machine Intelligence for Robert Bosch Corporation, a multi-national corporation with over $70 Billion revenue and more than 400,000 employees worldwide. As the responsible global head, Liu oversees research activities conducted by several research departments and teams located in the Silicon Valley (U.S.), Pittsburgh (U.S.), Bangalore (India), and Renningen (Germany). His teams focus on research topics such as Big Data Visual Analytics, XAI,  Natural Language Processing (NLP), 3D perception and XR, Audio Analytics, Robotics for industrial AI application areas including autonomous driving, driver assistance systems (ADAS), smart manufacturing, building security solutions, BSH home appliance,  and more.  In particular, he has built the team from the ground up and leads the efforts of developing novel visual analytics/XAI solutions for Bosch’s industrial AI application fields ranging from smart manufacturing, IoT to autonomous driving. This has opened the door to the exciting industry AI field for the visual analytics community.  Liu has won Best Paper Award (2018, 2020) and Best Paper Honorable Mention Award (2016, 2022) for big data visual analytics in IEEE Visualization Conference.  Liu received his Ph.D. and M.Sc. degrees in Computer Science from Computer Science Department, Carnegie Mellon University.  
-Website: https://sites.google.com/site/liurenshomepage/  
-LinkedIn: https://www.linkedin.com/in/liu-ren-b7a5362/  
+Website: [https://sites.google.com/site/liurenshomepage/](https://sites.google.com/site/liurenshomepage/)  
+LinkedIn: [https://www.linkedin.com/in/liu-ren-b7a5362/](https://www.linkedin.com/in/liu-ren-b7a5362/)  
 Twitter: @ren63701438
 
 
 Vidya Setlur is the director of Tableau Research. She leads an interdisciplinary team of research scientists in areas including data visualization, multimodal interaction, statistics, applied ML, and NLP. She earned her doctorate in Computer Graphics in 2005 at Northwestern University. Prior to joining Tableau, she worked as a principal research scientist at the Nokia Research Center for seven years. Her personal research interests lie at the intersection of natural language processing and computer graphics. Her research combines concepts and methods from information retrieval, human perception, and cognitive science to help users effectively interact with devices and information in their environment.  
-Website: https://research.tableau.com/user/vidya-setlur  
+Website: [https://research.tableau.com/user/vidya-setlur](https://research.tableau.com/user/vidya-setlur)  
 Twitter: @vsetlur
 
 
