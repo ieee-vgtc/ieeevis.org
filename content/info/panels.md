@@ -35,12 +35,15 @@ The replication crisis has spawned a revolution in scientific methods, aimed at 
 ## <a name="panel-möller">Is This (Panel) Good Enough for IEEE VIS?</a>
 <a>**Friday, October 21**</a><br/>
 **10:45AM-12:00PM CDT (UTC-5)**<br/>
-**Room: Pinion**<br/>
+**Room: Pinon**<br/>
 <!-- Friday, October 30: 10:00am-11:30am MDT -->
 
 Organizers: Robert S. Laramee (Nottingham University), Petra Isenberg (INRIA), Tobias Isenberg (INRIA)
 <br>Panelists: Cody Dunne (Northeastern University), Alexander Lex (University of Utah), Torsten Möller (University of Vienna), Alvitta Ottley (Washington University, St. Louis), Melanie Tory (Northeastern University)
 
 <!-- <br>[Video Preview](TBA) -->
+<a>**Friday, October 21**</a><br/>
+**9:00-10:15AM CDT (UTC-5)**<br/>
+**Room: Pinon**<br/>
 
 "The academic review process is broken," is a statement one often reads or hears. After getting the reviews back from the IEEE VIS conference, likely 75% (or so) of us agree. But is it really? The goal of this panel is to discuss the review process of the visualization community (broader than just IEEE VIS) and to brainstorm ways to improve upon it or to come to the conclusion that everything is fine.
