@@ -94,7 +94,3 @@ Our main product, the Graph Database Explorer, is the logical first manifestatio
 Start time flexible? Yes, but still in 2022  
 Attend job fair meetup? Yes  
 Contact: Michael Behrisch, m.behrisch@uu.nl (will be in Oklahoma); ping me
-
-
-
-
