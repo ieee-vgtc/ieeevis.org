@@ -36,6 +36,8 @@ See these pages for a schedule and details for <a href="/year/2022/info/meetups"
 
 See this page for a description of the <a href="/year/2022/info/supporters-session">Supporters Forum</a>.<br/>
 
+See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask Me Anything Sessions</a>.<br/>
+
 <hr/>
 
 <a>**Saturday, October 15, 2022**</a><br/>
