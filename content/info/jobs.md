@@ -99,4 +99,21 @@ Attend job fair meetup? Yes
 Contact: Fritz Lekschas, fritz@ozette.com
 
 
+### GraphPolaris | Visual Graph Data Analytics for the Masses | Talent Hiring Round 2022
 
+We are searching for engaged personnel who strives with us to remove the frustration and uncertainty out of the analysis of complex datasets. We firmly believe that data analysis processes should be (more) centered around the person who does the analysis or makes the business decisions. A human-centered approach will inevitably lead to more, better, and more sustainable innovations in business and societal settings.
+
+In [GraphPolaris](https://www.graphpolaris.com), we combine the creativity and common knowledge of the human with the number-crunching capabilities of the machine and make insights visible, explainable, and auditable through visual interactive interfaces.
+
+Our main product, the Graph Database Explorer, is the logical first manifestation of this credo: We are building a visual graph analytics system that focuses on easy, explainable, and efficient access to (multivariate) graph databases with better visualization support and a ready-to-use graph ML toolbox. Our unique selling points are (1) a full-fledged, dedicated graph analysis workflow that starts with questions around data quality and schema consistency, evolves (2) around an intuitive query formulation in a visual query editor, and let's the user loop effortlessly through query-refinement and interactive exploration of (3) better visualization techniques than just node-link diagrams.
+
+[**Frontend and Visualization Software Engineer**](https://www.graphpolaris.com/hiring#Developer2022) at GraphPolaris/Utrecht University (Utrecht, NL or Remote), start date: Nov/Dec 2022
+
+[**Full-Stack/Backend Software Engineer**](https://www.graphpolaris.com/hiring#Developer2022) at GraphPolaris/Utrecht University (Utrecht, NL or Remote), start date: Nov/Dec 2022 
+
+
+[**2x Student Assistants**](https://www.graphpolaris.com/hiring#StudentAssistants2022) at GraphPolaris/Utrecht University (Utrecht, NL or Remote), start date: Nov 2022
+
+Start time flexible? Yes, but still in 2022  
+Attend job fair meetup? Yes  
+Contact: Michael Behrisch, m.behrisch@uu.nl (will be in Oklahoma); ping me
