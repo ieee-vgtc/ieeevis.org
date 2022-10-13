@@ -55,7 +55,7 @@ Committee: Tim Dwyer (chair), Lyn Bartram, Steven Franconeri
 <b>1997: <br>
 ROAMing terrain: Real-time Optimally Adapting Meshes<br>
 Mark Duchaineau, Murray Wolinsky, David E. Sigeti, Mark C. Miller, Charles Aldrich, Mark B. Mineev-Weinstein<br>
-DOI: [10.1109/VISUAL.1996.567752]( https://doi.org/10.1109/VISUAL.1996.567752)
+DOI: [10.1109/VISUAL.1997.663860]( https://doi.org/10.1109/VISUAL.1997.663860)
 
 
 In the 1990s, the flood of available satellite and other remote-sensing data drove the need for effective tools to render terrains efficiently.  Cited over 1400 times, this paper solved many of the outstanding issues by introducing split-merge operations for triangle bintrees, guaranteeing mesh consistency in a simple and elegant fashion. The work introduced in this paper profoundly influenced the state of the art for terrain rendering in films, games, flight simulation and remote sensing and continues to influence research efforts today.
