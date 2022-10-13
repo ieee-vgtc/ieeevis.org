@@ -137,9 +137,6 @@ Authors: Claudio D. G. Linhares, Jean R. Ponciano, Diogenes S. Pedro, Luis E C R
 
 **ASTF: Visual Abstractions of Time-Varying Patterns in Radio Signals**<br/>
 Authors: Ying Zhao, Luhao Ge, Huixuan Xie, Genghuai Bai, Zhao Zhang, Qiang Wei, Yun Lin, Yuchao Liu, Fangfang Zhou
-
-**RankFIRST: Visual Analysis for Factor Investment by Ranking Stock Timeseries**<br/>
-Authors: Huijie Guo, Meijun Liu, Bowen Yang, Ye Sun, Huamin Qu, Lei Shi
 <br/>
 
 
