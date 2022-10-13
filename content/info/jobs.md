@@ -66,13 +66,23 @@ Contact: Jane Jukes, j-jukes@illinois.edu
 
 ### Georgia Institute of Technology
 
-[**Professor (Tenure-Track, all ranks) -- Data Visualization and Visual Analytics**](https://www.ic.gatech.edu/about/faculty-hiring) The School of Interactive Computing at Georgia Tech is seeking, among other areas, new faculty specializing in Data Visualization or Visual Analytics this upcoming year. More details about our existing Vis group can be found at https://vis.gatech.edu.
+[**Professor (Tenure-Track, all ranks) -- Data Visualization and Visual Analytics**](https://www.ic.gatech.edu/about/faculty-hiring) The School of Interactive Computing at Georgia Tech is seeking, among other areas, new faculty specializing in Data Visualization or Visual Analytics this upcoming year. More details about our existing Vis group can be found at [https://vis.gatech.edu](https://vis.gatech.edu).
 
-Start date: 2023-08-16
+Start date: 2023-08-16 
+
 Start time flexible? Yes  
 Attend job fair meetup? Yes (but feel free to reach out as well)    
 Contact: John Stasko, john.stasko@cc.gatech.edu
 
+### Arizona State University
+
+[**Professor (all ranks) in Human Centered and Affective Computing**](https://jobs.chronicle.com/job/37306873/professor-all-ranks-in-human-centered-and-affective-computing) AT The Ira A. Fulton Schools of Engineering at Arizona State University (Tempe, AZ, USA)	
+
+Start time flexible? Yes
+
+Attend job fair meetup: No, please contact directly
+
+Contact: Chris Bryan, chris.bryan@asu.edu
 
 ## Industry
 ### Ozette
