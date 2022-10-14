@@ -136,6 +136,9 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 * Oklahoma Station 1: **Visualization Opportunities** (VIS Full Papers Session)
 * Mistletoe: **SIGGRAPH Invited Talks** (Invited Partnership Presentations)
 
+*12:00 PM-2:00 PM CDT (UTC-5)*<br/>
+* Oklahoma Station 4: **Vis Town Hall**
+
 *2:00 PM-3:15 PM CDT (UTC-5)*<br/>
 * Oklahoma Station 4: **Immersive Analytics and Situated Visualization** (VIS Full Papers Session)
 * Oklahoma Station 5: **Questioning Data and Data Bias** (VIS Full Papers Session)
