@@ -136,7 +136,7 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 * Oklahoma Station 1: **Visualization Opportunities** (VIS Full Papers Session)
 * Mistletoe: **SIGGRAPH Invited Talks** (Invited Partnership Presentations)
 
-*12:00 PM-2:00 PM CDT (UTC-5)*<br/>
+*12:00 PM-1:30 PM CDT (UTC-5)*<br/>
 * Oklahoma Station 4: **Vis Town Hall**
 
 *2:00 PM-3:15 PM CDT (UTC-5)*<br/>
@@ -178,6 +178,9 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 * Oklahoma Station 4: **Interpreting Machine Learning** (VIS Full Papers Session)
 * Pinon: **Merits and Limits of User Study Preregistration** (VIS Panel)
 * Mistletoe: **Audio-Visual Analytics: Potential Applications of Combined Sonifications and Visualizations** (Application Spotlight)
+
+*12:00 PM-12:30 PM CDT (UTC-5)*<br/>
+* Oklahoma Station 4: **VIS23 OC Kickoff**
 
 *2:00 PM-3:15 PM CDT (UTC-5)*<br/>
 * Oklahoma Station 5: **Reflecting on Academia and our Field** (VIS Full Papers Session)
