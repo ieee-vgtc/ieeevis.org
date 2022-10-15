@@ -84,6 +84,85 @@ Attend job fair meetup: No, please contact directly
 
 Contact: Chris Bryan, chris.bryan@asu.edu
 
+
+
+### Linnaeus University
+
+[**Senior Lecturer - Information Visualization and Visual Analytics**](https://cs.lnu.se/isovis/tmp/Senior_Lecturer_VIS22.pdf) at Linnaeus University (Växjö, Sweden), start date: 2023-04-01
+ 
+Start time flexible? Yes 
+
+Attend job fair meetup? Yes
+
+Contact: Andreas Kerren, andreas.kerren@lnu.se
+
+
+### Carleton University
+
+[**Master Student**](https://carleton.ca/rajabiyazdi/about-me/) at Carleton University (Ottawa, Canada), start date: 2023-09-01
+ 
+Start time flexible? Yes
+
+Attend job fair meetup? No, please contact directly
+
+Contact: fateme.rajabiyazdi@carleton.ca
+
+
+### Northeastern University
+
+[**PhD Student**] at Northeastern University (Boston, Massachusetts, USA), start date: 2023-09-01
+ 
+Start time flexible? Yes  
+
+Attend job fair meetup? No, please contact directly
+
+Contact: Carmen Hull, c.hull@northeastern.edu
+
+
+### The University of Oklahoma 
+
+[**Professor or Associate Professor in Human-Computer Teaming and Interactive Decision Making**](http://apply.interfolio.com/112374) at the University of Oklahoma (Norman, Oklahoma, USA), start date: 2023-08-01
+
+Start time flexible? No 
+
+[**Assistant Professor in AI Architectures**](https://apply.interfolio.com/112359) at the University of Oklahoma (Norman, Oklahoma, USA), start date: 2023-08-01
+
+Start time flexible? No 
+
+[**Assistant Professor in Trustable AI**](https://apply.interfolio.com/112372) at the University of Oklahoma (Norman, Oklahoma, USA), start date: 2023-08-01
+
+Start time flexible? No 
+
+[**Postdoctoral Researcher Positions in Visual Analytics and Explainable/ Trustable / Scientific AI**] at the University of Oklahoma (Norman, Oklahoma, USA), start date: 2023-01-01
+
+Start time flexible? Yes
+
+Attend job fair meetup? Yes
+
+Contact: danala@ou.edu
+
+### University of Maryland, College Park
+
+[**Open Rank Assistant/Associate/Professor of Data Visualization**](https://ejobs.umd.edu/postings/99435) at University of Maryland, College Park (College Park, MD, USA), start date: 2023-08-01
+ 
+Start time flexible? Yes  
+
+Attend job fair meetup? No, please contact directly
+
+Contact: Niklas Elmqvist, elm@umd.edu
+
+## Government
+### Lawrence Berkeley National Laboratory
+
+[**Postdoc for Visualization for Scientific Machine Learning**](https://lbl.referrals.selectminds.com/jobs/postdoc-for-visualization-for-scientific-machine-learning-5276) at Lawrence Berkeley National Laboratory (Berkeley, CA, USA), start date: 2022-12-01
+ 
+Start time flexible? Yes  
+
+Attend job fair meetup? No, please contact directly
+
+Contact: ghweber@lbl.gov
+
+
 ## Industry
 ### Ozette
 
@@ -117,3 +196,29 @@ Our main product, the Graph Database Explorer, is the logical first manifestatio
 Start time flexible? Yes, but still in 2022  
 Attend job fair meetup? Yes  
 Contact: Michael Behrisch, m.behrisch@uu.nl (will be in Oklahoma); ping me
+
+### Uncharted Software 
+
+[**UX Designer**](https://jobs.lever.co/Uncharted/303f6485-fbfa-41c2-80d3-00c51f1b39f0) at Uncharted Software (Toronto, Ontario, Canada), start date: 2022-11-01
+
+Start time flexible? Yes  
+Attend job fair meetup? No, please contact directly  
+Contact: Joyce Wallace, jwallace@uncharted.software
+
+### Carelon Digital Platforms (formerly Anthem, Inc) 
+
+[**Senior Data Visualization Designer**](https://elevancehealth.wd1.myworkdayjobs.com/ANT/job/National-50-Miles-away-from-nearest-PulsePoint/Senior-Data-Visualization-Designer_JR31241) at Carelon Digital Platforms (Atlanta, Chicago or Palo Alto, Virtual is possible), start date: 2023-01-05
+
+Start time flexible? Yes  
+Attend job fair meetup? Yes
+Contact: Evan Hirsch, evan.hirsch@carelon.com
+
+### Datadog 
+
+[**Software Engineer, Data Visualization**](https://www.datadoghq.com/careers/detail/?gh_jid=1826088) at Datadog (New York, New York, USA), start date: 2022-11-01
+
+[**Senior Software Engineer, Data Visualization**](https://www.datadoghq.com/careers/detail/?gh_jid=1826266) at Datadog (‌Paris, France; Madrid, Spain; Lisbon, Portugal; Nantes, France; Bordeaux, France; Sophia Antipolis, France; Lyon, France), start date: 2022-11-01
+
+Start time flexible? Yes  
+Attend job fair meetup? No, please contact directly  
+Contact: cameron.yick@datadoghq.com
