@@ -55,6 +55,10 @@ menu:
                   description: "Tour OU facilities, registration required"
                   url: "/year/2022/assets/ou-open-house-invite.pdf"
                   is_new: true
+                - text: "IEEE CS Awards Panel"
+                  description: "Learn directly from our 2020, 2021 and 2022 major award recipients"
+                  url: "https://join.computer.org/visualize-your-future/"
+                  is_new: true
                 # - text: "Media Requests"
                 #   url: "/year/2022/info/media-requests"
                 #   is_new: true
