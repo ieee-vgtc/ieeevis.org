@@ -110,7 +110,7 @@ Visualization can be a powerful tool to help you build better statistical models
 ## <a name="AVL"></a> Analyze and Visualize Large Scale Geospatial Data with H3 and HexTile
 Monday, October 17, 2022: 2:00 PM-5:00 PM CDT (UTC-5)
 
-Shan He, *Foursquare*
+Shan He, *Foursquare* <br>
 Nick Rabinowitz, *Foursquare*
 
 Geospatial analysis can be challenging and time-consuming – from preparing data of different shapes, forms, sizes, to processing and visualizing large datasets at scale. In recent years, geospatial visualization has increasingly shifted from legacy GIS tools to web-based systems leveraging WebGL and other modern browser-based technologies to enable fast exploratory data analysis for a broader audience.
@@ -127,5 +127,6 @@ Silvio Rizzi, *Argonne National Laboratory* <br>
 Mark Bolstad, *Sandia National Laboratories* <br>
 
 In this tutorial, our goal is to familiarize the audience with the VTK-m library, an open-source toolkit for visualization and analysis on many-core devices. The visualization community can largely benefit from the VTK-m library via: 1) application of its rich set of high-performance portable visualization algorithms for accelerating visualization research and 2) deployment of new visualization algorithms on different high-performance architectures with VTK-m. The tutorial will cover the usage of VTK-m library for scientific
-visualization and development with VTK-m.
+visualization and development with VTK-m. Tutorial webpage (contains the slack channel link, tutorial materials, and VTK-m installation instructions): https://tinyurl.com/vtkm-tut-2022
+
 
