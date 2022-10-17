@@ -118,9 +118,14 @@ This application spotlight is intended to shed light on this question and build 
 
 The goal of this application spotlight is to create a more systematic guideline for reviewing and judging application papers that eases the creation of these papers as well as their review process.
 
-### Speakers
-TBA
-
 ### Schedule
-TBA
+**Anders Ynnerman** From domain experts to children 
+Abstract: This talk will take its starting point in the work at the Visualization Center C in Sweden. Over the past 15 years we have  systematically developed tools for domain experts in selected application domains, and at the same time used the results to communicate science to a general audience including children visiting museums and science centers. This talk will elaborate on the academic aspect of how this work is breaking down the barrier between exploration and explanation, how it generates benefits to both science communication and scientific workflows, and how it constitutes a new form of contribution for applied visualization.
+
+**Thomas Wischgoll** Applications in Medical Visualizations: A Case Study
+Abstract: The medical domain is one of the traditional application areas in visualization. Various different scanning technologies can provide 2D and 3D data suitable for visualization. For example, volume visualization techniques have matured significantly throughout the years as a result. However, just visualizing the data is not enough in many applications. Additional analysis techniques are needed to precisely guide the domain specialist. This includes the extraction of quantitative data to feed into the visualization and analysis pipeline. Such extraction of data has to be precise and at the same time convey any inherent uncertainties stemming from the limitations of scanning technologies or other sources. In order to be successful in applying visualization to application domains, often close collaborations with domain specialists are required. This requires establishing a level of trust to convince a domain specialist to spend time and share data. The end result of such a close collaboration resulting in advanced visualization and analysis techniques for the application domain can be very rewarding. This presentation will shed some light on examples of such applications for visualization and data analysis and discuss the positive and negative aspects of working in an applied area.
+
+**Helmut Doleisch** Visualization and Applications in Flow Simulation with Simcenter STAR-CCM+
+Abstract: Over the last 25 years I have always been involved in application driven visualization and data analysis. During our work on visual data analysis of flow simulation data we have worked with a multidude of different applications, always in close cooperation with domain experts in the respective applications fields, such as weather and climate research, automotive and aerospace, or medical research. Both, at SimVis as well as now with Siemens Simcenter STAR-CCM+, we have continiously worked on bringing cutting edge basic research into the context of real world applications for commercial usage. This presentation will give a brief overview and motivate why applications and their throrough presentation at an event as the IEEE VIS is important.
+
  	
