@@ -81,7 +81,7 @@ With this Application Spotlight our goal is to build and strengthen a community 
 ### Schedule
 1. Opening: Kajetan Enge, Wolfgang Aigner
 2. Highcharts Sonification Studio: Overview and demo : Øystein Moseng, Bruce N. Walker
-3. Mapping and Interdisciplinary ground: the Data Sonification Archive: Sara Lenzi, Paolo Ciuccarelli
+3. Mapping an interdisciplinary ground: the Data Sonification Archive: Sara Lenzi, Paolo Ciuccarelli
 4. Real time sonification to support motor learning in health promotion and rehabilitation: Victor-Adriel de-Jesus-Oliveira
 5. Panel Q&A and Closing
 
