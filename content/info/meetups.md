@@ -21,7 +21,7 @@ contact: meetups@ieeevis.org
 
 Tuesday 18 October 2022<br>
 12:30-14:00pm CDT<br>
-Room: five moons 6<br>
+Room: Oklahoma Station 1<br>
 Organizers: Kenneth Moreland and Bernice Rogowitz <br>
 Contact: <br>
 morelandkd@ornl.gov <br>
@@ -34,7 +34,7 @@ VisLies! is a yearly event at IEEE VIS. This fun and engaging evening session sh
 
 Tuesday 18 October 2022<br>
 17:00-18:00pm CDT<br>
-Room: five moons 6<br>
+Room: Five Moons 6<br>
 Organizers: Lane Harrison and Matt Kay <br>
 Contact: <br>
 ltharrison@wpi.edu <br>
@@ -63,7 +63,7 @@ group notes document memorializing the event and resulting discussion.
 
 Tuesday 18 October 2022<br>
 17:00-18:00pm CDT<br>
-Room: five moons 7<br>
+Room: Five Moons 7<br>
 Organizers: Kristi Potter, Remco Chang, Arvind Satyanarayan, and Josh Levine<br>
 Contact: <br>
 kristi.potter@nrel.gov <br>
@@ -76,7 +76,7 @@ Join us for a meet and mingle with those finding themselves as, or who have ever
 
 Wednesday 19 October 2022<br>
 13:00-14:00pm CDT<br>
-Room: five moons 6<br>
+Room: Five Moons 6<br>
 Organizers: Lace Padilla<br>
 Contact: <br>
 lace.m.k.padilla@gmail.com <br>
@@ -88,7 +88,7 @@ Meet and greet with current and former diversity scholar recipients.
 
 Thursday 20 October 2022<br>
 13:00-14:00pm CDT<br>
-Room: five moons 6<br>
+Room: Five Moons 6<br>
 Organizers: Jimmy Johansson Westberg, Jonas Lundberg, and Karljohan Lundin Palmerius<br>
 Contact: <br>
 jimmy.johansson.westberg@liu.se <br>
@@ -111,7 +111,7 @@ The purpose of this meetup is to discuss current practice and future challenges 
 
 Thursday 20 October 2022<br>
 12:30-13:30pm CDT<br>
-Room: five moons 7<br>
+Room: Five Moons 7<br>
 Organizers:  Kristi Potter and Ayan Biswas<br>
 Contact: <br>
 kristi.potter@nrel.gov <br>

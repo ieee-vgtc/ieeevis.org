@@ -63,16 +63,15 @@ Attend job fair meetup? No, please contact directly
 Contact: Jane Jukes, j-jukes@illinois.edu
 
 
-
 ### Georgia Institute of Technology
 
 [**Professor (Tenure-Track, all ranks) -- Data Visualization and Visual Analytics**](https://www.ic.gatech.edu/about/faculty-hiring) The School of Interactive Computing at Georgia Tech is seeking, among other areas, new faculty specializing in Data Visualization or Visual Analytics this upcoming year. More details about our existing Vis group can be found at [https://vis.gatech.edu](https://vis.gatech.edu).
 
 Start date: 2023-08-16 
-
 Start time flexible? Yes  
-Attend job fair meetup? Yes (but feel free to reach out as well)    
+Attend job fair meetup? Yes (but feel free to reach out as well)  
 Contact: John Stasko, john.stasko@cc.gatech.edu
+
 
 ### Arizona State University
 
@@ -83,7 +82,6 @@ Start time flexible? Yes
 Attend job fair meetup: No, please contact directly
 
 Contact: Chris Bryan, chris.bryan@asu.edu
-
 
 
 ### Linnaeus University
@@ -106,17 +104,6 @@ Start time flexible? Yes
 Attend job fair meetup? No, please contact directly
 
 Contact: fateme.rajabiyazdi@carleton.ca
-
-
-### Northeastern University
-
-[**PhD Student**] at Northeastern University (Boston, Massachusetts, USA), start date: 2023-09-01
- 
-Start time flexible? Yes  
-
-Attend job fair meetup? No, please contact directly
-
-Contact: Carmen Hull, c.hull@northeastern.edu
 
 
 ### The University of Oklahoma 
@@ -151,6 +138,131 @@ Attend job fair meetup? No, please contact directly
 
 Contact: Niklas Elmqvist, elm@umd.edu
 
+
+### Wright State University
+
+[**Assistant/Associate Professor**](http://jobs.wright.edu/hr/postings/17574) at Wright State University (Dayton, OH, USA), start date: 2023-08-01
+
+[**Instructor**](http://jobs.wright.edu/hr/postings/17575) at Wright State University (Dayton, OH, USA), start date: 2023-08-01
+
+Start time flexible? Yes  
+
+Attend job fair meetup? No, please contact directly
+
+Contact: thomas.wischgoll@wright.edu
+
+
+### Purdue University
+
+[**Assistant/Associate Professor (Tenure-Track) in Interactive Media and Computer Graphics**](https://careers.purdue.edu/job/West-Lafayette-AssistantAssociate-Professor-in-Interactive-Media-and-Computer-Graphics-IN-47906/946017000/) at Purdue University (West Lafayette, IN, USA), start date: 2023-08-15
+
+Start time flexible? Yes  
+
+Attend job fair meetup? No, please contact directly
+
+Contact: Paul Parsons, parsonsp@purdue.edu
+
+
+### Hamad Bin Khalifa University
+
+[**PostDoc in Visual Computing**](https://www.linkedin.com/feed/update/urn:li:ugcPost:6987381655342596096/) at Hamad Bin Khalifa University (Doha, Qatar), start date: 2023-01-01
+
+Start time flexible? Yes  
+
+Attend job fair meetup? No, please contact directly
+
+Contact: Marco Agus, magus@hbku.edu.qa
+
+
+### Fundação Getulio Vargas
+
+[**PostDoc**](http://visualdslab.com/positions/postdoc) at Fundação Getulio Vargas (Rio de Janeiro, Brazil), start date: 2023-01-04
+
+Start time flexible? Yes  
+
+Attend job fair meetup? No, please contact directly
+
+Contact: Jorge Poco, jorge.poco@fgv.br
+
+
+### University of Bergen
+
+[**Tenure Track Associate Professor in Informatics – Visualization / Visual Data Science**](https://www.jobbnorge.no/en/available-jobs/job/229271/tenure-track-associate-professor-in-informatics-visualization-visual-data-science) at University of Bergen (Bergen, Norway), start date: 2023-02-01
+
+Start time flexible? Yes  
+
+Attend job fair meetup? No, please contact directly
+
+Contact: Helwig Hauser, Helwig.Hauser@UiB.no
+
+
+### German Aerospace Center (DLR) / University of Bremen
+
+[**Interactive In-Situ Processing of Large Scientific Data (all Levels from Scientist / PhD Student / Post Doc / Senior Researcher)**](https://www.dlr.de/dlr/jobs/en/desktopdefault.aspx/tabid-10596/1003_read-48168/) at German Aerospace Center (DLR) / University of Bremen (Braunschweig, Germany), start date: 2023-01-01
+
+Start time flexible? Yes  
+
+Attend job fair meetup? No, please contact directly
+
+Contact: andreas.gerndt@dlr.de
+
+
+### King’s College London
+
+[**Lecturer (Tenure Track) in Data Visualization**](https://jobs.kcl.ac.uk/gb/en/job/054512/Lecturer-in-Visualisation) at King’s College London (London, UK), start date: 2023-03-01
+
+Start time flexible? Yes  
+
+Attend job fair meetup? No, please contact directly
+
+Contact: rita.borgo@kcl.ac.uk
+
+
+### University of Cincinnati
+
+[**Assistant/Associate/Full Professor, Dept. of Computer Science**](https://jobs.uc.edu/job/Cincinnati-AssistantAssociateFull-Professor%2C-Dept_-of-Computer-Science-OH-45201/940481500/) at University of Cincinnati (Cincinnati, Ohio, USA), start date: 2023-08-15
+
+Start time flexible? Yes  
+
+Attend job fair meetup? Yes
+
+Contact: aurisajm@ucmail.uc.edu
+
+
+### University of North Carolina at Chapel Hill
+
+[**Assistant Professor - User Experience/Design**](https://unc.peopleadmin.com/postings/239213) at University of North Carolina at Chapel Hill (Chapel Hill, NC, USA), start date: 2023-07-01
+
+Start time flexible? Yes  
+
+Attend job fair meetup? No, please contact directly
+
+Contact: David Gotz, gotz@unc.edu
+
+
+### Harvard University
+
+[**Principal Software Developer**](http://gehlenborglab.org/team/positions/principal-software-developer/) at Harvard University (In-person: Boston, MA / remote: CA, CT, MA, MD, ME, NH, NY, RI, VT), start date: 2022-11-01
+
+[**Senior UI/UX Designer**](http://gehlenborglab.org/team/positions/senior-ui-ux-designer/) at Harvard University (In-person: Boston, MA / remote: CA, CT, MA, MD, ME, NH, NY, RI, VT), start date: 2022-11-01
+
+[**Research & Development Manager**](http://gehlenborglab.org/team/positions/research-development-manager/) at Harvard University (In-person: Boston, MA / remote: CA, CT, MA, MD, ME, NH, NY, RI, VT), start date: 2022-11-01
+
+[**Software Developer (Cell Atlas Projects)**](http://gehlenborglab.org/team/positions/software-developer-cell-atlas/) at Harvard University (In-person: Boston, MA / remote: CA, CT, MA, MD, ME, NH, NY, RI, VT), start date: 2022-11-01
+
+[**Software Developer (Visualization)**](http://gehlenborglab.org/team/positions/software-developer-viz/) at Harvard University (In-person: Boston, MA / remote: CA, CT, MA, MD, ME, NH, NY, RI, VT), start date: 2022-11-01
+
+[**Postdoctoral Fellow in Biomedical Data Visualization (multiple positions)**](http://gehlenborglab.org/team/positions/postdoc-biomedical-data-viz/) at Harvard University (In-person: Boston, MA / remote: CA, CT, MA, MD, ME, NH, NY, RI, VT), start date: 2022-11-01
+
+[**Student Research Assistant (Genomics Visualization)**](http://gehlenborglab.org/team/positions/student-research-assistant-genomics-data-visualization/) at Harvard University (In-person: Boston, MA / remote: CA, CT, MA, MD, ME, NH, NY, RI, VT), start date: 2022-11-01
+
+Start time flexible? Yes  
+
+Attend job fair meetup? Yes
+
+Contact: Nils Gehlenborg, nils@hms.harvard.edu
+
+
 ## Government
 ### Lawrence Berkeley National Laboratory
 
@@ -162,6 +274,31 @@ Attend job fair meetup? No, please contact directly
 
 Contact: ghweber@lbl.gov
 
+
+### Lawrence Livermore National Laboratory
+
+[**Postdoctoral Research Position Virtual Reality & Digital Twin Visualization in Advanced Manufacturing**](https://jobs.smartrecruiters.com/ni/LLNL/9905b316-9aca-4297-bf03-5453c527d150-virtual-reality-visualization-scientist) at Lawrence Berkeley National Laboratory (Livermore, CA, US), start date: 2022-01-01
+ 
+Start time flexible? Yes  
+
+Attend job fair meetup? Yes
+
+Contact: Haichao Miao, miao1@llnl.gov
+
+
+### NASA, Goddard Space Flight Center
+
+[**Scientific Visualization Studio EIC Programmer**](https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a40f480a-47ae-461b-bf11-ceedb843d226&ccId=19000101_000001&lang=en_US) at NASA, Goddard Space Flight Center (Greenbelt, MD, USA), start date: 2022-11-15
+
+[**Scientific Visualization Studio EIC Data Visualizer**](https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a40f480a-47ae-461b-bf11-ceedb843d226&ccId=19000101_000001&lang=en_US) at NASA, Goddard Space Flight Center (Greenbelt, MD, USA), start date: 2022-11-15
+
+[**Scientific Visualization Studio EIC Lead Data Visualizer**](https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a40f480a-47ae-461b-bf11-ceedb843d226&ccId=19000101_000001&lang=en_US) at NASA, Goddard Space Flight Center (Greenbelt, MD, USA), start date: 2022-11-16
+
+Start time flexible? Yes  
+
+Attend job fair meetup? Yes
+
+Contact: mark.subbarao@nasa.gov
 
 ## Industry
 ### Ozette
@@ -222,3 +359,61 @@ Contact: Evan Hirsch, evan.hirsch@carelon.com
 Start time flexible? Yes  
 Attend job fair meetup? No, please contact directly  
 Contact: cameron.yick@datadoghq.com
+
+### Sigma Computing 
+
+[**Research Scientist**](https://boards.greenhouse.io/sigmacomputing/jobs/4451416003) at Sigma Computing (San Francisco, CA, USA), start date: 2023-05-01
+
+[**Research Intern**](https://boards.greenhouse.io/sigmacomputing/jobs/4353710003) at Sigma Computing (San Francisco, CA, USA), start date: 2023-05-01
+
+Start time flexible? Yes  
+Attend job fair meetup? No, please contact directly  
+Contact: Alex Bäuerle, alex.bauerle@sigmacomputing.com
+
+
+### Lucid Software
+
+[**Software Engineer**](https://boards.greenhouse.io/lucidsoftware/jobs/4365607004) at Sigma Computing (Remote, USA), start date: 2022-10-31
+
+[**Sr Software Engineer**](https://boards.greenhouse.io/lucidsoftware/jobs/4012374004) at Sigma Computing (San Francisco, CA), start date: 2022-10-31
+
+[**Software Engineer Internship**](https://boards.greenhouse.io/lucidsoftware/jobs/4032935004) at Sigma Computing (San Francisco, CA), start date: 2022-10-31
+
+Start time flexible? Yes  
+Attend job fair meetup? No, please contact directly  
+Contact: seanm@lucidchart.com
+
+
+
+
+## Student
+
+### Northeastern University
+
+[**PhD Student**] at Northeastern University (Boston, Massachusetts, USA), start date: 2023-09-01
+ 
+Start time flexible? Yes  
+
+Attend job fair meetup? No, please contact directly
+
+Contact: Carmen Hull, c.hull@northeastern.edu
+
+### Utah State University 
+
+[**PhD Student**] at Utah State University (Logan, UT), start date: 2023-09-01
+
+Start time flexible? Yes  
+
+Attend job fair meetup? No, please contact directly
+
+Contact: steve.petruzza@usu.edu
+
+### University of Zurich (UZH)
+
+[**PhD Position in Human-Centered Interactive Visual Data Analysis**](https://www.ifi.uzh.ch/en/ivda/team.html) at University of Zurich (Zurich, Switzerland), start date: 2023-04-01
+
+Start time flexible? Yes  
+
+Attend job fair meetup? No, please contact directly
+
+Contact: bernard@ifi.uzh.ch
