@@ -386,11 +386,12 @@ Contact: seanm@lucidchart.com
 
 ### TD Bank
 
-[**Data Scientist II**](https://jobs.td.com/en/job/16879169/data-scientist-ii-remote-hybrid-mount-laurel-nj/) Remote / Hybrid (Mount Laurel, NJ), start date: 2022-11-14
+[**Data Scientist II**](https://jobs.td.com/en/job/16879169/data-scientist-ii-remote-hybrid-mount-laurel-nj/) at TD Bank (Remote / Hybrid (Mount Laurel, NJ)), start date: 2022-11-14
 
-Start time flexible? Yes  
+Start time flexible? Yes
 Attend job fair meetup? Yes
 Contact: Kyle Hall, hallkw@ucalgary.ca
+
 
 
 
