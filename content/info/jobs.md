@@ -120,7 +120,7 @@ Start time flexible? No
 
 Start time flexible? No 
 
-[**Postdoctoral Researcher Positions in Visual Analytics and Explainable/ Trustable / Scientific AI**] at the University of Oklahoma (Norman, Oklahoma, USA), start date: 2023-01-01
+**Postdoctoral Researcher Positions in Visual Analytics and Explainable/ Trustable / Scientific AI** at the University of Oklahoma (Norman, Oklahoma, USA), start date: 2023-01-01
 
 Start time flexible? Yes
 
