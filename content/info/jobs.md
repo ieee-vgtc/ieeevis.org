@@ -394,6 +394,15 @@ Contact: Kyle Hall, hallkw@ucalgary.ca
 
 
 
+### Suncor
+
+**UI/UX Designer** at Suncor start date: 2022-11-15
+
+Start time flexible? Yes
+Attend job fair meetup? No, please contact directly
+Contact: Alana Schoepp, alschoepp@suncor.com
+
+
 
 
 ## Student
