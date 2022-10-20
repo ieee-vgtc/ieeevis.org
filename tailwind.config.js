@@ -1,7 +1,7 @@
 // Tailwind Config
 
 const { colors } = require('tailwindcss/defaultTheme')
-
+//#38381D
 module.exports = {
   theme: {
     colors: {
@@ -15,16 +15,16 @@ module.exports = {
         100: colors.white, // '#b9aba1',
       },
       secondary: {
-        default: '#8ca8c4', //'#1d3160',//'#6f2184', // '#c42026',
-        800: '#8ca8c4',//'#1d3160',//'#6f2184', // '#b42026',
-        700: '#8ca8c4',//'#8c3800',//'#853899', // '#c42026',
-        600: '#8ca8c4',//'#9b4faf', // '#d3855f',
+        default: '#38381D',//'#8ca8c4', //'#1d3160',//'#6f2184', // '#c42026',
+        800: '#38381D',//'#8ca8c4',//'#1d3160',//'#6f2184', // '#b42026',
+        700: '#38381D',//'#8ca8c4',//'#8c3800',//'#853899', // '#c42026',
+        600: '#38381D',//'#8ca8c4',//'#9b4faf', // '#d3855f',
         200: colors.white, // '#e0a778',
         100: colors.white, // '#e0a778',
       },
       accent: {
-        default: '#8ca8c4',// '#1d3160',//'#6f2184', // '#b9aba1',,
-        minor:'#8ca8c4',// '#fbc31b',
+        default: '#C47000',//'#8ca8c4',// '#1d3160',//'#6f2184', // '#b9aba1',,
+        minor:'#C47000',//'#8ca8c4',// '#fbc31b',
       },
       black: colors.black,
       white: colors.white,
