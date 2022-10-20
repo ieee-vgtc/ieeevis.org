@@ -62,12 +62,12 @@ jobs:
     - name: Build previous year (2019)
       run: |
         git switch -f vis2019
-        make staging2019
+        make new2019
 
     - name: Build previous year (2020)
       run: |
         git switch -f vis2020
-        make staging2020
+        make new2020
 
     - name: Build previous year (2021)
       run: |
