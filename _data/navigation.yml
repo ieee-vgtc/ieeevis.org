@@ -22,12 +22,12 @@
 registration:
   display: true
   text: "Register"
-  url: "/year/2022/info/registration/conference-registration"
+  url: "/year/2023/info/registration/conference-registration"
 
 blog:
   display: true
   text: "Blog"
-  url: "/year/2022/blog/index"
+  url: "/year/2023/blog/index"
 
 menu:
   - dropdown: "Attend"
@@ -41,125 +41,125 @@ menu:
             - heading: "Attend"
               links:
                 - text: "Registration"
-                  url: "/year/2022/info/registration/conference-registration"
+                  url: "/year/2023/info/registration/conference-registration"
                   #is_new: true
                 # - text: "Satellite Sites"
-                #   url: "/year/2022/info/satellite"
+                #   url: "/year/2023/info/satellite"
                 #    - text: "Practitioner Guide"
                 #      url: "https://visinpractice.github.io/guide.html"
                 #      is_external: true
                 - text: "Full Program"
-                  url: "/year/2022/info/week-at-a-glance"
+                  url: "/year/2023/info/week-at-a-glance"
                   is_new: true
                 - text: "OU Open House"
                   description: "Tour OU facilities, registration required"
-                  url: "/year/2022/assets/ou-open-house-invite.pdf"
+                  url: "/year/2023/assets/ou-open-house-invite.pdf"
                   is_new: true
                 - text: "IEEE CS Awards Panel"
                   description: "Learn directly from our 2020, 2021 and 2022 major award recipients"
                   url: "https://join.computer.org/visualize-your-future/"
                   is_new: true
                 # - text: "Media Requests"
-                #   url: "/year/2022/info/media-requests"
+                #   url: "/year/2023/info/media-requests"
                 #   is_new: true
                 - text: "Coronavirus Information"
-                  url: "/year/2022/info/coronavirus-info"
+                  url: "/year/2023/info/coronavirus-info"
                   #is_new: true
             - heading: "Travel"
               links:
                 - text: "Accommodation"
-                  url: "/year/2022/info/registration/hotel-information"
+                  url: "/year/2023/info/registration/hotel-information"
                   #is_new: true
                 - text: "Visa & Travel"
-                  url: "/year/2022/info/registration/travel-visas"
+                  url: "/year/2023/info/registration/travel-visas"
                   #is_new: true
                 - text: "Things to do in Oklahoma City"
-                  url: "/year/2022/info/registration/what-to-do-in-okc"
+                  url: "/year/2023/info/registration/what-to-do-in-okc"
                   is_new: true
 
           - heading: "Code of Conduct"
-            heading_url: "/year/2022/info/inclusion-and-diversity/code-of-conduct"
+            heading_url: "/year/2023/info/inclusion-and-diversity/code-of-conduct"
 
       - subsections:
           - heading: "Equality, Inclusion & Diversity"
-            heading_url: "/year/2022/info/inclusion-and-diversity/inclusivity"
+            heading_url: "/year/2023/info/inclusion-and-diversity/inclusivity"
             columns:
               - links:
                   - text: "Land Recognition"
                     description: "Recognition of the tribal land the conference takes place."
-                    url: "/year/2022/info/inclusion-and-diversity/land-recognition"
+                    url: "/year/2023/info/inclusion-and-diversity/land-recognition"
                   - text: "Inclusivity & Diversity Scholarship"
                     description: "Need-based scholarships for conference attendance"
-                    url: "/year/2022/info/inclusion-and-diversity/diversity-scholarship"
+                    url: "/year/2023/info/inclusion-and-diversity/diversity-scholarship"
                   - text: "Accessibility"
                     description: "Supporting access for all attendees"
-                    url: "/year/2022/info/accessibility/attend"
+                    url: "/year/2023/info/accessibility/attend"
                   - text: "VISKids Childcare Grants"
                     description: "Supporting our VISKids and young families"
-                    url: "/year/2022/info/inclusion-and-diversity/viskids-child-care-grants"
+                    url: "/year/2023/info/inclusion-and-diversity/viskids-child-care-grants"
   #                 - text: "VISKids"
   #                   description: "Childcare and activities open to everyone"
-  #                   url: "/year/2022/info/inclusion-and-diversity/viskids-event"
+  #                   url: "/year/2023/info/inclusion-and-diversity/viskids-event"
 
   - dropdown: "Contribute"
     display: true
     sections:
       - subsections:
           - heading: "Call for Participation"
-#             heading_url: "/year/2022/info/call-participation/call-for-participation"
+#             heading_url: "/year/2023/info/call-participation/call-for-participation"
 #             description: "Submit your novel research contributions and innovative applications"
             columns:
               - heading: "Submit Your Work"
                 links:
                   - text: "Papers"
-                    url: "/year/2022/info/call-participation/call-for-participation"
+                    url: "/year/2023/info/call-participation/call-for-participation"
                   - text: "Short Papers"
-                    url: "/year/2022/info/call-participation/shortpapers"
+                    url: "/year/2023/info/call-participation/shortpapers"
                   - text: "Posters"
-                    url: "/year/2022/info/call-participation/posters"
+                    url: "/year/2023/info/call-participation/posters"
                   - text: "Tutorials"
-                    url: "/year/2022/info/call-participation/tutorials"
+                    url: "/year/2023/info/call-participation/tutorials"
                   - text: "Workshops"
-                    url: "/year/2022/info/call-participation/workshops"
+                    url: "/year/2023/info/call-participation/workshops"
                   - text: "Panels"
-                    url: "/year/2022/info/call-participation/panels"
+                    url: "/year/2023/info/call-participation/panels"
                   - text: "Doctoral Colloquium"
-                    url: "/year/2022/info/call-participation/doctoral-colloquium"
+                    url: "/year/2023/info/call-participation/doctoral-colloquium"
                   - text: "Application Spotlights"
-                    url: "/year/2022/info/call-participation/application-spotlights"
+                    url: "/year/2023/info/call-participation/application-spotlights"
               - heading: "Info for Contributors"
                 links:
                    - text: "Area Model for VIS"
-                     url: "/year/2022/info/call-participation/area-model"
+                     url: "/year/2023/info/call-participation/area-model"
 
                    - text: "Paper Submission Guidelines"
-                     url: "/year/2022/info/call-participation/paper-submission-guidelines"
+                     url: "/year/2023/info/call-participation/paper-submission-guidelines"
                    - text: "Partnerships"
-                     url: "/year/2022/info/call-participation/partnerships"
+                     url: "/year/2023/info/call-participation/partnerships"
                    - text: "Review Instructions"
-                     url: "/year/2022/info/call-participation/review-instructions"
+                     url: "/year/2023/info/call-participation/review-instructions"
                    - text: "Submission Keywords"
-                     url: "/year/2022/info/call-participation/paper-keywords"
+                     url: "/year/2023/info/call-participation/paper-keywords"
                    - text: "Accessibile PDFs"
-                     url: "/year/2022/info/call-participation/make-pdf-accessible"
+                     url: "/year/2023/info/call-participation/make-pdf-accessible"
                    - text: "Open Practices"
-                     url: "/year/2022/info/open-practices/open-practices"
+                     url: "/year/2023/info/open-practices/open-practices"
           - heading: "Participating in hybrid"
             columns:
               - links:
                    - text: "Final Information for Paper Authors"
-                     url: "/year/2022/info/presenter-information/final-information-paper-authors"
+                     url: "/year/2023/info/presenter-information/final-information-paper-authors"
                      #is_new: true
                    - text: "Video Previews"
-                     url: "/year/2022/info/presenter-information/fast-forward-and-video-previews"
+                     url: "/year/2023/info/presenter-information/fast-forward-and-video-previews"
                      #is_new: true
                    - text: "Recording your Talk"
-                     url: "/year/2022/info/presenter-information/talk-recording-guide"
+                     url: "/year/2023/info/presenter-information/talk-recording-guide"
                      #is_new: true
                    - text: "Guidance for Virtual Events"
-                     url: "/year/2022/info/presenter-information/guidance-for-associated-events"
+                     url: "/year/2023/info/presenter-information/guidance-for-associated-events"
 #                   - text: "Presenting at the Virtual Conference"
-#                     url: "/year/2022/info/presenter-information/presenting-virtually"
+#                     url: "/year/2023/info/presenter-information/presenting-virtually"
 #                     is_new: true
 
       - subsections:
@@ -168,10 +168,10 @@ menu:
               - links:
 #                   - text: "VIS 2021 Satellite Program"
 #                     description: "Volunteer to host a satellite event"
-#                     url: "/year/2022/info/call-participation/satellite"
+#                     url: "/year/2023/info/call-participation/satellite"
                   - text: "Organize a meetup"
                     description: "Meet people for discussion and shared experiences"
-                    url: "/year/2022/info/call-participation/meetups"
+                    url: "/year/2023/info/call-participation/meetups"
                   - text: "Become a student volunteer"
                     description: "Support the conference and build your research network"
                     url: "http://www.vissv.org"
@@ -182,15 +182,15 @@ menu:
                     is_external: true
                   - text: "Elections"
                     description: "Register to vote and nominate/review candidates for the VSC/VEC"
-                    url: "/year/2022/info/elections"
+                    url: "/year/2023/info/elections"
                   - text: "Code of Conduct"
-                    url: "/year/2022/info/inclusion-and-diversity/code-of-conduct"
+                    url: "/year/2023/info/inclusion-and-diversity/code-of-conduct"
 #                     is_new: true
 #                 # - text: "Become an organizer"
 #                 #   description: "TK TK TK Join the committees and help organize VIS"
 #                 #   url: "https://www.google.com"
           - heading: "Supporters"
-            heading_url: "/year/2022/info/exhibition/supporters-and-exhibition"
+            heading_url: "/year/2023/info/exhibition/supporters-and-exhibition"
             description: "Your support makes this conference possible!"
 
   - dropdown: "Program"
@@ -198,61 +198,61 @@ menu:
     sections:
       - subsections:
           - heading: "Vis Program"
-            heading_url: "/year/2022/info/week-at-a-glance"
+            heading_url: "/year/2023/info/week-at-a-glance"
             description: "Click to see an overview of the conference program"
             columns:
               - links:
                   - text: "Papers"
                     description: "The latest research in theory, methods, and applications of visualization"
-                    url: "/year/2022/info/papers-sessions"
+                    url: "/year/2023/info/papers-sessions"
                   - text: "Posters"
                     description: "Nascent and recent work"
-                    url: "/year/2022/info/posters"
+                    url: "/year/2023/info/posters"
                   - text: "Tutorials"
                     description: "Learn new tools and application domains"
-                    url: "/year/2022/info/tutorials"
+                    url: "/year/2023/info/tutorials"
                     #is_new: true
                   - text: "Workshops"
                     description: "Informal setting to discuss emerging topics"
-                    url: "/year/2022/info/workshops"
+                    url: "/year/2023/info/workshops"
                     #is_new: true
                   - text: "Panels"
                     description: "Discuss important and controversial issues"
-                    url: "/year/2022/info/panels"
+                    url: "/year/2023/info/panels"
                     #is_new: true
                   - text: "Application Spotlights"
                     description: "Showcase practical, real-world applications of visualization"
-                    url: "/year/2022/info/spotlights"
+                    url: "/year/2023/info/spotlights"
                     #is_new: true
       - subsections:
           - heading: "Invited Speakers"
-#            heading_url: "/year/2022/info/week-at-a-glance"
+#            heading_url: "/year/2023/info/week-at-a-glance"
             description: "Keynote and Capstone Speakers"
             columns:
               - links:
                   - text: "Keynote"
                     description: "Dr. Marti Hearst, UC Berkeley"
-                    url: "/year/2022/info/keynote-speaker"
+                    url: "/year/2023/info/keynote-speaker"
                     is_new: true
                   - text: "Capstone"
                     description: "Dr. Kerry Magruder, University of Oklahoma"
-                    url: "/year/2022/info/capstone-speaker"
+                    url: "/year/2023/info/capstone-speaker"
                     is_new: true
           - heading: "Awards and Recognitions"
             description: "Recognize outstanding work by the VIS community"
             columns:
              - links:
                - text: "Best Paper Awards"
-                 url: "/year/2022/info/awards/best-paper-awards"
+                 url: "/year/2023/info/awards/best-paper-awards"
                  is_new: true
                # - text: "Best Poster Awards"
-               #   url: "/year/2022/info/awards/best-poster-awards"
+               #   url: "/year/2023/info/awards/best-poster-awards"
   # - text: "Service Awards"
   #   url: "https://www.google.com"
   #            - text: "VGTC VIS Awards"
   #   url: "https://www.google.com"
                - text: "Test of Time Awards"
-                 url: "/year/2022/info/awards/test-of-time-awards"
+                 url: "/year/2023/info/awards/test-of-time-awards"
                  is_new: true
       - subsections:
           - heading: "Plenary Sessions"
@@ -260,13 +260,13 @@ menu:
             columns:
              - links:
                - text: "VIS Townhall"
-                 url: "/year/2022/info/townhall"
+                 url: "/year/2023/info/townhall"
                  is_new: true
                - text: "VIS Supporters Forum"
-                 url: "/year/2022/info/supporters-sessions"
+                 url: "/year/2023/info/supporters-sessions"
                  is_new: true
                - text: "Ask Me Anything Sessions"
-                 url: "/year/2022/info/ask-me-anything"
+                 url: "/year/2023/info/ask-me-anything"
                  is_new: true
 
 
@@ -285,7 +285,7 @@ menu:
                     is_external: true
                   - text: "VisInPractice"
                     description: "Invited talks by visualization practitioners"
-                    url: "/year/2022/info/visinpractice"
+                    url: "/year/2023/info/visinpractice"
                   - text: "LDAV Symposium"
                     description: "Big Data Analysis and Visualization"
                     url: "https://ldav.org/"
@@ -300,10 +300,10 @@ menu:
                     is_external: true
                   - text: "IEEE VIS Workshops"
                     description: "Informal settings to discuss emerging topics"
-                    url: "/year/2022/info/workshops"
+                    url: "/year/2023/info/workshops"
                   - text: "University of Oklahoma Open House"
                     description: "Tour OU facilities, registration required"
-                    url: "/year/2022/assets/ou-open-house-invite.pdf"
+                    url: "/year/2023/assets/ou-open-house-invite.pdf"
                     is_new: true
       - subsections:
           - heading: "Competitions"
@@ -321,17 +321,17 @@ menu:
                     is_external: true
 
           - heading: "Community"
-            heading_url: "/year/2022/info/call-participation/community"
+            heading_url: "/year/2023/info/call-participation/community"
             description: "Explore social and topic-based community groups"
             columns:
               - heading: "Connect"
                 links:
 #                  - text: "Vis Buddies"
-#                    url: "/year/2022/info/meetups#vis-newcomers"
+#                    url: "/year/2023/info/meetups#vis-newcomers"
                   - text: "Job Postings"
-                    url: "/year/2022/info/jobs"
+                    url: "/year/2023/info/jobs"
                   - text: "Meetups"
-                    url: "/year/2022/info/meetups"
+                    url: "/year/2023/info/meetups"
 #              - heading: "Social Groups"
 #                links:
 #                  - text: "Velo Club de VIs"
@@ -420,7 +420,7 @@ menu:
             columns:
               - links:
                   - text: "Historical Best Paper Awards"
-                    url: "/year/2022/info/history/best-paper-award"
+                    url: "/year/2023/info/history/best-paper-award"
                   - text: "Visualization Technical Awards"
                     url: "https://tc.computer.org/vgtc/awards/visualization-technical-awards/"
                   - text: "VIS Doctoral Dissertation Awards"
@@ -431,15 +431,15 @@ menu:
             columns:
               - links:
                   - text: "VIS 2022 Organizing Committee"
-                    url: "/year/2022/info/committees/conference-committee"
+                    url: "/year/2023/info/committees/conference-committee"
                   - text: "Program Committees"
-                    url: "/year/2022/info/committees/program-committees"
+                    url: "/year/2023/info/committees/program-committees"
                   - text: "VIS Steering Committee"
-                    url: "/year/2022/info/committees/steering-committees"
+                    url: "/year/2023/info/committees/steering-committees"
                   - text: "VIS Executive Committee"
-                    url: "/year/2022/info/committees/vis-executive-committee"
+                    url: "/year/2023/info/committees/vis-executive-committee"
           #         - text: "Area Curation Committee"
-          #           url: "/year/2022/info/committees/area-committee"
+          #           url: "/year/2023/info/committees/area-committee"
           #         # - text: "Restructuring and reVISe"
           #         #   url:  "/governance/restructuring"
           - heading: "Governance Documents"
@@ -452,7 +452,7 @@ menu:
                   - text: "VGTC Award Criteria"
                     url: "https://tc.computer.org/vgtc/award-criteria/"
           - heading: "Code of Conduct"
-            heading_url: "/year/2022/info/inclusion-and-diversity/code-of-conduct"
+            heading_url: "/year/2023/info/inclusion-and-diversity/code-of-conduct"
 
 
       - subsections:
@@ -465,10 +465,10 @@ menu:
       #               url: "/year/2021/blog/vis-22-in-oklahoma"
                   - text: "2023 in Melbourne, Victoria, Australia"
                     description: ""
-                    url: "/year/2022/blog/vis-22-in-oklahoma"
+                    url: "/year/2023/blog/vis-22-in-oklahoma"
                   - text: "2024 in Tampa Bay, Florida, USA"
                     description: ""
-                    url: "/year/2022/blog/vis-24-in-tampa-bay"
+                    url: "/year/2023/blog/vis-24-in-tampa-bay"
                   - text: "How to Host IEEE VIS"
                     description: "Guidelines to bid for a future location of IEEE VIS"
                     url: "/governance/bids"
@@ -487,4 +487,4 @@ menu:
             columns:
               - links:
                   - text: "Updating the website content"
-                    url: "/year/2022/info/contributing"
+                    url: "/year/2023/info/contributing"
