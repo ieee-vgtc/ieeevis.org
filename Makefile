@@ -7,6 +7,8 @@ STAGING_BRANCH=master
 NEW_BRANCH=development
 2022_BRANCH=vis2022
 2022_RELEASE=vis2022-release
+2023_BRANCH=vis2023
+2023_RELEASE=vis2023-release
 
 all: site
 
@@ -21,10 +23,10 @@ newsite:
 	./scripts/fix_file_extensions.sh
 	./scripts/buildyear.sh
 
-new2022:
+new2023:
 	npm install
 	npm run-script build
-	bundle exec jekyll build -d ./_site/year/2022
+	bundle exec jekyll build -d ./_site/year/2023
 	./scripts/fix_file_extensions.sh
 
 production: site
@@ -37,9 +39,9 @@ stagingnew: newsite
 	cd _site && ../scripts/sync_with_s3_boto.py $(NEW_BRANCH) $(STAGING_BUCKET)
 
 # don't want to index staging...
-staging2022: new2022
+staging2023: new2023
 	cp -f robots.txt -t _site/
-	cd _site && ../scripts/sync_with_s3_boto.py $(2022_BRANCH) $(STAGING_BUCKET)
+	cd _site && ../scripts/sync_with_s3_boto.py $(2023_BRANCH) $(STAGING_BUCKET)
 
 productionnew: newsite
 	cd _site && ../scripts/sync_with_s3_boto.py $(NEW_BRANCH) $(PRODUCTION_BUCKET)
