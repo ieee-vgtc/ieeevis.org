@@ -2,12 +2,13 @@
 
     <div class="container flex-parent items-center">
         <div class="title">
-            <img src="{{ include.image-src | relative_url }}" alt="{{ include.image-alt }}" class="logo--main" style="width:350px">
+            <img src="{{ include.image-src | relative_url }}" alt="{{ include.image-alt }}" class="logo--main" style="width:600px">
             <p class="font-display text-primary text-2xl md:text-4xl font-medium mt-10 mr-20 md:mt-12">{{ include.description }}</p>
         </div>
-        <div class="carousel-container">
-            {% include carousel.html %}
-        </div>
+       <!-- <div class="carousel-container">
+           {% include carousel.html %}
+           
+        </div>  -->
     </div>
 
     <div class="event-card md:w-2/3 w-full bg-secondary-700 absolute md:p-4 p-0 flex md:flex-row flex-col align-middle ">

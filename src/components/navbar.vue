@@ -1,7 +1,7 @@
 <template>
 <div>
     <nav class="bg-accent">
-        <span class="text-lg text-blue-700">VIS 2019</span>
+        <span class="text-lg text-red-700">VIS 2019</span>
         <span>
             <i class="material-icons align-middle">menu</i> Menu
         </span>

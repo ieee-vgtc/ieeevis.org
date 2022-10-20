@@ -7,7 +7,11 @@ columns:
   - section:
     - heading: "Past years archive"
       display_style: "inline"
-      links:
+      links:      
+      
+        - text: "2022"
+          url: "http://ieeevis.org/year/2022/welcome"
+
         - text: "2021"
           url: "http://ieeevis.org/year/2021/welcome"
 
