@@ -25,7 +25,7 @@ Questions? Contact the Community Committee (Lane Harrison, Alfie Abdul-Rahman, Q
 
 ### Roux Institute, Northeastern University
 
-**[Research Scientist - Data Visualization & Visual Analytics](https://northeastern.wd1.myworkdayjobs.com/en-US/careers/job/Portland-ME/Research-Scientist---Data-Visualization---Visual-Analytics_R104518)** at Roux Institute, Northeastern University (Portland, Maine, USA), start date: 2023-01-01
+[**Research Scientist - Data Visualization & Visual Analytics**](https://northeastern.wd1.myworkdayjobs.com/en-US/careers/job/Portland-ME/Research-Scientist---Data-Visualization---Visual-Analytics_R104518) at Roux Institute, Northeastern University (Portland, Maine, USA), start date: 2023-01-01
 
 
 
@@ -120,7 +120,7 @@ Start time flexible? No
 
 Start time flexible? No 
 
-**Postdoctoral Researcher Positions in Visual Analytics and Explainable/ Trustable / Scientific AI** at the University of Oklahoma (Norman, Oklahoma, USA), start date: 2023-01-01
+[**Postdoctoral Researcher Positions in Visual Analytics and Explainable/ Trustable / Scientific AI**] at the University of Oklahoma (Norman, Oklahoma, USA), start date: 2023-01-01
 
 Start time flexible? Yes
 
@@ -263,6 +263,17 @@ Attend job fair meetup? Yes
 Contact: Nils Gehlenborg, nils@hms.harvard.edu
 
 
+### York University
+
+[**Postdoctoral Researcher**](https://www.dropbox.com/s/orw00e4xbd46abw/postdoc_ad.pdf?dl=0) at York University (Toronto, Canada), start date: 2023-01-01
+ 
+Start time flexible? Yes  
+
+Attend job fair meetup? No
+
+Contact: Enamul Hoque Prince, enamulh@yorku.ca
+
+
 ## Government
 ### Lawrence Berkeley National Laboratory
 
@@ -299,6 +310,9 @@ Start time flexible? Yes
 Attend job fair meetup? Yes
 
 Contact: mark.subbarao@nasa.gov
+
+
+
 
 ## Industry
 ### Ozette
@@ -389,18 +403,35 @@ Contact: seanm@lucidchart.com
 [**Data Scientist II**](https://jobs.td.com/en/job/16879169/data-scientist-ii-remote-hybrid-mount-laurel-nj/) at TD Bank (Remote / Hybrid (Mount Laurel, NJ)), start date: 2022-11-14
 
 Start time flexible? Yes
+
 Attend job fair meetup? Yes
+
 Contact: Kyle Hall, hallkw@ucalgary.ca
 
 
 
 ### Suncor
 
-**UI/UX Designer** at Suncor start date: 2022-11-15
+**UI/UX Designer** at Suncor, start date: 2022-11-15
+
+Please have a design portfolio for review and contact Alana Schoepp at: https://www.linkedin.com/in/alana-schoepp/
 
 Start time flexible? Yes
+
 Attend job fair meetup? No, please contact directly
+
 Contact: Alana Schoepp, alschoepp@suncor.com
+
+
+### Zana Vosough
+
+[**Senior UI Engineer (Data Visualization)**](https://jobs.paloaltonetworks.com/en/jobs/job/senior-ui-engineer-data-visualization-santa-clara-9772072f-f0f2-4393-a412-6b85ec7a0038/) at Zana Vosough (Santa Clara, CA, USA), start date: 2022-11-01
+
+[**UI Engineer**](https://jobs.smartrecruiters.com/PaloAltoNetworks2/743999846671887-ui-engineer?trid=463ac537-35c8-4256-8fe4-47ea285de0a6) at Zana Vosough (Santa Clara, CA, USA), start date: 2022-11-01
+
+Start time flexible? Yes
+Attend job fair meetup? No
+Contact: zvosough@paloaltonetworks.com
 
 
 
