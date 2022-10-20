@@ -27,7 +27,7 @@ registration:
 blog:
   display: true
   text: "Blog"
-  url: "/year/2023/blog/index"
+  url: "/year/2023/blog/index.html"
 
 menu:
   - dropdown: "Attend"
@@ -239,7 +239,7 @@ menu:
             columns:
              - links:
                - text: "Best Paper Awards"
-                 url: "/year/2023/info/awards/best-paper-awards"
+                 url: "/year/2023/info/awards/best-paper-awards.html"
                  is_new: true
                # - text: "Best Poster Awards"
                #   url: "/year/2023/info/awards/best-poster-awards"
@@ -440,11 +440,11 @@ menu:
             columns:
               - links:
                   - text: "IEEE Governance Structure"
-                    url: "/governance/IEEE-governance-structure"
+                    url: "/governance/IEEE-governance-structure.html"
                   - text: "Best Paper Process"
-                    url: "/governance/best-paper-process"
+                    url: "/governance/best-paper-process.html"
           - heading: "Code of Conduct"
-            heading_url: "/year/2023/info/inclusion-and-diversity/code-of-conduct"
+            heading_url: "/year/2023/info/inclusion-and-diversity/code-of-conduct.html"
 
 
       - subsections:
@@ -460,12 +460,12 @@ menu:
                   #   url: "/year/2023/blog/vis-22-in-oklahoma"
                   - text: "2024 in Tampa Bay, Florida, USA"
                     description: ""
-                    url: "/year/2023/blog/vis-24-in-tampa-bay"
+                    url: "/year/2023/blog/vis-24-in-tampa-bay.html"
                   - text: "How to Host IEEE VIS"
                     description: "Guidelines to bid for a future location of IEEE VIS"
-                    url: "/governance/bids"
+                    url: "/governance/bids.html"
                   - text: "Being General Chair of IEEE VIS"
-                    url: "/governance/generalChairs"
+                    url: "/governance/generalChairs.html"
       #             - text: "2021 VIS Area Curation Committee Executive Summary"
       #               url: "/governance/acc-summary"
           # - heading: "Hosting IEEE Vis"
@@ -479,4 +479,4 @@ menu:
             columns:
               - links:
                   - text: "Updating the website content"
-                    url: "/year/2023/info/contributing"
+                    url: "/year/2023/info/contributing.html"
