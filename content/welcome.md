@@ -1,20 +1,32 @@
 ---
 layout: homepage
-title: "Welcome to IEEE VIS 2022!"
+title: "Welcome to IEEE VIS 2023!"
 permalink: /welcome
 contact: general_chair@ieeevis.org
 ---
 
-VIS 2022 will be the year’s premier forum for advances in theory, methods, and applications of visualization and visual analytics. The conference will convene an international community of researchers and practitioners from universities, government, and industry to exchange recent findings on the design and use of visualization tools.
 
-We invite you to share your research, insights, and enthusiasm at IEEE VIS. The 2022 program will also feature a diverse range of symposia and co-located events, including Visualization in Practice, Visualization in Data Science, the VIS Arts Program, and data analysis Challenge competitions, as well as an Application Spotlights track.
 
-After two years of purely virtual events, we plan for an in-person part of the conference and express this by the motto: “VIS ’22 is about the people you meet”
+G'day!
 
-***VIS 2022 General Chairs***<br/>
-[Danielle Szafir](https://danielleszafir.com/), University of North Carolina-Chapel Hill<br/>
-[David Ebert](https://www.ou.edu/coe/cs/people/ebert), University of Oklahoma<br/>
-[Hendrik Strobelt](http://hendrik.strobelt.com), IBM Research / MIT-IBM Watson AI Lab<br/>
+IEEE VIS is headed to Australia in 2023—the first time VIS is being held in the Southern Hemisphere. 
+
+The face-to-face conference will be held at the Melbourne Convention and Exhibition Centre, on the banks of the Birrarung (Yarra River), in the heart of the City of Melbourne. We acknowledge Traditional Owners of Narrm, the Boon Wurrung and Wurundjeri Woi Wurrung people of the Kulin nation, on whose land VIS 2023 will be held. We pay our respects to their Elders past, present and emerging.
+
+VIS 2023 will be the year's premier forum for advances in theory, methods, and applications of visualization and visual analytics. The conference will convene an international community of researchers and practitioners from universities, government, and industry to exchange recent findings on the design and use of visualization tools.
+
+We invite you to share your research, insights, and enthusiasm at IEEE VIS. As usual, the 2023 program will also feature a diverse range of symposia and co-located events.
+
+We’re looking forward to seeing you in Melbourne.
+
+
+
+
+***VIS 2023 General Chairs***<br/>
+[Tim Dwyer](https://ialab.it.monash.edu/~dwyer/), Monash University<br/>
+[Sarah Goodwin](https://research.monash.edu/en/persons/sarah-goodwin/), Monash University<br/>
+[Michael Wybrow](https://research.monash.edu/en/persons/michael-wybrow), Monash University<br/>
+
 
 ----
 
