@@ -418,7 +418,7 @@ menu:
             columns:
               - links:
                   - text: "Historical Best Paper Awards"
-                    url: "/year/2023/info/history/best-paper-award"
+                    url: "/year/2022/info/history/best-paper-award"
 
       - subsections:
           - heading: "Committees"
