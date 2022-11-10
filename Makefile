@@ -5,8 +5,6 @@ NEW_BUCKET=redesign.ieeevis.org
 PRODUCTION_BRANCH=production
 STAGING_BRANCH=master
 NEW_BRANCH=development
-2022_BRANCH=vis2022
-2022_RELEASE=vis2022-release
 2023_BRANCH=vis2023
 2023_RELEASE=vis2023-release
 
@@ -46,11 +44,11 @@ staging2023: new2023
 productionnew: newsite
 	cd _site && ../scripts/sync_with_s3_boto.py $(NEW_BRANCH) $(PRODUCTION_BUCKET)
 
-production2022: new2022
-	cd _site && ../scripts/sync_with_s3_boto.py $(2022_BRANCH) $(PRODUCTION_BUCKET)
+production2023: new2023
+	cd _site && ../scripts/sync_with_s3_boto.py $(2023_BRANCH) $(PRODUCTION_BUCKET)
 
-release2022: new2022
-	cd _site && ../scripts/sync_with_s3_boto.py $(2022_RELEASE) $(PRODUCTION_BUCKET)
+release2023: new2023
+	cd _site && ../scripts/sync_with_s3_boto.py $(2023_RELEASE) $(PRODUCTION_BUCKET)
 
 new: newsite
 	cd _site && ../scripts/sync_with_s3_boto.py $(NEW_BRANCH) $(NEW_BUCKET)
