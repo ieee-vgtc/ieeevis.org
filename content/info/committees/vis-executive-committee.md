@@ -12,14 +12,12 @@ The current VEC members are:
 | **Name** | **Affiliation** |<br>
 | Anastasia Bezerianos | *LRI-Université Paris-Saclay* | <br>
 | Rita Borgo | *King's College London* | <br>
-| Sheelagh Carpendale | *Simon Fraser University* |<br>
 | Gautam Chaudhary | *Alcon* |<br>
 | Min Chen | *Oxford* |<br>
 | Chris Collins | *Ontario Tech University* |<br>
-| Bongshin Lee | *Microsoft Research* |<br>
 | Ross Maciejewski - Co-Chair | *Arizona State University* |<br>
 | Elisabeta Marai | *University of Illinois at Chicago* |<br>
-| Klaus Mueller | *Stony Brook University* |<br>
+| Matthew Brehmer | *Tableau* |<br>
 | Holger Theisel - Co-Chair| *University of Magdeburg* |<br>
 
 ## VIS Executive and Steering Committee Elections
