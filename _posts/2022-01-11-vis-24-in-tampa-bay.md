@@ -11,5 +11,5 @@ permalink: /blog/vis-24-in-tampa-bay
 
 Hello VIS Community,
 
-The VEC is pleased to announce that VIS 2024 will be held in Tampa Bay, FL, USA.
+The VEC is pleased to announce that VIS 2024 will be held in Tampa Bay, FL, USA from 13.10.2024 - 18.10.2024.
 Paul Rosen (University of South Florida), Kristi Potter (National Renewable Energy Laboratory), and Remco Chang (Tufts University) will co-chair the conference. 
