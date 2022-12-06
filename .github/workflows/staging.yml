@@ -37,7 +37,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r scripts/requirements.txt
     - name: Install Ruby 2.6.x
-      uses: actions/setup-ruby@v1
+      uses: ruby/setup-ruby@v1
       with:
         ruby-version: '2.6.x'
     - name: Install ruby dependencies
