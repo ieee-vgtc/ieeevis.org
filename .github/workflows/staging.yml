@@ -42,7 +42,7 @@ jobs:
         ruby-version: '2.6'
     - name: Install ruby dependencies
       run: |
-        gem install rdoc 
+        gem install rdoc --pre
         gem install bundler
         bundle
     - name: Set up AWS credentials (+ set default user)
