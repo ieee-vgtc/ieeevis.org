@@ -36,7 +36,9 @@ Feel free to contact us at application_spotlights@ieeevis.org if you have any qu
 
 ## IMPORTANT DATES
 
+Dates TBD
 
+<!-- 
 | Date | Activity |
 |------|----------|
 | ~~May 6, 2022~~ **extended**: June 15, 2022 | Proposal Submission |
@@ -44,7 +46,7 @@ Feel free to contact us at application_spotlights@ieeevis.org if you have any qu
 | ~~May 31, 2022~~ **extended**: June 30, 2022  | Final Submissions due |
 | t.b.d. | Announcement of Spotlights on ieeevis.org |
 
-All deadlines are at **5:00pm Pacific Time (PDT)**.
+All deadlines are at **5:00pm Pacific Time (PDT)**. -->
 
 ## Chairs
 

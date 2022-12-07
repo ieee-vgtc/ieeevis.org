@@ -40,7 +40,9 @@ Submissions should be emailed to
 ### When to submit?
 
 
+Dates TBD
 
+<!-- 
 Submissions will be considered subject to time and technology resources availability. Early submissions will be given a priority.
 
 | Early  Submission | **From August 19, 2022** | 
@@ -52,7 +54,7 @@ Rolling submission: Submissions after the early submission deadline will be cons
 
 
 | Rolling Submission | **From August 19, 2022 to October 15, 2022** | 
-| Notification | **Within a few days** |
+| Notification | **Within a few days** | -->
 
 
 

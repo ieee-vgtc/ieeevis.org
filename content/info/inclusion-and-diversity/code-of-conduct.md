@@ -16,16 +16,16 @@ IEEE VIS reserves the right to take appropriate action to foster an inclusive an
 
 Please contact [ombuds@ieeevis.org](mailto:ombuds@ieeevis.org) if you experience, observe, or have knowledge of behavior in violation of the Code of Conduct.
 
-The ombuds team for VIS 2022 is: 
+The ombuds team for VIS 2023 is: 
 
 <table style="text-align: center;">
   <tbody>
     <tr>
-      <td style="padding: 3px; width: 20%;"><img src="/year/2022/assets/ombuds-anastasia.jpeg" alt="ombuds-anastasia" style="min-width: 100px"/></td>
-      <td style="padding: 3px; width: 20%;"><img src="/year/2022/assets/ombuds-sheelagh.jpeg" alt="ombuds-sheelagh" style="min-width: 100px"/></td>
-      <td style="padding: 3px; width: 20%;"><img src="/year/2022/assets/ombuds-gautam.jpeg" alt="ombuds-gautam" style="min-width: 100px"/></td>
-      <td style="padding: 3px; width: 20%;"><img src="/year/2022/assets/ombuds-chris.jpeg" alt="ombuds-chris" style="min-width: 100px"/></td>
-      <td style="padding: 3px; width: 20%;"><img src="/year/2022/assets/ombuds-kristi.jpeg" alt="ombuds-kristi" style="min-width: 100px"/></td>
+      <td style="padding: 3px; width: 20%;"><img src="/year/2023/assets/ombuds-anastasia.jpeg" alt="ombuds-anastasia" style="min-width: 100px"/></td>
+      <td style="padding: 3px; width: 20%;"><img src="/year/2023/assets/ombuds-sheelagh.jpeg" alt="ombuds-sheelagh" style="min-width: 100px"/></td>
+      <td style="padding: 3px; width: 20%;"><img src="/year/2023/assets/ombuds-gautam.jpeg" alt="ombuds-gautam" style="min-width: 100px"/></td>
+      <td style="padding: 3px; width: 20%;"><img src="/year/2023/assets/ombuds-chris.jpeg" alt="ombuds-chris" style="min-width: 100px"/></td>
+      <td style="padding: 3px; width: 20%;"><img src="/year/2023/assets/ombuds-kristi.jpeg" alt="ombuds-kristi" style="min-width: 100px"/></td>
     </tr>
     <tr>
       <td style="padding: 3px; width: 20%;">Anastasia Bezerianos</td>

@@ -98,7 +98,7 @@ menu:
   #                   url: "/year/2023/info/inclusion-and-diversity/viskids-event"
 
   - dropdown: "Contribute"
-    display: false
+    display: true
     sections:
       - subsections:
           - heading: "Call for Participation"
@@ -109,20 +109,20 @@ menu:
                 links:
                   - text: "Papers"
                     url: "/year/2023/info/call-participation/call-for-participation"
-                  - text: "Short Papers"
-                    url: "/year/2023/info/call-participation/shortpapers"
-                  - text: "Posters"
-                    url: "/year/2023/info/call-participation/posters"
-                  - text: "Tutorials"
-                    url: "/year/2023/info/call-participation/tutorials"
-                  - text: "Workshops"
-                    url: "/year/2023/info/call-participation/workshops"
-                  - text: "Panels"
-                    url: "/year/2023/info/call-participation/panels"
-                  - text: "Doctoral Colloquium"
-                    url: "/year/2023/info/call-participation/doctoral-colloquium"
-                  - text: "Application Spotlights"
-                    url: "/year/2023/info/call-participation/application-spotlights"
+                  # - text: "Short Papers"
+                  #   url: "/year/2023/info/call-participation/shortpapers"
+                  # - text: "Posters"
+                  #   url: "/year/2023/info/call-participation/posters"
+                  # - text: "Tutorials"
+                  #   url: "/year/2023/info/call-participation/tutorials"
+                  # - text: "Workshops"
+                  #   url: "/year/2023/info/call-participation/workshops"
+                  # - text: "Panels"
+                  #   url: "/year/2023/info/call-participation/panels"
+                  # - text: "Doctoral Colloquium"
+                  #   url: "/year/2023/info/call-participation/doctoral-colloquium"
+                  # - text: "Application Spotlights"
+                  #   url: "/year/2023/info/call-participation/application-spotlights"
               - heading: "Info for Contributors"
                 links:
                    - text: "Area Model for VIS"
@@ -130,64 +130,64 @@ menu:
 
                    - text: "Paper Submission Guidelines"
                      url: "/year/2023/info/call-participation/paper-submission-guidelines"
-                   - text: "Partnerships"
-                     url: "/year/2023/info/call-participation/partnerships"
+                   # - text: "Partnerships"
+                   #   url: "/year/2023/info/call-participation/partnerships"
                    - text: "Review Instructions"
                      url: "/year/2023/info/call-participation/review-instructions"
                    - text: "Submission Keywords"
                      url: "/year/2023/info/call-participation/paper-keywords"
-                   - text: "Accessibile PDFs"
-                     url: "/year/2023/info/call-participation/make-pdf-accessible"
+                   # - text: "Accessibile PDFs"
+                   #   url: "/year/2023/info/call-participation/make-pdf-accessible"
                    - text: "Open Practices"
                      url: "/year/2023/info/open-practices/open-practices"
-          - heading: "Participating in hybrid"
-            columns:
-              - links:
-                   - text: "Final Information for Paper Authors"
-                     url: "/year/2023/info/presenter-information/final-information-paper-authors"
-                     #is_new: true
-                   - text: "Video Previews"
-                     url: "/year/2023/info/presenter-information/fast-forward-and-video-previews"
-                     #is_new: true
-                   - text: "Recording your Talk"
-                     url: "/year/2023/info/presenter-information/talk-recording-guide"
-                     #is_new: true
-                   - text: "Guidance for Virtual Events"
-                     url: "/year/2023/info/presenter-information/guidance-for-associated-events"
-#                   - text: "Presenting at the Virtual Conference"
-#                     url: "/year/2023/info/presenter-information/presenting-virtually"
-#                     is_new: true
+#           - heading: "Participating in hybrid"
+#             columns:
+#               - links:
+#                    - text: "Final Information for Paper Authors"
+#                      url: "/year/2023/info/presenter-information/final-information-paper-authors"
+#                      #is_new: true
+#                    - text: "Video Previews"
+#                      url: "/year/2023/info/presenter-information/fast-forward-and-video-previews"
+#                      #is_new: true
+#                    - text: "Recording your Talk"
+#                      url: "/year/2023/info/presenter-information/talk-recording-guide"
+#                      #is_new: true
+#                    - text: "Guidance for Virtual Events"
+#                      url: "/year/2023/info/presenter-information/guidance-for-associated-events"
+# #                   - text: "Presenting at the Virtual Conference"
+# #                     url: "/year/2023/info/presenter-information/presenting-virtually"
+# #                     is_new: true
 
-      - subsections:
-          - heading: "Get Involved"
-            columns:
-              - links:
-#                   - text: "VIS 2021 Satellite Program"
-#                     description: "Volunteer to host a satellite event"
-#                     url: "/year/2023/info/call-participation/satellite"
-                  - text: "Organize a meetup"
-                    description: "Meet people for discussion and shared experiences"
-                    url: "/year/2023/info/call-participation/meetups"
-                  - text: "Become a student volunteer"
-                    description: "Support the conference and build your research network"
-                    url: "http://www.vissv.org"
-                    is_external: true
-                  - text: "Become a peer reviewer"
-                    description: "Volunteer to review submissions"
-                    url: "https://new.precisionconference.com/review_volunteering"
-                    is_external: true
-                  - text: "Elections"
-                    description: "Register to vote and nominate/review candidates for the VSC/VEC"
-                    url: "/year/2023/info/elections"
-                  - text: "Code of Conduct"
-                    url: "/year/2023/info/inclusion-and-diversity/code-of-conduct"
-#                     is_new: true
-#                 # - text: "Become an organizer"
-#                 #   description: "TK TK TK Join the committees and help organize VIS"
-#                 #   url: "https://www.google.com"
-          - heading: "Supporters"
-            heading_url: "/year/2023/info/exhibition/supporters-and-exhibition"
-            description: "Your support makes this conference possible!"
+#       - subsections:
+#           - heading: "Get Involved"
+#             columns:
+#               - links:
+# #                   - text: "VIS 2021 Satellite Program"
+# #                     description: "Volunteer to host a satellite event"
+# #                     url: "/year/2023/info/call-participation/satellite"
+#                   - text: "Organize a meetup"
+#                     description: "Meet people for discussion and shared experiences"
+#                     url: "/year/2023/info/call-participation/meetups"
+#                   - text: "Become a student volunteer"
+#                     description: "Support the conference and build your research network"
+#                     url: "http://www.vissv.org"
+#                     is_external: true
+#                   - text: "Become a peer reviewer"
+#                     description: "Volunteer to review submissions"
+#                     url: "https://new.precisionconference.com/review_volunteering"
+#                     is_external: true
+#                   - text: "Elections"
+#                     description: "Register to vote and nominate/review candidates for the VSC/VEC"
+#                     url: "/year/2023/info/elections"
+#                   - text: "Code of Conduct"
+#                     url: "/year/2023/info/inclusion-and-diversity/code-of-conduct"
+# #                     is_new: true
+# #                 # - text: "Become an organizer"
+# #                 #   description: "TK TK TK Join the committees and help organize VIS"
+# #                 #   url: "https://www.google.com"
+#           - heading: "Supporters"
+#             heading_url: "/year/2023/info/exhibition/supporters-and-exhibition"
+#             description: "Your support makes this conference possible!"
 
   - dropdown: "Program"
     display: false
