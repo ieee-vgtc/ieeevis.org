@@ -74,28 +74,28 @@ menu:
                   is_new: true
 
           - heading: "Code of Conduct"
-            heading_url: "/year/2023/info/inclusion-and-diversity/code-of-conduct"
+            heading_url: "/year/2023/info/inclusion-and-diversity/code-of-conduct.html"
 
       - subsections:
           - heading: "Equality, Inclusion & Diversity"
-            heading_url: "/year/2023/info/inclusion-and-diversity/inclusivity"
+            heading_url: "/year/2023/info/inclusion-and-diversity/inclusivity.html"
             columns:
               - links:
                   - text: "Land Recognition"
                     description: "Recognition of the tribal land the conference takes place."
-                    url: "/year/2023/info/inclusion-and-diversity/land-recognition"
+                    url: "/year/2023/info/inclusion-and-diversity/land-recognition.html"
                   - text: "Inclusivity & Diversity Scholarship"
                     description: "Need-based scholarships for conference attendance"
-                    url: "/year/2023/info/inclusion-and-diversity/diversity-scholarship"
+                    url: "/year/2023/info/inclusion-and-diversity/diversity-scholarship.html"
                   - text: "Accessibility"
                     description: "Supporting access for all attendees"
-                    url: "/year/2023/info/accessibility/attend"
+                    url: "/year/2023/info/accessibility/attend.html"
                   - text: "VISKids Childcare Grants"
                     description: "Supporting our VISKids and young families"
-                    url: "/year/2023/info/inclusion-and-diversity/viskids-child-care-grants"
+                    url: "/year/2023/info/inclusion-and-diversity/viskids-child-care-grants.html"
   #                 - text: "VISKids"
   #                   description: "Childcare and activities open to everyone"
-  #                   url: "/year/2023/info/inclusion-and-diversity/viskids-event"
+  #                   url: "/year/2023/info/inclusion-and-diversity/viskids-event.html"
 
   - dropdown: "Contribute"
     display: true
@@ -108,7 +108,7 @@ menu:
               - heading: "Submit Your Work"
                 links:
                   - text: "Papers"
-                    url: "/year/2023/info/call-participation/call-for-participation"
+                    url: "/year/2023/info/call-participation/call-for-participation.html"
                   # - text: "Short Papers"
                   #   url: "/year/2023/info/call-participation/shortpapers"
                   # - text: "Posters"
@@ -126,20 +126,20 @@ menu:
               - heading: "Info for Contributors"
                 links:
                    - text: "Area Model for VIS"
-                     url: "/year/2023/info/call-participation/area-model"
+                     url: "/year/2023/info/call-participation/area-model.html"
 
                    - text: "Paper Submission Guidelines"
-                     url: "/year/2023/info/call-participation/paper-submission-guidelines"
+                     url: "/year/2023/info/call-participation/paper-submission-guidelines.html"
                    # - text: "Partnerships"
-                   #   url: "/year/2023/info/call-participation/partnerships"
+                   #   url: "/year/2023/info/call-participation/partnerships.html"
                    - text: "Review Instructions"
-                     url: "/year/2023/info/call-participation/review-instructions"
+                     url: "/year/2023/info/call-participation/review-instructions.html"
                    - text: "Submission Keywords"
-                     url: "/year/2023/info/call-participation/paper-keywords"
+                     url: "/year/2023/info/call-participation/paper-keywords.html"
                    # - text: "Accessibile PDFs"
-                   #   url: "/year/2023/info/call-participation/make-pdf-accessible"
+                   #   url: "/year/2023/info/call-participation/make-pdf-accessible.html"
                    - text: "Open Practices"
-                     url: "/year/2023/info/open-practices/open-practices"
+                     url: "/year/2023/info/open-practices/open-practices.html"
 #           - heading: "Participating in hybrid"
 #             columns:
 #               - links:
@@ -463,11 +463,11 @@ menu:
                     url: "/year/2023/blog/vis-24-in-tampa-bay.html"
                   - text: "How to Host IEEE VIS"
                     description: "Guidelines to bid for a future location of IEEE VIS"
-                    url: "/governance/bids.html"
+                    url: "/year/2023/governance/bids.html"
                   - text: "Being General Chair of IEEE VIS"
-                    url: "/governance/generalChairs.html"
-      #             - text: "2021 VIS Area Curation Committee Executive Summary"
-      #               url: "/governance/acc-summary"
+                    url: "/year/2023/governance/generalChairs.html"
+                  - text: "2021 VIS Area Curation Committee Executive Summary"
+                    url: "/year/2023/governance/acc-summary.html"
           # - heading: "Hosting IEEE Vis"
           #   columns:
           #    - links:
