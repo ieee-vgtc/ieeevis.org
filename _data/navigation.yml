@@ -463,11 +463,11 @@ menu:
                     url: "/year/2023/blog/vis-24-in-tampa-bay"
                   - text: "How to Host IEEE VIS"
                     description: "Guidelines to bid for a future location of IEEE VIS"
-                    url: "/year/2023/governance/bids"
+                    url: "/governance/bids"
                   - text: "Being General Chair of IEEE VIS"
-                    url: "/year/2023/governance/generalChairs"
+                    url: "/governance/generalChairs"
                   - text: "2021 VIS Area Curation Committee Executive Summary"
-                    url: "/year/2023/governance/acc-summary"
+                    url: "/governance/acc-summary"
           # - heading: "Hosting IEEE Vis"
           #   columns:
           #    - links:
