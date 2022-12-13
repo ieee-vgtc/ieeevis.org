@@ -37,7 +37,8 @@ intro_section:
 
       **Where will papers appear?**
 
-      Full papers accepted to IEEE VIS will appear in a special issue of the IEEE Transactions on Visualization and Computer Graphics (TVCG) and will be indexed in [IEEE Xplore](https://ieeexplore.ieee.org/). IEEE VIS is currently investigating the alternative publishing of accepted papers in an Open Access Journal, such as [IEEE Open Journal of the Computer Society (OJ-CS)](https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=8782664), to provide compliance with [Plan S](https://www.coalition-s.org/).
+      Full papers accepted to IEEE VIS will appear in a special issue of the IEEE Transactions on Visualization and Computer Graphics (TVCG) and will be indexed in [IEEE Xplore](https://ieeexplore.ieee.org/). Plan S has provided verbal approval of IEEE’s hybrid journal
+ portfolio, including TVCG, for transformative status, allowing TVCG to accept articles from authors whose funders require [Plan S](https://www.coalition-s.org/) compliance.
 
 ---
 
