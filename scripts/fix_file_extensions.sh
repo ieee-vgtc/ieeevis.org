@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for i in `find _site/year/{2016,2017,2018,2019,2020,2021,2022, 2023} _site/governance -name "*.html"`; do
+for i in `find _site/year/{2016,2017,2018,2019,2020,2021,2022,2023} _site/governance -name "*.html"`; do
     mv $i `echo $i | sed s/.html$//`;
 done
 
