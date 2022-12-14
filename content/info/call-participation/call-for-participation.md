@@ -1,5 +1,5 @@
 ---
-title: Papers - Call For Participation
+title: "Papers - Call For Participation"
 permalink: /info/call-participation/call-for-participation
 contact: papers@ieeevis.org
 active_nav: "Contribute"
@@ -33,13 +33,12 @@ intro_section:
       description: "This area focuses on the design and optimization of integrated workflows for visual data analysis, knowledge discovery, decision support, machine learning, and other data intelligence tasks."
       button_text: "Analytics & Decisions"
       button_url: "/year/2023/info/call-participation/area-model#area-6-analytics--decisions"
-  content: |
-
+  content: "
       **Where will papers appear?**
 
       Full papers accepted to IEEE VIS will appear in a special issue of the IEEE Transactions on Visualization and Computer Graphics (TVCG) and will be indexed in [IEEE Xplore](https://ieeexplore.ieee.org/). Plan S has provided verbal approval of IEEE’s hybrid journal
  portfolio, including TVCG, for transformative status, allowing TVCG to accept articles from authors whose funders require [Plan S](https://www.coalition-s.org/) compliance.
-
+"
 ---
 
 ## Important Dates
