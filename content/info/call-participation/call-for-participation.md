@@ -43,27 +43,27 @@ intro_section:
 
 ## Important Dates
 
-Dates TBD
-<!-- 
-All deadlines are at **5:00pm Pacific Time (PDT).**
+All deadlines are in **Anywhere on Earth (AoE) time zone**. When the deadline is day D, the last time to submit is when D ends AoE (UTC-12). [Check your local time in AoE](https://time.is/Anywhere_on_Earth).
+
 
 | Submission activity | Date                     |
 |---------------------|--------------------------|
-| Abstract submission (MANDATORY) | Monday, March 21, 2022   |
-| Paper submission | Thursday, March 31, 2022 |
-| Notification of results of first review cycle | Monday, June 6, 2022     |
-| Paper submission for second review cycle | Friday, July 1, 2022     |
-| Final notification | Friday, July 15, 2022    |
-| Camera-ready copy | Monday, August 8, 2022   |
+| Abstract submission (MANDATORY) | Tuesday, March 21, 2023   |
+| Paper submission | Friday, March 31, 2023 |
+| Notification of results of first review cycle | Tuesday, June 6, 2023     |
+| Paper submission for second review cycle | Saturday, July 1, 2023     |
+| Final notification | Saturday, July 15, 2023    |
+| Camera-ready copy | Tuesday, August 8, 2023   |
 
+<!---
 {% include alert.html
   title="Final Instructions for Authors of Accepted Papers"
   description="Important information for authors of accepted papers."
   button-text="View instructions"
   button-url="/info/presenter-information/final-information-paper-authors"
 %}
-
- -->
+ --->
+ 
 ## Submission Guidelines and Reviewing Criteria
 
 As the leading academic event on visualization research, IEEE VIS expects important, impactful, and potentially transformative contributions. Submissions will be judged on their scientific quality and novelty, potential impact, degree to which the evidence supports the findings, appropriateness of methodology, and the research process followed. After the initial notification of review results, selected papers are only conditionally accepted and will undergo a full revision and review cycle: only papers that improve according to the required changes will be accepted after the second round review.
@@ -76,11 +76,13 @@ Reviewers should be familiar with the [guidelines for reviewing papers for VIS](
 
 ## Accessibility
 
-We highly encourage creating accessible submissions so that your contribution is readable by the broader audiences. Please see the [VIS Accessibility Guide](/year/2023/info/call-participation/make-pdf-accessible) to learn how you can make your contribution accessible.
+We highly encourage creating accessible submissions so that your contribution is readable by the broader audiences. Please see the VIS Accessibility Guide (link coming soon) to learn how you can make your contribution accessible.
+<!---[VIS Accessibility Guide](/year/2023/info/call-participation/make-pdf-accessible)--->
 
 ## Open Access Policy
 
-Visualization research is better communicated and acted on if it is freely accessible to the research community, practitioners, and the general public. Therefore, all paper authors are encouraged to share their accepted paper in an open access repository before the print deadline in accordance with IEEE copyright regulations. Additionally, funding agencies and research organisations may have specific rules such as Plan S compliance and it’s the authors responsibility to check and comply with their respective organizational rules. For instructions on how to post an accepted paper to an open access repository, please see the [VIS Open Practices Guidelines](/year/2023/info/open-practices/open-practices).
+Visualization research is better communicated and acted on if it is freely accessible to the research community, practitioners, and the general public. Therefore, all paper authors are encouraged to share their accepted paper in an open access repository before the print deadline in accordance with IEEE copyright regulations. Additionally, funding agencies and research organisations may have specific rules such as Plan S compliance and it’s the authors responsibility to check and comply with their respective organizational rules. For instructions on how to post an accepted paper to an open access repository, please see the VIS Open Practices Guidelines (link coming soon)
+<!---[VIS Open Practices Guidelines](/year/2023/info/open-practices/open-practices).--->
 
 Email: [papers@ieeevis.org](mailto:papers@ieeevis.org)
 
