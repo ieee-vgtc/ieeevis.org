@@ -112,13 +112,10 @@ Topics of interest include:
 * *Other Synthesis Techniques*: fabrication, sonification, haptic feedback, etc.
 
 **Example Papers:**
-* ***Computing Platforms***: A. Chaudhary, S. J. Jhaveri, A. Sanchez, L. S. Avila, K. M. Martin, A. Vacanti, M. D. Hanwell, W. Schroeder. [Cross-Platform Ubiquitous Volume Rendering Using Programmable Shaders in VTK for Scientific and Medical Visualization](https://doi.org/10.1109/MCG.2018.2880818), IEEE Computer Graphics & Applications 39(1):26-43, 2020. 
 * ***Visualization Environments***: M. Whitlock, K. Wu, D. A. Szafir. [Designing for Mobile and Immersive Visual Analytics in the Field](https://doi.org/10.1109/TVCG.2019.2934282),  IEEE TVCG, 26(1):503-513, 2019. 
-* ***Visualization Environments***: M. Kraus, N. K. Weiler, D. Oelke, J. Kehrer, D. Keim, J. Fuchs. [The Impact of Immersion on Cluster Identification Tasks](https://doi.org/10.1109/TVCG.2019.2934395),  IEEE TVCG, 26(1):525-535, 2019. 
 * ***Display Hardware and Output Devices***: R. Langner, T. Horak, and R. Dachselt. [VisTiles: Coordinating and Combining Co-located Mobile Devices for Visual Data Exploration](https://doi.org/10.1109/TVCG.2017.2744019),  IEEE TVCG, 24(1):626-636, 2018. 
 * ***Interaction Modalities***:  B. Jackson, T. Y. Lau, D. Schroeder, K. C. Toussaint, D. F. Keefe. [A Lightweight Tangible 3D Interface for Interactive Visualization of Thin Fiber Structures](https://doi.org/10.1109/TVCG.2013.121), IEEE TVCG 19(12):2802-2809, 2013. 
 * ***Development Environments***: A. Satyanarayan, D. Moritz, K. Wongsuphasawat, J. Heer. [Vega-lite: A grammar of interactive graphics](https://doi.org/10.1109/TVCG.2016.2599030), IEEE TVCG, 23(1):341-350, 2016. 
-* ***Processing Paradigms***: K. Moreland, C. Sewell, W. Usher, L.-T. Lo, J. Meredith, D. Pugmire, D., J. Kress, H. Schroots, K.-L. Ma, H. Childs, M. Larsen, C.-M. Che, R. Maynard, B. Geveci. [VTK-m: Accelerating the Visualization Toolkit for Massively Threaded Architectures](https://doi.org/10.1109/MCG.2016.48), IEEE Computer Graphics & Applications, 36(3):48-58, 2016. 
 * ***Engineering Visualization Systems***: Z. Qu and J. Hullman. [Keeping Multiple Views Consistent: Constraints, Validations and Exceptions in Visualization Authoring](https://doi.org/10.1109/TVCG.2017.2744198), IEEE TVCG, 24(1):468-477, 2017. [InfoVis 2017 Best Paper Honorable Mention Award] 
 * ***Visualization Systems***: I. Wald, G. P.  Johnson, J. Amstutz, C. Brownlee, A.  Knoll, J. Jeffers, J. Günther, P. Navratil. [OSPRay – A CPU Ray Tracing Framework for Scientific Visualization](https://doi.org/10.1109/TVCG.2016.2599041), IEEE TVCG, 23(1):931-940. 
 * ***Visualization Systems***: D. Jönsson, P. Steneteg, E. Sundén, R. Englund, S. Kottravel, M. Falk, A. Ynnerman, I. Hotz, and T. Ropinski. [Inviwo - A Visualization System with Usage Abstraction Levels](https://doi.org/10.1109/TVCG.2019.2920639),  IEEE TVCG 26(11):3241-3254, 2020.
@@ -126,9 +123,8 @@ Topics of interest include:
 * ***Rendering Techniques***: M. Hadwiger, A. K. Al-Awami, J. Beyer, M. Agus, and H. Pfister. [SparseLeap: Efficient Empty Space Skipping for Large-Scale Volume Rendering](https://doi.org/10.1109/TVCG.2017.2744238), IEEE TVCG, 24(1): 2018.
 * ***Lighting and Shading Models***: D. Jönsson and A. Ynnerman. [Correlated Photon Mapping for Interactive Global Illumination of Time-Varying Volumetric Data](https://doi.org/10.1109/TVCG.2016.2598430), IEEE TVCG, 23(1) 2017.
 * ***Placement Techniques***: S. Kieffer, T. Dwyer, K. Marriott, and M. Wybrow. [HOLA: Human-Like Orthogonal Network Layout](https://doi.org/10.1109/TVCG.2015.2467451). IEEE TVCG, 22(1) 2016.
-* ***Other Synthesis Techniques***:  S. Stusak,  A. Tabard,  F. Sauka,  R. A. Khot, and A. Butz. [Activity Sculptures: Exploring the Impact of Physical Visualizations on Running Activity](https://doi.org/10.1109/TVCG.2014.2352953), IEEE TVCG 20(12): 2014.
 * ***Other Synthesis Techniques***: M. Le Goc, C. Perin, S. Follmer, J. D. Fekete, and P. Dragicevic. [Dynamic Composite Data Physicalization Using Wheeled Micro-Robots](https://doi.org/10.1109/TVCG.2018.2865159) IEEE TVCG, 25(1): 2019.
-* ***Other Synthesis Techniques***: H. Roodaki,  N. Navab,  A. Eslami,  C. Stapleton,  and N. Navab. [SonifEye: Sonification of Visual Information Using Physical Modeling Sound Synthesis](https://doi.org/10.1109/TVCG.2017.2734327), IEEE TVCG 23(11): 2017.
+
 
 ________________
 
