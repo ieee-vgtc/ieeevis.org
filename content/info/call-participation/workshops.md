@@ -11,11 +11,11 @@ We solicit workshops related to all areas of visualization. They provide an info
 
 ## Important Dates
 
-* Proposal Submission               **Sunday February 27, 2022**
-* Notification                      **Tuesday March 15, 2022**
-* Final Submission of Summaries	    **Monday August 1, 2022**
+* Proposal Submission               **Sunday February 26, 2023**
+* Notification                      **Tuesday March 14, 2023**
+* Final Submission of Summaries	    **Monday August 1, 2023**
 
-All deadlines are at **5:00pm Pacific Time (PDT)**.
+All deadlines are at **11:59pm (AOE)**.
 
 ## Workshops should:
 
@@ -44,12 +44,12 @@ Workshop proposals should include:
 * the planned activities, including the schedule during the session,
 * a statement of the organization and the development of the list of participants (intended size, detailed selection procedures, and timeline for finalizing workshop presenters),
 * a list of any special technology needed,
-* indication on how you would like your hybrid workshop to take place (since IEEE VIS is planned as a hybrid conference in 2022), what technology you would like to use, what support you would need from IEEE VIS (e.g., do you plan to have live talks, recorded talks, Miro boards, or live discussions, etc.),
+* indication on how you would like your hybrid workshop to take place (in case IEEE VIS is planned as a hybrid conference), what technology you would like to use, what support you would need from IEEE VIS (e.g., do you plan to have live talks, recorded talks, Miro boards, or live discussions, etc.),
 * the intended result and impact of the workshop,
 * a chosen measure for a successful CfP (e.g., number of submissions), possibly including an outline for a “backup policy” (e.g., changing the workshop format, or voluntarily withdrawing the workshop before acceptance notification is sent, but should not require the workshop organizers to submit emergency papers to their own workshop), 
 * the plan for publication (see the classes listed below),
 * the number of poster slots requested, if the workshop intends to feature posters, and
-* the proposed dates for the call for participation, author notification, and camera-ready deadlines (author notification must be prior to the early registration deadline for IEEE VIS; for inclusion of materials on IEEE Xplore and/or the downloadable proceedings, the camera-ready deadline must be prior to **August 22, 2022**).
+* the proposed dates for the call for participation, author notification, and camera-ready deadlines (author notification must be prior to the early registration deadline for IEEE VIS; for inclusion of materials on IEEE Xplore and/or the downloadable proceedings, the camera-ready deadline must be prior to **August 21, 2023**).
 
 Because the number of workshop time slots is limited, half-day workshop proposals are **strongly encouraged**. However, well-justified full-day proposals will also be considered. Full-day proposals may optionally state what changes would be implemented to allow the workshop schedule to fit within a half day.
 
@@ -119,7 +119,7 @@ The workshop organizers will receive the following support from the VIS conferen
 * room and AV support suitable for around 100 attendees (for in-person workshops),
 * food and beverages for attendees: coffee breaks throughout the day, Sunday evening opening reception, space in the poster display area, if requested (from limited pool set aside for standard workshops; available space depends on the specifics of the venue; early requests given priority over late requests) (for in-person workshops),
 * PCS (Precision Conference Solutions) support for managing submissions and the review process,
-* inclusion of the workshop materials or proceedings in the downloadable conference proceedings for dissemination to attendees of the conference and/or in IEEE Xplore, if requested (materials must be provided by August 22, 2022),
+* inclusion of the workshop materials or proceedings in the downloadable conference proceedings for dissemination to attendees of the conference and/or in IEEE Xplore, if requested (materials must be provided by August 21, 2023),
 * IEEE Xplore Digital Library publication of the workshop proceedings, if requested (considered archival).
 
 Please check the conference website for upcoming information concerning available funds for special purposes, such as supporting diversity. If the requirements of the workshop exceed this default support, the workshop organizers are expected to coordinate with the workshop chairs and possibly raise funds to support the workshop activities. Fundraising plans must be discussed with the workshop and supporters chairs prior to contacting any potential funder. For more information, see the guidelines for [Financial and Coordination Policies for IEEE VIS](http://ieeevis.org/governance/coordination).
@@ -128,6 +128,7 @@ Please check the conference website for upcoming information concerning availabl
 
 ## Workshop Chairs
 
-* Johanna Beyer, *Harvard University, USA*
-* Filip Sadlo, *Heidelberg University, Germany*
+* Stefan Bruckner, *University of Bergen, Norway*
+* Narges Mahyar, *University of Massachusetts Amherst, USA*
+* Julien Tierny, *CNRS - Sorbonne University, France*
 * Panpan Xu, *Amazon AWS, USA*
