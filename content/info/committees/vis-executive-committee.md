@@ -19,6 +19,8 @@ The current VEC members are:
 | Elisabeta Marai | *University of Illinois at Chicago* |<br>
 | Matthew Brehmer | *Tableau* |<br>
 | Holger Theisel - Co-Chair| *University of Magdeburg* |<br>
+| Narges Mahyar | *University of Massachusetts Amherst* |<br>
+| Brian Summa| *Tulane University * |<br>
 
 ## VIS Executive and Steering Committee Elections
 Each year the VIS community elects one new member each to the VEC and VSC. 
