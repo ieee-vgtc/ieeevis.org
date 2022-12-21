@@ -7,6 +7,12 @@ sidebar: call-for-participation
 contact: accessibility@ieeevis.org
 ---
 
+
+{% comment %}
+Program chairs added the following note until this page is updated
+{% endcomment %}
+2023 note: this document reflects the guidelines for VIS 2022.  We anticipate a similar set of guidelines for VIS 2023
+
 The instructions on this page are based on the [SIGACCESS Guide for Accessible PDFs in Word](https://www.sigaccess.org/welcome-to-sigaccess/resources/acm-submission-with-ms-word/) and the [SIGCHI Guide to an Accessible Submission](https://sigchi.org/conferences/author-resources/accessibility-guide).
 
 We highly encourage creating accessible submissions so that your contribution is readable by the broader audiences. This includes taking steps as you author your document and making your submitted PDF accessible. These steps can improve usability for many people, especially those of us with visual impairments. 
@@ -100,7 +106,7 @@ Some checks (e.g "Logical Reading Order") might give you a warning saying "Needs
 
 ### Accessibility Chairs
 
-* Yea-Seul Kim *University of Wisconsin Madison*
+* Kim Marriott *Monash University*
 * Dominik Moritz *Carnegie Mellon University*
 
 *Email: [accessibility@ieeevis.org](mailto:accessibility@ieeevis.org)*
