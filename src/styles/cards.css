@@ -7,7 +7,7 @@
     @apply relative;
     @apply mb-4 p-6;
     @apply border border-primary-700 rounded;
-    @apply bg-accent-minor;
+    @apply bg-white;
     @apply text-primary;
 }
 
