@@ -37,7 +37,7 @@ This page provides detailed instructions for both PC reviewers and external revi
 ## Keywords Update
 **By March 20**
 
-**You will need to update your expertise in PCS if you have not already done so after the 2020 rollout of the new keywords.** Please read through the [summary of the keywords](http://ieeevis.org/year/2021/blog/keywords-for-pc-members), which includes instructions for reviewers on how to select for expertise. 
+**You will need to update your expertise in PCS if you have not already done so after the 2020 rollout of the new keywords.** Please read through the [summary of the keywords](/year/2023/blog/keywords-for-pc-members), which includes instructions for reviewers on how to select for expertise. 
 If you do not enter your areas of expertise you will have all matching scores set to -1 during the bidding phase which will greatly impact suggestions of interesting papers for you to bid on. The matching scores are calculated manually by the OPCs once before bidding starts and if you are late you will have to wait for them to do this step again at a later point in time. Therefore, it is important that you enter you expertise *before the abstract deadline*.
 Please note that the Area Curation Committee (ACC) also continuously collects information on missing keywords, so be sure to enter keywords you think are missing in the respective checkboxes. 
 
@@ -84,7 +84,7 @@ To bid papers, continue to follow these steps:
 ### Useful Tips for Bidding   
 As a unified conference, the number of submissions drastically increased. It may be too time consuming to read through all the abstracts carefully. You may first sort the list by the ‘score’ column, which estimates the match between your expertise and the paper keywords.   
 
-Another way to find papers that match your expertise and interest is to use (1) the search box (which searches in all the fields) and (2) the option to see papers by area or keyword. You can find additional information about bidding strategies on the [IEEE VIS blog](http://ieeevis.org/year/2021/blog/keywords-for-pc-members).
+Another way to find papers that match your expertise and interest is to use (1) the search box (which searches in all the fields) and (2) the option to see papers by area or keyword. You can find additional information about bidding strategies on the [IEEE VIS blog](/year/2023/blog/keywords-for-pc-members).
 
 ## Assigning External Reviewers
 **April 8 thru April 14**
