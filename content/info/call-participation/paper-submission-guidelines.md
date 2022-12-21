@@ -7,7 +7,7 @@ sidebar: call-for-participation
 contact: papers@ieeevis.org
 ---
 
-Since 2021, IEEE Vis follows the new [area model](/year/2022/info/call-participation/area-model), and thus a paper for IEEE VIS should be submitted to one of six areas. Make sure that you carefully read both the descriptions for each of the six areas (see also the [area model FAQs](/year/2022/info/call-participation/area-model#frequently-asked-questions)) and the guidelines below before submitting your paper.
+Since 2021, IEEE Vis follows the new [area model](/year/2023/info/call-participation/area-model), and thus a paper for IEEE VIS should be submitted to one of six areas. Make sure that you carefully read both the descriptions for each of the six areas (see also the [area model FAQs](/year/2023/info/call-participation/area-model#frequently-asked-questions)) and the guidelines below before submitting your paper.
 
 ## Contents
 
@@ -36,7 +36,7 @@ Since 2021, IEEE Vis follows the new [area model](/year/2022/info/call-participa
   
 ## Submission System
 
-IEEE VIS uses the [Precision Conference System (PCS)](https://new.precisionconference.com/vgtc) to handle the submission and reviewing process. When submitting your manuscript, please make sure that you submit it to your intended area by choosing the appropriate area from the list of six areas. In the [area description page](/year/2022/info/call-participation/area-model), you can find information guiding you to choose an appropriate area along with example papers for each area. 
+IEEE VIS uses the [Precision Conference System (PCS)](https://new.precisionconference.com/vgtc) to handle the submission and reviewing process. When submitting your manuscript, please make sure that you submit it to your intended area by choosing the appropriate area from the list of six areas. In the [area description page](/year/2023/info/call-participation/area-model), you can find information guiding you to choose an appropriate area along with example papers for each area. 
 
 ## Formatting and Language Guidelines
 
@@ -115,7 +115,7 @@ For the list of references at the end of the document, we expect from authors th
 
 ## Ethics Guidelines
 
-IEEE VIS adheres to the [VGTC ethics guidelines for reviewers](http://tc.computer.org/vgtc/conferences/ethics-guidelines) and has established a [Code of Conduct](http://ieeevis.org/year/2022/info/inclusion-and-diversity/code-of-conduct). In all aspects of the paper handling process, any possible violation of these guidelines is taken seriously and may be reported to the APCs/OPCs for further handling within the VIS organization. Special attention is paid to the identification and reporting of plagiarism and possibly unethical paper content is monitored carefully in the reviewing process, also. We assume a zero tolerance policy regarding harassment situations as outlined in the Code of Conduct, should any such situation occur in the paper handling process. Investigation and processing of reported cases may lead to an escalation to the IEEE level.
+IEEE VIS adheres to the [VGTC ethics guidelines for reviewers](http://tc.computer.org/vgtc/conferences/ethics-guidelines) and has established a [Code of Conduct](/year/2023/info/inclusion-and-diversity/code-of-conduct). In all aspects of the paper handling process, any possible violation of these guidelines is taken seriously and may be reported to the APCs/OPCs for further handling within the VIS organization. Special attention is paid to the identification and reporting of plagiarism and possibly unethical paper content is monitored carefully in the reviewing process, also. We assume a zero tolerance policy regarding harassment situations as outlined in the Code of Conduct, should any such situation occur in the paper handling process. Investigation and processing of reported cases may lead to an escalation to the IEEE level.
 
 ## Paper Submission Keywords
 
