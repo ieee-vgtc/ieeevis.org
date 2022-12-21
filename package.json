@@ -15,7 +15,7 @@
     "@babel/plugin-syntax-dynamic-import": "~7.2",
     "@babel/preset-env": "^7.5.5",
     "babel-loader": "^8.0.6",
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.27.11",
     "browser-sync-webpack-plugin": "^2.2.2",
     "clean-webpack-plugin": "^3.0.0",
     "compression-webpack-plugin": "^9.1.2",
