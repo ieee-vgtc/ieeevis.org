@@ -7,6 +7,11 @@ sidebar: call-for-participation
 contact: open_practices@ieeevis.org
 ---
 
+{% comment %}
+Program chairs added the following note until this page is updated
+{% endcomment %}
+2023 note: this document reflects the guidelines for VIS 2022.  We anticipate a similar set of guidelines for VIS 2023, including updates reflecting Plan S.
+
 Visualization research is better communicated and acted on if it is freely accessible to the research community, practitioners, and the general public. As a community, there are several steps we can take to help ensure that research presented at VIS is (1) reproducible, (2) replicable, and (3) extensible by future researchers. As such, the Open Practices Committee for IEEE VIS 2022 is providing a set of **requirements** and **recommendations** for authors of accepted VIS papers. Note that the recommendations are only suggestions which authors can optionally follow to increase the long-term impact and usefulness of their work.
 
 This page covers:

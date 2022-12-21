@@ -7,6 +7,10 @@ active_nav: "Contribute"
 sidebar: call-for-shortpapers
 ---
 
+As with 2022, VIS 2023's short papers track will have a submission deadline of April 30.  Check back soon for more details about the call for papers.
+
+{% comment %}
+
 IEEE VIS 2022 solicits submissions in a short paper format. Short Papers welcome submissions describing original work with focused and concise research contributions, incremental work such as follow-up extensions or evaluations of existing methods, or exploratory work. Short papers also welcome papers describing new systems or tools that offer practical value.
 
 Short Papers often fall into one or more of five main categories: technique or algorithm, system or tool, application or design study, empirical study, theory, or model. The contributions of a short paper should be commensurate with the nature of the paper. Technique or algorithm papers should provide clear yet concise technical contributions. System or tool papers should state the value, articulate the target audience, and make an effort toward accessibility (e.g., software release). Papers focusing on visualization application or design study should demonstrate design lessons learned or insights gleaned for visualization research on which future contributors can build. Empirical study papers should justify the validity and importance of the results, including, where appropriate, the definition of hypotheses, tasks, data sets, the rigorous collection and examination/analysis/coding of data, the selection of subjects and cases, as well as validation, discussion, and conclusions. Theory or model papers should illuminate how visualization techniques complement and exploit properties of human vision and cognition, as well as how researchers conduct effective and rigorous visualization studies.
@@ -105,6 +109,8 @@ All deadlines are at **5:00pm Pacific Time (PDT)**.
 * Christoph Garth, *Technical University of Kaiserslautern, Germany*
 * Jonathan Roberts, *Bangor University, United Kingdom*
 * Chaoli Wang, *University of Notre Dame, USA*
+
+{% endcomment %}
 
 Email: [shortpapers@ieeevis.org](mailto:shortpapers@ieeevis.org)
 
