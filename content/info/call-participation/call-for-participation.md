@@ -43,7 +43,7 @@ intro_section:
 
 ## Important Dates
 
-All deadlines are in **Anywhere on Earth (AoE) time zone**. When the deadline is day D, the last time to submit is when D ends AoE (UTC-12). [Check your local time in AoE](https://time.is/Anywhere_on_Earth).
+All deadlines are in **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth) time zone (new for 2023)**. 
 
 
 | Submission activity | Date                     |
