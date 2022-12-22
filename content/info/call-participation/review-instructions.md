@@ -6,7 +6,7 @@ contact: papers@ieeevis.org
 sidebar: call-for-participation
 ---
 
-The success of the IEEE VIS 2022 papers program relies on a knowledgeable, experienced, and ethical community of reviewers. IEEE VIS 2022 employs a two-phase, [(author-optional) double-blind review](paper-submission-guidelines#important-submission-requirements) process that follows the review process for IEEE TVCG, the journal in which IEEE VIS full papers are published. Submissions are reviewed by at least 4 reviewers, at least 2 of which are PC members and at least 2 of which are external members of the community. All reviewers are bound to the [ethics guidelines of the IEEE VGTC](http://tc.computer.org/vgtc/conferences/ethics-guidelines).
+The success of the IEEE VIS papers program relies on a knowledgeable, experienced, and ethical community of reviewers. IEEE VIS employs a two-phase, [(author-optional) double-blind review](paper-submission-guidelines#important-submission-requirements) process that follows the review process for IEEE TVCG, the journal in which IEEE VIS full papers are published. Submissions are reviewed by at least 4 reviewers, at least 2 of which are PC members and at least 2 of which are external members of the community. All reviewers are bound to the [ethics guidelines of the IEEE VGTC](http://tc.computer.org/vgtc/conferences/ethics-guidelines).
 
 This page provides detailed instructions for both PC reviewers and external reviewers.
 
@@ -16,18 +16,18 @@ This page provides detailed instructions for both PC reviewers and external revi
   - [Keywords Update, by March 20](#keywords-update)
   - [Bidding, March 22 thru March 31](#bidding)
   - [Assigning External Reviewers, April 8 thru April 14](#assigning-external-reviewers)
-  - [First Round Reviewing, April 8 thru May 7](#first-round-reviewing)
-  - [Discussion, May 8 thru May 14](#discussion)
-  - [First Round Decisions, May 15 thru June 6](#first-round-decisions)
+  - [First Round Reviewing, April 8 thru May 8](#first-round-reviewing)
+  - [Discussion, May 9 thru May 15](#discussion)
+  - [First Round Decisions, May 16 thru June 6](#first-round-decisions)
   - [Second Round Reviewing, July 2 thru July 14](#second-round-reviewing)
 - [External Reviewing Instructions](#external-reviewing-instructions)
-  - [Keywords Update, by March 20](#keywords-update-1)
-  - [Reviewing, April 8 thru May 7](#reviewing)
-  - [Discussion, May 8 thru May 14](#discussion-1)
+  - [Keywords Update, by March 31](#keywords-update-1)
+  - [Reviewing, April 14 thru May 8](#reviewing)
+  - [Discussion, May 9 thru May 15](#discussion-1)
 - [Additional Reviewing Guidance](#additional-reviewing-guidance)
   - [Paper Quality](#paper-quality)
   - [Reviewing Ethics](#reviewing-ethics)
-  - [What is a minor revision?](#what-is-a-minor-revision)
+  - [What is a Minor Revision?](#what-is-a-minor-revision)
   - [Managing Resubmission Materials](#managing-resubmission-materials)
   - [Assigning Scores, Requesting Revisions](#assigning-scores-requesting-revisions)
 
@@ -37,7 +37,7 @@ This page provides detailed instructions for both PC reviewers and external revi
 ## Keywords Update
 **By March 20**
 
-**You will need to update your expertise in PCS with the keywords adopted since 2019.** Please read through the [summary of the keywords](http://ieeevis.org/year/2021/blog/keywords-for-pc-members), which includes instructions for reviewers on how to select for expertise. 
+**You will need to update your expertise in PCS if you have not already done so after the 2020 rollout of the new keywords.** Please read through the [summary of the keywords](/year/2023/blog/keywords-for-pc-members), which includes instructions for reviewers on how to select for expertise. 
 If you do not enter your areas of expertise you will have all matching scores set to -1 during the bidding phase which will greatly impact suggestions of interesting papers for you to bid on. The matching scores are calculated manually by the OPCs once before bidding starts and if you are late you will have to wait for them to do this step again at a later point in time. Therefore, it is important that you enter you expertise *before the abstract deadline*.
 Please note that the Area Curation Committee (ACC) also continuously collects information on missing keywords, so be sure to enter keywords you think are missing in the respective checkboxes. 
 
@@ -47,7 +47,7 @@ Please note that the Area Curation Committee (ACC) also continuously collects in
 
 3. Click on “Provide areas of expertise”.
 
-4. Select “VGTC” for the Society, and “VIS 2022” for the Conference/Journal.
+4. Select “VGTC” for the Society, and “VIS 2023” for the Conference/Journal.
 
 5. Select your keywords.
 
@@ -55,13 +55,13 @@ Please note that the Area Curation Committee (ACC) also continuously collects in
 ## Bidding
 **March 22 thru March 31**
 
-We cannot overemphasize the importance of bidding: proper and timely bidding is crucial for the successful paper assignment. Please complete your bidding by **March 31**.
+We cannot overemphasize the importance of bidding: proper and timely bidding is crucial for the successful paper assignment. Please complete your bidding by **March 31**. If you do not carry out your bidding work thoroughly and promptly, you will be removed from the PC.  
 
 1. Log onto the [PCS system](https://new.precisionconference.com/).
 
 2. Go to the Reviews tab.
 
-3. Click on the "Review (as a committee member)" action for the "VIS 2022 Papers" category.
+3. Click on the "Review (as a committee member)" action for the "VIS 2023 Papers" category.
 
 4. Click on the "Conflicts" link.
 
@@ -71,7 +71,7 @@ We cannot overemphasize the importance of bidding: proper and timely bidding is 
 
 To bid papers, continue to follow these steps:
 
-6. Click on "VIS 2022 Papers" under the Reviews tab to return to your main reviewing page.
+6. Click on "VIS 2023 Papers" under the Reviews tab to return to your main reviewing page.
 
 7. Click on the "Bidding" link.
 
@@ -84,29 +84,30 @@ To bid papers, continue to follow these steps:
 ### Useful Tips for Bidding   
 As a unified conference, the number of submissions drastically increased. It may be too time consuming to read through all the abstracts carefully. You may first sort the list by the ‘score’ column, which estimates the match between your expertise and the paper keywords.   
 
-Another way to find papers that match your expertise and interest is to use (1) the search box (which searches in all the fields) and (2) the option to see papers by area or keyword. You can find additional information about bidding strategies on the [IEEE VIS blog](http://ieeevis.org/year/2021/blog/keywords-for-pc-members).
+Another way to find papers that match your expertise and interest is to use (1) the search box (which searches in all the fields) and (2) the option to see papers by area or keyword. You can find additional information about bidding strategies on the [IEEE VIS blog](/year/2023/blog/keywords-for-pc-members).
 
 ## Assigning External Reviewers
 **April 8 thru April 14**
 
-**Both primaries and secondaries are to recruit ONE external reviewer each.** Make certain that this reviewer is NOT from the same institution/group as any of the other reviewers. For the single-blind submissions, the assigned reviewers should double check conflicts of interest as well.
+**Both primaries and secondaries are to recruit ONE external reviewer each.** Make certain that this reviewer is NOT from the same institution/group as any of the other reviewers. For the single-blind submissions, the assigned PC members should double check conflicts of interest as well.
 
 PCS has an option to suggest reviewers to you according to a match score. This list of suggested reviewers and their interests may be an aid to jog your memory, but note that it must be used with caution. Do not blindly rely on these suggestions without checking carefully that the suggested reviewers are indeed a good fit. Consider the mix of expertise and experience across all four reviewers, including varied career stages, gender diversity, practitioners and researchers, industry and academia, etc. We aim for a good mix of perspectives.
 
 Please do not hesitate to add new, qualified reviewers that are not already in the PCS database using the "register new person" mechanism. We are always looking for the top experts in a specific topic, and extending the database will benefit others as well.
 
-Actively ensure that invited external reviewers accept the invitation. If they decline or do not respond in a timely manner (i.e., within a few days), please find a replacement as soon as possible.
+**New in 2023: Batch release of initial external requests.** The first round of invitations to external reviewers will be released in a single batch on April 14, to encourage externals to make immediate decisions for which requests to accept. After that, review requests will be send out immediately. PC members should assemble a list of multiple suitable externals for each paper as backup possibilities, in addition to your initial choice, so that you can send another request immediately if your initial request(s) are declined. PC members should actively check that invited external reviewers accept the invitation. If they decline or do not respond in a timely manner (i.e., within a few days of the request being sent), please send a request to the next person on your list as soon as possible.  
 
 **Do not ask other PC, APC, or OPC members to be external reviewers.** The full PC list can be found on the [conference website]({{ '/info/committees/program-committees' | relative_url }}). (Note that they are also marked as "cmte" on the review assignment screen in PCS.) In addition, do not ask the EiC (Editor in Chief) or A-EiCs (Associate Editor in Chiefs) of IEEE TVCG to be external reviewers as they also oversee the review process and should remain neutral.
 
 ## First Round Reviewing
-**April 8 thru May 7**
+**April 14 thru May 8**
 
 During this phase, both primaries and secondaries:
 * Write a regular review of their assigned papers.
 
 Additionally, the primaries:
 * Contact the APCs at an early stage if reviewers need copies of any related work that they cannot access (e.g., EuroVis submissions). The APCs can also communicate directly with authors if there are other inquiries. The sooner this engagement occurs, the better: please get in touch with the APCs sooner rather than later, if needed.
+
 * Remind all external reviewers to complete their reviews on time as the review deadline approaches. The OPCs will send one reminder as well, a week before the deadline.
 
 As an IEEE VIS PC member, you are in a position to directly control the quality of the VIS papers program. Make sure that you stand behind the work you recommend for acceptance! Most importantly, this means that you should only accept high-quality papers that will contribute significantly to the VIS research community.
@@ -118,12 +119,12 @@ If you have any questions in this regard about a particular paper, please either
 Please see [Additional Reviewing Guidance](#additional-reviewing-guidance) for further considerations.
 
 ## Discussion
-**May 8 thru May 14**
+**May 9 thru May 15**
 
 Primaries:
 * As soon as possible, initiate discussion with the other reviewers to discuss whether the paper should be conditionally accepted or rejected for publication.
 * Ensure that all reviewers contribute to the discussion about the paper. Consider contacting external reviewers directly if they are not responsive.
-* By the end of the discussion period, write a summary review with a recommendation of conditional acceptance or rejection based on the reviews and the discussion. *This summary review MUST explicitly spell out what the conditions are for turning a conditionally accepted paper into an accepted one.* The authors need to know what is required of them as well as what comments they should consider but that aren’t required to address. If you and the secondary reviewer cannot agree on a recommendation for a submission, please document the discussion in the confidential portion of the summary review. If views have changed or consensus cannot be achieved, please let the papers chairs know the reason in the confidential comments. **Summary reviews are due on May 14.**
+* By the end of the discussion period, write a summary review with a recommendation of conditional acceptance or rejection based on the reviews and the discussion. *This summary review MUST explicitly spell out what the conditions are for turning a conditionally accepted paper into an accepted one.* The authors need to know what is required of them as well as what comments they should consider but that aren’t required to address. If you and the secondary reviewer cannot agree on a recommendation for a submission, please document the discussion in the confidential portion of the summary review. If views have changed or consensus cannot be achieved, please let the papers chairs know the reason in the confidential comments. **Summary reviews are due on May 15.**
 
 Secondaries:
 * Actively participate in the discussion of whether the paper should be conditionally accepted or rejected for publication.
@@ -132,7 +133,7 @@ Secondaries:
 Please keep the discussion anonymous by referring to other reviewers as R1, R2, etc., and remember to not sign your name in the discussions.
 
 ## First Round Decisions
-**May 15 thru June 6**
+**May 16 thru June 6**
 
 Please be available electronically for discussion with the paper chairs about the papers, your recommendation, and the review process. This is particularly important if any of your review processes are contentious or controversial. If you will not be available to field our questions, please let the paper chairs know in advance.
 
@@ -151,7 +152,7 @@ For each of the papers for which you are the primary reviewer and that has recei
 ## Keywords Update
 **By March 31**
 
-**You will need to update your expertise in PCS with the keywords adopted since 2019.** Please read through the [summary of the keywords](paper-keywords), which includes instructions for reviewers on how to indicate their levels of expertise. Make sure to update your areas of expertise by the deadline above so that the program committee can take them into account during the reviewer assignment period.  
+**You will need to update your expertise in PCS if you have not already done so after the 2020 rollout of the new keywords.** Please read through the [summary of the keywords](paper-keywords), which includes instructions for reviewers on how to indicate their levels of expertise. Make sure to update your areas of expertise by the deadline above so that the program committee can take them into account during the reviewer assignment period.  
 
 1. Log onto the [PCS system](https://new.precisionconference.com/).
 
@@ -159,18 +160,18 @@ For each of the papers for which you are the primary reviewer and that has recei
 
 3. Click on "Provide areas of expertise".
 
-4. Select “VGTC” for the Society, and "VIS 2022" for the Conference/Journal.
+4. Select “VGTC” for the Society, and "VIS 2023" for the Conference/Journal.
 
 5. Select your keywords.
 
 
 ## Reviewing
-**Apr 8 thru May 7**
+**Apr 14 thru May 8**
 
 High-quality reviews are critical to the quality of the conference program. Please familiarize yourself with the reviewing ethics and guidelines described in [Additional Reviewing Guidance](#additional-reviewing-guidance).
 
 ## Discussion
-**May 8 thru May 14**
+**May 9 thru May 15**
 
 Following the completion of the reviewing phase, the primary reviewer will initiate a discussion with all reviewers of a paper through the PCS system. During this time you are to engage with the other reviewers to come to a consensus decision on whether to conditionally accept or reject the paper. Please keep the discussion anonymous by referring to other reviewers as R1, R2, etc., and remember to not sign your name in the review or the discussions.
 
@@ -193,7 +194,7 @@ All reviewers should make sure to follow the basic principles outlined below. As
 
 Additionally, all reviewers are bound to the [ethics guidelines of the IEEE VGTC](http://tc.computer.org/vgtc/conferences/ethics-guidelines). Please make sure you are familiar with these guidelines.
 
-## What is a minor revision?
+## What is a Minor Revision?
 IEEE VIS acceptances are conditional after the first round of reviewing, after which authors will be asked to perform a minor revision on the paper. While a few papers may not require any changes at all, this is usually very rare. In other words, reviewing in the first round becomes one of deciding which papers will be acceptable for publication after a minor revision. No paper is perfect; rather, your job is to identify the work that will have a significant contribution to visualization after the authors get a period of four weeks to address reviewer comments.
 
 So, what is a minor revision? We rely on you to draw on your own experience to make this judgment. Don't be close-minded, skeptical, or suspicious; be trusting and open to new ideas. Don't expect perfectionism, reward pragmatism.

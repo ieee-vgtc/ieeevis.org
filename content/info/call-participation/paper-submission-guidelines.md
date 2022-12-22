@@ -7,7 +7,7 @@ sidebar: call-for-participation
 contact: papers@ieeevis.org
 ---
 
-Since 2021, IEEE Vis follows the new [area model](/year/2022/info/call-participation/area-model), and thus a paper for IEEE VIS should be submitted to one of six areas. Make sure that you carefully read both the descriptions for each of the six areas (see also the [area model FAQs](/year/2022/info/call-participation/area-model#frequently-asked-questions)) and the guidelines below before submitting your paper.
+Since 2021, IEEE Vis follows the new [area model](/year/2023/info/call-participation/area-model), and thus a paper for IEEE VIS should be submitted to one of six areas. Make sure that you carefully read both the descriptions for each of the six areas (see also the [area model FAQs](/year/2023/info/call-participation/area-model#frequently-asked-questions)) and the guidelines below before submitting your paper.
 
 ## Contents
 
@@ -15,13 +15,14 @@ Since 2021, IEEE Vis follows the new [area model](/year/2022/info/call-participa
 - [Submission System](#submission-system)
 - [Formatting and Language Guidelines](#formatting-and-language-guidelines)
 - [Anonymization](#anonymization)
-- [Abstract submission](#abstract-submission)
+- [Abstract Submission](#abstract-submission)
 - [Plagiarism](#plagiarism)
 - [Review Process](#review-process)
 - [Page Length Restrictions](#page-length-restrictions)
 - [Supplemental Material](#supplemental-material)
 - [Resubmitting Rejected Papers](#resubmitting-rejected-papers)
 - [General Expectations](#general-expectations)
+- [Expectations for References](#expectations-for-references)
 - [Ethics Guidelines](#ethics-guidelines)
 - [Paper Submission Keywords](#paper-submission-keywords)
 
@@ -29,13 +30,13 @@ Since 2021, IEEE Vis follows the new [area model](/year/2022/info/call-participa
 
 * Abstract vs. full paper deadline – submission information (title, abstract, authors) are due on **March 21**, and full papers with supplemental material are due on **March 31**.
 * Author information fixed after the abstract deadline – the author list for a submission **MUST** be complete by the abstract submission deadline, **March 21** (cannot be changed thereafter).
-* 9+2 pages restriction – VIS papers are **strictly** limited to 9 pages of content plus additional 2 pages of references. Papers may be shorter than this limit but must make a significant contribution (compared to the separate Short Papers program). See below for more details. 
+* 9+2 pages restriction – VIS papers are **strictly** limited to 9 pages of content plus additional 2 pages of references. **New in 2023:** The final two pages can also include the Supplemental Material, Figure Credits, and Acknowledgements sections, in addition to references. Papers may be shorter than this limit but must make a significant contribution (compared to the separate Short Papers program). See below for more details. 
 * Resubmissions are encouraged – authors are encouraged to include reviews and responses for previously rejected papers in their submission to IEEE VIS.
 * Single-blind or double-blind submissions – the reviewers’ identities are not revealed. Authors may choose to anonymize their submission, but this is not required.
   
 ## Submission System
 
-IEEE VIS uses the [Precision Conference System (PCS)](https://new.precisionconference.com/vgtc) to handle the submission and reviewing process. When submitting your manuscript, please make sure that you submit it to your intended area by choosing the appropriate area from the list of six areas. In the [area description page](/year/2022/info/call-participation/area-model), you can find information guiding you to choose an appropriate area along with example papers for each area. 
+IEEE VIS uses the [Precision Conference System (PCS)](https://new.precisionconference.com/vgtc) to handle the submission and reviewing process. When submitting your manuscript, please make sure that you submit it to your intended area by choosing the appropriate area from the list of six areas. In the [area description page](/year/2023/info/call-participation/area-model), you can find information guiding you to choose an appropriate area along with example papers for each area. 
 
 ## Formatting and Language Guidelines
 
@@ -45,7 +46,7 @@ Papers must follow the [formatting guidelines for IEEE VIS *TVCG* Journal submis
 
 IEEE VIS allows both double-blind (anonymized) and single-blind (not anonymized) submissions. Double-blind submissions are intended for those authors who want to submit their work anonymously. Double-blind submissions should NOT include author names or institutions on the cover page of the initial submission, and authors should make an effort to ensure that there is no identity-revealing information (or formulations) in the text. If it is not possible to anonymize without compromising scientific clarity, authors are free to reveal their identities upon submission.
 
-## Abstract submission
+## Abstract Submission
 
 Note that submission of an abstract for each paper is **mandatory** by **March 21**, and full papers with all supplemental material are due on **March 31**. Late submissions, or submissions without a previously submitted abstract, will not be considered. Furthermore, submission information—including title, abstract, and author(s)—**MUST** be entered by the abstract deadline on **March 21**. Adding authors after the abstract deadline is **not** allowed. The author information is used to detect conflicts of interest when assigning papers to program committee members and reviewers, so it must be complete by the time abstracts are submitted. However, minor edits to title and abstract are allowed throughout the reviewing process, especially when requested by the reviewers.
 
@@ -77,7 +78,7 @@ Decisions after the first round of reviews are usually *conditional acceptances*
 
 ## Page Length Restrictions
 
-Paper length may be up to a maximum of nine (9) pages with additional two (2) pages allowed only for references. Authors can make use of more than two pages for references if the total is still within the 11 (9+2) page limit. Please ensure that your submission contains no content except references on the (optional) 10th and 11th pages (including figures, tables, or acknowledgments). Manuscripts that are submitted with non-reference content beyond 9 pages may be desk rejected. If authors would like to make use of more than two pages for references (in addition to at most 9 pages of content), resulting in more than 11 pages in total, special justifications must be provided with the submission and an approval is needed by TVCG (to be acquired by the program committee) that is not guaranteed up-front.   
+Paper length may be up to a maximum of nine (9) pages with additional two (2) pages allowed only for references. Authors can make use of more than two pages for references if the total is still within the 11 (9+2) page limit. Please ensure that your submission contains no content except references on the (optional) 10th and 11th pages.  **New in 2023:** The final two pages can also include the Supplemental Material, Figure Credits, and Acknowledgements sections, in addition to references. Manuscripts that are submitted with non-reference content such as other text, figures, or tables beyond 9 pages may be desk rejected. If authors would like to make use of more than two pages for references (in addition to at most 9 pages of content), resulting in more than 11 pages in total, special justifications must be provided with the submission and an approval is needed by TVCG (to be acquired by the program committee) that is not guaranteed up-front.   
 
 Papers may be shorter than 9 pages but still present a significant contribution. Using effective and informative graphics can be a good use of the available space. A paper does not have to include two full pages of references, but the generous allocation of these pages is meant to signify the importance that IEEE VIS attaches to authors fully anchoring their work in both its full academic context and the state of the art. 
 
@@ -92,7 +93,7 @@ Supplemental material may also include an optional cover letter. Cover letters a
 Excellent work sometimes requires addressing issues that preclude acceptance within the scope of a single review cycle – IEEE VIS welcomes revised, resubmitted papers. For this reason, authors are encouraged (but not required) to include past reviews and a response letter as supplemental material when they resubmit a previously rejected paper to IEEE VIS. The purpose of this mechanism is to add continuity and memory to the process so that authors can demonstrate improvement over time, even if reviewers change from cycle to cycle. We emphasize that it is not acceptable to submit a previously rejected paper without addressing the previous review comments. It is also beneficial if the track record of previous reviewing is provided.
 
 Note that submitting past reviews and a response letter is optional and at the discretion of the authors. Furthermore, past reviews are not restricted to IEEE VIS, but may include other venues where a paper has been rejected. Reviewers are instructed to not penalize resubmitted papers for past rejections, but instead view the trajectory of a resubmission based on past reviews and author response. However, as with supplemental material, reviewers are not required to take past reviews and response letters into account when conducting their review. Resubmissions should be submitted with information pertaining to the original submission as supplemental material (PDF format):
-* Past submission - previous version of the paper (optional).
+* Past submission - previous version of the paper.
 * Previous reviews - complete reviews from the last submission.
 * Cover letter - responses to past reviews (often as summary plus details).
 
@@ -100,7 +101,7 @@ Authors are responsible for the content of the response letter, but effective le
 
 ## General Expectations
 
-We expect that submissions will clearly discuss novel and significant contributions and place them in the context of prior art in the field. This involves highlighting how the current contributions differ from and advance the state-of-the-art in visualization, especially, but not limited to previous work published in the IEEE Transactions on Visualization and Computer Graphics (TVCG) and other leading journals and conferences including IEEE VAST, IEEE InfoVis, IEEE SciVis, ACM SIGGRAPH, ACM CHI, ACM UIST, EuroVis, and IEEE PacificVis.
+We expect that submissions will clearly discuss novel and significant contributions and place them in the context of prior art in the field. This involves highlighting how the current contributions differ from and advance the state-of-the-art in visualization, especially, but not limited to previous work published in the IEEE Transactions on Visualization and Computer Graphics (TVCG) and other leading journals and conferences including IEEE VIS, IEEE VAST, IEEE InfoVis, IEEE SciVis, ACM SIGGRAPH, ACM CHI, ACM UIST, EuroVis, and IEEE PacificVis.
 
 When submitting your abstract (for the March 21 deadline) you will be asked to provide a complete list of authors even when submitting an anonymized version of the manuscript. This is required to avoid potential conflicts of interest when assigning reviewers. Adding additional authors after the abstract deadline or the final acceptance of a paper is *NOT* be permitted.
 
@@ -108,8 +109,13 @@ Submissions will be treated as confidential communications during the review pro
 
 At least one author of an accepted paper must attend the conference to present the work, and authors will also be required to present a brief summary of their talk at a fast forward session. *The latter may change when the format (e.g., physical, virtual, hybrid) of the conference is finalized.*
 
+## Expectations for References
+
+For the list of references at the end of the document, we expect from authors that they check each bibliographic entry for correctness (e.g., author names including special characters, publication years, publication type, page numbers vs. article numbers, etc.), completeness (all needed information for the respective entry type), and general consistency of reporting. In addition, we expect that authors name the DOI for each entry (if available) to make it easy for reviewers to access the respective literature. If possible, please use the abbrv-doi-hyperref.bst or the abbrv-doi-hyperref-narrow.bst BibTeX style which ensures that the entries with the DOIs are hyperlinked in the produced PDF. For ensuring concise reporting, note that you can make (consistent!) use of ISO-4 abbreviation of journal names (e.g., see [https://en.wikipedia.org/wiki/ISO_4](https://en.wikipedia.org/wiki/ISO_4) and [https://journal-abbreviations.library.ubc.ca/](https://journal-abbreviations.library.ubc.ca/) and can also abbreviate the names of conference proceedings such as “Proc. PacificVis” or “Proc. CHI” for brevity (without naming the year in the proceedings title as it is named already anyway).”
+
 ## Ethics Guidelines
-IEEE VIS adheres to the [VGTC ethics guidelines for reviewers](http://tc.computer.org/vgtc/conferences/ethics-guidelines) and has established a [Code of Conduct](http://ieeevis.org/year/2022/info/inclusion-and-diversity/code-of-conduct). In all aspects of the paper handling process, any possible violation of these guidelines is taken seriously and may be reported to the APCs/OPCs for further handling within the VIS organization. Special attention is paid to the identification and reporting of plagiarism and possibly unethical paper content is monitored carefully in the reviewing process, also. We assume a zero tolerance policy regarding harassment situations as outlined in the Code of Conduct, should any such situation occur in the paper handling process. Investigation and processing of reported cases may lead to an escalation to the IEEE level.
+
+IEEE VIS adheres to the [VGTC ethics guidelines for reviewers](http://tc.computer.org/vgtc/conferences/ethics-guidelines) and has established a [Code of Conduct](/year/2023/info/inclusion-and-diversity/code-of-conduct). In all aspects of the paper handling process, any possible violation of these guidelines is taken seriously and may be reported to the APCs/OPCs for further handling within the VIS organization. Special attention is paid to the identification and reporting of plagiarism and possibly unethical paper content is monitored carefully in the reviewing process, also. We assume a zero tolerance policy regarding harassment situations as outlined in the Code of Conduct, should any such situation occur in the paper handling process. Investigation and processing of reported cases may lead to an escalation to the IEEE level.
 
 ## Paper Submission Keywords
 

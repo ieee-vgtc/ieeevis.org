@@ -9,6 +9,8 @@ sidetoc: true
 
 ## Full Papers Program Committee 
 
+TBA
+<!---
 | **Name** | **Affiliation** |<br>
 |Alfie Abdul-Rahman| *King's College London, UK* |<br>
 |Marco Agus| *Hamad Bin Khalifa University, Qatar* |<br>
@@ -213,13 +215,15 @@ sidetoc: true
 |Jian Zhao| *University of Waterloo, Canada* |<br>
 |Ye Zhao| *Kent State University, USA* |<br>
 |Ying Zhao| *Central South University, China* |<br>
-
+ --->
 
 Contact: [papers@ieeevis.org](mailto:papers@ieeevis.org)
 
 
 ## Short Papers Program Committee
 
+TBA
+<!---
 | **Name** | **Affiliation** |<br>
 |Shehzad Afzal| *King Abdullah University of Science and Technology, Saudi Arabia* |<br>
 |Shivam Agarwal| *University of Duisburg-Essen, Germany* |<br>
@@ -361,5 +365,5 @@ Contact: [papers@ieeevis.org](mailto:papers@ieeevis.org)
 |Hongfeng Yu| *University of Nebraska-Lincoln, USA* |<br>
 |Jun Yuan| *New York University, USA* |<br>
 |Zhiguang Zhou| *Hangzhou Dianzi University, China* |<br>
-
+ --->
 Contact: [shortpapers@ieeevis.org](mailto:shortpapers@ieeevis.org)

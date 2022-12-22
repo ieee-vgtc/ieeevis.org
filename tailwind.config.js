@@ -24,7 +24,7 @@ module.exports = {
       },
       accent: {
         default: '#C47000',//'#8ca8c4',// '#1d3160',//'#6f2184', // '#b9aba1',,
-        minor: '#E0A81C',//'#8ca8c4',// '#fbc31b',
+        minor: '#1d3160',//'#8ca8c4',// '#fbc31b',
       },
       black: colors.black,
       white: colors.white,

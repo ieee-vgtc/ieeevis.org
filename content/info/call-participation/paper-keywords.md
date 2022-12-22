@@ -7,7 +7,6 @@ sidebar: call-for-participation
 contact: papers@ieeevis.org
 ---
 
-At VIS 2019, the VEC and the V-I-S Steering Committees adopted a proposal by the reVISe committee to replace the current PCS keywords with a new set of keywords to improve the reviewing process. The motivation for this change, as well as a preliminary brief overview of the new keywords can be found in the reVISe Amended Proposal.
 
 ## Contents
 
@@ -19,9 +18,9 @@ At VIS 2019, the VEC and the V-I-S Steering Committees adopted a proposal by the
 
 ## Summary
 
-* Starting in 2020 IEEE VIS will use a new set of keywords in the submission process
+* This document describes the keywords used by IEEE VIS since 2020 for the submission process
 * Keywords are meant to support matching of papers to reviewers
-* Authors should use keywords differently than in previous years:
+* Authors should use keywords differently than in years before 2020:
     * Authors **should** check keywords to **indicate expertise** required to review their submitted paper.
     * They **should NOT** check all keywords necessary to describe the content of their submitted paper.
 * Reviewers use the keywords to rate their expertise, as in the years before.
@@ -33,7 +32,7 @@ Keywords in the paper submission and review system (PCS) are meant to help match
 
 ### For authors
 
-When submitting a paper in the submission system, the corresponding author will have to select keywords to describe the expertise required to review their paper. Note that this is a change from the keyword usage in previous years where authors were asked to describe the content of their paper. Instead now, authors should imagine that the list of keywords is preceded by the following phrase:
+When submitting a paper in the submission system, the corresponding author will have to select keywords to describe the expertise required to review their paper. Note that this is a change from the keyword usage pre-2020 where authors were asked to describe the content of their paper. Instead, authors should imagine that the list of keywords is preceded by the following phrase:
 
 *“A reviewer judging my work should have expertise related to…”*
 
@@ -94,7 +93,7 @@ Following is the complete list of keywords with a description for each keyword:
 *	**Task Abstractions & Application Domains** (Domain_Task):	the practice of eliciting domain or task abstractions and challenges from specific application domains
 *	**Taxonomy, Models, Frameworks, Theory** (Theory): deriving systematic characterizations of a particular space (e.g. design space, taxonomy of techniques), novel abstractions of concepts, discussions of formalisms
 *	**Visual Representation Design** (VisDesign): designing data visualization / visual representations and/or practices/processes of visualization design
-*	**Other Contribution** (OtherContrib): a contribution type that does not reasonabily fit in any other category
+*	**Other Contribution** (OtherContrib): a contribution type that does not reasonably fit in any other category
 
 #### Evaluation Contributions
 *	**Computational Benchmark Studies** (CompBenchmark): design/conducting/analysis of computational benchmark studies that for example compare performance results from running implemented techniques/algorithms
@@ -152,16 +151,43 @@ Following is the complete list of keywords with a description for each keyword:
 * **OtherTopic**: a visualization/visual analytics related topic/technique that does not reasonably fit in any category above
 
 ## Example Papers
-The following example papers show how previously published VAST, InfoVis, and SciVis papers can be described using the keywords above.
+The following example papers show how previously published VAST, InfoVis, and SciVis papers can be described using several keywords each. The old paper types are also included for reference; the current keywords include more detailed list of contribution types.  
 
-| Conf. | Title | Citations |  Paper Type | Keyword 1 | Keyword 2 | Keyword 3 | Keyword 4 |
-|------------|-----------------------------------------------------------------------------------------------------|------------------------------|---------------------------------------------|----------------------------|--------------|-----------------|---------------|-------------|
-| InfoVis | [D³ Data-Driven Documents](http://dx.doi.org/10.1109/TVCG.2011.185) | 922 | System | Software | Systems | Charts |  |
-| InfoVis | [UpSet: Visualization of Intersecting Sets](http://dx.doi.org/10.1109/TVCG.2014.2346248) | 328 | Technique | VisDesign | OtherData: Sets | Tabular |  |
-| InfoVis | [Narrative Visualization: Telling Stories with Data](http://dx.doi.org/10.1109/TVCG.2010.179) | 252 |  Theory | Storytelling | Theory |  |  |
-| SciVis | [A Systematic Review on the Practice of Evaluating Visualization](http://dx.doi.org/10.1109/TVCG.2013.126) | 101 | Empirical Studies | HumanQuant | HumanQual | STAR |  |
-| SciVis | [Fixed-Rate Compressed Floating-Point Arrays](http://dx.doi.org/10.1109/TVCG.2014.2346458) | 95 | Technique | Algorithm | Systems | CompBenchmark | DataMgmt |
-| SciVis | [Contour Boxplots: A Method for Characterizing Uncertainty in Feature Sets from Simulation Ensembles](http://dx.doi.org/10.1109/TVCG.2013.143) | 86 | Technique | Scalar | DataAbstr | Isosurfaces | Uncertainty |
-| VAST | [Visual Exploration of Big Spatio-Temporal Urban Data: A Study of New York City Taxi Trips](http://dx.doi.org/10.1109/TVCG.2013.226) | 220 | Application / Design Study | Geospatial | Time | Application |  |
-| VAST | [SensePlace2: GeoTwitter analytics support for situational awareness](http://dx.doi.org/10.1109/VAST.2011.6102456) | 141 |  Application / Design Study | Text | Geospatial | SocHum | Application |
-| VAST | [Enterprise Data Analysis and Visualization: An Interview Study](http://dx.doi.org/10.1109/TVCG.2012.219) | 105 | Empirical Study | HumanQual | SocHum |  |  |
+* InfoVis. [D³ Data-Driven Documents](http://dx.doi.org/10.1109/TVCG.2011.185). Old Type: System
+    * Contribution: Software Prototype (Software)
+    * Contribution: Software Architecture, Toolkit/Library, Language (Systems)
+    * General: Charts, Diagrams, and Plots (Charts)
+* InfoVis. [UpSet: Visualization of Intersecting Sets](http://dx.doi.org/10.1109/TVCG.2014.2346248). Old Type: Technique
+    *  Data Type: Other Data (OtherData), Sets
+    *  Data Type: Tabular
+    *  Contribution: Visual Representation Design (VisDesign)
+* InfoVis. [Narrative Visualization: Telling Stories with Data](http://dx.doi.org/10.1109/TVCG.2010.179). Old Type: Theory
+    * Contribution: Taxonomy, Models, Frameworks, Theory (Theory)
+    * Human Factors: Communication/Presentation, Storytelling (Storytelling)
+    
+* SciVis. [A Systematic Review on the Practice of Evaluating Visualization](http://dx.doi.org/10.1109/TVCG.2013.126). Old Type: Empirical Study
+    * Contribution: State-of-the-art Survey (STAR)
+    * Evaluation: Human-Subjects Quantitative Studies (HumanQuant)
+    * Evaluation: Human-Subjects Qualitative Studies (HumanQual)
+* SciVis. [Fixed-Rate Compressed Floating-Point Arrays](http://dx.doi.org/10.1109/TVCG.2014.2346458). Old Type: Technique
+    * Contribution: Algorithms (Algorithm)
+    * Contribution: Software Architecture, Toolkit/Library, Language (Systems)
+    * Evaluation: Computational Benchmark Studies (CompBenchmark)
+    * Stats/ML/Data: Data Management, Processing, Wrangling (DataMgmt)
+* SciVis. [Contour Boxplots: A Method for Characterizing Uncertainty in Feature Sets from Simulation Ensembles](http://dx.doi.org/10.1109/TVCG.2013.143). Old Type: Technique
+    * Data Type: Scalar Field Data (Scalar):
+    * General: Data Abstractions and Types (DataAbstr)
+    * Spatial: Isosurface Techniques (Isosurfaces)
+    * General: Uncertainty Visualization (Uncertainty)
+* VAST. [Visual Exploration of Big Spatio-Temporal Urban Data: A Study of New York City Taxi Trips](http://dx.doi.org/10.1109/TVCG.2013.226). Old Type: Application / Design Study
+    * Data Type: Geospatial Data (Geospatial)
+    * Data Type: Temporal Data (Time)
+    * Contribution: Application Motivated Visualization (Application)
+* VAST.  [SensePlace2: GeoTwitter analytics support for situational awareness](http://dx.doi.org/10.1109/VAST.2011.6102456). Old Type: Application / Design Study
+    * Data Type: Text/Document Data (Text)
+    * Data Type: Geospatial Data (Geospatial)
+    * Contribution: Application Motivated Visualization (Application)
+    * Application: Social Science, Education, Humanities, Journalism, Intelligence Analysis, Knowledge Work (SocHum)
+* VAST. [Enterprise Data Analysis and Visualization: An Interview Study](http://dx.doi.org/10.1109/TVCG.2012.219). Old Type: Empirical Study
+    * Evaluation: Human-Subjects Qualitative Studies (HumanQual)
+    * Application: Social Science, Education, Humanities, Journalism, Intelligence Analysis, Knowledge Work (SocHum)

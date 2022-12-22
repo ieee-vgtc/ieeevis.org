@@ -45,13 +45,12 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r scripts/requirements.txt
-    - name: Install Ruby 2.6.x
-      uses: actions/setup-ruby@v1
+    - name: Install Ruby 2.6
+      uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '2.6.x'
+        ruby-version: '2.6'
     - name: Install ruby dependencies
       run: |
-        gem install rdoc --pre
         gem install bundler
         bundle
     - name: Set up AWS credentials (+ set default user)
