@@ -44,7 +44,6 @@ Workshop proposals should include:
 * the planned activities, including the schedule during the session,
 * a statement of the organization and the development of the list of participants (intended size, detailed selection procedures, and timeline for finalizing workshop presenters),
 * a list of any special technology needed,
-* indication on how you would like your hybrid workshop to take place (in case IEEE VIS is planned as a hybrid conference), what technology you would like to use, what support you would need from IEEE VIS (e.g., do you plan to have live talks, recorded talks, Miro boards, or live discussions, etc.),
 * the intended result and impact of the workshop,
 * a chosen measure for a successful CfP (e.g., number of submissions), possibly including an outline for a “backup policy” (e.g., changing the workshop format, or voluntarily withdrawing the workshop before acceptance notification is sent, but should not require the workshop organizers to submit emergency papers to their own workshop), 
 * the plan for publication (see the classes listed below),
