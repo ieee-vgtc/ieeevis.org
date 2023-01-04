@@ -107,6 +107,8 @@ columns:
   - section:
     - heading: "Social media"
       links:
+        - text: "Mastodon"
+          url: "https://vis.social/@ieeevis"
         - text: "Facebook"
           url: "https://www.facebook.com/ieeevis"
         - text: "Twitter"
