@@ -2,20 +2,16 @@
 title: Short Paper Call for Participation
 layout: page
 permalink: /info/call-participation/shortpapers
-contact: vis_shortpapers@ieeevis.org
+contact: shortpapers@ieeevis.org
 active_nav: "Contribute"
 sidebar: call-for-shortpapers
 ---
 
-As with 2022, VIS 2023's short papers track will have a submission deadline of April 30.  Check back soon for more details about the call for papers.
+IEEE VIS 2023 solicits submissions in a short paper format. The Short Papers committee welcomes submissions describing original work. The work should focus on concise research contributions, incremental work such as follow-up extensions, evaluations of existing methods, replication studies, or exploratory work. The committee also welcomes papers describing new systems or tools that offer practical value.
 
-{% comment %}
+Short Papers often fall into one or more of five main categories: technique or algorithm, system or tool, application or design study, empirical study, theory, or model. The contributions of a short paper should be commensurate with the nature of the paper. Technique or algorithm papers should provide clear yet concise technical contributions. System or tool papers should state the value, articulate the target audience, and make an effort toward accessibility (e.g., software release). Papers focusing on visualization applications or design studies should demonstrate lessons learned or insights gleaned for visualization research on which future contributors can build. Empirical study papers should justify the validity and importance of the results, including, where appropriate, the definition of hypotheses, tasks, data sets, the rigorous collection and examination/analysis/coding of data, the selection of subjects and cases, as well as validation, discussion, and conclusions. Theory or model papers should illuminate how visualization techniques complement and exploit properties of human vision and cognition, as well as how researchers conduct effective and rigorous visualization studies.
 
-IEEE VIS 2022 solicits submissions in a short paper format. Short Papers welcome submissions describing original work with focused and concise research contributions, incremental work such as follow-up extensions or evaluations of existing methods, or exploratory work. Short papers also welcome papers describing new systems or tools that offer practical value.
-
-Short Papers often fall into one or more of five main categories: technique or algorithm, system or tool, application or design study, empirical study, theory, or model. The contributions of a short paper should be commensurate with the nature of the paper. Technique or algorithm papers should provide clear yet concise technical contributions. System or tool papers should state the value, articulate the target audience, and make an effort toward accessibility (e.g., software release). Papers focusing on visualization application or design study should demonstrate design lessons learned or insights gleaned for visualization research on which future contributors can build. Empirical study papers should justify the validity and importance of the results, including, where appropriate, the definition of hypotheses, tasks, data sets, the rigorous collection and examination/analysis/coding of data, the selection of subjects and cases, as well as validation, discussion, and conclusions. Theory or model papers should illuminate how visualization techniques complement and exploit properties of human vision and cognition, as well as how researchers conduct effective and rigorous visualization studies.
-
-The short paper submission deadline is April 30, 2022, creating an opportunity to showcase late-breaking research results.
+The short paper submission deadline is April 30, 2023, creating an opportunity to showcase late-breaking research results.
 
 ### Short Paper Examples:
 
@@ -34,6 +30,10 @@ Bryce Morrow, Trevor Manz, Arlene E. Chung, Nils Gehlenborg, David Gotz\
 IEEE VIS Short Papers 2019 \[Best Paper\]
 
 #### Paper Type: System or Tool
+[Exploring D3 Implementation Challenges on Stack Overflow](https://dx.doi.org/10.1109/VIS54862.2022.00009)\
+Leilani Battle, Danni Feng, Kelli Webber
+IEEE VIS Short Papers 2022 [Best Paper]
+
 [Encodable: Configurable Grammar for Visualization Components](https://dx.doi.org/10.1109/VIS47514.2020.00033)\
 Krist Wongsuphasawat\
 IEEE VIS Short Papers 2020 \[Honorable Mention\]
@@ -58,59 +58,60 @@ Vidya Setlur, Haeyong Chung\
 IEEE VIS Short Papers 2021 \[Honorable Mention\]
 
 [Evaluating Ordering Strategies of Star Glyph Axes](https://dx.doi.org/10.1109/VISUAL.2019.8933656)\
-Authors: Matthias Miller, Xuan Zhang, Johannes Fuchs, Michael Blumenschein\
+Matthias Miller, Xuan Zhang, Johannes Fuchs, Michael Blumenschein\
 IEEE VIS Short Papers 2019
 
 [Evidence for Area as the Primary Visual Cue in Pie Charts](https://dx.doi.org/10.1109/VISUAL.2019.8933547)\
-Authors: Robert Kosara\
+Robert Kosara\
 IEEE VIS Short Papers 2019
 
 #### Paper Type: Theory or Model
+
+[Toward Systematic Considerations of Missingness in Visual Analytics](https://dx.doi.org/10.1109/VIS54862.2022.00031)\
+Macyuan Sun, Yue Ma, Yuanxin Wang, Tianyi Li, Jian Zhao, Yujin Liu, Ping Shou Zhong
+IEEE VIS Short Papers 2022 [Honorable Mention]
 
 [Jurassic Mark: Inattentional Blindness for a Datasaurus Reveals that Visualizations are Explored, not Seen](https://dx.doi.org/10.1109/VIS49827.2021.9623273)\
 Tal Boger, Steven Most, Steven Franconeri\
 IEEE VIS Short Papers 2021 [Best Paper]
 
 [Characterizing Automated Data Insights](https://dx.doi.org/10.1109/VIS47514.2020.00041)\
-Authors: Po-Ming Law, Alex Endert, John Stasko\
+Po-Ming Law, Alex Endert, John Stasko\
 IEEE VIS Short Papers 2020
 
 [Knowing what to look for: A Fact-Evidence Reasoning Framework for Decoding Communicative Visualization](https://dx.doi.org/10.1109/VIS47514.2020.00053)\
-Authors: Sahaj Vaidya, Aritra Dasgupta\
+Sahaj Vaidya, Aritra Dasgupta\
 IEEE VIS Short Papers 2020
 
 ### Submission Guidelines:
 
 Short papers can be up to four pages plus up to one page of references. Submissions will be in the VGTC conference two-column format, in line with the [IEEE VIS formatting guidelines](https://tc.computer.org/vgtc/publications/conference/).
 
-Short Papers allow single-blind (not anonymized) or double-blind (anonymized) submissions while reviewers’ identities are not revealed. Authors may choose whether to anonymize their submission or not. Double-blind submissions must NOT include author names or institutions on the cover page of the initial submission, and authors should make an effort to ensure that there is no revealing information in the text, such as obvious citations to authors’ previous work, or making acknowledgments to colleagues of long-standing.
+Short Papers allow single-blind (not anonymized) or double-blind (anonymized) submissions while reviewers’ identities are not revealed. Authors may choose whether to anonymize their submission or not. Double-blind submissions must NOT include author names or institutions on the cover page of the initial submission, and authors should make an effort to ensure that there is no revealing information in the text, such as apparent citations to authors’ previous work, or making acknowledgments to colleagues of long standing.
 
-**To submit a short paper, go to [the PCS system](https://new.precisionconference.com/submissions) and select “VGTC > VIS 2022 > VIS 2022 Short Papers” to set up a submission.**
+**To submit a short paper, go to [the PCS system](https://new.precisionconference.com/submissions) and select “VGTC > VIS 2023 > VIS 2023 Short Papers” to set up a submission.**
 
 
 ### Publication Details:
-Accepted short papers will be presented at the VIS conference. They will also be included in the conference proceedings and published in IEEE Xplore and assigned a DOI.  
+Accepted short papers will be presented at the VIS conference. They will also be included in the conference proceedings and published in IEEE Xplore and assigned a DOI.
 
-Authors of accepted short papers may subsequently submit to TVCG a full paper on the same topic, consistent with [the TVCG standard](https://www.computer.org/publications/author-resources/peer-review/journals#preliminary) requiring that papers previously published in conference proceedings make additional substantial scientific contributions that build upon the material of the conference publication or include this material as a part of a larger research effort. Authors are encouraged to mention this in their cover letter, provide a copy of the previous conference submission, and outline the added contributions. Providing these materials will help TVCG reviewers to better gauge the scientific value of the work and defuse any possible misconceptions. TVCG papers, including the ones presented as VIS short papers, can be presented at IEEE VIS.
+Authors of accepted short papers may subsequently submit to TVCG a full paper on the same topic, consistent with [the TVCG standard](https://www.computer.org/publications/author-resources/peer-review/journals#preliminary) requiring that papers previously published in conference proceedings make additional substantial scientific contributions that build upon the material of the conference publication or include this material as a part of a larger research effort. The authors are encouraged to mention this in their cover letter, provide a copy of the previous conference submission, and outline the added contributions. Providing these materials will help TVCG reviewers to better gauge the scientific value of the work and defuse any possible misconceptions. TVCG papers, including the ones presented as VIS short papers, can be presented at IEEE VIS. 
  
-Scientific work builds naturally on previous work, including work published as a short paper at VIS. Accepted VIS short papers can contribute to VIS full paper submissions in a future year. But, such submissions should not contain verbatim copies of previous content. Furthermore, any full paper submission to VIS must represent a novel scientific contribution. 
+Scientific work builds naturally on previous work, including work published as a short paper at VIS. Accepted VIS short papers can contribute to VIS full paper submissions in a future year. But, such submissions should not contain verbatim copies of previous content. Furthermore, any subsequent full paper submission to VIS must represent a novel scientific contribution.  
 
 ### Important Dates:
 
-* Submission Deadline: **April 30, 2022** (no separate abstract deadline)
-* Notification: **June 15, 2022**
-* Submission of Camera-Ready Final Version: **August 1, 2022 (tentative)**
+* Submission Deadline: **April 30, 2023** (no separate abstract deadline)
+* Notification: **June 15, 2023**
+* Submission of Camera-Ready Final Version: **August 1, 2023 (tentative)**
 
-All deadlines are at **5:00pm Pacific Time (PDT)**.
+All deadlines are in **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth) time zone (new for 2023)**.
 
 ### Vis Short Paper Co-Chairs:
 
-* Michelle Borkin, *Northeastern University, USA*
-* Christoph Garth, *Technical University of Kaiserslautern, Germany*
+* Christoph Garth, *University of Kaiserslautern-Landau, Germany*
+* Takayuki Itoh, *Ochanomizu University, Japan*
 * Jonathan Roberts, *Bangor University, United Kingdom*
-* Chaoli Wang, *University of Notre Dame, USA*
-
-{% endcomment %}
 
 Email: [shortpapers@ieeevis.org](mailto:shortpapers@ieeevis.org)
 
