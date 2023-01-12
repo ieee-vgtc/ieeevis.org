@@ -2,7 +2,7 @@
 title: Short Paper Call for Participation
 layout: page
 permalink: /info/call-participation/shortpapers
-contact: vshortpapers@ieeevis.org
+contact: shortpapers@ieeevis.org
 active_nav: "Contribute"
 sidebar: call-for-shortpapers
 ---
