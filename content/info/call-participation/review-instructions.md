@@ -26,6 +26,7 @@ This page provides detailed instructions for both PC reviewers and external revi
   - [Discussion, May 9 thru May 15](#discussion-1)
 - [Additional Reviewing Guidance](#additional-reviewing-guidance)
   - [Paper Quality](#paper-quality)
+  - [Supplemental Materials](#supplemental-materials)
   - [Reviewing Ethics](#reviewing-ethics)
   - [What is a Minor Revision?](#what-is-a-minor-revision)
   - [Managing Resubmission Materials](#managing-resubmission-materials)
@@ -180,6 +181,10 @@ Following the completion of the reviewing phase, the primary reviewer will initi
 ## Paper Quality
 
 As an IEEE VIS reviewer, you are in a position to directly influence the quality of the VIS papers program. Make sure that you stand behind the work you recommend for acceptance! Most importantly, this means that you should only accept high-quality papers that will contribute significantly to the VIS research community. You should, however, also be on the lookout for bold, creative, and potentially transformative work that may significantly extend the frontier of  visualization research. While such submissions should be held to the same quality standard as all other submissions, it is expected that they may not be able to exhaustively (or perfectly) validate all of their contributions. We do not want the conference to consist of work with the fewest flaws; we need to weigh the possible significance of the work and the degree of ambition alongside the extent to which it is described, compared, and validated.
+
+## Supplemental Materials
+
+Authors may include additional material with their submission, such as data tables, code for generating results or analyses, videos, working demos, or appendices with additional results or findings. It is up to the judgment of individual reviewer to determine to what extent this supplemental material is discussed in their review, and to what level of detail they analyze the provided supplements or appendices. However, the authors should feel free to raise potential issues with the supplemental material in their review and request changes or additions, especially in the case where additional material is needed to verify the claims made in the paper.
 
 ## Reviewing Ethics
 
