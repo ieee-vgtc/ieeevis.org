@@ -1,11 +1,9 @@
 ---
-title: prospectus
+title: "IEEE VIS 2023 Sponsorship Prospectus"
 layout: page
 permalink: /prospectus
-contact: [committee-name]@ieeevis.org
+contact: supporters@ieeevis.org
 ---
-
-# IEEE VIS 2023 Sponsorship Prospectus 
 
 IEEE VIS offers a wide varity of sponship options and benefits.
 

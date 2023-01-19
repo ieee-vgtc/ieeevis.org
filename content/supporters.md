@@ -1,11 +1,9 @@
 ---
-title: supporters
+title: "Supporting the IEEE VIS Conference"
 layout: page
 permalink: /supporters
-contact: [committee-name]@ieeevis.org
+contact: supporters@ieeevis.org
 ---
-
-# Supporting the IEEE VIS Conference
 
 VIS 2023 will be the year’s premier forum for advances in theory, methods, applications of data visualization, and visual analytics. The conference will convene an international community of researchers and practitioners from universities, government, and industry to exchange recent findings on the design and use of visualization tools. This year, for the first time, the conference is hosted in Australia, in Melbourne. 
 
