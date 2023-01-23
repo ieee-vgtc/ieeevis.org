@@ -10,14 +10,14 @@ The task of the IEEE VIS Steering Committee (VSC) is to provide long-term scient
 Current members of the VSC are:
 
 | **Name** | **Affiliation** |
+| Jeffrey Heer | *University of Washington* |
 | Petra Isenberg | *Inria* |
 | Shixia Liu | *Tsinghua University* |
 | Kwan-Liu Ma | *University of California at Davis* |
-| Robert Moorhead | *Mississippi State University* |
+| Miriah Meyer | *Linköping University* |
 | Stephen North | *Infovisible* (Chair) |
-| Tobias Schreck | *TU Graz* |
+| Jinwook Seo | *Seoul National University* |
 | Deborah Silver | *Rutgers University* |
-| Melanie Tory | *Northeastern University* |
 | Anna Vilanova | *Eindhoven University of Technology* |
 
 
