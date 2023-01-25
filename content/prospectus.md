@@ -5,6 +5,8 @@ permalink: /prospectus
 contact: supporters@ieeevis.org
 ---
 
+![Frame 3vis23](https://user-images.githubusercontent.com/1230497/214551591-d794e21d-139d-47a1-b415-12cdec1cb42e.png)
+
 IEEE VIS offers a wide varity of sponship options and benefits.
 
 | Sponsor level | Australian dollars (AUD) | US-dollars (USD) | 
@@ -22,6 +24,12 @@ IEEE VIS offers a wide varity of sponship options and benefits.
 | [Plenary Session Sponsor](#plenary-session-sponsor) | 4,000 AUD |  2,750 USD |
 | [Exhibitor](#exhibitor) | 4,500 AUD |  3,000 USD |
 
+# Contact: 
+- General inquiry: Chad Murphy - ASN Events [<chad.m -at- asnevents.net.au>](mailto:chad.m@asnevents.net.au)
+- Conference related questions: IEEE VIS Supporters Chairs [<supporters -at- ieeevis.org>](mailto:supporters@ieeevis.org)
+
+ 
+![Frame 4vis23](https://user-images.githubusercontent.com/1230497/214551637-42d85b5b-5ba2-4496-9db2-13f682eb58c7.png)
 
 # Event Partner
 **45,000 AUD (Capped at 30,000 USD)**
@@ -68,6 +76,8 @@ _Exclusive_
 * 50% discount on VIP Luncheon
 
 
+![Frame 1vis23](https://user-images.githubusercontent.com/1230497/214551678-6d4259fc-3576-41ac-9ec1-809c6f11bf64.png)
+
 # Platinum Supporter 
 **30,000 AUD (Capped at 20,000 USD)**
 
@@ -113,6 +123,7 @@ _2 available_
 * 30% discount on VIP Luncheon
 
 
+![Frame 10vis23](https://user-images.githubusercontent.com/1230497/214551701-26b71923-9e6d-4b73-b7bb-dbc6212f46dc.png)
 
 
 # Gold Supporter
@@ -155,6 +166,9 @@ _3 available_
 * 20% discount on Coffee Cart Sponsorship
 * 20% discount on VIP Luncheon
 
+
+![Frame 8vis23](https://user-images.githubusercontent.com/1230497/214552003-b3d48f92-93d4-4085-a996-6c634a980f9b.png)
+
 # Silver Supporter
 **12,000 AUD (Capped at 8,000 USD)**
 
@@ -192,6 +206,8 @@ _5 available_
 * 10% discount on Coffee Cart Sponsorship
 * 10% discount on VIP Luncheon
 
+![Frame 6vis23](https://user-images.githubusercontent.com/1230497/214552756-4ed63aac-0877-4985-ad50-4ab849f94793.png)
+
 # Bronze Supporter
 **7,500 AUD (Capped at 5,000 USD)**
 
@@ -220,6 +236,8 @@ _5 available_
 * App powered QR-code reader for capture of delegate contact details
 * Post-conference app analytics for sponsors
  
+![Frame 2vis23](https://user-images.githubusercontent.com/1230497/214552065-96cabff7-7d61-42d0-9cfc-3afdfd77225e.png)
+ 
 # Pearl Supporter                               	
 **3,000 AUD (Capped at 2,000 USD)**
 
@@ -230,6 +248,10 @@ _5 available_
 ## Branding
 * Acknowledgement as a Pearl Sponsor with logo recognition on conference signage at the event
 * Acknowledgement as PearlSponsor with logo recognition and link to your website on both Conference web page and app 
+
+
+![Frame 7vis23](https://user-images.githubusercontent.com/1230497/214552032-4a3e2a12-1c13-4282-af46-d10709323fdf.png)
+
 
 # Education Supporter
 **7,500 AUD (Capped at 5,000 USD)**
@@ -247,6 +269,8 @@ _Available only to academic/education organizations (e.g., universities with vis
 * Acknowledgement as an Education Sponsor with logo recognition on conference signage at the event
 * Acknowledgement as an Education Sponsor with logo recognition and link to your website on both Conference web page and app 
 * Acknowledgement as a Education Sponsor with logo recognition in conference marketing emails
+
+
 
 # VIP Luncheon Supporter
 **10,000 AUD (Capped at 6,750 USD)**
@@ -268,6 +292,8 @@ _Only available if not utilised by any Platinum or Gold Sponsor_
 * 100-word promotional paragraph with contact details listed in the Conference Handbook
 * Organisation logo on onsite conference signage
 * Please note there are a total of 20 seats available for the luncheon which includes the 4 included sponsor seats.
+
+
 
 # Conference Dinner Supporter
 **8,000 AUD (Capped at 5,500 USD)**
@@ -311,6 +337,8 @@ _Only available if not utilised by Platinum or Gold Sponsor_
  
 
  
+ 
+ 
 # Plenary Session Sponsor
 **4,000 AUD (Capped at 2,750 USD)**
 
@@ -321,6 +349,8 @@ _Available only if not taken by top level sponsors_
 * Organisation logo on holding slides at the start of the Sponsored breakfast session
 * Organisation logo on onsite conference signage
 * One (1) full conference registration
+
+
 
 # Exhibitor
 **4,500 AUD (Capped at 3,000 USD)**
@@ -333,4 +363,11 @@ _Available only if not taken by top level sponsors_
 ### Branding
 * Logo acknowledgement on Conference web page and app
 * A link to your website from the Conference website and app
-* 50-word company listing in Conference app and delegate handbook=
+* 50-word company listing in Conference app and delegate handbook
+ 
+ 
+# Contact: 
+- General inquiry: Chad Murphy - ASN Events [<chad.m -at- asnevents.net.au>](mailto:chad.m@asnevents.net.au)
+- Conference related questions: IEEE VIS Supporters Chairs [<supporters -at- ieeevis.org>](mailto:supporters@ieeevis.org)
+
+ 
