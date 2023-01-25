@@ -16,8 +16,9 @@ Through a six-day program of workshops and tutorials, exposition, panels, poster
 ## [>> Browse our sponsorship options <<](prospectus) 
 
 # Contact: 
-- General inquiry: Chad Murphy - ASN Events <chad.m -at- asnevents.net.au>](mailto:chad.m@asnevents.net.au)
-- Conference related questions: IEEE VIS Supporters Chairs <supporters -at- ieeevis.org>](mailto:supporters@ieeevis.org)
+- General inquiry: Chad Murphy - ASN Events [<chad.m -at- asnevents.net.au>](mailto:chad.m@asnevents.net.au)
+- Conference related questions: IEEE VIS Supporters Chairs [<supporters -at- ieeevis.org>](mailto:supporters@ieeevis.org)
+
 
 ![Frame 4vis23](https://user-images.githubusercontent.com/1230497/214549327-b763bf31-f701-4619-96ef-f9b6b8a0bef2.png)
 
@@ -77,5 +78,6 @@ You can contribute in Australian dollars (AUD) as well as US dollars (numbers ar
 
   
 # Contact: 
-- General inquiry: Chad Murphy - ASN Events <chad.m -at- asnevents.net.au>](mailto:chad.m@asnevents.net.au)
-- Conference related questions: IEEE VIS Supporters Chairs <supporters -at- ieeevis.org>](mailto:supporters@ieeevis.org)
+- General inquiry: Chad Murphy - ASN Events [<chad.m -at- asnevents.net.au>](mailto:chad.m@asnevents.net.au)
+- Conference related questions: IEEE VIS Supporters Chairs [<supporters -at- ieeevis.org>](mailto:supporters@ieeevis.org)
+
