@@ -24,6 +24,11 @@ IEEE VIS offers a wide varity of sponship options and benefits.
 | [Plenary Session Sponsor](#plenary-session-sponsor) | 4,000 AUD |  2,750 USD |
 | [Exhibitor](#exhibitor) | 4,500 AUD |  3,000 USD |
 
+# Contact: 
+- General inquiry: Chad Murphy - ASN Events [<chad.m -at- asnevents.net.au>](mailto:chad.m@asnevents.net.au)
+- Conference related questions: IEEE VIS Supporters Chairs [<supporters -at- ieeevis.org>](mailto:supporters@ieeevis.org)
+
+ 
 ![Frame 4vis23](https://user-images.githubusercontent.com/1230497/214551637-42d85b5b-5ba2-4496-9db2-13f682eb58c7.png)
 
 # Event Partner
@@ -358,4 +363,11 @@ _Available only if not taken by top level sponsors_
 ### Branding
 * Logo acknowledgement on Conference web page and app
 * A link to your website from the Conference website and app
-* 50-word company listing in Conference app and delegate handbook=
+* 50-word company listing in Conference app and delegate handbook
+ 
+ 
+# Contact: 
+- General inquiry: Chad Murphy - ASN Events [<chad.m -at- asnevents.net.au>](mailto:chad.m@asnevents.net.au)
+- Conference related questions: IEEE VIS Supporters Chairs [<supporters -at- ieeevis.org>](mailto:supporters@ieeevis.org)
+
+ 
