@@ -13,6 +13,12 @@ VIS 2023 will be the year’s premier forum for advances in theory, methods, app
 
 Through a six-day program of workshops and tutorials, exposition, panels, posters, keynotes, and research presentations! The conference convenes a global community of over 1000 researchers, students, and practitioners from universities, government, and industry with broad backgrounds in computing, design, mathematics, science, and more. An active recruitment venue for skilled candidates and potential research collaborations, VIS 2023 is where top university graduates and researchers gather. Support this community, and make your presence known at IEEE VIS 2023.
 
+## [>> Browse our sponsorship options <<](prospectus) 
+
+# Contact: 
+- General inquiry: Chad Murphy - ASN Events <chad.m -at- asnevents.net.au>](mailto:chad.m@asnevents.net.au)
+- Conference related questions: IEEE VIS Supporters Chairs <supporters -at- ieeevis.org>](mailto:supporters@ieeevis.org)
+
 ![Frame 4vis23](https://user-images.githubusercontent.com/1230497/214549327-b763bf31-f701-4619-96ef-f9b6b8a0bef2.png)
 
 ## Supporting and joining the conference can help you: 
@@ -22,8 +28,6 @@ Through a six-day program of workshops and tutorials, exposition, panels, poster
 * Discuss how to integrate the latest advances into your business
 * Seek talent for your business and start recruiting
 * Start collaborations with academia and other industry labs
-
-## [>> Browse our sponsorship options <<](prospectus) 
 
 ![Frame 6vis23](https://user-images.githubusercontent.com/1230497/214549414-374935c3-a6f8-4a23-89ef-188d3c84e4ae.png)
 
@@ -70,3 +74,8 @@ Support a growing research community dedicated to helping humans understand thei
 ## Can I contribute in USD instead of AUD?
 
 You can contribute in Australian dollars (AUD) as well as US dollars (numbers are given in both currencies in the prospectus). Depending on the currency employed, a different bank account will be communicated to you.
+
+  
+# Contact: 
+- General inquiry: Chad Murphy - ASN Events <chad.m -at- asnevents.net.au>](mailto:chad.m@asnevents.net.au)
+- Conference related questions: IEEE VIS Supporters Chairs <supporters -at- ieeevis.org>](mailto:supporters@ieeevis.org)
