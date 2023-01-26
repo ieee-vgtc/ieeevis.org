@@ -17,7 +17,7 @@ Through a six-day program of workshops and tutorials, exposition, panels, poster
 
 # Contact: 
 - General inquiry: Chad Murphy - ASN Events [<chad.m -at- asnevents.net.au>](mailto:chad.m@asnevents.net.au)
-- Conference related questions: IEEE VIS Supporters Chairs [<supporters -at- ieeevis.org>](mailto:supporters@ieeevis.org)
+- Conference-related questions: IEEE VIS Supporters Chairs [<supporters -at- ieeevis.org>](mailto:supporters@ieeevis.org)
 
 
 ![Frame 4vis23](https://user-images.githubusercontent.com/1230497/214549327-b763bf31-f701-4619-96ef-f9b6b8a0bef2.png)
@@ -63,10 +63,12 @@ Through a six-day program of workshops and tutorials, exposition, panels, poster
 ![Frame 3vis23](https://user-images.githubusercontent.com/1230497/214549391-3c244d13-a8a1-46a7-b90a-dc654484a658.png)
 
 ## In supporting the conference as a VIS 2023 Supporter, you: 
-* Will have access to [a range of options for promotion and engagement](prospectus), based on level of support: Platinum, Gold, Bronze, ... 
-* Will have access to the conference and its events through registrations for your staff 
-Have the opportunity to directly sponsor Diversity, Equity and Inclusion priorities
-Support a growing research community dedicated to helping humans understand their data
+* will have access to [a range of options for promotion and engagement](prospectus), based on level of support: Platinum, Gold, Bronze, ... 
+* will have access to the conference and its events through registrations for your staff 
+* will have the opportunity to directly sponsor Diversity, Equity and Inclusion priorities
+* will have access to the conference and its events through registrations for your staff
+* will support a growing research community dedicated to helping humans understand their data
+  
 
 ![Frame 10vis23](https://user-images.githubusercontent.com/1230497/214549434-a59b00eb-9cad-4854-bf10-8821f50f947d.png)
 
@@ -79,5 +81,5 @@ You can contribute in Australian dollars (AUD) as well as US dollars (numbers ar
   
 # Contact: 
 - General inquiry: Chad Murphy - ASN Events [<chad.m -at- asnevents.net.au>](mailto:chad.m@asnevents.net.au)
-- Conference related questions: IEEE VIS Supporters Chairs [<supporters -at- ieeevis.org>](mailto:supporters@ieeevis.org)
+- Conference-related questions: IEEE VIS Supporters Chairs [<supporters -at- ieeevis.org>](mailto:supporters@ieeevis.org)
 
