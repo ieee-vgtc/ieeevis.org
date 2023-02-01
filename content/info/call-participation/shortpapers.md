@@ -112,6 +112,7 @@ All deadlines are in **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Ear
 * Christoph Garth, *University of Kaiserslautern-Landau, Germany*
 * Takayuki Itoh, *Ochanomizu University, Japan*
 * Jonathan Roberts, *Bangor University, United Kingdom*
+* Hongfeng Yu, *University of Nebraska-Lincoln, USA*
 
 Email: [shortpapers@ieeevis.org](mailto:shortpapers@ieeevis.org)
 
