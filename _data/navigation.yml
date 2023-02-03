@@ -111,10 +111,10 @@ menu:
                     url: "/year/2023/info/call-participation/call-for-participation"
                   - text: "Short Papers"
                     url: "/year/2023/info/call-participation/shortpapers"
-                  # - text: "Posters"
-                  #   url: "/year/2023/info/call-participation/posters"
-                  # - text: "Tutorials"
-                  #   url: "/year/2023/info/call-participation/tutorials"
+                  - text: "Posters"
+                    url: "/year/2023/info/call-participation/posters"
+                  #- text: "Tutorials"
+                  #  url: "/year/2023/info/call-participation/tutorials"
                   - text: "Workshops"
                     url: "/year/2023/info/call-participation/workshops"
                   # - text: "Panels"
@@ -269,63 +269,75 @@ menu:
   #              #     url: "https://www.google.com"
 
   - dropdown: "Events & Community"
-    display: false
+    display: true
     sections:
       - subsections:
           - heading: "Associated Events"
             columns:
               - links:
-                  - text: "VIS Arts Program: Mingling Spaces"
-                    description: "Where art, design, and research mingle"
-                    url: "https://visap.net/"
-                    is_external: true
-                  - text: "VisInPractice"
-                    description: "Invited talks by visualization practitioners"
-                    url: "/year/2023/info/visinpractice"
+#                  - text: "VIS Arts Program: Mingling Spaces"
+#                    description: "Where art, design, and research mingle"
+#                    url: "https://visap.net/"
+#                    is_external: true
+#                  - text: "VisInPractice"
+#                    description: "Invited talks by visualization practitioners"
+#                    url: "/year/2023/info/visinpractice"
                   - text: "LDAV Symposium"
                     description: "Big Data Analysis and Visualization"
-                    url: "https://ldav.org/"
-                    is_external: true
+#                    url: "https://ldav.org/"
+#                    is_external: true
                   - text: "VDS Symposium"
                     description: "Visualization in Data Science"
-                    url: "http://www.visualdatascience.org/"
-                    is_external: true
+#                    url: "http://www.visualdatascience.org/"
+#                    is_external: true
                   - text: "VizSec Symposium"
                     description: "Visualization for Cyber Security"
-                    url: "https://vizsec.org/vizsec2022/"
-                    is_external: true
+#                    url: "https://vizsec.org/"
+#                    is_external: true
+                  - text: "TopoInVis"
+                    description: "Topological Data Analysis and Visualization"
+#                    url: "https://topoinvis-workshop.github.io/"
+#                    is_external: true
+                  - text: "VAHC"
+                    description: "Visual Analytics in Healthcare"
+#                    url: "https://visualanalyticshealthcare.org/"
+#                    is_external: true
+                  - text: "VISxAI"
+                    description: "Visualization for AI Explainability"
+#                    url: "http://visxai.io/"
+#                    is_external: true
+                  - text: "VIS4DH"
+                    description: "Visualization for AI Explainability"
+#                    url: "https://vis4dh.dbvis.de/"
+#                    is_external: true
                   - text: "IEEE VIS Workshops"
                     description: "Informal settings to discuss emerging topics"
                     url: "/year/2023/info/workshops"
-                  - text: "University of Oklahoma Open House"
-                    description: "Tour OU facilities, registration required"
-                    url: "/year/2023/assets/ou-open-house-invite.pdf"
-                    is_new: true
       - subsections:
           - heading: "Competitions"
             description: "Advancing visualization through competition"
             columns:
               - links:
                   - text: "Bio+MedVis Challenges"
-                    url: "http://biovis.net/2022/ieeevis/"
-                    is_external: true
+#                    url: "http://biovis.net/2022/ieeevis/"
+#                    is_external: true
                   - text: "SciVis Contest"
-                    url: "https://www.lanl.gov/projects/sciviscontest2022/"
-                    is_external: true
+#                    url: "https://www.lanl.gov/projects/sciviscontest2022/"
+#                    is_external: true
                   - text: "VAST Challenge"
-                    url: "https://vast-challenge.github.io/2022/"
-                    is_external: true
+#                    url: "https://vast-challenge.github.io/2022/"
+#                    is_external: true
 
           - heading: "Community"
             heading_url: "/year/2023/info/call-participation/community"
             description: "Explore social and topic-based community groups"
             columns:
-              - heading: "Connect"
-                links:
+              #- heading: "Connect"
+              #  links:
 #                  - text: "Vis Buddies"
 #                    url: "/year/2023/info/meetups#vis-newcomers"
-                  - text: "Job Postings"
-                    url: "/year/2023/info/jobs"
+                  #- text: "Job Postings"
+                  #  url: "/year/2023/info/jobs"
 #                  - text: "Other Meetups"
 #                    url: "/year/2023/info/meetups"
 #              - heading: "Social Groups"
