@@ -9,26 +9,27 @@ active_nav: "Contribute"
 sidebar: call-for-participation
 ---
 
-IEEE VIS 2022 Panels should address important and/or controversial applications and issues in visualization and its subfields today. In particular, we invite panels that:
+IEEE VIS 2023 Panels should address contemporary, important and/or controversial debates, issues and applications in visualization and related topics. In particular, we invite panels that:
 
-* Bring together interest groups and discuss cross-cutting issues that apply to the broad VIS community
-* Connect visualization with interesting application fields.
-* Bring researchers together with potential users of visualization
-* Consist of experts in fields that discuss and/or debate important concepts (e.g., perceptual psychology, visual design, color theory, user-interface design)
-* Raise controversial, important, or emerging issues in the field of visualization.
+* Bring together interest groups and discuss cross-cutting issues that are of interest to the broad VIS community
+* Connect visualization with interesting application fields
+* Open up interdisciplinary debates that explore the role of visualization in science and society 
+* Bring visualization researchers together with potential stakeholders of visualization
+* Consist of experts in fields that discuss and/or debate relevant concepts that broaden the intellectual scope of visualization research (e.g., perceptual psychology, cognitive psychology, design research, color theory, user-interface design)
+* Raise controversial, important, or emerging debates in relation to visualization
 
 Panelists should be experts in their fields who can discuss the challenges of visualization, and engage the audience and fellow panel members in a stimulating, interactive debate.
 
-VIS Panels value diversity in perspective, opinion, and representation. The most interesting sessions are the ones where there are many different perspectives. In selecting panels, the committee will favor panels that reflect the breadth and richness of the VIS community. In curating a panel, we urge you to consider speakers that come from a variety of intellectual backgrounds, with diverse genders, ethnicities, and nationalities.
+VIS Panels value diversity in perspective, opinion, and representation. The most interesting sessions are the ones where there are many different perspectives. In selecting panels, the committee will favor panels that reflect and broaden the breadth and richness of the VIS community. In curating a panel, we urge you to consider speakers that come from a variety of intellectual backgrounds, with diverse genders, ethnicities, and nationalities.
 
 
 ## Panel Logistics
 
-**Currently, IEEE VIS is planned to be a hybrid event. Panel proposals may therefore involve a combination of virtual and in-person panelists, and panel proposals should include considerations for both in-person and virtual attendees.**
+**IEEE VIS is planned to be an in-person event. Panel proposals are therefore expected to consist of  in-person panelists, and organizers should recruit panelists who would be able to attend their panel in person.**
 
-Panels are scheduled for the duration of an entire paper session; panel proposals should thus target one hour and 30 minutes total duration, including question and discussion periods. We strongly recommend that in order to keep to time, the chair of the panel is not one of the panel speakers.
+Panels are scheduled for the duration of an entire paper session; panel proposals should thus target 90 minutes total duration, including questions and discussion. We strongly recommend that in order to keep to time, the chair of the panel is not one of the panel speakers and instead moderates the discussion. We also recommend organizers to encourage lively discussions both within the panelists and the audience and ensure that there is sufficient time for such interactions to take place.
 
-IEEE VIS records videos to archive panels, making them available online. Many VIS participants, as well as people who cannot attend, have found these archived panels to be a valuable part of the process. Panel organizers may choose not to have the panels made available to the public.
+
 
 ## Submissions
 
@@ -44,20 +45,20 @@ Submissions should be submitted via [PCS](http://new.precisionconference.com/vgt
 Feel free to address any questions concerning submission, format, and content to [panels@ieeevis.org](mailto:panels@ieeevis.org).
 
 ## Past Panels
-Panels will be recorded and posted to Vimeo for archival viewing. Panels from 2021 can be found at [http://ieeevis.org/year/2021/info/panels](http://ieeevis.org/year/2021/info/panels) and from 2020 can be found at [http://ieeevis.org/year/2020/info/panels](http://ieeevis.org/year/2020/info/panels).
+Panels will be recorded and posted to Vimeo for archival viewing. Panels from 2022 can be found at [http://ieeevis.org/year/2022/info/panels](http://ieeevis.org/year/2022/info/panels) and from 2021 can be found at [http://ieeevis.org/year/2021/info/panels](http://ieeevis.org/year/2021/info/panels).
 
 ## IMPORTANT DATES
 
 | Date | Activity |
 |------|----------|
-| Thursday, ~~June 30, 2022~~ **Extended: July 15, 2022** | Proposal Submission |
-| Tuesday, August 09, 2022 | Notification |
-| Wednesday, August 24, 2022 | Final Submission of Panel Summaries and Video Fast Forwards |
+| Friday, June 30, 2023 | Proposal Submission |
+| Friday, August 11, 2023 | Notification |
+| Friday, August 25, 2023 | Final Submission of Panel Summaries and Video Fast Forwards |
       
 All deadlines are at **5:00pm Pacific Time (PDT)**.
 
 ## Chairs
 
-Michael Correll, *Tableau Research* <br />
-Yunhai Wang, *Shandong University* <br />
+Yunhai Wang, *Shandong University*
 Hsiang-Yun Wu, *St. Pölten University of Applied Sciences* 
+Cagatay Turkay, *University of Warwick*
