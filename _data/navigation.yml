@@ -354,7 +354,10 @@ menu:
                     url: "https://www.facebook.com/ieeevis"
                     is_external: true
                   - text: "Twitter"
-                    url: "https://twitter.com/ieeevis"
+                    url: "https://twitter.com/ieeevis" 
+                    is_external: true
+                  - text: "Mastodon"
+                    url: "https://vis.social/@ieeevis" 
                     is_external: true
 
   - dropdown: "Organization & History"
