@@ -158,7 +158,7 @@ menu:
 # #                     url: "/year/2023/info/presenter-information/presenting-virtually"
 # #                     is_new: true
 
-#       - subsections:
+       - subsections:
 #           - heading: "Get Involved"
 #             columns:
 #               - links:
