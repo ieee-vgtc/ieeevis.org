@@ -158,7 +158,7 @@ menu:
 # #                     url: "/year/2023/info/presenter-information/presenting-virtually"
 # #                     is_new: true
 
-       - subsections:
+      - subsections:
 #           - heading: "Get Involved"
 #             columns:
 #               - links:
@@ -185,9 +185,9 @@ menu:
 # #                 # - text: "Become an organizer"
 # #                 #   description: "TK TK TK Join the committees and help organize VIS"
 # #                 #   url: "https://www.google.com"
-           - heading: "Supporters"
-             heading_url: "/year/2023/supporters"
-             description: "Your support makes this conference possible!"
+          - heading: "Supporters"
+            heading_url: "/year/2023/supporters"
+            description: "Your support makes this conference possible!"
 
   - dropdown: "Program"
     display: false
