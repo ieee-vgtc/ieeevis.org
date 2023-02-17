@@ -88,7 +88,7 @@ permalink: /info/committees/conference-committee
 |---
 | **Arts Program Chairs** | |
 | Xavier Ho | *Monash University* |
-| Uta Hinrichs | ** |
+| Uta Hinrichs | *University of Edinburgh* |
 | Rebecca Ruige Xu | *Syracuse University* |
 |---
 | **Vis in Practice Chairs** | |
@@ -107,7 +107,7 @@ permalink: /info/committees/conference-committee
 | Jun Tao | ** |
 |---
 | **Publications Chairs** | |
-| Arvind Satyanarayan | ** |
+| Arvind Satyanarayan | *Massachusetts Institute of Technology* |
 | Zhicheng Liu | *University of Maryland College Park* |
 | Katerina Vrotsou | *Linköping University* |
 |---
@@ -121,7 +121,7 @@ permalink: /info/committees/conference-committee
 | Yang Shi | *Tongji University* |
 |---
 | **Community Chairs** | |
-| Bon Adriel Aseniero | ** |
+| Bon Adriel Aseniero |  |
 | Qing Chen | *Tongji University* |
 | Alfie Abdul-Rahman | *King's College London* |
 |---
@@ -138,7 +138,7 @@ permalink: /info/committees/conference-committee
 |---
 | **Inclusivity Chairs** | |
 | John Alexis Guerra Gómez | *Northeastern University, Silicon Valley* |
-| Vetria Byrd | ** |
+| Vetria Byrd |  |
 |---
 | **Accessibility Chairs** | |
 | Kim Marriott | *Monash University* |
@@ -146,32 +146,32 @@ permalink: /info/committees/conference-committee
 |---
 | **Supporters Chairs** | |
 | Maxime Cordeil | *The University of Queensland* |
-| Benjamin Bach | ** |
+| Benjamin Bach | *University of Edinburgh* |
 | Vidya Setlur | *Tableau Research* |
 | Barrett Ens | *Monash University* |
-| Christy Ling | ** |
+| Christy Ling |  |
 | Andrew Cunningham | *University of South Australia* |
 | Eli T. Brown | *DePaul University* |
 |---
 | **Finance Chairs** | |
 | Loretta Auvil | *University of Illinois at Urbana Champaign* |
 | Maria C. Velez | *Marvel Analytics* |
-| Bhavana Doppalapudi | ** |
+| Bhavana Doppalapudi |  |
 |---
 | **Incoming General Chairs (VIS24)** | |
 | Paul Rosen | *University of Utah* |
 | Kristin Potter | *National Renewable Energy Lab* |
-| Remco Chang | *Tufts* |
+| Remco Chang | *Tufts University* |
 |---
 | **Archive Chairs** | |
 | Xiting Wang | *Microsoft* |
 | Carolina Nobre | *University of Toronto* |
-| Kyle Hall | ** |
+| Kyle Hall |  |
 |---
 | **Web Chairs** | |
-| Dylan Cashman | ** |
+| Dylan Cashman | Novartis |
 | Steve Petruzza | *Utah State University* |
-| Janos Zimmermann | ** |
+| Janos Zimmermann | *Otto-von-Guericke-University Magdeburg* |
 | Rebecca Kehlbeck | *University of Konstanz* |
 | Mashrur Rashik | *University of Massachusetts Amherst* |
 | Jim Smiley | *Monash University* |
@@ -184,7 +184,7 @@ permalink: /info/committees/conference-committee
 |---
 | **VAST Challenge Chairs** | |
 | Jereme Haack | ** |
-| Alvitta Ottley | ** |
+| Alvitta Ottley | *Washington University in St. Louis* |
 | R. Jordan Crouser | *Smith College* |
 |---
 | **SciVis Contest Chairs** | |
