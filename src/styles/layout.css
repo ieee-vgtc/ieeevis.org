@@ -28,7 +28,6 @@ html {
 
 .title {
     flex: auto;
-    min-width: 520px;
     max-width: 550px;
 }
 
