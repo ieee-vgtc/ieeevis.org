@@ -114,7 +114,7 @@ menu:
                   - text: "Posters"
                     url: "/year/2023/info/call-participation/posters"
                   - text: "Tutorials"
-                   url: "/year/2023/info/call-participation/tutorials"
+                    url: "/year/2023/info/call-participation/tutorials"
                   - text: "Workshops"
                     url: "/year/2023/info/call-participation/workshops"
                   - text: "Panels"
