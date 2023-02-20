@@ -55,7 +55,7 @@ Panels will be recorded and posted to Vimeo for archival viewing. Panels from 20
 | Friday, August 11, 2023 | Notification |
 | Friday, August 25, 2023 | Final Submission of Panel Summaries and Video Fast Forwards |
       
-All deadlines are at **5:00pm Pacific Time (PDT)**.
+All deadlines are Anywhere on Earth (**AOE**) time.
 
 ## Chairs
 
