@@ -1,7 +1,6 @@
 const path = require('path');
 const glob = require('glob');
 const TerserJSPlugin = require('terser-webpack-plugin');
-const PurgecssPlugin = require('purgecss-webpack-plugin');
 const CompressionPlugin = require('compression-webpack-plugin');
 const merge = require('webpack-merge');
 const common = require('./webpack.common.js');
@@ -23,16 +22,6 @@ module.exports = merge(common, {
     },
 
     plugins: [
-        new CompressionPlugin(),
-
-        new PurgecssPlugin({
-            paths: glob.sync(path.join(__dirname, '{_includes,_layouts,content}') + '/**/*', { nodir: true }),
-            extractors: [
-                {
-                    extractor: TailwindExtractor,
-                    extensions: ['html']
-                }
-            ]
-        })
+        new CompressionPlugin()
     ]
 });
