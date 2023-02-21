@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "dependencies": {
-    "tailwindcss": "^3.2.7",
+    "tailwindcss": "^1.9.6",
     "vue": "~2.6"
   },
   "devDependencies": {
