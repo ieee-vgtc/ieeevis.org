@@ -26,10 +26,10 @@ jobs:
       run: |
         git fetch --no-tags --prune --depth=1 origin +refs/heads/*:refs/remotes/origin/*
         git checkout master
-    - name: Set up Python 2.7.x
+    - name: Set up Python 3.8.x
       uses: actions/setup-python@v1
       with:
-        python-version: '2.x'
+        python-version: '3.8.x'
     - name: Install python dependencies
       run: |
         python -m pip install --upgrade pip
