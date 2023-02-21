@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "dependencies": {
-    "tailwindcss": "^1.9.6",
+    "tailwindcss": "^3.2.7",
     "vue": "~2.6"
   },
   "devDependencies": {
@@ -20,12 +20,12 @@
     "clean-webpack-plugin": "^3.0.0",
     "compression-webpack-plugin": "^9.1.2",
     "css-loader": "^3.2.0",
+    "css-minimizer-webpack-plugin": "^4.0.0",
     "cssnano": "^5.0.12",
     "jshint": "^2.10.2",
-    "jshint-loader": "^0.8.4",
+    "jshint-loader": "^0.7.0",
     "mini-css-extract-plugin": "^2.6.0",
     "node-libs-browser": "^2.2.1",
-    "css-minimizer-webpack-plugin": "^4.0.0",
     "postcss-import": "^12.0.1",
     "postcss-loader": "^3.0.0",
     "postcss-preset-env": "^6.7.0",
