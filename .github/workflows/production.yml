@@ -37,22 +37,22 @@ jobs:
       run: |
         git fetch --force --tags --prune --depth=1 origin +refs/heads/*:refs/remotes/origin/*
         git checkout master
-    - name: Set up Python 2.7.x
+    - name: Set up Python 3.8.x
       uses: actions/setup-python@v1
       with:
-        python-version: '2.x'
+        python-version: '3.8.x'
     - name: Install python dependencies
       run: |
         python -m pip install --upgrade pip
         pip install -r scripts/requirements.txt
-    - name: Install Ruby 2.6.x
-      uses: actions/setup-ruby@v1
+    - name: Install Ruby 2.6
+      uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '2.6.x'
+        ruby-version: '2.6'
     - name: Install ruby dependencies
       run: |
         gem install bundler
-        gem install jekyll
+        bundle
     - name: Set up AWS credentials (+ set default user)
       run: |
         mkdir -p ~/.aws
