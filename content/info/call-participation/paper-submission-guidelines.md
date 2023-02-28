@@ -40,7 +40,7 @@ IEEE VIS uses the [Precision Conference System (PCS)](https://new.precisionconfe
 
 ## Formatting and Language Guidelines
 
-Papers must follow the [formatting guidelines for IEEE VIS *TVCG* Journal submissions](https://tc.computer.org/vgtc/publications/journal). Papers should include full-color figures throughout and we encourage authors to showcase their work with annotated, well described, large, and detailed graphics. We also encourage the placement of a teaser image at the top of the very first page to showcase your work visually. IEEE VIS reviewers appreciate high-quality submissions with correct English spelling and grammar: non-native English speakers may wish to enlist an English language editing service.
+Papers must follow the [formatting guidelines for IEEE VIS *TVCG* Journal submissions](https://tc.computer.org/vgtc/publications/journal). Note that **the template has changed for 2023** (latest update Jan 11 2023), see below for updates on page length. Both authors and reviewers should also note that the previous paper types specified in the template are no longer in effect for VIS although they are used by other conferences, so please ignore the `vgtcpapertype` field in the template. Papers should include full-color figures throughout and we encourage authors to showcase their work with annotated, well described, large, and detailed graphics. We also encourage the placement of a teaser image at the top of the very first page to showcase your work visually. IEEE VIS reviewers appreciate high-quality submissions with correct English spelling and grammar: non-native English speakers may wish to enlist an English language editing service.
 
 ## Anonymization
 
