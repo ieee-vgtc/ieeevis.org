@@ -1,11 +1,11 @@
 ---
-title: VIS 2022 Accessible Conference
+title: VIS 2023 Accessible Conference
 layout: page
 permalink: /info/accessibility/attend
 contact: accessibility@ieeevis.org
 ---
 
-IEEE VIS seeks to cultivate an environment that encourages participation and inclusion. Our goal is to make IEEE VIS 2022 as accessible as possible. The following is information about the accessibility of various components of VIS 2022. If you like to learn about our VIS Accessibility Guide for VIS 2022 authors on how to make your pdf accessible, please refer to [this guide](/year/2022/info/call-participation/make-pdf-accessible). We also encourage speakers to [ensure that their talks are accessible](http://www.sigaccess.org/welcome-to-sigaccess/resources/accessible-presentation-guide/). Please get in touch with us at [accessibility@ieeevis.org](mailto:accessibility@ieeevis.org) if you have questions, concerns, or would like to provide feedback.
+IEEE VIS seeks to cultivate an environment that encourages participation and inclusion. Our goal is to make IEEE VIS 2023 as accessible as possible. The following is information about the accessibility of various components of VIS 2023. If you like to learn about our VIS Accessibility Guide for VIS 2023 authors on how to make your pdf accessible, please refer to [this guide](/year/2023/info/call-participation/make-pdf-accessible). We also encourage speakers to [ensure that their talks are accessible](http://www.sigaccess.org/welcome-to-sigaccess/resources/accessible-presentation-guide/). Please get in touch with us at [accessibility@ieeevis.org](mailto:accessibility@ieeevis.org) if you have questions, concerns, or would like to provide feedback.
 
 ## Communicating accessibility needs
 

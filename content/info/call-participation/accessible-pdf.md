@@ -7,15 +7,11 @@ sidebar: call-for-participation
 contact: accessibility@ieeevis.org
 ---
 
-
-{% comment %}
-Program chairs added the following note until this page is updated
-{% endcomment %}
-2023 note: this document reflects the guidelines for VIS 2022.  We anticipate a similar set of guidelines for VIS 2023
+Note: While we require accessible final papers for 2023, we are still working out whether authors or an external vendor will be responsile for tagging PDF documents and adding the author-provided alt texts as described below. We will update this page later.
 
 The instructions on this page are based on the [SIGACCESS Guide for Accessible PDFs in Word](https://www.sigaccess.org/welcome-to-sigaccess/resources/acm-submission-with-ms-word/) and the [SIGCHI Guide to an Accessible Submission](https://sigchi.org/conferences/author-resources/accessibility-guide).
 
-We highly encourage creating accessible submissions so that your contribution is readable by the broader audiences. This includes taking steps as you author your document and making your submitted PDF accessible. These steps can improve usability for many people, especially those of us with visual impairments. 
+We require creating accessible final submissions so that your contribution is readable by the broader audiences. This includes taking steps as you author your document and making your submitted PDF accessible. These steps can improve usability for many people, especially those of us with visual impairments. 
 
 ## Contents
 
