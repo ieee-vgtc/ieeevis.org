@@ -9,7 +9,7 @@ contact: accessibility@ieeevis.org
 
 Note: While we require accessible final papers for 2023, we are still working out whether authors or an external vendor will be responsile for tagging PDF documents and adding the author-provided alt texts as described below. We will update this page later.
 
-The instructions on this page are based on the [SIGACCESS Guide for Accessible PDFs in Word](https://www.sigaccess.org/welcome-to-sigaccess/resources/acm-submission-with-ms-word/) and the [SIGCHI Guide to an Accessible Submission](https://sigchi.org/conferences/author-resources/accessibility-guide).
+The instructions on this page are based on the [SIGACCESS Guide for Accessible PDFs in Word](https://www.sigaccess.org/welcome-to-sigaccess/resources/acm-submission-with-ms-word/) and the [SIGCHI Guide to an Accessible Submission](https://sigchi.org/conferences/author-resources/accessibility-guide). [SIGACCESS has more resources](https://www.sigaccess.org/welcome-to-sigaccess/resources/) for making accessible submissions including writing guidelines and how to make an accessible presentation.
 
 We require creating accessible final submissions so that your contribution is readable by the broader audiences. This includes taking steps as you author your document and making your submitted PDF accessible. These steps can improve usability for many people, especially those of us with visual impairments. 
 
@@ -31,7 +31,7 @@ You can make your submission document accessible by following these steps:
 
 1. **Mark up content such as headings and lists appropriately**, using the correct Word template style or LaTeX markup.
 2. **Don’t rely only on color**. Charts that rely only on color to differentiate elements may not be usable for those of us with color vision differences, or for those who print papers in black and white. In figures, legends and the text that refers to the figures, use different shapes and patterns to provide another way to visually distinguish elements.
-3. **Provide a text description for all figures.** Figure descriptions are different to figure captions. Descriptions are an alternative to seeing the figure, and should provide important information that is not already in the paper or the caption.  Do not simply repeat the caption. 
+3. **Provide a text description for all figures.** Figure descriptions are different to figure captions. Descriptions are an alternative to seeing the figure, and should provide important information that is not already in the paper or the caption.  Do not simply repeat the caption. To learn about writing good alt texts, you can follow the [SIGACCESS guide for describing figures](https://www.sigaccess.org/welcome-to-sigaccess/resources/describing-figures/).
 4. **Create every table as a real table**, not an image, and indicate which cells are headers.
 5. **Create every equation as a marked-up equation**, not an image of an equation.
 6. **Set the metadata** of your document.
