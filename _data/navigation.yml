@@ -307,7 +307,7 @@ menu:
 #                    url: "http://visxai.io/"
 #                    is_external: true
                   - text: "VIS4DH"
-                    description: "Visualization for AI Explainability"
+                    description: "Visualization for the Digital Humanities"
 #                    url: "https://vis4dh.dbvis.de/"
 #                    is_external: true
                   - text: "IEEE VIS Workshops"
