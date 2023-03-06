@@ -319,8 +319,8 @@ menu:
             columns:
               - links:
                   - text: "Bio+MedVis Challenges"
-#                    url: "http://biovis.net/2022/ieeevis/"
-#                    is_external: true
+                    url: "http://biovis.net/2023/biovisChallenges_vis/"
+                    is_external: true
                   - text: "SciVis Contest"
 #                    url: "https://www.lanl.gov/projects/sciviscontest2022/"
 #                    is_external: true
