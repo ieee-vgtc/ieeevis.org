@@ -1,5 +1,5 @@
 ---
-title: "IEEE VIS 2023 Sponsorship Prospectus"
+title: "IEEE VIS 2023 Supporters Prospectus"
 layout: page
 permalink: /prospectus
 contact: supporters@ieeevis.org
@@ -7,7 +7,7 @@ contact: supporters@ieeevis.org
 
 ![Frame 3vis23](https://user-images.githubusercontent.com/1230497/214551591-d794e21d-139d-47a1-b415-12cdec1cb42e.png)
 
-IEEE VIS offers a wide varity of sponship options and benefits.
+IEEE VIS offers a wide varity of options and benefits for supporters.
 
 | Sponsor level | Australian dollars (AUD) | US-dollars (USD) | 
 |---|---|---|
