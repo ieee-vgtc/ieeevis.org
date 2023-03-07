@@ -25,12 +25,12 @@ Only selected applicants will be allowed to participate in the colloquium and th
 We plan to have the DC as an in-person first event following the rest of the conference.
 
 ## Funding
-We may be able to partially fund conference registration, lodging, and possibly travel for accepted DC student participants who are US citizens or are currently studying at  US-based Universities.
+We may be able to partially fund conference registration, lodging, and possibly travel for accepted DC student participants who are US citizens or are currently studying at US-based Universities.
 
 ## Submissions
-The deadline for DC submissions is extended to May 12, 2023 Anywhere on Earth (AoE).
+The deadline for DC submissions is **May 12, 2023** Anywhere on Earth (AoE).
 
-Notification: **June 30, 2023**
+Notification: June 30, 2023
 
 Applicants to the Doctoral Colloquium should submit:
 *	A four-page summary describing their PhD research, including 
@@ -38,7 +38,7 @@ Applicants to the Doctoral Colloquium should submit:
     - A description of the progress to date, and
     - Questions and/or desired feedback from DC panelists. 
 * The four-page limit **does not** include references. The writing should be in a proposal format in order to facilitate feedback from the panelists as to the validity of your problem and the efficacy of your approach. The structure should follow the format used by most universities for a thesis proposal: an Introduction, a Related Work, Preliminary Methods, Preliminary Results, Proposed Work, Discussion, **Questions for the Panel**, and Conclusion. The summary should have a single author – the student submitting the entry. Please distinguish clearly between work that has been accomplished and that remains to be completed. As indicated above, the summary should identify clearly, in a separate section, **the feedback the student expects from the panel**.
-* A short, signed statement (pdf or text) from the student’s advisor supporting the student’s attendance at the colloquium and confirming that the student is in a good position to benefit from participating. The statement should include information about the stage of the PhD project and expected finish date. Note that this should NOT be a letter of recommendation; a brief statement of support is sufficient. The statement should be appended to the student submission PDF file, not sent via email.
+* A short, signed statement (pdf or text) from the student’s advisor supporting the student’s attendance at the colloquium and confirming that the student is in a good position to benefit from participating. The statement should include information about the stage of the PhD project and expected finish date. This should NOT be a letter of recommendation; a brief statement of support is sufficient. The statement should be appended to the student submission PDF file, not sent via email.
 
 Please submit [via PCS](http://new.precisionconference.com/vgtc).
 
