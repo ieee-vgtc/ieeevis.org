@@ -29,6 +29,11 @@ blog:
   text: "Blog"
   url: "/year/2023/blog/index"
 
+destination:
+  display: true
+  text: "Destination"
+  url: "/year/2023/destination"
+
 menu:
   - dropdown: "Attend"
     display: false
@@ -354,10 +359,10 @@ menu:
                     url: "https://www.facebook.com/ieeevis"
                     is_external: true
                   - text: "Twitter"
-                    url: "https://twitter.com/ieeevis" 
+                    url: "https://twitter.com/ieeevis"
                     is_external: true
                   - text: "Mastodon"
-                    url: "https://vis.social/@ieeevis" 
+                    url: "https://vis.social/@ieeevis"
                     is_external: true
 
   - dropdown: "Organization & History"

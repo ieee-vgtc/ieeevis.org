@@ -2,6 +2,7 @@
 title: Destination
 layout: page
 permalink: /destination
+active_nav: Destination
 contact: 
 ---
 ![129819-56](https://user-images.githubusercontent.com/63034693/223619178-a7789634-6a6b-406b-af9f-0d1296d2d0ce.jpg)
