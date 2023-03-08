@@ -34,7 +34,10 @@ We’re looking forward to seeing you in Melbourne.
 Follow [@ieeevis on Twitter](https://twitter.com/ieeevis), the [IEEE VIS page on Facebook](https://www.facebook.com/ieeevis), or [sign up to our mailing list](https://ieeevis.us20.list-manage.com/subscribe?u=874d4e627b4758f4438963e98&id=6c036e3c40) to keep up with conference activities and announcements.
 
 Questions? E-mail [info@ieeevis.org](mailto:info@ieeevis.org)
-![MCB_Logo_Large](https://user-images.githubusercontent.com/63034693/223620746-ec5d8b7b-9b04-4c02-b8fa-489c08e7d092.jpg)![Visit-Melbourne-1-400x267](https://user-images.githubusercontent.com/63034693/223620757-43b9c338-e053-47b0-a46f-2ff29ed6d898.jpg)
+
+[<img src="https://user-images.githubusercontent.com/63034693/223612174-c7ad059d-d211-40de-9600-506eea1d82f3.jpg" width="300" title="Visit-Melbourne-1-400x267">](https://www.visitmelbourne.com/)
+[<img src="https://user-images.githubusercontent.com/63034693/223612210-8a824bd5-326d-4ce6-b05b-bb5a7294d849.jpg" width="300" title="MCB_Logo_Large">](https://www.melbournecb.com.au/)
+
 
 
 
