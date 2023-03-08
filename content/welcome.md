@@ -5,6 +5,7 @@ permalink: /welcome
 contact: general_chair@ieeevis.org
 ---
 
+![150629-56](https://user-images.githubusercontent.com/63034693/223620624-c0efcf2e-d7ac-4ee2-9479-b4f4e7dfaf67.jpg)
 
 
 G'day!
@@ -33,3 +34,7 @@ We’re looking forward to seeing you in Melbourne.
 Follow [@ieeevis on Twitter](https://twitter.com/ieeevis), the [IEEE VIS page on Facebook](https://www.facebook.com/ieeevis), or [sign up to our mailing list](https://ieeevis.us20.list-manage.com/subscribe?u=874d4e627b4758f4438963e98&id=6c036e3c40) to keep up with conference activities and announcements.
 
 Questions? E-mail [info@ieeevis.org](mailto:info@ieeevis.org)
+![MCB_Logo_Large](https://user-images.githubusercontent.com/63034693/223620746-ec5d8b7b-9b04-4c02-b8fa-489c08e7d092.jpg)![Visit-Melbourne-1-400x267](https://user-images.githubusercontent.com/63034693/223620757-43b9c338-e053-47b0-a46f-2ff29ed6d898.jpg)
+
+
+
