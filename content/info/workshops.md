@@ -80,4 +80,3 @@ Contact: example@example.com
 Example Abstract
 
 {% endcomment %}
-*
