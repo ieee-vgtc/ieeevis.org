@@ -51,6 +51,5 @@ All deadlines are at **5:00pm Pacific Time (PDT)**. -->
 ## Chairs
 
 
-Soumya Dutta, *Los Alamos National Laboratory (LANL)* <br />
 Michael Krone, *University of Tubingen, Germany* <br />
-Noeska Smit, *University of Bergen, Norway*
+Mennatallah El-Assady, *ETH AI Center, Switzerland*
