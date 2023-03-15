@@ -23,41 +23,41 @@
  #      image: /assets/supporters/tableau.jpg
  #      url: "https://www.tableau.com/"
 
- - category: Platinum+Banquet
-   image_size: 400
-   supporters:
-     - name: "Northern Data"
-       image: /assets/supporters/northern_data.png
-       url: "https://northerndata.de/"
+# - category: Platinum+Banquet
+#   image_size: 400
+#   supporters:
+#     - name: "Northern Data"
+#       image: /assets/supporters/northern_data.png
+#       url: "https://northerndata.de/"
 
 
- - category: Platinum
-   image_size: 400
-   supporters:
-     - name: "Tableau"
-       image: /assets/supporters/Tableau-Logo-CMYK.png
-       url: "https://www.tableau.com/"
+# - category: Platinum
+#   image_size: 400
+#   supporters:
+#     - name: "Tableau"
+#       image: /assets/supporters/Tableau-Logo-CMYK.png
+#       url: "https://www.tableau.com/"
 
 
- - category: Silver
-   image_size: 320
-   supporters:
-     - name: "Autodesk"
-       image: /assets/supporters/autodesk.png
-       url: "https://www.autodesk.com/research"
-
-     - name: "KAUST"
-       image: /assets/supporters/vcc_kaust.png
-       url: "http://vcc.kaust.edu.sa/"
-
-     - name: "University of Oklahoma"
-       image: /assets/supporters/uofoklahoma.png
-       url: "ou.edu"
-
-     - name: "Echo Investment Capital LLC"
-       image: /assets/supporters/echo_small.png
-       url: "https://www.echo.global"
-
+# - category: Silver
+#   image_size: 320
+#   supporters:
+#     - name: "Autodesk"
+#       image: /assets/supporters/autodesk.png
+#       url: "https://www.autodesk.com/research"
+#
+#     - name: "KAUST"
+#       image: /assets/supporters/vcc_kaust.png
+#       url: "http://vcc.kaust.edu.sa/"
+#
+#     - name: "University of Oklahoma"
+#       image: /assets/supporters/uofoklahoma.png
+#       url: "ou.edu"
+#
+#     - name: "Echo Investment Capital LLC"
+#       image: /assets/supporters/echo_small.png
+#       url: "https://www.echo.global"
+#
  #    - name: "Microsoft"
  #      image: /assets/supporters/microsoft.png
  #      url: "https://www.microsoft.com/research"
@@ -66,12 +66,15 @@
  - category: Bronze
    image_size: 200
    supporters:
-     - name: "Unviversity of Oklaoma"
-       image: /assets/supporters/okl_transparent.png
-       url: "https://www.ou.edu/disc"
-     - name: "Monash University"
-       image: /assets/supporters/monash.png
-       url: "https://www.monash.edu/it"
+     - name: "Apple"
+       image: /assets/supporters/apple.png
+       url: "https://www.apple.com"
+#     - name: "Unviversity of Oklaoma"
+#       image: /assets/supporters/okl_transparent.png
+#       url: "https://www.ou.edu/disc"
+#     - name: "Monash University"
+#       image: /assets/supporters/monash.png
+#       url: "https://www.monash.edu/it"
 
  - category: Pearl
    image_size: 150
@@ -79,33 +82,33 @@
      - name: "Kitware, Inc"
        image: /assets/supporters/kitware.png
        url: "https://www.kitware.com/"
-     - name: "Uncharted Software"
-       image: /assets/supporters/uncharted.png
-       url: "https://uncharted.software/"
-     - name: "Fraunhofer IGD"
-       image: /assets/supporters/igd.png
-       url: "https://www.igd.fraunhofer.de"
-     - name: "Springer"
-       image: /assets/supporters/springer-logo-transparent.png
-       url: "https://www.springer.com/us"
+#     - name: "Uncharted Software"
+#       image: /assets/supporters/uncharted.png
+#       url: "https://uncharted.software/"
+#     - name: "Fraunhofer IGD"
+#       image: /assets/supporters/igd.png
+#       url: "https://www.igd.fraunhofer.de"
+#     - name: "Springer"
+#       image: /assets/supporters/springer-logo-transparent.png
+#       url: "https://www.springer.com/us"
      - name: "VRVis"
        image: /assets/supporters/VRVis-Logo.png
        url: "https://www.vrvis.at/"
-     - name: "Nomic"
-       image: /assets/supporters/nomic.png
-       url: "https://home.nomic.ai"
-     - name: "SCI"
-       image: /assets/supporters/sci.png
-       url: "https://www.sci.utah.edu/"
-     - name: "NREL"
-       image: /assets/supporters/NREL.jpg
-       url: "https://www.nrel.gov/"
-     - name: "Disney Studio Research"
-       image: /assets/supporters/disney.jpg
-       url: "https://studios.disneyresearch.com/"
-     - name: "VisPsych"
-       image: /assets/supporters/vispsych.png
-       url: "https://sites.google.com/view/vispsych/"
+#     - name: "Nomic"
+#       image: /assets/supporters/nomic.png
+#       url: "https://home.nomic.ai"
+#     - name: "SCI"
+#       image: /assets/supporters/sci.png
+#       url: "https://www.sci.utah.edu/"
+#     - name: "NREL"
+#       image: /assets/supporters/NREL.jpg
+#       url: "https://www.nrel.gov/"
+#     - name: "Disney Studio Research"
+#       image: /assets/supporters/disney.jpg
+#       url: "https://studios.disneyresearch.com/"
+#     - name: "VisPsych"
+#       image: /assets/supporters/vispsych.png
+#       url: "https://sites.google.com/view/vispsych/"
 
 
  #    - name: "Harvard Medical School"
@@ -113,19 +116,19 @@
  #      url: "https://dbmi.hms.harvard.edu/education/master-biomedical-informatics"
 
 
- - category: Diversity/Inclusivity Scholarships
-   image_size: 150
-   supporters:
-     - name: "giCentre"
-       image: /assets/supporters/giCentre.png
-       url: "https://gicentre.net"
-
- - category: VISAP Grant Supporter
-   image_size: 150
-   supporters:
-     - name: "Creative Informatics"
-       image: /assets/supporters/CI.png
-       url: "https://creativeinformatics.org/"
+# - category: Diversity/Inclusivity Scholarships
+#   image_size: 150
+#   supporters:
+#     - name: "giCentre"
+#       image: /assets/supporters/giCentre.png
+#       url: "https://gicentre.net"
+#
+# - category: VISAP Grant Supporter
+#   image_size: 150
+#   supporters:
+#     - name: "Creative Informatics"
+#       image: /assets/supporters/CI.png
+#       url: "https://creativeinformatics.org/"
 
 #    - name: "Data Machines Corp"
 #      image: /assets/supporters/datamachines.png
