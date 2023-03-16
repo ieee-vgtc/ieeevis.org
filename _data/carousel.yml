@@ -51,22 +51,22 @@
 #   image: "earth.jpg"
 
 - title: "IEEE VIS is made possible by our supporters"
-  image: "20220923_supporters.png"
+  image: "20230316_supporters.png"
   button-text: "Become a supporter"
-  button-url: "/info/exhibition/supporters-and-exhibition"
+  button-url: "/supporters"
   active: "active"
 
-- title: "Talk Recording Guide"
-  description: "Check out some tips for recording your VIS talk from the conference organizers."
-  button-text: "See the video"
-  button-url: "https://youtu.be/SfWOKH8IR5k"
-  image: "vis_presenting_tips.png"
-
-- title: "Registration"
-  description: "Full week, one day, two day, and keynote + capstone registrations are still available."
-  button-text: "Register now"
-  button-url: "/info/registration/conference-registration"
-  image: 'small_exposure_lights.png'
+#- title: "Talk Recording Guide"
+#  description: "Check out some tips for recording your VIS talk from the conference organizers."
+#  button-text: "See the video"
+#  button-url: "https://youtu.be/SfWOKH8IR5k"
+#  image: "vis_presenting_tips.png"
+#
+#- title: "Registration"
+#  description: "Full week, one day, two day, and keynote + capstone registrations are still available."
+#  button-text: "Register now"
+#  button-url: "/info/registration/conference-registration"
+#  image: 'small_exposure_lights.png'
 
 # - title: "Nominate VIS 2021 Committees"
 #   description: "Deadline extended to July 8! Nominate candidates to represent you on the VIS Steering Committee (VSC) and VIS Executive Committee (VEC)."
