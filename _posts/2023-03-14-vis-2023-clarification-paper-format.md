@@ -1,5 +1,5 @@
 ---
-title: IEEE VIS 2023 clarification of paper format and final two pages
+title: Clarification of paper format and final two pages
 description: Clarification of Paper Format and Final Two Pages
 layout: blog-page
 active_nav: Blog
