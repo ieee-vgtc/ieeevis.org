@@ -124,8 +124,8 @@ menu:
                     url: "/year/2023/info/call-participation/workshops"
                   - text: "Panels"
                     url: "/year/2023/info/call-participation/panels"
-                  # - text: "Doctoral Colloquium"
-                  #   url: "/year/2023/info/call-participation/doctoral-colloquium"
+                  - text: "Doctoral Colloquium"
+                    url: "/year/2023/info/call-participation/doctoral-colloquium"
                   # - text: "Application Spotlights"
                   #   url: "/year/2023/info/call-participation/application-spotlights"
               - heading: "Info for Contributors"
@@ -280,10 +280,10 @@ menu:
           - heading: "Associated Events"
             columns:
               - links:
-#                  - text: "VIS Arts Program: Mingling Spaces"
-#                    description: "Where art, design, and research mingle"
-#                    url: "https://visap.net/"
-#                    is_external: true
+                  - text: "VIS Arts Program"
+                    description: "Perpetual Presence"
+                    url: "https://visap.net/"
+                    is_external: true
 #                  - text: "VisInPractice"
 #                    description: "Invited talks by visualization practitioners"
 #                    url: "/year/2023/info/visinpractice"
@@ -293,16 +293,16 @@ menu:
 #                    is_external: true
                   - text: "VDS Symposium"
                     description: "Visualization in Data Science"
-#                    url: "http://www.visualdatascience.org/"
-#                    is_external: true
+                    url: "https://www.visualdatascience.org/2023/index.html"
+                    is_external: true
                   - text: "VizSec Symposium"
                     description: "Visualization for Cyber Security"
-#                    url: "https://vizsec.org/"
-#                    is_external: true
+                    url: "https://vizsec.org/vizsec2023/"
+                    is_external: true
                   - text: "TopoInVis"
                     description: "Topological Data Analysis and Visualization"
-#                    url: "https://topoinvis-workshop.github.io/"
-#                    is_external: true
+                    url: "https://topoinvis-workshop.github.io/"
+                    is_external: true
                   - text: "VAHC"
                     description: "Visual Analytics in Healthcare"
 #                    url: "https://visualanalyticshealthcare.org/"
@@ -313,8 +313,8 @@ menu:
 #                    is_external: true
                   - text: "VIS4DH"
                     description: "Visualization for the Digital Humanities"
-#                    url: "https://vis4dh.dbvis.de/"
-#                    is_external: true
+                    url: "https://vis4dh.dbvis.de/"
+                    is_external: true
                   - text: "IEEE VIS Workshops"
                     description: "Informal settings to discuss emerging topics"
                     url: "/year/2023/info/workshops"
@@ -327,11 +327,11 @@ menu:
                     url: "http://biovis.net/2023/biovisChallenges_vis/"
                     is_external: true
                   - text: "SciVis Contest"
-#                    url: "https://www.lanl.gov/projects/sciviscontest2022/"
-#                    is_external: true
+                    url: "https://sciviscontest2023.github.io/"
+                    is_external: true
                   - text: "VAST Challenge"
-#                    url: "https://vast-challenge.github.io/2022/"
-#                    is_external: true
+                    url: "https://vast-challenge.github.io/2023/"
+                    is_external: true
 
           - heading: "Community"
             heading_url: "/year/2023/info/call-participation/community"
