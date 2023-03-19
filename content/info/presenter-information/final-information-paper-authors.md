@@ -15,6 +15,8 @@ IEEE Vis Short Papers will follow a similar set of guidelines, with a couple of 
 
 **DEADLINE: August 8.** Submit final camera ready papers and supplemental materials via the PCS submission system.  Files submitted here are the default versions that we will for preparing proceedings in IEEE Xplore and the downloadable content.
 
+We highly encourage authors to make their papers accessible so everyone can read them. Please see our [Accessibility Guide](/year/2023/info/call-participation/make-pdf-accessible) for recommendations and tools. Please contact the [accessibility chairs](mailto:accessibility@ieeevis.org) if you have any questions.
+
 Camera-ready papers may not exceed 11 pages (9 pages of main text and 2 pages of references). The [VGTC website](https://tc.computer.org/vgtc/publications/journal) has complete information regarding formatting requirements of your final revised PDF. We do not need hardcopy.
 
 Please check the second round reviewer comments (if any) and incorporate their suggestions. Note: there will not be further detailed proof-reading of your submission, so PLEASE read through your manuscript very carefully to fix any remaining grammar and spelling problems. If you are not a native English speaker, we very strongly recommend you recruit one to do the final careful pass on your paper. Also note the strict page limits. The 10th and 11th pages, if used, may not contain anything other than references (we will be strict on this). Finally, your paper should not be anonymized in the final version. The paper must include authors and affiliations. Note that if you have been anonymizing then you may find you have to trim your text to fit into the page limits once authors and affiliations are added.
@@ -24,9 +26,6 @@ IMPORTANT: Please make sure the final submission data in PCS is identical to the
 You can submit supplemental material (e.g. a video, appendix) for your work for inclusion in the digital archive. TVCG requires that supplemental material is also peer-reviewed, hence, this is only allowed if you have already submitted your supplemental material and if the reviewers have found it acceptable. Videos are usually up to 5 minutes in length, and you may also include other supplemental material such as additional images, appendices, or source code. 
 
 Please see our [Open Practices page](/year/2022/info/open-practices/open-practices) for requirements and recommendations for open practice for VIS 2022.
-
-Please see our [VIS Accessibility Guide](/year/2023/info/call-participation/make-pdf-accessible) for requirements for VIS 2023 authors on how to make your contribution accessible for broader audiences.
-
 
 ## Other Required Submission Items
 

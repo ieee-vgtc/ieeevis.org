@@ -76,7 +76,7 @@ Reviewers should be familiar with the [guidelines for reviewing papers for VIS](
 
 ## Accessibility
 
-We require accessible final submissions so that your contribution is readable by the broader audiences. Please see the [VIS Accessibility Guide](/year/2023/info/call-participation/make-pdf-accessible) to learn how you can make your contribution accessible.
+We highly encourage accessible final submissions so that your contribution is readable by the broader audiences. Please see the [VIS Accessibility Guide](/year/2023/info/call-participation/make-pdf-accessible) to learn how you can make your contribution accessible.
 
 ## Open Access Policy
 
