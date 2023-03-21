@@ -65,7 +65,6 @@ If papers or position papers are foreseen according to the planned workshop, the
     - papers are available online at a central digital library with DOI (e.g., IEEE Xplore) or proceedings published in a different way
     - papers are part of the downloadable proceedings
     - papers are considered archival
-    - authors with papers that are accepted for publication at IEEE Xplore will have to pay a content/publication fee
 
     Accepted workshop papers can contribute to VIS full paper submissions in a future year. But, such submissions should not contain verbatim copies of previous content. Furthermore, any full paper submission to VIS must stand as its own contribution.
 
@@ -123,7 +122,8 @@ The workshop organizers will receive the following support from the VIS conferen
 
 Please check the conference website for upcoming information concerning available funds for special purposes, such as supporting diversity. If the requirements of the workshop exceed this default support, the workshop organizers are expected to coordinate with the workshop chairs and possibly raise funds to support the workshop activities. Fundraising plans must be discussed with the workshop and supporters chairs prior to contacting any potential funder. For more information, see the guidelines for [Financial and Coordination Policies for IEEE VIS](http://ieeevis.org/governance/coordination).
 
-
+Note that each workshop participant will need to register to the main IEEE VIS 
+conference.
 
 ## Workshop Chairs
 
