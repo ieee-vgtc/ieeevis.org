@@ -122,8 +122,8 @@ The workshop organizers will receive the following support from the VIS conferen
 
 Please check the conference website for upcoming information concerning available funds for special purposes, such as supporting diversity. If the requirements of the workshop exceed this default support, the workshop organizers are expected to coordinate with the workshop chairs and possibly raise funds to support the workshop activities. Fundraising plans must be discussed with the workshop and supporters chairs prior to contacting any potential funder. For more information, see the guidelines for [Financial and Coordination Policies for IEEE VIS](http://ieeevis.org/governance/coordination).
 
-Note that each workshop participant will need to register to the main IEEE VIS 
-conference.
+Note that each workshop participant will need to register to attend the IEEE 
+VIS conference.
 
 ## Workshop Chairs
 
