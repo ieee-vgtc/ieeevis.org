@@ -43,7 +43,7 @@ intro_section:
 
 ## Important Dates
 
-All deadlines are based on the **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth) time zone (new for 2023)**.  This means if it is not yet midnight anywhere on Earth, submission is open.  Equivalently, you can submit until 11:59 PM (23:59) AoE.  Click the link to find out what that means in your time zone.
+All deadlines are in **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth) time zone (new for 2023)**. 
 
 
 | Submission activity | Date                     |
