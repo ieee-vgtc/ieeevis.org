@@ -6,7 +6,7 @@ permalink: /info/call-participation/panels
 active_nav: "Contribute"
 contact: panels@ieeevis.org
 active_nav: "Contribute"
-sidebar: call-for-participation
+sidebar: call-for-workshops
 ---
 
 IEEE VIS 2023 Panels should address contemporary, important and/or controversial debates, issues and applications in visualization and related topics. In particular, we invite panels that:
@@ -55,7 +55,7 @@ Panels will be recorded and posted to Vimeo for archival viewing. Panels from 20
 | Friday, August 11, 2023 | Notification |
 | Friday, August 25, 2023 | Final Submission of Panel Summaries and Video Fast Forwards |
       
-All deadlines are Anywhere on Earth **(AOE)** time.
+All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth) (new for 2023)**.
 
 ## Chairs
 

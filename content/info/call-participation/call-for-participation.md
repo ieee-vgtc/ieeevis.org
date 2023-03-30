@@ -43,7 +43,7 @@ intro_section:
 
 ## Important Dates
 
-All deadlines are in **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth) time zone (new for 2023)**. 
+All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth) (new for 2023)**. 
 
 
 | Submission activity | Date                     |

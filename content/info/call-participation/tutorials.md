@@ -4,7 +4,7 @@ layout: page
 permalink: /info/call-participation/tutorials
 contact: tutorials@ieeevis.org
 active_nav: "Contribute"
-sidebar: call-for-participation
+sidebar: call-for-workshops
 ---
 
 Tutorials are intended to cover a wide selection of topics related to IEEE VIS 2023 and provide background on new tools, methods, systems, and application domains necessary for research in scientific visualization, information visualization, visual analytics, and topics that span multiple of these areas. Tutorial attendees come from diverse backgrounds, including, among others: volume and flow visualization, information visualization, geographic visualization, visual analytics, high performance computing, visual data science, visualization in artificial intelligence, extended reality technologies and scientific application communities.
@@ -30,7 +30,7 @@ Proposals should not exceed three pages, and should be [submitted via PCS](http:
 * Notification: **Friday, May 26, 2023**
 * Final Submission of Summaries: **Friday, July 28, 2023**
 
-All deadlines are at **23:59 Anywhere on Earth (AoE)**.
+All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth) (new for 2023)**.
 
 ## Chairs
 

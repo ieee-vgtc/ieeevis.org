@@ -105,7 +105,7 @@ Scientific work builds naturally on previous work, including work published as a
 * Notification: **June 15, 2023**
 * Submission of Camera-Ready Final Version: **August 1, 2023 (tentative)**
 
-All deadlines are in **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth) time zone (new for 2023)**.
+All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth) (new for 2023)**.
 
 ### Vis Short Paper Co-Chairs:
 
