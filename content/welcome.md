@@ -35,6 +35,6 @@ Follow [@ieeevis on Twitter](https://twitter.com/ieeevis), the [IEEE VIS page on
 
 Questions? E-mail [info@ieeevis.org](mailto:info@ieeevis.org)
 
-[<img align="left" src="assets/supporters/MCB_Logo_Colour_border.png" width="250px" title="https://www.visitmelbourne.com/">](https://www.visitmelbourne.com/)
-[<img src="assets/supporters/Melbourne-Australia-logo-528w_border.png"  width="250px" title="https://www.melbournecb.com.au/">](https://www.melbournecb.com.au/)
+[<img align="left" src="assets/supporters/Melbourne-Australia-logo-528w_border.png" width="250px" title="https://www.visitmelbourne.com/">](https://www.visitmelbourne.com/)
+[<img src="assets/supporters/MCB_Logo_Colour_border.png"  width="250px" title="https://www.melbournecb.com.au/">](https://www.melbournecb.com.au/)
 

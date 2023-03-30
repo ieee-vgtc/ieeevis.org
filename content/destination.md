@@ -23,5 +23,5 @@ To help plan your time here, the Melbourne Convention Bureau, Visit Melbourne, a
 
 [<img src="assets/supporters/Banner_Billboard_970X250.gif" title="Visit-Melbourne">](https://bit.ly/39aNV57)
 
-[<img align="left" src="assets/supporters/MCB_Logo_Colour_border.png" width="300px" title="https://www.visitmelbourne.com/">](https://www.visitmelbourne.com/)
-[<img align="left" src="assets/supporters/Melbourne-Australia-logo-528w_border.png" width="300px" title="https://www.melbournecb.com.au/">](https://www.melbournecb.com.au/)
+[<img align="left" src="assets/supporters/Melbourne-Australia-logo-528w_border.png" width="300px" title="https://www.visitmelbourne.com/">](https://www.visitmelbourne.com/)
+[<img align="left" src="assets/supporters/MCB_Logo_Colour_border.png" width="300px" title="https://www.melbournecb.com.au/">](https://www.melbournecb.com.au/)
