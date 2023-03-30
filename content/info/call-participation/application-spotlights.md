@@ -3,7 +3,7 @@ title: Application Spotlights
 layout: page
 permalink: /info/call-participation/application-spotlights
 active_nav: "Contribute"
-sidebar: call-for-participation
+sidebar: call-for-workshops
 contact: spotlights@ieeevis.org
 ---
 
@@ -46,7 +46,7 @@ Dates TBD
 | ~~May 31, 2022~~ **extended**: June 30, 2022  | Final Submissions due |
 | t.b.d. | Announcement of Spotlights on ieeevis.org |
 
-All deadlines are at **5:00pm Pacific Time (PDT)**. -->
+All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth) (new for 2023)**. -->
 
 ## Chairs
 

@@ -3,7 +3,7 @@ title: Doctoral Colloquium - Call For Participation
 layout: page
 permalink: /info/call-participation/doctoral-colloquium
 active_nav: "Contribute"
-sidebar: call-for-participation
+sidebar: call-for-workshops
 contact: doctoral_coll@ieeevis.org
 ---
 
@@ -28,7 +28,7 @@ We plan to have the DC as an in-person first event following the rest of the con
 We may be able to partially fund conference registration, lodging, and possibly travel for accepted DC student participants who are US citizens or are currently studying at US-based Universities.
 
 ## Submissions
-The deadline for DC submissions is **May 12, 2023** Anywhere on Earth (AoE).
+The deadline for DC submissions is **May 12, 2023** at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth) (new for 2023)**.
 
 Notification: June 30, 2023
 

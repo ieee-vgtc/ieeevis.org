@@ -3,10 +3,9 @@ title: Posters - Call for Participation
 layout: page
 permalink: /info/call-participation/posters
 active_nav: "Contribute"
-sidebar: call-for-participation
+sidebar: call-for-workshops
 contact: posters@ieeevis.org
 active_nav: "Contribute"
-sidebar: call-for-participation
 ---
 
 The IEEE VIS 2023 Poster Program offers a timely venue to present and discuss original work or highlights of recent work published or presented in another venue (please see the plagiarism statement in the end) through a forum that encourages graphical presentation, demonstration, and active engagement with IEEE VIS participants.
@@ -52,7 +51,7 @@ At the time of submission, it is required by the authors to state explicitly in 
 * Notification of Acceptance: **Saturday, July 22, 2023**
 * Final Submission of Camera Ready Summaries and Poster PDF: **Tuesday, August 15, 2023**
 
-All deadlines are at **5:00pm AOE (Anywhere on Earth)**.
+All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth) (new for 2023)**.
 
 ### POSTER SESSION
 
