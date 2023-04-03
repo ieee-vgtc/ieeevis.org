@@ -39,16 +39,16 @@
 #       url: "https://www.tableau.com/"
 
 
-# - category: Silver
-#   image_size: 320
-#   supporters:
+- category: Silver
+  image_size: 320
+  supporters:
 #     - name: "Autodesk"
 #       image: /assets/supporters/autodesk.png
 #       url: "https://www.autodesk.com/research"
 #
-#     - name: "KAUST"
-#       image: /assets/supporters/vcc_kaust.png
-#       url: "http://vcc.kaust.edu.sa/"
+    - name: "KAUST"
+      image: /assets/supporters/vcc_kaust.png
+      url: "http://vcc.kaust.edu.sa/"
 #
 #     - name: "University of Oklahoma"
 #       image: /assets/supporters/uofoklahoma.png
