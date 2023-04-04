@@ -309,8 +309,8 @@ menu:
 #                    is_external: true
                   - text: "VISxAI"
                     description: "Visualization for AI Explainability"
-#                    url: "http://visxai.io/"
-#                    is_external: true
+                    url: "http://visxai.io/"
+                    is_external: true
                   - text: "VIS4DH"
                     description: "Visualization for the Digital Humanities"
                     url: "https://vis4dh.dbvis.de/"
