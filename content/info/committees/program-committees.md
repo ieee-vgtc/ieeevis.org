@@ -12,7 +12,7 @@ sidetoc: true
 | **Name** | **Affiliation** |<br>
 |Alfie Abdul-Rahman| *King's College London, UK* |<br>
 |Wolfgang Aigner| *St. Poelten University of Applied Sciences, AT* |<br>
-|Bilal Alsallakh| *Bosch Research, US* |<br>
+|Bilal Alsallakh| *Voxel AI, US* |<br>
 |Natalia Andrienko| *Fraunhofer IAIS, Germany / City, University of London, United Kingdom, DE* |<br>
 |Alessio Arleo| *TU Wien, AT* |<br>
 |Lisa  Avila| *Kitware, US* |<br>
