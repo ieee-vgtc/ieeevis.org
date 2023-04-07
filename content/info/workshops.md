@@ -16,7 +16,19 @@ These workshops were pre-approved by the VIS Executive Committee. Please visit t
 
 
 ## Accepted Workshops
-Additional workshops will be selected through our [submission/review process](http://ieeevis.org/year/2022/info/call-participation/workshops). 
+The following workshops went through our [submission/review process](http://ieeevis.org/year/2022/info/call-participation/workshops). 
+
+* [NLVIZ Workshop: Exploring Research Opportunities for Natural Language, Text, and Data Visualization](#nlviz)
+* [Visualization for Social Good](#vsg)
+* [Visualization for Pandemic and Emergency Responses Workshop (Vis4PandEmRes)](#Vis4PandEmRes)
+* [alt.VIS 2023](#altVis)
+* [Sixth Workshop on Visualization for Communication (VisComm)](#VisComm)
+* [EnergyVis 2023: 3rd Workshop on Energy Data Visualization](#EnergyVis)
+* [EduVis: Workshop on Visualization Education, Literacy, and Activities](#EduVis)
+* [5th Workshop on Urban Data Visualization (CityVis) - Focus: The Role of Data Governance](#CityVis)
+* [A Workshop on New Multimodal Experiences for Remote Communication and Collaboration Around Data](#multiViz)
+* [VisxVision: Workshop on Novel Directions in Vision Science and Visualization Research](#VisxVision)
+* [(Vis + Prov) x Domain: Workshop on Visualization and Provenance Across Domains](#VisProv)
 
 <hr/>
 
