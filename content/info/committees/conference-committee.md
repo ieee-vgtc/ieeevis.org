@@ -138,7 +138,7 @@ permalink: /info/committees/conference-committee
 |---
 | **Inclusivity Chairs** | |
 | John Alexis Guerra Gómez | *Northeastern University, Silicon Valley* |
-| Vetria Byrd |  |
+| Michelle Borkin | *Northeastern University*  |
 |---
 | **Accessibility Chairs** | |
 | Kim Marriott | *Monash University* |
