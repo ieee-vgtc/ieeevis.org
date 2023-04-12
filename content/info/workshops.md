@@ -26,7 +26,7 @@ The following workshops went through our [submission/review process](http://ieee
 * [EnergyVis 2023: 3rd Workshop on Energy Data Visualization](#EnergyVis)
 * [EduVis: Workshop on Visualization Education, Literacy, and Activities](#EduVis)
 * [5th Workshop on Urban Data Visualization (CityVis) - Focus: The Role of Data Governance](#CityVis)
-* [A Workshop on New Multimodal Experiences for Remote Communication and Collaboration Around Data](#multiViz)
+* [MERCADO: Multimodal Experiences for Remote Communication Around Data Online](#multiViz)
 * [VisxVision: Workshop on Novel Directions in Vision Science and Visualization Research](#VisxVision)
 * [(Vis + Prov) x Domain: Workshop on Visualization and Provenance Across Domains](#VisProv)
 
@@ -182,7 +182,7 @@ Contact: jessica.bounassar@monash.edu
 With the growth and increasing density of urban areas, new technologies are emerging and data is becoming an essential asset to modern cities. Visualization as a tool for analysis, exploration and communication has become a driving force in the task of unravelling the complex urban fabrics that form our cities. In this workshop series, we want to critically assess this notion and ask how can data and data visualization be used to serve and better understand or even organize urban processes? We are particularly interested in multidisciplinary perspectives, especially on the human-centric component of urban visualizations. In the second workshop at IEEE VIS 2019, we explored roles of citizens in urban visualizations and outlined goals and challenges. Based on these findings, we propose to focus discussions in this 5th workshop on the critical role of urban data governance and its interplay in data and data visualisation: its production, dissemination and use.
 
 
-## <a name="multiViz"></a> [A Workshop on New Multimodal Experiences for Remote Communication and Collaboration Around Data]()
+## <a name="multiViz"></a> [MERCADO: Multimodal Experiences for Remote Communication Around Data Online](https://sites.google.com/view/mercadoworkshop)
 
 Matthew Brehmer, *Tableau Research, Seattle, Washington, United States*<br>
 Maxime Cordeil, *School of Information Technology and Electrical Engineering, The University of Queensland, Brisbane, Australia*<br>
@@ -191,7 +191,7 @@ Takayuki Itoh, *Ochanomizu University, Tokyo, Japan*<br>
 
 Contact: mbrehmer@tableau.com
 
-We propose a half-day workshop at IEEE VIS 2023 on the topic of communication and collaboration around data. Specifically, we aim to gather researchers interested on multimodal, synchronous, and remote or hybrid forms of communication and collaboration within organizational and educational settings. This topic lies at the intersection of data visualization, human-computer interaction, and computer-supported collaborative work, and overlaps thematically with several prior seminars and workshops. Our intended outcomes for the workshop include assembling a corpus of inspiring examples and a design space, ideally consolidated into a survey paper, as well as the establishment of new collaborations and a shared research agenda. We anticipate a format comprised of short presentations and demos, an invited keynote or fireside chat, and a breakout group session organized around specific application domains.
+MERCADO is a half-day workshop on the topic of new multimodal experiences for remote communication and collaboration around data. We aim to gather researchers working in data visualization, human-computer interaction (HCI), and computer-supported collaborative work (CSCW) who are interested in multimodal, synchronous, and remote or hybrid forms of communication and collaboration within organizational and educational settings.
 
 ## <a name="VisxVision"></a> [VisxVision: Workshop on Novel Directions in Vision Science and Visualization Research]()
 
