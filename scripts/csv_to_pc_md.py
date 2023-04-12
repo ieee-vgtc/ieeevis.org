@@ -11,7 +11,7 @@
 import csv
 
 mdlines = []
-with open('VIS 2023 PC for Website.csv', newline='') as csvfile:
+with open('2023_full_papers_pc.csv', newline='') as csvfile:
     reader = csv.reader(csvfile)
     for row in reader:
     	mdlines.append([
