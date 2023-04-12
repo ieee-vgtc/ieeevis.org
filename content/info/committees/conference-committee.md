@@ -121,7 +121,7 @@ permalink: /info/committees/conference-committee
 | Yang Shi | *Tongji University* |
 |---
 | **Community Chairs** | |
-| Bon Adriel Aseniero |  |
+| Bon Adriel Aseniero | *Autodesk Research* |
 | Qing Chen | *Tongji University* |
 | Alfie Abdul-Rahman | *King's College London* |
 |---
