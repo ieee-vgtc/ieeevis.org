@@ -11,16 +11,27 @@
 import csv
 
 mdlines = []
-with open('2023_full_papers_pc.csv', newline='') as csvfile:
+with open('2023_short_papers_pc.csv', newline='') as csvfile:
     reader = csv.reader(csvfile)
     for row in reader:
-    	mdlines.append([
-    		row[1], # first name
-    		row[2], # last name
-    		row[5], # affiliation
-    		row[6], # country
-    	])
 
+        # For full papers format
+    	# mdlines.append([
+    	# 	row[1], # first name
+    	# 	row[2], # last name
+    	# 	row[5], # affiliation
+    	# 	row[6], # country
+    	# ])
+
+        # For short papers format
+        mdlines.append([
+            row[0].split(',')[1], # first name
+            row[0].split(',')[0], # last name
+            row[1] # Affiliation
+        ])
 # Then output the markdown lines
 for line in mdlines:
-	print("|{} {}| *{}, {}* |<br>".format(line[0], line[1], line[2], line[3]))
+    # Full papers format
+    # print("|{} {}| *{}, {}* |<br>".format(line[0], line[1], line[2], line[3]))
+    # Short papers format
+    print("|{} {}| *{}* |<br>".format(line[0], line[1], line[2]))
