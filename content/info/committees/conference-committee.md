@@ -71,9 +71,8 @@ permalink: /info/committees/conference-committee
 | Kai Lawonn | *University of Jena* |
 |---
 | **Application Spotlights** | |
-| Soumya Dutta | *Los Alamos National Laboratory* |
-| Michael Krone | *University of Tuebingen* |
-| Noeska Smit | *University of Bergen* |
+| Mennatallah El-Assady | *ETH AI Center* |
+| Michael Krone | *University of Tübingen* |
 |---
 | **Open Practices** | |
 | Lonni Besançon | *Monash University* |
