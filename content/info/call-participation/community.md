@@ -29,15 +29,15 @@ Example VisBuddies activities include:
 * Discuss interesting sessions to attend
 * Share tips on successful research
 
-[VisBuddies Signup Form](https://forms.gle/qu2rAktBK2UzK2rF7)
+[VisBuddies Signup Form](https://forms.gle/c6LCQcpfbE57cYWF9)
 
 ### <a name="job-flyers"></a>Job Flyer Online Posting
 
 Do you have a job you are seeking to fill? 
 
-If so, please complete this online form and we will include your posting on the Virtual VIS website and on IEEEVIS.org (optional).  You can also use this form sign up to host a “table” at the Virtual Job Fair.
+If so, please complete this online form and we will include your posting on the Virtual VIS website and on IEEEVIS.org (optional).  You can also use this form sign up to host a “table” at the Job Fair.
 
-[VIS Community Job Posting Form](https://forms.gle/QDP6UU9Njb56a73KA)
+[VIS Community Job Posting Form](https://forms.gle/42GUi7ZTSxjiWzmPA)
 
 Links to the Job Postings will be included on the Virtual VIS website and on IEEEVIS.org.
 
@@ -56,7 +56,7 @@ To participate, please join us at the event during VIS 2023.
 ### Contact
 For more information contact IEEE VIS 2023 Community Chairs:
 
-* Lane Harrison, *Worcester Polytechnic Institute*
+* Bon Adriel Aseniero, *Autodesk Research*
 * Alfie Abdul-Rahman, *King's College London*
 * Qing Chen, *Tongji University*
 
