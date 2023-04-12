@@ -38,15 +38,14 @@ Feel free to contact us at application_spotlights@ieeevis.org if you have any qu
 
 Dates TBD
 
-<!-- 
 | Date | Activity |
 |------|----------|
-| ~~May 6, 2022~~ **extended**: June 15, 2022 | Proposal Submission |
-| ~~May 15, 2022~~ **extended**: June 20, 2022  | Notification |
-| ~~May 31, 2022~~ **extended**: June 30, 2022  | Final Submissions due |
+| May 26, 2023 | Proposal Submission |
+| June 9, 2023 | Notification |
+| June 23, 2023 | Final Submissions due |
 | t.b.d. | Announcement of Spotlights on ieeevis.org |
 
-All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth) (new for 2023)**. -->
+All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth) (new for 2023)**.
 
 ## Chairs
 
