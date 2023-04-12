@@ -22,7 +22,9 @@ With this in mind, a typical layout will include a primer talk that addresses th
 
 
 ## Submission Preparation and Review Process
-If you are interested in organizing a Spotlight, please submit it through [PCS](http://new.precisionconference.com/vgtc/). The Application Spotlight Organizer will be asked to provide the following information:
+<!-- If you are interested in organizing a Spotlight, please submit it through [PCS](http://new.precisionconference.com/vgtc/). -->
+The submission system will open beginning of May. 
+Application Spotlight Organizers will be asked to provide the following information:
 
 * **Title:** Describe the subject of your spotlight session as accurately and specifically as possible in no more than ten words.
 * **Summary:** Describe your spotlight in no more than 1500 characters, including spaces. The summary should be written to attract those who work in your specific topic area as well as those who work in related fields. Based on experience, we suggest the following outline:
