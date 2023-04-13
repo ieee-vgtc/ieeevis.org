@@ -19,7 +19,11 @@ This page covers:
 
 Plan S is an Open Access initiative that was started in 2018. [Specific funding and research institutions](https://www.coalition-s.org/organisations/) require work funded by them be published in open repositories or in journals that provide free access to manuscripts. In part, authors covered by Plan S must make their accepted manuscript available for free and published under an Open License (such as CC-BY).
 
-Many IEEE Journals, including IEEE Transactions on Visualization and Computer Graphics, have committed to becoming [Transformative Journals](https://open.ieee.org/transformative-journals-faq/) with targets for gradual increases in open access content in order to comply with Plan S. Still, different funding agencies may have different requirements with respect to Open Access and Plan S, and making a particular work Open Access can incur additional costs.
+**For full papers or other material appearing in TVCG:**
+Accepted full papers will appear in a special issue of IEEE Transactions on Visualization and Computer Graphics. Many IEEE Journals, including IEEE TVCG, have committed to becoming [Transformative Journals](https://open.ieee.org/transformative-journals-faq/) with targets for gradual increases in open access content in order to comply with Plan S. Still, different funding agencies may have different requirements with respect to Open Access and Plan S, and making a particular work Open Access can incur additional costs.
+
+**For short papers, workshop papers, associated events, and other material appearing in IEEE XPlore:**
+For short papers and other conference proceedings that do not appear in the TVCG Special Issue, but are included in IEEE Xplore, IEEE does not currently have an open access option. Solutions for different funding agency requirements can be made by contacting the IEEE copyright office at [copyrights@ieee.org](mailto:copyrights@ieee.org). Note that not all VIS workshops or associated events choose to include their proceedings in IEEE Xplore; consult with workshop or event organizers for more details on publication strategies.
 
 ## **Recommendation** 1/2—Upload a preprint to a free and open repository
 
