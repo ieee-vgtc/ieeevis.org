@@ -19,6 +19,8 @@ This page covers:
 
 Plan S is an Open Access initiative that was started in 2018. [Specific funding and research institutions](https://www.coalition-s.org/organisations/) require work funded by them be published in open repositories or in journals that provide free access to manuscripts. In part, authors covered by Plan S must make their accepted manuscript available for free and published under an Open License (such as CC-BY).
 
+*IEEE VIS is committed to helping any author affected by Plan S find an accommodation so that their work can appear at VIS and on IEEE Xplore.*
+
 **For full papers or other material appearing in TVCG:**
 Accepted full papers will appear in a special issue of IEEE Transactions on Visualization and Computer Graphics. Many IEEE Journals, including IEEE TVCG, have committed to becoming [Transformative Journals](https://open.ieee.org/transformative-journals-faq/) with targets for gradual increases in open access content in order to comply with Plan S. Still, different funding agencies may have different requirements with respect to Open Access and Plan S, and making a particular work Open Access can incur additional costs.
 
