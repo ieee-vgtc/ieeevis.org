@@ -184,7 +184,7 @@ As an IEEE VIS reviewer, you are in a position to directly influence the quality
 
 ## Supplemental Materials
 
-Authors may include additional material with their submission, such as data tables, code for generating results or analyses, videos, working demos, or appendices with additional results or findings. It is up to the judgment of individual reviewer to determine to what extent this supplemental material is discussed in their review, and to what level of detail they analyze the provided supplements or appendices. However, the reviewers should feel free to raise potential issues with the supplemental material in their review and request changes or additions, especially in the case where additional material is needed to verify the claims made in the paper.
+Authors may include additional material with their submission or on external repositories such as [OSF.io](https://osf.io/). Suplemental materials could include, but are not limited to, data tables, code for generating results or analyses, videos, working demos, or appendices with additional results or findings. It is up to the judgment of individual reviewer to determine to what extent this supplemental material is discussed in their review, and to what level of detail they analyze the provided supplements or appendices. However, the reviewers should feel free to raise potential issues with the supplemental material in their review and request changes or additions, especially in the case where additional material is needed to verify the claims made in the paper.
 
 ## Reviewing Ethics
 
