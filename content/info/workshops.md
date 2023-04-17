@@ -93,7 +93,7 @@ Addressing these questions calls for research at the intersection of human-compu
 
 ## <a name="vsg"></a> [Visualization for Social Good]()
 
-Evanthia Dimara, * Department of Information and Computing Sciences / Visualization and Graphics Group (VIG), Utrecht University, Utrecht, Netherlands*<br>
+Evanthia Dimara, *Department of Information and Computing Sciences / Visualization and Graphics Group (VIG), Utrecht University, Utrecht, Netherlands*<br>
 Uzma Haque Syeda, *Khoury College of Computer and Information Sciences, Northeastern University, Boston, Massachusetts, United States*<br>
 Narges Mahyar, *College of Information and Computer Sciences, University of Massachusetts Amherst, Amherst, Massachusetts, United States*<br>
 Delvin Varghese, *Action Lab, Monash University, Melbourne, Victoria, Australia*<br>
@@ -101,7 +101,7 @@ Emily Wall, *Emory University, Atlanta, Georgia, United States*<br>
 
 Contact: emily.wall@emory.edu
 
-Data is an inescapable part of our lives: it guides commerce, government, and technology, and increasingly determines what lives we can (or cannot) live. Data visualization has a special place within this emerging, data-driven, order: as a tool to inform or persuade mass audiences, guide or enlighten the specialist, or give a voice to the unheard. We therefore pose the question: how can visualization, and visualization research, help us build the worlds we want? This theme, building just and equitable futures, is the motivation behind our proposal for a third edition of our recurring workshop at IEEE VIS: Visualization for Social Good. Our workshop series has had success not only at showcasing high-quality socially-minded visualization research from diverse voices, but also in starting important conversations around the role of data visualization as a force for good in society at large. We hope to continue this effort in 2023. Additionally, as our workshop matures, we feel our choice of theme allows us to take a more longitudinal focus as both a workshop and as a community. Our workshop, if accepted, would also occur amid a larger conversation about the role of data in human dignity and flourishing.
+Data is an inescapable part of our lives: it guides commerce, government, and technology, and increasingly determines what lives we can (or cannot) live. Data visualization has a special place within this emerging, data-driven, order: as a tool to inform or persuade mass audiences, guide or enlighten the specialist, or give a voice to the unheard. We therefore pose the question: how can visualization, and visualization research, help us build the worlds we want? This theme, building just and equitable futures, is the motivation behind the third edition of our recurring workshop at IEEE VIS: Visualization for Social Good. Our workshop series has been successful not only at showcasing high-quality socially-minded visualization research from diverse voices, but also in starting important conversations around the role of data visualization as a force for good in society at large. We invite you to join our workshop and growing community on Visualization for Social Good, to navigate conversations about the role of data in human dignity and flourishing.
 
 ## <a name="Vis4PandEmRes"></a> [Visualization for Pandemic and Emergency Responses Workshop (Vis4PandEmRes)]()
 
@@ -195,7 +195,7 @@ MERCADO is a half-day workshop on the topic of new multimodal experiences for re
 
 ## <a name="VisxVision"></a> [VisxVision: Workshop on Novel Directions in Vision Science and Visualization Research]()
 
-Ghulam Jilani Quadri, * Department of Computer Science, University of North Carolina, Chapel Hill, North Carolina, United States*<br>
+Ghulam Jilani Quadri, *Department of Computer Science, University of North Carolina, Chapel Hill, North Carolina, United States*<br>
 Clementine Zimnicki, *Psychology Department, University of Wisconsin-Madison, Madison, Wisconsin, United States*<br>
 Racquel Fygenson, *Khoury College of Computer Science, Northeastern University, Boston, Massachusetts, United States*<br>
 Madeline Awad, *Psychology Department, Northwestern University., Evanston, Illinois, United States*<br>
