@@ -90,7 +90,6 @@ sidetoc: true
 |Yvonne Jansen| *CNRS, FR* |<br>
 |Jaemin Jo| *Sungkyunkwan University, KR* |<br>
 |Sara Johansson Fernstad| *Newcastle University, UK* |<br>
-|Jimmy Johansson Westberg| *Linköping University, SE* |<br>
 |Chris R. Johnson| *University of Utah, US* |<br>
 |Alark Joshi| *University of San Francisco, US* |<br>
 |Minsuk Kahng| *Google Research, US* |<br>
@@ -195,7 +194,7 @@ sidetoc: true
 |Cagatay Turkay| *University of Warwick, UK, UK* |<br>
 |Will Usher| *Intel, US* |<br>
 |Stef van den Elzen| *Eindhoven University of Technology, NL* |<br>
-|Frank van Ham| *IBM, US* |<br>
+|Frank van Ham| *Coveo, NL* |<br>
 |Anna  Vilanova| *TU Eindhoven, NL* |<br>
 |Katerina Vrotsou| *Linköping University, SE* |<br>
 |Romain Vuillemot| *Ecole Centrale de Lyon, FR* |<br>
