@@ -116,7 +116,7 @@ Contact: alfie.abdulrahman@gmail.com
 
 There have been many VIS R&D activities for supporting COVID-19 pandemic responses, many of which have not yet become public knowledge. This workshop will enable VIS researchers and practitioners to share their experience, knowledge, and reflection and offer their insight and foresight about the role of VIS in pandemic and emergency responses. It will also allow the VIS community to compile one or more archivable collections of records about various VIS activities around the world during the COVID-19 pandemic.
 
-## <a name="altVis"></a> [alt.VIS 2023]()
+## <a name="altVis"></a> [alt.VIS 2023](https://altvis.github.io/)
 
 Andrew M McNutt, *Computer Science, University of Chicago, Chicago, Illinois, United States*<br>
 Lonni Besançon, *Department of Science and Technology, Linköping University, Norrköping, Sweden*<br>
