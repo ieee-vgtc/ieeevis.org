@@ -79,7 +79,7 @@ Contact: vahc.sig@gmail.com
 
 The Workshop on Visual Analytics in Healthcare is the premier research event exploring the application of data visualization and visual analytics to biomedicine. VAHC 2022 will bring together medical experts, leading scientists, and visionaries to discuss opportunities and challenges in using visual analytics techniques to help patients, clinicians, public health researchers, and others leverage the power of complex health datasets.
 
-## <a name="nlviz"></a> [NLVIZ Workshop: Exploring Research Opportunities for Natural Language, Text, and Data Visualization]()
+## <a name="nlviz"></a> [NLVIZ Workshop: Exploring Research Opportunities for Natural Language, Text, and Data Visualization](https://www.nlvizworkshop2023.com/)
 
 Vidya Setlur, *Tableau Research, Palo Alto, California, United States*<br>
 Arjun Srinivasan, *Tableau Research, Seattle, Washington, United States*<br>
@@ -91,7 +91,7 @@ Natural language processing (NLP) has evolved as a promising field for visual an
 Addressing these questions calls for research at the intersection of human-computer interaction, information visualization, and NLP, three fields with natural synergies but rather infrequent meetings. This workshop will assemble an interdisciplinary community that promotes collaboration across these fields, explore research opportunities and challenges, and continue to establish an agenda for NLP research specifically for data visualization.
 
 
-## <a name="vsg"></a> [Visualization for Social Good]()
+## <a name="vsg"></a> [Visualization for Social Good](https://vis4good.github.io/)
 
 Evanthia Dimara, *Department of Information and Computing Sciences / Visualization and Graphics Group (VIG), Utrecht University, Utrecht, Netherlands*<br>
 Uzma Haque Syeda, *Khoury College of Computer and Information Sciences, Northeastern University, Boston, Massachusetts, United States*<br>
@@ -129,7 +129,7 @@ Contact: mcnutt@uchicago.edu
 
 Often the most transformative ideas and challenges come from unexpected and serendipitous sources. Yet, conferences are not often perceived as a place for non-traditional, controversial, or outré work. We propose to continue the success of the last two year's “alt.VIS'” workshops that borrowed from the long-running and successful “alt.chi” model from the ACM SIGCHI conference. This venue will once again provide an avenue for surfacing creative or critical work that would otherwise not find a home through the standard VIS conference review process.
 
-## <a name="VisComm"></a> [Sixth Workshop on Visualization for Communication (VisComm)]()
+## <a name="VisComm"></a> [Sixth Workshop on Visualization for Communication (VisComm)](https://www.viscomm.io/)
 
 Paul Parsons, *Computer Graphics Technology, Purdue University, West Lafayette, Indiana, United States*<br>
 Jon Schwabish, *Urban Institute, Washington, District of Columbia, United States*<br>
@@ -141,7 +141,7 @@ Contact: alvitta@wustl.edu
 The VisComm workshop brings together practitioners and researchers from several fields to address the questions raised by the rapidly growing communicative uses of visualization, from internal research and analysis to news graphics to interactive dashboards to standalone static representations in blogs and social media. These questions span audience, application, evaluation, understanding, and practice. To encourage participation from communities that do not typically attend IEEE VIS and write academic papers, we will accept short papers, briefs on works in progress, visual case studies, and recruit program committee members from those communities.
 
 
-## <a name="EnergyVis"></a> [EnergyVis 2023: 3rd Workshop on Energy Data Visualization]()
+## <a name="EnergyVis"></a> [EnergyVis 2023: 3rd Workshop on Energy Data Visualization](https://energyvis.org/)
 
 Kenny Gruchalla, *Computational Science Center, National Renewable Energy Lab, Golden, Colorado, United States*<br>
 Arnaud Prouzeau, *Potioc, Inria, Bordeaux, France*<br>
@@ -152,7 +152,7 @@ Contact: kenny.gruchalla@nrel.gov
 
 The energy sector is witnessing significant technological progress, primarily driven by the growth of renewable energy, distributed energy resources, and smart grid technologies. This rapid evolution is generating increasingly large, complex data that present substantial challenges for energy systems planning and operations. More research is needed to develop new and innovative visualization methods that can handle the increasing complexity of energy systems and provide diverse stakeholders with the necessary insights to make informed decisions about the future of energy. The EnergyVis 2023 workshop aims to bring together scientists, researchers, and practitioners from the energy and visualization domains to critically assess and discuss energy data visualization in the context of the evolving energy sector. The workshop’s main objectives will be to seed the development of a publishable report on the state-of-the-art and grand challenges in energy data visualization and to develop stronger international collaborations for this important area of multidisciplinary research. With the rapid evolution of energy systems, visualization experts have an essential role in enabling stakeholders to better understand and manage these increasingly complex systems. By expanding the reach of EnergyVis to the broader visualization community at IEEE VIS, we hope to continue the momentum of the past workshops and build a community of experts capable of tackling the visualization challenges of modern energy systems.
 
-## <a name="EduVis"></a> [EduVis: Workshop on Visualization Education, Literacy, and Activities]()
+## <a name="EduVis"></a> [EduVis: Workshop on Visualization Education, Literacy, and Activities](https://ieee-eduvis.github.io/)
 
 Mandy Keck, *University of Applied Sciences Upper Austria, School of Informatics, Communications and Media, Hagenberg im Mühlkreis, Austria*<br>
 Samuel Huron, *Dpt. SES, CNRS i3, Télécom Paris, Institut Polytechnique de Paris, Palaiseau, ile de France, France*<br>
@@ -165,7 +165,7 @@ Benjamin Bach, *School of Informatics, University of Edinburgh, Edinburgh, Unite
 
 Contact: mandy.keck@fh-hagenberg.at
 
-This workshop focuses on visualization education, literacy, and activities. It aims to streamline previous efforts and initiatives of the visualization community to provide a format for education and engagement practices in visualization. It intends to bring together junior and senior scholars to share research and experience and to discuss novel activities, teaching methods, and research challenges. The workshop aims to serve as a platform for interdisciplinary researchers within and beyond the visualization community such as education, learning analytics, science communication, psychology, or people from adjacent fields such as data science, AI, and HCI. It will include presentations of research papers and practical reports, as well as hands-on activities. In addition, the workshop will allow participants to discuss challenges they face in data visualization education and sketch a research agenda of visualization education, literacy, and activities.
+This half-day workshop focuses on visualization education, literacy, and activities. It intends to bring together scholars to share research and experience and discuss novel activities, teaching methods, and research challenges. The workshop aims to serve as a platform for scholars within and beyond the visualization community such as education, learning analytics, science communication, psychology, or people from adjacent fields such as data science, AI, and HCI. It will include presentations of research papers and practical sessions with hands-on activities. In addition, the workshop will allow participants to discuss challenges they face in data visualization education and outline a research agenda of visualization education, literacy, and activities.
 
 
 ## <a name="CityVis"></a> [5th Workshop on Urban Data Visualization (CityVis) - Focus: The Role of Data Governance]()
