@@ -164,28 +164,28 @@ menu:
 # #                     is_new: true
 
       - subsections:
-#           - heading: "Get Involved"
-#             columns:
-#               - links:
+          - heading: "Get Involved"
+            columns:
+              - links:
 # #                   - text: "VIS 2021 Satellite Program"
 # #                     description: "Volunteer to host a satellite event"
 # #                     url: "/year/2023/info/call-participation/satellite"
-#                   - text: "Organize a meetup"
-#                     description: "Meet people for discussion and shared experiences"
-#                     url: "/year/2023/info/call-participation/meetups"
-#                   - text: "Become a student volunteer"
-#                     description: "Support the conference and build your research network"
-#                     url: "http://www.vissv.org"
-#                     is_external: true
-#                   - text: "Become a peer reviewer"
-#                     description: "Volunteer to review submissions"
-#                     url: "https://new.precisionconference.com/review_volunteering"
-#                     is_external: true
+                  - text: "Organize a meetup"
+                    description: "Meet people for discussion and shared experiences"
+                    url: "/year/2023/info/call-participation/meetups"
+                  # - text: "Become a student volunteer"
+                  #   description: "Support the conference and build your research network"
+                  #   url: "http://www.vissv.org"
+                  #   is_external: true
+                  - text: "Become a peer reviewer"
+                    description: "Volunteer to review submissions"
+                    url: "https://new.precisionconference.com/review_volunteering"
+                    is_external: true
 #                   - text: "Elections"
 #                     description: "Register to vote and nominate/review candidates for the VSC/VEC"
 #                     url: "/year/2023/info/elections"
-#                   - text: "Code of Conduct"
-#                     url: "/year/2023/info/inclusion-and-diversity/code-of-conduct"
+                  - text: "Code of Conduct"
+                    url: "/year/2023/info/inclusion-and-diversity/code-of-conduct"
 # #                     is_new: true
 # #                 # - text: "Become an organizer"
 # #                 #   description: "TK TK TK Join the committees and help organize VIS"
