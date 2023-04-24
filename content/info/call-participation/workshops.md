@@ -111,11 +111,11 @@ If accepted, workshops are required to prepare a short summary (50&ndash;100 wor
 
 ## Workshop Support
 
-The workshop organizers will receive the following support from the VIS conference (subject to the format of the workshop):
+The workshop organizers will receive the following support from the VIS conference:
 
 * one complimentary 1-day registration for an invited speaker,
-* room and AV support suitable for around 100 attendees (for in-person workshops),
-* food and beverages for attendees: coffee breaks throughout the day, Sunday evening opening reception, space in the poster display area, if requested (from limited pool set aside for standard workshops; available space depends on the specifics of the venue; early requests given priority over late requests) (for in-person workshops),
+* room and AV support suitable for around 100 attendees,
+* food and beverages for attendees: coffee breaks throughout the day, Sunday evening opening reception, space in the poster display area, if requested (from limited pool set aside for standard workshops; available space depends on the specifics of the venue; early requests given priority over late requests),
 * PCS (Precision Conference Solutions) support for managing submissions and the review process,
 * inclusion of the workshop materials or proceedings in the downloadable conference proceedings for dissemination to attendees of the conference and/or in IEEE Xplore, if requested (materials must be provided by August 21, 2023),
 * IEEE Xplore Digital Library publication of the workshop proceedings, if requested (considered archival).
