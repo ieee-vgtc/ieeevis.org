@@ -107,7 +107,7 @@ When submitting your abstract (for the March 21 deadline) you will be asked to p
 
 Submissions will be treated as confidential communications during the review process, and thus submissions do not constitute public disclosure of any ideas therein. Submissions should contain no information or materials that will be proprietary or confidential at the time of publication (at the conference), and should cite no publications that are proprietary or confidential at the time of publication. 
 
-At least one author of an accepted paper must attend the conference to present the work, and authors will also be required to present a brief summary of their talk at a fast forward session. *The latter may change when the format (e.g., physical, virtual, hybrid) of the conference is finalized.*
+At least one author of an accepted paper must attend the conference to present the work, and authors are required to submit a video of their talk for online content and archival purposes, and a brief video summary of their work to be provided as a preview.
 
 ## Expectations for References
 
