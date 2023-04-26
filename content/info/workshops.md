@@ -103,7 +103,7 @@ Contact: emily.wall@emory.edu
 
 Data is an inescapable part of our lives: it guides commerce, government, and technology, and increasingly determines what lives we can (or cannot) live. Data visualization has a special place within this emerging, data-driven, order: as a tool to inform or persuade mass audiences, guide or enlighten the specialist, or give a voice to the unheard. We therefore pose the question: how can visualization, and visualization research, help us build the worlds we want? This theme, building just and equitable futures, is the motivation behind the third edition of our recurring workshop at IEEE VIS: Visualization for Social Good. Our workshop series has been successful not only at showcasing high-quality socially-minded visualization research from diverse voices, but also in starting important conversations around the role of data visualization as a force for good in society at large. We invite you to join our workshop and growing community on Visualization for Social Good, to navigate conversations about the role of data in human dignity and flourishing.
 
-## <a name="Vis4PandEmRes"></a> [Visualization for Pandemic and Emergency Responses Workshop (Vis4PandEmRes)]()
+## <a name="Vis4PandEmRes"></a> [Visualization for Pandemic and Emergency Responses Workshop (Vis4PandEmRes)](https://vis4pandemres.github.io/)
 
 Alfie Abdul-Rahman, *Department of Informatics, King's College London, London, United Kingdom*<br>
 Kelly Gaither, *Texas Advanced Computing Center, University of Texas at Austin, Austin, Texas, United States*<br>
@@ -112,7 +112,7 @@ Tobias Schreck, *Graz University of Technology, Graz, Austria*<br>
 Min Chen, *Department of Engineering Science, University of Oxford, Oxford, United Kingdom*<br>
 David Ebert, *University of Oklahoma, Oklahoma, Oklahoma, United States*<br>
 
-Contact: alfie.abdulrahman@gmail.com
+Contact: alfie.abdulrahman@kcl.ac.uk
 
 There have been many VIS R&D activities for supporting COVID-19 pandemic responses, many of which have not yet become public knowledge. This workshop will enable VIS researchers and practitioners to share their experience, knowledge, and reflection and offer their insight and foresight about the role of VIS in pandemic and emergency responses. It will also allow the VIS community to compile one or more archivable collections of records about various VIS activities around the world during the COVID-19 pandemic.
 
@@ -136,7 +136,7 @@ Jon Schwabish, *Urban Institute, Washington, District of Columbia, United States
 Alvitta Ottley, *Department of Computer Science and Engineering, Washington University in St. Louis, St. Louis, Missouri, United States*<br>
 Alice Feng, *Urban Institute, Washington, District of Columbia, United States*<br>
 
-Contact: alvitta@wustl.edu
+Contact: viscomm_chairs@googlegroups.com
 
 The VisComm workshop brings together practitioners and researchers from several fields to address the questions raised by the rapidly growing communicative uses of visualization, from internal research and analysis to news graphics to interactive dashboards to standalone static representations in blogs and social media. These questions span audience, application, evaluation, understanding, and practice. To encourage participation from communities that do not typically attend IEEE VIS and write academic papers, we will accept short papers, briefs on works in progress, visual case studies, and recruit program committee members from those communities.
 
