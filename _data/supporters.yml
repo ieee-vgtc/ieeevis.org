@@ -97,9 +97,9 @@
 #     - name: "Nomic"
 #       image: /assets/supporters/nomic.png
 #       url: "https://home.nomic.ai"
-    - name: "SCI"
-      image: /assets/supporters/sci.png
-      url: "https://www.sci.utah.edu/"
+     - name: "SCI"
+       image: /assets/supporters/sci.png
+       url: "https://www.sci.utah.edu/"
 #     - name: "NREL"
 #       image: /assets/supporters/NREL.jpg
 #       url: "https://www.nrel.gov/"
