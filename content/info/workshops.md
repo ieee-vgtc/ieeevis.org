@@ -168,7 +168,7 @@ Contact: mandy.keck@fh-hagenberg.at
 This half-day workshop focuses on visualization education, literacy, and activities. It intends to bring together scholars to share research and experience and discuss novel activities, teaching methods, and research challenges. The workshop aims to serve as a platform for scholars within and beyond the visualization community such as education, learning analytics, science communication, psychology, or people from adjacent fields such as data science, AI, and HCI. It will include presentations of research papers and practical sessions with hands-on activities. In addition, the workshop will allow participants to discuss challenges they face in data visualization education and outline a research agenda of visualization education, literacy, and activities.
 
 
-## <a name="CityVis"></a> [5th Workshop on Urban Data Visualization (CityVis) - Focus: The Role of Data Governance]()
+## <a name="CityVis"></a> [5th Workshop on Urban Data Visualization (CityVis) - Focus: The Role of Data Governance](https://www.cityvis.io/workshops/2023/)
 
 Jessica Bou Nassar, *Human-centred computing, Monash University, Clayton, VIC, Australia*<br>
 Lyn Bartram, *School of Interactive Art and Technology, Simon Fraser University, Surrey, British Columbia, Canada*<br>
