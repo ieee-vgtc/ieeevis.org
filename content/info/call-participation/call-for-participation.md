@@ -80,7 +80,7 @@ We highly encourage accessible final submissions so that your contribution is re
 
 ## Open Access Policy
 
-Visualization research is better communicated and acted on if it is freely accessible to the research community, practitioners, and the general public. Therefore, all paper authors are encouraged to share their accepted paper in an open access repository before the print deadline in accordance with IEEE copyright regulations. Additionally, funding agencies and research organisations may have specific rules such as Plan S compliance and it’s the authors responsibility to check and comply with their respective organizational rules. For instructions on how to post an accepted paper to an open access repository, please see the VIS Open Practices Guidelines (link coming soon)
+Visualization research is better communicated and acted on if it is freely accessible to the research community, practitioners, and the general public. Therefore, all paper authors are encouraged to share their accepted paper in an open access repository before the print deadline in accordance with IEEE copyright regulations. Additionally, funding agencies and research organisations may have specific rules such as Plan S compliance and it’s the authors responsibility to check and comply with their respective organizational rules. For instructions on how to post an accepted paper to an open access repository, please see the [VIS Open Practices Guidelines](https://ieeevis.org/year/2023/info/open-practices/open-practices)
 <!---[VIS Open Practices Guidelines](/year/2023/info/open-practices/open-practices).--->
 
 Email: [papers@ieeevis.org](mailto:papers@ieeevis.org)
