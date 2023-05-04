@@ -25,7 +25,7 @@ Only selected applicants will be allowed to participate in the colloquium and th
 We plan to have the DC as an in-person first event following the rest of the conference.
 
 ## Funding
-We may be able to partially fund conference registration, lodging, and possibly travel for accepted DC student participants who are US citizens or are currently studying at US-based Universities.
+We may be able to fund conference registration for **all** participating students. We may additionally be able to partially fund lodging and possibly some travel for accepted DC student participants who are US citizens or are currently studying at US-based Universities.
 
 ## Submissions
 The deadline for DC submissions is **May 12, 2023** at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth) (new for 2023)**.
