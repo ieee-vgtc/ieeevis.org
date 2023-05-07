@@ -173,10 +173,10 @@ menu:
                   - text: "Organize a meetup"
                     description: "Meet people for discussion and shared experiences"
                     url: "/year/2023/info/call-participation/meetups"
-                   - text: "Become a student volunteer"
-                     description: "Support the conference and build your research network"
-                     url: "http://www.vissv.org"
-                     is_external: true
+                  - text: "Become a student volunteer"
+                    description: "Support the conference and build your research network"
+                    url: "http://www.vissv.org"
+                    is_external: true
                   - text: "Become a peer reviewer"
                     description: "Volunteer to review submissions"
                     url: "https://new.precisionconference.com/review_volunteering"
