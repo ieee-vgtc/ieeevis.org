@@ -99,7 +99,6 @@ sidetoc: true
 |Daniel  Keefe| *University of Minnesota, US* |<br>
 |Andreas Kerren| *Linköping University, SE* |<br>
 |Mike  Kirby| *University of Utah, US* |<br>
-|Søren Knudsen| *IT University of Copenhagen, DK* |<br>
 |Sungahn Ko| *Ulsan National Institute of Science & Technology, KR* |<br>
 |Stephen Kobourov| *University of Arizona, US* |<br>
 |Steffen Koch| *University of Stuttgart, DE* |<br>
