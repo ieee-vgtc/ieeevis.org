@@ -15,7 +15,7 @@ Through a six-day program of workshops and tutorials, exposition, panels, poster
 
 <!-- ## [>> Browse our sponsorship options <<](prospectus)  -->
 
-[>> Browse our sponsorship options in the prospectus <<](year/2023/assets/IEEE-VIS-2023-Sponsorship-Prospectus-230416.pdf)
+[>> Browse our sponsorship options in the prospectus <<](/year/2023/assets/IEEE-VIS-2023-Sponsorship-Prospectus-230416.pdf)
 
 
 # Contact: 
