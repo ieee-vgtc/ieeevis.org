@@ -195,57 +195,57 @@ menu:
             description: "Your support makes this conference possible!"
 
   - dropdown: "Program"
-    display: false
+    display: true
     sections:
-      - subsections:
-          - heading: "Vis Program"
-            heading_url: "/year/2023/info/week-at-a-glance"
-            description: "Click to see an overview of the conference program"
-            columns:
-              - links:
-                  - text: "Papers"
-                    description: "The latest research in theory, methods, and applications of visualization"
-                    url: "/year/2023/info/papers-sessions"
-                  - text: "Posters"
-                    description: "Nascent and recent work"
-                    url: "/year/2023/info/posters"
-                  - text: "Tutorials"
-                    description: "Learn new tools and application domains"
-                    url: "/year/2023/info/tutorials"
-                    #is_new: true
-                  - text: "Workshops"
-                    description: "Informal setting to discuss emerging topics"
-                    url: "/year/2023/info/workshops"
-                    #is_new: true
-                  - text: "Panels"
-                    description: "Discuss important and controversial issues"
-                    url: "/year/2023/info/panels"
-                    #is_new: true
-                  - text: "Application Spotlights"
-                    description: "Showcase practical, real-world applications of visualization"
-                    url: "/year/2023/info/spotlights"
-                    #is_new: true
+      # - subsections:
+      #     - heading: "Vis Program"
+      #       heading_url: "/year/2023/info/week-at-a-glance"
+      #       description: "Click to see an overview of the conference program"
+      #       columns:
+      #         - links:
+      #             - text: "Papers"
+      #               description: "The latest research in theory, methods, and applications of visualization"
+      #               url: "/year/2023/info/papers-sessions"
+      #             - text: "Posters"
+      #               description: "Nascent and recent work"
+      #               url: "/year/2023/info/posters"
+      #             - text: "Tutorials"
+      #               description: "Learn new tools and application domains"
+      #               url: "/year/2023/info/tutorials"
+      #               #is_new: true
+      #             - text: "Workshops"
+      #               description: "Informal setting to discuss emerging topics"
+      #               url: "/year/2023/info/workshops"
+      #               #is_new: true
+      #             - text: "Panels"
+      #               description: "Discuss important and controversial issues"
+      #               url: "/year/2023/info/panels"
+      #               #is_new: true
+      #             - text: "Application Spotlights"
+      #               description: "Showcase practical, real-world applications of visualization"
+      #               url: "/year/2023/info/spotlights"
+      #               #is_new: true
       - subsections:
           - heading: "Invited Speakers"
 #            heading_url: "/year/2023/info/week-at-a-glance"
             description: "Keynote and Capstone Speakers"
             columns:
               - links:
-                  - text: "Keynote"
-                    description: "Dr. Marti Hearst, UC Berkeley"
+                  - text: "Keynotes"
+                    description: "Dr. Drew Berry and Professor Anders Ynnerman"
                     url: "/year/2023/info/keynote-speaker"
                     is_new: true
-                  - text: "Capstone"
-                    description: "Dr. Kerry McGruder, University of Oklahoma"
-                    url: "/year/2023/info/capstone-speaker"
-                    is_new: true
-          - heading: "Awards and Recognitions"
-            description: "Recognize outstanding work by the VIS community"
-            columns:
-             - links:
-               - text: "Best Paper Awards"
-                 url: "/year/2023/info/awards/best-paper-awards"
-                 is_new: true
+                  # - text: "Capstone"
+                  #   description: "Dr. Kerry McGruder, University of Oklahoma"
+                  #   url: "/year/2023/info/capstone-speaker"
+                  #   is_new: true
+          # - heading: "Awards and Recognitions"
+          #   description: "Recognize outstanding work by the VIS community"
+          #   columns:
+          #    - links:
+          #      - text: "Best Paper Awards"
+          #        url: "/year/2023/info/awards/best-paper-awards"
+          #        is_new: true
                # - text: "Best Poster Awards"
                #   url: "/year/2023/info/awards/best-poster-awards"
   # - text: "Service Awards"

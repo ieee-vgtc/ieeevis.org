@@ -1,25 +1,43 @@
 ---
 layout: page
-title: "Keynote by Dr. Marti Hearst"
+title: "Keynotes by Dr. Drew Berry and Professor Anders Ynnerman"
 permalink: /info/keynote-speaker
 contact: info@ieeevis.org
 active_nav: "Program"
 ---
 
-<img src="/year/2022/assets/carousel/marti_hearst.jpg"
-alt="Capstone Speaker: Dr. Marti Hearst, UC Berkeley" 
+<img src="/year/2023/assets/keynotes/berry.jpg"
+alt="Capstone Speaker: Dr. Drew Berry, Walter and Eliza Hall Institute of Medical Research" 
 style="height:400px"
 />
 <br/>
 
-<p><b>Speaker</b> <br/>Dr. Marti Hearst, UC Berkeley</p>
+<p><b>Speaker</b> <br/>Dr. Drew Berry, Walter and Eliza Hall Institute of Medical Research</p>
 
-<p><b>Title</b> <br/>Show It or Tell It? Text, Visualization, and their Combination </p>
+<p><b>Title</b> <br/>TBA</p>
 
 <p><b>Abstract</b> <br/>
-In this talk I will share observations about the role of language in visualization and in other modes of visual expression.  I will pose questions such as: how do we decide what to express via language vs via visuals?   How do we choose what kind of text to use when
-creating visualizations, and does that choice matter?  Does anyone prefer text over visuals, under what circumstances, and why?  Why is visualization ineffective for expressing text content?  And most speculatively, what does the increasing prevalence of visual
-communication mean for the future of text?
+TBA
 </p>
 
-<p><b>About the speaker</b><br/>Dr. Marti Hearst is a Professor at UC Berkeley in the School of Information and the Computer Science Division. Her research encompasses user interfaces with a focus on search,  information visualization with a focus on text, computational linguistics, and education at scale. She is the author of Search User Interfaces, the first academic book on that topic.  She is past President of Association of Computational Linguistics, a member of the CHI Academy, an ACM Fellow, a SIGIR Fellow, and has received four Excellence in Teaching Awards.
+<p><b>About the speaker</b><br/>Dr. Drew Berry is a biologist-animator renowned for his visually stunning and scientifically accurate animations of molecular and cellular processes. Trained as a cell biologist and microscopist Drew brings scientific rigour to each project, ensuring current research data are represented. Since 1995, Drew has been a biomedical animator at the Walter and Eliza Hall Institute of Medical Research. His work has been exhibited at international venues, including the Guggenheim Museum, MoMA, and the Royal Institute of Great Britain. In 2011, he collaborated with the musician Björk for her album Biophilia. His many awards include an Emmy, a BAFTA, and the MacArthur "Genius" Fellowship. See his animations on <a href='https://www.wehi.edu.au/wehi-tv'>wehi.tv</a>.
+
+<br/>
+<hr/>
+<br/>
+
+<img src="/year/2023/assets/keynotes/ynnerman.jpg"
+alt="Capstone Speaker: Professor Anders Ynnerman, Linköping University" 
+style="height:400px"
+/>
+<br/>
+
+<p><b>Speaker</b> <br/>Anders Ynnerman, Linköping University</p>
+
+<p><b>Title</b> <br/>TBA</p>
+
+<p><b>Abstract</b> <br/>
+TBA
+</p>
+
+<p><b>About the speaker</b><br/>Professor Anders Ynnerman holds the chair in scientific visualization at Linköping University and is the director of the Norrköping Visualization Center C. His research interest lies in the area of visualization of large scale and complex data with applications in a wide range of areas including medical visualization, space and astronomical research as well as visualization in science communication. Ynnerman is a member of the Swedish Royal Academy of Engineering Sciences and the  Royal Swedish Academy of Sciences. In 2007 Ynnerman was awarded the Akzo Nobel Science award and in 2010 he received the Swedish Knowledge Award for dissemination of scientific knowledge to the public. In 2017 he was honored with the King’s medal for his contributions to science and in 2018 he received the IEEE VGTC technical achievement award. 
