@@ -13,7 +13,10 @@ VIS 2023 will be the year’s premier forum for advances in theory, methods, app
 
 Through a six-day program of workshops and tutorials, exposition, panels, posters, keynotes, and research presentations! The conference convenes a global community of over 1000 researchers, students, and practitioners from universities, government, and industry with broad backgrounds in computing, design, mathematics, science, and more. An active recruitment venue for skilled candidates and potential research collaborations, VIS 2023 is where top university graduates and researchers gather. Support this community, and make your presence known at IEEE VIS 2023.
 
-## [>> Browse our sponsorship options <<](prospectus) 
+<!-- ## [>> Browse our sponsorship options <<](prospectus)  -->
+
+[>> Browse our sponsorship options in the prospectus <<](https://github.com/ieee-vgtc/ieeevis.org/files/11441702/IEEE.VIS.2023.Sponsorship.Prospectus.230416.pdf)
+
 
 # Contact: 
 - General inquiry: Chad Murphy - ASN Events [<chad.m -at- asnevents.net.au>](mailto:chad.m@asnevents.net.au)
