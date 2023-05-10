@@ -21,6 +21,8 @@ To help plan your time here, the Melbourne Convention Bureau, Visit Melbourne, a
 
 [Visit Information](https://mcec.com.au/visit/visit-information#getting-here)
 
+[Visa Applications - General Information](/year/2023/assets/visa-info.pdf)
+
 [<img src="assets/supporters/Banner_Billboard_970X250.gif" title="Visit-Melbourne">](https://bit.ly/39aNV57)
 
 [<img align="left" src="assets/supporters/Melbourne-Australia-logo-528w_border.png" width="300px" title="https://www.visitmelbourne.com/">](https://www.visitmelbourne.com/)
