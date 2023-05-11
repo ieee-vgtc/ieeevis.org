@@ -18,8 +18,8 @@ All registered voters will receive instructions outlining the voting procedure v
 <!-- # 2022 Candidates
 Please visit the [VSC Candidates](/year/2022/info/vsc-candidates) and [VEC Candidates](/year/2022/info/vec-candidates) pages for bios and campaign statements from all candidates running in this year’s election.
  -->
-<!---# Nominate a Candidate
-The call to nominate candidates for both the VEC and VSC is now open, with **nominations due by June 1st**. To nominate a candidate, please complete the [VIS 2022 candidate nomination form](https://forms.gle/zufCbHM4Puky7JKJ6). --->
+# Nominate a Candidate
+The call to nominate candidates for both the VEC and VSC is now open, with **nominations due by June 1st**. To nominate a candidate, please complete the [VIS 2023 candidate nomination form](https://forms.gle/Le53ZXDHsymZB7Ne6). 
 
 # Questions
 Questions about the elections process can be directed to the VIS Elections Chairs at [elections@ieeevis.org](mailto:elections@ieeevis.org).
