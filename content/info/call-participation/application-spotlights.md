@@ -23,11 +23,11 @@ With this in mind, a typical layout will include a primer talk that addresses th
 
 ## Submission Preparation and Review Process
 <!-- If you are interested in organizing a Spotlight, please submit it through [PCS](http://new.precisionconference.com/vgtc/). -->
-The submission system is now open. To simplify the submission process, we are using a [Google form](https://forms.gle/oA7UPLNquzRPyNRY8) this year: [https://forms.gle/oA7UPLNquzRPyNRY8](https://forms.gle/oA7UPLNquzRPyNRY8)
+The submission system will open beginning of May. 
 Application Spotlight Organizers will be asked to provide the following information:
 
 * **Title:** Describe the subject of your spotlight session as accurately and specifically as possible in no more than ten words.
-* **Summary:** Describe your spotlight in no more than 1500 characters, including spaces. The summary should be written to attract those who work in your specific topic area as well as those who work in related fields. Based on experience, we suggest the following outline:
+* **Summary:** Describe your spotlight in no more than 500 words. The proposal has to submitted as a PDF document (there is no template or required format). Feel free to add images to your proposal. The summary should be written to attract those who work in your specific topic area as well as those who work in related fields. Based on experience, we suggest the following outline:
   * Explain the problem area to be addressed by the speakers and why VIS technology can create meaningful benefits in that area.
   * Explain in as much detail as possible the basic research questions in visualization and analytics that are likely to be triggered by the application
   * Discuss any methodological advances that are helpful in the application domain and its potential contributions to basic research.
@@ -37,6 +37,8 @@ The Application Spotlights co-chairs will review and evaluate all submissions. A
 Feel free to contact us at application_spotlights@ieeevis.org if you have any questions concerning submission, format, and content of your application spotlight.
 
 ## IMPORTANT DATES
+
+Dates TBD
 
 | Date | Activity |
 |------|----------|
