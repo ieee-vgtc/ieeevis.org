@@ -23,7 +23,7 @@ With this in mind, a typical layout will include a primer talk that addresses th
 
 ## Submission Preparation and Review Process
 <!-- If you are interested in organizing a Spotlight, please submit it through [PCS](http://new.precisionconference.com/vgtc/). -->
-The submission system will open beginning of May. 
+The submission system is now open. To simplify the submission process, we are using a [Google form](https://forms.gle/oA7UPLNquzRPyNRY8) this year: [https://forms.gle/oA7UPLNquzRPyNRY8](https://forms.gle/oA7UPLNquzRPyNRY8)
 Application Spotlight Organizers will be asked to provide the following information:
 
 * **Title:** Describe the subject of your spotlight session as accurately and specifically as possible in no more than ten words.
@@ -37,8 +37,6 @@ The Application Spotlights co-chairs will review and evaluate all submissions. A
 Feel free to contact us at application_spotlights@ieeevis.org if you have any questions concerning submission, format, and content of your application spotlight.
 
 ## IMPORTANT DATES
-
-Dates TBD
 
 | Date | Activity |
 |------|----------|
