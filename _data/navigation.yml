@@ -231,7 +231,7 @@ menu:
             description: "Keynote and Capstone Speakers"
             columns:
               - links:
-                  - text: "Keynotes"
+                  - text: "Keynote"
                     description: "Dr. Drew Berry and Professor Anders Ynnerman"
                     url: "/year/2023/info/keynote-speaker"
                     is_new: true
