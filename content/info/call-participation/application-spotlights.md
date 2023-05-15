@@ -23,7 +23,7 @@ With this in mind, a typical layout will include a primer talk that addresses th
 
 ## Submission Preparation and Review Process
 <!-- If you are interested in organizing a Spotlight, please submit it through [PCS](http://new.precisionconference.com/vgtc/). -->
-The submission system will open beginning of May. 
+The submission system is now open. To simplify the submission process, we are using a [Google form](https://forms.gle/7w6AGnYDgjtBMahb7) this year: [https://forms.gle/7w6AGnYDgjtBMahb7](https://forms.gle/7w6AGnYDgjtBMahb7)
 Application Spotlight Organizers will be asked to provide the following information:
 
 * **Title:** Describe the subject of your spotlight session as accurately and specifically as possible in no more than ten words.
