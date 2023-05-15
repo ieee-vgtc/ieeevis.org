@@ -1,3 +1,15 @@
+- title: "IEEE VIS is made possible by our supporters"
+  image: "20230427_supporters.png"
+  button-text: "Become a supporter"
+  button-url: "/supporters"
+  active: "active"
+
+- title: "Nominate Candidates for the 2023 VIS Elections"
+  description: "The VIS community will vote on a new representative each to join the Vis Executive Committee (VEC) and the Vis Steering Committee (VSC). Nominations are due by June 1. Visit the Elections Page for information on how to nominate your future representatives — self nominations are encouraged!"
+  button-text: "Elections Page"
+  button-url: "http://ieeevis.org/year/2023/info/elections"
+  image: "vote.jpeg"
+
 # - title: "Best Paper Awards Announced"
 #   image: "exposure_lights.jpg"
 #   description: "The Best Paper awards for full papers and short papers have been announced."
@@ -38,23 +50,11 @@
 #   button-text: "Read more"
 #   button-url: "/blog/vis-22-in-oklahoma"
 
-# - title: "Vote in VIS 2021 Elections"
-#   description: "Register by Sep. 10 to vote in the VIS 2021 elections! Eligible voters are active members of the VIS community, who have participated in 3 out of the 5 most recent VIS conferences (upcoming 2021 included)."
-#   button-text: "Register To Vote"
-#   button-url: "http://ieeevis.org/year/2021/info/elections"
-#   image: "vote.jpeg"
-
 # - title: "VIS 2021 Satellite Program"
 #   description: "Join us by participating in one of our worldwide, in-person satellite events."
 #   button-text: "See sites"
 #   button-url: "/info/satellite"
 #   image: "earth.jpg"
-
-- title: "IEEE VIS is made possible by our supporters"
-  image: "20230427_supporters.png"
-  button-text: "Become a supporter"
-  button-url: "/supporters"
-  active: "active"
 
 #- title: "Talk Recording Guide"
 #  description: "Check out some tips for recording your VIS talk from the conference organizers."
