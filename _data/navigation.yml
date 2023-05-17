@@ -306,8 +306,8 @@ menu:
                     is_external: true
                   - text: "VAHC"
                     description: "Visual Analytics in Healthcare"
-#                    url: "https://visualanalyticshealthcare.org/"
-#                    is_external: true
+                    url: "https://visualanalyticshealthcare.github.io/homepage/"
+                    is_external: true
                   - text: "VISxAI"
                     description: "Visualization for AI Explainability"
                     url: "http://visxai.io/"
