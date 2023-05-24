@@ -66,7 +66,7 @@ Through a six-day program of workshops and tutorials, exposition, panels, poster
 ![Frame 3vis23](https://user-images.githubusercontent.com/1230497/214549391-3c244d13-a8a1-46a7-b90a-dc654484a658.png)
 
 ## In supporting the conference as a VIS 2023 Supporter, you: 
-* will have access to [a range of options for promotion and engagement](prospectus), based on level of support: Platinum, Gold, Bronze, ... 
+* will have access to [a range of options for promotion and engagement](/year/2023/assets/IEEE-VIS-2023-Sponsorship-Prospectus-230416.pdf), based on level of support: Platinum, Gold, Bronze, ... 
 * will have access to the conference and its events through registrations for your staff 
 * will have the opportunity to directly sponsor Diversity, Equity and Inclusion priorities
 * will have access to the conference and its events through registrations for your staff
