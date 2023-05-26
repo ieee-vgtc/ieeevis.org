@@ -29,54 +29,51 @@ blog:
   text: "Blog"
   url: "/year/2023/blog/index"
 
-destination:
-  display: true
-  text: "Destination"
-  url: "/year/2023/destination"
-
 menu:
   - dropdown: "Attend"
-    display: false
+    display: true
     sections:
       - subsections:
           - heading: "Attending VIS 2023"
           #  heading_url: "https://virtual.ieeevis.org/"
           #  description: "Join the conference online on our virtual site!"
             columns:
-            - heading: "Attend"
-              links:
-                - text: "Registration"
-                  url: "/year/2023/info/registration/conference-registration"
+            # - heading: "Attend"
+            #   links:
+                # - text: "Registration"
+                #   url: "/year/2023/info/registration/conference-registration"
                   #is_new: true
                 # - text: "Satellite Sites"
                 #   url: "/year/2023/info/satellite"
                 #    - text: "Practitioner Guide"
                 #      url: "https://visinpractice.github.io/guide.html"
                 #      is_external: true
-                - text: "Full Program"
-                  url: "/year/2023/info/week-at-a-glance"
-                  is_new: true
-                - text: "OU Open House"
-                  description: "Tour OU facilities, registration required"
-                  url: "/year/2023/assets/ou-open-house-invite.pdf"
-                  is_new: true
+                # - text: "Full Program"
+                #   url: "/year/2023/info/week-at-a-glance"
+                #   is_new: true
+                # - text: "OU Open House"
+                #   description: "Tour OU facilities, registration required"
+                #   url: "/year/2023/assets/ou-open-house-invite.pdf"
+                #   is_new: true
                 # - text: "Media Requests"
                 #   url: "/year/2023/info/media-requests"
                 #   is_new: true
-                - text: "Coronavirus Information"
-                  url: "/year/2023/info/coronavirus-info"
+                # - text: "Coronavirus Information"
+                #   url: "/year/2023/info/coronavirus-info"
                   #is_new: true
             - heading: "Travel"
               links:
-                - text: "Accommodation"
-                  url: "/year/2023/info/registration/hotel-information"
+                - text: "Destination"
+                  url: "/year/2023/destination"
+                # - text: "Accommodation"
+                #   url: "/year/2023/info/registration/hotel-information"
                   #is_new: true
                 - text: "Visa & Travel"
                   url: "/year/2023/info/registration/travel-visas"
                   #is_new: true
-                - text: "Things to do in Oklahoma City"
-                  url: "/year/2023/info/registration/what-to-do-in-okc"
-                  is_new: true
+                # - text: "Things to do in Oklahoma City"
+                #   url: "/year/2023/info/registration/what-to-do-in-okc"
+                #   is_new: true
 
           - heading: "Code of Conduct"
             heading_url: "/year/2023/info/inclusion-and-diversity/code-of-conduct"
@@ -86,18 +83,18 @@ menu:
             heading_url: "/year/2023/info/inclusion-and-diversity/inclusivity"
             columns:
               - links:
-                  - text: "Land Recognition"
-                    description: "Recognition of the tribal land the conference takes place."
-                    url: "/year/2023/info/inclusion-and-diversity/land-recognition"
+                  # - text: "Land Recognition"
+                  #   description: "Recognition of the tribal land the conference takes place."
+                  #   url: "/year/2023/info/inclusion-and-diversity/land-recognition"
                   - text: "Inclusivity & Diversity Scholarship"
                     description: "Need-based scholarships for conference attendance"
                     url: "/year/2023/info/inclusion-and-diversity/diversity-scholarship"
-                  - text: "Accessibility"
-                    description: "Supporting access for all attendees"
-                    url: "/year/2023/info/accessibility/attend"
-                  - text: "VISKids Childcare Grants"
-                    description: "Supporting our VISKids and young families"
-                    url: "/year/2023/info/inclusion-and-diversity/viskids-child-care-grants"
+                  # - text: "Accessibility"
+                  #   description: "Supporting access for all attendees"
+                  #   url: "/year/2023/info/accessibility/attend"
+                  # - text: "VISKids Childcare Grants"
+                  #   description: "Supporting our VISKids and young families"
+                  #   url: "/year/2023/info/inclusion-and-diversity/viskids-child-care-grants"
   #                 - text: "VISKids"
   #                   description: "Childcare and activities open to everyone"
   #                   url: "/year/2023/info/inclusion-and-diversity/viskids-event"
