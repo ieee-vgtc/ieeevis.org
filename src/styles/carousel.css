@@ -2,6 +2,7 @@
 
 .carousel {
   position: relative;
+  min-height: 410px;
 }
 
 .carousel-inner {
