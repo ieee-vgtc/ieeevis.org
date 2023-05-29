@@ -9,9 +9,6 @@ contact: meetups@ieeevis.org
 
 * [VisLies! Meetup](#vis-lies) 
 * [Early Career Meetup](#vis-earlycareer)
-<!-- * [Diversity Meetup](#vis-diversity) (Wednesday)
-* [Drone Effect Meetup](#vis-drone) (Thursday)
-* [DOE CGF Meetup](#vis-doecgf) (Thursday) -->
 
 
 
