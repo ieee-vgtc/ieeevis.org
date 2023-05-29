@@ -160,6 +160,8 @@ menu:
 # #                     url: "/year/2023/info/presenter-information/presenting-virtually"
 # #                     is_new: true
 
+          - heading: "Code of Conduct"
+            heading_url: "/year/2023/info/inclusion-and-diversity/code-of-conduct"
       - subsections:
           - heading: "Get Involved"
             columns:
@@ -182,8 +184,6 @@ menu:
                     description: "Register to vote and nominate/review candidates for the VSC/VEC"
                     url: "/year/2023/info/elections"
                     is_new: true
-                  - text: "Code of Conduct"
-                    url: "/year/2023/info/inclusion-and-diversity/code-of-conduct"
 # #                     is_new: true
 # #                 # - text: "Become an organizer"
 # #                 #   description: "TK TK TK Join the committees and help organize VIS"
@@ -282,8 +282,8 @@ menu:
                     description: "Perpetual Presence"
                     url: "https://visap.net/2023"
                     is_external: true
-#                  - text: "VisInPractice"
-#                    description: "Invited talks by visualization practitioners"
+                  - text: "VisInPractice"
+                    description: "Invited talks by visualization practitioners"
 #                    url: "/year/2023/info/visinpractice"
                   - text: "LDAV Symposium"
                     description: "Big Data Analysis and Visualization"
@@ -297,6 +297,25 @@ menu:
                     description: "Visualization for Cyber Security"
                     url: "https://vizsec.org/vizsec2023/"
                     is_external: true
+          - heading: "Competitions"
+            description: "Advancing visualization through competition"
+            columns:
+              - links:
+                  - text: "Bio+MedVis Challenges"
+                    url: "http://biovis.net/2023/biovisChallenges_vis/"
+                    is_external: true
+                  - text: "SciVis Contest"
+                    url: "https://sciviscontest2023.github.io/"
+                    is_external: true
+                  - text: "VAST Challenge"
+                    url: "https://vast-challenge.github.io/2023/"
+                    is_external: true
+      - subsections:
+          - heading: "IEEE VIS Workshops"
+            heading_url: "/year/2023/info/workshops"
+            description: "Informal settings to discuss emerging topics"
+            columns:
+              - links:
                   - text: "TopoInVis"
                     description: "Topological Data Analysis and Visualization"
                     url: "https://topoinvis-workshop.github.io/"
@@ -313,24 +332,19 @@ menu:
                     description: "Visualization for the Digital Humanities"
                     url: "https://vis4dh.dbvis.de/"
                     is_external: true
-                  - text: "IEEE VIS Workshops"
-                    description: "Informal settings to discuss emerging topics"
-                    url: "/year/2023/info/workshops"
-      - subsections:
-          - heading: "Competitions"
-            description: "Advancing visualization through competition"
+          - heading: "Meetups"
+            heading_url: "/year/2023/info/meetups"
+            description: "Meet for discussion and shared experiences"
             columns:
               - links:
-                  - text: "Bio+MedVis Challenges"
-                    url: "http://biovis.net/2023/biovisChallenges_vis/"
-                    is_external: true
-                  - text: "SciVis Contest"
-                    url: "https://sciviscontest2023.github.io/"
-                    is_external: true
-                  - text: "VAST Challenge"
-                    url: "https://vast-challenge.github.io/2023/"
-                    is_external: true
-
+                - text: "VisLies!"
+                  description: "A showcase of egregious errors in visualization"
+                  url: "http://vislies.org"
+                  is_external: true
+                - text: "Early Career and Friends Happy Hour"
+                  url: "/year/2023/info/meetups#vis-earlycareer"
+                  description: "Meet and mingle with early career attendees"
+      - subsections:
           - heading: "Community"
             heading_url: "/year/2023/info/call-participation/community"
             description: "Explore social and topic-based community groups"
@@ -341,8 +355,6 @@ menu:
 #                    url: "/year/2023/info/meetups#vis-newcomers"
                   #- text: "Job Postings"
                   #  url: "/year/2023/info/jobs"
-#                  - text: "Other Meetups"
-#                    url: "/year/2023/info/meetups"
 #              - heading: "Social Groups"
 #                links:
 #                  - text: "Velo Club de VIs"
@@ -351,17 +363,25 @@ menu:
 #                  # - text: "Vis Pioneers Group"
 #                  #   url: "http://vacommunity.org/ieeevpg/"
 #                  #   is_external: true
-              - heading: "Social Media"
-                links:
-                  - text: "Facebook"
-                    url: "https://www.facebook.com/ieeevis"
-                    is_external: true
-                  - text: "Twitter"
-                    url: "https://twitter.com/ieeevis"
-                    is_external: true
-                  - text: "Mastodon"
-                    url: "https://vis.social/@ieeevis"
-                    is_external: true
+          - heading: "Social Media"
+            columns: 
+              - links:
+                 - text: "Facebook"
+                   url: "https://www.facebook.com/ieeevis"
+                   is_external: true
+                 - text: "Twitter"
+                   url: "https://twitter.com/ieeevis"
+                   is_external: true
+                 - text: "Mastodon"
+                   url: "https://vis.social/@ieeevis"
+                   is_external: true
+                 - text: "Email List"
+                   url: "https://ieeevis.us20.list-manage.com/subscribe?u=874d4e627b4758f4438963e98&id=6c036e3c40"
+                   is_external: true
+
+
+
+             
 
   - dropdown: "Organization & History"
     display: true
