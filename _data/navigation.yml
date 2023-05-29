@@ -195,26 +195,26 @@ menu:
   - dropdown: "Program"
     display: true
     sections:
-      # - subsections:
-      #     - heading: "Vis Program"
+      - subsections:
+          - heading: "Vis Program"
       #       heading_url: "/year/2023/info/week-at-a-glance"
       #       description: "Click to see an overview of the conference program"
-      #       columns:
-      #         - links:
+            columns:
+              - links:
       #             - text: "Papers"
       #               description: "The latest research in theory, methods, and applications of visualization"
       #               url: "/year/2023/info/papers-sessions"
       #             - text: "Posters"
       #               description: "Nascent and recent work"
       #               url: "/year/2023/info/posters"
-      #             - text: "Tutorials"
-      #               description: "Learn new tools and application domains"
-      #               url: "/year/2023/info/tutorials"
-      #               #is_new: true
-      #             - text: "Workshops"
-      #               description: "Informal setting to discuss emerging topics"
-      #               url: "/year/2023/info/workshops"
-      #               #is_new: true
+                  - text: "Tutorials"
+                    description: "Learn new tools and application domains"
+                    #url: "/year/2023/info/tutorials"
+                    #is_new: true
+                  - text: "Workshops"
+                    description: "Informal setting to discuss emerging topics"
+                    url: "/year/2023/info/workshops"
+                    is_new: true
       #             - text: "Panels"
       #               description: "Discuss important and controversial issues"
       #               url: "/year/2023/info/panels"
