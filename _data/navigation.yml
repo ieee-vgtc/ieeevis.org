@@ -65,9 +65,9 @@ menu:
               links:
                 - text: "Destination"
                   url: "/year/2023/destination"
-                # - text: "Accommodation"
-                #   url: "/year/2023/info/registration/hotel-information"
-                  #is_new: true
+                - text: "Accommodation"
+                  url: "/year/2023/info/registration/hotel-information"
+                  is_new: true
                 - text: "Visa & Travel"
                   url: "/year/2023/info/registration/travel-visas"
                   #is_new: true
