@@ -6,7 +6,8 @@ permalink: /info/registration/hotel-information
 contact: "web@ieeevis.org"
 ---
 
-**ACCOMMODATION CLOSES FRIDAY 15th September 2023 </br>AFTER THIS DATE, PLEASE DIRECTLY CONTACT <a href="mailto:joy.s@asnevents.net.au">JOY SANHCHUJ</a>**
+**ACCOMMODATION CLOSES FRIDAY 15th September 2023  
+AFTER THIS DATE, PLEASE DIRECTLY CONTACT <a href="mailto:joy.s@asnevents.net.au">JOY SANHCHUJ</a>**
 
 The conference has secured several accommodation options for all budgets that are located within walking distance to the Melbourne Convention and Exhibition Centre. Bookings can be made during the registration process. You will need to select the available room type, indicate arrival and departure dates, and provide full prepayment in advance to secure your booking.
 Rooms rates offered via the conference website are guaranteed the best rates up until 30 days before the start of the conference. Within 30 days prior to arrival, the hotel may modify Best Available Rates for individual bookings at any given time. 
@@ -71,7 +72,7 @@ Rendezvous Hotel Melbourne is one of Australia’s finest historic hotels. Locat
 
 **Address:** 328 Flinders Street, Melbourne, Victoria, 3000
 
-**Distance to the Conference Venue:** 1 km | 13-minute walk
+**Distance to the Conference Venue:** 1 km (13-minute walk)
 
 **Check-in:** 2:00PM  Access prior to 3:00PM: Pre-registration from night before
 
