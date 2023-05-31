@@ -31,12 +31,12 @@
 #       url: "https://northerndata.de/"
 
 
-# - category: Platinum
-#   image_size: 400
-#   supporters:
-#     - name: "Tableau"
-#       image: /assets/supporters/Tableau-Logo-CMYK.png
-#       url: "https://www.tableau.com/"
+ - category: Platinum
+   image_size: 400
+   supporters:
+     - name: "Tableau"
+       image: /assets/supporters/Tableau-Logo-CMYK.png
+       url: "https://www.tableau.com/"
 
 
  - category: Silver
