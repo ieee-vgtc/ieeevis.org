@@ -46,7 +46,7 @@ Individuals who need financial assistance but reside in a country not included o
 <table>
   <tr>
     <th>Category</th>
-    <th>Early Reg fee AUD (Ends <b>:Sept 8, 2023</b>)</th>
+    <th>Early Reg fee AUD (Ends <b>Sept 8, 2023</b>)</th>
     <th>Late Reg fee AUD</th>
   </tr>
 <tr>
