@@ -23,7 +23,7 @@ module.exports = {
         100: '#E0A81C',//colors.white, // '#e0a778',
       },
       accent: {
-        default: '#C47000',//'#8ca8c4',// '#1d3160',//'#6f2184', // '#b9aba1',,
+        default: '#38381D',//'#8ca8c4',// '#1d3160',//'#6f2184', // '#b9aba1',,
         minor: '#1d3160',//'#8ca8c4',// '#fbc31b',
       },
       black: colors.black,
