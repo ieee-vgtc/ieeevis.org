@@ -20,7 +20,7 @@
 #                     is_external
 
 registration:
-  display: false
+  display: true
   text: "Register"
   url: "/year/2023/info/registration/conference-registration"
 
@@ -38,11 +38,11 @@ menu:
           #  heading_url: "https://virtual.ieeevis.org/"
           #  description: "Join the conference online on our virtual site!"
             columns:
-            # - heading: "Attend"
-            #   links:
-                # - text: "Registration"
-                #   url: "/year/2023/info/registration/conference-registration"
-                  #is_new: true
+             - heading: "Attend"
+               links:
+                 - text: "Registration"
+                   url: "/year/2023/info/registration/conference-registration"
+                   is_new: true
                 # - text: "Satellite Sites"
                 #   url: "/year/2023/info/satellite"
                 #    - text: "Practitioner Guide"
