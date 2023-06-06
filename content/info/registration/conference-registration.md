@@ -34,7 +34,7 @@ Individuals not registered as conference participants can buy access to the onli
 <a class="button" href="https://www.eventbrite.com/e/548129890257">BUY ACCESS TO THE ONLINE CONTENT NOW</a>
 
 
-### Divesity and Inclusivity Participants
+### Diversity and Inclusivity Participants
 
 IEEE VIS offers need-based scholarships for conference attendance. We invite you to find out more about our Inclusivity & Diversity Scholarship.
 We offer free access to online materials to individuals residing in countries where the per capita Gross National Income (GNI) is US$15,000 or less. If you qualify, select the Diversity fee option. <a href="https://www.ieee.org/membership/join/emember-countries.html">
