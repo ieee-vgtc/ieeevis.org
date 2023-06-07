@@ -24,7 +24,7 @@ IEEE VIS provides discounted registration rates for students, IEEE Members, ACM 
 
   
 ### Conference Speakers
-<b>All conference and associated events speakers </b> (including but not limited to paper and poster presenters, speakers, contest and panel speakers, and tutorial speakers),  must register for the conference. 
+<b>All conference and associated events speakers </b> (including but not limited to paper and poster presenters, speakers, contest and panel speakers, and tutorial speakers), must register for the conference by September 22, 2023. 
 We require one Speaker Registration for full-length papers and short papers. Speakers receive discounted member prices, regardless of membership status. 
 <a class="button" href="https://members.asnevents.com.au/register/event/1856">REGISTER NOW</a>
 
@@ -165,7 +165,7 @@ A visa letter is available to download from your online registration profile. On
 
 
 ### Cancellation Policy
-If your VISA application has been rejected, the registration payment will be refunded, pending evidence of the rejection letter. Please contact <a href="mailto:registration@ieeevis.org"> registration@ieeevis.org</a> if you require any assistance.
+Cancellations up until 30 days before the start of the conference (Friday, September 22, 2023) will be subject to an AUD 100 cancellation fee. After this date, no cancellations are possible, however, registrations can be transferred over to another delegate without charge. If your VISA application has been rejected, the registration payment will be refunded, pending evidence of the rejection letter. Please contact <a href="mailto:registration@ieeevis.org"> registration@ieeevis.org</a> if you require any assistance.
 
 
 ### Registration FAQS
