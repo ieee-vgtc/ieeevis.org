@@ -189,7 +189,7 @@ Maxime Cordeil, *School of Information Technology and Electrical Engineering, Th
 Christophe Hurter, *ENAC, Université de Toulouse, Toulouse, France*<br>
 Takayuki Itoh, *Ochanomizu University, Tokyo, Japan*<br>
 
-Contact: mbrehmer@tableau.com
+Contact: mercadoworkshop@googlegroups.com
 
 MERCADO is a half-day workshop on the topic of new multimodal experiences for remote communication and collaboration around data. We aim to gather researchers working in data visualization, human-computer interaction (HCI), and computer-supported collaborative work (CSCW) who are interested in multimodal, synchronous, and remote or hybrid forms of communication and collaboration within organizational and educational settings.
 
