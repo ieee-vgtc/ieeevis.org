@@ -146,7 +146,7 @@ sidetoc: true
 |Luis Gustavo  Nonato| *Universidade de São Paulo, BR* |<br>
 |Steffen Oeltze-Jafra| *Hannover Medical School, DE* |<br>
 |Alvitta Ottley| *Washington University in St. Louis, US* |<br>
-|Lace Padilla| *UC Merced, US* |<br>
+|Lace Padilla| *Northeastern University, US* |<br>
 |Renato  Pajarola| *University of Zurich, CH* |<br>
 |Alex  Pang| *University of California, Santa Cruz, US* |<br>
 |Michael Papka| *Argonne National Laboratory, US* |<br>

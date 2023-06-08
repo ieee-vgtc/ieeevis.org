@@ -132,7 +132,7 @@ permalink: /info/committees/conference-committee
 | Vahid Pooryousef | *Monash University* |
 |---
 | **Publicity Chairs** | |
-| Lace Padilla | *University of California, Merced* |
+| Lace Padilla | *Northeastern University* |
 | Alvitta Ottley | *Washington University in Saint Louis* |
 |---
 | **Inclusivity Chairs** | |

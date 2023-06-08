@@ -14,30 +14,38 @@ IEEE VIS reserves the right to take appropriate action to foster an inclusive an
 
 ### Contact
 
-Please contact [ombuds@ieeevis.org](mailto:ombuds@ieeevis.org) if you experience, observe, or have knowledge of behavior in violation of the Code of Conduct.
+Please contact [ombuds@ieeevis.org](mailto:ombuds@ieeevis.org) if you experience, observe, or have knowledge of behavior in violation of the Code of Conduct.  Our [reporting process document](coc-reporting-process) describes how the Ombuds team will respond.
 
 The ombuds team for VIS 2023 is: 
 
+<center>
 <table style="text-align: center;">
   <tbody>
     <tr>
-      <td style="padding: 3px; width: 20%;"><img src="/year/2023/assets/ombuds-anastasia.jpeg" alt="ombuds-anastasia" style="min-width: 100px"/></td>
-      <td style="padding: 3px; width: 20%;"><img src="/year/2023/assets/ombuds-sheelagh.jpeg" alt="ombuds-sheelagh" style="min-width: 100px"/></td>
-      <td style="padding: 3px; width: 20%;"><img src="/year/2023/assets/ombuds-gautam.jpeg" alt="ombuds-gautam" style="min-width: 100px"/></td>
-      <td style="padding: 3px; width: 20%;"><img src="/year/2023/assets/ombuds-chris.jpeg" alt="ombuds-chris" style="min-width: 100px"/></td>
-      <td style="padding: 3px; width: 20%;"><img src="/year/2023/assets/ombuds-kristi.jpeg" alt="ombuds-kristi" style="min-width: 100px"/></td>
+      <td style="padding: 3px; width: 33%;"><img src="/year/2023/assets/ombuds-gautam.jpeg" alt="ombuds-gautam" style="min-width: 100px"/></td>
+      <td style="padding: 3px; width: 33%;"><img src="/year/2023/assets/ombuds-chris.jpeg" alt="ombuds-chris" style="min-width: 100px"/></td>
+      <td style="padding: 3px; width: 33%;"><img src="/year/2023/assets/ombuds-menna.jpeg" alt="ombuds-menna" style="min-width: 100px"/></td>
     </tr>
     <tr>
-      <td style="padding: 3px; width: 20%;">Anastasia Bezerianos</td>
-      <td style="padding: 3px; width: 20%;">Sheelagh Carpendale</td>
-      <td style="padding: 3px; width: 20%;">Gautam Chaudhary</td>
-      <td style="padding: 3px; width: 20%;">Christopher Collins</td>
-      <td style="padding: 3px; width: 20%;">Kristi Potter</td>
+      <td style="padding: 3px; width: 33%;">Gautam Chaudhary</td>
+      <td style="padding: 3px; width: 33%;">Christopher Collins</td>
+      <td style="padding: 3px; width: 33%;">Menna El-Assady</td>
+    </tr>
+    <tr style="border-bottom: 0px;">
+      <td style="padding: 3px; width: 33%;"><img src="/year/2023/assets/ombuds-josh.jpeg" alt="ombuds-josh" style="min-width: 100px"/></td>
+      <td style="padding: 3px; width: 33%;"><img src="/year/2023/assets/ombuds-lace.jpeg" alt="ombuds-lace" style="min-width: 100px"/></td>
+      <td style="padding: 3px; width: 33%;"><img src="/year/2023/assets/ombuds-kristi.jpeg" alt="ombuds-kristi" style="min-width: 100px"/></td>
+    </tr>
+    <tr>
+      <td style="padding: 3px; width: 33%;">Joshua Levine</td>
+      <td style="padding: 3px; width: 33%;">Lace Padilla</td>
+      <td style="padding: 3px; width: 33%;">Kristi Potter</td>
     </tr>
   </tbody>
 </table>
+</center>
 
 You can also approach individual members of the Ombuds team individually (contact information will be available at Registration) or in person.
 
-Please contact [inclusivity@ieeevis.org](mailto:inclusivity@ieeevis.org) with any questions about the Code of Conduct and Inclusivity & Diversity at IEEE VIS.
+Please contact [inclusivity@ieeevis.org](mailto:inclusivity@ieeevis.org) with any additional questions about the Code of Conduct and Inclusivity & Diversity at IEEE VIS.
  
