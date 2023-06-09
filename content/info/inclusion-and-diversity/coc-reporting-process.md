@@ -27,7 +27,7 @@ The above diagram details the flow of action when a complaint or violation of th
 
 The Ombuds people will be identified as representatives of the VIS organizing committee to receive incident reports and act as a liaison between conference attendees and the VEC/IEEE. The ombuds role does not include taking corrective action or making determinations about harassment reports, but rather to be an impartial, friendly, and safe person to speak to as issues arise, and to inform of, and appropriately handle next steps. 
 
-Arbitrators should follow the **ACT model** when approached about a potential incident:
+Confidants should follow the **ACT model** when approached about a potential incident:
 
 **Acknowledge:** Verbally acknowledge the report so the person knows the matter is being dealt with. Offer the reporter the opportunity to move the conversation to a private space, such as the conference chair's office. Offer to find another ombudsperson if the reporter would be more comfortable with someone else. Ensure the person who made the report is aware of the [VIS Code of Conduct](code-of-conduct).
 
