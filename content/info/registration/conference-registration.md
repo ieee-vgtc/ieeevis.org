@@ -161,11 +161,11 @@ Individuals who need financial assistance but reside in a country not included o
 
 
 ### Visa Letter Requests
-A visa letter is available to download from your online registration profile. Once you have paid your registration, log into your profile with your email and password, scroll down to the bottom of your profile, and click on the visa letter button. You will be prompted to enter your passport details before downloading your visa letter.  
+A visa letter is available to download from your online registration profile. Once you have paid your registration, wait 24-hours then log into your profile with your email and password, scroll down to the bottom of your profile, and click on the visa letter button. You will be prompted to enter your passport details before downloading your visa letter.  
 
 
 ### Cancellation Policy
-Cancellations up until 30 days before the start of the conference (Friday, September 22, 2023) will be subject to an AUD 100 cancellation fee. After this date, no cancellations are possible, however, registrations can be transferred over to another delegate without charge. If your VISA application has been rejected, the registration payment will be refunded, pending evidence of the rejection letter. Please contact <a href="mailto:registration@ieeevis.org"> registration@ieeevis.org</a> if you require any assistance.
+Cancellations up until 30 days before the start of the conference (Friday, September 22, 2023) will be subject to an AUD 100 cancellation fee. After this date, no cancellations are possible, however, registrations can be transferred over to another delegate without charge. If your visa application has been rejected, the registration payment will be refunded, pending evidence of the rejection letter. Please contact <a href="mailto:registration@ieeevis.org"> registration@ieeevis.org</a> if you require any assistance.
 
 
 ### Registration FAQS
