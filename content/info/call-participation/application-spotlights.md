@@ -38,13 +38,11 @@ Feel free to contact us at application_spotlights@ieeevis.org if you have any qu
 
 ## IMPORTANT DATES
 
-Dates TBD
-
 | Date | Activity |
 |------|----------|
-| May 26, 2023 | Proposal Submission |
-| June 9, 2023 | Notification |
-| June 23, 2023 | Final Submissions due |
+| ~~May 26, 2023~~ June 23, 2023 | Proposal Submission |
+| ~~June 9, 2023~~ July 7, 2023 | Notification |
+| ~~June 23, 2023~~ July 21, 2023 | Final Submissions due |
 | t.b.d. | Announcement of Spotlights on ieeevis.org |
 
 All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth) (new for 2023)**.
