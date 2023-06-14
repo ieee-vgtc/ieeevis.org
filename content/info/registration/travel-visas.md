@@ -39,7 +39,7 @@ If you aren’t eligible to apply for an ETA online you might be able to apply t
 
 ## Visa Letter Requests
 
-A visa letter is available to download from your online profile on the VIS 2023 registration system. Once you have paid your registration, log into your profile with your email and password, scroll down to the bottom of your profile and click on the visa letter button. You will be prompted to enter your passport details before downloading your visa letter. 
-*If your VISA application has been rejected, the registration payment will be refunded, pending evidence of the rejection letter.*
+A visa letter is available to download from your online profile on the VIS 2023 registration system. Once you have paid your registration, wait 24-hours then log into your profile with your email and password, scroll down to the bottom of your profile and click on the visa letter button. You will be prompted to enter your passport details before downloading your visa letter. 
+*If your visa application has been rejected, the registration payment will be refunded, pending evidence of the rejection letter.*
 
 If you have questions or additional requirement, you may contact [visa-letters@ieeevis.org](mailto:visa-letters@ieeevis.org).
