@@ -59,7 +59,7 @@ There will be 1-2 dedicated poster presentation sessions throughout the week in 
 
 ### POSTER REVIEW PROCESS
 
-Each poster submission will be read and evaluated by at least two reviewers. Authors will receive reviews of their submission explaining the decision and providing feedback. Authors of accepted posters are expected to address any recommendations and conditions of acceptance prior to final submission.
+Poster submissions are single-blind and do not need to be anonymized. Submissions will be reviewed using a juried process, during which each poster will be read and evaluated by at least two reviewers with final decisions made collectively by the Posters Chairs.  Authors will receive reviews of their submission explaining the decision and providing feedback. Authors of accepted posters are expected to address any recommendations and conditions of acceptance prior to final submission.
 
 ### BEST POSTER AWARDS 
 
