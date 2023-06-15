@@ -155,7 +155,6 @@
 .dropdown {
     @apply bg-gray-100;
     display: none;
-    max-height: 0;
 }
 
     .menu_item--focused + .dropdown {
@@ -169,6 +168,7 @@
             @apply flex-row;
             @apply shadow-lg;
             transition: none;
+            max-height: 0;
         }
 
         .menu_item--focused + .dropdown {
@@ -178,16 +178,18 @@
         }
     }
 
-@keyframes expandMenu {
-    0% {
-        display: block;
-        overflow: hidden;
-        max-height: 0;
+    @screen md {
+        @keyframes expandMenu {
+            0% {
+                display: block;
+                overflow: hidden;
+                max-height: 0;
+            }
+            100% {
+                max-height: 1000px;
+            }
+        }
     }
-    100% {
-        max-height: 1000px;
-    }
-}
 
 /* Sections */
 
@@ -207,7 +209,8 @@
 
 
 .dropdown__section + .dropdown__section {
-    @apply bg-primary-100;
+/*    @apply bg-primary-100;*/
+    @apply bg-gray-100;
 }
 
 
