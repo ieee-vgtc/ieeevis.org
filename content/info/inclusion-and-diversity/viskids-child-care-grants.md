@@ -1,29 +1,40 @@
 ---
-title: VISKids Child Care Grants
+title: VISKids Childcare Room and Grants
 layout: page
 active_nav: "Attend"
 permalink: /info/inclusion-and-diversity/viskids-child-care-grants
 contact: viskids@ieeevis.org
 ---
 
-The IEEE VIS conference is excited to support our VISKids and young families!
+The IEEE VIS conference is excited to support our VISKids and young families!  
 
-Grants of up to $500 per family are available for VIS attendees who incur extra expenses while participating in VIS. The grants will be given as a reimbursement for expenses but attendees are responsible for making their own arrangements for child care. If requests exceed available funding, or if additional funding becomes available, preference will be given to students and early career attendees who are presenting at the conference.
+Melbourne is a child-friendly city and Australia is a great place to visit with kids.  With these initiatives, we hope to facilitate the attendance of those with young families.
+
+## VISKids Room
+To enable parents to attend VIS, this year we have partnered with a reputable childcare service to provide a dedicated nanny (or nannies) for the VISKids space. Throughout the duration of the conference, VISKids will have a dedicated suite (including TV, tables, bed/cot, bathroom and shower facilities) for play and interactions, located in the adjoining hotel, accessible via a walkway.  To secure your place or express your interest, please indicate as early as possible via the registration system or [email](mailto:VISKids@ieeevis.org).
+
+### VISKids Hello
+Prior to the conference, we will give you the opportunity to connect with other VISKids parents to meet and greet and share plans for adventures in Melbourne. 
+
+## Parenting Room
+
+The Melbourne Convention and Exhibition Centre (VIS venue) has a nearby parenting room with spacious change room, toilet and private feeding spaces.
+
+## VISKids Childcare Grants
+
+Some small grants may be available for VIS attendees who incur extra expenses while participating in VIS. The grants will be given as a reimbursement for expenses. Preference will be given to students and early career attendees who are presenting at the conference.
  
 ### Examples of allowable expenses
 
-* Home-based babysitting or child care services incurred because of
+* Home-based babysitting or childcare services incurred because of
   attendance at the conference or approved satellite events.
-* Babysitting or child care services on location in the city of the
-  conference or approved satellite events.
-* Expenses incurred in bringing a caregiver (or family member not
-  attending the meeting acting as a caregiver) to the meeting. This
-  includes airfare/train fare and hotel expenses.
 * Travel expenses for the child, limited to reimbursement of
   airfare/train fare.
-  
+
 ### Not eligible for reimbursement
 
+* Babysitting or childcare services on location in the city of the
+  conference (already provided, as above).
 * Travel or other expenses related to the attendee’s participation in
   the meeting, including meeting registration, meals, travel to the
   meeting (including private automobile mileage or tolls), or other
@@ -31,44 +42,26 @@ Grants of up to $500 per family are available for VIS attendees who incur extra 
   meeting. 
 * Meals for the child, toys, and tickets to museums, amusement parks,
   etc.
-* On-going home-based child care expenses.
+* On-going home-based childcare expenses.
 
 ### Reimbursement procedure
 
-* Recipients of a child care grant must submit receipts for
+* Recipients of a childcare grant must submit receipts for
   reimbursable expenses.
 * Reimbursements will be distributed after the conference.
 * A reimbursement form will be distributed to grant awardees by email.
 
-### Application and deadline
+### Application 
 
-* [Application Form](https://forms.gle/7n7pb9KAeGJjFCH67)
-* Deadline: August 14, 2022
-* Notifications Sent: Augest 26, 2022
+To apply for childcare grants or with any questions, please contact [VISKids@ieeevis.org](mailto:VISKids@ieeevis.org) as early as possible.
 
-### Contact
+### VISKids Community
+We share further information with the VISKids Community on other potential funding sources in an [online document](https://docs.google.com/document/d/1S5nkD4exOvY2hDn747RXfVjJCype4Co5iKYAutsT2WY/edit?usp=sharing). We invite you to participate and share your ideas and tips.
 
-Please contact [VISKids@ieeevis.org](mailto:VISKids@ieeevis.org) with any questions about the
-childcare grants program.
  
-### Support VISKids
+## Support VISKids
 
 If you are interested in being a VISKids supporter, please contact [supporters@ieeevis.org](mailto:supporters@ieeevis.org).
 
 
-## VISKids Events
 
-### VISKids Room
-Throughout the duration of the conference, VISKids will have a room for meetings, discussions, play, and personal considerations (e.g., nursing). Kids are very welcome and encouraged to come hang-out!
-
-### VISKids Hello
-At the beginning of the conference, we will have a short gathering to inform about the VISKids grants and activities. The VISKids co-chairs will answer all questions. Everyone is welcome.
-
-### VISKids Community
-We share further information with the VISKids Community in an [online document](https://docs.google.com/document/d/1S5nkD4exOvY2hDn747RXfVjJCype4Co5iKYAutsT2WY/edit?usp=sharing). We invite you to participate and share your ideas and tips.
-
-**NOTE: There will be no conference sponsored childcare services
-on-site at the meeting or satellite events. The conference does not sanction or recommend
-specific childcare providers, and does not assume responsibility or
-liability for childcare services of any sort. It is the responsibility
-of the parent(s) to thoroughly investigate all childcare providers.**
