@@ -32,3 +32,13 @@ Like with SIGGRAPH, these talks are collected in one VR-focused session.
 {% endcomment %}
 
 Email: [program@ieeevis.org](mailto:program@ieeevis.org)
+
+## Local partner conferences
+
+We have partnered with other major conferences that are coming to Australia in late 2023 to offer reciprocal discounts. When you register for IEEE VIS you will receive a code to obtain a discount for registration at the following partner events:
+
+[<img src="https://asia.siggraph.org/2023/wp-content/uploads/2022/11/SA23-Logo-Full-Color-Landscape.svg" width="250px" title="SIGGRAPH Asia 2023"/>](https://asia.siggraph.org/2023)  
+December 12-15 in Sydney, Australia
+
+[<img src="https://www.ismar.net/files/ismar2023/ismar23_teaser.png" width="250px" title="IEEE International Symposium on Mixed and Augmented Reality"/>](https://ismar23.org/)  
+October 16-20 in Sydney, Australia
