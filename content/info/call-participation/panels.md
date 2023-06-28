@@ -51,7 +51,7 @@ Panels will be recorded and posted to Vimeo for archival viewing. Panels from 20
 
 | Date | Activity |
 |------|----------|
-| Friday, June 30, 2023 | Proposal Submission |
+| ~~Friday, June 30, 2023~~ Friday, July 14, 2023 | Proposal Submission -- Extended! |
 | Friday, August 11, 2023 | Notification |
 | Friday, August 25, 2023 | Final Submission of Panel Summaries and Video Fast Forwards |
       
