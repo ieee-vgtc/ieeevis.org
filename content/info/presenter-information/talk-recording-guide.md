@@ -9,47 +9,40 @@ contact: tech@ieeevis.org
 
 ## Presenter Information
 
-This page provides information to presenters at IEEE VIS about how to prepare your talk.
+This page provides information to presenters at IEEE VIS about how to upload the required material for your submission and prepare your talk.
 
-Please **read the following instructions carefully** for guidelines on preparing your video recordings for VIS 2022, or a VIS 2022 associated event. You will need the following information in order to prepare your recorded **Presentation Videos** as well as your **Video Preview** if required. Please note that **some things have changed** compared to previous years.
+Please **read the following instructions carefully** for guidelines on preparing your video recordings for VIS 2023, or a VIS 2023 associated event. You will need the following information in order to prepare your recorded **Presentation Videos** as well as your **Video Preview** if required. Please note that **some things have changed** compared to previous years.
 
-Work must be submitted via the provided Dropbox links on the dates listed below.
+Work must be submitted via the provided link on the dates listed below.
 
 **Video Previews:**
-  * VIS Full/Short Papers: Aug. 15
-  * All Other Events and TVCG/CG&A Presentations: ~~Sept. 1~~ Sept. 8 (extended)
+  * VIS Full/Short Papers: Aug. 22
+  * TVCG/CG&A and Invited SIGGRAPH/VR Presentations: Sept. 8
+  * All Other Events:  Sept. 22
 
 **Presentation Videos:**
+  * VIS Full/Short Papers, TVCG/CG&A Presentations: Sept. 8
+  * All Other Events: Sept. 22
+
+**Representative Image and Caption:**
   * Full/Short VIS Papers, TVCG/CG&A Presentations: Sept. 8
-  * Symposia, VisInPractice, VISAP: Sept. 15
-  * Invited SIGGRAPH/VR Presentations, Workshops, Tutorials, Challenges: Sept. 22
+  * All Other Events: Sept. 22
 
-## IEEE Visualization 2022 is a hybrid conference
+## IEEE Visualization 2023 is an in-person conference
 
-IEEE VIS 2022 will take place on-site, but sessions will also be streamed online and there will be an option for speakers that cannot participate on-site to join their session via Zoom.
-It is **mandatory** for authors of **all** VIS papers to submit a recording of their paper presentation.
-For presenters who are attending virtually, these presentations should comply with the talk length requirements, as they will be played during the session.
-Please leave room for live Q+A.
-For presenters who are attending in person, this talk recording need not follow the exact specifications of the VIS format for length, e.g. it could provide extended information beyond what you will present in person.
-We will not play this video during the conference, but it will be hosted on our virtual website.
+IEEE VIS 2023 will take place on-site and, unlike previous years, the sessions will **not** be streamed online and will not be recorded (exceptions may apply). Speakers are expected to participate and present **on-site**.
+It is still **mandatory** for authors of **all** VIS papers to submit a recording of their paper presentation which will be uploaded to YouTube and integrated into the virtual conference site.
+These videos help to communicate your research to virtual participants without access to on-site presentations, and provide you the opportunity to provide a slightly extended version of your presentation.
+They might also serve as an emergency backup on-site.
 
-For virtual attendees and speakers, only those answering questions or facilitating the session will be in the interactive Zoom call.
-Watching the session virtually will be done through embedded content available on the IEEE Visualization 2022 Web Page.
-
-Questions by the audience (on-site or online) will be asked over sli.do, a chat application seamlessly embedded in the web page.
-Session chairs will relay questions on sli.do to the speaker(s) (on-site or on the Zoom call).
-Discord will be available for socializing or discussions, but please be aware that our Discord support will be limited this year.
-Sessions chairs will **not** pick up questions that are posted on Discord.
-Sli.do will be the **only option** to ask questions during Q+A after each presentation, also for on-site attendees (this may vary for special events, e.g., panels).
-
-Video previews are a great opportunity to publicize your work or event to a wide audience.
+The short video previews are a great opportunity to publicize your work or event to a wide audience.
 Video previews are accessible from the conference website on the VIS YouTube channel prior to, during, and after the conference.
 
 IEEE Visualization allows authors to release their video preview on websites and any social media platform prior to the conference, but **authors should not release their presentation videos to the public until AFTER the conference**.  Do not upload your presentation video to YouTube, as such videos may conflict with the conference uploads.
 
 To make videos accessible for everyone, you are required to provide subtitles with your recording (more on that below). In addition, make sure that your presentation itself is accessible by speaking clearly, using large fonts, and ensuring high contrast. Avoid saying "as you can see on this slide" and always describe all relevant visuals. You can find some [recommendations for giving accessible talks from SIGACCESS](http://www.sigaccess.org/welcome-to-sigaccess/resources/accessible-presentation-guide/) and if you have additional questions contact the [accessibility chairs](accessibility@ieeevis.org).
 
-The VIS 2022 conference organizers have put together some tips on making a compelling and informative talk.  We hope that this guidance is helpful for both recorded presentations and in person presentations.
+The VIS 2022 conference organizers have put together some tips on making a compelling and informative talk.  We hope that this guidance is helpful for both recorded presentations and in-person presentations.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SfWOKH8IR5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -70,88 +63,54 @@ Terminology used in this document:
   Each session will have its own Youtube stream, Zoom call, and Q&A or discussion channels.
 -->
 
+## Required Material
 
-## File Uploads and Naming Convention
-
-- All files (videos, subtitles, images) are uploaded through Dropbox via personal upload links that are emailed to the corresponding author. You can reuse the link if you want to or need to upload additional files later. If prompted for a name and email address, enter the name and email address of (one of) the corresponding author(s) that got the mail with the link. Please use the following guidance when naming your submission materials.
-
-- Name all files with the following convention:
-`[UniquePaperID]_[FirstAuthorLastName]_[SubmissionItem].[ext]`.
-
-- The email with your Dropbox link for uploading files will also contain the unique paper id that you should use when naming your files.
-
-- Please note that you cannot use the provided link to retrieve what has already been uploaded. If you want to modify an existing file, please enter the exact same name or use the exact same Dropbox account that was used when the file was originally uploaded (this will ensure the old file is overwritten).
-- Whenever you upload something, we perform various initial checks automatically to make sure that your submitted files adhere to the specifications outlined in this document (including preliminary audio quality checks). The email with your Dropbox link for uploading files also contains a link to retrieve the results of this check. If any issues were found, we kindly ask you to fix them before the respective deadline.
-
-
-## Technical Information for Recordings
-
-Your submission consists of three pieces:
+Your submission consists of three pieces resulting in **six** files:
 1. Video Preview
     * A 25-second video that clearly communicates the research and contribution, inviting readers to read your paper.
     * Please do NOT include the paper title or authors' information. The FF chairs will add these as a 5-second title slide in front of your 25-second video in a consistent way.
     * Must be self-contained.
     * Despite recent years' Fast-Forwards sessions, we discourage humor and trailer-like ‘ads' because the video will exist for a long time and can be shared widely by the authors on social media and other channels.
     * Should contain audio narration. However, we discourage background music and request that the video focuses viewers' attention on the content.
-    * Subtitles are mandatory to increase accessibility. See below for tips on how to create and include subtitles
-    * File Name: `[UniquePaperID]_[FirstAuthorLastName]_Preview.mp4`
-        * Example: `v-full_0001_Smith_Preview.mp4`
+    * Subtitles are mandatory to increase accessibility. See below for tips on how to create and include subtitles.
 
 2. Presentation Video
-    * Must follow the formatting described below.
+    * A longer video presenting your research and contribution that will be uploaded to YouTube and integrated into the virtual conference site. It might also be used as a backup for emergency situations.
     * Subtitles are mandatory to increase accessibility. See below for tips on how to create and include subtitles
-    * File Name: `[UniquePaperID]_[FirstAuthorLastName]_Presentation.mp4`
-        * Example:  `v-full_0001_Smith_Presentation.mp4`
 
-3. Representative Image
+3. Representative Image and Caption
     * Authors are asked to submit a representative preview image that will be used as an icon next to the listing of the paper on our web pages.
-    * File Format: png
-    * Image Size Limit: 1920 x 1080 Maximum
     * You will also be asked to provide a plaintext file with an image caption (100 words or less).
-    * File Name: `[UniquePaperID]_[FirstAuthorLastName]_Image.png`
-        * Example: `v-full_0001_Smith_Image.png`
-    * Image Caption File Name: `[UniquePaperID]_[FirstAuthorLastName]_Image.txt`
-        * Example: `v-full_0001_Smith_Image.txt`
-
-
-Guidance for creating both and requirements for file encoding and naming are provided below. Pre-recorded presentation videos of speakers that attend online will be streamed online and all recorded videos might be hosted online for on-demand retrieval, so please make sure your videos do not contain copyrighted audio or video content.
 
 ## Presentation Length
 
-Recorded presentation videos for speakers that cannot attend the conference on-site **must** comply with the following specifications. The recorded talk of presenters who are attending in-person can be longer.
+Unlike previous years, recorded presentation videos can be longer or shorter than your presentation slot on-site, but please do not exceed 20 minutes. You must still comply with the **technical** specifications outlined further below.
 
-
-- VIS Video Previews: 25 seconds, Maximum file size: 50MB
-- VIS Full Papers, TVCG/CG&A Presentations: the maximum length of your talk is **12 minutes**, including questions. We recommend a 9 minute talk with 2 to 3 minutes for questions. At least 1 minute must be left for questions.
-- VIS Short Papers: the maximum length of your talk is **9 minutes**, including questions. We recommend a 7 minute talk with 2 minutes for questions. At least 1 minute must be left for questions
+- VIS Video Previews: the duration of your video must be 25 seconds (this applies to all events)
+- On-site VIS Full Papers, TVCG/CG&A/VR Presentations: the maximum length of your talk is **12 minutes**, including questions. We recommend a 9 minute talk with 2 to 3 minutes for questions. At least 1 minute must be left for questions.
+- On-site VIS Short Papers Presentations: the maximum length of your talk is **9 minutes**, including questions. We recommend a 7 minute talk with 2 minutes for questions. At least 1 minute must be left for questions
 - Associated Events: please consult your associated event for information.
 
-## Recorded Videos Format
+## Technical Specifications
 
-Recorded videos must be formatted and named following the VIS talk recording guidelines.
+All uploaded material must follow the following technical specifications.
 
-To make full use of the 16x9 video aspect ratio we recommend using the 16x9 wide format Powerpoint template that can be used for your presentation.  Feel free to download the template with [imperial measurements]({{ 'assets/vis2022-16x9-imperial.pptx' | relative_url }}) or [metric measurements]({{ 'assets/vis2022-16x9-metric.pptx' | relative_url }}).
+### Video Submissions
 
 All video submissions must meet the following requirements:
-- 1920x1080 resolution at 30FPS
+- MPEG-4 using H.264 encoding for video and AAC for audio (file extension must be .mp4)
+- 1920x1080 resolution
+- 16:9 aspect ratio: please make use of the full resolution, i.e., no black borders should be visible
+- Frame rate of 30FPS
 - Maximum Size:
-  - 50MB    for Video Previews
-  - 500MB for VIS Full and Short papers
-  - Associated event talk sizes and lengths may vary, please see your associated event for details
-- MPEG-4 using H.264 encoding (file extension is .mp4)
-- Audio: We discourage salient music to focus viewers' attention on the content. If you want to have music, you must certify that any audio is free from copyright or that you are licensed to use it.
-- Verification:
-  - To encode/re-encode your video in the right format, you can use the free software [Handbrake](https://handbrake.fr/)
-  - To check that your video is in the right format, you can use the free software [MediaInfo](https://mediaarea.net/en/MediaInfo)
-
-<!-- time slot info? -->
-
-
-## Recording Your Talk
+  - 30MB    for Video Previews
+  - 500MB for Presentation Videos (also for associated events)
+- Audio: Make sure that the quality of your voice recording is good and clearly understandable, without background noise and/or oversteering (stay below -5db). We discourage salient music to focus viewers' attention on the content and to avoid copyright issues..
+- Make sure that any audio and video content is free from copyright or that you are licensed to use it. This is very important as YouTube automatically checks for copyright infringements.
 
 We recommend using [OBS Studio](https://obsproject.com/) to record your presentation, which is free and cross-platform.
 If you are familiar with other recording software please feel free to use it instead.
-Please see our [guide](/year/2022/assets/vis2022-talk-recording-guide.pdf)
+Please see our [guide](/year/2022/assets/vis2022-talk-recording-guide.pdf) from last year
 for information on recording a compelling and high-quality talk.
 You can also watch our tutorial on [Youtube](https://youtu.be/yg1P_Infw5A) or via [direct download](http://sci.utah.edu/~will/public/vis2020-recording-tutorial.mp4)
 from previous years for a guide on how to use OBS Studio to record your talk,
@@ -160,25 +119,48 @@ We do not recommend using Powerpoint's built in recording since the recording is
 so if you speak during a slide transition **the audio will not be recorded**. These issues can be tough to catch and fix.
 
 After recording your talk, please rewatch it to ensure the video and audio are recorded correctly.
-Once you have uploaded the talk via Dropbox, you should also check the results of the automatic check using the provided link in the email that contains the Dropbox upload request link. We recommend to upload the video as early as possible so that you have enough time to fix raised issues before the deadline.
 
+To encode/re-encode your video in the right format, you can use the free software [Handbrake](https://handbrake.fr/). To check that your video is in the right format, you can use the free software [MediaInfo](https://mediaarea.net/en/MediaInfo).
 
-## Mandatory: Providing Subtitles with Your Video
+To make full use of the 16x9 video aspect ratio we recommend using the 16x9 wide format Powerpoint template that can be used for your presentation.  Feel free to download the template with [imperial measurements]({{ 'assets/vis2023-16x9-imperial.pptx' | relative_url }}) or [metric measurements]({{ 'assets/vis2023-16x9-metric.pptx' | relative_url }}).
+
+### Mandatory: Subtitles
 
 There are a number of tools that are available to generate captions for you, which you can download and include with your video. Among the free options, YouTube, Veed.io, and Facebook, for example, have free tools that automatically create closed captions and make it possible to download these.
 
 Please note two important things for this:
-1. in general it takes some time to generate the files and needs correction (particularly with uncommon words or terminology), so you should take this into account so that the video is finished before the deadline;
-2. if you use a social media platform to generate subtitles, please do not publish the video completely (not even private or unlisted) as it will interfere with the conference and will increase the work on the student volunteers and might lead to delays.
+1. In general it takes some time to generate the files and needs correction (particularly with uncommon words or terminology), so you should take this into account so that the video is finished before the deadline;
+2. If you use a social media platform to generate subtitles, please do not publish the video completely (not even private or unlisted) as it will interfere with the conference and will increase the work on the student volunteers and might lead to delays.
 
 There are also a number of paid services that enable the transcription of videos, such as Amberscript. Lastly, it is also possible to manually create the subtitles using for example the YouTube captioning tool, Adobe Premiere Pro, or Amara.
 Regardless of the tool you are using, please make sure that the subtitles are accurate and correctly timed for the benefit of all attendees. Videos containing subtitles have a considerably higher engagement and retention rate than one's without.
 
-After the captions have been created (automatically or by hand), you can download them by going to the subtitles page when editing your video information in YouTube Studio. You can then click the three dots next to the subtitles you want to download and select download from the menu to download the .sbv or .srt file containing your subtitles. Make sure that you manually correct the generated subtitles for errors by directly editing the .srt file in a text editor. Include this file with your video, following the same naming convention: `[UniquePaperID]_[FirstAuthorLastName]_<Presentation|Preview>.sbv` or `[UniquePaperID]_[FirstAuthorLastName]_<Presentation|Preview>.srt`. This process is also demonstrated in our [talk recording tutorial on Youtube](https://youtu.be/yg1P_Infw5A) or via [direct download](http://sci.utah.edu/~will/public/vis2020-recording-tutorial.mp4).
+After the captions have been created (automatically or by hand), you can download them by going to the subtitles page when editing your video information in YouTube Studio. You can then click the three dots next to the subtitles you want to download and select download from the menu to download the .sbv or .srt file containing your subtitles. Make sure that you manually correct the generated subtitles for errors by directly editing the .srt file in a text editor.
 
-You can test your subtitles by playing your video in VLC with the .sbv file in the same directory so that VLC will find it. Then right-click the VLC window and select the subtitle menu item to pick your subtitles to play during your video. During the conference, your video will be played using the “small” subtitle size setting in VLC (if you cannot attend on-site).
+You can test your subtitles by playing your video in VLC with the .sbv file in the same directory so that VLC will find it. Then right-click the VLC window and select the subtitle menu item to pick your subtitles to play during your video. 
 
 If you create the captions using a different software package, subtitles in the .srt format are also acceptable.
+
+### Representative Image and Caption
+
+Authors are asked to submit a representative preview image that will be used as an icon next to the listing of the paper on our web pages:
+- File Format: png
+- Image Size Limit: 1920 x 1080 Maximum
+- Maximum file size is 5MB
+
+You will also be asked to provide a plaintext file with an image caption (100 words or less).
+
+
+
+## File Uploads
+
+All files (videos, subtitles, images) are uploaded through our custom Presentation Material Upload system via personal links that are emailed to the corresponding author. You can reuse the link if you want to or need to upload additional files later. Unlike previous years, you do not need to name your files appropriately, the only thing that matters is a valid file extension.
+
+Whenever you upload something, we perform various initial checks automatically to make sure that your submitted files adhere to the specifications outlined in this document (including preliminary audio quality checks). If any errors are reported in our upload system, you **must** fix them before the respective deadline. We also encourage you to strongly consider any warnings that might be displayed. For material that ends up on YouTube, an additional manual check will be performed after the respective deadline. We recommend uploading the videos as early as possible so that you have enough time to fix raised issues before the deadline. The reason for our strict technical requirements is that we need all videos and materials in a consistent format for our downstream processing pipeline.
+
+
+
+<!-- time slot info? -->
 
 
 ## Contact
@@ -186,15 +168,17 @@ If you create the captions using a different software package, subtitles in the 
 ### Tech Chairs
 
 * Johannes Knittel, *University of Stuttgart*
+* Kadek Satriadi, *Monash University*
 * John Thompson, *Microsoft Research*
 * John Wenskovitch, *PNNL*
-* Alexander Bock, *Linköping University*
 
 *Email: [tech@ieeevis.org](mailto:tech@ieeevis.org)*
 
 ### Accessibility Chairs
 
-* Yea-Seul Kim *University of Wisconsin Madison*
+* Kim Marriott *Monash University*
 * Dominik Moritz *Carnegie Mellon University*
 
 *Email: [accessibility@ieeevis.org](mailto:accessibility@ieeevis.org)*
+
+
