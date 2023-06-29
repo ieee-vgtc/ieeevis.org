@@ -43,6 +43,3 @@ Questions? E-mail [info@ieeevis.org](mailto:info@ieeevis.org)
 [<img align="left" src="https://asia.siggraph.org/2023/wp-content/uploads/2022/11/SA23-Logo-Full-Color-Landscape.svg" width="200px" title="SIGGRAPH Asia 2023">](https://asia.siggraph.org/2023)
 
 [<img align="right" src="https://www.ismar.net/files/ismar2023/ismar23_teaser.png" width="200px" title="IEEE International Symposium on Mixed and Augmented Reality">](https://ismar.net/)
-
-
-
