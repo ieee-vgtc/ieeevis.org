@@ -193,7 +193,7 @@ Contact: mercadoworkshop@googlegroups.com
 
 MERCADO is a half-day workshop on the topic of new multimodal experiences for remote communication and collaboration around data. We aim to gather researchers working in data visualization, human-computer interaction (HCI), and computer-supported collaborative work (CSCW) who are interested in multimodal, synchronous, and remote or hybrid forms of communication and collaboration within organizational and educational settings.
 
-## <a name="VisxVision"></a> [VisxVision: Workshop on Novel Directions in Vision Science and Visualization Research]()
+## <a name="VisxVision"></a> [VisxVision: Workshop on Novel Directions in Vision Science and Visualization Research](https://visxvision.com/)
 
 Ghulam Jilani Quadri, *Department of Computer Science, University of North Carolina, Chapel Hill, North Carolina, United States*<br>
 Clementine Zimnicki, *Psychology Department, University of Wisconsin-Madison, Madison, Wisconsin, United States*<br>
