@@ -34,12 +34,12 @@ We’re looking forward to seeing you in Melbourne.
 Follow [@ieeevis on Twitter](https://twitter.com/ieeevis), the [IEEE VIS page on Facebook](https://www.facebook.com/ieeevis), or [sign up to our mailing list](https://ieeevis.us20.list-manage.com/subscribe?u=874d4e627b4758f4438963e98&id=6c036e3c40) to keep up with conference activities and announcements.
 
 Questions? E-mail [info@ieeevis.org](mailto:info@ieeevis.org)
-[<img align="left" src="assets/supporters/Melbourne-Australia-logo-528w_border.png" width="250px" title="https://www.visitmelbourne.com/">](https://www.visitmelbourne.com/)
-[<img src="assets/supporters/MCB_Logo_Colour_border.png"  width="250px" title="https://www.melbournecb.com.au/">](https://www.melbournecb.com.au/)
+
+[<img align="left" src="assets/supporters/Melbourne-Australia-logo-528w_border.png" width="200px" title="https://www.visitmelbourne.com/">](https://www.visitmelbourne.com/)
+[<img src="assets/supporters/MCB_Logo_Colour_border.png"  width="200px" title="https://www.melbournecb.com.au/">](https://www.melbournecb.com.au/)
 
 ### Partner Events
-[<img align="left" src="https://asia.siggraph.org/2023/wp-content/uploads/2022/11/SA23-Logo-Full-Color-Landscape.svg" width="250px" title="SIGGRAPH Asia 2023">](https://asia.siggraph.org/2023)
-[<img align="right" src="https://www.ismar.net/files/ismar2023/ismar23_teaser.png" width="250px" title="IEEE International Symposium on Mixed and Augmented Reality">](https://ismar.net/)
 
+[<img align="left" src="https://asia.siggraph.org/2023/wp-content/uploads/2022/11/SA23-Logo-Full-Color-Landscape.svg" width="200px" title="SIGGRAPH Asia 2023">](https://asia.siggraph.org/2023)
 
-
+[<img align="right" src="https://www.ismar.net/files/ismar2023/ismar23_teaser.png" width="200px" title="IEEE International Symposium on Mixed and Augmented Reality">](https://ismar.net/)
