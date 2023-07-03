@@ -145,9 +145,9 @@ menu:
 #           - heading: "Participating in hybrid"
 #             columns:
 #               - links:
-                   - text: "Final Information for Paper Authors"
-                     url: "/year/2023/info/presenter-information/final-information-paper-authors"
-                     is_new: true
+                   # - text: "Final Information for Paper Authors"
+                   #   url: "/year/2023/info/presenter-information/final-information-paper-authors"
+                   #   is_new: true
 #                    - text: "Video Previews"
 #                      url: "/year/2023/info/presenter-information/fast-forward-and-video-previews"
 #                      #is_new: true
