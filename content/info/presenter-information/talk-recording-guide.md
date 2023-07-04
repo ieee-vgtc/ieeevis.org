@@ -31,8 +31,8 @@ Work must be submitted via the provided link on the dates listed below.
 ## IEEE Visualization 2023 is an in-person conference
 
 IEEE VIS 2023 will take place on-site and, unlike previous years, the sessions will **not** be streamed online and will not be recorded (exceptions may apply). Speakers are expected to participate and present **on-site**.
-It is still **mandatory** for authors of **all** VIS papers to submit a recording of their paper presentation which will be uploaded to YouTube and integrated into the virtual conference site.
-These videos help to communicate your research to virtual participants without access to on-site presentations, and provide you the opportunity to provide a slightly extended version of your presentation.
+It is still **mandatory** for authors of **all** VIS papers to submit a recording of their paper presentation which will be uploaded to YouTube and integrated into the online content conference site.
+These videos help to communicate your research to participants who register for online content, and provide you the opportunity to provide a slightly extended version of your presentation.
 They might also serve as an emergency backup on-site.
 
 The short video previews are a great opportunity to publicize your work or event to a wide audience.
@@ -40,9 +40,9 @@ Video previews are accessible from the conference website on the VIS YouTube cha
 
 IEEE Visualization allows authors to release their video preview on websites and any social media platform prior to the conference, but **authors should not release their presentation videos to the public until AFTER the conference**.  Do not upload your presentation video to YouTube, as such videos may conflict with the conference uploads.
 
-To make videos accessible for everyone, you are required to provide subtitles with your recording (more on that below). In addition, make sure that your presentation itself is accessible by speaking clearly, using large fonts, and ensuring high contrast. Avoid saying "as you can see on this slide" and always describe all relevant visuals. You can find some [recommendations for giving accessible talks from SIGACCESS](http://www.sigaccess.org/welcome-to-sigaccess/resources/accessible-presentation-guide/) and if you have additional questions contact the [accessibility chairs](accessibility@ieeevis.org).
+To make videos accessible for everyone, you are required to provide subtitles with your recording (more on that below). In addition, make sure that your presentation itself is accessible by speaking clearly, using large fonts, and ensuring high contrast. Avoid saying "as you can see on this slide" and always describe all relevant visuals. You can find some [recommendations for giving accessible talks from SIGACCESS](http://www.sigaccess.org/welcome-to-sigaccess/resources/accessible-presentation-guide/) and if you have additional questions contact the [accessibility chairs](mailto:accessibility@ieeevis.org).
 
-The VIS 2022 conference organizers have put together some tips on making a compelling and informative talk.  We hope that this guidance is helpful for both recorded presentations and in-person presentations.
+The VIS 2022 conference organizers have put together some tips on making a compelling and informative talk, which still applies this year.  We hope that this guidance is helpful for both recorded presentations and in-person presentations:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SfWOKH8IR5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -70,12 +70,12 @@ Your submission consists of three pieces resulting in **six** files:
     * A 25-second video that clearly communicates the research and contribution, inviting readers to read your paper.
     * Please do NOT include the paper title or authors' information. The FF chairs will add these as a 5-second title slide in front of your 25-second video in a consistent way.
     * Must be self-contained.
-    * Despite recent years' Fast-Forwards sessions, we discourage humor and trailer-like ‘ads' because the video will exist for a long time and can be shared widely by the authors on social media and other channels.
+    * We discourage humor and trailer-like ‘ads' because the video will exist for a long time and can be shared widely by the authors on social media and other channels.
     * Should contain audio narration. However, we discourage background music and request that the video focuses viewers' attention on the content.
     * Subtitles are mandatory to increase accessibility. See below for tips on how to create and include subtitles.
 
 2. Presentation Video
-    * A longer video presenting your research and contribution that will be uploaded to YouTube and integrated into the virtual conference site. It might also be used as a backup for emergency situations.
+    * A longer video presenting your research and contribution that will be uploaded to YouTube and integrated into the online content conference site. It might also be used as a backup for emergency situations.
     * Subtitles are mandatory to increase accessibility. See below for tips on how to create and include subtitles
 
 3. Representative Image and Caption
@@ -89,7 +89,7 @@ Unlike previous years, recorded presentation videos can be longer or shorter tha
 - VIS Video Previews: the duration of your video must be 25 seconds (this applies to all events)
 - On-site VIS Full Papers, TVCG/CG&A/VR Presentations: the maximum length of your talk is **12 minutes**, including questions. We recommend a 9 minute talk with 2 to 3 minutes for questions. At least 1 minute must be left for questions.
 - On-site VIS Short Papers Presentations: the maximum length of your talk is **9 minutes**, including questions. We recommend a 7 minute talk with 2 minutes for questions. At least 1 minute must be left for questions
-- Associated Events: please consult your associated event for information.
+- Associated Events: please consult your associated event organizers for information on presentation timing.
 
 ## Technical Specifications
 
