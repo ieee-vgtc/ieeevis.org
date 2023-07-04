@@ -142,18 +142,21 @@ menu:
                      url: "/year/2023/info/call-participation/make-pdf-accessible"
                    - text: "Open Practices"
                      url: "/year/2023/info/open-practices/open-practices"
-#           - heading: "Participating in hybrid"
-#             columns:
-#               - links:
-                   # - text: "Final Information for Paper Authors"
-                   #   url: "/year/2023/info/presenter-information/final-information-paper-authors"
-                   #   is_new: true
-#                    - text: "Video Previews"
-#                      url: "/year/2023/info/presenter-information/fast-forward-and-video-previews"
-#                      #is_new: true
-#                    - text: "Recording your Talk"
-#                      url: "/year/2023/info/presenter-information/talk-recording-guide"
-#                      #is_new: true
+          - heading: "Presenter Information"
+            columns:
+              - links:
+                   - text: "Final Information for Paper Authors"
+                     url: "/year/2023/info/presenter-information/final-information-paper-authors"
+                     is_new: true
+                   #- text: "Speakers and Presenters"
+                   #  url: "/year/2023/info/presenter-information/speakers-and-presenters"
+                   #  is_new: true
+                   - text: "Video Previews"
+                     #url: "/year/2023/info/presenter-information/fast-forward-and-video-previews"
+                     #is_new: true
+                   - text: "Recording your Talk"
+                     url: "/year/2023/info/presenter-information/talk-recording-guide"
+                     is_new: true
 #                    - text: "Guidance for Virtual Events"
 #                      url: "/year/2023/info/presenter-information/guidance-for-associated-events"
 # #                   - text: "Presenting at the Virtual Conference"
@@ -214,7 +217,7 @@ menu:
                   - text: "Workshops"
                     description: "Informal setting to discuss emerging topics"
                     url: "/year/2023/info/workshops"
-                    is_new: true
+                    #is_new: true
       #             - text: "Panels"
       #               description: "Discuss important and controversial issues"
       #               url: "/year/2023/info/panels"
