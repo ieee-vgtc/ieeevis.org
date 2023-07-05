@@ -10,26 +10,13 @@ contact: ff@ieeevis.org
 
 Please **read the following instructions carefully** and submit your
 25-second video for the online Video Previews by the following deadlines:
-- Aug. 15: VIS Full/Short Papers
-- ~~Sept. 1~~ Sept. 8 (extended): All other events, including [partnership](/year/2022/info/call-participation/partnerships) (TVCG, CG&amp;A, SIGGRAPH, and VR) presentations
+- Aug. 22: VIS Full/Short Papers
+- Sept TBD: All other events, including [partnership](/year/2023/info/call-participation/partnerships) (TVCG, CG&amp;A, SIGGRAPH, and VR) presentations
 
 
-Video previews and fast forwards are a great opportunity to publicize
-your work or event to a wide audience. Video previews are accessible
-from the conference website on the VIS Vimeo channel prior to, during,
-and after the conference. 
+Video previews are a great opportunity to publicize your work or event to a wide audience and invite people to join your presentation and read your paper. Video previews are accessible from the conference website on the VIS YouTube channel prior to, during, and after the conference.
 
-
-
-
-IEEE VIS will be hybrid for 2022.  Video previews are linked 
-from the conference's webpage and will be compiled into 'trailers', one for
-each session.
-
-**There will be no Fast-Forward session this year.** 
-
-
-
+Video previews are linked from the conference’s webpage and will be compiled into ‘trailers’, one for each session. There will be no Fast-Forward session this year.
 
 <!--
 At least one author for each accepted
@@ -84,17 +71,14 @@ vertical-align: top;
 -->
 
 
-## Video Previews: 
+## Video Preview Guidelines: 
 
-
-- A video preview should be self-explaining and self-contained. 
-- It should **clearly communicate** your research and contribution and invite readers to read your paper.
-- Other than in recent years' Fast-Forwards sessions, we discourage humor and trailer-like 'ads'. 
-- The video will exist for a long time and can be shared widely by the authors on social media and other channels. 
-- The video **should contain audio narration**. We discourage salient music to focus viewers’ attention on the content.
-- Subtitles are **mandatory** to increase accessibility. See below for tips on how to create and include subtitles
-- **Do not include any title slide at the beginning of the video**, as we will add a consistent title to the video preview containing: the paper title, authors, and session information.
-
+- Do not include any title slide at the beginning of the video, as we will add a consistent title to the video preview containing: the paper title, authors, and session information.
+- The video should contain audio narration. We discourage salient music to focus viewers’ attention on the content.
+- Subtitles are mandatory to increase accessibility. See below for tips on how to create and include subtitles.
+- A video preview should be self-explaining and self-contained. It should clearly communicate your research and contribution and invite readers to read your paper.
+- Other than in recent years’ Fast-Forwards sessions, we discourage humor and trailer-like ‘ads’.
+- The video will exist for a long time and can be shared widely by the authors on social media and other channels.
 
 ## Do I need to submit a Video-Preview? 
 If your track is not listed, please check for updates later as all track chairs are finalizing their decisions.
@@ -103,7 +87,7 @@ If your track is not listed, please check for updates later as all track chairs 
 Video Previews are **required** for the following tracks:
 - VIS Full Papers
 - VIS Short Papers
-- Invited [Partnership](/year/2022/info/call-participation/partnerships) Talks (including TVCG, CG&A, SIGGRAPH, and VR)
+- Invited [Partnership](/year/2023/info/call-participation/partnerships) Talks (including TVCG, CG&A, SIGGRAPH, and VR)
 - VIS Arts Program
 
 Video Previews are **optional** for all other tracks and associated events, unless notified otherwise by the chairs for that track/event.
@@ -114,7 +98,7 @@ You have **no Video-Preview** to submit for the following tracks:
 - Tutorials
 
 ## How to record your video?
-Please see the [Talk Recording Guide](/year/2022/info/presenter-information/talk-recording-guide) on how to format your Video Preview.
+Please see the [Talk Recording Guide](/year/2023/info/presenter-information/talk-recording-guide) on how to format your Video Preview.
 
  
 ## How to submit?
@@ -150,7 +134,9 @@ We ask that you submit a .srt file along with your video. One way to create such
 
 ## Video Previews Chairs
 
-- Arjun Srinivasan, *Tableau Research*
-- Jun Tao, *Sun Yat-sen University*
+- Soumya Dutta, *Indian Institute of Technology Kanpur* (soumyad@cse.iitk.ac.in)
+- Siming Chen, *Fudan University* (simingchen@fudan.edu.cn)
+- Jun Tao, *Sun Yat-sen University* (taoj23@mail.sysu.edu.cn)
+- Arjun Srinivasan, *Tableau Research* (arjunsrinivasan@tableau.com)
 
 *Email: [ff@ieeevis.org](mailto:ff@ieeevis.org)*
