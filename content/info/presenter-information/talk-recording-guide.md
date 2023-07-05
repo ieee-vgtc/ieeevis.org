@@ -84,11 +84,11 @@ Your submission consists of three pieces resulting in **six** files:
 
 ## Presentation Length
 
-Unlike previous years, recorded presentation videos can be longer or shorter than your presentation slot on-site, but please do not exceed 20 minutes. You must still comply with the **technical** specifications outlined further below.
-
-- VIS Video Previews: the duration of your video must be 25 seconds (this applies to all events)
-- On-site VIS Full Papers, TVCG/CG&A/VR Presentations: the maximum length of your talk is **12 minutes**, including questions. We recommend a 9 minute talk with 2 to 3 minutes for questions. At least 1 minute must be left for questions.
-- On-site VIS Short Papers Presentations: the maximum length of your talk is **9 minutes**, including questions. We recommend a 7 minute talk with 2 minutes for questions. At least 1 minute must be left for questions
+Video previews must be 25 seconds long (this applies to all events).
+Unlike previous years, recorded presentation videos may be longer or shorter than your presentation slot on-site, but please do not exceed 20 minutes.
+As a guide, the length requirements for **on-site presentations** are as follows:
+- VIS Full Papers, TVCG/CG&A/VR Presentations: the maximum length of your slot is **12 minutes**, including questions. We recommend a 9 minute talk with 2 to 3 minutes for questions. At least 1 minute must be left for questions.
+- VIS Short Papers Presentations: the maximum length of your slot is **9 minutes**, including questions. We recommend a 7 minute talk with 2 minutes for questions. At least 1 minute must be left for questions
 - Associated Events: please consult your associated event organizers for information on presentation timing.
 
 ## Technical Specifications
@@ -111,10 +111,9 @@ All video submissions must meet the following requirements:
 We recommend using [OBS Studio](https://obsproject.com/) to record your presentation, which is free and cross-platform.
 If you are familiar with other recording software please feel free to use it instead.
 Please see our [guide](/year/2022/assets/vis2022-talk-recording-guide.pdf) from last year
-for information on recording a compelling and high-quality talk.
-You can also watch our tutorial on [Youtube](https://youtu.be/yg1P_Infw5A) or via [direct download](http://sci.utah.edu/~will/public/vis2020-recording-tutorial.mp4)
-from previous years for a guide on how to use OBS Studio to record your talk,
-should you choose to use it (some instructions might be outdated, though).
+for information on recording a compelling and high-quality talk (some information might be outdated, though).
+You can also watch our tutorial on [Youtube](https://youtu.be/yg1P_Infw5A) from VIS 2020 for a guide on how to use OBS Studio to record your talk,
+should you choose to use it.
 We do not recommend using Powerpoint's built in recording since the recording is done per-slide,
 so if you speak during a slide transition **the audio will not be recorded**. These issues can be tough to catch and fix.
 
@@ -126,16 +125,17 @@ To make full use of the 16x9 video aspect ratio we recommend using the 16x9 wide
 
 ### Mandatory: Subtitles
 
-There are a number of tools that are available to generate captions for you, which you can download and include with your video. Among the free options, YouTube, Veed.io, and Facebook, for example, have free tools that automatically create closed captions and make it possible to download these.
+There are a number of tools that are available to generate captions for you, which you can download and include with your video.
+YouTube, Veed.io, and Facebook, for example, have free tools that automatically create closed captions and make it possible to download these.
 
 Please note two important things for this:
-1. In general it takes some time to generate the files and needs correction (particularly with uncommon words or terminology), so you should take this into account so that the video is finished before the deadline;
+1. In general, it takes some time to generate the files and they **need corrections** (particularly with uncommon words or terminology), so you should take this into account so that the video is finished before the deadline;
 2. If you use a social media platform to generate subtitles, please do not publish the video completely (not even private or unlisted) as it will interfere with the conference and will increase the work on the student volunteers and might lead to delays.
 
-There are also a number of paid services that enable the transcription of videos, such as Amberscript. Lastly, it is also possible to manually create the subtitles using for example the YouTube captioning tool, Adobe Premiere Pro, or Amara.
+There are also a number of paid services that enable the transcription of videos, such as Amberscript. Lastly, it is also possible to manually create the subtitles using, for example, the YouTube captioning tool, Adobe Premiere Pro, or Amara.
 Regardless of the tool you are using, please make sure that the subtitles are accurate and correctly timed for the benefit of all attendees. Videos containing subtitles have a considerably higher engagement and retention rate than one's without.
 
-After the captions have been created (automatically or by hand), you can download them by going to the subtitles page when editing your video information in YouTube Studio. You can then click the three dots next to the subtitles you want to download and select download from the menu to download the .sbv or .srt file containing your subtitles. Make sure that you manually correct the generated subtitles for errors by directly editing the .srt file in a text editor.
+If you use YouTube for creating captions (automatically or by hand), you can download them by going to the subtitles page when editing your video information in YouTube Studio. You can then click the three dots next to the subtitles you want to download and select download from the menu to download the .sbv or .srt file containing your subtitles. Make sure that you manually correct the generated subtitles for errors by directly editing the .srt file in a text editor.
 
 You can test your subtitles by playing your video in VLC with the .sbv file in the same directory so that VLC will find it. Then right-click the VLC window and select the subtitle menu item to pick your subtitles to play during your video. 
 
@@ -154,7 +154,9 @@ You will also be asked to provide a plaintext file with an image caption (100 wo
 
 ## File Uploads
 
-All files (videos, subtitles, images) are uploaded through our custom Presentation Material Upload system via personal links that are emailed to the corresponding author. You can reuse the link if you want to or need to upload additional files later. Unlike previous years, you do not need to name your files appropriately, the only thing that matters is a valid file extension.
+All files (videos, subtitles, images) are uploaded through our custom Presentation Material Upload system.
+Shortly after the final acceptance notifications, the Tech Chairs will email submission-specific upload links to the corresponding author (please also check your spam folder).
+You can reuse the link if you want to or need to upload additional files later. Unlike previous years, you do not need to name your files appropriately, the only thing that matters is a valid file extension.
 
 Whenever you upload something, we perform various initial checks automatically to make sure that your submitted files adhere to the specifications outlined in this document (including preliminary audio quality checks). If any errors are reported in our upload system, you **must** fix them before the respective deadline. We also encourage you to strongly consider any warnings that might be displayed. For material that ends up on YouTube, an additional manual check will be performed after the respective deadline. We recommend uploading the videos as early as possible so that you have enough time to fix raised issues before the deadline. The reason for our strict technical requirements is that we need all videos and materials in a consistent format for our downstream processing pipeline.
 
@@ -176,8 +178,8 @@ Whenever you upload something, we perform various initial checks automatically t
 
 ### Accessibility Chairs
 
-* Kim Marriott *Monash University*
-* Dominik Moritz *Carnegie Mellon University*
+* Kim Marriott, *Monash University*
+* Dominik Moritz, *Carnegie Mellon University*
 
 *Email: [accessibility@ieeevis.org](mailto:accessibility@ieeevis.org)*
 
