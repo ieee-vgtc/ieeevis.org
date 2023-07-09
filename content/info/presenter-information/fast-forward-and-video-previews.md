@@ -14,9 +14,9 @@ Please **read the following instructions carefully** and submit your
 - Sept TBD: All other events, including [partnership](/year/2023/info/call-participation/partnerships) (TVCG, CG&amp;A, SIGGRAPH, and VR) presentations
 
 
-Video previews are a great opportunity to publicize your work or event to a wide audience and invite people to join your presentation and read your paper. Video previews are accessible from the conference website on the VIS YouTube channel prior to, during, and after the conference.
+Video Previews are a great opportunity to publicize your work or event to a wide audience and invite people to join your presentation and read your paper. Video Previews are accessible from the conference website on the VIS YouTube channel prior to, during, and after the conference.
 
-Video previews are linked from the conference’s webpage and will be compiled into ‘trailers’, one for each session. There will be no Fast-Forward session this year.
+Video Previews are linked from the conference’s webpage and will be compiled into ‘trailers’, one for each session. There will be no Fast-Forward session this year.
 
 <!--
 At least one author for each accepted
@@ -73,14 +73,14 @@ vertical-align: top;
 
 ## Video Preview Guidelines: 
 
-- Do not include any title slide at the beginning of the video, as we will add a consistent title to the video preview containing: the paper title, authors, and session information.
+- Do not include any title slide at the beginning of the video, as we will add a consistent title to the Video Preview containing: the paper title, authors, and session information.
 - The video should contain audio narration. We discourage salient music to focus viewers’ attention on the content.
-- Subtitles are mandatory to increase accessibility. See below for tips on how to create and include subtitles.
-- A video preview should be self-explaining and self-contained. It should clearly communicate your research and contribution and invite readers to read your paper.
+- Subtitles are mandatory to increase accessibility. See the [Talk Recording Guide](/year/2023/info/presenter-information/talk-recording-guide) for tips on how to create and include subtitles.
+- A Video Preview should be self-explaining and self-contained. It should clearly communicate your research and contribution and invite readers to read your paper.
 - Other than in recent years’ Fast-Forwards sessions, we discourage humor and trailer-like ‘ads’.
 - The video will exist for a long time and can be shared widely by the authors on social media and other channels.
 
-## Do I need to submit a Video-Preview? 
+## Do I need to submit a Video Preview? 
 If your track is not listed, please check for updates later as all track chairs are finalizing their decisions.
 
 
@@ -102,7 +102,8 @@ Please see the [Talk Recording Guide](/year/2023/info/presenter-information/talk
 
  
 ## How to submit?
-- Video previews will be submitted via a DropBox link distributed via email.
+- Video Previews will be submitted through our Presentation Material Upload system. The Tech Chairs will send out an email to the corresponding author with a submission-specific upload link. Please see the [Talk Recording Guide](/year/2023/info/presenter-information/talk-recording-guide) for more information on how to submit your Video Preview.
+
 - Please submit your video file and caption/subtitle file separately and do not bake the subtitles into the video. We will do the integration in a consistent way.
 
 
