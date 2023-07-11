@@ -6,17 +6,18 @@ permalink: info/week-at-a-glance
 
 # Program Week at a Glance
 
-Below is a draft schedule the conference.  
+Below is a draft schedule the conference.
 Additional details for the events are available on their webpages, and more detailed information will be available the virtual VIS website as the conference nears.
+**Note: details and specific times may change as we adjust for late-breaking conflicts and constraints.**
 
 <!--
 Room assignments are indicated by columns.  The entire conference will run on Level Two of the Omni Oklahoma City Hotel.  [Here is a floor map](https://www.omnihotels.com/-/media/images/hotels/okcdtn/hotel/okcdtn-omni-oklahoma-city-floor-plans). 
 -->
 
-Daily sessions are four blocks per day, each 75 minutes.  
-Breakfast begins one hour before the sessions for the day (7:30am on Tuesday, 8:00am all other days).  
-There are breaks for coffee from 10:15-10:45am and 3:15-3:45pm.  
-A lunch break runs from 12:00-2:00pm each day.  
+Daily sessions are four blocks per day, each 75 minutes.
+<!--Breakfast begins one hour before the sessions for the day (7:30am on Tuesday, 8:00am all other days).-->
+There are breaks for coffee from 10:15-10:45am and 3:15-3:45pm.
+A lunch break runs from 12:00-2:00pm each day. 
 Regular day programming ends at 5:00pm, with after hours programming beginning after short breaks.
 
 <!--
@@ -231,5 +232,7 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 
 * Gautam Chaudhary, *Alcon* 
 * Joshua A. Levine, *University of Arizona* 
+* Lane Harrison, *Worcester Polytechnic Institute*
+* Kate Isaacs, *University of Utah*
 
 *Email: [program@ieeevis.org](mailto:program@ieeevis.org)*
