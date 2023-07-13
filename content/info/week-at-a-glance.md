@@ -81,15 +81,13 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 
 <a>**Monday, October 17, 2022**</a><br/>
 
-*9:00 AM-5:00 PM AEDT (UTC+11)*<br/>
-**VisInPractice** (Associated Event)  
-
 *9:00 AM-12:00 PM AEDT (UTC+11)*<br/>
 **Visualization for Social Good** (Workshop)  
 **Mining Useful Information Via Complex Network Visualization** (Tutorial)  
 **EduVis: Workshop on Visualization Education, Literacy, and Activities** (Workshop)  
 **Transparent Practices for Quantitative Empirical Research** (Tutorial)  
 **LDAV: 13th IEEE Symposium on Large Data Analysis and Visualization** (Associated Event)  
+**VisInPractice** (Associated Event)  
 **(Vis + Prov) x Domain: Workshop on Visualization and Provenance Across Domains** (Workshop)  
 **Bio+MedVis Challenges** (Contest)  
 
