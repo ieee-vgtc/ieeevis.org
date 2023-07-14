@@ -212,12 +212,12 @@ menu:
       #               url: "/year/2023/info/posters"
                   - text: "Tutorials"
                     description: "Learn new tools and application domains"
-                    #url: "/year/2023/info/tutorials"
-                    #is_new: true
+                    url: "/year/2023/info/tutorials"
+                    is_new: true
                   - text: "Workshops"
                     description: "Informal setting to discuss emerging topics"
                     url: "/year/2023/info/workshops"
-                    #is_new: true
+                    is_new: true
       #             - text: "Panels"
       #               description: "Discuss important and controversial issues"
       #               url: "/year/2023/info/panels"
