@@ -11,8 +11,9 @@ contact: ff@ieeevis.org
 Please **read the following instructions carefully** and submit your
 25-second video for the online Video Previews by the following deadlines:
 - Aug. 22: VIS Full/Short Papers
-- Sept TBD: All other events, including [partnership](/year/2023/info/call-participation/partnerships) (TVCG, CG&amp;A, SIGGRAPH, and VR) presentations
-
+- Sept. 8: [Partnership](/year/2023/info/call-participation/partnerships) presentations, including TVCG, CG&amp;A, SIGGRAPH, and VR presentations
+VIS Full/Short Papers
+- Sept 22: All other events.
 
 Video Previews are a great opportunity to publicize your work or event to a wide audience and invite people to join your presentation and read your paper. Video Previews are accessible from the conference website on the VIS YouTube channel prior to, during, and after the conference.
 
@@ -88,14 +89,11 @@ Video Previews are **required** for the following tracks:
 - VIS Full Papers
 - VIS Short Papers
 - Invited [Partnership](/year/2023/info/call-participation/partnerships) Talks (including TVCG, CG&A, SIGGRAPH, and VR)
-- VIS Arts Program
 
 Video Previews are **optional** for all other tracks and associated events, unless notified otherwise by the chairs for that track/event.
 
 You have **no Video-Preview** to submit for the following tracks:
 - Doctor Colloquium
-- Competitions (VAST Challenge, Bio+MedVis Challenge, SciVis Contest)
-- Tutorials
 
 ## How to record your video?
 Please see the [Talk Recording Guide](/year/2023/info/presenter-information/talk-recording-guide) on how to format your Video Preview.
