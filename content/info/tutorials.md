@@ -6,127 +6,102 @@ contact: tutorials@ieeevis.org
 ---
 
 ## Accepted Tutorials
-Here is the list of the accepted tutorials. 
-* [Color Scheming in Visualization](#CMV)
-* [NLP4Vis: Natural Language Processing for Information Visualization](#NLP)
-{% comment %}
-* [Multilayer Network Visualization: Theory and applications](#MNV)
-{% endcomment %}
+Here is the list of the accepted tutorials.
 * [Visualization Analysis and Design](#VAD)
-* [Sports Data Analysis and Visualization](#SDA)
-* [Topological Analysis of Ensemble Scalar Data with TTK, A Sequel](#TAE)
-* [Riemannian Geometry for Scientific Visualization](#RGS)
-* [Visualization in Bayesian Workflow](#VBW)
-* [Analyze and Visualize Large Scale Geospatial Data with H3 and HexTile](#AVL)
-* [VTK-m – A ToolKit for Scientific Visualization on Many-Core Processors](#VTK)
+* [A Hands-on TTK Tutorial for Absolute Beginners](#TTK)
+* [NLP4Vis: Natural Language Processing for Information Visualization](#NLP)
+* [Demystifying Color in Your Data Visualizations](#CDV)
+* [Mining Useful Information Via Complex Network Visualization](#MUI)
+* [Transparent Practices for Quantitative Empirical Research](#TPQ)
+* [TAURUS: a Unified Framework for Creating Graph Layouts](#TAURUS)
+* [Design Sprints for Visualization](#DSV)
 
 <hr/>
 
-## <a name="CMV"></a> Color Scheming in Visualization
-Sunday, October 16, 2022: 9:00 AM-12:00 PM CDT (UTC-5)
-
-Theresa-Marie Rhyne, *Visualization Consultant*
-
-This tutorial introduces the basics of color theory and steps though how to select and build color schemes for data visualization. It is intended for a broad audience of individuals interested in discovering the mysteries of color.
-
-With a five stage colorization process, you learn how to build a color scheme with color harmony, incorporate the concepts of color models and address color deficiency. You explore the differences between mixing colors in the traditional painter color space and display color space. You discover online and mobile color suggestion apps to help with continued colorization. Along the way, color vision principles, perceptual uniformity with the the Hue Chroma Luminance (HCL) model as well as color gamut, spaces and systems are examined. Concepts like extending the fundamentals of the Bauhaus into digital media and overviews of color perception and appearance principals are covered.
-
-## <a name="NLP"></a> NLP4Vis: Natural Language Processing for Information Visualization
-Sunday, October 16, 2022: 9:00 AM-12:00 PM CDT (UTC-5)
-
-Enamul Hoque, *York University* <br>
-Shafiq Joty, *Nanyang Technological University* <br>
-
-This tutorial will provide an introduction to natural language processing (NLP) to the interested researchers in the visualization (Vis) community. It will first motivate why NLP4Vis is an important area of research and provide an overview of research topics on combining NLP and Vis techniques. Then an overview of basic NLP techniques for text analysis followed by state-of-the-art deep learning models for NLP will be covered. In the final part, we will focus on various application tasks at the intersection of NLP and Vis. We will conclude with an interactive discussion of future challenges for NLP+Vis applications. The audience will include researchers interested in applying NLP for visualizations as well as others who focus more generally at the intersection of machine learning and visualization.
-
-{% comment %}
-## <a name="MNV"></a> Multilayer Network Visualization: Theory and applications
-Sunday, October 16, 2022: 2:00 PM-5:00 PM CDT (UTC-5)
-
-Sonali Agarwal, *IIIT Allahabad* <br>
-Sanjay Kumar Sonbhadra, *Shiksha ’O’ Anusandhan, Bhubaneswar* <br>
-Dr. Narinder Singh Punn, *IIIT Allahabad* <br>
-
-Visualization plays a critical role to analyse and interpret the working of any system; however, this phase of study is mostly overlooked and hence requires special attention. The proposed tutorial is intended to provide a detailed coverage of contemporary multi-layer network visualization techniques to support the understanding of various existing complex systems. The tutorial is covering basics of multilayer networks along with various techniques of visualization under faceting perspective, application perspective and system perspective. Besides several use cases of multilayer networks and critical challenges incurred while developing multi-layer graph visualization will also be covered. Furthermore, future research directions are uncovered to address such challenges. This tutorial will definitely attract the researchers’ attention since multilayer networks are expected to play a significant role in the study of complex systems in the future. By bringing the visualization community closer to the application domains as well as the complex systems communities, better outcomes will be achieved for all stakeholders.
-{% endcomment %}
-
 ## <a name="VAD"></a> Visualization Analysis and Design
-Sunday, October 16, 2022: 2:00 PM-5:00 PM CDT (UTC-5)
+{% comment %}Sunday, October 16, 2022: 9:00 AM-12:00 PM CDT (UTC-5){% endcomment %}
 
-Tamara Munzner, *University of British Columbia*
+Tamara Munzner, *University of British Columbia* <br>
 
 This introductory tutorial will provide a broad foundation for thinking systematically about visualization systems, built around the idea that becoming familiar with analyzing existing systems is a good springboard for designing new ones. The major data types of concern in visual analytics, information visualization, and scientific visualization will all be covered: tables, networks, and sampled spatial data. This tutorial is focused on data and task abstractions, and the design choices for visual encoding and interaction; it will not cover algorithms. No background in computer science or visualization is assumed.
 
-## <a name="SDA"></a> Sports Data Analysis and Visualization
-Sunday, October 16, 2022: 2:00 PM-5:00 PM CDT (UTC-5)
 
-Romain Vuillemot, *Ecole Centrale de Lyon*
+## <a name="TTK"></a> A Hands-on TTK Tutorial for Absolute Beginners
+{% comment %}Sunday, October 16, 2022: 9:00 AM-12:00 PM CDT (UTC-5){% endcomment %}
 
-In this tutorial, participant will learn recent techniques and tools to analyze sports players and teams from a data perspective. After the tutorial they will have an in-depth understanding of the state of the art of visualization for field-based sports (e.g., soccer, basket ball), performance sports (e.g., swimming, running) and opposition games (e.g., table tennis, badminton). For each of those sports, the instructor will introduce datasets, data pre-processing and structures, that participants will pick to work on a visualization design of their own, and code it. The instructor will also lead participants to calculate extra performance metrics for both players and team analysis they will include in their visualizations. Participants are expected to have intermediate knowledge of Tableau or coding skills in JavaScript and D3. The output of their work is a fully working, animated web application aimed at coaches or players to improve their tactical analysis. Participants will be encouraged to continue their work after the tutorial with advices on to collect their own sports data (e.g., from local university teams or their personal acticvity).
+Christoph Garth, *RPTU Kaiserslautern-Landau* <br>
+Robin Georg Claus Maack, *University of Kaiserslautern* <br>
+Mathieu Pont, *CNRS, Sorbonne Université* <br>
+Julien Tierny, *CNRS, Sorbonne Université* <br>
 
+This tutorial provides a basic, beginner’s introduction to topological data analysis and visualization with the Topology ToolKit (TTK).
+While previous editions of the TTK tutorial (2018 to 2022) were organized as mini-symposia (focused on the descriptions of TTK’s latest features), this year, in contrast, we would like to organize a very basic beginner’s hands-on tutorial. Specifically, the goal of this tutorial is to accompany attendees in the installation of TTK on their laptop as well as in the running of a few basic examples, all in a very beginner-friendly step-by-step description. This decision is motivated by attendee feedback which we collected at previous editions of the TTK tutorial. We address this feedback in this tutorial proposal. Then, for the first time, beginners would be able to come to the tutorial without prior TTK experience, and walk out with TTK installed on their system, capable of running a few examples and ready to go further. We believe this basic hands-on tutorial will facilitate the adoption of TTK and topological techniques to a broader audience.
+The tutorial will be organized as follows. The first hands-on exercise will be dedicated to the installation of TTK. The second hands-on exercise will be focused on ParaView’s basic usage. The following three hands-on exercises will be dedicated to the step-by-step replication of three examples extracted from TTK’s online example database (vortex extraction in fluid dynamics, Morse-Smale complex extraction in quantum chemistry and merge tree comparison in ensemble data).
 
-## <a name="TAE"></a> Topological Analysis of Ensemble Scalar Data with TTK, A Sequel
-Monday, October 17, 2022: 9:00 AM-12:00 PM CDT (UTC-5)
-
-Christoph Garth, *Technische Universität Kaiserslautern* <br>
-Charles Gueunet, *Kitware SAS* <br>
-Pierre Guillou, *Sorbonne Université* <br>
-Federico Iuricich, *Clemson University* <br>
-Joshua A Levine, *University of Arizona* <br>
-Jonas Lukasczyk, *Technische Universität Kaiserslautern* <br>
-Mathieu Pont, *CNRS / Sorbonne Université* <br>
-Julien Tierny, *CNRS / Sorbonne Université* <br>
-Jules Vidal, *Sorbonne Université* <br>
-Bei Wang, *University of Utah* <br>
-Florian Wetzels, *Technische Universität Kaiserslautern* <br>
-
-This tutorial presents topological methods for data analysis and visualization from a user’s perspective, with the Topology ToolKit (TTK), an open-source library for topological data analysis. In particular, similarly to 2021, this year’s tutorial has a special focus on ensemble data analysis with TTK, but with an updated content. Topological methods have gained in popularity and maturity over the last twenty years and success stories of established methods have been documented in a wide range of applications (combustion, chemistry, astrophysics, material sciences, etc.) with both acquired and simulated data, in both post-hoc and in-situ contexts. This tutorial provides a beginner’s introduction to topological methods for practitioners, researchers, students, and lecturers, with a special emphasis towards ensemble data analysis. In particular, instead of focusing on theoretical aspects and algorithmic details, this tutorial focuses on how topological methods can be used in practice to reduce ensemble datasets into concise yet meaningful topological data representations and how these representations can support advanced analysis. The tutorial describes in detail how to achieve these tasks with TTK. In contrast to the first iterations of this tutorial [13,14,16], this iteration focuses on the specific usage of TTK for ensemble data analysis, similarly to the 2021 edition [18], but with an updated content, including updated or additional features for ensemble data processing. First, we provide a general introduction to topological methods and their application in data analysis, and a brief overview of TTK’s main entry point for end users, namely ParaView, will be presented. Second, we detail TTK’s software infrastructure for ensemble data analysis, including TTK’s Docker support (to facilitate its deployment on computing servers), a tour of the topological data representations supported by TTK, and lastly TTK’s cinema support (to manipulate ensemble of topological data representations with a database formalism). Third, we will present concrete use cases of ensemble data analysis and visualization, using contour tree alignment as well as ensemble clustering and summarization with persistence diagrams and merge trees. Presenters of this tutorial include experts in topological methods, core authors of TTK as well as active users, coming from academia and industry. This tutorial mostly targets students, practitioners and researchers who are not necessarily experts in topological methods but who are interested in using them in their daily tasks. We also target researchers already familiar to topological methods and who are interested in using or contributing to TTK. We kindly ask potential attendees to optionally pre-register at the following address, in order for us to reach out to them ahead of the tutorial with information updates (for instance, last minute updates, instructions for the download of the tutorial material package, etc.): https://forms.gle/9b7TTERsjMs49g9m8
-
-Tutorial web page (including all material, TTK pre-installs in virtual machines, code, data, demos, video tutorials, slides, etc): https://topology-tool-kit.github.io/ieeeVisTutorial.html
+We kindly ask potential attendees to optionally pre-register at the following address, in order for us to reach out to them ahead of the tutorial with information updates (for instance, last minute updates, instructions to download the tutorial material package, etc.): https://forms.gle/t4xX4a3pJjyiU67D9
+Tutorial web page (data, material, schedule, etc.): https://topology-tool-kit.github.io/ieeeVisTutorial.html
 
 
-## <a name="RGS"></a> Riemannian Geometry for Scientific Visualization
-Monday, October 17, 2022: 9:00 AM-12:00 PM CDT (UTC-5)
+## <a name="NLP"></a> NLP4Vis: Natural Language Processing for Information Visualization
+{% comment %}Sunday, October 16, 2022: 9:00 AM-12:00 PM CDT (UTC-5){% endcomment %}
 
-Markus Hadwiger, *KAUST* <br>
-Thomas Theussl, *KAUST* <br>
-Peter Rautek, *KAUST* <br>
+Enamul Hoque, *York University* <br>
 
-This tutorial introduces the most important basics of Riemannian geometry and related concepts with a specific focus on applications in scientific visualization. The tutorial will be an improved version of our tutorial of the same name at VIS 2021. Building on and extending the detailed VIS 2021 tutorial notes (see vccvisualization.org/RiemannianGeometryTutorial/), we will refer some detailed mathematical material from the VIS 2021 tutorial talks to the notes, and instead use the time in the tutorial talks to extend the discussion of various applications in visualization. We will also extend the notes with more applications.
-
-The main concept in Riemannian geometry is the presence of a Riemannian metric on a differentiable manifold, comprising a second-order tensor field that defines an inner product in each tangent space that varies smoothly from point to point. Technically, the metric allows defining and computing distances and angles in a coordinate-independent manner. However, even more importantly, it in a sense is the major structure that defines the space where scientific data, such as scalar, vector, and tensor fields live.
-
-However, the concept of a metric, and crucial related concepts such as connections and covariant derivatives, are not often used explicitly in visualization. In contrast to concepts of differential topology, which have been used extensively in visualization, for example in scalar and vector field topology, we believe that concepts from Riemannian geometry have been underrepresented in the visualization literature. One reason for this might be that most visualization techniques are developed for scalar, vector, or tensor fields given in Euclidean space R2 or R3, and data given on curved surfaces are usually treated explicitly through their embedding in R3. However, the presence of a Riemannian metric on a manifold has very important implications even for data given in Euclidean space, for example regarding the physical meaning of visualizations as well as for the use of non-Cartesian coordinates. Therefore, considering the metric tensor field explicitly provides several important benefits.
-
-In this tutorial, we will build on our previous VIS 2021 tutorial, and in particular extend highlighting the additional insight that can be gained from employing concepts from Riemannian geometry in scientific visualization. Although we believe that insight is the most important benefit to be gained from using these concepts, we will also discuss computational advantages. In addition to Riemannian metrics, we will also introduce the most important related concepts from modern, coordinate-free differential geometry, in particular general (non-Cartesian) tensor fields and differential forms, smooth mappings between manifolds, Lie derivatives, and Lie groups and Lie algebras. Throughout the tutorial, we will use several examples from the scientific visualization literature, dealing with scalar, vector, or tensor fields, respectively, and highlight their implicit or explicit connections to Riemannian geometry.
-
-## <a name="VBW"></a> Visualization in Bayesian Workflow
-Monday, October 17, 2022: 9:00 AM-12:00 PM CDT (UTC-5)
-
-Clinton Brownley, *UC Berkeley*
-
-Visualization can be a powerful tool to help you build better statistical models. In this tutorial, you will learn how to create and interpret visualizations that are useful in each step of a Bayesian workflow for three common regression models, linear, logistic, and multilevel. A Bayesian workflow includes the three steps of (1) model building, (2) model interpretation, and (3) model checking/improvement, along with comparisons to other models. Visualization is helpful in each of these steps – generating graphical representations of the model and plotting prior distributions aid modeling building, visualizing MCMC diagnostics and plotting posterior distributions aid interpretation, and plotting posterior predictive, counterfactual, and model comparisons aid model checking/improvement.
-
-## <a name="AVL"></a> Analyze and Visualize Large Scale Geospatial Data with H3 and HexTile
-Monday, October 17, 2022: 2:00 PM-5:00 PM CDT (UTC-5)
-
-Shan He, *Foursquare* <br>
-Nick Rabinowitz, *Foursquare*
-
-Geospatial analysis can be challenging and time-consuming – from preparing data of different shapes, forms, sizes, to processing and visualizing large datasets at scale. In recent years, geospatial visualization has increasingly shifted from legacy GIS tools to web-based systems leveraging WebGL and other modern browser-based technologies to enable fast exploratory data analysis for a broader audience.
-
-Using the Unfolded Studio platform, Shan He and Nick Rabinowitz will present an overview of common geospatial visualization approaches and techniques. We will then offer a deep dive into H3, an open source discrete global grid system developed to support a wide variety of geospatial use cases. Building on our discussion of H3 and existing spatial tiling systems, we will introduce Hex Tiles, a spatial tiling system based on H3 for fast visualization and analysis of large spatial datasets, and offer a hands-on tutorial demonstrating how Hex Tiles can be used for visualization and analysis in the Unfolded platform.
-
-## <a name="VTK"></a> VTK-m – A ToolKit for Scientific Visualization on Many-Core Processors
-Monday, October 17, 2022: 2:00 PM-5:00 PM CDT (UTC-5)
-
-Dr. Tushar M. Athawale, *Oak Ridge National Laboratory* <br>
-Kenneth Moreland, *Oak Ridge National Laboratory* <br>
-David Pugmire, *Oak Ridge National Laboratory* <br>
-Silvio Rizzi, *Argonne National Laboratory* <br>
-Mark Bolstad, *Sandia National Laboratories* <br>
-
-In this tutorial, our goal is to familiarize the audience with the VTK-m library, an open-source toolkit for visualization and analysis on many-core devices. The visualization community can largely benefit from the VTK-m library via: 1) application of its rich set of high-performance portable visualization algorithms for accelerating visualization research and 2) deployment of new visualization algorithms on different high-performance architectures with VTK-m. The tutorial will cover the usage of VTK-m library for scientific
-visualization and development with VTK-m. Tutorial webpage (contains the slack channel link, tutorial materials, and VTK-m installation instructions): https://tinyurl.com/vtkm-tut-2022
+This tutorial will provide an introduction to natural language processing (NLP) to interested researchers in the visualization (Vis) community. It will first motivate why NLP4Vis is an important area of research and provide an overview of research topics on combining NLP and Vis techniques. Then an overview of deep learning models for NLP will be covered. A particular focus will be provided on highlighting the recent progress on large language models such as ChatGPT and how such models can be leveraged to solve various NLP tasks for visualizations. In the final part, we will focus on various application tasks at the intersection of NLP and Vis. We will conclude with an interactive discussion of future challenges for NLP+Vis applications. The audience will include researchers interested in applying NLP for visualizations as well as others who focus more generally at the intersection of AI and visualization.
 
 
+## <a name="CDV"></a> Demystifying Color in Your Data Visualizations
+{% comment %}Sunday, October 16, 2022: 9:00 AM-12:00 PM CDT (UTC-5){% endcomment %}
+
+Theresa-Marie Rhyne, *Visualization Consultant* <br>
+
+This tutorial provides an overview of the basics of color theory while exploring various color mysteries. New to 2023, we show how to use Adobe’s Firefly, a creative generative AI model in Beta, to expand your data color scheme choices. You also learn how to build your own colormaps by transforming color harmonies. Several puzzling notions are examined. These include but are not limited to discovering that Magenta is not a spectral color, merging Red and Green lights results in Yellow, and most Blues in Data Visualizations turn out to be Cyan-Blue combinations. The course is intended for a broad audience of individuals interested in understanding, applying, and building color schemes for data visualization.
+
+With a five stage colorization process, you learn how to build and select a data color scheme with color harmony, incorporate color models concepts and address color deficiency. You discover the differences between mixing colors in perceptual, display, printer, and traditional painter color spaces. For example, you learn how to transition from Red as a primary hue in RGB display space to Red as a secondary combination of Magenta and Yellow in CMYK printer space. You explore online and mobile color apps, like Adobe Firefly, and HCL Wizard, to help with continued colorization. Many of these tools are freely available. Along the way, color vision principles, perceptual uniformity with the Hue Chroma Luminance (HCL) model as well as color gamut, spaces and systems are examined. Concepts like extending the fundamentals of the Bauhaus into digital media , the Rainbow colormap dilemma, and overviews of appearance principals are covered. Bring your digital visualization examples for hands-on experiences with color suggestion tools.
+
+
+## <a name="MUI"></a> Mining Useful Information Via Complex Network Visualization
+{% comment %}Sunday, October 16, 2022: 9:00 AM-12:00 PM CDT (UTC-5){% endcomment %}
+
+Sonali Agarwal, *IIIT Allahabad, Prayagraj* <br>
+Sanjay Kumar Sonbhadra, *ITER, Shiksha ’O’ Anusandhan* <br>
+Narinder Singh Punn, *IIITM Gwalior* <br>
+Sadhana Tiwari Sadhana, *IIIT Allahabad, Prayagraj* <br>
+Ritesh Chandra, *IIIT Allahabad, Prayagraj* <br>
+
+The process of visually representing networks of connected entities, links as well as nodes is termed as network visualization, also referred to as graph visualization or link analysis. The proposed tutorial is intended to provide a detailed coverage of contemporary complex network visualization techniques to support the understanding of various existing complex systems. The tutorial is covering basics of complex networks along with various visualization techniques under faceting perspective, application perspective and system perspective. After introducing several use cases of complex networks, the critical challenges incurred while developing multi-layer graph visualization will also be covered. Furthermore, future research directions are uncovered to address such challenges. Multilayer networks are expected to play a significant role in the study of complex systems in the future. It will bring the visualization community closer to the application domains as well as the complex systems communities.
+
+
+## <a name="TPQ"></a> Transparent Practices for Quantitative Empirical Research
+{% comment %}Sunday, October 16, 2022: 9:00 AM-12:00 PM CDT (UTC-5){% endcomment %}
+
+Abhraneel Sarma, *Northwestern University* <br>
+Chat Wacharamanotham, *Swansea University* <br>
+Fumeng Yang, *Northwestern University* <br>
+Maryam Hedayati, *Northwestern University* <br>
+
+Transparent research practices enable the research design, materials, analytic methods, and data to be thoroughly evaluated and potentially reproduced. This tutorial presents current best practices and tools that increase research transparency for VIS researchers, practitioners, and students. The tutorial will cover the most relevant concepts, guidelines, and practices in Open Science—how to transparently conduct quantitative empirical research, report the results, and share the artifacts of your research. We will also include exercises where participants will be able to apply transparent research practices.
+
+
+
+## <a name="TAURUS"></a> TAURUS: a Unified Framework for Creating Graph Layouts
+{% comment %}Sunday, October 16, 2022: 9:00 AM-12:00 PM CDT (UTC-5){% endcomment %}
+
+Yunhai Wang, *Shandong University* <br>
+Oliver Deussen, *University of Konstanz* <br>
+Mingliang Xue, *Shandong University* <br>
+Zhi Wang, *Shandong University* <br>
+
+Graph layout is a key technique in graph visualization. There is a wide variety of techniques related to graph layout available, but there is no suitable tutorial to help new researchers understand the differences and connections between these techniques. In this tutorial, we will systematically classify existing graph layout techniques such as force-based and stress-based models and explain the connections between them. Using our framework TAURUS we will map most of them to a unified formulation, which helps to compare them.
+In parallel we will show the effects of the techniques by interactively generating results using our fast solver, various parameters will be edited to show the effects of the different methods. In the second part of the tutorial, we will focus on non-physical-based models such as tsNET that do not follow a physical metaphor. At the end, we will move towards machine learning for graph layouts and show various applications for graph layout.
+
+The tutorial introduces the fundamentals and state-of-the-art of graph layout. Rooted in a theoretical perspective it introduces design concepts and algorithmic principles of a large number of graph layout methods. It will help beginners to enter the field of graph layout fast and advance their research. Our tutorial includes both course instructions as well as interactive demonstrations, participants can play around with all concepts using the TAURUS website and our library.
+
+
+## <a name="DSV"></a> Design Sprints for Visualization
+{% comment %}Sunday, October 16, 2022: 9:00 AM-12:00 PM CDT (UTC-5){% endcomment %}
+
+Carolina Nobre, *University of Toronto* <br>
+Johanna Beyer, *Harvard University* <br>
+
+Design sprints describe a time-constrained, interdisciplinary process based on rapid prototyping and testing to define goals quickly, validate ideas, and decide on a final design. The well-defined, interactive, and time-constrained design cycle makes design sprints well-suited both for teaching active-learning-centered visualization courses and for creating visualizations in real-world settings. In this tutorial, we will conduct a complete design sprint workshop, showcasing its value both in a classroom setting and for real-world applications. The tutorial contains 5 sections, each with guided active-learning activities. The tutorial starts with a theoretical introduction to design sprints, and then progresses through each of the five stages: Map, Sketch, Decide, Prototype, and Test. Each section will explain the technique, followed by hands-on experience performing the step. We conclude the tutorial with a show-and-tell, where groups can present their final design to all participants.
