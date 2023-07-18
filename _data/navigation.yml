@@ -287,7 +287,7 @@ menu:
                     is_external: true
                   - text: "VisInPractice"
                     description: "Invited talks by visualization practitioners"
-#                    url: "/year/2023/info/visinpractice"
+                    url: "/year/2023/info/visinpractice"
                   - text: "LDAV Symposium"
                     description: "Big Data Analysis and Visualization"
                     url: "https://ldav.org/"
