@@ -53,7 +53,7 @@ Some small grants may be available for VIS attendees who incur extra expenses wh
 
 ### Application 
 
-To apply for childcare grants or with any questions, please contact [VISKids@ieeevis.org](mailto:VISKids@ieeevis.org) as early as possible.
+To apply for childcare grants or with any questions, please contact [VISKids@ieeevis.org](mailto:VISKids@ieeevis.org) by September 8th, 2023.
 
 ### VISKids Community
 We share further information with the VISKids Community on other potential funding sources in an [online document](https://docs.google.com/document/d/1S5nkD4exOvY2hDn747RXfVjJCype4Co5iKYAutsT2WY/edit?usp=sharing). We invite you to participate and share your ideas and tips.
