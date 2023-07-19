@@ -8,7 +8,7 @@ contact: "web@ieeevis.org"
 
 ## Visa Application General Information
 
-If you are planning to attend VIS 2023 and may need a visa, we encourage you to real the following information provided by the Australian Department of Immigration and Border Protection. 
+If you are planning to attend VIS 2023 and may need a visa, we encourage you to read the following information provided by the Australian Department of Immigration and Border Protection. 
 
 We recommend that all overseas participants read this carefully. Under Australia’s universal visa system, all visitors to Australia must have a valid visa to travel to and enter Australia (the only exceptions to this are New Zealand passport holders and permanent residents of Norfolk Island). 
 
@@ -29,7 +29,7 @@ Please take into account processing times and lodge visa applications as early a
 * Korea, Rep of (STH) 
 * United States
 
-If you aren’t eligible to apply for an ETA online you might be able to apply through a travel agent, airline or at an [Australian visa office](https://www.homeaffairs.gov.au/about/contact/offices-locations). As part of the application/approval process, you will be issued with a Reference Number. You will need the Reference Number to check the status of your ETA or your application. 
+If you are not eligible to apply for an ETA online you might be able to apply through a travel agent, airline or at an [Australian visa office](https://www.homeaffairs.gov.au/about/contact/offices-locations). As part of the application/approval process, you will be issued with a Reference Number. You will need the Reference Number to check the status of your ETA or your application. 
 
 
 **Strong** __NB: These are the visa options available presently but the Department of Immigration and Border Protection reserves the right to change regulations. Assistance will NOT guarantee a visa grant. Visa applicants must demonstrate that they meet all the legislative requirements for an Australian visa.__
