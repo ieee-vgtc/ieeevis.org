@@ -45,9 +45,9 @@
      - name: "KAUST"
        image: /assets/supporters/vcc_kaust.png
        url: "http://vcc.kaust.edu.sa/"
-#     - name: "Autodesk"
-#       image: /assets/supporters/autodesk.png
-#       url: "https://www.autodesk.com/research"
+     - name: "Autodesk"
+       image: /assets/supporters/autodesk.png
+       url: "https://www.autodesk.com/research"
 #
 #
 #     - name: "University of Oklahoma"
