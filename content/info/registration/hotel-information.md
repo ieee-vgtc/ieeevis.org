@@ -9,8 +9,9 @@ contact: "web@ieeevis.org"
 **ACCOMMODATION CLOSES FRIDAY 15th September 2023  
 AFTER THIS DATE, PLEASE DIRECTLY CONTACT <a href="mailto:joy.s@asnevents.net.au">JOY SANHCHUJ</a>**
 
-The conference has secured several accommodation options for all budgets that are located within walking distance to the Melbourne Convention and Exhibition Centre. Bookings can be made during the registration process. You will need to select the available room type, indicate arrival and departure dates, and provide full prepayment in advance to secure your booking.
-Rooms rates offered via the conference website are guaranteed the best rates up until 30 days before the start of the conference. Within 30 days prior to arrival, the hotel may modify Best Available Rates for individual bookings at any given time. 
+The conference has secured several accommodation options for all budgets that are located within walking distance of the Melbourne Convention and Exhibition Centre. Bookings can be made during the registration process. You will need to select the available room type, indicate arrival and departure dates, and provide full prepayment in advance to secure your booking.
+Room rates offered via the conference website are guaranteed the best rates up until 30 days before the start of the conference. Within 30 days prior to arrival, the hotel may modify Best Available Rates for individual bookings at any given time. 
+It is possible to add accommodation (where available) at a later date after your registration is already confirmed as long as this happens prior to the accommodation cut-off date.
 
 *Please note that accommodation can only be booked via your registration dashboard until Friday 15th September 2023. After this date, delegates will need to secure their accommodation directly with the hotel.*
 
