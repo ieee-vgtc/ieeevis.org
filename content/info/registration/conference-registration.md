@@ -157,8 +157,8 @@ Individuals who need financial assistance but reside in a country not included o
 </table>
 **Registration fees are refundable up to 30 days before the beginning of the conference.**
 
-
-
+## Hotel Bookings with Registration
+The registration system allows room bookings with partnering hotels.  See the <a href="https://ieeevis.org/year/2023/info/registration/conference-registration">Venue and Hotel Information page</a> for details.  It is possible to add accommodation (where available) at a later date after your registration is already confirmed as long as this happens prior to the accommodation cut-off date.
 
 ### Visa Letter Requests
 A visa letter is available to download from your online registration profile. Once you have paid your registration, wait 24-hours then log into your profile with your email and password, scroll down to the bottom of your profile, and click on the visa letter button. You will be prompted to enter your passport details before downloading your visa letter.  
@@ -180,7 +180,7 @@ Yes. Poster presenters can register using the Speaker Registration category.
 Yes. Any presenter at the conference can register using the Speaker Registration category. 
 </ul>
 
-**Q: If I complete an Speaker Registration, do I also need to separately pay content fees?**
+**Q: If I complete a Speaker Registration, do I also need to separately pay content fees?**
 <ul>
 No. There. are no content or author fees related to papers published in IEEE Xplore.
 </ul>
