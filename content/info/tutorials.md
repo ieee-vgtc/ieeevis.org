@@ -19,7 +19,7 @@ Here is the list of the accepted tutorials.
 <hr/>
 
 ## <a name="VAD"></a> Visualization Analysis and Design
-{% comment %}Sunday, October 16, 2022: 9:00 AM-12:00 PM CDT (UTC-5){% endcomment %}
+Sunday, October 22, 2023: 9:00 AM-12:00 PM AEDT (UTC+11)
 
 Tamara Munzner, *University of British Columbia* <br>
 
@@ -27,7 +27,7 @@ This introductory tutorial will provide a broad foundation for thinking systemat
 
 
 ## <a name="TTK"></a> A Hands-on TTK Tutorial for Absolute Beginners
-{% comment %}Sunday, October 16, 2022: 9:00 AM-12:00 PM CDT (UTC-5){% endcomment %}
+Sunday, October 22, 2023: 9:00 AM-12:00 PM AEDT (UTC+11)
 
 Christoph Garth, *RPTU Kaiserslautern-Landau* <br>
 Robin Georg Claus Maack, *University of Kaiserslautern* <br>
@@ -43,7 +43,7 @@ Tutorial web page (data, material, schedule, etc.): https://topology-tool-kit.gi
 
 
 ## <a name="NLP"></a> NLP4Vis: Natural Language Processing for Information Visualization
-{% comment %}Sunday, October 16, 2022: 9:00 AM-12:00 PM CDT (UTC-5){% endcomment %}
+Sunday, October 22, 2023: 9:00 AM-12:00 PM AEDT (UTC+11)
 
 Enamul Hoque, *York University* <br>
 
@@ -51,7 +51,7 @@ This tutorial will provide an introduction to natural language processing (NLP) 
 
 
 ## <a name="CDV"></a> Demystifying Color in Your Data Visualizations
-{% comment %}Sunday, October 16, 2022: 9:00 AM-12:00 PM CDT (UTC-5){% endcomment %}
+Sunday, October 22, 2023: 2:00 PM-5:00 PM AEDT (UTC+11)
 
 Theresa-Marie Rhyne, *Visualization Consultant* <br>
 
@@ -61,7 +61,7 @@ With a five stage colorization process, you learn how to build and select a data
 
 
 ## <a name="MUI"></a> Mining Useful Information Via Complex Network Visualization
-{% comment %}Sunday, October 16, 2022: 9:00 AM-12:00 PM CDT (UTC-5){% endcomment %}
+Monday, October 23, 2023: 9:00 AM-12:00 PM AEDT (UTC+11)
 
 Sonali Agarwal, *IIIT Allahabad, Prayagraj* <br>
 Sanjay Kumar Sonbhadra, *ITER, Shiksha ’O’ Anusandhan* <br>
@@ -73,7 +73,7 @@ The process of visually representing networks of connected entities, links as we
 
 
 ## <a name="TPQ"></a> Transparent Practices for Quantitative Empirical Research
-{% comment %}Sunday, October 16, 2022: 9:00 AM-12:00 PM CDT (UTC-5){% endcomment %}
+Monday, October 23, 2023: 9:00 AM-12:00 PM AEDT (UTC+11)
 
 Abhraneel Sarma, *Northwestern University* <br>
 Chat Wacharamanotham, *Swansea University* <br>
@@ -85,7 +85,7 @@ Transparent research practices enable the research design, materials, analytic m
 
 
 ## <a name="TAURUS"></a> TAURUS: a Unified Framework for Creating Graph Layouts
-{% comment %}Sunday, October 16, 2022: 9:00 AM-12:00 PM CDT (UTC-5){% endcomment %}
+Monday, October 23, 2023: 2:00 PM-5:00 PM AEDT (UTC+11)
 
 Yunhai Wang, *Shandong University* <br>
 Oliver Deussen, *University of Konstanz* <br>
@@ -99,7 +99,7 @@ The tutorial introduces the fundamentals and state-of-the-art of graph layout. R
 
 
 ## <a name="DSV"></a> Design Sprints for Visualization
-{% comment %}Sunday, October 16, 2022: 9:00 AM-12:00 PM CDT (UTC-5){% endcomment %}
+Monday, October 23, 2023: 2:00 PM-5:00 PM AEDT (UTC+11)
 
 Carolina Nobre, *University of Toronto* <br>
 Johanna Beyer, *Harvard University* <br>
