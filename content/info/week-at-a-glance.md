@@ -75,7 +75,7 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 **Sixth Workshop on Visualization for Communication (VisComm)** (Workshop)  
 **5th Workshop on Urban Data Visualization (CityVis) - Focus: The Role of Data Governance** (Workshop)  
 **NLVIZ Workshop: Exploring Research Opportunities for Natural Language, Text, and Data Visualization** (Workshop)  
-**Colorizing your Data Visualizations** (Tutorial)  
+**Demystifying Color in Your Data Visualizations** (Tutorial)  
 
 <hr/>
 
