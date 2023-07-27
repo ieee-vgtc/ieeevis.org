@@ -33,6 +33,7 @@ Poster authors must submit a two-page (including references) summary of their wo
 
 Summaries should include a concise description of the idea, the results or findings, supporting imagery and figures, and a discussion of the implications of the work to the selected domain. Full literature searches are not expected, although relevant citations should be included.
 
+The poster design itself does not need to be submitted with the the summary on the initial submission deadline. Instead, authors whose posters are accepted will be asked to submit their poster as a PDF at the camera-ready deadline. Authors of accepted papers will also need to bring a physical printed copy of their poster to display at the poster session at the conference. (See details below.)
 
 ### SUBMISSION INSTRUCTIONS
 
@@ -52,6 +53,16 @@ At the time of submission, it is required by the authors to state explicitly in 
 * Final Submission of Camera Ready Summaries and Poster PDF: **Tuesday, August 15, 2023**
 
 All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth) (new for 2023)**.
+
+
+### POSTER DESIGN AND PRINTING
+A PDF copy of the display poster must be submitted on PCS by the camera-ready deadline for inclusion in the online program. 
+
+Authors will also need to bring their own printed version of their poster to display at the conference.
+
+VIS has no specific formatting requirements or template for display posters. However, all posters should include the same title and authors as the 2-page poster summary and should be legible from a distance of 2 meters. Posters can be no larger than size A0 (841 x 1189 mm / 33.1 x 46.8 inches) and must be in a portrait orientation. If planning to laminate your poster, make sure you leave the requisite margin on all sides. The conference will supply poster boards and Velcro for mounting and displaying all posters. 
+
+For authors who do not wish to travel with their posters, there are several printing shops available in around Melbourne, including [Officeworks Bourke Street](https://www.officeworks.com.au/print-copy/c/pcc/posters?cm_sp=all:menu:print-copy:::posters) or [Kwik Copy William Street](https://www.kwikkopy.com.au/poster-printing), both a 10-min walk from the MCEC. Prints can be ordered online and picked up from the store.
 
 ### POSTER SESSION
 
