@@ -48,13 +48,11 @@ If you have questions or additional requirements, you may contact [visa-letters@
 
 
 ## Visa FAQ
-**Q: During the visa application process, I must provide Organization Details (Address) and Contact person details (an Australian business contact). What information should I use?**
+**Q: During the visa application process, I must provide organization details and contact person details (an Australian business contact). What information should I use?**
+<ul>The organization details and contact information are included in your visa letter.</ul>
+
+**Q: I paid for my registration, but I cannot download the visa letter. What can I do?**
+<ul>It can take up to 24 hours for the visa letter to be available after the registration payment is processed. If you cannot wait, you may contact [visa-letters@ieeevis.org](mailto:visa-letters@ieeevis.org). </ul>
 
 
-* IEEE VIS 2023 Sponsoring organization: 
-  IEEE Computer Society. 10662 Los Vaqueros Circle. Los Alamitos, CA 90720-1314 USA.
-
-
-* Contact Person:
-Tim Dwyer. IEEE VIS 2023 General Chair. Phone number: 0481 240 767. Email: general_chair@ieeevis.org
 
