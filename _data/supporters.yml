@@ -23,14 +23,6 @@
  #      image: /assets/supporters/tableau.jpg
  #      url: "https://www.tableau.com/"
 
-# - category: Platinum+Banquet
-#   image_size: 400
-#   supporters:
-#     - name: "Northern Data"
-#       image: /assets/supporters/northern_data.png
-#       url: "https://northerndata.de/"
-
-
  - category: Platinum
    image_size: 400
    supporters:
@@ -62,6 +54,12 @@
 #      image: /assets/supporters/microsoft.png
 #      url: "https://www.microsoft.com/research"
 
+ - category: Banquet
+   image_size: 200
+   supporters:
+     - name: "Norrköping Visualization Center"
+       image: /assets/supporters/norrkoping.png
+       url: "https://visualiseringscenter.se/"
 
  - category: Bronze
    image_size: 200
