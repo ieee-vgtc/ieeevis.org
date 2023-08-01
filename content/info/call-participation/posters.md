@@ -50,7 +50,9 @@ At the time of submission, it is required by the authors to state explicitly in 
 
 * Submission Deadline: **Thursday, June 22, 2023**
 * Notification of Acceptance: **Saturday, July 22, 2023**
-* Final Submission of Camera Ready Summaries and Poster PDF: **Tuesday, August 15, 2023**
+* Final Submission of Camera Ready Summaries: **Tuesday, August 15, 2023**
+* Final Submission of Poster PDF: **Thursday, August 31, 2023**
+* (Optional) [Video Preview](/year/2023/info/presenter-information/fast-forward-and-video-previews) Submission: **Friday, September 22, 2023**
 
 All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth) (new for 2023)**.
 
