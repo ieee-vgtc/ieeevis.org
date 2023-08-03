@@ -38,7 +38,7 @@
        image: /assets/supporters/vcc_kaust.png
        url: "http://vcc.kaust.edu.sa/"
      - name: "Autodesk"
-       image: /assets/supporters/autodesk.png
+       image: /assets/supporters/Autodesk-logo.png
        url: "https://www.autodesk.com/research"
 #
 #
@@ -73,6 +73,9 @@
      - name: "Monash University"
        image: /assets/supporters/monash.png
        url: "https://www.monash.edu/it"
+     - name: "DataVizGuy"
+       image: /assets/supporters/DataVizGuy-logo.png
+       url: "https://datavizguy.com/"
 
  - category: Pearl
    image_size: 150
@@ -98,6 +101,15 @@
      - name: "SCI"
        image: /assets/supporters/sci.png
        url: "https://www.sci.utah.edu/"
+     - name: "Adobe"
+       image: /assets/supporters/Adobe-logo.jpg
+       url: "https://www.adobe.com/"
+     - name: "Nreal"
+       image: /assets/supporters/nreal-logo.png
+       url: "https://www.xreal.com/"
+     - name: "University of Queensland"
+       image: /assets/supporters/uq-logo.png
+       url: "https://www.uq.edu.au/"
 #     - name: "NREL"
 #       image: /assets/supporters/NREL.jpg
 #       url: "https://www.nrel.gov/"
