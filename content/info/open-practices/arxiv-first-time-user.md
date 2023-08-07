@@ -27,7 +27,6 @@ After your account is created, you can view your current submissions and create 
 a) Choose a license (the default arXiv license is recommended by IEEE)
 
 ![]({{ 'content/info/open-practices/arxiv_guide_2.png' | relative_url }}) 
-![]({{ 'content/info/open-practices/arxiv_guide_3.png' | relative_url }}) 
 
 Note that you may need endorsement in a category if it is the first time you’ve submitted to arXiv.org, especially in this category.  See [https://arxiv.org/help/endorsement](https://arxiv.org/help/endorsement).  
 
