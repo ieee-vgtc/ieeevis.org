@@ -77,7 +77,9 @@ Danny T.Y. Wu, *University of Cincinnati College of Medicine* <br>
 
 Contact: vahc.sig@gmail.com
 
-The Workshop on Visual Analytics in Healthcare is the premier research event exploring the application of data visualization and visual analytics to biomedicine. VAHC 2022 will bring together medical experts, leading scientists, and visionaries to discuss opportunities and challenges in using visual analytics techniques to help patients, clinicians, public health researchers, and others leverage the power of complex health datasets.
+The Workshop on Visual Analytics in Healthcare is the premier research event exploring the application of interactive data visualization and visual analytics to healthcare and biomedicine. VAHC will bring together medical experts, leading scientists, and visionaries to discuss opportunities and challenges in using visual analytics techniques to help patients, clinicians, public health researchers, and others leverage the power of complex health datasets.
+
+This year, the special focus of VAHC is on the interactive visualization of health data for digital and personal health.
 
 ## <a name="nlviz"></a> [NLVIZ Workshop: Exploring Research Opportunities for Natural Language, Text, and Data Visualization](https://www.nlvizworkshop2023.com/)
 
