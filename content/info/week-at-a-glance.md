@@ -79,7 +79,7 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 
 <hr/>
 
-<a>**Monday, October 23, 2022**</a><br/>
+<a>**Monday, October 23, 2023**</a><br/>
 
 *9:00 AM-12:00 PM AEDT (UTC+11)*<br/>
 **Visualization for Social Good** (Workshop)  
