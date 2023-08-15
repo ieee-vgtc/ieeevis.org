@@ -53,7 +53,7 @@ Shortly after receiving final notifications from the second review cycle, the co
 
 ### 1. Author registration
 
-At least one author for each paper [must register](https://ieeevis.org/year/2023/info/registration/conference-registration) and attend the conference in person. This does not need to be the author who is presenting the paper.
+At least one author for each paper [must register](https://ieeevis.org/year/2023/info/registration/conference-registration) and attend the conference in person. If you have exceptional circumstances and none of the authors can attend in person please contact [the conference committee](mailto:info@ieeevis.org) as soon as possible.
 
 ### 2. Author Information Form
 
