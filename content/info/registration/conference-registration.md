@@ -25,7 +25,7 @@ IEEE VIS provides discounted registration rates for students, IEEE Members, ACM 
   
 ### Conference Speakers
 <b>All conference and associated events speakers </b> (including but not limited to paper and poster presenters, speakers, contest and panel speakers, and tutorial speakers), must register for the conference by September 22, 2023. 
-We require one Speaker Registration for full-length papers and short papers. Speakers receive discounted member prices, regardless of membership status. 
+We require one Speaker Registration for full-length papers and short papers. Speakers receive discounted member prices, regardless of membership status. A reminder that speakers are required to present in person. If due to exceptional circumstances no author is able to attend in person please contact [the organising committee](mailto:info@ieeevis.org) as soon as possible.
 <a class="button" href="https://members.asnevents.com.au/register/event/1856">REGISTER NOW</a>
 
 
