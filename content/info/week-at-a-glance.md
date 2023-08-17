@@ -176,7 +176,7 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 -->
 <hr/>
 
-<a>**Thursday, October 26, 2022**</a><br/>
+<a>**Thursday, October 26, 2023**</a><br/>
 
 *Main conference program coming soon.*<br />
 <!--
@@ -218,7 +218,7 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 -->
 <hr/>
 
-<a>**Friday, October 27, 2022**</a><br/>
+<a>**Friday, October 27, 2023**</a><br/>
 
 *Main conference program coming soon.*<br />
 <!--
