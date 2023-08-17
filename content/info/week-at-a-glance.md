@@ -104,9 +104,10 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 <hr/>
 
 
-<!--
-<a>**Tuesday, October 18, 2022**</a><br/>
+<a>**Tuesday, October 24, 2023**</a><br/>
 
+*Main conference program coming soon.*<br />
+<!--
 *8:30 AM-10:15 AM AEDT (UTC+11)*<br/>
 * Oklahoma Station 4+5: **VIS Welcome** (8:30am-8:45am) 
 * Oklahoma Station 4+5: **VGTC Awards** (8:45am-9:30am)
@@ -125,10 +126,13 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 
 *6:00 PM-8:00 PM AEDT (UTC+11)*<br/>
 * Automobile Alley + Prefunction: **VISAP Opening Reception**
+-->
 <hr/>
 
-<a>**Wednesday, October 19, 2022**</a><br/>
+<a>**Wednesday, October 25, 2023**</a><br/>
 
+*Main conference program coming soon.*<br />
+<!--
 *9:00 AM-3:15 PM AEDT (UTC+11)*<br/>
 * Pinon: **VizSec Symposium** (Associated Event)
 
@@ -169,10 +173,13 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 
 *6:45 PM-9:30 PM AEDT (UTC+11)*<br/>
 * Off site: **VIS Banquet at First American's Museum** (shuttles depart 6:30pm)
+-->
 <hr/>
 
-<a>**Thursday, October 20, 2022**</a><br/>
+<a>**Thursday, October 26, 2022**</a><br/>
 
+*Main conference program coming soon.*<br />
+<!--
 *9:00 AM-10:15 AM AEDT (UTC+11)*<br/>
 * Oklahoma Station 4: **ML for VIS** (VIS Full Papers Session)
 * Oklahoma Station 5: **Interactive Dimensionality (High Dimensional Data)** (VIS Full Papers Session)
@@ -208,10 +215,13 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 
 *6:00 PM-8:30 PM AEDT (UTC+11)*<br/>
 * Off site: **OU Open House** (shuttles depart 5:45pm)
+-->
 <hr/>
 
-<a>**Friday, October 21, 2022**</a><br/>
+<a>**Friday, October 27, 2022**</a><br/>
 
+*Main conference program coming soon.*<br />
+<!--
 *9:00 AM-10:15 AM AEDT (UTC+11)*<br/>
 * Oklahoma Station 4: **Natural Language Interaction** (VIS Full Papers Session)
 * Oklahoma Station 5: **Visual Analytics of Health Data** (VIS Full Papers Session)
