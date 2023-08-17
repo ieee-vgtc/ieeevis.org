@@ -235,11 +235,11 @@ menu:
                   - text: "Keynote"
                     description: "Dr. Drew Berry and Professor Anders Ynnerman"
                     url: "/year/2023/info/keynote-speaker"
+                    # is_new: true
+                  - text: "Capstone"
+                    description: "Matt Duckham, RMIT University"
+                    url: "/year/2023/info/capstone-speaker"
                     is_new: true
-                  # - text: "Capstone"
-                  #   description: "Dr. Kerry McGruder, University of Oklahoma"
-                  #   url: "/year/2023/info/capstone-speaker"
-                  #   is_new: true
           # - heading: "Awards and Recognitions"
           #   description: "Recognize outstanding work by the VIS community"
           #   columns:

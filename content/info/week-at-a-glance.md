@@ -106,9 +106,12 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 
 <a>**Tuesday, October 24, 2023**</a><br/>
 
-*Main conference program coming soon.*<br />
+*Main conference program coming soon.*
+<br />
+
 <!--
-*8:30 AM-10:15 AM AEDT (UTC+11)*<br/>
+
+* 8:30 AM-10:15 AM AEDT (UTC+11)*<br/>
 * Oklahoma Station 4+5: **VIS Welcome** (8:30am-8:45am) 
 * Oklahoma Station 4+5: **VGTC Awards** (8:45am-9:30am)
 * Oklahoma Station 4+5: **Test of Time Awards** (9:30am-10:15am)
@@ -132,7 +135,9 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 <a>**Wednesday, October 25, 2023**</a><br/>
 
 *Main conference program coming soon.*<br />
+
 <!--
+
 *9:00 AM-3:15 PM AEDT (UTC+11)*<br/>
 * Pinon: **VizSec Symposium** (Associated Event)
 
@@ -179,7 +184,9 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 <a>**Thursday, October 26, 2023**</a><br/>
 
 *Main conference program coming soon.*<br />
+
 <!--
+
 *9:00 AM-10:15 AM AEDT (UTC+11)*<br/>
 * Oklahoma Station 4: **ML for VIS** (VIS Full Papers Session)
 * Oklahoma Station 5: **Interactive Dimensionality (High Dimensional Data)** (VIS Full Papers Session)
@@ -221,7 +228,9 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 <a>**Friday, October 27, 2023**</a><br/>
 
 *Main conference program coming soon.*<br />
+
 <!--
+
 *9:00 AM-10:15 AM AEDT (UTC+11)*<br/>
 * Oklahoma Station 4: **Natural Language Interaction** (VIS Full Papers Session)
 * Oklahoma Station 5: **Visual Analytics of Health Data** (VIS Full Papers Session)
