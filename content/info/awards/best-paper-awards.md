@@ -88,7 +88,8 @@ Authors: Helen Ai He, Jagoda Walny, Sonja Thoma, Sheelagh Carpendale, Wesley Wil
 **Extract and Characterize Hairpin Vortices in Turbulent Flows**
 <br/>
 Authors: Adeel Zafar, Di Yang, Guoning Chen
-ghts: A Visual Analytics Approach for Understanding the Dual Frontiers between Science and Technology**
+
+**InnovationInsights: A Visual Analytics Approach for Understanding the Dual Frontiers between Science and Technology**
 <br/>
 Authors: Yifang Wang, Yifan Qian, Xiaoyu Qi, Nan Cao, Dashun Wang
 
