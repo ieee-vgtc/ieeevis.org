@@ -204,20 +204,19 @@ menu:
             description: "Click to see the schedule for events on Sunday and Monday"
             columns:
               - links:
-      #             - text: "Papers"
-      #               description: "The latest research in theory, methods, and applications of visualization"
-      #               url: "/year/2023/info/papers-sessions"
+                  - text: "Papers"
+                    description: "The latest research in theory, methods, and applications of visualization"
+                    url: "/year/2023/info/papers-sessions"
+                    is_new: true
       #             - text: "Posters"
       #               description: "Nascent and recent work"
       #               url: "/year/2023/info/posters"
                   - text: "Tutorials"
                     description: "Learn new tools and application domains"
                     url: "/year/2023/info/tutorials"
-                    is_new: true
                   - text: "Workshops"
                     description: "Informal setting to discuss emerging topics"
                     url: "/year/2023/info/workshops"
-                    is_new: true
       #             - text: "Panels"
       #               description: "Discuss important and controversial issues"
       #               url: "/year/2023/info/panels"
@@ -240,13 +239,13 @@ menu:
                     description: "Matt Duckham, RMIT University"
                     url: "/year/2023/info/capstone-speaker"
                     is_new: true
-          # - heading: "Awards and Recognitions"
-          #   description: "Recognize outstanding work by the VIS community"
-          #   columns:
-          #    - links:
-          #      - text: "Best Paper Awards"
-          #        url: "/year/2023/info/awards/best-paper-awards"
-          #        is_new: true
+          - heading: "Awards and Recognitions"
+            description: "Recognize outstanding work by the VIS community"
+            columns:
+             - links:
+               - text: "Best Paper Awards"
+                 url: "/year/2023/info/awards/best-paper-awards"
+                 is_new: true
                # - text: "Best Poster Awards"
                #   url: "/year/2023/info/awards/best-poster-awards"
   # - text: "Service Awards"
