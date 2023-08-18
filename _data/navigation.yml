@@ -208,21 +208,22 @@ menu:
                     description: "The latest research in theory, methods, and applications of visualization"
                     url: "/year/2023/info/papers-sessions"
                     is_new: true
-      #             - text: "Posters"
-      #               description: "Nascent and recent work"
-      #               url: "/year/2023/info/posters"
+                  - text: "Posters"
+                    description: "Nascent and recent work"
+                    url: "/year/2023/info/posters"
+                    is_new: true
                   - text: "Tutorials"
                     description: "Learn new tools and application domains"
                     url: "/year/2023/info/tutorials"
                   - text: "Workshops"
                     description: "Informal setting to discuss emerging topics"
                     url: "/year/2023/info/workshops"
-      #             - text: "Panels"
-      #               description: "Discuss important and controversial issues"
+                  - text: "Panels"
+                    description: "Discuss important and controversial issues"
       #               url: "/year/2023/info/panels"
       #               #is_new: true
-      #             - text: "Application Spotlights"
-      #               description: "Showcase practical, real-world applications of visualization"
+                  - text: "Application Spotlights"
+                    description: "Showcase practical, real-world applications of visualization"
       #               url: "/year/2023/info/spotlights"
       #               #is_new: true
       - subsections:
