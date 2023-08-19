@@ -118,19 +118,16 @@ The Best Papers Committee for VIS 2023 short papers consists of three distinguis
 <br/>
 Authors: Aidan Slingsby, Richard Reeve, Claire Harris
 
-{% comment %}
-
 ### Best Paper Honorable Mentions
 
-**Toward Systematic Considerations of Missingness in Visual Analytics**
+**Draco 2: An Extensible Platform to Model Visualization Design**
 <br/>
-Authors: Maoyuan Sun, Yue Ma, Yuanxin Wang, Tianyi Li, Jian Zhao, Yujun Liu, Ping-Shou Zhong
+Authors: Junran Yang, Péter Ferenc Gyarmati, Zehua Zeng, Dominik Moritz
 
-**ARShopping: In-Store Shopping Decision Support Through Augmented Reality and Immersive Visualization**
+**Data in the Wind: Evaluating Multiple-Encoding Design for Particle Motion Visualizations**
 <br/>
-Authors: Bingjie Xu, Shunan Guo, Eunyee Koh, Jane Hoffswell, Ryan Rossi, Fan Du
+Authors: Yiren Ding, Lane Harrison
 
-{% endcomment %}
 
 
 {% comment %}
