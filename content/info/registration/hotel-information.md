@@ -45,7 +45,7 @@ Work, play and discover this vibrant city along the Yarra River. Enjoy waterfron
 **Parking:** AUD $24.00 per exit/per day
 
 ## AC HOTEL
-Connect with Melbourne, Australia like never before at AC Hotel Melbourne Southbank. Design focused, yet welcoming and pet-friendly, our hotel was created for the guest who is intentional in everything they do. Through overthinking every element of your stay in Melbourne Southbank, AC provides everything you need and nothing you don’t. Stay active at our modern AC Fitness Center equipped with free weights and LifeFitness cardio equipment. Relax by our infinity pool while savoring expertly crafted cocktails from Bar de Buceo pool bar. Start your morning in Melbourne with a fresh European breakfast at Sorolla restaurant and wind down with a signature gin and tonic at the chic Bar Triana. AC Hotel Melbourne Southbank is a perfectly precise hotel designed to ensure a precisely perfect stay in Melbourne, Australia.
+Connect with Melbourne, Australia like never before at AC Hotel Melbourne Southbank. Design-focused, yet welcoming and pet-friendly, our hotel was created for the guest who is intentional in everything they do. Through overthinking every element of your stay in Melbourne Southbank, AC provides everything you need and nothing you don’t. Stay active at our modern AC Fitness Center equipped with free weights and LifeFitness cardio equipment. Relax by our infinity pool while savoring expertly crafted cocktails from Bar de Buceo pool bar. Start your morning in Melbourne with a fresh European breakfast at Sorolla restaurant and wind down with a signature gin and tonic at the chic Bar Triana. AC Hotel Melbourne Southbank is a perfectly precise hotel designed to ensure a precisely perfect stay in Melbourne, Australia.
 
 **Room Rate:** from AUD$210 per night
 
@@ -65,6 +65,25 @@ Connect with Melbourne, Australia like never before at AC Hotel Melbourne Southb
 
 **Parking:** Off-site parking at Care Park, 11-31 Montague Street, South Melbourne VIC 3006 (entry via Munro St) for $10 per vehicle
 
+## NOVOTEL MELBOURNE SOUTH WHARF
+
+Novotel Melbourne South Wharf stands proudly in one of Melbourne's oldest locations, the historic South Wharf promenade. In contrast to the maritime docks and cargo sheds, is the contemporary architecture of Melbourne's newest buildings and attractions. The hotel is complemented with direct access to the Melbourne Convention & Exhibition Centre (MCEC), the Southern Hemisphere's largest meeting space.
+
+**Room Rate:** from AUD$275 per night
+
+**Address:** 7 Convention Centre Place, South Wharf, Australia, 3006
+
+**Distance to the Conference Venue:** 650m (8-minute walk)
+
+**Check-in:** 2:00PM, Access prior to 3:00PM: Pre-registration from night before
+
+**Check-out:** 11:00AM
+
+**Full Buffet Breakfast:** The above rates are inclusive of buffet breakfast for one guest. The additional breakfast for the second guest is available at AUD$30 per person.
+
+**Star Rating:** 4.5 stars
+
+**Parking:** AUD $40.00 per 24 hours (unlimited entry and exit)
 
 ## RENDEZVOUS HOTEL MELBOURNE
 Rendezvous Hotel Melbourne is one of Australia’s finest historic hotels. Located on Flinders Street a three-minute walk from Flinders Street Station overlooking the scenic Yarra River, this Melbourne city centre hotel boasts a prime location in the heart of the central business district that’s well suited for both business and leisure.
