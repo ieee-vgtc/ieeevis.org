@@ -1000,7 +1000,7 @@ Authors: Muhammad Usman, Honglu Zhou, Seonghyeon Moon, Xun Zhang, Petros Falouts
 
 <hr/>
 
-*CG&A Papers: Theoretical and Evaluation*<br/>
+*CG&A Papers: Theory and Evaluation*<br/>
 
 **VisVisual: A Toolkit for Teaching and Learning Data Visualization**<br/>
 Authors: Chaoli Wang
