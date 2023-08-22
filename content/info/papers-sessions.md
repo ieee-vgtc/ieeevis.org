@@ -337,7 +337,7 @@ Authors: Ayush Kumar, Xinyu Zhang, Huolin L. Xin, Hanfei Yan, Xiaojing Huang, We
 Authors: Victor A. P. Magri, Peter Lindstrom
 
 **Differentiable Design Galleries: A Differentiable Approach to Explore the Design Space of Transfer Functions**<br/>
-Authors: Bo Pan, Jiaying Lu, Haoxuan Li, Weifeng Chen, Yiyao Wang, Minfeng Zhu, chenhao yu, Wei Chen
+Authors: Bo Pan, Jiaying Lu, Haoxuan Li, Weifeng Chen, Yiyao Wang, Minfeng Zhu, Chenhao Yu, Wei Chen
 
 **Residency Octree: A Hybrid Approach for Scalable Web-Based Multi-Volume Rendering**<br/>
 Authors: Lukas Herzberger, Markus Hadwiger, Robert Krüger, Peter Sorger, Hanspeter Pfister, Eduard Gröller, Johanna Beyer
@@ -883,7 +883,7 @@ Authors: Yiren Ding, Jack Wilburn, Hilson Shrestha, Akim Ndlovu, Kiran Gadhave, 
 Authors: Jane L. Adams, Laura South, Arzu Çöltekin, Alyssa Goodman, Michelle A. Borkin
 
 **Comparing Morse Complexes Using Optimal Transport: An Experimental Study**<br/>
-Authors: Carson Storm, Mingzhe Li, Austin Yang Li, Tom Needham, Bei Wang
+Authors: Mingzhe Li, Carson Storm, Austin Yang Li, Tom Needham, Bei Wang
 <br/>
 
 
