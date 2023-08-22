@@ -182,7 +182,7 @@ Yes. Any presenter at the conference can register using the Speaker Registration
 
 **Q: If I complete a Speaker Registration, do I also need to separately pay content fees?**
 <ul>
-No. There. are no content or author fees related to papers published in IEEE Xplore.
+No. There are no content or author fees related to papers published in IEEE Xplore.
 </ul>
 
 If you have additional clarification questions, please contact <a href="mailto:registration@ieeevis.org"> registration@ieeevis.org</a>
