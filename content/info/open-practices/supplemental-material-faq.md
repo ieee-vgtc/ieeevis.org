@@ -7,7 +7,7 @@ sidebar: call-for-participation
 contact: open_practices@ieeevis.org
 ---
 
-This page presents recommendations around for supplemental materials to should be included with each paper. The inclusion of supplemental materials, like software artifacts, code, experimental stimuli, and data tables, and code for analysis, allows research to be **transparent** and for readers to **scrutinize** the claims in the paper, and in turn make work at VIS (1) reproducible, (2) replicable, and (3) extensible by future researchers. 
+This page presents recommendations for supplemental materials to should be included with each paper. The inclusion of supplemental materials, like software artifacts, code, experimental stimuli, and data tables, and code for analysis, allows research to be **transparent** and for readers to **scrutinize** the claims in the paper, and in turn make work at VIS (1) reproducible, (2) replicable, and (3) extensible by future researchers. 
 
  **Note: these are recommendations only, not requirements.** _Following ANY of them, even if you do not follow them all, can improve the long-term value of your research to the community and the health of our field._
  
