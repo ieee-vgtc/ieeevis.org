@@ -7,9 +7,20 @@ sidebar: call-for-participation
 contact: open_practices@ieeevis.org
 ---
 
-The VIS community needs to take additional steps to help ensure that research presented at VIS is (1) reproducible, (2) replicable, and (3) extensible by future researchers. As such, the Open Practices Committee for IEEE VIS 2022 has provided [several recommendations](open-practices#recommendation-22upload-supplemental-material-to-a-free-open-and-long-term-archive) for supplemental materials that should be included with each paper and where to upload them.
+This page presents recommendations around for supplemental materials to should be included with each paper. The inclusion of supplemental materials, like software artifacts, code, experimental stimuli, and data tables, and code for analysis, allows research to be **transparent** and for readers to **scrutinize** the claims in the paper, and in turn make work at VIS (1) reproducible, (2) replicable, and (3) extensible by future researchers. 
 
  **Note: these are recommendations only, not requirements.** _Following ANY of them, even if you do not follow them all, can improve the long-term value of your research to the community and the health of our field._
+ 
+To provide some background on this initiative, the [2016 IEEE Workshop on the Future of Research Curation and Research Reproducibility](https://www.ieee.org/content/dam/ieee-org/ieee/web/org/ieee_reproducibility_workshop_report_final.pdf), at which IEEE employees were heavily represented, determined that:
+
+1. encouraging reproducibility and better curation of supplemental materials will lead to faster and more efficient science and 
+2. better curation can lead to faster commercialization and innovation.
+
+The workshop's report recommended that  research communities encourage reproducible content and set standards for it. The report argued:
+
+* Research artifacts should be storable, discoverable, and citable to be reused and so their creation is incentivized.
+* Code must be supplemented by documentation sufficient to run it (e.g,. recreate runtime environments, virtual environments).
+* Data must be supplemented by a description of how it was produced and how to interpret it.
 
 This page provides additional details and background for each of those recommendations. In particular, it answers the following questions:
 
@@ -40,7 +51,7 @@ Based on these criteria, and for the sake of simplicity and consistency across V
 
 ## What supplemental material should I share?
 
-We recommend that you share all supplemental materials required to reproduce the results in the paper. For example:
+We recommend that you share all supplemental materials required to allow readers to scrutinize and interrogate the work. For many types of contributions to VIS, full scrutiny entails being able to reproduce all of the claims of the paper. The type of work conducted as part of each paper will naturally determine what sort of material is relevant for these goals. For example:
 
 * Datasets used for usage scenarios, case studies, demonstrations, and benchmarks.
 * The code to load and visualize or otherwise use that data.
@@ -53,6 +64,10 @@ We recommend that you share all supplemental materials required to reproduce the
 * Code for analyzing the raw experimental data.
 * Any analysis results.
 * Figure-generation code for any data figures. We also suggest including source files for any manual touch-ups (e.g. Inkscape, Illustrator, Gimp, Photoshop).
+
+In some cases, it is infeasible or unethical to share all the data that was part of a submission (for instance, if the authors collected sensitive or proprietary data from vulnerable populations). In this case, the authors should disclose their rationale, and do their best to balance the goal of research transparency with their ethical or professional commitments.
+
+In other cases, such as work that is largely qualitative or interpretative in nature, notions of reproducibility and transparency may be more complex. In these cases, authors can still strive for rigor and transparency by including as much information as possible to allow the re-use or re-interpretation of their work by others.
 
 ## What documentation should I include?
 
