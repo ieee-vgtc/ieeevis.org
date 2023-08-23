@@ -64,23 +64,8 @@ _Note: each of these recommendations on the checklist are just that—recommenda
    2. A free, reliable, and long-term archive—e.g. [OSF.io](https://osf.io/).
 
    Examples of what materials we recommend including and how are described in the [supplemental material FAQ](supplemental-material-faq#what-supplemental-material-should-i-share).
-2. Include sufficient documentation so that your work can be easily used or extended by future researchers and practitioners.
+2. Include sufficient documentation so that your work can be easily used, scrutinized, or extended by future researchers and practitioners.
 3. Release supplemental materials under a license that permits re-use by future researchers and practitioners—e.g. [Apache License 2.0](https://opensource.org/licenses/Apache-2.0) for code and [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for other materials.
-
-**More details:**
-
-The VIS community needs to take additional steps to help ensure that research presented at VIS is (1) reproducible, (2) replicable, and (3) extensible by future researchers. As such, the Open Practices Committee for IEEE VIS 2022 has provided these recommendations for supplemental materials that should be included with each paper.
-
-To provide some background on this initiative, the [2016 IEEE Workshop on the Future of Research Curation and Research Reproducibility](https://www.ieee.org/content/dam/ieee-org/ieee/web/org/ieee_reproducibility_workshop_report_final.pdf), at which IEEE employees were heavily represented, determined that:
-
-1. encouraging reproducibility and better curation of supplemental materials will lead to faster and more efficient science and 
-2. better curation can lead to faster commercialization and innovation.
-
-The workshop's report recommended that  research communities encourage reproducible content and set standards for it. The report argued:
-
-* Research artifacts should be storable, discoverable, and citable to be reused and so their creation is incentivized.
-* Code must be supplemented by documentation sufficient to run it (e.g,. recreate runtime environments, virtual environments).
-* Data must be supplemented by a description of how it was produced and how to interpret it.
 
 Please see also the [supplemental material FAQ](supplemental-material-faq), in which we answer the following questions:
 
