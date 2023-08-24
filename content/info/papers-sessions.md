@@ -117,7 +117,7 @@ Authors: Francesca Morini, Johanna Hartmann, Anna Eschenbacher, Marian Dörk
 **Towards Visualization Thumbnail Designs that Entice Reading Data-driven Articles**<br/>
 Authors: Hwiyeon Kim, Joohee Kim, Yunha Han, Hwajung Hong, Oh-Sang Kwon, Young-Woo Park, Niklas Elmqvist, Sungahn Ko, Bum Chul Kwon
 
-**Embellishments Revisited: Perceptions of Embellished Visualisations Through the Viewer’s Lens**<br/>
+**Embellishments Revisited: Perceptions of Embellished Visualisations Through the Viewer's Lens**<br/>
 Authors: Muna Alebri, Enrico Costanza, Georgia Panagiotidou, Duncan P Brumby
 
 **Enthusiastic and Grounded, Avoidant and Cautious: Understanding Public Receptivity to Data and Visualizations**<br/>
@@ -756,7 +756,7 @@ Authors: Gustavo Moreira, Maryam Hosseini, Md Nafiul Alam Nipu, Marcos Lage, Niv
 
 *Grammars*<br/>
 
-**Visual Analytics for Understanding Draco’s Knowledge Base**<br/>
+**Visual Analytics for Understanding Draco's Knowledge Base**<br/>
 Authors: Johanna Schmidt, Bernhard Pointner, Silvia Miksch
 
 **DIVI: Dynamically Interactive Visualization**<br/>
@@ -825,7 +825,7 @@ Authors: Hyeon Jeon, Aeri Cho, Jinhwa Jang, Soohyun Lee, Jake Hyun, Hyung-Kwon K
 **TimePool: Visually Answer "Which and When" Questions On Univariate Time Series**<br/>
 Authors: Tinghao Feng, Yueqi Hu, Jing Yang, Tom Polk, Ye Zhao, Shixia Liu, Zhaocong Yang
 
-**'Two Heads are Better than One'': Pair-Interviews for Visualization**<br/>
+**"Two Heads are Better than One": Pair-Interviews for Visualization**<br/>
 Authors: derya akbaba, Miriah Meyer
 <br/>
 
@@ -834,7 +834,7 @@ Authors: derya akbaba, Miriah Meyer
 
 *VIS Short Papers: Applications / Design*<br/>
 
-**Taken By Surprise? Evaluating how Bayesian Surprise & Suppression Influences Peoples’ Takeaways in Map Visualizations**<br/>
+**Taken By Surprise? Evaluating how Bayesian Surprise & Suppression Influences Peoples' Takeaways in Map Visualizations**<br/>
 Authors: Akim Ndlovu, Hilson Shrestha, Lane Harrison
 
 **Towards Autocomplete Strategies for Visualization Construction**<br/>
