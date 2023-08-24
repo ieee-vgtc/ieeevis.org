@@ -591,7 +591,7 @@ Authors: Suphanut Jamonnak, Jiajing Guo, Wenbin He, Liang Gou, Liu Ren
 **VisRecall: Quantifying Information Visualisation Recallability via Question Answering**<br/>
 Authors: Yao Wang, Chuhan Jiao, Mihai Bâce, Andreas Bulling
 
-**A Computational Design Process to Fabricate Sensing Network Physicalizations**<br/>
+**A Computational Design Pipeline to Fabricate Sensing Network Physicalizations**<br/>
 Authors: S. Sandra Bae, Takanori Fujiwara, Anders Ynnerman, Ellen Yi-Luen Do, Michael L Rivera, Danielle Albers Szafir
 
 **Designing for Ambiguity in Visual Analytics: Lessons from Risk Assessment and Prediction**<br/>
