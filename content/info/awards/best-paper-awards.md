@@ -110,7 +110,7 @@ Authors: Carolina Veiga Ferreira de Souza, Suzanna Maria Bonnet, Daniel de Olive
 
 ## Short Papers
 
-The Best Papers Committee for VIS 2023 short papers consists of three distinguished members: XXX. The Short Papers Chairs would like to thank the Best Papers Committee for their work and to congratulate the awardees!
+The Best Papers Committee for VIS 2023 short papers consists of three distinguished members: Daniel Archambault, Jian Chen, and Nathalie Riche. The Short Papers Chairs would like to thank the Best Papers Committee for their work and to congratulate the awardees!
 
 ### Best Paper
 
