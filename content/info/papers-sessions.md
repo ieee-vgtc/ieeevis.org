@@ -1000,7 +1000,7 @@ Authors: Muhammad Usman, Honglu Zhou, Seonghyeon Moon, Xun Zhang, Petros Falouts
 
 <hr/>
 
-*CG&A Papers: Theory and Evaluation*<br/>
+*CG&A Papers: Theory and Evaluation plus ISMAR/IEEEVR*<br/>
 
 **VisVisual: A Toolkit for Teaching and Learning Data Visualization**<br/>
 Authors: Chaoli Wang
@@ -1013,6 +1013,12 @@ Authors: Daniel J. Barajas, Xornam S. Apedoe, David G. Brizan, Alark P. Joshi, S
 
 **Finding Their Data Voice: Practices and Challenges of Dashboard Users**<br/>
 Authors: Melanie Tory, Lyn Bartram, Brittany Fiore-Gartland, Anamaria Crisan
+
+**(ISMAR) Augmented Scale Models: Presenting Multivariate Data Around Physical Scale Models in Augmented Reality**<br/>
+Authors: Kadek Ananta Satriadi, Andrew Cunningham, Bruce H. Thomas, Adam Drogemuller, Antoine Odi, Niki Patel, Cathlyn Aston, Ross T. Smith
+
+**(IEEEVR) Towards an Understanding of Distributed Asymmetric Collaborative Visualization on Problem-solving**<br/>
+Authors Wai Tong, Meng Xia, Kam Kwai Wong, Doug A. Bowman, Ting-Chuen Pong, Huamin Qu, Yalong Yang
 <br/>
 
 
