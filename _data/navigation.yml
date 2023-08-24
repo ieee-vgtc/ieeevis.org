@@ -327,10 +327,6 @@ menu:
                     description: "Visual Analytics in Healthcare"
                     url: "https://visualanalyticshealthcare.org"
                     is_external: true
-                  - text: "VISxAI"
-                    description: "Visualization for AI Explainability"
-                    url: "http://visxai.io/"
-                    is_external: true
                   - text: "VIS4DH"
                     description: "Visualization for the Digital Humanities"
                     url: "https://vis4dh.dbvis.de/"
@@ -345,8 +341,12 @@ menu:
                   url: "http://vislies.org"
                   is_external: true
                 - text: "Early Career and Friends Happy Hour"
-                  url: "/year/2023/info/meetups#vis-earlycareer"
                   description: "Meet and mingle with early career attendees"
+                  url: "/year/2023/info/meetups#vis-earlycareer"
+                #- text: "VISxAI"
+                #  description: "Visualization for AI Explainability"
+                #  url: "http://visxai.io/"
+                #  is_external: true
       - subsections:
           - heading: "Community"
             heading_url: "/year/2023/info/call-participation/community"
