@@ -7,7 +7,7 @@ sidebar: call-for-participation
 contact: open_practices@ieeevis.org
 ---
 
-This page presents recommendations for supplemental materials to should be included with each paper. The inclusion of supplemental materials, like software artifacts, code, experimental stimuli, and data tables, and code for analysis, allows research to be **transparent** and for readers to **scrutinize** the claims in the paper, and in turn make work at VIS (1) reproducible, (2) replicable, and (3) extensible by future researchers. 
+This page presents recommendations for supplemental materials to be included with each paper. The inclusion of supplemental materials, like software artifacts, code, experimental stimuli, and data tables, and code for analysis, allows research to be **transparent** and for readers to **scrutinize** the claims in the paper, and in turn make work at VIS (1) reproducible, (2) replicable, and/or (3) extensible by future researchers. 
 
  **Note: these are recommendations only, not requirements.** _Following ANY of them, even if you do not follow them all, can improve the long-term value of your research to the community and the health of our field._
  
@@ -51,19 +51,20 @@ Based on these criteria, and for the sake of simplicity and consistency across V
 
 ## What supplemental material should I share?
 
-We recommend that you share all supplemental materials required to allow readers to scrutinize and interrogate the work. For many types of contributions to VIS, full scrutiny entails being able to reproduce all of the claims of the paper. The type of work conducted as part of each paper will naturally determine what sort of material is relevant for these goals. For example:
+We recommend that you share all supplemental materials required to allow readers to scrutinize and interrogate the work. For many types of contributions to VIS, full scrutiny entails being able to reproduce all of the claims of the paper. The type of work conducted as part of each paper will naturally determine what sort of material is relevant for these goals. The following are examples of material that can or has been included along with VIS papers, but is by no means an exhaustive list:
 
-* Datasets used for usage scenarios, case studies, demonstrations, and benchmarks.
-* The code to load and visualize or otherwise use that data.
-* The code for any presented technique, device, or system, if an implementation exists.
-* Building files or 3D models of any physical artifacts.
-* All stimuli used in user studies or representative examples of them.
-* Code for executing an experiment, benchmark, or user study.
-* Codebooks used for analyzing the activities of human subjects.
-* The resulting raw data from experiments, benchmarks, or user studies. Include de-identified transcripts, if ethical and feasible.
-* Code for analyzing the raw experimental data.
-* Any analysis results.
-* Figure-generation code for any data figures. We also suggest including source files for any manual touch-ups (e.g. Inkscape, Illustrator, Gimp, Photoshop).
+* Datasets used for usage scenarios, case studies, demonstrations, and benchmarks
+* The code to load and visualize or otherwise use that data
+* The code for any presented technique, device, or system, if an implementation exists
+* Building files, 3D models, or other specifications for any physical artifacts
+* All stimuli used in user studies or representative examples of them
+* Code for executing an experiment, benchmark, or user study
+* Code for analyzing the raw experimental data and any analysis results
+* Figure-generation code for any data figures. We also suggest including source files for any manual touch-ups (e.g. Inkscape, Illustrator, Gimp, Photoshop)
+* Interview scripts, anonymized or de-idenitified transcripts, and qualitative codebooks
+* Sketches, prototypes, or other artifacts from the design process
+* Research diaries, mind maps, affinity diagrams, or reflective memos
+* Notes or other records from participatory workshops or co-design sessions
 
 In some cases, it is infeasible or unethical to share all the data that was part of a submission (for instance, if the authors collected sensitive or proprietary data from vulnerable populations). In this case, the authors should disclose their rationale, and do their best to balance the goal of research transparency with their ethical or professional commitments.
 
