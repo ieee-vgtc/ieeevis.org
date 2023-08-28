@@ -9,7 +9,8 @@ contact: meetups@ieeevis.org
 
 * [VisLies! Meetup](#vis-lies) 
 * [Early Career Meetup](#vis-earlycareer)
-
+* [Meet VISxAI Meetup](#visxAI)
+* [Publishing Registered Reports, Interactive Articles, and Open Science at JoVI Meetup](#JoVI)
 
 
 
@@ -37,6 +38,29 @@ kristi.potter@nrel.gov <br>
 
 
 Join us for a meet and mingle with those finding themselves as, or who have ever been, early career faculty, researchers, and practitioners! The meetup is a place to meet or reunite with colleagues and friends who are interested in making this a supportive community for visualization professionals who are closer to their graduation than retirement.  The goal of this meetup is to provide a safe environment to gather and discuss challenges faced in and out of the work environment.  Attendees will have the opportunity to hear about current efforts in this space, participate in peer mentoring, and build a social network that will continue to support beyond the conference.
+
+## <a name="visxAI"></a>Meet VISxAI
+
+<!-- Tuesday 18 October 2022<br>
+12:30-14:00pm CDT<br>
+Room: Oklahoma Station 1<br> -->
+Organizers: Mennatallah El-Assady <br>
+Contact: <br>
+orga@visxai.io <br>
+
+VISxAI is a workshop at the intersection of visualization and artificial intelligence centered around interactive explainables. While the workshop was held online before VIS this year, this meetup gives us a platform to explore and discuss this year’s submissions together at VIS.
+
+
+## <a name="JoVI"></a>Publishing Registered Reports, Interactive Articles, and Open Science at JoVI
+
+<!-- Tuesday 18 October 2022<br>
+12:30-14:00pm CDT<br>
+Room: Oklahoma Station 1<br> -->
+Organizers: Matthew Kay <br>
+Contact: <br>
+mjskay@northwestern.edu <br>
+
+The [Journal of Visualization and Interaction (JoVI)](https://www.journalovi.org) is a venue for publishing scholarly work related to the fields of visualization and human-computer interaction. JoVI is a diamond open-access venue, i.e. a purely volunteer-driven effort that charges neither author nor subscription fees. This meetup introduces JoVI, its publication processes, and the motivations for its inception. We will discuss some of the unique aspects and challenges of JoVI within the visualization field, including: publishing registered reports, publishing interactive articles (and how to archive them long term), open review processes (and challenges with blind review), and how to have transparency/reproducibility in the context of software packages.
 
 
 <!-- ## <a name="vis-diversity"></a> Diversity Scholar Meetup 
