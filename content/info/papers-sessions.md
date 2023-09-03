@@ -6,7 +6,7 @@ permalink: /info/papers-sessions
 contact: papers@ieeevis.org
 ---
 
-Below we list all accepted VIS Full and Short papers, grouped by session.  This list also includes TVCG papers presented in VIS sessions and CG&A Sessions.  Times, room locations, and session chairs will be announced shortly and more details about the papers and their associated presentations will be released with the VIS Online Content Website.
+Below we list all accepted VIS Full and Short papers, grouped by session.  This list also includes TVCG papers presented in VIS sessions and CG&A Sessions.  More details about papers and their associated presentations will be released with the virtual website. What follows is a list of papers groups by session, note that sessions and times are still preliminary and might change in the final program.
 
 <hr/>
 
