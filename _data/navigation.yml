@@ -343,10 +343,10 @@ menu:
                 - text: "Early Career and Friends Happy Hour"
                   description: "Meet and mingle with early career attendees"
                   url: "/year/2023/info/meetups#vis-earlycareer"
-                #- text: "VISxAI"
-                #  description: "Visualization for AI Explainability"
-                #  url: "http://visxai.io/"
-                #  is_external: true
+                - text: "VISxAI"
+                  description: "Visualization for AI Explainability"
+                  url: "http://visxai.io/"
+                  is_external: true
       - subsections:
           - heading: "Community"
             heading_url: "/year/2023/info/call-participation/community"
