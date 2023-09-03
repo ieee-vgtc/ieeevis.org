@@ -5,6 +5,9 @@ permalink: /info/workshops
 contact: workshops@ieeevis.org
 ---
 
+## Attendance
+At least one author for each paper must register and attend the conference in person. If you have exceptional circumstances and none of the authors can attend in person please contact the conference committee as soon as possible at [info@ieeevis.org](mailto:info@ieeevis.org).
+
 ## Pre-Approved Workshops
 These workshops were pre-approved by the VIS Executive Committee. Please visit their individual websites for details on the topics and submission deadlines. 
 
