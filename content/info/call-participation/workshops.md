@@ -17,6 +17,9 @@ We solicit workshops related to all areas of visualization. They provide an info
 
 All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth) (new for 2023)**.
 
+## Attendance
+At least one author for each paper must register and attend the conference in person. If you have exceptional circumstances and none of the authors can attend in person please contact the conference committee as soon as possible at [info@ieeevis.org](mailto:info@ieeevis.org).
+
 ## Workshops should:
 
 * emphasize emerging ideas, concepts, or technologies that are currently too nascent or too interdisciplinary for a full symposium;
