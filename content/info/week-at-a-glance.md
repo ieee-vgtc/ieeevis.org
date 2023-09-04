@@ -103,147 +103,115 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 
 <hr/>
 
-
 <a>**Tuesday, October 24, 2023**</a><br/>
 
-*Main conference program coming soon.*
-<br />
+*8:45 AM-10:30 AM AEDT (UTC+11)*<br/>
 
-<!--
+* Plenary 1: **VIS Welcome** (8:45am-9:00am) 
+* Plenary 1: **VGTC Awards** (9:00am-9:45am) 
+* Plenary 1: **Test of Time Awards** (9:45am-10:30am)
 
-* 8:30 AM-10:15 AM AEDT (UTC+11)*<br/>
-* Oklahoma Station 4+5: **VIS Welcome** (8:30am-8:45am) 
-* Oklahoma Station 4+5: **VGTC Awards** (8:45am-9:30am)
-* Oklahoma Station 4+5: **Test of Time Awards** (9:30am-10:15am)
+*11:00 AM-12:00 PM AEDT (UTC+11)*<br/>
 
-*10:45 AM-12:00 PM AEDT (UTC+11)*<br/>
-* Oklahoma Station 4+5: **VIS Opening** (10:45am-11:03am)
-* Oklahoma Station 4+5: **Best Papers** (11:03am-12:00pm)
+* Plenary 1: **VIS Keynote** (11:00am-12:00pm)
 
-*2:00 PM-3:15 PM AEDT (UTC+11)*<br/>
-* Oklahoma Station 4+5: **Industry Keynote**: Northern Data (2:00pm-2:15pm)
-* Oklahoma Station 4+5: **VIS Keynote**: Dr. Marti Hearst (2:15pm-3:15pm)
+*2:00 PM-3:10 PM AEDT (UTC+11)*<br/>
 
-*3:45 PM-5:00 PM AEDT (UTC+11)*<br/>
-* Oklahoma Station 4+5: **VIS Supporters Forum**
+* Plenary 1: **VIS Opening** (2:00pm-2:20pm)
+* Plenary 1: **ACC Summary** (2:20pm-2:30pm)
+* Plenary 1: **Best Papers 1** (2:30pm-3:10pm) (VIS Full Papers Session)
+
+*3:40 PM-4:30 PM AEDT (UTC+11)*<br/>
+
+* Plenary 1: **Best Papers 2** (3:40pm-4:30pm) -- Includes Best Short Paper (VIS Full Papers Session)
+
+*4:45 PM-6:15 PM AEDT (UTC+11)*<br/>
+
+* Plenary 1: **VIS Poster Session** (4:45pm-6:15pm) -- Includes all Associated Event Posters -- Exhibit Hall Location: Foyer (Plenary Session)
 
 *6:00 PM-8:00 PM AEDT (UTC+11)*<br/>
-* Automobile Alley + Prefunction: **VISAP Opening Reception**
--->
+
+* Plenary 1: **VISAP Opening Reception** (6:00pm-8:00pm) -- Art Exhibit Location: Library at the Docks (Plenary Session)
 <hr/>
 
 <a>**Wednesday, October 25, 2023**</a><br/>
 
-*Main conference program coming soon.*<br />
-
-<!--
-
-*9:00 AM-3:15 PM AEDT (UTC+11)*<br/>
-* Pinon: **VizSec Symposium** (Associated Event)
-
 *9:00 AM-10:15 AM AEDT (UTC+11)*<br/>
-* Oklahoma Station 6+7+8: **Temporal Data** (VIS Full Papers Session)
-* Oklahoma Station 1: **Decision Making and Reasoning** (VIS Full Papers Session)
-* Oklahoma Station 4: **VA and ML** (VIS Full Papers Session)
-* Oklahoma Station 5: **Transforming Tabular Data and Grammars** (VIS Full Papers Session)
-* Mistletoe: **VISAP Session 1** (Associated Event)
+* Room 103: **Image and Video** (VIS Full Papers Session)
+* Room 104: **Perception / Evaluation** (VIS Short Papers Session)
+* Room 105: **Storytelling** (VIS Full Papers Session)
+* Room 106: **High Dimensional Data** (VIS Full Papers Session)
+* Room 109: **VIS for Data Scientists** (VIS Full Papers Session)
 
 *10:45 AM-12:00 PM AEDT (UTC+11)*<br/>
-* Oklahoma Station 4: **VA for ML** (VIS Full Papers Session)
-* Oklahoma Station 5: **Visualization Design** (VIS Full Papers Session)
-* Oklahoma Station 6+7+8: **Understanding and Modeling How People Respond to Visualizations** (VIS Full Papers Session)
-* Oklahoma Station 1: **Visualization Opportunities** (VIS Full Papers Session)
-* Mistletoe: **SIGGRAPH Invited Talks** (Invited Partnership Presentations)
-
-*12:00 PM-1:30 PM AEDT (UTC+11)*<br/>
-* Oklahoma Station 4: **Vis Town Hall**
+* Room 101+102: **What is a Visual Analytics contribution, and how is it changing?** (VIS Panel)
+* Room 103: **VISAP Session 1** (Associated Event)
+* Room 104: **CG&A: Systems, Techniques, and Applications** (Invited Partnership Presentations)
+* Room 105: **Layout Algorithms (Full+Short)** (VIS Full Papers Session)
+* Room 106: **LLMs and Generative Models** (VIS Full Papers Session)
+* Room 109: **Trust and Bias** (VIS Full Papers Session)
 
 *2:00 PM-3:15 PM AEDT (UTC+11)*<br/>
-* Oklahoma Station 4: **Immersive Analytics and Situated Visualization** (VIS Full Papers Session)
-* Oklahoma Station 5: **Questioning Data and Data Bias** (VIS Full Papers Session)
-* Oklahoma Station 1: **Visualization Systems and Graph Visualization** (VIS Short Papers Session)
-* Oklahoma Station 6+7+8: **(Volume) Rendering** (VIS Full Papers Session)
-* Mistletoe: **Application Papers: How should we deal with them?** (Application Spotlight)
+* Room 103: **Dashboards & Multiple Views** (VIS Full Papers Session)
+* Room 104: **Scientific Visualization (Short)** (VIS Short Papers Session)
+* Room 105: **Grammars** (VIS Full Papers Session)
+* Room 106: **Immersive Analytics and Virtual Reality** (VIS Full Papers Session)
+* Room 109: **Visualization for Humanities and Social Sciences (Full+Short)** (VIS Full Papers Session)
 
 *3:45 PM-5:00 PM AEDT (UTC+11)*<br/>
-* Oklahoma Station 1: **DNA/Genome and Molecular Data/Vis** (VIS Full Papers Session)
-* Oklahoma Station 5: **Uncertainty** (VIS Full Papers Session)
-* Mistletoe: **CG&A: Visualization in Industry** (Invited Partnership Presentations)
-* Oklahoma Station 6+7+8: **Dealing with Scale, Space, and Dimension** (VIS Full Papers Session)
-* Pinon: **Grand Challenges in Visual Analytic Systems** (VIS Panel)
-* Oklahoma Station 4: **Visual Analytics, Decision Support, and Machine Learning** (VIS Short Papers Session)
+* Room 101+102: **Establishing and Thriving in an Academic Career** (VIS Panel)
+* Room 104: **CoVID-19 / Bioinformatics / Visual Analytics** (VIS Short Papers Session)
+* Room 105: **Graph Visualization** (VIS Full Papers Session)
+* Room 106: **Education and Assessment** (VIS Full Papers Session)
+* Room 109: **VIS for ML** (VIS Full Papers Session)
 
-*5:30 PM-6:45 PM AEDT (UTC+11)*<br/>
-* Oklahoma Station 2+3: **VIS Combined Poster Session** 
-
-*6:45 PM-9:30 PM AEDT (UTC+11)*<br/>
-* Off site: **VIS Banquet at First American's Museum** (shuttles depart 6:30pm)
--->
+*6:00 PM-10:00 PM AEDT (UTC+11)*<br/>
+* Plenary 1: **VIS Banquet** (6:00pm-10:00pm) -- Location: Melbourne Planetarium -- Shows at 6, 6:45, and 7:30pm -- Transport on your own / via myki (Plenary Session)
 <hr/>
 
 <a>**Thursday, October 26, 2023**</a><br/>
 
-*Main conference program coming soon.*<br />
-
-<!--
-
 *9:00 AM-10:15 AM AEDT (UTC+11)*<br/>
-* Oklahoma Station 4: **ML for VIS** (VIS Full Papers Session)
-* Oklahoma Station 5: **Interactive Dimensionality (High Dimensional Data)** (VIS Full Papers Session)
-* Oklahoma Station 1: **Personal Visualization, Theory, Evaluation, and eXtended Reality** (VIS Short Papers Session)
-* Oklahoma Station 6+7+8: **Neuro/Brain/Medical Data** (VIS Full Papers Session)
-* Mistletoe: **VISAP Session 2** (Associated Event)
-* Pinon: **SciVis Contest** (Associated Event)
+* Room 103: **Visualization for the Physical Sciences** (VIS Full Papers Session)
+* Room 104: **Clustering & Scatterplots** (VIS Full Papers Session)
+* Room 105: **Color and Accessibility** (VIS Full Papers Session)
+* Room 106: **Sports and Spatial Management** (VIS Full Papers Session)
+* Room 109: **Natural Language** (VIS Full Papers Session)
 
 *10:45 AM-12:00 PM AEDT (UTC+11)*<br/>
-* Oklahoma Station 5: **Graphs and Networks** (VIS Full Papers Session)
-* Oklahoma Station 1: **Digital Humanities, e-Commerce, and Engineering** (VIS Full Papers Session)
-* Oklahoma Station 6+7+8: **Sports Vis** (VIS Full Papers Session)
-* Oklahoma Station 4: **Interpreting Machine Learning** (VIS Full Papers Session)
-* Pinon: **Merits and Limits of User Study Preregistration** (VIS Panel)
-* Mistletoe: **Audio-Visual Analytics: Potential Applications of Combined Sonifications and Visualizations** (Application Spotlight)
-
-*12:00 PM-12:30 PM AEDT (UTC+11)*<br/>
-* Oklahoma Station 4: **VIS23 OC Kickoff**
+* Room 101+102: **Visualization for spatial single-cell atlases** (Application Spotlight)
+* Room 103: **VISAP Session 2** (Associated Event)
+* Room 104: **Applications / Design** (VIS Short Papers Session)
+* Room 105: **Visualization Design and User Experience** (VIS Full Papers Session)
+* Room 106: **Machine Learning for Volume Visualization** (VIS Full Papers Session)
+* Room 109: **Evaluation** (VIS Full Papers Session)
 
 *2:00 PM-3:15 PM AEDT (UTC+11)*<br/>
-* Oklahoma Station 5: **Reflecting on Academia and our Field** (VIS Full Papers Session)
-* Oklahoma Station 4: **Storytelling** (VIS Full Papers Session)
-* Oklahoma Station 1: **Scientific Visualization, Ensembles, and Accessibility** (VIS Short Papers Session)
-* Oklahoma Station 6+7+8: **CG&A: Visualization Teaching and Literacy** (Invited Partnership Presentations)
-* Mistletoe: **VR Invited Talks** (Invited Partnership Presentations)
+* Room 103: **CG&A: Theory and Evaluation plus ISMAR/VR** (Invited Partnership Presentations)
+* Room 104: **Information Visualization / Interaction** (VIS Short Papers Session)
+* Room 105: **Perception** (VIS Full Papers Session)
+* Room 106: **Topology and Morse Theory** (VIS Full Papers Session)
+* Room 109: **ML for VIS** (VIS Full Papers Session)
 
 *3:45 PM-5:00 PM AEDT (UTC+11)*<br/>
-* Oklahoma Station 4: **Text, Language, and Image Data** (VIS Full Papers Session)
-* Mistletoe: **Infrastructure Management** (VIS Full Papers Session)
-* Oklahoma Station 6+7+8: **CG&A: Visualization Teaching and Literacy (cont.) and Machine Learning for Visualization** (Invited Partnership Presentations)
-* Oklahoma Station 1: **Provenance and Guidance** (VIS Full Papers Session)
-* Oklahoma Station 5: **Topology** (VIS Full Papers Session)
-
-*6:00 PM-8:30 PM AEDT (UTC+11)*<br/>
-* Off site: **OU Open House** (shuttles depart 5:45pm)
--->
+* Room 101+102: **How should VIS4ML Redefine Itself in the Rapid Evolution of AI?** (VIS Panel)
+* Room 104: **Time Series Data** (VIS Full Papers Session)
+* Room 105: **Medical and Biomedical Applications** (VIS Full Papers Session)
+* Room 106: **Topology Applications** (VIS Full Papers Session)
+* Room 109: **Situated Analytics and Augmented Reality (Full+Short)** (VIS Full Papers Session)
 <hr/>
 
 <a>**Friday, October 27, 2023**</a><br/>
 
-*Main conference program coming soon.*<br />
-
-<!--
-
 *9:00 AM-10:15 AM AEDT (UTC+11)*<br/>
-* Oklahoma Station 4: **Natural Language Interaction** (VIS Full Papers Session)
-* Oklahoma Station 5: **Visual Analytics of Health Data** (VIS Full Papers Session)
-* Oklahoma Station 1: **Comparisons** (VIS Full Papers Session)
-* Pinon: **Is This (Panel) Good Enough for IEEE VIS?** (VIS Panel)
-* Oklahoma Station 6+7+8: **Spatial Data** (VIS Full Papers Session)
-* Mistletoe: **Data Analysis Methods for Climate Modeling of Extreme Weather Events** (Application Spotlight)
+* Room 103: **Scientific Visualization** (VIS Full Papers Session)
+* Room 104: **Machine Learning / Language Models / Theory** (VIS Short Papers Session)
+* Room 105: **GeoVis** (VIS Full Papers Session)
+* Room 109: **Journalism & the Public** (VIS Full Papers Session)
 
 *10:45 AM-12:00 PM AEDT (UTC+11)*<br/>
-* Oklahoma Station 4+5: **VIS Capstone**: Dr. Kerry Magruder (10:45am-11:45am)
-* Oklahoma Station 4+5: **VIS Closing** (11:45am-12:00pm)
--->
-
+* Room 105: **VIS Capstone** (10:45am-11:45am) (Plenary Session)
+* Room 105: **VIS Closing** (11:45am-12:00pm) (Plenary Session)
 
 ### Program Co-Chairs
 
