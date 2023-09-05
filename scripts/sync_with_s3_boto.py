@@ -45,31 +45,6 @@ def put_objects(objs):
                                                                      repr(mime_type)))
         bucket.put_object(Key=obj, Body=f, ContentType=mime_type,
                           Metadata={ "git_sha": branch_sha })
-def invalidate_cache(bucket):
-    # Create a CloudFront client
-    client = boto3.client('cloudfront')
-    # List all CloudFront distributions
-    print("invaldiate cache of bucket %s", bucket)
-    distributions = client.list_distributions()
-    # Iterate through distributions and find the one with a matching domain name
-    distribution_id = ''
-    for distribution in distributions['DistributionList']['Items']:
-        if 'Aliases' in distribution['Aliases'] and bucket in distribution['Aliases']['Items']:
-            print(f"CloudFront Distribution ID: {distribution['Id']}")
-            distribution_id = distribution['Id']
-    paths_to_invalidate = ["/index.html"]
-    print(distribution_id)
-    # Create the cache invalidation request
-    invalidation = client.create_invalidation(
-        DistributionId=distribution_id,
-        InvalidationBatch={
-            'Paths': {
-                'Quantity': len(paths_to_invalidate),
-                'Items': paths_to_invalidate
-            },
-            'CallerReference': 'test-cache-invalidation-string-1'  # Provide a unique reference string
-        }
-    )
 
 def run_cmd_get_lines(*cmd):
     # return subprocess.check_output(list(cmd)).split('\n')
@@ -154,8 +129,6 @@ print("Uploading %s files:" % len(files_to_upload))
 for o in files_to_upload:
     print("  %s" % o)
 put_objects(files_to_upload)
-
-invalidate_cache(bucket)
 
 files_to_remove = diff['to_delete']
 print("Removing %s files:" % len(files_to_remove))
