@@ -14,7 +14,7 @@ Below we list all accepted VIS Full and Short papers, grouped by session.  This 
 **02:30-03:10PM AEDT (UTC+11)**<br/>
 **Room: Plenary 1**<br/>
 *Best Papers 1* ([more info about the awards](awards/best-paper-awards))<br/>
-*Session Chair: TBD*
+*Session Chair: Michael Wybrow*
 
 **Affective Visualization Design: Leveraging the Emotional Impact of Data**<br/>
 Authors: Xingyu Lan, Yanqiu Wu, Nan Cao
@@ -1174,7 +1174,7 @@ Authors: Gustavo Moreira, Maryam Hosseini, Md Nafiul Alam Nipu, Marcos Lage, Niv
 **09:00-10:15AM AEDT (UTC+11)**<br/>
 **Room: Room 109**<br/>
 *Journalism & the Public*<br/>
-*Session Chair: Narges Mahyar*
+*Session Chair: TBD*
 
 **From shock to shift: Data visualization for constructive climate journalism**<br/>
 Authors: Francesca Morini, Johanna Hartmann, Anna Eschenbacher, Marian Dörk
