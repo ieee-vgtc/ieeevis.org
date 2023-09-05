@@ -1174,7 +1174,7 @@ Authors: Gustavo Moreira, Maryam Hosseini, Md Nafiul Alam Nipu, Marcos Lage, Niv
 **09:00-10:15AM AEDT (UTC+11)**<br/>
 **Room: Room 109**<br/>
 *Journalism & the Public*<br/>
-*Session Chair: TBD*
+*Session Chair: Xavier Ho*
 
 **From shock to shift: Data visualization for constructive climate journalism**<br/>
 Authors: Francesca Morini, Johanna Hartmann, Anna Eschenbacher, Marian Dörk
