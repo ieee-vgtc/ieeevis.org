@@ -14,7 +14,7 @@ Below we list all accepted VIS Full and Short papers, grouped by session.  This 
 **02:30-03:10PM AEDT (UTC+11)**<br/>
 **Room: Plenary 1**<br/>
 *Best Papers 1* ([more info about the awards](awards/best-paper-awards))<br/>
-*Session Chair: TBD*
+*Session Chair: Michael Wybrow*
 
 **Affective Visualization Design: Leveraging the Emotional Impact of Data**<br/>
 Authors: Xingyu Lan, Yanqiu Wu, Nan Cao
