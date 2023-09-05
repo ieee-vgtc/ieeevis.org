@@ -151,6 +151,9 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 * Room 106: **LLMs and Generative Models** (VIS Full Papers Session)
 * Room 109: **Trust and Bias** (VIS Full Papers Session)
 
+*12:00 PM-1:30 PM AEDT (UTC+11)*<br/>
+* Room 105: **VIS Town Hall** 
+
 *2:00 PM-3:15 PM AEDT (UTC+11)*<br/>
 * Room 103: **Dashboards & Multiple Views** (VIS Full Papers Session)
 * Room 104: **Scientific Visualization (Short)** (VIS Short Papers Session)
@@ -210,8 +213,8 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 * Room 109: **Journalism & the Public** (VIS Full Papers Session)
 
 *10:45 AM-12:00 PM AEDT (UTC+11)*<br/>
-* Room 105: **VIS Capstone** (10:45am-11:45am) (Plenary Session)
-* Room 105: **VIS Closing** (11:45am-12:00pm) (Plenary Session)
+* Room 105+106: **VIS Capstone** (10:45am-11:45am) (Plenary Session)
+* Room 105+106: **VIS Closing** (11:45am-12:00pm) (Plenary Session)
 
 ### Program Co-Chairs
 
