@@ -254,7 +254,7 @@ Authors: Myeongwon Jung, Jiwon Choi, Jaemin Jo
 **10:45-12:00PM AEDT (UTC+11)**<br/>
 **Room: Room 106**<br/>
 *LLMs and Generative Models*<br/>
-*Session Chair: Vidya Setlyr*
+*Session Chair: Vidya Setlur*
 
 **AttentionViz: A Global View of Transformer Attention**<br/>
 Authors: Catherine Yeh, Yida Chen, Aoyu Wu, Cynthia Chen, Fernanda Viegas, Martin Wattenberg
