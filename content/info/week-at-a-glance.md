@@ -59,47 +59,49 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 <a>**Sunday, October 22, 2023**</a><br/>
 
 *9:00 AM-12:00 PM AEDT (UTC+11)*<br/>
-**Visualization Analysis and Design** (Tutorial)  
-**A Hands-on TTK Tutorial for Absolute Beginners** (Tutorial)  
-**Visualization for Pandemic and Emergency Responses Workshop (Vis4PandEmRes)** (Workshop)  
-**MERCADO: Multimodal Experiences for Remote Communication Around Data Online** (Workshop)  
-**EnergyVis 2023: 3rd Workshop on Energy Data Visualization** (Workshop)  
-**NLP4Vis: Natural Language Processing for Information Visualization** (Tutorial)  
-**VAST Challenge** (Contest)  
+* Room 101-102: **Visualization Analysis and Design** (Tutorial)  
+* Room 103: **EnergyVis 2023: 3rd Workshop on Energy Data Visualization** (Workshop)  
+* Room 104: **Visualization for Pandemic and Emergency Responses Workshop (Vis4PandEmRes)** (Workshop)  
+* Room 105: **MERCADO: Multimodal Experiences for Remote Communication Around Data Online** (Workshop)  
+* Room 106: **A Hands-on TTK Tutorial for Absolute Beginners** (Tutorial)  
+* Room 110: **NLP4Vis: Natural Language Processing for Information Visualization** (Tutorial)  
+* Room 111-112: **VAST Challenge** (Contest)  
 
 *2:00 PM-5:00 PM AEDT (UTC+11)*<br/>
 
-**VizSec** (Associated Event)  
-**TopoInVis: Topological Data Analysis and Visualization** (Workshop)  
-**VAHC: 14th Workshop on Visual Analytics in Healthcare** (Workshop)  
-**Sixth Workshop on Visualization for Communication (VisComm)** (Workshop)  
-**5th Workshop on Urban Data Visualization (CityVis)** (Workshop)  
-**NLVIZ Workshop: Exploring Research Opportunities for Natural Language, Text, and Data Visualization** (Workshop)  
-**Demystifying Color in Your Data Visualizations** (Tutorial)  
+* Room 101-102: **VizSec** (Associated Event)  
+* Room 103: **5th Workshop on Urban Data Visualization (CityVis)** (Workshop)  
+* Room 104: **VAHC: 14th Workshop on Visual Analytics in Healthcare** (Workshop)  
+* Room 105: **Sixth Workshop on Visualization for Communication (VisComm)** (Workshop)  
+* Room 106: **TopoInVis: Topological Data Analysis and Visualization** (Workshop)  
+* Room 110: **NLVIZ Workshop: Exploring Research Opportunities for Natural Language, Text, and Data Visualization** (Workshop)  
+* Room 111-112: **Demystifying Color in Your Data Visualizations** (Tutorial)  
+
 
 <hr/>
 
 <a>**Monday, October 23, 2023**</a><br/>
 
 *9:00 AM-12:00 PM AEDT (UTC+11)*<br/>
-**Visualization for Social Good** (Workshop)  
-**Mining Useful Information Via Complex Network Visualization** (Tutorial)  
-**EduVis: Workshop on Visualization Education, Literacy, and Activities** (Workshop)  
-**Transparent Practices for Quantitative Empirical Research** (Tutorial)  
-**LDAV: 13th IEEE Symposium on Large Data Analysis and Visualization** (Associated Event)  
-**VisInPractice** (Associated Event)  
-**(Vis + Prov) x Domain: Workshop on Visualization and Provenance Across Domains** (Workshop)  
-**Bio+MedVis Challenges** (Contest)  
+* Room 101-102: **Mining Useful Information Via Complex Network Visualization** (Tutorial)  
+* Room 103: **Transparent Practices for Quantitative Empirical Research** (Tutorial)  
+* Room 104: **EduVis: Workshop on Visualization Education, Literacy, and Activities** (Workshop)  
+* Room 105: **Visualization for Social Good** (Workshop)  
+* Room 106: **LDAV: 13th IEEE Symposium on Large Data Analysis and Visualization** (Associated Event)  
+* Room 109: **VisInPractice** (Associated Event)  
+* Room 110: **(Vis + Prov) x Domain: Workshop on Visualization and Provenance Across Domains** (Workshop)  
+* Room 111-112: **Bio+MedVis Challenges** (Contest)  
+
 
 *2:00 PM-5:00 PM AEDT (UTC+11)*<br/>
 
-**VIS4DH: 8th Workshop on Visualization for the Digital Humanities** (Workshop)  
-**TAURUS: a unified framework for creating graph layouts** (Tutorial)  
-**Design Sprints for Visualization** (Tutorial)  
-**VisxVision: Workshop on Novel Directions in Vision Science and Visualization Research** (Workshop)  
-**VDS: Visualization in Data Science Symposium** (Associated Event)  
-**alt.VIS 2023** (Workshop)  
-**SciVis Contest** (Contest)  
+* Room 101-102: **TAURUS: a unified framework for creating graph layouts** (Tutorial)  
+* Room 104: **Design Sprints for Visualization** (Tutorial)  
+* Room 105: **VIS4DH: 8th Workshop on Visualization for the Digital Humanities** (Workshop)  
+* Room 106: **VDS: Visualization in Data Science Symposium** (Associated Event)  
+* Room 109: **VisxVision: Workshop on Novel Directions in Vision Science and Visualization Research** (Workshop)  
+* Room 110: **alt.VIS 2023** (Workshop)  
+* Room 111-112: **SciVis Contest** (Contest)  
 
 <hr/>
 
