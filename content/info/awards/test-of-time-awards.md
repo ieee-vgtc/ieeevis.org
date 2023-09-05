@@ -21,9 +21,8 @@ This year VAST gave out a 10-year test of time award, InfoVis a 10- and 20-year 
 ## VAST
 **2013 (10-year VAST ToT award):**<br/>
 **Visual Exploration of Big Spatio-Temporal Urban Data: A Study of New York City Taxi Trips**<br/>
-*Sean Kandel, Andreas Paepcke, Joseph M. Hellerstein, Jeffrey Heer*<br/>
+*Nivan Ferreira, Jorge Poco, Huy T. Vo, Juliana Freire, Cláudio T. Silva*<br/>
 DOI: [10.1109/TVCG.2013.226](https://doi.org/10.1109/TVCG.2013.226)
-
   
 This paper is one of the landmark papers in urban data visualization, making several truly impressive contributions, including query language developments and the seamless integration of data querying to handle real-world, large-scale data. Utilizing taxi records from New York City, the authors engage with economists and traffic engineers to demonstrate the power of their framework. With a few case studies, they explore the economic incentives of taxi locations and how traffic patterns impact demand patterns. These contributions have situated this paper as a seminal work in urban analytics, with many citations in visualization, urban planning, and transportation journals, making a clear impact within and outside the VIS community. The impact of this work is also expressed in the tremendous number of citations this paper has received thus far and still receives today.
 
