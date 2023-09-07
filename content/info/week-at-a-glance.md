@@ -171,7 +171,7 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 * Room 109: **VIS for ML** (VIS Full Papers Session)
 
 *6:00 PM-10:00 PM AEDT (UTC+11)*<br/>
-* Plenary 1: **VIS Banquet** (6:00pm-10:00pm) -- Location: Melbourne Planetarium -- Shows at 6, 6:45, and 7:30pm -- Transport on your own / via myki (Plenary Session)
+* Plenary 1: **VIS Banquet** (6:00pm-10:00pm) -- Location: Grazelands and Melbourne Planetarium Screenings -- Shows at 6, 6:45, and 7:30pm -- Transport on your own / via Public Transport Victoria (PTV) using your Myki card (provided at registration) (Plenary Session)
 <hr/>
 
 <a>**Thursday, October 26, 2023**</a><br/>
