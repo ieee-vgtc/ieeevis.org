@@ -428,7 +428,7 @@ Authors: Andrea Batch, Peter William Scott Butcher, Panagiotis D. Ritsos, Niklas
 **02:00-03:15PM AEDT (UTC+11)**<br/>
 **Room: Room 109**<br/>
 *Visualization for Humanities and Social Sciences (Full+Short)*<br/>
-*Session Chair: TBD*
+*Session Chair: Thomas Chandler*
 
 **InnovationInsights: A Visual Analytics Approach for Understanding the Dual Frontiers between Science and Technology**<br/>
 Authors: Yifang Wang, Yifan Qian, Xiaoyu Qi, Nan Cao, Dashun Wang
@@ -1000,7 +1000,7 @@ Authors: Zikun Deng, Shifu Chen, Tobias Schreck, Dazhen Deng, Tan Tang, Minglian
 **03:45-05:00PM AEDT (UTC+11)**<br/>
 **Room: Room 105**<br/>
 *Medical and Biomedical Applications*<br/>
-*Session Chair: Kai Lawonn*
+*Session Chair: TBD*
 
 **HealthPrism: A Visual Analytics System for Exploring Children's Physical and Mental Health Profiles with Multimodal Data**<br/>
 Authors: Zhihan Jiang, Handi Chen, Rui Zhou, Jing Deng, Xinchen Zhang, Running Zhao, Cong Xie, Yifang Wang, Edith Ngai
