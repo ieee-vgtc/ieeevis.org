@@ -84,7 +84,6 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 
 *9:00 AM-12:00 PM AEDT (UTC+11)*<br/>
 * Room 101-102: **Mining Useful Information Via Complex Network Visualization** (Tutorial)  
-* Room 103: **Transparent Practices for Quantitative Empirical Research** (Tutorial)  
 * Room 104: **EduVis: Workshop on Visualization Education, Literacy, and Activities** (Workshop)  
 * Room 105: **Visualization for Social Good** (Workshop)  
 * Room 106: **LDAV: 13th IEEE Symposium on Large Data Analysis and Visualization** (Associated Event)  
@@ -96,6 +95,7 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 *2:00 PM-5:00 PM AEDT (UTC+11)*<br/>
 
 * Room 101-102: **TAURUS: a unified framework for creating graph layouts** (Tutorial)  
+* Room 103: **Transparent Practices for Quantitative Empirical Research** (Tutorial)  
 * Room 104: **Design Sprints for Visualization** (Tutorial)  
 * Room 105: **VIS4DH: 8th Workshop on Visualization for the Digital Humanities** (Workshop)  
 * Room 106: **VDS: Visualization in Data Science Symposium** (Associated Event)  
