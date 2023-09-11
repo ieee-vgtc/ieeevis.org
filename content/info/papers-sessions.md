@@ -1000,7 +1000,7 @@ Authors: Zikun Deng, Shifu Chen, Tobias Schreck, Dazhen Deng, Tan Tang, Minglian
 **03:45-05:00PM AEDT (UTC+11)**<br/>
 **Room: Room 105**<br/>
 *Medical and Biomedical Applications*<br/>
-*Session Chair: TBD*
+*Session Chair: Alexander Lex*
 
 **HealthPrism: A Visual Analytics System for Exploring Children's Physical and Mental Health Profiles with Multimodal Data**<br/>
 Authors: Zhihan Jiang, Handi Chen, Rui Zhou, Jing Deng, Xinchen Zhang, Running Zhao, Cong Xie, Yifang Wang, Edith Ngai
