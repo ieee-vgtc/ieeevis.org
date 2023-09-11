@@ -244,7 +244,7 @@ menu:
             description: "Recognize outstanding work by the VIS community"
             columns:
              - links:
-               - text: "Best Paper Awards"
+               - text: "Best Paper/Poster Awards"
                  url: "/year/2023/info/awards/best-paper-awards"
                  is_new: true
                # - text: "Best Poster Awards"
