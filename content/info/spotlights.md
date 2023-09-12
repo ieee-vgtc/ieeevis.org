@@ -6,126 +6,135 @@ contact: spotlights@ieeevis.org
 ---
 
 # Accepted Application Spotlights
-Below you will find the list of the accepted Spotlights. If you have any questions about any of the spotlight sessions, please contact the organizers listed below directly.
-* [Data Analysis Methods for Climate Modeling of Extreme Weather Events](#spot1)
-* [Audio-Visual Analytics: Potential Applications of Combined Sonifications and Visualizations](#spot2)
-* [Application Papers: How should we deal with them?](#spot3)
+Below you will find the [2023 accepted Spotlight](#spot1). If you have any questions about the spotlight session, please contact the organizers listed below directly.
 <hr/>
 
-## <a name="spot1"></a>Data Analysis Methods for Climate Modeling of Extreme Weather Events
-When: Friday, October 21, 2022 - 9:00 AM-10:15 AM CDT (UTC-5)
+## <a name="spot1"></a>Visualization for spatial single-cell atlases: Identifying challenges and opportunities in complex biomedical data at multiple scales and modalities
 
 ### Organizers
 
-Divya Banesh, *Los Alamos National Laboratory, United States*
-James Benedict, *Los Alamos National Laboratory, United States*
-Rupsa Bhowmick, *Los Alamos National Laboratory, United States*
-Ayan Biswas, *Los Alamos National Laboratory, United States*
-Soumya Dutta, *Los Alamos National Laboratory, United States*
-Michael Grosskopf, *Los Alamos National Laboratory, United States*
+Morgan Turner, *Harvard Medical School, Boston, USA*
+Eric Moerth, *Harvard Medical School, Boston, USA*
+Nils Gehlenborg, *Harvard Medical School, Boston, USA*
 
-Contact: [dbanesh@lanl.gov](mailto:dbanesh@lanl.gov)
 
 ### Summary
 
-The Energy Exascale Earth System Model (E3SM) is a global weather and climate model that couples independent components for atmosphere, ocean, rivers, land surface, sea ice and land ice. The model is being leveraged to address scientific queries related to water availability, carbon cycling and its influence on energy decisions, and cryospheric systems and their contribution to sea-level rise and coastal impacts. E3SM is targeted to run on emerging exascale computing facilities at very high spatio-temporal resolutions. Scientific investigations of relevance require in situ analysis to accurately answer these science questions and to visualize simulation outputs. A minimum resolution in space and time would require roughly 18 GB of memory per snapshot of the atmospheric state. At one snapshot every six hours, a typical simulation run over 100 years would result in approximately 2.6 petabytes of data. Saving this data to disk for post hoc analysis is prohibitive, thus in situ statistics are computed during model integration to facilitate assessment of climate features and extreme weather.
+Technological advances in biological experimental approaches for studying human tissues at
+single-cell resolution are producing large amounts of complex data and are offering new ways to
+ask questions with far-reaching impacts on human health. To allow for comprehensive analysis
+and comparison of the generated data, the ultimate goal is to construct an atlas of the human
+body that characterizes the cell types, tissue structures, and abundance of different types of
+biomolecules across these structures. The data supporting these atlas efforts, however, is
+creating challenging visualization problems due to 1) the dimensionality and density of the data
+and 2) the multi-modal measurements (including proteins, genes, and metabolites) associated
+with these structures in both 2D images and 3D volumes. Additionally, many datasets routinely
+include tens of thousands to millions of cells, with up to thousands of measurements per cell,
+resulting in critical scalability challenges.
 
-In this session, we discuss various methods for the analysis and visualization of E3SM climate data. Our applications broadly focus on planetary scale modes of climate variability and their influence on extreme weather events. First, we will briefly introduce the E3SM simulation, its components, and the background for our domain-specific problems. Then, we will discuss a Julia-based in situ analysis pathway we have developed so that a wide range of in situ climate analyses and visualization can be done with minimal programming overhead. Next, we present an application of this in situ pathway through a technique for in situ detection of an extreme weather event called sudden stratospheric warming (SSW). We discuss how SSW-guided in situ extreme-value distribution models can be used to study the impacts of SSW on surface temperatures. To perform sophisticated spatial analysis on climate data variables, streaming temporal modeling capabilities are necessary to account for smooth spatial variation on large-scale distributed spatial fields. In this regard, we will present capabilities for sparse, distributed Gaussian process modeling in Julia for in situ spatial inference. In a follow-up application, algorithms for tracking tropical cyclones will be presented to highlight changes in the probability of extreme precipitation events as mediated by tropical cyclones and equatorial climate modes of variability. Finally, a fourth technique will be discussed that explores the utilization of machine learning models for Bayesian parameter estimation to fix Gaussian models to E3SM data. Such a method allows for in situ data reduction of large climate models into a more manageable size for analysis and visualization.
+This new paradigm of tissue atlas construction presents many relevant visualization challenges
+that will require the visualization community’s expertise to address. Due to the inherent
+anatomical nature of the data, biologists need to interact with this data in spatial and hierarchical
+contexts using visualization systems that are able to handle multi-modal visualization and
+queries at scale. Particularly in the context of diseases, visualizations are required to allow for
+comparisons of normal vs. disease, context of other biomedical information, display of
+uncertainty, and tools for education and training. Some of these visualization efforts have
+already been applied to cancer and kidney disease and are having impacts on research in
+human health.
+
+We aim to identify future avenues of visualization research that can be helpful for exploring and
+analyzing data within these cell atlases. Augmented Reality (AR), and Virtual Reality (VR) offer
+potential for navigation and data analysis in 3D, but require careful consideration of useful
+techniques for users. Additionally, Artificial Intelligence (AI) approaches are being employed and
+will require explainable/interpretable visualization techniques. We plan to focus part of the panel
+discussion on the advantages and opportunities of employing these visualization technologies
+to aid in our understanding of human biology and aim to identify worthwhile future directions for
+visualization research to target.
+
 
 ### Schedule
-1. In-Situ Inference for E3SM Climate Model: Ayan Biswas
-2. Earth System Simulation using E3SM: James Benedict
-3. Efficient Predictive Analytics of Extreme Weather Events via In Situ Data Modeling: Soumya Dutta
-4. Distributed Gaussian Processes for Climate Modeling: Mike Grosskopf
-5. Cyclone analysis: Rupsa Bhowmick
-6. Neural Networks for Data Regression in Climate Data: Divya Banesh
-7. Q&A
+**Opening**: Eric Moerth (5 min)
+**Panelist presentations** (total: 40 min)
+- Ajay Pillai: HuBMAP and related Cell Atlas efforts (10 min)
+- Mark Keller: Vitessce: Visual integration tool for exploration of spatial single-cell experiments (10 min)
+- Barbora Kozlíková: 3D structural biology data (10 min)
+- Stefan Bruckner: Volumetric Rendering of Medical Imaging data and how to translate it in AR/VR (10 min)
+**Panel Q&A Moderators**: Nils Gehlenborg and Morgan Turner (25 min)
+**Closing**: Eric Moerth (5 min)
 
 ### Speakers
-**Ayan Biswas** is a scientist in the Data Science at Scale team (CCS-3) at Los Alamos National Laboratory. His research interests include exascale data analysis and reduction, in situ workflows, uncertainty quantification, statistical analysis and high-dimensional data visualization. He also has vast experience in working with vector fields and information theory applications for visualization and analysis. He received his PhD in Data Visualization from The Ohio State University in 2016. Contact Ayan at ayan@lanl.gov
+**Ajay Pillai** - Dr. Ajay Pillai joined the National Human Genome Research Institute’s Extramural
+Research Program as program director in 2006. He manages a portfolio of grants focused on
+data and knowledge resources, single cell biology, AI/ML methods development including
+approaches to development of ethical AI, and other computational approaches. He co-leads two
+Common Fund programs: HuBMAP (single-cell mapping of “normal” human tissue and organs)
+and IDG (developing computational and experimental reagents to study under-studied proteins).
+He co-leads a trans-NIH effort on developing and sustaining data and knowledge resources. He
+also co-leads a new NHGRI program, MorPhiC (Molecular Phenotypes of Null Alleles in Cells),
+that aims in the long-term to develop a consistent catalog molecular and cellular phenotypes for
+null alleles for every human gene by using in-vitro multicellular systems.
+https://www.genome.gov/staff/Ajay-Pillai-PhD
 
-**James Benedict** joined LANL in 2020 as a staff scientist to assist in development, evaluation, and applications of the DOE’s Energy Exascale Earth System Model (E3SM).  Jim received his Ph.D. in atmospheric science from Colorado State University, focusing on a multiscale climate modeling approach aimed at improving the representation of moist (cumulus) convection.  He has since broadened his scope in investigations spanning tropical and midlatitude weather extremes to tropical cyclones to climate change using both observations and several global climate models.  Contact Jim at benedict@lanl.gov.
+**Mark Keller** - Mark Keller is a PhD student in the Bioinformatics and Integrative Genomics
+Program at Harvard Medical School. Previously, he was a software developer with a B.S. in
+Computer Science from the University of Maryland and a former intern in the Summer Institute
+in Biomedical Informatics in the Gehlenborg Lab. Mark is the lead software developer on
+Vitessce: Visual integration tool for exploration of spatial single cell experiments.
+https://markk.co/ http://vitessce.io/
 
-**Soumya Dutta** is a staff scientist in the Information Sciences group (CCS-3) at Los Alamos National Laboratory (LANL). Before that, Soumya was a postdoctoral researcher in the Applied Computer Sciences group (CCS-7) at LANL from June 2018 - July 2019. Soumya obtained his Ph.D. degree in Computer Science and Engineering, with a focus on Visualization and Computer Graphics, from the Ohio State University in May 2018. His current research interests include big data science & visualization, statistical techniques for big data, in situ analysis, machine learning for visual computing, and high performance visualization. Contact Soumya at soumya.cvpr@gmail.com.
+**Barbora Kozlíková** - Dr. Barbora Kozlíková is an Associate Professor at the Faculty of
+Informatics, Masaryk University, Brno, Czech Republic. She is a member of the Department of
+Visual Computing and is also heading the Visitlab research group focusing on diverse topics in
+visualization. Bara got her Ph.D. in Computer Graphics in 2011 and her main research interests
+are visualization and visual analysis with diverse application areas, including biochemistry,
+medicine, geography, and criminology. With her 7 Ph.D. students she is working on many
+interesting research topics. She is also responsible for several courses taught at her faculty and
+is always interested in starting new collaborations. With her colleagues and friends, she is also
+organizing events for the community, e.g. the EG EuroVis 2018 conference and also the EG
+VCBM 2019 workshop. https://www.fi.muni.cz/~xkozlik/
 
-**Mike Grosskopf** is a staff scientist in the Statistical Sciences group (CCS-6) at Los Alamos National Laboratory (LANL). Before that, he was a research engineer in laboratory astrophysics for the Center for Radiative Shock Hydrodynamics at the University of Michigan until 2013 and obtained his Ph.D. in Statistics from Simon Fraser University in December 2017. His current research interests include uncertainty quantification, machine learning interpretability for science applications, in situ analysis, and Bayesian optimization. Contact Mike at mikegros@lanl.gov.
+**Stefan Bruckner** - Dr. Stefan Bruckner is a visualization researcher and professor at the
+University of Rostock, where he is the head the Chair of Visual Analytics at the Institute for
+Visual and Analytic Computing since February 2023. Previously, he was professor of
+visualization at the Department of Informatics of the University of Bergen in Norway. He
+investigates methods for gaining insight into complex data to further scientific understanding
+and discovery, medical diagnosis and treatment, and engineering, as well as techniques for
+communicating these findings to the public. Building on these foundations, his current interests
+include the development of novel interactive approaches for the inquiry of large-scale
+heterogeneous data spaces in data-driven science. Stefan was program co-chair of EuroVis,
+PacificVis, the Eurographics Workshop on Visual Computing for Biology and Medicine, the
+Eurographics Medical Prize, and is an associate editor of the journals IEEE Transactions on
+Visualization and Computer Graphics and Computers & Graphics. He currently serves on the
+Eurographics Executive Committee and is member of ACM SIGGRAPH, Eurographics, and the
+IEEE Computer Society.
 
-**Rupsa Bhowmick** is a postdoctoral research associate at the Los Alamos National Lab from 2020. She completed her Ph.D. from Louisiana State University focusing Southwest Pacific Tropical Cyclone Frequency and Intensity Related to Observed and Modeled Geophysical and Aerosol Variables. Currently her work focuses on hurricane feature detection using novel detection techniques, understanding their climatology, extreme precipitation analysis and building probabilistic models for extreme events related phenomena. Contact Rupsa at ruplanl9@lanl.gov.
+**Morgan Turner** - Dr. Morgan Turner is an R&D Manager and Visualization Scientist in the
+Department of Biomedical Informatics at Harvard Medical School. She was previously a
+postdoctoral research associate and CRA/CCC/NSF Computing Innovation Fellow in the
+Interactive Visualization Lab at the University of Minnesota, focusing on developing visualization
+techniques for spatially- and temporally-referenced skeletal biomechanical data. Morgan
+received her PhD in Ecology and Evolutionary Biology at Brown University in 2021. During her
+PhD, she developed methods of visualizing 3D kinematic data generated from high-speed X-ray
+videography, as well as collaborated on the development of Virtual Reality visualizations for
+analyzing volumetric flow patterns of mud during dinosaur footprint formation.
+https://morganlturner.com/
 
-**Divya Banesh** (CCS-3) is a staff scientist in the Data Science at Scale Team, part of the Information Sciences group (CCS-3). Divya received her B.S. in Electrical Engineering and Computer Science from the University of California, Berkeley, and her Ph.D. in Computer Science from the University of California, Davis. She joined LANL as a summer student in 2015, eventually moving into a postdoctoral research appointment. Her interests are in feature identification and analysis in computer vision, image processing, topological data analysis, and machine learning.
+**Eric Moerth** - Dr. Eric Moerth is a Postdoctoral Associate in the Department of Biomedical
+Informatics at Harvard Medical School. He received his PhD from the University of Bergen in
+Norway, under the supervision of Prof. Noeska Smit. During his PhD study, he conducted
+research in multimodal medical visualization. His main focus was the research of new and
+innovative ways to visualize and explore 3D biomedical data, e.g. MRI data and radiomics data.
+He also developed innovative tools for storytelling with guided dynamic narratives for scientific
+data. http://hidivelab.org/team/members/eric-moerth/
 
-***
-
-## <a name="spot2"></a>Audio-Visual Analytics: Potential Applications of Combined Sonifications and Visualizations
-When: Thursday, October 20, 2022 - 10:45 AM-12:00 PM CDT (UTC-5)
-
-### Organizers
-Wolfgang Aigner, *Institute of Creative\\Media/Technologies, St. Poelten University of Applied Sciences, St. Poelten, Austria*
-Michael Iber, *St. Pölten University of Applied Sciences, St. Pölten, Austria*
-Kajetan Enge, *Institute of Creative\\Media/Technologies, St. Poelten University of Applied Sciences, St. Poelten, Austria*
-Alexander Rind, *Institute of Creative\\Media/Technologies, St. Poelten University of Applied Sciences, St. Poelten, Austria*
-Niklas Elmqvist, *College of Information Studies, University of Maryland, College Park, College Park, Maryland, United States*
-Robert Höldrich, *Institute of Electronic Music and Acoustics, University of Music and Performing Arts Graz, Graz, Austria*
-PhD Niklas Rönnberg, *Media and Information technology, Linköping University, Norrköping, Sweden*
-Bruce N. Walker, *Georgia Institute of Technology , Atlanta, Georgia, United States*
-
-Contact: [kajetan.enge@fhstp.ac.at](mailto:kajetan.enge@fhstp.ac.at)
-
-### Summary
-In this Application Spotlight, we will focus on audio-visual analytics and its (potential) applications. Visualization and sonification are two approaches for conveying data to humans based on complementary high-bandwidth information processing systems and both address the purpose of involving humans in data analysis. Although extensive research has been carried out both on the auditory and visual representation of data, comparatively little is known about their systematic and complementary combination for data analysis. Existing research on combinations has often focused only on one of the modalities. However, there are potentially powerful synergies in combining both modalities to address the individual limitations of each one. 
-
-Inspired by existing applications such as in health promotion and rehabilitation and solutions such as the Highcharts Sonification Studio, we will discuss the potential of audio-visual analysis tools.
-We will have 3 invited talks and an open discussion with the audience.
-With this Application Spotlight our goal is to build and strengthen a community of members from the sonification and the visualization communities that are interested in combining the two modalities. We believe that in the long term, establishing bridges between the communities will have a positive impact on both disciplines separately as well as on multi-modal data analysis methods.
-
-### Schedule
-1. Opening: Kajetan Enge, Wolfgang Aigner
-2. Highcharts Sonification Studio: Overview and demo : Øystein Moseng, Bruce N. Walker
-3. Mapping an interdisciplinary ground: the Data Sonification Archive: Sara Lenzi, Paolo Ciuccarelli
-4. Real time sonification to support motor learning in health promotion and rehabilitation: Victor-Adriel de-Jesus-Oliveira
-5. Panel Q&A and Closing
-
-### Speakers
-**Kajetan Enge** is a junior researcher at the St. Pölten University of Applied Sciences in Austria and a doctoral student at the University of Music and Performing Arts Graz. He conducts basic research on the combination of sonification and visualization for exploratory data analysis and is the leading organizer of the AVAC, the Audio-Visual Analytics Community.
-
-**Øystein Moseng** is the Head of Accessibility at Highsoft, the company behind the leading data visualization technology Highcharts. He started computer programming at the young age of 8, and has since worked with companies across different sectors, including laboratory technology, medical equipment, and consumer products. In later years, he has led the accessibility research and development efforts of Highcharts products, going beyond compliance to focus on advancing the field of data visualization accessibility.
-
-**Bruce Walker**’s Sonification Lab studies human-computer interaction (HCI) in non-traditional interfaces, such as mobile devices, cockpits, vehicle displays, and multimodal interfaces in education. Particular interests include sonification and auditory displays, which are highly useful for persons living with vision impairment. This has led to decades of work on assistive technology, especially for education. Dr. Walker is passionate about making schools and educational materials more accessible for all learners. Professor Walker teaches HCI, Research Methods, Sensation & Perception, and Assistive Technology. He has over 250 publications, and has worked on projects for NASA, state and federal governments, the military, and private companies.
-
-**Sara Lenzi** is a Post-doc Researcher at the Critical Alarms Lab, Faculty of Industrial Design Engineering, TU Delft. A trained classical musician, she holds a MA in Philosophy of Science. After a decade in the sound design industry, she pursued a PhD in Design at Politecnico di Milano. Her research focuses on the use of sound to represent and describe complex phenomena. She is particularly active in the current debate on a designerly approach to data sonification and on the formalisation of shared tools and methods for sound design.
-
-**Paolo Ciuccarelli** is professor of Design at Northeastern University, where he founded and directs the Center for Design. He is member of the board in the Interdisciplinary Design and Media PhD program at the College of Arts, Media and Design and affiliated member of Harvard MetaLab and the Roux Institute at Northeastern. His research focuses on design-driven data transformations across different languages and modalities, to address non-expert stakeholders especially. Paolo is currently co-editor of Big Data & Society (SAGE) and chaired the Communication Design program at Politecnico di Milano, where he also founded and directed the DensityDesign Research Lab from 2010 to 2019.
-
-**Victor-Adriel de-Jesus-Oliveira** is a human-computer interaction researcher and lecturer at St. Poelten University of Applied Sciences. He also holds an MSc and a PhD in Computer Science from the Federal University of Rio Grande do Sul, where he worked on his thesis on haptic interfaces and their application to computer-mediated tactile communication. Victor works mainly in the field of Human-Computer Interaction, especially in UX Design, Quantitative UX Research, and Data Visualization, Sonification, and Haptization.
- 	
-***
-
-## <a name="spot3"></a>Application Papers: How should we deal with them?
-When: Wednesday, October 19, 2022 - 2:00 PM-3:15 PM CDT (UTC-5)
-
-### Organizers
-
-Christina Gillmann, *Leipzig University, Leipzig, Germany*
-Daniel Wiegreffe, *Leipzig University, Leipzig, Germany*
-Dr. Johanna Schmidt, *VRVis Zentrum für Virtual Reality und Visualisierung Forschungs-GmbH, Vienna, Austria*
-
-Contact: [gillmann@informatik.uni-leipzig.de](mailto:gillmann@informatik.uni-leipzig.de)
-
-### Summary
-Applications build a driving force in visualization research and trigger basic research questions in the visualization community. Therefore, application papers are one of the 6 official new areas defined for the visualization community area model. According to the area model, this area allows different styles of application-driven manuscripts. Still, this leaves massive room for interpretation what exactly needs to be covered in an application paper and how the quality of such a paper can be measured in a standardized manner. In addition, there exist a gap between generalized application papers and specific use case solutions that require specific domain knowledge in the respective application area.
-
-This application spotlight is intended to shed light on this question and build a basic to formulate requirements and quality measures for these types of papers further. To achieve this, we aim to give a general introduction to application papers and what is defined for their review process to far. Next, we aim to invite three speakers that are known to publish mainly in the application area model and let them formulate their point of view of what applications papers are and how they can be judged. At last, we aim to have an open discussion with the audience to collect further opinions on application papers and their review process.
-
-The goal of this application spotlight is to create a more systematic guideline for reviewing and judging application papers that eases the creation of these papers as well as their review process.
-
-### Schedule
-**Anders Ynnerman** From domain experts to children 
-Abstract: This talk will take its starting point in the work at the Visualization Center C in Sweden. Over the past 15 years we have  systematically developed tools for domain experts in selected application domains, and at the same time used the results to communicate science to a general audience including children visiting museums and science centers. This talk will elaborate on the academic aspect of how this work is breaking down the barrier between exploration and explanation, how it generates benefits to both science communication and scientific workflows, and how it constitutes a new form of contribution for applied visualization.
-
-**Thomas Wischgoll** Applications in Medical Visualizations: A Case Study
-Abstract: The medical domain is one of the traditional application areas in visualization. Various different scanning technologies can provide 2D and 3D data suitable for visualization. For example, volume visualization techniques have matured significantly throughout the years as a result. However, just visualizing the data is not enough in many applications. Additional analysis techniques are needed to precisely guide the domain specialist. This includes the extraction of quantitative data to feed into the visualization and analysis pipeline. Such extraction of data has to be precise and at the same time convey any inherent uncertainties stemming from the limitations of scanning technologies or other sources. In order to be successful in applying visualization to application domains, often close collaborations with domain specialists are required. This requires establishing a level of trust to convince a domain specialist to spend time and share data. The end result of such a close collaboration resulting in advanced visualization and analysis techniques for the application domain can be very rewarding. This presentation will shed some light on examples of such applications for visualization and data analysis and discuss the positive and negative aspects of working in an applied area.
-
-**Helmut Doleisch** Visualization and Applications in Flow Simulation with Simcenter STAR-CCM+
-Abstract: Over the last 25 years I have always been involved in application driven visualization and data analysis. During our work on visual data analysis of flow simulation data we have worked with a multidude of different applications, always in close cooperation with domain experts in the respective applications fields, such as weather and climate research, automotive and aerospace, or medical research. Both, at SimVis as well as now with Siemens Simcenter STAR-CCM+, we have continiously worked on bringing cutting edge basic research into the context of real world applications for commercial usage. This presentation will give a brief overview and motivate why applications and their throrough presentation at an event as the IEEE VIS is important.
-
+**Nils Gehlenborg** - Dr. Nils Gehlenborg is an Associate Professor in the Department of
+Biomedical Informatics at Harvard Medical School and directs the Humans in Data Integration,
+Visualization, and Exploration (HIDIVE) Lab (http://hidivelab.org). The goal of Nils’ research is to
+improve human health by developing visual interfaces and computational techniques that
+enable scientists, clinicians, and patients to efficiently interact with biomedical data. Integration
+of algorithmic and machine learning approaches from biomedical informatics with advanced
+data visualization techniques is central to his efforts, as is close collaboration with end users.
+Nils is a co-founder, former general chair and steering committee chair of BioVis, the
+Symposium on Biological Data Visualization, and co-founder of VIZBI, the annual workshop on
+Visualizing Biological Data.
  	
