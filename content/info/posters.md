@@ -32,7 +32,7 @@ Authors: Watcharich Sriswasdi, Prawit Banjong, Puripant Ruchikachorn
 Authors: Syed Ahsan Ali Dilawer, Shah Rukh Humayoun
 
 **A Prototype Visualisation Tool for Biocontrol Researchers.**<br/>
-Authors: Lauren Stevens
+Authors: Lauren Stevens, Louise Ord, Nunzio Knerr, Ben Gooden, Alexander Schmidt-Lebuhn
 
 **RTVis: Research Trend Visualization Toolkit**<br/>
 Authors: Xingyu Shen, Yueqian Lin, Zhixian Zhang, Xin Tong
