@@ -1,12 +1,12 @@
 ---
-title: Best Paper Awards
+title: Best Paper/Poster Awards
 layout: page
 permalink: /info/awards/best-paper-awards
 contact: papers@ieeevis.org
 active_nav: "Program"
 ---
 
-Best paper and honorable mention awards are selected by a dedicated committee of experienced community members. Both awards recognize outstanding work from the pool of accepted papers. Best paper committees use a variety of criteria to select the best paper including potential impact to the community, the importance of any results obtained, technical challenges overcome, etc.
+Best paper and honorable mention awards are selected by a dedicated committee of experienced community members. Both awards recognize outstanding work from the pool of accepted papers. Best paper committees use a variety of criteria to select the best paper including potential impact to the community, the importance of any results obtained, and technical challenges overcome.
 
 ## Full Papers
 
@@ -107,7 +107,6 @@ Authors: Carolina Veiga Ferreira de Souza, Suzanna Maria Bonnet, Daniel de Olive
 
 
 
-
 ## Short Papers
 
 The Best Papers Committee for VIS 2023 short papers consists of three distinguished members: Daniel Archambault, Jian Chen, and Nathalie Riche. The Short Papers Chairs would like to thank the Best Papers Committee for their work and to congratulate the awardees!
@@ -130,26 +129,22 @@ Authors: Yiren Ding, Lane Harrison
 
 
 
-{% comment %}
-
 ## Posters
 
-The Best Posters Committee for VIS 2022 posters consists of three distinguished members: Alex Endert, Daniel Jönsson, and Michael Sedlmair. The Poster Chairs would like to thank the Best Posters Committee for their work and to congratulate the awardees!
+The Best Posters Committee for VIS 2022 posters consists of three distinguished members: Jessica Hullman, Vijay Natarajan, and Adam Perer. The Poster Chairs would like to thank the Best Posters Committee for their work and to congratulate the awardees!
 
 ### Best Poster
 
-**Ditto: Exploring data in large display environments through speech+mid-air gesture interactions**
+**ManimML: Communicating Machine Learning Architectures with Animation**
 <br/>
-Authors: Jillian Aurisano, Abeer Alsaiari, Abhinav Kumar, Moira Zellner, Jason Leigh, Barbara Di Eugenio, Andrew E Johnson
+Authors: Alec Fisher Helbling, Duen Horng Chau
 
 ### Best Poster Honorable Mentions
 
-**Dynamic visualizations for violence prevention**
+**Enhancing Natural Language-Based Data Exploration with Analysis Pipeline Illustration**
 <br/> 
-Author: Luke Demarest
+Author: Yi Guo, Nan Cao, Xiaoyu Qi, Haoyang Li, Danqing Shi, Jing Zhang, Qing Chen, Daniel Weiskopf
 
-**Processing Fluency Improves Trust in Scatterplot Visualizations**
+**Refreshable Tactile Displays for Accessible Data Visualisation**
 <br/>
-Authors: Hamza Elhamdadi, Lace Padilla, Cindy Xiong
-
-{% endcomment %}
+Authors: Leona M Holloway, Peter Cracknell, Kate Stephens, Melissa Fanshawe, Samuel Reinders, Kim Marriott, Matthew Butler

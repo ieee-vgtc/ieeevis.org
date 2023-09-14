@@ -73,7 +73,7 @@ The process of visually representing networks of connected entities, links as we
 
 
 ## <a name="TPQ"></a> Transparent Practices for Quantitative Empirical Research
-Monday, October 23, 2023: 9:00 AM-12:00 PM AEDT (UTC+11)
+Monday, October 23, 2023: 2:00 PM-5:00 PM AEDT (UTC+11)
 
 Abhraneel Sarma, *Northwestern University* <br>
 Chat Wacharamanotham, *Swansea University* <br>
