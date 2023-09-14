@@ -11,6 +11,9 @@ Below you will find the [2023 accepted Spotlight](#spot1). If you have any quest
 
 ## <a name="spot1"></a>Visualization for spatial single-cell atlases: Identifying challenges and opportunities in complex biomedical data at multiple scales and modalities
 
+When: Thursday, October 26, 2023 10:45 AM-12:00 PM AEDT (UTC+11) <br/>
+Location: Room 101+102
+
 ### Organizers
 
 Morgan Turner, *Harvard Medical School, Boston, USA*
