@@ -6,7 +6,10 @@ permalink: /info/panels
 
 ---
 
-## <a name="Establishing and Thriving in an Academic Career</a>
+## <a name="panel-career">Establishing and Thriving in an Academic Career</a>
+
+When: Wednesday, October 25, 2023 3:45 PM-5:00 PM AEDT (UTC+11)<br/>
+Location: Room 101+102
 
 <!-- Tuesday, October 27: 12:00pm-1:30pm MDT -->
 
@@ -19,6 +22,9 @@ In this panel, we will discuss academic life and share advice and experience aro
 
 ## <a name="panel-ghoniem">What is a Visual Analytics contribution, and how is it changing?</a>
 
+When: Wednesday, October 25, 2023 10:45 AM-12:00 PM AEDT (UTC+11)<br/>
+Location: Room 101+102
+
 <!-- Thursday, October 29: 12:00pm-1:30pm MDT -->
 
 **Organizers:** Mennatallah El-Assady (ETH Zürich), Jürgen Bernard (University of Zurich)
@@ -28,6 +34,9 @@ In this panel, we will discuss academic life and share advice and experience aro
 Existing characterizations of Visual Analytics (VA) echo the strengths of combining interactive visual data representations and algorithmic models to enable humans making data-driven decisions effectively. For about 20 years, VA was one of three pillars in the interactive data analysis and visualization (VIS) community. Generation after generation, the VA community has evolved its understanding of research problems and, along the way, contributed various techniques, applications, and research methods. While some developed techniques have stood the test of time, we will consider what else needs to be remembered or even revitalized from the good old days in this panel. Further, VA is currently facing exciting times, with great changes and trends within and outside the community. In this panel, we want to analyze current research trends in VA and discuss our most exciting ideas and directions. Looking ahead, it can already be anticipated that the future of VA is subject to change. Following productive and successful panels at EuroVA 2023 and EuroVis 2023, in this panel, we want to continue mapping out future research directions for our community, with an emphasis on VA. Along the lines of the past, the present, and the future of VA, the guiding theme of our interactive panel will be three types of (provoking) statements: (i) In the good old days, I liked when we did ... (ii) Currently, a most exciting trend is ... & (iii) In the future, we will be doing ... Come and join us to reflect on past and present trends, daring a look ahead to an exciting future for the interactive data analysis and visualization community! 
 
 ## <a name="panel-möller" href="https://vis4ml.github.io/vispanel" > How should VIS4ML Redefine Itself in the Rapid Evolution of AI?</a>
+
+When: Thursday, October 26, 2023 3:45 PM-5:00 PM AEDT (UTC+11)<br/>
+Location: Room 101+102
 
 	
 <!-- Friday, October 30: 10:00am-11:30am MDT -->

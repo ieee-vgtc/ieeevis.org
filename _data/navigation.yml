@@ -220,12 +220,12 @@ menu:
                     url: "/year/2023/info/workshops"
                   - text: "Panels"
                     description: "Discuss important and controversial issues"
-      #               url: "/year/2023/info/panels"
-      #               #is_new: true
+                    url: "/year/2023/info/panels"
+                    is_new: true
                   - text: "Application Spotlights"
                     description: "Showcase practical, real-world applications of visualization"
-      #               url: "/year/2023/info/spotlights"
-      #               #is_new: true
+                    url: "/year/2023/info/spotlights"
+                    is_new: true
       - subsections:
           - heading: "Invited Speakers"
 #            heading_url: "/year/2023/info/week-at-a-glance"
@@ -247,8 +247,6 @@ menu:
                - text: "Best Paper/Poster Awards"
                  url: "/year/2023/info/awards/best-paper-awards"
                  is_new: true
-               # - text: "Best Poster Awards"
-               #   url: "/year/2023/info/awards/best-poster-awards"
   # - text: "Service Awards"
   #   url: "https://www.google.com"
   # - text: "VGTC VIS Awards"

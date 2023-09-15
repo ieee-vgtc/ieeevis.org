@@ -711,7 +711,7 @@ Authors: Daniel Atzberger, Tim Cech, Rico Richter, Matthias Trapp, Willy Scheibe
 **10:45-12:00PM AEDT (UTC+11)**<br/>
 **Room: Room 104**<br/>
 *VIS Short Papers: Applications / Design*<br/>
-*Session Chair: TBD*
+*Session Chair: Panagiotis D. Ritsos*
 
 **Taken By Surprise? Evaluating how Bayesian Surprise & Suppression Influences Peoples' Takeaways in Map Visualizations**<br/>
 Authors: Akim Ndlovu, Hilson Shrestha, Lane Harrison
