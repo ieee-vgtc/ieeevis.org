@@ -16,10 +16,17 @@ style="height:400px"
 </p>
 
 <p><b>Title</b> <br/>TBD
+  All over the map
 </p>
 
 <p><b>Abstract</b> <br/>
-TBD
+"Spatial is special" is a phrase often used by geographic information (GI) scientists, like Matt. Yet, many other research communities without a "special" focus on spatial are continually innovating with important new spatial tools, ideas, techniques, and insights, including the visualization community.
+
+This creative tension---between domain expertise and domain exclusivity, between discipline boundaries and discipline blends---can move interdisciplinary GI science research "all over the map" (in both senses of complete mastery and chaotic muddle).
+
+The tension is especially pronounced in connection with maps and mapping. On the one hand, the art and science of mapping is traditionally a domain of "special" study in cartography. On the other, maps are a basic tool for information visualization in almost every academic and professional discipline that analyzes data related to geographic location. Indeed, even GI scientists have a complex relationship with maps---at times cherished touchstone; at others atavistic constraint.
+
+This capstone uses the map---perhaps the ultimate interdisciplinary artefact---as a lens to reflect on essential research themes in GI science, and on the nature of interdisciplinary research into geovisualization. The analysis identifies five "special" features of geographic information, including its structure, dynamism, uncertainty, and its intimate connection with human cognition, that directly impact on mapping and geovisualization. The examples highlight the importance of knowledge exchange in an interdisciplinary field like GI science, and particularly of exchange with the visualization community. The conclusions also look to the future, and identify some of the most promising emerging problem domains in GI science.
 </p>
 
 <p><b>About the Speaker</b><br/>
