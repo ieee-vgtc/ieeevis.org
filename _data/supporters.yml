@@ -73,9 +73,9 @@
      - name: "Monash University"
        image: /assets/supporters/monash.png
        url: "https://www.monash.edu/it"
-     - name: "DataVizGuy"
-       image: /assets/supporters/DataVizGuy-logo.png
-       url: "https://datavizguy.com/"
+     - name: "JPMorgan Chase"
+       image: /assets/supporters/JPMC_StackedLogo_Black.svg
+       url: "https://www.jpmorganchase.com/"
 
  - category: Pearl
    image_size: 150
@@ -104,15 +104,15 @@
      - name: "Adobe"
        image: /assets/supporters/Adobe-logo.jpg
        url: "https://www.adobe.com/"
-     - name: "Nreal"
-       image: /assets/supporters/nreal-logo.png
-       url: "https://www.xreal.com/"
+     # - name: "Nreal"
+     #   image: /assets/supporters/nreal-logo.png
+     #   url: "https://www.xreal.com/"
      - name: "University of Queensland"
        image: /assets/supporters/uq-logo.png
        url: "https://www.uq.edu.au/"
-#     - name: "NREL"
-#       image: /assets/supporters/NREL.jpg
-#       url: "https://www.nrel.gov/"
+    - name: "NREL"
+      image: /assets/supporters/NREL.jpg
+      url: "https://www.nrel.gov/"
 #     - name: "Disney Studio Research"
 #       image: /assets/supporters/disney.jpg
 #       url: "https://studios.disneyresearch.com/"
