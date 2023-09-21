@@ -15,7 +15,7 @@ style="height:400px"
 <p><b>Speaker</b> <br/>Matt Duckham is a Professor in Geospatial Sciences and Director, Information in Society EIP (Enabling Impact Platform) at RMIT University. 
 </p>
 
-<p><b>Title</b> <br/>TBD
+<p><b>Title</b> <br/>
   All over the map
 </p>
 
