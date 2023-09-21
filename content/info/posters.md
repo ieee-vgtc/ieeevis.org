@@ -6,141 +6,153 @@ permalink: /info/posters
 contact: "posters@ieeevis.org"
 ---
 
-More detail about posters and their associated presentations will be released with the virtual website.
+More details about posters and their associated presentations will be released with the VIS Online Content Website.
 
 <hr />
 
-**Evaluation of Argo Scholar with Observational Study**<br/>
-Authors: Kevin Li, Haoyang Yang, Evan Montoya, Anish Upadhayay, Zhiyan Zhou, Jon Saad-Falcon, Duen Horng Chau
+**Dissecting Geo-Infographics: A Study on Visualizing Geographic Data**<br/>
+Authors: Xinyuan Zhang, Yu Liu, Lingyun Yu
 
-**HotShots: Visualizing Stroke-by-Stroke Tennis Data**<br/>
-Authors: Arvind Srinivasan, Abhinav Kannan, Niklas Elmqvist
+**TangibleChannel: An Innovative Data Physicalization System for Visual Channel Education**<br/>
+Authors: Siqi Xie, Yu Liu, Lingyun Yu
 
-**Ditto: Exploring data in large display environments through speech+mid-air gesture interactions**<br/>
-Authors: Jillian Aurisano, Abeer Alsaiari, Abhinav Kumar, Moira Zellner, Jason Leigh, Barbara Di Eugenio, Andrew E Johnson
+**A Preliminary Design Space for Immersive Data Storytelling**<br/>
+Authors: Radhika Jain, Kadek Ananta Satriadi, Ross Smith, Andrew Cunningham
 
-**MitoVis: A Unified Visual Analytics System for End-to-End Neuronal Mitochondria Analysis**<br/>
-Authors: JunYoung Choi, Hyunjic Oh, Hakjun Lee, Su Yeon Kim, Seok-Kyu Kwon, Won-Ki Jeong
+**What is Visualization for Communication? Analyzing Four Years of VisComm Papers**<br/>
+Authors: Vedanshi Shah, Ab Mosca
 
-**NeuroMapper: In-browser Visualizer for Neural Network Training**<br/>
-Authors: Zhiyan Zhou, Kevin Li, Haekyu Park, Megan Dass, Austin P. Wright, Nilaksh Das, Duen Horng Chau
-
-**A hybrid 3D eddy detection based on surface height and velocity field**<br/>
-Authors: Weiping Hua, Karen Bemis, Dujuan Kang, Sedat Ozer, Deborah Silver
-
-**Investigating the Use of Native and Secondary Language with Data Visualization in Madagascar**<br/>
-Authors: Henintsoa S. Andrianarivony, Taratra Dimbimandresy	Raharison, Mirindra Toavina Nancy Ramarokoto, I. Tamby Rakotoniaina, Noëlle Rakotondravony, Lane Harrison
-
-**Plan Future Graph (PFG)**<br/>
-Authors: Bryan Croft
-
-**An Investigation into the Representational Suitability of Tree Visualizations**<br/>
-Authors: Omkar Saiswaroop Varma Chekuri, Chris Weaver
-
-**Towards an Exploratory Visual Analytics System for Multivariate Subnetworks in Social Media Analysis**<br/>
-Authors: Zeyang Huang, Kostiantyn Kucher, Andreas Kerren
-
-**Visual Utility Evaluation of Differentially Private Scatterplots**<br/>
-Authors: Liudas Panavas, Tarik Crnovrsanin, Ali Sarvghad, Melanie Tory, Cody Dunne
-
-**AI-based Visual Support for Clinical Diagnosis of Pediatric Suprasellar Tumors and Impacts on Decision-Making Confidence**<br/>
-Authors: Eric Prince, David Mirsky, Todd Hankinson, Carsten Görg
-
-**Visual Analytics System for Data Quality Improvement**<br/>
-Authors: Hyein Hong, Sangbong Yoo, Yejin Jin, Yun Jang
-
-**Visualization of Text Annotations for Corpus Development**<br/>
-Authors: Huan He, Sunyang Fu, Liwei	Wang, Andrew Wen, Sijia Liu, Sungrim Moon, Kurt Miller, Hongfang Liu
-
-**Eliciting High-Level Visual Comprehension: A Qualitative Study**<br/>
-Authors: Ghulam Jilani Quadri, Danielle Albers Szafir
-
-**Visual Analysis for Urban Traffic Network with Multiple CCTV Videos**<br/>
-Authors: ChanYoung Yoon, Soobin Yim, Sangbong Yoo, Hanbyul Yeon, Giwoong Park, Yun Jang
-
-**Traffic Causal Relationship Analysis with Causal Density**<br/>
-Authors: Soobin Yim, Chanyoung Jung, Giwoong Park, Yun Jang
-
-**Visual Exploration of Pairwise Meta-Analysis Results in Real Time**<br/>
-Authors: Huan He, Irbaz Bin Riaz, Syed Arsalan Ahmed Naqvi, Rabbia Siddiqi, Noureen Asghar, Mahnoor Islam, M. Hassan Murad, Hongfang Liu
-
-**Effectiveness Validation of Visualization Designs**<br/>
-Authors: Soobin Yim, ChanYoung Yoon, Sangbong Yoo, Yun Jang
-
-**Healthy Me: a personal visual health journal for self-reflection and knowledge sharing**<br/>
-Authors: Lakshmi Priya Kenday Sivaram, Lyn Bartram
-
-**NOVA: A Practical Method for Creating Notebook-Ready Visual Analytics**<br/>
-Authors: Zijie J. Wang, David Munechika, Seongmin Lee, Duen Horng Chau
-
-**A Digital Clipboard for Real-Time Observations and Multimodal Annotations of Team Performance**<br/>
-Authors: Jason Phadnis, Daniel F. Keefe, Cullen	D. Jackson
-
-**Olli: An Extensible Visualization Library for Screen Reader Accessibility**<br/>
-Authors: Matthew Blanco, Jonathan Zong, Arvind Satyanarayan
-
-**Processing Fluency Improves Trust in Scatterplot Visualizations**<br/>
-Authors: Hamza Elhamdadi, Lace Padilla, Cindy Xiong
-
-**Dynamic visualizations for violence prevention**<br/>
-Authors: Luke Demarest
-
-**AnnoDiver: Applying Visual Analytics on Social Annotations to Facilitate Balanced Research Paper Discourse**<br/>
-Authors: Nick Feffer, Jasmine Yen-Ching Shih, Miroslav Ivan Suzara, Kevin Wang
-
-**A Qualitative Evaluation and Taxonomy of Bar Chart Annotations**<br/>
-Authors: Md Dilshadur Rahman, Ghulam Jilani Quadri, Paul Rosen
-
-**Effect of Spatial Visualization on Recall of Bar Charts**<br/>
+**Effects of Spatial Abilities and Domain on Estimation of Pearson's Correlation Coefficient**<br/>
 Authors: Sara Tandon, Alfie Abdul-Rahman, Rita Borgo
 
-**Multisensory Modeling for Enhanced User Perception**<br/>
-Authors: Shamima Yasmin
+**Good News or Bad News First: Bias from Visualization Sequences**<br/>
+Authors: Watcharich Sriswasdi, Prawit Banjong, Puripant Ruchikachorn
 
-**Geospatial flow data extraction and visualization using Earth mover's distance**<br/>
-Authors: Adam Mertel, Justin M. Calabrese
+**MultiCaM-Vis: Visual Exploration of Multi-Classification Model with High Number of Classes**<br/>
+Authors: Syed Ahsan Ali Dilawer, Shah Rukh Humayoun
 
-**A Design Space for Linked 2D and 3D Visual Representations**<br/>
-Authors: Ebrar A. D. Santos, Jiayi Hong, Tobias Isenberg
+**A Prototype Visualisation Tool for Biocontrol Researchers.**<br/>
+Authors: Lauren Stevens, Louise Ord, Nunzio Knerr, Ben Gooden, Alexander Schmidt-Lebuhn
 
-**Linked Spatial and Temporal Normalization for Analysis of Cyclical 4D Skeletal Motion Data**<br/>
-Authors: Morgan L. Turner, Bridger Herman, Matthias Broske, Daniel F. Keefe
+**RTVis: Research Trend Visualization Toolkit**<br/>
+Authors: Xingyu Shen, Yueqian Lin, Zhixian Zhang, Xin Tong
 
-**How to Visualize Food Quantities to Prevent Food Waste? Examples and Challenges**<br/>
-Authors: Morgane Koval, Yvonne Jansen
+**Back to the Graphs: A Collection of Datasets and Quality Criteria for Temporal Networks Layout and Visualization**<br/>
+Authors: Velitchko Filipov, Alessio Arleo, Tatiana von Landesberger, Daniel Archambault
 
-**Digestable: Condensed Views of Tabular Data**<br/>
-Authors: David Borland, David Gotz
+**DUVis: A visual analytics tool for supporting a trans-disciplinary project**<br/>
+Authors: Alexander Rigby, Peter Butcher, Roberta Bellini, Paul Coughlan, Aonghus McNabola, Panagiotis Ritsos
 
-**Reordering for Matrix Visualization with Reorder.js**<br/>
-Authors: Nathan van Beusekom, Jean-Daniel Fekete
+**Understanding Auto-Scheduling Optimizations for Model Deployment via Visualizations**<br/>
+Authors: Laixin Xie, Chenyang Zhang, Ruofei Ma, Xing Jiang, Xingxing Xing, Wei Wan, Quan Li
 
-**Ambienizer: Turning Digital Photos into Ambient Visualizations**<br/>
-Authors: Ji Hwan Park, Arie Kaufman, Klaus Mueller
+**Evaluating the Effectiveness of AI-Generated Device Representations in Digital Twin Visualizations**<br/>
+Authors: Jiachun Du, Wei Zhao, Hanyue Duan, Xiaofan Liu
 
-**The Mental Number Line for Bar Graph Comprehension**<br/>
-Authors: Jimin Park, Sashank Varma
+**Refreshable Tactile Displays for Accessible Data Visualisation**<br/>
+Authors: Leona Holloway, Peter Cracknell, Kate Stephens, Melissa Fanshawe, Samuel Reinders, Kim Marriott, Matthew Butler
 
-**Direct Neighbor Search for Curve-based Vector Field Processing**<br/>
-Authors: Nguyen K. Phan, Guoning Chen
+**The Need for Visual Knowledge Elicitation**<br/>
+Authors: Lydia Byrne
 
-**Hairpin Vortex Identification using Template Fitting on Vortex Corelines**<br/>
-Authors: Adeel Zafar, Guoning Chen
+**Towards an Exploratory Visual Analytics System for Griefer Identification in MOBA Games**<br/>
+Authors: Zixin Chen, Shiyi Liu, Zhihua Jin, Gaoping Huang, Yang Chao, ZHENCHUAN YANG, Quan Li, Huamin Qu
 
-**Visualization for On and Off the Rails: Train Commuting Dashboards for DC**<br/>
-Authors: Jacob Rosen, Jeffrey Zhang, Alex Godwin
+**A method for Critical and Creative Visualisation Design-Thinking**<br/>
+Authors: Jonathan Roberts, Hanan Alnjar, Aron Owen, Panagiotis Ritsos
 
-**Visualizing the CAST of Characters Labeled in Animation**<br/>
-Authors: Oron Nir, Avi Neeman, Ariel Shamir
+**Circles: Inter-Model Comparison of Multi-Classification Problems with High Number of Classes**<br/>
+Authors: Nina Mir, Ragaad Al-Tarawneh, Shah Rukh Humayoun
 
-**Evaluating Cardiovascular Surgical Planning in Mobile Augmented Reality**<br/>
-Authors: Haoyang Yang, Pratham Darrpan Mehta, Jonathan Leo, Zhiyan Zhou, Megan Dass, Anish Upadhayay, Timothy C. Slesnick, Fawwaz Shaw, Amanda Randles, Duen Horng Chau
+**ManimML: Communicating Machine Learning Architectures with Animation**<br/>
+Authors: Alec Helbling, Duen Horng Chau
 
-**Online Study on Reading Behavior of Data-Rich Texts with Integrated Word-Scale Visualizations**<br/>
-Authors: Franziska Huth, Lukas Kaminski, Fairouz Grioui, Tanja Blascheck
+**TECVis: A Visual Analytics Tool to Compare People’s Emotion Feelings**<br/>
+Authors: Ilya Nemtsov, MST Jasmine Jahan, Chuting Yan, Shah Rukh Humayoun
 
-**Scanpath Visualization According to Fixations with Gazed Objects**<br/>
-Authors: Sangbong Yoo, Soobin Yim, ChanYoung Yoon, Hyein Hong, Yun Jang
+**Insights into Net Promoter Score (NPS®) Surveys with Microsoft Power BI and Advance Analytics**<br/>
+Authors: Joel Low, Hemen Patel, Siddharth Goyal
 
-**NLP For Vis: Designing a Chart to Alt Text Model**<br/>
-Authors: Ihita Mandal, Frank Elavsky, Dominik Moritz
+**Multi-Device Forensic Autopsy Documentation and Report Generation Using Mixed Reality**<br/>
+Authors: Vahid Pooryousef, Lonni Besançon, Maxime Cordeil, Richard Bassed, Tim Dwyer
+
+**Towards Better Understanding: Proposing Effective Visualization Methods for Analyzing Argument in Debate**<br/>
+Authors: Kwanghyuk Moon, Hyoji Ha, Kyungwon Lee
+
+**Design Space Exploration of Accessible DanceVis**<br/>
+Authors: Madhuka De Silva, Matthew Butler, Leona Holloway, Jim Smiley, Sarah Goodwin
+
+**Landslide visualization situated on tangible terrain models**<br/>
+Authors: Haobo Li, Kentaro Takahira, Kam Kwai Wong, Leni Yang, Wai Tong, Huamin Qu
+
+**Incorporating ML in Interaction-Intensive Workflows**<br/>
+Authors: Grace Minai, Denton Bobeldyk, Jonathan Leidig
+
+**Error Measurement and Visualization in 3D Volume Data**<br/>
+Authors: Man Hee Lee, Chang Joon Park
+
+**Visualization of Complexion for Photo-Realistic Facial Expressions**<br/>
+Authors: younghee kim, Woo Jin Jeon, Kwanghyun Shim
+
+**Virtual Reality Training for Nosocomial Infections Prevention**<br/>
+Authors: Mengjie Fan, Shaoxing Zhang, Xintian Zhao, Xingyao Yu, Liang Zhou
+
+**Semantic-Aware Image Screening**<br/>
+Authors: Minshan Xie, Tien-Tsin Wong
+
+**Inspire and Create: Unveiling the Potential of VisDice in Visualization Design**<br/>
+Authors: Aron Owen, Jonathan Roberts
+
+**Countering Simpson’s Paradox with Counterfactuals**<br/>
+Authors: Arran Zeyu Wang, David Borland, David Gotz
+
+**Diffusion Explainer: Visual Explanation for Text-to-image Stable Diffusion**<br/>
+Authors: Seongmin Lee, Benjamin Hoover, Hendrik Strobelt, Zijie Wang, ShengYun Peng, Austin Wright, Kevin Li, Haekyu Park, Haoyang Yang, Duen Horng Chau
+
+**Exploring Data Agency and Autonomous Agents as Embodied Data Visualizations**<br/>
+Authors: Sarah Schömbs, Jorge Goncalves, Wafa Johal
+
+**A Visual Survey of In-Situ Running Analytics**<br/>
+Authors: Ang Li, Stephen Viller, Gianluca Demartini, Maxime Cordeil
+
+**Reaching for Data: precise embodied selection-at-a-distance for immersive visualisation**<br/>
+Authors: Shaozhang Dai, Tim Dwyer, Barrett Ens, Lonni Besançon
+
+**Identifying Challenges in Designing, Developing and Evaluating Data Visualizations for Large Displays**<br/>
+Authors: Mahsa Sinaei, Pak Kwan, Matthew Klich, Jillian Aurisano, Fateme Rajabiyazdi
+
+**A Visual Analytic Environment to Co-locate Peoples’ Tweets with City Factual Data**<br/>
+Authors: snehal patil, Shah Rukh Humayoun
+
+**Time Walk: Blending Presence and History through AR Visualization**<br/>
+Authors: Wai Tong, Linping Yuan, Zikai Wen, Huamin Qu
+
+**Hierarchical Timeline Exploration for Collaborative Text Writing**<br/>
+Authors: Gabriel Dias Cantareira, Yiwen Xing, Nicholas Cole, Rita Borgo, Alfie Abdul-Rahman
+
+**TrafficBoard: Digital Spatio-Temporal Pinboard for Human Trafficking Detection**<br/>
+Authors: Catalina Vajiac, Duen Horng Chau, Andreas Olligschlaeger, Pratheeksha Nair, Meng-Chieh Lee, Mirela Cazzolato, Reihaneh Rabbany, Cara Jones, Christos Faloutsos
+
+**Enhancing Natural Language-Based Data Exploration with Analysis Pipeline Illustration**<br/>
+Authors: Yi Guo, Nan Cao, Xiaoyu Qi, Haoyang Li, Danqing Shi, Jing Zhang, Qing Chen
+
+**Understanding the Narrative: An Exploration of Narrative Structure and Visualisation Techniques in News Media**<br/>
+Authors: Songhai Fan, Ying Yang, Sarah Goodwin, Helen Purchase, Tim Dwyer, Simon Angus
+
+**Meta Design Studies : A Structured Approach for Deriving Domain-Orientied Visualization Recommendation Strategies**<br/>
+Authors: Manfred Klaffenboeck, Torsten Möller, Michael Gleicher, Michael Wimmer
+
+**A Normalised Metric for Edge Crossings**<br/>
+Authors: Gavin Mooney, Helen Purchase, Michael Wybrow
+
+**Breaking Down the Technical Barrier: Visual Programming Driven Dynamic Immersive Analytics using XROps**<br/>
+Authors: Suemin Jeon, JunYoung Choi, Haejin Jeong, Won-Ki Jeong
+
+**A Plot is Worth a Thousand Tests: Assessing Residual Diagnostics with the Lineup Protocol**<br/>
+Authors: Weihao Li, Di Cook, Emi Tanaka, Susan Vanderplas
+
+**The Golden Ratio in Narrative Structure: Visualizing the Rising-Climax in Data Videos**<br/>
+Authors: Xian Xu, David Yip, Huamin Qu
+
+**Plotting Apples, Oranges, and Distributions**<br/>
+Authors: Harriet Mason, Di Cook, Emi Tanaka, Sarah Goodwin, Ursula Laa

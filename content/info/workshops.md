@@ -5,11 +5,13 @@ permalink: /info/workshops
 contact: workshops@ieeevis.org
 ---
 
+## Attendance
+At least one author for each paper must register and attend the conference in person. If you have exceptional circumstances and none of the authors can attend in person please contact the conference committee as soon as possible at [info@ieeevis.org](mailto:info@ieeevis.org).
+
 ## Pre-Approved Workshops
 These workshops were pre-approved by the VIS Executive Committee. Please visit their individual websites for details on the topics and submission deadlines. 
 
 * [VIS4DH: 8th Workshop on Visualization for the Digital Humanities](#vis4dh)
-* [VISxAI: 6th Workshop on Visualization for AI Explainability](#visxai)
 * [TopoInVis: Workshop on Topological Data Analysis and Visualization](#topoinvis)
 * [VAHC: 14th Workshop on Visual Analytics in Healthcare](#vahc)
 
@@ -34,6 +36,7 @@ The following workshops went through our [submission/review process](http://ieee
 
 
 ## <a name="vis4dh"></a> [VIS4DH: 8th Workshop on Visualization for the Digital Humanities](http://vis4dh.dbvis.de/)
+Monday, October 23, 2023: 2:00 PM-5:00 PM AEDT (UTC+11)
 
 Alfie Abdul-Rahman, *King's College London* <br>
 Eric Alexander, *Carleton College* <br>
@@ -43,26 +46,11 @@ Contact: vis4dh@gmail.com
 The VIS4DH workshop brings together researchers and practitioners from the fields of visualization and the humanities to discuss new research directions at the intersection of visualization and (digital) humanities research.
 
 
-## <a name="visxai"></a> [VISxAI: 6th Workshop on Visualization for AI Explainability](http://visxai.io/)
-
-Angie Boggust, *Massachusetts Institute of Technology* <br>
-Mennatallah El-Assady, *ETH AI Center* <br>
-Fred Hohman, *Apple* <br>
-Adam Perer, *Carnegie Mellon University* <br>
-Hendrik Strobelt, *MIT-IBM Watson AI Lab* <br>
-Zijie Jay Wang, *Georgia Tech* <br>
-
-Contact: orga@visxai.io 
-
-The role of visualization in artificial intelligence (AI) gained significant attention in recent years. With the growing complexity of AI models, the critical need for understanding their inner-workings has increased. Visualization is potentially a powerful technique to fill such a critical need.
-
-The goal of this workshop is to initiate a call for "explainables" / "explorables" that explain how AI techniques work using visualization. We believe the VIS community can leverage their expertise in creating visual narratives to bring new insight into the often obfuscated complexity of AI systems.
-
-
 ## <a name="topoinvis"></a> [TopoInVis: Workshop on Topological Data Analysis and Visualization](https://topoinvis.org/)
+Sunday, October 22, 2023: 2:00 PM-5:00 PM AEDT (UTC+11)
 
 Paul Rosen, *University of South Florida* <br>
-TBD <br>
+Guoning Chen, *University of Houston* <br>
 
 Contact: topoinvis@ieeevis.org
 
@@ -70,6 +58,7 @@ The IEEE VIS Workshop on Topological Data Analysis and Visualization aims at bei
 
 
 ## <a name="vahc"></a> [VAHC: 14th Workshop on Visual Analytics in Healthcare](https://www.visualanalyticshealthcare.org/)
+Sunday, October 22, 2023: 2:00 PM-5:00 PM AEDT (UTC+11)
 
 Jürgen Bernard, *University of Zurich* <br>
 Annie T. Chen, *University of Washington* <br>
@@ -82,6 +71,7 @@ The Workshop on Visual Analytics in Healthcare is the premier research event exp
 This year, the special focus of VAHC is on the interactive visualization of health data for digital and personal health.
 
 ## <a name="nlviz"></a> [NLVIZ Workshop: Exploring Research Opportunities for Natural Language, Text, and Data Visualization](https://www.nlvizworkshop2023.com/)
+Sunday, October 22, 2023: 2:00 PM-5:00 PM AEDT (UTC+11)
 
 Vidya Setlur, *Tableau Research, Palo Alto, California, United States*<br>
 Arjun Srinivasan, *Tableau Research, Seattle, Washington, United States*<br>
@@ -94,6 +84,7 @@ Addressing these questions calls for research at the intersection of human-compu
 
 
 ## <a name="vsg"></a> [Visualization for Social Good](https://vis4good.github.io/)
+Monday, October 23, 2023: 9:00 AM-12:00 PM AEDT (UTC+11)
 
 Evanthia Dimara, *Department of Information and Computing Sciences / Visualization and Graphics Group (VIG), Utrecht University, Utrecht, Netherlands*<br>
 Uzma Haque Syeda, *Khoury College of Computer and Information Sciences, Northeastern University, Boston, Massachusetts, United States*<br>
@@ -106,6 +97,7 @@ Contact: emily.wall@emory.edu
 Data is an inescapable part of our lives: it guides commerce, government, and technology, and increasingly determines what lives we can (or cannot) live. Data visualization has a special place within this emerging, data-driven, order: as a tool to inform or persuade mass audiences, guide or enlighten the specialist, or give a voice to the unheard. We therefore pose the question: how can visualization, and visualization research, help us build the worlds we want? This theme, building just and equitable futures, is the motivation behind the third edition of our recurring workshop at IEEE VIS: Visualization for Social Good. Our workshop series has been successful not only at showcasing high-quality socially-minded visualization research from diverse voices, but also in starting important conversations around the role of data visualization as a force for good in society at large. We invite you to join our workshop and growing community on Visualization for Social Good, to navigate conversations about the role of data in human dignity and flourishing.
 
 ## <a name="Vis4PandEmRes"></a> [Visualization for Pandemic and Emergency Responses Workshop (Vis4PandEmRes)](https://vis4pandemres.github.io/)
+Sunday, October 22, 2023: 9:00 AM-12:00 PM AEDT (UTC+11)
 
 Alfie Abdul-Rahman, *Department of Informatics, King's College London, London, United Kingdom*<br>
 Kelly Gaither, *Texas Advanced Computing Center, University of Texas at Austin, Austin, Texas, United States*<br>
@@ -119,6 +111,7 @@ Contact: alfie.abdulrahman@kcl.ac.uk
 There have been many VIS R&D activities for supporting COVID-19 pandemic responses, many of which have not yet become public knowledge. This workshop will enable VIS researchers and practitioners to share their experience, knowledge, and reflection and offer their insight and foresight about the role of VIS in pandemic and emergency responses. It will also allow the VIS community to compile one or more archivable collections of records about various VIS activities around the world during the COVID-19 pandemic.
 
 ## <a name="altVis"></a> [alt.VIS 2023](https://altvis.github.io/)
+Monday, October 23, 2023: 2:00 PM-5:00 PM AEDT (UTC+11)
 
 Andrew M McNutt, *Computer Science, University of Chicago, Chicago, Illinois, United States*<br>
 Lonni Besançon, *Department of Science and Technology, Linköping University, Norrköping, Sweden*<br>
@@ -126,12 +119,12 @@ Derya Akbaba, *Dept. of Science & Technology, Linköping University, Norrköping
 Sara Di Bartolomeo, *Khoury College of Computer Sciences, Northeastern University, Boston, Massachusetts, United States*<br>
 Victor Schetinger, *TU Wien, Institute of Visual Computing and Human-Centered Technology, Vienna, Austria*<br>
 
-
 Contact: mcnutt@uchicago.edu
 
 Often the most transformative ideas and challenges come from unexpected and serendipitous sources. Yet, conferences are not often perceived as a place for non-traditional, controversial, or outré work. We propose to continue the success of the last two year's “alt.VIS'” workshops that borrowed from the long-running and successful “alt.chi” model from the ACM SIGCHI conference. This venue will once again provide an avenue for surfacing creative or critical work that would otherwise not find a home through the standard VIS conference review process.
 
 ## <a name="VisComm"></a> [Sixth Workshop on Visualization for Communication (VisComm)](https://www.viscomm.io/)
+Sunday, October 22, 2023: 2:00 PM-5:00 PM AEDT (UTC+11)
 
 Paul Parsons, *Computer Graphics Technology, Purdue University, West Lafayette, Indiana, United States*<br>
 Jon Schwabish, *Urban Institute, Washington, District of Columbia, United States*<br>
@@ -144,6 +137,7 @@ The VisComm workshop brings together practitioners and researchers from several 
 
 
 ## <a name="EnergyVis"></a> [EnergyVis 2023: 3rd Workshop on Energy Data Visualization](https://energyvis.org/)
+Sunday, October 22, 2023: 9:00 AM-12:00 PM AEDT (UTC+11)
 
 Kenny Gruchalla, *Computational Science Center, National Renewable Energy Lab, Golden, Colorado, United States*<br>
 Arnaud Prouzeau, *Potioc, Inria, Bordeaux, France*<br>
@@ -155,6 +149,7 @@ Contact: kenny.gruchalla@nrel.gov
 The energy sector is witnessing significant technological progress, primarily driven by the growth of renewable energy, distributed energy resources, and smart grid technologies. This rapid evolution is generating increasingly large, complex data that present substantial challenges for energy systems planning and operations. More research is needed to develop new and innovative visualization methods that can handle the increasing complexity of energy systems and provide diverse stakeholders with the necessary insights to make informed decisions about the future of energy. The EnergyVis 2023 workshop aims to bring together scientists, researchers, and practitioners from the energy and visualization domains to critically assess and discuss energy data visualization in the context of the evolving energy sector. The workshop’s main objectives will be to seed the development of a publishable report on the state-of-the-art and grand challenges in energy data visualization and to develop stronger international collaborations for this important area of multidisciplinary research. With the rapid evolution of energy systems, visualization experts have an essential role in enabling stakeholders to better understand and manage these increasingly complex systems. By expanding the reach of EnergyVis to the broader visualization community at IEEE VIS, we hope to continue the momentum of the past workshops and build a community of experts capable of tackling the visualization challenges of modern energy systems.
 
 ## <a name="EduVis"></a> [EduVis: Workshop on Visualization Education, Literacy, and Activities](https://ieee-eduvis.github.io/)
+Monday, October 23, 2023: 9:00 AM-12:00 PM AEDT (UTC+11)
 
 Mandy Keck, *University of Applied Sciences Upper Austria, School of Informatics, Communications and Media, Hagenberg im Mühlkreis, Austria*<br>
 Samuel Huron, *Dpt. SES, CNRS i3, Télécom Paris, Institut Polytechnique de Paris, Palaiseau, ile de France, France*<br>
@@ -171,6 +166,7 @@ This half-day workshop focuses on visualization education, literacy, and activit
 
 
 ## <a name="CityVis"></a> [5th Workshop on Urban Data Visualization (CityVis)](https://www.cityvis.io/workshops/2023/)
+Sunday, October 22, 2023: 2:00 PM-5:00 PM AEDT (UTC+11)
 
 Jessica Bou Nassar, *Human-centred computing, Monash University, Clayton, VIC, Australia*<br>
 Lyn Bartram, *School of Interactive Art and Technology, Simon Fraser University, Surrey, British Columbia, Canada*<br>
@@ -185,6 +181,7 @@ With the growth and increasing density of urban areas, new technologies are emer
 
 
 ## <a name="multiViz"></a> [MERCADO: Multimodal Experiences for Remote Communication Around Data Online](https://sites.google.com/view/mercadoworkshop)
+Sunday, October 22, 2023: 9:00 AM-12:00 PM AEDT (UTC+11)
 
 Matthew Brehmer, *Tableau Research, Seattle, Washington, United States*<br>
 Maxime Cordeil, *School of Information Technology and Electrical Engineering, The University of Queensland, Brisbane, Australia*<br>
@@ -196,6 +193,7 @@ Contact: mercadoworkshop@googlegroups.com
 MERCADO is a half-day workshop on the topic of new multimodal experiences for remote communication and collaboration around data. We aim to gather researchers working in data visualization, human-computer interaction (HCI), and computer-supported collaborative work (CSCW) who are interested in multimodal, synchronous, and remote or hybrid forms of communication and collaboration within organizational and educational settings.
 
 ## <a name="VisxVision"></a> [VisxVision: Workshop on Novel Directions in Vision Science and Visualization Research](https://visxvision.com/)
+Monday, October 23, 2023: 2:00 PM-5:00 PM AEDT (UTC+11)
 
 Ghulam Jilani Quadri, *Department of Computer Science, University of North Carolina, Chapel Hill, North Carolina, United States*<br>
 Clementine Zimnicki, *Psychology Department, University of Wisconsin-Madison, Madison, Wisconsin, United States*<br>
@@ -208,6 +206,7 @@ Contact: jiquad@cs.unc.edu
 Interdisciplinary research between vision science and visualization aims to provide a better scientific understanding of how people interpret visualized data. By studying the cognitive processes involved in visual perception, visualization researchers can gain insight into better-adjusting visualizations to meet user goals. Topics from vision sciences, such as memory, ensemble coding, numerical cognition, color perception, and pattern recognition, can be mapped directly to common challenges encountered in visualization research. At the same time, interacting with visualization researchers exposes vision scientists to novel challenges and research questions in their own field. Building on the growing interest in work at this intersection from both the vision science and visualization communities, this 3rd biennial workshop at IEEE VIS 2023 aims to facilitate collaboration between the vision science and visualization communities by bringing in new researchers, discussing innovative discoveries, and sharing cutting-edge research methods and proposals. Through a multi-stage format, the workshop provides a platform for diverse voices to be heard and new collaborations to be formed.
 
 ## <a name="VisProv"></a> [(Vis + Prov) x Domain: Workshop on Visualization and Provenance Across Domains](https://visxprov.github.io/)
+Monday, October 23, 2023: 9:00 AM-12:00 PM AEDT (UTC+11)
 
 Kai Xu, *School of Computer Science, University of Nottingham, Nottingham, United Kingdom*<br>
 Michelle Dowling, *Pacific Northwest National Laboratory, Richland, Washington, United States*<br>

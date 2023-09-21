@@ -1,145 +1,150 @@
 ---
-title: Best Paper Awards
+title: Best Paper/Poster Awards
 layout: page
 permalink: /info/awards/best-paper-awards
 contact: papers@ieeevis.org
 active_nav: "Program"
 ---
 
-Best paper and honorable mention awards are selected by a dedicated committee of experienced community members. Both awards recognize outstanding work from the pool of accepted papers. Best paper committees use a variety of criteria to select the best paper including potential impact to the community, the importance of any results obtained, technical challenges overcome, etc.
+Best paper and honorable mention awards are selected by a dedicated committee of experienced community members. Both awards recognize outstanding work from the pool of accepted papers. Best paper committees use a variety of criteria to select the best paper including potential impact to the community, the importance of any results obtained, and technical challenges overcome.
 
 ## Full Papers
 
-The Best Papers Committee for VIS 2022 full papers consists of seven distinguished members: Tamara Munzner (chair), Remco Chang, Ingrid Hotz, Petra Isenberg, Tatiana von Landesberger, Rüdiger Westermann, and Xiaoru Yuan. The Papers Chairs Committee would like to thank the Best Papers Committee for their work and to congratulate the awardees!
+The Best Papers Committee for VIS 2023 Full papers consists of seven distinguished members: G. Elisabeta (Liz) Marai (chair), Rita Borgo, Stefan Bruckner, Steffen Koch, Kwan-Liu Ma, Jo Wood, and Xiaoru Yuan. The Papers Chairs would like to thank the Best Papers Committee for their work and to congratulate the awardees!
 
 ### Best Papers
 
-**Affective Learning Objectives for Communicative Visualizations**
+**Affective Visualization Design: Leveraging the Emotional Impact of Data**
 <br/>
-Authors: Elsie Lee-Robbins, Eytan Adar 
+Authors: Xingyu Lan, Yanqiu Wu, Nan Cao
 
-Justification: “This thoughtful and well-written paper presents an interesting and provocative perspective on visualization design, with a clear and compelling argument that all visualizations are affective whether that context is explicitly discussed or not. The paper's proposed taxonomy of affective learning objectives is informed by a methodologically sound and well-designed qualitative study. It provides guidance on how to improve the visualization community's mechanisms to surface those decisions, and help visualization designers reflect upon them.”
+Justification: "In an area that has only recently been recognised for its importance, this paper stands out in providing a comprehensive review and evaluation of emotionally affective visualization design. With its systematic structuring of 170 surveyed papers and designs, along with a nuanced discussion of affective design form and motivation, it provides an important contribution to the community. It moves us beyond a collection of disparate design examples by establishing a foundational design space and framework relating design technique, thematic genre and task. In doing so, it provides an important step for future work to evaluate and improve affective design in visualization."
 
-**Multiple Forecast Visualizations (MFVs): Trade-offs in Trust and Performance in Multiple COVID-19 Forecast Visualizations**
+**Fast Compressed Segmentation Volumes for Scientific Visualization**
 <br/>
-Authors: Lace Padilla, Racquel Fygenson, Spencer C. Castro, Enrico Bertini
+Authors: Max Piochowiak, Carsten Dachsbacher
 
-Justification: “This comprehensive yet concise paper illuminates an important visualization problem by providing empirical evidence for the link between COVID-19 forecast visualization design choices and trust: visualization design choices easily influence trust, but notably trust is not indicative of successful interpretation. The methodology is exemplary, with high ecological validity thanks to the use of real-world data, and a preregistered analysis plan for the first two studies in addition to a third study clearly labelled as exploratory. This nicely executed investigation features insightful results that include actionable design guidelines; the release of both data and analysis scripts provides a foundation for future analysis and exploration of this highly relevant topic.”
+Justification: "This paper presents a work that is very well motivated, designed, evaluated and demonstrated. The authors took domain specific knowledge about the properties of the data and used it to develop a novel way to represent the data as a hierarchical sequence of instructions to reconstruct the data, to achieve high compression ratios in a data layout that can be used for interactive, level-of-detail rendering. Such a creative re-framing of data representation may also be applicable beyond rendering."
 
-**Uncertainty-Aware Multidimensional Scaling**
+**Swaying the Public? Impacts of Election Forecast Visualizations on Emotion, Trust, and Intention in the 2022 U.S. Midterms**
 <br/>
-Authors: David Hägele, Tim Krake, Daniel Weiskopf
+Authors: Fumeng Yang, Mandi Cai, Chloe Rose Mortenson, Hoda Fakhari, Ayse Deniz Lokmanoglu, Jessica Hullman, Steven Franconeri, Nicholas Diakopoulos, Erik Nisbet, Matthew Kay
 
-Justification: “This clear and well-motivated paper addresses the significant open question of how to incorporate uncertainty into dimensionality reduction methods. It presents both a mathematical model and a numerical algorithm, with a detailed discussion of several visual encoding techniques that are suitable for analyzing the resulting uncertain data. The results include a detailed sensitivity analysis with a synthetic dataset, and a walkthrough of several real-world datasets to demonstrate the versatility of their algorithm and the benefits of their mathematical model.”
+Justification: "This thought-provoking, engaging paper presents a longitudinal, large-scale, real-time study on the impact of uncertainty visualization of election forecasts in the U.S. 2022 midterms. The study is researched, planned and executed in an exemplary manner. The experimental results offer intriguing insights into the effects of these uncertainty visualizations on viewer emotions, trust, and intention to vote. Beyond the topical subject, the findings are useful to any uncertainty visualization endeavors."
+
+**TimeSplines: Sketch-based Authoring of Flexible and Idiosyncratic Timelines**
+<br/>
+Authors: Anna Offenwanger, Matthew Brehmer, Fanny Chevalier, Theophanis Tsandilas
+
+Justification: "This creative paper introduces an impressive novel authoring tool to support free-form sketching with data. Specifically, the paper follows a technically-strong approach to support visually communicating chronological narratives which do not follow a linear development. Overall, the work supports expressive and creative styles of visualization, pushing further the state of the art in free-form drawing of data visualizations."
+
+**Visualization of Discontinuous Vector Field Topology**
+<br/>
+Authors: Egzon Miftari, Daniel Durstewitz, Filip Sadlo
+
+Justification: "This well motivated and elegant paper successfully extends vector field topology to discontinuous but piecewise-continuous vector fields, by providing extraction techniques for Filippov systems and extending these systems with non-unique transport. This work enables visualizing and exploring the behaviors of complex flow with discontinuities, which is extremely important in many engineering and application fields."
+
+**Vortex Lens: Interactive Vortex Core Line Extraction using Observed Line Integral Convolution**
+<br/>
+Authors: Peter Rautek, Xingdi Zhang, Bernhard Woschizka, Thomas Theussl, Markus Hadwiger
+
+Justification: "This work presents a novel and creative contribution to the analysis of vortex structures in 2D unsteady flows. It proposes a new interactive approach that keeps the user in the loop during reference frame optimization, allowing for the rapid exploration of real-world flow data. The paper utilizes a clever iterative optimization scheme that can be executed asynchronously during user interaction, alleviating the need for any pre-computation, representing a clear advancement of the state of the art. By explicitly exploring the connection between the mathematical formulation and physical meaningfulness, the paper further contributes to the foundations of flow visualization."
+
 
 ### Best Paper Honorable Mentions
 
-**ASTF: Visual Abstractions of Time-Varying Patterns in Radio Signals**
+**A Computational Design Process to Fabricate Sensing Network Physicalizations**
 <br/>
-Authors: Ying Zhao, Luhao Ge, Huixuan Xie, Genghuai Bai, Zhao Zhang, Qiang Wei, Yun Lin, Yuchao Liu, Fangfang Zhou
+Authors: S. Sandra Bae, Takanori Fujiwara, Anders Ynnerman, Ellen Yi-Luen Do, Michael L Rivera, Danielle Albers Szafir
 
-**Breaking the Fourth Wall of Data Stories through Interaction**
+**ARGUS: Visualization of AI-assisted Task Guidance in AR**
 <br/>
-Authors: Yang Shi, Tian Gao, Xiaohan Jiao, Nan Cao
+Authors: Sonia Castelo Quispe, João Rulff, Erin McGowan, Bea Steers, Guande Wu, Shaoyu Chen, Iran Roman, Roque Lopez, Ethan Brewer, Chen Zhao, Jing Qian, Kyunghyun Cho, He He, Qi Sun, Huy T. Vo, Juan Pablo Bello, Michael Krone, Claudio Silva
 
-**ChartWalk: Navigating large collections of text notes in electronic health records for clinical chart review**
+**Average Estimates in Line Graphs are Biased Towards Areas of Higher Variability**
 <br/>
-Authors: Nicole Sultanum, Farooq Naeem, Michael Brudno, Fanny Chevalier
+Authors: Dominik Moritz, Lace M. Padilla, Francis Nguyen, Steven L Franconeri
 
-**Dashboard Design Patterns**
+**CLAMS: Cluster Ambiguity Measure for Estimating Perceptual Variability in Visual Clustering**
 <br/>
-Authors: Benjamin Bach, Euan Freeman, Alfie Abdul-Rahman, Cagatay Turkay, Saiful Khan, Yulei Fan, Min Chen
+Authors: Hyeon Jeon, Ghulam Jilani Quadri, Hyunwook Lee, Paul Rosen, Danielle Albers Szafir, Jinwook Seo
 
-**Evaluating the Use of Uncertainty Visualisations for Imputations of Data Missing At Random in Scatterplots**
+**Data Formulator: AI-powered Concept-driven Visualization Authoring**
 <br/>
-Authors: Abhraneel Sarma, Shunan Guo, Jane Hoffswell, Ryan Rossi, Fan Du, Eunyee Koh, Matthew Kay
+Authors: Chenglong Wang, John R. Thompson, Bongshin Lee
 
-**Exploring Interactions with Printed Data Visualizations in Augmented Reality**
+**Dead or Alive: Continuous Data Profiling for Interactive Data Science**
 <br/>
-Authors: Wai Tong, Zhutian Chen, Meng Xia, Leo Yu-Ho Lo, Linping Yuan, Benjamin Bach, Huamin Qu
+Authors: Will Epperson, Vaishnavi Gorantla, Dominik Moritz, Adam Perer
 
-**Extending the Nested Model for User-Centric XAI: A Design Study on GNN-based Drug Repurposing**
+**Dr. KID: Direct Remeshing and K-set Isometric Decomposition for Scalable Physicalization of Organic Shapes**
 <br/>
-Authors: Qianwen Wang, Kexin Huang, Payal Chandak, Marinka Zitnik, Nils Gehlenborg
+Authors: Dawar Khan, Ciril Bohak, Ivan Viola
 
-**FoVolNet: Fast Volume Rendering using Foveated Deep Neural Networks**
+**Enthusiastic and Grounded, Avoidant and Cautious: Understanding Public Receptivity to Data and Visualizations**
 <br/>
-Authors: David Bauer, Qi Wu, Kwan-Liu Ma
+Authors: Helen Ai He, Jagoda Walny, Sonja Thoma, Sheelagh Carpendale, Wesley Willett
 
-**GRay: Ray Casting for Visualization and Interactive Data Exploration of Gaussian Mixture Models**
+**Extract and Characterize Hairpin Vortices in Turbulent Flows**
 <br/>
-Authors: Kai Lawonn, Monique Meuschke, Pepe Eulzer, Matthias Mitterreiter, Joachim Giesen, Tobias Günther
+Authors: Adeel Zafar, Di Yang, Guoning Chen
 
-**Medley: Intent-based Recommendations to Support Dashboard Composition**
+**InnovationInsights: A Visual Analytics Approach for Understanding the Dual Frontiers between Science and Technology**
 <br/>
-Authors: Aditeya Pandey, Arjun Srinivasan, Vidya Setlur
+Authors: Yifang Wang, Yifan Qian, Xiaoyu Qi, Nan Cao, Dashun Wang
 
-**OBTracker: Visual Analytics of Off-ball Movements in Basketball**
+**ManiVault: A Flexible and Extensible Visual Analytics Framework for High-Dimensional Data**
 <br/>
-Authors: Yihong Wu, Dazhen Deng, Xiao Xie, Moqi He, Jie Xu, Hongzeng Zhang, Hui Zhang, Yingcai Wu
+Authors: Alexander Vieth, Thomas Kroes, Julian Thijssen, Baldur van Lew, Jeroen Eggermont, Soumyadeep Basu, Elmar Eisemann, Anna Vilanova, Thomas Höllt, Boudewijn Lelieveldt
 
-**Quick Clusters: A GPU-Parallel Partitioning for Efficient Path Tracing of Unstructured Volumetric Grids**
+**Merge Tree Geodesics and Barycenters with Path Mappings**
 <br/>
-Authors: Nate Morrical, Alper Sahistan, Ugur Gudukbay, Ingo Wald, Valerio Pascucci
+Authors: Florian Wetzels, Mathieu Pont, Julien Tierny, Christoph Garth
 
-**SliceTeller : A Data Slice-Driven Approach for Machine Learning Model Validation**
+**ProWis: A Visual Approach for Building, Managing, and Analyzing Weather Simulation Ensembles at Runtime**
 <br/>
-Authors: Xiaoyu Zhang, Jorge H Piazentin Ono, Huan Song, Liang Gou, Kwan-Liu Ma, Liu Ren
+Authors: Carolina Veiga Ferreira de Souza, Suzanna Maria Bonnet, Daniel de Oliveira, Marcio Cataldi, Fabio Miranda, Marcos Lage
 
-**Supporting Expressive and Faithful Pictorial Visualization Design with Visual Style Transfer**
-<br/>
-Authors: Yang Shi, Pei Liu, Siji Chen, Mengdi Sun, Nan Cao
-
-**The Quest for Omnioculars: Embedded Visualization for Augmenting Basketball Game Viewing Experiences**
-<br/>
-Authors: Tica Lin, Zhutian Chen, Yalong Yang, Daniele Chiappalupi, Johanna Beyer, Hanspeter Pfister
-
-**TrafficVis: Visualizing Organized Activity and Spatio-Temporal Patterns for Detecting Human Trafficking**
-<br/>
-Authors: Catalina Vajiac, Duen Horng Chau, Andreas Olligschlaeger, Rebecca Mackenzie, Pratheeksha Nair, Meng-Chieh Lee, Yifei Li, Namyong Park, Reihaneh Rabbany, Christos Faloutsos
-
-**VDL-Surrogate: A View-Dependent Latent-based Model for Parameter Space Exploration of Ensemble Simulations**
-<br />
-Authors: Neng Shi, Jiayi Xu, Haoyu Li, Hanqi Guo, Jonathan Woodring, Han-Wei Shen
 
 
 ## Short Papers
 
-The Best Papers Committee for VIS 2022 short papers consists of three distinguished members: Enrico Bertini, Min Chen, and Kwan-Liu Ma. The Short Papers Chairs would like to thank the Best Papers Committee for their work and to congratulate the awardees!
+The Best Papers Committee for VIS 2023 short papers consists of three distinguished members: Daniel Archambault, Jian Chen, and Nathalie Riche. The Short Papers Chairs would like to thank the Best Papers Committee for their work and to congratulate the awardees!
 
 ### Best Paper
 
-**Exploring D3 Implementation Challenges on Stack Overflow**
+**Gridded Glyphmaps for Supporting Spatial COVID-19 Modelling**
 <br/>
-Authors: Leilani Battle, Danni Feng, Kelli Webber
+Authors: Aidan Slingsby, Richard Reeve, Claire Harris
 
 ### Best Paper Honorable Mentions
 
-**Toward Systematic Considerations of Missingness in Visual Analytics**
+**Draco 2: An Extensible Platform to Model Visualization Design**
 <br/>
-Authors: Maoyuan Sun, Yue Ma, Yuanxin Wang, Tianyi Li, Jian Zhao, Yujun Liu, Ping-Shou Zhong
+Authors: Junran Yang, Péter Ferenc Gyarmati, Zehua Zeng, Dominik Moritz
 
-**ARShopping: In-Store Shopping Decision Support Through Augmented Reality and Immersive Visualization**
+**Data in the Wind: Evaluating Multiple-Encoding Design for Particle Motion Visualizations**
 <br/>
-Authors: Bingjie Xu, Shunan Guo, Eunyee Koh, Jane Hoffswell, Ryan Rossi, Fan Du
+Authors: Yiren Ding, Lane Harrison
+
 
 
 ## Posters
 
-The Best Posters Committee for VIS 2022 posters consists of three distinguished members: Alex Endert, Daniel Jönsson, and Michael Sedlmair. The Poster Chairs would like to thank the Best Posters Committee for their work and to congratulate the awardees!
+The Best Posters Committee for VIS 2022 posters consists of three distinguished members: Jessica Hullman, Vijay Natarajan, and Adam Perer. The Poster Chairs would like to thank the Best Posters Committee for their work and to congratulate the awardees!
 
 ### Best Poster
 
-**Ditto: Exploring data in large display environments through speech+mid-air gesture interactions**
+**ManimML: Communicating Machine Learning Architectures with Animation**
 <br/>
-Authors: Jillian Aurisano, Abeer Alsaiari, Abhinav Kumar, Moira Zellner, Jason Leigh, Barbara Di Eugenio, Andrew E Johnson
+Authors: Alec Fisher Helbling, Duen Horng Chau
 
 ### Best Poster Honorable Mentions
 
-**Dynamic visualizations for violence prevention**
+**Enhancing Natural Language-Based Data Exploration with Analysis Pipeline Illustration**
 <br/> 
-Author: Luke Demarest
+Author: Yi Guo, Nan Cao, Xiaoyu Qi, Haoyang Li, Danqing Shi, Jing Zhang, Qing Chen, Daniel Weiskopf
 
-**Processing Fluency Improves Trust in Scatterplot Visualizations**
+**Refreshable Tactile Displays for Accessible Data Visualisation**
 <br/>
-Authors: Hamza Elhamdadi, Lace Padilla, Cindy Xiong
+Authors: Leona M Holloway, Peter Cracknell, Kate Stephens, Melissa Fanshawe, Samuel Reinders, Kim Marriott, Matthew Butler

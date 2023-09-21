@@ -204,28 +204,28 @@ menu:
             description: "Click to see the schedule for events on Sunday and Monday"
             columns:
               - links:
-      #             - text: "Papers"
-      #               description: "The latest research in theory, methods, and applications of visualization"
-      #               url: "/year/2023/info/papers-sessions"
-      #             - text: "Posters"
-      #               description: "Nascent and recent work"
-      #               url: "/year/2023/info/posters"
+                  - text: "Papers"
+                    description: "The latest research in theory, methods, and applications of visualization"
+                    url: "/year/2023/info/papers-sessions"
+                    is_new: true
+                  - text: "Posters"
+                    description: "Nascent and recent work"
+                    url: "/year/2023/info/posters"
+                    is_new: true
                   - text: "Tutorials"
                     description: "Learn new tools and application domains"
                     url: "/year/2023/info/tutorials"
-                    is_new: true
                   - text: "Workshops"
                     description: "Informal setting to discuss emerging topics"
                     url: "/year/2023/info/workshops"
+                  - text: "Panels"
+                    description: "Discuss important and controversial issues"
+                    url: "/year/2023/info/panels"
                     is_new: true
-      #             - text: "Panels"
-      #               description: "Discuss important and controversial issues"
-      #               url: "/year/2023/info/panels"
-      #               #is_new: true
-      #             - text: "Application Spotlights"
-      #               description: "Showcase practical, real-world applications of visualization"
-      #               url: "/year/2023/info/spotlights"
-      #               #is_new: true
+                  - text: "Application Spotlights"
+                    description: "Showcase practical, real-world applications of visualization"
+                    url: "/year/2023/info/spotlights"
+                    is_new: true
       - subsections:
           - heading: "Invited Speakers"
 #            heading_url: "/year/2023/info/week-at-a-glance"
@@ -240,21 +240,20 @@ menu:
                     description: "Matt Duckham, RMIT University"
                     url: "/year/2023/info/capstone-speaker"
                     is_new: true
-          # - heading: "Awards and Recognitions"
-          #   description: "Recognize outstanding work by the VIS community"
-          #   columns:
-          #    - links:
-          #      - text: "Best Paper Awards"
-          #        url: "/year/2023/info/awards/best-paper-awards"
-          #        is_new: true
-               # - text: "Best Poster Awards"
-               #   url: "/year/2023/info/awards/best-poster-awards"
+          - heading: "Awards and Recognitions"
+            description: "Recognize outstanding work by the VIS community"
+            columns:
+             - links:
+               - text: "Best Paper/Poster Awards"
+                 url: "/year/2023/info/awards/best-paper-awards"
+                 is_new: true
   # - text: "Service Awards"
   #   url: "https://www.google.com"
   # - text: "VGTC VIS Awards"
   #   url: "https://www.google.com"
-  #              - text: "Test of Time Awards"
-  #                url: "/year/2023/info/awards/test-of-time-awards"
+               - text: "Test of Time Awards"
+                 url: "/year/2023/info/awards/test-of-time-awards"
+                 is_new: true
   #      - subsections:
   #        - heading: "Plenary Sessions"
   #            # description: "TK TK TK Get an overview of what’s happening at VIS 2020"
@@ -327,10 +326,6 @@ menu:
                     description: "Visual Analytics in Healthcare"
                     url: "https://visualanalyticshealthcare.org"
                     is_external: true
-                  - text: "VISxAI"
-                    description: "Visualization for AI Explainability"
-                    url: "http://visxai.io/"
-                    is_external: true
                   - text: "VIS4DH"
                     description: "Visualization for the Digital Humanities"
                     url: "https://vis4dh.dbvis.de/"
@@ -345,8 +340,12 @@ menu:
                   url: "http://vislies.org"
                   is_external: true
                 - text: "Early Career and Friends Happy Hour"
-                  url: "/year/2023/info/meetups#vis-earlycareer"
                   description: "Meet and mingle with early career attendees"
+                  url: "/year/2023/info/meetups#vis-earlycareer"
+                - text: "VISxAI"
+                  description: "Visualization for AI Explainability"
+                  url: "http://visxai.io/"
+                  is_external: true
       - subsections:
           - heading: "Community"
             heading_url: "/year/2023/info/call-participation/community"
