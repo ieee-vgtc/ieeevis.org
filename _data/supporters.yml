@@ -74,7 +74,7 @@
        image: /assets/supporters/monash.png
        url: "https://www.monash.edu/it"
      - name: "JPMorgan Chase"
-       image: /assets/supporters/JPMC_StackedLogo_Black.svg
+       image: /assets/supporters/jpmchase.svg
        url: "https://www.jpmorganchase.com/"
 
  - category: Pearl
