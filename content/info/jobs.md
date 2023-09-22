@@ -22,7 +22,12 @@ Questions? Contact the Community Committee (Alfie Abdul-Rahman, Qing Chen, and B
 # Job Postings
 
 ## Academic
+[**Researcher (PhD) - Visualization of Meteorologic Data and Models**](https://visva.cs.uni-koeln.de/) at the University of Cologne.
 
+Location: Cologne, Germany  
+Start date: 2024-01-01  
+Start time flexible? Yes  
+Contact: Tatiana von Landesberger, landesberger@cs.uni-koeln.de  
 
 
 
