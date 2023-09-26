@@ -93,6 +93,7 @@ jobs:
     - name: Build this year (2023) + deploy
       env:
         IEEEVIS_AWS_USER: default
+        AWS_DISTRIBUTION_ID: ${{ secrets.aws_distribution_id_production }}
       run: |
         git switch -f --detach ${{ github.event.release.tag_name }}
         make release2023
