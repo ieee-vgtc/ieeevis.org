@@ -148,7 +148,7 @@ for o in files_to_upload:
     print("  %s" % o)
 put_objects(files_to_upload)
 
-invalidation_id = create_invalidation(os.environ.get('AWS_DISTRIBUTION_ID_STAGING'))
+invalidation_id = create_invalidation(os.environ["AWS_DISTRIBUTION_ID_STAGING"])
 print("Invalidation created successfully with Id: " + invalidation_id)
 
 files_to_remove = diff['to_delete']
