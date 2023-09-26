@@ -7,6 +7,7 @@ import json
 import hashlib
 import re
 import os
+import time
 
 from utils import *
 
@@ -45,6 +46,23 @@ def put_objects(objs):
                                                                      repr(mime_type)))
         bucket.put_object(Key=obj, Body=f, ContentType=mime_type,
                           Metadata={ "git_sha": branch_sha })
+        
+def create_invalidation(DISTRIBUTION_ID):
+    cf = boto3.client('cloudfront')
+    res = cf.create_invalidation(
+        DistributionId=DISTRIBUTION_ID,
+        InvalidationBatch={
+            'Paths': {
+                'Quantity': 1,
+                'Items': [
+                    '/*'
+                ]
+            },
+            'CallerReference': str(time.time()).replace(".", "")
+        }
+    )
+    invalidation_id = res['Invalidation']['Id']
+    return invalidation_id
 
 def run_cmd_get_lines(*cmd):
     # return subprocess.check_output(list(cmd)).split('\n')
@@ -129,6 +147,9 @@ print("Uploading %s files:" % len(files_to_upload))
 for o in files_to_upload:
     print("  %s" % o)
 put_objects(files_to_upload)
+
+invalidation_id = create_invalidation(os.environ.get('AWS_DISTRIBUTION_ID_STAGING'))
+print("Invalidation created successfully with Id: " + invalidation_id)
 
 files_to_remove = diff['to_delete']
 print("Removing %s files:" % len(files_to_remove))
