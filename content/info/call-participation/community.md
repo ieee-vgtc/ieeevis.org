@@ -7,7 +7,7 @@ sidebar: call-for-participation
 contact: community@ieeevis.org
 ---
 
-Our goals in Community are organizing activities at IEEE VIS conference that connect the current and next generation of visualization researchers and practitioners. We do this through providing conference activities to participants for all of the various visualization sub-communities: scientific visualization, information visualization, visual analytics, industry, etc. 
+Our goals in Community are organizing activities at IEEE VIS conference that connect the current and next generation of visualization researchers and practitioners. We do this by providing conference activities to participants for all of the various visualization sub-communities: scientific visualization, information visualization, visual analytics, industry, etc. 
 
 The Community activities are open to all registered IEEE VIS participants, regardless of seniority and affiliation. The activities are organized by the IEEE VIS Community Chairs, who can be reached at [community@ieeevis.org](community@ieeevis.org).
 
@@ -35,19 +35,19 @@ Example VisBuddies activities include:
 
 Do you have a job you are seeking to fill? 
 
-If so, please complete this online form and we will include your posting on the Virtual VIS website and on IEEEVIS.org (optional).  You can also use this form sign up to host a “table” at the Job Fair.
+If so, please complete this online form and we will include your posting on the IEEEVIS.org.  You can also use this form to sign up to host a “table” at the Job Fair.
 
 [VIS Community Job Posting Form](https://forms.gle/42GUi7ZTSxjiWzmPA)
 
-Links to the Job Postings will be included on the Virtual VIS website and on IEEEVIS.org.
+Links to the Job Postings will be included on the IEEEVIS.org.
 
 [**Job Postings**](https://ieeevis.org/year/2023/info/jobs)
 
 ### <a name="ajf"></a>VIS Job Fair Meetup
 <!-- **Wednesday, 19 October 2022, 15:45:00 CST in OK Station 2+3** -->
 
-At the VIS conference, we will host a meetup session which connects job seekers and researchers with employers, staff, and faculty.
-This includes all types of job opportunities: staff, industry positions, software engineers, faculty, post-docs, etc. and all types of job seekers from students to practitioners. 
+At the VIS conference, we will host a meetup session that connects job seekers and researchers with employers, staff, and faculty.
+This includes all types of job opportunities: staff, industry positions, software engineers, faculty, post-docs, etc., and all types of job seekers from students to practitioners. 
 
 To participate, please join us at the event during VIS 2023.
 
