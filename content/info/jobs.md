@@ -29,7 +29,12 @@ Start date: 2024-01-01
 Start time flexible? Yes  
 Contact: Tatiana von Landesberger, landesberger@cs.uni-koeln.de  
 
+[**Lecturer & Senior Lecturer (Assistant Professor,  permanent) in Computing**](https://jobs.ncl.ac.uk/job/Newcastle-Lecturer-&-Senior-Lecturer-in-Computing/974251101/) at Newcastle University.
 
+Location: Newcastle upon Tyne, United Kingdom   
+Start date: 2024-09-01  
+Start time flexible? Yes  
+Contact: Daniel Archambault, daniel.archambault@newcastle.ac.uk
 
 ## Government
 
