@@ -96,6 +96,7 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 
 *9:00 AM-12:00 PM AEDT (UTC+11)*<br/>
 * Room 101-102: **[VisInPractice](/year/2023/info/visinpractice)** (Associated Event)  
+* Room 103: **Mining Useful Information Via Complex Network Visualization** ([Tutorial](/year/2023/info/tutorials)) 
 * Room 104: **EduVis: Workshop on Visualization Education, Literacy, and Activities** ([Workshop](/year/2023/info/workshops))  
 * Room 105: **Visualization for Social Good** ([Workshop](/year/2023/info/workshops))  
 * Room 106: **[LDAV: 13th IEEE Symposium on Large Data Analysis and Visualization](https://ldav.org/2023/)** (Associated Event)  

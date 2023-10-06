@@ -64,6 +64,7 @@ With a five stage colorization process, you learn how to build and select a data
 Monday, October 23, 2023: 9:00 AM-12:00 PM AEDT (UTC+11)
 
 Sonali Agarwal, *IIIT Allahabad, Prayagraj* <br>
+Garima Jindal, *IIIT Hyderabad* <br>
 Sanjay Kumar Sonbhadra, *ITER, Shiksha ’O’ Anusandhan* <br>
 Narinder Singh Punn, *IIITM Gwalior* <br>
 Sadhana Tiwari Sadhana, *IIIT Allahabad, Prayagraj* <br>
