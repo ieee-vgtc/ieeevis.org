@@ -45,7 +45,7 @@ Thursday 26 October 2023<br>
 12:00pm (noon)<br>
 Room 103
 Organizers: Mennatallah El-Assady <br>
-Contact: <br>
+Register: [Forms](https://docs.google.com/forms/d/e/1FAIpQLSfUdUTh7bBntIrnkpT03kT7P0LMk6er45LX3epilCrjpMsdDg/viewform)<br>
 orga@visxai.io <br>
 
 VISxAI is a workshop at the intersection of visualization and artificial intelligence centered around interactive explainables. While the workshop was held online before VIS this year, this meetup gives us a platform to explore and discuss this year’s submissions together at VIS.
