@@ -16,9 +16,9 @@ contact: meetups@ieeevis.org
 
 ## <a name="vis-lies"></a>VisLies! Meetup
 
-<!-- Tuesday 18 October 2022<br>
-12:30-14:00pm CDT<br>
-Room: Oklahoma Station 1<br> -->
+Wednesday 25 October 2023<br>
+12:00pm (noon)<br>
+Room 103<br> 
 Organizers: Kenneth Moreland and Bernice Rogowitz <br>
 Contact: <br>
 morelandkd@ornl.gov <br>
@@ -29,9 +29,9 @@ VisLies! is a yearly event at IEEE VIS. This fun and engaging evening session sh
 
 ## <a name="vis-earlycareer"></a> Early Career and Friends Happy Hour Meetup
 
-<!-- Tuesday 18 October 2022<br>
-17:00-18:00pm CDT<br>
-Room: Five Moons 7<br> -->
+Tuesday 24 October 2023<br>
+17:00pm<br>
+Room 103<br>
 Organizers: Kristi Potter, Remco Chang, Arvind Satyanarayan, and Josh Levine<br>
 Contact: <br>
 kristi.potter@nrel.gov <br>
@@ -41,9 +41,9 @@ Join us for a meet and mingle with those finding themselves as, or who have ever
 
 ## <a name="visxAI"></a>Meet VISxAI
 
-<!-- Tuesday 18 October 2022<br>
-12:30-14:00pm CDT<br>
-Room: Oklahoma Station 1<br> -->
+Thursday 26 October 2023<br>
+12:00pm (noon)<br>
+Room 103
 Organizers: Mennatallah El-Assady <br>
 Contact: <br>
 orga@visxai.io <br>
@@ -53,65 +53,15 @@ VISxAI is a workshop at the intersection of visualization and artificial intelli
 
 ## <a name="JoVI"></a>Publishing Registered Reports, Interactive Articles, and Open Science at JoVI
 
-<!-- Tuesday 18 October 2022<br>
-12:30-14:00pm CDT<br>
-Room: Oklahoma Station 1<br> -->
+Wednesday 25 October 2023<br>
+17:00pm<br>
+Room 107<br>
 Organizers: Matthew Kay <br>
 Contact: <br>
 mjskay@northwestern.edu <br>
 
 The [Journal of Visualization and Interaction (JoVI)](https://www.journalovi.org) is a venue for publishing scholarly work related to the fields of visualization and human-computer interaction. JoVI is a diamond open-access venue, i.e. a purely volunteer-driven effort that charges neither author nor subscription fees. This meetup introduces JoVI, its publication processes, and the motivations for its inception. We will discuss some of the unique aspects and challenges of JoVI within the visualization field, including: publishing registered reports, publishing interactive articles (and how to archive them long term), open review processes (and challenges with blind review), and how to have transparency/reproducibility in the context of software packages.
 
-
-<!-- ## <a name="vis-diversity"></a> Diversity Scholar Meetup 
-
-Wednesday 19 October 2022<br>
-13:00-14:00pm CDT<br>
-Room: Five Moons 6<br>
-Organizers: Lace Padilla<br>
-Contact: <br>
-lace.m.k.padilla@gmail.com <br>
-
-
-Meet and greet with current and former diversity scholar recipients.
-
-## <a name="vis-drone"></a> Interactive Visualization for Analysis and Control of Drone Traffic Meetup 
-
-Thursday 20 October 2022<br>
-13:00-14:00pm CDT<br>
-Room: Five Moons 6<br>
-Organizers: Jimmy Johansson Westberg, Jonas Lundberg, and Karljohan Lundin Palmerius<br>
-Contact: <br>
-jimmy.johansson.westberg@liu.se <br>
-
-
-There is a current race in both research and industry to develop drones that trust-
-fully move around, orient themselves automatically, and provide services ranging from transport and maintenance to monitoring, remote presence and surveillance. Monitoring the behavior of drones requires real-time analysis of a large amount of high-dimensional temporal data.<br>
-
-The purpose of this meetup is to discuss current practice and future challenges in real-time, multidimensional analysis of drones with the use of interactive visualization including areas such as: <br>
-
-* Geospatial airspace visualization
-* 3D geospatial interaction
-* 3D path visualization and diagrams
-* Drone/robot plan/state/parameter information visualization
-* Linked views between 3D geospatial visualization and diagrams
-* Combined visualization of real-time data with historical and projected data
-
-
-## <a name="vis-doecgf"></a> DOE CGF / US National Labs Friends and Family Meetup 
-
-Thursday 20 October 2022<br>
-12:30-13:30pm CDT<br>
-Room: Five Moons 7<br>
-Organizers:  Kristi Potter and Ayan Biswas<br>
-Contact: <br>
-kristi.potter@nrel.gov <br>
-ayan@lanl.gov  <br>
-
-
-The DOE Computer Graphics forum is an annual event (since the mid 1970s) that serves as a venue for US government-sponsored computer graphics and visualization scientists, engineers and practitioners to share research and development activities and build community.  This event has been virtual the last 3 years and this meetup serves as the in-person social follow-up to this year’s virtual event, held in August. We invite those connected to or wanting to connect with the national labs to attend, including staff, faculty and students, industrial partners, and future collaborators! <br>
-
-We will start with a quick introduction of attendees and reserve the remaining time for socializing and networking. This meetup should give the early career personnel a chance to get connected with the more senior members of the group. We feel this has been lacking in the previous few years, due to the global pandemic situation. <br> -->
 
 
 
