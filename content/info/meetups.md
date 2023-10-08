@@ -45,7 +45,7 @@ Join us for a meet and mingle with those finding themselves as, or who have ever
 12:30-14:00pm CDT<br>
 Room: Oklahoma Station 1<br> -->
 Organizers: Mennatallah El-Assady <br>
-Contact: <br>
+Register: [Forms](https://docs.google.com/forms/d/e/1FAIpQLSfUdUTh7bBntIrnkpT03kT7P0LMk6er45LX3epilCrjpMsdDg/viewform)<br>
 orga@visxai.io <br>
 
 VISxAI is a workshop at the intersection of visualization and artificial intelligence centered around interactive explainables. While the workshop was held online before VIS this year, this meetup gives us a platform to explore and discuss this year’s submissions together at VIS.
