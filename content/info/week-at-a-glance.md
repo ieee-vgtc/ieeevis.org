@@ -45,9 +45,9 @@ Regular day programming ends at 5:00pm, with after hours programming beginning a
 
 Details about individual Paper sessions, including the session chairs and which papers are in each session can be found on the [Paper Sessions](/year/2023/info/papers-sessions) page.
 
-<!--
-See these pages for a schedule and details for <a href="/year/2022/info/meetups">Meetups</a> and <a href="/year/2022/info/call-participation/community">Community Events</a>.<br/>
+See these pages for a schedule and details for <a href="/year/2023/info/meetups">Meetups</a> and <a href="/year/2023/info/call-participation/community">Community Events</a>.<br/>
 
+<!--
 See this page for a description of the <a href="/year/2022/info/supporters-session">Supporters Forum</a>.<br/>
 
 See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask Me Anything Sessions</a>.<br/>
@@ -72,7 +72,6 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 * Room 105: **MERCADO: Multimodal Experiences for Remote Communication Around Data Online** ([Workshop](/year/2023/info/workshops))  
 * Room 106: **A Hands-on TTK Tutorial for Absolute Beginners** ([Tutorial](/year/2023/info/tutorials))  
 * Room 110: **NLP4Vis: Natural Language Processing for Information Visualization** ([Tutorial](/year/2023/info/tutorials))  
-* Room 111-112: **[VAST Challenge](https://vast-challenge.github.io/2023/)** (Contest)  
 
 *2:00 PM-5:00 PM AEDT (UTC+11)*<br/>
 
@@ -97,9 +96,10 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 *9:00 AM-12:00 PM AEDT (UTC+11)*<br/>
 * Room 101-102: **[VisInPractice](/year/2023/info/visinpractice)** (Associated Event)  
 * Room 103: **Mining Useful Information Via Complex Network Visualization** ([Tutorial](/year/2023/info/tutorials)) 
-* Room 104: **EduVis: Workshop on Visualization Education, Literacy, and Activities** ([Workshop](/year/2023/info/workshops))  
+* Room 104: **[VAST Challenge](https://vast-challenge.github.io/2023/)** (Contest)  
 * Room 105: **Visualization for Social Good** ([Workshop](/year/2023/info/workshops))  
 * Room 106: **[LDAV: 13th IEEE Symposium on Large Data Analysis and Visualization](https://ldav.org/2023/)** (Associated Event)  
+* Room 109: **EduVis: Workshop on Visualization Education, Literacy, and Activities** ([Workshop](/year/2023/info/workshops))  
 * Room 110: **(Vis + Prov) x Domain: Workshop on Visualization and Provenance Across Domains** ([Workshop](/year/2023/info/workshops))  
 * Room 111-112: **[Bio+MedVis Challenges](http://biovis.net/2023/biovisChallenges_vis/)** (Contest)  
 
@@ -130,6 +130,10 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 
 * Plenary 1: **[VIS Keynote](/year/2023/info/keynote-speaker)**, Dr. Drew Berry and Professor Anders Ynnerman (11:00am-12:00pm)
 
+*12:00 PM-1:00 PM AEDT (UTC+11)*<br/>
+
+* Room 101-102: **[VisBuddies Meetup](/year/2023/info/call-participation/community#visbuddies)** 
+
 *2:00 PM-3:10 PM AEDT (UTC+11)*<br/>
 
 * Plenary 1: **VIS Opening** (2:00pm-2:20pm)
@@ -144,6 +148,7 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 *4:45 PM-6:15 PM AEDT (UTC+11)*<br/>
 
 * Foyer: **VIS Poster Session**, includes all Associated Event Posters (4:45pm-6:15pm)
+* Room 103: **[Early Career and Friends Happy Hour Meetup](/year/2023/info/meetups#vis-earlycareer)** (5:00pm-6:00pm)
 
 *6:00 PM-8:00 PM AEDT (UTC+11)*<br/>
 
@@ -172,6 +177,10 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 * Room 106: **LLMs and Generative Models** ([VIS Full Papers](/year/2023/info/papers-sessions))
 * Room 109: **Trust and Bias** ([VIS Full Papers](/year/2023/info/papers-sessions))
 
+*12:00 PM-1:00 PM AEDT (UTC+11)*<br/>
+
+* Room 103: **[VisLies! Meetup](https://www.vislies.org/2023/)** 
+
 *2:00 PM-3:15 PM AEDT (UTC+11)*<br/>
 * Room 103: **Dashboards & Multiple Views** ([VIS Full Papers](/year/2023/info/papers-sessions))
 * Room 104: **Scientific Visualization (Short)** ([VIS Short Papers](/year/2023/info/papers-sessions))
@@ -186,6 +195,10 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 * Room 105: **Graph Visualization** ([VIS Full Papers](/year/2023/info/papers-sessions))
 * Room 106: **Education and Assessment** ([VIS Full Papers](/year/2023/info/papers-sessions))
 * Room 109: **VIS for ML** ([VIS Full Papers](/year/2023/info/papers-sessions))
+
+*5:00 PM-6:00 PM AEDT (UTC+11)*<br/>
+
+* Room 103: **[Publishing Registered Reports, Interactive Articles, and Open Science at JoVI Meetup](/year/2023/info/meetups#JoVI)** 
 
 *6:00 PM-8:00 PM AEDT (UTC+11)*<br/>
 * Grazelands: **VIS Banquet** (6:00pm-8:00pm) <br>
@@ -212,8 +225,9 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 * Room 106: **Machine Learning for Volume Visualization** ([VIS Full Papers](/year/2023/info/papers-sessions))
 * Room 109: **Evaluation** ([VIS Full Papers](/year/2023/info/papers-sessions))
 
-*10:45 AM-12:00 PM AEDT (UTC+11)*<br/>
-* Room 105: **VIS24 Kickoff**
+*12:00 PM-1:00 PM AEDT (UTC+11)*<br/>
+* Room 103: **[VISxAI Meetup](https://visxai.io/)** (12:00pm-1:00pm)
+* Room 105: **VIS24 Kickoff** (12:00pm-12:30pm) 
 
 *2:00 PM-3:15 PM AEDT (UTC+11)*<br/>
 * Room 103: **CG&A: Theory and Evaluation plus ISMAR/VR** ([Invited Partnership Presentations]((/year/2023/info/papers-sessions)))
@@ -229,6 +243,10 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 * Room 106: **Topology Applications** ([VIS Full Papers](/year/2023/info/papers-sessions))
 * Room 109: **Situated Analytics and Augmented Reality (Full+Short)** ([VIS Full Papers](/year/2023/info/papers-sessions))
 
+*5:00 PM-6:00 PM AEDT (UTC+11)*<br/>
+
+* Room 101-102: **[VIS Job Fair Meetup](/year/2023/info/call-participation/community#ajf)** 
+
 <hr/>
 
 
@@ -243,6 +261,9 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 *10:45 AM-12:00 PM AEDT (UTC+11)*<br/>
 * Room 105-106: **[VIS Capstone](/year/2023/info/capstone-speaker)**, Professor Matt Duckham (10:45am-11:45am) 
 * Room 105-106: **VIS Closing** (11:45am-12:00pm) 
+
+<hr/>
+
 
 ### Program Co-Chairs
 
