@@ -16,14 +16,11 @@ This year's VisinPractice will be an in-person event.
 
 VisInPractice 2023 will be a half-day event. 
 
-This is the tentative plan for this event:
-
-Session 1: Keynote (intro, 1 x 30-minute talk)
-Session 2: Themed panel (intro, 4 x 10-minute talks + 20 min panel)
-Session 3: Themed panel with supporters (30 min panel)
-Session 4: Capstone (intro, 1 x 30-minute talk)
-
-We are in the process of inviting the speakers and panelists.
+9:00AM - 9:30AM Keynote: Kimly Scott - Sharing personal experiences through public visualisations
+9:30AM - 10:15AM Panel: The Future of Visualization Technology - [Ned Letcher](https://www.thoughtworks.com/en-au/profiles/n/ned-letcher), [Paul Hodge](https://datavizguy.com/), [Kenny Gruchalla](https://www.nrel.gov/research/staff/kenny-gruchalla.html)
+10:15AM - 10:45AM Break
+10:45AM - 11:30AM Panel: Visualization for Augmented Intelligence - [Vidya Setlur](https://www.tableau.com/research/people/vidya-setlur), [Dominik Moritz](https://www.domoritz.de/), [Lisa Avilla](https://www.kitware.com/lisa-avila/)
+11:30AM - 12:00PM Capstone: [Kresimir Matkovic](https://www.vrvis.at/en/about-us/team/infos/matkovic-kresimir) - TBD
 
 - - -
 
