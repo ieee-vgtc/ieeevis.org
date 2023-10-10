@@ -201,7 +201,7 @@ menu:
       - subsections:
           - heading: "Vis Program"
             heading_url: "/year/2023/info/week-at-a-glance"
-            description: "Click to see the schedule for events on Sunday and Monday"
+            description: "Click to see an overview of the conference program"
             columns:
               - links:
                   - text: "Papers"
