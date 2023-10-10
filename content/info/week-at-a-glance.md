@@ -160,7 +160,7 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 <a>**Wednesday, October 25, 2023**</a><br/>
 
 *8:00 AM-9:00 AM AEDT (UTC+11)*<br/>
-* Room 101-102: **VIS Town Hall** 
+* Room 101-102: **[VIS Town Hall](/year/2023/info/townhall)** 
 
 *9:00 AM-10:15 AM AEDT (UTC+11)*<br/>
 * Room 103: **Image and Video** ([VIS Full Papers](/year/2023/info/papers-sessions))

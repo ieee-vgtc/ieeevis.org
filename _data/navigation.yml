@@ -254,17 +254,18 @@ menu:
                - text: "Test of Time Awards"
                  url: "/year/2023/info/awards/test-of-time-awards"
                  is_new: true
-  #      - subsections:
-  #        - heading: "Plenary Sessions"
-  #            # description: "TK TK TK Get an overview of what’s happening at VIS 2020"
-  #          columns:
-  #            - links:
+  #    - subsections:
+          - heading: "Plenary Sessions"
+            description: "Engage with the VIS community, internal and external"
+            columns:
+             - links:
+               - text: "Vis Townhall"
+                 url: "/year/2023/info/townhall"
+                 is_new: true
   #              - text: "Keynote Address"
   #                url: "/year/2023/info/keynote-speaker"
   #              - text: "Capstone Address"
   #                url: "/year/2023/info/capstone-speaker"
-  #              - text: "Vis Townhall"
-  #                url: "/year/2023/info/townhall"
   #              # - links:
   #              #   - text: "Download the App"
   #              #     url: "https://www.google.com"
