@@ -55,7 +55,7 @@ VISxAI is a workshop at the intersection of visualization and artificial intelli
 
 Wednesday 25 October 2023<br>
 17:00pm<br>
-Room 107<br>
+Room 103<br>
 Organizers: Matthew Kay <br>
 Contact: <br>
 mjskay@northwestern.edu <br>
