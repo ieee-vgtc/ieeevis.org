@@ -21,7 +21,7 @@ Questions from the community are welcome during the townhall.
 ## Townhall Panelists
 * Ross Maciejewski (VEC Co-Chair), Townhall Moderation
 * Holger Theisel (VEC Co-Chair)
-* Kwan-Liu Ma (VSC representative)
+* Jeffrey Heer (VSC representative)
 * Bongshin Lee (VGTC Chair)
 * Jean-Daniel Fekete, Alex Lex (Area Curation Commitee)
 * Lonni Besançon (Open Practice Co-Chair)
