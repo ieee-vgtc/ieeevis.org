@@ -14,7 +14,7 @@ This year's VisinPractice will be an in-person event.
 
 # Program
 
-VisInPractice 2023 will be a half-day event. 
+VisInPractice 2023 will be a half-day event taking place on Monday October 23rd. 
 
 9:00AM - 9:30AM Keynote: [Kimly Scott](https://public.tableau.com/app/profile/kimly.scott/vizzes) - Sharing personal experiences through public visualisations
 
