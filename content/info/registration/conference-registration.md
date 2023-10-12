@@ -36,8 +36,8 @@ Individuals not registered as conference participants can buy access to the onli
 
 
 Online content includes the following items:
-- Early access to the downloading proceedings for the conference, including pdf papers and their supplemental materials.  This content will be made available via an account on [https://content.ieeevis.org](https://content.ieeevis.org) and prior to when they appear on IEEE’s downloadable proceedings.
-- Early access to the pre-recorded video content from the conference, including video presentations and video previews for all main events on Tues-Fri, as well as any video content that was shared from workshop and associated events.  These videos will be distributed via an account on [https://content.ieeevis.org](https://content.ieeevis.org) and will be available during the week of the conference before they appear on [IEEE VIS’s YouTube channel](https://www.youtube.com/c/ieeevisualizationconference).
+- Access to the program and downloading proceedings for the conference, including pdf papers and their supplemental materials.  This content will be made available via an account on [https://content.ieeevis.org](https://content.ieeevis.org).
+- Access to the pre-recorded video content from the conference, including video presentations and video previews for all main events on Tues-Fri, as well as any video content that was shared from workshop and associated events.  These videos will be distributed via an account on [https://content.ieeevis.org](https://content.ieeevis.org) and will be available during the week of the conference and then on [IEEE VIS’s YouTube channel](https://www.youtube.com/c/ieeevisualizationconference).
 - Access to the recordings of the keynote and capstone from the conference (after a short delay for processing).
 - Access to the VIS 2023 Discord server, so as to interact with the conference attendees during the week of the conference.
 
