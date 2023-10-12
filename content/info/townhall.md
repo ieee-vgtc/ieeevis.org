@@ -6,7 +6,7 @@ contact: vec@ieeevis.org
 ---
 
 As part of IEEE VIS's ongoing efforts to engage with our community, the IEEE VIS governance bodies are seeking feedback from the VIS community! 
-Join us from *8AM* to *9AM* Wednesday October 25th at Room TBD, and via streaming. Learn more about what the IEEE VIS governing bodies took on as priorities for VIS 2023 and come suggest priorities for the IEEE VIS governing bodies to address as we move towards VIS 2024. All members of the VIS community are welcome!
+Join us from *8AM* to *9AM* Wednesday October 25th at Room 101-102, and via [streaming](https://monash.zoom.us/j/85697136750?pwd=Y1FPK1FpaHA5VVdDYU9XbWw2YzdhQT09). Learn more about what the IEEE VIS governing bodies took on as priorities for VIS 2023 and come suggest priorities for the IEEE VIS governing bodies to address as we move towards VIS 2024. All members of the VIS community are welcome!
 Questions from the community are welcome during the townhall.
 
 ## Townhall Agenda
@@ -14,6 +14,7 @@ Questions from the community are welcome during the townhall.
 * update of the VIS executive commitee (VEC) (Holger Theisel)
 * VGTC update (Bongshin Lee)
 * update of the work of Area Curation Commitee (ACC) (TBD)
+* update from the Open Practice chairs (Lonni Besançon )
 * Getting involved in VIS 24 (Paul Rosen, Remco Chang, Kristi Potter)
 
 
@@ -23,6 +24,7 @@ Questions from the community are welcome during the townhall.
 * Kwan-Liu Ma (VSC representative)
 * Bongshin Lee (VGTC Chair)
 * TBD (Area Curation Commitee)
+* Lonni Besançon (Open Practice Co-Chair)
 * Tamara Munzner (Overall Paper Co-Chair) 
 * Tim Dwyer, Michael Wybrow (current General chairs)
 * Paul Rosen, Remco Chang, Kristi Potter (incoming General chairs) 
