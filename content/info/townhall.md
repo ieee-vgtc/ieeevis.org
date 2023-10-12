@@ -10,10 +10,10 @@ Join us from *8AM* to *9AM* Wednesday October 25th at Room 101-102, and via [str
 Questions from the community are welcome during the townhall.
 
 ## Townhall Agenda
-* update of work of VIS steering commitee (VSC) (Kwan-Liu Ma)
+* update of work of VIS steering commitee (VSC) (Jeffrey Heer)
 * update of the VIS executive commitee (VEC) (Holger Theisel)
 * VGTC update (Bongshin Lee)
-* update of the work of Area Curation Commitee (ACC) (TBD)
+* update of the work of Area Curation Commitee (ACC) (Jean-Daniel Fekete, Alex Lex)
 * update from the Open Practice chairs (Lonni Besançon )
 * Getting involved in VIS 24 (Paul Rosen, Remco Chang, Kristi Potter)
 
@@ -21,9 +21,9 @@ Questions from the community are welcome during the townhall.
 ## Townhall Panelists
 * Ross Maciejewski (VEC Co-Chair), Townhall Moderation
 * Holger Theisel (VEC Co-Chair)
-* Kwan-Liu Ma (VSC representative)
+* Jeffrey Heer (VSC representative)
 * Bongshin Lee (VGTC Chair)
-* TBD (Area Curation Commitee)
+* Jean-Daniel Fekete, Alex Lex (Area Curation Commitee)
 * Lonni Besançon (Open Practice Co-Chair)
 * Tamara Munzner (Overall Paper Co-Chair) 
 * Tim Dwyer, Michael Wybrow (current General chairs)
