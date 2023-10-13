@@ -20,17 +20,27 @@ Attendees should register online in advance and pay via credit card or wire tran
 </ul>
 
 IEEE VIS provides discounted registration rates for students, IEEE Members, ACM members, and ISCB Members. Academic groups interested in conference registrations should contact Supporter Chairs to receive information about discounted group registrations.
+
 <a class="button" href="https://members.asnevents.com.au/register/event/1856">REGISTER NOW</a>
 
   
 ### Conference Speakers
 <b>All conference and associated events speakers </b> (including but not limited to paper and poster presenters, speakers, contest and panel speakers, and tutorial speakers), must register for the conference by September 22, 2023. 
 We require one Speaker Registration for full-length papers and short papers. Speakers receive discounted member prices, regardless of membership status. A reminder that speakers are required to present in person. If due to exceptional circumstances no author is able to attend in person please contact [the organising committee](mailto:info@ieeevis.org) as soon as possible.
+
 <a class="button" href="https://members.asnevents.com.au/register/event/1856">REGISTER NOW</a>
 
 
 ### Access to VIS 2023 Online Content
-Individuals not registered as conference participants can buy access to the online content for USD$100. Online content includes downloadable pdf papers, pre-recorded video presentations, video previews, and access to the VIS 2023 Discord server.  
+Individuals not registered as conference participants can buy access to the online content for USD$100. 
+
+
+Online content includes the following items:
+- Access to the program and downloading proceedings for the conference, including pdf papers and their supplemental materials.  This content will be made available via an account on [https://content.ieeevis.org](https://content.ieeevis.org).
+- Access to the pre-recorded video content from the conference, including video presentations and video previews for all main events on Tues-Fri, as well as any video content that was shared from workshop and associated events.  These videos will be distributed via an account on [https://content.ieeevis.org](https://content.ieeevis.org) and will be available during the week of the conference and then on [IEEE VIS’s YouTube channel](https://www.youtube.com/c/ieeevisualizationconference).
+- Access to the recordings of the keynote and capstone from the conference (after a short delay for processing).
+- Access to the VIS 2023 Discord server, so as to interact with the conference attendees during the week of the conference.
+
 <a class="button" href="https://www.eventbrite.com/e/548129890257">BUY ACCESS TO THE ONLINE CONTENT NOW</a>
 
 
