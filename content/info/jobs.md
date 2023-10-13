@@ -31,10 +31,17 @@ Contact: Tatiana von Landesberger, landesberger@cs.uni-koeln.de
 
 [**Lecturer & Senior Lecturer (Assistant Professor,  permanent) in Computing**](https://jobs.ncl.ac.uk/job/Newcastle-Lecturer-&-Senior-Lecturer-in-Computing/974251101/) at Newcastle University.
 
-Location: Newcastle upon Tyne, United Kingdom   
+Location: Newcastle upon Tyne, UK   
 Start date: 2024-09-01  
 Start time flexible? Yes  
 Contact: Daniel Archambault, daniel.archambault@newcastle.ac.uk
+
+[**Associate or Full Professor - College of Engineering/The Roux Institute**](https://northeastern.wd1.myworkdayjobs.com/en-US/careers/details/Associate-or-Full-Professor---College-of-Engineering-The-Roux-Institute_R119942) at The Roux Institute, Northeastern University.
+
+Location: Portland, Maine, USA   
+Start date: 2024-08-15    
+Start time flexible? Yes  
+Contact: Melanie Tory, m.tory@northeastern.edu
 
 ## Government
 
@@ -42,7 +49,6 @@ Contact: Daniel Archambault, daniel.archambault@newcastle.ac.uk
 
 
 ## Industry
-
 
 
 
