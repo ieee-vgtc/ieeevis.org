@@ -49,6 +49,8 @@ MCEC is a short stroll across from Southbank and the Melbourne CBD. All amenitie
 
 ## Things to Do In Melbourne
 
+![Things to do in Melbourne](assets/photos/MCB_Ad_IEEE_Visualization_Conference_1920x1080.jpg)
+
 ### Visit Flinders Street Station
 
 ![Flinders Street Station](https://images.squarespace-cdn.com/content/v1/621ec6aed6850f3c63ed7213/b0a820a4-762a-4d3d-999f-6fadda403322/Flinders+Street+Station.jpg)
