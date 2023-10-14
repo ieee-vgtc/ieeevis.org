@@ -43,7 +43,7 @@ Join us for a meet and mingle with those finding themselves as, or who have ever
 
 Thursday 26 October 2023<br>
 12:00pm (noon)<br>
-Room 103
+Room 103<br>
 Organizers: Mennatallah El-Assady <br>
 Register: [Forms](https://docs.google.com/forms/d/e/1FAIpQLSfUdUTh7bBntIrnkpT03kT7P0LMk6er45LX3epilCrjpMsdDg/viewform)<br>
 orga@visxai.io <br>
