@@ -32,7 +32,7 @@ VisLies! is a yearly event at IEEE VIS. This fun and engaging evening session sh
 Tuesday 24 October 2023<br>
 17:00pm<br>
 Room 103<br>
-Organizers: Kristi Potter, Remco Chang, Arvind Satyanarayan, and Josh Levine<br>
+Organizers: Kristi Potter, Remco Chang, Arvind Satyanarayan, Josh Levine, and Lace Padilla<br>
 Contact: <br>
 kristi.potter@nrel.gov <br>
 
@@ -56,7 +56,7 @@ VISxAI is a workshop at the intersection of visualization and artificial intelli
 Wednesday 25 October 2023<br>
 17:00pm<br>
 Room 103<br>
-Organizers: Matthew Kay <br>
+Organizers: Matthew Kay and Lonni Besançon <br>
 Contact: <br>
 mjskay@northwestern.edu <br>
 
