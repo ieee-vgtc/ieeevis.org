@@ -7,19 +7,21 @@ permalink: info/week-at-a-glance
 # Program Week at a Glance
 
 Below is a draft schedule the conference.
-Additional details for the events are available on their webpages, and more detailed information will be available the virtual VIS website as the conference nears.
+Additional details for the events are available on their webpages, and more detailed information will be available the VIS attendee content website as the conference nears.
 **Note: details and specific times may change as we adjust for late-breaking conflicts and constraints.**
 
 <!--
 Room assignments are indicated by columns.  The entire conference will run on Level Two of the Omni Oklahoma City Hotel.  [Here is a floor map](https://www.omnihotels.com/-/media/images/hotels/okcdtn/hotel/okcdtn-omni-oklahoma-city-floor-plans). 
 -->
 
-Daily sessions are four blocks per day, each 75 minutes.
-<!--Breakfast begins one hour before the sessions for the day (7:30am on Tuesday, 8:00am all other days).-->
-There are breaks for coffee/tea from 10:15-10:45am and 3:15-3:45pm.
-A lunch break runs from 12:00-2:00pm each day. 
-Regular day programming ends at 5:00pm, with after hours programming beginning after short breaks.
+Daily sessions are (generally) four blocks per day, each 75 minutes.  In addition:
+* Breakfast begins one hour before the sessions for the day (7:45am on Tuesday, 8:00am all other days).
+* There are breaks for coffee/tea from 10:15-10:45am and 3:15-3:45pm between the first/second and third/fourth block.  
+* A lunch break runs from 12:00-2:00pm each day between the second/third block. 
 
+Tuesday is a full plenary day, which a slightly shifted schedule for breaks.  Regular day programming ends at 5:00pm, with after hours programming beginning after short breaks.
+
+<br/>
 
 <!--
 <div style="position: relative;">
@@ -37,11 +39,11 @@ Regular day programming ends at 5:00pm, with after hours programming beginning a
 -->
 
 
-<!--
-<embed src="/year/2022/assets/vis2022-program.pdf" type="application/pdf" width="100%" height="400px" /><br/>
+The following pocket program will be provided to all attendees at the registration desk:
 
-<a href="/year/2022/assets/vis2022-program.pdf">Download the program (PDF)</a><br/>
--->
+<embed src="/year/2023/assets/vis2023-program.pdf" type="application/pdf" width="100%" height="400px" /><br/>
+
+<a href="/year/2023/assets/vis2023-program.pdf">Download the program (PDF)</a><br/>
 
 Details about individual Paper sessions, including the session chairs and which papers are in each session can be found on the [Paper Sessions](/year/2023/info/papers-sessions) page.
 
