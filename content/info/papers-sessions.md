@@ -1056,7 +1056,7 @@ Authors: Lin Yan, Xin Liang, Hanqi Guo, Bei Wang Phillips
 **03:45-05:00PM AEDT (UTC+11)**<br/>
 **Room: Room 109**<br/>
 *Situated Analytics and Augmented Reality (Full+Short)*<br/>
-*Session Chair: Maxime Cordeil*
+*Session Chair: Christophe Hurter*
 
 **ARGUS: Visualization of AI-assisted Task Guidance in AR**<br/>
 Authors: Sonia Castelo Quispe, João Rulff, Erin McGowan, Bea Steers, Guande Wu, Shaoyu Chen, Iran Roman, Roque Lopez, Ethan Brewer, Chen Zhao, Jing Qian, Kyunghyun Cho, He He, Qi Sun, Huy T. Vo, Juan Pablo Bello, Michael Krone, Claudio Silva
