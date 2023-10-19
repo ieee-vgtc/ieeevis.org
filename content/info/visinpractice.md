@@ -16,7 +16,7 @@ This year's VisinPractice will be an in-person event.
 
 VisInPractice 2023 will be a half-day event taking place on Monday October 23rd. 
 
-9:00AM - 9:30AM Keynote: [Kimly Scott](https://public.tableau.com/app/profile/kimly.scott/vizzes) - Sharing personal experiences through public visualisations
+9:00AM - 9:30AM Keynote: [Kimly Scott](https://public.tableau.com/app/profile/kimly.scott/vizzes) - **Sharing personal experiences through public visualisations** -  I share bespoke visualisations through my public work and through those visualisations, I have shared many aspects of my personal life, sometimes on emotional topics. In my presentation, I will talk about why I openly share my personal experiences with the world via data visualisation, why I chose the visuals I did in these visualisations and how I craft personal stories using data and visuals.
 
 9:30AM - 10:15AM Panel: The Future of Visualization Technology - [Ned Letcher](https://www.thoughtworks.com/en-au/profiles/n/ned-letcher), [Paul Hodge](https://datavizguy.com/), [Kenny Gruchalla](https://www.nrel.gov/research/staff/kenny-gruchalla.html)
 
@@ -24,7 +24,7 @@ VisInPractice 2023 will be a half-day event taking place on Monday October 23rd.
 
 10:45AM - 11:30AM Panel: Visualization for Augmented Intelligence - [Vidya Setlur](https://www.tableau.com/research/people/vidya-setlur), [Dominik Moritz](https://www.domoritz.de/), [Lisa Avilla](https://www.kitware.com/lisa-avila/)
 
-11:30AM - 12:00PM Capstone: [Kresimir Matkovic](https://www.vrvis.at/en/about-us/team/infos/matkovic-kresimir) - TBD
+11:30AM - 12:00PM Capstone: [Kresimir Matkovic](https://www.vrvis.at/en/about-us/team/infos/matkovic-kresimir) - **More than Twenty Years of Visualization Research at VRVis** - We have been actively involved in both applied and basic research in the field of Visualization since the year 2000 at VRVis. Over the years, we have accumulated extensive experience in collaborating with partners from diverse domains. For instance, our partnerships with engineers have led to numerous publications, greatly enhancing the awareness and acceptance of visualization within our partner companies. Similar successful collaborations can be seen in the bio-medical and hydrology fields. In this talk, we will report on our experiences, problems, and successes in these collaborations.
 
 - - -
 
