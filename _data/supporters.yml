@@ -108,14 +108,14 @@
      #   image: /assets/supporters/nreal-logo.png
      #   url: "https://www.xreal.com/"
      - name: "University of Queensland"
-       image: /assets/supporters/uq-logo.png
+       image: "/assets/supporters/UQ logo - co-branding.jpg"
        url: "https://www.uq.edu.au/"
      - name: "NREL"
        image: /assets/supporters/NREL.jpg
        url: "https://www.nrel.gov/"
-#     - name: "Disney Studio Research"
-#       image: /assets/supporters/disney.jpg
-#       url: "https://studios.disneyresearch.com/"
+     - name: "University of Melbourne"
+       image: /assets/supporters/PRIMARY_A_Vertical_Housed_RGB.png
+       url: "https://www.unimelb.edu.au/"
 #     - name: "VisPsych"
 #       image: /assets/supporters/vispsych.png
 #       url: "https://sites.google.com/view/vispsych/"
