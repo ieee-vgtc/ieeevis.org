@@ -31,6 +31,13 @@ TRAM
 
 Tram routes 96, 109 and 12 (Stop 124A Casino/MCEC) will all take you to the Clarendon Street entrance. Otherwise, tram routes 70, 75 and the City Circle (Stop D5) take you to Flinders Street. From there, it’s just a short walk up Clarendon Street until you reach the MCEC. Travel on trams is free in Melbourne's Central Business District and Docklands. All stops within the free zone are clearly marked and tram drivers will make regular announcements when approaching the zone boundaries. 
 
+The following is an image showing the area of the city that is free to travel by tram.
+
+![Melbourne Free Tram](assets/photos/melbourne/MelbourneFreeTramZone.jpg)
+
+Note: Do not tap on or off with your MyKi while travelling in the free zone or you will be charged a 2-hour Zone 1+2 fare.
+
+Travel outside of the free zone is paid for using a Myki card. The complimentary Myki card included in your registration (if you are attending the conference banquet and requested one) is loaded with enough credit for the train travel to the banquet venue and back.  You can also use this Myki for additional travel on public transport outside the free tram zone but you will need to need to top it up with additional value as described [here](https://www.ptv.vic.gov.au/tickets/myki/buy-a-myki-and-top-up/). 
 
 #### Onsite Car Parking
 

@@ -108,7 +108,7 @@
      #   image: /assets/supporters/nreal-logo.png
      #   url: "https://www.xreal.com/"
      - name: "University of Queensland"
-       image: /assets/supporters/uq-logo.png
+       image: /assets/supporters/uq-purple.png
        url: "https://www.uq.edu.au/"
      - name: "NREL"
        image: /assets/supporters/NREL.jpg
@@ -119,6 +119,19 @@
 #     - name: "VisPsych"
 #       image: /assets/supporters/vispsych.png
 #       url: "https://sites.google.com/view/vispsych/"
+     - name: "University of Melbourne"
+       image: /assets/supporters/University_of_Melbourne.png
+       url: "https://www.unimelb.edu.au/"
+
+ - category: Exhibitors
+   image_size: 140
+   supporters:
+     - name: "Tom Sawyer Software"
+       image: /assets/supporters/TomSawyer.jpg
+       url: "https://www.tomsawyer.com/"
+     - name: "Springer Nature"
+       image: /assets/supporters/springernature.png
+       url: "https://www.springernature.com/"
 
 
  #    - name: "Harvard Medical School"
