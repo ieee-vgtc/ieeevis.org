@@ -11,7 +11,7 @@ contact: meetups@ieeevis.org
 * [Early Career Meetup](#vis-earlycareer)
 * [Meet VISxAI Meetup](#visxAI)
 * [Publishing Registered Reports, Interactive Articles, and Open Science at JoVI Meetup](#JoVI)
-
+* [VisInBharat: Assembling Visualization Researchers Working in the Indian Context Meetup](#VisInBharat)
 
 
 ## <a name="vis-lies"></a>VisLies! Meetup
@@ -63,6 +63,16 @@ mjskay@northwestern.edu <br>
 The [Journal of Visualization and Interaction (JoVI)](https://www.journalovi.org) is a venue for publishing scholarly work related to the fields of visualization and human-computer interaction. JoVI is a diamond open-access venue, i.e. a purely volunteer-driven effort that charges neither author nor subscription fees. This meetup introduces JoVI, its publication processes, and the motivations for its inception. We will discuss some of the unique aspects and challenges of JoVI within the visualization field, including: publishing registered reports, publishing interactive articles (and how to archive them long term), open review processes (and challenges with blind review), and how to have transparency/reproducibility in the context of software packages.
 
 
+## <a name="VisInBharat"></a>VisInBharat: Assembling Visualization Researchers Working in the Indian Context
+
+Wednesday 25 October 2023<br>
+12:00pm (noon)<br>
+Room 104<br>
+Organizers: Shivam Agarwal <br>
+Contact: <br>
+shivam.agarwal@uni-bamberg.de <br>
+
+VisInBharat is an initiative to bring together a community of visualization researchers working in the Indian context. The initiative aims to provide a forum for discussing common challenges faced while working on projects specific to the Indian context, identifying unique opportunities for novel research (both local and global), and sharing the gained experiences. While still in the early planning stages, the goal is to assemble students, researchers, designers, and practitioners. A meetup at IEEE VIS 2023 aims to initiate a discussion on the topic to forge the path ahead. Additionally, it aims to build a team of interested individuals who are enthusiastic to help organize activities towards the VisInBharat initiative. Regardless of your experience (early PhD student or senior researcher), please join us at the meetup if the initiative resonates with you. 
 
 
 
