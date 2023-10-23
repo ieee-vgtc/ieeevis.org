@@ -159,8 +159,88 @@ Start time flexible? Yes
 Contact: kalea@uchicago.edu  
 
 
+[**Tenure-Track Assistant Professor of Computer Science**](https://facultyemployment-stthomas.icims.com/jobs/7383/tenure-track%2c-assistant-professor-of-computer-science%2c-department-of-computer-and-information-sciences/job) at the University of St. Thomas.
+
+Location: St. Paul, MN, USA  
+Start date: 9/1/2024  
+Start time flexible? Yes   
+Contact: tmarrinan@stthomas.edu  
+
+
+[**2 PostDoc/PhD Positions in Visualization/Visual Analytics**](https://vcg.informatik.uni-rostock.de/en/jobs.html) at the University of Rostock.
+
+Location: Rostock, Germany  
+Start date: 2024-01-01  
+Start time flexible? Yes  
+Contact: Prof. Dr. Stefan Bruckner, stefan.bruckner@uni-rostock.de   
+
+
+[**PhD in Visual Analytics at TU Graz, Austria**](https://www.tugraz.at/institute/cgv/about-cgv/open-positions) at the Graz University of Technology.
+
+Location: Graz, Austria   
+Start date: 2024-01-01  
+Start time flexible?   
+Contact: Prof. Tobias Schreck, tobias.schreck@cgv.tugraz.at  
+
+
 ## Government
 
+
+**High-Performance Visualization** at the German Aerospace Center (DLR).
+
+Location: Braunschweig, Germany  
+Start date: 2024-01-01  
+Start time flexible? Yes  
+Contact: andreas.gerndt@dlr.de   
+
+
+**Civil Drone Mixed Reality Developer** at the German Aerospace Center (DLR).
+
+Location: Braunschweig / Cochstedt, Germany  
+Start date:   
+Start time flexible?   
+Contact: andreas.gerndt@dlr.de  
+
+
+
+**Small Airplane Mixed Reality Research** at the German Aerospace Center (DLR).
+
+Location: Cologne / Aachen, Germany  
+Start date: 2024-01-01  
+Start time flexible? Yes  
+Contact: andreas.gerndt@dlr.de  
+
+
+**Space System Modelling with Mixed Reality** at the German Aerospace Center (DLR).
+
+Location: Braunschweig, Germany  
+Start date: 2024-01-01  
+Start time flexible? Yes  
+Contact: andreas.gerndt@dlr.de  
+
+
+**Digital Twin Mixed Reality for Space System Assembling** at the German Aerospace Center (DLR).
+
+Location: Braunscweig (DLR) / University Bremen, Germany   
+Start date: 2024-04-01  
+Start time flexible? Yes  
+Contact: andreas.gerndt@dlr.de  
+
+
+**Visual Analytics for Emission Maps** at the German Aerospace Center (DLR).
+
+Location: Braunschweig, Germany  
+Start date: 2024-01-01  
+Start time flexible? Yes  
+Contact: andreas.gerndt@dlr.de  
+
+
+**Group Lead in Scientific Visualization** at the German Aerospace Center (DLR).
+
+Location: Braunschweig, Germany  
+Start date: 2024-01-01  
+Start time flexible? Yes  
+Contact: andreas.gerndt@dlr.de  
 
 
 
@@ -223,4 +303,11 @@ Start date: 2024-09-23
 Start time flexible? Yes  
 Contact: kalea@uchicago.edu  
 
+
+[**PhD Position in Human-Data Interaction**](https://vcg.informatik.uni-rostock.de/en/jobs.html) at the University of Rostock, Germany.
+
+Location: Rostock, Germany  
+Start date: 2024-01-01  
+Start time flexible? Yes  
+Contact: Prof. Dr. Stefan Bruckner, stefan.bruckner@uni-rostock.de  
 
