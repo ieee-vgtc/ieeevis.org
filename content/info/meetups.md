@@ -12,7 +12,8 @@ contact: meetups@ieeevis.org
 * [Meet VISxAI Meetup](#visxAI)
 * [Publishing Registered Reports, Interactive Articles, and Open Science at JoVI Meetup](#JoVI)
 * [VisInBharat: Assembling Visualization Researchers Working in the Indian Context Meetup](#VisInBharat)
-
+* [reVISit: Supporting Scalable Evaluation of Interactive Visualizations Meetup](#reVISit)
+  
 
 ## <a name="vis-lies"></a>VisLies! Meetup
 
@@ -75,7 +76,16 @@ shivam.agarwal@uni-bamberg.de <br>
 VisInBharat is an initiative to bring together a community of visualization researchers working in the Indian context. The initiative aims to provide a forum for discussing common challenges faced while working on projects specific to the Indian context, identifying unique opportunities for novel research (both local and global), and sharing the gained experiences. While still in the early planning stages, the goal is to assemble students, researchers, designers, and practitioners. A meetup at IEEE VIS 2023 aims to initiate a discussion on the topic to forge the path ahead. Additionally, it aims to build a team of interested individuals who are enthusiastic to help organize activities towards the VisInBharat initiative. Regardless of your experience (early PhD student or senior researcher), please join us at the meetup if the initiative resonates with you. 
 
 
+## <a name="reVISit"></a>reVISit: Supporting Scalable Evaluation of Interactive Visualizations
 
+Wednesday 25 October 2023<br>
+12:00pm (noon)<br>
+room 101+102 <br>
+Organizers: Alexander Lex <br>
+Contact: <br>
+alex@sci.utah.edu <br>
+
+The reVISit project develops open web-based infrastructure for running user study for visualization experiments. In this meetup, we would like to (a) briefly introduce the reVISit framework and how it can help you run user studies, and (b) hear from the community about their needs with regards to online user studies. Join us to discuss the future of online studies!
 
 
 
