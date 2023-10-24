@@ -8,7 +8,7 @@ name: build staging
 on:
   push:
     # build staging whenever someone pushes to master (archive), previous year's (vis2019,
-    # vis2020, vis2021), or this year's site (vis2022)
+    # vis2020, vis2021, vis2022, vis2023), or this year's site (vis2024)
     branches:
       - master
       - vis2019
@@ -16,6 +16,7 @@ on:
       - vis2021
       - vis2022
       - vis2023
+      - vis2024
 
 jobs:
   build:
@@ -78,14 +79,19 @@ jobs:
         git switch -f vis2022
         make new2022
 
-    ## BUILD THIS YEAR (currently: vis2023)
+    - name: Build previous year (2023)
+      run: |
+        git switch -f vis2023
+        make new2023
+
+    ## BUILD THIS YEAR (currently: vis2024)
     ## ./scripts/fix_file_extensions.sh moves some evergreen content from current year
-    - name: Build this year (2023) + deploy
+    - name: Build this year (2024) + deploy
       env:
         IEEEVIS_AWS_USER: default
         AWS_DISTRIBUTION_ID: ${{ secrets.aws_distribution_id_staging }}
       run: |
-        git switch -f vis2023
-        make staging2023
+        git switch -f vis2024
+        make staging2024
 
 
