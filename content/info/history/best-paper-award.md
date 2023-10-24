@@ -5,6 +5,94 @@ permalink: /info/history/best-paper-award
 contact: archive@ieeevis.org
 ---
 
+
+### 2021
+
+#### Best Paper Awards:
+
+Elsie Lee-Robbins, Eytan Adar
+**Affective Learning Objectives for Communicative Visualizations**
+DOI: [10.1109/TVCG.2022.3209500](https://doi.org/10.1109/TVCG.2022.3209500)
+
+Lace Padilla, Racquel Fygenson, Spencer C. Castro, Enrico Bertini
+**Multiple Forecast Visualizations (MFVs): Trade-offs in Trust and Performance in Multiple COVID-19 Forecast Visualizations**
+DOI: [10.1109/TVCG.2022.3209457](https://doi.org/10.1109/TVCG.2022.3209457)
+
+David Hägele, Tim Krake, Daniel Weiskopf
+**Uncertainty-Aware Multidimensional Scaling**
+DOI: [10.1109/TVCG.2022.3209420](https://doi.org/10.1109/TVCG.2022.3209420)
+
+#### Honorable Mention Awards:
+
+Ying Zhao, Luhao Ge, Huixuan Xie, Genghuai Bai, Zhao Zhang, Qiang Wei, Yun Lin, Yuchao Liu, Fangfang Zhou
+**ASTF: Visual Abstractions of Time-Varying Patterns in Radio Signals**
+DOI: [10.1109/TVCG.2022.3209469](https://doi.org/10.1109/TVCG.2022.3209469)
+
+Yang Shi, Tian Gao, Xiaohan Jiao, Nan Cao
+**Breaking the Fourth Wall of Data Stories through Interaction**
+DOI: [10.1109/TVCG.2022.3209409](https://doi.org/10.1109/TVCG.2022.3209409)
+
+Nicole Sultanum, Farooq Naeem, Michael Brudno, Fanny Chevalier
+**ChartWalk: Navigating large collections of text notes in electronic health records for clinical chart review**
+DOI: [10.1109/TVCG.2022.3209444](https://doi.org/10.1109/TVCG.2022.3209444)
+
+Benjamin Bach, Euan Freeman, Alfie Abdul-Rahman, Cagatay Turkay, Saiful Khan, Yulei Fan, Min Chen
+**Dashboard Design Patterns**
+DOI: [10.1109/TVCG.2022.3209448](https://doi.org/10.1109/TVCG.2022.3209448)
+
+Abhraneel Sarma, Shunan Guo, Jane Hoffswell, Ryan Rossi, Fan Du, Eunyee Koh, Matthew Kay
+**Evaluating the Use of Uncertainty Visualisations for Imputations of Data Missing At Random in Scatterplots**
+DOI: [10.1109/TVCG.2022.3209348](https://doi.org/10.1109/TVCG.2022.3209348)
+
+Wai Tong, Zhutian Chen, Meng Xia, Leo Yu-Ho Lo, Linping Yuan, Benjamin Bach, Huamin Qu
+**Exploring Interactions with Printed Data Visualizations in Augmented Reality**
+DOI: [10.1109/TVCG.2022.3209386](https://doi.org/10.1109/TVCG.2022.3209386)
+
+Qianwen Wang, Kexin Huang, Payal Chandak, Marinka Zitnik, Nils Gehlenborg
+**Extending the Nested Model for User-Centric XAI: A Design Study on GNN-based Drug Repurposing**
+DOI: [10.1109/TVCG.2022.3209435](https://doi.org/10.1109/TVCG.2022.3209435)
+
+David Bauer, Qi Wu, Kwan-Liu Ma
+**FoVolNet: Fast Volume Rendering using Foveated Deep Neural Networks**
+DOI: [10.1109/TVCG.2022.3209498](https://doi.org/10.1109/TVCG.2022.3209498)
+
+Kai Lawonn, Monique Meuschke, Pepe Eulzer, Matthias Mitterreiter, Joachim Giesen, Tobias Günther
+**GRay: Ray Casting for Visualization and Interactive Data Exploration of Gaussian Mixture Models**
+DOI: [10.1109/TVCG.2022.3209374](https://doi.org/10.1109/TVCG.2022.3209374)
+
+Aditeya Pandey, Arjun Srinivasan, Vidya Setlur
+**Medley: Intent-based Recommendations to Support Dashboard Composition**
+DOI: [10.1109/TVCG.2022.3209421](https://doi.org/10.1109/TVCG.2022.3209421)
+
+Yihong Wu, Dazhen Deng, Xiao Xie, Moqi He, Jie Xu, Hongzeng Zhang, Hui Zhang, Yingcai Wu
+**OBTracker: Visual Analytics of Off-ball Movements in Basketball**
+DOI: [10.1109/TVCG.2022.3209373](https://doi.org/10.1109/TVCG.2022.3209373)
+
+Nate Morrical, Alper Sahistan, Ugur Gudukbay, Ingo Wald, Valerio Pascucci
+**Quick Clusters: A GPU-Parallel Partitioning for Efficient Path Tracing of Unstructured Volumetric Grids**
+DOI: [10.1109/TVCG.2022.3209418](https://doi.org/10.1109/TVCG.2022.3209418)
+
+Xiaoyu Zhang, Jorge H Piazentin Ono, Huan Song, Liang Gou, Kwan-Liu Ma, Liu Ren
+**SliceTeller : A Data Slice-Driven Approach for Machine Learning Model Validation**
+DOI: [10.1109/TVCG.2022.3209465](https://doi.org/10.1109/TVCG.2022.3209465)
+
+Yang Shi, Pei Liu, Siji Chen, Mengdi Sun, Nan Cao
+**Supporting Expressive and Faithful Pictorial Visualization Design with Visual Style Transfer**
+DOI: [10.1109/TVCG.2022.3209486](https://doi.org/10.1109/TVCG.2022.3209486)
+
+Tica Lin, Zhutian Chen, Yalong Yang, Daniele Chiappalupi, Johanna Beyer, Hanspeter Pfister
+**The Quest for Omnioculars: Embedded Visualization for Augmenting Basketball Game Viewing Experiences**
+DOI: [10.1109/TVCG.2022.3209353](https://doi.org/10.1109/TVCG.2022.3209353)
+
+Catalina Vajiac, Duen Horng Chau, Andreas Olligschlaeger, Rebecca Mackenzie, Pratheeksha Nair, Meng-Chieh Lee, Yifei Li, Namyong Park, Reihaneh Rabbany, Christos Faloutsos
+**TrafficVis: Visualizing Organized Activity and Spatio-Temporal Patterns for Detecting Human Trafficking**
+DOI: [10.1109/TVCG.2022.3209403](https://doi.org/10.1109/TVCG.2022.3209403)
+
+Neng Shi, Jiayi Xu, Haoyu Li, Hanqi Guo, Jonathan Woodring, Han-Wei Shen
+**VDL-Surrogate: A View-Dependent Latent-based Model for Parameter Space Exploration of Ensemble Simulations**
+DOI: [10.1109/TVCG.2022.3209413](https://doi.org/10.1109/TVCG.2022.3209413)
+
+
 ### 2021
 
 #### Best Paper Awards:
