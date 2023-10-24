@@ -23,23 +23,23 @@
  #      image: /assets/supporters/tableau.jpg
  #      url: "https://www.tableau.com/"
 
- - category: Platinum
-   image_size: 400
-   supporters:
-     - name: "Tableau"
-       image: /assets/supporters/Tableau-From-Salesforce-Logo-COLOR.png
-       url: "https://www.tableau.com/"
+ # - category: Platinum
+ #   image_size: 400
+ #   supporters:
+ #     - name: "Tableau"
+ #       image: /assets/supporters/Tableau-From-Salesforce-Logo-COLOR.png
+ #       url: "https://www.tableau.com/"
 
 
- - category: Silver
-   image_size: 320
-   supporters:
-     - name: "KAUST"
-       image: /assets/supporters/vcc_kaust.png
-       url: "http://vcc.kaust.edu.sa/"
-     - name: "Autodesk"
-       image: /assets/supporters/Autodesk-logo.png
-       url: "https://www.autodesk.com/research"
+ # - category: Silver
+ #   image_size: 320
+ #   supporters:
+ #     - name: "KAUST"
+ #       image: /assets/supporters/vcc_kaust.png
+ #       url: "http://vcc.kaust.edu.sa/"
+ #     - name: "Autodesk"
+ #       image: /assets/supporters/Autodesk-logo.png
+ #       url: "https://www.autodesk.com/research"
 #
 #
 #     - name: "University of Oklahoma"
@@ -54,35 +54,35 @@
 #      image: /assets/supporters/microsoft.png
 #      url: "https://www.microsoft.com/research"
 
- - category: Banquet
-   image_size: 200
-   supporters:
-     - name: "Norrköping Visualization Center"
-       image: /assets/supporters/norrkoping.png
-       url: "https://visualiseringscenter.se/"
+#  - category: Banquet
+#    image_size: 200
+#    supporters:
+#      - name: "Norrköping Visualization Center"
+#        image: /assets/supporters/norrkoping.png
+#        url: "https://visualiseringscenter.se/"
 
- - category: Bronze
-   image_size: 200
-   supporters:
-     - name: "Apple"
-       image: /assets/supporters/apple.png
-       url: "https://www.apple.com"
-#     - name: "Unviversity of Oklaoma"
-#       image: /assets/supporters/okl_transparent.png
-#       url: "https://www.ou.edu/disc"
-     - name: "Monash University"
-       image: /assets/supporters/monash.png
-       url: "https://www.monash.edu/it"
-     - name: "JPMorgan Chase"
-       image: /assets/supporters/jpmchase.png
-       url: "https://www.jpmorganchase.com/"
+#  - category: Bronze
+#    image_size: 200
+#    supporters:
+#      - name: "Apple"
+#        image: /assets/supporters/apple.png
+#        url: "https://www.apple.com"
+# #     - name: "Unviversity of Oklaoma"
+# #       image: /assets/supporters/okl_transparent.png
+# #       url: "https://www.ou.edu/disc"
+#      - name: "Monash University"
+#        image: /assets/supporters/monash.png
+#        url: "https://www.monash.edu/it"
+#      - name: "JPMorgan Chase"
+#        image: /assets/supporters/jpmchase.png
+#        url: "https://www.jpmorganchase.com/"
 
- - category: Pearl
-   image_size: 150
-   supporters:
-     - name: "Kitware, Inc"
-       image: /assets/supporters/kitware.png
-       url: "https://www.kitware.com/"
+#  - category: Pearl
+#    image_size: 150
+#    supporters:
+#      - name: "Kitware, Inc"
+#        image: /assets/supporters/kitware.png
+#        url: "https://www.kitware.com/"
 #     - name: "Uncharted Software"
 #       image: /assets/supporters/uncharted.png
 #       url: "https://uncharted.software/"
@@ -92,43 +92,43 @@
 #     - name: "Springer"
 #       image: /assets/supporters/springer-logo-transparent.png
 #       url: "https://www.springer.com/us"
-     - name: "VRVis"
-       image: /assets/supporters/VRVis-Logo.png
-       url: "https://www.vrvis.at/"
+     # - name: "VRVis"
+     #   image: /assets/supporters/VRVis-Logo.png
+     #   url: "https://www.vrvis.at/"
 #     - name: "Nomic"
 #       image: /assets/supporters/nomic.png
 #       url: "https://home.nomic.ai"
-     - name: "SCI"
-       image: /assets/supporters/sci.png
-       url: "https://www.sci.utah.edu/"
-     - name: "Adobe"
-       image: /assets/supporters/Adobe-logo.jpg
-       url: "https://www.adobe.com/"
+     # - name: "SCI"
+     #   image: /assets/supporters/sci.png
+     #   url: "https://www.sci.utah.edu/"
+     # - name: "Adobe"
+     #   image: /assets/supporters/Adobe-logo.jpg
+     #   url: "https://www.adobe.com/"
      # - name: "Nreal"
      #   image: /assets/supporters/nreal-logo.png
      #   url: "https://www.xreal.com/"
-     - name: "University of Queensland"
-       image: "/assets/supporters/UQ logo - co-branding.jpg"
-       url: "https://www.uq.edu.au/"
-     - name: "NREL"
-       image: /assets/supporters/NREL.jpg
-       url: "https://www.nrel.gov/"
+     # - name: "University of Queensland"
+     #   image: "/assets/supporters/UQ logo - co-branding.jpg"
+     #   url: "https://www.uq.edu.au/"
+     # - name: "NREL"
+     #   image: /assets/supporters/NREL.jpg
+     #   url: "https://www.nrel.gov/"
 #     - name: "VisPsych"
 #       image: /assets/supporters/vispsych.png
 #       url: "https://sites.google.com/view/vispsych/"
-     - name: "University of Melbourne"
-       image: /assets/supporters/University_of_Melbourne.png
-       url: "https://www.unimelb.edu.au/"
+ #     - name: "University of Melbourne"
+ #       image: /assets/supporters/University_of_Melbourne.png
+ #       url: "https://www.unimelb.edu.au/"
 
- - category: Exhibitors
-   image_size: 140
-   supporters:
-     - name: "Tom Sawyer Software"
-       image: /assets/supporters/TomSawyer.jpg
-       url: "https://www.tomsawyer.com/"
-     - name: "Springer Nature"
-       image: /assets/supporters/springernature.png
-       url: "https://www.springernature.com/"
+ # - category: Exhibitors
+ #   image_size: 140
+ #   supporters:
+ #     - name: "Tom Sawyer Software"
+ #       image: /assets/supporters/TomSawyer.jpg
+ #       url: "https://www.tomsawyer.com/"
+ #     - name: "Springer Nature"
+ #       image: /assets/supporters/springernature.png
+ #       url: "https://www.springernature.com/"
 
 
  #    - name: "Harvard Medical School"

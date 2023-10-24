@@ -20,18 +20,18 @@
 #                     is_external
 
 registration:
-  display: true
+  display: false
   text: "Register"
   url: "/year/2023/info/registration/conference-registration"
 
 blog:
-  display: true
+  display: false
   text: "Blog"
   url: "/year/2023/blog/index"
 
 menu:
   - dropdown: "Attend"
-    display: true
+    display: false
     sections:
       - subsections:
           - heading: "Attending VIS 2023"
@@ -100,7 +100,7 @@ menu:
   #                   url: "/year/2023/info/inclusion-and-diversity/viskids-event"
 
   - dropdown: "Contribute"
-    display: true
+    display: false
     sections:
       - subsections:
           - heading: "Call for Participation"
@@ -196,7 +196,7 @@ menu:
             description: "Your support makes this conference possible!"
 
   - dropdown: "Program"
-    display: true
+    display: false
     sections:
       - subsections:
           - heading: "Vis Program"
@@ -275,7 +275,7 @@ menu:
   #              #     url: "https://www.google.com"
 
   - dropdown: "Events & Community"
-    display: true
+    display: false
     sections:
       - subsections:
           - heading: "Associated Events"
@@ -395,6 +395,8 @@ menu:
             columns:
               - heading: ""
                 links:
+                  - text: "2023"
+                    url: "http://ieeevis.org/year/2023/welcome"
                   - text: "2022"
                     url: "http://ieeevis.org/year/2022/welcome"
                   - text: "2021"
@@ -459,22 +461,22 @@ menu:
             columns:
               - links:
                   - text: "Historical Best Paper Awards"
-                    url: "/year/2022/info/history/best-paper-award"
+                    url: "/year/2024/info/history/best-paper-award"
 
       - subsections:
-          - heading: "Committees"
-            columns:
-              - links:
-                  - text: "VIS 2023 Organizing Committee"
-                    url: "/year/2023/info/committees/conference-committee"
-                  - text: "Program Committees"
-                    url: "/year/2023/info/committees/program-committees"
-                  - text: "VIS Steering Committee"
-                    url: "/year/2023/info/committees/steering-committees"
-                  - text: "VIS Executive Committee"
-                    url: "/year/2023/info/committees/vis-executive-committee"
-                  - text: "Area Curation Committee"
-                    url: "/year/2023/info/committees/area-committee"
+          # - heading: "Committees"
+          #   columns:
+          #     - links:
+          #         - text: "VIS 2023 Organizing Committee"
+          #           url: "/year/2023/info/committees/conference-committee"
+          #         - text: "Program Committees"
+          #           url: "/year/2023/info/committees/program-committees"
+          #         - text: "VIS Steering Committee"
+          #           url: "/year/2023/info/committees/steering-committees"
+          #         - text: "VIS Executive Committee"
+          #           url: "/year/2023/info/committees/vis-executive-committee"
+          #         - text: "Area Curation Committee"
+          #           url: "/year/2023/info/committees/area-committee"
           #         # - text: "Restructuring and reVISe"
           #         #   url:  "/governance/restructuring"
           - heading: "Governance Documents"
@@ -485,7 +487,7 @@ menu:
                   - text: "Best Paper Process"
                     url: "/governance/best-paper-process"
           - heading: "Code of Conduct"
-            heading_url: "/year/2023/info/inclusion-and-diversity/code-of-conduct"
+            heading_url: "/year/2024/info/inclusion-and-diversity/code-of-conduct"
 
 
       - subsections:
@@ -499,15 +501,15 @@ menu:
                   # - text: "2023 in Melbourne, Victoria, Australia"
                   #   description: ""
                   #   url: "/year/2023/blog/vis-22-in-oklahoma"
-                  - text: "IEEE VIS 2023 conference format"
-                    description: "Blog post concerning IEEE VIS 2023 conference format"
-                    url: "/year/2023/blog/vis-23-conference-format"
-                  - text: "2024 in Tampa Bay, Florida, USA"
-                    description: ""
-                    url: "/year/2023/blog/vis-24-in-tampa-bay"
+                  # - text: "IEEE VIS 2023 conference format"
+                  #   description: "Blog post concerning IEEE VIS 2023 conference format"
+                  #   url: "/year/2023/blog/vis-23-conference-format"
+                  # - text: "2024 in Tampa Bay, Florida, USA"
+                  #   description: ""
+                  #   url: "/year/2023/blog/vis-24-in-tampa-bay"
                   - text: "2025 in Vienna, Austria"
                     description: ""
-                    url: "/year/2023/blog/vis-25-in-vienna"
+                    url: "/year/2024/blog/vis-25-in-vienna"
                   - text: "How to Host IEEE VIS"
                     description: "Guidelines to bid for a future location of IEEE VIS"
                     url: "/governance/bids"
@@ -526,4 +528,4 @@ menu:
             columns:
               - links:
                   - text: "Updating the website content"
-                    url: "/year/2023/info/contributing"
+                    url: "/year/2024/info/contributing"
