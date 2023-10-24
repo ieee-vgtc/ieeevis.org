@@ -1,7 +1,7 @@
 /* Sections */
 
 .section {
-    @apply bg-primary;
+    @apply bg-accent-minor;
     @apply relative;
     margin-bottom: 15px;
 }

@@ -2,33 +2,35 @@
 
 const { colors } = require('tailwindcss/defaultTheme')
 //#E9A34F
-// 110 182 239 primary #6EB6EF
-// 233 163 79 secondary #E9A34F
-// 63 101 127 other #3F657F
+// 110 182 239 primary #6EB6EF light blue
+// 233 163 79 secondary #E9A34F orange
+// darker orange #a46314
+// 63 101 127 other #3F657F dark blue
 
 module.exports = {
   theme: {
     colors: {
       primary: {
-        default:'#3F657F',//'#8ca8c4',// '#701c00',//'#841617',//#26853c', // '#7f6c5e',
-        800: '#3F657F',//'#8ca8c4',//'#004c03', // '#7f6c5e',
-        700: '#3F657F',//'#8ca8c4',//'#00661c', // '#7f6c5e',
-        600: '#3F657F',//'#8ca8c4',//'#7db68a', // '#b9aba1',
+        default:'#a46314',//'#8ca8c4',// '#701c00',//'#841617',//#26853c', // '#7f6c5e',
+        800: '#a46314',//'#8ca8c4',//'#004c03', // '#7f6c5e',
+        700: '#a46314',//'#8ca8c4',//'#00661c', // '#7f6c5e',
+        600: '#a46314',//'#8ca8c4',//'#7db68a', // '#b9aba1',
         500: colors.white,
-        200: '#6EB6EF',//'#8ca8c4',//'#6aa868', // '#b9aba1',
-        100: '#6EB6EF',//colors.white, // '#b9aba1',
+        200: '#a46314',//'#8ca8c4',//'#6aa868', // '#b9aba1',
+        100: '#a46314',//colors.white, // '#b9aba1',
       },
       secondary: {
-        default: '#6EB6EF',//'#8ca8c4', //'#1d3160',//'#6f2184', // '#c42026',
-        800: '#6EB6EF',//'#8ca8c4',//'#1d3160',//'#6f2184', // '#b42026',
-        700: '#6EB6EF',//'#8ca8c4',//'#8c3800',//'#853899', // '#c42026',
-        600: '#6EB6EF',//'#8ca8c4',//'#9b4faf', // '#d3855f',
-        200: '#6EB6EF',//colors.white, // '#e0a778',
-        100: '#6EB6EF',//colors.white, // '#e0a778',
+        default: '#3F657F',//'#8ca8c4', //'#1d3160',//'#6f2184', // '#c42026',
+        800: '#3F657F',//'#8ca8c4',//'#1d3160',//'#6f2184', // '#b42026',
+        700: '#3F657F',//'#8ca8c4',//'#8c3800',//'#853899', // '#c42026',
+        600: '#3F657F',//'#8ca8c4',//'#9b4faf', // '#d3855f',
+        200: '#3F657F',//colors.white, // '#e0a778',
+        100: '#3F657F',//colors.white, // '#e0a778',
       },
       accent: {
-        default: '#6EB6EF',//'#8ca8c4',// '#1d3160',//'#6f2184', // '#b9aba1',,
+        default: '#3F657F',//'#8ca8c4',// '#1d3160',//'#6f2184', // '#b9aba1',,
         minor: '#E9A34F',//'#8ca8c4',// '#fbc31b',
+        blue: '#6EB6EF',//'#8ca8c4',// '#fbc31b',
       },
       black: colors.black,
       white: colors.white,
