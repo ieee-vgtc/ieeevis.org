@@ -6,7 +6,7 @@ contact: archive@ieeevis.org
 ---
 
 
-### 2021
+### 2022
 
 #### Best Paper Awards:
 
