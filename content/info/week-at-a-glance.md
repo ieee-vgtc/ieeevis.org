@@ -146,6 +146,7 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 *3:40 PM-4:30 PM AEDT (UTC+11)*<br/>
 
 * Plenary 1: **[Best Papers 2](/year/2023/info/awards/best-paper-awards)**, includes Best Short Paper (3:40pm-4:30pm) ([VIS Full Papers](/year/2023/info/papers-sessions))
+    * Sponsored by **Autodesk**
 
 *4:45 PM-6:15 PM AEDT (UTC+11)*<br/>
 
