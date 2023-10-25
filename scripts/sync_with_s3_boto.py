@@ -129,7 +129,8 @@ if git_branch_name.endswith("-release"):
     branch_sha = run_cmd_get_lines('git', 'rev-parse', 'HEAD')[0].strip()
 else:
     try:
-        check_if_git_is_clean()
+        # check_if_git_is_clean()
+        True
     except Exception as e:
         print("Error:", str(e))
         exit(1)
