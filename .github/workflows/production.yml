@@ -66,7 +66,7 @@ jobs:
     - name: Build archive years
       run: make site
 
-    ## BUILD PREVIOUS YEARS (currently: vis2019, vis2020, vis2021)
+    ## BUILD PREVIOUS YEARS (currently: vis2019, vis2020, vis2021, vis2022, vis2023)
     - name: Build previous year (2019)
       run: |
         git switch -f vis2019
@@ -87,13 +87,18 @@ jobs:
         git switch -f vis2022
         make new2022
 
-    ## BUILD THIS YEAR (currently: vis2023)
+    - name: Build previous year (2023)
+      run: |
+        git switch -f vis2023
+        make new2023
+
+    ## BUILD THIS YEAR (currently: vis2024)
     ## ./scripts/fix_file_extensions.sh moves some evergreen content from current year
     ##    ∟ also only check out the tag linked to the triggering event
-    - name: Build this year (2023) + deploy
+    - name: Build this year (2024) + deploy
       env:
         IEEEVIS_AWS_USER: default
         AWS_DISTRIBUTION_ID: ${{ secrets.aws_distribution_id_production }}
       run: |
         git switch -f --detach ${{ github.event.release.tag_name }}
-        make release2023
+        make release2024
