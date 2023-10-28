@@ -627,7 +627,7 @@ Authors: Loann Giovannangeli, Frédéric Lalanne, Romain Giot, Romain Bourqui
 **09:00-10:15AM AEDT (UTC+11)**<br/>
 **Room: Room 105**<br/>
 *Color and Accessibility*<br/>
-*Session Chair: Karen Schloss*
+*Session Chair: Kim Marriott*
 
 **Rainbow Colormaps: What are they good and bad for?**<br/>
 Authors: Khairi Reda
