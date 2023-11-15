@@ -1,6 +1,6 @@
 # ieeevis.org
 
-This is the Jekyll version of the [IEEE VIS website](http://ieeevis.org).
+Hi!  This is the Jekyll version of the [IEEE VIS website](http://ieeevis.org).
 
 The `vis2024` branch (the page you're currently viewing) is the current year's website.
 
