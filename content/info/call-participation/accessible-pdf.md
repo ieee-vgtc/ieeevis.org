@@ -66,7 +66,7 @@ We walk through the process of tagging a PDF and adding alt texts in this video 
 
 We wrote these instructions for Adobe Acrobat Pro 2023.006.20380.
 
-1. **Add document tags.** The PDF file must be "tagged" with metadata about the document structure and text. You can check to see if your document is tagged by using the accessibility check function: select `All Tools` > `Prepare for Accessibility`, then click `Accessibility Check`. If the document is not tagged, you will see "Tagged PDF - Failed" under `Document`.
+1. **Tag the PDF.** The PDF file must be "tagged" with metadata about the document structure and text. You can check to see if your document is tagged by using the accessibility check function: select `All Tools` > `Prepare for Accessibility`, then click `Accessibility Check`. If the document is not tagged, you will see "Tagged PDF - Failed" under `Document`.
     1. To add tags to the document, select `Autotag Document`. Many tags will not be correct so you need to manually check and correct all pages. To quickly inspect the tags, switch to the `Order` side panel.
     2. Correct heading tags by opening the `Reading Order` tool. Then draw a box around the first heading and click the button for the correct heading level (start with H2). Repeat for all headings.
     3. To correct figure captions, open the `Accessibility Tags` side panel. Then find the the first figure caption (which should be a `<P>`), right click, `Properties...` > `Type` > `Caption`. Repeat for all figure captions. 
@@ -75,8 +75,8 @@ We wrote these instructions for Adobe Acrobat Pro 2023.006.20380.
     6. Change the reading order for the author details list. The list should be read right after the authors after the title to drag and drop the list (`L`) right after the last author `<Reference>`.
     7. Move footnotes to the end of the first paragraph where they are mentioned.
     8. If you notice that some tags are containing multiple things or should be grouped, you can break them up or combine by dragging nested tags in the `Accessibility Tags` side panel.
-2. **Add figure descriptions (alternative text) to all figures.** From `Prepare for Accessibility`, select `Set alternate text`. The dialog will walk you through each image and ask you to provide alternative text. Also add alt texts for equations. You can check the alternative texts in the `Accessibility tags` side panel by right clicking on a `<Figure>` in `Properties...`.
-3. **Mark table headers.**
+2. **Add figure descriptions (alternative text) to all figures and equations.** From `Prepare for Accessibility`, select `Set alternate text`. The dialog will walk you through each image and ask you to provide alternative text. Also add alt texts for equations. You can check the alternative texts in the `Accessibility tags` side panel by right clicking on a `<Figure>` in `Properties...`.
+3. **Tag tables.**
     1. Right-click the `<Table>` in the `Accessibility tags` side panel and select `Table Editor`.
     2. Within the editor, each table cell should be labeled as a header (TH) or data (TD). If a cell is mislabeled, right-click the cell and select `Table Cell Properties`, and set either `Header Cell` or `Data Cell` as appropriate, and indicate whether it is a header for the row, column, or both on the `Scope` dropdown menu. You can shift-click to select multiple cells at once.
 6. **Save tagged PDF**. Use the accessibility check tool to verify that your PDF is accessible.
