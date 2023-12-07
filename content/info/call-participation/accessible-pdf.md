@@ -58,7 +58,7 @@ Microsoft Word can produce accessible documents.
 
 You can add missing accessibility metadata to a PDF file using [Adobe Acrobat](https://www.adobe.com/acrobat/acrobat-pro.html). Note that this requires **the pro version of Adobe Acrobat**. If you need assistance in making your PDF accessible, please contact the accessibility chairs (or venue chairs) as they might be able to provide support.
 
-Note that these steps will need to be performed **each time a new PDF is exported or generated from your source documents.**
+Note that these steps will need to be performed **each time a new PDF is exported or generated from your source documents.** Since Word can produce accessible documents, these steps are designed for LaTeX users.
 
 We walk through the process of tagging a PDF and adding alt texts in this video that we made in August 2023.
 
