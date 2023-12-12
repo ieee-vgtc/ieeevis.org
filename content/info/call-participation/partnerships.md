@@ -17,7 +17,7 @@ Note that VIS papers chairs make their acceptance decisions on VIS Full Papers i
 ## CG&A Partnership
 Since 2015, authors of selected papers from the IEEE Computer Graphics and Applications (CG&A) from the previous year in the area of visualization have been invited to give an oral presentation about their work at VIS. This M1C2 (Magazine-First-Conference-Second) model increases the visibility of applied research and systems papers among the academic community and fosters synergies between the theoretical and the applied aspects of the field.
 
-These talks are collected into two or more CG&A-focused sessions. Invitations are issued by the CG&A Associate Editor (currently, Chris Weaver) in the Spring based on scope alignment with the VIS conference and the number of available slots.
+These talks are collected into two or more CG&A-focused sessions. Invitations are issued by the CG&A Associate Editor (currently, André Stork) in the Spring based on scope alignment with the VIS conference and the number of available slots.
 
 ## SIGGRAPH Partnership
 Since 2019, authors of selected papers from the ACM SIGGRAPH Transactions on Graphics (TOG) from the current year, in the area of visualization, have been invited to give an oral presentation about their work at VIS. Similarly, authors of selected papers from the IEEE TVCG from the current year are invited to give an oral presentation about their work at SIGGRAPH.  Invitations are coordinated with the ACM TOG Editor-in-Chief, the IEEE TVCG Editor-in-Chief (currently, Han-Wei Shen), and IEEE VGTC’s Vice Chair for Conferences (currently, Jian Chen).
@@ -31,12 +31,3 @@ Like with SIGGRAPH, these talks are collected in one VR-focused session.
 
 Email: [program@ieeevis.org](mailto:program@ieeevis.org)
 
-## Local partner conferences
-
-We have partnered with other major conferences that are coming to Australia in late 2023 to offer reciprocal discounts. When you register for IEEE VIS you will receive a code to obtain a discount for registration at the following partner events:
-
-[<img src="https://asia.siggraph.org/2023/wp-content/uploads/2022/11/SA23-Logo-Full-Color-Landscape.svg" width="250px" title="SIGGRAPH Asia 2023"/>](https://asia.siggraph.org/2023)  
-December 12-15 in Sydney, Australia
-
-[<img src="https://www.ismar.net/files/ismar2023/ismar23_teaser.png" width="250px" title="IEEE International Symposium on Mixed and Augmented Reality"/>](https://ismar23.org/)  
-October 16-20 in Sydney, Australia
