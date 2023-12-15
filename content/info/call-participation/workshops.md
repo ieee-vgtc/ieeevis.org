@@ -39,7 +39,8 @@ Workshop proposals should include:
 * a title,
 * the contact details of the organizers,
 * a brief description of the organizers’ background, related publications, and research,
-* the intended format and planned activities (e.g., mainly talks, mainly interactive sessions, a mix), including an outline schedule for the program—workshops are strongly encouraged, though not required, to consider ways to interactively engage all participants,
+* the intended format (i.e., in person, remote, or hybrid),
+* the planned activities (e.g., mainly talks, mainly interactive sessions, a mix), including an outline schedule for the program&mdash;workshops are strongly encouraged, though not required, to consider ways to interactively engage all participants,
 * the intended result and impact of the workshop,
 * **NEW:** a brief justification for why this workshop is necessary (e.g., why would the topic benefit from a more informal setting, in what ways is the topic emergent or a relatively poor fit for the main conference program, etc.),
 * a chosen measure for a successful CFP (e.g., number of submissions), possibly including an outline for a “backup policy” (e.g., changing the workshop format, or voluntarily withdrawing the workshop before acceptance notification is sent, but should not require the workshop organizers to submit emergency papers to their own workshop),
@@ -90,6 +91,10 @@ If papers or position papers are foreseen according to the planned workshop, the
     - papers are not considered archival and should not be cited
 
     Re-use of the content in a follow-up publication is fully allowed, also in form of conference papers.
+
+### Attendance
+
+At least one author for each paper must register and attend the conference in person or virtually. If you have exceptional circumstances and none of the authors can attend in person please contact the conference committee as soon as possible at [info@ieeevis.org](mailto:info@ieeevis.org).
 
 ## Evaluation criteria
 
