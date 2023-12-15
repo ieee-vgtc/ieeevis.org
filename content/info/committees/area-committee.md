@@ -13,10 +13,10 @@ The Area Curation Committee produces an executive summary of analysis of the are
 
 
 | **Name** | **Affiliation** |
-| Jean-Daniel Fekete | *Inria* |
+| Jean-Daniel Fekete (co-chair) | *Inria* |
 | Ingrid Hotz | *Link&ouml;ping University* |
 | David Laidlaw | *Brown University* |
-| Alex Lex (chair) | *University of Utah* |
+| Alex Lex (co-chair) | *University of Utah* |
 | Torsten M&ouml;ller | *University of Vienna* |
 | Mike Papka | *Argonne National Laboratory* |
 | Yingcai Wu | *Zhejiang University* |
