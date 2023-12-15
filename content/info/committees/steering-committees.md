@@ -11,11 +11,11 @@ Current members of the VSC are:
 
 | **Name** | **Affiliation** |
 | Jeffrey Heer | *University of Washington* |
-| Petra Isenberg | *Inria* |
+| Petra Isenberg | *Inria* (Co-Chair) |
 | Shixia Liu | *Tsinghua University* |
 | Kwan-Liu Ma | *University of California at Davis* |
-| Miriah Meyer | *Linköping University* |
-| Stephen North | *Infovisible* (Chair) |
+| Miriah Meyer | *Linköping University* (Co-Chair) |
+<!-- | Stephen North | *Infovisible* (Co-Chair) | -->
 | Jinwook Seo | *Seoul National University* |
 | Deborah Silver | *Rutgers University* |
 | Anna Vilanova | *Eindhoven University of Technology* |
@@ -23,7 +23,7 @@ Current members of the VSC are:
 
 ## VIS Executive and Steering Committee Elections
 Each year the VIS community elects one new member each to the VEC and VSC. 
-See the [VIS Elections](/year/2021/info/elections) page for more details.
+See the [VIS Elections](/year/2024/info/elections) page for more details.
 
 ## Public Meeting Notes  
 All [public meetings notes are available here](https://drive.google.com/drive/folders/1sgjPLu9JwmyjHzWhHSx82U_BdcODBSH1?usp=sharing)
