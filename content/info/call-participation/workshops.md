@@ -11,14 +11,11 @@ We solicit workshops related to all areas of visualization. They provide an info
 
 ## Important Dates
 
-* Proposal Submission               **Sunday February 26, 2023**
-* Notification                      **Tuesday March 14, 2023**
-* Final Submission of Summaries	    **Monday August 1, 2023**
+* Proposal Submission               **Sunday February 24, 2024**
+* Notification                      **Friday March 15, 2024**
+* Final Submission of Summaries	    **Thursday August 1, 2024**
 
 All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth) (new for 2023)**.
-
-## Attendance
-At least one author for each paper must register and attend the conference in person. If you have exceptional circumstances and none of the authors can attend in person please contact the conference committee as soon as possible at [info@ieeevis.org](mailto:info@ieeevis.org).
 
 ## Workshops should:
 
@@ -42,20 +39,20 @@ Workshop proposals should include:
 * a title,
 * the contact details of the organizers,
 * a brief description of the organizers’ background, related publications, and research,
-* the goals, the technical scope, the mission, and the proposed focus,
-* the intended format (e.g., mainly talks, mainly interactive sessions),
-* the planned activities, including the schedule during the session,
+* the intended format and planned activities (e.g., mainly talks, mainly interactive sessions, a mix), including an outline schedule for the program—workshops are strongly encouraged, though not required, to consider ways to interactively engage all participants,
+* the intended result and impact of the workshop,
+* **NEW:** a brief justification for why this workshop is necessary (e.g., why would the topic benefit from a more informal setting, in what ways is the topic emergent or a relatively poor fit for the main conference program, etc.),
+* a chosen measure for a successful CFP (e.g., number of submissions), possibly including an outline for a “backup policy” (e.g., changing the workshop format, or voluntarily withdrawing the workshop before acceptance notification is sent, but should not require the workshop organizers to submit emergency papers to their own workshop),
 * a statement of the organization and the development of the list of participants (intended size, detailed selection procedures, and timeline for finalizing workshop presenters),
 * a list of any special technology needed,
 * the intended result and impact of the workshop,
-* a chosen measure for a successful CfP (e.g., number of submissions), possibly including an outline for a “backup policy” (e.g., changing the workshop format, or voluntarily withdrawing the workshop before acceptance notification is sent, but should not require the workshop organizers to submit emergency papers to their own workshop), 
 * the plan for publication (see the classes listed below),
 * the number of poster slots requested, if the workshop intends to feature posters, and
-* the proposed dates for the call for participation, author notification, and camera-ready deadlines (author notification must be prior to the early registration deadline for IEEE VIS; for inclusion of materials on IEEE Xplore and/or the downloadable proceedings, the camera-ready deadline must be prior to **August 21, 2023**).
+* the proposed dates for the call for participation, author notification, and camera-ready deadlines (author notification must be prior to the early registration deadline for IEEE VIS; for inclusion of materials on IEEE Xplore and/or the downloadable proceedings, the camera-ready deadline must be prior to **August 19, 2024**).
 
 Because the number of workshop time slots is limited, half-day workshop proposals are **strongly encouraged**. However, well-justified full-day proposals will also be considered. Full-day proposals may optionally state what changes would be implemented to allow the workshop schedule to fit within a half day.
 
-If the proposed workshop is a follow-up of a previous workshop, please include a discussion of the results and the impact of any previous workshops.
+If the proposed workshop is a follow-up of a previous workshop, please include an evaluation of the prior workshop(s) including a discussion of the results and evidence of impact.
 
 **The proposal should not exceed four pages.** Please visit [VGTC website](https://tc.computer.org/vgtc/publications/conference) for formatting details and submit via [PCS](https://new.precisionconference.com/vgtc).
 
@@ -99,10 +96,11 @@ If papers or position papers are foreseen according to the planned workshop, the
 The aim of workshops is to include a variety of topics and a healthy mix of new and recurring events. Repeat submissions will be judged in part by the success of the previous workshop. Workshop success will be judged subjectively, but popularity, research impact, visibility, and attendee feedback will all be taken into account. Specifically, the workshop proposals will be evaluated according to the following criteria:
 
 * the potential for inspiring people, being influential, and opening new lines of research,
+* **NEW:** the degree to which the workshop provides a more interactive environment for participants—preference will be given to workshops that emphasize participant interaction,
+* the coherence of the proposed topic and the degree to which it would benefit from a workshop environment,
+* if this workshop is a repeat submission, its previous success,
 * the ability to attract people and make them excited about the workshop,
 * the appropriateness with respect to IEEE VIS topics,
-* the coherence of the proposed topic,
-* if this workshop is a repeat submission, its previous success,
 * if this workshop has special needs, the feasibility of the proposed plan including financial, logistics, scheduling, and coordination impact.
 
 The workshop chairs will balance the proposed topics in order to support the diversity of topics within IEEE VIS and complement the main program.
@@ -120,7 +118,7 @@ The workshop organizers will receive the following support from the VIS conferen
 * room and AV support suitable for around 100 attendees,
 * food and beverages for attendees: coffee breaks throughout the day, Sunday evening opening reception, space in the poster display area, if requested (from limited pool set aside for standard workshops; available space depends on the specifics of the venue; early requests given priority over late requests),
 * PCS (Precision Conference Solutions) support for managing submissions and the review process,
-* inclusion of the workshop materials or proceedings in the downloadable conference proceedings for dissemination to attendees of the conference and/or in IEEE Xplore, if requested (materials must be provided by August 21, 2023),
+* inclusion of the workshop materials or proceedings in the downloadable conference proceedings for dissemination to attendees of the conference and/or in IEEE Xplore, if requested (materials must be provided by August 19, 2024),
 * IEEE Xplore Digital Library publication of the workshop proceedings, if requested (considered archival).
 
 Please check the conference website for upcoming information concerning available funds for special purposes, such as supporting diversity. If the requirements of the workshop exceed this default support, the workshop organizers are expected to coordinate with the workshop chairs and possibly raise funds to support the workshop activities. Fundraising plans must be discussed with the workshop and supporters chairs prior to contacting any potential funder. For more information, see the guidelines for [Financial and Coordination Policies for IEEE VIS](http://ieeevis.org/governance/coordination).
@@ -131,6 +129,6 @@ VIS conference.
 ## Workshop Chairs
 
 * Stefan Bruckner, *University of Bergen, Norway*
-* Narges Mahyar, *University of Massachusetts Amherst, USA*
+* Arvind Satyanarayan, *MIT CSAIL, USA*
 * Julien Tierny, *CNRS - Sorbonne University, France*
-* Panpan Xu, *Amazon AWS, USA*
+* Lingyun Yu, *Xi’an Jiaotong-Liverpool University, China*
