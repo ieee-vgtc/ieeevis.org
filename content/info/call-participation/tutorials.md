@@ -30,7 +30,7 @@ Proposals should not exceed three pages, and should be [submitted via PCS](http:
 * Notification: **Friday, May 26, 2023**
 * Final Submission of Summaries: **Friday, July 28, 2023**
 
-All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth) (new for 2023)**.
+All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth)**.
 
 ## Chairs
 

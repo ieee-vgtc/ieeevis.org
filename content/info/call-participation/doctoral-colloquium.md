@@ -28,7 +28,7 @@ We plan to have the DC as an in-person first event following the rest of the con
 We may be able to fund conference registration for **all** participating students. We may additionally be able to partially fund lodging and possibly some travel for accepted DC student participants who are US citizens or are currently studying at US-based Universities.
 
 ## Submissions
-The deadline for DC submissions is ~~May 12, 2023~~ **EXTENDED to May 19, 2023** at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth) (new for 2023)**.
+The deadline for DC submissions is ~~May 12, 2023~~ **EXTENDED to May 19, 2023** at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth)**.
 
 Notification: June 30, 2023
 

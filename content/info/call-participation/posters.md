@@ -54,7 +54,7 @@ At the time of submission, it is required by the authors to state explicitly in 
 * Final Submission of Poster PDF: **Thursday, August 31, 2023**
 * (Optional) [Video Preview](/year/2023/info/presenter-information/fast-forward-and-video-previews) Submission: **Friday, September 22, 2023**
 
-All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth) (new for 2023)**.
+All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth)**.
 
 
 ### POSTER DESIGN AND PRINTING

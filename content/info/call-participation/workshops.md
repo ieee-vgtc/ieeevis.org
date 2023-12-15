@@ -15,7 +15,7 @@ We solicit workshops related to all areas of visualization. They provide an info
 * Notification                      **Friday March 15, 2024**
 * Final Submission of Summaries	    **Thursday August 1, 2024**
 
-All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth) (new for 2023)**.
+All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth)**.
 
 ## Workshops should:
 

@@ -45,7 +45,7 @@ Feel free to contact us at application_spotlights@ieeevis.org if you have any qu
 | ~~June 23, 2023~~ July 21, 2023 | Final Submissions due |
 | t.b.d. | Announcement of Spotlights on ieeevis.org |
 
-All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth) (new for 2023)**.
+All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth)**.
 
 ## Chairs
 
