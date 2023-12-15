@@ -9,8 +9,8 @@ layout: default
 </div>
 
 {% if page.intro_section %}
-<div class="section section--wrapper bg-primary-600">
-    <div class="section">
+<div class="section section--wrapper bg-accent-blue">
+    <div class="section bg-accent-blue">
         <div class="container">
             <div class="section__content-wrapper {% if page.intro_section.callout %} section__content-wrapper--decorative {% endif %}">
                 {% if page.intro_section.callout %}
@@ -30,7 +30,7 @@ layout: default
                     {% endfor %}
                 </div>
                 {% if page.intro_section.content %}
-                    <div class="section__content text-measure">
+                    <div class="section__content text-measure text-primary ieee-pub-notice">
                         {{ page.intro_section.content | markdownify }}
                     </div>
                 {% endif %}

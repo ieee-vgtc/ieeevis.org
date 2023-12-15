@@ -37,6 +37,12 @@ html {
     max-width: 1000px;
 }
 
+.ieee-pub-notice {
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+}
+
 
 /* Main */
 
