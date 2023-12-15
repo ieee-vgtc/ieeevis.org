@@ -19,6 +19,7 @@ Current members of the VSC are:
 | Jinwook Seo | *Seoul National University* |
 | Deborah Silver | *Rutgers University* |
 | Anna Vilanova | *Eindhoven University of Technology* |
+| Niklas Elmqvist | *Aarhus University* |
 
 
 ## VIS Executive and Steering Committee Elections
