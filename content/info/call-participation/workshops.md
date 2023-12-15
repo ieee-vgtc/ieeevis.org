@@ -46,7 +46,6 @@ Workshop proposals should include:
 * a chosen measure for a successful CFP (e.g., number of submissions), possibly including an outline for a “backup policy” (e.g., changing the workshop format, or voluntarily withdrawing the workshop before acceptance notification is sent, but should not require the workshop organizers to submit emergency papers to their own workshop),
 * a statement of the organization and the development of the list of participants (intended size, detailed selection procedures, and timeline for finalizing workshop presenters),
 * a list of any special technology needed,
-* the intended result and impact of the workshop,
 * the plan for publication (see the classes listed below),
 * the number of poster slots requested, if the workshop intends to feature posters, and
 * the proposed dates for the call for participation, author notification, and camera-ready deadlines (author notification must be prior to the early registration deadline for IEEE VIS; for inclusion of materials on IEEE Xplore and/or the downloadable proceedings, the camera-ready deadline must be prior to **August 19, 2024**).
