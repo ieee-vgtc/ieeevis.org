@@ -14,17 +14,19 @@ The current VEC members are:
 | Rita Borgo | *King's College London* | <br>
 | Gautam Chaudhary | *Alcon* |<br>
 | Min Chen | *Oxford* |<br>
-| Chris Collins | *Ontario Tech University* |<br>
-| Ross Maciejewski - Co-Chair | *Arizona State University* |<br>
+<!-- | Chris Collins | *Ontario Tech University* |<br> -->
+| Ross Maciejewski (Co-Chair) | *Arizona State University* |<br>
 | Elisabeta Marai | *University of Illinois at Chicago* |<br>
 | Matthew Brehmer | *Tableau* |<br>
-| Holger Theisel - Co-Chair| *University of Magdeburg* |<br>
+<!-- | Holger Theisel - Co-Chair| *University of Magdeburg* |<br> -->
 | Narges Mahyar | *University of Massachusetts Amherst* |<br>
-| Brian Summa| *Tulane University* |<br>
+| Brian Summa | *Tulane University* |<br>
+| Gautam Chaudhary (Co-Chair) | ** |<br>
+| Leilani Battle | *University of Washington* |<br>
 
 ## VIS Executive and Steering Committee Elections
 Each year the VIS community elects one new member each to the VEC and VSC. 
-See the [VIS Elections](/year/2022/info/elections) page for more details.
+See the [VIS Elections](/year/2024/info/elections) page for more details.
 
 ## Public Meeting Notes
 

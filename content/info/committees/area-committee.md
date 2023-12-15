@@ -13,14 +13,13 @@ The Area Curation Committee produces an executive summary of analysis of the are
 
 
 | **Name** | **Affiliation** |
-| Steven Drucker (chair) | *Microsoft Research, USA* |
-| Jean-Daniel Fekete | *Inria, France* |
-| Ingrid Hotz | *Link&ouml;ping University, Sweden* |
-| David Laidlaw | *Brown University, USA* |
-| Alex Lex | *University of Utah, USA* |
-| Torsten M&ouml;ller | *University of Vienna, Austria* |
-| Mike Papka | *Argonne National Laboratory, USA* |
-| Hendrik Strobelt | *IBM, USA* |
-| Shigeo Takahasi | *Tokyo University, Japan* |
-
+| Jean-Daniel Fekete (co-chair) | *Inria* |
+| Ingrid Hotz | *Link&ouml;ping University* |
+| David Laidlaw | *Brown University* |
+| Alex Lex (co-chair) | *University of Utah* |
+| Torsten M&ouml;ller | *University of Vienna* |
+| Mike Papka | *Argonne National Laboratory* |
+| Yingcai Wu | *Zhejiang University* |
+| Danielle Szafir | *University of North Carolina at Chapel Hill* |
+| Helwig Hauser | *University of Bergen* |
 
