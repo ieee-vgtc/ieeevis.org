@@ -96,7 +96,7 @@ If papers or position papers are foreseen according to the planned workshop, the
 The aim of workshops is to include a variety of topics and a healthy mix of new and recurring events. Repeat submissions will be judged in part by the success of the previous workshop. Workshop success will be judged subjectively, but popularity, research impact, visibility, and attendee feedback will all be taken into account. Specifically, the workshop proposals will be evaluated according to the following criteria:
 
 * the potential for inspiring people, being influential, and opening new lines of research,
-* **NEW:** the degree to which the workshop provides a more interactive environment for participants—preference will be given to workshops that emphasize participant interaction,
+* **NEW:** the degree to which the workshop provides a more interactive environment for participants—all things being equal, preference will be given to workshops that emphasize participant interaction,
 * the coherence of the proposed topic and the degree to which it would benefit from a workshop environment,
 * if this workshop is a repeat submission, its previous success,
 * the ability to attract people and make them excited about the workshop,
