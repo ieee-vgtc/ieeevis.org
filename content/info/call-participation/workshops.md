@@ -93,7 +93,7 @@ If papers or position papers are foreseen according to the planned workshop, the
 
 ### Attendance
 
-At least one author for each paper must register and attend the conference in person or virtually. If you have exceptional circumstances and none of the authors can attend in person please contact the conference committee as soon as possible at [info@ieeevis.org](mailto:info@ieeevis.org).
+At least one author for each paper must register and attend the conference in person or virtually. If you have exceptional circumstances and none of the authors can attend please contact the conference committee as soon as possible at [info@ieeevis.org](mailto:info@ieeevis.org).
 
 ## Evaluation criteria
 
