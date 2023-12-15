@@ -108,9 +108,8 @@ Scientific work builds naturally on previous work, including work published as a
 * Notification: **June 15, 2024**
 * Submission of Camera-Ready Final Version: **August 8, 2024**
 
-<!---
 All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth)**.
--->
+
 
 ### Vis Short Paper Co-Chairs:
 
