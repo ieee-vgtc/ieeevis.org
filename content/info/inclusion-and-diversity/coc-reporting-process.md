@@ -6,7 +6,7 @@ permalink: /info/inclusion-and-diversity/coc-reporting-process
 ---
 
 <center>
-<img src="/year/2023/assets/coc-reporting-workflow.png" alt="VIS code of conduct reporting workflow"/>
+<img src="/year/2024/assets/coc-reporting-workflow.png" alt="VIS code of conduct reporting workflow"/>
 <strong>Workflow of action when a concern is expressed.</strong>
 </center>
 <br/>
@@ -90,14 +90,12 @@ VEC receives nominations from the current Ombuds team, including a brief nominat
 
 **At least 2 members of the Ombuds team should be attending the conference in person in any given year.** If this is not possible, one or more members of the current Organizing Committee can be temporarily appointed to the Ombuds team to ensure sufficient local representation. 
 
-### VIS 2023 Ombuds
+### VIS 2024 Ombuds
 
 * Gautam Chaudhary, *Zenith Solutions*
-* Christopher Collins, *Ontario Tech University*
 * Mennatallah El-Assady, *ETH AI Center*
 * Josh Levine, *University of Arizona*
 * Lace Padilla, *Northeastern University*
-* Kristi Potter, *National Renewable Energy Lab*
 
 ## Meetings
 
