@@ -7,8 +7,6 @@ active_nav: "Contribute"
 contact: papers@ieeevis.org
 ---
 
-( This is version 2, minor updates for 2023 -- see [version history](#version-history-of-the-area-model))
-
 ## Introduction
 
 For IEEE VIS 2021 and beyond, the conference changes how it groups shared research interests as part of the reviewing process. Previously, the conference consisted of three sub-conferences, each with similar but separate reviewing processes. Instead, the new area model groups different research topics in Visualization and Visual Analytics into six areas. This allows research papers on closely-related topics to be reviewed in a coherent manner. To ensure a high quality review process, two area paper chairs oversee the reviewing process for each area and draw program committee members from a large joint program committee (PC). The mechanism of a unified PC across all areas allows area co-chairs to have access to wider expertise than was previously the case.
