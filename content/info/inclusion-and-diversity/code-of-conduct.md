@@ -23,23 +23,23 @@ The ombuds team for VIS 2023 is:
   <tbody>
     <tr>
       <td style="padding: 3px; width: 33%;"><img src="/year/2023/assets/ombuds-gautam.jpeg" alt="ombuds-gautam" style="min-width: 100px"/></td>
-      <td style="padding: 3px; width: 33%;"><img src="/year/2023/assets/ombuds-chris.jpeg" alt="ombuds-chris" style="min-width: 100px"/></td>
+      <!-- <td style="padding: 3px; width: 33%;"><img src="/year/2023/assets/ombuds-chris.jpeg" alt="ombuds-chris" style="min-width: 100px"/></td> -->
       <td style="padding: 3px; width: 33%;"><img src="/year/2023/assets/ombuds-menna.jpeg" alt="ombuds-menna" style="min-width: 100px"/></td>
     </tr>
     <tr>
       <td style="padding: 3px; width: 33%;">Gautam Chaudhary</td>
-      <td style="padding: 3px; width: 33%;">Christopher Collins</td>
+      <!-- <td style="padding: 3px; width: 33%;">Christopher Collins</td> -->
       <td style="padding: 3px; width: 33%;">Menna El-Assady</td>
     </tr>
     <tr style="border-bottom: 0px;">
       <td style="padding: 3px; width: 33%;"><img src="/year/2023/assets/ombuds-josh.jpeg" alt="ombuds-josh" style="min-width: 100px"/></td>
       <td style="padding: 3px; width: 33%;"><img src="/year/2023/assets/ombuds-lace.jpeg" alt="ombuds-lace" style="min-width: 100px"/></td>
-      <td style="padding: 3px; width: 33%;"><img src="/year/2023/assets/ombuds-kristi.jpeg" alt="ombuds-kristi" style="min-width: 100px"/></td>
+      <!-- <td style="padding: 3px; width: 33%;"><img src="/year/2023/assets/ombuds-kristi.jpeg" alt="ombuds-kristi" style="min-width: 100px"/></td> -->
     </tr>
     <tr>
       <td style="padding: 3px; width: 33%;">Joshua Levine</td>
       <td style="padding: 3px; width: 33%;">Lace Padilla</td>
-      <td style="padding: 3px; width: 33%;">Kristi Potter</td>
+      <!-- <td style="padding: 3px; width: 33%;">Kristi Potter</td> -->
     </tr>
   </tbody>
 </table>
