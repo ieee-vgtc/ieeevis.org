@@ -11,11 +11,10 @@ Current members of the VSC are:
 
 | **Name** | **Affiliation** |
 | Jeffrey Heer | *University of Washington* |
-| Petra Isenberg | *Inria* (Co-Chair) |
+| Petra Isenberg (co-chair) | *Inria* |
 | Shixia Liu | *Tsinghua University* |
 | Kwan-Liu Ma | *University of California at Davis* |
-| Miriah Meyer | *Linköping University* (Co-Chair) |
-<!-- | Stephen North | *Infovisible* (Co-Chair) | -->
+| Miriah Meyer (co-chair) | *Linköping University* |
 | Jinwook Seo | *Seoul National University* |
 | Deborah Silver | *Rutgers University* |
 | Anna Vilanova | *Eindhoven University of Technology* |

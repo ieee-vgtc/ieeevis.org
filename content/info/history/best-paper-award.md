@@ -5,6 +5,264 @@ permalink: /info/history/best-paper-award
 contact: archive@ieeevis.org
 ---
 
+
+
+
+
+### 2023
+
+
+#### Best Papers
+
+Xingyu Lan, Yanqiu Wu, Nan Cao
+**Affective Visualization Design: Leveraging the Emotional Impact of Data**
+
+
+Max Piochowiak, Carsten Dachsbacher
+**Fast Compressed Segmentation Volumes for Scientific Visualization**
+ 
+
+Fumeng Yang, Mandi Cai, Chloe Rose Mortenson, Hoda Fakhari, Ayse Deniz Lokmanoglu, Jessica Hullman, Steven Franconeri, Nicholas Diakopoulos, Erik Nisbet, Matthew Kay
+**Swaying the Public? Impacts of Election Forecast Visualizations on Emotion, Trust, and Intention in the 2022 U.S. Midterms**
+ 
+
+Anna Offenwanger, Matthew Brehmer, Fanny Chevalier, Theophanis Tsandilas
+**TimeSplines: Sketch-based Authoring of Flexible and Idiosyncratic Timelines**
+ 
+
+Egzon Miftari, Daniel Durstewitz, Filip Sadlo
+**Visualization of Discontinuous Vector Field Topology**
+ 
+
+Peter Rautek, Xingdi Zhang, Bernhard Woschizka, Thomas Theussl, Markus Hadwiger
+**Vortex Lens: Interactive Vortex Core Line Extraction using Observed Line Integral Convolution**
+ 
+
+
+#### Best Paper Honorable Mentions
+
+S. Sandra Bae, Takanori Fujiwara, Anders Ynnerman, Ellen Yi-Luen Do, Michael L Rivera, Danielle Albers Szafir
+**A Computational Design Process to Fabricate Sensing Network Physicalizations**
+ 
+
+Sonia Castelo Quispe, João Rulff, Erin McGowan, Bea Steers, Guande Wu, Shaoyu Chen, Iran Roman, Roque Lopez, Ethan Brewer, Chen Zhao, Jing Qian, Kyunghyun Cho, He He, Qi Sun, Huy T. Vo, Juan Pablo Bello, Michael Krone, Claudio Silva
+**ARGUS: Visualization of AI-assisted Task Guidance in AR**
+ 
+
+Dominik Moritz, Lace M. Padilla, Francis Nguyen, Steven L Franconeri
+**Average Estimates in Line Graphs are Biased Towards Areas of Higher Variability**
+ 
+
+Hyeon Jeon, Ghulam Jilani Quadri, Hyunwook Lee, Paul Rosen, Danielle Albers Szafir, Jinwook Seo
+**CLAMS: Cluster Ambiguity Measure for Estimating Perceptual Variability in Visual Clustering**
+ 
+
+Chenglong Wang, John R. Thompson, Bongshin Lee
+**Data Formulator: AI-powered Concept-driven Visualization Authoring**
+ 
+
+Will Epperson, Vaishnavi Gorantla, Dominik Moritz, Adam Perer
+**Dead or Alive: Continuous Data Profiling for Interactive Data Science**
+ 
+
+Dawar Khan, Ciril Bohak, Ivan Viola
+**Dr. KID: Direct Remeshing and K-set Isometric Decomposition for Scalable Physicalization of Organic Shapes**
+ 
+
+Helen Ai He, Jagoda Walny, Sonja Thoma, Sheelagh Carpendale, Wesley Willett
+**Enthusiastic and Grounded, Avoidant and Cautious: Understanding Public Receptivity to Data and Visualizations**
+ 
+
+Adeel Zafar, Di Yang, Guoning Chen
+**Extract and Characterize Hairpin Vortices in Turbulent Flows**
+ 
+
+Yifang Wang, Yifan Qian, Xiaoyu Qi, Nan Cao, Dashun Wang
+**InnovationInsights: A Visual Analytics Approach for Understanding the Dual Frontiers between Science and Technology**
+ 
+
+Alexander Vieth, Thomas Kroes, Julian Thijssen, Baldur van Lew, Jeroen Eggermont, Soumyadeep Basu, Elmar Eisemann, Anna Vilanova, Thomas Höllt, Boudewijn Lelieveldt
+**ManiVault: A Flexible and Extensible Visual Analytics Framework for High-Dimensional Data**
+ 
+
+Florian Wetzels, Mathieu Pont, Julien Tierny, Christoph Garth
+**Merge Tree Geodesics and Barycenters with Path Mappings**
+ 
+
+Carolina Veiga Ferreira de Souza, Suzanna Maria Bonnet, Daniel de Oliveira, Marcio Cataldi, Fabio Miranda, Marcos Lage
+**ProWis: A Visual Approach for Building, Managing, and Analyzing Weather Simulation Ensembles at Runtime**
+
+
+
+#### Best Short Paper
+
+Aidan Slingsby, Richard Reeve, Claire Harris
+**Gridded Glyphmaps for Supporting Spatial COVID-19 Modelling**
+
+
+#### Short Paper Honorable Mentions
+
+Junran Yang, Péter Ferenc Gyarmati, Zehua Zeng, Dominik Moritz
+**Draco 2: An Extensible Platform to Model Visualization Design**
+
+Yiren Ding, Lane Harrison
+**Data in the Wind: Evaluating Multiple-Encoding Design for Particle Motion Visualizations**
+
+#### Best Poster
+
+Alec Fisher Helbling, Duen Horng Chau
+**ManimML: Communicating Machine Learning Architectures with Animation**
+
+#### Best Poster Honorable Mentions
+
+Yi Guo, Nan Cao, Xiaoyu Qi, Haoyang Li, Danqing Shi, Jing Zhang, Qing Chen, Daniel Weiskopf
+**Enhancing Natural Language-Based Data Exploration with Analysis Pipeline Illustration**
+
+Leona M Holloway, Peter Cracknell, Kate Stephens, Melissa Fanshawe, Samuel Reinders, Kim Marriott, Matthew Butler
+**Refreshable Tactile Displays for Accessible Data Visualisation**
+
+
+
+
+
+
+
+
+
+
+### 2022
+
+
+#### Best Papers
+
+Elsie Lee-Robbins, Eytan Adar 
+**Affective Learning Objectives for Communicative Visualizations**
+ 
+Lace Padilla, Racquel Fygenson, Spencer C. Castro, Enrico Bertini
+**Multiple Forecast Visualizations (MFVs): Trade-offs in Trust and Performance in Multiple COVID-19 Forecast Visualizations**
+ 
+
+David Hägele, Tim Krake, Daniel Weiskopf
+**Uncertainty-Aware Multidimensional Scaling**
+ 
+
+### Best Paper Honorable Mentions
+
+Ying Zhao, Luhao Ge, Huixuan Xie, Genghuai Bai, Zhao Zhang, Qiang Wei, Yun Lin, Yuchao Liu, Fangfang Zhou
+**ASTF: Visual Abstractions of Time-Varying Patterns in Radio Signals**
+ 
+
+Yang Shi, Tian Gao, Xiaohan Jiao, Nan Cao
+**Breaking the Fourth Wall of Data Stories through Interaction**
+ 
+
+Nicole Sultanum, Farooq Naeem, Michael Brudno, Fanny Chevalier
+**ChartWalk: Navigating large collections of text notes in electronic health records for clinical chart review**
+ 
+
+Benjamin Bach, Euan Freeman, Alfie Abdul-Rahman, Cagatay Turkay, Saiful Khan, Yulei Fan, Min Chen
+**Dashboard Design Patterns**
+ 
+
+Abhraneel Sarma, Shunan Guo, Jane Hoffswell, Ryan Rossi, Fan Du, Eunyee Koh, Matthew Kay
+**Evaluating the Use of Uncertainty Visualisations for Imputations of Data Missing At Random in Scatterplots**
+ 
+
+Wai Tong, Zhutian Chen, Meng Xia, Leo Yu-Ho Lo, Linping Yuan, Benjamin Bach, Huamin Qu
+**Exploring Interactions with Printed Data Visualizations in Augmented Reality**
+ 
+
+Qianwen Wang, Kexin Huang, Payal Chandak, Marinka Zitnik, Nils Gehlenborg
+**Extending the Nested Model for User-Centric XAI: A Design Study on GNN-based Drug Repurposing**
+ 
+
+David Bauer, Qi Wu, Kwan-Liu Ma
+**FoVolNet: Fast Volume Rendering using Foveated Deep Neural Networks**
+ 
+
+Kai Lawonn, Monique Meuschke, Pepe Eulzer, Matthias Mitterreiter, Joachim Giesen, Tobias Günther
+**GRay: Ray Casting for Visualization and Interactive Data Exploration of Gaussian Mixture Models**
+ 
+
+Aditeya Pandey, Arjun Srinivasan, Vidya Setlur
+**Medley: Intent-based Recommendations to Support Dashboard Composition**
+ 
+
+Yihong Wu, Dazhen Deng, Xiao Xie, Moqi He, Jie Xu, Hongzeng Zhang, Hui Zhang, Yingcai Wu
+**OBTracker: Visual Analytics of Off-ball Movements in Basketball**
+ 
+
+Nate Morrical, Alper Sahistan, Ugur Gudukbay, Ingo Wald, Valerio Pascucci
+**Quick Clusters: A GPU-Parallel Partitioning for Efficient Path Tracing of Unstructured Volumetric Grids**
+ 
+
+Xiaoyu Zhang, Jorge H Piazentin Ono, Huan Song, Liang Gou, Kwan-Liu Ma, Liu Ren
+**SliceTeller : A Data Slice-Driven Approach for Machine Learning Model Validation**
+ 
+
+Yang Shi, Pei Liu, Siji Chen, Mengdi Sun, Nan Cao
+**Supporting Expressive and Faithful Pictorial Visualization Design with Visual Style Transfer**
+ 
+
+Tica Lin, Zhutian Chen, Yalong Yang, Daniele Chiappalupi, Johanna Beyer, Hanspeter Pfister
+**The Quest for Omnioculars: Embedded Visualization for Augmenting Basketball Game Viewing Experiences**
+ 
+
+Catalina Vajiac, Duen Horng Chau, Andreas Olligschlaeger, Rebecca Mackenzie, Pratheeksha Nair, Meng-Chieh Lee, Yifei Li, Namyong Park, Reihaneh Rabbany, Christos Faloutsos
+**TrafficVis: Visualizing Organized Activity and Spatio-Temporal Patterns for Detecting Human Trafficking**
+ 
+
+Neng Shi, Jiayi Xu, Haoyu Li, Hanqi Guo, Jonathan Woodring, Han-Wei Shen
+**VDL-Surrogate: A View-Dependent Latent-based Model for Parameter Space Exploration of Ensemble Simulations**
+
+
+#### Best Short Paper
+
+Leilani Battle, Danni Feng, Kelli Webber
+**Exploring D3 Implementation Challenges on Stack Overflow**
+ 
+
+#### Short Paper Honorable Mentions
+
+Maoyuan Sun, Yue Ma, Yuanxin Wang, Tianyi Li, Jian Zhao, Yujun Liu, Ping-Shou Zhong
+**Toward Systematic Considerations of Missingness in Visual Analytics**
+ 
+
+Bingjie Xu, Shunan Guo, Eunyee Koh, Jane Hoffswell, Ryan Rossi, Fan Du
+**ARShopping: In-Store Shopping Decision Support Through Augmented Reality and Immersive Visualization**
+ 
+
+
+#### Best Poster
+
+Jillian Aurisano, Abeer Alsaiari, Abhinav Kumar, Moira Zellner, Jason Leigh, Barbara Di Eugenio, Andrew E Johnson
+**Ditto: Exploring data in large display environments through speech+mid-air gesture interactions**
+ 
+
+#### Best Poster Honorable Mentions
+
+Luke Demarest
+**Dynamic visualizations for violence prevention**
+  
+
+Hamza Elhamdadi, Lace Padilla, Cindy Xiong
+**Processing Fluency Improves Trust in Scatterplot Visualizations**
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### 2021
 
 #### Best Paper Awards:

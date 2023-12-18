@@ -111,14 +111,17 @@ menu:
                 links:
                   - text: "Papers"
                     url: "/year/2024/info/call-participation/call-for-participation"
+                    is_new: true
                   - text: "Short Papers"
                     url: "/year/2024/info/call-participation/shortpapers"
+                    is_new: true
                   # - text: "Posters"
                   #   url: "/year/2024/info/call-participation/posters"
                   # - text: "Tutorials"
                     # url: "/year/2024/info/call-participation/tutorials"
                   - text: "Workshops"
                     url: "/year/2024/info/call-participation/workshops"
+                    is_new: true
                   # - text: "Panels"
                   #   url: "/year/2024/info/call-participation/panels"
                   # - text: "Doctoral Colloquium"
@@ -171,9 +174,9 @@ menu:
 # #                   - text: "VIS 2021 Satellite Program"
 # #                     description: "Volunteer to host a satellite event"
 # #                     url: "/year/2024/info/call-participation/satellite"
-                  - text: "Organize a meetup"
-                    description: "Meet people for discussion and shared experiences"
-                    url: "/year/2024/info/call-participation/meetups"
+                  # - text: "Organize a meetup"
+                  #   description: "Meet people for discussion and shared experiences"
+                  #   url: "/year/2024/info/call-participation/meetups"
                   - text: "Become a student volunteer"
                     description: "Support the conference and build your research network"
                     url: "http://www.vissv.org"
@@ -182,10 +185,10 @@ menu:
                     description: "Volunteer to review submissions"
                     url: "https://new.precisionconference.com/review_volunteering"
                     is_external: true
-                  - text: "Elections"
-                    description: "Register to vote and nominate/review candidates for the VSC/VEC"
-                    url: "/year/2024/info/elections"
-                    is_new: true
+                  # - text: "Elections"
+                  #   description: "Register to vote and nominate/review candidates for the VSC/VEC"
+                  #   url: "/year/2024/info/elections"
+                  #   is_new: true
 # #                     is_new: true
 # #                 # - text: "Become an organizer"
 # #                 #   description: "TK TK TK Join the committees and help organize VIS"
@@ -394,8 +397,8 @@ menu:
             columns:
               - heading: ""
                 links:
-                  - text: "2024"
-                    url: "http://ieeevis.org/year/2024/welcome"
+                  - text: "2023"
+                    url: "http://ieeevis.org/year/2023/welcome"
                   - text: "2022"
                     url: "http://ieeevis.org/year/2022/welcome"
                   - text: "2021"
@@ -408,14 +411,14 @@ menu:
                     url: "http://ieeevis.org/year/2018/welcome"
                   - text: "2017"
                     url: "http://ieeevis.org/year/2017/welcome"
+              - heading: ""
+                links:
                   - text: "2016"
                     url: "http://ieeevis.org/year/2016/info/vis-welcome/welcome"
                   - text: "2015"
                     url: "http://ieeevis.org/year/2015/info/vis-welcome/welcome"
                   - text: "2014"
                     url: "http://ieeevis.org/year/2014/info/vis-welcome/welcome"
-              - heading: ""
-                links:
                   - text: "2013"
                     url: "http://ieeevis.org/year/2013/info/vis-welcome/welcome"
                   - text: "2012"
@@ -424,12 +427,12 @@ menu:
                     url: "http://ieeevis.org/year/2011/info/call-participation/welcome"
                   - text: "2010"
                     url: "http://vis.computer.org/VisWeek2010/"
+              - heading: ""
+                links:
                   - text: "2009"
                     url: "http://vis.computer.org/VisWeek2009/"
                   - text: "2008"
                     url: "http://vis.computer.org/VisWeek2008/"
-              - heading: ""
-                links:
                   - text: "2007"
                     url: "http://vis.computer.org/vis2007/"
                   - text: "2006"
@@ -440,10 +443,10 @@ menu:
                     url: "http://vis.computer.org/vis2004/"
                   - text: "2003"
                     url: "http://vis.computer.org/vis2003/"
-                  - text: "2002"
-                    url: "http://vis.computer.org/vis2002/"
               - heading: ""
                 links:
+                  - text: "2002"
+                    url: "http://vis.computer.org/vis2002/"
                   - text: "2001"
                     url: "http://vis.computer.org/vis2001/"
                   - text: "2000"
@@ -463,19 +466,19 @@ menu:
                     url: "/year/2024/info/history/best-paper-award"
 
       - subsections:
-          # - heading: "Committees"
-          #   columns:
-          #     - links:
-          #         - text: "VIS 2024 Organizing Committee"
-          #           url: "/year/2024/info/committees/conference-committee"
-          #         - text: "Program Committees"
-          #           url: "/year/2024/info/committees/program-committees"
-          #         - text: "VIS Steering Committee"
-          #           url: "/year/2024/info/committees/steering-committees"
-          #         - text: "VIS Executive Committee"
-          #           url: "/year/2024/info/committees/vis-executive-committee"
-          #         - text: "Area Curation Committee"
-          #           url: "/year/2024/info/committees/area-committee"
+          - heading: "Committees"
+            columns:
+              - links:
+                  - text: "VIS 2024 Organizing Committee"
+                    url: "/year/2024/info/committees/conference-committee"
+                  - text: "Program Committees"
+                    url: "/year/2024/info/committees/program-committees"
+                  - text: "VIS Steering Committee"
+                    url: "/year/2024/info/committees/steering-committees"
+                  - text: "VIS Executive Committee"
+                    url: "/year/2024/info/committees/vis-executive-committee"
+                  - text: "Area Curation Committee"
+                    url: "/year/2024/info/committees/area-committee"
           #         # - text: "Restructuring and reVISe"
           #         #   url:  "/governance/restructuring"
           - heading: "Governance Documents"
