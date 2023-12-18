@@ -25,7 +25,7 @@ registration:
   url: "/year/2024/info/registration/conference-registration"
 
 blog:
-  display: false
+  display: true
   text: "Blog"
   url: "/year/2024/blog/index"
 
