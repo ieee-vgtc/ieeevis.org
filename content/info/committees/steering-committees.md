@@ -16,10 +16,10 @@ Current members of the VSC are:
 | Kwan-Liu Ma | *University of California at Davis* |
 | Miriah Meyer (co-chair) | *Linköping University* |
 | Jinwook Seo | *Seoul National University* |
-| Deborah Silver | *Rutgers University* |
 | Anna Vilanova | *Eindhoven University of Technology* |
 | Niklas Elmqvist | *Aarhus University* |
-
+| Vidya Setlur | *Tableau Research* |
+| Xiaoru Yuan | *Peking University* |
 
 ## VIS Executive and Steering Committee Elections
 Each year the VIS community elects one new member each to the VEC and VSC. 
