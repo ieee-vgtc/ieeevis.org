@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "dependencies": {
-    "tailwindcss": "^3.3.7",
+    "tailwindcss": "^1.9.6",
     "vue": "~2.6"
   },
   "devDependencies": {
@@ -19,18 +19,18 @@
     "browser-sync-webpack-plugin": "^2.3",
     "clean-webpack-plugin": "^3.0.0",
     "compression-webpack-plugin": "^9.1.2",
-    "css-loader": "^6.8.1",
+    "css-loader": "^3.2.0",
     "css-minimizer-webpack-plugin": "^4.0.0",
     "cssnano": "^5.0.12",
     "jshint": "^2.10.2",
     "jshint-loader": "^0.8.4",
     "mini-css-extract-plugin": "^2.6.0",
     "node-libs-browser": "^2.2.1",
-    "postcss-import": "^15.1.0",
-    "postcss-loader": "^7.3.3",
-    "postcss-preset-env": "^9.3.0",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.7.0",
     "terser-webpack-plugin": "^2.0.1",
-    "vue-loader": "~17.3",
+    "vue-loader": "~15.6",
     "vue-style-loader": "~4.1",
     "vue-template-compiler": "~2.6",
     "webpack": "^5.51.0",
