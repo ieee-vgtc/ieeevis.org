@@ -19,7 +19,7 @@ contact: open_practices@ieeevis.org
 
 *Parts of the guidance is based on a document originally written by Joshua Levine.*
 
-**Note**: this document is just a summary, please see [https://arxiv.org/help/submit](https://arxiv.org/help/submit) for the complete information. For information about arXiv’s licensing requirements please see [https://arxiv.org/help/license](https://arxiv.org/help/license).
+**Note**: this document is just a summary, please see [https://info.arxiv.org/help/submit/](https://info.arxiv.org/help/submit/) for the complete information. For information about arXiv’s licensing requirements please see [https://info.arxiv.org/help/license/](https://info.arxiv.org/help/license/).
 
 ## Getting started
 
