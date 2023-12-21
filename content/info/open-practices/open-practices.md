@@ -17,7 +17,7 @@ This page covers:
 
 ## **Requirement** 1/1—Ensure you are compliant with Plan S
 
-Plan S is an Open Access initiative that was started in 2018. [Specific funding and research institutions](https://www.coalition-s.org/organisations/) require work funded by them be published in open repositories or in journals that provide free access to manuscripts. In part, authors covered by Plan S must make their accepted manuscript available for free and published under an Open License (such as CC-BY).
+[Plan S](https://www.coalition-s.org/) is an Open Access initiative that was started in 2018. [Specific funding and research institutions](https://www.coalition-s.org/organisations/) require work funded by them be published in open repositories or in journals that provide free access to manuscripts. In part, authors covered by Plan S must make their accepted manuscript available for free and published under an Open License (such as [CC-BY](https://creativecommons.org/share-your-work/cclicenses/)).
 
 *IEEE VIS is committed to helping any author affected by Plan S find an accommodation so that their work can appear at VIS.*
 
@@ -31,7 +31,7 @@ For short papers and other conference proceedings that do not appear in the TVCG
 
 **Camera-ready checklist:**
 
-1. Post a preprint version of your paper to a free and open access repository (e.g. arXiv) before the camera-ready deadline. We have [several tutorials you can follow](open-practices-arxiv).
+1. Post a preprint version of your paper to a free and open access repository (e.g. arXiv) before the camera-ready deadline. We have [several tutorials you can follow](open-practices-arxiv). For a list of IEEE-approved open access repositories, see [IEEE Post-Publication Policies](https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/post-publication-policies/#posting).
 
 2. On the Author Submission Portal provided by IEEE in the final stages of publication, enter either:
    * the URL that points to the preprint version of your article in the open access repository

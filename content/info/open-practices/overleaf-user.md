@@ -8,7 +8,7 @@ contact: open_practices@ieeevis.org
 
 ## Making a new submission to arXiv
 
-If you are an Overleaf user, the easiest way to prepare a submission is to use the "Submit" button on Overleaf and scroll down to arXiv, download a zip file with all the needed files for your paper, and then click on the Submit button that takes you directly to arXiv pages for a new submission. 
+If you are an Overleaf user, the easiest way to prepare a submission is to use the "Submit" button on Overleaf and scroll down to arXiv, download a zip file with all the needed files for your paper, and then click on the Submit button that takes you directly to arXiv pages for a new submission. See [here](https://www.overleaf.com/learn/how-to/LaTeX_checklist_for_arXiv_submissions) for Overleaf's detailed instruction page.
 
 Alternatively, Overleaf provides you a zip file for streamlining your arXiv submission by providing this `.zip` file available for download. You can simply download the `.zip` file and it will have all the files needed, including the `.bbl` file for the references.
 

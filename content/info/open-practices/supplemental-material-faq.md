@@ -13,8 +13,8 @@ This page presents recommendations for supplemental materials to be included wit
  
 To provide some background on this initiative, the [2016 IEEE Workshop on the Future of Research Curation and Research Reproducibility](https://www.ieee.org/content/dam/ieee-org/ieee/web/org/ieee_reproducibility_workshop_report_final.pdf), at which IEEE employees were heavily represented, determined that:
 
-1. encouraging reproducibility and better curation of supplemental materials will lead to faster and more efficient science and 
-2. better curation can lead to faster commercialization and innovation.
+1. Encouraging reproducibility and better curation of supplemental materials will lead to faster and more efficient science and 
+2. Better curation can lead to faster commercialization and innovation.
 
 The workshop's report recommended that  research communities encourage reproducible content and set standards for it. The report argued:
 
@@ -37,15 +37,15 @@ There are many possible locations where supplemental material could live: IEEE X
 
 The ideal repository for your supplemental materials is:
 
-1. Accessible—The data is freely accessible without any cost or sign-up requirement to enable future researchers from all backgrounds to build on the work.
+1. **Accessible**—The data is freely accessible without any cost or sign-up requirement to enable future researchers from all backgrounds to build on the work.
 
-2. Identifiable—The repository provides a persistent identifier to avoid link rot and enable citation tracking.
+2. **Identifiable**—The repository provides a persistent identifier to avoid link rot and enable citation tracking.
 
-3. Updatable—The repository allows for post-submission updates to correct errors and address omissions.
+3. **Updatable**—The repository allows for post-submission updates to correct errors and address omissions.
 
-4. Immutable—The repository offers immutable versioning to support preregistrations.
+4. **Immutable**—The repository offers immutable versioning to support preregistrations.
 
-5. Reliable—The repository enables permanent advancement of knowledge and understanding by providing the supplemental material in perpetuity. E.g., it has a long-term sustainability plan (e.g. [OSF's](https://help.osf.io/hc/en-us/articles/360019737894-FAQs#what-if-you-run-out-of-funding-what-happens-to-my-data)) and is otherwise resilient to financial or corporate pressures.
+5. **Reliable**—The repository enables permanent advancement of knowledge and understanding by providing the supplemental material in perpetuity. E.g., it has a long-term sustainability plan (e.g. [OSF's](https://help.osf.io/hc/en-us/articles/360019737894-FAQs#what-if-you-run-out-of-funding-what-happens-to-my-data)) and is otherwise resilient to financial or corporate pressures.
 
 Based on these criteria, and for the sake of simplicity and consistency across VIS submissions, **we recommend that supplemental material be submitted to IEEE and/or to [OSF.io](https://osf.io/)**. Naturally, mirrors on both are even better for the community!
 
