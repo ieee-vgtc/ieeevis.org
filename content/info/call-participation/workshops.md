@@ -11,7 +11,7 @@ We solicit workshops related to all areas of visualization. They provide an info
 
 ## Important Dates
 
-* Proposal Submission               **Sunday February 24, 2024**
+* Proposal Submission               **Sunday February 25, 2024**
 * Notification                      **Friday March 15, 2024**
 * Final Submission of Summaries	    **Thursday August 1, 2024**
 

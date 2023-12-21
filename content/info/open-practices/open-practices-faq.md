@@ -22,21 +22,21 @@ This page provides answers to the following common questions authors have about 
 
 ## What are the criteria for an open access repository?
 
-In order to ensure that papers are discoverable and remain accessible long-term, authors are encouraged to post their work to an open access repository that meets the following criteria:
+In order to ensure that papers are discoverable and remain accessible long-term, authors are encouraged to post their work to an open access repository that meets the following [**FAIR** principles](https://www.go-fair.org/fair-principles/):
 
-1. Findable—Research is most effectively disseminated if it can be easily searched for, especially when people do not know exactly what they are looking for. This discoverability can be critical for scholars trying to find research from which they can build. Therefore, papers in the archive must be indexed or registered via commonly used search engines. Thorough metadata, such as title, author, and possibly publication information about the peer-reviewed version should also be indexed with the paper.
+1. **Findable** —Research is most effectively disseminated if it can be easily searched for, especially when people do not know exactly what they are looking for. This discoverability can be critical for scholars trying to find research from which they can build. Therefore, papers in the archive must be indexed or registered via commonly used search engines. Thorough metadata, such as title, author, and possibly publication information about the peer-reviewed version should also be indexed with the paper.
 
-2. Accessible—Research is better communicated and acted on if it is freely accessible to the research community, practitioners, and the general public. Therefore, there can be no cost or sign-up requirement for viewing papers on the archive.
+2. **Accessible** —Research is better communicated and acted on if it is freely accessible to the research community, practitioners, and the general public. Therefore, there can be no cost or sign-up requirement for viewing papers on the archive.
 
-3. Identifiable—For citations and references to be useful, papers must have a globally unique and persistent identifier (e.g., a DOI). Content posted to the repository must also be immutable and timestamped. Multiple versions of a paper are acceptable, as long as previous versions and timestamps are retained.
+3. **Identifiable** —For citations and references to be useful, papers must have a globally unique and persistent identifier (e.g., a DOI). Content posted to the repository must also be immutable and timestamped. Multiple versions of a paper are acceptable, as long as previous versions and timestamps are retained.
 
-4. Reliable—Research should represent a permanent advancement of knowledge and understanding, so it is important that posted papers are available for perpetuity. The archive must therefore have an explicitly stated plan for long-term reliability ([example](https://help.osf.io/hc/en-us/articles/360019737894-FAQs#what-if-you-run-out-of-funding-what-happens-to-my-data)), or it must deposit all papers in a dedicated "dark archive" such as [Portico](https://www.portico.org/) or [Clockss](https://clockss.org/).
+4. **Reliable** —Research should represent a permanent advancement of knowledge and understanding, so it is important that posted papers are available for perpetuity. The archive must therefore have an explicitly stated plan for long-term reliability ([example](https://help.osf.io/hc/en-us/articles/360019737894-FAQs#what-if-you-run-out-of-funding-what-happens-to-my-data)), or it must deposit all papers in a dedicated "dark archive" such as [Portico](https://www.portico.org/) or [Clockss](https://clockss.org/).
 
 A repository that meets the criteria for long-term reliability and is inline with IEEE policy is [arXiv.org](http://arxiv.org) ([instructions](open-practices-arxiv)). If you would like to use another repository such as an institutional repository, please email an explanation of how it meets the criteria to open_practices@ieeevis.org. A personal website, lab website, or any site that is not immutable and has no explicit plans for long-term availability (e.g. GitHub) does not meet the criteria.
 
 ## Sharing the preprint with VIS in the Author Submission Portal
 
-After your paper is accepted and during the final stages of the publication process, the Author Submission Portal from IEEE will have a textbox that will ask you for the URL that points to the preprint version of your article in the open access repository if you have shared it. This textbox will be within a form that you will access under the "Presenter and Preprint Submission" section. The paper you are sharing should be the final "author version". If you have any issues or questions, please contact the open practice chairs. If you cannot share the paper on an approved open access repository, please enter the reason instead of the URL.
+After your paper is accepted and during the final stages of the publication process, the Author Submission Portal from IEEE will have a textbox that will ask you for the URL that points to the preprint version of your article in the open access repository if you have shared it. This textbox will be within a form that you will access under the "Presenter and Preprint Submission" section. The paper you are sharing should be the final "author version". If you have any issues or questions, please contact the open practice chairs. If you cannot share the paper on an [approved open access repository](https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/post-publication-policies/), please enter the reason instead of the URL.
 
 ## Is sharing the preprint compatible with IEEE's publication policy?
 
@@ -61,7 +61,7 @@ In other words, you may post your paper to a preprint server, but after acceptan
 You are encouraged to share your paper on a repository that meets the Open Access Repository criteria that is also in line with IEEE's publication policies.
 
 [IEEE publication policy](https://www.ieee.org/publications/rights/author-posting-policy.html) allow authors to submit preprints only to IEEE approved third-party repositories or institutional repositories.
-IEEE requires repositories that authors consider submitting their preprints to be on [the list approved by The IEEE Publication Services & Products Board (PSPB)](https://www.ieee.org/publications/rights/third-party-servers.html). At the moment, **the only IEEE approved third-party repository is arXiv.**
+IEEE requires repositories that authors consider submitting their preprints to be on [the list approved by The IEEE Publication Services & Products Board (PSPB)](https://www.ieee.org/publications/rights/third-party-servers.html#list-of-approved-third-party-web-servers). At the moment, **the only IEEE officially-approved third-party repositories are arXiv and TechRxiv.**
 
 Besides [arXiv](https://arxiv.org), several other preprint servers with additional features or different target audiences exist that—like arXiv—create an immutable record. These include [OSF Preprints](https://osf.io/preprints/) (supports file sharing and immutable preregistrations in addition to manuscripts), [bioRxiv](https://www.biorxiv.org) (for biology and bioinformatics-related work), and [medRxiv](https://www.medrxiv.org) (for medically-focused work). A [comprehensive overview of over 40 preprint servers and their features](https://asapbio.org/preprint-servers) is provided by the ASAPbio organization.
 
@@ -92,7 +92,7 @@ You are free to share a preprint of your paper on your personal or institutional
 
 ## What about Plan S?
 
-[Plan-S](https://www.coalition-s.org/) is an upcoming European policy requiring publicly funded research publications to be open access (available for free). However, it only relates to open access of papers via the publisher, not preprints or other open practices such as open materials, open data, or preregistration. It can, however, impact which publisher you choose.
+[Plan-S](https://www.coalition-s.org/) is a European policy requiring publicly funded research publications to be open access (available for free). However, it only relates to open access of papers via the publisher, not preprints or other open practices such as open materials, open data, or preregistration. It can, however, impact which publisher you choose.
 
 Please see our blog post on [Publishing papers covered under Plan S](../../blog/plublishing-under-plan-s) for details.
 
