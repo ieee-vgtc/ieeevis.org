@@ -8,7 +8,7 @@ contact: elections@ieeevis.org
 As part of IEEE VIS’s [ongoing unification effort](http://ieeevis.org/year/2020/blog/things-are-changing-2021), some positions on both the VIS Executive Committee (VEC) and VIS Steering Committee (VSC) are now directly elected by the VIS community. These elections give the community a voice in governance, allow community members to grow into positions of authority, and will hopefully ensure a diverse representation across all of VIS. For more details about the elections process, see the [IEEE VIS Charter](/governance/IEEE-governance-structure).
 
 # Register to Vote
-Any person who has contributed to the VIS conference in some capacity (including attending, authoring, speaking, organizing, or providing financial support) in at least one previous conference year is considered eligible to vote. (However participating for the first time in 2024 won’t confer eligibility until 2025). All registered voters from the previous year, including those who selected to register at the time of conference registration in 2023, will be automatically registered to vote, and new eligible voters can register by completing the [VIS voter registration form](https://forms.gle/xKauNKxPDfuPYZtg8).
+Any person who has contributed to the VIS conference in some capacity (including attending, authoring, speaking, organizing, or providing financial support) in at least one previous conference year is considered eligible to vote. (However participating for the first time in 2024 won’t confer eligibility until 2025). All registered voters from the previous year, including those who selected to register at the time of conference registration in 2023, will be automatically registered to vote, and new eligible voters can register by completing the [VIS voter registration form](https://forms.gle/LfSgzVV5pPoPhqsg9).
 
 # Participating in the Election
 The 2024 Election will run from September 15th-October 15th, with results announced at the conference. The VIS Elections chairs will conduct the election using the [Belenios](https://www.belenios.org/) verifiable open-source voting system. Voting will be conducted using a ranked-choice process. 
@@ -24,8 +24,9 @@ The call to nominate candidates for both the VEC and VSC is now open, with **nom
 -->
 
 # Questions
-Questions about the elections process can be directed to the VIS Elections Chairs at [elections@ieeevis.org](mailto:elections@ieeevis.org).
+Questions about the elections process can be directed to the VIS Elections Chairs at [community@ieeevis.org](mailto:community@ieeevis.org).
 
-**VIS Community Chairs**
+**VIS Elections, Community, and Meet-ups Chairs**
 * Ali Sarvghad (University of Massachusstes Amherst)
 * Isaac Cho (Utah State University)	
+* Georgia Panagiotidou (King's College London)
