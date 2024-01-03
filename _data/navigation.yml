@@ -374,7 +374,7 @@ menu:
                  - text: "Facebook"
                    url: "https://www.facebook.com/ieeevis"
                    is_external: true
-                 - text: "Twitter"
+                 - text: "X (Twitter)"
                    url: "https://twitter.com/ieeevis"
                    is_external: true
                  - text: "Mastodon"

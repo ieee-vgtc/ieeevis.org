@@ -114,7 +114,7 @@ columns:
           url: "https://vis.social/@ieeevis"
         - text: "Facebook"
           url: "https://www.facebook.com/ieeevis"
-        - text: "Twitter"
+        - text: "X (Twitter)"
           url: "https://twitter.com/ieeevis"
 
     # - heading: "Co-located conferences"
