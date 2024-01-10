@@ -10,17 +10,16 @@ The role of the VEC is to oversee the planning and success of IEEE VIS. The VEC 
 The current VEC members are:
 
 | **Name** | **Affiliation** |<br>
-| Anastasia Bezerianos | *LRI-Université Paris-Saclay* | <br>
-| Rita Borgo | *King's College London* | <br>
-| Gautam Chaudhary | *Alcon* |<br>
-| Min Chen | *Oxford* |<br>
-| Ross Maciejewski (co-chair) | *Arizona State University* |<br>
-| Elisabeta Marai | *University of Illinois at Chicago* |<br>
-| Matthew Brehmer | *Tableau* |<br>
-| Narges Mahyar | *University of Massachusetts Amherst* |<br>
-| Brian Summa | *Tulane University* |<br>
-| Gautam Chaudhary (co-chair) | ** |<br>
 | Leilani Battle | *University of Washington* |<br>
+| Anastasia Bezerianos | *LRI-Université Paris-Saclay* | <br>
+| Matthew Brehmer | *Tableau* |<br>
+| Rita Borgo | *King's College London* | <br>
+| Gautam Chaudhary (co-chair) | ** |<br>
+| Ross Maciejewski (co-chair) | *Arizona State University* |<br>
+| Narges Mahyar | *University of Massachusetts Amherst* |<br>
+| Elisabeta Marai | *University of Illinois at Chicago* |<br>
+| Brian Summa | *Tulane University* |<br>
+| TBD - VEC appointed member | ** |<br>
 
 ## VIS Executive and Steering Committee Elections
 Each year the VIS community elects one new member each to the VEC and VSC. 
