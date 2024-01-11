@@ -31,18 +31,18 @@ blog:
 
 menu:
   - dropdown: "Attend"
-    display: false
+    display: true
     sections:
       - subsections:
           - heading: "Attending VIS 2024"
           #  heading_url: "https://virtual.ieeevis.org/"
           #  description: "Join the conference online on our virtual site!"
             columns:
-            - heading: "Attend"
-              links:
-                - text: "Registration"
-                  url: "/year/2024/info/registration/conference-registration"
-                  is_new: true
+            # - heading: "Attend"
+            #   links:
+            #     - text: "Registration"
+            #       url: "/year/2024/info/registration/conference-registration"
+            #       is_new: true
                 # - text: "Satellite Sites"
                 #   url: "/year/2024/info/satellite"
                 #    - text: "Practitioner Guide"
@@ -63,13 +63,13 @@ menu:
                   #is_new: true
             - heading: "Travel"
               links:
-                - text: "Destination"
+                - text: "Destination Guide"
                   url: "/year/2024/destination"
-                - text: "Accommodation"
-                  url: "/year/2024/info/registration/hotel-information"
                   is_new: true
-                - text: "Visa & Travel"
-                  url: "/year/2024/info/registration/travel-visas"
+                # - text: "Accommodation"
+                #   url: "/year/2024/info/registration/hotel-information"
+                # - text: "Visa & Travel"
+                #   url: "/year/2024/info/registration/travel-visas"
                   #is_new: true
                 # - text: "Things to do in Oklahoma City"
                 #   url: "/year/2024/info/registration/what-to-do-in-okc"
@@ -111,17 +111,17 @@ menu:
                 links:
                   - text: "Papers"
                     url: "/year/2024/info/call-participation/call-for-participation"
-                    is_new: true
+                    is_new: false
                   - text: "Short Papers"
                     url: "/year/2024/info/call-participation/shortpapers"
-                    is_new: true
+                    is_new: false
                   # - text: "Posters"
                   #   url: "/year/2024/info/call-participation/posters"
                   # - text: "Tutorials"
                     # url: "/year/2024/info/call-participation/tutorials"
                   - text: "Workshops"
                     url: "/year/2024/info/call-participation/workshops"
-                    is_new: true
+                    is_new: false
                   # - text: "Panels"
                   #   url: "/year/2024/info/call-participation/panels"
                   # - text: "Doctoral Colloquium"
@@ -497,18 +497,6 @@ menu:
       #       #            heading_url: "/"
             columns:
               - links:
-      #             - text: "2022 in Oklahoma City, Oklahoma, USA"
-      #               description: ""
-      #               url: "/year/2021/blog/vis-22-in-oklahoma"
-                  # - text: "2024 in Melbourne, Victoria, Australia"
-                  #   description: ""
-                  #   url: "/year/2024/blog/vis-22-in-oklahoma"
-                  # - text: "IEEE VIS 2024 conference format"
-                  #   description: "Blog post concerning IEEE VIS 2024 conference format"
-                  #   url: "/year/2024/blog/vis-23-conference-format"
-                  # - text: "2024 in Tampa Bay, Florida, USA"
-                  #   description: ""
-                  #   url: "/year/2024/blog/vis-24-in-tampa-bay"
                   - text: "2025 in Vienna, Austria"
                     description: ""
                     url: "/year/2024/blog/vis-25-in-vienna"

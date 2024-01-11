@@ -1,7 +1,7 @@
 - title: "IEEE VIS 2024 in St. Pete Beach, Florida"
   image: "florida_splash_image-small.png"
   button-text: "Read More"
-  button-url: "/blog/vis-24-in-tampa-bay"
+  button-url: "/destination"
   active: "active"
 
 # - title: "Meet your 2023 VEC and VSC Candidates"
@@ -44,18 +44,6 @@
 #   button-url: "/info/jobs"
 #   image: "jobs.jpeg"
 
-# - title: "VIS 2022 now in Oklahoma"
-#   image: "downtown_okc.jpg"
-#   description: "Due to the ongoing COVID-19 pandemic, VIS 2022 will be held in Oklahoma City, OK, and the Melbourne, Australia event will be postponed until 2023. "
-#   button-text: "Read more"
-#   button-url: "/blog/vis-22-in-oklahoma"
-
-# - title: "VIS 2021 Satellite Program"
-#   description: "Join us by participating in one of our worldwide, in-person satellite events."
-#   button-text: "See sites"
-#   button-url: "/info/satellite"
-#   image: "earth.jpg"
-
 #- title: "Talk Recording Guide"
 #  description: "Check out some tips for recording your VIS talk from the conference organizers."
 #  button-text: "See the video"
@@ -67,34 +55,3 @@
 #  button-text: "Register now"
 #  button-url: "/info/registration/conference-registration"
 #  image: 'small_exposure_lights.png'
-
-# - title: "Nominate VIS 2021 Committees"
-#   description: "Deadline extended to July 8! Nominate candidates to represent you on the VIS Steering Committee (VSC) and VIS Executive Committee (VEC)."
-#   button-text: "Nominate a candidate"
-#   button-url: "https://forms.gle/pDLS2Y1oK4GxGTt49"
-#   image: "nominate.jpeg"
-#   darken: true
-
-# - title: "SciVis Contest"
-#   description: "The 2020 IEEE SciVis Contest is dedicated to create novel approaches or state of the art visualizations to assist domain scientists to better understand the complex transport mechanisms of eddies in the Red Sea under uncertainty."
-#   button-text: "Read more"
-#   button-url: "https://kaust-vislab.github.io/SciVis2020/"
-#   image: "scivis.jpg"
-
-# - title: "VAST Challenge"
-#   description: "The 2020 IEEE VAST Challenge asks you to apply visual analytics to solve three mini-challenges to help a world impacted by a worldwide cyber event."
-#   button-text: "Read more"
-#   button-url: "https://vast-challenge.github.io/2020/"
-#   image: "vastchallenge.jpg"
-
-# - title: "BioVis Challenge Workshop"
-#   description: "The rapidly expanding field of biology creates enormous challenges for data visualization techniques that enable researchers to gain insight from their large and highly complex data sets."
-#   button-text: "Read more"
-#   button-url: "http://biovis.net/2020/biovisChallenges_vis/"
-#   image: "biovischallenge.jpg"
-
-# - title: "COVID-19 impact on IEEE VIS 2020"
-#   description: "Following discussions with IEEE, VEC and the VAST, InfoVIS and SciVIS Steering Committees, we the General Chairs have decided not to host the physical meeting in Salt Lake City this year."
-#   button-text: "Read more"
-#   button-url: "/info/coronavirus-info"
-#   image: "coronavirus.jpg"
