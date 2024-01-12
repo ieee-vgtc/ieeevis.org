@@ -283,13 +283,13 @@ menu:
           - heading: "Associated Events"
             columns:
               - links:
-                  - text: "VIS Arts Program"
-                    description: "Perpetual Presence"
-                    url: "https://visap.net/2024"
-                    is_external: true
-                  - text: "VisInPractice"
-                    description: "Invited talks by visualization practitioners"
-                    url: "/year/2024/info/visinpractice"
+                  # - text: "VIS Arts Program"
+                  #   description: "Perpetual Presence"
+                  #   url: "https://visap.net/2024"
+                  #   is_external: true
+                  # - text: "VisInPractice"
+                  #   description: "Invited talks by visualization practitioners"
+                  #   url: "/year/2024/info/visinpractice"
                   - text: "LDAV Symposium"
                     description: "Big Data Analysis and Visualization"
                     url: "https://ldav.org/"
@@ -298,23 +298,23 @@ menu:
                     description: "Visualization in Data Science"
                     url: "https://www.visualdatascience.org/2024/index.html"
                     is_external: true
-                  - text: "VizSec Symposium"
-                    description: "Visualization for Cyber Security"
-                    url: "https://vizsec.org/vizsec2024/"
-                    is_external: true
-          - heading: "Competitions"
-            description: "Advancing visualization through competition"
-            columns:
-              - links:
-                  - text: "Bio+MedVis Challenges"
-                    url: "http://biovis.net/2024/biovisChallenges_vis/"
-                    is_external: true
-                  - text: "SciVis Contest"
-                    url: "https://sciviscontest2024.github.io/"
-                    is_external: true
-                  - text: "VAST Challenge"
-                    url: "https://vast-challenge.github.io/2024/"
-                    is_external: true
+                  # - text: "VizSec Symposium"
+                  #   description: "Visualization for Cyber Security"
+                  #   url: "https://vizsec.org/vizsec2024/"
+                  #   is_external: true
+          # - heading: "Competitions"
+          #   description: "Advancing visualization through competition"
+          #   columns:
+          #     - links:
+          #         - text: "Bio+MedVis Challenges"
+          #           url: "http://biovis.net/2024/biovisChallenges_vis/"
+          #           is_external: true
+          #         - text: "SciVis Contest"
+          #           url: "https://sciviscontest2024.github.io/"
+          #           is_external: true
+          #         - text: "VAST Challenge"
+          #           url: "https://vast-challenge.github.io/2024/"
+          #           is_external: true
       - subsections:
           - heading: "IEEE VIS Workshops"
             heading_url: "/year/2024/info/workshops"
@@ -333,27 +333,27 @@ menu:
                     description: "Visualization for the Digital Humanities"
                     url: "https://vis4dh.dbvis.de/"
                     is_external: true
-          - heading: "Meetups"
-            heading_url: "/year/2024/info/meetups"
-            description: "Meet for discussion and shared experiences"
-            columns:
-              - links:
-                - text: "VisLies!"
-                  description: "A showcase of egregious errors in visualization"
-                  url: "http://vislies.org"
-                  is_external: true
-                - text: "Early Career and Friends Happy Hour"
-                  description: "Meet and mingle with early career attendees"
-                  url: "/year/2024/info/meetups#vis-earlycareer"
-                - text: "VISxAI"
-                  description: "Visualization for AI Explainability"
-                  url: "http://visxai.io/"
-                  is_external: true
+          # - heading: "Meetups"
+          #   heading_url: "/year/2024/info/meetups"
+          #   description: "Meet for discussion and shared experiences"
+          #   columns:
+          #     - links:
+          #       - text: "VisLies!"
+          #         description: "A showcase of egregious errors in visualization"
+          #         url: "http://vislies.org"
+          #         is_external: true
+          #       - text: "Early Career and Friends Happy Hour"
+          #         description: "Meet and mingle with early career attendees"
+          #         url: "/year/2024/info/meetups#vis-earlycareer"
+          #       - text: "VISxAI"
+          #         description: "Visualization for AI Explainability"
+          #         url: "http://visxai.io/"
+          #         is_external: true
       - subsections:
-          - heading: "Community"
-            heading_url: "/year/2024/info/call-participation/community"
-            description: "Explore social and topic-based community groups"
-            columns:
+          # - heading: "Community"
+          #   heading_url: "/year/2024/info/call-participation/community"
+          #   description: "Explore social and topic-based community groups"
+          #   columns:
               #- heading: "Connect"
               #  links:
 #                  - text: "Vis Buddies"
