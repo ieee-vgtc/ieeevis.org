@@ -5,167 +5,92 @@ permalink: /destination
 active_nav: Destination
 contact: 
 ---
-![129819-56](https://user-images.githubusercontent.com/63034693/223619178-a7789634-6a6b-406b-af9f-0d1296d2d0ce.jpg)
 
 
-# MELBOURNE
-## CONVENTION & EXHIBITION CENTRE
+# TAMPA BAY, FLORIDA, USA
+## TRADEWINDS ISLAND GRANT BEACH RESORT
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d182320.98289233056!2d144.81433137650464!3d-37.81843284186301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d57073658dd%3A0x1b7db302b3e754c1!2s1%20Convention%20Centre%20Pl%2C%20South%20Wharf%20VIC%203006%2C%20Australia!5e0!3m2!1sen!2sus!4v1691033174049!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<p float="left">
+  <img src="assets/photos/tradewinds/sign.jpg" width="250" />
+  <img src="assets/photos/tradewinds/beach.jpg" width="250" /> 
+  <img src="assets/photos/tradewinds/hall.jpg" width="250" />
+</p>
 
-1 Convention Centre Place, South Wharf
+<iframe src="https://www.google.com/maps/embed/v1/place?q=Island+Grand+a+TradeWinds+Beach+Resort,+5500+Gulf+Blvd,+St.+Pete+Beach,+FL+33706,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+5500 Gulf Blvd, St Pete Beach, FL 33706, USA
 
 ### Getting There
 
-#### From the Melbourne Airports
+#### From the Tampa International Airport (TPA)
 
-Only 25 minutes from Melbourne’s international airport, your short trip into the city centre is quick and easy with options ranging from dedicated Skybus (running express between the Melbourne Airport and Melbourne’s city centre, 24 hours a day, seven days a week) to individual passenger services. The airport accommodates a vast airline network with many direct flights and 24/7 operations and services, offering maximum flexibility for delegates.
+The [Tampa International Airport](https://www.orlandoairports.net/) is a large international airport with non-stop flights to international destinations in North America, South America, and Europe, including London, Frankfurt, and Zurich. While public transit is possible, it requires approximate 2-hours of travel time. The best way to reach the TradeWinds Island Grand Beach Resort is by rental car, taxi, or ride share, which is a 30-minute drive from the airport. 
 
-If you are flying into Avalon airport the commute to MCEC will take between 40 - 50 minutes. You can catch a taxi from outside your terminal or request an Uber.
+
+#### From the Orlando International Airport (MCO)
+
+The [Orlando International Airport](https://www.orlandoairports.net/) is the largest airport in the region with non-stop flights to over 50 international destinations in North America, South America, Europe, and the Middle East. The best way to reach the TradeWinds Island Grand Beach Resort is by rental car, which is a 2-hour drive from the airport. 
+
+
+#### From the St. Pete–Clearwater International Airport (PIE)
+
+The [St. Pete–Clearwater International Airport](https://fly2pie.com/) primarily hosts domestic flights. While public transit is possible, it requires approximate 2-hours of travel time. The best way to reach the TradeWinds Island Grand Beach Resort is by rental car, taxi, or ride share, which is a 25-minute drive from the airport. 
+
 
 #### Public Transport
 
-Once in the city, you’ll come to appreciate Melbourne’s grid layout which makes it one of the most convenient cities in the world to navigate. The extensive public transport network offers trams, trains, buses and taxis providing ample options for those wishing to explore the city landmarks, culture, food and wine and events. 
+Once you have reached the TradeWinds Island Grand Beach Resort, the [SunRunner](https://psta.net/about-psta/projects/sunrunner/) bus line, which picks up and drops off right outside the hotel, provides easy access to Downtown St. Pete via a 35-minute ride. Guests of the TradeWinds can ride the SunRunner for free, while it is a $2.25 ride for others.
 
-TRAM
+[![SunRunner Route](https://psta.net/media/6494/sunrunner-interactive-map.jpg)](https://www.google.com/maps/d/viewer?mid=1tmOuhGwLF5ksk02sRBnAKOmHGguKe58&hl=en&ll=27.73909310677942%2C-82.7089450950972&z=13)
 
-Tram routes 96, 109 and 12 (Stop 124A Casino/MCEC) will all take you to the Clarendon Street entrance. Otherwise, tram routes 70, 75 and the City Circle (Stop D5) take you to Flinders Street. From there, it’s just a short walk up Clarendon Street until you reach the MCEC. Travel on trams is free in Melbourne's Central Business District and Docklands. All stops within the free zone are clearly marked and tram drivers will make regular announcements when approaching the zone boundaries. 
-
-The following is an image showing the area of the city that is free to travel by tram.
-
-![Melbourne Free Tram](assets/photos/melbourne/MelbourneFreeTramZone.jpg)
-
-Note: Do not tap on or off with your MyKi while travelling in the free zone or you will be charged a 2-hour Zone 1+2 fare.
-
-Travel outside of the free zone is paid for using a Myki card. The complimentary Myki card included in your registration (if you are attending the conference banquet and requested one) is loaded with enough credit for the train travel to the banquet venue and back.  You can also use this Myki for additional travel on public transport outside the free tram zone but you will need to need to top it up with additional value as described [here](https://www.ptv.vic.gov.au/tickets/myki/buy-a-myki-and-top-up/). 
 
 #### Onsite Car Parking
 
-If you are driving to the Convention Centre, there is an abundance of convenient and secure car parking available. Nearby options include the South Wharf Retail, Siddley St, Freeway and Montague Street car parks.
+If driving to the hotel, onsite parking is included for resort guests (one space per room). Other must pay of fee of $25 per day.
 
-If you prefer to park on site, Wilson Parking operates a secure underground car park at the Convention Centre that offers a range of flexible rates. 
+#### Taxi and Ride Share
 
-#### Taxi
-
-Taxi ranks are located outside the main entrance to the Centre on Convention Centre Place.
-
-#### Walking
-
-MCEC is a short stroll across from Southbank and the Melbourne CBD. All amenities are within walking distance, making it ideal to explore the city on foot.  
+Taxi and ride shares a generally available at the hotel.
 
 
-## Things to Do In Melbourne
+### Resort Activities
 
-![Things to do in Melbourne](assets/photos/MCB_Ad_IEEE_Visualization_Conference_1920x1080.jpg)
+Guests of the resort (TradeWinds or RumFish) have access to all resort amenities, including WiFi, daily beach cabana, zipline, High Tide Slide, Surf WipeOut, and more. *Important:* Attendees not staying at the resort will not have access to any of these amenities.
 
-### Visit Flinders Street Station
-
-![Flinders Street Station](https://images.squarespace-cdn.com/content/v1/621ec6aed6850f3c63ed7213/b0a820a4-762a-4d3d-999f-6fadda403322/Flinders+Street+Station.jpg)
-
-The iconic Flinders Street Station is the must see attraction in Melbourne. Nestled in the heart of the CBD, across from Fed Square and the Yarra, and a short stroll from various well-known laneways, this famous building is the perfect start to your Melbourne Itinerary. 
-
-### Walk the Royal Botanical Gardens
-
-![Royal Botanical Gardens](https://images.squarespace-cdn.com/content/v1/621ec6aed6850f3c63ed7213/05a12b0d-eaae-4452-851b-0a0d29cd2f8e/Royal+Botanic+Gardens.jpeg)
-
-Pack a picnic rug and spend a lazy afternoon in the sunshine or wear comfortable shoes, find some sweet tunes and walk around the lake. Whatever your style, the Royal Botanic Gardens is a relaxing green space to chill on the lawn or wander the many pathways.
-
-### Discover Famous Laneways
-
-![Laneways](https://images.squarespace-cdn.com/content/v1/621ec6aed6850f3c63ed7213/eb17f9e5-dc06-4bed-a459-1488fb0ef427/centre+place+laneway.jpg)
-
-Known for hidden boutiques, famed restaurants, cafes and bars, Melbourne’s laneways are the perfect introduction to its diverse and creative culture. Admire the street art, lose yourself in the endless hideaways or immerse yourself in Melbourne’s vibrant coffee scene.
-
-### Explore Queen Victoria Markets
-
-![Markets](https://images.squarespace-cdn.com/content/v1/621ec6aed6850f3c63ed7213/1531171d-e98b-46c8-8481-8e715b3fd1cb/queen+vic+market.jpeg)
-
-Explore Melbourne’s authentic, bustling, inner-city market.
-
-### Take in History at the Shrine
-
-![Shrine](https://images.squarespace-cdn.com/content/v1/621ec6aed6850f3c63ed7213/67af23be-c8b3-449e-91f0-387f964c03e4/shrine+of+remembrance.jpeg)
-
-Pay your respects to Australians who have served their country at one of Melbourne’s most iconic attractions. With stunning views and plenty of history , the Shrine of Remembrance is not to be missed.
-
-### Relax Amongst the Skyline
-
-![Skyline](https://images.squarespace-cdn.com/content/v1/621ec6aed6850f3c63ed7213/db54ddcc-80c7-4c45-a572-696728093789/Rooftop+eat+and+drink.jpeg)
-
-Enjoy a cocktail and a share plate while looking over the picturesque skyline at one of Melbourne’s many rooftop bars.
-
-### Need More Inspo?
-
-![Melbourne Image](https://images.squarespace-cdn.com/content/v1/621ec6aed6850f3c63ed7213/c661ff4a-ce57-47b6-906c-4154b43f827f/visit+melbourne+site.png)
+<iframe src="https://www.tradewindsresort.com/explore/resort-recreation" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 
-[Check out the extensive options on Visit Melbourne.](https://www.visitmelbourne.com)
+## Things to Do in St. Pete/Clearwater
 
 
-## DISCOVER THE REGION
+St. Pete/Clearwater boast of the [best beaches in US](https://www.visitstpeteclearwater.com/things-to-do/beaches), receiving awards year-after-year. [Downtown St. Pete](https://www.visitstpeteclearwater.com/central-ave) has vibrant arts scene, including the [Salvador Dalí Museum](https://www.visitstpeteclearwater.com/profile/dali-museum/138446) and [Museum of Fine Arts](https://www.visitstpeteclearwater.com/things-to-do/arts#:~:text=collection%20at%20the-,Museum%20of%20Fine%20Arts,-and%20gorgeous%20glass), shops, and many restaurant and bars. Further, St. Pete/Clearwater has a long history of being [welcoming to LGBTQ+ travellers](https://www.visitstpeteclearwater.com/lgbtq-travel).
 
+To learn more, go to [https://www.visitstpeteclearwater.com/](https://www.visitstpeteclearwater.com/)
 
-While in Australia, why not take some time to explore the region around Melbourne (Victoria)?
-Travel across Victoria and experience the region's stunning landscapes, historic towns and renowned food and wine. The state's compact size means you can travel from high in the mountains to the rugged southern coast and back to the city in just a short space of time. So hit the road on a touring route, make your own way around, or follow an itinerary and see the wonders of Victoria for yourself.
+![Salvador Dalí Museum](https://www.visitstpeteclearwater.com/sites/default/files/styles/large_horizontal_wide/public/listing_images/stpetersburg-dali-museum-exterior-hero_83A34606-B5B1-1BE8-6F1EB560E8378FD7-83a3454aa40309b_83a348b8-aecf-08c9-ffde65dec890bf31.jpg?h=c12e0b96&itok=oInXwtHu)
 
-### Great Ocean Road Touring Route
+## Things to Do in Tampa
 
-One of Victoria's most scenic drives, the Great Ocean Road is a magnificent three-day self-drive touring route from surf capital Torquay to the iconic 12 Apostles, ending at historic fishing village Port Fairy. Along the way, spot koalas, kangaroos and even whales, zip-line your way through a treetop canopy, climb to the peak of a volcanic crater, and relax over regional dining atop a cliff or by the beach.
+Tampa is home to several enterainment options, including [Busch Gardens](https://www.visittampabay.com/listings/busch-gardens-tampa-bay/1824/), [ZooTampa](https://www.visittampabay.com/listings/zootampa-at-lowry-park/8011/), the [Florida Aquarium](https://www.visittampabay.com/listings/the-florida-aquarium/3048/), the [Hard Rock Casino](https://www.visittampabay.com/listings/seminole-hard-rock-hotel-%26-casino-tampa/3843/), as well as evening entertainment in several neighborhoods, including the National Historic Landmark District of [Ybor](https://www.visittampabay.com/listings/centro-ybor/7274/) (pronouced ee-bor). Tampa is also home to several major league sports teams, including the 2020 Super Bowl Champion Buccaneers, 2020 and 2021 Stanley Cup Champion Lightning, and 2020 AL Baseball League Champion Rays. In fact, their outstanding performance during this era earned the city the nickname "Champa Bay". 
 
-[<img src="assets/photos/melbourne/great_ocean.jpg" title="Visit-Melbourne">](https://www.visitmelbourne.com/regions/great-ocean-road/see-and-do/road-trips-and-itineraries/great-ocean-road-touring-route)
+To learn more, go to [https://www.visittampabay.com/](https://www.visittampabay.com/).
+
+![Busch Gradens® Rollercoaster](https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,h_726,q_75,w_1920/v1/clients/tampabay/BUSCH_GARDENS_TAMPA_BAY_CHEETAH_HUNT_03_1__1006b815-5d71-4e0e-8126-c056dbb26c60.jpg)
+
+## Things to Do in Orlando
+
+A 2-hour drive from TradeWinds, Orlando offers world-class entertainment for adults and children, including [Disney World](https://www.visitorlando.com/things-to-do/theme-parks/walt-disney-world-resort/) and [Universal Studio](https://www.visitorlando.com/things-to-do/theme-parks/universal-orlando-resort/), [high-end shopping](https://www.visitorlando.com/things-to-do/shopping/), and vibrant [dining and entertainment scene](https://www.visitorlando.com/things-to-do/eat-drink/) for adults.
+
+To learn more, go to [https://www.visitorlando.com/](https://www.visitorlando.com/).
+
+![MAGIC KINGDOM® Park at WALT DISNEY WORLD® Resort](https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,f_webp,g_xy_center,h_500,q_75,w_1400,x_5100,y_4862/v1/clients/orlandofl/8731_castle_landing_page_image_nu_2a8f8e6a-a1f9-45fd-8eca-596c92d04a7c.jpg)
+
+## Things to Do in Florida
+
+The State of Florida has many additional entertainment offerings, including world famous beaches, such a [Cocoa Beach](https://www.visitflorida.com/beaches/popular/cocoa-beach/) and [Dayton Beach](https://www.visitflorida.com/beaches/popular/daytona-beach/), nightlife in [Miami](https://www.visitflorida.com/places-to-go/southeast/#:~:text=Nature%20Center.-,Miami,-Ever%20the%20melting) and [Key West](https://www.visitflorida.com/places-to-go/southeast/key-west/), and amazing adventures [meeting Manatees](https://www.visitflorida.com/things-to-do/outdoors-and-adventure/wildlife/manatees/) or the [Everglades](https://www.visitflorida.com/things-to-do/outdoors-and-adventure/parks/everglades-national-park/).
+
+To learn more, go to [https://www.visitflorida.com/](https://www.visitflorida.com/).
+
+![Crystal River Manatees](https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,f_avif,g_xy_center,h_500,q_55,w_1170,x_716,y_377/v1/clients/visitflorida/VISIT_FLORIDA_Backgrounds_Crystal_River_Manatees_e11b784c-0c27-41b5-9475-9859b9a80da5.jpg)
+
  
-
-### Dandenong Ranges in a day
-Feel the bustle and fast pace of the city fall away as you follow the winding road up through the thick, tall forests and cool fern gullies of the Dandenong Ranges. Explore the towering forests of mountain ash trees firsthand in Sherbrooke Forest, and visit the area's famous gardens according to the season.
-
-[<img src="assets/photos/melbourne/dandenong.jpg" title="Visit-Melbourne">](https://www.visitmelbourne.com/regions/yarra-valley-and-dandenong-ranges/see-and-do/road-trips-and-itineraries/dandenong-ranges-in-a-day)
- 
-
-### Geelong and the Bellarine
-
-Set off from Melbourne on a self-guided touring route off Geelong and the Bellarine Peninsula and visit sea seaside villages, vibrant towns and bay views. Along the way, visit the Werribee Zoo, hit the tracks and trails of the You Yangs, have a coffee at a waterfront restaurant, soak up the sun on a beautiful beach and stop for a wine at one of the renowned cellar doors.
-
-[<img src="assets/photos/melbourne/geelong.jpg" title="Visit-Melbourne">](https://www.visitmelbourne.com/regions/geelong-and-the-bellarine/see-and-do/road-trips-and-itineraries/geelong-and-the-bellarine-daytrip)
- 
-
-### Yarra Valley day trip
-
-Sample Australia's best pinot noir and sparkling wines in a world-renowned wine-growing region in the Yarra Valley, less than an hour from Melbourne.
-
-[<img src="assets/photos/melbourne/yarra.jpg" title="Visit-Melbourne">](https://www.visitmelbourne.com/regions/yarra-valley-and-dandenong-ranges/see-and-do/road-trips-and-itineraries/the-yarra-valley-in-one-day)
- 
-
-### Mornington Peninsula Getaway
-
-There's no telling where you could find yourself on the Mornington Peninsula. Wandering through idyllic coastal and hinterland villages one minute, tasting fine cool-climate wines, eating fantastic food and gathering fresh produce at local farm gates the next. Uncover your creative side in galleries and parks, play at some of Australia's best golf courses, or slip into natural hot springs.
-
-[<img src="assets/photos/melbourne/mornington.jpg" title="Visit-Melbourne">](https://www.visitmelbourne.com/regions/mornington-peninsula/see-and-do/road-trips-and-itineraries/3-day-mornington-peninsula-getaway)
-
-
-### Central Grampians Drive
-
-Drive from Halls Gap on this half-day route, perfect for people with tight deadlines and taking in many of the National Park’s most famous sites. See rugged mountains, vast plains, ancient Aboriginal rock art sites, unique native plants and animals, majestic waterfalls and vibrant wildflowers.
-
-[<img src="assets/photos/melbourne/central.jpg" title="Visit-Melbourne">](https://www.visitmelbourne.com/regions/grampians/see-and-do/road-trips-and-itineraries/central-grampians-drive)
- 
-
-## Additional Resources
-
-We're delighted to have you visit us in Melbourne, and hoping you can spend some additional time here exploring Melbourne and Victoria more widely.
-
-To help plan your time here, the Melbourne Convention Bureau, Visit Melbourne, and the Melbourne Convention and Exhibition Centre have kindly provided the following travel resources:  
-
-[https://www.visitmelbourne.com/](https://www.visitmelbourne.com/)
-
-[https://www.melbournecb.com.au/welcome-to-melbourne/](https://www.melbournecb.com.au/welcome-to-melbourne/)
-
-[Welcome to Melbourne](https://app.situ360.com/76fe61/2472/12753/public)
-
-[Visit Information](https://mcec.com.au/visit/visit-information#getting-here)
-
-[Visa Applications - General Information](/year/2023/info/registration/travel-visas)
-
-[<img src="assets/supporters/Banner_Billboard_970X250.gif" title="Visit-Melbourne">](https://bit.ly/39aNV57)
-
-[<img align="left" src="assets/supporters/Melbourne-Australia-logo-528w_border.png" width="300px" title="https://www.visitmelbourne.com/">](https://www.visitmelbourne.com/)
-[<img align="left" src="assets/supporters/MCB_Logo_Colour_border.png" width="300px" title="https://www.melbournecb.com.au/">](https://www.melbournecb.com.au/)

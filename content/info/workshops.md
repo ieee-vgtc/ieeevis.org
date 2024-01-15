@@ -5,16 +5,24 @@ permalink: /info/workshops
 contact: workshops@ieeevis.org
 ---
 
+{% comment %}
 ## Attendance
 At least one author for each paper must register and attend the conference in person. If you have exceptional circumstances and none of the authors can attend in person please contact the conference committee as soon as possible at [info@ieeevis.org](mailto:info@ieeevis.org).
+{% endcomment %}
+
 
 ## Pre-Approved Workshops
 These workshops were pre-approved by the VIS Executive Committee. Please visit their individual websites for details on the topics and submission deadlines. 
 
-* [VIS4DH: 8th Workshop on Visualization for the Digital Humanities](#vis4dh)
 * [TopoInVis: Workshop on Topological Data Analysis and Visualization](#topoinvis)
-* [VAHC: 14th Workshop on Visual Analytics in Healthcare](#vahc)
+* [BELIV: evaluation and BEyond - methodoLogIcal approaches for Visualization](#beliv)
+* [VISxAI: 7th Workshop on Visualization for AI Explainability](#visxai)
+* [Bio+Med+Vis Workshop](#biomedvis)
 
+{% comment %}
+
+* [VIS4DH: 8th Workshop on Visualization for the Digital Humanities](#vis4dh)
+* [VAHC: 14th Workshop on Visual Analytics in Healthcare](#vahc)
 
 
 ## Accepted Workshops
@@ -32,7 +40,75 @@ The following workshops went through our [submission/review process](http://ieee
 * [VisxVision: Workshop on Novel Directions in Vision Science and Visualization Research](#VisxVision)
 * [(Vis + Prov) x Domain: Workshop on Visualization and Provenance Across Domains](#VisProv)
 
+
+{% endcomment %}
+
 <hr/>
+
+
+## <a name="topoinvis"></a> [TopoInVis: Workshop on Topological Data Analysis and Visualization](https://topoinvis.org/)
+
+Divya Banesh, *Los Alamos National Laboratory* <br>
+Guoning Chen, *University of Houston* <br>
+
+Contact: topoinvis@ieeevis.org
+
+The IEEE VIS Workshop on Topological Data Analysis and Visualization aims at being an inclusive forum for the fast dissemination of the latest results in theory, algorithms, and applications of topological methods for the interactive and visual analysis of data. This workshop is a remodeling of the established TopoInVis workshop series, with the goal of being more diverse (in terms of applications) and inclusive (in terms of communities), with a clear will to open to other members of the visualization community potentially interested in topological methods, or experts in topological methods from other communities willing to experiment with interactive and visual applications.
+
+
+
+## <a name="beliv"></a> [BELIV: evaluation and BEyond - methodoLogIcal approaches for Visualization](https://beliv-workshop.github.io/)
+
+Anastasia Bezerianos, *Université Paris-Saclay* <br>
+Kyle Hall, *University of Calgary* <br>
+Samuel Huron, *Télécom Paris* <br>
+Matthew Kay, *Northwestern* <br>
+Michael Correll, *Northeastern* <br>
+
+Contact: beliv.workshop@gmail.com
+
+BELIV 2024 will be open to discussions on how we establish the validity and scope of
+knowledge acquired in our domain including, in particular, all forms of methods used to acquire
+this knowledge. This broad scope is meant to entice critical reflection on ways to assess
+different forms of value offered by visualization research and design. This includes discussions
+on novel research methods but also existing methods and tools such as statistics. We also invite
+meta-discussions on empirical research practices in our domain, for example on what level of
+rigor to require of our methods, how to choose methods and methodologies, and how to best
+communicate the results of empirical research. This broad umbrella encompasses the topics
+that BELIV has been known to focus on, but expands in ways that we believe are important as
+our research community grows and matures.
+
+
+## <a name="visxai"></a> [VISxAI: 7th Workshop on Visualization for AI Explainability](https://visxai.io/)
+
+Angie Boggust, *MIT CSAIL* <br>
+Mennatallah El-Assady, *ETH AI Center* <br>
+Alex Bauerle, *CMU* <br>
+Fred Hohman, *Apple* <br>
+Hendrik Strobelt, *IBM Research* <br>
+
+Contact: orga@visxai.io
+
+The VISxAI workshop is a meeting place for researchers interested in explaining machine learning models through visual-
+ization. We focus on explainables submissions that visually and interactively explain machine learning concepts, ranging in complexity from clustering methods to algorithmic biases. The explainables serve as educational resources that have an impact beyond the academic community. The workshop hosts keynote speakers that expose visualization researchers to state-of-the-art machine learning methods and explore the impact visualization can have on explainability. Interactive audience sessions encourage conversations on critical topics in explainability and build relationships between attendees with multidisciplinary backgrounds. By bringing visualization and machine learning researchers together, the VISxAI workshop expands the problem space of explainability to include both machine learning and visualization and spurs new collaborations.
+
+
+## <a name="biomedvis"></a> [Bio+Med+Vis Workshop](http://biovis.net/)
+
+Nils Gehlenborg, *Harvard Medical School* <br>
+Barbora Kozlikova, *Masaryk University* <br>
+
+The goal of the Biological and Medical Visualization Workshop (Bio+Med+Vis Workshop) is to
+educate, inspire, and engage visualization researchers and students in current problems in
+biological & medical data visualization. The event will serve as a platform for presenting the
+participants with the current state and research challenges in BioMedVis, their impact on other
+disciplines (e.g., personalized medicine, art), and public outreach, and will enable the
+participants to actively contribute to the workshop by submitting their works on our announced
+biological and medical visualization challenges.
+
+
+
+{% comment %}
 
 
 ## <a name="vis4dh"></a> [VIS4DH: 8th Workshop on Visualization for the Digital Humanities](http://vis4dh.dbvis.de/)
@@ -46,15 +122,7 @@ Contact: vis4dh@gmail.com
 The VIS4DH workshop brings together researchers and practitioners from the fields of visualization and the humanities to discuss new research directions at the intersection of visualization and (digital) humanities research.
 
 
-## <a name="topoinvis"></a> [TopoInVis: Workshop on Topological Data Analysis and Visualization](https://topoinvis.org/)
-Sunday, October 22, 2023: 2:00 PM-5:00 PM AEDT (UTC+11)
 
-Paul Rosen, *University of South Florida* <br>
-Guoning Chen, *University of Houston* <br>
-
-Contact: topoinvis@ieeevis.org
-
-The IEEE VIS Workshop on Topological Data Analysis and Visualization aims at being an inclusive forum for the fast dissemination of the latest results in theory, algorithms, and applications of topological methods for the interactive and visual analysis of data. This workshop is a remodeling of the established TopoInVis workshop series, with the goal of being more diverse (in terms of applications) and inclusive (in terms of communities), with a clear will to open to other members of the visualization community potentially interested in topological methods, or experts in topological methods from other communities willing to experiment with interactive and visual applications.
 
 
 ## <a name="vahc"></a> [VAHC: 14th Workshop on Visual Analytics in Healthcare](https://www.visualanalyticshealthcare.org/)
@@ -217,8 +285,6 @@ Jeremy E Block, *INDIE Lab, Department of Computer & Information Science & Engin
 Contact: kai.xu@nottingham.ac.uk
 
 The provenance-related research interest is growing rapidly within the visualization community. This is evidenced by a dedicated provenance paper track in IEEE VIS 2022, a large number of provenance-related publications in many visualization venues, and several provenance-related workshops at IEEE VIS such as Machine Learning from User Interaction for Visualization and Analytics (MLUI), Workshop on TRust and EXpertise in Visualization (TREX), and Workshop on Visualization for AI Explainability (VISxAI). Provenance is also an established topic in several other fields, for example data lineage in database community, interaction log for user studies in Human-Computer Interaction, and workflow history for e-Science. Recently, it gained growing research attention with the recognition of the important of reproducible science.
-
-{% comment %}
 
 ## <a name="example"></a> [Example]()
 

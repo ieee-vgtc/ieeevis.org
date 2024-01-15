@@ -1,12 +1,10 @@
 ---
-title: Conference Committee
+title: Conference Organizing Committee
 layout: page
 active_nav: "Organization & History"
 permalink: /info/committees/conference-committee
 ---
 
-|---
-| | |
 |---
 | **General Chairs** | |
 | Paul Rosen | *University of Utah* |
@@ -19,37 +17,37 @@ permalink: /info/committees/conference-committee
 |---
 | **Overall Paper Chairs** | |
 | Tamara Munzner | *University of British Columbia* |
-| Niklas Elmqvist | |
+| Niklas Elmqvist | *Aarhus University* |
 | Holger Theisel | *University of Magdeburg* |
 | Petra Specht (OPC Assistant) | *University of Magdeburg* |
 |---
-| **Area 1 Paper Chairs  &nbsp;&nbsp;&nbsp;—** | **Theoretical & Empirical** |
+| **Area 1 Paper Chairs** | **Theoretical & Empirical** |
 | Adam Perer | *Carnegie Mellon University* |
-| Matthew Kay | |
+| Matthew Kay | *Northwestern University* |
 |---
-| **Area 2 Paper Chairs  &nbsp;&nbsp;&nbsp;—** | **Applications** |
+| **Area 2 Paper Chairs** | **Applications** |
 | Tatiana von Landesberger | *University of Cologne, Germany* |
 | Jiawan Zhang | *Tianjin University* |
 |---
-| **Area 3 Paper Chairs  &nbsp;&nbsp;&nbsp;—** | **Systems & Rendering** |
-| Chaoli Wang | |
+| **Area 3 Paper Chairs** | **Systems & Rendering** |
+| Chaoli Wang | *University of Notre Dame* |
 | Christoph Garth | *University of Kaiserslautern-Landau* |
 |---
-| **Area 4 Paper Chairs  &nbsp;&nbsp;&nbsp;—** | **Representations & Interaction** |
+| **Area 4 Paper Chairs** | **Representations & Interaction** |
 | Daniel Keefe | *University of Minnesota* |
 | Pierre Dragicevic | *Inria Bordeaux* |
 |---
-| **Area 5 Paper Chairs  &nbsp;&nbsp;&nbsp;—** | **Data Transformations** |
+| **Area 5 Paper Chairs** | **Data Transformations** |
 | Filip Sadlo | |
 | Ivan Viola | |
 |---
-| **Area 6 Paper Chairs  &nbsp;&nbsp;&nbsp;—** | **Analytics & Decisions** |
+| **Area 6 Paper Chairs** | **Analytics & Decisions** |
 | Wenwen Dou | |
 | Steffen Koch | *University of Stuttgart* |
 |---
 | **Short Paper Chairs** | |
 | Charles Perin | |
-| Johanna Beyer | |
+| Johanna Beyer | *Harvard University* |
 | Takayuki Itoh | |
 | Hongfen Yu | *University of Nebraska-Lincoln* |
 |---
@@ -82,8 +80,8 @@ permalink: /info/committees/conference-committee
 | **Arts Program Chairs** | |
 | Pedro Cruz | *Northeastern University* |
 | Rebecca Ruige Xu | *Syracuse University* |
-|---
-| **Vis in Practice Chairs** | |
+| Rewa Wright | *Queensland University of Technology* |
+| Vis in Practice Chairs | |
 | Ayan Biswas | |
 | Arjun Srinivasan | |
 |---
@@ -104,7 +102,8 @@ permalink: /info/committees/conference-committee
 |---
 | **Community, Meetups, & Election Chairs** | |
 | Ali Sarvghad | *University of Massachusstes Amherst* |
-| Isaac Cho | |
+| Isaac Cho | *Utah State University* |
+| Georgia Panagiotidou | *King’s College London* |
 |---
 | **Student Volunteer Chairs** | |
 | Katy Williams | *Davidson College* |
@@ -147,7 +146,7 @@ permalink: /info/committees/conference-committee
 | Steve Petruzza | *Utah State University* |
 | Janos Zimmermann | |
 | Mashrur Rashik | |
-| Mahmood Jasim | |
+| Mahmood Jasim | *Louisiana State University* |
 | Shayan Monadjemi | |
 |---
 | **Technology Chairs** | |
@@ -161,7 +160,7 @@ permalink: /info/committees/conference-committee
 | R. Jordan Crouser | *Smith College* |
 |---
 | **SciVis Contest Chairs** | |
-| Karen Bemis | |
+| Karen Bemis | *Rutgers, The State University of New Jersey* |
 | Tim Gerrits | |
 |---
 | **IEEE** | |

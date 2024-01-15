@@ -36,7 +36,7 @@ VisInPractice 2023 will be a half-day event taking place on Monday October 23rd.
 
 **Email:** [vip@ieeevis.org](mailto:vip@ieeevis.org)
 
-**Twitter:** [@visinpractice](https://twitter.com/visinpractice)
+**X (Twitter):** [@visinpractice](https://twitter.com/visinpractice)
 
 - - -
 
