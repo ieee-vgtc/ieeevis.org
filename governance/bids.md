@@ -7,7 +7,7 @@ permalink: /governance/bids
 
 IEEE VIS welcomes applications from candidates who would like to act as General Chairs in hosting future conferences.
 
-Those who are interested should use the [IEEE VIS General Chair Application Form]([https://docs.google.com/forms/d/1AaIJ62xvdRFLhhh7IY_HIleNS9TEjGDuutx12PDWgS4/edit?ts=602bda3a](https://ieeevis.org/governance/bids)) to contact the VIS Executive Committee ([VEC](mailto:vec@ieeevis.org)) with their ideas, credentials and possible host cities.
+Those who are interested should use the [IEEE VIS General Chair Application Form]([https://forms.gle/hc8F4z2QfdMvnfCt7](https://ieeevis.org/governance/bids)) to contact the VIS Executive Committee ([VEC](mailto:vec@ieeevis.org)) with their ideas, credentials and possible host cities.
 
 We are looking to hold IEEE VIS in well-connected cities around the world that could provide the facilities and backdrop for an excellent conference.
 
