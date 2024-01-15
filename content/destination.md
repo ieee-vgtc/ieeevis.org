@@ -10,10 +10,14 @@ contact:
 # TAMPA BAY, FLORIDA, USA
 ## TRADEWINDS ISLAND GRANT BEACH RESORT
 
-<p float="left">
-  <img src="assets/photos/tradewinds/sign.jpg" width="250" />
-  <img src="assets/photos/tradewinds/beach.jpg" width="250" /> 
-  <img src="assets/photos/tradewinds/hall.jpg" width="250" />
+<p>
+  <img src="assets/photos/tradewinds/sign.jpg" />
+</p>
+<p>
+  <img src="assets/photos/tradewinds/beach.jpg" /> 
+</p>
+<p>
+  <img src="assets/photos/tradewinds/hall.jpg" />
 </p>
 
 <iframe src="https://www.google.com/maps/embed/v1/place?q=Island+Grand+a+TradeWinds+Beach+Resort,+5500+Gulf+Blvd,+St.+Pete+Beach,+FL+33706,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -57,8 +61,7 @@ Taxi and ride shares a generally available at the hotel.
 
 Guests of the resort (TradeWinds or RumFish) have access to all resort amenities, including WiFi, daily beach cabana, zipline, High Tide Slide, Surf WipeOut, and more. *Important:* Attendees not staying at the resort will not have access to any of these amenities.
 
-<iframe src="https://www.tradewindsresort.com/explore/resort-recreation" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
+[Click here to find out more about the resort amenities.](https://www.tradewindsresort.com/explore/resort-recreation)
 
 ## Things to Do in St. Pete/Clearwater
 

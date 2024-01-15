@@ -78,23 +78,23 @@ menu:
           - heading: "Code of Conduct"
             heading_url: "/year/2024/info/inclusion-and-diversity/code-of-conduct"
 
-      - subsections:
-          - heading: "Equality, Inclusion & Diversity"
-            heading_url: "/year/2024/info/inclusion-and-diversity/inclusivity"
-            columns:
-              - links:
-                  # - text: "Land Recognition"
-                  #   description: "Recognition of the tribal land the conference takes place."
-                  #   url: "/year/2024/info/inclusion-and-diversity/land-recognition"
-                  - text: "Inclusivity & Diversity Scholarship"
-                    description: "Need-based scholarships for conference attendance"
-                    url: "/year/2024/info/inclusion-and-diversity/diversity-scholarship"
-                  # - text: "Accessibility"
-                  #   description: "Supporting access for all attendees"
-                  #   url: "/year/2024/info/accessibility/attend"
-                  - text: "VISKids Childcare Grants"
-                    description: "Supporting our VISKids and young families"
-                    url: "/year/2024/info/inclusion-and-diversity/viskids-child-care-grants"
+      # - subsections:
+      #     - heading: "Equality, Inclusion & Diversity"
+      #       heading_url: "/year/2024/info/inclusion-and-diversity/inclusivity"
+      #       columns:
+      #         - links:
+      #             # - text: "Land Recognition"
+      #             #   description: "Recognition of the tribal land the conference takes place."
+      #             #   url: "/year/2024/info/inclusion-and-diversity/land-recognition"
+      #             - text: "Inclusivity & Diversity Scholarship"
+      #               description: "Need-based scholarships for conference attendance"
+      #               url: "/year/2024/info/inclusion-and-diversity/diversity-scholarship"
+      #             # - text: "Accessibility"
+      #             #   description: "Supporting access for all attendees"
+      #             #   url: "/year/2024/info/accessibility/attend"
+      #             - text: "VISKids Childcare Grants"
+      #               description: "Supporting our VISKids and young families"
+      #               url: "/year/2024/info/inclusion-and-diversity/viskids-child-care-grants"
   #                 - text: "VISKids"
   #                   description: "Childcare and activities open to everyone"
   #                   url: "/year/2024/info/inclusion-and-diversity/viskids-event"
@@ -277,7 +277,7 @@ menu:
   #              #     url: "https://www.google.com"
 
   - dropdown: "Events & Community"
-    display: false
+    display: true
     sections:
       - subsections:
           - heading: "Associated Events"
@@ -317,6 +317,7 @@ menu:
           #           is_external: true
       - subsections:
           - heading: "IEEE VIS Workshops"
+            display: false
             heading_url: "/year/2024/info/workshops"
             description: "Informal settings to discuss emerging topics"
             columns:
@@ -325,14 +326,26 @@ menu:
                     description: "Topological Data Analysis and Visualization"
                     url: "https://topoinvis-workshop.github.io/"
                     is_external: true
-                  - text: "VAHC"
-                    description: "Visual Analytics in Healthcare"
-                    url: "https://visualanalyticshealthcare.org"
+                  - text: "VISxAI"
+                    description: "Visualization for AI Explainability"
+                    url: "https://visxai.io/"
                     is_external: true
-                  - text: "VIS4DH"
-                    description: "Visualization for the Digital Humanities"
-                    url: "https://vis4dh.dbvis.de/"
-                    is_external: true
+                  - text: "BELIV"
+                    description: "evaluation and BEyond - methodoLogIcal approaches for Visualization"
+                    url: "https://beliv-workshop.github.io/"
+                    is_external: true                  
+                  - text: "BioMedVis"
+                    description: "Biological and Medical Visualization"
+                    url: "#"
+                    is_external: true                  
+                  # - text: "VAHC"
+                  #   description: "Visual Analytics in Healthcare"
+                  #   url: "https://visualanalyticshealthcare.org"
+                  #   is_external: true
+                  # - text: "VIS4DH"
+                  #   description: "Visualization for the Digital Humanities"
+                  #   url: "https://vis4dh.dbvis.de/"
+                  #   is_external: true
           # - heading: "Meetups"
           #   heading_url: "/year/2024/info/meetups"
           #   description: "Meet for discussion and shared experiences"
