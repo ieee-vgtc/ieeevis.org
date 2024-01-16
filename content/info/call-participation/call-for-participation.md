@@ -75,7 +75,7 @@ Reviewers should be familiar with the [guidelines for reviewing papers for VIS](
 
 ## Accessibility
 
-Starting this year, we require screen reader accessible final submissions. Please see the [VIS Accessibility Guide](/year/2024/info/call-participation/make-pdf-accessible) to learn how you can make your contribution accessible.
+We highly recommend screen reader accessible final submissions. Please see the [VIS Accessibility Guide](/year/2024/info/call-participation/make-pdf-accessible) to learn how you can make your contribution accessible.
 
 ## Open Access Policy
 
