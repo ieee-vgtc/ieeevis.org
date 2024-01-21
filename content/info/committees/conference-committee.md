@@ -38,7 +38,7 @@ permalink: /info/committees/conference-committee
 | Pierre Dragicevic | *Inria Bordeaux* |
 |---
 | **Area 5 Paper Chairs** | **Data Transformations** |
-| Filip Sadlo | |
+| Filip Sadlo | *Heidelberg University* |
 | Ivan Viola | |
 |---
 | **Area 6 Paper Chairs** | **Analytics & Decisions** |
