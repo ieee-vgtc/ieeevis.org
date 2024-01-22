@@ -43,7 +43,7 @@ jobs:
         ruby-version: '3.0'
     - name: Install ruby dependencies
       run: |
-        gem install bundler
+        gem install bundler -v 2.4.22
         bundle
     - name: Set up AWS credentials (+ set default user)
       run: |
