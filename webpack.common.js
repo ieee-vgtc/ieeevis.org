@@ -37,16 +37,19 @@ module.exports = {
                     { loader: 'css-loader', options: { sourceMap: true } },
                     {
                         loader: 'postcss-loader',
-                        options: {
-                            sourceMap: true,
-                            ident: 'postcss',
-                            plugins: [
-                                require('postcss-import'),
-                                require('tailwindcss')('tailwind.config.js'),
-                                require('postcss-preset-env'),
-                                // require('cssnano'),
-                            ],
-                        },
+                    //     options: {
+                    //         sourceMap: true,
+                    //         postcssOptions: 
+                    //         {
+                    //         	ident: 'postcss',
+					// 		    plugins: [
+					// 		    	require('postcss-import'),
+					// 		    	require('tailwindcss')('tailwind.config.js'),
+					// 		        require('postcss-preset-env'),
+					// 		        // require('cssnano'),
+					// 		    ],
+		            // 		},
+                    //     },
                     },
                 ],
             },
