@@ -274,6 +274,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-20
+  universal-darwin-23
 
 DEPENDENCIES
   github-pages
