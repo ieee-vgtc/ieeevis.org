@@ -1,4 +1,5 @@
 /* Base Styles*/
+
 @import "tailwindcss/base";
 @import 'typography';
 
@@ -25,5 +26,3 @@
 
 /* Utilities*/
 @import "tailwindcss/utilities";
-
-

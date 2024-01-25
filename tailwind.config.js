@@ -8,7 +8,6 @@ const { colors } = require('tailwindcss/defaultTheme')
 // 63 101 127 other #3F657F dark blue
 
 module.exports = {
-	content: ['./_site/*.html'],
   theme: {
     colors: {
       primary: {
