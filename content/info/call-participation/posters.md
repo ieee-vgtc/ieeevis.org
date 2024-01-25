@@ -8,14 +8,11 @@ contact: posters@ieeevis.org
 active_nav: "Contribute"
 ---
 
-The IEEE VIS 2023 Poster Program offers a timely venue to present and discuss original work or highlights of recent work published or presented in another venue (please see the plagiarism statement in the end) through a forum that encourages graphical presentation, demonstration, and active engagement with IEEE VIS participants.
+The IEEE VIS 2024 Poster Program offers a timely venue to present and discuss original work or highlights of recent work published or presented in another venue (please see the plagiarism statement in the end) through a forum that encourages graphical presentation, demonstration, and active engagement with IEEE VIS participants.
 
-The presentation of posters will happen as a physical event at the conference. There will be 1-2 dedicated poster sessions in which poster authors can meet and discuss their work with conference participants. An additional web presence of posters will supplement the traditional physical installation of poster boards. More concrete details will follow soon, with the goal of creating an engaging atmosphere.
-
-In addition to the poster presentation, the submitted two-page summary will be included in the electronic conference proceedings.
+The presentation of posters will happen as a physical event at the conference. There will be 1-2 dedicated poster sessions in which poster authors can meet and discuss their work with conference participants. An additional web presence of posters will supplement the traditional physical installation of poster boards. 
 
 Examples of appropriate visualization work include, but are not limited to
-
 
 * research exploring new problems or areas,
 * results of pilot projects,
@@ -35,11 +32,11 @@ Summaries should include a concise description of the idea, the results or findi
 
 The poster design itself does not need to be submitted with the the summary on the initial submission deadline. Instead, authors whose posters are accepted will be asked to submit their poster as a PDF at the camera-ready deadline. Authors of accepted papers will also need to bring a physical printed copy of their poster to display at the poster session at the conference. (See details below.)
 
+Posters are non-archival and the 2-page poster summaries will not be archived as part of the conference proceedings. However the posters themselves will be shared online as part of the conference program. Authors are free to share non-archival copies of their posters and summaries on their own personal/lab websites or online preprint repositories. 
+
 ### SUBMISSION INSTRUCTIONS
 
-All IEEE VIS poster submissions should be made through a single submission category on PCS - IEEE VIS Poster.
-
-After logging into [PCS](https://new.precisionconference.com/submissions), start your submission by selecting “VGTC > VIS 2023 > VIS Posters 2023” and then selecting a respective [IEEE VIS Area](http://ieeevis.org/year/2023/info/call-participation/area-model#description-of-vis-areas).
+All posters will be submitted via PCS. Details forthcoming. 
 
 ### Plagiarism
 All submissions must be either: 1) original work that has not been presented previously at any workshop, symposium, or conference and not published previously in any archived conference proceeding, magazine, or journal or 2) a summary that highlights work presented or published by the authors in a related venue with a clear statement of attribution to the original work.
@@ -48,11 +45,11 @@ At the time of submission, it is required by the authors to state explicitly in 
 
 ### IMPORTANT DATES
 
-* Submission Deadline: **Thursday, June 22, 2023**
-* Notification of Acceptance: **Saturday, July 22, 2023**
-* Final Submission of Camera Ready Summaries: **Tuesday, August 15, 2023**
-* Final Submission of Poster PDF: **Thursday, August 31, 2023**
-* (Optional) [Video Preview](/year/2023/info/presenter-information/fast-forward-and-video-previews) Submission: **Friday, September 22, 2023**
+* Submission Deadline: **Thursday, June 20, 2024**
+* Notification of Acceptance: **Saturday, July 19, 2024**
+* Final Submission of Camera Ready Summaries: **Tuesday, August 13, 2024**
+* Final Submission of Poster PDF: **Thursday, August 29, 2024**
+* (Optional) [Video Preview](/year/2024/info/presenter-information/fast-forward-and-video-previews) Submission: **Friday, September 13, 2024**
 
 All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth)**.
 
@@ -63,8 +60,6 @@ A PDF copy of the display poster must be submitted on PCS by the camera-ready de
 Authors will also need to bring their own printed version of their poster to display at the conference.
 
 VIS has no specific formatting requirements or template for display posters. However, all posters should include the same title and authors as the 2-page poster summary and should be legible from a distance of 2 meters. Posters can be no larger than size A0 (841 x 1189 mm / 33.1 x 46.8 inches) and must be in a portrait orientation. If planning to laminate your poster, make sure you leave the requisite margin on all sides. The conference will supply poster boards and Velcro for mounting and displaying all posters. 
-
-For authors who do not wish to travel with their posters, there are several printing shops available in around Melbourne, including [Officeworks Bourke Street](https://www.officeworks.com.au/print-copy/c/pcc/posters?cm_sp=all:menu:print-copy:::posters) or [Kwik Copy William Street](https://www.kwikkopy.com.au/poster-printing), both a 10-min walk from the MCEC. Prints can be ordered online and picked up from the store.
 
 ### POSTER SESSION
 
@@ -83,7 +78,8 @@ The Best Poster awards will recognize the most outstanding poster contributions.
 
 * Nan Cao, *Tongji University*
 * Barbora Kozlikova, *Masaryk University*
-* Jiazhi Xia, *Central South University*	
+* Renata Raidou, *TU Wein*
 * Wesley Willett, *University of Calgary*
+* Jiazhi Xia, *Central South University*	
 
 *Email: [posters@ieeevis.org](mailto:posters@ieeevis.org)*
