@@ -1,4 +1,4 @@
-// const tailwindcss = require('tailwindcss');
+// see https://tailwindcss.com/docs/installation/using-postcss
 module.exports = {
   plugins: {
     tailwindcss: {},
