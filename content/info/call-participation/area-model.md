@@ -28,7 +28,7 @@ The area model has two types of paper chairs: Overall Paper Chairs (OPCs) and Ar
 
 ### VIS Areas and Reviewers
 
-Each IEEE VIS paper will be assigned two members from the program committee as well as two external reviewers. For external reviewers the reviewing process remains unchanged. Program committee members will see one change: paper bidding will now happen across all papers submitted to IEEE VIS. To ease bidding, several mechanisms (for example, improved keywords) will be put in place in the conference submission system (PCS) to ensure that it remains manageable.
+Each IEEE VIS paper will be assigned two members from the program committee as well as one external reviewer. For external reviewers the reviewing process remains unchanged. Program committee members will see one change: paper bidding will now happen across all papers submitted to IEEE VIS. To ease bidding, mechanisms including updated keywords have been put in place in the conference submission system (PCS) to ensure that it remains manageable.
 
 
 ## The VIS Area Model
