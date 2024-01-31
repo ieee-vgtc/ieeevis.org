@@ -10,3 +10,4 @@ scripts/**/*.pyc
 /files
 data/autogen/
 *.swp
+.idea/
