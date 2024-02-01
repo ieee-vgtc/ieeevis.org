@@ -66,7 +66,7 @@ Previously published text may not be reused verbatim in a VIS paper submission. 
 
 All related previous work by the authors must be cited and the differences from past work must be clearly explained. These citations may be cited anonymously where appropriate, for example by redacting details of the reference or by writing the citation in the third person.
 
-The sole exception to these prohibitions is that preliminary work described in posters, contest entries, or workshops from previous VIS conferences, if not properly published, may be resubmitted provided the submission includes substantial additional new material, the previous work is cited, and the provisions of the [VIS Workshop Publication Strategy] (workshops#publication-strategy) are met.
+The sole exception to these prohibitions is that preliminary work described in posters, contest entries, or workshops from previous VIS conferences, if not properly published, may be resubmitted provided the submission includes substantial additional new material, the previous work is cited, and the provisions of the [VIS Workshop Publication Strategy](workshops#publication-strategy) are met.
 
 ## Plagiarism
 
