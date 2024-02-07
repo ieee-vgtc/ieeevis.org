@@ -50,13 +50,21 @@ Microsoft Word can produce accessible documents.
 
 1. Download the latest [template for full papers](https://tc.computer.org/vgtc/publications/journal/) or the [template for all other submissions](https://tc.computer.org/vgtc/publications/conference/).
 2. **Use appropriate commands to create sections**, ordered/unordered lists, figures, tables, equations, etc.
-3. We recommend adding the alt texts to the LaTeX sources as comments so that you can easily copy and paste them into the PDF in the next step.
+3. Add alt texts to the LaTeX sources (see [below](#adding-alt-texts-to-figures)) so that you can easily copy and paste them into the PDF in the next step. In future versions of LaTeX, alt texts will be automatically added to the PDF.
 4. Tag the document, add alt text to all figures and equations, and correctly annotate tables with Adobe Acrobat. Details are [below](#adding-accessibility-metadata-to-a-PDF).
 5. Test the document complete with a screen reader to make sure that there are tags for all content.
 
+#### Adding Alt Texts to Figures
+
+Add alt texts inline in the `includegraphics` call. In your paper, the alt texts should [describe the figure in sufficient detail](https://www.sigaccess.org/welcome-to-sigaccess/resources/describing-figures/).
+
+```latex
+\includegraphics[alt={An image of a duck in a pond.},width=0.5\columnwidth]{duck.png}
+```
+
 ## Adding Accessibility Metadata to a PDF
 
-You can add missing accessibility metadata to a PDF file using [Adobe Acrobat](https://www.adobe.com/acrobat/acrobat-pro.html). Note that this requires **the pro version of Adobe Acrobat**. If you need assistance in making your PDF accessible, please contact the accessibility chairs (or venue chairs) as they might be able to provide support.
+You can add missing accessibility metadata to a PDF file using [Adobe Acrobat](https://www.adobe.com/acrobat/acrobat-pro.html). Note that this requires **the pro version of Adobe Acrobat**. If you need assistance in making your PDF accessible, please contact the accessibility chairs as they might be able to provide support.
 
 Note that these steps will need to be performed **each time a new PDF is exported or generated from your source documents.** Since Word can produce accessible documents, these steps are designed for LaTeX users.
 
