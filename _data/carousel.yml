@@ -4,6 +4,16 @@
   button-url: "/destination"
   active: "active"
 
+- title: "Latest Update on IEEE VIS 2024 Conference Format"
+  button-text: "Latest Update"
+  button-url: "/blog/vis-2024-conference-format"
+  image: "tradewinds_hall.jpg"
+
+- title: "The Road to VIS 2024 - Latest Blog Post from the Overall Paper Chairs"
+  button-text: "Latest Blog Post"
+  button-url: "/blog/vis-2024-OPC-blog-replication"
+  image: "road_to_vis24.png"
+
 # - title: "Meet your 2023 VEC and VSC Candidates"
 #   description: "The VIS community will vote on a new representative each to join the Vis Executive Committee (VEC) and the Vis Steering Committee (VSC). Check out the Elections page to learn more about the nominees for each position. Elections will begin September 15. Remember to register to vote by August 25!"
 #   button-text: "Elections Page"
