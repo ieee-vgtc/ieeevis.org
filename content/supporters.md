@@ -13,15 +13,14 @@ VIS 2024 will be the year’s premier forum for advances in theory, methods, app
 
 Through a six-day program of workshops and tutorials, exposition, panels, posters, keynotes, and research presentations! The conference convenes a global community of over 1000 researchers, students, and practitioners from universities, government, and industry with broad backgrounds in computing, design, mathematics, science, and more. An active recruitment venue for skilled candidates and potential research collaborations, VIS 2024 is where top university graduates and researchers gather. Support this community, and make your presence known at IEEE VIS 2024.
 
-<!-- ## [>> Browse our sponsorship options <<](prospectus)  -->
+# How to Support
 
-<!-- [>> Browse our sponsorship options in the prospectus <<](/year/2023/assets/IEEE-VIS-2023-Sponsorship-Prospectus-230416.pdf) -->
+**>> [Browse our support options in the prospectus](/year/2024/assets/IEEE-VIS-2024-Supporter-Prospectus.pdf) <<**
 
 
-# Contact: 
-<!-- - General inquiry: Chad Murphy - ASN Events [<chad.m -at- asnevents.net.au>](mailto:chad.m@asnevents.net.au) -->
-- IEEE VIS Supporters Chairs [<supporters -at- ieeevis.org>](mailto:supporters@ieeevis.org)
+**>> Contact the IEEE VIS Supporters Chairs [<supporters -at- ieeevis.org>](mailto:supporters@ieeevis.org) <<**
 
+---
 
 ![Frame 4vis23](https://user-images.githubusercontent.com/1230497/214549327-b763bf31-f701-4619-96ef-f9b6b8a0bef2.png)
 
@@ -67,24 +66,12 @@ Through a six-day program of workshops and tutorials, exposition, panels, poster
 
 
 ## In supporting the conference as a VIS 2024 Supporter, you: 
-<!-- * will have access to [a range of options for promotion and engagement](/year/2023/assets/IEEE-VIS-2023-Sponsorship-Prospectus-230416.pdf), based on level of support: Platinum, Gold, Bronze, ...  -->
 * will have access to a range of options for promotion and engagement, based on level of support: Platinum, Gold, Bronze, ... 
 * will have access to the conference and its events through registrations for your staff 
-* will have the opportunity to directly sponsor Diversity, Equity and Inclusion priorities
+* will have the opportunity to directly support Diversity, Equity and Inclusion priorities
 * will have access to the conference and its events through registrations for your staff
 * will support a growing research community dedicated to helping humans understand their data
   
 
 ![Frame 10vis23](https://user-images.githubusercontent.com/1230497/214549434-a59b00eb-9cad-4854-bf10-8821f50f947d.png)
-
-<!-- # FAQ
-
-## Can I contribute in USD instead of AUD?
-
-You can contribute in Australian dollars (AUD) as well as US dollars (numbers are given in both currencies in the prospectus). Depending on the currency employed, a different bank account will be communicated to you.
-
-  
-# Contact: 
-- General inquiry: Chad Murphy - ASN Events [<chad.m -at- asnevents.net.au>](mailto:chad.m@asnevents.net.au)
-- Conference-related questions: IEEE VIS Supporters Chairs [<supporters -at- ieeevis.org>](mailto:supporters@ieeevis.org) -->
 

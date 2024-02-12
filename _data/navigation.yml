@@ -115,13 +115,14 @@ menu:
                   - text: "Short Papers"
                     url: "/year/2024/info/call-participation/shortpapers"
                     is_new: false
-                  # - text: "Posters"
-                  #   url: "/year/2024/info/call-participation/posters"
+                  - text: "Posters"
+                    url: "/year/2024/info/call-participation/posters"
+                    is_new: true
                   # - text: "Tutorials"
-                    # url: "/year/2024/info/call-participation/tutorials"
+                  #   url: "/year/2024/info/call-participation/tutorials"
                   - text: "Workshops"
                     url: "/year/2024/info/call-participation/workshops"
-                    is_new: false
+                    is_new: true
                   # - text: "Panels"
                   #   url: "/year/2024/info/call-participation/panels"
                   # - text: "Doctoral Colloquium"
@@ -134,8 +135,9 @@ menu:
                      url: "/year/2024/info/call-participation/area-model"
                    - text: "Paper Submission Guidelines"
                      url: "/year/2024/info/call-participation/paper-submission-guidelines"
-                  #  - text: "Partnerships"
-                  #    url: "/year/2024/info/call-participation/partnerships"
+                   - text: "Partnerships"
+                     url: "/year/2024/info/call-participation/partnerships"
+                     is_new: true
                    - text: "Review Instructions"
                      url: "/year/2024/info/call-participation/review-instructions"
                    - text: "Submission Keywords"
