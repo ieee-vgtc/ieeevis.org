@@ -5,7 +5,6 @@ active_nav: "Organization & History"
 permalink: /info/committees/conference-committee
 ---
 
-|---
 | **General Chairs** | |
 | Paul Rosen | *University of Utah* |
 | Kristin Potter | *National Renewable Energy Laboratory* |
@@ -39,32 +38,32 @@ permalink: /info/committees/conference-committee
 |---
 | **Area 5 Paper Chairs** | **Data Transformations** |
 | Filip Sadlo | *Heidelberg University* |
-| Ivan Viola | |
+| Ivan Viola | *King Abdullah University of Science and Technology* |
 |---
 | **Area 6 Paper Chairs** | **Analytics & Decisions** |
-| Wenwen Dou | |
+| Wenwen Dou | *University of North Carolina at Charlotte* |
 | Steffen Koch | *University of Stuttgart* |
 |---
 | **Short Paper Chairs** | |
-| Charles Perin | |
+| Charles Perin | *University of Victoria* |
 | Johanna Beyer | *Harvard University* |
-| Takayuki Itoh | |
+| Takayuki Itoh | *Ochanomizu University* |
 | Hongfen Yu | *University of Nebraska-Lincoln* |
 |---
 | **Poster Chairs** | |
-| Nan Cao | |
-| Renata Raidou | |
-| Jiazhi Xia | |
-| Wesley Willett | |
+| Nan Cao | *Tongji University* |
+| Renata Raidou | *TU Wien* |
+| Jiazhi Xia | *Central South University, China* |
+| Wesley Willett | *University of Calgary* |
 |---
 | **Panels & Tutorials Chairs** | |
 | Cagatay Turkay | *University of Warwick* |
-| Kai Lawonn | |
+| Kai Lawonn | *University of Jena* |
 | Leilani Battle | *University of Washington* |
 |---
 | **Application Spotlight Chairs** | |
-| Ana Crisan | |
-| Mennatallah El-Assady | |
+| Ana Crisan | *Tableau Research* |
+| Mennatallah El-Assady | *ETH Zürich* |
 |---
 | **Open Practices Chairs** | |
 | Laura Garrison | *University of Bergen* |
@@ -81,24 +80,25 @@ permalink: /info/committees/conference-committee
 | Pedro Cruz | *Northeastern University* |
 | Rebecca Ruige Xu | *Syracuse University* |
 | Rewa Wright | *Queensland University of Technology* |
-| Vis in Practice Chairs | |
-| Ayan Biswas | |
-| Arjun Srinivasan | |
+|---
+| **Vis in Practice Chairs** | |
+| Ayan Biswas | *Los Alamos National Laboratory* |
+| Arjun Srinivasan | *Databricks* |
 |---
 | **Doctoral Colloquium Chairs** | |
-| Yunhai Wang | |
-| Christophe Hurter | |
+| Yunhai Wang | *Renmin University of China* |
+| Christophe Hurter | *Ecole Nationale de l’Aviation Civile* |
 | Emily Wall | *Emory University* |
 |---
 | **Fast Forward Chairs** | |
-| Soumya Dutta | |
-| Ghulam Jilani Quadri | |
-| Qing Chen | |
+| Soumya Dutta | *Indian Institute of Technology, Kanpur* |
+| Ghulam Jilani Quadri | *University of Oklahoma* |
+| Qing Chen | *NYU Shanghai* |
 |---
 | **Publication Chairs** | |
 | Minsuk Kahng | *Google* |
 | Zhicheng Liu | *University of Maryland College Park* |
-| Cindy Xiong | |
+| Cindy Xiong | "Georgia Tech* |
 |---
 | **Community, Meetups, & Election Chairs** | |
 | Ali Sarvghad | *University of Massachusstes Amherst* |
@@ -123,12 +123,12 @@ permalink: /info/committees/conference-committee
 | **Supporters Chairs** | |
 | Michael Krone | *University of Tübingen* |
 | Vidya Setlur | *Tableau Research* |
-| Chris Bryan | |
+| Chris Bryan | *Arizona State University* |
 |---
 | **Finance Chairs** | |
 | Loretta Auvil | |
 | Maria C. Velez | |
-| Bhavana Doppalapudi | |
+| Bhavana Doppalapudi | *University of South Florida* |
 |---
 | **Incoming General Chairs (VIS25)** | |
 | Johanna Schmidt | |
