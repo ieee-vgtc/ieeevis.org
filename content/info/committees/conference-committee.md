@@ -147,7 +147,7 @@ permalink: /info/committees/conference-committee
 | Janos Zimmermann | |
 | Mashrur Rashik | |
 | Mahmood Jasim | *Louisiana State University* |
-| Shayan Monadjemi | |
+| Shayan Monadjemi | *Oak Ridge National Laboratory* |
 |---
 | **Technology Chairs** | |
 | Aditeya Pandey | |
