@@ -38,7 +38,7 @@ IEEE Vis follows the [area model](/year/2024/info/call-participation/area-model)
   
 ## Submission System
 
-IEEE VIS uses the [Precision Conference System (PCS)](https://new.precisionconference.com/vgtc) to handle the submission and reviewing process. When submitting your manuscript, please make sure that you submit it to your intended area by choosing the appropriate area from the list of six areas. In the [area description page](/year/2024/info/call-participation/area-model), you can find information guiding you to choose an appropriate area along with example papers for each area. 
+IEEE VIS uses the [Precision Conference System (PCS)](https://new.precisionconference.com/vgtc) to handle the submission and reviewing process. When submitting your manuscript, at the top of the PCS Submissions tab you should select 'VGTC' for the society, 'VIS 2024' for the conference/journal, and 'VIS 2024 Full Papers' for the track. Then, please make sure that you submit it to your intended area by choosing the appropriate area from the list of six areas. In the [area description page](/year/2024/info/call-participation/area-model), you can find information guiding you to choose an appropriate area along with example papers for each area. 
 
 ## Formatting and Language Guidelines
 
