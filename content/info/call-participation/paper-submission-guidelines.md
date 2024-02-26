@@ -94,6 +94,8 @@ Paper length may be up to a maximum of nine (9) pages with additional two (2) pa
 
 Papers may be shorter than 9 pages but still present a significant contribution. Using effective and informative graphics can be a good use of the available space. A paper does not have to include two full pages of references, but the generous allocation of these pages is meant to signify the importance that IEEE VIS attaches to authors fully anchoring their work in both its full academic context and the state of the art. 
 
+The size limit for the PDF paper is 300 MB.
+
 ## Supplemental Material
 
 We encourage the use of digital video to enhance a submission, particularly if part or all of the work addresses interactive techniques. Submission of code, data, evaluation protocols or other supplemental material to increase the scrutiny of the work is encouraged. Authors are urged to make available salient parameter settings of pertinent algorithms and ideally obtain results using open source data. If specific datasets are employed, we ask that a version of these be made available where possible. Information or pointers to information that can be changed after the submission deadline *should not* be used as supplemental material. 
