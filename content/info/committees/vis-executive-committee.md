@@ -19,7 +19,7 @@ The current VEC members are:
 | Narges Mahyar | *University of Massachusetts Amherst* |<br>
 | Elisabeta Marai | *University of Illinois at Chicago* |<br>
 | Brian Summa | *Tulane University* |<br>
-| TBD - VEC appointed member | ** |<br>
+| Tatiana von Landesberger | *University of Cologne* |<br>
 
 ## VIS Executive and Steering Committee Elections
 Each year the VIS community elects one new member each to the VEC and VSC. 
