@@ -15,7 +15,7 @@ This page provides detailed instructions for both PC reviewers and external revi
 # Contents
 
 - [PC Reviewing Instructions](#pc-reviewing-instructions)
-  - [Keywords Update, by March 20](#keywords-update)
+  - [Affiliations/Keywords Update, by March 15](#keywords-update)
   - [Bidding, March 22 thru March 31](#bidding)
   - [Assigning External Reviewers, April 8 thru April 14](#assigning-external-reviewers)
   - [First Round Reviewing, April 8 thru May 8](#first-round-reviewing)
@@ -23,7 +23,7 @@ This page provides detailed instructions for both PC reviewers and external revi
   - [First Round Decisions, May 16 thru June 6](#first-round-decisions)
   - [Second Round Reviewing, July 2 thru July 14](#second-round-reviewing)
 - [External Reviewing Instructions](#external-reviewing-instructions)
-  - [Keywords Update, by March 31](#keywords-update-1)
+  - [Affiliations/Keywords Update, by March 31](#keywords-update-1)
   - [Reviewing, April 14 thru May 8](#reviewing)
   - [Discussion, May 9 thru May 15](#discussion-1)
 - [Additional Reviewing Guidance](#additional-reviewing-guidance)
@@ -37,8 +37,16 @@ This page provides detailed instructions for both PC reviewers and external revi
 
 # PC Reviewing Instructions
 
-## Keywords & Affiliation Update
-**By March 20**
+## Affiliation & Keywords Update
+**By March 15**
+
+**You will need to update your affiliations in PCS if you have moved institutions within the past three years and not already done so.** You will need to check your affiliation(s) in PCS and update them if you have recently moved to another institution. Your PCS affiliation must match your current affiliation, and if you have been at another institution within the last three years that should also be listed as a secondary affiliation within PCS. Correct information is required here in order to ensure compliance with the policy that no reviewers assigned to a paper are from the same institution as each other, or as paper authors. 
+
+1. In the PCS system, go to the Account tab
+     
+2. Click on “Change contact information”.
+
+At the bottom, you can change your affiliation and if necessary, click "Add one" to add an additional one.
 
 **You will need to update your expertise in PCS if you have not already done so.** Please read through the [summary of the keywords](/year/2024/blog/keywords-for-pc-members), which includes instructions for reviewers on how to select for expertise. 
 If you do not enter your areas of expertise you will have all matching scores set to -1 during the bidding phase, which will greatly impact suggestions of interesting papers for you to bid on. The matching scores are calculated manually by the OPCs once before bidding starts and if you are late you will have to wait for them to do this step again at a later point in time. Therefore, it is important that you enter your expertise *before the abstract deadline*.
@@ -54,13 +62,6 @@ Please note that the Area Curation Committee (ACC) also continuously collects in
 
 5. Select your keywords.
 
-You will also need to check your affiliation(s) in PCS and update them if you have recently moved to another institution. Your PCS affiliation must match your current affiliation, and if you have been at another institution within the last three years that should also be listed as a secondary affiliation within PCS. Correct information is required here in order to ensure compliance with the policy that no reviewers assigned to a paper are from the same institution as each other, or as paper authors. 
-
-1. In the PCS system, go to the Account tab
-     
-2. Click on “Change contact information”.
-
-At the bottom, you can change your affiliation and if necessary, click "Add one" to add an additional one.
 
 
 ## Bidding
@@ -166,8 +167,16 @@ For each of the papers for which you are the primary reviewer and that has recei
 
 # External Reviewing Instructions
 
-## Keywords Update
+## Affiliations/Keywords Update
 **By March 31**
+
+**You will need to update your affiliations in PCS if you have moved institutions within the past three years and not already done so.** You will need to check your affiliation(s) in PCS and update them if you have recently moved to another institution. Your PCS affiliation must match your current affiliation, and if you have been at another institution within the last three years that should also be listed as a secondary affiliation within PCS. Correct information is required here in order to ensure compliance with the policy that no reviewers assigned to a paper are from the same institution as each other, or as paper authors. 
+
+1. In the PCS system, go to the Account tab
+     
+2. Click on “Change contact information”.
+
+At the bottom, you can change your affiliation and if necessary, click "Add one" to add an additional one.
 
 Please read through the [summary of the keywords](paper-keywords), which includes instructions for reviewers on how to indicate their levels of expertise. Make sure to update your areas of expertise by the deadline above so that the program committee can take them into account during the reviewer assignment period.  
 

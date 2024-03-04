@@ -38,7 +38,7 @@ IEEE Vis follows the [area model](/year/2024/info/call-participation/area-model)
   
 ## Submission System
 
-IEEE VIS uses the [Precision Conference System (PCS)](https://new.precisionconference.com/vgtc) to handle the submission and reviewing process. When submitting your manuscript, please make sure that you submit it to your intended area by choosing the appropriate area from the list of six areas. In the [area description page](/year/2024/info/call-participation/area-model), you can find information guiding you to choose an appropriate area along with example papers for each area. 
+IEEE VIS uses the [Precision Conference System (PCS)](https://new.precisionconference.com/vgtc) to handle the submission and reviewing process. When submitting your manuscript, at the top of the PCS Submissions tab you should select 'VGTC' for the society, 'VIS 2024' for the conference/journal, and 'VIS 2024 Full Papers' for the track. Then, please make sure that you submit it to your intended area by choosing the appropriate area from the list of six areas. In the [area description page](/year/2024/info/call-participation/area-model), you can find information guiding you to choose an appropriate area along with example papers for each area. 
 
 ## Formatting and Language Guidelines
 
@@ -84,7 +84,7 @@ Self-plagiarism, which is verbatim copying of text from the authors' own prior w
 
 ## Review Process
 
-IEEE VIS papers undergo a rigorous review process involving at least four reviewers over multiple rounds of reviewing. Some papers may be *desk rejected* — rejected before they enter this detailed peer reviewing — by the OPCs/APCs if they determine that the submission is clearly out of scope for the VIS conferences, is written using poor language that precludes effective communication, does not follow the formatting guidelines, or is otherwise not appropriate.
+IEEE VIS papers undergo a rigorous review process involving at least three reviewers over multiple rounds of reviewing. Some papers may be *desk rejected* — rejected before they enter this detailed peer reviewing — by the OPCs/APCs if they determine that the submission is clearly out of scope for the VIS conferences, is written using poor language that precludes effective communication, does not follow the formatting guidelines, or is otherwise not appropriate.
 
 Decisions after the first round of reviews are usually *conditional acceptances* or *rejections*. All conditionally accepted papers come with written requirements for final acceptance. Effectively addressing these requirements in a second round version of the paper is essential and the responsibility of the authors. Reviewers may sometimes communicate directly with authors to address minor points in the revised paper, effectively allowing for additional reviewing rounds. However, such additional communication is at the discretion of reviewers and not a requirement. If the revised version of a paper fails to address feedback to the satisfaction of the reviewers, the paper will ultimately be rejected after the second reviewing round.  
 
@@ -93,6 +93,8 @@ Decisions after the first round of reviews are usually *conditional acceptances*
 Paper length may be up to a maximum of nine (9) pages with additional two (2) pages allowed only for references. Authors can make use of more than two pages for references if the total is still within the 11 (9+2) page limit. Please ensure that your submission contains no content except references on the (optional) 10th and 11th pages.  **The final two pages can also include links to the Supplemental Material, Figure Credits, and Acknowledgements sections, in addition to references. Note that the Supplemental Material section in the paper should only include pointers to the material and explanation of what is included in that material, not the material itself; similarly, Figure Credits should only include credits, not actual figure material (images or captions).** Manuscripts that are submitted with non-reference content such as other text, figures, or tables beyond 9 pages may be desk rejected. If authors would like to make use of more than two pages for references (in addition to at most 9 pages of content), resulting in more than 11 pages in total, special justifications must be provided with the submission and an approval is needed by TVCG (to be acquired by the program committee) that is not guaranteed up-front.   
 
 Papers may be shorter than 9 pages but still present a significant contribution. Using effective and informative graphics can be a good use of the available space. A paper does not have to include two full pages of references, but the generous allocation of these pages is meant to signify the importance that IEEE VIS attaches to authors fully anchoring their work in both its full academic context and the state of the art. 
+
+The size limit for the PDF paper is 300 MB.
 
 ## Supplemental Material
 
