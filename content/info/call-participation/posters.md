@@ -36,7 +36,9 @@ Posters are non-archival and the 2-page poster summaries will not be archived as
 
 ### SUBMISSION INSTRUCTIONS
 
-All posters will be submitted via PCS. Details forthcoming. 
+All posters will be submitted via [Precision Conference (PCS)](https://new.precisionconference.com/). 
+
+After logging into PCS, navigate to the "Submissions" view and start your submission by selecting "VGTC > VIS 2024 > VIS 2024 Posters".
 
 ### Plagiarism
 All submissions must be either: 1) original work that has not been presented previously at any workshop, symposium, or conference and not published previously in any archived conference proceeding, magazine, or journal or 2) a summary that highlights work presented or published by the authors in a related venue with a clear statement of attribution to the original work.
