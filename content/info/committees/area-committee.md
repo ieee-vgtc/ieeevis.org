@@ -18,7 +18,7 @@ The Area Curation Committee produces an executive summary of analysis of the are
 | David Laidlaw | *Brown University* |
 | Alex Lex (co-chair) | *University of Utah* |
 | Torsten M&ouml;ller | *University of Vienna* |
-| Mike Papka | *Argonne National Laboratory* |
+| Michael E. Papka | *Argonne National Laboratory* and *University of Illinois Chicago*|
 | Yingcai Wu | *Zhejiang University* |
 | Danielle Szafir | *University of North Carolina at Chapel Hill* |
 | Helwig Hauser | *University of Bergen* |
