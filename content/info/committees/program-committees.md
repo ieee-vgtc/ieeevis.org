@@ -152,7 +152,7 @@ sidetoc: true
 | Eugene Zhang| *Oregon State University* |<br>
 | Yue Zhang| *Oregon State University* |<br>
 | Jian Zhao| *University of Waterloo* |<br>
-| Chen Zhu-Tian| *University of Minnesota * |<br>
+| Chen Zhu-Tian| *University of Minnesota* |<br>
 
 
 Contact: [opc@ieeevis.org](mailto:opc@ieeevis.org)
