@@ -37,6 +37,7 @@ sidetoc: true
 | Haeyong Chung| *University of Alabama, Huntsville* |<br>
 | Maxime Cordeil| *Monash University* |<br>
 | Anamaria Crisan| *Tableau Research* |<br>
+| Raimund Dachselt| *TU Dresden* |<br>
 | Aritra Dasgupta| *New Jersey Institute of Technology (NJIT)* |<br>
 | Steven Drucker| *Microsoft Research* |<br>
 | Cody Dunne| *Northeastern University* |<br>
@@ -152,7 +153,7 @@ sidetoc: true
 | Eugene Zhang| *Oregon State University* |<br>
 | Yue Zhang| *Oregon State University* |<br>
 | Jian Zhao| *University of Waterloo* |<br>
-| Chen Zhu-Tian| *University of Minnesota * |<br>
+| Chen Zhu-Tian| *University of Minnesota* |<br>
 
 
 Contact: [opc@ieeevis.org](mailto:opc@ieeevis.org)
