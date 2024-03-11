@@ -37,6 +37,7 @@ sidetoc: true
 | Haeyong Chung| *University of Alabama, Huntsville* |<br>
 | Maxime Cordeil| *Monash University* |<br>
 | Anamaria Crisan| *Tableau Research* |<br>
+| Raimund Dachselt| *TU Dresden* |<br>
 | Aritra Dasgupta| *New Jersey Institute of Technology (NJIT)* |<br>
 | Steven Drucker| *Microsoft Research* |<br>
 | Cody Dunne| *Northeastern University* |<br>
