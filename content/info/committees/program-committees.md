@@ -75,6 +75,7 @@ sidetoc: true
 | Sungahn Ko| *Ulsan National Institute of Science & Technology* |<br>
 | Jorn Kohlhammer| *Fraunhofer IGD* |<br>
 | Barbora Kozlikova| *Masaryk University* |<br>
+| Michael Krone| *University of Tübingen* |<br>
 | Robert Krueger| *Harvard University* |<br>
 | Jens Krüger| *University of Duisburg-Essen* |<br>
 | Kostiantyn Kucher| *Linköping University* |<br>
