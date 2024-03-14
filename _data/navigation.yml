@@ -117,16 +117,16 @@ menu:
                     is_new: false
                   - text: "Posters"
                     url: "/year/2024/info/call-participation/posters"
-                    is_new: true
+                    is_new: false
                   - text: "Tutorials"
                     url: "/year/2024/info/call-participation/tutorials"
-                    is_new: true
+                    is_new: false
                   - text: "Workshops"
                     url: "/year/2024/info/call-participation/workshops"
-                    is_new: true
+                    is_new: false
                   - text: "Panels"
                     url: "/year/2024/info/call-participation/panels"
-                    is_new: true
+                    is_new: false
                   # - text: "Doctoral Colloquium"
                   #   url: "/year/2024/info/call-participation/doctoral-colloquium"
                   # - text: "Application Spotlights"
@@ -139,7 +139,7 @@ menu:
                      url: "/year/2024/info/call-participation/paper-submission-guidelines"
                    - text: "Partnerships"
                      url: "/year/2024/info/call-participation/partnerships"
-                     is_new: true
+                     is_new: false
                    - text: "Review Instructions"
                      url: "/year/2024/info/call-participation/review-instructions"
                    - text: "Submission Keywords"
@@ -490,6 +490,7 @@ menu:
                     url: "/year/2024/info/committees/conference-committee"
                   - text: "Program Committees"
                     url: "/year/2024/info/committees/program-committees"
+                    is_new: true
                   - text: "VIS Steering Committee"
                     url: "/year/2024/info/committees/steering-committees"
                   - text: "VIS Executive Committee"
