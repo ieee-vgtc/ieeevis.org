@@ -35,11 +35,11 @@
    image_size: 320
    supporters:
        - name: "Adobe"
-       image: /assets/supporters/Adobe-logo.jpg
-       url: "https://www.adobe.com/"
+         image: /assets/supporters/Adobe-logo.jpg
+         url: "https://www.adobe.com/"
        - name: "Apple"
-       image: /assets/supporters/apple.png
-       url: "https://www.apple.com"
+         image: /assets/supporters/apple.png
+         url: "https://www.apple.com"
  #     - name: "KAUST"
  #       image: /assets/supporters/vcc_kaust.png
  #       url: "http://vcc.kaust.edu.sa/"
