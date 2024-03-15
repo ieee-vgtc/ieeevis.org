@@ -70,7 +70,7 @@
  - category: Bronze
    image_size: 200
    supporters:
-     - name: "Apple"
+    - name: "Apple"
       image: /assets/supporters/apple.png
       url: "https://www.apple.com"
 #     - name: "Unviversity of Oklaoma"
