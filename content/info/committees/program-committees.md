@@ -43,6 +43,7 @@ sidetoc: true
 | Cody Dunne| *Northeastern University* |<br>
 | Soumya Dutta| *Indian Institute of Technology Kanpur* |<br>
 | David Ebert| *University of Oklahoma* |<br>
+| Mennatallah El-Assady| *ETH Zurich* |<br>
 | Alex Endert| *Georgia Institute of Technology* |<br>
 | Jean-Daniel Fekete| *Inria / Université Paris-Saclay* |<br>
 | Angus Forbes| *Purdue University* |<br>
