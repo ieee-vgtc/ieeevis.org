@@ -115,7 +115,6 @@ sidetoc: true
 | Gerik Scheuermann| *Universität Leipzig* |<br>
 | Dieter Schmalstieg| *University of Stuttgart* |<br>
 | Thomas Schultz| *University of Bonn* |<br>
-| Hans-Joerg Schulz| *Aarhus University* |<br>
 | Michael Sedlmair| *University of Stuttgart* |<br>
 | Vidya Setlur| *Tableau* |<br>
 | Claudio Silva| *New York University* |<br>
