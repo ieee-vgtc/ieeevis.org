@@ -151,6 +151,7 @@ sidetoc: true
 | Fumeng Yang| *Northwestern University* |<br>
 | Yalong Yang| *Georgia Tech* |<br>
 | Hongfeng Yu| *University of Nebraska–Lincoln* |<br>
+| Xiaoru Yuan| *Peking University* |<br>
 | Eugene Zhang| *Oregon State University* |<br>
 | Yue Zhang| *Oregon State University* |<br>
 | Jian Zhao| *University of Waterloo* |<br>
