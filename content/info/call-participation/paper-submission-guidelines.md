@@ -98,7 +98,7 @@ The size limit for the PDF paper is 300 MB.
 
 ## Supplemental Material
 
-We encourage the use of digital video to enhance a submission, particularly if part or all of the work addresses interactive techniques. Submission of code, data, evaluation protocols or other supplemental material to increase the scrutiny of the work is encouraged. Authors are urged to make available salient parameter settings of pertinent algorithms and ideally obtain results using open source data. If specific datasets are employed, we ask that a version of these be made available where possible. Information or pointers to information that can be changed after the submission deadline *should not* be used as supplemental material. 
+We encourage the use of digital video to enhance a submission, particularly if part or all of the work addresses interactive techniques. Submission of code, data, evaluation protocols or other supplemental material to increase the scrutiny of the work is encouraged. Authors are urged to make available salient parameter settings of pertinent algorithms and ideally obtain results using open source data. If specific datasets are employed, we ask that a version of these be made available where possible. Authors *should not* alter any supplemental materials, even externally linked supplemental material, after the submission deadline.
 
 While most reviewers will take supplemental material into account when conducting their reviews, the authors should ensure that their submission will stand on its own even without this extra material.
 
