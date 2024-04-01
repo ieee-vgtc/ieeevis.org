@@ -5,6 +5,12 @@ active_nav: "Attend"
 permalink: /info/registration/conference-registration
 contact: finance@ieeevis.org
 ---
+
+### VIS 2024 Registration will open Summer 2024
+
+[Sign up to our mailing list](https://ieeevis.us20.list-manage.com/subscribe?u=874d4e627b4758f4438963e98&id=6c036e3c40) to be notified when registration opens and learn about other conference activites and announcements!
+
+<!-- Everything below this line is 2023 content. Dates, rates, and links will change.
 ## VIS 2023: IN-PERSON EVENT REGISTRATION
 
 The 2023 IEEE Visualization and Visual Analytics Conference is organized as an in-person event. VIS 2023 will be held at the Melbourne Convention and Exhibition Centre, in the heart of the City of Melbourne, from October 22 to 27.
@@ -196,5 +202,5 @@ No. There are no content or author fees related to papers published in IEEE Xplo
 </ul>
 
 If you have additional clarification questions, please contact <a href="mailto:registration@ieeevis.org"> registration@ieeevis.org</a>
-
+-->
 
