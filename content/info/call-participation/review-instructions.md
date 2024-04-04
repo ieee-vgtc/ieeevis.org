@@ -17,8 +17,8 @@ This page provides detailed instructions for both PC reviewers and external revi
 - [PC Reviewing Instructions](#pc-reviewing-instructions)
   - [Affiliations/Keywords Update, by March 15](#keywords-update)
   - [Bidding, March 22 thru March 31](#bidding)
-  - [Assigning External Reviewers, April 8 thru April 14](#assigning-external-reviewers)
-  - [First Round Reviewing, April 8 thru May 8](#first-round-reviewing)
+  - [Assigning External Reviewers, April 5 thru April 11](#assigning-external-reviewers)
+  - [First Round Reviewing, April 5 thru May 8](#first-round-reviewing)
   - [Discussion, May 9 thru May 15](#discussion)
   - [First Round Decisions, May 16 thru June 6](#first-round-decisions)
   - [Second Round Reviewing, July 2 thru July 14](#second-round-reviewing)
@@ -101,7 +101,7 @@ One outcome of the unified conference is that the number of submissions has dras
 Another way to find papers that match your expertise and interest is to use (1) the search box (which searches in all the fields) and (2) the option to see papers by area or keyword. You can find additional information about bidding strategies on the [IEEE VIS blog](/year/2024/blog/keywords-for-pc-members).
 
 ## Assigning External Reviewers
-**April 8 thru April 14**
+**April 5 thru April 11**
 
 **New for 2024:** Secondary reviewers invite ONE external reviewer. (Note that primary reviewers invites NO reviewers.) This change reduces the overall number of reviewers per paper from 4 to 3. It was introduced to reduce the reviewer fatigue in our community. However, because of the reliance on a single external reviewer, the secondary reviewer should take particular care of the following:
 * Ensure that there is no conflict of interest. This check is particularly important for single-blind submissions since the external reviewer will not be able to verify this themself. Although PCS itself has automatic conflict of interest flagging, you might want to double check explicitly because this data is not guaranteed to be reliable. For example, you may want to check [DBLP](https://dblp.org/) for recent coauthorship between authors and your preferred reviewer as a preliminary step.
@@ -113,12 +113,12 @@ Consider the mix of expertise and experience across all reviewers, including var
 
 PCS has an option to suggest reviewers according to a match score. This list of suggested reviewers and their interests may be an aid to jog your memory, but note that it must be used with caution. Do not blindly rely on these suggestions without checking carefully that the suggested reviewers are indeed a good fit, since expertise is self-reported and has not been vetted in any way. Moreover, the Volunteered Reviews number in PCS may not be up to date, as many people in the PCS database may not have updated their willingness numbers but may indeed be willing to accept requests; it is reasonable to ignore the automatic warning to secure their permission in advance before assigning, and simply use PCS itself to make the request. Furthermore, please do not hesitate to add new, qualified reviewers that are not already in the PCS database using the "register new person" mechanism. We are always looking for the top experts in a specific topic, and extending the database will benefit others as well.
 
-**Batch release of initial external requests.** The first round of invitations to external reviewers will be released in a single batch on April 14, to encourage externals to make immediate decisions for which requests to accept. After that, review requests will be send out immediately. PC members should prepare a list of multiple suitable externals for each paper as backup possibilities, in addition to your initial choice, so that you can send another request immediately if your initial request(s) are declined. PC members should actively check that invited external reviewers accept the invitation. If they decline or do not respond in a timely manner (i.e., within a few days of the request being sent), please send a request to the next person on your list as soon as possible.  
+**Batch release of initial external requests.** The first round of invitations to external reviewers will be released in a single batch on April 11, to encourage externals to make immediate decisions for which requests to accept. After that, review requests will be send out immediately. PC members should prepare a list of multiple suitable externals for each paper as backup possibilities, in addition to your initial choice, so that you can send another request immediately if your initial request(s) are declined. PC members should actively check that invited external reviewers accept the invitation. If they decline or do not respond in a timely manner (i.e., within a few days of the request being sent), please send a request to the next person on your list as soon as possible.  
 
 **Do not ask other PC, APC, or OPC members to be external reviewers.** The full Program Committee listing can be found on the [conference website PC page]({{ '/info/committees/program-committees#full-papers-program-committee' | relative_url }}). (Note that they are also marked as "cmte" on the review assignment screen in PCS.) The Area Papers Chairs and Overall Papers Chairs are listed on the [conference website Organizers page]({{'info/committees/conference-committee' | relative_url }}). In addition, do not ask the EiC (Editor in Chief) or A-EiCs (Associate Editor in Chiefs) of IEEE TVCG to be external reviewers as they also oversee the review process and should remain neutral. For 2024, TVCG EiC is Han-Wei Shen, and visualization-related A-EiCs are Shixia Liu, Ross Maciejewski, and Daniel Weiskopf. 
 
 ## First Round Reviewing
-**April 14 thru May 8**
+**April 5 thru May 8**
 
 During this phase, both primaries and secondaries:
 * Write a regular review of their assigned papers.
