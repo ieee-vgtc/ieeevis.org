@@ -38,11 +38,11 @@ menu:
           #  heading_url: "https://virtual.ieeevis.org/"
           #  description: "Join the conference online on our virtual site!"
             columns:
-            - heading: "Attend"
-             links:
-                  - text: "Registration"
-                    url: "/year/2024/info/registration/conference-registration"
-                    is_new: false
+            # - heading: "Attend"
+            #  links:
+            #       - text: "Registration"
+            #         url: "/year/2024/info/registration/conference-registration"
+            #         is_new: false
             #     - text: "Registration"
             #       url: "/year/2024/info/registration/conference-registration"
             #       is_new: true
