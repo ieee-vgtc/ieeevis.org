@@ -33,7 +33,6 @@ sidetoc: true
 | Changjian Chen| *AI team, Kuaishou* |<br>
 | Siming Chen| *Fudan University* |<br>
 | Yi-Jen Chiang| *New York University* |<br>
-| Isaac Cho| *Utah State University* |<br>
 | Haeyong Chung| *University of Alabama, Huntsville* |<br>
 | Maxime Cordeil| *Monash University* |<br>
 | Anamaria Crisan| *Tableau Research* |<br>
@@ -50,7 +49,6 @@ sidetoc: true
 | Steffen Frey| *University of Groningen* |<br>
 | Siwei Fu| *Zhejiang Lab* |<br>
 | Tim Gerrits| *RWTH Aachen University* |<br>
-| Christina Gillmann| *Leipzig University* |<br>
 | Enrico Gobbetti| *Center for Advanced Studies, Research, and Development in Sardinia* |<br>
 | Carsten Görg| *University of Colorado* |<br>
 | David Gotz| *University of North Carolina, Chapel Hill* |<br>
@@ -151,7 +149,6 @@ sidetoc: true
 | Fumeng Yang| *Northwestern University* |<br>
 | Yalong Yang| *Georgia Tech* |<br>
 | Hongfeng Yu| *University of Nebraska–Lincoln* |<br>
-| Xiaoru Yuan| *Peking University* |<br>
 | Eugene Zhang| *Oregon State University* |<br>
 | Yue Zhang| *Oregon State University* |<br>
 | Jian Zhao| *University of Waterloo* |<br>
