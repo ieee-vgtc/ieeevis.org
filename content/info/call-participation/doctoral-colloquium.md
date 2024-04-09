@@ -9,7 +9,7 @@ contact: doctoral_coll@ieeevis.org
 
 ## General Information
 
-We solicit submissions to the doctoral colloquium (DC) for IEEE VIS 2023. The DC is a single-day, invitation-only event taking place the day before IEEE VIS on Saturday, Oct. 21, 2023. Participating Ph.D. students present their proposed dissertation work and receive feedback from leading senior visualization researchers. We invite contributions from student communities involved in all areas of visualization.
+We solicit submissions to the doctoral colloquium (DC) for IEEE VIS 2024. The DC is a single-day, invitation-only event taking place the day before IEEE VIS on Saturday, Oct. 12, 2024. Participating Ph.D. students present their proposed dissertation work and receive feedback from leading senior visualization researchers. We invite contributions from student communities involved in all areas of visualization.
 
 The colloquium will allow students to discuss their research directions in a supportive atmosphere with a panel of distinguished leaders and with their peers. Students can expect helpful feedback and fresh perspectives on their research topics and possible career paths and will have the opportunity to interact closely with expert researchers in their field. The colloquium will support community-building by connecting early-career and established researchers in a welcoming and mentorship-forward environment.
 
@@ -28,9 +28,9 @@ We plan to have the DC as an in-person first event following the rest of the con
 We may be able to fund conference registration for **all** participating students. We may additionally be able to partially fund lodging and possibly some travel for accepted DC student participants who are US citizens or are currently studying at US-based Universities.
 
 ## Submissions
-The deadline for DC submissions is ~~May 12, 2023~~ **EXTENDED to May 19, 2023** at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth)**.
+The deadline for DC submissions is May 17, 2024 at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth)**.
 
-Notification: June 30, 2023
+Notification: June 28, 2024
 
 Applicants to the Doctoral Colloquium should submit:
 *	A four-page summary describing their PhD research, including 
@@ -47,9 +47,9 @@ Formatting guidelines and LaTeX/Word templates can be found [here](https://tc.co
 Student submissions will be reviewed by the DC Chairs and selections will be made on the basis of their contribution to the colloquium goals, strength of research direction, and the advisor’s assessment. Accepted submissions will be printed for colloquium participants, but will otherwise remain confidential.
 
 ## Doctoral Colloquium Chairs
-Karen Schloss, *University of Wisconsin-Madison*  
-Kate Isaacs, *University of Utah*  
-Christophe Hurter, *Civil Aviation University (ENAC)*  
+Christophe Hurter, *Ecole Nationale de l'Aviation Civile*  
+Emily Wall, *Emory University*  
+Yunhai Wang, *Renmin University of China*  
 
 
 Contact VIS DC co-chairs: [doctoral_coll@ieeevis.org](mailto:doctoral_coll@ieeevis.org)
