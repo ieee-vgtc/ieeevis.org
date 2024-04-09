@@ -12,9 +12,9 @@ sidetoc: true
 | **Name** | **Affiliation** |<br>
 | Alfie Abdul-Rahman| *King's College London* |<br>
 | Natalia Andrienko| *Fraunhofer IAIS/ City, University of London* |<br>
-| Alessio Arleo| *TU Wien* |<br>
+| Alessio Arleo| *Eindhoven Institute of Technology* |<br>
 | Benjamin Bach| *University of Edinburgh* |<br>
-| Cindy Xiong Bearfield| *University of Massachusetts Amherst* |<br>
+| Cindy Xiong Bearfield| *Georgia Tech* |<br>
 | Fabian Beck| *University of Bamberg* |<br>
 | Jürgen Bernard| *University of Zurich* |<br>
 | Saeed Boorboor| *Stony Brook University* |<br>
@@ -24,17 +24,17 @@ sidetoc: true
 | Katja Bühler| *VRVis Wien* |<br>
 | Roxana Bujack| *Los Alamos National Laboratory* |<br>
 | Paolo Buono| *University of Bari* |<br>
-| Michael Burch| *Fachhochschule Graubunden* |<br>
+| Michael Burch| *University of Applied Sciences Graubunden* |<br>
 | Jan Byška| *Masaryk University* |<br>
 | Nan Cao| *Tongji University* |<br>
 | Hamish Carr| *University of Leeds* |<br>
-| Angelos Chatzimparmpas| *Northwestern University* |<br>
+| Angelos Chatzimparmpas| *Utrecht University* |<br>
 | Duen Horng Chau| *Georgia Institute of Technology* |<br>
-| Changjian Chen| *AI team, Kuaishou* |<br>
+| Changjian Chen| *Hunan University* |<br>
 | Siming Chen| *Fudan University* |<br>
 | Yi-Jen Chiang| *New York University* |<br>
 | Haeyong Chung| *University of Alabama, Huntsville* |<br>
-| Maxime Cordeil| *Monash University* |<br>
+| Maxime Cordeil| *The University of Queensland* |<br>
 | Anamaria Crisan| *Tableau Research* |<br>
 | Raimund Dachselt| *TU Dresden* |<br>
 | Aritra Dasgupta| *New Jersey Institute of Technology (NJIT)* |<br>
@@ -50,17 +50,17 @@ sidetoc: true
 | Siwei Fu| *Zhejiang Lab* |<br>
 | Tim Gerrits| *RWTH Aachen University* |<br>
 | Enrico Gobbetti| *Center for Advanced Studies, Research, and Development in Sardinia* |<br>
-| Carsten Görg| *University of Colorado* |<br>
+| Carsten Görg| *Colorado School of Public Health* |<br>
 | David Gotz| *University of North Carolina, Chapel Hill* |<br>
-| Liang Gou| *Bosch Research* |<br>
+| Liang Gou| *Splunk Inc.* |<br>
 | Tobias Günther| *Friedrich-Alexander University of Erlangen-Nuremberg* |<br>
 | Markus Hadwiger| *King Abdullah University of Science and Technology* |<br>
-| Kyle Hall| *Temple University* |<br>
+| Kyle Hall| *TD Bank* |<br>
 | Jun Han| *The Chinese University of Hong Kong, Shenzhen* |<br>
 | Florian Heimerl| *University of Wisconsin* |<br>
 | Fred Hohman| *Apple* |<br>
 | Ingrid Hotz| *Linköping University* |<br>
-| Christophe Hurter| *ENAC - Ecole Nationale de l'Aviation Civile* |<br>
+| Christophe Hurter| *Université de Toulouse* |<br>
 | Kate Isaacs| *University of Utah* |<br>
 | Federico Iuricich| *Clemson University* |<br>
 | Yun Jang| *Sejong University* |<br>
@@ -75,16 +75,16 @@ sidetoc: true
 | Jorn Kohlhammer| *Fraunhofer IGD* |<br>
 | Barbora Kozlikova| *Masaryk University* |<br>
 | Michael Krone| *University of Tübingen* |<br>
-| Robert Krueger| *Harvard University* |<br>
+| Robert Krueger| *New York University* |<br>
 | Jens Krüger| *University of Duisburg-Essen* |<br>
 | Kostiantyn Kucher| *Linköping University* |<br>
 | Kuno Kurzhals| *University of Stuttgart* |<br>
 | Bum Chul Kwon| *IBM Research* |<br>
 | Kai Lawonn| *University of Jena* |<br>
-| Bongshin Lee| *Microsoft Research* |<br>
+| Bongshin Lee| *Yonsei University* |<br>
 | Dirk Lehmann| *Ostfalia University of Applied Sciences* |<br>
 | Lars Linsen| *University of Münster* |<br>
-| Dongyu Liu| *MIT* |<br>
+| Dongyu Liu| *University of California at Davis* |<br>
 | Mengchen Liu| *Microsoft* |<br>
 | Zhicheng Liu| *University of Maryland, College Park* |<br>
 | Kwan-Liu Ma| *UC Davis* |<br>
@@ -92,20 +92,20 @@ sidetoc: true
 | Narges Mahyar| *University of Massachusetts Amherst* |<br>
 | G. Elisabeta Marai| *Univeristy of Illinois Chicago* |<br>
 | Talha Bin Masood| *Linköping University* |<br>
-| Andrew McNutt| *University of Utah* |<br>
+| Andrew McNutt| *University of Washington* |<br>
 | Silvia Miksch| *Vienna University of Technology (TU Wien)* |<br>
 | Fabio Miranda| *University of Illinois, Chicago* |<br>
 | Kenneth Moreland| *Oak Ridge National Laboratory* |<br>
 | Luis Gustavo Nonato| *Universidade de São Paulo* |<br>
 | Lora Oehlberg| *University of Calgary* |<br>
 | Steffen Oeltze-Jafra| *Hannover Medical School* |<br>
-| Lace Padilla| *UC Merced* |<br>
+| Lace Padilla| *Northeastern University* |<br>
 | Renato Pajarola| *University of Zurich* |<br>
 | Alex Pang| *University of California, Santa Cruz* |<br>
 | Michael Papka| *Argonne National Laboratory* |<br>
 | Valerio Pascucci| *University of Utah* |<br>
 | Vanessa Peña-Araya| *Inria / Université Paris-Saclay* |<br>
-| Ghulam Jilani Quadri| *University of North Carolina-Chapel Hill* |<br>
+| Ghulam Jilani Quadri| *University of Oklahoma* |<br>
 | Renata Georgia Raidou| *TU Wien* |<br>
 | Timo Ropinski| *Ulm University* |<br>
 | Paul Rosenthal| *University of Rostock* |<br>
@@ -124,7 +124,7 @@ sidetoc: true
 | Brian Summa| *Tulane University* |<br>
 | Danielle Albers Szafir| *University of North Carolina at Chapel Hill* |<br>
 | Tan Tang| *Zhejiang University* |<br>
-| John Thompson| *Microsoft Research* |<br>
+| John Thompson| *Autodesk Research* |<br>
 | Christian Tominski| *Universität Rostock* |<br>
 | Xavier Tricoche| *Purdue University* |<br>
 | Theophanis Tsandilas| *Inria / Université Paris-Saclay* |<br>
@@ -132,7 +132,7 @@ sidetoc: true
 | Stef van den Elzen| *Eindhoven University of Technology* |<br>
 | Romain Vuillemot| *Ecole Centrale de Lyon* |<br>
 | Bei Wang| *University of Utah* |<br>
-| Qianwen Wang| *Harvard Medical School* |<br>
+| Qianwen Wang| *University of Minnesota* |<br>
 | Xiting Wang| *Microsoft Research Asia* |<br>
 | Yong Wang| *Singapore Management University* |<br>
 | Yun Wang| *Microsoft Research Asia* |<br>
