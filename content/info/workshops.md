@@ -37,14 +37,8 @@ The following workshops went through our [submission/review process](https://iee
 * [EnergyVis 2024: 4th Workshop on Energy Data Visualization](#EnergyVis)
 * [Visualization for Climate Action and Sustainability](#clivis)
 * [VISions of the Future: Workshop on Sustainable Practices within Visualization and Physicalisation](#VISions)
-
-* 
+* [First-Person Visualizations for Outdoor Physical Activities: Challenges and Opportunities](#fpVis)
 * [EduVis: Workshop on Visualization Education, Literacy, and Activities](#EduVis)
-* [5th Workshop on Urban Data Visualization (CityVis)](#CityVis)
-* [MERCADO: Multimodal Experiences for Remote Communication Around Data Online](#multiViz)
-* [VisxVision: Workshop on Novel Directions in Vision Science and Visualization Research](#VisxVision)
-* [(Vis + Prov) x Domain: Workshop on Visualization and Provenance Across Domains](#VisProv)
-
 
 
 
@@ -213,18 +207,31 @@ Contact: bbach@inf.ed.ac.uk
 This first workshop on visualization for climate action and sustainability aims to explore and consolidate the role of data visualization in accelerating action towards addressing the current environmental crisis. Given the urgency and impact of the environmental crisis, we ask how our skills, research methods, and innovations can help by empowering people and organizations. We believe visualization holds an enormous power to aid understanding, decision making, communication, discussion, participation, education, and exploration of complex topics around climate action and sustainability. Hence, this workshop invites submissions and discussion around these topics with the goal of establishing a visible and actionable link between these fields and their respective stakeholders. The workshop solicits work-in-progress and research papers as well as pictorials and interactive demos from the whole range of visualization research (dashboards, interactive spaces, scientific visualization, storytelling, visual analytics, explainability etc.), within the context of environmentalism (climate science, sustainability, energy, circular economy, biodiversity, etc.) and across a range of scenarios from public awareness and understanding, visual analysis, expert decision making, science communication, personal decision making etc. Af- ter presentations of submissions, the workshop will feature dedicated discussion groups around data driven interactive experiences for the public, and tools for personal and professional decision making.
 
 
-## <a name="clivis"></a> [VISions of the Future: Workshop on Sustainable Practices within Visualization and Physicalisation]()
+## <a name="VISions"></a> [VISions of the Future: Workshop on Sustainable Practices within Visualization and Physicalisation]()
 
-Benjamin Bach, *University of Edinburgh*<br>
-Fanny Chevalier, *University of Toronto*<br>
-Helen-Nicole Kostis, *USRA/GESTAR NASA/GSFC, United States*<br>
-Mark SubbaRao, *NASA Goddard Space Flight Center*<br>
-Yvonne Jansen, *Univ. Bordeaux*<br>
-Robert Soden, *University of Toronto*<br>
+Georgia Panagiotidou, *King's College London*<br>
+Andrew M McNutt, *University of Washington*<br>
+Sarah Hayes, *Munster Technological University*<br>
+Luiz Morais, *Universidade Federal de Pernambuco*<br>
+Derya Akbaba, *Linköping University*<br>
+Tatiana Losev, *Simon Fraser University*<br>
 
-Contact: bbach@inf.ed.ac.uk
+Contact: georgia.panagiotidou@kcl.ac.uk
 
-This first workshop on visualization for climate action and sustainability aims to explore and consolidate the role of data visualization in accelerating action towards addressing the current environmental crisis. Given the urgency and impact of the environmental crisis, we ask how our skills, research methods, and innovations can help by empowering people and organizations. We believe visualization holds an enormous power to aid understanding, decision making, communication, discussion, participation, education, and exploration of complex topics around climate action and sustainability. Hence, this workshop invites submissions and discussion around these topics with the goal of establishing a visible and actionable link between these fields and their respective stakeholders. The workshop solicits work-in-progress and research papers as well as pictorials and interactive demos from the whole range of visualization research (dashboards, interactive spaces, scientific visualization, storytelling, visual analytics, explainability etc.), within the context of environmentalism (climate science, sustainability, energy, circular economy, biodiversity, etc.) and across a range of scenarios from public awareness and understanding, visual analysis, expert decision making, science communication, personal decision making etc. Af- ter presentations of submissions, the workshop will feature dedicated discussion groups around data driven interactive experiences for the public, and tools for personal and professional decision making.
+Inspired by HCI, environmental sciences, and intersectional feminism, we see the growing need to discuss sustainability for visualization. With this workshop, we seek to establish a forum for considerations about the sustainability of visualization and physicalization practices. We view sustainability in broad terms - referring to the long-term viability of and effects on our environment, our infrastructure, our research practices, and our community. Rather than being disparate threads, we see these perspectives as intertwined with long-term, big-picture thinking related to a decolonial agenda that is often missing in day-to-day research practices. This half-day workshop will offer a venue for work on sustainability in VIS broadly, which - among other topics - might include reflections on internal practices, discussions of the potential of visualization as a discipline to support sustainability efforts, or opportunities to learn from sustainability experts outside the VIS community. Through this work, we seek to foster a community of interest, to characterize what sustainability goals for our field might look like, and to build a vision for how VIS might endure for the coming decades.
+
+## <a name="fpVis"></a> [First-Person Visualizations for Outdoor Physical Activities: Challenges and Opportunities]()
+
+Charles Perin, *University of Victoria*<br>
+Tica Lin, *Harvard University*<br>
+Lijie Yao, *Université Paris-Saclay*<br>
+Yalong Yang, *Georgia Institute of Technology*<br>
+Maxime Cordeil, *The University of Queensland*<br>
+Wesley Willett, *University of Calgary*<br>
+
+Contact: cperin@uvic.ca
+
+This half-day workshop will gather researchers and practitioners interested in first-person visualizations for outdoor physical activities. Given the unexplored nature of the topic, the goal of this first workshop is to collect speculative designs informed by experience and expertise. Participants will mainly submit fictional case studies in the forms of illustrated submissions along with a statement that demonstrates their knowledge/expertise of the case study. Our goal is to build on these speculative designs to i) explore the space of first-person visualizations for outdoor physical activities and ii) derive a research agenda for the visualization community. We envision this output to take the form of a publication of which workshop participants will be invited to become co-authors.
 
 
 
