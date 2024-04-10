@@ -98,7 +98,7 @@ permalink: /info/committees/conference-committee
 | **Publication Chairs** | |
 | Minsuk Kahng | *Google* |
 | Zhicheng Liu | *University of Maryland College Park* |
-| Cindy Xiong | "Georgia Tech* |
+| Cindy Xiong | *Georgia Tech* |
 |---
 | **Community, Meetups, & Election Chairs** | |
 | Ali Sarvghad | *University of Massachusstes Amherst* |
