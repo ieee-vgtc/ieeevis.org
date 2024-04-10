@@ -24,16 +24,21 @@ These workshops were pre-approved by the VIS Executive Committee. Please visit t
 * [VIS4DH: 8th Workshop on Visualization for the Digital Humanities](#vis4dh)
 * [VAHC: 14th Workshop on Visual Analytics in Healthcare](#vahc)
 
+{% endcomment %}
 
 ## Accepted Workshops
-The following workshops went through our [submission/review process](http://ieeevis.org/year/2022/info/call-participation/workshops). 
+The following workshops went through our [submission/review process](https://ieeevis.org/year/2024/info/call-participation/workshops). 
 
 * [NLVIZ Workshop: Exploring Research Opportunities for Natural Language, Text, and Data Visualization](#nlviz)
-* [Visualization for Social Good](#vsg)
-* [Visualization for Pandemic and Emergency Responses Workshop (Vis4PandEmRes)](#Vis4PandEmRes)
-* [alt.VIS 2023](#altVis)
-* [Sixth Workshop on Visualization for Communication (VisComm)](#VisComm)
-* [EnergyVis 2023: 3rd Workshop on Energy Data Visualization](#EnergyVis)
+* [Progressive Data Analysis and Visualization (PDAV) Workshop](#pdav).
+* [Uncertainty Visualization: Applications, Techniques, Software, and Decision Frameworks](#UncertaintyVis)
+* [Workshop on Data Storytelling in an Era of Generative AI](#storytellingAI)
+* [1st Workshop on Accessible Data Visualization](#accessibleVis)
+* [EnergyVis 2024: 4th Workshop on Energy Data Visualization](#EnergyVis)
+* [Visualization for Climate Action and Sustainability](#clivis)
+* [VISions of the Future: Workshop on Sustainable Practices within Visualization and Physicalisation](#VISions)
+
+* 
 * [EduVis: Workshop on Visualization Education, Literacy, and Activities](#EduVis)
 * [5th Workshop on Urban Data Visualization (CityVis)](#CityVis)
 * [MERCADO: Multimodal Experiences for Remote Communication Around Data Online](#multiViz)
@@ -41,7 +46,7 @@ The following workshops went through our [submission/review process](http://ieee
 * [(Vis + Prov) x Domain: Workshop on Visualization and Provenance Across Domains](#VisProv)
 
 
-{% endcomment %}
+
 
 <hr/>
 
@@ -107,6 +112,123 @@ participants to actively contribute to the workshop by submitting their works on
 biological and medical visualization challenges.
 
 
+## <a name="nlviz"></a> [NLVIZ Workshop: Exploring Research Opportunities for Natural Language, Text, and Data Visualization](https://www.nlvizworkshop2023.com/)
+
+Vidya Setlur, *Tableau Research, Palo Alto, California, United States*<br>
+Arjun Srinivasan, *Tableau Research, Seattle, Washington, United States*<br>
+
+Contact: vsetlur@tableau.com
+
+Natural language processing (NLP) has evolved as a promising field for visual analysis and communication. The applications of NLP for supporting various aspects of the visual analysis workflow include helping readers take away key information from charts or dashboards, supporting interaction modalities that help people naturally ``ask" questions of their data, generating data summaries and insight reports, and exploring ways to enrich the semantics of data, among others. With data-driven communication being more important than ever, how do we treat text and language as first-class citizens in helping people see and understand data? How do we couple language and charts to make the data more accessible to a variety of audiences with different needs, capabilities, and skills? As the field of NLP matures, computers now have an increased capability of interpreting language and engaging in conversations with people. But can NLP techniques and interactive visualizations work in concert to support an analytical conversation? As the platforms and channels for exploring data go beyond the desktop to chat interfaces, augmented and virtual reality environments, mobile, and large displays, how do we better understand user intent, modalities, and context to make these interactions more delightful and meaningful?
+
+Addressing these questions calls for research at the intersection of human-computer interaction, information visualization, and NLP, three fields with natural synergies but rather infrequent meetings. This workshop will assemble an interdisciplinary community that promotes collaboration across these fields, explore research opportunities and challenges, and continue to establish an agenda for NLP research specifically for data visualization.
+
+## <a name="pdav"></a> [Progressive Data Analysis and Visualization (PDAV) Workshop]()
+
+Alex Ulmer, *Fraunhofer IGD, Darmstadt, Germany*<br>
+Jaemin Jo, *Sungkyunkwan University, Suwon, Korea*<br>
+Michael Sedlmair, *VISUS, University of Stuttgart, Stuttgart, Germany*<br>
+Jean-Daniel Fekete, *LISN, Université Paris-Saclay, CNRS, Orsay, France*<br>
+
+Contact: alex.ulmer@igd.fraunhofer.de
+
+The increasing amount of data is a long-standing challenge for data analysis systems. Although building these interactive systems has been a central focus of the visualization community, when applied to large-scale data as now used in areas such as machine learning, most current visualization systems suffer from long, unmanaged computation delays between user interactions and system response, rendering them unscalable to interactive data analysis. The critical challenge we face here is to make a system’s latency manageable, ultimately ensuring it remains below the golden limits of human latency (0.1 s, 1 s, or 10 s depending on the context) regardless of the amount of input data. To tackle this issue, the idea of progressive data analysis (PDA) is becoming increasingly important and might eventually even lead to a novel paradigm for interactive data analysis at scale. In previous computation paradigms, results either become available to the user once it is fully completed (i.e., sequential computation) or the result is incrementally updated but without a bounded pace (i.e., online computation). In contrast, progressive data analysis aims to deliver results to the user with increasing accuracy at a controlled pace, usually specified as a time limit between the results. The nature of PDA inherently leads to the need for interdisciplinary collaboration, as every component in the data analysis pipeline, from data management to visualization, needs to be progressive to make the entire system time-bounded. Since its introduction, progressive data analysis has quickly gained attention from the data science community and has already spawned different research contributions. These contributions can be roughly categorized into two themes: 1) computational components for PDA, e.g., progressive algorithms and data structures, and 2) human and visualization aspects of PDA, e.g., Progressive Visual Analytics (PVA). Examples of such contributions include a Dagstuhl report, human/user perspective, cognitive biases, progressive dimensionality algorithms, such as progressive t-SNE, and proof-of-concepts systems. While these are good starting points, many critical questions remain unanswered; for example, with PDA, humans can immediately see intermediate results, but how long should they wait before considering such results as good enough to make a decision? How can we measure the quality and accuracy of intermediate results whenthe final answer is unknown? What needs to be visualized in PVA, and how can we visualize it in a stable, faithful, and timely manner? How should people interact with progressive components, and what kinds of cognitive characteristics should be considered? Finally, how do the specific characteristics of PDA systems influence the way we evaluate them? The workshop aims to raise the visibility of progress made in the field of progressive data analysis and visualization, introduce this emerging topic to the VIS community, and bring together researchers and practitioners working or interested in PDAV.
+
+
+## <a name="UncertaintyVis"></a> [Uncertainty Visualization: Applications, Techniques, Software, and Decision Frameworks]()
+
+Tushar M. Athawale, *Computer Science and Mathematics Division, Oak Ridge National Laboratory, United States*<br>
+Chris R. Johnson, *Scientific Computing and Imaging Institute, University of Utah, United States*<br>
+Kristi Potter, *National Renewable Energy Laboratory, United States*<br>
+Paul Rosen, *University of Utah, United States*<br>
+David Pugmire, *Computer Science and Mathematics Division, Oak Ridge National Laboratory, United States*<br>
+
+Contact: tushar.athawale@gmail.com
+
+Uncertainty visualization has become an increasingly important topic given the ubiquity of noise in data and computational processes. Although the research in uncertainty visualization has steadily progressed over the past few years, this critical branch of visualization is still in its infancy given many difficult challenges (e.g., computation, rendering, perception and decision-making) relevant to communication and understanding of uncertainty. One important step to address these challenges is to provide a venue that attracts a wide range of experts across many disciplines. A venue that allows experts in visualization, applications, applied math, perception, and cognition to publish and discuss effective ways to convey and understand uncertainty is an important step in advancing this critical area of research. The goal of the workshop is to bring together this multi-disciplinary group to enlighten the visualization community in the following four areas: (1) use cases in diverse application domains that can benefit from visualization of uncertainty (2) theory, techniques, and state-of-the-art software for uncertainty visualization (3) Methods/workflows that enable robust decisions under uncertainty (4) development of a future roadmap of uncertainty visualization research goals.
+
+
+## <a name="storytellingAI"></a> [Workshop on Data Storytelling in an Era of Generative AI]()
+
+Xingyu Lan, *Fudan University*<br>
+Leni Yang, *The Hong Kong University of Science and Technology*<br>
+Zezhong Wang, *Canada Simon Fraser University*<br>
+Yun Wang, *China Microsoft Research Asia*<br>
+Danqing Shi, *Finland Aalto University*<br>
+Sheelagh Carpendale, *Canada Simon Fraser University*<br>
+
+Contact: xingyulan96@gmail.com
+
+Storytelling is an ancient and precious human ability that has been rejuvenated in the digital age. Over the last decade, there has been a notable surge in the recognition and application of data storytelling, both in academia and industry. Recently, the rapid development of generative AI has brought new opportunities and challenges to this field, sparking numerous new questions. These questions may not necessarily be quickly transformed into papers, but we believe it is necessary to promptly discuss them to help the community better clarify important issues and research agendas for the future. We thus invite you to join our workshop (Gen4DS) to discuss questions such as: How can generative AI facilitate the creation of data stories? How might generative AI alter the workflow of data storytellers? What are the pitfalls and risks of incorporating AI in storytelling? We have designed both paper presentations and interactive activities (including hands-on creation, group discussion pods, and debates on controversial issues) for the workshop. We hope that participants will learn about the latest advances and pioneering work in data storytelling, engage in critical conversations with each other, and have an enjoyable, unforgettable, and meaningful experience at the event.
+
+
+
+## <a name="accessibleVis"></a> [1st Workshop on Accessible Data Visualization]()
+
+Naimul Hoque, *University of Maryland*<br>
+Pramod Chundury, *University of Maryland*<br>
+Frank Elavsky, *Carnegie Mellon University*<br>
+Lucas Nadolskis, * University of California*<br>
+Keke Wu, *University of North Carolina at Chapel Hill*<br>
+Laura South, *Northeastern University*<br>
+Brianna L Wimer, *University of Notre Dame*<br>
+Dominik Moritz, *Carnegie Mellon University*<br>
+Danielle Albers Szafir, *University of North Carolina-Chapel Hill*<br>
+Jonathan Lazar, *University of Maryland*<br>
+Niklas Elmqvist, *Aarhus University*<br>
+
+
+Contact: pchundur@umd.edu
+
+The ubiquity of data visualization across various domains—from data science and machine learning to business intelligence, medical science, and education—demonstrates its critical role in conveying complex information. However, it is now well-known that visualizations may create inequitable access to information for people with different disabilities (e.g., vision, motor, or cognitive disabilities). In response, the accessibility and visualization fields have sought to increase the accessibility of data visualizations for different populations. Examples of research in this area include interviews and observational studies with users with disabilities to understand accessibility issues with visualization, proposing theoretical frameworks, and designing technical solutions such as generating alt text, sonification, or physical artifacts. Despite these efforts, many visualization interfaces and tools remain inaccessible to users with various forms of disabilities. Building on the growing interest and open challenges at this intersection, the in-person Accessible Data Visualization (AccessViz) workshop aims to gather researchers, practitioners, and representatives from disability community at a common platform where we can formulate a community, share innovative discoveries, and envision the future of accessible data visualization research at IEEE VIS. The outcome of this workshop will inspire new researchers and lay down the path for promoting this line of research at IEEE VIS in the future.
+
+
+## <a name="EnergyVis"></a> [EnergyVis 2024: 4th Workshop on Energy Data Visualization](https://energyvis.org/)
+Sunday, October 22, 2023: 9:00 AM-12:00 PM AEDT (UTC+11)
+
+Kenny Gruchalla, *National Renewable Energy Lab*<br>
+Anjana Arunkumar, *Arizona State University*<br>
+Arnaud Prouzeau, * Université de Bordeaux*<br>
+Lyn Bartram, *Simon Fraser University*<br>
+Sarah Goodwin, *Monash University*<br>
+
+Contact: kenny.gruchalla@nrel.gov
+
+The energy sector is witnessing significant technological progress, primarily driven by the growth of renewable energy, distributed energy resources, and smart grid technologies. This rapid evolution is generating increasingly large, complex data that present substantial challenges for energy systems planning and operations. For example, previously, distribution feeders had only a handful of sensors and controllable devices; now, with these new technologies, thousands or even tens of thousands of such devices are possible. As a result, energy system models have grown exponentially in planning scenarios from just hundreds of components to millions. Moreover, the adoption of distributed solar generation and grid-aware devices such as smart thermostats and electric vehicles are expanding the breadth of stakeholders, including consumers, engineers, regulators, urban planners, and policymakers, who are trying to understand these energy systems. These new energy systems are generating vast amounts of complex data, which require visualization techniques capable of handling the sheer scale and multifaceted complexity of the information. Unfortunately, much of the visualization supporting these changes is outdated, with simple one-line diagrams and contour plots being over-extended by the data they are being applied to. More research is needed to develop new and innovative visualization methods that can handle the increasing complexity of energy systems and provide a diversity of stakeholders with the necessary insights to make informed decisions about the future of energy.
+
+The EnergyVis 2024 workshop aims to bring together scientists, researchers, and practitioners from the energy and visualization domains to critically assess and discuss energy data visualization in the context of the evolving energy sector.
+
+
+## <a name="clivis"></a> [Visualization for Climate Action and Sustainability]()
+
+Benjamin Bach, *University of Edinburgh*<br>
+Fanny Chevalier, *University of Toronto*<br>
+Helen-Nicole Kostis, *USRA/GESTAR NASA/GSFC, United States*<br>
+Mark SubbaRao, *NASA Goddard Space Flight Center*<br>
+Yvonne Jansen, *Univ. Bordeaux*<br>
+Robert Soden, *University of Toronto*<br>
+
+Contact: bbach@inf.ed.ac.uk
+
+This first workshop on visualization for climate action and sustainability aims to explore and consolidate the role of data visualization in accelerating action towards addressing the current environmental crisis. Given the urgency and impact of the environmental crisis, we ask how our skills, research methods, and innovations can help by empowering people and organizations. We believe visualization holds an enormous power to aid understanding, decision making, communication, discussion, participation, education, and exploration of complex topics around climate action and sustainability. Hence, this workshop invites submissions and discussion around these topics with the goal of establishing a visible and actionable link between these fields and their respective stakeholders. The workshop solicits work-in-progress and research papers as well as pictorials and interactive demos from the whole range of visualization research (dashboards, interactive spaces, scientific visualization, storytelling, visual analytics, explainability etc.), within the context of environmentalism (climate science, sustainability, energy, circular economy, biodiversity, etc.) and across a range of scenarios from public awareness and understanding, visual analysis, expert decision making, science communication, personal decision making etc. Af- ter presentations of submissions, the workshop will feature dedicated discussion groups around data driven interactive experiences for the public, and tools for personal and professional decision making.
+
+
+## <a name="clivis"></a> [VISions of the Future: Workshop on Sustainable Practices within Visualization and Physicalisation]()
+
+Benjamin Bach, *University of Edinburgh*<br>
+Fanny Chevalier, *University of Toronto*<br>
+Helen-Nicole Kostis, *USRA/GESTAR NASA/GSFC, United States*<br>
+Mark SubbaRao, *NASA Goddard Space Flight Center*<br>
+Yvonne Jansen, *Univ. Bordeaux*<br>
+Robert Soden, *University of Toronto*<br>
+
+Contact: bbach@inf.ed.ac.uk
+
+This first workshop on visualization for climate action and sustainability aims to explore and consolidate the role of data visualization in accelerating action towards addressing the current environmental crisis. Given the urgency and impact of the environmental crisis, we ask how our skills, research methods, and innovations can help by empowering people and organizations. We believe visualization holds an enormous power to aid understanding, decision making, communication, discussion, participation, education, and exploration of complex topics around climate action and sustainability. Hence, this workshop invites submissions and discussion around these topics with the goal of establishing a visible and actionable link between these fields and their respective stakeholders. The workshop solicits work-in-progress and research papers as well as pictorials and interactive demos from the whole range of visualization research (dashboards, interactive spaces, scientific visualization, storytelling, visual analytics, explainability etc.), within the context of environmentalism (climate science, sustainability, energy, circular economy, biodiversity, etc.) and across a range of scenarios from public awareness and understanding, visual analysis, expert decision making, science communication, personal decision making etc. Af- ter presentations of submissions, the workshop will feature dedicated discussion groups around data driven interactive experiences for the public, and tools for personal and professional decision making.
+
+
+
+
 
 {% comment %}
 
@@ -138,17 +260,7 @@ The Workshop on Visual Analytics in Healthcare is the premier research event exp
 
 This year, the special focus of VAHC is on the interactive visualization of health data for digital and personal health.
 
-## <a name="nlviz"></a> [NLVIZ Workshop: Exploring Research Opportunities for Natural Language, Text, and Data Visualization](https://www.nlvizworkshop2023.com/)
-Sunday, October 22, 2023: 2:00 PM-5:00 PM AEDT (UTC+11)
 
-Vidya Setlur, *Tableau Research, Palo Alto, California, United States*<br>
-Arjun Srinivasan, *Tableau Research, Seattle, Washington, United States*<br>
-
-Contact: vsetlur@tableau.com
-
-Natural language processing (NLP) has evolved as a promising field for visual analysis and communication. The applications of NLP for supporting various aspects of the visual analysis workflow include helping readers take away key information from charts or dashboards, supporting interaction modalities that help people naturally ``ask" questions of their data, generating data summaries and insight reports, and exploring ways to enrich the semantics of data, among others. With data-driven communication being more important than ever, how do we treat text and language as first-class citizens in helping people see and understand data? How do we couple language and charts to make the data more accessible to a variety of audiences with different needs, capabilities, and skills? As the field of NLP matures, computers now have an increased capability of interpreting language and engaging in conversations with people. But can NLP techniques and interactive visualizations work in concert to support an analytical conversation? As the platforms and channels for exploring data go beyond the desktop to chat interfaces, augmented and virtual reality environments, mobile, and large displays, how do we better understand user intent, modalities, and context to make these interactions more delightful and meaningful?
-
-Addressing these questions calls for research at the intersection of human-computer interaction, information visualization, and NLP, three fields with natural synergies but rather infrequent meetings. This workshop will assemble an interdisciplinary community that promotes collaboration across these fields, explore research opportunities and challenges, and continue to establish an agenda for NLP research specifically for data visualization.
 
 
 ## <a name="vsg"></a> [Visualization for Social Good](https://vis4good.github.io/)
@@ -204,17 +316,7 @@ Contact: viscomm_chairs@googlegroups.com
 The VisComm workshop brings together practitioners and researchers from several fields to address the questions raised by the rapidly growing communicative uses of visualization, from internal research and analysis to news graphics to interactive dashboards to standalone static representations in blogs and social media. These questions span audience, application, evaluation, understanding, and practice. To encourage participation from communities that do not typically attend IEEE VIS and write academic papers, we will accept short papers, briefs on works in progress, visual case studies, and recruit program committee members from those communities.
 
 
-## <a name="EnergyVis"></a> [EnergyVis 2023: 3rd Workshop on Energy Data Visualization](https://energyvis.org/)
-Sunday, October 22, 2023: 9:00 AM-12:00 PM AEDT (UTC+11)
 
-Kenny Gruchalla, *Computational Science Center, National Renewable Energy Lab, Golden, Colorado, United States*<br>
-Arnaud Prouzeau, *Potioc, Inria, Bordeaux, France*<br>
-Lyn Bartram, *School of Interactive Art and Technology, Simon Fraser University, Surrey, British Columbia, Canada*<br>
-Sarah Goodwin, *Monash University, Melbourne, Australia*<br>
-
-Contact: kenny.gruchalla@nrel.gov
-
-The energy sector is witnessing significant technological progress, primarily driven by the growth of renewable energy, distributed energy resources, and smart grid technologies. This rapid evolution is generating increasingly large, complex data that present substantial challenges for energy systems planning and operations. More research is needed to develop new and innovative visualization methods that can handle the increasing complexity of energy systems and provide diverse stakeholders with the necessary insights to make informed decisions about the future of energy. The EnergyVis 2023 workshop aims to bring together scientists, researchers, and practitioners from the energy and visualization domains to critically assess and discuss energy data visualization in the context of the evolving energy sector. The workshop’s main objectives will be to seed the development of a publishable report on the state-of-the-art and grand challenges in energy data visualization and to develop stronger international collaborations for this important area of multidisciplinary research. With the rapid evolution of energy systems, visualization experts have an essential role in enabling stakeholders to better understand and manage these increasingly complex systems. By expanding the reach of EnergyVis to the broader visualization community at IEEE VIS, we hope to continue the momentum of the past workshops and build a community of experts capable of tackling the visualization challenges of modern energy systems.
 
 ## <a name="EduVis"></a> [EduVis: Workshop on Visualization Education, Literacy, and Activities](https://ieee-eduvis.github.io/)
 Monday, October 23, 2023: 9:00 AM-12:00 PM AEDT (UTC+11)
