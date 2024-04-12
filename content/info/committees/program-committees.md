@@ -158,11 +158,106 @@ sidetoc: true
 Contact: [opc@ieeevis.org](mailto:opc@ieeevis.org)
 
 
-
 ## Short Papers Program Committee
 
 | **Name** | **Affiliation** |<br>
-
-to be announced before the short papers submission deadline
+| Daniel Archambault | *Newcastle University* |<br>
+| Shehzad Afzal | *King Abdullah University of Science and Technology* |<br>
+| Bilal Alsallakh | |<br>
+| Fereshteh Amini | *Microsoft* |<br>
+| Christopher Andrews | *Middlebury College* |<br>
+| Tushar Athawale | *Oak Ridge National Laboratory* |<br>
+| Lonni Besançon | *Linköping University* |<br>
+| Anastasia Bezerianos | *Université Paris-Saclay, CNRS, INRIA* |<br>
+| Ayan Biswas | *Los Alamos National Laboratory* |<br>
+| Ciril Bohak | *University of Ljubljana* |<br>
+| Junghoon Chae | *Computer Science and Mathematics Divison* |<br>
+| Qing Chen | *Tongji University* |<br>
+| Michael Correll | *Northeastern University* |<br>
+| Joseph Cottam | *Pacific Northwest National Laboratory* |<br>
+| Carla Dal Sasso Freitas | *Federal University of Rio Grande do Sul* |<br>
+| Michelle Dowling | *Pacific Northwest National Lab* |<br>
+| Nivan Ferreira | *Universidade Federal de Pernambuco* |<br>
+| Takanori Fujiwara | *Linköping University* |<br>
+| Katarína Furmanová | *Masaryk University* |<br>
+| Sohaib Ghani | *King Abdullah University of Science & Technology* |<br>
+| Mohammad Ghoniem | *Luxembourg Institute of Science and Technology* |<br>
+| Denis Gracanin | *Virginia Tech* |<br>
+| Pascal Grosset | *Los Alamos National Laboratory* |<br>
+| Charles Gueunet | *Kitware SAS* |<br>
+| Hanqi Guo | *The Ohio State University* |<br>
+| Lane Harrison | *Worcester Polytechnic Institute* |<br>
+| Christopher G. Healey | *NC State University* |<br>
+| Rafael Henkin | *Queen Mary University of London* |<br>
+| Thomas Höllt | *Delft University of Technology* |<br>
+| Sungsoo Ray Hong | *George Mason University* |<br>
+| Enamul Hoque | *York University* |<br>
+| Yifan Hu | *Yahoo Research* |<br>
+| Tobias Isenberg | *Université Paris-Saclay, CNRS* |<br>
+| Mahmood Jasim | *Louisiana State University* |<br>
+| Alark Joshi | *University of San Francisco* |<br>
+| Ilir Jusufi | *Blekinge Institute of Technology* |<br>
+| Mandy Keck | *School of Informatics, Communications and Media* |<br>
+| Hannah Kim | *Georgia Tech* |<br>
+| Søren Knudsen | *IT University of Copenhagen* |<br>
+| Josua Krause | *Accern* |<br>
+| Oh-Hyun Kwon | *Apple* |<br>
+| Marcos Lage | *Universidade Federal Fluminense* |<br>
+| Heidi	Lam | *Google Inc.* |<br>
+| Robert Laramee | *University of Nottingham* |<br>
+| Guozheng Li | *Beijing Institute of Technology* |<br>
+| Quan Li | *ShanghaiTech University* |<br>
+| Christy Jie Liang | *University of Technology Sydney* |<br>
+| Peter Lindstrom | *Lawrence Livermore National Laboratory* |<br>
+| Claudio Linhares | *Linnaeus University* |<br>
+| Richen Liu | *Nanjing Normal University* |<br>
+| Shusen Liu | *Lawrence Livermore National Laboratory* |<br>
+| Aidong Lu | *University of North Carolina at Charlotte* |<br>
+| Jonas Lukasczyk | *RPTU Kaiserslautern-Landau* |<br>
+| Rafael M. Martins | *Linnaeus University* |<br>
+| Eva Mayr | *University for Continuing Education, Krems* |<br>
+| Monique Meuschke | *University of Magdeburg* |<br>
+| Wolfgang Mueller | *University of Education Weingarten* |<br>
+| Hiroaki Natsukawa | *Osaka Seikei University* |<br>
+| Patrick O'Leary | *Kitware, Inc.* |<br>
+| Georgia Panagiotidou | *King's College London* |<br>
+| Ji Hwan Park | *University of Oklahoma* |<br>
+| John Patchett | *Los Alamos National Laboratory* |<br>
+| Fernando Paulovich | *TU Eindhoven* |<br>
+| Bruno Pinaud | *Université de Bordeaux* |<br>
+| Jean Ponciano | *University of Sao Paulo* |<br>
+| Kristi Potter | *National Renewable Energy Laboratory* |<br>
+| David Pugmire | *Oak Ridge National Laboratory* |<br>
+| Jesus Pulido | *Los Alamos National Lab* |<br>
+| Fateme Rajabiyazdi | *Carleton University* |<br>
+| Guido Reina | *University of Stuttgart* |<br>
+| Alejandro Ribes | *EDF Lab* |<br>
+| Alexander Rind | *St. Poelten University of Applied Sciences* |<br>
+| Silvio Rizzi | *Argonne National Laboratory* |<br>
+| Paul Rosen | *University of Utah* |<br>
+| Filip Sadlo | *Heidelberg University* |<br>
+| Alper Sarikaya | *Microsoft* |<br>
+| Andrea Schnorr | *RPTU Kaiserslautern-Landau* |<br>
+| Michail Schwab | *Northeastern University* |<br>
+| Xinhuan Shu | *Newcastle University* |<br>
+| Noeska Smit | *University of Bergen* |<br>
+| Raghavendra Sridharamurthy | *University of Utah* |<br>
+| Guodao Sun | *Zhejiang University of Technology* |<br>
+| Maoyuan Sun | *Northern Illinois University* |<br>
+| Jun Tao | *Sun Yat-sen University* |<br>
+| Yubo Tao | *Zhejiang University* |<br>
+| Huy Vo | *CUNY City College* |<br>
+| Chaoli Wang | *University of Notre Dame* |<br>
+| Junpeng Wang | *Visa Research* |<br>
+| Yifang Wang | *Northwestern University* |<br>
+| Thomas Wischgoll | *Wright State University* |<br>
+| Michael Wybrow | *Monash University* |<br>
+| Cong Xie | *Facebook* |<br>
+| Hsiang-Yun Wu | *St. Pölten University of Applied Sciences* |<br>
+| Jun Yuan | *Apple Inc.* |<br>
+| Jiawan Zhang | *Tianjin University* |<br>
+| Ye Zhao | *Kent State University* |<br>
+| Ying Zhao | *Central South University* |<br>
+| Fangfang Zhou | *Central South University* |<br>
 
 Contact: [shortpapers@ieeevis.org](mailto:shortpapers@ieeevis.org)
