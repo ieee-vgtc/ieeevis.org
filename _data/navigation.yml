@@ -299,7 +299,7 @@ menu:
                   #   url: "/year/2024/info/visinpractice"
                   - text: "LDAV Symposium"
                     description: "Big Data Analysis and Visualization"
-                    url: "https://ldav.org/"
+                    url: "https://ldav.io/"
                     is_external: true
                   - text: "VDS Symposium"
                     description: "Visualization in Data Science"
