@@ -309,16 +309,16 @@ menu:
                   #   description: "Visualization for Cyber Security"
                   #   url: "https://vizsec.org/vizsec2024/"
                   #   is_external: true
-          # - heading: "Competitions"
-          #   description: "Advancing visualization through competition"
-          #   columns:
-          #     - links:
+          - heading: "Competitions"
+            description: "Advancing visualization through competition"
+            columns:
+              - links:
           #         - text: "Bio+MedVis Challenges"
           #           url: "http://biovis.net/2024/biovisChallenges_vis/"
           #           is_external: true
-          #         - text: "SciVis Contest"
-          #           url: "https://sciviscontest2024.github.io/"
-          #           is_external: true
+                  - text: "SciVis Contest"
+                    url: "https://sciviscontest2024.github.io/"
+                    is_external: true
           #         - text: "VAST Challenge"
           #           url: "https://vast-challenge.github.io/2024/"
           #           is_external: true
