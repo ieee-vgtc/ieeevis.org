@@ -101,8 +101,8 @@ The goal of the Biological and Medical Visualization Workshop (Bio+Med+Vis Works
 
 ## <a name="nlviz"></a> [NLVIZ Workshop: Exploring Research Opportunities for Natural Language, Text, and Data Visualization](https://www.nlvizworkshop2023.com/)
 
-Vidya Setlur, *Tableau Research, Palo Alto, California, United States*<br>
-Arjun Srinivasan, *Tableau Research, Seattle, Washington, United States*<br>
+Vidya Setlur, *Tableau Research*<br>
+Arjun Srinivasan, *Tableau Research*<br>
 
 Contact: vsetlur@tableau.com
 
@@ -112,10 +112,10 @@ Addressing these questions calls for research at the intersection of human-compu
 
 ## <a name="pdav"></a> [Progressive Data Analysis and Visualization (PDAV) Workshop](https://ieee-vis-pdav.github.io/)
 
-Alex Ulmer, *Fraunhofer IGD, Darmstadt, Germany*<br>
-Jaemin Jo, *Sungkyunkwan University, Suwon, Korea*<br>
-Michael Sedlmair, *VISUS, University of Stuttgart, Stuttgart, Germany*<br>
-Jean-Daniel Fekete, *LISN, Université Paris-Saclay, CNRS, Orsay, France*<br>
+Alex Ulmer, *Fraunhofer IGD*<br>
+Jaemin Jo, *Sungkyunkwan University*<br>
+Michael Sedlmair, *University of Stuttgart*<br>
+Jean-Daniel Fekete, *Université Paris-Saclay*<br>
 
 Contact: alex.ulmer@igd.fraunhofer.de
 
@@ -124,11 +124,11 @@ The increasing amount of data is a long-standing challenge for data analysis sys
 
 ## <a name="UncertaintyVis"></a> [Uncertainty Visualization: Applications, Techniques, Software, and Decision Frameworks](https://tusharathawale.github.io/UncertaintyVis-Workshop/index.html)
 
-Tushar M. Athawale, *Computer Science and Mathematics Division, Oak Ridge National Laboratory, United States*<br>
-Chris R. Johnson, *Scientific Computing and Imaging Institute, University of Utah, United States*<br>
-Kristi Potter, *National Renewable Energy Laboratory, United States*<br>
-Paul Rosen, *University of Utah, United States*<br>
-David Pugmire, *Computer Science and Mathematics Division, Oak Ridge National Laboratory, United States*<br>
+Tushar M. Athawale, *Oak Ridge National Laboratory*<br>
+Chris R. Johnson, *University of Utah*<br>
+Kristi Potter, *National Renewable Energy Laboratory*<br>
+Paul Rosen, *University of Utah*<br>
+David Pugmire, *Oak Ridge National Laboratory*<br>
 
 Contact: tushar.athawale@gmail.com
 
