@@ -99,7 +99,7 @@ Barbora Kozlikova, *Masaryk University* <br>
 The goal of the Biological and Medical Visualization Workshop (Bio+Med+Vis Workshop) is to educate, inspire, and engage visualization researchers and students in current problems in biological & medical data visualization. The event will serve as a platform for presenting the participants with the current state and research challenges in BioMedVis, their impact on other disciplines (e.g., personalized medicine, art), and public outreach, and will enable the participants to actively contribute to the workshop by submitting their works on our announced biological and medical visualization challenges.
 
 
-## <a name="nlviz"></a> [NLVIZ Workshop: Exploring Research Opportunities for Natural Language, Text, and Data Visualization](https://www.nlvizworkshop2023.com/)
+## <a name="nlviz"></a> [NLVIZ Workshop: Exploring Research Opportunities for Natural Language, Text, and Data Visualization](https://www.nl-vizworkshop.com)
 
 Vidya Setlur, *Tableau Research*<br>
 Arjun Srinivasan, *Tableau Research*<br>
@@ -226,7 +226,7 @@ Contact: cperin@uvic.ca
 
 This half-day workshop will gather researchers and practitioners interested in first-person visualizations for outdoor physical activities. Given the unexplored nature of the topic, the goal of this first workshop is to collect speculative designs informed by experience and expertise. Participants will mainly submit fictional case studies in the forms of illustrated submissions along with a statement that demonstrates their knowledge/expertise of the case study. Our goal is to build on these speculative designs to i) explore the space of first-person visualizations for outdoor physical activities and ii) derive a research agenda for the visualization community. We envision this output to take the form of a publication of which workshop participants will be invited to become co-authors.
 
-## <a name="EduVis"></a> [EduVis: 2nd IEEE VIS Workshop on Visualization Education, Literacy, and Activities]()
+## <a name="EduVis"></a> [EduVis: 2nd IEEE VIS Workshop on Visualization Education, Literacy, and Activities](https://ieee-eduvis.github.io/)
 
 Fateme Rajabiyazdi, *Carleton University*<br>
 Mandy Keck, *University of Applied Sciences Upper Austria*<br>
@@ -252,7 +252,7 @@ Yan Chen, *University of Virginia Tech*<br>
 
 Contact: fateme.rajabiyazdi@carleton.ca
 
-
+This is the second IEEE VIS EduVis Workshop on Visualization Education, Literacy, and Activities. This workshop aims to become a forum to share and discuss advances, challenges, and methods at the intersection of visualization and education. The workshop addresses an interdisciplinary audience from and beyond visualization, education, learning analytics, science communication, psychology, or people from adjacent fields such as data science, AI, and HCI. It will include presentations of research papers and working group discussions.
 
 
 
