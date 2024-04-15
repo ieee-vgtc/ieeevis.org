@@ -171,7 +171,6 @@ The ubiquity of data visualization across various domains—from data science an
 
 
 ## <a name="EnergyVis"></a> [EnergyVis 2024: 4th Workshop on Energy Data Visualization](https://energyvis.org/)
-Sunday, October 22, 2023: 9:00 AM-12:00 PM AEDT (UTC+11)
 
 Kenny Gruchalla, *National Renewable Energy Lab*<br>
 Anjana Arunkumar, *Arizona State University*<br>
