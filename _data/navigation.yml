@@ -130,8 +130,9 @@ menu:
                   - text: "Panels"
                     url: "/year/2024/info/call-participation/panels"
                     is_new: false
-                  # - text: "Doctoral Colloquium"
-                  #   url: "/year/2024/info/call-participation/doctoral-colloquium"
+                  - text: "Doctoral Colloquium"
+                    url: "/year/2024/info/call-participation/doctoral-colloquium"
+                    is_new: true
                   # - text: "Application Spotlights"
                   #   url: "/year/2024/info/call-participation/application-spotlights"
               - heading: "Info for Contributors"

@@ -67,9 +67,12 @@
 #        image: /assets/supporters/norrkoping.png
 #        url: "https://visualiseringscenter.se/"
 
-#  - category: Bronze
-#    image_size: 200
-#    supporters:
+ - category: Bronze
+   image_size: 200
+   supporters:
+     - name: "VRVis"
+       image: /assets/supporters/VRVis-logo.png
+       url: "https://www.vrvis.at/en/"
 #      - name: "Apple"
 #        image: /assets/supporters/apple.png
 #        url: "https://www.apple.com"
