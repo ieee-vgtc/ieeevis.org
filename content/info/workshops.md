@@ -201,7 +201,7 @@ Luiz Morais, *Universidade Federal de Pernambuco*<br>
 Derya Akbaba, *Linköping University*<br>
 Tatiana Losev, *Simon Fraser University*<br>
 
-Contact: georgia.panagiotidou@kcl.ac.uk
+Contact: visionsofthefuture@googlegroups.com
 
 Inspired by HCI, environmental sciences, and intersectional feminism, we see the growing need to discuss sustainability for visualization. With this workshop, we seek to establish a forum for considerations about the sustainability of visualization and physicalization practices. We view sustainability in broad terms - referring to the long-term viability of and effects on our environment, our infrastructure, our research practices, and our community. Rather than being disparate threads, we see these perspectives as intertwined with long-term, big-picture thinking related to a decolonial agenda that is often missing in day-to-day research practices. This half-day workshop will offer a venue for work on sustainability in VIS broadly, which - among other topics - might include reflections on internal practices, discussions of the potential of visualization as a discipline to support sustainability efforts, or opportunities to learn from sustainability experts outside the VIS community. Through this work, we seek to foster a community of interest, to characterize what sustainability goals for our field might look like, and to build a vision for how VIS might endure for the coming decades.
 
