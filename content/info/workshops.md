@@ -146,7 +146,7 @@ Storytelling is an ancient and precious human ability that has been rejuvenated 
 Naimul Hoque, *University of Maryland*<br>
 Pramod Chundury, *University of Maryland*<br>
 Frank Elavsky, *Carnegie Mellon University*<br>
-Lucas Nadolskis, * University of California*<br>
+Lucas Nadolskis, *University of California*<br>
 Keke Wu, *University of North Carolina at Chapel Hill*<br>
 Laura South, *Northeastern University*<br>
 Brianna L Wimer, *University of Notre Dame*<br>
