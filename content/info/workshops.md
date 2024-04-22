@@ -165,7 +165,7 @@ The ubiquity of data visualization across various domains—from data science an
 
 Kenny Gruchalla, *National Renewable Energy Lab*<br>
 Anjana Arunkumar, *Arizona State University*<br>
-Arnaud Prouzeau, * Université de Bordeaux*<br>
+Arnaud Prouzeau, *Université de Bordeaux*<br>
 Lyn Bartram, *Simon Fraser University*<br>
 Sarah Goodwin, *Monash University*<br>
 
