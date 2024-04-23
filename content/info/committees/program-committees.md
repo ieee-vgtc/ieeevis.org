@@ -50,7 +50,6 @@ sidetoc: true
 | Siwei Fu| *Zhejiang Lab* |<br>
 | Tim Gerrits| *RWTH Aachen University* |<br>
 | Enrico Gobbetti| *Center for Advanced Studies, Research, and Development in Sardinia* |<br>
-| Carsten Görg| *Colorado School of Public Health* |<br>
 | David Gotz| *University of North Carolina, Chapel Hill* |<br>
 | Liang Gou| *Splunk Inc.* |<br>
 | Tobias Günther| *Friedrich-Alexander University of Erlangen-Nuremberg* |<br>
