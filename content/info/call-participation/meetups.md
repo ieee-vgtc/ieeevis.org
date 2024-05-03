@@ -57,10 +57,10 @@ Rolling submission: Submissions after the early submission deadline will be cons
 
 ### Chairs
 
-Yang Shi, *Tongji University*
+Ali Sarvghad, *University of Massachusstes Amherst*
 
-Cindy Xiong, *UMass Amherst*
+Isaac Cho, *Utah State University*
 
-Carmen Hull, *Northeastern University*
+Georgia Panagiotidou,	*King’s College London*
 
 
