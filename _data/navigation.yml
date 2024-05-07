@@ -206,83 +206,84 @@ menu:
             description: "Your support makes this conference possible!"
 
   - dropdown: "Program"
-    display: false
+    display: true
     sections:
       - subsections:
           - heading: "Vis Program"
-            heading_url: "/year/2024/info/week-at-a-glance"
-            description: "Click to see an overview of the conference program"
+            # heading_url: "/year/2024/info/week-at-a-glance"
+            # description: "Click to see an overview of the conference program"
             columns:
               - links:
-                  - text: "Papers"
-                    description: "The latest research in theory, methods, and applications of visualization"
-                    url: "/year/2024/info/papers-sessions"
-                    is_new: true
-                  - text: "Posters"
-                    description: "Nascent and recent work"
-                    url: "/year/2024/info/posters"
-                    is_new: true
-                  - text: "Tutorials"
-                    description: "Learn new tools and application domains"
-                    url: "/year/2024/info/tutorials"
+                  # - text: "Papers"
+                  #   description: "The latest research in theory, methods, and applications of visualization"
+                  #   url: "/year/2024/info/papers-sessions"
+                  #   is_new: true
+                  # - text: "Posters"
+                  #   description: "Nascent and recent work"
+                  #   url: "/year/2024/info/posters"
+                  #   is_new: true
+                  # - text: "Tutorials"
+                  #   description: "Learn new tools and application domains"
+                  #   url: "/year/2024/info/tutorials"
                   - text: "Workshops"
                     description: "Informal setting to discuss emerging topics"
                     url: "/year/2024/info/workshops"
-                  - text: "Panels"
-                    description: "Discuss important and controversial issues"
-                    url: "/year/2024/info/panels"
                     is_new: true
-                  - text: "Application Spotlights"
-                    description: "Showcase practical, real-world applications of visualization"
-                    url: "/year/2024/info/spotlights"
-                    is_new: true
-      - subsections:
-          - heading: "Invited Speakers"
-#            heading_url: "/year/2024/info/week-at-a-glance"
-            description: "Keynote and Capstone Speakers"
-            columns:
-              - links:
-                  - text: "Keynote"
-                    description: "Dr. Drew Berry and Professor Anders Ynnerman"
-                    url: "/year/2024/info/keynote-speaker"
-                    # is_new: true
-                  - text: "Capstone"
-                    description: "Matt Duckham, RMIT University"
-                    url: "/year/2024/info/capstone-speaker"
-                    is_new: true
-          - heading: "Awards and Recognitions"
-            description: "Recognize outstanding work by the VIS community"
-            columns:
-             - links:
-               - text: "Best Paper/Poster Awards"
-                 url: "/year/2024/info/awards/best-paper-awards"
-                 is_new: true
-  # - text: "Service Awards"
-  #   url: "https://www.google.com"
-  # - text: "VGTC VIS Awards"
-  #   url: "https://www.google.com"
-               - text: "Test of Time Awards"
-                 url: "/year/2024/info/awards/test-of-time-awards"
-                 is_new: true
-  #    - subsections:
-          - heading: "Plenary Sessions"
-            description: "Engage with the VIS community, internal and external"
-            columns:
-             - links:
-               - text: "Vis Townhall"
-                 url: "/year/2024/info/townhall"
-                 is_new: true
-  #              - text: "Keynote Address"
-  #                url: "/year/2024/info/keynote-speaker"
-  #              - text: "Capstone Address"
-  #                url: "/year/2024/info/capstone-speaker"
-  #              # - links:
-  #              #   - text: "Download the App"
-  #              #     url: "https://www.google.com"
-  #              #   - text: "Pocket Program (PDF)"
-  #              #     url: "https://www.google.com"
-  #              #   - text: "Practioner Guide"
-  #              #     url: "https://www.google.com"
+                  # - text: "Panels"
+                  #   description: "Discuss important and controversial issues"
+                  #   url: "/year/2024/info/panels"
+                  #   is_new: true
+                  # - text: "Application Spotlights"
+                  #   description: "Showcase practical, real-world applications of visualization"
+                  #   url: "/year/2024/info/spotlights"
+                  #   is_new: true
+#       - subsections:
+#           - heading: "Invited Speakers"
+# #            heading_url: "/year/2024/info/week-at-a-glance"
+#             description: "Keynote and Capstone Speakers"
+#             columns:
+#               - links:
+#                   - text: "Keynote"
+#                     description: "Dr. Drew Berry and Professor Anders Ynnerman"
+#                     url: "/year/2024/info/keynote-speaker"
+#                     # is_new: true
+#                   - text: "Capstone"
+#                     description: "Matt Duckham, RMIT University"
+#                     url: "/year/2024/info/capstone-speaker"
+#                     is_new: true
+#           - heading: "Awards and Recognitions"
+#             description: "Recognize outstanding work by the VIS community"
+#             columns:
+#              - links:
+#                - text: "Best Paper/Poster Awards"
+#                  url: "/year/2024/info/awards/best-paper-awards"
+#                  is_new: true
+#   # - text: "Service Awards"
+#   #   url: "https://www.google.com"
+#   # - text: "VGTC VIS Awards"
+#   #   url: "https://www.google.com"
+#                - text: "Test of Time Awards"
+#                  url: "/year/2024/info/awards/test-of-time-awards"
+#                  is_new: true
+#   #    - subsections:
+#           - heading: "Plenary Sessions"
+#             description: "Engage with the VIS community, internal and external"
+#             columns:
+#              - links:
+#                - text: "Vis Townhall"
+#                  url: "/year/2024/info/townhall"
+#                  is_new: true
+#   #              - text: "Keynote Address"
+#   #                url: "/year/2024/info/keynote-speaker"
+#   #              - text: "Capstone Address"
+#   #                url: "/year/2024/info/capstone-speaker"
+#   #              # - links:
+#   #              #   - text: "Download the App"
+#   #              #     url: "https://www.google.com"
+#   #              #   - text: "Pocket Program (PDF)"
+#   #              #     url: "https://www.google.com"
+#   #              #   - text: "Practioner Guide"
+#   #              #     url: "https://www.google.com"
 
   - dropdown: "Events & Community"
     display: true
