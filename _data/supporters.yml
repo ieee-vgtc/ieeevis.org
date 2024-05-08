@@ -71,7 +71,7 @@
    image_size: 200
    supporters:
      - name: "VRVis"
-       image: /assets/supporters/VRVis-logo.png
+       image: /assets/supporters/VRVis-Logo.png
        url: "https://www.vrvis.at/en/"
 #      - name: "Apple"
 #        image: /assets/supporters/apple.png
