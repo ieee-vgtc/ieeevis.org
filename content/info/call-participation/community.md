@@ -21,7 +21,7 @@ This year, Community will host the following events and activities:
 ### <a name="visbuddies"></a>VisBuddies Meetup
 <!-- **Tuesday, 27 October 2020, 13:40:00 Mountain Time** -->
 <!-- **Tuesday, 18 October 2022, 12:00:00 CST in OK Station 4** -->
-**Tuesday 24 October 2023, 12:00:00 AEDT room 101/102** 
+<!-- **Tuesday 24 October 2023, 12:00:00 AEDT room 101/102** -->
 
 
 VisBuddies brings together new and returning VIS attendees with similar interests. For *newcomers*, this is a chance to meet experienced researchers in the field. For *returning attendees*, it is a chance to meet new members joining VIS and welcome them into our community. 
@@ -31,7 +31,7 @@ Example VisBuddies activities include:
 * Discuss interesting sessions to attend
 * Share tips on successful research
 
-[VisBuddies Signup Form](https://forms.gle/c6LCQcpfbE57cYWF9)
+[VisBuddies Signup Form](https://forms.gle/nfJ28A1ytrmkYugd7)
 
 ### <a name="job-flyers"></a>Job Flyer Online Posting
 
@@ -39,31 +39,31 @@ Do you have a job you are seeking to fill?
 
 If so, please complete this online form and we will include your posting on the IEEEVIS.org.  You can also use this form to sign up to host a “table” at the Job Fair.
 
-[VIS Community Job Posting Form](https://forms.gle/42GUi7ZTSxjiWzmPA)
+[VIS Community Job Posting Form](https://forms.gle/jq9nmjv6ZYEZPHWu9)
 
 Links to the Job Postings will be included on the IEEEVIS.org.
 
-[**Job Postings**](https://ieeevis.org/year/2023/info/jobs)
+<!-- [**Job Postings**]() --!>
 
 ### <a name="ajf"></a>VIS Job Fair Meetup
 <!-- **Wednesday, 19 October 2022, 15:45:00 CST in OK Station 2+3** -->
-**Thursday, 26 October 2023, 17:00:00 AEDT room 101/102**
+<!-- **Thursday, 26 October 2023, 17:00:00 AEDT room 101/102** -->
 
 
 At the VIS conference, we will host a meetup session that connects job seekers and researchers with employers, staff, and faculty.
 This includes all types of job opportunities: staff, industry positions, software engineers, faculty, post-docs, etc., and all types of job seekers from students to practitioners. 
 
-To participate, please join us at the event during VIS 2023.
+To participate, please join us at the event during VIS 2024.
 
 <!--### <a name="smp"></a>Student Mentorship Program -->
 <!--**Thursday, 29 October 2020, 13:40:00 Mountain Time**-->
 <!-- Students are invited to participate in a one-hour session during which they may ask questions and advice from industry experts. This is your opportunity to get expert advice on career next steps, career choices, and insights into working in the industry. For more information about the Student Mentorship Program contact [supporters@ieeevis.org](supporters@ieeevis.org). -->
 
 ### Contact
-For more information contact IEEE VIS 2023 Community Chairs:
+For more information contact IEEE VIS 2024 Community Chairs:
 
-* Bon Adriel Aseniero, *Autodesk Research*
-* Alfie Abdul-Rahman, *King's College London*
-* Qing Chen, *Tongji University*
+* Ali Sarvghad, 	*University of Massachusstes Amherst*
+* Isaac Cho, 	*Utah State University*
+* Georgia Panagiotidou, *King’s College London*
 
 email: [community@ieeevis.org](community@ieeevis.org)
