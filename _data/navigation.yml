@@ -292,10 +292,10 @@ menu:
           - heading: "Associated Events"
             columns:
               - links:
-                   - text: "VIS Arts Program"
-                     description: "Diverse Data"
-                     url: "https://visap.net/2024"
-                     is_external: true
+                  - text: "VIS Arts Program"
+                    description: "Diverse Data"
+                    url: "https://visap.net/2024"
+                    is_external: true
                   # - text: "VisInPractice"
                   #   description: "Invited talks by visualization practitioners"
                   #   url: "/year/2024/info/visinpractice"
