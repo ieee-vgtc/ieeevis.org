@@ -51,11 +51,14 @@ The IEEE VIS Workshop on Topological Data Analysis and Visualization aims at bei
 
 ## <a name="beliv"></a> [BELIV: evaluation and BEyond - methodoLogIcal approaches for Visualization](https://beliv-workshop.github.io/)
 
-Anastasia Bezerianos, *Université Paris-Saclay* <br>
-Kyle Hall, *University of Calgary* <br>
-Samuel Huron, *Télécom Paris* <br>
-Matthew Kay, *Northwestern* <br>
-Michael Correll, *Northeastern* <br>
+Anastasia Bezerianos, *Université Paris-Saclay* <br />
+Jürgen Bernard, *University of Zurich* <br />
+Michael Correll, *Northeastern* <br />
+Mai Elshehaly, *City University of London* <br />
+Kyle Hall, *University of Calgary* <br />
+Daniel Keefe, *University of Minnesota* <br />
+Mahsan Nourani, *Northeastern* <br />
+
 
 Contact: beliv.workshop@gmail.com
 
