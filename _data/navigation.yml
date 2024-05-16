@@ -133,8 +133,9 @@ menu:
                   - text: "Doctoral Colloquium"
                     url: "/year/2024/info/call-participation/doctoral-colloquium"
                     is_new: false
-                  # - text: "Application Spotlights"
-                  #   url: "/year/2024/info/call-participation/application-spotlights"
+                  - text: "Application Spotlights"
+                    url: "/year/2024/info/call-participation/application-spotlights"
+                    is_new: true
               - heading: "Info for Contributors"
                 links:
                    - text: "Area Model for VIS"
