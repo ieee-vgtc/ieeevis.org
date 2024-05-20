@@ -73,6 +73,9 @@
      - name: "VRVis"
        image: /assets/supporters/VRVis-Logo.png
        url: "https://www.vrvis.at/en/"
+     - name: "Databricks"
+       image: /assets/supporters/databricks_logo.svg
+       url: "https://www.databricks.com/"
 #      - name: "Apple"
 #        image: /assets/supporters/apple.png
 #        url: "https://www.apple.com"
