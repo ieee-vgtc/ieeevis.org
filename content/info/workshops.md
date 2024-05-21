@@ -39,6 +39,7 @@ The following workshops went through our [submission/review process](https://iee
 
 
 ## <a name="topoinvis"></a> [TopoInVis: Workshop on Topological Data Analysis and Visualization](https://topoinvis.org/)
+Monday October 14, 2024: Afternoon
 
 Divya Banesh, *Los Alamos National Laboratory* <br>
 Guoning Chen, *University of Houston* <br>
@@ -50,6 +51,7 @@ The IEEE VIS Workshop on Topological Data Analysis and Visualization aims at bei
 
 
 ## <a name="beliv"></a> [BELIV: evaluation and BEyond - methodoLogIcal approaches for Visualization](https://beliv-workshop.github.io/)
+Monday, October 14, 2024: Full Day
 
 Anastasia Bezerianos, *Université Paris-Saclay* <br />
 Jürgen Bernard, *University of Zurich* <br />
@@ -58,7 +60,6 @@ Mai Elshehaly, *City University of London* <br />
 Kyle Hall, *University of Calgary* <br />
 Daniel Keefe, *University of Minnesota* <br />
 Mahsan Nourani, *Northeastern* <br />
-
 
 Contact: beliv.workshop@gmail.com
 
@@ -75,6 +76,7 @@ our research community grows and matures.
 
 
 ## <a name="visxai"></a> [VISxAI: 7th Workshop on Visualization for AI Explainability](https://visxai.io/)
+Sunday, October 13, 2024: Morning
 
 Angie Boggust, *MIT CSAIL* <br>
 Mennatallah El-Assady, *ETH AI Center* <br>
@@ -88,6 +90,7 @@ The VISxAI workshop is a meeting place for researchers interested in explaining 
 
 
 ## <a name="biomedvis"></a> [Bio+Med+Vis Workshop](http://biovis.net/)
+Sunday, October 13, 2024: Afternoon
 
 Nils Gehlenborg, *Harvard Medical School* <br>
 Barbora Kozlikova, *Masaryk University* <br>
@@ -96,6 +99,7 @@ The goal of the Biological and Medical Visualization Workshop (Bio+Med+Vis Works
 
 
 ## <a name="nlviz"></a> [NLVIZ Workshop: Exploring Research Opportunities for Natural Language, Text, and Data Visualization](https://www.nl-vizworkshop.com)
+Monday, October 14, 2024: Afternoon
 
 Vidya Setlur, *Tableau Research*<br>
 Arjun Srinivasan, *Databricks*<br>
@@ -105,6 +109,7 @@ Contact: vsetlur@tableau.com
 Natural language processing (NLP) has evolved as a promising field for visual analysis and communication. The applications of NLP for supporting various aspects of the visual analysis workflow include helping readers take away key information from charts or dashboards, supporting interaction modalities that help people naturally ``ask" questions of their data, generating data summaries and insight reports, and exploring ways to enrich the semantics of data, among others. With data-driven communication being more important than ever, how do we treat text and language as first-class citizens in helping people see and understand data? How do we couple language and charts to make the data more accessible to a variety of audiences with different needs, capabilities, and skills? As the field of NLP matures, computers now have an increased capability of interpreting language and engaging in conversations with people. But can NLP techniques and interactive visualizations work in concert to support an analytical conversation? As the platforms and channels for exploring data go beyond the desktop to chat interfaces, augmented and virtual reality environments, mobile, and large displays, how do we better understand user intent, modalities, and context to make these interactions more delightful and meaningful? Addressing these questions calls for research at the intersection of human-computer interaction, information visualization, and NLP, three fields with natural synergies but rather infrequent meetings. This workshop will assemble an interdisciplinary community that promotes collaboration across these fields, explores research opportunities and challenges, and continues to establish an agenda for NLP research specifically for data visualization.
 
 ## <a name="pdav"></a> [Progressive Data Analysis and Visualization (PDAV) Workshop](https://ieee-vis-pdav.github.io/)
+Monday, October 14, 2024: Morning
 
 Alex Ulmer, *Fraunhofer IGD*<br>
 Jaemin Jo, *Sungkyunkwan University*<br>
@@ -117,6 +122,7 @@ The increasing amount of data is a long-standing challenge for data analysis sys
 
 
 ## <a name="uncertaintyvis"></a> [Uncertainty Visualization: Applications, Techniques, Software, and Decision Frameworks](https://tusharathawale.github.io/UncertaintyVis-Workshop/index.html)
+Monday, October 14, 2024: Morning
 
 Tushar M. Athawale, *Oak Ridge National Laboratory*<br>
 Chris R. Johnson, *University of Utah*<br>
@@ -130,6 +136,7 @@ Uncertainty visualization has become an increasingly important topic given the u
 
 
 ## <a name="storytellingai"></a> [Workshop on Data Storytelling in an Era of Generative AI](https://gen4ds.github.io/gen4ds/#/)
+Sunday, October 13, 2024: Afternoon
 
 Xingyu Lan, *Fudan University*<br>
 Leni Yang, *The Hong Kong University of Science and Technology*<br>
@@ -145,6 +152,7 @@ Storytelling is an ancient and precious human ability that has been rejuvenated 
 
 
 ## <a name="accessiblevis"></a> [1st Workshop on Accessible Data Visualization](https://accessviz.github.io/)
+Sunday, October 13, 2024: Morning
 
 Naimul Hoque, *University of Maryland*<br>
 Pramod Chundury, *University of Maryland*<br>
@@ -158,13 +166,13 @@ Danielle Albers Szafir, *University of North Carolina-Chapel Hill*<br>
 Jonathan Lazar, *University of Maryland*<br>
 Niklas Elmqvist, *Aarhus University*<br>
 
-
 Contact: pchundur@umd.edu
 
 The ubiquity of data visualization across various domains—from data science and machine learning to business intelligence, medical science, and education—demonstrates its critical role in conveying complex information. However, it is now well-known that visualizations may create inequitable access to information for people with different disabilities (e.g., vision, motor, or cognitive disabilities). In response, the accessibility and visualization fields have sought to increase the accessibility of data visualizations for different populations. Examples of research in this area include interviews and observational studies with users with disabilities to understand accessibility issues with visualization, proposing theoretical frameworks, and designing technical solutions such as generating alt text, sonification, or physical artifacts. Despite these efforts, many visualization interfaces and tools remain inaccessible to users with various forms of disabilities. Building on the growing interest and open challenges at this intersection, the in-person Accessible Data Visualization (AccessViz) workshop aims to gather researchers, practitioners, and representatives from disability community at a common platform where we can formulate a community, share innovative discoveries, and envision the future of accessible data visualization research at IEEE VIS. The outcome of this workshop will inspire new researchers and lay down the path for promoting this line of research at IEEE VIS in the future.
 
 
 ## <a name="energyvis"></a> [EnergyVis 2024: 4th Workshop on Energy Data Visualization](https://energyvis.org/)
+Monday, October 14, 2024: Afternoon
 
 Kenny Gruchalla, *National Renewable Energy Lab*<br>
 Anjana Arunkumar, *Arizona State University*<br>
@@ -178,6 +186,7 @@ The energy sector is witnessing significant technological progress, primarily dr
 
 
 ## <a name="clivis"></a> [Visualization for Climate Action and Sustainability](https://svs.gsfc.nasa.gov/events/2024/Viz4ClimateAndSustainability)
+Monday, October 14, 2024: Morning
 
 Benjamin Bach, *University of Edinburgh*<br>
 Fanny Chevalier, *University of Toronto*<br>
@@ -192,6 +201,7 @@ This first workshop on visualization for climate action and sustainability aims 
 
 
 ## <a name="visions"></a> [VISions of the Future: Workshop on Sustainable Practices within Visualization and Physicalisation](https://visionsofthefuture.github.io)
+Monday, October 14, 2024: Afternoon
 
 Georgia Panagiotidou, *King's College London*<br>
 Andrew M McNutt, *University of Washington*<br>
@@ -205,6 +215,7 @@ Contact: visionsofthefuture@googlegroups.com
 Inspired by HCI, environmental sciences, and intersectional feminism, we see the growing need to discuss sustainability for visualization. With this workshop, we seek to establish a forum for considerations about the sustainability of visualization and physicalization practices. We view sustainability in broad terms - referring to the long-term viability of and effects on our environment, our infrastructure, our research practices, and our community. Rather than being disparate threads, we see these perspectives as intertwined with long-term, big-picture thinking related to a decolonial agenda that is often missing in day-to-day research practices. This half-day workshop will offer a venue for work on sustainability in VIS broadly, which - among other topics - might include reflections on internal practices, discussions of the potential of visualization as a discipline to support sustainability efforts, or opportunities to learn from sustainability experts outside the VIS community. Through this work, we seek to foster a community of interest, to characterize what sustainability goals for our field might look like, and to build a vision for how VIS might endure for the coming decades.
 
 ## <a name="fpvis"></a> [First-Person Visualizations for Outdoor Physical Activities: Challenges and Opportunities](https://firstpersonvis.github.io/)
+Sunday, October 13, 2024: Morning
 
 Charles Perin, *University of Victoria*<br>
 Tica Lin, *Harvard University*<br>
@@ -218,6 +229,7 @@ Contact: cperin@uvic.ca
 This half-day workshop will gather researchers and practitioners interested in first-person visualizations for outdoor physical activities. Given the unexplored nature of the topic, the goal of this first workshop is to collect speculative designs informed by experience and expertise. Participants will mainly submit fictional case studies in the forms of illustrated submissions along with a statement that demonstrates their knowledge/expertise of the case study. Our goal is to build on these speculative designs to i) explore the space of first-person visualizations for outdoor physical activities and ii) derive a research agenda for the visualization community. We envision this output to take the form of a publication of which workshop participants will be invited to become co-authors.
 
 ## <a name="eduvis"></a> [EduVis: 2nd IEEE VIS Workshop on Visualization Education, Literacy, and Activities](https://ieee-eduvis.github.io/)
+Sunday, October 13, 2024: Full Day
 
 Fateme Rajabiyazdi, *Carleton University*<br>
 Mandy Keck, *University of Applied Sciences Upper Austria*<br>
