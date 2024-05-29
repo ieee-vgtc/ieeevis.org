@@ -35,7 +35,7 @@ The meetup chairs will take care of reserving a room that fits your needs, findi
 ### Whom to contact and where to submit the proposals?
 
 Submissions should be emailed to
-[meetups@ieeevis.org](mailto:meetups@ieeevis.org).
+[community@ieeevis.org](mailto:community@ieeevis.org).
 
 
 
