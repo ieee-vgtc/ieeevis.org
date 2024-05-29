@@ -54,10 +54,6 @@ menu:
                 # - text: "Full Program"
                 #   url: "/year/2024/info/week-at-a-glance"
                 #   is_new: true
-                # - text: "OU Open House"
-                #   description: "Tour OU facilities, registration required"
-                #   url: "/year/2024/assets/ou-open-house-invite.pdf"
-                #   is_new: true
                 # - text: "Media Requests"
                 #   url: "/year/2024/info/media-requests"
                 #   is_new: true
@@ -66,17 +62,15 @@ menu:
                   #is_new: true
             - heading: "Travel"
               links:
-                - text: "Destination Guide"
+                - text: "Tampa Destination Guide"
                   url: "/year/2024/destination"
                   is_new: false
-                # - text: "Accommodation"
-                #   url: "/year/2024/info/registration/hotel-information"
-                # - text: "Visa & Travel"
-                #   url: "/year/2024/info/registration/travel-visas"
-                  #is_new: true
-                # - text: "Things to do in Oklahoma City"
-                #   url: "/year/2024/info/registration/what-to-do-in-okc"
-                #   is_new: true
+                - text: "Hotel Information"
+                  url: "/year/2024/info/registration/hotel-information"
+                  is_new: true
+                - text: "Visas"
+                  url: "/year/2024/info/registration/travel-visas"
+                  is_new: true
 
           - heading: "Code of Conduct"
             heading_url: "/year/2024/info/inclusion-and-diversity/code-of-conduct"
