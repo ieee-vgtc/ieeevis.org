@@ -18,10 +18,9 @@ The 2024 IEEE Visualization and Visual Analytics Conference, running from Octobe
 
 ## FOR IN-PERSON AND VIRTUAL PRESENTERS OF MAIN CONFERENCE PAPERS, MAIN CONFERENCE SHORT PAPERS AND INVITED TVCG PAPERS
 <ul>
-<li>One speaker for each Main Conference Paper, Main Conference Short Paper or  Invited TVCG Paper <b>MUST</b> register under the On-site Speaker Conference Registration or the Virtual Speaker Conference Registration option. </li>
-<li>Only one presenter per paper is required to register using the Speaker Conference Registration category</li>
-<li>Presenters can add multiple papers to their Speaker Conference Registration </li>
-<li>Presenters participating only at symposia, workshops, tutorials, or panels SHOULD NOT select the Speaker Conference Registration category. Instead, they need to use the On-site Conference Registration category </li>
+<li>One speaker for each Main Conference Paper, Main Conference Short Paper or Invited TVCG Paper <b>MUST</b> register under the On-site Speaker Conference Registration or the Virtual Speaker Conference Registration option. </li>
+<li>Presenters can add multiple papers to their Speaker Conference Registration</li>
+<li>Presenters participating only at symposia, workshops, tutorials, or panels __SHOULD NOT__ select the Speaker Conference Registration category. Instead, they need to use the On-site Conference Registration category </li>
 <li><b>Speaker Registration Includes:</b> Admission to all conference sessions, symposia, tutorials and workshops, Banquet (Wednesday) and access to VIS 2024 online content.</li>
 </ul>
 
@@ -71,6 +70,70 @@ IEEE VIS provides discounted registration rates for students and IEEE Members
 
 ### On-Site Participant Registration Fees
 <table>
+  <tr>
+    <th></th>
+    <th colspan=2 style="text-align:center; border-right: 1px dashed #a46314;">Single Day</th>
+    <th colspan=2 style="text-align:center; border-right: 1px dashed #a46314;">Two Day</th>
+    <th colspan=2 style="text-align:center">Full Week</th>
+  </tr>
+  <tr>
+    <th>Category</th>
+    <th>Early Reg fee USD<br>(Ends: Sept 1)</th>
+    <th style="border-right: 1px dashed #a46314;">Late Reg fee USD</th>
+    <th>Early Reg fee USD<br>(Ends: Sept 1)</th>
+    <th style="border-right: 1px dashed #a46314;">Late Reg fee USD</th>
+    <th>Early Reg fee USD<br>(Ends: Sept 1)</th>
+    <th>Late Reg fee USD</th>
+  </tr>
+<tr>
+    <td>IEEE Member</td>
+    <td>$210</td>
+    <td style="border-right: 1px dashed #a46314;">$250</td>
+    <td>$420</td>
+    <td style="border-right: 1px dashed #a46314;">$500</td>
+    <td>$840</td>
+    <td>$1010</td>
+
+</tr>
+<tr>
+    <td>Non-Member</td>
+    <td>$265</td>
+    <td style="border-right: 1px dashed #a46314;">$320</td>
+    <td>$530</td>
+    <td style="border-right: 1px dashed #a46314;">$635</td>
+    <td>$1050</td>
+    <td>$1260</td>
+
+</tr>
+<tr>
+    <td>Student IEEE Member</td>
+    <td>$115</td>
+    <td style="border-right: 1px dashed #a46314;">$140</td>
+    <td>$230</td>
+    <td style="border-right: 1px dashed #a46314;">$275</td>
+    <td>$460</td>
+    <td>$550</td>
+</tr>
+<tr>
+    <td>Student Non-Member</td>
+    <td>$145</td>
+    <td style="border-right: 1px dashed #a46314;">$175</td>
+    <td>$290</td>
+    <td style="border-right: 1px dashed #a46314;">$350</td>
+    <td>$580</td>
+    <td>$695</td>
+</tr>
+<tr>
+    <td>Life IEEE Member</td>
+    <td>$115</td>
+    <td style="border-right: 1px dashed #a46314;">$140</td>
+    <td>$230</td>
+    <td style="border-right: 1px dashed #a46314;">$275</td>
+    <td>$460</td>
+    <td>$550</td>
+</tr>
+</table>
+<!-- <table>
   <tr>
     <th>Category</th>
     <th>Early Reg fee USD (Ends: Sept 1)</th>
@@ -151,11 +214,11 @@ IEEE VIS provides discounted registration rates for students and IEEE Members
     <td>$230</td>
     <td>$275</td>
 </tr>
-</table>
+</table> -->
 **Registration fees are refundable up to 30 days before the beginning of the conference.**
 
 
-## ALL OTHER  VIRTUAL ATTENDEES
+## ALL OTHER VIRTUAL ATTENDEES
 
 Virtual attendees should register online in advance and pay via credit card.
 <ul>
@@ -213,10 +276,10 @@ No. Posters presenters should use the regular On-Site Participant Registration c
 No. Workshop or symposium paper presenters and authors should use the regular On-Site Participant or Virtual Participant Registration categories. 
 </ul>
 
-**Q: If I complete an Author Registration, do I also need to separately complete an On-Site or Virtual Participant Registration to attend the conference?**
+**Q: If I complete an Speaker Registration, do I also need to separately complete an On-Site or Virtual Participant Registration to attend the conference?**
 
 <ul>
-No. Author registration includes the benefits of an on-site or virtual participation, and thus completing it will enable attendance in your preferred mode.
+No. Speakre Registration includes the benefits of an on-site or virtual participation, and thus completing it will enable attendance in your preferred mode.
 </ul>
 
 If you have additional clarification questions, please contact <a href="mailto:registration@ieeevis.org"> registration@ieeevis.org</a>

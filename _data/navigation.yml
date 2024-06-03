@@ -42,7 +42,7 @@ menu:
               links:
                 - text: "Registration"
                   url: "/year/2024/info/registration/conference-registration"
-                  is_new: false
+                  is_new: true
             #     - text: "Registration"
             #       url: "/year/2024/info/registration/conference-registration"
             #       is_new: true
