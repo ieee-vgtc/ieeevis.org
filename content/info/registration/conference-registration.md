@@ -279,7 +279,7 @@ No. Workshop or symposium paper presenters and authors should use the regular On
 **Q: If I complete an Speaker Registration, do I also need to separately complete an On-Site or Virtual Participant Registration to attend the conference?**
 
 <ul>
-No. Speakre Registration includes the benefits of an on-site or virtual participation, and thus completing it will enable attendance in your preferred mode.
+No. Speaker Registration includes the benefits of an on-site or virtual participation, and thus completing it will enable attendance in your preferred mode.
 </ul>
 
 If you have additional clarification questions, please contact <a href="mailto:registration@ieeevis.org"> registration@ieeevis.org</a>
