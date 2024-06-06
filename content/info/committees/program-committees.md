@@ -162,7 +162,7 @@ Contact: [opc@ieeevis.org](mailto:opc@ieeevis.org)
 | **Name** | **Affiliation** |<br>
 | Daniel Archambault | *Newcastle University* |<br>
 | Shehzad Afzal | *King Abdullah University of Science and Technology* |<br>
-| Bilal Alsallakh | |<br>
+| Bilal Alsallakh | *Voxel* |<br>
 | Fereshteh Amini | *Microsoft* |<br>
 | Christopher Andrews | *Middlebury College* |<br>
 | Tushar Athawale | *Oak Ridge National Laboratory* |<br>
@@ -246,6 +246,7 @@ Contact: [opc@ieeevis.org](mailto:opc@ieeevis.org)
 | Jun Tao | *Sun Yat-sen University* |<br>
 | Yubo Tao | *Zhejiang University* |<br>
 | Huy Vo | *CUNY City College* |<br>
+| Ken Wakita | *Tokyo Institute of Technology* |<br> 
 | Chaoli Wang | *University of Notre Dame* |<br>
 | Junpeng Wang | *Visa Research* |<br>
 | Yifang Wang | *Northwestern University* |<br>
