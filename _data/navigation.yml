@@ -191,8 +191,8 @@ menu:
                     is_external: true
                   - text: "Elections"
                     description: "Register to vote and nominate/review candidates for the VSC/VEC"
-                     url: "/year/2024/info/elections"
-                     is_new: true
+                    url: "/year/2024/info/elections"
+                    is_new: true
 # #                     is_new: true
 # #                 # - text: "Become an organizer"
 # #                 #   description: "TK TK TK Join the committees and help organize VIS"
