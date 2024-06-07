@@ -368,9 +368,9 @@ menu:
           #         url: "http://visxai.io/"
           #         is_external: true
       - subsections:
-          # - heading: "Community"
-          #   heading_url: "/year/2024/info/call-participation/community"
-          #   description: "Explore social and topic-based community groups"
+           - heading: "Community"
+             heading_url: "/year/2024/info/call-participation/community"
+             description: "Explore social and topic-based community groups"
           #   columns:
               #- heading: "Connect"
               #  links:
