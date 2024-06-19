@@ -16,7 +16,7 @@ on:
       - vis2021
       - vis2022
       - vis2023
-      - vis2024
+      - vis2024-program
 
 jobs:
   build:
