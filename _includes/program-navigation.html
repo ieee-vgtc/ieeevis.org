@@ -1,0 +1,128 @@
+<!-- Navigation Bar -->
+
+<div id="program-navigation">
+    <nav class="program-nav flex flex-start justify-between md:justify-start items-center">
+        <div class="logo--program-nav flex-none text-lg text-red-700 p-4 md:p-2 lg:p-4">
+            Program
+        </div>
+
+        <div class="program-menu md:flex md:justify-end" v-bind:class="{ 'menu--expanded': isExpanded }">
+
+            {% if site.data.program_navigation.schedule.display %}
+
+            {% assign is_active_class = '' %}
+            {% if page.active_nav == 'Schedule' %}
+            {% assign is_active_class = 'program_menu_item--is-active' %}
+            {% endif %}
+
+            <button
+                class="program_menu_item {{is_active_class}} font-display text-lg md:text-base lg:text-lg px-8 md:px-2 lg:px-4 mx-0 lg:mx-2 py-1 md:py-1 border-b-2 border-primary-200 md:border-none"
+                tabindex="0" role="menuitem">
+                <a href="{{ site.data.program_navigation.schedule.url }}">{{ site.data.program_navigation.schedule.text}}</a>
+            </button>
+
+            {% endif %}
+
+            {% if site.data.program_navigation.all_events.display %}
+
+            {% assign is_active_class = '' %}
+            {% if page.active_nav == 'All Events' %}
+            {% assign is_active_class = 'program_menu_item--is-active' %}
+            {% endif %}
+
+            <button
+                class="program_menu_item {{is_active_class}} font-display text-lg md:text-base lg:text-lg px-8 md:px-2 lg:px-4 mx-0 lg:mx-2 py-1 md:py-1 border-b-2 border-primary-200 md:border-none"
+                tabindex="0" role="menuitem">
+                <a href="{{ site.data.program_navigation.all_events.url }}">{{ site.data.program_navigation.all_events.text}}</a>
+            </button>
+
+            {% endif %}
+
+
+            {% if site.data.program_navigation.papers.display %}
+
+            {% assign is_active_class = '' %}
+            {% if page.active_nav == 'Papers' %}
+            {% assign is_active_class = 'program_menu_item--is-active' %}
+            {% endif %}
+
+            <button
+                class="program_menu_item {{is_active_class}} font-display text-lg md:text-base lg:text-lg px-8 md:px-2 lg:px-4 mx-0 lg:mx-2 py-1 md:py-1 border-b-2 border-primary-200 md:border-none"
+                tabindex="0" role="menuitem">
+                <a href="{{ site.data.program_navigation.papers.url }}">{{ site.data.program_navigation.papers.text}}</a>
+            </button>
+
+            {% endif %}
+
+
+            {% if site.data.program_navigation.posters.display %}
+
+            {% assign is_active_class = '' %}
+            {% if page.active_nav == 'Posters' %}
+            {% assign is_active_class = 'program_menu_item--is-active' %}
+            {% endif %}
+
+            <button
+                class="program_menu_item {{is_active_class}} font-display text-lg md:text-base lg:text-lg px-8 md:px-2 lg:px-4 mx-0 lg:mx-2 py-1 md:py-1 border-b-2 border-primary-200 md:border-none"
+                tabindex="0" role="menuitem">
+                <a href="{{ site.data.program_navigation.posters.url }}">{{ site.data.program_navigation.posters.text}}</a>
+            </button>
+
+            {% endif %}
+
+
+            {% if site.data.program_navigation.workshops.display %}
+
+            {% assign is_active_class = '' %}
+            {% if page.active_nav == 'Workshops' %}
+            {% assign is_active_class = 'program_menu_item--is-active' %}
+            {% endif %}
+
+            <button
+                class="program_menu_item {{is_active_class}} font-display text-lg md:text-base lg:text-lg px-8 md:px-2 lg:px-4 mx-0 lg:mx-2 py-1 md:py-1 border-b-2 border-primary-200 md:border-none"
+                tabindex="0" role="menuitem">
+                <a href="{{ site.data.program_navigation.workshops.url }}">{{ site.data.program_navigation.workshops.text}}</a>
+            </button>
+
+            {% endif %}
+
+
+            {% if site.data.program_navigation.speakers.display %}
+
+            {% assign is_active_class = '' %}
+            {% if page.active_nav == 'Speakers' %}
+            {% assign is_active_class = 'program_menu_item--is-active' %}
+            {% endif %}
+
+            <button
+                class="program_menu_item {{is_active_class}} font-display text-lg md:text-base lg:text-lg px-8 md:px-2 lg:px-4 mx-0 lg:mx-2 py-1 md:py-1 border-b-2 border-primary-200 md:border-none"
+                tabindex="0" role="menuitem">
+                <a href="{{ site.data.program_navigation.speakers.url }}">{{ site.data.program_navigation.speakers.text}}</a>
+            </button>
+
+            {% endif %}
+
+
+            {% if site.data.program_navigation.awards.display %}
+
+            {% assign is_active_class = '' %}
+            {% if page.active_nav == 'Awards' %}
+            {% assign is_active_class = 'program_menu_item--is-active' %}
+            {% endif %}
+
+            <button
+                class="program_menu_item {{is_active_class}} font-display text-lg md:text-base lg:text-lg px-8 md:px-2 lg:px-4 mx-0 lg:mx-2 py-1 md:py-1 border-b-2 border-primary-200 md:border-none"
+                tabindex="0" role="menuitem">
+                <a href="{{ site.data.program_navigation.awards.url }}">{{ site.data.program_navigation.awards.text}}</a>
+            </button>
+
+            {% endif %}
+
+
+        </div>
+
+
+    </nav>
+
+
+</div>

@@ -1,0 +1,55 @@
+# Example Navigation Config
+
+# registration:
+#   display:
+#
+# menu
+#   - dropdown:
+#     display:
+#     sections:
+#       - subsections:
+#           - heading:
+#             heading_url:
+#             description:
+#             columns:
+#               - heading:
+#                 links:
+#                   - text:
+#                     url:
+#                     is_new:
+#                     is_external
+
+schedule:
+  display: true
+  text: "Schedule"
+  url: "/year/2024/program/schedule/index"
+
+all_events:
+  display: true
+  text: "All Events"
+  url: "/year/2024/program/all_events/index"
+
+papers:
+  display: true
+  text: "Papers"
+  url: "/year/2024/program/papers/index"
+
+posters:
+  display: true
+  text: "Posters"
+  url: "/year/2024/program/posters/index"
+
+workshops:
+  display: true
+  text: "Workshops"
+  url: "/year/2024/program/workshops/index"
+
+speakers:
+  display: true
+  text: "Speakers"
+  url: "/year/2024/program/speakers/index"
+
+awards:
+  display: true
+  text: "Awards"
+  url: "/year/2024/program/awards/index"
