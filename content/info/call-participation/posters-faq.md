@@ -1,7 +1,7 @@
 ---
 title: Posters FAQ
 layout: page
-permalink: /info/call-participation/posters-faq
+permalink: /year/2024/info/call-participation/posters-faq
 contact: posters@ieeevis.org
 active_nav: "Contribute"
 sidebar: call-for-participation

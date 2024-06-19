@@ -1,7 +1,7 @@
 ---
 title: Application Spotlights
 layout: page
-permalink: /info/call-participation/application-spotlights
+permalink: /year/2024/info/call-participation/application-spotlights
 active_nav: "Contribute"
 sidebar: call-for-workshops
 contact: spotlights@ieeevis.org

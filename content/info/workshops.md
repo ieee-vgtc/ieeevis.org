@@ -1,7 +1,7 @@
 ---
 title: Workshops
 layout: page
-permalink: /info/workshops
+permalink: /year/2024/info/workshops
 contact: workshops@ieeevis.org
 ---
 

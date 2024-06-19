@@ -2,7 +2,7 @@
 title: Information for Recording your Talk
 layout: page
 sidebar: call-for-participation
-permalink: /info/presenter-information/talk-recording-guide
+permalink: /year/2024/info/presenter-information/talk-recording-guide
 active_nav: "Contribute"
 contact: tech@ieeevis.org
 ---

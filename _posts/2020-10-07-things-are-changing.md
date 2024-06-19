@@ -5,7 +5,7 @@ layout: blog-page
 active_nav: Blog
 authors: "The reVISe Committee"
 author_contact: revise@ieeevis.org
-permalink: /blog/things-are-changing-2021
+permalink: /year/2024/blog/things-are-changing-2021
 ---
 
 Hello VIS Community!

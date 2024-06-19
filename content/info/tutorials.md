@@ -1,7 +1,7 @@
 ---
 title: Tutorials
 layout: page
-permalink: /info/tutorials
+permalink: /year/2024/info/tutorials
 contact: tutorials@ieeevis.org
 ---
 

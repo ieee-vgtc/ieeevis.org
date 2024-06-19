@@ -2,7 +2,7 @@
 title: Technical Guidance for Associated Events, Tutorials, and Workshops
 layout: page
 sidebar: call-for-participation
-permalink: /info/presenter-information/guidance-for-associated-events
+permalink: /year/2024/info/presenter-information/guidance-for-associated-events
 active_nav: "Contribute"
 contact: tech@ieeevis.org
 ---

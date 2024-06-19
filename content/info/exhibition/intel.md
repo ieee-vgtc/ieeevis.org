@@ -1,6 +1,6 @@
 ---
 title: Intel
-permalink: /info/exhibition/intel
+permalink: /year/2024/info/exhibition/intel
 contact: supporters@ieeevis.org
 active_nav: "Contribute"
 layout: page

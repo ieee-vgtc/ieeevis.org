@@ -1,7 +1,7 @@
 ---
 title: Open Practices arXiv Guidance
 layout: page
-permalink: /info/open-practices/vis-specific-arxiv-recommendations
+permalink: /year/2024/info/open-practices/vis-specific-arxiv-recommendations
 active_nav: "Contribute"
 contact: open_practices@ieeevis.org
 ---

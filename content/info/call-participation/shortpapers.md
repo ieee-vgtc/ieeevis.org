@@ -1,7 +1,7 @@
 ---
 title: Short Paper Call for Participation
 layout: page
-permalink: /info/call-participation/shortpapers
+permalink: /year/2024/info/call-participation/shortpapers
 contact: shortpapers@ieeevis.org
 active_nav: "Contribute"
 sidebar: call-for-shortpapers

@@ -6,7 +6,7 @@ active_nav: Blog
 authors: The VIS 2023 General Chairs
 corresponding: Tim Dwyer
 author_contact: general_chair@ieeevis.org
-permalink: /blog/vis-23-conference-format
+permalink: /year/2024/blog/vis-23-conference-format
 ---
 
 In deciding the format for IEEE VIS 2023, as well as wanting to ensure the best possible experience for our attendees, we considered a number of factors. 

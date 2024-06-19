@@ -1,6 +1,6 @@
 ---
 title: "Papers - Call For Participation"
-permalink: /info/call-participation/call-for-participation
+permalink: /year/2024/info/call-participation/call-for-participation
 contact: papers@ieeevis.org
 active_nav: "Contribute"
 layout: landing

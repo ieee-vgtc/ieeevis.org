@@ -6,7 +6,7 @@ active_nav: Blog
 authors: The reVISe Committee
 corresponding: Christoph Garth
 author_contact: revise@ieeevis.org
-permalink: /blog/vis-21-area-model
+permalink: /year/2024/blog/vis-21-area-model
 ---
 
 Hello VIS community,

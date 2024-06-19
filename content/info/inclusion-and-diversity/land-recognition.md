@@ -2,7 +2,7 @@
 title: Land Recognition
 layout: page
 active_nav: "Attend"
-permalink: /info/inclusion-and-diversity/land-recognition
+permalink: /year/2024/info/inclusion-and-diversity/land-recognition
 ---
 
 The land on which this conference takes place was the traditional home of the 

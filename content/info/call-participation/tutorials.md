@@ -1,7 +1,7 @@
 ---
 title: Tutorials - Call For Participation
 layout: page
-permalink: /info/call-participation/tutorials
+permalink: /year/2024/info/call-participation/tutorials
 contact: panels_tutorials@ieeevis.org
 active_nav: "Contribute"
 sidebar: call-for-workshops

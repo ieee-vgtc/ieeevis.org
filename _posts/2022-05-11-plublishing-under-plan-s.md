@@ -6,7 +6,7 @@ active_nav: Blog
 authors: The VIS Open Practices Committee
 corresponding: Lonni Besançon, Cody Dunne
 author_contact: open_practices@ieeevis.org
-permalink: /blog/plublishing-under-plan-s
+permalink: /year/2024/blog/plublishing-under-plan-s
 ---
 
 **What is Plan S?**

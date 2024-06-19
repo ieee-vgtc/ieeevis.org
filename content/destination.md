@@ -1,7 +1,7 @@
 ---
 title: Destination
 layout: page
-permalink: /destination
+permalink: /year/2024/destination
 active_nav: Destination
 contact: 
 ---

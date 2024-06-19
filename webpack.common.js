@@ -27,7 +27,23 @@ module.exports = {
         path: __dirname + '/dist',
         filename: "bundle.js"
     },
-
+    // devServer: {
+    //     contentBase: path.join(__dirname, 'static'),
+    //     compress: false,
+    //     open: true,
+    //     port: 4000,
+    //     historyApiFallback: true,
+    //     hot: true,
+    //     publicPath: '/',
+    // },
+    devServer: {
+        static: { 
+            directory: path.resolve(__dirname, './static'), 
+            publicPath: '/static'
+        },
+        port: 3000,
+        // proxy: 'http://localhost:4000',
+    },
     module: {
         rules: [
             {
@@ -59,7 +75,7 @@ module.exports = {
                 host: 'localhost',
                 port: 3000,
                 proxy: 'http://localhost:4000',
-                files: ['_site', 'src'],
+                files: ['_site', 'src', 'static', 'governance'],
             },
             {
                 reload: false,

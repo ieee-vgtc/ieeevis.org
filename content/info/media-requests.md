@@ -1,7 +1,7 @@
 ---
 title: Vis2020 Media Center
 layout: page
-permalink: /info/media-requests
+permalink: /year/2024/info/media-requests
 ---
 
 VIS 2020 will be the foremost Scientific Visualization, Information Visualization and Visual Analytics event of the year. With in-depth workshops, tutorials, research presentations, and exhibits, it is the field’s must-attend event for researchers, academia, exhibitors and media alike to learn about and share the latest and most innovative developments within the computing community.

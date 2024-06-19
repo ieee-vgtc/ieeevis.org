@@ -1,7 +1,7 @@
 ---
 title: Final Information for Paper Authors
 layout: page
-permalink: /info/presenter-information/final-information-paper-authors
+permalink: /year/2024/info/presenter-information/final-information-paper-authors
 active_nav: "Contribute"
 sidebar: call-for-participation
 contact: papers@ieeevis.org

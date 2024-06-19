@@ -1,6 +1,6 @@
 ---
 title: Kitware
-permalink: /info/exhibition/kitware
+permalink: /year/2024/info/exhibition/kitware
 contact: supporters@ieeevis.org
 active_nav: "Contribute"
 layout: page

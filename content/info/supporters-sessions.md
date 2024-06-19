@@ -1,7 +1,7 @@
 ---
 title: Supporters Forum
 layout: page
-permalink: /info/supporters-sessions
+permalink: /year/2024/info/supporters-sessions
 contact: supporters@ieeevis.org
 ---
 

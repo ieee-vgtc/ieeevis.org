@@ -1,7 +1,7 @@
 ---
 title: Blog
 layout: blog-page
-permalink: /blog/index
+permalink: /year/2024/blog/index
 active_nav: Blog
 contact: web@ieeevis.org
 ---

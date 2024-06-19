@@ -1,7 +1,7 @@
 ---
 title: Community
 layout: page
-permalink: /info/call-participation/community
+permalink: /year/2024/info/call-participation/community
 active_nav: "Events & Community"
 sidebar: call-for-participation
 contact: community@ieeevis.org

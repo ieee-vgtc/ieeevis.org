@@ -1,7 +1,7 @@
 ---
 title: VIS 2021 Satellite Program
 layout: page
-permalink: /info/call-participation/satellite
+permalink: /year/2024/info/call-participation/satellite
 sidebar: call-for-participation
 contact: general_chair@ieeevis.org
 ---

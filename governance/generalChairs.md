@@ -1,7 +1,7 @@
 ---
 title: IEEE VIS - Being General Chair of IEEE VIS
 layout: page
-permalink: /governance/generalChairs
+permalink: /year/2024/governance/generalChairs
 ---
 
 Being a General Chair (GC) for IEEE VIS puts you at the head of a talented team of enthusiastic and capable people from around the world. It enables you to draw upon these people, and your own local talent, to deliver an exciting VIS conference in your way, as you bring the global visualization community to you. It is a lot of work, but it’s a rewarding, influential and well supported role.

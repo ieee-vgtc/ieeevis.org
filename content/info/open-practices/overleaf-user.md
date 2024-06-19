@@ -1,7 +1,7 @@
 ---
 title: Open Practices arXiv Guidance for Overleaf users
 layout: page
-permalink: /info/open-practices/overleaf-user
+permalink: /year/2024/info/open-practices/overleaf-user
 active_nav: "Contribute"
 contact: open_practices@ieeevis.org
 ---

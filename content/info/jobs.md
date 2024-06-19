@@ -2,7 +2,7 @@
 title: Jobs
 layout: page
 active_nav: "Program"
-permalink: /info/jobs
+permalink: /year/2024/info/jobs
 ---
 
 ## Welcome to the VIS 2023 site for job postings

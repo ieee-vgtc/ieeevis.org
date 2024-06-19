@@ -1,7 +1,7 @@
 ---
 title: Application Spotlights
 layout: page
-permalink: /info/spotlights
+permalink: /year/2024/info/spotlights
 contact: spotlights@ieeevis.org
 ---
 

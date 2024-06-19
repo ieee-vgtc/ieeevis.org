@@ -1,7 +1,7 @@
 ---
 title: IEEE Governance Structure
 layout: page
-permalink: /governance/IEEE-governance-structure
+permalink: /year/2024/governance/IEEE-governance-structure
 ---
 
 ## IEEE Governance Structure

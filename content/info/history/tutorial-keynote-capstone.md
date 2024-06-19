@@ -1,7 +1,7 @@
 ---
 title: History
 layout: page
-permalink: /info/history/tutorial-keynote-capstone
+permalink: /year/2024/info/history/tutorial-keynote-capstone
 contact: archive@ieeevis.org
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Make PDF submission accessible
 layout: page
-permalink: /info/call-participation/make-pdf-accessible
+permalink: /year/2024/info/call-participation/make-pdf-accessible
 active_nav: "Contribute"
 sidebar: call-for-participation
 contact: accessibility@ieeevis.org

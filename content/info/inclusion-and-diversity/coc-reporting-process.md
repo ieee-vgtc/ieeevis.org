@@ -2,7 +2,7 @@
 title: Code of Conduct Reporting Process for IEEE VIS
 layout: page
 active_nav: "Attend"
-permalink: /info/inclusion-and-diversity/coc-reporting-process
+permalink: /year/2024/info/inclusion-and-diversity/coc-reporting-process
 ---
 
 <center>

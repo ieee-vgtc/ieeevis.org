@@ -1,7 +1,7 @@
 ---
 title: Doctoral Colloquium - Call For Participation
 layout: page
-permalink: /info/call-participation/doctoral-colloquium
+permalink: /year/2024/info/call-participation/doctoral-colloquium
 active_nav: "Contribute"
 sidebar: call-for-workshops
 contact: doctoral_coll@ieeevis.org

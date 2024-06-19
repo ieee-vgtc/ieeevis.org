@@ -1,7 +1,7 @@
 ---
 title: IEEE Vis Townhall
 layout: page
-permalink: /info/townhall
+permalink: /year/2024/info/townhall
 contact: vec@ieeevis.org
 ---
 

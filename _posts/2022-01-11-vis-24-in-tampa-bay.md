@@ -6,7 +6,7 @@ active_nav: Blog
 authors: The VIS Executive Committee
 corresponding: Lisa Avila
 author_contact: vec@ieeevis.org
-permalink: /blog/vis-24-in-tampa-bay
+permalink: /year/2024/blog/vis-24-in-tampa-bay
 ---
 
 Hello VIS Community,

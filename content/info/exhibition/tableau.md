@@ -1,6 +1,6 @@
 ---
 title: Tableau
-permalink: /info/exhibition/tableau
+permalink: /year/2024/info/exhibition/tableau
 contact: supporters@ieeevis.org
 active_nav: "Contribute"
 layout: page

@@ -1,7 +1,7 @@
 ---
 title: Best Paper Process
 layout: page
-permalink: /governance/best-paper-process
+permalink: /year/2024/governance/best-paper-process
 contact: vsc@ieeevis.org
 ---
 

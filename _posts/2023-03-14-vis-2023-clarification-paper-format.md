@@ -5,7 +5,7 @@ layout: blog-page
 active_nav: Blog
 authors: The VIS 2023 Overall Papers Chairs
 author_contact: opc@ieeevis.org
-permalink: /blog/vis-2023-clarification-paper-format
+permalink: /year/2024/blog/vis-2023-clarification-paper-format
 ---
 
 The paper submission format this year includes the possibility of adding content other than references on the 10th and 11th pages of a submission.

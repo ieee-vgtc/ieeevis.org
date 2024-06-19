@@ -1,7 +1,7 @@
 ---
 title: VIS 2021 Satellite Sites
 layout: page
-permalink: /info/satellite
+permalink: /year/2024/info/satellite
 contact: info@ieeevis.org
 ---
 

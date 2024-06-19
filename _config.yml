@@ -42,3 +42,18 @@ defaults:
     values:
       contact: "web@ieeevis.org"
       layout: "main"
+  - 
+    scope:
+      path: "program"
+      type: "pages"
+    values:
+      contact: "web@ieeevis.org"
+      layout: "page"
+  - 
+    scope:
+      path: "year/2024/program"
+      type: "pages"
+    values:
+      contact: "web@ieeevis.org"
+      layout: "page"
+      published: false

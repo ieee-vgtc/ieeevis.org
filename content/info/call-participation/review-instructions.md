@@ -1,7 +1,7 @@
 ---
 title: Review Instructions
 layout: page
-permalink: /info/call-participation/review-instructions
+permalink: /year/2024/info/call-participation/review-instructions
 contact: papers@ieeevis.org
 sidebar: call-for-participation
 ---

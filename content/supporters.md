@@ -1,7 +1,7 @@
 ---
 title: "Supporting the IEEE VIS Conference"
 layout: page
-permalink: /supporters
+permalink: /year/2024/supporters
 contact: supporters@ieeevis.org
 ---
 

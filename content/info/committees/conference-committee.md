@@ -2,7 +2,7 @@
 title: Conference Organizing Committee
 layout: page
 active_nav: "Organization & History"
-permalink: /info/committees/conference-committee
+permalink: /year/2024/info/committees/conference-committee
 ---
 
 | **General Chairs** | |

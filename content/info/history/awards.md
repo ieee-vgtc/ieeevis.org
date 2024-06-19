@@ -1,7 +1,7 @@
 ---
 title: History
 layout: page
-permalink: /info/history/awards
+permalink: /year/2024/info/history/awards
 contact: archive@ieeevis.org
 ---
 

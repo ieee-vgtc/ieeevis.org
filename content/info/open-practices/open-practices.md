@@ -1,7 +1,7 @@
 ---
 title: Open Practices
 layout: page
-permalink: /info/open-practices/open-practices
+permalink: /year/2024/info/open-practices/open-practices
 active_nav: "Contribute"
 sidebar: call-for-participation
 contact: open_practices@ieeevis.org

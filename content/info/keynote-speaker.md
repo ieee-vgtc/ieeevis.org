@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Keynote by Dr. Drew Berry and Professor Anders Ynnerman"
-permalink: /info/keynote-speaker
+permalink: /year/2024/info/keynote-speaker
 contact: info@ieeevis.org
 active_nav: "Program"
 ---

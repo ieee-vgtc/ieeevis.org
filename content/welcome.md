@@ -1,7 +1,7 @@
 ---
 layout: homepage
 title: "Welcome to IEEE VIS 2024!"
-permalink: /welcome
+permalink: /year/2024/welcome
 contact: general_chair@ieeevis.org
 ---
 

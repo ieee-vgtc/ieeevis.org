@@ -1,6 +1,6 @@
 ---
 title: Microsoft
-permalink: /info/exhibition/microsoft
+permalink: /year/2024/info/exhibition/microsoft
 contact: supporters@ieeevis.org
 active_nav: "Contribute"
 layout: page

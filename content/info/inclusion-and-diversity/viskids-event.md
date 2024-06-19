@@ -2,7 +2,7 @@
 title: VISKids
 layout: page
 active_nav: "Attend"
-permalink: /info/inclusion-and-diversity/viskids-event
+permalink: /year/2024/info/inclusion-and-diversity/viskids-event
 contact: viskids@ieeevis.org
 ---
 

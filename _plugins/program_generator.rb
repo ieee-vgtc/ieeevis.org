@@ -43,7 +43,7 @@ module ProgramPlugin
       @data = {}
       data["layout"] = "page"
       data["title"] = "Program"
-      # data["permalink"] = "/program/static_page.basename"
+      # data["permalink"] = "/year/2024/program/#{basename}#{@ext}"
       data["active_nav"] = "Program"
       data["contact"] = "web@ieeevis.org"
 

@@ -1,7 +1,7 @@
 ---
 title: Workshops - Call For Participation
 layout: page
-permalink: /info/call-participation/workshops
+permalink: /year/2024/info/call-participation/workshops
 active_nav: "Contribute"
 sidebar: call-for-workshops
 contact: workshops@ieeevis.org

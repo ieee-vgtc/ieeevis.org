@@ -2,7 +2,7 @@
 title: IEEE VIS 2023 Meetups
 layout: page
 active_nav: "Events & Community"
-permalink: /info/meetups
+permalink: /year/2024/info/meetups
 contact: meetups@ieeevis.org
 ---
 
