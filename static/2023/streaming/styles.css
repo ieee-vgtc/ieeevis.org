@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+body.viewer, body.playback {
+    overflow: hidden;
+}
+h1, h2, h3, h4 {
+    font-family: "Zilla Slab SemiBold", serif;
+    color: rgb(111, 33, 132);
+}
+
+td, th {
+    padding: 8px 12px;
+}
+thead tr {
+    background: #fcfcfc;
+}
+tr {
+    background: #f8f8f8;
+}
+tr.active {
+    background: #d5d5d5;
+    font-weight: bold;
+}
+#playback-table {
+    width: 100%;
+    cursor: pointer;
+    font-size: 20px;
+}
+#playback-table .active, #playback-table th {
+    cursor: default;
+}
+
+button {
+    margin: 20px 10px;
+    padding: 10px 15px;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+#slido-wrap {
+    overflow: hidden;
+}
+#slido-frame {
+    margin-top: -0px; /* must match JS */
+}
+
+header {
+    /*background: #ffeaea;*/
+    height: 40px;
+    display: block;
+    font-size: 16px;
+    font-family: Arial;
+    padding: 11px 0;
+}
+#track-title {
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+}
+iframe {
+    border: 0;
+}
+#sidepanel * {
+    transition: height ease 300ms;
+}
+
+.playback #sidepanel {
+    overflow-y: auto;
+    height: 100vh;
+}
+
+#main-content {
+    height: 100%;
+}
+#image-outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#auth {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px 40px;
+}
+#access-alert {
+    color: #a00;
+    font-size: 12pt;
+}
+#admin-content {
+    display: none;
+}
+#session-notes-wrap {
+    margin: 10px 0;
+    font-size: 14pt;
+}
+
+#uid {
+    padding: 5px 10px;
+    font-family: "Courier New", monospace;
+    background: #ddd;
+}
+
+#live-session-alert {
+    background: #fee;
+    font-size: 12pt;
+    padding: 10px 30px;
+}
+
+@font-face{
+    font-family:"Zilla Slab SemiBold";
+    font-style:normal;
+    font-weight:700;
+    font-display:swap;
+    src:local("Zilla Slab SemiBold"),local("Zilla-Slab-SemiBold"),url("ZillaSlab-SemiBold.ttf") format("truetype");
+}
+
+.slido-copy-link {
+    cursor: pointer;
+}
+
+
+/* playback specifically */
+.playback thead tr, tr {
+    background: #fff;
+}
+
+.playback th {
+    font-family: Zilla Slab SemiBold;
+    font-size: 1.25rem; /* 20px */
+    color: #4A5567; /*main text colour */
+}
+
+.playback td {
+    font-family: Fira Sans;
+    font-size: 1rem; /*16px*/
+    color: #4A5567; /*main text colour */
+}
+
+.playback td:hover {
+    color: #6CA76B; /*link colour*/
+}
+
+.playback td.active {
+    background-color: #F9C745; /*accent 2*/
+}

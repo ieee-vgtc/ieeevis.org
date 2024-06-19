@@ -6,7 +6,11 @@ done
 
 # overload governance with 2022 style
 rm -rf _site/governance
-mv _site/year/2024/governance -t _site/
+mv _site/year/2024/governance _site/
+
+# overload static assets for vis virtual
+rm -rf _site/static
+mv _site/year/2024/static _site/
 
 # move 2022-specific 404/error pages to root
 cp _site/year/2024/error* _site/year/2024/404 -t _site/

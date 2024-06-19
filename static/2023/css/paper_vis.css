@@ -1,0 +1,85 @@
+.dot {
+  fill: rgb(43, 113, 255);
+  fill-opacity: 0.5;
+  transition-duration: 0.2s;
+}
+
+.dot:hover {
+  fill-opacity: 1;
+}
+
+.dot.highlight {
+  fill-opacity: 1;
+  fill: rgb(43, 113, 255);
+  /*fill: #bed972;*/
+/*rgb(255, 54, 72);*/
+}
+.dot.non-highlight {
+  fill: rgba(128, 128, 128, 0.62);
+}
+
+.dot.rect_selected {
+  /*fill: rgb(169, 208, 62);*/
+  stroke: #333;
+  stroke-width: 1;
+  stroke-opacity: 1;
+}
+
+.dot.highlight_sel {
+  fill-opacity: 1;
+  fill: rgb(43, 113, 255);
+  /*fill: #bed972;*/
+  /*fill: rgb(255, 54, 72);*/
+}
+
+.dot.read {
+  fill: gray;
+}
+.dot.bookmarked {
+  fill: var(--accent-color);
+  fill-opacity: 1;
+}
+.dot.bookmarked.non-highlight {
+  fill: var(--accent-color);
+  fill-opacity: .5;
+}
+
+.tt-title {
+  font-weight: bold;
+}
+
+.topWords {
+  display: inline-block;
+  padding: 2px 4px;
+  margin: 2px;
+  background: #666666;
+  color: white;
+  border-radius: 2px;
+}
+
+.p_title {
+  font-weight: bold;
+}
+.p_authors {
+  font-size: small;
+}
+.sel_paper {
+  background: white;
+  padding: 5px;
+  margin: 5px 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.sel_paper:hover {
+  background: lightgray;
+}
+
+.results {
+  width: 200px;
+}
+
+@media (max-width: 767.98px) {
+  .results {
+    width: 90%;
+  }
+}
