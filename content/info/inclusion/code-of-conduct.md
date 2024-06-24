@@ -1,7 +1,7 @@
 ---
 title: IEEE VIS Code of Conduct
 layout: page
-permalink: /info/inclusion-and-diversity/code-of-conduct
+permalink: /info/inclusion/code-of-conduct
 active_nav: "Contribute"
 contact: inclusivity@ieeevis.org
 ---
