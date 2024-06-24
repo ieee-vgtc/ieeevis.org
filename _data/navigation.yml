@@ -73,28 +73,25 @@ menu:
                   is_new: true
 
           - heading: "Code of Conduct"
-            heading_url: "/year/2024/info/inclusion-and-diversity/code-of-conduct"
+            heading_url: "/year/2024/info/inclusion/code-of-conduct"
 
-      # - subsections:
-      #     - heading: "Equality, Inclusion & Diversity"
-      #       heading_url: "/year/2024/info/inclusion-and-diversity/inclusivity"
-      #       columns:
-      #         - links:
-      #             # - text: "Land Recognition"
-      #             #   description: "Recognition of the tribal land the conference takes place."
-      #             #   url: "/year/2024/info/inclusion-and-diversity/land-recognition"
-      #             - text: "Inclusivity & Diversity Scholarship"
-      #               description: "Need-based scholarships for conference attendance"
-      #               url: "/year/2024/info/inclusion-and-diversity/diversity-scholarship"
+      - subsections:
+          - heading: "Inclusion"
+            heading_url: "/year/2024/info/inclusion/inclusivity"
+            columns:
+              - links:
+                  - text: "Inclusivity Scholarship"
+                    description: "Need-based scholarships for conference attendance"
+                    url: "/year/2024/info/inclusion/scholarship"
       #             # - text: "Accessibility"
       #             #   description: "Supporting access for all attendees"
       #             #   url: "/year/2024/info/accessibility/attend"
       #             - text: "VISKids Childcare Grants"
       #               description: "Supporting our VISKids and young families"
-      #               url: "/year/2024/info/inclusion-and-diversity/viskids-child-care-grants"
+      #               url: "/year/2024/info/inclusion/viskids-child-care-grants"
   #                 - text: "VISKids"
   #                   description: "Childcare and activities open to everyone"
-  #                   url: "/year/2024/info/inclusion-and-diversity/viskids-event"
+  #                   url: "/year/2024/info/inclusion/viskids-event"
 
   - dropdown: "Contribute"
     display: true
@@ -169,7 +166,7 @@ menu:
 # #                     is_new: true
 
           - heading: "Code of Conduct"
-            heading_url: "/year/2024/info/inclusion-and-diversity/code-of-conduct"
+            heading_url: "/year/2024/info/inclusion/code-of-conduct"
       - subsections:
           - heading: "Get Involved"
             columns:
@@ -507,7 +504,7 @@ menu:
                   - text: "Best Paper Process"
                     url: "/governance/best-paper-process"
           - heading: "Code of Conduct"
-            heading_url: "/year/2024/info/inclusion-and-diversity/code-of-conduct"
+            heading_url: "/year/2024/info/inclusion/code-of-conduct"
 
 
       - subsections:
