@@ -4,6 +4,17 @@
   button-url: "/destination"
   active: "active"
 
+- title: "Registration"
+  description: "Full week, one day, and two day registrations are now available!"
+  button-text: "Register Now"
+  button-url: "/info/registration/conference-registration"
+  image: 'ClearwaterBeachWalkAerial.jpg'
+
+- title: "Capstone Speakers: Professor Catherine D'Ignazio"
+  button-text: "Read More"
+  button-url: "/info/capstone-speaker"
+  image: "catherine-dignazio-carousel.jpg"
+
 - title: "Latest Update on IEEE VIS 2024 Conference Format"
   button-text: "Latest Update"
   button-url: "/blog/vis-2024-conference-format"
@@ -44,11 +55,6 @@
 #   button-url: "/info/keynote-speaker"
 #   image: "danah_boyd.jpg"
 
-- title: "Capstone Speakers: Professor Catherine D'Ignazio"
-  button-text: "Read More"
-  button-url: "/info/capstone-speaker"
-  image: "catherine-dignazio-carousel.jpg"
-
 # - title: "Job postings"
 #   button-text: "Read More"
 #   button-url: "/info/jobs"
@@ -59,9 +65,4 @@
 #  button-text: "See the video"
 #  button-url: "https://youtu.be/SfWOKH8IR5k"
 #  image: "vis_presenting_tips.png"
-#
-#- title: "Registration"
-#  description: "Full week, one day, two day, and keynote + capstone registrations are still available."
-#  button-text: "Register now"
-#  button-url: "/info/registration/conference-registration"
-#  image: 'small_exposure_lights.png'
+
