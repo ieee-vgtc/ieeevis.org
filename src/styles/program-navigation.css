@@ -78,6 +78,8 @@
 /* Menu Items */
 
 .program_menu_item {
+    display: flex;
+    align-items: center;
     background: #fff;
     position: relative;
     transition: color, background-color 250ms ease;
