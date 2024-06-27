@@ -76,6 +76,9 @@
      - name: "Databricks"
        image: /assets/supporters/databricks_logo.svg
        url: "https://www.databricks.com/"
+     - name: "NREL"
+       image: /assets/supporters/NREL.jpg
+       url: "https://www.nrel.gov/"       
 #      - name: "Apple"
 #        image: /assets/supporters/apple.png
 #        url: "https://www.apple.com"
@@ -122,9 +125,7 @@
      # - name: "University of Queensland"
      #   image: "/assets/supporters/UQ logo - co-branding.jpg"
      #   url: "https://www.uq.edu.au/"
-     # - name: "NREL"
-     #   image: /assets/supporters/NREL.jpg
-     #   url: "https://www.nrel.gov/"
+
 #     - name: "VisPsych"
 #       image: /assets/supporters/vispsych.png
 #       url: "https://sites.google.com/view/vispsych/"
@@ -132,9 +133,12 @@
  #       image: /assets/supporters/University_of_Melbourne.png
  #       url: "https://www.unimelb.edu.au/"
 
- # - category: Exhibitors
- #   image_size: 140
- #   supporters:
+ - category: Exhibitors
+   image_size: 140
+   supporters:
+     - name: "CRC Press"
+       image: /assets/supporters/CRC_Press_logo.svg.png
+       url: "https://crcpress.com"
  #     - name: "Tom Sawyer Software"
  #       image: /assets/supporters/TomSawyer.jpg
  #       url: "https://www.tomsawyer.com/"
