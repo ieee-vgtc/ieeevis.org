@@ -43,9 +43,6 @@ menu:
                 - text: "Registration"
                   url: "/year/2024/info/registration/conference-registration"
                   is_new: true
-            #     - text: "Registration"
-            #       url: "/year/2024/info/registration/conference-registration"
-            #       is_new: true
                 # - text: "Satellite Sites"
                 #   url: "/year/2024/info/satellite"
                 #    - text: "Practitioner Guide"
@@ -62,12 +59,12 @@ menu:
                   #is_new: true
             - heading: "Travel"
               links:
-                - text: "Tampa Destination Guide"
-                  url: "/year/2024/destination"
-                  is_new: false
                 - text: "Hotel Information"
                   url: "/year/2024/info/registration/hotel-information"
                   is_new: true
+                - text: "Tampa Destination Guide"
+                  url: "/year/2024/destination"
+                  is_new: false
                 - text: "Visas"
                   url: "/year/2024/info/registration/travel-visas"
                   is_new: true
@@ -126,7 +123,7 @@ menu:
                     is_new: false
                   - text: "Application Spotlights"
                     url: "/year/2024/info/call-participation/application-spotlights"
-                    is_new: true
+                    is_new: false
               - heading: "Info for Contributors"
                 links:
                    - text: "Area Model for VIS"
@@ -215,13 +212,14 @@ menu:
                   #   description: "Nascent and recent work"
                   #   url: "/year/2024/info/posters"
                   #   is_new: true
-                  # - text: "Tutorials"
-                  #   description: "Learn new tools and application domains"
-                  #   url: "/year/2024/info/tutorials"
+                  - text: "Tutorials"
+                    description: "Learn new tools and application domains"
+                    url: "/year/2024/info/tutorials"
+                    is_new: true
                   - text: "Workshops"
                     description: "Informal setting to discuss emerging topics"
                     url: "/year/2024/info/workshops"
-                    is_new: true
+                    is_new: false
                   # - text: "Panels"
                   #   description: "Discuss important and controversial issues"
                   #   url: "/year/2024/info/panels"
