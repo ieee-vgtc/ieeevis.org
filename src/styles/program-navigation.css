@@ -3,17 +3,20 @@
 .logo--program-nav {
     @apply bg-primary;
     width: 170px;
+    visibility: hidden;
 }
 
 @screen md {
     .logo--program-nav {
-        width: 118px;
+        width: 150px;
+        height: 100%;
+        visibility: visible;
     }
 }
 
 @screen lg {
     .logo--program-nav {
-        width: 150px;
+        width: 170px;
     }
 }
 
@@ -30,24 +33,25 @@
 /* Navigation Bar */
 
 .program-nav {
-    visibility: hidden;
-    --program-navigation-height: 0px;
-    @apply bg-accent-blue;
+    --program-navigation-height: 60px;
+    z-index: 998;
+    @apply bg-primary;
     /* @apply border-accent-blue border-b-2; */
     @apply text-white;
     height: var(--program-navigation-height);
 
     /* Fixed on small screens */
-    /* position: fixed; */
+    position: fixed;
     width: 100%;
+    top: 70px;
 }
 
     @screen md {
         .program-nav {
             @apply bg-accent border-0;
             @apply relative;
-            --program-navigation-height: 50px;
             visibility: visible;
+            top: 0px;
         }
     }
 
@@ -59,6 +63,11 @@
 }
 
 .program-menu {
+    display: none;
+    position: fixed;
+    /* top: var(--program-navigation-height); */
+    top: 130px;
+    height: calc(100vh - var(--program-navigation-height));
     width: 100%;
     overflow-y: scroll;
 }
@@ -66,13 +75,33 @@
     @screen md {
         .program-menu {
             position: static;
-            /* top: 0; */
+            top: 130px;
             height: 100%;
             overflow-y: unset;
             @apply bg-accent-blue;
         }
     }
 
+
+/* State: Expanded */
+.program-menu--expanded {
+    display: block;
+}
+/* Reset on larger screens */
+@screen md {
+  .program-menu--expanded {
+    display: flex;
+    top: 130px;
+    position: relative;
+  }
+
+  /* .dropdown {
+    left: 0;
+    position: absolute;
+    top: var(--program-navigation-height);
+    width: 100%;
+  } */
+}
 
 
 /* Menu Items */
@@ -136,7 +165,7 @@
     display: none;
 }
 
-    .menu_item--focused + .dropdown {
+    .program_menu_item--focused + .dropdown {
         display: block;
         animation: expandMenu 300ms ease forwards;
     }
@@ -150,7 +179,7 @@
             max-height: 0;
         }
 
-        .menu_item--focused + .dropdown {
+        .program_menu_item--focused + .dropdown {
             display: flex;
             max-height: 1000px;
             animation: none;

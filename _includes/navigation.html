@@ -8,36 +8,39 @@
             </a>
         </div>
 
-        <div class="menu md:flex md:justify-end"
-            v-bind:class="{ 'menu--expanded': isExpanded }">
+        <div class="menu md:flex md:justify-end" v-bind:class="{ 'menu--expanded': isExpanded }">
 
-        {% if site.data.navigation.blog.display %}
+            {% if site.data.navigation.blog.display %}
 
             {% assign is_active_class = '' %}
             {% if page.active_nav == 'Blog' %}
             {% assign is_active_class = 'menu_item--is-active' %}
             {% endif %}
 
-            <button class="menu_item {{is_active_class}} font-display text-lg md:text-base lg:text-lg px-8 md:px-2 lg:px-4 mx-0 lg:mx-2 py-4 md:py-6 border-b-2 border-primary-200 md:border-none" tabindex="0" role="menuitem">
+            <button
+                class="menu_item {{is_active_class}} font-display text-lg md:text-base lg:text-lg px-8 md:px-2 lg:px-4 mx-0 lg:mx-2 py-4 md:py-6 border-b-2 border-primary-200 md:border-none"
+                tabindex="0" role="menuitem">
                 <a href="{{ site.data.navigation.blog.url }}">{{ site.data.navigation.blog.text }}</a>
             </button>
 
-        {% endif %}
+            {% endif %}
 
-        {% if site.data.navigation.destination.display %}
+            {% if site.data.navigation.destination.display %}
 
             {% assign is_active_class = '' %}
             {% if page.active_nav == 'Destination' %}
             {% assign is_active_class = 'menu_item--is-active' %}
             {% endif %}
 
-            <button class="menu_item {{is_active_class}} font-display text-lg md:text-base lg:text-lg px-8 md:px-2 lg:px-4 mx-0 lg:mx-2 py-4 md:py-6 border-b-2 border-primary-200 md:border-none" tabindex="0" role="menuitem">
+            <button
+                class="menu_item {{is_active_class}} font-display text-lg md:text-base lg:text-lg px-8 md:px-2 lg:px-4 mx-0 lg:mx-2 py-4 md:py-6 border-b-2 border-primary-200 md:border-none"
+                tabindex="0" role="menuitem">
                 <a href="{{ site.data.navigation.destination.url }}">{{ site.data.navigation.destination.text }}</a>
             </button>
 
-        {% endif %}
+            {% endif %}
 
-        {% for nav in site.data.navigation.menu %}
+            {% for nav in site.data.navigation.menu %}
             {% if nav.display %}
 
             {% assign is_active_class = '' %}
@@ -45,81 +48,84 @@
             {% assign is_active_class = 'menu_item--is-active' %}
             {% endif %}
 
-            <button class="menu_item {{is_active_class}} font-display text-lg md:text-base lg:text-lg px-8 md:px-2 lg:px-4 mx-0 lg:mx-2 py-4 md:py-6 border-b-2 border-primary-200 md:border-none"
-                tabindex="0" role="menuitem"
-                v-on:click="toggleMenuItems('{{ nav.dropdown }}')"
+            <button
+                class="menu_item {{is_active_class}} font-display text-lg md:text-base lg:text-lg px-8 md:px-2 lg:px-4 mx-0 lg:mx-2 py-4 md:py-6 border-b-2 border-primary-200 md:border-none"
+                tabindex="0" role="menuitem" v-on:click="toggleMenuItems('{{ nav.dropdown }}')"
                 v-bind:class="{ 'menu_item--focused': menu['{{ nav.dropdown }}'] }">
                 <span class="whitespace-no-wrap">{{ nav.dropdown }}
-                <i class="material-icons align-middle" v-if="menu['{{ nav.dropdown }}']">arrow_drop_down</i>
-                <i class="material-icons align-middle" v-else>arrow_right</i>
+                    <i class="material-icons align-middle" v-if="menu['{{ nav.dropdown }}']">arrow_drop_down</i>
+                    <i class="material-icons align-middle" v-else>arrow_right</i>
                 </span>
             </button>
 
-            <div class="dropdown" role="menu" aria-label="submenu" :aria-hidden="[isAriaHidden]" :aria-expanded="[isAriaExpanded]">
-            {% for section in nav.sections %}
+            <div class="dropdown" role="menu" aria-label="submenu" :aria-hidden="[isAriaHidden]"
+                :aria-expanded="[isAriaExpanded]">
+                {% for section in nav.sections %}
                 <div class="dropdown__section">
                     {% for subsection in section.subsections %}
-                        <div class="dropdown__subsection">
-                            {% if subsection.heading_url %}
-                                <a class="dropdown__heading link--arrow" href="{{ subsection.heading_url }}">{{ subsection.heading }}</a>
-                            {% else %}
-                                <span class="dropdown__heading">{{ subsection.heading }}</span>
-                            {% endif %}
+                    <div class="dropdown__subsection">
+                        {% if subsection.heading_url %}
+                        <a class="dropdown__heading link--arrow" href="{{ subsection.heading_url }}">{{
+                            subsection.heading }}</a>
+                        {% else %}
+                        <span class="dropdown__heading">{{ subsection.heading }}</span>
+                        {% endif %}
 
-                            {% if subsection.description %}
-                                <p class="dropdown__description">{{ subsection.description }}</p>
-                            {% endif %}
+                        {% if subsection.description %}
+                        <p class="dropdown__description">{{ subsection.description }}</p>
+                        {% endif %}
 
-                            {% if subsection.columns %}
-                            <div class="sm:flex sm:flex-row flex-col">
-                                {% for column in subsection.columns %}
-                                    <ul class="flex-grow mt-4 md:mt-2">
-                                        {% if column.heading %}
-                                            <li class="dropdown__heading text-gray-500">{{ column.heading }}</li>
-                                        {% endif %}
-                                        {% for link in column.links %}
-                                            <li>
-                                                {% if link.url %}
-                                                <a href="{{ link.url }}">{{ link.text }}</a>
-                                                {% else %}
-                                                <a class="dropdown__disabled" title="Content forthcoming.">{{ link.text }}</a>
-                                                {% endif %}
+                        {% if subsection.columns %}
+                        <div class="sm:flex sm:flex-row flex-col">
+                            {% for column in subsection.columns %}
+                            <ul class="flex-grow mt-4 md:mt-2">
+                                {% if column.heading %}
+                                <li class="dropdown__heading text-gray-500">{{ column.heading }}</li>
+                                {% endif %}
+                                {% for link in column.links %}
+                                <li>
+                                    {% if link.url %}
+                                    <a href="{{ link.url }}">{{ link.text }}</a>
+                                    {% else %}
+                                    <a class="dropdown__disabled" title="Content forthcoming.">{{ link.text }}</a>
+                                    {% endif %}
 
-                                                {% if link.is_external %}
-                                                <span><i class="material-icons align-middle text-secondary text-sm">open_in_new</i></span>
-                                                {% endif %}
+                                    {% if link.is_external %}
+                                    <span><i
+                                            class="material-icons align-middle text-secondary text-sm">open_in_new</i></span>
+                                    {% endif %}
 
-                                                {% if link.is_new %}
-                                                <span class="bg-accent text-primary-500 text-sm mx-1 px-2 rounded-full">New</span>
-                                                {% endif %}
+                                    {% if link.is_new %}
+                                    <span class="bg-accent text-primary-500 text-sm mx-1 px-2 rounded-full">New</span>
+                                    {% endif %}
 
-                                                {% if link.description %}
-                                                <p class="dropdown__description">{{ link.description }}</p>
-                                                {% endif %}
-                                            </li>
-                                        {% endfor %}
-                                    </ul>
+                                    {% if link.description %}
+                                    <p class="dropdown__description">{{ link.description }}</p>
+                                    {% endif %}
+                                </li>
                                 {% endfor %}
-                            </div>
-
-                            {% endif %}
+                            </ul>
+                            {% endfor %}
                         </div>
+
+                        {% endif %}
+                    </div>
                     {% endfor %}
                 </div>
-            {% endfor %}
+                {% endfor %}
             </div>
             {% endif %}
-        {% endfor %}
-        {% if site.data.navigation.registration.display %}
+            {% endfor %}
+            {% if site.data.navigation.registration.display %}
             <div class="px-8 md:px-2 lg:px-4 py-4 border-b-2 border-primary-200 md:border-none self-center">
-                <a class="button" href="{{ site.data.navigation.registration.url }}">{{ site.data.navigation.registration.text }}</a>
+                <a class="button" href="{{ site.data.navigation.registration.url }}">{{
+                    site.data.navigation.registration.text }}</a>
             </div>
-        {% endif %}
+            {% endif %}
         </div>
 
-        <div class="md:hidden flex-end p-4  hamburger_menu font-display font-bold text-lg"
-            v-on:click="toggleMenu()">
-            <i class="material-icons align-middle">menu</i> Menu
+        <div class="md:hidden flex-end p-4  hamburger_menu font-display font-bold text-lg" v-on:click="toggleMenu()">
+            Menu <i class="material-icons align-middle">menu</i>
         </div>
     </nav>
 

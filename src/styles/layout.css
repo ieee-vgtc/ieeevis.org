@@ -47,7 +47,11 @@ html {
 /* Main */
 
 main {
-    margin-top: 70px; /* Push down to compensate for fixed nav*/
+    /* margin-top: 70px;  */
+    /* Push down to compensate for fixed nav*/
+
+    margin-top: 130px;
+    /* Adding 60px for the program navbar */
 }
 
 article, aside {
