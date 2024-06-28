@@ -10,24 +10,26 @@ IEEE VIS welcomes and encourages participation by people of all backgrounds and 
 
 Eligible applicants are from underrepresented and/or marginalized groups including but not limited to: gender, identity, race, ethnicity, disabilities, discipline. Applicants must be aged 18 years or older. Preference will be given to applicants with a demonstrated financial need (e.g., undergraduate students that are not currently funded for visualization research) and applicants who are new to the visualization research community. 
 
-The VIS 2024 Inclusivity Scholarship Committee will review applications based on eligibility, need, and impact. Scholarships awarded will include:
+The VIS 2024 Inclusivity Scholarship Chairs will review applications based on eligibility, need, and impact. Scholarships awarded will include:
 
 * Complimentary conference registration.
-* Based on need, fund will be provided for recipients that might not otherwise be able to attend the conference. Funds can be used to help support registration cost, travel, lodging, WiFi hotspot expenses, childcare, and other costs of attending. 
-<!-- Recipients will need to keep original expense receipts and evidence of payment up to the subscribed limits for reimbursement once the conference is over. -->
-* An assigned a mentor to guide receipients through the conference experience. 
+<!-- * Based on need, fund will be provided for recipients that might not otherwise be able to attend the conference. Funds can be used to help support registration cost, travel, lodging, WiFi hotspot expenses, childcare, and other costs of attending. 
+Recipients will need to keep original expense receipts and evidence of payment up to the subscribed limits for reimbursement once the conference is over.
+* An assigned a mentor to guide receipients through the conference experience.  -->
+* Additional funds for a demonstrated need.
+
 
 ### Application and Timeline:
 
-<!-- 
-* [Application form](https://docs.google.com/forms/d/1b4XYh-VfOCzomTRAgJmFj7PlXfs3a9iBhRpdsbpF6g4/viewform?edit_requested=true) 
-* Deadline: August 14, 2023
-* Notifications Sent: September 1, 2023
--->
+* [Application form](https://forms.gle/fzJ6RqNzSJ7buBiP9) 
+* Deadline: August 14, 2024
+* Notifications Sent: September 1, 2024
 
+<!-- 
 * Application form available soon
 * Deadline: TBD
 * Notifications Sent: TBD
+-->
 
 ### Inclusivity Scholarship Chairs
 
