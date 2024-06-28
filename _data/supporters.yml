@@ -70,15 +70,15 @@
  - category: Bronze
    image_size: 200
    supporters:
+     - name: "NREL"
+       image: /assets/supporters/NREL.jpg
+       url: "https://www.nrel.gov/"      
      - name: "VRVis"
        image: /assets/supporters/VRVis-Logo.png
        url: "https://www.vrvis.at/en/"
      - name: "Databricks"
        image: /assets/supporters/databricks_logo.svg
-       url: "https://www.databricks.com/"
-     - name: "NREL"
-       image: /assets/supporters/NREL.jpg
-       url: "https://www.nrel.gov/"       
+       url: "https://www.databricks.com/" 
 #      - name: "Apple"
 #        image: /assets/supporters/apple.png
 #        url: "https://www.apple.com"
