@@ -54,7 +54,7 @@ If driving to the hotel, onsite parking is included for resort guests (one space
 
 #### Taxi and Ride Share
 
-Taxi and ride shares a generally available at the hotel.
+Taxi and ride shares are generally available at the hotel.
 
 
 ### Resort Activities
