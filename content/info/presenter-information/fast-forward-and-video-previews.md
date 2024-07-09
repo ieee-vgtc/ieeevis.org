@@ -11,7 +11,7 @@ contact: ff@ieeevis.org
 Please **read the following instructions carefully** and submit your
 25-second video for the online Video Previews by the following deadlines:
 - Aug. 22: VIS Full/Short Papers
-- Sept. 8: [Partnership](/year/2023/info/call-participation/partnerships) presentations, including TVCG, CG&amp;A, SIGGRAPH, and VR presentations
+- Sept. 8: [TVCG/CG&amp;A presentations](/year/2024/info/call-participation/partnerships) presentations
 VIS Full/Short Papers
 - Sept 22: All other events.
 
@@ -76,7 +76,7 @@ vertical-align: top;
 
 - Do not include any title slide at the beginning of the video, as we will add a consistent title to the Video Preview containing: the paper title, authors, and session information.
 - The video should contain audio narration. We discourage salient music to focus viewers’ attention on the content.
-- Subtitles are mandatory to increase accessibility. See the [Talk Recording Guide](/year/2023/info/presenter-information/talk-recording-guide) for tips on how to create and include subtitles.
+- Subtitles are mandatory to increase accessibility. See the [Talk Recording Guide](/year/2024/info/presenter-information/talk-guide) for tips on how to create and include subtitles.
 - A Video Preview should be self-explaining and self-contained. It should clearly communicate your research and contribution and invite readers to read your paper.
 - Other than in recent years’ Fast-Forwards sessions, we discourage humor and trailer-like ‘ads’.
 - The video will exist for a long time and can be shared widely by the authors on social media and other channels.
@@ -88,7 +88,7 @@ If your track is not listed, please check for updates later as all track chairs 
 Video Previews are **required** for the following tracks:
 - VIS Full Papers
 - VIS Short Papers
-- Invited [Partnership](/year/2023/info/call-participation/partnerships) Talks (including TVCG, CG&A, SIGGRAPH, and VR)
+- Invited [Partnership](/year/2024/info/call-participation/partnerships) Talks (including TVCG, CG&A, SIGGRAPH, and VR)
 
 Video Previews are **optional** for all other tracks and associated events, unless notified otherwise by the chairs for that track/event.
 
@@ -96,11 +96,11 @@ You have **no Video-Preview** to submit for the following tracks:
 - Doctor Colloquium
 
 ## How to record your video?
-Please see the [Talk Recording Guide](/year/2023/info/presenter-information/talk-recording-guide) on how to format your Video Preview.
+Please see the [Talk Guide](/year/2024/info/presenter-information/talk-guide) on how to format your Video Preview.
 
  
 ## How to submit?
-- Video Previews will be submitted through our Presentation Material Upload system. The Tech Chairs will send out an email to the corresponding author with a submission-specific upload link. Please see the [Talk Recording Guide](/year/2023/info/presenter-information/talk-recording-guide) for more information on how to submit your Video Preview.
+- Video Previews will be submitted through our Presentation Material Upload system. The Tech Chairs will send out an email to the corresponding author with a submission-specific upload link. Please see the [Talk Guide](/year/2024/info/presenter-information/talk-guide) for more information on how to submit your Video Preview.
 
 - Please submit your video file and caption/subtitle file separately and do not bake the subtitles into the video. We will do the integration in a consistent way.
 
@@ -133,9 +133,8 @@ We ask that you submit a .srt file along with your video. One way to create such
 
 ## Video Previews Chairs
 
-- Soumya Dutta, *Indian Institute of Technology Kanpur* (soumyad@cse.iitk.ac.in)
-- Siming Chen, *Fudan University* (simingchen@fudan.edu.cn)
-- Jun Tao, *Sun Yat-sen University* (taoj23@mail.sysu.edu.cn)
-- Arjun Srinivasan, *Tableau Research* (arjunsrinivasan@tableau.com)
+- Soumya Dutta, *Indian Institute of Technology Kanpur* 
+- Ghulam Jilani Quadri, *University of Oklahoma*
+- Qing Chen, *NYU Shanghai*
 
 *Email: [ff@ieeevis.org](mailto:ff@ieeevis.org)*

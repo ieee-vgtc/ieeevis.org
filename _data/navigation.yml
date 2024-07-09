@@ -42,7 +42,7 @@ menu:
               links:
                 - text: "Registration"
                   url: "/year/2024/info/registration/conference-registration"
-                  is_new: true
+                  is_new: false
                 # - text: "Satellite Sites"
                 #   url: "/year/2024/info/satellite"
                 #    - text: "Practitioner Guide"
@@ -61,13 +61,13 @@ menu:
               links:
                 - text: "Hotel Information"
                   url: "/year/2024/info/registration/hotel-information"
-                  is_new: true
+                  is_new: false
                 - text: "Tampa Destination Guide"
                   url: "/year/2024/destination"
                   is_new: false
                 - text: "Visas"
                   url: "/year/2024/info/registration/travel-visas"
-                  is_new: true
+                  is_new: false
 
           - heading: "Code of Conduct"
             heading_url: "/year/2024/info/inclusion/code-of-conduct"
@@ -141,21 +141,21 @@ menu:
                   #    url: "/year/2024/info/call-participation/make-pdf-accessible"
                    - text: "Open Practices"
                      url: "/year/2024/info/open-practices/open-practices"
-#          - heading: "Presenter Information"
-#            columns:
-#              - links:
-#                   - text: "Final Information for Paper Authors"
-#                     url: "/year/2024/info/presenter-information/final-information-paper-authors"
-#                     is_new: false
-                   #- text: "Speakers and Presenters"
-                   #  url: "/year/2024/info/presenter-information/speakers-and-presenters"
-                   #  is_new: true
-#                   - text: "Video Previews"
-#                     url: "/year/2024/info/presenter-information/fast-forward-and-video-previews"
-#                     is_new: false
-#                   - text: "Recording your Talk"
-#                     url: "/year/2024/info/presenter-information/talk-recording-guide"
-#                     is_new: false
+          - heading: "Presenter Information"
+            columns:
+              - links:
+                  - text: "Final Information for Paper Authors"
+                    url: "/year/2024/info/presenter-information/final-information-paper-authors"
+                    is_new: true
+                  # - text: "Speakers and Presenters"
+                  #   url: "/year/2024/info/presenter-information/speakers-and-presenters"
+                  #   is_new: true
+                  - text: "Video Previews"
+                    url: "/year/2024/info/presenter-information/fast-forward-and-video-previews"
+                    is_new: true
+                  - text: "Preparing Your Talk"
+                    url: "/year/2024/info/presenter-information/talk-guide"
+                    is_new: true
 #                    - text: "Guidance for Virtual Events"
 #                      url: "/year/2024/info/presenter-information/guidance-for-associated-events"
 # #                   - text: "Presenting at the Virtual Conference"
@@ -174,7 +174,7 @@ menu:
                   - text: "Organize a meetup"
                     description: "Meet people for discussion and shared experiences"
                     url: "/year/2024/info/call-participation/meetups"
-                    is_new: true
+                    is_new: false
                   - text: "Become a student volunteer"
                     description: "Support the conference and build your research network"
                     url: "http://www.vissv.org"
@@ -186,7 +186,7 @@ menu:
                   - text: "Elections"
                     description: "Register to vote and nominate/review candidates for the VSC/VEC"
                     url: "/year/2024/info/elections"
-                    is_new: true
+                    is_new: false
 # #                     is_new: true
 # #                 # - text: "Become an organizer"
 # #                 #   description: "TK TK TK Join the committees and help organize VIS"
@@ -215,7 +215,7 @@ menu:
                   - text: "Tutorials"
                     description: "Learn new tools and application domains"
                     url: "/year/2024/info/tutorials"
-                    is_new: true
+                    is_new: false
                   - text: "Workshops"
                     description: "Informal setting to discuss emerging topics"
                     url: "/year/2024/info/workshops"
@@ -241,7 +241,7 @@ menu:
                   - text: "Capstone"
                     description: "Prof. Catherine D'Ignazio, MIT"
                     url: "/year/2024/info/capstone-speaker"
-                    is_new: true
+                    is_new: false
 #           - heading: "Awards and Recognitions"
 #             description: "Recognize outstanding work by the VIS community"
 #             columns:
