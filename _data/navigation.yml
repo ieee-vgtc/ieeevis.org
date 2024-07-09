@@ -215,7 +215,7 @@ menu:
                   - text: "Tutorials"
                     description: "Learn new tools and application domains"
                     url: "/year/2024/info/tutorials"
-                    is_new: false
+                    is_new: true
                   - text: "Workshops"
                     description: "Informal setting to discuss emerging topics"
                     url: "/year/2024/info/workshops"
