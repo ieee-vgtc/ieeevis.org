@@ -11,7 +11,7 @@ contact: tech@ieeevis.org
 
 This page provides information to presenters at IEEE VIS about how to upload the required material for your submission and prepare your talk.
 
-Please **read the following instructions carefully** for guidelines on preparing your video recordings for VIS 2023, or a VIS 2023 associated event. You will need the following information in order to prepare your recorded **Presentation Videos** as well as your **Video Preview** if required. Please note that **some things have changed** compared to previous years.
+Please **read the following instructions carefully** for guidelines on preparing your video recordings for VIS 2024, or a VIS 2024 associated event. You will need the following information in order to prepare your recorded **Presentation Videos** as well as your **Video Preview** if required. Please note that **some things have changed** compared to previous years.
 
 Work must be submitted via the provided link on the dates listed below.
 
@@ -28,9 +28,9 @@ Work must be submitted via the provided link on the dates listed below.
   * Full/Short VIS Papers, TVCG/CG&A Presentations: Sept. 8
   * All Other Events: Sept. 22
 
-## IEEE Visualization 2023 is an in-person conference
+## IEEE Visualization 2024 is an in-person conference
 
-IEEE VIS 2023 will take place on-site and, unlike previous years, the sessions will **not** be streamed online and will not be recorded (exceptions may apply). Speakers are expected to participate and present **on-site**.
+IEEE VIS 2024 will take place on-site and, unlike previous years, the sessions will **not** be streamed online and will not be recorded (exceptions may apply). Speakers are expected to participate and present **on-site**.
 It is still **mandatory** for authors of **all** VIS papers to submit a recording of their paper presentation which will be uploaded to YouTube and integrated into the online content conference site.
 These videos help to communicate your research to participants who register for online content, and provide you the opportunity to provide a slightly extended version of your presentation.
 They might also serve as an emergency backup on-site.
@@ -121,7 +121,7 @@ After recording your talk, please rewatch it to ensure the video and audio are r
 
 To encode/re-encode your video in the right format, you can use the free software [Handbrake](https://handbrake.fr/). To check that your video is in the right format, you can use the free software [MediaInfo](https://mediaarea.net/en/MediaInfo).
 
-To make full use of the 16x9 video aspect ratio we recommend using the 16x9 wide format Powerpoint template that can be used for your presentation.  Feel free to download the template with [imperial measurements]({{ 'assets/vis2023-16x9-imperial.pptx' | relative_url }}) or [metric measurements]({{ 'assets/vis2023-16x9-metric.pptx' | relative_url }}).
+To make full use of the 16x9 video aspect ratio we recommend using the 16x9 wide format Powerpoint template that can be used for your presentation.  Feel free to download the template with [imperial measurements]({{ 'assets/vis2024-16x9-imperial.pptx' | relative_url }}) or [metric measurements]({{ 'assets/vis2024-16x9-metric.pptx' | relative_url }}).
 
 ### Mandatory: Subtitles
 
