@@ -36,12 +36,13 @@ Work must be submitted via the provided link on the dates listed below.
 
 **Video Previews:**
   * VIS Full/Short Papers: Aug. 22
-  * TVCG/CG&A Presentations: Sept. 8
-  * All Other Events:  Sept. 22
+  * TVCG/CG&A Presentations: Aug. 22
+  * All Other Events:  Aug. 22
 
 **Representative Image and Caption:**
-  * Full/Short VIS Papers, TVCG/CG&A Presentations: Sept. 8
-  * All Other Events: Sept. 22
+  * Full/Short VIS Papers
+  * TVCG/CG&A Presentations: Aug. 22
+  * All Other Events: Aug. 22
 
 
 ## Presentation Recommendations and Powerpoint Template

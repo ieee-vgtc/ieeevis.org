@@ -11,9 +11,9 @@ contact: ff@ieeevis.org
 Please **read the following instructions carefully** and submit your
 25-second video for the online Video Previews by the following deadlines:
 - Aug. 22: VIS Full/Short Papers
-- Sept. 8: [TVCG/CG&amp;A presentations](/year/2024/info/call-participation/partnerships) presentations
+- Aug. 22: [TVCG/CG&amp;A presentations](/year/2024/info/call-participation/partnerships) presentations
 VIS Full/Short Papers
-- Sept 22: All other events.
+- Aug. 22: All other events.
 
 Video Previews are a great opportunity to publicize your work or event to a wide audience and invite people to join your presentation and read your paper. Video Previews are accessible from the conference website on the VIS YouTube channel prior to, during, and after the conference.
 
@@ -135,6 +135,6 @@ We ask that you submit a .srt file along with your video. One way to create such
 
 - Soumya Dutta, *Indian Institute of Technology Kanpur* 
 - Ghulam Jilani Quadri, *University of Oklahoma*
-- Qing Chen, *NYU Shanghai*
+- Qing Chen, *Tongji University*
 
 *Email: [ff@ieeevis.org](mailto:ff@ieeevis.org)*
