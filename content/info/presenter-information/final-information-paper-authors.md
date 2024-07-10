@@ -55,17 +55,13 @@ Shortly after receiving final notifications from the second review cycle, the co
 
 At least one author for each paper [must register](https://ieeevis.org/year/2024/info/registration/conference-registration) and attend the conference in person. If you have exceptional circumstances and none of the authors can attend in person please contact [the conference committee](mailto:info@ieeevis.org) as soon as possible.
 
-### 2. Author Information Form
 
-**Deadline: August 22.**  You will be asked to complete a brief Google Form that specifies: (a) who will be presenting the paper, (b) if you have posted your paper to a preprint server (and where), (c) if you have made your paper accessible, and (d) practitioner-interest information. Please use the same submission ID as was provided in the email we sent to you.
-
-
-### 3. Copyright Release
+### 2. Copyright Release
 
 For papers that will be published in IEEE TVCG or on IEEE Xplore, authors are asked to complete a copyright release form. This will be handled via IEEE’s Conference Publishing Services (IEEE CPS) via a link provided to you via email.
 
 
-### 4. Presentation Materials
+### 3. Presentation Materials
 
 Please see the [talk recording guide](https://ieeevis.org/year/2024/info/presenter-information/talk-recording-guide) for information on how to submit your video preview (**due August 22**) and representative image (**due August 22**).  
 
