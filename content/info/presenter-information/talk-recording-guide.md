@@ -178,7 +178,6 @@ Whenever you upload something, we perform various initial checks automatically t
 
 ### Accessibility Chairs
 
-* Kim Marriott, *Monash University*
 * Dominik Moritz, *Carnegie Mellon University*
 
 *Email: [accessibility@ieeevis.org](mailto:accessibility@ieeevis.org)*
