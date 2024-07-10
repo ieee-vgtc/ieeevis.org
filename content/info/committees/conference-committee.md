@@ -93,7 +93,7 @@ permalink: /info/committees/conference-committee
 | **Fast Forward Chairs** | |
 | Soumya Dutta | *Indian Institute of Technology, Kanpur* |
 | Ghulam Jilani Quadri | *University of Oklahoma* |
-| Qing Chen | *NYU Shanghai* |
+| Qing Chen | *Tongji University* |
 |---
 | **Publication Chairs** | |
 | Minsuk Kahng | *Google* |

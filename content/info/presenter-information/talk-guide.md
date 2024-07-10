@@ -11,7 +11,6 @@ contact: tech@ieeevis.org
 
 Please **read the following instructions carefully** for guidelines on preparing your **Presentation**, **Representative Image**, and **Video Preview** (if required) for VIS 2024, or a VIS 2024 associated event.
 
-
 ## IEEE Visualization 2024 is a Hybrid Conference
 
 IEEE VIS 2024 will be a mix of hybrid experiences, based upon the event type. 
@@ -49,7 +48,6 @@ Work must be submitted via the provided link on the dates listed below.
 
 We recommend using the provided 16x9 wide format [Powerpoint template for your presentation]({{ 'assets/vis2024-template.pptx' | relative_url }}).
   <!-- The template with [imperial measurements]({{ 'assets/vis2024-16x9-imperial.pptx' | relative_url }}) or [metric measurements]({{ 'assets/vis2024-16x9-metric.pptx' | relative_url }}). -->
-
 
 <!-- IEEE Visualization allows authors to release their video preview on websites and any social media platform prior to the conference, but **authors should not release their presentation videos to the public until AFTER the conference**.  Do not upload your presentation video to YouTube, as such videos may conflict with the conference uploads. -->
 
