@@ -4,17 +4,29 @@
   button-url: "/destination"
   active: "active"
 
+- title: "Registration"
+  description: "Full week, one day, and two day registrations are now available!"
+  button-text: "Register Now"
+  button-url: "/info/registration/conference-registration"
+  image: 'ClearwaterBeachWalkAerial.jpg'
+
+- title: "Capstone Speakers: Professor Catherine D'Ignazio"
+  button-text: "Read More"
+  button-url: "/info/capstone-speaker"
+  image: "catherine-dignazio-carousel.jpg"
+
 - title: "Latest Update on IEEE VIS 2024 Conference Format"
   button-text: "Latest Update"
   button-url: "/blog/vis-2024-conference-format"
   image: "tradewinds_hall.jpg"
 
-- title: "The Road to VIS 2024 - Latest Blog Post from the Overall Paper Chairs"
-  button-text: "Latest Blog Post"
-  button-url: "/blog/vis-2024-OPC-blog-decisions"
-  image: "road_to_vis24.png"
+
+# - title: "The Road to VIS 2024 - Latest Blog Post from the Overall Paper Chairs"
+#   button-text: "Latest Blog Post"
+#   button-url: "/blog/vis-2024-OPC-blog-decisions"
+#   image: "road_to_vis24.png"
 # - title: "Meet your 2023 VEC and VSC Candidates"
-#   description: "The VIS community will vote on a new representative each to join the Vis Executive Committee (VEC) and the Vis Steering Committee (VSC). Check out the Elections page to learn more about the nominees for each position. Elections will begin September 15. Remember to register to vote by August 25!"
+#   description: "The VIS community will vote on a new representative each to join the Vis Executive Committee (VEC) and the Vis Steering Committee (VSC). Check out the Elections page to learn More about the nominees for each position. Elections will begin September 15. Remember to register to vote by August 25!"
 #   button-text: "Elections Page"
 #   button-url: "http://ieeevis.org/year/2023/info/elections"
 #   image: "vote_s.jpeg"
@@ -39,17 +51,12 @@
 #   button-url: "/info/papers-sessions"
 
 # - title: "Keynote Speaker: danah boyd"
-#   button-text: "Read more"
+#   button-text: "Read More"
 #   button-url: "/info/keynote-speaker"
 #   image: "danah_boyd.jpg"
 
-# - title: "Capstone Speakers: Fernanda Viégas and Martin Wattenberg"
-#   button-text: "Read more"
-#   button-url: "/info/capstone-speaker"
-#   image: "fm_hi.jpeg"
-
 # - title: "Job postings"
-#   button-text: "Read more"
+#   button-text: "Read More"
 #   button-url: "/info/jobs"
 #   image: "jobs.jpeg"
 
@@ -58,9 +65,4 @@
 #  button-text: "See the video"
 #  button-url: "https://youtu.be/SfWOKH8IR5k"
 #  image: "vis_presenting_tips.png"
-#
-#- title: "Registration"
-#  description: "Full week, one day, two day, and keynote + capstone registrations are still available."
-#  button-text: "Register now"
-#  button-url: "/info/registration/conference-registration"
-#  image: 'small_exposure_lights.png'
+

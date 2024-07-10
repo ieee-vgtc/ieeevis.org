@@ -23,7 +23,7 @@ Each satellite site will have a **local chair(s)** who will plan, coordinate, an
 Potential local chairs should submit a short letter of interest to the 2021 General Chairs (<general_chair@ieeevis.org>) by **July 1, 2021**.  Full plans will be due by **August 1, 2021**.
 
 Each Satellite plan should have the following components:
-* A plan on how the local program will be organized. This plan must follow all local laws, safety protocols and COVID restrictions, and comply with the IEEE guidelines and the [VIS code of conduct](http://ieeevis.org/year/2021/info/inclusion-and-diversity/code-of-conduct).  
+* A plan on how the local program will be organized. This plan must follow all local laws, safety protocols and COVID restrictions, and comply with the IEEE guidelines and the [VIS code of conduct](http://ieeevis.org/year/2021/info/inclusion/code-of-conduct).  
 * A description on how and why the satellite site will attract 20+ participants with a projection of how many participants are expected with a possibly preliminary list of attendees.
 * Space and technology to allow 20+ participants to view the virtual VIS streams. 
 * The plan for the small auxiliary program.
