@@ -39,7 +39,7 @@ Work must be submitted via the provided link on the dates listed below.
   * All Other Events:  Aug. 22
 
 **Representative Image and Caption:**
-  * Full/Short VIS Papers
+  * Full/Short VIS Papers: Aug. 22
   * TVCG/CG&A Presentations: Aug. 22
   * All Other Events: Aug. 22
 

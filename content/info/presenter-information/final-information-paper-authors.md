@@ -17,7 +17,7 @@ Authors of papers for workshops and symposia should check with their event organ
 
 **DEADLINE: August 8.** Submit final camera-ready papers and supplemental materials via the PCS submission system. Files submitted here are the default versions that we will use for preparing proceedings in IEEE Xplore and the downloadable content.
 
-Camera-ready papers may not exceed 11 pages (9 pages of main text and 2 pages of references). **New in 2024**: The final two pages can also include the Supplemental Material, Figure Credits, and Acknowledgements sections, in addition to references. Papers may be shorter than this limit but must make a significant contribution (compared to the separate Short Papers program). See the [Paper Submission Guidelines](/year/2024/info/call-participation/paper-submission-guidelines) for more details.
+Camera-ready papers may not exceed 11 pages (9 pages of main text and 2 pages of references). **New in 2023**: The final two pages can also include the Supplemental Material, Figure Credits, and Acknowledgements sections, in addition to references. Papers may be shorter than this limit but must make a significant contribution (compared to the separate Short Papers program). See the [Paper Submission Guidelines](/year/2024/info/call-participation/paper-submission-guidelines) for more details.
 
 **IMPORTANT**: Please make sure the final submission data in PCS is identical to the final PDF (e.g., title, author names and last names, affiliations, author order, email addresses.) You might need to correct the information in your PCS login in order to update the author information. You can do this by logging into your PCS account > my account > Change my contact information. The final author list has to be identical to the list that you provided for the abstract submission deadline (March 21). Note that if you have been anonymizing your submission, you may find you have to trim your text to fit into the page limits once authors and affiliations are added.
 
@@ -55,17 +55,13 @@ Shortly after receiving final notifications from the second review cycle, the co
 
 All full papers are required to have one author [register](/year/2024/info/registration/conference-registration) as a speaker, irrespective of whether they plan to presented in person or virtually, and must be presented by that person. If exceptional circumstances prevent that person from presenting, please contact [the conference committee](mailto:info@ieeevis.org) as soon as possible.
 
-### 2. Author Information Form
 
-**Deadline: August 22.**  You will be asked to complete a brief Google Form that specifies: (a) who will be presenting the paper, (b) if you have posted your paper to a preprint server (and where), (c) if you have made your paper accessible, and (d) practitioner-interest information. Please use the same submission ID as was provided in the email we sent to you.
-
-
-### 3. Copyright Release
+### 2. Copyright Release
 
 For papers that will be published in IEEE TVCG or on IEEE Xplore, authors are asked to complete a copyright release form. This will be handled via IEEE’s Conference Publishing Services (IEEE CPS) via a link provided to you via email.
 
 
-### 4. Presentation Materials
+### 3. Presentation Materials
 
 Please see the [talk guide](/year/2024/info/presenter-information/talk-guide) for information on how to submit your video preview (**due August 22**) and representative image (**due August 22**).  
 
