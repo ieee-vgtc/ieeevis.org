@@ -21,11 +21,11 @@ active_nav: "Program"
 <br />
 
 <p>
-<b>Title</b> <br/>Will be announce soon!
+<b>Title</b> <br/>Will be announced soon!
 </p>
 
 <p><b>Abstract</b> <br/>
-Will be announce soon!
+Will be announced soon!
 </p>
 
 <b>About the speakers</b><br/>
