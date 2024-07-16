@@ -1,24 +1,35 @@
-- title: "IEEE VIS 2024 in St. Pete Beach, Florida"
-  image: "florida_splash_image-small.png"
-  button-text: "Read More"
-  button-url: "/destination"
-  active: "active"
-
 - title: "Registration"
   description: "Full week, one day, and two day registrations are now available!"
   button-text: "Register Now"
   button-url: "/info/registration/conference-registration"
-  image: 'ClearwaterBeachWalkAerial.jpg'
+  image: "ClearwaterBeachWalkAerial.jpg"
+  active: "active"
 
-- title: "Capstone Speakers: Professor Catherine D'Ignazio"
+- title: "Keynote Speaker: Dr. Bill Pike"
+  button-text: "Read More"
+  button-url: "/info/keynote-speaker"
+  image: "bill-pike-carousel.jpg"
+
+- title: "IEEE VIS 2024 Swag Shop Now Open!"
+  button-text: "Read More"
+  button-url: "/info/swag"
+  image: "vis2024-swag-carousel.png"
+
+- title: "Capstone Speaker: Professor Catherine D'Ignazio"
   button-text: "Read More"
   button-url: "/info/capstone-speaker"
   image: "catherine-dignazio-carousel.jpg"
 
-- title: "Latest Update on IEEE VIS 2024 Conference Format"
-  button-text: "Latest Update"
-  button-url: "/blog/vis-2024-conference-format"
-  image: "tradewinds_hall.jpg"
+# - title: "IEEE VIS 2024 in St. Pete Beach, Florida"
+#   image: "florida_splash_image-small.png"
+#   button-text: "Read More"
+#   button-url: "/destination"
+#   active: "active"
+
+# - title: "Latest Update on IEEE VIS 2024 Conference Format"
+#   button-text: "Latest Update"
+#   button-url: "/blog/vis-2024-conference-format"
+#   image: "tradewinds_hall.jpg"
 
 
 # - title: "The Road to VIS 2024 - Latest Blog Post from the Overall Paper Chairs"
@@ -49,11 +60,6 @@
 #   description: "The tentative schedule for paper presentations has been released."
 #   button-text: "See schedule"
 #   button-url: "/info/papers-sessions"
-
-# - title: "Keynote Speaker: danah boyd"
-#   button-text: "Read More"
-#   button-url: "/info/keynote-speaker"
-#   image: "danah_boyd.jpg"
 
 # - title: "Job postings"
 #   button-text: "Read More"
