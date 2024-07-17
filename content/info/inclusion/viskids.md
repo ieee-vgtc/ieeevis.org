@@ -2,7 +2,7 @@
 title: viskids.
 layout: page
 permalink: /info/inclusion-and-diversity/viskids
-contact: [committee-name]@ieeevis.org
+contact: VISKids@ieeevis.org
 ---
 
 The IEEE VIS conference is excited to support our VISKids and young families!  
