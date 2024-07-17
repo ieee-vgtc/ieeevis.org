@@ -9,7 +9,7 @@ contact: panels_tutorials@ieeevis.org
 Here is the list of the accepted tutorials.
 * [Visualization Analysis and Design](#VAD)
 * [Developing Immersive and Collaborative Visualizations with Web Technologies](#IMM)
-* [Generating Color Schemes for our Data Visualizations](#CDV)
+* [Generating Color Schemes for your Data Visualizations](#CDV)
 * [Running Online User Studies with the reVISit Framework](#RVS)
 * [LLM4Vis: Large Language Models for Information Visualization](#LLM)
 * [Enabling Scientific Discovery: A Tutorial for Harnessing the Power of the National Science Data Fabric for Large-Scale Data Analysis](#ESD)
@@ -35,7 +35,7 @@ Blair MacIntyre, *J.P. Morgan Chase & Co* <br>
 
 Immersive analytics (IA), the application of immersive technologies such as augmented and virtual reality towards the task of data visualization and analytics, is a rapidly growing area of research.Web-technologies have the potential to greatly benefit the development of immersive visualizations and systems with their affordances for multi-device distribution and networking. This tutorial is aimed at researchers and developers who want to learn how to implement immersive and collaborative visualizations and system with web-technologies. Tutorial participants will learn these skills through hands on coding activities using the latest tools for developing web applications. Furthermore, participants will gain practical skills and knowledge of WebXR, Anu.js, D3.js, Vite, and Coleuses. By the end of this half-day course, participants will be able to view and interact with an immersive visualization of their making along side their peers in a multi-user collaborative environment—all through their devices web-browser.
 
-## <a name="CDV"></a> Generating Color Schemes for our Data Visualizations
+## <a name="CDV"></a> Generating Color Schemes for your Data Visualizations
 Sunday, October 13, 2024: Afternoon
 
 Theresa-Marie Rhyne, *Visualization Consultant* <br>
