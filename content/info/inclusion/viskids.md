@@ -1,7 +1,7 @@
 ---
 title: viskids.
 layout: page
-permalink: /info/inclusion-and-diversity/viskids.
+permalink: /info/inclusion-and-diversity/viskids
 contact: [committee-name]@ieeevis.org
 ---
 
