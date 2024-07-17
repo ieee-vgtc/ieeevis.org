@@ -76,7 +76,7 @@ vertical-align: top;
 
 - Do not include any title slide at the beginning of the video, as we will add a consistent title to the Video Preview containing: the paper title, authors, and session information.
 - The video should contain audio narration. We discourage salient music to focus viewers’ attention on the content.
-- Subtitles are mandatory to increase accessibility. See the [Talk Recording Guide](/year/2024/info/presenter-information/talk-guide) for tips on how to create and include subtitles.
+- Subtitles are mandatory to increase accessibility. See the [Talk Guide](/year/2024/info/presenter-information/talk-guide) for tips on how to create and include subtitles.
 - A Video Preview should be self-explaining and self-contained. It should clearly communicate your research and contribution and invite readers to read your paper.
 - Other than in recent years’ Fast-Forwards sessions, we discourage humor and trailer-like ‘ads’.
 - The video will exist for a long time and can be shared widely by the authors on social media and other channels.

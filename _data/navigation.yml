@@ -43,6 +43,9 @@ menu:
                 - text: "Registration"
                   url: "/year/2024/info/registration/conference-registration"
                   is_new: false
+                - text: "IEEE Vis Swag Shop"
+                  url: "/year/2024/info/swag"
+                  is_new: true
                 # - text: "Satellite Sites"
                 #   url: "/year/2024/info/satellite"
                 #    - text: "Practitioner Guide"
@@ -234,10 +237,10 @@ menu:
             description: "Keynote and Capstone Speakers"
             columns:
               - links:
-                  # - text: "Keynote"
-                  #   description: "Dr. Drew Berry and Professor Anders Ynnerman"
-                  #   url: "/year/2024/info/keynote-speaker"
-                    # is_new: true
+                  - text: "Keynote"
+                    description: "Dr. Bill Pike, PNNL"
+                    url: "/year/2024/info/keynote-speaker"
+                    is_new: true
                   - text: "Capstone"
                     description: "Prof. Catherine D'Ignazio, MIT"
                     url: "/year/2024/info/capstone-speaker"
