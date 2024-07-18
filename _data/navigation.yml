@@ -202,7 +202,7 @@ menu:
             description: "Your support makes this conference possible!"
 
   - dropdown: "Program"
-    display: false
+    display: true
     sections:
       - subsections:
           - heading: "Vis Program"
