@@ -43,6 +43,9 @@ menu:
                 - text: "Registration"
                   url: "/year/2024/info/registration/conference-registration"
                   is_new: false
+                - text: "Week-at-a-Glance"
+                  url: "/year/2024/info/week-at-a-glance"
+                  is_new: true
                 - text: "IEEE Vis Swag Shop"
                   url: "/year/2024/info/swag"
                   is_new: true
@@ -207,6 +210,10 @@ menu:
             # description: "Click to see an overview of the conference program"
             columns:
               - links:
+                  - text: "Week at a Glance"
+                    description: "Click to see an overview of the conference program"
+                    url: "/year/2024/info/week-at-a-glance"
+                    is_new: true
                   # - text: "Papers"
                   #   description: "The latest research in theory, methods, and applications of visualization"
                   #   url: "/year/2024/info/papers-sessions"
