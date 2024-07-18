@@ -18,6 +18,7 @@ Daily sessions are (generally) four blocks per day, each 75 minutes with two in 
 * There will be coffee breaks between the first/second and third/fourth block.  
 * A lunch break runs each day between the second/third block. 
 
+
 <!-- * Breakfast begins one hour before the sessions for the day (7:45am on Tuesday, 8:00am all other days). -->
 
 <!-- Tuesday is a full plenary day, which a slightly shifted schedule for breaks.  Regular day programming ends at 5:00pm, with after hours programming beginning after short breaks. -->
@@ -258,10 +259,12 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 **Morning (Blocks 1 and 2)**<br/>
 * Paper, Short Paper, TVCG Paper, and CG&A Paper Presentations
 * Tutorials
+* Application Spotlights
 
 **Afternoon (Blocks 3 and 4)**<br/>
 * Paper, Short Paper, TVCG Paper, and CG&A Paper Presentations
 * Tutorials
+* Application Spotlights
 
 
 <!-- *9:00 AM-10:15 AM AEDT (UTC+11)*<br/>
@@ -329,6 +332,14 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 * Room 105-106: **[VIS Capstone](/year/2023/info/capstone-speaker)**, Professor Matt Duckham (10:45am-11:45am) 
 * Room 105-106: **VIS Closing** (11:45am-12:00pm)  -->
 
+
+<hr/>
+
+In addition, to the scheduled program, many of the following are available across several days of the week:
+* Meetups that are usually scheduled on short notice
+* VISAP exhibition
+* Posters
+* Exhibitors
 
 <hr/>
 
