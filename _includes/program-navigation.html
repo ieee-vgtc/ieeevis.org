@@ -148,10 +148,8 @@
 
     </nav>
 
-
-
     <transition name="fade">
-        <div v-if="hasMenuItemExpanded" v-on:click="resetMenuItems()" class="navigation__overlay"></div>
+        <div v-if="isExpanded" v-on:click="resetMenuItems()" class="navigation__overlay"></div>
     </transition>
 
 
