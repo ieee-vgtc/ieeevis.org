@@ -195,12 +195,13 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 * Paper, Short Paper, TVCG Paper, and CG&A Paper Presentations
 * VISAP Presentations
 * Tutorials
+* Application Spotlights
 
 **Afternoon (Blocks 3 and 4)**<br/>
 * Paper, Short Paper, TVCG Paper, and CG&A Paper Presentations
 * VISAP Presentations
 * Tutorials
-
+* Application Spotlights
 
 <!-- *8:00 AM-9:00 AM AEDT (UTC+11)*<br/>
 * Room 101-102: **[VIS Town Hall](/year/2023/info/townhall)** 
