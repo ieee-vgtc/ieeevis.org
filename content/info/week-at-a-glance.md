@@ -197,7 +197,6 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 
 **Afternoon (Blocks 3 and 4)**<br/>
 * Paper, Short Paper, TVCG Paper, and CG&A Paper Presentations
-* VISAP Presentations
 * Tutorials
 
 
@@ -257,6 +256,7 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 
 **Morning (Blocks 1 and 2)**<br/>
 * Paper, Short Paper, TVCG Paper, and CG&A Paper Presentations
+* VISAP Presentations
 * Tutorials
 
 **Afternoon (Blocks 3 and 4)**<br/>
