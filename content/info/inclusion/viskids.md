@@ -1,5 +1,5 @@
 ---
-title: viskids.
+title: VISKids
 layout: page
 permalink: /info/inclusion-and-diversity/viskids
 contact: VISKids@ieeevis.org
