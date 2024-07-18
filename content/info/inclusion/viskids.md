@@ -14,7 +14,7 @@ We are currently collecting additional information to plan VISKids so we can sup
 The conference hotel offers a [day camp program](https://www.tradewindsresort.com/explore/resort-recreation ) Tu-Su, 10am-1pm and 2-5pm for children 5-12 at the cost of $20 per child. VISKids can assist parents in making other childcare arrangements. Please express your interests and needs by e-mailing VISKids
 
 ### VISKids Hello
-Prior to the conference, we will give you the opportunity to connect with other VISKids parents to meet and greet and share plans for adventures in Melbourne. 
+Prior to the conference, we will give you the opportunity to connect with other VISKids parents to meet and greet and share plans for adventures in St. Pete. 
 
 ### VISKids Community
 We share further information with the VISKids Community on other potential funding sources in an [online document](https://docs.google.com/document/d/1llebKbEzqapkqDMKNF3LbliwGcQDvChJpvQzjsWK5-s/edit). We invite you to participate and share your ideas and tips.
