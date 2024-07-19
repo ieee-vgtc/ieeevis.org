@@ -4,6 +4,7 @@
     @apply bg-primary;
     width: 170px;
     visibility: hidden;
+    align-content: center;
 }
 
 @screen md {
