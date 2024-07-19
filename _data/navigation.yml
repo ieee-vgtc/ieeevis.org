@@ -92,9 +92,10 @@ menu:
       #             - text: "VISKids Childcare Grants"
       #               description: "Supporting our VISKids and young families"
       #               url: "/year/2024/info/inclusion/viskids-child-care-grants"
-  #                 - text: "VISKids"
-  #                   description: "Childcare and activities open to everyone"
-  #                   url: "/year/2024/info/inclusion/viskids-event"
+                  - text: "VISKids"
+                    description: "Childcare and activities open to everyone"
+                    url: "/year/2024/info/inclusion-and-diversity/viskids"
+                    is_new: true
 
   - dropdown: "Contribute"
     display: true
