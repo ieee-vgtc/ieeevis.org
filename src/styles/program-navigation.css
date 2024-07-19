@@ -33,7 +33,7 @@
 /* Navigation Bar */
 
 .program-nav {
-    --program-navigation-height: 60px;
+    --program-navigation-height: 70px;
     z-index: 998;
     @apply bg-primary;
     /* @apply border-accent-blue border-b-2; */
@@ -66,16 +66,17 @@
     display: none;
     position: fixed;
     /* top: var(--program-navigation-height); */
-    top: 130px;
+    top: 140px;
     height: calc(100vh - var(--program-navigation-height));
     width: 100%;
     overflow-y: scroll;
+    background-color: white;
 }
     /* Reset on larger screens */
     @screen md {
         .program-menu {
             position: static;
-            top: 130px;
+            top: 140px;
             height: 100%;
             overflow-y: unset;
             @apply bg-accent-blue;
@@ -91,7 +92,7 @@
 @screen md {
   .program-menu--expanded {
     display: flex;
-    top: 130px;
+    top: 140px;
     position: relative;
   }
 
