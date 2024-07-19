@@ -79,6 +79,9 @@
      - name: "Databricks"
        image: /assets/supporters/databricks_logo.svg
        url: "https://www.databricks.com/" 
+     - name: "Uncharted Software"
+       image: /assets/supporters/uncharted.png
+       url: "https://uncharted.software/"
 #      - name: "Apple"
 #        image: /assets/supporters/apple.png
 #        url: "https://www.apple.com"
@@ -98,9 +101,6 @@
 #      - name: "Kitware, Inc"
 #        image: /assets/supporters/kitware.png
 #        url: "https://www.kitware.com/"
-#     - name: "Uncharted Software"
-#       image: /assets/supporters/uncharted.png
-#       url: "https://uncharted.software/"
 #     - name: "Fraunhofer IGD"
 #       image: /assets/supporters/igd.png
 #       url: "https://www.igd.fraunhofer.de"
