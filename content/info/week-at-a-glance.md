@@ -193,12 +193,12 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 **Morning (Blocks 1 and 2)**<br/>
 * Paper, Short Paper, TVCG Paper, and CG&A Paper Presentations
 * VISAP Presentations
-* Tutorials
+* Panels
 
 **Afternoon (Blocks 3 and 4)**<br/>
 * Paper, Short Paper, TVCG Paper, and CG&A Paper Presentations
 * VISAP Presentations
-* Tutorials
+* Panels
 
 
 <!-- *8:00 AM-9:00 AM AEDT (UTC+11)*<br/>
@@ -257,11 +257,11 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 
 **Morning (Blocks 1 and 2)**<br/>
 * Paper, Short Paper, TVCG Paper, and CG&A Paper Presentations
-* Tutorials
+* Panels
 
 **Afternoon (Blocks 3 and 4)**<br/>
 * Paper, Short Paper, TVCG Paper, and CG&A Paper Presentations
-* Tutorials
+* Panels
 
 
 <!-- *9:00 AM-10:15 AM AEDT (UTC+11)*<br/>
@@ -308,7 +308,7 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 
 **Morning (Block 1)**<br/>
 * Paper, Short Paper, TVCG Paper, and CG&A Paper Presentations
-* Tutorials
+* Panels
 
 **Morning (Block 2)**<br/>
 * Test of Time Awards
