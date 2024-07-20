@@ -269,6 +269,7 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 * Paper, Short Paper, TVCG Paper, and CG&A Paper Presentations
 * VISAP Presentations
 * Application Spotlights
+* Panels
 
 **Afternoon (Blocks 3 and 4)**<br/>
 * Paper, Short Paper, TVCG Paper, and CG&A Paper Presentations
