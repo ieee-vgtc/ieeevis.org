@@ -20,7 +20,7 @@
 #                     is_external
 
 navbar_metadata:
-  display: true
+  display: false
   label: 'Content'
 
 schedule:
