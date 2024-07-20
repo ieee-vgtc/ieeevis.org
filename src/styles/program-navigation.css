@@ -1,18 +1,23 @@
 /* Logo */
 
-.logo--nav img {
-    width: 150px;
+.logo--program-nav {
+    @apply bg-primary;
+    width: 170px;
+    visibility: hidden;
+    align-content: center;
 }
 
 @screen md {
-    .logo--nav img {
-        width: 118px;
+    .logo--program-nav {
+        width: 150px;
+        height: 100%;
+        visibility: visible;
     }
 }
 
 @screen lg {
-    .logo--nav img {
-        width: 150px;
+    .logo--program-nav {
+        width: 170px;
     }
 }
 
@@ -28,24 +33,26 @@
 
 /* Navigation Bar */
 
-.nav {
-    --navigation-height: 70px;
-    z-index: 999;
-    @apply bg-accent;
-    /* @apply border-secondary border-b-2; */
+.program-nav {
+    --program-navigation-height: 70px;
+    z-index: 998;
+    @apply bg-primary;
+    /* @apply border-accent-blue border-b-2; */
     @apply text-white;
-    height: var(--navigation-height);
+    height: var(--program-navigation-height);
 
     /* Fixed on small screens */
     position: fixed;
     width: 100%;
-    top: 0;
+    top: 70px;
 }
 
     @screen md {
-        .nav {
+        .program-nav {
             @apply bg-accent border-0;
             @apply relative;
+            visibility: visible;
+            top: 0px;
         }
     }
 
@@ -56,51 +63,54 @@
     @apply text-white;
 }
 
-.menu {
-    /* Full height and scroll on small screens */
+.program-menu {
     display: none;
     position: fixed;
-    top: var(--navigation-height);
-    height: calc(100vh - var(--navigation-height));
+    /* top: var(--program-navigation-height); */
+    top: 140px;
+    height: calc(100vh - var(--program-navigation-height));
     width: 100%;
     overflow-y: scroll;
-    @apply bg-white;
+    background-color: white;
 }
     /* Reset on larger screens */
     @screen md {
-        .menu {
+        .program-menu {
             position: static;
-            top: 0;
+            top: 140px;
             height: 100%;
             overflow-y: unset;
-            @apply bg-accent;
+            @apply bg-accent-blue;
         }
     }
 
-    /* State: Expanded */
-    .menu--expanded {
-        display: block;
-    }
-    /* Reset on larger screens */
-    @screen md {
-      .menu--expanded {
-        display: flex;
-        top: 0;
-        /* position: relative; */
-      }
 
-      .dropdown {
-        left: 0;
-        position: absolute;
-        top: var(--navigation-height);
-        width: 100%;
-      }
-    }
+/* State: Expanded */
+.program-menu--expanded {
+    display: block;
+}
+/* Reset on larger screens */
+@screen md {
+  .program-menu--expanded {
+    display: flex;
+    top: 140px;
+    position: relative;
+  }
+
+  /* .dropdown {
+    left: 0;
+    position: absolute;
+    top: var(--program-navigation-height);
+    width: 100%;
+  } */
+}
 
 
 /* Menu Items */
 
-.menu_item {
+.program_menu_item {
+    display: flex;
+    align-items: center;
     background: #fff;
     position: relative;
     transition: color, background-color 250ms ease;
@@ -111,29 +121,29 @@
 }
 
 @screen md {
-    .menu_item {
+    .program_menu_item {
         background: transparent;
         text-align: center;
         width: auto;
-        @apply text-white;
+        @apply text-black;
       }
     }
 
     /* State: Hover and Focused */
-    .menu_item:hover{
+    .program_menu_item:hover{
         @apply text-primary;
     }
-    .menu_item--focused {
+    .program_menu_item--focused {
         @apply text-accent-minor bg-accent;
     }
 
     @screen md {
-        .menu_item:hover {
+        .program_menu_item:hover {
             background: transparent;
         }
 
-        .menu_item--focused,
-        .menu_item--focused:hover {
+        .program_menu_item--focused,
+        .program_menu_item--focused:hover {
             @apply text-primary;
 /*            @apply bg-gray-100;*/
         }
@@ -142,9 +152,9 @@
     /* State: Active Navigation  */
 
     @screen md {
-        .menu_item.menu_item--is-active {
-          @apply text-accent-minor;
-          box-shadow: inset 0 -4px theme('colors.accent.minor');
+        .program_menu_item.program_menu_item--is-active {
+          @apply text-primary;
+          box-shadow: inset 0 -4px theme('colors.primary.default');
         }
     }
 
@@ -157,7 +167,7 @@
     display: none;
 }
 
-    .menu_item--focused + .dropdown {
+    .program_menu_item--focused + .dropdown {
         display: block;
         animation: expandMenu 300ms ease forwards;
     }
@@ -171,7 +181,7 @@
             max-height: 0;
         }
 
-        .menu_item--focused + .dropdown {
+        .program_menu_item--focused + .dropdown {
             display: flex;
             max-height: 1000px;
             animation: none;
