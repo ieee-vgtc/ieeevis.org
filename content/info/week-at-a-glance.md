@@ -70,7 +70,9 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 <a>**Sunday, October 13, 2024**</a><br/>
 
 **Morning (Blocks 1 and 2)**<br/>
-* [Workshops](/year/2024/info/workshops) and [Tutorials](/year/2024/info/tutorials)
+* [Workshops](/year/2024/info/workshops)
+* [Tutorials](/year/2024/info/tutorials)
+* Symposia ([LDAV](https://ldav.io/2024/) and [VDS](https://www.visualdatascience.org/2024/index.html))
 
 <!-- *9:00 AM-12:00 PM AEDT (UTC+11)*<br/>
 * Room 101-102: **Visualization Analysis and Design** ([Tutorial](/year/2023/info/tutorials))  
@@ -81,7 +83,9 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 * Room 110: **NLP4Vis: Natural Language Processing for Information Visualization** ([Tutorial](/year/2023/info/tutorials))   -->
 
 **Afternoon (Blocks 3 and 4)**<br/>
-* [Workshops](/year/2024/info/workshops) and [Tutorials](/year/2024/info/tutorials)
+* [Workshops](/year/2024/info/workshops)
+* [Tutorials](/year/2024/info/tutorials)
+* Symposia ([LDAV](https://ldav.io/2024/) and [VDS](https://www.visualdatascience.org/2024/index.html))
 
 <!-- *2:00 PM-5:00 PM AEDT (UTC+11)*<br/> -->
 
@@ -106,10 +110,14 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 <a>**Monday, October 14, 2024**</a><br/>
 
 **Morning (Blocks 1 and 2)**<br/>
-* [Workshops](/year/2024/info/workshops) and [Tutorials](/year/2024/info/tutorials)
+* [Workshops](/year/2024/info/workshops)
+* [Tutorials](/year/2024/info/tutorials)
+* Symposia ([LDAV](https://ldav.io/2024/) and [VDS](https://www.visualdatascience.org/2024/index.html))
 
 **Afternoon (Blocks 3 and 4)**<br/>
-* [Workshops](/year/2024/info/workshops) and [Tutorials](/year/2024/info/tutorials)
+* [Workshops](/year/2024/info/workshops)
+* [Tutorials](/year/2024/info/tutorials)
+* Symposia ([LDAV](https://ldav.io/2024/) and [VDS](https://www.visualdatascience.org/2024/index.html))
 
 <!-- *9:00 AM-12:00 PM AEDT (UTC+11)*<br/>
 * Room 101-102: **[VisInPractice](/year/2023/info/visinpractice)** (Associated Event)  
@@ -193,11 +201,12 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 **Morning (Blocks 1 and 2)**<br/>
 * Paper, Short Paper, TVCG Paper, and CG&A Paper Presentations
 * VISAP Presentations
-* Tutorials
+* Panels
 
 **Afternoon (Blocks 3 and 4)**<br/>
 * Paper, Short Paper, TVCG Paper, and CG&A Paper Presentations
 * Tutorials
+* Panels
 
 
 <!-- *8:00 AM-9:00 AM AEDT (UTC+11)*<br/>
@@ -258,10 +267,11 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 * Paper, Short Paper, TVCG Paper, and CG&A Paper Presentations
 * VISAP Presentations
 * Tutorials
+* Panels
 
 **Afternoon (Blocks 3 and 4)**<br/>
 * Paper, Short Paper, TVCG Paper, and CG&A Paper Presentations
-* Tutorials
+* Panels
 
 
 <!-- *9:00 AM-10:15 AM AEDT (UTC+11)*<br/>
@@ -308,7 +318,7 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 
 **Morning (Block 1)**<br/>
 * Paper, Short Paper, TVCG Paper, and CG&A Paper Presentations
-* Tutorials
+* Panels
 
 **Morning (Block 2)**<br/>
 * Test of Time Awards
