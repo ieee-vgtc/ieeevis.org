@@ -3,7 +3,7 @@
 <div id="program-navigation">
     <nav class="program-nav flex flex-start justify-between md:justify-start items-center">
         <div class="logo--program-nav flex-none text-lg p-4 md:p-2 lg:p-4">
-            Content
+            {{site.data.program_navigation.navbar_metadata.label}}
         </div>
 
         <div class="program-menu md:flex md:justify-end" v-bind:class="{ 'program-menu--expanded': isExpanded }">
@@ -142,7 +142,7 @@
         </div>
 
         <div class="md:hidden flex-end p-4  hamburger_menu font-display font-bold text-lg" v-on:click="toggleMenu()">
-            Content <i class="material-icons align-middle">menu</i>
+            {{site.data.program_navigation.navbar_metadata.label}} <i class="material-icons align-middle">menu</i>
         </div>
 
 

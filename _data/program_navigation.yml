@@ -19,6 +19,10 @@
 #                     is_new:
 #                     is_external
 
+navbar_metadata:
+  display: false
+  label: 'Content'
+
 schedule:
   display: true
   text: "Schedule"
