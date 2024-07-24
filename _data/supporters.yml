@@ -80,7 +80,7 @@
        image: /assets/supporters/databricks_logo.svg
        url: "https://www.databricks.com/" 
      - name: "Uncharted Software"
-       image: /assets/supporters/uncharted.png
+       image: /assets/supporters/UnchartedLogo.png
        url: "https://uncharted.software/"
 #      - name: "Apple"
 #        image: /assets/supporters/apple.png
