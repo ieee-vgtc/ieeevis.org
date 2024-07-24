@@ -139,6 +139,9 @@
      - name: "CRC Press"
        image: /assets/supporters/CRC_Press_logo.svg.png
        url: "https://crcpress.com"
+     - name: "Springer Nature"
+       image: /assets/supporters/Springer_cmyk.pdf
+       url: "https://link.springer.com/"
  #     - name: "Tom Sawyer Software"
  #       image: /assets/supporters/TomSawyer.jpg
  #       url: "https://www.tomsawyer.com/"
