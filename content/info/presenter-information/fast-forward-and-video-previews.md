@@ -13,7 +13,7 @@ Please **read the following instructions carefully** and submit your
 - Aug. 22: VIS Full/Short Papers
 - Aug. 22: [TVCG/CG&amp;A presentations](/year/2024/info/call-participation/partnerships) presentations
 VIS Full/Short Papers
-- Aug. 22: All other events.
+- Sep. 12: All other events.
 
 Video Previews are a great opportunity to publicize your work or event to a wide audience and invite people to join your presentation and read your paper. Video Previews are accessible from the conference website on the VIS YouTube channel prior to, during, and after the conference.
 
