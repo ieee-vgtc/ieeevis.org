@@ -48,7 +48,7 @@ At the time of submission, it is required by the authors to state explicitly in 
 ### IMPORTANT DATES
 * Submission Deadline: **Thursday, June 20, 2024**
 * Notification of Acceptance: **Saturday, July 19, 2024**
-* (Optional) [Video Preview](/year/2024/info/presenter-information/fast-forward-and-video-previews) Submission: **Thursday, August 22, 2024**
+* (Optional) [Video Preview](/year/2024/info/presenter-information/fast-forward-and-video-previews) Submission: **Thursday, September 12, 2024**
 * Final Submission of camera-ready (1) 2-page Poster Summary PDF and (2) full Poster PDF: **Thursday, August 29, 2024**
 
 All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth)**.
