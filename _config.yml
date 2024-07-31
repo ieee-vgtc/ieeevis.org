@@ -51,7 +51,7 @@ defaults:
       layout: "program"
   - 
     scope:
-      path: "year/2024/program"
+      path: "program"
       type: "pages"
     values:
       contact: "web@ieeevis.org"

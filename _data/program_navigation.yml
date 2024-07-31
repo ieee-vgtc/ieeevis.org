@@ -36,7 +36,7 @@ all_events:
 papers:
   display: true
   text: "Papers"
-  url: "/year/2024/program/papers/index"
+  url: "/program/papers.html"
 
 posters:
   display: true
