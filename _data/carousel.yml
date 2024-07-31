@@ -20,6 +20,12 @@
   button-url: "/info/capstone-speaker"
   image: "catherine-dignazio-carousel.jpg"
 
+- title: "IEEE VIS is made possible by our supporters"
+  image: "2024_07_31.png"
+  button-text: "Become a supporter"
+  button-url: "/supporters"
+  active: "active"
+
 # - title: "IEEE VIS 2024 in St. Pete Beach, Florida"
 #   image: "florida_splash_image-small.png"
 #   button-text: "Read More"
