@@ -28,7 +28,7 @@
 
 /* Navigation Bar */
 
-.nav {
+.ieeevis-nav {
     --navigation-height: 70px;
     z-index: 999;
     @apply bg-accent;
@@ -43,12 +43,16 @@
 }
 
     @screen md {
-        .nav {
+        .ieeevis-nav {
             @apply bg-accent border-0;
             @apply relative;
         }
     }
 
+a.nav-text-link {
+    color: white;
+    text-decoration: inherit;
+}
 
 /* Menu */
 

@@ -44,7 +44,7 @@ module ProgramPlugin
       data["layout"] = "program"
       data["title"] = "Program"
       # data["permalink"] = "/year/2024/program/#{basename}#{@ext}"
-      data["active_nav"] = "Program"
+      data["active_nav"] = "Accepted Papers"
       data["contact"] = "web@ieeevis.org"
 
       process(name)
