@@ -93,7 +93,7 @@ permalink: /year/2024/info/committees/conference-committee
 | **Fast Forward Chairs** | |
 | Soumya Dutta | *Indian Institute of Technology, Kanpur* |
 | Ghulam Jilani Quadri | *University of Oklahoma* |
-| Qing Chen | *NYU Shanghai* |
+| Qing Chen | *Tongji University* |
 |---
 | **Publication Chairs** | |
 | Minsuk Kahng | *Google* |
@@ -150,9 +150,10 @@ permalink: /year/2024/info/committees/conference-committee
 | Shayan Monadjemi | *Oak Ridge National Laboratory* |
 |---
 | **Technology Chairs** | |
-| Aditeya Pandey | |
-| John Thompson | |
-| Harry Li | |
+| Aditeya Pandey | *Regeneron* |
+| John Thompson | *Autodesk Research* |
+| Harry Li | *MIT Lincoln Laboratory* |
+| Kelvin Li | *Databricks* |
 |---
 | **VAST Challenge Chairs** | |
 | Jereme Haack | |

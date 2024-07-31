@@ -1,10 +1,10 @@
 ---
-title: VIS Preliminary Program
+title: VIS Program Week at a Glance
 layout: page
 permalink: info/week-at-a-glance
 ---
 
-# Program Week at a Glance
+# Preliminary Program Guide
 
 Below is a draft schedule the conference.
 Additional details for the events are available on their webpages, and more detailed information will be available the VIS attendee content website as the conference nears.
@@ -14,14 +14,16 @@ Additional details for the events are available on their webpages, and more deta
 Room assignments are indicated by columns.  The entire conference will run on Level Two of the Omni Oklahoma City Hotel.  [Here is a floor map](https://www.omnihotels.com/-/media/images/hotels/okcdtn/hotel/okcdtn-omni-oklahoma-city-floor-plans). 
 -->
 
-Daily sessions are (generally) four blocks per day, each 75 minutes.  In addition:
-* Breakfast begins one hour before the sessions for the day (7:45am on Tuesday, 8:00am all other days).
-* There are breaks for coffee/tea from 10:15-10:45am and 3:15-3:45pm between the first/second and third/fourth block.  
-* A lunch break runs from 12:00-2:00pm each day between the second/third block. 
+Daily sessions are (generally) four blocks per day, each 75 minutes with two in the morning and two in the afternoon.  In addition:
+* There will be coffee breaks between the first/second and third/fourth block.  
+* A lunch break runs each day between the second/third block. 
 
-Tuesday is a full plenary day, which a slightly shifted schedule for breaks.  Regular day programming ends at 5:00pm, with after hours programming beginning after short breaks.
 
-<br/>
+<!-- * Breakfast begins one hour before the sessions for the day (7:45am on Tuesday, 8:00am all other days). -->
+
+<!-- Tuesday is a full plenary day, which a slightly shifted schedule for breaks.  Regular day programming ends at 5:00pm, with after hours programming beginning after short breaks. -->
+
+<!-- <br/> -->
 
 <!--
 <div style="position: relative;">
@@ -38,7 +40,7 @@ Tuesday is a full plenary day, which a slightly shifted schedule for breaks.  Re
 </div>
 -->
 
-
+<!-- 
 The following pocket program will be provided to all attendees at the registration desk:
 
 <embed src="/year/2023/assets/vis2023-program.pdf" type="application/pdf" width="100%" height="400px" /><br/>
@@ -48,54 +50,77 @@ The following pocket program will be provided to all attendees at the registrati
 Details about individual Paper sessions, including the session chairs and which papers are in each session can be found on the [Paper Sessions](/year/2023/info/papers-sessions) page.
 
 See these pages for a schedule and details for <a href="/year/2023/info/meetups">Meetups</a> and <a href="/year/2023/info/call-participation/community">Community Events</a>.<br/>
+-->
 
 <!--
 See this page for a description of the <a href="/year/2022/info/supporters-session">Supporters Forum</a>.<br/>
 
 See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask Me Anything Sessions</a>.<br/>
--->
+--> 
 
 <hr/>
 
-<a>**Saturday, October 21, 2023**</a><br/>
+<a>**Saturday, October 12, 2024**</a><br/>
 
-*9:00 AM-5:00 PM AEDT (UTC+11)*<br/>
+<!-- *9:00 AM-5:00 PM AEDT (UTC+11)*<br/> -->
 **Doctoral Colloquium** (Invite only event)
 
 <hr/>
 
 
-<a>**Sunday, October 22, 2023**</a><br/>
+<a>**Sunday, October 13, 2024**</a><br/>
 
-*9:00 AM-12:00 PM AEDT (UTC+11)*<br/>
+**Morning (Blocks 1 and 2)**<br/>
+* [Workshops](/year/2024/info/workshops)
+* [Tutorials](/year/2024/info/tutorials)
+* Symposia ([LDAV](https://ldav.io/2024/) and [VDS](https://www.visualdatascience.org/2024/index.html))
+
+<!-- *9:00 AM-12:00 PM AEDT (UTC+11)*<br/>
 * Room 101-102: **Visualization Analysis and Design** ([Tutorial](/year/2023/info/tutorials))  
 * Room 103: **EnergyVis 2023: 3rd Workshop on Energy Data Visualization** ([Workshop](/year/2023/info/workshops))  
 * Room 104: **Visualization for Pandemic and Emergency Responses Workshop (Vis4PandEmRes)** ([Workshop](/year/2023/info/workshops))  
 * Room 105: **MERCADO: Multimodal Experiences for Remote Communication Around Data Online** ([Workshop](/year/2023/info/workshops))  
 * Room 106: **A Hands-on TTK Tutorial for Absolute Beginners** ([Tutorial](/year/2023/info/tutorials))  
-* Room 110: **NLP4Vis: Natural Language Processing for Information Visualization** ([Tutorial](/year/2023/info/tutorials))  
+* Room 110: **NLP4Vis: Natural Language Processing for Information Visualization** ([Tutorial](/year/2023/info/tutorials))   -->
 
-*2:00 PM-5:00 PM AEDT (UTC+11)*<br/>
+**Afternoon (Blocks 3 and 4)**<br/>
+* [Workshops](/year/2024/info/workshops)
+* [Tutorials](/year/2024/info/tutorials)
+* Symposia ([LDAV](https://ldav.io/2024/) and [VDS](https://www.visualdatascience.org/2024/index.html))
 
-* Room 101-102: **[VizSec: 20th IEEE Symposium on Visualization for Cyber Security](https://vizsec.org/vizsec2023/)** (Associated Event)  
+<!-- *2:00 PM-5:00 PM AEDT (UTC+11)*<br/> -->
+
+<!-- * Room 101-102: **[VizSec: 20th IEEE Symposium on Visualization for Cyber Security](https://vizsec.org/vizsec2023/)** (Associated Event)  
 * Room 103: **5th Workshop on Urban Data Visualization (CityVis)** ([Workshop](/year/2023/info/workshops))  
 * Room 104: **VAHC: 14th Workshop on Visual Analytics in Healthcare** ([Workshop](/year/2023/info/workshops))  
 * Room 105: **Sixth Workshop on Visualization for Communication (VisComm)** ([Workshop](/year/2023/info/workshops))  
 * Room 106: **TopoInVis: Topological Data Analysis and Visualization** ([Workshop](/year/2023/info/workshops))  
 * Room 110: **NLVIZ Workshop: Exploring Research Opportunities for Natural Language, Text, and Data Visualization** ([Workshop](/year/2023/info/workshops))  
 * Room 111-112: **Demystifying Color in Your Data Visualizations** ([Tutorial](/year/2023/info/tutorials))  
+ -->
+<!-- *6:00 PM-8:00 PM AEDT (UTC+11)*<br/> -->
 
-*6:00 PM-8:00 PM AEDT (UTC+11)*<br/>
+<!-- * Munich Brauhaus: **VIS23 Welcome Function / Reception** (6:00pm-8:00pm)  -->
 
-* Munich Brauhaus: **VIS23 Welcome Function / Reception** (6:00pm-8:00pm) 
-
+**Evening**<br />
+* VIS24 Welcome Reception
 
 <hr/>
 
 
-<a>**Monday, October 23, 2023**</a><br/>
+<a>**Monday, October 14, 2024**</a><br/>
 
-*9:00 AM-12:00 PM AEDT (UTC+11)*<br/>
+**Morning (Blocks 1 and 2)**<br/>
+* [Workshops](/year/2024/info/workshops)
+* [Tutorials](/year/2024/info/tutorials)
+* Symposia ([LDAV](https://ldav.io/2024/) and [VDS](https://www.visualdatascience.org/2024/index.html))
+
+**Afternoon (Blocks 3 and 4)**<br/>
+* [Workshops](/year/2024/info/workshops)
+* [Tutorials](/year/2024/info/tutorials)
+* Symposia ([LDAV](https://ldav.io/2024/) and [VDS](https://www.visualdatascience.org/2024/index.html))
+
+<!-- *9:00 AM-12:00 PM AEDT (UTC+11)*<br/>
 * Room 101-102: **[VisInPractice](/year/2023/info/visinpractice)** (Associated Event)  
 * Room 103: **Mining Useful Information Via Complex Network Visualization** ([Tutorial](/year/2023/info/tutorials)) 
 * Room 104: **[VAST Challenge](https://vast-challenge.github.io/2023/)** (Contest)  
@@ -115,16 +140,25 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 * Room 106: **[VDS: Visualization in Data Science Symposium](https://www.visualdatascience.org/2023/index.html)** (Associated Event)  
 * Room 109: **VisxVision: Workshop on Novel Directions in Vision Science and Visualization Research** ([Workshop](/year/2023/info/workshops))  
 * Room 110: **alt.VIS 2023** ([Workshop](/year/2023/info/workshops))  
-* Room 111-112: **[SciVis Contest](https://sciviscontest2023.github.io/)** (Contest)  
+* Room 111-112: **[SciVis Contest](https://sciviscontest2023.github.io/)** (Contest)   -->
 
 <hr/>
 
 
-<a>**Tuesday, October 24, 2023**</a><br/>
+<a>**Tuesday, October 15, 2024**</a><br/>
 
-*8:45 AM-10:30 AM AEDT (UTC+11)*<br/>
+**Morning and Afternoon (Blocks 1-4)**<br/>
+* VIS Welcome, VGTC Awards, 
+* [VIS Keynote](/year/2024/info/keynote-speaker), Dr. Bill Pike
+* VIS Opening 
+* ACC Summary 
+* Best Paper (including short paper) Presentations
 
-* Plenary 1: **VIS Welcome** (8:45am-9:00am) 
+
+<!-- *8:45 AM-10:30 AM AEDT (UTC+11)*<br/> -->
+
+
+<!-- * Plenary 1: **VIS Welcome** (8:45am-9:00am) 
 * Plenary 1: **VGTC Awards** (9:00am-9:45am) 
 * Plenary 1: **Test of Time Awards** (9:45am-10:30am)
 
@@ -145,23 +179,39 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 
 *3:40 PM-4:30 PM AEDT (UTC+11)*<br/>
 
-* Plenary 1: **[Best Papers 2](/year/2023/info/awards/best-paper-awards)**, includes Best Short Paper (3:40pm-4:30pm) ([VIS Full Papers](/year/2023/info/papers-sessions))
+* Plenary 1: **[Best Papers 2](/year/2023/info/awards/best-paper-awards)**, includes Best Short Paper (3:40pm-4:30pm) ([VIS Full Papers](/year/2023/info/papers-sessions)) -->
 
-*4:45 PM-6:15 PM AEDT (UTC+11)*<br/>
+**Evening**<br />
+* Poster Session
+* [VISAP](https://visap.net/2024/) Keynote and Opening Reception
+
+<!-- *4:45 PM-6:15 PM AEDT (UTC+11)*<br/>
 
 * Foyer: **VIS Poster Session**, includes all Associated Event Posters (4:45pm-6:15pm)
 * Room 103: **[Early Career and Friends Happy Hour Meetup](/year/2023/info/meetups#vis-earlycareer)** (5:00pm-6:00pm)
 
 *6:00 PM-8:00 PM AEDT (UTC+11)*<br/>
 
-* Library at the Docks **[VISAP](https://visap.net/2023/) Opening Reception** (6:00pm-8:00pm) 
+* Library at the Docks **[VISAP](https://visap.net/2023/) Opening Reception** (6:00pm-8:00pm)  -->
 
 <hr/>
 
 
-<a>**Wednesday, October 25, 2023**</a><br/>
+<a>**Wednesday, October 16, 2024**</a><br/>
 
-*8:00 AM-9:00 AM AEDT (UTC+11)*<br/>
+**Morning (Blocks 1 and 2)**<br/>
+* Paper, Short Paper, TVCG Paper, and CG&A Paper Presentations
+* VISAP Presentations
+* Application Spotlights
+* Panels
+
+**Afternoon (Blocks 3 and 4)**<br/>
+* Paper, Short Paper, TVCG Paper, and CG&A Paper Presentations
+* Application Spotlights
+* Panels
+
+
+<!-- *8:00 AM-9:00 AM AEDT (UTC+11)*<br/>
 * Room 101-102: **[VIS Town Hall](/year/2023/info/townhall)** 
 
 *9:00 AM-10:15 AM AEDT (UTC+11)*<br/>
@@ -200,19 +250,35 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 
 *5:00 PM-6:00 PM AEDT (UTC+11)*<br/>
 
-* Room 103: **[Publishing Registered Reports, Interactive Articles, and Open Science at JoVI Meetup](/year/2023/info/meetups#JoVI)** 
+* Room 103: **[Publishing Registered Reports, Interactive Articles, and Open Science at JoVI Meetup](/year/2023/info/meetups#JoVI)**  -->
 
-*6:00 PM-8:00 PM AEDT (UTC+11)*<br/>
+**Evening**<br />
+* VIS Banquet
+
+<!-- *6:00 PM-8:00 PM AEDT (UTC+11)*<br/>
 * Grazelands: **VIS Banquet** (6:00pm-8:00pm) <br>
     * Sponsored by **Norrköping Visualization Center**
-    * includes Screenings (6:00, 6:45, and 7:30 PM) at the Melbourne Planetarium.  Transport on your own / via Public Transport Victoria (PTV) using your Myki card (provided at registration) 
+    * includes Screenings (6:00, 6:45, and 7:30 PM) at the Melbourne Planetarium.  Transport on your own / via Public Transport Victoria (PTV) using your Myki card (provided at registration)  -->
 
 <hr/>
 
 
-<a>**Thursday, October 26, 2023**</a><br/>
+<a>**Thursday, October 17, 2024**</a><br/>
 
-*9:00 AM-10:15 AM AEDT (UTC+11)*<br/>
+**Morning (Blocks 1 and 2)**<br/>
+* Paper, Short Paper, TVCG Paper, and CG&A Paper Presentations
+* VISAP Presentations
+* Application Spotlights
+* Panels
+
+**Afternoon (Blocks 3 and 4)**<br/>
+* Paper, Short Paper, TVCG Paper, and CG&A Paper Presentations
+* Application Spotlights
+* Panels
+
+
+
+<!-- *9:00 AM-10:15 AM AEDT (UTC+11)*<br/>
 * Room 103: **Visualization for the Physical Sciences** ([VIS Full Papers](/year/2023/info/papers-sessions))
 * Room 104: **Clustering & Scatterplots** ([VIS Full Papers](/year/2023/info/papers-sessions))
 * Room 105: **Color and Accessibility** ([VIS Full Papers](/year/2023/info/papers-sessions))
@@ -247,31 +313,52 @@ See this link for details on the <a href="/year/2022/info/ask-me-anything">Ask M
 
 *5:00 PM-6:00 PM AEDT (UTC+11)*<br/>
 
-* Room 101-102: **[VIS Job Fair Meetup](/year/2023/info/call-participation/community#ajf)** 
+* Room 101-102: **[VIS Job Fair Meetup](/year/2023/info/call-participation/community#ajf)**  -->
 
 <hr/>
 
 
-<a>**Friday, October 27, 2023**</a><br/>
+<a>**Friday, October 18, 2024**</a><br/>
 
-*9:00 AM-10:15 AM AEDT (UTC+11)*<br/>
+**Morning (Block 1)**<br/>
+* Paper, Short Paper, TVCG Paper, and CG&A Paper Presentations
+* Panels
+
+**Morning (Block 2)**<br/>
+* Test of Time Awards
+* [VIS Capstone](/year/2024/info/capstone-speaker), Prof. Catherine D'Ignazio
+* VIS Closing
+
+<!-- * Paper Presentations, Short Paper Presentations, TVCG Paper Presentations, CG&A Paper Presentations, and/or Tutorials -->
+
+
+<!-- *9:00 AM-10:15 AM AEDT (UTC+11)*<br/>
 * Room 103: **Scientific Visualization** ([VIS Full Papers](/year/2023/info/papers-sessions))
 * Room 104: **Machine Learning / Language Models / Theory** ([VIS Short Papers](/year/2023/info/papers-sessions))
 * Room 105-106: **GeoVis** ([VIS Full Papers](/year/2023/info/papers-sessions))
 * Room 109: **Journalism & the Public** ([VIS Full Papers](/year/2023/info/papers-sessions))
 
 *10:45 AM-12:00 PM AEDT (UTC+11)*<br/>
+* Plenary 1: **Test of Time Awards** (9:45am-10:30am)
 * Room 105-106: **[VIS Capstone](/year/2023/info/capstone-speaker)**, Professor Matt Duckham (10:45am-11:45am) 
-* Room 105-106: **VIS Closing** (11:45am-12:00pm) 
+* Room 105-106: **VIS Closing** (11:45am-12:00pm)  -->
+
+
+<hr/>
+
+In addition, to the scheduled program, many of the following are available across several days of the week:
+* Meetups that are usually scheduled on short notice
+* VISAP exhibition
+* Posters
+* Exhibitors
 
 <hr/>
 
 
 ### Program Co-Chairs
 
-* Gautam Chaudhary, *Alcon* 
-* Joshua A. Levine, *University of Arizona* 
 * Lane Harrison, *Worcester Polytechnic Institute*
 * Kate Isaacs, *University of Utah*
+* Michelle Dowling, *Pacific Northwest National Lab*
 
 *Email: [program@ieeevis.org](mailto:program@ieeevis.org)*

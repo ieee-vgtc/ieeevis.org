@@ -5,6 +5,11 @@
 
 <body id="app">
     {% include navigation.html %}
+
+    {% if site.data.program_navigation.navbar_metadata.display %}
+    {% include program-navigation.html %}
+    {% endif %}
+
     <main>
         {{ content }}
     </main>

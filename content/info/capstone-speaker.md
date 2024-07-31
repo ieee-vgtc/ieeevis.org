@@ -1,36 +1,28 @@
 ---
 layout: page 
-title: "Capstone by Prof. Matt Duckham"
+title: "Capstone by Prof. Catherine D'Ignazio"
 permalink: /year/2024/info/capstone-speaker 
 contact: info@ieeevis.org 
 active_nav: "Program"
 ---
 
-<img src="/year/2023/assets/carousel/matt-duckham.jpeg"
-alt="Capstone Speaker: Professor Matt Duckham, RMIT University" 
+<img src="/year/2024/assets/carousel/catherine-dignazio.jpg"
+alt="Capstone Speaker: Prof. Catherine D'Ignazio, MIT" 
 style="height:400px"
 />
 <br/>
 
-<p><b>Speaker</b> <br/>Matt Duckham is a Professor in Geospatial Sciences and Director, Information in Society EIP (Enabling Impact Platform) at RMIT University. 
+<p><b>Speaker</b> <br/>Catherine D'Ignazio is an Associate Professor of Urban Science and Planning in the Department of Urban Studies and Planning at MIT and the Director of the Data + Feminism Lab. 
 </p>
 
 <p><b>Title</b> <br/>
-  All over the map
+  Visualizing Inequality: What We Can Learn From Grassroots Data Activism
 </p>
 
 <p><b>Abstract</b> <br/>
-"Spatial is special" is a phrase often used by geographic information (GI) scientists, like Matt. Yet, many other research communities without a "special" focus on spatial are continually innovating with important new spatial tools, ideas, techniques, and insights, including the visualization community.
-
-This creative tension---between domain expertise and domain exclusivity, between discipline boundaries and discipline blends---can move interdisciplinary GI science research "all over the map" (in both senses of complete mastery and chaotic muddle).
-
-The tension is especially pronounced in connection with maps and mapping. On the one hand, the art and science of mapping is traditionally a domain of "special" study in cartography. On the other, maps are a basic tool for information visualization in almost every academic and professional discipline that analyzes data related to geographic location. Indeed, even GI scientists have a complex relationship with maps---at times cherished touchstone; at others atavistic constraint.
-
-This capstone uses the map---perhaps the ultimate interdisciplinary artefact---as a lens to reflect on essential research themes in GI science, and on the nature of interdisciplinary research into geovisualization. The analysis identifies five "special" features of geographic information, including its structure, dynamism, uncertainty, and its intimate connection with human cognition, that directly impact on mapping and geovisualization. The examples highlight the importance of knowledge exchange in an interdisciplinary field like GI science, and particularly of exchange with the visualization community. The conclusions also look to the future, and identify some of the most promising emerging problem domains in GI science.
+In the face of social inequality, journalists and advocates are increasingly compiling their own datasets, analyzing them, and visualizing them to work towards social transformation. This talk presents an in-depth case study from <a href="https://mitpress.mit.edu/9780262048873/counting-feminicide/" target="new_window"><i>Counting Feminicide: Data Feminism in Action</i></a> (MIT Press, 2024), a book about transnational data activism that is challenging the gender-related killings of women and girls. Grassroots activists document and visualize violence in ways that center care, memory, healing, and justice. This talk puts forth the argument that there are lessons to draw from their work for how to sensitively represent violence and inequality through data, most notably through employing alternative epistemological frameworks, embodied visual grammars, and strategic political calculations.
 </p>
 
 <p><b>About the Speaker</b><br/>
 
-Matt is a Professor in Geospatial Sciences and Director, Information in Society EIP (Enabling Impact Platform) at RMIT University. His research in to spatial computing, geovisualisation, and geospatial AI ("geoAI") connects strongly with applications in areas such as emergency response, defence, transportation, and environmental monitoring. 
-
-He's an author of the widely used GIS textbook "GIS: A Computing Perspective", now in its third edition (https://doi.org/10.1201/9780429168093), and a founding editor of the Journal of Spatial Information Science (JOSIS). Matt has previously worked at the University of Melbourne, as a Professor in GIScience and as an ARC (Australian Research Council) Future Fellow, and at the NCGIA (National Center for Geographic Information and Analysis) at the University of Maine, USA.
+Catherine D’Ignazio is a hacker mama, scholar, and artist/designer who focuses on feminist technology, data justice, and civic engagement. She has run women’s health hackathons, designed global news recommendation systems, created talking and tweeting water quality sculptures, and led walking data visualizations to envision the future of sea level rise. Her 2020 book from MIT Press, <a href="https://bookbook.pubpub.org/data-feminism" target="new_window"><i>Data Feminism</i></a>, co-authored with Lauren Klein, charts a course for more ethical and empowering data science practices. Her second book, <a href="https://mitpress.mit.edu/9780262048873/counting-feminicide/" target="new_window"><i>Counting Feminicide: Data Feminism in Action</i></a> (MIT Press, 2024) is an extended case study about grassroots data activism to end gender-related violence. D’Ignazio is an Associate Professor of Urban Science and Planning in the Department of Urban Studies and Planning at MIT where she is the Director of the <a href="https://dusp.mit.edu/people/catherine-dignazio" target="new_window">Data + Feminism Lab</a>.

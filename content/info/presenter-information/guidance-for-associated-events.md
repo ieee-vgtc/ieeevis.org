@@ -53,7 +53,7 @@ Please note that a typical paper presentation therefore comprises two slots: the
 
 Note that regular attendees of your event will either join on-site or view the embedded stream and use embedded chat using sli.do on the conference web pages. They will not have access to the Zoom room.
 
-All recorded presentations will be submitted as discussed in the [Talk Recording Guide for Contributors](/year/2022/info/presenter-information/talk-recording-guide).
+All recorded presentations will be submitted as discussed in the [Talk Guide for Contributors](/year/2022/info/presenter-information/talk-guide).
 
 
 ## Contact

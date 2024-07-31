@@ -32,7 +32,7 @@
     --navigation-height: 70px;
     z-index: 999;
     @apply bg-accent;
-    @apply border-secondary border-b-2;
+    /* @apply border-secondary border-b-2; */
     @apply text-white;
     height: var(--navigation-height);
 

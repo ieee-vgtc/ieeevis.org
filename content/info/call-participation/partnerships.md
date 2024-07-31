@@ -19,7 +19,7 @@ Since 2015, authors of selected papers from the IEEE Computer Graphics and Appli
 
 These talks are collected into two or more CG&A-focused sessions. Invitations are issued by the CG&A Associate Editor (currently, André Stork) in the Spring based on scope alignment with the VIS conference and the number of available slots.
 
-## SIGGRAPH Partnership
+<!-- ## SIGGRAPH Partnership
 Since 2019, authors of selected papers from the ACM SIGGRAPH Transactions on Graphics (TOG) from the current year, in the area of visualization, have been invited to give an oral presentation about their work at VIS. Similarly, authors of selected papers from the IEEE TVCG from the current year are invited to give an oral presentation about their work at SIGGRAPH.  Invitations are coordinated with the ACM TOG Editor-in-Chief, the IEEE TVCG Editor-in-Chief (currently, Han-Wei Shen), and IEEE VGTC’s Vice Chair for Conferences (currently, Jian Chen).
 
 These talks are collected in one SIGGRAPH-focused session.
@@ -27,7 +27,7 @@ These talks are collected in one SIGGRAPH-focused session.
 ## IEEE VR Partnership
 Starting in 2022, authors of selected papers from IEEE VR, the IEEE Conference on Virtual Reality + 3D User Interfaces, will be invited to give an oral presentation about their work at VIS.  The goal of this partnership is to further cross-pollinate the VIS and VR communities, by inviting VR papers that have a visualization focus to present.  This year we plan to also incorporate papers presented at ISMAR and SIGGRAPH.  Invitations are issued through IEEE VGTC's vice chair for conferences (currently, Jian Chen).
 
-Like with SIGGRAPH, these talks are collected in one VR-focused session.
+Like with SIGGRAPH, these talks are collected in one VR-focused session. -->
 
 Email: [program@ieeevis.org](mailto:program@ieeevis.org)
 
