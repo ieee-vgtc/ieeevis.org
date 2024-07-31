@@ -50,8 +50,8 @@ main {
     /* margin-top: 70px;  */
     /* Push down to compensate for fixed nav*/
 
-    margin-top: 130px;
-    /* Adding 60px for the program navbar */
+    margin-top: 140px;
+    /* Adding 70px for the program navbar */
 }
 
 article, aside {
@@ -60,7 +60,7 @@ article, aside {
 
 @screen md {
     main {
-        margin-top: 0;
+        margin-top: 0px;
     }
 }
 
