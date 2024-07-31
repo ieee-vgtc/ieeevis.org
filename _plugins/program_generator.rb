@@ -41,7 +41,7 @@ module ProgramPlugin
 
       # Initialize empty data hash
       @data = {}
-      data["layout"] = "page"
+      data["layout"] = "program"
       data["title"] = "Program"
       # data["permalink"] = "/year/2024/program/#{basename}#{@ext}"
       data["active_nav"] = "Program"

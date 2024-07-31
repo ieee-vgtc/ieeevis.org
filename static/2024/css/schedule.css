@@ -1,0 +1,239 @@
+
+.schedule {
+    max-width: 1140px;
+    max-height: 1200px;
+    display: grid;
+    gap: 0.5em;
+    grid-template-rows:
+        0.2fr
+        [tracks] auto
+        [time-0845] 0.5fr
+        /*[time-0745 time-0740] 0.5fr*/
+        [time-0900] 3fr
+        /*[time-0845] 1.5fr*/
+        /*[time-0930 time-0920 time-0910 time-0925] 0.5fr*/
+        /*[time-0945] 0.5fr*/
+        [time-1000 time-1005] .5fr
+        [time-1015] .5fr
+        [time-1030] .5fr
+        [time-1045] .5fr
+        [time-1100] 2fr
+        /*[time-1130 time-1120 time-1115 time-1125] 1fr*/
+        [time-1200] 2fr
+        /*[time-1300] 0.5fr*/
+        /*[time-1315 time-1314] 0.5fr*/
+        /*[time-1330 time-1320 time-1317] 1fr*/
+        [time-1400] 3fr
+        [time-1510 time-1515] .5fr
+        [time-1540 time-1545] 3fr
+        [time-1700];
+
+    grid-template-columns:
+        [times] 5em
+        [day-1-start] 1fr
+        [day-1-end day-2-start] 1fr
+        [day-2-end day-3-start] 1fr
+        [day-3-end day-4-start] 1fr
+        [day-4-end day-5-start] 1fr
+        [day-5-end day-6-start] 1fr
+        [day-6-end timezones] 5em
+        [timezones-end];
+}
+
+#curr-time-indicator-line, #curr-time-indicator-label {
+    display: none;
+    color: rgb(106, 168, 104);
+}
+
+#curr-time-indicator-line {
+    border-color: rgb(106, 168, 104);
+}
+
+#curr-time-indicator-line::after {
+    border-color: rgb(106, 168, 104) !important;
+}
+
+.schedule-header {
+    max-width: 1140px;
+    display: grid;
+    gap: 0.5em;
+
+    grid-template-rows:
+        0.2fr
+        [timezones] auto;
+
+    grid-template-columns:
+        [times] 5em
+        [day-1-start] 1fr
+        [day-1-end day-2-start] 1fr
+        [day-2-end day-3-start] 1fr
+        [day-3-end day-4-start] 1fr
+        [day-4-end day-5-start] 1fr
+        [day-5-end day-6-start] 1fr
+        [day-6-end timezones] 5em
+        [timezones-end];
+}
+
+/* one additional column; max 8 concurrent rooms */
+.schedule.schedule-day {
+    grid-template-columns:
+        [times] 5em
+        [plenary-start] 1fr
+        [plenary-end oneohone-start] 1fr
+        [oneohone-end oneohthree-start] 1fr
+        [oneohthree-end oneohfour-start] 1fr
+        [oneohfour-end oneohfive-start] 1fr
+        [oneohfive-end oneohsix-start] 1fr
+        [oneohsix-end oneohnine-start] 1fr
+        [oneohnine-end oneten-start] 1fr
+        [oneten-end oneeleven-start] 1fr
+        [oneeleven-end timezones] 5em
+        [timezones-end];
+}
+
+/* customize layout per-day */
+#calendar-Sunday, #calendar-Monday {
+    grid-template-columns:
+        [times] 5em
+        [oneohone-start] 1fr
+        [oneohone-end oneohthree-start] 1fr
+        [oneohthree-end oneohfour-start] 1fr
+        [oneohfour-end oneohfive-start] 1fr
+        [oneohfive-end oneohsix-start] 1fr
+        [oneohsix-end oneohnine-start] 1fr
+        [oneohnine-end oneten-start] 1fr
+        [oneten-end oneeleven-start] 1fr
+        [oneeleven-end timezones] 5em
+        [timezones-end];
+}
+
+#calendar-Tuesday {
+    grid-template-columns:
+        [times] 5em
+        [plenary-start] 1fr
+        [plenary-end other-start] 1fr
+        [other-end timezones] 5em
+        [timezones-end];
+}
+
+#calendar-Wednesday, #calendar-Thursday {
+    grid-template-columns:
+        [times] 5em
+        [oneohone-start] 1fr
+        [oneohone-end oneohthree-start] 1fr
+        [oneohthree-end oneohfour-start] 1fr
+        [oneohfour-end oneohfive-start] 1fr
+        [oneohfive-end oneohsix-start] 1fr
+        [oneohsix-end oneohnine-start] 1fr
+        [oneohnine-end timezones] 5em
+        [timezones-end];
+}
+
+#calendar-Friday {
+    grid-template-columns:
+        [times] 5em
+        [oneohthree-start] 1fr
+        [oneohthree-end oneohfour-start] 1fr
+        [oneohfour-end oneohfive-start] 1fr
+        [oneohfive-end oneohsix-start] 1fr
+        [oneohsix-end oneohnine-start] 1fr
+        [oneohnine-end timezones] 5em
+        [timezones-end];
+}
+
+.tz {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.85em;
+    padding-bottom: 2em;
+}
+
+.tz-title {
+    font-weight: 700;
+}
+
+.tz-right {
+    /* text-align: right; */
+    align-items: flex-end;
+    align-content: stretch;
+    grid-column: span 3 / timezones-end;
+    grid-row: timezones;
+    align-self: end;
+}
+
+.tz-right .dropdown.bootstrap-select {
+    width: 300px !important; /* sigh */
+}
+
+.filter {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.85em;
+    padding-bottom: 2em;
+}
+
+.filter-title {
+    font-weight: 700;
+}
+
+.day-slot, .time-slot, .day-slot h2 {
+    margin: 0;
+    font-size: 1.1em;
+    font-weight: 400;
+    color: var(--text-dark-color);
+}
+
+.day-slot h2 a {
+    color: var(--text-dark-color);
+}
+
+.day-slot h2 a:hover {
+    color: var(--text-dark-color);
+}
+
+.time-slot.converted-timezone,
+.tz:not(.tz-right) {
+    color: var(--vis2024-blue);
+}
+
+.day-slot {
+    padding-bottom: 0.5em;
+    width: 100%;
+    /* justify-self: center; */
+    text-align: center;
+    border-bottom: 1px dotted var(--vis2024-blue);
+}
+
+.day-slot a {
+    cursor: pointer;
+}
+
+.time-slot:not(.converted-timezone) {
+    grid-column: timezones;
+    text-align: right;
+}
+
+.session {
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    font-size: 0.9em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+.day-slot a:hover,
+.session-group:hover,
+:not(.session-group) > .session:hover {
+    opacity: 0.85;
+}
+
+.session.session-minimal {
+    padding: 0.4em;
+    /* display: none; */
+}
+
+.session-group {
+    justify-self: center;
+    display: flex;
+    gap: 0.25em;
+}

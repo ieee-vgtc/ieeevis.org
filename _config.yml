@@ -48,12 +48,12 @@ defaults:
       type: "pages"
     values:
       contact: "web@ieeevis.org"
-      layout: "page"
+      layout: "program"
   - 
     scope:
       path: "year/2024/program"
       type: "pages"
     values:
       contact: "web@ieeevis.org"
-      layout: "page"
+      layout: "program"
       published: false
