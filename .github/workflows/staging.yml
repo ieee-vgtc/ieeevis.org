@@ -91,7 +91,7 @@ jobs:
         IEEEVIS_AWS_USER: default
         AWS_DISTRIBUTION_ID: ${{ secrets.aws_distribution_id_staging }}
       run: |
-        git switch -f vis2024-program
+        git switch -f vis2024
         make staging2024
 
 
