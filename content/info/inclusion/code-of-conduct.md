@@ -16,34 +16,22 @@ IEEE VIS reserves the right to take appropriate action to foster an inclusive an
 
 Please contact [ombuds@ieeevis.org](mailto:ombuds@ieeevis.org) if you experience, observe, or have knowledge of behavior in violation of the Code of Conduct.  Our [reporting process document](coc-reporting-process) describes how the Ombuds team will respond.
 
-The ombuds team for VIS 2023 is: 
+The ombuds team for VIS 2024 is: 
 
 <center>
 <table style="text-align: center;">
   <tbody>
     <tr>
-      <td style="padding: 3px; width: 33%;"><img src="/year/2023/assets/ombuds-gautam.jpeg" alt="ombuds-gautam" style="min-width: 100px"/></td>
-      <!-- <td style="padding: 3px; width: 33%;"><img src="/year/2023/assets/ombuds-chris.jpeg" alt="ombuds-chris" style="min-width: 100px"/></td> -->
-      <td style="padding: 3px; width: 33%;"><img src="/year/2023/assets/ombuds-menna.jpeg" alt="ombuds-menna" style="min-width: 100px"/></td>
-      <td style="padding: 3px; width: 33%;"> &nbsp; </td>    
+      <td style="padding: 3px; width: 25%;"><img src="/year/2024/assets/ombuds-gautam.jpeg" alt="ombuds-gautam" style="min-width: 100px"/></td>
+      <td style="padding: 3px; width: 25%;"><img src="/year/2024/assets/ombuds-menna.jpeg" alt="ombuds-menna" style="min-width: 100px"/></td>
+      <td style="padding: 3px; width: 25%;"><img src="/year/2024/assets/ombuds-josh.jpeg" alt="ombuds-josh" style="min-width: 100px"/></td>
+      <td style="padding: 3px; width: 25%;"><img src="/year/2024/assets/ombuds-lace.jpeg" alt="ombuds-lace" style="min-width: 100px"/></td>
     </tr>
     <tr>
-      <td style="padding: 3px; width: 33%;">Gautam Chaudhary</td>
-      <!-- <td style="padding: 3px; width: 33%;">Christopher Collins</td> -->
-      <td style="padding: 3px; width: 33%;">Menna El-Assady</td>
-      <td style="padding: 3px; width: 33%;"> &nbsp; </td>    
-    </tr>
-    <tr style="border-bottom: 0px;">
-      <td style="padding: 3px; width: 33%;"><img src="/year/2023/assets/ombuds-josh.jpeg" alt="ombuds-josh" style="min-width: 100px"/></td>
-      <td style="padding: 3px; width: 33%;"><img src="/year/2023/assets/ombuds-lace.jpeg" alt="ombuds-lace" style="min-width: 100px"/></td>
-      <td style="padding: 3px; width: 33%;"> &nbsp; </td>    
-      <!-- <td style="padding: 3px; width: 33%;"><img src="/year/2023/assets/ombuds-kristi.jpeg" alt="ombuds-kristi" style="min-width: 100px"/></td> -->
-    </tr>
-    <tr>
-      <td style="padding: 3px; width: 33%;">Joshua Levine</td>
-      <td style="padding: 3px; width: 33%;">Lace Padilla</td>
-      <td style="padding: 3px; width: 33%;"> &nbsp; </td>    
-      <!-- <td style="padding: 3px; width: 33%;">Kristi Potter</td> -->
+      <td style="padding: 3px; width: 25%;">Gautam Chaudhary</td>
+      <td style="padding: 3px; width: 25%;">Menna El-Assady</td>
+      <td style="padding: 3px; width: 25%;">Joshua Levine</td>
+      <td style="padding: 3px; width: 25%;">Lace Padilla</td>
     </tr>
   </tbody>
 </table>
