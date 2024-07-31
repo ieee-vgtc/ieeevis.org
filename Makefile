@@ -24,7 +24,7 @@ newsite:
 new2024:
 	npm install
 	npm run-script build
-	bundle exec jekyll serve -d ./_site -b '/'
+	bundle exec jekyll build -d ./_site -b '/'
 	./scripts/fix_file_extensions.sh
 
 production: site
