@@ -5,7 +5,7 @@ NEW_BUCKET=redesign.ieeevis.org
 PRODUCTION_BRANCH=production
 STAGING_BRANCH=master
 NEW_BRANCH=development
-2024_BRANCH=vis2024-program
+2024_BRANCH=vis2024
 2024_RELEASE=vis2024-release
 
 all: site
