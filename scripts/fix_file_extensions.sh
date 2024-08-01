@@ -2,6 +2,7 @@
 
 # With the new build process, actually need to push everything into _site/year/2024
 cp -r _site/year/2024/year/2024/* _site/year/2024/
+mkdir -p _site/static
 cp -r _site/year/2024/static/* _site/static/
 rm -rf _site/year/2024/year
 rm -rf _site/year/2024/static
