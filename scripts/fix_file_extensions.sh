@@ -1,12 +1,18 @@
 #!/bin/bash
 
-for i in `find _site/year/2024 _site/governance -name "*.html"`; do
+# With the new build process, actually need to push everything into _site/year/2024
+mv assets _site/year/
+mv blog _site/year/
+mv content _site/year/
+mv info _site/year/
+
+for i in `find _site/year/2024 _site/governance _site/program -name "*.html"`; do
     mv $i `echo $i | sed s/.html$//`;
 done
 
-# overload governance with 2022 style
-rm -rf _site/governance
-mv _site/year/2024/governance _site/
+# overload governance with 2024 style
+# rm -rf _site/governance
+cp _site/year/2024/governance/* _site/governance/
 
 # overload static assets for vis virtual
 # rm -rf _site/static
