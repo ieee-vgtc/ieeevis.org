@@ -28,6 +28,7 @@ def find_files():
 def local_info():
     result = {}
     local_files_to_check = find_files()
+    print("LOCAL FILES TO CHECK IS ", local_files_to_check)
     for f in local_files_to_check:
         h = hashlib.md5()
         h.update(open(f, 'rb').read())
