@@ -79,9 +79,13 @@ def check_if_git_is_clean():
         raise Exception("Need git to be in the correct branch.\nExpected to be in branch '%s', but it seems we're in branch '%s' instead." %
                         (git_branch_name, branch))
 
-    l = list(filter(lambda s: 'Gemfile.lock' not in s and 'package-lock.json' not in s and s != '', run_cmd_get_lines('git', 'status', '--porcelain')))
-    if len(l) != 0:
-        raise Exception("Expected git working tree to be clean, but it appears not to be.  Instead, got msg: %s" % l)
+    # Removing this check - it leads to all kinds of problems
+    # I need to shuffle around a few files because they are served locally
+    # differently than in production because of jekyll restrictions,
+    # which is causing this to break.
+    # l = list(filter(lambda s: 'Gemfile.lock' not in s and 'package-lock.json' not in s and s != '', run_cmd_get_lines('git', 'status', '--porcelain')))
+    # if len(l) != 0:
+    #     raise Exception("Expected git working tree to be clean, but it appears not to be.  Instead, got msg: %s" % l)
 
     # grab the appropriate remote
     l = list(filter(lambda s: 'fetch' in s, run_cmd_get_lines('git', 'remote', '-v')))
@@ -127,12 +131,12 @@ except KeyError:
 if git_branch_name.endswith("-release"):
     global branch_sha
     branch_sha = run_cmd_get_lines('git', 'rev-parse', 'HEAD')[0].strip()
-# else:
-#     try:
-#         check_if_git_is_clean()
-#     except Exception as e:
-#         print("Error:", str(e))
-#         exit(1)
+else:
+    try:
+        check_if_git_is_clean()
+    except Exception as e:
+        print("Error:", str(e))
+        exit(1)
 
 session = boto3.Session(profile_name=os.environ["IEEEVIS_AWS_USER"])
 resource = session.resource('s3')
