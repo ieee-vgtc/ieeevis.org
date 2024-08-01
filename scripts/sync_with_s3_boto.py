@@ -127,12 +127,12 @@ except KeyError:
 if git_branch_name.endswith("-release"):
     global branch_sha
     branch_sha = run_cmd_get_lines('git', 'rev-parse', 'HEAD')[0].strip()
-else:
-    try:
-        check_if_git_is_clean()
-    except Exception as e:
-        print("Error:", str(e))
-        exit(1)
+# else:
+#     try:
+#         check_if_git_is_clean()
+#     except Exception as e:
+#         print("Error:", str(e))
+#         exit(1)
 
 session = boto3.Session(profile_name=os.environ["IEEEVIS_AWS_USER"])
 resource = session.resource('s3')

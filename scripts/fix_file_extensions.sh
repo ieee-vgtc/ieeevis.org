@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # With the new build process, actually need to push everything into _site/year/2024
-mv assets _site/year/
-mv blog _site/year/
-mv content _site/year/
-mv info _site/year/
+mv _site/assets _site/year/2024/
+mv _site/blog _site/year/2024/
+mv _site/content _site/year/2024/
+mv _site/info _site/year/2024/
 
 for i in `find _site/year/2024 _site/governance _site/program -name "*.html"`; do
     mv $i `echo $i | sed s/.html$//`;
