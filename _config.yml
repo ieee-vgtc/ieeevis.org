@@ -49,11 +49,3 @@ defaults:
     values:
       contact: "web@ieeevis.org"
       layout: "program"
-  - 
-    scope:
-      path: "program"
-      type: "pages"
-    values:
-      contact: "web@ieeevis.org"
-      layout: "program"
-      published: false

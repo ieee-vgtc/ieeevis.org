@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # With the new build process, actually need to push everything into _site/year/2024
 cp -r _site/year/2024/year/2024/* _site/year/2024/
@@ -8,7 +8,9 @@ rm -rf _site/year/2024/year
 rm -rf _site/year/2024/static
 
 for i in `find _site/year/{2016,2017,2018,2019,2020,2021,2022,2023,2024} _site/governance -name "*.html"`; do
-    mv $i `echo $i | sed s/.html$//`;
+    if [[ $i != *"papers.html" ]]; then
+        mv $i `echo $i | sed s/.html$//`;
+    fi
 done
 
 # overload governance with 2024 style
