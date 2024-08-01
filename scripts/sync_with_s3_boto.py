@@ -141,7 +141,8 @@ bucket = resource.Bucket(target_bucket_name)
 print("Syncing branch '%s' with s3 bucket '%s'" % (git_branch_name, target_bucket_name))
 
 diff = diff_local_remote_buckets(local_info(), bucket_info())
-
+print("local_info is ", local_info())
+print("bucket_info is ", bucket_info())
 files_to_upload = diff['to_insert'] + diff['to_update']
 print("Uploading %s files:" % len(files_to_upload))
 for o in files_to_upload:
