@@ -82,6 +82,9 @@
      - name: "Uncharted Software"
        image: /assets/supporters/UnchartedLogo.png
        url: "https://uncharted.software/"
+     - name: "SCI"
+       image: /assets/supporters/sci.png
+       url: "https://www.sci.utah.edu/"
 #      - name: "Apple"
 #        image: /assets/supporters/apple.png
 #        url: "https://www.apple.com"
@@ -113,9 +116,6 @@
 #     - name: "Nomic"
 #       image: /assets/supporters/nomic.png
 #       url: "https://home.nomic.ai"
-     # - name: "SCI"
-     #   image: /assets/supporters/sci.png
-     #   url: "https://www.sci.utah.edu/"
      # - name: "Adobe"
      #   image: /assets/supporters/Adobe-logo.jpg
      #   url: "https://www.adobe.com/"
