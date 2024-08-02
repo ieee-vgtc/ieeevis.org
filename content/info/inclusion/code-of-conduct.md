@@ -22,10 +22,10 @@ The ombuds team for VIS 2024 is:
 <table style="text-align: center;">
   <tbody>
     <tr>
-      <td style="padding: 3px; width: 25%;"><img src="/year/2024/assets/ombuds-gautam.jpeg" alt="ombuds-gautam" style="min-width: 100px"/></td>
-      <td style="padding: 3px; width: 25%;"><img src="/year/2024/assets/ombuds-menna.jpeg" alt="ombuds-menna" style="min-width: 100px"/></td>
-      <td style="padding: 3px; width: 25%;"><img src="/year/2024/assets/ombuds-josh.jpeg" alt="ombuds-josh" style="min-width: 100px"/></td>
-      <td style="padding: 3px; width: 25%;"><img src="/year/2024/assets/ombuds-lace.jpeg" alt="ombuds-lace" style="min-width: 100px"/></td>
+      <td style="padding: 3px; width: 25%;"><img src="/year/2024/assets/ombuds/gautam.jpeg" alt="ombud gautam" style="min-width: 100px"/></td>
+      <td style="padding: 3px; width: 25%;"><img src="/year/2024/assets/ombuds/menna.jpeg" alt="ombud menna" style="min-width: 100px"/></td>
+      <td style="padding: 3px; width: 25%;"><img src="/year/2024/assets/ombuds/josh.jpeg" alt="ombud josh" style="min-width: 100px"/></td>
+      <td style="padding: 3px; width: 25%;"><img src="/year/2024/assets/ombuds/lace.jpeg" alt="ombud lace" style="min-width: 100px"/></td>
     </tr>
     <tr>
       <td style="padding: 3px; width: 25%;">Gautam Chaudhary</td>
