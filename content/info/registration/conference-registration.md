@@ -18,7 +18,7 @@ The 2024 IEEE Visualization and Visual Analytics Conference, running from Octobe
 
 ## FOR IN-PERSON AND VIRTUAL PRESENTERS OF MAIN CONFERENCE PAPERS, MAIN CONFERENCE SHORT PAPERS AND INVITED TVCG PAPERS
 <ul>
-<li>One speaker for each Main Conference Paper, Main Conference Short Paper or Invited TVCG Paper <b>MUST</b> register under the On-site Speaker Conference Registration or the Virtual Speaker Conference Registration option. </li>
+<li>One speaker for each Main Conference Paper, Main Conference Short Paper or Invited TVCG Paper <b>MUST</b> register under the On-site Speaker Conference Registration or the Virtual Speaker Conference Registration option or the corresponding Student Speaker options. </li>
 <li>Presenters can add multiple papers to their Speaker Conference Registration</li>
 <li>Presenters participating only at symposia, workshops, tutorials, or panels <b>SHOULD NOT</b> select the Speaker Conference Registration category. Instead, they need to use the On-site Conference Registration category </li>
 <li><b>Speaker Registration Includes:</b> Admission to all conference sessions, symposia, tutorials and workshops, Banquet (Wednesday) and access to VIS 2024 online content.</li>
