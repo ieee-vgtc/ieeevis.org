@@ -47,12 +47,12 @@
             @apply bg-accent border-0;
             @apply relative;
         }
+        a.nav-text-link {
+            color: white;
+            text-decoration: inherit;
+        }
     }
 
-a.nav-text-link {
-    color: white;
-    text-decoration: inherit;
-}
 
 /* Menu */
 
@@ -93,22 +93,15 @@ a.nav-text-link {
         /* position: relative; */
       }
 
+    /* Force this rule to have greater importance than the inserted bootstrap conflicts
+     -- Dylan */
       .dropdown {
         left: 0;
-        position: absolute;
+        position: absolute !important;
         top: var(--navigation-height);
         width: 100%;
       }
     }
-
-/* Force this rule to have greater importance than the inserted bootstrap conflicts
- -- Dylan */
-.dropdown {
-    left: 0;
-    position: absolute !important;
-    top: var(--navigation-height);
-    width: 100%;
-}
 
 
 /* Menu Items */
