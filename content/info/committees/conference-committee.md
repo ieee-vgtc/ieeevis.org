@@ -13,6 +13,7 @@ permalink: /year/2024/info/committees/conference-committee
 | **Program Chairs** | |
 | Lane Harrison | *Worcester Polytechnic Institute* |
 | Kate Isaacs | *University of Utah* |
+| Michelle Dowling | *Pacific Northwest National Laboratory* |
 |---
 | **Overall Paper Chairs** | |
 | Tamara Munzner | *University of British Columbia* |
@@ -71,8 +72,8 @@ permalink: /year/2024/info/committees/conference-committee
 | Cody Dunne | *Northeastern University* |
 |---
 | **Workshop Chairs** | |
-| Julian Tierny | |
-| Stefan Bruckner | |
+| Julian Tierny | *Sorbonne Universite* |
+| Stefan Bruckner | *University of Rostock* |
 | Lingyun Yu | *Xi'an Jiaotong-Liverpool University* |
 | Arvind Satyanarayan | *MIT CSAIL* |
 |---
@@ -126,26 +127,26 @@ permalink: /year/2024/info/committees/conference-committee
 | Chris Bryan | *Arizona State University* |
 |---
 | **Finance Chairs** | |
-| Loretta Auvil | |
-| Maria C. Velez | |
+| Loretta Auvil | *National Center for Supercomputing Applications* |
+| Maria C. Velez | *Marvel Analytics* |
 | Bhavana Doppalapudi | *University of South Florida* |
 |---
 | **Incoming General Chairs (VIS25)** | |
-| Johanna Schmidt | |
-| Kresimir Matković | |
-| Barbora Kozlíková | |
-| Eduard Gröller | |
+| Johanna Schmidt | *VRVis* |
+| Kresimir Matković | *VRVis* |
+| Barbora Kozlíková | *Masaryk University* |
+| Eduard Gröller | *TU Wein* |
 |---
 | **Archive Chairs** | |
-| Mukund Raj | |
+| Mukund Raj | *Broad Institute* |
 | Kyle Hall | *TD Bank* |
 | Ashley Suh | *MIT Lincoln Laboratory* |
 |---
 | **Web Chairs** | |
 | Dylan Cashman | *Brandeis University* |
 | Steve Petruzza | *Utah State University* |
-| Janos Zimmermann | |
-| Mashrur Rashik | |
+| Janos Zimmermann | *DKRZ* |
+| Mashrur Rashik | *University of Massachusetts Amherst* |
 | Mahmood Jasim | *Louisiana State University* |
 | Shayan Monadjemi | *Oak Ridge National Laboratory* |
 |---
@@ -156,13 +157,13 @@ permalink: /year/2024/info/committees/conference-committee
 | Kelvin Li | *Databricks* |
 |---
 | **VAST Challenge Chairs** | |
-| Jereme Haack | |
-| Steve Gomez | |
+| Jereme Haack | *Pacific Northwest National Laboratory* |
+| Steve Gomez | *MIT Lincoln Laboratory* |
 | R. Jordan Crouser | *Smith College* |
 |---
 | **SciVis Contest Chairs** | |
 | Karen Bemis | *Rutgers, The State University of New Jersey* |
-| Tim Gerrits | |
+| Tim Gerrits | *RWTH Aachen University* |
 |---
 | **IEEE** | |
 | Kathy Park | |
