@@ -101,6 +101,15 @@ a.nav-text-link {
       }
     }
 
+/* Force this rule to have greater importance than the inserted bootstrap conflicts
+ -- Dylan */
+.dropdown {
+    left: 0;
+    position: absolute !important;
+    top: var(--navigation-height);
+    width: 100%;
+}
+
 
 /* Menu Items */
 
