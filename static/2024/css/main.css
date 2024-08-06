@@ -598,6 +598,7 @@ hr::after {
   padding: 0.75rem 0;
   background-color: transparent;
   font-size: 0.85rem;
+  list-style: none;
 }
 
 /* h1 */
