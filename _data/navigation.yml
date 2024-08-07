@@ -323,9 +323,9 @@ menu:
                   - text: "SciVis Contest"
                     url: "https://sciviscontest2024.github.io/"
                     is_external: true
-          #         - text: "VAST Challenge"
-          #           url: "https://vast-challenge.github.io/2024/"
-          #           is_external: true
+                  - text: "VAST Challenge"
+                    url: "https://vast-challenge.github.io/2024/"
+                    is_external: true
       - subsections:
           - heading: "IEEE VIS Workshops"
             display: false
