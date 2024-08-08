@@ -23,7 +23,7 @@ Recipients will need to keep original expense receipts and evidence of payment u
 ### Application and Timeline:
 
 * [Application form](https://forms.gle/fzJ6RqNzSJ7buBiP9) 
-* Deadline: August 14, 2024
+* Deadline: ~~August 14, 2024~~ August 20, 2024
 * Notifications Sent: September 1, 2024
 
 <!-- 
