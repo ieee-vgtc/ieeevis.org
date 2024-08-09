@@ -63,7 +63,7 @@ permalink: /year/2024/info/committees/conference-committee
 | Leilani Battle | *University of Washington* |
 |---
 | **Application Spotlight Chairs** | |
-| Ana Crisan | *Tableau Research* |
+| Ana Crisan | *University of Waterloo* |
 | Mennatallah El-Assady | *ETH Zürich* |
 |---
 | **Open Practices Chairs** | |
@@ -113,7 +113,7 @@ permalink: /year/2024/info/committees/conference-committee
 | Hyeon Jeon | *Seoul National University* |
 |---
 | **Publicity Chairs** | |
-| Lace Padilla | *Northeastern* |
+| Lace Padilla | *Northeastern University* |
 | Alex Kale | *University of Chicago* |
 |---
 | **Inclusivity & Accessibility Chairs** | |
