@@ -6,42 +6,84 @@ permalink: /year/2024/info/panels
 
 ---
 
-## <a name="panel-career">Establishing and Thriving in an Academic Career</a>
+## <a name="panel-kirby">Dear Younger Me: A Dialog About Professional Development Beyond The Initial Career Phases</a>
 
-When: Wednesday, October 25, 2023 3:45 PM-5:00 PM AEDT (UTC+11)<br/>
-Location: Room 101+102
+<!-- When: Wednesday, October 25, 2023 3:45 PM-5:00 PM AEDT (UTC+11)<br/> -->
+<!-- Location: Room 101+102 -->
 
-<!-- Tuesday, October 27: 12:00pm-1:30pm MDT -->
-
-**Organizers:** Carolina Nobre (University of Toronto), Cindy Xiong (University of Massachusetts), Joshua A Levine (University of Arizona), Emily Wall (Emory University), Dominik Moritz (Carnegie Mellon University), Evanthia Dimara (Utrecht University)
-<br>**Panelists:** Leni Yang (Hong Kong University of Science and Technology), Cindy Xiong (University of Massachusetts Amherst), Dominik Moritz (Carnegie Mellon University), Joshua A Levine (University of Arizona), Evanthia Dimara (Utrecht University)
+<!-- **Organizers:** Carolina Nobre (University of Toronto), Cindy Xiong (University of Massachusetts), Joshua A Levine (University of Arizona), Emily Wall (Emory University), Dominik Moritz (Carnegie Mellon University), Evanthia Dimara (Utrecht University)
+<br>**Panelists:** Leni Yang (Hong Kong University of Science and Technology), Cindy Xiong (University of Massachusetts Amherst), Dominik Moritz (Carnegie Mellon University), Joshua A Levine (University of Arizona), Evanthia Dimara (Utrecht University) -->
+**Organizers:** Mike Kirby (University of Utah), Michael Gleicher (University of Wisconsin)<br>
+**Panelists:** TBD
 
 <!-- <br>[Video Preview](TBD) -->
 
-In this panel, we will discuss academic life and share advice and experience around navigating the complexities of an academic career. These are important for the whole community to reflect more broadly and are particularly inspirational for early career researchers and students. The panelists include a broad spectrum of academics, which includes researchers in the US, Canada, and Europe, from small private schools to larger public institutions, and both pre-and post-tenure. The panel will discuss common challenges in being an academic including their own experiences in handling these challenges. Topics will include managing the amount of freedom often afforded by a faculty position, pushing back against the eternal pursuit of ”work-life balance”, particularly for women, navigating interdisciplinary collaborations, and considerations beyond CS rankings when choosing an academic home.
+The early phases of a technical career follow a fairly prescribed trajectory: graduation, initial positions, promotion, tenure (or its industry equivalent), etc. In these early phases, the milestones are clear (degrees, appointments, promotions), and mentoring is often explicit (research advisors, mentoring committees). But beyond these early phases, the explicit goals and resources do not exist. As we get to later career stages, the set of options and opportunities grows. We have observed that while the opportunities grow at later career phases, the amount of mentoring and discussion seems to disappear. The goal of this panel is to foster more dialog about later career phases. As a starting point, we hope to raise awareness of the expanded range of opportunities and invite dialog about how others have thought about crafting their careers. We hope to foster a dialog among the community and begin a tradition of mentoring beyond initial career phases.
 
-## <a name="panel-ghoniem">What is a Visual Analytics contribution, and how is it changing?</a>
+## <a name="panel-wang">Human-Centered Computing Research in South America: Status Quo, Opportunities, and Challenges</a>
 
-When: Wednesday, October 25, 2023 10:45 AM-12:00 PM AEDT (UTC+11)<br/>
-Location: Room 101+102
+<!-- When: Wednesday, October 25, 2023 10:45 AM-12:00 PM AEDT (UTC+11)<br/>
+Location: Room 101+102 -->
 
-<!-- Thursday, October 29: 12:00pm-1:30pm MDT -->
+**Organizers:** Chaoli Wang (University of Notre Dame)
+<br>**Panelists:** TBD
 
-**Organizers:** Mennatallah El-Assady (ETH Zürich), Jürgen Bernard (University of Zurich)
-<br>**Panelists:** Benjamin Bach (University of Edinburgh),  Rita Borgo (King's College Londin), Leilani Battle (University of Washington), Alex Lex (University of Utah),  Arjun Srinivasan (Tableau Research), Emily Wall (Emory University)
+Human-centered computing (HCC) research, including visualization (VIS), virtual reality (VR), and human-computer interaction (HCI), is on the rise worldwide. Due to various reasons, such as socio-economic development, government investment, and talent acquisition and retention, HCC research in developing countries and regions lags. This panel gathers leading HCC researchers from South America to report the status quo, identify opportunities, and discuss challenges, especially in the wave of AI and amid global issues such as climate change and democracy crises. The goal is to inform the IEEE VIS Conference attendees of HCC research progress in South America and seek possibilities to elevate its status.
+
+## <a name="panel-li">Past, Present, and Future of Data Storytelling</a>
+
+<!-- When: Thursday, October 26, 2023 3:45 PM-5:00 PM AEDT (UTC+11)<br/>
+Location: Room 101+102 -->
 
 
-Existing characterizations of Visual Analytics (VA) echo the strengths of combining interactive visual data representations and algorithmic models to enable humans making data-driven decisions effectively. For about 20 years, VA was one of three pillars in the interactive data analysis and visualization (VIS) community. Generation after generation, the VA community has evolved its understanding of research problems and, along the way, contributed various techniques, applications, and research methods. While some developed techniques have stood the test of time, we will consider what else needs to be remembered or even revitalized from the good old days in this panel. Further, VA is currently facing exciting times, with great changes and trends within and outside the community. In this panel, we want to analyze current research trends in VA and discuss our most exciting ideas and directions. Looking ahead, it can already be anticipated that the future of VA is subject to change. Following productive and successful panels at EuroVA 2023 and EuroVis 2023, in this panel, we want to continue mapping out future research directions for our community, with an emphasis on VA. Along the lines of the past, the present, and the future of VA, the guiding theme of our interactive panel will be three types of (provoking) statements: (i) In the good old days, I liked when we did ... (ii) Currently, a most exciting trend is ... & (iii) In the future, we will be doing ... Come and join us to reflect on past and present trends, daring a look ahead to an exciting future for the interactive data analysis and visualization community!
+**Organizers:** Haotian Li (HKUST), Yun Wang (Microsoft), Benjamin Bach (Inria and University of Edinburgh), Sheelagh Carpendale (Simon Fraser University), Fanny Chevalier (University of Toronto), Nathalie Riche (Microsoft Research)
+<br>**Panelists:** TBD
 
-## <a name="panel-möller" href="https://vis4ml.github.io/vispanel" > How should VIS4ML Redefine Itself in the Rapid Evolution of AI?</a>
+Data storytelling has become an important approach to communicate insights and knowledge from data in practice. The visualization community has spent tremendous efforts investigating data storytelling practices, designing new forms of visuals, proposing authoring tools, and recently introducing intelligent support for expressive and engaging data stories. To reflect the research progress and have an outlook for future opportunities, we propose this panel with experienced researchers from academia and industry to ignite new ideas and discussions for advancing data storytelling research.
 
-When: Thursday, October 26, 2023 3:45 PM-5:00 PM AEDT (UTC+11)<br/>
-Location: Room 101+102
+## <a name="panel-shu">What Do Visualization Art Projects Bring to the VIS Community?</a>
 
-	
-<!-- Friday, October 30: 10:00am-11:30am MDT -->
+<!-- When: Wednesday, October 25, 2023 10:45 AM-12:00 PM AEDT (UTC+11)<br/>
+Location: Room 101+102 -->
 
-**Organizers:** Dylan Cashman (Brandeis University), Junpeng Wang (Visa Research), Qianwen Wang (University of Minnesota)
-<br>**Panelists:** Duen Horng (Polo) Chau (Georgia Tech) Mennatallah El-Assady (ETH Zürich), Liang Gou (Bosch), Ross Maciejewski (Arizona State University), Dominik Moritz (Carnegie Mellon University), GPT-4 (Offline-Panelist)
+**Organizers:** Xinhuan Shu (Newcastle University), Yifang Wang (Northwestern University), Junxiu Tang (Zhejiang University)
+<br>**Panelists:** TBD
 
-We propose a panel to discuss the changing role of visualization in the development and deployment of machine learning models in light of the rapid evolution of artificial intelligence (AI). Visualization for machine learning (VIS4ML) has been a thriving research area within the visualization community because of the need for better affordances and representations to enable broad groups of stakeholders to interact with and interpret machine learning models. However, recent advancements in AI are changing our understanding of the capabilities of machine learning models, both in performance and in their ability to interact with the general population. In the light of these advancements, we feel it is an important time for the visualization community to consider how the opportunities for visualization have changed. We have gathered a diverse set of panelists from both academia and industry, with varying levels of experience. We hope that providing a multitude of perspectives will shed light on new opportunities for visualization research, while providing context on the natural evolution of the field over the last few decades. The panel format will begin with introductory statements from each panelists. Then, through a set of open ended questions, we will ask panelists to have an open discussion about which types of stakeholders, use cases, and steps of the modeling pipeline they expect to change the most. The panel will conclude by asking each panelist to share where they feel the best opportunities are for VIS4ML research in the medium term future.
+Visualization art projects have flourished over the last decades. They make the artistic use of data and visualization to "embody a forceful point of view", "with the intent of making art". The visualization community has actively embraced the trend, from the early trials of Art Exhibition/Show to nowadays the biggest associated event in the main VIS conference, the VIS Arts Program. Hundreds of innovative and creative visualization art projects have been exhibited, attracting submissions from artists, designers, and practitioners who are not regular VIS conference participants. On the other side, visualization art projects present obvious differences from mainstream visualization research in terms of author teams, targeted audiences, topics, designs, authoring tools, etc. At VISAP's 12th anniversary, it is worth looking into what these artistic explorations bring to the community.
+
+The key theme of this panel is to discuss the relations between visualization art projects and visualization research. An initial set of topics is proposed to spark the discussion, including the role of data, the use of visual encoding, perception, authoring tools, and the impacts of visualization art projects to the community.
+
+## <a name="panel-ebert">20 Years of Visual Analytics</a>
+
+<!-- When: Thursday, October 26, 2023 3:45 PM-5:00 PM AEDT (UTC+11)<br/>
+Location: Room 101+102 -->
+
+
+**Organizers:** David Ebert (University of Oklahoma), Wolfgang Jentner (University of Oklahoma), Ross Maciejewski (Arizona State University), Jieqiong Zhao (Augusta University)
+<br>**Panelists:** TBD
+
+In 2004, Visual Analytics emerged as an outgrowth of scientific visualization and information visualization with a focus on the mechanisms of analytic reasoning facilitated by interactive visual interfaces. Now, twenty years later, this panel invites pioneers from the field of visual analytics to talk about the foundations of visual analytics, key works that helped define the field, and what they see as the emerging challenges for the next generation of visual analytics researchers.
+
+## <a name="panel-quadri">How Many Evaluations are Enough? A Panel Discussion on Evaluation Trend in Information Visualization</a>
+
+<!-- When: Wednesday, October 25, 2023 10:45 AM-12:00 PM AEDT (UTC+11)<br/>
+Location: Room 101+102 -->
+
+**Organizers:** Ghulam Jilani Quadri (University of Oklahoma), Danielle Albers Szafir (University of North Carolina-Chapel Hill), Arran Zeyu Wang (University of North Carolina-Chapel Hill), Hyeon Jeon (Seoul National University)
+<br>**Panelists:** TBD
+
+In the rapidly evolving field of information visualization, rigorous evaluation is essential for validating new techniques, understanding user interactions, and demonstrating the effectiveness of visualizations. The evaluation of visualization systems is fundamental to ensuring their effectiveness, usability, and impact. For example, it helps researchers identify potential issues or weaknesses in the system and allows visualization designers and developers to address them before the system is released.
+Faithful evaluations also provide valuable insights into how users interact with and perceive the system, enabling designers to make informed decisions about design choices and improvements. However, there is an emerging trend toward increasing the number of evaluations within a single study, raising critical questions about such an approach's sustainability, feasibility, and methodological rigor. This panel aims to delve into and explore various perspectives and insights from leading experts in the field on how many evaluations are enough.
+
+## <a name="panel-borkin">Current Challenges and Future Opportunities in Situated Visualizations</a>
+
+<!-- When: Thursday, October 26, 2023 3:45 PM-5:00 PM AEDT (UTC+11)<br/>
+Location: Room 101+102 -->
+
+
+**Organizers:** Michelle A. Borkin (Northeastern University), Melanie Tory (Roux Institute, Northeastern University)
+<br>**Panelists:** TBD
+
+Situated visualizations are visual data representations that are deeply integrated with the spaces, objects, and activities in a physical environment. Situated visualizations enable people to take advantage of data to support their work or daily activities, while minimizing the cognitive effort of accessing and using that data within physical environments. They display data in close proximity to physical referents, or physical objects to which the data refer. Situated visualizations may be created with a variety of technologies including small displays and mobile devices, augmented reality goggles, handheld projectors, and data physicalizations. Evidence suggests that situated visualization tools can reduce the friction of interacting with data in the context of physical world activities, serve as reminders for data actions, and encourage engagement and reflection.
+
+Yet situated visualizations have not be widely adopted, in part because there is little design guidance. Numerous challenges remain, including context switching (e.g., between primary physical activities and secondary visualization tasks), integration with existing systems (e.g., manufacturing equipment), alignment with physical referents (which may move), potential interference or distraction from primary tasks (which in some contexts could be dangerous), the need for people to learn and adopt new technology into well ingrained workflows and the need to accommodate individual differences and accessibility. New technology is enabling, but is it just a fad? This panel will discuss and debate these questions to clarify the current challenges as well as future opportunities for situated visualizations.
