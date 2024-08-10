@@ -95,7 +95,7 @@ menu:
                   - text: "VISKids"
                     description: "Childcare and activities open to everyone"
                     url: "/year/2024/info/inclusion-and-diversity/viskids"
-                    is_new: true
+                    is_new: false
 
   - dropdown: "Contribute"
     display: true
@@ -226,15 +226,15 @@ menu:
                   - text: "Tutorials"
                     description: "Learn new tools and application domains"
                     url: "/year/2024/info/tutorials"
-                    is_new: true
+                    is_new: false
                   - text: "Workshops"
                     description: "Informal setting to discuss emerging topics"
                     url: "/year/2024/info/workshops"
                     is_new: false
-                  # - text: "Panels"
-                  #   description: "Discuss important and controversial issues"
-                  #   url: "/year/2024/info/panels"
-                  #   is_new: true
+                  - text: "Panels"
+                    description: "Discuss important and controversial issues"
+                    url: "/year/2024/info/panels"
+                    is_new: true
                   # - text: "Application Spotlights"
                   #   description: "Showcase practical, real-world applications of visualization"
                   #   url: "/year/2024/info/spotlights"
@@ -248,7 +248,7 @@ menu:
                   - text: "Keynote"
                     description: "Dr. Bill Pike, PNNL"
                     url: "/year/2024/info/keynote-speaker"
-                    is_new: true
+                    is_new: false
                   - text: "Capstone"
                     description: "Prof. Catherine D'Ignazio, MIT"
                     url: "/year/2024/info/capstone-speaker"
