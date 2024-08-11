@@ -11,7 +11,7 @@ contact: ff@ieeevis.org
 Please **read the following instructions carefully** and submit your
 25-second video for the online Video Previews by the following deadlines:
 - Aug. 22: VIS Full/Short Papers
-- Aug. 22: [TVCG/CG&amp;A presentations](/year/2024/info/call-participation/partnerships) presentations
+- ~~Aug. 22~~ Sep. 12: [TVCG/CG&amp;A presentations](/year/2024/info/call-participation/partnerships) presentations
 VIS Full/Short Papers
 - Sep. 12: All other events.
 
