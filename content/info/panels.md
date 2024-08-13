@@ -36,8 +36,8 @@ Human-centered computing (HCC) research, including visualization (VIS), virtual 
 Location: Room 101+102 -->
 
 
-**Organizers:** Haotian Li (HKUST), Yun Wang (Microsoft), Benjamin Bach (Inria and University of Edinburgh), Sheelagh Carpendale (Simon Fraser University), Fanny Chevalier (University of Toronto), Nathalie Riche (Microsoft Research)
-<br>**Panelists:** TBD
+**Organizers:** Haotian Li (HKUST), Yun Wang (Microsoft)
+<br>**Panelists:** Benjamin Bach (Inria and University of Edinburgh), Sheelagh Carpendale (Simon Fraser University), Fanny Chevalier (University of Toronto), Nathalie Riche (Microsoft Research)
 
 Data storytelling has become an important approach to communicate insights and knowledge from data in practice. The visualization community has spent tremendous efforts investigating data storytelling practices, designing new forms of visuals, proposing authoring tools, and recently introducing intelligent support for expressive and engaging data stories. To reflect the research progress and have an outlook for future opportunities, we propose this panel with experienced researchers from academia and industry to ignite new ideas and discussions for advancing data storytelling research.
 
