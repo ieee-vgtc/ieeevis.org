@@ -54,11 +54,13 @@ At the time of submission, it is required by the authors to state explicitly in 
 All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth)**.
 
 ### POSTER DESIGN AND PRINTING
+VIS has no specific formatting requirements or template for display posters. However, all posters should include the same title and authors as the 2-page poster summary and should be legible from a distance of 2 meters. Posters can be no larger than 36"x48" in a portrait orientation. If planning to laminate your poster, make sure you leave the requisite margin on all sides. The conference will supply poster boards and supplies for mounting. 
+
 A PDF copy of the display poster must be submitted on PCS by the camera-ready deadline for inclusion in the online program. 
 
-Authors will also need to bring their own printed version of their poster to display at the conference.
+We're happy to announce that ***for 2024 only***, the VIS conference has arranged with a local print shop and is able to cover the costs of poster printing and delivery for all accepted submissions in the posters track (but not posters from associated events). If you would like your poster to be printed, please ensure that your poster PDF is submitted on PCS by the camera-ready deadline. Posters for printing can be no larger than 36"x48" with all text a minimum of 1/4" from the edge. Smaller posters will have a white border added. All printed posters will be delivered to the conference venue and student volunteers will handle mounting, so all you need to do is show up and present. 
 
-VIS has no specific formatting requirements or template for display posters. However, all posters should include the same title and authors as the 2-page poster summary and should be legible from a distance of 2 meters. Posters can be no larger than size A0 (841 x 1189 mm / 33.1 x 46.8 inches) and must be in a portrait orientation. If planning to laminate your poster, make sure you leave the requisite margin on all sides. The conference will supply poster boards and Velcro for mounting and displaying all posters. 
+If you'd still like to bring and hang your own poster you're also free to do so. If this is the case, be sure to tick the "I do not want my poster to be printed by the conference." checkbox when submitting your poster on PCS.
 
 ### ACCESSIBILITY
 
