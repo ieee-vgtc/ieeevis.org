@@ -31,6 +31,7 @@ David Saffo, *J.P. Morgan Chase & Co* <br>
 Cheng Yao Wang, *J.P. Morgan Chase & Co* <br>
 Feiyu Lu, *J.P. Morgan Chase & Co* <br>
 Blair MacIntyre, *J.P. Morgan Chase & Co* <br>
+Benjamin Lee, *J.P. Morgan Chase & Co* <br>
 
 
 Immersive analytics (IA), the application of immersive technologies such as augmented and virtual reality towards the task of data visualization and analytics, is a rapidly growing area of research.Web-technologies have the potential to greatly benefit the development of immersive visualizations and systems with their affordances for multi-device distribution and networking. This tutorial is aimed at researchers and developers who want to learn how to implement immersive and collaborative visualizations and system with web-technologies. Tutorial participants will learn these skills through hands on coding activities using the latest tools for developing web applications. Furthermore, participants will gain practical skills and knowledge of WebXR, Anu.js, D3.js, Vite, and Coleuses. By the end of this half-day course, participants will be able to view and interact with an immersive visualization of their making along side their peers in a multi-user collaborative environment—all through their devices web-browser.
