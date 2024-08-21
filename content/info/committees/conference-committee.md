@@ -125,6 +125,8 @@ permalink: /year/2024/info/committees/conference-committee
 | Michael Krone | *University of Tübingen* |
 | Vidya Setlur | *Tableau Research* |
 | Chris Bryan | *Arizona State University* |
+| Wei Chen | *Zhejiang University* |
+| Zeng Wei | *HKUST* |
 |---
 | **Finance Chairs** | |
 | Loretta Auvil | *National Center for Supercomputing Applications* |
