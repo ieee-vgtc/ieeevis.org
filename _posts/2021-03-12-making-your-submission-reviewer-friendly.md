@@ -6,7 +6,7 @@ active_nav: Blog
 authors: The ACC Committee
 corresponding: Alex Endert
 author_contact: area_curation_committee@ieeevis.org
-permalink: /year/2024/blog/making-your-submission-reviewer-friendly
+permalink: /blog/making-your-submission-reviewer-friendly
 ---
 
 Hello VIS Community,

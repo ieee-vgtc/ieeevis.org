@@ -6,7 +6,7 @@ active_nav: Blog
 authors: The reVISe Committee
 corresponding: Christoph Garth
 author_contact: revise@ieeevis.org
-permalink: /year/2024/blog/vis-21-vis-governance
+permalink: /blog/vis-21-vis-governance
 ---
 
 Hi VIS,

@@ -6,7 +6,7 @@ active_nav: Blog
 authors: The VIS Executive Committee
 corresponding: Lisa Avila
 author_contact: vec@ieeevis.org
-permalink: /year/2024/blog/vis-25-in-vienna
+permalink: /blog/vis-25-in-vienna
 ---
 
 Hello VIS Community,

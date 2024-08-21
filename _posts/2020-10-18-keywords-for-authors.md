@@ -6,7 +6,7 @@ active_nav: Blog
 authors: The reVISe Committee
 corresponding: Petra Isenberg
 author_contact: revise@ieeevis.org
-permalink: /year/2024/blog/keywords-for-authors
+permalink: /blog/keywords-for-authors
 ---
 
 Hello VIS community,
