@@ -111,6 +111,7 @@ permalink: /year/2024/info/committees/conference-committee
 | Noëlle Rakotondravony | *Worcester Polytechnic Institute* |
 | Yixuan Wang | *Arizona State University* |
 | Hyeon Jeon | *Seoul National University* |
+| Jeremy E. Block | *University of Florida* |
 |---
 | **Publicity Chairs** | |
 | Lace Padilla | *Northeastern University* |
