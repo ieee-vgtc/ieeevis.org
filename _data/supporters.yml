@@ -86,7 +86,7 @@
        image: /assets/supporters/sci.png
        url: "https://www.sci.utah.edu/"
      - name: "Northeastern University Art + Design"
-       image: /assets/supporters/NU_CAMD_ Art+Design_Monogram_K.png
+       image: assets/supporters/NU_CAMD_ Art+Design_Monogram_K.png
        url: "https://camd.northeastern.edu/art-design/"
      - name: "UM School of Communication"
        image: /assets/supporters/SoC_Website_Logo_Retina.png
