@@ -24,6 +24,7 @@ The conference rate for the base room is <b>$239 per night</b> (including resort
 
 Staying in the conference hotel has a lot of advantages. In addition to having access to all of the hotel's amenities, having participants onsite, improves the conference experience and helps cover the facility costs. Because of this, we ask you to book the hotel only via the link below.
 
+**Update**: Our room block at the Island Grand has sold out. However, our contracted price has been extended to a block of rooms at the RumFish Beach Hotel, which is the sister property located a short walk from the TradeWinds. RumFish guests have access to all of the amenities of the Island Grand, plus a lovely walk on the beach (or a sidewalk, if that's your thing) to get to and from conference activities.
 
 Group ID: **25711**\\
 Delegate password: **60983418**
@@ -53,5 +54,6 @@ You can modify your reservation by phone at <a href="tel:+1800-360-4016">+1 800-
 
 ### What's the hotel address?
 
-<a href = "https://maps.app.goo.gl/4vyyBQU6i6TobTwY8">Island Grand a TradeWinds Beach Resort, 5500 Gulf Blvd, St Pete Beach, FL 33706.</a>
+<a href = "https://maps.app.goo.gl/4vyyBQU6i6TobTwY8">Island Grand a TradeWinds Beach Resort, 5500 Gulf Blvd, St Pete Beach, FL 33706.</a>\\
+<a href = "https://maps.app.goo.gl/XvQ1UVjXj31oeUxU7">RumFish Beach at TradeWinds, 6000 Gulf Blvd, St Pete Beach, FL 33706.</a>
 
