@@ -79,9 +79,6 @@
      - name: "Databricks"
        image: /assets/supporters/databricks_logo.svg
        url: "https://www.databricks.com/" 
-     - name: "Uncharted Software"
-       image: /assets/supporters/UnchartedLogo.png
-       url: "https://uncharted.software/"
      - name: "SCI"
        image: /assets/supporters/sci.png
        url: "https://www.sci.utah.edu/"
@@ -91,6 +88,9 @@
      - name: "UM School of Communication"
        image: /assets/supporters/SoC_Website_Logo_Retina.png
        url: "https://com.miami.edu"
+     - name: "Uncharted Software"
+       image: /assets/supporters/UnchartedLogo.png
+       url: "https://uncharted.software/"
 #      - name: "Apple"
 #        image: /assets/supporters/apple.png
 #        url: "https://www.apple.com"
