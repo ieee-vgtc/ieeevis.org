@@ -8,7 +8,7 @@ contact:
 
 
 # TAMPA BAY, FLORIDA, USA
-## TRADEWINDS ISLAND GRANT BEACH RESORT
+## TRADEWINDS ISLAND GRAND BEACH RESORT
 
 <p>
   <img src="assets/photos/tradewinds/sign.jpg" />
