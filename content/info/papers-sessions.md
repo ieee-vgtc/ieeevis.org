@@ -10,6 +10,34 @@ Below we list all accepted VIS Full and Short papers, grouped by session.  This 
 
 <hr/>
 
+<a>**Tuesday, October 15**</a><br/>
+*Best Papers*<br/>
+
+**Entanglements for Visualization: Changing Research Outcomes through Feminist Theory**<br/>
+Authors: Derya Akbaba, Lauren Klein, Miriah Meyer
+
+**Aardvark: Composite Visualizations of Trees, Time-Series, and Images**<br/>
+Authors: Devin Lange, Robert Judson-Torres, Thomas Zangle, Alexander Lex
+
+**VisEval: A Benchmark for Data Visualization in the Era of Large Language Models**<br/>
+Authors: Nan Chen, Yuge Zhang, Jiahang Xu, Kan Ren, Yuqing Yang
+
+**VADIS: A Visual Analytics Pipeline for Dynamic Document Representation and Information Seeking**<br/>
+Authors: Rui Qiu, Yamei Tu, Po-Yin Yen, Han-Wei Shen
+
+**Rapid and Precise Topological Comparison with Merge Tree Neural Networks**<br/>
+Authors: Yu Qin, Brittany Terese Fasy, Carola Wenk, Brian Summa
+
+**Hypertrix: An indicatrix for high-dimensional visualizations**<br/>
+Authors: Shivam Raval, Fernanda Viegas, Martin Wattenberg
+
+**PyGWalker: On-the-fly Assistant for Exploratory Visual Data Analysis**<br/>
+Authors: Yue Yu, Leixian Shen, Fei Long, Huamin Qu, Hao Chen
+<br/>
+
+
+<hr/>
+
 <a>**Wednesday, October 16**</a><br/>
 **08:30-09:45AM EDT (UTC-4)**<br/>
 *Short Papers: Graph, Hierarchy and Multidinmensional*<br/>
