@@ -32,7 +32,7 @@ This past year, the VIS Executive Committee (VEC) has been considering the exten
 
 ## <a name="panel-wang">Human-Centered Computing Research in South America: Status Quo, Opportunities, and Challenges</a>
 
-When: Thursday, October 17, 2024 8:30 AM-9:45 PM EDT (UTC-4)
+When: Thursday, October 17, 2024 8:30 AM-9:45 AM EDT (UTC-4)
 <!-- Location: Room 101+102 -->
 
 **Organizers:** Chaoli Wang (University of Notre Dame)
