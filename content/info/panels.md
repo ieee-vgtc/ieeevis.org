@@ -8,7 +8,7 @@ permalink: /year/2024/info/panels
 
 ## <a name="panel-kirby">Dear Younger Me: A Dialog About Professional Development Beyond The Initial Career Phases</a>
 
-<!-- When: Wednesday, October 25, 2023 3:45 PM-5:00 PM AEDT (UTC+11)<br/> -->
+When: Wednesday, October 16, 2024 1:30 PM-2:45 PM EDT (UTC-4)<br/>
 <!-- Location: Room 101+102 -->
 **Organizers:** Mike Kirby (University of Utah), Michael Gleicher (University of Wisconsin)<br/>
 **Panelists:** David Ebert (University of Oklahoma), Maureen Stone (Tableau Research (retired)), Melanie Tory (Northeastern University), Anders Ynnerman (Linköping University)<br/>
@@ -19,8 +19,8 @@ The early phases of a technical career follow a fairly prescribed trajectory: gr
 
 ## <a name="panel-brehmer">VIS Conference Futures: Community Opinions on Recent Experiences, Challenges, and Opportunities for Hybrid Event Formats</a>
 
-<!-- When: Wednesday, October 25, 2023 10:45 AM-12:00 PM AEDT (UTC+11)<br/>
-Location: Room 101+102 -->
+When: Friday, October 18, 2024 8:30 AM-9:45 PM EDT (UT-4)
+<!-- Location: Room 101+102 -->
 
 **Organizers:** Matthew Brehmer (University of Waterloo), Narges Mahyar (University of Massachusetts Amherst)<br/>
 <br>**Panelists:** Tim Dwyer (Monash University), John AlexisGuerra-Gomez (Northeastern University), Petra Isenberg (INRIA), Takayuki Itoh (Ochanomizu University), Elsie Lee-Robbins (Postal Regulatory
@@ -32,8 +32,8 @@ This past year, the VIS Executive Committee (VEC) has been considering the exten
 
 ## <a name="panel-wang">Human-Centered Computing Research in South America: Status Quo, Opportunities, and Challenges</a>
 
-<!-- When: Wednesday, October 25, 2023 10:45 AM-12:00 PM AEDT (UTC+11)<br/>
-Location: Room 101+102 -->
+When: Thursday, October 17, 2024 8:30 AM-9:45 PM EDT (UTC-4)
+<!-- Location: Room 101+102 -->
 
 **Organizers:** Chaoli Wang (University of Notre Dame)
 <br>**Panelists:** Cesar Collazos (University of Cauca), Luciana Nedel (Federal University of Rio Grande do Sul), Luis Gustavo Nonato (University of Sao Paulo), Denis Parra (Pontifical Catholic University of Chile)<br/>
@@ -43,8 +43,8 @@ Human-centered computing (HCC) research, including visualization (VIS), virtual 
 
 ## <a name="panel-li">Past, Present, and Future of Data Storytelling</a>
 
-<!-- When: Thursday, October 26, 2023 3:45 PM-5:00 PM AEDT (UTC+11)<br/>
-Location: Room 101+102 -->
+When: Wednesday, October 16, 2024 3:15 PM-4:30 PM EDT (UTC-4)
+<!-- Location: Room 101+102 -->
 
 
 **Organizers:** Haotian Li (HKUST), Yun Wang (Microsoft)
@@ -54,8 +54,8 @@ Data storytelling has become an important approach to communicate insights and k
 
 ## <a name="panel-shu">What Do Visualization Art Projects Bring to the VIS Community?</a>
 
-<!-- When: Wednesday, October 25, 2023 10:45 AM-12:00 PM AEDT (UTC+11)<br/>
-Location: Room 101+102 -->
+When: Wednesday, October 16, 2024 8:30 AM-9:45 AM EDT (UTC-4)
+<!-- Location: Room 101+102 -->
 
 **Organizers:** Xinhuan Shu (Newcastle University), Yifang Wang (Northwestern University), Junxiu Tang (Zhejiang University)
 <br>**Panelists:** Angus Forbes (Purdue University), Rebecca Xu (Syracuse University), Rewa Wright (Queensland University of Technology), Pedro Cruz (Northeastern University), Weidi Zhang (Arizona State University), Samuel Huron (Télécom Paris at the Institut Polytechnique de Paris)<br>
@@ -68,8 +68,8 @@ The key theme of this panel is to discuss the relations between visualization ar
 
 ## <a name="panel-ebert">20 Years of Visual Analytics</a>
 
-<!-- When: Thursday, October 26, 2023 3:45 PM-5:00 PM AEDT (UTC+11)<br/>
-Location: Room 101+102 -->
+When: Thursday, October 17, 2024 3:15 PM-4:30 PM EDT (UTC-4)
+<!-- Location: Room 101+102 -->
 
 
 **Organizers:** David Ebert (University of Oklahoma), Wolfgang Jentner (University of Oklahoma), Ross Maciejewski (Arizona State University), Jieqiong Zhao (Augusta University)
@@ -79,8 +79,8 @@ In 2004, Visual Analytics emerged as an outgrowth of scientific visualization an
 
 ## <a name="panel-quadri">(Yet Another) Evaluation Needed? A Panel Discussion on Evaluation Trends in Visualization</a>
 
-<!-- When: Wednesday, October 25, 2023 10:45 AM-12:00 PM AEDT (UTC+11)<br/>
-Location: Room 101+102 -->
+When: Thursday, October 17, 2024 10:15 AM-11:30 AM EDT (UTC-4)
+<!-- Location: Room 101+102 -->
 
 **Organizers:** Ghulam Jilani Quadri (University of Oklahoma), Danielle Albers Szafir (University of North Carolina-Chapel Hill), Arran Zeyu Wang (University of North Carolina-Chapel Hill), Hyeon Jeon (Seoul National University)
 <br>**Panelists:** Niklas Elmqvist (Aarhus University), Tobias Isenberg (INRIA), Rita Borgo (Kings College London), Michael Sedlmair (University of Stuttgart), Cindy Xiong Bearfield (Georgia Tech)<br/>
@@ -92,8 +92,8 @@ Faithful evaluations also provide valuable insights into how users interact with
 
 ## <a name="panel-borkin">Vogue or Visionary? Current Challenges and Future Opportunities in Situated Visualizations</a>
 
-<!-- When: Thursday, October 26, 2023 3:45 PM-5:00 PM AEDT (UTC+11)<br/>
-Location: Room 101+102 -->
+When: Thursday, October 17, 2024 1:30 PM-2:45 PM EDT (UTC-4)
+<!-- Location: Room 101+102 -->
 
 
 **Organizers:** Michelle A. Borkin (Northeastern University), Melanie Tory (Roux Institute, Northeastern University)
