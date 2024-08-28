@@ -24,7 +24,7 @@ The conference rate for the base room is <b>$239 per night</b> (including resort
 
 Staying in the conference hotel has a lot of advantages. In addition to having access to all of the hotel's amenities, having participants onsite, improves the conference experience and helps cover the facility costs. Because of this, we ask you to book the hotel only via the link below.
 
-**Update**: Our room block at the Island Grand has sold out. However, our contracted price has been extended to a block of rooms at the RumFish Beach Hotel, which is the sister property located a short walk from the TradeWinds. RumFish guests have access to all of the amenities of the Island Grand, plus a lovely walk on the beach (or a sidewalk, if that's your thing) to get to and from conference activities.
+**Update**: Our room block at the Island Grand has sold out. However, our contracted price has been extended to a block of rooms at the RumFish Beach Hotel, which is the sister property located a short walk from the Island Grand. RumFish guests have access to all of the amenities of the Island Grand, plus a lovely walk on the beach (or a sidewalk, if that's your thing) to get to and from conference activities.
 
 Group ID: **25711**\\
 Delegate password: **60983418**
