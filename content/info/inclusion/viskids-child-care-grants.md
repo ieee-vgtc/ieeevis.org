@@ -2,7 +2,7 @@
 title: VISKids Childcare Room and Grants
 layout: page
 active_nav: "Attend"
-permalink: /info/inclusion/viskids
+permalink: /info/inclusion/viskids-child-care-grants
 contact: viskids@ieeevis.org
 ---
 
