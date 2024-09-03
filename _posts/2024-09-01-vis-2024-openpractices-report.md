@@ -39,7 +39,7 @@ Open Practices recommendations are to upload a preprint of your work to a free a
 115 (93%) of accepted submissions used at least one supplemental material field, whether PCS, external, or both PCS and through an external link. 
 ![Made use of at least one supplemental material field in PCS](/assets/posts/2024-09-OP/suppl_upload_text.png)
 
-This is moving in the right direction, but we would like to see supplementary material uploads hit 100% next year. Furthermore, our recommendations for alignment with VIS long-term Open Science goals are upload to **both** PCS for review as well as a free, reliable, and long-term archive. 
+While not all papers necessarily have relevant supplemental material (for instance, position papers), for nearly all paper contributions, having supplemental material (like experimental data, code bases, or even just additional proofs and analyses) helps the work to be scrutinizable, so we view this high percentage as a step in the right direction. We do, however, record uploads to **both** PCS for review as well as a free, reliable, and long-term archive. 
 
 Besides PCS, where did accepted submissions upload their supplementary material? 
 ![External (to PCS) supplemental material links](/assets/posts/2024-09-OP/suppl_ext_text.png)
@@ -47,21 +47,21 @@ Besides PCS, where did accepted submissions upload their supplementary material?
 We see that 80 (around 65%) of accepted submissions uploaded their supplementary materials to an external source in addition to or instead of PCS, with the majority using OSF. For further guidance on where supplementary material should be upload, please see our [FAQ: Where should I upload supplemenatary material?](https://ieeevis.org/year/2024/info/open-practices/supplemental-material-faq#where-should-i-upload-supplemental-material)
 
 ### Preregistration
-We also asked about study preregistration, another new question for this year. Only eight (12.5%) submissions out of the 124 preregistered their studies, seven of which on [OSF Registries](https://osf.io/registries) and one on [AsPredicted](https://aspredicted.org/).
+We also asked about study preregistration, another new question for this year. Only eight (12.5%) submissions out of the 124 full papers preregistered their studies, seven of which did so on [OSF Registries](https://osf.io/registries) and one on [AsPredicted](https://aspredicted.org/).
 ![Preregistered study](/assets/posts/2024-09-OP/pre_reg.png)
 
- This is a clear area where our community has room to improve. 
+This is a clear area where our community has room to improve. 
 VIS Open Practices does not yet have formal recommendations for study preregistration, and we acknowledge that for certain contributions this may not be less relevant. However, for work involving empirical studies preregistering an analysis plan helps us as researchers to clearly separate hypothesis generation (postdiction) from hypothesis confirmation (prediction), thus leveraging the benefits and maintaining awareness of the limitations of statistical inference while improving the study's reproducibility and replicability [[1]](https://www.pnas.org/doi/10.1073/pnas.1708274114). OSF provides an [excellent set of resources](https://help.osf.io/article/158-create-a-preregistration) for preregistering your project.
-For future iterations of VIS, the Open Practices committee plans to look deeper at where and how we support the community in preregistering relevant studies, and we look forward to conversations and feedback on this process with all of you. 
+For future iterations of VIS, the Open Practices committee plans to look deeper at where and how we support the community in preregistering relevant studies, and we look forward to conversations and feedback on this process with all of you.
 
 
 ## Short Papers 
 Now, how does the short papers track look? Of the 66 accepted short papers, authors reported the following on Open Practices:
 
 ### Preprints
-39, or around 59% of accepted short papers posted a preprint of their work. This is lower than what we see in the full paper submissions, and would like to see this number improve in coming years. 
+39, or around 59% of accepted short papers posted a preprint of their work. This is lower than what we see in the full paper submissions, and would like to see this number improve in coming years; it is possible that the tighter timelines for short papers provided fewer opportunities to upload preprints. 
 
-Of those submissions who posted preprints, we see that the majority used ArXiv, a few OSF, and a few using custom domains, mainly their university hosting services. 
+Of those submissions who posted preprints, we see that the majority used ArXiv, a few OSF, and a few using custom domains, mainly their university hosting services. While university hosting services are useful, changes in affiliation or university policy can make these links fail over time, and so we do not recommend their use as the primary location to store preprints.
 
 ![Preprint repositories used](/assets/posts/2024-09-OP/SP_preprint.png)
 
