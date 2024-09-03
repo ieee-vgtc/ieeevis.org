@@ -39,7 +39,7 @@ Open Practices recommendations are to upload a preprint of your work to a free a
 115 (93%) of accepted submissions used at least one supplemental material field, whether PCS, external, or both PCS and through an external link. 
 ![Made use of at least one supplemental material field in PCS](/assets/posts/2024-09-OP/suppl_upload_text.png)
 
-While not all papers necessarily have relevant supplemental material (for instance, position papers), for nearly all paper contributions, having supplemental material (like experimental data, code bases, or even just additional proofs and analyses) helps the work to be scrutinizable, so we view this high percentage as a step in the right direction. We do, however, record uploads to **both** PCS for review as well as a free, reliable, and long-term archive. 
+While not all papers necessarily have relevant supplemental material (for instance, position papers), for nearly all paper contributions, having supplemental material (like experimental data, code bases, or even just additional proofs and analyses) helps the work to be scrutinizable, so we view this high percentage as a step in the right direction. We do, however, recommend uploads to **both** PCS for review as well as a free, reliable, and long-term archive. 
 
 Besides PCS, where did accepted submissions upload their supplementary material? 
 ![External (to PCS) supplemental material links](/assets/posts/2024-09-OP/suppl_ext_text.png)
