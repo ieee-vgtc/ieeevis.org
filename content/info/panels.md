@@ -19,7 +19,7 @@ The early phases of a technical career follow a fairly prescribed trajectory: gr
 
 ## <a name="panel-brehmer">VIS Conference Futures: Community Opinions on Recent Experiences, Challenges, and Opportunities for Hybrid Event Formats</a>
 
-When: Friday, October 18, 2024 8:30 AM-9:45 PM EDT (UTC-4)
+When: Wednesday, October 16, 2024 12:00 PM-1:00 PM EDT (UTC-4)
 <!-- Location: Room 101+102 -->
 
 **Organizers:** Matthew Brehmer (University of Waterloo), Narges Mahyar (University of Massachusetts Amherst)<br/>
