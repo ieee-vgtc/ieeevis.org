@@ -94,7 +94,7 @@ menu:
       #               url: "/year/2024/info/inclusion/viskids-child-care-grants"
                   - text: "VISKids"
                     description: "Childcare and activities open to everyone"
-                    url: "/year/2024/info/inclusion-and-diversity/viskids"
+                    url: "/year/2024/info/inclusion/viskids-child-care-grants"
                     is_new: false
 
   - dropdown: "Contribute"
@@ -215,10 +215,10 @@ menu:
                     description: "Click to see an overview of the conference program"
                     url: "/year/2024/info/week-at-a-glance"
                     is_new: true
-                  # - text: "Papers"
-                  #   description: "The latest research in theory, methods, and applications of visualization"
-                  #   url: "/year/2024/info/papers-sessions"
-                  #   is_new: true
+                  - text: "Paper Sessions"
+                    description: "The latest research in theory, methods, and applications of visualization"
+                    url: "/year/2024/info/papers-sessions"
+                    is_new: true
                   # - text: "Posters"
                   #   description: "Nascent and recent work"
                   #   url: "/year/2024/info/posters"

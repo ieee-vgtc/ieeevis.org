@@ -138,7 +138,7 @@ permalink: /year/2024/info/committees/conference-committee
 | Johanna Schmidt | *VRVis* |
 | Kresimir Matković | *VRVis* |
 | Barbora Kozlíková | *Masaryk University* |
-| Eduard Gröller | *TU Wein* |
+| Eduard Gröller | *TU Wien* |
 |---
 | **Archive Chairs** | |
 | Mukund Raj | *Broad Institute* |
