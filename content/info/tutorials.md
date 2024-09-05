@@ -73,10 +73,15 @@ This tutorial will provide an introduction to natural language processing (NLP) 
 ## <a name="ESD"></a> Enabling Scientific Discovery: A Tutorial for Harnessing the Power of the National Science Data Fabric for Large-Scale Data Analysis
 Monday, October 14, 2024: Afternoon
 
-Valerio Pascucci, *University of Utah* <br>
+Amy Gooch, *University of Utah* <br>
+Aashish Panta, *University of Utah* <br>
+Alper Şahıstan, *University of Utah* <br>
+Xuan Huang, *University of Utah* <br>
 Michela Taufer, *University of Tennessee* <br>
 Jack Marquez, *University of Tennessee* <br>
-Amy Gooch, *University of Utah* <br>
+Giorgio Scorzelli, *University of Utah* <br>
+Valerio Pascucci, *University of Utah* <br>
+
 
 In this interactive half-day tutorial, participants explore the advanced applications of the National Science Data Fabric (NSDF) services and comprehensive strategies for end-to-end scientific data analysis. The tutorial targets a broad audience, from researchers and students to developers and scientists, each finding valuable insights into managing and analyzing large datasets, with a particular focus on datasets exceeding 100TB. Attendees gain hands-on experience constructing modular workflows, leveraging public and private data storage and streaming solutions, and deploying sophisticated visualization and analysis dashboards for scientific discovery. The tutorial highlights NSDF's role in supporting the SC conference's themes by providing scalable solutions for high-performance computing, networking, storage, and analysis. It covers various topics, from an overview of NSDF's capabilities to addressing common pain points in data analysis to intermediate hands-on exercises using NSDF services for Earth science data and advanced applications, including handling and visualizing massive datasets in domains requiring high-resolution data management. Participants leave a deeper understanding of how NSDF services integrate into their research workflows to enhance data accessibility, sharing, and collaborative scientific discovery. This tutorial advances the knowledge of data-intensive computing and empowers attendees to harness the full potential of NSDF in their fields.
 

@@ -97,7 +97,7 @@ menu:
       #               url: "/year/2024/info/inclusion/viskids-child-care-grants"
                   - text: "VISKids"
                     description: "Childcare and activities open to everyone"
-                    url: "/year/2024/info/inclusion/viskids-child-care-grants"
+                    url: "/year/2024/info/inclusion/viskids"
                     is_new: false
 
   - dropdown: "Contribute"

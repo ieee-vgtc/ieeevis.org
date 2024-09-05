@@ -5,20 +5,20 @@ active_nav: "Program"
 permalink: /year/2024/info/jobs
 ---
 
-## Welcome to the VIS 2023 site for job postings
+## Welcome to the VIS 2024 site for job postings
 
-We will collect job postings and display them here throughout the VIS 2023 meeting. 
+We will collect job postings and display them here throughout the VIS 2024 meeting. 
 
-[VIS Community Job Posting Form](https://forms.gle/zfj1QrHCXNQfRQP99)
+[VIS Community Job Posting Form](https://forms.gle/A1Yqz1iTWkowDhdEA)
 
-<!--
-To submit a posting, please click "Submit Posting" in the site menu. Postings will be updated daily on this page. 
+
+To submit a posting, please use the form above. Postings will be updated every couple of days on this page. 
 
 For more information about the Job Fair Meetup (TBD) please visit "Job Fair Meetup" in the site menu.
 
-Questions? Contact the Community Committee (Alfie Abdul-Rahman, Qing Chen, and Bon Adriel Aseniero) at community@ieeevis.org. 
--->
+Questions? Contact the Community Committee at community@ieeevis.org. 
 
+<!--
 # Job Postings
 
 ## Academic
@@ -310,4 +310,4 @@ Location: Rostock, Germany
 Start date: 2024-01-01  
 Start time flexible? Yes  
 Contact: Prof. Dr. Stefan Bruckner, stefan.bruckner@uni-rostock.de  
-
+-->
