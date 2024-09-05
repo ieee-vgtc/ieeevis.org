@@ -82,12 +82,6 @@
      - name: "SCI"
        image: /assets/supporters/sci.png
        url: "https://www.sci.utah.edu/"
-     - name: "Northeastern University Art + Design"
-       image: /assets/supporters/northeastern_art_design.png
-       url: "https://camd.northeastern.edu/art-design/"
-     - name: "UM School of Communication"
-       image: /assets/supporters/SoC_Website_Logo_Retina.png
-       url: "https://com.miami.edu"
      - name: "Uncharted Software"
        image: /assets/supporters/UnchartedLogo.png
        url: "https://uncharted.software/"
@@ -139,6 +133,27 @@
  #       image: /assets/supporters/University_of_Melbourne.png
  #       url: "https://www.unimelb.edu.au/"
 
+
+ - category: VISAP
+   image_size: 140
+   supporters:
+     - name: "Northeastern University Art + Design"
+       image: /assets/supporters/northeastern_art_design.png
+       url: "https://camd.northeastern.edu/art-design/"
+     - name: "UM School of Communication"
+       image: /assets/supporters/SoC_Website_Logo_Retina.png
+       url: "https://com.miami.edu"
+
+ - category: Partner Organizations
+   image_size: 140
+   supporters:
+     - name: "Data Visualization Society"
+       image: /assets/supporters/dvs_logo.png
+       url: "https://www.datavisualizationsociety.org/"
+     - name: "Higher Education Tableau User Group"
+       image: /assets/supporters/hetug_logo.png
+       url: "https://usergroups.tableau.com/higher-education-tableau-user-group/"
+
  - category: Exhibitors
    image_size: 140
    supporters:
@@ -148,6 +163,7 @@
      - name: "Springer"
        image: /assets/supporters/Springer_cmyk.png
        url: "https://link.springer.com/"
+
  #     - name: "Tom Sawyer Software"
  #       image: /assets/supporters/TomSawyer.jpg
  #       url: "https://www.tomsawyer.com/"
