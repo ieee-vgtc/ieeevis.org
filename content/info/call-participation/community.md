@@ -43,7 +43,7 @@ If so, please complete this online form and we will include your posting on the 
 
 Links to the Job Postings will be included on the IEEEVIS.org.
 
-<!-- [**Job Postings**]() --!>
+<!-- [**Job Postings**]() -->
 
 ### <a name="ajf"></a>VIS Job Fair Meetup
 <!-- **Wednesday, 19 October 2022, 15:45:00 CST in OK Station 2+3** -->
