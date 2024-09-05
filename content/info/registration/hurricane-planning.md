@@ -25,5 +25,5 @@ Once a storm has formed, the [CNN Storm Tracker](https://www.cnn.com/interactive
 
 ## Mitigation Planning
 
-Often when weather events occur, plans do not need to be significantly adjusted (think really bad thunderstorm). Nevertheless, mitigation plans are underway, should we need to make changes due to weather conditions. In particular, registrated participants can expect frequent updates from the general chairs, along with any travel guidance. Further, web and tech chairs will be prepared to move conference activities to hybrid or virtual, as necessary.
+Often when weather events occur, plans do not need to be significantly adjusted (think really bad thunderstorm). Nevertheless, safefy is of the utmost importance, and mitigation plans are underway, should we need to make changes due to weather conditions. If bad weather is likely to occur, registrated participants can expect frequent updates from the general chairs. Further, web and tech chairs will be prepared to move conference activities to hybrid or virtual, as necessary.
 
