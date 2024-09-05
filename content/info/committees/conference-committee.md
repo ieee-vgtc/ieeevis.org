@@ -144,6 +144,7 @@ permalink: /year/2024/info/committees/conference-committee
 | Mukund Raj | *Broad Institute* |
 | Kyle Hall | *TD Bank* |
 | Ashley Suh | *MIT Lincoln Laboratory* |
+| Nicole Sultanum | *Tableau* |
 |---
 | **Web Chairs** | |
 | Dylan Cashman | *Brandeis University* |
