@@ -380,13 +380,13 @@ menu:
           - heading: "Community"
             heading_url: "/year/2024/info/call-participation/community"
             description: "Explore social and topic-based community groups"
-          #   columns:
-              #- heading: "Connect"
-              #  links:
+            columns:
+            - heading: "Connect"
+              links:
 #                  - text: "Vis Buddies"
 #                    url: "/year/2024/info/meetups#vis-newcomers"
-                  #- text: "Job Postings"
-                  #  url: "/year/2024/info/jobs"
+                - text: "Job Postings"
+                  url: "/year/2024/info/jobs"
 #              - heading: "Social Groups"
 #                links:
 #                  - text: "Velo Club de VIs"
