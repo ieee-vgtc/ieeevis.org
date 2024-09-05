@@ -71,6 +71,13 @@
        image: /assets/supporters/Springer_cmyk.png
        url: "https://link.springer.com/"
 
+ - category: SciVis Contest Prize
+   image_size: 140
+   supporters:
+     - name: "NVIDIA"
+       image: /assets/supporters/nvidia.png
+       url: "https://www.nvidia.com/"
+
  - category: Partner Organizations
    image_size: 140
    supporters:
