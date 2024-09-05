@@ -22,15 +22,15 @@
  - category: Silver
    image_size: 320
    supporters:
-       - name: "Adobe"
-         image: /assets/supporters/Adobe-logo.jpg
-         url: "https://www.adobe.com/"
-       - name: "Apple"
-         image: /assets/supporters/apple.png
-         url: "https://www.apple.com"
-       - name: "Autodesk"
-         image: /assets/supporters/Autodesk-logo.png
-         url: "https://www.autodesk.com/research"
+     - name: "Adobe"
+       image: /assets/supporters/Adobe-logo.jpg
+       url: "https://www.adobe.com/"
+     - name: "Apple"
+       image: /assets/supporters/apple.png
+       url: "https://www.apple.com"
+     - name: "Autodesk"
+       image: /assets/supporters/Autodesk-logo.png
+       url: "https://www.autodesk.com/research"
 
  - category: Bronze
    image_size: 200
