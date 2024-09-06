@@ -12,17 +12,6 @@
 #       url:   #link to the supporter's website
 
 
- # - category: Diamond
- #   image_size: 315
- #   supporters:
- #    - name: "Intel"
- #      image: /assets/supporters/intel.png
- #      url: "https://intel.com"
-
- #    - name: "Tableau"
- #      image: /assets/supporters/tableau.jpg
- #      url: "https://www.tableau.com/"
-
  - category: Platinum
    image_size: 400
    supporters:
@@ -30,42 +19,18 @@
        image: /assets/supporters/Tableau-From-Salesforce-Logo-COLOR.png
        url: "https://www.tableau.com/"
 
-
  - category: Silver
    image_size: 320
    supporters:
-       - name: "Adobe"
-         image: /assets/supporters/Adobe-logo.jpg
-         url: "https://www.adobe.com/"
-       - name: "Apple"
-         image: /assets/supporters/apple.png
-         url: "https://www.apple.com"
- #     - name: "KAUST"
- #       image: /assets/supporters/vcc_kaust.png
- #       url: "http://vcc.kaust.edu.sa/"
- #     - name: "Autodesk"
- #       image: /assets/supporters/Autodesk-logo.png
- #       url: "https://www.autodesk.com/research"
-#
-#
-#     - name: "University of Oklahoma"
-#       image: /assets/supporters/uofoklahoma.png
-#       url: "ou.edu"
-#
-#     - name: "Echo Investment Capital LLC"
-#       image: /assets/supporters/echo_small.png
-#       url: "https://www.echo.global"
-#
-#    - name: "Microsoft"
-#      image: /assets/supporters/microsoft.png
-#      url: "https://www.microsoft.com/research"
-
-#  - category: Banquet
-#    image_size: 200
-#    supporters:
-#      - name: "Norrköping Visualization Center"
-#        image: /assets/supporters/norrkoping.png
-#        url: "https://visualiseringscenter.se/"
+     - name: "Adobe"
+       image: /assets/supporters/Adobe-logo.jpg
+       url: "https://www.adobe.com/"
+     - name: "Apple"
+       image: /assets/supporters/apple.png
+       url: "https://www.apple.com"
+     - name: "Autodesk"
+       image: /assets/supporters/Autodesk-logo.png
+       url: "https://www.autodesk.com/research"
 
  - category: Bronze
    image_size: 200
@@ -82,15 +47,50 @@
      - name: "SCI"
        image: /assets/supporters/sci.png
        url: "https://www.sci.utah.edu/"
+     - name: "Uncharted Software"
+       image: /assets/supporters/UnchartedLogo.png
+       url: "https://uncharted.software/"
+
+ - category: VISAP
+   image_size: 140
+   supporters:
      - name: "Northeastern University Art + Design"
        image: /assets/supporters/northeastern_art_design.png
        url: "https://camd.northeastern.edu/art-design/"
      - name: "UM School of Communication"
        image: /assets/supporters/SoC_Website_Logo_Retina.png
        url: "https://com.miami.edu"
-     - name: "Uncharted Software"
-       image: /assets/supporters/UnchartedLogo.png
-       url: "https://uncharted.software/"
+
+ - category: Exhibitors
+   image_size: 140
+   supporters:
+     - name: "CRC Press"
+       image: /assets/supporters/CRC_Press_logo.svg.png
+       url: "https://crcpress.com"
+     - name: "Springer"
+       image: /assets/supporters/Springer_cmyk.png
+       url: "https://link.springer.com/"
+
+ - category: SciVis Contest Prize
+   image_size: 140
+   supporters:
+     - name: "NVIDIA"
+       image: /assets/supporters/nvidia.png
+       url: "https://www.nvidia.com/"
+
+ - category: Partner Organizations
+   image_size: 140
+   supporters:
+     - name: "Data Visualization Society"
+       image: /assets/supporters/dvs_logo.png
+       url: "https://www.datavisualizationsociety.org/"
+     - name: "Higher Education Tableau User Group"
+       image: /assets/supporters/hetug_logo.png
+       url: "https://usergroups.tableau.com/higher-education-tableau-user-group/"
+
+
+
+
 #      - name: "Apple"
 #        image: /assets/supporters/apple.png
 #        url: "https://www.apple.com"
@@ -139,15 +139,41 @@
  #       image: /assets/supporters/University_of_Melbourne.png
  #       url: "https://www.unimelb.edu.au/"
 
- - category: Exhibitors
-   image_size: 140
-   supporters:
-     - name: "CRC Press"
-       image: /assets/supporters/CRC_Press_logo.svg.png
-       url: "https://crcpress.com"
-     - name: "Springer"
-       image: /assets/supporters/Springer_cmyk.png
-       url: "https://link.springer.com/"
+ # - category: Diamond
+ #   image_size: 315
+ #   supporters:
+ #    - name: "Intel"
+ #      image: /assets/supporters/intel.png
+ #      url: "https://intel.com"
+
+ #    - name: "Tableau"
+ #      image: /assets/supporters/tableau.jpg
+ #      url: "https://www.tableau.com/"
+ #     - name: "KAUST"
+ #       image: /assets/supporters/vcc_kaust.png
+ #       url: "http://vcc.kaust.edu.sa/"
+#
+#
+#     - name: "University of Oklahoma"
+#       image: /assets/supporters/uofoklahoma.png
+#       url: "ou.edu"
+#
+#     - name: "Echo Investment Capital LLC"
+#       image: /assets/supporters/echo_small.png
+#       url: "https://www.echo.global"
+#
+#    - name: "Microsoft"
+#      image: /assets/supporters/microsoft.png
+#      url: "https://www.microsoft.com/research"
+
+#  - category: Banquet
+#    image_size: 200
+#    supporters:
+#      - name: "Norrköping Visualization Center"
+#        image: /assets/supporters/norrkoping.png
+#        url: "https://visualiseringscenter.se/"
+
+
  #     - name: "Tom Sawyer Software"
  #       image: /assets/supporters/TomSawyer.jpg
  #       url: "https://www.tomsawyer.com/"
