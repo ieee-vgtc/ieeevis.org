@@ -8,7 +8,8 @@ permalink: /year/2024/info/panels
 
 ## <a name="panel-kirby">Dear Younger Me: A Dialog About Professional Development Beyond The Initial Career Phases</a>
 
-When: Wednesday, October 16, 2024 1:30 PM-2:45 PM EDT (UTC-4)<br/>
+When: Thursday, October 17, 2024 3:15 PM-4:30 PM EDT (UTC-4)<br/>
+
 <!-- Location: Room 101+102 -->
 **Organizers:** Mike Kirby (University of Utah), Michael Gleicher (University of Wisconsin)<br/>
 **Panelists:** David Ebert (University of Oklahoma), Maureen Stone (Tableau Research (retired)), Melanie Tory (Northeastern University), Anders Ynnerman (Linköping University)<br/>
@@ -68,7 +69,7 @@ The key theme of this panel is to discuss the relations between visualization ar
 
 ## <a name="panel-ebert">20 Years of Visual Analytics</a>
 
-When: Thursday, October 17, 2024 3:15 PM-4:30 PM EDT (UTC-4)
+When: Wednesday, October 16, 2024 1:30 PM-2:45 PM EDT (UTC-4)<br/>
 <!-- Location: Room 101+102 -->
 
 
