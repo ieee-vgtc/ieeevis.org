@@ -74,6 +74,9 @@ menu:
                 - text: "Visas"
                   url: "/year/2024/info/registration/travel-visas"
                   is_new: false
+                - text: "🌀 Weather Information"
+                  url: "/year/2024/info/registration/hurricane-planning"
+                  is_new: true
 
           - heading: "Code of Conduct"
             heading_url: "/year/2024/info/inclusion/code-of-conduct"
@@ -94,7 +97,7 @@ menu:
       #               url: "/year/2024/info/inclusion/viskids-child-care-grants"
                   - text: "VISKids"
                     description: "Childcare and activities open to everyone"
-                    url: "/year/2024/info/inclusion-and-diversity/viskids"
+                    url: "/year/2024/info/inclusion/viskids"
                     is_new: false
 
   - dropdown: "Contribute"
@@ -377,13 +380,13 @@ menu:
           - heading: "Community"
             heading_url: "/year/2024/info/call-participation/community"
             description: "Explore social and topic-based community groups"
-          #   columns:
-              #- heading: "Connect"
-              #  links:
+            columns:
+            - heading: "Connect"
+              links:
 #                  - text: "Vis Buddies"
 #                    url: "/year/2024/info/meetups#vis-newcomers"
-                  #- text: "Job Postings"
-                  #  url: "/year/2024/info/jobs"
+                - text: "Job Postings"
+                  url: "/year/2024/info/jobs"
 #              - heading: "Social Groups"
 #                links:
 #                  - text: "Velo Club de VIs"

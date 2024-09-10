@@ -2,7 +2,7 @@
 title: VISKids Childcare Room and Grants
 layout: page
 active_nav: "Attend"
-permalink: /info/inclusion/viskids-child-care-grants
+permalink: /info/inclusion/viskids
 contact: viskids@ieeevis.org
 ---
 
@@ -37,8 +37,8 @@ Grants of up to $750 per family are available for VIS attendees who incur extra 
 ### Application and deadline
 
 * [Application Form](https://forms.gle/AGNLLFfF6YwawRZ98)
-* Priority Deadline: August 28, 2024
-* Priority Notification: August 31, 2024
+* ~~Priority Deadline: August 28, 2024~~
+* ~~Priority Notification: August 31, 2024~~
 * After the priority deadline decisions will be made on a rolling basis until funds run out.
 
 ### Contact
