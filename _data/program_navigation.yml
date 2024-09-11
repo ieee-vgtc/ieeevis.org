@@ -54,6 +54,6 @@ speakers:
   url: "/year/2024/program/speakers/index"
 
 awards:
-  display: false
+  display: true
   text: "Awards"
-  url: "/year/2024/program/awards/index"
+  url: "/year/2024/program/awards"
