@@ -26,13 +26,16 @@ Staying in the conference hotel has a lot of advantages. In addition to having a
 
 **Update**: Our room block at the Island Grand has sold out. However, our contracted price has been extended to a block of rooms at the RumFish Beach Hotel, which is the sister property located a short walk from the Island Grand. RumFish guests have access to all of the amenities of the Island Grand, plus a lovely walk on the beach (or a sidewalk, if that's your thing) to get to and from conference activities.
 
-Group ID: **25711**\\
-Delegate password: **60983418**
+**Final Update**: Our booking deadline has passed and the block has closed. You may still be able to book a room at the Island Grand or Rumfish outside of our block by using any hotel booking site. Otherwise, you can look for another nearby hotel to stay at.
+
+<!--
+~~Group ID: 25711~~\\
+~~Delegate password: ~~60983418~~
 
 <a href="https://book.rguest.com/wbe/group/1672/tradewinds/auth?group=25711" class="button" target="new_window">Book your VIS 2024 hotel room</a>
 
 **Once logged in, be sure to update the >>Arrival and Departure<< dates to match the conference dates (Oct 13-18) and click >>Refine Search<<.**
-
+-->
 
 ## FAQ
 
