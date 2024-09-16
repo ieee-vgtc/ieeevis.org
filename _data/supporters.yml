@@ -19,6 +19,13 @@
        image: /assets/supporters/Tableau-From-Salesforce-Logo-COLOR.png
        url: "https://www.tableau.com/"
 
+ - category: Gold
+   image_size: 360
+   supporters:
+     - name: "Autodesk"
+       image: /assets/supporters/Autodesk-logo.png
+       url: "https://www.autodesk.com/research"
+
  - category: Silver
    image_size: 320
    supporters:
