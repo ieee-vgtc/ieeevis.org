@@ -270,18 +270,18 @@ menu:
 #                - text: "Test of Time Awards"
 #                  url: "/year/2024/info/awards/test-of-time-awards"
 #                  is_new: true
-#   #    - subsections:
-#           - heading: "Plenary Sessions"
-#             description: "Engage with the VIS community, internal and external"
-#             columns:
-#              - links:
-#                - text: "Vis Townhall"
-#                  url: "/year/2024/info/townhall"
-#                  is_new: true
-#   #              - text: "Keynote Address"
-#   #                url: "/year/2024/info/keynote-speaker"
-#   #              - text: "Capstone Address"
-#   #                url: "/year/2024/info/capstone-speaker"
+      - subsections:
+          - heading: "Plenary Sessions"
+            description: "Engage with the VIS community, internal and external"
+            columns:
+             - links:
+               - text: "Vis Townhall"
+                 url: "/year/2024/info/townhall"
+                 is_new: true
+                 # - text: "Keynote Address"
+                 #   url: "/year/2024/info/keynote-speaker"
+                 # - text: "Capstone Address"
+                 #   url: "/year/2024/info/capstone-speaker"
 #   #              # - links:
 #   #              #   - text: "Download the App"
 #   #              #     url: "https://www.google.com"
