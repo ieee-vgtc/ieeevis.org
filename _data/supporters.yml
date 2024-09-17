@@ -35,9 +35,6 @@
      - name: "Apple"
        image: /assets/supporters/apple.png
        url: "https://www.apple.com"
-     - name: "Autodesk"
-       image: /assets/supporters/Autodesk-logo.png
-       url: "https://www.autodesk.com/research"
 
  - category: Bronze
    image_size: 200
