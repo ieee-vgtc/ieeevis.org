@@ -22,6 +22,6 @@ Questions from the community are welcome during the townhall. A larger update on
 * Integrity issues and the paper reviewing process (Overall Paper Chairs) (Niklas Elmqvist, Tamara Munzner, Holger Theisel)
 
 12:30PM - 1:00PM
-* Panel - 
+* Panel - VIS Community Opinions on Hybrid Event Formats - [details](https://ieeevis.org/year/2024/blog/vis-2024-VEC-survey-results)
 
 
