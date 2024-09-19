@@ -41,7 +41,7 @@ Open Practices recommends uploading a preprint of your work to a free and open-a
 115 (93%) of accepted submissions used at least one supplemental material field, whether PCS, external, or both PCS and through an external link.
 ![Made use of at least one supplemental material field in PCS](/assets/posts/2024-09-OP/suppl_upload_text.png)
 
-This is moving in the right direction, but we want to see supplementary material uploads hit 100% next year. Furthermore, our recommendations for alignment with VIS's long-term Open Science goals are uploading to **both** PCS for review and a free, reliable, and long-term archive.
+This is moving in the right direction, but we want to see supplementary material uploads hit 100% next year. Furthermore, our recommendations for alignment with VIS's long-term Open Science goals are uploading to **both** PCS for review and a free, reliable, and long-term archive. This redundancy allows both a static copy of record associated with the entry in the IEEE digital library, as well as an open and more easily scrutinized or re-analyzed version of the work.
 
 Besides PCS, where did accepted submissions upload their supplementary material?
 ![External (to PCS) supplemental material links](/assets/posts/2024-09-OP/suppl_ext_text.png)
@@ -49,10 +49,10 @@ Besides PCS, where did accepted submissions upload their supplementary material?
 We see that 80 (around 65%) of accepted submissions uploaded their supplementary materials to an external source in addition to or instead of PCS, with the majority using OSF. For further guidance on where supplementary material should be upload, please see our [FAQ: Where should I upload supplementary material?](../content/info/open-practices/supplemental-material-faq#where-should-i-upload-supplemental-material)
 
 ### Preregistration
-We also asked about study preregistration, another new question for this year. Only eight (12.5%) submissions out of the 124 full papers preregistered their studies, seven of which did so on [OSF Registries](https://osf.io/registries) and one on [AsPredicted](https://aspredicted.org/).
+We also asked about study preregistration, another new question for this year. Only eight (12.5%) submissions out of the 124 full papers reported preregistration of their studies, seven of which did so on [OSF Registries](https://osf.io/registries) and one on [AsPredicted](https://aspredicted.org/).
 ![Preregistered study](/assets/posts/2024-09-OP/pre_reg.png)
 
- This is a clear area where our community has room to improve.
+This is a clear area where our community has room to improve.
 VIS Open Practices still needs formal recommendations for study preregistration, and we acknowledge that this may not be less relevant for certain contributions. However, for work involving empirical studies, preregistering an analysis plan helps us as researchers to clearly separate hypothesis generation (postdiction) from hypothesis confirmation (prediction), thus leveraging the benefits and maintaining awareness of the limitations of statistical inference while improving the study's reproducibility and replicability [[1]](https://www.pnas.org/doi/10.1073/pnas.1708274114). OSF provides an [excellent set of resources](https://help.osf.io/article/158-create-a-preregistration) for preregistering your project.
 For future iterations of VIS, the Open Practices committee plans to examine more deeply where and how we support the community in preregistering relevant studies. We look forward to conversations and feedback on this process with all of you.
 
