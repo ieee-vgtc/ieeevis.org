@@ -375,6 +375,9 @@ menu:
                 - text: "Vis4Good"
                   description: "Visualization for Good"
                   url: "/year/2024/info/meetups#vis4good"
+                - text: "Reproducibility Stamp Initiative"
+                  description: "A Reproducibility Stamp Initiative for Visualization"
+                  url: "/year/2024/info/meetups#reproducibility"
       - subsections:
           - heading: "Community"
             heading_url: "/year/2024/info/call-participation/community"
