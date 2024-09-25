@@ -360,22 +360,21 @@ menu:
                   #   description: "Visualization for the Digital Humanities"
                   #   url: "https://vis4dh.dbvis.de/"
                   #   is_external: true
-          # - heading: "Meetups"
-          #   heading_url: "/year/2024/info/meetups"
-          #   description: "Meet for discussion and shared experiences"
-          #   columns:
-          #     - links:
-          #       - text: "VisLies!"
-          #         description: "A showcase of egregious errors in visualization"
-          #         url: "http://vislies.org"
-          #         is_external: true
-          #       - text: "Early Career and Friends Happy Hour"
-          #         description: "Meet and mingle with early career attendees"
-          #         url: "/year/2024/info/meetups#vis-earlycareer"
-          #       - text: "VISxAI"
-          #         description: "Visualization for AI Explainability"
-          #         url: "http://visxai.io/"
-          #         is_external: true
+          - heading: "Meetups"
+            heading_url: "/year/2024/info/meetups"
+            description: "Meet for discussion and shared experiences"
+            columns:
+              - links:
+                - text: "VisLies!"
+                  description: "A showcase of egregious errors in visualization"
+                  url: "http://vislies.org"
+                  is_external: true
+                - text: "Velo Club de VIS"
+                  description: "Meet and mingle with other bicycle riders"
+                  url: "/year/2024/info/meetups#vis-velo"
+                - text: "Vis4Good"
+                  description: "Visualization for Good"
+                  url: "/year/2024/info/meetups#vis4good"
       - subsections:
           - heading: "Community"
             heading_url: "/year/2024/info/call-participation/community"
