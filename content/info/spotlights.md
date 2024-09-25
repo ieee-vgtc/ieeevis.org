@@ -5,139 +5,49 @@ permalink: /year/2024/info/spotlights
 contact: spotlights@ieeevis.org
 ---
 
-# Accepted Application Spotlights
-Below you will find the [2023 accepted Spotlight](#spot1). If you have any questions about the spotlight session, please contact the organizers listed below directly.
-<hr/>
+This year we are excited to feature *both* [traditional application spotlights](#spot1) and the [new application spotlight demos](). Please see the list of accepted spotlights below.
 
-## <a name="spot1"></a>Visualization for spatial single-cell atlases: Identifying challenges and opportunities in complex biomedical data at multiple scales and modalities
-
-When: Thursday, October 26, 2023 10:45 AM-12:00 PM AEDT (UTC+11) <br/>
-Location: Room 101+102
+# <a name="spot1"></a>Visualization Research within the Department of Energy
 
 ### Organizers
+Kristi Potter, Sr Visualization Scientist, Group Manager, National Renewable Energy Lab
 
-Morgan Turner, *Harvard Medical School, Boston, USA*
-Eric Moerth, *Harvard Medical School, Boston, USA*
-Nils Gehlenborg, *Harvard Medical School, Boston, USA*
+### Overview
+Visualization—the use of visual elements to explore data, form hypotheses, or convey conclusions—has been an integral part of the scientific process funded by DOE. Starting from an initial exploration of new data to illustrating outcomes to the general public, visualization is one of the most intuitive and powerful ways of communication. This is especially true in the team based, cross-discipline environment of the many cutting- edge, large-scale projects funded by the Department of Energy. The Advanced Scientific Computing Research (ASCR) program in particular, has long supported visualization, a highly effective means of exploring data and communicating results. Intuitive visualizations represent a significant force multiplier, connecting scientists across domains, with their stakeholders, and ultimately to policy makers and the public writ large. 
 
+The goal of this application spotlight is to highlight the visualization research sponsored by the US Department of Energy (DOE) by bringing in Margaret Lentz, a program manager from the Advanced Scientific Computing Research (ASCR) program. 
 
-### Summary
+The format will include a 30-minute talk by Margaret discussing the mission and goals of DOE and highlighting current areas and opportunities in DOE ASCR’s Data Visualization portfolio for investigators at various career stages, including the early career research program, and student internships. Her talk will help participants better understand the DOE ASCR mission space and how visualization contributes to that mission. 
 
-Technological advances in biological experimental approaches for studying human tissues at
-single-cell resolution are producing large amounts of complex data and are offering new ways to
-ask questions with far-reaching impacts on human health. To allow for comprehensive analysis
-and comparison of the generated data, the ultimate goal is to construct an atlas of the human
-body that characterizes the cell types, tissue structures, and abundance of different types of
-biomolecules across these structures. The data supporting these atlas efforts, however, is
-creating challenging visualization problems due to 1) the dimensionality and density of the data
-and 2) the multi-modal measurements (including proteins, genes, and metabolites) associated
-with these structures in both 2D images and 3D volumes. Additionally, many datasets routinely
-include tens of thousands to millions of cells, with up to thousands of measurements per cell,
-resulting in critical scalability challenges.
+We will also hold a 30-minute panel, led by organizer Kristi Potter, consisting of scientists from the different types of DOE labs – National Nuclear Security Administration (NNSA), Office of Science (SC), and Energy - which will help provide the scope of DOE’s research reach, as well as provide lab-level perspectives and visualization research project highlights. Each panelist will be asked to give a 5-minute talk about their home lab and a description of a particular research project. We will then ask panelists to answer questions about their experiences at the lab and will design these questions to clarify what life as a career staff member is like as well as how they got to their particular lab. We will then open up the session for questions from the audience and time for networking. 
 
-This new paradigm of tissue atlas construction presents many relevant visualization challenges
-that will require the visualization community’s expertise to address. Due to the inherent
-anatomical nature of the data, biologists need to interact with this data in spatial and hierarchical
-contexts using visualization systems that are able to handle multi-modal visualization and
-queries at scale. Particularly in the context of diseases, visualizations are required to allow for
-comparisons of normal vs. disease, context of other biomedical information, display of
-uncertainty, and tools for education and training. Some of these visualization efforts have
-already been applied to cancer and kidney disease and are having impacts on research in
-human health.
+# <a name="spot2"></a>Application Spotlight Demos
+New this year, application spotlight demos will take place during the poster session, in an adjacent room. Please take some time to visit the demos and experience this exciting new exhibit.
 
-We aim to identify future avenues of visualization research that can be helpful for exploring and
-analyzing data within these cell atlases. Augmented Reality (AR), and Virtual Reality (VR) offer
-potential for navigation and data analysis in 3D, but require careful consideration of useful
-techniques for users. Additionally, Artificial Intelligence (AI) approaches are being employed and
-will require explainable/interpretable visualization techniques. We plan to focus part of the panel
-discussion on the advantages and opportunities of employing these visualization technologies
-to aid in our understanding of human biology and aim to identify worthwhile future directions for
-visualization research to target.
+### Organizers
+- Ivan Viola, KAUST, Saudi Arabia
+- Alexander Bock, Linköping University Sweden
+- Claudio Silva, New York University, USA
+- Dominik Mortiz, Carnegie Mellon University, USA
 
 
-### Schedule
-**Opening**: Eric Moerth (5 min)
-**Panelist presentations** (total: 40 min)
-- Ajay Pillai: HuBMAP and related Cell Atlas efforts (10 min)
-- Mark Keller: Vitessce: Visual integration tool for exploration of spatial single-cell experiments (10 min)
-- Barbora Kozlíková: 3D structural biology data (10 min)
-- Stefan Bruckner: Volumetric Rendering of Medical Imaging data and how to translate it in AR/VR (10 min)
-**Panel Q&A Moderators**: Nils Gehlenborg and Morgan Turner (25 min)
-**Closing**: Eric Moerth (5 min)
+### List of Demos
+| Name of software | URL | Authors | Contact | Description | Papers |
+| -----------------| --- | ------- | ------- | ----------- | ------ |
+| AltGeoViz | https://accessible-map-420308.uw.r.appspot.com/ | Chu Li, Rock Yuren Pang, Ather Sharif, Arnavi Chheda-Kothary, Jeffrey Heer, Jon E. Froehlich | Geovisualizations are powerful tools for exploratory spatial analysis, enabling sighted users to discern patterns, trends, and relationships within geographic data. However, these visual tools have remained largely inaccessible to screen-reader users. We introduce AltGeoViz, a new interactive geovisualization approach that dynamically generates alt-text descriptions based on the user's current map view, providing voiceover summaries of spatial patterns and descriptive statistics. In a remote user study with five screen-reader users, we found that participants were able to interact with spatial data in previously infeasible ways, demonstrated a clear understanding of data summaries and their location context, and could synthesize spatial understandings of their explorations. Moreover, we identified key areas for improvement, such as the addition of spatial navigation controls and comparative analysis features. | - AltGeoViz: Facilitating Accessible Geovisualization |
+| anywidget | [https://anywidget.dev/](https://anywidget.dev/) | Trevor Manz, Nezar Abdennur, and Nils Gehlenborg | Trevor Manz | anywidget is a Python library that simplifies creating and publishing custom Jupyter Widgets. The tool greatly simplifies the integration of interactive web-based visualizations into the Jupyter ecosystem. | - anywidget: reusable widgets for interactive analysis and visualization in computational notebooks<br><br> - Any notebook served: authoring and sharing reusable interactive widgets |
+| CartoCrow | https://algo.win.tue.nl/software/cartocrow/ | GeometryLab, Department of Mathematics and Computer Science, TU Eindhoven | Willem Sonke | CartoCrow is a framework that simplifies the implementation of algorithms in cartographic visualization. It allows researchers to experiment with these algorithms and use them to generate maps. The framework behind CartoCrow can be used to run other cartography algorithms online. CartoCrow consists of a C++ library which also provides a command-line frontend, and a web interface which allows end users to generate maps in a user-friendly way. | - Bettina Speckmann and Kevin Verbeek. "Necklace maps." IEEE Transactions on Visualization and Computer Graphics 16.6 (2010): 881-889.<br><br> - Steven van den Broek, Wouter Meulemans, Andreas Reimer, Bettina Speckmann. "Scalable Harmonious Simplification of Isolines." 16th International Conference on Spatial Information Theory (COSIT 2024).<br><br> - Steven van den Broek, Wouter Meulemans, and Bettina Speckmann. "SimpleSets: Capturing Categorical Point Patterns with Simple Shapes." To appear in IEEE Transactions on Visualization and Computer Graphics.<br><br> - Maheswari Visvalingam and James D. Whyatt. "Line generalization by repeated elimination of points." Landmarks in Mapping. Routledge, 2017. 144-155.<br><br> - Barry J. Kronenfeld, et al. "Simplification of polylines by segment collapse: Minimizing areal displacement while preserving area." International Journal of Cartography 6.1 (2020): 22-46.<br><br> - Kevin Buchin, Bettina Speckmann, and Kevin Verbeek. "Flow map layout via spiral trees." IEEE Transactions on Visualization and Computer Graphics 17.12 (2011): 2536-2544.<br><br> - Cano, R.G., Buchin, K., Castermans, T., Pieterse, A., Sonke, W. and Speckmann, B. "Mosaic Drawings and Cartograms." Computer Graphics Forum (2015), 34: 361-370. |
+| Cosmograph | [https://cosmograph.app/](https://cosmograph.app/) | Nikita Rokotyan, Olya Stukova, Dasha Kolmakova, Denis Ovsyannikov | Nikita Rokotyan | The fastest web-based tool for large scale network graph and machine learning embeddings visualization |
+| DataGarden | https://datagarden-git.github.io/datagarden/ | Anna Offenwanger, Theophanis Tsandilas, Fanny Chevalier | Anna Offenwanger | DataGarden is a web application demonstrating a novel visual-first templating workflow where visualization authors sketch a representative visualization and structure it into an expressive template for an envisioned or partial dataset, capturing implicit style as well as explicit data mappings. This workflow is described more fully in the accompanying publication which will be presented in the paper track Visual Design: Sketching and Labeling, on Thursday, October 17 from 10:15-11:30AM EDT. | DataGarden: Formalizing Personal Sketches into Structured Visualization Templates |
+| DeLVE | [https://deeptime.cs.ubc.ca/](https://deeptime.cs.ubc.ca/) | Mara Solen, Nigar Sultana, Laura Lukes, Tamara Munzner | Mara Solen | DeLVE is an interactive visualization system designed for use as a museum exhibit. It visualizes data from past events on different scales with the intention of helping museum visitors improve their proportional reasoning skills. | DeLVE into Earth’s Past: A Visualization-Based Exhibit Deployed Across Multiple Museum Contexts |
+| DiffFit | https://github.com/nanovis/DiffFit | Deng Luo, Zainab Alsuwaykit, Dawar Khan, Ondřej Strnad, Tobias Isenberg| Deng Luo | DiffFit fits individual molecule structures into a Cryo-EM Map on GPU rapidly. It can be used to fit a single structure, composite multiple structures, and identify unknown densities from a large molecule library. | DiffFit: Visually-Guided Differentiable Fitting of Molecule Structures to a Cryo-EM Map |
+| exadigitUE5 | https://code.ornl.gov/exadigit/exadigitue5 | Matthias Maiterth, Dane de Wet, Jesse Hines, Scott Greenwood, Sedrick Bouknight | Matthias Maiterth | Interactive demo for the short paper: ‘Visualizing an Exascale Data Center Digital Twin: Considerations, Challenges and Opportunities’. The demo complements the presentation, with user-interaction with the digital twin, showing the features of interactive construction, telemetry ingestion, and triggering simulations. The demo will showcase the current state of the development and give context to the discussed considerations, challenges and opportunities of the paper, by allowing users to try the state of the prototype. | - Data center digital twins<br> - A digital twin framework for liquid-cooled supercomputers as demonstrated at exascale.<br> - Towards the development of an exascale network digital twin.<br> - Thermo-fluid modeling framework for supercomputer digital twins: Part 1, demonstration at exascale.<br> - Thermo-fluid modeling framework for supercomputer digital twins: Part 2, automated cooling models.<br> - Visualizing an exascale data center digital twin: Considerations, challenges and opportunities.<br> - Comprehensive digital twins of leadership computing facilities to gain full insight on energy-efficiency optimization.<br> - Dynamic modeling of power conversion stages for an exascale supercomputer. |
+| MesoCraft | mesocraft.kaust.edu.sa | Ondrej Strnad, Ciril Bohak, Alexandre Kouyoumdjian, Ivan Viola | Ivan Viola | Mesocraft visualization software is meant for authoring large mesoscale molecular assemblies, such as viruses and bacteria. The models are created using intuitive data-flow interface where the procedural rules are expressed. The models can be in the future shared in the academic community, their buildup can be completed collaboratively, and they can be integrated with real specimen in cryoelectron tomography data or used for further molecular dynamics analysis. | - Modeling in the Time of COVID-19: Statistical and Rule-based Mesoscale Models |
+| moranplot (JS library) / MoranPlot Dashboard | https://github.com/episphere/moranplot | Lee Mason, Blanaid Hicks, Jonas Almeida | Lee Mason | In the corresponding short paper, we introduced three new visualization designs for the Local Moran’s I spatial statistic. Alongside this we created a JS library for the plots and an interactive dashboard that demonstrates them. I’d like to demo the latter. | - Demystifying Spatial Dependence: Interactive Visualizations for Interpreting Local Spatial Autocorrelation |
+| Mosaic, An Architecture for Scalable & Interoperable Data Views | https://idl.uw.edu/mosaic/ | Jeff Heer, Dominik Moritz | Dominik Moritz | Mosaic is an architecture for greater scalability, extensibility, and interoperability of interactive data views. Mosaic decouples data processing from specification logic: clients publish their data needs as declarative queries that are then managed and automatically optimized by a coordinator that proxies access to a scalable data store. In this demo, we demonstrate Mosaic’s expressiveness, extensibility, and interoperability through examples that compose diverse visualization, interaction, and optimization techniques.<br><br>Mosaic has the potential as an open platform that bridges visualization languages, scalable visualization, and interactive data systems more broadly and we are excited to discuss how you can build your next research project on or into Mosaic. | Mosaic: An Architecture for Scalable & Interoperable Data Views |
+| OpenSpace | https://openspaceproject.com | Alex Bock, et al. | Alex Bock | OpenSpace is a live and interactive software capable of visualizing our discoveries known universe in both planetariums or flat-screen displays alike. OpenSpace provides the ability to show high-resolution planetary surfaces of planets in our solar system, like Earth, the Moon, and Mars. It can also show the movements and activities of our fleet of scientific missions, such as New Horizons, Rosetta, JUICE, or Euclid. Additionally, the software is used by researchers to visualize their discoveries, thus short-circuiting the distance between astronomers and the public. | - ExoplanetExplorer: Contextual Visualization of Exoplanet Systems<br>- Moliverse: Contextually Embedding the Microcosm into the Universe<br>- OpenSpace Sonification: Complementing Visualization of the Solar System with Sound<br>- Interactive Visualization of Atmospheric Effects for Celestial Bodies<br>- OpenSpace: A System for Astrographics<br>- OpenSpace: Bringing NASA Missions to the Public<br>- OpenSpace: Changing the Narrative of Public Dissemination in Astronomical Visualization from What to How<br>- Globe Browsing: Contextualized Spatio-Temporal Planetary Surface Visualization<br>- Dynamic Scene Graph: Enabling Scaling, Positioning, and Navigation in the Universe |
+| ProvenanceWidgets | https://provenancewidgets.github.io/ | Arpit Narechania, Kaustubh Odak, Mennatallah El-Assady, Alex Endert | Kaustubh Odak | ProvenanceWidgets is a Javascript library of UI control elements that track and dynamically overlay a user's analytic provenance in situ and out of the box. These enhanced widgets track how often (frequently) and how recently a user has interacted with them and display this information in a visual overlay. The in-situ overlays not only save screen space but also minimize the amount of time and effort needed to access the same information from elsewhere in the UI. | ProvenanceWidgets: A Library of UI Control Elements to Track and Dynamically Overlay Analytic Provenance |
+| Reactive Visualization Widgets | https://observablehq.com/@john-guerra/reactive-widgets | John Alexis Guerra | John Alexis Guerra | Learn how to better publish and distribute your visualization technique contributions using reactive widgets. A design pattern that facilitates reusability of our components leveraging modern web standards and that is framework agnostic. | - Towards Reusable and Reactive Widgets for Information Visualization Research and Dissemination |
+| ServiceView | N/A | Aidan Slingsby, Jonathan Hyde | Aidan Slingsby | For helping assess the results of Monte-Carlo simulations of train delays by train and by location. The technique is generalisable to situations where distributions within tabular data need to be considered or other types of level-of-detail data | Our short paper at this conference |
+| Viscussion | https://viscussion.de | Tobias Kauer | Tobias Kauer | A tool for visualization annotation | Discursive Patinas: Anchoring Discussions in Data Visualizations |
 
-### Speakers
-**Ajay Pillai** - Dr. Ajay Pillai joined the National Human Genome Research Institute’s Extramural
-Research Program as program director in 2006. He manages a portfolio of grants focused on
-data and knowledge resources, single cell biology, AI/ML methods development including
-approaches to development of ethical AI, and other computational approaches. He co-leads two
-Common Fund programs: HuBMAP (single-cell mapping of “normal” human tissue and organs)
-and IDG (developing computational and experimental reagents to study under-studied proteins).
-He co-leads a trans-NIH effort on developing and sustaining data and knowledge resources. He
-also co-leads a new NHGRI program, MorPhiC (Molecular Phenotypes of Null Alleles in Cells),
-that aims in the long-term to develop a consistent catalog molecular and cellular phenotypes for
-null alleles for every human gene by using in-vitro multicellular systems.
-https://www.genome.gov/staff/Ajay-Pillai-PhD
-
-**Mark Keller** - Mark Keller is a PhD student in the Bioinformatics and Integrative Genomics
-Program at Harvard Medical School. Previously, he was a software developer with a B.S. in
-Computer Science from the University of Maryland and a former intern in the Summer Institute
-in Biomedical Informatics in the Gehlenborg Lab. Mark is the lead software developer on
-Vitessce: Visual integration tool for exploration of spatial single cell experiments.
-https://markk.co/ http://vitessce.io/
-
-**Barbora Kozlíková** - Dr. Barbora Kozlíková is an Associate Professor at the Faculty of
-Informatics, Masaryk University, Brno, Czech Republic. She is a member of the Department of
-Visual Computing and is also heading the Visitlab research group focusing on diverse topics in
-visualization. Bara got her Ph.D. in Computer Graphics in 2011 and her main research interests
-are visualization and visual analysis with diverse application areas, including biochemistry,
-medicine, geography, and criminology. With her 7 Ph.D. students she is working on many
-interesting research topics. She is also responsible for several courses taught at her faculty and
-is always interested in starting new collaborations. With her colleagues and friends, she is also
-organizing events for the community, e.g. the EG EuroVis 2018 conference and also the EG
-VCBM 2019 workshop. https://www.fi.muni.cz/~xkozlik/
-
-**Stefan Bruckner** - Dr. Stefan Bruckner is a visualization researcher and professor at the
-University of Rostock, where he is the head the Chair of Visual Analytics at the Institute for
-Visual and Analytic Computing since February 2023. Previously, he was professor of
-visualization at the Department of Informatics of the University of Bergen in Norway. He
-investigates methods for gaining insight into complex data to further scientific understanding
-and discovery, medical diagnosis and treatment, and engineering, as well as techniques for
-communicating these findings to the public. Building on these foundations, his current interests
-include the development of novel interactive approaches for the inquiry of large-scale
-heterogeneous data spaces in data-driven science. Stefan was program co-chair of EuroVis,
-PacificVis, the Eurographics Workshop on Visual Computing for Biology and Medicine, the
-Eurographics Medical Prize, and is an associate editor of the journals IEEE Transactions on
-Visualization and Computer Graphics and Computers & Graphics. He currently serves on the
-Eurographics Executive Committee and is member of ACM SIGGRAPH, Eurographics, and the
-IEEE Computer Society.
-
-**Morgan Turner** - Dr. Morgan Turner is an R&D Manager and Visualization Scientist in the
-Department of Biomedical Informatics at Harvard Medical School. She was previously a
-postdoctoral research associate and CRA/CCC/NSF Computing Innovation Fellow in the
-Interactive Visualization Lab at the University of Minnesota, focusing on developing visualization
-techniques for spatially- and temporally-referenced skeletal biomechanical data. Morgan
-received her PhD in Ecology and Evolutionary Biology at Brown University in 2021. During her
-PhD, she developed methods of visualizing 3D kinematic data generated from high-speed X-ray
-videography, as well as collaborated on the development of Virtual Reality visualizations for
-analyzing volumetric flow patterns of mud during dinosaur footprint formation.
-https://morganlturner.com/
-
-**Eric Moerth** - Dr. Eric Moerth is a Postdoctoral Associate in the Department of Biomedical
-Informatics at Harvard Medical School. He received his PhD from the University of Bergen in
-Norway, under the supervision of Prof. Noeska Smit. During his PhD study, he conducted
-research in multimodal medical visualization. His main focus was the research of new and
-innovative ways to visualize and explore 3D biomedical data, e.g. MRI data and radiomics data.
-He also developed innovative tools for storytelling with guided dynamic narratives for scientific
-data. http://hidivelab.org/team/members/eric-moerth/
-
-**Nils Gehlenborg** - Dr. Nils Gehlenborg is an Associate Professor in the Department of
-Biomedical Informatics at Harvard Medical School and directs the Humans in Data Integration,
-Visualization, and Exploration (HIDIVE) Lab (http://hidivelab.org). The goal of Nils’ research is to
-improve human health by developing visual interfaces and computational techniques that
-enable scientists, clinicians, and patients to efficiently interact with biomedical data. Integration
-of algorithmic and machine learning approaches from biomedical informatics with advanced
-data visualization techniques is central to his efforts, as is close collaboration with end users.
-Nils is a co-founder, former general chair and steering committee chair of BioVis, the
-Symposium on Biological Data Visualization, and co-founder of VIZBI, the annual workshop on
-Visualizing Biological Data.
- 	
