@@ -21,17 +21,25 @@ The ombuds team for VIS 2024 is:
 <center>
 <table style="text-align: center;">
   <tbody>
-    <tr>
-      <td style="padding: 3px; width: 25%;"><img src="/year/2024/assets/ombuds/gautam.jpeg" alt="ombud gautam" style="min-width: 100px"/></td>
-      <td style="padding: 3px; width: 25%;"><img src="/year/2024/assets/ombuds/menna.jpeg" alt="ombud menna" style="min-width: 100px"/></td>
-      <td style="padding: 3px; width: 25%;"><img src="/year/2024/assets/ombuds/josh.jpeg" alt="ombud josh" style="min-width: 100px"/></td>
-      <td style="padding: 3px; width: 25%;"><img src="/year/2024/assets/ombuds/lace.jpeg" alt="ombud lace" style="min-width: 100px"/></td>
+    <tr style="border-bottom: 0px;">
+      <td style="padding: 3px; width: 33%;"><img src="/year/2024/assets/ombuds/alfie.jpeg" alt="ombud alfie" style="min-width: 100px"/></td>
+      <td style="padding: 3px; width: 33%;"><img src="/year/2024/assets/ombuds/gautam.jpeg" alt="ombud gautam" style="min-width: 100px"/></td>
+      <td style="padding: 3px; width: 33%;"><img src="/year/2024/assets/ombuds/jordan.jpeg" alt="ombud jordan" style="min-width: 100px"/></td>
     </tr>
     <tr>
-      <td style="padding: 3px; width: 25%;">Gautam Chaudhary</td>
-      <td style="padding: 3px; width: 25%;">Menna El-Assady</td>
-      <td style="padding: 3px; width: 25%;">Joshua Levine</td>
-      <td style="padding: 3px; width: 25%;">Lace Padilla</td>
+      <td style="padding: 3px; width: 33%;">Alfie Abdul-Rahman</td>
+      <td style="padding: 3px; width: 33%;">Gautam Chaudhary</td>
+      <td style="padding: 3px; width: 33%;">R. Jordan Crouser</td>
+    </tr>
+    <tr style="border-bottom: 0px;">
+      <td style="padding: 3px; width: 33%;"><img src="/year/2024/assets/ombuds/menna.jpeg" alt="ombud menna" style="min-width: 100px"/></td>
+      <td style="padding: 3px; width: 33%;"><img src="/year/2024/assets/ombuds/josh.jpeg" alt="ombud josh" style="min-width: 100px"/></td>
+      <td style="padding: 3px; width: 33%;"><img src="/year/2024/assets/ombuds/lace.jpeg" alt="ombud lace" style="min-width: 100px"/></td>
+    </tr>
+    <tr>
+      <td style="padding: 3px; width: 33%;">Menna El-Assady</td>
+      <td style="padding: 3px; width: 33%;">Joshua Levine</td>
+      <td style="padding: 3px; width: 33%;">Lace Padilla</td>
     </tr>
   </tbody>
 </table>
