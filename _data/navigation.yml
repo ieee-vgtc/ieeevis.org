@@ -49,6 +49,10 @@ menu:
                 - text: "IEEE Vis Swag Shop"
                   url: "/year/2024/info/swag"
                   is_new: true
+                - text: "HETUG Watch Party"
+                  url: "https://public.tableau.com/app/profile/roshnigohil/viz/VIS2024XTUGWatchParties/VIS2024XTUGWatchParties"
+                  is_external: true
+                  is_new: true
                 # - text: "Satellite Sites"
                 #   url: "/year/2024/info/satellite"
                 #    - text: "Practitioner Guide"
