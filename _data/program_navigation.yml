@@ -22,14 +22,14 @@
 navbar_metadata:
   display: true
   label: 'Content'
-  use_auth0: true
+  use_auth0: false
   # auth0_client_id : G8onz2A6h59RmuYFUbSLpGmxsGHOyPOv 
   # auth0_domain : ieeevis.us.auth0.com
   
 
 
 schedule:
-  display: true
+  display: false
   text: "Schedule"
   url: "/year/2024/program/calendar"
 
