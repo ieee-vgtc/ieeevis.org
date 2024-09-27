@@ -7,26 +7,23 @@
     grid-template-rows:
         0.2fr
         [tracks] auto
-        [time-0845] 0.5fr
-        /*[time-0745 time-0740] 0.5fr*/
-        [time-0900] 3fr
-        /*[time-0845] 1.5fr*/
-        /*[time-0930 time-0920 time-0910 time-0925] 0.5fr*/
-        /*[time-0945] 0.5fr*/
-        [time-1000 time-1005] .5fr
-        [time-1015] .5fr
-        [time-1030] .5fr
-        [time-1045] .5fr
-        [time-1100] 2fr
-        /*[time-1130 time-1120 time-1115 time-1125] 1fr*/
+        [time-0830] 5fr
+        [time-0945] 1fr
+        [time-1000 time-1005] 1fr
+        [time-1015] 5fr
+        [time-1130 time-1145 time-1120 time-1115 time-1125] 2fr
         [time-1200] 2fr
-        /*[time-1300] 0.5fr*/
-        /*[time-1315 time-1314] 0.5fr*/
-        /*[time-1330 time-1320 time-1317] 1fr*/
-        [time-1400] 3fr
-        [time-1510 time-1515] .5fr
-        [time-1540 time-1545] 3fr
-        [time-1700];
+        [time-1230] 1fr
+        [time-1245] 3fr
+        [time-1330 time-1320 time-1317] 1fr
+        [time-1345] 4fr
+        [time-1445] 1fr
+        [time-1500] 1fr
+        [time-1510 time-1515] 1fr
+        [time-1530] 4fr
+        [time-1630] 1fr
+        [time-1645] 8fr
+        [time-1845] ;
 
     grid-template-columns:
         [times] 5em
@@ -78,66 +75,68 @@
 .schedule.schedule-day {
     grid-template-columns:
         [times] 5em
-        [plenary-start] 1fr
-        [plenary-end oneohone-start] 1fr
-        [oneohone-end oneohthree-start] 1fr
-        [oneohthree-end oneohfour-start] 1fr
-        [oneohfour-end oneohfive-start] 1fr
-        [oneohfive-end oneohsix-start] 1fr
-        [oneohsix-end oneohnine-start] 1fr
-        [oneohnine-end oneten-start] 1fr
-        [oneten-end oneeleven-start] 1fr
-        [oneeleven-end timezones] 5em
+        [sabalsawgrass-start] 1fr
+        [sabalsawgrass-end breezeway-start] 1fr
+        [breezeway-end gladesjasminepalm-start] 1fr
+        [gladesjasminepalm-end tarpon-start] 1fr
+        [tarpon-end tarponsawyerlong-start] 1fr
+        [tarponsawyerlong-end long-start] 1fr
+        [long-end indianbird-start] 1fr
+        [indianbird-end blueheron-start] 1fr
+        [blueheron-end sawyer-start] 1fr
+        [sawyer-end pavilion-start] 1fr
+        [pavilion-end breezewaycitrusbanyan-start] 1fr
+        [breezewaycitrusbanyan-end timezones-start] 5em
         [timezones-end];
 }
 
 /* customize layout per-day */
-#calendar-Sunday, #calendar-Monday {
+#calendar-Sunday, #calendar-Monday, #calendar-Wednesday {
     grid-template-columns:
         [times] 5em
-        [oneohone-start] 1fr
-        [oneohone-end oneohthree-start] 1fr
-        [oneohthree-end oneohfour-start] 1fr
-        [oneohfour-end oneohfive-start] 1fr
-        [oneohfive-end oneohsix-start] 1fr
-        [oneohsix-end oneohnine-start] 1fr
-        [oneohnine-end oneten-start] 1fr
-        [oneten-end oneeleven-start] 1fr
-        [oneeleven-end timezones] 5em
+        [sabalsawgrass-start] 1fr
+        [sabalsawgrass-end gladesjasminepalm-start] 1fr
+        [gladesjasminepalm-end tarpon-start] 1fr
+        [tarpon-end long-start] 1fr
+        [long-end indianbird-start] 1fr
+        [indianbird-end blueheron-start] 1fr
+        [blueheron-end sawyer-start] 1fr
+        [sawyer-end timezones-start] 5em
         [timezones-end];
 }
 
 #calendar-Tuesday {
     grid-template-columns:
         [times] 5em
-        [plenary-start] 1fr
-        [plenary-end other-start] 1fr
-        [other-end timezones] 5em
+        [breezeway-start] 1fr
+        [breezeway-end gladesjasminepalm-start] 1fr
+        [gladesjasminepalm-end pavilion-start] 1fr
+        [pavilion-end breezewaycitrusbanyan-start] 1fr
+        [breezewaycitrusbanyan-end timezones-start] 5em
         [timezones-end];
 }
 
-#calendar-Wednesday, #calendar-Thursday {
+#calendar-Thursday {
     grid-template-columns:
         [times] 5em
-        [oneohone-start] 1fr
-        [oneohone-end oneohthree-start] 1fr
-        [oneohthree-end oneohfour-start] 1fr
-        [oneohfour-end oneohfive-start] 1fr
-        [oneohfive-end oneohsix-start] 1fr
-        [oneohsix-end oneohnine-start] 1fr
-        [oneohnine-end timezones] 5em
+        [sabalsawgrass-start] 1fr
+        [sabalsawgrass-end gladesjasminepalm-start] 1fr
+        [gladesjasminepalm-end tarpon-start] 1fr
+        [tarpon-end long-start] 1fr
+        [long-end indianbird-start] 1fr
+        [indianbird-end sawyer-start] 1fr
+        [sawyer-end timezones-start] 5em
         [timezones-end];
 }
 
 #calendar-Friday {
     grid-template-columns:
         [times] 5em
-        [oneohthree-start] 1fr
-        [oneohthree-end oneohfour-start] 1fr
-        [oneohfour-end oneohfive-start] 1fr
-        [oneohfive-end oneohsix-start] 1fr
-        [oneohsix-end oneohnine-start] 1fr
-        [oneohnine-end timezones] 5em
+        [sabalsawgrass-start] 1fr
+        [sabalsawgrass-end gladesjasminepalm-start] 1fr
+        [gladesjasminepalm-end tarponsawyerlong-start] 1fr
+        [tarponsawyerlong-end indianbird-start] 1fr
+        [indianbird-end timezones-start] 5em
         [timezones-end];
 }
 

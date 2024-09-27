@@ -24,9 +24,9 @@ navbar_metadata:
   label: 'Content'
 
 schedule:
-  display: false
+  display: true
   text: "Schedule"
-  url: "/year/2024/program/schedule/index"
+  url: "/year/2024/program/calendar.html"
 
 all_events:
   display: false
