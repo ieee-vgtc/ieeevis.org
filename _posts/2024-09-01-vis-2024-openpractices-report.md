@@ -30,7 +30,7 @@ Let's have a look first at the full papers. Of the **124** accepted full papers 
 
 For VIS 2023, we asked authors about preprints. Self-reported data showed that about half of accepted authors posted their preprints on arXiv, just over 6% to OSF, 8% to another source, and around 35% not at all. How does this year compare?
 
-![Preprint repositories used](/assets/posts/2024-09-OP/preprint.png)
+![Preprint repositories used]({{ 'assets/posts/2024-09-OP/preprint.png' | relative_url }})
 
 This year, we see a slight improvement in the posting of preprints, up to 83 (67%) of submissions. This is a 2% improvement over last year. Furthermore, we see that all reported preprints have been posted to a free and open repository (ArXiv, OSF, or HAL). This is a step in the right direction.
 
@@ -39,18 +39,22 @@ Open Practices recommends uploading a preprint of your work to a free and open-a
 ### Supplemental material
 
 115 (93%) of accepted submissions used at least one supplemental material field, whether PCS, external, or both PCS and through an external link.
-![Made use of at least one supplemental material field in PCS](/assets/posts/2024-09-OP/suppl_upload_text.png)
+![Made use of at least one supplemental material field in PCS]({{ 'assets/posts/2024-09-OP/suppl_upload_text.png)
 
 While not all papers necessarily have relevant supplemental material (for instance, position papers), for nearly all paper contributions, having supplemental material (like experimental data, code bases, or even just additional proofs and analyses) helps the work to be scrutinizable, so we view this high percentage as a step in the right direction. We do, however, recommend uploads to **both** (1) PCS for review as well as (2) a free, reliable, and long-term archive. Furthermore, our recommendations for alignment with VIS's long-term Open Science goals are uploading to **both** PCS for review and a free, reliable, and long-term archive. This redundancy allows both a static copy of record associated with the entry in the IEEE digital library, as well as an open and more easily scrutinized or re-analyzed version of the work.
 
 Besides PCS, where did accepted submissions upload their supplementary material?
-![External (to PCS) supplemental material links](/assets/posts/2024-09-OP/suppl_ext_text.png)
+
+![External (to PCS) supplemental material links]({{ 'assets/posts/2024-09-OP/suppl_ext_text.png' | relative_url }})
+
 
 We see that 80 (around 65%) of accepted submissions uploaded their supplementary materials to an external source in addition to or instead of PCS, with the majority using OSF. For further guidance on where supplementary material should be upload, please see our [FAQ: Where should I upload supplementary material?](../content/info/open-practices/supplemental-material-faq#where-should-i-upload-supplemental-material)
 
 ### Preregistration
 We also asked about study preregistration, another new question for this year. Only eight (12.5%) submissions out of the 124 full papers reported preregistration of their studies, seven of which did so on [OSF Registries](https://osf.io/registries) and one on [AsPredicted](https://aspredicted.org/).
-![Preregistered study](/assets/posts/2024-09-OP/pre_reg.png)
+
+![Preregistered study]({{ 'assets/posts/2024-09-OP/pre_reg.png' | relative_url }})
+
 
 This is a clear area where our community has room to improve.
 VIS Open Practices still needs formal recommendations for study preregistration, and we acknowledge that this may not be less relevant for certain contributions. However, for work involving empirical studies, preregistering an analysis plan helps us as researchers to clearly separate hypothesis generation (postdiction) from hypothesis confirmation (prediction), thus leveraging the benefits and maintaining awareness of the limitations of statistical inference while improving the study's reproducibility and replicability [[1]](https://www.pnas.org/doi/10.1073/pnas.1708274114). OSF provides an [excellent set of resources](https://help.osf.io/article/158-create-a-preregistration) for preregistering your project.
@@ -66,15 +70,17 @@ Now, how does the short papers track look? Of the 66 accepted short papers, auth
 
 Of those submissions that posted preprints, most used ArXiv, a few OSF, and a few used custom domains, mainly their university hosting services.
 
-![Preprint repositories used](/assets/posts/2024-09-OP/SP_preprint.png)
+![Preprint repositories used]({{ 'assets/posts/2024-09-OP/SP_preprint.png' | relative_url }})
 
 ### Supplementary material
 
 Of the 66 accepted short papers, 54 (around 82%) included supplementary material in some form in their submission, whether through PCS directly and/or through upload to an external repository. The majority of authors, as we can see, did both.
-![Supplementary material provided](/assets/posts/2024-09-OP/SP_suppl_upload_text.png)
+
+![Supplementary material provided]({{ 'assets/posts/2024-09-OP/SP_suppl_upload_text.png' | relative_url }})
 
 And where did authors upload their supplementary material externally?
-![External (to PCS) supplemental material links](/assets/posts/2024-09-OP/SP_suppl_ext_text.png)
+
+![External (to PCS) supplemental material links]({{ 'assets/posts/2024-09-OP/SP_suppl_ext_text.png' | relative_url }})
 
 Here, we see more variation than for the full paper submission. GitHub and OSF are similarly used, and some authors also used Kaggle, Google Drive, and Observable to host their supplementary material. As for the full papers, we recommend archiving supplementary materials to a free, reliable, long-term archive—GitHub links can change or disappear.
 
