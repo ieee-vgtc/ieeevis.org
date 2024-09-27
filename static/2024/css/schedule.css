@@ -236,3 +236,7 @@
     display: flex;
     gap: 0.25em;
 }
+
+.content ul li:before {
+    content: "" !important;
+}
