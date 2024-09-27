@@ -1,8 +1,10 @@
 import style from "./styles/index.css";
 
 import Vue from 'vue'
+import { createAuth0Client } from "@auth0/auth0-spa-js";
 
-document.addEventListener('DOMContentLoaded', () => {
+
+document.addEventListener('DOMContentLoaded', async () => {
   // main navigation bar
   new Vue({
     el: '#navigation',
@@ -109,6 +111,17 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
+  const auth0_domain = 'ieeevis.us.auth0.com'
+  const auth0_client_id = 'G8onz2A6h59RmuYFUbSLpGmxsGHOyPOv'
+
+  const auth0 = await createAuth0Client({
+    domain: auth0_domain,
+    clientId: auth0_client_id,
+    cacheLocation: "localstorage",
+    authorizationParams: {
+      redirect_uri: window.location.origin
+    }
+  })
 
   // program navigation bar
   new Vue({
@@ -212,7 +225,45 @@ document.addEventListener('DOMContentLoaded', () => {
       togglePreventBodyScroll: function () {
         const body = document.getElementsByTagName('BODY')[0];
         body.classList.toggle('overflow-hidden');
+      },
+      loginClick: function () {
+        auth0.loginWithRedirect({ redirect_uri: window.location.origin });
       }
+    },
+    mounted: () => {
+      console.log(window.location.origin)
+      try {
+        auth0.isAuthenticated().then(function (authenticated) {
+          console.log(authenticated, 'authenticated')
+        })
+      } catch (err) {
+        console.log("Log in failed", err);
+      }
+
+
+
+      // const is_auth = await auth0.isAuthenticated();
+      // console.log(is_auth, "--- is_auth");
+      // if (is_auth) {
+      // console.log(is_auth)
+      //   // document.body.style.display = null;
+
+      //   // unused atm, hook up later; this won't get executed since we change location above
+      //   const user = await auth0.getUser();
+      //   console.log(user)
+      //   // $(".loginBtn").hide();
+      //   // $(".logoutBtn").show();
+      //   // $(".secret").show();
+      //   // $(".user_name").text(user.name);
+      //   // $(".login-message").text("You are logged in as ");
+      //   // $("#download-proceedings-div").html("You can download the proceedings from <a href='https://www.dropbox.com/scl/fo/7smc635unf8ohm9gu8sds/h?rlkey=kacc5v1v9tcdekehkb7lg03fj&dl=0' target='_blank'>this Dropbox link</a> using the password mel23.  Or, use this <a href='https://drive.google.com/drive/folders/1zWW8PPiQenVeUu7jaSx3143_c2Qwfnnk?usp=share_link' target='_blank'>alternative Google Drive mirror.</a>");
+      // } else {
+      //   // $(".loginBtn").show();
+      //   // $(".logoutBtn").hide();
+      //   // $(".secret").hide();
+      //   // $(".user_name").text("");
+      //   // $(".login-message").text("You are currently not authenticated.");
+      // }
     }
   });
 
