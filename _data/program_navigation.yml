@@ -31,7 +31,7 @@ navbar_metadata:
 schedule:
   display: true
   text: "Schedule"
-  url: "/year/2024/program/calendar.html"
+  url: "/year/2024/program/calendar"
 
 all_events:
   display: false
