@@ -115,6 +115,18 @@
             {% endif %}
 
 
+            {% if site.data.program_navigation.navbar_metadata.use_auth0 %}
+            <button
+                id="loginButton"
+                class="button bg-primary font-display md:text-base lg:text-lg px-8 md:px-2 lg:px-4 mx-0 lg:mx-2 my-auto"
+                v-on:click="loginClick()"
+                >
+                Login
+            </button>
+            {% endif %}
+
+
+
         </div>
 
         <div class="md:hidden flex-end p-4  hamburger_menu font-display font-bold text-lg" v-on:click="toggleMenu()">
@@ -127,6 +139,5 @@
     <transition name="fade">
         <div v-if="hasMenuItemExpanded" v-on:click="resetMenuItems()" class="navigation__overlay"></div>
     </transition>
-
 
 </div>
