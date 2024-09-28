@@ -6,7 +6,7 @@ permalink: info/hurricane_updates
 
 # Developments on the impact of Hurricane Helene
 
-*Posted on Friday, September 27 2024 at 8:34pm EDT*
+*Posted on Friday, September 27 2024 at 8:45pm EDT*
 
 
 Dear Visualization Community,
