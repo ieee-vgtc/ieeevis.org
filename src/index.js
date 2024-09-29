@@ -111,18 +111,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
   });
 
-  const auth0_domain = 'ieeevis.us.auth0.com'
-  const auth0_client_id = 'G8onz2A6h59RmuYFUbSLpGmxsGHOyPOv'
-
-  const auth0 = await createAuth0Client({
-    domain: auth0_domain,
-    clientId: auth0_client_id,
-    cacheLocation: "localstorage",
-    authorizationParams: {
-      redirect_uri: window.location.origin
-    }
-  })
-
   // program navigation bar
   new Vue({
     el: '#program-navigation',
@@ -230,42 +218,106 @@ document.addEventListener('DOMContentLoaded', async () => {
         auth0.loginWithRedirect({ redirect_uri: window.location.origin });
       }
     },
-    mounted: () => {
-      console.log(window.location.origin)
-      try {
-        auth0.isAuthenticated().then(function (authenticated) {
-          console.log(authenticated, 'authenticated')
-        })
-      } catch (err) {
-        console.log("Log in failed", err);
-      }
+    // mounted: () => {
+    //   console.log(window.location.origin)
+    //   try {
+    //     auth0.isAuthenticated().then(function (authenticated) {
+    //       console.log(authenticated, 'authenticated')
+    //     })
+    //   } catch (err) {
+    //     console.log("Log in failed", err);
+    //   }
 
 
 
-      // const is_auth = await auth0.isAuthenticated();
-      // console.log(is_auth, "--- is_auth");
-      // if (is_auth) {
-      // console.log(is_auth)
-      //   // document.body.style.display = null;
+    //   // const is_auth = await auth0.isAuthenticated();
+    //   // console.log(is_auth, "--- is_auth");
+    //   // if (is_auth) {
+    //   // console.log(is_auth)
+    //   //   // document.body.style.display = null;
 
-      //   // unused atm, hook up later; this won't get executed since we change location above
-      //   const user = await auth0.getUser();
-      //   console.log(user)
-      //   // $(".loginBtn").hide();
-      //   // $(".logoutBtn").show();
-      //   // $(".secret").show();
-      //   // $(".user_name").text(user.name);
-      //   // $(".login-message").text("You are logged in as ");
-      //   // $("#download-proceedings-div").html("You can download the proceedings from <a href='https://www.dropbox.com/scl/fo/7smc635unf8ohm9gu8sds/h?rlkey=kacc5v1v9tcdekehkb7lg03fj&dl=0' target='_blank'>this Dropbox link</a> using the password mel23.  Or, use this <a href='https://drive.google.com/drive/folders/1zWW8PPiQenVeUu7jaSx3143_c2Qwfnnk?usp=share_link' target='_blank'>alternative Google Drive mirror.</a>");
-      // } else {
-      //   // $(".loginBtn").show();
-      //   // $(".logoutBtn").hide();
-      //   // $(".secret").hide();
-      //   // $(".user_name").text("");
-      //   // $(".login-message").text("You are currently not authenticated.");
-      // }
-    }
+    //   //   // unused atm, hook up later; this won't get executed since we change location above
+    //   //   const user = await auth0.getUser();
+    //   //   console.log(user)
+    //   //   // $(".loginBtn").hide();
+    //   //   // $(".logoutBtn").show();
+    //   //   // $(".secret").show();
+    //   //   // $(".user_name").text(user.name);
+    //   //   // $(".login-message").text("You are logged in as ");
+    //   //   // $("#download-proceedings-div").html("You can download the proceedings from <a href='https://www.dropbox.com/scl/fo/7smc635unf8ohm9gu8sds/h?rlkey=kacc5v1v9tcdekehkb7lg03fj&dl=0' target='_blank'>this Dropbox link</a> using the password mel23.  Or, use this <a href='https://drive.google.com/drive/folders/1zWW8PPiQenVeUu7jaSx3143_c2Qwfnnk?usp=share_link' target='_blank'>alternative Google Drive mirror.</a>");
+    //   // } else {
+    //   //   // $(".loginBtn").show();
+    //   //   // $(".logoutBtn").hide();
+    //   //   // $(".secret").hide();
+    //   //   // $(".user_name").text("");
+    //   //   // $(".login-message").text("You are currently not authenticated.");
+    //   // }
+    // }
   });
+
+
+  /**
+   * Authentication
+   */
+
+  const auth0_domain = 'ieeevis.us.auth0.com'
+  const auth0_client_id = 'G8onz2A6h59RmuYFUbSLpGmxsGHOyPOv'
+  createAuth0Client({
+    domain: auth0_domain,
+    clientId: auth0_client_id,
+    cacheLocation: "localstorage",
+    authorizationParams: {
+      redirect_uri: window.location.origin
+    }
+    }).then(async (auth0Client) => {
+  
+      const loginButton = document.getElementById("loginButton");
+      // auth0Client.getTokenSilently()
+  
+      loginButton.addEventListener("click", (e) => {
+        e.preventDefault();
+        auth0Client.loginWithRedirect();
+      });
+  
+      if (location.search.includes("state=") && 
+          (location.search.includes("code=") || 
+          location.search.includes("error="))) {
+        await auth0Client.handleRedirectCallback();
+        window.history.replaceState({}, document.title, "/");
+      }
+  
+      // Assumes a button with id "logout" in the DOM
+      // const logoutButton = document.getElementById("logout");
+  
+      // logoutButton.addEventListener("click", (e) => {
+      //   e.preventDefault();
+      //   auth0Client.logout();
+      // });
+
+      // await auth0Client.getTokenSilently()
+  
+      const isAuthenticated = await auth0Client.isAuthenticated();
+      const userProfile = await auth0Client.getUser();
+  
+      console.log(isAuthenticated, 'authenticated')
+      console.log(userProfile)
+
+      const welcomePill = document.getElementById('welcomePill')
+      const loginBtn = document.getElementById('loginButton')
+
+      if (isAuthenticated)
+      {
+        welcomePill.classList.remove('hidden')
+        welcomePill.innerText = `Welcome, ${userProfile.nickname}`
+
+        loginBtn.classList.add('hidden')
+      }
+      else{
+        welcomePill.classList.add('hidden')
+        loginBtn.classList.remove('hidden')
+      }
+      
+      })
 
   // automatically highlight TOC sidebar entries
   const navItems = Array.from(document.querySelectorAll('.sidebar-toc li a'));
