@@ -49,6 +49,10 @@ menu:
                 - text: "IEEE Vis Swag Shop"
                   url: "/year/2024/info/swag"
                   is_new: true
+                - text: "HETUG Watch Party"
+                  url: "https://public.tableau.com/app/profile/roshnigohil/viz/VIS2024XTUGWatchParties/VIS2024XTUGWatchParties"
+                  is_external: true
+                  is_new: true
                 # - text: "Satellite Sites"
                 #   url: "/year/2024/info/satellite"
                 #    - text: "Practitioner Guide"
@@ -360,22 +364,24 @@ menu:
                   #   description: "Visualization for the Digital Humanities"
                   #   url: "https://vis4dh.dbvis.de/"
                   #   is_external: true
-          # - heading: "Meetups"
-          #   heading_url: "/year/2024/info/meetups"
-          #   description: "Meet for discussion and shared experiences"
-          #   columns:
-          #     - links:
-          #       - text: "VisLies!"
-          #         description: "A showcase of egregious errors in visualization"
-          #         url: "http://vislies.org"
-          #         is_external: true
-          #       - text: "Early Career and Friends Happy Hour"
-          #         description: "Meet and mingle with early career attendees"
-          #         url: "/year/2024/info/meetups#vis-earlycareer"
-          #       - text: "VISxAI"
-          #         description: "Visualization for AI Explainability"
-          #         url: "http://visxai.io/"
-          #         is_external: true
+          - heading: "Meetups"
+            heading_url: "/year/2024/info/meetups"
+            description: "Meet for discussion and shared experiences"
+            columns:
+              - links:
+                - text: "VisLies!"
+                  description: "A showcase of egregious errors in visualization"
+                  url: "http://vislies.org"
+                  is_external: true
+                - text: "Velo Club de VIS"
+                  description: "Meet and mingle with other bicycle riders"
+                  url: "/year/2024/info/meetups#vis-velo"
+                - text: "Vis4Good"
+                  description: "Visualization for Good"
+                  url: "/year/2024/info/meetups#vis4good"
+                - text: "Reproducibility Stamp Initiative"
+                  description: "A Reproducibility Stamp Initiative for Visualization"
+                  url: "/year/2024/info/meetups#reproducibility"
       - subsections:
           - heading: "Community"
             heading_url: "/year/2024/info/call-participation/community"

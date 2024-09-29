@@ -64,10 +64,10 @@ function finishCalendar(renderPromises) {
     //   const day_name = dayData[day_num - 1].day;
     //   $(`.nav-pills a[href="#tab-${day_name}"]`).tab("show");
     // };
-    const tzDayOfWeek = moment.tz(moment(), "Australia/Melbourne").format('dddd')
-    const tzTime = moment.tz(moment(), "Australia/Melbourne").format('HHMM')
-    const tzTimeStr = moment.tz(moment(), "Australia/Melbourne").format('HH:MM')
-    const tzDate = moment.tz(moment(), "Australia/Melbourne").format('ddd, MMM DD')
+    const tzDayOfWeek = moment.tz(moment(), "US/Eastern").format('dddd')
+    const tzTime = moment.tz(moment(), "US/Eastern").format('HHMM')
+    const tzTimeStr = moment.tz(moment(), "US/Eastern").format('HH:MM')
+    const tzDate = moment.tz(moment(), "US/Eastern").format('ddd, MMM DD')
     // const tzDate = 'Tue, Oct 24';
     // const tzDayOfWeek = 'Tuesday'
     // const tzTime = "1113"
@@ -254,6 +254,7 @@ function updateKey() {
     workshop: "Workshop",
     application: "Application Spotlights",
     panel: "Tutorial / Panel / Meetup",
+    virtual: "Virtual"
   };
 
   $.get("serve_config.json").then((config) => {
@@ -643,6 +644,7 @@ function createFullCalendar(calendar, config, allEvents, sessionsUpdate) {
       }
     }
   );
+  console.log("sessions_by_day_and_time: ", sessions_by_day_and_time);
   for (const dayKey of sessions_by_day_and_time.keys()) {
     const dayEvents = sessions_by_day_and_time.get(dayKey);
     let lateSlotSessionData = [];
@@ -726,12 +728,6 @@ function getDayGridRow(timeStart, timeEnd) {
 function getDayGridColumn(room, title) {
   // Stop weird times from breaking the calendar
   let dayGridColumnString = `${room}-start / auto`;
-  if (title.indexOf("VIS Banquet") > 0) {
-    dayGridColumnString = "oneohone-start / oneohnine-start";
-  }
-  if (title.indexOf("VISAP Opening Reception") > 0) {
-    dayGridColumnString = "other-start / auto";
-  }
   return dayGridColumnString;
 }
 
@@ -783,38 +779,61 @@ function populateDays(calendarSelection, config) {
 }
 
 function populateRooms(calendarSelection, roomNames, day) {
-  // TODO: use room names
-
+  // TODO: use room names - NEED TO CHANGE
   let roomData = [
-    { roomId: 'plenary', text: 'Plenary-1', link: 'plenary' },
-    { roomId: 'oneohone', text: '101-102', link: 'oneohone' },
-    { roomId: 'oneohthree', text: '103', link: 'oneohthree' },
-    { roomId: 'oneohfour', text: '104', link: 'oneohfour' },
-    { roomId: 'oneohfive', text: '105', link: 'oneohfive' },
-    { roomId: 'oneohsix', text: '106', link: 'oneohsix' },
-    { roomId: 'oneohnine', text: '109', link: 'oneohnine' },
-    { roomId: 'oneten', text: '110', link: 'oneten' },
-    { roomId: 'oneeleven', text: '111-112', link: 'oneeleven' },
+    { text: 'Sabal/Sawgrass', link: 'sabalsawgrass', roomId: 'sabalsawgrass'},
+    { text: 'Breezeway', link: 'breezeway', roomId: 'breezeway'},
+    { text: 'Glades/Jasmine/Palm', link: 'gladesjasminepalm', roomId: 'gladesjasminepalm'},
+    { text: 'Tarpon Key', link: 'tarpon', roomId: 'tarpon'},
+    { text: 'Tarpon Sawyer Long', link: 'tarponsawyerlong', roomId: 'tarponsawyerlong'},
+    { text: 'Long Key', link: 'long', roomId: 'long'},
+    { text: 'Indian/Bird Key', link: 'indianbird', roomId: 'indianbird'},
+    { text: 'Blue Heron', link: 'blueheron', roomId: 'blueheron'},
+    { text: 'Sawyer Key', link: 'sawyer', roomId: 'sawyer'},
+    { text: 'Pavilion', link: 'pavilion', roomId: 'pavilion'},
+    { text: 'Breezeway and Citrus/Banyan', link: 'breezewaycitrusbanyan', roomId: 'breezewaycitrusbanyan'}
   ];
 
   // truncate rooms added per-day (don't add unnecessary rooms we're not using)
   switch (day) {
     case "Sunday":
     case "Monday":
-      roomData = roomData.slice(1, 9);
+    case "Wednesday":
+      roomData = [
+        { text: 'Sabal/Sawgrass', link: 'sabalsawgrass', roomId: 'sabalsawgrass'},
+        { text: 'Glades/Jasmine/Palm', link: 'gladesjasminepalm', roomId: 'gladesjasminepalm'},
+        { text: 'Tarpon Key', link: 'tarpon', roomId: 'tarpon'},
+        { text: 'Long Key', link: 'long', roomId: 'long'},
+        { text: 'Indian/Bird Key', link: 'indianbird', roomId: 'indianbird'},
+        { text: 'Blue Heron', link: 'blueheron', roomId: 'blueheron'},
+        { text: 'Sawyer Key', link: 'sawyer', roomId: 'sawyer'}
+      ];
       break;
     case "Tuesday":
       roomData = [
-        { roomId: 'plenary', text: 'Plenary-1', link: 'plenary' },
-        { roomId: 'other', text: '-', link: '-' },
+        { text: 'Breezeway', link: 'breezeway', roomId: 'breezeway'},
+        { text: 'Glades/Jasmine/Palm', link: 'gladesjasminepalm', roomId: 'gladesjasminepalm'},
+        { text: 'Pavilion', link: 'pavilion', roomId: 'pavilion'},
+        { text: 'Breezeway and Citrus/Banyon', link: 'breezewaycitrusbanyan', roomId: 'breezewaycitrusbanyan'}
       ];
       break;
-    case "Wednesday":
     case "Thursday":
-      roomData = roomData.slice(1, 7);
+      roomData = [
+        { text: 'Sabal/Sawgrass', link: 'sabalsawgrass', roomId: 'sabalsawgrass'},
+        { text: 'Glades/Jasmine/Palm', link: 'gladesjasminepalm', roomId: 'gladesjasminepalm'},
+        { text: 'Tarpon Key', link: 'tarpon', roomId: 'tarpon'},
+        { text: 'Long Key', link: 'long', roomId: 'long'},
+        { text: 'Indian/Bird Key', link: 'indianbird', roomId: 'indianbird'},
+        { text: 'Sawyer Key', link: 'sawyer', roomId: 'sawyer'}
+      ];
       break;
     case "Friday":
-      roomData = roomData.slice(2, 7);
+      roomData = [
+        { text: 'Sabal/Sawgrass', link: 'sabalsawgrass', roomId: 'sabalsawgrass'},
+        { text: 'Glades/Jasmine/Palm', link: 'gladesjasminepalm', roomId: 'gladesjasminepalm'},
+        { text: 'Tarpon Sawyer Long', link: 'tarponsawyerlong', roomId: 'tarponsawyerlong'},
+        { text: 'Indian/Bird Key', link: 'indianbird', roomId: 'indianbird'}
+      ];
       break;
   }
 
@@ -822,7 +841,6 @@ function populateRooms(calendarSelection, roomNames, day) {
 }
 
 function populateHeader(calendarSelection, data, isDay) {
-  // Here's the problem - it's assuming the rooms are named "room1".  See the indexing here.
   const columnPosition = function (d, i) {
     if (isDay) {
       return `day-${i + 1} / auto`;
@@ -845,16 +863,23 @@ function populateHeader(calendarSelection, data, isDay) {
 
 function populateTimes(calendarSelection, config) {
   let timeData = [
-    ["8:45 AM EDT", "time-0845"],
-    ["9:00 AM EDT", "time-0900"],
-    // ["9:30 AM EDT", "time-0930"],
-    ["10:15 AM EDT", "time-1015"],
-    ["10:30 AM EDT", "time-1030"],
+    ["8:30 AM EDT", "time-0830"],
+    // ["9:45 AM EDT", "time-0945"],
+    ["10:00 AM EDT", "time-1000"],
+    // ["10:15 AM EDT", "time-1015"],
+    // ["11:45 AM EDT", "time-1145"],
     ["12:00 PM EDT", "time-1200"],
-    ["2:00 PM EDT", "time-1400"],
-    ["3:15 PM EDT", "time-1515"],
-    ["3:45 PM EDT", "time-1545"],
-    ["5:00 PM EDT", "time-1700"],
+    // ["12:30 PM EDT", "time-1230"],
+    // ["12:45 PM EDT", "time-1245"],
+    ["1:30 PM EDT", "time-1330"],
+    // ["1:45 PM EDT", "time-1345"],
+    // ["2:45 PM EDT", "time-1445"],
+    ["3:00 PM EDT", "time-1500"],
+    // ["3:15 PM EDT", "time-1515"],
+    // ["3:30 PM EDT", "time-1530"],
+    ["4:30 PM EDT", "time-1630"],
+    // ["4:45 PM EDT", "time-1645"],
+    ["6:45 PM EDT", "time-1845"]
   ];
 
   calendarSelection
@@ -891,7 +916,7 @@ function updateTimezone() {
     const hourminutes = element.attr("data-time").split("-")[1];
 
     const time = moment(
-      `2024-10-13 ${hourminutes.slice(0, 2)}:${hourminutes.slice(2, 4)} +11:00`,
+      `2024-10-13 ${hourminutes.slice(0, 2)}:${hourminutes.slice(2, 4)} -4:00`,
       "YYYY-MM-DD HH:mm ZZ"
     );
     const converted_date = time.clone().tz(timezone);
