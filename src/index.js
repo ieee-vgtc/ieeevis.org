@@ -262,6 +262,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   const auth0_domain = 'ieeevis.us.auth0.com'
   const auth0_client_id = 'G8onz2A6h59RmuYFUbSLpGmxsGHOyPOv'
+  console.log(window.location.origin)
   createAuth0Client({
     domain: auth0_domain,
     clientId: auth0_client_id,
