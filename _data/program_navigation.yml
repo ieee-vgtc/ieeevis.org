@@ -22,12 +22,12 @@
 navbar_metadata:
   display: true
   label: 'Content'
-  use_auth0: true
+  use_auth0: false
   
 
 
 schedule:
-  display: true
+  display: false
   text: "Schedule"
   url: "/year/2024/program/calendar"
 
