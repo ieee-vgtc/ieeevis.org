@@ -78,10 +78,10 @@ class API {
    * @return {string}
    */
   static thumbnailPath(paperOrPoster, forceImage=true) {
-    console.log("thumbnailPath is ", `https://ieeevis.b-cdn.net/vis_2024/paper_images_small/${paperOrPoster.id}.png`)
+    console.log("thumbnailPath is ", `https://ieeevis.b-cdn.net/vis_2024/paper_images_small/${paperOrPoster.id}_Image.png`)
     if (!forceImage && !paperOrPoster.has_image)
       return "https://ieeevis.b-cdn.net/vis_2024/paper_images_small/blank.png";
-    return `https://ieeevis.b-cdn.net/vis_2024/paper_images_small/${paperOrPoster.id}.png`;
+    return `https://ieeevis.b-cdn.net/vis_2024/paper_images_small/${paperOrPoster.id}_Image.png`;
   }
 
   /**
