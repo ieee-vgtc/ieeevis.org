@@ -22,7 +22,7 @@
 navbar_metadata:
   display: true
   label: 'Content'
-  use_auth0: false
+  use_auth0: true
   
 
 
