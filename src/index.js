@@ -215,7 +215,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         body.classList.toggle('overflow-hidden');
       },
       loginClick: function () {
-        auth0.loginWithRedirect({ redirect_uri: window.location.origin });
+        // not defined here auth0, we control this click below
+        //auth0.loginWithRedirect({ redirect_uri: window.location.origin });
       }
     },
     // mounted: () => {
