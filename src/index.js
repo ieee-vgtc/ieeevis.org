@@ -3,7 +3,7 @@ import style from "./styles/index.css";
 import Vue from 'vue'
 import { createAuth0Client } from "@auth0/auth0-spa-js";
 
-
+console.log("in index.js")
 document.addEventListener('DOMContentLoaded', async () => {
   // main navigation bar
   new Vue({
@@ -213,10 +213,6 @@ document.addEventListener('DOMContentLoaded', async () => {
       togglePreventBodyScroll: function () {
         const body = document.getElementsByTagName('BODY')[0];
         body.classList.toggle('overflow-hidden');
-      },
-      loginClick: function () {
-        // not defined here auth0, we control this click below
-        //auth0.loginWithRedirect({ redirect_uri: window.location.origin });
       }
     },
     // mounted: () => {
@@ -261,32 +257,63 @@ document.addEventListener('DOMContentLoaded', async () => {
    * Authentication
    */
 
+  const updateUI = async (auth0, query) => {
+    const is_auth = await auth0.isAuthenticated();
+    console.log("are we auth?", is_auth)
+    if (is_auth) {
+      document.body.style.display = null;
+
+      // if we have a redirect request, grab it and push the user over to that page they wanted to see
+      var queryParams = new URLSearchParams(query);
+      var redirectUri = queryParams.get("return");
+      if (redirectUri) {
+        console.log("we were gonna redirect here to ", "/" + redirectUri)
+        // window.location.href = "/" + redirectUri; // important: this also strips out queryParams so we don't infinitely redirect :)
+      }
+
+      // unused atm, hook up later; this won't get executed since we change location above
+      const user = await auth0.getUser();
+      $("#loginButton").hide();
+      $("#welcomePill").show();
+      $(".logoutBtn").show();
+      $(".login-message").show();
+      $(".secret").show();
+      $(".user_name").text(user.name);
+      $(".login-message").text("You are logged in as");
+    } else {
+      $("#loginButton").show();
+      $("#welcomePill").hide();
+      $(".login-message").show();
+      $(".secret").hide();
+      $(".user_name").text("");
+      $(".login-message").text("You are currently not authenticated.");
+    }
+  };
+
+  $(".secret").hide();
+
   const auth0_domain = 'ieeevis.us.auth0.com'
   const auth0_client_id = 'G8onz2A6h59RmuYFUbSLpGmxsGHOyPOv'
-  console.log(window.location.origin)
+  console.log("origin is " + window.location.origin);
   createAuth0Client({
     domain: auth0_domain,
     clientId: auth0_client_id,
-    cacheLocation: "localstorage",
-    authorizationParams: {
-      redirect_uri: window.location.origin
-    }
+    cacheLocation: "localstorage"
     }).then(async (auth0Client) => {
+      // const loginButton = document.getElementById("loginButton");
+      // // auth0Client.getTokenSilently()
   
-      const loginButton = document.getElementById("loginButton");
-      // auth0Client.getTokenSilently()
-  
-      loginButton.addEventListener("click", (e) => {
-        e.preventDefault();
-        auth0Client.loginWithRedirect();
-      });
-  
-      if (location.search.includes("state=") && 
-          (location.search.includes("code=") || 
-          location.search.includes("error="))) {
-        await auth0Client.handleRedirectCallback();
-        window.history.replaceState({}, document.title, "/");
-      }
+      // loginButton.addEventListener("click", (e) => {
+      //   e.preventDefault();
+      //   auth0Client.loginWithRedirect();
+      // });
+        
+      // if (location.search.includes("state=") && 
+      //     (location.search.includes("code=") || 
+      //     location.search.includes("error="))) {
+      //   await auth0Client.handleRedirectCallback();
+      //   window.history.replaceState({}, document.title, "/");
+      // }
   
       // Assumes a button with id "logout" in the DOM
       // const logoutButton = document.getElementById("logout");
@@ -299,27 +326,91 @@ document.addEventListener('DOMContentLoaded', async () => {
       // await auth0Client.getTokenSilently()
   
       const isAuthenticated = await auth0Client.isAuthenticated();
+      const query = window.location.search;
       const userProfile = await auth0Client.getUser();
   
       console.log(isAuthenticated, 'authenticated')
       console.log(userProfile)
 
-      const welcomePill = document.getElementById('welcomePill')
-      const loginBtn = document.getElementById('loginButton')
+      // const welcomePill = document.getElementById('welcomePill')
+      // const loginBtn = document.getElementById('loginButton')
 
       if (isAuthenticated)
       {
-        welcomePill.classList.remove('hidden')
-        welcomePill.innerText = `Welcome, ${userProfile.nickname}`
+        // document.body.style.display = null;
+        await updateUI(auth0Client, query);
+        console.log("WE GOT IN HERE, IS AUTHENTICATED IS TRUE")
+        // welcomePill.classList.remove('hidden')
+        // welcomePill.innerText = `Welcome, ${userProfile.nickname}`
 
-        loginBtn.classList.add('hidden')
+        // loginBtn.classList.add('hidden')
       }
-      else{
-        welcomePill.classList.add('hidden')
-        loginBtn.classList.remove('hidden')
+      else if (query.includes("code=") && query.includes("state=")) {
+        // NEW - check for the code and state parameters
+        // Process the login state
+        console.log("WE ARE IN THE REDIRECT CALLBACK!!!!!!")
+        auth0Client
+          .handleRedirectCallback()
+          .then((cb) => {
+            console.log(cb, "--- cb");
+            window.history.replaceState({}, document.title, "/");
+            updateUI(auth0Client, query);
+          })
+          .catch((e) => {
+            // eslint-disable-next-line no-console
+            console.log(e, "--- error");
+          });
+
+        // Use replaceState to redirect the user away and remove the querystring parameters
+      } else if (
+        window.location.href.includes("redirect.html") &&
+        !window.location.hash.includes("redirect.html")
+      ) {
+        console.log("included redirect")
+        // we should only trigger login requests if we have a page to return to
+        if (query.includes("return=")) {
+          // await auth0Client.loginWithRedirect({
+          //   redirect_uri: window.location.href,
+          //   authorizationParams: {
+          //     redirect_uri: window.location.href,
+          //   }
+          // });
+          await auth0Client.loginWithPopup();
+
+          updateUI(auth0Client, query)
+        }
+      } else {
+        console.log("here, we were going to switch the url to " + `redirect.html?return=${window.location.pathname.slice(1)}`)
+        // window.location.href = `redirect.html?return=${window.location.pathname.slice(1)}`;
       }
-      
-      })
+
+      // {
+        // welcomePill.classList.add('hidden')
+        // loginBtn.classList.remove('hidden')
+
+      // }
+      console.log("there is a log in button, I swear!");
+      $("#loginButton").click(async function () {
+        console.log("HELLO IN LOGIN BUTTON");
+        // await auth0Client.loginWithRedirect({
+        //   // redirect_uri: `${window.location.origin}/program/redirect.html?return=${window.location.href}`,
+        //   authorizationParams: {
+        //     redirect_uri: `${window.location.origin}`,
+        //     // redirect_uri: `${window.location.origin}/program/redirect.html?return=${window.location.href}`,
+        //   }
+        // });
+        await auth0Client.loginWithPopup();
+        updateUI(auth0Client, query)
+      });
+      $(".logoutBtn").click(async function () {
+        await auth0Client.logout({
+          redirect_uri: window.location.href,
+        });
+      });
+
+
+    })
+
 
   // automatically highlight TOC sidebar entries
   const navItems = Array.from(document.querySelectorAll('.sidebar-toc li a'));

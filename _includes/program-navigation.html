@@ -118,15 +118,25 @@
             {% if site.data.program_navigation.navbar_metadata.use_auth0 %}
             <button id="loginButton"
                 class="button bg-primary font-display md:text-sm lg:text-sm px-8 md:px-2 lg:px-4 mx-0 lg:mx-2 my-auto"
-                v-on:click="loginClick()">
-                Login
+                >
+                Login here
             </button>
 
+            <!-- <div id="welcomePill"
+                hidden
+                class="hidden button-auth bg-secondary font-display md:text-sm lg:text-sm px-8 md:px-2 lg:px-4 mx-0 lg:mx-2 my-auto"> -->
+            <span class="login-message hidden">You are logged in as</span>
+            <span class="secret hidden">
+            <span class="user_name"></span>
+            </span>
             <div id="welcomePill"
                 hidden
-                class="hidden button-auth bg-secondary font-display md:text-sm lg:text-sm px-8 md:px-2 lg:px-4 mx-0 lg:mx-2 my-auto">
-                Welcome, Web!
+                class="button-auth hidden bg-secondary font-display md:text-sm lg:text-sm px-8 md:px-2 lg:px-4 mx-0 lg:mx-2 my-auto">
+                <button class="logoutBtn btn btn-outline-secondary">
+                    Logout
+                </button>
             </div>
+
 
             <!--
                   Dropdown menu, show/hide based on menu state.
