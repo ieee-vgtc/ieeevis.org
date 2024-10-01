@@ -259,7 +259,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   const updateUI = async (auth0, query) => {
     const is_auth = await auth0.isAuthenticated();
-    console.log("are we auth?", is_auth)
+    //console.log("are we auth?", is_auth)
     if (is_auth) {
       document.body.style.display = null;
 
@@ -267,22 +267,23 @@ document.addEventListener('DOMContentLoaded', async () => {
       var queryParams = new URLSearchParams(query);
       var redirectUri = queryParams.get("return");
       if (redirectUri) {
-        console.log("we were gonna redirect here to ", "/" + redirectUri)
-        // window.location.href = "/" + redirectUri; // important: this also strips out queryParams so we don't infinitely redirect :)
+       //console.log("we were gonna redirect here to ", "/" + redirectUri)
+        window.location.href = "/" + redirectUri; // important: this also strips out queryParams so we don't infinitely redirect :)
       }
 
       // unused atm, hook up later; this won't get executed since we change location above
       const user = await auth0.getUser();
       $("#loginButton").hide();
       $("#welcomePill").show();
-      $(".logoutBtn").show();
+      $("#logoutButton").show();
       $(".login-message").show();
       $(".secret").show();
       $(".user_name").text(user.name);
-      $(".login-message").text("You are logged in as");
+      $(".login-message").text("You are logged in as:");
     } else {
       $("#loginButton").show();
       $("#welcomePill").hide();
+      $("#logoutButton").hide();
       $(".login-message").show();
       $(".secret").hide();
       $(".user_name").text("");
@@ -294,7 +295,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   const auth0_domain = 'ieeevis.us.auth0.com'
   const auth0_client_id = 'G8onz2A6h59RmuYFUbSLpGmxsGHOyPOv'
-  console.log("origin is " + window.location.origin);
+  //console.log("origin is " + window.location.origin);
   createAuth0Client({
     domain: auth0_domain,
     clientId: auth0_client_id,
@@ -339,7 +340,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       {
         // document.body.style.display = null;
         await updateUI(auth0Client, query);
-        console.log("WE GOT IN HERE, IS AUTHENTICATED IS TRUE")
+        //console.log("WE GOT IN HERE, IS AUTHENTICATED IS TRUE")
         // welcomePill.classList.remove('hidden')
         // welcomePill.innerText = `Welcome, ${userProfile.nickname}`
 
@@ -348,7 +349,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       else if (query.includes("code=") && query.includes("state=")) {
         // NEW - check for the code and state parameters
         // Process the login state
-        console.log("WE ARE IN THE REDIRECT CALLBACK!!!!!!")
+        //console.log("WE ARE IN THE REDIRECT CALLBACK!!!!!!")
         auth0Client
           .handleRedirectCallback()
           .then((cb) => {
@@ -379,19 +380,22 @@ document.addEventListener('DOMContentLoaded', async () => {
 
           updateUI(auth0Client, query)
         }
-      } else {
-        console.log("here, we were going to switch the url to " + `redirect.html?return=${window.location.pathname.slice(1)}`)
+      } else  if ( window.location.href.includes("room_") || window.location.href.includes("paper_") ){
+          window.location.href = `/program/redirect.html?return=${window.location.pathname.slice(1)}`;
+          //console.log("here, we were going to switch the url to " + `redirect.html?return=${window.location.pathname.slice(1)}`)
         // window.location.href = `redirect.html?return=${window.location.pathname.slice(1)}`;
-      }
+        }
+        
+    
 
       // {
         // welcomePill.classList.add('hidden')
         // loginBtn.classList.remove('hidden')
 
       // }
-      console.log("there is a log in button, I swear!");
+      //console.log("there is a log in button, I swear!");
       $("#loginButton").click(async function () {
-        console.log("HELLO IN LOGIN BUTTON");
+        //console.log("HELLO IN LOGIN BUTTON");
         // await auth0Client.loginWithRedirect({
         //   // redirect_uri: `${window.location.origin}/program/redirect.html?return=${window.location.href}`,
         //   authorizationParams: {
