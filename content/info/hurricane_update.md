@@ -13,7 +13,9 @@ permalink: info/hurricane_updates
 Dear IEEE VIS Community,
 
 We have great news to share! After a busy weekend, we just completed an emergency site visit at a new conference venue in the Tampa/St. Pete area. We are happy to announce that we are moving ahead with the new location. It is a great venue in a great location, but unfortunately, we can’t provide specifics until the contract is finalized, which should be the end of the week.
+
 The new facility will be able to hold our entire originally scheduled program on the originally scheduled dates, Oct 13-18, and is readily accessible from the Tampa airport. Therefore, we do not anticipate it impacting anyone’s travel plans. As soon as the contract is signed, we will provide further location details and a link to book rooms in the conference hotel block.
+
 Again, thank you for your patience during this challenging time. We hope to have information for you by the end of the week.
 See you in less than 2 weeks!
 
