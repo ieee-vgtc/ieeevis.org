@@ -381,8 +381,7 @@ document.addEventListener('DOMContentLoaded', async () => {
           updateUI(auth0Client, query)
         }
       } else  if ( window.location.href.includes("room_") || window.location.href.includes("paper_") ){
-          // uncomment the line below to redirect for login
-          //window.location.href = `/program/redirect.html?return=${window.location.pathname.slice(1)}`;
+          window.location.href = `/program/redirect.html?return=${window.location.pathname.slice(1)}`;
         }
         
     
