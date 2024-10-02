@@ -116,13 +116,49 @@
 
 
             {% if site.data.program_navigation.navbar_metadata.use_auth0 %}
-            <button
-                id="loginButton"
-                class="button bg-primary font-display md:text-base lg:text-lg px-8 md:px-2 lg:px-4 mx-0 lg:mx-2 my-auto"
-                v-on:click="loginClick()"
+            <button id="loginButton"
+                class="button bg-primary font-display md:text-sm lg:text-sm px-8 md:px-2 lg:px-4 mx-0 lg:mx-2 my-auto"
                 >
-                Login
+                Login here
             </button>
+
+            <!-- <div id="welcomePill"
+                hidden
+                class="hidden button-auth bg-secondary font-display md:text-sm lg:text-sm px-8 md:px-2 lg:px-4 mx-0 lg:mx-2 my-auto"> -->
+            <span class="login-message hidden">You are logged in as</span>
+            <span class="secret hidden">
+            <span class="user_name"></span>
+            </span>
+            <div id="welcomePill"
+                hidden
+                class="button-auth hidden bg-secondary font-display md:text-sm lg:text-sm px-8 md:px-2 lg:px-4 mx-0 lg:mx-2 my-auto">
+                <button class="logoutBtn btn btn-outline-secondary">
+                    Logout
+                </button>
+            </div>
+
+
+            <!--
+                  Dropdown menu, show/hide based on menu state.
+              
+                  Entering: "transition ease-out duration-100"
+                    From: "transform opacity-0 scale-95"
+                    To: "transform opacity-100 scale-100"
+                  Leaving: "transition ease-in duration-75"
+                    From: "transform opacity-100 scale-100"
+                    To: "transform opacity-0 scale-95"
+                -->
+            <!-- <div class="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+                role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
+                <div class="py-1" role="none">
+                    <form method="POST" action="#" role="none">
+                        <button type="submit" class="block w-full px-4 py-2 text-left text-sm text-gray-700"
+                            role="menuitem" tabindex="-1" id="menu-item-3">Sign out</button>
+                    </form>
+                </div>
+            </div> -->
+
+
             {% endif %}
 
 

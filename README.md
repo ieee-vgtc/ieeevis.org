@@ -22,7 +22,7 @@ If you're contributing content, but not administrating the website itself, you w
 
 ![](https://github.com/ieee-vgtc/ieeevis.org/workflows/build%20staging/badge.svg)
 
-**To build locally**, run `bundle exec jekyll serve -d ./_site/year/2024 && npm run-script start`.  You may need to break these commands apart and run `npm run-script start` in a separate console.
+**To build locally**, run `bundle exec jekyll serve -d ./_site -b '/' && npm run-script start`.  You may need to break these commands apart and run `npm run-script start` in a separate console.
 
 You may need to install [npm/node](https://nodejs.org) and Ruby (we recommend [rbenv](https://github.com/rbenv/rbenv#readme) and using [WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10) if not on a UNIX-like system), and install the bundler gem (`gem install bundler`).   Once the package managers are installed, run them both to install dependencies (`npm install` and `bundle`), and then build the site `npm run build`.
 

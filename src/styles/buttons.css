@@ -9,8 +9,15 @@
     transition: background-color 200ms;
 }
 
+.button-auth {
+    @apply inline-block rounded shadow-md;
+    @apply py-2 px-4;
+    @apply font-display font-medium whitespace-no-wrap;
+    cursor: default;
+}
+
 .button::after {
-    content: "→";
+    /* content: "→"; */
     @apply align-middle pl-1;
 }
 
