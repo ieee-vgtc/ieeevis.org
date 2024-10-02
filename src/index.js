@@ -274,20 +274,18 @@ document.addEventListener('DOMContentLoaded', async () => {
       // unused atm, hook up later; this won't get executed since we change location above
       const user = await auth0.getUser();
       $("#loginButton").hide();
-      $("#welcomePill").show();
-      $("#logoutButton").show();
-      $(".login-message").show();
-      $(".secret").show();
-      $(".user_name").text(user.name);
-      $(".login-message").text("You are logged in as:");
+      $("#welcomePillMessage").show();
+      $("#welcomePillBtn").show();
+      $("#welcomePillMessage").prop("value", `Welcome, ${user.nickname}`)
+      
     } else {
       $("#loginButton").show();
-      $("#welcomePill").hide();
-      $("#logoutButton").hide();
-      $(".login-message").show();
-      $(".secret").hide();
-      $(".user_name").text("");
-      $(".login-message").text("You are currently not authenticated.");
+      $("#welcomePillMessage").hide();
+      $("#welcomePillBtn").hide();
+      // $(".login-message").show();
+      // $(".secret").hide();
+      // $(".user_name").text("");
+      // $(".login-message").text("You are currently not authenticated.");
     }
   };
 

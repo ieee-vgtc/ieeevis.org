@@ -117,22 +117,32 @@
 
             {% if site.data.program_navigation.navbar_metadata.use_auth0 %}
             <button id="loginButton"
-                class="button bg-primary font-display md:text-sm lg:text-sm px-8 md:px-2 lg:px-4 mx-0 lg:mx-2 my-auto"
-                >
-                Login here
+                class="button bg-primary font-display md:text-sm lg:text-sm px-8 md:px-2 lg:px-4 mx-0 lg:mx-2 my-auto">
+                Login
             </button>
 
             <!-- <div id="welcomePill"
                 hidden
                 class="hidden button-auth bg-secondary font-display md:text-sm lg:text-sm px-8 md:px-2 lg:px-4 mx-0 lg:mx-2 my-auto"> -->
-            <span class="login-message hidden">You are logged in as</span>
-            <span class="secret hidden">
-            <span class="user_name"></span>
-            </span>
+            <!-- 
+            <div id="welcomePill" class="font-display md:text-sm lg:text-sm px-8 md:px-2 lg:px-4 mx-0 lg:mx-2 my-auto">
+                <input type="text" id="welcomePillMessage" disabled
+                    class="block sm:text-sm sm:leading-6"
+                    value="Welcome, X">
+                <button class="button-auth bg-secondary logoutBtn btn">
+                    Logout
+                </button>
+            </div> -->
+
             <div id="welcomePill"
-                hidden
-                class="button-auth hidden bg-secondary font-display md:text-sm lg:text-sm px-8 md:px-2 lg:px-4 mx-0 lg:mx-2 my-auto">
-                <button class="logoutBtn btn btn-outline-secondary">
+                class=" relative flex font-display md:text-sm lg:text-sm px-8 md:px-2 lg:px-4 mx-0 my-auto">
+
+                <input id="welcomePillMessage" type="text"
+                    class=" px-4 h-100 w-full text-black rounded-l pr-10 outline outline-0 hidden lg:ml-2" placeholder="" value=""
+                    disabled />
+
+                <button id="welcomePillBtn" class="button-auth bg-secondary logoutBtn btn rounded-r rounded-l-none lg:mr-2 hidden"
+                    type="button">
                     Logout
                 </button>
             </div>
