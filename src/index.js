@@ -381,7 +381,7 @@ document.addEventListener('DOMContentLoaded', async () => {
           updateUI(auth0Client, query)
         }
       } else  if ( window.location.href.includes("room_") || window.location.href.includes("paper_") ){
-          window.location.href = `/program/redirect.html?return=${window.location.pathname.slice(1)}`;
+          window.location.href = `/year/2024/program/redirect?return=${window.location.pathname.slice(1)}`;
         }
         
     
