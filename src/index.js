@@ -364,8 +364,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         // Use replaceState to redirect the user away and remove the querystring parameters
       } else if (
-        window.location.href.includes("redirect.html") &&
-        !window.location.hash.includes("redirect.html")
+        window.location.href.includes("redirect") &&
+        !window.location.hash.includes("redirect")
       ) {
         console.log("included redirect")
         // we should only trigger login requests if we have a page to return to
