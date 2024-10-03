@@ -273,15 +273,15 @@ document.addEventListener('DOMContentLoaded', async () => {
 
       // unused atm, hook up later; this won't get executed since we change location above
       const user = await auth0.getUser();
-      $("#loginButton").hide();
-      $("#welcomePillMessage").show();
-      $("#welcomePillBtn").show();
-      $("#welcomePillMessage").prop("value", `Welcome, ${user.nickname}`)
+      $(".login-button").hide();
+      $(".welcome-pill-message").show();
+      $(".logout-button").show();
+      $(".welcome-pill-message").prop("value", `Welcome, ${user.nickname}`)
       
     } else {
-      $("#loginButton").show();
-      $("#welcomePillMessage").hide();
-      $("#welcomePillBtn").hide();
+      $(".login-button").show();
+      $(".welcome-pill-message").hide();
+      $(".logout-button").hide();
       // $(".login-message").show();
       // $(".secret").hide();
       // $(".user_name").text("");
@@ -390,7 +390,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
       // }
       //console.log("there is a log in button, I swear!");
-      $("#loginButton").click(async function () {
+      $(".login-button").click(async function () {
         //console.log("HELLO IN LOGIN BUTTON");
         // await auth0Client.loginWithRedirect({
         //   // redirect_uri: `${window.location.origin}/program/redirect.html?return=${window.location.href}`,

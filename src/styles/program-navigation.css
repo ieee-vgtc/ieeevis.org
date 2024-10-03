@@ -2,9 +2,17 @@
 
 .logo--program-nav {
     @apply bg-primary;
-    width: 170px;
+    width: 0px;
     visibility: hidden;
     align-content: center;
+}
+
+.login-desktop {
+    visibility: hidden;
+}
+
+.login-mobile {
+    visibility: visible;
 }
 
 @screen md {
@@ -13,7 +21,17 @@
         height: 100%;
         visibility: visible;
     }
+
+    .login-desktop {
+        visibility: visible;
+    }
+    
+    .login-mobile {
+        visibility: hidden;
+    }
 }
+
+
 
 @screen lg {
     .logo--program-nav {
