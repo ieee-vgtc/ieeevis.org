@@ -3,8 +3,34 @@ import style from "./styles/index.css";
 import Vue from 'vue'
 import { createAuth0Client } from "@auth0/auth0-spa-js";
 
-console.log("in index.js")
+var getUrlParameter = function getUrlParameter(sParam) {
+    var sPageURL = window.location.search.substring(1),
+        sURLVariables = sPageURL.split('&'),
+        sParameterName,
+        i;
+
+    console.log("sPageURL is ", sPageURL);
+    console.log("sURLVariables is ", sURLVariables);
+    for (i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+
+        if (sParameterName[0] === sParam) {
+            return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+        }
+    }
+    return false;
+};
+
 document.addEventListener('DOMContentLoaded', async () => {
+
+
+  // console.log("URL parameter is ", getUrlParameter('loginMsg'), " and is it true? ", getUrlParameter('loginMsg') == true);
+    
+  if (getUrlParameter('loginMsg')) {
+    $("#loginToastMessage").show();
+  }
+
+
   // main navigation bar
   new Vue({
     el: '#navigation',
@@ -379,10 +405,10 @@ document.addEventListener('DOMContentLoaded', async () => {
           updateUI(auth0Client, query)
         }
       } else  if ( window.location.href.includes("room_") || window.location.href.includes("paper_") ){
-          window.location.href = `/year/2024/program/redirect?return=${window.location.pathname.slice(1)}`;
+          // window.location.href = `/year/2024/program/redirect?return=${window.location.pathname.slice(1)}`;
+
+          window.location.href = "/year/2024/welcome?loginMsg=true";
         }
-        
-    
 
       // {
         // welcomePill.classList.add('hidden')
