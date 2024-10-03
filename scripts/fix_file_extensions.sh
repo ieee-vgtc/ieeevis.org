@@ -11,7 +11,9 @@ for i in `find _site/year/{2016,2017,2018,2019,2020,2021,2022,2023,2024} _site/g
     if [[ $i != *"/papers.html" ]]; then
         if [[ $i != *"program/paper_"* ]]; then
             if [[ $i != *"/posters.html" ]]; then
-                mv $i `echo $i | sed s/.html$//`;
+                if [[ $i != *"program/event_"* ]]; then
+                    mv $i `echo $i | sed s/.html$//`;
+                fi
             fi
         fi
     fi
