@@ -34,7 +34,7 @@ schedule:
 all_events:
   display: true
   text: "All Events"
-  url: "/year/2024/program/events.html"
+  url: "/year/2024/program/events"
 
 papers:
   display: true
