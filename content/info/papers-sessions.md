@@ -460,7 +460,7 @@ Authors: Furui Cheng, Mark S Keller, Huamin Qu, Nils Gehlenborg, Qianwen Wang
 **03:45-05:00PM CDT (UTC-5)**<br/>
 **Room: Oklahoma Station 4**<br/>
 *Short Papers: Visual Analytics, Decision Support, and Machine Learning*<br/>
-*Session Chair: Matthew Berger*
+*Session Chair: Mingwei Li*
 
 **Visual Auditor: Interactive Visualization for Detection and Summarization of Model Biases**<br/>
 Authors: David Munechika, Zijie Wang, Jack Reidy, Josh Rubin, Krishna Gade, Krishnaram Kenthapadi, Duen Horng Chau
