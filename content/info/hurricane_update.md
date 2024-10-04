@@ -9,7 +9,7 @@ permalink: info/hurricane_updates
 *Posted on Tuesday, October 4 2024 at 2:00pm EDT*
 
 
-Dear IEEE Community,
+Dear IEEE VIS Community,
 
 We are very happy to announce that the IEEE VIS 2024 Conference will now take place at the wonderful Hilton Tampa Downtown! 
 
@@ -60,7 +60,7 @@ IEEE VIS 2024 General Chairs
 *Posted on Friday, September 27 2024 at 8:45pm EDT*
 
 
-Dear Visualization Community,
+Dear IEEE VIS Community,
 
 
 This evening, members of the core committee, VEC, and IEEE met with the TradeWinds Island Grand Hotel manager for an update on the status of the damages. Unfortunately, the damages are significant enough that we will be unable to hold IEEE VIS 2024 on their property, and we have invoked force majeure to cancel the contract.
@@ -89,6 +89,8 @@ IEEE VIS 2024 General Chairs
 # Update on the impact of Hurricane Helene
 
 *Posted on Friday, September 27 2024 at 12:42 EDT*
+
+Dear IEEE VIS Community,
 
 As you may have heard, Hurricane Helene had a significant impact on Florida. Although Tampa / St. Pete did not receive a direct hit, the storm surge caused significant flooding. The good news is that they are used to dealing with these situations in Florida.
 **At this point, we still plan to go ahead with the in-person portion of the conference at the TradeWinds Island Grand.**

@@ -11,18 +11,12 @@ All in-person conference events for VIS 2024 will now be held in the **Hilton Ta
 
 # Conference Hotel
 
-The conference rate for the base room is **$199 per night + 13.5% tax** (~$226/night). The cutoff date for reservations under this rate is **October 11, 2024**. 
+The conference rate for the base room is **$199 per night + 13.5% tax** (~$226/night). The cutoff date for reservations under this rate is **October 11, 2024**. Hilton Honors members will receive free WiFi access. The booking includes an _optional_ $25 Urban Destination Fee, which provides a $30 food and beverage credit.
 
 Staying in the conference hotel has a lot of advantages. In addition to having access to all of the hotel's amenities, having participants onsite, improves the conference experience and helps cover the facility costs. Because of this, we ask you to book the hotel only via the link below.
 
-<!--
-~~Group ID: 25711~~\\
-~~Delegate password: ~~60983418~~
+<a href="https://book.passkey.com/go/IEEE1024" class="button" target="new_window">Book your VIS 2024 hotel room</a>
 
-<a href="https://book.rguest.com/wbe/group/1672/tradewinds/auth?group=25711" class="button" target="new_window">Book your VIS 2024 hotel room</a>
-
-**Once logged in, be sure to update the >>Arrival and Departure<< dates to match the conference dates (Oct 13-18) and click >>Refine Search<<.**
--->
 
 ## FAQ
 
