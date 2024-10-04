@@ -76,68 +76,82 @@
 .schedule.schedule-day {
     grid-template-columns:
         [times] 5em
-        [sabalsawgrass-start] 1fr
-        [sabalsawgrass-end breezeway-start] 1fr
-        [breezeway-end gladesjasminepalm-start] 1fr
-        [gladesjasminepalm-end tarpon-start] 1fr
-        [tarpon-end tarponsawyerlong-start] 1fr
-        [tarponsawyerlong-end long-start] 1fr
-        [long-end indianbird-start] 1fr
-        [indianbird-end blueheron-start] 1fr
-        [blueheron-end sawyer-start] 1fr
-        [sawyer-end pavilion-start] 1fr
-        [pavilion-end breezewaycitrusbanyan-start] 1fr
-        [breezewaycitrusbanyan-end timezones-start] 5em
+        [bayshorefoyer-start] 1fr
+        [bayshorefoyer-end bayshoreplenary-start] 1fr
+        [bayshoreplenary-end bayshore1-start] 1fr
+        [bayshore1-end bayshore2-start] 1fr
+        [bayshore2-end bayshore3-start] 1fr
+        [bayshore3-end bayshore5-start] 1fr
+        [bayshore5-end bayshore6-start] 1fr
+        [bayshore6-end bayshore7-start] 1fr
+        [bayshore7-end palmaceia234-start] 1fr
+        [palmaceia234-end palmaceia1-start] 1fr
+        [palmaceia1-end esplanadesuites-start] 1fr
+        [esplanadesuites-end timezones-start] 5em
         [timezones-end];
 }
 
 /* customize layout per-day */
-#calendar-Sunday, #calendar-Monday, #calendar-Wednesday {
+#calendar-Sunday, #calendar-Monday {
     grid-template-columns:
         [times] 5em
-        [sabalsawgrass-start] 1fr
-        [sabalsawgrass-end gladesjasminepalm-start] 1fr
-        [gladesjasminepalm-end tarpon-start] 1fr
-        [tarpon-end long-start] 1fr
-        [long-end indianbird-start] 1fr
-        [indianbird-end blueheron-start] 1fr
-        [blueheron-end sawyer-start] 1fr
-        [sawyer-end timezones-start] 5em
+        [bayshore1-start] 1fr
+        [bayshore1-end bayshore2-start] 1fr
+        [bayshore2-end bayshore3-start] 1fr
+        [bayshore3-end bayshore5-start] 1fr
+        [bayshore5-end bayshore6-start] 1fr
+        [bayshore6-end bayshore7-start] 1fr
+        [bayshore7-end esplanadesuites-start] 1fr
+        [esplanadesuites-end timezones-start] 5em
         [timezones-end];
 }
 
 #calendar-Tuesday {
     grid-template-columns:
         [times] 5em
-        [breezeway-start] 1fr
-        [breezeway-end gladesjasminepalm-start] 1fr
-        [gladesjasminepalm-end pavilion-start] 1fr
-        [pavilion-end breezewaycitrusbanyan-start] 1fr
-        [breezewaycitrusbanyan-end timezones-start] 5em
+        [bayshorefoyer-start] 1fr
+        [bayshorefoyer-end bayshoreplenary-start] 1fr
+        [bayshoreplenary-end palmaceia234-start] 1fr
+        [palmaceia234-end palmaceia1-start] 1fr
+        [palmaceia1-end timezones-start] 5em
+        [timezones-end];
+}
+
+#calendar-Wednesday {
+    grid-template-columns:
+        [times] 5em
+        [bayshore1-start] 1fr
+        [bayshore1-end bayshore2-start] 1fr
+        [bayshore2-end bayshore3-start] 1fr
+        [bayshore3-end bayshore5-start] 1fr
+        [bayshore5-end bayshore6-start] 1fr
+        [bayshore6-end bayshore7-start] 1fr
+        [bayshore7-end palmaceia1-start] 1fr
+        [palmaceia1-end timezones-start] 5em
         [timezones-end];
 }
 
 #calendar-Thursday {
     grid-template-columns:
         [times] 5em
-        [sabalsawgrass-start] 1fr
-        [sabalsawgrass-end gladesjasminepalm-start] 1fr
-        [gladesjasminepalm-end tarpon-start] 1fr
-        [tarpon-end long-start] 1fr
-        [long-end indianbird-start] 1fr
-        [indianbird-end sawyer-start] 1fr
-        [sawyer-end timezones-start] 5em
+        [bayshore1-start] 1fr
+        [bayshore1-end bayshore2-start] 1fr
+        [bayshore2-end bayshore3-start] 1fr
+        [bayshore3-end bayshore5-start] 1fr
+        [bayshore5-end bayshore6-start] 1fr
+        [bayshore6-end bayshore7-start] 1fr
+        [bayshore7-end timezones-start] 5em
         [timezones-end];
 }
 
 #calendar-Friday {
     grid-template-columns:
         [times] 5em
-        [sabalsawgrass-start] 1fr
-        [sabalsawgrass-end gladesjasminepalm-start] 1fr
-        [gladesjasminepalm-end tarponsawyerlong-start] 1fr
-        [tarponsawyerlong-end indianbird-start] 1fr
-        [indianbird-end timezones-start] 5em
+        [bayshoreplenary-start] 1fr
+        [bayshoreplenary-end bayshore5-start] 1fr
+        [bayshore5-end bayshore6-start] 1fr
+        [bayshore6-end bayshore7-start] 1fr
+        [bayshore7-end timezones-start] 5em
         [timezones-end];
 }
 
