@@ -351,3 +351,7 @@
 .content ul li:before {
     display: none !important;
 }
+
+.hide-auth-controls {
+    visibility: hidden !important;
+}
