@@ -61,7 +61,7 @@
 
     /* Fixed on small screens */
     position: fixed;
-    width: 100%;
+    width: 100vw;
     top: 70px;
 }
 
@@ -87,7 +87,7 @@
     /* top: var(--program-navigation-height); */
     top: 140px;
     height: calc(100vh - var(--program-navigation-height));
-    width: 100%;
+    width: 100vw;
     overflow-y: scroll;
     background-color: white;
 }
@@ -350,4 +350,8 @@
 
 .content ul li:before {
     display: none !important;
+}
+
+.hide-auth-controls {
+    visibility: hidden !important;
 }

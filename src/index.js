@@ -28,15 +28,15 @@ const updateUI = async (auth0, query) => {
     // $(".welcome-pill-message").prop("value", `Welcome, ${user.nickname}`)
 
     Array.from(document.getElementsByClassName('login-button')).map((item) => {
-      item.classList.add('hidden')
+      item.classList.add('hide-auth-controls')
     })
 
     Array.from(document.getElementsByClassName('welcome-pill-message')).map((item) => {
-      item.classList.remove('hidden')
+      item.classList.remove('hide-auth-controls')
     })
 
     Array.from(document.getElementsByClassName('logout-button')).map((item) => {
-      item.classList.remove('hidden')
+      item.classList.remove('hide-auth-controls')
     })
 
     Array.from(document.getElementsByClassName('welcome-pill-message')).map((item) => {
@@ -46,13 +46,13 @@ const updateUI = async (auth0, query) => {
   } else {
     // $(".login-button").show();
     Array.from(document.getElementsByClassName('login-button')).map((item) => {
-      item.classList.remove('hidden')
+      item.classList.remove('hide-auth-controls')
     })
     // $(".welcome-pill-message").hide();
     // $(".logout-button").hide();
 
     Array.from(document.getElementsByClassName('logout-button')).map((item) => {
-      item.classList.add('hidden')
+      item.classList.add('hide-auth-controls')
     })
 
     Array.from(document.getElementsByClassName('welcome-pill-message')).map((item) => {
@@ -60,7 +60,7 @@ const updateUI = async (auth0, query) => {
     })
 
     Array.from(document.getElementsByClassName('welcome-pill-message')).map((item) => {
-      item.classList.add('hidden')
+      item.classList.add('hide-auth-controls')
     })
 
   }
