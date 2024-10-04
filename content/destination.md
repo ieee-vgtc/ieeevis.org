@@ -14,7 +14,7 @@ contact:
   <img src="assets/photos/hilton/outdoor.jpg" />
 </p>
 <p>
-  <img src="assets/photos/hilton/coutyard.jpg" /> 
+  <img src="assets/photos/hilton/courtyard.jpg" /> 
 </p>
 <p>
   <img src="assets/photos/hilton/pool.jpg" />
