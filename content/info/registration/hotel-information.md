@@ -7,26 +7,13 @@ contact: "web@ieeevis.org"
 ---
 
 
-All in-person conference events for VIS 2024 will be held in the TradeWinds Island Grand Resort located on beautiful St. Pete Beach.
+All in-person conference events for VIS 2024 will now be held in the **Hilton Tampa Downtown**.
 
 # Conference Hotel
 
-The conference rate for the base room is <b>$239 per night</b> (including resort fee) plus **13% tax**. The cutoff date for reservations under this rate is 
-**September 8, 2024**.  After this date, we cannot guarantee the specified rate.
-
-| Room                               | Beds          | Cost Per Night                          |
-| ---------------------------------- | ------------- | --------------------------------------- |
-| Deluxe                             | 2 Double Beds | $184 + $55 resort fee + 13% tax (~$270/night) |
-| Tropical View With Balcony         | 2 Queen Beds  | $214 + $55 resort fee + 13% tax (~$304/night) |
-| Gulf Front View With Balcony       | 2 Queen Beds  | $234 + $55 resort fee + 13% tax (~$327/night) |
-| Tropical View Villa With Balcony   | 2 Queen Beds + Sofa Bed  | $324 + $55 resort fee + 13% tax (~$428/night) |
-| Gulf Front View Villa With Balcony | 2 Double Beds + Sofa Bed | $384 + $55 resort fee + 13% tax (~$496/night) |
+The conference rate for the base room is **$199 per night + 13.5% tax** (~$226/night). The cutoff date for reservations under this rate is **October 11, 2024**. 
 
 Staying in the conference hotel has a lot of advantages. In addition to having access to all of the hotel's amenities, having participants onsite, improves the conference experience and helps cover the facility costs. Because of this, we ask you to book the hotel only via the link below.
-
-**Update**: Our room block at the Island Grand has sold out. However, our contracted price has been extended to a block of rooms at the RumFish Beach Hotel, which is the sister property located a short walk from the Island Grand. RumFish guests have access to all of the amenities of the Island Grand, plus a lovely walk on the beach (or a sidewalk, if that's your thing) to get to and from conference activities.
-
-**Final Update**: Our booking deadline has passed and the block has closed. You may still be able to book a room at the Island Grand or Rumfish outside of our block by using any hotel booking site. Otherwise, you can look for another nearby hotel to stay at.
 
 <!--
 ~~Group ID: 25711~~\\
@@ -39,24 +26,15 @@ Staying in the conference hotel has a lot of advantages. In addition to having a
 
 ## FAQ
 
-### Is the hotel block full already?!?!
+### How many rooms are available?
 
-We are actively monitoring the hotel block and making adjustments as needed. Before contacting us, please double check that you have selected the correct days for your travel. However, you can inquire about the status of our hotel block by e-mailing <a href="mailto:info@ieeevis.org">info@ieeevis.org</a>.
-
-### I'm having a credit card, phone, or technical problem with my booking?
-
-For these kinds of problems, it is best to contact the hotel directly by phone at <a href="tel:+1800-360-4016">+1 800-360-4016</a> or e-mail at <a href="mailto:GroupReservations@twresort.com">GroupReservations@twresort.com</a>.
-
-### Will I recieve an e-mail confirmation? (Hint: no)
-
-At the end of your booking, a confirmation of your booking will be shown. However, you will <b>NOT</b> receive an e-mail confirmation from the hotel. One may be requested by sending an e-mail to <a href="mailto:GroupReservations@twresort.com">GroupReservations@twresort.com</a>.
-
-### How do I modify or cancel my reservation?
-
-You can modify your reservation by phone at <a href="tel:+1800-360-4016">+1 800-360-4016</a> or e-mail at <a href="mailto:GroupReservations@twresort.com">GroupReservations@twresort.com</a>.
+The hotel has many of rooms available during the middle of the week. However, on Friday, Oct 18, and Saturday, Oct 19, the hotel has many fewer rooms. We recommend that if you need a room on one of those nights, but one is unavailable, you stay in the conference hotel during the conference, and move to a different hotel at the end of the week.
 
 ### What's the hotel address?
 
-<a href = "https://maps.app.goo.gl/4vyyBQU6i6TobTwY8">Island Grand a TradeWinds Beach Resort, 5500 Gulf Blvd, St Pete Beach, FL 33706.</a>\\
-<a href = "https://maps.app.goo.gl/XvQ1UVjXj31oeUxU7">RumFish Beach at TradeWinds, 6000 Gulf Blvd, St Pete Beach, FL 33706.</a>
+<a href = "https://maps.app.goo.gl/ZBNKM8ab5A8eWUEVA">Hilton Tampa Downtown, 211 N Tampa St, Tampa, FL 33602.</a>
+
+### I had a reservation at the in the room block at the TradeWinds. What do I do?
+
+**Your reservation will be automatically canceled by the TradeWinds.** If you placed a deposit for you room, it will be refunded to you. However, it could take several weeks for the refund to process. The TradeWinds is running on reduced staff. So, please be patient with them. If you have questions, you can contact them at <a href="tel:+1800-360-4016">+1 800-360-4016</a> or e-mail at <a href="mailto:GroupReservations@twresort.com">GroupReservations@twresort.com</a>.
 

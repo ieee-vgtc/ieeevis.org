@@ -6,7 +6,7 @@ permalink: /year/2024/info/registration/conference-registration
 contact: finance@ieeevis.org
 ---
 ## VIS 2024: HYBRID EVENT REGISTRATION
-The 2024 IEEE Visualization and Visual Analytics Conference, running from October 13 - 18, is organized as a hybrid event. The conference will be held at the TradeWinds Island Grand Beach Resort in St. Pete Beach, Florida. The virtual component of the conference will provide access to the VIS community around the world who might not be able to travel with streaming in-person presenter-only sessions, virtual presenter-only sessions hosted on Zoom and downloadable proceedings. 
+The 2024 IEEE Visualization and Visual Analytics Conference, running from October 13 - 18, is organized as a hybrid event. The conference will be held at the Hilton Tampa Downtown, in Tampa, Florida. The virtual component of the conference will provide access to the VIS community around the world who might not be able to travel with streaming in-person presenter-only sessions, virtual presenter-only sessions hosted on Zoom and downloadable proceedings. 
 
 
 ### Important Dates
