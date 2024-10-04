@@ -1,7 +1,105 @@
 import style from "./styles/index.css";
+import jQuery from 'jquery';
 
 import Vue from 'vue'
 import { createAuth0Client } from "@auth0/auth0-spa-js";
+
+const authenticate = () => {
+  const auth0_domain = 'ieeevis.us.auth0.com'
+  const auth0_client_id = 'G8onz2A6h59RmuYFUbSLpGmxsGHOyPOv'
+  //console.log("origin is " + window.location.origin);
+  createAuth0Client({
+    domain: auth0_domain,
+    clientId: auth0_client_id,
+    cacheLocation: "localstorage"
+  }).then(async (auth0Client) => {
+    const isAuthenticated = await auth0Client.isAuthenticated();
+    const query = window.location.search;
+    const userProfile = await auth0Client.getUser();
+
+    console.log(isAuthenticated, 'authenticated')
+    console.log(userProfile)
+
+    if (isAuthenticated) {
+      await updateUI(auth0Client, query);
+    }
+    else if (query.includes("code=") && query.includes("state=")) {
+      // NEW - check for the code and state parameters
+      // Process the login state
+      //console.log("WE ARE IN THE REDIRECT CALLBACK!!!!!!")
+      auth0Client
+        .handleRedirectCallback()
+        .then((cb) => {
+          console.log(cb, "--- cb");
+          window.history.replaceState({}, document.title, "/");
+          updateUI(auth0Client, query);
+        })
+        .catch((e) => {
+          // eslint-disable-next-line no-console
+          console.log(e, "--- error");
+        });
+
+      // Use replaceState to redirect the user away and remove the querystring parameters
+    } else if (
+      window.location.href.includes("redirect") &&
+      !window.location.hash.includes("redirect")
+    ) {
+      console.log("included redirect")
+      // we should only trigger login requests if we have a page to return to
+      if (query.includes("return=")) {
+        // await auth0Client.loginWithRedirect({
+        //   redirect_uri: window.location.href,
+        //   authorizationParams: {
+        //     redirect_uri: window.location.href,
+        //   }
+        // });
+        await auth0Client.loginWithPopup();
+
+        updateUI(auth0Client, query)
+      }
+    } else if (window.location.href.includes("room_") || window.location.href.includes("paper_")) {
+      // window.location.href = `/year/2024/program/redirect?return=${window.location.pathname.slice(1)}`;
+
+      window.location.href = "/year/2024/welcome?loginMsg=true";
+    }
+
+
+    // $(".login-button").click(async function () {
+    //   await auth0Client.loginWithPopup();
+    //   updateUI(auth0Client, query)
+    // });
+
+    Array.from(document.getElementsByClassName('login-button')).forEach((item) => {
+      item.addEventListener('click', async () => {
+        await auth0Client.loginWithPopup();
+        updateUI(auth0Client, query)
+      })
+    })
+
+    // document.getElementsByClassName('login-button').addEventListener('click', async () => {
+    //   await auth0Client.loginWithPopup();
+    //   updateUI(auth0Client, query);
+    // })
+
+    // $(".logout-button").click(async function () {
+    //   await auth0Client.logout({
+    //     redirect_uri: window.location.href,
+    //   });
+    // });
+
+    Array.from(document.getElementsByClassName('logout-button')).forEach((item) => {
+      item.addEventListener('click', async () => {
+        await auth0Client.logout({
+          redirect_uri: window.location.href,
+        });
+      })
+    })
+
+
+
+  })
+}
+
 
 var getUrlParameter = function getUrlParameter(sParam) {
   var sPageURL = window.location.search.substring(1),
@@ -243,6 +341,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     },
     mounted: () => {
       console.log('is mounted')
+      authenticate()
       const auth0_domain = 'ieeevis.us.auth0.com'
       const auth0_client_id = 'G8onz2A6h59RmuYFUbSLpGmxsGHOyPOv'
       //console.log("origin is " + window.location.origin);
@@ -286,93 +385,18 @@ document.addEventListener('DOMContentLoaded', async () => {
 
       // unused atm, hook up later; this won't get executed since we change location above
       const user = await auth0.getUser();
-      $(".login-button").hide();
-      $(".welcome-pill-message").show();
-      $(".logout-button").show();
-      $(".welcome-pill-message").prop("value", `Welcome, ${user.nickname}`)
+      // $(".login-button").hide();
+      // $(".welcome-pill-message").show();
+      // $(".logout-button").show();
+      // $(".welcome-pill-message").prop("value", `Welcome, ${user.nickname}`)
 
     } else {
-      $(".login-button").show();
-      $(".welcome-pill-message").hide();
-      $(".logout-button").hide();
-      // $(".login-message").show();
-      // $(".secret").hide();
-      // $(".user_name").text("");
-      // $(".login-message").text("You are currently not authenticated.");
+      // $(".login-button").show();
+      // $(".welcome-pill-message").hide();
+      // $(".logout-button").hide();
+
     }
   };
-
-  const auth0_domain = 'ieeevis.us.auth0.com'
-  const auth0_client_id = 'G8onz2A6h59RmuYFUbSLpGmxsGHOyPOv'
-  //console.log("origin is " + window.location.origin);
-  createAuth0Client({
-    domain: auth0_domain,
-    clientId: auth0_client_id,
-    cacheLocation: "localstorage"
-  }).then(async (auth0Client) => {
-    const isAuthenticated = await auth0Client.isAuthenticated();
-    const query = window.location.search;
-    const userProfile = await auth0Client.getUser();
-
-    console.log(isAuthenticated, 'authenticated')
-    console.log(userProfile)
-
-    if (isAuthenticated) {
-      await updateUI(auth0Client, query);
-    }
-    else if (query.includes("code=") && query.includes("state=")) {
-      // NEW - check for the code and state parameters
-      // Process the login state
-      //console.log("WE ARE IN THE REDIRECT CALLBACK!!!!!!")
-      auth0Client
-        .handleRedirectCallback()
-        .then((cb) => {
-          console.log(cb, "--- cb");
-          window.history.replaceState({}, document.title, "/");
-          updateUI(auth0Client, query);
-        })
-        .catch((e) => {
-          // eslint-disable-next-line no-console
-          console.log(e, "--- error");
-        });
-
-      // Use replaceState to redirect the user away and remove the querystring parameters
-    } else if (
-      window.location.href.includes("redirect") &&
-      !window.location.hash.includes("redirect")
-    ) {
-      console.log("included redirect")
-      // we should only trigger login requests if we have a page to return to
-      if (query.includes("return=")) {
-        // await auth0Client.loginWithRedirect({
-        //   redirect_uri: window.location.href,
-        //   authorizationParams: {
-        //     redirect_uri: window.location.href,
-        //   }
-        // });
-        await auth0Client.loginWithPopup();
-
-        updateUI(auth0Client, query)
-      }
-    } else if (window.location.href.includes("room_") || window.location.href.includes("paper_")) {
-      // window.location.href = `/year/2024/program/redirect?return=${window.location.pathname.slice(1)}`;
-
-      window.location.href = "/year/2024/welcome?loginMsg=true";
-    }
-
-    $(".login-button").click(async function () {
-      await auth0Client.loginWithPopup();
-      updateUI(auth0Client, query)
-    });
-    $(".logoutBtn").click(async function () {
-      await auth0Client.logout({
-        redirect_uri: window.location.href,
-      });
-    });
-
-
-  })
-
 
   // automatically highlight TOC sidebar entries
   const navItems = Array.from(document.querySelectorAll('.sidebar-toc li a'));
