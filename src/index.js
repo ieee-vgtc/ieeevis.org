@@ -395,7 +395,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         item.classList.add('hidden')
       })
 
-      Array.from(document.getElementsByTagName('welcome-pill-message')).map((item) => {
+      Array.from(document.getElementsByClassName('welcome-pill-message')).map((item) => {
         item.classList.remove('hidden')
       })
 
@@ -404,7 +404,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       })
 
       Array.from(document.getElementsByClassName('welcome-pill-message')).map((item) => {
-        item.attributes.setNamedItem('value', `Welcome, ${user.nickname}`)
+        item.value = `Welcome, ${user.nickname}`
       })
 
     } else {
@@ -420,10 +420,10 @@ document.addEventListener('DOMContentLoaded', async () => {
       })
 
       Array.from(document.getElementsByClassName('welcome-pill-message')).map((item) => {
-        item.attributes.setNamedItem('value', ``)
+        item.attributes.value = ''
       })
 
-      Array.from(document.getElementsByTagName('welcome-pill-message')).map((item) => {
+      Array.from(document.getElementsByClassName('welcome-pill-message')).map((item) => {
         item.classList.add('hidden')
       })
 
