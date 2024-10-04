@@ -12,6 +12,11 @@ const updateUI = async (auth0, query) => {
   if (is_auth) {
     document.body.style.display = null;
 
+    let toast = document.getElementById('loginToastMessage');
+    if (toast) {
+      toast.style.display = "none";
+    }
+
     // if we have a redirect request, grab it and push the user over to that page they wanted to see
     var queryParams = new URLSearchParams(query);
     var redirectUri = queryParams.get("return");
@@ -31,13 +36,13 @@ const updateUI = async (auth0, query) => {
       item.classList.add('hide-auth-controls')
     })
 
-    Array.from(document.getElementsByClassName('welcome-pill-message')).map((item) => {
+    Array.from(document.getElementsByClassName('welcome-pill')).map((item) => {
       item.classList.remove('hide-auth-controls')
     })
 
-    Array.from(document.getElementsByClassName('logout-button')).map((item) => {
-      item.classList.remove('hide-auth-controls')
-    })
+    // Array.from(document.getElementsByClassName('logout-button')).map((item) => {
+    //   item.classList.remove('hide-auth-controls')
+    // })
 
     Array.from(document.getElementsByClassName('welcome-pill-message')).map((item) => {
       item.value = `Welcome, ${user.nickname}`
@@ -51,15 +56,15 @@ const updateUI = async (auth0, query) => {
     // $(".welcome-pill-message").hide();
     // $(".logout-button").hide();
 
-    Array.from(document.getElementsByClassName('logout-button')).map((item) => {
-      item.classList.add('hide-auth-controls')
-    })
+    // Array.from(document.getElementsByClassName('logout-button')).map((item) => {
+    //   item.classList.add('hide-auth-controls')
+    // })
 
     Array.from(document.getElementsByClassName('welcome-pill-message')).map((item) => {
       item.attributes.value = ''
     })
 
-    Array.from(document.getElementsByClassName('welcome-pill-message')).map((item) => {
+    Array.from(document.getElementsByClassName('welcome-pill')).map((item) => {
       item.classList.add('hide-auth-controls')
     })
 
@@ -120,7 +125,7 @@ const authenticate = () => {
 
         updateUI(auth0Client, query)
       }
-    } else if (window.location.href.includes("room_") || window.location.href.includes("paper_")) {
+    } else if (window.location.href.includes("room_") || window.location.href.includes("paper_") || window.location.href.includes("poster_")) {
       // window.location.href = `/year/2024/program/redirect?return=${window.location.pathname.slice(1)}`;
 
       window.location.href = "/year/2024/welcome?loginMsg=true";
@@ -188,7 +193,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   if (getUrlParameter('loginMsg')) {
     // $("#loginToastMessage").show();
-    document.getElementById('loginToastMessage').classList.remove('hidden')
+    // document.getElementById('loginToastMessage').classList.remove('hidden')
+    document.getElementById('loginToastMessage').style.display = "block";
   }
 
 

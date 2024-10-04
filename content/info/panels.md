@@ -78,6 +78,8 @@ When: Wednesday, October 16, 2024 1:30 PM-2:45 PM EDT (UTC-4)<br/>
 
 In 2004, Visual Analytics emerged as an outgrowth of scientific visualization and information visualization with a focus on the mechanisms of analytic reasoning facilitated by interactive visual interfaces. Now, twenty years later, this panel invites pioneers from the field of visual analytics to talk about the foundations of visual analytics, key works that helped define the field, and what they see as the emerging challenges for the next generation of visual analytics researchers.
 
+<br> <a href="https://jieqiongzhao.github.io/va20-panel/" target="_blank">Panel webpage</a>
+
 ## <a name="panel-quadri">(Yet Another) Evaluation Needed? A Panel Discussion on Evaluation Trends in Visualization</a>
 
 When: Thursday, October 17, 2024 10:15 AM-11:30 AM EDT (UTC-4)

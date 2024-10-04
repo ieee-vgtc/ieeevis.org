@@ -13,11 +13,11 @@ Dear IEEE VIS Community,
 
 We are very happy to announce that the IEEE VIS 2024 Conference will now take place at the wonderful Hilton Tampa Downtown! 
 
-Hotel Information: The Hilton Tampa Downtown is located at 211 N Tampa St, Tampa, FL 33602, 20 minutes from the Tampa International Airport in the heart of downtown. Although not by the beach, it is nearby by many wonderful activities, including a beautiful riverwalk, the Museum of Art, the children’s museum, the aquarium, and so much more! We are actively working to update the [Destination](/destination) page with additional information.
+Hotel Information: The Hilton Tampa Downtown is located at 211 N Tampa St, Tampa, FL 33602, 20 minutes from the Tampa International Airport in the heart of downtown. Although not by the beach, it is nearby by many wonderful activities, including a beautiful riverwalk, the Museum of Art, the children’s museum, the aquarium, and so much more! We are actively working to update the [Destination](/year/2024/destination) page with additional information.
 
-Hotel Rooms: You must make a NEW HOTEL RESERVATION. We have negotiated a price of $199 per night + 13.5% tax for rooms within our room block. Please visit the site below to book your room. Additional information about reservations can be found on our [Hotel Information](/info/registration/hotel-information) page.
+Hotel Rooms: You must make a NEW HOTEL RESERVATION. We have negotiated a price of $199 per night + 13.5% tax for rooms within our room block. Please visit the site below to book your room. Additional information about reservations can be found on our [Hotel Information](/year/2024/info/registration/hotel-information) page.
 
-<URL HERE>
+<!-- <URL HERE> -->
 
 Changes to Program: We have been able to preserve the conference program in its entirety. All events will occur at their previously scheduled time. The full schedule will be posted soon on [ieeevis.org](https://ieeevis.org).
 
@@ -30,9 +30,10 @@ Finally, we want to acknowledge the amazing work that went into making this move
 Pack your shorts, swimsuits, and a sweater (seriously, the a/c), and we’ll see you in Tampa!
 
 Sincerely,
+
 IEEE VIS 2024 General Chairs
 
-
+<hr />
 
 # Good news for IEEE VIS following Hurricane Helene
 

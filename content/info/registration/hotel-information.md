@@ -10,7 +10,7 @@ contact: "web@ieeevis.org"
 All in-person conference events for VIS 2024 will now be held in the **Hilton Tampa Downtown**.
 
 <p>
-  <img src="assets/photos/hilton/outdoor.jpg" />
+  <img src="../../assets/photos/hilton/outdoor.jpg" />
 </p>
 
 
