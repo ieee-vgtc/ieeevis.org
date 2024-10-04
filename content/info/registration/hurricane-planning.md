@@ -10,7 +10,7 @@ You can't have a conference in Florida during hurricane season without a little 
 
 ## Historical Context
 
-Since 1852, 62 tropical storms and 53 hurricanes have come within 100 miles of St. Pete Beach, with 16 tropical storms and 14 hurricanes occurring in October. Furthermore, the variation in size (typically 300 mi in diameter) and asymmetrical impact (the Northeast corner is most heavily impacted) of storms mean that some of those events would not have directly impacted the St. Pete Beach area. That is all to say a hurricane is not likely but certainly possible.
+Since 1852, 62 tropical storms and 53 hurricanes have come within 100 miles of Tampa, with 16 tropical storms and 14 hurricanes occurring in October. Furthermore, the variation in size (typically 300 mi in diameter) and asymmetrical impact (the Northeast corner is most heavily impacted) of storms mean that some of those events would not have directly impacted the Tampa area. That is all to say a hurricane is not likely but certainly possible.
 
 Learn more with the [NOAA Historical Hurricane Tracks](https://coast.noaa.gov/hurricanes/#map=6.78/27.725/-82.768&search=eyJzZWFyY2hTdHJpbmciOiJTYWludCBQZXRlIEJlYWNoLCBQaW5lbGxhcyBDb3VudHksIEZsb3JpZGEsIDMzNzA2LCBVU0EiLCJzZWFyY2hUeXBlIjoiZ2VvY29kZWQiLCJvc21JRCI6IjEyMTY4MjAiLCJjYXRlZ29yaWVzIjpbIkg1IiwiSDQiLCJIMyIsIkgyIiwiSDEiLCJUUyJdLCJ5ZWFycyI6W10sIm1vbnRocyI6W10sImVuc28iOltdLCJwcmVzc3VyZSI6eyJyYW5nZSI6WzAsMTAzMF0sImluY2x1ZGVVbmtub3duUHJlc3N1cmUiOnRydWV9LCJidWZmZXIiOjEwMCwiYnVmZmVyVW5pdCI6WyJNaWxlcyJdLCJzb3J0U2VsZWN0aW9uIjp7InZhbHVlIjoieWVhcnNfbmV3ZXN0IiwibGFiZWwiOiJZZWFyIChOZXdlc3QpIn0sImFwcGx5VG9BT0kiOnRydWUsImlzU3Rvcm1MYWJlbHNWaXNpYmxlIjp0cnVlfQ==).
 

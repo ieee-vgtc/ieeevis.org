@@ -405,12 +405,17 @@ const card_html = (paper) =>
               <div class="checkbox-bookmark fas  ${paper.bookmarked ? "selected" : ""}"
               style="display: block;position: absolute; top:-5px;right: 25px;">&#xf02e;</div>
               <h5 class="card-title">
-                 ${paper.award != "" ? '<span class="fas paper-award">&#xf559;</span>' : ""}
+                 ${paper.award != "" ? '<span class="fas paper-award" title="Awarded Paper">&#xf559;</span>' : ""}
                  <a href="${API.paperLink(paper)}" target="_blank" class="text-muted">
                   ${paper.title}
                   </a>
+                 ${paper.accessible_pdf ? '<span class="fas paper-award" title="The authors made this paper screen-reader accessible in the IEEE Digital Library.">&#xf29a;</span>' : ""}
+                 ${paper.preprint_link != "" ? '<span class="fas paper-award" title="This paper has a preprint available online.">&#xf09c;</span>' : ""}
+                 ${paper.open_access_supplemental_link != "" ? '<span class="fas paper-award" title="This paper has additional material, like demos or experimental data, available online.">&#xf0c6;</span>' : ""}
               </h5>
-                            <span class="session-type" style="color: ${paper.paper_type_color }">${paper.paper_type_name }</span>
+              <span class="session-type" style="color: ${paper.paper_type_color }">
+                ${paper.paper_type_name }
+              </span>
 
               <h6 class="card-subtitle text-muted" style="text-align: left;">
                ${author_detail(paper, render_mode !== MODE.mini)}
@@ -419,7 +424,7 @@ const card_html = (paper) =>
               ${paperSessionDetail(paper)}
 
 
-              <div>${card_image(paper, render_mode !== MODE.mini, true)}</div>
+              <div>${card_image(paper, render_mode !== MODE.mini)}</div>
               <div class="card-footer">&nbsp</div>
             </div>
 
@@ -471,9 +476,7 @@ const card_poster_html = (poster) =>
                 </a>
               </h5>
               <h6 class="card-subtitle text-muted" style="text-align: left;">
-                      ${poster.authors.map(
-    s => `<a href="posters.html?filter=authors&search=${s}">${s}</a>`)
-    .join(", ")}
+                ${author_detail(poster, render_mode !== MODE.mini)}
               </h6>
 
               <div class="card-subtitle text-muted mt-2" style="text-align: left;">

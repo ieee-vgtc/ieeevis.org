@@ -10,7 +10,7 @@ The IEEE VIS conference is excited to support our VISKids and young families!
 
 VISKids has provided child care grants to VIS conference attendees since 2015. As part of Inclusivity and Diversity at IEEE VIS, VISKids also organize activities at the conference, and has a meeting room at the site. The activities and the room are open to everyone, not just awardees of the child care grant program.
 
-St. Pete Beach is a child-friendly city and Trade Winds Island Grand Resort is a great place to visit with kids! With these initiatives, we hope to facilitate the attendance of those with young families.
+Tampa is a child-friendly city that is a great place to visit with kids! With these initiatives, we hope to facilitate the attendance of those with young families.
 
 ## VISKids Child Care Grants 
 Grants of up to $750 per family are available for VIS attendees who incur extra expenses while participating in VIS. The grants will be given as a reimbursement for expenses but attendees are responsible for making their own arrangements for child care. If requests exceed available funding, or if additional funding becomes available, preference will be given to students and early career attendees who are presenting at the conference.

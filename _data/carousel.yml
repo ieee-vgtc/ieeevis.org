@@ -1,24 +1,19 @@
-- title: "Registration"
-  description: "Full week, one day, and two day registrations are now available!"
+- title: "Location Update"
+  description: "IEEE VIS 2024 will now be held in the Hilton Downtown Tampa"
   button-text: "Register Now"
-  button-url: "/info/registration/conference-registration"
-  image: "ClearwaterBeachWalkAerial.jpg"
+  button-url: "/info/registration/hotel-information"
+  image: "2024-hilton.jpg"
   active: "active"
 
-- title: "The Road to VIS 2024 - Decisions"
-  button-text: "Latest Blog Post"
-  button-url: "/blog/vis-2024-OPC-blog-decisions_2"
-  image: "road_to_vis24.png"
+# - title: "The Road to VIS 2024 - Decisions"
+#   button-text: "Latest Blog Post"
+#   button-url: "/blog/vis-2024-OPC-blog-decisions_2"
+#   image: "road_to_vis24.png"
 
 - title: "Keynote Speaker: Dr. Bill Pike"
   button-text: "Read More"
   button-url: "/info/keynote-speaker"
   image: "bill-pike-carousel.jpg"
-
-- title: "IEEE VIS 2024 Swag Shop Now Open!"
-  button-text: "Read More"
-  button-url: "/info/swag"
-  image: "vis2024-swag-carousel.png"
 
 - title: "Capstone Speaker: Professor Catherine D'Ignazio"
   button-text: "Read More"
@@ -29,6 +24,12 @@
   button-text: "Become a supporter"
   button-url: "/supporters"
   image: "09212024-vis-supporters.png"
+
+- title: "IEEE VIS 2024 Swag Shop Now Open!"
+  button-text: "Read More"
+  button-url: "/info/swag"
+  image: "vis2024-swag-carousel.png"
+
 
 # - title: "IEEE VIS 2024 in St. Pete Beach, Florida"
 #   image: "florida_splash_image-small.png"

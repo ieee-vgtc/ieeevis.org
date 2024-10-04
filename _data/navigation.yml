@@ -45,10 +45,10 @@ menu:
                   is_new: false
                 - text: "Week-at-a-Glance"
                   url: "/year/2024/info/week-at-a-glance"
-                  is_new: true
+                  is_new: false
                 - text: "IEEE Vis Swag Shop"
                   url: "/year/2024/info/swag"
-                  is_new: true
+                  is_new: false
                 - text: "HETUG Watch Party"
                   url: "https://public.tableau.com/app/profile/roshnigohil/viz/VIS2024XTUGWatchParties/VIS2024XTUGWatchParties"
                   is_external: true
@@ -71,16 +71,16 @@ menu:
               links:
                 - text: "Hotel Information"
                   url: "/year/2024/info/registration/hotel-information"
-                  is_new: false
+                  is_new: true
                 - text: "Tampa Destination Guide"
                   url: "/year/2024/destination"
-                  is_new: false
+                  is_new: true
                 - text: "Visas"
                   url: "/year/2024/info/registration/travel-visas"
                   is_new: false
                 - text: "🌀 Weather Information"
                   url: "/year/2024/info/registration/hurricane-planning"
-                  is_new: true
+                  is_new: false
 
           - heading: "Code of Conduct"
             heading_url: "/year/2024/info/inclusion/code-of-conduct"

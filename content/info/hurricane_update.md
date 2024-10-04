@@ -4,6 +4,35 @@ layout: page
 permalink: info/hurricane_updates
 ---
 
+# IEEE VIS 2024 New Venue Revealed / Prompt Action Required
+
+*Posted on Tuesday, October 4 2024 at 2:00pm EDT*
+
+
+Dear IEEE VIS Community,
+
+We are very happy to announce that the IEEE VIS 2024 Conference will now take place at the wonderful Hilton Tampa Downtown! 
+
+Hotel Information: The Hilton Tampa Downtown is located at 211 N Tampa St, Tampa, FL 33602, 20 minutes from the Tampa International Airport in the heart of downtown. Although not by the beach, it is nearby by many wonderful activities, including a beautiful riverwalk, the Museum of Art, the children’s museum, the aquarium, and so much more! We are actively working to update the [Destination](/destination) page with additional information.
+
+Hotel Rooms: You must make a NEW HOTEL RESERVATION. We have negotiated a price of $199 per night + 13.5% tax for rooms within our room block. Please visit the site below to book your room. Additional information about reservations can be found on our [Hotel Information](/info/registration/hotel-information) page.
+
+<URL HERE>
+
+Changes to Program: We have been able to preserve the conference program in its entirety. All events will occur at their previously scheduled time. The full schedule will be posted soon on [ieeevis.org](https://ieeevis.org).
+
+Existing Reservations at TradeWinds Resorts: TradeWinds representatives informed us that all reservations, whether in our block or not, will be automatically canceled, and any deposit will be refunded. However, the refund may take several weeks to process. If you have questions, contact them at +1 800-360-4016 or GroupReservations@twresort.com.
+
+For those with non-refundable hotel reservations elsewhere: Unfortunately, there is nothing we can do to help with your reservation directly. The Hilton is an approximately 40-minute drive from the TradeWinds property. We recommend you try to get a refund from your hotel by contacting them by phone and contacting any travel insurance or credit card company you have used.
+
+Finally, we want to acknowledge the amazing work that went into making this move happen. In particular, the team at the IEEE Computer Society, the Program Chairs, the Finance Chairs, the Publicity Chairs, the Web Chairs, and the Hilton staff who helped us pivot in what has to be record time. We are grateful to them for saving IEEE VIS 2024. We also want to thank you for your patience during this process.
+
+Pack your shorts, swimsuits, and a sweater (seriously, the a/c), and we’ll see you in Tampa!
+
+Sincerely,
+IEEE VIS 2024 General Chairs
+
+
 
 # Good news for IEEE VIS following Hurricane Helene
 
@@ -31,7 +60,7 @@ IEEE VIS 2024 General Chairs
 *Posted on Friday, September 27 2024 at 8:45pm EDT*
 
 
-Dear Visualization Community,
+Dear IEEE VIS Community,
 
 
 This evening, members of the core committee, VEC, and IEEE met with the TradeWinds Island Grand Hotel manager for an update on the status of the damages. Unfortunately, the damages are significant enough that we will be unable to hold IEEE VIS 2024 on their property, and we have invoked force majeure to cancel the contract.
@@ -60,6 +89,8 @@ IEEE VIS 2024 General Chairs
 # Update on the impact of Hurricane Helene
 
 *Posted on Friday, September 27 2024 at 12:42 EDT*
+
+Dear IEEE VIS Community,
 
 As you may have heard, Hurricane Helene had a significant impact on Florida. Although Tampa / St. Pete did not receive a direct hit, the storm surge caused significant flooding. The good news is that they are used to dealing with these situations in Florida.
 **At this point, we still plan to go ahead with the in-person portion of the conference at the TradeWinds Island Grand.**

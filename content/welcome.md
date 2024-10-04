@@ -5,7 +5,7 @@ permalink: /year/2024/welcome
 contact: general_chair@ieeevis.org
 ---
 
-We welcome you to IEEE VIS 2024, which will be held at the TradeWinds Island Grand Beach Resort in St. Pete Beach, Florida! St. Pete Beach, with its enchanting sunsets and warm breezes, serves as the perfect backdrop to inspire creativity and foster collaboration within the visualization community.
+We welcome you to IEEE VIS 2024, which will be held at the Hilton Tampa Downtown in Tampa, Florida! Downtown Tampa, with its vibrant metropolitan atmosphere, serves as the perfect backdrop to inspire creativity and foster collaboration within the visualization community.
 
 IEEE VIS 2024 will be the year’s premier forum for advances in theory, methods, and applications of visualization and visual analytics. The conference will convene an international community of researchers and practitioners from universities, government, and industry to exchange recent findings on the design and use of visualization tools.
 
