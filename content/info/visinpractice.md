@@ -23,7 +23,7 @@ VisInPractice 2024 will be a half-day event taking place on Monday, October 14th
 
 10:15AM - 11:00AM Panel: How do we close the gap between data visualization research and practitioners  - [Panelists TBD]
 
-11:00AM - 11:30PM Demo Jam: [Kuhu Gupta](https://www.illumio.com/blog-authors/kuhu-gupta), [Rosa Romero Gómez](https://theorg.com/org/graphicacy/org-chart/rosa-romero-gomez), [Gerg Abram](https://tacc.utexas.edu/about/staff-directory/gregory-abram/)
+11:00AM - 11:30PM Demo Jam: [Kuhu Gupta](https://www.illumio.com/blog-authors/kuhu-gupta), [Rosa Romero Gómez](https://theorg.com/org/graphicacy/org-chart/rosa-romero-gomez), [Greg Abram](https://tacc.utexas.edu/about/staff-directory/gregory-abram/)
 
 - - -
 
