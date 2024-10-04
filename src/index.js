@@ -4,6 +4,69 @@ import jQuery from 'jquery';
 import Vue from 'vue'
 import { createAuth0Client } from "@auth0/auth0-spa-js";
 
+
+
+const updateUI = async (auth0, query) => {
+  const is_auth = await auth0.isAuthenticated();
+  //console.log("are we auth?", is_auth)
+  if (is_auth) {
+    document.body.style.display = null;
+
+    // if we have a redirect request, grab it and push the user over to that page they wanted to see
+    var queryParams = new URLSearchParams(query);
+    var redirectUri = queryParams.get("return");
+    if (redirectUri) {
+      //console.log("we were gonna redirect here to ", "/" + redirectUri)
+      window.location.href = "/" + redirectUri; // important: this also strips out queryParams so we don't infinitely redirect :)
+    }
+
+    // unused atm, hook up later; this won't get executed since we change location above
+    const user = await auth0.getUser();
+    // $(".login-button").hide();
+    // $(".welcome-pill-message").show();
+    // $(".logout-button").show();
+    // $(".welcome-pill-message").prop("value", `Welcome, ${user.nickname}`)
+
+    Array.from(document.getElementsByClassName('login-button')).map((item) => {
+      item.classList.add('hidden')
+    })
+
+    Array.from(document.getElementsByClassName('welcome-pill-message')).map((item) => {
+      item.classList.remove('hidden')
+    })
+
+    Array.from(document.getElementsByClassName('logout-button')).map((item) => {
+      item.classList.remove('hidden')
+    })
+
+    Array.from(document.getElementsByClassName('welcome-pill-message')).map((item) => {
+      item.value = `Welcome, ${user.nickname}`
+    })
+
+  } else {
+    // $(".login-button").show();
+    Array.from(document.getElementsByClassName('login-button')).map((item) => {
+      item.classList.remove('hidden')
+    })
+    // $(".welcome-pill-message").hide();
+    // $(".logout-button").hide();
+
+    Array.from(document.getElementsByClassName('logout-button')).map((item) => {
+      item.classList.add('hidden')
+    })
+
+    Array.from(document.getElementsByClassName('welcome-pill-message')).map((item) => {
+      item.attributes.value = ''
+    })
+
+    Array.from(document.getElementsByClassName('welcome-pill-message')).map((item) => {
+      item.classList.add('hidden')
+    })
+
+  }
+};
+
+
 const authenticate = () => {
   const auth0_domain = 'ieeevis.us.auth0.com'
   const auth0_client_id = 'G8onz2A6h59RmuYFUbSLpGmxsGHOyPOv'
@@ -76,6 +139,15 @@ const authenticate = () => {
       })
     })
 
+
+    Array.from(document.getElementsByClassName('logout-button')).forEach((item) => {
+      item.addEventListener('click', async () => {
+        await auth0Client.logout({
+          redirect_uri: window.location.href,
+        });
+      })
+    })
+
     // document.getElementsByClassName('login-button').addEventListener('click', async () => {
     //   await auth0Client.loginWithPopup();
     //   updateUI(auth0Client, query);
@@ -86,16 +158,6 @@ const authenticate = () => {
     //     redirect_uri: window.location.href,
     //   });
     // });
-
-    Array.from(document.getElementsByClassName('logout-button')).forEach((item) => {
-      item.addEventListener('click', async () => {
-        await auth0Client.logout({
-          redirect_uri: window.location.href,
-        });
-      })
-    })
-
-
 
   })
 }
@@ -370,65 +432,6 @@ document.addEventListener('DOMContentLoaded', async () => {
    * Authentication
    */
 
-  const updateUI = async (auth0, query) => {
-    const is_auth = await auth0.isAuthenticated();
-    //console.log("are we auth?", is_auth)
-    if (is_auth) {
-      document.body.style.display = null;
-
-      // if we have a redirect request, grab it and push the user over to that page they wanted to see
-      var queryParams = new URLSearchParams(query);
-      var redirectUri = queryParams.get("return");
-      if (redirectUri) {
-        //console.log("we were gonna redirect here to ", "/" + redirectUri)
-        window.location.href = "/" + redirectUri; // important: this also strips out queryParams so we don't infinitely redirect :)
-      }
-
-      // unused atm, hook up later; this won't get executed since we change location above
-      const user = await auth0.getUser();
-      // $(".login-button").hide();
-      // $(".welcome-pill-message").show();
-      // $(".logout-button").show();
-      // $(".welcome-pill-message").prop("value", `Welcome, ${user.nickname}`)
-
-      Array.from(document.getElementsByClassName('login-button')).map((item) => {
-        item.classList.add('hidden')
-      })
-
-      Array.from(document.getElementsByClassName('welcome-pill-message')).map((item) => {
-        item.classList.remove('hidden')
-      })
-
-      Array.from(document.getElementsByClassName('logout-button')).map((item) => {
-        item.classList.remove('hidden')
-      })
-
-      Array.from(document.getElementsByClassName('welcome-pill-message')).map((item) => {
-        item.value = `Welcome, ${user.nickname}`
-      })
-
-    } else {
-      // $(".login-button").show();
-      Array.from(document.getElementsByClassName('login-button')).map((item) => {
-        item.classList.remove('hidden')
-      })
-      // $(".welcome-pill-message").hide();
-      // $(".logout-button").hide();
-
-      Array.from(document.getElementsByClassName('logout-button')).map((item) => {
-        item.classList.add('hidden')
-      })
-
-      Array.from(document.getElementsByClassName('welcome-pill-message')).map((item) => {
-        item.attributes.value = ''
-      })
-
-      Array.from(document.getElementsByClassName('welcome-pill-message')).map((item) => {
-        item.classList.add('hidden')
-      })
-
-    }
-  };
 
   // automatically highlight TOC sidebar entries
   const navItems = Array.from(document.querySelectorAll('.sidebar-toc li a'));
