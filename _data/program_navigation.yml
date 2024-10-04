@@ -22,41 +22,41 @@
 navbar_metadata:
   display: true
   label: 'Content'
-  use_auth0: false
+  use_auth0: true
   
 
 
 schedule:
-  display: false
+  display: true
   text: "Schedule"
   url: "/year/2024/program/calendar"
 
 all_events:
-  display: false
+  display: true
   text: "All Events"
   url: "/year/2024/program/events"
 
 papers:
-  display: false
+  display: true
   text: "Accepted Papers"
   url: "/year/2024/program/papers.html"
 
 posters:
-  display: false
+  display: true
   text: "Posters"
   url: "/year/2024/program/posters.html"
 
 workshops:
-  display: false
+  display: true
   text: "Workshops"
   url: "/year/2024/program/workshops.html"
 
 speakers:
-  display: false
+  display: true
   text: "Speakers"
   url: "/year/2024/program/speakers.html"
 
 awards:
-  display: false
+  display: true
   text: "Awards"
   url: "/year/2024/program/awards/awards.html"
