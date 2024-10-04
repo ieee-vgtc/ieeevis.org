@@ -125,7 +125,8 @@ document.addEventListener('DOMContentLoaded', async () => {
   // console.log("URL parameter is ", getUrlParameter('loginMsg'), " and is it true? ", getUrlParameter('loginMsg') == true);
 
   if (getUrlParameter('loginMsg')) {
-    $("#loginToastMessage").show();
+    // $("#loginToastMessage").show();
+    document.getElementById('loginToastMessage').classList.remove('hidden')
   }
 
 
@@ -390,10 +391,41 @@ document.addEventListener('DOMContentLoaded', async () => {
       // $(".logout-button").show();
       // $(".welcome-pill-message").prop("value", `Welcome, ${user.nickname}`)
 
+      Array.from(document.getElementsByClassName('login-button')).map((item) => {
+        item.classList.add('hidden')
+      })
+
+      Array.from(document.getElementsByTagName('welcome-pill-message')).map((item) => {
+        item.classList.remove('hidden')
+      })
+
+      Array.from(document.getElementsByClassName('logout-button')).map((item) => {
+        item.classList.remove('hidden')
+      })
+
+      Array.from(document.getElementsByClassName('welcome-pill-message')).map((item) => {
+        item.attributes.setNamedItem('value', `Welcome, ${user.nickname}`)
+      })
+
     } else {
       // $(".login-button").show();
+      Array.from(document.getElementsByClassName('login-button')).map((item) => {
+        item.classList.remove('hidden')
+      })
       // $(".welcome-pill-message").hide();
       // $(".logout-button").hide();
+
+      Array.from(document.getElementsByClassName('logout-button')).map((item) => {
+        item.classList.add('hidden')
+      })
+
+      Array.from(document.getElementsByClassName('welcome-pill-message')).map((item) => {
+        item.attributes.setNamedItem('value', ``)
+      })
+
+      Array.from(document.getElementsByTagName('welcome-pill-message')).map((item) => {
+        item.classList.add('hidden')
+      })
 
     }
   };
