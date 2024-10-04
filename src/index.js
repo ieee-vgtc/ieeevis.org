@@ -6,17 +6,16 @@ import { createAuth0Client } from "@auth0/auth0-spa-js";
 
 
 
-let toast = document.getElementById('loginToastMessage');
-if (toast) {
-  toast.style.display = "none";
-}
 const updateUI = async (auth0, query) => {
   const is_auth = await auth0.isAuthenticated();
   //console.log("are we auth?", is_auth)
   if (is_auth) {
     document.body.style.display = null;
 
-    document.getElementById('loginToastMessage').style.display = "none";
+    let toast = document.getElementById('loginToastMessage');
+    if (toast) {
+      toast.style.display = "none";
+    }
 
     // if we have a redirect request, grab it and push the user over to that page they wanted to see
     var queryParams = new URLSearchParams(query);
