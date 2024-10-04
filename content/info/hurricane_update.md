@@ -17,7 +17,7 @@ Hotel Information: The Hilton Tampa Downtown is located at 211 N Tampa St, Tampa
 
 Hotel Rooms: You must make a NEW HOTEL RESERVATION. We have negotiated a price of $199 per night + 13.5% tax for rooms within our room block. Please visit the site below to book your room. Additional information about reservations can be found on our [Hotel Information](/info/registration/hotel-information) page.
 
-<URL HERE>
+<!-- <URL HERE> -->
 
 Changes to Program: We have been able to preserve the conference program in its entirety. All events will occur at their previously scheduled time. The full schedule will be posted soon on [ieeevis.org](https://ieeevis.org).
 
@@ -30,9 +30,10 @@ Finally, we want to acknowledge the amazing work that went into making this move
 Pack your shorts, swimsuits, and a sweater (seriously, the a/c), and we’ll see you in Tampa!
 
 Sincerely,
+
 IEEE VIS 2024 General Chairs
 
-
+<hr />
 
 # Good news for IEEE VIS following Hurricane Helene
 
