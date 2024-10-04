@@ -781,17 +781,17 @@ function populateDays(calendarSelection, config) {
 function populateRooms(calendarSelection, roomNames, day) {
   // TODO: use room names - NEED TO CHANGE
   let roomData = [
-    { link: 'bayshorefoyer', roomId: 'bayshorefoyer', text: "Bayshore Foyer" },
-    { link: 'bayshoreplenary', roomId: 'bayshoreplenary', text: "Bayshore I + II + III" },
-    { link: 'bayshore1', roomId: 'bayshore1', text: "Bayshore I" },
-    { link: 'bayshore2', roomId: 'bayshore2', text: "Bayshore II" },
-    { link: 'bayshore3', roomId: 'bayshore3', text: "Bayshore III" },
-    { link: 'bayshore5', roomId: 'bayshore5', text: "Bayshore V" },
-    { link: 'bayshore6', roomId: 'bayshore6', text: "Bayshore VI" },
-    { link: 'bayshore7', roomId: 'bayshore7', text: "Bayshore VII" },
-    { link: 'palmaceia234', roomId: 'palmaceia234', text: "Palma Ceia II+III+IV" },
-    { link: 'palmaceia1', roomId: 'palmaceia1', text: "Palma Ceia I " },
-    { link: 'esplanadesuites', roomId: 'esplanadesuites', text: "Esplanade Suites I + II + III" }
+    { link: 'room_bayshorefoyer.html', roomId: 'bayshorefoyer', text: "Bayshore Foyer" },
+    { link: 'room_bayshoreplenary.html', roomId: 'bayshoreplenary', text: "Bayshore I + II + III" },
+    { link: 'room_bayshore1.html', roomId: 'bayshore1', text: "Bayshore I" },
+    { link: 'room_bayshore2.html', roomId: 'bayshore2', text: "Bayshore II" },
+    { link: 'room_bayshore3.html', roomId: 'bayshore3', text: "Bayshore III" },
+    { link: 'room_bayshore5.html', roomId: 'bayshore5', text: "Bayshore V" },
+    { link: 'room_bayshore6.html', roomId: 'bayshore6', text: "Bayshore VI" },
+    { link: 'room_bayshore7.html', roomId: 'bayshore7', text: "Bayshore VII" },
+    { link: 'room_palmaceia234.html', roomId: 'palmaceia234', text: "Palma Ceia II+III+IV" },
+    { link: 'room_palmaceia1.html', roomId: 'palmaceia1', text: "Palma Ceia I " },
+    { link: 'room_esplanadesuites.html', roomId: 'esplanadesuites', text: "Esplanade Suites I + II + III" }
   ];
 
 
@@ -802,50 +802,50 @@ function populateRooms(calendarSelection, roomNames, day) {
     case "Sunday":
     case "Monday":
       roomData = [
-        { link: 'bayshore1', roomId: 'bayshore1', text: "Bayshore I" },
-        { link: 'bayshore2', roomId: 'bayshore2', text: "Bayshore II" },
-        { link: 'bayshore3', roomId: 'bayshore3', text: "Bayshore III" },
-        { link: 'bayshore5', roomId: 'bayshore5', text: "Bayshore V" },
-        { link: 'bayshore6', roomId: 'bayshore6', text: "Bayshore VI" },
-        { link: 'bayshore7', roomId: 'bayshore7', text: "Bayshore VII" },
-        { link: 'esplanadesuites', roomId: 'esplanadesuites', text: "Esplanade Suites I + II + III" }
+        { link: 'room_bayshore1.html', roomId: 'bayshore1', text: "Bayshore I" },
+        { link: 'room_bayshore2.html', roomId: 'bayshore2', text: "Bayshore II" },
+        { link: 'room_bayshore3.html', roomId: 'bayshore3', text: "Bayshore III" },
+        { link: 'room_bayshore5.html', roomId: 'bayshore5', text: "Bayshore V" },
+        { link: 'room_bayshore6.html', roomId: 'bayshore6', text: "Bayshore VI" },
+        { link: 'room_bayshore7.html', roomId: 'bayshore7', text: "Bayshore VII" },
+        { link: 'room_esplanadesuites.html', roomId: 'esplanadesuites', text: "Esplanade Suites I + II + III" }
       ];
       break;
     case "Tuesday":
       roomData = [
-        { link: 'bayshorefoyer', roomId: 'bayshorefoyer', text: "Bayshore Foyer" },
-        { link: 'bayshoreplenary', roomId: 'bayshoreplenary', text: "Bayshore I + II + III" },
-        { link: 'palmaceia234', roomId: 'palmaceia234', text: "Palma Ceia II+III+IV" },
-        { link: 'palmaceia1', roomId: 'palmaceia1', text: "Palma Ceia I " },
+        { link: 'room_bayshorefoyer.html', roomId: 'bayshorefoyer', text: "Bayshore Foyer" },
+        { link: 'room_bayshoreplenary.html', roomId: 'bayshoreplenary', text: "Bayshore I + II + III" },
+        { link: 'room_palmaceia234.html', roomId: 'palmaceia234', text: "Palma Ceia II+III+IV" },
+        { link: 'room_palmaceia1.html', roomId: 'palmaceia1', text: "Palma Ceia I " },
       ];
       break;
     case "Wednesday":
       roomData = [
-        { link: 'bayshore1', roomId: 'bayshore1', text: "Bayshore I" },
-        { link: 'bayshore2', roomId: 'bayshore2', text: "Bayshore II" },
-        { link: 'bayshore3', roomId: 'bayshore3', text: "Bayshore III" },
-        { link: 'bayshore5', roomId: 'bayshore5', text: "Bayshore V" },
-        { link: 'bayshore6', roomId: 'bayshore6', text: "Bayshore VI" },
-        { link: 'bayshore7', roomId: 'bayshore7', text: "Bayshore VII" },
-        { link: 'palmaceia1', roomId: 'palmaceia1', text: "Palma Ceia I " }
+        { link: 'room_bayshore1.html', roomId: 'bayshore1', text: "Bayshore I" },
+        { link: 'room_bayshore2.html', roomId: 'bayshore2', text: "Bayshore II" },
+        { link: 'room_bayshore3.html', roomId: 'bayshore3', text: "Bayshore III" },
+        { link: 'room_bayshore5.html', roomId: 'bayshore5', text: "Bayshore V" },
+        { link: 'room_bayshore6.html', roomId: 'bayshore6', text: "Bayshore VI" },
+        { link: 'room_bayshore7.html', roomId: 'bayshore7', text: "Bayshore VII" },
+        { link: 'room_palmaceia1.html', roomId: 'palmaceia1', text: "Palma Ceia I " }
       ];
       break;
     case "Thursday":
       roomData = [
-        { link: 'bayshore1', roomId: 'bayshore1', text: "Bayshore I" },
-        { link: 'bayshore2', roomId: 'bayshore2', text: "Bayshore II" },
-        { link: 'bayshore3', roomId: 'bayshore3', text: "Bayshore III" },
-        { link: 'bayshore5', roomId: 'bayshore5', text: "Bayshore V" },
-        { link: 'bayshore6', roomId: 'bayshore6', text: "Bayshore VI" },
-        { link: 'bayshore7', roomId: 'bayshore7', text: "Bayshore VII" }
+        { link: 'room_bayshore1.html', roomId: 'bayshore1', text: "Bayshore I" },
+        { link: 'room_bayshore2.html', roomId: 'bayshore2', text: "Bayshore II" },
+        { link: 'room_bayshore3.html', roomId: 'bayshore3', text: "Bayshore III" },
+        { link: 'room_bayshore5.html', roomId: 'bayshore5', text: "Bayshore V" },
+        { link: 'room_bayshore6.html', roomId: 'bayshore6', text: "Bayshore VI" },
+        { link: 'room_bayshore7.html', roomId: 'bayshore7', text: "Bayshore VII" }
       ];
       break;
     case "Friday":
       roomData = [
-        { link: 'bayshoreplenary', roomId: 'bayshoreplenary', text: "Bayshore I + II + III" },
-        { link: 'bayshore5', roomId: 'bayshore5', text: "Bayshore V" },
-        { link: 'bayshore6', roomId: 'bayshore6', text: "Bayshore VI" },
-        { link: 'bayshore7', roomId: 'bayshore7', text: "Bayshore VII" }
+        { link: 'room_bayshoreplenary.html', roomId: 'bayshoreplenary', text: "Bayshore I + II + III" },
+        { link: 'room_bayshore5.html', roomId: 'bayshore5', text: "Bayshore V" },
+        { link: 'room_bayshore6.html', roomId: 'bayshore6', text: "Bayshore VI" },
+        { link: 'room_bayshore7.html', roomId: 'bayshore7', text: "Bayshore VII" }
       ];
       break;
   }
