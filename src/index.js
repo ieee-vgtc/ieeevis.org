@@ -188,7 +188,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   if (getUrlParameter('loginMsg')) {
     // $("#loginToastMessage").show();
-    document.getElementById('loginToastMessage').classList.remove('hidden')
+    // document.getElementById('loginToastMessage').classList.remove('hidden')
+    document.getElementById('loginToastMessage').style.display = "block";
   }
 
 
