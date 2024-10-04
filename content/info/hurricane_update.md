@@ -6,7 +6,7 @@ permalink: info/hurricane_updates
 
 # IEEE VIS 2024 New Venue Revealed / Prompt Action Required
 
-*Posted on Tuesday, October 4 2024 at 2:00pm EDT*
+*Posted on Tuesday, October 4 2024 at 11:00am EDT*
 
 
 Dear IEEE VIS Community,

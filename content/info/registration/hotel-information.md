@@ -9,13 +9,18 @@ contact: "web@ieeevis.org"
 
 All in-person conference events for VIS 2024 will now be held in the **Hilton Tampa Downtown**.
 
+<p>
+  <img src="assets/photos/hilton/outdoor.jpg" />
+</p>
+
+
 # Conference Hotel
 
-The conference rate for the base room is **$199 per night + 13.5% tax** (~$226/night). The cutoff date for reservations under this rate is **October 11, 2024**. Hilton Honors members will receive free WiFi access. The booking includes an _optional_ $25 Urban Destination Fee, which provides a $30 food and beverage credit.
+The conference rate for the base room at the **Hilton Tampa Downtown** is **$199 per night + 13.5% tax** (~$226/night). The cutoff date for reservations under this rate is **October 11, 2024**. Hilton Honors members will receive free WiFi access. The booking includes an _optional_ $25 Urban Destination Fee, which provides a $30 food and beverage credit.
 
 Staying in the conference hotel has a lot of advantages. In addition to having access to all of the hotel's amenities, having participants onsite, improves the conference experience and helps cover the facility costs. Because of this, we ask you to book the hotel only via the link below.
 
-<a href="https://book.passkey.com/go/IEEE1024" class="button" target="new_window">Book your VIS 2024 hotel room</a>
+<a href="https://book.passkey.com/go/IEEE1024" class="button" target="new_window">Book your VIS 2024 hotel room at the Hilton Tampa Downtown</a>
 
 
 ## FAQ
