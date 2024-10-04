@@ -2,26 +2,32 @@
 layout: default
 ---
 
+
+{% include toast.html
+title="You must log in to access conference data. Please click the login button in the top right of the page."
+description=""
+%}
+
 {% include alert.html
-    title="Important Hurricane Information from General Chairs (Updated Oct. 1 at 5:00pm EDT)"
-    description=""
-    title-url="https://virtual.ieeevis.org"
-    button-text="Read the message"
-    button-url="/info/hurricane_updates" %}
+title="Important Hurricane Information from General Chairs (Updated Oct. 1 at 5:00pm EDT)"
+description=""
+title-url="https://virtual.ieeevis.org"
+button-text="Read the message"
+button-url="/info/hurricane_updates" %}
 
 
 {% include main-banner.html
-    image-src="/assets/vi2024_logo-v2-trim.png"
-    image-alt="VIS 2024 Logo"
-    description="The premier forum for advances in visualization and visual analytics"
-    event-date="October 13-18"
-    event-location="St. Pete Beach, Florida, USA" %}
+image-src="/assets/vi2024_logo-v2-trim.png"
+image-alt="VIS 2024 Logo"
+description="The premier forum for advances in visualization and visual analytics"
+event-date="October 13-18"
+event-location="St. Pete Beach, Florida, USA" %}
 
 
 
 {% include welcome-letter.html
-    image-src="https://ieeevis.b-cdn.net/vis_2024/North_Shore_Sunrise_002.jpg"
-    image-alt="A photo of Sunrise on the North Shore of St. Pete Beach" %}
+image-src="https://ieeevis.b-cdn.net/vis_2024/North_Shore_Sunrise_002.jpg"
+image-alt="A photo of Sunrise on the North Shore of St. Pete Beach" %}
 
 
 <!--div class="main-card--container container mt-16 md:mt-24">
@@ -51,45 +57,42 @@ layout: default
 </div-->
 
 {% include supporters.html
-    title="IEEE VIS is made possible by our supporters."
-    description="Our generous supporters help to fund our diversity and inclusion
-    scholarship, childcare grants and more. Participate in IEEE VIS by supporting and exhibiting at the conference."
-    button-text="Become a Supporter"
-    button-link="/year/2024/supporters" %}
+title="IEEE VIS is made possible by our supporters."
+description="Our generous supporters help to fund our diversity and inclusion
+scholarship, childcare grants and more. Participate in IEEE VIS by supporting and exhibiting at the conference."
+button-text="Become a Supporter"
+button-link="/year/2024/supporters" %}
 
 <div class="bg-gray-200">
     {% include photo-grid.html
-        src1="/assets/photos/datacardgame.jpg"
-        alt1="Data physicalization card game activity. Photo credit: Bon Adriel Aseniero."
-        url1="/year/2024/info/week-at-a-glance"
+    src1="/assets/photos/datacardgame.jpg"
+    alt1="Data physicalization card game activity. Photo credit: Bon Adriel Aseniero."
+    url1="/year/2024/info/week-at-a-glance"
 
-        src2="/assets/photos/poster_session.PNG"
-        alt2="Photo credit: Bon Adriel Aseniero."
-        url2="/year/2024/info/week-at-a-glance"
+    src2="/assets/photos/poster_session.PNG"
+    alt2="Photo credit: Bon Adriel Aseniero."
+    url2="/year/2024/info/week-at-a-glance"
 
-        src3="/assets/photos/teaser-2019-infovis-1210.png"
-        alt3="From Rathore et al., 'Estimating Color-Concept Associations from Image Statistics'"
-        url3="/year/2024/info/week-at-a-glance"
+    src3="/assets/photos/teaser-2019-infovis-1210.png"
+    alt3="From Rathore et al., 'Estimating Color-Concept Associations from Image Statistics'"
+    url3="/year/2024/info/week-at-a-glance"
 
-        src4="/assets/photos/teaser-2019-short-1060.jpg"
-        alt4="From Günther et al., 'scenery: Flexible Virtual Reality Visualization on the Java VM' "
-        url4="/year/2024/info/week-at-a-glance"
+    src4="/assets/photos/teaser-2019-short-1060.jpg"
+    alt4="From Günther et al., 'scenery: Flexible Virtual Reality Visualization on the Java VM' "
+    url4="/year/2024/info/week-at-a-glance"
 
-        src5="/assets/photos/presentation.jpg"
-        alt5="Photo credit: Bon Adriel Aseniero."
-        url5="/year/2024/info/week-at-a-glance"
+    src5="/assets/photos/presentation.jpg"
+    alt5="Photo credit: Bon Adriel Aseniero."
+    url5="/year/2024/info/week-at-a-glance"
 
-        src6="/assets/photos/visap.JPG"
-        alt6="VISAP 2018. Photo credit: Bon Adriel Aseniero."
-        url6="https://visap.net/"
+    src6="/assets/photos/visap.JPG"
+    alt6="VISAP 2018. Photo credit: Bon Adriel Aseniero."
+    url6="https://visap.net/"
     %}
 
     {% include taglines.html
-        title1="See" description1="Explore the most recent advances in visualization"
-        title2="Learn" description2="Get hands on with tutorials and workshops"
-        title3="Meet" description3="Join our creative, capable visualization community"
-        title4="Share" description4="Share your work and research findings" %}
+    title1="See" description1="Explore the most recent advances in visualization"
+    title2="Learn" description2="Get hands on with tutorials and workshops"
+    title3="Meet" description3="Join our creative, capable visualization community"
+    title4="Share" description4="Share your work and research findings" %}
 </div>
-
-
-

@@ -419,7 +419,7 @@ const card_html = (paper) =>
               ${paperSessionDetail(paper)}
 
 
-              <div>${card_image(paper, render_mode !== MODE.mini)}</div>
+              <div>${card_image(paper, render_mode !== MODE.mini, true)}</div>
               <div class="card-footer">&nbsp</div>
             </div>
 

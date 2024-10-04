@@ -10,7 +10,15 @@ rm -rf _site/year/2024/static
 for i in `find _site/year/{2016,2017,2018,2019,2020,2021,2022,2023,2024} _site/governance -name "*.html"`; do
     if [[ $i != *"/papers.html" ]]; then
         if [[ $i != *"program/paper_"* ]]; then
-            mv $i `echo $i | sed s/.html$//`;
+            if [[ $i != *"/posters.html" ]]; then
+                if [[ $i != *"program/event_"* ]]; then
+                    if [[ $i != *"program/session_"* ]]; then
+                        if [[ $i != *"program/poster_"* ]]; then
+                            mv $i `echo $i | sed s/.html$//`;
+                        fi
+                    fi
+                fi
+            fi
         fi
     fi
 done

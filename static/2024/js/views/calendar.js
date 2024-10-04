@@ -781,58 +781,71 @@ function populateDays(calendarSelection, config) {
 function populateRooms(calendarSelection, roomNames, day) {
   // TODO: use room names - NEED TO CHANGE
   let roomData = [
-    { text: 'Sabal/Sawgrass', link: 'sabalsawgrass', roomId: 'sabalsawgrass'},
-    { text: 'Breezeway', link: 'breezeway', roomId: 'breezeway'},
-    { text: 'Glades/Jasmine/Palm', link: 'gladesjasminepalm', roomId: 'gladesjasminepalm'},
-    { text: 'Tarpon Key', link: 'tarpon', roomId: 'tarpon'},
-    { text: 'Tarpon Sawyer Long', link: 'tarponsawyerlong', roomId: 'tarponsawyerlong'},
-    { text: 'Long Key', link: 'long', roomId: 'long'},
-    { text: 'Indian/Bird Key', link: 'indianbird', roomId: 'indianbird'},
-    { text: 'Blue Heron', link: 'blueheron', roomId: 'blueheron'},
-    { text: 'Sawyer Key', link: 'sawyer', roomId: 'sawyer'},
-    { text: 'Pavilion', link: 'pavilion', roomId: 'pavilion'},
-    { text: 'Breezeway and Citrus/Banyan', link: 'breezewaycitrusbanyan', roomId: 'breezewaycitrusbanyan'}
+    { link: 'bayshorefoyer', roomId: 'bayshorefoyer', text: "Bayshore Foyer" },
+    { link: 'bayshoreplenary', roomId: 'bayshoreplenary', text: "Bayshore I + II + III" },
+    { link: 'bayshore1', roomId: 'bayshore1', text: "Bayshore I" },
+    { link: 'bayshore2', roomId: 'bayshore2', text: "Bayshore II" },
+    { link: 'bayshore3', roomId: 'bayshore3', text: "Bayshore III" },
+    { link: 'bayshore5', roomId: 'bayshore5', text: "Bayshore V" },
+    { link: 'bayshore6', roomId: 'bayshore6', text: "Bayshore VI" },
+    { link: 'bayshore7', roomId: 'bayshore7', text: "Bayshore VII" },
+    { link: 'palmaceia234', roomId: 'palmaceia234', text: "Palma Ceia II+III+IV" },
+    { link: 'palmaceia1', roomId: 'palmaceia1', text: "Palma Ceia I " },
+    { link: 'esplanadesuites', roomId: 'esplanadesuites', text: "Esplanade Suites I + II + III" }
   ];
 
-  // truncate rooms added per-day (don't add unnecessary rooms we're not using)
+
+
+
+  // // truncate rooms added per-day (don't add unnecessary rooms we're not using)
   switch (day) {
     case "Sunday":
     case "Monday":
-    case "Wednesday":
       roomData = [
-        { text: 'Sabal/Sawgrass', link: 'sabalsawgrass', roomId: 'sabalsawgrass'},
-        { text: 'Glades/Jasmine/Palm', link: 'gladesjasminepalm', roomId: 'gladesjasminepalm'},
-        { text: 'Tarpon Key', link: 'tarpon', roomId: 'tarpon'},
-        { text: 'Long Key', link: 'long', roomId: 'long'},
-        { text: 'Indian/Bird Key', link: 'indianbird', roomId: 'indianbird'},
-        { text: 'Blue Heron', link: 'blueheron', roomId: 'blueheron'},
-        { text: 'Sawyer Key', link: 'sawyer', roomId: 'sawyer'}
+        { link: 'bayshore1', roomId: 'bayshore1', text: "Bayshore I" },
+        { link: 'bayshore2', roomId: 'bayshore2', text: "Bayshore II" },
+        { link: 'bayshore3', roomId: 'bayshore3', text: "Bayshore III" },
+        { link: 'bayshore5', roomId: 'bayshore5', text: "Bayshore V" },
+        { link: 'bayshore6', roomId: 'bayshore6', text: "Bayshore VI" },
+        { link: 'bayshore7', roomId: 'bayshore7', text: "Bayshore VII" },
+        { link: 'esplanadesuites', roomId: 'esplanadesuites', text: "Esplanade Suites I + II + III" }
       ];
       break;
     case "Tuesday":
       roomData = [
-        { text: 'Breezeway', link: 'breezeway', roomId: 'breezeway'},
-        { text: 'Glades/Jasmine/Palm', link: 'gladesjasminepalm', roomId: 'gladesjasminepalm'},
-        { text: 'Pavilion', link: 'pavilion', roomId: 'pavilion'},
-        { text: 'Breezeway and Citrus/Banyon', link: 'breezewaycitrusbanyan', roomId: 'breezewaycitrusbanyan'}
+        { link: 'bayshorefoyer', roomId: 'bayshorefoyer', text: "Bayshore Foyer" },
+        { link: 'bayshoreplenary', roomId: 'bayshoreplenary', text: "Bayshore I + II + III" },
+        { link: 'palmaceia234', roomId: 'palmaceia234', text: "Palma Ceia II+III+IV" },
+        { link: 'palmaceia1', roomId: 'palmaceia1', text: "Palma Ceia I " },
+      ];
+      break;
+    case "Wednesday":
+      roomData = [
+        { link: 'bayshore1', roomId: 'bayshore1', text: "Bayshore I" },
+        { link: 'bayshore2', roomId: 'bayshore2', text: "Bayshore II" },
+        { link: 'bayshore3', roomId: 'bayshore3', text: "Bayshore III" },
+        { link: 'bayshore5', roomId: 'bayshore5', text: "Bayshore V" },
+        { link: 'bayshore6', roomId: 'bayshore6', text: "Bayshore VI" },
+        { link: 'bayshore7', roomId: 'bayshore7', text: "Bayshore VII" },
+        { link: 'palmaceia1', roomId: 'palmaceia1', text: "Palma Ceia I " }
       ];
       break;
     case "Thursday":
       roomData = [
-        { text: 'Sabal/Sawgrass', link: 'sabalsawgrass', roomId: 'sabalsawgrass'},
-        { text: 'Glades/Jasmine/Palm', link: 'gladesjasminepalm', roomId: 'gladesjasminepalm'},
-        { text: 'Tarpon Key', link: 'tarpon', roomId: 'tarpon'},
-        { text: 'Long Key', link: 'long', roomId: 'long'},
-        { text: 'Indian/Bird Key', link: 'indianbird', roomId: 'indianbird'},
-        { text: 'Sawyer Key', link: 'sawyer', roomId: 'sawyer'}
+        { link: 'bayshore1', roomId: 'bayshore1', text: "Bayshore I" },
+        { link: 'bayshore2', roomId: 'bayshore2', text: "Bayshore II" },
+        { link: 'bayshore3', roomId: 'bayshore3', text: "Bayshore III" },
+        { link: 'bayshore5', roomId: 'bayshore5', text: "Bayshore V" },
+        { link: 'bayshore6', roomId: 'bayshore6', text: "Bayshore VI" },
+        { link: 'bayshore7', roomId: 'bayshore7', text: "Bayshore VII" }
       ];
       break;
     case "Friday":
       roomData = [
-        { text: 'Sabal/Sawgrass', link: 'sabalsawgrass', roomId: 'sabalsawgrass'},
-        { text: 'Glades/Jasmine/Palm', link: 'gladesjasminepalm', roomId: 'gladesjasminepalm'},
-        { text: 'Tarpon Sawyer Long', link: 'tarponsawyerlong', roomId: 'tarponsawyerlong'},
-        { text: 'Indian/Bird Key', link: 'indianbird', roomId: 'indianbird'}
+        { link: 'bayshoreplenary', roomId: 'bayshoreplenary', text: "Bayshore I + II + III" },
+        { link: 'bayshore5', roomId: 'bayshore5', text: "Bayshore V" },
+        { link: 'bayshore6', roomId: 'bayshore6', text: "Bayshore VI" },
+        { link: 'bayshore7', roomId: 'bayshore7', text: "Bayshore VII" }
       ];
       break;
   }
