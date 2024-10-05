@@ -46,6 +46,9 @@ menu:
                 - text: "Week-at-a-Glance"
                   url: "/year/2024/info/week-at-a-glance"
                   is_new: false
+                - text: "Conference Center Map"
+                  url: "/year/2024/info/conference-map"
+                  is_new: true
                 - text: "IEEE Vis Swag Shop"
                   url: "/year/2024/info/swag"
                   is_new: false
