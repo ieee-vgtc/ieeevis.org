@@ -161,18 +161,18 @@ menu:
           - heading: "Presenter Information"
             columns:
               - links:
+                  - text: "Hybrid Technical Information for Presenters and Organizers"
+                    url: "/year/2024/info/presenter-information/hybrid-technical-information"
+                    is_new: true
                   - text: "Final Information for Paper Authors"
                     url: "/year/2024/info/presenter-information/final-information-paper-authors"
-                    is_new: true
-                  # - text: "Speakers and Presenters"
-                  #   url: "/year/2024/info/presenter-information/speakers-and-presenters"
-                  #   is_new: true
+                    is_new: false
                   - text: "Video Previews"
                     url: "/year/2024/info/presenter-information/fast-forward-and-video-previews"
-                    is_new: true
+                    is_new: false
                   - text: "Preparing Your Talk"
                     url: "/year/2024/info/presenter-information/talk-guide"
-                    is_new: true
+                    is_new: false
 #                    - text: "Guidance for Virtual Events"
 #                      url: "/year/2024/info/presenter-information/guidance-for-associated-events"
 # #                   - text: "Presenting at the Virtual Conference"
