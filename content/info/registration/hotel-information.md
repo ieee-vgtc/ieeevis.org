@@ -22,6 +22,8 @@ Staying in the conference hotel has a lot of advantages. In addition to having a
 
 <a href="https://book.passkey.com/go/IEEE1024" class="button" target="new_window">Book your VIS 2024 hotel room at the Hilton Tampa Downtown</a>
 
+**Update:** _The hotel is sold out. Rooms may become available if reservations are canceled. Otherwise, you should check nearby hotels using any hotel booking site._
+
 
 ## FAQ
 
