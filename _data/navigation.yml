@@ -308,9 +308,10 @@ menu:
                     description: "Diverse Data"
                     url: "https://visap.net/2024"
                     is_external: true
-                  # - text: "VisInPractice"
-                  #   description: "Invited talks by visualization practitioners"
-                  #   url: "/year/2024/info/visinpractice"
+                  - text: "VisInPractice"
+                    description: "Invited talks by visualization practitioners"
+                    url: "/year/2024/info/visinpractice"
+                    is_new: true
                   - text: "LDAV Symposium"
                     description: "Big Data Analysis and Visualization"
                     url: "https://ldav.io/"
