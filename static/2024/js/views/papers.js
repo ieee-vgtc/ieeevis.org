@@ -486,7 +486,7 @@ const card_poster_html = (poster) =>
     .join(",")}
               </div>
 
-              <div>${card_image(poster, render_mode !== MODE.mini, true)}</div>
+              <div>${card_image(poster, render_mode !== MODE.mini)}</div>
               <div class="card-footer">&nbsp</div>
             </div>
 
