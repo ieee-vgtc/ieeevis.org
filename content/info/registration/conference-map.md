@@ -9,10 +9,10 @@ contact: program@ieeevis.org
 Most conference activities will take place on the second floor of the Hilton Tampa Downtown. See the [program schedule](/year/2024/program/calendar) for specific event rooms.
 
 <p>
-  <img src="assets/photos/hilton/second.jpg" />
+  <img src="/year/2024/assets/photos/hilton/second.png" />
 </p>
 <p>
-  <img src="assets/photos/hilton/ground.jpg" /> 
+  <img src="/year/2024/assets/photos/hilton/ground.png" /> 
 </p>
 
 
