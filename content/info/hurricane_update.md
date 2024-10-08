@@ -4,9 +4,28 @@ layout: page
 permalink: info/hurricane_updates
 ---
 
+# IEEE VIS 2024 will now be fully virtual
+
+*Posted on Tuesday, October 8 2024 at 3:20pm EDT*
+
+
+IEEE VIS Community,
+
+Thank you all for your patience as our conference organizing committee has been discussing the developing emergency situation for Tampa. Given Hurricane Milton’s trajectory and potential for catastrophic impacts to the Tampa area,  the Visualization Executive Committee (VEC), in consultation with the VGTC and IEEE, sadly feel that it is best to convert the conference to fully virtual. We believe that the safety of those traveling to the conference, those working at the hotel, and those in the area who run the greatest risk of being adversely affected by the hurricane is at the crux of this decision. As such, **IEEE VIS 2024 will now be fully virtual**. 
+
+For all speaker registrations, the registration rate remains the same. For all others that were registered as in-person attendees, these registrations will be converted to virtual participants and refunded the difference.
+
+Please move ahead with canceling your travel plans and stay tuned for further details. We look forward to seeing everyone virtually on October 13th - 18th. More details will be forthcoming and we appreciate your patience as we work to pivot. Our thoughts and prayers are with the people of Florida. Please be safe during this severe weather event.
+
+Sincerely,
+
+Visualization Executive Committee
+
+<hr />
+
 # IEEE VIS 2024 New Venue Revealed / Prompt Action Required
 
-*Posted on Tuesday, October 4 2024 at 11:00am EDT*
+*Posted on Friday, October 4 2024 at 11:00am EDT*
 
 
 Dear IEEE VIS Community,
