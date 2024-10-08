@@ -5,8 +5,7 @@
 #   image: "2024-hilton.jpg"
 #   active: "active"
 
-- title: "Hurricane Update"
-  description: "IEEE VIS 2024 will now be fully virtual"
+- title: "IEEE VIS 2024 will now be fully virtual"
   button-text: "Register Now"
   button-url: "/info/registration"
   image: "virtual_tree.jpg"
