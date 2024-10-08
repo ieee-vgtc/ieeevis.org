@@ -12,6 +12,11 @@ const updateUI = async (auth0, query) => {
   if (is_auth) {
     document.body.style.display = null;
 
+    let toast = document.getElementById('loginToastMessage');
+    if (toast) {
+      toast.style.display = "none";
+    }
+
     // if we have a redirect request, grab it and push the user over to that page they wanted to see
     var queryParams = new URLSearchParams(query);
     var redirectUri = queryParams.get("return");
@@ -120,7 +125,7 @@ const authenticate = () => {
 
         updateUI(auth0Client, query)
       }
-    } else if (window.location.href.includes("room_") || window.location.href.includes("paper_")) {
+    } else if (window.location.href.includes("room_") || window.location.href.includes("paper_") || window.location.href.includes("poster_")) {
       // window.location.href = `/year/2024/program/redirect?return=${window.location.pathname.slice(1)}`;
 
       window.location.href = "/year/2024/welcome?loginMsg=true";
@@ -188,7 +193,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   if (getUrlParameter('loginMsg')) {
     // $("#loginToastMessage").show();
-    document.getElementById('loginToastMessage').classList.remove('hidden')
+    // document.getElementById('loginToastMessage').classList.remove('hidden')
+    document.getElementById('loginToastMessage').style.display = "block";
   }
 
 

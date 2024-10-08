@@ -34,7 +34,7 @@ schedule:
 all_events:
   display: true
   text: "All Events"
-  url: "/year/2024/program/events"
+  url: "/year/2024/program/events.html"
 
 papers:
   display: true
@@ -47,12 +47,12 @@ posters:
   url: "/year/2024/program/posters.html"
 
 workshops:
-  display: true
+  display: false
   text: "Workshops"
   url: "/year/2024/program/workshops.html"
 
 speakers:
-  display: true
+  display: false
   text: "Speakers"
   url: "/year/2024/program/speakers.html"
 

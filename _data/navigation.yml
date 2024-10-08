@@ -46,6 +46,9 @@ menu:
                 - text: "Week-at-a-Glance"
                   url: "/year/2024/info/week-at-a-glance"
                   is_new: false
+                - text: "Conference Center Map"
+                  url: "/year/2024/info/conference-map"
+                  is_new: true
                 - text: "IEEE Vis Swag Shop"
                   url: "/year/2024/info/swag"
                   is_new: false
@@ -158,18 +161,18 @@ menu:
           - heading: "Presenter Information"
             columns:
               - links:
+                  - text: "Hybrid Technical Information for Presenters and Organizers"
+                    url: "/year/2024/info/presenter-information/hybrid-technical-information"
+                    is_new: true
                   - text: "Final Information for Paper Authors"
                     url: "/year/2024/info/presenter-information/final-information-paper-authors"
-                    is_new: true
-                  # - text: "Speakers and Presenters"
-                  #   url: "/year/2024/info/presenter-information/speakers-and-presenters"
-                  #   is_new: true
+                    is_new: false
                   - text: "Video Previews"
                     url: "/year/2024/info/presenter-information/fast-forward-and-video-previews"
-                    is_new: true
+                    is_new: false
                   - text: "Preparing Your Talk"
                     url: "/year/2024/info/presenter-information/talk-guide"
-                    is_new: true
+                    is_new: false
 #                    - text: "Guidance for Virtual Events"
 #                      url: "/year/2024/info/presenter-information/guidance-for-associated-events"
 # #                   - text: "Presenting at the Virtual Conference"
@@ -305,9 +308,10 @@ menu:
                     description: "Diverse Data"
                     url: "https://visap.net/2024"
                     is_external: true
-                  # - text: "VisInPractice"
-                  #   description: "Invited talks by visualization practitioners"
-                  #   url: "/year/2024/info/visinpractice"
+                  - text: "VisInPractice"
+                    description: "Invited talks by visualization practitioners"
+                    url: "/year/2024/info/visinpractice"
+                    is_new: true
                   - text: "LDAV Symposium"
                     description: "Big Data Analysis and Visualization"
                     url: "https://ldav.io/"

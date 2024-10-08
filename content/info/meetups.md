@@ -16,7 +16,7 @@ contact: community@ieeevis.org
 
 Thursday 17 October 2024<br>
 4:45pm<br>
-Room Sawyer<br> 
+Bayshore V <br> 
 Organizers: Kenneth Moreland and Bernice Rogowitz <br>
 Contact: <br>
 morelandkd@ornl.gov <br>
@@ -29,7 +29,7 @@ VisLies! is a yearly event at IEEE VIS. This fun and engaging evening session sh
 
 Wednesday 16 October 2024<br>
 4:45pm<br>
-Room Glades<br>
+Bayshore VII <br>
 Organizers: Derya Akbaba<br>
 Contact: <br>
 derya.akbaba@liu.se <br>
@@ -44,7 +44,7 @@ For past tours, see: [https://www.gicentre.net/velo-club-rides](https://www.gice
 
 Monday 14 October 2024<br>
 11:35am <br>
-Room Jasmine / Palm<br>
+Bayshore III <br>
 Organizers: Evan Peck <br>
 Contact:<br>
 evan.peck@colorado.edu <br>
@@ -55,7 +55,7 @@ For the last 5 years, Vis4Good [(https://vis4good.github.io/](https://vis4good.g
 
 Thursday 17 October 2024 <br>
 4:45pm<br>
-Room Jasmine / Palm<br>
+Bayshore VII<br>
 Organizers: Tobias Isenberg and Julien Tierny <br>
 Contact: <br>
 tobias.isenberg@inria.fr <br>
