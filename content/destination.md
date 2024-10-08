@@ -8,6 +8,9 @@ contact:
 
 
 # TAMPA BAY, FLORIDA, USA
+
+Tampa is a relatively safe city. However, like any city, you must be vigilant while walking around, particularly at night. The Tampa Police provide an [interactive map](https://communitycrimemap.com/?address=33602) of recently reported crimes. To reach the police in an emergency, dial 911. For non emergencies, dial +1 813-231-6130. Please also take a moment to review [local laws](https://www.legalsurvivalguide.org/) that could impact you during your stay.
+
 ## HILTON TAMPA DOWNTOWN
 
 <p>

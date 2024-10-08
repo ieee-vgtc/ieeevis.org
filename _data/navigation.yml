@@ -46,6 +46,9 @@ menu:
                 - text: "Week-at-a-Glance"
                   url: "/year/2024/info/week-at-a-glance"
                   is_new: false
+                # - text: "Conference Center Map"
+                #   url: "/year/2024/info/conference-map"
+                #   is_new: true
                 - text: "IEEE Vis Swag Shop"
                   url: "/year/2024/info/swag"
                   is_new: false
@@ -67,20 +70,20 @@ menu:
                 # - text: "Coronavirus Information"
                 #   url: "/year/2024/info/coronavirus-info"
                   #is_new: true
-            - heading: "Travel"
-              links:
-                - text: "Hotel Information"
-                  url: "/year/2024/info/registration/hotel-information"
-                  is_new: true
-                - text: "Tampa Destination Guide"
-                  url: "/year/2024/destination"
-                  is_new: true
-                - text: "Visas"
-                  url: "/year/2024/info/registration/travel-visas"
-                  is_new: false
-                - text: "🌀 Weather Information"
-                  url: "/year/2024/info/registration/hurricane-planning"
-                  is_new: false
+            # - heading: "Travel"
+            #   links:
+            #     - text: "Hotel Information"
+            #       url: "/year/2024/info/registration/hotel-information"
+            #       is_new: true
+            #     - text: "Tampa Destination Guide"
+            #       url: "/year/2024/destination"
+            #       is_new: true
+            #     - text: "Visas"
+            #       url: "/year/2024/info/registration/travel-visas"
+            #       is_new: false
+            #     - text: "🌀 Weather Information"
+            #       url: "/year/2024/info/registration/hurricane-planning"
+            #       is_new: false
 
           - heading: "Code of Conduct"
             heading_url: "/year/2024/info/inclusion/code-of-conduct"
@@ -305,9 +308,10 @@ menu:
                     description: "Diverse Data"
                     url: "https://visap.net/2024"
                     is_external: true
-                  # - text: "VisInPractice"
-                  #   description: "Invited talks by visualization practitioners"
-                  #   url: "/year/2024/info/visinpractice"
+                  - text: "VisInPractice"
+                    description: "Invited talks by visualization practitioners"
+                    url: "/year/2024/info/visinpractice"
+                    is_new: true
                   - text: "LDAV Symposium"
                     description: "Big Data Analysis and Visualization"
                     url: "https://ldav.io/"
