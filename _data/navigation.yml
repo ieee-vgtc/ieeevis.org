@@ -161,8 +161,8 @@ menu:
           - heading: "Presenter Information"
             columns:
               - links:
-                  - text: "Hybrid Technical Information for Presenters and Organizers"
-                    url: "/year/2024/info/presenter-information/hybrid-technical-information"
+                  - text: "Virtual Technical Information for Presenters and Organizers"
+                    url: "/year/2024/info/presenter-information/virtual-technical-information"
                     is_new: true
                   - text: "Final Information for Paper Authors"
                     url: "/year/2024/info/presenter-information/final-information-paper-authors"
