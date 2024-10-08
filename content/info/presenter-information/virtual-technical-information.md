@@ -45,7 +45,7 @@ All of the below virtual capabilities will be used by default. Event organizers 
 
 In the week before the conference, the Tech Chairs will send an email with the above technical details for their session (e.g. Zoom Meeting, Slido, Discord).
 
-Breakout Rooms will not be supported by the provided Zoom Meeting. Organizers are welcome to share a personal Zoom Meeting for Breakout Rooms via their session's Discord.
+Breakout Rooms will not be supported by the provided Zoom Meeting. Organizers are welcome to share an external Zoom Meeting for Breakout Rooms via their session's Discord.
 
 ## Info for Full, Short & Invited TVCG/CGA Papers
 **All paper presentations will occur remotely over a Zoom Meeting.** All presenters must join the Zoom Meeting 15 minutes before the start of their session to test screen, video, and audio sharing. Presenters will share their desired screen or window for the presentation. If your presentation includes audio, please be sure to [share computer audio when sharing your screen](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0063608#h_01GBXFBZ8GBD3Z3YV70YRETA7Y). The stream from the Zoom Webinar will include the presenter’s shared screen, audio, and video sources - all to be streamed over the YouTube broadcast.
