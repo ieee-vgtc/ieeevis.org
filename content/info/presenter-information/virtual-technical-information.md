@@ -10,7 +10,7 @@ contact: tech@ieeevis.org
 
 This page provides information about the technical configuration for virtually presenting and attending IEEE VIS 2024. Presentations in a session will be live over a virtual Zoom Meeting. Viewing of sessions will occur via a live YouTube broadcast that can be found on each session’s page.
 
-**In the week leading up to the conference. All event organizers, session chairs, and presenters will receive technical details about the session they are involved in.**
+**In the week leading up to the conference, all event organizers, session chairs, and presenters will receive technical details about the session they are involved in.**
 
 
 ## Attendee Information
@@ -23,7 +23,7 @@ Question and Answer (Q+A) for each presentation or panel will occur remotely ove
 
 Presentations will take place over a live Zoom Meeting - with presenters sharing their screen, camera, and audio over Zoom. A link to the Zoom Meeting will be emailed to you by tech@ieeevis.org or by the event organizers (for associated events, workshops, panels, and/or tutorials).
 
-** Presenter Check-List:**
+**Presenter Check-List:**
 1. Ensure you have an adequate internet connection for your presentation: 7.5Mbps/5.0Mbps (up/down).
 2. [Install Zoom Desktop](https://zoom.us/download) before your session.
 3. Create and/or log in to your Zoom account (can be any school or personal account).
