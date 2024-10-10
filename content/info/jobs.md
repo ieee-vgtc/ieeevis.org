@@ -22,7 +22,7 @@ Questions? Contact the Community Committee at community@ieeevis.org.
 
 ## Academic
 
-[**PostDo in HCAI at the University of Zurich**](https://www.ifi.uzh.ch/en/ivda/open-positions.html)
+[**PostDoc in HCAI at the University of Zurich**](https://www.ifi.uzh.ch/en/ivda/open-positions.html)
 
 Location: University of Zurich, Zurich, Switzerland   
 Start date: 11/1/2024  
@@ -104,7 +104,7 @@ Contact: Melanie Tory, m.tory@northeastern.edu
 ## Small Business
 
 
-[**Softare Engineer**](https://www.visoar.net/job-openings.html) at ViSOAR LLC.
+[**Software Engineer**](https://www.visoar.net/job-openings.html) at ViSOAR LLC.
 
 Location: Salt Lake City, UT or fully remote  
 Start date: 1/1/2025  
