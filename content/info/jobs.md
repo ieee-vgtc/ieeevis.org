@@ -18,33 +18,39 @@ For more information about the Job Fair Meetup (TBD) please visit "Job Fair Meet
 
 Questions? Contact the Community Committee at community@ieeevis.org. 
 
-<!--
 # Job Postings
 
 ## Academic
 
-[**Lecturer & Senior Lecturer (Assistant Professor,  permanent) in Computing**](https://jobs.ncl.ac.uk/job/Newcastle-Lecturer-&-Senior-Lecturer-in-Computing/974251101/) at Newcastle University.
+[**PostDo in HCAI at the University of Zurich**](https://www.ifi.uzh.ch/en/ivda/open-positions.html)
 
-Location: Newcastle upon Tyne, UK   
-Start date: 2024-09-01  
-Start time flexible? Yes  
-Contact: Daniel Archambault, daniel.archambault@newcastle.ac.uk
-
-
-[**Associate or Full Professor - College of Engineering/The Roux Institute**](https://northeastern.wd1.myworkdayjobs.com/en-US/careers/details/Associate-or-Full-Professor---College-of-Engineering-The-Roux-Institute_R119942) at The Roux Institute, Northeastern University.
-
-Location: Portland, Maine, USA   
-Start date: 2024-08-15    
-Start time flexible? Yes  
-Contact: Melanie Tory, m.tory@northeastern.edu
-
-
-[**Tenure-track assistant/associate professor (VIS, HCI, UX, and/or Data Science)**](https://jobs.gvsu.edu/en-us/job/494979/assistant-or-associate-professor-of-computing) at Grand Valley State University.
-
-Location: Allendale, Michigan, USA  
-Start date: 2024-08-06  
+Location: University of Zurich, Zurich, Switzerland   
+Start date: 11/1/2024  
 Start time flexible? No  
-Contact: Jonathan Leidig, leidijon@gvsu.edu
+Contact: Jürgen Bernard, bernard@ifi.uzh.ch
+
+[**PhD Position in Human-Centered AI**](https://www.ifi.uzh.ch/en/ivda/open-positions.html)
+
+Location: University of Zurich, Zurich, Switzerland   
+Start date: 11/1/2024  
+Start time flexible? No  
+Contact: Jürgen Bernard, bernard@ifi.uzh.ch
+
+
+[**Assistant or Associate Professor (HCI) in Division of Computer Science & Engineering**](https://lsu.wd1.myworkdayjobs.com/en-US/LSU/job/3325-Patrick-F-Taylor-Hall/Assistant-or-Associate-Professor--HCI-_R00098700) at Louisiana State University.
+
+Location: Baton Rouge, LA, USA   
+Start date: 8/15/2024    
+Start time flexible? Yes  
+Contact: csesearch@lsu.edu
+
+
+[**Data Science Institute Postdoctoral Scholar**](https://datascience.uchicago.edu/research/postdoctoral-programs/dsi-scholars/) at The University of Chicago.
+
+Location: Chicago, IL, USA  
+Start date: 9/29/2025 
+Start time flexible? Yes  
+Contact: Alex Kale, kalea@uchicago.edu
 
 
 [**Researcher /PhD or Post-doc / - Visual Analytics of Patient Data**](https://visva.cs.uni-koeln.de/projekte/risk-principe) at the University of Cologne.
@@ -55,259 +61,52 @@ Start time flexible? Yes
 Contact: Tatiana von Landesberger, tlandesb@uni-koeln.de
 
 
-[**Researcher /Phd or Post-Doc / Visualization of Meteorological Data**](https://visva.cs.uni-koeln.de/projekte/warmworld) at the University of Cologne.
+[**Assistant Professor in Data Visualization and Analytics**](https://apply.interfolio.com/154361) at University of Washington Bothell.
 
-Location: Cologne, Germany  
-Start date: 2024-01-01  
+Location: Bothell, Washington, USA 
+Start date: 9/16/2025  
+Start time flexible? No  
+Contact: jferrare@uw.edu
+
+
+[**RPhD in Visual Analytics for Explainable Visual Rehabilitation**](https://www.uu.nl/en/organisation/working-at-utrecht-university/jobs/phd-in-visual-analytics-for-explainable-visual-rehabilitation) at Utrecht University.
+
+Location: Utrecht, The Netherlands  
+Start date: 2/1/2025  
 Start time flexible? Yes  
-Contact: Tatiana von Landesberger, tlandesb@uni-koeln.de
+Contact: Angelos Chatzimparmpas, a.chatzimparmpas@uu.nl 
 
 
-[**Researcher (PhD) - Visualization of Meteorologic Data and Models**](https://visva.cs.uni-koeln.de/) at the University of Cologne.
+[**Postdoctoral Fellow in Generative AI for Visual Data Discovery in Biology and Medicine**](https://hidivelab.org/team/positions/postdoc-biomedical-data-viz/) at Harvard Medical School.
 
-Location: Cologne, Germany  
-Start date: 2024-01-01  
+Location: Boston, Massachusetts  
+Start date: 11/1/2024 
 Start time flexible? Yes  
-Contact: Tatiana von Landesberger, landesberger@cs.uni-koeln.de  
+Contact: nils@hms.harvard.edu  
 
 
-[**Postdoctoral Researcher**](https://www.dropbox.com/s/qp6ngfhmbk7olev/postdoc_ad_accessibility.pdf) at York University.
+[**PhD Student in Data Visualization and Visual Analytics (Biomedical and Geographical Applications)**](https://drive.google.com/file/d/1wupwUlqI3-eJGgXJD5EhCfxYkQHIx85s/view?usp=sharing) at New York University (NYU).
 
-Location: Toronto, Canada  
-Start date: 2024-05-01  
+Location: Brooklyn (New York), NY, USA  
+Start date: 1/20/2025  
 Start time flexible? Yes  
-Contact: Enamul Hoque Prince, enamulh@yorku.ca  
+Contact: Robert Krueger, rk4815@nyu.edu  
 
 
-[**Postdoc in "Visual analysis of high-resolution spectral data from photon-counting detector Computer Tomography imaging"**](https://liu.se/en/work-at-liu/vacancies/22764) Scientific Visualization at Linköping University.
+**Research Scientist - VIS with applications in smart manufacturing** at Roux Institute, Northeastern University.
 
-Location: Norrköping, Sweden  
-Start date: 2023-12-01  
+Location: Portland, Maine, USA  
+Start date: 9/1/2025  
 Start time flexible? Yes  
-Contact: Ingrid Hotz, ingrid.hotz@liu.se  
+Contact: Melanie Tory, m.tory@northeastern.edu  
 
 
-[**Postdoc in “Analysis and visualization of time-dependent multifield data originating from photo-chemical simulations”**](https://liu.se/en/work-at-liu/vacancies/22735) Scientific Visualization at Linköping University.
+## Small Business
 
-Location: Norrköping, Sweden  
-Start date: 2024-01-01  
+
+[**Softare Engineer**](https://www.visoar.net/job-openings.html) at ViSOAR LLC.
+
+Location: Salt Lake City, UT or fully remote  
+Start date: 1/1/2025  
 Start time flexible? Yes  
-Contact: Ingrid Hotz, ingrid.hotz@liu.se  
-
-
-**Research Assistant Professor** at The Hong Kong University of Science and Technology.
-
-Location: Hong Kong, China  
-Start date: 2024-09-01  
-Start time flexible? Yes  
-Contact: Huamin QU, huamin@cse.ust.hk  
-
-
-**Post-Doc Research Fellow** at The Hong Kong University of Science and Technology.
-
-Location: Hong Kong, China  
-Start date: 2024-01-01  
-Start time flexible? Yes  
-Contact: Huamin QU, huamin@cse.ust.hk  
-
-
-[**Tenure-Track / Tenured Professor (all ranks)**](https://www.cs.emory.edu/site/doc/EmoryCS23t09.pdf) at Emory University.
-
-Location: Atlanta, Georgia, USA  
-Start date: 2024-08-01  
-Start time flexible? Yes  
-Contact: Emily Wall, Emily.wall@emory.edu  
-
-
-[**PostDoc Position in Human-Centered Data Analysis and AI**](https://www.ifi.uzh.ch/en/ivda/open-positions/postDoc.html) at the University of Zurich.
-
-Location: Zurich, Switzerland  
-Start date: 2024-04-01  
-Start time flexible? Yes  
-Contact: Jürgen Bernard 
-
-
-**Android Developer** at Sun Yat-sen University.
-
-Location: Any  
-Start date: 2024-09-01  
-Start time flexible? Yes  
-Contact: Shaoxuan Lai, laishaoxuan@qq.com  
-
-
-**Vis for ML** at Sun Yat-sen University.
-
-Location: Any  
-Start date: 2024-09-01  
-Start time flexible? Yes  
-Contact: Shaoxuan Lai, laishaoxuan@qq.com  
-
-
-[**[Prae-doc] Visual Analytics for Event-based Diffusion on Networks**](https://www.cvast.tuwien.ac.at/projects/sane) at TU Wien.
-
-Location: Vienna, Austria  
-Start date: 2023-12-01  
-Start time flexible? Yes  
-Contact: Alessio Arleo, alessio.arleo@tuwien.ac.at
-
-
-[**Postdoctoral Scholar - Data Science Institute**](https://datascience.uchicago.edu/research/postdoctoral-programs/dsi-scholars/) at the University of Chicago.
-
-Location: Chicago, IL, USA  
-Start date: 2024-07-01  
-Start time flexible? Yes  
-Contact: kalea@uchicago.edu  
-
-
-[**Tenure-Track Assistant Professor of Computer Science**](https://facultyemployment-stthomas.icims.com/jobs/7383/tenure-track%2c-assistant-professor-of-computer-science%2c-department-of-computer-and-information-sciences/job) at the University of St. Thomas.
-
-Location: St. Paul, MN, USA  
-Start date: 9/1/2024  
-Start time flexible? Yes   
-Contact: tmarrinan@stthomas.edu  
-
-
-[**2 PostDoc/PhD Positions in Visualization/Visual Analytics**](https://vcg.informatik.uni-rostock.de/en/jobs.html) at the University of Rostock.
-
-Location: Rostock, Germany  
-Start date: 2024-01-01  
-Start time flexible? Yes  
-Contact: Prof. Dr. Stefan Bruckner, stefan.bruckner@uni-rostock.de   
-
-
-[**PhD in Visual Analytics at TU Graz, Austria**](https://www.tugraz.at/institute/cgv/about-cgv/open-positions) at the Graz University of Technology.
-
-Location: Graz, Austria   
-Start date: 2024-01-01  
-Start time flexible?   
-Contact: Prof. Tobias Schreck, tobias.schreck@cgv.tugraz.at  
-
-
-## Government
-
-
-**High-Performance Visualization** at the German Aerospace Center (DLR).
-
-Location: Braunschweig, Germany  
-Start date: 2024-01-01  
-Start time flexible? Yes  
-Contact: andreas.gerndt@dlr.de   
-
-
-**Civil Drone Mixed Reality Developer** at the German Aerospace Center (DLR).
-
-Location: Braunschweig / Cochstedt, Germany  
-Start date:   
-Start time flexible?   
-Contact: andreas.gerndt@dlr.de  
-
-
-
-**Small Airplane Mixed Reality Research** at the German Aerospace Center (DLR).
-
-Location: Cologne / Aachen, Germany  
-Start date: 2024-01-01  
-Start time flexible? Yes  
-Contact: andreas.gerndt@dlr.de  
-
-
-**Space System Modelling with Mixed Reality** at the German Aerospace Center (DLR).
-
-Location: Braunschweig, Germany  
-Start date: 2024-01-01  
-Start time flexible? Yes  
-Contact: andreas.gerndt@dlr.de  
-
-
-**Digital Twin Mixed Reality for Space System Assembling** at the German Aerospace Center (DLR).
-
-Location: Braunscweig (DLR) / University Bremen, Germany   
-Start date: 2024-04-01  
-Start time flexible? Yes  
-Contact: andreas.gerndt@dlr.de  
-
-
-**Visual Analytics for Emission Maps** at the German Aerospace Center (DLR).
-
-Location: Braunschweig, Germany  
-Start date: 2024-01-01  
-Start time flexible? Yes  
-Contact: andreas.gerndt@dlr.de  
-
-
-**Group Lead in Scientific Visualization** at the German Aerospace Center (DLR).
-
-Location: Braunschweig, Germany  
-Start date: 2024-01-01  
-Start time flexible? Yes  
-Contact: andreas.gerndt@dlr.de  
-
-
-
-## Industry
-
-[**Research Internship**](https://apple.ent.box.com/v/hcmi-internship) at Apple.
-
-Location: Seattle, Pittsburgh, or Boston  
-Start date: 2024-01-01  
-Start time flexible? Yes  
-Contact: Dominik Moritz, domoritz@apple.com
-
-
-## Student
-
-[**Ph.D. position in “Efficient Algorithms for Visual Data Analysis”**](https://liu.se/en/work-at-liu/vacancies/22587) Scientific Visualization at Linköping University.
-
-Location: Norrköping, Sweden  
-Start date: 2024-01-01  
-Start time flexible? Yes  
-Contact: Ingrid Hotz, ingrid.hotz@liu.se  
-
-
-[**Ph.D. Position in Human-Centered Data Analysis and AI**](https://www.ifi.uzh.ch/en/ivda/open-positions/phdPositions.html) at the University of Zurich.
-
-Location: Zurich, Switzerland  
-Start date: 2024-06-01  
-Start time flexible? Yes  
-Contact: Jürgen Bernard  
-
-
-[**PhD in Visualisation - Developing and Visualising a Retrieval-Augmented Deep Learning Model for Population Health**](https://www.jobs.ac.uk/job/DCN363/phd-in-visualisation-developing-and-visualising-a-retrieval-augmented-deep-learning-model-for-population-health) at City University of London.
-
-Location: London, UK  
-Start date: 2024-02-01  
-Start time flexible? Yes  
-Contact: Mai Elshehaly, Mai.Elshehaly@city.ac.uk  
-
-
-[**PhD in Visualisation - Design and Development of Embedded Dashboards for Routine Data to Support Decision Making**](https://www.jobs.ac.uk/job/DCN354/phd-in-visualisation-design-and-development-of-embedded-dashboards-for-routine-data-to-support-decision-making) at City University of London.
-
-Location: London, UK  
-Start date: 2024-02-01  
-Start time flexible? Yes  
-Contact: Mai Elshehaly, Mai.Elshehaly@city.ac.uk  
-
-
-[**MSc Student**](http://healthvisfutures.sce.carleton.ca) at Carleton University, HealthVisFutures Lab.
-
-Location: Ottawa, ON, Canada  
-Start date: 2024-09-01  
-Start time flexible? Yes  
-Contact: Fateme Rajabi, fateme.rajabiyazdi@carleton.ca 
-
-
-[**PhD Student - Computer Science**](https://www1.cs.uchicago.edu/page/phd-program-overview-1) at the University of Chicago.
-
-Location: Chicago, IL, USA  
-Start date: 2024-09-23  
-Start time flexible? Yes  
-Contact: kalea@uchicago.edu  
-
-
-[**PhD Position in Human-Data Interaction**](https://vcg.informatik.uni-rostock.de/en/jobs.html) at the University of Rostock, Germany.
-
-Location: Rostock, Germany  
-Start date: 2024-01-01  
-Start time flexible? Yes  
-Contact: Prof. Dr. Stefan Bruckner, stefan.bruckner@uni-rostock.de  
--->
+Contact amy@visus.net
