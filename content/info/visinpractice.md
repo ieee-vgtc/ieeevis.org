@@ -1,46 +1,46 @@
 ---
 title: VisInPractice
 layout: page
-permalink: /info/visinpractice
+permalink: /year/2023/info/visinpractice
 contact: vip@ieeevis.org
 ---
 
-The **VisInPractice** associated event at **[IEEE VIS 2024](http://ieeevis.org/year/2024/welcome)** will feature a talk, two panels, and a demo session highlighting the design and use of visualizations in practice.
+The **VisInPractice** associated event at **[IEEE VIS 2023](http://ieeevis.org/year/2023/welcome)** will feature two panels on the practice of visualization.
 
 The **VisInPractice** program is an opportunity for visualization practitioners and researchers to meet and share experiences, insights, and ideas in applying data visualization and visual analytics to real use cases. Our goal is to acknowledge successful transfers of visualization research into applications as well as current visualization practices in industry.
 
-This year’s VisinPractice will be a virtual event.
+This year's VisinPractice will be an in-person event.
 - - -
 
 # Program
 
-VisInPractice 2024 will be a half-day event taking place on Monday, October 14th.
+VisInPractice 2023 will be a half-day event taking place on Monday October 23rd. 
 
-8:30AM - 9:15AM Keynote: [Dr. Jonathan Scwabish](https://www.urban.org/author/jonathan-schwabish) - **Do No Harm: Applying Racial Equity Awareness in Data Visualization** -  How can analysts, researchers, and developers apply a race- and ethnicity-conscious lens to their data analysis and data visualization work? How can we take a more diverse, equitable, and inclusive (DEI) perspective to our research, data, and visualizations? Just as we carefully consider our written words, we should be equally careful in how we visually present data to our readers, users, and audiences, including the words we use in and around those visuals. Taking a DEI perspective means considering how the specific lived experiences and perspectives of the people and communities we are studying, as well as our readers, will perceive information and carry that information forward. In this talk, we discuss a variety of techniques that data visualization producers should consider when creating visuals with this DEI approach.
-9:15AM - 9:45AM Panel: Impact of LLMs on the Development & Use of Commercial Visualization Systems  - Kristi Potter, Richard Brath, Jun Yuan, Dennis Bromley, Kanit Wongsuphasawat
+9:00AM - 9:30AM Keynote: [Kimly Scott](https://public.tableau.com/app/profile/kimly.scott/vizzes) - **Sharing personal experiences through public visualisations** -  I share bespoke visualisations through my public work and through those visualisations, I have shared many aspects of my personal life, sometimes on emotional topics. In my presentation, I will talk about why I openly share my personal experiences with the world via data visualisation, why I chose the visuals I did in these visualisations and how I craft personal stories using data and visuals.
 
-9:45AM - 10:15AM Break
+9:30AM - 10:15AM Panel: The Future of Visualization Technology - [Ned Letcher](https://www.thoughtworks.com/en-au/profiles/n/ned-letcher), [Paul Hodge](https://datavizguy.com/), [Kenny Gruchalla](https://www.nrel.gov/research/staff/kenny-gruchalla.html)
 
-10:15AM - 11:00AM Panel: How do we close the gap between data visualization research and practitioners  - Alberto Cairo, Cindy Xiong, Andrew McNutt
+10:15AM - 10:45AM Break
 
-11:00AM - 11:30PM Demo Jam: [Kuhu Gupta](https://www.illumio.com/blog-authors/kuhu-gupta), [Rosa Romero Gómez](https://theorg.com/org/graphicacy/org-chart/rosa-romero-gomez), [Greg Abram](https://tacc.utexas.edu/about/staff-directory/gregory-abram/)
+10:45AM - 11:30AM Panel: Visualization for Augmented Intelligence - [Vidya Setlur](https://www.tableau.com/research/people/vidya-setlur), [Dominik Moritz](https://www.domoritz.de/), [Lisa Avilla](https://www.kitware.com/lisa-avila/)
+
+11:30AM - 12:00PM Capstone: [Kresimir Matkovic](https://www.vrvis.at/en/about-us/team/infos/matkovic-kresimir) - **More than Twenty Years of Visualization Research at VRVis** - We have been actively involved in both applied and basic research in the field of Visualization since the year 2000 at VRVis. Over the years, we have accumulated extensive experience in collaborating with partners from diverse domains. For instance, our partnerships with engineers have led to numerous publications, greatly enhancing the awareness and acceptance of visualization within our partner companies. Similar successful collaborations can be seen in the bio-medical and hydrology fields. In this talk, we will report on our experiences, problems, and successes in these collaborations.
 
 - - -
 
-# The VisInPractice 2024 Team
+# The VisInPractice 2023 Team
 
 * Ayan Biswas, _Los Alamos National Laboratory_
-* Arjun Srinivasan, _Databricks_
+* Alexander Bock, _Linköping University_
 
 
 **Email:** [vip@ieeevis.org](mailto:vip@ieeevis.org)
 
-**Twitter:** [@visinpractice](https://twitter.com/visinpractice)
+**X (Twitter):** [@visinpractice](https://twitter.com/visinpractice)
 
 - - -
 
 # Previous VisInPractice Events 
-* [VisInPractice 2023](http://ieeevis.org/year/2023/info/visinpractice) (Melbourne, Australia).
 * [VisInPractice 2022](http://ieeevis.org/year/2022/info/visinpractice) (hybrid).
 * [VisInPractice 2021](http://ieeevis.org/year/2021/info/visinpractice) (virtual).
 * [VisInPractice 2020](https://visinpractice.github.io/assets/vip2020/index.html) (virtual).
