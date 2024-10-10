@@ -9,7 +9,7 @@ The **VisInPractice** associated event at **[IEEE VIS 2024](http://ieeevis.org/y
 
 The **VisInPractice** program is an opportunity for visualization practitioners and researchers to meet and share experiences, insights, and ideas in applying data visualization and visual analytics to real use cases. Our goal is to acknowledge successful transfers of visualization research into applications as well as current visualization practices in industry.
 
-This year’s VisinPractice will be a hybrid event.
+This year’s VisinPractice will be a virtual event.
 - - -
 
 # Program
@@ -17,11 +17,11 @@ This year’s VisinPractice will be a hybrid event.
 VisInPractice 2024 will be a half-day event taking place on Monday, October 14th.
 
 8:30AM - 9:15AM Keynote: [Dr. Jonathan Scwabish](https://www.urban.org/author/jonathan-schwabish) - **Do No Harm: Applying Racial Equity Awareness in Data Visualization** -  How can analysts, researchers, and developers apply a race- and ethnicity-conscious lens to their data analysis and data visualization work? How can we take a more diverse, equitable, and inclusive (DEI) perspective to our research, data, and visualizations? Just as we carefully consider our written words, we should be equally careful in how we visually present data to our readers, users, and audiences, including the words we use in and around those visuals. Taking a DEI perspective means considering how the specific lived experiences and perspectives of the people and communities we are studying, as well as our readers, will perceive information and carry that information forward. In this talk, we discuss a variety of techniques that data visualization producers should consider when creating visuals with this DEI approach.
-9:15AM - 9:45AM Panel: Impact of LLMs on the Development & Use of Commercial Visualization Systems  - [Panelists TBD]
+9:15AM - 9:45AM Panel: Impact of LLMs on the Development & Use of Commercial Visualization Systems  - Kristi Potter, Richard Brath, Jun Yuan, Dennis Bromley, Kanit Wongsuphasawat
 
 9:45AM - 10:15AM Break
 
-10:15AM - 11:00AM Panel: How do we close the gap between data visualization research and practitioners  - [Panelists TBD]
+10:15AM - 11:00AM Panel: How do we close the gap between data visualization research and practitioners  - Alberto Cairo, Cindy Xiong, Andrew McNutt
 
 11:00AM - 11:30PM Demo Jam: [Kuhu Gupta](https://www.illumio.com/blog-authors/kuhu-gupta), [Rosa Romero Gómez](https://theorg.com/org/graphicacy/org-chart/rosa-romero-gomez), [Greg Abram](https://tacc.utexas.edu/about/staff-directory/gregory-abram/)
 
