@@ -815,8 +815,7 @@ function populateRooms(calendarSelection, roomNames, day) {
       roomData = [
         { link: 'room_bayshorefoyer.html', roomId: 'bayshorefoyer', text: "Bayshore Foyer" },
         { link: 'room_bayshoreplenary.html', roomId: 'bayshoreplenary', text: "Bayshore I + II + III" },
-        { link: 'room_palmaceia234.html', roomId: 'palmaceia234', text: "Palma Ceia II+III+IV" },
-        { link: 'room_palmaceia1.html', roomId: 'palmaceia1', text: "Palma Ceia I " },
+        { link: 'room_bayshore3.html', roomId: 'bayshore3', text: "Bayshore III" }
       ];
       break;
     case "Wednesday":
@@ -878,21 +877,19 @@ function populateTimes(calendarSelection, config) {
   let timeData = [
     ["8:30 AM EDT", "time-0830"],
     // ["9:45 AM EDT", "time-0945"],
-    ["10:00 AM EDT", "time-1000"],
-    // ["10:15 AM EDT", "time-1015"],
+    // ["10:00 AM EDT", "time-1000"],
+    ["10:15 AM EDT", "time-1015"],
     // ["11:45 AM EDT", "time-1145"],
     ["12:00 PM EDT", "time-1200"],
     // ["12:30 PM EDT", "time-1230"],
     // ["12:45 PM EDT", "time-1245"],
-    ["1:30 PM EDT", "time-1330"],
-    // ["1:45 PM EDT", "time-1345"],
+    // ["1:30 PM EDT", "time-1330"],
+    ["1:45 PM EDT", "time-1345"],
     // ["2:45 PM EDT", "time-1445"],
     ["3:00 PM EDT", "time-1500"],
     // ["3:15 PM EDT", "time-1515"],
     // ["3:30 PM EDT", "time-1530"],
-    ["4:30 PM EDT", "time-1630"],
-    // ["4:45 PM EDT", "time-1645"],
-    ["6:45 PM EDT", "time-1845"]
+    ["5:00 PM EDT", "time-1700"],
   ];
 
   calendarSelection
