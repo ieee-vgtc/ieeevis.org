@@ -15,10 +15,11 @@ Here is the list of the accepted tutorials.
 * [Enabling Scientific Discovery: A Tutorial for Harnessing the Power of the National Science Data Fabric for Large-Scale Data Analysis](#ESD)
 * [Preparing, Conducting, and Analyzing Participatory Design Sessions for Information Visualizations](#PAR)
 
+Please see the [Schedule](https://ieeevis.org/year/2024/program/calendar) for times.
+
 <hr/>
 
 ## <a name="VAD"></a> Visualization Analysis and Design
-Sunday, October 13, 2024: Morning
 
 Tamara Munzner, *University of British Columbia* <br>
 
@@ -37,7 +38,6 @@ Benjamin Lee, *J.P. Morgan Chase & Co* <br>
 Immersive analytics (IA), the application of immersive technologies such as augmented and virtual reality towards the task of data visualization and analytics, is a rapidly growing area of research.Web-technologies have the potential to greatly benefit the development of immersive visualizations and systems with their affordances for multi-device distribution and networking. This tutorial is aimed at researchers and developers who want to learn how to implement immersive and collaborative visualizations and system with web-technologies. Tutorial participants will learn these skills through hands on coding activities using the latest tools for developing web applications. Furthermore, participants will gain practical skills and knowledge of WebXR, Anu.js, D3.js, Vite, and Coleuses. By the end of this half-day course, participants will be able to view and interact with an immersive visualization of their making along side their peers in a multi-user collaborative environment—all through their devices web-browser.
 
 ## <a name="CDV"></a> Generating Color Schemes for your Data Visualizations
-Sunday, October 13, 2024: Afternoon
 
 Theresa-Marie Rhyne, *Visualization Consultant* <br>
 
@@ -48,7 +48,6 @@ With a five stage colorization process, you learn how to build and select a data
 
 
 ## <a name="RVS"></a> Running Online User Studies with the reVISit Framework
-Sunday, October 13, 2024: Afternoon
 
 Jack Wilburn, *University of Utah* <br>
 Hilson Shrestha, *Worcester Polytechnic Institute* <br>
@@ -63,7 +62,7 @@ There currently are two main approaches for running online user studies: experim
 
 
 ## <a name="LLM"></a> LLM4Vis: Large Language Models for Information Visualization
-Sunday, October 13, 2024: Afternoon
+Monday, October 14, 2024: Morning
 
 Enamul Hoque, *York University* <br>
 
@@ -71,7 +70,6 @@ This tutorial will provide an introduction to natural language processing (NLP) 
 
 
 ## <a name="ESD"></a> Enabling Scientific Discovery: A Tutorial for Harnessing the Power of the National Science Data Fabric for Large-Scale Data Analysis
-Monday, October 14, 2024: Afternoon
 
 Amy Gooch, *University of Utah* <br>
 Aashish Panta, *University of Utah* <br>
@@ -87,7 +85,6 @@ In this interactive half-day tutorial, participants explore the advanced applica
 
 
 ## <a name="PAR"></a> Preparing, Conducting, and Analyzing Participatory Design Sessions for Information Visualizations
-Monday, October 14, 2024: Afternoon
 
 Adriana Arcia, *University of San Diego* <br>
 Samantha Stonbraker, *University of Colorado* <br>
