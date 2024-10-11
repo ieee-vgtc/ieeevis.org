@@ -918,6 +918,7 @@ function resetCalendar() {
 function updateTimezone() {
   // get timezone
   const timezone = getTimezone();
+  console.log("IN CALENDAR, timezone is ", timezone, " and our times are ", $(".converted-timezone"))
   // apply timezone
   $(".converted-timezone").each((_, e) => {
     const element = $(e);
@@ -930,9 +931,10 @@ function updateTimezone() {
     const converted_date = time.clone().tz(timezone);
     let converted_time = converted_date.format("HH:mm");
 
-    if (converted_date.format("DD") != time.format("DD"))
-      converted_time += "<br>+1 day";
+    // if (converted_date.format("DD") != time.format("DD"))
+    //   converted_time += "<br>+1 day";
 
+    console.log("timezone is ", timezone, " time is ", time, " converted time is ", converted_time)
     element.html(converted_time);
   });
 }
