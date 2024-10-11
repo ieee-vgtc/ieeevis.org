@@ -644,7 +644,6 @@ function createFullCalendar(calendar, config, allEvents, sessionsUpdate) {
       }
     }
   );
-  console.log("sessions_by_day_and_time: ", sessions_by_day_and_time);
   for (const dayKey of sessions_by_day_and_time.keys()) {
     const dayEvents = sessions_by_day_and_time.get(dayKey);
     let lateSlotSessionData = [];
@@ -876,14 +875,14 @@ function populateHeader(calendarSelection, data, isDay) {
 function populateTimes(calendarSelection, config) {
   let timeData = [
     ["8:30 AM EDT", "time-0830"],
-    // ["9:45 AM EDT", "time-0945"],
+    ["9:45 AM EDT", "time-0945"],
     // ["10:00 AM EDT", "time-1000"],
     ["10:15 AM EDT", "time-1015"],
-    // ["11:45 AM EDT", "time-1145"],
+    ["11:30 AM EDT", "time-1130"],
     ["12:00 PM EDT", "time-1200"],
     // ["12:30 PM EDT", "time-1230"],
     // ["12:45 PM EDT", "time-1245"],
-    // ["1:30 PM EDT", "time-1330"],
+    ["1:15 PM EDT", "time-1315"],
     ["1:45 PM EDT", "time-1345"],
     // ["2:45 PM EDT", "time-1445"],
     ["3:00 PM EDT", "time-1500"],
@@ -919,23 +918,21 @@ function resetCalendar() {
 function updateTimezone() {
   // get timezone
   const timezone = getTimezone();
-  // console.log("timezone is ", timezone, " and our times are ", $(".converted-timezone"))
   // apply timezone
   $(".converted-timezone").each((_, e) => {
     const element = $(e);
     const hourminutes = element.attr("data-time").split("-")[1];
 
-    const time = moment(
-      `2024-10-13 ${hourminutes.slice(0, 2)}:${hourminutes.slice(2, 4)} -4:00`,
-      "YYYY-MM-DD HH:mm ZZ"
+    const time = moment.tz(
+      `2024-10-13 ${hourminutes.slice(0, 2)}:${hourminutes.slice(2, 4)}`,
+      "America/New_York"
     );
     const converted_date = time.clone().tz(timezone);
     let converted_time = converted_date.format("HH:mm");
 
-    // if (converted_date.format("DD") != time.format("DD"))
-    //   converted_time += "<br>+1 day";
+    if (converted_date.format("DD") != time.format("DD"))
+      converted_time += "<br>+1 day";
 
-    // console.log("timezone is ", timezone, " time is ", time, " converted time is ", converted_time)
     element.html(converted_time);
   });
 }
