@@ -10,6 +10,8 @@ contact: workshops@ieeevis.org
 At least one author for each paper must register and attend the conference in person. If you have exceptional circumstances and none of the authors can attend in person please contact the conference committee as soon as possible at [info@ieeevis.org](mailto:info@ieeevis.org).
 {% endcomment %}
 
+Please see the [Full Schedule](https://ieeevis.org/year/2024/program/calendar) for all Workshop timings.
+
 
 ## Pre-Approved Workshops
 These workshops were pre-approved by the VIS Executive Committee. Please visit their individual websites for details on the topics and submission deadlines. 
@@ -39,7 +41,6 @@ The following workshops went through our [submission/review process](https://iee
 
 
 ## <a name="topoinvis"></a> [TopoInVis: Workshop on Topological Data Analysis and Visualization](https://topoinvis.org/)
-Monday October 14, 2024: Afternoon
 
 Divya Banesh, *Los Alamos National Laboratory* <br>
 Guoning Chen, *University of Houston* <br>
@@ -76,7 +77,6 @@ our research community grows and matures.
 
 
 ## <a name="visxai"></a> [VISxAI: 7th Workshop on Visualization for AI Explainability](https://visxai.io/)
-Sunday, October 13, 2024: Morning
 
 Angie Boggust, *MIT CSAIL* <br>
 Mennatallah El-Assady, *ETH AI Center* <br>
@@ -99,7 +99,6 @@ The goal of the Biological and Medical Visualization Workshop (Bio+Med+Vis Works
 
 
 ## <a name="nlviz"></a> [NLVIZ Workshop: Exploring Research Opportunities for Natural Language, Text, and Data Visualization](https://www.nl-vizworkshop.com)
-Monday, October 14, 2024: Afternoon
 
 Vidya Setlur, *Tableau Research*<br>
 Arjun Srinivasan, *Databricks*<br>
@@ -122,7 +121,6 @@ The increasing amount of data is a long-standing challenge for data analysis sys
 
 
 ## <a name="uncertaintyvis"></a> [Uncertainty Visualization: Applications, Techniques, Software, and Decision Frameworks](https://tusharathawale.github.io/UncertaintyVis-Workshop/index.html)
-Monday, October 14, 2024: Morning
 
 Tushar M. Athawale, *Oak Ridge National Laboratory*<br>
 Chris R. Johnson, *University of Utah*<br>
@@ -136,7 +134,6 @@ Uncertainty visualization has become an increasingly important topic given the u
 
 
 ## <a name="storytellingai"></a> [Workshop on Data Storytelling in an Era of Generative AI](https://gen4ds.github.io/gen4ds/#/)
-Sunday, October 13, 2024: Afternoon
 
 Xingyu Lan, *Fudan University*<br>
 Leni Yang, *The Hong Kong University of Science and Technology*<br>
@@ -152,7 +149,6 @@ Storytelling is an ancient and precious human ability that has been rejuvenated 
 
 
 ## <a name="accessiblevis"></a> [1st Workshop on Accessible Data Visualization](https://accessviz.github.io/)
-Sunday, October 13, 2024: Morning
 
 Naimul Hoque, *University of Maryland*<br>
 Pramod Chundury, *University of Maryland*<br>
@@ -172,7 +168,6 @@ The ubiquity of data visualization across various domains—from data science an
 
 
 ## <a name="energyvis"></a> [EnergyVis 2024: 4th Workshop on Energy Data Visualization](https://energyvis.org/)
-Monday, October 14, 2024: Afternoon
 
 Kenny Gruchalla, *National Renewable Energy Lab*<br>
 Anjana Arunkumar, *Arizona State University*<br>
@@ -186,7 +181,6 @@ The energy sector is witnessing significant technological progress, primarily dr
 
 
 ## <a name="clivis"></a> [Visualization for Climate Action and Sustainability](https://svs.gsfc.nasa.gov/events/2024/Viz4ClimateAndSustainability)
-Monday, October 14, 2024: Morning
 
 Benjamin Bach, *University of Edinburgh*<br>
 Fanny Chevalier, *University of Toronto*<br>
@@ -201,7 +195,6 @@ This first workshop on visualization for climate action and sustainability aims 
 
 
 ## <a name="visions"></a> [VISions of the Future: Workshop on Sustainable Practices within Visualization and Physicalisation](https://visionsofthefuture.github.io)
-Monday, October 14, 2024: Afternoon
 
 Georgia Panagiotidou, *King's College London*<br>
 Andrew M McNutt, *University of Washington*<br>
@@ -229,7 +222,6 @@ Contact: cperin@uvic.ca
 This half-day workshop will gather researchers and practitioners interested in first-person visualizations for outdoor physical activities. Given the unexplored nature of the topic, the goal of this first workshop is to collect speculative designs informed by experience and expertise. Participants will mainly submit fictional case studies in the forms of illustrated submissions along with a statement that demonstrates their knowledge/expertise of the case study. Our goal is to build on these speculative designs to i) explore the space of first-person visualizations for outdoor physical activities and ii) derive a research agenda for the visualization community. We envision this output to take the form of a publication of which workshop participants will be invited to become co-authors.
 
 ## <a name="eduvis"></a> [EduVis: 2nd IEEE VIS Workshop on Visualization Education, Literacy, and Activities](https://ieee-eduvis.github.io/)
-Sunday, October 13, 2024: Full Day
 
 Fateme Rajabiyazdi, *Carleton University*<br>
 Mandy Keck, *University of Applied Sciences Upper Austria*<br>
