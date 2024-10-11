@@ -17,6 +17,7 @@ This year’s VisinPractice will be a virtual event.
 VisInPractice 2024 will be a half-day event taking place on Monday, October 14th.
 
 8:30AM - 9:15AM Keynote: [Dr. Jonathan Scwabish](https://www.urban.org/author/jonathan-schwabish) - **Do No Harm: Applying Racial Equity Awareness in Data Visualization** -  How can analysts, researchers, and developers apply a race- and ethnicity-conscious lens to their data analysis and data visualization work? How can we take a more diverse, equitable, and inclusive (DEI) perspective to our research, data, and visualizations? Just as we carefully consider our written words, we should be equally careful in how we visually present data to our readers, users, and audiences, including the words we use in and around those visuals. Taking a DEI perspective means considering how the specific lived experiences and perspectives of the people and communities we are studying, as well as our readers, will perceive information and carry that information forward. In this talk, we discuss a variety of techniques that data visualization producers should consider when creating visuals with this DEI approach.
+
 9:15AM - 9:45AM Panel: Impact of LLMs on the Development & Use of Commercial Visualization Systems  - Kristi Potter, Richard Brath, Jun Yuan, Dennis Bromley, Kanit Wongsuphasawat
 
 9:45AM - 10:15AM Break
