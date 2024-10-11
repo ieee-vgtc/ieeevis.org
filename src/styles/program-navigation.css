@@ -355,3 +355,10 @@
 .hide-auth-controls {
     display: none !important;
 }
+
+/* Calendar */
+
+.tzOptions {
+    position: relative !important;
+    vertical-align: baseline !important;
+}

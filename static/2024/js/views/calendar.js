@@ -53,7 +53,7 @@ function finishCalendar(renderPromises) {
   Promise.all(renderPromises).then(() => {
     setTimeout(() => {
       updateTimezone();
-    }, 200)
+    }, 500)
     tippy("[data-tippy-content]", { trigger: "mouseenter focus" });
   });
 
@@ -93,7 +93,7 @@ function finishCalendar(renderPromises) {
       // Until we get to a timeslot that is later than current time
       // When that happens, we draw an <hr> in the middle of the time slot
       for (const ts of timeslotStrings) {
-        console.log("tzTime is ", tzTime, " and ts.slice(5) is ", ts.slice(5), " and parseInt(tzTime) < parseInt(ts.slice(5)) is ", (parseInt(tzTime) < parseInt(ts.slice(5))))
+        // console.log("tzTime is ", tzTime, " and ts.slice(5) is ", ts.slice(5), " and parseInt(tzTime) < parseInt(ts.slice(5)) is ", (parseInt(tzTime) < parseInt(ts.slice(5))))
         if (parseInt(tzTime) < parseInt(ts.slice(5))) {
           break;
         } else {
@@ -354,7 +354,7 @@ const showFilteredSessionList = (allEvents) => {
 
       const bookmarkedPapers = papers.filter((d) => d.bookmarked);
       const bookmarkedSessions = allEvents.filter((d) => d.bookmarked);
-      console.log(bookmarks)
+      // console.log(bookmarks)
       const contentObj = d3.select(`.content`);
       const sessions2 = d3.select('.content').selectAll("session-group-date-slot.session-listing-row")
       const sessionsData = sessions2.data(allEvents, node => {
@@ -918,7 +918,7 @@ function resetCalendar() {
 function updateTimezone() {
   // get timezone
   const timezone = getTimezone();
-  console.log("IN CALENDAR, timezone is ", timezone, " and our times are ", $(".converted-timezone"))
+  // console.log("IN CALENDAR, timezone is ", timezone, " and our times are ", $(".converted-timezone"))
   // apply timezone
   $(".converted-timezone").each((_, e) => {
     const element = $(e);
@@ -934,7 +934,7 @@ function updateTimezone() {
     // if (converted_date.format("DD") != time.format("DD"))
     //   converted_time += "<br>+1 day";
 
-    console.log("timezone is ", timezone, " time is ", time, " converted time is ", converted_time)
+    // console.log("timezone is ", timezone, " time is ", time, " converted time is ", converted_time)
     element.html(converted_time);
   });
 }
