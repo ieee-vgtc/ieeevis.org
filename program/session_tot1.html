@@ -117,8 +117,8 @@ function updateSessionStatus(onFirstLoad) {
     startTime = '2024-10-18T14:15:00Z'
     endTime = '2024-10-18T15:00:00Z'
 
-    // We take a 15 minute grace period to the start of a session
-    const sessionStart = moment(startTime).tz(current_timezone).subtract(15, 'minutes');
+    // We take a 8 minute grace period to the start of a session
+    const sessionStart = moment(startTime).tz(current_timezone).subtract(8, 'minutes');
     const sessionEnd = moment(endTime).tz(current_timezone);
 
     const sessionIsCurrent = moment().tz(current_timezone).isBetween(sessionStart, sessionEnd);
@@ -140,46 +140,32 @@ function updateSessionStatus(onFirstLoad) {
 
     // Update youtube link for older sessions
     // EDIT - We don't need this when the conference isn't live
-    // if(sessionIsPast){
-    //     const roomidjson = "bayshoreplenary-"+moment(startTime).format('ddd').toLowerCase()+".json"
-    //     // console.log("this session was in:" , roomidjson)
+    if(sessionIsPast){
+        const roomidjson = "bayshoreplenary-"+moment(startTime).format('ddd').toLowerCase()+".json"
+        // console.log("this session was in:" , roomidjson)
 
-    //     return fetch("https://virtual-data.ieeevis.org/"+roomidjson, {cache: "no-store"})
-    //     .then(response => response.json())
-    //     .then(data => {
-    //         //console.log(data)
-    //         // console.log('youtube_url: ' + data.youtube_url)
-    //         //$("ytold").attr("href",data.youtube_url)
+        return fetch("https://virtual-data.ieeevis.org/"+roomidjson, {cache: "no-store"})
+        .then(response => response.json())
+        .then(data => {
+            //console.log(data)
+            // console.log('youtube_url: ' + data.youtube_url)
+            //$("ytold").attr("href",data.youtube_url)
 
-    //         // clear link element to avoid multiple appends
-    //         document.getElementById("ytold").innerHTML = '';
+            // clear link element to avoid multiple appends
+            document.getElementById("ytold").innerHTML = '';
 
-    //         // TOREMOVE Special case handling with two streams
-    //         if(roomidjson=="ok5-mon.json"){
-    //             var a = document.createElement('a'); 
-    //             var link = document.createTextNode("https://youtu.be/R4VnLGyeBfg");  
-    //             a.appendChild(link); 
-    //             a.title = "YouTube Link 1"; 
-    //             a.href = "https://youtu.be/R4VnLGyeBfg"; 
-    //             document.getElementById("ytold").appendChild(a);
-    //             document.getElementById("ytold").appendChild(document.createElement('br'));
-    //         }
-
-    //         var a = document.createElement('a'); 
-    //         var link = document.createTextNode(data.youtube_url);  
-    //         a.appendChild(link); 
-    //         a.title = "YouTube Link"; 
-    //         a.href = data.youtube_url; 
+            var a = document.createElement('a'); 
+            var link = document.createTextNode(data.youtube_url);  
+            a.appendChild(link); 
+            a.title = "YouTube Link"; 
+            a.href = data.youtube_url; 
             
-    //         document.getElementById("ytold").appendChild(a);
-
-            
-
-    //     })
-    //     .catch(error => {
-    //         console.log("err: ", error);
-    //     })
-    // }
+            document.getElementById("ytold").appendChild(a);
+        })
+        .catch(error => {
+            console.log("err: ", error);
+        })
+    }
     
 
 }
