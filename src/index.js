@@ -40,6 +40,9 @@ const updateUI = async (auth0, query) => {
       item.classList.remove('hide-auth-controls')
     })
 
+    Array.from(document.getElementsByClassName('discord-public-link')).map((item) => {
+      item.classList.remove('hide-auth-controls')
+    })
     // Array.from(document.getElementsByClassName('logout-button')).map((item) => {
     //   item.classList.remove('hide-auth-controls')
     // })
