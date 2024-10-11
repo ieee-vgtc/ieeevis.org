@@ -51,7 +51,9 @@ function finishCalendar(renderPromises) {
 
   // only when everything has rendered do we update times in the calendar
   Promise.all(renderPromises).then(() => {
-    setTimeout(() => {
+    setInterval(() => {
+      //Some kind of race condition was going on, so we are going to just
+      //fix the times every 500ms
       updateTimezone();
     }, 500)
     tippy("[data-tippy-content]", { trigger: "mouseenter focus" });
