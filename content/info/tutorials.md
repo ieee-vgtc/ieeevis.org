@@ -63,7 +63,7 @@ There currently are two main approaches for running online user studies: experim
 
 
 ## <a name="LLM"></a> LLM4Vis: Large Language Models for Information Visualization
-Sunday, October 13, 2024: Afternoon
+Monday, October 14, 2024: Morning
 
 Enamul Hoque, *York University* <br>
 
