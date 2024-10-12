@@ -114,9 +114,7 @@ $(document).ready(function() {
     setInterval(filterByCurrentSession, 30 * 1000);
     filterByCurrentSession();
 
-    updateStreamSource();
-    setStreamCount(0);
-    getStreamCount();
+    // updateStreamSource();
 })
 
 function updateStreamSource(){    
@@ -168,7 +166,7 @@ function filterByCurrentSession() {
         return moment.utc().tz(current_timezone).isBefore(sessionStart);
     }
 
-    let sessionIsRecent = function(session) {
+    sessionIsRecent = function(session) {
         const sessionStart = moment.utc(session['startTime']).tz(current_timezone);
         const sessionEnd = moment.utc(session['endTime']).tz(current_timezone).add(2, 'hours');
         return moment.utc().tz(current_timezone).isBetween(sessionStart, sessionEnd);
@@ -177,6 +175,9 @@ function filterByCurrentSession() {
     let currentSession = sessionTimings.find(sessionIsCurrent);
     let recentSession = sessionTimings.find(sessionIsRecent);
     let nextSession = sessionTimings.find(sessionIsFuture);
+    console.log("currentSession is ", currentSession);
+    console.log("recentSession is ", recentSession);
+    console.log("nextSession is ", nextSession);
 
     const classesToHide = ['.room_session_descriptor', '.room_session_timeslot', '.room_session_future_stream']
     classesToHide.forEach((c) => { $(c).hide();});
