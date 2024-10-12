@@ -114,18 +114,18 @@ $(document).ready(function() {
     setInterval(filterByCurrentSession, 30 * 1000);
     filterByCurrentSession();
 
-    // updateStreamSource();
+    updateStreamSource();
 })
 
 function updateStreamSource(){    
-    let streaming_id = "bayshore2-"+moment.utc().format('ddd').toLowerCase()
+    let streaming_id = "bayshore2"+moment.utc().format('ddd');
     console.log(streaming_id)
     //console.log("https://virtual-data.ieeevis.org/"+streaming_id+".json")
     return fetch("https://virtual-data.ieeevis.org/"+streaming_id+".json", {cache: "no-store"})
         .then(response => response.json())
         .then(data => {
-            // console.log(data)
-            // console.log('youtube_url: ' + data.youtube_url + ' slido ' + data.slido_link + ' discord ' + data.discord_link)
+            console.log(data)
+            console.log('youtube_url: ' + data.youtube_url + ' slido ' + data.slido_link + ' discord ' + data.discord_link)
             return data;
 
         })
@@ -221,22 +221,28 @@ function filterByCurrentSession() {
 
         // TODO - error handling
         // This is where we would interface with vis-virtual-data
-        // updateStreamSource().then(streamData => {
-        //     if ('youtube_id' in streamData) {
-        //         new_youtube_id = streamData['youtube_id'];
-        //     }
+        updateStreamSource().then(streamData => {
+            if ('youtube_id' in streamData) {
+                new_youtube_id = streamData['youtube_id'];
+            } else {
+                new_youtube_id = youtube_id;
+            }
 
-        //     if ('slido_link' in streamData) {
-        //         new_slido_link = streamData['slido_link'];
-        //     }
+            if ('slido_link' in streamData) {
+                new_slido_link = streamData['slido_link'];
+            } else {
+                new_slido_link = slido_link;
+            }
 
-        //     if ('discord_link' in streamData) {
-        //         new_discord_link = streamData['discord_link'];
-        //     }
-        // instead, we will just assign to the new one
-        new_youtube_id = youtube_id;
-        new_slido_link = slido_link;
-        new_discord_link = discord_link;
+            if ('discord_link' in streamData) {
+                new_discord_link = streamData['discord_link'];
+            } else {
+                new_discord_link = discord_link;
+            }
+        // // instead, we will just assign to the new one
+        // new_youtube_id = youtube_id;
+        // new_slido_link = slido_link;
+        // new_discord_link = discord_link;
             console.log("new_youtube_id is ", new_youtube_id, " and CURRENT_YOUTUBE_ID is ", CURRENT_YOUTUBE_ID);
             if ((new_youtube_id.length > 0 && new_youtube_id != CURRENT_YOUTUBE_ID) || (new_slido_link.length > 0 && new_slido_link != CURRENT_SLIDO_LINK) || (new_discord_link.length > 0 && new_discord_link != CURRENT_DISCORD_LINK)) {
                 youtube_id = new_youtube_id;
@@ -301,7 +307,7 @@ function filterByCurrentSession() {
                 playbackContainer.append(linksCollection);
             }
 
-        // });
+        });
 
     } else if (!recentSession) {
         // Need to destroy the iframe if it is rendered
