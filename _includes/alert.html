@@ -17,4 +17,11 @@
         {{ include.button-text }}
     </a>
     </div>
+    {% if include.button-2-url %}
+        <div style="margin-left: 20px">
+            <a href="{{ include.button-2-url | relative_url }}" class="button">
+            {{ include.button-2-text }}
+        </a>
+        </div>
+    {% endif %}
 </div>
