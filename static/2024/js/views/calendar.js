@@ -107,8 +107,8 @@ function finishCalendar(renderPromises) {
         // Draw the thing
         const position = $($(`#tab-${tzDayOfWeek} .time-slot[data-time="${currTimeSlot}"`)[0]).position()
 
-        $('#curr-time-indicator-line').css({top: position.top + 10, position: 'absolute', width: '77vw'}).show();
-        $('#curr-time-indicator-label').css({top: position.top + 45, left: 75, position: 'absolute', width: '77vw'}).html(`Now: ${tzTimeStr}`).show();
+        $(`#${tzDayOfWeek}-curr-time-indicator-line`).css({top: position.top + 10, position: 'absolute', width: '77vw'}).show();
+        $(`#${tzDayOfWeek}-curr-time-indicator-label`).css({top: position.top + 45, left: 75, position: 'absolute', width: '77vw'}).html(`Now: ${tzTimeStr}`).show();
       }
     }
   }, 200);
