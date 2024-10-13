@@ -131,7 +131,8 @@
         [bayshore5-end bayshore6-start] 1fr
         [bayshore6-end bayshore7-start] 1fr
         [bayshore7-end palmaceia1-start] 1fr
-        [palmaceia1-end timezones-start] 5em
+        [palmaceia1-end bayshoreplenary-start] 1fr
+        [bayshoreplenary-end timezones-start] 5em
         [timezones-end];
 }
 
@@ -144,7 +145,8 @@
         [bayshore3-end bayshore5-start] 1fr
         [bayshore5-end bayshore6-start] 1fr
         [bayshore6-end bayshore7-start] 1fr
-        [bayshore7-end timezones-start] 5em
+        [bayshore7-end bayshoreplenary-start] 1fr
+        [bayshoreplenary-end timezones-start] 5em
         [timezones-end];
 }
 
@@ -152,7 +154,8 @@
     grid-template-columns:
         [times] 5em
         [bayshoreplenary-start] 1fr
-        [bayshoreplenary-end bayshore5-start] 1fr
+        [bayshoreplenary-end bayshore1-start] 1fr
+        [bayshore1-end bayshore5-start] 1fr
         [bayshore5-end bayshore6-start] 1fr
         [bayshore6-end bayshore7-start] 1fr
         [bayshore7-end timezones-start] 5em
