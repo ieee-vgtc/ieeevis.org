@@ -15,8 +15,8 @@ contact: community@ieeevis.org
 ## <a name="vis-lies"></a>VisLies! Meetup
 
 Thursday 17 October 2024<br>
-4:45pm<br>
-Bayshore V <br> 
+3:00pm<br>
+Check Discord or contact the orgnanisers for the Zoom meeting link!<br> 
 Organizers: Kenneth Moreland and Bernice Rogowitz <br>
 Contact: <br>
 morelandkd@ornl.gov <br>
