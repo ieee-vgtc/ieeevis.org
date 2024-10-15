@@ -116,7 +116,8 @@
         [times] 5em
         [bayshorefoyer-start] 1fr
         [bayshorefoyer-end bayshoreplenary-start] 1fr
-        [bayshoreplenary-end bayshore3-start] 1fr
+        [bayshoreplenary-end bayshore1-start] 1fr
+        [bayshore1-end bayshore3-start] 1fr
         [bayshore3-end timezones-start] 5em
         [timezones-end];
 }
