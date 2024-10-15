@@ -42,9 +42,9 @@ For past tours, see: [https://www.gicentre.net/velo-club-rides](https://www.gice
 
 ## <a name="vis4good"></a>Vis4Good Meetup
 
-Monday 14 October 2024<br>
-11:35am <br>
-Bayshore III <br>
+Thursday 17 October 2024<br>
+3:30pm <br>
+Check Discord or email organisers for Zoom link! <br>
 Organizers: Evan Peck <br>
 Contact:<br>
 evan.peck@colorado.edu <br>
