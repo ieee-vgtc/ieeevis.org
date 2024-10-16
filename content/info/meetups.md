@@ -15,8 +15,8 @@ contact: community@ieeevis.org
 ## <a name="vis-lies"></a>VisLies! Meetup
 
 Thursday 17 October 2024<br>
-4:45pm<br>
-Bayshore V <br> 
+3:00pm<br>
+Check Discord or contact the orgnanisers for the Zoom meeting link!<br> 
 Organizers: Kenneth Moreland and Bernice Rogowitz <br>
 Contact: <br>
 morelandkd@ornl.gov <br>
@@ -42,9 +42,9 @@ For past tours, see: [https://www.gicentre.net/velo-club-rides](https://www.gice
 
 ## <a name="vis4good"></a>Vis4Good Meetup
 
-Monday 14 October 2024<br>
-11:35am <br>
-Bayshore III <br>
+Thursday 17 October 2024<br>
+3:30pm <br>
+Check Discord or email organisers for Zoom link! <br>
 Organizers: Evan Peck <br>
 Contact:<br>
 evan.peck@colorado.edu <br>

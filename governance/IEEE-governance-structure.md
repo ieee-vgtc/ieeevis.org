@@ -10,9 +10,11 @@ The IEEE VIS Governance Structure is described in the IEEE VIS Charter. This cha
 Berlin meetings, the reVISe committee Amended Recommendations (Area Model, Governance, Keywords, Transition Plan) of October 2019 (presented in Vancouver) and subsequent work by the reVISe committee, which has delivered a series of concrete proposals for an area model and governance structure for the new conference.
 
 
-* [Current Charter Version](https://github.com/ieee-vgtc/ieeevis.org/files/8206968/2022-01-18.VIS.Charter.-.Amendment.-.Approved.by.VSC.pdf): This version includes changes to the IEEE VIS election procedure approved by the IEEE VIS Steering committee on January 18, 2022. 
+* [Current Charter Version](https://ieeevis.b-cdn.net/vis_2024/pdfs/2024-10-09%20VIS%20Charter%20-%20Approved.pdf): This version includes changes that improve the coordination of shared tasks between the Steering and Executive Committees (VSC and VEC), adds a co-chair model for both committees, and makes changes to required meetings at the IEEE VIS conference.
 
 ### Archive
+
+* [Charter Version 3](https://github.com/ieee-vgtc/ieeevis.org/files/8206968/2022-01-18.VIS.Charter.-.Amendment.-.Approved.by.VSC.pdf): This version includes changes to the IEEE VIS election procedure approved by the IEEE VIS Steering committee on January 18, 2022. 
 
 * [Charter Version 2](https://github.com/ieee-vgtc/ieeevis.org/files/8206973/2020-10-01.VIS.Charter.-.Amendment.-.Approved.by.VSC.pdf): This version includes minor typo fixes and clarifications spotted during the implementation of the charter. The IEEE VIS steering committee approved the changes on October 1st, 2020.
 
