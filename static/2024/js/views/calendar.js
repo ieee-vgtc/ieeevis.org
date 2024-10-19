@@ -818,6 +818,7 @@ function populateRooms(calendarSelection, roomNames, day) {
       roomData = [
         { link: 'room_bayshorefoyer.html', roomId: 'bayshorefoyer', text: "Bayshore Foyer" },
         { link: 'room_bayshoreplenary.html', roomId: 'bayshoreplenary', text: "Bayshore I + II + III" },
+        { link: 'room_bayshore1.html', roomId: 'bayshore1', text: "Bayshore I" },
         { link: 'room_bayshore3.html', roomId: 'bayshore3', text: "Bayshore III" }
       ];
       break;
