@@ -2,12 +2,12 @@
 title: Jobs
 layout: page
 active_nav: "Program"
-permalink: /year/2024/info/jobs
+permalink: /year/2025/info/jobs
 ---
 
-## Welcome to the VIS 2024 site for job postings
+## Welcome to the VIS 2025 site for job postings
 
-We will collect job postings and display them here throughout the VIS 2024 meeting. 
+We will collect job postings and display them here throughout the VIS 2025 meeting. 
 
 [VIS Community Job Posting Form](https://forms.gle/A1Yqz1iTWkowDhdEA)
 

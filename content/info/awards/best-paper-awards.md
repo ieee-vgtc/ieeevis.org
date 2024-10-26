@@ -1,7 +1,7 @@
 ---
 title: Best Paper/Poster Awards
 layout: page
-permalink: /year/2024/info/awards/best-paper-awards
+permalink: /year/2025/info/awards/best-paper-awards
 contact: papers@ieeevis.org
 active_nav: "Program"
 ---

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Contributing to the IEEE VIS website"
-permalink: /year/2024/info/contributing
+permalink: /year/2025/info/contributing
 active_nav: "Organization & History"
 contact: web@ieeevis.org
 ---

@@ -2,14 +2,14 @@
 title: Panels
 layout: page
 sidebar: call-for-participation
-permalink: /year/2024/info/call-participation/panels
+permalink: /year/2025/info/call-participation/panels
 active_nav: "Contribute"
 contact: panels_tutorials@ieeevis.org
 active_nav: "Contribute"
 sidebar: call-for-workshops
 ---
 
-IEEE VIS 2024 Panels should address contemporary, important and/or controversial debates, issues and applications in visualization and related topics. In particular, we invite panels that:
+IEEE VIS 2025 Panels should address contemporary, important and/or controversial debates, issues and applications in visualization and related topics. In particular, we invite panels that:
 
 * Bring together interest groups and discuss cross-cutting issues that are of interest to the broad VIS community
 * Connect visualization with interesting application fields
@@ -50,9 +50,9 @@ Panels will be recorded and posted to Vimeo for archival viewing. Panels from 20
 
 | Date | Activity |
 |------|----------|
-| Friday, June 28, 2024 | Proposal Submission |
-| Friday, July 26, 2024 | Notification |
-| Friday, August 23, 2024 | Final Submission of Panel Summaries and Video Fast Forwards |
+| Friday, June 28, 2025 | Proposal Submission |
+| Friday, July 26, 2025 | Notification |
+| Friday, August 23, 2025 | Final Submission of Panel Summaries and Video Fast Forwards |
       
 All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth) (same as 2023)**.
 

@@ -1,7 +1,7 @@
 ---
 title: Open Practices arXiv Guidance for First Time Users
 layout: page
-permalink: /year/2024/info/open-practices/arxiv-first-time-user
+permalink: /year/2025/info/open-practices/arxiv-first-time-user
 active_nav: "Contribute"
 contact: open_practices@ieeevis.org
 ---

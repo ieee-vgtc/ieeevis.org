@@ -2,11 +2,11 @@
 title: Paper Sessions
 layout: page
 active_nav: "Program"
-permalink: /year/2024/info/papers-sessions
+permalink: /year/2025/info/papers-sessions
 contact: papers@ieeevis.org
 ---
 
-Please see the full [Full Schedule](https://ieeevis.org/year/2024/program/calendar) or the list of [Accepted Papers](https://ieeevis.org/year/2024/program/papers.html?filter=titles).
+Please see the full [Full Schedule](https://ieeevis.org/year/2025/program/calendar) or the list of [Accepted Papers](https://ieeevis.org/year/2025/program/papers.html?filter=titles).
 
 <!-- Below we list all accepted VIS Full and Short papers, grouped by session.  This list also includes TVCG papers presented in VIS sessions and CG&A Sessions.  More details about papers and their associated presentations will be released with the virtual website. What follows is a list of papers groups by session, note that sessions and times are still preliminary and might change in the final program.
 

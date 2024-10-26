@@ -2,7 +2,7 @@
 title: Presenting at the Virtual Conference
 layout: page
 sidebar: call-for-participation
-permalink: /year/2024/info/presenter-information/presenting-virtually
+permalink: /year/2025/info/presenter-information/presenting-virtually
 active_nav: "Contribute"
 contact: tech@ieeevis.org
 ---

@@ -6,19 +6,19 @@ contact: general_chairs@ieeevis.org
 ---
 
 
-<a href="https://ieee-vis.printify.me/"><img src="/year/2024/assets/vis2024_swag_shop.jpg"
+<a href="https://ieee-vis.printify.me/"><img src="/year/2025/assets/vis2024_swag_shop.jpg"
 	alt="VIS 2024 Swag Shop Now Open" 
 	style="height:100%; width:auto; max-height:400px; padding-right: 20px; float: right"
 	/></a>
 
 
-## We're excited to announce that IEEE VIS 2024 Merchandise is Now Available!
+## We're excited to announce that IEEE VIS 2025 Merchandise is Now Available!
 
-<b>The [shop](https://ieee-vis.printify.me/){:target="_blank"} offers IEEE VIS 2024 branded t-shirts, sweatshirts, blankets, swimsuits, and, yes, even flip-flops, which are all available for a limited time.</b> New items will be added, so be sure to check in frequently. This merchandise will <i>NOT</i> be sold at the conference, so you must order items ahead of time and have them shipped to you!
+<b>The [shop](https://ieee-vis.printify.me/){:target="_blank"} offers IEEE VIS 2025 branded t-shirts, sweatshirts, blankets, swimsuits, and, yes, even flip-flops, which are all available for a limited time.</b> New items will be added, so be sure to check in frequently. This merchandise will <i>NOT</i> be sold at the conference, so you must order items ahead of time and have them shipped to you!
 
 All proceeds benefit the conference activities. 
 
-Community contributions are encouraged. If you have VIS 2024 artwork you would like to contribute, contact the conference [General Chairs](mailto:general_chair@ieeevis.org?subject=Swag Store).
+Community contributions are encouraged. If you have VIS 2025 artwork you would like to contribute, contact the conference [General Chairs](mailto:general_chair@ieeevis.org?subject=Swag Store).
 
 [Visit the Shop](https://ieee-vis.printify.me/){:target="_blank"}, which is available 24/7 at [https://ieee-vis.printify.me/](https://ieee-vis.printify.me/){:target="_blank"} 
 

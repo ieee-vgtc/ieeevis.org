@@ -1,7 +1,7 @@
 ---
-title: VEC Candidates - VIS 2024 Elections
+title: VEC Candidates - VIS 2025 Elections
 layout: page
-permalink: /year/2024/info/vec-candidates
+permalink: /year/2025/info/vec-candidates
 contact: elections@ieeevis.org
 ---
 

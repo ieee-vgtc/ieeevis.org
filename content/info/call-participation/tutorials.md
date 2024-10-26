@@ -1,15 +1,15 @@
 ---
 title: Tutorials - Call For Participation
 layout: page
-permalink: /year/2024/info/call-participation/tutorials
+permalink: /year/2025/info/call-participation/tutorials
 contact: panels_tutorials@ieeevis.org
 active_nav: "Contribute"
 sidebar: call-for-workshops
 ---
 
-Tutorials are intended to cover a wide selection of topics related to IEEE VIS 2024 and provide background on new tools, methods, systems, and application domains necessary for research in scientific visualization, information visualization, visual analytics, and topics that span multiple of these areas. Tutorial attendees come from diverse backgrounds, including, among others: volume and flow visualization, information visualization, geographic visualization, visual analytics, high performance computing, visual data science, visualization in artificial intelligence, extended reality technologies and scientific application communities. Tutorials aimed at practitioners and/or those outside the traditional academic visualization communities are also encouraged.
+Tutorials are intended to cover a wide selection of topics related to IEEE VIS 2025 and provide background on new tools, methods, systems, and application domains necessary for research in scientific visualization, information visualization, visual analytics, and topics that span multiple of these areas. Tutorial attendees come from diverse backgrounds, including, among others: volume and flow visualization, information visualization, geographic visualization, visual analytics, high performance computing, visual data science, visualization in artificial intelligence, extended reality technologies and scientific application communities. Tutorials aimed at practitioners and/or those outside the traditional academic visualization communities are also encouraged.
 
-We are soliciting half-day tutorial proposals about visualization systems, mathematical foundations, research methods, design and development methodology, and application areas. Half-day sessions for tutorials are expected to be approximately 3 hours long (two 75 minute sessions and a 30 minute break in between).  We welcome tutorials on new tools and techniques for visualization, domains in which visualization applies, methods for undertaking visualization research, as well as proposals on more traditional visualization topics. Topics can include–but are not limited to–any of those listed in the calls for papers for all [areas in visualization](/year/2024/info/call-participation/call-for-participation). Tutorials with an application focus and including hands-on demos are particularly encouraged.
+We are soliciting half-day tutorial proposals about visualization systems, mathematical foundations, research methods, design and development methodology, and application areas. Half-day sessions for tutorials are expected to be approximately 3 hours long (two 75 minute sessions and a 30 minute break in between).  We welcome tutorials on new tools and techniques for visualization, domains in which visualization applies, methods for undertaking visualization research, as well as proposals on more traditional visualization topics. Topics can include–but are not limited to–any of those listed in the calls for papers for all [areas in visualization](/year/2025/info/call-participation/call-for-participation). Tutorials with an application focus and including hands-on demos are particularly encouraged.
 
 ## Details
 
@@ -22,14 +22,14 @@ All tutorial proposals should include:
 * An abstract of the tutorial topic;
 * A description of the tutorial’s organization including time allocation and outline for major course topics (500 words minimum);
 * The background and contact information for each instructor;
-* IEEE VIS 2024 is planned to be an in-person event. Therefore tutorial proposals should consist of in-person presenters and tutorials should be designed with in-person attendee participation in mind.
+* IEEE VIS 2025 is planned to be an in-person event. Therefore tutorial proposals should consist of in-person presenters and tutorials should be designed with in-person attendee participation in mind.
 
 Proposals should not exceed three pages, and should be [submitted via PCS](http://new.precisionconference.com/vgtc/). Please note the [formatting guidelines](https://tc.computer.org/vgtc/publications/conference/) when preparing your submission. Authors of accepted tutorials will be required to submit a short summary for the printed program (~50 words).
 
 ## Important Dates
-* Proposal Submission: **Friday, April 26, 2024**
-* Notification: **Friday, May 24, 2024**
-* Final Submission of Summaries: **Friday, July 26, 2024**
+* Proposal Submission: **Friday, April 26, 2025**
+* Notification: **Friday, May 24, 2025**
+* Final Submission of Summaries: **Friday, July 26, 2025**
 
 All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth) (same as 2023)**.
 

@@ -1,7 +1,7 @@
 ---
 title: VIS 2023 Accessible Conference
 layout: page
-permalink: /year/2024/info/accessibility/attend
+permalink: /year/2025/info/accessibility/attend
 contact: accessibility@ieeevis.org
 ---
 

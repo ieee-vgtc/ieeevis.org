@@ -1,7 +1,7 @@
 ---
 title: Tutorials
 layout: page
-permalink: /year/2024/info/tutorials
+permalink: /year/2025/info/tutorials
 contact: panels_tutorials@ieeevis.org
 ---
 
@@ -15,7 +15,7 @@ Here is the list of the accepted tutorials.
 * [Enabling Scientific Discovery: A Tutorial for Harnessing the Power of the National Science Data Fabric for Large-Scale Data Analysis](#ESD)
 * [Preparing, Conducting, and Analyzing Participatory Design Sessions for Information Visualizations](#PAR)
 
-Please see the [Schedule](https://ieeevis.org/year/2024/program/calendar) for times.
+Please see the [Schedule](https://ieeevis.org/year/2025/program/calendar) for times.
 
 <hr/>
 

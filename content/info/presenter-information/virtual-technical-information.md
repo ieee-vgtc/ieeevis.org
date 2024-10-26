@@ -1,14 +1,14 @@
 ---
 title: Virtual Technical Information for Presenters and Organizers
 layout: page
-permalink: /year/2024/info/presenter-information/virtual-technical-information
+permalink: /year/2025/info/presenter-information/virtual-technical-information
 active_nav: "Contribute"
 sidebar: call-for-participation
 contact: tech@ieeevis.org
 ---
-**IEEE VIS 2024 will now be fully virtual.**
+**IEEE VIS 2025 will now be fully virtual.**
 
-This page provides information about the technical configuration for virtually presenting and attending IEEE VIS 2024. Presentations in a session will be live over a virtual Zoom Meeting. Viewing of sessions will occur via a live YouTube broadcast that can be found on each session’s page.
+This page provides information about the technical configuration for virtually presenting and attending IEEE VIS 2025. Presentations in a session will be live over a virtual Zoom Meeting. Viewing of sessions will occur via a live YouTube broadcast that can be found on each session’s page.
 
 **In the week leading up to the conference, all event organizers, session chairs, and presenters will receive technical details about the session they are involved in.**
 

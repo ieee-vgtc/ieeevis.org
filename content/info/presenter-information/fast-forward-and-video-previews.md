@@ -2,7 +2,7 @@
 title: Video Previews
 layout: page
 sidebar: call-for-participation
-permalink: /year/2024/info/presenter-information/fast-forward-and-video-previews
+permalink: /year/2025/info/presenter-information/fast-forward-and-video-previews
 active_nav: "Contribute"
 contact: ff@ieeevis.org
 ---
@@ -11,7 +11,7 @@ contact: ff@ieeevis.org
 Please **read the following instructions carefully** and submit your
 25-second video for the online Video Previews by the following deadlines:
 - Aug. 22: VIS Full/Short Papers
-- ~~Aug. 22~~ Sep. 12: [TVCG/CG&amp;A presentations](/year/2024/info/call-participation/partnerships)
+- ~~Aug. 22~~ Sep. 12: [TVCG/CG&amp;A presentations](/year/2025/info/call-participation/partnerships)
 - Sep. 12: All other events.
 
 Video Previews are a great opportunity to publicize your work or event to a wide audience and invite people to join your presentation and read your paper. Video Previews are accessible from the conference website on the VIS YouTube channel prior to, during, and after the conference.
@@ -75,7 +75,7 @@ vertical-align: top;
 
 - Do not include any title slide at the beginning of the video, as we will add a consistent title to the Video Preview containing: the paper title, authors, and session information.
 - The video should contain audio narration. We discourage salient music to focus viewers’ attention on the content.
-- Subtitles are mandatory to increase accessibility. See the [Talk Guide](/year/2024/info/presenter-information/talk-guide) for tips on how to create and include subtitles.
+- Subtitles are mandatory to increase accessibility. See the [Talk Guide](/year/2025/info/presenter-information/talk-guide) for tips on how to create and include subtitles.
 - A Video Preview should be self-explaining and self-contained. It should clearly communicate your research and contribution and invite readers to read your paper.
 - Other than in recent years’ Fast-Forwards sessions, we discourage humor and trailer-like ‘ads’.
 - The video will exist for a long time and can be shared widely by the authors on social media and other channels.
@@ -87,7 +87,7 @@ If your track is not listed, please check for updates later as all track chairs 
 Video Previews are **required** for the following tracks:
 - VIS Full Papers
 - VIS Short Papers
-- Invited [Partnership](/year/2024/info/call-participation/partnerships) Talks (including TVCG, CG&A, SIGGRAPH, and VR)
+- Invited [Partnership](/year/2025/info/call-participation/partnerships) Talks (including TVCG, CG&A, SIGGRAPH, and VR)
 
 Video Previews are **optional** for all other tracks and associated events, unless notified otherwise by the chairs for that track/event.
 
@@ -95,11 +95,11 @@ You have **no Video-Preview** to submit for the following tracks:
 - Doctor Colloquium
 
 ## How to record your video?
-Please see the [Talk Guide](/year/2024/info/presenter-information/talk-guide) on how to format your Video Preview.
+Please see the [Talk Guide](/year/2025/info/presenter-information/talk-guide) on how to format your Video Preview.
 
  
 ## How to submit?
-- Video Previews will be submitted through our Presentation Material Upload system. The Tech Chairs will send out an email to the corresponding author with a submission-specific upload link. Please see the [Talk Guide](/year/2024/info/presenter-information/talk-guide) for more information on how to submit your Video Preview.
+- Video Previews will be submitted through our Presentation Material Upload system. The Tech Chairs will send out an email to the corresponding author with a submission-specific upload link. Please see the [Talk Guide](/year/2025/info/presenter-information/talk-guide) for more information on how to submit your Video Preview.
 
 - Please submit your video file and caption/subtitle file separately and do not bake the subtitles into the video. We will do the integration in a consistent way.
 

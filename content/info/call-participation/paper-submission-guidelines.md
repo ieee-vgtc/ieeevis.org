@@ -1,13 +1,13 @@
 ---
 title: Paper Submission Guidelines
 layout: page
-permalink: /year/2024/info/call-participation/paper-submission-guidelines
+permalink: /year/2025/info/call-participation/paper-submission-guidelines
 active_nav: "Contribute"
 sidebar: call-for-participation
 contact: papers@ieeevis.org
 ---
 
-IEEE Vis follows the [area model](/year/2024/info/call-participation/area-model), and thus a paper for IEEE VIS should be submitted to one of six areas. Make sure that you carefully read both the descriptions for each of the six areas (see also the [area model FAQs](/year/2024/info/call-participation/area-model#frequently-asked-questions)) and the guidelines below before submitting your paper.
+IEEE Vis follows the [area model](/year/2025/info/call-participation/area-model), and thus a paper for IEEE VIS should be submitted to one of six areas. Make sure that you carefully read both the descriptions for each of the six areas (see also the [area model FAQs](/year/2025/info/call-participation/area-model#frequently-asked-questions)) and the guidelines below before submitting your paper.
 
 ## Contents
 
@@ -38,11 +38,11 @@ IEEE Vis follows the [area model](/year/2024/info/call-participation/area-model)
   
 ## Submission System
 
-IEEE VIS uses the [Precision Conference System (PCS)](https://new.precisionconference.com/vgtc) to handle the submission and reviewing process. When submitting your manuscript, at the top of the PCS Submissions tab you should select 'VGTC' for the society, 'VIS 2024' for the conference/journal, and 'VIS 2024 Full Papers' for the track. Then, please make sure that you submit it to your intended area by choosing the appropriate area from the list of six areas. In the [area description page](/year/2024/info/call-participation/area-model), you can find information guiding you to choose an appropriate area along with example papers for each area. 
+IEEE VIS uses the [Precision Conference System (PCS)](https://new.precisionconference.com/vgtc) to handle the submission and reviewing process. When submitting your manuscript, at the top of the PCS Submissions tab you should select 'VGTC' for the society, 'VIS 2025' for the conference/journal, and 'VIS 2025 Full Papers' for the track. Then, please make sure that you submit it to your intended area by choosing the appropriate area from the list of six areas. In the [area description page](/year/2025/info/call-participation/area-model), you can find information guiding you to choose an appropriate area along with example papers for each area. 
 
 ## Formatting and Language Guidelines
 
-Papers must follow the [formatting guidelines for IEEE VIS *TVCG* Journal submissions](https://tc.computer.org/vgtc/publications/journal). Note that **the template has changed since 2024** (latest update Feb 9, 2024), see below for updates on page length. Both authors and reviewers should also note that the previous paper types specified in the template are no longer in effect for VIS although they are used by other conferences, so please ignore the `vgtcpapertype` field in the template. Papers should include full-color figures throughout and we encourage authors to showcase their work with annotated, well described, large, and detailed graphics. We also encourage the placement of a teaser image at the top of the very first page to showcase your work visually. IEEE VIS reviewers appreciate high-quality submissions with correct English spelling and grammar: non-native English speakers may wish to enlist an English language editing service.
+Papers must follow the [formatting guidelines for IEEE VIS *TVCG* Journal submissions](https://tc.computer.org/vgtc/publications/journal). Note that **the template has changed since 2025** (latest update Feb 9, 2025), see below for updates on page length. Both authors and reviewers should also note that the previous paper types specified in the template are no longer in effect for VIS although they are used by other conferences, so please ignore the `vgtcpapertype` field in the template. Papers should include full-color figures throughout and we encourage authors to showcase their work with annotated, well described, large, and detailed graphics. We also encourage the placement of a teaser image at the top of the very first page to showcase your work visually. IEEE VIS reviewers appreciate high-quality submissions with correct English spelling and grammar: non-native English speakers may wish to enlist an English language editing service.
 
 ## Anonymization
 
@@ -80,7 +80,7 @@ Self-plagiarism, which is verbatim copying of text from the authors' own prior w
 * Thesis: If the previous paper was a thesis or dissertation, and the student is an author/co-author of the work, the work should be cited and copying of text is allowed.
 * Nonarchival: If the previous paper appears at a non-archival and lightly-reviewed or non-reviewed venue such as posters, alt.chi/alt.vis, or other non-archived workshops, and the author list is identical or mostly overlapping, the work should be cited and copying of text is allowed.
 * Published: If the previous paper has gone through peer review by an established publisher and is archived in the publisher’s digital library, copying of text is not allowed. 
-* Extended:  If the previous paper is an extended paper from previous archivally published submission (eg short paper from VIS or EuroVis), with identical or mostly overlapping author list, the work should be cited. Copying of text is not allowed. [See Short Papers CFP guidance](/year/2024/info/call-participation/shortpapers) for more details.  
+* Extended:  If the previous paper is an extended paper from previous archivally published submission (eg short paper from VIS or EuroVis), with identical or mostly overlapping author list, the work should be cited. Copying of text is not allowed. [See Short Papers CFP guidance](/year/2025/info/call-participation/shortpapers) for more details.  
 
 ## Review Process
 
@@ -121,7 +121,7 @@ When submitting your abstract (for the March 21 deadline) you will be asked to p
 
 Submissions will be treated as confidential communications during the review process, and thus submissions do not constitute public disclosure of any ideas therein. Submissions should contain no information or materials that will be proprietary or confidential at the time of publication (at the conference), and should cite no publications that are proprietary or confidential at the time of publication. 
 
-Each full paper accepted at IEEE VIS 2024 will be required to be presented by one of the authors, either in-person or virtually. All presenters are required to register as a speaker, irrespective of their mode of presentation. Additionally, diversity and inclusivity scholarships will be available to support the participation of speakers with financial needs.
+Each full paper accepted at IEEE VIS 2025 will be required to be presented by one of the authors, either in-person or virtually. All presenters are required to register as a speaker, irrespective of their mode of presentation. Additionally, diversity and inclusivity scholarships will be available to support the participation of speakers with financial needs.
 
 ## Use of Generative AI in Paper Writing
 
@@ -136,11 +136,11 @@ In addition, we expect that authors provide a hyperlinked DOI for each entry for
 
 Please also check for consistency: title capitalization (watch out for proper names and acronyms), proceedings names (short form like "Proc. CONF" (e.g. “Proc. PacificVis” or “Proc. CHI”) for brevity is ok and avoids mentioning the year multiple times in the entry) and journal names (you can use ISO4 abbreviations, see [https://en.wikipedia.org/wiki/ISO_4](https://en.wikipedia.org/wiki/ISO_4) and  [https://journal-abbreviations.library.ubc.ca/](https://journal-abbreviations.library.ubc.ca/)), either never or always use months for articles (if you want to use months, use BibTeX variables like jan, not {01}, {jan}, {Jan}, or other), etc. Check for correct spelling of all author names in both the bibliography and also in your main document.  
 
-Note that recently several journals and publishers have started to use article numbers instead of page numbers, do not cite them as a single page but (consistently) either as "article no. 117, 12 pages" (like ACM does) or as "117:1--117:12" for the pages. Please also note that for those papers which have not yet fully appeared please do not give any page numbers (e.g., "1--12") that some digital library may give you, but cite them without page numbers and with the current year (2024 right now) and with a note "In press" or "To appear" (and give the DOI if it exists already).
+Note that recently several journals and publishers have started to use article numbers instead of page numbers, do not cite them as a single page but (consistently) either as "article no. 117, 12 pages" (like ACM does) or as "117:1--117:12" for the pages. Please also note that for those papers which have not yet fully appeared please do not give any page numbers (e.g., "1--12") that some digital library may give you, but cite them without page numbers and with the current year (2025 right now) and with a note "In press" or "To appear" (and give the DOI if it exists already).
 
 ## Ethics Guidelines
 
-IEEE VIS adheres to the [VGTC ethics guidelines for reviewers](http://tc.computer.org/vgtc/conferences/ethics-guidelines) and has established a [Code of Conduct](/year/2024/info/inclusion/code-of-conduct). In all aspects of the paper handling process, any possible violation of these guidelines is taken seriously and may be reported to the APCs/OPCs for further handling within the VIS organization. Special attention is paid to the identification and reporting of plagiarism and possibly unethical paper content is monitored carefully in the reviewing process, also. We assume a zero tolerance policy regarding harassment situations as outlined in the Code of Conduct, should any such situation occur in the paper handling process. Investigation and processing of reported cases may lead to an escalation to the IEEE level.
+IEEE VIS adheres to the [VGTC ethics guidelines for reviewers](http://tc.computer.org/vgtc/conferences/ethics-guidelines) and has established a [Code of Conduct](/year/2025/info/inclusion/code-of-conduct). In all aspects of the paper handling process, any possible violation of these guidelines is taken seriously and may be reported to the APCs/OPCs for further handling within the VIS organization. Special attention is paid to the identification and reporting of plagiarism and possibly unethical paper content is monitored carefully in the reviewing process, also. We assume a zero tolerance policy regarding harassment situations as outlined in the Code of Conduct, should any such situation occur in the paper handling process. Investigation and processing of reported cases may lead to an escalation to the IEEE level.
 
 ## Paper Submission Keywords
 

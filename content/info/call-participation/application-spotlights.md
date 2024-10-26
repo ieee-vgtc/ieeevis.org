@@ -1,7 +1,7 @@
 ---
 title: Application Spotlights
 layout: page
-permalink: /year/2024/info/call-participation/application-spotlights
+permalink: /year/2025/info/call-participation/application-spotlights
 active_nav: "Contribute"
 sidebar: call-for-workshops
 contact: spotlights@ieeevis.org
@@ -60,9 +60,9 @@ Feel free to contact us at application_spotlights@ieeevis.org if you have any qu
 
 |**Date**  |**Activity**|
 |--|--|
-|June 6th, 2024| Submission deadline |
-|June 27th, 2024| Notifications |
-| July 18th, 2024 | Camera-ready deadline |
+|June 6th, 2025| Submission deadline |
+|June 27th, 2025| Notifications |
+| July 18th, 2025 | Camera-ready deadline |
 
 
 All deadlines are at 11:59pm (23:59) AoE  **Anywhere on Earth  [(AoE)](https://time.is/Anywhere_on_Earth) 

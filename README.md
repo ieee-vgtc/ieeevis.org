@@ -2,7 +2,7 @@
 
 Hi!  This is the Jekyll version of the [IEEE VIS website](http://ieeevis.org).
 
-The `vis2024` branch (the page you're currently viewing) is the current year's website.
+The `vis2025` branch (the page you're currently viewing) is the current year's website.
 
 To edit files in other years, check out the other `vis*` branches.  Click the below links to teleport:
 - [vis2023](https://github.com/ieee-vgtc/ieeevis.org/tree/vis2023) - the 2023 redesign
@@ -14,7 +14,7 @@ To edit files in other years, check out the other `vis*` branches.  Click the be
 
 ## Contributing
 
-If you're contributing content, but not administrating the website itself, you will want to follow the [contributor's guide](http://ieeevis.org/year/2024/info/contributing).
+If you're contributing content, but not administrating the website itself, you will want to follow the [contributor's guide](http://ieeevis.org/year/2025/info/contributing).
 
 ## Building
 

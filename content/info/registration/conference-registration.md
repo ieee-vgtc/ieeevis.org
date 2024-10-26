@@ -2,17 +2,17 @@
 title: Conference Registration
 layout: page
 active_nav: "Attend"
-permalink: /year/2024/info/registration/conference-registration
+permalink: /year/2025/info/registration/conference-registration
 contact: finance@ieeevis.org
 ---
-## VIS 2024: HYBRID EVENT REGISTRATION
-The 2024 IEEE Visualization and Visual Analytics Conference, running from October 13 - 18, is organized as a hybrid event. The conference will be held at the Hilton Tampa Downtown, in Tampa, Florida. The virtual component of the conference will provide access to the VIS community around the world who might not be able to travel with streaming in-person presenter-only sessions, virtual presenter-only sessions hosted on Zoom and downloadable proceedings. 
+## VIS 2025: HYBRID EVENT REGISTRATION
+The 2025 IEEE Visualization and Visual Analytics Conference, running from October 13 - 18, is organized as a hybrid event. The conference will be held at the Hilton Tampa Downtown, in Tampa, Florida. The virtual component of the conference will provide access to the VIS community around the world who might not be able to travel with streaming in-person presenter-only sessions, virtual presenter-only sessions hosted on Zoom and downloadable proceedings. 
 
 
 ### Important Dates
 <ul>
-<li>Registration opening: June 3, 2024</li>
-<li>Early Registration deadline: September 1, 2024</li>
+<li>Registration opening: June 3, 2025</li>
+<li>Early Registration deadline: September 1, 2025</li>
 </ul>
 
 
@@ -21,7 +21,7 @@ The 2024 IEEE Visualization and Visual Analytics Conference, running from Octobe
 <li>One speaker for each Main Conference Paper, Main Conference Short Paper or Invited TVCG Paper <b>MUST</b> register under the On-site Speaker Conference Registration or the Virtual Speaker Conference Registration option or the corresponding Student Speaker options. </li>
 <li>Presenters can add multiple papers to their Speaker Conference Registration</li>
 <li>Presenters participating only at symposia, workshops, tutorials, or panels <b>SHOULD NOT</b> select the Speaker Conference Registration category. Instead, they need to use the On-site Conference Registration category </li>
-<li><b>Speaker Registration Includes:</b> Admission to all conference sessions, symposia, tutorials and workshops, Banquet (Wednesday) and access to VIS 2024 online content.</li>
+<li><b>Speaker Registration Includes:</b> Admission to all conference sessions, symposia, tutorials and workshops, Banquet (Wednesday) and access to VIS 2025 online content.</li>
 </ul>
 
 <a class="button" href="https://cvent.me/gkMV2G">IN-PERSON AND VIRTUAL SPEAKERS REGISTER NOW</a>
@@ -60,9 +60,9 @@ The 2024 IEEE Visualization and Visual Analytics Conference, running from Octobe
 ## FOR ALL OTHER IN-PERSON ATTENDEES
 Attendees should register online in advance and pay via credit card or wire transfer.
 <ul>
-  <li><b>Full Week Conference Registration Includes:</b> Admission to all conference sessions, symposia, tutorials and workshops, Banquet (Wednesday) and access to VIS 2024 online content.</li>
-<li><b>One Day Conference Registration Includes:</b> One day admission to any conference sessions, symposia, tutorials, and workshops for that day, and access to VIS 2024 online content.</li>
- <li><b>Two Day Conference Registration Includes:</b> Two day admission to any conference sessions, symposia, tutorials, and workshops for those days and access to VIS 2024 online content.</li>
+  <li><b>Full Week Conference Registration Includes:</b> Admission to all conference sessions, symposia, tutorials and workshops, Banquet (Wednesday) and access to VIS 2025 online content.</li>
+<li><b>One Day Conference Registration Includes:</b> One day admission to any conference sessions, symposia, tutorials, and workshops for that day, and access to VIS 2025 online content.</li>
+ <li><b>Two Day Conference Registration Includes:</b> Two day admission to any conference sessions, symposia, tutorials, and workshops for those days and access to VIS 2025 online content.</li>
 </ul>
 IEEE VIS provides discounted registration rates for students and IEEE Members
 
@@ -232,7 +232,7 @@ Virtual attendees should register online in advance and pay via credit card.
 <li>Individuals who need financial assistance but reside in a country not included on the Diversity Admission list, can select the Inclusivity Admission option for a free virtual registration.</li>
 </ul>
 
-<a class="button" href="https://www.eventbrite.com/e/2024-ieee-vis-visualization-and-visual-analytics-tickets-885829258157"> VIRTUAL CONFERENCE PARTICIPANT REGISTRATION </a>
+<a class="button" href="https://www.eventbrite.com/e/2025-ieee-vis-visualization-and-visual-analytics-tickets-885829258157"> VIRTUAL CONFERENCE PARTICIPANT REGISTRATION </a>
 
 
 ### Virtual Participant Registration Fees
@@ -259,7 +259,7 @@ Virtual attendees should register online in advance and pay via credit card.
 
 ### Visa Letter Requests
 
-For on-site conference participants who need a visa to enter the United States of America, a <a href="/year/2024/info/registration/travel-visas">visa invitation letter</a> will be automatically generated using your name, organization, and address when you register for the conference. Requests for letters containing additional information, such as date of birth or passport information (number, date of issue, expiration date, place of issue), may be e-mailed to: <a href="mailto:visa-letters@ieeevis.org"> visa-letters@ieeevis.org</a>.  <b>You must be fully registered for the conference before any letter can be issued.</b>
+For on-site conference participants who need a visa to enter the United States of America, a <a href="/year/2025/info/registration/travel-visas">visa invitation letter</a> will be automatically generated using your name, organization, and address when you register for the conference. Requests for letters containing additional information, such as date of birth or passport information (number, date of issue, expiration date, place of issue), may be e-mailed to: <a href="mailto:visa-letters@ieeevis.org"> visa-letters@ieeevis.org</a>.  <b>You must be fully registered for the conference before any letter can be issued.</b>
 
 ### Registration FAQS
 

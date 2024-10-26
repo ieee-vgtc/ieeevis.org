@@ -1,7 +1,7 @@
 ---
 title: Open Practices Supplemental Material FAQ
 layout: page
-permalink: /year/2024/info/open-practices/supplemental-material-faq
+permalink: /year/2025/info/open-practices/supplemental-material-faq
 active_nav: "Contribute"
 sidebar: call-for-participation
 contact: open_practices@ieeevis.org

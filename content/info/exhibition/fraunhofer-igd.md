@@ -1,6 +1,6 @@
 ---
 title: Fraunhofer IGD
-permalink: /year/2024/info/exhibition/fraunhofer-igd
+permalink: /year/2025/info/exhibition/fraunhofer-igd
 contact: supporters@ieeevis.org
 active_nav: "Contribute"
 layout: landing

@@ -1,14 +1,14 @@
 ---
 layout: page
 title: "Keynote by Dr. Bill Pike"
-permalink: /year/2024/info/keynote-speaker
+permalink: /year/2025/info/keynote-speaker
 contact: info@ieeevis.org
 active_nav: "Program"
 ---
 
 <div style="display:flex; align-items: center;">
 <div class="image-container" style="">
-	<img src="/year/2024/assets/carousel/bill-pike.jpg"
+	<img src="/year/2025/assets/carousel/bill-pike.jpg"
 	alt="Capstone Speaker: Dr. Bill Pike, Chief Science and Technology Officer, National Security Directorate, Pacific Northwest National Laboratory" 
 	style="height:100%; width:auto; max-height:400px; padding-right: 20px"
 	/>

@@ -8,7 +8,7 @@ Visualization taps into the very best capabilities of our brains, transforming f
 
 Promoting and fostering inclusion is important to IEEE VIS. The IEEE VIS community provides opportunities to underrepresented groups as well as education of the community on the benefits of a more inclusive culture and programming. Acknowledging the uniqueness of each individual, IEEE VIS seeks to cultivate an environment that encourages freedom of expression. As part of our efforts, we are proud to support a variety of meetups and other conference events that are focused on inclusion as well as a Inclusivity Scholarship program.  We also proudly support family through VISKids events, meet-ups, and childcare grants.
 
-### VIS 2024 Inclusivity Committee
+### VIS 2025 Inclusivity Committee
 
 * John Alexis Guerra Gómez (Northeastern University, Silicon Valley)
 * Dominik Moritz (Carnegie Mellon University)

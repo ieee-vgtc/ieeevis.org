@@ -1,7 +1,7 @@
 ---
 title: Exhibitor & Sponsorship Opportunities
 layout: page
-permalink: /year/2024/info/exhibition/supporters-and-exhibition
+permalink: /year/2025/info/exhibition/supporters-and-exhibition
 active_nav: "Contribute"
 contact: supporters@ieeevis.org
 ---

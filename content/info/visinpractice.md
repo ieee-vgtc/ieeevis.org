@@ -1,7 +1,7 @@
 ---
 title: VisInPractice
 layout: page
-permalink: /year/2024/info/visinpractice
+permalink: /year/2025/info/visinpractice
 contact: vip@ieeevis.org
 ---
 

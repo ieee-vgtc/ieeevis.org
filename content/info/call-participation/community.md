@@ -1,7 +1,7 @@
 ---
 title: Community
 layout: page
-permalink: /year/2024/info/call-participation/community
+permalink: /year/2025/info/call-participation/community
 active_nav: "Events & Community"
 sidebar: call-for-participation
 contact: community@ieeevis.org
@@ -53,14 +53,14 @@ Links to the Job Postings will be included on the IEEEVIS.org.
 At the VIS conference, we will host a meetup session that connects job seekers and researchers with employers, staff, and faculty.
 This includes all types of job opportunities: staff, industry positions, software engineers, faculty, post-docs, etc., and all types of job seekers from students to practitioners. 
 
-To participate, please join us at the event during VIS 2024.
+To participate, please join us at the event during VIS 2025.
 
 <!--### <a name="smp"></a>Student Mentorship Program -->
 <!--**Thursday, 29 October 2020, 13:40:00 Mountain Time**-->
 <!-- Students are invited to participate in a one-hour session during which they may ask questions and advice from industry experts. This is your opportunity to get expert advice on career next steps, career choices, and insights into working in the industry. For more information about the Student Mentorship Program contact [supporters@ieeevis.org](supporters@ieeevis.org). -->
 
 ### Contact
-For more information contact IEEE VIS 2024 Community Chairs:
+For more information contact IEEE VIS 2025 Community Chairs:
 
 * Ali Sarvghad, 	*University of Massachusstes Amherst*
 * Isaac Cho, 	*Utah State University*

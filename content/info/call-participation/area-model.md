@@ -1,7 +1,7 @@
 ---
 title: Area Model for VIS
 layout: page
-permalink: /year/2024/info/call-participation/area-model
+permalink: /year/2025/info/call-participation/area-model
 active_nav: "Contribute"
 # sidebar: none
 contact: papers@ieeevis.org

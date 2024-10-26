@@ -1,7 +1,7 @@
 ---
 title: Workshops
 layout: page
-permalink: /year/2024/info/workshops
+permalink: /year/2025/info/workshops
 contact: workshops@ieeevis.org
 ---
 
@@ -10,7 +10,7 @@ contact: workshops@ieeevis.org
 At least one author for each paper must register and attend the conference in person. If you have exceptional circumstances and none of the authors can attend in person please contact the conference committee as soon as possible at [info@ieeevis.org](mailto:info@ieeevis.org).
 {% endcomment %}
 
-Please see the [Full Schedule](https://ieeevis.org/year/2024/program/calendar) for all Workshop timings.
+Please see the [Full Schedule](https://ieeevis.org/year/2025/program/calendar) for all Workshop timings.
 
 
 ## Pre-Approved Workshops
@@ -23,7 +23,7 @@ These workshops were pre-approved by the VIS Executive Committee. Please visit t
 
 
 ## Accepted Workshops
-The following workshops went through our [submission/review process](https://ieeevis.org/year/2024/info/call-participation/workshops). 
+The following workshops went through our [submission/review process](https://ieeevis.org/year/2025/info/call-participation/workshops). 
 
 * [NLVIZ Workshop: Exploring Research Opportunities for Natural Language, Text, and Data Visualization](#nlviz)
 * [Progressive Data Analysis and Visualization (PDAV) Workshop](#pdav).

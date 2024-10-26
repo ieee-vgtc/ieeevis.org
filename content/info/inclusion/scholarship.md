@@ -1,5 +1,5 @@
 ---
-title: IEEE VIS 2024 Inclusivity Scholarship
+title: IEEE VIS 2025 Inclusivity Scholarship
 layout: page
 active_nav: "Attend"
 permalink: /info/inclusion/scholarship
@@ -10,7 +10,7 @@ IEEE VIS welcomes and encourages participation by people of all backgrounds and 
 
 Eligible applicants are from underrepresented and/or marginalized groups including but not limited to: gender, identity, race, ethnicity, disabilities, discipline. Applicants must be aged 18 years or older. Preference will be given to applicants with a demonstrated financial need (e.g., undergraduate students that are not currently funded for visualization research) and applicants who are new to the visualization research community. 
 
-The VIS 2024 Inclusivity Scholarship Chairs will review applications based on eligibility, need, and impact. Scholarships awarded will include:
+The VIS 2025 Inclusivity Scholarship Chairs will review applications based on eligibility, need, and impact. Scholarships awarded will include:
 
 * Complimentary conference registration.
 * Additional funds for a demonstrated need.
@@ -23,8 +23,8 @@ Recipients will need to keep original expense receipts and evidence of payment u
 ### Application and Timeline:
 
 * [Application form](https://forms.gle/fzJ6RqNzSJ7buBiP9) 
-* Deadline: ~~August 14, 2024~~ August 20, 2024
-* Notifications Sent: September 1, 2024
+* Deadline: ~~August 14, 2025~~ August 20, 2025
+* Notifications Sent: September 1, 2025
 
 <!-- 
 * Application form available soon

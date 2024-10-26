@@ -1,7 +1,7 @@
 ---
 title: VIS Paper Submission Keywords
 layout: page
-permalink: /year/2024/info/call-participation/paper-keywords
+permalink: /year/2025/info/call-participation/paper-keywords
 active_nav: "Contribute"
 sidebar: call-for-participation
 contact: papers@ieeevis.org

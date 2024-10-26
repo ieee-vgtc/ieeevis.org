@@ -1,7 +1,7 @@
 ---
-title: VSC Candidates - VIS 2024 Elections
+title: VSC Candidates - VIS 2025 Elections
 layout: page
-permalink: /year/2024/info/vsc-candidates
+permalink: /year/2025/info/vsc-candidates
 contact: elections@ieeevis.org
 ---
 

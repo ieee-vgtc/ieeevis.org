@@ -2,18 +2,18 @@
 title: Information for Preparing for Your Talk
 layout: page
 sidebar: call-for-participation
-permalink: /year/2024/info/presenter-information/talk-guide
+permalink: /year/2025/info/presenter-information/talk-guide
 active_nav: "Contribute"
 contact: tech@ieeevis.org
 ---
 
 <!-- ## Presenter Information and Required Uploads -->
 
-Please **read the following instructions carefully** for guidelines on preparing your **Presentation**, **Representative Image**, and **Video Preview** (if required) for VIS 2024, or a VIS 2024 associated event.
+Please **read the following instructions carefully** for guidelines on preparing your **Presentation**, **Representative Image**, and **Video Preview** (if required) for VIS 2025, or a VIS 2025 associated event.
 
-## IEEE Visualization 2024 is a Hybrid Conference
+## IEEE Visualization 2025 is a Hybrid Conference
 
-IEEE VIS 2024 will be a mix of hybrid experiences, based upon the event type. 
+IEEE VIS 2025 will be a mix of hybrid experiences, based upon the event type. 
  <!-- place on-site and, unlike previous years, the sessions will **not** be streamed online and will not be recorded (exceptions may apply). Speakers are expected to participate and present **on-site**. -->
 <!-- It is still **mandatory** for authors of **all** VIS papers to submit a recording of their paper presentation which will be uploaded to YouTube and integrated into the online content conference site.
 These videos help to communicate your research to participants who register for online content, and provide you the opportunity to provide a slightly extended version of your presentation.
@@ -46,8 +46,8 @@ Work must be submitted via the provided link on the dates listed below.
 
 ## Presentation Recommendations and Powerpoint Template
 
-We recommend using the provided 16x9 wide format [Powerpoint template for your presentation]({{ 'assets/vis2024-template.pptx' | relative_url }}).
-  <!-- The template with [imperial measurements]({{ 'assets/vis2024-16x9-imperial.pptx' | relative_url }}) or [metric measurements]({{ 'assets/vis2024-16x9-metric.pptx' | relative_url }}). -->
+We recommend using the provided 16x9 wide format [Powerpoint template for your presentation]({{ 'assets/vis2025-template.pptx' | relative_url }}).
+  <!-- The template with [imperial measurements]({{ 'assets/vis2025-16x9-imperial.pptx' | relative_url }}) or [metric measurements]({{ 'assets/vis2025-16x9-metric.pptx' | relative_url }}). -->
 
 <!-- IEEE Visualization allows authors to release their video preview on websites and any social media platform prior to the conference, but **authors should not release their presentation videos to the public until AFTER the conference**.  Do not upload your presentation video to YouTube, as such videos may conflict with the conference uploads. -->
 
@@ -86,7 +86,7 @@ Terminology used in this document:
 ## Required Material
 
 Your submission consists of two pieces resulting in **four** files:
-1. [Video Preview](https://ieeevis.org/year/2024/info/presenter-information/fast-forward-and-video-previews) - The short video previews are a great opportunity to publicize your work or event to a wide audience. Video previews are accessible from the conference website on the VIS YouTube channel prior to, during, and after the conference.
+1. [Video Preview](https://ieeevis.org/year/2025/info/presenter-information/fast-forward-and-video-previews) - The short video previews are a great opportunity to publicize your work or event to a wide audience. Video previews are accessible from the conference website on the VIS YouTube channel prior to, during, and after the conference.
     * A 25-second video that clearly communicates the research and contribution, inviting readers to read your paper.
     * Please do NOT include the paper title or authors' information. The FF chairs will add these as a 5-second title slide in front of your 25-second video in a consistent way.
     * Must be self-contained.
@@ -133,7 +133,7 @@ After recording your talk, please rewatch it to ensure the video and audio are r
 
 To encode/re-encode your video in the right format, you can use the free software [Handbrake](https://handbrake.fr/). To check that your video is in the right format, you can use the free software [MediaInfo](https://mediaarea.net/en/MediaInfo).
 
-<!-- To make full use of the 16x9 video aspect ratio we recommend using the 16x9 wide format Powerpoint template that can be used for your presentation.  Feel free to download the template with [imperial measurements]({{ 'assets/vis2024-16x9-imperial.pptx' | relative_url }}) or [metric measurements]({{ 'assets/vis2024-16x9-metric.pptx' | relative_url }}). -->
+<!-- To make full use of the 16x9 video aspect ratio we recommend using the 16x9 wide format Powerpoint template that can be used for your presentation.  Feel free to download the template with [imperial measurements]({{ 'assets/vis2025-16x9-imperial.pptx' | relative_url }}) or [metric measurements]({{ 'assets/vis2025-16x9-metric.pptx' | relative_url }}). -->
 
 ### Mandatory: Subtitles
 

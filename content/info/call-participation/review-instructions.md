@@ -1,7 +1,7 @@
 ---
 title: Review Instructions
 layout: page
-permalink: /year/2024/info/call-participation/review-instructions
+permalink: /year/2025/info/call-participation/review-instructions
 contact: papers@ieeevis.org
 sidebar: call-for-participation
 ---
@@ -58,7 +58,7 @@ Please note that the Area Curation Committee (ACC) also continuously collects in
 
 3. Click on “Provide areas of expertise”.
 
-4. Select “VGTC” for the Society, and “VIS 2024” for the Conference/Journal.
+4. Select “VGTC” for the Society, and “VIS 2025” for the Conference/Journal.
 
 5. Select your keywords.
 
@@ -73,7 +73,7 @@ We cannot overemphasize the importance of bidding: proper and timely bidding is 
 
 2. Go to the Reviews tab.
 
-3. Click on the "Review (as a committee member)" action for the "VIS 2024 Papers" category.
+3. Click on the "Review (as a committee member)" action for the "VIS 2025 Papers" category.
 
 4. Click on the "Conflicts" link.
 
@@ -85,7 +85,7 @@ We cannot overemphasize the importance of bidding: proper and timely bidding is 
 
 To bid papers, continue to follow these steps:
 
-1. Click on "VIS 2024 Papers" under the Reviews tab to return to your main reviewing page.
+1. Click on "VIS 2025 Papers" under the Reviews tab to return to your main reviewing page.
 
 2. Click on the "Bidding" link.
 
@@ -98,7 +98,7 @@ To bid papers, continue to follow these steps:
 ### Useful Tips for Bidding   
 One outcome of the unified conference is that the number of submissions has drastically increased. It may be too time consuming to read through all the abstracts carefully. You may first sort the list by the ‘score’ column, which estimates the match between your expertise and the paper keywords.   
 
-Another way to find papers that match your expertise and interest is to use (1) the search box (which searches in all the fields) and (2) the option to see papers by area or keyword. You can find additional information about bidding strategies on the [IEEE VIS blog](/year/2024/blog/keywords-for-pc-members).
+Another way to find papers that match your expertise and interest is to use (1) the search box (which searches in all the fields) and (2) the option to see papers by area or keyword. You can find additional information about bidding strategies on the [IEEE VIS blog](/year/2025/blog/keywords-for-pc-members).
 
 ## Assigning External Reviewers
 **April 5 thru April 11**
@@ -186,7 +186,7 @@ Please read through the [summary of the keywords](paper-keywords), which include
 
 3. Click on "Provide areas of expertise".
 
-4. Select “VGTC” for the Society, and "VIS 2024" for the Conference/Journal.
+4. Select “VGTC” for the Society, and "VIS 2025" for the Conference/Journal.
 
 5. Select your keywords.
 

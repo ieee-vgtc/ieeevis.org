@@ -1,7 +1,7 @@
 ---
 title: Open Practices arXiv Guidance
 layout: page
-permalink: /year/2024/info/open-practices/open-practices-arxiv
+permalink: /year/2025/info/open-practices/open-practices-arxiv
 active_nav: "Contribute"
 sidebar: call-for-participation
 contact: open_practices@ieeevis.org

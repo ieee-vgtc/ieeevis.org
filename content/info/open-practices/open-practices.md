@@ -1,13 +1,13 @@
 ---
 title: Open Practices
 layout: page
-permalink: /year/2024/info/open-practices/open-practices
+permalink: /year/2025/info/open-practices/open-practices
 active_nav: "Contribute"
 sidebar: call-for-participation
 contact: open_practices@ieeevis.org
 ---
 
-Visualization research is better communicated and acted on if it is freely accessible to the research community, practitioners, and the general public. Likewise, there are steps as a community we can take to make sure that our work is **transparent** and that the claims in our papers are **scrutinizable**. Taken together, the suggestions on this page are aimed towards making work at VIS (1) reproducible, (2) replicable, and/or (3) extensible by future researchers. As such, the Open Practices Committee for IEEE VIS 2024 is providing a set of **requirements** and **recommendations** for authors of accepted VIS papers. Note that the recommendations are only suggestions which authors can optionally follow to increase the long-term impact and usefulness of their work.
+Visualization research is better communicated and acted on if it is freely accessible to the research community, practitioners, and the general public. Likewise, there are steps as a community we can take to make sure that our work is **transparent** and that the claims in our papers are **scrutinizable**. Taken together, the suggestions on this page are aimed towards making work at VIS (1) reproducible, (2) replicable, and/or (3) extensible by future researchers. As such, the Open Practices Committee for IEEE VIS 2025 is providing a set of **requirements** and **recommendations** for authors of accepted VIS papers. Note that the recommendations are only suggestions which authors can optionally follow to increase the long-term impact and usefulness of their work.
 
 This page covers:
 * [**Requirement** 1/1—Ensure you are compliant with Plan S](#requirement-11ensure-you-are-compliant-with-plan-s)

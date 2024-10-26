@@ -2,7 +2,7 @@
 title: Posters
 layout: page
 active_nav: "Program"
-permalink: /year/2024/info/posters
+permalink: /year/2025/info/posters
 contact: "posters@ieeevis.org"
 ---
 

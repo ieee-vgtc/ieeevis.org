@@ -1,7 +1,7 @@
 ---
 title: IEEE VIS General Chair Applications & Bid Process
 layout: page
-permalink: /year/2024/governance/bids
+permalink: /year/2025/governance/bids
 ---
 
 

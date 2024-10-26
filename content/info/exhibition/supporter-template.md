@@ -1,6 +1,6 @@
 ---
 title: Technical Committee on Visualization and Graphics (SAMPLE)
-permalink: /year/2024/info/exhibition/supporter-template
+permalink: /year/2025/info/exhibition/supporter-template
 contact: supporters@ieeevis.org
 active_nav: "Contribute"
 layout: landing

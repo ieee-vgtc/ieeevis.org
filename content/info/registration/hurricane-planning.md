@@ -2,7 +2,7 @@
 title: Hurricane Planning
 layout: page
 active_nav: "Attend"
-permalink: /year/2024/info/registration/hurricane-planning
+permalink: /year/2025/info/registration/hurricane-planning
 contact: "general_chair@ieeevis.org"
 ---
 
