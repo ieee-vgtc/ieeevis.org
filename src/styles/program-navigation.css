@@ -84,9 +84,8 @@
 .program-menu {
     display: none;
     position: fixed;
-    /* top: var(--program-navigation-height); */
-    /* change to 140 when content navbar is on */
-    top: 70;
+    top: var(--program-navigation-height);
+    /* top: 140px; */
     height: calc(100vh - var(--program-navigation-height));
     width: 100vw;
     overflow-y: scroll;
@@ -96,8 +95,7 @@
     @screen md {
         .program-menu {
             position: static;
-            /* change to 140 when content navbar is on */
-            top: 70;
+            /* top: 140px; */
             height: 100%;
             overflow-y: unset;
             @apply bg-accent-blue;
@@ -113,7 +111,8 @@
 @screen md {
   .program-menu--expanded {
     display: flex;
-    top: 140px;
+    /* top: 140px; */
+    top: 70px;
     position: relative;
   }
 

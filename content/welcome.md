@@ -1,6 +1,6 @@
 ---
 layout: homepage
-title: "Welcome to IEEE VIS 2025!"
+title: "Welcome to IEEE VIS 2025"
 permalink: /year/2025/welcome
 contact: general_chair@ieeevis.org
 ---
