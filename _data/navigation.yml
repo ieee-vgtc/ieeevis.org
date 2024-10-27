@@ -31,7 +31,7 @@ blog:
 
 menu:
   - dropdown: "Attend"
-    display: true
+    display: false
     sections:
       - subsections:
           - heading: "Attending VIS 2025"
@@ -108,7 +108,7 @@ menu:
       #              is_new: false
 
   - dropdown: "Contribute"
-    display: true
+    display: false
     sections:
       - subsections:
           - heading: "Call for Participation"
@@ -213,7 +213,7 @@ menu:
             description: "Your support makes this conference possible!"
 
   - dropdown: "Program"
-    display: true
+    display: false
     sections:
       - subsections:
           - heading: "Vis Program"
@@ -298,7 +298,7 @@ menu:
 #   #              #     url: "https://www.google.com"
 
   - dropdown: "Events & Community"
-    display: true
+    display: false
     sections:
       - subsections:
           - heading: "Associated Events"

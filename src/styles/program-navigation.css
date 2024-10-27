@@ -85,7 +85,8 @@
     display: none;
     position: fixed;
     /* top: var(--program-navigation-height); */
-    top: 140px;
+    /* change to 140 when content navbar is on */
+    top: 70;
     height: calc(100vh - var(--program-navigation-height));
     width: 100vw;
     overflow-y: scroll;
@@ -95,7 +96,8 @@
     @screen md {
         .program-menu {
             position: static;
-            top: 140px;
+            /* change to 140 when content navbar is on */
+            top: 70;
             height: 100%;
             overflow-y: unset;
             @apply bg-accent-blue;
