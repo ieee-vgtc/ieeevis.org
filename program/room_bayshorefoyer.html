@@ -109,7 +109,6 @@
 let CURRENT_YOUTUBE_ID = "";
 let CURRENT_SLIDO_LINK = "";
 let CURRENT_DISCORD_LINK = "";
-let CURRENT_ZOOM_LINK = "";
 
 $(document).ready(function() {
     setInterval(filterByCurrentSession, 30 * 1000);
@@ -147,7 +146,7 @@ function filterByCurrentSession() {
 
     // We need to write the session timings into the page to calculate current/next session.
     // See blueprint_2024.py
-    sessionTimings = [{"startTime": "2024-10-15T19:00:00Z", "endTime": "2024-10-15T21:00:00Z", "id": "posters", "youtube_url": "", "youtube_id": "Ppt5TaXEPI8", "slido_link": "", "discord_link": "https://discord.com/channels/1286338967674818684/1288497673212788798", "zoom_private_link": ""}]
+    sessionTimings = [{"startTime": "2024-10-15T19:00:00Z", "endTime": "2024-10-15T21:00:00Z", "id": "posters", "youtube_url": "", "youtube_id": "Ppt5TaXEPI8", "slido_link": "", "discord_link": "https://discord.com/channels/1286338967674818684/1288497673212788798"}]
     if (sessionTimings.length > 0) {
         sessionTimings.sort(function(a, b) {
             return moment.utc(a.startTime) - moment.utc(b.startTime);
@@ -189,11 +188,9 @@ function filterByCurrentSession() {
         let youtube_id = "";
         let slido_link = "";
         let discord_link = "";
-        let zoom_private_link = "";
         let new_youtube_id = "";
         let new_slido_link = "";
         let new_discord_link = "";
-        let new_zoom_private_link = "";
 
         if (currentSession) {
             currentSessionId = currentSession.id;
@@ -202,12 +199,10 @@ function filterByCurrentSession() {
              youtube_id = currentSession.youtube_id;
              slido_link = currentSession.slido_link;
              discord_link = currentSession.discord_link;
-             zoom_private_link = currentSession.zoom_private_link;
         } else {
              youtube_id = nextSession.youtube_id;
              slido_link = nextSession.slido_link;
              discord_link = nextSession.discord_link;
-             zoom_private_link = nextSession.zoom_private_link;
         }
         $('.room_session_stream').show();
         let playbackContainer = null;
@@ -222,10 +217,6 @@ function filterByCurrentSession() {
 
         if (CURRENT_DISCORD_LINK.length == 0) {
             CURRENT_DISCORD_LINK = discord_link;
-        }
-
-        if (CURRENT_ZOOM_LINK.length == 0) {
-            CURRENT_ZOOM_LINK = zoom_private_link;
         }
 
         // TODO - error handling
@@ -252,7 +243,6 @@ function filterByCurrentSession() {
         new_youtube_id = youtube_id;
         new_slido_link = slido_link;
         new_discord_link = discord_link;
-        new_zoom_private_link = zoom_private_link;
             console.log("new_youtube_id is ", new_youtube_id, " and CURRENT_YOUTUBE_ID is ", CURRENT_YOUTUBE_ID);
             if ((new_youtube_id.length > 0 && new_youtube_id != CURRENT_YOUTUBE_ID) || (new_slido_link.length > 0 && new_slido_link != CURRENT_SLIDO_LINK) || (new_discord_link.length > 0 && new_discord_link != CURRENT_DISCORD_LINK)) {
                 youtube_id = new_youtube_id;
@@ -261,8 +251,6 @@ function filterByCurrentSession() {
                 CURRENT_SLIDO_LINK = new_slido_link;
                 discord_link = new_discord_link;
                 CURRENT_DISCORD_LINK = new_discord_link;
-                zoom_private_link = new_zoom_private_link;
-                CURRENT_ZOOM_LINK = new_zoom_private_link;
                 // We remove the different players because something changed.
                 if (iframePlayer) {
                     iframePlayer.remove();
@@ -296,19 +284,13 @@ function filterByCurrentSession() {
             // <!-- <iframe src="https://app.sli.do/event/eventhash" height="100%" width="100%" style="min-height: 360px;"></iframe> -->
             // Need to render the slido if it isn't rendered yet
             if (!slidoPlayer) {
-                playbackContainer = document.getElementById("session-stream-container");
-
-                zoomMsg = document.createElement("div");
-                zoomMsg.id = 'zoom-msg';
-                zoomMsg.innerHTML = `<a href="${zoom_private_link}">Is the YouTube quality poor? You can join the Zoom directly by clicking here.</a>`;
-                playbackContainer.append(zoomMsg);
-
                 slidoPlayer = document.createElement("iframe");
                 slidoPlayer.id = 'slido-player';
                 slidoPlayer.src = slido_link;
                 slidoPlayer.height = '100%';
                 slidoPlayer.width = '100%';
                 slidoPlayer.style = 'min-height: 560px';
+                playbackContainer = document.getElementById("session-stream-container");
                 playbackContainer.append(slidoPlayer);
             }
 

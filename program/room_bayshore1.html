@@ -109,7 +109,6 @@
 let CURRENT_YOUTUBE_ID = "";
 let CURRENT_SLIDO_LINK = "";
 let CURRENT_DISCORD_LINK = "";
-let CURRENT_ZOOM_LINK = "";
 
 $(document).ready(function() {
     setInterval(filterByCurrentSession, 30 * 1000);
@@ -147,7 +146,7 @@ function filterByCurrentSession() {
 
     // We need to write the session timings into the page to calculate current/next session.
     // See blueprint_2024.py
-    sessionTimings = [{"startTime": "2024-10-13T12:30:00Z", "endTime": "2024-10-13T15:30:00Z", "id": "associated2", "youtube_url": "https://youtu.be/UUkftG2KH5o", "youtube_id": "UUkftG2KH5o", "slido_link": "https://app.sli.do/event/bmrgFqMKiACBaBFW8mudWp?section=c3c9d1e4-8ef2-4adb-b6bc-fb0c02a11d12", "discord_link": "https://discord.com/channels/1286338967674818684/1286347326092349521", "zoom_private_link": "https://ieeevis.zoom.us/j/81253735757?pwd=4emLPNBEClXZEq889DZbdXonpaFM8g.1"}, {"startTime": "2024-10-13T16:00:00Z", "endTime": "2024-10-13T19:00:00Z", "id": "associated5", "youtube_url": "https://youtu.be/eHKJ89bZgFA", "youtube_id": "eHKJ89bZgFA", "slido_link": "https://app.sli.do/event/bmrgFqMKiACBaBFW8mudWp?section=c3c9d1e4-8ef2-4adb-b6bc-fb0c02a11d12", "discord_link": "https://discord.com/channels/1286338967674818684/1286347326092349521", "zoom_private_link": "https://ieeevis.zoom.us/j/82787921602?pwd=ltJvjmZXrXrCaIj4d13D0OHvj4JkiA.1"}, {"startTime": "2024-10-14T12:30:00Z", "endTime": "2024-10-14T15:30:00Z", "id": "associated6a", "youtube_url": "https://youtu.be/KUbbe0PguKY", "youtube_id": "KUbbe0PguKY", "slido_link": "https://app.sli.do/event/bmrgFqMKiACBaBFW8mudWp?section=c3c9d1e4-8ef2-4adb-b6bc-fb0c02a11d12", "discord_link": "https://discord.com/channels/1286338967674818684/1286347326092349521", "zoom_private_link": "https://ieeevis.zoom.us/j/81627647583?pwd=qsJk10qCDpifwLH5BvFPo6yN2oxsYB.1"}, {"startTime": "2024-10-14T16:00:00Z", "endTime": "2024-10-14T19:00:00Z", "id": "associated6b", "youtube_url": "https://youtu.be/iXPK-CWIysQ", "youtube_id": "iXPK-CWIysQ", "slido_link": "https://app.sli.do/event/bmrgFqMKiACBaBFW8mudWp?section=c3c9d1e4-8ef2-4adb-b6bc-fb0c02a11d12", "discord_link": "https://discord.com/channels/1286338967674818684/1286347326092349521", "zoom_private_link": "https://ieeevis.zoom.us/j/85885474391?pwd=ger4PPKQY4ETa8ivAFPMoWK2m9aLGk.1"}, {"startTime": "2024-10-16T12:30:00Z", "endTime": "2024-10-16T13:45:00Z", "id": "full17", "youtube_url": "https://youtu.be/-VxwRlkinOQ", "youtube_id": "-VxwRlkinOQ", "slido_link": "https://app.sli.do/event/bmrgFqMKiACBaBFW8mudWp?section=c3c9d1e4-8ef2-4adb-b6bc-fb0c02a11d12", "discord_link": "https://discord.com/channels/1286338967674818684/1286347326092349521", "zoom_private_link": "https://ieeevis.zoom.us/j/81937773416?pwd=pyMJP8wID3FAgVAlQXtdbdvvdLw8St.1"}, {"startTime": "2024-10-16T14:15:00Z", "endTime": "2024-10-16T15:30:00Z", "id": "full15", "youtube_url": "https://youtu.be/Za3820yadmE", "youtube_id": "Za3820yadmE", "slido_link": "https://app.sli.do/event/bmrgFqMKiACBaBFW8mudWp?section=c3c9d1e4-8ef2-4adb-b6bc-fb0c02a11d12", "discord_link": "https://discord.com/channels/1286338967674818684/1286347326092349521", "zoom_private_link": "https://ieeevis.zoom.us/j/82198331814?pwd=PPyNPhR65AnDgAmfuZTxaZ5aCkUy8g.1"}, {"startTime": "2024-10-16T16:00:00Z", "endTime": "2024-10-16T17:15:00Z", "id": "full13", "youtube_url": "https://youtu.be/TkBPnodArzQ", "youtube_id": "TkBPnodArzQ", "slido_link": "https://app.sli.do/event/bmrgFqMKiACBaBFW8mudWp?section=c3c9d1e4-8ef2-4adb-b6bc-fb0c02a11d12", "discord_link": "https://discord.com/channels/1286338967674818684/1286347326092349521", "zoom_private_link": "https://ieeevis.zoom.us/j/82841655126?pwd=ZpSgoIwjuyB5t9sNZn7AMGTJVBfZTl.1"}, {"startTime": "2024-10-16T17:45:00Z", "endTime": "2024-10-16T19:00:00Z", "id": "full27", "youtube_url": "https://youtu.be/cJNBh2zSTiU", "youtube_id": "cJNBh2zSTiU", "slido_link": "https://app.sli.do/event/bmrgFqMKiACBaBFW8mudWp?section=c3c9d1e4-8ef2-4adb-b6bc-fb0c02a11d12", "discord_link": "https://discord.com/channels/1286338967674818684/1286347326092349521", "zoom_private_link": "https://ieeevis.zoom.us/j/83035351883?pwd=cpY6V6qw7lI1ybAb9zQbXNzxDdjc0a.1"}, {"startTime": "2024-10-17T12:30:00Z", "endTime": "2024-10-17T13:45:00Z", "id": "full9", "youtube_url": "https://youtu.be/H85FqQyR25U", "youtube_id": "H85FqQyR25U", "slido_link": "https://app.sli.do/event/bmrgFqMKiACBaBFW8mudWp?section=c3c9d1e4-8ef2-4adb-b6bc-fb0c02a11d12", "discord_link": "https://discord.com/channels/1286338967674818684/1286347326092349521", "zoom_private_link": "https://ieeevis.zoom.us/j/82886309375?pwd=ElQTAG97jPikrNoX3TFT06odtoI13U.1"}, {"startTime": "2024-10-17T14:15:00Z", "endTime": "2024-10-17T15:30:00Z", "id": "full5", "youtube_url": "https://youtu.be/Pd3W5-EJRVg", "youtube_id": "Pd3W5-EJRVg", "slido_link": "https://app.sli.do/event/bmrgFqMKiACBaBFW8mudWp?section=c3c9d1e4-8ef2-4adb-b6bc-fb0c02a11d12", "discord_link": "https://discord.com/channels/1286338967674818684/1286347326092349521", "zoom_private_link": "https://ieeevis.zoom.us/j/86394869524?pwd=ivB19f76sn20paedo9hKJUbbHaZn3n.1"}, {"startTime": "2024-10-17T16:00:00Z", "endTime": "2024-10-17T17:15:00Z", "id": "full4", "youtube_url": "https://youtu.be/QoKwx8sUMyg", "youtube_id": "QoKwx8sUMyg", "slido_link": "https://app.sli.do/event/bmrgFqMKiACBaBFW8mudWp?section=c3c9d1e4-8ef2-4adb-b6bc-fb0c02a11d12", "discord_link": "https://discord.com/channels/1286338967674818684/1286347326092349521", "zoom_private_link": "https://ieeevis.zoom.us/j/84796905387?pwd=D7Hij9F9SncNEmjKJKDYbbxy0wvPpz.1"}, {"startTime": "2024-10-17T17:45:00Z", "endTime": "2024-10-17T19:00:00Z", "id": "full23", "youtube_url": "https://youtu.be/sO33xoUQ9fk", "youtube_id": "sO33xoUQ9fk", "slido_link": "https://app.sli.do/event/bmrgFqMKiACBaBFW8mudWp?section=c3c9d1e4-8ef2-4adb-b6bc-fb0c02a11d12", "discord_link": "https://discord.com/channels/1286338967674818684/1286347326092349521", "zoom_private_link": "https://ieeevis.zoom.us/j/83353121541?pwd=AfFzOm9CI1grXZ1dGAK4FZ72bwEpgE.1"}, {"startTime": "2024-10-18T14:15:00Z", "endTime": "2024-10-18T15:00:00Z", "id": "tot1", "youtube_url": "https://youtu.be/W3PJlUgCRaY", "youtube_id": "W3PJlUgCRaY", "slido_link": "https://app.sli.do/event/bmrgFqMKiACBaBFW8mudWp?section=43e92f7c-6286-4fc8-bf30-a7684df15f6b", "discord_link": "https://discord.com/channels/1286338967674818684/1286347326092349521", "zoom_private_link": "https://ieeevis.zoom.us/j/81410163612?pwd=IDUyY9MDFjNTmbMC77fGKRiaIOK7xk.1"}]
+    sessionTimings = [{"startTime": "2024-10-13T12:30:00Z", "endTime": "2024-10-13T15:30:00Z", "id": "associated2", "youtube_url": "https://youtu.be/UUkftG2KH5o", "youtube_id": "UUkftG2KH5o", "slido_link": "https://app.sli.do/event/bmrgFqMKiACBaBFW8mudWp?section=c3c9d1e4-8ef2-4adb-b6bc-fb0c02a11d12", "discord_link": "https://discord.com/channels/1286338967674818684/1286347326092349521"}, {"startTime": "2024-10-13T16:00:00Z", "endTime": "2024-10-13T19:00:00Z", "id": "associated5", "youtube_url": "https://youtu.be/eHKJ89bZgFA", "youtube_id": "eHKJ89bZgFA", "slido_link": "https://app.sli.do/event/bmrgFqMKiACBaBFW8mudWp?section=c3c9d1e4-8ef2-4adb-b6bc-fb0c02a11d12", "discord_link": "https://discord.com/channels/1286338967674818684/1286347326092349521"}, {"startTime": "2024-10-14T12:30:00Z", "endTime": "2024-10-14T15:30:00Z", "id": "associated6a", "youtube_url": "https://youtu.be/KUbbe0PguKY", "youtube_id": "KUbbe0PguKY", "slido_link": "https://app.sli.do/event/bmrgFqMKiACBaBFW8mudWp?section=c3c9d1e4-8ef2-4adb-b6bc-fb0c02a11d12", "discord_link": "https://discord.com/channels/1286338967674818684/1286347326092349521"}, {"startTime": "2024-10-14T16:00:00Z", "endTime": "2024-10-14T19:00:00Z", "id": "associated6b", "youtube_url": "https://youtu.be/iXPK-CWIysQ", "youtube_id": "iXPK-CWIysQ", "slido_link": "https://app.sli.do/event/bmrgFqMKiACBaBFW8mudWp?section=c3c9d1e4-8ef2-4adb-b6bc-fb0c02a11d12", "discord_link": "https://discord.com/channels/1286338967674818684/1286347326092349521"}, {"startTime": "2024-10-16T12:30:00Z", "endTime": "2024-10-16T13:45:00Z", "id": "full17", "youtube_url": "https://youtu.be/-VxwRlkinOQ", "youtube_id": "-VxwRlkinOQ", "slido_link": "https://app.sli.do/event/bmrgFqMKiACBaBFW8mudWp?section=c3c9d1e4-8ef2-4adb-b6bc-fb0c02a11d12", "discord_link": "https://discord.com/channels/1286338967674818684/1286347326092349521"}, {"startTime": "2024-10-16T14:15:00Z", "endTime": "2024-10-16T15:30:00Z", "id": "full15", "youtube_url": "https://youtu.be/Za3820yadmE", "youtube_id": "Za3820yadmE", "slido_link": "https://app.sli.do/event/bmrgFqMKiACBaBFW8mudWp?section=c3c9d1e4-8ef2-4adb-b6bc-fb0c02a11d12", "discord_link": "https://discord.com/channels/1286338967674818684/1286347326092349521"}, {"startTime": "2024-10-16T16:00:00Z", "endTime": "2024-10-16T17:15:00Z", "id": "full13", "youtube_url": "https://youtu.be/TkBPnodArzQ", "youtube_id": "TkBPnodArzQ", "slido_link": "https://app.sli.do/event/bmrgFqMKiACBaBFW8mudWp?section=c3c9d1e4-8ef2-4adb-b6bc-fb0c02a11d12", "discord_link": "https://discord.com/channels/1286338967674818684/1286347326092349521"}, {"startTime": "2024-10-16T17:45:00Z", "endTime": "2024-10-16T19:00:00Z", "id": "full27", "youtube_url": "https://youtu.be/cJNBh2zSTiU", "youtube_id": "cJNBh2zSTiU", "slido_link": "https://app.sli.do/event/bmrgFqMKiACBaBFW8mudWp?section=c3c9d1e4-8ef2-4adb-b6bc-fb0c02a11d12", "discord_link": "https://discord.com/channels/1286338967674818684/1286347326092349521"}, {"startTime": "2024-10-17T12:30:00Z", "endTime": "2024-10-17T13:45:00Z", "id": "full9", "youtube_url": "https://youtu.be/H85FqQyR25U", "youtube_id": "H85FqQyR25U", "slido_link": "https://app.sli.do/event/bmrgFqMKiACBaBFW8mudWp?section=c3c9d1e4-8ef2-4adb-b6bc-fb0c02a11d12", "discord_link": "https://discord.com/channels/1286338967674818684/1286347326092349521"}, {"startTime": "2024-10-17T14:15:00Z", "endTime": "2024-10-17T15:30:00Z", "id": "full5", "youtube_url": "https://youtu.be/Pd3W5-EJRVg", "youtube_id": "Pd3W5-EJRVg", "slido_link": "https://app.sli.do/event/bmrgFqMKiACBaBFW8mudWp?section=c3c9d1e4-8ef2-4adb-b6bc-fb0c02a11d12", "discord_link": "https://discord.com/channels/1286338967674818684/1286347326092349521"}, {"startTime": "2024-10-17T16:00:00Z", "endTime": "2024-10-17T17:15:00Z", "id": "full4", "youtube_url": "https://youtu.be/QoKwx8sUMyg", "youtube_id": "QoKwx8sUMyg", "slido_link": "https://app.sli.do/event/bmrgFqMKiACBaBFW8mudWp?section=c3c9d1e4-8ef2-4adb-b6bc-fb0c02a11d12", "discord_link": "https://discord.com/channels/1286338967674818684/1286347326092349521"}, {"startTime": "2024-10-17T17:45:00Z", "endTime": "2024-10-17T19:00:00Z", "id": "full23", "youtube_url": "https://youtu.be/sO33xoUQ9fk", "youtube_id": "sO33xoUQ9fk", "slido_link": "https://app.sli.do/event/bmrgFqMKiACBaBFW8mudWp?section=c3c9d1e4-8ef2-4adb-b6bc-fb0c02a11d12", "discord_link": "https://discord.com/channels/1286338967674818684/1286347326092349521"}, {"startTime": "2024-10-18T14:15:00Z", "endTime": "2024-10-18T15:00:00Z", "id": "tot1", "youtube_url": "https://youtu.be/W3PJlUgCRaY", "youtube_id": "W3PJlUgCRaY", "slido_link": "https://app.sli.do/event/bmrgFqMKiACBaBFW8mudWp?section=43e92f7c-6286-4fc8-bf30-a7684df15f6b", "discord_link": "https://discord.com/channels/1286338967674818684/1286347326092349521"}]
     if (sessionTimings.length > 0) {
         sessionTimings.sort(function(a, b) {
             return moment.utc(a.startTime) - moment.utc(b.startTime);
@@ -189,11 +188,9 @@ function filterByCurrentSession() {
         let youtube_id = "";
         let slido_link = "";
         let discord_link = "";
-        let zoom_private_link = "";
         let new_youtube_id = "";
         let new_slido_link = "";
         let new_discord_link = "";
-        let new_zoom_private_link = "";
 
         if (currentSession) {
             currentSessionId = currentSession.id;
@@ -202,12 +199,10 @@ function filterByCurrentSession() {
              youtube_id = currentSession.youtube_id;
              slido_link = currentSession.slido_link;
              discord_link = currentSession.discord_link;
-             zoom_private_link = currentSession.zoom_private_link;
         } else {
              youtube_id = nextSession.youtube_id;
              slido_link = nextSession.slido_link;
              discord_link = nextSession.discord_link;
-             zoom_private_link = nextSession.zoom_private_link;
         }
         $('.room_session_stream').show();
         let playbackContainer = null;
@@ -222,10 +217,6 @@ function filterByCurrentSession() {
 
         if (CURRENT_DISCORD_LINK.length == 0) {
             CURRENT_DISCORD_LINK = discord_link;
-        }
-
-        if (CURRENT_ZOOM_LINK.length == 0) {
-            CURRENT_ZOOM_LINK = zoom_private_link;
         }
 
         // TODO - error handling
@@ -252,7 +243,6 @@ function filterByCurrentSession() {
         new_youtube_id = youtube_id;
         new_slido_link = slido_link;
         new_discord_link = discord_link;
-        new_zoom_private_link = zoom_private_link;
             console.log("new_youtube_id is ", new_youtube_id, " and CURRENT_YOUTUBE_ID is ", CURRENT_YOUTUBE_ID);
             if ((new_youtube_id.length > 0 && new_youtube_id != CURRENT_YOUTUBE_ID) || (new_slido_link.length > 0 && new_slido_link != CURRENT_SLIDO_LINK) || (new_discord_link.length > 0 && new_discord_link != CURRENT_DISCORD_LINK)) {
                 youtube_id = new_youtube_id;
@@ -261,8 +251,6 @@ function filterByCurrentSession() {
                 CURRENT_SLIDO_LINK = new_slido_link;
                 discord_link = new_discord_link;
                 CURRENT_DISCORD_LINK = new_discord_link;
-                zoom_private_link = new_zoom_private_link;
-                CURRENT_ZOOM_LINK = new_zoom_private_link;
                 // We remove the different players because something changed.
                 if (iframePlayer) {
                     iframePlayer.remove();
@@ -296,19 +284,13 @@ function filterByCurrentSession() {
             // <!-- <iframe src="https://app.sli.do/event/eventhash" height="100%" width="100%" style="min-height: 360px;"></iframe> -->
             // Need to render the slido if it isn't rendered yet
             if (!slidoPlayer) {
-                playbackContainer = document.getElementById("session-stream-container");
-
-                zoomMsg = document.createElement("div");
-                zoomMsg.id = 'zoom-msg';
-                zoomMsg.innerHTML = `<a href="${zoom_private_link}">Is the YouTube quality poor? You can join the Zoom directly by clicking here.</a>`;
-                playbackContainer.append(zoomMsg);
-
                 slidoPlayer = document.createElement("iframe");
                 slidoPlayer.id = 'slido-player';
                 slidoPlayer.src = slido_link;
                 slidoPlayer.height = '100%';
                 slidoPlayer.width = '100%';
                 slidoPlayer.style = 'min-height: 560px';
+                playbackContainer = document.getElementById("session-stream-container");
                 playbackContainer.append(slidoPlayer);
             }
 
