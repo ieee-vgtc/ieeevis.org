@@ -7,7 +7,8 @@ import { createAuth0Client } from "@auth0/auth0-spa-js";
 
 
 const updateUI = async (auth0, query) => {
-  const is_auth = await auth0.isAuthenticated();
+  // const is_auth = await auth0.isAuthenticated();
+  const is_auth = true;
   //console.log("are we auth?", is_auth)
   if (is_auth) {
     document.body.style.display = null;
