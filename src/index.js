@@ -413,27 +413,27 @@ document.addEventListener('DOMContentLoaded', async () => {
       }
     },
     mounted: () => {
-      console.log('is mounted')
-      authenticate()
-      const auth0_domain = 'ieeevis.us.auth0.com'
-      const auth0_client_id = 'G8onz2A6h59RmuYFUbSLpGmxsGHOyPOv'
-      //console.log("origin is " + window.location.origin);
-      createAuth0Client({
-        domain: auth0_domain,
-        clientId: auth0_client_id,
-        cacheLocation: "localstorage"
-      }).then(async (auth0Client) => {
-        const isAuthenticated = await auth0Client.isAuthenticated();
-        const query = window.location.search;
-        const userProfile = await auth0Client.getUser();
+      // console.log('is mounted')
+      // authenticate()
+      // const auth0_domain = 'ieeevis.us.auth0.com'
+      // const auth0_client_id = 'G8onz2A6h59RmuYFUbSLpGmxsGHOyPOv'
+      // //console.log("origin is " + window.location.origin);
+      // createAuth0Client({
+      //   domain: auth0_domain,
+      //   clientId: auth0_client_id,
+      //   cacheLocation: "localstorage"
+      // }).then(async (auth0Client) => {
+      //   const isAuthenticated = await auth0Client.isAuthenticated();
+      //   const query = window.location.search;
+      //   const userProfile = await auth0Client.getUser();
 
-        console.log(isAuthenticated, 'authenticated')
-        console.log(userProfile)
+      //   console.log(isAuthenticated, 'authenticated')
+      //   console.log(userProfile)
 
-        if (isAuthenticated) {
-          await updateUI(auth0Client, query);
-        }
-      })
+      //   if (isAuthenticated) {
+      //     await updateUI(auth0Client, query);
+      //   }
+      // })
     }
   });
 
