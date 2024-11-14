@@ -27,7 +27,8 @@ new2024:
 	bundle exec jekyll build -d ./_site/year/2024
 	./scripts/fix_file_extensions.sh
 
-production: site
+production: production-clean
+	site
 	cd _site && ../scripts/sync_with_s3_boto.py $(PRODUCTION_BRANCH) $(PRODUCTION_BUCKET)
 
 staging: site
