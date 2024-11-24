@@ -12,236 +12,88 @@
 #       url:   #link to the supporter's website
 
 
- - category: Platinum
-   image_size: 400
-   supporters:
-     - name: "Tableau"
-       image: /assets/supporters/Tableau-From-Salesforce-Logo-COLOR.png
-       url: "https://www.tableau.com/"
+#  - category: Platinum
+#    image_size: 400
+#    supporters:
+#      - name: "Tableau"
+#        image: /assets/supporters/Tableau-From-Salesforce-Logo-COLOR.png
+#        url: "https://www.tableau.com/"
 
- - category: Gold
-   image_size: 360
-   supporters:
-     - name: "Autodesk"
-       image: /assets/supporters/Autodesk-logo.png
-       url: "https://www.autodesk.com/research"
+#  - category: Gold
+#    image_size: 360
+#    supporters:
+#      - name: "Autodesk"
+#        image: /assets/supporters/Autodesk-logo.png
+#        url: "https://www.autodesk.com/research"
 
- - category: Silver
-   image_size: 320
-   supporters:
-     - name: "Adobe"
-       image: /assets/supporters/Adobe-logo.jpg
-       url: "https://www.adobe.com/"
-     - name: "Apple"
-       image: /assets/supporters/apple.png
-       url: "https://www.apple.com"
-
- - category: Bronze
-   image_size: 200
-   supporters:
-     - name: "NREL"
-       image: /assets/supporters/NREL.jpg
-       url: "https://www.nrel.gov/"      
-     - name: "VRVis"
-       image: /assets/supporters/VRVis-Logo.png
-       url: "https://www.vrvis.at/en/"
-     - name: "Databricks"
-       image: /assets/supporters/databricks_logo.svg
-       url: "https://www.databricks.com/" 
-     - name: "SCI"
-       image: /assets/supporters/sci.png
-       url: "https://www.sci.utah.edu/"
-     - name: "Uncharted Software"
-       image: /assets/supporters/UnchartedLogo.png
-       url: "https://uncharted.software/"
-
- - category: VISAP
-   image_size: 140
-   supporters:
-     - name: "Northeastern University Art + Design"
-       image: /assets/supporters/northeastern_art_design.png
-       url: "https://camd.northeastern.edu/art-design/"
-     - name: "UM School of Communication"
-       image: /assets/supporters/SoC_Website_Logo_Retina.png
-       url: "https://com.miami.edu"
-
- - category: Exhibitors
-   image_size: 140
-   supporters:
-     - name: "CRC Press"
-       image: /assets/supporters/CRC_Press_logo.svg.png
-       url: "https://crcpress.com"
-     - name: "Springer"
-       image: /assets/supporters/Springer_cmyk.png
-       url: "https://link.springer.com/"
-
- - category: SciVis Contest Prize
-   image_size: 140
-   supporters:
-     - name: "NVIDIA"
-       image: /assets/supporters/nvidia.png
-       url: "https://www.nvidia.com/"
-
- - category: Partner Organizations
-   image_size: 140
-   supporters:
-     - name: "Data Visualization Society"
-       image: /assets/supporters/dvs_logo.png
-       url: "https://www.datavisualizationsociety.org/"
-     - name: "Higher Education Tableau User Group"
-       image: /assets/supporters/hetug_logo.png
-       url: "https://usergroups.tableau.com/higher-education-tableau-user-group/"
-
-
-
-
+#  - category: Silver
+#    image_size: 320
+#    supporters:
+#      - name: "Adobe"
+#        image: /assets/supporters/Adobe-logo.jpg
+#        url: "https://www.adobe.com/"
 #      - name: "Apple"
 #        image: /assets/supporters/apple.png
 #        url: "https://www.apple.com"
-# #     - name: "Unviversity of Oklaoma"
-# #       image: /assets/supporters/okl_transparent.png
-# #       url: "https://www.ou.edu/disc"
-#      - name: "Monash University"
-#        image: /assets/supporters/monash.png
-#        url: "https://www.monash.edu/it"
-#      - name: "JPMorgan Chase"
-#        image: /assets/supporters/jpmchase.png
-#        url: "https://www.jpmorganchase.com/"
 
-#  - category: Pearl
-#    image_size: 150
-#    supporters:
-#      - name: "Kitware, Inc"
-#        image: /assets/supporters/kitware.png
-#        url: "https://www.kitware.com/"
-#     - name: "Fraunhofer IGD"
-#       image: /assets/supporters/igd.png
-#       url: "https://www.igd.fraunhofer.de"
-#     - name: "Springer"
-#       image: /assets/supporters/springer-logo-transparent.png
-#       url: "https://www.springer.com/us"
-     # - name: "VRVis"
-     #   image: /assets/supporters/VRVis-Logo.png
-     #   url: "https://www.vrvis.at/"
-#     - name: "Nomic"
-#       image: /assets/supporters/nomic.png
-#       url: "https://home.nomic.ai"
-     # - name: "Adobe"
-     #   image: /assets/supporters/Adobe-logo.jpg
-     #   url: "https://www.adobe.com/"
-     # - name: "Nreal"
-     #   image: /assets/supporters/nreal-logo.png
-     #   url: "https://www.xreal.com/"
-     # - name: "University of Queensland"
-     #   image: "/assets/supporters/UQ logo - co-branding.jpg"
-     #   url: "https://www.uq.edu.au/"
-
-#     - name: "VisPsych"
-#       image: /assets/supporters/vispsych.png
-#       url: "https://sites.google.com/view/vispsych/"
- #     - name: "University of Melbourne"
- #       image: /assets/supporters/University_of_Melbourne.png
- #       url: "https://www.unimelb.edu.au/"
-
- # - category: Diamond
- #   image_size: 315
- #   supporters:
- #    - name: "Intel"
- #      image: /assets/supporters/intel.png
- #      url: "https://intel.com"
-
- #    - name: "Tableau"
- #      image: /assets/supporters/tableau.jpg
- #      url: "https://www.tableau.com/"
- #     - name: "KAUST"
- #       image: /assets/supporters/vcc_kaust.png
- #       url: "http://vcc.kaust.edu.sa/"
-#
-#
-#     - name: "University of Oklahoma"
-#       image: /assets/supporters/uofoklahoma.png
-#       url: "ou.edu"
-#
-#     - name: "Echo Investment Capital LLC"
-#       image: /assets/supporters/echo_small.png
-#       url: "https://www.echo.global"
-#
-#    - name: "Microsoft"
-#      image: /assets/supporters/microsoft.png
-#      url: "https://www.microsoft.com/research"
-
-#  - category: Banquet
+#  - category: Bronze
 #    image_size: 200
 #    supporters:
-#      - name: "Norrköping Visualization Center"
-#        image: /assets/supporters/norrkoping.png
-#        url: "https://visualiseringscenter.se/"
+#      - name: "NREL"
+#        image: /assets/supporters/NREL.jpg
+#        url: "https://www.nrel.gov/"      
+#      - name: "VRVis"
+#        image: /assets/supporters/VRVis-Logo.png
+#        url: "https://www.vrvis.at/en/"
+#      - name: "Databricks"
+#        image: /assets/supporters/databricks_logo.svg
+#        url: "https://www.databricks.com/" 
+#      - name: "SCI"
+#        image: /assets/supporters/sci.png
+#        url: "https://www.sci.utah.edu/"
+#      - name: "Uncharted Software"
+#        image: /assets/supporters/UnchartedLogo.png
+#        url: "https://uncharted.software/"
+
+#  - category: VISAP
+#    image_size: 140
+#    supporters:
+#      - name: "Northeastern University Art + Design"
+#        image: /assets/supporters/northeastern_art_design.png
+#        url: "https://camd.northeastern.edu/art-design/"
+#      - name: "UM School of Communication"
+#        image: /assets/supporters/SoC_Website_Logo_Retina.png
+#        url: "https://com.miami.edu"
+
+#  - category: Exhibitors
+#    image_size: 140
+#    supporters:
+#      - name: "CRC Press"
+#        image: /assets/supporters/CRC_Press_logo.svg.png
+#        url: "https://crcpress.com"
+#      - name: "Springer"
+#        image: /assets/supporters/Springer_cmyk.png
+#        url: "https://link.springer.com/"
+
+#  - category: SciVis Contest Prize
+#    image_size: 140
+#    supporters:
+#      - name: "NVIDIA"
+#        image: /assets/supporters/nvidia.png
+#        url: "https://www.nvidia.com/"
+
+#  - category: Partner Organizations
+#    image_size: 140
+#    supporters:
+#      - name: "Data Visualization Society"
+#        image: /assets/supporters/dvs_logo.png
+#        url: "https://www.datavisualizationsociety.org/"
+#      - name: "Higher Education Tableau User Group"
+#        image: /assets/supporters/hetug_logo.png
+#        url: "https://usergroups.tableau.com/higher-education-tableau-user-group/"
 
 
- #     - name: "Tom Sawyer Software"
- #       image: /assets/supporters/TomSawyer.jpg
- #       url: "https://www.tomsawyer.com/"
- #     - name: "Springer Nature"
- #       image: /assets/supporters/springernature.png
- #       url: "https://www.springernature.com/"
 
-
- #    - name: "Harvard Medical School"
- #      image: /assets/supporters/harvard.png
- #      url: "https://dbmi.hms.harvard.edu/education/master-biomedical-informatics"
-
-
-# - category: Diversity/Inclusivity Scholarships
-#   image_size: 150
-#   supporters:
-#     - name: "giCentre"
-#       image: /assets/supporters/giCentre.png
-#       url: "https://gicentre.net"
-#
-# - category: VISAP Grant Supporter
-#   image_size: 150
-#   supporters:
-#     - name: "Creative Informatics"
-#       image: /assets/supporters/CI.png
-#       url: "https://creativeinformatics.org/"
-
-#    - name: "Data Machines Corp"
-#      image: /assets/supporters/datamachines.png
-#      url: "http://www.datamachines.io/"
-
-#    - name: "Sophos"
-#      image: /assets/supporters/sophos.png
-#      url: "https://www.sophos.com/"
-
-    # - name: "TwoSix Labs"
-    #   image: /assets/supporters/twosix.png
-    #   url: "https://www.twosixtech.com/"
-
-#    - name: "ViSUS Software"
-#      image: /assets/supporters/visus.png
-#      url: "https://visus.org/"
-
-# - category: Banquet
-#   image_size: 150
-#   supporters:
-#     - name: "Northern Data"
-#       image: /assets/supporters/northern_data.png
-#       url: "https://northerndata.de/"
-
-
-# - category: Technology
-#   supporters:
-#    - name: "Gravitas AI"
-#      image: /assets/supporters/Gravitas_AI.png
-#      url: "https://gravitas.ai/"
-
-#    - name: "IBM/MIT"
-#      image: /assets/supporters/ibm-mit.png
-#      url: "https://mitibmwatsonailab.mit.edu/"
-
-#    - name: "SuperMiniStream"
-#      image: /assets/supporters/superministream.png
-#      url: "https://www.superministream.com/"
 
 
 # - category: In affiliation/cooperation with

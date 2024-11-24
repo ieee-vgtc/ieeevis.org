@@ -6,6 +6,9 @@ columns:
       display_style: "inline"
       links:      
       
+        - text: "2024"
+          url: "http://ieeevis.org/year/2024/welcome"
+
         - text: "2023"
           url: "http://ieeevis.org/year/2023/welcome"
 
