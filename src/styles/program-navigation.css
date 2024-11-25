@@ -338,8 +338,9 @@
     height: 100%;
     top: 0;
     z-index: 100;
-    background: rgba(0, 89, 175, 0.4);
     cursor: pointer;
+    opacity: 0.75;
+    @apply bg-secondary-100
 }
 
 .fade-enter-active, .fade-leave-active {

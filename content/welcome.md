@@ -10,9 +10,10 @@ IEEE VIS 2025 will be the year’s premier forum for advances in theory, methods
 We invite you to share your research, insights, and enthusiasm at IEEE VIS. In addition to the main program, IEEE VIS 2025 will also feature a diverse range of symposia and co-located events.
 
 ***VIS 2025 General Chairs***<br/>
-[Paul Rosen](https://www.sci.utah.edu/people/prosen.html), University of Utah<br/>
-[Kristi Potter](https://www.nrel.gov/research/staff/kristi-potter.html), National Renewable Energy Laboratory<br/>
-[Remco Chang](https://www.cs.tufts.edu/~remco/), Tufts University<br/>
+[Johanna Schmidt](), affiliation<br/>
+[Kresimir Matković](), affiliation<br/>
+[Barbora Kozlíková](), affiliation<br/>
+[Eduard Gröller](), affiliation<br/>
 
 ----
 

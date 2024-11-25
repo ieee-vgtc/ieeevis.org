@@ -1,42 +1,3 @@
-# - title: "Location Update"
-#   description: "IEEE VIS 2024 will now be held in the Hilton Downtown Tampa"
-#   button-text: "Register Now"
-#   button-url: "/info/registration/hotel-information"
-#   image: "2024-hilton.jpg"
-#   active: "active"
-
-# - title: "IEEE VIS 2024 will now be fully virtual"
-#   button-text: "Register Now"
-#   button-url: "/info/registration/conference-registration"
-#   image: "virtual_tree.png"
-#   active: "active"
-
-# - title: "The Road to VIS 2024 - Decisions"
-#   button-text: "Latest Blog Post"
-#   button-url: "/blog/vis-2024-OPC-blog-decisions_2"
-#   image: "road_to_vis24.png"
-
-# - title: "Keynote Speaker: Dr. Bill Pike"
-#   button-text: "Read More"
-#   button-url: "/info/keynote-speaker"
-#   image: "bill-pike-carousel.jpg"
-
-# - title: "Capstone Speaker: Professor Catherine D'Ignazio"
-#   button-text: "Read More"
-#   button-url: "/info/capstone-speaker"
-#   image: "catherine-dignazio-carousel.jpg"
-
-# - title: "IEEE VIS is made possible by our supporters"
-#   button-text: "Become a supporter"
-#   button-url: "/supporters"
-#   image: "09212024-vis-supporters.png"
-
-# - title: "IEEE VIS 2024 Swag Shop Now Open!"
-#   button-text: "Read More"
-#   button-url: "/info/swag"
-#   image: "vis2024-swag-carousel.png"
-
-
 - title: "IEEE VIS 2025 in Vienna, Austria"
   image: "skyline_vienna.jpg"
   button-text: "Read More"
@@ -48,11 +9,11 @@
 #   button-url: "/blog/vis-2024-conference-format"
 #   image: "tradewinds_hall.jpg"
 
-
 # - title: "The Road to VIS 2024 - Latest Blog Post from the Overall Paper Chairs"
 #   button-text: "Latest Blog Post"
 #   button-url: "/blog/vis-2024-OPC-blog-decisions"
 #   image: "road_to_vis24.png"
+
 # - title: "Meet your 2023 VEC and VSC Candidates"
 #   description: "The VIS community will vote on a new representative each to join the Vis Executive Committee (VEC) and the Vis Steering Committee (VSC). Check out the Elections page to learn More about the nominees for each position. Elections will begin September 15. Remember to register to vote by August 25!"
 #   button-text: "Elections Page"
@@ -66,26 +27,5 @@
 #   button-url: "/info/awards/best-paper-awards"
 #   active: "active"
 
-# - title: "Test of Time Awards Announced"
-#   image: "watch_old_wood.jpg"
-#   description: "The Test of Time awards for Infovis, VAST, and SciVis have been announced."
-#   button-text: "See the awards"
-#   button-url: "/info/awards/test-of-time-awards"
 
-# - title: "Paper Sessions Schedule Announced"
-#   image: "clock.jpg"
-#   description: "The tentative schedule for paper presentations has been released."
-#   button-text: "See schedule"
-#   button-url: "/info/papers-sessions"
-
-# - title: "Job postings"
-#   button-text: "Read More"
-#   button-url: "/info/jobs"
-#   image: "jobs.jpeg"
-
-#- title: "Talk Recording Guide"
-#  description: "Check out some tips for recording your VIS talk from the conference organizers."
-#  button-text: "See the video"
-#  button-url: "https://youtu.be/SfWOKH8IR5k"
-#  image: "vis_presenting_tips.png"
 

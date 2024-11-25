@@ -47,10 +47,10 @@ html {
 /* Main */
 
 main {
-    /* margin-top: 70px;  */
+    margin-top: 70px; 
     /* Push down to compensate for fixed nav*/
 
-    margin-top: 140px;
+    /* margin-top: 140px;  */
     /* Adding 70px for the program navbar */
 }
 
