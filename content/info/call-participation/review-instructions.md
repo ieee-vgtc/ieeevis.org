@@ -10,9 +10,6 @@ The success of the IEEE VIS papers program relies on a knowledgeable, experience
 **New for 2025**: Primary reviewers may optionally invite a student reviewer for each submission! See more below.  
 **Continuing for 2025 (was new for 2024)**: Only one external reviewer will be invited per paper; this reviewer is invited by the secondary.
 This page provides detailed instructions for both PC reviewers and external reviewers.
-# Contents
-* auto-gen TOC:
-{:toc}
 
 # PC Reviewing Instructions
 ## Affiliation & Keywords Update  
