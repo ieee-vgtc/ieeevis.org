@@ -35,32 +35,6 @@ permalink: /year/2025/info/committees/conference-committee
 | Markus Hadwiger | *King Abdullah University of Science and Technology (KAUST)* |
 | Christoph Garth | *University of Kaiserslautern-Landau* |
 |---
-<!--
-| **Area 1 Paper Chairs** | **Theoretical & Empirical** |
-| Adam Perer | *Carnegie Mellon University* |
-| Matthew Kay | *Northwestern University* |
-|---
-| **Area 2 Paper Chairs** | **Applications** |
-| Tatiana von Landesberger | *University of Cologne, Germany* |
-| Jiawan Zhang | *Tianjin University* |
-|---
-| **Area 3 Paper Chairs** | **Systems & Rendering** |
-| Chaoli Wang | *University of Notre Dame* |
-| Christoph Garth | *University of Kaiserslautern-Landau* |
-|---
-| **Area 4 Paper Chairs** | **Representations & Interaction** |
-| Daniel Keefe | *University of Minnesota* |
-| Pierre Dragicevic | *Inria Bordeaux* |
-|---
-| **Area 5 Paper Chairs** | **Data Transformations** |
-| Filip Sadlo | *Heidelberg University* |
-| Ivan Viola | *King Abdullah University of Science and Technology* |
-|---
-| **Area 6 Paper Chairs** | **Analytics & Decisions** |
-| Wenwen Dou | *University of North Carolina at Charlotte* |
-| Steffen Koch | *University of Stuttgart* |
-|---
--->
 | **Short Paper Chairs** | |
 | Charles Perin | *University of Victoria* |
 | Julian Tierny | *Sorbonne University* |
@@ -78,11 +52,6 @@ permalink: /year/2025/info/committees/conference-committee
 | Kai Lawonn | *University of Jena* |
 | Leilani Battle | *University of Washington* |
 |---
-<!--| **Application Spotlight Chairs** | |
-| Ana Crisan | *University of Waterloo* |
-| Mennatallah El-Assady | *ETH Zürich* |
-|---
--->
 | **Open Practices Chairs** | |
 | Laura Garrison | *University of Bergen* |
 | Devin Lange | *Harvard Medical School* |
@@ -109,13 +78,6 @@ permalink: /year/2025/info/committees/conference-committee
 | Michael Behrisch | *Utrecht University* |
 | Emily Wall | *Emory University* |
 |---
-<!--
-| **Fast Forward Chairs** | |
-| Soumya Dutta | *Indian Institute of Technology, Kanpur* |
-| Ghulam Jilani Quadri | *University of Oklahoma* |
-| Qing Chen | *Tongji University* |
-|---
--->
 | **Publication Chairs** | |
 | Minsuk Kahng | *Google* |
 | Zhicheng Liu | *University of Maryland College Park* |
