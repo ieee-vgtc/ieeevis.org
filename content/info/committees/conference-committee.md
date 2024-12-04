@@ -6,21 +6,36 @@ permalink: /year/2025/info/committees/conference-committee
 ---
 
 | **General Chairs** | |
-| Paul Rosen | *University of Utah* |
-| Kristin Potter | *National Renewable Energy Laboratory* |
-| Remco Chang | *Tufts University* |
+| Johanna Schmidt | *TU Wien* |
+| Eduard Gröller | *TU Wien* |
+| Barbora Kozlíková | *Masaryk University* |
+| Krešimir Matković | *VRVis GmbH* |
 |---
 | **Program Chairs** | |
-| Lane Harrison | *Worcester Polytechnic Institute* |
-| Kate Isaacs | *University of Utah* |
+| Tushar Athawale | *Oak Ridge National Laboratory* |
 | Michelle Dowling | *Pacific Northwest National Laboratory* |
 |---
 | **Overall Paper Chairs** | |
-| Tamara Munzner | *University of British Columbia* |
+| Melanie Tory | *Northeastern University* |
 | Niklas Elmqvist | *Aarhus University* |
 | Holger Theisel | *University of Magdeburg* |
-| Petra Specht (OPC Assistant) | *University of Magdeburg* |
+| Petra Specht | *University of Magdeburg* |
 |---
+| **Area Paper Chairs** | |
+| Filip Sadlo | *Heidelberg University* |
+| Hongfeng Yu | *University of Nebraska-Lincoln* |
+| Jaegul Choo | *Korea Advanced Institute of Science and Technology (KAIST)* |
+| Steffen Koch | *University of Stuttgart* |
+| Wesley Willett | *University of Calgary* |
+| Elisabeta Marai | *University of Illinois Chicago* |
+| Timo Ropinski | *Ulm University* |
+| Matthew Kay | *Northwestern University* |
+| Daniel Keefe | *University of Minnesota* |
+| Marc Streit | *Johannes Kepler University Linz* |
+| Markus Hadwiger | *King Abdullah University of Science and Technology (KAUST)* |
+| Christoph Garth | *University of Kaiserslautern-Landau* |
+|---
+<!--
 | **Area 1 Paper Chairs** | **Theoretical & Empirical** |
 | Adam Perer | *Carnegie Mellon University* |
 | Matthew Kay | *Northwestern University* |
@@ -45,37 +60,40 @@ permalink: /year/2025/info/committees/conference-committee
 | Wenwen Dou | *University of North Carolina at Charlotte* |
 | Steffen Koch | *University of Stuttgart* |
 |---
+-->
 | **Short Paper Chairs** | |
 | Charles Perin | *University of Victoria* |
-| Johanna Beyer | *Harvard University* |
-| Takayuki Itoh | *Ochanomizu University* |
-| Hongfen Yu | *University of Nebraska-Lincoln* |
+| Julian Tierny | *Sorbonne University* |
+| Cagatay Turkay | *University of Warwick* |
+| Jiazhi Xia | *Central South University* |
 |---
 | **Poster Chairs** | |
-| Nan Cao | *Tongji University* |
+| Benjamin Bach | *University of Edinburgh* |
 | Renata Raidou | *TU Wien* |
-| Jiazhi Xia | *Central South University, China* |
-| Wesley Willett | *University of Calgary* |
+| Alvitta Ottley | *Washington University* |
+| Lingyun Yu | *Xi'an Jiaotong-Liverpool University* |
 |---
 | **Panels & Tutorials Chairs** | |
 | Cagatay Turkay | *University of Warwick* |
 | Kai Lawonn | *University of Jena* |
 | Leilani Battle | *University of Washington* |
 |---
-| **Application Spotlight Chairs** | |
+<!--| **Application Spotlight Chairs** | |
 | Ana Crisan | *University of Waterloo* |
 | Mennatallah El-Assady | *ETH Zürich* |
 |---
+-->
 | **Open Practices Chairs** | |
 | Laura Garrison | *University of Bergen* |
-| Michael Correll | *Northeastern University* |
-| Cody Dunne | *Northeastern University* |
+| Devin Lange | *Harvard Medical School* |
+| Lace Padilla | *Northeastern University* |
 |---
 | **Workshop Chairs** | |
-| Julian Tierny | *Sorbonne Universite* |
-| Stefan Bruckner | *University of Rostock* |
-| Lingyun Yu | *Xi'an Jiaotong-Liverpool University* |
-| Arvind Satyanarayan | *MIT CSAIL* |
+| Ross Maciejewski  | *Arizona State University* |
+| Petra Isenberg | *INRIA* |
+| Michael Papka | *University of Illinois Chicago* |
+| Arvind Satyanarayan | *Massachusetts Institute of Technology* |
+| Ana Crisan | *University of Waterloo* |
 |---
 | **Arts Program Chairs** | |
 | Pedro Cruz | *Northeastern University* |
@@ -83,81 +101,80 @@ permalink: /year/2025/info/committees/conference-committee
 | Rewa Wright | *Queensland University of Technology* |
 |---
 | **Vis in Practice Chairs** | |
-| Ayan Biswas | *Los Alamos National Laboratory* |
+| Chris Bryan | *University of California, Davis* |
 | Arjun Srinivasan | *Databricks* |
 |---
 | **Doctoral Colloquium Chairs** | |
 | Yunhai Wang | *Renmin University of China* |
-| Christophe Hurter | *Ecole Nationale de l’Aviation Civile* |
+| Michael Behrisch | *Utrecht University* |
 | Emily Wall | *Emory University* |
 |---
+<!--
 | **Fast Forward Chairs** | |
 | Soumya Dutta | *Indian Institute of Technology, Kanpur* |
 | Ghulam Jilani Quadri | *University of Oklahoma* |
 | Qing Chen | *Tongji University* |
 |---
+-->
 | **Publication Chairs** | |
 | Minsuk Kahng | *Google* |
 | Zhicheng Liu | *University of Maryland College Park* |
 | Cindy Xiong | *Georgia Tech* |
 |---
 | **Community, Meetups, & Election Chairs** | |
-| Ali Sarvghad | *University of Massachusstes Amherst* |
+| Kyle Wm. Hall | *Temple University* |
 | Isaac Cho | *Utah State University* |
 | Georgia Panagiotidou | *King’s College London* |
 |---
 | **Student Volunteer Chairs** | |
-| Katy Williams | *Davidson College* |
-| Noëlle Rakotondravony | *Worcester Polytechnic Institute* |
+| Magdalena 'Momo' Boucher | *University of Applied Sciences St. Pölten* |
+| Hamza Elhamdadi | *University of Massachusetts Amherst* |
 | Yixuan Wang | *Arizona State University* |
 | Hyeon Jeon | *Seoul National University* |
-| Jeremy E. Block | *University of Florida* |
+| Zeyang Huang | *Linköping University* |
 |---
 | **Publicity Chairs** | |
-| Lace Padilla | *Northeastern University* |
+| Khairi Reda | *Indiana University* |
 | Alex Kale | *University of Chicago* |
 |---
 | **Inclusivity & Accessibility Chairs** | |
-| John Alexis Guerra Gómez | *Northeastern University* |
-| Dominik Moritz | *CMU* |
+| Laura Koesten | *University of Vienna* |
+| John Thompson | *Microsoft Research* |
 | Ab Mosca | *Westfield State University* |
 |---
 | **Supporters Chairs** | |
 | Michael Krone | *University of Tübingen* |
-| Vidya Setlur | *Tableau Research* |
-| Chris Bryan | *Arizona State University* |
-| Wei Chen | *Zhejiang University* |
-| Zeng Wei | *HKUST* |
+| Victor Mateevitsi | *Argonne National Laboratory* |
+| Chris Traxler | *VRVis GmbH* |
+| Dominik Moritz | *Carnegie Mellon University* |
 |---
 | **Finance Chairs** | |
 | Loretta Auvil | *National Center for Supercomputing Applications* |
 | Maria C. Velez | *Marvel Analytics* |
 | Bhavana Doppalapudi | *University of South Florida* |
 |---
-| **Incoming General Chairs (VIS25)** | |
-| Johanna Schmidt | *VRVis* |
-| Kresimir Matković | *VRVis* |
-| Barbora Kozlíková | *Masaryk University* |
-| Eduard Gröller | *TU Wien* |
+| **Incoming General Chairs (VIS26)** | |
+| Arvind Satyanarayan | *Massachusetts Institute of Technology* |
+| Lane Harrison | *Worcester Polytechnic Institute* |
+| Hendrik Strobelt | *IBM Research* |
+| Lace Padilla | *Northeastern University* |
 |---
 | **Archive Chairs** | |
 | Mukund Raj | *Broad Institute* |
-| Kyle Hall | *TD Bank* |
+| Changjian Chen | *Hunan University* |
 | Ashley Suh | *MIT Lincoln Laboratory* |
 | Nicole Sultanum | *Tableau* |
+| Fabio Miranda | University of Illinois Chicago |
 |---
 | **Web Chairs** | |
-| Dylan Cashman | *Brandeis University* |
-| Steve Petruzza | *Utah State University* |
-| Janos Zimmermann | *DKRZ* |
+| Shayan Monadjemi | *Oak Ridge National Laboratory* |
+| Harry Li | *Massachusetts Institute of Technology* |
 | Mashrur Rashik | *University of Massachusetts Amherst* |
 | Mahmood Jasim | *Louisiana State University* |
-| Shayan Monadjemi | *Oak Ridge National Laboratory* |
 |---
 | **Technology Chairs** | |
-| Aditeya Pandey | *Regeneron* |
-| John Thompson | *Autodesk Research* |
-| Harry Li | *MIT Lincoln Laboratory* |
+| Jan Byska | *Masaryk University* |
+| Alexander Rind | *University of Applied Sciences St. Pölten* |
 | Kelvin Li | *Databricks* |
 |---
 | **VAST Challenge Chairs** | |
@@ -166,7 +183,7 @@ permalink: /year/2025/info/committees/conference-committee
 | R. Jordan Crouser | *Smith College* |
 |---
 | **SciVis Contest Chairs** | |
-| Karen Bemis | *Rutgers, The State University of New Jersey* |
+| Christoph Heinzl | *University of Passau* |
 | Tim Gerrits | *RWTH Aachen University* |
 |---
 | **IEEE** | |
