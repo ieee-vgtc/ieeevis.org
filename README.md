@@ -5,6 +5,7 @@ Hi!  This is the Jekyll version of the [IEEE VIS website](http://ieeevis.org).
 The `vis2025` branch (the page you're currently viewing) is the current year's website.
 
 To edit files in other years, check out the other `vis*` branches.  Click the below links to teleport:
+- [vis2024](https://github.com/ieee-vgtc/ieeevis.org/tree/vis2024) - the 2024 redesign
 - [vis2023](https://github.com/ieee-vgtc/ieeevis.org/tree/vis2023) - the 2023 redesign
 - [vis2022](https://github.com/ieee-vgtc/ieeevis.org/tree/vis2022) - the 2022 redesign
 - [vis2021](https://github.com/ieee-vgtc/ieeevis.org/tree/vis2021) - the 2021 redesign
