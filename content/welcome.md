@@ -11,15 +11,6 @@ In 2025, the conference is again moving to the old continent, and we cannot wait
 
 We will do our best to plan an extraordinary experience for you and we will cheer together for the past and future of IEEE VIS!.
 
-VIS 2025 GENERAL CHAIRS
-Johanna Schmidt, TU Wien
-Barbora Kozlíková, Masaryk University
-Krešimir Matković, VRVis GmbH
-Eduard Gröller, TU Wien
-
-
-We invite you to share your research, insights, and enthusiasm at IEEE VIS. In addition to the main program, IEEE VIS 2025 will also feature a diverse range of symposia and co-located events.
-
 ***VIS 2025 General Chairs***<br/>
 [Johanna Schmidt](https://johanna-schmidt.github.io/), TU Wien<br/>
 [Eduard Gröller](https://www.cg.tuwien.ac.at/staff/EduardGr%C3%B6ller), TU Wien<br/>
