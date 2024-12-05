@@ -148,5 +148,5 @@ permalink: /year/2025/info/committees/conference-committee
 | Christoph Heinzl | *University of Passau* |
 | Tim Gerrits | *RWTH Aachen University* |
 |---
-| **IEEE** | |
+| **IEEE** | 
 | Kathy Park | |
