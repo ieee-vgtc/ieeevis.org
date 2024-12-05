@@ -31,7 +31,7 @@ blog:
 
 menu:
   - dropdown: "Attend"
-    display: false
+    display: true
     sections:
       - subsections:
           - heading: "Attending VIS 2025"
@@ -108,7 +108,7 @@ menu:
       #              is_new: false
 
   - dropdown: "Contribute"
-    display: false
+    display: true
     sections:
       - subsections:
           - heading: "Call for Participation"
