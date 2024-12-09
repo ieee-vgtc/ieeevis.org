@@ -13,7 +13,7 @@ For IEEE VIS 2021 and beyond, the conference changes how it groups shared resear
 
 This page provides guidance on how the area model affects authors, reviewers, paper chairs, and the reviewing process more generally. It also gives guidance on how to make an appropriate choice during paper submission.
 
-## How Will the Area Model Affect Me?
+## How Will the Area Model Affect Me?  
 
 ### VIS Areas and Paper Authors
 As an author, your main task is to choose an area for your submission. You should think of areas mostly as logistical divisions that ensure a high-quality reviewing process. First, try to find an area for your paper based on the topics grouped in the area. Secondly, if your paper could go into multiple areas, look at the area paper chairs and their expertise. Which area has the area paper chairs with expertise related to your paper? Note that program committee members are not exclusive to an area, so you do not have to worry about identifying which PC members would be suitable to review your manuscript.
