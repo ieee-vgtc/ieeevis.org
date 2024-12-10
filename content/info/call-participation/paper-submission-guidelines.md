@@ -10,9 +10,9 @@ contact: papers@ieeevis.org
 IEEE Vis follows the [area model](/year/2025/info/call-participation/area-model), and thus a paper for IEEE VIS should be submitted to one of six areas. Make sure that you carefully read both the descriptions for each of the six areas (see also the [area model FAQs](/year/2025/info/call-participation/area-model#frequently-asked-questions)) and the guidelines below before submitting your paper.  
 
 ## New for 2025
-  - **Extra week for supplemental material**: While the full paper deadline remains the same as ever (March 31), you may optionally use another week (until April 7) to prepare and submit your supplemental material in PCS.
-  - **Student reviewer program**: Primary reviewers may optionally invite a student reviewer, whose review will be advisory in nature.
-  - **Opt-in publication of anonymized reviews**: Authors of accepted papers may optionally choose to publish the anonymized reviews for their paper in the IEEE Digital Library.
+- **Extra week for supplemental material**: While the full paper deadline remains the same as ever (March 31), you may optionally use another week (until April 7) to prepare and submit your supplemental material in PCS.
+- **Student reviewer program**: Primary reviewers may optionally invite a student reviewer, whose review will be advisory in nature.
+- **Opt-in publication of anonymized reviews**: Authors of accepted papers may optionally choose to publish the anonymized reviews for their paper in the IEEE Digital Library.
 
 
 ## Contents
@@ -24,12 +24,12 @@ IEEE Vis follows the [area model](/year/2025/info/call-participation/area-model)
 - [Abstract Submission](#abstract-submission)
 - [Plagiarism](#plagiarism)
 - [Review Process](#review-process)
-- [Student Reviewers](#student-reviewers)
+- [Student Reviewers](#student-reviewers-new-for-2025)
 - [Page Length Restrictions](#page-length-restrictions)
 - [Supplemental Material](#supplemental-material)
 - [Resubmitting Rejected Papers](#resubmitting-rejected-papers)
 - [General Expectations](#general-expectations)
-- [Opt-in Publishing of Anonymized Reviews](#Opt-in-Publishing-of-Anonymized-Reviews)
+- [Opt-in Publishing of Anonymized Reviews](#opt-in-publishing-of-anonymized-reviews-new-for-2025)
 - [Use of Generative AI in Paper Writing](#use-of-generative-ai-in-paper-writing)
 - [Expectations for References](#expectations-for-references)
 - [Ethics Guidelines](#ethics-guidelines)
@@ -48,7 +48,7 @@ IEEE Vis follows the [area model](/year/2025/info/call-participation/area-model)
   
 ## Submission System
 
-IEEE VIS uses the [Precision Conference System (PCS)](https://new.precisionconference.com/vgtc) to handle the submission and reviewing process. When submitting your manuscript, at the top of the PCS Submissions tab you should select ‘VGTC’ for the society, ‘VIS 2024’ for the conference/journal, and ‘VIS 2024 Full Papers’ for the track. Then, please make sure that you submit it to your intended area by choosing the appropriate area from the list of six areas. In the [area description page](/year/2025/info/call-participation/area-model), you can find information guiding you to choose an appropriate area along with example papers for each area.
+IEEE VIS uses the [Precision Conference System (PCS)](https://new.precisionconference.com/vgtc) to handle the submission and reviewing process. When submitting your manuscript, at the top of the PCS Submissions tab you should select ‘VGTC’ for the society, ‘VIS 2025’ for the conference/journal, and ‘VIS 2025 Full Papers’ for the track. Then, please make sure that you submit it to your intended area by choosing the appropriate area from the list of six areas. In the [area description page](/year/2025/info/call-participation/area-model), you can find information guiding you to choose an appropriate area along with example papers for each area.
 
 ## Formatting and Language Guidelines
 
@@ -175,10 +175,6 @@ In addition, we expect that authors provide a hyperlinked DOI for each entry for
 
 IEEE VIS adheres to the [VGTC ethics guidelines for reviewers](http://tc.computer.org/vgtc/conferences/ethics-guidelines) and has established a [Code of Conduct](/year/2025/info/inclusion/code-of-conduct). In all aspects of the paper handling process, any possible violation of these guidelines is taken seriously and may be reported to the APCs/OPCs for further handling within the VIS organization. Special attention is paid to the identification and reporting of plagiarism and possibly unethical paper content is monitored carefully in the reviewing process, also. We assume a zero tolerance policy regarding harassment situations as outlined in the Code of Conduct, should any such situation occur in the paper handling process. Investigation and processing of reported cases may lead to an escalation to the IEEE level.
 
-
-
 ## Paper Submission Keywords
 
 Authors are expected to select appropriate keywords for submitted papers. These keywords are specified when submitting via PCS. Please see the [VIS Paper Submission Keywords](paper-keywords) for descriptions of the keywords, sample papers, and history of how the keywords are selected.
-
-
