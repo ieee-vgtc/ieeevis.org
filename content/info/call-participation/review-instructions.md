@@ -17,7 +17,7 @@ This page provides detailed instructions for both PC reviewers and external revi
 # Contents
 
 - [PC Reviewing Instructions](#pc-reviewing-instructions)
-  - [Affiliations/Keywords Update, by March 15](#keywords-update)
+  - [Affiliations/Keywords Update, by March 15](#affiliations-keywords-update-by-march-15)
   - [Bidding, March 22 thru March 31](#bidding)
   - [Assigning External Reviewers, April 5 thru April 11](#assigning-external-reviewers)
   - [First Round Reviewing, April 5 thru May 8](#first-round-reviewing)
@@ -25,7 +25,7 @@ This page provides detailed instructions for both PC reviewers and external revi
   - [First Round Decisions, May 16 thru June 6](#first-round-decisions)
   - [Second Round Reviewing, July 2 thru July 14](#second-round-reviewing)
 - [External Reviewing Instructions](#external-reviewing-instructions)
-  - [Affiliations/Keywords Update, by March 31](#keywords-update-1)
+  - [Affiliations/Keywords Update, by March 31](#affiliations-keywords-update-by-march-31)
   - [Reviewing, April 14 thru May 8](#reviewing)
   - [Discussion, May 9 thru May 15](#discussion-1)
 - [Additional Reviewing Guidance](#additional-reviewing-guidance)
@@ -96,37 +96,37 @@ Another way to find papers that match your expertise and interest is to use (1) 
 **New in 2025**: Primary reviewers optionally invite ONE student reviewer (see below).  
 
 **External reviewers**. Because of the reliance on a single external reviewer, the secondary reviewer should take particular care of the following:  
-  - Ensure that there is no conflict of interest. This check is particularly important for single-blind submissions since the external reviewer will not be able to verify this themself. Although PCS itself has automatic conflict of interest flagging, you might want to double check explicitly because this data is not guaranteed to be reliable. For example, you may want to check [DBLP](https://dblp.org/) for recent coauthorship between authors and your preferred reviewer as a preliminary step.
-  - Make certain that the reviewer is NOT from the same institution/group as any of the PC members assigned to the paper. This constraint is to avoid one academic perspective or geographic location having too much influence on a single paper.
-  - Do not assign reviews to your current or former students or postdocs. We want to promote a diversity of opinions in the reviewer panel. After 10 years after graduation, you may consider recruiting them.
-  - Avoid assigning external reviewers who are too junior to be qualified as reviewers. With a single external reviewer for each paper, we cannot afford to use the VIS review process for training students in the art of reviewing papers.
+- Ensure that there is no conflict of interest. This check is particularly important for single-blind submissions since the external reviewer will not be able to verify this themself. Although PCS itself has automatic conflict of interest flagging, you might want to double check explicitly because this data is not guaranteed to be reliable. For example, you may want to check [DBLP](https://dblp.org/) for recent coauthorship between authors and your preferred reviewer as a preliminary step.
+- Make certain that the reviewer is NOT from the same institution/group as any of the PC members assigned to the paper. This constraint is to avoid one academic perspective or geographic location having too much influence on a single paper.
+- Do not assign reviews to your current or former students or postdocs. We want to promote a diversity of opinions in the reviewer panel. After 10 years after graduation, you may consider recruiting them.
+- Avoid assigning external reviewers who are too junior to be qualified as reviewers. With a single external reviewer for each paper, we cannot afford to use the VIS review process for training students in the art of reviewing papers.
     
 Consider the mix of expertise and experience across all reviewers, including varied career stages, gender diversity, practitioners and researchers, industry and academia, etc. We aim for a good mix of perspectives.
 
 PCS has an option to suggest reviewers according to a match score. This list of suggested reviewers and their interests may be an aid to jog your memory, but note that it must be used with caution. Do not blindly rely on these suggestions without checking carefully that the suggested reviewers are indeed a good fit, since expertise is self-reported and has not been vetted in any way. Moreover, the Volunteered Reviews number in PCS may not be up to date, as many people in the PCS database may not have updated their willingness numbers but may indeed be willing to accept requests; it is reasonable to ignore the automatic warning to secure their permission in advance before assigning, and simply use PCS itself to make the request. Furthermore, please do not hesitate to add new, qualified reviewers that are not already in the PCS database using the “register new person” mechanism. We are always looking for the top experts in a specific topic, and extending the database will benefit others as well.  
 
 **Student reviewers**. The new VIS student reviewer program was created for VIS 2025 to increase the pool of available reviewers by mentoring new Ph.D. students in peer review. Each primary reviewer may optionally invite ONE student reviewer for each paper based on the following criteria:
-  - The student reviewer should be a Ph.D. student (or a person who is otherwise new to the visualization field but established as a researcher). 
-  - Unlike for external reviewers, the student may come from the same affiliation as other reviewers. In fact, you are encouraged to recruit your own Ph.D. students or postdocs as student reviewers.
-  - The primary reviewer commits to mentoring the student reviewer in producing a high-quality review.
-  - The primary reviewer should have a clear line of communication with the student reviewer; if they are not your own Ph.D. student, you should at least know the person prior to recruiting them.
-  - The primary reviewer must verify that the student reviewer's review indeed marks their expertise as "student" in the review form.
-  - Student reviewers will write a full review and may participate in the paper discussion, but their review is to be regarded as advisory in nature.
+- The student reviewer should be a Ph.D. student (or a person who is otherwise new to the visualization field but established as a researcher). 
+- Unlike for external reviewers, the student may come from the same affiliation as other reviewers. In fact, you are encouraged to recruit your own Ph.D. students or postdocs as student reviewers.
+- The primary reviewer commits to mentoring the student reviewer in producing a high-quality review.
+- The primary reviewer should have a clear line of communication with the student reviewer; if they are not your own Ph.D. student, you should at least know the person prior to recruiting them.
+- The primary reviewer must verify that the student reviewer's review indeed marks their expertise as "student" in the review form.
+- Student reviewers will write a full review and may participate in the paper discussion, but their review is to be regarded as advisory in nature.
 We have collected more information and guidelines about the student reviewer program in the [VIS 2025 Student Reviewer guide](https://ieeevis.org/year/2025/info/call-participation/student-reviewer-guide).
 
 **Batch release of initial external requests**. The first round of invitations to external reviewers will be released in a single batch on April 11, to encourage externals to make immediate decisions for which requests to accept. After that, review requests will be sent out immediately. PC members should prepare a list of multiple suitable externals for each paper as backup possibilities, in addition to your initial choice, so that you can send another request immediately if your initial request(s) are declined. PC members should actively check that invited external reviewers accept the invitation. If they decline or do not respond in a timely manner (i.e., within a few days of the request being sent), please send a request to the next person on your list as soon as possible.  
 
-**Do not ask other PC, APC, or OPC members to be external reviewers**. The full Program Committee listing can be found on the [conference website PC page](https://ieeevis.org/year/2025/info/committees/program-committees#full-papers-program-committee). (Note that they are also marked as “cmte” on the review assignment screen in PCS.) The Area Papers Chairs and Overall Papers Chairs are listed on the [conference website Organizers page](https://ieeevis.org/year/2024/info/committees/conference-committee). In addition, do not ask the EiC (Editor in Chief) or A-EiCs (Associate Editor in Chiefs) of IEEE TVCG to be external reviewers as they also oversee the review process and should remain neutral. For 2025, TVCG EiC is Han-Wei Shen, and visualization-related A-EiCs are Shixia Liu, Ross Maciejewski, and Daniel Weiskopf.  
+**Do not ask other PC, APC, or OPC members to be external reviewers**. The full Program Committee listing can be found on the [conference website PC page](https://ieeevis.org/year/2025/info/committees/program-committees#full-papers-program-committee). (Note that they are also marked as “cmte” on the review assignment screen in PCS.) The Area Papers Chairs and Overall Papers Chairs are listed on the [conference website Organizers page](https://ieeevis.org/year/2025/info/committees/conference-committee). In addition, do not ask the EiC (Editor in Chief) or A-EiCs (Associate Editor in Chiefs) of IEEE TVCG to be external reviewers as they also oversee the review process and should remain neutral. For 2025, TVCG EiC is Han-Wei Shen, and visualization-related A-EiCs are Shixia Liu, Ross Maciejewski, and Daniel Weiskopf.  
 
 ## First Round Reviewing
 **April 5 thru May 8**   
 
 During this phase, both primaries and secondaries:
-  - Write a regular review of their assigned papers.
+- Write a regular review of their assigned papers.
     
 Additionally, the primaries:
-  - Contact the APCs at an early stage if reviewers need copies of any related work that they cannot access (e.g., EuroVis submissions). The APCs can also communicate directly with authors if there are other inquiries. The sooner this engagement occurs, the better: please get in touch with the APCs sooner rather than later, if needed.
-  - Remind all external reviewers to complete their reviews on time as the review deadline approaches. The OPCs will send one reminder as well, a week before the deadline.
+- Contact the APCs at an early stage if reviewers need copies of any related work that they cannot access (e.g., EuroVis submissions). The APCs can also communicate directly with authors if there are other inquiries. The sooner this engagement occurs, the better: please get in touch with the APCs sooner rather than later, if needed.
+- Remind all external reviewers to complete their reviews on time as the review deadline approaches. The OPCs will send one reminder as well, a week before the deadline.
     
 As an IEEE VIS PC member, you are in a position to directly control the quality of the VIS papers program. Make sure that you stand behind the work you recommend for acceptance! Most importantly, this means that you should only accept high-quality papers that will contribute significantly to the VIS research community.  
 
@@ -135,26 +135,28 @@ However, you should also be on the lookout for bold, creative, and potentially t
 If you have any questions in this regard about a particular paper, please either flag this in the confidential section of your review or write to the chair(s) directly. Your insight and ability to look beyond the surface is exactly the kind of guidance the paper chairs need from a PC member.  
 
 Please see [Additional Reviewing Guidance](https://ieeevis.org/year/2025/info/call-participation/review-instructions#additional-reviewing-guidance) for further considerations.
+
 ## Discussion
 **May 9 thru May 15**  
 
 Primaries:
-  - As soon as possible, initiate discussion with the other reviewers to discuss whether the paper should be conditionally accepted or rejected for publication.
-  - Ensure that all reviewers contribute to the discussion about the paper. Consider contacting external reviewers directly if they are not responsive. This is particularly important since there is only a single external reviewer per paper.
-  - If you have invited a student reviewer for a paper, you must **VERIFY** that their expertise is set as "student" in their review. Furthermore, please check your student reviewer's review carefully and give feedback and points of improvement as necessary.
-  - By the end of the discussion period, write a summary review with a recommendation of conditional acceptance or rejection based on the reviews and the discussion. _This summary review MUST explicitly spell out what the conditions are for turning a conditionally accepted paper into an accepted one_. The authors need to know what is required of them as well as what comments they should consider but that aren’t required to address. If you and the secondary reviewer cannot agree on a recommendation for a submission, please document the discussion in the confidential portion of the summary review. If views have changed or consensus cannot be achieved, please let the papers chairs know the reason in the confidential comments. **Summary reviews are due on May 15**.
+- As soon as possible, initiate discussion with the other reviewers to discuss whether the paper should be conditionally accepted or rejected for publication.
+- Ensure that all reviewers contribute to the discussion about the paper. Consider contacting external reviewers directly if they are not responsive. This is particularly important since there is only a single external reviewer per paper.
+- If you have invited a student reviewer for a paper, you must **VERIFY** that their expertise is set as "student" in their review. Furthermore, please check your student reviewer's review carefully and give feedback and points of improvement as necessary.
+- By the end of the discussion period, write a summary review with a recommendation of conditional acceptance or rejection based on the reviews and the discussion. _This summary review MUST explicitly spell out what the conditions are for turning a conditionally accepted paper into an accepted one_. The authors need to know what is required of them as well as what comments they should consider but that aren’t required to address. If you and the secondary reviewer cannot agree on a recommendation for a submission, please document the discussion in the confidential portion of the summary review. If views have changed or consensus cannot be achieved, please let the papers chairs know the reason in the confidential comments. **Summary reviews are due on May 15**.
     
 Secondaries:
-  - Actively participate in the discussion of whether the paper should be conditionally accepted or rejected for publication.
-  - Help the primary identify feedback provided by the student reviewer (if applicable) that should be weighed in the final decision.
-  - Discuss with the primary reviewer to agree on a recommendation in the first review cycle.
+- Actively participate in the discussion of whether the paper should be conditionally accepted or rejected for publication.
+- Help the primary identify feedback provided by the student reviewer (if applicable) that should be weighed in the final decision.
+- Discuss with the primary reviewer to agree on a recommendation in the first review cycle.
     
 Please keep the discussion anonymous by referring to other reviewers as R1, R2, etc., and remember to not sign your name in the discussions.
 
 ## First Round Decisions
 **May 16 thru June 6**    
 
-Please be available electronically for discussion with the paper chairs about the papers, your recommendation, and the review process. This is particularly important if any of your review processes are contentious or controversial. If you will not be available to field our questions, please let the paper chairs know in advance.
+Please be available electronically for discussion with the paper chairs about the papers, your recommendation, and the review process. This is particularly important if any of your review processes are contentious or controversial. If you will not be available to field our questions, please let the paper chairs know in advance. 
+
 ## Second Round Reviewing
 **July 2 thru July 14**  
 
@@ -162,6 +164,7 @@ Primaries: For each of the papers for which you are the primary reviewer and tha
 
   1. READ THE SUMMARY OF CHANGES AND REVISED PAPER, and consider whether the authors adequately addressed the required changes from your summary review. For most cases, deciding whether a revised version of a paper is acceptable is a decision that the primary can make on their own. If you have any doubt, feel free to initiate a discussion with the secondary. If you think that there remain any minor issues that authors can fix simply, PCS also allows you to communicate anonymously with the authors. If you do this, please let the paper chairs know so we can re-open the paper for author edits. In communicating with authors, be careful not to send email with your signature attached, to maintain your anonymity. Finally, if applicable please also check revisions to supplementary material.
   2. WRITE A RESPONSE. First select a final decision for the paper in your review form for the paper. The options are “Accept” and “Unsure”. It is relatively rare that papers are rejected at this stage, so if you find yourself selecting the “Unsure” rating, please communicate with the APCs as soon as possible. Next, add text in the “Second round comments (public)” text box indicating that you have read the changed document and include any other responses you may have. Please note that you can still make requests for cosmetic fixes (e.g., typos, etc) for the camera-ready copy. However, you should not be requesting new substantive changes. Also fill in the form items on the acceptability of the supplementary material, and recommend a publicity image if applicable.
+
 # External Reviewing Instructions
 ## Affiliations/Keywords Update
 **By March 31**   
@@ -188,20 +191,22 @@ High-quality reviews are critical to the quality of the conference program. Plea
 
 Note that your review will be published in an **anonymous** form. Your name will **not** be disclosed to anyone.
 While we can understand how having your reviews published can be daunting, we encourage all reviewers to agree if they feel comfortable to do so. Transparency in our review process will only serve to further the visualization community.
+
 ## Discussion
 **May 9 thru May 15**  
 
 Following the completion of the reviewing phase, the primary reviewer will initiate a discussion with all reviewers of a paper through the PCS system. During this time you are to engage with the other reviewers to come to a consensus decision on whether to conditionally accept or reject the paper. Please keep the discussion anonymous by referring to other reviewers as R1, R2, etc., and remember to not sign your name in the review or the discussions.
+
 # Additional Reviewing Guidance
 ## Paper Quality
 As an IEEE VIS reviewer, you are in a position to directly influence the quality of the VIS papers program. Make sure that you stand behind the work you recommend for acceptance! Most importantly, this means that you should only accept high-quality papers that will contribute significantly to the VIS research community. You should, however, also be on the lookout for bold, creative, and potentially transformative work that may significantly extend the frontier of visualization research. While such submissions should be held to the same quality standard as all other submissions, it is expected that they may not be able to exhaustively (or perfectly) validate all of their contributions. We do not want the conference to consist of work with the fewest flaws; we need to weigh the possible significance of the work and the degree of ambition alongside the extent to which it is described, compared, and validated.
+
 ## Supplemental Materials
-Authors are encouraged to include supplemental material with their submission. The [Open Practices Supplemental Material FAQ](https://ieeevis.org/year/2024/info/open-practices/supplemental-material-faq) provides guidance on how to do so in VIS publications. Although these guidelines are not mandatory, reviewers are encouraged to be familiar with them and should not penalize a submission for adhering to the recommendations. In particular:
-  - Authors may deposit supplemental material at any location for a final VIS publication. During the review phase, authors may upload files to the review system (PCS) or to an external repository with timestamp support such as https://osf.io or https://github.com/.
-  - Authors may upload various types of material, such as data, code, videos, demos, or appendices — see the open practices guidelines for a more exhaustive list of examples.
-  - Authors are generally encouraged to share any material that can help readers and reviewers understand and scrutinize their work.
-  - 
-Authors are not formally required to provide supplemental material, and reviewers are not strictly obligated to review it. Authors use their judgment to decide what material to share, while reviewers use their judgment to decide how thoroughly they wish to examine and address it in their review.
+Authors are encouraged to include supplemental material with their submission. The [Open Practices Supplemental Material FAQ](https://ieeevis.org/year/2025/info/open-practices/supplemental-material-faq) provides guidance on how to do so in VIS publications. Although these guidelines are not mandatory, reviewers are encouraged to be familiar with them and should not penalize a submission for adhering to the recommendations. In particular:
+- Authors may deposit supplemental material at any location for a final VIS publication. During the review phase, authors may upload files to the review system (PCS) or to an external repository with timestamp support such as https://osf.io or https://github.com/.
+- Authors may upload various types of material, such as data, code, videos, demos, or appendices — see the open practices guidelines for a more exhaustive list of examples.
+- Authors are generally encouraged to share any material that can help readers and reviewers understand and scrutinize their work.
+- Authors are not formally required to provide supplemental material, and reviewers are not strictly obligated to review it. Authors use their judgment to decide what material to share, while reviewers use their judgment to decide how thoroughly they wish to examine and address it in their review.
 
 However, there is a growing expectation among reviewers that authors provide supplemental material to help build trust in their claims. For example, some reviewers strongly expect source code and benchmark replication materials for papers presenting new algorithms, or data and analysis scripts for papers drawing conclusions from lab studies. Reviewers are free to request supplemental material together with the second-round revision or ask authors to explain why they cannot provide it. Similarly, reviewers are free to raise potential issues with the submitted supplemental material and request changes or additions.  
 
@@ -210,36 +215,39 @@ Although the absence of supplemental material cannot be the sole reason for reje
 Just as authors cannot remove content from their paper between the approved second-round version and the camera-ready version, sharing material during the review process implies a commitment to make it available upon publication, unless otherwise specified in the submission.
 ## Reviewing Ethics
 All reviewers should make sure to follow the basic principles outlined below. As a primary or secondary, feel free to remind external reviewers of these as well as any additional resources you find helpful.
-  - **Be timely**: the conference has tight deadlines and late reviews are unfair to submitting authors as they reduce the time for discussion of their work.
-  - **Protect ideas**: the content of submissions should be handled as confidential information and should not be disclosed to close research colleagues or any wider audience.
-  - **Avoid conflicts of interest**: these include being directly involved in the work, co-author of one of the authors within the past 3 years, member of the same institution of one of the authors (or have been in the past year), supervisor/advisor/advisee of one of the authors (a "forever" conflict), familial or emotional tie to one of the authors, or any other factor that would result in a biased review of the submitted work. If you discover a conflict of interest after the reviewing phase begins please contact the paper chairs immediately.
-  - **Be specific and constructive**: offer specific critiques that are addressable by the authors, point out concrete issues to fix in an encouraging manner, and substantiate your comments with evidence and references.
-  - **See both pros and cons and find reasons to accept papers**: have an open-mind or at least disclose your biases. Note that reviewing is not only about finding problems, but also about identifying the strengths of a submission. It is easier to find reasons to reject papers than to point out the contributions that they bring to the community. Make sure that you also comment on all pros that you identify and emphasize positive aspects to help surface impactful research to the community.
-  - **Be tactful and polite**: emotional rants or sarcastic comments have no place in a professional review. Never forget that you review the presentation of some particular research work, NOT the person who wrote it; reconsider whenever you are about to include a personal remark in your review. Ask yourself if you could read your review aloud in front of an audience including the authors.
-  - **Information or content contained in or about a manuscript under review shall not be processed through a public AI/LLM platform (directly or indirectly)**. Doing so is considered a breach of confidentiality because AI/LLM systems generally learn from any input.
+- **Be timely**: the conference has tight deadlines and late reviews are unfair to submitting authors as they reduce the time for discussion of their work.
+- **Protect ideas**: the content of submissions should be handled as confidential information and should not be disclosed to close research colleagues or any wider audience.
+- **Avoid conflicts of interest**: these include being directly involved in the work, co-author of one of the authors within the past 3 years, member of the same institution of one of the authors (or have been in the past year), supervisor/advisor/advisee of one of the authors (a "forever" conflict), familial or emotional tie to one of the authors, or any other factor that would result in a biased review of the submitted work. If you discover a conflict of interest after the reviewing phase begins please contact the paper chairs immediately.
+- **Be specific and constructive**: offer specific critiques that are addressable by the authors, point out concrete issues to fix in an encouraging manner, and substantiate your comments with evidence and references.
+- **See both pros and cons and find reasons to accept papers**: have an open-mind or at least disclose your biases. Note that reviewing is not only about finding problems, but also about identifying the strengths of a submission. It is easier to find reasons to reject papers than to point out the contributions that they bring to the community. Make sure that you also comment on all pros that you identify and emphasize positive aspects to help surface impactful research to the community.
+- **Be tactful and polite**: emotional rants or sarcastic comments have no place in a professional review. Never forget that you review the presentation of some particular research work, NOT the person who wrote it; reconsider whenever you are about to include a personal remark in your review. Ask yourself if you could read your review aloud in front of an audience including the authors.
+- **Information or content contained in or about a manuscript under review shall not be processed through a public AI/LLM platform (directly or indirectly)**. Doing so is considered a breach of confidentiality because AI/LLM systems generally learn from any input.
     
 Additionally, all reviewers are bound to the [ethics guidelines of the IEEE VGTC](http://tc.computer.org/vgtc/conferences/ethics-guidelines). Please make sure you are familiar with these guidelines.
+
 ## What is a Minor Revision?
 IEEE VIS acceptances are conditional after the first round of reviewing, after which authors will be asked to perform a minor revision on the paper. While a few papers may not require any changes at all, this is usually very rare. In other words, reviewing in the first round becomes one of deciding which papers will be acceptable for publication after a minor revision. No paper is perfect; rather, your job is to identify the work that will have a significant contribution to visualization after the authors get a period of four weeks to address reviewer comments.  
 
 So, what is a minor revision? We rely on you to draw on your own experience to make this judgment. Don’t be close-minded, skeptical, or suspicious; be trusting and open to new ideas. Don’t expect perfectionism, reward pragmatism.  
 
 Here is an incomplete list of example changes suitable for a minor revision. You cannot require a specific result, but ask for details or another example, like
-  - Add missing related work (unless the missing work invalidates the contribution(s)).
-  - Reinforce arguments or improve reasoning (unless the central argument is fundamentally flawed).
-  - Adapt the exposition of the contribution and scope to better fit the research area (unless there is no conceivable connection to relevant topics in the area).
-  - Improve language, spelling, and grammar (unless poor language precludes understanding).
-  - Change poor visual design choices (unless they are central to the contribution).
-  - Correct issues with statistical tests (unless you suspect the new results will be radically different).
-  - Add or improve illustrations or images (unless this requires non-trivial algorithm changes or additional research).
+- Add missing related work (unless the missing work invalidates the contribution(s)).
+- Reinforce arguments or improve reasoning (unless the central argument is fundamentally flawed).
+- Adapt the exposition of the contribution and scope to better fit the research area (unless there is no conceivable connection to relevant topics in the area).
+- Improve language, spelling, and grammar (unless poor language precludes understanding).
+- Change poor visual design choices (unless they are central to the contribution).
+- Correct issues with statistical tests (unless you suspect the new results will be radically different).
+- Add or improve illustrations or images (unless this requires non-trivial algorithm changes or additional research).
     
 There are many ways to fix an imperfect paper. Keep an open mind. Avoid prescribing a solution: explain the problem and allow the authors to choose how to address it.
+
 ## Managing Resubmission Materials
 As we all know, successful publication in a premier venue such as VIS sometimes takes time. It can be frustrating for authors to resubmit a rejected paper, only to have a new set of reviewers reject a paper for precisely the opposite reasons from the original rejection. To add some memory to the process, we now encourage authors to submit resubmission materials to their papers, including past versions, past reviews, and a cover letter with the authors’ response and a list of changes made.  
 
 Providing resubmission materials is OPTIONAL and at the authors’ discretion. Even if you have reviewed a paper before, you should not penalize that paper if the authors chose not to provide resubmission materials (or vice versa).  
 
 As with all supplemental materials, each individual reviewer decides how to treat resubmission materials. However, the paper chairs urge you to at least take a look at any resubmission material provided and write your reviews based on a full picture of the paper.
+
 ## Assigning Scores, Requesting Revisions
 Remember that the numeric scores are shorthand for a recommendation. Please check the descriptions for the numbers on the reviewing form and carefully justify your recommendation in your review. Short, superficial reviews do not help the paper chairs in making their decisions.  
 
