@@ -157,7 +157,7 @@ Each full paper accepted at IEEE VIS 2025 will be required to be presented by on
 
 New for 2025, VIS will now allow authors of accepted papers to opt-in to having the anonymized reviews for their papers published in the IEEE Digital Library as supplemental material. The purpose of this initiative is to increase the transparency into the IEEE VIS publication process.  
 
-In practice, during final submission of the camera-ready version of your accepted paper, you will have to check a box in the submission form to allow reviews to be collected and published with your paper. Only papers for which all reviewers explicitly have agreed to having their review published can be included. It is possible that one or more reviewers will disagree even if you as an author have opted in. The VIS papers chairs have no mechanism to enforce acceptance; this by necessity requires consent by all parties.
+In practice, during final submission of the camera-ready version of your accepted paper, you will have to check a box in the submission form to allow reviews to be collected and published with your paper. Only papers for which **all** reviewers explicitly have agreed to having their review published can be included. It is possible that one or more reviewers will disagree even if you as an author have opted in. The VIS papers chairs have no mechanism to enforce acceptance; this by necessity requires consent by all parties.
 
 ## Use of Generative AI in Paper Writing
 
