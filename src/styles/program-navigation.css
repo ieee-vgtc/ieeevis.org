@@ -348,9 +348,9 @@
     opacity: 0;
 }
 
-.content ul li:before {
+/* .content ul li:before {
     display: none !important;
-}
+} */
 
 .hide-auth-controls {
     display: none !important;
