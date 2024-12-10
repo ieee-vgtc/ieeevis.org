@@ -49,53 +49,53 @@ When you submit your review, you must mark your expertise level as "student" in 
 
 ### Time Management
 Reviewing requires significant time and attention. For your VIS review, plan to dedicate at least a full day to the process. You should plan to:
-    - Read the paper multiple times.
-    - Take detailed notes.
-    - Draft and iteratively revise your review.
-    - Consider asking your primary reviewer for feedback before the review deadline.
+- Read the paper multiple times.
+- Take detailed notes.
+- Draft and iteratively revise your review.
+- Consider asking your primary reviewer for feedback before the review deadline.
 
 ### Writing Your Review
 Focus on providing a thorough, constructive review. While several reviewing guides are available (see resources below), here are key points to remember:
 - **Neutrality**: For non-anonymized submissions (IEEE VIS supports both single-blind and double-blind reviewing), maintain objectivity regardless of author identities. Don't let author reputation influence your assessment positively or negatively.
 - **Objectivity**: Take a balanced approach:
-  - Avoid letting a single aspect determine your entire assessment;
-  - Consider both strengths and weaknesses;
-  - Keep an open mind throughout the process; and
-  - Look at the work holistically.
+    - Avoid letting a single aspect determine your entire assessment;
+    - Consider both strengths and weaknesses;
+    - Keep an open mind throughout the process; and
+    - Look at the work holistically.
 - **Calibration**: New reviewers often face calibration challenges:
-  - Some are overly critical, focusing too much on minor issues.
-  - Others may be too lenient, missing significant flaws.
-  - Both extremes are natural; awareness helps you find balance
+    - Some are overly critical, focusing too much on minor issues.
+    - Others may be too lenient, missing significant flaws.
+    - Both extremes are natural; awareness helps you find balance
 
 ### Working with Your Primary Reviewer
 Your primary reviewer serves as your mentor in this process. While you should form your own opinions about the paper, don't hesitate to seek guidance:
-  - You can share your draft review for feedback before submission.
-  - Ask questions about the review process.
-  - Seek clarification about aspects of the paper you find unclear.
-  - Approach this as a learning opportunity.
+- You can share your draft review for feedback before submission.
+- Ask questions about the review process.
+- Seek clarification about aspects of the paper you find unclear.
+- Approach this as a learning opportunity.
 
 ### During the Discussion Phase
 Once other reviews become visible in PCS during the discussion phase:
-  - Read them to see what experienced reviewers emphasize.
-  - Notice what they consider important (or not).
-  - You don't need to modify your review to match others.
-  - Don't feel pressured to align your rating with the average.
+- Read them to see what experienced reviewers emphasize.
+- Notice what they consider important (or not).
+- You don't need to modify your review to match others.
+- Don't feel pressured to align your rating with the average.
 
 Remember, this isn't an exam where you need to catch every point others make. Instead, think of your review as one lens through which to help the authors improve their paper. 
 
 ### Participating in Discussions
 Engage in the discussion forum, even if briefly:
-  - Acknowledge that you've read other reviews.
-  - Share your perspective.
-  - Respond to questions about your review.
-  - Indicate whether you agree with the primary's direction.
-  - Ask questions if you're uncertain about something
+- Acknowledge that you've read other reviews.
+- Share your perspective.
+- Respond to questions about your review.
+- Indicate whether you agree with the primary's direction.
+- Ask questions if you're uncertain about something
 
 ## Review Resources and Guides
-  - The [IEEE VIS Reviewing Guide](https://ieeevis.org/year/2025/info/call-participation/review-instructions) 
-  - [How to Review HCI/Visualization Papers (Niklas Elmqvist)](https://niklaselmqvist.medium.com/how-to-review-hci-visualization-papers-7e51141c3868) 
-  - [Mistakes Reviewers Make (Niklas Elmqvist)](https://niklaselmqvist.medium.com/mistakes-reviewers-make-ce3a4c595aa2) 
-  - [Tips for being a Good Visualization Paper Reviewer (John Stasko)](https://jts3blog.wordpress.com/2016/12/23/tips-for-being-a-good-visualization-paper-reviewer/) 
+- The [IEEE VIS Reviewing Guide](https://ieeevis.org/year/2025/info/call-participation/review-instructions) 
+- [How to Review HCI/Visualization Papers (Niklas Elmqvist)](https://niklaselmqvist.medium.com/how-to-review-hci-visualization-papers-7e51141c3868) 
+- [Mistakes Reviewers Make (Niklas Elmqvist)](https://niklaselmqvist.medium.com/mistakes-reviewers-make-ce3a4c595aa2) 
+- [Tips for being a Good Visualization Paper Reviewer (John Stasko)](https://jts3blog.wordpress.com/2016/12/23/tips-for-being-a-good-visualization-paper-reviewer/) 
 
 ## Questions & Concerns
 For questions about the Student Reviewer Program, please contact the IEEE VIS Overall Papers Chairs at opc@ieeevis.org. 
