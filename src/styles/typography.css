@@ -55,7 +55,7 @@ em {
 }
 
 .link:hover, .content a:hover:not(.button) {
-    @apply text-primary-600;
+    @apply text-primary-500;
     transition: color 200ms;
 }
 
