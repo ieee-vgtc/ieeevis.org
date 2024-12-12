@@ -8,7 +8,7 @@
     @apply mb-4 p-6;
     @apply border border-primary-700 rounded;
     @apply bg-white;
-    @apply text-primary;
+    @apply text-secondary;
 }
 
 .card::after {
@@ -16,7 +16,7 @@
     right: calc(100% - 0.5rem);
     height: 100%;
     @apply absolute top-0;
-    @apply border-r border-primary;
+    @apply border-r border-primary-500;
 }
 
     @screen md {

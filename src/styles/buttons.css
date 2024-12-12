@@ -21,7 +21,7 @@
 }
 
 .button:hover {
-    /* @apply bg-primary-800; */
+    @apply bg-primary-700;
 }
 
 .button-secondary {
@@ -38,7 +38,7 @@
 }
 
 .button-inverse:hover {
-    @apply bg-primary-100;
+    @apply bg-primary-200;
 }
 
 .button+.button {
