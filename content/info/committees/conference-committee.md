@@ -16,10 +16,10 @@ permalink: /year/2025/info/committees/conference-committee
 | Michelle Dowling | *Pacific Northwest National Laboratory* |
 |---
 | **Overall Paper Chairs** | |
-| Melanie Tory | *Northeastern University* |
 | Niklas Elmqvist | *Aarhus University* |
 | Holger Theisel | *University of Magdeburg* |
-| Petra Specht | *University of Magdeburg* |
+| Melanie Tory | *Northeastern University* |
+| Petra Specht (OPC Assistant) | *University of Magdeburg* |
 |---
 | **Area Paper Chairs** | |
 | Filip Sadlo | *Heidelberg University* |
