@@ -22,18 +22,24 @@ permalink: /year/2025/info/committees/conference-committee
 | Petra Specht (OPC Assistant) | *University of Magdeburg* |
 |---
 | **Area Paper Chairs** | |
-| Filip Sadlo | *Heidelberg University* |
-| Hongfeng Yu | *University of Nebraska-Lincoln* |
-| Jaegul Choo | *Korea Advanced Institute of Science and Technology (KAIST)* |
-| Steffen Koch | *University of Stuttgart* |
-| Wesley Willett | *University of Calgary* |
-| Elisabeta Marai | *University of Illinois Chicago* |
-| Timo Ropinski | *Ulm University* |
+| **Area 1: Theoretical & Empirical** | |
 | Matthew Kay | *Northwestern University* |
+| Timo Ropinski | *Ulm University* |
+| **Area 2: Applications** | |
+| Elisabeta Marai | *University of Illinois Chicago* |
+| Wesley Willett | *University of Calgary* |
+| **Area 3: Systems & Rendering** | |
+| Christoph Garth | *University of Kaiserslautern-Landau* |
+| Markus Hadwiger | *King Abdullah University of Science and Technology (KAUST)* |
+| **Area 4: Representations & Interaction** | |
 | Daniel Keefe | *University of Minnesota* |
 | Marc Streit | *Johannes Kepler University Linz* |
-| Markus Hadwiger | *King Abdullah University of Science and Technology (KAUST)* |
-| Christoph Garth | *University of Kaiserslautern-Landau* |
+| **Area 5: Data Transformations** | |
+| Filip Sadlo | *Heidelberg University* |
+| Hongfeng Yu | *University of Nebraska-Lincoln* |
+| **Area 6: Analysis & Decisions** | |
+| Jaegul Choo | *Korea Advanced Institute of Science and Technology (KAIST)* |
+| Steffen Koch | *University of Stuttgart* |
 |---
 | **Short Paper Chairs** | |
 | Charles Perin | *University of Victoria* |
