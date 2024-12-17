@@ -46,8 +46,8 @@ menu:
                 - text: "Week-at-a-Glance"
                   url: "/year/2025/info/week-at-a-glance"
                   is_new: false
-                # - text: "Conference Center Map"
-                #   url: "/year/2025/info/conference-map"
+                - text: "Conference Center Map"
+                  url: "/year/2025/info/conference-map"
                 #   is_new: true
                 # - text: "IEEE Vis Swag Shop"
                 #   url: "/year/2025/info/swag"
@@ -120,18 +120,18 @@ menu:
                   - text: "Papers"
                     url: "/year/2025/info/call-participation/call-for-participation"
                     is_new: true
-#                  - text: "Short Papers"
-#                    url: "/year/2025/info/call-participation/shortpapers"
-#                    is_new: false
+                 - text: "Short Papers"
+                   url: "/year/2025/info/call-participation/shortpapers"
+                   is_new: true
 #                  - text: "Posters"
 #                    url: "/year/2025/info/call-participation/posters"
 #                    is_new: false
 #                  - text: "Tutorials"
 #                    url: "/year/2025/info/call-participation/tutorials"
 #                    is_new: false
-#                  - text: "Workshops"
-#                    url: "/year/2025/info/call-participation/workshops"
-#                    is_new: false
+                 - text: "Workshops"
+                   url: "/year/2025/info/call-participation/workshops"
+                   is_new: true
 #                  - text: "Panels"
 #                    url: "/year/2025/info/call-participation/panels"
 #                    is_new: false
