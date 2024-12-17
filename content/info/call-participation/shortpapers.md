@@ -113,10 +113,10 @@ All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://tim
 
 ### Vis Short Paper Co-Chairs:
 
-* Johanna Beyer, *Harvard University, USA*
-* Takayuki Itoh, *Ochanomizu University, Japan*
 * Charles Perin, *University of Victoria, Canada*
-* Hongfeng Yu, *University of Nebraska-Lincoln, USA*
+* Julian Tierny,	*Sorbonne University, France*
+* Cagatay Turkay,	*University of Warwick, UK*
+* Jiazhi Xia, *Central South University, China*
 
 Email: [shortpapers@ieeevis.org](mailto:shortpapers@ieeevis.org)
 
