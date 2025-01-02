@@ -19,15 +19,16 @@ IEEE VIS conferences are established through a two-stage process, involving 15 s
 
 ### STAGE 1. INITIAL APPLICATION: General Chairs and General Location
 
-Potential General Chairs **express their interest** in hosting the conference by submitting a short [VIS General Chair Application Form](https://docs.google.com/forms/d/1AaIJ62xvdRFLhhh7IY_HIleNS9TEjGDuutx12PDWgS4/edit?ts=602bda3a) for consideration by the VEC.
+Potential General Chairs **express their interest** in hosting the conference by submitting a short [VIS General Chair Application Form](https://forms.gle/hc8F4z2QfdMvnfCt7).
 
 The form asks for:
  1. names and credentials in terms of the applicants’ contributions to visualization and their planning and delivery of previous projects to tight budgets and timelines
  2. when you might be able to host VIS - which years
  3. initial ideas about the region or city in which VIS may be held
  4. any local support that might be provided
+ 5. a high-level vision for the conference (e.g., anticipated format(s), potential structural differences from prior conferences, and strategies to engage, diversify, and strengthen the VIS community)
 
-The VEC will consider these applications and will provisionally approve attractive and strong applications. The approved ones will be moved forward to Stage 2 (described below, _Detailed Bid_) - establishing a time and specific location for the conference. Depending on the current schedule of planned future conferences, this may occur:
+The VEC will provisionally approve strong and creative applications. The approved ones will be invited to submit a detailed bid (Stage 2, described below) - establishing a time and specific location for the conference. Depending on the current schedule of planned future conferences, this may occur:
  * _immediately_, for a near future conference, or
  * _subsequently_ for a later conference
 
@@ -41,7 +42,7 @@ The intention will be to develop a full bid that involves a host city, specific 
 ## Expectations
 
 * The role of General Chairs (GCs) may be fulfilled by an individual or a small team (maximum of three), who work together closely with well-defined roles.
-* The conference will be run in close association with the VIS Steering Committee (VSC) and VEC in accordance with the roles and responsibilities described in the [IEEE VIS Charter](https://drive.google.com/file/d/1CzoEKf0CiHvybLsB44OcoD9OFiCTT210/view?usp=sharing).
+* The conference will be run by the GCs in partnership with the VIS Steering Committee (VSC) and VEC in accordance with the roles and responsibilities described in the [IEEE VIS Charter](https://drive.google.com/file/d/1CzoEKf0CiHvybLsB44OcoD9OFiCTT210/view?usp=sharing).
 * The bid can be for a different city than where the GCs live or work, to open up the chair-ship to people who live in places that are not amenable for hosting large conferences.
 * Dates should be in the mid-October to early-November time frame.
 * The VEC would like some flexibility in terms of the year in which the conference will occur, to be able to vary geographic locations year by year.
@@ -90,6 +91,7 @@ Inform the VEC of your interest in acting as General Chair for IEEE VIS, by subm
  2. The years that are possible and any local concerns that may constrain precise timings
  3. General locations - the region or cities that might be considered; and
  4. Any relevant support that might be provided by your employer(s), the hosting city, or through other affiliations (e.g. administrative support, financial support, etc.)
+ 5. A high-level vision for the conference (e.g., anticipated format(s), potential structural differences from prior conferences, and strategies to engage, diversify, and strengthen the VIS community)
 
 **Deadline: Feb 15 Y&nbsp;-3**
 
@@ -131,6 +133,9 @@ GCs create and submit the _Detailed Bid_ proposal document to the VEC Chair, who
  * likelihood of sponsorship from organizations who don't typically sponsor (including local and national governments),
  * ease/availability of transportation to the city,
  * desirability of the city as a destination in itself (_a double-edged sword, as more desirable places tend to have higher costs_)
+ * a proposal for any structural changes / differences relative to previous conferences (if any) (e.g., parallelization, duration, track prioritization, etc.)
+* a proposal of envisioned structures to promote { student, early career researcher, practitioner, newcomer } engagement + community building and resilience
+* perceived risks and associated contingency plans / processes
 
 If multiple people are named in the bid, either as general chairs plus supporting chairs or as general co-chairs, then include a section on decision-making and responsibilities to discuss plans for communication and the division of responsibilities.
 
@@ -225,6 +230,7 @@ _(6 months before conference)_
 ---
 
 ## Change Log
+* 1 Jan 2025 - VEC: updated following [2024 VGTC Conference survey](https://ieeevis.org/year/2024/blog/vis-2024-VEC-survey-results) and VIS Conference Futures panel at VIS 2024
 * 30 June 2021 - VEC : updated to add _Important Dates_ and _Procedure Details_
 * 26 April 2021 - VEC : updated in light of General Chairs page
 * 23 April 2021 - VEC : updated in light of reVISe governance changes
