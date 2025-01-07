@@ -13,11 +13,9 @@ The current VEC members are:
 | Leilani Battle | *University of Washington* |<br>
 | Anastasia Bezerianos | *LRI-Université Paris-Saclay* | <br>
 | Matthew Brehmer | *Tableau* |<br>
-| Rita Borgo | *King's College London* | <br>
+| Rita Borgo (co-chair) | *King's College London* | <br>
 | Gautam Chaudhary (co-chair) | |<br>
-| Ross Maciejewski (co-chair) | *Arizona State University* |<br>
 | Narges Mahyar | *University of Massachusetts Amherst* |<br>
-| Elisabeta Marai | *University of Illinois at Chicago* |<br>
 | Brian Summa | *Tulane University* |<br>
 | Tatiana von Landesberger | *University of Cologne* |<br>
 
