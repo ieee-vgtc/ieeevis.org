@@ -1,5 +1,5 @@
 ## Author: Alper Sarikaya
-## Last modified: 2021-10-24 🎃
+## Last modified: 2025-01-07 ❄️
 ## This script should be run only when a released is published *for the current year*.
 ##
 ## This action will build the entire site from scratch, taking ALL commits from *other*
@@ -37,10 +37,10 @@ jobs:
       run: |
         git fetch --force --tags --prune --depth=1 origin +refs/heads/*:refs/remotes/origin/*
         git checkout master
-    - name: Set up Python 3.8.x
+    - name: Set up Python 3.12.x
       uses: actions/setup-python@v1
       with:
-        python-version: '3.8.x'
+        python-version: '3.12.x'
     - name: Install python dependencies
       run: |
         python -m pip install --upgrade pip
