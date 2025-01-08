@@ -159,6 +159,9 @@ Contact: [opc@ieeevis.org](mailto:opc@ieeevis.org)
 
 ## Short Papers Program Committee
 
+TBD
+
+<!---
 | **Name** | **Affiliation** |<br>
 | Daniel Archambault | *Newcastle University* |<br>
 | Shehzad Afzal | *King Abdullah University of Science and Technology* |<br>
@@ -259,5 +262,6 @@ Contact: [opc@ieeevis.org](mailto:opc@ieeevis.org)
 | Ye Zhao | *Kent State University* |<br>
 | Ying Zhao | *Central South University* |<br>
 | Fangfang Zhou | *Central South University* |<br>
+-->
 
 Contact: [shortpapers@ieeevis.org](mailto:shortpapers@ieeevis.org)
