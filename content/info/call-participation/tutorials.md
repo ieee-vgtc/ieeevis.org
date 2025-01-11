@@ -13,7 +13,7 @@ We are soliciting half-day tutorial proposals about visualization systems, mathe
 
 ## Details
 
-Proposals will be evaluated on the basis of the tutorial’s fit to VIS topics and suitability for presentation in a tutorial format, the past experience and qualifications of the instructors, the overall balance in the tutorial program, and the likely attendance of the tutorial. Repeated tutorial proposals should note in which years identical or similar tutorials have been presented, and will be judged in part by the attendance of the previous versions. We encourage you to review accepted tutorials from recent conferences: [2023](https://ieeevis.org/year/2023/info/tutorials),
+Proposals will be evaluated on the basis of the tutorial’s fit to VIS topics and suitability for presentation in a tutorial format, the past experience and qualifications of the instructors, the overall balance in the tutorial program, and the likely attendance of the tutorial. Repeated tutorial proposals should note in which years identical or similar tutorials have been presented, and will be judged in part by the attendance of the previous versions. We encourage you to review accepted tutorials from recent conferences: [2024](https://ieeevis.org/year/2024/info/tutorials),[2023](https://ieeevis.org/year/2023/info/tutorials),
 [2022](https://ieeevis.org/year/2022/info/tutorials), [2021](https://ieeevis.org/year/2021/info/tutorials),  [2020](https://ieeevis.org/year/2020/info/tutorials).
 
 All tutorial proposals should include:
@@ -27,17 +27,17 @@ All tutorial proposals should include:
 Proposals should not exceed three pages, and should be [submitted via PCS](http://new.precisionconference.com/vgtc/). Please note the [formatting guidelines](https://tc.computer.org/vgtc/publications/conference/) when preparing your submission. Authors of accepted tutorials will be required to submit a short summary for the printed program (~50 words).
 
 ## Important Dates
-* Proposal Submission: **Friday, April 26, 2025**
-* Notification: **Friday, May 24, 2025**
-* Final Submission of Summaries: **Friday, July 26, 2025**
+* Proposal Submission: **Friday, April 25, 2025**
+* Notification: **Friday, May 23, 2025**
+* Final Submission of Summaries: **Friday, July 25, 2025**
 
-All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth) (same as 2023)**.
+All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth) (same as 2024)**.
 
 ## Chairs
 
-* Cagatay Turkay, *University of Warwick, UK*
 * Leilani Battle, *University of Washington, USA*
 * Kai Lawonn, *University of Jena, Germany*
+* Qianwen Wang, *University of Minnesota, USA*
 
 Feel free to address any questions concerning submission, format, and content to [panels_tutorials@ieeevis.org](mailto:panels_tutorials@ieeevis.org).
 
