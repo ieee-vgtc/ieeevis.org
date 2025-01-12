@@ -44,17 +44,18 @@ Submissions should be submitted via [PCS](http://new.precisionconference.com/vgt
 Feel free to address any questions concerning submission, format, and content to [panels_tutorials@ieeevis.org](mailto:panels_tutorials@ieeevis.org).
 
 ## Past Panels
-Panels will be recorded and posted to Vimeo for archival viewing. Panels from 2023 can be found at [http://ieeevis.org/year/2023/info/panels](http://ieeevis.org/year/2023/info/panels) and from 2022 can be found at [http://ieeevis.org/year/2022/info/panels](http://ieeevis.org/year/2022/info/panels).
+Panels will be recorded and posted to Vimeo for archival viewing.
+We encourage you to review accepted tutorials from recent conferences: [2024](http://ieeevis.org/year/2024/info/panels), [2023](http://ieeevis.org/year/2023/info/panels), [2022](http://ieeevis.org/year/2022/info/panels).
 
 ## IMPORTANT DATES
 
 | Date | Activity |
 |------|----------|
-| Friday, June 28, 2025 | Proposal Submission |
-| Friday, July 26, 2025 | Notification |
-| Friday, August 23, 2025 | Final Submission of Panel Summaries and Video Fast Forwards |
+| Friday, June 27, 2025 | Proposal Submission |
+| Friday, July 25, 2025 | Notification |
+| Friday, August 22, 2025 | Final Submission of Panel Summaries and Video Fast Forwards |
       
-All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth) (same as 2023)**.
+All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth) (same as 2024)**.
 
 ## Chairs
  
@@ -62,6 +63,6 @@ Leilani Battle, *University of Washington, USA*
 
 Kai Lawonn, *University of Jena, Germany*
 
-Cagatay Turkay, *University of Warwick*
+Qianwen Wang, *University of Minnesota, USA*
 
 
