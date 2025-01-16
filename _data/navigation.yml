@@ -119,7 +119,7 @@ menu:
                 links:
                   - text: "Papers"
                     url: "/year/2025/info/call-participation/call-for-participation"
-                    is_new: true
+                    is_new: false
                   - text: "Short Papers"
                     url: "/year/2025/info/call-participation/shortpapers"
                     is_new: true
@@ -129,9 +129,9 @@ menu:
 #                  - text: "Tutorials"
 #                    url: "/year/2025/info/call-participation/tutorials"
 #                    is_new: false
-                  # - text: "Workshops"
-                  #   url: "/year/2025/info/call-participation/workshops"
-                  #   is_new: true
+                  - text: "Workshops"
+                    url: "/year/2025/info/call-participation/workshops"
+                    is_new: true
 #                  - text: "Panels"
 #                    url: "/year/2025/info/call-participation/panels"
 #                    is_new: false
