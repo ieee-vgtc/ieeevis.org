@@ -17,10 +17,10 @@ We solicit workshops related to all areas of visualization. They provide a forum
 
 All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth)**.
 
-Note on symposia: This year, symposia and workshops will follow a common submission and competitive selection process. This decision stems from the fact that symposia held in previous years did not meet [the criteria outlined by IEEE for qualifying as a Symposium](https://ieeevis.org/governance/coordination) (IEEE makes a distinction between symposia and workshops based on both size and publication policy. Symposia are expected to have at least 100 attendees, and are required to publish proceedings).  As such, this CfP refers to all submissions as ‘workshops’. This decision may be revisited in subsequent years.
+**Note on symposia:** This year, symposia and workshops will follow a common submission and competitive selection process. This decision stems from the fact that symposia held in previous years did not meet [the criteria outlined by IEEE for qualifying as a Symposium](https://ieeevis.org/governance/coordination) (IEEE makes a distinction between symposia and workshops based on both size and publication policy. Symposia are expected to have at least 100 attendees, and are required to publish proceedings).  As such, this CfP refers to all submissions as ‘workshops’. This decision may be revisited in subsequent years.
 
 
-## Workshops should accomplish one or more of the followingconsider:
+## Workshops should accomplish one or more of the following:
 
 * emphasize emerging ideas, concepts, or technologies that are currently too nascent or too interdisciplinary to receive a welcome reception at the main conference;
 
@@ -68,36 +68,39 @@ Workshops will be evaluated on multi-faceted criteria that include, the potentia
 
 A breakdown of these evaluative criteria is as follows:
 
-**Timeliness and Relevance**
+### Timeliness and Relevance
+
 * To what extent the topic tackles emergent areas of research that are pertinent to or aligned to IEEE VIS topics
 * The capacity to build research communities in understudied areas or for applications in underserved communities
 * the coherence of the proposed topic 
 * the degree to which the topic would benefit from a workshop environment
 * the ability to attract people and make them excited about the workshop
 
-**Impact**
+### Impact
+
 * the potential for inspiring people, being influential, and opening new lines of research
 * the ability to attract and/or incorporate members from the practitioner community and research communities external to IEEE VIS
 * if this workshop is a repeat submission, its previous success and justification for renewal. 
 * workshops that have run for multiple years will face progressively higher degrees of scrutiny in determining a continued need for the workshop—proposals will be judged according to the success metrics defined in the proposal, and based on the self-evaluation organizers conduct of previous iterations 
-* workshops that have run for two consecutive years, and those that have run for five consecutive years will face progressively higher degrees of scrutiny.
 
-**Format**
+### Format
+
 * the degree to which the workshop provides an more interactive environment for participants—all things being equal, preference will be given to workshops that emphasize participant interaction
-* the degree to which the workshop offers an innovative format (e.g., beyond paper presentations) as appropriate to the workshop’s goalsformat diverges from the standard VIS conference (e.g., goes beyond research papers)
+* the degree to which the workshop offers an innovative format (e.g., beyond paper presentations) as appropriate to the workshop’s goals
 * if this workshop has special needs, the feasibility of the proposed plan including financial, logistics, scheduling, and coordination impact.
 
 The workshop chairs will balance the proposed topics and formats in order to support athe diversity of topics and dynamic sessions within IEEE VIS and complement the main program.
 
 If accepted, workshops are required to prepare a short summary (50-100 words) for the workshop website and the web program.
 
-
 ## Dissemination strategy
 
-**Workshops with alternative formats**
+### Workshops with alternative formats
+
 Workshops featuring demonstrations or other forms of interactive participant feedback should coordinate with the workshop chairs if they wish to have archival content for their workshop. 
 
-**Workshops with accepted papers**
+### Workshops with accepted papers
+
 If papers or position papers are foreseen according to the planned workshop, the proposal should state explicitly whether and how the papers or position statements will be published. Accepted and archived VIS workshop papers can contribute to VIS full paper submissions in a future year. But, such submissions should not contain verbatim copies of previous content. Furthermore, any subsequent full paper submission to VIS must represent a novel scientific contribution of the content in a follow-up publication is fully allowed, also in the form of conference papers. 
 
 Some examples of common publication strategies are:
