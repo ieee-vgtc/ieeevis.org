@@ -41,7 +41,7 @@ npm run build
 
 Now you can run the site locally by running
 ```
-`bundle exec jekyll serve -d ./_site -b '/' && npm run-script start`
+bundle exec jekyll serve -d ./_site -b '/' && npm run-script start
 ```
 
 You may need to break these commands apart and run these two commands in separate consoles
