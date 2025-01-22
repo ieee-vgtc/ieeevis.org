@@ -10,9 +10,9 @@ active_nav: "Contribute"
 
 The IEEE VIS 2025 Poster Program offers a timely venue to present and discuss original work or highlights of recent work published or presented in another venue (please see the plagiarism statement in the end) through a forum that encourages graphical presentation, demonstration, and active engagement with IEEE VIS participants.
 
-The presentation of posters will happen as a physical event at the conference. There will be 1-2 dedicated poster sessions in which poster authors can meet and discuss their work with conference participants. An additional web presence of posters will supplement the traditional physical installation of poster boards. 
+The presentation of posters will happen as a physical event at the conference. There will be 1-2 dedicated poster sessions where poster authors can meet and discuss their work with conference participants. An additional web presence of posters will supplement the traditional physical installation of poster boards. 
 
-Examples of appropriate visualization work include, but are not limited to
+Examples of appropriate visualization work include but are not limited to
 
 * research exploring new problems or areas,
 * results of pilot projects,
@@ -21,7 +21,7 @@ Examples of appropriate visualization work include, but are not limited to
 * any work that might particularly benefit from demonstration to and
   active discussion with the visualization community,
 * the application of visualization techniques to
-  specific application areas, and 
+  specific application areas. and 
 * highlights of recent work published or presented in another venue.
 
 ### INFORMATION FOR AUTHORS
@@ -32,7 +32,7 @@ Summaries should include a concise description of the idea, the results or findi
 
 The poster design itself **does not** need to be submitted with the the summary on the initial submission deadline. Instead, authors whose poster summaries are accepted will be asked to submit their poster as a PDF at the camera-ready deadline. Authors of accepted posters will also need to bring a physical printed copy of their poster to display at the poster session at the conference. (See details below.)
 
-Posters are non-archival and the 2-page poster summaries will not be included in the conference proceedings. However the posters themselves will be shared online as part of the conference program. Authors are free to share non-archival copies of their posters and summaries on their own personal/lab websites or online preprint repositories. 
+Posters are non-archival, and the 2-page summaries will not be included in the conference proceedings. However, the posters themselves will be shared online as part of the conference program. Authors are free to share non-archival copies of their posters and summaries on their own personal/lab websites or online preprint repositories. 
 
 ### SUBMISSION INSTRUCTIONS
 
@@ -43,24 +43,22 @@ After logging into PCS, navigate to the "Submissions" view and start your submis
 ### PLAGIARISM
 All submissions must be either: 1) original work that has not been presented previously at any workshop, symposium, or conference and not published previously in any archived conference proceeding, magazine, or journal or 2) a summary that highlights work presented or published by the authors in a related venue with a clear statement of attribution to the original work.
 
-At the time of submission, it is required by the authors to state explicitly in the submission form that the submitted work is the work by the authors themselves or is a summary of the authors’ previously presented/published work with clear attribution. Plagiarism in any form is unacceptable and will lead to the removal of the submission from the review process. For more information, please see the [IEEE Plagiarism FAQ](https://www.ieee.org/publications/rights/plagiarism/plagiarism.html) and the [IEEE Publication Services and Products Board Operations Manual](https://pspb.ieee.org/images/files/files/opsmanual.pdf). 
+At the time of submission, the authors are required to state explicitly in the submission form that the submitted work is the work of the authors themselves or is a summary of the authors’ previously presented/published work with clear attribution. Plagiarism in any form is unacceptable and will lead to the removal of the submission from the review process. For more information, please see the [IEEE Plagiarism FAQ](https://www.ieee.org/publications/rights/plagiarism/plagiarism.html) and the [IEEE Publication Services and Products Board Operations Manual](https://pspb.ieee.org/images/files/files/opsmanual.pdf). 
 
 ### IMPORTANT DATES
-* Submission Deadline: **Thursday, June 20, 2025**
-* Notification of Acceptance: **Saturday, July 19, 2025**
-* (Optional) [Video Preview](/year/2025/info/presenter-information/fast-forward-and-video-previews) Submission: **Thursday, September 12, 2025**
-* Final Submission of camera-ready (1) 2-page Poster Summary PDF and (2) full Poster PDF: **Thursday, August 29, 2025**
+* Submission Deadline: **Tuesday, June 24, 2025**
+* Notification of Acceptance: **Thursday, July 24, 2025**
+* Final Submission of camera-ready (1) 2-page Poster Summary PDF and (2) full Poster PDF: **Thursday, August 21, 2025**
+* (Optional) [Video Preview](/year/2025/info/presenter-information/fast-forward-and-video-previews) Submission: **Tuesday, September 23, 2025**
 
-All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth)**.
+All deadlines are at 11:59 pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth)**.
 
 ### POSTER DESIGN AND PRINTING
 VIS has no specific formatting requirements or template for display posters. However, all posters should include the same title and authors as the 2-page poster summary and should be legible from a distance of 2 meters. Posters can be no larger than 36"x48" in a portrait orientation. If planning to laminate your poster, make sure you leave the requisite margin on all sides. The conference will supply poster boards and supplies for mounting. 
 
 A PDF copy of the display poster must be submitted on PCS by the camera-ready deadline for inclusion in the online program. 
 
-We're happy to announce that ***for 2024 only***, the VIS conference has arranged with a local print shop and is able to cover the costs of poster printing and delivery for all accepted submissions in the posters track (but not posters from associated events). If you would like your poster to be printed, please ensure that your poster PDF is submitted on PCS by the camera-ready deadline. Posters for printing can be no larger than 36"x48" with all text a minimum of 1/4" from the edge. Smaller posters will have a white border added. All printed posters will be delivered to the conference venue and student volunteers will handle mounting, so all you need to do is show up and present. 
-
-If you'd still like to bring and hang your own poster you're also free to do so. If this is the case, be sure to tick the "I do not want my poster to be printed by the conference." checkbox when submitting your poster on PCS.
+For authors who do not wish to travel with their posters, several printing shops are available in Vienna. Prints can be ordered and picked up from the store. More information is coming soon about this. 
 
 ### ACCESSIBILITY
 
@@ -81,11 +79,11 @@ There will be 1-2 dedicated poster presentation sessions throughout the week in 
 
 ### POSTER REVIEW PROCESS
 
-Poster submissions are single-blind and do not need to be anonymized. Submissions will be reviewed using a juried process, during which each poster will be read and evaluated by at least two reviewers with final decisions made collectively by the Posters Chairs.  Authors will receive reviews of their submission explaining the decision and providing feedback. Authors of accepted posters are expected to address any recommendations and conditions of acceptance prior to final submission.
+Poster submissions are single-blind and do not need to be anonymized. Submissions will be reviewed using a juried process, during which each poster will be read and evaluated by at least two reviewers, with final decisions made collectively by the Posters Chairs.  Authors will receive reviews of their submissions explaining the decision and providing feedback. Authors of accepted posters are expected to address any recommendations and conditions of acceptance prior to final submission.
 
 ### BEST POSTER AWARDS 
 
-The Best Poster awards will recognize the most outstanding poster contributions. It will be based on (1)  the significance of the research contributions described in the submitted two-page poster summaries, as well as (2) the clarity, creativity, and design of the poster. These awards will be noted in the program and presented with a signed certificate.
+The Best Poster Awards will recognize the most outstanding poster contributions. It will be based on (1)  the significance of the research contributions described in the submitted two-page poster summaries, as well as (2) the clarity, creativity, and design of the poster. These awards will be noted in the program and presented with a signed certificate.
 
 
 ### CHAIRS
