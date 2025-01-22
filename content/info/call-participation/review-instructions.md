@@ -187,7 +187,7 @@ Please read through the [summary of the keywords](https://ieeevis.org/year/2025/
 
 High-quality reviews are critical to the quality of the conference program. Please familiarize yourself with the reviewing ethics and guidelines described in [Additional Reviewing Guidance](https://ieeevis.org/year/2025/info/call-participation/review-instructions#additional-reviewing-guidance).  
 
-**New for 2025**: There is a checkbox in the review form where you can agree (by checking it) to have your anonymized review published with the paper in case it is accepted. For this to happen, authors must also explicitly opt-in. If all parties agree, those reviews will be published as supplemental material in the IEEE Digital Library.   
+**New for 2025**: There is a checkbox in the review form where you can agree (by checking it) to have your anonymized review published with the paper in case it is accepted. For this to happen, authors must also explicitly opt-in. If all parties agree, authors get permission to publish those reviews as supplemental material.   
 
 Note that your review will be published in an **anonymous** form. Your name will **not** be disclosed to anyone.
 While we can understand how having your reviews published can be daunting, we encourage all reviewers to agree if they feel comfortable to do so. Transparency in our review process will only serve to further the visualization community.
