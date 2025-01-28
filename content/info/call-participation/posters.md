@@ -2,10 +2,9 @@
 title: Posters - Call for Participation
 layout: page
 permalink: /year/2025/info/call-participation/posters
-active_nav: "Contribute"
-sidebar: call-for-workshops
 contact: posters@ieeevis.org
 active_nav: "Contribute"
+sidebar: call-for-posters
 ---
 
 The IEEE VIS 2025 Poster Program offers a timely venue to present and discuss original work or highlights of recent work published or presented in another venue (please see the plagiarism statement in the end) through a forum that encourages graphical presentation, demonstration, and active engagement with IEEE VIS participants.
