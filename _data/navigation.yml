@@ -123,9 +123,9 @@ menu:
                   - text: "Short Papers"
                     url: "/year/2025/info/call-participation/shortpapers"
                     is_new: false
-#                  - text: "Posters"
-#                    url: "/year/2025/info/call-participation/posters"
-#                    is_new: false
+                  - text: "Posters"
+                    url: "/year/2025/info/call-participation/posters"
+                    is_new: true
                   - text: "Tutorials"
                     url: "/year/2025/info/call-participation/tutorials"
                     is_new: true

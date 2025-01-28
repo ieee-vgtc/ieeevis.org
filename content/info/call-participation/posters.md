@@ -21,7 +21,7 @@ Examples of appropriate visualization work include but are not limited to
 * any work that might particularly benefit from demonstration to and
   active discussion with the visualization community,
 * the application of visualization techniques to
-  specific application areas. and 
+  specific application areas, and 
 * highlights of recent work published or presented in another venue.
 
 ### INFORMATION FOR AUTHORS
