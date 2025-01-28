@@ -10,14 +10,14 @@ The task of the IEEE VIS Steering Committee (VSC) is to provide long-term scient
 Current members of the VSC are:
 
 | **Name** | **Affiliation** |
+| Niklas Elmqvist | *Aarhus University* |
 | Jeffrey Heer | *University of Washington* |
-| Petra Isenberg (co-chair) | *Inria* |
 | Kwan-Liu Ma | *University of California at Davis* |
 | Miriah Meyer (co-chair) | *Linköping University* |
+| Michael Sedlmair | *University of Stuttgart* |
 | Jinwook Seo | *Seoul National University* |
+| Vidya Setlur (co-chair) | *Tableau Research* |
 | Anna Vilanova | *Eindhoven University of Technology* |
-| Niklas Elmqvist | *Aarhus University* |
-| Vidya Setlur | *Tableau Research* |
 | Xiaoru Yuan | *Peking University* |
 
 ## VIS Executive and Steering Committee Elections
