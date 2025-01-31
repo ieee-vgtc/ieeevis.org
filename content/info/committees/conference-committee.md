@@ -95,7 +95,7 @@ permalink: /year/2025/info/committees/conference-committee
 | Georgia Panagiotidou | *King’s College London* |
 |---
 | **Student Volunteer Chairs** | |
-| Magdalena 'Momo' Boucher | *University of Applied Sciences St. Pölten* |
+| Magdalena 'Momo' Boucher | *St. Pölten University of Applied Sciences* |
 | Hamza Elhamdadi | *University of Massachusetts Amherst* |
 | Yixuan Wang | *Arizona State University* |
 | Hyeon Jeon | *Seoul National University* |
@@ -142,8 +142,9 @@ permalink: /year/2025/info/committees/conference-committee
 |---
 | **Technology Chairs** | |
 | Jan Byska | *Masaryk University* |
-| Alexander Rind | *University of Applied Sciences St. Pölten* |
+| Alexander Rind | *St. Pölten University of Applied Sciences* |
 | Kelvin Li | *Databricks* |
+| Xinyi Liu | *Northeastern University* |
 |---
 | **VAST Challenge Chairs** | |
 | Jereme Haack | *Pacific Northwest National Laboratory* |
