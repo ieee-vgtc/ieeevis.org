@@ -72,7 +72,7 @@ IEEE VIS Short Papers 2019
 #### Paper Type: Theory or Model
 
 [Toward Systematic Considerations of Missingness in Visual Analytics](https://dx.doi.org/10.1109/VIS54862.2022.00031)\
-Macyuan Sun, Yue Ma, Yuanxin Wang, Tianyi Li, Jian Zhao, Yujin Liu, Ping Shou Zhong
+Maoyuan Sun, Yue Ma, Yuanxin Wang, Tianyi Li, Jian Zhao, Yujin Liu, Ping Shou Zhong
 IEEE VIS Short Papers 2022 [Honorable Mention]
 
 [Jurassic Mark: Inattentional Blindness for a Datasaurus Reveals that Visualizations are Explored, not Seen](https://dx.doi.org/10.1109/VIS49827.2021.9623273)\
