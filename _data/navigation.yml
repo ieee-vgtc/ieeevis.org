@@ -192,7 +192,7 @@ menu:
                     description: "Meet people for discussion and shared experiences"
                     url: "/year/2025/info/call-participation/meetups"
                     is_new: false
-                  - text: "Become a student volunteer"
+                  - text: "Become a student volunteer (TBD)"
                     description: "Support the conference and build your research network"
                     url: "http://www.vissv.org"
                     is_external: true
@@ -200,7 +200,7 @@ menu:
                     description: "Volunteer to review submissions"
                     url: "https://new.precisionconference.com/review_volunteering"
                     is_external: true
-                  - text: "Elections"
+                  - text: "Elections (TBD)"
                     description: "Register to vote and nominate/review candidates for the VSC/VEC"
                     url: "/year/2025/info/elections"
                     is_new: false
