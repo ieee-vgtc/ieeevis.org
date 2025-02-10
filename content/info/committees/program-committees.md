@@ -9,6 +9,9 @@ sidetoc: true
 
 ## Full Papers Program Committee 
 
+To be announced soon...
+
+<!---
 | **Name** | **Affiliation** |<br>
 | Alfie Abdul-Rahman| *King's College London* |<br>
 | Natalia Andrienko| *Fraunhofer IAIS/ City, University of London* |<br>
@@ -152,7 +155,7 @@ sidetoc: true
 | Yue Zhang| *Oregon State University* |<br>
 | Jian Zhao| *University of Waterloo* |<br>
 | Chen Zhu-Tian| *University of Minnesota* |<br>
-
+-->
 
 Contact: [opc@ieeevis.org](mailto:opc@ieeevis.org)
 
