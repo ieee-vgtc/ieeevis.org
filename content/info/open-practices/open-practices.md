@@ -7,6 +7,16 @@ sidebar: call-for-participation
 contact: open_practices@ieeevis.org
 ---
 
+### Updates for IEEE VIS 2025
+
+There are two updates related to open practices this year:
+* The deadline for supplemental material is April 7, one week after the full paper deadline of  March 31.
+* Reviewers and authors have the option of publishing anonymized reviews.
+
+See [the announcement for more details](/year/2025/blog/vis-2025-OPC-blog-Changes).
+
+________________
+
 Visualization research is better communicated and acted on if it is freely accessible to the research community, practitioners, and the general public. Likewise, there are steps as a community we can take to make sure that our work is **transparent** and that the claims in our papers are **scrutinizable**. Taken together, the suggestions on this page are aimed towards making work at VIS (1) reproducible, (2) replicable, and/or (3) extensible by future researchers. As such, the Open Practices Committee for IEEE VIS 2025 is providing a set of **requirements** and **recommendations** for authors of accepted VIS papers. Note that the recommendations are only suggestions which authors can optionally follow to increase the long-term impact and usefulness of their work.
 
 This page covers:
