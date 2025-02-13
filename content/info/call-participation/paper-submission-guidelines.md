@@ -107,7 +107,7 @@ Starting with VIS 2025, we are introducing a "student reviewer" program, where p
 
 Student reviews will appear in your regular list of reviews at the end of the first (and second) round of reviewing. However, they will be carefully marked with their expertise set as "student". The primary's summary review will discuss whether and how the final review outcome incorporated the student review.
 
-For more details on the IEEE VIS Student Reviewer program, see this [guide](https://ieeevis.org/year/2025/info/call-participation/student-reviewer-guide).
+For more details on the IEEE VIS Student Reviewer program, see this [guide](/year/2025/info/call-participation/student-reviewer-guide).
 
 ## Page Length Restrictions
 
