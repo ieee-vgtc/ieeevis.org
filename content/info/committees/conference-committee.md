@@ -76,7 +76,7 @@ permalink: /year/2025/info/committees/conference-committee
 | Rewa Wright | *Queensland University of Technology* |
 |---
 | **Vis in Practice Chairs** | |
-| Chris Bryan | *University of California, Davis* |
+| Chris Bryan | *Arizona State University* |
 | Arjun Srinivasan | *Databricks* |
 |---
 | **Doctoral Colloquium Chairs** | |
