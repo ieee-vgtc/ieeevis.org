@@ -87,9 +87,11 @@ The Best Poster Awards will recognize the most outstanding poster contributions.
 
 ### CHAIRS
 
-* Nan Cao, *Tongji University*
+
+* Alvitta Ottley, *Washington University in St. Louis*
+* Benjamin Bach, *University of Edinburgh*
+* Lingyun Yu, *Xi’an Jiaotong-Liverpool University*
 * Renata Raidou, *TU Wien*
-* Wesley Willett, *University of Calgary*
-* Jiazhi Xia, *Central South University*	
+
 
 *Email: [posters@ieeevis.org](mailto:posters@ieeevis.org)*
