@@ -125,16 +125,16 @@ menu:
                     is_new: false
                   - text: "Posters"
                     url: "/year/2025/info/call-participation/posters"
-                    is_new: true
+                    is_new: false
                   - text: "Tutorials"
                     url: "/year/2025/info/call-participation/tutorials"
-                    is_new: true
+                    is_new: false
                   - text: "Workshops"
                     url: "/year/2025/info/call-participation/workshops"
                     is_new: false
                   - text: "Panels"
                     url: "/year/2025/info/call-participation/panels"
-                    is_new: true
+                    is_new: false
 #                  - text: "Doctoral Colloquium"
 #                    url: "/year/2025/info/call-participation/doctoral-colloquium"
 #                    is_new: false
