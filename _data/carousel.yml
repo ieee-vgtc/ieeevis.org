@@ -2,7 +2,6 @@
   image: "revise-path.png"
   button-text: "The reVISe 1.1 experiment"
   button-url: "/blog/vis-2025-revise"
-  active: "active"
 
 - title: "IEEE VIS 2025 in Vienna, Austria"
   image: "skyline_vienna.jpg"
