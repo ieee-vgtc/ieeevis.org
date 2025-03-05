@@ -10,9 +10,9 @@ Promoting and fostering inclusion is important to IEEE VIS. The IEEE VIS communi
 
 ### VIS 2025 Inclusivity Committee
 
-* John Alexis Guerra Gómez (Northeastern University, Silicon Valley)
-* Dominik Moritz (Carnegie Mellon University)
-* Ab Mosca (Westfield State University)
+* John Alexis Guerra Gómez (*Northeastern University, Silicon Valley*)
+* Dominik Moritz (*Carnegie Mellon University*)
+* Ab Mosca (*Westfield State University*)
 
 ### Contact
 

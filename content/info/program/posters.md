@@ -2,12 +2,13 @@
 title: Posters
 layout: page
 active_nav: "Program"
-permalink: /year/2025/info/posters
+permalink: /year/2025/info/program/posters
 contact: "posters@ieeevis.org"
 ---
 
 More details about posters and their associated presentations will be released with the VIS Online Content Website.
 
+<!--
 <hr />
 
 **Dissecting Geo-Infographics: A Study on Visualizing Geographic Data**<br/>
@@ -156,3 +157,5 @@ Authors: Xian Xu, David Yip, Huamin Qu
 
 **Plotting Apples, Oranges, and Distributions**<br/>
 Authors: Harriet Mason, Di Cook, Emi Tanaka, Sarah Goodwin, Ursula Laa
+
+-->

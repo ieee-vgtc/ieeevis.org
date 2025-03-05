@@ -1,9 +1,14 @@
 ---
 title: Tutorials
 layout: page
-permalink: /year/2025/info/tutorials
+permalink: /year/2025/info/program/tutorials
 contact: panels_tutorials@ieeevis.org
 ---
+
+Program for VIS 2025 not finalized yet
+
+
+<!--
 
 ## Accepted Tutorials
 Here is the list of the accepted tutorials.
@@ -92,3 +97,5 @@ Sabrina Mangal, *University of Washington* <br>
 Maichou Lor, *University of Wisconsin-Madison* <br>
 
 Participatory design is a recognized method for ensuring that design products are effective among and acceptable to target audiences. Despite the growing popularity of participatory design, existing guidelines and recommendations for how to conduct participatory design sessions gloss over important details that can have a profound impact on how smoothly design sessions run and the extent to which they maintain rigor and generate actionable data. Furthermore, there are unique considerations that apply when the product of participatory design is a visualization rather than, say, text. Therefore, in an effort to address this gap and support others wishing to undertake participatory design work, our team has drafted a practical manual based on our collective experiences, complete with tips for iteration tracking, a session guide template, suggested design session prompts, a note-taking template, and a comprehensive preparation checklist. In this interactive tutorial, attendees will be introduced to the design session manual and related resources before practicing the techniques in small groups with static visualizations.
+
+-->

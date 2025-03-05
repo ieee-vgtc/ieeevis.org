@@ -1,10 +1,14 @@
 ---
 title: Workshops
 layout: page
-permalink: /year/2025/info/workshops
+permalink: /year/2025/info/program/workshops
 contact: workshops@ieeevis.org
 ---
 
+Program for VIS 2025 not finalized yet
+
+
+<!--
 {% comment %}
 ## Attendance
 At least one author for each paper must register and attend the conference in person. If you have exceptional circumstances and none of the authors can attend in person please contact the conference committee as soon as possible at [info@ieeevis.org](mailto:info@ieeevis.org).
@@ -249,24 +253,4 @@ Contact: fateme.rajabiyazdi@carleton.ca
 
 This is the second IEEE VIS EduVis Workshop on Visualization Education, Literacy, and Activities. This workshop aims to become a forum to share and discuss advances, challenges, and methods at the intersection of visualization and education. The workshop addresses an interdisciplinary audience from and beyond visualization, education, learning analytics, science communication, psychology, or people from adjacent fields such as data science, AI, and HCI. It will include presentations of research papers and working group discussions.
 
-
-
-
-
-{% comment %}
-
-## <a name="example"></a> [Example]()
-Exampletime: Monday, October 23, 2023: 9:00 AM-12:00 PM AEDT (UTC+11)
-
-Example1, *Example Org1*<br>
-Example2, *Example Org2*<br>
-Example3, *Example Org3*<br>
-Example1, *Example Org1*<br>
-Example2, *Example Org2*<br>
-Example3, *Example Org3*<br>
-
-Contact: example@example.com
-
-Example Abstract
-
-{% endcomment %}
+-->
