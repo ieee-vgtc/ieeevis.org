@@ -2,11 +2,14 @@
 title: IEEE VIS 2025 Meetups
 layout: page
 active_nav: "Events & Community"
-permalink: /year/2025/info/meetups
+permalink: /year/2025/info/program/meetups
 contact: community@ieeevis.org
 ---
 
+Program for VIS 2025 not finalized yet 
 
+
+<!--
 * [VisLies! Meetup](#vis-lies) 
 * [Velo Club de VIS Meetup](#vis-velo)
 * [Vis4Good Meetup](#vis4good)
@@ -49,10 +52,4 @@ tobias.isenberg@inria.fr <br>
 
 The Graphics Replicability Stamp Initiative (GRSI;[https://www.replicabilitystamp.org/](https://www.replicabilitystamp.org/) has been certifying the reproducibility of papers published in certain graphics-related journals since 2017, and some of these journals also include visualization work (in particular, TVCG and, thus, VIS papers). However, while the GRSI is continuing to extend to new venues (recently SIGGRAPH conference papers), they do not seem to be interested in adding pure visualization venues. We would like to  discuss if and how we should react as a visualization community who also wants for their publications to have opportunities to get reproducibility certified.
 
-
-
-
-
-
-
-
+-->

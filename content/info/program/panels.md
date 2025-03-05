@@ -2,26 +2,23 @@
 title: Panels
 layout: page
 active_nav: "Program"
-permalink: /year/2025/info/panels
-
+permalink: /year/2025/info/program/panels
 ---
+
+Program for VIS 2025 not finalized yet
+
+
+<!--
 
 ## <a name="panel-kirby">Dear Younger Me: A Dialog About Professional Development Beyond The Initial Career Phases</a>
 
 When: Thursday, October 17, 2024 3:15 PM-4:30 PM EDT (UTC-4)<br/>
-
-<!-- Location: Room 101+102 -->
-**Organizers:** Mike Kirby (University of Utah), Michael Gleicher (University of Wisconsin)<br/>
-**Panelists:** David Ebert (University of Oklahoma), Maureen Stone (Tableau Research (retired)), Melanie Tory (Northeastern University), Anders Ynnerman (Linköping University)<br/>
-
-<!-- <br>[Video Preview](TBD) -->
 
 The early phases of a technical career follow a fairly prescribed trajectory: graduation, initial positions, promotion, tenure (or its industry equivalent), etc. In these early phases, the milestones are clear (degrees, appointments, promotions), and mentoring is often explicit (research advisors, mentoring committees). But beyond these early phases, the explicit goals and resources do not exist. As we get to later career stages, the set of options and opportunities grows. We have observed that while the opportunities grow at later career phases, the amount of mentoring and discussion seems to disappear. The goal of this panel is to foster more dialog about later career phases. As a starting point, we hope to raise awareness of the expanded range of opportunities and invite dialog about how others have thought about crafting their careers. We hope to foster a dialog among the community and begin a tradition of mentoring beyond initial career phases.
 
 ## <a name="panel-brehmer">VIS Conference Futures: Community Opinions on Recent Experiences, Challenges, and Opportunities for Hybrid Event Formats</a>
 
 When: Wednesday, October 16, 2024 12:00 PM-1:00 PM EDT (UTC-4)
-<!-- Location: Room 101+102 -->
 
 **Organizers:** Matthew Brehmer (University of Waterloo), Narges Mahyar (University of Massachusetts Amherst)<br/>
 <br>**Panelists:** Tim Dwyer (Monash University), John AlexisGuerra-Gomez (Northeastern University), Petra Isenberg (INRIA), Takayuki Itoh (Ochanomizu University), Elsie Lee-Robbins (Postal Regulatory
@@ -34,19 +31,15 @@ This past year, the VIS Executive Committee (VEC) has been considering the exten
 ## <a name="panel-wang">Human-Centered Computing Research in South America: Status Quo, Opportunities, and Challenges</a>
 
 When: Thursday, October 17, 2024 8:30 AM-9:45 AM EDT (UTC-4)
-<!-- Location: Room 101+102 -->
 
 **Organizers:** Chaoli Wang (University of Notre Dame)
 <br>**Panelists:** Cesar Collazos (University of Cauca), Luciana Nedel (Federal University of Rio Grande do Sul), Luis Gustavo Nonato (University of Sao Paulo), Denis Parra (Pontifical Catholic University of Chile)<br/>
 
 Human-centered computing (HCC) research, including visualization (VIS), virtual reality (VR), and human-computer interaction (HCI), is on the rise worldwide. Due to various reasons, such as socio-economic development, government investment, and talent acquisition and retention, HCC research in developing countries and regions lags. This panel gathers leading HCC researchers from South America to report the status quo, highlight the latest advances, identify opportunities, and discuss challenges, especially in the wave of AI and amid global issues such as climate change and democracy crises. The goal is to inform the IEEE VIS Conference attendees of HCC research progress in South America and seek possibilities to elevate its status.
 
-
 ## <a name="panel-li">Past, Present, and Future of Data Storytelling</a>
 
 When: Wednesday, October 16, 2024 3:15 PM-4:30 PM EDT (UTC-4)
-<!-- Location: Room 101+102 -->
-
 
 **Organizers:** Haotian Li (HKUST), Yun Wang (Microsoft)
 <br>**Panelists:** Benjamin Bach (INRIA), Sheelagh Carpendale (Simon Fraser University), Fanny Chevalier (University of Toronto), Nathalie Henry Riche (Microsoft Research)<br/>
@@ -56,7 +49,6 @@ Data storytelling has become an important approach to communicate insights and k
 ## <a name="panel-shu">What Do Visualization Art Projects Bring to the VIS Community?</a>
 
 When: Wednesday, October 16, 2024 8:30 AM-9:45 AM EDT (UTC-4)
-<!-- Location: Room 101+102 -->
 
 **Organizers:** Xinhuan Shu (Newcastle University), Yifang Wang (Northwestern University), Junxiu Tang (Zhejiang University)
 <br>**Panelists:** Angus Forbes (Purdue University), Rebecca Xu (Syracuse University), Rewa Wright (Queensland University of Technology), Pedro Cruz (Northeastern University), Weidi Zhang (Arizona State University), Samuel Huron (Télécom Paris at the Institut Polytechnique de Paris)<br>
@@ -70,8 +62,6 @@ The key theme of this panel is to discuss the relations between visualization ar
 ## <a name="panel-ebert">20 Years of Visual Analytics</a>
 
 When: Wednesday, October 16, 2024 1:30 PM-2:45 PM EDT (UTC-4)<br/>
-<!-- Location: Room 101+102 -->
-
 
 **Organizers:** David Ebert (University of Oklahoma), Wolfgang Jentner (University of Oklahoma), Ross Maciejewski (Arizona State University), Jieqiong Zhao (Augusta University)
 <br>**Panelists:** Daniel A. Keim (University of Konstanz), Silvia Miksch (Vienna University of Technology), Bill Pike (Pacific Northwest National Laboratory) (tentative)<br/>
@@ -83,7 +73,6 @@ In 2004, Visual Analytics emerged as an outgrowth of scientific visualization an
 ## <a name="panel-quadri">(Yet Another) Evaluation Needed? A Panel Discussion on Evaluation Trends in Visualization</a>
 
 When: Thursday, October 17, 2024 10:15 AM-11:30 AM EDT (UTC-4)
-<!-- Location: Room 101+102 -->
 
 **Organizers:** Ghulam Jilani Quadri (University of Oklahoma), Danielle Albers Szafir (University of North Carolina-Chapel Hill), Arran Zeyu Wang (University of North Carolina-Chapel Hill), Hyeon Jeon (Seoul National University)
 <br>**Panelists:** Niklas Elmqvist (Aarhus University), Tobias Isenberg (INRIA), Rita Borgo (Kings College London), Michael Sedlmair (University of Stuttgart), Cindy Xiong Bearfield (Georgia Tech)<br/>
@@ -96,8 +85,7 @@ Faithful evaluations also provide valuable insights into how users interact with
 ## <a name="panel-borkin">Vogue or Visionary? Current Challenges and Future Opportunities in Situated Visualizations</a>
 
 When: Thursday, October 17, 2024 1:30 PM-2:45 PM EDT (UTC-4)
-<!-- Location: Room 101+102 -->
-
+Location: Room 101+102
 
 **Organizers:** Michelle A. Borkin (Northeastern University), Melanie Tory (Roux Institute, Northeastern University)
 <br>**Panelists:** Nathalie Bressa (Telecom Paris) , Niklas Elmqvist (Aarhus University), Petra Isenberg (INRIA), Michael Sedlmair (University of Stuttgart), Wesley Willett (University of Calgary) <br/>
@@ -108,3 +96,4 @@ Yet situated visualizations have not be widely adopted, in part because there is
 
 <br> <a href="https://situatedvis.github.io/" target="_blank">Panel webpage</a>
 
+-->

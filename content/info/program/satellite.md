@@ -1,9 +1,14 @@
 ---
 title: VIS 2021 Satellite Sites
 layout: page
-permalink: /year/2025/info/satellite
+permalink: /year/2025/info/program/satellite
 contact: info@ieeevis.org
 ---
+
+Program for VIS 2025 not finalized yet
+
+
+<!--
 
 ## Chicago, IL, USA
 **University of Illinois at Chicago and Argonne National Laboratory**<br>
@@ -81,3 +86,5 @@ Sponsored by:
 <img class="mr-8 mb-10 supporter__logo  supporter__logo--custom" src = "/year/2021/assets/supporters/staerkel-planetarium.png" alt = "Parkland College - William M. Staerkel Planetarium Logo" width = "200"/>
 
 <a class="button" href="https://ieeevissatellite.web.illinois.edu/">More Information</a>
+
+-->
