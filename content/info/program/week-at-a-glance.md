@@ -22,7 +22,7 @@ There will be coffee breaks between the first/second and third/fourth block. A l
 
 *9:00 AM - 5:00 PM (GMT+1)*<br/>
 **Doctoral Colloquium** (Invite only event)<br />
-The Doctoal Colloquium will take place at **TU Wien**, [Favoritenstraße 9-11, 1040 Wien](https://maps.app.goo.gl/2Rb58dYGnmcsLvsc7).
+The Doctoral Colloquium will take place at **TU Wien**, [Favoritenstraße 9-11, 1040 Wien](https://maps.app.goo.gl/2Rb58dYGnmcsLvsc7).
 
 <hr/>
 
