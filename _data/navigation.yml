@@ -53,7 +53,7 @@ menu:
               - heading: "Travel"
                 links:
                   - text: "Traveling to Vienna"
-                    url: "/year/2025/registration-and-travel/travel-information"
+                    url: "/year/2025/info/registration-and-travel/travel-information"
                     is_new: false
                   - text: "Hotel Information"
                     url: "/year/2025/info/registration-and-travel/hotel-information"

@@ -1,7 +1,7 @@
 ---
 title: Vienna Hotel Information
 layout: page
-active_nav: "Travel"
+active_nav: "Attend"
 permalink: /year/2025/info/registration-and-travel/hotel-information
 contact: "general_chair@ieeevis.org"
 ---
