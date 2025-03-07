@@ -14,7 +14,7 @@ VIS 2025 will take place in the [Austria Center Vienna](https://www.acv.at/en){:
 The Austria Center Vienna offers 21 halls, 134 meeting rooms, 5 exhibition halls, and over 26,000m² of exhibition space on 5 levels.
 
 <p>
-  <img src="/assets/photos/austria-center-vienna.png" />
+  <img src="/year/2025/assets/photos/austria-center-vienna.png" />
 </p>
 
 [Austria Center Vienna, Bruno-Kreisky-Platz 1, 1220 Vienna, Austria](https://maps.app.goo.gl/SA5U726D8FdAYxrC7){:target="_blank"}
@@ -43,7 +43,7 @@ Just turn around and take the other exit.
 
 The main conference events will take place at level 0 (entrance level). You will also find the registration desk on this level. Coffee breaks will take place at level 0.
 <p>
-  <img src="/assets/photos/austria-center-vienna-level0.png" />
+  <img src="/year/2025/assets/photos/austria-center-vienna-level0.png" />
 </p>
 
 Some more rooms will be found on level 1. You can interactively explore the different [levels and rooms of the ACV](https://www.acv.at/en/the-location/){:target= "_blank"} online.
