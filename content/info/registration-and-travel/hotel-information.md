@@ -20,7 +20,7 @@ The Austria Center Vienna is next to the **U1** subway station "Kaisermühlen - 
 So, when searching for a hotel near the city center, it is highly recommended that you pick one that is close to a U1 subway station (or any other subway line that directly connects to U1).
 
 <p>
-  <img src="assets/photos/vienna-locations.jpg" />
+  <img src="/year/2025/assets/photos/vienna-locations.jpg" />
 </p>
 
 

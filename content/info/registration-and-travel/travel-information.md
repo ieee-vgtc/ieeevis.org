@@ -15,7 +15,7 @@ The Austrian capital regularly leads the international livable city rankings - i
 [There are many more factors that highlight Vienna's advantages as a meeting destination](https://meeting.vienna.info/en/why-vienna/good-reasons-for-vienna){:target="_blank"}
 
 <p>
-  <img src="/assets/photos/vienna.png" />
+  <img src="/year/2025/assets/photos/vienna.png" />
 </p>
 
 ## Getting There

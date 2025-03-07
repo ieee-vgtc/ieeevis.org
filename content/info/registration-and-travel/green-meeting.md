@@ -12,7 +12,7 @@ Green meetings put the emphasis on waste prevention, eco-friendly travel options
 There are mandatory criteria to be met in 9 different areas, as well as numerous optional points to help you achieve certification.
 
 <p style="text-align:center;">
-  <img src="/assets/photos/logo_green_meeting.jpg" height="200" />
+  <img src="/year/2025/assets/photos/logo_green_meeting.jpg" height="200" />
 </p>
 
 The main criteria for a green meeting are:
