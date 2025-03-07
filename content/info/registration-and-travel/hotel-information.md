@@ -20,7 +20,7 @@ The Austria Center Vienna is next to the **U1** subway station "Kaisermühlen - 
 So, when searching for a hotel near the city center, it is highly recommended that you pick one that is close to a U1 subway station (or any other subway line that directly connects to U1).
 
 <p>
-  <img src="/assets/photos/vienna-locations.jpg" />
+  <img src="assets/photos/vienna-locations.jpg" />
 </p>
 
 
@@ -38,7 +38,7 @@ Wagramer Straße 16<br />
 1220 Wien<br />
 [Hotel Website](https://www.schanihotels.com/hotels/hotel-schani-uno-city){:target= "_blank"} | [Google Maps Link](https://maps.app.goo.gl/wVQBiCgmrRzKJdFU9){:target= "_blank"}
 
-Room "Smart Street" and "Smart Twin" at €110 (excluding breakfast) and room "Smart Garden" at €123.20 (excluding breakfast).
+Room "Smart Street" and "Smart Twin" at **€110** (excluding breakfast) and room "Smart Garden" at **€123.20** (excluding breakfast).
 Prices and availability of rooms may vary depending on the current booking situation.
 
 To book a room, use the code **VIS2025** when contacting the hotel, or use the [online booking form](https://my.schanihotels.com/search/offers?PROMO_CODE=VIS2025&ADULTS=1&CHILDREN=&ARRIVAL=2025-11-04&DEPARTURE=2025-11-07&PROPERTY_IDS=VIEUNO){:target= "_blank"}
@@ -54,7 +54,7 @@ Elisabethstraße 5<br />
 
 Close to the U1 subway station "Oper - Karlsplatz".
 
-Room "THE ONE" at €132.33 or €142.59 (excluding breakfast), depending on the date, for single or double use.
+Room "THE ONE" at **€132.33** or **€142.59** (excluding breakfast) - depending on the date - for single or double use.
 
 To book a room, please use the following PDF form and send it to the hotel directly (instructions in PDF):
 [PDF booking form](/assets/travel/MotelOne_Abrufformular.pdf){:target= "_blank"}
@@ -67,7 +67,7 @@ Fleischmarkt 1A<br />
 
 Close to the U1 subway station "Schwedenplatz".
 
-Double room for single use at €209 (including breakfast), double room for double use at €235 (including breakfast).
+Double room for single use at **€209** (including breakfast), double room for double use at **€235** (including breakfast).
 
 To book a room, use the [booking form](/assets/travel/Mercure-Wien-Zentrum_BookingForm.docx) or contact the hotel directly use the booking code **VIS2025**.
 
@@ -79,6 +79,6 @@ Hollandstraße 3<br />
 
 Close to the U1 subway station "Schwedenplatz".
 
-Double room for single use at €189 (including breakfast), double Room for double use at €214 (including breakfast).
+Double room for single use at **€189** (including breakfast), double Room for double use at **€214** (including breakfast).
 
 To book a room, use the [booking form](/assets/travel/Mercure-Wien-City_BookingForm.docx) or contact the hotel directly use the booking code **VIS2025**.
