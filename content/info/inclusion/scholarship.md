@@ -2,7 +2,7 @@
 title: VIS 2025 Inclusivity Scholarship
 layout: page
 active_nav: "Attend"
-permalink: /info/inclusion/scholarship
+permalink: /year/2025/info/inclusion/scholarship
 contact: inclusivity@ieeevis.org
 ---
 

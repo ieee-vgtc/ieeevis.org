@@ -2,7 +2,7 @@
 title: VIS Preliminary Program
 layout: page
 active_nav: "Attend"
-permalink: info/program/week-at-a-glance
+permalink: /year/2025/info/program/week-at-a-glance
 contact: program@ieeevis.org
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Travel Information
 layout: page
-active_nav: "Travel"
+active_nav: "Attend"
 permalink: /year/2025/info/registration-and-travel/travel-information
 contact: general_chair@ieeevis.org
 ---

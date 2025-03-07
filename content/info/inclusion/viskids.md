@@ -2,7 +2,7 @@
 title: VIS 2025 Childcare Room and Grants
 layout: page
 active_nav: "Attend"
-permalink: /info/inclusion/viskids
+permalink: /year/2025/info/inclusion/viskids
 contact: viskids@ieeevis.org
 ---
 

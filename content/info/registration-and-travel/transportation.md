@@ -1,7 +1,7 @@
 ---
 title: Transportation
 layout: page
-active_nav: "Travel"
+active_nav: "Attend"
 permalink: /year/2025/info/registration-and-travel/transportation
 contact: general_chair@ieeevis.org
 ---

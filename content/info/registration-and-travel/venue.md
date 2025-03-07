@@ -1,3 +1,11 @@
+---
+title: Venue
+layout: page
+active_nav: "Attend"
+permalink: /year/2025/info/registration-and-travel/venue
+contact: general_chair@ieeevis.org
+---
+
 VIS 2025 takes place in a convention center.
 
 ## Austria Center Vienna
