@@ -6,13 +6,16 @@ permalink: /year/2025/info/registration-and-travel/green-meeting
 contact: general_chair@ieeevis.org
 ---
 
+Sustainable meetings are a great way to reduce your ecological footprint, contribute to environmental and climate protection, and show social commitment.
+The city of Vienna offers a *Green Meeting* certificate for events that are characterized by environmentally friendly and sustainable planning.
+
 ## Green Meeting Certificate
 
 Green meetings put the emphasis on waste prevention, eco-friendly travel options and regional sourcing of ingredients for catering.
 There are mandatory criteria to be met in 9 different areas, as well as numerous optional points to help you achieve certification.
 
 <p style="text-align:center;">
-  <img src="/year/2025/assets/photos/logo_green_meeting.jpg" height="200" />
+  <img src="/year/2025/assets/venue-and-travel/logo_green_meeting.jpg" height="200" />
 </p>
 
 The main criteria for a green meeting are:

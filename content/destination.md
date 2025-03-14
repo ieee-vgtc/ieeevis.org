@@ -15,7 +15,7 @@ The Austrian capital regularly leads the international livable city rankings - i
 [There are many more factors that highlight Vienna's advantages as a meeting destination](https://meeting.vienna.info/en/why-vienna/good-reasons-for-vienna)
 
 <p>
-  <img src="assets/photos/vienna.png" />
+  <img src="assets/venue-and-travel/vienna.png" />
 </p>
 
 ## Getting There
@@ -24,11 +24,11 @@ Thanks to its central location in the heart of Europe, the city is a hub that of
 
 ### By Plane
 
-The [Vienna International Airport](https://www.viennaairport.com/en/passengers) is Austria's largest international airport and very well connected to many international destinations. Vienna Airport serves about 170 destinations in 66 countries through around 60 airlines. The majority of European capitals are two to three hours away by plane.
+The [Vienna International Airport](https://www.viennaairport.com/en/passengers){:target="_blank"} is Austria's largest international airport and very well connected to many international destinations. Vienna Airport serves about 170 destinations in 66 countries through around 60 airlines. The majority of European capitals are two to three hours away by plane.
 
 ### By Train
 
-Vienna is fully integrated into the European [rail network](https://www.oebb.at/en/). Visitors can travel to Vienna from 14 European countries by rail without having to change. There are a total of 20 direct services from all major cities in neighboring Germany alone. The Vienna main train station is connected to the city center by subway.
+Vienna is fully integrated into the European [rail network](https://www.oebb.at/en/){:target="_blank"}. Visitors can travel to Vienna from 14 European countries by rail without having to change. There are a total of 20 direct services from all major cities in neighboring Germany alone. The Vienna main train station is connected to the city center by subway.
 
 ### By Bus/Car
 
@@ -37,10 +37,10 @@ The international Eurolines long-distance bus routes connect all of Europe to Vi
 
 ## Austria Center Vienna
 
-VIS 2025 will take place in the [Austria Center Vienna](https://www.acv.at/en), Austria’s largest congress centre.
+VIS 2025 will take place in the [Austria Center Vienna](https://www.acv.at/en){:target="_blank"}, Austria’s largest congress centre.
 
 <p>
-  <img src="assets/photos/austria-center-vienna.png" />
+  <img src="assets/venue-and-travel/austria-center-vienna.png" />
 </p>
 
 Bruno-Kreisky-Platz 1, 1220 Vienna, Austria
@@ -49,7 +49,7 @@ Bruno-Kreisky-Platz 1, 1220 Vienna, Austria
 
 #### Public Transport
 
-Your conference badge will be a ticket for the Vienna [public transport system](https://www.wienerlinien.at/web/wl-en). The convention center is located next to the U1 subway station "Kaisermühlen - Vienna International Center".
+Your conference badge will be a ticket for the Vienna [public transport system](https://www.wienerlinien.at/web/wl-en){:target="_blank"}. The convention center is located next to the U1 subway station "Kaisermühlen - Vienna International Center".
 
 #### Onsite Car Parking
 
