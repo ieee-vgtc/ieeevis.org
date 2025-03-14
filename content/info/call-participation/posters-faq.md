@@ -4,7 +4,7 @@ layout: page
 permalink: /year/2025/info/call-participation/posters-faq
 contact: posters@ieeevis.org
 active_nav: "Contribute"
-sidebar: call-for-participation
+sidebar: submit-your-work
 ---
 
 *What is the purpose of submitting a poster?*

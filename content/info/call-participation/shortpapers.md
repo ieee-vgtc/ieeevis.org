@@ -4,11 +4,8 @@ layout: page
 permalink: /year/2025/info/call-participation/shortpapers
 contact: shortpapers@ieeevis.org
 active_nav: "Contribute"
-sidebar: call-for-shortpapers
+sidebar: submit-your-work
 ---
-
----
-
 
 IEEE VIS 2025 solicits submissions in a short paper format. The Short Papers committee welcomes submissions describing original work and late-breaking research results. The work should focus on concise research contributions, incremental work such as follow-up extensions, evaluations of existing methods, replication studies, or exploratory work. The committee also welcomes papers describing new systems or tools that offer practical value.
 

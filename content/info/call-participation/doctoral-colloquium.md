@@ -3,7 +3,7 @@ title: Doctoral Colloquium - Call For Participation
 layout: page
 permalink: /year/2025/info/call-participation/doctoral-colloquium
 active_nav: "Contribute"
-sidebar: call-for-workshops
+sidebar: submit-your-work
 contact: doctoral_coll@ieeevis.org
 ---
 

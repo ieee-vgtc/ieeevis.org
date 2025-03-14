@@ -1,12 +1,10 @@
 ---
 title: Panels
 layout: page
-sidebar: call-for-participation
 permalink: /year/2025/info/call-participation/panels
-active_nav: "Contribute"
 contact: panels_tutorials@ieeevis.org
 active_nav: "Contribute"
-sidebar: call-for-workshops
+sidebar: submit-your-work
 ---
 
 IEEE VIS 2025 Panels should address contemporary, important and/or controversial debates, issues and applications in visualization and related topics. In particular, we invite panels that:

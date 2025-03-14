@@ -3,7 +3,7 @@ title: Workshops - Call For Participation
 layout: page
 permalink: /year/2025/info/call-participation/workshops
 active_nav: "Contribute"
-sidebar: call-for-workshops
+sidebar: submit-your-work
 contact: workshops@ieeevis.org
 ---
 
@@ -12,7 +12,7 @@ We solicit workshops related to all areas of visualization. They provide a forum
 ## Important Dates
 
 * Proposal Submission               **Friday, April 4, 2025**
-* Notification                      	     **Friday April 18, 2025**
+* Notification                      **Friday April 18, 2025**
 * Final Submission of Summaries	    **Thursday August 1, 2025**
 
 All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth)**.
