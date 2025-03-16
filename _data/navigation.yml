@@ -292,21 +292,21 @@ menu:
             columns:
               - links:
                   - text: "VIS Arts Program"
-                    description: "Diverse Data"
-                    url: "https://visap.net/2025"
-                    is_external: true
+                    description: "More information coming soon"
+                    url: "#"
+                    is_external: false
                   - text: "VisInPractice"
                     description: "Invited talks by visualization practitioners"
                     url: "/year/2025/info/visinpractice"
-                    is_new: true
+                    is_new: false
                   #- text: "LDAV Symposium"
                   #  description: "Big Data Analysis and Visualization"
                   #  url: "https://ldav.io/"
                   #  is_external: true
-                  - text: "VDS Symposium"
-                    description: "Visualization in Data Science"
-                    url: "https://www.visualdatascience.org/2025/index.html"
-                    is_external: true
+                  #- text: "VDS Symposium"
+                  #  description: "Visualization in Data Science"
+                  #  url: "https://www.visualdatascience.org/2025/index.html"
+                  #  is_external: true
                   # - text: "VizSec Symposium"
                   #   description: "Visualization for Cyber Security"
                   #   url: "https://vizsec.org/vizsec2025/"
@@ -315,67 +315,68 @@ menu:
             description: "Advancing visualization through competition"
             columns:
               - links:
-                  - text: "Bio+MedVis Challenges"
+                  - text: "Bio+MedVis Challenge"
                     url: "http://biovis.net/2025/biovisChallenges_vis/"
                     is_external: true
                   - text: "SciVis Contest"
                     url: "https://sciviscontest2025.github.io/"
                     is_external: true
-                  - text: "VAST Challenge"
-                    url: "https://vast-challenge.github.io/2025/"
-                    is_external: true
+                  #- text: "VAST Challenge"
+                  #  url: "https://vast-challenge.github.io/2025/"
+                  #  is_external: true
+
+      #- subsections:
+      #    - heading: "IEEE VIS Workshops"
+      #      display: false
+      #      heading_url: "/year/2025/info/workshops"
+      #      description: "Informal settings to discuss emerging topics"
+      #      columns:
+      #        - links:
+      #            - text: "TopoInVis"
+      #              description: "Topological Data Analysis and Visualization"
+      #              url: "https://topoinvis-workshop.github.io/"
+      #              is_external: true
+      #            - text: "VISxAI"
+      #              description: "Visualization for AI Explainability"
+      #              url: "https://visxai.io/"
+      #              is_external: true
+      #            - text: "BELIV"
+      #              description: "evaluation and BEyond - methodoLogIcal approaches for Visualization"
+      #              url: "https://beliv-workshop.github.io/"
+      #              is_external: true
+      #            - text: "BioMedVis"
+      #              description: "Biological and Medical Visualization"
+      #              url: "https://biovis.net/2025/biovisChallenges_vis/"
+      #              is_external: true
+      #    - heading: "Meetups"
+      #      heading_url: "/year/2025/info/meetups"
+      #      description: "Meet for discussion and shared experiences"
+      #      columns:
+      #        - links:
+      #          - text: "VisLies!"
+      #            description: "A showcase of egregious errors in visualization"
+      #            url: "http://vislies.org"
+      #            is_external: true
+      #          - text: "Velo Club de VIS"
+      #            description: "Meet and mingle with other bicycle riders"
+      #            url: "/year/2025/info/meetups#vis-velo"
+      #          - text: "Vis4Good"
+      #            description: "Visualization for Good"
+      #            url: "/year/2025/info/meetups#vis4good"
+      #          - text: "Reproducibility Stamp Initiative"
+      #            description: "A Reproducibility Stamp Initiative for Visualization"
+      #            url: "/year/2025/info/meetups#reproducibility"
       - subsections:
-          - heading: "IEEE VIS Workshops"
-            display: false
-            heading_url: "/year/2025/info/workshops"
-            description: "Informal settings to discuss emerging topics"
-            columns:
-              - links:
-                  - text: "TopoInVis"
-                    description: "Topological Data Analysis and Visualization"
-                    url: "https://topoinvis-workshop.github.io/"
-                    is_external: true
-                  - text: "VISxAI"
-                    description: "Visualization for AI Explainability"
-                    url: "https://visxai.io/"
-                    is_external: true
-                  - text: "BELIV"
-                    description: "evaluation and BEyond - methodoLogIcal approaches for Visualization"
-                    url: "https://beliv-workshop.github.io/"
-                    is_external: true                  
-                  - text: "BioMedVis"
-                    description: "Biological and Medical Visualization"
-                    url: "https://biovis.net/2025/biovisChallenges_vis/"
-                    is_external: true
-          - heading: "Meetups"
-            heading_url: "/year/2025/info/meetups"
-            description: "Meet for discussion and shared experiences"
-            columns:
-              - links:
-                - text: "VisLies!"
-                  description: "A showcase of egregious errors in visualization"
-                  url: "http://vislies.org"
-                  is_external: true
-                - text: "Velo Club de VIS"
-                  description: "Meet and mingle with other bicycle riders"
-                  url: "/year/2025/info/meetups#vis-velo"
-                - text: "Vis4Good"
-                  description: "Visualization for Good"
-                  url: "/year/2025/info/meetups#vis4good"
-                - text: "Reproducibility Stamp Initiative"
-                  description: "A Reproducibility Stamp Initiative for Visualization"
-                  url: "/year/2025/info/meetups#reproducibility"
-      - subsections:
-          - heading: "Community"
-            heading_url: "/year/2025/info/call-participation/community"
-            description: "Explore social and topic-based community groups"
-            columns:
-            - heading: "Connect"
-              links:
-#                  - text: "Vis Buddies"
-#                    url: "/year/2025/info/meetups#vis-newcomers"
-                - text: "Job Postings"
-                  url: "/year/2025/info/jobs"
+          #- heading: "Community"
+          #  heading_url: "/year/2025/info/call-participation/community"
+          #  description: "Explore social and topic-based community groups"
+          #  columns:
+      #      - heading: "Connect"
+      #        links:
+                 #- text: "Vis Buddies"
+                 #  url: "/year/2025/info/meetups#vis-newcomers"
+                 #- text: "Job Postings"
+                 #  url: "/year/2025/info/jobs"
 #              - heading: "Social Groups"
 #                links:
 #                  - text: "Velo Club de VIs"
