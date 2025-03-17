@@ -14,6 +14,7 @@ permalink: /year/2025/info/committees/conference-committee
 | **Program Chairs** | |
 | Tushar Athawale | *Oak Ridge National Laboratory* |
 | Michelle Dowling | *Pacific Northwest National Laboratory* |
+| Michael Oppermann | *AIT Austrian Institute of Technology GmbH* |
 |---
 | **Overall Paper Chairs** | |
 | Niklas Elmqvist | *Aarhus University* |

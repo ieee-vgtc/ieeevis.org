@@ -9,11 +9,11 @@ contact: program@ieeevis.org
 # Preliminary Program
 
 Below is a draft schedule the conference.
-Additional details for the events are available on their webpages, and more detailed information will be available the VIS attendee content website as the conference nears.
-**Note: details and specific times may change as we adjust for late-breaking conflicts and constraints.**
-
+More detailed information will be available as the conference nears.
 Daily sessions are (generally) four blocks per day, each 90 minutes with two in the morning and two in the afternoon.
 There will be coffee breaks between the first/second and third/fourth block. A lunch break runs each day between the second/third block.
+
+##### Details and specific times may change as we adjust for late-breaking conflicts and constraints!
 
 <hr/>
 
@@ -21,8 +21,8 @@ There will be coffee breaks between the first/second and third/fourth block. A l
 <a>**Saturday, November 1, 2025**</a><br/>
 
 *9:00 AM - 5:00 PM (GMT+1)*<br/>
-**Doctoral Colloquium** (Invite only event)<br />
-The Doctoral Colloquium will take place at **TU Wien**, [Favoritenstraße 9-11, 1040 Wien](https://maps.app.goo.gl/2Rb58dYGnmcsLvsc7).
+**Doctoral Colloquium** (Invite-only event)<br />
+The Doctoral Colloquium will take place at **TU Wien**, [Favoritenstraße 9-11, 1040 Wien](https://maps.app.goo.gl/2Rb58dYGnmcsLvsc7){:target= "_blank"}.
 
 <hr/>
 
@@ -80,7 +80,7 @@ The Doctoral Colloquium will take place at **TU Wien**, [Favoritenstraße 9-11, 
 
 *6:30 PM - 9:00 PM (GMT+1)*<br/>
 **Evening**<br />
-* Welcome Reception (Natural History Museum)
+* Welcome Reception ([Museum of Natural History](https://maps.app.goo.gl/eXjAvrE88oPx1THYA){:target= "_blank"})
 
 <hr/>
 
@@ -101,13 +101,9 @@ The Doctoral Colloquium will take place at **TU Wien**, [Favoritenstraße 9-11, 
 
 *5:30 PM - 9:00 PM (GMT+1)*<br/>
 **Evening**<br />
-* VISAP Presentations
-* Conference Dinner (Austria Center Vienna)
-
-<!-- *6:00 PM-8:00 PM AEDT (UTC+11)*<br/>
-* Grazelands: **VIS Banquet** (6:00pm-8:00pm) <br>
-    * Sponsored by **Norrköping Visualization Center**
-    * includes Screenings (6:00, 6:45, and 7:30 PM) at the Melbourne Planetarium.  Transport on your own / via Public Transport Victoria (PTV) using your Myki card (provided at registration)  -->
+* VISAP Exhibition
+* Conference Dinner ([Austria Center Vienna](https://maps.app.goo.gl/NaguVkxom2uRZjq48){:target= "_blank"})
+* After-Party (tba)
 
 <hr/>
 
@@ -127,7 +123,7 @@ The Doctoral Colloquium will take place at **TU Wien**, [Favoritenstraße 9-11, 
 *5:30 PM - 8:00 PM (GMT+1)*<br/>
 **Evening**<br />
 * Poster Session
-* OC Dinner (Melker Stiftskeller)
+* OC Dinner ([Melker Stiftskeller](https://maps.app.goo.gl/dkRNP3zZmA8eTrsm8){:target= "_blank"})
 
 <hr/>
 
@@ -148,5 +144,6 @@ The Doctoral Colloquium will take place at **TU Wien**, [Favoritenstraße 9-11, 
 
 * Tushar Athawale, *Oak Ridge National Laboratory*
 * Michelle Dowling, *Pacific Northwest National Lab*
+* Michael Oppermann, *AIT Austrian Institute of Technology GmbH*
 
 *Email: [program@ieeevis.org](mailto:program@ieeevis.org)*

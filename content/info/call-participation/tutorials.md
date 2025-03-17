@@ -4,7 +4,7 @@ layout: page
 permalink: /year/2025/info/call-participation/tutorials
 contact: panels_tutorials@ieeevis.org
 active_nav: "Contribute"
-sidebar: call-for-workshops
+sidebar: submit-your-work
 ---
 
 Tutorials are intended to cover a wide selection of topics related to IEEE VIS 2025 and provide background on new tools, methods, systems, and application domains necessary for research in scientific visualization, information visualization, visual analytics, and topics that span multiple of these areas. Tutorial attendees come from diverse backgrounds, including, among others: volume and flow visualization, information visualization, geographic visualization, visual analytics, high performance computing, visual data science, visualization in artificial intelligence, extended reality technologies and scientific application communities. Tutorials aimed at practitioners and/or those outside the traditional academic visualization communities are also encouraged.

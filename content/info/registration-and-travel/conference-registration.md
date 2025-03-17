@@ -14,8 +14,8 @@ There will be completely virtual session (organized in Zoom) for presenters who 
 
 ### Important Dates
 <ul>
-<li>Registration opening: Late May / Early June 2025</li>
-<li>Early Registration deadline: Early September 2025</li>
+<li>Registration opening: <strong>Late May / Early June 2025</strong></li>
+<li>Early Registration deadline: <strong>Early September 2025</strong></li>
 </ul>
 
 

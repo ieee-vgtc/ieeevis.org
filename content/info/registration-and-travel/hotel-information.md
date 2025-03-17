@@ -6,7 +6,8 @@ permalink: /year/2025/info/registration-and-travel/hotel-information
 contact: "general_chair@ieeevis.org"
 ---
 
-Vienna has more than 100 specialist meeting hotels in various categories. Over 430 hotels and more than 40,000 rooms are available to suit all tastes and budgets. We encourage you to explore Vienna's hotel landscape and find an accommodation that suits you best!
+Vienna has more than 430 hotels with more than 40,000 rooms to suit all tastes and budgets.
+**We encourage you to explore Vienna's hotel landscape and find an accommodation that suits you best!**
 
 ## Searching for a hotel
 
@@ -20,13 +21,14 @@ The Austria Center Vienna is next to the **U1** subway station "Kaisermühlen - 
 So, when searching for a hotel near the city center, it is highly recommended that you pick one that is close to a U1 subway station (or any other subway line that directly connects to U1).
 
 <p>
-  <img src="/year/2025/assets/photos/vienna-locations.jpg" />
+  <img src="/year/2025/assets/venue-and-travel/vienna-locations.jpg" />
 </p>
 
 
 ## Pre-booked rooms
 
 We also pre-booked some rooms in Vienna, in case you don't want to search for a hotel on your own.
+Room blocks are not tied to the conference organization. If room allotments are not claimed, they will be returned to the hotels.
 This is a first list of pre-booked hotels, 1-2 are more to come within the next weeks.
 
 
@@ -57,7 +59,7 @@ Close to the U1 subway station "Oper - Karlsplatz".
 Room "THE ONE" at **€132.33** or **€142.59** (excluding breakfast) - depending on the date - for single or double use.
 
 To book a room, please use the following PDF form and send it to the hotel directly (instructions in PDF):
-[PDF booking form](/assets/travel/MotelOne_Abrufformular.pdf){:target= "_blank"}
+[PDF booking form](/year/2025/assets/venue-and-travel/MotelOne_Abrufformular.pdf){:target= "_blank"}
 
 #### Mercure Wien Zentrum
 Hotel Mercure Wien Zentrum<br />
@@ -69,7 +71,9 @@ Close to the U1 subway station "Schwedenplatz".
 
 Double room for single use at **€209** (including breakfast), double room for double use at **€235** (including breakfast).
 
-To book a room, use the [booking form](/assets/travel/Mercure-Wien-Zentrum_BookingForm.docx) or contact the hotel directly use the booking code **VIS2025**.
+To book a room, use the [booking form](/year/2025/assets/venue-and-travel/Mercure-Wien-Zentrum_BookingForm.docx) or contact the hotel directly use the booking code **VIS2025**.
+
+**Available until September 19th, 2025**
 
 #### Mercure Wien City
 Hotel Mercure Wien City<br />
@@ -81,4 +85,6 @@ Close to the U1 subway station "Schwedenplatz".
 
 Double room for single use at **€189** (including breakfast), double Room for double use at **€214** (including breakfast).
 
-To book a room, use the [booking form](/assets/travel/Mercure-Wien-City_BookingForm.docx) or contact the hotel directly use the booking code **VIS2025**.
+To book a room, use the [booking form](/year/2025/assets/venue-and-travel/Mercure-Wien-City_BookingForm.docx) or contact the hotel directly use the booking code **VIS2025**.
+
+**Available until September 19th, 2025**

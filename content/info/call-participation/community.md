@@ -3,7 +3,7 @@ title: Community
 layout: page
 permalink: /year/2025/info/call-participation/community
 active_nav: "Events & Community"
-sidebar: call-for-participation
+sidebar: submit-your-work
 contact: community@ieeevis.org
 ---
 
