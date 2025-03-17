@@ -66,7 +66,7 @@ Double-blind submission applies only to the first review cycle. In case of first
 
 ## Abstract Submission
 
-Note that submission of an abstract for each paper is **mandatory** by **March 21**, and full papers with all supplemental material are due on **March 31**. Late submissions, or submissions without a previously submitted abstract, will not be considered. Furthermore, submission information—including title, abstract, and author(s)—**MUST** be entered by the abstract deadline on **March 21**. Adding authors after the abstract deadline is not allowed. The author information is used to detect conflicts of interest when assigning papers to program committee members and reviewers, so it must be complete by the time abstracts are submitted. However, minor edits to title and abstract are allowed throughout the reviewing process, especially when requested by the reviewers.
+Note that submission of an abstract for each paper is **mandatory** by **March 21**, and full papers (pdf) are due on **March 31**. Supplemental material can be submitted until **April 07**.  Late submissions, or submissions without a previously submitted abstract, will not be considered. Furthermore, submission information—including title, abstract, and author(s)—**MUST** be entered by the abstract deadline on **March 21**. Adding authors after the abstract deadline is not allowed. The author information is used to detect conflicts of interest when assigning papers to program committee members and reviewers, so it must be complete by the time abstracts are submitted. However, minor edits to title and abstract are allowed throughout the reviewing process, especially when requested by the reviewers.
 
 ## Originality & Reuse of Text
 
