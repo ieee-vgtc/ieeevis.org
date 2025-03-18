@@ -131,6 +131,74 @@ menu:
             description: "Your support makes this conference possible!"
 
 # ---------------------------------------------------------------------------
+  - dropdown: "Attend"
+    display: true
+    sections:
+      - subsections:
+          - heading: "Attending VIS 2025"
+            columns:
+              - heading: "Attend"
+                links:
+                  - text: "Registration"
+                    url: "/year/2025/info/registration-and-travel/conference-registration"
+                    is_new: false
+                  - text: "Venue"
+                    url: "/year/2025/info/registration-and-travel/venue"
+                    is_new: true
+                  - text: "Transportation"
+                    url: "/year/2025/info/registration-and-travel/transportation"
+                    is_new: true
+                  - text: "Green Meeting Certificate"
+                    url: "/year/2025/info/registration-and-travel/green-meeting"
+                    is_new: true
+              - heading: "Travel"
+                links:
+                  - text: "Traveling to Vienna"
+                    url: "/year/2025/info/registration-and-travel/travel-information"
+                    is_new: false
+                  - text: "Hotel Information"
+                    url: "/year/2025/info/registration-and-travel/hotel-information"
+                    is_new: true
+                  - text: "Visas"
+                    url: "/year/2025/info/registration-and-travel/visas"
+                    is_new: false
+
+          - heading: "Code of Conduct"
+            heading_url: "/year/2025/info/inclusion/code-of-conduct"
+
+      - subsections:
+          - heading: "Vienna, Austria"
+            heading_url: "https://meeting.vienna.info/en/why-vienna/art-culture-cuisine"
+            columns:
+              - links:
+                  - text: "Sights and famous places"
+                    description: "Well-known sights and things to see"
+                    url: "/year/2025/info/registration-and-travel/vienna-places"
+                    is_new: true
+                  - text: "Recommendations from Locals"
+                    description: "Tips by local people what to not miss in Vienna"
+                    url: "/year/2025/info/registration-and-travel/vienna-tips"
+                    is_new: true
+
+      - subsections:
+          - heading: "Inclusion"
+            heading_url: "/year/2025/info/inclusion/inclusivity"
+            columns:
+              - links:
+                  - text: "Inclusivity Scholarship"
+                    description: "Need-based scholarships for conference attendance"
+                    url: "/year/2025/info/inclusion/scholarship"
+                    is_new: false
+                  - text: "Accessibility"
+                    description: "Supporting access for all attendees"
+                    url: "/year/2025/info/accessibility/attend"
+                    is_new: false
+                  - text: "VISKids"
+                    description: "Childcare and activities open to everyone"
+                    url: "/year/2025/info/inclusion/viskids"
+                    is_new: false
+
+# ---------------------------------------------------------------------------
   - dropdown: "Program"
     display: true
     sections:
@@ -211,77 +279,6 @@ menu:
 #   #              #     url: "https://www.google.com"
 #   #              #   - text: "Practioner Guide"
 #   #              #     url: "https://www.google.com"
-
-  # ---------------------------------------------------------------------------
-  - dropdown: "Attend"
-    display: true
-    sections:
-      - subsections:
-          - heading: "Attending VIS 2025"
-            columns:
-              - heading: "Attend"
-                links:
-                  - text: "Registration"
-                    url: "/year/2025/info/registration-and-travel/conference-registration"
-                    is_new: false
-                  - text: "Venue"
-                    url: "/year/2025/info/registration-and-travel/venue"
-                    is_new: true
-                  - text: "Week-at-a-Glance"
-                    url: "/year/2025/info/program/week-at-a-glance"
-                    is_new: true
-                  - text: "Green Meeting Certificate"
-                    url: "/year/2025/info/registration-and-travel/green-meeting"
-                    is_new: true
-              - heading: "Travel"
-                links:
-                  - text: "Traveling to Vienna"
-                    url: "/year/2025/info/registration-and-travel/travel-information"
-                    is_new: false
-                  - text: "Hotel Information"
-                    url: "/year/2025/info/registration-and-travel/hotel-information"
-                    is_new: true
-                  - text: "Transportation"
-                    url: "/year/2025/info/registration-and-travel/transportation"
-                    is_new: true
-                  - text: "Visas"
-                    url: "/year/2025/info/registration-and-travel/visas"
-                    is_new: false
-
-          - heading: "Code of Conduct"
-            heading_url: "/year/2025/info/inclusion/code-of-conduct"
-
-      - subsections:
-          - heading: "Vienna, Austria"
-            heading_url: "https://meeting.vienna.info/en/why-vienna/art-culture-cuisine"
-            columns:
-              - links:
-                  - text: "Sights and famous places"
-                    description: "Well-known sights and things to see"
-                    url: "/year/2025/info/registration-and-travel/vienna-places"
-                    is_new: true
-                  - text: "Recommendations from Locals"
-                    description: "Tips by local people what to not miss in Vienna"
-                    url: "/year/2025/info/registration-and-travel/vienna-tips"
-                    is_new: true
-
-      - subsections:
-          - heading: "Inclusion"
-            heading_url: "/year/2025/info/inclusion/inclusivity"
-            columns:
-              - links:
-                  - text: "Inclusivity Scholarship"
-                    description: "Need-based scholarships for conference attendance"
-                    url: "/year/2025/info/inclusion/scholarship"
-                    is_new: false
-                  - text: "Accessibility"
-                    description: "Supporting access for all attendees"
-                    url: "/year/2025/info/accessibility/attend"
-                    is_new: false
-                  - text: "VISKids"
-                    description: "Childcare and activities open to everyone"
-                    url: "/year/2025/info/inclusion/viskids"
-                    is_new: false
 
 # ---------------------------------------------------------------------------
   - dropdown: "Events & Community"
