@@ -1,7 +1,7 @@
 - title: "We are looking forward to your contributions!"
   image: "contributions.jpg"
   button-text: "Call for Participation"
-  button-url: "/year/2025/info/call-participation/call-for-participation"
+  button-url: "/info/call-participation/call-for-participation"
   active: "active"
 
 - title: "The reVISe 1.1 experiment - Latest Blog Post"
@@ -12,4 +12,4 @@
 - title: "IEEE VIS 2025 in Vienna, Austria"
   image: "skyline_vienna.jpg"
   button-text: "Destination Information"
-  button-url: "/year/2025/destination"
+  button-url: "/destination"

@@ -72,9 +72,9 @@ permalink: /year/2025/info/committees/conference-committee
 | Ana Crisan | *University of Waterloo* |
 |---
 | **Arts Program Chairs** | |
-| Pedro Cruz | *Northeastern University* |
-| Rebecca Ruige Xu | *Syracuse University* |
-| Rewa Wright | *Queensland University of Technology* |
+| Damla Cay | *Moholy-Nagy University of Art and Design Budapest* |
+| Dario Rodighiero | *University of Groningen* |
+| Weidi Zhang | *Arizona State University* |
 |---
 | **Vis in Practice Chairs** | |
 | Chris Bryan | *Arizona State University* |
