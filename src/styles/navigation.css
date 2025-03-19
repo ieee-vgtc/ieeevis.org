@@ -121,6 +121,7 @@
         background: transparent;
         text-align: center;
         width: auto;
+        height: 100%;
         @apply text-white;
       }
     }

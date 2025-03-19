@@ -24,16 +24,20 @@
                 tabindex="0" 
                 role="menuitem"
                 >
-                <a class="nav-text-link" href="{{ site.data.navigation.blog.url }}">
+                <a class="w-full nav-text-link" href="{{ site.data.navigation.blog.url }}">
                     {{ site.data.navigation.blog.text }}
                 </a>
             </button> -->
 
-            
-            <a class="menu_item {{is_active_class}} font-display text-lg md:text-base lg:text-lg px-8 md:px-2 lg:px-4 mx-0 lg:mx-2 py-4 md:py-6 border-b-2 border-primary-200 md:border-none"
-                href="{{ site.data.navigation.blog.url }}">
-                {{ site.data.navigation.blog.text }}
+
+            <a class="nav-text-link" href="{{ site.data.navigation.blog.url }}">
+                <button
+                    class="menu_item {{is_active_class}} font-display text-lg md:text-base lg:text-lg px-8 md:px-2 lg:px-4 mx-0 lg:mx-2 py-4 md:py-6 border-b-2 border-primary-200 md:border-none"
+                    tabindex="0" role="menuitem">
+                    {{ site.data.navigation.blog.text }}
+                </button>
             </a>
+
 
             {% endif %}
 
