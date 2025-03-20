@@ -4,9 +4,9 @@
   button-url: "/info/call-participation/call-for-participation"
   active: "active"
 
-- title: "The reVISe 1.1 experiment - Latest Blog Post"
+- title: "The reVISe 1.1 experiment"
   image: "revise-path.jpg"
-  button-text: "The reVISe 1.1 experiment"
+  button-text: "Read more about reVISe 1.1"
   button-url: "/blog/vis-2025-revise"
 
 - title: "IEEE VIS 2025 in Vienna, Austria"
