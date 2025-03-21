@@ -45,6 +45,16 @@ Prices and availability of rooms may vary depending on the current booking situa
 
 To book a room, use the code **VIS2025** when contacting the hotel, or use the [online booking form](https://my.schanihotels.com/search/offers?PROMO_CODE=VIS2025&ADULTS=1&CHILDREN=&ARRIVAL=2025-11-04&DEPARTURE=2025-11-07&PROPERTY_IDS=VIEUNO){:target= "_blank"}
 
+#### Meliá Vienna
+Meliá Vienna<br />
+Donau-City-Straße 7<br />
+1220 Wien<br />
+[Hotel Website](https://www.melia.com/de/hotels/osterreich/wien/melia-vienna){:target= "_blank"} | [Google Maps Link](https://maps.app.goo.gl/68Nfdf8j9RY1ogeDA){:target= "_blank"}
+
+Guest room for single use at **€229** (including breakfast).
+
+To book at room, use the [online booking form](https://events.melia.com/en/events/melia-vienna/IEEE-Computer-Society-2025){:target= "_blank"}
+
 
 ### In the city center
 
