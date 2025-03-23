@@ -220,7 +220,7 @@ sidetoc: true
 | Kai Xu| *University of Nottingham* |<br>
 | Panpan Xu| *Amazon AWS AI* |<br>
 | Wei Xu| *Brookhaven National Laboratory* |<br>
-| Fumeng Yang| *Northwestern University* |<br>
+| Fumeng Yang| *University of Maryland, College Park* |<br>
 | Jing Yang| *UNC Charlotte* |<br>
 | Weikai Yang| *Hong Kong University of Science and Technology* |<br>
 | Lijie Yao| *Xi'an Jiaotong-Liverpool University* |<br>
