@@ -17,17 +17,19 @@ sidetoc: true
 | Bilal Alsallakh| *Voxel AI* |<br>
 | Gennady Andrienko| *Fraunhofer IAIS / City, University of London* |<br>
 | Marco Angelini| *University of Rome* |<br>
-| Daniel W. Archambault| *Newcastle University* |<br>
+| Daniel Archambault| *Newcastle University* |<br>
 | Tushar Athawale| *Oak Ridge National Laboratory* |<br>
 | Lyn Bartram| *Simon Fraser University* |<br>
 | Daniel Baum| *ZIB Berlin* |<br>
 | Michael Behrisch| *Utrecht University* |<br>
 | Matthew Berger| *Vanderbilt University* |<br>
+| Enrico	Bertini| *Northeastern University* |<br>
 | Lonni Besançon| *Linköping University* |<br>
 | Anastasia Bezerianos| *Université Paris-Sud* |<br>
 | Ayan Biswas| *Los Alamos National Laboratory* |<br>
 | Tanja Blascheck| *University of Stuttgart* |<br>
 | Alexander Bock| *New York University* |<br>
+| Ciril Bohak| *University of Ljubljana* |<br>
 | Saeed Boorboor| *Stony Brook University* |<br>
 | David Borland| *RENCI, UNC-Chapel Hill* |<br>
 | Nadia Boukhelifa| *INRAE* |<br>
@@ -50,7 +52,6 @@ sidetoc: true
 | Yi-Jen Chiang| *New York University* |<br>
 | Haeyong Chung| *University of Alabama, Huntsville* |<br>
 | Joseph Cottam| *Pacific Northwest National Laboratory* |<br>
-| Anamaria Crisan| *Tableau Research* |<br>
 | Carsten Dachsbacher| *Carsten Dachsbacher / Karlsruhe Institute of Technology (KIT)* |<br>
 | Raimund Dachselt| *TU Dresden* |<br>
 | Aritra Dasgupta| *New Jersey Institute of Technology (NJIT)* |<br>
@@ -225,12 +226,12 @@ sidetoc: true
 | Weikai Yang| *Hong Kong University of Science and Technology* |<br>
 | Lijie Yao| *Xi'an Jiaotong-Liverpool University* |<br>
 | Anders Ynnerman| *Linköping University* |<br>
-| Lingyun Yu| *Xi'an Jiaotong-Liverpool University * |<br>
+| Lingyun Yu| *Xi'an Jiaotong-Liverpool University* |<br>
 | Stefan Zellmann| *University of Cologne* |<br>
-| Wei Zeng| *Hong Kong University of Science and Technology * |<br>
+| Wei Zeng| *Hong Kong University of Science and Technology* |<br>
 | Ye Zhao| *Kent State University* |<br>
 | Ying Zhao| *Central South University* |<br>
-| Chen Zhu-Tian| *University of Minnesota * |<br>
+| Chen Zhu-Tian| *University of Minnesota* |<br>
 
 Contact: [opc@ieeevis.org](mailto:opc@ieeevis.org)
 
