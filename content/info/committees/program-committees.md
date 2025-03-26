@@ -72,7 +72,7 @@ sidetoc: true
 | Tim Gerrits| *RWTH Aachen University* |<br>
 | Sohaib Ghani| *King Abdullah University of Science and Technology* |<br>
 | Michael Gleicher| *University of Wisconsin* |<br>
-| David Gotz| *University of North Carolina, Chapel Hill * |<br>
+| David Gotz| *University of North Carolina, Chapel Hill* |<br>
 | Claudio Douglas  Gouveia Linhares| *Linnaeus University* |<br>
 | John Alexis Guerra-Gomez| *Northeastern University Bay Area* |<br>
 | Stefan Gumhold| *TU Dresden* |<br>
@@ -138,7 +138,7 @@ sidetoc: true
 | Monique Meuschke| *University of Magdeburg* |<br>
 | Miriah Meyer| *Linköping University* |<br>
 | Haichao Miao| *Lawrence Livermore National Laboratory* |<br>
-| Silvia Miksch| *Vienna University of Technology * |<br>
+| Silvia Miksch| *Vienna University of Technology* |<br>
 | Gabriel Mistelbauer| *Stanford Medicine* |<br>
 | Gabriela Molina Leon| *Aarhus University* |<br>
 | Torsten Möller| *University of Vienna* |<br>
