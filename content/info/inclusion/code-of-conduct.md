@@ -46,7 +46,7 @@ The ombuds team for VIS 2025 is:
     <tr>
       <td style="padding: 3px; width: 33%;">Joshua Levine</td>
       <td style="padding: 3px; width: 33%;">Lace Padilla</td>
-      <td style="padding: 3px; width: 33%;">Gautam Chaudhary</td>
+      <td style="padding: 3px; width: 33%;">Katerina Vrotsou</td>
     </tr>
   </tbody>
 </table>
