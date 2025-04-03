@@ -42,7 +42,7 @@ sidetoc: true
 | Dylan Cashman| *Brandeis University* |<br>
 | Remco Chang| *Tufts University* |<br>
 | Angelos Chatzimparmpas| *Utrecht University* |<br>
-| Changjian Chen| *AI Team, Kuaishou* |<br>
+| Changjian Chen| *Hunan University, Changsha* |<br>
 | Guoning Chen| *University of Houston* |<br>
 | Jian Chen| *The Ohio State University* |<br>
 | Min Chen| *University of Oxford* |<br>
@@ -57,13 +57,13 @@ sidetoc: true
 | Aritra Dasgupta| *New Jersey Institute of Technology (NJIT)* |<br>
 | Oliver Deussen| *University of Konstanz* |<br>
 | Vaishali Dhanoa| *Aarhus University* |<br>
-| Alexandra Diehl| *University Zurich* |<br>
+| Alexandra Diehl| *Southern University of Denmark, Odense* |<br>
 | Joao Dihl Comba| *Universidade Federal do Rio Grande do Sul* |<br>
 | Steven Drucker| *Microsoft Research* |<br>
 | Barrett Ens| *University of British Columbia (Okanagan)* |<br>
 | Rebecca Faust| *Tulane University* |<br>
 | Nivan Ferreira| *Universidade Federal de Pernambuco* |<br>
-| Angus Forbes| *Purdue University* |<br>
+| Angus Forbes| *NVIDIA, Santa Clara* |<br>
 | Siwei Fu| *Zhejiang Lab* |<br>
 | Johannes Fuchs| *University of Konstanz* |<br>
 | Issei Fujishiro| *Keio University* |<br>
@@ -109,7 +109,7 @@ sidetoc: true
 | Stephen Kobourov| *University of Arizona* |<br>
 | David Koop| *Northern Illinois University* |<br>
 | David Kouřil| *Harvard Medical School* |<br>
-| Michael Krone| *University of Tübingen* |<br>
+| Michael Krone| *Stuttgart University of Applied Sciences* |<br>
 | Robert Krueger| *Harvard University* |<br>
 | Kostiantyn Kucher| *Linköping University* |<br>
 | Kuno Kurzhals| *University of Stuttgart* |<br>
@@ -126,7 +126,7 @@ sidetoc: true
 | Jie Liang| *University of Technology, Sydney* |<br>
 | Peter Lindstrom| *Lawrence Livermore National Laboratory* |<br>
 | Dongyu Liu| *MIT* |<br>
-| Mengchen Liu| *Microsoft* |<br>
+| Mengchen Liu| *META, Redmond, Washington* |<br>
 | Aidong Lu| *UNC Charlotte* |<br>
 | Yuyu Luo| *The Hong Kong University of Science and Technology* |<br>
 | Kim Marriott| *Monash University* |<br>
