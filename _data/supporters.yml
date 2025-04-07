@@ -31,9 +31,9 @@
     supporters:
       - name: "VISUAPPS GmbH"
         image: /assets/supporters/visuapps.png
-        url: "https://www.adobe.com/"
-      - name: "Adobe"
-        image: /assets/supporters/adobe.png
+        url: "https://www.visuapps.com/"
+      - name: "Apple Inc."
+        image: /assets/supporters/apple.png
         url: "https://www.apple.com"
 
 #  - category: Bronze
