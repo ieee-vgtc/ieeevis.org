@@ -16,7 +16,7 @@
 #    image_size: 400
 #    supporters:
 #      - name: "Tableau"
-#        image: /assets/supporters/Tableau-From-Salesforce-Logo-COLOR.png
+#        image: /assets/supporters/tableau.png
 #        url: "https://www.tableau.com/"
 
 #  - category: Gold
@@ -26,53 +26,38 @@
 #        image: /assets/supporters/Autodesk-logo.png
 #        url: "https://www.autodesk.com/research"
 
-#  - category: Silver
-#    image_size: 320
-#    supporters:
-#      - name: "Adobe"
-#        image: /assets/supporters/Adobe-logo.jpg
-#        url: "https://www.adobe.com/"
-#      - name: "Apple"
-#        image: /assets/supporters/apple.png
-#        url: "https://www.apple.com"
+  - category: Silver
+    image_size: 320
+    supporters:
+      - name: "VISUAPPS GmbH"
+        image: /assets/supporters/visuapps.png
+        url: "https://www.visuapps.com/"
+      - name: "Apple Inc."
+        image: /assets/supporters/apple.png
+        url: "https://www.apple.com"
 
 #  - category: Bronze
 #    image_size: 200
 #    supporters:
-#      - name: "NREL"
-#        image: /assets/supporters/NREL.jpg
-#        url: "https://www.nrel.gov/"      
 #      - name: "VRVis"
-#        image: /assets/supporters/VRVis-Logo.png
+#        image: /assets/supporters/vrvis.png
 #        url: "https://www.vrvis.at/en/"
 #      - name: "Databricks"
-#        image: /assets/supporters/databricks_logo.svg
-#        url: "https://www.databricks.com/" 
-#      - name: "SCI"
-#        image: /assets/supporters/sci.png
-#        url: "https://www.sci.utah.edu/"
-#      - name: "Uncharted Software"
-#        image: /assets/supporters/UnchartedLogo.png
-#        url: "https://uncharted.software/"
+#        image: /assets/supporters/databricks.png
+#        url: "https://www.databricks.com/"
 
 #  - category: VISAP
 #    image_size: 140
 #    supporters:
-#      - name: "Northeastern University Art + Design"
-#        image: /assets/supporters/northeastern_art_design.png
-#        url: "https://camd.northeastern.edu/art-design/"
-#      - name: "UM School of Communication"
-#        image: /assets/supporters/SoC_Website_Logo_Retina.png
-#        url: "https://com.miami.edu"
 
 #  - category: Exhibitors
 #    image_size: 140
 #    supporters:
 #      - name: "CRC Press"
-#        image: /assets/supporters/CRC_Press_logo.svg.png
+#        image: /assets/supporters/crc-press.png
 #        url: "https://crcpress.com"
 #      - name: "Springer"
-#        image: /assets/supporters/Springer_cmyk.png
+#        image: /assets/supporters/springer.png
 #        url: "https://link.springer.com/"
 
 #  - category: SciVis Contest Prize
@@ -86,15 +71,14 @@
 #    image_size: 140
 #    supporters:
 #      - name: "Data Visualization Society"
-#        image: /assets/supporters/dvs_logo.png
+#        image: /assets/supporters/datavissociety.png
 #        url: "https://www.datavisualizationsociety.org/"
 #      - name: "Higher Education Tableau User Group"
-#        image: /assets/supporters/hetug_logo.png
+#        image: /assets/supporters/higher-edu-tableau.png
 #        url: "https://usergroups.tableau.com/higher-education-tableau-user-group/"
 
-
-
-
-
-# - category: In affiliation/cooperation with
-#   supporters:
+  - category: Local support by
+    supporters:
+      - name: "City of Vienna"
+        image: /assets/supporters/city-of-vienna.png
+        url: "https://www.wien.gv.at/english/"
