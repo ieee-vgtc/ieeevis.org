@@ -90,18 +90,20 @@ The Doctoral Colloquium will take place at **TU Wien**, [Favoritenstraße 9-11, 
 *9:30 AM - 1:00 PM (GMT+1)*<br/>
 **Morning**<br/>
 * Paper, Short Paper, TVCG Paper, and CG&A Paper Presentations
-* VISAP Presentations
 * Panels and Tutorials
 
 *2:00 PM - 5:30 PM (GMT+1)*<br/>
 **Afternoon**<br/>
 * Paper, Short Paper, TVCG Paper, and CG&A Paper Presentations
-* VISAP Presentations
 * Panels and Tutorials
 
-*5:30 PM - 9:00 PM (GMT+1)*<br/>
+*5:30 PM - 7:00 PM (GMT+1)*<br/>
+**Late Afternoon**<br />
+* Poster Session
+* Use Case Session
+
+*7:00 PM - 9:00 PM (GMT+1)*<br/>
 **Evening**<br />
-* VISAP Exhibition
 * Conference Dinner ([Austria Center Vienna](https://maps.app.goo.gl/NaguVkxom2uRZjq48){:target= "_blank"})
 * After-Party (tba)
 
@@ -113,16 +115,18 @@ The Doctoral Colloquium will take place at **TU Wien**, [Favoritenstraße 9-11, 
 *9:30 AM - 1:00 PM (GMT+1)*<br/>
 **Morning (Blocks 1 and 2)**<br/>
 * Paper, Short Paper, TVCG Paper, and CG&A Paper Presentations
+* VISAP Presentations
 * Panels and Tutorials
 
 *2:00 PM - 5:30 PM (GMT+1)*<br/>
 **Afternoon**<br/>
 * Paper, Short Paper, TVCG Paper, and CG&A Paper Presentations
+* VISAP Presentations
 * Panels and Tutorials
 
-*5:30 PM - 8:00 PM (GMT+1)*<br/>
+*6:00 PM - 9:00 PM (GMT+1)*<br/>
 **Evening**<br />
-* Poster Session
+* VISAP Exhibition ([University of Applied Arts](https://maps.app.goo.gl/L5RFQrZArMmL4GPK9){:target= "_blank"})
 * OC Dinner ([Melker Stiftskeller](https://maps.app.goo.gl/dkRNP3zZmA8eTrsm8){:target= "_blank"})
 
 <hr/>
