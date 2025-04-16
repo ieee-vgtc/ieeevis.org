@@ -115,10 +115,9 @@ menu:
                     url: "/year/2025/info/call-participation/meetups"
                     is_new: false
                   - text: "Become a student volunteer"
-                    description: "More information available soon!"
-                  # description: "Support the conference and build your research network"
-                    url: "#"
-                    is_external: false
+                    description: "Support the conference and build your research network"
+                    url: "https://vissv.github.io/"
+                    is_external: true
                   - text: "Become a peer reviewer"
                     description: "Volunteer to review submissions in Precision Conference Solutions (PCS)"
                     url: "https://new.precisionconference.com/review_volunteering"
