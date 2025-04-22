@@ -16,7 +16,6 @@ This year, Community will host the following events and activities:
 * [VisBuddies Meetup](#visbuddies)
 * [Job-Fair Meetup](#ajf)
 * [Job Flyer Online Posting](#job-flyers)
-<!-- * [Student Mentorship Program](#smp) -->
 
 ### <a name="visbuddies"></a>VisBuddies Meetup
 <!-- **Tuesday, 27 October 2020, 13:40:00 Mountain Time** -->
@@ -31,7 +30,7 @@ Example VisBuddies activities include:
 * Discuss interesting sessions to attend
 * Share tips on successful research
 
-[VisBuddies Signup Form](https://forms.gle/nfJ28A1ytrmkYugd7)
+[VisBuddies Signup Form](https://forms.gle/1Lr2U8tM8qtQin366)
 
 ### <a name="job-flyers"></a>Job Flyer Online Posting
 
@@ -39,7 +38,7 @@ Do you have a job you are seeking to fill?
 
 If so, please complete this online form and we will include your posting on the IEEEVIS.org.  You can also use this form to sign up to host a “table” at the Job Fair.
 
-[VIS Community Job Posting Form](https://forms.gle/jq9nmjv6ZYEZPHWu9)
+[VIS Community Job Posting Form](https://forms.gle/g6sCRcsMkHNavktG9)
 
 Links to the Job Postings will be included on the IEEEVIS.org.
 
@@ -55,15 +54,11 @@ This includes all types of job opportunities: staff, industry positions, softwar
 
 To participate, please join us at the event during VIS 2025.
 
-<!--### <a name="smp"></a>Student Mentorship Program -->
-<!--**Thursday, 29 October 2020, 13:40:00 Mountain Time**-->
-<!-- Students are invited to participate in a one-hour session during which they may ask questions and advice from industry experts. This is your opportunity to get expert advice on career next steps, career choices, and insights into working in the industry. For more information about the Student Mentorship Program contact [supporters@ieeevis.org](supporters@ieeevis.org). -->
-
 ### Contact
 For more information contact IEEE VIS 2025 Community Chairs:
 
-* Ali Sarvghad, 	*University of Massachusstes Amherst*
-* Isaac Cho, 	*Utah State University*
 * Georgia Panagiotidou, *King’s College London*
+* Isaac Cho, 	*Utah State University*
+* Kyle Hall 
 
 email: [community@ieeevis.org](community@ieeevis.org)
