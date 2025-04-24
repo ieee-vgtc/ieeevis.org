@@ -29,7 +29,7 @@ Panels are scheduled for the duration of an entire paper session; panel proposal
 
 ## Submissions
 
-Panel proposals are 1-page (approx. 500 words) documents that should outline:
+Panel proposals are 1-2 page (approx. 500 words) documents that should outline:
 
 1. A **description of the panel topic**. This should provide the title of the panel and describe the core topic/question/issue that the panel is addressing. In cases where the panel follows up on the topic of a previously held panel, we ask the organizers to point this out and to detail the advances expected from the follow-up.
 2. A  **short description of the panel format and anticipated schedule**. This should be a brief description to outline the time to be spent on panelist presentations, and mechanisms for encouraging audience participation. Based on audience feedback, the duration of panelist presentations should allow ample time for intra-panel discussion and discussions between the panel and the audience.
