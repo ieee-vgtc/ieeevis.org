@@ -102,7 +102,7 @@ Scientific work builds naturally on previous work, including work published as a
 
 ### Preliminary Dates (to be confirmed):
 
-* Submission Deadline: **April 30, 2025** (no separate abstract deadline)
+* Submission Deadline: **April 30, 2025** (no separate abstract deadline) on [PCS](https://new.precisionconference.com/submissions)
 * Notification: **June 17, 2025**
 * Submission of Camera-Ready Final Version: **July 1st, 2025**
 
