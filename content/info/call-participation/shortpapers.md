@@ -92,7 +92,7 @@ Short papers can be up to four pages plus up to one page of references. Submissi
 
 Short Papers allow single-blind (not anonymized) or double-blind (anonymized) submissions while reviewers’ identities are not revealed. Authors may choose whether to anonymize their submission or not. Double-blind submissions must NOT include author names or institutions on the cover page of the initial submission, and authors should make an effort to ensure that there is no revealing information in the text, such as apparent citations to authors’ previous work, or making acknowledgments to colleagues of long standing.
 
-<!--- **To submit a short paper, please use [the PCS system](https://new.precisionconference.com/submissions) and select “VGTC > VIS 2024 > VIS 2024 Short Papers” to set up a submission.** -->
+*To submit a short paper, please use [the PCS system](https://new.precisionconference.com/submissions) and select “VGTC > VIS 2025 > VIS 2025 Short Papers” to set up a submission.*
 
 
 ### Publication Details:
