@@ -29,7 +29,7 @@ The Doctoral Colloquium will take place at **TU Wien**, [Favoritenstraße 9-11, 
 <!-- ---------------------------------------------------------------------------------- -->
 <a>**Sunday, November 2, 2025**</a><br/>
 
-*9:30 AM - 1:00 PM (GMT+1)*<br/>
+*9:00 AM - 12:30 PM (GMT+1)*<br/>
 **Morning**<br/>
 * Workshops
 * Tutorials
@@ -53,7 +53,7 @@ The Doctoral Colloquium will take place at **TU Wien**, [Favoritenstraße 9-11, 
 <!-- ---------------------------------------------------------------------------------- -->
 <a>**Monday, November 3, 2025**</a><br/>
 
-*9:30 AM - 1:00 PM (GMT+1)*<br/>
+*9:00 AM - 12:30 PM (GMT+1)*<br/>
 **Morning**<br/>
 * Workshops
 * Tutorials
@@ -68,7 +68,7 @@ The Doctoral Colloquium will take place at **TU Wien**, [Favoritenstraße 9-11, 
 <!-- ---------------------------------------------------------------------------------- -->
 <a>**Tuesday, November 4, 2025**</a><br/>
 
-*9:30 AM - 1:00 PM (GMT+1)*<br/>
+*9:00 AM - 12:30 PM (GMT+1)*<br/>
 **Morning**<br/>
 * VIS Opening, VIS Welcome, and VGTC Awards
 * VIS Keynote
@@ -87,7 +87,7 @@ The Doctoral Colloquium will take place at **TU Wien**, [Favoritenstraße 9-11, 
 <!-- ---------------------------------------------------------------------------------- -->
 <a>**Wednesday, November 5, 2025**</a><br/>
 
-*9:30 AM - 1:00 PM (GMT+1)*<br/>
+*9:00 AM - 12:30 PM (GMT+1)*<br/>
 **Morning**<br/>
 * Paper, Short Paper, TVCG Paper, and CG&A Paper Presentations
 * Panels and Tutorials
@@ -112,8 +112,8 @@ The Doctoral Colloquium will take place at **TU Wien**, [Favoritenstraße 9-11, 
 <!-- ---------------------------------------------------------------------------------- -->
 <a>**Thursday, November 6, 2025**</a><br/>
 
-*9:30 AM - 1:00 PM (GMT+1)*<br/>
-**Morning (Blocks 1 and 2)**<br/>
+*9:00 AM - 12:30 PM (GMT+1)*<br/>
+**Morning**<br/>
 * Paper, Short Paper, TVCG Paper, and CG&A Paper Presentations
 * VISAP Presentations
 * Panels and Tutorials
@@ -134,12 +134,15 @@ The Doctoral Colloquium will take place at **TU Wien**, [Favoritenstraße 9-11, 
 <!-- ---------------------------------------------------------------------------------- -->
 <a>**Friday, November 7, 2025**</a><br/>
 
-*9:30 AM - 1:00 PM (GMT+1)*<br/>
-**Morning**<br/>
+*9:00 AM - 10:30 AM (GMT+1)*<br/>
+**Morning 1**<br/>
 * Paper, Short Paper, TVCG Paper, and CG&A Paper Presentations
 * Panels
-* Test-of-Time Awards
+
+*11:00 AM - 12:30 PM (GMT+1)*<br/>
+**Morning 2**<br/>
 * Capstone
+* Test-of-Time Awards
 * Closing
 
 <hr/>
