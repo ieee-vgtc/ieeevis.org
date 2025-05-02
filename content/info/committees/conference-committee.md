@@ -86,9 +86,9 @@ permalink: /year/2025/info/committees/conference-committee
 | Emily Wall | *Emory University* |
 |---
 | **Publication Chairs** | |
-| Minsuk Kahng | *Google* |
+| Minsuk Kahng | *Yonsei University* |
 | Zhicheng Liu | *University of Maryland College Park* |
-| Cindy Xiong | *Georgia Tech* |
+| Cindy Xiong Bearfield | *Georgia Tech* |
 |---
 | **Community, Meetups, & Election Chairs** | |
 | Kyle Wm. Hall | *Temple University* |
