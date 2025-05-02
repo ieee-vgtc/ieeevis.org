@@ -90,7 +90,7 @@ sidetoc: true
 | Alberto Jaspe-Villanueva| *KAUST* |<br>
 | Won-Ki Jeong| *Korea University* |<br>
 | Chris R. Johnson| *University of Utah* |<br>
-| Minsuk Kahng| *Google DeepMind* |<br>
+| Minsuk Kahng| *Yonsei University* |<br>
 | Alex Kale| *University of Chicago* |<br>
 | Eser Kandogan| *Megagon Labs* |<br>
 | Alireza Karduni| *Simon Fraser University* |<br>
