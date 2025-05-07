@@ -171,7 +171,7 @@ sidetoc: true
 | Xinhuan Shu| *Newcastle University* |<br>
 | Max Sondag| *Cologne* |<br>
 | Bettina Speckmann| *TU Eindhoven* |<br>
-| Raghavendra Sridharamurthy| *Indian Institute of Science Hyderabad* |<br>
+| Raghavendra Sridharamurthy| *International Institute of Information Technology Hyderabad* |<br>
 | John Stasko| *Georgia Institute of Technology* |<br>
 | Nicole Sultanum| *Tableau Research* |<br>
 | Jianxin Sun| *University of Nebraska-Lincoln* |<br>
