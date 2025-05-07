@@ -43,12 +43,12 @@ Submissions should be emailed to
 
 Submissions will be considered subject to time and technology resources availability. Early submissions will be given priority.
 
-| Early  Submission | **From September 19, 2026** | 
-| Notification |  **October 1, 2026** |
+| Early  Submission | **September 19, 2025** | 
+| Notification |  **October 1, 2025** |
 
 Rolling submission: Submissions after the early submission deadline will be considered subject to timeslot availability. Later submissions will be processed and notified within a couple of days.
 
-| Rolling Submission | **From September 20, 2025 to October 25, 2026** | 
+| Rolling Submission | **From September 20, 2025 to October 25, 2025** | 
 | Notification | **Within a few days** |
 
 
