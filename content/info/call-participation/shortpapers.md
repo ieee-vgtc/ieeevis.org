@@ -100,7 +100,7 @@ Authors of accepted short papers may subsequently submit to TVCG a full paper on
  
 Scientific work builds naturally on previous work, including work published as a short paper at VIS. Accepted VIS short papers can contribute to VIS full paper submissions in a future year. But, such submissions should not contain verbatim copies of previous content. Furthermore, any subsequent full paper submission to VIS must represent a novel scientific contribution.  
 
-### Preliminary Dates (to be confirmed):
+### Preliminary Dates:
 
 * Submission Deadline: **April 30, 2025** (no separate abstract deadline) on [PCS](https://new.precisionconference.com/submissions)
 * Notification: **June 17, 2025**
