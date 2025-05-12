@@ -364,16 +364,16 @@ menu:
       #            description: "A Reproducibility Stamp Initiative for Visualization"
       #            url: "/year/2025/info/meetups#reproducibility"
       - subsections:
-          #- heading: "Community"
-          #  heading_url: "/year/2025/info/call-participation/community"
-          #  description: "Explore social and topic-based community groups"
-          #  columns:
-      #      - heading: "Connect"
-      #        links:
-                 #- text: "Vis Buddies"
-                 #  url: "/year/2025/info/meetups#vis-newcomers"
-                 #- text: "Job Postings"
-                 #  url: "/year/2025/info/jobs"
+          - heading: "Community"
+           heading_url: "/year/2025/info/call-participation/community"
+           description: "Explore social and topic-based community groups"
+           # columns:
+           # - heading: "Connect"
+           #   links:
+           #       - text: "Vis Buddies"
+           #        url: "/year/2025/info/meetups#vis-newcomers"
+           #       - text: "Job Postings"
+           #        url: "/year/2025/info/jobs"
 #              - heading: "Social Groups"
 #                links:
 #                  - text: "Velo Club de VIs"
