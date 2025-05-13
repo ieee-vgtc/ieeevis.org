@@ -222,6 +222,7 @@ Contact: [opc@ieeevis.org](mailto:opc@ieeevis.org)
 
 
 ## Short Papers Program Committee
+
 | **Name** | **Affiliation** |<br>
 |Eytan Adar|*University of Michigan*|<br>
 |Hannah Bako|*University of Maryland*|<br>
