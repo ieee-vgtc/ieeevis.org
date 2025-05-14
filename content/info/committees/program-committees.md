@@ -235,7 +235,6 @@ Contact: [opc@ieeevis.org](mailto:opc@ieeevis.org)
 |Hamish Carr|*University of Leeds*|<br>
 |Xin Chen|*Renmin University of China*|<br>
 |Lena Cibulski|*University of Rostock*|<br>
-|Test Committee|**|<br>
 |Carla Dal Sasso Freitas|*Federal University of Rio Grande do Sul*|<br>
 |Zikun Deng|*South China University of Technology*|<br>
 |Dazhen Deng|*Zhejiang University*|<br>
