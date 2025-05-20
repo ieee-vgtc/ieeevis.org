@@ -10,7 +10,7 @@ The IEEE VIS conference is excited to support our VISKids and young families! Th
 
 ## VISKids Room 
 
-Throughout the duration of the conference, VISKids will have a room for provided daycare, play, and personal considerations (e.g., nursing). The room will be staffed by a professional child care agency, hired by the VIS conference. The child care staff will be on hand to operate the VISKids room as a daycare. More information will be shared on the child care agency once the organizers have finalized a contract. Rest asured, the number of staff will be appropriate for the number of expected children.
+Throughout the duration of the conference, VISKids will have a room for provided daycare, play, and personal considerations (e.g., nursing). The room will be staffed by a professional child care agency, hired by the VIS conference. The child care staff will be on hand to operate the VISKids room as a daycare. More information will be shared on the child care agency once the organizers have finalized a contract. 
 
 ### VISKids Hello
 
@@ -28,7 +28,7 @@ We will not provide a childcare grants program as in years past. This year, the 
 
 ## Contact
 
-Please contact [VISKids@ieeevis.org](mailto:VISKids@ieeevis.org) with any questions about the childcare grants program.
+Please contact [VISKids@ieeevis.org](mailto:VISKids@ieeevis.org) with any questions about the childcare room.
 
 ## Support VISKids
 
