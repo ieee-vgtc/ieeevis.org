@@ -268,7 +268,7 @@ Contact: [opc@ieeevis.org](mailto:opc@ieeevis.org)
 |Wiebke Köpp|*Lawrence Berkeley National Laboratory*|<br>
 |Doris Kosminsky|*Universidade Federal do Rio de Janeiro*|<br>
 |Barbora Kozlikova|*Masaryk University*|<br>
-|Oh-Hyun Kwon|*Apple*|<br>
+|Oh-Hyun Kwon|*Hudson River Trading*|<br>
 |Devin Lange|*University of Utah*|<br>
 |Lars Linsen|*University of Münster*|<br>
 |Shusen Liu|*Lawrence Livermore National Laboratory *|<br>
