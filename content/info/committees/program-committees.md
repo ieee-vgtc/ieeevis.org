@@ -229,7 +229,7 @@ Contact: [opc@ieeevis.org](mailto:opc@ieeevis.org)
 |Cindy Xiong Bearfield|*Georgia Tech*|<br>
 |Jürgen Bernard|*University of Zurich*|<br>
 |Kaustav Bhattacharjee|*Pacific Northwest National Laboratory*|<br>
-|Georges-Pierre Bonneau|*Univ. Grenoble Alpes*|<br>
+|Georges-Pierre Bonneau|*Univ. Grenoble Alpes and INRIA*|<br>
 |Carson Brownlee|*Intel*|<br>
 |Chris Bryan|*Arizona State University*|<br>
 |Hamish Carr|*University of Leeds*|<br>
@@ -241,7 +241,7 @@ Contact: [opc@ieeevis.org](mailto:opc@ieeevis.org)
 |Harish Doraiswamy|*Microsoft Research India*|<br>
 |Mai Elshehaly|*City, University of London*|<br>
 |Marina Evers|*University of Siegen*|<br>
-|Velitchko Filipov|*Institute of Visual Computing and Human-Centered Technology*|<br>
+|Velitchko Filipov|*TU Wien*|<br>
 |Danyel Fisher|*Honeycomb*|<br>
 |Steffen Frey|*University of Groningen*|<br>
 |Georg Fuchs|*Fraunhofer IAIS*|<br>
@@ -264,14 +264,15 @@ Contact: [opc@ieeevis.org](mailto:opc@ieeevis.org)
 |Richard Khulusi|*Leipzig University*|<br>
 |Aaron Knoll|*Advanced Micro Devices*|<br>
 |Sungahn Ko|*POSTECH*|<br>
-|Laura Koesten|*University of Vienna*|<br>
+|Laura Koesten|*Mohamed
+bin Zayed University of Artificial Intelligence*|<br>
 |Wiebke Köpp|*Lawrence Berkeley National Laboratory*|<br>
 |Doris Kosminsky|*Universidade Federal do Rio de Janeiro*|<br>
 |Barbora Kozlikova|*Masaryk University*|<br>
 |Oh-Hyun Kwon|*Hudson River Trading*|<br>
 |Devin Lange|*University of Utah*|<br>
 |Lars Linsen|*University of Münster*|<br>
-|Shusen Liu|*Lawrence Livermore National Laboratory *|<br>
+|Shusen Liu|*Lawrence Livermore National Laboratory*|<br>
 |Maria Jesus Lobo|*Lastig, Univ Gustave Eiffel, IGN*|<br>
 |Rafael M. Martins|*Linnaeus University*|<br>
 |Kwan-Liu Ma|*University of California at Davis*|<br>
@@ -282,24 +283,24 @@ Contact: [opc@ieeevis.org](mailto:opc@ieeevis.org)
 |Kay Nieselt|*Institute for Bioinformatics and Medical Informatics*|<br>
 |Patrick O'Leary|*Kitware, Inc.*|<br>
 |Bruno Pinaud|*Université de Bordeaux*|<br>
-|Mathieu Pont|*Kaiserslautern-Landau University*|<br>
+|Mathieu Pont|*RPTU Kaiserslautern-Landau*|<br>
 |Md Dilshadur Rahman|*University of Utah*|<br>
 |Fateme Rajabiyazdi|*Carleton University*|<br>
 |Alexander Rind|*St. Poelten University of Applied Sciences*|<br>
-|Jonathan Roberts|*Bangor University*|<br>
+|Jonathan C. Roberts|*Bangor University*|<br>
 |Jennifer Rogers|*Idaho National Lab*|<br>
-|Bernice Rogowitz|*Visual Perspectives Research *|<br>
+|Bernice Rogowitz|*Visual Perspectives Research*|<br>
 |Willy Scheibel|*Hasso Plattner Institute, Digital Engineering Faculty, University of Potsdam*|<br>
 |Vidya Setlur|*Tableau Research*|<br>
 |Yang Shi|*College of Design and Innovation, Tongji University*|<br>
 |Claudio Silva|*New York University*|<br>
-|Aidan Slingsby|*City, University of London*|<br>
+|Aidan Slingsby|*City St George's, University of London*|<br>
 |Brian Summa|*Tulane University*|<br>
 |Maoyuan Sun|*Northern Illinois University*|<br>
 |Guodao Sun|*Zhejiang University of Technology*|<br>
 |Danielle Szafir|*University of North Carolina-Chapel Hill*|<br>
 |Poorna Talkad Sukumar|*New York University*|<br>
-|Junxiu Tang|*Zhejiang University*|<br>
+|Junxiu Tang|*Northwestern University*|<br>
 |Wai Tong|*Texas A&M University*|<br>
 |Tom Vierjahn|*Westphalian University of Applied Sciences*|<br>
 |Chaoli Wang|*University of Notre Dame*|<br>
