@@ -287,20 +287,20 @@ bin Zayed University of Artificial Intelligence*|<br>
 |Md Dilshadur Rahman|*University of Utah*|<br>
 |Fateme Rajabiyazdi|*Carleton University*|<br>
 |Alexander Rind|*St. Poelten University of Applied Sciences*|<br>
-|Jonathan Roberts|*Bangor University*|<br>
+|Jonathan C. Roberts|*Bangor University*|<br>
 |Jennifer Rogers|*Idaho National Lab*|<br>
 |Bernice Rogowitz|*Visual Perspectives Research*|<br>
 |Willy Scheibel|*Hasso Plattner Institute, Digital Engineering Faculty, University of Potsdam*|<br>
 |Vidya Setlur|*Tableau Research*|<br>
 |Yang Shi|*College of Design and Innovation, Tongji University*|<br>
 |Claudio Silva|*New York University*|<br>
-|Aidan Slingsby|*City, University of London*|<br>
+|Aidan Slingsby|*City St George's, University of London*|<br>
 |Brian Summa|*Tulane University*|<br>
 |Maoyuan Sun|*Northern Illinois University*|<br>
 |Guodao Sun|*Zhejiang University of Technology*|<br>
 |Danielle Szafir|*University of North Carolina-Chapel Hill*|<br>
 |Poorna Talkad Sukumar|*New York University*|<br>
-|Junxiu Tang|*Zhejiang University*|<br>
+|Junxiu Tang|*Northwestern University*|<br>
 |Wai Tong|*Texas A&M University*|<br>
 |Tom Vierjahn|*Westphalian University of Applied Sciences*|<br>
 |Chaoli Wang|*University of Notre Dame*|<br>
