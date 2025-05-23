@@ -493,7 +493,7 @@ menu:
                   - text: "Area Curation Committee"
                     url: "/year/2025/info/committees/area-committee"
                   - text: "reVISe 1.1"
-                    url:  "/blog/vis-2025-revise"
+                    url:  "/year/2025/blog/vis-2025-revise"
           - heading: "Governance Documents"
             columns:
               - links:
