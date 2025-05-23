@@ -204,10 +204,23 @@ The VISxAI workshop, throughout its past six iterations, has been a platform for
 
 ## <a name="GenAI"></a> AI Agents and the Future of VIS and VIS4GenAI 2025: What's next? (Full Day)
 
-Organizer, *Org* <br>
-Contact: 
+Zhu-Tian Chen, *University of Minnesota*<br>
+Shivam Raval, *Harvard University*<br>
+Enrico Bertini, *Northeastern University*<br>
+Trevor DePodesta, *Harvard University*<br>
+Niklas Elmqvist, *Aarhus University*<br>
+Nam Wook Kim, *Boston College*<br>
+Qianwen Wang, *University of Minnesota*<br>
+Yun Wang, *Microsoft Research*<br>
+Emily Reif, *Google Research & University of Washington*<br>
+Pranav Rajan, *KTH Royal Institute of Technology*<br>
+Renata G. Raidou, *TU Wien*<br>
+Olivia Seow, *Harvard University*<br>
+Catherine Yeh, *Harvard University*<br>
 
-Text
+Contact: ztchen@umn.edu and sraval@g.harvard.edu 
+
+Generative AI (GenAI) is transforming the landscape of artificial intelligence—not just in scale but in kind. Unlike traditional AI, GenAI introduces unique challenges for interpretability and safety, as its tens of billions of parameters and emergent behaviors demand new ways to understand, debug, and visualize model internals and their outputs. At the same time, GenAI enables agentic systems—goal-driven, autonomous agents that can reason, act, and adapt across complex tasks, raising a critical question: Will AI agents eventually replace human data scientists and researchers, and if not, how might they best collaborate? This one-day workshop brings together visualization, HCI, and AI researchers to explore how GenAI impacts the future of visualization. We focus on new challenges and opportunities, including interpreting and visualizing large-scale foundation models, designing visual tools both for and with agents, and rethinking evaluation, education, and human–AI collaboration in the age of generative intelligence. Through a mix of keynote talks, paper presentations and demos, and a mini-challenge of Agents for VIS, the workshop invites researchers and practitioners to share innovative ideas, build community, and discuss strategies to shape the role of VIS for a future where human and GenAI co-exist.
 
 ## <a name="VisComm"></a> Seventh Workshop on Visualization for Communication (VisComm)
 
