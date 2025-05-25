@@ -85,7 +85,6 @@ This is the 3rd workshop on visualization education, literacy, and activities; a
 
 ## <a name="TopoInVis"></a> Workshop on Topological Data Analysis and Visualization (TopoInVis)
 
-
 Divya Banesh, *Los Alamos National Laboratory, Los Alamos, New Mexico, United States*<br>
 Federico Iuricich, *Clemson University, Clemson, South Carolina, United States*<br>
 
@@ -95,10 +94,13 @@ Topologically-driven visualization is an important part of the visualization and
 
 ## <a name="LDAV"></a> LDAV 2025 - The 15th IEEE Workshop on Large Data Analysis & Visualization
 
-Organizer, *Org* <br>
-Contact: 
+Steffen Frey, *University of Groningen*<br>
+Silvio Rizzi, *Argonne National Laboratory*<br>
+Gunther H. Weber, *Lawrence Berkeley National Laboratory*<br>
 
-Text
+Contact: Gunther H. Weber (GHWeber@llbl.gov)
+
+The LDAV workshop continues to bring together researchers and practitioners from academia, industry, and government and specifically targets methodological innovation, algorithmic foundations, and possible end-to-end solutions for the visualization and analysis of extremely large data sets. It is intended as a platform to serve the needs of the large data visualization community, fostering common ground for discovering, discussing, and solving both near- and long-term problems surrounding this topic.
 
 ## <a name="VIS4DH"></a> 9th Workshop on Visualization for the Digital Humanities: VIS4DH ↔ DH4VIS
 
@@ -144,7 +146,7 @@ Contact: Nathalie Bressa (nathalie.bressa@gmail.com)
 Input visualization - visual representations that are designed to collect (and represent) new data rather than encode preexisting datasets - provides a new lens for direct interactions with data through visualizations and physicalizations. 
 In stark contrast to existing conceptual models, input visualization recognizes the malleable, incomplete, and context-dependent nature of data, and highlights opportunities for new collaboration and thinking tools that increase users' agency while inverting the traditional power dynamics of data production. The input visualization paradigm opens up new opportunities for data analysis, digital civics, decision making, personal informatics, data discussion, planning, organization, and more. However, despite nascent research on data input in information visualization, there is a lack of understanding of the phenomenon broadly and the implications for designing new input visualization systems. In this workshop, we aim to gather the visualization, physicalization, and human-computer interaction,  community to establish a research agenda for input visualization and outline the challenges and opportunities offered by this approach.
 
-## <a name="immersive"></a> Human Factors in Immersive AnalyticsS
+## <a name="immersive"></a> Human Factors in Immersive Analytics
 
 Yi Li, *TU Wien, Vienna, Austria*<br>
 Kadek Ananta, Satriadi *Monash University, Melbourne, Australia*<br>
@@ -156,16 +158,25 @@ Tim Dwyer, *Monash University, Melbourne, VIC, Australia*<br>
 
 Contact: Yi Li (yi.5.li@tuwien.ac.at)  
 
-It has been ten years since the term ``Immersive Analytics'' (IA) was coined and research interest in the topic remains strong. Researchers in this field have produced practical and conceptual knowledge concerning the use of emerging immersive spatial display and interaction technologies for sense-making tasks through a number of papers, surveys, and books. However, a lack of truly physically and psychologically ergonomic techniques, as well as standardized human-centric validation protocols for these, remains a significant barrier to wider acceptance of practical IA systems in ubiquitous applications. Building upon a series of workshops on immersive analytics at various conferences, this workshop aims to explore new approaches and establish standard practices for evaluating immersive analytics systems from a \textit{human factors} perspective. We will gather immersive analytics researchers and practitioners to look closely at these human factors---including cognitive and physical functions as well as behaviour and performance---to see how they inform the design and deployment of immersive analytics techniques and applications and to inform future research.
+It has been ten years since the term ``Immersive Analytics'' (IA) was coined and research interest in the topic remains strong. Researchers in this field have produced practical and conceptual knowledge concerning the use of emerging immersive spatial display and interaction technologies for sense-making tasks through a number of papers, surveys, and books. However, a lack of truly physically and psychologically ergonomic techniques, as well as standardized human-centric validation protocols for these, remains a significant barrier to wider acceptance of practical IA systems in ubiquitous applications. Building upon a series of workshops on immersive analytics at various conferences, this workshop aims to explore new approaches and establish standard practices for evaluating immersive analytics systems from a _human factors_ perspective. We will gather immersive analytics researchers and practitioners to look closely at these human factors---including cognitive and physical functions as well as behaviour and performance---to see how they inform the design and deployment of immersive analytics techniques and applications and to inform future research.
 
 ## <a name="accessible"></a> 2nd Workshop on Accessible Data Visualization
 
-Organizer, *Org* <br>
-Contact: 
-Text
+Brianna Wimer, *University of Notre Dame*<br>
+Naimul Hoque, *University of Iowa*<br>
+Pramod Chundury, *University of Maryland, College Park*<br>
+Frank Elavsky, *Carnegie Mellon University*<br>
+Dominik Moritz, *Carnegie Mellon University*<br>
+Keke Wu, *Emory University*<br>
+Danielle Albers Szafir, *University of North Carolina, Chapel Hill*<br>
+Lucas Gil Nadolskis, *University of California Santa Barbara*<br>
+Stacy Hsueh, *University of Washington*<br>
+
+Contact: Brianna Wimer (bwimer@nd.edu)
+
+The ubiquity of data visualization across various domains—including data science, machine learning, business intelligence, medical science, and education—underscores its critical role in conveying complex information. However, it is now well-known that visualizations can create inequitable access to information for people with diverse disabilities, including vision, motor, and cognitive impairments. In response, the accessibility and visualization fields have increasingly focused on making data visualizations more accessible. Research in this area includes user studies with people with disabilities to understand access barriers, the development of theoretical frameworks, and the design of technical solutions such as autogenerated alt text, sonification, and tactile or physical artifacts. Despite these efforts, many visualization tools and interfaces remain inaccessible to users with disabilities. Building on the growing interest and persistent challenges at this intersection, the in-person Accessible Data Visualization (AccessViz) workshop will bring together researchers, practitioners, and members of the disability community on a shared platform to foster community, share innovative discoveries, and envision the future of accessible data visualization research at IEEE VIS. The outcome of this workshop will inspire new contributions and help establish a sustained research agenda around accessibility in visualization at IEEE VIS.
 
 ## <a name="VAHC"></a> 16th Annual Workshop on Visual Analytics in Healthcare (Full Day)
-
 
 Alessio Arleo, *Eindhoven University of Technology, Eindhoven, Netherlands Institute of Visual Computing & Human-Centered Technology, TU Wien, Vienna, Austria*<br>
 Jürgen Bernard, *University of Zurich, Zurich, Switzerland*<br>
@@ -180,18 +191,38 @@ The integration of interactive Visual Analytics (VA) with explainable AI, multim
 
 ## <a name="VISxAI"></a> 8th Workshop on Visualization for AI Explainability (VISxAI) (Full Day)
 
-Organizer, *Org* <br>
-Contact: 
-Text
+Angie Boggust, *MIT CSAIL* <br>
+Mennatallah El-Assady, *ETH AI Center* <br>
+Alex Bäuerle, ̈*AxiomBio* <br>
+Catherine Yeh, *Harvard* <br>
+Fred Hohman, *Apple* <br>
+Hendrik Strobelt, *IBM Research and MIT-IBM Watson AI Lab* <br>
+
+Contact: Alex Bäuerle (bauerlealex@gmail.com)
+
+The VISxAI workshop, throughout its past six iterations, has been a platform for knowledge exchange between researchers with different backgrounds interested in explaining machine learning models through visualization. Its focus on explainables submissions that visually and interactively explain machine learning concepts ranges in complexity from clustering methods to algorithmic biases. These explainables have served as educational resources that have had an impact beyond the academic community. The workshop also always hosted great keynote speakers that connected the domains of visualization and state-of-the-art machine learning and explored the impact visualization can have on explainability. For this upcoming iteration of VISxAI, our goal is to combine the success of interactive explainables and great presentations with the interactivity of breakout sessions and live demos. Participants will be encouraged to exchange ideas about the future of visual explainability, interactive articles, and explorable explanations. Furthermore, we will provide a platform for new visualization and interaction ideas that explain machine learning models.
 
 ## <a name="GenAI"></a> AI Agents and the Future of VIS and VIS4GenAI 2025: What's next? (Full Day)
 
-Organizer, *Org* <br>
-Contact: 
-Text
+Zhu-Tian Chen, *University of Minnesota*<br>
+Shivam Raval, *Harvard University*<br>
+Enrico Bertini, *Northeastern University*<br>
+Trevor DePodesta, *Harvard University*<br>
+Niklas Elmqvist, *Aarhus University*<br>
+Nam Wook Kim, *Boston College*<br>
+Qianwen Wang, *University of Minnesota*<br>
+Yun Wang, *Microsoft Research*<br>
+Emily Reif, *Google Research & University of Washington*<br>
+Pranav Rajan, *KTH Royal Institute of Technology*<br>
+Renata G. Raidou, *TU Wien*<br>
+Olivia Seow, *Harvard University*<br>
+Catherine Yeh, *Harvard University*<br>
+
+Contact: ztchen@umn.edu and sraval@g.harvard.edu 
+
+Generative AI (GenAI) is transforming the landscape of artificial intelligence—not just in scale but in kind. Unlike traditional AI, GenAI introduces unique challenges for interpretability and safety, as its tens of billions of parameters and emergent behaviors demand new ways to understand, debug, and visualize model internals and their outputs. At the same time, GenAI enables agentic systems—goal-driven, autonomous agents that can reason, act, and adapt across complex tasks, raising a critical question: Will AI agents eventually replace human data scientists and researchers, and if not, how might they best collaborate? This one-day workshop brings together visualization, HCI, and AI researchers to explore how GenAI impacts the future of visualization. We focus on new challenges and opportunities, including interpreting and visualizing large-scale foundation models, designing visual tools both for and with agents, and rethinking evaluation, education, and human–AI collaboration in the age of generative intelligence. Through a mix of keynote talks, paper presentations and demos, and a mini-challenge of Agents for VIS, the workshop invites researchers and practitioners to share innovative ideas, build community, and discuss strategies to shape the role of VIS for a future where human and GenAI co-exist.
 
 ## <a name="VisComm"></a> Seventh Workshop on Visualization for Communication (VisComm)
-
 
 Alvitta Ottley, *Washington University in St. Louis, St. Louis, Missouri, United States*<br>
 Paul C Parsons, *Purdue University, West Lafayette, Indiana, United States*<br>
