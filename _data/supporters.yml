@@ -36,19 +36,25 @@
         image: /assets/supporters/apple.png
         url: "https://www.apple.com"
 
-#  - category: Bronze
-#    image_size: 200
-#    supporters:
-#      - name: "VRVis"
-#        image: /assets/supporters/vrvis.png
-#        url: "https://www.vrvis.at/en/"
-#      - name: "Databricks"
-#        image: /assets/supporters/databricks.png
-#        url: "https://www.databricks.com/"
+  - category: Bronze
+    image_size: 200
+    supporters:
+      - name: "Nomic"
+        image: /assets/supporters/nomic.png
+        url: "https://www.nomic.ai/"
+      - name: "DATAVIEW Handels- und Systemberatungs Ges.m.b.H."
+        image: /assets/supporters/dataview.png
+        url: "https://dataview.at/"
 
-#  - category: VISAP
-#    image_size: 140
-#    supporters:
+  - category: Academic
+    image_size: 200
+    supporters:
+      - name: "Zhejiang University"
+        image: /assets/supporters/zhejiang_university.png
+        url: "https://www.zju.edu.cn/english/"
+      - name: "Hangzhou City University"
+        image: /assets/supporters/hangzhou_city_university.png
+        url: "https://english.hzcu.edu.cn/"
 
 #  - category: Exhibitors
 #    image_size: 140
