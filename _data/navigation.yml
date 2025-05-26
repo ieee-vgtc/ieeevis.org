@@ -322,13 +322,13 @@ menu:
             - links:
                 - text: "ECWIDNA"
                   description: "Engaging Critical Workforce In co-Design aNd Assessment"
-                  url: "/year/2025/info/program/workshops#ECWIDNA"
-                  is_external: false
+                  url: "https://sites.google.com/view/ecwidna"
+                  is_external: true
                   is_new: true
                 - text: "alt.VIS"
                   description: "Borrowed from the successful alt.chi model"
-                  url: "/year/2025/info/program/workshops#altvis"
-                  is_external: false
+                  url: "https://altvis.github.io/"
+                  is_external: true
                   is_new: true
                 - text: "Uncertainty Visualization"
                   description: "Relationships of Uncertainty, AI, and Decision-Making"
@@ -337,23 +337,23 @@ menu:
                   is_new: true
                 - text: "EduVis"
                   description: "3rd Workshop on Visualization Education and Literacy"
-                  url: "/year/2025/info/program/workshops#eduvis"
-                  is_external: false
+                  url: "https://ieee-eduvis.github.io/"
+                  is_external: true
                   is_new: true
                 - text: "TopoInVis"
                   description: "Workshop on Topological Data Analysis and Visualization"
-                  url: "/year/2025/info/program/workshops#TopoInVis"
-                  is_external: false
+                  url: "https://topoinvis-workshop.github.io/2025/"
+                  is_external: true
                   is_new: true
                 - text: "LDAV"
                   description: "15th IEEE Workshop on Large Data Analysis & Visualization"
-                  url: "/year/2025/info/program/workshops#LDAV"
-                  is_external: false
+                  url: "https://ldav.io/2025/"
+                  is_external: true
                   is_new: true
                 - text: "VIS4DH ↔ DH4VIS"
                   description: "9th Workshop on Visualization for the Digital Humanities"
-                  url: "/year/2025/info/program/workshops#VIS4DH"
-                  is_external: false
+                  url: "https://vis4dh.dbvis.de/"
+                  is_external: true
                   is_new: true
                 - text: "MERCADO"
                   description: "Multimodal Exp. for Remote Comm. Around Data Online"
@@ -365,25 +365,25 @@ menu:
                   url: "/year/2025/info/program/workshops#InputVis"
                   is_external: false
                   is_new: true
-                - text: "Immersive"
+                - text: "Immersive Analytics"
                   description: "Human Factors in Immersive Analytics"
                   url: "/year/2025/info/program/workshops#immersive"
                   is_external: false
                   is_new: true
-                - text: "Accessible"
+                - text: "AccessViz"
                   description: "2nd Workshop on Accessible Data Visualization"
-                  url: "/year/2025/info/program/workshops#accessible"
-                  is_external: false
+                  url: "https://accessviz.github.io/"
+                  is_external: true
                   is_new: true
                 - text: "VAHC"
                   description: "16th Annual Workshop on Visual Analytics in Healthcare"
-                  url: "/year/2025/info/program/workshops#VAHC"
-                  is_external: false
+                  url: "https://visualanalyticshealthcare.github.io/homepage/2025/"
+                  is_external: true
                   is_new: true
                 - text: "VISxAI"
                   description: "8th Workshop on Visualization for AI Explainability"
-                  url: "/year/2025/info/program/workshops#VISxAI"
-                  is_external: false
+                  url: "https://visxai.io/"
+                  is_external: true
                   is_new: true
                 - text: "VIS4GenAI"
                   description: "AI Agents and the Future of VIS and VIS4GenAI"
@@ -392,8 +392,8 @@ menu:
                   is_new: true
                 - text: "VisComm"
                   description: "7th Workshop on Visualization for Communication"
-                  url: "/year/2025/info/program/workshops#VisComm"
-                  is_external: false
+                  url: "https://www.viscomm.io/"
+                  is_external: true
                   is_new: true
       #    - heading: "Meetups"
       #      heading_url: "/year/2025/info/meetups"
