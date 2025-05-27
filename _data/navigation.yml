@@ -220,14 +220,14 @@ menu:
                   #   description: "Nascent and recent work"
                   #   url: "/year/2025/info/posters"
                   #   is_new: true
-                  #- text: "Tutorials"
-                  #  description: "Learn new tools and application domains"
-                  #  url: "/year/2025/info/tutorials"
-                  #  is_new: false
-                  #- text: "Workshops"
-                  #  description: "Informal setting to discuss emerging topics"
-                  #  url: "/year/2025/info/workshops"
-                  #  is_new: false
+                  - text: "Tutorials"
+                    description: "Learn new tools and application domains"
+                    url: "/year/2025/info/program/tutorials"
+                    is_new: true
+                  - text: "Workshops"
+                    description: "Informal setting to discuss emerging topics"
+                    url: "/year/2025/info/program/workshops"
+                    is_new: true
                   #- text: "Panels"
                   #  description: "Discuss important and controversial issues"
                   #  url: "/year/2025/info/panels"
