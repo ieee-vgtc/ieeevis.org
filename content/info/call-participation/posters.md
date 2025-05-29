@@ -23,6 +23,9 @@ Examples of appropriate visualization work include but are not limited to
   specific application areas, and 
 * highlights of recent work published or presented in another venue.
 
+
+**UPDATE**: Check out our [Poster design guidelines](https://docs.google.com/document/d/12PbI4gt3JkoMpv0a8nr_S8YSYgQUPmjfBsezIYITxow/edit?tab=t.0).
+
 ### INFORMATION FOR AUTHORS
 
 Poster authors must submit a two-page (including references) summary of their work in the [VGTC conference two-column format](https://tc.computer.org/vgtc/publications/conference), using the poster format in line with the IEEE VIS Posters’ formatting guidelines.
@@ -53,9 +56,12 @@ At the time of submission, the authors are required to state explicitly in the s
 All deadlines are at 11:59 pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth)**.
 
 ### POSTER DESIGN AND PRINTING
-VIS has no specific formatting requirements or template for display posters. However, all posters should include the same title and authors as the 2-page poster summary and should be legible from a distance of 2 meters. Posters can be no larger than 36"x48" in a portrait orientation. If planning to laminate your poster, make sure you leave the requisite margin on all sides. The conference will supply poster boards and supplies for mounting. 
+VIS has no specific formatting requirements or template for display posters. However, all posters should include the same title and authors as the 2-page poster summary and should be legible from a distance of 2 meters. Posters can be no larger than A0 format (33''x48'') in a portrait orientation. If planning to laminate your poster, make sure you leave the requisite margin on all sides. The conference will supply poster boards and supplies for mounting. 
 
-A PDF copy of the display poster must be submitted on PCS by the camera-ready deadline for inclusion in the online program. 
+**UPDATE**: Check out our [Poster design guidelines](https://docs.google.com/document/d/12PbI4gt3JkoMpv0a8nr_S8YSYgQUPmjfBsezIYITxow/edit?tab=t.0) to help you create a clear and compelling poster. <!--A PDF copy of the display poster must be submitted on PCS by the camera-ready deadline for inclusion in the online program. -->
+A PDF copy of your display poster **can be submitted through PCS with alongside the paper poster** at the regular deadline (June 24) to obtain formative feedback from reviewers. This feedback, however, has no implications on the whether the poster is accepted of rejected. It is purely informative to help you improve your poster. 
+
+The final display poster **must be** submitted alongside the final camera ready version for any accepted poster. 
 
 For authors who do not wish to travel with their posters, several printing shops are available in Vienna. Prints can be ordered and picked up from the store. More information is coming soon about this. 
 
@@ -83,7 +89,6 @@ Poster submissions are single-blind and do not need to be anonymized. Submission
 ### BEST POSTER AWARDS 
 
 The Best Poster Awards will recognize the most outstanding poster contributions. It will be based on (1)  the significance of the research contributions described in the submitted two-page poster summaries, as well as (2) the clarity, creativity, and design of the poster. These awards will be noted in the program and presented with a signed certificate.
-
 
 ### CHAIRS
 
