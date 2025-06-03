@@ -15,6 +15,7 @@ permalink: /year/2025/info/committees/conference-committee
 | Tushar Athawale | *Oak Ridge National Laboratory* |
 | Michelle Dowling | *Pacific Northwest National Laboratory* |
 | Michael Oppermann | *AIT Austrian Institute of Technology GmbH* |
+| Alfie Abdul-Rahman | *King's College London* |
 |---
 | **Overall Paper Chairs** | |
 | Niklas Elmqvist | *Aarhus University* |
