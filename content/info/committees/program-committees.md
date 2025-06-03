@@ -10,7 +10,6 @@ sidetoc: true
 ## Full Papers Program Committee 
 
 | **Name** | **Affiliation** |<br>
-| Alfie Abdul-Rahman| *King's College London* |<br>
 | Jan Aerts| *KU Leuven* |<br>
 | Shehzad Afzal| *KAUST* |<br>
 | Marco Agus| *Hamad Bin Khalifa University* |<br>
@@ -48,7 +47,6 @@ sidetoc: true
 | Furui Cheng| *ETH Zürich* |<br>
 | Yi-Jen Chiang| *New York University* |<br>
 | Haeyong Chung| *University of Alabama, Huntsville* |<br>
-| Joseph Cottam| *Pacific Northwest National Laboratory* |<br>
 | Carsten Dachsbacher| *Carsten Dachsbacher / Karlsruhe Institute of Technology (KIT)* |<br>
 | Raimund Dachselt| *TU Dresden* |<br>
 | Aritra Dasgupta| *New Jersey Institute of Technology (NJIT)* |<br>
