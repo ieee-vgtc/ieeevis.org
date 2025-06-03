@@ -12,7 +12,7 @@ permalink: /blog/vis-2025-GC-blog-ISOTYPES
 #### We could not have picked a more fitting year for IEEE VIS in Vienna!
 
 2025 is a special anniversary year celebrating the development of a visual language.
-One hundred years ago, **Otto Neurath** ([https://en.wikipedia.org/wiki/Otto_Neurath](https://en.wikipedia.org/wiki/Otto_Neurath)) and his team in Vienna began developing what would become the **ISOTYPE** - short for the *International System of Typographic Picture Education*.
+One hundred years ago, **Otto Neurath** ([https://en.wikipedia.org/wiki/Otto_Neurath](https://en.wikipedia.org/wiki/Otto_Neurath){:target="_blank"}) and his team in Vienna began developing what would become the **ISOTYPE** - short for the *International System of Typographic Picture Education*.
 What started in the context of post-World War I Austria as a practical method for educating the public about social and economic conditions has since become an important reference point in the history of visual communication.
 
 Otto Neurath (1882-1945) was an Austrian philosopher, sociologist, and political economist.
@@ -22,7 +22,7 @@ His main aim was to visually present statistical and social data using standardi
 He was not just interested in aesthetics; many of the people Otto Neurath hoped to reach had limited literacy or formal education.
 He intended the visual format to be more inclusive, immediate, and easily comparable across languages.
 
-ISOTYPES ([https://en.wikipedia.org/wiki/Isotype_(picture_language)](https://en.wikipedia.org/wiki/Isotype_(picture_language)) consists of standardized and abstracted pictorial symbols representing social-scientific data.
+ISOTYPES ([https://en.wikipedia.org/wiki/Isotype_(picture_language)](https://en.wikipedia.org/wiki/Isotype_(picture_language){:target="_blank"}) consists of standardized and abstracted pictorial symbols representing social-scientific data.
 They have specific guidelines for combining identical figures using serial repetition.
 For example, a single symbol (e.g., a figure representing 1,000 workers) would be repeated across the image rather than scaled proportionally, like pie charts or bar graphs.
 Otto Neurath worked closely with the German artist Gerd Arntz, who developed a coherent set of pictograms. Arntz's symbols were deliberately geometric and straightforward, designed to be easily reproduced and recognizable even at small sizes.
