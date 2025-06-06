@@ -33,7 +33,7 @@
         image: /assets/supporters/visuapps.png
         url: "https://www.visuapps.com/"
       - name: "Apple Inc."
-        image: /assets/supporters/apple.png
+        image: /assets/supporters/apple.jpg
         url: "https://www.apple.com"
 
   - category: Bronze
