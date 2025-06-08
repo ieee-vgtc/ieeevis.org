@@ -75,7 +75,9 @@ Antigoni Georgiadou, *Oak Ridge National Laboratory, National Center for Computa
 Tim Gerrits, *RWTH Aachen University, Aachen, Germany*<br>
 Nadia Boukhelifa, *INRAE, Paris, France*<br>
 
-Contact: Tushar Athawale ([tushar.athawale@gmail.com](mailto:tushar.athawale@gmail.com)) 
+Contact: Tushar Athawale ([tushar.athawale@gmail.com](mailto:tushar.athawale@gmail.com))
+
+[https://tusharathawale.github.io/uncertainty-vis-workshop-2025/index.html](https://tusharathawale.github.io/uncertainty-vis-workshop-2025/index.html){:target="_blank"}
 
 Uncertainty visualization has become an increasingly important topic given the ubiquity of noise in data and computational processes.
 This workshop proposal is motivated by the uncertainty visualization challenges identified during the 2024 IEEE Workshop on Uncertainty Visualization.
