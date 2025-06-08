@@ -291,7 +291,7 @@ Qianwen Wang, *University of Minnesota*<br>
 Yun Wang, *Microsoft Research*<br>
 Catherine Yeh, *Harvard University*<br>
 
-Contact: [visxgenai@ieeevis.org](mailto:visxgenai@ieeevis.org))
+Contact: [visxgenai@ieeevis.org](mailto:visxgenai@ieeevis.org)
 
 [https://visxgenai.github.io/](https://visxgenai.github.io/){:target="_blank"}
 
