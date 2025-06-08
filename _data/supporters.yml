@@ -29,12 +29,12 @@
   - category: Silver
     image_size: 320
     supporters:
+      - name: "Apple Inc."
+        image: /assets/supporters/apple.png
+        url: "https://www.apple.com"
       - name: "VISUAPPS GmbH"
         image: /assets/supporters/visuapps.png
         url: "https://www.visuapps.com/"
-      - name: "Apple Inc."
-        image: /assets/supporters/apple.jpg
-        url: "https://www.apple.com"
 
   - category: Bronze
     image_size: 200
@@ -55,6 +55,15 @@
       - name: "Hangzhou City University"
         image: /assets/supporters/hangzhou_city_university.png
         url: "https://english.hzcu.edu.cn/"
+      - name: "Hangzhou Research Institute of AI and Holographic Technology"
+        image: /assets/supporters/hangzhou_ai_research.png
+        url: "https://english.hzcu.edu.cn/"
+      - name: "Frontiers of Computer Science"
+        image: /assets/supporters/fcs.png
+        url: "https://link.springer.com/journal/11704"
+      - name: "King Abdullah University of Science and Technology (KAUST)"
+        image: /assets/supporters/kaust.png
+        url: "https://www.kaust.edu.sa/en/"
 
 #  - category: Exhibitors
 #    image_size: 140
