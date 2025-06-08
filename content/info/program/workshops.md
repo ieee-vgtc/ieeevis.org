@@ -20,7 +20,7 @@ The following workshops went through our [submission/review process](https://iee
 * [AccessViz: 2nd Workshop on Accessible Data Visualization](#AccessViz)
 * [VAHC: 16th Annual Workshop on Visual Analytics in Healthcare (Full Day)](#VAHC)
 * [VISxAI: 8th Workshop on Visualization for AI Explainability (Full Day)](#VISxAI)
-* [AI Agents and the Future of VIS and VIS4GenAI 2025: What's next? (Full Day)](#GenAI)
+* [GenAI, Agents, and the Future of VIS (Full Day)](#VISxGenAI)
 * [VisComm: Seventh Workshop on Visualization for Communication](#VisComm)
 
 <hr/>
@@ -275,7 +275,7 @@ Participants will be encouraged to exchange ideas about the future of visual exp
 Furthermore, we will provide a platform for new visualization and interaction ideas that explain machine learning models.
 
 
-## <a name="GenAI"></a> AI Agents and the Future of VIS and VIS4GenAI 2025: What's next? (Full Day)
+## <a name="VISxGenAI"></a> GenAI, Agents, and the Future of VIS (Full Day)
 
 Zhu-Tian Chen, *University of Minnesota*<br>
 Shivam Raval, *Harvard University*<br>
@@ -283,15 +283,17 @@ Enrico Bertini, *Northeastern University*<br>
 Trevor DePodesta, *Harvard University*<br>
 Niklas Elmqvist, *Aarhus University*<br>
 Nam Wook Kim, *Boston College*<br>
-Qianwen Wang, *University of Minnesota*<br>
-Yun Wang, *Microsoft Research*<br>
-Emily Reif, *Google Research & University of Washington*<br>
 Pranav Rajan, *KTH Royal Institute of Technology*<br>
 Renata G. Raidou, *TU Wien*<br>
+Emily Reif, *Google Research & University of Washington*<br>
 Olivia Seow, *Harvard University*<br>
+Qianwen Wang, *University of Minnesota*<br>
+Yun Wang, *Microsoft Research*<br>
 Catherine Yeh, *Harvard University*<br>
 
-Contact: Zhu-Tian Chen ([ztchen@umn.edu](mailto:ztchen@umn.edu)) and Shivam Raval ([sraval@g.harvard.edu](mailto:sraval@g.harvard.edu))
+Contact: [visxgenai@ieeevis.org](mailto:visxgenai@ieeevis.org))
+
+[https://visxgenai.github.io/](https://visxgenai.github.io/){:target="_blank"}
 
 Generative AI (GenAI) is transforming the landscape of artificial intelligence—not just in scale but in kind.
 Unlike traditional AI, GenAI introduces unique challenges for interpretability and safety, as its tens of billions of parameters and emergent behaviors demand new ways to understand, debug, and visualize model internals and their outputs.
