@@ -22,7 +22,7 @@ His main aim was to visually present statistical and social data using standardi
 He was not just interested in aesthetics; many of the people Otto Neurath hoped to reach had limited literacy or formal education.
 He intended the visual format to be more inclusive, immediate, and easily comparable across languages.
 
-ISOTYPES ([https://en.wikipedia.org/wiki/Isotype_(picture_language)](https://en.wikipedia.org/wiki/Isotype_(picture_language){:target="_blank"}) consists of standardized and abstracted pictorial symbols representing social-scientific data.
+ISOTYPES ([https://en.wikipedia.org/wiki/Isotype_(picture_language)](https://en.wikipedia.org/wiki/Isotype_(picture_language)){:target="_blank"}) consists of standardized and abstracted pictorial symbols representing social-scientific data.
 They have specific guidelines for combining identical figures using serial repetition.
 For example, a single symbol (e.g., a figure representing 1,000 workers) would be repeated across the image rather than scaled proportionally, like pie charts or bar graphs.
 Otto Neurath worked closely with the German artist Gerd Arntz, who developed a coherent set of pictograms. Arntz's symbols were deliberately geometric and straightforward, designed to be easily reproduced and recognizable even at small sizes.

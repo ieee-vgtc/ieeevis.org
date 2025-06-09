@@ -4,11 +4,6 @@
   button-url: "/blog/vis-2025-GC-blog-ISOTYPES"
   active: "active"
 
-- title: "We are looking forward to your contributions!"
-  image: "contributions.jpg"
-  button-text: "Call for Participation"
-  button-url: "/info/call-participation/call-for-participation"
-
 - title: "The reVISe 1.1 experiment"
   image: "revise-path.jpg"
   button-text: "Read more about reVISe 1.1"

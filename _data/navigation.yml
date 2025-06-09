@@ -332,8 +332,8 @@ menu:
                   is_new: true
                 - text: "Uncertainty Visualization"
                   description: "Relationships of Uncertainty, AI, and Decision-Making"
-                  url: "/year/2025/info/program/workshops#uncertainty"
-                  is_external: false
+                  url: "https://tusharathawale.github.io/uncertainty-vis-workshop-2025/index.html"
+                  is_external: true
                   is_new: true
                 - text: "EduVis"
                   description: "3rd Workshop on Visualization Education and Literacy"
