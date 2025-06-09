@@ -385,9 +385,9 @@ menu:
                   url: "https://visxai.io/"
                   is_external: true
                   is_new: true
-                - text: "VIS4GenAI"
-                  description: "AI Agents and the Future of VIS and VIS4GenAI"
-                  url: "/year/2025/info/program/workshops#GenAI"
+                - text: "VISxGenAI"
+                  description: "GenAI, Agents, and the Future of VIS"
+                  url: "/year/2025/info/program/workshops#VISxGenAI"
                   is_external: false
                   is_new: true
                 - text: "VisComm"
