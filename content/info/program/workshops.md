@@ -128,7 +128,7 @@ Steffen Frey, *University of Groningen*<br>
 Silvio Rizzi, *Argonne National Laboratory*<br>
 Gunther H. Weber, *Lawrence Berkeley National Laboratory*<br>
 
-Contact: Gunther H. Weber ([ghweber@llbl.gov](mailto:ghweber@llbl.gov))
+Contact: Gunther H. Weber ([ghweber@lbl.gov](mailto:ghweber@lbl.gov))
 
 [https://ldav.io/2025/](https://ldav.io/2025/){:target="_blank"}
 
@@ -167,6 +167,8 @@ Maxime Cordeil, *The University of Queensland, Brisbane, Australia*<br>
 Matthew Brehmer, *University of Waterloo, Waterloo, Ontario, Canada*<br>
 
 Contact: Wolfgang Büschel ([bueschel@acm.org](mailto:bueschel@acm.org)) 
+
+[https://sites.google.com/view/mercadoworkshop/vis2025](https://sites.google.com/view/mercadoworkshop/vis2025){:target="_blank"}
 
 We propose a half-day workshop at IEEE VIS 2025 on addressing the emerging challenges in data-rich multimodal remote collaboration.
 We focus on synchronous, remote, and hybrid settings where people take part in tasks such as data analysis, decision-making, and presentation. With this workshop, we continue successful prior work from the first MERCADO workshop at VIS 2023 and a 2024 Shonan Seminar that followed.
