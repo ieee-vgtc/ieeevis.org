@@ -26,7 +26,7 @@ Please check the second round reviewer comments (if any) and incorporate their s
 You can submit supplemental material (e.g. a video, appendix) for your work for inclusion in the digital archive. TVCG requires that supplemental material is also peer-reviewed, hence, this is only allowed if you have already submitted your supplemental material and if the reviewers have found it acceptable. Videos are usually up to 5 minutes in length, and you may also include other supplemental material such as additional images, appendices, or source code. 
 
 The [VGTC website](https://tc.computer.org/vgtc/publications/journal) has complete information regarding formatting requirements of your final revised PDF. Common editing issues include:
-- For full papers, use the [correct JOURNAL style template](https://tc.computer.org/vgtc/publications/journal). **Note: there is a new template for 2025**
+- For full papers, use the [correct JOURNAL style template](https://tc.computer.org/vgtc/publications/journal). **Note: there was a new template in 2024**
 - For short papers, use the [correct CONFERENCE style template](https://tc.computer.org/vgtc/publications/conference/).
 - Index terms are mandatory.
 - For full papers, the abstract and index term sections use an em-dash between the heading and content; there should not be a space on either side of the em-dash and the content begins on the same line as the heading.
