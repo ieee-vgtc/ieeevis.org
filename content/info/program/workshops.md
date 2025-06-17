@@ -29,9 +29,9 @@ The following workshops went through our [submission/review process](https://iee
 
 Alessandro Iop, *KTH Royal Institute of Technology, Stockholm, Sweden*<br>
 Renan Guarese, *KTH Royal Institute of Technology, Stockholm, Sweden*<br>
-Mario Romero, *Linköping University, Linköping, Sweden KTH Royal Institute of Technology, Stockholm, Sweden*<br>
+Mario Romero, *Linköping University, Norrköping, Sweden & KTH Royal Institute of Technology, Stockholm, Sweden*<br>
 Andrii Matviienko, *KTH Royal Institute of Technology, Stockholm, Sweden*<br>
-Fabio Zambetta, *RMIT University, Melbourne, Victoria, Australia*<br>
+Fabio Zambetta, *RMIT University, Melbourne, Australia*<br>
 Anderson Maciel, *Universidade de Lisboa, Lisbon, Portugal*<br>
 Lonni Besançon, *Linköping University, Norrköping, Sweden*<br>
 
@@ -47,12 +47,12 @@ During the workshop, participants will have the opportunity to learn about succe
 
 ## <a name="alt.VIS"></a> alt.VIS 2025
 
-Andrew M. McNutt, *University of Utah, Salt Lake City, Utah, United States*<br>
+Andrew M. McNutt, *University of Utah, Salt Lake City, UT, United States*<br>
 Søren Lyngsø Knudsen, *IT University, Copenhagen, Denmark*<br>
-Alyxander Burns, *Mount Holyoke College, South Hadley, Massachusetts, United States*<br>
-Connor Scully-Allison, *University of Utah, Salt Lake City , Utah, United States*<br>
+Alyxander Burns, *Mount Holyoke College, South Hadley, MA, United States*<br>
+Connor Scully-Allison, *University of Utah, Salt Lake City, UT, United States*<br>
 Sara Di Bartolomeo,  *TU Wien, Vienna, Austria*<br>
-Victor Schetinger, *VTechnische Universität Wien, Wien, Austria, Austria*<br>
+Victor Schetinger, *TU Wien, Vienna, Austria*<br>
 
 Contact: Andrew McNutt ([mcnutt.andrew@gmail.com](mailto:mcnutt.andrew@gmail.com))
 
@@ -66,12 +66,12 @@ This venue will once again provide an avenue for surfacing creative or critical 
 
 ## <a name="uncertainty"></a> Uncertainty Visualization: Unraveling Relationships of Uncertainty, AI, and Decision-Making
 
-Tushar M. Athawale, *Oak Ridge National Laboratory, Oak Ridge, Tennessee, United States*<br>
-Chris R. Johnson, *University of Utah, Salt Lake City, Utah, United States*<br>
-Kristi Potter, *National Renewable Energy Laboratory, Golden, Colorado, United States*<br>
-Paul Rosen, *University of Utah, Salt Lake City, Utah, United States*<br>
-David Pugmire, *Oak Ridge National Laboratory, Oak Ridge, Tennessee, United States*<br>
-Antigoni Georgiadou, *Oak Ridge National Laboratory, National Center for Computational Sciences (ORNL), Oak Ridge, Tennessee, United States*<br>
+Tushar M. Athawale, *Oak Ridge National Laboratory, Oak Ridge, TN, United States*<br>
+Chris R. Johnson, *University of Utah, Salt Lake City, UT, United States*<br>
+Kristi Potter, *National Renewable Energy Laboratory, Golden, CO, United States*<br>
+Paul Rosen, *University of Utah, Salt Lake City, UT, United States*<br>
+David Pugmire, *Oak Ridge National Laboratory, Oak Ridge, TN, United States*<br>
+Antigoni Georgiadou, *Oak Ridge National Laboratory, Oak Ridge, TN, United States*<br>
 Tim Gerrits, *RWTH Aachen University, Aachen, Germany*<br>
 Nadia Boukhelifa, *INRAE, Paris, France*<br>
 
@@ -89,13 +89,13 @@ To tackle the aforementioned challenges, we propose to conduct another workshop 
 
 ## <a name="EduVis"></a> EduVis: 3rd IEEE VIS Workshop on Visualization Education, Literacy, and Activities
 
-Christina Stoiber, *St. Poelten University of Applied Sciences, St. Poelten, Austria
-Fateme Rajabiyazdi, *Carleton University, Ottawa, Ontario, Canada*<br>
-Mandy Keck, *University of Applied Sciences Upper Austria, Hagenberg im Mühlkreis, Austria*<br>
+Christina Stoiber, *St. Pölten University of Applied Sciences, St. Pölten, Austria*<br>
+Fateme Rajabiyazdi, *Carleton University, Ottawa, Ont, Canada*<br>
+Mandy Keck, *University of Applied Sciences Upper Austria, Hagenberg, Austria*<br>
 Magdalena Boucher, *St. Pölten University of Applied Sciences, St. Pölten, Austria*<br>
-Jonathan C. Roberts, *Bangor University, Bangor, Gwynedd, United Kingdom*<br>
-Lonni Besançon, *Linköping University, Norrköping, Sweden*<br>
-Mathis Brossier *Linköping University, Norrköping, Sweden*<br>
+Jonathan C. Roberts, *Bangor University, Bangor, United Kingdom*<br>
+Lonni Besançon, *Linköping University, Linköping, Sweden*<br>
+Mathis Brossier *Linköping University, Linköping, Sweden*<br>
 Benjamin Bach *Inria, Bordeaux, France*<br>
 
 Contact: Christina Stoiber ([christina.stoiber@fhstp.ac.at](mailto:christina.stoiber@fhstp.ac.at))
@@ -111,8 +111,8 @@ We will pursue the \textbf{`educators reports'} track, which will be published i
 
 ## <a name="TopoInVis"></a> TopoInVis: Workshop on Topological Data Analysis and Visualization
 
-Divya Banesh, *Los Alamos National Laboratory, Los Alamos, New Mexico, United States*<br>
-Federico Iuricich, *Clemson University, Clemson, South Carolina, United States*<br>
+Divya Banesh, *Los Alamos National Laboratory, Los Alamos, NM, United States*<br>
+Federico Iuricich, *Clemson University, Clemson, SC, United States*<br>
 
 Contact: Divya Banesh ([dbanesh@lanl.gov](mailto:dbanesh@lanl.gov))
 
@@ -124,9 +124,9 @@ We propose the inclusion of a Topology in Visualization~(TopoInVis) workshop to 
 
 ## <a name="LDAV"></a> LDAV 2025 - The 15th IEEE Workshop on Large Data Analysis & Visualization
 
-Steffen Frey, *University of Groningen*<br>
-Silvio Rizzi, *Argonne National Laboratory*<br>
-Gunther H. Weber, *Lawrence Berkeley National Laboratory*<br>
+Steffen Frey, *University of Groningen, Groningen, The Netherlands*<br>
+Silvio Rizzi, *Argonne National Laboratory, Lemont, IL, United States*<br>
+Gunther H. Weber, *Lawrence Berkeley National Laboratory, Berkeley, CA, United States*<br>
 
 Contact: Gunther H. Weber ([ghweber@lbl.gov](mailto:ghweber@lbl.gov))
 
@@ -140,11 +140,11 @@ It is intended as a platform to serve the needs of the large data visualization 
 
 Alfie Abdul-Rahman, *King's College London, London, United Kingdom*<br>
 Mark-Jan Bludau, *University of Applied Sciences Potsdam, Potsdam, Germany*<br>
-Eva Mayr, *University for Continuing Education, Krems, Krems, Austria*<br>
-Tomas Vancisin, *School of Law (PeaceRep), Edinburgh, United Kingdom*<br>
-Monika M. Schwarz, *Monash University, Melbourne, Victoria, Australia*<br>
+Eva Mayr, *University for Continuing Education, Krems, Austria*<br>
+Tomas Vancisin, *School of Law, Edinburgh, United Kingdom*<br>
+Monika M. Schwarz, *Monash University, Melbourne, Australia*<br>
 Uta Hinrichs, *University of Edinburgh, Edinburgh, United Kingdom*<br>
-Florian Windhager, *Danube University Krems, Krems, Austria*<br>
+Florian Windhager, *University for Continuing Education, Krems, Austria*<br>
 
 Contact: Alfie Abdul-Rahman ([alfie.abdulrahman@gmail.com](mailto:alfie.abdulrahman@gmail.com))
 
@@ -160,11 +160,11 @@ This proposed workshop - VIS4DH'25 - will continue and intensify this interdisci
 
 Wolfgang Büschel, *University of Stuttgart, Stuttgart, Germany*<br>
 Gabriela Molina León, *Aarhus University, Aarhus, Denmark*<br>
-Arnaud Prouzeau, *Université Paris-Saclay, Inria, CNRS, Paris, France*<br>
-Mahmood Jasim, *Louisiana State University, Baton Rouge, Louisiana, United States*<br>
-Christophe Hurter, *Université de Toulouse, France, Toulouse, France*<br>
+Arnaud Prouzeau, *Université Paris-Saclay, Paris, France*<br>
+Mahmood Jasim, *Louisiana State University, Baton Rouge, LA, United States*<br>
+Christophe Hurter, *Université de Toulouse, Toulouse, France*<br>
 Maxime Cordeil, *The University of Queensland, Brisbane, Australia*<br>
-Matthew Brehmer, *University of Waterloo, Waterloo, Ontario, Canada*<br>
+Matthew Brehmer, *University of Waterloo, Waterloo, Ont., Canada*<br>
 
 Contact: Wolfgang Büschel ([bueschel@acm.org](mailto:bueschel@acm.org)) 
 
@@ -178,10 +178,10 @@ With this workshop, we aim to broaden the community, foster new collaborations, 
 
 ## <a name="InputVis"></a> Envisioning a Research Agenda for Input Visualization (Full Day)
 
-Nathalie Bressa, *Institut Polytechnique de Paris, Palaiseau, France*<br>
-Samuel Huron, *Institut Polytechnique de Paris, Palaiseau, ile de France, France*<br>
-Wesley Willett, *University of Calgary, Calgary, Alberta, Canada*<br>
-Evanthia Dimara, *Utrecht University, Utrecht, Netherlands*<br>
+Nathalie Bressa, *Institut Polytechnique de Paris, Paris, France*<br>
+Samuel Huron, *Institut Polytechnique de Paris, Paris, France*<br>
+Wesley Willett, *University of Calgary, Calgary, Alb., Canada*<br>
+Evanthia Dimara, *Utrecht University, Utrecht, The Netherlands*<br>
 Kim Sauvé, *University of the West of England, Bristol, United Kingdom*<br>
 Derya Akbaba, *Linköping University, Norrköping, Sweden*<br>
 
@@ -197,11 +197,11 @@ However, despite nascent research on data input in information visualization, th
 
 Yi Li, *TU Wien, Vienna, Austria*<br>
 Kadek Ananta, Satriadi *Monash University, Melbourne, Australia*<br>
-Jiazhou Liu, *Monash University, Melbourne, VIC, Australia*<br>
-Anjali Khurana, *Simon Fraser University, Burnaby, British Columbia, Canada*<br>
-Zhiqing Wu, *The Hong Kong University of Science and Technology (Guangzhou), Guangzhou, Guangdong, China*<br>
-Benjamin Tag, *University of New South Wales, Sydney, New South Wales, Australia*<br>
-Tim Dwyer, *Monash University, Melbourne, VIC, Australia*<br>
+Jiazhou Liu, *Monash University, Melbourne, Australia*<br>
+Anjali Khurana, *Simon Fraser University, Burnaby, BC, Canada*<br>
+Zhiqing Wu, *The Hong Kong University of Science and Technology, Guangzhou, Guangdong, China*<br>
+Benjamin Tag, *University of New South Wales, Sydney, Australia*<br>
+Tim Dwyer, *Monash University, Melbourne, Australia*<br>
 
 Contact: Yi Li ([yi.5.li@tuwien.ac.at](mailto:yi.5.li@tuwien.ac.at))  
 
@@ -214,15 +214,15 @@ We will gather immersive analytics researchers and practitioners to look closely
 
 ## <a name="AccessViz"></a> AccessViz: 2nd Workshop on Accessible Data Visualization
 
-Brianna Wimer, *University of Notre Dame*<br>
-Naimul Hoque, *University of Iowa*<br>
-Pramod Chundury, *University of Maryland, College Park*<br>
-Frank Elavsky, *Carnegie Mellon University*<br>
-Dominik Moritz, *Carnegie Mellon University*<br>
-Keke Wu, *Emory University*<br>
-Danielle Albers Szafir, *University of North Carolina, Chapel Hill*<br>
-Lucas Gil Nadolskis, *University of California Santa Barbara*<br>
-Stacy Hsueh, *University of Washington*<br>
+Brianna Wimer, *University of Notre Dame, Notre Dame, IN, United States*<br>
+Naimul Hoque, *University of Iowa, Iowa City, IA, United States*<br>
+Pramod Chundury, *University of Maryland, College Park, MD, United States*<br>
+Frank Elavsky, *Carnegie Mellon University, Pittsburgh, PA, United States*<br>
+Dominik Moritz, *Carnegie Mellon University, Pittsburgh, PA, United States*<br>
+Keke Wu, *Emory University, Atlanta, GA, United States*<br>
+Danielle Albers Szafir, *University of North Carolina, Chapel Hill, NC, United States*<br>
+Lucas Gil Nadolskis, *University of California, Santa Barbara, CA, United States*<br>
+Stacy Hsueh, *University of Washington, Seattle, WA, United States*<br>
 
 Contact: Brianna Wimer ([bwimer@nd.edu](mailto:bwimer@nd.edu))
 
@@ -239,12 +239,12 @@ The outcome of this workshop will inspire new contributions and help establish a
 
 ## <a name="VAHC"></a> VAHC: 16th Annual Workshop on Visual Analytics in Healthcare (Full Day)
 
-Alessio Arleo, *Eindhoven University of Technology, Eindhoven, Netherlands Institute of Visual Computing & Human-Centered Technology, TU Wien, Vienna, Austria*<br>
+Alessio Arleo, *Eindhoven University of Technology, Eindhoven, The Netherlands & TU Wien, Vienna, Austria*<br>
 Jürgen Bernard, *University of Zurich, Zurich, Switzerland*<br>
-Annie T. Chen, *University of Washington, Seattle, Washington, United States*<br>
-Swaminathan Kandaswamy, *Emory University, Atlanta, Georgia, United States*<br>
-David Gotz, *Chapel Hill, North Carolina, United States*<br>
-Danny T.Y. Wu, *University of Cincinnati, Cincinnati, Ohio, United States*<br>
+Annie T. Chen, *University of Washington, Seattle, WA, United States*<br>
+Swaminathan Kandaswamy, *Emory University, Atlanta, GA, United States*<br>
+David Gotz, *University of North Carolina, Chapel Hill, NC, United States*<br>
+Danny T.Y. Wu, *University of Cincinnati, Cincinnati, OH, United States*<br>
 
 Contact: Alessio Arleo PhD ([a.arleo@tue.nl](mailto:a.arleo@tue.nl))
 
@@ -259,12 +259,12 @@ By bringing together experts from diverse fields, VAHC 2025 will serve as a cata
 
 ## <a name="VISxAI"></a> VISxAI: 8th Workshop on Visualization for AI Explainability (Full Day)
 
-Angie Boggust, *MIT CSAIL* <br>
-Mennatallah El-Assady, *ETH AI Center* <br>
-Alex Bäuerle, ̈*AxiomBio* <br>
-Catherine Yeh, *Harvard* <br>
-Fred Hohman, *Apple* <br>
-Hendrik Strobelt, *IBM Research and MIT-IBM Watson AI Lab* <br>
+Angie Boggust, *MIT CSAIL, Cambridge, MA, United States*<br>
+Mennatallah El-Assady, *ETH AI Center, Zurich, Switzerland*<br>
+Alex Bäuerle, *AxiomBio, San Francisco, CA, United States* <br>
+Catherine Yeh, *Harvard University, Cambridge, MA, United States*<br>
+Fred Hohman, *Apple, Cupertino, CA, United States*<br>
+Hendrik Strobelt, *IBM Research, Cambridge, MA, United States & MIT-IBM Watson AI Lab, Cambridge, MA, United States*<br>
 
 Contact: Alex Bäuerle ([bauerlealex@gmail.com](mailto:bauerlealex@gmail.com))
 
@@ -281,19 +281,19 @@ Furthermore, we will provide a platform for new visualization and interaction id
 
 ## <a name="VISxGenAI"></a> GenAI, Agents, and the Future of VIS (Full Day)
 
-Zhu-Tian Chen, *University of Minnesota*<br>
-Shivam Raval, *Harvard University*<br>
-Enrico Bertini, *Northeastern University*<br>
-Trevor DePodesta, *Harvard University*<br>
-Niklas Elmqvist, *Aarhus University*<br>
-Nam Wook Kim, *Boston College*<br>
-Pranav Rajan, *KTH Royal Institute of Technology*<br>
-Renata G. Raidou, *TU Wien*<br>
-Emily Reif, *Google Research & University of Washington*<br>
-Olivia Seow, *Harvard University*<br>
-Qianwen Wang, *University of Minnesota*<br>
-Yun Wang, *Microsoft Research*<br>
-Catherine Yeh, *Harvard University*<br>
+Zhu-Tian Chen, *University of Minnesota, Minneapolis, MN, United States*<br>
+Shivam Raval, *Harvard University, Cambridge, MA, United States*<br>
+Enrico Bertini, *Northeastern University, Boston, MA, United States*<br>
+Trevor DePodesta, *Harvard University, Cambridge, MA, United States*<br>
+Niklas Elmqvist, *Aarhus University, Aarhus, Denmark*<br>
+Nam Wook Kim, *Boston College, Chestnut Hill, MA, United States*<br>
+Pranav Rajan, *KTH Royal Institute of Technology, Stockholm, Sweden*<br>
+Renata G. Raidou, *TU Wien, Vienna, Austria*<br>
+Emily Reif, *Google Research & University of Washington, Seattle, WA, United States*<br>
+Olivia Seow, *Harvard University, Cambridge, MA, United States*<br>
+Qianwen Wang, *University of Minnesota, Minneapolis, MN, United States*<br>
+Yun Wang, *Microsoft Research, Redmond, WA, United States*<br>
+Catherine Yeh, *Harvard University, Cambridge, MA, United States*<br>
 
 Contact: [visxgenai@ieeevis.org](mailto:visxgenai@ieeevis.org)
 
@@ -309,9 +309,9 @@ Through a mix of keynote talks, paper presentations and demos, and a mini-challe
 
 ## <a name="VisComm"></a> Seventh Workshop on Visualization for Communication (VisComm)
 
-Alvitta Ottley, *Washington University in St. Louis, St. Louis, Missouri, United States*<br>
-Paul C Parsons, *Purdue University, West Lafayette, Indiana, United States*<br>
-Jon Schwabish, *Washington, District of Columbia, United States*<br>
+Alvitta Ottley, *Washington University, St. Louis, MO, United States*<br>
+Paul C Parsons, *Purdue University, West Lafayette, IN, United States*<br>
+Jon Schwabish, *Georgetown University, Washington, DC, United States*<br>
 
 Contact: Alvitta Ottley ([alvitta@wustl.edu](mailto:alvitta@wustl.edu))
 
