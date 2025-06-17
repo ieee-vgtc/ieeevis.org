@@ -1,8 +1,13 @@
+- title: "Consider submitting your work to one of the VIS Workshops!"
+  image: "workshops.jpg"
+  button-text: "Workshops"
+  button-url: "/year/2025/info/program/workshops"
+  active: "active"
+
 - title: "VIS 2025 takes place in an anniversary year"
   image: "isotypes.jpg"
   button-text: "100 Years of Visual Language"
   button-url: "/blog/vis-2025-GC-blog-ISOTYPES"
-  active: "active"
 
 - title: "The reVISe 1.1 experiment"
   image: "revise-path.jpg"
