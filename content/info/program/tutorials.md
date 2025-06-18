@@ -18,8 +18,6 @@ Here is the list of the accepted tutorials.
 * [Using Color Harmony and Gen AI Suggestion to Transform your Data Visualizations](#CDV)
 * [Live Collaborative Immersive Analytics Development with DashSpace](#DASH)
 
-Please see the [Schedule](https://ieeevis.org/year/2025/program/calendar) for times.
-
 <hr/>
 
 ## <a name="VAD"></a> Visualization Analysis and Design
@@ -126,13 +124,13 @@ Rainbow colormap dilemma, and overviews of appearance
 principals are covered. Bring your digital visualization examples
 for hands on experiences in generating color schemes.
 
-## <a name="DASH"> Live Collaborative Immersive Analytics Development with DashSpace
+## <a name="DASH"></a> Live Collaborative Immersive Analytics Development with DashSpace
 
 Marcel Borowski, *Aarhus University* <br>
 Peter W. S. Butcher, *Bangor University* <br>
 Shannon Jade Jones,  *Bangor University* <br>
 Panagiotis D. Ritsos,  *Bangor University* <br>
 Clemens Nylandsted Klokmose, *Aarhus University* <br>
-Niklas Elmqvist , *Aarhus University* <br>
+Niklas Elmqvist, *Aarhus University* <br>
 
 In this half-day tutorial, we introduce participants to DashSpace, a new, open, malleable, and collaborative platform for immersive, situated and ubiquitous analytics. Participants will learn about the platform, its components and authoring mechanisms, and learn how these can be used to author visualizations which can be experienced in augmented reality. We will explore different usage scenarios and enable participants to build their own prototypes, in their own browsers. The prototypes will be ready to view and interact with through HMDs that we will provide. Finally, we will show how participants can extend their prototypes to use advanced features of the platform. DashSpace builds upon several tools from the Webstrates stack and Web-based immersive analytics platforms.

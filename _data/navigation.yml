@@ -223,11 +223,11 @@ menu:
                   - text: "Tutorials"
                     description: "Learn new tools and application domains"
                     url: "/year/2025/info/program/tutorials"
-                    is_new: true
+                    is_new: false
                   - text: "Workshops"
                     description: "Informal setting to discuss emerging topics"
                     url: "/year/2025/info/program/workshops"
-                    is_new: true
+                    is_new: false
                   #- text: "Panels"
                   #  description: "Discuss important and controversial issues"
                   #  url: "/year/2025/info/panels"
@@ -291,7 +291,7 @@ menu:
                   - text: "VIS Arts Program (VISAP)"
                     description: "A mini-conference and exhibition for vis researchers, designers, and artists"
                     url: "https://visap.net/2025/"
-                    is_new: true
+                    is_new: false
                     is_external: true
                   - text: "VisInPractice (VIP)"
                     description: "Invited talks by visualization practitioners"
@@ -309,7 +309,7 @@ menu:
                     is_external: true
                   - text: "VAST Challenge"
                     url: "https://vast-challenge.github.io/2025/"
-                    is_new: true
+                    is_new: false
                     is_external: true
 
       - subsections:
@@ -324,77 +324,77 @@ menu:
                   description: "Engaging Critical Workforce In co-Design aNd Assessment"
                   url: "https://sites.google.com/view/ecwidna"
                   is_external: true
-                  is_new: true
+                  is_new: false
                 - text: "alt.VIS"
                   description: "Borrowed from the successful alt.chi model"
                   url: "https://altvis.github.io/"
                   is_external: true
-                  is_new: true
+                  is_new: false
                 - text: "Uncertainty Visualization"
                   description: "Relationships of Uncertainty, AI, and Decision-Making"
                   url: "https://tusharathawale.github.io/uncertainty-vis-workshop-2025/index.html"
                   is_external: true
-                  is_new: true
+                  is_new: false
                 - text: "EduVis"
                   description: "3rd Workshop on Visualization Education and Literacy"
                   url: "https://ieee-eduvis.github.io/"
                   is_external: true
-                  is_new: true
+                  is_new: false
                 - text: "TopoInVis"
                   description: "Workshop on Topological Data Analysis and Visualization"
                   url: "https://topoinvis-workshop.github.io/2025/"
                   is_external: true
-                  is_new: true
+                  is_new: false
                 - text: "LDAV"
                   description: "15th IEEE Workshop on Large Data Analysis & Visualization"
                   url: "https://ldav.io/2025/"
                   is_external: true
-                  is_new: true
+                  is_new: false
                 - text: "VIS4DH ↔ DH4VIS"
                   description: "9th Workshop on Visualization for the Digital Humanities"
                   url: "https://vis4dh.dbvis.de/"
                   is_external: true
-                  is_new: true
+                  is_new: false
                 - text: "MERCADO"
                   description: "Multimodal Exp. for Remote Comm. Around Data Online"
-                  url: "/year/2025/info/program/workshops#MERCADO"
-                  is_external: false
-                  is_new: true
+                  url: "https://sites.google.com/view/mercadoworkshop/vis2025"
+                  is_external: true
+                  is_new: false
                 - text: "InputVis"
                   description: "Envisioning a Research Agenda for Input Visualization"
                   url: "/year/2025/info/program/workshops#InputVis"
                   is_external: false
-                  is_new: true
+                  is_new: false
                 - text: "Immersive Analytics"
                   description: "Human Factors in Immersive Analytics"
                   url: "/year/2025/info/program/workshops#immersive"
                   is_external: false
-                  is_new: true
+                  is_new: false
                 - text: "AccessViz"
                   description: "2nd Workshop on Accessible Data Visualization"
                   url: "https://accessviz.github.io/"
                   is_external: true
-                  is_new: true
+                  is_new: false
                 - text: "VAHC"
                   description: "16th Annual Workshop on Visual Analytics in Healthcare"
                   url: "https://visualanalyticshealthcare.github.io/homepage/2025/"
                   is_external: true
-                  is_new: true
+                  is_new: false
                 - text: "VISxAI"
                   description: "8th Workshop on Visualization for AI Explainability"
                   url: "https://visxai.io/"
                   is_external: true
-                  is_new: true
+                  is_new: false
                 - text: "VISxGenAI"
                   description: "GenAI, Agents, and the Future of VIS"
-                  url: "/year/2025/info/program/workshops#VISxGenAI"
-                  is_external: false
-                  is_new: true
+                  url: "https://visxgenai.github.io/"
+                  is_external: true
+                  is_new: false
                 - text: "VisComm"
                   description: "7th Workshop on Visualization for Communication"
                   url: "https://www.viscomm.io/"
                   is_external: true
-                  is_new: true
+                  is_new: false
       #    - heading: "Meetups"
       #      heading_url: "/year/2025/info/meetups"
       #      description: "Meet for discussion and shared experiences"
