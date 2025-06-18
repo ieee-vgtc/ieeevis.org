@@ -3,8 +3,8 @@ title: VIS 2022 Financial Blog Post
 description: 
 layout: blog-page
 active_nav: Blog
-authors: 
-author_contact: opc@ieeevis.org
+authors: VGTC/VEC
+author_contact: vec@ieeevis.org
 permalink: /blog/vis-2025-financial-blog-for-vis2022
 ---
 
