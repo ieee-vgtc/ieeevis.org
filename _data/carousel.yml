@@ -1,7 +1,7 @@
-- title: "Consider submitting your work to one of the VIS Workshops!"
+- title: "Submit your work to a VIS Workshop!"
   image: "workshops.jpg"
   button-text: "Workshops"
-  button-url: "/year/2025/info/program/workshops"
+  button-url: "/info/program/workshops"
   active: "active"
 
 - title: "VIS 2025 takes place in an anniversary year"
