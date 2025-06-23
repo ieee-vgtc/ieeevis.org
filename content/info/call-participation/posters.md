@@ -51,7 +51,6 @@ At the time of submission, the authors are required to state explicitly in the s
 * Submission Deadline: **Tuesday, June 24, 2025**
 * Notification of Acceptance: **Thursday, July 24, 2025**
 * Final Submission of camera-ready (1) 2-page Poster Summary PDF and (2) full Poster PDF: **Thursday, August 21, 2025**
-* (Optional) [Video Preview](/year/2025/info/presenter-information/fast-forward-and-video-previews) Submission: **Tuesday, September 23, 2025**
 
 All deadlines are at 11:59 pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth)**.
 
