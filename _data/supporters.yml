@@ -64,6 +64,9 @@
       - name: "King Abdullah University of Science and Technology (KAUST)"
         image: /assets/supporters/kaust.png
         url: "https://www.kaust.edu.sa/en/"
+      - name: "Monash University"
+        image: /assets/supporters/monash.png
+        url: "https://www.monash.edu/"
 
 #  - category: Exhibitors
 #    image_size: 140
