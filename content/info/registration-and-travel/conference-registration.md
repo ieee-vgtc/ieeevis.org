@@ -174,19 +174,25 @@ The registration fees below contain 20% VAT.
 
 ### Registration FAQS
 
+**Q: I am presenting a TVCG or CG&A invited paper.**
+
+<ul>
+Speakers for invited papers should use the On-Site Speaker Registration category.
+</ul>
+
 **Q: I am a poster presenter. Do I need to register using the Speaker Registration category?**
 
 <ul>
 No. Posters presenters should use the regular On-Site Participant Registration category. 
 </ul>
 
-**Q: I will present a paper at a  workshop/symposium/associated event. Do I need to register using the Speaker Registration category?**
+**Q: I will present a paper at a workshop. Do I need to register using the Speaker Registration category?**
 
 <ul>
 No. Workshop or symposium paper presenters and authors should use the regular On-Site Participant or Virtual Participant Registration categories. 
 </ul>
 
-**Q: If I complete an Speaker Registration, do I also need to separately complete an On-Site or Virtual Participant Registration to attend the conference?**
+**Q: If I complete a Speaker Registration, do I also need to separately complete an On-Site or Virtual Participant Registration to attend the conference?**
 
 <ul>
 No. Speaker Registration includes the benefits of an on-site or virtual participation, and thus completing it will enable attendance in your preferred mode.
