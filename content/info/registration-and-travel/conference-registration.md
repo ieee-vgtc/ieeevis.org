@@ -9,13 +9,14 @@ contact: finance@ieeevis.org
 ## VIS 2025 EVENT REGISTRATION
 The 2025 IEEE Visualization and Visual Analytics Conference, running from November 2 - 7, is organized as an on-site event.
 The conference will be held at the Austria Center Vienna (ACV) in Vienna, Austria.
-There will be completely virtual session (organized in Zoom) for presenters who are not able to travel.
+There will be a completely virtual session (organized in Zoom) for presenters who are not able to travel.
+
+<a class="button" href="https://cvent.me/YkREVy" target="_blank"> LINK TO REGISTRATION </a>
 
 
 ### Important Dates
 <ul>
-<li>Registration opening: <strong>Late May / Early June 2025</strong></li>
-<li>Early Registration deadline: <strong>Early September 2025</strong></li>
+<li>Early bird registration deadline: <strong>September 8, 2025</strong></li>
 </ul>
 
 
@@ -27,40 +28,39 @@ There will be completely virtual session (organized in Zoom) for presenters who 
 <li>Speaker Conference Registration includes admission to all conference sessions, symposia, tutorials and workshops, welcome reception (Tuesday), conference dinner (Wednesday), and access to VIS 2025 online content.</li>
 </ul>
 
-<!-- <a class="button" href="#">IN-PERSON AND VIRTUAL SPEAKERS REGISTER NOW</a> -->
 
 ### Speaker Conference Registration Fees
 
-Speaker Conference Registration fees will be published as soon as registration is open.
-<!--
-    <table>
-      <tr>
-        <th>Category</th>
-        <th>Early Reg fee USD (Ends Sept 1)</th>
-        <th>Late Reg fee USD </th>
-      </tr>
-    <tr>
-        <td>On-site Speaker Conference Registration</td>
-        <td>$000</td>
-        <td>$000</td>
-    </tr>
-    <tr>
-        <td>On-site Student Speaker Conference Registration</td>
-        <td>$000</td>
-        <td>$000</td>
-    </tr>
-    <tr>
-        <td>Virtual Speaker Conference Registration</td>
-        <td>$000</td>
-        <td>$000</td>
-    </tr>
-    <tr>
-        <td>Virtual Student Speaker Conference Registration</td>
-        <td>$000</td>
-        <td>$000</td>
-    </tr>
-    </table>
--->
+The registration fees below contain 20% VAT.
+
+<table>
+<tr>
+    <th>Category</th>
+    <th>Early Reg fee USD (Ends Sept 8)</th>
+    <th>Late Reg fee USD </th>
+</tr>
+<tr>
+    <td>On-site Speaker Conference Registration</td>
+    <td>$1,134</td>
+    <td>$1,134</td>
+</tr>
+<tr>
+    <td>On-site Student Speaker Conference Registration</td>
+    <td>$624</td>
+    <td>$624</td>
+</tr>
+<tr>
+    <td>Virtual Speaker Conference Registration</td>
+    <td>$1,134</td>
+    <td>$1,134</td>
+</tr>
+<tr>
+    <td>Virtual Student Speaker Conference Registration</td>
+    <td>$624</td>
+    <td>$624</td>
+</tr>
+</table>
+
 **All Speaker Conference Registration fees are not refundable.**
 
 
@@ -73,15 +73,11 @@ Attendees should register online in advance and pay via credit card or wire tran
 </ul>
 IEEE VIS provides discounted registration rates for students and IEEE Members.
 
-<!--
-<a class="button" href="#"> IN-PERSON CONFERENCE PARTICIPANT REGISTRATION </a>
--->
 
 ### Participant Registration Fees
 
-Participant Registration fees will be published as soon as registration is open.
+The registration fees below contain 20% VAT.
 
-<!--
 <table>
   <tr>
     <th></th>
@@ -91,73 +87,82 @@ Participant Registration fees will be published as soon as registration is open.
   </tr>
   <tr>
     <th>Category</th>
-    <th>Early Reg fee USD<br>(Ends: Sept 1)</th>
+    <th>Early Reg fee USD<br>(Ends: Sept 8)</th>
     <th style="border-right: 1px dashed #a46314;">Late Reg fee USD</th>
-    <th>Early Reg fee USD<br>(Ends: Sept 1)</th>
+    <th>Early Reg fee USD<br>(Ends: Sept 8)</th>
     <th style="border-right: 1px dashed #a46314;">Late Reg fee USD</th>
-    <th>Early Reg fee USD<br>(Ends: Sept 1)</th>
+    <th>Early Reg fee USD<br>(Ends: Sept 8)</th>
     <th>Late Reg fee USD</th>
   </tr>
 <tr>
     <td>IEEE Member</td>
-    <td>$000</td>
-    <td style="border-right: 1px dashed #a46314;">$250</td>
-    <td>$000</td>
-    <td style="border-right: 1px dashed #a46314;">$500</td>
-    <td>$000</td>
-    <td>$000</td>
-
+    <td>$252</td>
+    <td style="border-right: 1px dashed #a46314;">$300</td>
+    <td>$504</td>
+    <td style="border-right: 1px dashed #a46314;">$600</td>
+    <td>$1,008</td>
+    <td>$1,212</td>
 </tr>
 <tr>
     <td>Non-Member</td>
-    <td>$000</td>
-    <td style="border-right: 1px dashed #a46314;">$320</td>
-    <td>$000</td>
-    <td style="border-right: 1px dashed #a46314;">$635</td>
-    <td>$000</td>
-    <td>$000</td>
-
+    <td>$318</td>
+    <td style="border-right: 1px dashed #a46314;">$384</td>
+    <td>$636</td>
+    <td style="border-right: 1px dashed #a46314;">$762</td>
+    <td>$1,260</td>
+    <td>$1,512</td>
 </tr>
 <tr>
     <td>Student IEEE Member</td>
-    <td>$000</td>
-    <td style="border-right: 1px dashed #a46314;">$140</td>
-    <td>$000</td>
-    <td style="border-right: 1px dashed #a46314;">$275</td>
-    <td>$000</td>
-    <td>$000</td>
+    <td>$138</td>
+    <td style="border-right: 1px dashed #a46314;">$168</td>
+    <td>$276</td>
+    <td style="border-right: 1px dashed #a46314;">$330</td>
+    <td>$552</td>
+    <td>$660</td>
 </tr>
 <tr>
     <td>Student Non-Member</td>
-    <td>$000</td>
-    <td style="border-right: 1px dashed #a46314;">$175</td>
-    <td>$000</td>
-    <td style="border-right: 1px dashed #a46314;">$350</td>
-    <td>$000</td>
-    <td>$000</td>
+    <td>$174</td>
+    <td style="border-right: 1px dashed #a46314;">$210</td>
+    <td>$348</td>
+    <td style="border-right: 1px dashed #a46314;">$420</td>
+    <td>$696</td>
+    <td>$834</td>
 </tr>
 <tr>
     <td>Life IEEE Member</td>
-    <td>$000</td>
-    <td style="border-right: 1px dashed #a46314;">$140</td>
-    <td>$000</td>
-    <td style="border-right: 1px dashed #a46314;">$275</td>
-    <td>$000</td>
-    <td>$000</td>
+    <td>$138</td>
+    <td style="border-right: 1px dashed #a46314;">$168</td>
+    <td>$276</td>
+    <td style="border-right: 1px dashed #a46314;">$330</td>
+    <td>$552</td>
+    <td>$660</td>
 </tr>
 </table>
--->
+
 
 **Registration fees are refundable up to 30 days before the beginning of the conference.**
 
-<!--
 ## ALL OTHER VIRTUAL ATTENDEES
 
-Virtual attendees should register online in advance and pay via credit card.
-<ul>
-  <li><b> Virtual Conference Registration Includes:</b> Access to online content including downloadable proceedings, in-person presenter-only streamed sessions including all plenary sessions, virtual presenter-only sessions hosted on Zoom, and workshops, panels, and other associated events equipped with Zoom-hybrid capabilities. </li>
-</ul>
--->
+<b>Virtual Conference Registration Includes:</b> Access to online content (i.e., recordings) including downloadable proceedings.
+
+The registration fees below contain 20% VAT.
+
+<table>
+  <tr>
+    <th>Category</th>
+    <th>Early Reg fee USD<br>(Ends: Sept 8)</th>
+    <th>Late Reg fee USD</th>
+  </tr>
+<tr>
+    <td>Virtual Participant</td>
+    <td>$25</td>
+    <td>$30</td>
+</tr>
+</table>
+
 
 ### Diversity and Inclusivity Participants
 
@@ -166,12 +171,14 @@ Virtual attendees should register online in advance and pay via credit card.
 <li>Individuals who need financial assistance but reside in a country not included on the Diversity Admission list, can select the Inclusivity Admission option for a free virtual registration.</li>
 </ul>
 
-<!--
-<a class="button" href="#"> VIRTUAL CONFERENCE PARTICIPANT REGISTRATION </a>
--->
-
 
 ### Registration FAQS
+
+**Q: I am presenting a TVCG or CG&A invited paper.**
+
+<ul>
+Speakers for invited papers should use the On-Site Speaker Registration category.
+</ul>
 
 **Q: I am a poster presenter. Do I need to register using the Speaker Registration category?**
 
@@ -179,13 +186,13 @@ Virtual attendees should register online in advance and pay via credit card.
 No. Posters presenters should use the regular On-Site Participant Registration category. 
 </ul>
 
-**Q: I will present a paper at a  workshop/symposium/associated event. Do I need to register using the Speaker Registration category?**
+**Q: I will present a paper at a workshop. Do I need to register using the Speaker Registration category?**
 
 <ul>
 No. Workshop or symposium paper presenters and authors should use the regular On-Site Participant or Virtual Participant Registration categories. 
 </ul>
 
-**Q: If I complete an Speaker Registration, do I also need to separately complete an On-Site or Virtual Participant Registration to attend the conference?**
+**Q: If I complete a Speaker Registration, do I also need to separately complete an On-Site or Virtual Participant Registration to attend the conference?**
 
 <ul>
 No. Speaker Registration includes the benefits of an on-site or virtual participation, and thus completing it will enable attendance in your preferred mode.
