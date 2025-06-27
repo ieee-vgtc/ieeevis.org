@@ -35,6 +35,9 @@
       - name: "VISUAPPS GmbH"
         image: /assets/supporters/visuapps.png
         url: "https://www.visuapps.com/"
+      - name: "Autodesk"
+        image: /assets/supporters/autodesk.png
+        url: "https://www.autodesk.com"
 
   - category: Bronze
     image_size: 200
