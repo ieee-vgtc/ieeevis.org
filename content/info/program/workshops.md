@@ -187,6 +187,8 @@ Derya Akbaba, *Linköping University, Norrköping, Sweden*<br>
 
 Contact: Nathalie Bressa ([nathalie.bressa@gmail.com](mailto:nathalie.bressa@gmail.com)) 
 
+[https://inputvisualization.github.io/vis2025/](https://inputvisualization.github.io/vis2025/){:target="_blank"}
+
 Input visualization - visual representations that are designed to collect (and represent) new data rather than encode preexisting datasets - provides a new lens for direct interactions with data through visualizations and physicalizations. 
 In stark contrast to existing conceptual models, input visualization recognizes the malleable, incomplete, and context-dependent nature of data, and highlights opportunities for new collaboration and thinking tools that increase users' agency while inverting the traditional power dynamics of data production.
 The input visualization paradigm opens up new opportunities for data analysis, digital civics, decision making, personal informatics, data discussion, planning, organization, and more.
