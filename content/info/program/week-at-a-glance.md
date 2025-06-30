@@ -8,7 +8,7 @@ contact: program@ieeevis.org
 
 # Preliminary Program
 
-Below is a draft schedule the conference.
+Below is a draft schedule for the conference.
 More detailed information will be available as the conference nears.
 Daily sessions are (generally) four blocks per day, each 90 minutes with two in the morning and two in the afternoon.
 There will be coffee breaks between the first/second and third/fourth block. A lunch break runs each day between the second/third block.
@@ -18,35 +18,38 @@ There will be coffee breaks between the first/second and third/fourth block. A l
 <hr/>
 
 <!-- ---------------------------------------------------------------------------------- -->
-<a>**Saturday, November 1, 2025**</a><br/>
+<a>**Saturday, November 1, 2025**</a><br />
 
-*9:00 AM - 5:00 PM (GMT+1)*<br/>
+*9:00 AM - 5:00 PM (GMT+1)*<br />
 **Doctoral Colloquium** (Invite-only event)<br />
-The Doctoral Colloquium will take place at **TU Wien**, [Favoritenstraße 9-11, 1040 Wien](https://maps.app.goo.gl/2Rb58dYGnmcsLvsc7){:target= "_blank"}.
+The Doctoral Colloquium will take place at **TU Wien**, [Favoritenstraße 9-11, 1040 Wien](https://maps.app.goo.gl/2Rb58dYGnmcsLvsc7){:target= "_blank"}.<br />
 
 <hr/>
 
 <!-- ---------------------------------------------------------------------------------- -->
-<a>**Sunday, November 2, 2025**</a><br/>
+<a>**Sunday, November 2, 2025**</a><br />
 
-*9:00 AM - 12:30 PM (GMT+1)*<br/>
-**Morning**<br/>
-* Workshops
-* Tutorials
+*9:00 AM - 12:30 PM (GMT+1)*<br />
 
-<!--
-* Room 101-102: **Visualization Analysis and Design** ([Tutorial](/year/2023/info/tutorials))  
-* Room 103: **EnergyVis 2023: 3rd Workshop on Energy Data Visualization** ([Workshop](/year/2023/info/workshops))  
-* Room 104: **Visualization for Pandemic and Emergency Responses Workshop (Vis4PandEmRes)** ([Workshop](/year/2023/info/workshops))  
-* Room 105: **MERCADO: Multimodal Experiences for Remote Communication Around Data Online** ([Workshop](/year/2023/info/workshops))  
-* Room 106: **A Hands-on TTK Tutorial for Absolute Beginners** ([Tutorial](/year/2023/info/tutorials))  
-* Room 110: **NLP4Vis: Natural Language Processing for Information Visualization** ([Tutorial](/year/2023/info/tutorials))
--->
+**[Workshop]** 8th Workshop on Visualization for AI Explainability **(VISxAI)**<br />
+**[Workshop]** 16th Annual Workshop on Visual Analytics in Healthcare **(VAHC)**<br />
+**[Workshop]** Workshop on Topological Data Analysis and Visualization **(TopoInVis)**<br />
+**[Workshop]** 9th Workshop on Visualization for the Digital Humanities **(VIS4DH ↔ DH4VIS)**<br />
+**[Workshop]** alt.VIS Workshop 2025 **(alt.VIS)**<br />
+**[Tutorial]** Developing Immersive Visualizations and Interactions for the Web with Anu.js<br />
+**[Tutorial]** User-centered Evaluation in Visualization<br />
+**[Competition]** Bio+MedVis Challenge<br />
 
 *2:00 PM - 5:30 PM (GMT+1)*<br/>
-**Afternoon**<br/>
-* Workshops
-* Tutorials
+
+**[Workshop]** 8th Workshop on Visualization for AI Explainability **(VISxAI)**<br />
+**[Workshop]** 16th Annual Workshop on Visual Analytics in Healthcare **(VAHC)**<br />
+**[Workshop]** Seventh Workshop on Visualization for Communication **(VisComm)**<br />
+**[Workshop]** Unraveling Relationships of Uncertainty, AI, and Decision-Making **(Uncertainty Visualization)**<br />
+**[Workshop]** Multimodal Experiences for Remote Communication Around Data Online **(MERCADO)**<br />
+**[Tutorial]** Live Collaborative Immersive Analytics Development with DashSpace<br />
+**[Tutorial]** Running Online User Studies with the reVISit Framework<br />
+**[Competition]** SciVis Contest<br />
 
 <hr/>
 
@@ -54,14 +57,26 @@ The Doctoral Colloquium will take place at **TU Wien**, [Favoritenstraße 9-11, 
 <a>**Monday, November 3, 2025**</a><br/>
 
 *9:00 AM - 12:30 PM (GMT+1)*<br/>
-**Morning**<br/>
-* Workshops
-* Tutorials
+
+**[Workshop]** GenAI, Agents, and the Future of VIS **(VISxGenAI)**<br />
+**[Workshop]** Envisioning a Research Agenda for Input Visualization **(InputVis)**<br />
+**[Workshop]** Human Factors in Immersive Analytics **(Immersive Analytics)**<br />
+**[Workshop]** 3rd IEEE VIS Workshop on Visualization Education, Literacy, and Activities **(EduVis)**<br />
+**[Workshop]** 15th IEEE Workshop on Large Data Analysis & Visualization **(LDAV)**<br />
+**[Tutorial]** MLLM4Vis: Multimodal Large Language Models for Information Visualization<br />
+**[Tutorial]** Using Color Harmony and Gen AI Suggestion to Transform your Data Visualizations<br />
+**[Tutorial]** Hands-On TTK Tutorial: Solving Practical Problems in Small Groups<br />
 
 *2:00 PM - 5:30 PM (GMT+1)*<br/>
-**Afternoon**<br/>
-* Workshops
-* Tutorials
+
+**[Workshop]** GenAI, Agents, and the Future of VIS **(VISxGenAI)**<br />
+**[Workshop]** Envisioning a Research Agenda for Input Visualization **(InputVis)**<br />
+**[Workshop]** 2nd Workshop on Accessible Data Visualization **(AccessViz)**<br />
+**[Workshop]** Engaging Critical Workforce In co-Design aNd Assessment **(ECWIDNA)**<br />
+**[Tutorial]** Visualization for Explainable AI<br />
+**[Tutorial]** Building Progressive Visual Analytics Systems with ProgressiVis<br />
+**[Tutorial]** Visualization Analysis and Design<br />
+**[Competition]** VAST Challenge<br />
 
 <hr/>
 

@@ -31,33 +31,33 @@ There will be a completely virtual session (organized in Zoom) for presenters wh
 
 ### Speaker Conference Registration Fees
 
-The registration fees below contain 20% VAT.
+We need to charge 20% VAT on the registration fees.
 
 <table>
 <tr>
     <th>Category</th>
-    <th>Early Reg fee USD (Ends Sept 8)</th>
-    <th>Late Reg fee USD </th>
+    <th style="width: 28%">Early Reg fee USD<br />(Ends Sept 8)</th>
+    <th style="width: 28%">Late Reg fee USD </th>
 </tr>
 <tr>
     <td>On-site Speaker Conference Registration</td>
-    <td>$1,134</td>
-    <td>$1,134</td>
+    <td>$945 ($1,134 incl. VAT)</td>
+    <td>$945 ($1,134 incl. VAT)</td>
 </tr>
 <tr>
     <td>On-site Student Speaker Conference Registration</td>
-    <td>$624</td>
-    <td>$624</td>
+    <td>$520 ($624 incl. VAT)</td>
+    <td>$520 ($624 incl. VAT)</td>
 </tr>
 <tr>
     <td>Virtual Speaker Conference Registration</td>
-    <td>$1,134</td>
-    <td>$1,134</td>
+    <td>$945 ($1,134 incl. VAT)</td>
+    <td>$945 ($1,134 incl. VAT)</td>
 </tr>
 <tr>
     <td>Virtual Student Speaker Conference Registration</td>
-    <td>$624</td>
-    <td>$624</td>
+    <td>$520 ($624 incl. VAT)</td>
+    <td>$520 ($624 incl. VAT)</td>
 </tr>
 </table>
 
@@ -76,7 +76,7 @@ IEEE VIS provides discounted registration rates for students and IEEE Members.
 
 ### Participant Registration Fees
 
-The registration fees below contain 20% VAT.
+We need to charge 20% VAT on the registration fees.
 
 <table>
   <tr>
@@ -96,48 +96,48 @@ The registration fees below contain 20% VAT.
   </tr>
 <tr>
     <td>IEEE Member</td>
-    <td>$252</td>
-    <td style="border-right: 1px dashed #a46314;">$300</td>
-    <td>$504</td>
-    <td style="border-right: 1px dashed #a46314;">$600</td>
-    <td>$1,008</td>
-    <td>$1,212</td>
+    <td>$210 ($252 incl. VAT)</td>
+    <td style="border-right: 1px dashed #a46314;">$250 ($300 incl. VAT)</td>
+    <td>$420 ($504 incl. VAT)</td>
+    <td style="border-right: 1px dashed #a46314;">$500 ($600 incl. VAT)</td>
+    <td>$840 ($1,008 incl. VAT)</td>
+    <td>$1010 ($1,212 incl. VAT)</td>
 </tr>
 <tr>
     <td>Non-Member</td>
-    <td>$318</td>
-    <td style="border-right: 1px dashed #a46314;">$384</td>
-    <td>$636</td>
-    <td style="border-right: 1px dashed #a46314;">$762</td>
-    <td>$1,260</td>
-    <td>$1,512</td>
+    <td>$265 ($318 incl. VAT)</td>
+    <td style="border-right: 1px dashed #a46314;">$320 ($384 incl. VAT)</td>
+    <td>$530 ($636 incl. VAT)</td>
+    <td style="border-right: 1px dashed #a46314;">$635 ($762 incl. VAT)</td>
+    <td>$1050 ($1,260 incl. VAT)</td>
+    <td>$1260 ($1,512 incl. VAT)</td>
 </tr>
 <tr>
     <td>Student IEEE Member</td>
-    <td>$138</td>
-    <td style="border-right: 1px dashed #a46314;">$168</td>
-    <td>$276</td>
-    <td style="border-right: 1px dashed #a46314;">$330</td>
-    <td>$552</td>
-    <td>$660</td>
+    <td>$115 ($138 incl. VAT)</td>
+    <td style="border-right: 1px dashed #a46314;">$140 ($168 incl. VAT)</td>
+    <td>$230 ($276 incl. VAT)</td>
+    <td style="border-right: 1px dashed #a46314;">$275 ($330 incl. VAT)</td>
+    <td>$460 ($552 incl. VAT)</td>
+    <td>$550 ($660 incl. VAT)</td>
 </tr>
 <tr>
     <td>Student Non-Member</td>
-    <td>$174</td>
-    <td style="border-right: 1px dashed #a46314;">$210</td>
-    <td>$348</td>
-    <td style="border-right: 1px dashed #a46314;">$420</td>
-    <td>$696</td>
-    <td>$834</td>
+    <td>$145 ($174 incl. VAT)</td>
+    <td style="border-right: 1px dashed #a46314;">$175 ($210 incl. VAT)</td>
+    <td>$290 ($348 incl. VAT)</td>
+    <td style="border-right: 1px dashed #a46314;">$350 ($420 incl. VAT)</td>
+    <td>$580 ($696 incl. VAT)</td>
+    <td>$695 ($834 incl. VAT)</td>
 </tr>
 <tr>
     <td>Life IEEE Member</td>
-    <td>$138</td>
-    <td style="border-right: 1px dashed #a46314;">$168</td>
-    <td>$276</td>
-    <td style="border-right: 1px dashed #a46314;">$330</td>
-    <td>$552</td>
-    <td>$660</td>
+    <td>$115 ($138 incl. VAT)</td>
+    <td style="border-right: 1px dashed #a46314;">$140 ($168 incl. VAT)</td>
+    <td>$230 ($276 incl. VAT)</td>
+    <td style="border-right: 1px dashed #a46314;">$275 ($330 incl. VAT)</td>
+    <td>$60 ($552 incl. VAT)</td>
+    <td>$550 ($660 incl. VAT)</td>
 </tr>
 </table>
 
@@ -148,20 +148,7 @@ The registration fees below contain 20% VAT.
 
 <b>Virtual Conference Registration Includes:</b> Access to online content (i.e., recordings) including downloadable proceedings.
 
-The registration fees below contain 20% VAT.
-
-<table>
-  <tr>
-    <th>Category</th>
-    <th>Early Reg fee USD<br>(Ends: Sept 8)</th>
-    <th>Late Reg fee USD</th>
-  </tr>
-<tr>
-    <td>Virtual Participant</td>
-    <td>$25</td>
-    <td>$30</td>
-</tr>
-</table>
+*Coming soon*
 
 
 ### Diversity and Inclusivity Participants

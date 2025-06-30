@@ -20,7 +20,7 @@ The following workshops went through our [submission/review process](https://iee
 * [AccessViz: 2nd Workshop on Accessible Data Visualization](#AccessViz)
 * [VAHC: 16th Annual Workshop on Visual Analytics in Healthcare (Full Day)](#VAHC)
 * [VISxAI: 8th Workshop on Visualization for AI Explainability (Full Day)](#VISxAI)
-* [GenAI, Agents, and the Future of VIS (Full Day)](#VISxGenAI)
+* [VISxGenAI: GenAI, Agents, and the Future of VIS (Full Day)](#VISxGenAI)
 * [VisComm: Seventh Workshop on Visualization for Communication](#VisComm)
 
 <hr/>
