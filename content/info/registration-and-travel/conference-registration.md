@@ -109,8 +109,8 @@ We need to charge 20% VAT on the registration fees.
     <td style="border-right: 1px dashed #a46314;">$320 ($384 incl. VAT)</td>
     <td>$530 ($636 incl. VAT)</td>
     <td style="border-right: 1px dashed #a46314;">$635 ($762 incl. VAT)</td>
-    <td>$1050 ($1,260 incl. VAT)</td>
-    <td>$1260 ($1,512 incl. VAT)</td>
+    <td>$1,050 ($1,260 incl. VAT)</td>
+    <td>$1,260 ($1,512 incl. VAT)</td>
 </tr>
 <tr>
     <td>Student IEEE Member</td>
@@ -136,7 +136,7 @@ We need to charge 20% VAT on the registration fees.
     <td style="border-right: 1px dashed #a46314;">$140 ($168 incl. VAT)</td>
     <td>$230 ($276 incl. VAT)</td>
     <td style="border-right: 1px dashed #a46314;">$275 ($330 incl. VAT)</td>
-    <td>$60 ($552 incl. VAT)</td>
+    <td>$460 ($552 incl. VAT)</td>
     <td>$550 ($660 incl. VAT)</td>
 </tr>
 </table>
