@@ -6,23 +6,31 @@ permalink: /year/2025/info/program/week-at-a-glance
 contact: program@ieeevis.org
 ---
 
-# Preliminary Program
-
-Below is a draft schedule for the conference.
+Below is a preliminary schedule for the conference.
 More detailed information will be available as the conference nears.
-Daily sessions are (generally) four blocks per day, each 90 minutes with two in the morning and two in the afternoon.
-There will be coffee breaks between the first/second and third/fourth block. A lunch break runs each day between the second/third block.
-
-##### Details and specific times may change as we adjust for late-breaking conflicts and constraints!
+**Details and specific times may change as we adjust for late-breaking conflicts and constraints.**
 
 <hr/>
 
-<!-- ---------------------------------------------------------------------------------- -->
+
+## Doctoral Colloquium
+
 <a>**Saturday, November 1, 2025**</a><br />
 
 *9:00 AM - 5:00 PM (GMT+1)*<br />
 **Doctoral Colloquium** (Invite-only event)<br />
 The Doctoral Colloquium will take place at **TU Wien**, [Favoritenstraße 9-11, 1040 Wien](https://maps.app.goo.gl/2Rb58dYGnmcsLvsc7){:target= "_blank"}.<br />
+
+<hr/>
+
+
+## Conference Schedule 
+
+Daily sessions from Sunday to Friday are four blocks per day, each **90 minutes** with two in the morning and two in the afternoon.
+Coffee breaks are planned between the first/second and third/fourth block.
+* Morning coffee break: **10:30 AM - 11:00 AM (GMT+1)**
+* Afternoon coffee break: **3:30 PM - 4:00 PM (GMT+1)**
+* Lunch break: **12:30 PM - 2:00 PM (GMT+1)**
 
 <hr/>
 

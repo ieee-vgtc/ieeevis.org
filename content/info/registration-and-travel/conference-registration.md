@@ -23,9 +23,9 @@ There will be a completely virtual session (organized in Zoom) for presenters wh
 ## IN-PERSON AND VIRTUAL PRESENTERS OF MAIN CONFERENCE PAPERS, MAIN CONFERENCE SHORT PAPERS AND INVITED JOURNAL PAPERS
 <ul>
 <li>One speaker for each main conference paper, main conference short paper, or invited journal paper <b>MUST</b> register under the On-site Speaker Conference Registration or the Virtual Speaker Conference Registration option (Student Speaker options will be available).</li>
-<li>Presenters can add multiple papers to their Speaker Conference Registration.</li>
-<li>Presenters participating only at symposia, workshops, tutorials, or panels <b>SHOULD NOT</b> select the Speaker Conference Registration category. Instead, they need to use the On-site Conference Registration category.</li>
+<li>Presenters can add one additional paper to their Speaker Conference Registration for an extra fee of $100.</li>
 <li>Speaker Conference Registration includes admission to all conference sessions, symposia, tutorials and workshops, welcome reception (Tuesday), conference dinner (Wednesday), and access to VIS 2025 online content.</li>
+<li>Presenters participating at symposia, workshops, tutorials, or panels <b>SHOULD NOT</b> select the Speaker Conference Registration category. Instead, they need to use the On-site Conference Registration category.</li>
 </ul>
 
 
@@ -109,8 +109,8 @@ We need to charge 20% VAT on the registration fees.
     <td style="border-right: 1px dashed #a46314;">$320 ($384 incl. VAT)</td>
     <td>$530 ($636 incl. VAT)</td>
     <td style="border-right: 1px dashed #a46314;">$635 ($762 incl. VAT)</td>
-    <td>$1050 ($1,260 incl. VAT)</td>
-    <td>$1260 ($1,512 incl. VAT)</td>
+    <td>$1,050 ($1,260 incl. VAT)</td>
+    <td>$1,260 ($1,512 incl. VAT)</td>
 </tr>
 <tr>
     <td>Student IEEE Member</td>
@@ -136,7 +136,7 @@ We need to charge 20% VAT on the registration fees.
     <td style="border-right: 1px dashed #a46314;">$140 ($168 incl. VAT)</td>
     <td>$230 ($276 incl. VAT)</td>
     <td style="border-right: 1px dashed #a46314;">$275 ($330 incl. VAT)</td>
-    <td>$60 ($552 incl. VAT)</td>
+    <td>$460 ($552 incl. VAT)</td>
     <td>$550 ($660 incl. VAT)</td>
 </tr>
 </table>
