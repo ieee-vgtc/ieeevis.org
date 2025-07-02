@@ -45,6 +45,9 @@
       - name: "Nomic"
         image: /assets/supporters/nomic.png
         url: "https://www.nomic.ai/"
+      - name: "Databricks Inc."
+        image: /assets/supporters/databricks.png
+        url: "https://www.databricks.com/"
       - name: "DATAVIEW Handels- und Systemberatungs Ges.m.b.H."
         image: /assets/supporters/dataview.png
         url: "https://dataview.at/"
@@ -68,7 +71,7 @@
         image: /assets/supporters/kaust.png
         url: "https://www.kaust.edu.sa/en/"
       - name: "Monash University"
-        image: /assets/supporters/emvislogohcc.png
+        image: /assets/supporters/monash_emvis.png
         url: "https://www.monash.edu/"
 
 #  - category: Exhibitors
