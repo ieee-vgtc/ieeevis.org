@@ -1,18 +1,18 @@
+- title: "Conference registration now open"
+  image: "vienna_burgtheater.jpg"
+  button-text: "VIS 2025 Registration"
+  button-url: "/info/registration-and-travel/conference-registration"
+  active: "active"
+
 - title: "Submit your work to a VIS Workshop!"
   image: "workshops.jpg"
   button-text: "Workshops"
   button-url: "/info/program/workshops"
-  active: "active"
 
 - title: "VIS 2025 takes place in an anniversary year"
   image: "isotypes.jpg"
   button-text: "100 Years of Visual Language"
   button-url: "/blog/vis-2025-GC-blog-ISOTYPES"
-
-- title: "The reVISe 1.1 experiment"
-  image: "revise-path.jpg"
-  button-text: "Read more about reVISe 1.1"
-  button-url: "/blog/vis-2025-revise"
 
 - title: "IEEE VIS 2025 in Vienna, Austria"
   image: "skyline_vienna.jpg"
