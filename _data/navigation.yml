@@ -135,7 +135,7 @@ menu:
                 links:
                   - text: "Registration"
                     url: "/year/2025/info/registration-and-travel/conference-registration"
-                    is_new: false
+                    is_new: true
                   - text: "Venue"
                     url: "/year/2025/info/registration-and-travel/venue"
                     is_new: false
