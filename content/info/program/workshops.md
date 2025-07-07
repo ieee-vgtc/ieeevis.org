@@ -205,7 +205,9 @@ Zhiqing Wu, *The Hong Kong University of Science and Technology, Guangzhou, Guan
 Benjamin Tag, *University of New South Wales, Sydney, Australia*<br>
 Tim Dwyer, *Monash University, Melbourne, Australia*<br>
 
-Contact: Yi Li ([yi.5.li@tuwien.ac.at](mailto:yi.5.li@tuwien.ac.at))  
+Contact: Yi Li ([hfiaworkshop@gmail.com](mailto:hfiaworkshop@gmail.com))  
+
+[https://sites.google.com/monash.edu/hfia-workshop](https://sites.google.com/monash.edu/hfia-workshop){:target="_blank"}
 
 It has been ten years since the term ''Immersive Analytics'' (IA) was coined and research interest in the topic remains strong.
 Researchers in this field have produced practical and conceptual knowledge concerning the use of emerging immersive spatial display and interaction technologies for sense-making tasks through a number of papers, surveys, and books.
