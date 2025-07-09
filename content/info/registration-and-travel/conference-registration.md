@@ -176,7 +176,7 @@ No. Posters presenters should use the regular On-Site Participant Registration c
 **Q: I will present a paper at a workshop. Do I need to register using the Speaker Registration category?**
 
 <ul>
-No. Workshop or symposium paper presenters and authors should use the regular On-Site Participant or Virtual Participant Registration categories. 
+No. Workshop or symposium paper presenters and authors should use the regular On-Site Participant Registration categories. 
 </ul>
 
 **Q: If I complete a Speaker Registration, do I also need to separately complete an On-Site or Virtual Participant Registration to attend the conference?**
