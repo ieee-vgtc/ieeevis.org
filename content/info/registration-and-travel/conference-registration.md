@@ -144,9 +144,9 @@ We need to charge 20% VAT on the registration fees.
 
 **Registration fees are refundable up to 30 days before the beginning of the conference.**
 
-## ALL OTHER VIRTUAL ATTENDEES
+## ACCESS TO 2025 VIRTUAL CONTENT
 
-<b>Virtual Conference Registration Includes:</b> Access to online content (i.e., recordings) including downloadable proceedings.
+<b>Virtual Content Access Includes:</b> Access to online content (i.e., presentation recordings), including downloadable proceedings.
 
 *Coming soon*
 
