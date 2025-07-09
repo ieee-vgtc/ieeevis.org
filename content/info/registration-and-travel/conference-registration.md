@@ -23,7 +23,7 @@ There will be a completely virtual session (organized in Zoom) for presenters wh
 ## IN-PERSON AND VIRTUAL PRESENTERS OF MAIN CONFERENCE PAPERS, MAIN CONFERENCE SHORT PAPERS AND INVITED JOURNAL PAPERS
 <ul>
 <li>One speaker for each main conference paper, main conference short paper, or invited journal paper <b>MUST</b> register under the On-site Speaker Conference Registration or the Virtual Speaker Conference Registration option (Student Speaker options will be available).</li>
-<li>Presenters can add one additional paper to their Speaker Conference Registration for an extra fee of $100.</li>
+<li>Presenters can add up to two papers to their Speaker Conference Registration. </li>
 <li>Speaker Conference Registration includes admission to all conference sessions, symposia, tutorials and workshops, welcome reception (Tuesday), conference dinner (Wednesday), and access to VIS 2025 online content.</li>
 <li>Presenters participating at symposia, workshops, tutorials, or panels <b>SHOULD NOT</b> select the Speaker Conference Registration category. Instead, they need to use the On-site Conference Registration category.</li>
 </ul>
@@ -144,9 +144,9 @@ We need to charge 20% VAT on the registration fees.
 
 **Registration fees are refundable up to 30 days before the beginning of the conference.**
 
-## ALL OTHER VIRTUAL ATTENDEES
+## ACCESS TO 2025 VIRTUAL CONTENT
 
-<b>Virtual Conference Registration Includes:</b> Access to online content (i.e., recordings) including downloadable proceedings.
+<b>Virtual Content Access Includes:</b> Access to online content (i.e., presentation recordings), including downloadable proceedings.
 
 *Coming soon*
 
