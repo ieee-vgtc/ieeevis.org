@@ -53,7 +53,7 @@ Please see our [VIS Accessibility Guide](/year/2025/info/call-participation/make
 
 ## Other Required Submission Items
 
-Shortly after receiving final notifications from the second review cycle, the conference will send you an email from the Publications chairs with complete instructions. This email will be sent to the corresponding author for the paper and it will include a unique submission ID. The email will also include links to directly upload presentation materials via our Presentation Material Upload system. Here is what you will be expected to submit and the deadlines for each item.
+Shortly after receiving final notifications from the second review cycle, the conference will send you an email from the Publications chairs with complete instructions. This email will be sent to the corresponding author for the paper and it will include a unique submission ID. Here is what to expect:
 
 ### 1. Speaker registration
 
@@ -62,7 +62,6 @@ All full papers are required to have one author register as a speaker, irrespect
 ### 2. Copyright Release
 
 For papers that will be published in IEEE TVCG or on IEEE Xplore, authors are asked to complete a copyright release form. This will be handled via IEEE’s Conference Publishing Services (IEEE CPS) via a link provided to you via email.
-
 
 ### 3. Presentation Materials
 
