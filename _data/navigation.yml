@@ -87,17 +87,15 @@ menu:
                   #  - text: "Accessible PDFs"
                   #    url: "/year/2025/info/call-participation/accessible-pdf"
                   #    is_new: false
-
           - heading: "Presenter Information"
             columns:
             - links:
                 - text: "Final Information for Paper Authors"
                   url: "/year/2025/info/presenter-information/final-information-paper-authors"
-                  is_new: true
+                  is_new: false
                 - text: "Preparing Your Talk"
                   url: "/year/2025/info/presenter-information/talk-guide"
-                  is_new: true
-
+                  is_new: false
           - heading: "Code of Conduct"
             heading_url: "/year/2025/info/inclusion/code-of-conduct"
       - subsections:
@@ -236,10 +234,10 @@ menu:
                     description: "Hans-Christian Hege"
                     url: "/year/2025/info/keynote-speaker"
                     is_new: false
-                  #- text: "Capstone"
-                  #  description: "Prof. Catherine D'Ignazio, MIT"
-                  #  url: "/year/2025/info/capstone-speaker"
-                  #  is_new: false
+                  - text: "Capstone"
+                    description: "Theo Deutinger"
+                    url: "/year/2025/info/capstone-speaker"
+                    is_new: true
 #           - heading: "Awards and Recognitions"
 #             description: "Recognize outstanding work by the VIS community"
 #             columns:
