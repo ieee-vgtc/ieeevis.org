@@ -31,13 +31,13 @@
     supporters:
       - name: "Apple Inc."
         image: /assets/supporters/apple.png
-        url: "https://www.apple.com"
+        url: "https://www.apple.com/"
       - name: "VISUAPPS GmbH"
         image: /assets/supporters/visuapps.png
         url: "https://www.visuapps.com/"
       - name: "Autodesk"
         image: /assets/supporters/autodesk.png
-        url: "https://www.autodesk.com"
+        url: "https://www.autodesk.com/"
 
   - category: Bronze
     image_size: 200
@@ -51,6 +51,9 @@
       - name: "DATAVIEW Handels- und Systemberatungs Ges.m.b.H."
         image: /assets/supporters/dataview.png
         url: "https://dataview.at/"
+      - name: "Tableau"
+        image: /assets/supporters/tableau.png
+        url: "https://www.tableau.com/"
 
   - category: Academic
     image_size: 200
