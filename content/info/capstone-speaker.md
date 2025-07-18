@@ -1,7 +1,7 @@
 ---
 layout: page 
 title: "Capstone by Theo Deutinger"
-permalink: /year/2024/info/capstone-speaker 
+permalink: /year/2025/info/capstone-speaker 
 contact: info@ieeevis.org 
 active_nav: "Program"
 ---
