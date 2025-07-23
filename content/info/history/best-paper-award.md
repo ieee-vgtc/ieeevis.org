@@ -98,7 +98,7 @@ Aeree Cho, Grace C. Kim, Alexander Karpekov, Alec Helbling, Zijie J. Wang, Seong
 **Transformer Explainer: Interactive Learning of Text-Generative Models**
 
 
-#### Best Poster Honorable Mentiones
+#### Best Poster Honorable Mentions
 
 Rifat Ara Proma, Michael Correll, Ghulam Jilani Quadri, Paul Rosen
 **Visual Stenography: Feature Recreation and Preservation in Sketches of Line Charts**
