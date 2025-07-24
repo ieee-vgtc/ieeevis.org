@@ -5,8 +5,106 @@ permalink: /year/2025/info/history/best-paper-award
 contact: archive@ieeevis.org
 ---
 
+### 2024
 
 
+#### Best Papers
+
+Derya Akbaba, Lauren Klein, Miriah Meyer
+**Entanglements for Visualization: Changing Research Outcomes through Feminist Theory**
+
+Devin Lange, Robert Judson-Torres, Thomas Zangle, Alexander Lex
+**Aardvark: Composite Visualizations of Trees Time-Series and Images**
+
+Nan Chen, Yuge Zhang, Jiahang Xu, Kan Ren, Yuqing Yang
+**VisEval: A Benchmark for Data Visualization in the Era of Large Language Models**
+
+Rui Qiu, Yamei Tu, Po-Yin Yen, Han-Wei Shen
+**VADIS: A Visual Analytics Pipeline for Dynamic Document Representation and Information Seeking**
+
+Yu Qin, Brittany Terese Fasy, Carola Wenk, Brian Summa
+**Rapid and Precise Topological Comparison with Merge Tree Neural Networks**
+
+
+#### Best Paper Honorable Mentions
+
+Nicole Sultanum, Vidya Setlur
+**From Instruction to Insight: Exploring the Semantic and Functional Roles of Text in Interactive Dashboards**
+
+Dazhen Deng, Chuhan Zhang, Huawei Zheng, Yuwen Pu, Shouling Ji, Yingcai Wu
+**AdversaFlow: Visual Red Teaming for Large Language Models with Multi-Level Adversarial Flow**
+
+Bridger Herman, Cullen Jackson, Daniel Keefe
+**Touching the Ground: Evaluating the Effectiveness of Data Physicalizations for Spatial Data Analysis Tasks**
+
+Arran Zeyu Wang, David Borland, David Gotz
+**Beyond Correlation: Incorporating Counterfactual Guidance to Better Support Exploratory Visual Analysis**
+
+Anne-Flore Cabouat, Tingying He, Petra Isenberg, Tobias Isenberg
+**PREVis: Perceived Readability Evaluation for Visualizations**
+
+Gabriela Molina León, Anastasia Bezerianos, Olivier Gladin, Petra Isenberg
+**Talk to the Wall: The Role of Speech Interaction in Collaborative Visual Analytics**
+
+Zhicheng Liu, Chen Chen, John Hooker
+**Manipulable Semantic Components: a Computational Representation of Data Visualization Scenes**
+
+Youfu Yan, Yu Hou, Yongkang Xiao, Rui Zhang, Qianwen Wang
+**Guided Health-related Information Seeking from LLMs via Knowledge Graph Integration**
+
+Sehi L'Yi, Astrid van den Brandt, Etowah Adams, Huyen N. Nguyen, Nils Gehlenborg
+**Learnable and Expressive Visualization Authoring Through Blended Interfaces**
+
+Samuel Reinders, Matthew Butler, Ingrid Zukerman, Bongshin Lee, Lizhen Qu, Kim Marriott
+**When Refreshable Tactile Displays Meet Conversational Agents: Investigating Accessible Data Presentation and Analysis with Touch and Speech**
+
+Xingyu Lan, Yu Liu
+**"I Came Across a Junk": Understanding Design Flaws of Data Visualization from the Public's Perspective**
+
+Jiashu Chen, Weikai Yang, Zelin Jia, Lanxi Xiao, Shixia Liu
+**Dynamic Color Assignment for Hierarchical Data**
+
+Filip Opálený, Pavol Ulbrich, Joan Planas-Iglesias, Jan Byška, Jan Štourač, David Bednář, Katarína Furmanová, Barbora Kozlikova
+**Visual Support for the Loop Grafting Workflow on Proteins**
+
+Hanning Shao, Xiaoru Yuan
+**CataAnno: An Ancient Catalog Annotator to Uphold Annotation Unification by Relevant Recommendation**
+
+
+#### Best Short Paper
+
+Shivam Raval, Fernanda Viegas, Martin Wattenberg
+**Hypertrix: An indicatrix for high-dimensional visualizations**
+
+Yue Yu, Leixian Shen, Fei Long, Huamin Qu, Hao Chen
+**PyGWalker: On-the-fly Assistant for Exploratory Visual Data Analysis**
+
+
+#### Short Paper Honorable Mentions
+
+Magdalena Boucher, Christina Stoiber, Mandy Keck, Victor Adriel de Jesus Oliveira, Wolfgang Aigner
+**The Comic Construction Kit: An Activity for Students to Learn and Explain Data Visualizations**
+
+Sarina Kashanj, Xiyao Wang, Charles Perin
+**Visualizations on Smart Watches while Running: It Actually Helps!**
+
+Anne Gossing, Andreas Beckert, Christoph Fischer, Nicolas Klenert, Vijay Natarajan, George Pacey, Thorwin Vogt, Marc Rautenhaus, Daniel Baum
+**A Ridge-based Approach for Extraction and Visualization of 3D Atmospheric Fronts**
+
+
+#### Best Poster
+
+Aeree Cho, Grace C. Kim, Alexander Karpekov, Alec Helbling, Zijie J. Wang, Seongmin Lee, Benjamin Hoover, Duen Horng (Polo) Chau
+**Transformer Explainer: Interactive Learning of Text-Generative Models**
+
+
+#### Best Poster Honorable Mentions
+
+Rifat Ara Proma, Michael Correll, Ghulam Jilani Quadri, Paul Rosen
+**Visual Stenography: Feature Recreation and Preservation in Sketches of Line Charts**
+
+Debra Hogue, D. Shane Elliott, Chris Weaver
+**Visual Analysis of Motion for Camouflaged Object Detection**
 
 
 ### 2023
