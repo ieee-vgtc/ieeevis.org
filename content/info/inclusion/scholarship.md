@@ -14,8 +14,8 @@ Eligible applicants are from underrepresented and/or marginalized groups includi
 
 The VIS 2025 Inclusivity Scholarship Chairs will review applications based on eligibility, need, and impact. Scholarships awarded will include:
 
-* Complimentary conference registration.
-* Complimentary shared hotel room.
+* **Complimentary conference registration.**
+* **Complimentary shared hotel room.**
 
 
 ### Application and Timeline:
@@ -34,7 +34,7 @@ If you are interested in supporting the Inclusivity Scholarship Program and Incl
 
 ### Inclusivity Scholarship Chairs
 
-* Laura Koesten (*University of Vienna*)
+* Laura Koesten (*University of Vienna & MBZUAI*)
 * John Thompson (*Autodesk Research*)
 
 Please contact [inclusivity_accessibility@ieeevis.org](mailto:inclusivity_accessibility@ieeevis.org) with any questions about the Inclusivity Scholarship Program and Inclusivity at IEEE VIS.
