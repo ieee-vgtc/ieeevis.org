@@ -311,6 +311,10 @@ menu:
                     url: "https://vast-challenge.github.io/2025/"
                     is_new: true
                     is_external: true
+                  - text: "VisAgent Challenge"
+                    url: "https://www.visagent.org/"
+                    is_new: true
+                    is_external: true
 
       - subsections:
         - heading: "IEEE VIS Workshops"
