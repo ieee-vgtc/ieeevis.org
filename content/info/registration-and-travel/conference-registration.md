@@ -16,7 +16,7 @@ There will be a completely virtual session (organized in Zoom) for presenters wh
 
 ### Important Dates
 <ul>
-<li>Early bird registration deadline: <strong>September 8, 2025</strong></li>
+<li>Early registration deadline: <strong>Sept 21, 2025</strong></li>
 </ul>
 
 
@@ -36,7 +36,7 @@ We need to charge 20% VAT on the registration fees.
 <table>
 <tr>
     <th>Category</th>
-    <th style="width: 28%">Early Reg fee USD<br />(Ends Sept 8)</th>
+    <th style="width: 28%">Early Reg fee USD<br />(Ends Sept 21)</th>
     <th style="width: 28%">Late Reg fee USD </th>
 </tr>
 <tr>
@@ -87,11 +87,11 @@ We need to charge 20% VAT on the registration fees.
   </tr>
   <tr>
     <th>Category</th>
-    <th>Early Reg fee USD<br>(Ends: Sept 8)</th>
+    <th>Early Reg fee USD<br>(Ends: Sept 21)</th>
     <th style="border-right: 1px dashed #a46314;">Late Reg fee USD</th>
-    <th>Early Reg fee USD<br>(Ends: Sept 8)</th>
+    <th>Early Reg fee USD<br>(Ends: Sept 21)</th>
     <th style="border-right: 1px dashed #a46314;">Late Reg fee USD</th>
-    <th>Early Reg fee USD<br>(Ends: Sept 8)</th>
+    <th>Early Reg fee USD<br>(Ends: Sept 21)</th>
     <th>Late Reg fee USD</th>
   </tr>
 <tr>
