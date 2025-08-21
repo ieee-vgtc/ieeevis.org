@@ -54,7 +54,7 @@
         image: /assets/supporters/tableau.png
         url: "https://www.tableau.com/"
       - name: "Adobe"
-        image: /assets/supporters/adobe.png
+        image: /assets/supporters/adobe_logo.svg
         url: "https://www.adobe.com/"
 
   - category: Academic
