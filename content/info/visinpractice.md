@@ -5,10 +5,9 @@ permalink: /year/2025/info/visinpractice
 contact: vip@ieeevis.org
 ---
 
-The **VisInPractice** associated event features contributions of visualization practitioners highlighting the design and use of visualizations in practice.
+**VisInPractice** sessions are an opportunity for visualization practitioners and researchers to meet and share experiences, insights, and ideas in applying data visualization and visual analytics to real-world use cases. The goal of these sessions is to acknowledge successful transfers of visualization research into applications as well as current visualization practices in industry.
 
-The **VisInPractice** program is an opportunity for visualization practitioners and researchers to meet and share experiences, insights, and ideas in applying data visualization and visual analytics to real use cases. Our goal is to acknowledge successful transfers of visualization research into applications as well as current visualization practices in industry.
-
+This year, VisInPractice sessions will be spead throughout the conference week and will include a series of practitioner-led talks as well as paper sessions with presentations that are highly relevant for practitioners.
 
 ## The VisInPractice 2025 Team
 
