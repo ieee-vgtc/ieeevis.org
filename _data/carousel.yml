@@ -4,11 +4,6 @@
   button-url: "/info/registration-and-travel/conference-registration"
   active: "active"
 
-- title: "Submit your work to a VIS Workshop!"
-  image: "workshops.jpg"
-  button-text: "Workshops"
-  button-url: "/info/program/workshops"
-
 - title: "VIS 2025 takes place in an anniversary year"
   image: "isotypes.jpg"
   button-text: "100 Years of Visual Language"
