@@ -24,13 +24,14 @@ The Doctoral Colloquium will take place at **TU Wien**, [Favoritenstraße 9-11, 
 <hr/>
 
 
-## Conference Schedule 
+## Workshop Schedule (Sunday/Monday) 
 
-Daily sessions from Sunday to Friday are four blocks per day, each **90 minutes** with two in the morning and two in the afternoon.
+Sunday/Monday sessions will be **90 minutes**.
+We will have two parallel tracks morning and two in the afternoon.
 Coffee breaks are planned between the first/second and third/fourth block.
 * Morning coffee break: **10:30 AM - 11:00 AM (GMT+1)**
-* Afternoon coffee break: **3:30 PM - 4:00 PM (GMT+1)**
 * Lunch break: **12:30 PM - 2:00 PM (GMT+1)**
+* Afternoon coffee break: **3:30 PM - 4:00 PM (GMT+1)**
 
 <hr/>
 
@@ -88,15 +89,25 @@ Coffee breaks are planned between the first/second and third/fourth block.
 
 <hr/>
 
+
+## Conference Schedule (Tuesday - Friday)
+
+Tuesday to Friday sessions will be **75 minutes**.
+We will have two parallel tracks morning and two in the afternoon.
+Coffee breaks are planned between the first/second and third/fourth block.
+* Morning coffee break: **10:45 AM - 11:15 AM (GMT+1)**
+* Lunch break: **12:30 PM - 2:00 PM (GMT+1)**
+* Afternoon coffee break: **3:15 PM - 3:45 PM (GMT+1)**
+
 <!-- ---------------------------------------------------------------------------------- -->
 <a>**Tuesday, November 4, 2025**</a><br/>
 
-*9:00 AM - 12:30 PM (GMT+1)*<br/>
+*9:30 AM - 12:30 PM (GMT+1)*<br/>
 **Morning**<br/>
 * VIS Opening, VIS Welcome, and VGTC Awards
 * VIS Keynote
 
-*2:00 PM - 5:30 PM (GMT+1)*<br/>
+*2:00 PM - 5:00 PM (GMT+1)*<br/>
 **Afternoon**<br/>
 * Best Paper Presentations (full & short papers) 1/2
 * Best Paper Presentations (full & short papers) 2/2
@@ -110,22 +121,22 @@ Coffee breaks are planned between the first/second and third/fourth block.
 <!-- ---------------------------------------------------------------------------------- -->
 <a>**Wednesday, November 5, 2025**</a><br/>
 
-*9:00 AM - 12:30 PM (GMT+1)*<br/>
+*9:30 AM - 12:30 PM (GMT+1)*<br/>
 **Morning**<br/>
 * Paper, Short Paper, TVCG Paper, and CG&A Paper Presentations
 * Panels and Tutorials
 
-*2:00 PM - 5:30 PM (GMT+1)*<br/>
+*2:00 PM - 5:00 PM (GMT+1)*<br/>
 **Afternoon**<br/>
 * Paper, Short Paper, TVCG Paper, and CG&A Paper Presentations
 * Panels and Tutorials
-
-*5:30 PM - 7:00 PM (GMT+1)*<br/>
-**Late Afternoon**<br />
-* Poster Session
 * Use Case Session
 
-*7:00 PM - 9:00 PM (GMT+1)*<br/>
+*5:00 PM - 6:00 PM (GMT+1)*<br/>
+**Late Afternoon**<br />
+* Poster Session
+
+*6:00 PM - 9:00 PM (GMT+1)*<br/>
 **Evening**<br />
 * Conference Dinner ([Austria Center Vienna](https://maps.app.goo.gl/NaguVkxom2uRZjq48){:target= "_blank"})
 * After-Party (tba)
@@ -135,13 +146,13 @@ Coffee breaks are planned between the first/second and third/fourth block.
 <!-- ---------------------------------------------------------------------------------- -->
 <a>**Thursday, November 6, 2025**</a><br/>
 
-*9:00 AM - 12:30 PM (GMT+1)*<br/>
+*9:30 AM - 12:30 PM (GMT+1)*<br/>
 **Morning**<br/>
 * Paper, Short Paper, TVCG Paper, and CG&A Paper Presentations
 * VISAP Presentations
 * Panels and Tutorials
 
-*2:00 PM - 5:30 PM (GMT+1)*<br/>
+*2:00 PM - 5:00 PM (GMT+1)*<br/>
 **Afternoon**<br/>
 * Paper, Short Paper, TVCG Paper, and CG&A Paper Presentations
 * VISAP Presentations
@@ -157,12 +168,12 @@ Coffee breaks are planned between the first/second and third/fourth block.
 <!-- ---------------------------------------------------------------------------------- -->
 <a>**Friday, November 7, 2025**</a><br/>
 
-*9:00 AM - 10:30 AM (GMT+1)*<br/>
+*9:30 AM - 10:15 AM (GMT+1)*<br/>
 **Morning 1**<br/>
 * Paper, Short Paper, TVCG Paper, and CG&A Paper Presentations
 * Panels
 
-*11:00 AM - 12:30 PM (GMT+1)*<br/>
+*11:15 AM - 12:30 PM (GMT+1)*<br/>
 **Morning 2**<br/>
 * Capstone
 * Test-of-Time Awards
@@ -173,7 +184,9 @@ Coffee breaks are planned between the first/second and third/fourth block.
 ### Program Co-Chairs
 
 * Tushar Athawale, *Oak Ridge National Laboratory*
-* Michelle Dowling, *Pacific Northwest National Lab*
-* Michael Oppermann, *AIT Austrian Institute of Technology GmbH*
+* Michelle Dowling, *Pacific Northwest National Laboratory*
+* Michael Oppermann, *AIT Austrian Institute of Technology*
+* Alfie Abdul Rahman, *King's College London*
+* Gautam Chaudhary, *Alcon*
 
 *Email: [program@ieeevis.org](mailto:program@ieeevis.org)*

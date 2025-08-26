@@ -84,9 +84,6 @@ menu:
                   - text: "Review Instructions"
                     url: "/year/2025/info/call-participation/review-instructions"
                     is_new: false
-                  #  - text: "Accessible PDFs"
-                  #    url: "/year/2025/info/call-participation/accessible-pdf"
-                  #    is_new: false
           - heading: "Presenter Information"
             columns:
             - links:
@@ -220,10 +217,10 @@ menu:
                     description: "Informal setting to discuss emerging topics"
                     url: "/year/2025/info/program/workshops"
                     is_new: false
-                  #- text: "Panels"
-                  #  description: "Discuss important and controversial issues"
-                  #  url: "/year/2025/info/panels"
-                  #  is_new: true
+                  - text: "Panels"
+                    description: "Discuss important and controversial issues"
+                    url: "/year/2025/info/program/panels"
+                    is_new: true
       - subsections:
           - heading: "Invited Speakers"
             heading_url: "/year/2025/info/keynote-speaker"
@@ -237,7 +234,7 @@ menu:
                   - text: "Capstone"
                     description: "Theo Deutinger"
                     url: "/year/2025/info/capstone-speaker"
-                    is_new: true
+                    is_new: false
 #           - heading: "Awards and Recognitions"
 #             description: "Recognize outstanding work by the VIS community"
 #             columns:
