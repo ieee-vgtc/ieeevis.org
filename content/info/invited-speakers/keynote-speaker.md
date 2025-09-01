@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Keynote by Hans-Christian Hege"
-permalink: /year/2025/info/keynote-speaker
+permalink: /year/2025/info/invited-speakers/keynote-speaker
 contact: info@ieeevis.org
 active_nav: "Program"
 ---

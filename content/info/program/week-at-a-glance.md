@@ -99,6 +99,8 @@ Coffee breaks are planned between the first/second and third/fourth block.
 * Lunch break: **12:30 PM - 2:00 PM (GMT+1)**
 * Afternoon coffee break: **3:15 PM - 3:45 PM (GMT+1)**
 
+<hr/>
+
 <!-- ---------------------------------------------------------------------------------- -->
 <a>**Tuesday, November 4, 2025**</a><br/>
 
