@@ -7,6 +7,7 @@ contact: finance@ieeevis.org
 ---
 
 ## VIS 2025 EVENT REGISTRATION
+
 The 2025 IEEE Visualization and Visual Analytics Conference, running from November 2 - 7, is organized as an on-site event.
 The conference will be held at the Austria Center Vienna (ACV) in Vienna, Austria.
 There will be a completely virtual session (organized in Zoom) for presenters who are not able to travel.
@@ -19,6 +20,8 @@ There will be a completely virtual session (organized in Zoom) for presenters wh
 <li>Early bird registration deadline: <strong>September 21, 2025</strong></li>
 </ul>
 
+
+<!-- ---------------------------------------------------------------------------------- -->
 
 ## IN-PERSON AND VIRTUAL PRESENTERS OF MAIN CONFERENCE PAPERS, MAIN CONFERENCE SHORT PAPERS AND INVITED JOURNAL PAPERS
 <ul>
@@ -64,7 +67,10 @@ We need to charge 20% VAT on the registration fees.
 **All Speaker Conference Registration fees are not refundable.**
 
 
+<!-- ---------------------------------------------------------------------------------- -->
+
 ## ATTENDEES
+
 Attendees should register online in advance and pay via credit card or wire transfer.
 <ul>
   <li><b>Full Week Conference Registration Includes:</b> Admission to all conference sessions, symposia, tutorials and workshops, welcome reception (Tuesday), conference dinner (Wednesday), and access to VIS 2025 online content.</li>
@@ -141,14 +147,7 @@ We need to charge 20% VAT on the registration fees.
 </tr>
 </table>
 
-
 **Registration fees are refundable up to 30 days before the beginning of the conference.**
-
-## ACCESS TO 2025 VIRTUAL CONTENT
-
-<b>Virtual Content Access Includes:</b> Access to online content (i.e., presentation recordings), including downloadable proceedings.
-
-*Coming soon*
 
 
 ### Diversity and Inclusivity Participants
@@ -186,3 +185,33 @@ No. Speaker Registration includes the benefits of an on-site or virtual particip
 </ul>
 
 If you have additional clarification questions, please contact <a href="mailto:registration@ieeevis.org"> registration@ieeevis.org</a>
+
+
+<!-- ---------------------------------------------------------------------------------- -->
+
+## ACCESS TO 2025 ONLINE CONTENT
+
+Individuals <b>not registered as in-person conference participants or virtual speakers</b> can purchase access to the online content.
+<b>Online content access includes:</b> Access to online content (i.e., presentation recordings), including downloadable proceedings.
+
+<table>
+<tr>
+    <th>Category</th>
+    <th style="width: 28%">Early Reg fee USD<br />(Ends Sept 21)</th>
+    <th style="width: 28%">Late Reg fee USD </th>
+</tr>
+<tr>
+    <td>Access to Online Content</td>
+    <td>$20</td>
+    <td>$20</td>
+</tr>
+<tr>
+    <td>Access to Online Content - Diversity/Inclusivity Participant</td>
+    <td>Free</td>
+    <td>Free</td>
+</tr>
+</table>
+
+<a class="button" href="https://www.eventbrite.com/e/2025-ieee-vis-access-to-online-content-tickets-1461995049549" target="_blank"> ACCESS TO ONLINE CONTENT </a>
+
+**Access to online content registration fees are not refundable.**
