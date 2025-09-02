@@ -5,7 +5,7 @@ permalink: /year/2025/info/history/best-paper-awards
 contact: archive@ieeevis.org
 ---
 
-This page contains the best full/short paper awards and best poster awards of the last 35 years.
+This page lists the IEEE VIS awards for the best full and short papers, honorable mentions, and best posters (if available) from previous years.
 
 <!-- ---------------------------------------------------------------------------------- -->
 
