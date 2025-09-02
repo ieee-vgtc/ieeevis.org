@@ -16,7 +16,7 @@ The IEEE VIS Test of Time Award is an accolade given to recognize articles publi
 Committee: Hamish Carr, Eduard Gröller *(Chair)*, Xiaoru Yuan, Gerik Scheuermann *(Chair)*, Deborah Silver
 
 <!-- ---------------------------------------------------------------------------------- -->
-**2000 (Vis 2000 ToT award)**:<br />
+**2000 (25-Years Vis ToT Award)**:<br />
 **A flow-guided streamline seeding strategy**<br />
 Vivek Verma, David L. Kao, Alex Pang<br />
 [10.1109/VISUAL.2000.885690](https://doi.org/10.1109/VISUAL.2000.885690)
@@ -30,7 +30,7 @@ Even after 25 years, Verma et al.'s topology-guided strategy is still in use.
 
 
 <!-- ---------------------------------------------------------------------------------- -->
-**2013 (SciVis 2013 ToT award)**:<br />
+**2013 (12-Years SciVis ToT Award)**:<br />
 **Contour Boxplots: A Method for Characterizing Uncertainty in Feature Sets from Simulation Ensembles**<br />
 Ross T. Whitaker, Mahsa Mirzargar, Robert M. Kirby<br />
 [10.1109/TVCG.2013.143](https://doi.org/10.1109/TVCG.2013.143)
@@ -43,7 +43,7 @@ The paper has since been widely cited, underscoring its lasting relevance and in
 
 
 <!-- ---------------------------------------------------------------------------------- -->
-**2014 (SciVis 2014 ToT award)**:<br />
+**2014 (11-Years SciVis ToT Award)**:<br />
 **Fixed-Rate Compressed Floating-Point Arrays**<br />
 Peter Lindstrom<br />
 [10.1109/TVCG.2014.2346458](https://doi.org/10.1109/TVCG.2014.2346458)
@@ -63,7 +63,7 @@ This paper has influenced several other compression schemes and is often referen
 Committee: Natalia Andrienko, Enrico Bertini, Min Chen *(Chair)*, Tim Dwyer, Daniel Weiskopf
 
 <!-- ---------------------------------------------------------------------------------- -->
-**2005 (InfoVis 2005 ToT award)**:<br />
+**2005 (20-Years InfoVis ToT Award)**:<br />
 **Graph-theoretic scagnostics**<br />
 Leland Wilkinson, Anushka Anand, Robert L. Grossman<br />
 [10.1109/INFVIS.2005.1532142](https://doi.org/10.1109/INFVIS.2005.1532142)
@@ -74,9 +74,9 @@ The impact of this work extends well beyond scatter plots, setting a gold standa
 
 
 <!-- ---------------------------------------------------------------------------------- -->
-**2015 (InfoVis 2015 ToT award)**:<br />
+**2015 (10-Years InfoVis ToT Award)**:<br />
 **Voyager: Exploratory Analysis via Faceted Browsing of Visualization Recommendations**<br />
-Kanit Wongsuphasawat, Dominik Moritz, Anushka Anand, Jock D. Mackinlay, Bill Howe, Jeffrey Heer <br />
+Kanit Wongsuphasawat, Dominik Moritz, Anushka Anand, Jock D. Mackinlay, Bill Howe, Jeffrey Heer<br />
 [10.1109/TVCG.2015.2467191](https://doi.org/10.1109/TVCG.2015.2467191)
 
 This work represents a major landmark in the development of visualization technology, transforming from human-led interactive visualization to a mixed-initiative approach, with which visualization plots are automatically generated as machine-led recommendations.
@@ -92,7 +92,7 @@ With the advancement of AI, the mixed-initiative approach is even more relevant 
 Committee: Jeffrey Heer, Helwig, Hauser, Ross Maciejewski, Shixia Liu *(Chair)*
 
 <!-- ---------------------------------------------------------------------------------- -->
-**2015 (VAST 2015 ToT award)**:<br />
+**2015 (10-Years VAST ToT Award)**:<br />
 **Reducing Snapshots to Points: A Visual Analytics Approach to Dynamic Network Exploration**<br />
 Stef van den Elzen, Danny Holten, Jorik Blaas, Jarke J. van Wijk<br />
 [10.1109/TVCG.2015.2468078](https://doi.org/10.1109/TVCG.2015.2468078)
