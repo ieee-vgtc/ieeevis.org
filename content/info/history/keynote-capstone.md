@@ -5,7 +5,8 @@ permalink: /year/2025/info/history/keynote-capstone
 contact: archive@ieeevis.org
 ---
 
-This page lists the keynotes and capstone speakers of the last 27 years.
+This page lists the keynote and capstone speakers at VIS in previous years.
+
 
 | Year |                                        Keynote                                         |                      Capstone                      |
 |------|:--------------------------------------------------------------------------------------:|:--------------------------------------------------:|

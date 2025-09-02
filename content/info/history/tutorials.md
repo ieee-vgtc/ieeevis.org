@@ -1,11 +1,12 @@
 ---
-title: History of Tutorials
+title: Historical List of Tutorials at VIS
 layout: page
 permalink: /year/2025/info/history/tutorials
 contact: archive@ieeevis.org
 ---
 
-In this page you would find a compilation of the tutorials been held at VIS in the last 29 years.
+On this page you will find a list of tutorials that have been held at VIS in recent years.
+
 
 <!-- ---------------------------------------------------------------------------------- -->
 
