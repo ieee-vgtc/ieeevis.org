@@ -10,7 +10,7 @@ The VIS Executive Committee (VEC) oversees the planning and success of IEEE VIS.
 
 The VEC provides oversight and planning for the VIS conference as described in the [VIS Charter](http://ieeevis.org/governance/IEEE-governance-structure).
 
-The 2024 candidates for the VEC are:
+The 2025 candidates for the VEC are:
 * [Tim Dwyer](#tim-dwyer)
 * [Michelle	Borkin](michelle-borkin)
   
