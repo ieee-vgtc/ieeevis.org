@@ -122,10 +122,10 @@ menu:
                     description: "Volunteer to review submissions in Precision Conference Solutions (PCS)"
                     url: "https://new.precisionconference.com/review_volunteering"
                     is_external: true
-                  #- text: "Elections"
-                  #  description: "Register to vote and nominate/review candidates for the VSC/VEC"
-                  #  url: "/year/2025/info/elections"
-                  #  is_new: false
+                  - text: "Elections"
+                    description: "Register to vote and nominate/review candidates for the VSC/VEC"
+                    url: "/year/2025/info/elections"
+                    is_new: true
           - heading: "Supporters"
             heading_url: "/year/2025/supporters"
             description: "Your support makes this conference possible!"
