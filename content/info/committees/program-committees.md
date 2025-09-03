@@ -115,7 +115,7 @@ sidetoc: true
 | Quan Li| *ShanghaiTech University* |<br>
 | Jie Liang| *University of Technology, Sydney* |<br>
 | Peter Lindstrom| *Lawrence Livermore National Laboratory* |<br>
-| Dongyu Liu| *MIT* |<br>
+| Dongyu Liu| *University of California at Davis* |<br>
 | Mengchen Liu| *META, Redmond, Washington* |<br>
 | Aidong Lu| *UNC Charlotte* |<br>
 | Kim Marriott| *Monash University* |<br>
