@@ -10,7 +10,7 @@ The VIS Steering Committee (VSC) provides scientific and organizational oversigh
 
 The VSC provides oversight and planning for the VIS conference as described in the [VIS Charter](http://ieeevis.org/governance/IEEE-governance-structure).
 
-The 2024 candidates for the VSC are:
+The 2025 candidates for the VSC are:
 * [Christoph Garth](#christoph-garth)
 * [Enrico Bertini](#enrico-bertini)
 * [Kyle Hall](#kyle-hall)
