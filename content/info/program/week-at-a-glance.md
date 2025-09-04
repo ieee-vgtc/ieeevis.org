@@ -126,13 +126,12 @@ Coffee breaks are planned between the first/second and third/fourth block.
 *9:30 AM - 12:30 PM (GMT+1)*<br/>
 **Morning**<br/>
 * Paper, Short Paper, TVCG Paper, and CG&A Paper Presentations
-* Panels and Tutorials
+* Parallel events (e.g., Panels, Meetups)
 
 *2:00 PM - 5:00 PM (GMT+1)*<br/>
 **Afternoon**<br/>
 * Paper, Short Paper, TVCG Paper, and CG&A Paper Presentations
-* Panels and Tutorials
-* Use Case Session
+* Parallel events (e.g., Panels, Meetups)
 
 *5:00 PM - 6:00 PM (GMT+1)*<br/>
 **Late Afternoon**<br />
@@ -152,13 +151,13 @@ Coffee breaks are planned between the first/second and third/fourth block.
 **Morning**<br/>
 * Paper, Short Paper, TVCG Paper, and CG&A Paper Presentations
 * VISAP Presentations
-* Panels and Tutorials
+* Parallel events (e.g., Panels, Meetups)
 
 *2:00 PM - 5:00 PM (GMT+1)*<br/>
 **Afternoon**<br/>
 * Paper, Short Paper, TVCG Paper, and CG&A Paper Presentations
 * VISAP Presentations
-* Panels and Tutorials
+* Parallel events (e.g., Panels, Meetups)
 
 *6:00 PM - 9:00 PM (GMT+1)*<br/>
 **Evening**<br />
@@ -173,7 +172,7 @@ Coffee breaks are planned between the first/second and third/fourth block.
 *9:30 AM - 10:15 AM (GMT+1)*<br/>
 **Morning 1**<br/>
 * Paper, Short Paper, TVCG Paper, and CG&A Paper Presentations
-* Panels
+* Parallel events (e.g., Panels, Meetups)
 
 *11:15 AM - 12:30 PM (GMT+1)*<br/>
 **Morning 2**<br/>
