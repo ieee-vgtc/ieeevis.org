@@ -90,7 +90,7 @@ Short papers can be up to four pages plus up to one page of references. Submissi
 
 Short Papers allow single-blind (not anonymized) or double-blind (anonymized) submissions while reviewers’ identities are not revealed. Authors may choose whether to anonymize their submission or not. Double-blind submissions must NOT include author names or institutions on the cover page of the initial submission, and authors should make an effort to ensure that there is no revealing information in the text, such as apparent citations to authors’ previous work, or making acknowledgments to colleagues of long standing.
 
-<!--- **To submit a short paper, please use [the PCS system](https://new.precisionconference.com/submissions) and select “VGTC > VIS 2025 > VIS 2025 Short Papers” to set up a submission.** -->
+*To submit a short paper, please use [the PCS system](https://new.precisionconference.com/submissions) and select “VGTC > VIS 2025 > VIS 2025 Short Papers” to set up a submission.*
 
 
 ### Publication Details:
@@ -100,9 +100,9 @@ Authors of accepted short papers may subsequently submit to TVCG a full paper on
  
 Scientific work builds naturally on previous work, including work published as a short paper at VIS. Accepted VIS short papers can contribute to VIS full paper submissions in a future year. But, such submissions should not contain verbatim copies of previous content. Furthermore, any subsequent full paper submission to VIS must represent a novel scientific contribution.  
 
-### Preliminary Dates (to be confirmed):
+### Preliminary Dates:
 
-* Submission Deadline: **April 30, 2025** (no separate abstract deadline)
+* Submission Deadline: **April 30, 2025** (no separate abstract deadline) on [PCS](https://new.precisionconference.com/submissions)
 * Notification: **June 17, 2025**
 * Submission of Camera-Ready Final Version: **July 1st, 2025**
 

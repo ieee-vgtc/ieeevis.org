@@ -43,22 +43,23 @@ Submissions should be emailed to
 
 Submissions will be considered subject to time and technology resources availability. Early submissions will be given priority.
 
-| Early  Submission | **From August 19, 2025** | 
-| Notification |  **September 1, 2025** |
+| Early  Submission | **September 19, 2025** | 
+| Notification |  **October 1, 2025** |
 
 Rolling submission: Submissions after the early submission deadline will be considered subject to timeslot availability. Later submissions will be processed and notified within a couple of days.
 
-| Rolling Submission | **From August 19, 2025 to October 6, 2025** | 
+| Rolling Submission | **From September 20, 2025 to October 25, 2025** | 
 | Notification | **Within a few days** |
 
 
 
 ### Chairs
 
-Ali Sarvghad, *University of Massachusstes Amherst*
+Kyle Wm. Hall	*Temple University*
+
+Georgia Panagiotidou,	*King’s College London*
 
 Isaac Cho, *Utah State University*
 
-Georgia Panagiotidou,	*King’s College London*
 
 

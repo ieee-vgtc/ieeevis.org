@@ -63,7 +63,7 @@ menu:
                     is_new: false
                   - text: "Doctoral Colloquium"
                     url: "/year/2025/info/call-participation/doctoral-colloquium"
-                    is_new: true
+                    is_new: false
               - heading: "Info for Contributors"
                 links:
                   - text: "Area Model for VIS"
@@ -84,27 +84,17 @@ menu:
                   - text: "Review Instructions"
                     url: "/year/2025/info/call-participation/review-instructions"
                     is_new: false
-                  #  - text: "Accessible PDFs"
-                  #    url: "/year/2025/info/call-participation/accessible-pdf"
-                  #    is_new: false
-
-          #- heading: "Presenter Information"
-          #  columns:
-          #    - links:
-                # - text: "Virtual Technical Information for Presenters and Organizers"
-                #   url: "/year/2025/info/presenter-information/virtual-technical-information"
-                #   is_new: true
-                # - text: "Final Information for Paper Authors"
-                #   url: "/year/2025/info/presenter-information/final-information-paper-authors"
-                #   is_new: false
-                # - text: "Video Previews"
-                #   url: "/year/2025/info/presenter-information/fast-forward-and-video-previews"
-                #   is_new: false
-                # - text: "Preparing Your Talk"
-                #   url: "/year/2025/info/presenter-information/talk-guide"
-                #   is_new: false
-
+          - heading: "Presenter Information"
+            columns:
+            - links:
+                - text: "Final Information for Paper Authors"
+                  url: "/year/2025/info/presenter-information/final-information-paper-authors"
+                  is_new: false
+                - text: "Preparing Your Talk"
+                  url: "/year/2025/info/presenter-information/talk-guide"
+                  is_new: false
           - heading: "Code of Conduct"
+            description: "The IEEE VIS Code of Conduct"
             heading_url: "/year/2025/info/inclusion/code-of-conduct"
       - subsections:
           - heading: "Get Involved"
@@ -114,10 +104,10 @@ menu:
                     description: "Meet people for discussion and shared experiences"
                     url: "/year/2025/info/call-participation/meetups"
                     is_new: false
-                  #- text: "Become a student volunteer"
-                  #  description: "Support the conference and build your research network"
-                  #  url: "http://www.vissv.org"
-                  #  is_external: true
+                  - text: "Become a student volunteer"
+                    description: "Support the conference and build your research network"
+                    url: "https://vissv.github.io/"
+                    is_external: true
                   - text: "Become a peer reviewer"
                     description: "Volunteer to review submissions in Precision Conference Solutions (PCS)"
                     url: "https://new.precisionconference.com/review_volunteering"
@@ -126,6 +116,7 @@ menu:
                     description: "Register to vote and nominate/review candidates for the VSC/VEC"
                     url: "/year/2025/info/elections"
                     is_new: true
+
           - heading: "Supporters"
             heading_url: "/year/2025/supporters"
             description: "Your support makes this conference possible!"
@@ -136,34 +127,43 @@ menu:
     sections:
       - subsections:
           - heading: "Attending VIS 2025"
+            description: "Information for attendees"
             columns:
               - heading: "Attend"
                 links:
                   - text: "Registration"
+                    description: "Conference registration now open!"
                     url: "/year/2025/info/registration-and-travel/conference-registration"
-                    is_new: false
+                    is_new: true
                   - text: "Venue"
+                    description: "Austria Center Vienna"
                     url: "/year/2025/info/registration-and-travel/venue"
-                    is_new: true
+                    is_new: false
                   - text: "Transportation"
+                    description: "Getting around in Vienna"
                     url: "/year/2025/info/registration-and-travel/transportation"
-                    is_new: true
+                    is_new: false
                   - text: "Green Meeting Certificate"
+                    description: "IEEE VIS 2025 is a 'Green Meeting'"
                     url: "/year/2025/info/registration-and-travel/green-meeting"
-                    is_new: true
+                    is_new: false
               - heading: "Travel"
                 links:
                   - text: "Traveling to Vienna"
+                    description: "Travel information"
                     url: "/year/2025/info/registration-and-travel/travel-information"
                     is_new: false
                   - text: "Hotel Information"
+                    description: "Where to stay"
                     url: "/year/2025/info/registration-and-travel/hotel-information"
-                    is_new: true
+                    is_new: false
                   - text: "Visas"
+                    description: "Visa letter information"
                     url: "/year/2025/info/registration-and-travel/visas"
                     is_new: false
 
           - heading: "Code of Conduct"
+            description: "The IEEE VIS Code of Conduct"
             heading_url: "/year/2025/info/inclusion/code-of-conduct"
 
       - subsections:
@@ -174,11 +174,11 @@ menu:
                   - text: "Sights and famous places"
                     description: "Well-known sights and things to see"
                     url: "/year/2025/info/registration-and-travel/vienna-places"
-                    is_new: true
+                    is_new: false
                   - text: "Recommendations from Locals"
                     description: "Tips by local people what to not miss in Vienna"
                     url: "/year/2025/info/registration-and-travel/vienna-tips"
-                    is_new: true
+                    is_new: false
 
       - subsections:
           - heading: "Inclusion"
@@ -211,7 +211,15 @@ menu:
                   - text: "Week at a Glance"
                     description: "Preliminary overview of the conference week"
                     url: "/year/2025/info/program/week-at-a-glance"
-                    is_new: true
+                    is_new: false
+                  - text: "Workshops"
+                    description: "Informal setting to discuss emerging topics"
+                    url: "/year/2025/info/program/workshops"
+                    is_new: false
+                  - text: "Tutorials"
+                    description: "Learn new tools and application domains"
+                    url: "/year/2025/info/program/tutorials"
+                    is_new: false
                   #- text: "Paper Sessions"
                   #  description: "The latest research in theory, methods, and applications of visualization"
                   #  url: "/year/2025/info/papers-sessions"
@@ -220,46 +228,36 @@ menu:
                   #   description: "Nascent and recent work"
                   #   url: "/year/2025/info/posters"
                   #   is_new: true
-                  #- text: "Tutorials"
-                  #  description: "Learn new tools and application domains"
-                  #  url: "/year/2025/info/tutorials"
-                  #  is_new: false
-                  #- text: "Workshops"
-                  #  description: "Informal setting to discuss emerging topics"
-                  #  url: "/year/2025/info/workshops"
-                  #  is_new: false
-                  #- text: "Panels"
-                  #  description: "Discuss important and controversial issues"
-                  #  url: "/year/2025/info/panels"
-                  #  is_new: true
+                  - text: "Panels"
+                    description: "Discuss important and controversial issues"
+                    url: "/year/2025/info/program/panels"
+                    is_new: true
       - subsections:
           - heading: "Invited Speakers"
-            heading_url: "/year/2025/info/keynote-speaker"
+            heading_url: "/year/2025/info/invited-speakers/summary"
             description: "Keynote and Capstone Speakers"
             columns:
               - links:
                   - text: "Keynote"
                     description: "Hans-Christian Hege"
-                    url: "/year/2025/info/keynote-speaker"
-                    is_new: true
-                  #- text: "Capstone"
-                  #  description: "Prof. Catherine D'Ignazio, MIT"
-                  #  url: "/year/2025/info/capstone-speaker"
-                  #  is_new: false
-#           - heading: "Awards and Recognitions"
-#             description: "Recognize outstanding work by the VIS community"
-#             columns:
-#              - links:
+                    url: "/year/2025/info/invited-speakers/keynote-speaker"
+                    is_new: false
+                  - text: "Capstone"
+                    description: "Theo Deutinger"
+                    url: "/year/2025/info/invited-speakers/capstone-speaker"
+                    is_new: false
+          - heading: "Awards and Recognitions"
+            description: "Recognize outstanding work by the VIS community"
+            columns:
+              - links:
 #                - text: "Best Paper/Poster Awards"
 #                  url: "/year/2025/info/awards/best-paper-awards"
 #                  is_new: true
-#   # - text: "Service Awards"
-#   #   url: "https://www.google.com"
-#   # - text: "VGTC VIS Awards"
-#   #   url: "https://www.google.com"
-#                - text: "Test of Time Awards"
-#                  url: "/year/2025/info/awards/test-of-time-awards"
-#                  is_new: true
+#                - text: "VGTC VIS Awards"
+#                   url: "https://www.google.com"
+                - text: "Test of Time Awards"
+                  url: "/year/2025/info/awards/test-of-time-awards"
+                  is_new: true
       #- subsections:
           #- heading: "Plenary Sessions"
           #  description: "Engage with the VIS community, internal and external"
@@ -286,65 +284,124 @@ menu:
     sections:
       - subsections:
           - heading: "Associated Events"
+            description: "Events associated with the main conference"
             columns:
               - links:
-                  - text: "VIS Arts Program"
-                    description: "More information coming soon"
-                    url: "#"
-                    is_external: false
-                  - text: "VisInPractice"
-                    description: "Invited talks by visualization practitioners"
+                  - text: "VIS Arts Program (VISAP)"
+                    description: "A mini-conference and exhibition for vis researchers, designers, and artists"
+                    url: "https://visap.net/2025/"
+                    is_new: false
+                    is_external: true
+                  - text: "VisInPractice (VIP)"
+                    description: "Events of special interest for visualization practitioners"
                     url: "/year/2025/info/visinpractice"
                     is_new: false
-                  #- text: "LDAV Symposium"
-                  #  description: "Big Data Analysis and Visualization"
-                  #  url: "https://ldav.io/"
-                  #  is_external: true
-                  #- text: "VDS Symposium"
-                  #  description: "Visualization in Data Science"
-                  #  url: "https://www.visualdatascience.org/2025/index.html"
-                  #  is_external: true
-                  # - text: "VizSec Symposium"
-                  #   description: "Visualization for Cyber Security"
-                  #   url: "https://vizsec.org/vizsec2025/"
-                  #   is_external: true
           - heading: "Competitions"
             description: "Advancing visualization through competition"
             columns:
               - links:
                   - text: "Bio+MedVis Challenge"
+                    description: "Challenges from the Bio+MedVis field"
                     url: "http://biovis.net/2025/biovisChallenges_vis/"
                     is_external: true
                   - text: "SciVis Contest"
+                    description: "Material Science Challenge: discovery of novel materials"
                     url: "https://sciviscontest2025.github.io/"
                     is_external: true
-                  #- text: "VAST Challenge"
-                  #  url: "https://vast-challenge.github.io/2025/"
-                  #  is_external: true
+                  - text: "VAST Challenge"
+                    description: "Return to the island nation famous for fishing and quiet seaside communities"
+                    url: "https://vast-challenge.github.io/2025/"
+                    is_new: false
+                    is_external: true
+                  - text: "VisAgent Challenge"
+                    description: "AI agents data visualization"
+                    url: "https://www.visagent.org/"
+                    is_new: false
+                    is_external: true
 
-      #- subsections:
-      #    - heading: "IEEE VIS Workshops"
-      #      display: false
-      #      heading_url: "/year/2025/info/workshops"
-      #      description: "Informal settings to discuss emerging topics"
-      #      columns:
-      #        - links:
-      #            - text: "TopoInVis"
-      #              description: "Topological Data Analysis and Visualization"
-      #              url: "https://topoinvis-workshop.github.io/"
-      #              is_external: true
-      #            - text: "VISxAI"
-      #              description: "Visualization for AI Explainability"
-      #              url: "https://visxai.io/"
-      #              is_external: true
-      #            - text: "BELIV"
-      #              description: "evaluation and BEyond - methodoLogIcal approaches for Visualization"
-      #              url: "https://beliv-workshop.github.io/"
-      #              is_external: true
-      #            - text: "BioMedVis"
-      #              description: "Biological and Medical Visualization"
-      #              url: "https://biovis.net/2025/biovisChallenges_vis/"
-      #              is_external: true
+      - subsections:
+        - heading: "IEEE VIS Workshops"
+          display: true
+          is_new: false
+          heading_url: "/year/2025/info/program/workshops"
+          description: "Informal settings to discuss emerging topics"
+          columns:
+            - links:
+                - text: "ECWIDNA"
+                  description: "Engaging Critical Workforce In co-Design aNd Assessment"
+                  url: "https://sites.google.com/view/ecwidna"
+                  is_external: true
+                  is_new: false
+                - text: "alt.VIS"
+                  description: "Borrowed from the successful alt.chi model"
+                  url: "https://altvis.github.io/"
+                  is_external: true
+                  is_new: false
+                - text: "Uncertainty Visualization"
+                  description: "Relationships of Uncertainty, AI, and Decision-Making"
+                  url: "https://tusharathawale.github.io/uncertainty-vis-workshop-2025/index.html"
+                  is_external: true
+                  is_new: false
+                - text: "EduVis"
+                  description: "3rd Workshop on Visualization Education and Literacy"
+                  url: "https://ieee-eduvis.github.io/"
+                  is_external: true
+                  is_new: false
+                - text: "TopoInVis"
+                  description: "Workshop on Topological Data Analysis and Visualization"
+                  url: "https://topoinvis-workshop.github.io/2025/"
+                  is_external: true
+                  is_new: false
+                - text: "LDAV"
+                  description: "15th IEEE Workshop on Large Data Analysis & Visualization"
+                  url: "https://ldav.io/2025/"
+                  is_external: true
+                  is_new: false
+                - text: "VIS4DH ↔ DH4VIS"
+                  description: "9th Workshop on Visualization for the Digital Humanities"
+                  url: "https://vis4dh.dbvis.de/"
+                  is_external: true
+                  is_new: false
+                - text: "MERCADO"
+                  description: "Multimodal Exp. for Remote Comm. Around Data Online"
+                  url: "https://sites.google.com/view/mercadoworkshop/vis2025"
+                  is_external: true
+                  is_new: false
+                - text: "InputVis"
+                  description: "Envisioning a Research Agenda for Input Visualization"
+                  url: "/year/2025/info/program/workshops#InputVis"
+                  is_external: false
+                  is_new: false
+                - text: "Immersive Analytics"
+                  description: "Human Factors in Immersive Analytics"
+                  url: "/year/2025/info/program/workshops#immersive"
+                  is_external: false
+                  is_new: false
+                - text: "AccessViz"
+                  description: "2nd Workshop on Accessible Data Visualization"
+                  url: "https://accessviz.github.io/"
+                  is_external: true
+                  is_new: false
+                - text: "VAHC"
+                  description: "16th Annual Workshop on Visual Analytics in Healthcare"
+                  url: "https://visualanalyticshealthcare.github.io/homepage/2025/"
+                  is_external: true
+                  is_new: false
+                - text: "VISxAI"
+                  description: "8th Workshop on Visualization for AI Explainability"
+                  url: "https://visxai.io/"
+                  is_external: true
+                  is_new: false
+                - text: "VISxGenAI"
+                  description: "GenAI, Agents, and the Future of VIS"
+                  url: "https://visxgenai.github.io/"
+                  is_external: true
+                  is_new: false
+                - text: "VisComm"
+                  description: "7th Workshop on Visualization for Communication"
+                  url: "https://www.viscomm.io/"
+                  is_external: true
+                  is_new: false
       #    - heading: "Meetups"
       #      heading_url: "/year/2025/info/meetups"
       #      description: "Meet for discussion and shared experiences"
@@ -364,16 +421,16 @@ menu:
       #            description: "A Reproducibility Stamp Initiative for Visualization"
       #            url: "/year/2025/info/meetups#reproducibility"
       - subsections:
-          #- heading: "Community"
-          #  heading_url: "/year/2025/info/call-participation/community"
-          #  description: "Explore social and topic-based community groups"
-          #  columns:
-      #      - heading: "Connect"
-      #        links:
-                 #- text: "Vis Buddies"
-                 #  url: "/year/2025/info/meetups#vis-newcomers"
-                 #- text: "Job Postings"
-                 #  url: "/year/2025/info/jobs"
+          - heading: "Community"
+            heading_url: "/year/2025/info/call-participation/community"
+            description: "Explore social and topic-based community groups"
+           # columns:
+           # - heading: "Connect"
+           #   links:
+           #       - text: "Vis Buddies"
+           #        url: "/year/2025/info/meetups#vis-newcomers"
+           #       - text: "Job Postings"
+           #        url: "/year/2025/info/jobs"
 #              - heading: "Social Groups"
 #                links:
 #                  - text: "Velo Club de VIs"
@@ -404,6 +461,7 @@ menu:
     sections:
       - subsections:
           - heading: "Previous Years"
+            description: "IEEE VIS conference websites in previous years"
             display_style: "inline"
             columns:
               - heading: ""
@@ -472,14 +530,22 @@ menu:
                     url: "http://www.hpc.msstate.edu/conferences/vis97/"
                   - text: "1996"
                     url: "http://www.hpc.msstate.edu/conferences/vis96/"
-          - heading: "Previous Awards"
+          - heading: "History"
+            description: "Historical information"
             columns:
               - links:
-                  - text: "Historical Best Paper Awards"
-                    url: "/year/2025/info/history/best-paper-award"
+                  - text: "Test-of-Time Awards"
+                    url: "/year/2025/info/history/test-of-time-awards"
+                  - text: "Historical Best Paper and Poster Awards"
+                    url: "/year/2025/info/history/best-paper-awards"
+                  - text: "Historical Keynotes and Capstones"
+                    url: "/year/2025/info/history/keynote-capstone"
+                  - text: "List of Tutorials"
+                    url: "/year/2025/info/history/tutorials"
 
       - subsections:
           - heading: "Committees"
+            description: "IEEE VIS committees"
             columns:
               - links:
                   - text: "VIS 2025 Organizing Committee"
@@ -493,8 +559,9 @@ menu:
                   - text: "Area Curation Committee"
                     url: "/year/2025/info/committees/area-committee"
                   - text: "reVISe 1.1"
-                    url:  "/blog/vis-2025-revise"
+                    url:  "/year/2025/blog/vis-2025-revise"
           - heading: "Governance Documents"
+            description: "Information on the IEEE VIS governance structure"
             columns:
               - links:
                   - text: "IEEE Governance Structure"
@@ -502,18 +569,22 @@ menu:
                   - text: "Best Paper Process"
                     url: "/governance/best-paper-process"
           - heading: "Code of Conduct"
+            description: "The IEEE VIS Code of Conduct"
             heading_url: "/year/2025/info/inclusion/code-of-conduct"
 
       - subsections:
           - heading: "Upcoming Years"
+            description: "IEEE VIS in the upcoming years"
             columns:
               - links:
                   - text: "How to Host IEEE VIS"
                     description: "Guidelines to bid for a future location of IEEE VIS"
                     url: "/governance/bids"
                   - text: "Being General Chair of IEEE VIS"
+                    description: "The IEEE VIS General Chair role"
                     url: "/governance/generalChairs"
           - heading: "Web Documentation"
+            description: "Information on website updates"
             columns:
               - links:
                   - text: "Updating the website content"

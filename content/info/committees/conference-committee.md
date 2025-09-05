@@ -12,7 +12,9 @@ permalink: /year/2025/info/committees/conference-committee
 | Krešimir Matković | *VRVis GmbH* |
 |---
 | **Program Chairs** | |
+| Alfie Abdul-Rahman | *King's College London* |
 | Tushar Athawale | *Oak Ridge National Laboratory* |
+| Gautam Chaudhary | *Alcon* |
 | Michelle Dowling | *Pacific Northwest National Laboratory* |
 | Michael Oppermann | *AIT Austrian Institute of Technology GmbH* |
 |---
@@ -55,9 +57,9 @@ permalink: /year/2025/info/committees/conference-committee
 | Lingyun Yu | *Xi'an Jiaotong-Liverpool University* |
 |---
 | **Panels & Tutorials Chairs** | |
-| Cagatay Turkay | *University of Warwick* |
-| Kai Lawonn | *University of Jena* |
 | Leilani Battle | *University of Washington* |
+| Kai Lawonn | *University of Jena* |
+| Qianwen Wang | *University of Minnesota* |
 |---
 | **Open Practices Chairs** | |
 | Laura Garrison | *University of Bergen* |
@@ -65,11 +67,11 @@ permalink: /year/2025/info/committees/conference-committee
 | Lace Padilla | *Northeastern University* |
 |---
 | **Workshop Chairs** | |
-| Ross Maciejewski  | *Arizona State University* |
+| Ana Crisan | *University of Waterloo* |
 | Petra Isenberg | *INRIA* |
+| Ross Maciejewski  | *Arizona State University* |
 | Michael Papka | *University of Illinois Chicago* |
 | Arvind Satyanarayan | *Massachusetts Institute of Technology* |
-| Ana Crisan | *University of Waterloo* |
 |---
 | **Arts Program Chairs** | |
 | Damla Cay | *Moholy-Nagy University of Art and Design Budapest* |
@@ -81,80 +83,80 @@ permalink: /year/2025/info/committees/conference-committee
 | Arjun Srinivasan | *Databricks* |
 |---
 | **Doctoral Colloquium Chairs** | |
-| Yunhai Wang | *Renmin University of China* |
 | Michael Behrisch | *Utrecht University* |
 | Emily Wall | *Emory University* |
+| Yunhai Wang | *Renmin University of China* |
 |---
 | **Publication Chairs** | |
-| Minsuk Kahng | *Google* |
+| Minsuk Kahng | *Yonsei University* |
 | Zhicheng Liu | *University of Maryland College Park* |
-| Cindy Xiong | *Georgia Tech* |
+| Cindy Xiong Bearfield | *Georgia Tech* |
 |---
 | **Community, Meetups, & Election Chairs** | |
-| Kyle Wm. Hall | *Temple University* |
 | Isaac Cho | *Utah State University* |
+| Kyle Wm. Hall | *Temple University* |
 | Georgia Panagiotidou | *King’s College London* |
 |---
 | **Student Volunteer Chairs** | |
 | Magdalena 'Momo' Boucher | *St. Pölten University of Applied Sciences* |
 | Hamza Elhamdadi | *University of Massachusetts Amherst* |
-| Yixuan Wang | *Arizona State University* |
-| Hyeon Jeon | *Seoul National University* |
 | Zeyang Huang | *Linköping University* |
+| Hyeon Jeon | *Seoul National University* |
+| Yixuan Wang | *Arizona State University* |
 |---
 | **Publicity Chairs** | |
-| Khairi Reda | *Indiana University* |
 | Alex Kale | *University of Chicago* |
+| Khairi Reda | *Indiana University* |
 |---
 | **Inclusivity & Accessibility Chairs** | |
 | Laura Koesten | *University of Vienna* |
-| John Thompson | *Microsoft Research* |
 | Ab Mosca | *Westfield State University* |
+| John Thompson | *Microsoft Research* |
 |---
 | **Supporters Chairs** | |
 | Michael Krone | *University of Tübingen* |
 | Victor Mateevitsi | *Argonne National Laboratory* |
-| Chris Traxler | *VRVis GmbH* |
 | Dominik Moritz | *Carnegie Mellon University* |
+| Chris Traxler | *VRVis GmbH* |
 |---
 | **Finance Chairs** | |
 | Loretta Auvil | *National Center for Supercomputing Applications* |
-| Maria C. Velez | *Marvel Analytics* |
 | Bhavana Doppalapudi | *University of South Florida* |
+| Maria C. Velez | *Marvel Analytics* |
 |---
 | **Incoming General Chairs (VIS26)** | |
-| Arvind Satyanarayan | *Massachusetts Institute of Technology* |
 | Lane Harrison | *Worcester Polytechnic Institute* |
-| Hendrik Strobelt | *IBM Research* |
 | Lace Padilla | *Northeastern University* |
+| Arvind Satyanarayan | *Massachusetts Institute of Technology* |
+| Hendrik Strobelt | *IBM Research* |
 |---
 | **Archive Chairs** | |
-| Mukund Raj | *Broad Institute* |
 | Changjian Chen | *Hunan University* |
+| Fabio Miranda | University of Illinois Chicago |
+| Mukund Raj | *Broad Institute* |
 | Ashley Suh | *MIT Lincoln Laboratory* |
 | Nicole Sultanum | *Tableau* |
-| Fabio Miranda | University of Illinois Chicago |
 |---
 | **Web Chairs** | |
-| Shayan Monadjemi | *Oak Ridge National Laboratory* |
-| Harry Li | *Massachusetts Institute of Technology* |
-| Mashrur Rashik | *University of Massachusetts Amherst* |
 | Mahmood Jasim | *Louisiana State University* |
+| Harry Li | *Massachusetts Institute of Technology* |
+| Shayan Monadjemi | *Oak Ridge National Laboratory* |
+| Mashrur Rashik | *University of Massachusetts Amherst* |
 |---
 | **Technology Chairs** | |
 | Jan Byska | *Masaryk University* |
-| Alexander Rind | *St. Pölten University of Applied Sciences* |
 | Kelvin Li | *Databricks* |
 | Xinyi Liu | *Northeastern University* |
+| Alexander Rind | *St. Pölten University of Applied Sciences* |
 |---
 | **VAST Challenge Chairs** | |
-| Jereme Haack | *Pacific Northwest National Laboratory* |
-| Steve Gomez | *MIT Lincoln Laboratory* |
 | R. Jordan Crouser | *Smith College* |
+| Steve Gomez | *MIT Lincoln Laboratory* |
+| Jereme Haack | *Pacific Northwest National Laboratory* |
 |---
 | **SciVis Contest Chairs** | |
-| Christoph Heinzl | *University of Passau* |
 | Tim Gerrits | *RWTH Aachen University* |
+| Christoph Heinzl | *University of Passau* |
 |---
 | **IEEE** | 
 | Kathy Park | |

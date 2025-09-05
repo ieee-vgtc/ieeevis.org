@@ -7,64 +7,70 @@ contact: finance@ieeevis.org
 ---
 
 ## VIS 2025 EVENT REGISTRATION
+
 The 2025 IEEE Visualization and Visual Analytics Conference, running from November 2 - 7, is organized as an on-site event.
 The conference will be held at the Austria Center Vienna (ACV) in Vienna, Austria.
-There will be completely virtual session (organized in Zoom) for presenters who are not able to travel.
+There will be a completely virtual session (organized in Zoom) for presenters who are not able to travel.
+
+<a class="button" href="https://cvent.me/YkREVy" target="_blank"> LINK TO REGISTRATION </a>
 
 
 ### Important Dates
 <ul>
-<li>Registration opening: <strong>Late May / Early June 2025</strong></li>
-<li>Early Registration deadline: <strong>Early September 2025</strong></li>
+<li>Early bird registration deadline: <strong>September 21, 2025</strong></li>
 </ul>
 
+
+<!-- ---------------------------------------------------------------------------------- -->
 
 ## IN-PERSON AND VIRTUAL PRESENTERS OF MAIN CONFERENCE PAPERS, MAIN CONFERENCE SHORT PAPERS AND INVITED JOURNAL PAPERS
 <ul>
 <li>One speaker for each main conference paper, main conference short paper, or invited journal paper <b>MUST</b> register under the On-site Speaker Conference Registration or the Virtual Speaker Conference Registration option (Student Speaker options will be available).</li>
-<li>Presenters can add multiple papers to their Speaker Conference Registration.</li>
-<li>Presenters participating only at symposia, workshops, tutorials, or panels <b>SHOULD NOT</b> select the Speaker Conference Registration category. Instead, they need to use the On-site Conference Registration category.</li>
+<li>Presenters can add one additional paper to their Speaker Conference Registration (i.e., a maximum of 2 papers per Speaker Conference Registration).</li>
 <li>Speaker Conference Registration includes admission to all conference sessions, symposia, tutorials and workshops, welcome reception (Tuesday), conference dinner (Wednesday), and access to VIS 2025 online content.</li>
+<li>Presenters participating at symposia, workshops, tutorials, or panels <b>SHOULD NOT</b> select the Speaker Conference Registration category. Instead, they need to use the On-site Conference Registration category.</li>
 </ul>
 
-<!-- <a class="button" href="#">IN-PERSON AND VIRTUAL SPEAKERS REGISTER NOW</a> -->
 
 ### Speaker Conference Registration Fees
 
-Speaker Conference Registration fees will be published as soon as registration is open.
-<!--
-    <table>
-      <tr>
-        <th>Category</th>
-        <th>Early Reg fee USD (Ends Sept 1)</th>
-        <th>Late Reg fee USD </th>
-      </tr>
-    <tr>
-        <td>On-site Speaker Conference Registration</td>
-        <td>$000</td>
-        <td>$000</td>
-    </tr>
-    <tr>
-        <td>On-site Student Speaker Conference Registration</td>
-        <td>$000</td>
-        <td>$000</td>
-    </tr>
-    <tr>
-        <td>Virtual Speaker Conference Registration</td>
-        <td>$000</td>
-        <td>$000</td>
-    </tr>
-    <tr>
-        <td>Virtual Student Speaker Conference Registration</td>
-        <td>$000</td>
-        <td>$000</td>
-    </tr>
-    </table>
--->
+We need to charge 20% VAT on the registration fees.
+
+<table>
+<tr>
+    <th>Category</th>
+    <th style="width: 28%">Early Reg fee USD<br />(Ends Sept 21)</th>
+    <th style="width: 28%">Late Reg fee USD </th>
+</tr>
+<tr>
+    <td>On-site Speaker Conference Registration</td>
+    <td>$945 ($1,134 incl. VAT)</td>
+    <td>$945 ($1,134 incl. VAT)</td>
+</tr>
+<tr>
+    <td>On-site Student Speaker Conference Registration</td>
+    <td>$520 ($624 incl. VAT)</td>
+    <td>$520 ($624 incl. VAT)</td>
+</tr>
+<tr>
+    <td>Virtual Speaker Conference Registration</td>
+    <td>$945 ($1,134 incl. VAT)</td>
+    <td>$945 ($1,134 incl. VAT)</td>
+</tr>
+<tr>
+    <td>Virtual Student Speaker Conference Registration</td>
+    <td>$520 ($624 incl. VAT)</td>
+    <td>$520 ($624 incl. VAT)</td>
+</tr>
+</table>
+
 **All Speaker Conference Registration fees are not refundable.**
 
 
+<!-- ---------------------------------------------------------------------------------- -->
+
 ## ATTENDEES
+
 Attendees should register online in advance and pay via credit card or wire transfer.
 <ul>
   <li><b>Full Week Conference Registration Includes:</b> Admission to all conference sessions, symposia, tutorials and workshops, welcome reception (Tuesday), conference dinner (Wednesday), and access to VIS 2025 online content.</li>
@@ -73,15 +79,11 @@ Attendees should register online in advance and pay via credit card or wire tran
 </ul>
 IEEE VIS provides discounted registration rates for students and IEEE Members.
 
-<!--
-<a class="button" href="#"> IN-PERSON CONFERENCE PARTICIPANT REGISTRATION </a>
--->
 
 ### Participant Registration Fees
 
-Participant Registration fees will be published as soon as registration is open.
+We need to charge 20% VAT on the registration fees.
 
-<!--
 <table>
   <tr>
     <th></th>
@@ -91,73 +93,62 @@ Participant Registration fees will be published as soon as registration is open.
   </tr>
   <tr>
     <th>Category</th>
-    <th>Early Reg fee USD<br>(Ends: Sept 1)</th>
+    <th>Early Reg fee USD<br>(Ends: Sept 21)</th>
     <th style="border-right: 1px dashed #a46314;">Late Reg fee USD</th>
-    <th>Early Reg fee USD<br>(Ends: Sept 1)</th>
+    <th>Early Reg fee USD<br>(Ends: Sept 21)</th>
     <th style="border-right: 1px dashed #a46314;">Late Reg fee USD</th>
-    <th>Early Reg fee USD<br>(Ends: Sept 1)</th>
+    <th>Early Reg fee USD<br>(Ends: Sept 21)</th>
     <th>Late Reg fee USD</th>
   </tr>
 <tr>
     <td>IEEE Member</td>
-    <td>$000</td>
-    <td style="border-right: 1px dashed #a46314;">$250</td>
-    <td>$000</td>
-    <td style="border-right: 1px dashed #a46314;">$500</td>
-    <td>$000</td>
-    <td>$000</td>
-
+    <td>$210 ($252 incl. VAT)</td>
+    <td style="border-right: 1px dashed #a46314;">$250 ($300 incl. VAT)</td>
+    <td>$420 ($504 incl. VAT)</td>
+    <td style="border-right: 1px dashed #a46314;">$500 ($600 incl. VAT)</td>
+    <td>$840 ($1,008 incl. VAT)</td>
+    <td>$1010 ($1,212 incl. VAT)</td>
 </tr>
 <tr>
     <td>Non-Member</td>
-    <td>$000</td>
-    <td style="border-right: 1px dashed #a46314;">$320</td>
-    <td>$000</td>
-    <td style="border-right: 1px dashed #a46314;">$635</td>
-    <td>$000</td>
-    <td>$000</td>
-
+    <td>$265 ($318 incl. VAT)</td>
+    <td style="border-right: 1px dashed #a46314;">$320 ($384 incl. VAT)</td>
+    <td>$530 ($636 incl. VAT)</td>
+    <td style="border-right: 1px dashed #a46314;">$635 ($762 incl. VAT)</td>
+    <td>$1,050 ($1,260 incl. VAT)</td>
+    <td>$1,260 ($1,512 incl. VAT)</td>
 </tr>
 <tr>
     <td>Student IEEE Member</td>
-    <td>$000</td>
-    <td style="border-right: 1px dashed #a46314;">$140</td>
-    <td>$000</td>
-    <td style="border-right: 1px dashed #a46314;">$275</td>
-    <td>$000</td>
-    <td>$000</td>
+    <td>$115 ($138 incl. VAT)</td>
+    <td style="border-right: 1px dashed #a46314;">$140 ($168 incl. VAT)</td>
+    <td>$230 ($276 incl. VAT)</td>
+    <td style="border-right: 1px dashed #a46314;">$275 ($330 incl. VAT)</td>
+    <td>$460 ($552 incl. VAT)</td>
+    <td>$550 ($660 incl. VAT)</td>
 </tr>
 <tr>
     <td>Student Non-Member</td>
-    <td>$000</td>
-    <td style="border-right: 1px dashed #a46314;">$175</td>
-    <td>$000</td>
-    <td style="border-right: 1px dashed #a46314;">$350</td>
-    <td>$000</td>
-    <td>$000</td>
+    <td>$145 ($174 incl. VAT)</td>
+    <td style="border-right: 1px dashed #a46314;">$175 ($210 incl. VAT)</td>
+    <td>$290 ($348 incl. VAT)</td>
+    <td style="border-right: 1px dashed #a46314;">$350 ($420 incl. VAT)</td>
+    <td>$580 ($696 incl. VAT)</td>
+    <td>$695 ($834 incl. VAT)</td>
 </tr>
 <tr>
     <td>Life IEEE Member</td>
-    <td>$000</td>
-    <td style="border-right: 1px dashed #a46314;">$140</td>
-    <td>$000</td>
-    <td style="border-right: 1px dashed #a46314;">$275</td>
-    <td>$000</td>
-    <td>$000</td>
+    <td>$115 ($138 incl. VAT)</td>
+    <td style="border-right: 1px dashed #a46314;">$140 ($168 incl. VAT)</td>
+    <td>$230 ($276 incl. VAT)</td>
+    <td style="border-right: 1px dashed #a46314;">$275 ($330 incl. VAT)</td>
+    <td>$460 ($552 incl. VAT)</td>
+    <td>$550 ($660 incl. VAT)</td>
 </tr>
 </table>
--->
 
 **Registration fees are refundable up to 30 days before the beginning of the conference.**
 
-<!--
-## ALL OTHER VIRTUAL ATTENDEES
-
-Virtual attendees should register online in advance and pay via credit card.
-<ul>
-  <li><b> Virtual Conference Registration Includes:</b> Access to online content including downloadable proceedings, in-person presenter-only streamed sessions including all plenary sessions, virtual presenter-only sessions hosted on Zoom, and workshops, panels, and other associated events equipped with Zoom-hybrid capabilities. </li>
-</ul>
--->
 
 ### Diversity and Inclusivity Participants
 
@@ -166,12 +157,14 @@ Virtual attendees should register online in advance and pay via credit card.
 <li>Individuals who need financial assistance but reside in a country not included on the Diversity Admission list, can select the Inclusivity Admission option for a free virtual registration.</li>
 </ul>
 
-<!--
-<a class="button" href="#"> VIRTUAL CONFERENCE PARTICIPANT REGISTRATION </a>
--->
-
 
 ### Registration FAQS
+
+**Q: I am presenting a TVCG or CG&A invited paper.**
+
+<ul>
+Speakers for invited papers should use the On-Site Speaker Registration category.
+</ul>
 
 **Q: I am a poster presenter. Do I need to register using the Speaker Registration category?**
 
@@ -179,16 +172,46 @@ Virtual attendees should register online in advance and pay via credit card.
 No. Posters presenters should use the regular On-Site Participant Registration category. 
 </ul>
 
-**Q: I will present a paper at a  workshop/symposium/associated event. Do I need to register using the Speaker Registration category?**
+**Q: I will present a paper at a workshop. Do I need to register using the Speaker Registration category?**
 
 <ul>
-No. Workshop or symposium paper presenters and authors should use the regular On-Site Participant or Virtual Participant Registration categories. 
+No. Workshop or symposium paper presenters and authors should use the regular On-Site Participant Registration categories. 
 </ul>
 
-**Q: If I complete an Speaker Registration, do I also need to separately complete an On-Site or Virtual Participant Registration to attend the conference?**
+**Q: If I complete a Speaker Registration, do I also need to separately complete an On-Site or Virtual Participant Registration to attend the conference?**
 
 <ul>
 No. Speaker Registration includes the benefits of an on-site or virtual participation, and thus completing it will enable attendance in your preferred mode.
 </ul>
 
 If you have additional clarification questions, please contact <a href="mailto:registration@ieeevis.org"> registration@ieeevis.org</a>
+
+
+<!-- ---------------------------------------------------------------------------------- -->
+
+## ACCESS TO 2025 ONLINE CONTENT
+
+Individuals <b>not registered as in-person conference participants or virtual speakers</b> can purchase access to the online content.
+<b>Online content access includes:</b> Access to online content (i.e., presentation recordings), including downloadable proceedings.
+
+<table>
+<tr>
+    <th>Category</th>
+    <th style="width: 28%">Early Reg fee USD<br />(Ends Sept 21)</th>
+    <th style="width: 28%">Late Reg fee USD </th>
+</tr>
+<tr>
+    <td>Access to Online Content</td>
+    <td>$20</td>
+    <td>$20</td>
+</tr>
+<tr>
+    <td>Access to Online Content - Diversity/Inclusivity Participant</td>
+    <td>Free</td>
+    <td>Free</td>
+</tr>
+</table>
+
+<a class="button" href="https://www.eventbrite.com/e/2025-ieee-vis-access-to-online-content-tickets-1461995049549" target="_blank"> ACCESS TO ONLINE CONTENT </a>
+
+**Access to online content registration fees are not refundable.**

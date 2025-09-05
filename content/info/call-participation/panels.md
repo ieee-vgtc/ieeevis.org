@@ -29,12 +29,12 @@ Panels are scheduled for the duration of an entire paper session; panel proposal
 
 ## Submissions
 
-Panel proposals are 1-page (approx. 500 words) documents that should outline:
+Panel proposals are 1-2 page documents that should outline:
 
-1. A **description of the panel topic**. This should provide the title of the panel and describe the core topic/question/issue that the panel is addressing. In cases where the panel follows up on the topic of a previously held panel, we ask the organizers to point this out and to detail the advances expected from the follow-up.
-2. A  **short description of the panel format and anticipated schedule**. This should be a brief description to outline the time to be spent on panelist presentations, and mechanisms for encouraging audience participation. Based on audience feedback, the duration of panelist presentations should allow ample time for intra-panel discussion and discussions between the panel and the audience.
-3. A  **list of prospective panelists**. Organizers should list the names and details (institution, contact info) of potential panelists indicating how they envision the panelists contributing to the discussion. Panels generally involve 4 to 5 panelists. We encourage that by the proposal deadline, organizers have already been in touch with the panelists and have provisional commitments. The final confirmed list of panelists will be required by the camera-ready deadline.
-4. The **list of organizers**. This should list the organizers along with their brief 3-5 sentence bios.
+1. A **description of the panel topic**. This should provide the title of the panel and describe the core topic/question/issue that the panel is addressing. In cases where the panel follows up on the topic of a previously held panel, we ask the organizers to point this out and to detail the advances expected from the follow-up. This can be breif one or two paragraphs. **The most important thing is to argue for how the panel will be interesting for a VIS audience in relation to recent panels in previous years.**
+2. A  **short description of the panel format and anticipated schedule**. This should be a brief description to outline the time to be spent on panelist presentations, and mechanisms for encouraging audience participation. Based on audience feedback, the duration of panelist presentations should allow ample time for intra-panel discussion and discussions between the panel and the audience. We only expect a table of the timeline and a couple paragraphs of details.
+3. A  **list of prospective panelists**. Organizers should list the names and details (institution, contact info) of potential panelists indicating how they envision the panelists contributing to the discussion. Panels generally involve 4 to 5 panelists. We encourage that by the proposal deadline, organizers have already been in touch with the panelists and have provisional commitments. The final confirmed list of panelists will be required in advance of the camera-ready deadline, so the program chairs can minimize schedule conflicts in the final program.
+4. The **list of organizers**. This should list the organizers along with their brief 3-4 sentence bios.
 
 
 Submissions should be submitted via [PCS](http://new.precisionconference.com/vgtc/). Please note the [formatting guidelines](https://tc.computer.org/vgtc/publications/conference) when preparing your submission. 
@@ -51,7 +51,7 @@ We encourage you to review accepted tutorials from recent conferences: [2024](ht
 |------|----------|
 | Friday, June 27, 2025 | Proposal Submission |
 | Friday, July 25, 2025 | Notification |
-| Friday, August 22, 2025 | Final Submission of Panel Summaries and Video Fast Forwards |
+| Friday, August 22, 2025 | Final Submission of Panel Summaries |
       
 All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth) (same as 2024)**.
 
@@ -62,5 +62,3 @@ Leilani Battle, *University of Washington, USA*
 Kai Lawonn, *University of Jena, Germany*
 
 Qianwen Wang, *University of Minnesota, USA*
-
-

@@ -74,7 +74,7 @@ Here you can find some tips from locals for people visiting Vienna.
 </table>
 
 
-#### Watch a concert at Szene
+#### Watch a concert at ((Szene))
 
 <table>
     <tr>

@@ -7,15 +7,18 @@ sidebar: call-for-participation
 contact: papers@ieeevis.org
 ---
 
-This page provides authors of accepted IEEE VIS Full Papers with important information for the remainder of the process until the conference.
+This page provides authors of accepted **IEEE VIS Full Papers** with important information for the remainder of the process until the conference.
 
-IEEE VIS Short Papers will follow a similar set of guidelines, with the exception that the paper length limits are shortened to 4+1 pages.
+**IEEE VIS Short Papers** will follow a similar set of guidelines, with the exception that the paper length limits are shortened to 4+1 pages.
 
-Authors of papers for workshops and symposia should check with their event organizers for specific information on deadlines and format.
+Authors of papers for **workshops** should check with their event organizers for specific information on deadlines and format.
+
 
 ## Camera-Ready Paper Submission
 
-**DEADLINE: August 8.** Submit final camera-ready papers and supplemental materials via the PCS submission system. Files submitted here are the default versions that we will use for preparing proceedings in IEEE Xplore and the downloadable content.
+**DEADLINES: July 1 (Short Papers), August 8 (Full Papers)**
+
+Submit final camera-ready papers and supplemental materials via the PCS submission system. Files submitted here are the default versions that we will use for preparing proceedings in IEEE Xplore and the downloadable content.
 
 Camera-ready papers may not exceed 11 pages (full papers, 9 pages of main text and 2 pages of references) or 5 pages (short papers, 4 pages of main text and 1 page of references). The final two pages (full papers) or 1 page (short papers) can also include links to the Supplemental Material, Figure Credits, and Acknowledgements sections, in addition to references. Note that the Supplemental Material section in the paper should only include pointers to the material and explanation of what is included in that material, not the material itself; similarly, Figure Credits should only include credits, not actual figure material (images or captions). Papers may be shorter than this limit but must make a significant contribution (compared to the separate Short Papers program). See the [Paper Submission Guidelines](/year/2025/info/call-participation/paper-submission-guidelines) for more details.
 
@@ -26,7 +29,7 @@ Please check the second round reviewer comments (if any) and incorporate their s
 You can submit supplemental material (e.g. a video, appendix) for your work for inclusion in the digital archive. TVCG requires that supplemental material is also peer-reviewed, hence, this is only allowed if you have already submitted your supplemental material and if the reviewers have found it acceptable. Videos are usually up to 5 minutes in length, and you may also include other supplemental material such as additional images, appendices, or source code. 
 
 The [VGTC website](https://tc.computer.org/vgtc/publications/journal) has complete information regarding formatting requirements of your final revised PDF. Common editing issues include:
-- For full papers, use the [correct JOURNAL style template](https://tc.computer.org/vgtc/publications/journal). **Note: there is a new template for 2025**
+- For full papers, use the [correct JOURNAL style template](https://tc.computer.org/vgtc/publications/journal). **Note: there was a new template in 2024**
 - For short papers, use the [correct CONFERENCE style template](https://tc.computer.org/vgtc/publications/conference/).
 - Index terms are mandatory.
 - For full papers, the abstract and index term sections use an em-dash between the heading and content; there should not be a space on either side of the em-dash and the content begins on the same line as the heading.
@@ -50,40 +53,27 @@ Please see our [VIS Accessibility Guide](/year/2025/info/call-participation/make
 
 ## Other Required Submission Items
 
-Shortly after receiving final notifications from the second review cycle, the conference will send you an email from the Publications chairs with complete instructions. This email will be sent to the corresponding author for the paper and it will include a unique submission ID. The email will also include links to directly upload presentation materials via our Presentation Material Upload system. Here is what you will be expected to submit and the deadlines for each item.
+Shortly after receiving final notifications from the second review cycle, the conference will send you an email from the Publications chairs with complete instructions. This email will be sent to the corresponding author for the paper and it will include a unique submission ID. Here is what to expect:
 
 ### 1. Speaker registration
 
-All full papers are required to have one author [register](/year/2025/info/registration/conference-registration) as a speaker, irrespective of whether they plan to presented in person or virtually, and must be presented by that person. If exceptional circumstances prevent that person from presenting, please contact [the conference committee](mailto:info@ieeevis.org) as soon as possible.
-
+All full papers are required to have one author register as a speaker, irrespective of whether they plan to present in person or virtually, and must be presented by that person. If exceptional circumstances prevent that person from presenting, please contact [the conference committee](mailto:program@ieeevis.org) as soon as possible.
 
 ### 2. Copyright Release
 
 For papers that will be published in IEEE TVCG or on IEEE Xplore, authors are asked to complete a copyright release form. This will be handled via IEEE’s Conference Publishing Services (IEEE CPS) via a link provided to you via email.
 
-
 ### 3. Presentation Materials
 
-Please see the [talk guide](/year/2025/info/presenter-information/talk-guide) for information on how to submit your video preview (**due August 22**) and representative image (**due August 22**).  
+Please see the [talk guide](/year/2025/info/presenter-information/talk-guide) for information on how to present your work at VIS 2025.
 
 
 ## Contact
 
-### Program Chairs
-
-* Michelle Dowling, *Pacific Northwest National Laboratory*
-* Lane Harrison, *Worcester Polytechnic Institute*
-* Kate Isaacs, *University of Utah*
-
-*Email: [program@ieeevis.org](mailto:program@ieeevis.org)*
-
 ### Publication Chairs
 
-* Cindy Xiong Bearfield, *Georgia Institute of Technology*
-* Minsuk Kahng, *Google*
+* Minsuk Kahng, *Yonsei University*
 * Zhicheng Liu, *University of Maryland College Park*
+* Cindy Xiong Bearfield, *Georgia Tech*
 
-
-*Email: [publications@ieeevis.org](mailto:publications@ieeevis.org)*
-
-
+Email: [publications@ieeevis.org](mailto:publications@ieeevis.org)

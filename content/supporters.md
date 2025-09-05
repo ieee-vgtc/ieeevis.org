@@ -18,13 +18,13 @@ Through a six-day program of workshops and tutorials, exposition, panels, poster
 **>> [Browse our support options in the prospectus](/year/2025/assets/IEEE-VIS-2025-Supporters-Prospectus.pdf) <<**
 
 
-**>> Contact the IEEE VIS Supporters Chairs [<supporters -at- ieeevis.org>](mailto:supporters@ieeevis.org) <<**
+**>> Contact the IEEE VIS Supporters Chairs [<supporters@ieeevis.org>](mailto:supporters@ieeevis.org) <<**
 
 ---
 
 ![Frame 4vis23](https://user-images.githubusercontent.com/1230497/214549327-b763bf31-f701-4619-96ef-f9b6b8a0bef2.png)
 
-## Supporting and joining the conference can help you: 
+### Supporting and joining the conference can help you
 * Gain visibility for your organization
 * Learn about trends and the latest advances in visualization
 * Connect to academics and other industry partners in data visualization
@@ -34,7 +34,7 @@ Through a six-day program of workshops and tutorials, exposition, panels, poster
 
 ![Frame 6vis23](https://user-images.githubusercontent.com/1230497/214549414-374935c3-a6f8-4a23-89ef-188d3c84e4ae.png)
 
-## The conference covers topics including
+### The conference covers topics including
 * Visual analytics
 * Human-computer interaction 
 * AI and applied machine learning
@@ -49,10 +49,9 @@ Through a six-day program of workshops and tutorials, exposition, panels, poster
 * Human perception and human factors
 * Visualization art
 
-
 ![Frame 8vis23](https://user-images.githubusercontent.com/1230497/214549515-93bca9e4-5ce0-4b5a-9b9c-f6fe5913efbf.png)
 
-## Over six days, the conference features 
+### Over six days, the conference features 
 * presentations of the latest research in data visualization 
 * workshops and tutorials 
 * an exposition and art show 
@@ -64,14 +63,11 @@ Through a six-day program of workshops and tutorials, exposition, panels, poster
 
 ![Frame 3vis23](https://user-images.githubusercontent.com/1230497/214549391-3c244d13-a8a1-46a7-b90a-dc654484a658.png)
 
-
-## In supporting the conference as a VIS 2025 Supporter, you: 
+### In supporting the conference as a VIS 2025 Supporter, you: 
 * will have access to a range of options for promotion and engagement, based on level of support: Platinum, Gold, Bronze, ... 
 * will have access to the conference and its events through registrations for your staff 
 * will have the opportunity to directly support Diversity, Equity and Inclusion priorities
 * will have access to the conference and its events through registrations for your staff
 * will support a growing research community dedicated to helping humans understand their data
-  
 
 ![Frame 10vis23](https://user-images.githubusercontent.com/1230497/214549434-a59b00eb-9cad-4854-bf10-8821f50f947d.png)
-

@@ -5,95 +5,106 @@ active_nav: "Program"
 permalink: /year/2025/info/program/panels
 ---
 
-Program for VIS 2025 not finalized yet
+## <a name="panel-neurath">"Words Divide, Pictures Unite" - Revisiting Otto Neurath's ISOTYPE at 100</a>
+
+<!-- When: Thursday, October 17, 2024 3:15 PM-4:30 PM EDT (UTC-4)<br/> -->
+
+**Organized by**: Wolfgang Aigner, Eva Mayr, Torsten Möller, Verena Ingrid Prantl, and Florian Windhager
+
+**Panelists**: Danielle Albers Szafir, Theo Deutinger, Hans-Christian Hege, Samuel Huron, Gunther Sandner, Christiane Thenius
+
+<!-- ABSTRACT -->
+One hundred years after Otto Neurath’s team introduced ISOTYPE---a pioneering method of pictorial statistics designed to make complex data accessible to broad audiences---this panel examines their vision with fresh eyes. Hosted in Vienna, the birthplace of ISOTYPE, and at a moment when visualization’s role in public discourse is more urgent than ever, this panel aims to reflect on the legacy and relevance of ISOTYPE.
+
+What does "visualization for the masses" mean today in an age of data, algorithmic personalization, and fragmented attention? What have we learned from ISOTYPE’s collaborative design approach and its icon-based visual language, and how does its legacy reverberate in today's visualization projects? Conversely, how would Neurath's team have been influenced by current work on inclusive design, evaluation, data journalism, or interaction paradigms?
+
+Bringing together historians of visualization, philosophers, designers, critical practitioners, and exhibition curators, the panel aims to connect past and present and situate ISOTYPE within a broader reflection on "visualization for the public"---from democratic communication to visual propaganda, from iconic minimalism to data storytelling for broad audiences.
+
+This panel is related to prior panel discussions at VIS, e.g., on the "Past, Present, and Future of Data Storytelling" (2024), on "Reflecting on Visualization History to Drive Future Innovation'' (2021), or Visualization for Social Good (2020)
+It complements earlier thematic discussions by providing direct engagement with ISOTYPE as a historical phenomenon with tangible artifacts and a documented visualization design process, that still informs modern practice.
 
 
-<!--
+## <a name="panel-reviewing">IEEE VIS Reviewing - On a Path to Self-Destruction?</a>
 
-## <a name="panel-kirby">Dear Younger Me: A Dialog About Professional Development Beyond The Initial Career Phases</a>
+<!-- When: Wednesday, October 16, 2024 12:00 PM-1:00 PM EDT (UTC-4) -->
 
-When: Thursday, October 17, 2024 3:15 PM-4:30 PM EDT (UTC-4)<br/>
+**Organized by**: Petra Isenberg, Gunther H. Weber, Niklas Elmqvist, and Narges Mahyar
 
-The early phases of a technical career follow a fairly prescribed trajectory: graduation, initial positions, promotion, tenure (or its industry equivalent), etc. In these early phases, the milestones are clear (degrees, appointments, promotions), and mentoring is often explicit (research advisors, mentoring committees). But beyond these early phases, the explicit goals and resources do not exist. As we get to later career stages, the set of options and opportunities grows. We have observed that while the opportunities grow at later career phases, the amount of mentoring and discussion seems to disappear. The goal of this panel is to foster more dialog about later career phases. As a starting point, we hope to raise awareness of the expanded range of opportunities and invite dialog about how others have thought about crafting their careers. We hope to foster a dialog among the community and begin a tradition of mentoring beyond initial career phases.
+**Panelists**: Han-Wei Shen, Michael Sedlmair, Melanie Tory, Helwig Hauser, Bei Wang, Tamara Munzner 
 
-## <a name="panel-brehmer">VIS Conference Futures: Community Opinions on Recent Experiences, Challenges, and Opportunities for Hybrid Event Formats</a>
+<!-- ABSTRACT -->
+This panel will examine concerning trends in IEEE VIS peer review
+content. We want to celebrate what works but also discuss how the
+current state of reviewing may be narrowing the field’s scope and
+even hampering scientific progress. We will discuss five key issues:
+increased gatekeeping that excludes emerging research areas, bias
+against incremental work, excessive demands for concrete guide-
+lines, nitpicking over minor flaws, and subjective opinion-based rejections. These reviewing patterns threaten the multidisciplinary
+nature of visualization research and may contribute to declining
+submission rates. The panel will explore how the community can
+maintain its rigorous standards while fostering inclusive, construc-
+tive peer review that supports diverse research contributions.
 
-When: Wednesday, October 16, 2024 12:00 PM-1:00 PM EDT (UTC-4)
+## <a name="panel-psychology">What Does Psychology Really Mean to Visualization Research? Towards PsychXVis and VisXPsych</a>
 
-**Organizers:** Matthew Brehmer (University of Waterloo), Narges Mahyar (University of Massachusetts Amherst)<br/>
-<br>**Panelists:** Tim Dwyer (Monash University), John AlexisGuerra-Gomez (Northeastern University), Petra Isenberg (INRIA), Takayuki Itoh (Ochanomizu University), Elsie Lee-Robbins (Postal Regulatory
-Commission), Andrew McNutt (University of Utah)<br/>
+<!-- When: Thursday, October 17, 2024 8:30 AM-9:45 AM EDT (UTC-4) -->
 
-This past year, the VIS Executive Committee (VEC) has been considering the extent to which VIS should adopt a hybrid format. Despite advances in communication technology, creating an engaging virtual experience that matches the energy of a conventional in-person gathering remains challenging. Meanwhile, a functional hybrid conference imposes additional burdens on organizers, with added logistical complexities and their associated costs. Wicked problems refer to complex, interconnected issues that lack clear solutions. Conference planning epitomizes this concept, as it involves several interconnected factors and stakeholders with various backgrounds, expectations and objectives, and uncertainties. As we navigate the wicked problem of conference formats, acknowledging this complexity is crucial. While there is no one-size-fits-all solution, striking a balance between the benefits of in-person engagement and virtual participation will be key. To ground this conversation about conferences in data, we analyzed recent VIS attendance data to better understand how the effects of location and format (in-person, virtual, hybrid) on attendance. We also partnered with the IEEE VGTC (Visualization & Graphics Technical Community) Executive Committee to conduct an online community survey about conference experiences. This hybrid panel is dedicated to discussing the implications of the data we collected, gathering together the diverse perspectives that will further contextualize and reflect the voices from our survey. Given the range of responses and the strong opinions that respondents voiced in the open-ended comments, we expect this to be a lively forum that will inform and inspire VIS community members and especially those in organizing committee roles (or who may undertake such roles in the coming years).
+**Organized by**: Arran Zeyu Wang and Danielle Albers Szafir
 
-<br> <a href="https://ieeevis.org/year/2024/blog/vis-2024-VEC-survey-results" target="_blank">Panel webpage</a>
+**Panelists**: Min Chen, Karen Schloss, Alvitta Ottley, Lace Padilla, Cindy Xiong Bearfield, Alex Kale  
 
-## <a name="panel-wang">Human-Centered Computing Research in South America: Status Quo, Opportunities, and Challenges</a>
+<!-- ABSTRACT -->
+This panel aims to discuss the critical yet underdeveloped relationship between psychology and visualization (VIS) research. While VIS frequently draws upon psychological principles—particularly in perception and cognition—current integration remains shallow, often relying on heuristics and anecdotal evidence rather than rigorous scientific foundations. This gap hinders the development of generalizable design principles, limits consideration of human factors, and risks creating technically advanced but ineffective or misleading visualizations. Simultaneously, psychology's growing interest in using visualization as an experimental tool presents future potential for bidirectional collaboration.
+We anticipate that its output can catalyze deeper, actionable engagement between two fields, including: (1) Promote a psychologically grounded understanding of effective VIS design; (2) Advocate for empirically rigorous, theory-based VIS research; (3) Identify opportunities for VIS to transform psychological inquiry; and (4) Inspire interdisciplinary research directions. Panelists—visualization experts spanning backgrounds on experimental psychology, behavioral psychology, cognitive science, vision science, decision-making, social science, to human personality—will discuss bridging disciplinary divides in publication norms, methods, and terminology. Their diverse backgrounds (e.g., color semantics, uncertainty communication, cognitive interfaces) ensure a comprehensive exploration of how psychology can transform VIS from rule-of-thumb practices to evidence-based principles, while VIS offers novel methodologies for psychological discovery. The discussion responds to rising interest evidenced by past initiatives integrating vision science, a foundational Visualization Psychology book, and an upcoming Dagstuhl seminar, positioning IEEE VIS conferences as vital hubs for this cutting-edge interdisciplinary advancement.
 
-When: Thursday, October 17, 2024 8:30 AM-9:45 AM EDT (UTC-4)
 
-**Organizers:** Chaoli Wang (University of Notre Dame)
-<br>**Panelists:** Cesar Collazos (University of Cauca), Luciana Nedel (Federal University of Rio Grande do Sul), Luis Gustavo Nonato (University of Sao Paulo), Denis Parra (Pontifical Catholic University of Chile)<br/>
+## <a name="panel-manufacturing">Industry Meets Research: Future Needs and Opportunities for Visual Analytics in Industrial Manufacturing</a>
 
-Human-centered computing (HCC) research, including visualization (VIS), virtual reality (VR), and human-computer interaction (HCI), is on the rise worldwide. Due to various reasons, such as socio-economic development, government investment, and talent acquisition and retention, HCC research in developing countries and regions lags. This panel gathers leading HCC researchers from South America to report the status quo, highlight the latest advances, identify opportunities, and discuss challenges, especially in the wave of AI and amid global issues such as climate change and democracy crises. The goal is to inform the IEEE VIS Conference attendees of HCC research progress in South America and seek possibilities to elevate its status.
+<!-- When: Wednesday, October 16, 2024 3:15 PM-4:30 PM EDT (UTC-4) -->
 
-## <a name="panel-li">Past, Present, and Future of Data Storytelling</a>
+**Organized by**: Markus Wagner, Christina Stoiber, Alexander Rind, Tobias Schreck, Marc Streit, and Kresimir Matkovic
 
-When: Wednesday, October 16, 2024 3:15 PM-4:30 PM EDT (UTC-4)
+**Panelists**: Christian Mittermayr, Harald Piringer, Lena Cibulski, Jörn Kohlhammer
 
-**Organizers:** Haotian Li (HKUST), Yun Wang (Microsoft)
-<br>**Panelists:** Benjamin Bach (INRIA), Sheelagh Carpendale (Simon Fraser University), Fanny Chevalier (University of Toronto), Nathalie Henry Riche (Microsoft Research)<br/>
+<!-- ABSTRACT -->
+Industrial manufacturing is increasingly shaped by data-driven processes, making Visual Analytics (VA) a key enabler for innovation. This panel explores how VA can address real-world industrial challenges through academic and industry collaboration. The 90-minute session combines moderated discussion, survey-informed topic selection, and interactive audience tools to ensure broad relevance and engagement. With experts from both domains, the panel will highlight the identified needs along the central Question: How can VA effectively support the evolving demands of industrial manufacturing? The panel aims to outline future directions that align scientific advances with operational needs.
 
-Data storytelling has become an important approach to communicate insights and knowledge from data in practice. The visualization community has spent tremendous efforts investigating data storytelling practices, designing new forms of visuals, proposing authoring tools, and recently introducing intelligent support for expressive and engaging data stories. To reflect the research progress and have an outlook for future opportunities, we propose this panel with experienced researchers from academia and industry to ignite new ideas and discussions for advancing data storytelling research.
 
-## <a name="panel-shu">What Do Visualization Art Projects Bring to the VIS Community?</a>
+## <a name="panel-xr">TALK, TRY, TELL: Challenges and Opportunities for Theory-Grounded Data Visualization in Extended Reality</a>
 
-When: Wednesday, October 16, 2024 8:30 AM-9:45 AM EDT (UTC-4)
+<!-- When: Wednesday, October 16, 2024 8:30 AM-9:45 AM EDT (UTC-4) -->
 
-**Organizers:** Xinhuan Shu (Newcastle University), Yifang Wang (Northwestern University), Junxiu Tang (Zhejiang University)
-<br>**Panelists:** Angus Forbes (Purdue University), Rebecca Xu (Syracuse University), Rewa Wright (Queensland University of Technology), Pedro Cruz (Northeastern University), Weidi Zhang (Arizona State University), Samuel Huron (Télécom Paris at the Institut Polytechnique de Paris)<br>
+**Organized by**: Andreas Bueckle, Christiane Hütter, Sebastian Pirch, Felix Müller, Philipp Friedrich, Martin Chiettini, Jörg Menche, and Katy Börner
 
-Visualization art projects have flourished over the last decades. They make the artistic use of data and visualization to “embody a forceful point of view”, “with the intent of making art”. The visualization community has actively embraced the trend, from the early trials of Art Exhibition/Show to nowadays the biggest associated event in the main VIS conference, the VIS Arts Program. Hundreds of innovative and creative visualization art projects have been exhibited, attracting submissions from artists, designers, and practitioners who are not regular VIS conference participants. On the other side, visualization art projects present obvious differences from mainstream visualization research in terms of author teams, targeted audiences, topics, designs, authoring tools, etc. At VISAP’s 12th anniversary, it is worth looking into what these artistic explorations bring to the community.
+**Panelists**: Niklas Elmqvist, Renata G. Raidou, Chris Bryan, Hannes Kaufmann, Peter Mindek
 
-The key theme of this panel is to discuss the relations between visualization art projects and visualization research. An initial set of topics is proposed to spark the discussion, including the role of data, the use of visual encoding, perception, authoring tools, and the impacts of visualization art projects to the community.
+<!-- ABSTRACT -->
+Numerous formalizations have emerged for creating, interpreting, and teaching data visualizations. The past decade has witnessed significant advances in visualization paradigms beyond keyboard and mouse, like immersive analytics. Mature visualization ecosystems are established for screen-based technologies; however, no counterparts have emerged yet in the immersive visualization domain. Consistent implementations are limited due to scattered tools and platforms, while theoretical frameworks require extension to extended reality (XR).
 
-<br> <a href="https://shuxinhuan.github.io/visap-panel/" target="_blank">Panel webpage</a>
+“TALK, TRY, TELL: Challenges and Opportunities for Theory-Grounded Data Visualization in Extended Reality” addresses these gaps through an innovative "TALK, TRY, TELL" format that combines theoretical discourse with hands-on experience. Expert speakers present their own research on theory and practice and examine how established principles translate to immersive environments, representing a diverse and balanced spectrum from XR specialists and information designers, including implementers and theorists (TALK).
+Following the presentations, attendees will engage with two virtual reality (VR) demonstration applications built on different engines and hardware to exemplify approaches in immersive analytics: biomedical data visualization involving 3D models of adult human anatomy and collaborative network visualization and analysis (TRY).
 
-## <a name="panel-ebert">20 Years of Visual Analytics</a>
+During the TRY phase, the audience will be invited to share their insights on the individual experiences exhibited via a digital whiteboard (TELL). This format ensures attendees not only understand the conceptual challenges but also experience the perceptual and interaction complexities first-hand. The panel aims to establish a roadmap for developing both theoretical foundations and practical toolkits to advance data visualization in XR as a mature field with strong theory and practice within the visualization community.
 
-When: Wednesday, October 16, 2024 1:30 PM-2:45 PM EDT (UTC-4)<br/>
+## <a name="panel-cognition">From Cognition to Context: A Conversation about Technical Approaches, Social Values, and Tradeoffs in Visualization</a>
 
-**Organizers:** David Ebert (University of Oklahoma), Wolfgang Jentner (University of Oklahoma), Ross Maciejewski (Arizona State University), Jieqiong Zhao (Augusta University)
-<br>**Panelists:** Daniel A. Keim (University of Konstanz), Silvia Miksch (Vienna University of Technology), Bill Pike (Pacific Northwest National Laboratory) (tentative)<br/>
+<!-- When: Wednesday, October 16, 2024 1:30 PM-2:45 PM EDT (UTC-4)<br/> -->
 
-In 2004, Visual Analytics emerged as an outgrowth of scientific visualization and information visualization with a focus on the mechanisms of analytic reasoning facilitated by interactive visual interfaces. Now, twenty years later, this panel invites pioneers from the field of visual analytics to talk about the foundations of visual analytics, key works that helped define the field, and what they see as the emerging challenges for the next generation of visual analytics researchers.
+**Organized by**: Lane Harrison, Alex Kale, Miriah Meyer, Carolina Nobre, and Arvind Satyanarayan
 
-<br> <a href="https://jieqiongzhao.github.io/va20-panel/" target="_blank">Panel webpage</a>
+**Panelists**: Karen Schloss, Catherine D’Ignazio, John Burn-Murdoch
 
-## <a name="panel-quadri">(Yet Another) Evaluation Needed? A Panel Discussion on Evaluation Trends in Visualization</a>
+<!-- ABSTRACT -->
+Visualization research has traditionally prioritized individual framings of visualization effectiveness, such as perceptual accuracy and cognitive efficiency. While these values have produced foundational contributions, they may not fully account for the goals and constraints of public-facing visualizations—in journalism, advocacy, education, and the arts—where audience diversity, narrative framing, and sociopolitical context play critical roles. This panel brings together a cognitive scientist, a data journalism practitioner, and an interdisciplinary teaching team to discuss how different domains reconcile technical ideals with real-world demands. Through a series of short vignettes, panelists will share concrete examples of value tensions in their work and reflect on how different disciplines—such as communication, media studies, and urban science—might expand the VIS research toolkit. In addition to sparking discussion, the panel will provide attendees with a zine to support continued conversation in labs and classrooms. Ultimately, we aim to encourage deeper reflection on how competing value systems shape visualization practices—and how engaging with them can enhance, rather than undermine, technical rigor.
 
-When: Thursday, October 17, 2024 10:15 AM-11:30 AM EDT (UTC-4)
+## <a name="panel-practices">VisAble: Who do we exclude by current visualization practices and how do we change that?</a>
 
-**Organizers:** Ghulam Jilani Quadri (University of Oklahoma), Danielle Albers Szafir (University of North Carolina-Chapel Hill), Arran Zeyu Wang (University of North Carolina-Chapel Hill), Hyeon Jeon (Seoul National University)
-<br>**Panelists:** Niklas Elmqvist (Aarhus University), Tobias Isenberg (INRIA), Rita Borgo (Kings College London), Michael Sedlmair (University of Stuttgart), Cindy Xiong Bearfield (Georgia Tech)<br/>
+<!-- When: Thursday, October 17, 2024 10:15 AM-11:30 AM EDT (UTC-4) -->
 
-In the rapidly evolving field of visualization, rigorous evaluation validates new techniques and demonstrates the effectiveness of and demonstrates the effectiveness of existing practices. The evaluation of visualization systems is fundamental to ensuring their effectiveness, usability, and impact. For example, evaluation helps researchers to identify potential issues or weaknesses in the system and allows visualization designers and developers to address them before the system is released.
-Faithful evaluations also provide valuable insights into how users interact with and perceive the system, enabling designers to make informed decisions about design choices and improvements. However, in recent years, the number of evaluations in any given paper has increased. This increase raises critical questions about the evaluation's sustainability, feasibility, and methodological rigor. With this panel, we aim to explore various perspectives and insights from leading experts in the field on "how many evaluations are enough" and the criteria for knowing when we need another study.
+**Organized by**: Nina Doerr, Sita Vriend, Katrin Angerbauer, Miriah Meyer, and Michael Sedlmair
 
-<br> <a href="https://vis-panel-enough-evaluation.github.io/" target="_blank">Panel webpage</a>
+**Panelists**: Dominik Moritz, Cindy Xiong Bearfield, Alice Thudt, Bruce Walker, Kim Marriott, Danielle Albers Szafir
 
-## <a name="panel-borkin">Vogue or Visionary? Current Challenges and Future Opportunities in Situated Visualizations</a>
+<!-- ABSTRACT -->
+Visualization research is based on the premise of facilitating and fostering the understanding of the underlying data and its phenomena. But how accessible are our visualizations to begin with? Do our visualizations facilitate novices and users of different domains to perceive and understand the data as they aim to? How do we define accessibility? Our panel wants to discuss different dimensions of accessible and inclusive data visualizations and their potential tensions. While current research focuses on making visualization accessible for disabled people, accessibility research also includes elderly people, children, as well as people with different backgrounds, cultural differences, or a lack of data and visualization literacy.
 
-When: Thursday, October 17, 2024 1:30 PM-2:45 PM EDT (UTC-4)
-Location: Room 101+102
-
-**Organizers:** Michelle A. Borkin (Northeastern University), Melanie Tory (Roux Institute, Northeastern University)
-<br>**Panelists:** Nathalie Bressa (Telecom Paris) , Niklas Elmqvist (Aarhus University), Petra Isenberg (INRIA), Michael Sedlmair (University of Stuttgart), Wesley Willett (University of Calgary) <br/>
-
-Situated visualizations are visual data representations that are deeply integrated with the spaces, objects, and activities in a physical environment. Situated visualizations enable people to take advantage of data to support their work or daily activities, while minimizing the cognitive effort of accessing and using that data within physical environments. They display data in close proximity to physical referents, or physical objects to which the data refer. Situated visualizations may be created with a variety of technologies including small displays and mobile devices, augmented reality goggles, handheld projectors, and data physicalizations. Evidence suggests that situated visualization tools can reduce the friction of interacting with data in the context of physical world activities, serve as reminders for data actions, and encourage engagement and reflection.
-
-Yet situated visualizations have not be widely adopted, in part because there is little design guidance. Numerous challenges remain, including context switching (e.g., between primary physical activities and secondary visualization tasks), integration with existing systems (e.g., manufacturing equipment), alignment with physical referents (which may move), potential interference or distraction from primary tasks (which in some contexts could be dangerous), the need for people to learn and adopt new technology into well ingrained workflows and the need to accommodate individual differences and accessibility. New technology is enabling, but is it just a fad? This panel will discuss and debate these questions to clarify the current challenges as well as future opportunities for situated visualizations.
-
-<br> <a href="https://situatedvis.github.io/" target="_blank">Panel webpage</a>
-
--->

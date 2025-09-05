@@ -11,13 +11,12 @@
 #       image: #Path to the logo image
 #       url:   #link to the supporter's website
 
-
-#  - category: Platinum
-#    image_size: 400
-#    supporters:
-#      - name: "Tableau"
-#        image: /assets/supporters/tableau.png
-#        url: "https://www.tableau.com/"
+  - category: Platinum
+    image_size: 400
+    supporters:
+      - name: "VRVis GmbH"
+        image: /assets/supporters/vrvis.png
+        url: "https://www.vrvis.at/"
 
 #  - category: Gold
 #    image_size: 360
@@ -29,26 +28,56 @@
   - category: Silver
     image_size: 320
     supporters:
+      - name: "Apple Inc."
+        image: /assets/supporters/apple.png
+        url: "https://www.apple.com/"
       - name: "VISUAPPS GmbH"
         image: /assets/supporters/visuapps.png
         url: "https://www.visuapps.com/"
-      - name: "Apple Inc."
-        image: /assets/supporters/apple.png
-        url: "https://www.apple.com"
+      - name: "Autodesk"
+        image: /assets/supporters/autodesk.png
+        url: "https://www.autodesk.com/"
 
-#  - category: Bronze
-#    image_size: 200
-#    supporters:
-#      - name: "VRVis"
-#        image: /assets/supporters/vrvis.png
-#        url: "https://www.vrvis.at/en/"
-#      - name: "Databricks"
-#        image: /assets/supporters/databricks.png
-#        url: "https://www.databricks.com/"
+  - category: Bronze
+    image_size: 200
+    supporters:
+      - name: "Nomic"
+        image: /assets/supporters/nomic.png
+        url: "https://www.nomic.ai/"
+      - name: "Databricks Inc."
+        image: /assets/supporters/databricks.png
+        url: "https://www.databricks.com/"
+      - name: "DATAVIEW Handels- und Systemberatungs Ges.m.b.H."
+        image: /assets/supporters/dataview.png
+        url: "https://dataview.at/"
+      - name: "Tableau"
+        image: /assets/supporters/tableau.png
+        url: "https://www.tableau.com/"
+      - name: "Adobe"
+        image: /assets/supporters/adobe.png
+        url: "https://www.adobe.com/"
 
-#  - category: VISAP
-#    image_size: 140
-#    supporters:
+  - category: Academic
+    image_size: 200
+    supporters:
+      - name: "Zhejiang University"
+        image: /assets/supporters/zhejiang_university.png
+        url: "https://www.zju.edu.cn/english/"
+      - name: "Hangzhou City University"
+        image: /assets/supporters/hangzhou_city_university.png
+        url: "https://english.hzcu.edu.cn/"
+      - name: "Hangzhou Research Institute of AI and Holographic Technology"
+        image: /assets/supporters/hangzhou_ai_research.png
+        url: "https://english.hzcu.edu.cn/"
+      - name: "Frontiers of Computer Science"
+        image: /assets/supporters/fcs.png
+        url: "https://link.springer.com/journal/11704"
+      - name: "King Abdullah University of Science and Technology (KAUST)"
+        image: /assets/supporters/kaust.png
+        url: "https://www.kaust.edu.sa/en/"
+      - name: "Monash University"
+        image: /assets/supporters/monash_emvis.png
+        url: "https://www.monash.edu/it/hcc/embodied-visualisation"
 
 #  - category: Exhibitors
 #    image_size: 140
