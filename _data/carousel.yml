@@ -1,15 +1,15 @@
 - title: "Conference registration now open"
-  image: "vienna_burgtheater.jpg"
+  image: "../assets/carousel/vienna_burgtheater.jpg"
   button-text: "VIS 2025 Registration"
   button-url: "/info/registration-and-travel/conference-registration"
   active: "active"
 
 - title: "VIS 2025 takes place in an anniversary year"
-  image: "isotypes.jpg"
+  image: "../assets/carousel/isotypes.jpg"
   button-text: "100 Years of Visual Language"
   button-url: "/blog/vis-2025-GC-blog-ISOTYPES"
 
 - title: "IEEE VIS 2025 in Vienna, Austria"
-  image: "skyline_vienna.jpg"
+  image: "../assets/carousel/skyline_vienna.jpg"
   button-text: "Destination Information"
   button-url: "/destination"
