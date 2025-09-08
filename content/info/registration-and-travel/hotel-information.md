@@ -40,6 +40,10 @@ Wagramer Straße 16<br />
 1220 Wien<br />
 [Hotel Website](https://www.schanihotels.com/hotels/hotel-schani-uno-city){:target= "_blank"} | [Google Maps Link](https://maps.app.goo.gl/wVQBiCgmrRzKJdFU9){:target= "_blank"}
 
+<p style="text-align:center;">
+  <img src="/year/2025/assets/venue-and-travel/green_hotel.png" height="70" />
+</p>
+
 The hotel offers a booking link for bookings between Tuesday (Nov 4) and Friday (Nov 7).
 The hotel offers a **12% discount** on the flexible, variable rate - please note that prices can change daily.
 Buffet breakfast costs €25 per person per day.
@@ -66,6 +70,10 @@ Elisabethstraße 5<br />
 1010 Wien<br />
 [Hotel Website](https://www.motel-one.com/de/hotels/wien/hotel-wien-staatsoper){:target= "_blank"} | [Google Maps Link](https://maps.app.goo.gl/iDm9FCG9EB8SiZ789){:target= "_blank"}
 
+<p style="text-align:center;">
+  <img src="/year/2025/assets/venue-and-travel/green_hotel.png" height="70" />
+</p>
+
 Close to the U1 subway station "Oper - Karlsplatz".
 
 Room "THE ONE" at **€132.33** or **€142.59** (excluding breakfast) - depending on the date - for single or double use.
@@ -78,6 +86,10 @@ Hotel Mercure Wien Zentrum<br />
 Fleischmarkt 1A<br />
 1010 Wien<br />
 [Hotel Website](https://all.accor.com/hotel/0781/index.en.shtml){:target= "_blank"} | [Google Maps Link](https://maps.app.goo.gl/VgPjJWineBMpaK3WA){:target= "_blank"}
+
+<p style="text-align:center;">
+  <img src="/year/2025/assets/venue-and-travel/green_hotel.png" height="70" />
+</p>
 
 Close to the U1 subway station "Schwedenplatz".
 
