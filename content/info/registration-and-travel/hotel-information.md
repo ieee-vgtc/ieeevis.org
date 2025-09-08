@@ -40,10 +40,12 @@ Wagramer Straße 16<br />
 1220 Wien<br />
 [Hotel Website](https://www.schanihotels.com/hotels/hotel-schani-uno-city){:target= "_blank"} | [Google Maps Link](https://maps.app.goo.gl/wVQBiCgmrRzKJdFU9){:target= "_blank"}
 
-Room "Smart Street" and "Smart Twin" at **€110** (excluding breakfast) and room "Smart Garden" at **€123.20** (excluding breakfast).
-Prices and availability of rooms may vary depending on the current booking situation.
+The hotel offers a booking link for bookings between Tuesday (Nov 4) and Friday (Nov 7).
+The hotel offers **12% discount** on the flexible, variable rate - please note that prices can change daily.
+Buffet breakfast costs €25 per person per day.
 
-To book a room, use the code **VIS2025** when contacting the hotel, or use the [online booking form](https://my.schanihotels.com/search/offers?PROMO_CODE=VIS2025&ADULTS=1&CHILDREN=&ARRIVAL=2025-11-04&DEPARTURE=2025-11-07&PROPERTY_IDS=VIEUNO){:target= "_blank"}
+Reservations have to be made exclusively by the guests via the booking form using a valid credit card and booking code.
+To book a room, use the code **VIS2025** and use the [online booking form](https://my.schanihotels.com/search/offers?PROMO_CODE=VIS2025&ADULTS=1&CHILDREN=&ARRIVAL=2025-11-04&DEPARTURE=2025-11-07&PROPERTY_IDS=VIEUNO){:target= "_blank"}
 
 #### Meliá Vienna
 Meliá Vienna<br />
