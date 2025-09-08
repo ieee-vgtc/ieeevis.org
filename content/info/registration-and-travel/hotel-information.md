@@ -41,7 +41,7 @@ Wagramer Straße 16<br />
 [Hotel Website](https://www.schanihotels.com/hotels/hotel-schani-uno-city){:target= "_blank"} | [Google Maps Link](https://maps.app.goo.gl/wVQBiCgmrRzKJdFU9){:target= "_blank"}
 
 The hotel offers a booking link for bookings between Tuesday (Nov 4) and Friday (Nov 7).
-The hotel offers **12% discount** on the flexible, variable rate - please note that prices can change daily.
+The hotel offers a **12% discount** on the flexible, variable rate - please note that prices can change daily.
 Buffet breakfast costs €25 per person per day.
 
 Reservations have to be made exclusively by the guests via the booking form using a valid credit card and booking code.
