@@ -15,11 +15,7 @@ This is the list of accepted papers for VIS 2025, as well as the paper sessions 
 
 ### Best Papers
 
-**Causality-based Visual Analytics of Sentiment Contagion in Social Media Topics**<br />
-by Renzhong Li, Yuchen Lin, Shuainan Ye, Buwei Zhou, Zhining Kang, Tai-Quan Peng, Wenhao Fu, Yingcai Wu, & Tan Tang
-
-**NLI4VolVis: Natural Language Interaction for Volume Visualization via LLM Multi-Agents and Editable 3D Gaussian Splatting**<br />
-by Kuangshi Ai, Kaiyuan Tang, & Chaoli Wang
+### 2:00pm - 3:15pm (CET)
 
 **"They Aren't Built For Me": An Exploratory Study of Strategies for Measurement of Graphical Primitives in Tactile Graphics**<br />
 by Areen Khalaila, Lane Harrison, Nam Wook Kim, & Dylan Cashman
@@ -31,7 +27,18 @@ by Zach Cutler, Jack Wilburn, Hilson Shrestha, Yiren Ding, Brian Bollen, Khandak
 by Paul Parsons & Prakash Chandra Shukla
 
 
+### 3:45pm - 5:00pm (CET)
+
+**Causality-based Visual Analytics of Sentiment Contagion in Social Media Topics**<br />
+by Renzhong Li, Yuchen Lin, Shuainan Ye, Buwei Zhou, Zhining Kang, Tai-Quan Peng, Wenhao Fu, Yingcai Wu, & Tan Tang
+
+**NLI4VolVis: Natural Language Interaction for Volume Visualization via LLM Multi-Agents and Editable 3D Gaussian Splatting**<br />
+by Kuangshi Ai, Kaiyuan Tang, & Chaoli Wang
+
+
 ### Best Short Papers
+
+### 11:15pm - 12:30pm (CET)
 
 **Toward a Logic of Generalization about Visualization as a Decision Aid**<br />
 by Alex Kale
@@ -48,7 +55,7 @@ by Ridwan Mahbub, Mohammed Saidul Islam, Md Tahmid Rahman Laskar, Mizanur Rahman
 
 #### VA for AI [Full Papers]
 
-**ConceptViz: A Visual Analytics Approach for Exploring Concepts in Large Language Models**<br />
+**ConceptViz: A Visual Analytics Approach for Exploring Concepts in Large Language Models [Honorable Mention]**<br />
 by Haoxuan Li, Zhen Wen, Qiqi Jiang, Chenxiao Li, Yuwei Wu, Yuchen Yang, Yiyao Wang, Xiuqi Huang, Minfeng Zhu, & Wei Chen
 
 **OW-CLIP: Data-Efficient Visual Supervision for Open-World Object Detection via Human-AI Collaboration**<br />
@@ -257,7 +264,7 @@ by Seon Gyeom Kim, Jae Young Choi, Yuseung Phillip Lee, Jaeryung Chung, Ryan Ros
 **Visual Fingerprints for Detecting Data Characteristics**<br />
 by Meredith Siang-Yun Chou & Hans-Jörg Schulz
 
-**Out of the Loop: Enhancing Documentation and Transparency in Causal Loop Diagrams to Capture Multiple Perspectives**<br />
+**Out of the Loop: Enhancing Documentation and Transparency in Causal Loop Diagrams to Capture Multiple Perspectives [Honorable Mention]**<br />
 by Jessica Bou Nassar, Yu Xuan Yio, Nethara Athukorala, Simran, Songhai Fan, Cynthia A Huang, Lyn Bartram, Tim Dwyer, & Sarah Goodwin
 
 **Fast and Faithful Edge Bundling for Large and Complex Networks**<br />
@@ -301,7 +308,7 @@ by Yongsu Ahn & Nam Wook Kim
 
 #### The VIS in GenAI [Full Papers]
 
-**Qualitative Study for LLM-assisted Design Study Process: Strategies, Challenges, and Roles**<br />
+**Qualitative Study for LLM-assisted Design Study Process: Strategies, Challenges, and Roles [Honorable Mention]**<br />
 by Shaolun Ruan, Rui Sheng, Xiaolin Wen, Jiachen Wang, Tianyi Zhang, Yong WANG, Tim Dwyer, & Jiannan Li
 
 **HypoChainer: A Collaborative System Combining LLMs and Knowledge Graphs for Hypothesis-Driven Scientific Discovery**<br />
@@ -391,7 +398,7 @@ by Sandhya Rajendran, Alessio Arleo, Tatiana von Landesberger, Silvia Miksch, Ma
 **Posterity: Balancing historical context and visual dynamism while visualizing a collection of American labor posters**<br />
 by Linh Pham, Daniel Rodriguez-Rodriguez, Jingfei Huang, & Hui-Ying Suk
 
-**Chronotome: Real-Time Topic Modeling for Streaming Embedding Spaces**<br />
+**Chronotome: Real-Time Topic Modeling for Streaming Embedding Spaces [Honorable Mention]**<br />
 by Matte Lim, Catherine Yeh, Martin Wattenberg, Fernanda Viegas, & Panagiotis Michalatos
 
 **Data-Driven Compute Overlays for Interactive Geographic Simulation and Visualization**<br />
@@ -459,10 +466,10 @@ by Manfred Klaffenboeck, Michael Gleicher, Johannes Sorger, Michael Wimmer, & To
 **Locally Adapted Reference Frame Fields using Moving Least Squares**<br />
 by Julio Rey Ramirez, Peter Rautek, Tobias Günther, & Markus Hadwiger
 
-**CD-TVD:Contrastive Diffusion for 3D Super-Resolution with Scarce High-Resolution Time-Varying Data**<br />
+**CD-TVD:Contrastive Diffusion for 3D Super-Resolution with Scarce High-Resolution Time-Varying Data [Honorable Mention]**<br />
 by Chongke Bi, Xin Gao, Jiakang Deng, Guan Li, & Jun Han
 
-**Exploring 3D Unsteady Flow using 6D Observer Space Interactions**<br />
+**Exploring 3D Unsteady Flow using 6D Observer Space Interactions [Honorable Mention]**<br />
 by Xingdi Zhang, Amani Ageeli, Thomas Theußl, Markus Hadwiger, & Peter Rautek
 
 **TFZ: Topology-Preserving Compression of 2D Symmetric and Asymmetric Second-Order Tensor Fields**<br />
@@ -555,7 +562,7 @@ by Shahreen Salim, Tanzir Pial, & Klaus Mueller
 **Set Size Matters: Capacity-Limited Perception of Grouped Spatial-Frequency Glyphs**<br />
 by Yiran Li, Shan Shao, Peter Baudains, Andrew Meso, Nick Holliman, Alfie Abdul-Rahman, & Rita Borgo
 
-**Affective color scales for colormap data visualizations**<br />
+**Affective color scales for colormap data visualizations [Honorable Mention]**<br />
 by Halle Braun, Kushin Mukherjee, Seth Gorelik, & Karen Schloss
 
 **The Hue-Man Factor: An Empirical Evaluation of Visualization Perception and Accessibility Across Color Vision Profiles**<br />
@@ -576,7 +583,7 @@ by Oliver Huang & Carolina Nobre
 **How Do Observable Users Decompose D3 Code? A Qualitative Study**<br />
 by Melissa Lin, Heer Patel, Medina Lamkin, Hannah K. Bako, & Leilani Battle
 
-**Publish-Time Optimizations for Web-Based Visualizations**<br />
+**Publish-Time Optimizations for Web-Based Visualizations [Honorable Mention]**<br />
 by Ron Pechuk & Jeffrey Heer
 
 **Capturing Visualization Design Rationale**<br />
@@ -603,7 +610,7 @@ by Ibrahim Al-Hazwani, Ke Er Amy Zhang, Laura Garrison, & Jürgen Bernard
 **Designing Visualization Widgets for Tangible Data Exploration: A Systematic Review**<br />
 by Haonan Yao, Lingyun Yu, & Lijie Yao
 
-**Towards Understanding Decision Problems as a Goal of Visualization Design**<br />
+**Towards Understanding Decision Problems as a Goal of Visualization Design [Honorable Mention]**<br />
 by Lena Cibulski & Stefan Bruckner
 
 **Toward a Design Space for Embedded Urban Data Visualizations**<br />
@@ -644,10 +651,10 @@ by Yiyu Chen, Yifan Wu, Shuyu Shen, Yupeng Xie, Leixian Shen, Hui Xiong, & Yuyu 
 **Stitching Meaning: Practices of Data Textile Creators**<br />
 by Sydney Purdue, Eduardo Puerta, Enrico Bertini, & Melanie Tory
 
-**Story Ribbons: Reimagining Storyline Visualizations with Large Language Models**<br />
+**Story Ribbons: Reimagining Storyline Visualizations with Large Language Models [Honorable Mention]**<br />
 by Catherine Yeh, Tara Menon, Robin Singh Arya, Helen He, Moira Weigel, Fernanda Viegas, & Martin Wattenberg
 
-**F^2Stories: A Modular Framework for Multi-Objective Optimization of Storylines with a Focus on Fairness**<br />
+**F^2Stories: A Modular Framework for Multi-Objective Optimization of Storylines with a Focus on Fairness [Honorable Mention]**<br />
 by Tommaso Piselli, Giuseppe Liotta, Fabrizio Montecchiani, Martin Nöllenburg, & Sara Di Bartolomeo
 
 **Shifting Expectations for Encoding Rules Mitigates Misinterpretation of Connected Scatterplots**<br />
@@ -769,7 +776,7 @@ by Xiaolin Wen, Tai D. Nguyen, Shaolun Ruan, Qiaomu Shen, Jun Sun, Feida Zhu, & 
 **Mosaic Selections: Managing and Optimizing User Selections for Scalable Data Visualization Systems**<br />
 by Jeffrey Heer, Dominik Moritz, & Ron Pechuk
 
-**BondMatcher: H-Bond Stability Analysis in Molecular Systems**<br />
+**BondMatcher: H-Bond Stability Analysis in Molecular Systems [Honorable Mention]**<br />
 by Thomas Daniel, Malgorzata Olejniczak, & Julien Tierny
 
 **GALE: Leveraging Heterogeneous Systems for Efficient Unstructured Mesh Data Analysis**<br />
@@ -835,7 +842,7 @@ by Johannes Ellemose & Niklas Elmqvist
 **Beyond Log Scales: Toward Cognitively Informed Bar Charts for Orders of Magnitude Values**<br />
 by Katerina Batziakoudi, Stéphanie Rey, & Jean-Daniel Fekete
 
-**Characterizing Visualization Perception with Psychological Phenomena: Uncovering the Role of Subitizing in Data Visualization**<br />
+**Characterizing Visualization Perception with Psychological Phenomena: Uncovering the Role of Subitizing in Data Visualization [Honorable Mention]**<br />
 by Arran Zeyu Wang, Ghulam Jilani Quadri, Mengyuan Zhu, Chin Tseng, & Danielle Szafir
 
 **Color-Name Aware Optimization to Enhance the Perception of Transparent Overlapped Charts**<br />
@@ -855,7 +862,7 @@ Xin Chen, Yunhai Wang, Huaiwei Bao, Kecheng Lu, Jaemin Jo, Chi-Wing Fu, & Jean-D
 **Visual Extraction of Interaction Patterns Guided by Hierarchical Clustering and Process Mining**<br />
 by Peilin Yu, Aida Nordman, Takanori Fujiwara, Marta Koc-Januchta, Konrad Schönborn, Lonni Besançon, & Katerina Vrotsou
 
-**Visualization Badges: Communicating Design and Provenance through Graphical Labels Alongside Visualizations**<br />
+**Visualization Badges: Communicating Design and Provenance through Graphical Labels Alongside Visualizations [Honorable Mention]**<br />
 by Valentin Edelsbrunner, Jinrui Wang, Alexis Pister, Tomas Vancisin, Sian Phillips, Min Chen, & Benjamin Bach
 
 **Authoring Data-Driven Chart Animations through Direct Manipulation**<br />
@@ -879,7 +886,7 @@ by Michael Shewarega, Jakob Troidl, Oliver Alvarado Rodriguez, Mohammad Dindoost
 **Probing the Visualization Literacy of Vision Language Models: the Good, the Bad, and the Ugly**<br />
 by Lianghan Dong &  Anamaria Crisan
 
-**Here's what you need to know about my data: Exploring Expert Knowledge's Role in Data Analysis**<br />
+**Here's what you need to know about my data: Exploring Expert Knowledge's Role in Data Analysis [Honorable Mention]**<br />
 by Haihan Lin, Maxim Lisnic, Derya Akbaba, Miriah Meyer, & Alexander Lex
 
 **VA-Blueprint: Uncovering Building Blocks for Visual Analytics System Design**<br />
@@ -975,7 +982,7 @@ by Tejas Savalia, Andrew Lovett, Cristina R. Ceja, Rosemary Cowell, & Cindy Xion
 
 #### Trust No One [Full Papers]
 
-**Quantifying Visualization Vibes: Measuring Socio-Indexicality at Scale**<br />
+**Quantifying Visualization Vibes: Measuring Socio-Indexicality at Scale [Honorable Mention]**<br />
 by Amy Fox, Michelle Morgenstern, Graham Jones, & Arvind Satyanarayan
 
 **Visualization Vibes: The Socio-Indexical Function of Visualization Design**<br />

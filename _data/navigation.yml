@@ -250,11 +250,12 @@ menu:
             description: "Recognize outstanding work by the VIS community"
             columns:
               - links:
-#                - text: "Best Paper/Poster Awards"
-#                  url: "/year/2025/info/awards/best-paper-awards"
-#                  is_new: true
+                - text: "Best Paper Awards"
+                  url: "/year/2025/info/awards/best-paper-awards"
+                  is_new: true
 #                - text: "VGTC VIS Awards"
 #                   url: "https://www.google.com"
+#                   is_new: true
                 - text: "Test of Time Awards"
                   url: "/year/2025/info/awards/test-of-time-awards"
                   is_new: true
