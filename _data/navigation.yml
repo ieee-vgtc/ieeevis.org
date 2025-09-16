@@ -211,7 +211,11 @@ menu:
                   - text: "Week at a Glance"
                     description: "Preliminary overview of the conference week"
                     url: "/year/2025/info/program/week-at-a-glance"
-                    is_new: false
+                    is_new: true
+                  - text: "Papers"
+                    description: "Paper sessions"
+                    url: "/year/2025/info/papers"
+                    is_new: true
                   - text: "Workshops"
                     description: "Informal setting to discuss emerging topics"
                     url: "/year/2025/info/program/workshops"
@@ -220,10 +224,6 @@ menu:
                     description: "Learn new tools and application domains"
                     url: "/year/2025/info/program/tutorials"
                     is_new: false
-                  #- text: "Paper Sessions"
-                  #  description: "The latest research in theory, methods, and applications of visualization"
-                  #  url: "/year/2025/info/papers-sessions"
-                  #  is_new: true
                   # - text: "Posters"
                   #   description: "Nascent and recent work"
                   #   url: "/year/2025/info/posters"
@@ -231,7 +231,7 @@ menu:
                   - text: "Panels"
                     description: "Discuss important and controversial issues"
                     url: "/year/2025/info/program/panels"
-                    is_new: true
+                    is_new: false
       - subsections:
           - heading: "Invited Speakers"
             heading_url: "/year/2025/info/invited-speakers/summary"
@@ -250,11 +250,12 @@ menu:
             description: "Recognize outstanding work by the VIS community"
             columns:
               - links:
-#                - text: "Best Paper/Poster Awards"
-#                  url: "/year/2025/info/awards/best-paper-awards"
-#                  is_new: true
+                - text: "Best Paper Awards"
+                  url: "/year/2025/info/awards/best-paper-awards"
+                  is_new: true
 #                - text: "VGTC VIS Awards"
 #                   url: "https://www.google.com"
+#                   is_new: true
                 - text: "Test of Time Awards"
                   url: "/year/2025/info/awards/test-of-time-awards"
                   is_new: true
