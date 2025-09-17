@@ -13,8 +13,8 @@ Best paper committees use a variety of criteria to select the best paper includi
 <!-- ---------------------------------------------------------------------------------- -->
 ## Full Papers
 
-<!-- The Best Papers Committee for VIS 2025 Full papers consisted of the following distinguished members:
-G. Elisabeta (Liz) Marai (chair), Rita Borgo, Stefan Bruckner, Steffen Koch, Kwan-Liu Ma, Jo Wood, and Xiaoru Yuan. -->
+The Best Papers Committee for VIS 2025 Full papers consisted of the following distinguished members:
+Lars Linsen (Chair), Roxana Bujack, Soumya Dutta, David Ebert, BC Kwon, Luis Gustavo Nonato, Xiting Wang.
 The Papers Chairs would like to thank the Best Papers Committee for their work and to congratulate the awardees!
 
 <!-- ---------------------------------------------------------------------------------- -->
@@ -24,35 +24,35 @@ The Papers Chairs would like to thank the Best Papers Committee for their work a
 by Areen Khalaila, Lane Harrison, Nam Wook Kim, & Dylan Cashman<br />
 **Session**: Best Papers 1 [Tuesday, Nov 4, 2:00pm - 3:15pm (CET)]
 
-<!-- Justification: -->
+Developing effective tactile graphics for visually impaired people is an important yet under-explored area. This paper presents a study that investigates basic graphical perception experiments with visually impaired participants. It highlights the gaps between the guidelines for visual primitives and the needs of visually impaired people. It presents the core difficulties of visually impaired people based on an in-depth study, including thought-provoking discussions. Moreover, this work provides design guidelines that serve as solid foundations for this important and emergent area and identifies challenges that open up research opportunities. 
 
 
 **ReVISit 2: A Full Experiment Life Cycle User Study Framework**<br />
 by Zach Cutler, Jack Wilburn, Hilson Shrestha, Yiren Ding, Brian Bollen, Khandaker Abrar Nadib, Tingying He, Andrew McNutt, Lane Harrison, & Alexander Lex<br />
 **Session**: Best Papers 1 [Tuesday, Nov 4, 2:00pm - 3:15pm (CET)]
 
-<!-- Justification: -->
+This paper presents the latest incarnation of the reVisit tool, a tool for making user studies more approachable and scientifically sound. It includes many components valuable to the community that can be expected to be widely used, essentially providing a service to the visualization community. It may lead to user studies that are easier to access, more streamlined, and better reproducible. The authors provide an elegant framework, a nice implementation, and comprehensive documentation, as well as a website and open-source repositories with interactive demos. This research will give visualization user studies more visibility by reducing the burden of open-source study design, materials, and results.
 
 
 **Beyond Problem Solving: Framing and Problem–Solution Co-Evolution in Data Visualization Design**<br />
 by Paul Parsons & Prakash Chandra Shukla<br />
 **Session**: Best Papers 1 [Tuesday, Nov 4, 2:00pm - 3:15pm (CET)]
 
-<!-- Justification: -->
+This paper presents a theoretical framing and qualitative study on how visualization design professionals co-evolve visualization problems and solutions. It identifies a critical gap in current design models: the need for problem framing and solution development to co-evolve, rather than being treated as separate stages. The authors compellingly validate this intuition through well-designed studies, providing empirical evidence, actionable strategies, and valuable implications for visualization theory, enriching both research and practice. 
 
 
 **Causality-based Visual Analytics of Sentiment Contagion in Social Media Topics**<br />
 by Renzhong Li, Yuchen Lin, Shuainan Ye, Buwei Zhou, Zhining Kang, Tai-Quan Peng, Wenhao Fu, Yingcai Wu, & Tan Tang<br />
 **Session**: Best Papers 2 [Tuesday, Nov 4, 3:45pm - 5:00pm (CET)]
 
-<!-- Justification: -->
+This paper makes a timely and technically rigorous contribution to visual analytics by introducing a novel, causality-based approach to modeling sentiment contagion across social media topics. It combines scalable causal inference with an innovative, map-inspired visualization that encodes time, hierarchy, and sentiment flow, enabling intuitive exploration of complex social dynamics. With its methodological depth, thoughtful design, and real-world applicability, the paper makes valuable contributions to both the methodological and application sides. The comprehensive validation, including use cases, comparative user studies, and expert interviews, demonstrates the system’s usability and its real-world relevance. 
 
 
 **NLI4VolVis: Natural Language Interaction for Volume Visualization via LLM Multi-Agents and Editable 3D Gaussian Splatting**<br />
 by Kuangshi Ai, Kaiyuan Tang, & Chaoli Wang<br />
 **Session**: Best Papers 2 [Tuesday, Nov 4, 3:45pm - 5:00pm (CET)]
 
-<!-- Justification: -->
+This paper presents a novel and well-engineered system that integrates up-to-date volume segmentation, learnable 3D Gaussian splatting, open-vocabulary 3D scene understanding, and LLM-based agents to allow users to explore, query, and edit volumetric scenes using natural language. The proposed framework offers a promising step forward in enabling intuitive interaction with real-time 3D volume visualizations through natural language interfaces, making volume rendering accessible even to non-expert users. Its practical impact is documented through a well-designed user study. Moreover, the authors open-source their system, which can benefit the community.
 
 
 <!-- ---------------------------------------------------------------------------------- -->
