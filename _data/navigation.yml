@@ -214,7 +214,7 @@ menu:
                     is_new: true
                   - text: "Papers"
                     description: "Paper sessions"
-                    url: "/year/2025/info/papers"
+                    url: "/year/2025/info/program/papers"
                     is_new: true
                   - text: "Workshops"
                     description: "Informal setting to discuss emerging topics"
