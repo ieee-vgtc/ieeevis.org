@@ -2,7 +2,7 @@
 title: Papers
 layout: page
 active_nav: "Program"
-permalink: /year/2025/info/program/papers
+permalink: /year/2025/info/program/papers_list
 contact: program@ieeevis.org
 ---
 
