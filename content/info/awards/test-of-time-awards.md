@@ -89,7 +89,7 @@ With the advancement of AI, the mixed-initiative approach is even more relevant 
 
 ## VAST
 
-Committee: Jeffrey Heer, Helwig, Hauser, Ross Maciejewski, Shixia Liu *(Chair)*
+Committee: Jeffrey Heer, Helwig Hauser, Ross Maciejewski, Shixia Liu *(Chair)*
 
 <!-- ---------------------------------------------------------------------------------- -->
 **2015 (10-Years VAST ToT Award)**:<br />
