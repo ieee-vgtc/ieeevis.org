@@ -4,6 +4,11 @@
   button-url: "/info/registration-and-travel/conference-registration"
   active: "active"
 
+- title: "The VIS program is now available"
+  image: "program.jpg"
+  button-text: "Week-at-a-Glance"
+  button-url: "/info/program/week-at-a-glance"
+
 - title: "VIS 2025 takes place in an anniversary year"
   image: "isotypes.jpg"
   button-text: "100 Years of Visual Language"
