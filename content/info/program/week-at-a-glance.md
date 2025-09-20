@@ -1,5 +1,5 @@
 ---
-title: VIS Preliminary Program
+title: Week at a Glance
 layout: page
 active_nav: "Program"
 permalink: /year/2025/info/program/week-at-a-glance
@@ -7,6 +7,7 @@ contact: program@ieeevis.org
 ---
 
 Below is a concise overview of the conference program.
+**Please note that changes may still be made at short notice.**
 
 <hr/>
 
