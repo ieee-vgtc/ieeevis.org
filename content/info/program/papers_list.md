@@ -1,5 +1,5 @@
 ---
-title: Papers
+title: Accepted Papers, sorted by Session
 layout: page
 active_nav: "Program"
 permalink: /year/2025/info/program/papers_list
