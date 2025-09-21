@@ -145,9 +145,9 @@ by Amy Fox, Michelle Morgenstern, Graham Jones, & Arvind Satyanarayan<br />
 <!-- ---------------------------------------------------------------------------------- -->
 ## Short Papers
 
-<!-- The Best Papers Committee for VIS 2025 short papers consisted of the following distinguished members:
-Daniel Archambault, Jian Chen, and Nathalie Riche. -->
-The Short Papers Chairs would like to thank the Best Papers Committee for their work and to congratulate the awardees!
+The Best Short Papers Committee for VIS 2025 Short Papers consisted of the following distinguished members:
+Yang Shi, Danielle Szafir, Eytan Adar, Jürgen Bernard, Ingrid Hotz.
+The Short Papers Chairs would like to thank the Best Short Papers Committee for their work and to congratulate the awardees!
 
 
 <!-- ---------------------------------------------------------------------------------- -->
@@ -158,14 +158,14 @@ by Alex Kale<br />
 **Session**: Best Short Papers [Tuesday, Nov 4, 11:15am - 12:30pm (CET)]
 
 
-<!-- Justification: -->
+This interesting and thought-provoking paper brings forward formalisms from decision theory in ways that are accessible and actionable for visualization researchers. It clearly articulates how the visualization community approaches generalization and the logic that underlies it. The paper stands to significantly improve the ways in which we explore and evaluate how visualizations influence decision-making by holistically framing decision-making and its related components. Further, it provides a strong example of how research can introduce established theory to the research community. 
 
 
 **The Perils of Chart Deception: How Misleading Visualizations Affect Vision-Language Models**<br />
 by Ridwan Mahbub, Mohammed Saidul Islam, Md Tahmid Rahman Laskar, Mizanur Rahman, Mir Tafseer Nayeem, & Enamul Hoque<br />
 **Session**: Best Short Papers [Tuesday, Nov 4, 11:15am - 12:30pm (CET)]
 
-<!-- Justification: -->
+The paper demonstrates that many of the same deceptive features of charts that can fool a human will also fool Vision-Language Models (VLMs). Through a novel large-scale study (100 charts, 8 deception types, 10 VLMs, and 16k responses), the work characterizes the susceptibility of models to different forms of deception. The results provide an important baseline assessment of the inability of state-of-the-art VLMs in detecting many deceptive chart features (e.g., inverted axes). As critically, the work provides a dataset for the evaluation of future VLMs.
 
 
 <!-- ---------------------------------------------------------------------------------- -->
