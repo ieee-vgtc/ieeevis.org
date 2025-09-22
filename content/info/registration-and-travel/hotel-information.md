@@ -112,3 +112,16 @@ Double room for single use at **€189** (including breakfast), double Room for 
 To book a room, use the [booking form](/year/2025/assets/venue-and-travel/Mercure-Wien-City_BookingForm.docx) or contact the hotel directly use the booking code **VIS2025**.
 
 **Available until September 19th, 2025**
+
+#### Wilde Aparthotels
+Wilde Aparthotels<br />
+Dominikanerbastei 15<br />
+1010 Wien<br />
+[Hotel Website](https://www.wilde.com/vienna){:target= "_blank"} | [Google Maps Link](https://maps.app.goo.gl/4f3NF9oJpPCNdtzx7){:target= "_blank"}
+
+Close to the U1 subway station "Schwedenplatz".
+
+Attendees of VIS 2025 are eligible to receive a **15% discount** on the best available rate.
+In order to secure the booking, kindly contact directly: [eszter.horvath@wilde.com](mailto:eszter.horvath@wilde.com), or +43 676 5916286
+
+Kindly note that the discount applies solely for participants of VIS 2025 and is available **from Nov 2 to Nov 7, 2025**. 

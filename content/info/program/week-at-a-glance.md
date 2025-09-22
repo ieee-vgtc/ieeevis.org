@@ -1,5 +1,5 @@
 ---
-title: VIS Preliminary Program
+title: Week at a Glance
 layout: page
 active_nav: "Program"
 permalink: /year/2025/info/program/week-at-a-glance
@@ -7,6 +7,7 @@ contact: program@ieeevis.org
 ---
 
 Below is a concise overview of the conference program.
+**Please note that changes may still be made at short notice.**
 
 <hr/>
 
@@ -15,7 +16,7 @@ Below is a concise overview of the conference program.
 
 <a>**Saturday, November 1, 2025**</a><br />
 
-*9:00 AM - 5:00 PM (GMT+1)*<br />
+*9:00 AM - 5:00 PM (CET)*<br />
 **Doctoral Colloquium** (Invite-only event)<br />
 The Doctoral Colloquium will take place at **TU Wien**, [Favoritenstraße 9-11, 1040 Wien](https://maps.app.goo.gl/2Rb58dYGnmcsLvsc7){:target= "_blank"}.<br />
 
@@ -27,16 +28,16 @@ The Doctoral Colloquium will take place at **TU Wien**, [Favoritenstraße 9-11, 
 Sunday/Monday sessions will be **90 minutes**.
 We will have two parallel tracks morning and two in the afternoon.
 Coffee breaks are planned between the first/second and third/fourth block.
-* Morning coffee break: **10:30 AM - 11:00 AM (GMT+1)**
-* Lunch break: **12:30 PM - 2:00 PM (GMT+1)**
-* Afternoon coffee break: **3:30 PM - 4:00 PM (GMT+1)**
+* Morning coffee break: **10:30 AM - 11:00 AM (CET)**
+* Lunch break: **12:30 PM - 2:00 PM (CET)**
+* Afternoon coffee break: **3:30 PM - 4:00 PM (CET)**
 
 <hr/>
 
 <!-- ---------------------------------------------------------------------------------- -->
 <a>**Sunday, November 2, 2025**</a><br />
 
-*9:00 AM - 12:30 PM (GMT+1)*<br />
+*9:00 AM - 12:30 PM (CET)*<br />
 
 **[Workshop]** 8th Workshop on Visualization for AI Explainability **(VISxAI)**<br />
 **[Workshop]** 16th Annual Workshop on Visual Analytics in Healthcare **(VAHC)**<br />
@@ -47,7 +48,7 @@ Coffee breaks are planned between the first/second and third/fourth block.
 **[Tutorial]** User-centered Evaluation in Visualization<br />
 **[Competition]** Bio+MedVis Challenge<br />
 
-*2:00 PM - 5:30 PM (GMT+1)*<br/>
+*2:00 PM - 5:30 PM (CET)*<br/>
 
 **[Workshop]** 8th Workshop on Visualization for AI Explainability **(VISxAI)**<br />
 **[Workshop]** 16th Annual Workshop on Visual Analytics in Healthcare **(VAHC)**<br />
@@ -63,7 +64,7 @@ Coffee breaks are planned between the first/second and third/fourth block.
 <!-- ---------------------------------------------------------------------------------- -->
 <a>**Monday, November 3, 2025**</a><br/>
 
-*9:00 AM - 12:30 PM (GMT+1)*<br/>
+*9:00 AM - 12:30 PM (CET)*<br/>
 
 **[Workshop]** GenAI, Agents, and the Future of VIS **(VISxGenAI)**<br />
 **[Workshop]** Envisioning a Research Agenda for Input Visualization **(InputVis)**<br />
@@ -74,7 +75,7 @@ Coffee breaks are planned between the first/second and third/fourth block.
 **[Tutorial]** Using Color Harmony and Gen AI Suggestion to Transform your Data Visualizations<br />
 **[Tutorial]** Hands-On TTK Tutorial: Solving Practical Problems in Small Groups<br />
 
-*2:00 PM - 5:30 PM (GMT+1)*<br/>
+*2:00 PM - 5:30 PM (CET)*<br/>
 
 **[Workshop]** GenAI, Agents, and the Future of VIS **(VISxGenAI)**<br />
 **[Workshop]** Envisioning a Research Agenda for Input Visualization **(InputVis)**<br />
@@ -93,9 +94,9 @@ Coffee breaks are planned between the first/second and third/fourth block.
 Tuesday to Friday sessions will be **75 minutes**.
 We will have two parallel tracks morning and two in the afternoon.
 Coffee breaks are planned between the first/second and third/fourth block.
-* Morning coffee break: **10:45 AM - 11:15 AM (GMT+1)**
-* Lunch break: **12:30 PM - 2:00 PM (GMT+1)**
-* Afternoon coffee break: **3:15 PM - 3:45 PM (GMT+1)**
+* Morning coffee break: **10:45 AM - 11:15 AM (CET)**
+* Lunch break: **12:30 PM - 2:00 PM (CET)**
+* Afternoon coffee break: **3:15 PM - 3:45 PM (CET)**
 
 <hr />
 
@@ -123,7 +124,7 @@ Coffee breaks are planned between the first/second and third/fourth block.
 
 #### Evening
 
-*6:30 PM - 9:00 PM (GMT+1)*<br/>
+*6:30 PM - 9:00 PM (CET)*<br/>
 * Welcome Reception ([Museum of Natural History](https://maps.app.goo.gl/eXjAvrE88oPx1THYA){:target= "_blank"})
 
 <hr />
@@ -248,7 +249,9 @@ Coffee breaks are planned between the first/second and third/fourth block.
 
 *6:00 PM - 9:00 PM (CET)*<br/>
 * VISAP Exhibition ([University of Applied Arts](https://maps.app.goo.gl/L5RFQrZArMmL4GPK9){:target= "_blank"})
-* OC Dinner ([Melker Stiftskeller](https://maps.app.goo.gl/dkRNP3zZmA8eTrsm8){:target= "_blank"})
+
+*7:00 PM (CET)*<br/>
+* OC Dinner - OC members only ([Melker Stiftskeller](https://maps.app.goo.gl/dkRNP3zZmA8eTrsm8){:target= "_blank"})
 
 <hr />
 
