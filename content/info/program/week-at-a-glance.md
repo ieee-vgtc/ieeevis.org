@@ -106,26 +106,37 @@ Coffee breaks are planned between the first/second and third/fourth block.
 #### Morning
 
 *9:30 AM - 10:45 AM (CET)*<br/>
-* Welcome & VIS Opening
-* Keynote by Hans-Christian Hege
+* **Welcome**
+  * Welcome by the General Chairs
+  * VIS Opening
+* **Keynote**
+  * Hans-Christian Hege
 
 *11:15 AM - 12:30 PM (CET)*<br/>
-* VGTC Awards
-* Best Short Papers
+* **VGTC Awards**
+* **Best Short Papers**
 
 #### Afternoon
 
 *2:00 PM - 3:15 PM (CET)*<br/>
-* Best Papers 1/2
+* **Introduction**
+  * Paper and Short Paper Selection
+  * IPC members
+* **Best Papers**
+  * Best Papers 1-3
 
 *3:45 PM - 5:00 PM (CET)*<br/>
-* Best Paper 2/2
-* Test-of-Time Awards
+* **Best Papers**
+  * Best Papers 4 & 5 (virtual presentation)
+* **Test-of-Time Awards**
+  * SciVis Test-of-Time Awards
+  * InfoVis Test-of-Time Awards
+  * VAST Test-of-Time Awards
 
 #### Evening
 
 *6:30 PM - 9:00 PM (CET)*<br/>
-* Welcome Reception ([Museum of Natural History](https://maps.app.goo.gl/eXjAvrE88oPx1THYA){:target= "_blank"})
+* **Welcome Reception** ([Museum of Natural History](https://maps.app.goo.gl/eXjAvrE88oPx1THYA){:target= "_blank"})
 
 <hr />
 
@@ -147,7 +158,7 @@ Coffee breaks are planned between the first/second and third/fourth block.
 *11:15 AM - 12:30 PM (CET)*<br/>
 * **Full Paper Sessions**
   * Fields, Fields, Fields
-  * Of Trees and Treemaps
+  * Of Trees and Treemaps (+ 1 Short Paper)
 * **Short Paper Sessions**
   * Visualization with/for/in AI
   * Visualization for Science
@@ -166,7 +177,7 @@ Coffee breaks are planned between the first/second and third/fourth block.
     * Ordering and Layout
 * **Short Paper Sessions**
   * Explorations in Abstract and Physical Spaces
-* Vis In Practice
+* **Vis In Practice**
   * Research <> Practice Engagement Session
 * **Panel**
     * From Cognition to Context: A Conversation about Technical Approaches, Social Values, and Tradeoffs in Visualization
@@ -184,10 +195,10 @@ Coffee breaks are planned between the first/second and third/fourth block.
 #### Evening
 
 *5:00 PM - 6:00 PM (CET)*<br/>
-* Poster Session
+* **Poster Session**
 
 *6:00 PM - 9:00 PM (CET)*<br/>
-* Conference Dinner ([Austria Center Vienna](https://maps.app.goo.gl/NaguVkxom2uRZjq48){:target= "_blank"})
+* **Conference Dinner** ([Austria Center Vienna](https://maps.app.goo.gl/NaguVkxom2uRZjq48){:target= "_blank"})
 
 <hr />
 
@@ -212,7 +223,7 @@ Coffee breaks are planned between the first/second and third/fourth block.
 *11:15 AM - 12:30 PM (CET)*<br/>
 * **Full Paper Sessions**
   * From Data to Meaning
-  * Games, Sports, and Music
+  * Games, Sports, and Music (+ 1 Short Paper)
   * Vis & Language
   * Volumes & 3D *(Virtual Session)*
 * **TVCG/CG&A Paper Sessions**
@@ -242,16 +253,16 @@ Coffee breaks are planned between the first/second and third/fourth block.
 * **Short Paper Sessions**
   * Immersive Visualization and Extended Reality
   * Perception & Semantics
-* **Industry Meetup**
-    * How to make money with visualization?
+* **Vis In Practice**
+  * Industry Meetup: How to make money with visualization?
 
 #### Evening
 
 *6:00 PM - 9:00 PM (CET)*<br/>
-* VISAP Exhibition ([University of Applied Arts](https://maps.app.goo.gl/L5RFQrZArMmL4GPK9){:target= "_blank"})
+* **VISAP Exhibition** ([University of Applied Arts](https://maps.app.goo.gl/L5RFQrZArMmL4GPK9){:target= "_blank"})
 
 *7:00 PM (CET)*<br/>
-* OC Dinner - OC members only ([Melker Stiftskeller](https://maps.app.goo.gl/dkRNP3zZmA8eTrsm8){:target= "_blank"})
+* **OC Dinner** - OC members only ([Melker Stiftskeller](https://maps.app.goo.gl/dkRNP3zZmA8eTrsm8){:target= "_blank"})
 
 <hr />
 
@@ -270,8 +281,11 @@ Coffee breaks are planned between the first/second and third/fourth block.
     * Reflections and Looking Forward
 
 *11:15 AM - 12:30 PM (CET)*<br/>
-* Capstone by Theo Deutinger
-* Closing
+* **Capstone**
+  * Theo Deutinger
+* **Closing**
+  * Conference closing
+  * Outlook
 
 <hr />
 
