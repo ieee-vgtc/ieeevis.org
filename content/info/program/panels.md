@@ -88,7 +88,7 @@ tive peer review that supports diverse research contributions.
 
 **Panelists**: Christian Mittermayr, Harald Piringer, Lena Cibulski, Jörn Kohlhammer
 
-Industrial manufacturing is increasingly shaped by data-driven processes, making Visual Analytics (VA) a key enabler for innovation. This panel explores how VA can address real-world industrial challenges through academic and industry collaboration. The 90-minute session combines moderated discussion, survey-informed topic selection, and interactive audience tools to ensure broad relevance and engagement. With experts from both domains, the panel will highlight the identified needs along the central Question: How can VA effectively support the evolving demands of industrial manufacturing? The panel aims to outline future directions that align scientific advances with operational needs.
+Industrial manufacturing is increasingly shaped by data-driven processes, making Visual Analytics (VA) a key enabler for innovation. This panel explores how VA can address real-world industrial challenges through academic and industry collaboration. The 75-minute session combines moderated discussion, survey-informed topic selection, and interactive audience tools to ensure broad relevance and engagement. With experts from both domains, the panel will highlight the identified needs along the central Question: How can VA effectively support the evolving demands of industrial manufacturing? The panel aims to outline future directions that align scientific advances with operational needs.
 
 
 <!-- -------------------  -->
