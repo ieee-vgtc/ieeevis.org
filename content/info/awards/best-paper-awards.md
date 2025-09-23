@@ -14,7 +14,7 @@ Best paper committees use a variety of criteria to select the best paper includi
 ## Full Papers
 
 The Best Papers Committee for VIS 2025 Full papers consisted of the following distinguished members:
-Lars Linsen (Chair), Roxana Bujack, Soumya Dutta, David Ebert, BC Kwon, Luis Gustavo Nonato, Xiting Wang.
+Lars Linsen, Roxana Bujack, Soumya Dutta, David Ebert, BC Kwon, Luis Gustavo Nonato, and Xiting Wang.
 The Papers Chairs would like to thank the Best Papers Committee for their work and to congratulate the awardees!
 
 <!-- ---------------------------------------------------------------------------------- -->
@@ -122,12 +122,11 @@ The Short Papers Chairs would like to thank the Best Short Papers Committee for 
 by Alex Kale<br />
 **Session**: Best Short Papers [Tuesday, Nov 4, 11:15am - 12:30pm (CET)]
 
-
 This interesting and thought-provoking paper brings forward formalisms from decision theory in ways that are accessible and actionable for visualization researchers. It clearly articulates how the visualization community approaches generalization and the logic that underlies it. The paper stands to significantly improve the ways in which we explore and evaluate how visualizations influence decision-making by holistically framing decision-making and its related components. Further, it provides a strong example of how research can introduce established theory to the research community. 
 
 
 **The Perils of Chart Deception: How Misleading Visualizations Affect Vision-Language Models**<br />
-by Ridwan Mahbub, Mohammed Saidul Islam, Md Tahmid Rahman Laskar, Mizanur Rahman, Mir Tafseer Nayeem, & Enamul Hoque<br />
+by Ridwan Mahbub, Mohammed Saidul Islam, Md Tahmid Rahman Laskar, Mizanur Rahman, Mir Tafseer Nayeem, and Enamul Hoque<br />
 **Session**: Best Short Papers [Tuesday, Nov 4, 11:15am - 12:30pm (CET)]
 
 The paper demonstrates that many of the same deceptive features of charts that can fool a human will also fool Vision-Language Models (VLMs). Through a novel large-scale study (100 charts, 8 deception types, 10 VLMs, and 16k responses), the work characterizes the susceptibility of models to different forms of deception. The results provide an important baseline assessment of the inability of state-of-the-art VLMs in detecting many deceptive chart features (e.g., inverted axes). As critically, the work provides a dataset for the evaluation of future VLMs.
@@ -151,3 +150,29 @@ by Ron Pechuk & Jeffrey Heer<br />
 **Towards Understanding Decision Problems as a Goal of Visualization Design**<br />
 by Lena Cibulski & Stefan Bruckner<br />
 **Session**: Visualization in-the-wild [Thursday, Nov 6, 9:30am - 10:45am (CET)]
+
+
+<!-- ---------------------------------------------------------------------------------- -->
+## Posters
+
+The Best Poster Committee for VIS 2025 posters consisted of the following distinguished members:
+Davide Ceneda, Fumeng Yang, and Carolina Nobre.
+The Poster Chairs would like to thank the Best Poster Committee for their work and to congratulate the awardees!
+
+
+<!-- ---------------------------------------------------------------------------------- -->
+### Best Poster
+
+**Artistic Inspiration for Uncertainty Visualization Techniques**<br />
+by Michelle A. Borkin
+
+This work presents 56 hand-drawn and painted reproductions of existing uncertainty visualizations, accompanied by reflection and analysis. The collection shows the role of aesthetics, visual perception principles, and artistic techniques, such as fuzziness and transparency in painting uncertainty visualization, while also pointing to avenues for new encoding techniques. It brings a refreshing and inspirational artistic perspective to uncertainty visualization, one that could be extended to other visualization contexts. The idea is a natural fit for a poster, making it both unique and highly suitable for this award. Its clear structure, simplicity, and visual richness render it especially effective in sparking discussion.
+
+
+<!-- ---------------------------------------------------------------------------------- -->
+### Best Poster Honorable Mention
+
+**Designing a Glyph-Based Hierarchical Visualization for Orders of Magnitude Values**<br />
+by Katerina Batziakoudi, Ambre Assor, Christophe Bortolaso, & Jean-Daniel Fekete
+
+This poster introduces a novel hierarchical visualization approach designed for showing orders of magnitude. The authors propose a new visual representation based on the mantissa–exponent concept. The result is a compelling and thoughtful contribution that clarifies the shortcomings of prior approaches and offers a practical and scalable solution. The poster design is clear and well-organized, effectively showcasing the visualization design.
