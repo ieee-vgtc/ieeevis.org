@@ -36,6 +36,6 @@
       url: "/year/2025/info/presenter-information/final-information-paper-authors"
     - text: "Preparing For Your Talk"
       url: "/year/2025/info/presenter-information/talk-guide"
-# #     # - text: "Presenting at the Virtual Conference"
-# #     #   url: "/year/2021/info/presenter-information/presenting-virtually"
+    - text: "Virtual Presentations"
+      url: "/year/2025/info/presenter-information/presenting-virtually"
 

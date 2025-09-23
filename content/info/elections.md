@@ -1,7 +1,7 @@
 ---
 title: Elections
 layout: page
-permalink: /info/elections
+permalink: /year/2025/info/elections
 contact: elections@ieeevis.org
 ---
 

@@ -1,17 +1,17 @@
 - heading: "Connect"
   links:
-    # - text: "Vis Buddies"
-    #   url: "https://www.google.com"
     - text: "Meetups"
-      url: "/year/2019/info/call-participation/meetups"
-    # - text: "Job Fair"
-    #   url: "https://www.google.com"
+      url: "/year/2025/info/call-participation/meetups"
+    - text: "Vis Buddies"
+      url: "/year/2025/info/community/vis-buddies"
+    - text: "Job Postings"
+      url: "/year/2025/info/community/jobs"
 
 
-- heading: "Social Groups"
-  links:
-    - text: "Velo Club de VIs"
-      url: "https://www.gicentre.net/velo-club-de-vis/"
-      is_external: true
-    - text: "Vis Pioneers Group"
-      url: "http://vacommunity.org/ieeevpg/"
+#- heading: "Social Groups"
+#  links:
+#    - text: "Velo Club de VIs"
+#      url: "https://www.gicentre.net/velo-club-de-vis/"
+#      is_external: true
+#    - text: "Vis Pioneers Group"
+#      url: "http://vacommunity.org/ieeevpg/"

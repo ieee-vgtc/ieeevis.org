@@ -1,0 +1,33 @@
+---
+title: VIS 2025 Jobs
+layout: page
+permalink: /year/2025/info/community/jobs
+active_nav: "Events & Community"
+sidebar: community
+contact: community@ieeevis.org
+---
+
+## Welcome to the VIS 2025 site for job postings
+
+We will collect job postings and display them here throughout the VIS 2025 meeting. 
+
+<!-- [VIS Community Job Posting Form](https://forms.gle/A1Yqz1iTWkowDhdEA)
+
+To submit a posting, please use the form above. Postings will be updated every couple of days on this page. 
+
+For more information about the Job Fair Meetup (TBD) please visit "Job Fair Meetup" in the site menu.
+
+-->
+
+Questions? Contact the VIS Community Chairs at [community@ieeevis.org](mailto:community@ieeevis.org). 
+
+
+## Job Postings
+
+### Academic
+
+Coming soon
+
+### Industry
+
+Coming soon

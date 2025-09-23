@@ -2,8 +2,9 @@
 title: Test of Time Awards
 layout: page
 permalink: /year/2025/info/awards/test-of-time-awards
-contact:
 active_nav: "Program"
+sidebar: awards-and-recognitions
+contact: papers@ieeevis.org
 ---
 
 To improve the future, we must reflect on our past.

@@ -31,12 +31,10 @@ The VIS 2022 conference organizers put together some tips on making a compelling
 
 ## Presentation Length
 
-*Information will be available soon.*
-
-<!-- As a guide, the length requirements for are as follows:
-- VIS Full Papers and TVCG/CG&A Presentations: the maximum length of your slot is **12 minutes**, including questions. We recommend a 9 minute talk with 2 to 3 minutes for questions. At least 1 minute must be left for questions.
-- VIS Short Papers Presentations: the maximum length of your slot is **9 minutes**, including questions. We recommend a 7 minute talk with 2 minutes for questions. At least 1 minute must be left for questions
-- Associated Events: please consult your associated event organizers for information on presentation timing. -->
+As a guide, the length requirements for are as follows:
+* **VIS Full Papers and TVCG/CG&A Presentations**: The maximum length of your slot is **12 minutes**, including questions. We recommend a 9 minute talk with 2 to 3 minutes for questions. At least 1 minute must be left for questions.
+* **VIS Short Papers Presentations**: The maximum length of your slot is **9 minutes**, including questions. We recommend a 7 minute talk with 2 minutes for questions. At least 1 minute must be left for questions
+* **Workshops and Tutorials**: Please consult your associated event organizers for information on presentation timing.
 
 
 ## Contact

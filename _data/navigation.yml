@@ -93,6 +93,9 @@ menu:
                 - text: "Preparing Your Talk"
                   url: "/year/2025/info/presenter-information/talk-guide"
                   is_new: false
+                - text: "Virtual Presentations"
+                  url: "/year/2025/info/presenter-information/presenting-virtually"
+                  is_new: false
           - heading: "Code of Conduct"
             description: "The IEEE VIS Code of Conduct"
             heading_url: "/year/2025/info/inclusion/code-of-conduct"
@@ -104,14 +107,18 @@ menu:
                     description: "Meet people for discussion and shared experiences"
                     url: "/year/2025/info/call-participation/meetups"
                     is_new: false
-                  - text: "Become a student volunteer"
-                    description: "Support the conference and build your research network"
+                  - text: "Student volunteer information"
+                    description: "SVs support the conference and build your research network"
                     url: "https://vissv.github.io/"
                     is_external: true
-                  - text: "Become a peer reviewer"
-                    description: "Volunteer to review submissions in Precision Conference Solutions (PCS)"
-                    url: "https://new.precisionconference.com/review_volunteering"
-                    is_external: true
+#                  - text: "Become a student volunteer"
+#                    description: "Support the conference and build your research network"
+#                    url: "https://vissv.github.io/"
+#                    is_external: true
+#                  - text: "Become a peer reviewer"
+#                    description: "Volunteer to review submissions in Precision Conference Solutions (PCS)"
+#                    url: "https://new.precisionconference.com/review_volunteering"
+#                    is_external: true
                   - text: "Elections"
                     description: "Register to vote and nominate/review candidates for the VSC/VEC"
                     url: "/year/2025/info/elections"
@@ -127,14 +134,14 @@ menu:
     sections:
       - subsections:
           - heading: "Attending VIS 2025"
-            description: "Information for attendees"
+            heading_url: "/year/2025/info/registration-and-travel/conference-registration"
             columns:
               - heading: "Attend"
                 links:
                   - text: "Registration"
                     description: "Conference registration now open!"
                     url: "/year/2025/info/registration-and-travel/conference-registration"
-                    is_new: true
+                    is_new: false
                   - text: "Venue"
                     description: "Austria Center Vienna"
                     url: "/year/2025/info/registration-and-travel/venue"
@@ -205,7 +212,6 @@ menu:
       - subsections:
           - heading: "Vis Program"
             heading_url: "/year/2025/info/program/week-at-a-glance"
-            description: "Conference program will be gradually expanded"
             columns:
               - links:
                   - text: "Week at a Glance"
@@ -216,6 +222,14 @@ menu:
                     description: "Paper sessions"
                     url: "/year/2025/info/program/papers_list"
                     is_new: true
+                  - text: "Posters"
+                    description: "Nascent and recent work"
+                    url: "/year/2025/info/program/posters"
+                    is_new: true
+                  - text: "Panels"
+                    description: "Discuss important and controversial issues"
+                    url: "/year/2025/info/program/panels"
+                    is_new: false
                   - text: "Workshops"
                     description: "Informal setting to discuss emerging topics"
                     url: "/year/2025/info/program/workshops"
@@ -224,18 +238,9 @@ menu:
                     description: "Learn new tools and application domains"
                     url: "/year/2025/info/program/tutorials"
                     is_new: false
-                  # - text: "Posters"
-                  #   description: "Nascent and recent work"
-                  #   url: "/year/2025/info/posters"
-                  #   is_new: true
-                  - text: "Panels"
-                    description: "Discuss important and controversial issues"
-                    url: "/year/2025/info/program/panels"
-                    is_new: false
       - subsections:
           - heading: "Invited Speakers"
             heading_url: "/year/2025/info/invited-speakers/summary"
-            description: "Keynote and Capstone Speakers"
             columns:
               - links:
                   - text: "Keynote"
@@ -250,7 +255,7 @@ menu:
             description: "Recognize outstanding work by the VIS community"
             columns:
               - links:
-                - text: "Best Paper Awards"
+                - text: "Best Paper/Poster Awards"
                   url: "/year/2025/info/awards/best-paper-awards"
                   is_new: true
 #                - text: "VGTC VIS Awards"
@@ -423,15 +428,15 @@ menu:
       #            url: "/year/2025/info/meetups#reproducibility"
       - subsections:
           - heading: "Community"
-            heading_url: "/year/2025/info/call-participation/community"
+            heading_url: "/year/2025/info/community/community"
             description: "Explore social and topic-based community groups"
-           # columns:
-           # - heading: "Connect"
-           #   links:
-           #       - text: "Vis Buddies"
-           #        url: "/year/2025/info/meetups#vis-newcomers"
-           #       - text: "Job Postings"
-           #        url: "/year/2025/info/jobs"
+            columns:
+              - heading: "Connect"
+                links:
+                  - text: "Vis Buddies"
+                    url: "/year/2025/info/community/vis-buddies"
+                  - text: "Job Postings"
+                    url: "/year/2025/info/community/jobs"
 #              - heading: "Social Groups"
 #                links:
 #                  - text: "Velo Club de VIs"
