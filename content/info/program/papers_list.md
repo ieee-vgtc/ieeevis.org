@@ -112,7 +112,7 @@ by Sungbok Shin, Inyoup Na, & Niklas Elmqvist
 **From Dashboard Zoo to Census: A Case Study with Tableau Public**<br />
 by Arjun Srinivasan, Joanna Purich, Michael Correll, Leilani Battle, Vidya Setlur, & Anamaria Crisan
 
-**Watering the Future: Assessing a Visualization Design for Accessible Comprehension of Water Management**<br />
+**Watering the Future: Assessing a Visualization Design for Accessible Comprehension of Water Management** [Short Paper]<br />
 by Sarah Yuniar, Yuya Kawakami, Logan Ga-sing Tang, & Kwan-Liu Ma
 
 
@@ -181,7 +181,7 @@ by Kirsten W.H. Maas, Danny Ruijters, Anna Vilanova, & Nicola Pezzotti
 by Yifan Wang, Ang Gao, Yi Gong & Yuan Zeng
 
 
-#### Of Trees and Treemaps [Full Papers]
+#### Of Trees and Treemaps [Full Papers + 1 Short Paper]
 
 **Neighbourhood-Preserving Voronoi Treemaps**<br />
 by Patrick Paetzold, Rebecca Kehlbeck, Yumeng Xue, Bin Chen, Yunhai Wang, & Oliver Deussen
@@ -198,7 +198,7 @@ by Zhen Li, Weikai Yang, Jun Yuan, Jing Wu, Changjian Chen, Yao Ming, Fan Yang, 
 **SynthLens: Visual Analytics for Facilitating Multi-step Synthetic Route Design**<br />
 by Qipeng Wang, Rui Sheng, Shaolun Ruan, XiaofuJin, Chuhan Shi, & Min Zhu
 
-**Interactive Discovery and Visualization of Process Trees**<br />
+**Interactive Discovery and Visualization of Process Trees** [Short Paper]<br />
 by Wouter van der Heijden & Stef van den Elzen
 
 
@@ -466,7 +466,7 @@ by Manfred Klaffenboeck, Michael Gleicher, Johannes Sorger, Michael Wimmer, & To
 **Locally Adapted Reference Frame Fields using Moving Least Squares**<br />
 by Julio Rey Ramirez, Peter Rautek, Tobias Günther, & Markus Hadwiger
 
-**CD-TVD:Contrastive Diffusion for 3D Super-Resolution with Scarce High-Resolution Time-Varying Data [Honorable Mention]**<br />
+**CD-TVD: Contrastive Diffusion for 3D Super-Resolution with Scarce High-Resolution Time-Varying Data [Honorable Mention]**<br />
 by Chongke Bi, Xin Gao, Jiakang Deng, Guan Li, & Jun Han
 
 **Exploring 3D Unsteady Flow using 6D Observer Space Interactions [Honorable Mention]**<br />
@@ -667,7 +667,7 @@ by Chase Stokes, Anjana Arunkumar, Marti Hearst, & Lace Padilla
 Jade Kandel, Jiayi Liu, Arran Zeyu Wang, Chin Tseng, & Danielle Szafir
 
 
-#### Games, Sports, and Music [Full Papers]
+#### Games, Sports, and Music [Full Papers + 1 Short Paper]
 
 **InsightChaser: Enhancing Visual Reasoning of Sports Tactical Visualization with Visual-Text Linking**<br />
 by Ziao Liu, Wenshuo Zhao, Xiao Xie, Anqi Cao, Yihong Wu, Hui Zhang, & Yingcai Wu
@@ -684,7 +684,7 @@ by Xiyuan Wang, Laixin Xie, He Wang, Xingxing Xing, Wei Wan, Ziming Wu, Xiaojuan
 **MAICO: A Visualization Design Study on AI-Assisted Music Composition**<br />
 by Simeon Rau, Frank Heyen, Benedikt Brachtel, & Michael Sedlmair
 
-**Animated Visual Encoding and Layer Blending for Identification of Educational Game Strategies**<br />
+**Animated Visual Encoding and Layer Blending for Identification of Educational Game Strategies** [Short Paper]<br />
 by Braden Roper, William Thompson, & Chris Weaver
 
 
