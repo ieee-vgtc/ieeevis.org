@@ -37,6 +37,9 @@
       - name: "Autodesk"
         image: /assets/supporters/autodesk.png
         url: "https://www.autodesk.com/"
+      - name: "Siemens Healthineers AG"
+        image: /assets/supporters/siemens-healthineers.png
+        url: "https://www.siemens-healthineers.com/"
 
   - category: Bronze
     image_size: 200
@@ -78,6 +81,9 @@
       - name: "Monash University"
         image: /assets/supporters/monash_emvis.png
         url: "https://www.monash.edu/it/hcc/embodied-visualisation"
+      - name: "Texas A&M University"
+        image: /assets/supporters/texas_university.png
+        url: "https://pvfa.tamu.edu/academics/visualization-program/ph-d-in-visual-computing-and-interactive-media/"
 
 #  - category: Exhibitors
 #    image_size: 140

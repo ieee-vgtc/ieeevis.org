@@ -33,7 +33,7 @@ All video submissions must meet the following requirements:
 ### Video upload
 
 Upload your talk video until **October 22nd, 2025** to the TU Wien Nextcloud service:
-https://vapor.cg.tuwien.ac.at/index.php/s/imAqyCwfjp7R3mi(https://vapor.cg.tuwien.ac.at/index.php/s/imAqyCwfjp7R3mi)<br />
+[https://vapor.cg.tuwien.ac.at/index.php/s/imAqyCwfjp7R3mi](https://vapor.cg.tuwien.ac.at/index.php/s/imAqyCwfjp7R3mi)<br />
 (Password: *vis2025video*)
 
 ## Q&A
