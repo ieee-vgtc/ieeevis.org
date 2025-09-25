@@ -37,6 +37,9 @@
       - name: "Autodesk"
         image: /assets/supporters/autodesk.png
         url: "https://www.autodesk.com/"
+      - name: "Siemens Healthineers AG"
+        image: /assets/supporters/siemens-healthineers.png
+        url: "https://www.siemens-healthineers.com/"
 
   - category: Bronze
     image_size: 200
