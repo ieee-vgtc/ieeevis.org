@@ -77,7 +77,7 @@ const updateUI = async (auth0, query) => {
 
 const authenticate = () => {
   const auth0_domain = 'ieeevis.us.auth0.com'
-  const auth0_client_id = 'G8onz2A6h59RmuYFUbSLpGmxsGHOyPOv'
+  const auth0_client_id = 'oF5BXUklWOjSjUeg5Tzai2DysHITXYhT'
   //console.log("origin is " + window.location.origin);
   createAuth0Client({
     domain: auth0_domain,
