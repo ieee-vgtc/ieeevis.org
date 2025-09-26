@@ -623,7 +623,7 @@ by Bahare Bakhtiari, Aurélien Tabard, Sowmya Somanath, & Charles Perin
 by Paul C. Parsons & Arran Ridley
 
 **A Typology of Data Concepts and Contexts in Clinician-Patient Communication**<br />
-by Sarah Dunn
+by Sarah Dunn, Tara Capel, Areti Manataki & Benjamin Bach
 
 
 #### Multi-modal and Spatial (Virtual) [Short Papers]
