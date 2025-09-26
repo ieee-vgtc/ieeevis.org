@@ -5,6 +5,7 @@
     width: 0px;
     visibility: hidden;
     align-content: center;
+    cursor: default;
 }
 
 .login-desktop {
