@@ -20,29 +20,29 @@
 #                     is_external
 
 navbar_metadata:
-  display: false
+  display: true
   label: 'Content'
-  use_auth0: false
+  use_auth0: true
   
 
 
 schedule:
-  display: false
+  display: true
   text: "Schedule"
   url: "/year/2025/program/calendar"
 
 all_events:
-  display: false
+  display: true
   text: "All Events"
   url: "/year/2025/program/events.html"
 
 papers:
-  display: false
+  display: true
   text: "Accepted Papers"
   url: "/year/2025/program/papers.html"
 
 posters:
-  display: false
+  display: true
   text: "Posters"
   url: "/year/2025/program/posters.html"
 
@@ -57,6 +57,6 @@ posters:
 #   url: "/year/2025/program/speakers.html"
 
 awards:
-  display: false
+  display: true
   text: "Awards"
   url: "/year/2025/program/awards/awards.html"
