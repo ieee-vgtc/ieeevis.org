@@ -41,7 +41,7 @@ jobs:
     - name: Install Ruby 3.0
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '3.0'
+        ruby-version: '3.4.6'
     - name: Install ruby dependencies
       run: |
         gem install bundler -v 2.4.22
