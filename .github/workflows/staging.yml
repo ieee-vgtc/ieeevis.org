@@ -38,7 +38,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r scripts/requirements.txt
-    - name: Install Ruby 3.0
+    - name: Install Ruby 3.4.6
       uses: ruby/setup-ruby@v1
       with:
         ruby-version: '3.4.6'
@@ -60,35 +60,35 @@ jobs:
       run: make site
 
     ## BUILD PREVIOUS YEARS (currently: vis2019, vis2020, vis2021, vis2022)
-    - name: Build previous year (2019)
-      run: |
-        git switch -f vis2019
-        make new2019
+    # - name: Build previous year (2019)
+    #   run: |
+    #     git switch -f vis2019
+    #     make new2019
 
-    - name: Build previous year (2020)
-      run: |
-        git switch -f vis2020
-        make new2020
+    # - name: Build previous year (2020)
+    #   run: |
+    #     git switch -f vis2020
+    #     make new2020
 
-    - name: Build previous year (2021)
-      run: |
-        git switch -f vis2021
-        make new2021
+    # - name: Build previous year (2021)
+    #   run: |
+    #     git switch -f vis2021
+    #     make new2021
 
-    - name: Build previous year (2022)
-      run: |
-        git switch -f vis2022
-        make new2022
+    # - name: Build previous year (2022)
+    #   run: |
+    #     git switch -f vis2022
+    #     make new2022
 
-    - name: Build previous year (2023)
-      run: |
-        git switch -f vis2023
-        make new2023
+    # - name: Build previous year (2023)
+    #   run: |
+    #     git switch -f vis2023
+    #     make new2023
 
-    - name: Build previous year (2024)
-      run: |
-        git switch -f vis2024
-        make new2024
+    # - name: Build previous year (2024)
+    #   run: |
+    #     git switch -f vis2024
+    #     make new2024
 
     ## BUILD THIS YEAR (currently: vis2025)
     ## ./scripts/fix_file_extensions.sh moves some evergreen content from current year
