@@ -8,7 +8,6 @@ import { createAuth0Client } from "@auth0/auth0-spa-js";
 
 const updateUI = async (auth0, query) => {
   const is_auth = await auth0.isAuthenticated();
-  //console.log("are we auth?", is_auth)
   if (is_auth) {
     document.body.style.display = null;
 
@@ -21,16 +20,11 @@ const updateUI = async (auth0, query) => {
     var queryParams = new URLSearchParams(query);
     var redirectUri = queryParams.get("return");
     if (redirectUri) {
-      //console.log("we were gonna redirect here to ", "/" + redirectUri)
       window.location.href = "/" + redirectUri; // important: this also strips out queryParams so we don't infinitely redirect :)
     }
 
     // unused atm, hook up later; this won't get executed since we change location above
     const user = await auth0.getUser();
-    // $(".login-button").hide();
-    // $(".welcome-pill-message").show();
-    // $(".logout-button").show();
-    // $(".welcome-pill-message").prop("value", `Welcome, ${user.nickname}`)
 
     Array.from(document.getElementsByClassName('login-button')).map((item) => {
       item.classList.add('hide-auth-controls')
@@ -43,25 +37,15 @@ const updateUI = async (auth0, query) => {
     Array.from(document.getElementsByClassName('discord-public-link')).map((item) => {
       item.classList.remove('hide-auth-controls')
     })
-    // Array.from(document.getElementsByClassName('logout-button')).map((item) => {
-    //   item.classList.remove('hide-auth-controls')
-    // })
 
     Array.from(document.getElementsByClassName('welcome-pill-message')).map((item) => {
       item.value = `Welcome, ${user.nickname}`
     })
 
   } else {
-    // $(".login-button").show();
     Array.from(document.getElementsByClassName('login-button')).map((item) => {
       item.classList.remove('hide-auth-controls')
     })
-    // $(".welcome-pill-message").hide();
-    // $(".logout-button").hide();
-
-    // Array.from(document.getElementsByClassName('logout-button')).map((item) => {
-    //   item.classList.add('hide-auth-controls')
-    // })
 
     Array.from(document.getElementsByClassName('welcome-pill-message')).map((item) => {
       item.attributes.value = ''
@@ -78,7 +62,6 @@ const updateUI = async (auth0, query) => {
 const authenticate = () => {
   const auth0_domain = 'ieeevis.us.auth0.com'
   const auth0_client_id = 'oF5BXUklWOjSjUeg5Tzai2DysHITXYhT'
-  //console.log("origin is " + window.location.origin);
   createAuth0Client({
     domain: auth0_domain,
     clientId: auth0_client_id,
@@ -118,27 +101,14 @@ const authenticate = () => {
       console.log("included redirect")
       // we should only trigger login requests if we have a page to return to
       if (query.includes("return=")) {
-        // await auth0Client.loginWithRedirect({
-        //   redirect_uri: window.location.href,
-        //   authorizationParams: {
-        //     redirect_uri: window.location.href,
-        //   }
-        // });
         await auth0Client.loginWithPopup();
 
         updateUI(auth0Client, query)
       }
     } else if (window.location.href.includes("room_") || window.location.href.includes("paper_") || window.location.href.includes("poster_")) {
-      // window.location.href = `/year/2025/program/redirect?return=${window.location.pathname.slice(1)}`;
-
       window.location.href = "/year/2025/welcome?loginMsg=true";
     }
 
-
-    // $(".login-button").click(async function () {
-    //   await auth0Client.loginWithPopup();
-    //   updateUI(auth0Client, query)
-    // });
 
     Array.from(document.getElementsByClassName('login-button')).forEach((item) => {
       item.addEventListener('click', async () => {
@@ -155,18 +125,6 @@ const authenticate = () => {
         });
       })
     })
-
-    // document.getElementsByClassName('login-button').addEventListener('click', async () => {
-    //   await auth0Client.loginWithPopup();
-    //   updateUI(auth0Client, query);
-    // })
-
-    // $(".logout-button").click(async function () {
-    //   await auth0Client.logout({
-    //     redirect_uri: window.location.href,
-    //   });
-    // });
-
   })
 }
 
@@ -190,13 +148,7 @@ var getUrlParameter = function getUrlParameter(sParam) {
 };
 
 document.addEventListener('DOMContentLoaded', async () => {
-
-
-  // console.log("URL parameter is ", getUrlParameter('loginMsg'), " and is it true? ", getUrlParameter('loginMsg') == true);
-
   if (getUrlParameter('loginMsg')) {
-    // $("#loginToastMessage").show();
-    // document.getElementById('loginToastMessage').classList.remove('hidden')
     document.getElementById('loginToastMessage').style.display = "block";
   }
 
@@ -416,7 +368,6 @@ document.addEventListener('DOMContentLoaded', async () => {
       authenticate()
       const auth0_domain = 'ieeevis.us.auth0.com'
       const auth0_client_id = 'G8onz2A6h59RmuYFUbSLpGmxsGHOyPOv'
-      //console.log("origin is " + window.location.origin);
       createAuth0Client({
         domain: auth0_domain,
         clientId: auth0_client_id,
