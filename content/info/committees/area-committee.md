@@ -15,7 +15,7 @@ The Area Curation Committee produces an executive summary of analysis of the are
 
 | **Name** | **Affiliation** |
 | Jean-Daniel Fekete (co-chair) | *Inria* |
+| Alexander Lex (co-chair) | *Graz University of Technology* |
 | Anamaria Crisan | *University of Waterloo* |
 | Helwig Hauser | *University of Bergen* |
-| Alexander Lex | *Graz University of Technology* |
 
