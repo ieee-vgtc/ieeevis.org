@@ -24,7 +24,19 @@ Example VisBuddies activities include:
 * Discuss interesting sessions to attend
 * Share tips on successful research
 
-<!-- [VisBuddies Signup Form](https://forms.gle/1Lr2U8tM8qtQin366) -->
+[VisBuddies Signup Form](https://forms.gle/1Lr2U8tM8qtQin366)
+
+### <a name="job-flyers"></a>Job Flyer Online Posting
+
+Do you have a job you are seeking to fill? 
+
+If so, please complete this online form, and we will include your posting on IEEEVIS.org. This year, we will use Discord to facilitate meeting. Participants can connect there to arrange either virtual or on-site discussions.
+
+<!-- You can also use this form to sign up to host a “table” at the Job Fair. -->
+
+[VIS Community Job Posting Form](https://forms.gle/g6sCRcsMkHNavktG9)
+
+Links to the Job Postings will be included on the IEEEVIS.org.
 
 
 ### Contact
