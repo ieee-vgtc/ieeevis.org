@@ -142,7 +142,7 @@ by Zikun Deng, Jiabao Huang, Chenxi Ruan, Jialing Li, Shaowu Gao, & Yi Cai
 **Evaluating judgements of spatial correlation in visual displays of scalar field distributions**<br />
 by Yayan Zhao & Matthew Berger
 
-**Using Tactile Charts to Support Comprehension and Learning of Complex Visualizations for Blind and Low Vision Individuals**<br />
+**Using Tactile Charts to Support Comprehension and Learning of Complex Visualizations for Blind and Low-Vision Individuals**<br />
 by Tingying He, Maggie McCracken, Daniel Hajas, Sarah Creem-Regehr, & Alexander Lex
 
 **Reframing Pattern: A Comprehensive Approach to a Composite Visual Variable**<br />
@@ -335,7 +335,7 @@ by Myeongwon Jung, Takanori Fujiwara, & Jaemin Jo
 **Uncertainty-Aware PCA Revisited**<br />
 by Lukas Friesecke, Christian Braune, Christian Roessl, & Holger Theisel
 
-**Quantifying Visualization Complexity Using Image-Quality Metrics**<br />
+**What Makes a Visualization Image Complex?**<br />
 by Mengdi Chu, Zefeng Qiu, Meng Ling, Shuning Jiang, Robert Laramee, Michael Sedlmair, & Jian Chen
 
 **Interactive Composition Operators: An Alternative Approach for Selecting Linear Embedding Parameters**<br />
@@ -484,7 +484,7 @@ by Anke Friederici, Holger Theisel, & Tobias Günther
 
 #### Authoring and Design [Full Papers]
 
-**Data Augmentation for Visualization Design Knowledge Base**<br />
+**Data Augmentation for Visualization Design Knowledge Bases**<br />
 by Hyeok Kim & Jeffrey Heer
 
 **GoFish: A Grammar of More Graphics!**<br />
