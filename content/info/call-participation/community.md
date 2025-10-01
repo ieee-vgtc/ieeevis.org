@@ -54,7 +54,7 @@ Links to the Job Postings will be included on the IEEEVIS.org.
 <!-- At the VIS conference, we will host a meetup session that connects job seekers and researchers with employers, staff, and faculty. -->
 <!-- This includes all types of job opportunities: staff, industry positions, software engineers, faculty, post-docs, etc., and all types of job seekers from students to practitioners. -->
 
-To participate, please join us at the event during VIS 2025. =
+<!-- To participate, please join us at the event during VIS 2025. -->
 
 ### Contact
 For more information, contact IEEE VIS 2025 Community Chairs:
