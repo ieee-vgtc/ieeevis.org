@@ -9,16 +9,16 @@ permalink: /year/2025/info/jobs
 
 We will collect job postings and display them here throughout the VIS 2025 meeting. 
 
-[VIS Community Job Posting Form](https://forms.gle/A1Yqz1iTWkowDhdEA)
+[VIS Community Job Posting Form](https://forms.gle/Mjt7MGaZFrod3att5)
 
 
 To submit a posting, please use the form above. Postings will be updated every couple of days on this page. 
 
-For more information about the Job Fair Meetup (TBD) please visit "Job Fair Meetup" in the site menu.
+<!-- For more information about the Job Fair Meetup (TBD) please visit "Job Fair Meetup" in the site menu.-->
 
 Questions? Contact the Community Committee at community@ieeevis.org. 
 
-# Job Postings
+<!--# Job Postings
 
 ## Academic
 
@@ -109,4 +109,4 @@ Contact: Melanie Tory, m.tory@northeastern.edu
 Location: Salt Lake City, UT or fully remote  
 Start date: 1/1/2025  
 Start time flexible? Yes  
-Contact amy@visus.net
+Contact amy@visus.net -->
