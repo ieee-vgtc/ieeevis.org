@@ -36,7 +36,7 @@ Example VisBuddies activities include:
 
 Do you have a job you are seeking to fill? 
 
-If so, please complete this online form, and we will include your posting on IEEEVIS.org. This year, we will use Discord to facilitate meeting. Participants can connect there to arrange either virtual or on-site discussions.
+If so, please complete this online form, and we will include your posting on IEEEVIS.org. This year, we will use Discord to facilitate a meeting. Participants can connect there to arrange either virtual or on-site discussions.
 
 <!-- You can also use this form to sign up to host a “table” at the Job Fair. -->
 
