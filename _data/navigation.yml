@@ -217,15 +217,15 @@ menu:
                   - text: "Week at a Glance"
                     description: "Preliminary overview of the conference week"
                     url: "/year/2025/info/program/week-at-a-glance"
-                    is_new: true
+                    is_new: false
                   - text: "Papers"
                     description: "Paper sessions"
                     url: "/year/2025/info/program/papers_list"
-                    is_new: true
+                    is_new: false
                   - text: "Posters"
                     description: "Nascent and recent work"
                     url: "/year/2025/info/program/posters"
-                    is_new: true
+                    is_new: false
                   - text: "Panels"
                     description: "Discuss important and controversial issues"
                     url: "/year/2025/info/program/panels"
@@ -257,13 +257,13 @@ menu:
               - links:
                 - text: "Best Paper/Poster Awards"
                   url: "/year/2025/info/awards/best-paper-awards"
-                  is_new: true
-#                - text: "VGTC VIS Awards"
-#                   url: "https://www.google.com"
-#                   is_new: true
+                  is_new: false
+                - text: "VGTC VIS Awards"
+                  url: "/year/2025/info/awards/vgtc-awards"
+                  is_new: false
                 - text: "Test of Time Awards"
                   url: "/year/2025/info/awards/test-of-time-awards"
-                  is_new: true
+                  is_new: false
       #- subsections:
           #- heading: "Plenary Sessions"
           #  description: "Engage with the VIS community, internal and external"

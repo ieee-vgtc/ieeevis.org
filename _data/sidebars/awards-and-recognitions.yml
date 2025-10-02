@@ -1,7 +1,7 @@
 - links:
   - text: "Best Paper/Poster Awards"
     url: "/year/2025/info/awards/best-paper-awards"
-  # - text: "VGTC VIS Awards"
-  #   url: "https://www.google.com"
+  - text: "VGTC VIS Awards"
+    url: "/year/2025/info/awards/vgtc-awards"
   - text: "Test of Time Awards"
     url: "/year/2025/info/awards/test-of-time-awards"
