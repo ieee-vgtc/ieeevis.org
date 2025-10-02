@@ -33,7 +33,6 @@ So, when searching for a hotel near the city center, it is highly recommended th
 
 We also pre-booked some rooms in Vienna, in case you don't want to search for a hotel on your own.
 Room blocks are not tied to the conference organization. If room allotments are not claimed, they will be returned to the hotels.
-This is a first list of pre-booked hotels, 1-2 are more to come within the next weeks.
 
 <!-- ---------------------------------------------------------------------------------- -->
 ### Close to the Austria Center Vienna
