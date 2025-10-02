@@ -13,9 +13,8 @@ We will collect job postings and display them here throughout the VIS 2025 meeti
 
 [VIS Community Job Posting Form](https://forms.gle/Mjt7MGaZFrod3att5)
 
+To submit a posting, please use the form above. Postings will be updated every couple of days on this page.
 
-To submit a posting, please use the form above. Postings will be updated every couple of days on this page. 
+<hr />
 
-<!-- For more information about the Job Fair Meetup (TBD) please visit "Job Fair Meetup" in the site menu.-->
-
-Questions? Contact the Community Committee at community@ieeevis.org. 
+Questions? Contact the Community Committee at [community@ieeevis.org](mailto:community@ieeevis.org). 
