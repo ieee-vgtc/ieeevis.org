@@ -31,6 +31,8 @@ Numerous formalizations have emerged for creating, interpreting, and teaching da
 Following the presentations, attendees will engage with two virtual reality (VR) demonstration applications built on different engines and hardware to exemplify approaches in immersive analytics: biomedical data visualization involving 3D models of adult human anatomy and collaborative network visualization and analysis (TRY).
 During the TRY phase, the audience will be invited to share their insights on the individual experiences exhibited via a digital whiteboard (TELL). This format ensures attendees not only understand the conceptual challenges but also experience the perceptual and interaction complexities first-hand. The panel aims to establish a roadmap for developing both theoretical foundations and practical toolkits to advance data visualization in XR as a mature field with strong theory and practice within the visualization community.
 
+A website with more information is available at [https://cns-iu.github.io/data-vis-xr-panel-2025](https://cns-iu.github.io/data-vis-xr-panel-2025).
+
 
 <!-- -------------------  -->
 ## From Cognition to Context: A Conversation about Technical Approaches, Social Values, and Tradeoffs in Visualization
