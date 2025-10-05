@@ -21,7 +21,7 @@ Data visualization is not yet a fully established science, but rather a practice
 To elevate data visualization to the rank of a science, it needs a philosophical foundation, a scientific core, and a rigorous methodology.
 His keynote talk will outline some of the gaps that need to be filled in order to achieve this.
 
-**When: Tuesday (November 4, 2025), 11:15, Hall E**
+**When: Friday (Nov 7), 09:30am (CET), Hall E**
 
 
 ## Capstone by Theo Deutinger
@@ -41,4 +41,4 @@ In his capstone talk *"A Diagrammatic Approach to the World"* Theo will focus on
 Starting from the 100th anniversary of the Gesellschafts- und Wirtschaftsmuseum, founded by Otto Neurath - member of the Vienna Circle and inventor of ISOTYPE - Theo will go back in time and try to decipher the origin of data visualization.
 In this context, he will show examples of his own work and explain his fascination with the forces of globalization and how data visualization is the way to get a grip on them.
 
-**When: Friday (November 7, 2025), 11:15, Hall E**
+**When: Friday (Nov 7), 11:15am (CET), Hall E**
