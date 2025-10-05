@@ -9,7 +9,7 @@ contact: program@ieeevis.org
 
 ## Virtual Presentations
 
-Virtual presentations at VIS 2025 are planned as videos that will be played at a specific time in a conference room.
+Virtual presentations at VIS 2025 are planned as **videos that will be played at a specific time** in a conference room.
 A session chair will be available on site to introduce and play the videos.
 Questions and answers will be conducted asynchronously in Discord.
 
@@ -21,7 +21,7 @@ Talk videos for full papers should be **9 minutes**. Talk videos for short paper
 
 ### Technical specification
 
-All video submissions must meet the following requirements:
+All video submissions must meet the following **requirements**:
 * MPEG-4 using H.264 encoding for video and AAC for audio (file extension must be .mp4)
 * 1920x1080 resolution
 * 16:9 aspect ratio: please make use of the full resolution, i.e., no black borders should be visible
@@ -38,5 +38,5 @@ Upload your talk video until **October 22nd, 2025** to the TU Wien Nextcloud ser
 
 ## Q&A
 
-Make sure you logged in to Discord to take questions after your video has been played.
+Make sure you logged in to **Discord** to take questions after your video has been played.
 Check Discord regularly throughout the conference.
