@@ -114,14 +114,18 @@ Coffee breaks are planned between the first/second and third/fourth block.
 
 *11:15 AM - 12:30 PM (CET)*<br/>
 * **VGTC Awards**
+* **VIS Introduction**
+    * Paper and Short Paper Selection
+    * Poster Selection
 * **Best Short Papers**
+  * Best Short Paper 1
 
 #### Afternoon
 
 *2:00 PM - 3:15 PM (CET)*<br/>
-* **Introduction**
-  * Paper and Short Paper Selection
-  * IPC members
+* **Best Short Papers**
+    * Best Short Paper 2
+* **Best Poster Award**
 * **Best Papers**
   * Best Papers 1-3
 
