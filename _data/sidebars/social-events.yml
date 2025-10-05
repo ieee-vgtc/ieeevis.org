@@ -1,0 +1,12 @@
+- heading: "Social Events"
+  links:
+    - text: "Welcome Reception"
+      url: "/year/2025/info/social-events/welcome-reception"
+    - text: "Poster Session"
+      url: "/year/2025/info/social-events/poster-session"
+    - text: "Conference Dinner"
+      url: "/year/2025/info/social-events/conference-dinner"
+    #- text: "VISAP Reception"
+    #  url: "/year/2025/info/social-events/visap-reception"
+    - text: "OC Dinner"
+      url: "/year/2025/info/social-events/oc-dinner"
