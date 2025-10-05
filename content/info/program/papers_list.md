@@ -13,6 +13,17 @@ This is the list of accepted papers for VIS 2025, as well as the paper sessions 
 <!-- ---------------------------------------------------------------------------------- -->
 ## Tuesday, November 4
 
+### Best Short Papers
+
+### 11:15pm - 12:30pm (CET)
+
+**Toward a Logic of Generalization about Visualization as a Decision Aid**<br />
+by Alex Kale
+
+**The Perils of Chart Deception: How Misleading Visualizations Affect Vision-Language Models**
+by Ridwan Mahbub, Mohammed Saidul Islam, Md Tahmid Rahman Laskar, Mizanur Rahman, Mir Tafseer Nayeem, & Enamul Hoque
+
+
 ### Best Papers
 
 ### 2:00pm - 3:15pm (CET)
@@ -26,7 +37,6 @@ by Zach Cutler, Jack Wilburn, Hilson Shrestha, Yiren Ding, Brian Bollen, Khandak
 **Beyond Problem Solving: Framing and Problem–Solution Co-Evolution in Data Visualization Design**
 by Paul Parsons & Prakash Chandra Shukla
 
-
 ### 3:45pm - 5:00pm (CET)
 
 **Causality-based Visual Analytics of Sentiment Contagion in Social Media Topics**<br />
@@ -36,15 +46,6 @@ by Renzhong Li, Shuainan Ye, Yuchen Lin, Buwei Zhou, Zhining Kang, Tai-Quan Peng
 by Kuangshi Ai, Kaiyuan Tang, & Chaoli Wang
 
 
-### Best Short Papers
-
-### 11:15pm - 12:30pm (CET)
-
-**Toward a Logic of Generalization about Visualization as a Decision Aid**<br />
-by Alex Kale
-
-**The Perils of Chart Deception: How Misleading Visualizations Affect Vision-Language Models**
-by Ridwan Mahbub, Mohammed Saidul Islam, Md Tahmid Rahman Laskar, Mizanur Rahman, Mir Tafseer Nayeem, & Enamul Hoque
 
 <hr />
 
@@ -64,13 +65,13 @@ by Junwen Duan, Wei Xue, Ziyao Kang, Shixia Liu, & Jiazhi Xia
 **Visual Analytics Using Tensor Unified Linear Comparative Analysis**<br />
 by Naoki Okami, Kazuki Miyake, Naohisa Sakamoto, Jorji Nonaka, & Takanori Fujiwara 
 
-**A Simulation-based Approach for Quantifying the Impact of Interactive Label Correction for Machine Learning**<br />
-by Zhen Li, Weikai Yang, Jun Yuan, Jing Wu, Changjian Chen, Yao Ming, Fan Yang, Hui Zhang, & Shixia Liu
-
-**An In-Situ Visual Analytics Framework for Deep Neural Networks**<br />
+**An In-Situ Visual Analytics Framework for Deep Neural Networks [TVCG]**<br />
 by Guan Li, Junpeng Wang, Yang Wang, Guihua Shan, & Ying Zhao
 
-**VISTA: A Visual Analytics Framework to Enhance Foundation Model-Generated Data Labels**<br />
+**A Simulation-based Approach for Quantifying the Impact of Interactive Label Correction for Machine Learning [TVCG]**<br />
+by Yixuan Wang, Jieqiong Zhao, Jiayi Hong, Ronald G. Askin, & Ross Maciejewski
+
+**VISTA: A Visual Analytics Framework to Enhance Foundation Model-Generated Data Labels [TVCG]**<br />
 by Xiwei Xuan, Xiaoqi Wang, Wenbin He, Jorge Piazentin Ono, Liang Gou, Kwan-Liu Ma, & Liu Ren
 
 
@@ -83,15 +84,15 @@ by Kresimir Matkovic, Rainer Splechtna, Denis Gracanin, & Helwig Hauser
 by Juntong Chen, Huayuan Ye, He Zhu, Siwei Fu, Changbo Wang, & Chenhui Li
 
 **EventBox: A Novel Visual Encoding for Interactive Analysis of Temporal and Multivariate Attributes in Event Sequences**<br />
-by Luis Montana Gonzalez, Jessica Magallanes, Miguel A Juarez, Suzanne Mason, Andrew Narracott, Lindsey van Gemeren, Steven Wood, & Maria-Cruz Villa-Uriol
+by Luis Rene Montana Gonzalez, Jessica Magallanes, Miguel A. Juarez, Suzanne Mason, Andrew Narracott, Lindsey van Gemeren, Steven Wood, & Maria-Cruz Villa-Uriol
 
-**Continuous Scatterplot and Image Moments for Time-Varying Bivariate Field Analysis of Electronic Structure Evolution**<br />
+**Continuous Scatterplot and Image Moments for Time-Varying Bivariate Field Analysis of Electronic Structure Evolution [TVCG]**<br />
 by Mohit Sharma, Talha Bin Masood, Nanna Holmgaard List, Ingrid Hotz, & Vijay Natarajan
 
-**TimeLighting: Guided Exploration of 2D Temporal Network Projections**<br />
-by Velitchko Filipov, Davide Ceneda, Daniel Archambault, & Alessio Arleo
+**TimeLighting: Guided Exploration of 2D Temporal Network Projections [TVCG]**<br />
+by Velitchko Andreev Filipov, Davide Ceneda, Daniel Archambault, & Alessio Arleo
 
-**Uncertainty-aware Spectral Visualization**<br />
+**Uncertainty-aware Spectral Visualization [TVCG]**<br />
 by Marina Evers & Daniel Weiskopf
 
 
@@ -103,14 +104,14 @@ by Ziheng Guo, Tianxiang Wei, Zeyu Li, Lianghao Zhang, Sisi Li, & Jiawan Zhang
 **MisVisFix: An Interactive Dashboard for Detecting, Explaining, and Correcting Misleading Visualizations using Large Language Models**<br />
 by Amit Kumar Das & Klaus Mueller
 
-**Dashboard Vision: Using Eye-Tracking to Understand and Predict Dashboard Viewing Behaviors**<br />
-by Manling Yang, Yihan Hou, Ling Li, Remco Chang, & Wei Zeng
-
-**Drillboards: Adaptive Visualization Dashboards for Dynamic Personalization of Visualization Experiences**<br />
+**Drillboards: Adaptive Visualization Dashboards for Dynamic Personalization of Visualization Experiences [TVCG]**<br />
 by Sungbok Shin, Inyoup Na, & Niklas Elmqvist
 
-**From Dashboard Zoo to Census: A Case Study with Tableau Public**<br />
+**From Dashboard Zoo to Census: A Case Study with Tableau Public [TVCG]**<br />
 by Arjun Srinivasan, Joanna Purich, Michael Correll, Leilani Battle, Vidya Setlur, & Anamaria Crisan
+
+**Dashboard Vision: Using Eye-Tracking to Understand and Predict Dashboard Viewing Behaviors [TVCG]**<br />
+by Manling Yang, Yihan Hou, Ling Li, Remco Chang, & Wei Zeng
 
 **Watering the Future: Assessing a Visualization Design for Accessible Comprehension of Water Management** [Short Paper]<br />
 by Sarah Yuniar, Yuya Kawakami, Logan Ga-sing Tang, & Kwan-Liu Ma
@@ -130,14 +131,14 @@ by Arlindo Gomes, Emilly Brito, Luiz Morais, & Nivan Ferreira
 **Algorithmically-Assisted Schematic Transit Map Design: A System and Algorithmic Core for Fast Layout Iteration**<br />
 by Thomas van Dijk & Soeren Terziadis
 
-**Algorithms for Consistent Dynamic Labeling of Maps With a Time-Slider Interface**<br />
+**Algorithms for Consistent Dynamic Labeling of Maps With a Time-Slider Interface [TVCG]**<br />
 by Annika Bonerath, Anne Driemel, Jan-Henrik Haunert, Herman Haverkort, Elmar Langetepe, & Benjamin Niedermann
 
-**Volume-Based Space-Time Cube for Large-Scale Continuous Spatial Time Series**<br />
+**Volume-Based Space-Time Cube for Large-Scale Continuous Spatial Time Series [TVCG]**<br />
 by Zikun Deng, Jiabao Huang, Chenxi Ruan, Jialing Li, Shaowu Gao, & Yi Cai
 
 
-#### Encoding and Comprehension (Virtual) [Full Papers]
+#### Virtual Session 2: Encoding & Comprehension [Full Papers]
 
 **Evaluating judgements of spatial correlation in visual displays of scalar field distributions**<br />
 by Yayan Zhao & Matthew Berger
@@ -168,17 +169,17 @@ by Jun Han, Kaiyuan Tang, & Chaoli Wang
 **Self-Supervised Continuous Colormap Recovery from a 2D Scalar Field Visualizations without a Legend**<br />
 by Hongxu Liu, Xinyu Chen, Haoyang Zheng, Manyi Li, Zhenfan Liu, Fumeng Yang, Yunhai Wang, Changhe Tu, & Qiong Zeng
 
-**Distributed Neural Representation for Reactive In Situ Visualization**<br />
+**Distributed Neural Representation for Reactive In Situ Visualization [TVCG]**<br />
 by Qi Wu, Joseph A. Insley, Victor A. Mateevitsi, Silvio Rizzi, Michael E. Papka, & Kwan-Liu Ma
 
-**Improving Neural Volume Rendering via Learning View-Dependent Integral Approximation**<br />
-by Yifan Wang, Jun Xu, Yuan Zeng & Yi Gong
+**Improving Neural Volume Rendering via Learning View-Dependent Integral Approximation [TVCG]**<br />
+by Yifan Wang, Jun Xu, Yuan Zeng, & Yi Gong
 
-**NeRF-CA: Dynamic Reconstruction of X-ray Coronary Angiography with Extremely Sparse-views**<br />
+**NeRF-CA: Dynamic Reconstruction of X-ray Coronary Angiography with Extremely Sparse-views [TVCG]**<br />
 by Kirsten W.H. Maas, Danny Ruijters, Anna Vilanova, & Nicola Pezzotti
 
-**Stylizing Sparse-View 3D Scenes with Hierarchical Neural Representation**<br />
-by Yifan Wang, Ang Gao, Yi Gong & Yuan Zeng
+**Stylizing Sparse-View 3D Scenes with Hierarchical Neural Representation [TVCG]**<br />
+by Yifan Wang, Ang Gao, Yi Gong, & Yuan Zeng
 
 
 #### Of Trees and Treemaps [Full Papers + 1 Short Paper]
@@ -186,17 +187,17 @@ by Yifan Wang, Ang Gao, Yi Gong & Yuan Zeng
 **Neighbourhood-Preserving Voronoi Treemaps**<br />
 by Patrick Paetzold, Rebecca Kehlbeck, Yumeng Xue, Bin Chen, Yunhai Wang, & Oliver Deussen
 
-**Hierarchical Fuzzy-Cluster-Aware Grid Layout for Large-Scale Data**<br />
-by Yuxing Zhou, Changjian Chen, Zhiyang Shen, Jiangning Zhu, Jiashu Chen, Weikai Yang, & Shixia Liu
-
-**Multi-field Visualization: Trait design and trait-induced merge trees**<br />
+**Multi-field Visualization: Trait design and trait-induced merge trees [TVCG]**<br />
 by Danhua Lei, Jochen Jankowai, Petar Hristov, Hamish Carr, Leif Denby, Talha Bin Masood, & Ingrid Hotz
 
-**RuleExplorer: A Scalable Matrix Visualization for Understanding Tree Ensemble Classifiers**<br />
+**Hierarchical Fuzzy-Cluster-Aware Grid Layout for Large-Scale Data [TVCG]**<br />
+by Yuxing Zhou, Changjian Chen, Zhiyang Shen, Jiangning Zhu, Jiashu Chen, Weikai Yang, & Shixia Liu
+
+**RuleExplorer: A Scalable Matrix Visualization for Understanding Tree Ensemble Classifiers [TVCG]**<br />
 by Zhen Li, Weikai Yang, Jun Yuan, Jing Wu, Changjian Chen, Yao Ming, Fan Yang, Hui Zhang, & Shixia Liu
 
-**SynthLens: Visual Analytics for Facilitating Multi-step Synthetic Route Design**<br />
-by Qipeng Wang, Rui Sheng, Shaolun Ruan, XiaofuJin, Chuhan Shi, & Min Zhu
+**SynthLens: Visual Analytics for Facilitating Multi-step Synthetic Route Design [TVCG]**<br />
+by Qipeng Wang, Rui Sheng, Shaolun Ruan, Xiaofu Jin, Chuhan Shi, & Min Zhu
 
 **Interactive Discovery and Visualization of Process Trees** [Short Paper]<br />
 by Wouter van der Heijden & Stef van den Elzen
@@ -283,7 +284,7 @@ by Rene Cutura, Hennes Rave, Quynh Quang Ngo, Vladimir Molchanov, Lars Linsen, D
 by Connor Bailey & Michael Gleicher
 
 
-#### Viz for AI & AI for Viz (Virtual) [Short Papers]
+#### Virtual Short Paper Session 1: Viz for AI & AI for Viz [Short Papers]
 
 **Challenges & Opportunities with LLM-Assisted Visualization Retargeting**<br />
 by Luke S. Snyder, Chenglong Wang, & Steven M. Drucker
@@ -339,13 +340,13 @@ by Lukas Friesecke, Christian Braune, Christian Roessl, & Holger Theisel
 by Mengdi Chu, Zefeng Qiu, Meng Ling, Shuning Jiang, Robert Laramee, Michael Sedlmair, & Jian Chen
 
 **Interactive Composition Operators: An Alternative Approach for Selecting Linear Embedding Parameters**<br />
-by Dirk Lehmann, Kai Blum, Manuel Rubio-Sánchez, & Konrad Simon
+by Dirk Lehmann, Kai M. Blum, Manuel Rubio-Sánchez, & Konrad Simon
 
-**HUMAP: Hierarchical Uniform Manifold Approximation and Projection**<br />
-by Wilson E. Marcílio-Jr, Danilo M. Eler, Fernando V. Paulovich, & Rafael Messias
-
-**ReorderBench: A Benchmark for Matrix Reordering**<br />
+**ReorderBench: A Benchmark for Matrix Reordering [TVCG]**<br />
 by Jiangning Zhu, Zheng Wang, Zhiyang Shen, Lai Wei, Fengyuan Tian, Mengchen Liu, & Shixia Liu
+
+**HUMAP: Hierarchical Uniform Manifold Approximation and Projection [TVCG]**<br />
+by Wilson E. Marcílio-Jr, Danilo M. Eler, Fernando V. Paulovich, & Rafael M. Martins
 
 
 #### Volume [Full Papers]
@@ -356,16 +357,16 @@ by Jianxin Sun, David Lenz, Hongfeng Yu, & Tom Peterka
 **VolSegGS: Segmentation and Tracking in Dynamic Volumetric Scenes via Deformable 3D Gaussians**<br />
 by Siyuan Yao & Chaoli Wang
 
-**DCINR: A Divide-and-Conquer Implicit Neural Representation for Compressing Time-Varying Volumetric Data in Hours**<br />
+**DCINR: A Divide-and-Conquer Implicit Neural Representation for Compressing Time-Varying Volumetric Data in Hours [TVCG]**<br />
 by Jun Han & Fan Yang
 
-**RmdnCache: Dual-Space Prefetching Neural Network for Large-Scale Volume Visualization**<br />
+**RmdnCache: Dual-Space Prefetching Neural Network for Large-Scale Volume Visualization [TVCG]**<br />
 by Jianxin Sun, Xinyan Xie, & Hongfeng Yu
 
-**Two-Level Transfer Functions Using t-SNE for Data Segmentation in Direct Volume Rendering**<br />
+**Two-Level Transfer Functions Using t-SNE for Data Segmentation in Direct Volume Rendering [TVCG]**<br />
 by Sangbong Yoo, Seokyeon Kim, & Yun Jang
 
-**Visualization of Large Non-Trivially Partitioned Unstructured Data with Native Distribution on High-Performance Computing Systems**<br />
+**Visualization of Large Non-Trivially Partitioned Unstructured Data with Native Distribution on High-Performance Computing Systems [TVCG]**<br />
 by Alper Sahistan, Serkan Demirci, Ingo Wald, Stefan Zellmann, João Barbosa, Nate Morrical, & Uğur Güdükbay
 
 
@@ -380,13 +381,13 @@ by Leander Lauenburg, Jakob Troidl, Adam Gohain, Zudi Lin, Hanspeter Pfister, & 
 **DKMap: Interactive Exploration of Vision-Language Alignment in Multimodal Embeddings via Dynamic Kernel Enhanced Projection**<br />
 by Yilin Ye, Chenxi Ruan, Yu Zhang, Zikun Deng, & Wei Zeng
 
-**Fast and Readable Layered Network Visualizations Using Large Neighborhood Search**<br />
+**Fast and Readable Layered Network Visualizations Using Large Neighborhood Search [TVCG]**<br />
 by Connor Wilson, Tarik Crnovrsanin, Eduardo Puerta, & Cody Dunne
 
-**Versatile Ordering Network: An Attention-based Neural Network for Ordering Across Scales and Quality Metrics**<br />
+**Versatile Ordering Network: An Attention-based Neural Network for Ordering Across Scales and Quality Metrics [TVCG]**<br />
 by Zehua Yu, Weihan Zhang, Sihan Pan, & Jun Tao
 
-**ZigzagNetVis: Suggesting temporal resolutions for graph visualization using zigzag persistence**<br />
+**ZigzagNetVis: Suggesting temporal resolutions for graph visualization using zigzag persistence [TVCG]**<br />
 by Raphael Tinarrage, Jean R. Ponciano, Claudio D. G. Linhares, Agma J. M. Traina, & Jorge Poco
 
 
@@ -424,19 +425,19 @@ by Hyunsoo Son, Jeonghyun Noh, Suemin Jeon, Chaoli Wang, & Won-Ki Jeong
 **ProactiveVA: Proactive Visual Analytics with LLM-based UI Agent**<br />
 by Yuheng Zhao, Xueli Shu, Liwen Fan, Lin Gao, Yu Zhang, & Siming Chen
 
-**FinFlier: Automating Graphical Overlays for Financial Visualizations With Knowledge-Grounding Large Language Model**<br />
+**FinFlier: Automating Graphical Overlays for Financial Visualizations With Knowledge-Grounding Large Language Model [TVCG]**<br />
 by Jianing Hao, Manling Yang, Qing Shi, Yuzhe Jiang, Guang Zhang, & Wei Zeng
 
-**HINTs: Sensemaking on large collections of documents with Hypergraph visualization and INTelligent agents**<br />
+**HINTs: Sensemaking on large collections of documents with Hypergraph visualization and INTelligent agents [TVCG]**<br />
 by Sam Yu-Te Lee & Kwan-Liu Ma
 
-**LightVA: Lightweight Visual Analytics with LLM Agent-Based Task Planning and Execution**<br />
+**LightVA: Lightweight Visual Analytics with LLM Agent-Based Task Planning and Execution [TVCG]**<br />
 by Yuheng Zhao, Junjie Wang, Linbin Xiang, Xiaowen Zhang, Zifei Guo, Cagatay Turkay, Yu Zhang, & Siming Chen
 
-**Visualizationary: Automating Design Feedback for Visualization Designers Using Large Language Models**<br />
+**Visualizationary: Automating Design Feedback for Visualization Designers Using Large Language Models [TVCG]**<br />
 by Sungbok Shin, Sanghyun Hong, & Niklas Elmqvist
 
-**VOICE: Visual Oracle for Interaction, Conversation, and Explanation**<br />
+**VOICE: Visual Oracle for Interaction, Conversation, and Explanation [TVCG]**<br />
 by Donggang Jia, Alexandra Irger, Lonni Besançon, Ondřej Strnad, Deng Luo, Johanna Björklund, Alexandre Kouyoumdjian, Anders Ynnerman, & Ivan Viola
 
 
@@ -451,13 +452,13 @@ by Yuya Kawakami, Daniel Cayan, Dongyu Liu, & Kwan-Liu Ma
 **SEAL: Spatially-resolved Embedding Analysis with Linked Imaging Data**<br />
 by Simon Warchol, Grace Guo, Johannes Knittel, Dan Freeman, Usha Bhalla, Jeremy Muhlich, Peter Sorger, & Hanspeter Pfister
 
-**A Critical Analysis of the Usage of Dimensionality Reduction in Four Domains**<br />
+**A Critical Analysis of the Usage of Dimensionality Reduction in Four Domains [TVCG]**<br />
 by Dylan Cashman, Mark Keller, Hyeon Jeon, Bum Chul Kwon, & Qianwen Wang
 
-**Interactive Visual Analysis of Spatial Sensitivities**<br />
+**Interactive Visual Analysis of Spatial Sensitivities [TVCG]**<br />
 by Marina Evers, Simon Leistikow, Hennes Rave, & Lars Linsen
 
-**RSVP for VPSA: A Meta Design Study on Rapid Suggestive Visualization Prototyping for Visual Parameter Space Analysis**<br />
+**RSVP for VPSA: A Meta Design Study on Rapid Suggestive Visualization Prototyping for Visual Parameter Space Analysis [TVCG]**<br />
 by Manfred Klaffenboeck, Michael Gleicher, Johannes Sorger, Michael Wimmer, & Torsten Möller
 
 
@@ -478,7 +479,7 @@ by Nathaniel Gorski, Xin Liang, Hanqi Guo, & Bei Wang
 **FlowHON: Representing Flow Fields Using Higher-Order Networks**<br />
 by Nan Chen, Zhihong Li, & Jun Tao
 
-**Trajectory Vorticity - Computation and Visualization of Rotational Trajectory Behavior in an Objective Way**<br />
+**Trajectory Vorticity - Computation and Visualization of Rotational Trajectory Behavior in an Objective Way [TVCG]**<br />
 by Anke Friederici, Holger Theisel, & Tobias Günther
 
 
@@ -499,7 +500,7 @@ by Yiwen Xing, Maria Teresa Ortoleva, Rita Borgo, & Alfie Abdul-Rahman
 **A Multimodal Framework for Understanding Collaborative Design Processes**<br />
 by Maurice Koch, Nelusa Pathmanathan, Daniel Weiskopf, & Kuno Kurzhals
 
-**Constraint-Based Breakpoints for Responsive Visualization Design and Development**<br />
+**Constraint-Based Breakpoints for Responsive Visualization Design and Development [TVCG]**<br />
 by Sarah Schöttler, Jason Dykes, Jo Wood, Uta Hinrichs, & Benjamin Bach
 
 
@@ -511,16 +512,16 @@ by Xiaolin Wen, Qishuang Fu, Shuangyue Han, Yichen Guo, Joseph Liu, & Yong WANG
 **Motif Simplification for BioFabric Network Visualizations: Improving Pattern Recognition and Interpretation**<br />
 by Johannes Fuchs, Cody Dunne, Maria-Viktoria Heinle, Daniel Keim, & Sara Di Bartolomeo
 
-**Bridging Network Science and Vision Science: Mapping Perceptual Mechanisms to Network Visualization Tasks**<br />
+**Bridging Network Science and Vision Science: Mapping Perceptual Mechanisms to Network Visualization Tasks [TVCG]**<br />
 by S. Sandra Bae, Kyle Cave, Carsten Görg, Paul Rosen, Danielle Albers Szafir, & Cindy Xiong Bearfield
 
-**Image-Driven Style Extraction From Graph Visualizations for Visual Style Transfer**<br />
+**Image-Driven Style Extraction From Graph Visualizations for Visual Style Transfer [TVCG]**<br />
 by Sicheng Song, Yipeng Zhang, Yanna Lin, Huamin Qu, Changbo Wang, & Chenhui Li
 
-**The Census-Stub Graph Invariant Descriptor**<br />
+**The Census-Stub Graph Invariant Descriptor [TVCG]**<br />
 by Matt I.B. Oddo, Stephen Kobourov, & Tamara Munzner
 
-**Visual Analytics of Multivariate Networks with Representation Learning and Composite Variable Construction**<br />
+**Visual Analytics of Multivariate Networks with Representation Learning and Composite Variable Construction [TVCG]**<br />
 by Hsiao-Ying Lu, Takanori Fujiwara, Ming-Yi Chang, Yang-chih Fu, Anders Ynnerman, & Kwan-Liu Ma
 
 <hr />
@@ -544,10 +545,10 @@ by Zhanna Kaufman, Madeline Endres, Cindy Xiong Bearfield, & Yuriy Brun
 **EncQA: Benchmarking Vision-Language Models on Visual Encodings for Charts**<br />
 by Kushin Mukherjee, Donghao Ren, Dominik Moritz, & Yannick Assogba
 
-**AttributionScanner: A Visual Analytics System for Model Validation with Metadata-Free Slice Finding**<br />
+**AttributionScanner: A Visual Analytics System for Model Validation with Metadata-Free Slice Finding [TVCG]**<br />
 by Xiwei Xuan, Jorge Piazentin Ono, Liang Gou, Kwan-Liu Ma, & Liu Ren
 
-**Visagreement: Visualizing and Exploring Explanations (Dis)Agreement**<br />
+**Visagreement: Visualizing and Exploring Explanations (Dis)Agreement [TVCG]**<br />
 by Priscylla Silva, Vitória Guardieiro, Brian Barr, Claudio Silva, & Luis Gustavo Nonato
 
 
@@ -626,7 +627,7 @@ by Paul C. Parsons & Arran Ridley
 by Sarah Dunn, Tara Capel, Areti Manataki & Benjamin Bach
 
 
-#### Multi-modal and Spatial (Virtual) [Short Papers]
+#### Virtual Short Paper Session 2: Multi-modal and Spatial [Short Papers]
 
 **Visual Integrity in the Age of AI: An Evaluation of DLSS and DLAA in Geospatial Visualization**<br />
 by Kindrat Beregovyi & Thomas Butkiewicz
@@ -636,9 +637,6 @@ by Nguyen K Phan, Ricardo Andres Morales Vargas, Sebastian Espriella, & Guoning 
 
 **Vizualink: Evaluating Usability and Loyalty Impacts of Text-Graph Integration in Data-Driven Articles**<br />
 by Abdessalam Ouaazki, & Adrian Holzer
-
-**Drawing in the Flow: A Data-Aware Mixed-Reality Sketching Interface for Illustrative 3D Flow Visualization**<br />
-by Walter Sands, Sean J Dorr, Kiet Tran, & Daniel F. Keefe
 
 **ChartMark: A Structured Grammar for Chart Annotation**<br />
 by Yiyu Chen, Yifan Wu, Shuyu Shen, Yupeng Xie, Leixian Shen, Hui Xiong, & Yuyu Luo
@@ -678,10 +676,10 @@ by Jun-Hsiang Yao, Jielin Feng, Xinfang Tian, Kai Xu, Gulshat Amirkhanova, & Sim
 **TactiVis: Towards Better Understanding of Team-based Combat Tactics**<br />
 by Hancheng Zhang, Guozheng Li, Min Lu, Jincheng Li, & Chi Harold Liu
 
-**Deciphering Explicit and Implicit Features for Reliable, Interpretable, and Actionable User Churn Prediction in Online Video Games**<br />
+**Deciphering Explicit and Implicit Features for Reliable, Interpretable, and Actionable User Churn Prediction in Online Video Games [TVCG]**<br />
 by Xiyuan Wang, Laixin Xie, He Wang, Xingxing Xing, Wei Wan, Ziming Wu, Xiaojuan Ma, & Quan Li
 
-**MAICO: A Visualization Design Study on AI-Assisted Music Composition**<br />
+**MAICO: A Visualization Design Study on AI-Assisted Music Composition [TVCG]**<br />
 by Simeon Rau, Frank Heyen, Benedikt Brachtel, & Michael Sedlmair
 
 **Animated Visual Encoding and Layer Blending for Identification of Educational Game Strategies** [Short Paper]<br />
@@ -709,7 +707,7 @@ by Zhihao Shuai, Boyan LI, siyu yan, Yuyu Luo, & Weikai Yang
 Xuan Zhao & Jun Tao
 
 
-#### Volumes & 3D (Virtual) [Full Papers]
+#### Virtual Session 1: Volumes & 3D [Full Papers]
 
 **Design Space and Declarative Grammar for 3D Genomic Data Visualization**<br />
 by David Kouřil, Trevor Manz, Sehi L'Yi, & Nils Gehlenborg
@@ -764,10 +762,10 @@ by Yiwen Xing, Meilai Ji, Cristina Dondi, & Alfie Abdul-Rahman
 **Interactive Hybrid Rice Breeding with Parametric Dual Projection**<br />
 by Changjian Chen, Pengcheng Wang, Fei Lyu, Zhuo Tang, Li Yang, Long Wang, Yong Cai, Feng Yu, & Kenli Li
 
-**ASight: Fine-tuning Auto-Scheduling Optimizations for Model Deployment via Visual Analytics**<br />
+**ASight: Fine-tuning Auto-Scheduling Optimizations for Model Deployment via Visual Analytics [TVCG]**<br />
 by Laixin Xie, Chenyang Zhang, Ruofei Ma, Xingxing Xing, Wei Wan, & Quan Li
 
-**PonziLens+: Visualizing Bytecode Actions for Smart Ponzi Scheme Identification**<br />
+**PonziLens+: Visualizing Bytecode Actions for Smart Ponzi Scheme Identification [TVCG]**<br />
 by Xiaolin Wen, Tai D. Nguyen, Shaolun Ruan, Qiaomu Shen, Jun Sun, Feida Zhu, & Yong Wang
 
 
@@ -803,13 +801,13 @@ by Sanjana Srabanti, G. Elisabeta Marai, & Fabio Miranda
 **Urbanite: A Dataflow-Based Framework for Human-AI Interactive Alignment in Urban Visual Analytics**<br />
 by Gustavo Moreira, Leonardo Ferreira, Carolina Veiga, Maryam Hosseini, & Fabio Miranda
 
-**CATOM: Causal Topology Map for Spatiotemporal Traffic Analysis with Granger Causality in Urban Areas**<br />
+**CATOM: Causal Topology Map for Spatiotemporal Traffic Analysis with Granger Causality in Urban Areas [TVCG]**<br />
 by Chanyoung Jung, Soobin Yim, Giwoong Park, Simon Oh, & Yun Jang
 
-**SGLDBench: A Benchmark Suite for Stress-Guided Lightweight 3D Designs**<br />
+**SGLDBench: A Benchmark Suite for Stress-Guided Lightweight 3D Designs [TVCG]**<br />
 by Junpeng Wang, Dennis Bukenberger, Simon Niedermayr, Christoph Neuhauser, Jun Wu, & Rüdiger Westermann
 
-**TraSculptor: Visual Analytics for Enhanced Decision-Making in Road Traffic Planning**<br />
+**TraSculptor: Visual Analytics for Enhanced Decision-Making in Road Traffic Planning [TVCG]**<br />
 by Zikun Deng, Yuanbang Liu, Mingrui Zhu, Da Xiang, Haiyue Yu, Zicheng Su, Qinglong Lu, Tobias Schreck, & Yi Cai
 
 
@@ -824,13 +822,13 @@ by Aymeric Ferron, Ambre Assor, Pierre Dragicevic, & Yvonne Jansen
 **Embodied Natural Language Interaction (NLI): Speech Input Patterns in Immersive Analytics**<br />
 by Hyemi Song, Matthew Johnson, Kirsten Whitley, Eric Krokos, & Amitabh Varshney
 
-**Augmented Dynamic Data Physicalization: Blending Shape-changing Data Sculptures with Virtual Content for Interactive Visualization**<br />
+**Augmented Dynamic Data Physicalization: Blending Shape-changing Data Sculptures with Virtual Content for Interactive Visualization [TVCG]**<br />
 by Severin Engert, Andreas Peetz, Konstantin Klamka, Pierre Surer, Tobias Isenberg, & Raimund Dachselt
 
-**Exploring Spatial Hybrid User Interface for Visual Sensemaking**<br />
+**Exploring Spatial Hybrid User Interface for Visual Sensemaking [TVCG]**<br />
 by Wai Tong, Haobo Li, Meng Xia, Kam Kwai Wong, Ting-Chuen Pong, Huamin Qu, & Yalong Yang
 
-**XROps: A Visual Workflow Management System for Dynamic Immersive Analytics**<br />
+**XROps: A Visual Workflow Management System for Dynamic Immersive Analytics [TVCG]**<br />
 Suemin Jeon, JunYoung Choi, Haejin Jeong, & Won-Ki Jeong
 
 
@@ -845,14 +843,26 @@ by Katerina Batziakoudi, Stéphanie Rey, & Jean-Daniel Fekete
 **Characterizing Visualization Perception with Psychological Phenomena: Uncovering the Role of Subitizing in Data Visualization [Honorable Mention]**<br />
 by Arran Zeyu Wang, Ghulam Jilani Quadri, Mengyuan Zhu, Chin Tseng, & Danielle Szafir
 
-**Color-Name Aware Optimization to Enhance the Perception of Transparent Overlapped Charts**<br />
+**Color-Name Aware Optimization to Enhance the Perception of Transparent Overlapped Charts [TVCG]**<br />
 by Kecheng Lu, Lihang Zhu, Yunhai Wang, Qiong Zeng, Weitao Song, & Khairi Reda
 
-**Generalization of CNNs on Relational Reasoning With Bar Charts**<br />
+**Generalization of CNNs on Relational Reasoning With Bar Charts [TVCG]**<br />
 by Zhenxing Cui, Lu Chen, Yunhai Wang, Daniel Haehn, Yong Wang, & Hanspeter Pfister
 
-**Visualization-Driven Illumination for Density Plots**<br />
+**Visualization-Driven Illumination for Density Plots [TVCG]**<br />
 Xin Chen, Yunhai Wang, Huaiwei Bao, Kecheng Lu, Jaemin Jo, Chi-Wing Fu, & Jean-Daniel Fekete
+
+
+#### Rescheduled Papers [Full Papers]
+
+**2023 IEEE Scientific Visualization Contest Winner: VisAnywhere: Developing Multiplatform Scientific Visualization Applications [CG&A]**<br />
+by Thomas Marrinan, Victor A. Mateevitsi, Madeleine Moeller, Alina Kanayinkal, & Michael E. Papka
+
+**VisGuard: Securing Visualization Dissemination through Tamper-Resistant Data Retrieval**<br />
+by Huayuan Ye, Juntong Chen, Shenzhuo Zhang, Yipeng Zhang, Changbo Wang, & Chenhui Li
+
+**Drawing in the Flow: A Data-Aware Mixed-Reality Sketching Interface for Illustrative 3D Flow Visualization [Short Paper]**<br />
+by Walter Sands, Sean J. Dorr, Kiet Tran, & Daniel Keefe
 
 
 ### 3:45pm - 5:00pm (CET)
@@ -865,16 +875,16 @@ by Peilin Yu, Aida Nordman, Takanori Fujiwara, Marta Koc-Januchta, Konrad Schön
 **Visualization Badges: Communicating Design and Provenance through Graphical Labels Alongside Visualizations [Honorable Mention]**<br />
 by Valentin Edelsbrunner, Jinrui Wang, Alexis Pister, Tomas Vancisin, Sian Phillips, Min Chen, & Benjamin Bach
 
-**Authoring Data-Driven Chart Animations through Direct Manipulation**<br />
+**Authoring Data-Driven Chart Animations through Direct Manipulation [TVCG]**<br />
 by Yuancheng Shen, Yue Zhao, Yunhai Wang, Tong Ge, Haoyan Shi, & Bongshin Lee
 
-**DashSpace: A Live Collaborative Platform for Immersive and Ubiquitous Analytics**<br />
+**DashSpace: A Live Collaborative Platform for Immersive and Ubiquitous Analytics [TVCG]**<br />
 by Marcel Borowski, Peter W. S. Butcher, Janus Bager Kristensen, Jonas Oxenbøll Petersen, Panagiotis D. Ritsos, Clemens N. Klokmose, & Niklas Elmqvist
 
-**TraVIS: a User Trace Analyzer to Support the User-Centered Design of Visual Analytics Solutions**<br />
+**TraVIS: a User Trace Analyzer to Support the User-Centered Design of Visual Analytics Solutions [TVCG]**<br />
 by Matteo Filosa, Alexandra Plexousaki, Matteo Di Stadio, Francesco Bovi, Dario Benvenuti, Tiziana Catarci, & Marco Angelini
 
-**Utilizing Provenance as an Attribute for Visual Data Analysis: A Design Probe with ProvenanceLens**<br />
+**Utilizing Provenance as an Attribute for Visual Data Analysis: A Design Probe with ProvenanceLens [TVCG]**<br />
 Arpit Narechania, Shunan Guo, Eunyee Koh, Alex Endert, & Jane Hoffswell
 
 
@@ -892,10 +902,10 @@ by Haihan Lin, Maxim Lisnic, Derya Akbaba, Miriah Meyer, & Alexander Lex
 **VA-Blueprint: Uncovering Building Blocks for Visual Analytics System Design**<br />
 by Leonardo Ferreira, Gustavo Moreira, & Fabio Miranda
 
-**From Requirement to Solution: Unveiling Problem-Driven Design Patterns in Visual Analytics**<br />
+**From Requirement to Solution: Unveiling Problem-Driven Design Patterns in Visual Analytics [TVCG]**<br />
 by Yuchen Wu, Shenghan Gao, Shizhen Zhang, Xiaofeng Dou, Xingbo Wang, & Quan Li
 
-**Large Language Models for Transforming Categorical Data to Interpretable Feature Vectors**<br />
+**Large Language Models for Transforming Categorical Data to Interpretable Feature Vectors [TVCG]**<br />
 by Karim Huesmann & Lars Linsen
 
 
@@ -988,16 +998,13 @@ by Amy Fox, Michelle Morgenstern, Graham Jones, & Arvind Satyanarayan
 **Visualization Vibes: The Socio-Indexical Function of Visualization Design**<br />
 by Michelle Morgenstern, Amy Fox, Graham Jones, & Arvind Satyanarayan
 
-**VisGuard: Securing Visualization Dissemination through Tamper-Resistant Data Retrieval**<br />
-by Huayuan Ye, Juntong Chen, Shenzhuo Zhang, Yipeng Zhang, Changbo Wang, & Chenhui Li
-
 **Visualizing Trust: How Chart Embellishments Influence Perceptions of Credibility**<br />
 by Hayeong Song, Aeree Cho, Cindy Xiong Bearfield, & John Stasko
 
 **Designing for Disclosure in Data Visualizations**<br />
 by Krisha Mehta, Gordon Kindlmann, & Alex Kale
 
-**TrustME: A Context-Aware Explainability Model to Promote User Trust in Guidance**<br />
+**TrustME: A Context-Aware Explainability Model to Promote User Trust in Guidance [TVCG]**<br />
 by Maath Musleh, Renata Georgia Raidou, & Davide Ceneda
 
 
@@ -1015,10 +1022,10 @@ by Ke Er Zhang, Jodie Jenkinson, & Laura Garrison
 **Correcting Misperceptions at a Glance: Using Data Visualizations to Reduce Political Sectarianism**<br />
 by Doug Markant, Subham Sah, Alireza Karduni, Milad Rogha, My Thai, & Wenwen Dou
 
-**Immersive Data-Driven Storytelling: Scoping an Emerging Field Through the Lenses of Research, Journalism, and Games**<br />
+**Immersive Data-Driven Storytelling: Scoping an Emerging Field Through the Lenses of Research, Journalism, and Games [TVCG]**<br />
 by Julián Méndez, Weizhou Luo, Rufat Rzayev, Wolfgang Büschel, & Raimund Dachselt
 
-**Narrative Player: Reviving Data Narratives with Visuals**<br />
+**Narrative Player: Reviving Data Narratives with Visuals [TVCG]**<br />
 by Zekai Shao, Leixian Shen, Haotian Li, Yi Shan, Huamin Qu, Yun Wang, & Siming Chen
 
 
@@ -1030,16 +1037,16 @@ by Mara Solen, Matt Oddo, & Tamara Munzner
 **Critical Design Strategy: a Method for Heuristically Evaluating Visualisation Designs**<br />
 by Jonathan Roberts, Hanan Alnjar, Aron Owen, & Panagiotis Ritsos
 
-**A Review and Analysis of Evaluation Practices in VIS Domain Applications**<br />
+**A Review and Analysis of Evaluation Practices in VIS Domain Applications [TVCG]**<br />
 by Yiwen Xing, Gabriel Dias Cantareira, Rita Borgo, & Alfie Abdul Rahman
 
-**A Typology of Decision-Making Tasks for Visualization**<br />
+**A Typology of Decision-Making Tasks for Visualization [TVCG]**<br />
 by Camelia D. Brumar, Sam Molnar, Gabriel Appleby, Kristi Potter, & Remco Chang
 
-**An Analysis of the Interplay and Mutual Benefits of Grounded Theory and Visualization**<br />
+**An Analysis of the Interplay and Mutual Benefits of Grounded Theory and Visualization [TVCG]**<br />
 by Alexandra Diehl, Alfie Abdul-Rahman, Benjamin Bach, Mennatallah El-Assady, Matthias Kraus, Robert~S.~Laramee, Daniel A. Keim, & Min Chen
 
-**Iceberg Sensemaking: A Process Model for Critical Data Analysis**<br />
+**Iceberg Sensemaking: A Process Model for Critical Data Analysis [TVCG]**<br />
 by Charles Berret & Tamara Munzner
 
 
@@ -1057,10 +1064,10 @@ by Magdalena Boucher, Magdalena Kejstova, Christina Stoiber, Martin Kandlhofer, 
 **Charts-of-Thought: Enhancing LLM Visualization Literacy Through Structured Data Extraction**<br />
 by Amit Kumar Das, Mohammad Tarun, & Klaus Mueller
 
-**Do LLMs Have Visualization Literacy? An Evaluation on Modified Visualizations to Test Generalization in Data Interpretation**<br />
+**Do LLMs Have Visualization Literacy? An Evaluation on Modified Visualizations to Test Generalization in Data Interpretation [TVCG]**<br />
 by Jiayi Hong, Christian Seto, Arlen Fan, & Ross Maciejewski
 
-**Iguanodon: A Code-Breaking Game for Improving Visualization Construction Literacy**<br />
+**Iguanodon: A Code-Breaking Game for Improving Visualization Construction Literacy [TVCG]**<br />
 by Patrick Adelberger, Oleg Lesota, Klaus Eckelt, Markus Schedl, & Marc Streit
 
 
@@ -1076,10 +1083,7 @@ by Daniel Wiegreffe, Christoph Garth, Guido Reina, & Christina Gillmann
 by Pedro Silva, Pedro Martins, & Penousal Machado
 
 **Reflections on the Use of Dashboards in the COVID-19 Pandemic**<br />
-by Alessio Arleo, Rita Borgo, Jörn Kohlhammer, Roy A. Ruddle, H. Scharlach, & Xiaoru Yuan
-
-**2023 IEEE Scientific Visualization Contest Winner: VisAnywhere: Developing Multiplatform Scientific Visualization Applications**<br />
-by Thomas Marrinan, Victor A. Mateevitsi, Madeleine Moeller, Alina Kanayinkal, & Michael E. Papka
+by Alessio Arleo, Rita Borgo, Jörn Kohlhammer, Roy A. Ruddle, H. Scharlach, Xiaoru Yuan, Melanie Tory, & Daniel Keefe
 
 **AI-in-The-Loop: The Future of Biomedical Visual Analytics Applications in the Era of AI**<br />
 by Katja Bühler, Thomas Höllt, Thomas Schultz, & Pere-Pau Vázquez
