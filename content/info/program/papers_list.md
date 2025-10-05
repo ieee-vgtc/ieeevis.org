@@ -30,7 +30,7 @@ by Paul Parsons & Prakash Chandra Shukla
 ### 3:45pm - 5:00pm (CET)
 
 **Causality-based Visual Analytics of Sentiment Contagion in Social Media Topics**<br />
-by Renzhong Li, Yuchen Lin, Shuainan Ye, Buwei Zhou, Zhining Kang, Tai-Quan Peng, Wenhao Fu, Yingcai Wu, & Tan Tang
+by Renzhong Li, Shuainan Ye, Yuchen Lin, Buwei Zhou, Zhining Kang, Tai-Quan Peng, Wenhao Fu, Tan Tang, & Yingcai Wu
 
 **NLI4VolVis: Natural Language Interaction for Volume Visualization via LLM Multi-Agents and Editable 3D Gaussian Splatting**<br />
 by Kuangshi Ai, Kaiyuan Tang, & Chaoli Wang
@@ -62,7 +62,7 @@ by Haoxuan Li, Zhen Wen, Qiqi Jiang, Chenxiao Li, Yuwei Wu, Yuchen Yang, Yiyao W
 by Junwen Duan, Wei Xue, Ziyao Kang, Shixia Liu, & Jiazhi Xia
 
 **Visual Analytics Using Tensor Unified Linear Comparative Analysis**<br />
-by Naoki Okami, Kazuki Miyake, Takanori Fujiwara, Naohisa Sakamoto, & Jorji Nonaka
+by Naoki Okami, Kazuki Miyake, Naohisa Sakamoto, Jorji Nonaka, & Takanori Fujiwara 
 
 **A Simulation-based Approach for Quantifying the Impact of Interactive Label Correction for Machine Learning**<br />
 by Zhen Li, Weikai Yang, Jun Yuan, Jing Wu, Changjian Chen, Yao Ming, Fan Yang, Hui Zhang, & Shixia Liu
@@ -312,7 +312,7 @@ by Yongsu Ahn & Nam Wook Kim
 by Shaolun Ruan, Rui Sheng, Xiaolin Wen, Jiachen Wang, Tianyi Zhang, Yong WANG, Tim Dwyer, & Jiannan Li
 
 **HypoChainer: A Collaborative System Combining LLMs and Knowledge Graphs for Hypothesis-Driven Scientific Discovery**<br />
-by Shaohan Shi, Haoran Jiang, Yunjie Yao, Chang Jiang, & Quan Li
+by Haoran Jiang, Shaohan Shi, Yunjie Yao, Chang Jiang, & Quan Li
 
 **Write, Rank, or Rate: Comparing Methods for Studying Visualization Affordances**<br />
 by Chase Stokes, Kylie Lin, & Cindy Xiong Bearfield
@@ -673,7 +673,7 @@ Jade Kandel, Jiayi Liu, Arran Zeyu Wang, Chin Tseng, & Danielle Szafir
 by Ziao Liu, Wenshuo Zhao, Xiao Xie, Anqi Cao, Yihong Wu, Hui Zhang, & Yingcai Wu
 
 **Beyond the Broadcast: Enhancing VR Tennis Broadcasting through Embedded Visualizations and Camera Techniques**<br />
-by Jun-Hsiang Yao, Xinfang Tian, Jielin Feng, Gulshat Amirkhanova, Kai Xu, & Siming Chen
+by Jun-Hsiang Yao, Jielin Feng, Xinfang Tian, Kai Xu, Gulshat Amirkhanova, & Siming Chen
 
 **TactiVis: Towards Better Understanding of Team-based Combat Tactics**<br />
 by Hancheng Zhang, Guozheng Li, Min Lu, Jincheng Li, & Chi Harold Liu
@@ -801,7 +801,7 @@ by Jiabao Huang, Zikun Deng, Hanlin Song, Xiang Chen, Shaowu Gao, & Yi Cai
 by Sanjana Srabanti, G. Elisabeta Marai, & Fabio Miranda
 
 **Urbanite: A Dataflow-Based Framework for Human-AI Interactive Alignment in Urban Visual Analytics**<br />
-by Gustavo Moreira, Leonardo Ferreira, Maryam Hosseini, Carolina Veiga, & Fabio Miranda
+by Gustavo Moreira, Leonardo Ferreira, Carolina Veiga, Maryam Hosseini, & Fabio Miranda
 
 **CATOM: Causal Topology Map for Spatiotemporal Traffic Analysis with Granger Causality in Urban Areas**<br />
 by Chanyoung Jung, Soobin Yim, Giwoong Park, Simon Oh, & Yun Jang
@@ -992,7 +992,7 @@ by Michelle Morgenstern, Amy Fox, Graham Jones, & Arvind Satyanarayan
 by Huayuan Ye, Juntong Chen, Shenzhuo Zhang, Yipeng Zhang, Changbo Wang, & Chenhui Li
 
 **Visualizing Trust: How Chart Embellishments Influence Perceptions of Credibility**<br />
-by Hayeong Song, John Stasko, Cindy Xiong Bearfield, & Aeree Cho
+by Hayeong Song, Aeree Cho, Cindy Xiong Bearfield, & John Stasko
 
 **Designing for Disclosure in Data Visualizations**<br />
 by Krisha Mehta, Gordon Kindlmann, & Alex Kale
