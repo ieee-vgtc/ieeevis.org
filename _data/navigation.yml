@@ -111,10 +111,6 @@ menu:
                     description: "SVs support the conference and build your research network"
                     url: "https://vissv.github.io/"
                     is_external: true
-#                  - text: "Become a student volunteer"
-#                    description: "Support the conference and build your research network"
-#                    url: "https://vissv.github.io/"
-#                    is_external: true
 #                  - text: "Become a peer reviewer"
 #                    description: "Volunteer to review submissions in Precision Conference Solutions (PCS)"
 #                    url: "https://new.precisionconference.com/review_volunteering"
@@ -139,7 +135,7 @@ menu:
               - heading: "Attend"
                 links:
                   - text: "Registration"
-                    description: "Conference registration now open!"
+                    description: "How to register for VIS"
                     url: "/year/2025/info/registration-and-travel/conference-registration"
                     is_new: false
                   - text: "Venue"
@@ -252,7 +248,7 @@ menu:
                     url: "/year/2025/info/invited-speakers/capstone-speaker"
                     is_new: false
           - heading: "Awards and Recognitions"
-            description: "Recognize outstanding work by the VIS community"
+            heading_url: "/year/2025/info/awards/summary"
             columns:
               - links:
                 - text: "Best Paper/Poster Awards"
@@ -437,14 +433,6 @@ menu:
                     url: "/year/2025/info/community/vis-buddies"
                   - text: "Job Postings"
                     url: "/year/2025/info/community/jobs"
-#              - heading: "Social Groups"
-#                links:
-#                  - text: "Velo Club de VIs"
-#                    url: "https://www.gicentre.net/velo-club-de-vis/"
-#                    is_external: true
-#                  # - text: "Vis Pioneers Group"
-#                  #   url: "http://vacommunity.org/ieeevpg/"
-#                  #   is_external: true
           - heading: "Social Media"
             columns: 
               - links:
