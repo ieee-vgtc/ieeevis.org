@@ -1,9 +1,9 @@
 ---
 title: Vienna Hotel Information
 layout: page
-active_nav: "Attend"
 permalink: /year/2025/info/registration-and-travel/hotel-information
 contact: "general_chair@ieeevis.org"
+active_nav: "Attend"
 ---
 
 Vienna has more than 430 hotels with more than 40,000 rooms to suit all tastes and budgets.

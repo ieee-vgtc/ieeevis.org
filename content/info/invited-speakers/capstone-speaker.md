@@ -20,3 +20,5 @@ Theo's work has been featured in institutions like the Stedelijk Museum in Amste
 In his capstone talk *"A Diagrammatic Approach to the World"* Theo will focus on the practice of data visualization.
 Starting from the 100th anniversary of the Gesellschafts- und Wirtschaftsmuseum, founded by Otto Neurath - member of the Vienna Circle and inventor of ISOTYPE - Theo will go back in time and try to decipher the origin of data visualization.
 In this context, he will show examples of his own work and explain his fascination with the forces of globalization and how data visualization is the way to get a grip on them.
+
+**When: Friday (Nov 7), 11:15am (CET), Hall E**

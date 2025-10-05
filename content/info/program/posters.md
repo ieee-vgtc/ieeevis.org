@@ -11,7 +11,9 @@ This is the list of accepted posters for VIS 2025.
 <!-- ---------------------------------------------------------------------------------- -->
 ## Poster Session
 
-The poster session takes place on **Wednesday (Nov 5), from 5:00pm to 6:00pm (CET)**.
+The poster session takes place at Austria Center Vienna.
+
+**When: Wednesday (Nov 5), 5:00pm - 6:00pm (CET)**
 
 <!-- ---------------------------------------------------------------------------------- -->
 ## List of Posters

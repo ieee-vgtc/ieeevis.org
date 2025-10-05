@@ -11,7 +11,7 @@ The *Wiener Linien* network covers around 1,150 kilometers of subway, tram, and 
 
 ## Getting Around
 
-When picking up your conference badge, you will be handed out a [Vienna Meeting Ticket](https://meeting.vienna.info/en/why-vienna/getting-around-vienna/wiener-linien-vienna-meeting-ticket-435604){:target="_blank"} for the Vienna public transportation system ([Wiener Linien](https://www.wienerlinien.at/web/wl-en){:target="_blank"}).
+When **picking up your conference badge**, you will be handed out a [Vienna Meeting Ticket](https://meeting.vienna.info/en/why-vienna/getting-around-vienna/wiener-linien-vienna-meeting-ticket-435604){:target="_blank"} for the Vienna public transportation system ([Wiener Linien](https://www.wienerlinien.at/web/wl-en){:target="_blank"}).
 The Vienna Meeting Ticket enables participants to make unlimited use of all means of public transport in Vienna (*Kernzone Wien*) for the entire duration of the event.
 
 <p>

@@ -7,7 +7,10 @@ sidebar: awards-and-recognitions
 contact: papers@ieeevis.org
 ---
 
-This year's VGTC awards will be announced in the opening session on **Tuesday, Nov 4**.
+This year's VGTC awards will be announced in the opening session.
+
+**When: Tuesday (Nov 4), 11:15, Hall E**
+
 
 ### Awards
 

@@ -118,16 +118,14 @@ Coffee breaks are planned between the first/second and third/fourth block.
     * Paper and Short Paper Selection
     * Poster Selection
 * **Best Short Papers**
-  * Best Short Paper 1
+  * Best Short Paper 1 & 2
 
 #### Afternoon
 
 *2:00 PM - 3:15 PM (CET)*<br/>
-* **Best Short Papers**
-    * Best Short Paper 2
 * **Best Poster Award**
 * **Best Papers**
-  * Best Papers 1-3
+  * Best Papers 1 - 3
 
 *3:45 PM - 5:00 PM (CET)*<br/>
 * **Best Papers**
@@ -140,7 +138,7 @@ Coffee breaks are planned between the first/second and third/fourth block.
 #### Evening
 
 *6:30 PM - 9:00 PM (CET)*<br/>
-* **Welcome Reception** ([Museum of Natural History](https://maps.app.goo.gl/eXjAvrE88oPx1THYA){:target= "_blank"})
+* **Welcome Reception** ([Natural History Museum](/year/2025/info/social-events/welcome-reception))
 
 <hr />
 
@@ -199,10 +197,10 @@ Coffee breaks are planned between the first/second and third/fourth block.
 #### Evening
 
 *5:00 PM - 6:00 PM (CET)*<br/>
-* **Poster Session**
+* **Poster Session** ([Austria Center Vienna](/year/2025/info/social-events/poster-session))
 
 *6:00 PM - 9:00 PM (CET)*<br/>
-* **Conference Dinner** ([Austria Center Vienna](https://maps.app.goo.gl/NaguVkxom2uRZjq48){:target= "_blank"})
+* **Conference Dinner** ([Austria Center Vienna](/year/2025/info/social-events/conference-dinner))
 
 <hr />
 
@@ -266,7 +264,7 @@ Coffee breaks are planned between the first/second and third/fourth block.
 * **VISAP Exhibition** ([University of Applied Arts](https://maps.app.goo.gl/L5RFQrZArMmL4GPK9){:target= "_blank"})
 
 *7:00 PM (CET)*<br/>
-* **OC Dinner** - OC members only ([Melker Stiftskeller](https://maps.app.goo.gl/dkRNP3zZmA8eTrsm8){:target= "_blank"})
+* **OC Dinner** - invitation only ([Melker Stiftskeller](/year/2025/info/social-events/oc-dinner))
 
 <hr />
 

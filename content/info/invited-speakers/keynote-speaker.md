@@ -18,3 +18,5 @@ In his keynote talk "*The Science of Visual Insight: Transforming Data Visualiza
 Data visualization is not yet a fully established science, but rather a practice or discipline based on insights from fields such as computer science, data analysis, design, perception, and cognition.
 To elevate data visualization to the rank of a science, it needs a philosophical foundation, a scientific core, and a rigorous methodology.
 His keynote talk will outline some of the gaps that need to be filled in order to achieve this.
+
+**When: Tuesday (Nov 4), 09:30am (CET), Hall E**
