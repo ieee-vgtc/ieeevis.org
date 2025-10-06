@@ -113,7 +113,7 @@ by Arjun Srinivasan, Joanna Purich, Michael Correll, Leilani Battle, Vidya Setlu
 **Dashboard Vision: Using Eye-Tracking to Understand and Predict Dashboard Viewing Behaviors [TVCG]**<br />
 by Manling Yang, Yihan Hou, Ling Li, Remco Chang, & Wei Zeng
 
-**Watering the Future: Assessing a Visualization Design for Accessible Comprehension of Water Management** [Short Paper]<br />
+**Watering the Future: Assessing a Visualization Design for Accessible Comprehension of Water Management [Short Paper]**<br />
 by Sarah Yuniar, Yuya Kawakami, Logan Ga-sing Tang, & Kwan-Liu Ma
 
 
@@ -199,7 +199,7 @@ by Zhen Li, Weikai Yang, Jun Yuan, Jing Wu, Changjian Chen, Yao Ming, Fan Yang, 
 **SynthLens: Visual Analytics for Facilitating Multi-step Synthetic Route Design [TVCG]**<br />
 by Qipeng Wang, Rui Sheng, Shaolun Ruan, Xiaofu Jin, Chuhan Shi, & Min Zhu
 
-**Interactive Discovery and Visualization of Process Trees** [Short Paper]<br />
+**Interactive Discovery and Visualization of Process Trees [Short Paper]**<br />
 by Wouter van der Heijden & Stef van den Elzen
 
 
@@ -217,8 +217,8 @@ by Linhao Meng, Stef van den Elzen, & Anna Vilanova
 **CLAImate: AI-Enabled Climate Change Communication through Personalized and Localized Narrative Visualizations**<br />
 by Mashrur Rashik, Jean-Daniel Fekete, & Narges Mahyar
 
-**The Agentopia Times: Understanding and Mitigating Hallucinations in Multi-Agent LLM Systems via Data Journalism Gameplay**<br />
-by Yilin Lu, Shurui Du, & Qianwen Wang
+**Enhancing XAI Interpretation through a Reverse Mapping from Insights to Visualizations**<br />
+by Aniket Nuthalapati, Nicholas Hinds, Brian Y Lim, & Qianwen Wang
 
 **Metric Design != Metric Behavior: Improving Metric Selection for the Unbiased Evaluation of Dimensionality Reduction**<br />
 by Jiyeon Bae, Hyeon Jeon, & Jinwook Seo
@@ -295,8 +295,8 @@ by Gabriel Appleby, Malik Hassanaly, Jen Rogers, Juliane Mueller, & Kristi Potte
 **ReVise: A Human-AI Interface for Incremental Algorithmic Recourse**<br />
 by Kaustav Bhattacharjee, Jun Yuan, & Aritra Dasgupta
 
-**Enhancing XAI Interpretation through a Reverse Mapping from Insights to Visualizations**<br />
-by Aniket Nuthalapati, Nicholas Hinds, Brian Y Lim, & Qianwen Wang
+**The Agentopia Times: Understanding and Mitigating Hallucinations in Multi-Agent LLM Systems via Data Journalism Gameplay**<br />
+by Yilin Lu, Shurui Du, & Qianwen Wang
 
 **XplainAct: Visualization for Personalized Intervention Insights**<br />
 by Yanming Zhang, Krishnakumar Hegde, & Klaus Mueller
@@ -682,7 +682,7 @@ by Xiyuan Wang, Laixin Xie, He Wang, Xingxing Xing, Wei Wan, Ziming Wu, Xiaojuan
 **MAICO: A Visualization Design Study on AI-Assisted Music Composition [TVCG]**<br />
 by Simeon Rau, Frank Heyen, Benedikt Brachtel, & Michael Sedlmair
 
-**Animated Visual Encoding and Layer Blending for Identification of Educational Game Strategies** [Short Paper]<br />
+**Animated Visual Encoding and Layer Blending for Identification of Educational Game Strategies [Short Paper]**<br />
 by Braden Roper, William Thompson, & Chris Weaver
 
 
@@ -853,7 +853,7 @@ by Zhenxing Cui, Lu Chen, Yunhai Wang, Daniel Haehn, Yong Wang, & Hanspeter Pfis
 Xin Chen, Yunhai Wang, Huaiwei Bao, Kecheng Lu, Jaemin Jo, Chi-Wing Fu, & Jean-Daniel Fekete
 
 
-#### Rescheduled Papers [Full Papers]
+#### Rescheduled Papers [Full Papers + 1 Short Paper]
 
 **2023 IEEE Scientific Visualization Contest Winner: VisAnywhere: Developing Multiplatform Scientific Visualization Applications [CG&A]**<br />
 by Thomas Marrinan, Victor A. Mateevitsi, Madeleine Moeller, Alina Kanayinkal, & Michael E. Papka
