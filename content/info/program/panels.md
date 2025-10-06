@@ -62,7 +62,7 @@ We anticipate that its output can catalyze deeper, actionable engagement between
 <!-- -------------------  -->
 ## IEEE VIS Reviewing - On a Path to Self-Destruction?
 
-**When**: Thursday, November 6, 2025 9:30pm - 10:45pm (CET)
+**When**: Thursday, November 6, 2025 9:30am - 10:45am (CET)
 
 **Organized by**: Petra Isenberg, Gunther H. Weber, Niklas Elmqvist, and Narges Mahyar
 
@@ -84,7 +84,7 @@ tive peer review that supports diverse research contributions.
 <!-- -------------------  -->
 ## Industry Meets Research: Future Needs and Opportunities for Visual Analytics in Industrial Manufacturing
 
-**When**: Thursday, November 6, 2025 11:15pm - 12:30pm (CET)
+**When**: Thursday, November 6, 2025 11:15am - 12:30pm (CET)
 
 **Organized by**: Markus Wagner, Christina Stoiber, Alexander Rind, Tobias Schreck, Marc Streit, and Kresimir Matkovic
 
@@ -100,7 +100,7 @@ Industrial manufacturing is increasingly shaped by data-driven processes, making
 
 **Organized by**: Wolfgang Aigner, Eva Mayr, Torsten Möller, Verena Ingrid Prantl, and Florian Windhager
 
-**Panelists**: Danielle Albers Szafir, Theo Deutinger, Hans-Christian Hege, Samuel Huron, Gunther Sandner, Christiane Thenius
+**Panelists**: Danielle Albers Szafir, Theo Deutinger, Hans-Christian Hege, Samuel Huron, Günther Sandner, Christiane Thenius
 
 One hundred years after Otto Neurath’s team introduced ISOTYPE - a pioneering method of pictorial statistics designed to make complex data accessible to broad audiences---this panel examines their vision with fresh eyes. Hosted in Vienna, the birthplace of ISOTYPE, and at a moment when visualization’s role in public discourse is more urgent than ever, this panel aims to reflect on the legacy and relevance of ISOTYPE.
 What does "visualization for the masses" mean today in an age of data, algorithmic personalization, and fragmented attention? What have we learned from ISOTYPE’s collaborative design approach and its icon-based visual language, and how does its legacy reverberate in today's visualization projects? Conversely, how would Neurath's team have been influenced by current work on inclusive design, evaluation, data journalism, or interaction paradigms?

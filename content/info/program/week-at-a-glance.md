@@ -39,22 +39,22 @@ Coffee breaks are planned between the first/second and third/fourth block.
 
 *9:00 AM - 12:30 PM (CET)*<br />
 
-**[Workshop]** 8th Workshop on Visualization for AI Explainability **(VISxAI)**<br />
-**[Workshop]** 16th Annual Workshop on Visual Analytics in Healthcare **(VAHC)**<br />
-**[Workshop]** Workshop on Topological Data Analysis and Visualization **(TopoInVis)**<br />
-**[Workshop]** 9th Workshop on Visualization for the Digital Humanities **(VIS4DH ↔ DH4VIS)**<br />
-**[Workshop]** alt.VIS Workshop 2025 **(alt.VIS)**<br />
+**[Workshop]** 8th Workshop on Visualization for AI Explainability (VISxAI)<br />
+**[Workshop]** 16th Annual Workshop on Visual Analytics in Healthcare<br />
+**[Workshop]** Workshop on Topological Data Analysis and Visualization (TopoInVis)<br />
+**[Workshop]** 9th Workshop on Visualization for the Digital Humanities: VIS4DH ↔ DH4VIS<br />
+**[Workshop]** alt.VIS 2025<br />
 **[Tutorial]** Developing Immersive Visualizations and Interactions for the Web with Anu.js<br />
 **[Tutorial]** User-centered Evaluation in Visualization<br />
 **[Competition]** Bio+MedVis Challenge<br />
 
 *2:00 PM - 5:30 PM (CET)*<br/>
 
-**[Workshop]** 8th Workshop on Visualization for AI Explainability **(VISxAI)**<br />
-**[Workshop]** 16th Annual Workshop on Visual Analytics in Healthcare **(VAHC)**<br />
-**[Workshop]** Seventh Workshop on Visualization for Communication **(VisComm)**<br />
-**[Workshop]** Unraveling Relationships of Uncertainty, AI, and Decision-Making **(Uncertainty Visualization)**<br />
-**[Workshop]** Multimodal Experiences for Remote Communication Around Data Online **(MERCADO)**<br />
+**[Workshop]** 8th Workshop on Visualization for AI Explainability (VISxAI)<br />
+**[Workshop]** 16th Annual Workshop on Visual Analytics in Healthcare<br />
+**[Workshop]** Seventh Workshop on Visualization for Communication (VisComm)<br />
+**[Workshop]** Uncertainty Visualization: Unraveling Relationships of Uncertainty, AI, and Decision-Making<br />
+**[Workshop]** The 2nd MERCADO Workshop at IEEE VIS 2025: Multimodal Experiences for Remote Communication Around Data Online<br />
 **[Tutorial]** Live Collaborative Immersive Analytics Development with DashSpace<br />
 **[Tutorial]** Running Online User Studies with the reVISit Framework<br />
 **[Competition]** SciVis Contest<br />
@@ -66,22 +66,22 @@ Coffee breaks are planned between the first/second and third/fourth block.
 
 *9:00 AM - 12:30 PM (CET)*<br/>
 
-**[Workshop]** GenAI, Agents, and the Future of VIS **(VISxGenAI)**<br />
-**[Workshop]** Envisioning a Research Agenda for Input Visualization **(InputVis)**<br />
-**[Workshop]** Human Factors in Immersive Analytics **(Immersive Analytics)**<br />
-**[Workshop]** 3rd IEEE VIS Workshop on Visualization Education, Literacy, and Activities **(EduVis)**<br />
-**[Workshop]** 15th IEEE Workshop on Large Data Analysis & Visualization **(LDAV)**<br />
+**[Workshop]** VISxGenAI: 1st Workshop on GenAI, Agents, and the Future of VIS<br />
+**[Workshop]** Envisioning a Research Agenda for Input Visualization<br />
+**[Workshop]** Human Factors in Immersive Analytics<br />
+**[Workshop]** EduVis: 3rd IEEE VIS Workshop on Visualization Education, Literacy, and Activities<br />
+**[Workshop]** LDAV 2025 - The 15th IEEE Workshop on Large Data Analysis & Visualization<br />
 **[Tutorial]** MLLM4Vis: Multimodal Large Language Models for Information Visualization<br />
 **[Tutorial]** Using Color Harmony and Gen AI Suggestion to Transform your Data Visualizations<br />
 **[Tutorial]** Hands-On TTK Tutorial: Solving Practical Problems in Small Groups<br />
 
 *2:00 PM - 5:30 PM (CET)*<br/>
 
-**[Workshop]** GenAI, Agents, and the Future of VIS **(VISxGenAI)**<br />
-**[Workshop]** Envisioning a Research Agenda for Input Visualization **(InputVis)**<br />
-**[Workshop]** 2nd Workshop on Accessible Data Visualization **(AccessViz)**<br />
-**[Workshop]** Engaging Critical Workforce In co-Design aNd Assessment **(ECWIDNA)**<br />
-**[Tutorial]** Visualization for Explainable AI<br />
+**[Workshop]** VISxGenAI: 1st Workshop on GenAI, Agents, and the Future of VIS<br />
+**[Workshop]** Envisioning a Research Agenda for Input Visualization<br />
+**[Workshop]** AccessViz: 2nd Workshop on Accessible Data Visualization<br />
+**[Workshop]** ECWIDNA: Engaging Critical Workforce In co-Design aNd Assessment<br />
+**[Tutorial]** Visualization for Explainable AI (XAI)<br />
 **[Tutorial]** Building Progressive Visual Analytics Systems with ProgressiVis<br />
 **[Tutorial]** Visualization Analysis and Design<br />
 **[Competition]** VAST Challenge<br />
@@ -244,6 +244,7 @@ Coffee breaks are planned between the first/second and third/fourth block.
     * Transportation, Buildings, and Urban Vis
     * Immersive & Ubiquitous Analytics
     * Perception
+    * Rescheduled Papers (+ 1 Short Paper)
 * **Panel**
     * Words Divide, Pictures Unite" - Revisiting Otto Neurath's ISOTYPE at 100
 
