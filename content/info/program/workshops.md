@@ -11,17 +11,17 @@ The following workshops went through our [submission/review process](https://iee
 * [alt.VIS 2025](#alt.VIS)
 * [Uncertainty Visualization: Unraveling Relationships of Uncertainty, AI, and Decision-Making](#uncertainty)
 * [EduVis: 3rd IEEE VIS Workshop on Visualization Education, Literacy, and Activities](#EduVis)
-* [TopoInVis: Workshop on Topological Data Analysis and Visualization](#TopoInVis)
-* [LDAV: 15th IEEE Workshop on Large Data Analysis & Visualization](#LDAV)
-* [VIS4DH ↔ DH4VIS: 9th Workshop on Visualization for the Digital Humanities](#VIS4DH)
+* [Workshop on Topological Data Analysis and Visualization (TopoInVis)](#TopoInVis)
+* [LDAV 2025 - The 15th IEEE Workshop on Large Data Analysis & Visualization](#LDAV)
+* [9th Workshop on Visualization for the Digital Humanities: VIS4DH ↔ DH4VIS](#VIS4DH)
 * [The 2nd MERCADO Workshop at IEEE VIS 2025: Multimodal Experiences for Remote Communication Around Data Online](#MERCADO)
 * [Envisioning a Research Agenda for Input Visualization (Full Day)](#InputVis)
 * [Human Factors in Immersive Analytics](#immersive)
 * [AccessViz: 2nd Workshop on Accessible Data Visualization](#AccessViz)
-* [VAHC: 16th Annual Workshop on Visual Analytics in Healthcare (Full Day)](#VAHC)
-* [VISxAI: 8th Workshop on Visualization for AI Explainability (Full Day)](#VISxAI)
-* [VISxGenAI: GenAI, Agents, and the Future of VIS (Full Day)](#VISxGenAI)
-* [VisComm: Seventh Workshop on Visualization for Communication](#VisComm)
+* [16th Annual Workshop on Visual Analytics in Healthcare (Full Day)](#VAHC)
+* [8th Workshop on Visualization for AI Explainability (VISxAI) (Full Day)](#VISxAI)
+* [VISxGenAI: 1st Workshop on GenAI, Agents, and the Future of VIS (Full Day)](#VISxGenAI)
+* [Seventh Workshop on Visualization for Communication (VisComm)](#VisComm)
 
 <hr/>
 
@@ -109,7 +109,7 @@ In its 3rd edition, we introduce annual spotlight topics, with this year's topic
 We will pursue the \textbf{`educators reports'} track, which will be published in the Nightingale Magazine, and offer a paper track to be published in the IEEE Xplore library.
 
 
-## <a name="TopoInVis"></a> TopoInVis: Workshop on Topological Data Analysis and Visualization
+## <a name="TopoInVis"></a> Workshop on Topological Data Analysis and Visualization (TopoInVis)
 
 Divya Banesh, *Los Alamos National Laboratory, Los Alamos, NM, United States*<br>
 Federico Iuricich, *Clemson University, Clemson, SC, United States*<br>
@@ -136,7 +136,7 @@ The LDAV workshop continues to bring together researchers and practitioners from
 It is intended as a platform to serve the needs of the large data visualization community, fostering common ground for discovering, discussing, and solving both near- and long-term problems surrounding this topic.
 
 
-## <a name="VIS4DH"></a> VIS4DH ↔ DH4VIS: 9th Workshop on Visualization for the Digital Humanities
+## <a name="VIS4DH"></a> 9th Workshop on Visualization for the Digital Humanities: VIS4DH ↔ DH4VIS
 
 Alfie Abdul-Rahman, *King's College London, London, United Kingdom*<br>
 Mark-Jan Bludau, *University of Applied Sciences Potsdam, Potsdam, Germany*<br>
@@ -241,7 +241,7 @@ Building on the growing interest and persistent challenges at this intersection,
 The outcome of this workshop will inspire new contributions and help establish a sustained research agenda around accessibility in visualization at IEEE VIS.
 
 
-## <a name="VAHC"></a> VAHC: 16th Annual Workshop on Visual Analytics in Healthcare (Full Day)
+## <a name="VAHC"></a> 16th Annual Workshop on Visual Analytics in Healthcare (Full Day)
 
 Alessio Arleo, *Eindhoven University of Technology, Eindhoven, The Netherlands & TU Wien, Vienna, Austria*<br>
 Jürgen Bernard, *University of Zurich, Zurich, Switzerland*<br>
@@ -261,7 +261,7 @@ At VIS 2025, the workshop will continue to foster knowledge exchange by showcasi
 By bringing together experts from diverse fields, VAHC 2025 will serve as a catalyst for advancing the role of VA in shaping the future of intelligent, ethical, and human-centered healthcare.
 
 
-## <a name="VISxAI"></a> VISxAI: 8th Workshop on Visualization for AI Explainability (Full Day)
+## <a name="VISxAI"></a> 8th Workshop on Visualization for AI Explainability (VISxAI) (Full Day)
 
 Angie Boggust, *MIT CSAIL, Cambridge, MA, United States*<br>
 Mennatallah El-Assady, *ETH AI Center, Zurich, Switzerland*<br>
@@ -283,7 +283,7 @@ Participants will be encouraged to exchange ideas about the future of visual exp
 Furthermore, we will provide a platform for new visualization and interaction ideas that explain machine learning models.
 
 
-## <a name="VISxGenAI"></a> GenAI, Agents, and the Future of VIS (Full Day)
+## <a name="VISxGenAI"></a> VISxGenAI: 1st Workshop on GenAI, Agents, and the Future of VIS (Full Day)
 
 Zhu-Tian Chen, *University of Minnesota, Minneapolis, MN, United States*<br>
 Shivam Raval, *Harvard University, Cambridge, MA, United States*<br>
