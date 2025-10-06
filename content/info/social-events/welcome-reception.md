@@ -30,6 +30,11 @@ Burgring 7<br />
 1010 Wien<br />
 [Google Maps Location](https://maps.app.goo.gl/c2Zrkp88F5nk49bq8){:target= "_blank"}
 
+Please note that the Natural History Museum is one of two museums on *Maria-Theresien-Platz* that look exactly the same (the other is the Art History Museum).
+Even Viennese people regularly confuse the two buildings.
+There is a bronze elephant statue in front of the Natural History Museum.
+If you do not see the elephant, you are at the wrong museum - just turn around and go to the other building.
+
 
 ## When
 
