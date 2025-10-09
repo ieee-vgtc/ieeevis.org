@@ -94,7 +94,7 @@ Industrial manufacturing is increasingly shaped by data-driven processes, making
 
 
 <!-- -------------------  -->
-## Words Divide, Pictures Unite" - Revisiting Otto Neurath's ISOTYPE at 100
+## "Words Divide, Pictures Unite" - Revisiting Otto Neurath's ISOTYPE at 100
 
 **When**: Thursday, November 6, 2025 2:00pm - 3:15pm (CET)
 
@@ -102,8 +102,8 @@ Industrial manufacturing is increasingly shaped by data-driven processes, making
 
 **Panelists**: Danielle Albers Szafir, Theo Deutinger, Hans-Christian Hege, Samuel Huron, Günther Sandner, Christiane Thenius
 
-One hundred years after Otto Neurath’s team introduced ISOTYPE - a pioneering method of pictorial statistics designed to make complex data accessible to broad audiences---this panel examines their vision with fresh eyes. Hosted in Vienna, the birthplace of ISOTYPE, and at a moment when visualization’s role in public discourse is more urgent than ever, this panel aims to reflect on the legacy and relevance of ISOTYPE.
+One hundred years after Otto Neurath’s team introduced ISOTYPE---a pioneering method of pictorial statistics designed to make complex data accessible to broad audiences---this panel examines their vision with fresh eyes. Hosted in Vienna, the birthplace of ISOTYPE, and at a moment when visualization’s role in public discourse is more urgent than ever, this panel aims to reflect on the legacy and relevance of ISOTYPE.
 What does "visualization for the masses" mean today in an age of data, algorithmic personalization, and fragmented attention? What have we learned from ISOTYPE’s collaborative design approach and its icon-based visual language, and how does its legacy reverberate in today's visualization projects? Conversely, how would Neurath's team have been influenced by current work on inclusive design, evaluation, data journalism, or interaction paradigms?
 Bringing together historians of visualization, philosophers, designers, critical practitioners, and exhibition curators, the panel aims to connect past and present and situate ISOTYPE within a broader reflection on "visualization for the public" - from democratic communication to visual propaganda, from iconic minimalism to data storytelling for broad audiences.
-This panel is related to prior panel discussions at VIS, e.g., on the "Past, Present, and Future of Data Storytelling" (2024), on "Reflecting on Visualization History to Drive Future Innovation'' (2021), or Visualization for Social Good (2020)
-It complements earlier thematic discussions by providing direct engagement with ISOTYPE as a historical phenomenon with tangible artifacts and a documented visualization design process, that still informs modern practice.
+This panel is related to prior panel discussions at VIS, e.g., on the "Past, Present, and Future of Data Storytelling" (2024), on "Reflecting on Visualization History to Drive Future Innovation" (2021), or "Visualization for Social Good" (2020)
+It complements earlier thematic discussions by providing direct engagement with ISOTYPE as a historical phenomenon with tangible artifacts and a documented visualization design process, that still informs modern practice. A website with more information is available at [https://sites.google.com/view/isotype](https://sites.google.com/view/isotype).
