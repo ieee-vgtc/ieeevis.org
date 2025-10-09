@@ -246,7 +246,7 @@ Coffee breaks are planned between the first/second and third/fourth block.
     * Perception
     * Rescheduled Papers (+ 1 Short Paper)
 * **Panel**
-    * Words Divide, Pictures Unite" - Revisiting Otto Neurath's ISOTYPE at 100
+    * "Words Divide, Pictures Unite" - Revisiting Otto Neurath's ISOTYPE at 100
 
 *3:45 PM - 5:00 PM (CET)*<br/>
 * **Full Paper Sessions**
