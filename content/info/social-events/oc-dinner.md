@@ -24,6 +24,12 @@ We will have a **buffet and drinks**.
     <img src="/year/2025/assets/venue-and-travel/oc-dinner.png" />
 </p>
 
+**Address:**<br />
+Melker Stiftskeller<br />
+Schottengasse 3<br />
+1010 Wien<br />
+[Google Maps Location](https://maps.app.goo.gl/Fw84tdcRbLUGLyzz7){:target= "_blank"}
+
 
 ## When
 
