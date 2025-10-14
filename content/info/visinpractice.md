@@ -70,7 +70,7 @@ The following events at VIS are recommended for practitioners.
 ## The VisInPractice 2025 Team
 
 * Chris Bryan, _Arizona State University_
-* Arjun Srinivasan, _Databricks_
+* Arjun Srinivasan, _Tableau Research_
 
 **Email:** [vip@ieeevis.org](mailto:vip@ieeevis.org)
 **Twitter:** [@visinpractice](https://twitter.com/visinpractice)
