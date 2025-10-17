@@ -109,12 +109,6 @@ Here you will find a list of recommended hotels where either our room allotments
 <!-- ---------------------------------------------------------------------------------- -->
 ### Close to the Austria Center Vienna
 
-#### Motel One Wien-Donau City
-Hotel Motel One Wien-Donau City<br />
-Donau-City-Straße 13E<br />
-1220 Wien<br />
-[Hotel Website](https://www.motel-one.com/de/hotels/wien/hotel-wien-donau-city/){:target= "_blank"} | [Google Maps Link](https://maps.app.goo.gl/GcioFZZg8MrkgGVBA){:target= "_blank"}
-
 #### Novotel Suites Wien City Donau
 Hotel Novotel Suites Wien City Donau<br />
 Radingerstraße 2<br />
