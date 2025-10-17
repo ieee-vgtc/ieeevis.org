@@ -13,10 +13,10 @@ Therefore, the dinner is by **invitation only**.
 ## Location
 
 The OC Dinner will take place at the **Melker Stiftskeller** restaurant in Vienna's 1st district.
+The restaurant is located in a very old building.
 In 1774, the new *Melkerhof* was built in the 1st district at its current location.
 A document from 1629 proves that even the building before, the old *Melkerhof*, was connected to a wine cellar.
 This wine cellar developed into today's **Melker Stiftskeller**, which serves exquisite Viennese cuisine.
-Seasonal products and fresh ingredients are the credo of this down-to-earth home cooking.
 
 We will have a **buffet and drinks**.
 
