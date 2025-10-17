@@ -203,7 +203,6 @@ by Alaul Islam, Fairouz Grioui, Raimund Dachselt, & Petra Isenberg
 
 **Exploring the Feasibility of a Participatory Data Physicalization of CO₂e Emissions for Dietary Choices in Collective Catering Settings**<br />
 by Eugenie Brasier, Yvonne Jansen, Pierre Dragicevic, & Martin Hachet
-Inria, CNRS, Bordeaux, France"
 
 **SAMMed-VR: Integrated Segment Anything Model in Virtual Reality for Supervised Brain Tumour Segmentation**<br />
 by Vahid Pooryousef, Himashi Peiris, Huiyi Liang, Ang Li, Zhaolin Chen, Tim Dwyer, & Jiazhou Liu
