@@ -262,7 +262,7 @@ Coffee breaks are planned between the first/second and third/fourth block.
 #### Evening
 
 *6:00 PM - 9:00 PM (CET)*<br/>
-* **VISAP Exhibition** ([University of Applied Arts](https://maps.app.goo.gl/L5RFQrZArMmL4GPK9){:target= "_blank"})
+* **VISAP Exhibition** ([University of Applied Arts (Atrium)](https://maps.app.goo.gl/cc37KProFbbk79bj7){:target= "_blank"})
 
 *7:00 PM (CET)*<br/>
 * **OC Dinner** - invitation only ([Melker Stiftskeller](/year/2025/info/social-events/oc-dinner))

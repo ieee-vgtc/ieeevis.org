@@ -118,7 +118,7 @@ menu:
                   - text: "Elections"
                     description: "Register to vote and nominate/review candidates for the VSC/VEC"
                     url: "/year/2025/info/elections"
-                    is_new: true
+                    is_new: false
 
           - heading: "Supporters"
             heading_url: "/year/2025/supporters"
@@ -181,6 +181,18 @@ menu:
                   - text: "Recommendations from Locals"
                     description: "Tips by local people what to not miss in Vienna"
                     url: "/year/2025/info/registration-and-travel/vienna-tips"
+                    is_new: false
+          - heading: "Local Events at VIS 2025"
+            heading_url: "/year/2025/info/local-events/summary"
+            columns:
+              - links:
+                  - text: "ISOTYPE Exhibition"
+                    description: "100 Years of ISOTYPES in Vienna"
+                    url: "/year/2025/info/local-events/isotype-exhibition"
+                    is_new: false
+                  - text: "VRVis Lab Visit"
+                    description: "Visit the VRVis GmbH"
+                    url: "/year/2025/info/local-events/vrvis-lab-visit"
                     is_new: false
 
       - subsections:
@@ -271,23 +283,23 @@ menu:
                   - text: "Welcome Reception"
                     description: "Natural History Museum Vienna"
                     url: "/year/2025/info/social-events/welcome-reception"
-                    is_new: true
+                    is_new: false
                   - text: "Poster Session"
                     description: "Austria Center Vienna"
                     url: "/year/2025/info/social-events/poster-session"
-                    is_new: true
+                    is_new: false
                   - text: "Conference Dinner"
                     description: "Austria Center Vienna"
                     url: "/year/2025/info/social-events/conference-dinner"
-                    is_new: true
+                    is_new: false
 #                  - text: "VISAP Reception"
 #                    description: "University of Applied Arts"
 #                    url: "/year/2025/info/social-events/visap-reception"
-#                    is_new: true
+#                    is_new: false
                   - text: "OC Dinner"
                     description: "Melker Stiftskeller"
                     url: "/year/2025/info/social-events/oc-dinner"
-                    is_new: true
+                    is_new: false
       #- subsections:
           #- heading: "Plenary Sessions"
           #  description: "Engage with the VIS community, internal and external"

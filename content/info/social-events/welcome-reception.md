@@ -15,7 +15,7 @@ The Natural History Museum Vienna is located in a neo-renaissance building that 
 It is considered one of the largest and most important museums in the world.
 
 The welcome reception includes **drinks and finger food**. Admission is with your conference badge.
-The museum is reserved exclusively for us, and you can also visit the exhibition rooms (you just have to leave food and drinks in the entrance hall).
+The museum is reserved exclusively for us.
 
 <table>
     <tr>

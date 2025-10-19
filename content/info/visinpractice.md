@@ -19,25 +19,34 @@ The following events are organized by the VisInPractice team.
 
 #### Research <> Practice Engagement Session
 
-**When**: Wednesday, Nov 5, 2:00 PM - 3:15 PM (CET)
+**When: Wednesday, Nov 5, 2:00 PM - 3:15 PM (CET)**
 
 The Research <> Practice Engagement Session is an opportunity for practitioners to share their experiences and insights with the community.
+We are looking forward to three interesting talks with a lot of opportunities for discussion.
 
 The session features the following talks:
-*Coming soon*
+
+**VR for Large Volumes**: New application for the analysis of Large Volumes<br />
+presented by **Fraunhofer**
+
+**Visualization for Ultrasound**: Challenges for Visualization solutions for Ultrasound data<br />
+presented by **Siemens Healthineers**
+
+**Vis and Data Enginnering**: Data Challenges before creating a Visualization<br />
+presented by **Observable**
 
 
 #### Industry Meetup
 
-**When**: Thursday, Nov 6, 3:45 PM - 5:00 PM (CET)
+**When: Thursday, Nov 6, 3:45 PM - 5:00 PM (CET)**
 
 The industry meetup features people from the Vis community which are now working in industry, making revenue with visualization.
-The meetup will be run under the title **How to make money with visualization?**
+The meetup will be run under the title **"How to make money with visualization?"**
 
 We invited the following respective members from our community:
-* Helmut Doleisch, Siemens Industry Software GmbH
-* Christina Gillmann, Fraunhofer FIT
-* *Coming soon*
+* **Helmut Doleisch**, Siemens Industry Software GmbH
+* **Christina Gillmann**, Fraunhofer FIT
+* **Harald Piringer**, Visplore GmbH
 
 <!-- ---------------------------------------------------------------------------------- -->
 ### VisInPractice Recommendations 2025
@@ -54,13 +63,13 @@ The following events at VIS are recommended for practitioners.
 <tr>
     <td><strong>VisAble: Who do we exclude by current visualization practices and how do we change that?</strong></td>
     <td>Panel</td>
-    <td>Wednesday, Nov 5, 9:30 AM - 10:45 AM (CET)</td>
+    <td><strong>Wednesday, Nov 5, 9:30 AM - 10:45 AM (CET)</strong></td>
     <td>Do our visualizations facilitate novices and users of different domains to perceive and understand the data as they aim to?</td>
 </tr>
 <tr>
     <td><strong>Industry Meets Research: Future Needs and Opportunities for Visual Analytics in Industrial Manufacturing</strong></td>
     <td>Panel</td>
-    <td>Thursday, Nov 6, 11:15 AM - 12:30 PM (CET)</td>
+    <td><strong>Thursday, Nov 6, 11:15 AM - 12:30 PM (CET)</strong></td>
     <td> This panel explores how VA can address real-world industrial challenges through academic and industry collaboration.</td>
 </tr>
 </table>
@@ -73,6 +82,7 @@ The following events at VIS are recommended for practitioners.
 * Arjun Srinivasan, _Tableau Research_
 
 **Email:** [vip@ieeevis.org](mailto:vip@ieeevis.org)
+
 **Twitter:** [@visinpractice](https://twitter.com/visinpractice)
 
 - - -

@@ -861,6 +861,9 @@ by Thomas Marrinan, Victor A. Mateevitsi, Madeleine Moeller, Alina Kanayinkal, &
 **VisGuard: Securing Visualization Dissemination through Tamper-Resistant Data Retrieval**<br />
 by Huayuan Ye, Juntong Chen, Shenzhuo Zhang, Yipeng Zhang, Changbo Wang, & Chenhui Li
 
+**FLINT: Learning-based Flow Estimation and Temporal Interpolation for Scientific Ensemble Visualization**<br />
+by Hamid Gadirov, Jos B.T.M. Roerdink, & Steffen Frey
+
 **Drawing in the Flow: A Data-Aware Mixed-Reality Sketching Interface for Illustrative 3D Flow Visualization [Short Paper]**<br />
 by Walter Sands, Sean J. Dorr, Kiet Tran, & Daniel Keefe
 
@@ -992,11 +995,11 @@ by Tejas Savalia, Andrew Lovett, Cristina R. Ceja, Rosemary Cowell, & Cindy Xion
 
 #### Trust No One [Full Papers]
 
-**Quantifying Visualization Vibes: Measuring Socio-Indexicality at Scale [Honorable Mention]**<br />
-by Amy Fox, Michelle Morgenstern, Graham Jones, & Arvind Satyanarayan
-
 **Visualization Vibes: The Socio-Indexical Function of Visualization Design**<br />
 by Michelle Morgenstern, Amy Fox, Graham Jones, & Arvind Satyanarayan
+
+**Quantifying Visualization Vibes: Measuring Socio-Indexicality at Scale [Honorable Mention]**<br />
+by Amy Fox, Michelle Morgenstern, Graham Jones, & Arvind Satyanarayan
 
 **Visualizing Trust: How Chart Embellishments Influence Perceptions of Credibility**<br />
 by Hayeong Song, Aeree Cho, Cindy Xiong Bearfield, & John Stasko

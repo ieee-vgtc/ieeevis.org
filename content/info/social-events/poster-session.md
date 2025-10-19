@@ -12,7 +12,7 @@ The VIS 2025 **Poster Session** will take place at the convention center (Austri
 
 The poster session will take place right after the conference program at the **Austria Center Vienna**.
 
-You can have a drink and use the time to visit the posters, discuss with the authors, and network with other attendees.
+You can use the time to visit the posters, discuss with the authors, and network with other attendees.
 
 ## When
 
