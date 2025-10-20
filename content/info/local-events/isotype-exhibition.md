@@ -25,21 +25,15 @@ To remember the work of Otto Neurath and his team, we will present an **ISOTYPE 
 The exhibition will address questions like *What is the history of Isotype*, *How have Isotype visualizations been generated*, and *Who are the people behind Isotype*?
 Help us to build an Isotype visualization together!
 
-### Location
-
 Visit the exhibition in the **gallery** between level 0 and 1.
 
-### When
-
-The exhibition will be available from **Tuesday, Nov 4** to **Friday, Nov 7**.
+**When: Tuesday, Nov 4, to Friday, Nov 7**
 
 
 <!-- -------------------  -->
 ## Otto Neurath and ISOTYPE Panel
 
 In a **Otto Neurath and ISOTYPE panel** on Thursday, panelists will discuss the topic *"Words Divide, Pictures Unite"* to revisit Otto Neurath’s ISOTYPE at 100.
-
-### When
 
 **When: Thursday, Nov 6, 2025 2:00pm - 3:15pm (CET)**
 
@@ -50,6 +44,4 @@ In a **Otto Neurath and ISOTYPE panel** on Thursday, panelists will discuss the 
 The city of Vienna is celebrating the ISOTYPE anniversary with several exhibitions.
 During the conference, we offer **guided tours** for two of them.
 
-### Registration
-
-Registration is required: [https://sites.google.com/view/isotype/guided-tours](https://sites.google.com/view/isotype/guided-tours){:target="_blank"}
+**Registration is required**: [https://sites.google.com/view/isotype/guided-tours](https://sites.google.com/view/isotype/guided-tours){:target="_blank"}
