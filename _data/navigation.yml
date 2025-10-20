@@ -241,6 +241,14 @@ menu:
                     description: "Learn new tools and application domains"
                     url: "/year/2025/info/program/tutorials"
                     is_new: false
+          - heading: "Plenary Sessions"
+            heading_url: "/year/2025/info/plenary/summary"
+            columns:
+              - links:
+                - text: "Vis Townhall"
+                  url: "/year/2025/info/plenary/townhall"
+                  description: "Engage with the VIS community, internal and external"
+                  is_new: true
       - subsections:
           - heading: "Invited Speakers"
             heading_url: "/year/2025/info/invited-speakers/summary"
@@ -287,33 +295,14 @@ menu:
                     description: "Austria Center Vienna"
                     url: "/year/2025/info/social-events/conference-dinner"
                     is_new: false
-#                  - text: "VISAP Reception"
+#                  - text: "VISAP Exhibition"
 #                    description: "University of Applied Arts"
-#                    url: "/year/2025/info/social-events/visap-reception"
+#                    url: "/year/2025/info/social-events/visap-exhibition"
 #                    is_new: false
                   - text: "OC Dinner"
                     description: "Melker Stiftskeller"
                     url: "/year/2025/info/social-events/oc-dinner"
                     is_new: false
-      #- subsections:
-          #- heading: "Plenary Sessions"
-          #  description: "Engage with the VIS community, internal and external"
-          #  columns:
-          #   - links:
-               #- text: "Vis Townhall"
-               #  url: "/year/2025/info/townhall"
-               #  is_new: true
-               # - text: "Keynote Address"
-               #   url: "/year/2025/info/keynote-speaker"
-                #- text: "Capstone Address"
-                # url: "/year/2025/info/capstone-speaker"
-#   #              # - links:
-#   #              #   - text: "Download the App"
-#   #              #     url: "https://www.google.com"
-#   #              #   - text: "Pocket Program (PDF)"
-#   #              #     url: "https://www.google.com"
-#   #              #   - text: "Practioner Guide"
-#   #              #     url: "https://www.google.com"
 
 # ---------------------------------------------------------------------------
   - dropdown: "Events & Community"
