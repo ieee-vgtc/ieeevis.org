@@ -18,12 +18,12 @@
         image: /assets/supporters/vrvis.png
         url: "https://www.vrvis.at/"
 
-#  - category: Gold
-#    image_size: 360
-#    supporters:
-#      - name: "Autodesk"
-#        image: /assets/supporters/Autodesk-logo.png
-#        url: "https://www.autodesk.com/research"
+  - category: Gold
+    image_size: 360
+    supporters:
+      - name: "VISUAPPS GmbH"
+        image: /assets/supporters/visuapps.png
+        url: "https://www.visuapps.com/"
 
   - category: Silver
     image_size: 320
@@ -31,9 +31,6 @@
       - name: "Apple Inc."
         image: /assets/supporters/apple.png
         url: "https://www.apple.com/"
-      - name: "VISUAPPS GmbH"
-        image: /assets/supporters/visuapps.png
-        url: "https://www.visuapps.com/"
       - name: "Autodesk"
         image: /assets/supporters/autodesk.png
         url: "https://www.autodesk.com/"
