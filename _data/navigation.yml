@@ -146,10 +146,6 @@ menu:
                     description: "Getting around in Vienna"
                     url: "/year/2025/info/registration-and-travel/transportation"
                     is_new: false
-                  - text: "Green Meeting Certificate"
-                    description: "IEEE VIS 2025 is a 'Green Meeting'"
-                    url: "/year/2025/info/registration-and-travel/green-meeting"
-                    is_new: false
               - heading: "Travel"
                 links:
                   - text: "Traveling to Vienna"
@@ -164,12 +160,6 @@ menu:
                     description: "Visa letter information"
                     url: "/year/2025/info/registration-and-travel/visas"
                     is_new: false
-
-          - heading: "Code of Conduct"
-            description: "The IEEE VIS Code of Conduct"
-            heading_url: "/year/2025/info/inclusion/code-of-conduct"
-
-      - subsections:
           - heading: "Vienna, Austria"
             heading_url: "https://meeting.vienna.info/en/why-vienna/art-culture-cuisine"
             columns:
@@ -182,6 +172,8 @@ menu:
                     description: "Tips by local people what to not miss in Vienna"
                     url: "/year/2025/info/registration-and-travel/vienna-tips"
                     is_new: false
+
+      - subsections:
           - heading: "Local Events at VIS 2025"
             heading_url: "/year/2025/info/local-events/summary"
             columns:
@@ -194,6 +186,9 @@ menu:
                     description: "Visit the VRVis GmbH"
                     url: "/year/2025/info/local-events/vrvis-lab-visit"
                     is_new: false
+          - heading: "Code of Conduct"
+            description: "The IEEE VIS Code of Conduct"
+            heading_url: "/year/2025/info/inclusion/code-of-conduct"
 
       - subsections:
           - heading: "Inclusion"
