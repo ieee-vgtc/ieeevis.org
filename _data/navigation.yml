@@ -146,6 +146,10 @@ menu:
                     description: "Getting around in Vienna"
                     url: "/year/2025/info/registration-and-travel/transportation"
                     is_new: false
+                  - text: "Green Meeting Certificate"
+                    description: "IEEE VIS 2025 is a 'Green Meeting'"
+                    url: "/year/2025/info/registration-and-travel/green-meeting"
+                    is_new: false
               - heading: "Travel"
                 links:
                   - text: "Traveling to Vienna"
