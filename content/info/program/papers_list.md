@@ -226,9 +226,6 @@ by Jiyeon Bae, Hyeon Jeon, & Jinwook Seo
 **Does visualization help AI understand data?**<br />
 by Johnathan L Sun, Victoria R Li, & Martin Wattenberg
 
-**Semantic Pathway: An Interactive Visualization of Hidden States and Token Influence in LLMs**<br />
-by Mithilesh Kumar Singh & Klaus Mueller
-
 
 #### Visualization for Science [Short Papers]
 
@@ -640,6 +637,9 @@ by Abdessalam Ouaazki, & Adrian Holzer
 
 **ChartMark: A Structured Grammar for Chart Annotation**<br />
 by Yiyu Chen, Yifan Wu, Shuyu Shen, Yupeng Xie, Leixian Shen, Hui Xiong, & Yuyu Luo
+
+**Semantic Pathway: An Interactive Visualization of Hidden States and Token Influence in LLMs**<br />
+by Mithilesh Kumar Singh & Klaus Mueller
 
 
 ### 11:15am - 12:30pm (CET)
