@@ -169,9 +169,6 @@ by Jun Han, Kaiyuan Tang, & Chaoli Wang
 **Self-Supervised Continuous Colormap Recovery from a 2D Scalar Field Visualizations without a Legend**<br />
 by Hongxu Liu, Xinyu Chen, Haoyang Zheng, Manyi Li, Zhenfan Liu, Fumeng Yang, Yunhai Wang, Changhe Tu, & Qiong Zeng
 
-**Distributed Neural Representation for Reactive In Situ Visualization [TVCG]**<br />
-by Qi Wu, Joseph A. Insley, Victor A. Mateevitsi, Silvio Rizzi, Michael E. Papka, & Kwan-Liu Ma
-
 **Improving Neural Volume Rendering via Learning View-Dependent Integral Approximation [TVCG]**<br />
 by Yifan Wang, Jun Xu, Yuan Zeng, & Yi Gong
 
@@ -180,6 +177,9 @@ by Kirsten W.H. Maas, Danny Ruijters, Anna Vilanova, & Nicola Pezzotti
 
 **Stylizing Sparse-View 3D Scenes with Hierarchical Neural Representation [TVCG]**<br />
 by Yifan Wang, Ang Gao, Yi Gong, & Yuan Zeng
+
+**Distributed Neural Representation for Reactive In Situ Visualization [TVCG]**<br />
+by Qi Wu, Joseph A. Insley, Victor A. Mateevitsi, Silvio Rizzi, Michael E. Papka, & Kwan-Liu Ma
 
 
 #### Of Trees and Treemaps [Full Papers + 1 Short Paper]
