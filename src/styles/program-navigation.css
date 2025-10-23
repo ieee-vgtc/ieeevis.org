@@ -369,3 +369,11 @@ NOTE: the style classes below cause issues with bullet points for ul elements. T
     position: relative !important;
     vertical-align: baseline !important;
 } */
+
+.program-menu a.program_menu_item {
+  color: white;
+}
+
+.login-button, .logout-button {
+  color: white;
+}
