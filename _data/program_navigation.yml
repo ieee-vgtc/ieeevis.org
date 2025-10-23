@@ -20,7 +20,7 @@
 #                     is_external
 
 navbar_metadata:
-  display: false
+  display: true
   label: 'Content'
   use_auth0: true
   

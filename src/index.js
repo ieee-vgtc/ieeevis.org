@@ -4,7 +4,8 @@ import jQuery from 'jquery';
 import Vue from 'vue'
 import { createAuth0Client } from "@auth0/auth0-spa-js";
 
-
+const auth0_domain = 'ieeevis.us.auth0.com'
+const auth0_client_id = 'oF5BXUklWOjSjUeg5Tzai2DysHITXYhT'
 
 const updateUI = async (auth0, query) => {
   const is_auth = await auth0.isAuthenticated();
@@ -76,9 +77,6 @@ const updateUI = async (auth0, query) => {
 
 
 const authenticate = () => {
-  const auth0_domain = 'ieeevis.us.auth0.com'
-  const auth0_client_id = 'oF5BXUklWOjSjUeg5Tzai2DysHITXYhT'
-  //console.log("origin is " + window.location.origin);
   createAuth0Client({
     domain: auth0_domain,
     clientId: auth0_client_id,
@@ -86,10 +84,6 @@ const authenticate = () => {
   }).then(async (auth0Client) => {
     const isAuthenticated = await auth0Client.isAuthenticated();
     const query = window.location.search;
-    const userProfile = await auth0Client.getUser();
-
-    console.log(isAuthenticated, 'authenticated')
-    console.log(userProfile)
 
     if (isAuthenticated) {
       await updateUI(auth0Client, query);
@@ -197,7 +191,9 @@ document.addEventListener('DOMContentLoaded', async () => {
   if (getUrlParameter('loginMsg')) {
     // $("#loginToastMessage").show();
     // document.getElementById('loginToastMessage').classList.remove('hidden')
-    document.getElementById('loginToastMessage').style.display = "block";
+    if(document.getElementById('loginToastMessage')) {
+      document.getElementById('loginToastMessage').style.display = "block";
+    }
   }
 
 
@@ -414,9 +410,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     mounted: () => {
       console.log('is mounted')
       authenticate()
-      const auth0_domain = 'ieeevis.us.auth0.com'
-      const auth0_client_id = 'G8onz2A6h59RmuYFUbSLpGmxsGHOyPOv'
-      //console.log("origin is " + window.location.origin);
       createAuth0Client({
         domain: auth0_domain,
         clientId: auth0_client_id,
