@@ -996,3 +996,16 @@ div.session-url {
   border-color: #b67649;
 }
 
+.bg-primary, .bg-primary-800 {
+    --bg-opacity: 1;
+    background-color: #da171c !important;
+    background-color: rgba(218, 23, 28, var(--bg-opacity)) !important;
+}
+
+.program-menu a.program_menu_item {
+  color: white;
+}
+
+.login-button, .logout-button {
+  color: white;
+}

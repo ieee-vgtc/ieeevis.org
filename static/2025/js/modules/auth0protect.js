@@ -47,10 +47,10 @@ window.onload = async () => {
 
       updateUI(auth0Client, query)
     }
-  } else if (window.location.href.includes("room_") || window.location.href.includes("paper_") || window.location.href.includes("poster_")) {
+  } else if (window.location.href.includes("room_") || window.location.href.includes("paper_") || window.location.href.includes("poster_") || window.location.href.includes("session_")) {
     // window.location.href = `/year/2025/program/redirect?return=${window.location.pathname.slice(1)}`;
 
-    window.location.href = "/year/2025/welcome?loginMsg=true";
+    window.location.href = `/year/2025/welcome?loginMsg=true&return=${window.location.pathname.slice(1)}`;
   }
 
 
@@ -129,9 +129,9 @@ const updateUI = async (auth0, query) => {
     //   item.classList.remove('hide-auth-controls')
     // })
 
-    Array.from(document.getElementsByClassName('welcome-pill-message')).map((item) => {
-      item.value = `Welcome, ${user.nickname}`
-    })
+    // Array.from(document.getElementsByClassName('welcome-pill-message')).map((item) => {
+    //   item.value = `Welcome, ${user.nickname}`
+    // })
 
   } else {
     // $(".login-button").show();
@@ -145,9 +145,9 @@ const updateUI = async (auth0, query) => {
     //   item.classList.add('hide-auth-controls')
     // })
 
-    Array.from(document.getElementsByClassName('welcome-pill-message')).map((item) => {
-      item.attributes.value = ''
-    })
+    // Array.from(document.getElementsByClassName('welcome-pill-message')).map((item) => {
+    //   item.attributes.value = ''
+    // })
 
     Array.from(document.getElementsByClassName('welcome-pill')).map((item) => {
       item.classList.add('hide-auth-controls')

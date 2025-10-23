@@ -48,9 +48,9 @@ const updateUI = async (auth0, query) => {
     //   item.classList.remove('hide-auth-controls')
     // })
 
-    Array.from(document.getElementsByClassName('welcome-pill-message')).map((item) => {
-      item.value = `Welcome, ${user.nickname}`
-    })
+    // Array.from(document.getElementsByClassName('welcome-pill-message')).map((item) => {
+    //   item.value = `Welcome, ${user.nickname}`
+    // })
 
   } else {
     // $(".login-button").show();
@@ -64,9 +64,9 @@ const updateUI = async (auth0, query) => {
     //   item.classList.add('hide-auth-controls')
     // })
 
-    Array.from(document.getElementsByClassName('welcome-pill-message')).map((item) => {
-      item.attributes.value = ''
-    })
+    // Array.from(document.getElementsByClassName('welcome-pill-message')).map((item) => {
+    //   item.attributes.value = ''
+    // })
 
     Array.from(document.getElementsByClassName('welcome-pill')).map((item) => {
       item.classList.add('hide-auth-controls')
@@ -191,6 +191,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   if (getUrlParameter('loginMsg')) {
     // $("#loginToastMessage").show();
     // document.getElementById('loginToastMessage').classList.remove('hidden')
+    console.log("I RUN", document.getElementById('loginToastMessage'))
     if(document.getElementById('loginToastMessage')) {
       document.getElementById('loginToastMessage').style.display = "block";
     }
