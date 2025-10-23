@@ -68,6 +68,8 @@ We anticipate that its output can catalyze deeper, actionable engagement between
 
 **Panelists**: Han-Wei Shen, Michael Sedlmair, Melanie Tory, Helwig Hauser, Bei Wang, Tamara Munzner
 
+**Website**: [https://sites.google.com/view/ieeevisreviewing/home](https://sites.google.com/view/ieeevisreviewing/home)
+
 This panel will examine concerning trends in IEEE VIS peer review
 content. We want to celebrate what works but also discuss how the
 current state of reviewing may be narrowing the field’s scope and
