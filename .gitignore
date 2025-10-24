@@ -11,3 +11,4 @@ scripts/**/*.pyc
 data/autogen/
 *.swp
 .idea/
+.ruby-version
