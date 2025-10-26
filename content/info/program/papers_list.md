@@ -1022,14 +1022,14 @@ by Zikai Li, Chuyi Zheng, Ziang Li, & Yang Shi
 **Deconstructing Implicit Beliefs in Visual Data Journalism: Unstable Meanings Behind Data as Truth & Design for Insight**<br />
 by Ke Er Zhang, Jodie Jenkinson, & Laura Garrison
 
-**Correcting Misperceptions at a Glance: Using Data Visualizations to Reduce Political Sectarianism**<br />
-by Doug Markant, Subham Sah, Alireza Karduni, Milad Rogha, My Thai, & Wenwen Dou
-
 **Immersive Data-Driven Storytelling: Scoping an Emerging Field Through the Lenses of Research, Journalism, and Games [TVCG]**<br />
 by Julián Méndez, Weizhou Luo, Rufat Rzayev, Wolfgang Büschel, & Raimund Dachselt
 
 **Narrative Player: Reviving Data Narratives with Visuals [TVCG]**<br />
 by Zekai Shao, Leixian Shen, Haotian Li, Yi Shan, Huamin Qu, Yun Wang, & Siming Chen
+
+**Correcting Misperceptions at a Glance: Using Data Visualizations to Reduce Political Sectarianism [Virtual Talk]**<br />
+by Doug Markant, Subham Sah, Alireza Karduni, Milad Rogha, My Thai, & Wenwen Dou
 
 
 #### Models, Methods, and Typologies [Full Papers]
