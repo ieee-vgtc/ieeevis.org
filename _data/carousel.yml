@@ -1,20 +1,15 @@
-- title: "Conference registration now open"
-  image: "vienna_burgtheater.jpg"
-  button-text: "VIS 2025 Registration"
-  button-url: "/info/registration-and-travel/conference-registration"
-  active: "active"
-
-- title: "The VIS program is now available"
-  image: "program.jpg"
-  button-text: "Week-at-a-Glance"
-  button-url: "/info/program/week-at-a-glance"
-
-- title: "VIS 2025 takes place in an anniversary year"
-  image: "isotypes.jpg"
-  button-text: "100 Years of Visual Language"
-  button-url: "/blog/vis-2025-GC-blog-ISOTYPES"
-
 - title: "IEEE VIS 2025 in Vienna, Austria"
   image: "skyline_vienna.jpg"
   button-text: "Destination Information"
   button-url: "/destination"
+  active: "active"
+  
+- title: "VIS celebrates 100 years of ISOTYPE"
+  image: "isotypes.jpg"
+  button-text: "Local Events"
+  button-url: "/info/local-events/isotype-exhibition"
+  
+- title: "IEEE VIS is made possible by our supporters"
+  image: "supporters.jpg"
+  button-text: "VIS Supporter Packages"
+  button-url: "/supporters"
