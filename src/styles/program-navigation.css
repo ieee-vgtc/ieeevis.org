@@ -86,7 +86,7 @@
     display: none;
     position: fixed;
     top: var(--program-navigation-height);
-    /* top: 140px; */
+    top: 140px;
     height: calc(100vh - var(--program-navigation-height));
     width: 100vw;
     overflow-y: scroll;
