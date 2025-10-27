@@ -399,39 +399,38 @@ const card_time_detail = (paper, show) => {
 
 // language=HTML
 const card_html = (paper) => 
-`
-<div class="pp-card paper-card-wrapper pp-mode-${render_mode} " data-paper-type="${paper.paper_type}" style="width: 100%">
-    <div class="pp-card-header" style="">
-      <div class="checkbox-bookmark fas  ${paper.bookmarked ? "selected" : ""}"
-      style="display: block;position: absolute; top:-5px;right: 25px;">&#xf02e;</div>
-      <h5 class="card-title">
-          ${paper.award != "" ? '<span class="fas paper-award" title="Awarded Paper">&#xf559;</span>' : ""}
-          <a href="${API.paperLink(paper)}" target="_blank" class="text-muted">
-          ${paper.title}
-          </a>
-          ${paper.accessible_pdf ? '<span class="fas paper-award" title="The authors made this paper screen-reader accessible in the IEEE Digital Library.">&#xf29a;</span>' : ""}
-          ${paper.preprint_link != "" ? '<span class="fas paper-award" title="This paper has a preprint available online.">&#xf09c;</span>' : ""}
-          ${paper.open_access_supplemental_link != "" ? '<span class="fas paper-award" title="This paper has additional material, like demos or experimental data, available online.">&#xf0c6;</span>' : ""}
-      </h5>
-      <span class="session-type" style="color: ${paper.paper_type_color }">
-        ${paper.paper_type_name }
-      </span>
+  `
+        <div class="pp-card paper-card-wrapper pp-mode-${render_mode} " data-paper-type="${paper.paper_type}" style="width: 100%">
+            <div class="pp-card-header" style="">
+              <div class="checkbox-bookmark fas  ${paper.bookmarked ? "selected" : ""}"
+              style="display: block;position: absolute; top:-5px;right: 25px;">&#xf02e;</div>
+              <h5 class="card-title">
+                 ${paper.award != "" ? '<span class="fas paper-award" title="Awarded Paper">&#xf559;</span>' : ""}
+                 <a href="${API.paperLink(paper)}" target="_blank" class="text-muted">
+                  ${paper.title}
+                  </a>
+                 ${paper.accessible_pdf ? '<span class="fas paper-award" title="The authors made this paper screen-reader accessible in the IEEE Digital Library.">&#xf29a;</span>' : ""}
+                 ${paper.preprint_link != "" ? '<span class="fas paper-award" title="This paper has a preprint available online.">&#xf09c;</span>' : ""}
+                 ${paper.open_access_supplemental_link != "" ? '<span class="fas paper-award" title="This paper has additional material, like demos or experimental data, available online.">&#xf0c6;</span>' : ""}
+              </h5>
+              <span class="session-type" style="color: ${paper.paper_type_color }">
+                ${paper.paper_type_name }
+              </span>
 
-      <h6 class="card-subtitle text-muted" style="text-align: left;">
-        ${author_detail(paper, render_mode !== MODE.mini)}
-      </h6>
+              <h6 class="card-subtitle text-muted" style="text-align: left;">
+               ${author_detail(paper, render_mode !== MODE.mini)}
+              </h6>
 
-      ${paperSessionDetail(paper)}
-
-
-      
-      <div class="card-footer">&nbsp</div>
-    </div>
+              ${paperSessionDetail(paper)}
 
 
-    ${card_detail(paper, render_mode === MODE.detail)}
-</div>
-`; //put this: <div>${card_image(paper, render_mode !== MODE.mini)}</div>, above <div class="card-footer">&nbsp</div>
+              <div>${card_image(paper, render_mode !== MODE.mini)}</div>
+              <div class="card-footer">&nbsp</div>
+            </div>
+
+
+                ${card_detail(paper, render_mode === MODE.detail)}
+        </div>`;
 
 const paperSessionDetail = (paper) => {
   if (paper.sessions.length > 0)
@@ -465,35 +464,35 @@ const buildSessionFilter = (session_name) => {
 
 // language=HTML
 const card_poster_html = (poster) =>
-`
-<div class="pp-card pp-mode-${render_mode} " style="width: 100%">
-    <div class="pp-card-header" style="">
-      <div class="checkbox-bookmark fas  ${poster.bookmarked ? "selected" : ""}"
-      style="display: block;position: absolute; top:-5px;right: 25px;">&#xf02e;</div>
-      <h5 class="card-title">
-        ${poster.award != "" ? '<span class="fas paper-award">&#xf559;</span>' : ""}
-        <a href="${API.posterLink(poster)}" target="_blank" class="text-muted">
-          ${poster.title}
-        </a>
-      </h5>
-      <h6 class="card-subtitle text-muted" style="text-align: left;">
-        ${author_detail(poster, render_mode !== MODE.mini)}
-      </h6>
+  `
+        <div class="pp-card pp-mode-${render_mode} " style="width: 100%">
+            <div class="pp-card-header" style="">
+              <div class="checkbox-bookmark fas  ${poster.bookmarked ? "selected" : ""}"
+              style="display: block;position: absolute; top:-5px;right: 25px;">&#xf02e;</div>
+              <h5 class="card-title">
+                ${poster.award != "" ? '<span class="fas paper-award">&#xf559;</span>' : ""}
+                <a href="${API.posterLink(poster)}" target="_blank" class="text-muted">
+                  ${poster.title}
+                </a>
+              </h5>
+              <h6 class="card-subtitle text-muted" style="text-align: left;">
+                ${author_detail(poster, render_mode !== MODE.mini)}
+              </h6>
 
-      <div class="card-subtitle text-muted mt-2" style="text-align: left;">
-        Session:
-        ${poster.sessions.map(
-s => `<a class="has_tippy" href=${buildSessionFilter(s)} data-tippy-content="filter all posters in session:">${s}</a>`)
-.join(",")}
-      </div>
+              <div class="card-subtitle text-muted mt-2" style="text-align: left;">
+                Session:
+                ${poster.sessions.map(
+    s => `<a class="has_tippy" href=${buildSessionFilter(s)} data-tippy-content="filter all posters in session:">${s}</a>`)
+    .join(",")}
+              </div>
 
-      <div class="card-footer">&nbsp</div>
-    </div>
+              <div>${card_image(poster, render_mode !== MODE.mini)}</div>
+              <div class="card-footer">&nbsp</div>
+            </div>
 
 
-    ${card_detail(poster, render_mode === MODE.detail)}
-</div>
-`;  //put this: <div>${card_image(paper, render_mode !== MODE.mini)}</div>, above <div class="card-footer">&nbsp</div>
+                ${card_detail(poster, render_mode === MODE.detail)}
+        </div>`;
 
 // <div class="card-subtitle text-muted mt-2" style="text-align: left;">
 //        Time: ${formatTime(paper.time_stamp)}

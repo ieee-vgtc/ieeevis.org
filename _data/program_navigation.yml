@@ -26,10 +26,10 @@ navbar_metadata:
   
 
 
-# schedule:
-#   display: true
-#   text: "Schedule"
-#   url: "/year/2025/program/calendar"
+schedule:
+  display: true
+  text: "Schedule"
+  url: "/year/2025/program/calendar"
 
 all_events:
   display: true
