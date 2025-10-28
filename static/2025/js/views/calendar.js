@@ -797,6 +797,7 @@ function populateRooms(calendarSelection, roomNames, day) {
     { link: 'room_e1_e2.html', roomId: 'room-e1_e2', text: "Hall E" },
     { link: 'room_m1.html', roomId: 'room-m1', text: "Hall M1" },
     { link: 'room_m2.html', roomId: 'room-m2', text: "Hall M2" },
+    { link: 'room_foyer_e.html', roomId: 'room-foyer_e', text: "Foyer E" },
   ];
 
 
@@ -870,6 +871,7 @@ function populateRooms(calendarSelection, roomNames, day) {
         // { link: 'room_e1_e2.html', roomId: 'room-e1_e2', text: "Hall E" },
         { link: 'room_m1.html', roomId: 'room-m1', text: "Hall M1" },
         { link: 'room_m2.html', roomId: 'room-m2', text: "Hall M2" },
+        { link: 'room_foyer_e.html', roomId: 'room-foyer_e', text: "Foyer E" },
       ];
       break;
     case "Thursday":
