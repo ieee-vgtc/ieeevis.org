@@ -802,61 +802,111 @@ function populateRooms(calendarSelection, roomNames, day) {
 
 
 
-  // // truncate rooms added per-day (don't add unnecessary rooms we're not using)
-  // switch (day) {
-  //   case "Sunday":
-  //   case "Monday":
-  //     roomData = [
-  //       { link: 'room_bayshore1.html', roomId: 'bayshore1', text: "Bayshore I" },
-  //       { link: 'room_bayshore2.html', roomId: 'bayshore2', text: "Bayshore II" },
-  //       { link: 'room_bayshore3.html', roomId: 'bayshore3', text: "Bayshore III" },
-  //       { link: 'room_bayshore5.html', roomId: 'bayshore5', text: "Bayshore V" },
-  //       { link: 'room_bayshore6.html', roomId: 'bayshore6', text: "Bayshore VI" },
-  //       { link: 'room_bayshore7.html', roomId: 'bayshore7', text: "Bayshore VII" },
-  //       { link: 'room_esplanadesuites.html', roomId: 'esplanadesuites', text: "Esplanade Suites I + II + III" }
-  //     ];
-  //     break;
-  //   case "Tuesday":
-  //     roomData = [
-  //       { link: 'room_bayshorefoyer.html', roomId: 'bayshorefoyer', text: "Bayshore Foyer" },
-  //       { link: 'room_bayshoreplenary.html', roomId: 'bayshoreplenary', text: "Bayshore I + II + III" },
-  //       { link: 'room_bayshore1.html', roomId: 'bayshore1', text: "Bayshore I" },
-  //       { link: 'room_bayshore3.html', roomId: 'bayshore3', text: "Bayshore III" }
-  //     ];
-  //     break;
-  //   case "Wednesday":
-  //     roomData = [
-  //       { link: 'room_bayshore1.html', roomId: 'bayshore1', text: "Bayshore I" },
-  //       { link: 'room_bayshore2.html', roomId: 'bayshore2', text: "Bayshore II" },
-  //       { link: 'room_bayshore3.html', roomId: 'bayshore3', text: "Bayshore III" },
-  //       { link: 'room_bayshore5.html', roomId: 'bayshore5', text: "Bayshore V" },
-  //       { link: 'room_bayshore6.html', roomId: 'bayshore6', text: "Bayshore VI" },
-  //       { link: 'room_bayshore7.html', roomId: 'bayshore7', text: "Bayshore VII" },
-  //       { link: 'room_palmaceia1.html', roomId: 'palmaceia1', text: "Palma Ceia I " },
-  //       { link: 'room_bayshoreplenary.html', roomId: 'bayshoreplenary', text: "Bayshore I + II + III" }
-  //     ];
-  //     break;
-  //   case "Thursday":
-  //     roomData = [
-  //       { link: 'room_bayshore1.html', roomId: 'bayshore1', text: "Bayshore I" },
-  //       { link: 'room_bayshore2.html', roomId: 'bayshore2', text: "Bayshore II" },
-  //       { link: 'room_bayshore3.html', roomId: 'bayshore3', text: "Bayshore III" },
-  //       { link: 'room_bayshore5.html', roomId: 'bayshore5', text: "Bayshore V" },
-  //       { link: 'room_bayshore6.html', roomId: 'bayshore6', text: "Bayshore VI" },
-  //       { link: 'room_bayshore7.html', roomId: 'bayshore7', text: "Bayshore VII" },
-  //       { link: 'room_bayshoreplenary.html', roomId: 'bayshoreplenary', text: "Bayshore I + II + III" }
-  //     ];
-  //     break;
-  //   case "Friday":
-  //     roomData = [
-  //       { link: 'room_bayshoreplenary.html', roomId: 'bayshoreplenary', text: "Bayshore I + II + III" },
-  //       { link: 'room_bayshore1.html', roomId: 'bayshore1', text: "Bayshore I" },
-  //       { link: 'room_bayshore5.html', roomId: 'bayshore5', text: "Bayshore V" },
-  //       { link: 'room_bayshore6.html', roomId: 'bayshore6', text: "Bayshore VI" },
-  //       { link: 'room_bayshore7.html', roomId: 'bayshore7', text: "Bayshore VII" }
-  //     ];
-  //     break;
-  // }
+  // truncate rooms added per-day (don't add unnecessary rooms we're not using)
+  switch (day) {
+    case "Sunday":
+      roomData = [
+        { link: 'room_0_11_0_12.html', roomId: 'room-0_11_0_12', text: "Room 0.11 + 0.12" },
+        // { link: 'room_0_94_0_95.html', roomId: 'room-0_94_0_95', text: "Room 0.94 + 0.95" },
+        // { link: 'room_0_96_0_97.html', roomId: 'room-0_96_0_97', text: "Room 0.96 + 0.97" },
+        { link: 'room_1_14.html', roomId: 'room-1_14', text: "Room 1.14" },
+        { link: 'room_1_15_1_16.html', roomId: 'room-1_15_1_16', text: "Room 1.15 + 1.16" },
+        { link: 'room_1_32_1_33.html', roomId: 'room-1_32_1_33', text: "Room 1.32 + 1.33" },
+        { link: 'room_1_61_1_62.html', roomId: 'room-1_61_1_62', text: "Room 1.61 + 1.62" },
+        { link: 'room_1_85_1_86.html', roomId: 'room-1_85_1_86', text: "Room 1.85 + 1.86" },
+        // { link: 'room_e1.html', roomId: 'room-e1', text: "Hall E1" },
+        // { link: 'room_e2.html', roomId: 'room-e2', text: "Hall E2" },
+        // { link: 'room_e1_e2.html', roomId: 'room-e1_e2', text: "Hall E" },
+        { link: 'room_m1.html', roomId: 'room-m1', text: "Hall M1" },
+        { link: 'room_m2.html', roomId: 'room-m2', text: "Hall M2" },
+      ];
+      break;
+    case "Monday":
+      roomData = [
+        { link: 'room_0_11_0_12.html', roomId: 'room-0_11_0_12', text: "Room 0.11 + 0.12" },
+        // { link: 'room_0_94_0_95.html', roomId: 'room-0_94_0_95', text: "Room 0.94 + 0.95" },
+        // { link: 'room_0_96_0_97.html', roomId: 'room-0_96_0_97', text: "Room 0.96 + 0.97" },
+        { link: 'room_1_14.html', roomId: 'room-1_14', text: "Room 1.14" },
+        { link: 'room_1_15_1_16.html', roomId: 'room-1_15_1_16', text: "Room 1.15 + 1.16" },
+        { link: 'room_1_32_1_33.html', roomId: 'room-1_32_1_33', text: "Room 1.32 + 1.33" },
+        { link: 'room_1_61_1_62.html', roomId: 'room-1_61_1_62', text: "Room 1.61 + 1.62" },
+        { link: 'room_1_85_1_86.html', roomId: 'room-1_85_1_86', text: "Room 1.85 + 1.86" },
+        // { link: 'room_e1.html', roomId: 'room-e1', text: "Hall E1" },
+        // { link: 'room_e2.html', roomId: 'room-e2', text: "Hall E2" },
+        // { link: 'room_e1_e2.html', roomId: 'room-e1_e2', text: "Hall E" },
+        { link: 'room_m1.html', roomId: 'room-m1', text: "Hall M1" },
+        { link: 'room_m2.html', roomId: 'room-m2', text: "Hall M2" },
+      ];
+      break;
+    case "Tuesday":
+      roomData = [
+        // { link: 'room_0_11_0_12.html', roomId: 'room-0_11_0_12', text: "Room 0.11 + 0.12" },
+        // { link: 'room_0_94_0_95.html', roomId: 'room-0_94_0_95', text: "Room 0.94 + 0.95" },
+        // { link: 'room_0_96_0_97.html', roomId: 'room-0_96_0_97', text: "Room 0.96 + 0.97" },
+        // { link: 'room_1_14.html', roomId: 'room-1_14', text: "Room 1.14" },
+        // { link: 'room_1_15_1_16.html', roomId: 'room-1_15_1_16', text: "Room 1.15 + 1.16" },
+        // { link: 'room_1_32_1_33.html', roomId: 'room-1_32_1_33', text: "Room 1.32 + 1.33" },
+        // { link: 'room_1_61_1_62.html', roomId: 'room-1_61_1_62', text: "Room 1.61 + 1.62" },
+        // { link: 'room_1_85_1_86.html', roomId: 'room-1_85_1_86', text: "Room 1.85 + 1.86" },
+        // { link: 'room_e1.html', roomId: 'room-e1', text: "Hall E1" },
+        // { link: 'room_e2.html', roomId: 'room-e2', text: "Hall E2" },
+        { link: 'room_e1_e2.html', roomId: 'room-e1_e2', text: "Hall E" },
+        // { link: 'room_m1.html', roomId: 'room-m1', text: "Hall M1" },
+        // { link: 'room_m2.html', roomId: 'room-m2', text: "Hall M2" },
+      ];
+      break;
+    case "Wednesday":
+      roomData = [
+        { link: 'room_0_11_0_12.html', roomId: 'room-0_11_0_12', text: "Room 0.11 + 0.12" },
+        { link: 'room_0_94_0_95.html', roomId: 'room-0_94_0_95', text: "Room 0.94 + 0.95" },
+        // { link: 'room_0_96_0_97.html', roomId: 'room-0_96_0_97', text: "Room 0.96 + 0.97" },
+        { link: 'room_1_14.html', roomId: 'room-1_14', text: "Room 1.14" },
+        // { link: 'room_1_15_1_16.html', roomId: 'room-1_15_1_16', text: "Room 1.15 + 1.16" },
+        // { link: 'room_1_32_1_33.html', roomId: 'room-1_32_1_33', text: "Room 1.32 + 1.33" },
+        // { link: 'room_1_61_1_62.html', roomId: 'room-1_61_1_62', text: "Room 1.61 + 1.62" },
+        // { link: 'room_1_85_1_86.html', roomId: 'room-1_85_1_86', text: "Room 1.85 + 1.86" },
+        { link: 'room_e1.html', roomId: 'room-e1', text: "Hall E1" },
+        { link: 'room_e2.html', roomId: 'room-e2', text: "Hall E2" },
+        // { link: 'room_e1_e2.html', roomId: 'room-e1_e2', text: "Hall E" },
+        { link: 'room_m1.html', roomId: 'room-m1', text: "Hall M1" },
+        { link: 'room_m2.html', roomId: 'room-m2', text: "Hall M2" },
+      ];
+      break;
+    case "Thursday":
+      roomData = [
+        { link: 'room_0_11_0_12.html', roomId: 'room-0_11_0_12', text: "Room 0.11 + 0.12" },
+        { link: 'room_0_94_0_95.html', roomId: 'room-0_94_0_95', text: "Room 0.94 + 0.95" },
+        // { link: 'room_0_96_0_97.html', roomId: 'room-0_96_0_97', text: "Room 0.96 + 0.97" },
+        { link: 'room_1_14.html', roomId: 'room-1_14', text: "Room 1.14" },
+        // { link: 'room_1_15_1_16.html', roomId: 'room-1_15_1_16', text: "Room 1.15 + 1.16" },
+        // { link: 'room_1_32_1_33.html', roomId: 'room-1_32_1_33', text: "Room 1.32 + 1.33" },
+        // { link: 'room_1_61_1_62.html', roomId: 'room-1_61_1_62', text: "Room 1.61 + 1.62" },
+        // { link: 'room_1_85_1_86.html', roomId: 'room-1_85_1_86', text: "Room 1.85 + 1.86" },
+        { link: 'room_e1.html', roomId: 'room-e1', text: "Hall E1" },
+        { link: 'room_e2.html', roomId: 'room-e2', text: "Hall E2" },
+        // { link: 'room_e1_e2.html', roomId: 'room-e1_e2', text: "Hall E" },
+        { link: 'room_m1.html', roomId: 'room-m1', text: "Hall M1" },
+        { link: 'room_m2.html', roomId: 'room-m2', text: "Hall M2" },
+      ];
+      break;
+    case "Friday":
+      roomData = [
+        { link: 'room_0_11_0_12.html', roomId: 'room-0_11_0_12', text: "Room 0.11 + 0.12" },
+        { link: 'room_0_94_0_95.html', roomId: 'room-0_94_0_95', text: "Room 0.94 + 0.95" },
+        { link: 'room_0_96_0_97.html', roomId: 'room-0_96_0_97', text: "Room 0.96 + 0.97" },
+        { link: 'room_1_14.html', roomId: 'room-1_14', text: "Room 1.14" },
+        // { link: 'room_1_15_1_16.html', roomId: 'room-1_15_1_16', text: "Room 1.15 + 1.16" },
+        // { link: 'room_1_32_1_33.html', roomId: 'room-1_32_1_33', text: "Room 1.32 + 1.33" },
+        // { link: 'room_1_61_1_62.html', roomId: 'room-1_61_1_62', text: "Room 1.61 + 1.62" },
+        // { link: 'room_1_85_1_86.html', roomId: 'room-1_85_1_86', text: "Room 1.85 + 1.86" },
+        // { link: 'room_e1.html', roomId: 'room-e1', text: "Hall E1" },
+        // { link: 'room_e2.html', roomId: 'room-e2', text: "Hall E2" },
+        { link: 'room_e1_e2.html', roomId: 'room-e1_e2', text: "Hall E" },
+        // { link: 'room_m1.html', roomId: 'room-m1', text: "Hall M1" },
+        // { link: 'room_m2.html', roomId: 'room-m2', text: "Hall M2" },
+      ];
+      break;
+  }
 
   populateHeader(calendarSelection, roomData);
 }
@@ -884,21 +934,26 @@ function populateHeader(calendarSelection, data, isDay) {
 
 function populateTimes(calendarSelection, config) {
   let timeData = [
-    ["8:30 AM CET", "time-0830"],
-    ["9:45 AM CET", "time-0945"],
-    // ["10:00 AM EDT", "time-1000"],
-    ["10:15 AM CET", "time-1015"],
-    ["11:30 AM CET", "time-1130"],
+    // ["8:30 AM CET", "time-0830"],
+    // ["9:45 AM CET", "time-0945"],
+    ["10:00 AM CET", "time-1000"],
+    ["10:30 AM CET", "time-1030"],
+    // ["11:30 AM CET", "time-1130"],
+    // ["11:45 AM CET", "time-1145"],
     ["12:00 PM CET", "time-1200"],
+    ["12:15 PM CET", "time-1215"],
     // ["12:30 PM EDT", "time-1230"],
     // ["12:45 PM EDT", "time-1245"],
-    ["1:15 PM CET", "time-1315"],
-    ["1:45 PM CET", "time-1345"],
+    ["1:30 PM CET", "time-1330"],
+    // ["1:45 PM CET", "time-1345"],
     // ["2:45 PM EDT", "time-1445"],
     ["3:00 PM CET", "time-1500"],
     // ["3:15 PM EDT", "time-1515"],
     // ["3:30 PM EDT", "time-1530"],
+    ["4:45 PM CET", "time-1645"],
     ["5:00 PM CET", "time-1700"],
+    ["6:00 PM CET", "time-1800"],
+    ["6:30 PM CET", "time-1830"],
   ];
 
   calendarSelection
