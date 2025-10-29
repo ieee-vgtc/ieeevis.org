@@ -936,26 +936,17 @@ function populateHeader(calendarSelection, data, isDay) {
 
 function populateTimes(calendarSelection, config) {
   let timeData = [
-    // ["8:30 AM CET", "time-0830"],
-    // ["9:45 AM CET", "time-0945"],
-    ["10:00 AM CET", "time-1000"],
-    ["10:30 AM CET", "time-1030"],
-    // ["11:30 AM CET", "time-1130"],
-    // ["11:45 AM CET", "time-1145"],
-    ["12:00 PM CET", "time-1200"],
-    ["12:15 PM CET", "time-1215"],
-    // ["12:30 PM EDT", "time-1230"],
-    // ["12:45 PM EDT", "time-1245"],
-    ["1:30 PM CET", "time-1330"],
-    // ["1:45 PM CET", "time-1345"],
-    // ["2:45 PM EDT", "time-1445"],
-    ["3:00 PM CET", "time-1500"],
-    // ["3:15 PM EDT", "time-1515"],
-    // ["3:30 PM EDT", "time-1530"],
-    ["4:45 PM CET", "time-1645"],
+    ["9:00 AM CET", "time-0900"],
+    ["9:30 AM CET", "time-0930"],
+    ["11:00 AM CET", "time-1100"],
+    ["11:15 AM CET", "time-1115"],
+    ["12:30 PM CET", "time-1230"],
+    ["2:00 PM CET", "time-1400"],
+    ["3:30 PM CET", "time-1530"],
+    ["3:45 PM CET", "time-1545"],
+    ["4:00 PM CET", "time-1600"],
     ["5:00 PM CET", "time-1700"],
     ["6:00 PM CET", "time-1800"],
-    ["6:30 PM CET", "time-1830"],
   ];
 
   calendarSelection
