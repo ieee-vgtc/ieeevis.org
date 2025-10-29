@@ -32,8 +32,10 @@ presented by **Fraunhofer**
 **Visualization for Ultrasound**: Challenges for Visualization solutions for Ultrasound data<br />
 presented by **Siemens Healthineers**
 
-**Vis and Data Enginnering**: Data Challenges before creating a Visualization<br />
-presented by **Observable**
+**Data-Portal and Dataset-Interface Design**: Visualization to meet a range of users' data-access needs<br />
+presented by **Global Energy Monitor and Observable**
+
+**LLM driven Visualization Creation**: Creating intelligent chart captions, data stories as powerpoints, and infographics with LLMs<br /> presented by **Adobe**
 
 
 #### Industry Meetup
