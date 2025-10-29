@@ -36,7 +36,9 @@ If so, please complete this online form, and we will include your posting on IEE
 
 [VIS Community Job Posting Form](https://forms.gle/g6sCRcsMkHNavktG9)
 
-Links to the Job Postings will be included on the IEEEVIS.org.
+Links to the Job Postings will be included [**here**](/year/2025/info/community/jobs).
+
+
 
 
 ### Contact
