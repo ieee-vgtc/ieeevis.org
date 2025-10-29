@@ -168,6 +168,12 @@ Coffee breaks are planned between the first/second and third/fourth block.
   * Viz for AI & AI for Viz *(Virtual Session)*
 * **Panel**
   * TALK, TRY, TELL: Challenges and Opportunities for Theory-Grounded Data Visualization in Extended Reality
+  
+  
+#### Lunch
+
+*1:00 PM - 2:00 PM (CET)*<br/>
+* **Townhall Meeting**
 
 #### Afternoon
 
