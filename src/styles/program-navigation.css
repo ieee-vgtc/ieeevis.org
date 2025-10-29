@@ -371,7 +371,7 @@ NOTE: the style classes below cause issues with bullet points for ul elements. T
 } */
 
 .program-menu a.program_menu_item {
-  color: white;
+  /* color: white; */
 }
 
 .login-button, .logout-button {
