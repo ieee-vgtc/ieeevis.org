@@ -18,95 +18,164 @@ To submit a posting, please use the form above. Postings will be updated every c
 
 Questions? Contact the Community Committee at community@ieeevis.org. 
 
-<!--# Job Postings
+# Job Postings
 
-## Academic
+## Student
 
-[**PostDoc in HCAI at the University of Zurich**](https://www.ifi.uzh.ch/en/ivda/open-positions.html)
+[**PhD in Visual Computing And Interactive Media at Texas A&M University**](https://pvfa.tamu.edu/academics/visualization-program/ph-d-in-visual-computing-and-interactive-media/)
 
-Location: University of Zurich, Zurich, Switzerland   
-Start date: 11/1/2024  
+Location: College Station, Texas, US
+Start date: 08/17/2026  
+Start time flexible? Yes  
+Contact: Wai Tong, wtong@tamu.edu
+
+[**MS in Visualization at Texas A&M University**](https://pvfa.tamu.edu/academics/visualization-program/master-of-science-in-visualization/)
+
+Location: College Station, Texas, US
+Start date: 08/17/2026  
+Start time flexible? Yes  
+Contact: Wai Tong, wtong@tamu.edu
+
+[**MSF in Visualization at Texas A&M University**](https://pvfa.tamu.edu/academics/visualization-program/master-of-fine-arts-in-visualization/)
+
+Location: College Station, Texas, US
+Start date: 08/17/2026  
+Start time flexible? Yes  
+Contact: Wai Tong, wtong@tamu.edu
+
+[**Phd Position in Graph Drawing, Network Visualization and Information Visualization at Technical University of Munich**](https://portal.mytum.de/jobs/wissenschaftler/NewsArticle_20250924_095417)
+
+Location: Heilbronn, Germany  
+Start date: 1/5/2026  
+Start time flexible? Yes  
+Contact: positions@algo.cit.tum.de
+
+[**Phd Position at Nanyang Technological University **](https://yong-wang.org/positions.html)
+
+Location: Singapore
+Start date: 8/15/2026  
+Start time flexible? Yes  
+Contact: Yong Wang, yong-wang@ntu.edu.sg
+
+[**2 PhD Positions: Visualization for a Digital Twin in Sustainable Farming at INRAE, Université Paris Saclay**](https://mia-ps.inrae.fr/node/900)
+
+Location: Palaiseau, Paris Region, France
+Start date: 1/5/2026  
+Start time flexible? Yes  
+Contact: Nadia Boukhelifa, nadia.boukhelifa@inrae.fr
+
+[**PhD Position (Visual Computing - Vis/CompVis/XAI) at New York University (NYU)**](https://docs.google.com/document/d/1950QPYmJhQFKzmiM_40xBbm30my8wWluVV4ltEfwPNU/edit?usp=sharing)
+
+Location: New York, New York, USA
+Start date: 9/1/2026  
+Start time flexible? Yes  
+Contact: Robert Krueger, rk4815@nyu.edu
+
+[**PhD Position at the University of Central Florida**](https://www.linkedin.com/posts/yu-fu-8371107a_recruiting-phd-students-for-fall-2026-activity-7386148006317760512-YtUM?utm_source=share&utm_medium=member_desktop&rcm=ACoAABC_AasBceopr8tTUulNmH42XqY76cVKayQ)
+
+Location: Orlando, Florida, U.S.A
+Start date: 8/8/2026  
+Start time flexible? Yes  
+Contact: Yu Fu, yu.fu@ucf.edu
+
+[**PhD Position at the University of Waterloo**](https://cs.uwaterloo.ca/future-graduate-students)
+
+Location: Waterloo, Ontario, Canada
+Start date: 9/1/2026  
 Start time flexible? No  
-Contact: Jürgen Bernard, bernard@ifi.uzh.ch
+Contact: Matthew Brehmer, mbrehmer@uwaterloo.ca
 
-[**PhD Position in Human-Centered AI**](https://www.ifi.uzh.ch/en/ivda/open-positions.html)
+[**MMath (~MSc) student at the University of Waterloo**](https://cs.uwaterloo.ca/future-graduate-students)
 
-Location: University of Zurich, Zurich, Switzerland   
-Start date: 11/1/2024  
+Location: Waterloo, Ontario, Canada
+Start date: 9/1/2026  
 Start time flexible? No  
-Contact: Jürgen Bernard, bernard@ifi.uzh.ch
+Contact: Matthew Brehmer, mbrehmer@uwaterloo.ca
 
+[**Ph.D. Students at the University of Arizona**](https://d-rep.org/#opportunities)
 
-[**Assistant or Associate Professor (HCI) in Division of Computer Science & Engineering**](https://lsu.wd1.myworkdayjobs.com/en-US/LSU/job/3325-Patrick-F-Taylor-Hall/Assistant-or-Associate-Professor--HCI-_R00098700) at Louisiana State University.
-
-Location: Baton Rouge, LA, USA   
-Start date: 8/15/2024    
-Start time flexible? Yes  
-Contact: csesearch@lsu.edu
-
-
-[**Data Science Institute Postdoctoral Scholar**](https://datascience.uchicago.edu/research/postdoctoral-programs/dsi-scholars/) at The University of Chicago.
-
-Location: Chicago, IL, USA  
-Start date: 9/29/2025 
-Start time flexible? Yes  
-Contact: Alex Kale, kalea@uchicago.edu
-
-
-[**Researcher /PhD or Post-doc / - Visual Analytics of Patient Data**](https://visva.cs.uni-koeln.de/projekte/risk-principe) at the University of Cologne.
-
-Location: Cologne, Germany  
-Start date: 2024-01-01  
-Start time flexible? Yes  
-Contact: Tatiana von Landesberger, tlandesb@uni-koeln.de
-
-
-[**Assistant Professor in Data Visualization and Analytics**](https://apply.interfolio.com/154361) at University of Washington Bothell.
-
-Location: Bothell, Washington, USA 
-Start date: 9/16/2025  
+Location: Tucson, AZ, USA
+Start date: 8/1/2026  
 Start time flexible? No  
-Contact: jferrare@uw.edu
+Contact: sandrabae@arizona.edu
 
+[**Doctoral Researcher in Visualization in Motion at Xi'an Jiaotong-Liverpool University**]
 
-[**RPhD in Visual Analytics for Explainable Visual Rehabilitation**](https://www.uu.nl/en/organisation/working-at-utrecht-university/jobs/phd-in-visual-analytics-for-explainable-visual-rehabilitation) at Utrecht University.
-
-Location: Utrecht, The Netherlands  
-Start date: 2/1/2025  
+Location: Suzhou, Jiangsu, China
+Start date: 3/31/2026  
 Start time flexible? Yes  
-Contact: Angelos Chatzimparmpas, a.chatzimparmpas@uu.nl 
+Contact: Lijie Yao, yaolijie0219@gmail.com
 
+[**Researcher Assistant at Xi'an Jiaotong-Liverpool University**]
 
-[**Postdoctoral Fellow in Generative AI for Visual Data Discovery in Biology and Medicine**](https://hidivelab.org/team/positions/postdoc-biomedical-data-viz/) at Harvard Medical School.
-
-Location: Boston, Massachusetts  
-Start date: 11/1/2024 
+Location: Suzhou, Jiangsu, China
+Start date: 11/1/2025  
 Start time flexible? Yes  
-Contact: nils@hms.harvard.edu  
+Contact: Lijie Yao, yaolijie0219@gmail.com
 
+[**MSc / PhD Student in 3D Visual Computing at KAUST**]
 
-[**PhD Student in Data Visualization and Visual Analytics (Biomedical and Geographical Applications)**](https://drive.google.com/file/d/1wupwUlqI3-eJGgXJD5EhCfxYkQHIx85s/view?usp=sharing) at New York University (NYU).
-
-Location: Brooklyn (New York), NY, USA  
-Start date: 1/20/2025  
+Location: KAUST
+Start date: 8/23/2026  
 Start time flexible? Yes  
-Contact: Robert Krueger, rk4815@nyu.edu  
+Contact: Ivan Viola, ivan.viola@kaust.edu.sa
 
+## Academy
 
-**Research Scientist - VIS with applications in smart manufacturing** at Roux Institute, Northeastern University.
+[**Postdoctoral Position (24 months) on Interactive Visualization and Decision Support for Sustainable Winemaking at INRAE, Université Paris Saclay**](https://mia-ps.inrae.fr/sites/default/files/2025-10/PostDoc-AD-Long_3.pdf)
 
-Location: Portland, Maine, USA  
-Start date: 9/1/2025  
+Location: Palaiseau, Paris Region, France
+Start date: 1/5/2026  
 Start time flexible? Yes  
-Contact: Melanie Tory, m.tory@northeastern.edu  
+Contact: Nadia Boukhelifa, nadia.boukhelifa@inrae.fr
 
+[**Assistant/Associate/Professor in The Kahlert School of Computing at the University of Utah**](https://utah.peopleadmin.com/postings/188625) 
 
-## Small Business
-
-
-[**Software Engineer**](https://www.visoar.net/job-openings.html) at ViSOAR LLC.
-
-Location: Salt Lake City, UT or fully remote  
-Start date: 1/1/2025  
+Location: Salt Lake City, UT
+Start date: 7/1/2026    
 Start time flexible? Yes  
-Contact amy@visus.net -->
+Contact: Paul Rosen, paul.rosen@utah.edu
+
+[**Visual Analytics Researcher for Climate Model Data at the University of Cologne, Germany**](https://visva.cs.uni-koeln.de/projekte/warmworld) 
+
+Location: Cologne, Germany
+Start date: 1/1/2026    
+Start time flexible? Yes  
+Contact: Prof. Tatiana von Landesberger, visva.kontakt@cs.uni-koeln.de
+
+[**Visual Analytics for Healthcare at the University of Cologne, Germany**](https://visva.cs.uni-koeln.de/en/projects/risk-principe) 
+
+Location: Cologne, Germany
+Start date: 1/1/2026    
+Start time flexible? Yes  
+Contact: Prof. Tatiana von Landesberger, visva.kontakt@cs.uni-koeln.de
+
+[**Postdocs (2 positions available) at the University of Arizona**](https://d-rep.org/#opportunities)
+
+Location: Tucson, AZ, USA
+Start date: 1/30/2026  
+Start time flexible? Yes  
+Contact: sandrabae@arizona.edu
+
+[**Postdoc Opportunity in Human-AI Collaboration and Visual Analytics at the University of Zurich**](https://www.ifi.uzh.ch/en/ivda/open-positions/postDocPersonalizedVA.html)
+
+Location: Zurich, Switzerland
+Start date: 12/1/2026  
+Start time flexible? Yes  
+Contact: Jürgen Bernard, juergen.bernard@uzh.ch
+
+[**Research Engineer in 3D Visual Computing at KAUST**]
+
+Location: KAUST
+Start date: 1/1/2026  
+Start time flexible? Yes  
+Contact: Ivan Viola, ivan.viola@kaust.edu.sa
+
+## Industry
+
+[**Senior Software Engineer at Databricks**](https://www.databricks.com/company/careers/engineering---pipeline/senior-software-engineer---fullstack-6544403002).
+
+Location: Seattle, WA
+Start date: 3/1/2026  
+Start time flexible? Yes  
+Contact Databricks, Contact Kanit (kanit.w at databricks)
