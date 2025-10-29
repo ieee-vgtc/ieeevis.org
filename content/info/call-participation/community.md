@@ -44,9 +44,10 @@ If so, please complete this online form, and we will include your posting on IEE
 
 Links to the Job Postings will be included on the IEEEVIS.org.
 
-<!-- [**Job Postings**]() -->
+[**Job Postings**](https://ieeevis.org/year/2025/info/jobs)
 
-<!-- ### <a name="ajf"></a>VIS Job Fair Meetup -->
+### <a name="ajf"></a>VIS Job Fair Meetup 
+This year, we will use Discord to support informal networking. Participants can use the platform to coordinate virtual or in-person discussions.
 <!-- **Wednesday, 19 October 2022, 15:45:00 CST in OK Station 2+3** -->
 <!-- **Thursday, 26 October 2023, 17:00:00 AEDT room 101/102** -->
 
