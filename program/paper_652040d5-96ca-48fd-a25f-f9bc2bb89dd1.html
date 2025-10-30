@@ -1,0 +1,130 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><link rel="shortcut icon" href="/static/2025/images/favicon.png" type="image/x-icon"><script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script><script src="https://cdn.auth0.com/js/auth0-spa-js/2.1/auth0-spa-js.production.js"></script><script>
+              const auth0_domain = "ieeevis.us.auth0.com";
+              const auth0_client_id = "oF5BXUklWOjSjUeg5Tzai2DysHITXYhT";
+            </script><script src="/static/2025/js/modules/auth0protect.js"></script><script src="https://cdn.jsdelivr.net/npm/d3@6/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.3/dist/handlebars.min.js" integrity="sha256-/PJBs6QWvXijOFIX04kZpLb6ZtSQckdOIavLWKKOgXU=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha256-WqU1JavFxSAMcLP2WIOI+GB2zWmShMI82mTpLDcqFUg=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/min/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/moment-timezone@0.5.28/builds/moment-timezone-with-data.min.js" integrity="sha256-IWYg4uIC8/erItNXYvLtyYHioRi2zT1TFva8qaAU/ww=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script><script src="https://cdn.jsdelivr.net/npm/tippy.js@6/dist/tippy-bundle.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script><script src="/static/2025/js/libs_ext/typeahead.bundle.js"></script><script src="/static/2025/js/data/persistor.js"></script><script src="/static/2025/js/data/api.js"></script><link rel="shortcut icon" href="/static/2025/images/favicon.png" type="image/x-icon"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY=" crossorigin="anonymous"><link href="/static/2025/css/Zilla.css" rel="stylesheet"><link href="/static/2025/css/Fira.css" rel="stylesheet"><link rel="stylesheet" href="/static/2025/css/main.css"><link rel="stylesheet" href="/static/2025/css/fa_solid.css"><link rel="stylesheet" href="/static/2025/css/lazy_load.css"><link rel="stylesheet" href="/static/2025/css/typeahead.css"><meta name="twitter:card" content="summary"><meta name="twitter:site" content="@ieeevis"><meta name="twitter:title" content="IEEE VIS 2025 - Paper: MAICO: A Visualization Design Study on AI-Assisted Music Composition"><meta name="twitter:description" content="We contribute a design study on using visual analytics for AI-assisted music composition. The main result is the interface MAICO (Music AI Co-creativity), which allows composers and other music creators to interactively generate, explore, select, edit, and compare samples from generative music models. MAICO is based on the idea of visual parameter space analysis and supports the simultaneous analysis of hundreds of short samples of symbolic music from multiple models, displaying them in different metric- and similarity-based layouts. We developed and evaluated MAICO together with a professional composer who actively used it for five months to create, among other things, a composition for the Biennale Arte 2024 in Venice, which was recorded by the Munich Symphonic Orchestra. We discuss our design choices and lessons learned from this endeavor to support Human-AI co-creativity with visual analytics."><meta name="twitter:image" content="https://cdn.tech.ieeevis.org/vis2025/v-invited/[TVCG 2024-08-0704.R1].png"><meta name="image" property="og:image" content="https://cdn.tech.ieeevis.org/vis2025/v-invited/[TVCG 2024-08-0704.R1].png"><meta name="description" property="og:description" content="We contribute a design study on using visual analytics for AI-assisted music composition. The main result is the interface MAICO (Music AI Co-creativity), which allows composers and other music creators to interactively generate, explore, select, edit, and compare samples from generative music models. MAICO is based on the idea of visual parameter space analysis and supports the simultaneous analysis of hundreds of short samples of symbolic music from multiple models, displaying them in different metric- and similarity-based layouts. We developed and evaluated MAICO together with a professional composer who actively used it for five months to create, among other things, a composition for the Biennale Arte 2024 in Venice, which was recorded by the Munich Symphonic Orchestra. We discuss our design choices and lessons learned from this endeavor to support Human-AI co-creativity with visual analytics."><meta name="title" property="og:title" content="Virtual IEEE VIS 2025 - Paper: MAICO: A Visualization Design Study on AI-Assisted Music Composition"><meta property="og:type" content="website"><title>IEEE VIS 2025 Content: MAICO: A Visualization Design Study on AI-Assisted Music Composition</title></head><body data-bs-spy="scroll" data-bs-target="#nav-scrollspy" style="display: none;"><div class="container mb-5"><div class="tabs"></div><div class="content"><div class="row mt-3"><div class="col-md-12"><nav class="nav-breadcrumb mb-3" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="event_v-full.html">VIS Full Papers</a></li><li class="breadcrumb-item"><a href="session_.html">Games, Sports, and Music</a></li><li class="breadcrumb-item active text-truncate" aria-current="page">MAICO: A Visualization Design Study on AI-Assisted Music Composition</li></ol></nav><h1 class="paper-title">MAICO: A Visualization Design Study on AI-Assisted Music Composition</h1><div class="checkbox-bookmark fas" style="font-size: 24pt;position: absolute; top:10px; right:20px;" data-tippy-content="(un-)bookmark this paper"> &#xf02e; </div><h4 class="paper-authors pb-2 mt-2"><span class="fas mr-1">&#xf183;</span> Simeon Rau - </h4><h4 class="paper-authors pb-2 mt-2"><span class="fas mr-1">&#xf183;</span> Frank Heyen - </h4><h4 class="paper-authors pb-2 mt-2"><span class="fas mr-1">&#xf183;</span> Benedikt Brachtel - </h4><h4 class="paper-authors pb-2 mt-2"><span class="fas mr-1">&#xf183;</span> Michael Sedlmair - </h4><div class="row my-3"><div class="col-md-8"><figure class="figure"><img class="figure-img img-fluid" src="https://cdn.tech.ieeevis.org/vis2025/v-invited/[TVCG 2024-08-0704.R1].png" alt="Image not found" aria-describedby="figure-caption"></figure></div></div><h5><span class="fas" title="The authors made this paper screen-reader accessible in the IEEE Digital Library.">&#xf29a;</span> Screen-reader Accessible PDF </h5><h5 class="paper-link pb-2"><a href="https://doi.org/10.1109/TVCG.2025.3539779" target="_blank"><span class="fas mr-1">&#xf15c;</span> DOI: 10.1109/TVCG.2025.3539779 </a></h5><h3 class="session-room mt-4"> Room: Hall M1 </h3></div></div><div class="row my-3"><div class="col-md-8"></div></div><div class="row my-3"><div class="col-md-8"><h5 class="paper-details-heading">Keywords</h5><p>Music, Artificial intelligence, Analytical models, Data visualization, Data models, Visual analytics, Aerospace electronics, Training, Generative AI, Computational modeling</p><h5 class="paper-details-heading">Abstract</h5><p>We contribute a design study on using visual analytics for AI-assisted music composition. The main result is the interface MAICO (Music AI Co-creativity), which allows composers and other music creators to interactively generate, explore, select, edit, and compare samples from generative music models. MAICO is based on the idea of visual parameter space analysis and supports the simultaneous analysis of hundreds of short samples of symbolic music from multiple models, displaying them in different metric- and similarity-based layouts. We developed and evaluated MAICO together with a professional composer who actively used it for five months to create, among other things, a composition for the Biennale Arte 2024 in Venice, which was recorded by the Munich Symphonic Orchestra. We discuss our design choices and lessons learned from this endeavor to support Human-AI co-creativity with visual analytics.</p></div></div><script lang="js">
+      const paperID = "652040d5-96ca-48fd-a25f-f9bc2bb89dd1"
+      $(document).ready(() => {
+        tippy('[data-tippy-content]');
+
+        const allBookmarks =
+          d3.selectAll('.checkbox-bookmark')
+            .on("click", function () {
+              const newValue = !d3.select(this).classed('selected');
+              API.markSet(API.storeIDs.bookmarked, paperID, newValue);
+              d3.select(this).classed('selected', newValue);
+            })
+        API.markGet(API.storeIDs.bookmarked, paperID).then(is_bookmarked => {
+          is_bookmarked = !!is_bookmarked;
+          allBookmarks.classed('selected', is_bookmarked);
+        })
+        API.markSet(API.storeIDs.visited, paperID, true);
+
+      })
+
+    </script><script src="/static/2025/js/views/timezone.js"></script></div></div><script type="text/javascript">
+      $(document).ready(function () {
+        if (location.hash !== "") {
+          $('a[href="' + location.hash + '"]').tab("show");
+        }
+
+        $("a[data-toggle='tab']").on("shown.bs.tab", function (e) {
+          var hash = $(e.target).attr("href");
+          if (hash.substr(0, 1) == "#") {
+            var position = $(window).scrollTop();
+            location.replace("#" + hash.substr(1));
+            $(window).scrollTop(position);
+          }
+        });
+
+        const current_tz = getTimezone();
+        $("#tzCurrent").html(moment().tz(current_tz).format("Z"));
+
+        function getTimezone() {
+          const urlTz = window.getUrlParameter && getUrlParameter('tz');
+          if (urlTz) return urlTz;
+
+          const storageTz = window.localStorage.getItem("tz")
+          if (storageTz) return storageTz;
+
+          return moment.tz.guess();
+        }
+
+        // find all parseable dates and localize them
+        function formatDate(element) {
+          const current_tz = getTimezone();
+          let atime = moment.utc(element.text()).clone().tz(current_tz)
+          console.log("current_tz is ", current_tz, " element.text() is ", element.text(), " and atime is ", atime)
+          element.html(atime.format("dddd, MMMM Do, YYYY"))
+        }
+
+        function formatDateTime(element) {
+          const current_tz = getTimezone();
+          let atime = moment.utc(element.text()).clone().tz(current_tz)
+          console.log("current_tz is ", current_tz, " element.text() is ", element.text(), " and atime is ", atime)
+          element.html(atime.format("dddd, MMMM Do, YYYY @ HH:mm"))
+        }
+
+        function formatTimeSpan(element, includeDate) {
+          const current_tz = getTimezone();
+          console.log("current_tz is ", current_tz)
+          // return '';
+          // let parts = element.text().split(/[(\s-\s)|]/);
+          let parts = element.text().split(" – ");
+          let start = parts[0] && parts[0].trim();
+          let end = parts[1] && parts[1].trim();
+
+          let starttime = moment.utc(start).clone().tz(current_tz)
+          let endtime = moment.utc(end).clone().tz(current_tz)
+
+          //if(starttime.diff(endtime, "days") <= 0) // Making difference between the "D" numbers because the diff function
+          // seems like not considering the timezone
+          if (starttime.format("D") == endtime.format("D")) {
+            element.html(starttime.format(
+              "dddd, MMM Do, YYYY @ HH:mm") + " &ndash; " + endtime.format(
+              "HH:mm"));
+          } else {
+            element.html(starttime.format(
+              "dddd, MMM Do @ HH:mm") + " &ndash; " + endtime.format(
+              "dddd, MMM Do @ HH:mm"))
+          }
+        }
+
+        function formatTime(element) {
+          const current_tz = getTimezone();
+          let atime = moment.utc(element.text()).clone().tz(current_tz);
+          element.html(atime.format("HH:mm"));
+        }
+
+        $(".format-just-date").each((_i, element) => {
+          formatDate($(element));
+        });
+
+        $(".format-date").each((_i, element) => {
+          formatDateTime($(element));
+        });
+
+        $(".format-date-span").each((_i, element) => {
+          formatTimeSpan($(element));
+        });
+
+        $(".format-date-span-short").each((_i, element) => {
+          formatTimeSpan($(element), false);
+        });
+
+        $(".format-date-span-full").each((_i, element) => {
+          formatTimeSpan($(element), true);
+        });
+
+        $(".format-time").each((_i, element) => {
+          formatTime($(element));
+        });
+
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+
+        
+        
+        
+      });
+    </script></body></html>

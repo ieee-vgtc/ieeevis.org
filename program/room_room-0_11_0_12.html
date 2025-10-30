@@ -1,0 +1,361 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><link rel="shortcut icon" href="/static/2025/images/favicon.png" type="image/x-icon"><script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script><script src="https://cdn.auth0.com/js/auth0-spa-js/2.1/auth0-spa-js.production.js"></script><script>
+              const auth0_domain = "ieeevis.us.auth0.com";
+              const auth0_client_id = "oF5BXUklWOjSjUeg5Tzai2DysHITXYhT";
+            </script><script src="/static/2025/js/modules/auth0protect.js"></script><script src="https://cdn.jsdelivr.net/npm/d3@6/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.3/dist/handlebars.min.js" integrity="sha256-/PJBs6QWvXijOFIX04kZpLb6ZtSQckdOIavLWKKOgXU=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha256-WqU1JavFxSAMcLP2WIOI+GB2zWmShMI82mTpLDcqFUg=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/min/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/moment-timezone@0.5.28/builds/moment-timezone-with-data.min.js" integrity="sha256-IWYg4uIC8/erItNXYvLtyYHioRi2zT1TFva8qaAU/ww=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script><script src="https://cdn.jsdelivr.net/npm/tippy.js@6/dist/tippy-bundle.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script><script src="/static/2025/js/libs_ext/typeahead.bundle.js"></script><script src="/static/2025/js/data/persistor.js"></script><script src="/static/2025/js/data/api.js"></script><link rel="shortcut icon" href="/static/2025/images/favicon.png" type="image/x-icon"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY=" crossorigin="anonymous"><link href="/static/2025/css/Zilla.css" rel="stylesheet"><link href="/static/2025/css/Fira.css" rel="stylesheet"><link rel="stylesheet" href="/static/2025/css/main.css"><link rel="stylesheet" href="/static/2025/css/fa_solid.css"><link rel="stylesheet" href="/static/2025/css/lazy_load.css"><link rel="stylesheet" href="/static/2025/css/typeahead.css"><meta name="twitter:card" content="summary"><meta name="twitter:site" content="@ieeevis"><meta name="twitter:title" content="IEEE VIS 2025 - Conference on Visualization."><meta name="twitter:description" content="VIS 2025 will be the year’s premier forum for advances in theory, methods, and applications of visualization and visual analytics. The conference will convene an international community of researchers and practitioners from universities, government, and industry to exchange recent findings on the design and use of visualization tools."><meta name="twitter:image" content="https://ieeevis.b-cdn.net/vis_2021/vis_preview.png"><meta name="image" property="og:image" content="https://ieeevis.b-cdn.net/vis_2021/vis_preview.png"><meta name="description" property="og:description" content="VIS 2025 will be the year’s premier forum for advances in theory, methods, and applications of visualization and visual analytics. The conference will convene an international community of researchers and practitioners from universities, government, and industry to exchange recent findings on the design and use of visualization tools."><meta name="title" property="og:title" content="Virtual IEEE VIS 2025 - Conference on Visualization."><meta property="og:type" content="website"><title>IEEE VIS 2025 Content: Conference room - Room 0.11 + 0.12</title></head><body data-bs-spy="scroll" data-bs-target="#nav-scrollspy" style="display: none;"><div class="container mb-5"><div class="tabs"></div><div class="content"><div class="row mt-3"><div class="col-md-8"><nav class="nav-breadcrumb mb-3" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="calendar.html">Conference rooms</a></li><li class="breadcrumb-item active">Room 0.11 + 0.12</li></ol></nav><h1 class="session-title">Room 0.11 + 0.12</h1></div></div><div class="row mt-5"><div class="col-lg-10 streaming-container" id="session-stream-container"></div></div><hr><script src="/static/2025/js/views/timezone.js"></script></div></div><script type="text/javascript">
+      $(document).ready(function () {
+        if (location.hash !== "") {
+          $('a[href="' + location.hash + '"]').tab("show");
+        }
+
+        $("a[data-toggle='tab']").on("shown.bs.tab", function (e) {
+          var hash = $(e.target).attr("href");
+          if (hash.substr(0, 1) == "#") {
+            var position = $(window).scrollTop();
+            location.replace("#" + hash.substr(1));
+            $(window).scrollTop(position);
+          }
+        });
+
+        const current_tz = getTimezone();
+        $("#tzCurrent").html(moment().tz(current_tz).format("Z"));
+
+        function getTimezone() {
+          const urlTz = window.getUrlParameter && getUrlParameter('tz');
+          if (urlTz) return urlTz;
+
+          const storageTz = window.localStorage.getItem("tz")
+          if (storageTz) return storageTz;
+
+          return moment.tz.guess();
+        }
+
+        // find all parseable dates and localize them
+        function formatDate(element) {
+          const current_tz = getTimezone();
+          let atime = moment.utc(element.text()).clone().tz(current_tz)
+          console.log("current_tz is ", current_tz, " element.text() is ", element.text(), " and atime is ", atime)
+          element.html(atime.format("dddd, MMMM Do, YYYY"))
+        }
+
+        function formatDateTime(element) {
+          const current_tz = getTimezone();
+          let atime = moment.utc(element.text()).clone().tz(current_tz)
+          console.log("current_tz is ", current_tz, " element.text() is ", element.text(), " and atime is ", atime)
+          element.html(atime.format("dddd, MMMM Do, YYYY @ HH:mm"))
+        }
+
+        function formatTimeSpan(element, includeDate) {
+          const current_tz = getTimezone();
+          console.log("current_tz is ", current_tz)
+          // return '';
+          // let parts = element.text().split(/[(\s-\s)|]/);
+          let parts = element.text().split(" – ");
+          let start = parts[0] && parts[0].trim();
+          let end = parts[1] && parts[1].trim();
+
+          let starttime = moment.utc(start).clone().tz(current_tz)
+          let endtime = moment.utc(end).clone().tz(current_tz)
+
+          //if(starttime.diff(endtime, "days") <= 0) // Making difference between the "D" numbers because the diff function
+          // seems like not considering the timezone
+          if (starttime.format("D") == endtime.format("D")) {
+            element.html(starttime.format(
+              "dddd, MMM Do, YYYY @ HH:mm") + " &ndash; " + endtime.format(
+              "HH:mm"));
+          } else {
+            element.html(starttime.format(
+              "dddd, MMM Do @ HH:mm") + " &ndash; " + endtime.format(
+              "dddd, MMM Do @ HH:mm"))
+          }
+        }
+
+        function formatTime(element) {
+          const current_tz = getTimezone();
+          let atime = moment.utc(element.text()).clone().tz(current_tz);
+          element.html(atime.format("HH:mm"));
+        }
+
+        $(".format-just-date").each((_i, element) => {
+          formatDate($(element));
+        });
+
+        $(".format-date").each((_i, element) => {
+          formatDateTime($(element));
+        });
+
+        $(".format-date-span").each((_i, element) => {
+          formatTimeSpan($(element));
+        });
+
+        $(".format-date-span-short").each((_i, element) => {
+          formatTimeSpan($(element), false);
+        });
+
+        $(".format-date-span-full").each((_i, element) => {
+          formatTimeSpan($(element), true);
+        });
+
+        $(".format-time").each((_i, element) => {
+          formatTime($(element));
+        });
+
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+
+        
+        
+        
+      });
+    </script><script>
+
+let CURRENT_YOUTUBE_ID = "";
+let CURRENT_SLIDO_LINK = "";
+let CURRENT_DISCORD_LINK = "";
+let CURRENT_ZOOM_LINK = "";
+
+$(document).ready(function() {
+    setInterval(filterByCurrentSession, 30 * 1000);
+    filterByCurrentSession();
+
+    // updateStreamSource();
+})
+
+function updateStreamSource(){    
+    let streaming_id = "room-0_11_0_12"+moment.utc().format('ddd');
+    console.log(streaming_id)
+    //console.log("https://virtual-data.ieeevis.org/"+streaming_id+".json")
+    return fetch("https://virtual-data.ieeevis.org/"+streaming_id+".json", {cache: "no-store"})
+        .then(response => response.json())
+        .then(data => {
+            console.log(data)
+            console.log('youtube_url: ' + data.youtube_url + ' slido ' + data.slido_link + ' discord ' + data.discord_link)
+            return data;
+
+        })
+        .catch(error => {
+            console.log("err: ", error);
+            return {};
+        })
+}
+
+function filterByCurrentSession() {
+    // This function does two things.
+    // First, it loads the youtube stream, slido, and discord.  To do this, it looks for the 
+    // current or next session in this room, and loads the youtube stream.  It also checks
+    // the S3 room data to see if there is a more current URL for them.  
+
+    // Then, it also filters out the Session info at the bottom of the page to show the 
+    // Current session, and the upcoming session.
+
+    // We need to write the session timings into the page to calculate current/next session.
+    // See blueprint_2025.py
+    sessionTimings = []
+    if (sessionTimings.length > 0) {
+        sessionTimings.sort(function(a, b) {
+            return moment.utc(a.startTime) - moment.utc(b.startTime);
+        });
+    }
+    console.log("sesssionTimings is ", sessionTimings)
+    sessionIsCurrent = function(session) {
+        // We take a 15 minute grace period to the start of a session; allow for 8 minutes after
+        const sessionStart = moment.utc(session['startTime']).tz(current_timezone).subtract(15, 'minutes');
+        const sessionEnd = moment.utc(session['endTime']).tz(current_timezone).add(8, 'minutes');
+        return moment.utc().tz(current_timezone).isBetween(sessionStart, sessionEnd);
+    }
+
+    sessionIsFuture = function(session) {
+        const sessionStart = moment.utc(session['startTime']).tz(current_timezone);
+        const sessionEnd = moment.utc(session['endTime']).tz(current_timezone);
+        return moment.utc().tz(current_timezone).isBefore(sessionStart);
+    }
+
+    sessionIsRecent = function(session) {
+        const sessionStart = moment.utc(session['startTime']).tz(current_timezone);
+        const sessionEnd = moment.utc(session['endTime']).tz(current_timezone).add(2, 'hours');
+        return moment.utc().tz(current_timezone).isBetween(sessionStart, sessionEnd);
+    }
+
+    let currentSession = sessionTimings.find(sessionIsCurrent);
+    let recentSession = sessionTimings.find(sessionIsRecent);
+    let nextSession = sessionTimings.find(sessionIsFuture);
+    console.log("currentSession is ", currentSession);
+    console.log("recentSession is ", recentSession);
+    console.log("nextSession is ", nextSession);
+
+    const classesToHide = ['.room_session_descriptor', '.room_session_timeslot', '.room_session_future_stream']
+    classesToHide.forEach((c) => { $(c).hide();});
+    let iframePlayer = document.getElementById('iframe-player');
+    let slidoPlayer = document.getElementById('slido-player')
+    let linksCollection = document.getElementById('links-collection')
+    if (currentSession || nextSession) {
+        let youtube_id = "";
+        let slido_link = "";
+        let discord_link = "";
+        let zoom_private_link = "";
+        let new_youtube_id = "";
+        let new_slido_link = "";
+        let new_discord_link = "";
+        let new_zoom_private_link = "";
+
+        if (currentSession) {
+            currentSessionId = currentSession.id;
+            $('#room_session_descriptor_current_' + currentSessionId).show();
+            $('#room_session_timeslot_' + currentSessionId).show();
+             youtube_id = currentSession.youtube_id;
+             slido_link = currentSession.slido_link;
+             discord_link = currentSession.discord_link;
+             zoom_private_link = currentSession.zoom_private_link;
+        } else {
+             youtube_id = nextSession.youtube_id;
+             slido_link = nextSession.slido_link;
+             discord_link = nextSession.discord_link;
+             zoom_private_link = nextSession.zoom_private_link;
+        }
+        $('.room_session_stream').show();
+        let playbackContainer = null;
+
+        if (CURRENT_YOUTUBE_ID.length == 0) {
+            CURRENT_YOUTUBE_ID = youtube_id;
+        }
+
+        if (CURRENT_SLIDO_LINK.length == 0) {
+            CURRENT_SLIDO_LINK = slido_link;
+        }
+
+        if (CURRENT_DISCORD_LINK.length == 0) {
+            CURRENT_DISCORD_LINK = discord_link;
+        }
+
+        if (CURRENT_ZOOM_LINK.length == 0) {
+            CURRENT_ZOOM_LINK = zoom_private_link;
+        }
+
+        // TODO - error handling
+        // This is where we would interface with vis-virtual-data
+        // updateStreamSource().then(streamData => {
+        //     if ('youtube_id' in streamData) {
+        //         new_youtube_id = streamData['youtube_id'];
+        //     } else {
+        //         new_youtube_id = youtube_id;
+        //     }
+
+        //     if ('slido_link' in streamData) {
+        //         new_slido_link = streamData['slido_link'];
+        //     } else {
+        //         new_slido_link = slido_link;
+        //     }
+
+        //     if ('discord_link' in streamData) {
+        //         new_discord_link = streamData['discord_link'];
+        //     } else {
+        //         new_discord_link = discord_link;
+        //     }
+        // instead, we will just assign to the new one
+        new_youtube_id = youtube_id;
+        new_slido_link = slido_link;
+        new_discord_link = discord_link;
+        new_zoom_private_link = zoom_private_link;
+            console.log("new_youtube_id is ", new_youtube_id, " and CURRENT_YOUTUBE_ID is ", CURRENT_YOUTUBE_ID);
+            if ((new_youtube_id.length > 0 && new_youtube_id != CURRENT_YOUTUBE_ID) || (new_slido_link.length > 0 && new_slido_link != CURRENT_SLIDO_LINK) || (new_discord_link.length > 0 && new_discord_link != CURRENT_DISCORD_LINK)) {
+                youtube_id = new_youtube_id;
+                CURRENT_YOUTUBE_ID = new_youtube_id;
+                slido_link = new_slido_link;
+                CURRENT_SLIDO_LINK = new_slido_link;
+                discord_link = new_discord_link;
+                CURRENT_DISCORD_LINK = new_discord_link;
+                zoom_private_link = new_zoom_private_link;
+                CURRENT_ZOOM_LINK = new_zoom_private_link;
+                // We remove the different players because something changed.
+                if (iframePlayer) {
+                    iframePlayer.remove();
+                    iframePlayer = null;
+                }
+
+                if (slidoPlayer) {
+                    slidoPlayer.remove();
+                    slidoPlayer = null;
+                }
+
+                if (linksCollection) {
+                    linksCollection.remove();
+                    linksCollection = null;
+                }
+
+            }
+
+            // Need to render the iframe if it isn't rendered yet
+            if (!iframePlayer) {
+                iframePlayer = document.createElement("iframe");
+                iframePlayer.id = 'iframe-player';
+                iframePlayer.src = `https://www.youtube-nocookie.com/embed/${youtube_id}?rel=0&enablejsapi=1`;
+                iframePlayer.allow = "accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen";
+                iframePlayer.allowfullscreen = true ;
+                iframePlayer.scrolling = "no";
+                playbackContainer = document.getElementById("session-stream-container");
+                playbackContainer.append(iframePlayer);
+            }
+
+            // <!-- <iframe src="https://app.sli.do/event/eventhash" height="100%" width="100%" style="min-height: 360px;"></iframe> -->
+            // Need to render the slido if it isn't rendered yet
+            if (!slidoPlayer) {
+                playbackContainer = document.getElementById("session-stream-container");
+
+                zoomMsg = document.createElement("div");
+                zoomMsg.id = 'zoom-msg';
+                zoomMsg.innerHTML = `<a href="${zoom_private_link}">Is the YouTube quality poor? You can join the Zoom directly by clicking here.</a>`;
+                playbackContainer.append(zoomMsg);
+
+                slidoPlayer = document.createElement("iframe");
+                slidoPlayer.id = 'slido-player';
+                slidoPlayer.src = slido_link;
+                slidoPlayer.height = '100%';
+                slidoPlayer.width = '100%';
+                slidoPlayer.style = 'min-height: 560px';
+                playbackContainer.append(slidoPlayer);
+            }
+
+            // Need to render the slido if it isn't rendered yet
+            if (!linksCollection) {
+                linksCollection = document.createElement("div");
+                linksCollection.id = 'links-collection';
+                linksCollection.innerHTML = `<p class='integration-description pt-2'><a href='${ slido_link }' target='_blank'> <span class='fas mx-1'>&#xf128;</span>Click here to open slido in a separate window</a></p><p class='integration-description pt-2'><a href='${ discord_link }' target='_blank'><span class='fas mx-1'>&#xf086;</span>Click here to discuss the current session in Discord.  Please note that session chairs will not pick up questions from Discord for Q&A</a></p>`
+                linksCollection.frameBorder = 0;
+                linksCollection.allow = "accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+                linksCollection.allowfullscreen = true ;
+                linksCollection.scrolling = "no";
+                playbackContainer = document.getElementById("session-stream-container");
+                playbackContainer.append(linksCollection);
+            }
+
+        // });
+
+    } else if (!recentSession) {
+        // Need to destroy the iframe if it is rendered
+        $(".room_session_stream").hide();
+        if (iframePlayer) {
+            iframePlayer.remove();
+        }
+
+        if (slidoPlayer) {
+            slidoPlayer.remove();
+        }
+
+        if (linksCollection) {
+            linksCollection.remove();
+        }
+    }
+
+    if (nextSession) {
+        nextSessionId = nextSession.id;
+        $('#room_session_descriptor_next_' + nextSessionId).show();
+        $('#room_session_timeslot_' + nextSessionId).show();
+        $('.room_session_future_stream').show();
+
+        const nextSessionStart = moment.utc(nextSession.startTime).tz(current_timezone);
+        $('#next-session-time').text(nextSessionStart.fromNow());
+    }
+
+}
+
+</script></body></html>

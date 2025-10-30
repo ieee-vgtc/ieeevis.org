@@ -28,7 +28,7 @@ Stef van den Elzen, Danny Holten, Jorik Blaas, Jarke J. van Wijk
 
 ## 2014
 
-### 11-Years InfoVis Test-of-Time Award
+### 11-Years SciVis Test-of-Time Award
 Peter Lindstrom
 **Fixed-Rate Compressed Floating-Point Arrays**
 (Awarded at: VIS 2025)

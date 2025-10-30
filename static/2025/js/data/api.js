@@ -80,7 +80,7 @@ class API {
   static thumbnailPath(paperOrPoster, forceImage=true) {
     if (!forceImage && !paperOrPoster.has_image)
       return "https://ieeevis.b-cdn.net/vis_2025/paper_images_small/blank.png";
-    return `https://ieeevis.b-cdn.net/vis_2025/paper_images_small/${paperOrPoster.id}_Image.png`;
+    return `https://cdn.tech.ieeevis.org/vis2025/v-${paperOrPoster.paper_type}/${paperOrPoster.program_paper_id}_thumb.png`;
   }
 
   /**
