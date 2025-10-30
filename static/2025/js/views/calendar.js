@@ -254,11 +254,11 @@ function updateKey() {
   const itemMapping = {
     vis: "Conference",
     paper: "Papers",
-    associated: "Associated Events / Symposium",
+    associated: "Challenges",
     workshop: "Workshop",
     application: "Application Spotlights",
     panel: "Tutorial / Panel / Meetup",
-    virtual: "Virtual"
+    // virtual: "Virtual"
   };
 
   $.get("serve_config.json").then((config) => {

@@ -465,35 +465,33 @@ const buildSessionFilter = (session_name) => {
 // language=HTML
 const card_poster_html = (poster) =>
   `
-        <div class="pp-card pp-mode-${render_mode} " style="width: 100%">
-            <div class="pp-card-header" style="">
-              <div class="checkbox-bookmark fas  ${poster.bookmarked ? "selected" : ""}"
-              style="display: block;position: absolute; top:-5px;right: 25px;">&#xf02e;</div>
-              <h5 class="card-title">
-                ${poster.award != "" ? '<span class="fas paper-award">&#xf559;</span>' : ""}
-                <a href="${API.posterLink(poster)}" target="_blank" class="text-muted">
-                  ${poster.title}
-                </a>
-              </h5>
-              <h6 class="card-subtitle text-muted" style="text-align: left;">
-                ${author_detail(poster, render_mode !== MODE.mini)}
-              </h6>
+<div class="pp-card pp-mode-${render_mode} " style="width: 100%">
+    <div class="pp-card-header" style="">
+      <div class="checkbox-bookmark fas  ${poster.bookmarked ? "selected" : ""}"
+      style="display: block;position: absolute; top:-5px;right: 25px;">&#xf02e;</div>
+      <h5 class="card-title">
+        ${poster.award != "" ? '<span class="fas paper-award">&#xf559;</span>' : ""}
+        <a href="${API.posterLink(poster)}" target="_blank" class="text-muted">
+          ${poster.title}
+        </a>
+      </h5>
+      <h6 class="card-subtitle text-muted" style="text-align: left;">
+        ${author_detail(poster, render_mode !== MODE.mini)}
+      </h6>
 
-              <div class="card-subtitle text-muted mt-2" style="text-align: left;">
-                Session:
-                ${poster.sessions.map(
-    s => `<a class="has_tippy" href=${buildSessionFilter(s)} data-tippy-content="filter all posters in session:">${s}</a>`)
-    .join(",")}
-              </div>
-
-              <div>${card_image(poster, render_mode !== MODE.mini)}</div>
-              <div class="card-footer">&nbsp</div>
-            </div>
-
-
-                ${card_detail(poster, render_mode === MODE.detail)}
-        </div>`;
+      <div>${card_image(poster, render_mode !== MODE.mini)}</div>
+      <div class="card-footer">&nbsp</div>
+    </div>
+        ${card_detail(poster, render_mode === MODE.detail)}
+</div>`;
 
 // <div class="card-subtitle text-muted mt-2" style="text-align: left;">
 //        Time: ${formatTime(paper.time_stamp)}
 // </div>
+
+    //           <div class="card-subtitle text-muted mt-2" style="text-align: left;">
+    //             Session:
+    //             ${poster.sessions.map(
+    // s => `<a class="has_tippy" href=${buildSessionFilter(s)} data-tippy-content="filter all posters in session:">${s}</a>`)
+    // .join(",")}
+    //           </div>
