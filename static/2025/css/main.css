@@ -905,3 +905,14 @@ div.session-url {
 .sponsor-bronze {
   border-color: #b67649
 }
+
+footer.footer .bg-primary {
+  background-color: rgba(218,23,28,var(--bg-opacity)) !important;
+}
+
+.login-button {
+  color: white;
+}
+.logout-button {
+  color: white;
+}

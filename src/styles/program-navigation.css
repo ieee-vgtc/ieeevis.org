@@ -359,21 +359,23 @@ NOTE: the style classes below cause issues with bullet points for ul elements. T
     display: none !important;
 } */
 
+.content #nav-tabContent ul.nav.nav-pills li::before {
+    display: none;
+}
+
 .hide-auth-controls {
     display: none !important;
 }
 
 /* Calendar */
 
-/* .tzOptions {
+.tzOptions {
     position: relative !important;
     vertical-align: baseline !important;
-} */
-
-.program-menu a.program_menu_item {
-  /* color: white; */
 }
 
-.login-button, .logout-button {
-  color: white;
+@screen md {
+    .program-menu a.program_menu_item {
+        color: white;
+    }
 }
