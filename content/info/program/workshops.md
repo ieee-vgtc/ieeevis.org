@@ -3,7 +3,10 @@ title: Workshops
 layout: page
 permalink: /year/2025/info/program/workshops
 contact: workshops@ieeevis.org
+sidebar: program
+active_nav: "Program"
 ---
+
 ## Accepted Workshops
 The following workshops went through our [submission/review process](https://ieeevis.org/year/2025/info/call-participation/workshops). 
 

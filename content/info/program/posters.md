@@ -1,9 +1,10 @@
 ---
 title: Posters
 layout: page
-active_nav: "Program"
 permalink: /year/2025/info/program/posters
-contact: "posters@ieeevis.org"
+contact: posters@ieeevis.org
+sidebar: program
+active_nav: "Program"
 ---
 
 This is the list of accepted posters for VIS 2025.

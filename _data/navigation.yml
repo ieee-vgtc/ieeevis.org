@@ -245,6 +245,10 @@ menu:
                     description: "Learn new tools and application domains"
                     url: "/year/2025/info/program/tutorials"
                     is_new: false
+                  - text: "Meetups"
+                    description: "Meet for discussions and shared experiences"
+                    url: "/year/2025/info/program/meetups"
+                    is_new: false
           - heading: "Plenary Sessions"
             heading_url: "/year/2025/info/plenary/summary"
             columns:
@@ -252,7 +256,7 @@ menu:
                 - text: "Vis Townhall"
                   url: "/year/2025/info/plenary/townhall"
                   description: "Engage with the VIS community, internal and external"
-                  is_new: true
+                  is_new: false
       - subsections:
           - heading: "Invited Speakers"
             heading_url: "/year/2025/info/invited-speakers/summary"
@@ -299,10 +303,10 @@ menu:
                     description: "Austria Center Vienna"
                     url: "/year/2025/info/social-events/conference-dinner"
                     is_new: false
-#                  - text: "VISAP Exhibition"
-#                    description: "University of Applied Arts"
-#                    url: "/year/2025/info/social-events/visap-exhibition"
-#                    is_new: false
+                  - text: "VISAP Exhibition"
+                    description: "University of Applied Arts"
+                    url: "/year/2025/info/social-events/visap-exhibition"
+                    is_new: false
                   - text: "OC Dinner"
                     description: "Melker Stiftskeller"
                     url: "/year/2025/info/social-events/oc-dinner"
@@ -432,24 +436,6 @@ menu:
                   url: "https://www.viscomm.io/"
                   is_external: true
                   is_new: false
-      #    - heading: "Meetups"
-      #      heading_url: "/year/2025/info/meetups"
-      #      description: "Meet for discussion and shared experiences"
-      #      columns:
-      #        - links:
-      #          - text: "VisLies!"
-      #            description: "A showcase of egregious errors in visualization"
-      #            url: "http://vislies.org"
-      #            is_external: true
-      #          - text: "Velo Club de VIS"
-      #            description: "Meet and mingle with other bicycle riders"
-      #            url: "/year/2025/info/meetups#vis-velo"
-      #          - text: "Vis4Good"
-      #            description: "Visualization for Good"
-      #            url: "/year/2025/info/meetups#vis4good"
-      #          - text: "Reproducibility Stamp Initiative"
-      #            description: "A Reproducibility Stamp Initiative for Visualization"
-      #            url: "/year/2025/info/meetups#reproducibility"
       - subsections:
           - heading: "Community"
             heading_url: "/year/2025/info/community/community"

@@ -1,8 +1,10 @@
 ---
 title: Panels
 layout: page
-active_nav: "Program"
 permalink: /year/2025/info/program/panels
+contact: program@ieeevis.org
+sidebar: program
+active_nav: "Program"
 ---
 
 <!-- -------------------  -->

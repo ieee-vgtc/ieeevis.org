@@ -1,9 +1,10 @@
 ---
 title: Week at a Glance
 layout: page
-active_nav: "Program"
 permalink: /year/2025/info/program/week-at-a-glance
 contact: program@ieeevis.org
+sidebar: program
+active_nav: "Program"
 ---
 
 Below is a concise overview of the conference program.

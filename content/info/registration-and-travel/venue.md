@@ -24,10 +24,8 @@ The Austria Center Vienna offers 21 halls, 134 meeting rooms, 5 exhibition halls
 
 The Austria Center Vienna (ACV) can be easily reached by public transport:
 * **On Foot**: There are hotels nearby if you would like to stay close to the convention center.
-* **Public Transport**: The convention center is located next to the **U1** subway station "Kaisermühlen - Vienna International Center". Please note: The "Vienna International Center" is not the venue; it is the headquarters of the United Nations, right next to it.
+* **Public Transport**: The convention center is located next to the **U1** subway station "Kaisermühlen - Vienna International Center" (5min on foot). Please note: The "Vienna International Center" is not the venue; it is the headquarters of the United Nations, right next to it.
 * **Vienna Airport Lines**: The ACV is directly connected to the line VAL 3 of the [Vienna Aiport Lines](https://www.viennaairportlines.at/){:target= "_blank"}.
-* **Onsite Car Parking**: If driving to the convention center, parking is available but needs to be paid extra.
-* **Taxi and Rideshare**: Taxi and rideshares are generally available.
 
 
 ### Remarks for access from the subway station
