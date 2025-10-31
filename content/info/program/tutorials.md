@@ -3,6 +3,8 @@ title: Tutorials
 layout: page
 permalink: /year/2025/info/program/tutorials
 contact: panels_tutorials@ieeevis.org
+sidebar: program
+active_nav: "Program"
 ---
 
 ## Accepted Tutorials

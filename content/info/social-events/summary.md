@@ -30,6 +30,13 @@ The conference dinner will take place after the poster session at the **Austrian
 **When: Wednesday (Nov 5), 6:00pm - 9:00pm (CET), Level 0**
 
 
+### Vis Arts Exhibition
+
+The Vis Arts reception and exhibition will take place at the **University of Applied Arts Vienna**.
+
+**When: Thursday (Nov 6), 6:00pm - 9:00pm (CET)**
+
+
 ### OC Dinner
 
 The OC dinner is a special event for the conference organizers. **Participation is by invitation only.**
