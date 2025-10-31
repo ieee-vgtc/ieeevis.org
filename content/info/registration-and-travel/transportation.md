@@ -8,6 +8,7 @@ contact: general_chair@ieeevis.org
 
 Visitors in Vienna can use the city's well-developed public transportation system.
 The *Wiener Linien* network covers around 1,150 kilometers of subway, tram, and bus lines.
+The convention center is located next to the **U1** subway station “Kaisermühlen – Vienna International Center” and can be reached from the city center by public transport in 15 minutes.
 
 ## Getting Around
 
