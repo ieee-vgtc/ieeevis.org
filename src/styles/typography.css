@@ -100,7 +100,8 @@ p {
 
 
 .content ol, .content ul {
-    @apply mb-4 ml-8;
+    @apply mb-4;
+    max-width: 100%
 }
 
 .content li {
