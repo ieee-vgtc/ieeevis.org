@@ -168,15 +168,6 @@ The Poster Chairs would like to thank the Best Poster Committee for their work a
 <!-- ---------------------------------------------------------------------------------- -->
 ### Best Poster
 
-**Artistic Inspiration for Uncertainty Visualization Techniques**<br />
-by Michelle A. Borkin
-
-This work presents 56 hand-drawn and painted reproductions of existing uncertainty visualizations, accompanied by reflection and analysis. The collection shows the role of aesthetics, visual perception principles, and artistic techniques, such as fuzziness and transparency in painting uncertainty visualization, while also pointing to avenues for new encoding techniques. It brings a refreshing and inspirational artistic perspective to uncertainty visualization, one that could be extended to other visualization contexts. The idea is a natural fit for a poster, making it both unique and highly suitable for this award. Its clear structure, simplicity, and visual richness render it especially effective in sparking discussion.
-
-
-<!-- ---------------------------------------------------------------------------------- -->
-### Best Poster Honorable Mention
-
 **Designing a Glyph-Based Hierarchical Visualization for Orders of Magnitude Values**<br />
 by Katerina Batziakoudi, Ambre Assor, Christophe Bortolaso, & Jean-Daniel Fekete
 
