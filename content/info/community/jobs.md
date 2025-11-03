@@ -101,28 +101,28 @@ Start date: 8/1/2026
 Start time flexible? No  
 Contact: sandrabae@arizona.edu
 
-[**Doctoral Researcher in Visualization in Motion at Xi'an Jiaotong-Liverpool University**]
+**Doctoral Researcher in Visualization in Motion at Xi'an Jiaotong-Liverpool University**
 
 Location: Suzhou, Jiangsu, China
 Start date: 3/31/2026  
 Start time flexible? Yes  
 Contact: Lijie Yao, yaolijie0219@gmail.com
 
-[**Researcher Assistant at Xi'an Jiaotong-Liverpool University**]
+**Researcher Assistant at Xi'an Jiaotong-Liverpool University**
 
 Location: Suzhou, Jiangsu, China
 Start date: 11/1/2025  
 Start time flexible? Yes  
 Contact: Lijie Yao, yaolijie0219@gmail.com
 
-[**MSc / PhD Student in 3D Visual Computing at KAUST**]
+**MSc / PhD Student in 3D Visual Computing at KAUST**
 
 Location: KAUST
 Start date: 8/23/2026  
 Start time flexible? Yes  
 Contact: Ivan Viola, ivan.viola@kaust.edu.sa
 
-[**PhD position in data physicalization (3 years) at TU Wien**]
+**PhD position in data physicalization (3 years) at TU Wien**
 
 Location: Vienna, Austria
 Start date: 1/5/2026  
@@ -174,14 +174,14 @@ Start date: 12/1/2026
 Start time flexible? Yes  
 Contact: Jürgen Bernard, juergen.bernard@uzh.ch
 
-[**Research Engineer in 3D Visual Computing at KAUST**]
+**Research Engineer in 3D Visual Computing at KAUST**
 
 Location: KAUST
 Start date: 1/1/2026  
 Start time flexible? Yes  
 Contact: Ivan Viola, ivan.viola@kaust.edu.sa
 
-[**Assistant Professor (Up to Two Positions) at the University of British Columbia**](https://www.ifi.uzh.ch/en/ivda/open-positions/postDocPersonalizedVA.html](https://www.cs.ubc.ca/our-department/employment/two-faculty-positions-computer-science)
+[**Assistant Professor (Up to Two Positions) at the University of British Columbia**](https://www.cs.ubc.ca/our-department/employment/two-faculty-positions-computer-science)
 
 Location: Vancouver BC Canada
 Start date: 7/1/2026  
