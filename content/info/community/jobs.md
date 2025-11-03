@@ -52,7 +52,7 @@ Start date: 1/5/2026
 Start time flexible? Yes  
 Contact: positions@algo.cit.tum.de
 
-[**Phd Position at Nanyang Technological University **](https://yong-wang.org/positions.html)
+[**Phd Position at Nanyang Technological University**](https://yong-wang.org/positions.html)
 
 Location: Singapore
 Start date: 8/15/2026  
@@ -122,6 +122,14 @@ Start date: 8/23/2026
 Start time flexible? Yes  
 Contact: Ivan Viola, ivan.viola@kaust.edu.sa
 
+[**PhD position in data physicalization (3 years) at TU Wien**]
+
+Location: Vienna, Austria
+Start date: 1/5/2026  
+Start time flexible? No 
+Contact:rraidou@gmail.com
+
+
 ## Academy
 
 [**Postdoctoral Position (24 months) on Interactive Visualization and Decision Support for Sustainable Winemaking at INRAE, Université Paris Saclay**](https://mia-ps.inrae.fr/sites/default/files/2025-10/PostDoc-AD-Long_3.pdf)
@@ -172,6 +180,21 @@ Location: KAUST
 Start date: 1/1/2026  
 Start time flexible? Yes  
 Contact: Ivan Viola, ivan.viola@kaust.edu.sa
+
+[**Assistant Professor (Up to Two Positions) at the University of British Columbia**](https://www.ifi.uzh.ch/en/ivda/open-positions/postDocPersonalizedVA.html](https://www.cs.ubc.ca/our-department/employment/two-faculty-positions-computer-science)
+
+Location: Vancouver BC Canada
+Start date: 7/1/2026  
+Start time flexible? No  
+Contact: Tamara Munzner, tamara.munzner@gmail.com
+
+[**Associate Professor at Linköping University**](https://liu.se/en/research/media-and-information-technology-mit/associate-professor-visual-media-design)
+
+Location: Norrköping, Sweden
+Start date: 7/31/2026  
+Start time flexible? Yes 
+Contact: Miriah Meyer, miriah.meyer@liu.se
+
 
 ## Industry
 
