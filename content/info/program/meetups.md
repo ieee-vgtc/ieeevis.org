@@ -17,6 +17,7 @@ Here is the list of the accepted meetups.
 * [VISability Meetup: Disabled and Accessibility Researchers at VIS](#visability)
 * [Visualization Authoring as Sensemaking Strategy](#sensemaking)
 * [Q&A with Senior Visualization Researchers on Career Directions and Funding Resources](#seniors)
+* [VIS 2026 OC Kickoff Meeting](#2026ockickoff)
 * [Meetup: Velo Club de Vis](#velo)
 * [Inclusive Future Generation - AI & Visualization Skills](#inclusive)
 * [VIS meets Robust Statistics](#statistics)
@@ -62,6 +63,9 @@ Here is the list of the accepted meetups.
 
 **When: Thursday (Nov 6), 11:15 am - 12:30 pm (CET), room 0.96+0.97**
 
+## <a name="2026ockickoff"></a> VIS 2026 OC Kickoff Meeting
+
+**When: Thursday (Nov 6), 1:00pm - 2:00pm (CET), room Hall E1**
 
 ## <a name="velo"></a> Meetup: Velo Club de Vis
 
