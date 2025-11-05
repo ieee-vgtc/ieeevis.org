@@ -28,9 +28,11 @@ Here is the list of the accepted meetups.
 
 **When: Wednesday (Nov 5), 2:00 pm - 3:00 pm (CET), room 0.31** 
 
-## <a name="rainbow"></a> Rainbow Meetup
 
-**When: Wednesday (Nov 5), 9:00 am - 11:00 am (CET), room 0.96+0.97** 
+## <a name="rainbow"></a> Rainbow Meetup: LGBTQ+ folks at VIS!
+
+**When: Wednesday (Nov 5), 10:00 am - 11:00 am (CET), room 0.96+0.97** <br>
+Description: LGBTQ+ folks and allies at VIS, please join us at our inaugural Rainbow Meetup!
 
 
 ## <a name="viz4climate"></a> viz4climate Meetup: Visualization Challenges & Opportunities Related to Climate Change
@@ -40,8 +42,8 @@ Here is the list of the accepted meetups.
 
 ## <a name="brunch"></a> VIS Brunch
 
-**When: Wednesday (Nov 5), 12:30 pm - 12:45 pm (CET), room Business Lounge**
-**Note that VIS Brunch will only meet up in the shared Business Lounge and then will be heading out for lunch elsewhere.**
+**When: Wednesday (Nov 5), 12:30 pm - 12:45 pm (CET), room Business Lounge** <br>
+Note that VIS Brunch will only meet up in the shared Business Lounge and then will be heading out for lunch elsewhere.
 
 
 ## <a name="visgap"></a> VisGap - The Gap between Vis Research and Vis Software: Insight or Outreach?
