@@ -25,6 +25,10 @@ for i in `find _site/year/{2016,2017,2018,2019,2020,2021,2022,2023,2024,2025} _s
             fi
         fi
     fi
+
+    if [[ $i == *"/info/program/posters.html" ]]; then
+        mv $i `echo $i | sed s/.html$//`;
+    fi
 done
 
 # overload governance with 2025 style
