@@ -143,34 +143,32 @@ function updateSessionStatus(onFirstLoad) {
 
     // Update youtube link for older sessions
     // EDIT - We don't need this when the conference isn't live
-    if(sessionIsPast){
-        const roomidjson = "1_61_1_62-"+moment(startTime).format('ddd').toLowerCase()+".json"
-        // console.log("this session was in:" , roomidjson)
+    // if(sessionIsPast){
+    //     const roomidjson = "1_61_1_62-"+moment(startTime).format('ddd').toLowerCase()+".json"
+    //     // console.log("this session was in:" , roomidjson)
 
-        return fetch("https://virtual-data.ieeevis.org/"+roomidjson, {cache: "no-store"})
-        .then(response => response.json())
-        .then(data => {
-            //console.log(data)
-            // console.log('youtube_url: ' + data.youtube_url)
-            //$("ytold").attr("href",data.youtube_url)
+    //     return fetch("https://virtual-data.ieeevis.org/"+roomidjson, {cache: "no-store"})
+    //     .then(response => response.json())
+    //     .then(data => {
+    //         //console.log(data)
+    //         // console.log('youtube_url: ' + data.youtube_url)
+    //         //$("ytold").attr("href",data.youtube_url)
 
-            // clear link element to avoid multiple appends
-            document.getElementById("ytold").innerHTML = '';
+    //         // clear link element to avoid multiple appends
+    //         document.getElementById("ytold").innerHTML = '';
 
-            var a = document.createElement('a'); 
-            var link = document.createTextNode(data.youtube_url);  
-            a.appendChild(link); 
-            a.title = "YouTube Link"; 
-            a.href = data.youtube_url; 
+    //         var a = document.createElement('a'); 
+    //         var link = document.createTextNode(data.youtube_url);  
+    //         a.appendChild(link); 
+    //         a.title = "YouTube Link"; 
+    //         a.href = data.youtube_url; 
             
-            document.getElementById("ytold").appendChild(a);
-        })
-        .catch(error => {
-            console.log("err: ", error);
-        })
-    }
-    
-
+    //         document.getElementById("ytold").appendChild(a);
+    //     })
+    //     .catch(error => {
+    //         console.log("err: ", error);
+    //     })
+    // }
 }
 
 </script></body></html>
