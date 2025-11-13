@@ -179,7 +179,7 @@ by Kirsten W.H. Maas, Danny Ruijters, Anna Vilanova, & Nicola Pezzotti
 **Stylizing Sparse-View 3D Scenes with Hierarchical Neural Representation [TVCG]**<br />
 by Yifan Wang, Ang Gao, Yi Gong, & Yuan Zeng
 
-**Distributed Neural Representation for Reactive In Situ Visualization [TVCG]**<br />
+**Distributed Neural Representation for Reactive In Situ Visualization [TVCG + Virtual Talk]**<br />
 by Qi Wu, Joseph A. Insley, Victor A. Mateevitsi, Silvio Rizzi, Michael E. Papka, & Kwan-Liu Ma
 
 
@@ -781,14 +781,15 @@ by Thomas Daniel, Malgorzata Olejniczak, & Julien Tierny
 **GALE: Leveraging Heterogeneous Systems for Efficient Unstructured Mesh Data Analysis**<br />
 by Guoxi Liu, Thomas Randall, Rong Ge, & Federico Iuricich
 
-**VizGenie: Toward Self-Refining, Domain-Aware Workflows for Next-Generation Scientific Visualization**<br />
-by Ayan Biswas, Terece Turton, Nishath Ranasinghe, Shawn Jones, Bradley Love, William Jones, Aric Hagberg, Han-Wei Shen, Nathan Debardeleben, & Earl Lawrence
-
 **FlowForge: Guiding the Creation of Multi-agent Workflows with Interactive Visualizations as a Thinking Scaffold**<br />
 by Pan Hao, Dongyeop Kang, Nicholas Hinds, & Qianwen Wang
 
 **Flexible and Probabilistic Topology Tracking with Partial Optimal Transport**<br />
 by Mingzhe Li, Xinyuan Yan, Lin Yan, Tom Needham, & Bei Wang
+
+**VizGenie: Toward Self-Refining, Domain-Aware Workflows for Next-Generation Scientific Visualization [Virtual Talk]**<br />
+by Ayan Biswas, Terece Turton, Nishath Ranasinghe, Shawn Jones, Bradley Love, William Jones, Aric Hagberg, Han-Wei Shen, Nathan Debardeleben, & Earl Lawrence
+
 
 
 #### Transportation, Buildings, and Urban Vis [Full Papers]
