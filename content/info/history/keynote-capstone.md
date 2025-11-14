@@ -10,7 +10,6 @@ This page lists the keynote and capstone speakers at VIS in previous years.
 
 | Year |                                        Keynote                                         |                      Capstone                      |
 |------|:--------------------------------------------------------------------------------------:|:--------------------------------------------------:|
-| 2025 |                                  Hans-Christian Hege                                   |                   Theo Deutinger                   |
 | 2024 |                                       Bill Pike                                        |                Catherine D'Ignazio                 |
 | 2023 |                             Drew Berry and Anders Ynnerman                             |                    Matt Duckham                    |
 | 2022 |                                      Marti Hearst                                      |                   Kerry Magruder                   |
