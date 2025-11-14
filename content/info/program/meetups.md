@@ -9,59 +9,76 @@ active_nav: "Program"
 
 ## Accepted Meetups
 Here is the list of the accepted meetups.
+* [TopoInVis Steering Committee Meeting](#topo)
 * [Rainbow Meetup](#rainbow)
+* [VIS Brunch](#brunch)
 * [viz4climate Meetup: Visualization Challenges & Opportunities Related to Climate Change](#viz4climate)
 * [VisGap - The Gap between Vis Research and Vis Software: Insight or Outreach?](#visgap)
-* [Using LLNL’s Open-Source Tools for Your Visualization Needs](#llnl)
 * [VISability Meetup: Disabled and Accessibility Researchers at VIS](#visability)
 * [Visualization Authoring as Sensemaking Strategy](#sensemaking)
-* [Meetup: Velo Club de Vis](#velo)
 * [Q&A with Senior Visualization Researchers on Career Directions and Funding Resources](#seniors)
+* [VIS 2026 OC Kickoff Meeting](#2026ockickoff)
+* [Meetup: Velo Club de Vis](#velo)
+* [Inclusive Future Generation - AI & Visualization Skills](#inclusive)
 * [VIS meets Robust Statistics](#statistics)
 
 <hr/>
 
-## <a name="rainbow"></a> Rainbow Meetup
+## <a name="topo"></a> TopoInVis Steering Committee Meeting
 
-**When: Wednesday (Nov 5), 9:00am - 11:00am (CET), room 0.96+0.97** 
+**When: Wednesday (Nov 5), 2:00 pm - 3:00 pm (CET), room 0.31** 
+
+
+## <a name="rainbow"></a> Rainbow Meetup: LGBTQ+ folks at VIS!
+
+**When: Wednesday (Nov 5), 10:00 am - 11:00 am (CET), room 0.96+0.97** <br>
+Description: LGBTQ+ folks and allies at VIS, please join us at our inaugural Rainbow Meetup!
 
 
 ## <a name="viz4climate"></a> viz4climate Meetup: Visualization Challenges & Opportunities Related to Climate Change
 
-**When: Wednesday (Nov 5), 12:00pm - 1:30pm (CET), room 0.96+0.97**
+**When: Wednesday (Nov 5), 12:30 pm - 1:30 pm (CET), room 0.96+0.97**
+
+
+## <a name="brunch"></a> VIS Brunch
+
+**When: Wednesday (Nov 5), 12:30 pm - 12:45 pm (CET), room Business Lounge** <br>
+Note that VIS Brunch will only meet up in the shared Business Lounge and then will be heading out for lunch elsewhere.
 
 
 ## <a name="visgap"></a> VisGap - The Gap between Vis Research and Vis Software: Insight or Outreach?
 
-**When: Wednesday (Nov 5), 1:30pm - 2:30pm (CET), room 0.96+0.97**
+**When: Wednesday (Nov 5), 1:30 pm - 2:30 pm (CET), room 0.96+0.97**
 
 
 ## <a name="visability"></a> VISability Meetup: Disabled and Accessibility Researchers at VIS
 
-**When: Wednesday (Nov 5), 1:30pm - 3:30pm (CET), room 0.49**
-
-
-## <a name="llnl"></a> Using LLNL’s Open-Source Tools for Your Visualization Needs
-
-**When: Wednesday (Nov 5), 3:30pm - 4:30pm (CET), room 0.96+0.97**
+**When: Wednesday (Nov 5), 1:30 pm - 3:15 pm (CET), room 0.49**
 
 
 ## <a name="sensemaking"></a> Visualization Authoring as Sensemaking Strategy
 
-**When: Thursday (Nov 6), 9:00am - 10:00am (CET), room 0.49**
+**When: Thursday (Nov 6), 9:15 am - 10:15am (CET), room 0.49**
 
+
+## <a name="seniors"></a> Q&A with Senior Visualization Researchers on Career Directions and Funding Resources
+
+**When: Thursday (Nov 6), 11:15 am - 12:30 pm (CET), room 0.96+0.97**
+
+## <a name="2026ockickoff"></a> VIS 2026 OC Kickoff Meeting
+
+**When: Thursday (Nov 6), 1:00pm - 2:00pm (CET), room Hall E1**
 
 ## <a name="velo"></a> Meetup: Velo Club de Vis
 
 **When: Thursday (Nov 6), 1:00pm - 2:00pm (CET), room 0.96+0.97**
 
 
-## <a name="seniors"></a> Q&A with Senior Visualization Researchers on Career Directions and Funding Resources
+## <a name="inclusive"></a> Inclusive Future Generation - AI & Visualization Skills
 
-**When: Thursday (Nov 6), 3:30pm - 5:00pm (CET), room 0.96+0.97**
-**When: Friday (Nov 7), 9:00am - 10:30am (CET), room 0.31**
+**When: Thursday (Nov 6), 3:45pm - 5:00pm (CET), room 0.96+0.97**
 
 
 ## <a name="statistics"></a> VIS meets Robust Statistics
 
-**When: Thursday (Nov 6), 3:30pm - 5:00pm (CET), room 0.49**
+**When: Thursday (Nov 6), 3:45pm - 5:00pm (CET), room 0.49**

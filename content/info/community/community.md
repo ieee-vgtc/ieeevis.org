@@ -38,6 +38,9 @@ If so, please complete this online form, and we will include your posting on IEE
 
 Links to the Job Postings will be included [**here**](/year/2025/info/community/jobs).
 
+### <a name="ajf"></a>VIS Job Fair Meetup 
+This year, we will use Discord to support informal networking. Participants can use the platform to coordinate virtual or in-person discussions.
+
 
 
 

@@ -8,7 +8,7 @@ const auth0_domain = 'ieeevis.us.auth0.com'
 const auth0_client_id = 'oF5BXUklWOjSjUeg5Tzai2DysHITXYhT'
 
 const updateUI = async (auth0, query) => {
-  const is_auth = await auth0.isAuthenticated();
+  const is_auth = true // await auth0.isAuthenticated(); //we are turning off authentication
   //console.log("are we auth?", is_auth)
   if (is_auth) {
     document.body.style.display = null;
@@ -82,7 +82,7 @@ const authenticate = () => {
     clientId: auth0_client_id,
     cacheLocation: "localstorage"
   }).then(async (auth0Client) => {
-    const isAuthenticated = await auth0Client.isAuthenticated();
+    const isAuthenticated = true //await auth0Client.isAuthenticated(); //we are turning off authentication
     const query = window.location.search;
 
     if (isAuthenticated) {

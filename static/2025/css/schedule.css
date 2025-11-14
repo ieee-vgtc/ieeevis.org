@@ -20,7 +20,7 @@
     [time-1200] 1fr 
     [time-1215] 1fr 
     [time-1230] 1fr 
-    [time-1245] 1fr 
+    [time-1245 time-1240] 1fr 
     [time-1300] 1fr 
     [time-1315 time-1317 time-1320] 1fr 
     [time-1330 time-1320 time-1317] 1fr 
@@ -40,7 +40,8 @@
     [time-1700] 2fr
     [time-1730] 2fr
     [time-1800] 2fr
-    [time-1830];
+    [time-1830] 2fr
+    [time-1900];
   grid-template-columns: [times] 5em [day-1-start] 1fr [day-1-end day-2-start] 1fr [day-2-end day-3-start] 1fr [day-3-end day-4-start] 1fr [day-4-end day-5-start] 1fr [day-5-end day-6-start] 1fr [day-6-end timezones] 5em [timezones-end]
 }
 
@@ -112,7 +113,8 @@
   [room-e1-end room-e2-start] 1fr 
   [room-e2-end room-m1-start] 1fr 
   [room-m1-end room-m2-start] 1fr 
-  [room-m2-end timezones-start] 5em 
+  [room-m2-end room-UAAV-start] 1fr 
+  [room-UAAV-end timezones-start] 5em 
   [timezones-end]
 }
 

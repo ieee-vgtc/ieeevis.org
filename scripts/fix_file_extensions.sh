@@ -7,16 +7,18 @@ cp -r _site/year/2025/static/* _site/static/
 rm -rf _site/year/2025/year
 rm -rf _site/year/2025/static
 
+# loop through all the site years
 for i in `find _site/year/{2016,2017,2018,2019,2020,2021,2022,2023,2024,2025} _site/governance -name "*.html"`; do
+    # ignore the generated pages from the content site
     if [[ $i != *"/papers.html" ]]; then
         if [[ $i != *"program/paper_"* ]]; then
-            if [[ $i != *"/posters.html" ]]; then
+            if [[ $i != *"/program/posters.html" ]]; then
                 if [[ $i != *"program/event_"* ]]; then
                     if [[ $i != *"program/session_"* ]]; then
                         if [[ $i != *"program/poster_"* ]]; then
                             if [[ $i != *"/events.html" ]]; then
                                 if [[ $i != *"program/room_"* ]]; then
-                                    mv $i `echo $i | sed s/.html$//`;
+                                    mv $i `echo $i | sed s/.html$//`; # remove the HTML extension
                                 fi
                             fi
                         fi
@@ -24,6 +26,11 @@ for i in `find _site/year/{2016,2017,2018,2019,2020,2021,2022,2023,2024,2025} _s
                 fi
             fi
         fi
+    fi
+
+    # we need to manually remove the file extension for this page
+    if [[ $i == *"/info/program/posters.html" ]]; then
+        mv $i `echo $i | sed s/.html$//`; # remove the HTML extension
     fi
 done
 

@@ -242,6 +242,11 @@ Coffee breaks are planned between the first/second and third/fourth block.
 * **Panel**
     * Industry Meets Research: Future Needs and Opportunities for Visual Analytics in Industrial Manufacturing
 
+#### Lunch
+
+*1:00 PM - 2:00 PM (CET)*<br/>
+* **VIS 2026 OC Kickoff Meeting (OC Only)**
+
 #### Afternoon
 
 *2:00 PM - 3:15 PM (CET)*<br/>
