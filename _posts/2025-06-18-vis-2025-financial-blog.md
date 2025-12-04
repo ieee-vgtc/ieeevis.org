@@ -5,7 +5,7 @@ layout: blog-page
 active_nav: Blog
 authors: VGTC/VEC
 author_contact: vec@ieeevis.org
-permalink: /blog/vis-2025-financial-blog-for-vis2022
+permalink: /blog/vis-2026-financial-blog-for-vis2022
 ---
 
 VIS 2022 was the 26th year of VIS, but in many ways it was a year of firsts: the first in-person meeting post-pandemic and the first hybrid VIS. Throw in the uncertainty of a change in both venue and organizational team leading to shortened planning time plus a dash of global uncertainty, and you have a wonderful blend of chaos and excitement.

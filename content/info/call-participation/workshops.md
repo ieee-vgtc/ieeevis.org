@@ -1,7 +1,7 @@
 ---
 title: Workshops - Call For Participation
 layout: page
-permalink: /year/2025/info/call-participation/workshops
+permalink: /year/2026/info/call-participation/workshops
 active_nav: "Contribute"
 sidebar: submit-your-work
 contact: workshops@ieeevis.org
@@ -11,9 +11,9 @@ We solicit workshops related to all areas of visualization. They provide a forum
 
 ## Important Dates
 
-* Proposal Submission               **Friday, April 4, 2025**
-* Notification                      **Friday April 18, 2025**
-* Final Submission of Summaries	    **Thursday August 1, 2025**
+* Proposal Submission               **Friday, April 4, 2026**
+* Notification                      **Friday April 18, 2026**
+* Final Submission of Summaries	    **Thursday August 1, 2026**
 
 All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth)**.
 
@@ -56,7 +56,7 @@ Workshop proposals should include:
 
 * the number of poster slots requested, if the workshop intends to feature posters, and
 
-* the proposed dates for the call for participation, author notification, and camera-ready deadlines (author notification must be prior to the early registration deadline for IEEE VIS; for inclusion of materials on IEEE Xplore and/or the downloadable proceedings, the camera-ready deadline must be prior to **August 19, 2025**).
+* the proposed dates for the call for participation, author notification, and camera-ready deadlines (author notification must be prior to the early registration deadline for IEEE VIS; for inclusion of materials on IEEE Xplore and/or the downloadable proceedings, the camera-ready deadline must be prior to **August 19, 2026**).
 
 Because the number of workshop time slots is limited, half-day event proposals are **strongly encouraged**. However, well-justified full-day proposals will also be considered. Full-day proposals may optionally state what changes would be implemented to allow the schedule to fit within a half day.
 
@@ -139,7 +139,7 @@ The workshop organizers will receive the following support from the VIS conferen
 * room and AV support suitable for around 100 attendees,
 * food and beverages for attendees: coffee breaks throughout the day, space in the poster display area, if requested (from limited pool set aside for standard workshops; available space depends on the specifics of the venue; early requests given priority over late requests),
 * PCS (Precision Conference Solutions) support for managing submissions and the review process,
-* inclusion of the workshop materials or proceedings in the downloadable conference proceedings for dissemination to attendees of the conference and/or in IEEE Xplore, if requested (materials must be provided by August 19, 2025),
+* inclusion of the workshop materials or proceedings in the downloadable conference proceedings for dissemination to attendees of the conference and/or in IEEE Xplore, if requested (materials must be provided by August 19, 2026),
 * IEEE Xplore Digital Library publication of the workshop proceedings, if requested (considered archival).
 
 Please check the conference website for upcoming information concerning available funds for special purposes, such as supporting diversity. If the requirements of the workshop exceed this default support, the workshop organizers are expected to coordinate with the workshop chairs and possibly raise funds to support the workshop activities. Fundraising plans must be discussed with the workshop and supporters chairs prior to contacting any potential funder. For more information, see the guidelines for [Financial and Coordination Policies for IEEE VIS](http://ieeevis.org/governance/coordination).

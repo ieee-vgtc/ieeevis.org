@@ -1,12 +1,12 @@
 ---
 layout: page
 title: "Keynote by Hans-Christian Hege"
-permalink: /year/2025/info/invited-speakers/keynote-speaker
+permalink: /year/2026/info/invited-speakers/keynote-speaker
 contact: info@ieeevis.org
 active_nav: "Program"
 ---
 
-The VIS 2025 keynote talk will be given by **Hans-Christian Hege**.
+The VIS 2026 keynote talk will be given by **Hans-Christian Hege**.
 
 Hans-Christian studied physics and mathematics at the University of Berlin.
 He was then employed as a research associate at the Institute for the Theory of Elementary Particles at the same university, working in the field of quantum field theory.

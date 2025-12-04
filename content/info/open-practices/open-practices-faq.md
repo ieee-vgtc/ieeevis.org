@@ -1,7 +1,7 @@
 ---
 title: Open Access Preprint Guide and FAQ
 layout: page
-permalink: /year/2025/info/open-practices/open-practices-faq
+permalink: /year/2026/info/open-practices/open-practices-faq
 active_nav: "Contribute"
 sidebar: call-for-participation
 contact: open_practices@ieeevis.org

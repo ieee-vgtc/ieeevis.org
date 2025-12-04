@@ -1,13 +1,13 @@
 ---
 title: IEEE Vis Townhall
 layout: page
-permalink: /year/2025/info/plenary/townhall
+permalink: /year/2026/info/plenary/townhall
 contact: vec@ieeevis.org
 ---
 
 As part of IEEE VIS's ongoing efforts to engage with our community, the IEEE VIS governance bodies are seeking feedback from the VIS community!
 
-### VIS 2025 Townhall Meeting
+### VIS 2026 Townhall Meeting
 
 Join us at the **Townhall Meeting** and learn more about what the IEEE VIS governing bodies took on as priorities for VIS 2026.
 Suggest priorities for the IEEE VIS governing bodies to address as we move towards VIS 2026.

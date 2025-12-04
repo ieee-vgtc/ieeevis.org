@@ -1,7 +1,7 @@
 ---
 title: Community
 layout: page
-permalink: /year/2025/info/call-participation/community
+permalink: /year/2026/info/call-participation/community
 active_nav: "Events & Community"
 sidebar: submit-your-work
 contact: community@ieeevis.org
@@ -43,7 +43,7 @@ Links to the Job Postings will be included on the IEEEVIS.org.
 
 
 ### Contact
-For more information, contact IEEE VIS 2025 Community Chairs:
+For more information, contact IEEE VIS 2026 Community Chairs:
 
 * Georgia Panagiotidou, *King’s College London*
 * Isaac Cho, 	*Utah State University*

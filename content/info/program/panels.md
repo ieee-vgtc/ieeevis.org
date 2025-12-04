@@ -1,7 +1,7 @@
 ---
 title: Panels
 layout: page
-permalink: /year/2025/info/program/panels
+permalink: /year/2026/info/program/panels
 contact: program@ieeevis.org
 sidebar: program
 active_nav: "Program"
@@ -10,7 +10,7 @@ active_nav: "Program"
 <!-- -------------------  -->
 ## VisAble: Who do we exclude by current visualization practices and how do we change that?
 
-**When**: Wednesday, November 5, 2025 9:30am - 10:45am (CET)
+**When**: Wednesday, November 5, 2026 9:30am - 10:45am (CET)
 
 **Organized by**: Nina Doerr, Sita Vriend, Katrin Angerbauer, Miriah Meyer, and Michael Sedlmair
 
@@ -22,7 +22,7 @@ Visualization research is based on the premise of facilitating and fostering the
 <!-- -------------------  -->
 ## TALK, TRY, TELL: Challenges and Opportunities for Theory-Grounded Data Visualization in Extended Reality
 
-**When**: Wednesday, November 5, 2025 11:15am - 12:30pm (CET)
+**When**: Wednesday, November 5, 2026 11:15am - 12:30pm (CET)
 
 **Organized by**: Andreas Bueckle, Christiane Hütter, Sebastian Pirch, Felix Müller, Philipp Friedrich, Martin Chiettini, Jörg Menche, and Katy Börner
 
@@ -33,13 +33,13 @@ Numerous formalizations have emerged for creating, interpreting, and teaching da
 Following the presentations, attendees will engage with two virtual reality (VR) demonstration applications built on different engines and hardware to exemplify approaches in immersive analytics: biomedical data visualization involving 3D models of adult human anatomy and collaborative network visualization and analysis (TRY).
 During the TRY phase, the audience will be invited to share their insights on the individual experiences exhibited via a digital whiteboard (TELL). This format ensures attendees not only understand the conceptual challenges but also experience the perceptual and interaction complexities first-hand. The panel aims to establish a roadmap for developing both theoretical foundations and practical toolkits to advance data visualization in XR as a mature field with strong theory and practice within the visualization community.
 
-A website with more information is available at [https://cns-iu.github.io/data-vis-xr-panel-2025](https://cns-iu.github.io/data-vis-xr-panel-2025).
+A website with more information is available at [https://cns-iu.github.io/data-vis-xr-panel-2026](https://cns-iu.github.io/data-vis-xr-panel-2026).
 
 
 <!-- -------------------  -->
 ## From Cognition to Context: A Conversation about Technical Approaches, Social Values, and Tradeoffs in Visualization
 
-**When**: Wednesday, November 5, 2025 2:00pm - 3:15pm (CET)
+**When**: Wednesday, November 5, 2026 2:00pm - 3:15pm (CET)
 
 **Organized by**: Lane Harrison, Alex Kale, Miriah Meyer, Carolina Nobre, and Arvind Satyanarayan
 
@@ -51,7 +51,7 @@ Visualization research has traditionally prioritized individual framings of visu
 <!-- -------------------  -->
 ## What Does Psychology Really Mean to Visualization Research? Towards PsychXVis and VisXPsych
 
-**When**: Wednesday, November 5, 2025 3:45pm - 5:00pm (CET)
+**When**: Wednesday, November 5, 2026 3:45pm - 5:00pm (CET)
 
 **Organized by**: Arran Zeyu Wang and Danielle Albers Szafir
 
@@ -64,7 +64,7 @@ We anticipate that its output can catalyze deeper, actionable engagement between
 <!-- -------------------  -->
 ## IEEE VIS Reviewing - On a Path to Self-Destruction?
 
-**When**: Thursday, November 6, 2025 9:30am - 10:45am (CET)
+**When**: Thursday, November 6, 2026 9:30am - 10:45am (CET)
 
 **Organized by**: Petra Isenberg, Gunther H. Weber, Niklas Elmqvist, and Narges Mahyar
 
@@ -88,7 +88,7 @@ tive peer review that supports diverse research contributions.
 <!-- -------------------  -->
 ## Industry Meets Research: Future Needs and Opportunities for Visual Analytics in Industrial Manufacturing
 
-**When**: Thursday, November 6, 2025 11:15am - 12:30pm (CET)
+**When**: Thursday, November 6, 2026 11:15am - 12:30pm (CET)
 
 **Organized by**: Markus Wagner, Christina Stoiber, Alexander Rind, Tobias Schreck, Marc Streit, and Kresimir Matkovic
 
@@ -100,7 +100,7 @@ Industrial manufacturing is increasingly shaped by data-driven processes, making
 <!-- -------------------  -->
 ## "Words Divide, Pictures Unite" - Revisiting Otto Neurath's ISOTYPE at 100
 
-**When**: Thursday, November 6, 2025 2:00pm - 3:15pm (CET)
+**When**: Thursday, November 6, 2026 2:00pm - 3:15pm (CET)
 
 **Organized by**: Wolfgang Aigner, Eva Mayr, Torsten Möller, Verena Ingrid Prantl, and Florian Windhager
 

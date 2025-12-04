@@ -1,17 +1,17 @@
 ---
 layout: page
-title: "VIS 2025 Social Events"
-permalink: /year/2025/info/local-events/summary
+title: "VIS 2026 Social Events"
+permalink: /year/2026/info/local-events/summary
 sidebar: local-events
 contact: "general_chair@ieeevis.org"
 active_nav: "Program"
 ---
 
-VIS 2025 features some **local events** to take a closer look at certain topics.
+VIS 2026 features some **local events** to take a closer look at certain topics.
 
 ### ISOTYPE exhibition
 
-2025 is a special anniversary year celebrating the development of a visual language.
+2026 is a special anniversary year celebrating the development of a visual language.
 VIS celebrates this special occasion with the **ISOTYPE exhibition** at the convention center.
 We also offer **guided tours** to other exhibitions in Vienna.
 

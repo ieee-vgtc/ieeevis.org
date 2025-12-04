@@ -1,13 +1,13 @@
 ---
 title: Accepted Papers, sorted by Session
 layout: page
-permalink: /year/2025/info/program/papers_list
+permalink: /year/2026/info/program/papers_list
 contact: program@ieeevis.org
 sidebar: program
 active_nav: "Program"
 ---
 
-This is the list of accepted papers for VIS 2025, as well as the paper sessions and schedules.
+This is the list of accepted papers for VIS 2026, as well as the paper sessions and schedules.
 
 <hr />
 

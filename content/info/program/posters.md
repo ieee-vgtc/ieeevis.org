@@ -1,13 +1,13 @@
 ---
 title: Posters
 layout: page
-permalink: /year/2025/info/program/posters
+permalink: /year/2026/info/program/posters
 contact: posters@ieeevis.org
 sidebar: program
 active_nav: "Program"
 ---
 
-This is the list of accepted posters for VIS 2025.
+This is the list of accepted posters for VIS 2026.
 
 <!-- ---------------------------------------------------------------------------------- -->
 ## Poster Session

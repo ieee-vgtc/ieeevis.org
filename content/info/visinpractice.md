@@ -1,19 +1,19 @@
 ---
 title: VisInPractice
 layout: page
-permalink: /year/2025/info/visinpractice
+permalink: /year/2026/info/visinpractice
 contact: vip@ieeevis.org
 ---
 
 **VisInPractice** sessions are an opportunity for visualization practitioners and researchers to meet and share experiences, insights, and ideas in applying data visualization and visual analytics to real-world use cases. The goal of these sessions is to acknowledge successful transfers of visualization research into applications as well as current visualization practices in industry.
 
 <!-- ---------------------------------------------------------------------------------- -->
-## VisInPractice 2025
+## VisInPractice 2026
 
 This year, VisInPractice sessions will be spead throughout the conference week and will include a series of practitioner-led talks as well as paper sessions with presentations that are highly relevant for practitioners.
 
 <!-- ---------------------------------------------------------------------------------- -->
-### VisInPractice Events 2025
+### VisInPractice Events 2026
 
 The following events are organized by the VisInPractice team.
 
@@ -51,7 +51,7 @@ We invited the following respective members from our community:
 * **Harald Piringer**, Visplore GmbH
 
 <!-- ---------------------------------------------------------------------------------- -->
-### VisInPractice Recommendations 2025
+### VisInPractice Recommendations 2026
 
 The following events at VIS are recommended for practitioners.
 
@@ -78,7 +78,7 @@ The following events at VIS are recommended for practitioners.
 
 
 <!-- ---------------------------------------------------------------------------------- -->
-## The VisInPractice 2025 Team
+## The VisInPractice 2026 Team
 
 * Chris Bryan, _Arizona State University_
 * Arjun Srinivasan, _Tableau Research_

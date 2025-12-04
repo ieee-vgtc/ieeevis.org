@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "VIS 2025 OC Dinner"
-permalink: /year/2025/info/social-events/oc-dinner
+title: "VIS 2026 OC Dinner"
+permalink: /year/2026/info/social-events/oc-dinner
 sidebar: social-events
 active_nav: "Program"
 ---
@@ -21,7 +21,7 @@ This wine cellar developed into today's **Melker Stiftskeller**, which serves ex
 We will have a **buffet and drinks**.
 
 <p>
-    <img src="/year/2025/assets/venue-and-travel/oc-dinner.png" />
+    <img src="/year/2026/assets/venue-and-travel/oc-dinner.png" />
 </p>
 
 **Address:**<br />

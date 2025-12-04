@@ -17,7 +17,7 @@ MARKDOWN_TOP="""---
 title: Papers Sessions
 layout: page
 active_nav: "Program"
-permalink: /year/2025/info/papers-sessions
+permalink: /year/2026/info/papers-sessions
 ---
 
 More detail about papers and their associated presentations will be released with the virtual website.

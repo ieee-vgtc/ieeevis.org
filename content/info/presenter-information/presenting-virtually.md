@@ -2,14 +2,14 @@
 title: Virtual Talks
 layout: page
 sidebar: call-for-participation
-permalink: /year/2025/info/presenter-information/presenting-virtually
+permalink: /year/2026/info/presenter-information/presenting-virtually
 active_nav: "Contribute"
 contact: program@ieeevis.org
 ---
 
 ## Virtual Presentations
 
-Virtual presentations at VIS 2025 are planned as **videos that will be played at a specific time** in a conference room.
+Virtual presentations at VIS 2026 are planned as **videos that will be played at a specific time** in a conference room.
 A session chair will be available on site to introduce and play the videos.
 Questions and answers will be conducted asynchronously in Discord.
 
@@ -32,9 +32,9 @@ All video submissions must meet the following **requirements**:
 
 ### Video upload
 
-Upload your talk video until **October 22nd, 2025** to the TU Wien Nextcloud service:
+Upload your talk video until **October 22nd, 2026** to the TU Wien Nextcloud service:
 [https://vapor.cg.tuwien.ac.at/index.php/s/imAqyCwfjp7R3mi](https://vapor.cg.tuwien.ac.at/index.php/s/imAqyCwfjp7R3mi)<br />
-(Password: *vis2025video*)
+(Password: *vis2026video*)
 
 ## Q&A
 

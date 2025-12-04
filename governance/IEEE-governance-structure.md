@@ -1,7 +1,7 @@
 ---
 title: IEEE Governance Structure
 layout: page
-permalink: /year/2025/governance/IEEE-governance-structure
+permalink: /year/2026/governance/IEEE-governance-structure
 ---
 
 ## IEEE Governance Structure
@@ -10,7 +10,7 @@ The IEEE VIS Governance Structure is described in the IEEE VIS Charter. This cha
 Berlin meetings, the reVISe committee Amended Recommendations (Area Model, Governance, Keywords, Transition Plan) of October 2019 (presented in Vancouver) and subsequent work by the reVISe committee, which has delivered a series of concrete proposals for an area model and governance structure for the new conference.
 
 
-* [Current Charter Version](https://ieeevis.b-cdn.net/vis_2025/2025-06-18%20VIS%20Charter%20-%20Amendment%20-%20Approved.pdf): This version includes changes to the Area Curation Committee (ACC) including a reduction in the size of the committee. The IEEE VIS steering committee approved the changes on June 18th, 2025.
+* [Current Charter Version](https://ieeevis.b-cdn.net/vis_2026/2026-06-18%20VIS%20Charter%20-%20Amendment%20-%20Approved.pdf): This version includes changes to the Area Curation Committee (ACC) including a reduction in the size of the committee. The IEEE VIS steering committee approved the changes on June 18th, 2026.
 
 ### Archive
 

@@ -1,7 +1,7 @@
 ---
 title: Tutorials
 layout: page
-permalink: /year/2025/info/program/tutorials
+permalink: /year/2026/info/program/tutorials
 contact: panels_tutorials@ieeevis.org
 sidebar: program
 active_nav: "Program"
@@ -83,7 +83,7 @@ Michael Will, *RPTU Kaiserslautern-Landau* <br>
 Mathieu Pont, *RPTU Kaiserslautern-Landau* <br>
 Julien Tierny, *Sorbonne Université* <br>
 
-This TTK tutorial, successfully held annually from 2018 to 2023 [12, 13,15,17–19], returns in 2025 with expanded content and a fresh format. Since its last edition, TTK has evolved significantly—offering broader algorithmic capabilities, enhanced accessibility, and more comprehensive documentation. With an abundance of tutorial materials now available online, including examples and video guides, this year’s session utilizes the unique benefits of a live conference setting: direct interaction and personalized support. In contrast to previous years, the 2025 tutorial is built around active user participation. It is structured in two parts: a 75-minute introduction covering TTK installation and performing TDA with ParaView, followed by a 75-minutes hands-on session. In the second part, participants will work in small groups supported by TTK experts—either tackling a set of application problems provided by the organizers or receiving in-person assistance with their own data and use cases. Departing from a traditional lecture-style format, this new workgroup-based approach—enabled by the large team of organizers and volunteers—allows the tutorial to better address individual needs and foster deeper engagement and collaboration within the TDA community.
+This TTK tutorial, successfully held annually from 2018 to 2023 [12, 13,15,17–19], returns in 2026 with expanded content and a fresh format. Since its last edition, TTK has evolved significantly—offering broader algorithmic capabilities, enhanced accessibility, and more comprehensive documentation. With an abundance of tutorial materials now available online, including examples and video guides, this year’s session utilizes the unique benefits of a live conference setting: direct interaction and personalized support. In contrast to previous years, the 2026 tutorial is built around active user participation. It is structured in two parts: a 75-minute introduction covering TTK installation and performing TDA with ParaView, followed by a 75-minutes hands-on session. In the second part, participants will work in small groups supported by TTK experts—either tackling a set of application problems provided by the organizers or receiving in-person assistance with their own data and use cases. Departing from a traditional lecture-style format, this new workgroup-based approach—enabled by the large team of organizers and volunteers—allows the tutorial to better address individual needs and foster deeper engagement and collaboration within the TDA community.
 
 ## <a name="ANU"></a> Developing Immersive Visualizations and Interactions for the Web with Anu.js
 

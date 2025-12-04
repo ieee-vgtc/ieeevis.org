@@ -2,7 +2,7 @@
 title: Visa Information
 layout: page
 active_nav: "Attend"
-permalink: /year/2025/info/registration-and-travel/visas
+permalink: /year/2026/info/registration-and-travel/visas
 contact: "general_chair@ieeevis.org"
 ---
 

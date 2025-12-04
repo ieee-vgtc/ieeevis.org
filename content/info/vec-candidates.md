@@ -1,16 +1,16 @@
 ---
-title: VEC Candidates - VIS 2025 Elections
+title: VEC Candidates - VIS 2026 Elections
 layout: page
-permalink: /year/2025/info/vec-candidates
+permalink: /year/2026/info/vec-candidates
 contact: elections@ieeevis.org
 ---
 
-# 2025 VIS Executive Committee (VEC) Candidates 
+# 2026 VIS Executive Committee (VEC) Candidates 
 The VIS Executive Committee (VEC) oversees the planning and success of IEEE VIS. The VEC solicits bids for future VIS conferences, is involved in their planning, and evaluates how well each VIS has achieved its objectives. The VEC makes proposals for change for ratification by the VSC, and implements improvements to better meet conference objectives. It approves associated events, proposes most OC positions, and works with the OC to deliver the conference.
 
 The VEC provides oversight and planning for the VIS conference as described in the [VIS Charter](http://ieeevis.org/governance/IEEE-governance-structure).
 
-The 2025 candidates for the VEC are:
+The 2026 candidates for the VEC are:
 * [Tim Dwyer](#tim-dwyer)
 * [Michelle	Borkin](michelle-borkin)
   

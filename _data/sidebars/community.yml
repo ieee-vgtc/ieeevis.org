@@ -1,11 +1,11 @@
 - heading: "Connect"
   links:
     - text: "Meetups"
-      url: "/year/2025/info/call-participation/meetups"
+      url: "/year/2026/info/call-participation/meetups"
     - text: "Vis Buddies"
-      url: "/year/2025/info/community/vis-buddies"
+      url: "/year/2026/info/community/vis-buddies"
     - text: "Job Postings"
-      url: "/year/2025/info/community/jobs"
+      url: "/year/2026/info/community/jobs"
 
 
 #- heading: "Social Groups"

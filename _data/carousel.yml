@@ -1,15 +1,5 @@
-- title: "IEEE VIS 2025 in Vienna, Austria"
-  image: "skyline_vienna.jpg"
+- title: "IEEE VIS 2026 in Boston, Massachusetts"
+  image: "skyline_boston.jpg"
   button-text: "Destination Information"
   button-url: "/destination"
   active: "active"
-  
-- title: "VIS celebrates 100 years of ISOTYPE"
-  image: "isotypes.jpg"
-  button-text: "Local Events"
-  button-url: "/info/local-events/isotype-exhibition"
-  
-- title: "IEEE VIS is made possible by our supporters"
-  image: "supporters.jpg"
-  button-text: "VIS Supporter Packages"
-  button-url: "/supporters"

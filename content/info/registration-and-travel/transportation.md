@@ -2,7 +2,7 @@
 title: Transportation
 layout: page
 active_nav: "Attend"
-permalink: /year/2025/info/registration-and-travel/transportation
+permalink: /year/2026/info/registration-and-travel/transportation
 contact: general_chair@ieeevis.org
 ---
 
@@ -16,7 +16,7 @@ When **picking up your conference badge**, you will be handed out a [Vienna Meet
 The Vienna Meeting Ticket enables participants to make unlimited use of all means of public transport in Vienna (*Kernzone Wien*) for the entire duration of the event.
 
 <p>
-  <img src="/year/2025/assets/venue-and-travel/wiener-linien-plan.png" />
+  <img src="/year/2026/assets/venue-and-travel/wiener-linien-plan.png" />
 </p>
 
 Unfortunately, because we are an event with less than 3,000 people, the regulations of the Wiener Linien do not allow to send you this ticket beforehand.

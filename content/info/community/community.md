@@ -1,7 +1,7 @@
 ---
 title: Community
 layout: page
-permalink: /year/2025/info/community/community
+permalink: /year/2026/info/community/community
 active_nav: "Events & Community"
 sidebar: community
 contact: community@ieeevis.org
@@ -15,7 +15,7 @@ The activities are organized by the IEEE VIS Community Chairs, who can be reache
 
 This year, Community will host the following events and activities:
 
-* [VisBuddies](/year/2025/info/community/vis-buddies)
+* [VisBuddies](/year/2026/info/community/vis-buddies)
 
 VisBuddies brings together new and returning VIS attendees with similar interests. For *newcomers*, this is a chance to meet experienced researchers in the field. For *returning attendees*, it is a chance to meet new members joining VIS and welcome them into our community. 
 
@@ -36,7 +36,7 @@ If so, please complete this online form, and we will include your posting on IEE
 
 [VIS Community Job Posting Form](https://forms.gle/g6sCRcsMkHNavktG9)
 
-Links to the Job Postings will be included [**here**](/year/2025/info/community/jobs).
+Links to the Job Postings will be included [**here**](/year/2026/info/community/jobs).
 
 ### <a name="ajf"></a>VIS Job Fair Meetup 
 This year, we will use Discord to support informal networking. Participants can use the platform to coordinate virtual or in-person discussions.
@@ -45,7 +45,7 @@ This year, we will use Discord to support informal networking. Participants can 
 
 
 ### Contact
-For more information contact IEEE VIS 2025 Community Chairs:
+For more information contact IEEE VIS 2026 Community Chairs:
 
 * Georgia Panagiotidou, *King’s College London*
 * Isaac Cho, 	*Utah State University*

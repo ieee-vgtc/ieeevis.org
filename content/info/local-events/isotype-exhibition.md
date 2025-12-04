@@ -1,19 +1,19 @@
 ---
 layout: page
 title: "VIS celebrates 100 years of ISOTYPE"
-permalink: /year/2025/info/local-events/isotype-exhibition
+permalink: /year/2026/info/local-events/isotype-exhibition
 sidebar: local-events
 active_nav: "Program"
 ---
 
-2025 is a special anniversary year celebrating the development of a visual language.
+2026 is a special anniversary year celebrating the development of a visual language.
 One hundred years ago, **Otto Neurath** and his team in Vienna began developing what would become **ISOTYPE** - short for the *International System of Typographic Picture Education*.
 The underlying principles of the ISOTYPE system still resonate in today’s visualization guidelines.
 
 <table>
     <tr>
-        <td><img src="/year/2025/assets/local-events/isotypes_01.jpg" /></td>
-        <td><img src="/year/2025/assets/local-events/isotypes_02.jpg" /></td>
+        <td><img src="/year/2026/assets/local-events/isotypes_01.jpg" /></td>
+        <td><img src="/year/2026/assets/local-events/isotypes_02.jpg" /></td>
     </tr>
 </table>
 
@@ -35,7 +35,7 @@ Visit the exhibition in the **gallery** between level 0 and 1.
 
 In a **Otto Neurath and ISOTYPE panel** on Thursday, panelists will discuss the topic *"Words Divide, Pictures Unite"* to revisit Otto Neurath’s ISOTYPE at 100.
 
-**When: Thursday, Nov 6, 2025 2:00pm - 3:15pm (CET)**
+**When: Thursday, Nov 6, 2026 2:00pm - 3:15pm (CET)**
 
 
 <!-- -------------------  -->

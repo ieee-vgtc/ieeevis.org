@@ -123,9 +123,9 @@ const authenticate = () => {
         updateUI(auth0Client, query)
       }
     } else if (window.location.href.includes("room_") || window.location.href.includes("paper_") || window.location.href.includes("poster_")) {
-      // window.location.href = `/year/2025/program/redirect?return=${window.location.pathname.slice(1)}`;
+      // window.location.href = `/year/2026/program/redirect?return=${window.location.pathname.slice(1)}`;
 
-      window.location.href = "/year/2025/welcome?loginMsg=true";
+      window.location.href = "/year/2026/welcome?loginMsg=true";
     }
 
 

@@ -1,21 +1,21 @@
 ---
 title: "Supporting the IEEE VIS Conference"
 layout: page
-permalink: /year/2025/supporters
+permalink: /year/2026/supporters
 contact: supporters@ieeevis.org
 ---
 
 ![Frame 1vis23](https://user-images.githubusercontent.com/1230497/214549284-fcc9d692-8025-47d6-aaf7-980cf6b3fb45.png)
 
-Whether you are recruiting new talent or showcasing key products and services, VIS 2025 is where the international computing and applications community convenes – providing an opportunity to highlight what your company has to offer and reach decision-makers with real buying power.
+Whether you are recruiting new talent or showcasing key products and services, VIS 2026 is where the international computing and applications community convenes – providing an opportunity to highlight what your company has to offer and reach decision-makers with real buying power.
 
-VIS 2025 will be the year’s premier forum for advances in theory, methods, applications of data visualization, and visual analytics. The conference will convene an international community of researchers and practitioners from universities, government, and industry to exchange recent findings on the design and use of visualization tools. 
+VIS 2026 will be the year’s premier forum for advances in theory, methods, applications of data visualization, and visual analytics. The conference will convene an international community of researchers and practitioners from universities, government, and industry to exchange recent findings on the design and use of visualization tools. 
 
-Through a six-day program of workshops and tutorials, exposition, panels, posters, keynotes, and research presentations! The conference convenes a global community of over 1000 researchers, students, and practitioners from universities, government, and industry with broad backgrounds in computing, design, mathematics, science, and more. An active recruitment venue for skilled candidates and potential research collaborations, VIS 2025 is where top university graduates and researchers gather. Support this community, and make your presence known at IEEE VIS 2025.
+Through a six-day program of workshops and tutorials, exposition, panels, posters, keynotes, and research presentations! The conference convenes a global community of over 1000 researchers, students, and practitioners from universities, government, and industry with broad backgrounds in computing, design, mathematics, science, and more. An active recruitment venue for skilled candidates and potential research collaborations, VIS 2026 is where top university graduates and researchers gather. Support this community, and make your presence known at IEEE VIS 2026.
 
 # How to Support
 
-**>> [Browse our support options in the prospectus](/year/2025/assets/IEEE-VIS-2025-Supporters-Prospectus.pdf) <<**
+**>> [Browse our support options in the prospectus](/year/2026/assets/IEEE-VIS-2026-Supporters-Prospectus.pdf) <<**
 
 
 **>> Contact the IEEE VIS Supporters Chairs [<supporters@ieeevis.org>](mailto:supporters@ieeevis.org) <<**
@@ -63,7 +63,7 @@ Through a six-day program of workshops and tutorials, exposition, panels, poster
 
 ![Frame 3vis23](https://user-images.githubusercontent.com/1230497/214549391-3c244d13-a8a1-46a7-b90a-dc654484a658.png)
 
-### In supporting the conference as a VIS 2025 Supporter, you: 
+### In supporting the conference as a VIS 2026 Supporter, you: 
 * will have access to a range of options for promotion and engagement, based on level of support: Platinum, Gold, Bronze, ... 
 * will have access to the conference and its events through registrations for your staff 
 * will have the opportunity to directly support Diversity, Equity and Inclusion priorities

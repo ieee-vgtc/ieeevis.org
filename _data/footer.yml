@@ -5,6 +5,9 @@ columns:
     - heading: "Past years archive"
       display_style: "inline"
       links:      
+
+        - text: "2025"
+          url: "http://ieeevis.org/year/2025/welcome"
       
         - text: "2024"
           url: "http://ieeevis.org/year/2024/welcome"

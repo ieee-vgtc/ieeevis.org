@@ -1,12 +1,12 @@
 ---
 layout: page 
 title: "Capstone by Theo Deutinger"
-permalink: /year/2025/info/invited-speakers/capstone-speaker 
+permalink: /year/2026/info/invited-speakers/capstone-speaker 
 contact: info@ieeevis.org 
 active_nav: "Program"
 ---
 
-The VIS 2025 capstone talk will be given by **Theo Deutinger**.
+The VIS 2026 capstone talk will be given by **Theo Deutinger**.
 
 Theo is an Austrian architect, curator, and theorist.
 He is the founder and principal of The Department (TD), a practice that integrates architecture, urban design, and analytical research across various scales—from global planning to graphic design and curatorial work.

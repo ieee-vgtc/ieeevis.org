@@ -1,23 +1,23 @@
 ---
 title: Workshops
 layout: page
-permalink: /year/2025/info/program/workshops
+permalink: /year/2026/info/program/workshops
 contact: workshops@ieeevis.org
 sidebar: program
 active_nav: "Program"
 ---
 
 ## Accepted Workshops
-The following workshops went through our [submission/review process](https://ieeevis.org/year/2025/info/call-participation/workshops). 
+The following workshops went through our [submission/review process](https://ieeevis.org/year/2026/info/call-participation/workshops). 
 
 * [ECWIDNA: Engaging Critical Workforce In co-Design aNd Assessment](#ECWIDNA)
-* [alt.VIS 2025](#alt.VIS)
+* [alt.VIS 2026](#alt.VIS)
 * [Uncertainty Visualization: Unraveling Relationships of Uncertainty, AI, and Decision-Making](#uncertainty)
 * [EduVis: 3rd IEEE VIS Workshop on Visualization Education, Literacy, and Activities](#EduVis)
 * [Workshop on Topological Data Analysis and Visualization (TopoInVis)](#TopoInVis)
-* [LDAV 2025 - The 15th IEEE Workshop on Large Data Analysis & Visualization](#LDAV)
+* [LDAV 2026 - The 15th IEEE Workshop on Large Data Analysis & Visualization](#LDAV)
 * [9th Workshop on Visualization for the Digital Humanities: VIS4DH ↔ DH4VIS](#VIS4DH)
-* [The 2nd MERCADO Workshop at IEEE VIS 2025: Multimodal Experiences for Remote Communication Around Data Online](#MERCADO)
+* [The 2nd MERCADO Workshop at IEEE VIS 2026: Multimodal Experiences for Remote Communication Around Data Online](#MERCADO)
 * [Envisioning a Research Agenda for Input Visualization (Full Day)](#InputVis)
 * [Human Factors in Immersive Analytics](#immersive)
 * [AccessViz: 2nd Workshop on Accessible Data Visualization](#AccessViz)
@@ -48,7 +48,7 @@ We define End User Development (EUD) as an iterative process of co-creation that
 During the workshop, participants will have the opportunity to learn about successful experiences directly from members of the research community, and partake in active discussions surrounding methods and approaches adopted in EUD practices.
 
 
-## <a name="alt.VIS"></a> alt.VIS 2025
+## <a name="alt.VIS"></a> alt.VIS 2026
 
 Andrew M. McNutt, *University of Utah, Salt Lake City, UT, United States*<br>
 Søren Lyngsø Knudsen, *IT University, Copenhagen, Denmark*<br>
@@ -80,14 +80,14 @@ Nadia Boukhelifa, *INRAE, Paris, France*<br>
 
 Contact: Tushar Athawale ([tushar.athawale@gmail.com](mailto:tushar.athawale@gmail.com))
 
-[https://tusharathawale.github.io/uncertainty-vis-workshop-2025/index.html](https://tusharathawale.github.io/uncertainty-vis-workshop-2025/index.html){:target="_blank"}
+[https://tusharathawale.github.io/uncertainty-vis-workshop-2026/index.html](https://tusharathawale.github.io/uncertainty-vis-workshop-2026/index.html){:target="_blank"}
 
 Uncertainty visualization has become an increasingly important topic given the ubiquity of noise in data and computational processes.
 This workshop proposal is motivated by the uncertainty visualization challenges identified during the 2024 IEEE Workshop on Uncertainty Visualization.
 Specifically, four research gaps were identified. First, uncertainty must be treated as data in its own right; however, visualization community currently lacks understanding of good ways to model uncertainty and propagate it through complex scientific workflows.
 Second, the use of artificial intelligence (AI) is becoming pervasive across scientific domains; however, it faces a major limitation of trustworthiness of predictions due to uncertainties propagated from the data and AI models.
 Third, there are no standard ways to effectively communicate uncertainty with end users who can be scientific or general audience. Finally, performing decision-making under uncertainty is an open challenge, considering the role of perception, cognition, and user expertise when interpreting uncertainty.
-To tackle the aforementioned challenges, we propose to conduct another workshop on uncertainty visualization at IEEE VIS 2025. In particular, the overarching goal of the workshop is to create a roadmap to tackle the identified uncertainty visualization challenges that are multidisciplinary in nature by fostering interactions among experts from visualization, applications, AI, high-performance computing, applied math, and psychology fields.
+To tackle the aforementioned challenges, we propose to conduct another workshop on uncertainty visualization at IEEE VIS 2026. In particular, the overarching goal of the workshop is to create a roadmap to tackle the identified uncertainty visualization challenges that are multidisciplinary in nature by fostering interactions among experts from visualization, applications, AI, high-performance computing, applied math, and psychology fields.
 
 
 ## <a name="EduVis"></a> EduVis: 3rd IEEE VIS Workshop on Visualization Education, Literacy, and Activities
@@ -119,13 +119,13 @@ Federico Iuricich, *Clemson University, Clemson, SC, United States*<br>
 
 Contact: Divya Banesh ([dbanesh@lanl.gov](mailto:dbanesh@lanl.gov))
 
-[https://topoinvis-workshop.github.io/2025/](https://topoinvis-workshop.github.io/2025/){:target="_blank"}
+[https://topoinvis-workshop.github.io/2026/](https://topoinvis-workshop.github.io/2026/){:target="_blank"}
 
 Topologically-driven visualization is an important part of the visualization and application community with far-reaching impact.
 We propose the inclusion of a Topology in Visualization~(TopoInVis) workshop to bring together practitioners in core topology, topological data analysis and applications of topology from communities including computer science, statistics and the applied sciences.
 
 
-## <a name="LDAV"></a> LDAV 2025 - The 15th IEEE Workshop on Large Data Analysis & Visualization
+## <a name="LDAV"></a> LDAV 2026 - The 15th IEEE Workshop on Large Data Analysis & Visualization
 
 Steffen Frey, *University of Groningen, Groningen, The Netherlands*<br>
 Silvio Rizzi, *Argonne National Laboratory, Lemont, IL, United States*<br>
@@ -133,7 +133,7 @@ Gunther H. Weber, *Lawrence Berkeley National Laboratory, Berkeley, CA, United S
 
 Contact: Gunther H. Weber ([ghweber@lbl.gov](mailto:ghweber@lbl.gov))
 
-[https://ldav.io/2025/](https://ldav.io/2025/){:target="_blank"}
+[https://ldav.io/2026/](https://ldav.io/2026/){:target="_blank"}
 
 The LDAV workshop continues to bring together researchers and practitioners from academia, industry, and government and specifically targets methodological innovation, algorithmic foundations, and possible end-to-end solutions for the visualization and analysis of extremely large data sets.
 It is intended as a platform to serve the needs of the large data visualization community, fostering common ground for discovering, discussing, and solving both near- and long-term problems surrounding this topic.
@@ -153,13 +153,13 @@ Contact: Alfie Abdul-Rahman ([alfie.abdulrahman@gmail.com](mailto:alfie.abdulrah
 
 [https://vis4dh.dbvis.de/](https://vis4dh.dbvis.de/){:target="_blank"}
 
-Following up on eight successful VIS4DH workshops, we propose the 9th workshop on Visualization for the Digital Humanities, co-located at IEEE VIS 2025 in Vienna, Austria.
+Following up on eight successful VIS4DH workshops, we propose the 9th workshop on Visualization for the Digital Humanities, co-located at IEEE VIS 2026 in Vienna, Austria.
 With VIS4DH, over the past decade, we have established a unique platform to present and discuss emerging topics at the intersection of the humanities, digital humanities (DH), and visualization research.
 With 70+ attendees on avg., all workshops - including the virtual ones - were well-received and have been drawing humanities researchers toward the VIS conference.
 This proposed workshop - VIS4DH'25 - will continue and intensify this interdisciplinary exchange between scholars and practitioners from the humanities and visualization, actively addressing the question of how research at the intersection of related disciplines impacts the involved fields.
 
 
-## <a name="MERCADO"></a> The 2nd MERCADO Workshop at IEEE VIS 2025: Multimodal Experiences for Remote Communication Around Data Online
+## <a name="MERCADO"></a> The 2nd MERCADO Workshop at IEEE VIS 2026: Multimodal Experiences for Remote Communication Around Data Online
 
 Wolfgang Büschel, *University of Stuttgart, Stuttgart, Germany*<br>
 Gabriela Molina León, *Aarhus University, Aarhus, Denmark*<br>
@@ -171,9 +171,9 @@ Matthew Brehmer, *University of Waterloo, Waterloo, Ont., Canada*<br>
 
 Contact: Wolfgang Büschel ([bueschel@acm.org](mailto:bueschel@acm.org)) 
 
-[https://sites.google.com/view/mercadoworkshop/vis2025](https://sites.google.com/view/mercadoworkshop/vis2025){:target="_blank"}
+[https://sites.google.com/view/mercadoworkshop/vis2026](https://sites.google.com/view/mercadoworkshop/vis2026){:target="_blank"}
 
-We propose a half-day workshop at IEEE VIS 2025 on addressing the emerging challenges in data-rich multimodal remote collaboration.
+We propose a half-day workshop at IEEE VIS 2026 on addressing the emerging challenges in data-rich multimodal remote collaboration.
 We focus on synchronous, remote, and hybrid settings where people take part in tasks such as data analysis, decision-making, and presentation. With this workshop, we continue successful prior work from the first MERCADO workshop at VIS 2023 and a 2024 Shonan Seminar that followed.
 Based on the findings of the earlier events, we invite research and ideas related to four themes of challenges: Tools & Technologies, Individual Differences & Interpersonal Dynamics, AI-assisted Collaboration, and Evaluation.
 With this workshop, we aim to broaden the community, foster new collaborations, and develop a research agenda to address these challenges in future research. Our planned workshop format is comprised of a keynote, short presentations, a breakout group session, and discussions organized around the identified challenges.
@@ -190,7 +190,7 @@ Derya Akbaba, *Linköping University, Norrköping, Sweden*<br>
 
 Contact: Nathalie Bressa ([nathalie.bressa@gmail.com](mailto:nathalie.bressa@gmail.com)) 
 
-[https://inputvisualization.github.io/vis2025/](https://inputvisualization.github.io/vis2025/){:target="_blank"}
+[https://inputvisualization.github.io/vis2026/](https://inputvisualization.github.io/vis2026/){:target="_blank"}
 
 Input visualization - visual representations that are designed to collect (and represent) new data rather than encode preexisting datasets - provides a new lens for direct interactions with data through visualizations and physicalizations. 
 In stark contrast to existing conceptual models, input visualization recognizes the malleable, incomplete, and context-dependent nature of data, and highlights opportunities for new collaboration and thinking tools that increase users' agency while inverting the traditional power dynamics of data production.
@@ -255,13 +255,13 @@ Danny T.Y. Wu, *University of Cincinnati, Cincinnati, OH, United States*<br>
 
 Contact: Alessio Arleo PhD ([a.arleo@tue.nl](mailto:a.arleo@tue.nl))
 
-[https://visualanalyticshealthcare.github.io/homepage/2025/](https://visualanalyticshealthcare.github.io/homepage/2025/){:target="_blank"}
+[https://visualanalyticshealthcare.github.io/homepage/2026/](https://visualanalyticshealthcare.github.io/homepage/2026/){:target="_blank"}
 
 The integration of interactive Visual Analytics (VA) with explainable AI, multimodal data fusion, and privacy-preserving machine learning has become essential for interpreting the growing complexity of healthcare and biomedical data.
 Researchers and practitioners have expanded VA applications beyond traditional clinical decision support to encompass real-time patient monitoring, digital twin simulations, and AI-assisted diagnostics, addressing the needs of clinicians, researchers, policymakers, and patients.
 Since 2013, the VA in Healthcare (VAHC) workshop has been a key venue for interdisciplinary collaboration, adapting to rapid advancements in AI-driven and patient-centered healthcare.
-At VIS 2025, the workshop will continue to foster knowledge exchange by showcasing novel research, interactive demonstrations, and discussions on emerging challenges such as trustworthy AI in medical applications, federated data visualization, immersive analytics for surgical planning, large language model support, and equitable AI-driven decision-making.
-By bringing together experts from diverse fields, VAHC 2025 will serve as a catalyst for advancing the role of VA in shaping the future of intelligent, ethical, and human-centered healthcare.
+At VIS 2026, the workshop will continue to foster knowledge exchange by showcasing novel research, interactive demonstrations, and discussions on emerging challenges such as trustworthy AI in medical applications, federated data visualization, immersive analytics for surgical planning, large language model support, and equitable AI-driven decision-making.
+By bringing together experts from diverse fields, VAHC 2026 will serve as a catalyst for advancing the role of VA in shaping the future of intelligent, ethical, and human-centered healthcare.
 
 
 ## <a name="VISxAI"></a> 8th Workshop on Visualization for AI Explainability (VISxAI) (Full Day)

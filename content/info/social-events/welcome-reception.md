@@ -1,12 +1,12 @@
 ---
 layout: page
-title: "VIS 2025 Welcome Reception"
-permalink: /year/2025/info/social-events/welcome-reception
+title: "VIS 2026 Welcome Reception"
+permalink: /year/2026/info/social-events/welcome-reception
 sidebar: social-events
 active_nav: "Program"
 ---
 
-The VIS 2025 **Welcome Reception** will take place outside the convention center.
+The VIS 2026 **Welcome Reception** will take place outside the convention center.
 
 ## Location
 
@@ -19,8 +19,8 @@ The museum is reserved exclusively for us.
 
 <table>
     <tr>
-        <td><img src="/year/2025/assets/venue-and-travel/reception-nhm.png" /></td>
-        <td><img src="/year/2025/assets/venue-and-travel/reception-nhm-inside.png" /></td>
+        <td><img src="/year/2026/assets/venue-and-travel/reception-nhm.png" /></td>
+        <td><img src="/year/2026/assets/venue-and-travel/reception-nhm-inside.png" /></td>
     </tr>
 </table>
 

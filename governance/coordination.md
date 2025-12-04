@@ -1,7 +1,7 @@
 ---
 title: Financial and Coordination Policies for IEEE VIS
 layout: page
-permalink: /year/2025/governance/coordination
+permalink: /year/2026/governance/coordination
 ---
 
 ## I. Events held in conjunction with IEEE VIS 

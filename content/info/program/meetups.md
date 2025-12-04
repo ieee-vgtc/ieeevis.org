@@ -1,7 +1,7 @@
 ---
-title: IEEE VIS 2025 Meetups
+title: IEEE VIS 2026 Meetups
 layout: page
-permalink: /year/2025/info/program/meetups
+permalink: /year/2026/info/program/meetups
 contact: community@ieeevis.org
 sidebar: program
 active_nav: "Program"

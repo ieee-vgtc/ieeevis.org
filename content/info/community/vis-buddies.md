@@ -1,13 +1,13 @@
 ---
 title: VIS Buddies
 layout: page
-permalink: /year/2025/info/community/vis-buddies
+permalink: /year/2026/info/community/vis-buddies
 active_nav: "Events & Community"
 sidebar: community
 contact: community@ieeevis.org
 ---
 
-## Welcome to the VIS 2025 buddies program
+## Welcome to the VIS 2026 buddies program
 
 VisBuddies brings together new and returning VIS attendees with similar interests. For *newcomers*, this is a chance to meet experienced researchers in the field. For *returning attendees*, it is a chance to meet new members joining VIS and welcome them into our community.
 

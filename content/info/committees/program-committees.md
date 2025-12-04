@@ -2,7 +2,7 @@
 title: Program Committees
 layout: page
 active_nav: "Organization & History"
-permalink: /year/2025/info/committees/program-committees
+permalink: /year/2026/info/committees/program-committees
 contact: papers@ieeevis.org
 sidetoc: true
 ---

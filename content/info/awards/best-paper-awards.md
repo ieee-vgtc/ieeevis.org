@@ -1,7 +1,7 @@
 ---
 title: Best Paper/Poster Awards
 layout: page
-permalink: /year/2025/info/awards/best-paper-awards
+permalink: /year/2026/info/awards/best-paper-awards
 active_nav: "Program"
 sidebar: awards-and-recognitions
 contact: papers@ieeevis.org
@@ -14,7 +14,7 @@ Best paper committees use a variety of criteria to select the best paper includi
 <!-- ---------------------------------------------------------------------------------- -->
 ## Full Papers
 
-The Best Papers Committee for VIS 2025 Full papers consisted of the following distinguished members:
+The Best Papers Committee for VIS 2026 Full papers consisted of the following distinguished members:
 Lars Linsen, Roxana Bujack, Soumya Dutta, David Ebert, BC Kwon, Luis Gustavo Nonato, and Xiting Wang.
 The Papers Chairs would like to thank the Best Papers Committee for their work and to congratulate the awardees!
 
@@ -113,7 +113,7 @@ by Amy Fox, Michelle Morgenstern, Graham Jones, & Arvind Satyanarayan<br />
 <!-- ---------------------------------------------------------------------------------- -->
 ## Short Papers
 
-The Best Short Papers Committee for VIS 2025 Short Papers consisted of the following distinguished members:
+The Best Short Papers Committee for VIS 2026 Short Papers consisted of the following distinguished members:
 Yang Shi, Danielle Szafir, Eytan Adar, Jürgen Bernard, Ingrid Hotz.
 The Short Papers Chairs would like to thank the Best Short Papers Committee for their work and to congratulate the awardees!
 
@@ -160,7 +160,7 @@ by Lena Cibulski & Stefan Bruckner<br />
 <!-- ---------------------------------------------------------------------------------- -->
 ## Posters
 
-The Best Poster Committee for VIS 2025 posters consisted of the following distinguished members:
+The Best Poster Committee for VIS 2026 posters consisted of the following distinguished members:
 Davide Ceneda, Fumeng Yang, and Carolina Nobre.
 The Poster Chairs would like to thank the Best Poster Committee for their work and to congratulate the awardees!
 

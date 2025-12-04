@@ -2,16 +2,16 @@
 title: Preparing For Your Talk
 layout: page
 sidebar: call-for-participation
-permalink: /year/2025/info/presenter-information/talk-guide
+permalink: /year/2026/info/presenter-information/talk-guide
 active_nav: "Contribute"
 contact: tech@ieeevis.org
 ---
 
-Please **read the following instructions carefully** for guidelines on preparing your **Presentation** for VIS 2025, or a VIS 2025 workshop.
+Please **read the following instructions carefully** for guidelines on preparing your **Presentation** for VIS 2026, or a VIS 2026 workshop.
 
-## IEEE Visualization 2025 is planned as an in-person event
+## IEEE Visualization 2026 is planned as an in-person event
 
-The focus of IEEE VIS 2025 are on on-site presentation. Nevertheless, virtual presentations are possible.
+The focus of IEEE VIS 2026 are on on-site presentation. Nevertheless, virtual presentations are possible.
 * **VIS Full/Short Papers**: Full and short papers will be split into in-person presenter-only and virtual presenter-only sessions. Both in-person and virtual session will be recorded. Authors should have made this selection during their camera ready submission. 
 * **TVCG/CG&A Presentations**: TVCG/CG&A Presentations will be in-person presenter-only, but they will be recorded.
 * **All Other Events**: Please contact the organizers of your event.
@@ -21,7 +21,7 @@ The focus of IEEE VIS 2025 are on on-site presentation. Nevertheless, virtual pr
 
 ## Presentation Recommendations and Powerpoint Template
 
-We recommend using the provided 16x9 wide format ([VIS 2025 PowerPoint Template](https://ieeevis.org/year/2025/assets/vis_2025_presentation_template.pptx)).
+We recommend using the provided 16x9 wide format ([VIS 2026 PowerPoint Template](https://ieeevis.org/year/2026/assets/vis_2026_presentation_template.pptx)).
 
 In addition, make sure that your presentation is accessible by speaking clearly, using large fonts, and ensuring high contrast. Avoid saying "as you can see on this slide" and always describe all relevant visuals. You can find some [recommendations for giving accessible talks from SIGACCESS](http://www.sigaccess.org/welcome-to-sigaccess/resources/accessible-presentation-guide/) and if you have additional questions contact the [accessibility chairs](mailto:accessibility@ieeevis.org).
 

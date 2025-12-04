@@ -1,15 +1,15 @@
 ---
-title: VIS 2025 Accessibility
+title: VIS 2026 Accessibility
 layout: page
 active_nav: "Attend"
-permalink: /year/2025/info/accessibility/attend
+permalink: /year/2026/info/accessibility/attend
 contact: accessibility@ieeevis.org
 ---
 
 IEEE VIS seeks to cultivate an environment that encourages participation and inclusion.
 
 <!--
-If you like to learn about our VIS Accessibility Guide for VIS 2025 authors on how to make your pdf accessible, please refer to [this guide](/year/2023/info/call-participation/make-pdf-accessible).
+If you like to learn about our VIS Accessibility Guide for VIS 2026 authors on how to make your pdf accessible, please refer to [this guide](/year/2023/info/call-participation/make-pdf-accessible).
 We also encourage speakers to [ensure that their talks are accessible](http://www.sigaccess.org/welcome-to-sigaccess/resources/accessible-presentation-guide/).
 -->
 

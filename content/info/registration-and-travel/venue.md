@@ -2,19 +2,19 @@
 title: Venue
 layout: page
 active_nav: "Attend"
-permalink: /year/2025/info/registration-and-travel/venue
+permalink: /year/2026/info/registration-and-travel/venue
 contact: general_chair@ieeevis.org
 ---
 
-VIS 2025 takes place in a convention center.
+VIS 2026 takes place in a convention center.
 
 ## Austria Center Vienna
 
-VIS 2025 will take place in the [Austria Center Vienna](https://www.acv.at/en){:target= "_blank"}, Austria's largest congress center.
+VIS 2026 will take place in the [Austria Center Vienna](https://www.acv.at/en){:target= "_blank"}, Austria's largest congress center.
 The Austria Center Vienna offers 21 halls, 134 meeting rooms, 5 exhibition halls, and over 26,000m² of exhibition space on 5 levels.
 
 <p>
-  <img src="/year/2025/assets/venue-and-travel/austria-center-vienna.png" />
+  <img src="/year/2026/assets/venue-and-travel/austria-center-vienna.png" />
 </p>
 
 [Austria Center Vienna, Bruno-Kreisky-Platz 1, 1220 Vienna, Austria](https://maps.app.goo.gl/SA5U726D8FdAYxrC7){:target="_blank"}
@@ -43,7 +43,7 @@ You will enter the ACV at level 0, where you will also find the registration des
 The auditorium hall is at level 0, and we also reserved rooms at level 1.
 Coffee breaks and the conference dinner on Wednesday will take place at level 0.
 <p>
-  <img src="/year/2025/assets/venue-and-travel/austria-center-vienna-level0.png" />
+  <img src="/year/2026/assets/venue-and-travel/austria-center-vienna-level0.png" />
 </p>
 
 You can interactively explore the different [levels and rooms of the ACV](https://www.acv.at/en/the-location/){:target= "_blank"} online.

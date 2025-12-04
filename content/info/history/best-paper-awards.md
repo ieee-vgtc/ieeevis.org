@@ -1,7 +1,7 @@
 ---
 title: Best Paper and Poster Awards History
 layout: page
-permalink: /year/2025/info/history/best-paper-awards
+permalink: /year/2026/info/history/best-paper-awards
 contact: archive@ieeevis.org
 ---
 

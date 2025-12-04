@@ -1,12 +1,12 @@
 ---
 layout: page
-title: "VIS 2025 Poster Session"
-permalink: /year/2025/info/social-events/poster-session
+title: "VIS 2026 Poster Session"
+permalink: /year/2026/info/social-events/poster-session
 sidebar: social-events
 active_nav: "Program"
 ---
 
-The VIS 2025 **Poster Session** will take place at the convention center (Austria Center Vienna).
+The VIS 2026 **Poster Session** will take place at the convention center (Austria Center Vienna).
 
 ## Location
 

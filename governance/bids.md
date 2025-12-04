@@ -1,7 +1,7 @@
 ---
 title: IEEE VIS General Chair Applications & Bid Process
 layout: page
-permalink: /year/2025/governance/bids
+permalink: /year/2026/governance/bids
 ---
 
 
@@ -230,7 +230,7 @@ _(6 months before conference)_
 ---
 
 ## Change Log
-* 1 Jan 2025 - VEC: updated following [2024 VGTC Conference survey](https://ieeevis.org/year/2024/blog/vis-2024-VEC-survey-results) and VIS Conference Futures panel at VIS 2024
+* 1 Jan 2026 - VEC: updated following [2024 VGTC Conference survey](https://ieeevis.org/year/2024/blog/vis-2024-VEC-survey-results) and VIS Conference Futures panel at VIS 2024
 * 30 June 2021 - VEC : updated to add _Important Dates_ and _Procedure Details_
 * 26 April 2021 - VEC : updated in light of General Chairs page
 * 23 April 2021 - VEC : updated in light of reVISe governance changes

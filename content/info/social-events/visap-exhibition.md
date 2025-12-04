@@ -1,18 +1,18 @@
 ---
 layout: page
 title: "VIS Arts Program"
-permalink: /year/2025/info/social-events/visap-exhibition
+permalink: /year/2026/info/social-events/visap-exhibition
 sidebar: social-events
 active_nav: "Program"
 ---
 
-The VIS 2025 **Vis Arts Program** exhibition will take place outside the convention center.
+The VIS 2026 **Vis Arts Program** exhibition will take place outside the convention center.
 
 ## Location
 
 The exhibition will take place at the **University of Applied Arts Vienna**.
 
-More information can be found here: [https://visap.net/2025/](https://visap.net/2025/){:target= "_blank"}
+More information can be found here: [https://visap.net/2026/](https://visap.net/2026/){:target= "_blank"}
 
 **Address:**<br />
 Atrium, University of Applied Arts Vienna<br />

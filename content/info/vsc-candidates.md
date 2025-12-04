@@ -1,16 +1,16 @@
 ---
-title: VSC Candidates - VIS 2025 Elections
+title: VSC Candidates - VIS 2026 Elections
 layout: page
-permalink: /year/2025/info/vsc-candidates
+permalink: /year/2026/info/vsc-candidates
 contact: elections@ieeevis.org
 ---
 
-# 2025 VIS Steering Committee (VSC) Candidates 
+# 2026 VIS Steering Committee (VSC) Candidates 
 The VIS Steering Committee (VSC) provides scientific and organizational oversight of IEEE VIS. It is the highest level committee at IEEE VIS and develops long term strategy and policy, appoints scientific content chairs, manages relationships with journals, ratifies specified VEC appointments and decisions, and oversees the evolution of the area model that defines the conference.
 
 The VSC provides oversight and planning for the VIS conference as described in the [VIS Charter](http://ieeevis.org/governance/IEEE-governance-structure).
 
-The 2025 candidates for the VSC are:
+The 2026 candidates for the VSC are:
 * [Christoph Garth](#christoph-garth)
 * [Enrico Bertini](#enrico-bertini)
 * [Kyle Hall](#kyle-hall)

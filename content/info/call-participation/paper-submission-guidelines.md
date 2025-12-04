@@ -1,15 +1,15 @@
 ---
 title: Paper Submission Guidelines
 layout: page
-permalink: /year/2025/info/call-participation/paper-submission-guidelines
+permalink: /year/2026/info/call-participation/paper-submission-guidelines
 active_nav: "Contribute"
 sidebar: call-for-participation
 contact: papers@ieeevis.org
 ---
 
-IEEE Vis follows the [area model](/year/2025/info/call-participation/area-model), and thus a paper for IEEE VIS should be submitted to one of six areas. Make sure that you carefully read both the descriptions for each of the six areas (see also the [area model FAQs](/year/2025/info/call-participation/area-model#frequently-asked-questions)) and the guidelines below before submitting your paper.  
+IEEE Vis follows the [area model](/year/2026/info/call-participation/area-model), and thus a paper for IEEE VIS should be submitted to one of six areas. Make sure that you carefully read both the descriptions for each of the six areas (see also the [area model FAQs](/year/2026/info/call-participation/area-model#frequently-asked-questions)) and the guidelines below before submitting your paper.  
 
-## New for 2025
+## New for 2026
 - **Extra week for supplemental material**: While the full paper deadline remains the same as ever (March 31), you may optionally use another week (until April 7) to prepare and submit your supplemental material in PCS.
 - **Student reviewer program**: Primary reviewers may optionally invite a student reviewer, whose review will be advisory in nature.
 - **Opt-in publication of anonymized reviews**: Authors of accepted papers may optionally choose to publish the anonymized reviews for their paper in OSF or another public repository.
@@ -24,12 +24,12 @@ IEEE Vis follows the [area model](/year/2025/info/call-participation/area-model)
 - [Abstract Submission](#abstract-submission)
 - [Plagiarism](#plagiarism)
 - [Review Process](#review-process)
-- [Student Reviewers](#student-reviewers-new-for-2025)
+- [Student Reviewers](#student-reviewers-new-for-2026)
 - [Page Length Restrictions](#page-length-restrictions)
 - [Supplemental Material](#supplemental-material)
 - [Resubmitting Rejected Papers](#resubmitting-rejected-papers)
 - [General Expectations](#general-expectations)
-- [Opt-in Publishing of Anonymized Reviews](#opt-in-publishing-of-anonymized-reviews-new-for-2025)
+- [Opt-in Publishing of Anonymized Reviews](#opt-in-publishing-of-anonymized-reviews-new-for-2026)
 - [Use of Generative AI in Paper Writing](#use-of-generative-ai-in-paper-writing)
 - [Expectations for References](#expectations-for-references)
 - [Ethics Guidelines](#ethics-guidelines)
@@ -48,7 +48,7 @@ IEEE Vis follows the [area model](/year/2025/info/call-participation/area-model)
   
 ## Submission System
 
-IEEE VIS uses the [Precision Conference System (PCS)](https://new.precisionconference.com/vgtc) to handle the submission and reviewing process. When submitting your manuscript, at the top of the PCS Submissions tab you should select ‘VGTC’ for the society, ‘VIS 2025’ for the conference/journal, and ‘VIS 2025 Full Papers’ for the track. Then, please make sure that you submit it to your intended area by choosing the appropriate area from the list of six areas. In the [area description page](/year/2025/info/call-participation/area-model), you can find information guiding you to choose an appropriate area along with example papers for each area.
+IEEE VIS uses the [Precision Conference System (PCS)](https://new.precisionconference.com/vgtc) to handle the submission and reviewing process. When submitting your manuscript, at the top of the PCS Submissions tab you should select ‘VGTC’ for the society, ‘VIS 2026’ for the conference/journal, and ‘VIS 2026 Full Papers’ for the track. Then, please make sure that you submit it to your intended area by choosing the appropriate area from the list of six areas. In the [area description page](/year/2026/info/call-participation/area-model), you can find information guiding you to choose an appropriate area along with example papers for each area.
 
 ## Formatting and Language Guidelines
 
@@ -93,7 +93,7 @@ Self-plagiarism, which is verbatim copying of text from the authors’ own prior
 * **Thesis**: If the previous paper was a thesis or dissertation, and the student is an author/co-author of the work, the work should be cited and copying of text is allowed.
 * **Non-archival**: If the previous paper appears at a non-archival and lightly-reviewed or non-reviewed venue such as posters, alt.chi/alt.vis, or other non-archived workshops, and the author list is identical or mostly overlapping, the work should be cited and copying of text is allowed. 
 * **Published**: If the previous paper has gone through peer review by an established publisher and is archived in the publisher’s digital library, copying of text is not allowed.
-* **Extended**: If the previous paper is a substantially extended paper from previous archivally (or semi-archivally) published submission (e.g. short paper from VIS or EuroVis), with identical or mostly overlapping author list, the work should be cited and copying of text is not allowed. [See Short Papers CFP guidance](/year/2025/info/call-participation/shortpapers) for more details.
+* **Extended**: If the previous paper is a substantially extended paper from previous archivally (or semi-archivally) published submission (e.g. short paper from VIS or EuroVis), with identical or mostly overlapping author list, the work should be cited and copying of text is not allowed. [See Short Papers CFP guidance](/year/2026/info/call-participation/shortpapers) for more details.
 
 ## Review Process
 
@@ -101,13 +101,13 @@ IEEE VIS papers undergo a rigorous review process involving at least three revie
 
 Decisions after the first round of reviews are usually conditional acceptances or rejections. All conditionally accepted papers come with written requirements for final acceptance. Effectively addressing these requirements in a second round version of the paper is essential and the responsibility of the authors. If the revised version of a paper fails to address feedback to the satisfaction of the reviewers, the paper will ultimately be rejected after the second reviewing round.  
 
-## Student Reviewers (new for 2025!)
+## Student Reviewers (new for 2026!)
 
-Starting with VIS 2025, we are introducing a "student reviewer" program, where primary reviewers may optionally invite a Ph.D. student (their own or someone else's) to write a review in an advisory role. Student reviewers do not take the place of regular reviewers: primary, secondary, and tertiary reviewers will still be responsible for assessing your work. Instead, student reviewers will provide another set of eyes on each submission, learning the craft of reviewing in the process. The primary reviewer may choose to include the student review in the decision-making process only if both primary and secondary agree on it. 
+Starting with VIS 2026, we are introducing a "student reviewer" program, where primary reviewers may optionally invite a Ph.D. student (their own or someone else's) to write a review in an advisory role. Student reviewers do not take the place of regular reviewers: primary, secondary, and tertiary reviewers will still be responsible for assessing your work. Instead, student reviewers will provide another set of eyes on each submission, learning the craft of reviewing in the process. The primary reviewer may choose to include the student review in the decision-making process only if both primary and secondary agree on it. 
 
 Student reviews will appear in your regular list of reviews at the end of the first (and second) round of reviewing. However, they will be carefully marked with their expertise set as "student". The primary's summary review will discuss whether and how the final review outcome incorporated the student review.
 
-For more details on the IEEE VIS Student Reviewer program, see this [guide](/year/2025/info/call-participation/student-reviewer-guide).
+For more details on the IEEE VIS Student Reviewer program, see this [guide](/year/2026/info/call-participation/student-reviewer-guide).
 
 ## Page Length Restrictions
 
@@ -128,7 +128,7 @@ We encourage the use of digital video to enhance a submission, particularly if p
 
 While most reviewers will take supplemental material into account when conducting their reviews, the authors should ensure that their submission will stand on its own even without the supplemental material.  
 
-**New for 2025**: The supplemental material fields for your submission in PCS will remain editable until midnight AoE on April 7. The purpose is to give authors additional time to prepare high-quality, comprehensive, and transparent supplemental materials. This includes any video figures submitted with your paper.  
+**New for 2026**: The supplemental material fields for your submission in PCS will remain editable until midnight AoE on April 7. The purpose is to give authors additional time to prepare high-quality, comprehensive, and transparent supplemental materials. This includes any video figures submitted with your paper.  
 
 Note that there is no requirement that authors use the extra week for supplemental material. You may finalize your supplemental material in time for the regular March 31 deadline.
 
@@ -151,11 +151,11 @@ When submitting your abstract (for the March 21 deadline) you will be asked to p
 
 Submissions will be treated as confidential communications during the review process, and thus submissions do not constitute public disclosure of any ideas therein. Submissions should contain no information or materials that will be proprietary or confidential at the time of publication (at the conference), and should cite no publications that are proprietary or confidential at the time of publication.  
 
-Each full paper accepted at IEEE VIS 2025 will be required to be presented by one of the authors. All presenters are required to register as a speaker. Diversity and inclusivity scholarships will be available to support the participation of speakers with financial needs.
+Each full paper accepted at IEEE VIS 2026 will be required to be presented by one of the authors. All presenters are required to register as a speaker. Diversity and inclusivity scholarships will be available to support the participation of speakers with financial needs.
 
-## Opt-in Publishing of Anonymized Reviews (new for 2025!)
+## Opt-in Publishing of Anonymized Reviews (new for 2026!)
 
-New for 2025, VIS will now allow authors of accepted papers to opt-in to having the anonymized reviews for their papers published in OSF or another public repository. The purpose of this initiative is to increase the transparency into the IEEE VIS publication process.  
+New for 2026, VIS will now allow authors of accepted papers to opt-in to having the anonymized reviews for their papers published in OSF or another public repository. The purpose of this initiative is to increase the transparency into the IEEE VIS publication process.  
 
 In practice, during final submission of the camera-ready version of your accepted paper, you will have to check a box in the submission form to allow reviews to be collected and published with your paper. Only papers for which **all** reviewers explicitly have agreed to having their review published can be included. It is possible that one or more reviewers will disagree even if you as an author have opted in. The VIS papers chairs have no mechanism to enforce acceptance; this by necessity requires consent by all parties.
 
@@ -173,7 +173,7 @@ In addition, we expect that authors provide a hyperlinked DOI for each entry for
 
 ## Ethics Guidelines
 
-IEEE VIS adheres to the [VGTC ethics guidelines for reviewers](http://tc.computer.org/vgtc/conferences/ethics-guidelines) and has established a [Code of Conduct](/year/2025/info/inclusion/code-of-conduct). In all aspects of the paper handling process, any possible violation of these guidelines is taken seriously and may be reported to the APCs/OPCs for further handling within the VIS organization. Special attention is paid to the identification and reporting of plagiarism and possibly unethical paper content is monitored carefully in the reviewing process, also. We assume a zero tolerance policy regarding harassment situations as outlined in the Code of Conduct, should any such situation occur in the paper handling process. Investigation and processing of reported cases may lead to an escalation to the IEEE level.
+IEEE VIS adheres to the [VGTC ethics guidelines for reviewers](http://tc.computer.org/vgtc/conferences/ethics-guidelines) and has established a [Code of Conduct](/year/2026/info/inclusion/code-of-conduct). In all aspects of the paper handling process, any possible violation of these guidelines is taken seriously and may be reported to the APCs/OPCs for further handling within the VIS organization. Special attention is paid to the identification and reporting of plagiarism and possibly unethical paper content is monitored carefully in the reviewing process, also. We assume a zero tolerance policy regarding harassment situations as outlined in the Code of Conduct, should any such situation occur in the paper handling process. Investigation and processing of reported cases may lead to an escalation to the IEEE level.
 
 ## Paper Submission Keywords
 

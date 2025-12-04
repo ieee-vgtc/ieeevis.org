@@ -1,7 +1,7 @@
 ---
 title: Destination
 layout: page
-permalink: /year/2025/destination
+permalink: /year/2026/destination
 active_nav: Destination
 contact: 
 ---
@@ -37,7 +37,7 @@ The international Eurolines long-distance bus routes connect all of Europe to Vi
 
 ## Austria Center Vienna
 
-VIS 2025 will take place in the [Austria Center Vienna](https://www.acv.at/en){:target="_blank"}, Austria’s largest congress centre.
+VIS 2026 will take place in the [Austria Center Vienna](https://www.acv.at/en){:target="_blank"}, Austria’s largest congress centre.
 
 <p>
   <img src="assets/venue-and-travel/austria-center-vienna.png" />

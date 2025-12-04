@@ -1,7 +1,7 @@
 ---
 title: Week at a Glance
 layout: page
-permalink: /year/2025/info/program/week-at-a-glance
+permalink: /year/2026/info/program/week-at-a-glance
 contact: program@ieeevis.org
 sidebar: program
 active_nav: "Program"
@@ -15,7 +15,7 @@ Below is a concise overview of the conference program.
 
 ## Doctoral Colloquium
 
-<a>**Saturday, November 1, 2025**</a><br />
+<a>**Saturday, November 1, 2026**</a><br />
 
 *9:00 AM - 5:00 PM (CET)*<br />
 **Doctoral Colloquium** (Invite-only event)<br />
@@ -36,7 +36,7 @@ Coffee breaks are planned between the first/second and third/fourth block.
 <hr/>
 
 <!-- ---------------------------------------------------------------------------------- -->
-<a>**Sunday, November 2, 2025**</a><br />
+<a>**Sunday, November 2, 2026**</a><br />
 
 *9:00 AM - 12:30 PM (CET)*<br />
 
@@ -44,7 +44,7 @@ Coffee breaks are planned between the first/second and third/fourth block.
 **[Workshop]** 16th Annual Workshop on Visual Analytics in Healthcare<br />
 **[Workshop]** Workshop on Topological Data Analysis and Visualization (TopoInVis)<br />
 **[Workshop]** 9th Workshop on Visualization for the Digital Humanities: VIS4DH ↔ DH4VIS<br />
-**[Workshop]** alt.VIS 2025<br />
+**[Workshop]** alt.VIS 2026<br />
 **[Tutorial]** Developing Immersive Visualizations and Interactions for the Web with Anu.js<br />
 **[Tutorial]** User-centered Evaluation in Visualization<br />
 **[Competition]** Bio+MedVis Challenge<br />
@@ -55,7 +55,7 @@ Coffee breaks are planned between the first/second and third/fourth block.
 **[Workshop]** 16th Annual Workshop on Visual Analytics in Healthcare<br />
 **[Workshop]** Seventh Workshop on Visualization for Communication (VisComm)<br />
 **[Workshop]** Uncertainty Visualization: Unraveling Relationships of Uncertainty, AI, and Decision-Making<br />
-**[Workshop]** The 2nd MERCADO Workshop at IEEE VIS 2025: Multimodal Experiences for Remote Communication Around Data Online<br />
+**[Workshop]** The 2nd MERCADO Workshop at IEEE VIS 2026: Multimodal Experiences for Remote Communication Around Data Online<br />
 **[Tutorial]** Live Collaborative Immersive Analytics Development with DashSpace<br />
 **[Tutorial]** Running Online User Studies with the reVISit Framework<br />
 **[Competition]** SciVis Contest<br />
@@ -63,7 +63,7 @@ Coffee breaks are planned between the first/second and third/fourth block.
 <hr/>
 
 <!-- ---------------------------------------------------------------------------------- -->
-<a>**Monday, November 3, 2025**</a><br/>
+<a>**Monday, November 3, 2026**</a><br/>
 
 *9:00 AM - 12:30 PM (CET)*<br/>
 
@@ -71,7 +71,7 @@ Coffee breaks are planned between the first/second and third/fourth block.
 **[Workshop]** Envisioning a Research Agenda for Input Visualization<br />
 **[Workshop]** Human Factors in Immersive Analytics<br />
 **[Workshop]** EduVis: 3rd IEEE VIS Workshop on Visualization Education, Literacy, and Activities<br />
-**[Workshop]** LDAV 2025 - The 15th IEEE Workshop on Large Data Analysis & Visualization<br />
+**[Workshop]** LDAV 2026 - The 15th IEEE Workshop on Large Data Analysis & Visualization<br />
 **[Tutorial]** MLLM4Vis: Multimodal Large Language Models for Information Visualization<br />
 **[Tutorial]** Using Color Harmony and Gen AI Suggestion to Transform your Data Visualizations<br />
 **[Tutorial]** Hands-On TTK Tutorial: Solving Practical Problems in Small Groups<br />
@@ -102,7 +102,7 @@ Coffee breaks are planned between the first/second and third/fourth block.
 <hr />
 
 <!-- ---------------------------------------------------------------------------------- -->
-### Tuesday, November 4, 2025
+### Tuesday, November 4, 2026
 
 #### Morning
 
@@ -139,12 +139,12 @@ Coffee breaks are planned between the first/second and third/fourth block.
 #### Evening
 
 *6:30 PM - 9:00 PM (CET)*<br/>
-* **Welcome Reception** ([Natural History Museum](/year/2025/info/social-events/welcome-reception))
+* **Welcome Reception** ([Natural History Museum](/year/2026/info/social-events/welcome-reception))
 
 <hr />
 
 <!-- ---------------------------------------------------------------------------------- -->
-### Wednesday, November 5, 2025
+### Wednesday, November 5, 2026
 
 #### Morning
 
@@ -204,15 +204,15 @@ Coffee breaks are planned between the first/second and third/fourth block.
 #### Evening
 
 *5:00 PM - 6:00 PM (CET)*<br/>
-* **Poster Session** ([Austria Center Vienna](/year/2025/info/social-events/poster-session))
+* **Poster Session** ([Austria Center Vienna](/year/2026/info/social-events/poster-session))
 
 *6:00 PM - 9:00 PM (CET)*<br/>
-* **Conference Dinner** ([Austria Center Vienna](/year/2025/info/social-events/conference-dinner))
+* **Conference Dinner** ([Austria Center Vienna](/year/2026/info/social-events/conference-dinner))
 
 <hr />
 
 <!-- ---------------------------------------------------------------------------------- -->
-### Thursday, November 6, 2025
+### Thursday, November 6, 2026
 
 #### Morning
 
@@ -277,12 +277,12 @@ Coffee breaks are planned between the first/second and third/fourth block.
 * **VISAP Exhibition** ([University of Applied Arts (Atrium)](https://maps.app.goo.gl/cc37KProFbbk79bj7){:target= "_blank"})
 
 *7:00 PM (CET)*<br/>
-* **OC Dinner** - invitation only ([Melker Stiftskeller](/year/2025/info/social-events/oc-dinner))
+* **OC Dinner** - invitation only ([Melker Stiftskeller](/year/2026/info/social-events/oc-dinner))
 
 <hr />
 
 <!-- ---------------------------------------------------------------------------------- -->
-### Friday, November 7, 2025
+### Friday, November 7, 2026
 
 #### Morning
 

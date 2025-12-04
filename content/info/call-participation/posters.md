@@ -1,13 +1,13 @@
 ---
 title: Posters - Call for Participation
 layout: page
-permalink: /year/2025/info/call-participation/posters
+permalink: /year/2026/info/call-participation/posters
 contact: posters@ieeevis.org
 active_nav: "Contribute"
 sidebar: submit-your-work
 ---
 
-The IEEE VIS 2025 Poster Program offers a timely venue to present and discuss original work or highlights of recent work published or presented in another venue (please see the plagiarism statement in the end) through a forum that encourages graphical presentation, demonstration, and active engagement with IEEE VIS participants.
+The IEEE VIS 2026 Poster Program offers a timely venue to present and discuss original work or highlights of recent work published or presented in another venue (please see the plagiarism statement in the end) through a forum that encourages graphical presentation, demonstration, and active engagement with IEEE VIS participants.
 
 The presentation of posters will happen as a physical event at the conference. There will be 1-2 dedicated poster sessions where poster authors can meet and discuss their work with conference participants. An additional web presence of posters will supplement the traditional physical installation of poster boards. 
 
@@ -40,7 +40,7 @@ Posters are non-archival, and the 2-page summaries will not be included in the c
 
 All posters will be submitted via [Precision Conference (PCS)](https://new.precisionconference.com/). 
 
-After logging into PCS, navigate to the "Submissions" view and start your submission by selecting "VGTC > VIS 2025 > VIS 2025 Posters".
+After logging into PCS, navigate to the "Submissions" view and start your submission by selecting "VGTC > VIS 2026 > VIS 2026 Posters".
 
 ### PLAGIARISM
 All submissions must be either: 1) original work that has not been presented previously at any workshop, symposium, or conference and not published previously in any archived conference proceeding, magazine, or journal or 2) a summary that highlights work presented or published by the authors in a related venue with a clear statement of attribution to the original work.
@@ -48,9 +48,9 @@ All submissions must be either: 1) original work that has not been presented pre
 At the time of submission, the authors are required to state explicitly in the submission form that the submitted work is the work of the authors themselves or is a summary of the authors’ previously presented/published work with clear attribution. Plagiarism in any form is unacceptable and will lead to the removal of the submission from the review process. For more information, please see the [IEEE Plagiarism FAQ](https://www.ieee.org/publications/rights/plagiarism/plagiarism.html) and the [IEEE Publication Services and Products Board Operations Manual](https://pspb.ieee.org/images/files/files/opsmanual.pdf). 
 
 ### IMPORTANT DATES
-* Submission Deadline: **Tuesday, June 24, 2025**
-* Notification of Acceptance: **Thursday, July 24, 2025**
-* Final Submission of camera-ready (1) 2-page Poster Summary PDF and (2) full Poster PDF: **Thursday, August 21, 2025**
+* Submission Deadline: **Tuesday, June 24, 2026**
+* Notification of Acceptance: **Thursday, July 24, 2026**
+* Final Submission of camera-ready (1) 2-page Poster Summary PDF and (2) full Poster PDF: **Thursday, August 21, 2026**
 
 All deadlines are at 11:59 pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth)**.
 
@@ -66,7 +66,7 @@ For authors who do not wish to travel with their posters, several printing shops
 
 ### ACCESSIBILITY
 
-All poster PDFs should adhere to the [IEEE VIS Accessibility Guidelines](https://ieeevis.org/year/2025/info/call-participation/make-pdf-accessible) and should be designed and formatted to ensure they can be easily accessed by a wide audience, particularly members of the community who rely on screen readers. 
+All poster PDFs should adhere to the [IEEE VIS Accessibility Guidelines](https://ieeevis.org/year/2026/info/call-participation/make-pdf-accessible) and should be designed and formatted to ensure they can be easily accessed by a wide audience, particularly members of the community who rely on screen readers. 
 
 Given the highly visual nature of VIS Posters, all authors should take care to:
 * Augment your PDF to add alt text for all images.

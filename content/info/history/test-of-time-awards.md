@@ -1,7 +1,7 @@
 ---
 title: IEEE VIS Test-of-Time Awards
 layout: page
-permalink: /year/2025/info/history/test-of-time-awards
+permalink: /year/2026/info/history/test-of-time-awards
 contact: archive@ieeevis.org
 ---
 
@@ -12,13 +12,13 @@ contact: archive@ieeevis.org
 ### 10-Years InfoVis Test-of-Time Award
 Kanit Wongsuphasawat, Dominik Moritz, Anushka Anand, Jock D. Mackinlay, Bill Howe, Jeffrey Heer
 **Voyager: Exploratory Analysis via Faceted Browsing of Visualization Recommendations**
-(Awarded at: VIS 2025)
+(Awarded at: VIS 2026)
 [10.1109/TVCG.2015.2467191](https://doi.org/10.1109/TVCG.2015.2467191)
 
 ### 10-Years VAST Test-of-Time Award
 Stef van den Elzen, Danny Holten, Jorik Blaas, Jarke J. van Wijk
 **Reducing Snapshots to Points: A Visual Analytics Approach to Dynamic Network Exploration**
-(Awarded at: VIS 2025)
+(Awarded at: VIS 2026)
 [10.1109/TVCG.2015.2468078](https://doi.org/10.1109/TVCG.2015.2468078)
 
 <hr />
@@ -31,7 +31,7 @@ Stef van den Elzen, Danny Holten, Jorik Blaas, Jarke J. van Wijk
 ### 11-Years SciVis Test-of-Time Award
 Peter Lindstrom
 **Fixed-Rate Compressed Floating-Point Arrays**
-(Awarded at: VIS 2025)
+(Awarded at: VIS 2026)
 [10.1109/TVCG.2014.2346458](https://doi.org/10.1109/TVCG.2014.2346458)
 
 ### 10-Years InfoVis Test-of-Time Award
@@ -56,7 +56,7 @@ Dominik Sacha, Andreas Stoffel, Florian Stoffel, Bum Chul Kwon, Geoffrey Ellis, 
 ### 12-Years SciVis Test-of-Time Award
 Ross T. Whitaker, Mahsa Mirzargar, Robert M. Kirby
 **Contour Boxplots: A Method for Characterizing Uncertainty in Feature Sets from Simulation Ensembles**
-(Awarded at: VIS 2025)
+(Awarded at: VIS 2026)
 [10.1109/TVCG.2013.143](https://doi.org/10.1109/TVCG.2013.143)
 
 ### 10-Years InfoVis Test-of-Time Award
@@ -255,7 +255,7 @@ Jerry Alan Fails, Amy Karlson, Layla Shahamat, Ben Shneiderman
 ### 20-Years InfoVis Test-of-Time Award
 Leland Wilkinson, Anushka Anand, Robert L. Grossman
 **Graph-theoretic scagnostics**
-(Awarded at: VIS 2025)
+(Awarded at: VIS 2026)
 [10.1109/INFVIS.2005.1532142](https://doi.org/10.1109/INFVIS.2005.1532142)
 
 ### 15-Years SciVis Test-of-Time Award
@@ -353,7 +353,7 @@ ACM TOG 21(4):833-854, 2002
 ### 25-Years SciVis Test-of-Time Award
 Vivek Verma, David L. Kao, Alex Pang
 **A flow-guided streamline seeding strategy**
-(Awarded at: VIS 2025)
+(Awarded at: VIS 2026)
 [10.1109/VISUAL.2000.885690](https://doi.org/10.1109/VISUAL.2000.885690)
 
 ### 20-Years InfoVis Test-of-Time Award

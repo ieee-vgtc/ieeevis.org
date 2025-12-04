@@ -1,7 +1,7 @@
 ---
 title: Restructuring
 layout: page
-permalink: /year/2025/governance/restructuring
+permalink: /year/2026/governance/restructuring
 ---
 
 

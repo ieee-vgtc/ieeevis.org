@@ -1,7 +1,7 @@
 ---
 title: Historical Keynote and Capstone Talks
 layout: page
-permalink: /year/2025/info/history/keynote-capstone
+permalink: /year/2026/info/history/keynote-capstone
 contact: archive@ieeevis.org
 ---
 

@@ -1,15 +1,15 @@
 ---
-title: VIS 2025 Jobs
+title: VIS 2026 Jobs
 layout: page
-permalink: /year/2025/info/community/jobs
+permalink: /year/2026/info/community/jobs
 active_nav: "Events & Community"
 sidebar: community
 contact: community@ieeevis.org
 ---
 
-## Welcome to the VIS 2025 site for job postings
+## Welcome to the VIS 2026 site for job postings
 
-We will collect job postings and display them here throughout the VIS 2025 meeting. 
+We will collect job postings and display them here throughout the VIS 2026 meeting. 
 
 [VIS Community Job Posting Form](https://forms.gle/Mjt7MGaZFrod3att5)
 
@@ -45,7 +45,7 @@ Start date: 08/17/2026
 Start time flexible? Yes  
 Contact: Wai Tong, wtong@tamu.edu
 
-[**Phd Position in Graph Drawing, Network Visualization and Information Visualization at Technical University of Munich**](https://portal.mytum.de/jobs/wissenschaftler/NewsArticle_20250924_095417)
+[**Phd Position in Graph Drawing, Network Visualization and Information Visualization at Technical University of Munich**](https://portal.mytum.de/jobs/wissenschaftler/NewsArticle_20260924_095417)
 
 Location: Heilbronn, Germany  
 Start date: 1/5/2026  
@@ -111,7 +111,7 @@ Contact: Lijie Yao, yaolijie0219@gmail.com
 **Researcher Assistant at Xi'an Jiaotong-Liverpool University**
 
 Location: Suzhou, Jiangsu, China
-Start date: 11/1/2025  
+Start date: 11/1/2026  
 Start time flexible? Yes  
 Contact: Lijie Yao, yaolijie0219@gmail.com
 
@@ -132,7 +132,7 @@ Contact:rraidou@gmail.com
 
 ## Academy
 
-[**Postdoctoral Position (24 months) on Interactive Visualization and Decision Support for Sustainable Winemaking at INRAE, Université Paris Saclay**](https://mia-ps.inrae.fr/sites/default/files/2025-10/PostDoc-AD-Long_3.pdf)
+[**Postdoctoral Position (24 months) on Interactive Visualization and Decision Support for Sustainable Winemaking at INRAE, Université Paris Saclay**](https://mia-ps.inrae.fr/sites/default/files/2026-10/PostDoc-AD-Long_3.pdf)
 
 Location: Palaiseau, Paris Region, France
 Start date: 1/5/2026  

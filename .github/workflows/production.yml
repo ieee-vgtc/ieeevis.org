@@ -1,5 +1,5 @@
 ## Author: Alper Sarikaya
-## Last modified: 2025-01-07 ❄️
+## Last modified: 2026-01-07 ❄️
 ## This script should be run only when a released is published *for the current year*.
 ##
 ## This action will build the entire site from scratch, taking ALL commits from *other*
@@ -97,13 +97,18 @@ jobs:
         git switch -f vis2024
         make new2024
 
-    ## BUILD THIS YEAR (currently: vis2025)
+    - name: Build previous year (2025)
+      run: |
+        git switch -f vis2025
+        make new2025
+
+    ## BUILD THIS YEAR (currently: vis2026)
     ## ./scripts/fix_file_extensions.sh moves some evergreen content from current year
     ##    ∟ also only check out the tag linked to the triggering event
-    - name: Build this year (2025) + deploy
+    - name: Build this year (2026) + deploy
       env:
         IEEEVIS_AWS_USER: default
         AWS_DISTRIBUTION_ID: ${{ secrets.aws_distribution_id_production }}
       run: |
         git switch -f --detach ${{ github.event.release.tag_name }}
-        make release2025
+        make release2026

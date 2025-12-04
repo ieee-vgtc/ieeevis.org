@@ -2,7 +2,7 @@
 title: Recommendations by Locals
 layout: page
 active_nav: "Vienna, Austria"
-permalink: /year/2025/info/registration-and-travel/vienna-tips
+permalink: /year/2026/info/registration-and-travel/vienna-tips
 contact: general_chair@ieeevis.org
 ---
 
@@ -14,7 +14,7 @@ Here you can find some tips from locals for people visiting Vienna.
 <table>
     <tr>
         <td style="width: 200px">
-            <img src="/year/2025/assets/venue-and-travel/vienna-tips-01.png" />
+            <img src="/year/2026/assets/venue-and-travel/vienna-tips-01.png" />
         </td>
         <td>
             A Viennese sausage stand (<i>Würstelstand</i>) is a free-standing sales stand that mainly offers small meat dishes for quick consumption.
@@ -30,7 +30,7 @@ Here you can find some tips from locals for people visiting Vienna.
 <table>
     <tr>
         <td style="width: 200px">
-            <img src="/year/2025/assets/venue-and-travel/vienna-tips-02.png" />
+            <img src="/year/2026/assets/venue-and-travel/vienna-tips-02.png" />
         </td>
         <td>
             The right of wine growers to serve their own wine in their own house without a special license goes back to 1784.
@@ -46,7 +46,7 @@ Here you can find some tips from locals for people visiting Vienna.
 <table>
     <tr>
         <td style="width: 200px">
-            <img src="/year/2025/assets/venue-and-travel/vienna-tips-03.png" />
+            <img src="/year/2026/assets/venue-and-travel/vienna-tips-03.png" />
         </td>
         <td>
             The Viennese coffee house (<i>Kaffeehaus</i>) is a mixture of cafe and restaurant.
@@ -62,7 +62,7 @@ Here you can find some tips from locals for people visiting Vienna.
 <table>
     <tr>
         <td style="width: 200px">
-            <img src="/year/2025/assets/venue-and-travel/vienna-tips-04.png" />
+            <img src="/year/2026/assets/venue-and-travel/vienna-tips-04.png" />
         </td>
         <td>
             Vienna has a long tradition of tea houses, tea has been sold in Vienna since 1862.
@@ -79,7 +79,7 @@ Here you can find some tips from locals for people visiting Vienna.
 <table>
     <tr>
         <td style="width: 200px">
-            <img src="/year/2025/assets/venue-and-travel/vienna-tips-05.png" />
+            <img src="/year/2026/assets/venue-and-travel/vienna-tips-05.png" />
         </td>
         <td>
             Vienna has a number of smaller stages for various types of music.
@@ -95,7 +95,7 @@ Here you can find some tips from locals for people visiting Vienna.
 <table>
     <tr>
         <td style="width: 200px">
-            <img src="/year/2025/assets/venue-and-travel/vienna-tips-06.png" />
+            <img src="/year/2026/assets/venue-and-travel/vienna-tips-06.png" />
         </td>
         <td>
             Porgy & Bess is one of the ten best jazz clubs in Europe.

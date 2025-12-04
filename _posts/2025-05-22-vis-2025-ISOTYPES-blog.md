@@ -1,17 +1,17 @@
 ---
-title: VIS 2025 takes place in an anniversary year
+title: VIS 2026 takes place in an anniversary year
 description: 
 layout: blog-page
 active_nav: Blog
 authors: The VIS General Chairs
 author_contact: general_chair@ieeevis.org
-permalink: /blog/vis-2025-GC-blog-ISOTYPES
+permalink: /blog/vis-2026-GC-blog-ISOTYPES
 ---
 ### Otto Neurath and the ISOTYPE - 100 Years of Visual Language
 
 #### We could not have picked a more fitting year for IEEE VIS in Vienna!
 
-2025 is a special anniversary year celebrating the development of a visual language.
+2026 is a special anniversary year celebrating the development of a visual language.
 One hundred years ago, **Otto Neurath** ([https://en.wikipedia.org/wiki/Otto_Neurath](https://en.wikipedia.org/wiki/Otto_Neurath){:target="_blank"}) and his team in Vienna began developing what would become the **ISOTYPE** - short for the *International System of Typographic Picture Education*.
 What started in the context of post-World War I Austria as a practical method for educating the public about social and economic conditions has since become an important reference point in the history of visual communication.
 
@@ -35,4 +35,4 @@ He explicitly rejected the idea of "illustrating" text; for him, the image shoul
 The underlying principles of the ISOTYPE system still resonate in today's visualization guidelines.
 As a visual depiction of data visualization is central to communicating science, policy, and social change, it is helpful to revisit Otto Neurath's work and his contribution to education.
 
-##### IEEE VIS 2025 in Vienna, a century later, will be the perfect venue to remember Otto Neurath's work.
+##### IEEE VIS 2026 in Vienna, a century later, will be the perfect venue to remember Otto Neurath's work.

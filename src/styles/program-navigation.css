@@ -63,7 +63,7 @@
     /* Fixed on small screens */
     position: fixed;
     width: 100vw;
-    top: 70px;
+    /* top: 70px; */
 }
 
     @screen md {
@@ -296,38 +296,6 @@
     }
 
 
-/* Headings and Typography */
-
-.dropdown__heading {
-  @apply uppercase font-bold text-gray-700 tracking-wide;
-}
-
-.dropdown__description {
-  @apply text-gray-600 text-sm;
-}
-
-.dropdown li a {
-    @apply text-secondary font-bold tracking-wide;
-}
-
-.dropdown li a.dropdown__disabled {
-    @apply text-gray-400;
-}
-
-.dropdown a:hover {
-    text-decoration: underline;
-}
-
-
-/* List */
-
-.dropdown li {
-    @apply mb-1;
-}
-
-.dropdown li:last-child p {
-    @apply mb-0;
-}
 
 
 

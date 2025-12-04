@@ -2,13 +2,13 @@
 title: Conference Registration
 layout: page
 active_nav: "Attend"
-permalink: /year/2025/info/registration-and-travel/conference-registration
+permalink: /year/2026/info/registration-and-travel/conference-registration
 contact: finance@ieeevis.org
 ---
 
-## VIS 2025 EVENT REGISTRATION
+## VIS 2026 EVENT REGISTRATION
 
-The 2025 IEEE Visualization and Visual Analytics Conference, running from November 2 - 7, is organized as an on-site event.
+The 2026 IEEE Visualization and Visual Analytics Conference, running from November 2 - 7, is organized as an on-site event.
 The conference will be held at the Austria Center Vienna (ACV) in Vienna, Austria.
 There will be a completely virtual session (organized in Zoom) for presenters who are not able to travel.
 
@@ -17,7 +17,7 @@ There will be a completely virtual session (organized in Zoom) for presenters wh
 
 ### Important Dates
 <ul>
-<li>Early bird registration deadline: <strong>September 21, 2025</strong></li>
+<li>Early bird registration deadline: <strong>September 21, 2026</strong></li>
 </ul>
 
 
@@ -27,7 +27,7 @@ There will be a completely virtual session (organized in Zoom) for presenters wh
 <ul>
 <li>One speaker for each main conference paper, main conference short paper, or invited journal paper <b>MUST</b> register under the On-site Speaker Conference Registration or the Virtual Speaker Conference Registration option (Student Speaker options will be available).</li>
 <li>Presenters can add one additional paper to their Speaker Conference Registration (i.e., a maximum of 2 papers per Speaker Conference Registration).</li>
-<li>Speaker Conference Registration includes admission to all conference sessions, symposia, tutorials and workshops, welcome reception (Tuesday), conference dinner (Wednesday), and access to VIS 2025 online content.</li>
+<li>Speaker Conference Registration includes admission to all conference sessions, symposia, tutorials and workshops, welcome reception (Tuesday), conference dinner (Wednesday), and access to VIS 2026 online content.</li>
 <li>Presenters participating at symposia, workshops, tutorials, or panels <b>SHOULD NOT</b> select the Speaker Conference Registration category. Instead, they need to use the On-site Conference Registration category.</li>
 </ul>
 
@@ -73,9 +73,9 @@ We need to charge 20% VAT on the registration fees.
 
 Attendees should register online in advance and pay via credit card or wire transfer.
 <ul>
-  <li><b>Full Week Conference Registration Includes:</b> Admission to all conference sessions, symposia, tutorials and workshops, welcome reception (Tuesday), conference dinner (Wednesday), and access to VIS 2025 online content.</li>
-  <li><b>One Day Conference Registration Includes:</b> One day admission to any conference sessions, symposia, tutorials, and workshops for that day, and access to VIS 2025 online content.</li>
-  <li><b>Two Day Conference Registration Includes:</b> Two day admission to any conference sessions, symposia, tutorials, and workshops for those days and access to VIS 2025 online content.</li>
+  <li><b>Full Week Conference Registration Includes:</b> Admission to all conference sessions, symposia, tutorials and workshops, welcome reception (Tuesday), conference dinner (Wednesday), and access to VIS 2026 online content.</li>
+  <li><b>One Day Conference Registration Includes:</b> One day admission to any conference sessions, symposia, tutorials, and workshops for that day, and access to VIS 2026 online content.</li>
+  <li><b>Two Day Conference Registration Includes:</b> Two day admission to any conference sessions, symposia, tutorials, and workshops for those days and access to VIS 2026 online content.</li>
 </ul>
 IEEE VIS provides discounted registration rates for students and IEEE Members.
 
@@ -189,7 +189,7 @@ If you have additional clarification questions, please contact <a href="mailto:r
 
 <!-- ---------------------------------------------------------------------------------- -->
 
-## ACCESS TO 2025 ONLINE CONTENT
+## ACCESS TO 2026 ONLINE CONTENT
 
 Individuals <b>not registered as in-person conference participants or virtual speakers</b> can purchase access to the online content.
 <b>Online content access includes:</b> Access to online content (i.e., presentation recordings), including downloadable proceedings.
@@ -212,6 +212,6 @@ Individuals <b>not registered as in-person conference participants or virtual sp
 </tr>
 </table>
 
-<a class="button" href="https://www.eventbrite.com/e/2025-ieee-vis-access-to-online-content-tickets-1461995049549" target="_blank"> ACCESS TO ONLINE CONTENT </a>
+<a class="button" href="https://www.eventbrite.com/e/2026-ieee-vis-access-to-online-content-tickets-1461995049549" target="_blank"> ACCESS TO ONLINE CONTENT </a>
 
 **Access to online content registration fees are not refundable.**

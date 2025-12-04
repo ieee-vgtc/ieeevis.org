@@ -1,5 +1,5 @@
 ## Author: Alper Sarikaya
-## Last modified: 2025-01-07 ❄️
+## Last modified: 2026-01-07 ❄️
 ## This script should be run on every commit to an active branch on this repository.
 ## This action will build the entire site from scratch and deploy to the staging S3 bucket.
 
@@ -8,7 +8,7 @@ name: build staging
 on:
   push:
     # build staging whenever someone pushes to master (archive), previous year's (vis2019,
-    # vis2020, vis2021, vis2022, vis2023, vis2024), or this year's site (vis2025)
+    # vis2020, vis2021, vis2022, vis2023, vis2024), or this year's site (vis2026)
     branches:
       - master
       - vis2019
@@ -18,6 +18,7 @@ on:
       - vis2023
       - vis2024
       - vis2025
+      - vis2026
 
 jobs:
   build:
@@ -90,14 +91,19 @@ jobs:
         git switch -f vis2024
         make new2024
 
-    ## BUILD THIS YEAR (currently: vis2025)
+    - name: Build previous year (2025)
+      run: |
+        git switch -f vis2025
+        make new2025
+
+    ## BUILD THIS YEAR (currently: vis2026)
     ## ./scripts/fix_file_extensions.sh moves some evergreen content from current year
-    - name: Build this year (2025) + deploy
+    - name: Build this year (2026) + deploy
       env:
         IEEEVIS_AWS_USER: default
         AWS_DISTRIBUTION_ID: ${{ secrets.aws_distribution_id_staging }}
       run: |
-        git switch -f vis2025
-        make staging2025
+        git switch -f vis2026
+        make staging2026
 
 

@@ -39,7 +39,7 @@ Primary reviewers who invite student reviewers commit to mentoring them througho
 
 **Important**: Primary reviewers should do their best not to influence the student reviewer's decision or try to align their opinion with their own.
 
-Student reviewers will be directed to the standard [IEEE VIS reviewing guidelines](https://www.ieeevis.org/year/2025/info/call-participation/review-instructions) and receive clear instructions about their role in the process. Their reviews should maintain the same professional standards as other reviews, though they are considered advisory in nature.  
+Student reviewers will be directed to the standard [IEEE VIS reviewing guidelines](https://www.ieeevis.org/year/2026/info/call-participation/review-instructions) and receive clear instructions about their role in the process. Their reviews should maintain the same professional standards as other reviews, though they are considered advisory in nature.  
 
 ## Writing a Student Review
 As a student reviewer for IEEE VIS, you have the opportunity to contribute to the peer review process while learning from experienced researchers. Your review is considered advisory, but it can still provide valuable perspective to both the authors and other reviewers.  
@@ -92,7 +92,7 @@ Engage in the discussion forum, even if briefly:
 - Ask questions if you're uncertain about something
 
 ## Review Resources and Guides
-- The [IEEE VIS Reviewing Guide](https://ieeevis.org/year/2025/info/call-participation/review-instructions) 
+- The [IEEE VIS Reviewing Guide](https://ieeevis.org/year/2026/info/call-participation/review-instructions) 
 - [How to Review HCI/Visualization Papers (Niklas Elmqvist)](https://niklaselmqvist.medium.com/how-to-review-hci-visualization-papers-7e51141c3868) 
 - [Mistakes Reviewers Make (Niklas Elmqvist)](https://niklaselmqvist.medium.com/mistakes-reviewers-make-ce3a4c595aa2) 
 - [Tips for being a Good Visualization Paper Reviewer (John Stasko)](https://jts3blog.wordpress.com/2016/12/23/tips-for-being-a-good-visualization-paper-reviewer/) 

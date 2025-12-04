@@ -1,8 +1,8 @@
 ---
-title: VIS 2025 Childcare Room
+title: VIS 2026 Childcare Room
 layout: page
 active_nav: "Attend"
-permalink: /year/2025/info/inclusion/viskids
+permalink: /year/2026/info/inclusion/viskids
 contact: viskids@ieeevis.org
 ---
 
@@ -60,8 +60,8 @@ Grants of up to $750 per family are available for VIS attendees who incur extra 
 ### Application and deadline
 
 * [Application Form](https://forms.gle/AGNLLFfF6YwawRZ98)
-* ~~Priority Deadline: August 28, 2025~~
-* ~~Priority Notification: August 31, 2025~~
+* ~~Priority Deadline: August 28, 2026~~
+* ~~Priority Notification: August 31, 2026~~
 * After the priority deadline decisions will be made on a rolling basis until funds run out.
 
 

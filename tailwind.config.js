@@ -1,37 +1,32 @@
 // Tailwind Config
 
 const { colors } = require('tailwindcss/defaultTheme')
-//#E9A34F
-// 110 182 239 primary #6EB6EF light blue
-// 233 163 79 secondary #E9A34F orange
-// darker orange #a46314
-// 63 101 127 other #3F657F dark blue
 
 module.exports = {
-	content: ['./_site/*.html'],
+  content: ['./_site/*.html'],
   theme: {
     colors: {
       primary: {
-        default: '#DA171C', 
-        800: '#DA171C',
-        700: '#DE3135',
-        600: '#E24B4E',
-        500: '#E66468',
-        200: '#F3B2B3',
+        default: '#f58220',
+        800: '#934E13',
+        700: '#C4681A',
+        600: '#f58220',
+        500: '#F79B4D',
+        200: '#F9B479',
         100: colors.white
       },
       secondary: {
-        default: '#575756', //'#3F657F',//'#8ca8c4', //'#1d3160',//'#6f2184', // '#c42026',
-        800: '#575756',//'#8ca8c4',//'#1d3160',//'#6f2184', // '#b42026',
-        700: '#7e7e7d',//'#8ca8c4',//'#8c3800',//'#853899', // '#c42026',
-        600: '#a7a7a7',//'#8ca8c4',//'#9b4faf', // '#d3855f',
-        200: '#d2d2d2',//colors.white, // '#e0a778',
+        default: '#e11783',
+        800: '#B41268',
+        700: '#e11783',
+        600: '#E7459C',
+        200: '#ED74B5',
         100: colors.white,
       },
       accent: {
-        default: '#575756', //'#3F657F',//'#8ca8c4',// '#1d3160',//'#6f2184', // '#b9aba1',,
-        minor: '#DA171C',//'#8ca8c4',// '#fbc31b',
-        blue: '#878787',//'#8ca8c4',// '#fbc31b',
+        default: '#693a19',
+        minor: '#f58220',
+        blue: '#e11783',
       },
       black: colors.black,
       white: colors.white,

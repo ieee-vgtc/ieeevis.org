@@ -2,7 +2,7 @@
 title: Travel Information
 layout: page
 active_nav: "Attend"
-permalink: /year/2025/info/registration-and-travel/travel-information
+permalink: /year/2026/info/registration-and-travel/travel-information
 contact: general_chair@ieeevis.org
 ---
 
@@ -11,7 +11,7 @@ Some more information on how to travel to the conference.
 # Vienna, Austria
 
 Vienna's central location in Europe makes it a hub with excellent transport links from all over the world.
-Since VIS 2025 is a **Green meeting**, we encourage you to select climate-friendly travel by train or bus.
+Since VIS 2026 is a **Green meeting**, we encourage you to select climate-friendly travel by train or bus.
 
 ## Traveling By Train
 
@@ -24,7 +24,7 @@ Vienna is the largest night train hub in the EU, providing multiple overnight op
 More information on the train network can be found on the [ÖBB rail network website](https://www.oebb.at/en/){:target="_blank"}.
 
 <p>
-  <img src="/year/2025/assets/venue-and-travel/travel-information-train.png" />
+  <img src="/year/2026/assets/venue-and-travel/travel-information-train.png" />
 </p>
 
 ## Traveling By Bus/Car
@@ -36,7 +36,7 @@ As tolls are compulsory on all motorways and expressways in Austria, you will al
 Parking fees in the short-stay parking zone apply to almost the entire Vienna metropolitan area.
 
 <p>
-  <img src="/year/2025/assets/venue-and-travel/travel-information-road.png" />
+  <img src="/year/2026/assets/venue-and-travel/travel-information-road.png" />
 </p>
 
 ## Traveling By Plane
@@ -47,5 +47,5 @@ The majority of European capitals are two to three hours away by plane.
 Because flying is among the most carbon-intensive activities an individual can undertake, it is highly recommended to [compensate for these emissions through CO2 offsetting](https://www.atmosfair.de/en/air_travel_and_climate/flugverkehr_und_klima/climate_impact_air_traffic/){:target="_blank"}.
 
 <p>
-  <img src="/year/2025/assets/venue-and-travel/travel-information-plane.png" />
+  <img src="/year/2026/assets/venue-and-travel/travel-information-plane.png" />
 </p>

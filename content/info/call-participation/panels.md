@@ -1,13 +1,13 @@
 ---
 title: Panels
 layout: page
-permalink: /year/2025/info/call-participation/panels
+permalink: /year/2026/info/call-participation/panels
 contact: panels_tutorials@ieeevis.org
 active_nav: "Contribute"
 sidebar: submit-your-work
 ---
 
-IEEE VIS 2025 Panels should address contemporary, important and/or controversial debates, issues and applications in visualization and related topics. In particular, we invite panels that:
+IEEE VIS 2026 Panels should address contemporary, important and/or controversial debates, issues and applications in visualization and related topics. In particular, we invite panels that:
 
 * Bring together interest groups and discuss cross-cutting issues that are of interest to the broad VIS community
 * Connect visualization with interesting application fields
@@ -49,9 +49,9 @@ We encourage you to review accepted tutorials from recent conferences: [2024](ht
 
 | Date | Activity |
 |------|----------|
-| Friday, June 27, 2025 | Proposal Submission |
-| Friday, July 25, 2025 | Notification |
-| Friday, August 22, 2025 | Final Submission of Panel Summaries |
+| Friday, June 27, 2026 | Proposal Submission |
+| Friday, July 25, 2026 | Notification |
+| Friday, August 22, 2026 | Final Submission of Panel Summaries |
       
 All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth) (same as 2024)**.
 

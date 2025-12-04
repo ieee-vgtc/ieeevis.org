@@ -1,7 +1,7 @@
 ---
 title: Historical List of Tutorials at VIS
 layout: page
-permalink: /year/2025/info/history/tutorials
+permalink: /year/2026/info/history/tutorials
 contact: archive@ieeevis.org
 ---
 
@@ -10,9 +10,9 @@ On this page you will find a list of tutorials that have been held at VIS in rec
 
 <!-- ---------------------------------------------------------------------------------- -->
 
-### 2025
+### 2026
 
-[https://ieeevis.org/year/2025/info/program/tutorials](https://ieeevis.org/year/2025/info/program/tutorials)
+[https://ieeevis.org/year/2026/info/program/tutorials](https://ieeevis.org/year/2026/info/program/tutorials)
 
 * Visualization Analysis and Design
 * Building Progressive Visual Analytics Systems with ProgressiVis

@@ -4,7 +4,7 @@
     <nav class="ieeevis-nav flex flex-start justify-between md:justify-start items-center">
         <div class="logo--nav flex-none text-lg text-red-700 p-4 md:p-2 lg:p-4">
             <a href="/">
-                <img src="{{ '/assets/vis2025_logo_white_RIESENRAD.svg' | relative_url }}" alt="VIS 2025">
+                <img src="{{ '/assets/vis2026_logo_white.svg' | relative_url }}" alt="VIS 2026">
             </a>
         </div>
 
@@ -96,7 +96,7 @@
                             {% for column in subsection.columns %}
                             <ul class="flex-grow mt-4 md:mt-2">
                                 {% if column.heading %}
-                                <li class="dropdown__heading text-gray-500">{{ column.heading }}</li>
+                                <li class="dropdown__heading text-gray-600">{{ column.heading }}</li>
                                 {% endif %}
                                 {% for link in column.links %}
                                 <li>

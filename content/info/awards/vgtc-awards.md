@@ -1,7 +1,7 @@
 ---
 title: VGTC VIS Awards
 layout: page
-permalink: /year/2025/info/awards/vgtc-awards
+permalink: /year/2026/info/awards/vgtc-awards
 active_nav: "Program"
 sidebar: awards-and-recognitions
 contact: papers@ieeevis.org

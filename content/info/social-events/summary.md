@@ -1,13 +1,13 @@
 ---
 layout: page
-title: "VIS 2025 Social Events"
-permalink: /year/2025/info/social-events/summary
+title: "VIS 2026 Social Events"
+permalink: /year/2026/info/social-events/summary
 sidebar: social-events
 contact: "general_chair@ieeevis.org"
 active_nav: "Program"
 ---
 
-VIS 2025 offers several **social events** for networking and discussion.
+VIS 2026 offers several **social events** for networking and discussion.
 
 ### Welcome Reception
 

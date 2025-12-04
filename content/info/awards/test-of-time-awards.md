@@ -1,7 +1,7 @@
 ---
 title: Test of Time Awards
 layout: page
-permalink: /year/2025/info/awards/test-of-time-awards
+permalink: /year/2026/info/awards/test-of-time-awards
 active_nav: "Program"
 sidebar: awards-and-recognitions
 contact: papers@ieeevis.org

@@ -1,7 +1,7 @@
 ---
 title: IEEE VIS Code of Conduct
 layout: page
-permalink: /year/2025/info/inclusion/code-of-conduct
+permalink: /year/2026/info/inclusion/code-of-conduct
 active_nav: "Contribute"
 contact: inclusivity@ieeevis.org
 ---
@@ -23,15 +23,15 @@ IEEE VIS reserves the right to take appropriate action to foster an inclusive an
 
 Please contact [ombuds@ieeevis.org](mailto:ombuds@ieeevis.org) if you experience, observe, or have knowledge of behavior in violation of the Code of Conduct.  Our [reporting process document](coc-reporting-process) describes how the Ombuds team will respond.
 
-The ombuds team for VIS 2025 is: 
+The ombuds team for VIS 2026 is: 
 
 <center>
 <table style="text-align: center;">
   <tbody>
     <tr style="border-bottom: 0px;">
-      <td style="padding: 3px; width: 33%;"><img src="/year/2025/assets/ombuds/alfie.jpeg" alt="ombud alfie" style="min-width: 100px"/></td>
-      <td style="padding: 3px; width: 33%;"><img src="/year/2025/assets/ombuds/jordan.jpeg" alt="ombud jordan" style="min-width: 100px"/></td>
-      <td style="padding: 3px; width: 33%;"><img src="/year/2025/assets/ombuds/menna.jpeg" alt="ombud menna" style="min-width: 100px"/></td>
+      <td style="padding: 3px; width: 33%;"><img src="/year/2026/assets/ombuds/alfie.jpeg" alt="ombud alfie" style="min-width: 100px"/></td>
+      <td style="padding: 3px; width: 33%;"><img src="/year/2026/assets/ombuds/jordan.jpeg" alt="ombud jordan" style="min-width: 100px"/></td>
+      <td style="padding: 3px; width: 33%;"><img src="/year/2026/assets/ombuds/menna.jpeg" alt="ombud menna" style="min-width: 100px"/></td>
     </tr>
     <tr>
       <td style="padding: 3px; width: 33%;">Alfie Abdul-Rahman</td>
@@ -39,9 +39,9 @@ The ombuds team for VIS 2025 is:
       <td style="padding: 3px; width: 33%;">Menna El-Assady</td>
     </tr>
     <tr style="border-bottom: 0px;">
-      <td style="padding: 3px; width: 33%;"><img src="/year/2025/assets/ombuds/josh.jpeg" alt="ombud josh" style="min-width: 100px"/></td>
-      <td style="padding: 3px; width: 33%;"><img src="/year/2025/assets/ombuds/lace.jpeg" alt="ombud lace" style="min-width: 100px"/></td>
-      <td style="padding: 3px; width: 33%;"><img src="/year/2025/assets/ombuds/katerina.jpeg" alt="ombud katerina" style="min-width: 100px"/></td>
+      <td style="padding: 3px; width: 33%;"><img src="/year/2026/assets/ombuds/josh.jpeg" alt="ombud josh" style="min-width: 100px"/></td>
+      <td style="padding: 3px; width: 33%;"><img src="/year/2026/assets/ombuds/lace.jpeg" alt="ombud lace" style="min-width: 100px"/></td>
+      <td style="padding: 3px; width: 33%;"><img src="/year/2026/assets/ombuds/katerina.jpeg" alt="ombud katerina" style="min-width: 100px"/></td>
     </tr>
     <tr>
       <td style="padding: 3px; width: 33%;">Joshua Levine</td>

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "VRVis Lab Visit"
-permalink: /year/2025/info/local-events/vrvis-lab-visit
+permalink: /year/2026/info/local-events/vrvis-lab-visit
 sidebar: local-events
 active_nav: "Program"
 ---
@@ -11,7 +11,7 @@ On two days there will be the opportunity to visit the VRVis during the VIS Lunc
 
 <table>
     <tr>
-        <td><img src="/year/2025/assets/local-events/vrvis-lab-visit.jpg" /></td>
+        <td><img src="/year/2026/assets/local-events/vrvis-lab-visit.jpg" /></td>
     </tr>
 </table>
 
@@ -28,5 +28,5 @@ Donau-City-Straße 11<br />
 
 ### Registration
 
-Sign up for the lab visit: [labvisit2025@vrvis.at](mailto:labvisit2025@vrvis.at)<br />
+Sign up for the lab visit: [labvisit2026@vrvis.at](mailto:labvisit2026@vrvis.at)<br />
 More information: [https://www.vrvis.at/en/news-events/events/lab-visit](https://www.vrvis.at/en/news-events/events/lab-visit){:target="_blank"}

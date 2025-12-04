@@ -1,7 +1,7 @@
 ---
 title: Vienna Hotel Information
 layout: page
-permalink: /year/2025/info/registration-and-travel/hotel-information
+permalink: /year/2026/info/registration-and-travel/hotel-information
 contact: "general_chair@ieeevis.org"
 active_nav: "Attend"
 ---
@@ -22,7 +22,7 @@ The Austria Center Vienna is next to the **U1** subway station "Kaisermühlen - 
 So, when searching for a hotel near the city center, it is highly recommended that you pick one that is close to a U1 subway station (or any other subway line that directly connects to U1).
 
 <p>
-  <img src="/year/2025/assets/venue-and-travel/vienna-locations.jpg" />
+  <img src="/year/2026/assets/venue-and-travel/vienna-locations.jpg" />
 </p>
 
 <hr />
@@ -44,7 +44,7 @@ Wagramer Straße 16<br />
 [Hotel Website](https://www.schanihotels.com/hotels/hotel-schani-uno-city){:target= "_blank"} | [Google Maps Link](https://maps.app.goo.gl/wVQBiCgmrRzKJdFU9){:target= "_blank"}
 
 <p style="text-align:center;">
-  <img src="/year/2025/assets/venue-and-travel/green_hotel.png" height="70" />
+  <img src="/year/2026/assets/venue-and-travel/green_hotel.png" height="70" />
 </p>
 
 The hotel offers a booking link for bookings between Tuesday (Nov 4) and Friday (Nov 7).
@@ -52,7 +52,7 @@ The hotel offers a **12% discount** on the flexible, variable rate - please note
 Buffet breakfast costs €25 per person per day.
 
 Reservations have to be made exclusively by the guests via the booking form using a valid credit card and booking code.
-To book a room, use the code **VIS2025** and use the [online booking form](https://my.schanihotels.com/search/offers?PROMO_CODE=VIS2025&ADULTS=1&CHILDREN=&ARRIVAL=2025-11-04&DEPARTURE=2025-11-07&PROPERTY_IDS=VIEUNO){:target= "_blank"}
+To book a room, use the code **VIS2026** and use the [online booking form](https://my.schanihotels.com/search/offers?PROMO_CODE=VIS2026&ADULTS=1&CHILDREN=&ARRIVAL=2026-11-04&DEPARTURE=2026-11-07&PROPERTY_IDS=VIEUNO){:target= "_blank"}
 
 #### Meliá Vienna
 Meliá Vienna<br />
@@ -62,7 +62,7 @@ Donau-City-Straße 7<br />
 
 Guest room for single use at **€229** (including breakfast).
 
-To book at room, use the [online booking form](https://events.melia.com/en/events/melia-vienna/IEEE-Computer-Society-2025){:target= "_blank"}
+To book at room, use the [online booking form](https://events.melia.com/en/events/melia-vienna/IEEE-Computer-Society-2026){:target= "_blank"}
 
 
 <!-- ---------------------------------------------------------------------------------- -->
@@ -75,7 +75,7 @@ Elisabethstraße 5<br />
 [Hotel Website](https://www.motel-one.com/de/hotels/wien/hotel-wien-staatsoper){:target= "_blank"} | [Google Maps Link](https://maps.app.goo.gl/iDm9FCG9EB8SiZ789){:target= "_blank"}
 
 <p style="text-align:center;">
-  <img src="/year/2025/assets/venue-and-travel/green_hotel.png" height="70" />
+  <img src="/year/2026/assets/venue-and-travel/green_hotel.png" height="70" />
 </p>
 
 Close to the U1 subway station "Oper - Karlsplatz".
@@ -83,7 +83,7 @@ Close to the U1 subway station "Oper - Karlsplatz".
 Room "THE ONE" at **€132.33** or **€142.59** (excluding breakfast) - depending on the date - for single or double use.
 
 To book a room, please use the following PDF form and send it to the hotel directly (instructions in PDF):
-[PDF booking form](/year/2025/assets/venue-and-travel/MotelOne_Abrufformular.pdf){:target= "_blank"}
+[PDF booking form](/year/2026/assets/venue-and-travel/MotelOne_Abrufformular.pdf){:target= "_blank"}
 
 
 #### Wilde Aparthotels
@@ -94,10 +94,10 @@ Dominikanerbastei 15<br />
 
 Close to the U1 subway station "Schwedenplatz".
 
-Attendees of VIS 2025 are eligible to receive a **15% discount** on the best available rate.
+Attendees of VIS 2026 are eligible to receive a **15% discount** on the best available rate.
 In order to secure the booking, kindly contact directly: [eszter.horvath@wilde.com](mailto:eszter.horvath@wilde.com), or +43 676 5916286
 
-Kindly note that the discount applies solely for participants of VIS 2025 and is available **from Nov 2 to Nov 7, 2025**.
+Kindly note that the discount applies solely for participants of VIS 2026 and is available **from Nov 2 to Nov 7, 2026**.
 
 <hr />
 

@@ -1,11 +1,11 @@
 ---
 title: IEEE Vis Townhall
 layout: page
-permalink: /year/2025/info/plenary/summary
+permalink: /year/2026/info/plenary/summary
 contact: vec@ieeevis.org
 ---
 
-VIS 2025 offers one **plenary session**.
+VIS 2026 offers one **plenary session**.
 
 ### Townhall Meeting
 

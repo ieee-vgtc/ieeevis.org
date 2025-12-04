@@ -5,7 +5,7 @@ layout: blog-page
 active_nav: Blog
 authors: VSC, VEC, and reVISe chair
 author_contact:
-permalink: /blog/vis-2025-revise
+permalink: /blog/vis-2026-revise
 ---
 
 ### Dear VIS Community,
@@ -36,9 +36,9 @@ We are pleased to share that Arvind Satyanarayan will chair the reVISe 1.1 commi
 
 In the spirit of experimentation guiding this process, we have set an ambitious but achievable timeline:
 
-- **By May 2025**: The committee will aim to finalize its initial proposal, outlining key changes to governance structures and processes. This includes an initial set of recommendations for a framework for empowering organizers. These changes will allow the VSC to begin the process of appointing the VIS 2026 Organizing Committee (OC) in line with the new plan or portions of it.
+- **By May 2026**: The committee will aim to finalize its initial proposal, outlining key changes to governance structures and processes. This includes an initial set of recommendations for a framework for empowering organizers. These changes will allow the VSC to begin the process of appointing the VIS 2026 Organizing Committee (OC) in line with the new plan or portions of it.
 
-- **By October 2025**: The committee will deliver a complete and detailed proposal for the new governance structure, including implementation steps, by-laws and a process for community feedback and iteration. This ensures the VIS 2026 General Chairs (GCs) can work with the new structure as they plan the conference.
+- **By October 2026**: The committee will deliver a complete and detailed proposal for the new governance structure, including implementation steps, by-laws and a process for community feedback and iteration. This ensures the VIS 2026 General Chairs (GCs) can work with the new structure as they plan the conference.
 
 Additionally, reVISe 1.1 will prioritize running an inclusive process and is considering a variety of approaches to ensure the VIS community's feedback is heard and meaningfully incorporated. We aim to acknowledge the contributions of everyone who has played a significant role in shaping all aspects of the conference program over the years. This process will also include making a deliberate effort to recognize the perspectives of students, junior faculty, and early-career researchers, who might not always see themselves reflected in traditional governance discussions. Our goal is to converge on a shared set of priorities and understanding that charts a path forward for the community as a whole.
 

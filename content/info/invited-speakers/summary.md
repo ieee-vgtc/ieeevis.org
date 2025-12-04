@@ -1,14 +1,14 @@
 ---
 layout: page
 title: "Invited Speakers"
-permalink: /year/2025/info/invited-speakers/summary
+permalink: /year/2026/info/invited-speakers/summary
 contact: info@ieeevis.org
 active_nav: "Program"
 ---
 
 ## Keynote by Hans-Christian Hege
 
-The VIS 2025 keynote talk will be given by **Hans-Christian Hege**.
+The VIS 2026 keynote talk will be given by **Hans-Christian Hege**.
 
 Hans-Christian studied physics and mathematics at the University of Berlin.
 He was then employed as a research associate at the Institute for the Theory of Elementary Particles at the same university, working in the field of quantum field theory.
@@ -26,7 +26,7 @@ His keynote talk will outline some of the gaps that need to be filled in order t
 
 ## Capstone by Theo Deutinger
 
-The VIS 2025 capstone talk will be given by **Theo Deutinger**.
+The VIS 2026 capstone talk will be given by **Theo Deutinger**.
 
 Theo is an Austrian architect, curator, and theorist.
 He is the founder and principal of The Department (TD), a practice that integrates architecture, urban design, and analytical research across various scales—from global planning to graphic design and curatorial work.
