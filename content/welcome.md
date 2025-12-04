@@ -7,15 +7,16 @@ contact: general_chair@ieeevis.org
 
 IEEE VIS 2026 will be the year’s premier forum for advances in theory, methods, and applications of visualization and visual analytics. The conference will convene an international community of researchers and practitioners from universities, government, and industry to exchange recent findings on the design and use of visualization tools.
 
-In 2026, the conference is again moving to the old continent, and we cannot wait to welcome you to the heart of Europe in the beautiful city of Vienna! Vienna is a [welcoming host](https://meeting.vienna.info/en/why-vienna/good-reasons-for-vienna) that excels at traditional hospitality, and a highly efficient modern city. It is a major urban center but still has the largest proportion of green space of any large European city. In addition to the well-known cultural highlights, the capital’s outstanding infrastructure sets Vienna apart as a remarkably clean and safe city. The public transportation network and short walking distances between attractions mean it takes no time to get around, with some of Europe’s most beautiful sights and the finest culinary delicacies around every corner. Sustainability is a key factor - from renewable energy forms and the outstanding drinking water fresh from the city’s taps. Like many other events in Vienna, VIS 2026 will be certified as a [green meeting](https://meeting.vienna.info/en/sustainability).
+In 2026, the conference returns to the United States, and we look forward to welcoming you to Boston, MA! Boston will be an especially exciting city to visit because 2026 marks the 250th anniversary of American independence—a milestone that the city helped spark through events like the Boston Tea Party. Today, Boston is a dynamic city, home to a rich ecosystem of world-class universities, vibrant tech and biotech companies, renowned cultural institutions, and world-champion sports teams. The conference will be hosted in the heart of the city: a beautiful tree- and brownstone-lined neighborhood called Back Bay. Walk to the magnificent Boston Public Library, Boston Symphony Orchestra, and Boston Museum of Fine Arts. Get some fresh air along the Charles River Esplanade or the Emerald Necklace—a chain of public parks that span the city. Hop on the T (our subway system) and reach MIT, Harvard, Tufts, UMass Boston, Boston College, and Northeastern University within minutes. 
 
-We will do our best to plan an extraordinary experience for you and will cheer together for IEEE VIS' past and future!
+Boston will provide an inspiring backdrop for reconnecting with colleagues, sharing new ideas, and shaping the future of visualization together.
+
 
 ***VIS 2026 General Chairs***<br/>
-[Johanna Schmidt](https://johanna-schmidt.github.io/), TU Wien<br/>
-[Eduard Gröller](https://www.cg.tuwien.ac.at/staff/EduardGr%C3%B6ller), TU Wien<br/>
-[Barbora Kozlíková](https://www.muni.cz/lide/60850-barbora-kozlikova), Masaryk University<br/>
-[Krešimir Matković](https://www.vrvis.at/ueber-uns/team/infos/matkovic-kresimir), VRVis GmbH<br/>
+[Arvind Satyanarayan](https://arvindsatya.com/), Massachusetts Institute of Technology<br/>
+[Lace Padilla](https://www.lacepadilla.com/), Northeastern University<br/>
+[Hendrik Strobelt](https://hendrik.strobelt.com/), IBM Research<br/>
+[Lane Harrison](https://www.wpi.edu/people/faculty/ltharrison), Worcester Polytechnic Institute<br/>
 
 ----
 
