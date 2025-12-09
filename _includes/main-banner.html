@@ -1,21 +1,34 @@
-<div class="header--background pt-12 pb-12 md:pb-24 relative" style="background-image: url('{{ '/assets/theme/hex-pattern.png' | relative_url }} ');">
+<div class="header--background pt-12 pb-12 md:pb-24 relative"
+    style="background-image: url('{{ '/assets/theme/hex-pattern.png' | relative_url }} ');">
 
-    <div class="container flex-parent items-center">
-        <div class="title">
-            <img src="{{ include.image-src | relative_url }}" alt="{{ include.image-alt }}" class="logo--main" style="width:600px">
-            <p class="font-display text-primary text-2xl md:text-4xl font-medium mt-10 mr-20 md:mt-12">{{ include.description }}</p>
-        </div>
-        <div class="carousel-container">
-            {% include carousel.html %}
+
+    <div class="container mx-auto p-5">
+        <div class="grid md:grid-cols-2 gap-4">
+            <div>
+                <div class="title">
+                    <img src="{{ include.image-src | relative_url }}" alt="{{ include.image-alt }}" class="logo--main"
+                        style="width:600px">
+                    <p class="font-display text-primary text-2xl md:text-4xl font-medium mt-10 mr-20 md:mt-12">{{
+                        include.description }}</p>
+                </div>
+            </div>
+            <div>
+                <div class="carousel-container">
+                    {% include carousel.html %}
+                </div>
+
+            </div>
         </div>
     </div>
 
-    <div class="event-card md:w-2/3 w-full bg-accent-blue absolute md:p-4 p-0 flex md:flex-row flex-col align-middle text-white">
-        <div class="md:w-1/2 w-full p-4 text-center text-lg self-center ">IEEE VIS: Visualization &amp; Visual Analytics</div>
-        <div class="md:w-1/2 w-full p-4 text-center text-lg self-center font-bold md:border-l border-l-0 md:border-t-0 border-t border-secondary-200 ">
-            <!-- Note, this has changed only for 2021 virtual conference, you can revert back to the previous format (commented below) -->
-            <!-- <span class="md:inline block">{{ include.event-location }}, {{ include.event-date }}</span> -->
 
+
+    <div
+        class="event-card md:w-2/3 w-full bg-accent-blue absolute md:p-4 p-0 flex md:flex-row flex-col align-middle text-white">
+        <div class="md:w-1/2 w-full p-4 text-center text-lg self-center ">IEEE VIS: Visualization &amp; Visual Analytics
+        </div>
+        <div
+            class="md:w-1/2 w-full p-4 text-center text-lg self-center font-bold md:border-l border-l-0 md:border-t-0 border-t border-secondary-200 ">
             <span class="md:inline block">{{ include.event-date }}</span>
             <span class="md:inline hidden"> in </span>
             <span class="md:inline block">{{ include.event-location }}</span>
@@ -23,4 +36,3 @@
     </div>
 
 </div>
-
