@@ -23,7 +23,16 @@ html {
 .flex-parent {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+@screen md {
+    .flex-parent {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+
 }
 
 .title {
@@ -32,7 +41,7 @@ html {
 }
 
 .carousel-container {
-    width: 600px;
+    /* width: 600px; */
     /*min-width: 400px;*/
     max-width: 1000px;
 }
@@ -47,14 +56,15 @@ html {
 /* Main */
 
 main {
-    margin-top: 70px; 
+    margin-top: 70px;
     /* Push down to compensate for fixed nav*/
 
     /* margin-top: 140px;  */
     /* Adding 70px for the program navbar */
 }
 
-article, aside {
+article,
+aside {
     scroll-margin-top: 30px;
 }
 
@@ -63,4 +73,3 @@ article, aside {
         margin-top: 0px;
     }
 }
-

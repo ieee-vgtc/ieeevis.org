@@ -69,6 +69,7 @@ module.exports = {
     },
   },
 
+
   variants: {},
   plugins: [],
   corePlugins: {
