@@ -12,53 +12,48 @@ permalink: /year/2026/info/committees/conference-committee
 | Lane Harrison | *Worcester Polytechnic Institute* |
 |---
 | **Program Chairs** | |
-| Alfie Abdul-Rahman | *King's College London* |
-| Tushar Athawale | *Oak Ridge National Laboratory* |
-| Gautam Chaudhary | *Alcon* |
-| Michelle Dowling | *Pacific Northwest National Laboratory* |
-| Michael Oppermann | *AIT Austrian Institute of Technology GmbH* |
 |---
 | **Overall Paper Chairs** | |
-| Niklas Elmqvist | *Aarhus University* |
-| Holger Theisel | *University of Magdeburg* |
 | Melanie Tory | *Northeastern University* |
-| Petra Specht (OPC Assistant) | *University of Magdeburg* |
+| Tobias Isenberg |  |
+| Alex Endert | *Georgia Institute of Technology* |
+| Shani Spivak |  |
 |---
 | **Area Paper Chairs** | |
 | **Area 1: Theoretical & Empirical** | |
-| Matthew Kay | *Northwestern University* |
 | Timo Ropinski | *Ulm University* |
+| Jessica Hullman |  |
 | **Area 2: Applications** | |
-| Elisabeta Marai | *University of Illinois Chicago* |
 | Wesley Willett | *University of Calgary* |
+| Elisabeta Marai |  |
+| Renata Raidou |  |
 | **Area 3: Systems & Rendering** | |
-| Christoph Garth | *University of Kaiserslautern-Landau* |
 | Markus Hadwiger | *King Abdullah University of Science and Technology (KAUST)* |
+| Takayuki Itoh |  |
 | **Area 4: Representations & Interaction** | |
-| Daniel Keefe | *University of Minnesota* |
 | Marc Streit | *Johannes Kepler University Linz* |
+| Charles Perin |  |
 | **Area 5: Data Transformations** | |
-| Filip Sadlo | *Heidelberg University* |
 | Hongfeng Yu | *University of Nebraska-Lincoln* |
+| Stefan Bruckner |  |
 | **Area 6: Analysis & Decisions** | |
-| Jaegul Choo | *Korea Advanced Institute of Science and Technology (KAIST)* |
-| Steffen Koch | *University of Stuttgart* |
+| Alvitta Ottley | *Washington University in St. Louis* |
+| Jörn Kohlhammer |  |
 |---
 | **Short Paper Chairs** | |
-| Charles Perin | *University of Victoria* |
-| Julian Tierny | *Sorbonne University* |
+| Emily Wall | *Emory University* |
+| Julian Tierny |  |
 | Cagatay Turkay | *University of Warwick* |
 | Jiazhi Xia | *Central South University* |
 |---
 | **Poster Chairs** | |
 | Benjamin Bach | *University of Edinburgh* |
-| Renata Raidou | *TU Wien* |
-| Alvitta Ottley | *Washington University* |
+| Narges Mahyar |  |
+| Thomas Hoellt |  |
 | Lingyun Yu | *Xi'an Jiaotong-Liverpool University* |
 |---
 | **Panels & Tutorials Chairs** | |
-| Leilani Battle | *University of Washington* |
-| Kai Lawonn | *University of Jena* |
+| Soumya Dutta |  |
 | Qianwen Wang | *University of Minnesota* |
 |---
 | **Open Practices Chairs** | |
@@ -68,10 +63,8 @@ permalink: /year/2026/info/committees/conference-committee
 |---
 | **Workshop Chairs** | |
 | Ana Crisan | *University of Waterloo* |
-| Petra Isenberg | *INRIA* |
-| Ross Maciejewski  | *Arizona State University* |
-| Michael Papka | *University of Illinois Chicago* |
-| Arvind Satyanarayan | *Massachusetts Institute of Technology* |
+| Tim Gerrits | *RWTH Aachen University* |
+| Leilani Battle | *University of Washington* |
 |---
 | **Arts Program Chairs** | |
 | Damla Cay | *Moholy-Nagy University of Art and Design Budapest* |
@@ -83,35 +76,28 @@ permalink: /year/2026/info/committees/conference-committee
 | Arjun Srinivasan | *Databricks* |
 |---
 | **Doctoral Colloquium Chairs** | |
+| Michael Correll |  |
 | Michael Behrisch | *Utrecht University* |
-| Emily Wall | *Emory University* |
-| Yunhai Wang | *Renmin University of China* |
+| Cindy Xiong | *Georgia Institute of Technology* |
 |---
 | **Publication Chairs** | |
 | Minsuk Kahng | *Yonsei University* |
-| Zhicheng Liu | *University of Maryland College Park* |
-| Cindy Xiong Bearfield | *Georgia Tech* |
+| Devin Lange |  |
+| Sungahn Ko |  |
 |---
 | **Community, Meetups, & Election Chairs** | |
-| Isaac Cho | *Utah State University* |
 | Kyle Wm. Hall | *Temple University* |
-| Georgia Panagiotidou | *King’s College London* |
+| Lijie Yao |  |
 |---
 | **Student Volunteer Chairs** | |
-| Magdalena 'Momo' Boucher | *St. Pölten University of Applied Sciences* |
-| Hamza Elhamdadi | *University of Massachusetts Amherst* |
-| Zeyang Huang | *Linköping University* |
-| Hyeon Jeon | *Seoul National University* |
-| Yixuan Wang | *Arizona State University* |
 |---
 | **Publicity Chairs** | |
 | Alex Kale | *University of Chicago* |
-| Khairi Reda | *Indiana University* |
+| Keke Wu |  |
 |---
 | **Inclusivity & Accessibility Chairs** | |
 | Laura Koesten | *University of Vienna* |
-| Ab Mosca | *Westfield State University* |
-| John Thompson | *Microsoft Research* |
+| Sandra Bae |  |
 |---
 | **Supporters Chairs** | |
 | Michael Krone | *University of Tübingen* |
@@ -124,11 +110,7 @@ permalink: /year/2026/info/committees/conference-committee
 | Bhavana Doppalapudi | *University of South Florida* |
 | Maria C. Velez | *Marvel Analytics* |
 |---
-| **Incoming General Chairs (VIS26)** | |
-| Lane Harrison | *Worcester Polytechnic Institute* |
-| Lace Padilla | *Northeastern University* |
-| Arvind Satyanarayan | *Massachusetts Institute of Technology* |
-| Hendrik Strobelt | *IBM Research* |
+| **Incoming General Chairs (VIS27)** | |
 |---
 | **Archive Chairs** | |
 | Changjian Chen | *Hunan University* |
@@ -145,10 +127,13 @@ permalink: /year/2026/info/committees/conference-committee
 | Yalong Yang | *Georgia Institute of Technology* |
 |---
 | **Technology Chairs** | |
-| Jan Byska | *Masaryk University* |
-| Kelvin Li | *Databricks* |
-| Xinyi Liu | *Northeastern University* |
 | Alexander Rind | *St. Pölten University of Applied Sciences* |
+| Dominik Moritz | *Carnegie Mellon University* |
+| Johannes Knittel |  |
+| Alex Bock |  |
+| Hilson Shrestha |  |
+| Adam Coscia |  |
+| Patrick Paetzold |  |
 |---
 | **VAST Challenge Chairs** | |
 | R. Jordan Crouser | *Smith College* |
@@ -156,7 +141,6 @@ permalink: /year/2026/info/committees/conference-committee
 | Jereme Haack | *Pacific Northwest National Laboratory* |
 |---
 | **SciVis Contest Chairs** | |
-| Tim Gerrits | *RWTH Aachen University* |
 | Christoph Heinzl | *University of Passau* |
 |---
 | **IEEE** | 
