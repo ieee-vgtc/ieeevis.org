@@ -41,9 +41,7 @@ html {
 }
 
 .carousel-container {
-    /* width: 600px; */
-    /*min-width: 400px;*/
-    max-width: 1000px;
+    width: 100%;
 }
 
 .ieee-pub-notice {
