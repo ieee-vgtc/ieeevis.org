@@ -6,10 +6,10 @@ permalink: /year/2026/info/committees/conference-committee
 ---
 
 | **General Chairs** | |
-| Johanna Schmidt | *TU Wien* |
-| Eduard Gröller | *TU Wien* |
-| Barbora Kozlíková | *Masaryk University* |
-| Krešimir Matković | *VRVis GmbH* |
+| Arvind Satyanarayan | *Massachusetts Institute of Technology* |
+| Lace Padilla | *Northeastern University* |
+| Hendrik Strobelt | *IBM Research* |
+| Lane Harrison | *Worcester Polytechnic Institute* |
 |---
 | **Program Chairs** | |
 | Alfie Abdul-Rahman | *King's College London* |
@@ -138,10 +138,11 @@ permalink: /year/2026/info/committees/conference-committee
 | Nicole Sultanum | *Tableau* |
 |---
 | **Web Chairs** | |
-| Mahmood Jasim | *Louisiana State University* |
-| Harry Li | *Massachusetts Institute of Technology* |
+| Kaustav Bhattacharjee | *Pacific Northwest National Laboratory* |
+| Harry Li | *MIT Lincoln Laboratory* |
+| Andrew McNutt | *University of Utah* |
 | Shayan Monadjemi | *Oak Ridge National Laboratory* |
-| Mashrur Rashik | *University of Massachusetts Amherst* |
+| Yalong Yang | *Georgia Institute of Technology* |
 |---
 | **Technology Chairs** | |
 | Jan Byska | *Masaryk University* |
