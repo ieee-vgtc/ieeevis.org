@@ -11,13 +11,13 @@ We solicit workshops related to all areas of visualization. They provide a forum
 
 ## Important Dates
 
-* Proposal Submission               **Friday, April 4, 2026**
-* Notification                      **Friday April 18, 2026**
-* Final Submission of Summaries	    **Thursday August 1, 2026**
+* Proposal Submission               **Thursday, February 26, 2026**
+* Notification                      **Thursday March 26, 2026**
+* Final Submission of Summaries	    **Thursday July 30, 2026**
 
 All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth)**.
 
-**Note on symposia:** This year, symposia and workshops will follow a common submission and competitive selection process. This decision stems from the fact that symposia held in previous years did not meet [the criteria outlined by IEEE for qualifying as a Symposium](https://ieeevis.org/governance/coordination) (IEEE makes a distinction between symposia and workshops based on both size and publication policy. Symposia are expected to have at least 100 attendees, and are required to publish proceedings).  As such, this CfP refers to all submissions as ‘workshops’. This decision may be revisited in subsequent years.
+**Note on symposia:** Similar to 2025, symposia and workshops will follow a common submission and competitive selection process. This decision stems from the fact that symposia held in previous years did not meet [the criteria outlined by IEEE for qualifying as a Symposium](https://ieeevis.org/governance/coordination) (IEEE makes a distinction between symposia and workshops based on both size and publication policy. Symposia are expected to have at least 100 attendees, and are required to publish proceedings).  As such, this CfP refers to all submissions as ‘workshops’. This decision may be revisited in subsequent years. **Please note that the 2026 program is one day shorter than in previous years**, so additional schedule requests will be difficult to accommodate and workshop submissions will likely be competitive.
 
 
 ## Workshops should accomplish one or more of the following:
@@ -40,7 +40,8 @@ Workshop proposals should include:
 
 * the planned activities including an outline schedule for the program
     * where applicable, planned activities should include a description of how the workshop will facilitate active participation from attendees.  
-    *if the workshop program largely follows a paper presentation format, a brief justification for why this format is appropriate and why alternate formats would not be a good fit
+    * if the workshop program largely follows a paper presentation format, a brief justification for why this format is appropriate and why alternate formats would not be a good fit
+    * if keynotes or panels are planned, please include a list of potential invitees.
 
 * if the workshop has been held previously, a brief evaluation of prior offerings. To allow the workshop chairs to select a diverse and dynamic range of workshops, this evaluation should include a robust rationale for why the workshop needs to be held again and, relatedly, what lessons have been learned from prior runs and how these lessons have been applied to the proposed program.
 
@@ -58,7 +59,7 @@ Workshop proposals should include:
 
 * the proposed dates for the call for participation, author notification, and camera-ready deadlines (author notification must be prior to the early registration deadline for IEEE VIS; for inclusion of materials on IEEE Xplore and/or the downloadable proceedings, the camera-ready deadline must be prior to **August 19, 2026**).
 
-Because the number of workshop time slots is limited, half-day event proposals are **strongly encouraged**. However, well-justified full-day proposals will also be considered. Full-day proposals may optionally state what changes would be implemented to allow the schedule to fit within a half day.
+Because the number of workshop time slots is unusually limited for 2026, we will be planning for nearly all accepted workshops to be half-day events. That being said, we will still consider well-reasoned full-day requests. **Please note that the 2026 program is one day shorter than in previous years**, so full-day requests will face additional rigorous scrutiny to justify their addition to the 2026 program.
 
 **The proposal should not exceed four pages.** Please visit [VGTC website](https://tc.computer.org/vgtc/publications/conference) for formatting details and submit via [PCS](https://new.precisionconference.com/vgtc).
 
@@ -144,14 +145,12 @@ The workshop organizers will receive the following support from the VIS conferen
 
 Please check the conference website for upcoming information concerning available funds for special purposes, such as supporting diversity. If the requirements of the workshop exceed this default support, the workshop organizers are expected to coordinate with the workshop chairs and possibly raise funds to support the workshop activities. Fundraising plans must be discussed with the workshop and supporters chairs prior to contacting any potential funder. For more information, see the guidelines for [Financial and Coordination Policies for IEEE VIS](http://ieeevis.org/governance/coordination).
 
-Note that each workshop participant will need to register to attend the IEEE 
-VIS conference.
+Note that each workshop participant will need to register to attend the IEEE VIS conference.
 
 
 ## Workshop Chairs
 
-* Arvind Satyanarayan, *MIT CSAIL, USA*
 * Anamaria Crisan, *University of Waterloo, Canada*
-* Ross Maciejewski, *University of Arizona, USA*
-* Michael E. Papka, *University of Illinois Chicago / Argonne National Laboratory, USA*
-* Petra Isenberg, *Inria, Université Paris-Saclay, France*
+* Leilani Battle, *University of Washington, USA*
+* Tim Gerrits, *RWTH Aachen University, Germany*
+
