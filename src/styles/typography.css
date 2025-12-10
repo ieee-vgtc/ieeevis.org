@@ -122,13 +122,13 @@ p {
 }
 
 .content ul li::before {
-    content: "\25e6";
+    content: "\25CF";
     left: -1rem;
     @apply absolute text-secondary;
 }
 
 .content ul ul li::before {
-    content: "\25CF";
+    content: "\25e6";
     left: -1rem;
     @apply absolute text-secondary;
 }
