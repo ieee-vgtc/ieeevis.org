@@ -51,7 +51,7 @@ During the workshop, participants will have the opportunity to learn about succe
 ## <a name="alt.VIS"></a> alt.VIS 2025
 
 Andrew M. McNutt, *University of Utah, Salt Lake City, UT, United States*<br>
-Søren Lyngsø Knudsen, *IT University, Copenhagen, Denmark*<br>
+Søren Knudsen, *IT University, Copenhagen, Denmark*<br>
 Alyxander Burns, *Mount Holyoke College, South Hadley, MA, United States*<br>
 Connor Scully-Allison, *University of Utah, Salt Lake City, UT, United States*<br>
 Sara Di Bartolomeo,  *TU Wien, Vienna, Austria*<br>
