@@ -36,89 +36,89 @@ menu:
 
 # ---------------------------------------------------------------------------
   - dropdown: "Contribute"
-    display: false
+    display: true
     sections:
       - subsections:
           - heading: "Call for Participation"
             columns:
               - heading: "Submit Your Work"
                 links:
-                  - text: "Papers"
-                    url: "/year/2026/info/call-participation/call-for-participation"
-                    is_new: false
-                  - text: "Short Papers"
-                    url: "/year/2026/info/call-participation/shortpapers"
-                    is_new: false
-                  - text: "Posters"
-                    url: "/year/2026/info/call-participation/posters"
-                    is_new: false
-                  - text: "Tutorials"
-                    url: "/year/2026/info/call-participation/tutorials"
-                    is_new: false
+                  # - text: "Papers"
+                  #   url: "/year/2026/info/call-participation/call-for-participation"
+                  #   is_new: false
+                  # - text: "Short Papers"
+                  #   url: "/year/2026/info/call-participation/shortpapers"
+                  #   is_new: false
+                  # - text: "Posters"
+                  #   url: "/year/2026/info/call-participation/posters"
+                  #   is_new: false
+                  # - text: "Tutorials"
+                  #   url: "/year/2026/info/call-participation/tutorials"
+                  #   is_new: false
                   - text: "Workshops"
                     url: "/year/2026/info/call-participation/workshops"
-                    is_new: false
-                  - text: "Panels"
-                    url: "/year/2026/info/call-participation/panels"
-                    is_new: false
-                  - text: "Doctoral Colloquium"
-                    url: "/year/2026/info/call-participation/doctoral-colloquium"
-                    is_new: false
-              - heading: "Info for Contributors"
-                links:
-                  - text: "Area Model for VIS"
-                    url: "/year/2026/info/call-participation/area-model"
-                    is_new: false
-                  - text: "Paper Submission Guidelines"
-                    url: "/year/2026/info/call-participation/paper-submission-guidelines"
-                    is_new: false
-                  - text: "Submission Keywords"
-                    url: "/year/2026/info/call-participation/paper-keywords"
-                    is_new: false
-                  - text: "Partnerships"
-                    url: "/year/2026/info/call-participation/partnerships"
-                    is_new: false
-                  - text: "Open Practices"
-                    url: "/year/2026/info/open-practices/open-practices"
-                    is_new: false
-                  - text: "Review Instructions"
-                    url: "/year/2026/info/call-participation/review-instructions"
-                    is_new: false
-          - heading: "Presenter Information"
-            columns:
-            - links:
-                - text: "Final Information for Paper Authors"
-                  url: "/year/2026/info/presenter-information/final-information-paper-authors"
-                  is_new: false
-                - text: "Preparing Your Talk"
-                  url: "/year/2026/info/presenter-information/talk-guide"
-                  is_new: false
-                - text: "Virtual Presentations"
-                  url: "/year/2026/info/presenter-information/presenting-virtually"
-                  is_new: false
+                    is_new: true
+                  # - text: "Panels"
+                  #   url: "/year/2026/info/call-participation/panels"
+                  #   is_new: false
+                  # - text: "Doctoral Colloquium"
+                  #   url: "/year/2026/info/call-participation/doctoral-colloquium"
+                  #   is_new: false
+              # - heading: "Info for Contributors"
+              #   links:
+              #     - text: "Area Model for VIS"
+              #       url: "/year/2026/info/call-participation/area-model"
+              #       is_new: false
+              #     - text: "Paper Submission Guidelines"
+              #       url: "/year/2026/info/call-participation/paper-submission-guidelines"
+              #       is_new: false
+              #     - text: "Submission Keywords"
+              #       url: "/year/2026/info/call-participation/paper-keywords"
+              #       is_new: false
+              #     - text: "Partnerships"
+              #       url: "/year/2026/info/call-participation/partnerships"
+              #       is_new: false
+              #     - text: "Open Practices"
+              #       url: "/year/2026/info/open-practices/open-practices"
+              #       is_new: false
+              #     - text: "Review Instructions"
+              #       url: "/year/2026/info/call-participation/review-instructions"
+              #       is_new: false
+          # - heading: "Presenter Information"
+          #   columns:
+          #   - links:
+          #       - text: "Final Information for Paper Authors"
+          #         url: "/year/2026/info/presenter-information/final-information-paper-authors"
+          #         is_new: false
+          #       - text: "Preparing Your Talk"
+          #         url: "/year/2026/info/presenter-information/talk-guide"
+          #         is_new: false
+          #       - text: "Virtual Presentations"
+          #         url: "/year/2026/info/presenter-information/presenting-virtually"
+          #         is_new: false
           - heading: "Code of Conduct"
             description: "The IEEE VIS Code of Conduct"
             heading_url: "/year/2026/info/inclusion/code-of-conduct"
-      - subsections:
-          - heading: "Get Involved"
-            columns:
-              - links:
-                  - text: "Organize a meetup"
-                    description: "Meet people for discussion and shared experiences"
-                    url: "/year/2026/info/call-participation/meetups"
-                    is_new: false
-                  - text: "Student volunteer information"
-                    description: "SVs support the conference and build your research network"
-                    url: "https://vissv.github.io/"
-                    is_external: true
+      # - subsections:
+      #     - heading: "Get Involved"
+      #       columns:
+      #         - links:
+      #             - text: "Organize a meetup"
+      #               description: "Meet people for discussion and shared experiences"
+      #               url: "/year/2026/info/call-participation/meetups"
+      #               is_new: false
+      #             - text: "Student volunteer information"
+      #               description: "SVs support the conference and build your research network"
+      #               url: "https://vissv.github.io/"
+      #               is_external: true
 #                  - text: "Become a peer reviewer"
 #                    description: "Volunteer to review submissions in Precision Conference Solutions (PCS)"
 #                    url: "https://new.precisionconference.com/review_volunteering"
 #                    is_external: true
-                  - text: "Elections"
-                    description: "Register to vote and nominate/review candidates for the VSC/VEC"
-                    url: "/year/2026/info/elections"
-                    is_new: false
+                  # - text: "Elections"
+                  #   description: "Register to vote and nominate/review candidates for the VSC/VEC"
+                  #   url: "/year/2026/info/elections"
+                  #   is_new: false
 
           - heading: "Supporters"
             heading_url: "/year/2026/supporters"
