@@ -104,12 +104,31 @@ p {
     max-width: 100%
 }
 
+/* Increase indent for each nested level */
+.content ul ul, .content ol ul,
+.content ul ol, .content ol ol {
+  @apply pl-6; /* 2nd level */
+}
+
+.content ul ul ul, .content ol ul ul,
+.content ul ol ul, .content ol ol ul,
+.content ul ul ol, .content ol ul ol,
+.content ul ol ol, .content ol ol ol {
+  @apply pl-10; /* 3rd level */
+}
+
 .content li {
     @apply relative mt-3;
 }
 
 .content ul li::before {
     content: "\25e6";
+    left: -1rem;
+    @apply absolute text-secondary;
+}
+
+.content ul ul li::before {
+    content: "\25CF";
     left: -1rem;
     @apply absolute text-secondary;
 }
