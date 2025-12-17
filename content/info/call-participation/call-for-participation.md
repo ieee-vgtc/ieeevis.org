@@ -40,6 +40,12 @@ intro_section:
 "
 ---
 
+
+
+
+VIS2026 call for participation coming soon!
+
+<!--
 ## Important Dates
 
 All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth)**. 
@@ -54,7 +60,7 @@ All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://tim
 | Final notification | July 15, 2026    |
 | Camera-ready copy | August 8, 2026   |
 
-
+-->
 
 <!---
 {% include alert.html
@@ -65,6 +71,7 @@ All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://tim
 %}
  --->
  
+<!--
 ## Submission Guidelines and Reviewing Criteria
 
 As the leading academic event on visualization research, IEEE VIS expects important, impactful, and potentially transformative contributions. Submissions will be judged on their scientific quality and novelty, potential impact, degree to which the evidence supports the findings, appropriateness of methodology, and the research process followed. After the initial notification of review results, selected papers are only conditionally accepted and will undergo a full revision and review cycle: only papers that improve according to the required changes will be accepted after the second round review.
@@ -82,6 +89,9 @@ We highly recommend screen reader accessible final submissions. Please see the [
 ## Open Access Policy
 
 Visualization research is best communicated and acted on if it is freely accessible to the research community, practitioners, and the general public. Therefore, all paper authors are encouraged to share their accepted paper in an open-access repository in accordance with IEEE copyright regulations. We also recommend that authors include sufficient supplemental materials with their submission so that their work can be easily scrutinized and used or extended by future researchers and practitioners. For instructions on how to post an accepted paper to an open-access repository and recommendations on sharing supplemental materials, please see the [VIS Open Practices Guidelines](https://ieeevis.org/year/2026/info/open-practices/open-practices). Additionally, funding agencies and research organizations may have specific rules concerning Plan S compliance: impacted authors should check and comply with their respective organizational rules.
+
+-->
+
 <!---[VIS Open Practices Guidelines](/year/2026/info/open-practices/open-practices).--->
 
 Email: [opc@ieeevis.org](mailto:opc@ieeevis.org)
