@@ -7,6 +7,9 @@ active_nav: "Contribute"
 sidebar: submit-your-work
 ---
 
+VIS2026 call for participation coming soon!
+
+<!--
 IEEE VIS 2026 solicits submissions in a short paper format. The Short Papers committee welcomes submissions describing original work and late-breaking research results. The work should focus on concise research contributions, incremental work such as follow-up extensions, evaluations of existing methods, replication studies, or exploratory work. The committee also welcomes papers describing new systems or tools that offer practical value.
 
 Short Papers often fall into one or more of five main categories: technique or algorithm, system or tool, application or design study, empirical study, theory, or model. The contributions of a short paper should be commensurate with the short nature of the paper. Technique or algorithm papers should provide clear yet concise technical contributions. System or tool papers should state the value, articulate the target audience, and make an effort toward accessibility (e.g., software release). Papers focusing on visualization applications or design studies should demonstrate lessons learned or insights gleaned for visualization research on which future contributors can build. Empirical study papers should justify the validity and importance of the results, including, where appropriate, the definition of hypotheses, tasks, data sets, the rigorous collection and examination/analysis/coding of data, the selection of subjects and cases, as well as validation, discussion, and conclusions. Theory or model papers should illuminate how visualization techniques complement and exploit properties of human vision and cognition, as well as how researchers conduct effective and rigorous visualization studies.
@@ -115,6 +118,6 @@ All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://tim
 * Julian Tierny,	*CNRS, Sorbonne University, France*
 * Cagatay Turkay,	*University of Warwick, UK*
 * Jiazhi Xia, *Central South University, China*
-
+-->
 Email: [shortpapers@ieeevis.org](mailto:shortpapers@ieeevis.org)
 
