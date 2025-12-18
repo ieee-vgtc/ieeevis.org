@@ -14,7 +14,6 @@ contact: papers@ieeevis.org
 - [History](#history)
 - [Keyword Use](#keyword-use)
 - [Keywords](#keywords)
-- [Example Papers](#example-papers)
 
 ## Summary
 
@@ -150,44 +149,3 @@ Following is the complete list of keywords with a description for each keyword:
 *	**Uncertainty Visualization** (Uncertainty):	visually communicating uncertainty (of data, models, algorithmic results, or the visualization process)
 * **OtherTopic**: a visualization/visual analytics related topic/technique that does not reasonably fit in any category above
 
-## Example Papers
-The following example papers show how previously published VAST, InfoVis, and SciVis papers can be described using several keywords each. The old paper types are also included for reference; the current keywords include more detailed list of contribution types.  
-
-* InfoVis. [D³ Data-Driven Documents](http://dx.doi.org/10.1109/TVCG.2011.185). Old Type: System
-    * Contribution: Software Prototype (Software)
-    * Contribution: Software Architecture, Toolkit/Library, Language (Systems)
-    * General: Charts, Diagrams, and Plots (Charts)
-* InfoVis. [UpSet: Visualization of Intersecting Sets](http://dx.doi.org/10.1109/TVCG.2014.2346248). Old Type: Technique
-    *  Data Type: Other Data (OtherData), Sets
-    *  Data Type: Tabular
-    *  Contribution: Visual Representation Design (VisDesign)
-* InfoVis. [Narrative Visualization: Telling Stories with Data](http://dx.doi.org/10.1109/TVCG.2010.179). Old Type: Theory
-    * Contribution: Taxonomy, Models, Frameworks, Theory (Theory)
-    * Human Factors: Communication/Presentation, Storytelling (Storytelling)
-    
-* SciVis. [A Systematic Review on the Practice of Evaluating Visualization](http://dx.doi.org/10.1109/TVCG.2013.126). Old Type: Empirical Study
-    * Contribution: State-of-the-art Survey (STAR)
-    * Evaluation: Human-Subjects Quantitative Studies (HumanQuant)
-    * Evaluation: Human-Subjects Qualitative Studies (HumanQual)
-* SciVis. [Fixed-Rate Compressed Floating-Point Arrays](http://dx.doi.org/10.1109/TVCG.2014.2346458). Old Type: Technique
-    * Contribution: Algorithms (Algorithm)
-    * Contribution: Software Architecture, Toolkit/Library, Language (Systems)
-    * Evaluation: Computational Benchmark Studies (CompBenchmark)
-    * Stats/ML/Data: Data Management, Processing, Wrangling (DataMgmt)
-* SciVis. [Contour Boxplots: A Method for Characterizing Uncertainty in Feature Sets from Simulation Ensembles](http://dx.doi.org/10.1109/TVCG.2013.143). Old Type: Technique
-    * Data Type: Scalar Field Data (Scalar):
-    * General: Data Abstractions and Types (DataAbstr)
-    * Spatial: Isosurface Techniques (Isosurfaces)
-    * General: Uncertainty Visualization (Uncertainty)
-* VAST. [Visual Exploration of Big Spatio-Temporal Urban Data: A Study of New York City Taxi Trips](http://dx.doi.org/10.1109/TVCG.2013.226). Old Type: Application / Design Study
-    * Data Type: Geospatial Data (Geospatial)
-    * Data Type: Temporal Data (Time)
-    * Contribution: Application Motivated Visualization (Application)
-* VAST.  [SensePlace2: GeoTwitter analytics support for situational awareness](http://dx.doi.org/10.1109/VAST.2011.6102456). Old Type: Application / Design Study
-    * Data Type: Text/Document Data (Text)
-    * Data Type: Geospatial Data (Geospatial)
-    * Contribution: Application Motivated Visualization (Application)
-    * Application: Social Science, Education, Humanities, Journalism, Intelligence Analysis, Knowledge Work (SocHum)
-* VAST. [Enterprise Data Analysis and Visualization: An Interview Study](http://dx.doi.org/10.1109/TVCG.2012.219). Old Type: Empirical Study
-    * Evaluation: Human-Subjects Qualitative Studies (HumanQual)
-    * Application: Social Science, Education, Humanities, Journalism, Intelligence Analysis, Knowledge Work (SocHum)
