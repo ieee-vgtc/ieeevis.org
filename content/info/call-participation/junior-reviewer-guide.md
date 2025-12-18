@@ -1,7 +1,7 @@
 ---
 title: Junior Reviewer Guide
 layout: page
-permalink: /info/call-participation/junior-reviewer-guide
+permalink: /year/2026/info/call-participation/junior-reviewer-guide
 contact: op@ieeevis.org
 ---
 
