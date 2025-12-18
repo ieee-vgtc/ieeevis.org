@@ -1,7 +1,7 @@
 - heading: "Submit Your Work"
   links:
-    # - text: "Papers"
-    #   url: "/year/2026/info/call-participation/call-for-participation"
+    - text: "Papers"
+      url: "/year/2026/info/call-participation/call-for-participation"
     # - text: "Short Papers"
     #   url: "/year/2026/info/call-participation/shortpapers"
     # - text: "Posters"
