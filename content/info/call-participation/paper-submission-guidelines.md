@@ -103,7 +103,7 @@ Starting with VIS 2025, we introduced a "junior reviewer" program, where primary
 
 Junior reviews will appear in your regular list of reviews at the end of the first (and second) round of reviewing. However, they will be carefully marked with their expertise set as "junior". The primary's summary review will discuss whether and how the final review outcome incorporated the junior review.
 
-For more details on the IEEE VIS Junior Reviewer program, see this [guide](/year/2026/info/call-participation/student-reviewer-guide).
+For more details on the IEEE VIS Junior Reviewer program, see this [guide](/year/2026/info/call-participation/junior-reviewer-guide).
 
 ## Page Length Restrictions
 Paper length may be up to a maximum of nine (9) pages with additional two (2) pages allowed only for additional material. Authors can make use of more than two pages for additional material if the total is still within the 11 (9+2) page limit. Please ensure that your submission contains no content except additional material on the (optional) 10th and 11th pages.
