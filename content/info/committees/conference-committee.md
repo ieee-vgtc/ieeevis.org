@@ -15,7 +15,7 @@ permalink: /year/2026/info/committees/conference-committee
 |---
 | **Overall Paper Chairs** | |
 | Melanie Tory | *Northeastern University* |
-| Tobias Isenberg |  |
+| Tobias Isenberg | *Inria* |
 | Alex Endert | *Georgia Institute of Technology* |
 | Shani Spivak |  |
 |---
