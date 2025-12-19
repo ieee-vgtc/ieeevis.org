@@ -46,7 +46,7 @@ This page provides detailed instructions for both PC reviewers and external revi
       
 At the bottom, you can change your affiliation and if necessary, click “Add one” to add an additional one.
 
-**You will need to update your expertise in PCS if you have not already done so**. Please read through the [summary of the keywords](https://ieeevis.org/year/2024/blog/keywords-for-pc-members), which includes instructions for reviewers on how to select for expertise. If you do not enter your areas of expertise you will have all matching scores set to -1 during the bidding phase, which will greatly impact suggestions of interesting papers for you to bid on. The matching scores are calculated manually by the OPCs once before bidding starts and if you are late you will have to wait for them to do this step again at a later point in time. Therefore, it is important that you enter your expertise *before the abstract deadline*. 
+**You will need to update your expertise in PCS if you have not already done so**. Please read through the [summary of the keywords](paper-keywords), which includes instructions for reviewers on how to select for expertise. If you do not enter your areas of expertise you will have all matching scores set to -1 during the bidding phase, which will greatly impact suggestions of interesting papers for you to bid on. The matching scores are calculated manually by the OPCs once before bidding starts and if you are late you will have to wait for them to do this step again at a later point in time. Therefore, it is important that you enter your expertise *before the abstract deadline*. 
 
 **IMPORTANT**: please make sure that you have no keyword left empty; i.e., each keyword is set to either expert, competent, limited, or none.
 
@@ -105,18 +105,18 @@ Consider the mix of expertise and experience across all reviewers, including var
 
 PCS has an option to suggest reviewers according to a match score. This list of suggested reviewers and their interests may be an aid to jog your memory, but note that it must be used with caution. **Do not blindly rely on these suggestions** without checking carefully that the suggested reviewers are indeed a good fit, since expertise is self-reported and has not been vetted in any way. **Unqualified reviewers may exist in the reviewer pool!** Moreover, the Volunteered Reviews number in PCS may not be up to date, as many people in the PCS database may not have updated their willingness numbers but may indeed be willing to accept requests; it is reasonable to ignore the automatic warning to secure their permission in advance before assigning, and simply use PCS itself to make the request. Furthermore, please do not hesitate to add new, qualified reviewers that are not already in the PCS database using the “register new person” mechanism. We are always looking for the top experts in a specific topic, and extending the database will benefit others as well.
 
-**Junior reviewers**. The [VIS Junior Reviewer Program](https://ieeevis.org/year/2026/info/call-participation/junior-reviewer-guide) was created for VIS 2025 to increase the pool of available reviewers by mentoring new Ph.D. students in peer review. Each primary reviewer may optionally invite ONE student reviewer for each paper based on the following criteria:
+**Junior reviewers**. The [VIS Junior Reviewer Program](junior-reviewer-guide) was created for VIS 2025 to increase the pool of available reviewers by mentoring new Ph.D. students in peer review. Each primary reviewer may optionally invite ONE student reviewer for each paper based on the following criteria:
 - The junior reviewer should be a Ph.D. student or postdoc (or a person who is otherwise new to the visualization field but established as a researcher). 
 - Unlike for external reviewers, the junior reviewer may come from the same affiliation as other reviewers. In fact, you are encouraged to recruit your own Ph.D. students or postdocs as junior reviewers.
 - The primary reviewer commits to mentoring the junior reviewer in producing a high-quality review.
 - The primary reviewer should have a clear line of communication with the junior reviewer; if they are not your own Ph.D. student, you should at least know the person prior to recruiting them.
 - The primary reviewer must verify that the junior reviewer's review indeed marks their expertise as "junior" in the review form.
 - Junior reviewers will write a full review and may participate in the paper discussion, but their review is to be regarded as advisory in nature.
-We have collected more information and guidelines about the junior reviewer program in the [Junior Reviewer Guide](https://ieeevis.org/year/2026/info/call-participation/junior-reviewer-guide).
+We have collected more information and guidelines about the junior reviewer program in the [Junior Reviewer Guide](junior-reviewer-guide).
 
 **Batch release of initial external requests**. The first round of invitations to external reviewers will be released in a single batch on April 11, to encourage externals to make immediate decisions for which requests to accept. After that, review requests will be sent out immediately. PC members should prepare a list of multiple suitable externals for each paper as backup possibilities, in addition to your initial choice, so that you can send another request immediately if your initial request(s) are declined. PC members should actively check that invited external reviewers accept the invitation. If they decline or do not respond in a timely manner (i.e., within a few days of the request being sent), please send a request to the next person on your list as soon as possible. 
 
-**Do not ask other PC, APC, or OPC members to be external reviewers**. The full Program Committee listing can be found on the [conference website PC page](https://ieeevis.org/year/2026/info/committees/program-committees#full-papers-program-committee). (Note that they are also marked as “cmte” on the review assignment screen in PCS.) The Area Papers Chairs and Overall Papers Chairs are listed on the [conference website Organizers page](https://ieeevis.org/year/2026/info/committees/conference-committee). In addition, do not ask the EiC (Editor in Chief) or A-EiCs (Associate Editor in Chiefs) of IEEE TVCG to be external reviewers as they also oversee the review process and should remain neutral. For 2026, TVCG EiC is Wenping Wang, and visualization-related A-EiCs are Shixia Liu, Daniel Weiskopf, and Tamara Munzner. 
+**Do not ask other PC, APC, or OPC members to be external reviewers**. The full Program Committee listing can be found on the [conference website PC page](../committees/program-committees#full-papers-program-committee). (Note that they are also marked as “cmte” on the review assignment screen in PCS.) The Area Papers Chairs and Overall Papers Chairs are listed on the [conference website Organizers page](../committees/conference-committee). In addition, do not ask the EiC (Editor in Chief) or A-EiCs (Associate Editor in Chiefs) of IEEE TVCG to be external reviewers as they also oversee the review process and should remain neutral. For 2026, TVCG EiC is Wenping Wang, and visualization-related A-EiCs are Shixia Liu, Daniel Weiskopf, and Tamara Munzner. 
 
 ## First Round Reviewing
 **April 5 thru May 8**   
@@ -137,7 +137,7 @@ However, you should also be on the lookout for innovative, bold, creative, and p
 
 If you have any questions in this regard about a particular paper, please either flag this point in the confidential section of your review or write to the chair(s) directly. Your insight and ability to look beyond the surface is exactly the kind of guidance the paper chairs need from a PC member.
 
-Please see **and re-read** the section below on [Additional Reviewing Guidance](https://ieeevis.org/year/2026/info/call-participation/review-instructions#additional-reviewing-guidance) for further considerations.
+Please see **and re-read** the section below on [Additional Reviewing Guidance](#additional-reviewing-guidance) for further considerations.
 
 ## Discussion
 **May 9 thru May 15**  
@@ -179,7 +179,7 @@ Primaries: For each of the papers for which you are the primary reviewer and tha
      
 At the bottom, you can change your affiliation and if necessary, click “Add one” to add an additional one.  
 
-Please read through the [summary of the keywords](https://ieeevis.org/year/2026/info/call-participation/paper-keywords), which includes instructions for reviewers on how to indicate their levels of expertise. Make sure to update your areas of expertise by the deadline above so that the program committee can take them into account during the reviewer assignment period.
+Please read through the [summary of the keywords](paper-keywords), which includes instructions for reviewers on how to indicate their levels of expertise. Make sure to update your areas of expertise by the deadline above so that the program committee can take them into account during the reviewer assignment period.
   1. Log onto the [PCS system](https://new.precisionconference.com/).
   2. Go to the Reviews tab.
   3. Click on “Provide areas of expertise”.
@@ -189,7 +189,7 @@ Please read through the [summary of the keywords](https://ieeevis.org/year/2026/
 ## Reviewing
 **Apr 14 thru May 8**  
 
-High-quality reviews are critical to the quality of the conference program. Please familiarize yourself with the reviewing ethics and guidelines described in [Additional Reviewing Guidance](https://ieeevis.org/year/2026/info/call-participation/review-instructions#additional-reviewing-guidance).  
+High-quality reviews are critical to the quality of the conference program. Please familiarize yourself with the reviewing ethics and guidelines described in [Additional Reviewing Guidance](#additional-reviewing-guidance).  
 
 **Continuing from 2025**: There is a checkbox in the review form where you can agree (by checking it) to have your anonymized review published with the paper in case it is accepted. For this to happen, not only all reviewers but also all authors must explicitly opt-in. If all parties agree, those reviews will be published as supplemental material in an OSF repository.  
 
@@ -205,7 +205,7 @@ Following the completion of the reviewing phase, the primary reviewer will initi
 ## Paper Quality
 As an IEEE VIS reviewer, you are in a position to directly influence the quality of the VIS papers program. Make sure that you stand behind the work you recommend for acceptance! Most importantly, this means that you should only accept high-quality papers that will contribute significantly to the VIS research community. You should, however, also be on the lookout for innovative, bold, creative, and potentially transformative work that may significantly extend the frontier of visualization research. While such submissions should be held to the same quality standard as all other submissions, it is expected that they may not be able to exhaustively (or perfectly) validate all of their contributions. We do not want the conference to consist of work with the fewest flaws; we need to weigh the possible significance of the work and the degree of ambition alongside the extent to which it is described, compared, and validated.
 
-Try not to gate-keep in your review. If the authors of a submission use a different approach than the one(s) you typically use yourself, be open-minded about it and check if the authors used this new approach properly. If you believe a certain research topic is out of scope for IEEE VIS, please first consult our call for papers and, in particular, our [Description of VIS Areas](https://ieeevis.org/year/2026/info/call-participation/area-model) as we may specifically have included this topic as one of interest for IEEE VIS. Generally, being out of scope for the conference should be a rather rare reason to reject a submission and the papers chairs will have already desk-rejected most of these off-topic submissions.
+Try not to gate-keep in your review. If the authors of a submission use a different approach than the one(s) you typically use yourself, be open-minded about it and check if the authors used this new approach properly. If you believe a certain research topic is out of scope for IEEE VIS, please first consult our call for papers and, in particular, our [Description of VIS Areas](area-model) as we may specifically have included this topic as one of interest for IEEE VIS. Generally, being out of scope for the conference should be a rather rare reason to reject a submission and the papers chairs will have already desk-rejected most of these off-topic submissions.
 
 Also note that an IEEE VIS paper does not necessarily require a user study to be acceptable to the conference. There are many ways to demonstrate the correctness, usefulness, usability, and impact of a contribution; be open to all of them. Also consider that each paper only has a limited amount of space to communicate its ideas, so do not ask for unreasonable additional content to be included into the paper.
 
@@ -214,7 +214,7 @@ To be able to focus on the parts of a submission that have the potential to move
 Overall, we strongly encourage you to use positive framing in writing reviews—see yourself as a coach for the authors rather than a judge. We also encourage you to re-read your own review (maybe a day after you wrote it) and those of the other reviewers from the perspective of a 1st year PhD student—they should have a positive experience even if their paper is rejected.
 
 ## Supplemental Materials
-Authors are encouraged to include supplemental material with their submission. The [Open Practices Supplemental Material FAQ](https://ieeevis.org/year/2026/info/open-practices/supplemental-material-faq) provides guidance on how to do so in VIS publications. Although these guidelines are not mandatory, reviewers are encouraged to be familiar with them and should not penalize a submission for adhering to the recommendations. In particular:
+Authors are encouraged to include supplemental material with their submission. The [Open Practices Supplemental Material FAQ](../open-practices/supplemental-material-faq) provides guidance on how to do so in VIS publications. Although these guidelines are not mandatory, reviewers are encouraged to be familiar with them and should not penalize a submission for adhering to the recommendations. In particular:
 - Authors may deposit supplemental material at any location for a final VIS publication. During the review phase, authors may upload files to the review system (PCS) or to an external repository with timestamp support such as https://osf.io or https://github.com/.
 - Authors may upload various types of material, such as data, code, videos, demos, or appendices—see the open practices guidelines for a more exhaustive list of examples.
 - Authors are generally encouraged to share any material that can help readers and reviewers understand and scrutinize their work.
