@@ -12,6 +12,9 @@ permalink: /year/2026/info/committees/conference-committee
 | Lane Harrison | *Worcester Polytechnic Institute* |
 |---
 | **Program Chairs** | |
+| Alfie Abdul-Rahman |  |
+| Tushar Athawale |  |
+| John Thompson |  |
 |---
 | **Overall Paper Chairs** | |
 | Melanie Tory | *Northeastern University* |
@@ -57,9 +60,6 @@ permalink: /year/2026/info/committees/conference-committee
 | Qianwen Wang | *University of Minnesota* |
 |---
 | **Open Practices Chairs** | |
-| Laura Garrison | *University of Bergen* |
-| Devin Lange | *Harvard Medical School* |
-| Lace Padilla | *Northeastern University* |
 |---
 | **Workshop Chairs** | |
 | Ana Crisan | *University of Waterloo* |
@@ -67,13 +67,8 @@ permalink: /year/2026/info/committees/conference-committee
 | Leilani Battle | *University of Washington* |
 |---
 | **Arts Program Chairs** | |
-| Damla Cay | *Moholy-Nagy University of Art and Design Budapest* |
-| Dario Rodighiero | *University of Groningen* |
-| Weidi Zhang | *Arizona State University* |
 |---
 | **Vis in Practice Chairs** | |
-| Chris Bryan | *Arizona State University* |
-| Arjun Srinivasan | *Databricks* |
 |---
 | **Doctoral Colloquium Chairs** | |
 | Michael Correll |  |
@@ -92,7 +87,7 @@ permalink: /year/2026/info/committees/conference-committee
 | **Student Volunteer Chairs** | |
 |---
 | **Publicity Chairs** | |
-| Alex Kale | *University of Chicago* |
+| Khairi Reda |  |
 | Keke Wu |  |
 |---
 | **Inclusivity & Accessibility Chairs** | |
@@ -100,24 +95,21 @@ permalink: /year/2026/info/committees/conference-committee
 | Sandra Bae |  |
 |---
 | **Supporters Chairs** | |
-| Michael Krone | *University of Tübingen* |
-| Victor Mateevitsi | *Argonne National Laboratory* |
-| Dominik Moritz | *Carnegie Mellon University* |
-| Chris Traxler | *VRVis GmbH* |
+| Fred Hohman |  |
+| Kanit Wongsuphasawat |  |
+| Lisa Avila |  |
 |---
 | **Finance Chairs** | |
-| Loretta Auvil | *National Center for Supercomputing Applications* |
-| Bhavana Doppalapudi | *University of South Florida* |
-| Maria C. Velez | *Marvel Analytics* |
 |---
 | **Incoming General Chairs (VIS27)** | |
+| Khairi Reda |  |
+| Victor Mateevitsi |  |
+| Fabio Miranda |  |
+| Michael Papka |  |
 |---
 | **Archive Chairs** | |
 | Changjian Chen | *Hunan University* |
-| Fabio Miranda | University of Illinois Chicago |
-| Mukund Raj | *Broad Institute* |
-| Ashley Suh | *MIT Lincoln Laboratory* |
-| Nicole Sultanum | *Tableau* |
+| Arpit Narechania | *The Hong Kong University of Science and Technology* |
 |---
 | **Web Chairs** | |
 | Kaustav Bhattacharjee | *Pacific Northwest National Laboratory* |
@@ -136,12 +128,11 @@ permalink: /year/2026/info/committees/conference-committee
 | Patrick Paetzold |  |
 |---
 | **VAST Challenge Chairs** | |
-| R. Jordan Crouser | *Smith College* |
-| Steve Gomez | *MIT Lincoln Laboratory* |
-| Jereme Haack | *Pacific Northwest National Laboratory* |
 |---
 | **SciVis Contest Chairs** | |
-| Christoph Heinzl | *University of Passau* |
+| Valerio Pascucci |  |
+| Giorgio Scorzelli |  |
+| Aashish Panta |  |
 |---
 | **IEEE** | 
 | Kathy Park | |
