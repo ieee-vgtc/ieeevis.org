@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 108.7 108.7">
+<svg id="Layer_1"
+  xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 108.7 108.7">
   <!-- Generator: Adobe Illustrator 29.8.3, SVG Export Plug-In . SVG Version: 2.1.1 Build 3)  -->
   <defs>
     <style>
       .st0, .st1 {
-        fill: #f58220;
+        fill: #DF6824;
       }
 
       .st2 {
-        fill: #693a19;
+        fill: #7F4526;
       }
 
       .st3, .st1 {
@@ -25,7 +26,7 @@
       }
 
       .st5 {
-        fill: #e11783;
+        fill: #BB4A72;
       }
     </style>
   </defs>
