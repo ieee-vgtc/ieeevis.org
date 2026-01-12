@@ -74,11 +74,11 @@ All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://tim
 
 As the leading academic event on visualization research, IEEE VIS expects important, impactful, and potentially transformative contributions. Submissions will be judged on their scientific quality and novelty, potential impact, degree to which the evidence supports the findings, appropriateness of methodology, and the research process followed. After the initial notification of review results, selected papers are only conditionally accepted and will undergo a full revision and review cycle: only papers that improve according to the required changes will be accepted after the second round review.
 
-IEEE VIS 2026 also features a separate short papers track. You can find more information in the [call for participation for short papers](shortpapers).
+IEEE VIS 2026 also features a separate short papers track. You can find more information in the [call for participation for short papers](/year/2026/info/call-participation/shortpapers).
 
-When preparing your submission, please make sure that you carefully read and adhere to the [paper submission guidelines](paper-submission-guidelines).
+When preparing your submission, please make sure that you carefully read and adhere to the [paper submission guidelines](/year/2026/info/call-participation/paper-submission-guidelines).
 
-Reviewers should be familiar with the [guidelines for reviewing papers for VIS](review-instructions).
+Reviewers should be familiar with the [guidelines for reviewing papers for VIS](/year/2026/info/call-participation/review-instructions).
 
 ## Accessibility
 
