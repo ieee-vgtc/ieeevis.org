@@ -7,9 +7,6 @@ active_nav: "Contribute"
 sidebar: submit-your-work
 ---
 
-VIS2026 call for participation coming soon!
-
-<!--
 IEEE VIS 2026 solicits submissions in a short paper format. The Short Papers committee welcomes submissions describing original work and late-breaking research results. The work should focus on concise research contributions, incremental work such as follow-up extensions, evaluations of existing methods, replication studies, or exploratory work. The committee also welcomes papers describing new systems or tools that offer practical value.
 
 Short Papers often fall into one or more of five main categories: technique or algorithm, system or tool, application or design study, empirical study, theory, or model. The contributions of a short paper should be commensurate with the short nature of the paper. Technique or algorithm papers should provide clear yet concise technical contributions. System or tool papers should state the value, articulate the target audience, and make an effort toward accessibility (e.g., software release). Papers focusing on visualization applications or design studies should demonstrate lessons learned or insights gleaned for visualization research on which future contributors can build. Empirical study papers should justify the validity and importance of the results, including, where appropriate, the definition of hypotheses, tasks, data sets, the rigorous collection and examination/analysis/coding of data, the selection of subjects and cases, as well as validation, discussion, and conclusions. Theory or model papers should illuminate how visualization techniques complement and exploit properties of human vision and cognition, as well as how researchers conduct effective and rigorous visualization studies.
@@ -34,6 +31,11 @@ Bryce Morrow, Trevor Manz, Arlene E. Chung, Nils Gehlenborg, David Gotz\
 IEEE VIS Short Papers 2019 \[Best Paper\]
 
 #### Paper Type: System or Tool
+
+[PyGWalker: On-the-fly Assistant for Exploratory Visual Data Analysis](https://doi.ieeecomputersociety.org/10.1109/VIS55277.2024.00009)\
+Yue Yu, Leixian Shen, Fei Long, Huamin Qu, Hao Chen\
+IEEE VIS Short Papers 2024 \[Best Paper\]
+
 [Exploring D3 Implementation Challenges on Stack Overflow](https://dx.doi.org/10.1109/VIS54862.2022.00009)\
 Leilani Battle, Danni Feng, Kelli Webber
 IEEE VIS Short Papers 2022 [Best Paper]
@@ -47,6 +49,7 @@ Leo Yu-Ho Lo, Yao Ming, Huamin Qu\
 IEEE VIS Short Papers 2019 \[Honorable Mention\]
 
 #### Paper Type: Application or Design Study
+
 [PRAGMA: Interactively Constructing Functional Brain Parcellations](https://dx.doi.org/10.1109/VIS47514.2020.00016)\
 Roza Gunes Bayrak, Nhung Hoang, Colin Blake Hansen, Catie Chang, Matthew Berger\
 IEEE VIS Short Papers 2020 \[Honorable Mention\]
@@ -70,6 +73,10 @@ Robert Kosara\
 IEEE VIS Short Papers 2019
 
 #### Paper Type: Theory or Model
+
+[Toward a Logic of Generalization about Visualization as a Decision Aid] (https://arxiv.org/abs/2508.06751)\
+Alex Kale
+IEEE VIS Short Papers 2025 [Best Paper]
 
 [Toward Systematic Considerations of Missingness in Visual Analytics](https://dx.doi.org/10.1109/VIS54862.2022.00031)\
 Maoyuan Sun, Yue Ma, Yuanxin Wang, Tianyi Li, Jian Zhao, Yujin Liu, Ping Shou Zhong
@@ -114,10 +121,12 @@ All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://tim
 
 ### Vis Short Paper Co-Chairs:
 
-* Charles Perin, *University of Victoria, Canada*
-* Julian Tierny,	*CNRS, Sorbonne University, France*
-* Cagatay Turkay,	*University of Warwick, UK*
+
+* Vijay Natarajan, *Indian Institute of Science, India*
+* Cagatay Turkay, *University of Warwick, UK*
+* Emily Wall, *Emory University, US*
 * Jiazhi Xia, *Central South University, China*
--->
+
 Email: [shortpapers@ieeevis.org](mailto:shortpapers@ieeevis.org)
+
 
