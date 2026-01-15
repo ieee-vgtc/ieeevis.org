@@ -1,0 +1,26 @@
+---
+import { AnchorOpenGitHubToCreateNewPage } from "../components/AnchorOpenGitHubToCreateNewPage";
+import DefaultLayout from "./DefaultLayout.astro";
+const { frontmatter } = Astro.props;
+---
+
+<DefaultLayout page_info={frontmatter}>
+  <div class="section">
+    <div class="header">
+      <div class="container">
+        <h1 class="mb-0">{frontmatter.title}</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="container md:py-16 flex md:flex-row flex-col justify-between">
+    <article class="content md:w-3/5 w-full md:mt-0 mt-8 md:order-none order-2">
+      <p>It seems like you reached a non-existing webpage. If you think this should not have happened, please use the links below to file a bug report.</p>
+      
+      <h2>Trying to create a new page?</h2>
+
+      <p>If you are attempting to create a new webpage, please
+      <AnchorOpenGitHubToCreateNewPage client:only/>.</p>
+    </article>
+  </div>
+</DefaultLayout>

@@ -1,0 +1,32 @@
+---
+import { load_yaml } from "../utils/load_yaml";
+import Carousel from "./Carousel";
+const { description, logo_src, event_location, event_date } = Astro.props;
+
+const carousel_items = load_yaml("./src/data/carousel.yml");
+---
+
+<div class="header--background pt-12 pb-12 md:pb-24 relative" style={`background-image: url('${import.meta.env.BASE_URL}/assets/theme/hex-pattern.png');`}>
+    <div class="container mx-auto p-5">
+        <div class="grid md:grid-cols-2 gap-4">
+            <div class="title my-auto">
+                <img src={`${import.meta.env.BASE_URL}${logo_src}`} alt="IEEE VIS Logo" class="logo--main" style="width:600px">
+                <p class="font-display text-primary text-2xl md:text-4xl font-medium mt-10 mr-20 md:mt-12">{ description }</p>
+            </div>
+            <div class="carousel-container">
+                <Carousel items={carousel_items} client:load />
+            </div>
+        </div>
+    </div>
+
+    <div class="event-card md:w-2/3 w-full bg-accent-blue absolute md:p-4 p-0 flex md:flex-row flex-col align-middle text-white">
+        <div class="md:w-1/2 w-full p-4 text-center text-lg self-center ">IEEE VIS: Visualization &amp; Visual Analytics</div>
+        <div class="md:w-1/2 w-full p-4 text-center text-lg self-center font-bold md:border-l border-l-0 md:border-t-0 border-t border-secondary-200 ">
+            <span class="md:inline block">{ event_date }</span>
+            <span class="md:inline hidden"> in </span>
+            <span class="md:inline block">{ event_location }</span>
+        </div>
+    </div>
+
+</div>
+

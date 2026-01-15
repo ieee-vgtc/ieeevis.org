@@ -1,5 +1,0 @@
-#!/bin/bash
-cd ~/ieeevis.org/
-git checkout master
-git pull origin master
-make staging

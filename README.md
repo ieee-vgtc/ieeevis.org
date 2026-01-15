@@ -1,10 +1,11 @@
 # ieeevis.org
 
-Hi!  This is the Jekyll version of the [IEEE VIS website](http://ieeevis.org).
+Hi! This is the Astro version of the [IEEE VIS website](http://ieeevis.org).
 
 The `vis2026` branch (the page you're currently viewing) is the current year's website.
 
-To edit files in other years, check out the other `vis*` branches.  Click the below links to teleport:
+To edit files in other years, check out the other `vis*` branches. Click the below links to teleport:
+
 - [vis2025](https://github.com/ieee-vgtc/ieeevis.org/tree/vis2024) - the 2025 redesign
 - [vis2024](https://github.com/ieee-vgtc/ieeevis.org/tree/vis2024) - the 2024 redesign
 - [vis2023](https://github.com/ieee-vgtc/ieeevis.org/tree/vis2023) - the 2023 redesign
@@ -16,41 +17,35 @@ To edit files in other years, check out the other `vis*` branches.  Click the be
 
 ## Contributing
 
-If you're contributing content, but not administrating the website itself, you will want to follow the [contributor's guide](http://ieeevis.org/year/2026/info/contributing).
+If you're contributing content, but not administrating the website itself, you will want to follow the [contributor's guide](src/pages/info/contributing.md).
 
-## Building
+## Building Locally
 
-**Automatic building**: The [.github/workflows/staging.yml](/.github/workflows/staging.yml) file contains a GitHub Actions workflow for deploying the site.
+The website uses Node.js. To install Node and npm, follow the instructions on the [Node Website](https://nodejs.org).
 
-![](https://github.com/ieee-vgtc/ieeevis.org/workflows/build%20staging/badge.svg)
+Once Node is installed, install the dependencies
 
-**To build locally**
-The website uses both Node.js and Ruby. To install Node and npm, follow the instructions on the [Node Website](https://nodejs.org). To install Ruby and bundle,
-- If you are running a UNIX-like system (including MacOS), we recommend installing [rbenv](https://github.com/rbenv/rbenv#readme)
-- If you are using Windows, you can install Ruby using [WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
-
-Once Node and Ruby are installed, run their respective package managers to install the dependencies
 ```
 npm install
-bundle
-```
-
-Then build the site
-```
-npm run build
 ```
 
 Now you can run the site locally by running
-```
-bundle exec jekyll serve -d ./_site -b '/' && npm run-script start
-```
-
-You may need to break these commands apart and run these two commands in separate consoles
-```
-bundle exec jekyll serve -d ./_site -b '/'
-```
 
 ```
-npm run-script start
+npm run dev
 ```
 
+Make changes to the site:
+
+- To edit content on a particular page, go to `src/pages` and find the corresponding markdown file for the page you want to edit.
+- To edit navigation or sidebars, find the respective `yml` file in `src/data`. You may need to shutdown and restart the site to see your `yml` changes.
+
+When you have made changes and would like to submit them, open a new pull request for the web chairs to review.
+
+## Automatic building
+
+After your PR is merged in, GitHub Actions will automatically build the staging site using the workflow file contained in [.github/workflows/staging.yml](/.github/workflows/staging.yml).
+
+![](https://github.com/ieee-vgtc/ieeevis.org/workflows/build%20staging/badge.svg)
+
+The web team will periodically create a release, which will deploy the latest changes to the production site.

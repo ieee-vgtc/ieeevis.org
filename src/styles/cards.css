@@ -3,100 +3,99 @@
 /* Generic Card*/
 
 .card {
-    @apply flex flex-col;
-    @apply relative;
-    @apply mb-4 p-6;
-    @apply border border-primary-700 rounded;
-    @apply bg-white;
-    @apply text-secondary;
+  @apply flex flex-col;
+  @apply relative;
+  @apply mb-4 p-6;
+  @apply border border-primary-700 rounded;
+  @apply bg-white;
+  @apply text-secondary;
 }
 
 .card::after {
-    content: '';
-    right: calc(100% - 0.5rem);
-    height: 100%;
-    @apply absolute top-0;
-    @apply border-r border-primary-500;
+  content: "";
+  right: calc(100% - 0.5rem);
+  height: 100%;
+  @apply absolute top-0;
+  @apply border-r border-primary-500;
 }
 
-    @screen md {
-        .card {
-            @apply mr-4;
-            min-width: 300px;
-            max-width: 400px;
-            flex: 1;
-        }
-    }
-
+@variant md {
+  .card {
+    @apply mr-4;
+    min-width: 300px;
+    max-width: 400px;
+    flex: 1;
+  }
+}
 
 /* Banner Card */
 
 .event-card {
-    left: 0%;
-    bottom: -90px;
-    @apply z-10;
-    @apply font-display;
+  left: 0%;
+  bottom: -90px;
+  @apply z-10;
+  @apply font-display;
 }
 
-@screen md {
-    .event-card {
-        left: 16.667%;
-        bottom: -70px;
-    }
+@variant md {
+  .event-card {
+    left: 16.667%;
+    bottom: -70px;
+  }
 }
-
 
 /* Info Grid */
 
 .main-card--container {
-    @apply flex flex-col flex-wrap;
-    @apply mb-8;
+  @apply flex flex-col flex-wrap;
+  @apply mb-8;
 }
 
-@screen md {
-    .main-card--container {
-        @apply flex-row;
-        @apply;
-    }
+@variant md {
+  .main-card--container {
+    @apply flex-row;
+  }
 }
 
 .main-card {
-    @apply px-0 py-8;
-    @apply w-full;
-    @apply flex flex-col;
-    @apply items-start;
-    @apply border-b border-dashed border-secondary-200;
+  @apply px-0 py-8;
+  @apply w-full;
+  @apply flex flex-col;
+  @apply items-start;
+  @apply border-b border-dashed border-secondary-200;
 }
 
-@screen md {
-    .main-card {
-        @apply p-8;
-        @apply w-1/2;
-    }
+@variant md {
+  .main-card {
+    @apply p-8;
+    @apply w-1/2;
+  }
 }
 
-@screen lg {
-    .main-card {
-        @apply p-16;
-    }
+@variant lg {
+  .main-card {
+    @apply p-16;
+  }
 }
 
 .main-card:nth-child(even) {
-    @apply border-l-0;
+  @apply border-l-0;
 }
 
-@screen md {
-    .main-card:nth-child(even) {
-       @apply border-l;
-    }
-    .main-card:nth-last-child(1):nth-child(even) {
-       @apply border-b-0;
-    }
+@variant md {
+  .main-card:nth-child(even) {
+    @apply border-l;
+  }
+
+  .main-card:nth-last-child(1):nth-child(even) {
+    @apply border-b-0;
+  }
 }
+
 .main-card:nth-child(odd):last-child {
-    @apply border-0;
+  @apply border-0;
 }
 
-    .main-card:nth-last-child(2):nth-child(odd) {
-       @apply border-b-0;
-    }
+.main-card:nth-last-child(2):nth-child(odd) {
+  @apply border-b-0;
+}

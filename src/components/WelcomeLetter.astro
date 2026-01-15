@@ -1,0 +1,15 @@
+---
+const { title, image_src, image_alt } = Astro.props;
+---
+
+<div class="section flex justify-end sm:px-0 px-4 pt-6 mb-8">
+    <div class="container z-10 w-full">
+        <div class="letter mt-24 mb-16">
+            <div class="content text-measure mx-auto" style="color:#313639">
+                <h2 class="heading-base">{title}</h2>
+                <slot />
+            </div>
+        </div>
+    </div>
+    <img class="hidden lg:block lg:w-3/5 absolute left-0 top-0 h-full object-cover" src={`${import.meta.env.BASE_URL}${image_src}`} alt={image_alt}>
+</div>
