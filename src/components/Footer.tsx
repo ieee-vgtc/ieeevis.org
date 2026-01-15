@@ -10,7 +10,7 @@ export default function Footer({
   footer_data: { columns: FooterSectionType[] };
   pathname: string;
 }) {
-  const source_file = `src/pages${pathname}.md`;
+  const source_file = `src/pages${pathname.replace(import.meta.env.BASE_URL,"/")}.md`;
 
   return (
     <footer className="footer text-white">
