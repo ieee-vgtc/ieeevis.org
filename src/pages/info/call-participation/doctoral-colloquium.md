@@ -8,7 +8,7 @@ contact: doctoral_coll@ieeevis.org
 
 ## General Information
 
-We solicit submissions to the doctoral colloquium (DC) for IEEE VIS 2026. The DC is a single-day, invitation-only event taking place the day before IEEE VIS on Saturday, Nov. 1, 2026. Participating Ph.D. students present their proposed dissertation work and receive feedback from leading senior visualization researchers. We invite contributions from student communities involved in all areas of visualization.
+We solicit submissions to the doctoral colloquium (DC) for IEEE VIS 2026. The DC is a single-day, invitation-only event taking place the day before IEEE VIS on Saturday, Nov. 8, 2026. Participating Ph.D. students present their proposed dissertation work and receive feedback from leading senior visualization researchers. We invite contributions from student communities involved in all areas of visualization.
 
 The colloquium will allow students to discuss their research directions in a supportive atmosphere with a panel of distinguished leaders and with their peers. Students can expect helpful feedback and fresh perspectives on their research topics and possible career paths and will have the opportunity to interact closely with expert researchers in their field. The colloquium will support community-building by connecting early-career and established researchers in a welcoming and mentorship-forward environment.
 
@@ -22,7 +22,7 @@ The colloquium will consist of both parallel sessions of student presentations a
 
 Only selected applicants will be allowed to participate in the colloquium and those selected will be expected to attend the full day of events.
 
-We plan to have the DC as an in-person first event following the rest of the conference.
+We plan to focus on in-person, rather than remote, participation for the DC attendees.
 
 ## Funding
 
@@ -30,9 +30,9 @@ We may be able to fund conference registration for **all** participating student
 
 ## Submissions
 
-The deadline for DC submissions is **May 30, 2026** at 11:59pm (23:59) **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth)**.
+The deadline for DC submissions is **May 29, 2026** at 11:59pm (23:59) **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth)**.
 
-Notification: **June 27, 2026**
+Notification: **June 26, 2026**
 
 Applicants to the Doctoral Colloquium should submit:
 
@@ -51,8 +51,8 @@ Student submissions will be reviewed by the DC Chairs and selections will be mad
 
 ## Doctoral Colloquium Chairs
 
-Michael Behrisch, _Utrecht University_  
-Emily Wall, _Emory University_  
-Yunhai Wang, _Renmin University of China_
+Michael Behrisch, _Utrecht University_
+Michael Correll, _Northeastern University_
+Cindy Xiong-Bearfield, _Georgia Tech University_
 
 Contact VIS DC co-chairs: [doctoral_coll@ieeevis.org](mailto:doctoral_coll@ieeevis.org)
