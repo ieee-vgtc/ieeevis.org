@@ -44,10 +44,10 @@ menu:
                 links:
                   - text: "Papers"
                     url: "/info/call-participation/call-for-participation"
+                    is_new: false
+                  - text: "Short Papers"
+                    url: "/info/call-participation/shortpapers"
                     is_new: true
-                  # - text: "Short Papers"
-                  #   url: "/info/call-participation/shortpapers"
-                  #   is_new: false
                   # - text: "Posters"
                   #   url: "/info/call-participation/posters"
                   #   is_new: false
@@ -56,7 +56,7 @@ menu:
                   #   is_new: false
                   - text: "Workshops"
                     url: "/info/call-participation/workshops"
-                    is_new: true
+                    is_new: false
                   # - text: "Panels"
                   #   url: "/info/call-participation/panels"
                   #   is_new: false
@@ -67,13 +67,13 @@ menu:
                 links:
                   - text: "Area Model for VIS"
                     url: "/info/call-participation/area-model"
-                    is_new: true
+                    is_new: false
                   - text: "Paper Submission Guidelines"
                     url: "/info/call-participation/paper-submission-guidelines"
-                    is_new: true
+                    is_new: false
                   - text: "Submission Keywords"
                     url: "/info/call-participation/paper-keywords"
-                    is_new: true
+                    is_new: false
                   - text: "Partnerships"
                     url: "/info/call-participation/partnerships"
                     is_new: false
@@ -82,7 +82,7 @@ menu:
                     is_new: false
                   - text: "Review Instructions"
                     url: "/info/call-participation/review-instructions"
-                    is_new: true
+                    is_new: false
           # - heading: "Presenter Information"
           #   columns:
           #   - links:
