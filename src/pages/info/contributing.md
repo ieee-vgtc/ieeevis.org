@@ -1,6 +1,7 @@
 ---
 layout: /src/layouts/PageLayout.astro
 title: "Contributing to the IEEE VIS website"
+description: "Learn how to contribute content to the IEEE VIS website. Find guidelines, submission processes, and best practices."
 active_nav: "Organization & History"
 contact: web@ieeevis.org
 ---

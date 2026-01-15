@@ -1,5 +1,6 @@
 ---
 title: Area Model for VIS
+description: Learn about the IEEE VIS area model, which organizes research topics for peer review. Find guidance for authors, reviewers, and paper chairs.
 layout: /src/layouts/PageLayout.astro
 active_nav: "Contribute"
 # sidebar: none

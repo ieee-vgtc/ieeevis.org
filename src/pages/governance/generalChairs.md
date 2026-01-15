@@ -1,5 +1,6 @@
 ---
 title: IEEE VIS - Being General Chair of IEEE VIS
+description: Discover the role of IEEE VIS General Chair. Understand duties, leadership responsibilities, and tips for successfully leading the conference.
 layout: /src/layouts/PageLayout.astro
 ---
 

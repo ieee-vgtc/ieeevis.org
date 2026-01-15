@@ -1,5 +1,6 @@
 ---
 title: Review Instructions
+description: Learn about the IEEE VIS review process, including two-phase double-blind reviewing, reviewer responsibilities, and ethics guidelines aligned with IEEE Transactions on Visualization and Computer Graphics.
 layout: /src/layouts/PageLayout.astro
 contact: opc@ieeevis.org
 sidebar: call-for-participation

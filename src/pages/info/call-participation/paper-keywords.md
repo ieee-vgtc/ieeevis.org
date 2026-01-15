@@ -1,5 +1,6 @@
 ---
 title: VIS Paper Submission Keywords
+description: Explore IEEE VIS paper submission keywords to accurately classify your research. Ensure your paper is reviewed by the right area and experts.
 layout: /src/layouts/PageLayout.astro
 active_nav: "Contribute"
 sidebar: call-for-participation

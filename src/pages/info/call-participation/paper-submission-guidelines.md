@@ -1,5 +1,6 @@
 ---
 title: Paper Submission Guidelines
+description: Follow IEEE VIS paper submission guidelines. Learn how to choose the right area, understand the six research areas, and prepare your paper for review.
 layout: /src/layouts/PageLayout.astro
 active_nav: "Contribute"
 sidebar: call-for-participation

@@ -83,6 +83,9 @@ menu:
                   - text: "Review Instructions"
                     url: "/info/call-participation/review-instructions"
                     is_new: false
+                  - text: "Junior Reviewer Guide"
+                    url: "/info/call-participation/junior-reviewer-guide"
+                    is_new: false
           # - heading: "Presenter Information"
           #   columns:
           #   - links:
