@@ -22,7 +22,7 @@ What will happen behind the scenes after you're done with an edit is that GitHub
 
 ### Scope of responsibility for web chairs
 
-By default, web chairs focus on the technical operation of the website and supporting infrastructure. Decisions about content should be handled by the appropriate content owners. Requests that involve content decisions — such as “please improve the text on page XYZ” — should directed to the person or group responsible for that content.
+The web chairs focus on the technical operation of the website and supporting infrastructure. Decisions about content should be handled by the appropriate content owners. Requests that involve content decisions — such as “please improve the text on page XYZ” — should directed to the person or group responsible for that content.
 
 Similarly, when requesting that new content be added to the website, please include enough detail to allow the web chairs to implement the request efficiently. In particular, you should provide:
 
@@ -36,7 +36,7 @@ Providing this information helps ensure requests are handled smoothly and effici
 
 As merge requests come in, web chairs will review them within one week, and then deploy to a staging website. Then, the core team must approve changes before they are released to the production site. This means that it will generally be about a week before a merge request submitted to web makes it to the production website.
 
-Members of the organizing committee should keep this schedule in mind when they need updates to the website relating to their own committees. Please refrain from making urgent requests or using language such as "ASAP" or "immediately", as the web team typically fields more than a hundred requests for changes throughout the year, on top of managing the virtual site.
+Members of the organizing committee should keep this schedule in mind when they need updates to the website relating to their own committees. Please refrain from making urgent requests or using language such as "ASAP" or "immediately", as the web team typically fields more than a hundred requests for changes throughout the year, on top of managing the conference content site.
 
 ### Who's responsible for what?
 
@@ -71,22 +71,22 @@ If you are an organization member, the _best_ way to suggest a change is to go o
 
 To continue, you will be asked to log in to a GitHub account. After you do so, you will be shown an interface that looks like this:
 
-<img src="/year/2026/assets/contributing/instructions-1.png" style="width: 100%;border:1px solid gray;">
+<img src="/year/2026/assets/contributing/instructions-1.jpg" style="width: 100%;border:1px solid gray;">
 <br/>
 
-After you’re done making the edits, you’ll go to the bottom of the page where there’s this:
+After you’re done making the edits, click Commit Changes and create a new branch:
 
-<img src="/year/2026/assets/contributing/instructions-2.png" style="width: 100%;border:1px solid gray;">
+<img src="/year/2026/assets/contributing/instructions-2.jpg" style="width: 100%;border:1px solid gray;">
 <br/>
 
 After you click on "Propose file change", you’ll be taken to something that looks like this, where you can click on "Create Pull Request":
 
-<img src="/year/2026/assets/contributing/instructions-3.png" style="width: 100%;border:1px solid gray;">
+<img src="/year/2026/assets/contributing/instructions-3.jpg" style="width: 100%;border:1px solid gray;">
 <br/>
 
 After you click on that, web gets both a bug report and a proposed change:
 
-<img src="/year/2026/assets/contributing/instructions-4.png" style="width: 100%;border:1px solid gray;">
+<img src="/year/2026/assets/contributing/instructions-4.jpg" style="width: 100%;border:1px solid gray;">
 <br/>
 
 If the change is simple, we’ll simply say "OK". If the change requires reviewers, we can ask for people to comment on the thread. After everyone says OK, we merge the change and then we will be able to push it to staging.ieeevis.org. All PRs are automatically built to the staging website; [you can take a look at the history of deploy actions](https://github.com/ieee-vgtc/ieeevis.org/actions).
@@ -99,12 +99,16 @@ During non-conference times, web will ask core to approve changes to go to produ
 
 ## Where are the current files?
 
-Here is an example link for the [2022 paper CFP page](https://github.com/ieee-vgtc/ieeevis.org/blob/vis2022/content/info/call-participation/call-for-participation.md).
-Other URLs are available in similar places: [shortpapers](https://github.com/ieee-vgtc/ieeevis.org/blob/vis2022/content/info/call-participation/shortpapers.md), [posters](https://github.com/ieee-vgtc/ieeevis.org/blob/vis2022/content/info/call-participation/posters.md), [panels](https://github.com/ieee-vgtc/ieeevis.org/blob/vis2022/content/info/call-participation/panels.md).
+Here is an example link for the [2026 paper CFP page](https://github.com/ieee-vgtc/ieeevis.org/blob/vis2026/src/pages/info/call-participation/call-for-participation.md).
+Other URLs are available in similar places: [shortpapers](https://github.com/ieee-vgtc/ieeevis.org/blob/vis2026/src/pages/info/call-participation/shortpapers.md), [posters](https://github.com/ieee-vgtc/ieeevis.org/blob/vis2026/src/pages/info/call-participation/posters.md), [panels](https://github.com/ieee-vgtc/ieeevis.org/blob/vis2026/src/pages/info/call-participation/panels.md).
 
-Note how the URL on GitHub matches the URL on the website. <https://github.com/ieee-vgtc/ieeevis.org/blob/vis2020/content/info/call-participation/shortpapers.md> corresponds to <http://staging.ieeevis.org/year/2020/info/call-participation/shortpapers> (rename "/blob" to "/year" and remove the ".md" extension).
+Note how the URL on GitHub corresponds to the URL on the website.
+- GitHub: <https://github.com/ieee-vgtc/ieeevis.org/blob/vis2026/src/pages/info/call-participation/call-for-participation.md>
+- Website: <https://ieeevis.org/year/2026/info/call-participation/call-for-participation> 
 
-Generally, we copy over all content from the previous year to the current year's branch. If a corresponding page exists in the previous year, chances are that it exists in the current year, even though it might not be reachable through the navigation bar. For example, you can change "2021" to "2022" to find and edit a file to in the current year's branch.
+(replace `https://github.com/ieee-vgtc/ieeevis.org/blob/vis2026/src/pages` with `https://ieeevis.org/year/2026` and remove the `.md` extension).
+
+Generally, we copy over all content from the previous year to the current year's branch. If a corresponding page exists in the previous year, chances are that it exists in the current year, even though it might not be reachable through the navigation bar. For example, you can change "2025" to "2026" to find and edit a file to in the current year's branch if it exists.
 
 ## Building the website locally
 
