@@ -2,8 +2,8 @@ name: Deploy Staging Site
 
 on:
   push:
-    # build staging whenever someone pushes to main
-    branches: [main]
+    # build staging whenever someone pushes to default branch
+    branches: [vis2026]
 
 env:
   BASE_PATH: "/year/2026" # we are ONLY deploying to this base path, do not add a trailing slash
