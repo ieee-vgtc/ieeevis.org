@@ -8,7 +8,7 @@ contact: doctoral_coll@ieeevis.org
 
 ## General Information
 
-We solicit submissions to the doctoral colloquium (DC) for IEEE VIS 2026. The DC is a single-day, invitation-only event taking place the day before IEEE VIS on Saturday, Nov. 8, 2026. Participating Ph.D. students present their proposed dissertation work and receive feedback from leading senior visualization researchers. We invite contributions from student communities involved in all areas of visualization.
+We solicit submissions to the doctoral colloquium (DC) for IEEE VIS 2026. The DC is a single-day, invitation-only event taking place the day before IEEE VIS on Sunday, Nov. 8, 2026. Participating Ph.D. students present their proposed dissertation work and receive feedback from leading senior visualization researchers. We invite contributions from student communities involved in all areas of visualization.
 
 The colloquium will allow students to discuss their research directions in a supportive atmosphere with a panel of distinguished leaders and with their peers. Students can expect helpful feedback and fresh perspectives on their research topics and possible career paths and will have the opportunity to interact closely with expert researchers in their field. The colloquium will support community-building by connecting early-career and established researchers in a welcoming and mentorship-forward environment.
 
