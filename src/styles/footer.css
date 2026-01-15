@@ -1,89 +1,87 @@
 /* Footer */
 
 .footer {
-    @apply mt-16;
+  @apply mt-16;
 }
 
 .footer li {
-    margin-bottom: 6px;
+  margin-bottom: 6px;
 }
 
 .footer ul {
-    @apply ml-0;
+  @apply ml-0;
 }
 
 .footer li a {
-    @apply text-white border-b-0;
+  @apply text-white border-b-0;
 }
 
 .footer__header {
-    @apply relative;
+  @apply relative;
 }
 
 .footer__header::before {
-    @apply absolute border-2 rounded-full border-white;
-    content: '';
-    left: -10px;
-    bottom: -4px;
-    width: 8px;
-    height: 8px;
+  @apply absolute border-2 rounded-full border-white;
+  content: "";
+  left: -10px;
+  bottom: -4px;
+  width: 8px;
+  height: 8px;
 }
 
-    @screen md {
-        .footer__header::before {
-            right: -4px;
-            top: -10px;
-            left: auto;
-        }
-    }
+@variant md {
+  .footer__header::before {
+    right: -4px;
+    top: -10px;
+    left: auto;
+  }
+}
 
 .footer__header::after {
-    @apply absolute border-2 rounded-full border-white;
-    content: '';
-    right: -10px;
-    bottom: -4px;
-    width: 8px;
-    height: 8px;
+  @apply absolute border-2 rounded-full border-white;
+  content: "";
+  right: -10px;
+  bottom: -4px;
+  width: 8px;
+  height: 8px;
 }
 
-    @screen md {
-        .footer__header::after {
-            right: -4px;
-            bottom: -10px;
-        }
-    }
-
+@variant md {
+  .footer__header::after {
+    right: -4px;
+    bottom: -10px;
+  }
+}
 
 .footer__heading {
-    @apply uppercase font-bold text-white tracking-wider;
+  @apply uppercase font-bold text-white tracking-wider;
 }
 
 .footer__inline-link {
-    @apply relative pl-1 pr-2;
-    display: inline-block;
-    min-width: 3rem;
+  @apply relative pl-1 pr-2;
+  display: inline-block;
+  min-width: 3rem;
 }
 
 .footer__inline-link::before {
-    content: '\02219';
-    @apply absolute;
-    left: -9px;
+  content: "\02219";
+  @apply absolute;
+  left: -9px;
 }
 
 /* Footer Links */
 
 .footer__link:hover {
-    border-bottom: 1px dashed;
+  border-bottom: 1px dashed;
 }
-
 
 /* Footer logos */
 
 .footer__logo img {
-    height: 25px;
-    width: auto;
+  height: 25px;
+  width: auto;
 }
 
 .footer__logo + .footer__logo {
-    margin-left: 2rem;
+  margin-left: 2rem;
 }

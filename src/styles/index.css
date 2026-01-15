@@ -1,30 +1,28 @@
 /* Base Styles*/
 @import "tailwindcss/base";
-@import 'typography';
+@import "typography";
 
 /* Components */
 @import "tailwindcss/components";
-@import 'layout';
-@import 'navigation';
-@import 'program-navigation';
-@import 'header';
-@import 'footer';
-@import 'sidebar';
-@import 'sections';
+@import "layout";
+@import "navigation";
+@import "program-navigation";
+@import "header";
+@import "footer";
+@import "sidebar";
+@import "sections";
 
-@import 'buttons';
-@import 'cards';
-@import 'carousel';
+@import "buttons";
+@import "cards";
+@import "carousel";
 
-@import 'letter';
-@import 'photogrid';
-@import 'supporters';
+@import "letter";
+@import "photogrid";
+@import "supporters";
 
-@import 'blog';
+@import "blog";
 
-@import 'city-info';
+@import "city-info";
 
 /* Utilities*/
 @import "tailwindcss/utilities";
-
-

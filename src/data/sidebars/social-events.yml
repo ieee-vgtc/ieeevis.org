@@ -1,0 +1,12 @@
+- heading: "Social Events"
+  links:
+    - text: "Welcome Reception"
+      url: "/info/social-events/welcome-reception"
+    - text: "Poster Session"
+      url: "/info/social-events/poster-session"
+    - text: "Conference Dinner"
+      url: "/info/social-events/conference-dinner"
+    - text: "VISAP Exhibition"
+      url: "/info/social-events/visap-exhibition"
+    - text: "OC Dinner"
+      url: "/info/social-events/oc-dinner"

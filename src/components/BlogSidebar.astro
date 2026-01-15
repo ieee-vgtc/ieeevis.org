@@ -1,0 +1,35 @@
+---
+const posts: Record<string, any> = import.meta.glob("/src/pages/blog/*.md", {
+    eager: true,
+});
+const currentPath = Astro.url.pathname;
+
+
+const processedLinks:{
+  href: string,
+  class: string,
+  content: string
+}[] = Object.entries(posts).toReversed().map(([path, post]) => ({
+  href: `${import.meta.env.BASE_URL}/blog/${path.split("/").pop()?.replace(".md", "")}`,
+  class: `sidebar__link ${currentPath === `${import.meta.env.BASE_URL}/blog/${path.split("/").pop()?.replace(".md", "")}` && "sidebar__link--active"}`,
+  content: post.frontmatter.title,
+}))
+
+---
+
+<aside class="sidebar">
+    <div class="my-4">
+        <p class="heading-alt text-gray-500">
+            <a href={`${import.meta.env.BASE_URL}/blog`}>All posts</a>
+        </p>
+        <div class="overflow-hidden md:ml-0 -ml-3">
+            <div class="md:ml-0 -ml-px">
+                {
+                    processedLinks.map((link) => (
+                      <a href={link.href} class={link.class}>{link.content}</a>
+                    ))
+                }
+            </div>
+        </div>
+    </div>
+</aside>

@@ -1,0 +1,29 @@
+---
+title: VIS 2026 Accessibility
+layout: /src/layouts/PageLayout.astro
+active_nav: "Attend"
+contact: accessibility@ieeevis.org
+---
+
+IEEE VIS seeks to cultivate an environment that encourages participation and inclusion.
+
+<!--
+If you like to learn about our VIS Accessibility Guide for VIS 2026 authors on how to make your pdf accessible, please refer to [this guide](/year/2026/info/call-participation/accessible-pdf).
+We also encourage speakers to [ensure that their talks are accessible](http://www.sigaccess.org/welcome-to-sigaccess/resources/accessible-presentation-guide/).
+-->
+
+Please get in touch with us at [accessibility@ieeevis.org](mailto:accessibility@ieeevis.org) if you have questions, concerns, or would like to provide feedback.
+
+<!--
+## Communicating accessibility needs
+
+During registration, you can indicate that you have accessibility needs. We will follow up with you to discuss your needs in more detail. If you find that any of the online platforms do not support your needs, you can contact [accessibility@ieeevis.org](mailto:accessibility@ieeevis.org), and we will work with you to ensure you can participate on the platforms.
+
+## Accessibility considerations
+
+We have made efforts to ensure that the pre-recorded video presentations and streamed sessions include captioning.
+
+All live events in the main sessions will be captioned by professional stenographers. The recorded talks are also captioned. Workshops and supplementary live events will not be captioned.
+
+If you have a problem with accessibility during the event, please contact [accessibility@ieeevis.org](mailto:accessibility@ieeevis.org), and we will try to resolve your issue.
+-->

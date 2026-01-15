@@ -1,0 +1,10 @@
+# - title: "We are looking forward to your contributions!"
+#   image: "contributions.jpg"
+#   buttonText: "Call for Participation"
+#   buttonUrl: "/info/call-participation/call-for-participation"
+#   active: "active"
+
+- title: "IEEE VIS 2026 in Boston, Massachusetts"
+  image: "boston_skyline.jpg"
+  buttonText: "Destination Information"
+  buttonUrl: "/destination"
