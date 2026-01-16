@@ -1,0 +1,28 @@
+/* Base Styles*/
+@import "tailwindcss";
+@import "./theme.css";
+@import "./typography";
+
+/* Components */
+@import "./layout";
+@import "./navigation";
+/* @import './program-navigation'; */
+@import "./header";
+@import "./footer";
+@import "./sidebar";
+@import "./sections";
+
+@import "./buttons";
+@import "./cards";
+@import "./carousel";
+
+@import "./letter";
+@import "./photogrid";
+@import "./supporters";
+
+@import "./blog";
+
+@import "./city-info";
+
+/* Utilities*/
+/* @import "tailwindcss/utilities"; */

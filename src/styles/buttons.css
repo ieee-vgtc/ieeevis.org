@@ -1,46 +1,46 @@
 /* Buttons */
 
 .button {
-    @apply inline-block rounded shadow-md;
-    @apply py-2 px-4;
-    @apply font-display font-medium whitespace-no-wrap;
-    @apply bg-primary text-white;
-    @apply text-sm;
-    transition: background-color 200ms;
+  @apply inline-block rounded shadow-md;
+  @apply py-2 px-4;
+  @apply font-display font-medium whitespace-nowrap;
+  @apply bg-primary text-white;
+  @apply text-sm;
+  transition: background-color 200ms;
 }
 
 .button-auth {
-    @apply inline-block rounded shadow-md;
-    @apply py-2 px-4;
-    @apply font-display font-medium whitespace-no-wrap;
+  @apply inline-block rounded shadow-md;
+  @apply py-2 px-4;
+  @apply font-display font-medium whitespace-nowrap;
 }
 
 .button::after {
-    /* content: "→"; */
-    @apply align-middle pl-1;
+  /* content: "→"; */
+  @apply align-middle pl-1;
 }
 
 .button:hover {
-    @apply bg-primary-700;
+  @apply bg-primary-700;
 }
 
 .button-secondary {
-    @apply bg-accent-minor text-accent;
+  @apply bg-accent-minor text-accent;
 }
 
 .button-secondary:hover {
-    @apply text-accent-minor bg-secondary-800;
+  @apply text-accent-minor bg-secondary-800;
 }
 
 .button-inverse {
-    @apply border-2 border-primary;
-    @apply bg-white text-primary;
+  @apply border-2 border-primary;
+  @apply bg-white text-primary;
 }
 
 .button-inverse:hover {
-    @apply bg-primary-200;
+  @apply bg-primary-200;
 }
 
-.button+.button {
-    @apply ml-2;
+.button + .button {
+  @apply ml-2;
 }

@@ -1,0 +1,45 @@
+---
+import BlogSidebar from "../components/BlogSidebar.astro";
+import DefaultLayout from "./DefaultLayout.astro";
+const { frontmatter } = Astro.props;
+---
+
+<DefaultLayout page_info={frontmatter}>
+  <header class="section">
+    <div class="header">
+      <div class="container">
+        <h1 class="mb-0">{frontmatter.title}</h1>
+      </div>
+    </div>
+  </header>
+
+  <div class="container md:py-16 flex md:flex-row flex-col justify-between">
+    <article class="content md:w-3/5 w-full md:mt-0 mt-8 md:order-none order-2">
+      <div class="byline-container">
+        {
+          frontmatter.author_contact ? (
+            <p class="byline">
+              <a href={`mailto:${frontmatter.author_contact}`}>
+                {frontmatter.authors}
+              </a>
+            </p>
+          ) : (
+            <p class="byline">{frontmatter.authors}</p>
+          )
+        }
+
+        <p class="post-date">
+          {
+            new Date(frontmatter.date).toLocaleDateString('en-US', {
+              year: 'numeric',month: 'long',day: 'numeric'
+            })
+          }
+        </p>
+      </div>
+      <slot />
+    </article>
+
+    <BlogSidebar />
+    </aside>
+  </div>
+</DefaultLayout>

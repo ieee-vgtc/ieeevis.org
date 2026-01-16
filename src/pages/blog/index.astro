@@ -1,0 +1,58 @@
+---
+import BlogSidebar from "../../components/BlogSidebar.astro";
+import PageLayout from "../../layouts/PageLayout.astro";
+
+// src/pages/blog/index.astro
+const posts: Record<string, any> = import.meta.glob("./*.md", { eager: true });
+---
+
+<PageLayout
+    frontmatter={{
+        title: "Blog",
+        description: "Explore the IEEE VIS blog, featuring news, reflections, updates, and insights from past and upcoming conferences, papers, and community initiatives.",
+        sidebar: false,
+        sidetoc: false,
+    }}
+>
+    {
+        Object.entries(posts).toReversed().map(([path, post]) => (
+            <>
+                <h1 class="blog-title">
+                    <a href={ `${import.meta.env.BASE_URL}/blog/${path.replace("./", "").replace(".md", "")}` }>
+                        {post.frontmatter.title}
+                    </a>
+                </h1>
+                <p>{ post.frontmatter.description }</p>
+
+                <div class="byline-container">
+                    {post.frontmatter.author_contact ? (
+                        <p class="byline">
+                            <a
+                                href={`mailto:${post.frontmatter.author_contact}`}
+                            >
+                                {post.frontmatter.authors}
+                            </a>
+                        </p>
+                    ) : (
+                        <p class="byline">{post.frontmatter.authors}</p>
+                    )}
+
+                    <p class="post-date">
+                        {
+                            new Date(post.frontmatter.date).toLocaleDateString('en-US', {
+                                year: 'numeric',month: 'long',day: 'numeric'
+                            })
+                        }
+                    </p>
+                </div>
+
+                {/* Access the compiled markdown content */}
+                <div class="post-content" set:html={post.compiledContent()} />
+
+                <hr />
+            </>
+        ))
+    }
+
+    <BlogSidebar  slot="sidebar"/>
+</PageLayout>

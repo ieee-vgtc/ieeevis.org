@@ -1,0 +1,84 @@
+---
+import DefaultLayout from "./DefaultLayout.astro";
+import Sidebar from "../components/Sidebar";
+import Card from "../components/Card";
+import MarkdownText from "../components/MarkdownText";
+import { withBaseURL } from "../utils/withBaseURL";
+const { frontmatter } = Astro.props;
+
+type FrontmatterCardType = {
+  title: string, //"Area 1: Theoretical & Empirical"
+  description: string, //"Theoretical and empirical research topics that aim to define the foundation of VIS as a scientific subject."
+  button_text: string, //"Theoretical & Empirical"
+  button_url: string, //"/info/call-participation/area-model#area-1-theoretical--empirical"
+}
+type CardType = {
+  title: string,
+  description: string,
+  button_text: string,
+  url: string,
+}
+const cards:CardType[] = frontmatter.intro_section.cards.map((card: FrontmatterCardType) => ({
+  title: card.title,
+  description: card.description,
+  button_text: card.button_text,
+  url: withBaseURL(card.button_url),
+}))
+---
+
+<DefaultLayout page_info={frontmatter}>
+  <div
+    class="header--medium header--background relative"
+    style={`background-image: url('${import.meta.env.BASE_URL}/assets/theme/hex-pattern.png');`}
+  >
+    <div class="container">
+      <h1>{frontmatter.title}</h1>
+    </div>
+  </div>
+
+  {
+    frontmatter.intro_section && (
+      <div class="section section--wrapper bg-accent-blue">
+        <div class="bg-accent-secondaryBackground section ">
+          <div class="container">
+            <div
+              class={`section__content-wrapper ${frontmatter.intro_section.callout && "section__content-wrapper--decorative"}`}
+            >
+              {frontmatter.intro_section.callout && (
+                <div class="section__callout mb-16">
+                  {frontmatter.intro_section.callout}
+                </div>
+              )}
+
+              <div class="flex md:flex-row flex-col flex-wrap">
+                {cards.map((c, cIdx) => (
+                  <Card
+                    key={cIdx}
+                    title={c.title}
+                    description={c.description}
+                    button_text={c.button_text}
+                    url={c.url}
+                  />
+                ))}
+              </div>
+
+              {frontmatter.intro_section.content && (
+                <div class="section__content text-measure text-black ieee-pub-notice">
+                  <MarkdownText content={frontmatter.intro_section.content} />
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+      </div>
+    )
+  }
+
+  <div class="container md:py-16 flex md:flex-row flex-col justify-between">
+    <div class="content md:w-3/5 w-full md:mt-0 mt-8 md:order-none order-2">
+      <slot />
+    </div>
+
+    {frontmatter.sidebar && <Sidebar sidebar_data_path={frontmatter.sidebar} />}
+  </div>
+</DefaultLayout>

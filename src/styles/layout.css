@@ -1,73 +1,63 @@
 /* Body */
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 /* Containers */
 
 .container {
-    max-width: 1280px;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    margin: auto;
+  max-width: 1280px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin: auto;
 }
 
-@screen sm {
-    .container {
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
+@variant sm {
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 
 .flex-parent {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-}
-
-@screen md {
-    .flex-parent {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-between;
-    }
-
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
 
 .title {
-    flex: auto;
-    max-width: 550px;
+  flex: auto;
+  max-width: 550px;
 }
 
 .carousel-container {
-    width: 100%;
+  width: 100%;
 }
 
 .ieee-pub-notice {
-    padding: 10px;
-    background: white;
-    border-radius: 10px;
+  padding: 10px;
+  background: white;
+  border-radius: 10px;
 }
-
 
 /* Main */
 
 main {
-    margin-top: 70px;
-    /* Push down to compensate for fixed nav*/
+  margin-top: 70px;
+  /* Push down to compensate for fixed nav*/
 
-    /* margin-top: 140px;  */
-    /* Adding 70px for the program navbar */
+  /* margin-top: 140px;  */
+  /* Adding 70px for the program navbar */
 }
 
 article,
 aside {
-    scroll-margin-top: 30px;
+  scroll-margin-top: 30px;
 }
 
-@screen md {
-    main {
-        margin-top: 0px;
-    }
+@variant md {
+  main {
+    margin-top: 0px;
+  }
 }

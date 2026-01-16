@@ -1,82 +1,81 @@
 /* Typography */
 
 body {
-    @apply font-body text-gray-700;
+  @apply font-body text-gray-700;
 }
 
 h1,
 .heading-xlarge {
-    @apply font-display font-bold text-primary;
-    @apply text-4xl mb-4;
-    line-height: 115%;
+  @apply font-display font-bold text-primary;
+  @apply text-4xl mb-4;
+  line-height: 115%;
 }
 
 h2,
 .heading-large {
-    @apply font-display font-bold text-primary;
-    @apply text-3xl mb-4;
-    line-height: 115%;
+  @apply font-display font-bold text-primary;
+  @apply text-3xl mb-4;
+  line-height: 115%;
 }
 
 h3,
 .heading-base {
-    @apply font-display font-bold text-primary;
-    @apply text-xl mb-4;
-    line-height: 115%;
+  @apply font-display font-bold text-primary;
+  @apply text-xl mb-4;
+  line-height: 115%;
 }
 
 h4,
 h5,
 h6,
 .heading-small {
-    @apply font-display font-bold text-primary;
-    @apply text-lg mb-4;
-    line-height: 115%;
+  @apply font-display font-bold text-primary;
+  @apply text-lg mb-4;
+  line-height: 115%;
 }
 
 .heading-alt {
-    @apply font-body uppercase font-bold tracking-widest;
+  @apply font-body uppercase font-bold tracking-widest;
 }
 
 strong {
-    @apply font-bold;
+  @apply font-bold;
 }
 
 em {
-    @apply italic;
+  @apply italic;
 }
-
 
 /* Links */
 
-.link, .content a:not(.button) {
-    @apply text-primary;
-    border-bottom: 1px dashed;
+.link,
+.content a:not(.button) {
+  @apply text-primary;
+  border-bottom: 1px dashed;
 }
 
-.link:hover, .content a:hover:not(.button) {
-    @apply text-primary-500;
-    transition: color 200ms;
+.link:hover,
+.content a:hover:not(.button) {
+  @apply text-primary-500;
+  transition: color 200ms;
 }
 
 .link--green {
-    @apply text-secondary;
+  @apply text-secondary;
 }
 
-
 a.link--arrow {
-    @apply font-bold text-primary uppercase border-b-0;
+  @apply font-bold text-primary uppercase border-b-0;
 }
 
 a.link--arrow::after {
-    content: "→";
+  content: "→";
 }
-
 
 /* Markdown styles */
 
 p {
-    @apply mb-4;
+  @apply mb-4;
 }
 
 .content h1,
@@ -85,7 +84,7 @@ p {
 .content h4,
 .content h5,
 .content h6 {
-    @apply mt-8;
+  @apply mt-8;
 }
 
 /* Remove top margins from very first heading in content areas */
@@ -95,112 +94,92 @@ p {
 .content h4:first-child,
 .content h5:first-child,
 .content h6:first-child {
-    @apply mt-0;
+  @apply mt-0;
 }
 
-
-.content ol, .content ul {
-    @apply mb-4;
-    max-width: 100%
-}
-
-/* Increase indent for each nested level */
-.content ul ul, .content ol ul,
-.content ul ol, .content ol ol {
-  @apply pl-6; /* 2nd level */
-}
-
-.content ul ul ul, .content ol ul ul,
-.content ul ol ul, .content ol ol ul,
-.content ul ul ol, .content ol ul ol,
-.content ul ol ol, .content ol ol ol {
-  @apply pl-10; /* 3rd level */
+.content ol,
+.content ul {
+  @apply mb-4 ml-8;
 }
 
 .content li {
-    @apply relative mt-3;
+  @apply relative mt-3;
 }
 
 .content ul li::before {
-    content: "\25CF";
-    left: -1rem;
-    @apply absolute text-secondary;
-}
-
-.content ul ul li::before {
-    content: "\25e6";
-    left: -1rem;
-    @apply absolute text-secondary;
+  content: "\25e6";
+  left: -1rem;
+  @apply absolute text-secondary;
 }
 
 .content ol {
-    @apply list-decimal;
+  @apply list-decimal;
 }
 
 .content blockquote {
-    @apply border-l-3 border-secondary py-4 px-5 my-4 text-lg;
+  @apply border-l-3 border-secondary py-4 px-5 my-4 text-lg;
 }
 
 .content table {
-    @apply mb-4;
+  @apply mb-4;
 }
 
 .content tr {
-    @apply border-b border-dashed border-primary;
+  @apply border-b border-dashed border-primary;
 }
 
 .content td,
 th {
-    @apply px-4 py-3;
+  @apply px-4 py-3;
 }
 
 .content tbody tr:first-child {
-    border-style: solid none dashed;
-    @apply border-t-2 border-primary;
+  border-style: solid none dashed;
+  @apply border-t-2 border-primary;
 }
 
 table {
-    @apply mb-8 border-b-2 border-solid border-primary text-left;
+  @apply mb-8 border-b-2 border-solid border-primary text-left;
 }
 
 thead {
-    @apply font-display font-bold text-lg text-primary;
+  @apply font-display font-bold text-lg text-primary;
 }
 
-thead+tbody {
-    @apply border-t-2 border-solid border-primary;
+thead + tbody {
+  @apply border-t-2 border-solid border-primary;
 }
 
 .content hr {
-    @apply border-b-2 border-secondary border-dashed relative my-12;
+  @apply border-b-2 border-secondary border-dashed relative my-12;
 }
 
 .content hr::after {
-    @apply border-secondary border-2 absolute rounded-full;
-    content: "";
-    right: -14px;
-    top: -4px;
-    width: 6px;
-    height: 6px;
+  @apply border-secondary border-2 absolute rounded-full;
+  content: "";
+  right: -14px;
+  top: -4px;
+  width: 6px;
+  height: 6px;
 }
 
 .participation-menu {
-    @apply relative;
+  @apply relative;
 }
 
 .participation-menu::before {
-    content: '|';
-    @apply mr-1;
-    @apply absolute;
-    left: -5px;
+  content: "|";
+  @apply mr-1;
+  @apply absolute;
+  left: -5px;
 }
 
 /* Measure: Set ideal line length for reading */
 
 .text-measure {
-    max-width: 40em;
+  max-width: 40em;
 }
 
 .text-measure--wide {
-    max-width: 50em;
+  max-width: 50em;
 }

@@ -1,18 +1,18 @@
 .blog-title a {
-    border-bottom: none !important;
+  border-bottom: none !important;
 }
 
 .byline {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .post-date {
-    font-weight: 900;
+  font-weight: 900;
 }
 
 .byline-container {
-    display: flex;
-    flex-flow: column nowrap;
-    text-align: right;
-    margin-bottom: 1.5rem;
+  display: flex;
+  flex-flow: column nowrap;
+  text-align: right;
+  margin-bottom: 1.5rem;
 }
