@@ -2,7 +2,7 @@
 title: Doctoral Colloquium - Call For Participation
 layout: /src/layouts/PageLayout.astro
 active_nav: "Contribute"
-sidebar: submit-your-work
+sidebar: call-for-participation
 contact: doctoral_coll@ieeevis.org
 ---
 
