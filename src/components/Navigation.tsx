@@ -137,8 +137,10 @@ export default function Navigation({ nav_data }: { nav_data: NavDataType }) {
                                         {link.url ? (
                                           <a
                                             href={
-                                              import.meta.env.BASE_URL +
-                                              link.url
+                                              link.url.includes("http")
+                                                ? link.url
+                                                : import.meta.env.BASE_URL +
+                                                  link.url
                                             }
                                           >
                                             {link.text}
