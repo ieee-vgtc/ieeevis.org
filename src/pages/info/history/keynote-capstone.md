@@ -1,5 +1,6 @@
 ---
 title: Historical Keynote and Capstone Talks
+description: Explore historical keynote and capstone talks at IEEE VIS, featuring past speakers and influential presentations from previous conferences.
 layout: /src/layouts/PageLayout.astro
 contact: archive@ieeevis.org
 ---

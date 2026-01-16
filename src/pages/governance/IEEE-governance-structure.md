@@ -1,5 +1,6 @@
 ---
 title: IEEE Governance Structure
+description: Learn about the IEEE VIS governance structure, outlined in the IEEE VIS Charter, unifying VAST, InfoVis, and SciVis.
 layout: /src/layouts/PageLayout.astro
 ---
 

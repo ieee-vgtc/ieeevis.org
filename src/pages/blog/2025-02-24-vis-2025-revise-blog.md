@@ -1,6 +1,6 @@
 ---
 title: The reVISe 1.1 experiment
-description:
+description: Learn about the reVISe 1.1 experiment, an initiative by IEEE VIS leadership to evolve conference governance in response to community feedback.
 layout: /src/layouts/BlogPageLayout.astro
 active_nav: Blog
 authors: VSC, VEC, and reVISe chair

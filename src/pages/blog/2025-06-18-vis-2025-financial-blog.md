@@ -1,6 +1,6 @@
 ---
 title: VIS 2022 Financial Blog Post
-description:
+description: Read the VIS 2022 financial blog post from VGTC/VEC, reflecting on the first hybrid IEEE VIS and its financial outcomes post-pandemic.
 layout: /src/layouts/BlogPageLayout.astro
 active_nav: Blog
 authors: VGTC/VEC

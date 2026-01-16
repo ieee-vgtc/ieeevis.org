@@ -1,5 +1,6 @@
 ---
 title: Best Paper Process
+description: Learn about the IEEE VIS Best Paper process and award criteria, including evaluation standards and the role of the Visualization Steering Committee.
 layout: /src/layouts/PageLayout.astro
 contact: vsc@ieeevis.org
 ---
