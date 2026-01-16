@@ -51,8 +51,8 @@ Student submissions will be reviewed by the DC Chairs and selections will be mad
 
 ## Doctoral Colloquium Chairs
 
-Michael Behrisch, _Utrecht University_
-Michael Correll, _Northeastern University_
-Cindy Xiong-Bearfield, _Georgia Tech University_
+* Michael Behrisch, _Utrecht University_
+* Michael Correll, _Northeastern University_
+* Cindy Xiong-Bearfield, _Georgia Tech University_
 
 Contact VIS DC co-chairs: [doctoral_coll@ieeevis.org](mailto:doctoral_coll@ieeevis.org)
