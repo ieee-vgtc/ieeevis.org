@@ -5,6 +5,7 @@
 
 import { useEffect, useState } from "react";
 import { load_yaml } from "../utils/load_yaml";
+import { withBaseURL } from "../utils/withBaseURL";
 
 export default function Sidebar({
   sidebar_data_path,
@@ -33,7 +34,7 @@ export default function Sidebar({
                 <div key={`side-link-${linkIdx}`}>
                   {link.url ? (
                     <a
-                      href={import.meta.env.BASE_URL + link.url}
+                      href={withBaseURL(link.url)}
                       className={`sidebar__link ${currentpath == link.url && "sidebar__link--active"}`}
                     >
                       {link.text}

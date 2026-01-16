@@ -1,4 +1,6 @@
 ---
+import { withBaseURL } from "../utils/withBaseURL";
+
 const posts: Record<string, any> = import.meta.glob("/src/pages/blog/*.md", {
     eager: true,
 });
@@ -20,7 +22,7 @@ const processedLinks:{
 <aside class="sidebar">
     <div class="my-4">
         <p class="heading-alt text-gray-500">
-            <a href={`${import.meta.env.BASE_URL}/blog`}>All posts</a>
+            <a href={withBaseURL(`/blog`)}>All posts</a>
         </p>
         <div class="overflow-hidden md:ml-0 -ml-3">
             <div class="md:ml-0 -ml-px">
