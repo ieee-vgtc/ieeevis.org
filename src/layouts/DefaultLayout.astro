@@ -17,7 +17,11 @@ const { pathname } = Astro.url;
 <!doctype html>
 <html lang="en">
 	<head>
-		<Head title={page_info.title || ""} url={Astro.url}/>
+		<Head
+            description={page_info.description || undefined}
+            title={page_info.title || ""}
+            url={Astro.url}
+        />
 	</head>
 	<body id="app" class="overflow-x-hidden">
         <Navigation nav_data={navigation_data} client:load/>

@@ -1,7 +1,9 @@
 ---
 title: Junior Reviewer Guide
+description: Learn about the IEEE VIS Junior Reviewer Program, which trains early-career researchers to participate in the full paper peer review process.
 layout: /src/layouts/PageLayout.astro
 contact: op@ieeevis.org
+sidebar: call-for-participation
 ---
 
 # IEEE VIS Junior Reviewer Guide

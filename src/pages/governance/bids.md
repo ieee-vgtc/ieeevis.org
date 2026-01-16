@@ -1,5 +1,6 @@
 ---
 title: IEEE VIS General Chair Applications & Bid Process
+description: Learn how to apply to become an IEEE VIS General Chair. Explore the bid process, eligibility criteria, and important deadlines for leadership roles.
 layout: /src/layouts/PageLayout.astro
 ---
 

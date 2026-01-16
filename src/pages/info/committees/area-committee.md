@@ -1,5 +1,6 @@
 ---
 title: Area Curation Committee
+description: Learn about the IEEE VIS Area Curation Committee and how it analyzes submission areas and keywords through annual executive summaries.
 layout: /src/layouts/PageLayout.astro
 active_nav: "Organization & History"
 ---

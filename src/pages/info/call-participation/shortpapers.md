@@ -1,5 +1,6 @@
 ---
 title: Short Paper Call for Participation
+description: Submit your short paper to IEEE VIS 2026. See the Call for Participation, submission guidelines, topics, and important deadlines.
 layout: /src/layouts/PageLayout.astro
 contact: shortpapers@ieeevis.org
 active_nav: "Contribute"

@@ -1,5 +1,6 @@
 ---
 title: "Papers - Call For Participation"
+description: "Submit your research to IEEE VIS 2026. View the Call for Papers, important dates, submission guidelines, and review criteria for visualization research."
 contact: papers@ieeevis.org
 active_nav: "Contribute"
 layout: /src/layouts/LandingLayout.astro

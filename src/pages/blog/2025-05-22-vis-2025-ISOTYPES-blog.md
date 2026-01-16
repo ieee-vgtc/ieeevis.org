@@ -1,6 +1,6 @@
 ---
 title: VIS 2025 takes place in an anniversary year
-description:
+description: Celebrate 100 years of Otto Neurath’s ISOTYPE at IEEE VIS 2025 in Vienna, marking a milestone in visual language and communication history.
 layout: /src/layouts/BlogPageLayout.astro
 active_nav: Blog
 authors: The VIS General Chairs
