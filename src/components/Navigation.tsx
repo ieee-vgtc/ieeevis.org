@@ -6,7 +6,8 @@ export default function Navigation({ nav_data }: { nav_data: NavDataType }) {
   const [selectedDropDownIndex, setSelectedDropDownIndex] = useState<
     number | null
   >(null);
-
+  const menuItem =
+    "menu_item font-display text-lg md:text-base lg:text-lg px-8 md:px-2 lg:px-4 mx-0 lg:mx-2 py-4 md:py-6 border-b-2 border-primary-200 md:border-none";
   return (
     <div id="navigation">
       <nav className="ieeevis-nav flex flex-start justify-between md:justify-start items-center">
@@ -38,11 +39,7 @@ export default function Navigation({ nav_data }: { nav_data: NavDataType }) {
           {/* Blog item */}
           {nav_data.blog.display && (
             <a className="nav-text-link" href={withBaseURL(nav_data.blog.url)}>
-              <button
-                className="menu_item font-display text-lg md:text-base lg:text-lg px-8 md:px-2 lg:px-4 mx-0 lg:mx-2 py-4 md:py-6 border-b-2 border-primary-200 md:border-none"
-                tabIndex={0}
-                role="menuitem"
-              >
+              <button className={menuItem} tabIndex={0} role="menuitem">
                 {nav_data.blog.text}
               </button>
             </a>
@@ -54,7 +51,7 @@ export default function Navigation({ nav_data }: { nav_data: NavDataType }) {
               nav.display && (
                 <div key={`nav-div-${i}`}>
                   <button
-                    className={`menu_item font-display text-lg md:text-base lg:text-lg px-8 md:px-2 lg:px-4 mx-0 lg:mx-2 py-4 md:py-6 border-b-2 border-primary-200 md:border-none ${selectedDropDownIndex === i ? "menu_item--focused" : ""}`}
+                    className={`${menuItem} ${selectedDropDownIndex === i ? "menu_item--focused" : ""}`}
                     tabIndex={0}
                     role="menuitem"
                     key={`nav-item-${i}`}
@@ -97,13 +94,14 @@ export default function Navigation({ nav_data }: { nav_data: NavDataType }) {
                           >
                             {subsection.heading_url ? (
                               <a
-                                className="dropdown__heading link--arrow"
+                                className="dropdown__heading"
                                 href={withBaseURL(subsection.heading_url)}
                               >
                                 {subsection.heading}
+                                <span className="link--arrow"></span>
                               </a>
                             ) : (
-                              <span className="dropdown__heading">
+                              <span className="dropdown__heading ">
                                 {subsection.heading}
                               </span>
                             )}

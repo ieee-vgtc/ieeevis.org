@@ -56,7 +56,7 @@
 /* Sidebar Links */
 
 .sidebar__link {
-  @apply border-l border-secondary pr-2 pl-3 inline text-secondary whitespace-nowrap mb-2;
+  @apply border-l border-secondary pr-2 pl-3 inline text-gray whitespace-nowrap mb-2;
 }
 
 @variant md {

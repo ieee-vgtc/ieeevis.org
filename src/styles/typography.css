@@ -20,7 +20,7 @@ h2,
 
 h3,
 .heading-base {
-  @apply font-display font-bold text-primary;
+  @apply font-display font-bold text-gray;
   @apply text-xl mb-4;
   line-height: 115%;
 }
@@ -64,11 +64,11 @@ em {
   @apply text-secondary;
 }
 
-a.link--arrow {
+.link--arrow {
   @apply font-bold text-primary uppercase border-b-0;
 }
 
-a.link--arrow::after {
+.link--arrow::after {
   content: "→";
 }
 
