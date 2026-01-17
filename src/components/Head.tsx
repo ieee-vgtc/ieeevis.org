@@ -34,7 +34,7 @@ export default function Head({
       <meta property="og:url" content={url.toString()}></meta>
       <meta
         property="og:image"
-        content={`${url.origin}${import.meta.env.BASE_URL}/assets/vis2026_logo.png`}
+        content={`${url.origin}${import.meta.env.BASE_URL}/assets/vis2026_logo.svg`}
       ></meta>
       <meta property="og:site_name" content="IEEE VIS 2026"></meta>
 
@@ -44,7 +44,7 @@ export default function Head({
       <meta name="twitter:description" content={description}></meta>
       <meta
         name="twitter:image"
-        content={`${url.origin}${import.meta.env.BASE_URL}/assets/vis2026_logo.png`}
+        content={`${url.origin}${import.meta.env.BASE_URL}/assets/vis2026_logo.svg`}
       ></meta>
 
       {/* <!-- favicon --> */}
