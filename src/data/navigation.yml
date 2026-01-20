@@ -51,8 +51,8 @@ menu:
                   # - text: "Posters"
                   #   url: "/info/call-participation/posters"
                   #   is_new: false
-                  # - text: "Tutorials"
-                  #   url: "/info/call-participation/tutorials"
+                  - text: "Tutorials"
+                    url: "/info/call-participation/tutorials"
                   #   is_new: false
                   - text: "Workshops"
                     url: "/info/call-participation/workshops"
