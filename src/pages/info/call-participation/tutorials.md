@@ -3,7 +3,7 @@ title: Tutorials - Call For Participation
 layout: /src/layouts/PageLayout.astro
 contact: panels_tutorials@ieeevis.org
 active_nav: "Contribute"
-sidebar: submit-your-work
+sidebar: call-for-participation
 ---
 
 Tutorials are intended to cover a wide selection of topics related to IEEE VIS 2026 and provide background on new tools, methods, systems, and application domains necessary for research in scientific visualization, information visualization, visual analytics, and topics that span multiple of these areas. Tutorial attendees come from diverse backgrounds, including, among others: volume and flow visualization, information visualization, geographic visualization, visual analytics, high performance computing, visual data science, visualization in artificial intelligence, extended reality technologies and scientific application communities. Tutorials aimed at practitioners and/or those outside the traditional academic visualization communities are also encouraged.
@@ -12,7 +12,7 @@ We are soliciting half-day tutorial proposals about visualization systems, mathe
 
 ## Details
 
-Proposals will be evaluated on the basis of the tutorial’s fit to VIS topics and suitability for presentation in a tutorial format, the past experience and qualifications of the instructors, the overall balance in the tutorial program, and the likely attendance of the tutorial. Repeated tutorial proposals should note in which years identical or similar tutorials have been presented, and will be judged in part by the attendance of the previous versions. We encourage you to review accepted tutorials from recent conferences: [2024](https://ieeevis.org/year/2024/info/tutorials),[2023](https://ieeevis.org/year/2023/info/tutorials),
+Proposals will be evaluated on the basis of the tutorial’s fit to VIS topics and suitability for presentation in a tutorial format, the past experience and qualifications of the instructors, the overall balance in the tutorial program, and the likely attendance of the tutorial. Repeated tutorial proposals should note in which years identical or similar tutorials have been presented, and will be judged in part by the attendance of the previous versions. We encourage you to review accepted tutorials from recent conferences: [2025](https://ieeevis.org/year/2025/info/program/tutorials), [2024](https://ieeevis.org/year/2024/info/tutorials), [2023](https://ieeevis.org/year/2023/info/tutorials),
 [2022](https://ieeevis.org/year/2022/info/tutorials), [2021](https://ieeevis.org/year/2021/info/tutorials), [2020](https://ieeevis.org/year/2020/info/tutorials).
 
 All tutorial proposals should include:
@@ -27,16 +27,15 @@ Proposals should not exceed three pages, and should be [submitted via PCS](http:
 
 ## Important Dates
 
-- Proposal Submission: **Friday, April 25, 2026**
-- Notification: **Friday, May 23, 2026**
-- Final Submission of Summaries: **Friday, July 25, 2026**
+- Proposal Submission: **Friday, April 24, 2026**
+- Notification: **Friday, May 29, 2026**
+- Final Submission of Summaries: **Friday, July 24, 2026**
 
-All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth) (same as 2024)**.
+All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth) (same as 2025)**.
 
 ## Chairs
 
-- Leilani Battle, _University of Washington, USA_
-- Kai Lawonn, _University of Jena, Germany_
+- Soumya Dutta, _Indian Institute of Technology Kanpur, India_
 - Qianwen Wang, _University of Minnesota, USA_
 
 Feel free to address any questions concerning submission, format, and content to [panels_tutorials@ieeevis.org](mailto:panels_tutorials@ieeevis.org).
