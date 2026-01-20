@@ -56,7 +56,7 @@ menu:
                     is_new: true
                   - text: "Workshops"
                     url: "/info/call-participation/workshops"
-                    is_new: true
+                    is_new: false
                   # - text: "Panels"
                   #   url: "/info/call-participation/panels"
                   #   is_new: false
