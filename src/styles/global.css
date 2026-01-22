@@ -6,7 +6,6 @@
 /* Components */
 @import "./layout";
 @import "./navigation";
-/* @import './program-navigation'; */
 @import "./header";
 @import "./footer";
 @import "./sidebar";

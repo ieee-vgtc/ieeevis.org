@@ -10,9 +10,9 @@ export default function Footer({
   footer_data: { columns: FooterSectionType[] };
   pathname: string;
 }) {
-  let filePath = pathname.trim().replace(import.meta.env.BASE_URL,"/")
-  if(filePath.endsWith("/")) {
-    filePath = filePath.slice(0,filePath.length-1)
+  let filePath = pathname.trim().replace(import.meta.env.BASE_URL, "/");
+  if (filePath.endsWith("/")) {
+    filePath = filePath.slice(0, filePath.length - 1);
   }
 
   const source_file = `src/pages${filePath}.md`;
@@ -20,7 +20,7 @@ export default function Footer({
   return (
     <footer className="footer text-white">
       {/* <!-- Edit Page / Report Issue --> */}
-      <div className="py-4 border-t border-gray-500 text-gray-500 text-sm text-center">
+      <div className="py-4 border-t border-gray-500 text-gray text-sm text-center">
         <div className="container">
           Problems with this webpage? Contact{" "}
           <a href={`mailto:${contact}`} className="link">

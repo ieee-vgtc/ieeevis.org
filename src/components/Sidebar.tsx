@@ -26,7 +26,7 @@ export default function Sidebar({
       {data.map((section: any, secIdx: number) => (
         <div key={`section-${secIdx}`} className="my-4">
           {section.heading && (
-            <p className="heading-alt text-gray-500">{section.heading}</p>
+            <p className="heading-alt text-gray">{section.heading}</p>
           )}
           <div className="overflow-hidden md:ml-0 -ml-3">
             <div className="md:ml-0 -ml-px">

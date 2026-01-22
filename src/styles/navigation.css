@@ -130,7 +130,7 @@
   @apply text-primary;
 }
 .menu_item--focused {
-  @apply text-accent-minor bg-accent;
+  @apply text-primary-200 bg-accent underline;
 }
 
 @variant md {
@@ -140,7 +140,7 @@
 
   .menu_item--focused,
   .menu_item--focused:hover {
-    @apply text-primary;
+    @apply text-primary-200;
     /*            @apply bg-gray-100;*/
   }
 }
@@ -149,8 +149,8 @@
 
 @variant md {
   .menu_item.menu_item--is-active {
-    @apply text-accent-minor;
-    box-shadow: inset 0 -4px --color-accent-minor;
+    @apply text-primary-200;
+    box-shadow: inset 0 -4px --color-primary-200;
   }
 }
 
@@ -276,7 +276,7 @@
 }
 
 .dropdown li a {
-  @apply text-secondary font-bold tracking-wide;
+  @apply text-gray tracking-wide;
 }
 
 .dropdown li a.dropdown__disabled {
