@@ -29,7 +29,7 @@ IEEE Vis follows the [area model](/year/2026/info/call-participation/area-model)
 - [Expectations for References](#expectations-for-references)
 - [Ethics Guidelines](#ethics-guidelines)
 - [Paper Submission Keywords](#paper-submission-keywords)
-- [New in 2026: Suggested Reviewers](#new-in-2026:-suggested-reviewers)
+- [New in 2026: Suggested Reviewers](#new-in-2026-suggested-reviewers)
 
 ## Important Submission Requirements
 
