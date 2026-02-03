@@ -89,7 +89,7 @@ active_nav: "Organization & History"
 |                                           |                                                              |
 | **Publicity Chairs**                      |                                                              |
 | Khairi Reda                               | _University of Illinois Chicago_                             |
-| Keke Wu                                   | _Emory University_                                           |
+| Keke Wu                                   | _University of Maryland, College Park_                       |
 |                                           |                                                              |
 | **Inclusivity & Accessibility Chairs**    |                                                              |
 | Laura Koesten                             | _University of Vienna_                                       |
