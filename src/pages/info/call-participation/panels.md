@@ -12,7 +12,7 @@ IEEE VIS 2026 Panels should address contemporary, important and/or controversial
 - Connect visualization with interesting application fields
 - Open up interdisciplinary debates that explore the role of visualization in science and society
 - Bring visualization researchers together with potential stakeholders of visualization
-- Consist of experts in fields that discuss and/or debate relevant concepts that broaden the intellectual scope of visualization research (e.g., perceptual psychology, cognitive psychology, design research, color theory, user-interface design)
+- Consist of experts in fields that discuss and/or debate relevant concepts that broaden the intellectual scope of visualization research (e.g., perceptual psychology, cognitive psychology, design research, color theory, user-interface design, VIS in the age of AI)
 - Raise controversial, important, or emerging debates in relation to visualization
 
 Panelists should be experts in their fields who can discuss the challenges of visualization, and engage the audience and fellow panel members in a stimulating, interactive debate.
@@ -39,22 +39,19 @@ Feel free to address any questions concerning submission, format, and content to
 ## Past Panels
 
 Panels will be recorded and posted to Vimeo for archival viewing.
-We encourage you to review accepted tutorials from recent conferences: [2024](http://ieeevis.org/year/2024/info/panels), [2023](http://ieeevis.org/year/2023/info/panels), [2022](http://ieeevis.org/year/2022/info/panels).
+We encourage you to review accepted tutorials from recent conferences: [2025](https://ieeevis.org/year/2025/info/program/panels), [2024](http://ieeevis.org/year/2024/info/panels), [2023](http://ieeevis.org/year/2023/info/panels), [2022](http://ieeevis.org/year/2022/info/panels).
 
 ## IMPORTANT DATES
 
 | Date                    | Activity                            |
 | ----------------------- | ----------------------------------- |
-| Friday, June 27, 2026   | Proposal Submission                 |
-| Friday, July 25, 2026   | Notification                        |
-| Friday, August 22, 2026 | Final Submission of Panel Summaries |
+| Friday, June 26, 2026   | Proposal Submission                 |
+| Friday, July 24, 2026   | Notification                        |
+| Friday, August 21, 2026 | Final Submission of Panel Summaries |
 
-All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth) (same as 2024)**.
+All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth) (same as 2025)**.
 
 ## Chairs
 
-Leilani Battle, _University of Washington, USA_
-
-Kai Lawonn, _University of Jena, Germany_
-
-Qianwen Wang, _University of Minnesota, USA_
+- Soumya Dutta, _Indian Institute of Technology Kanpur, India_
+- Qianwen Wang, _University of Minnesota, USA_
