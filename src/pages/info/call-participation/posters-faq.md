@@ -3,7 +3,7 @@ title: Posters FAQ
 layout: /src/layouts/PageLayout.astro
 contact: posters@ieeevis.org
 active_nav: "Contribute"
-sidebar: submit-your-work
+sidebar: call-for-participation
 ---
 
 _What is the purpose of submitting a poster?_

@@ -3,7 +3,7 @@ title: Workshops - Call For Participation
 description: Participate in IEEE VIS 2026 Workshops. Find the Call for Participation, topics, submission guidelines, and important deadlines for interactive sessions.
 layout: /src/layouts/PageLayout.astro
 active_nav: "Contribute"
-sidebar: submit-your-work
+sidebar: call-for-participation
 contact: workshops@ieeevis.org
 ---
 
