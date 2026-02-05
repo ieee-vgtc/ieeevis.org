@@ -3,9 +3,12 @@ title: Posters - Call for Participation
 layout: /src/layouts/PageLayout.astro
 contact: posters@ieeevis.org
 active_nav: "Contribute"
-sidebar: submit-your-work
+sidebar: call-for-participation
 ---
 
+Posters information coming soon!
+
+<!--
 The IEEE VIS 2026 Poster Program offers a timely venue to present and discuss original work or highlights of recent work published or presented in another venue (please see the plagiarism statement in the end) through a forum that encourages graphical presentation, demonstration, and active engagement with IEEE VIS participants.
 
 The presentation of posters will happen as a physical event at the conference. There will be 1-2 dedicated poster sessions where poster authors can meet and discuss their work with conference participants. An additional web presence of posters will supplement the traditional physical installation of poster boards.
@@ -58,7 +61,7 @@ All deadlines are at 11:59 pm (23:59) AoE **Anywhere on Earth [(AoE)](https://ti
 
 VIS has no specific formatting requirements or template for display posters. However, all posters should include the same title and authors as the 2-page poster summary and should be legible from a distance of 2 meters. Posters can be no larger than A0 format (33''x48'') in a portrait orientation. If planning to laminate your poster, make sure you leave the requisite margin on all sides. The conference will supply poster boards and supplies for mounting.
 
-**UPDATE**: Check out our [Poster design guidelines](https://docs.google.com/document/d/12PbI4gt3JkoMpv0a8nr_S8YSYgQUPmjfBsezIYITxow/edit?tab=t.0) to help you create a clear and compelling poster. <!--A PDF copy of the display poster must be submitted on PCS by the camera-ready deadline for inclusion in the online program. -->
+**UPDATE**: Check out our [Poster design guidelines](https://docs.google.com/document/d/12PbI4gt3JkoMpv0a8nr_S8YSYgQUPmjfBsezIYITxow/edit?tab=t.0) to help you create a clear and compelling poster. A PDF copy of the display poster must be submitted on PCS by the camera-ready deadline for inclusion in the online program.
 A PDF copy of your display poster **can be submitted through PCS with alongside the paper poster** at the regular deadline (June 24) to obtain formative feedback from reviewers. This feedback, however, has no implications on the whether the poster is accepted of rejected. It is purely informative to help you improve your poster.
 
 The final display poster **must be** submitted alongside the final camera ready version for any accepted poster.
@@ -98,4 +101,4 @@ The Best Poster Awards will recognize the most outstanding poster contributions.
 - Lingyun Yu, _Xi’an Jiaotong-Liverpool University_
 - Renata Raidou, _TU Wien_
 
-_Email: [posters@ieeevis.org](mailto:posters@ieeevis.org)_
+_Email: [posters@ieeevis.org](mailto:posters@ieeevis.org)_ -->

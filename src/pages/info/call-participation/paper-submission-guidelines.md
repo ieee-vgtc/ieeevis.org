@@ -29,7 +29,7 @@ IEEE Vis follows the [area model](/year/2026/info/call-participation/area-model)
 - [Expectations for References](#expectations-for-references)
 - [Ethics Guidelines](#ethics-guidelines)
 - [Paper Submission Keywords](#paper-submission-keywords)
-- [New in 2026: Suggested Reviewers](#new-in-2026:-suggested-reviewers)
+- [New in 2026: Suggested Reviewers](#new-in-2026-suggested-reviewers)
 
 ## Important Submission Requirements
 
@@ -166,7 +166,7 @@ The [IEEE Publication Services and Products Board Operations Manual](https://psp
 
 For the list of references at the end of the document, we expect from authors that they check each bibliographic entry for correctness (e.g., author names including special characters, publication years, publication type, page numbers vs. article numbers, etc.), completeness (all needed information for the respective entry type), and general consistency of reporting.
 
-In addition, we **expect that authors provide a hyperlinked DOI** for each entry for which it exists to make it easy for reviewers to access the respective literature. DOIs exist for virtually all published papers, and arXiv preprints, and also some books. To do so in LaTeX, just use the DOI field in your BibTex (.bib) file and then use one of the BibTeX styles from the template that have “hyperref” in the name (abbrv-doi-hyperref.bst or the abbrv-doi-hyperref-narrow.bst).
+In addition, we **expect that authors provide a hyperlinked DOI** for each entry for which it exists to make it easy for reviewers to access the respective literature. DOIs exist for virtually all published papers, and arXiv preprints, and also some books. To do so in LaTeX, just use the DOI field in your BibTex (.bib) file and then use one of the BibTeX styles from the template that have “hyperref” in the name (abbrv-doi-hyperref.bst or the abbrv-doi-hyperref-narrow.bst). Please note that, to save space, it is acceptable to use the short DOIs that can be generated for each valid DOI by the [official DOI shortener](https://shortdoi.org/).
 
 ## Ethics Guidelines
 

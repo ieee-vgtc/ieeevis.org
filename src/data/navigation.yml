@@ -27,9 +27,9 @@ registration:
 
 # ---------------------------------------------------------------------------
 blog:
-  display: false
+  display: true
   text: "Blog"
-  url: "/blog/index"
+  url: "/blog/"
 
 # ---------------------------------------------------------------------------
 menu:
@@ -53,7 +53,7 @@ menu:
                   #   is_new: false
                   - text: "Tutorials"
                     url: "/info/call-participation/tutorials"
-                  #   is_new: false
+                    is_new: true
                   - text: "Workshops"
                     url: "/info/call-participation/workshops"
                     is_new: false
