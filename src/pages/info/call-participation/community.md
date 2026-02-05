@@ -2,7 +2,7 @@
 title: Community
 layout: /src/layouts/PageLayout.astro
 active_nav: "Events & Community"
-sidebar: submit-your-work
+sidebar: call-for-participation
 contact: community@ieeevis.org
 ---
 

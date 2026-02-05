@@ -3,7 +3,7 @@ title: Panels
 layout: /src/layouts/PageLayout.astro
 contact: panels_tutorials@ieeevis.org
 active_nav: "Contribute"
-sidebar: submit-your-work
+sidebar: call-for-participation
 ---
 
 IEEE VIS 2026 Panels should address contemporary, important and/or controversial debates, issues and applications in visualization and related topics. In particular, we invite panels that:
