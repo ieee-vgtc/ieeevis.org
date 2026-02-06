@@ -120,7 +120,7 @@ While most reviewers will take supplemental material into account when conductin
 
 **Continuing in 2026**: The supplemental material fields for your submission in PCS will remain editable until midnight AoE on April 7. The purpose is to give authors additional time to prepare high-quality, comprehensive, and transparent supplemental materials. This **includes** any video figures submitted with your paper.
 
-**New for 2026**: To allow authors to make active use of appendices in their work (e.g., by cross-linking them from the main text), as well as to make the job of reviewers easier in accessing these appendices, we introduce a new PDF upload field for the full paper including appendices, with a deadline of midnight AoE on March 31 (the same as for the 11-page main paper). This way reviewers can be sure that in such an extended PDF the main content is not changed after the main paper deadline on March 31, despite the extended deadline for other additional materials.
+**New for 2026**: To allow authors to make active use of appendices in their work (e.g., by cross-linking them from the main text), as well as to make the job of reviewers easier in accessing these appendices, we allow the main paper upload to include the appendices (but this is not a requirement). Naturally, the deadline of the main paper upload remains at midnight AoE on March 31. And this does not limit your ability to add further additional material between March 31 and April 7.
 
 Note that there is **no** requirement that authors use the extra week for supplemental material. You may finalize your supplemental material in time for the regular March 31 deadline.
 
