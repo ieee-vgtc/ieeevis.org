@@ -120,7 +120,7 @@ active_nav: "Organization & History"
 | Yalong Yang                               | _Georgia Institute of Technology_                            |
 |                                           |                                                              |
 | **Technology Chairs**                     |                                                              |
-| Alexander Rind                            | _St. Pölten University of Applied Sciences_                  |
+| Alexander Rind                            | _University of Applied Sciences St. Pölten_                  |
 | Dominik Moritz                            | _Carnegie Mellon University_                                 |
 | Johannes Knittel                          | _Harvard University_                                         |
 | Alex Bock                                 | _Linköping University_                                       |
