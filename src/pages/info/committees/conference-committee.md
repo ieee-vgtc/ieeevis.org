@@ -86,6 +86,11 @@ active_nav: "Organization & History"
 | Lijie Yao                                 | _Xi'an Jiaotong-Liverpool University_                        |
 |                                           |                                                              |
 | **Student Volunteer Chairs**              |                                                              |
+| Connor Wilson                             |  _Northeastern University_                                   |
+| Hamza Elhamdadi                           |  _Stonehill College_                                         |
+| Hyeon Jeon                                |  _Seoul National University_                                 |
+| Magdalena 'Momo'	Boucher                 |  _University of Applied Sciences St. Pölten_                 |
+| Zeyang Huang                              |  _Linköping University_                                      |
 |                                           |                                                              |
 | **Publicity Chairs**                      |                                                              |
 | Khairi Reda                               | _University of Illinois Chicago_                             |
