@@ -18,3 +18,8 @@
   image: "blog_preparing_papers.jpg"
   buttonText: "Read the Blog"
   buttonUrl: "/blog/2026-02-10-vis-2026-OPC-blog"
+
+- title: "OPC Blog: Some more points on making your paper reviewer-friendly"
+  image: "blog_reviewer_friendly.jpg"
+  buttonText: "Read the Blog"
+  buttonUrl: "/blog/2026-02-17-vis-2026-OPC-blog"
