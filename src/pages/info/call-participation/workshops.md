@@ -61,6 +61,7 @@ Workshop proposals should include:
 Because the number of workshop time slots is unusually limited for 2026, we will be planning for nearly all accepted workshops to be half-day events. That being said, we will still consider well-reasoned full-day requests. **Please note that the 2026 program is one day shorter than in previous years**, so full-day requests will face additional rigorous scrutiny to justify their addition to the 2026 program.
 
 **The proposal should not exceed four pages.** Please visit [VGTC website](https://tc.computer.org/vgtc/publications/conference) for formatting details and submit via [PCS](https://new.precisionconference.com/vgtc).
+We encourage the use of the LaTeX template which can be accessed and copied from [Overleaf](https://www.overleaf.com/read/jqhwckppwhmq#796f4d).
 
 ## Evaluation criteria
 
