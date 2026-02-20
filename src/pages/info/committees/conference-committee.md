@@ -21,7 +21,7 @@ active_nav: "Organization & History"
 | Melanie Tory                              | _Northeastern University_                                    |
 | Tobias Isenberg                           | _Inria_                                                      |
 | Alex Endert                               | _Georgia Institute of Technology_                            |
-| Shani Spivak                              | _Northeastern University_                                    |
+| Shani Spivak *(OPC Assistant)*            | _Northeastern University_                                    |
 |                                           |                                                              |
 | **Area Paper Chairs**                     |                                                              |
 | **Area 1: Theoretical & Empirical**       |                                                              |
