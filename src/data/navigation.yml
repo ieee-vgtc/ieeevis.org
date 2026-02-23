@@ -71,6 +71,9 @@ menu:
                   - text: "Paper Submission Guidelines"
                     url: "/info/call-participation/paper-submission-guidelines"
                     is_new: false
+                  - text: "Submission Template"
+                    url: "https://tc.computer.org/vgtc/publications/journal/"
+                    is_new: false
                   - text: "Submission Keywords"
                     url: "/info/call-participation/paper-keywords"
                     is_new: false
