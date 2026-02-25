@@ -74,7 +74,7 @@ IEEE VIS Short Papers 2019
 
 #### Paper Type: Theory or Model
 
-[Toward a Logic of Generalization about Visualization as a Decision Aid] (https://arxiv.org/abs/2508.06751)\
+[Toward a Logic of Generalization about Visualization as a Decision Aid](https://arxiv.org/abs/2508.06751)\
 Alex Kale
 IEEE VIS Short Papers 2025 [Best Paper]
 
