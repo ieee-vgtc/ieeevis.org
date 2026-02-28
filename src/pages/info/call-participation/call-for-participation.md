@@ -40,25 +40,18 @@ intro_section:
 "
 ---
 
-
-
-
-
 ## Important Dates
 
-All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth)**. 
+All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth)**.
 
-
-| Submission activity | Date                     |
-|---------------------|--------------------------|
-| [Abstract submission (MANDATORY)](https://new.precisionconference.com/vgtc) | March 21, 2026   |
-| [Paper submission](https://new.precisionconference.com/vgtc) | March 31, 2026 |
-| Notification of results of first review cycle | June 6, 2026     |
-| Paper submission for second review cycle | July 1, 2026     |
-| Final notification | July 15, 2026    |
-| Camera-ready copy | August 8, 2026   |
-
-
+| Submission activity                                                         | Date           |
+| --------------------------------------------------------------------------- | -------------- |
+| [Abstract submission (MANDATORY)](https://new.precisionconference.com/vgtc) | March 21, 2026 |
+| [Paper submission](https://new.precisionconference.com/vgtc)                | March 31, 2026 |
+| Notification of results of first review cycle                               | June 6, 2026   |
+| Paper submission for second review cycle                                    | July 1, 2026   |
+| Final notification                                                          | July 15, 2026  |
+| Camera-ready copy                                                           | August 8, 2026 |
 
 <!---
 {% include alert.html
@@ -68,7 +61,6 @@ All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://tim
   button-url="/info/presenter-information/final-information-paper-authors"
 %}
  --->
- 
 
 ## Submission Guidelines and Reviewing Criteria
 
@@ -76,7 +68,7 @@ As the leading academic event on visualization research, IEEE VIS expects import
 
 IEEE VIS 2026 also features a separate short papers track. You can find more information in the [call for participation for short papers](/year/2026/info/call-participation/shortpapers).
 
-When preparing your submission, please make sure that you carefully read and adhere to the [paper submission guidelines](/year/2026/info/call-participation/paper-submission-guidelines).
+When preparing your submission, please make sure that you carefully read and adhere to the [paper submission guidelines](/year/2026/info/call-participation/paper-submission-guidelines). [Link to submission template](https://tc.computer.org/vgtc/publications/journal/)
 
 Reviewers should be familiar with the [guidelines for reviewing papers for VIS](/year/2026/info/call-participation/review-instructions).
 
@@ -87,8 +79,6 @@ We highly recommend screen reader accessible final submissions. Please see the [
 ## Open Access Policy
 
 Visualization research is best communicated and acted on if it is freely accessible to the research community, practitioners, and the general public. Therefore, all paper authors are encouraged to share their accepted paper in an open-access repository in accordance with IEEE copyright regulations. We also recommend that authors include sufficient supplemental materials with their submission so that their work can be easily scrutinized and used or extended by future researchers and practitioners. For instructions on how to post an accepted paper to an open-access repository and recommendations on sharing supplemental materials, please see the [VIS Open Practices Guidelines](https://ieeevis.org/year/2026/info/open-practices/open-practices). Additionally, funding agencies and research organizations may have specific rules concerning Plan S compliance: impacted authors should check and comply with their respective organizational rules.
-
-
 
 [VIS Open Practices Guidelines](/year/2026/info/open-practices/open-practices).
 

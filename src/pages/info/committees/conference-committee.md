@@ -21,7 +21,7 @@ active_nav: "Organization & History"
 | Melanie Tory                              | _Northeastern University_                                    |
 | Tobias Isenberg                           | _Inria_                                                      |
 | Alex Endert                               | _Georgia Institute of Technology_                            |
-| Shani Spivak                              | _Northeastern University_                                    |
+| Shani Spivak *(OPC Assistant)*            | _Northeastern University_                                    |
 |                                           |                                                              |
 | **Area Paper Chairs**                     |                                                              |
 | **Area 1: Theoretical & Empirical**       |                                                              |
@@ -86,10 +86,15 @@ active_nav: "Organization & History"
 | Lijie Yao                                 | _Xi'an Jiaotong-Liverpool University_                        |
 |                                           |                                                              |
 | **Student Volunteer Chairs**              |                                                              |
+| Connor Wilson                             |  _Northeastern University_                                   |
+| Hamza Elhamdadi                           |  _Stonehill College_                                         |
+| Hyeon Jeon                                |  _Seoul National University_                                 |
+| Magdalena 'Momo'	Boucher                 |  _University of Applied Sciences St. Pölten_                 |
+| Zeyang Huang                              |  _Linköping University_                                      |
 |                                           |                                                              |
 | **Publicity Chairs**                      |                                                              |
 | Khairi Reda                               | _University of Illinois Chicago_                             |
-| Keke Wu                                   | _Emory University_                                           |
+| Keke Wu                                   | _University of Maryland, College Park_                       |
 |                                           |                                                              |
 | **Inclusivity & Accessibility Chairs**    |                                                              |
 | Laura Koesten                             | _University of Vienna_                                       |
@@ -120,7 +125,7 @@ active_nav: "Organization & History"
 | Yalong Yang                               | _Georgia Institute of Technology_                            |
 |                                           |                                                              |
 | **Technology Chairs**                     |                                                              |
-| Alexander Rind                            | _St. Pölten University of Applied Sciences_                  |
+| Alexander Rind                            | _University of Applied Sciences St. Pölten_                  |
 | Dominik Moritz                            | _Carnegie Mellon University_                                 |
 | Johannes Knittel                          | _Harvard University_                                         |
 | Alex Bock                                 | _Linköping University_                                       |

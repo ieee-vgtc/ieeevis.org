@@ -8,3 +8,18 @@
   image: "boston_skyline.jpg"
   buttonText: "Destination Information"
   buttonUrl: "/destination"
+
+- title: "OPC Blog: The Road to VIS 2026"
+  image: "blog_road_to_vis26.jpg"
+  buttonText: "Read the Blog"
+  buttonUrl: "/blog/2026-02-03-vis-2026-OPC-blog"
+
+- title: "OPC Blog: On preparing your paper for submission"
+  image: "blog_preparing_papers.jpg"
+  buttonText: "Read the Blog"
+  buttonUrl: "/blog/2026-02-10-vis-2026-OPC-blog"
+
+- title: "OPC Blog: Some more points on making your paper reviewer-friendly"
+  image: "blog_reviewer_friendly.jpg"
+  buttonText: "Read the Blog"
+  buttonUrl: "/blog/2026-02-17-vis-2026-OPC-blog"

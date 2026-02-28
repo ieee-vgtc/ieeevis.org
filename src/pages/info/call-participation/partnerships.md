@@ -2,6 +2,7 @@
 title: Partnerships
 description: Learn about IEEE VIS partnerships with IEEE Transactions on Visualization and Computer Graphics (TVCG) and IEEE Computer Graphics and Applications (CG&A), supporting high-quality visualization research and presentations.
 layout: /src/layouts/PageLayout.astro
+sidebar: call-for-participation
 ---
 
 ## TVCG
@@ -10,7 +11,7 @@ The proceedings of IEEE VIS are published as a special issue of the flagship jou
 
 Since 2011, the authors of TVCG regular papers published over the previous year have been invited to give an oral presentation of their recent work at IEEE VIS as a [TVCG conference partner](https://www.computer.org/digital-library/journals/tvcg/tvcg-partners-with-conferences). Since 2014, these previously published TVCG paper talks have been integrated within topical papers sessions that contain the special issue journal papers. This cooperation provides an opportunity for the VIS audience to keep abreast of high-quality visualization research featured in regular issues of TVCG, and encouraging more TVCG authors to attend IEEE VIS. The closely coupled relationship between TVCG and VIS has led to a more timely exchange of new ideas and the rapid dissemination of visualization research via an integrated forum for both publications and presentations, further expanding our visualization community.
 
-Invitations are issued to all authors of regular TVCG papers in the area of visualization that have been accepted before June 15 of that year; subsequent requests roll over to the next year's VIS conference. Invitations are issued by TVCG at the time of paper acceptance; there is no selection process other than the decision of whether the topic fits within the scope of VIS, which is made by the TVCG Associate Editor-In-Chief designated as the VIS Liaison (currently, Ross Maciejewski).
+Invitations are issued to all authors of regular TVCG papers in the area of visualization that have been accepted before June 15 of that year; subsequent requests roll over to the next year's VIS conference. Invitations are issued by TVCG at the time of paper acceptance; there is no selection process other than the decision of whether the topic fits within the scope of VIS, which is made by the TVCG Associate Editor-In-Chief designated as the VIS Liaison (currently, Tamara Munzner).
 
 Note that VIS papers chairs make their acceptance decisions on VIS Full Papers independently, without access to the list of requested talks from TVCG. The TVCG list is provided to the Papers chairs on June 20, after the first-round acceptance decisions for VIS Full Papers are announced, and is only used in the papers sessions creation process.
 

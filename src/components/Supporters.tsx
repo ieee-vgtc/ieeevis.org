@@ -1,3 +1,5 @@
+import { withBaseURL } from "../utils/withBaseURL";
+
 export default function Supporters({
   title,
   description,
@@ -11,7 +13,7 @@ export default function Supporters({
         <div className="w-full lg:w-1/3 mb-12 text-measure">
           <h2 className="mb-6 ">{title}</h2>
           <p className="mb-6 text-primary text-xl">{description}</p>
-          <a className="button button-blue" href={button_link}>
+          <a className="button button-blue" href={withBaseURL(button_link)}>
             {button_text}
           </a>
         </div>
