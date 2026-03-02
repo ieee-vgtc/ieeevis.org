@@ -38,9 +38,21 @@ export const onRequest: MiddlewareHandler = async (context, next) => {
 
       // Enforce HTTPS in prod only
       !isDev && "upgrade-insecure-requests",
+
+      `report-uri ${import.meta.env.CSP_REPORT_TO}`,
+      `report-to csp-endpoint`,
     ]
       .filter(Boolean)
       .join("; "),
+  );
+
+  response.headers.set(
+    "Report-To",
+    JSON.stringify({
+      group: "csp-endpoint",
+      max_age: 10886400,
+      endpoints: [{ url: import.meta.env.CSP_REPORT_TO }],
+    }),
   );
 
   return response;
