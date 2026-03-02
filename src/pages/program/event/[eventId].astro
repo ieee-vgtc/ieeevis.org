@@ -29,7 +29,7 @@ export async function getStaticPaths() {
     sessions: [
       {
         title: "My Event Name",
-        id: "w-my-event-1",
+        session_id: "w-my-event-1",
         event_prefix: "w-my-event",
         track: "1_15_1_16",
         room_name: "Room 1.15 + 1.16",
@@ -48,7 +48,7 @@ export async function getStaticPaths() {
       },
       {
         title: "My Event Name",
-        id: "w-my-event-2",
+        session_id: "w-my-event-2",
         event_prefix: "w-my-event",
         track: "1_15_1_16",
         room_name: "Room 1.15 + 1.16",
@@ -71,7 +71,7 @@ export async function getStaticPaths() {
     url: "https://github.com/ieee-vgtc/ieeevis.org",
   };
 
-  const config:Config = {
+  const config: Config = {
     name: "VIS 2025",
     tagline: "IEEE VIS: Visualization & Visual Analytics",
     date: "2-7 November 2025 Conference",
@@ -168,136 +168,126 @@ const socialDescription =
   "See the conference event and its associated sessions and presentations inside.";
 ---
 
-<DefaultLayout page_info={{description:"tmp",title:"tmp",contact:"tmp"}}>
+<DefaultLayout page_info={{ description: "tmp", title: "tmp", contact: "tmp" }}>
   <body>
     <div>TODO implement week-of-conference navbar</div>
-    <div class="container">
-      <div class="row mt-3">
-        <div class="col-md-12">
-          <nav class="nav-breadcrumb mb-3" aria-label="breadcrumb">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item">
-                <a href="/events">All events</a>
-              </li>
-              <li
-                class="breadcrumb-item active text-truncate"
-                aria-current="page"
-              >
-                {event.title}
-              </li>
-            </ol>
-          </nav>
-
-          <h1 class="event-title">{event.title}</h1>
-
-          {
-            event.url && (
-              <h2 class="event-url text-muted">
-                <span class="fas mr-1">&#xf57c;</span>
-                <a href={event.url} target="_blank" rel="noopener noreferrer">
-                  {event.url}
-                </a>
-              </h2>
-            )
-          }
-
-          {
-            event.organizers && (
-              <h2 class="event-organizers text-muted">
-                <span class="fas mr-1">&#xf0c0;</span>
-                Organizers: {event.organizers.join(", ")}
-              </h2>
-            )
-          }
-
-          <h3 class="event-date text-muted">
-            <span class="fas mr-1">&#xf017;</span>
-            <span class="format-date-span-full">
-              {startTime} &ndash; {endTime}
-            </span>
-          </h3>
-
-          <h5 class="mt-4">
-            <span class="fas mr-2">&#xf073;</span>
-            <a
-              href={event.calendarICS}
+    <div class="row mt-3">
+      <div class="col-md-12">
+        <nav class="nav-breadcrumb mb-3" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a href="/events">All events</a>
+            </li>
+            <li
+              class="breadcrumb-item active text-truncate"
+              aria-current="page"
             >
-              Add all of this event's sessions to your calendar
-            </a>
-            .
-          </h5>
+              {event.title}
+            </li>
+          </ol>
+        </nav>
 
-          {
-            event.ff_playlist && (
-              <h5 class="session-info my-4">
-                <a href="#ff">
-                  Jump to Fast Forwards
-                  <span class="fas mr-2">&#xf87c;</span>
-                </a>
-              </h5>
-            )
-          }
-        </div>
+        <h1 class="event-title">{event.title}</h1>
+
+        {
+          event.url && (
+            <h2 class="event-url text-muted">
+              <span class="fas mr-1">&#xf57c;</span>
+              <a href={event.url} target="_blank" rel="noopener noreferrer">
+                {event.url}
+              </a>
+            </h2>
+          )
+        }
+
+        {
+          event.organizers && (
+            <h2 class="event-organizers text-muted">
+              <span class="fas mr-1">&#xf0c0;</span>
+              Organizers: {event.organizers.join(", ")}
+            </h2>
+          )
+        }
+
+        <h3 class="event-date text-muted">
+          <span class="fas mr-1">&#xf017;</span>
+          <span class="format-date-span-full">
+            {startTime} &ndash; {endTime}
+          </span>
+        </h3>
+
+        <h5 class="mt-4">
+          <span class="fas mr-2">&#xf073;</span>
+          <a href={event.calendarICS}>
+            Add all of this event's sessions to your calendar
+          </a>
+          .
+        </h5>
+
+        {
+          event.ff_playlist && (
+            <h5 class="session-info my-4">
+              <a href="#ff">
+                Jump to Fast Forwards
+                <span class="fas mr-2">&#xf87c;</span>
+              </a>
+            </h5>
+          )
+        }
       </div>
+    </div>
 
-      {
-        event.abstract && (
-          <div class="row mt-3">
-            <div class="col-md-8">
-              <p>{event.abstract}</p>
+    {
+      event.abstract && (
+        <div class="row mt-3">
+          <div class="col-md-8">
+            <p>{event.abstract}</p>
+          </div>
+        </div>
+      )
+    }
+
+    <hr />
+
+    <SessionListing
+      sessions={event.sessions}
+      colors={config.calendar.colors}
+      showTrack={true}
+      showTime={true}
+      showAbstract={false}
+      showPresenters={true}
+    />
+
+    {
+      event.ff_playlist && (
+        <>
+          <hr />
+          <div class="row my-4">
+            <div class="col-lg-10">
+              <h2 class="my-3">
+                <a name="ff">Fast forwards in this event's sessions</a>
+              </h2>
+              <iframe
+                width="920"
+                height="518"
+                src={`https://www.youtube-nocookie.com/embed/videoseries?list=${event.ff_playlist_id}`}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              />
+              <p class="integration-description pt-2">
+                Direct link to YouTube playlist:{" "}
+                <a
+                  href={event.ff_playlist}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {event.ff_playlist}
+                </a>
+              </p>
             </div>
           </div>
-        )
-      }
-
-      <hr />
-
-      <SessionListing
-        colors={config.calendar.colors}
-        organizers={event.organizers}
-        sessions={event.sessions}
-        type={event.type}
-        url={event.url}
-
-        showAbstract={false}
-        showPresenters={true}
-        showTime={true}
-        showTrack={true}
-        skipEventTitle={false}
-        useFullDate={true}
-      />
-
-      {
-        event.ff_playlist && (
-          <>
-            <hr />
-            <div class="row my-4">
-              <div class="col-lg-10">
-                <h2 class="my-3">
-                  <a name="ff">Fast forwards in this event's sessions</a>
-                </h2>
-                <iframe
-                  width="920"
-                  height="518"
-                  src={`https://www.youtube-nocookie.com/embed/videoseries?list=${event.ff_playlist_id}`}
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                />
-                <p class="integration-description pt-2">
-                  Direct link to YouTube playlist:{" "}
-                  <a
-                    href={event.ff_playlist}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {event.ff_playlist}
-                  </a>
-                </p>
-              </div>
-            </div>
-          </>
-        )
-      }
-    </div>
+        </>
+      )
+    }
   </body>
 </DefaultLayout>
