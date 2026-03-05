@@ -32,6 +32,7 @@ This page provides detailed instructions for both PC reviewers and external revi
   - [Paper Quality](#paper-quality)
   - [Supplemental Materials](#supplemental-materials)
   - [Reviewing Ethics](#reviewing-ethics)
+  - [Use of AI Tools by Peer Reviewers](#use-of-ai-tools-by-peer-reviewers)
   - [What is a Minor Revision?](#what-is-a-minor-revision)
   - [Managing Resubmission Materials](#managing-resubmission-materials)
   - [Assigning Scores, Requesting Revisions](#assigning-scores-requesting-revisions)
@@ -266,9 +267,33 @@ All reviewers should make sure to follow the basic principles outlined below. As
 - **Be specific and constructive**: offer specific critiques that are addressable by the authors, point out concrete issues to fix in an encouraging manner, and substantiate your comments with evidence and references.
 - **See both pros and cons and find reasons to accept papers**: have an open-mind or at least disclose your biases. Note that reviewing is not only about finding problems, but also about identifying the strengths of a submission. It is easier to find reasons to reject papers than to point out the contributions that they bring to the community. Make sure that you also comment on all pros that you identify and emphasize positive aspects to help surface impactful research to the community.
 - **Be tactful and polite**: emotional rants or sarcastic comments have no place in a professional review. Never forget that you review the presentation of some particular research work, NOT the person who wrote it; reconsider whenever you are about to include a personal remark in your review. Ask yourself if you could read your review aloud in front of an audience including the authors.
-- **Information or content contained in or about a manuscript under review MUST NOT be processed through a public AI/LLM platform (directly or indirectly).** Doing so is considered a breach of confidentiality because AI/LLM systems generally learn from any input.
+- **Information or content contained in or about a manuscript under review MUST NOT be processed through a public AI/LLM platform (directly or indirectly).** Doing so is considered a breach of confidentiality because AI/LLM systems generally learn from any input. [For details please see below](#use-of-ai-tools-by-peer-reviewers).
 
 Additionally, all reviewers are bound to the [ethics guidelines of the IEEE VGTC](http://tc.computer.org/vgtc/conferences/ethics-guidelines). Please make sure you are familiar with these guidelines.
+
+## Use of AI Tools by Peer Reviewers
+
+Generative AI tools, such as Large Language Models (LLMs), have many benefits for editing and proofreading peer reviews. However, they must be used with care when utilized in IEEE VIS peer reviewing. There are clear risks associated with online tools and AI-generated content, including but not limited to:
+- generation of false or nonsensical information (hallucination),
+- superficial engagement with submissions that fails to leverage the reviewer's specialized expertise (e.g., the whole reason you were invited to review in the first place), and
+- breaching of author confidentiality through direct or indirect disclosure of confidential material under review.
+
+Breach of confidentiality includes sharing excerpts, summaries, or descriptions of unpublished work with cloud-hosted services. Note that even non-AI tools may thus disclose confidential content.
+
+According to [IEEE’s reviewer guidelines](https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/submission-and-peer-review-policies/#ai-generated-content), AI tools (such as LLMs) may be used by reviewers in IEEE peer reviewing processes. However, the following basic rule applies: **It is strictly prohibited to process any material under review (including, but not limited to, manuscripts, videos, images, data, source code) through a public platform.**
+
+Cloud-hosted LLMs such as ChatGPT, Gemini, and Claude are all public platforms—even if you have a professional/paid subscription. This includes access through APIs, plugins, or third-party integrations that transmit data to cloud-hosted services (e.g., OpenClaw, OpenAI Codex, Claude Code, Claude Cowork, etc). Local or intranet LLMs do not count as public platforms.
+
+Reviewers must adhere to the following requirements:
+* Reviewers are responsible for their own reviews and are thus expected to ensure their accuracy and relevance, including any suggested references.
+  * This is not a new rule and holds true whether the review is written by hand or generated/edited by AI.
+  * In particular, you as the reviewer and not the LLM, are accountable for any mistakes.
+* Reviewers are responsible for understanding the policies and user agreements that govern the tools they use to support their reviewing.
+* When AI tools are used, reviewers must proofread the final review and check all claims prior to submitting it.
+
+If AI plays a notable role beyond simple grammar fixes, we encourage (but do not require) reviewers to include a statement acknowledging the use of AI.
+
+**Violations:** None of these rules are new; confidentiality, accuracy, and accountability have always been part of the IEEE reviewer guidelines. Thus, ignorance is no excuse for violations. Failure to comply with the rules in this document may lead to a review being deleted or disregarded as well as disciplinary action up to and including temporary or permanent barring from the IEEE VIS review process. 
 
 ## What is a Minor Revision?
 
