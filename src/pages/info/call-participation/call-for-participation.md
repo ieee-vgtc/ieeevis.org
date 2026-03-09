@@ -44,14 +44,15 @@ intro_section:
 
 All deadlines are at 11:59pm (23:59) AoE **Anywhere on Earth [(AoE)](https://time.is/Anywhere_on_Earth)**.
 
-| Submission activity                                                         | Date           |
-| --------------------------------------------------------------------------- | -------------- |
-| [Abstract submission (MANDATORY)](https://new.precisionconference.com/vgtc) | March 21, 2026 |
-| [Paper submission](https://new.precisionconference.com/vgtc)                | March 31, 2026 |
-| Notification of results of first review cycle                               | June 6, 2026   |
-| Paper submission for second review cycle                                    | July 1, 2026   |
-| Final notification                                                          | July 15, 2026  |
-| Camera-ready copy                                                           | August 8, 2026 |
+| Submission activity                                                                                                                            | Date           |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------- |
+| [Abstract submission (MANDATORY)](https://new.precisionconference.com/vgtc)                                                                    | March 21, 2026 |
+| [Paper submission](https://new.precisionconference.com/vgtc)                                                                                   | March 31, 2026 |
+| [Supplementary Materials submission](https://ieeevis.org/year/2026/info/call-participation/paper-submission-guidelines/#supplemental-material) | April 7, 2026  |
+| Notification of results of first review cycle                                                                                                  | June 6, 2026   |
+| Paper submission for second review cycle                                                                                                       | July 1, 2026   |
+| Final notification                                                                                                                             | July 15, 2026  |
+| Camera-ready copy                                                                                                                              | August 8, 2026 |
 
 <!---
 {% include alert.html
