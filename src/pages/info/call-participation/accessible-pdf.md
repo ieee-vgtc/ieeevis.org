@@ -15,6 +15,7 @@ We highly encourage creating accessible final submissions so that your contribut
 - [Authoring an Accessible Document](#authoring-an-accessible-document)
   - [For Word Users](#for-word-users)
   - [For LaTeX Users](#for-latex-users)
+  - [For Typst Users](#for-typst-users)
 - [Adding Accessibility Metadata to a PDF](#adding-accessibility-metadata-to-a-pdf)
 - [Checking Accessibility of PDF Documents](#checking-accessibility-of-pdf-documents)
 
@@ -49,12 +50,29 @@ Microsoft Word can produce accessible documents.
 4. Tag the document, add alt text to all figures and equations, and correctly annotate tables with Adobe Acrobat. Details are [below](#adding-accessibility-metadata-to-a-pdf).
 5. Test the document complete with a screen reader to make sure that there are tags for all content.
 
+### For Typst Users
+
+1. Follow the latest [template for full papers and all other submissions](https://typst.app/universe/package/ieee-vgtc/).
+2. **Use appropriate commands to create sections**, ordered/unordered lists, figures, tables, equations, etc.
+3. Add alt texts to the Typst sources (see [below](#adding-alt-texts-to-figures)). Note Typst adds tags automatically, and accessible papers are automatically created ([see Typst's documentation](https://typst.app/docs/reference/pdf/#command-line)). 
+4. Export the pdf using `--pdf-standard ua-1`  to make the most accessible document.
+5. Test the document complete with a screen reader to make sure that there are tags for all content.
+
 #### Adding Alt Texts to Figures
 
-Add alt texts inline in the `includegraphics` call. In your paper, the alt texts should [describe the figure in sufficient detail](https://www.sigaccess.org/welcome-to-sigaccess/resources/describing-figures/).
+Add alt texts inline in the `includegraphics` and `#figure` calls, respectively for LaTex and Typst. In your paper, the alt texts should [describe the figure in sufficient detail](https://www.sigaccess.org/welcome-to-sigaccess/resources/describing-figures/).
 
+For LaTex:
 ```latex
 \includegraphics[alt={An image of a duck in a pond.},width=0.5\columnwidth]{duck.png}
+```
+
+For Typst:
+```
+#figure(
+  image("figs/chart.pdf", alt: "A bar chart showing the number of days per month broken down by weather type.", width: 80%),
+  caption: "Stacked bar chart of weather data.",
+)
 ```
 
 ## Adding Accessibility Metadata to a PDF
@@ -98,7 +116,7 @@ If you have followed the above steps, your final documents should be accessible.
 
 ### Accessibility Chairs
 
+- Sandra Bae _University of Arizona_
 - Laura Koesten _University of Vienna_
-- John Thompson _Autodesk Research_
 
 _Email: [accessibility@ieeevis.org](mailto:accessibility@ieeevis.org)_
