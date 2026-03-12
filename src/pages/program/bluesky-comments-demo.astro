@@ -1,0 +1,27 @@
+---
+import PageLayout from "../../layouts/PageLayout.astro";
+import BlueskyComments from "../../components/Bluesky";
+
+const frontmatter = {
+  title: "Bluesky Comments Demo",
+  active_nav: "Program",
+  contact: "web@ieeevis.org",
+};
+---
+
+<PageLayout frontmatter={frontmatter}>
+  <p>
+    This page demonstrates how to embed Bluesky-powered comments using
+    <code>src/components/Bluesky.tsx</code>.
+  </p>
+
+  <p>
+    The example below loads replies from a post.
+  </p>
+
+  <BlueskyComments
+    atUri="at://did:plc:k644h4rq5bjfzcetgsa6tuby/app.bsky.feed.post/3lvpmtclfz22r"
+    maxDepth={5}
+    client:load
+  />
+</PageLayout>
