@@ -88,7 +88,7 @@ To bid papers, continue to follow these steps:
 
 You can select an option by clicking the appropriate radio button beside each submission. The radio button will flash green to indicate that your bid has been recorded. There is no submit button on this page.
 
-Please select “want” for papers that match your areas of expertise; we expect that you mark at least 20 papers as want or willing. Please select “reluctant” for any papers that you feel are far from your expertise.
+Please select “want” for papers that match your areas of expertise; we expect that you mark at least 30 papers as want or willing. Please select “reluctant” for any papers that you feel are far from your expertise.
 
 **IMPORTANT**: Please make sure that you have bid for all papers, i.e., each paper is set to want, willing, reluctant, or conflict. Failing to complete the bidding process may result in your removal from the PC.
 
