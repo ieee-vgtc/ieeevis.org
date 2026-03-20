@@ -64,8 +64,6 @@ IEEE requires repositories that authors consider submitting their preprints to b
 
 Besides [arXiv](https://arxiv.org), several other preprint servers with additional features or different target audiences exist that—like arXiv—create an immutable record. These include [bioRxiv](https://www.biorxiv.org) (for biology and bioinformatics-related work), and [medRxiv](https://www.medrxiv.org) (for medically-focused work). A [comprehensive overview of over 40 preprint servers and their features](https://asapbio.org/preprint-servers) is provided by the ASAPbio organization. Starting August 2025, [OSF Preprints](https://osf.io/preprints/) no longer accepts new submissions to their general-purpose preprint server. It still has options for supplemental material and study pregistrations.
 
-[OSF Preprints](https://osf.io/preprints/) (supports file sharing and immutable preregistrations in addition to manuscripts
-
 We are working with IEEE to expand the list of approved repositories in the future. If you have recommendations for 3rd party servers to be considered by IEEE, you can either contact the Open Practices chairs or submit a request to [IEEE directly here](https://www.ieee.org/publications/rights/third-party-servers.html).
 
 To sum up, you are encouraged to share your paper either on [arXiv.org](http://arxiv.org) or on your institutional repository as long as it meets the Open Access Repository criteria outlined above.
