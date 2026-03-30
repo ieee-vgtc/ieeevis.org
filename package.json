@@ -23,7 +23,7 @@
     "@astrojs/sitemap": "^3.6.1",
     "@tailwindcss/typography": "^0.5.16",
     "@tailwindcss/vite": "^4.1.4",
-    "astro": "^5.16.9",
+    "astro": "^5.18.1",
     "front-matter": "^4.0.2",
     "html-react-parser": "^5.2.6",
     "marked": "^16.2.0",
