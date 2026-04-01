@@ -42,7 +42,6 @@ sidetoc: false
 | Michelle Borkin            | _Northeastern University_                                                        |
 | David Borland              | _University of North Carolina at Chapel Hill_                                    |
 | Jeremy Boy                 | _United Nations Development Programme_                                           |
-| Peer-Timo Bremer           | _Lawrence Livermore National Laboratory_                                         |
 | Nathalie Bressa            | _Télécom Paris, Institut Polytechnique de Paris_                                 |
 | Chris Bryan                | _Arizona State University_                                                       |
 | Katja Bühler               | _Vienna Research Center for Visual Computing - VRVis GmbH_                       |
@@ -50,13 +49,11 @@ sidetoc: false
 | Jan Byška                  | _Masaryk University_                                                             |
 | Hamish Carr                | _University of Leeds_                                                            |
 | Dylan Cashman              | _Brandeis University_                                                            |
-| Davide Ceneda              | _Eindhoven University of Technology_                                             |
 | Gromit Yeuk-Yin Chan       | _Adobe Research_                                                                 |
 | Remco Chang                | _Tufts University_                                                               |
 | Angelos Chatzimparmpas     | _Utrecht University_                                                             |
 | Duen Horng (Polo) Chau     | _Georgia Tech_                                                                   |
 | Guoning Chen               | _University of Houston_                                                          |
-| Wei Chen                   | _Zhejiang University_                                                            |
 | Jian Chen                  | _The Ohio State University_                                                      |
 | Min Chen                   | _University of Oxford_                                                           |
 | Furui Cheng                | _ETH Zürich_                                                                     |
@@ -69,13 +66,10 @@ sidetoc: false
 | Dazhen Deng                | _Zhejiang University_                                                            |
 | Zikun Deng                 | _South China University of Technology_                                           |
 | Vaishali Dhanoa            | _Aarhus University_                                                              |
-| Alexandra Diehl            | _Southern University of Denmark_                                                 |
 | Joao Dihl Comba            | _UFRGS_                                                                          |
 | Evanthia Dimara            | _Utrecht University_                                                             |
 | Wenwen Dou                 | _UNC Charlotte_                                                                  |
 | Soumya Dutta               | _Indian Institute of Technology Kanpur (IIT Kanpur)_                             |
-| Mennatallah El-Assady      | _ETH Zürich_                                                                     |
-| Barrett Ens                | _The University of British Columbia (Okanagan Campus)_                           |
 | Rebecca Faust              | _Tulane University_                                                              |
 | Jean-Daniel Fekete         | _Université Paris-Saclay, CNRS, Inria_                                           |
 | Nivan Ferreira             | _Universidade Federal de Pernambuco_                                             |
@@ -103,14 +97,12 @@ sidetoc: false
 | Marti Hearst               | _UC Berkeley_                                                                    |
 | Florian Heimerl            | _University of Wisconsin-Madison_                                                |
 | Andreas Hinterreiter       | _Johannes Kepler University_                                                     |
-| Mario Hlawitschka          | _Leipzig University of Applied Sciences_                                         |
 | Thomas Höllt               | _Delft University of Technology_                                                 |
 | Seok-Hee Hong              | _University of Sydney_                                                           |
 | Naimul Hoque               | _University of Iowa_                                                             |
 | Ingrid Hotz                | _Linköping University_                                                           |
 | Jing Hua                   | _Wayne State University_                                                         |
 | Federico Iuricich          | _Clemson University_                                                             |
-| Helena Jambor              | _FHGR, Chur, CH_                                                                 |
 | Yun Jang                   | _Sejong University_                                                              |
 | T.J. Jankun-Kelly          | _Mississippi State Univedrsity_                                                  |
 | Alberto Jaspe-Villanueva   | _KAUST_                                                                          |
@@ -132,7 +124,6 @@ sidetoc: false
 | David Koop                 | _Northern Illinois University_                                                   |
 | David Kouřil               | _Harvard Medical School_                                                         |
 | Barbora Kozlikova          | _Masaryk University_                                                             |
-| Jens Krueger               | _University of Duisburg-Essen_                                                   |
 | Sidharth Kumar             | _University of Illinois at Chicago_                                              |
 | Sehi L'Yi                  | _Harvard Medical School_                                                         |
 | David Laidlaw              | _Brown University_                                                               |
@@ -144,7 +135,6 @@ sidetoc: false
 | Joshua Levine              | _University of Arizona_                                                          |
 | Alexander Lex              | _Graz University of Technology_                                                  |
 | Quan Li                    | _ShanghaiTech University_                                                        |
-| Chenhui Li                 | _East China Normal University_                                                   |
 | Guozheng Li                | _Beijing Institute of Technology_                                                |
 | Yanna Lin                  | _University of Waterloo_                                                         |
 | Peter Lindstrom            | _Lawrence Livermore National Laboratory_                                         |
@@ -155,7 +145,6 @@ sidetoc: false
 | Min Lu                     | _Shenzhen University_                                                            |
 | Aidong Lu                  | _University of North Carolina at Charlotte_                                      |
 | Yuyu Luo                   | _The Hong Kong University of Science and Technology (Guangzhou)_                 |
-| Nicole Marsaglia           | _Lawrence Livermore National Laboratory_                                         |
 | Talha Bin Masood           | _Linköping University_                                                           |
 | Justin Matejka             | _Autodesk Research_                                                              |
 | Kresimir Matkovic          | _VRVis Research Center_                                                          |
@@ -164,9 +153,7 @@ sidetoc: false
 | Christofer Meinecke        | _Leipzig University_                                                             |
 | Wouter Meulemans           | _TU Eindhoven_                                                                   |
 | Monique Meuschke           | _University of Magdeburg_                                                        |
-| Haichao Miao               | _Lawrence Livermore National Laboratory_                                         |
 | Fabio Miranda              | _University of Illinois Chicago_                                                 |
-| Gabriel Mistelbauer        | _Stanford University School of Medicine_                                         |
 | Gabriela Molina León       | _Aarhus University_                                                              |
 | Torsten Möller             | _University of Vienna_                                                           |
 | Shayan Monadjemi           | _Oak Ridge National Laboratory_                                                  |
@@ -183,17 +170,13 @@ sidetoc: false
 | Vanessa Peña-Araya         | _LISN, Université Paris-Saclay, CNRS, INRIA_                                     |
 | Jorge Poco                 | _Fundação Getulio Vargas_                                                        |
 | Jean Ponciano              | _University of Sao Paulo_                                                        |
-| Kristi Potter              | _National Renewable Energy Laboratory_                                           |
 | Arnaud Prouzeau            | _Université Paris-Saclay, Inria, CNRS_                                           |
-| David Pugmire              | _Oak Ridge National Laboratory_                                                  |
 | Yu Qin                     | _Tulane University_                                                              |
 | Fateme Rajabiyazdi         | _University of Calgary_                                                          |
 | Guido Reina                | _University of Stuttgart_                                                        |
 | Panagiotis Ritsos          | _Bangor University_                                                              |
-| Silvio Rizzi               | _Argonne National Laboratory_                                                    |
 | Jennifer Rogers            | _Idaho National Lab_                                                             |
 | Filip Sadlo                | _Heidelberg University_                                                          |
-| Naohisa Sakamoto           | _Kobe University_                                                                |
 | Alper Sarikaya             | _Microsoft Corporation_                                                          |
 | Abhraneel Sarma            | _Graz University of Technology_                                                  |
 | Johanna Schmidt            | _TU Wien_                                                                        |
@@ -228,7 +211,6 @@ sidetoc: false
 | Anna Vilanova              | _Eindhoven University of Technology_                                             |
 | Ivan Viola                 | _King Abdullah University of Science and Technology_                             |
 | Tatiana von Landesberger   | _University of Cologne_                                                          |
-| Katerina Vrotsou           | _Linköping University_                                                           |
 | Xingbo Wang                | _Bosch Research North America & Bosch Center for Artificial Intelligence (BCAI)_ |
 | Chaoli Wang                | _University of Notre Dame_                                                       |
 | Yong WANG                  | _Nanyang Technological University_                                               |
