@@ -109,9 +109,9 @@ active_nav: "Organization & History"
 | Lisa Avila                                | _Kitware_                                                    |
 |                                           |                                                              |
 | **Finance Chairs**                        |                                                              |
-|                                           |                                                              |
 | Joshua Levine                             | _University of Arizona_                                      |
 | Michelle Dowling                          | _Pacific Northwest National Lab_                             |
+|                                           |                                                              |
 | **Incoming General Chairs (VIS27)**       |                                                              |
 | Khairi Reda                               | _University of Illinois Chicago_                             |
 | Victor Mateevitsi                         | _University of Illinois Chicago_                             |
