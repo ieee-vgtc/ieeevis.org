@@ -9,12 +9,12 @@ contact: open_practices@ieeevis.org
 
 ### Updates for IEEE VIS 2026
 
-There are two updates related to open practices this year:
+This year we are continuing two updates related to open practices debuted last year:
 
 - The deadline for supplemental material is April 7, one week after the full paper deadline of March 31.
 - Reviewers and authors have the option of publishing anonymized reviews.
 
-See [the announcement for more details](/year/2026/blog/2024-12-10-vis-2025-OPC-blog).
+See [the announcement for more details](https://ieeevis.org/year/2025/blog/vis-2025-OPC-blog-Changes).
 
 ---
 
