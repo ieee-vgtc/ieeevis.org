@@ -576,7 +576,7 @@ menu:
                   - text: "Area Curation Committee"
                     url: "/info/committees/area-committee"
                   - text: "reVISe 1.1"
-                    url: "/blog/2025-02-24-vis-2025-revise-blog"
+                    url: "https://ieeevis.org/year/2025/blog/vis-2025-revise"
           - heading: "Governance Documents"
             description: "Information on the IEEE VIS governance structure"
             columns:
