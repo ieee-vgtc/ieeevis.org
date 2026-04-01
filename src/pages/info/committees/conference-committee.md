@@ -21,7 +21,7 @@ active_nav: "Organization & History"
 | Melanie Tory                              | _Northeastern University_                                    |
 | Tobias Isenberg                           | _Inria_                                                      |
 | Alex Endert                               | _Georgia Institute of Technology_                            |
-| Shani Spivak *(OPC Assistant)*            | _Northeastern University_                                    |
+| Shani Spivak _(OPC Assistant)_            | _Northeastern University_                                    |
 |                                           |                                                              |
 | **Area Paper Chairs**                     |                                                              |
 | **Area 1: Theoretical & Empirical**       |                                                              |
@@ -68,6 +68,9 @@ active_nav: "Organization & History"
 | Leilani Battle                            | _University of Washington_                                   |
 |                                           |                                                              |
 | **Arts Program Chairs**                   |                                                              |
+| Dario Rodighiero                          | _University of Groningen_                                    |
+| Weidi Zhang                               | _Arizona State University_                                   |
+| Sarah Williams                            | _Massachusetts Institute of Technology_                      |
 |                                           |                                                              |
 | **Vis in Practice Chairs**                |                                                              |
 |                                           |                                                              |
@@ -86,11 +89,11 @@ active_nav: "Organization & History"
 | Lijie Yao                                 | _Xi'an Jiaotong-Liverpool University_                        |
 |                                           |                                                              |
 | **Student Volunteer Chairs**              |                                                              |
-| Connor Wilson                             |  _Northeastern University_                                   |
-| Hamza Elhamdadi                           |  _Stonehill College_                                         |
-| Hyeon Jeon                                |  _Seoul National University_                                 |
-| Magdalena 'Momo'	Boucher                 |  _University of Applied Sciences St. Pölten_                 |
-| Zeyang Huang                              |  _Linköping University_                                      |
+| Connor Wilson                             | _Northeastern University_                                    |
+| Hamza Elhamdadi                           | _Stonehill College_                                          |
+| Hyeon Jeon                                | _Seoul National University_                                  |
+| Magdalena 'Momo' Boucher                  | _University of Applied Sciences St. Pölten_                  |
+| Zeyang Huang                              | _Linköping University_                                       |
 |                                           |                                                              |
 | **Publicity Chairs**                      |                                                              |
 | Khairi Reda                               | _University of Illinois Chicago_                             |
@@ -106,6 +109,8 @@ active_nav: "Organization & History"
 | Lisa Avila                                | _Kitware_                                                    |
 |                                           |                                                              |
 | **Finance Chairs**                        |                                                              |
+| Joshua Levine                             | _University of Arizona_                                      |
+| Michelle Dowling                          | _Pacific Northwest National Lab_                             |
 |                                           |                                                              |
 | **Incoming General Chairs (VIS27)**       |                                                              |
 | Khairi Reda                               | _University of Illinois Chicago_                             |
