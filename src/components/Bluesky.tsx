@@ -1,6 +1,8 @@
 import { useEffect, useMemo, useState } from "react";
+import type { ReactNode } from "react";
 
 const DEFAULT_MAX_DEPTH = 5;
+const DEFAULT_REFRESH_MS = 60_000;
 
 interface BlueskyCommentsProps {
   did?: string;
@@ -8,6 +10,8 @@ interface BlueskyCommentsProps {
   atUri?: string;
   maxDepth?: number;
   apiBase?: string;
+  refreshMs?: number;
+  pauseWhenHidden?: boolean;
 }
 
 interface Author {
@@ -152,12 +156,12 @@ function postHref(post?: Post): string {
   return `https://bsky.app/profile/${did}/post/${rkey}`;
 }
 
-function renderText(record?: PostRecord) {
+function renderText(record?: PostRecord): ReactNode {
   const text = record?.text || "";
   return <p style={{ margin: "0.4rem 0", whiteSpace: "pre-wrap" }}>{text}</p>;
 }
 
-function renderEmbed(embed?: Embed) {
+function renderEmbed(embed?: Embed): ReactNode {
   if (!embed || !embed.$type) {
     return null;
   }
@@ -411,10 +415,14 @@ function buildAtUri({ atUri, did, postCid }: BlueskyCommentsProps): string {
 export default function BlueskyComments(props: BlueskyCommentsProps) {
   const [thread, setThread] = useState<Thread | null>(null);
   const [loading, setLoading] = useState(true);
+  const [isRefreshing, setIsRefreshing] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [lastUpdatedAt, setLastUpdatedAt] = useState<Date | null>(null);
 
   const maxDepth = props.maxDepth ?? DEFAULT_MAX_DEPTH;
   const apiBase = props.apiBase || "https://public.api.bsky.app";
+  const refreshMs = props.refreshMs ?? DEFAULT_REFRESH_MS;
+  const pauseWhenHidden = props.pauseWhenHidden ?? true;
 
   const uri = useMemo(
     () => buildAtUri(props),
@@ -430,37 +438,93 @@ export default function BlueskyComments(props: BlueskyCommentsProps) {
       return;
     }
 
-    const controller = new AbortController();
+    let disposed = false;
+    let isFetching = false;
+    let intervalId: ReturnType<typeof setInterval> | null = null;
+    let currentController: AbortController | null = null;
 
-    async function fetchThread() {
-      setLoading(true);
+    async function fetchThread(background: boolean) {
+      if (disposed || isFetching) {
+        return;
+      }
+
+      isFetching = true;
+      if (background) {
+        setIsRefreshing(true);
+      } else {
+        setLoading(true);
+      }
+
       setError(null);
+      currentController = new AbortController();
 
       try {
         const endpoint = `${apiBase}/xrpc/app.bsky.feed.getPostThread?uri=${encodeURIComponent(uri)}&depth=100`;
-        const response = await fetch(endpoint, { signal: controller.signal });
+        const response = await fetch(endpoint, {
+          signal: currentController.signal,
+        });
         if (!response.ok) {
           throw new Error(`Bluesky API returned ${response.status}`);
         }
 
         const data = (await response.json()) as ThreadResponse;
+        if (disposed) {
+          return;
+        }
+
         setThread(data.thread || null);
+        setLastUpdatedAt(new Date());
       } catch (err) {
         if ((err as Error).name === "AbortError") {
           return;
         }
+        if (disposed) {
+          return;
+        }
         setError((err as Error).message || "Could not load comments.");
       } finally {
-        setLoading(false);
+        if (!disposed) {
+          setLoading(false);
+          setIsRefreshing(false);
+        }
+        isFetching = false;
+        currentController = null;
       }
     }
 
-    fetchThread();
+    fetchThread(false);
+
+    if (refreshMs > 0) {
+      intervalId = setInterval(() => {
+        if (pauseWhenHidden && document.visibilityState !== "visible") {
+          return;
+        }
+        fetchThread(true);
+      }, refreshMs);
+    }
+
+    function onVisibilityChange() {
+      if (!pauseWhenHidden || document.visibilityState !== "visible") {
+        return;
+      }
+      fetchThread(true);
+    }
+
+    if (pauseWhenHidden) {
+      document.addEventListener("visibilitychange", onVisibilityChange);
+    }
 
     return () => {
-      controller.abort();
+      disposed = true;
+      if (intervalId) {
+        clearInterval(intervalId);
+      }
+      if (pauseWhenHidden) {
+        document.removeEventListener("visibilitychange", onVisibilityChange);
+      }
+      currentController?.abort();
     };
-  }, [apiBase, uri]);
+  }, [apiBase, pauseWhenHidden, refreshMs, uri]);
 
   const rootPost = thread?.post;
   const replies = thread?.replies || [];
@@ -487,6 +551,21 @@ export default function BlueskyComments(props: BlueskyCommentsProps) {
             Bluesky
           </a>
           .
+        </p>
+      )}
+
+      {(isRefreshing || lastUpdatedAt) && (
+        <p
+          style={{
+            marginTop: 0,
+            marginBottom: "0.8rem",
+            color: "#6b7280",
+            fontSize: "0.88rem",
+          }}
+        >
+          {isRefreshing
+            ? "Refreshing comments…"
+            : `Last updated at ${lastUpdatedAt?.toLocaleTimeString()}`}
         </p>
       )}
 
