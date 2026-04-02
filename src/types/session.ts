@@ -1,6 +1,6 @@
 export interface Session {
   title: string;
-  session_id: string;
+  id: string;
   event_prefix: string;
   track: string;
   room_name: string;
