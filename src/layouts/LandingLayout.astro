@@ -1,29 +1,31 @@
 ---
 import DefaultLayout from "./DefaultLayout.astro";
-import Sidebar from "../components/Sidebar";
+import Sidebar from "../components/Sidebar.astro";
 import Card from "../components/Card";
 import MarkdownText from "../components/MarkdownText";
 import { withBaseURL } from "../utils/withBaseURL";
 const { frontmatter } = Astro.props;
 
 type FrontmatterCardType = {
-  title: string, //"Area 1: Theoretical & Empirical"
-  description: string, //"Theoretical and empirical research topics that aim to define the foundation of VIS as a scientific subject."
-  button_text: string, //"Theoretical & Empirical"
-  button_url: string, //"/info/call-participation/area-model#area-1-theoretical--empirical"
-}
+  title: string; //"Area 1: Theoretical & Empirical"
+  description: string; //"Theoretical and empirical research topics that aim to define the foundation of VIS as a scientific subject."
+  button_text: string; //"Theoretical & Empirical"
+  button_url: string; //"/info/call-participation/area-model#area-1-theoretical--empirical"
+};
 type CardType = {
-  title: string,
-  description: string,
-  button_text: string,
-  url: string,
-}
-const cards:CardType[] = frontmatter.intro_section.cards.map((card: FrontmatterCardType) => ({
-  title: card.title,
-  description: card.description,
-  button_text: card.button_text,
-  url: withBaseURL(card.button_url),
-}))
+  title: string;
+  description: string;
+  button_text: string;
+  url: string;
+};
+const cards: CardType[] = frontmatter.intro_section.cards.map(
+  (card: FrontmatterCardType) => ({
+    title: card.title,
+    description: card.description,
+    button_text: card.button_text,
+    url: withBaseURL(card.button_url),
+  }),
+);
 ---
 
 <DefaultLayout page_info={frontmatter}>
@@ -53,7 +55,6 @@ const cards:CardType[] = frontmatter.intro_section.cards.map((card: FrontmatterC
               <div class="flex md:flex-row flex-col flex-wrap">
                 {cards.map((c, cIdx) => (
                   <Card
-                    key={cIdx}
                     title={c.title}
                     description={c.description}
                     button_text={c.button_text}

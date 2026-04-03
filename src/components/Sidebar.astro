@@ -1,0 +1,22 @@
+---
+import { load_yaml } from "../utils/load_yaml";
+import SidebarLinks from "./Sidebar.tsx";
+
+const { sidebar_data_path } = Astro.props;
+
+function getSidebarSections(name: string) {
+  if (name === "call-for-participation") {
+    const nav = load_yaml("./src/data/navigation.yml");
+    const dropdown = nav.menu?.find((m: any) => m.dropdown === "Contribute");
+    const subsection = dropdown?.sections
+      ?.flatMap((s: any) => s.subsections ?? [])
+      ?.find((s: any) => s.heading === "Call for Participation");
+    return subsection?.columns ?? [];
+  }
+  return load_yaml(`./src/data/sidebars/${name}.yml`);
+}
+
+const sections = getSidebarSections(sidebar_data_path);
+---
+
+<SidebarLinks sections={sections} />
