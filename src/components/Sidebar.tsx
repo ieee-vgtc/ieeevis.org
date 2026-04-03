@@ -1,25 +1,14 @@
-/**
- *
- * @param param0
- */
-
 import { useEffect, useState } from "react";
-import { load_yaml } from "../utils/load_yaml";
 import { withBaseURL } from "../utils/withBaseURL";
 
-export default function Sidebar({
-  sidebar_data_path,
-}: {
-  sidebar_data_path: any;
-}) {
+export default function Sidebar({ sections }: { sections: any[] }) {
   const [currentpath, setCurrentPath] = useState("");
 
   useEffect(() => {
-    console.log(window.location.pathname, currentpath);
     setCurrentPath(window.location.pathname);
   }, []);
 
-  const data = load_yaml(`./src/data/sidebars/${sidebar_data_path}.yml`);
+  const data = sections;
 
   return (
     <aside className="sidebar ">
