@@ -12,7 +12,7 @@ The following workshops went through our [submission/review process](/year/2026/
 - [BELIV 2026: Learning What's True, Doing What's Right](#) (Full day)
 - [Considering Context: Approaches for Responsible Data Practices](#) (Half day)
 - [EduVis: 4th IEEE VIS Workshop on Visualization Education, Literacy, and Activities](#) (Half day)
-- [2nd GenAI, Agents, and the Future of VIS"](#) (Half day)
+- [2nd GenAI, Agents, and the Future of VIS](#) (Half day)
 - [Grand Unified Grammar of Graphics (GUGOG)](#) (Half day)
 - [SciFi-VIS: Way Out There -- How SciFi and Visualization Influence Each Other](#) (Half day)
 - [TopoInVis Connect: Topology meets Artificial Intelligence](#) (Half day)
