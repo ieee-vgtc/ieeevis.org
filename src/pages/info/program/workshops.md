@@ -1,36 +1,37 @@
 ---
-title: Workshops
+title: Accepted Workshops
 layout: /src/layouts/PageLayout.astro
 contact: workshops@ieeevis.org
 sidebar: program
 active_nav: "Program"
 ---
 
-## Accepted Workshops
-
-TBD
-
-<!-- ## Accepted Workshops
-
 The following workshops went through our [submission/review process](/year/2026/info/call-participation/workshops).
 
+- [3rd Workshop on Accessible Data Visualization](#) (Half day)
+- [BELIV 2026: Learning What's True, Doing What's Right](#) (Full day)
+- [Considering Context: Approaches for Responsible Data Practices](#) (Half day)
+- [EduVis: 4th IEEE VIS Workshop on Visualization Education, Literacy, and Activities](#) (Half day)
+- [2nd GenAI, Agents, and the Future of VIS"](#) (Half day)
+- [Grand Unified Grammar of Graphics (GUGOG)](#) (Half day)
+- [SciFi-VIS: Way Out There -- How SciFi and Visualization Influence Each Other](#) (Half day)
+- [TopoInVis Connect: Topology meets Artificial Intelligence](#) (Half day)
+- [Uncertainty Visualization: How to Make it Interpretable, Integrable, and Accessible?](#) (Half day)
+- [Visual Analytics in the Age of Autonomous Scientific Discovery](#) (Half day)
+- [9th Workshop on Visualization for AI Explainability (VISxAI)](#) (Half day)
+- [VisxVision: Workshop on Novel Directions in Vision Science and Visualization Research](#) (Half day)
+- [vis4climate: Building a Transdisciplinary Climate Vis Community](#) (Half day)
+
+<!--
+
+Example from last year
+
 - [ECWIDNA: Engaging Critical Workforce In co-Design aNd Assessment](#ECWIDNA)
-- [alt.VIS 2026](#alt.VIS)
-- [Uncertainty Visualization: Unraveling Relationships of Uncertainty, AI, and Decision-Making](#uncertainty)
-- [EduVis: 3rd IEEE VIS Workshop on Visualization Education, Literacy, and Activities](#EduVis)
-- [Workshop on Topological Data Analysis and Visualization (TopoInVis)](#TopoInVis)
-- [LDAV 2026 - The 15th IEEE Workshop on Large Data Analysis & Visualization](#LDAV)
-- [9th Workshop on Visualization for the Digital Humanities: VIS4DH ↔ DH4VIS](#VIS4DH)
-- [The 2nd MERCADO Workshop at IEEE VIS 2026: Multimodal Experiences for Remote Communication Around Data Online](#MERCADO)
-- [Envisioning a Research Agenda for Input Visualization (Full Day)](#InputVis)
-- [Human Factors in Immersive Analytics](#immersive)
-- [AccessViz: 2nd Workshop on Accessible Data Visualization](#AccessViz)
-- [16th Annual Workshop on Visual Analytics in Healthcare (Full Day)](#VAHC)
-- [8th Workshop on Visualization for AI Explainability (VISxAI) (Full Day)](#VISxAI)
-- [VISxGenAI: 1st Workshop on GenAI, Agents, and the Future of VIS (Full Day)](#VISxGenAI)
-- [Seventh Workshop on Visualization for Communication (VisComm)](#VisComm) -->
+-->
 
 <hr/>
+
+Workshop descriptions coming soon
 
 <!-- ## <a name="ECWIDNA"></a> ECWIDNA: Engaging Critical Workforce In co-Design aNd Assessment
 
