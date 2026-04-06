@@ -71,7 +71,7 @@ Chen Zhu-Tian, _University of Minnesota-Twin Cities, Minneapolis, Minnesota, Uni
 Nam Wook Kim, _Boston College, Chestnut Hill, Massachusetts, United States_<br>
 Saeed Boorboor, _University of Illinois Chicago, Chicago, Illinois, United States_<br>
 Shivam Raval, _Harvard University, Boston, Massachusetts, United States_<br>
-Pan Hao, _University of Minnesota, Minneapolis , Minnesota, United States_<br>
+Pan Hao, _University of Minnesota, Minneapolis, Minnesota, United States_<br>
 Vidya Setlur, _Tableau Research, Palo Alto, California, United States_<br>
 
 Contact: Chen Zhu-Tian ([ztchen@umn.edu](mailto:ztchen@umn.edu))
@@ -138,7 +138,7 @@ The VISxAI workshop, throughout its past eight iterations, has been a platform f
 
 ## <a name="edu-vis"></a> EduVis: 4th IEEE VIS Workshop on Visualization Education, Literacy, and Activities
 
-Christina Stoiber, _St. Poelten University of Applied Sciences, St. Poelten, Austria_<br>
+Christina Stoiber, _St. Pölten University of Applied Sciences, St. Pölten, Austria_<br>
 Magdalena Boucher, _St. Pölten University of Applied Sciences, St. Pölten, Austria_<br>
 Fateme Rajabiyazdi, _University of Calgary, Calgary, Alberta, Canada_<br>
 Mandy Keck, _University of Applied Sciences Upper Austria, Hagenberg im Mühlkreis, Austria_<br>
@@ -149,28 +149,13 @@ Yixuan Li, _Georgia Institute of Technology, Atlanta, Georgia, United States_<br
 
 Contact: Christina Stoiber ([christina.stoiber@fhstp.ac.at](mailto:christina.stoiber@fhstp.ac.at))
 
-This is the 4th workshop on visualization education, literacy, and
-activities. Following two successful iterations in 2023 and 2024
-(30–50 participants and 15–20 submissions annually), the 2025 edi-
-tion set a new record, with 20 submissions and attendance ranging
-between 45 and 70 participants. With EduVis, we aim become the
-primary forum to share and discuss advances, challenges, and meth-
-ods at the intersection of visualization and education. The work-
-shop addresses an interdisciplinary audience from and beyond vi-
-sualization, including education, learning analytics, science com-
-munication, arts and design, psychology, and people from adjacent
-fields such as data science and HCI. Now in its 4th year, the work-
-shop’s annual spotlight topic will be Equality, Diversity, and In-
-clusion (EDI) in education and data visualization. In addition to
-the regular paper track published in the IEEE Xplore library, we
-will continue to offer the ‘educators reports’ track, whose sub-
-missions will be published in the Nightingale Magazine.
+This is the 4th workshop on visualization education, literacy, and activities. Following two successful iterations in 2023 and 2024 (30–50 participants and 15–20 submissions annually), the 2025 edition set a new record, with 20 submissions and attendance ranging between 45 and 70 participants. With EduVis, we aim become the primary forum to share and discuss advances, challenges, and methods at the intersection of visualization and education. The workshop addresses an interdisciplinary audience from and beyond visualization, including education, learning analytics, science communication, arts and design, psychology, and people from adjacent fields such as data science and HCI. Now in its 4th year, the workshop’s annual spotlight topic will be Equality, Diversity, and Inclusion (EDI) in education and data visualization. In addition to the regular paper track published in the IEEE Xplore library, we will continue to offer the ‘educators reports’ track, whose submissions will be published in the Nightingale Magazine.
 
 ---
 
 ## <a name="uncertainty-vis"></a> Uncertainty Visualization: How to Make it Interpretable, Integrable, and Accessible?
 
-Timbwaoga A. J. Ouermi, _Scientific Computing and Imaging Institute, Salk Lake City, Utah, United States_<br>
+Timbwaoga A. J. Ouermi, _Scientific Computing and Imaging Institute, Salt Lake City, Utah, United States_<br>
 Tushar M. Athawale, _Oak Ridge National Laboratory, Oak Ridge, Tennessee, United States_<br>
 Chris R. Johnson, _University of Utah, Salt Lake City, Utah, United States_<br>
 Kristi Potter, _National Laboratory of the Rockies, Golden, Colorado, United States_<br>
@@ -182,7 +167,7 @@ Nadia Boukhelifa, _INRAE, Paris, France & Université Paris Saclay, Paris, Franc
 
 Contact: Timbwaoga A. J. Ouermi ([touermi@sci.utah.edu](mailto:touermi@sci.utah.edu))
 
-The 2024 and 2025 IEEE Uncertainty Visualization Workshops were highly successful, attracting over 75 attendees, including leading visualization researchers, and demonstrating strong community interest. Building on this momentum, we propose to a run 2026 version of the Uncertainty Visualization Workshop which aims to address key issues raised in the previous workshops. Specifically, discussions across the previous two workshops consistently highlighted three persistent bottlenecks—interpretability, integrability, and accessibility— of uncertainty visualization that cut across domains, tools, and user groups.
+The 2024 and 2025 IEEE Uncertainty Visualization Workshops were highly successful, attracting over 75 attendees, including leading visualization researchers, and demonstrating strong community interest. Building on this momentum, we propose to run a 2026 version of the Uncertainty Visualization Workshop which aims to address key issues raised in the previous workshops. Specifically, discussions across the previous two workshops consistently highlighted three persistent bottlenecks—interpretability, integrability, and accessibility— of uncertainty visualization that cut across domains, tools, and user groups.
 
 First, although a number of new uncertainty visualization techniques have been developed over the past decade, their growing complexity and diversity make them difficult to interpret for non‑experts and even experienced researchers. Second, this interpretability gap, in turn, hinders integrability: scientists struggle to incorporate uncertainty visualization into their analysis pipelines, and computational overhead of uncertainty propagation further limits its integration into existing workflows. Finally, the lack of uncertainty‑aware capabilities in commonly used tools and software ecosystems reduces accessibility and prevents broader use. This workshop addresses these interconnected challenges by inviting contributions that advance interpretable representations, integrable computational methods, and accessible tools and frameworks.
 
@@ -238,8 +223,6 @@ We propose a hybrid half-day workshop at IEEE VIS 2026, calling for participatio
 ---
 
 ## <a name="accessible-vis"></a> 3rd Workshop on Accessible Data Visualization
-
-<br>
 
 Contact: Brianna L Wimer ([bwimer@nd.edu](mailto:bwimer@nd.edu))
 
