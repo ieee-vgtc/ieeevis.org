@@ -1,34 +1,39 @@
 ---
-title: Workshops
+title: Accepted Workshops
 layout: /src/layouts/PageLayout.astro
 contact: workshops@ieeevis.org
 sidebar: program
 active_nav: "Program"
 ---
 
-## Accepted Workshops
-
 The following workshops went through our [submission/review process](/year/2026/info/call-participation/workshops).
 
+- [3rd Workshop on Accessible Data Visualization](#) (Half day)
+- [BELIV 2026: Learning What's True, Doing What's Right](#) (Full day)
+- [Considering Context: Approaches for Responsible Data Practices](#) (Half day)
+- [EduVis: 4th IEEE VIS Workshop on Visualization Education, Literacy, and Activities](#) (Half day)
+- [2nd GenAI, Agents, and the Future of VIS](#) (Half day)
+- [Grand Unified Grammar of Graphics (GUGOG)](#) (Half day)
+- [SciFi-VIS: Way Out There -- How SciFi and Visualization Influence Each Other](#) (Half day)
+- [TopoInVis Connect: Topology meets Artificial Intelligence](#) (Half day)
+- [Uncertainty Visualization: How to Make it Interpretable, Integrable, and Accessible?](#) (Half day)
+- [Visual Analytics in the Age of Autonomous Scientific Discovery](#) (Half day)
+- [9th Workshop on Visualization for AI Explainability (VISxAI)](#) (Half day)
+- [VisxVision: Workshop on Novel Directions in Vision Science and Visualization Research](#) (Half day)
+- [vis4climate: Building a Transdisciplinary Climate Vis Community](#) (Half day)
+
+<!--
+
+Example from last year
+
 - [ECWIDNA: Engaging Critical Workforce In co-Design aNd Assessment](#ECWIDNA)
-- [alt.VIS 2026](#alt.VIS)
-- [Uncertainty Visualization: Unraveling Relationships of Uncertainty, AI, and Decision-Making](#uncertainty)
-- [EduVis: 3rd IEEE VIS Workshop on Visualization Education, Literacy, and Activities](#EduVis)
-- [Workshop on Topological Data Analysis and Visualization (TopoInVis)](#TopoInVis)
-- [LDAV 2026 - The 15th IEEE Workshop on Large Data Analysis & Visualization](#LDAV)
-- [9th Workshop on Visualization for the Digital Humanities: VIS4DH ↔ DH4VIS](#VIS4DH)
-- [The 2nd MERCADO Workshop at IEEE VIS 2026: Multimodal Experiences for Remote Communication Around Data Online](#MERCADO)
-- [Envisioning a Research Agenda for Input Visualization (Full Day)](#InputVis)
-- [Human Factors in Immersive Analytics](#immersive)
-- [AccessViz: 2nd Workshop on Accessible Data Visualization](#AccessViz)
-- [16th Annual Workshop on Visual Analytics in Healthcare (Full Day)](#VAHC)
-- [8th Workshop on Visualization for AI Explainability (VISxAI) (Full Day)](#VISxAI)
-- [VISxGenAI: 1st Workshop on GenAI, Agents, and the Future of VIS (Full Day)](#VISxGenAI)
-- [Seventh Workshop on Visualization for Communication (VisComm)](#VisComm)
+-->
 
 <hr/>
 
-## <a name="ECWIDNA"></a> ECWIDNA: Engaging Critical Workforce In co-Design aNd Assessment
+Workshop descriptions coming soon
+
+<!-- ## <a name="ECWIDNA"></a> ECWIDNA: Engaging Critical Workforce In co-Design aNd Assessment
 
 Alessandro Iop, _KTH Royal Institute of Technology, Stockholm, Sweden_<br>
 Renan Guarese, _KTH Royal Institute of Technology, Stockholm, Sweden_<br>
@@ -45,275 +50,4 @@ Contact: Alessandro Iop ([aiop@kth.se](mailto:aiop@kth.se))
 In this workshop, we aim at identifying potential strategies to achieve successful designs of interactive visualizations involving highly sought-after individuals, by leveraging practices and guidelines stemming from the experience of fellow researchers in the HCI and Visualization community.
 We consider "interactive" all visualizations that enable users to explore, manipulate and filter the information thereby encoded.
 We define End User Development (EUD) as an iterative process of co-creation that includes both the design and evaluation of such visualizations.
-During the workshop, participants will have the opportunity to learn about successful experiences directly from members of the research community, and partake in active discussions surrounding methods and approaches adopted in EUD practices.
-
-## <a name="alt.VIS"></a> alt.VIS 2026
-
-Andrew M. McNutt, _University of Utah, Salt Lake City, UT, United States_<br>
-Søren Lyngsø Knudsen, _IT University, Copenhagen, Denmark_<br>
-Alyxander Burns, _Mount Holyoke College, South Hadley, MA, United States_<br>
-Connor Scully-Allison, _University of Utah, Salt Lake City, UT, United States_<br>
-Sara Di Bartolomeo, _TU Wien, Vienna, Austria_<br>
-Victor Schetinger, _TU Wien, Vienna, Austria_<br>
-
-Contact: Andrew McNutt ([mcnutt.andrew@gmail.com](mailto:mcnutt.andrew@gmail.com))
-
-[https://altvis.github.io/](https://altvis.github.io/){:target="\_blank"}
-
-Often the most transformative ideas and challenges come from unexpected and serendipitous sources.
-Yet, conferences are not often perceived as a place for non-traditional, controversial, or outré work.
-We propose to continue the success of the last three year's (2021, 2022, 2023) ''alt.VIS'' workshops that borrowed from the long-running and successful ''alt.chi'' model from the ACM SIGCHI conference.
-This venue will once again provide an avenue for surfacing creative or critical work that would otherwise not find a home through the standard VIS conference review process.
-
-## <a name="uncertainty"></a> Uncertainty Visualization: Unraveling Relationships of Uncertainty, AI, and Decision-Making
-
-Tushar M. Athawale, _Oak Ridge National Laboratory, Oak Ridge, TN, United States_<br>
-Chris R. Johnson, _University of Utah, Salt Lake City, UT, United States_<br>
-Kristi Potter, _National Renewable Energy Laboratory, Golden, CO, United States_<br>
-Paul Rosen, _University of Utah, Salt Lake City, UT, United States_<br>
-David Pugmire, _Oak Ridge National Laboratory, Oak Ridge, TN, United States_<br>
-Antigoni Georgiadou, _Oak Ridge National Laboratory, Oak Ridge, TN, United States_<br>
-Tim Gerrits, _RWTH Aachen University, Aachen, Germany_<br>
-Nadia Boukhelifa, _INRAE, Paris, France_<br>
-
-Contact: Tushar Athawale ([tushar.athawale@gmail.com](mailto:tushar.athawale@gmail.com))
-
-[https://tusharathawale.github.io/uncertainty-vis-workshop-2026/index.html](https://tusharathawale.github.io/uncertainty-vis-workshop-2026/index.html){:target="\_blank"}
-
-Uncertainty visualization has become an increasingly important topic given the ubiquity of noise in data and computational processes.
-This workshop proposal is motivated by the uncertainty visualization challenges identified during the 2024 IEEE Workshop on Uncertainty Visualization.
-Specifically, four research gaps were identified. First, uncertainty must be treated as data in its own right; however, visualization community currently lacks understanding of good ways to model uncertainty and propagate it through complex scientific workflows.
-Second, the use of artificial intelligence (AI) is becoming pervasive across scientific domains; however, it faces a major limitation of trustworthiness of predictions due to uncertainties propagated from the data and AI models.
-Third, there are no standard ways to effectively communicate uncertainty with end users who can be scientific or general audience. Finally, performing decision-making under uncertainty is an open challenge, considering the role of perception, cognition, and user expertise when interpreting uncertainty.
-To tackle the aforementioned challenges, we propose to conduct another workshop on uncertainty visualization at IEEE VIS 2026. In particular, the overarching goal of the workshop is to create a roadmap to tackle the identified uncertainty visualization challenges that are multidisciplinary in nature by fostering interactions among experts from visualization, applications, AI, high-performance computing, applied math, and psychology fields.
-
-## <a name="EduVis"></a> EduVis: 3rd IEEE VIS Workshop on Visualization Education, Literacy, and Activities
-
-Christina Stoiber, _St. Pölten University of Applied Sciences, St. Pölten, Austria_<br>
-Fateme Rajabiyazdi, _Carleton University, Ottawa, Ont, Canada_<br>
-Mandy Keck, _University of Applied Sciences Upper Austria, Hagenberg, Austria_<br>
-Magdalena Boucher, _St. Pölten University of Applied Sciences, St. Pölten, Austria_<br>
-Jonathan C. Roberts, _Bangor University, Bangor, United Kingdom_<br>
-Lonni Besançon, _Linköping University, Linköping, Sweden_<br>
-Mathis Brossier _Linköping University, Linköping, Sweden_<br>
-Benjamin Bach _Inria, Bordeaux, France_<br>
-
-Contact: Christina Stoiber ([christina.stoiber@fhstp.ac.at](mailto:christina.stoiber@fhstp.ac.at))
-
-[https://ieee-eduvis.github.io/](https://ieee-eduvis.github.io/){:target="\_blank"}
-
-This is the 3rd workshop on visualization education, literacy, and activities; after a succession of several successful workshops in 2023 and 2024 (30-50 people and 15-20 submissions annually).
-This workshop aims to become the primary forum to share and discuss advances, challenges, and methods at the intersection of visualization and education.
-It addresses an interdisciplinary audience from and beyond visualization, education, learning analytics, science communication, arts and design, psychology, or people from adjacent fields such as data science and HCI.
-In its 3rd edition, we introduce annual spotlight topics, with this year's topic being Modalities of learning and engaging. This also includes topics of education for visualization (ed4vis) as well as visualization for education (vis4ed).
-We will pursue the \textbf{`educators reports'} track, which will be published in the Nightingale Magazine, and offer a paper track to be published in the IEEE Xplore library.
-
-## <a name="TopoInVis"></a> Workshop on Topological Data Analysis and Visualization (TopoInVis)
-
-Divya Banesh, _Los Alamos National Laboratory, Los Alamos, NM, United States_<br>
-Federico Iuricich, _Clemson University, Clemson, SC, United States_<br>
-
-Contact: Divya Banesh ([dbanesh@lanl.gov](mailto:dbanesh@lanl.gov))
-
-[https://topoinvis-workshop.github.io/2026/](https://topoinvis-workshop.github.io/2026/){:target="\_blank"}
-
-Topologically-driven visualization is an important part of the visualization and application community with far-reaching impact.
-We propose the inclusion of a Topology in Visualization~(TopoInVis) workshop to bring together practitioners in core topology, topological data analysis and applications of topology from communities including computer science, statistics and the applied sciences.
-
-## <a name="LDAV"></a> LDAV 2026 - The 15th IEEE Workshop on Large Data Analysis & Visualization
-
-Steffen Frey, _University of Groningen, Groningen, The Netherlands_<br>
-Silvio Rizzi, _Argonne National Laboratory, Lemont, IL, United States_<br>
-Gunther H. Weber, _Lawrence Berkeley National Laboratory, Berkeley, CA, United States_<br>
-
-Contact: Gunther H. Weber ([ghweber@lbl.gov](mailto:ghweber@lbl.gov))
-
-[https://ldav.io/2026/](https://ldav.io/2026/){:target="\_blank"}
-
-The LDAV workshop continues to bring together researchers and practitioners from academia, industry, and government and specifically targets methodological innovation, algorithmic foundations, and possible end-to-end solutions for the visualization and analysis of extremely large data sets.
-It is intended as a platform to serve the needs of the large data visualization community, fostering common ground for discovering, discussing, and solving both near- and long-term problems surrounding this topic.
-
-## <a name="VIS4DH"></a> 9th Workshop on Visualization for the Digital Humanities: VIS4DH ↔ DH4VIS
-
-Alfie Abdul-Rahman, _King's College London, London, United Kingdom_<br>
-Mark-Jan Bludau, _University of Applied Sciences Potsdam, Potsdam, Germany_<br>
-Eva Mayr, _University for Continuing Education, Krems, Austria_<br>
-Tomas Vancisin, _School of Law, Edinburgh, United Kingdom_<br>
-Monika M. Schwarz, _Monash University, Melbourne, Australia_<br>
-Uta Hinrichs, _University of Edinburgh, Edinburgh, United Kingdom_<br>
-Florian Windhager, _University for Continuing Education, Krems, Austria_<br>
-
-Contact: Alfie Abdul-Rahman ([alfie.abdulrahman@gmail.com](mailto:alfie.abdulrahman@gmail.com))
-
-[https://vis4dh.dbvis.de/](https://vis4dh.dbvis.de/){:target="\_blank"}
-
-Following up on eight successful VIS4DH workshops, we propose the 9th workshop on Visualization for the Digital Humanities, co-located at IEEE VIS 2026 in Vienna, Austria.
-With VIS4DH, over the past decade, we have established a unique platform to present and discuss emerging topics at the intersection of the humanities, digital humanities (DH), and visualization research.
-With 70+ attendees on avg., all workshops - including the virtual ones - were well-received and have been drawing humanities researchers toward the VIS conference.
-This proposed workshop - VIS4DH'25 - will continue and intensify this interdisciplinary exchange between scholars and practitioners from the humanities and visualization, actively addressing the question of how research at the intersection of related disciplines impacts the involved fields.
-
-## <a name="MERCADO"></a> The 2nd MERCADO Workshop at IEEE VIS 2026: Multimodal Experiences for Remote Communication Around Data Online
-
-Wolfgang Büschel, _University of Stuttgart, Stuttgart, Germany_<br>
-Gabriela Molina León, _Aarhus University, Aarhus, Denmark_<br>
-Arnaud Prouzeau, _Université Paris-Saclay, Paris, France_<br>
-Mahmood Jasim, _Louisiana State University, Baton Rouge, LA, United States_<br>
-Christophe Hurter, _Université de Toulouse, Toulouse, France_<br>
-Maxime Cordeil, _The University of Queensland, Brisbane, Australia_<br>
-Matthew Brehmer, _University of Waterloo, Waterloo, Ont., Canada_<br>
-
-Contact: Wolfgang Büschel ([bueschel@acm.org](mailto:bueschel@acm.org))
-
-[https://sites.google.com/view/mercadoworkshop/vis2026](https://sites.google.com/view/mercadoworkshop/vis2026){:target="\_blank"}
-
-We propose a half-day workshop at IEEE VIS 2026 on addressing the emerging challenges in data-rich multimodal remote collaboration.
-We focus on synchronous, remote, and hybrid settings where people take part in tasks such as data analysis, decision-making, and presentation. With this workshop, we continue successful prior work from the first MERCADO workshop at VIS 2023 and a 2024 Shonan Seminar that followed.
-Based on the findings of the earlier events, we invite research and ideas related to four themes of challenges: Tools & Technologies, Individual Differences & Interpersonal Dynamics, AI-assisted Collaboration, and Evaluation.
-With this workshop, we aim to broaden the community, foster new collaborations, and develop a research agenda to address these challenges in future research. Our planned workshop format is comprised of a keynote, short presentations, a breakout group session, and discussions organized around the identified challenges.
-
-## <a name="InputVis"></a> Envisioning a Research Agenda for Input Visualization (Full Day)
-
-Nathalie Bressa, _Institut Polytechnique de Paris, Paris, France_<br>
-Samuel Huron, _Institut Polytechnique de Paris, Paris, France_<br>
-Wesley Willett, _University of Calgary, Calgary, Alb., Canada_<br>
-Evanthia Dimara, _Utrecht University, Utrecht, The Netherlands_<br>
-Kim Sauvé, _University of the West of England, Bristol, United Kingdom_<br>
-Derya Akbaba, _Linköping University, Norrköping, Sweden_<br>
-
-Contact: Nathalie Bressa ([nathalie.bressa@gmail.com](mailto:nathalie.bressa@gmail.com))
-
-[https://inputvisualization.github.io/vis2026/](https://inputvisualization.github.io/vis2026/){:target="\_blank"}
-
-Input visualization - visual representations that are designed to collect (and represent) new data rather than encode preexisting datasets - provides a new lens for direct interactions with data through visualizations and physicalizations.
-In stark contrast to existing conceptual models, input visualization recognizes the malleable, incomplete, and context-dependent nature of data, and highlights opportunities for new collaboration and thinking tools that increase users' agency while inverting the traditional power dynamics of data production.
-The input visualization paradigm opens up new opportunities for data analysis, digital civics, decision making, personal informatics, data discussion, planning, organization, and more.
-However, despite nascent research on data input in information visualization, there is a lack of understanding of the phenomenon broadly and the implications for designing new input visualization systems. In this workshop, we aim to gather the visualization, physicalization, and human-computer interaction community to establish a research agenda for input visualization and outline the challenges and opportunities offered by this approach.
-
-## <a name="immersive"></a> Human Factors in Immersive Analytics
-
-Yi Li, _TU Wien, Vienna, Austria_<br>
-Kadek Ananta, Satriadi _Monash University, Melbourne, Australia_<br>
-Jiazhou Liu, _Monash University, Melbourne, Australia_<br>
-Anjali Khurana, _Simon Fraser University, Burnaby, BC, Canada_<br>
-Zhiqing Wu, _The Hong Kong University of Science and Technology, Guangzhou, Guangdong, China_<br>
-Benjamin Tag, _University of New South Wales, Sydney, Australia_<br>
-Tim Dwyer, _Monash University, Melbourne, Australia_<br>
-
-Contact: Yi Li ([hfiaworkshop@gmail.com](mailto:hfiaworkshop@gmail.com))
-
-[https://sites.google.com/monash.edu/hfia-workshop](https://sites.google.com/monash.edu/hfia-workshop){:target="\_blank"}
-
-It has been ten years since the term ''Immersive Analytics'' (IA) was coined and research interest in the topic remains strong.
-Researchers in this field have produced practical and conceptual knowledge concerning the use of emerging immersive spatial display and interaction technologies for sense-making tasks through a number of papers, surveys, and books.
-However, a lack of truly physically and psychologically ergonomic techniques, as well as standardized human-centric validation protocols for these, remains a significant barrier to wider acceptance of practical IA systems in ubiquitous applications.
-Building upon a series of workshops on immersive analytics at various conferences, this workshop aims to explore new approaches and establish standard practices for evaluating immersive analytics systems from a _human factors_ perspective.
-We will gather immersive analytics researchers and practitioners to look closely at these human factors---including cognitive and physical functions as well as behaviour and performance - to see how they inform the design and deployment of immersive analytics techniques and applications and to inform future research.
-
-## <a name="AccessViz"></a> AccessViz: 2nd Workshop on Accessible Data Visualization
-
-Brianna Wimer, _University of Notre Dame, Notre Dame, IN, United States_<br>
-Naimul Hoque, _University of Iowa, Iowa City, IA, United States_<br>
-Pramod Chundury, _University of Maryland, College Park, MD, United States_<br>
-Frank Elavsky, _Carnegie Mellon University, Pittsburgh, PA, United States_<br>
-Dominik Moritz, _Carnegie Mellon University, Pittsburgh, PA, United States_<br>
-Keke Wu, _Emory University, Atlanta, GA, United States_<br>
-Danielle Albers Szafir, _University of North Carolina, Chapel Hill, NC, United States_<br>
-Lucas Gil Nadolskis, _University of California, Santa Barbara, CA, United States_<br>
-Stacy Hsueh, _University of Washington, Seattle, WA, United States_<br>
-
-Contact: Brianna Wimer ([bwimer@nd.edu](mailto:bwimer@nd.edu))
-
-[https://accessviz.github.io/](https://accessviz.github.io/){:target="\_blank"}
-
-The ubiquity of data visualization across various domains—including data science, machine learning, business intelligence, medical science, and education—underscores its critical role in conveying complex information.
-However, it is now well-known that visualizations can create inequitable access to information for people with diverse disabilities, including vision, motor, and cognitive impairments.
-In response, the accessibility and visualization fields have increasingly focused on making data visualizations more accessible.
-Research in this area includes user studies with people with disabilities to understand access barriers, the development of theoretical frameworks, and the design of technical solutions such as autogenerated alt text, sonification, and tactile or physical artifacts.
-Despite these efforts, many visualization tools and interfaces remain inaccessible to users with disabilities.
-Building on the growing interest and persistent challenges at this intersection, this in-person workshop will bring together researchers, practitioners, and members of the disability community on a shared platform to foster community, share innovative discoveries, and envision the future of accessible data visualization research at IEEE VIS.
-The outcome of this workshop will inspire new contributions and help establish a sustained research agenda around accessibility in visualization at IEEE VIS.
-
-## <a name="VAHC"></a> 16th Annual Workshop on Visual Analytics in Healthcare (Full Day)
-
-Alessio Arleo, _Eindhoven University of Technology, Eindhoven, The Netherlands & TU Wien, Vienna, Austria_<br>
-Jürgen Bernard, _University of Zurich, Zurich, Switzerland_<br>
-Annie T. Chen, _University of Washington, Seattle, WA, United States_<br>
-Swaminathan Kandaswamy, _Emory University, Atlanta, GA, United States_<br>
-David Gotz, _University of North Carolina, Chapel Hill, NC, United States_<br>
-Danny T.Y. Wu, _University of Cincinnati, Cincinnati, OH, United States_<br>
-
-Contact: Alessio Arleo PhD ([a.arleo@tue.nl](mailto:a.arleo@tue.nl))
-
-[https://visualanalyticshealthcare.github.io/homepage/2026/](https://visualanalyticshealthcare.github.io/homepage/2026/){:target="\_blank"}
-
-The integration of interactive Visual Analytics (VA) with explainable AI, multimodal data fusion, and privacy-preserving machine learning has become essential for interpreting the growing complexity of healthcare and biomedical data.
-Researchers and practitioners have expanded VA applications beyond traditional clinical decision support to encompass real-time patient monitoring, digital twin simulations, and AI-assisted diagnostics, addressing the needs of clinicians, researchers, policymakers, and patients.
-Since 2013, the VA in Healthcare (VAHC) workshop has been a key venue for interdisciplinary collaboration, adapting to rapid advancements in AI-driven and patient-centered healthcare.
-At VIS 2026, the workshop will continue to foster knowledge exchange by showcasing novel research, interactive demonstrations, and discussions on emerging challenges such as trustworthy AI in medical applications, federated data visualization, immersive analytics for surgical planning, large language model support, and equitable AI-driven decision-making.
-By bringing together experts from diverse fields, VAHC 2026 will serve as a catalyst for advancing the role of VA in shaping the future of intelligent, ethical, and human-centered healthcare.
-
-## <a name="VISxAI"></a> 8th Workshop on Visualization for AI Explainability (VISxAI) (Full Day)
-
-Angie Boggust, _MIT CSAIL, Cambridge, MA, United States_<br>
-Mennatallah El-Assady, _ETH AI Center, Zurich, Switzerland_<br>
-Alex Bäuerle, _AxiomBio, San Francisco, CA, United States_ <br>
-Catherine Yeh, _Harvard University, Cambridge, MA, United States_<br>
-Fred Hohman, _Apple, Cupertino, CA, United States_<br>
-Hendrik Strobelt, _IBM Research, Cambridge, MA, United States & MIT-IBM Watson AI Lab, Cambridge, MA, United States_<br>
-
-Contact: Alex Bäuerle ([bauerlealex@gmail.com](mailto:bauerlealex@gmail.com))
-
-[https://visxai.io/](https://visxai.io/){:target="\_blank"}
-
-The VISxAI workshop, throughout its past six iterations, has been a platform for knowledge exchange between researchers with different backgrounds interested in explaining machine learning models through visualization.
-Its focus on explainables submissions that visually and interactively explain machine learning concepts ranges in complexity from clustering methods to algorithmic biases.
-These explainables have served as educational resources that have had an impact beyond the academic community.
-The workshop also always hosted great keynote speakers that connected the domains of visualization and state-of-the-art machine learning and explored the impact visualization can have on explainability.
-For this upcoming iteration of VISxAI, our goal is to combine the success of interactive explainables and great presentations with the interactivity of breakout sessions and live demos.
-Participants will be encouraged to exchange ideas about the future of visual explainability, interactive articles, and explorable explanations.
-Furthermore, we will provide a platform for new visualization and interaction ideas that explain machine learning models.
-
-## <a name="VISxGenAI"></a> VISxGenAI: 1st Workshop on GenAI, Agents, and the Future of VIS (Full Day)
-
-Zhu-Tian Chen, _University of Minnesota, Minneapolis, MN, United States_<br>
-Shivam Raval, _Harvard University, Cambridge, MA, United States_<br>
-Enrico Bertini, _Northeastern University, Boston, MA, United States_<br>
-Trevor DePodesta, _Harvard University, Cambridge, MA, United States_<br>
-Niklas Elmqvist, _Aarhus University, Aarhus, Denmark_<br>
-Nam Wook Kim, _Boston College, Chestnut Hill, MA, United States_<br>
-Pranav Rajan, _KTH Royal Institute of Technology, Stockholm, Sweden_<br>
-Renata G. Raidou, _TU Wien, Vienna, Austria_<br>
-Emily Reif, _Google Research & University of Washington, Seattle, WA, United States_<br>
-Olivia Seow, _Harvard University, Cambridge, MA, United States_<br>
-Qianwen Wang, _University of Minnesota, Minneapolis, MN, United States_<br>
-Yun Wang, _Microsoft Research, Redmond, WA, United States_<br>
-Catherine Yeh, _Harvard University, Cambridge, MA, United States_<br>
-
-Contact: [visxgenai@ieeevis.org](mailto:visxgenai@ieeevis.org)
-
-[https://visxgenai.github.io/](https://visxgenai.github.io/){:target="\_blank"}
-
-Generative AI (GenAI) is transforming the landscape of artificial intelligence—not just in scale but in kind.
-Unlike traditional AI, GenAI introduces unique challenges for interpretability and safety, as its tens of billions of parameters and emergent behaviors demand new ways to understand, debug, and visualize model internals and their outputs.
-At the same time, GenAI enables agentic systems—goal-driven, autonomous agents that can reason, act, and adapt across complex tasks, raising a critical question: Will AI agents eventually replace human data scientists and researchers, and if not, how might they best collaborate?
-This one-day workshop brings together visualization, HCI, and AI researchers to explore how GenAI impacts the future of visualization.
-We focus on new challenges and opportunities, including interpreting and visualizing large-scale foundation models, designing visual tools both for and with agents, and rethinking evaluation, education, and human–AI collaboration in the age of generative intelligence.
-Through a mix of keynote talks, paper presentations and demos, and a mini-challenge of Agents for VIS, the workshop invites researchers and practitioners to share innovative ideas, build community, and discuss strategies to shape the role of VIS for a future where human and GenAI co-exist.
-
-## <a name="VisComm"></a> Seventh Workshop on Visualization for Communication (VisComm)
-
-Alvitta Ottley, _Washington University, St. Louis, MO, United States_<br>
-Paul C Parsons, _Purdue University, West Lafayette, IN, United States_<br>
-Jon Schwabish, _Georgetown University, Washington, DC, United States_<br>
-
-Contact: Alvitta Ottley ([alvitta@wustl.edu](mailto:alvitta@wustl.edu))
-
-[https://www.viscomm.io/](https://www.viscomm.io/){:target="\_blank"}
-
-This half-day workshop brings together researchers and practitioners from across disciplines to explore the evolving landscape of communicative visualization.
-Now in its seventh year (2018–2023), VisComm has consistently drawn vibrant, cross-sector participation and sparked conversations that extend beyond the event.
-This year, we focus on deepening our understanding of current design practices and strengthening collaboration between research and practice.
-Our goal is to advance the creation of visualizations that are aesthetically compelling, functionally robust, trustworthy, and grounded in empirical evidence.
-To encourage participation from communities that do not typically attend IEEE VIS or write academic papers, we will invite various submission types, including short papers, work-in-progress briefs, visual case studies, and recruit program committee members from diverse communities.
-This year, we especially welcome contributions related to visualization style guides and how they are developed, used, and evaluated.
-By bringing together diverse perspectives on these guides, we aim to surface practical insights and build toward evidence-based recommendations that are both relevant and actionable.
+During the workshop, participants will have the opportunity to learn about successful experiences directly from members of the research community, and partake in active discussions surrounding methods and approaches adopted in EUD practices. -->

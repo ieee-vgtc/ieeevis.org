@@ -57,9 +57,12 @@ menu:
                   - text: "Tutorials"
                     url: "/info/call-participation/tutorials"
                     is_new: false
-                  - text: "Workshops"
+                  - text: "Workshop Proposals"
                     url: "/info/call-participation/workshops"
                     is_new: false
+                  - text: "Workshop Papers"
+                    url: "/info/program/workshops"
+                    is_new: true
                   - text: "Panels"
                     url: "/info/call-participation/panels"
                     is_new: false

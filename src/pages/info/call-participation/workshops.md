@@ -7,6 +7,8 @@ sidebar: call-for-participation
 contact: workshops@ieeevis.org
 ---
 
+_Are you looking for the list of workshops? If so, [go here](/info/program/workshops)._
+
 We solicit workshops related to all areas of visualization. They provide a forum for IEEE VIS for participants to advance cutting-edge research concerns, foster a community around emerging topics, engage experts in the field, disseminate work in progress, and promote new ideas. Workshops at IEEE VIS are free to attend by all registered attendees; “invitation only” workshops will not be approved.
 
 ## Important Dates
