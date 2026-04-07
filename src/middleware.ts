@@ -34,7 +34,7 @@ export const onRequest: MiddlewareHandler = async (context, next) => {
         : "script-src 'self'",
 
       // NETWORK (HMR, APIs, etc.)
-      isDev ? "connect-src 'self' ws: http:" : "connect-src 'self'",
+      isDev ? "connect-src 'self' ws: http: https:" : "connect-src 'self'",
 
       // Enforce HTTPS in prod only
       !isDev && "upgrade-insecure-requests",
@@ -53,6 +53,11 @@ export const onRequest: MiddlewareHandler = async (context, next) => {
       max_age: 10886400,
       endpoints: [{ url: import.meta.env.CSP_REPORT_TO }],
     }),
+  );
+
+  response.headers.set(
+    "Reporting-Endpoints",
+    `csp-endpoint="${import.meta.env.CSP_REPORT_TO}"`,
   );
 
   return response;
