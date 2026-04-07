@@ -60,8 +60,6 @@ active_nav: "Organization & History"
 | Soumya Dutta                              | _Indian Institute of Technology Kanpur, India_               |
 | Qianwen Wang                              | _University of Minnesota_                                    |
 |                                           |                                                              |
-| **Open Practices Chairs**                 |                                                              |
-|                                           |                                                              |
 | **Workshop Chairs**                       |                                                              |
 | Ana Crisan                                | _University of Waterloo_                                     |
 | Tim Gerrits                               | _RWTH Aachen University_                                     |
@@ -72,14 +70,12 @@ active_nav: "Organization & History"
 | Weidi Zhang                               | _Arizona State University_                                   |
 | Sarah Williams                            | _Massachusetts Institute of Technology_                      |
 |                                           |                                                              |
-| **Vis in Practice Chairs**                |                                                              |
-|                                           |                                                              |
 | **Doctoral Colloquium Chairs**            |                                                              |
 | Michael Correll                           | _Northeastern University_                                    |
 | Michael Behrisch                          | _Utrecht University_                                         |
 | Cindy Xiong                               | _Georgia Institute of Technology_                            |
 |                                           |                                                              |
-| **Publication Chairs**                    |                                                              |
+| **Publication & Open Practices Chairs**   |                                                              |
 | Minsuk Kahng                              | _Yonsei University_                                          |
 | Devin Lange                               | _University of Utah_                                         |
 | Sungahn Ko                                | _POSTECH_                                                    |
@@ -139,6 +135,8 @@ active_nav: "Organization & History"
 | Patrick Paetzold                          | _University of Konstanz_                                     |
 |                                           |                                                              |
 | **VAST Challenge Chairs**                 |                                                              |
+| Steve Gomez                               | _MIT Lincoln Laboratory_                                     |
+| Joseph Cottam                             | _Pacific Northwest National Laboratory_                      |
 |                                           |                                                              |
 | **SciVis Contest Chairs**                 |                                                              |
 | Valerio Pascucci                          | _University of Utah_                                         |
