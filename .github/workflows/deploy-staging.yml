@@ -8,6 +8,7 @@ on:
 env:
   BASE_PATH: "/year/2026" # we are ONLY deploying to this base path, do not add a trailing slash
   CLOUDFRONT_DISTRIBUTION_ID: ${{ secrets.AWS_DISTRIBUTION_ID_STAGING }}
+  CSP_REPORT_TO: ${{ secrets.CSP_REPORT_TO }}
   ENV: "staging"
   SITE: "https://staging.ieeevis.org"
 jobs:
