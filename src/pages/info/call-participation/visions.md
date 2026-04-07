@@ -25,7 +25,7 @@ Submissions should aim to start a meaningful and well-informed discussion about 
 ## **Submission Information**
 
 - 1 page abstract (not including references) in the [VGTC conference two-column format](https://tc.computer.org/vgtc/publications/conference/).
-- Single-authored encouraged by not required. Not-anonymous, so please include the author’s name and affiliation(s) as part of the submission.
+- Single-authored encouraged but not required. Not-anonymous, so please include the author’s name and affiliation(s) as part of the submission.
 - Please submit your VISion through [PCS (IEEE VIS Visions)](https://new.precisionconference.com/). After logging into PCS, start your submission by selecting “VGTC \> VIS 2026 \> VIS VISions 2026”.
 - Non-archival. Ideas presented as a VISion can be resubmitted as a full paper in subsequent years.
 - VISion abstracts (but not the presentation slides) will be included as part of the conference proceedings.
