@@ -87,7 +87,7 @@ menu:
                     url: "/info/call-participation/partnerships"
                     is_new: false
                   - text: "Open Practices"
-                    url: "/info/open-practices/"
+                    url: "/info/open-practices/open-practices"
                     is_new: false
                   - text: "Review Instructions"
                     url: "/info/call-participation/review-instructions"
