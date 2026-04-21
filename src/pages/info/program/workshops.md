@@ -187,15 +187,15 @@ Topological methods are playing an increasingly important role across visualizat
 ## <a name="uncertainty-vis"></a> Uncertainty Visualization: How to Make it Interpretable, Integrable, and Accessible?
 
 Organizers:
-Timbwaoa A. J. Ouermi (SCI Institute, University of Utah)<br>
+Timbwaoga A. J. Ouermi (SCI Institute, University of Utah)<br>
 Tushar M. Athawale (Oak Ridge National Laboratory)<br>
 Chris R. Johnson (SCI Institute, University of Utah)<br>
 Kristi Potter (National Laboratory of the Rockies)<br>
 Paul Rosen (SCI Institute, University of Utah)<br>
 Dave Pugmire (Oak Ridge National Laboratory)<br>
-Antigoni Georgiadou (Oak Ridge National National Laboratory)<br>
+Antigoni Georgiadou (Oak Ridge National Laboratory)<br>
 Tim Gerrits (RWTH Aachen University)<br>
-Nadia Boukhelifa (INRAE, University Paris-Scalay)<br>
+Nadia Boukhelifa (INRAE, University Paris-Saclay)<br>
 
 Contact: Timbwaoga Ouermi ([touermi@sci.utah.edu](mailto:touermi@sci.utah.edu))  
 Website: [https://tusharathawale.github.io/uncertainty-vis-workshop-2026/index.html](https://tusharathawale.github.io/uncertainty-vis-workshop-2026/index.html)
