@@ -110,22 +110,22 @@ menu:
           - heading: "Code of Conduct"
             description: "The IEEE VIS Code of Conduct"
             heading_url: "/info/inclusion/code-of-conduct"
-          # - subsections:
-          #     - heading: "Get Involved"
-          #       columns:
-          #         - links:
-          #             - text: "Organize a meetup"
-          #               description: "Meet people for discussion and shared experiences"
-          #               url: "/info/call-participation/meetups"
-          #               is_new: false
-          #             - text: "Student volunteer information"
-          #               description: "SVs support the conference and build your research network"
-          #               url: "https://vissv.github.io/"
-          #               is_external: true
-          #                  - text: "Become a peer reviewer"
-          #                    description: "Volunteer to review submissions in Precision Conference Solutions (PCS)"
-          #                    url: "https://new.precisionconference.com/review_volunteering"
-          #                    is_external: true
+      - subsections:
+          - heading: "Get Involved"
+            columns:
+              - links:
+                  # - text: "Organize a meetup"
+                  #   description: "Meet people for discussion and shared experiences"
+                  #   url: "/info/call-participation/meetups"
+                  #   is_new: false
+                  - text: "Student volunteer information"
+                    description: "SVs support the conference and build your research network"
+                    url: "https://vissv.github.io/"
+                    is_external: true
+                  # - text: "Become a peer reviewer"
+                  #   description: "Volunteer to review submissions in Precision Conference Solutions (PCS)"
+                  #   url: "https://new.precisionconference.com/review_volunteering"
+                  #   is_external: true
           # - text: "Elections"
           #   description: "Register to vote and nominate/review candidates for the VSC/VEC"
           #   url: "/info/elections"
