@@ -149,6 +149,7 @@ Joyce Robbins, Columbia University, New York, New York, United States<br>
 Evangeline Reynolds, University of Denver, Denver, Colorado, USA<br>
 
 Contact: Cynthia Huang ([cynthia.huang@lmu.de](mailto:cynthia.huang@lmu.de))
+Website: [https://gugog-vis.github.io/2026/](https://gugog-vis.github.io/2026/)
 
 Following Wilkinson’s seminal “Grammar of Graphics” (2005), visualization communities in both statistics and computer science have developed various grammar-based approaches to visualization problems, workflows and usage scenarios. While this diversity reflects the richness of visualization challenges, it also reveals fundamental questions: Why do these grammars differ? What core principles unite them? What opportunities exist for synthesis? Which properties make a visualization system a ‘graphical grammar’? Despite scattered attempts to survey and understand diversity in grammar based systems, we lack systematic frameworks for understanding how these grammars relate, where they succeed or struggle, and what a more unified theoretical foundation might look like. The first workshop for a grand unified grammar of graphics (GUGOG) aims to facilitate interdisciplinary discussion and exploration of these open questions. We invite reflections on past work and recent developments in visualization grammars, synthesis of parallel and overlapping contributions across statistical graphics and information visualization communities, and visions for the future of grammar-based visualization research.
 
