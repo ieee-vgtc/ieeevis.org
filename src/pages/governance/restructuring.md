@@ -13,8 +13,7 @@ The VIS Restructuring Committee was tasked in 2016 by the VEC (VIS Executive Com
 - [VIS Restructuring Feedback, January 2018](/year/2026/governance/1801-Restructuring-Feedback.pdf)
 - [VIS Restructuring Report ("Phoenix Report"), Fall 2017](/year/2026/governance/170925-Restructuring-Slides.pdf)
 
-**Committee Members**: Hanspeter Pfister (chair), Hans Hagen, Daniel Keim, Tamara Munzner, Stephen
-North
+**Committee Members**: Hanspeter Pfister (chair), Hans Hagen, Daniel Keim, Tamara Munzner, Stephen North
 
 The VIS Restructuring Committee has concluded its work and has spawned new committees with a more specific mandate in 2019.
 
