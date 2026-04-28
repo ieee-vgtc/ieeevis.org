@@ -144,4 +144,4 @@ active_nav: "Organization & History"
 | Aashish Panta                             | _University of Utah_                                         |
 |                                           |                                                              |
 | **IEEE**                                  |
-| Kathy Park                                | _IEEE Computer Society_                                      |
+| Coral Miller                              | _IEEE Computer Society_                                      |
