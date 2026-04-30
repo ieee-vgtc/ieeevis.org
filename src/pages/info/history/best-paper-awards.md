@@ -9,6 +9,108 @@ This page lists the IEEE VIS awards for the best full and short papers, honorabl
 
 <!-- ---------------------------------------------------------------------------------- -->
 
+## 2025
+
+### Best Papers
+
+Areen Khalaila, Lane Harrison, Nam Wook Kim, & Dylan Cashman
+**“They Aren’t Built For Me”: An Exploratory Study of Strategies for Measurement of Graphical Primitives in Tactile Graphics**
+[10.1109/tvcg.2025.3633881](https://doi.org/10.1109/tvcg.2025.3633881)
+
+Zach Cutler, Jack Wilburn, Hilson Shrestha, Yiren Ding, Brian Bollen, Khandaker Abrar Nadib, Tingying He, Andrew McNutt, Lane Harrison, & Alexander Lex
+**ReVISit 2: A Full Experiment Life Cycle User Study Framework**
+[10.1109/tvcg.2025.3633896](https://doi.org/10.1109/tvcg.2025.3633896)
+
+Paul Parsons & Prakash Chandra Shukla
+**Beyond Problem Solving: Framing and Problem–Solution Co-Evolution in Data Visualization Design**
+[10.1109/tvcg.2025.3633866](https://doi.org/10.1109/tvcg.2025.3633866)
+
+Renzhong Li, Yuchen Lin, Shuainan Ye, Buwei Zhou, Zhining Kang, Tai-Quan Peng, Wenhao Fu, Yingcai Wu, & Tan Tang
+**Causality-based Visual Analytics of Sentiment Contagion in Social Media Topics**
+[10.1109/tvcg.2025.3633839](https://doi.org/10.1109/tvcg.2025.3633839)
+
+Kuangshi Ai, Kaiyuan Tang, & Chaoli Wang
+**SNLI4VolVis: Natural Language Interaction for Volume Visualization via LLM Multi-Agents and Editable 3D Gaussian platting**
+[10.1109/tvcg.2025.3633888](https://doi.org/10.1109/tvcg.2025.3633888)
+
+### Best Papers Honorable Mentions
+
+Haoxuan Li, Zhen Wen, Qiqi Jiang, Chenxiao Li, Yuwei Wu, Yuchen Yang, Yiyao Wang, Xiuqi Huang, Minfeng Zhu, & Wei Chen
+**ConceptViz: A Visual Analytics Approach for Exploring Concepts in Large Language Models**
+[10.1109/tvcg.2025.3634806](https://doi.org/10.1109/tvcg.2025.3634806)
+
+Shaolun Ruan, Rui Sheng, Xiaolin Wen, Jiachen Wang, Tianyi Zhang, Yong Wang, Tim Dwyer, & Jiannan Li
+**Qualitative Study for LLM-assisted Design Study Process: Strategies, Challenges, and Roles**
+[10.1109/tvcg.2025.3634820](https://doi.org/10.1109/tvcg.2025.3634820)
+
+Chongke Bi, Xin Gao, Jiakang Deng, Guan Li, & Jun Han
+**CD-TVD: Contrastive Diffusion for 3D Super-Resolution with Scarce High-Resolution Time-Varying Data**
+[10.1109/tvcg.2025.3634787](https://doi.org/10.1109/tvcg.2025.3634787)
+
+Xingdi Zhang, Amani Ageeli, Thomas Theußl, Markus Hadwiger, & Peter Rautek
+**Exploring 3D Unsteady Flow using 6D Observer Space Interactions**
+[10.1109/tvcg.2025.3642506](https://doi.org/10.1109/tvcg.2025.3642506)
+
+Halle Braun, Kushin Mukherjee, Seth Gorelik, & Karen Schloss
+**Affective color scales for colormap data visualizations**
+[10.1109/TVCG.2025.3634775](https://doi.org/10.1109/TVCG.2025.3634775)
+
+Catherine Yeh, Tara Menon, Robin Singh Arya, Helen He, Moira Weigel, Fernanda Viegas, & Martin Wattenberg
+**Story Ribbons: Reimagining Storyline Visualizations with Large Language Models**
+[10.1109/tvcg.2025.3634265](https://doi.org/10.1109/tvcg.2025.3634265)
+
+Tommaso Piselli, Giuseppe Liotta, Fabrizio Montecchiani, Martin Nöllenburg, & Sara Di Bartolomeo
+**F^2Stories: A Modular Framework for Multi-Objective Optimization of Storylines with a Focus on Fairness**
+[10.1109/tvcg.2025.3634228](https://doi.org/10.1109/tvcg.2025.3634228)
+
+Thomas Daniel, Malgorzata Olejniczak, & Julien Tierny
+**BondMatcher: H-Bond Stability Analysis in Molecular Systems**
+[10.1109/tvcg.2025.3634636](https://doi.org/10.1109/tvcg.2025.3634636)
+
+Arran Zeyu Wang, Ghulam Jilani Quadri, Mengyuan Zhu, Chin Tseng, & Danielle Szafir
+**Characterizing Visualization Perception with Psychological Phenomena: Uncovering the Role of Subitizing in Data Visualization**
+[10.1109/tvcg.2025.3634807](https://doi.org/10.1109/tvcg.2025.3634807)
+
+Haihan Lin, Maxim Lisnic, Derya Akbaba, Miriah Meyer, & Alexander Lex
+**Here’s what you need to know about my data: Exploring Expert Knowledge’s Role in Data Analysis**
+[10.1109/TVCG.2025.3634821](https://doi.org/10.1109/TVCG.2025.3634821)
+
+Valentin Edelsbrunner, Jinrui Wang, Alexis Pister, Tomas Vancisin, Sian Phillips, Min Chen, & Benjamin Bach
+**Visualization Badges: Communicating Design and Provenance through Graphical Labels Alongside Visualizations**
+[10.1109/tvcg.2025.3634782](https://doi.org/10.1109/tvcg.2025.3634782)
+
+Amy Fox, Michelle Morgenstern, Graham Jones, & Arvind Satyanarayan
+**Quantifying Visualization Vibes: Measuring Socio-Indexicality at Scale**
+[10.1109/tvcg.2025.3634819](https://doi.org/10.1109/tvcg.2025.3634819)
+
+### Best Short Papers
+
+Alex Kale
+**Toward a Logic of Generalization about Visualization as a Decision Aid**
+[10.1109/vis60296.2025.00005](https://doi.org/10.1109/vis60296.2025.00005)
+
+Ridwan Mahbub, Mohammed Saidul Islam, Md Tahmid Rahman Laskar, Mizanur Rahman, Mir Tafseer Nayeem, and Enamul Hoque
+**The Perils of Chart Deception: How Misleading Visualizations Affect Vision-Language Models**
+[10.1109/vis60296.2025.00006](https://doi.org/10.1109/vis60296.2025.00006)
+
+### Best Short Paper Honorable Mentions
+
+Jessica Bou Nassar, Yu Xuan Yio, Nethara Athukorala, Simran, Songhai Fan, Cynthia A. Huang, Lyn Bartram, Tim Dwyer, & Sarah Goodwin
+**Out of the Loop: Enhancing Documentation and Transparency in Causal Loop Diagrams to Capture Multiple Perspectives**
+[10.1109/vis60296.2025.00028](https://doi.org/10.1109/vis60296.2025.00028)
+
+Matte Lim, Catherine Yeh, Martin Wattenberg, Fernanda Viegas, & Panagiotis Michalatos
+**Chronotome: Real-Time Topic Modeling for Streaming Embedding Spaces**
+[10.1109/vis60296.2025.00042](https://doi.org/10.1109/vis60296.2025.00042)
+
+Ron Pechuk & Jeffrey Heer
+**Publish-Time Optimizations for Web-Based Visualizations**
+[10.1109/vis60296.2025.00051](https://doi.org/10.1109/vis60296.2025.00051)
+
+Lena Cibulski & Stefan Bruckner
+**Towards Understanding Decision Problems as a Goal of Visualization Design**
+[10.1109/vis60296.2025.00059](https://doi.org/10.1109/vis60296.2025.00059)
+
 ## 2024
 
 ### Best Papers

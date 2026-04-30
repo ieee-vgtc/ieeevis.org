@@ -50,7 +50,7 @@ This page provides detailed instructions for both PC reviewers and external revi
 
 At the bottom, you can change your affiliation and if necessary, click “Add one” to add an additional one.
 
-**You will need to update your expertise in PCS if you have not already done so**. Please read through the [summary of the keywords](paper-keywords), which includes instructions for reviewers on how to select for expertise. If you do not enter your areas of expertise you will have all matching scores set to -1 during the bidding phase, which will greatly impact suggestions of interesting papers for you to bid on. The matching scores are calculated manually by the OPCs once before bidding starts and if you are late you will have to wait for them to do this step again at a later point in time. Therefore, it is important that you enter your expertise _before the abstract deadline_.
+**You will need to update your expertise in PCS if you have not already done so**. Please read through the [summary of the keywords](../paper-keywords), which includes instructions for reviewers on how to select for expertise. If you do not enter your areas of expertise you will have all matching scores set to -1 during the bidding phase, which will greatly impact suggestions of interesting papers for you to bid on. The matching scores are calculated manually by the OPCs once before bidding starts and if you are late you will have to wait for them to do this step again at a later point in time. Therefore, it is important that you enter your expertise _before the abstract deadline_.
 
 **IMPORTANT**: please make sure that you have no keyword left empty; i.e., each keyword is set to either expert, competent, limited, or none.
 
@@ -204,7 +204,7 @@ Primaries: For each of the papers for which you are the primary reviewer and tha
 
 At the bottom, you can change your affiliation and if necessary, click “Add one” to add an additional one.
 
-Please read through the [summary of the keywords](paper-keywords), which includes instructions for reviewers on how to indicate their levels of expertise. Make sure to update your areas of expertise by the deadline above so that the program committee can take them into account during the reviewer assignment period.
+Please read through the [summary of the keywords](../paper-keywords), which includes instructions for reviewers on how to indicate their levels of expertise. Make sure to update your areas of expertise by the deadline above so that the program committee can take them into account during the reviewer assignment period.
 
 1. Log onto the [PCS system](https://new.precisionconference.com/).
 2. Go to the Reviews tab.

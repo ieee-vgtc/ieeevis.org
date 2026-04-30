@@ -14,7 +14,7 @@ Through a six-day program of workshops and tutorials, exposition, panels, poster
 
 # How to Support
 
-**>> [Browse our support options in the prospectus](/year/2026/assets/IEEE-VIS-2025-Supporters-Prospectus.pdf) <<**
+**>> [Browse our support options in the prospectus](https://drive.google.com/file/d/1yrQyhnUtvYDoFOUpiW4bumODHaNsTmnK/view) <<**
 
 **>> Contact the IEEE VIS Supporters Chairs [<supporters@ieeevis.org>](mailto:supporters@ieeevis.org) <<**
 
