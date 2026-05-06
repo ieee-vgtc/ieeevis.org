@@ -21,7 +21,7 @@ export const onRequest: MiddlewareHandler = async (context, next) => {
       "img-src 'self' data:",
 
       // FONTS
-      "font-src 'self' https://fonts.gstatic.com/s/zillaslab/ https://fonts.gstatic.com/s/materialicons/ https://fonts.gstatic.com/s/firasans/",
+      "font-src 'self' https://fonts.gstatic.com data:",
 
       // STYLES
       isDev

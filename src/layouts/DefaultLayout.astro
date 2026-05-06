@@ -22,6 +22,14 @@ const { pathname } = Astro.url;
             title={page_info.title || ""}
             url={Astro.url}
         />
+        <link
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700|Zilla+Slab:400,500,700&display=swap"
+            rel="stylesheet"
+        />
 	</head>
 	<body id="app" class="overflow-x-hidden">
         <Navigation nav_data={navigation_data} client:load/>
