@@ -5,7 +5,9 @@ contact: program@ieeevis.org
 active_nav: "Program"
 ---
 
-At VIS 2026, several awards will be presented.
+Details TBD.
+
+<!-- At VIS 2026, several awards will be presented.
 
 ## IEEE VGTC VIS Awards
 
@@ -40,4 +42,4 @@ More information: [Best Papers/Posters](/year/2026/info/awards/best-paper-awards
 
 ### Best Poster Ceremony
 
-**When: Tuesday (Nov 4), 2:00pm (CET), Hall E**
+**When: Tuesday (Nov 4), 2:00pm (CET), Hall E** -->

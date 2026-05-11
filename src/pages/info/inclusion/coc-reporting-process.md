@@ -5,7 +5,7 @@ active_nav: "Attend"
 ---
 
 <center>
-<img src="/year/2026/assets/coc-reporting-workflow.png" alt="VIS code of conduct reporting workflow"/>
+<img src="/year/2026/assets/ombuds/coc-reporting-workflow.png" alt="VIS code of conduct reporting workflow"/>
 <strong>Workflow of action when a concern is expressed.</strong>
 </center>
 <br/>

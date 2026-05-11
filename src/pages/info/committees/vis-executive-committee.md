@@ -5,22 +5,22 @@ active_nav: "Organization & History"
 contact: vec@ieeevis.org
 ---
 
-The role of the VEC is to oversee the planning and success of IEEE VIS. The VEC solicits bids for future VIS conferences, is involved in their planning and evaluates how well each VIS has achieved the objectives stated above. The VEC makes proposals for change for ratification by the VSC and implements improvements to better meet conference objectives. For more information, see the [IEEE VIS Charter](https://drive.google.com/file/d/1CzoEKf0CiHvybLsB44OcoD9OFiCTT210/view?usp=sharing). To contact the VEC, please e-mail [vec_chair@ieeevis.org](vec_chair@ieeevis.org)
+The role of the VEC is to oversee the planning and success of IEEE VIS. The VEC solicits bids for future VIS conferences, is involved in their planning and evaluates how well each VIS has achieved the objectives stated above. The VEC makes proposals for change for ratification by the VSC and implements improvements to better meet conference objectives. For more information, see the [IEEE VIS Charter](https://drive.google.com/file/d/1CzoEKf0CiHvybLsB44OcoD9OFiCTT210/view?usp=sharing). To contact the VEC, please e-mail [vec_chair@ieeevis.org](mailto:vec_chair@ieeevis.org)
 
 The current VEC members are:
 
-| **Name** | **Affiliation** |
-| --- | --- |
-| Leilani Battle | _University of Washington_ |
-| Anastasia Bezerianos | _LRI-Université Paris-Saclay_ | 
-| Matthew Brehmer | _University of Waterloo_ |
-| Rita Borgo (co-chair) | _King's College London_ | 
-| Gautam Chaudhary (co-chair) | |
-| Narges Mahyar | _University of Massachusetts Amherst_ |
-| Brian Summa | _Tulane University_ |
-| Tatiana von Landesberger | _University of Cologne_ |
-| Hendrik Strobelt | *IBM Research* |
-| Daniel Keim | *University of Konstanz* |
+| **Name**                    | **Affiliation**                       |
+| --------------------------- | ------------------------------------- |
+| Leilani Battle              | _University of Washington_            |
+| Anastasia Bezerianos        | _LRI-Université Paris-Saclay_         |
+| Matthew Brehmer             | _University of Waterloo_              |
+| Rita Borgo (co-chair)       | _King's College London_               |
+| Gautam Chaudhary (co-chair) |                                       |
+| Narges Mahyar               | _University of Massachusetts Amherst_ |
+| Brian Summa                 | _Tulane University_                   |
+| Tatiana von Landesberger    | _University of Cologne_               |
+| Hendrik Strobelt            |  *IBM Research*                       |
+| Daniel Keim                 |  *University of Konstanz*             |
 
 ## VIS Executive and Steering Committee Elections
 

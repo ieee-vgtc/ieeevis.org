@@ -5,7 +5,9 @@ sidebar: social-events
 active_nav: "Program"
 ---
 
-The VIS **OC Dinner** is intended as a thank-you to the whole VIS organization committee.
+Details TBD.
+
+<!-- The VIS **OC Dinner** is intended as a thank-you to the whole VIS organization committee.
 Therefore, the dinner is by **invitation only**.
 
 ## Location
@@ -32,4 +34,4 @@ Schottengasse 3<br />
 
 The OC dinner will take place:
 
-**Thursday (Nov 6), 7:00pm (CET)**
+**Thursday (Nov 6), 7:00pm (CET)** -->

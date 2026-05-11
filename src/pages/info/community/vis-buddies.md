@@ -29,4 +29,4 @@ For more information, contact IEEE VIS 2026 Community/Meetups/Elections Chairs:
 - Kyle Hall, _Temple University_
 - Lijie Yao, _Xi’an Jiaotong-Liverpool University_
 
-email: [community@ieeevis.org](community@ieeevis.org)
+email: [community@ieeevis.org](mailto:community@ieeevis.org)

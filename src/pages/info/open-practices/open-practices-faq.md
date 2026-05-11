@@ -93,7 +93,7 @@ You are free to share a preprint of your paper on your personal or institutional
 
 [Plan-S](https://www.coalition-s.org/) is a European policy requiring publicly funded research publications to be open access (available for free). However, it only relates to open access of papers via the publisher, not preprints or other open practices such as open materials, open data, or preregistration. It can, however, impact which publisher you choose.
 
-Please see our blog post on [Publishing papers covered under Plan S](../../blog/plublishing-under-plan-s) for details.
+Please see our blog post on [Publishing papers covered under Plan S](https://ieeevis.org/year/2024/blog/plublishing-under-plan-s) for details.
 
 ## What if I have questions, comments, concerns?
 

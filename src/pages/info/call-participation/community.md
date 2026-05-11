@@ -8,7 +8,7 @@ contact: community@ieeevis.org
 
 Our goals in Community are organizing activities at IEEE VIS conference that connect the current and next generation of visualization researchers and practitioners. We do this by providing conference activities to participants for all of the various visualization sub-communities: scientific visualization, information visualization, visual analytics, industry, etc.
 
-The Community activities are open to all registered IEEE VIS participants, regardless of seniority and affiliation. The activities are organized by the IEEE VIS Community Chairs, who can be reached at [community@ieeevis.org](community@ieeevis.org).
+The Community activities are open to all registered IEEE VIS participants, regardless of seniority and affiliation. The activities are organized by the IEEE VIS Community Chairs, who can be reached at [community@ieeevis.org](mailto:community@ieeevis.org).
 
 This year, Community will host the following events and activities:
 
@@ -46,4 +46,4 @@ For more information, contact IEEE VIS 2026 Community Chairs:
 - Isaac Cho, _Utah State University_
 - Kyle Hall
 
-email: [community@ieeevis.org](community@ieeevis.org)
+email: [community@ieeevis.org](mailto:community@ieeevis.org)

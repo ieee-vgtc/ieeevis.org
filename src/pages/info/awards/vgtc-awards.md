@@ -7,10 +7,9 @@ contact: papers@ieeevis.org
 ---
 
 This year's VGTC awards will be announced in the opening session.
+Details TBD.
 
-**When: Tuesday (Nov 4), 11:15, Hall E**
-
-<!-- ---------------------------------------------------------------------------------- -->
+<!-- **When: Tuesday (Nov 4), 11:15, Hall E**
 
 ## VGTC Dissertation Award
 
@@ -19,8 +18,6 @@ Chair: Rita Borgo
 ### Arpit Narechania
 
 The dissertation represents an outstanding body of work at the intersection of information visualisation, visual analytics, and human–computer interaction. The candidate has made highly influential contributions, which advances human–AI collaboration in visual analytics and has already seen adoption in industry. Their thesis is exemplary in its coherence, intellectual clarity, and reflective, forward-looking conclusions, articulating a compelling vision for the field.
-
-<!-- ---------------------------------------------------------------------------------- -->
 
 ## VGTC Significant New Researcher Award
 
@@ -34,8 +31,6 @@ Dr. Yong Wang has contributed a strong foundation of applied visualization resea
 
 Dr. Lace Padilla has contributed strong, influential work at the intersection of visualization and graphical perception. Her work has pushed our fundamental understanding of the pyscology of visualization, as well as been a driving force in uncertainty visualization.
 
-<!-- ---------------------------------------------------------------------------------- -->
-
 ## VGTC Technical Achievement Award
 
 Chair: Anders Ynnerman
@@ -48,8 +43,6 @@ Niklas Elmquist is recognized for his pivotal work advancing ubiquitous computin
 
 Gerik Scheuermann is recognized for his foundational work in vector and tensor field visualization, including advances in topological analysis, Clifford algebra transformations, information theory, feature detection, and higher-order tensor fields.
 
-<!-- ---------------------------------------------------------------------------------- -->
-
 ## VGTC Lifetime Achievement Award
 
 Chair: Anders Ynnerman
@@ -57,8 +50,6 @@ Chair: Anders Ynnerman
 ### Eduard Gröller
 
 Eduard Gröller is recognized for a distinguished career marked by novel contributions to the field of visualization and the development of innovative, impactful applications. His leadership within the community and dedication to mentoring emerging researchers have been instrumental in advancing the discipline.
-
-<!-- ---------------------------------------------------------------------------------- -->
 
 ## VGTC Service Award
 
@@ -76,4 +67,4 @@ Chair: Tamara Munzner
 **Holger Theisel**<br />
 **Bernhard Preim**<br />
 **Melanie Tory**<br />
-**Tobias Isenberg**
+**Tobias Isenberg** -->
