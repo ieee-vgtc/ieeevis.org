@@ -28,7 +28,7 @@ The Ombuds people will be identified as representatives of the VIS organizing co
 
 Confidants should follow the **ACT model** when approached about a potential incident:
 
-**Acknowledge:** Verbally acknowledge the report so the person knows the matter is being dealt with. Offer the reporter the opportunity to move the conversation to a private space, such as the conference chair's office. Offer to find another ombudsperson if the reporter would be more comfortable with someone else. Ensure the person who made the report is aware of the [VIS Code of Conduct](code-of-conduct).
+**Acknowledge:** Verbally acknowledge the report so the person knows the matter is being dealt with. Offer the reporter the opportunity to move the conversation to a private space, such as the conference chair's office. Offer to find another ombudsperson if the reporter would be more comfortable with someone else. Ensure the person who made the report is aware of the [VIS Code of Conduct](../code-of-conduct).
 
 **Collect:** Upon listening to the complaint, inform the reporter that you will alert the response team. Collect contact information from the person unless the reporter chooses to report anonymously. Contact information is important when the report is made verbally, as it might be difficult to identify the person again after the original report. Only identify the reporter if permission was obtained to do so.
 
@@ -46,7 +46,7 @@ To move forward a complaint for assessment by the response team, incident report
 
 ### Serious
 
-Serious incidents are actions that clearly break the [VIS Code of Conduct](code-of-conduct). These are incidents meant to exclude, intimidate, or cause discomfort.
+Serious incidents are actions that clearly break the [VIS Code of Conduct](../code-of-conduct). These are incidents meant to exclude, intimidate, or cause discomfort.
 
 Examples: unwanted physical contact; overt sexual statements; violent language or outbursts
 

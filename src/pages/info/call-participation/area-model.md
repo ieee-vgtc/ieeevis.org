@@ -292,5 +292,5 @@ As all other aspects of the area model, this will be closely watched by ACC, and
 ## Version History of the Area Model
 
 - This version: [Version 3](/year/2026/info/call-participation/area-model) minor updates for 2026
-- [Version 2](/year/2023/info/call-participation/area-model) minor updates for 2023
-- [Version 1](/year/2021/info/call-participation/area-model) introduced 2021
+- [Version 2](https://ieeevis.org/year/2023/info/call-participation/area-model) minor updates for 2023
+- [Version 1](https://ieeevis.org/year/2021/info/call-participation/area-model) introduced 2021

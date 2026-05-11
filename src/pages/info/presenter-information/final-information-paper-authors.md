@@ -6,7 +6,9 @@ sidebar: call-for-participation
 contact: papers@ieeevis.org
 ---
 
-This page provides authors of accepted **IEEE VIS Full Papers** with important information for the remainder of the process until the conference.
+Details TBD.
+
+<!-- This page provides authors of accepted **IEEE VIS Full Papers** with important information for the remainder of the process until the conference.
 
 **IEEE VIS Short Papers** will follow a similar set of guidelines, with the exception that the paper length limits are shortened to 4+1 pages.
 
@@ -73,4 +75,4 @@ Please see the [talk guide](/year/2026/info/presenter-information/talk-guide) fo
 - Zhicheng Liu, _University of Maryland College Park_
 - Cindy Xiong Bearfield, _Georgia Tech_
 
-Email: [publications@ieeevis.org](mailto:publications@ieeevis.org)
+Email: [publications@ieeevis.org](mailto:publications@ieeevis.org) -->
