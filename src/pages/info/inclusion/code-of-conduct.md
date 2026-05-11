@@ -21,7 +21,7 @@ IEEE VIS reserves the right to take appropriate action to foster an inclusive an
 
 ### Contact
 
-Please contact [ombuds@ieeevis.org](mailto:ombuds@ieeevis.org) if you experience, observe, or have knowledge of behavior in violation of the Code of Conduct. Our [reporting process document](coc-reporting-process) describes how the Ombuds team will respond.
+Please contact [ombuds@ieeevis.org](mailto:ombuds@ieeevis.org) if you experience, observe, or have knowledge of behavior in violation of the Code of Conduct. Our [reporting process document](../coc-reporting-process) describes how the Ombuds team will respond.
 
 The ombuds team for VIS 2026 is:
 

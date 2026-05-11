@@ -5,7 +5,9 @@ sidebar: social-events
 active_nav: "Program"
 ---
 
-The VIS 2026 **Conference Dinner** will take place right after the poster session.
+Details TBD.
+
+<!-- The VIS 2026 **Conference Dinner** will take place right after the poster session.
 
 ## Location
 
@@ -19,4 +21,4 @@ There will be various buffet stations on **Level 0**, as well as bar tables and 
 
 ## When
 
-**Wednesday (Nov 5), 6:00pm - 9:00pm (CET), Level 0**
+**Wednesday (Nov 5), 6:00pm - 9:00pm (CET), Level 0** -->

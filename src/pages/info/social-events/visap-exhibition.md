@@ -5,7 +5,9 @@ sidebar: social-events
 active_nav: "Program"
 ---
 
-The VIS 2026 **Vis Arts Program** exhibition will take place outside the convention center.
+Details TBD.
+
+<!-- The VIS 2026 **Vis Arts Program** exhibition will take place outside the convention center.
 
 ## Location
 
@@ -23,4 +25,4 @@ Vordere Zollamtsstraße 7<br />
 
 The Vis Arts exhibition will start with a reception:
 
-**Thursday (Nov 6), 6:00pm - 9:00pm (CET)**
+**Thursday (Nov 6), 6:00pm - 9:00pm (CET)** -->

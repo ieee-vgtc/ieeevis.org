@@ -6,11 +6,12 @@ sidebar: awards-and-recognitions
 contact: papers@ieeevis.org
 ---
 
-Best paper and honorable mention awards are selected by a dedicated committee of experienced community members.
+Details TBD.
+
+<!-- Best paper and honorable mention awards are selected by a dedicated committee of experienced community members.
 **The awards recognize outstanding work from the pool of accepted papers**.
 Best paper committees use a variety of criteria to select the best paper including potential impact to the community, the importance of any results obtained, and technical challenges overcome.
 
-<!-- ---------------------------------------------------------------------------------- -->
 
 ## Full Papers
 
@@ -18,7 +19,6 @@ The Best Papers Committee for VIS 2026 Full papers consisted of the following di
 Lars Linsen, Roxana Bujack, Soumya Dutta, David Ebert, BC Kwon, Luis Gustavo Nonato, and Xiting Wang.
 The Papers Chairs would like to thank the Best Papers Committee for their work and to congratulate the awardees!
 
-<!-- ---------------------------------------------------------------------------------- -->
 
 ### Best Papers
 
@@ -52,7 +52,6 @@ by Kuangshi Ai, Kaiyuan Tang, & Chaoli Wang<br />
 
 This paper presents a novel and well-engineered system that integrates up-to-date volume segmentation, learnable 3D Gaussian splatting, open-vocabulary 3D scene understanding, and LLM-based agents to allow users to explore, query, and edit volumetric scenes using natural language. The proposed framework offers a promising step forward in enabling intuitive interaction with real-time 3D volume visualizations through natural language interfaces, making volume rendering accessible even to non-expert users. Its practical impact is documented through a well-designed user study. Moreover, the authors open-source their system, which can benefit the community.
 
-<!-- ---------------------------------------------------------------------------------- -->
 
 ### Best Papers Honorable Mentions
 
@@ -106,7 +105,6 @@ by Amy Fox, Michelle Morgenstern, Graham Jones, & Arvind Satyanarayan<br />
 
 <hr />
 
-<!-- ---------------------------------------------------------------------------------- -->
 
 ## Short Papers
 
@@ -114,7 +112,6 @@ The Best Short Papers Committee for VIS 2026 Short Papers consisted of the follo
 Yang Shi, Danielle Szafir, Eytan Adar, Jürgen Bernard, Ingrid Hotz.
 The Short Papers Chairs would like to thank the Best Short Papers Committee for their work and to congratulate the awardees!
 
-<!-- ---------------------------------------------------------------------------------- -->
 
 ### Best Papers
 
@@ -130,7 +127,6 @@ by Ridwan Mahbub, Mohammed Saidul Islam, Md Tahmid Rahman Laskar, Mizanur Rahman
 
 The paper demonstrates that many of the same deceptive features of charts that can fool a human will also fool Vision-Language Models (VLMs). Through a novel large-scale study (100 charts, 8 deception types, 10 VLMs, and 16k responses), the work characterizes the susceptibility of models to different forms of deception. The results provide an important baseline assessment of the inability of state-of-the-art VLMs in detecting many deceptive chart features (e.g., inverted axes). As critically, the work provides a dataset for the evaluation of future VLMs.
 
-<!-- ---------------------------------------------------------------------------------- -->
 
 ### Best Paper Honorable Mentions
 
@@ -152,7 +148,6 @@ by Lena Cibulski & Stefan Bruckner<br />
 
 <hr />
 
-<!-- ---------------------------------------------------------------------------------- -->
 
 ## Posters
 
@@ -160,11 +155,10 @@ The Best Poster Committee for VIS 2026 posters consisted of the following distin
 Davide Ceneda, Fumeng Yang, and Carolina Nobre.
 The Poster Chairs would like to thank the Best Poster Committee for their work and to congratulate the awardees!
 
-<!-- ---------------------------------------------------------------------------------- -->
 
 ### Best Poster
 
 **Designing a Glyph-Based Hierarchical Visualization for Orders of Magnitude Values**<br />
 by Katerina Batziakoudi, Ambre Assor, Christophe Bortolaso, & Jean-Daniel Fekete
 
-This poster introduces a novel hierarchical visualization approach designed for showing orders of magnitude. The authors propose a new visual representation based on the mantissa–exponent concept. The result is a compelling and thoughtful contribution that clarifies the shortcomings of prior approaches and offers a practical and scalable solution. The poster design is clear and well-organized, effectively showcasing the visualization design.
+This poster introduces a novel hierarchical visualization approach designed for showing orders of magnitude. The authors propose a new visual representation based on the mantissa–exponent concept. The result is a compelling and thoughtful contribution that clarifies the shortcomings of prior approaches and offers a practical and scalable solution. The poster design is clear and well-organized, effectively showcasing the visualization design. -->

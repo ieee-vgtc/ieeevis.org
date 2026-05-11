@@ -9,7 +9,9 @@ contact: papers@ieeevis.org
 To improve the future, we must reflect on our past.
 The IEEE VIS Test of Time Award is an accolade given to recognize articles published at previous conferences whose contents are still vibrant and useful today and have had a major impact and influence within and beyond the visualization community.
 
-This year's Test-of-Time awards will be announced on the first day of the conference.
+Details TBD.
+
+<!-- This year's Test-of-Time awards will be announced on the first day of the conference.
 
 **When: Tuesday (Nov 4), 3:45pm - 5:00pm (CET), Hall E**
 
@@ -18,8 +20,6 @@ This year's Test-of-Time awards will be announced on the first day of the confer
 ## Vis & SciVis
 
 Committee: Hamish Carr, Eduard Gröller _(Chair)_, Xiaoru Yuan, Gerik Scheuermann _(Chair)_, Deborah Silver
-
-<!-- ---------------------------------------------------------------------------------- -->
 
 **2000 (25-Years Vis ToT Award)**:<br />
 **A flow-guided streamline seeding strategy**<br />
@@ -33,8 +33,6 @@ This approach strikes a balance between topological structures, spatial cover ag
 This technique is relatively simple and efficient, which is one of the reasons why it has received more than 250 citations.
 Even after 25 years, Verma et al.'s topology-guided strategy is still in use.
 
-<!-- ---------------------------------------------------------------------------------- -->
-
 **2013 (12-Years SciVis ToT Award)**:<br />
 **Contour Boxplots: A Method for Characterizing Uncertainty in Feature Sets from Simulation Ensembles**<br />
 Ross T. Whitaker, Mahsa Mirzargar, Robert M. Kirby<br />
@@ -45,8 +43,6 @@ By extending the concept of data depth to sets, the authors enabled robust stati
 This work bridged uncertainty visualization and statistical shape analysis, influencing diverse domains from fluid dynamics to weather forecasting.
 Its impact endures, inspiring numerous follow-up techniques, including Curve Boxplots, and shaping how the community approaches statistical analysis and visualization of geometric and topological features in simulation science.
 The paper has since been widely cited, underscoring its lasting relevance and influence.
-
-<!-- ---------------------------------------------------------------------------------- -->
 
 **2014 (11-Years SciVis ToT Award)**:<br />
 **Fixed-Rate Compressed Floating-Point Arrays**<br />
@@ -65,8 +61,6 @@ This paper has influenced several other compression schemes and is often referen
 
 Committee: Natalia Andrienko, Enrico Bertini, Min Chen _(Chair)_, Tim Dwyer, Daniel Weiskopf
 
-<!-- ---------------------------------------------------------------------------------- -->
-
 **2005 (20-Years InfoVis ToT Award)**:<br />
 **Graph-theoretic scagnostics**<br />
 Leland Wilkinson, Anushka Anand, Robert L. Grossman<br />
@@ -75,8 +69,6 @@ Leland Wilkinson, Anushka Anand, Robert L. Grossman<br />
 In this highly influential work, the authors established the mathematical and algorithmic foundations of the now well-known scagnostics techniques for visualizing high-dimensional multivariate data.
 While they duly acknowledged John and Paul Tukey for the original idea, they not only formalized the concept of scagnostics but also introduced a suite of graph-theoretic measures to enable feature-driven visualization.
 The impact of this work extends well beyond scatter plots, setting a gold standard for visualizing complex datasets through the analysis of visual features in their graphical representations.
-
-<!-- ---------------------------------------------------------------------------------- -->
 
 **2015 (10-Years InfoVis ToT Award)**:<br />
 **Voyager: Exploratory Analysis via Faceted Browsing of Visualization Recommendations**<br />
@@ -93,8 +85,6 @@ With the advancement of AI, the mixed-initiative approach is even more relevant 
 
 Committee: Jeffrey Heer, Helwig Hauser, Ross Maciejewski, Shixia Liu _(Chair)_
 
-<!-- ---------------------------------------------------------------------------------- -->
-
 **2015 (10-Years VAST ToT Award)**:<br />
 **Reducing Snapshots to Points: A Visual Analytics Approach to Dynamic Network Exploration**<br />
 Stef van den Elzen, Danny Holten, Jorik Blaas, Jarke J. van Wijk<br />
@@ -103,4 +93,4 @@ Stef van den Elzen, Danny Holten, Jorik Blaas, Jarke J. van Wijk<br />
 This paper establishes a new paradigm for analyzing dynamic networks by reducing network snapshots to points in a two-dimensional space for interactive exploration.
 Its innovative dual-view design enables users to identify stable states, recurring patterns, and transitional behaviors, advancing temporal network analysis beyond animation and small multiples.
 Beyond its technical novelty, the paper has proven broadly influential, inspiring follow-up research in temporal graph analysis, embedding-based visualization, and state-space abstraction.
-It stands as a compelling example of technique-driven innovation that has shaped the visualization community's perspective on dynamic network analysis.
+It stands as a compelling example of technique-driven innovation that has shaped the visualization community's perspective on dynamic network analysis. -->

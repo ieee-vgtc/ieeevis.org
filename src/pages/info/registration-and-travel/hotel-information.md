@@ -1,14 +1,16 @@
 ---
-title: Vienna Hotel Information
+title: Hotel Information
 layout: /src/layouts/PageLayout.astro
 contact: "general_chair@ieeevis.org"
 active_nav: "Attend"
 ---
 
-Vienna has more than 430 hotels with more than 40,000 rooms to suit all tastes and budgets.
+Details TBD.
+
+<!-- Vienna has more than 430 hotels with more than 40,000 rooms to suit all tastes and budgets.
 **We encourage you to explore Vienna's hotel landscape and find accommodation that suits you best!**
 
-<!-- ---------------------------------------------------------------------------------- -->
+
 
 ## Searching for a hotel
 
@@ -28,14 +30,14 @@ So, when searching for a hotel near the city center, it is highly recommended th
 
 <hr />
 
-<!-- ---------------------------------------------------------------------------------- -->
+
 
 ## Pre-booked rooms
 
 We also pre-booked some rooms in Vienna, in case you don't want to search for a hotel on your own.
 Room blocks are not tied to the conference organization. If room allotments are not claimed, they will be returned to the hotels.
 
-<!-- ---------------------------------------------------------------------------------- -->
+
 
 ### Close to the Austria Center Vienna
 
@@ -68,7 +70,7 @@ Guest room for single use at **€229** (including breakfast).
 
 To book at room, use the [online booking form](https://events.melia.com/en/events/melia-vienna/IEEE-Computer-Society-2026){:target= "\_blank"}
 
-<!-- ---------------------------------------------------------------------------------- -->
+
 
 ### In the city center
 
@@ -106,13 +108,13 @@ Kindly note that the discount applies solely for participants of VIS 2026 and is
 
 <hr />
 
-<!-- ---------------------------------------------------------------------------------- -->
+
 
 ## Other recommended hotels
 
 Here you will find a list of recommended hotels where either our room allotments have expired or which have been recommended to us by other conference organizers.
 
-<!-- ---------------------------------------------------------------------------------- -->
+
 
 ### Close to the Austria Center Vienna
 
@@ -130,7 +132,7 @@ Lassallestraße 7<br />
 1020 Wien<br />
 [Hotel Website](https://all.accor.com/hotel/7098/index.en.shtml){:target= "\_blank"} | [Google Maps Link](https://maps.app.goo.gl/xfGXPg8619acpU65A){:target= "\_blank"}
 
-<!-- ---------------------------------------------------------------------------------- -->
+
 
 ### In the city center
 
@@ -146,4 +148,4 @@ Fleischmarkt 1A<br />
 Hotel Mercure Wien City<br />
 Hollandstraße 3<br />
 1020 Wien<br />
-[Hotel Website](https://all.accor.com/hotel/1568/index.en.shtml){:target= "\_blank"} | [Google Maps Link](https://maps.app.goo.gl/MAhg5FoUzBsLHP677){:target= "\_blank"}
+[Hotel Website](https://all.accor.com/hotel/1568/index.en.shtml){:target= "\_blank"} | [Google Maps Link](https://maps.app.goo.gl/MAhg5FoUzBsLHP677){:target= "\_blank"} -->
