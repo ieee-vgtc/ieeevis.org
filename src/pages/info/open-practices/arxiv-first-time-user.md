@@ -21,13 +21,13 @@ You will need:
 After your account is created, you can view your current submissions and create new ones from
 [https://arxiv.org/user/](https://arxiv.org/user/)
 
-![](/year/2026/open-practices/arxiv_guide_1.png)
+![](/year/2026/info/open-practices/arxiv_guide_1.png)
 
 ## Step-3.Complete the submission process
 
 a) Choose a license (the default arXiv license is recommended by IEEE)
 
-![](/year/2026/open-practices/arxiv_guide_2.png)
+![](/year/2026/info/open-practices/arxiv_guide_2.png)
 
 Note that you may need endorsement in a category if it is the first time you’ve submitted to arXiv.org, especially in this category. See [https://info.arxiv.org/help/endorsement](https://info.arxiv.org/help/endorsement).
 
@@ -39,11 +39,11 @@ b) Upload the pdf in the correct format, or alternatively in (La)Tex. Note that 
 
 **Important:** Please refer to **Note-1** at the end of the document for further guidance on submitting in `TeX/LaTeX` format.
 
-![](/year/2026/open-practices/arxiv_guide_4.png)
+![](/year/2026/info/open-practices/arxiv_guide_4.png)
 
 c) Complete the metadata (title, abstract, authors)
 
-![](/year/2026/open-practices/arxiv_guide_5.png)
+![](/year/2026/info/open-practices/arxiv_guide_5.png)
 
 d) After previewing, the system may need to process for a few minutes before you will have the option to submit it from the preview section.
 
