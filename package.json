@@ -19,11 +19,11 @@
     "rehype-external-links": "^3.0.0"
   },
   "dependencies": {
-    "@astrojs/react": "^4.4.2",
-    "@astrojs/sitemap": "^3.6.1",
+    "@astrojs/react": "^5.0.4",
+    "@astrojs/sitemap": "^3.7.2",
     "@tailwindcss/typography": "^0.5.16",
     "@tailwindcss/vite": "^4.1.4",
-    "astro": "^6.1.6",
+    "astro": "^6.2.2",
     "front-matter": "^4.0.2",
     "html-react-parser": "^5.2.6",
     "marked": "^16.2.0",
