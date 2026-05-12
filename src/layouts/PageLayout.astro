@@ -2,6 +2,7 @@
 import Sidebar from "../components/Sidebar.astro";
 import DefaultLayout from "./DefaultLayout.astro";
 const { frontmatter } = Astro.props;
+const fullWidth = Boolean(frontmatter.full_width);
 ---
 
 <DefaultLayout page_info={frontmatter}>
@@ -13,15 +14,25 @@ const { frontmatter } = Astro.props;
     </div>
   </div>
 
-  <div class="container md:py-16 flex md:flex-row flex-col justify-between">
-    <article class="content md:w-3/5 w-full md:mt-0 mt-8 md:order-0 order-2">
-      <slot />
-    </article>
+  {
+    fullWidth ? (
+      <div class="container md:py-16">
+        <article class="content w-full md:mt-0 mt-8">
+          <slot />
+        </article>
+      </div>
+    ) : (
+      <div class="container md:py-16 flex md:flex-row flex-col justify-between">
+        <article class="content md:w-3/5 w-full md:mt-0 mt-8 md:order-0 order-2">
+          <slot />
+        </article>
 
-    {frontmatter.sidebar && <Sidebar sidebar_data_path={frontmatter.sidebar} />}
+        {frontmatter.sidebar && <Sidebar sidebar_data_path={frontmatter.sidebar} />}
 
-    {frontmatter.sidetoc && <p>TODO SIDETOC</p>}
+        {frontmatter.sidetoc && <p>TODO SIDETOC</p>}
 
-    <slot name="sidebar" />
-  </div>
+        <slot name="sidebar" />
+      </div>
+    )
+  }
 </DefaultLayout>
