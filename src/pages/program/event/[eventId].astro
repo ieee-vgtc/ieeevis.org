@@ -1,303 +1,176 @@
 ---
-import { SessionListing } from "../../../components/SessionListing";
-import DefaultLayout from "../../../layouts/DefaultLayout.astro";
-import type { Config } from "../../../types/config";
-import type { Event } from "../../../types/event";
+import PageLayout from "../../../layouts/PageLayout.astro";
+import sessionListData from "../../../data/program_test/session_list.json";
+import type { ProgramSession, ProgramSessionList } from "../../../types/program";
+import { getProgramEventTypeLabel } from "../../../utils/programEventTypeLabel";
 
-interface Props {
-  config: Config;
-  event: Event;
-}
+type EventPageProps = {
+  eventId: string;
+  event: ProgramSessionList[string];
+  session: ProgramSession;
+};
 
 export async function getStaticPaths() {
-  const event: Event = {
-    id: "w-my-event",
+  const sessionList = sessionListData as unknown as ProgramSessionList;
+  const paths: Array<{ params: { eventId: string }; props: EventPageProps }> = [];
 
-    abstract: "",
-    calendarICS: "",
-    description: "",
-    ff_playlist: "",
-    ff_playlist_id: "",
-    long_name: "My Event Long Name",
-    organizers: [
-      "FirstName1 LastName1",
-      "FirstName2 LastName2",
-      "FirstName3 LastName3",
-      "FirstName4 LastName4",
-      "FirstName5 LastName5",
-    ],
-    sessions: [
-      {
-        title: "My Event Name",
-        id: "w-my-event-1",
-        event_prefix: "w-my-event",
-        track: "1_15_1_16",
-        room_name: "Room 1.15 + 1.16",
-        chair: [
-          "FirstName1 LastName1",
-          "FirstName2 LastName2",
-          "FirstName3 LastName3",
-          "FirstName4 LastName4",
-          "FirstName5 LastName5",
-        ],
-        time_start: "2026-11-02T08:00:00+00:00",
-        time_end: "2026-11-02T09:30:00+00:00",
-        discord_link: "https://discord.com/channels/123/456",
-        youtube_url: null,
-        time_slots: [],
-      },
-      {
-        title: "My Event Name",
-        id: "w-my-event-2",
-        event_prefix: "w-my-event",
-        track: "1_15_1_16",
-        room_name: "Room 1.15 + 1.16",
-        chair: [
-          "FirstName1 LastName1",
-          "FirstName2 LastName2",
-          "FirstName3 LastName3",
-          "FirstName4 LastName4",
-          "FirstName5 LastName5",
-        ],
-        time_start: "2026-11-02T10:00:00+00:00",
-        time_end: "2026-11-02T11:30:00+00:00",
-        discord_link: "https://discord.com/channels/123/456",
-        youtube_url: null,
-        time_slots: [],
-      },
-    ],
-    title: "My Event Name",
-    type: "workshop",
-    url: "https://github.com/ieee-vgtc/ieeevis.org",
-  };
+  for (const event of Object.values(sessionList)) {
+    for (const session of event.sessions) {
+      const prefixedId = `${session.event_prefix}-${session.session_id}`;
+      const legacyId = session.session_id;
 
-  const config:Config = {
-    name: "VIS 2025",
-    tagline: "IEEE VIS: Visualization & Visual Analytics",
-    date: "2-7 November 2025 Conference",
-    startDate: "2025-11-2",
-    endDate: "2025-11-7",
-    citation_date: "November 2025",
-    proceedings_title: "Proceedings of the IEEE VIS 2025 Conference",
-    analytics: "UA-",
-    logo: {
-      image: "/static/2023/images/vis2023_logo_virtual.png",
-      width: "250px",
-      height: "auto",
-    },
-    page_title: { prefix: "IEEE VIS 2025 Content", separator: ": " },
-    background_image: "/static/2023/images/melbourne_splash.jpg",
-    organization: "VIS 2025 Organization Committee",
-    chat_server: "miniconf.sloppy.zone",
-    default_presentation_id: 38922815,
-    default_poster_pdf: "/static/images/GLTR_poster.pdf",
-    use_auth0: false,
-    auth0_client_id: "oF5BXUklWOjSjUeg5Tzai2DysHITXYhT",
-    auth0_domain: "ieeevis.us.auth0.com",
-    calendar: {
-      colors: {
-        "---": "#1C3160",
-        workshop: "#f4a261",
-        tutorial: "#A20A35",
-        panel: "#A20A35",
-        meetup: "#A20A35",
-        live: "#A20A35",
-        associated: "#2672B9",
-        challenges: "#2672B9",
-        symposium: "#2672B9",
-        visap: "#2672B9",
-        application: "#F15722",
-        vis: "#FDBB30",
-        memorial: "#FDBB30",
-        supporter: "#FDBB30",
-        keynote: "#FDBB30",
-        capstone: "#FDBB30",
-        industry: "#FDBB30",
-        paper: "#1C3160",
-        papers: "#1C3160",
-        invited: "#1C3160",
-        full: "#1C3160",
-        short: "#FDBB30",
-        virtual: "#99629c",
-        poster: "#1C3160",
-      },
-      sunday_saturday: true,
-    },
-    room_names: {
-      "room-0_11_0_12": "Room 0.11 + 0.12",
-      "room-0_94_0_95": "Room 0.94 + 0.95",
-      "room-0_96_0_97": "Room 0.96 + 0.97",
-      "room-1_14": "Room 1.14",
-      "room-1_15_1_16": "Room 1.15 + 1.16",
-      "room-1_32_1_33": "Room 1.32 + 1.33",
-      "room-1_61_1_62": "Room 1.61 + 1.62",
-      "room-1_85_1_86": "Room 1.85 + 1.86",
-      "room-e1": "Hall E1",
-      "room-e2": "Hall E2",
-      "room-e1_e2": "Hall E",
-      "room-m1": "Hall M1",
-      "room-m2": "Hall M2",
-      "room-foyer_e": "Foyer E",
-      "room-UAAV": "UAAV",
-    },
-  };
+      paths.push({
+        params: { eventId: prefixedId },
+        props: { eventId: prefixedId, event, session },
+      });
 
-  return [{ params: { eventId: event.id }, props: { config, event } }];
+      // Backward compatibility with old /program/event/<session_id> links
+      paths.push({
+        params: { eventId: legacyId },
+        props: { eventId: legacyId, event, session },
+      });
+    }
+  }
+
+  return paths;
 }
 
-const { event, config } = Astro.props;
+const { eventId, event, session } = Astro.props as EventPageProps;
 
-const { startTime, endTime } = event.sessions.reduce(
-  (acc, session) => {
-    if (!acc.startTime || acc.startTime > session.time_start) {
-      acc.startTime = session.time_start;
-    }
-    if (!acc.endTime || acc.endTime < session.time_end) {
-      acc.endTime = session.time_end;
-    }
-    return acc;
-  },
-  { startTime: "", endTime: "" },
+const presentations = [...session.time_slots].sort(
+  (a, b) => Date.parse(a.time_start) - Date.parse(b.time_start),
 );
 
-const pageTitle = event.title;
-const activePage = "All Events";
+const sessionDateFormatter = new Intl.DateTimeFormat("en-US", {
+  timeZone: "Europe/Vienna",
+  weekday: "long",
+  month: "short",
+  day: "numeric",
+});
 
-const socialTitle = `Event: ${event.title}`;
-const socialDescription =
-  "See the conference event and its associated sessions and presentations inside.";
+const timeFormatter = new Intl.DateTimeFormat("en-US", {
+  timeZone: "Europe/Vienna",
+  hour: "2-digit",
+  minute: "2-digit",
+  hour12: false,
+});
+
+function formatSlotRange(startISO: string, endISO: string) {
+  const start = new Date(startISO);
+  const end = new Date(endISO);
+  return `${timeFormatter.format(start)} - ${timeFormatter.format(end)}`;
+}
+
+function formatSessionDateTime(startISO: string, endISO: string) {
+  const start = new Date(startISO);
+  const end = new Date(endISO);
+  return `${sessionDateFormatter.format(start)} @ ${timeFormatter.format(start)} - ${timeFormatter.format(end)} (Europe/Vienna)`;
+}
+
+const eventTypeLabel = getProgramEventTypeLabel(event.event_type || "other");
+
+const frontmatter = {
+  title: `${eventTypeLabel}: ${session.title}`,
+  active_nav: "Program",
+  contact: "web@ieeevis.org",
+};
 ---
 
-<DefaultLayout page_info={{description:"tmp",title:"tmp",contact:"tmp"}}>
-  <body>
-    <div>TODO implement week-of-conference navbar</div>
-    <div class="container">
-      <div class="row mt-3">
-        <div class="col-md-12">
-          <nav class="nav-breadcrumb mb-3" aria-label="breadcrumb">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item">
-                <a href="/events">All events</a>
-              </li>
-              <li
-                class="breadcrumb-item active text-truncate"
-                aria-current="page"
-              >
-                {event.title}
-              </li>
-            </ol>
-          </nav>
+<PageLayout frontmatter={frontmatter}>
+  <section class="program-event-page">
+    <p class="program-event-meta"><strong>Session chair:</strong> {session.chair?.join(", ") || "TBA"}</p>
+    <p class="program-event-meta"><strong>Room:</strong> {session.room_name || "TBA"}</p>
+    <p class="program-event-meta"><strong>Time:</strong> {formatSessionDateTime(session.time_start, session.time_end)}</p>
 
-          <h1 class="event-title">{event.title}</h1>
+    {
+      event.organizers.length > 0 && (
+        <p class="program-event-organizers">Organizers: {event.organizers.join(", ")}</p>
+      )
+    }
 
-          {
-            event.url && (
-              <h2 class="event-url text-muted">
-                <span class="fas mr-1">&#xf57c;</span>
-                <a href={event.url} target="_blank" rel="noopener noreferrer">
-                  {event.url}
-                </a>
-              </h2>
-            )
-          }
+    <h2>Presentations in this session</h2>
 
-          {
-            event.organizers && (
-              <h2 class="event-organizers text-muted">
-                <span class="fas mr-1">&#xf0c0;</span>
-                Organizers: {event.organizers.join(", ")}
-              </h2>
-            )
-          }
-
-          <h3 class="event-date text-muted">
-            <span class="fas mr-1">&#xf017;</span>
-            <span class="format-date-span-full">
-              {startTime} &ndash; {endTime}
-            </span>
-          </h3>
-
-          <h5 class="mt-4">
-            <span class="fas mr-2">&#xf073;</span>
-            <a
-              href={event.calendarICS}
-            >
-              Add all of this event's sessions to your calendar
-            </a>
-            .
-          </h5>
-
-          {
-            event.ff_playlist && (
-              <h5 class="session-info my-4">
-                <a href="#ff">
-                  Jump to Fast Forwards
-                  <span class="fas mr-2">&#xf87c;</span>
-                </a>
-              </h5>
-            )
-          }
-        </div>
-      </div>
-
-      {
-        event.abstract && (
-          <div class="row mt-3">
-            <div class="col-md-8">
-              <p>{event.abstract}</p>
-            </div>
-          </div>
-        )
-      }
-
-      <hr />
-
-      <SessionListing
-        colors={config.calendar.colors}
-        organizers={event.organizers}
-        sessions={event.sessions}
-        type={event.type}
-        url={event.url}
-
-        showAbstract={false}
-        showPresenters={true}
-        showTime={true}
-        showTrack={true}
-        skipEventTitle={false}
-        useFullDate={true}
-      />
-
-      {
-        event.ff_playlist && (
-          <>
-            <hr />
-            <div class="row my-4">
-              <div class="col-lg-10">
-                <h2 class="my-3">
-                  <a name="ff">Fast forwards in this event's sessions</a>
-                </h2>
-                <iframe
-                  width="920"
-                  height="518"
-                  src={`https://www.youtube-nocookie.com/embed/videoseries?list=${event.ff_playlist_id}`}
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                />
-                <p class="integration-description pt-2">
-                  Direct link to YouTube playlist:{" "}
-                  <a
-                    href={event.ff_playlist}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {event.ff_playlist}
-                  </a>
-                </p>
-              </div>
-            </div>
-          </>
-        )
-      }
+    <div class="program-presentations">
+      {presentations.map((slot) => (
+        <article class="program-presentation">
+          <p class="program-presentation-time">{formatSlotRange(slot.time_start, slot.time_end)}</p>
+          <h3>{slot.title}</h3>
+          {slot.authors && slot.authors.length > 0 && (
+            <p class="program-presentation-authors">
+              Authors: {slot.authors.map((author) => author.name).join(", ")}
+            </p>
+          )}
+          {slot.contributors && slot.contributors.length > 0 && (
+            <p class="program-presentation-contrib">{slot.contributors.join(", ")}</p>
+          )}
+        </article>
+      ))}
     </div>
-  </body>
-</DefaultLayout>
+  </section>
+
+  <style>
+    .program-event-page {
+      display: grid;
+      gap: 0.8rem;
+    }
+
+    .program-event-page h1 {
+      margin: 0;
+    }
+
+    .program-event-page h2 {
+      margin: 0.2rem 0 0;
+      color: var(--color-accent);
+      font-size: 1.15rem;
+    }
+
+    .program-event-id {
+      margin: 0;
+      font-size: 0.78rem;
+      color: var(--color-gray-700);
+    }
+
+    .program-event-link,
+    .program-event-meta,
+    .program-event-organizers {
+      margin: 0;
+      color: var(--color-gray-800);
+    }
+
+    .program-presentations {
+      display: grid;
+      gap: 0.7rem;
+    }
+
+    .program-presentation {
+      border: 1px solid var(--color-gray-300);
+      border-left: 4px solid var(--color-accent);
+      border-radius: 8px;
+      background: #fff;
+      padding: 0.75rem;
+      display: grid;
+      gap: 0.2rem;
+    }
+
+    .program-presentation-time {
+      margin: 0;
+      color: var(--color-gray-700);
+      font-weight: 700;
+      font-size: 0.82rem;
+    }
+
+    .program-presentation h3 {
+      margin: 0;
+      font-size: 1rem;
+      line-height: 1.3;
+    }
+
+    .program-presentation-authors,
+    .program-presentation-contrib {
+      margin: 0;
+      color: var(--color-gray-700);
+      font-size: 0.9rem;
+    }
+
+  </style>
+</PageLayout>

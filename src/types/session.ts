@@ -1,3 +1,5 @@
+import type { ProgramTimeSlot } from "./program";
+
 export interface Session {
   title: string;
   id: string;
@@ -7,7 +9,7 @@ export interface Session {
   chair: string[];
   time_start: string;
   time_end: string;
-  discord_link: string;
+  discord_link: string | null;
   youtube_url: string | null;
-  time_slots: any[];
+  time_slots: ProgramTimeSlot[];
 }
