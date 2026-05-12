@@ -48,18 +48,24 @@ menu:
                   - text: "Short Papers"
                     url: "/info/call-participation/shortpapers"
                     is_new: false
+                  - text: "Visions"
+                    url: "/info/call-participation/visions"
+                    is_new: true
                   - text: "Posters"
                     url: "/info/call-participation/posters"
-                    is_new: true
+                    is_new: false
                   - text: "Tutorials"
                     url: "/info/call-participation/tutorials"
-                    is_new: true
-                  - text: "Workshops"
+                    is_new: false
+                  - text: "Workshop Proposals"
                     url: "/info/call-participation/workshops"
                     is_new: false
+                  - text: "Workshop Papers"
+                    url: "/info/program/workshops"
+                    is_new: true
                   - text: "Panels"
                     url: "/info/call-participation/panels"
-                    is_new: true
+                    is_new: false
                   - text: "Doctoral Colloquium"
                     url: "/info/call-participation/doctoral-colloquium"
                     is_new: false
@@ -81,7 +87,7 @@ menu:
                     url: "/info/call-participation/partnerships"
                     is_new: false
                   - text: "Open Practices"
-                    url: "/info/open-practices/"
+                    url: "/info/open-practices/open-practices"
                     is_new: false
                   - text: "Review Instructions"
                     url: "/info/call-participation/review-instructions"
@@ -104,22 +110,22 @@ menu:
           - heading: "Code of Conduct"
             description: "The IEEE VIS Code of Conduct"
             heading_url: "/info/inclusion/code-of-conduct"
-          # - subsections:
-          #     - heading: "Get Involved"
-          #       columns:
-          #         - links:
-          #             - text: "Organize a meetup"
-          #               description: "Meet people for discussion and shared experiences"
-          #               url: "/info/call-participation/meetups"
-          #               is_new: false
-          #             - text: "Student volunteer information"
-          #               description: "SVs support the conference and build your research network"
-          #               url: "https://vissv.github.io/"
-          #               is_external: true
-          #                  - text: "Become a peer reviewer"
-          #                    description: "Volunteer to review submissions in Precision Conference Solutions (PCS)"
-          #                    url: "https://new.precisionconference.com/review_volunteering"
-          #                    is_external: true
+      - subsections:
+          - heading: "Get Involved"
+            columns:
+              - links:
+                  # - text: "Organize a meetup"
+                  #   description: "Meet people for discussion and shared experiences"
+                  #   url: "/info/call-participation/meetups"
+                  #   is_new: false
+                  - text: "Student volunteer information"
+                    description: "SVs support the conference and build your research network"
+                    url: "https://vissv.github.io/"
+                    is_external: true
+                  # - text: "Become a peer reviewer"
+                  #   description: "Volunteer to review submissions in Precision Conference Solutions (PCS)"
+                  #   url: "https://new.precisionconference.com/review_volunteering"
+                  #   is_external: true
           # - text: "Elections"
           #   description: "Register to vote and nominate/review candidates for the VSC/VEC"
           #   url: "/info/elections"

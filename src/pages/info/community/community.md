@@ -14,40 +14,47 @@ The activities are organized by the IEEE VIS Community Chairs, who can be reache
 
 This year, Community will host the following events and activities:
 
-- [VisBuddies](/year/2026/info/community/vis-buddies)
+### VIS Buddies Program
 
-VisBuddies brings together new and returning VIS attendees with similar interests. For _newcomers_, this is a chance to meet experienced researchers in the field. For _returning attendees_, it is a chance to meet new members joining VIS and welcome them into our community.
+The Buddies program connects new and returning attendees with similar interests. It provides an opportunity to meet others in the community, share experiences, and navigate the conference together.
 
-Example VisBuddies activities include:
+[Sign up for the VIS Buddies Program](https://forms.gle/CKGexXjxhgNLtxCE8)
 
-- Build connections between experienced researchers and new members of the VIS community
-- Discuss interesting sessions to attend
-- Share tips on successful research
+---
 
-[VisBuddies Signup Form](https://forms.gle/1Lr2U8tM8qtQin366)
+### Job Postings
 
-### <a name="job-flyers"></a>Job Flyer Online Posting
+We are collecting job postings to share with the VIS community throughout the conference.
 
-Do you have a job you are seeking to fill?
+[Submit job postings](https://forms.gle/7JRMnv5Z9UwcQFuj6)
 
-If so, please complete this online form, and we will include your posting on IEEEVIS.org. This year, we will use Discord to facilitate meeting. Participants can connect there to arrange either virtual or on-site discussions.
+Postings will be reviewed and updated regularly on the VIS website.
 
-<!-- You can also use this form to sign up to host a “table” at the Job Fair. -->
+---
 
-[VIS Community Job Posting Form](https://forms.gle/g6sCRcsMkHNavktG9)
+### Meetups
 
-Links to the Job Postings will be included [**here**](/year/2026/info/community/jobs).
+We welcome proposals for meetups on topics related to visualization research, practice, and community building. Meetups are informal, participant-driven sessions open to all attendees.
 
-### <a name="ajf"></a>VIS Job Fair Meetup
+To propose a meetup, please send:
+- Title  
+- Organizer information  
+- Short description (≤200 words)  
+- Expected audience  
+- Equipment needs  
+- Scheduling preferences (if applicable)  
 
-This year, we will use Discord to support informal networking. Participants can use the platform to coordinate virtual or in-person discussions.
+Submit proposals to: [community@ieeevis.org](mailto:community@ieeevis.org)
+
+Proposals are reviewed on a rolling basis. Early submission: September 1, 2026; Rolling Submission: From September 2, 2026 to September 25, 2026; Notification: September 30, 2026.
+
+---
 
 ### Contact
 
-For more information contact IEEE VIS 2026 Community Chairs:
+For more information, contact IEEE VIS 2026 Community/Meetups/Elections Chairs:
 
-- Georgia Panagiotidou, _King’s College London_
-- Isaac Cho, _Utah State University_
-- Kyle Hall
+- Kyle Hall, _Temple University_
+- Lijie Yao, _Xi’an Jiaotong-Liverpool University_
 
 email: [community@ieeevis.org](community@ieeevis.org)
