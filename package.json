@@ -49,6 +49,6 @@
   },
   "homepage": "https://github.com/ieee-vgtc/ieeevis.org#readme",
   "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown"
+    "**/*": "node ./node_modules/prettier/bin/prettier.cjs --write --ignore-unknown"
   }
 }
