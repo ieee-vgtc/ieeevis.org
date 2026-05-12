@@ -245,7 +245,7 @@ Overall, we strongly encourage you to use positive framing in writing reviews—
 
 ## Supplemental Materials
 
-Authors are encouraged to include supplemental material with their submission. The [Open Practices Supplemental Material FAQ](../../../open-practices/supplemental-material-faq) provides guidance on how to do so in VIS publications. Although these guidelines are not mandatory, reviewers are encouraged to be familiar with them and should not penalize a submission for adhering to the recommendations. In particular:
+Authors are encouraged to include supplemental material with their submission. The [Open Practices Supplemental Material FAQ](/year/2026/info/open-practices/supplemental-material-faq) provides guidance on how to do so in VIS publications. Although these guidelines are not mandatory, reviewers are encouraged to be familiar with them and should not penalize a submission for adhering to the recommendations. In particular:
 
 - Authors may deposit supplemental material at any location for a final VIS publication. During the review phase, authors may upload files to the review system (PCS) or to an external repository with timestamp support such as https://osf.io or https://github.com/.
 - Authors may upload various types of material, such as data, code, videos, demos, or appendices—see the open practices guidelines for a more exhaustive list of examples.
