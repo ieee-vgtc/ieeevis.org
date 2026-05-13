@@ -236,6 +236,10 @@ menu:
                     description: "Preliminary overview of the conference week"
                     url: "/info/program/week-at-a-glance"
                     is_new: false
+                  - text: "Sessions"
+                    description: "List of all sessions and events"
+                    url: "/program/sessions"
+                    is_new: true
                   - text: "Schedule"
                     description: "Detailed schedule of the conference"
                     url: "/program/calendar"

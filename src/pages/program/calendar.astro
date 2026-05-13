@@ -372,13 +372,24 @@ const frontmatter = {
     </div>
 
     <div class="calendar-filter-bar" role="toolbar" aria-label="Session type filters">
+      <button
+        class="calendar-filter-pill is-active"
+        type="button"
+        data-type-filter="all"
+        style="--pill-color: #374151"
+        aria-pressed="true"
+      >
+        <span>All</span>
+        <span class="calendar-filter-count">{sessions.length}</span>
+      </button>
+
       {sortedTypes.map((sessionType) => (
         <button
-          class="calendar-filter-pill is-active"
+          class="calendar-filter-pill"
           type="button"
           data-type-filter={sessionType}
           style={`--pill-color: ${typeColors[sessionType] || "#6b7280"}`}
-          aria-pressed="true"
+          aria-pressed="false"
         >
           <span>{getProgramEventTypeLabel(sessionType)}</span>
           <span class="calendar-filter-count">{typeCounts[sessionType]}</span>
@@ -433,7 +444,7 @@ const frontmatter = {
 
                 {dayGroup.sessions.map((session) => {
                   const durationMinutes = Math.max(15, session.endMinute - session.startMinute);
-                  const sessionHref = withBaseURL(`/program/event/${session.eventSlug}`);
+                  const sessionHref = withBaseURL(`/program/session/${session.eventSlug}`);
                   const sessionKey = session.eventSlug;
                   const isSolo = session.laneCount === 1;
                   const accentHex = typeColors[session.eventType] || "#6b7280";
@@ -538,7 +549,7 @@ const frontmatter = {
 
                   {roomGroup.sessions.map((session) => {
                     const durationMinutes = Math.max(15, session.endMinute - session.startMinute);
-                    const sessionHref = withBaseURL(`/program/event/${session.eventSlug}`);
+                    const sessionHref = withBaseURL(`/program/session/${session.eventSlug}`);
                     const accentHex = typeColors[session.eventType] || "#6b7280";
                     const fgColor = contrastColor(accentHex);
 
@@ -604,7 +615,7 @@ const frontmatter = {
                 class="calendar-session"
                 role="listitem"
                 data-session-card
-                data-session-href={withBaseURL(`/program/event/${session.eventSlug}`)}
+                data-session-href={withBaseURL(`/program/session/${session.eventSlug}`)}
                 data-type={session.eventType}
                 data-day-group={dayGroup.dayKey}
                 data-search={session.searchText}
@@ -660,12 +671,8 @@ const frontmatter = {
       const tzDescription = root.querySelector<HTMLElement>(".js-tz-description");
       const groupingNote = root.querySelector<HTMLElement>(".js-day-grouping-note");
 
-      const typeSet = new Set(
-        filterButtons
-          .map((button) => button.getAttribute("data-type-filter"))
-          .filter((value): value is string => Boolean(value)),
-      );
-      let activeTypes = new Set(typeSet);
+      const ALL_FILTER = "all";
+      let activeTypeFilter = ALL_FILTER;
 
       const isSameDayFormatter = (timeZone: string) =>
         new Intl.DateTimeFormat("en-CA", {
@@ -823,7 +830,7 @@ const frontmatter = {
       const refreshFilterButtonState = () => {
         for (const button of filterButtons) {
           const buttonType = button.getAttribute("data-type-filter");
-          const isActive = buttonType !== null ? activeTypes.has(buttonType) : false;
+          const isActive = buttonType !== null ? activeTypeFilter === buttonType : false;
           button.setAttribute("aria-pressed", String(isActive));
           button.classList.toggle("is-active", isActive);
         }
@@ -838,7 +845,7 @@ const frontmatter = {
           const type = card.getAttribute("data-type");
           const dayKey = card.getAttribute("data-day-group");
           const search = card.getAttribute("data-search") || "";
-          const typeMatch = type !== null && activeTypes.has(type);
+          const typeMatch = activeTypeFilter === ALL_FILTER || (type !== null && activeTypeFilter === type);
           const dayMatch = selectedDay === "all" || dayKey === selectedDay;
           const textMatch = query.length === 0 || search.includes(query);
           card.hidden = !(typeMatch && textMatch && dayMatch);
@@ -926,8 +933,9 @@ const frontmatter = {
           ).filter((b) => !b.hidden);
 
           if (clusterBars.length === 0) return;
-          // Single-session cluster: info is shown inline on the bar, no overlay needed
-          if (clusterBars.length === 1) return;
+          // Single visible bar after filtering may still need overlay details when it belongs
+          // to an originally multi-lane cluster (no inline label in that case).
+          if (clusterBars.length === 1 && clusterBars[0].hasAttribute("data-solo")) return;
 
           // Position overlay at bars' midpoint — top half of bars stays visible, bottom half covered
           const topPx = Math.min(...clusterBars.map((b) => b.offsetTop));
@@ -994,15 +1002,7 @@ const frontmatter = {
           const buttonType = button.getAttribute("data-type-filter");
           if (!buttonType) return;
 
-          if (activeTypes.has(buttonType)) {
-            activeTypes.delete(buttonType);
-          } else {
-            activeTypes.add(buttonType);
-          }
-
-          if (activeTypes.size === 0) {
-            activeTypes = new Set(typeSet);
-          }
+          activeTypeFilter = buttonType;
 
           refreshFilterButtonState();
           applyFilters();
