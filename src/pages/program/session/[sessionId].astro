@@ -8,14 +8,14 @@ import type {
 import { getProgramEventTypeLabel } from "../../../utils/programEventTypeLabel";
 
 type EventPageProps = {
-  eventId: string;
+  sessionId: string;
   event: ProgramSessionList[string];
   session: ProgramSession;
 };
 
 export async function getStaticPaths() {
   const sessionList = sessionListData as unknown as ProgramSessionList;
-  const paths: Array<{ params: { eventId: string }; props: EventPageProps }> =
+  const paths: Array<{ params: { sessionId: string }; props: EventPageProps }> =
     [];
 
   for (const event of Object.values(sessionList)) {
@@ -24,14 +24,14 @@ export async function getStaticPaths() {
       const legacyId = session.session_id;
 
       paths.push({
-        params: { eventId: prefixedId },
-        props: { eventId: prefixedId, event, session },
+        params: { sessionId: prefixedId },
+        props: { sessionId: prefixedId, event, session },
       });
 
-      // Backward compatibility with old /program/event/<session_id> links
+      // Backward compatibility with old non-prefixed session IDs.
       paths.push({
-        params: { eventId: legacyId },
-        props: { eventId: legacyId, event, session },
+        params: { sessionId: legacyId },
+        props: { sessionId: legacyId, event, session },
       });
     }
   }
@@ -39,7 +39,7 @@ export async function getStaticPaths() {
   return paths;
 }
 
-const { eventId, event, session } = Astro.props as EventPageProps;
+const { event, session } = Astro.props as EventPageProps;
 
 const presentations = [...session.time_slots].sort(
   (a, b) => Date.parse(a.time_start) - Date.parse(b.time_start),
