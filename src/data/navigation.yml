@@ -225,7 +225,7 @@ menu:
 
   # ---------------------------------------------------------------------------
   - dropdown: "Program"
-    display: false
+    display: true
     sections:
       - subsections:
           - heading: "Vis Program"
@@ -236,6 +236,10 @@ menu:
                     description: "Preliminary overview of the conference week"
                     url: "/info/program/week-at-a-glance"
                     is_new: false
+                  - text: "Schedule"
+                    description: "Detailed schedule of the conference"
+                    url: "/program/calendar"
+                    is_new: true
                   - text: "Papers"
                     description: "Paper sessions"
                     url: "/info/program/papers_list"

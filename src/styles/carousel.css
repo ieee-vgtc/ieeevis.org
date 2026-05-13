@@ -128,7 +128,8 @@
   list-style: none;
 }
 
-.carousel-indicators li {
+.carousel-indicators li,
+.carousel-indicators button {
   box-sizing: content-box;
   -ms-flex: 0 1 auto;
   flex: 0 1 auto;
@@ -147,7 +148,8 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .carousel-indicators li {
+  .carousel-indicators li,
+  .carousel-indicators button {
     transition: none;
   }
 }
