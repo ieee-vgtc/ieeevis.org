@@ -28,8 +28,9 @@ export default function Carousel({ items }: { items: CarouselItem[] }) {
       <div id="myCarousel" className="carousel slide bg-secondary">
         <ol className="carousel-indicators my-2">
           {items.map((_, i) => (
-            <li
-              data-target="#myCarousel"
+            <button
+              type="button"
+              aria-label={`Go to slide ${i + 1}`}
               className={i == current ? "active" : ""}
               key={`carousel-item-btn-${i}`}
               onClick={() => setCurrent(i)}
