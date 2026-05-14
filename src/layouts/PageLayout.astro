@@ -5,7 +5,7 @@ const { frontmatter } = Astro.props;
 const fullWidth = Boolean(frontmatter.full_width);
 const { pathname } = Astro.url;
 
-const isProgramPage = /year\/202\d\/(info\/)?program/.test(pathname);
+const isProgramPage = /year\/202\d\/program/.test(pathname);
 ---
 
 <DefaultLayout page_info={frontmatter}>
