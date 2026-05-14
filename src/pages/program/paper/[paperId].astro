@@ -1,0 +1,49 @@
+---
+import type { ProgramPaperList } from "../../../types/program";
+import PageLayout from "../../../layouts/PageLayout.astro";
+import paperListData from "../../../data/program_test/paper_list.json";
+
+export async function getStaticPaths() {
+  const papers: ProgramPaperList = paperListData;
+  return papers.map((paper) => ({
+    params: { paperId: paper.id },
+  }));
+}
+
+const papers: ProgramPaperList = paperListData;
+const { paperId } = Astro.params;
+const paper = papers.find((p) => p.id === paperId);
+
+if (!paper) {
+  return new Response(null, { status: 404 });
+}
+
+const frontmatter = {
+  title: paper.title,
+  active_nav: "Program",
+  contact: "web@ieeevis.org",
+};
+---
+
+<PageLayout frontmatter={frontmatter}>
+  <div class="prose max-w-4xl">
+    <h1>{paper.title}</h1>
+    
+    <div class="mb-6">
+      <h2 class="text-lg font-semibold mb-2">Authors</h2>
+      <p>
+        {paper.authors.map((author) => author.name).join(", ")}
+      </p>
+    </div>
+
+    <div class="mb-6">
+      <h2 class="text-lg font-semibold mb-2">Keywords</h2>
+      <p>{paper.keywords?.join(", ") || "N/A"}</p>
+    </div>
+
+    <div class="mb-6">
+      <h2 class="text-lg font-semibold mb-2">Abstract</h2>
+      <p>{paper.abstract}</p>
+    </div>
+  </div>
+</PageLayout>

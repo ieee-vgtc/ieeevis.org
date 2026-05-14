@@ -1,0 +1,68 @@
+---
+import type { ProgramPaperList } from "../../../types/program";
+import PageLayout from "../../../layouts/PageLayout.astro";
+import posterListData from "../../../data/program_test/poster_list.json";
+
+export async function getStaticPaths() {
+  const posters: ProgramPaperList = posterListData;
+  return posters.map((poster) => ({
+    params: { posterId: poster.id },
+  }));
+}
+
+const posters: ProgramPaperList = posterListData;
+const { posterId } = Astro.params;
+const poster = posters.find((p) => p.id === posterId);
+
+if (!poster) {
+  return new Response(null, { status: 404 });
+}
+
+const frontmatter = {
+  title: poster.title,
+  active_nav: "Program",
+  contact: "web@ieeevis.org",
+};
+---
+
+<PageLayout frontmatter={frontmatter}>
+  <div class="prose max-w-4xl">
+    <h1>{poster.title}</h1>
+
+    <div class="mb-6">
+      <h2 class="text-lg font-semibold mb-2">Authors</h2>
+      <p>
+        {poster.authors.map((author) => author.name).join(", ")}
+      </p>
+    </div>
+
+    <div class="mb-6">
+      <h2 class="text-lg font-semibold mb-2">Keywords</h2>
+      <p>{poster.keywords?.join(", ") || "N/A"}</p>
+    </div>
+
+    <!-- pdf url download -->
+    <div class="mb-6">
+      <h2 class="text-lg font-semibold mb-2">PDF</h2>
+      {
+        poster.pdf_url ? (
+          <a
+            href={poster.pdf_url}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-blue-600 hover:underline"
+          >
+            Download PDF
+          </a>
+        ) : (
+          <p>PDF not available.</p>
+        )
+      }
+    </div>
+
+    <!-- <div class="mb-6">
+      <h2 class="text-lg font-semibold mb-2">Abstract</h2>
+      <p>{poster.abstract}</p>
+    </div> -->
+  </div>
+</PageLayout>
