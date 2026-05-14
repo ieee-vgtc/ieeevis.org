@@ -116,5 +116,9 @@ const frontmatter = {
 ---
 
 <PageLayout frontmatter={frontmatter}>
-  <ProgramPapersBrowser papers={paperCards} itemType="paper" client:load />
+  <ProgramPapersBrowser
+    papers={paperCards}
+    itemType="paper"
+    client:only="react"
+  />
 </PageLayout>

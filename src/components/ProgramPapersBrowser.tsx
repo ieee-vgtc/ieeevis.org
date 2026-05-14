@@ -43,21 +43,25 @@ export default function ProgramPapersBrowser({
   storageKeyPrefix = "program-papers",
   itemType,
 }: ProgramPapersBrowserProps) {
-  const [searchQuery, setSearchQuery] = useState("");
-  const [searchField, setSearchField] = useState<SearchField>("any");
-  const [sortMode, setSortMode] = useState<SortMode>("title");
-  const [bookmarkedIds, setBookmarkedIds] = useState<Set<string>>(new Set());
-
   const bookmarkKey = `${storageKeyPrefix}-bookmarks`;
 
-  useEffect(() => {
-    setBookmarkedIds(parseStoredSet(bookmarkKey));
-
-    const params = new URLSearchParams(window.location.search);
-    setSearchQuery(params.get("search") || "");
-    setSearchField((params.get("filter") as SearchField) || "any");
-    setSortMode((params.get("sort") as SortMode) || "title");
-  }, [bookmarkKey]);
+  const [searchQuery, setSearchQuery] = useState(
+    () => new URLSearchParams(window.location.search).get("search") || "",
+  );
+  const [searchField, setSearchField] = useState<SearchField>(
+    () =>
+      (new URLSearchParams(window.location.search).get(
+        "filter",
+      ) as SearchField) || "any",
+  );
+  const [sortMode, setSortMode] = useState<SortMode>(
+    () =>
+      (new URLSearchParams(window.location.search).get("sort") as SortMode) ||
+      "title",
+  );
+  const [bookmarkedIds, setBookmarkedIds] = useState<Set<string>>(() =>
+    parseStoredSet(`${storageKeyPrefix}-bookmarks`),
+  );
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
