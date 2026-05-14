@@ -247,7 +247,7 @@ export default function ProgramPapersBrowser({
               data-session={paper.sessionLabel.toLowerCase()}
               data-start-ms={paper.startMs}
             >
-              <div className="bg-accent-secondaryBackground p-4 h-1/2 min-h-1/2">
+              <div className="bg-accent-secondaryBackground p-4 md:h-1/2 md:min-h-1/2">
                 <button
                   className="absolute right-1.5 top-1.5 cursor-pointer border-0 bg-transparent p-1 leading-none text-accent"
                   type="button"
@@ -263,7 +263,7 @@ export default function ProgramPapersBrowser({
                 </button>
 
                 <a
-                  className="m-0 pr-6 font-display leading-tight !text-black text-xl cursor-pointer   decoration-primary-200 decoration-dotted "
+                  className="m-0 pr-6 font-display leading-tight text-black! text-xl cursor-pointer   decoration-primary-200 decoration-dotted "
                   href={withBaseURL(`/program/${itemType}/${paper.id}`)}
                   data-paper-link
                 >
@@ -289,7 +289,7 @@ export default function ProgramPapersBrowser({
                           <a
                             className="text-primary underline decoration-primary-200 decoration-dotted underline-offset-3 hover:text-primary-700 focus-visible:text-primary-700"
                             href={withBaseURL(
-                              `/program/papers?filter=authors&search=${encodeURIComponent(authorName)}`,
+                              `/program/papers?search=${encodeURIComponent(authorName)}`,
                             )}
                           >
                             {authorName}
@@ -311,9 +311,16 @@ export default function ProgramPapersBrowser({
                   ) : (
                     paper.scheduleLabel
                   )}
+                  <a
+                    className="text-primary underline decoration-primary-200 decoration-dotted underline-offset-3 hover:text-primary-700 focus-visible:text-primary-700 ml-2"
+                    href={withBaseURL(
+                      `/program/papers?search=${encodeURIComponent(paper.sessionLabel)}`,
+                    )}
+                    data-visit-link
+                  >
+                    Search for papers in this session
+                  </a>
                 </p>
-
-                <p className="hidden">{paper.abstractText}</p>
               </div>
             </article>
           );
