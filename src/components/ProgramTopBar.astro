@@ -1,0 +1,48 @@
+---
+import { withBaseURL } from "../utils/withBaseURL";
+const { pathname } = Astro.url;
+
+const links = [
+  { href: "/program/calendar", label: "Schedule" },
+  { href: "/program/sessions", label: "All Events" },
+  { href: "/info/program/papers_list", label: "Accepted Papers" },
+  { href: "/program/posters", label: "Posters" },
+];
+---
+
+<div
+  class="flex w-full flex-col bg-accent-secondaryBackground md:flex-row"
+  aria-label="Program section navigation"
+>
+  <div
+    class="flex min-h-13 items-center bg-primary px-4 font-display text-lg font-bold md:basis-32 md:text-base lg:text-lg text-white"
+  >
+    Content
+  </div>
+
+  <nav
+    class="flex items-center gap-1 overflow-x-auto px-3 py-2 md:flex-1 md:justify-end md:px-6 md:py-0"
+  >
+    {
+      links.map((link) => {
+        const isActive = pathname.includes(link.href);
+        return (
+          <a
+            class:list={[
+              " font-display text-lg md:text-base lg:text-lg whitespace-nowrap px-3 py-2 md:py-4 border-b-2 transition-colors text-accent",
+              {
+                "border-accent": isActive,
+                "border-transparent hover:bg-white/10 focus-visible:bg-white/10":
+                  !isActive,
+              },
+            ]}
+            href={withBaseURL(link.href)}
+            aria-current={isActive ? "page" : undefined}
+          >
+            {link.label}
+          </a>
+        );
+      })
+    }
+  </nav>
+</div>
