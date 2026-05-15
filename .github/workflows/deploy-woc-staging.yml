@@ -1,4 +1,4 @@
-name: Deploy Staging Site
+name: Deploy Week-of-Conference Staging Site
 
 on:
   push:
