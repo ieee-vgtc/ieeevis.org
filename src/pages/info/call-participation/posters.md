@@ -64,8 +64,8 @@ Poster submissions are single-blind and do not need to be anonymized. Submission
 ## PLAGIARISM
 
 All submissions must be either: 
-- 1) original work that has not been presented previously at any workshop, symposium, or conference and not published previously in any archived conference proceeding, magazine, or journal.
-- 2) a summary that highlights work presented or published by the authors in a related venue with a clear statement of attribution to the original work and clearly new content such as results, observations or reflections
+- original work that has not been presented previously at any workshop, symposium, or conference and not published previously in any archived conference proceeding, magazine, or journal.
+- a summary that highlights work presented or published by the authors in a related venue with a clear statement of attribution to the original work and clearly new content such as results, observations or reflections
 
 At the time of submission, it is required by the authors to state explicitly in the submission form that the submitted work is the work by the authors themselves or is a summary of the authors’ previously presented/published work with clear attribution. Plagiarism in any form is unacceptable and will lead to the removal of the submission from the review process. For more information, please see the IEEE Plagiarism FAQ and the IEEE Publication Services and Products Board Operations Manual.
 
