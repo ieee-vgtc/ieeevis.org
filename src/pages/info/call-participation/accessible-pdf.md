@@ -117,6 +117,7 @@ If you have followed the above steps, your final documents should be accessible.
 ### Accessibility Chairs
 
 - Sandra Bae _University of Arizona_
-- Laura Koesten _University of Vienna_
+- Ab Mosca _Smith College_
+- Jonathon Zong _University of Colorado, Boulder_
 
-_Email: [accessibility@ieeevis.org](mailto:accessibility@ieeevis.org)_
+_Email: [inclusivity_accessibility@ieeevis.org](mailto:inclusivity_accessibility@ieeevis.org)_
