@@ -53,7 +53,7 @@ active_nav: "Organization & History"
 | **Poster Chairs**                         |                                                              |
 | Benjamin Bach                             | _University of Edinburgh_                                    |
 | Narges Mahyar                             | _City St George’s, University of London_                     |
-| Thomas Hoellt                             | _TU Delft_                                                   |
+| Thomas Höllt                              | _University of Bergen_                                       |
 | Lingyun Yu                                | _Xi'an Jiaotong-Liverpool University_                        |
 |                                           |                                                              |
 | **Panels & Tutorials Chairs**             |                                                              |
