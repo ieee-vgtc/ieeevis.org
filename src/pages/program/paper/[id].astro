@@ -1,0 +1,130 @@
+---
+/**
+ * Dynamic paper page
+ * URL: /program/paper/[id]
+ * Generates static pages for all papers at build time
+ */
+import PageLayout from '../../../layouts/PageLayout.astro';
+import PaperDetail from '../../../components/PaperDetail.astro';
+import { getPaperPaths, fetchAllPapers } from '../../../utils/paperData';
+import { features } from '../../../config/features';
+import type { Paper } from '../../../types/paper';
+
+// Generate static paths for all papers
+export async function getStaticPaths() {
+  if (!features.weekOfVis.enabled) {
+    return [];
+  }
+  
+  return await getPaperPaths();
+}
+
+interface Props {
+  paper: Paper;
+}
+
+const { paper } = Astro.props;
+
+// Fetch all papers for navigation
+const allPapers = await fetchAllPapers();
+const currentIndex = allPapers.findIndex(p => p.id === paper.id);
+const prevPaper = currentIndex > 0 ? allPapers[currentIndex - 1] : null;
+const nextPaper = currentIndex < allPapers.length - 1 ? allPapers[currentIndex + 1] : null;
+
+const frontmatter = {
+  title: `${paper.title} - IEEE VIS 2025`,
+  description: paper.abstract.substring(0, 160) + '...',
+  active_nav: 'Program',
+};
+---
+
+<PageLayout frontmatter={frontmatter}>
+  <div class="paper-page-container">
+    <!-- Paper Navigation Breadcrumbs -->
+    <nav class="paper-navigation" aria-label="Paper navigation">
+      <div class="nav-prev">
+        {prevPaper ? (
+          <a href={`/program/paper/${prevPaper.id}`} title={prevPaper.title}>
+            <span class="nav-arrow">←</span> Previous
+          </a>
+        ) : (
+          <span class="nav-disabled">
+            <span class="nav-arrow">←</span> Previous
+          </span>
+        )}
+      </div>
+      <div class="nav-center">
+        <a href="/year/2026/program/papers">All Papers</a>
+      </div>
+      <div class="nav-next">
+        {nextPaper ? (
+          <a href={`/program/paper/${nextPaper.id}`} title={nextPaper.title}>
+            Next <span class="nav-arrow">→</span>
+          </a>
+        ) : (
+          <span class="nav-disabled">
+            Next <span class="nav-arrow">→</span>
+          </span>
+        )}
+      </div>
+    </nav>
+
+    <!-- Paper Detail Component -->
+    <PaperDetail paper={paper} prevPaper={prevPaper} nextPaper={nextPaper} />
+  </div>
+</PageLayout>
+
+<style>
+  .paper-page-container {
+    width: 100%;
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+
+  .paper-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #dee2e6;
+    font-size: 0.95rem;
+  }
+
+  .paper-navigation a {
+    color: #007bff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+  }
+
+  .paper-navigation a:hover {
+    background-color: #f8f9fa;
+  }
+
+  .nav-arrow {
+    font-weight: bold;
+  }
+
+  .nav-disabled {
+    color: #6c757d;
+    padding: 0.5rem 1rem;
+    cursor: not-allowed;
+  }
+
+  .nav-center {
+    font-weight: 500;
+  }
+
+  @media (max-width: 768px) {
+    .paper-page-container {
+      padding: 0 1rem;
+    }
+
+    .paper-navigation {
+      font-size: 0.875rem;
+    }
+  }
+</style>
