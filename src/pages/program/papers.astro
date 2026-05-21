@@ -1,124 +1,248 @@
 ---
-import PageLayout from "../../layouts/PageLayout.astro";
-import paperListData from "../../data/program_test/paper_list.json";
-import sessionListData from "../../data/program_test/session_list.json";
-import { withBaseURL } from "../../utils/withBaseURL";
-import ProgramPapersBrowser from "../../components/ProgramPapersBrowser";
-import type {
-  ProgramPaperList,
-  ProgramSessionList,
-  ProgramTimeSlot,
-  ProgramSubmission,
-} from "../../types/program";
-import type { ProgramPaperCard } from "../../components/ProgramPapersBrowser";
+/**
+ * Papers list page
+ * URL: /program/papers
+ * Shows all papers grouped by type
+ */
+import PageLayout from '../../layouts/PageLayout.astro';
+import { fetchAllPapers } from '../../utils/paperData';
+import { features } from '../../config/features';
+import { withBaseURL } from '../../utils/withBaseURL';
+import { getPaperTypeDisplayName } from '../../types/paper';
+import type { Paper } from '../../types/paper';
 
-const CONFERENCE_TIME_ZONE = "Europe/Vienna";
-
-type PaperSessionMeta = {
-  sessionSlug: string;
-  sessionTitle: string;
-  roomName: string;
-  eventTitle: string;
-  paperType: string;
-  startISO: string;
-  endISO: string;
-  startMs: number;
-};
-
-const conferenceDateTimeFormatter = new Intl.DateTimeFormat("en-US", {
-  timeZone: CONFERENCE_TIME_ZONE,
-  weekday: "short",
-  month: "short",
-  day: "numeric",
-  hour: "2-digit",
-  minute: "2-digit",
-  hour12: false,
-});
-
-const normalizeText = (value: string | null | undefined) =>
-  (value || "").trim();
-
-const slotMetadataByPaperId = new Map<string, PaperSessionMeta>();
-const sessionList = sessionListData as unknown as ProgramSessionList;
-
-for (const event of Object.values(sessionList)) {
-  for (const session of event.sessions) {
-    const sessionSlug = `${session.event_prefix}-${session.session_id}`;
-    for (const slot of session.time_slots as ProgramTimeSlot[]) {
-      if (!slot.uid) {
-        continue;
-      }
-
-      const slotStart = slot.time_start || session.time_start;
-      const slotEnd = slot.time_end || session.time_end;
-      slotMetadataByPaperId.set(slot.uid, {
-        sessionSlug,
-        sessionTitle: session.title,
-        roomName: session.room_name,
-        eventTitle: event.long_name,
-        paperType: slot.paper_type,
-        startISO: slotStart,
-        endISO: slotEnd,
-        startMs: Date.parse(slotStart),
-      });
-    }
-  }
+// Only render this page if the feature is enabled
+if (!features.weekOfVis.enabled) {
+  return Astro.redirect('/404');
 }
 
-const papers = paperListData as unknown as ProgramSubmission[];
+const allPapers = await fetchAllPapers();
 
-const paperCards: ProgramPaperCard[] = papers.map((paper) => {
-  const linkedSlot = slotMetadataByPaperId.get(paper.id);
-  const authors = (paper.authors || [])
-    .map((author) => normalizeText(author.name))
-    .filter(Boolean);
-  const keywords = (paper.keywords || [])
-    .map((keyword) => normalizeText(keyword))
-    .filter(Boolean);
+// Group papers by type
+const papersByType = allPapers.reduce((acc, paper) => {
+  if (!acc[paper.event_prefix]) {
+    acc[paper.event_prefix] = [];
+  }
+  acc[paper.event_prefix].push(paper);
+  return acc;
+}, {} as Record<string, Paper[]>);
 
-  const startISO = linkedSlot?.startISO || null;
-  const presentationLabel = linkedSlot?.paperType || "VIS Paper";
-  const sessionLabel = linkedSlot?.sessionTitle || "Session TBA";
-  const scheduleLabel = startISO
-    ? `${conferenceDateTimeFormatter.format(new Date(startISO))} - ${sessionLabel}`
-    : sessionLabel;
-
-  return {
-    id: paper.id,
-    title: normalizeText(paper.title) || "Untitled submission",
-    authorNames: authors,
-    keywordsLabel:
-      keywords.length > 0 ? keywords.join(", ") : "No keywords listed",
-    abstractText: normalizeText(paper.abstract) || "Abstract not available.",
-    presentationLabel,
-    sessionLabel,
-    scheduleLabel,
-    startMs:
-      linkedSlot?.startMs && Number.isFinite(linkedSlot.startMs)
-        ? linkedSlot.startMs
-        : Number.MAX_SAFE_INTEGER,
-    doiUrl: paper.doi ? `https://doi.org/${paper.doi}` : null,
-    preprintUrl: normalizeText(paper.preprint_link) || null,
-    supplementalUrl: normalizeText(paper.open_access_supplemental_link) || null,
-    sessionUrl: linkedSlot?.sessionSlug
-      ? withBaseURL(`/program/session/${linkedSlot.sessionSlug}`)
-      : null,
-    award: normalizeText(paper.award) || null,
-  };
+// Sort papers within each type by title
+Object.keys(papersByType).forEach(type => {
+  papersByType[type].sort((a, b) => a.title.localeCompare(b.title));
 });
 
 const frontmatter = {
-  title: "VIS Papers",
-  active_nav: "Accepted Papers",
-  contact: "web@ieeevis.org",
-  full_width: true,
+  title: 'Papers - IEEE VIS 2025',
+  description: 'Browse all papers accepted at IEEE VIS 2025',
+  active_nav: 'Program',
 };
 ---
 
 <PageLayout frontmatter={frontmatter}>
-  <ProgramPapersBrowser
-    papers={paperCards}
-    itemType="paper"
-    client:only="react"
-  />
+  <div class="container py-8">
+    <h1 class="page-title">IEEE VIS 2025 Papers</h1>
+    <p class="page-description">
+      Explore all {allPapers.length} papers accepted at IEEE VIS 2025.
+    </p>
+
+    <!-- Summary Statistics -->
+    <div class="paper-stats">
+      {Object.entries(papersByType).map(([type, papers]) => (
+        <div class="stat-card">
+          <div class="stat-number">{papers.length}</div>
+          <div class="stat-label">{getPaperTypeDisplayName(type)}</div>
+        </div>
+      ))}
+    </div>
+
+    <!-- Papers by Type -->
+    {Object.entries(papersByType).map(([type, papers]) => (
+      <section class="paper-type-section" id={type}>
+        <h2 class="section-title">
+          {getPaperTypeDisplayName(type)} ({papers.length})
+        </h2>
+        
+        <div class="papers-grid">
+          {papers.map((paper) => (
+            <article class="paper-card">
+              <a href={withBaseURL(`/program/paper/${paper.id}`)} class="paper-card-link">
+                {paper.award && (
+                  <div class={`award-badge award-badge--${paper.award}`}>
+                    {paper.award === 'best' ? '🏆 Best Paper' : '🎖️ Honorable Mention'}
+                  </div>
+                )}
+                
+                <h3 class="paper-card-title">{paper.title}</h3>
+                
+                <div class="paper-card-authors">
+                  {paper.authors.slice(0, 3).map((author, i) => (
+                    <span>
+                      {author.name}
+                      {i < Math.min(2, paper.authors.length - 1) ? ', ' : ''}
+                    </span>
+                  ))}
+                  {paper.authors.length > 3 && <span>, et al.</span>}
+                </div>
+                
+                {paper.keywords && paper.keywords.length > 0 && (
+                  <div class="paper-card-keywords">
+                    {paper.keywords.slice(0, 3).map((keyword) => (
+                      <span class="keyword-tag">{keyword}</span>
+                    ))}
+                    {paper.keywords.length > 3 && <span class="keyword-more">+{paper.keywords.length - 3}</span>}
+                  </div>
+                )}
+              </a>
+            </article>
+          ))}
+        </div>
+      </section>
+    ))}
+  </div>
 </PageLayout>
+
+<style>
+  .page-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  .page-description {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 2rem;
+  }
+
+  .paper-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .stat-card {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+  }
+
+  .stat-number {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+  .stat-label {
+    font-size: 0.9rem;
+    opacity: 0.9;
+    margin-top: 0.5rem;
+  }
+
+  .paper-type-section {
+    margin-bottom: 4rem;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid #dee2e6;
+  }
+
+  .papers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .paper-card {
+    background: white;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 1.5rem;
+    transition: all 0.2s ease;
+    position: relative;
+  }
+
+  .paper-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+  }
+
+  .paper-card-link {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .award-badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.25rem 0.75rem;
+    font-size: 0.75rem;
+    font-weight: bold;
+    border-radius: 0 8px 0 8px;
+  }
+
+  .award-badge--best {
+    background-color: #ffd700;
+    color: #000;
+  }
+
+  .award-badge--honorable {
+    background-color: #c0c0c0;
+    color: #000;
+  }
+
+  .paper-card-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    line-height: 1.4;
+    color: #333;
+  }
+
+  .paper-card:hover .paper-card-title {
+    color: #007bff;
+  }
+
+  .paper-card-authors {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 0.75rem;
+  }
+
+  .paper-card-keywords {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .keyword-tag {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    background-color: #e9ecef;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    color: #495057;
+  }
+
+  .keyword-more {
+    color: #6c757d;
+    font-size: 0.75rem;
+  }
+
+  @media (max-width: 768px) {
+    .page-title {
+      font-size: 2rem;
+    }
+
+    .papers-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
