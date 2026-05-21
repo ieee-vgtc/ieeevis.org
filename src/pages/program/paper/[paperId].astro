@@ -1,22 +1,86 @@
 ---
-import type { ProgramPaperList } from "../../../types/program";
 import PageLayout from "../../../layouts/PageLayout.astro";
-import paperListData from "../../../data/program_test/paper_list.json";
+import { fetchAllPapers } from "../../../utils/paperData";
+import { features } from "../../../config/features";
+import { withBaseURL } from "../../../utils/withBaseURL";
+import sessionListData from "../../../data/program_test/session_list.json";
+import type { Paper } from "../../../types/paper";
+import type { ProgramSessionList, ProgramTimeSlot } from "../../../types/program";
+
+const EVENT_PREFIX_LABELS: Record<string, string> = {
+  "v-full": "VIS Full Papers",
+  "v-short": "VIS Short Papers",
+  "a-visap": "VISAP",
+  "v-tvcg": "TVCG Papers",
+};
+
+// Maps event_prefix to the event_type used by sessions.astro filter pills
+const EVENT_PREFIX_TO_TYPE: Record<string, string> = {
+  "v-full": "full",
+  "v-short": "short",
+  "a-visap": "visap",
+  "v-tvcg": "tvcg",
+};
 
 export async function getStaticPaths() {
-  const papers: ProgramPaperList = paperListData;
-  return papers.map((paper) => ({
-    params: { paperId: paper.id },
-  }));
+  if (!features.weekOfVis.enabled) {
+    return [];
+  }
+
+  // Build a map from slot.uid (= paper.id UUID) → session info
+  const sessionList = sessionListData as unknown as ProgramSessionList;
+  const slotSessionMap = new Map<string, { session_id: string; session_title: string }>();
+  for (const event of Object.values(sessionList)) {
+    for (const session of event.sessions) {
+      for (const slot of session.time_slots as ProgramTimeSlot[]) {
+        if (slot.uid) {
+          slotSessionMap.set(slot.uid, {
+            session_id: session.session_id,
+            session_title: session.title,
+          });
+        }
+      }
+    }
+  }
+
+  const papers = await fetchAllPapers();
+  return papers.map((paper) => {
+    const sessionInfo = slotSessionMap.get(paper.id);
+    const enrichedPaper: Paper = {
+      ...paper,
+      ...(sessionInfo && {
+        session_id: sessionInfo.session_id,
+        session_title: sessionInfo.session_title,
+      }),
+    };
+    return {
+      params: { paperId: paper.id },
+      props: { paper: enrichedPaper },
+    };
+  });
 }
 
-const papers: ProgramPaperList = paperListData;
-const { paperId } = Astro.params;
-const paper = papers.find((p) => p.id === paperId);
-
-if (!paper) {
-  return new Response(null, { status: 404 });
+interface Props {
+  paper: Paper;
 }
+
+const { paper } = Astro.props;
+
+// Breadcrumb data
+const eventLabel =
+  paper.event_title || EVENT_PREFIX_LABELS[paper.event_prefix] || paper.event_prefix;
+// Link to sessions page pre-filtered by this paper's event type
+const eventType = EVENT_PREFIX_TO_TYPE[paper.event_prefix] || paper.event_prefix;
+const eventUrl = withBaseURL(`/program/sessions?type=${eventType}`);
+const sessionSlug =
+  paper.event_prefix && paper.session_id
+    ? `${paper.event_prefix}-${paper.session_id}`
+    : null;
+const sessionUrl = sessionSlug
+  ? withBaseURL(`/program/session/${sessionSlug}`)
+  : null;
+
+const awardLabel = paper.award === "best" ? "\uD83C\uDFC6 Best Paper Award" : "\uD83C\uDF96\uFE0F Honorable Mention";
 
 const frontmatter = {
   title: paper.title,
@@ -27,23 +91,254 @@ const frontmatter = {
 
 <PageLayout frontmatter={frontmatter}>
   <div class="prose max-w-4xl">
+
+    <!-- Breadcrumb navigation with bookmark at end -->
+    <nav class="breadcrumb not-prose" aria-label="Breadcrumb">
+      <ol class="breadcrumb__list">
+        <li class="breadcrumb__item">
+          <a href={eventUrl} class="breadcrumb__link">{eventLabel}</a>
+        </li>
+
+        {paper.session_title && sessionUrl && (
+          <>
+            <li class="breadcrumb__sep" aria-hidden="true">›</li>
+            <li class="breadcrumb__item">
+              <a href={sessionUrl} class="breadcrumb__link">{paper.session_title}</a>
+            </li>
+          </>
+        )}
+
+        <li class="breadcrumb__sep" aria-hidden="true">›</li>
+        <li class="breadcrumb__item breadcrumb__item--current" aria-current="page">
+          <span class="breadcrumb__current">{paper.title}</span>
+        </li>
+      </ol>
+
+      <!-- Bookmark icon button at the end of the breadcrumb row -->
+      <button
+        id="bookmarkBtn"
+        class="bookmark-icon-btn"
+        data-paper-id={paper.id}
+        aria-label="Bookmark this paper"
+        title="Bookmark this paper"
+      >
+        <svg id="bookmark-icon-empty" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+        </svg>
+        <svg id="bookmark-icon-filled" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" style="display:none">
+          <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+        </svg>
+      </button>
+    </nav>
+
     <h1>{paper.title}</h1>
-    
+
+    <!-- Award badge -->
+    {paper.award && (
+      <p class="award-badge not-prose">{awardLabel}</p>
+    )}
+
+    <!-- Authors -->
     <div class="mb-6">
-      <h2 class="text-lg font-semibold mb-2">Authors</h2>
+      <h2>Authors</h2>
       <p>
-        {paper.authors.map((author) => author.name).join(", ")}
+        {paper.authors
+          .map((a) => a.affiliation ? `${a.name} (${a.affiliation})` : a.name)
+          .join(", ")}
       </p>
     </div>
 
+    <!-- Links (immediately after authors, styled as plain inline links matching authors) -->
+    {(paper.preprint_link || paper.doi || paper.open_access_supplemental_link) && (
+      <div class="paper-links mb-6">
+        <h2>Links</h2>
+        <ul>
+          {paper.preprint_link && (
+            <li>
+              <a href={paper.preprint_link} target="_blank" rel="noopener noreferrer">
+                Download preprint PDF
+              </a>
+            </li>
+          )}
+          {paper.open_access_supplemental_link && (
+            <li>
+              <a href={paper.open_access_supplemental_link} target="_blank" rel="noopener noreferrer">
+                Download Supplemental Material
+              </a>
+            </li>
+          )}
+          {paper.doi && (
+            <li>
+              <a href={`https://doi.org/${paper.doi}`} target="_blank" rel="noopener noreferrer">
+                DOI: {paper.doi}
+              </a>
+            </li>
+          )}
+        </ul>
+      </div>
+    )}
+
+    <!-- Keywords -->
     <div class="mb-6">
-      <h2 class="text-lg font-semibold mb-2">Keywords</h2>
+      <h2>Keywords</h2>
       <p>{paper.keywords?.join(", ") || "N/A"}</p>
     </div>
 
+    <!-- Abstract -->
     <div class="mb-6">
-      <h2 class="text-lg font-semibold mb-2">Abstract</h2>
+      <h2>Abstract</h2>
       <p>{paper.abstract}</p>
     </div>
+
+    <!-- For Practitioners -->
+    {paper.practitioners_statement && (
+      <div class="mb-6">
+        <h2>For Practitioners</h2>
+        <p>{paper.practitioners_statement}</p>
+      </div>
+    )}
+
   </div>
 </PageLayout>
+
+<script>
+  const btn = document.getElementById("bookmarkBtn") as HTMLButtonElement | null;
+  const iconEmpty = document.getElementById("bookmark-icon-empty");
+  const iconFilled = document.getElementById("bookmark-icon-filled");
+  const paperId = btn?.dataset.paperId;
+
+  // Must match ProgramPapersBrowser's default storageKeyPrefix "program-papers"
+  const STORAGE_KEY = "program-papers-bookmarks";
+
+  function getBookmarks(): string[] {
+    try {
+      return JSON.parse(localStorage.getItem(STORAGE_KEY) ?? "[]");
+    } catch {
+      return [];
+    }
+  }
+
+  function updateBtn() {
+    if (!btn || !paperId) return;
+    const bookmarked = getBookmarks().includes(paperId);
+    btn.classList.toggle("bookmarked", bookmarked);
+    btn.setAttribute("aria-label", bookmarked ? "Remove bookmark" : "Bookmark this paper");
+    btn.setAttribute("title", bookmarked ? "Remove bookmark" : "Bookmark this paper");
+    if (iconEmpty) iconEmpty.style.display = bookmarked ? "none" : "";
+    if (iconFilled) iconFilled.style.display = bookmarked ? "" : "none";
+  }
+
+  btn?.addEventListener("click", () => {
+    if (!paperId) return;
+    const bookmarks = getBookmarks();
+    const idx = bookmarks.indexOf(paperId);
+    if (idx === -1) {
+      bookmarks.push(paperId);
+    } else {
+      bookmarks.splice(idx, 1);
+    }
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(bookmarks));
+    updateBtn();
+  });
+
+  updateBtn();
+</script>
+
+<style>
+  /* Breadcrumb */
+  .breadcrumb {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0.5rem;
+    padding: 0.75rem 0;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #dee2e6;
+    font-size: 0.875rem;
+  }
+
+  .breadcrumb__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.25rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+  }
+
+  .breadcrumb__sep {
+    color: #adb5bd;
+    user-select: none;
+  }
+
+  .breadcrumb__link {
+    color: var(--color-accent);
+    text-decoration: none;
+  }
+
+  .breadcrumb__link:visited {
+    color: var(--color-primary-800);
+  }
+
+  .breadcrumb__link:hover {
+    text-decoration: underline;
+  }
+
+  .breadcrumb__current {
+    color: #555;
+    /* Truncate long titles in the breadcrumb */
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    max-width: 30ch;
+  }
+
+  /* Bookmark icon button */
+  .bookmark-icon-btn {
+    flex-shrink: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.2rem;
+    color: #adb5bd;
+    line-height: 0;
+    transition: color 0.15s;
+    align-self: center;
+  }
+
+  .bookmark-icon-btn:hover {
+    color: var(--color-accent);
+  }
+
+  .bookmark-icon-btn.bookmarked {
+    color: var(--color-accent);
+  }
+
+  /* Award badge */
+  .award-badge {
+    display: inline-block;
+    background: #fff3cd;
+    border: 1px solid #ffc107;
+    border-radius: 4px;
+    padding: 0.3rem 0.75rem;
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+  }
+
+  /* Links section - styled as prose, plain inline links */
+  .paper-links a {
+    color: var(--color-accent);
+    text-decoration: none;
+  }
+
+  .paper-links a:visited {
+    color: var(--color-primary-800);
+  }
+
+  .paper-links a:hover {
+    text-decoration: underline;
+  }
+</style>

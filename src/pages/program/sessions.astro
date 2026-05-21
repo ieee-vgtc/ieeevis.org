@@ -457,6 +457,12 @@ const frontmatter = {
         });
       }
 
+      // Pre-apply type filter from URL param (?type=full, etc.)
+      const urlTypeParam = new URLSearchParams(location.search).get("type");
+      if (urlTypeParam && filterButtons.some((b) => b.getAttribute("data-type-filter") === urlTypeParam)) {
+        activeTypeFilter = urlTypeParam;
+      }
+
       refreshFilterButtonState();
       refreshTimeRanges();
       applyFilters();
