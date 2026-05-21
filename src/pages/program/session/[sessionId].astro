@@ -3,6 +3,8 @@ import PageLayout from "../../../layouts/PageLayout.astro";
 import sessionListData from "../../../data/program_test/session_list.json";
 import type { ProgramSession, ProgramSessionList } from "../../../types/program";
 import { getProgramEventTypeLabel } from "../../../utils/programEventTypeLabel";
+import { withBaseURL } from "../../../utils/withBaseURL";
+import { features } from "../../../config/features";
 
 type EventPageProps = {
   sessionId: string;
@@ -94,7 +96,11 @@ const frontmatter = {
       {presentations.map((slot) => (
         <article class="program-presentation">
           <p class="program-presentation-time">{formatSlotRange(slot.time_start, slot.time_end)}</p>
-          <h3>{slot.title}</h3>
+          {features.weekOfVis.enabled && slot.uid ? (
+            <h3><a href={withBaseURL(`/program/paper/${slot.uid}`)}>{slot.title}</a></h3>
+          ) : (
+            <h3>{slot.title}</h3>
+          )}
           {slot.authors && slot.authors.length > 0 && (
             <p class="program-presentation-authors">
               Authors: {slot.authors.map((author) => author.name).join(", ")}
