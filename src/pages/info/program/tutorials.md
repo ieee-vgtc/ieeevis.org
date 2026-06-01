@@ -44,7 +44,6 @@ There are currently two main approaches for running online user studies: experim
 Trevor Manz, _marimo_  
 Kiran Gadhave, _marimo_
 
-Tamara Munzner Computer Science, University of British Columbia, Vancouver, British Columbia, Canada, tmm@cs.ubc.ca
 This tutorial is for authors of interactive visualization systems that want to reach users in Python notebooks. Widgets are interactive views or controls for Python objects that render inside notebook cells. Many interactive visualization systems are built as standalone JavaScript applications. A widget lets us integrate such tools into a notebook, where it can live alongside the data that drives it. The tutorial teaches how to author and package widgets for multiple notebook environments so they become shareable, pip-installable building blocks. We use anywidget (https://anywidget.dev) for building widgets and marimo (https://marimo.io), a reactive Python notebook in the style of Observable, for prototyping and using them. Because marimo is reactive, widgets become first-class participants in its dataflow: a user interaction in the browser turns into a variable change that downstream cells react to. We cover the anywidget contract, two-way state between JavaScript and Python, composing widgets with marimo's reactivity, and packaging for distribution to Jupyter, marimo, Colab, VS Code, and Databricks.
 
 ## <a name="compression"></a> Lossy Compression for Scientific Data: Principles, Tools, and Implications for Visualization
