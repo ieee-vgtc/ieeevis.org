@@ -6,9 +6,7 @@ sidebar: program
 active_nav: "Program"
 ---
 
-## Accepted Tutorials
-
-Here is the list of the accepted tutorials.
+The following tutorials went through our [submission/review process](/year/2026/info/call-participation/tutorials).
 
 - [Introduction to Quantum Computing for Visualization Researchers](#quantum)
 - [Running Online User Studies with the reVISit Framework](#revisit)
@@ -39,7 +37,7 @@ Alexander Lex, _Graz University of Technology_, _University of Utah_
 
 There are currently two main approaches for running online user studies: experimenters can use commercial survey tools, which are easy to use but can be costly, hamper reproducibility, and have limitations for complex stimuli; or they can build custom software to run and instrument a study, which is a laborious and complex task. In this tutorial, we introduce participants to a new, open-source alternative: the reVISit study platform. Many studies quickly reach a burdensome level of complexity, necessitating design of stimuli and experimental tasks as well as the study UI, data hosting, participant recruiting, randomization, etc. ReVISit ameliorates these problems and allows study designers to focus more on the research questions and stimulus design. ReVISit removes the tedium of study design by providing built-in components that most studies will need. ReVISit provides a domain-specific language and a notebook-oriented library that enables study designers to quickly create studies and deploy them as publicly accessible websites. This tutorial will introduce reVISit to the visualization community and allow community members to get hands-on experience with it through a series of practical examples. Participants will improve on a study until they have developed and deployed a study of an interactive, fully instrumented data visualization.
 
-## <a name="nd"></a> Custom widgets for Python notebooks with anywidget and marimo
+## <a name="nb"></a> Custom widgets for Python notebooks with anywidget and marimo
 
 Trevor Manz, _marimo_  
 Kiran Gadhave, _marimo_
