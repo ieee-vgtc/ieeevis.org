@@ -115,6 +115,23 @@ menu:
             description: "The IEEE VIS Code of Conduct"
             heading_url: "/info/inclusion/code-of-conduct"
       - subsections:
+          - heading: "Competitions"
+            description: "Advancing visualization through competition"
+            columns:
+              - links:
+                  - text: "Bio+MedVis Challenge"
+                    description: "Challenges from the Bio+MedVis field"
+                    url: "http://biovis.net/2026/biovisChallenges_vis/"
+                    is_external: true
+                  - text: "SciVis Contest"
+                    description: "Material Science Challenge: discovery of novel materials"
+                    url: "https://sciviscontest2026.github.io/"
+                    is_external: true
+                  - text: "VAST Challenge"
+                    description: "Return to the island nation famous for fishing and quiet seaside communities"
+                    url: "https://vast-challenge.github.io/2026/"
+                    is_new: false
+                    is_external: true
           - heading: "Get Involved"
             columns:
               - links:
@@ -229,29 +246,29 @@ menu:
 
   # ---------------------------------------------------------------------------
   - dropdown: "Program"
-    display: false
+    display: true
     sections:
       - subsections:
           - heading: "Vis Program"
             heading_url: "/info/program/week-at-a-glance"
             columns:
               - links:
-                  - text: "Week at a Glance"
-                    description: "Preliminary overview of the conference week"
-                    url: "/info/program/week-at-a-glance"
-                    is_new: false
-                  - text: "Papers"
-                    description: "Paper sessions"
-                    url: "/info/program/papers_list"
-                    is_new: false
-                  - text: "Posters"
-                    description: "Nascent and recent work"
-                    url: "/info/program/posters"
-                    is_new: false
-                  - text: "Panels"
-                    description: "Discuss important and controversial issues"
-                    url: "/info/program/panels"
-                    is_new: false
+                  # - text: "Week at a Glance"
+                  #   description: "Preliminary overview of the conference week"
+                  #   url: "/info/program/week-at-a-glance"
+                  #   is_new: false
+                  # - text: "Papers"
+                  #   description: "Paper sessions"
+                  #   url: "/info/program/papers_list"
+                  #   is_new: false
+                  # - text: "Posters"
+                  #   description: "Nascent and recent work"
+                  #   url: "/info/program/posters"
+                  #   is_new: false
+                  # - text: "Panels"
+                  #   description: "Discuss important and controversial issues"
+                  #   url: "/info/program/panels"
+                  #   is_new: false
                   - text: "Workshops"
                     description: "Informal setting to discuss emerging topics"
                     url: "/info/program/workshops"
@@ -260,72 +277,72 @@ menu:
                     description: "Learn new tools and application domains"
                     url: "/info/program/tutorials"
                     is_new: false
-                  - text: "Meetups"
-                    description: "Meet for discussions and shared experiences"
-                    url: "/info/program/meetups"
-                    is_new: false
-          - heading: "Plenary Sessions"
-            heading_url: "/info/plenary/summary"
-            columns:
-              - links:
-                  - text: "Vis Townhall"
-                    url: "/info/plenary/townhall"
-                    description: "Engage with the VIS community, internal and external"
-                    is_new: false
-      - subsections:
-          - heading: "Invited Speakers"
-            heading_url: "/info/invited-speakers/summary"
-            columns:
-              - links:
-                  - text: "Keynote"
-                    description: "Hans-Christian Hege"
-                    url: "/info/invited-speakers/keynote-speaker"
-                    is_new: false
-                  - text: "Capstone"
-                    description: "Theo Deutinger"
-                    url: "/info/invited-speakers/capstone-speaker"
-                    is_new: false
-          - heading: "Awards and Recognitions"
-            heading_url: "/info/awards/summary"
-            columns:
-              - links:
-                  - text: "Best Paper/Poster Awards"
-                    description: "Recognizing outstanding work"
-                    url: "/info/awards/best-paper-awards"
-                    is_new: false
-                  - text: "VGTC VIS Awards"
-                    description: "Awarding members of the VIS community"
-                    url: "/info/awards/vgtc-awards"
-                    is_new: false
-                  - text: "Test of Time Awards"
-                    description: "Recognized articles whose contents are still useful"
-                    url: "/info/awards/test-of-time-awards"
-                    is_new: false
-      - subsections:
-          - heading: "Social Events"
-            heading_url: "/info/social-events/summary"
-            columns:
-              - links:
-                  - text: "Welcome Reception"
-                    description: "Natural History Museum Vienna"
-                    url: "/info/social-events/welcome-reception"
-                    is_new: false
-                  - text: "Poster Session"
-                    description: "Austria Center Vienna"
-                    url: "/info/social-events/poster-session"
-                    is_new: false
-                  - text: "Conference Dinner"
-                    description: "Austria Center Vienna"
-                    url: "/info/social-events/conference-dinner"
-                    is_new: false
-                  - text: "VISAP Exhibition"
-                    description: "University of Applied Arts"
-                    url: "/info/social-events/visap-exhibition"
-                    is_new: false
-                  - text: "OC Dinner"
-                    description: "Melker Stiftskeller"
-                    url: "/info/social-events/oc-dinner"
-                    is_new: false
+                  # - text: "Meetups"
+                  #   description: "Meet for discussions and shared experiences"
+                  #   url: "/info/program/meetups"
+                  #   is_new: false
+          # - heading: "Plenary Sessions"
+          #   heading_url: "/info/plenary/summary"
+          #   columns:
+          #     - links:
+          #         - text: "Vis Townhall"
+          #           url: "/info/plenary/townhall"
+          #           description: "Engage with the VIS community, internal and external"
+          #           is_new: false
+      # - subsections:
+      #     - heading: "Invited Speakers"
+      #       heading_url: "/info/invited-speakers/summary"
+      #       columns:
+      #         - links:
+      #             - text: "Keynote"
+      #               description: "Hans-Christian Hege"
+      #               url: "/info/invited-speakers/keynote-speaker"
+      #               is_new: false
+      #             - text: "Capstone"
+      #               description: "Theo Deutinger"
+      #               url: "/info/invited-speakers/capstone-speaker"
+      #               is_new: false
+      #     - heading: "Awards and Recognitions"
+      #       heading_url: "/info/awards/summary"
+      #       columns:
+      #         - links:
+      #             - text: "Best Paper/Poster Awards"
+      #               description: "Recognizing outstanding work"
+      #               url: "/info/awards/best-paper-awards"
+      #               is_new: false
+      #             - text: "VGTC VIS Awards"
+      #               description: "Awarding members of the VIS community"
+      #               url: "/info/awards/vgtc-awards"
+      #               is_new: false
+      #             - text: "Test of Time Awards"
+      #               description: "Recognized articles whose contents are still useful"
+      #               url: "/info/awards/test-of-time-awards"
+      #               is_new: false
+      # - subsections:
+      #     - heading: "Social Events"
+      #       heading_url: "/info/social-events/summary"
+      #       columns:
+      #         - links:
+      #             - text: "Welcome Reception"
+      #               description: "Natural History Museum Vienna"
+      #               url: "/info/social-events/welcome-reception"
+      #               is_new: false
+      #             - text: "Poster Session"
+      #               description: "Austria Center Vienna"
+      #               url: "/info/social-events/poster-session"
+      #               is_new: false
+      #             - text: "Conference Dinner"
+      #               description: "Austria Center Vienna"
+      #               url: "/info/social-events/conference-dinner"
+      #               is_new: false
+      #             - text: "VISAP Exhibition"
+      #               description: "University of Applied Arts"
+      #               url: "/info/social-events/visap-exhibition"
+      #               is_new: false
+      #             - text: "OC Dinner"
+      #               description: "Melker Stiftskeller"
+      #               url: "/info/social-events/oc-dinner"
+      #               is_new: false
 
   # ---------------------------------------------------------------------------
   - dropdown: "Events & Community"
@@ -341,116 +358,25 @@ menu:
                     url: "https://visap.net/2026/"
                     is_new: false
                     is_external: true
-                  - text: "VisInPractice (VIP)"
-                    description: "Events of special interest for visualization practitioners"
-                    url: "/info/visinpractice"
-                    is_new: false
-          - heading: "Competitions"
-            description: "Advancing visualization through competition"
-            columns:
-              - links:
-                  - text: "Bio+MedVis Challenge"
-                    description: "Challenges from the Bio+MedVis field"
-                    url: "http://biovis.net/2026/biovisChallenges_vis/"
-                    is_external: true
-                  - text: "SciVis Contest"
-                    description: "Material Science Challenge: discovery of novel materials"
-                    url: "https://sciviscontest2026.github.io/"
-                    is_external: true
-                  - text: "VAST Challenge"
-                    description: "Return to the island nation famous for fishing and quiet seaside communities"
-                    url: "https://vast-challenge.github.io/2026/"
-                    is_new: false
-                    is_external: true
-                  - text: "VisAgent Challenge"
-                    description: "AI agents data visualization"
-                    url: "https://www.visagent.org/"
-                    is_new: false
-                    is_external: true
+                  # - text: "VisInPractice (VIP)"
+                  #   description: "Events of special interest for visualization practitioners"
+                  #   url: "/info/visinpractice"
+                  #   is_new: false
 
-      - subsections:
-          - heading: "IEEE VIS Workshops"
-            display: true
-            is_new: false
-            heading_url: "/info/program/workshops"
-            description: "Informal settings to discuss emerging topics"
-            columns:
-              - links:
-                  - text: "ECWIDNA"
-                    description: "Engaging Critical Workforce In co-Design aNd Assessment"
-                    url: "https://sites.google.com/view/ecwidna"
-                    is_external: true
-                    is_new: false
-                  - text: "alt.VIS"
-                    description: "Borrowed from the successful alt.chi model"
-                    url: "https://altvis.github.io/"
-                    is_external: true
-                    is_new: false
-                  - text: "Uncertainty Visualization"
-                    description: "Relationships of Uncertainty, AI, and Decision-Making"
-                    url: "https://tusharathawale.github.io/uncertainty-vis-workshop-2026/index.html"
-                    is_external: true
-                    is_new: false
-                  - text: "EduVis"
-                    description: "3rd Workshop on Visualization Education and Literacy"
-                    url: "https://ieee-eduvis.github.io/"
-                    is_external: true
-                    is_new: false
-                  - text: "TopoInVis"
-                    description: "Workshop on Topological Data Analysis and Visualization"
-                    url: "https://topoinvis-workshop.github.io/2026/"
-                    is_external: true
-                    is_new: false
-                  - text: "LDAV"
-                    description: "15th IEEE Workshop on Large Data Analysis & Visualization"
-                    url: "https://ldav.io/2026/"
-                    is_external: true
-                    is_new: false
-                  - text: "VIS4DH ↔ DH4VIS"
-                    description: "9th Workshop on Visualization for the Digital Humanities"
-                    url: "https://vis4dh.dbvis.de/"
-                    is_external: true
-                    is_new: false
-                  - text: "MERCADO"
-                    description: "Multimodal Exp. for Remote Comm. Around Data Online"
-                    url: "https://sites.google.com/view/mercadoworkshop/vis2026"
-                    is_external: true
-                    is_new: false
-                  - text: "InputVis"
-                    description: "Envisioning a Research Agenda for Input Visualization"
-                    url: "/info/program/workshops#InputVis"
-                    is_external: false
-                    is_new: false
-                  - text: "Immersive Analytics"
-                    description: "Human Factors in Immersive Analytics"
-                    url: "/info/program/workshops#immersive"
-                    is_external: false
-                    is_new: false
-                  - text: "AccessViz"
-                    description: "2nd Workshop on Accessible Data Visualization"
-                    url: "https://accessviz.github.io/"
-                    is_external: true
-                    is_new: false
-                  - text: "VAHC"
-                    description: "16th Annual Workshop on Visual Analytics in Healthcare"
-                    url: "https://visualanalyticshealthcare.github.io/homepage/2026/"
-                    is_external: true
-                    is_new: false
-                  - text: "VISxAI"
-                    description: "8th Workshop on Visualization for AI Explainability"
-                    url: "https://visxai.io/"
-                    is_external: true
-                    is_new: false
-                  - text: "VISxGenAI"
-                    description: "GenAI, Agents, and the Future of VIS"
-                    url: "https://visxgenai.github.io/"
-                    is_external: true
-                    is_new: false
-                  - text: "VisComm"
-                    description: "7th Workshop on Visualization for Communication"
-                    url: "https://www.viscomm.io/"
-                    is_external: true
-                    is_new: false
+      # - subsections:
+      #     - heading: "IEEE VIS Workshops"
+      #       display: false
+      #       is_new: false
+      #       heading_url: "/info/program/workshops"
+      #       description: "Informal settings to discuss emerging topics"
+      #       columns:
+      #         - links:
+      #             - text: "ECWIDNA"
+      #               description: "Engaging Critical Workforce In co-Design aNd Assessment"
+      #               url: "https://sites.google.com/view/ecwidna"
+      #               is_external: true
+      #               is_new: false
+
       - subsections:
           - heading: "Community"
             heading_url: "/info/community/community"
