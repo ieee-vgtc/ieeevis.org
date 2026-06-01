@@ -7,6 +7,17 @@ contact: archive@ieeevis.org
 
 On this page you will find a list of tutorials that have been held at VIS in recent years.
 
+### 2026
+
+[https://ieeevis.org/year/2026/info/program/tutorials](https://ieeevis.org/year/2026/info/program/tutorials)
+
+- Introduction to Quantum Computing for Visualization Researchers
+- Running Online User Studies with the reVISit Framework
+- Custom widgets for Python notebooks with anywidget and marimo
+- Lossy Compression for Scientific Data: Principles, Tools, and Implications for Visualization
+- From Decisions to Designs: A Hands-On Tutorial with the Typology of Decision-Making Tasks
+- Visualization Analysis and Design
+
 <!-- ---------------------------------------------------------------------------------- -->
 
 ### 2025
