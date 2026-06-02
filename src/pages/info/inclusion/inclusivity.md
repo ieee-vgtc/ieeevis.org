@@ -10,9 +10,9 @@ Promoting and fostering inclusion is important to IEEE VIS. The IEEE VIS communi
 
 ### VIS 2026 Inclusivity Committee
 
-- John Alexis Guerra Gómez (_Northeastern University, Silicon Valley_)
-- Dominik Moritz (_Carnegie Mellon University_)
-- Ab Mosca (_Westfield State University_)
+- Sandra Bae _University of Arizona_
+- Ab Mosca _Smith College_
+- Jonathon Zong _University of Colorado, Boulder_
 
 ### Contact
 
