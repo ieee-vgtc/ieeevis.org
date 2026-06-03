@@ -6,7 +6,7 @@ contact:
 description: Join IEEE VIS 2026 from one of our satellite locations in Paris or Tianjin.
 ---
 
-Boston will serve as the flagship location for IEEE VIS 2026. In addition, we are excited to announce two satellite locations: Paris, France and Tianjin University in Tianjin, China. You can learn more about the Paris Satellite [here](/year/2026/satellites/paris) and the China Satellite [here](/year/2026/satellites/china).
+Boston will serve as the flagship location for IEEE VIS 2026. In addition, we are excited to announce two satellite locations: Paris, France and Tianjin University in Tianjin, China.
 
 The satellite events are part of a new federated participation model designed to support members of the visualization community who are unable to travel to the United States. Satellite attendees will be able to gather locally, engage with other members of the VIS community, view selected live-streamed sessions from Boston, and access recorded conference content. Participants will also have opportunities to present their work remotely to attendees at the flagship conference in Boston.
 
