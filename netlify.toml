@@ -1,0 +1,12 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  BASE_PATH = "/year/2026"
+  SITE = "https://ieeevis.org"
+
+[[redirects]]
+  from = "/"
+  to = "/year/2026/welcome/"
+  status = 302
