@@ -6,38 +6,12 @@ contact:
 description: Join IEEE VIS 2026 from one of our satellite locations in Paris or Tianjin.
 ---
 
-# Satellite Locations
+Boston will serve as the flagship location for IEEE VIS 2026. In addition, we are excited to announce two satellite locations: Paris, France and Tianjin University in Tianjin, China. You can learn more about the Paris Satellite [here](/year/2026/satellites/paris) and the China Satellite [here](/year/2026/satellites/china).
 
-IEEE VIS 2026 will take place in Boston, Massachusetts, with two satellite locations in Paris, France and Tianjin, China. These satellite locations are intended to make it easier for members of the visualization community to gather, follow selected conference content, and connect with colleagues closer to home.
+The satellite events are part of a new federated participation model designed to support members of the visualization community who are unable to travel to the United States. Satellite attendees will be able to gather locally, engage with other members of the VIS community, view selected live-streamed sessions from Boston, and access recorded conference content. Participants will also have opportunities to present their work remotely to attendees at the flagship conference in Boston.
 
-Each satellite location will be kept in sync with the primary site in Boston, with France having an intentional synchronous overlap in Europe Afternoon/East Coast Morning, and China operating on an Olympics-style tape delay. Details about registration, capacity, program timing, and local activities will be posted as they become available.
+The Paris satellite event will be hosted by Jean-Daniel Fekete, Petra Isenberg, and Florent Cabric. Contact: satellite_paris@ieeevis.org
 
-## Why satellite locations?
+The Tianjin satellite event will be hosted by Jiawan Zhang, Shixia Liu, Xiaoru Yuan, Changbo Wang, and Qing Chen. Contact: satellite_china@ieeevis.org
 
-VIS brings together an international community, and not everyone is able to travel to the main conference every year. The satellite locations provide a way for attendees in Europe and Asia to take part in IEEE VIS 2026, meet other members of the community, and stay connected with the conference.
-
-Satellite locations are also a chance to strengthen local and regional visualization communities. We hope they will create welcoming spaces for students, researchers, practitioners, and friends of VIS to gather during the conference week.
-
-## France
-
-The Paris satellite location will offer a local gathering point for attendees in France and nearby parts of Europe.
-
-**Local organizers:** Coming soon  
-**Venue:** Coming soon  
-**Registration:** Coming soon  
-**Local schedule:** Coming soon  
-**Contact:** satellite_paris@ieeevis.org
-
-## China
-
-The Tianjin satellite location will offer a local gathering point for attendees in China and the broader East Asia region.
-
-**Local organizers:** Coming soon  
-**Venue:** Coming soon  
-**Registration:** Coming soon  
-**Local schedule:** Coming soon  
-**Contact:** satellite_china@ieeevis.org
-
-## More information
-
-Additional details will be added as local arrangements are finalized. Questions about IEEE VIS 2026 can be sent to [info@ieeevis.org](mailto:info@ieeevis.org).
+More information about registration, programming, and participation opportunities will be announced soon.
