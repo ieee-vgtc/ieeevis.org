@@ -5,7 +5,9 @@ active_nav: "Attend"
 contact: "general_chair@ieeevis.org"
 ---
 
-Austria is part of the European Schengen area.
+Details TBD.
+
+<!-- Austria is part of the European Schengen area.
 
 ## Who does not need a visa
 
@@ -32,4 +34,4 @@ A visa letter based on registration details will contain the following:
 - Full name including Salutation (Mr., Ms., Mrs.) in the order of Salutation, Given (First) Name, Family (Last) Name
 - Email address, mailing address and affiliation (business or school)
 
-If additional information (such as paper title and number, passport number, passport expiration date, date of birth, etc) is necessary, please let us know. If you have questions or additional requirement, you may contact [visa-letters@ieeevis.org](mailto:visa-letters@ieeevis.org).
+If additional information (such as paper title and number, passport number, passport expiration date, date of birth, etc) is necessary, please let us know. If you have questions or additional requirement, you may contact [visa-letters@ieeevis.org](mailto:visa-letters@ieeevis.org). -->

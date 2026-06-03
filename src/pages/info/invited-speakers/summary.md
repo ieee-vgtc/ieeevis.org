@@ -5,7 +5,9 @@ contact: info@ieeevis.org
 active_nav: "Program"
 ---
 
-## Keynote by Hans-Christian Hege
+Details TBD.
+
+<!-- ## Keynote by Hans-Christian Hege
 
 The VIS 2026 keynote talk will be given by **Hans-Christian Hege**.
 
@@ -39,4 +41,4 @@ In his capstone talk _"A Diagrammatic Approach to the World"_ Theo will focus on
 Starting from the 100th anniversary of the Gesellschafts- und Wirtschaftsmuseum, founded by Otto Neurath - member of the Vienna Circle and inventor of ISOTYPE - Theo will go back in time and try to decipher the origin of data visualization.
 In this context, he will show examples of his own work and explain his fascination with the forces of globalization and how data visualization is the way to get a grip on them.
 
-**When: Friday (Nov 7), 11:15am (CET), Hall E**
+**When: Friday (Nov 7), 11:15am (CET), Hall E** -->
