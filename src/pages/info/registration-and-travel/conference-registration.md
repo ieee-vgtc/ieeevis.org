@@ -7,7 +7,7 @@ contact: finance@ieeevis.org
 
 Details TBD.
 
-<!-- ## VIS 2026 EVENT REGISTRATION.
+<!-- ## VIS 2026 EVENT REGISTRATION
 
 The 2026 IEEE Visualization and Visual Analytics Conference, running from November 2 - 7, is organized as an on-site event.
 The conference will be held at the Austria Center Vienna (ACV) in Vienna, Austria.
