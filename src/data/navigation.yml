@@ -277,10 +277,10 @@ menu:
                     description: "Learn new tools and application domains"
                     url: "/info/program/tutorials"
                     is_new: false
-                  # - text: "Meetups"
-                  #   description: "Meet for discussions and shared experiences"
-                  #   url: "/info/program/meetups"
-                  #   is_new: false
+                  - text: "Meetups"
+                    description: "Meet for discussions and shared experiences"
+                    url: "/info/program/meetups"
+                    is_new: true
           # - heading: "Plenary Sessions"
           #   heading_url: "/info/plenary/summary"
           #   columns:
