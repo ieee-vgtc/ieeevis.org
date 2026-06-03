@@ -12,6 +12,18 @@ active_nav: "Organization & History"
 | Hendrik Strobelt                          | _IBM Research_                                               |
 | Lane Harrison                             | _Worcester Polytechnic Institute_                            |
 |                                           |                                                              |
+| **Paris Satellite Chairs**                |                                                              |
+| Jean-Daniel Fekete                        | _Inria_                                                      |
+| Petra Isenberg                            | _Inria_                                                      |
+| Florent Cabric                            | _Université Paris-Saclay_                                    |
+|                                           |                                                              |
+| **China Satellite Chairs**                |                                                              |
+| Jiawan Zhang                              | _Tianjin University_                                         |
+| Shixia Liu                                | _Tsinghua University_                                        |
+| Xiaoru Yuan                               | _Peking University_                                          |
+| Changbo Wang                              | _East China Normal University_                               |
+| Qing Chen                                 | _Tongji University_                                          |
+|                                           |                                                              |
 | **Program Chairs**                        |                                                              |
 | Alfie Abdul-Rahman                        | _King's College London_                                      |
 | Tushar Athawale                           | _Oak Ridge National Laboratory_                              |

@@ -160,12 +160,20 @@ menu:
   - dropdown: "Attend"
     display: true
     sections:
-      # - subsections:
-      #     - heading: "Attending VIS 2026"
-      #       heading_url: "/info/registration-and-travel/conference-registration"
-      #       columns:
-      #         - heading: "Attend"
-      #           links:
+      - subsections:
+          - heading: "Attending VIS 2026"
+            #       heading_url: "/info/registration-and-travel/conference-registration"
+            columns:
+              - heading: "Attend"
+                links:
+                  - text: "Satellite Events"
+                    description: "Secondary sites co-hosting the conference"
+                    url: "/satellites/"
+                    is_new: true
+                  - text: "Destination - Boston"
+                    description: "Information about the host city"
+                    url: "/destination"
+                    is_new: false
       #             - text: "Registration"
       #               description: "How to register for VIS"
       #               url: "/info/registration-and-travel/conference-registration"
