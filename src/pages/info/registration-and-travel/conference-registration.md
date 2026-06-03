@@ -5,7 +5,9 @@ active_nav: "Attend"
 contact: finance@ieeevis.org
 ---
 
-## VIS 2026 EVENT REGISTRATION
+Details TBD.
+
+<!-- ## VIS 2026 EVENT REGISTRATION
 
 The 2026 IEEE Visualization and Visual Analytics Conference, running from November 2 - 7, is organized as an on-site event.
 The conference will be held at the Austria Center Vienna (ACV) in Vienna, Austria.
@@ -19,7 +21,7 @@ There will be a completely virtual session (organized in Zoom) for presenters wh
 <li>Early bird registration deadline: <strong>September 21, 2026</strong></li>
 </ul>
 
-<!-- ---------------------------------------------------------------------------------- -->
+
 
 ## IN-PERSON AND VIRTUAL PRESENTERS OF MAIN CONFERENCE PAPERS, MAIN CONFERENCE SHORT PAPERS AND INVITED JOURNAL PAPERS
 
@@ -64,7 +66,7 @@ We need to charge 20% VAT on the registration fees.
 
 **All Speaker Conference Registration fees are not refundable.**
 
-<!-- ---------------------------------------------------------------------------------- -->
+
 
 ## ATTENDEES
 
@@ -164,13 +166,13 @@ Speakers for invited papers should use the On-Site Speaker Registration category
 **Q: I am a poster presenter. Do I need to register using the Speaker Registration category?**
 
 <ul>
-No. Posters presenters should use the regular On-Site Participant Registration category. 
+No. Posters presenters should use the regular On-Site Participant Registration category.
 </ul>
 
 **Q: I will present a paper at a workshop. Do I need to register using the Speaker Registration category?**
 
 <ul>
-No. Workshop or symposium paper presenters and authors should use the regular On-Site Participant Registration categories. 
+No. Workshop or symposium paper presenters and authors should use the regular On-Site Participant Registration categories.
 </ul>
 
 **Q: If I complete a Speaker Registration, do I also need to separately complete an On-Site or Virtual Participant Registration to attend the conference?**
@@ -181,7 +183,7 @@ No. Speaker Registration includes the benefits of an on-site or virtual particip
 
 If you have additional clarification questions, please contact <a href="mailto:registration@ieeevis.org"> registration@ieeevis.org</a>
 
-<!-- ---------------------------------------------------------------------------------- -->
+
 
 ## ACCESS TO 2026 ONLINE CONTENT
 
@@ -208,4 +210,4 @@ Individuals <b>not registered as in-person conference participants or virtual sp
 
 <a class="button" href="https://www.eventbrite.com/e/2026-ieee-vis-access-to-online-content-tickets-1461995049549" target="_blank"> ACCESS TO ONLINE CONTENT </a>
 
-**Access to online content registration fees are not refundable.**
+**Access to online content registration fees are not refundable.** -->

@@ -18,4 +18,4 @@ Other VSC, VEC, and ReVISe members will be present in the audience.
 
 Questions from the community are welcome during the townhall. A larger update on various other committees can be found here.
 
-**When: Wednesday (Nov 5), 1PM - 2PM, Hall E1**
+<!-- **When: Wednesday (Nov 5), 1PM - 2PM, Hall E1** -->

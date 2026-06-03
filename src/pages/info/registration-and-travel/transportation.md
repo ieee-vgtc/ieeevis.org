@@ -5,7 +5,9 @@ active_nav: "Attend"
 contact: general_chair@ieeevis.org
 ---
 
-Visitors in Vienna can use the city's well-developed public transportation system.
+Details TBD.
+
+<!-- Visitors in Vienna can use the city's well-developed public transportation system.
 The _Wiener Linien_ network covers around 1,150 kilometers of subway, tram, and bus lines.
 The convention center is located next to the **U1** subway station “Kaisermühlen – Vienna International Center” and can be reached from the city center by public transport in 15 minutes.
 
@@ -26,4 +28,4 @@ The easiest and cheapest option is to buy a single ticket (€2.40) which is val
 
 **For Austrian and Viennese participants only**:
 If you already have a ticket for the Wiener Linien (_Jahrekarte_ or _Klimaticket_), please do not pick up a Vienna Meeting Ticket at registration.
-Vienna Meeting Tickets that are not needed will be returned to Wiener Linien, and we won't have to pay for them.
+Vienna Meeting Tickets that are not needed will be returned to Wiener Linien, and we won't have to pay for them. -->
