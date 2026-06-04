@@ -135,10 +135,10 @@ menu:
           - heading: "Get Involved"
             columns:
               - links:
-                  # - text: "Organize a meetup"
-                  #   description: "Meet people for discussion and shared experiences"
-                  #   url: "/info/call-participation/meetups"
-                  #   is_new: false
+                  - text: "Organize a meetup"
+                    description: "Meet people for discussion and shared experiences"
+                    url: "https://ieeevis.org/year/2026/info/call-participation/meetups/"
+                    is_new: true
                   - text: "Student volunteer information"
                     description: "SVs support the conference and build your research network"
                     url: "https://vissv.github.io/"
@@ -147,10 +147,10 @@ menu:
                   #   description: "Volunteer to review submissions in Precision Conference Solutions (PCS)"
                   #   url: "https://new.precisionconference.com/review_volunteering"
                   #   is_external: true
-          # - text: "Elections"
-          #   description: "Register to vote and nominate/review candidates for the VSC/VEC"
-          #   url: "/info/elections"
-          #   is_new: false
+                  - text: "Elections"
+                    description: "Register to vote and nominate/review candidates for the VSC/VEC"
+                    url: "https://ieeevis.org/year/2026/info/social-events/elections/"
+                    is_new: true
 
           - heading: "Supporters"
             heading_url: "/supporters"
@@ -354,7 +354,7 @@ menu:
 
   # ---------------------------------------------------------------------------
   - dropdown: "Events & Community"
-    display: false
+    display: true
     sections:
       - subsections:
           - heading: "Associated Events"
@@ -394,10 +394,12 @@ menu:
                 links:
                   - text: "Vis Buddies"
                     description: "Connecting new and returning VIS attendees"
-                    url: "/info/community/vis-buddies"
+                    url: "https://ieeevis.org/year/2026/info/community/vis-buddies/"
+                    is_new: true
                   - text: "Job Postings"
                     description: "VIS 2026 job board"
-                    url: "/info/community/jobs"
+                    url: "https://ieeevis.org/year/2026/info/community/jobs/"
+                    is_new: true
           - heading: "Social Media"
             columns:
               - links:
