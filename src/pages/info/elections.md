@@ -4,12 +4,15 @@ layout: /src/layouts/PageLayout.astro
 contact: elections@ieeevis.org
 ---
 
-As part of IEEE VIS’s [ongoing unification effort](http://ieeevis.org/year/2020/blog/things-are-changing-2021), some positions on both the VIS Executive Committee (VEC) and VIS Steering Committee (VSC) are now directly elected by the VIS community. These elections give the community a voice in governance, allow community members to grow into positions of authority, and will hopefully ensure a diverse representation across all of VIS. For more details about the elections process, see the [IEEE VIS Charter](/year/2026/governance/IEEE-governance-structure).
+As part of IEEE VIS’s [ongoing unification effort](http://ieeevis.org/year/2020/blog/things-are-changing-2021),  we have one unified VSC now with seven members consolidated from the old VSC and VEC. This year, we will have 1 new community-elected member and 1 new nominated/appointed member. These elections give the community a voice in governance, allow community members to grow into positions of authority, and will hopefully ensure a diverse representation across all of VIS. For more details about the elections process, see the [IEEE VIS Charter](http://ieeevis.org/year/2026/governance/IEEE-governance-structure).
 
 # Register to Vote
 
-Any person who has contributed to the VIS conference in some capacity (including attending, authoring, speaking, organizing, or providing financial support) in at least one previous conference year is considered eligible to vote. (However, participating for the first time in 2026 won’t confer eligibility until 2026). All registered voters from the previous year, including those who selected to register at the time of conference registration in 2024, will be automatically registered to vote, and new eligible voters can register by completing the [VIS voter registration form](https://forms.gle/3xnqRZVbBpzCWPEo7).
+Any person who has contributed to the VIS conference in some capacity (including attending, authoring, speaking, organizing, or providing financial support) in at least one previous conference year is considered eligible to vote. (However, participating for the first time in 2026 won’t confer eligibility until 2026). All registered voters from the previous year, including those who selected to register at the time of conference registration in 2025, will be automatically registered to vote, and new eligible voters can register by completing the form:
 
+[VIS voter registration form](https://forms.gle/FnJpLBSjJxAQoYyc8)
+
+<!--
 # Participating in the Election
 
 The 2026 Election will run from September 26th-October 26th, with results announced at the conference. The VIS Elections chairs will conduct the election using the [Belenios](https://www.belenios.org/) verifiable open-source voting system. Voting will be conducted using a ranked-choice process.
@@ -19,18 +22,20 @@ All registered voters will receive instructions outlining the voting procedure v
 # 2026 Candidates
 
 Please visit the [VSC Candidates](/year/2026/info/vsc-candidates) and [VEC Candidates](/year/2026/info/vec-candidates) pages for bios and campaign statements from all candidates running in this year’s election.
-
-<!--
-# Nominate a Candidate
-The call to nominate candidates for both the VEC and VSC is now open, with **nominations due by June 1st**. To nominate a candidate, please complete the [VIS 2024 candidate nomination form](https://forms.gle/Le53ZXDHsymZB7Ne6).
 -->
 
-# Questions
+# Nominate a Candidate
+The call to nominate candidates for VSC is now open, with **nominations due by July 1st, 2026**. To nominate a candidate, please complete the form:
 
-Questions about the elections process can be directed to the VIS Elections Chairs at [community@ieeevis.org](mailto:community@ieeevis.org).
+[VIS 2026 candidate nomination form](https://forms.gle/C9jQYp7Wn4k1szua7)
 
-**VIS Elections, Community, and Meet-ups Chairs**
 
-- Isaac Cho (Utah State University)
-- Georgia Panagiotidou (King's College London)
-- Kyle Hall
+# Contact
+
+Questions? Contact IEEE VIS 2026 Community/Meetups/Elections Chairs:
+
+- Kyle Hall, _Temple University_
+- Lijie Yao, _Xi’an Jiaotong-Liverpool University_
+- Carmen Hull, _Northeastern University_
+
+email: [community@ieeevis.org](mailto:community@ieeevis.org)
