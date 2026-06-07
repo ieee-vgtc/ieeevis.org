@@ -6,7 +6,7 @@ layout: /src/layouts/PageLayout.astro
 
 # About this Document
 
-This mission statement complements the [**IEEE VIS Charter**](/year/2026/governance/ieee-governance-structure/) by articulating the guiding principles, governance philosophy, and operating values of the Visualization Steering Committee. Formal governance procedures, committee authorities, appointment processes, and organizational responsibilities are defined in the IEEE VIS Charter.
+This mission statement complements the [**IEEE VIS Charter**](/year/2026/governance/IEEE-governance-structure) by articulating the guiding principles, governance philosophy, and operating values of the Visualization Steering Committee. Formal governance procedures, committee authorities, appointment processes, and organizational responsibilities are defined in the IEEE VIS Charter.
 
 This document serves two purposes. First, it describes the enduring mission, values, and governance approach of the Visualization Steering Committee. Second, it documents the transitional governance structure established following the ReVISe 1.1 process and the merger of the previous Visualization Steering Committee and Visualization Executive Committee. While the mission and values are intended to remain stable over time, the transitional structures described herein will evolve as the committee continues to mature.
 

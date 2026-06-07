@@ -39,7 +39,7 @@ IEEE will provide support in assessing venues, negotiating contracts, identifyin
 ## **Expectations**
 
 - The role of General Chairs may be fulfilled by an individual or a small team of up to three people who work closely together with clearly defined responsibilities.
-- The conference will be run by the General Chairs in partnership with the Visualization Steering Committee in accordance with the roles and responsibilities described in the [**IEEE VIS Charter**](/year/2026/governance/ieee-governance-structure/).
+- The conference will be run by the General Chairs in partnership with the Visualization Steering Committee in accordance with the roles and responsibilities described in the [**IEEE VIS Charter**](/year/2026/governance/IEEE-governance-structure).
 - Dates should generally fall within the mid-October to early-November timeframe.
 - The VSC may retain flexibility regarding the conference year in order to support geographic diversity, venue availability, and the long-term interests of the conference.
 - If you have questions about the process or would like to discuss a potential bid, please contact the VSC at [vsc@ieeevis.org](mailto:vsc@ieeevis.org).
