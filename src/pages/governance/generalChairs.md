@@ -2,6 +2,7 @@
 title: IEEE VIS - Being General Chair of IEEE VIS
 description: Discover the role of IEEE VIS General Chair. Understand duties, leadership responsibilities, and tips for successfully leading the conference.
 layout: /src/layouts/PageLayout.astro
+active_nav: "Organization & History"
 ---
 
 Being a General Chair (GC) for IEEE VIS puts you at the head of a talented team of enthusiastic and capable people from around the world. It enables you to draw upon these people, and your own local talent, to deliver an exciting VIS conference in your way, as you bring the global visualization community to you. It is a lot of work, but it is a rewarding, influential, and well-supported role.

@@ -2,6 +2,7 @@
 title: Visualization Steering Committee Mission Statement
 description: Mission statement for the visualization steering committee
 layout: /src/layouts/PageLayout.astro
+active_nav: "Organization & History"
 ---
 
 # About this Document
