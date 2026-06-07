@@ -1,5 +1,5 @@
 import type { MiddlewareHandler } from "astro";
-import { features } from "./config/features";
+import { features } from "./config/pages-allow-list";
 
 //https://docs.astro.build/en/guides/middleware/
 export const onRequest: MiddlewareHandler = async (context, next) => {

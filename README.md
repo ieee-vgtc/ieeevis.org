@@ -44,7 +44,7 @@ When you have made changes and would like to submit them, open a new pull reques
 
 ## Inactive pages
 
-Pages that are not yet ready to publish can be listed under `inactivePathPrefixes` in `src/config/features.ts`; visitors (and search-engine crawlers) hitting those paths are redirected to the home page with a 302. Individual pages inside an inactive folder can be selectively re-enabled by adding their exact path to `activePathOverrides` in the same file.
+Pages that are not yet ready to publish can be listed under `inactivePathPrefixes` in `src/config/pages-allow-list.ts`; visitors (and search-engine crawlers) hitting those paths are redirected to the home page with a 302. Individual pages inside an inactive folder can be selectively re-enabled by adding their exact path to `activePathOverrides` in the same file.
 
 ## Automatic building
 
