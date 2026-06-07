@@ -4,32 +4,14 @@
  */
 
 export const features = {
-  /**
-   * Week of VIS feature
-   * Displays individual paper pages
-   */
-  weekOfVis: {
-    enabled: true, // Set to true to enable the feature
-    showcaseEnabled: false, // Enable the "Paper of the Week" showcase
-    dataSource:
-      "https://raw.githubusercontent.com/ieee-vgtc/vis-virtual-website/vis2025/sitedata/2025/paper_list.json",
-    // Alternatively, use local data:
-    // dataSource: '/data/papers/paper_list.json'
-  },
-
-  /**
-   * Blog feature
-   */
-  blog: {
-    enabled: true,
-  },
-
-  /**
-   * Registration
-   */
-  registration: {
-    enabled: false,
-  },
+  // TODO: Week of VIS — future development
+  // weekOfVis: {
+  //   enabled: false,
+  //   showcaseEnabled: false,
+  //   // dataSource:
+  //   //   "https://raw.githubusercontent.com/ieee-vgtc/vis-virtual-website/vis2025/sitedata/2025/paper_list.json",
+  //   // dataSource: '/data/papers/paper_list.json'
+  // },
 
   /**
    * Explicit path overrides that are active even if their parent folder is
