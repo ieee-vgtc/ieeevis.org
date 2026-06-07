@@ -175,14 +175,14 @@ menu:
                     url: "/satellites/"
                     is_new: true
 
-      #             - text: "Registration"
-      #               description: "How to register for VIS"
-      #               url: "/info/registration-and-travel/conference-registration"
-      #               is_new: false
-      #             - text: "Venue"
-      #               description: "Austria Center Vienna"
-      #               url: "/info/registration-and-travel/venue"
-      #               is_new: false
+                  #             - text: "Registration"
+                  #               description: "How to register for VIS"
+                  #               url: "/info/registration-and-travel/conference-registration"
+                  #               is_new: false
+                  - text: "Venue"
+                    description: "Austria Center Vienna"
+                    url: "/info/registration-and-travel/venue"
+                    is_new: false
       #             - text: "Transportation"
       #               description: "Getting around in Vienna"
       #               url: "/info/registration-and-travel/transportation"
