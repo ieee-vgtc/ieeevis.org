@@ -532,6 +532,8 @@ menu:
                     url: "/governance/IEEE-governance-structure"
                   - text: "Best Paper Process"
                     url: "/governance/best-paper-process"
+                  - text: "VSC Mission Statement"
+                    url: "/governance/vsc-mission-statement"
           - heading: "Code of Conduct"
             description: "The IEEE VIS Code of Conduct"
             heading_url: "/info/inclusion/code-of-conduct"
