@@ -18,9 +18,6 @@ Example VisBuddies activities include:
 - Discuss interesting sessions to attend
 - Share tips on successful research
 
-Questions? Contact the VIS Community Chairs at [community@ieeevis.org](mailto:community@ieeevis.org).
-
----
 
 ### Contact
 
