@@ -1,6 +1,7 @@
 ---
 title: Restructuring
 layout: /src/layouts/PageLayout.astro
+active_nav: "Organization & History"
 ---
 
 ### The VIS Restructuring Committee (2016-2018)
