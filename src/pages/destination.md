@@ -1,7 +1,7 @@
 ---
 title: Destination
 layout: /src/layouts/PageLayout.astro
-active_nav: Destination
+active_nav: Attend
 contact:
 ---
 

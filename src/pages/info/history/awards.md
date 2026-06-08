@@ -2,6 +2,7 @@
 title: History
 layout: /src/layouts/PageLayout.astro
 contact: archive@ieeevis.org
+active_nav: Organization and History
 ---
 
 # IEEE VIS history of awards
