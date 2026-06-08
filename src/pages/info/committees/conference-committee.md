@@ -116,6 +116,11 @@ active_nav: "Organization & History"
 | Kanit Wongsuphasawat                      | _Databricks_                                                 |
 | Lisa Avila                                | _Kitware_                                                    |
 |                                           |                                                              |
+| **Practitioner's Summit Chairs**          |                                                              |
+| Jonathan Schwabish                        | _PolicyViz_                                                  |
+| Racquel Fygenson                          | _Northeastern University_                                    |
+| Frank Elavsky                             | _California Polytechnic State University_                    |
+|                                           |                                                              |
 | **Finance Chairs**                        |                                                              |
 | Joshua Levine                             | _University of Arizona_                                      |
 | Michelle Dowling                          | _Pacific Northwest National Lab_                             |
