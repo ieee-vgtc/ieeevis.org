@@ -149,7 +149,7 @@ menu:
                   #   is_external: true
                   - text: "Elections"
                     description: "Register to vote and nominate/review candidates for the VSC/VEC"
-                    url: "https://ieeevis.org/year/2026/info/social-events/elections/"
+                    url: "https://ieeevis.org/year/2026/info/elections/"
                     is_new: true
 
           - heading: "Supporters"
