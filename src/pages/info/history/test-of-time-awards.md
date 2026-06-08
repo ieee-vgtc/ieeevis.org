@@ -3,6 +3,7 @@ title: IEEE VIS Test-of-Time Awards
 description: Learn about the IEEE VIS Test-of-Time Awards, honoring influential visualization papers with lasting impact on the field.
 layout: /src/layouts/PageLayout.astro
 contact: archive@ieeevis.org
+active_nav: Organization & History
 ---
 
 <!-- ---------------------------------------------------------------------------------- -->

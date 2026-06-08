@@ -2,9 +2,10 @@
 title: Elections
 layout: /src/layouts/PageLayout.astro
 contact: elections@ieeevis.org
+active_nav: Contribute
 ---
 
-As part of IEEE VIS’s [ongoing unification effort](http://ieeevis.org/year/2020/blog/things-are-changing-2021),  we have one unified VSC now with seven members consolidated from the old VSC and VEC. This year, we will have 1 new community-elected member and 1 new nominated/appointed member. These elections give the community a voice in governance, allow community members to grow into positions of authority, and will hopefully ensure a diverse representation across all of VIS. For more details about the elections process, see the [IEEE VIS Charter](http://ieeevis.org/year/2026/governance/IEEE-governance-structure).
+As part of IEEE VIS’s [ongoing unification effort](http://ieeevis.org/year/2020/blog/things-are-changing-2021), we have one unified VSC now with seven members consolidated from the old VSC and VEC. This year, we will have 1 new community-elected member and 1 new nominated/appointed member. These elections give the community a voice in governance, allow community members to grow into positions of authority, and will hopefully ensure a diverse representation across all of VIS. For more details about the elections process, see the [IEEE VIS Charter](http://ieeevis.org/year/2026/governance/IEEE-governance-structure).
 
 # Register to Vote
 
@@ -25,10 +26,10 @@ Please visit the [VSC Candidates](/year/2026/info/vsc-candidates) and [VEC Candi
 -->
 
 # Nominate a Candidate
+
 The call to nominate candidates for VSC is now open, with **nominations due by July 1st, 2026**. To nominate a candidate, please complete the form:
 
 [VIS 2026 candidate nomination form](https://forms.gle/C9jQYp7Wn4k1szua7)
-
 
 # Contact
 

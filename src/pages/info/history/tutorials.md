@@ -3,6 +3,7 @@ title: Historical List of Tutorials at VIS
 description: Browse the historical list of tutorials at IEEE VIS, showcasing past educational sessions and topics from recent conferences.
 layout: /src/layouts/PageLayout.astro
 contact: archive@ieeevis.org
+active_nav: Organization & History
 ---
 
 On this page you will find a list of tutorials that have been held at VIS in recent years.

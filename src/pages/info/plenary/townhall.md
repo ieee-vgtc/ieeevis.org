@@ -2,6 +2,7 @@
 title: IEEE Vis Townhall
 layout: /src/layouts/PageLayout.astro
 contact: vec@ieeevis.org
+active_nav: Program
 ---
 
 As part of IEEE VIS's ongoing efforts to engage with our community, the IEEE VIS governance bodies are seeking feedback from the VIS community!

@@ -2,7 +2,7 @@
 title: Destination
 layout: /src/layouts/PageLayout.astro
 active_nav: Attend
-contact:
+contact: general_chair@ieeevis.org
 ---
 
 # Boston, Massachusetts, USA

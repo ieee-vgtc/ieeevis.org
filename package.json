@@ -8,16 +8,19 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "prepare": "husky"
+    "prepare": "husky",
+    "check-frontmatter": "vite-node src/scripts/check-frontmatter.ts"
   },
   "devDependencies": {
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
     "astro-broken-links-checker": "^1.1.0",
+    "gray-matter": "^4.0.3",
     "husky": "^9.1.7",
     "lint-staged": "^16.2.7",
     "prettier": "^3.7.4",
-    "rehype-external-links": "^3.0.0"
+    "rehype-external-links": "^3.0.0",
+    "vite-node": "^6.0.0"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.9",
