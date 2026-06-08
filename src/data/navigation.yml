@@ -148,7 +148,7 @@ menu:
                   #   url: "https://new.precisionconference.com/review_volunteering"
                   #   is_external: true
                   - text: "Elections"
-                    description: "Register to vote and nominate/review candidates for the VSC/VEC"
+                    description: "Register to vote and nominate/review candidates for the VSC"
                     url: "https://ieeevis.org/year/2026/info/social-events/elections/"
                     is_new: true
 

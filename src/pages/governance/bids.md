@@ -11,7 +11,7 @@ The Visualization Steering Committee (VSC) is responsible for selecting future I
 
 We are looking to hold IEEE VIS in well-connected cities around the world that can provide the facilities and backdrop for an excellent conference.
 
-Former General Chairs describe the role, offering some experience of **Being General Chair of IEEE VIS** to inspire others to lead our community into the VIS future.
+Former General Chairs describe the role, offering some experience of [**Being General Chair of IEEE VIS**](/year/2026/governance/generalChairs) to inspire others to lead our community into the VIS future.
 
 ## **Process**
 
@@ -19,7 +19,7 @@ IEEE VIS conferences are established through a two-stage process.
 
 ### **STAGE 1\. INITIAL APPLICATION: General Chairs and General Location**
 
-Potential General Chairs express their interest in hosting the conference by submitting a short **VIS General Chair Application Form**.
+Potential General Chairs express their interest in hosting the conference by submitting a short [**VIS General Chair Application Form**](https://docs.google.com/forms/d/e/1FAIpQLSdfDvCZKx_gTZtHfKvbMBZYIjXuv7G3ScXgsR-nE1gXw5RO5g/viewform).
 
 The form asks for:
 
@@ -49,7 +49,7 @@ IEEE will provide support in assessing venues, negotiating contracts, identifyin
 
 ### **Explanation**
 
-**Y \-n** refers to _n_ years before the conference in year Y. Example: “_Step 6, VEC: Decide & Inform, Oct 31, Y \-3_” means that location for VIS X+3 is decided during VIS X, i.e., 3 years before. Y \-0 is the year of the VIS conference.
+**Y \-n** refers to _n_ years before the conference in year Y. Example: “_Step 6, VSC: Decide & Inform, Oct 31, Y \-3_” means that location for VIS X+3 is decided during VIS X, i.e., 3 years before. Y \-0 is the year of the VIS conference.
 
 **GPF Chairs** refers to the _General Chairs_, _Program Chairs_, and _Finance Chairs_.
 
