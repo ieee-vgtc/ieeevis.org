@@ -14,9 +14,6 @@ We will collect job postings and display them here throughout the VIS 2026 meeti
 
 To submit a posting, please use the form above. Postings will be updated every couple of days on this page.
 
-Questions? Contact the Community Committee at community@ieeevis.org.
-
----
 
 ### Contact
 
