@@ -179,27 +179,27 @@ menu:
                   #               description: "How to register for VIS"
                   #               url: "/info/registration-and-travel/conference-registration"
                   #               is_new: false
-                  # - text: "Venue"
-                  #   description: "Austria Center Vienna"
-                  #   url: "/info/registration-and-travel/venue"
-                  #   is_new: false
-      #             - text: "Transportation"
-      #               description: "Getting around in Vienna"
-      #               url: "/info/registration-and-travel/transportation"
-      #               is_new: false
-      #             - text: "Green Meeting Certificate"
-      #               description: "IEEE VIS 2026 is a 'Green Meeting'"
-      #               url: "/info/registration-and-travel/green-meeting"
-      #               is_new: false
-      #         - heading: "Travel"
-      #           links:
-      #             - text: "Traveling to Vienna"
-      #               description: "Travel information"
-      #               url: "/info/registration-and-travel/travel-information"
-      #               is_new: false
-      #             - text: "Hotel Information"
-      #               description: "Where to stay"
-      #               url: "/info/registration-and-travel/hotel-information"
+                  #             - text: "Venue"
+                  #               description: "Austria Center Vienna"
+                  #               url: "/info/registration-and-travel/venue"
+                  #               is_new: false
+                  #             - text: "Transportation"
+                  #               description: "Getting around in Vienna"
+                  #               url: "/info/registration-and-travel/transportation"
+                  #               is_new: false
+                  #             - text: "Green Meeting Certificate"
+                  #               description: "IEEE VIS 2026 is a 'Green Meeting'"
+                  #               url: "/info/registration-and-travel/green-meeting"
+                  #               is_new: false
+                  #         - heading: "Travel"
+                  #           links:
+                  #             - text: "Traveling to Vienna"
+                  #               description: "Travel information"
+                  #               url: "/info/registration-and-travel/travel-information"
+                  #               is_new: false
+                  - text: "Hotel Information"
+                    description: "Where to stay"
+                    url: "/info/registration-and-travel/hotel-information"
       #               is_new: false
       #             - text: "Visas"
       #               description: "Visa letter information"
