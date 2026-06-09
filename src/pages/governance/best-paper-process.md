@@ -32,7 +32,7 @@ Candidates from each area are nominated by the area paper chairs based on recomm
 
 ### Best Paper Award Committee
 
-After the candidate list has been established, the overall paper chairs propose a best paper committee. Members of the committee cannot have a paper in the top 5% list. The committee has at least 5 members and is approved by the Visualization Executive Committee (VEC). The committee should be broad enough in expertise to represent the IEEE VIS areas and should as much as possible represent a mix of academic lineage and demographics. Committee members should have a record of serving on the IEEE VIS PC or related conferences.
+After the candidate list has been established, the overall paper chairs propose a best paper committee. Members of the committee cannot have a paper in the top 5% list. The committee has at least 5 members and is approved by the Visualization Steering Committee (VSC). The committee should be broad enough in expertise to represent the IEEE VIS areas and should as much as possible represent a mix of academic lineage and demographics. Committee members should have a record of serving on the IEEE VIS PC or related conferences.
 
 ### Best Paper Committee Decision Making Process
 
