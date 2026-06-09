@@ -2,6 +2,7 @@
 title: IEEE Vis Townhall
 layout: /src/layouts/PageLayout.astro
 contact: vec@ieeevis.org
+active_nav: Program
 ---
 
 VIS 2026 offers one **plenary session**.

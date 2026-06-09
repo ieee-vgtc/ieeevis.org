@@ -3,6 +3,7 @@ title: Best Paper and Poster Awards History
 description: Explore the history of IEEE VIS Best Paper and Poster Awards, including full and short papers, honorable mentions, and past winners.
 layout: /src/layouts/PageLayout.astro
 contact: archive@ieeevis.org
+active_nav: Organization & History
 ---
 
 This page lists the IEEE VIS awards for the best full and short papers, honorable mentions, and best posters (if available) from previous years.

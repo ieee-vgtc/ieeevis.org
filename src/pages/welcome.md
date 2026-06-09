@@ -8,6 +8,7 @@ logo_src: /assets/vis2026_logo.svg
 contact: general_chair@ieeevis.org
 image_src: /assets/boston_fall.jpg
 image_alt: "A photo of Boston in fall. Photo by Josh McCausland on Unsplash."
+active_nav: None
 ---
 
 IEEE VIS 2026 will be the year’s premier forum for advances in theory, methods, and applications of visualization and visual analytics. The conference will convene an international community of researchers and practitioners from universities, government, and industry to exchange recent findings on the design and use of visualization tools.

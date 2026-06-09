@@ -4,6 +4,7 @@ description: Learn about the IEEE VIS review process, including two-phase double
 layout: /src/layouts/PageLayout.astro
 contact: opc@ieeevis.org
 sidebar: call-for-participation
+active_nav: Contribute
 ---
 
 The success of the IEEE VIS papers program relies on a knowledgeable, experienced, and ethical community of reviewers. IEEE VIS employs a two-phase, [(author-optional)](https://ieeevis.org/year/2024/info/call-participation/paper-submission-guidelines#important-submission-requirements) double-blind review process that follows the review process for IEEE TVCG, the journal in which IEEE VIS full papers are published. Submissions are reviewed by at least 3 reviewers, at least 2 of which are PC members and at least 1 of which is an external member of the community. All reviewers are bound to the [ethics guidelines](http://tc.computer.org/vgtc/conferences/ethics-guidelines) of the IEEE VGTC.
