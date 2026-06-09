@@ -8,7 +8,7 @@ active_nav: "Organization & History"
 
 Individuals who plan and/or have been approved to organize an event in conjunction with the IEEE VIS conference need to have a clear understanding of the IEEE and VIS policies, financial responsibilities, and the expectations from VIS.
 
-The IEEE makes a distinction between symposia and workshops based on both size and publication policy. Symposia are expected to have at least 100 attendees, and are required to publish proceedings. Thus, events without proceedings cannot be called a symposium, no matter how large they are. As part of the pre-approval process, the VEC (VIS Executive Committee) will determine whether an event is eligible to be a symposium or a workshop. Also, note the correct wording is that events are being held “in conjunction with” VIS; the wording of “co-located event” can not be used as it has a specific technical meaning within IEEE (co-located events have their own budgets completely separate from the VIS finances).
+The IEEE makes a distinction between symposia and workshops based on both size and publication policy. Symposia are expected to have at least 100 attendees, and are required to publish proceedings. Thus, events without proceedings cannot be called a symposium, no matter how large they are. As part of the pre-approval process, the VSC (VIS Steering Committee) will determine whether an event is eligible to be a symposium or a workshop. Also, note the correct wording is that events are being held “in conjunction with” VIS; the wording of “co-located event” can not be used as it has a specific technical meaning within IEEE (co-located events have their own budgets completely separate from the VIS finances).
 
 In the past, VIS has distinguished between symposia and workshops in terms of both expectations and benefits, but these lines have become blurred as quite large and high-profile events are not necessarily symposia. Going forward, VIS will have uniform expectations and benefits for all large pre-approved events regardless of their designation.
 
@@ -39,7 +39,7 @@ All affiliated events, regardless of their size, popularity, or process followed
 
 - **Definitions**
   - Pre-approved events may be symposia or workshops, which occur Sunday and Monday.
-  - There are 8 parallel tracks per day over these 2 days, for a total of 16 full-day slots. A maximum of 6 of these slots can be pre-approved events decided by the VEC. The other 10 full-day slots (frequently allocated as 20 half-day slots) are decided through the standard CFP process by the workshops and tutorials chairs.
+  - There are 8 parallel tracks per day over these 2 days, for a total of 16 full-day slots. A maximum of 6 of these slots can be pre-approved events decided by the VSC. The other 10 full-day slots (frequently allocated as 20 half-day slots) are decided through the standard CFP process by the workshops and tutorials chairs.
 - **Benefits:**
   - Room size: Assigned to a large room with suitable AV equipment
   - Publications: Materials included on USB drive given out to conference attendees, if desired and if provided before submission deadline. Proceedings can be submitted to IEEE Xplore digital library if their publication is desired, organizers must work with Publications Chair and IEEE to request (see Section VII below).
@@ -110,6 +110,7 @@ http://www.ieee.org/conferences_events/conferences/organizers
 
 ## VIII. Change Log
 
+- 8 Jun 2026: Converted References to VEC to VSC
 - 26 Sep 2017: Converted to markdown and posted to web.
 - 6 Jan 2017: Updates for 2017, including moving workshop proposal notification date up to March, PCS support for all by request, and IEEE-only proceedings policy (unless grandfathered exemptions exist).
 - 27 Dec 2016: Minor edits from Allen Sanderson
