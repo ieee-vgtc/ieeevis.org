@@ -2,6 +2,7 @@
 title: Meetups
 layout: /src/layouts/PageLayout.astro
 contact: meetups@ieeevis.org
+active_nav: Contribute
 ---
 
 Do you want to meet people who share the same interests as you, discuss a topic that you care about or that brings the visualization community forward, or share viewpoints and experiences to foster community building? If yes, organize a meetup!
@@ -47,5 +48,6 @@ For more information, contact IEEE VIS 2026 Community/Meetups/Elections Chairs:
 
 - Kyle Hall, _Temple University_
 - Lijie Yao, _Xi’an Jiaotong-Liverpool University_
+- Carmen Hull, _Northeastern University_
 
 email: [community@ieeevis.org](mailto:community@ieeevis.org)

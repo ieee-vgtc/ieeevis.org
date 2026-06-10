@@ -1,7 +1,7 @@
 ---
 title: Awards
 layout: /src/layouts/PageLayout.astro
-active_nav: Awards
+active_nav: Program
 contact: web@ieeevis.org
 ---
 

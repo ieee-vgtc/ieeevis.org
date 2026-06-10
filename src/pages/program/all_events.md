@@ -1,8 +1,8 @@
 ---
 title: All Events
 layout: /src/layouts/PageLayout.astro
-active_nav: All Events
 contact: web@ieeevis.org
+active_nav: Program
 ---
 
 All Events page will go here.

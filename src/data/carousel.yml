@@ -4,6 +4,11 @@
 #   buttonUrl: "/info/call-participation/call-for-participation"
 #   active: "active"
 
+- title: "Satellite Events in Paris, France and Tianjin, China"
+  image: "satellites-26-preview.png"
+  buttonText: "Satellite Events"
+  buttonUrl: "/blog/2026-06-03-vis-2026-GC-blog"
+
 - title: "IEEE VIS 2026 in Boston, Massachusetts"
   image: "boston_skyline.jpg"
   buttonText: "Destination Information"

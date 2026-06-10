@@ -2,6 +2,7 @@
 title: VSC Candidates - VIS 2026 Elections
 layout: /src/layouts/PageLayout.astro
 contact: elections@ieeevis.org
+active_nav: "Organization & History"
 ---
 
 # 2026 VIS Steering Committee (VSC) Candidates

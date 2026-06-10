@@ -1,7 +1,7 @@
 ---
 title: Posters
 layout: /src/layouts/PageLayout.astro
-active_nav: Posters
+active_nav: Program
 contact: web@ieeevis.org
 ---
 

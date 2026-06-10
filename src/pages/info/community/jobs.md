@@ -14,9 +14,6 @@ We will collect job postings and display them here throughout the VIS 2026 meeti
 
 To submit a posting, please use the form above. Postings will be updated every couple of days on this page.
 
-Questions? Contact the Community Committee at community@ieeevis.org.
-
----
 
 ### Contact
 
@@ -24,6 +21,7 @@ For more information, contact IEEE VIS 2026 Community/Meetups/Elections Chairs:
 
 - Kyle Hall, _Temple University_
 - Lijie Yao, _Xi’an Jiaotong-Liverpool University_
+- Carmen Hull, _Northeastern University_
 
 email: [community@ieeevis.org](mailto:community@ieeevis.org)
 

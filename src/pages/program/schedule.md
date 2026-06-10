@@ -1,7 +1,7 @@
 ---
 title: Schedule
 layout: /src/layouts/PageLayout.astro
-active_nav: Schedule
+active_nav: Program
 contact: web@ieeevis.org
 ---
 
