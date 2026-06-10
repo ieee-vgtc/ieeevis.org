@@ -161,11 +161,10 @@ menu:
     display: true
     sections:
       - subsections:
-          - heading: "Attending VIS 2026"
+          - heading: "VIS 2026 Flagship: Boston, MA"
             #       heading_url: "/info/registration-and-travel/conference-registration"
             columns:
-              - heading: "Flagship Location: Boston, MA"
-                links:
+              - links:
                   - text: "Destination - Boston"
                     description: "Information about the host city"
                     url: "/destination"
@@ -174,10 +173,10 @@ menu:
                     description: "Where to stay"
                     url: "/info/registration-and-travel/hotel-information"
                     is_new: true
-              - heading: "Satellite Locations"
-                description: "Secondary sites co-hosting the conference"
-                heading_url: "/satellites/"
-                links:
+          - heading: "Satellite Locations"
+            # heading_url: "/satellites/"
+            columns:
+              - links:
                   - text: "Satellite Events"
                     description: "Secondary sites co-hosting the conference"
                     url: "/satellites/"
@@ -194,10 +193,6 @@ menu:
                 #             - text: "Transportation"
                 #               description: "Getting around in Vienna"
                 #               url: "/info/registration-and-travel/transportation"
-                #               is_new: false
-                #             - text: "Green Meeting Certificate"
-                #               description: "IEEE VIS 2026 is a 'Green Meeting'"
-                #               url: "/info/registration-and-travel/green-meeting"
                 #               is_new: false
                 #         - heading: "Travel"
                 #           links:
