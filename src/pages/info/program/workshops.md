@@ -114,6 +114,7 @@ Ester Scheck, TU Wien<br>
 Meghan Kelly, Syracuse University<br>
 
 Contact: Ester Scheck ([ester.scheck@geo.tuwien.ac.at](mailto:ester.scheck@geo.tuwien.ac.at))
+Website: [https://ester-t-s.github.io/mapping-with-context-workshops/](https://ester-t-s.github.io/mapping-with-context-workshops/)
 
 While various frameworks for documenting data production (e.g., metadata, data biographies, and datasheets for datasets) exist, responsible and reflexive data practices too often focus on data analysis processes and visualization decision-making and ethics. In this workshop, we address this gap by centering data and visualization practitioner perspectives to brainstorm and co-create wireframes, guidelines and strategies, and prototype tools that focus on understanding and incorporating data production context in the visualization workflow. Our workshop design is guided by data feminism, design justice, and feminist mapping and prioritizes interactive exchange and the co-production of knowledge (and tools) to better support ethical data practices throughout visualization workflows.
 
