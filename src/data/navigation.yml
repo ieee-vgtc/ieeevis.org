@@ -260,7 +260,7 @@ menu:
     sections:
       - subsections:
           - heading: "Vis Program"
-            heading_url: "/info/program/week-at-a-glance"
+            # heading_url: "/info/program/week-at-a-glance"
             columns:
               - links:
                   # - text: "Week at a Glance"
