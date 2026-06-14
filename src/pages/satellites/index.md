@@ -6,13 +6,13 @@ contact: satellite_paris@ieeevis.org
 description: Join IEEE VIS 2026 from one of our satellite locations in Paris or Tianjin.
 ---
 
-<!-- <div class="w-full aspect-video mb-10">
+<div class="w-full aspect-video mb-10">
   <iframe
     class="w-full h-full"
-    src="https://www.youtube.com/embed/CK7F11yd1qs?si=8reXqTWy7yHIe__W"
+    src="https://www.youtube.com/embed/aDqmHmKyn5E?si=o0TTDHQLrUKfPa7h"
     allowfullscreen>
   </iframe>
-</div> -->
+</div>
 
 **Boston will serve as the flagship location for IEEE VIS 2026\.** In addition, we are excited to announce two satellite locations: **Paris, France** and **Tianjin, China**. See the [announcement blog post](/year/2026/blog/2026-06-03-vis-2026-GC-blog) for more
 
