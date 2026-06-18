@@ -99,12 +99,12 @@ menu:
                   - text: "Junior Reviewer Guide"
                     url: "/info/call-participation/junior-reviewer-guide"
                     is_new: false
-          # - heading: "Presenter Information"
-          #   columns:
-          #   - links:
-          #       - text: "Final Information for Paper Authors"
-          #         url: "/info/presenter-information/final-information-paper-authors"
-          #         is_new: false
+          - heading: "Presenter Information"
+            columns:
+              - links:
+                  - text: "Final Information for Paper Authors"
+                    url: "/info/presenter-information/final-information-paper-authors"
+                    is_new: false
           #       - text: "Preparing Your Talk"
           #         url: "/info/presenter-information/talk-guide"
           #         is_new: false
