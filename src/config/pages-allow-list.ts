@@ -41,7 +41,7 @@ export const features = {
     "/info/invited-speakers",
     "/info/local-events",
     "/info/plenary",
-    "/info/presenter-information",
+    // "/info/presenter-information",
     // "/info/program",
     // "/info/registration-and-travel",
     "/info/social-events",

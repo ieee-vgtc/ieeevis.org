@@ -12,24 +12,24 @@ This page provides authors of accepted **IEEE VIS Full Papers** with important i
 
 Authors of papers for **workshops** should check with their event organizers for specific information on deadlines and format.
 
-
 ## Camera-Ready Paper Submission
 
 **DEADLINES: July 1 (Short Papers), August 8 (Full Papers)**
 
 Submit final camera-ready papers and supplemental materials via the PCS submission system. Files submitted here are the default versions that we will use for preparing proceedings in IEEE Xplore and the downloadable content.
 
-Camera-ready papers may not exceed 11 pages (full papers, 9 pages of main text and 2 pages of references) or 5 pages (short papers, 4 pages of main text and 1 page of references). The final two pages (full papers) or 1 page (short papers) can also include short sections on supplemental material links, figure credits, and acknowledgements, in addition to references. Note that the Supplemental Material section in the paper should only include pointers to the material and explanation of what is included in that material, not the material itself; similarly, Figure Credits should only include credits, not actual figure material (images or captions). Papers may be shorter than this limit. See the [Paper Submission Guidelines](../call-participation/paper-submission-guidelines) for more details.
+Camera-ready papers may not exceed 11 pages (full papers, 9 pages of main text and 2 pages of references) or 5 pages (short papers, 4 pages of main text and 1 page of references). The final two pages (full papers) or 1 page (short papers) can also include short sections on supplemental material links, figure credits, and acknowledgements, in addition to references. Note that the Supplemental Material section in the paper should only include pointers to the material and explanation of what is included in that material, not the material itself; similarly, Figure Credits should only include credits, not actual figure material (images or captions). Papers may be shorter than this limit. See the [Paper Submission Guidelines](/year/2026/info/call-participation/paper-submission-guidelines) for more details.
 
 **IMPORTANT 1**: Please make sure the final submission data in PCS is identical to the final PDF (e.g., title, author names and last names, affiliations, author order, email addresses.) You might need to correct the information in your PCS login in order to update the author information. You can do this by logging into your PCS account > my account > Change my contact information. The final author list has to be identical to the list that you provided for the abstract submission deadline (March 21). Note that if you have been anonymizing your submission, you may find you have to trim your text to fit into the page limits once authors and affiliations are added.
 
 **IMPORTANT 2**: Please note that, for the camera-ready submission, different from the review process you **must** split your paper into a file for the main paper (up to and including the list of references) and (potentially) a separate file with the appendices. If you do not do that, the IEEE will charge you for the additional pages beyond page 11.
 
-Please check the second round reviewer comments (if any) and incorporate their suggestions. Note: there will not be further detailed proofreading of your submission, so **PLEASE** read through your manuscript very carefully to fix any remaining grammar and spelling problems. We recommend finding an outside reader, such as a friend who is strong in English or someone from your institution’s writing center (if it exists), to do a careful editing pass on your paper.  
+Please check the second round reviewer comments (if any) and incorporate their suggestions. Note: there will not be further detailed proofreading of your submission, so **PLEASE** read through your manuscript very carefully to fix any remaining grammar and spelling problems. We recommend finding an outside reader, such as a friend who is strong in English or someone from your institution’s writing center (if it exists), to do a careful editing pass on your paper.
 
-You can submit supplemental material (e.g., a video, the previously mentioned appendix file) for your work for inclusion in the digital archive. TVCG requires that supplemental material is also peer-reviewed. Hence, this supplemental material is only allowed if you have already submitted it and if the reviewers have found it acceptable. Videos are usually up to 5 minutes in length, and you may also include other supplemental material such as additional images, appendices, or source code. 
+You can submit supplemental material (e.g., a video, the previously mentioned appendix file) for your work for inclusion in the digital archive. TVCG requires that supplemental material is also peer-reviewed. Hence, this supplemental material is only allowed if you have already submitted it and if the reviewers have found it acceptable. Videos are usually up to 5 minutes in length, and you may also include other supplemental material such as additional images, appendices, or source code.
 
 The [VGTC website](https://tc.computer.org/vgtc/publications/journal) has complete information regarding formatting requirements of your final revised PDF. Common editing issues include:
+
 - For full papers, use the [correct JOURNAL style template](https://tc.computer.org/vgtc/publications/journal). **Note: there was a new template in 2026**
 - For short papers, use the [correct CONFERENCE style template](https://tc.computer.org/vgtc/publications/conference/).
 - Index terms are mandatory.
@@ -38,8 +38,8 @@ The [VGTC website](https://tc.computer.org/vgtc/publications/journal) has comple
 - Titles: Capitalize the first letter of nouns, pronouns, verbs, adjectives, and adverbs; do not capitalize articles, coordinate conjunctions, or prepositions (unless the title begins with such a word).
 - Inclusion of the “manuscript received” block on the bottom of page 1 exactly as is. The ‘xx’ placeholders should remain. They will be populated at a later date by TVCG.
 - Do NOT include page numbers.
-- Figure captions begin with “Fig. #” and go below the figure.  Captions should use 8pt Helvetica (sans serif) font.
-- Table captions begin with “Table #.” and go above the table.  Captions should use 8pt Helvetica (sans serif) font.
+- Figure captions begin with “Fig. #” and go below the figure. Captions should use 8pt Helvetica (sans serif) font.
+- Table captions begin with “Table #.” and go above the table. Captions should use 8pt Helvetica (sans serif) font.
 - Figures should not be formatted vertically along a page and authors should not be stacking double column figures on top of single column figures, and vice versa.
 - Text should not be wrapping around any figures, either.
 
@@ -47,10 +47,9 @@ You must also take a serious pass on the list of references at the end of the do
 
 USE OF GENERATIVE AI: We remind you that, according to IEEE policy, the use of content generated by artificial intelligence (AI) in an article (including but not limited to text, figures, images, and code) shall be disclosed in the acknowledgments section of any article submitted to an IEEE publication (which does not count toward your page limit). The AI system used shall be identified, and specific sections of the article that use AI-generated content shall be identified and accompanied by a brief explanation regarding the level at which the AI system was used to generate the content. The use of AI systems for editing and grammar enhancement is common practice and, as such, is generally outside the intent of the above policy. In this case, disclosure as noted above is optional.
 
-Please ensure that you have made your paper open access if your funding agency requires it (e.g., Plan S). We also highly recommend that all authors (1) upload their preprints to a free and open repository and (2) upload their supplemental material to a free, open, and long-term archive. Please see our [Open Practices page](/year/2025/info/open-practices/open-practices) for guidance on our requirements and recommendations.
+Please ensure that you have made your paper open access if your funding agency requires it (e.g., Plan S). We also highly recommend that all authors (1) upload their preprints to a free and open repository and (2) upload their supplemental material to a free, open, and long-term archive. Please see our [Open Practices page](/year/2026/info/open-practices/open-practices) for guidance on our requirements and recommendations.
 
-Please see our [VIS Accessibility Guide](../call-participation/make-pdf-accessible) for recommendations for VIS authors on how to make your contribution accessible for broader audiences.
-
+Please see our [VIS Accessibility Guide](/year/2026/info/call-participation/accessible-pdf) for recommendations for VIS authors on how to make your contribution accessible for broader audiences.
 
 ## Other Required Submission Items
 
@@ -66,15 +65,14 @@ For papers that will be published in IEEE TVCG or on IEEE Xplore, authors are as
 
 ### 3. Presentation Materials
 
-Please see the [talk guide](../presenter-information/talk-guide) for information on how to present your work at VIS.
-
+Please see the [talk guide](/year/2026/info/presenter-information/talk-guide) for information on how to present your work at VIS.
 
 ## Contact
 
 ### Publication Chairs
 
-* Minsuk Kahng, *Yonsei University*
-* Devin Lange, *University of Utah*
-* Sungahn Ko, *POSTECH*
+- Minsuk Kahng, _Yonsei University_
+- Devin Lange, _University of Utah_
+- Sungahn Ko, _POSTECH_
 
 Email: [publications@ieeevis.org](mailto:publications@ieeevis.org)
