@@ -5,17 +5,20 @@ export default function Footer({
   footer_data,
   contact,
   pathname,
+  fileName,
 }: {
   contact: string;
   footer_data: { columns: FooterSectionType[] };
   pathname: string;
+  fileName: string;
 }) {
-  let filePath = pathname.trim().replace(import.meta.env.BASE_URL,"/")
-  if(filePath.endsWith("/")) {
-    filePath = filePath.slice(0,filePath.length-1)
+  let filePath = pathname.trim().replace(import.meta.env.BASE_URL, "/");
+  if (filePath.endsWith("/")) {
+    filePath = filePath.slice(0, filePath.length - 1);
   }
-
-  const source_file = `src/pages${filePath}.md`;
+  filePath = filePath.replaceAll("//", "/");
+  const name = fileName || "";
+  const source_file = `src/pages${filePath}${name.includes("index.md") ? "/index" : ""}.md`;
 
   return (
     <footer className="footer text-white">
