@@ -22,6 +22,7 @@ export const features = {
    *   "/info/awards/best-paper-awards"
    */
   activePathOverrides: [
+    "/info/invited-speakers/keynote-speaker",
     // "/info/awards/best-paper-awards",
   ],
 

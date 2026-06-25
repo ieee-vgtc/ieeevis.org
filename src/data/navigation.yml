@@ -299,6 +299,15 @@ menu:
           #           url: "/info/plenary/townhall"
           #           description: "Engage with the VIS community, internal and external"
           #           is_new: false
+      - subsections:
+          - heading: "Invited Speakers"
+            heading_url: "/info/invited-speakers/summary"
+            columns:
+              - links:
+                  - text: "Keynote"
+                    description: "Kimberly K. Arcand"
+                    url: "/info/invited-speakers/keynote-speaker"
+                    is_new: false
       # - subsections:
       #     - heading: "Invited Speakers"
       #       heading_url: "/info/invited-speakers/summary"
