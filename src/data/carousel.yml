@@ -9,6 +9,12 @@
   buttonText: "Satellite Events"
   buttonUrl: "/blog/2026-06-03-vis-2026-GC-blog"
 
+- title: "VIS 2026 Keynote: Kimberly K. Arcand"
+  image: "kimberly-arcand.jpg"
+  imagePosition: "center 18%"
+  buttonText: "VIS 2026 Keynote"
+  buttonUrl: "/info/invited-speakers/keynote-speaker"
+
 - title: "IEEE VIS 2026 in Boston, Massachusetts"
   image: "boston_skyline.jpg"
   buttonText: "Destination Information"
