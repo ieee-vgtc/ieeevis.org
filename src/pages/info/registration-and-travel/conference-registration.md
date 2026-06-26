@@ -68,11 +68,11 @@ We recommend all attendees, authors/presenters, and organizers register online i
 | Student Non-Member      | $719            | $479 + VAT        | $479 + VAT          | $359    | $289   |
 | IEEE Life Member        | $599            |                   |                     |         |        |
 
-**All registrations include admission to sessions and events for the selected days at the location of attendance.  Access to virtual content is also provided.**
+**All registrations include admission to sessions and events for the chosen days and location of attendance.  Access to virtual content is also provided.**
 
-If attending on Wednesday in Boston (November 11), all registration categories include admission for one person to the conference banquet.  The banquet will be hosted Wednesday night at the [MIT museum](https://mitmuseum.mit.edu/). Additional banquet tickets per registrant may be purchased through the registration site.
+If attending on Wednesday in Boston (November 11), all registration categories include admission for one person to the conference banquet.  The banquet will be hosted Wednesday night at the [MIT museum](https://mitmuseum.mit.edu/). Additional banquet tickets may be purchased through the registration site.
 
-**Remember that each paper resented during the main conference proceedings MUST have at least one person complete a Full Conference registration.**  See above for details.
+**Remember that each paper presented during the main conference proceedings MUST have at least one person complete a Full Conference registration.**  See above for details.
 
 
 
