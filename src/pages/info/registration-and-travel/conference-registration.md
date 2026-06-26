@@ -40,7 +40,7 @@ Please keep in mind that there will be no in-person registrations available at t
 
 ### Authors and Presenters of Full Papers, Short Papers, Invited TVCG Papers, and Invited CG&A Papers
 
-Each paper presented during the main conference proceedings (i.e., full papers, short papers, invited TVCG papers, and inviteg CG&A papers) **MUST** have at least one person complete a full-week registration. During the registration process, they must provide which location they will be attending in-person as well as their paper type, ID, and title.
+Each paper presented during the main conference proceedings (i.e., full papers, short papers, invited TVCG papers, and invited CG&A papers) **MUST** have at least one person complete a full-week registration. During the registration process, they must provide which location they will be attending in-person as well as their paper type, ID, and title.
 
 Student authors/presenters may only cover one (1) paper on their full-week registration. Other authors/presenters may cover up to two (2) papers on their full-week registration.
 
