@@ -9,7 +9,7 @@ contact: finance@ieeevis.org
 ## IEEE VIS 2026 Registration
 
 We are excited to have you to join us at the 2026 IEEE Visualization and Visual Analytics Conference, November 9 - 13.
-The main conference will take place at The Westin Copley Place in Boaston, MA, USA.
+The main conference will take place at The Westin Copley Place in Boston, MA, USA.
 Satellite locations will also host in-person programs at Paris, France and Tianjin, China. See the [Satellite Locations](https://ieeevis.org/year/2026/satellites/) page for more details.
 
 After reviewing the sections below, please use the registration button below to complete registration for IEEE VIS 2026.
@@ -51,22 +51,22 @@ We recommend all attendees, authors/presenters, and organizers register online i
 **Note that registrations at our satellite locations will have limited capacity.** 
 
 #### Early Bird Registration (until September 14, 2026, AOE)
-| Registrant Type         | Full Conference | Satellite - Paris | Satellite - Tianjin | Two Day | One Day|
-|-------------------------|-----------------|-------------------|---------------------|---------|--------|
-| IEEE Member             | $899            | $399 + VAT        | $399 + VAT          | $369    | $289   |
-| Non-Member              | $1,099          | $499 + VAT        | $499 + VAT          | $449    | $349   |
-| IEEE Student Member     | $499            | $299 + VAT        | $299 + VAT          | $249    | $199   |
-| Student Non-Member      | $599            | $399 + VAT        | $399 + VAT          | $299    | $239   |
-| IEEE Life Member        | $499            |                   |                     |         |        |
+| Registrant Type         | Full Conference | Satellite - Paris | Satellite - Tianjin | Two Day - Boston | One Day - Boston |
+|-------------------------|-----------------|-------------------|---------------------|------------------|------------------|
+| IEEE Member             | $899            | $399 + VAT        | $399 + VAT          | $369             | $289             |
+| Non-Member              | $1,099          | $499 + VAT        | $499 + VAT          | $449             | $349             |
+| IEEE Student Member     | $499            | $299 + VAT        | $299 + VAT          | $249             | $199             |
+| Student Non-Member      | $599            | $399 + VAT        | $399 + VAT          | $299             | $239             |
+| IEEE Life Member        | $499            |                   |                     |                  |                 |
 
 #### Late Registration (from September 15, 2026)
-| Registrant Type         | Full Conference | Satellite - Paris | Satellite - Tianjin | Two Day | One Day|
-|-------------------------|-----------------|-------------------|---------------------|---------|--------|
-| IEEE Member             | $1,099          | $499 + VAT        | $499 + VAT          | $449    | $349   |
-| Non-Member              | $1,319          | $599 + VAT        | $599 + VAT          | $539    | $419   |
-| IEEE Student Member     | $599            | $359 + VAT        | $359 + VAT          | $299    | $239   |
-| Student Non-Member      | $719            | $479 + VAT        | $479 + VAT          | $359    | $289   |
-| IEEE Life Member        | $599            |                   |                     |         |        |
+| Registrant Type         | Full Conference | Satellite - Paris | Satellite - Tianjin | Two Day - Boston | One Day - Boston |
+|-------------------------|-----------------|-------------------|---------------------|------------------|------------------|
+| IEEE Member             | $1,099          | $499 + VAT        | $499 + VAT          | $449             | $349             |
+| Non-Member              | $1,319          | $599 + VAT        | $599 + VAT          | $539             | $419             |
+| IEEE Student Member     | $599            | $359 + VAT        | $359 + VAT          | $299             | $239             |
+| Student Non-Member      | $719            | $479 + VAT        | $479 + VAT          | $359             | $289             |
+| IEEE Life Member        | $599            |                   |                     |                  |                  |
 
 **All registrations include admission to sessions and events for the chosen days and location of attendance.  Access to virtual content is also provided.**
 
