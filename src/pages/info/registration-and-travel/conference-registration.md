@@ -52,6 +52,8 @@ Papers presented at symposia, workshops, tutorials, panels, challenges, or other
 
 We recommend all attendees, authors/presenters, and organizers register online in advance and pay via credit card or wire transfer.
 
+**Note that registrations for our satellite locations are capped due to limited capacity at those locations.** The registration site will show you how many registrations are still available at each satellite location.
+
 | Registrant Type         | Full-Week | Satellite - Paris | Satellite - Tianjin | Two Day | One Day|
 |-------------------------|-----------|-------------------|---------------------|---------|--------|
 | IEEE Lifetime Member    | $499      |                   |                     |         |        |
