@@ -5,7 +5,7 @@ active_nav: "Attend"
 contact: "general_chair@ieeevis.org"
 ---
 
-If you are planning to attend VIS 2024 and may need a visa, we encourage you to visit the [U.S. Visas website](https://travel.state.gov/content/travel/en/us-visas.html) for information on visa procedures and applications. Please allow ample time for visa processing.
+If you are planning to attend IEEE VIS 2026 and may need a visa, we encourage you to visit the [U.S. Visas website](https://travel.state.gov/content/travel/en/us-visas.html) for information on visa procedures and applications. Please allow ample time for visa processing.
 
 
 
