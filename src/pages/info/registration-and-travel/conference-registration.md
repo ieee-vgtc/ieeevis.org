@@ -32,7 +32,7 @@ Please keep in mind that there will be no in-person registrations available at t
     * **Remember that presenters of full papers, short papers, invited TVCG papers, and invited CG&A papers must register for a full week and provide information as an author.** More details on this below.  
     * VAT for satellite registrations will automatically be added to your order total on the payment page.
 4. Complete your payment for your selected registration.  
-    * A confirmation email and visa email will be sent to you automatically.
+    * A confirmation email and visa email will be sent to you automatically. See [our visa page]({{ 'info/registration-and-travel/visas' | relative_url }}) for more information.
 5. Join us at one of our locations!
 
 
