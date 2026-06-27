@@ -19,4 +19,4 @@ The generated letter will contain the following:
 * Full name including Salutation (Mr., Ms., Mrs.) in the order of Salutation, Given (First) Name, Family (Last) Name
 * Email address, mailing address and affiliation (business or school)
 
-If additional information (such as paper title and number, passport number, passport expiration date, date of birth, etc) is necessary,  you can enter this information when you register and it will be included in the letter. If you have questions or additional requirement, you may contact [visa-letters@ieeevis.org](mailto:visa-letters@ieeevis.org).
+If additional information (such as paper title and number, passport number, passport expiration date, date of birth, etc.) is necessary,  you can enter this information when you register and it will be included in the letter. If you have questions or additional requirement, you may contact [visa-letters@ieeevis.org](mailto:visa-letters@ieeevis.org).
