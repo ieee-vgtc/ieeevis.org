@@ -48,7 +48,9 @@ Papers presented at symposia, workshops, tutorials, panels, challenges, or other
 
 We recommend all attendees, authors/presenters, and organizers register online in advance and pay via credit card or wire transfer.  Note that wire transfers will include a separate fee (please add it under the "Additional Items").
 
-**Note that registrations at our satellite locations will have limited capacity.** 
+**Note that registrations at our satellite locations will have limited capacity.**
+
+**Note that current satellite registration prices are ESTIMATES. We are still waiting to finalize price details due to complexities with arranging events across different countries**
 
 #### Early Bird Registration (until September 14, 2026, AOE)
 | Registrant Type         | Full Conference | Satellite - Paris | Satellite - Tianjin | Two Day - Boston | One Day - Boston |
@@ -73,6 +75,8 @@ We recommend all attendees, authors/presenters, and organizers register online i
 If attending on Wednesday in Boston (November 11), all registration categories include admission for one person to the conference banquet.  The banquet will be hosted Wednesday night at the [MIT museum](https://mitmuseum.mit.edu/). Additional banquet tickets may be purchased through the registration site.
 
 **Remember that each paper presented during the main conference proceedings MUST have at least one person complete a Full Conference registration.**  See above for details.
+
+**Registration fees are refundable up to 30 days before the beginning of the conference.**
 
 
 
