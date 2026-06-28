@@ -50,7 +50,6 @@ We recommend all attendees, authors/presenters, and organizers register online i
 
 **Note that registrations at our satellite locations will have limited capacity.**
 
-**Note that current satellite registration prices are ESTIMATES. We are still waiting to finalize price details due to complexities with arranging events across different countries**
 
 #### Early Bird Registration (until September 14, 2026, AOE)
 | Registrant Type         | Full Conference | Satellite - Paris | Satellite - Tianjin | Two Day - Boston | One Day - Boston |
@@ -61,6 +60,7 @@ We recommend all attendees, authors/presenters, and organizers register online i
 | Student Non-Member      | $599            | $399 + VAT        | $399 + VAT          | $299             | $239             |
 | IEEE Life Member        | $499            |                   |                     |                  |                 |
 
+
 #### Late Registration (from September 15, 2026)
 | Registrant Type         | Full Conference | Satellite - Paris | Satellite - Tianjin | Two Day - Boston | One Day - Boston |
 |-------------------------|-----------------|-------------------|---------------------|------------------|------------------|
@@ -69,6 +69,7 @@ We recommend all attendees, authors/presenters, and organizers register online i
 | IEEE Student Member     | $599            | $359 + VAT        | $359 + VAT          | $299             | $239             |
 | Student Non-Member      | $719            | $479 + VAT        | $479 + VAT          | $359             | $289             |
 | IEEE Life Member        | $599            |                   |                     |                  |                  |
+
 
 **All registrations include admission to sessions and events for the chosen days and location of attendance.  Access to virtual content is also provided.**
 
