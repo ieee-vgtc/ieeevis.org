@@ -34,9 +34,9 @@ Submissions should aim to start a meaningful and well-informed discussion about 
 
 | Event                    | Date                      |
 | :----------------------- | :------------------------ |
-| Submission deadline      | Friday, July 3rd, 2026    |
-| Acceptance notification  | Friday, August 3rd, 2026  |
-| Camera-ready version due | Friday, August 10th, 2026 |
+| Submission deadline      | Friday, July 31st, 2026   |
+| Acceptance notification  | Friday, August 14th, 2026  |
+| Camera-ready version due | Friday, August 21st, 2026 |
 
 ## **Selection Process**
 
