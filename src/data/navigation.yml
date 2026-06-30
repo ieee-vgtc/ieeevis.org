@@ -161,6 +161,8 @@ menu:
     display: true
     sections:
       - subsections:
+          - heading: "Register for VIS 2026"
+            heading_url: "/info/registration-and-travel/conference-registration"
           - heading: "VIS 2026 Flagship: Boston, MA"
             #       heading_url: "/info/registration-and-travel/conference-registration"
             columns:
@@ -172,7 +174,7 @@ menu:
                   - text: "Hotel Information"
                     description: "Where to stay"
                     url: "/info/registration-and-travel/hotel-information"
-                    is_new: true
+                    is_new: false
           - heading: "Satellite Locations"
             # heading_url: "/satellites/"
             columns:
@@ -180,12 +182,7 @@ menu:
                   - text: "Satellite Events"
                     description: "Secondary sites co-hosting the conference"
                     url: "/satellites/"
-                    is_new: true
-
-                #             - text: "Registration"
-                #               description: "How to register for VIS"
-                #               url: "/info/registration-and-travel/conference-registration"
-                #               is_new: false
+                    is_new: false
                 #             - text: "Venue"
                 #               description: "Austria Center Vienna"
                 #               url: "/info/registration-and-travel/venue"

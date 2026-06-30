@@ -5,7 +5,6 @@ active_nav: "Attend"
 contact: finance@ieeevis.org
 ---
 
-
 ## IEEE VIS 2026 Registration
 
 We are excited to have you to join us at the 2026 IEEE Visualization and Visual Analytics Conference, November 9 - 13.
@@ -14,78 +13,68 @@ Satellite locations will also host in-person programs at Paris, France and Tianj
 
 After reviewing the sections below, please use the registration button below to complete registration for IEEE VIS 2026.
 
-
 For Full Conference registrations and to register to attend the Boston Location, use the following:
 <a class="button" href="https://web.cvent.com/event/bfb61584-aa1d-46ed-9a2e-98101b7b86e4/summary" target="_blank">REGISTER</a>
 
 Registration for satellites in our two locations (Paris and Tianjin) is coming soon. If you are planning to attend these sites (and not obligated to register at the Full Conference rate, see below), please standby for updates to how you will register.
 
-
-
 ### Registration Process
+
 1. Click the button above.
-2. Follow the prompts to select the appropriate registration type and answer registration-related quetions.  
-    * **Remember that presenters of full papers, short papers, invited TVCG papers, and invited CG&A papers must be covered by a Full Conference registration and provide information as an author.** More details on this below.  
-    * VAT for satellite registrations will be included as necessary.
-3. Complete your payment for your selected registration.  
-    * A confirmation email and visa email will be sent to you automatically. See [our visa page]({{ 'info/registration-and-travel/visas' | relative_url }}) for more information.
+2. Follow the prompts to select the appropriate registration type and answer registration-related quetions.
+   - **Remember that presenters of full papers, short papers, invited TVCG papers, and invited CG&A papers must be covered by a Full Conference registration and provide information as an author.** More details on this below.
+   - VAT for satellite registrations will be included as necessary.
+3. Complete your payment for your selected registration.
+   - A confirmation email and visa email will be sent to you automatically. See [our visa page](/year/2026/info/registration-and-travel/visas/) for more information.
 4. Join us at one of our locations!
 
 Please keep in mind that there will be no in-person registrations available at the satellite locations. In-person registrations will be permitted in Boston.
 
-
 ### Authors and Presenters of Full Papers, Short Papers, Invited TVCG Papers, and Invited CG&A Papers
 
-Each VIS Full Paper, VIS Short Paper, or invited TVCG/CG&A journal presentation MUST be covered by a Full Conference registration regardless of presentation location (Boston/Paris/Tianjin).  During the registration process, they must provide which location they will be attending in-person as well as their paper type, ID, and title.
+Each VIS Full Paper, VIS Short Paper, or invited TVCG/CG&A journal presentation MUST be covered by a Full Conference registration regardless of presentation location (Boston/Paris/Tianjin). During the registration process, they must provide which location they will be attending in-person as well as their paper type, ID, and title.
 
 Student authors/presenters may only cover one (1) paper on their Full Conference registration. Other authors/presenters may cover up to two (2) papers on their Full Conference registration.
 
 Papers presented at symposia, workshops, tutorials, panels, challenges, or other conference proceedings do **NOT** require someone to complete a Full Conference registration. Similarly, poster presenters, invited speakers, or other presenters or organizers do **NOT** require someone to complete a Full Conference registration.
 
-
-
 ### Conference Registration Fees
 
-We recommend all attendees, authors/presenters, and organizers register online in advance and pay via credit card or wire transfer.  Note that wire transfers will include a separate fee (please add it under the "Additional Items").
+We recommend all attendees, authors/presenters, and organizers register online in advance and pay via credit card or wire transfer. Note that wire transfers will include a separate fee (please add it under the "Additional Items").
 
 **Note that registrations at our satellite locations will have limited capacity.**
 
-
 #### Early Bird Registration (until September 14, 2026, AOE)
-| Registrant Type         | Full Conference | Satellite - Paris | Satellite - Tianjin | Two Day - Boston | One Day - Boston |
-|-------------------------|-----------------|-------------------|---------------------|------------------|------------------|
-| IEEE Member             | $899            | $399 + VAT        | $399 + VAT          | $369             | $289             |
-| Non-Member              | $1,099          | $499 + VAT        | $499 + VAT          | $449             | $349             |
-| IEEE Student Member     | $499            | $299 + VAT        | $299 + VAT          | $249             | $199             |
-| Student Non-Member      | $599            | $399 + VAT        | $399 + VAT          | $299             | $239             |
-| IEEE Life Member        | $499            |                   |                     |                  |                 |
 
+| Registrant Type     | Full Conference | Satellite - Paris | Satellite - Tianjin | Two Day - Boston | One Day - Boston |
+| ------------------- | --------------- | ----------------- | ------------------- | ---------------- | ---------------- |
+| IEEE Member         | $899            | $399 + VAT        | $399 + VAT          | $369             | $289             |
+| Non-Member          | $1,099          | $499 + VAT        | $499 + VAT          | $449             | $349             |
+| IEEE Student Member | $499            | $299 + VAT        | $299 + VAT          | $249             | $199             |
+| Student Non-Member  | $599            | $399 + VAT        | $399 + VAT          | $299             | $239             |
+| IEEE Life Member    | $499            |                   |                     |                  |                  |
 
 #### Late Registration (from September 15, 2026)
-| Registrant Type         | Full Conference | Satellite - Paris | Satellite - Tianjin | Two Day - Boston | One Day - Boston |
-|-------------------------|-----------------|-------------------|---------------------|------------------|------------------|
-| IEEE Member             | $1,099          | $499 + VAT        | $499 + VAT          | $449             | $349             |
-| Non-Member              | $1,319          | $599 + VAT        | $599 + VAT          | $539             | $419             |
-| IEEE Student Member     | $599            | $359 + VAT        | $359 + VAT          | $299             | $239             |
-| Student Non-Member      | $719            | $479 + VAT        | $479 + VAT          | $359             | $289             |
-| IEEE Life Member        | $599            |                   |                     |                  |                  |
 
+| Registrant Type     | Full Conference | Satellite - Paris | Satellite - Tianjin | Two Day - Boston | One Day - Boston |
+| ------------------- | --------------- | ----------------- | ------------------- | ---------------- | ---------------- |
+| IEEE Member         | $1,099          | $499 + VAT        | $499 + VAT          | $449             | $349             |
+| Non-Member          | $1,319          | $599 + VAT        | $599 + VAT          | $539             | $419             |
+| IEEE Student Member | $599            | $359 + VAT        | $359 + VAT          | $299             | $239             |
+| Student Non-Member  | $719            | $479 + VAT        | $479 + VAT          | $359             | $289             |
+| IEEE Life Member    | $599            |                   |                     |                  |                  |
 
-**All registrations include admission to sessions and events for the chosen days and location of attendance.  Access to virtual content is also provided.**
+**All registrations include admission to sessions and events for the chosen days and location of attendance. Access to virtual content is also provided.**
 
-If attending on Wednesday in Boston (November 11), all registration categories include admission for one person to the conference banquet.  The banquet will be hosted Wednesday night at the [MIT museum](https://mitmuseum.mit.edu/). Additional banquet tickets may be purchased through the registration site.
+If attending on Wednesday in Boston (November 11), all registration categories include admission for one person to the conference banquet. The banquet will be hosted Wednesday night at the [MIT museum](https://mitmuseum.mit.edu/). Additional banquet tickets may be purchased through the registration site.
 
-**Remember that each paper presented during the main conference proceedings MUST have at least one person complete a Full Conference registration.**  See above for details.
+**Remember that each paper presented during the main conference proceedings MUST have at least one person complete a Full Conference registration.** See above for details.
 
 **Registration fees are refundable up to 30 days before the beginning of the conference.**
-
-
 
 ### Diversity and Inclusivity Participants
 
 We will offer free registration to individuals who need financial assistance. Please see our page on [Inclusivity Scholarships](https://ieeevis.org/year/2026/info/inclusion/scholarship/) for more details.
-
-
 
 ### Registration FAQS
 
@@ -104,7 +93,5 @@ No. Workshop or symposium paper presenters and authors may select whichever regi
 **Q: I am an organizer for a workshop, tutorial, panel, challenge, or symposium. Do I need to complete a Full Conference registration?**
 
 No. Organizers may select whichever registration best suits their schedule.
-
-
 
 If you have additional questions, please contact [registration@ieeevis.org](mailto:registration@ieeevis.org).
