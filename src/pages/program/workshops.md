@@ -1,7 +1,7 @@
 ---
 title: Workshops
 layout: /src/layouts/PageLayout.astro
-active_nav: Workshops
+active_nav: Program
 contact: workshops@ieeevis.org
 ---
 

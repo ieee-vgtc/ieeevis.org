@@ -2,6 +2,7 @@
 title: Meetups
 layout: /src/layouts/PageLayout.astro
 contact: meetups@ieeevis.org
+active_nav: Contribute
 ---
 
 Do you want to meet people who share the same interests as you, discuss a topic that you care about or that brings the visualization community forward, or share viewpoints and experiences to foster community building? If yes, organize a meetup!
@@ -25,25 +26,28 @@ The meetup chairs will take care of reserving a room that fits your needs, findi
 
 ### Whom to contact and where to submit the proposals?
 
-Submissions should be emailed to
-[community@ieeevis.org](mailto:community@ieeevis.org).
+Submissions should be emailed to [community@ieeevis.org](mailto:community@ieeevis.org).
 
 ### When to submit?
 
 Submissions will be considered subject to time and technology resources availability. Early submissions will be given priority.
 
-| Early Submission | **September 19, 2026** |
-| Notification | **October 1, 2026** |
+| Early Submission | **September 1, 2026** |
+| Notification | **September 30, 2026** |
 
 Rolling submission: Submissions after the early submission deadline will be considered subject to timeslot availability. Later submissions will be processed and notified within a couple of days.
 
-| Rolling Submission | **From September 20, 2026 to October 25, 2026** |
+| Rolling Submission | **From September 2, 2026 to September 25, 2026** |
 | Notification | **Within a few days** |
 
-### Chairs
+---
 
-Kyle Wm. Hall _Temple University_
+### Contact
 
-Georgia Panagiotidou, _King’s College London_
+For more information, contact IEEE VIS 2026 Community/Meetups/Elections Chairs:
 
-Isaac Cho, _Utah State University_
+- Kyle Hall, _Temple University_
+- Lijie Yao, _Xi’an Jiaotong-Liverpool University_
+- Carmen Hull, _Northeastern University_
+
+email: [community@ieeevis.org](mailto:community@ieeevis.org)

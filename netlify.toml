@@ -1,0 +1,12 @@
+[build]
+  command = "npm run build && rm -rf netlify-dist && mkdir -p netlify-dist/year/2026 && cp -a dist/. netlify-dist/year/2026/ && cp -a dist/404.html netlify-dist/404.html"
+  publish = "netlify-dist"
+
+[build.environment]
+  BASE_PATH = "/year/2026"
+  SITE = "https://ieeevis.org"
+
+[[redirects]]
+  from = "/"
+  to = "/year/2026/welcome/"
+  status = 302

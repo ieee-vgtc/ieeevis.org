@@ -3,12 +3,14 @@ title: Historical Keynote and Capstone Talks
 description: Explore historical keynote and capstone talks at IEEE VIS, featuring past speakers and influential presentations from previous conferences.
 layout: /src/layouts/PageLayout.astro
 contact: archive@ieeevis.org
+active_nav: Organization & History
 ---
 
 This page lists the keynote and capstone speakers at VIS in previous years.
 
 | Year |                                        Keynote                                         |                      Capstone                      |
 | ---- | :------------------------------------------------------------------------------------: | :------------------------------------------------: |
+| 2025 |                                  Hans-Christian Hege                                   |                   Theo Deutinger                   |
 | 2024 |                                       Bill Pike                                        |                Catherine D'Ignazio                 |
 | 2023 |                             Drew Berry and Anders Ynnerman                             |                    Matt Duckham                    |
 | 2022 |                                      Marti Hearst                                      |                   Kerry Magruder                   |

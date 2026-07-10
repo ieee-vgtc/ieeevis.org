@@ -31,7 +31,7 @@ In order to ensure that papers are discoverable and remain accessible long-term,
 
 4. **Reliable** —Research should represent a permanent advancement of knowledge and understanding, so it is important that posted papers are available for perpetuity. The archive must therefore have an explicitly stated plan for long-term reliability ([example](https://help.osf.io/hc/en-us/articles/360019737894-FAQs#what-if-you-run-out-of-funding-what-happens-to-my-data)), or it must deposit all papers in a dedicated "dark archive" such as [Portico](https://www.portico.org/) or [Clockss](https://clockss.org/).
 
-A repository that meets the criteria for long-term reliability and is inline with IEEE policy is [arXiv.org](http://arxiv.org) ([instructions](open-practices-arxiv)). If you would like to use another repository such as an institutional repository, please email an explanation of how it meets the criteria to open_practices@ieeevis.org. A personal website, lab website, or any site that is not immutable and has no explicit plans for long-term availability (e.g. GitHub) does not meet the criteria.
+A repository that meets the criteria for long-term reliability and is inline with IEEE policy is [arXiv.org](http://arxiv.org) ([instructions](/year/2026/info/open-practices/open-practices-arxiv)). If you would like to use another repository such as an institutional repository, please email an explanation of how it meets the criteria to open_practices@ieeevis.org. A personal website, lab website, or any site that is not immutable and has no explicit plans for long-term availability (e.g. GitHub) does not meet the criteria.
 
 ## Sharing the preprint with VIS in the Author Submission Portal
 
@@ -70,7 +70,7 @@ To sum up, you are encouraged to share your paper either on [arXiv.org](http://a
 
 ## Which version of the paper can I share?
 
-Share the final preprint version of your accepted article that you create after all rounds of review because it is the most scrutinized and polished. Please do not share the version created by IEEE, which typically has page numbers. If you are using `LaTeX` to produce your paper, indicating the `preprint` option on your main `TeX` file will ensure that you produce a version that is compliant with IEEE's regulations. For submitting to arXiv, you can follow the guidance [here](open-practices-arxiv).
+Share the final preprint version of your accepted article that you create after all rounds of review because it is the most scrutinized and polished. Please do not share the version created by IEEE, which typically has page numbers. If you are using `LaTeX` to produce your paper, indicating the `preprint` option on your main `TeX` file will ensure that you produce a version that is compliant with IEEE's regulations. For submitting to arXiv, you can follow the guidance [here](/year/2026/info/open-practices/open-practices-arxiv).
 
 **After you receive the DOI from IEEE**, you must either add the DOI to the repository to add a link to the IEEEXplore page or include that information directly on the pdf. Depending on how you produced your document and requirements of the repository (for instance, arXiV requires TeX files to be submitted), you have two options:
 
@@ -83,7 +83,7 @@ Share the final preprint version of your accepted article that you create after 
 
 Make sure that the revised version has: i) the copyright statement on the bottom-left on the first page and ii) a statement with a link to the paper on IEEEXplore on the first page (or on top of odd-numbered pages). Once everything is in place, resubmit the revised preprint to the OA repository to replace the version you submitted earlier.
 
-If you have uploaded your preprint to arXiv, you can follow the [guidance on this page](open-practices-arxiv) under the "**5.Update arXiv record post publication**" step for revising your record on arXiv.
+If you have uploaded your preprint to arXiv, you can follow the [guidance on this page](/year/2026/info/open-practices/open-practices-arxiv) under the "**5.Update arXiv record post publication**" step for revising your record on arXiv.
 
 ## Can I put my paper on my personal/institutional webpage?
 
@@ -93,7 +93,7 @@ You are free to share a preprint of your paper on your personal or institutional
 
 [Plan-S](https://www.coalition-s.org/) is a European policy requiring publicly funded research publications to be open access (available for free). However, it only relates to open access of papers via the publisher, not preprints or other open practices such as open materials, open data, or preregistration. It can, however, impact which publisher you choose.
 
-Please see our blog post on [Publishing papers covered under Plan S](../../blog/plublishing-under-plan-s) for details.
+Please see our blog post on [Publishing papers covered under Plan S](https://ieeevis.org/year/2024/blog/plublishing-under-plan-s) for details.
 
 ## What if I have questions, comments, concerns?
 

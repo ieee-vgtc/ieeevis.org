@@ -2,6 +2,7 @@
 title: VisInPractice
 layout: /src/layouts/PageLayout.astro
 contact: vip@ieeevis.org
+active_nav: Events & Community
 ---
 
 **VisInPractice** sessions are an opportunity for visualization practitioners and researchers to meet and share experiences, insights, and ideas in applying data visualization and visual analytics to real-world use cases. The goal of these sessions is to acknowledge successful transfers of visualization research into applications as well as current visualization practices in industry.

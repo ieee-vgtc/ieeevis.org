@@ -132,6 +132,9 @@
 .menu_item--focused {
   @apply text-accent-minor bg-accent;
 }
+.menu_item--selected-nav-group {
+  border-bottom: 4px solid var(--color-accent-minor);
+}
 
 @variant md {
   .menu_item:hover {

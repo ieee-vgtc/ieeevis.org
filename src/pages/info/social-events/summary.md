@@ -6,7 +6,9 @@ contact: "general_chair@ieeevis.org"
 active_nav: "Program"
 ---
 
-VIS 2026 offers several **social events** for networking and discussion.
+Details TBD.
+
+<!-- VIS 2026 offers several **social events** for networking and discussion.
 
 ### Welcome Reception
 
@@ -37,4 +39,4 @@ The Vis Arts reception and exhibition will take place at the **University of App
 The OC dinner is a special event for the conference organizers. **Participation is by invitation only.**
 This year, the OC dinner will take place at the **Melker Stiftskeller** restaurant in the 1st district.
 
-**When: Thursday (Nov 6), 7:00pm (CET)**
+**When: Thursday (Nov 6), 7:00pm (CET)** -->

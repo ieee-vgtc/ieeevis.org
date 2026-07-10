@@ -5,7 +5,9 @@ sidebar: social-events
 active_nav: "Program"
 ---
 
-The VIS 2026 **Welcome Reception** will take place outside the convention center.
+Details TBD.
+
+<!-- The VIS 2026 **Welcome Reception** will take place outside the convention center.
 
 ## Location
 
@@ -38,4 +40,4 @@ If you do not see the elephant, you are at the wrong museum - just turn around a
 
 The welcome reception will take place:
 
-**Tuesday (Nov 4), 6:30pm - 9:00pm (CET)**
+**Tuesday (Nov 4), 6:30pm - 9:00pm (CET)** -->

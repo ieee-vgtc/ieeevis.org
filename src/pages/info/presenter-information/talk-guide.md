@@ -6,6 +6,9 @@ active_nav: "Contribute"
 contact: tech@ieeevis.org
 ---
 
+Details TBD.
+
+<!--
 Please **read the following instructions carefully** for guidelines on preparing your **Presentation** for VIS 2026, or a VIS 2026 workshop.
 
 ## IEEE Visualization 2026 is planned as an in-person event
@@ -54,4 +57,4 @@ _Email: [program@ieeevis.org](mailto:program@ieeevis.org)_
 - Ab Mosca, _Westfield State University_
 - John Thompson, _Microsoft Research_
 
-_Email: [inclusivity_accessibility@ieeevis.org](mailto:inclusivity_accessibility@ieeevis.org)_
+_Email: [inclusivity_accessibility@ieeevis.org](mailto:inclusivity_accessibility@ieeevis.org)_ -->

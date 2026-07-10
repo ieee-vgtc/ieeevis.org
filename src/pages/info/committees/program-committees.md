@@ -245,106 +245,86 @@ sidetoc: false
 
 Contact: [opc@ieeevis.org](mailto:opc@ieeevis.org)
 
-<!--
+
 ## Short Papers Program Committee
 
 | **Name** | **Affiliation** |
 | --- | --- |
-|Eytan Adar|_University of Michigan_|
-|Hannah Bako|_University of Maryland_|
-|Cindy Xiong Bearfield|_Georgia Tech_|
-|Jürgen Bernard|_University of Zurich_|
-|Kaustav Bhattacharjee|_Pacific Northwest National Laboratory_|
-|Georges-Pierre Bonneau|_Univ. Grenoble Alpes and INRIA_|
-|Carson Brownlee|_Intel_|
-|Chris Bryan|_Arizona State University_|
-|Hamish Carr|_University of Leeds_|
-|Xin Chen|_Renmin University of China_|
-|Lena Cibulski|_University of Rostock_|
-|Carla Dal Sasso Freitas|_Federal University of Rio Grande do Sul_|
-|Zikun Deng|_South China University of Technology_|
-|Dazhen Deng|_Zhejiang University_|
-|Harish Doraiswamy|_Microsoft Research India_|
-|Mai Elshehaly|_City, University of London_|
-|Marina Evers|_University of Siegen_|
-|Velitchko Filipov|_TU Wien_|
-|Danyel Fisher|_Honeycomb_|
-|Steffen Frey|_University of Groningen_|
-|Georg Fuchs|_Fraunhofer IAIS_|
-|Laura Garrison|_University of Bergen_|
-|Mohammad Ghoniem|_Luxembourg Institute of Science and Technology_|
-|Christina Gillmann|_Fraunhofer FIT_|
-|Sarah Goodwin|_Monash University_|
-|Markus Hadwiger|_KAUST_|
-|Helwig Hauser|_University of Bergen_|
-|Tingying He|_University of Utah_|
-|Mario Hlawitschka|_Leipzig University of Applied Sciences_|
-|Jiayi Hong|_Université Laval_|
-|Ingrid Hotz|_Linköping University_|
-|Katherine Isaacs|_The University of Utah_|
-|Takayuki Itoh|_Ochanomizu University_|
-|Hyeon Jeon|_Seoul National University_|
-|Jaemin Jo|_Sungkyunkwan University_|
-|Sara Johansson Fernstad|_Newcastle University_|
-|Mandy Keck|_University of Applied Sciences Upper Austria_|
-|Richard Khulusi|_Leipzig University_|
-|Aaron Knoll|_Advanced Micro Devices_|
-|Sungahn Ko|_POSTECH_|
-|Laura Koesten|_Mohamed
-bin Zayed University of Artificial Intelligence_|
-|Wiebke Köpp|_Lawrence Berkeley National Laboratory_|
-|Doris Kosminsky|_Universidade Federal do Rio de Janeiro_|
-|Barbora Kozlikova|_Masaryk University_|
-|Oh-Hyun Kwon|_Hudson River Trading_|
-|Devin Lange|_University of Utah_|
-|Lars Linsen|_University of Münster_|
-|Shusen Liu|_Lawrence Livermore National Laboratory_|
-|Maria Jesus Lobo|_Lastig, Univ Gustave Eiffel, IGN_|
-|Rafael M. Martins|_Linnaeus University_|
-|Kwan-Liu Ma|_University of California at Davis_|
-|Eva Mayr|_University for Continuing Education, Krems_|
-|François Mazen|_Kitware Europe_|
-|Fabio Miranda|_University of Illinois Chicago_|
-|Hiroaki Natsukawa|_Osaka Seikei University_|
-|Kay Nieselt|_Institute for Bioinformatics and Medical Informatics_|
-|Patrick O'Leary|_Kitware, Inc._|
-|Bruno Pinaud|_Université de Bordeaux_|
-|Mathieu Pont|_RPTU Kaiserslautern-Landau_|
-|Md Dilshadur Rahman|_University of Utah_|
-|Fateme Rajabiyazdi|_Carleton University_|
-|Alexander Rind|_St. Poelten University of Applied Sciences_|
-|Jonathan C. Roberts|_Bangor University_|
-|Jennifer Rogers|_Idaho National Lab_|
-|Bernice Rogowitz|_Visual Perspectives Research_|
-|Willy Scheibel|_Hasso Plattner Institute, Digital Engineering Faculty, University of Potsdam_|
-|Vidya Setlur|_Tableau Research_|
-|Yang Shi|_College of Design and Innovation, Tongji University_|
-|Claudio Silva|_New York University_|
-|Aidan Slingsby|_City St George's, University of London_|
-|Brian Summa|_Tulane University_|
-|Maoyuan Sun|_Northern Illinois University_|
-|Guodao Sun|_Zhejiang University of Technology_|
-|Danielle Szafir|_University of North Carolina-Chapel Hill_|
-|Poorna Talkad Sukumar|_New York University_|
-|Junxiu Tang|_Northwestern University_|
-|Wai Tong|_Texas A&M University_|
-|Tom Vierjahn|_Westphalian University of Applied Sciences_|
-|Chaoli Wang|_University of Notre Dame_|
-|Xumeng Wang|_College of Computer Science, Nankai University_|
-|Yifang Wang|_Northwestern University_|
-|Jiachen Wang|_Zhejiang University_|
-|John Wenskovitch|_Pacific Northwest National Laboratory_|
-|Florian Wetzels|_RPTU Kaiserslautern-Landau_|
-|Michael Wybrow|_Monash University_|
-|Lin Yan|_Iowa State University_|
-|Yalong Yang|_Georgia Institute of Technology_|
-|Yu Zhang|_University of Oxford_|
-|Jiawan Zhang|_Tianjin University_|
-|Yue Zhang|_Oregon State University_|
-|Jieqiong Zhao|_Augusta University_|
-|Fangfang Zhou|_Central South University_|
-|Minfeng Zhu|_Zhejiang University_|
-|Elmira Zohrevandi|_Linköping University_|
+| Tim Barz-Cech           | _Westphalian University of Applied Sciences_                                 |
+| Romain Vuillemot        | _Ecole Centrale de Lyon_                                                     |
+| Adam Coscia             | _Georgia Institute of Technology_                                            |
+| Md Dilshadur Rahman     | _University of Utah_                                                         |
+| Chang Han               | _University of Utah_                                                         |
+| Nikolaus Piccolotto     | _TU Wien_                                                                    |
+| Sarah Schöttler         | _Eindhoven University of Technology_                                         |
+| Jiachen Wang            | _Zhejiang University_                                                        |
+| Wiebke Köpp             | _Lawrence Berkeley National Laboratory_                                      |
+| Hyunwook Lee            | _Soongsil University_                                                        |
+| Daniel Pahr             | _TU Wien_                                                                    |
+| Jacob Miller            | _Technical University Munich_                                                |
+| Lin Yan                 | _Iowa State University_                                                      |
+| Xizi Wang               | _University of Waterloo_                                                     |
+| Rebecca Williams        | _University of Maryland Baltimore County_                                    |
+| Hannah Kim              | _Georgia Tech_                                                               |
+| Kwan-Liu Ma             | _University of California at Davis_                                          |
+| Md Rahat-uz- Zaman      | _University of Utah_                                                         |
+| Xumeng Wang             | _Nankai University_                                                          |
+| Jieqiong Zhao           | _Augusta University_                                                         |
+| Zhen Li                 | _Tianjin University_                                                         |
+| Yue Zhang               | _Oregon State University_                                                    |
+| Minfeng Zhu             | _Zhejiang University_                                                        |
+| Christina Faßbender     | _Fraunhofer FIT_                                                             |
+| Sebastian Hubenschmid   | _Aarhus University_                                                          |
+| Mai Elshehaly           | _City St George's, University of London_                                     |
+| Markus Hadwiger         | _KAUST_                                                                      |
+| Richard Khulusi         | _Leipzig University_                                                         |
+| Elmira Zohrevandi       | _Linköping University_                                                       |
+| Carla Dal Sasso Freitas | _Federal University of Rio Grande do Sul_                                    |
+| Enamul Hoque            | _York University_                                                            |
+| Harish Doraiswamy       | _Microsoft Research India_                                                   |
+| Maoyuan Sun             | _Northern Illinois University_                                               |
+| Vidya Setlur            | _Tableau Research_                                                           |
+| Tom Vierjahn            | _Westphalian University of Applied Sciences_                                 |
+| Alireza Karduni         | _Simon Fraser University_                                                    |
+| Marina Evers            | _University of Siegen_                                                       |
+| Jiehui Zhou             | _Taobao & Tmall Group of Alibaba_                                            |
+| Ilir Jusufi             | _Blekinge Institute of Technology_                                           |
+| Sarah Goodwin           | _Monash University_                                                          |
+| Aidan Slingsby          | _City St George's, University of London_                                     |
+| Dongyu Liu              | _University of California at Davis_                                          |
+| Rafael Henkin           | _Queen Mary University of London_                                            |
+| Michael Correll         | _Northeastern University_                                                    |
+| Willy Scheibel          | _University of Potsdam_                                                      |
+| David Gotz              | _University of North Carolina_                                               |
+| Georgia Panagiotidou    | _King's College London_                                                      |
+| Jiayi Hong              | _Université Laval_                                                           |
+| Angus Forbes            | _NVIDIA_                                                                     |
+| Chris Bryan             | _Arizona State University_                                                   |
+| Florian Wetzels         | _RPTU Kaiserslautern-Landau_                                                 |
+| Takayuki Itoh           | _Ochanomizu University_                                                      |
+| Maria Jesus Lobo        | _Lastig, Univ Gustave Eiffel, IGN_                                           |
+| Mathieu Pont            | _RPTU Kaiserslautern-Landau_                                                 |
+| Katherine Isaacs        | _The University of Utah_                                                     |
+| Aritra Dasgupta         | _New Jersey Institute of Technology_                                         |
+| Gabriela Molina León    | _Aarhus University_                                                          |
+| Jaemin Jo               | _Sungkyunkwan University_                                                    |
+| Sara Johansson Fernstad | _Newcastle University_                                                       |
+| Nadia Boukhelifa        | _INRAE_                                                                      |
+| Eloi Durant             | _LIST_                                                                       |
+| Xin Chen                | _Renmin University of China_                                                 |
+| Foroozan Daneshzand     | _Simon fraser university_                                                    |
+| Maxime Cordeil          | _The University of Queensland_                                               |
+| Qing Chen               | _Tongji University_                                                          |
+| Bernice Rogowitz        | _Visual Perspectives Research_                                               |
+| Mengchen Liu            | _META_                                                                       |
+| Lyn Bartram             | _Simon Fraser University_                                                    |
+| Yubo Tao                | _Zhejiang University_                                                        |
+| Siming Chen             | _Fudan University_                                                           |
+| Qi Wu                   | _NVIDIA_                                                                     |
+| Lonni Besançon          | _Linköping University_                                                       |
+| Talha Bin Masood        | _Linköping University_                                                       |
+| Eunice Jun              | _UCLA_                                                                       |
+| Ghulam Jilani Quadri    | _University of Oklahoma_                                                     |
 
 Contact: [shortpapers@ieeevis.org](mailto:shortpapers@ieeevis.org)
--->
+

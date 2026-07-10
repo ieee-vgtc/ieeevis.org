@@ -1,14 +1,14 @@
 ---
-import '/src/styles/global.css' 
+import "/src/styles/global.css";
 
 import { load_yaml } from "../utils/load_yaml";
 
 const footer_data = load_yaml("./src/data/footer.yml");
-const navigation_data = load_yaml("./src/data/navigation.yml")
+const navigation_data = load_yaml("./src/data/navigation.yml");
 
-import Head from '../components/Head'
-import Navigation from '../components/Navigation';
-import Footer from '../components/Footer'
+import Head from "../components/Head";
+import Navigation from "../components/Navigation";
+import Footer from "../components/Footer";
 
 const { page_info } = Astro.props;
 const { pathname } = Astro.url;
@@ -16,21 +16,33 @@ const { pathname } = Astro.url;
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<Head
-            description={page_info.description || undefined}
-            title={page_info.title || ""}
-            url={Astro.url}
-        />
-	</head>
-	<body id="app" class="overflow-x-hidden">
-        <Navigation nav_data={navigation_data} client:load/>
+  <head>
+    <Head
+      description={page_info.description || undefined}
+      title={page_info.title || ""}
+      url={Astro.url}
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700|Zilla+Slab:400,500,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="app" class="overflow-x-hidden">
+    <Navigation nav_data={navigation_data} page_info={page_info} client:load />
 
-        <main>
-            <slot />
-        </main>
+    <main>
+      <slot />
+    </main>
 
-        <Footer pathname={pathname} footer_data={footer_data} contact={page_info.contact}/>
-	</body>
+    <Footer
+      pathname={pathname}
+      footer_data={footer_data}
+      contact={page_info.contact}
+      fileName={page_info.file}
+    />
+  </body>
 </html>
-

@@ -8,17 +8,19 @@ contact: community@ieeevis.org
 
 Our goals in Community are organizing activities at IEEE VIS conference that connect the current and next generation of visualization researchers and practitioners. We do this by providing conference activities to participants for all of the various visualization sub-communities: scientific visualization, information visualization, visual analytics, industry, etc.
 
-The Community activities are open to all registered IEEE VIS participants, regardless of seniority and affiliation. The activities are organized by the IEEE VIS Community Chairs, who can be reached at [community@ieeevis.org](community@ieeevis.org).
+The Community activities are open to all registered IEEE VIS participants, regardless of seniority and affiliation. The activities are organized by the IEEE VIS Community Chairs, who can be reached at [community@ieeevis.org](mailto:community@ieeevis.org).
 
 This year, Community will host the following events and activities:
 
-- [VisBuddies Meetup](#visbuddies)
-- [Job-Fair Meetup](#ajf)
-- [Job Flyer Online Posting](#job-flyers)
+- [VisBuddies](#visbuddies)
+- [Job Posting](#job-flyers)
+- [Meetups](#meetups)
 
-### <a name="visbuddies"></a>VisBuddies Meetup
+### <a name="visbuddies"></a>VisBuddies
 
 VisBuddies brings together new and returning VIS attendees with similar interests. For _newcomers_, this is a chance to meet experienced researchers in the field. For _returning attendees_, it is a chance to meet new members joining VIS and welcome them into our community.
+
+[VisBuddies Signup Form](https://forms.gle/CKGexXjxhgNLtxCE8)
 
 Example VisBuddies activities include:
 
@@ -26,24 +28,26 @@ Example VisBuddies activities include:
 - Discuss interesting sessions to attend
 - Share tips on successful research
 
-[VisBuddies Signup Form](https://forms.gle/1Lr2U8tM8qtQin366)
+### <a name="job-flyers"></a>Job Posting
 
-### <a name="job-flyers"></a>Job Flyer Online Posting
+We will collect job postings and display them on the [Job Posting page](https://ieeevis.org/year/2026/info/community/jobs/) throughout the VIS 2026 meeting.
 
-Do you have a job you are seeking to fill?
+[VIS Community Job Posting Form](https://forms.gle/7JRMnv5Z9UwcQFuj6)
 
-If so, please complete this online form, and we will include your posting on IEEEVIS.org. This year, we will use Discord to facilitate a meeting. Participants can connect there to arrange either virtual or on-site discussions.
+To submit a posting, please use the form above. Postings will be updated every couple of days on the [Job Posting page](https://ieeevis.org/year/2026/info/community/jobs/).
 
-[VIS Community Job Posting Form](https://forms.gle/g6sCRcsMkHNavktG9)
+### <a name="meetups"></a>Meetups
+Do you want to meet people who share the same interests as you, discuss a topic that you care about or that brings the visualization community forward, or share viewpoints and experiences to foster community building? If yes, organize a meetup!
 
-Links to the Job Postings will be included on the IEEEVIS.org.
+[Meetups info](https://ieeevis.org/year/2026/info/call-participation/meetups/)
+
 
 ### Contact
 
-For more information, contact IEEE VIS 2026 Community Chairs:
+For more information, contact IEEE VIS 2026 Community/Meetups/Elections Chairs:
 
-- Georgia Panagiotidou, _King’s College London_
-- Isaac Cho, _Utah State University_
-- Kyle Hall
+- Kyle Hall, _Temple University_
+- Lijie Yao, _Xi’an Jiaotong-Liverpool University_
+- Carmen Hull, _Northeastern University_
 
-email: [community@ieeevis.org](community@ieeevis.org)
+email: [community@ieeevis.org](mailto:community@ieeevis.org)

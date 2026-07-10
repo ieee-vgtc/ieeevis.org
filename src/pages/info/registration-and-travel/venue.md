@@ -5,7 +5,9 @@ active_nav: "Attend"
 contact: general_chair@ieeevis.org
 ---
 
-VIS 2026 takes place in a convention center.
+Details TBD.
+
+<!-- VIS 2026 takes place in a convention center.
 
 ## Austria Center Vienna
 
@@ -44,4 +46,4 @@ Coffee breaks and the conference dinner on Wednesday will take place at level 0.
   <img src="/year/2026/assets/venue-and-travel/austria-center-vienna-level0.png" />
 </p>
 
-You can interactively explore the different [levels and rooms of the ACV](https://www.acv.at/en/the-location/){:target= "\_blank"} online.
+You can interactively explore the different [levels and rooms of the ACV](https://www.acv.at/en/the-location/){:target= "\_blank"} online. -->

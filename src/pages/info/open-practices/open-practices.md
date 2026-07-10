@@ -43,7 +43,7 @@ For short papers and other conference proceedings that do not appear in the TVCG
 
 **Camera-ready checklist:**
 
-1. Post a preprint version of your paper to a free and open access repository (e.g. arXiv) before the camera-ready deadline. We have [several tutorials you can follow](open-practices-arxiv). For a list of IEEE-approved open access repositories, see [IEEE Post-Publication Policies](https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/post-publication-policies/#posting).
+1. Post a preprint version of your paper to a free and open access repository (e.g. arXiv) before the camera-ready deadline. We have [several tutorials you can follow](/year/2026/info/open-practices/open-practices-arxiv). For a list of IEEE-approved open access repositories, see [IEEE Post-Publication Policies](https://journals.ieeeauthorcenter.ieee.org/become-an-ieee-journal-author/publishing-ethics/guidelines-and-policies/post-publication-policies/#posting).
 
 2. On the Author Submission Portal provided by IEEE in the final stages of publication, enter either:
    - the URL that points to the preprint version of your article in the open access repository
@@ -55,15 +55,15 @@ For short papers and other conference proceedings that do not appear in the TVCG
 
 VIS authors have the right to post the final preprint version of their accepted article to an open access repository before the print deadline. We recommend that authors exercise this right, as the audience of your work is improved if you post the final version of your accepted paper to a reliable open access repository. Research hidden behind a paywall is inaccessible to many readers.
 
-Please review the [Open Access Preprint Guide and FAQ](open-practices-faq), in which we provide:
+Please review the [Open Access Preprint Guide and FAQ](/year/2026/info/open-practices/open-practices-faq), in which we provide:
 
-- [Criteria for which repositories are findable, accessible, identifiable, and reliable.](open-practices-faq#what-are-the-criteria-for-an-open-access-repository)
-- [Instructions for sharing the preprint with VIS using the Author Submission Portal.](open-practices-faq#sharing-the-preprint-with-vis-in-the-author-submission-portal)
-- [A discussion of IEEE's preprint policy](open-practices-faq#is-sharing-the-preprint-compatible-with-ieees-publication-policy) and how it affects [where you can share the paper](open-practices-faq#where-can-i-share-the-paper) and [which version you can share](open-practices-faq#which-version-of-the-paper-can-i-share).
-- [Notice that you can put your paper on a personal or institutional webpage, but that it may not meet Open Access criteria](open-practices-faq#can-i-put-my-paper-on-my-personalinstitutional-webpage).
-- [An explanation of why Plan S does not affect preprints](open-practices-faq#what-about-plan-s).
+- [Criteria for which repositories are findable, accessible, identifiable, and reliable.](/year/2026/info/open-practices/open-practices-faq#what-are-the-criteria-for-an-open-access-repository)
+- [Instructions for sharing the preprint with VIS using the Author Submission Portal.](/year/2026/info/open-practices/open-practices-faq#sharing-the-preprint-with-vis-in-the-author-submission-portal)
+- [A discussion of IEEE's preprint policy](/year/2026/info/open-practices/open-practices-faq#is-sharing-the-preprint-compatible-with-ieees-publication-policy) and how it affects [where you can share the paper](/year/2026/info/open-practices/open-practices-faq#where-can-i-share-the-paper) and [which version you can share](/year/2026/info/open-practices/open-practices-faq#which-version-of-the-paper-can-i-share).
+- [Notice that you can put your paper on a personal or institutional webpage, but that it may not meet Open Access criteria](/year/2026/info/open-practices/open-practices-faq#can-i-put-my-paper-on-my-personalinstitutional-webpage).
+- [An explanation of why Plan S does not affect preprints](/year/2026/info/open-practices/open-practices-faq#what-about-plan-s).
 
-We also provided [several tutorials you can follow](open-practices-arxiv) on how to post preprints on arXiv.
+We also provided [several tutorials you can follow](/year/2026/info/open-practices/open-practices-arxiv) on how to post preprints on arXiv.
 
 ## **Recommendation** 2/2—Upload supplemental material to a free, open, and long-term archive
 
@@ -75,17 +75,17 @@ _Note: each of these recommendations on the checklist are just that—recommenda
    1. IEEE using the Author Submission Portal.
    2. A free, reliable, and long-term archive—e.g. [OSF.io](https://osf.io/).
 
-   Examples of what materials we recommend including and how are described in the [supplemental material FAQ](supplemental-material-faq#what-supplemental-material-should-i-share).
+   Examples of what materials we recommend including and how are described in the [supplemental material FAQ](/year/2026/info/open-practices/supplemental-material-faq#what-supplemental-material-should-i-share).
 
 2. Include sufficient documentation so that your work can be easily used, scrutinized, or extended by future researchers and practitioners.
 3. Release supplemental materials under a license that permits re-use by future researchers and practitioners—e.g. [Apache License 2.0](https://opensource.org/licenses/Apache-2.0) for code and [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for other materials.
 
-Please see also the [supplemental material FAQ](supplemental-material-faq), in which we answer the following questions:
+Please see also the [supplemental material FAQ](/year/2026/info/open-practices/supplemental-material-faq), in which we answer the following questions:
 
-- [Where should I upload supplemental material?](supplemental-material-faq#where-should-i-upload-supplemental-material)
-- [What supplemental material should I share?](supplemental-material-faq#what-supplemental-material-should-i-share)
-- [What documentation should I include?](supplemental-material-faq#what-documentation-should-i-include)
-- [Should I specify a license for supplemental materials](supplemental-material-faq#should-i-specify-a-license-for-supplemental-materials) and, if so, [what license should I choose?](supplemental-material-faq#what-license-should-i-choose)
+- [Where should I upload supplemental material?](/year/2026/info/open-practices/supplemental-material-faq#where-should-i-upload-supplemental-material)
+- [What supplemental material should I share?](/year/2026/info/open-practices/supplemental-material-faq#what-supplemental-material-should-i-share)
+- [What documentation should I include?](/year/2026/info/open-practices/supplemental-material-faq#what-documentation-should-i-include)
+- [Should I specify a license for supplemental materials](/year/2026/info/open-practices/supplemental-material-faq#should-i-specify-a-license-for-supplemental-materials) and, if so, [what license should I choose?](/year/2026/info/open-practices/supplemental-material-faq#what-license-should-i-choose)
 
 ## Questions, comments, concerns?
 

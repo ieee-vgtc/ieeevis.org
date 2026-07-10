@@ -1,6 +1,7 @@
 ---
 title: IEEE Computer Society Open Conference Statement
 layout: /src/layouts/PageLayout.astro
+active_nav: Attend
 ---
 
 Equity, Diversity, and Inclusion are central to the goals of the IEEE Computer Society and all of its conferences. Equity at its heart is about removing barriers, biases, and obstacles that impede equal access and opportunity to succeed. Diversity is fundamentally about valuing human differences and recognizing diverse talents. Inclusion is the active engagement of Diversity and Equity.

@@ -1,0 +1,55 @@
+---
+title: Satellite Locations
+layout: /src/layouts/PageLayout.astro
+active_nav: Attend
+contact: satellite_paris@ieeevis.org
+description: Join IEEE VIS 2026 from one of our satellite locations in Paris or Tianjin.
+---
+
+<div class="w-full aspect-video mb-10">
+  <iframe
+    class="w-full h-full"
+    src="https://www.youtube.com/embed/aDqmHmKyn5E?si=o0TTDHQLrUKfPa7h"
+    allowfullscreen>
+  </iframe>
+</div>
+
+**Boston will serve as the flagship location for IEEE VIS 2026\.** In addition, we are excited to announce two satellite locations: **Paris, France** and **Tianjin, China**. See the [announcement blog post](/year/2026/blog/2026-06-03-vis-2026-GC-blog) for more
+
+The satellite events are part of a new federated participation model designed to support members of the visualization community who are unable to travel. Satellite attendees will be able to gather locally, engage with other members of the VIS community, view selected live-streamed sessions from Boston, and access recorded conference content. Participants will also have opportunities to present their work remotely to attendees at the flagship conference in Boston.
+
+The **Paris satellite event** will be hosted by **Jean-Daniel Fekete, Petra Isenberg,** and **Florent Cabric**. Contact: satellite\_paris@ieeevis.org
+
+The **Tianjin satellite event** will be hosted by **Jiawan Zhang, Shixia Liu, Xiaoru Yuan, Changbo Wang,** and **Qing Chen**. Contact: satellite\_china@ieeevis.org
+
+More information about registration, programming, and participation opportunities will be announced soon.
+
+## **Frequently Asked Questions**
+
+### **How will the satellite events affect participation in Boston?**
+
+IEEE VIS remains committed to a strong and vibrant in-person conference in Boston. At the same time, we have received signals from IEEE, as well as through our own data collection, that attendance at U.S.-based conferences is being affected by broader travel and participation barriers.
+
+The federated model is intended, in part, to offset projected declines in participation at conferences held in the United States. In developing this approach, we have carefully considered the number and locations of the satellite events, the programming they will offer, and the pricing structure for both Boston and satellite registration. Our goal is to maximize participation in Boston while also creating meaningful opportunities for members of our community who cannot travel to the United States.
+
+### **Will there be a separate registration fee for the satellite events?**
+
+Yes. Registration details are still being finalized. Our aim is to balance affordability with the costs required to provide a high-quality experience, including professional audiovisual equipment, technical support, and reliable internet connectivity for live and hybrid participation. Additional information about registration and pricing will be shared soon.
+
+### **Will there still be a fully remote participation option?**
+
+Yes. For individuals who cannot attend either the Boston conference or a satellite event, IEEE VIS 2026 will provide remote participation opportunities. At minimum, this will include access to recorded conference content and the option for paper presenters to submit prerecorded presentation videos.
+
+## **Building a More Inclusive and Resilient VIS Community**
+
+This federated model was not part of the original plan for IEEE VIS 2026\. Developing it has required substantial additional work, resources, and coordination. We are making this investment because we believe VIS has an opportunity to lead among peer conferences by developing a more inclusive model for global participation.
+
+We are especially grateful to the community members who have volunteered to serve as hosts for the satellite events. The **Paris satellite event** will be hosted by **Jean-Daniel Fekete, Petra Isenberg, and Florent Cabric**. Contact: satellite\_paris@ieeevis.org
+
+The **Tianjin satellite event** will be hosted by **Jiawan Zhang, Shixia Liu, Xiaoru Yuan, Changbo Wang, and Qing Chen**. Contact: satellite\_china@ieeevis.org
+
+Their leadership and commitment are essential to making these events possible.
+
+More details about the satellite locations, hosts, registration, programming, and participation opportunities will be shared through the IEEE VIS website, email announcements, and social media channels.
+
+We are excited to take this step together as a community. Our hope is that this federated model will not only sustain broad participation in IEEE VIS 2026, but also help shape a more resilient, inclusive, and globally engaged future for the conference.

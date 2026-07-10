@@ -9,7 +9,7 @@ contact: open_practices@ieeevis.org
 
 Once your paper is processed for publication by IEEE (post final acceptance) and after you receive the DOI, you must post an IEEE copyright notice on your preprint. According to IEEE author FAQ, you can replace the preprint with either: 1) the full citation to the IEEE work with Digital Object Identifiers (DOI) or a link to the paper’s abstract in IEEE Xplore, or 2) the accepted version only (not the IEEE published version), including the IEEE copyright notice and full citation, with a link to the final, published paper in IEEE Xplore.
 
-After you follow the guidance on the [Open Access Preprint Guide and FAQ](open-practices-faq#which-version-of-the-paper-can-i-share) under the "**Which version of the paper can I share?**" heading and produced a pdf with a DOI link and copyright statement on it, you will also need to revise the version on arXiv.
+After you follow the guidance on the [Open Access Preprint Guide and FAQ](/year/2026/info/open-practices/open-practices-faq#which-version-of-the-paper-can-i-share) under the "**Which version of the paper can I share?**" heading and produced a pdf with a DOI link and copyright statement on it, you will also need to revise the version on arXiv.
 
 When revising the article on arXiv, you can follow the following steps:
 

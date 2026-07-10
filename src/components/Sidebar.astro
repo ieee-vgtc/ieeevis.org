@@ -1,0 +1,58 @@
+---
+import { load_yaml } from "../utils/load_yaml";
+import { withBaseURL } from "../utils/withBaseURL";
+
+const { sidebar_data_path } = Astro.props;
+
+function getSidebarSections(name: string) {
+  if (name === "call-for-participation") {
+    const nav = load_yaml("./src/data/navigation.yml");
+    const dropdown = nav.menu?.find((m: any) => m.dropdown === "Contribute");
+    const subsection = dropdown?.sections
+      ?.flatMap((s: any) => s.subsections ?? [])
+      ?.find((s: any) => s.heading === "Call for Participation");
+    return subsection?.columns ?? [];
+  }
+  return load_yaml(`./src/data/sidebars/${name}.yml`);
+}
+
+const sections = getSidebarSections(sidebar_data_path);
+---
+
+<aside class="sidebar">
+  {
+    sections.map((section: any) => (
+      <div class="my-4">
+        {section.heading && (
+          <p class="heading-alt text-gray-500">{section.heading}</p>
+        )}
+        <div class="overflow-hidden md:ml-0 -ml-3">
+          <div class="md:ml-0 -ml-px">
+            {section.links.map((link: any) => {
+              const isActive = Astro.url.pathname.includes(link.url);
+              return (
+                <div>
+                  {link.url ? (
+                    <a
+                      href={withBaseURL(link.url)}
+                      class={`sidebar__link ${isActive && "sidebar__link--active"}`}
+                    >
+                      {link.text}
+                    </a>
+                  ) : (
+                    <a
+                      class="sidebar__link sidebar__link--disabled"
+                      title="Content forthcoming"
+                    >
+                      {link.text}
+                    </a>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </div>
+    ))
+  }
+</aside>
