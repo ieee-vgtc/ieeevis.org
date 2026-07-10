@@ -1,7 +1,6 @@
 ---
 import PageLayout from "../../layouts/PageLayout.astro";
-import sessionListData from "../../data/program_test/session_list.json";
-import type { ProgramSessionList } from "../../types/program";
+import { fetchAllSessions } from "../../utils/paperData";
 import { withBaseURL } from "../../utils/withBaseURL";
 import { getProgramEventTypeLabel } from "../../utils/programEventTypeLabel";
 
@@ -79,7 +78,7 @@ const dayDateFormatter = new Intl.DateTimeFormat("en-US", {
   day: "numeric",
 });
 
-const sessionList = sessionListData as unknown as ProgramSessionList;
+const sessionList = await fetchAllSessions();
 
 const sessions: SessionListItem[] = Object.values(sessionList)
   .flatMap((eventDefinition) =>
@@ -179,9 +178,13 @@ const frontmatter = {
           Day view
           <select id="day-filter" class="sessions-select">
             <option value="all">All conference days</option>
-            {dayGroups.map((dayGroup) => (
-              <option value={dayGroup.dayKey}>{dayGroup.weekdayLabel}, {dayGroup.dateLabel}</option>
-            ))}
+            {
+              dayGroups.map((dayGroup) => (
+                <option value={dayGroup.dayKey}>
+                  {dayGroup.weekdayLabel}, {dayGroup.dateLabel}
+                </option>
+              ))
+            }
           </select>
         </label>
 
@@ -198,7 +201,11 @@ const frontmatter = {
       </div>
     </div>
 
-    <div class="sessions-filter-bar" role="toolbar" aria-label="Session type filters">
+    <div
+      class="sessions-filter-bar"
+      role="toolbar"
+      aria-label="Session type filters"
+    >
       <button
         class="sessions-filter-pill is-active"
         type="button"
@@ -210,67 +217,85 @@ const frontmatter = {
         <span class="sessions-filter-count">{sessions.length}</span>
       </button>
 
-      {sortedTypes.map((sessionType) => (
-        <button
-          class="sessions-filter-pill"
-          type="button"
-          data-type-filter={sessionType}
-          style={`--pill-color: ${typeColors[sessionType] || "#6b7280"}`}
-          aria-pressed="false"
-        >
-          <span>{getProgramEventTypeLabel(sessionType)}</span>
-          <span class="sessions-filter-count">{typeCounts[sessionType]}</span>
-        </button>
-      ))}
+      {
+        sortedTypes.map((sessionType) => (
+          <button
+            class="sessions-filter-pill"
+            type="button"
+            data-type-filter={sessionType}
+            style={`--pill-color: ${typeColors[sessionType] || "#6b7280"}`}
+            aria-pressed="false"
+          >
+            <span>{getProgramEventTypeLabel(sessionType)}</span>
+            <span class="sessions-filter-count">{typeCounts[sessionType]}</span>
+          </button>
+        ))
+      }
     </div>
 
     <div class="sessions-day-list">
-      {dayGroups.map((dayGroup) => (
-        <section class="sessions-day" data-day-group-container data-day-group={dayGroup.dayKey}>
-          <header class="sessions-day-header">
-            <h2>{dayGroup.weekdayLabel}</h2>
-            <p>{dayGroup.dateLabel}</p>
-          </header>
+      {
+        dayGroups.map((dayGroup) => (
+          <section
+            class="sessions-day"
+            data-day-group-container
+            data-day-group={dayGroup.dayKey}
+          >
+            <header class="sessions-day-header">
+              <h2>{dayGroup.weekdayLabel}</h2>
+              <p>{dayGroup.dateLabel}</p>
+            </header>
 
-          <div class="sessions-day-content" role="list" aria-label={`Sessions for ${dayGroup.weekdayLabel}, ${dayGroup.dateLabel}`}>
-            {dayGroup.sessions.map((session) => (
-              <button
-                type="button"
-                class="session-card"
-                role="listitem"
-                data-session-card
-                data-session-href={withBaseURL(`/program/session/${session.eventSlug}`)}
-                data-type={session.eventType}
-                data-day-group={dayGroup.dayKey}
-                data-search={session.searchText}
-                data-start={session.startISO}
-                data-end={session.endISO}
-                style={`--session-accent: ${typeColors[session.eventType] || "#6b7280"}`}
-              >
-                <p class="session-card-time js-time-range"></p>
+            <div
+              class="sessions-day-content"
+              role="list"
+              aria-label={`Sessions for ${dayGroup.weekdayLabel}, ${dayGroup.dateLabel}`}
+            >
+              {dayGroup.sessions.map((session) => (
+                <button
+                  type="button"
+                  class="session-card"
+                  role="listitem"
+                  data-session-card
+                  data-session-href={withBaseURL(
+                    `/program/session/${session.eventSlug}`,
+                  )}
+                  data-type={session.eventType}
+                  data-day-group={dayGroup.dayKey}
+                  data-search={session.searchText}
+                  data-start={session.startISO}
+                  data-end={session.endISO}
+                  style={`--session-accent: ${typeColors[session.eventType] || "#6b7280"}`}
+                >
+                  <p class="session-card-time js-time-range" />
 
-                <h3>{session.title}</h3>
+                  <h3>{session.title}</h3>
 
-                <p class="session-card-meta">
-                  <span class="session-card-type">{session.eventTypeLabel}</span>
-                  <span>{session.eventTitle}</span>
-                </p>
+                  <p class="session-card-meta">
+                    <span class="session-card-type">
+                      {session.eventTypeLabel}
+                    </span>
+                    <span>{session.eventTitle}</span>
+                  </p>
 
-                <p class="session-card-room">{session.room}</p>
+                  <p class="session-card-room">{session.room}</p>
 
-                {
-                  session.chairs.length > 0 && (
-                    <p class="session-card-chair">Chair: {session.chairs.join(", ")}</p>
-                  )
-                }
-              </button>
-            ))}
-          </div>
-        </section>
-      ))}
+                  {session.chairs.length > 0 && (
+                    <p class="session-card-chair">
+                      Chair: {session.chairs.join(", ")}
+                    </p>
+                  )}
+                </button>
+              ))}
+            </div>
+          </section>
+        ))
+      }
     </div>
 
-    <p class="sessions-empty-state" data-empty-state hidden>No sessions match your filters.</p>
+    <p class="sessions-empty-state" data-empty-state hidden>
+      No sessions match your filters.
+    </p>
   </section>
 
   <script>
@@ -278,19 +303,34 @@ const frontmatter = {
       const root = document.querySelector(".program-sessions");
       if (!root) return;
 
-      const conferenceTimeZone = root.getAttribute("data-conference-timezone") || "UTC";
-      const localStorageKey = root.getAttribute("data-local-storage-key") || "program-sessions-timezone-mode";
-      const localTimeZone = Intl.DateTimeFormat().resolvedOptions().timeZone || "UTC";
+      const conferenceTimeZone =
+        root.getAttribute("data-conference-timezone") || "UTC";
+      const localStorageKey =
+        root.getAttribute("data-local-storage-key") ||
+        "program-sessions-timezone-mode";
+      const localTimeZone =
+        Intl.DateTimeFormat().resolvedOptions().timeZone || "UTC";
 
       const timezoneSelect = root.querySelector("#timezone-mode");
       const dayFilterSelect = root.querySelector("#day-filter");
       const searchInput = root.querySelector("#sessions-search");
-      const timeRanges = Array.from(root.querySelectorAll<HTMLElement>(".js-time-range"));
-      const cards = Array.from(root.querySelectorAll<HTMLElement>("[data-session-card]"));
-      const dayGroups = Array.from(root.querySelectorAll<HTMLElement>("[data-day-group-container]"));
-      const filterButtons = Array.from(root.querySelectorAll<HTMLButtonElement>("[data-type-filter]"));
-      const sessionLinkButtons = Array.from(root.querySelectorAll<HTMLButtonElement>("[data-session-href]"));
-      const tzDescription = root.querySelector<HTMLElement>(".js-tz-description");
+      const timeRanges = Array.from(
+        root.querySelectorAll<HTMLElement>(".js-time-range"),
+      );
+      const cards = Array.from(
+        root.querySelectorAll<HTMLElement>("[data-session-card]"),
+      );
+      const dayGroups = Array.from(
+        root.querySelectorAll<HTMLElement>("[data-day-group-container]"),
+      );
+      const filterButtons = Array.from(
+        root.querySelectorAll<HTMLButtonElement>("[data-type-filter]"),
+      );
+      const sessionLinkButtons = Array.from(
+        root.querySelectorAll<HTMLButtonElement>("[data-session-href]"),
+      );
+      const tzDescription =
+        root.querySelector<HTMLElement>(".js-tz-description");
       const emptyState = root.querySelector<HTMLElement>("[data-empty-state]");
 
       const ALL_FILTER = "all";
@@ -320,8 +360,14 @@ const frontmatter = {
           day: "numeric",
         });
 
-      const compactRange = (startDate: Date, endDate: Date, timeZone: string) => {
-        const sameDay = isSameDayFormatter(timeZone).format(startDate) === isSameDayFormatter(timeZone).format(endDate);
+      const compactRange = (
+        startDate: Date,
+        endDate: Date,
+        timeZone: string,
+      ) => {
+        const sameDay =
+          isSameDayFormatter(timeZone).format(startDate) ===
+          isSameDayFormatter(timeZone).format(endDate);
         if (sameDay) {
           return `${timeFormatter(timeZone).format(startDate)} - ${timeFormatter(timeZone).format(endDate)}`;
         }
@@ -381,7 +427,8 @@ const frontmatter = {
       const refreshFilterButtonState = () => {
         for (const button of filterButtons) {
           const buttonType = button.getAttribute("data-type-filter");
-          const isActive = buttonType !== null ? activeTypeFilter === buttonType : false;
+          const isActive =
+            buttonType !== null ? activeTypeFilter === buttonType : false;
           button.setAttribute("aria-pressed", String(isActive));
           button.classList.toggle("is-active", isActive);
         }
@@ -390,13 +437,17 @@ const frontmatter = {
       const applyFilters = () => {
         const selectedDay = getSelectedDay();
         const query =
-          searchInput instanceof HTMLInputElement && searchInput.value ? searchInput.value.trim().toLowerCase() : "";
+          searchInput instanceof HTMLInputElement && searchInput.value
+            ? searchInput.value.trim().toLowerCase()
+            : "";
 
         for (const card of cards) {
           const type = card.getAttribute("data-type");
           const dayKey = card.getAttribute("data-day-group");
           const search = card.getAttribute("data-search") || "";
-          const typeMatch = activeTypeFilter === ALL_FILTER || (type !== null && activeTypeFilter === type);
+          const typeMatch =
+            activeTypeFilter === ALL_FILTER ||
+            (type !== null && activeTypeFilter === type);
           const dayMatch = selectedDay === "all" || dayKey === selectedDay;
           const textMatch = query.length === 0 || search.includes(query);
           card.hidden = !(typeMatch && textMatch && dayMatch);
@@ -404,7 +455,9 @@ const frontmatter = {
 
         let visibleTotal = 0;
         for (const group of dayGroups) {
-          const visibleCards = group.querySelectorAll("[data-session-card]:not([hidden])");
+          const visibleCards = group.querySelectorAll(
+            "[data-session-card]:not([hidden])",
+          );
           group.hidden = visibleCards.length === 0;
           visibleTotal += visibleCards.length;
         }
@@ -432,7 +485,11 @@ const frontmatter = {
 
       if (timezoneSelect instanceof HTMLSelectElement) {
         const savedMode = localStorage.getItem(localStorageKey);
-        if (savedMode === "conference" || savedMode === "local" || savedMode === "both") {
+        if (
+          savedMode === "conference" ||
+          savedMode === "local" ||
+          savedMode === "both"
+        ) {
           timezoneSelect.value = savedMode;
         }
 
@@ -459,7 +516,12 @@ const frontmatter = {
 
       // Pre-apply type filter from URL param (?type=full, etc.)
       const urlTypeParam = new URLSearchParams(location.search).get("type");
-      if (urlTypeParam && filterButtons.some((b) => b.getAttribute("data-type-filter") === urlTypeParam)) {
+      if (
+        urlTypeParam &&
+        filterButtons.some(
+          (b) => b.getAttribute("data-type-filter") === urlTypeParam,
+        )
+      ) {
         activeTypeFilter = urlTypeParam;
       }
 
@@ -483,7 +545,11 @@ const frontmatter = {
       padding: 1rem;
       border: 1px solid var(--color-gray-300);
       border-radius: 10px;
-      background: linear-gradient(135deg, rgba(223, 104, 36, 0.08), rgba(187, 74, 114, 0.08));
+      background: linear-gradient(
+        135deg,
+        rgba(223, 104, 36, 0.08),
+        rgba(187, 74, 114, 0.08)
+      );
     }
 
     .sessions-title {
@@ -612,7 +678,9 @@ const frontmatter = {
       gap: 0.35rem;
       color: inherit;
       text-decoration: none;
-      transition: transform 90ms ease, box-shadow 90ms ease;
+      transition:
+        transform 90ms ease,
+        box-shadow 90ms ease;
     }
 
     .session-card:hover {

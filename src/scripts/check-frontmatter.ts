@@ -8,7 +8,7 @@ import { z } from "zod";
 const schema = z.object({
   title: z.string().min(1),
   layout: z.string().min(1),
-  contact: z.string().email().optional(),
+  contact: z.email().optional(),
   active_nav: z.enum([
     "Blog",
     "Contribute",

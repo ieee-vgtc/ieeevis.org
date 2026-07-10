@@ -4,14 +4,19 @@
  */
 
 export const features = {
-  // TODO: Week of VIS — future development
-  // weekOfVis: {
-  //   enabled: false,
-  //   showcaseEnabled: false,
-  //   // dataSource:
-  //   //   "https://raw.githubusercontent.com/ieee-vgtc/vis-virtual-website/vis2025/sitedata/2025/paper_list.json",
-  //   // dataSource: '/data/papers/paper_list.json'
-  // },
+  weekOfVis: {
+    enabled: false,
+    showcaseEnabled: false,
+    sources: {
+      paper:
+        "https://raw.githubusercontent.com/ieee-vgtc/vis-virtual-website/vis2025/sitedata/2025/paper_list.json",
+      session:
+        "https://raw.githubusercontent.com/ieee-vgtc/vis-virtual-website/vis2025/sitedata/2025/session_list.json",
+      poster:
+        "https://raw.githubusercontent.com/ieee-vgtc/vis-virtual-website/vis2025/sitedata/2025/poster_list.json",
+      // dataSource: '/data/papers/paper_list.json'
+    },
+  },
 
   /**
    * Explicit path overrides that are active even if their parent folder is
@@ -47,7 +52,7 @@ export const features = {
     // "/info/registration-and-travel",
     "/info/social-events",
     // for working on the program pages, we want to disable the program page until it's ready
-    "/program",
+    // "/program",
   ],
 } as const;
 

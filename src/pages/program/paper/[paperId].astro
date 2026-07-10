@@ -1,14 +1,11 @@
 ---
 import PageLayout from "../../../layouts/PageLayout.astro";
 import { fetchAllPapers } from "../../../utils/paperData";
-import { features } from "../../../config/features";
+import { features } from "../../../config/pages-allow-list";
 import { withBaseURL } from "../../../utils/withBaseURL";
-import sessionListData from "../../../data/program_test/session_list.json";
+import { fetchAllSessions } from "../../../utils/paperData";
 import type { Paper } from "../../../types/paper";
-import type {
-  ProgramSessionList,
-  ProgramTimeSlot,
-} from "../../../types/program";
+import type { ProgramTimeSlot } from "../../../types/program";
 
 const EVENT_PREFIX_LABELS: Record<string, string> = {
   "v-full": "VIS Full Papers",
@@ -31,7 +28,7 @@ export async function getStaticPaths() {
   }
 
   // Build a map from slot.uid (= paper.id UUID) → session info
-  const sessionList = sessionListData as unknown as ProgramSessionList;
+  const sessionList = await fetchAllSessions();
   const slotSessionMap = new Map<
     string,
     { session_id: string; session_title: string }
@@ -81,13 +78,6 @@ const eventLabel =
 const eventType =
   EVENT_PREFIX_TO_TYPE[paper.event_prefix] || paper.event_prefix;
 const eventUrl = withBaseURL(`/program/sessions?type=${eventType}`);
-const sessionSlug =
-  paper.event_prefix && paper.session_id
-    ? `${paper.event_prefix}-${paper.session_id}`
-    : null;
-const sessionUrl = sessionSlug
-  ? withBaseURL(`/program/session/${sessionSlug}`)
-  : null;
 
 const awardLabel =
   paper.award === "best"

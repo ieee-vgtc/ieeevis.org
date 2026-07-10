@@ -1,13 +1,13 @@
 ---
 import PageLayout from "../../../layouts/PageLayout.astro";
-import sessionListData from "../../../data/program_test/session_list.json";
+import { fetchAllSessions } from "../../../utils/paperData";
 import type {
   ProgramSession,
   ProgramSessionList,
 } from "../../../types/program";
 import { getProgramEventTypeLabel } from "../../../utils/programEventTypeLabel";
 import { withBaseURL } from "../../../utils/withBaseURL";
-import { features } from "../../../config/features";
+import { features } from "../../../config/pages-allow-list";
 
 type EventPageProps = {
   sessionId: string;
@@ -16,11 +16,11 @@ type EventPageProps = {
 };
 
 export async function getStaticPaths() {
-  const sessionList = sessionListData as unknown as ProgramSessionList;
+  const sessionList = await fetchAllSessions();
   const paths: Array<{ params: { sessionId: string }; props: EventPageProps }> =
     [];
 
-  for (const event of Object.values(sessionList)) {
+  for (const event of sessionList) {
     for (const session of event.sessions) {
       const prefixedId = `${session.event_prefix}-${session.session_id}`;
       const legacyId = session.session_id;
