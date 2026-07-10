@@ -303,10 +303,10 @@ export default function ProgramPapersBrowser({
                     : "Author list unavailable"}
                 </p>
 
-                <p className="m-0 mt-auto text-sm font-bold leading-snug text-primary-800 float-bottom">
+                <p className="m-0 mt-auto text-sm font-bold leading-snug text-primary-800 float-bottom flex flex-col">
                   {paper.sessionUrl ? (
                     <a
-                      className="text-primary underline decoration-primary-200 decoration-dotted underline-offset-3 hover:text-primary-700 focus-visible:text-primary-700"
+                      className="text-primary underline decoration-primary-200 decoration-dotted  hover:text-primary-700 focus-visible:text-primary-700"
                       href={paper.sessionUrl}
                       data-visit-link
                     >
@@ -316,7 +316,7 @@ export default function ProgramPapersBrowser({
                     paper.scheduleLabel
                   )}
                   <a
-                    className="text-primary underline decoration-primary-200 decoration-dotted underline-offset-3 hover:text-primary-700 focus-visible:text-primary-700 ml-2"
+                    className="text-primary underline decoration-primary-200 decoration-dotted hover:text-primary-700 focus-visible:text-primary-700 mt-2"
                     href={withBaseURL(
                       `/program/papers?search=${encodeURIComponent(paper.sessionLabel)}`,
                     )}

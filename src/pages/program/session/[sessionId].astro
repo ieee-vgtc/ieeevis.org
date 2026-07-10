@@ -7,7 +7,6 @@ import type {
 } from "../../../types/program";
 import { getProgramEventTypeLabel } from "../../../utils/programEventTypeLabel";
 import { withBaseURL } from "../../../utils/withBaseURL";
-import { features } from "../../../config/pages-allow-list";
 
 type EventPageProps = {
   sessionId: string;
@@ -79,6 +78,7 @@ const frontmatter = {
   title: `${eventTypeLabel}: ${session.title}`,
   active_nav: "Program",
   contact: "web@ieeevis.org",
+  full_width: true,
 };
 ---
 
@@ -112,12 +112,21 @@ const frontmatter = {
 
     <div class="program-presentations">
       {
+        presentations.length === 0 && (
+          <p>
+            No presentations are scheduled for this session. If this event is a
+            workshop or tutorial, please check the workshop or tutorial page for
+            more information.
+          </p>
+        )
+      }
+      {
         presentations.map((slot) => (
           <article class="program-presentation">
             <p class="program-presentation-time">
               {formatSlotRange(slot.time_start, slot.time_end)}
             </p>
-            {features.weekOfVis.enabled && slot.uid ? (
+            {slot.uid ? (
               <h3>
                 <a
                   href={withBaseURL(
@@ -181,11 +190,8 @@ const frontmatter = {
     }
 
     .program-presentation {
-      border: 1px solid var(--color-gray-300);
-      border-left: 4px solid var(--color-accent);
-      border-radius: 8px;
-      background: #fff;
-      padding: 0.75rem;
+      border-top: 1px dashed var(--color-gray-900);
+      padding-top: 0.5rem;
       display: grid;
       gap: 0.2rem;
     }

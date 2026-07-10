@@ -173,11 +173,22 @@ const frontmatter = {
       <h2>Authors</h2>
       <p>
         {
-          paper.authors
-            .map((a) =>
-              a.affiliation ? `${a.name} (${a.affiliation})` : a.name,
-            )
-            .join(", ")
+          paper.authors.map((a, idx) => {
+            return (
+              <span>
+                <a
+                  href={withBaseURL(
+                    `/program/papers?search=${encodeURIComponent(a.name)}`,
+                  )}
+                  class="text-accent underline decoration-accent-200 decoration-dotted underline-offset-3 hover:text-accent-700 focus-visible:text-accent-700"
+                >
+                  {a.name}
+                </a>
+                {a.affiliation && <span>{` (${a.affiliation})`}</span>}
+                {idx < paper.authors.length - 1 ? ", " : ""}
+              </span>
+            );
+          })
         }
       </p>
     </div>

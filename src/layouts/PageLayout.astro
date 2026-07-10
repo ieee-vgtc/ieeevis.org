@@ -39,8 +39,6 @@ const isProgramPage = /year\/202\d\/program/.test(pathname);
           <Sidebar sidebar_data_path={frontmatter.sidebar} />
         )}
 
-        {frontmatter.sidetoc && <p>TODO SIDETOC</p>}
-
         <slot name="sidebar" />
       </div>
     )
