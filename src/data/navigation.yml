@@ -115,6 +115,182 @@ menu:
             description: "The IEEE VIS Code of Conduct"
             heading_url: "/info/inclusion/code-of-conduct"
       - subsections:
+          - heading: "Get Involved"
+            columns:
+              - links:
+                  # - text: "Organize a meetup"
+                  #   description: "Meet people for discussion and shared experiences"
+                  #   url: "/info/call-participation/meetups"
+                  #   is_new: false
+                  - text: "Student volunteer information"
+                    description: "SVs support the conference and build your research network"
+                    url: "https://vissv.github.io/"
+                    is_external: true
+                  # - text: "Become a peer reviewer"
+                  #   description: "Volunteer to review submissions in Precision Conference Solutions (PCS)"
+                  #   url: "https://new.precisionconference.com/review_volunteering"
+                  #   is_external: true
+          # - text: "Elections"
+          #   description: "Register to vote and nominate/review candidates for the VSC/VEC"
+          #   url: "/info/elections"
+          #   is_new: false
+
+          - heading: "Supporters"
+            heading_url: "/supporters"
+            description: "Your support makes this conference possible!"
+
+  # ---------------------------------------------------------------------------
+  - dropdown: "Attend"
+    display: false
+    sections:
+      - subsections:
+          - heading: "Attending VIS 2026"
+            heading_url: "/info/registration-and-travel/conference-registration"
+            columns:
+              - heading: "Attend"
+                links:
+                  - text: "Registration"
+                    description: "How to register for VIS"
+                    url: "/info/registration-and-travel/conference-registration"
+                    is_new: false
+                  - text: "Venue"
+                    description: "Austria Center Vienna"
+                    url: "/info/registration-and-travel/venue"
+                    is_new: false
+                  - text: "Transportation"
+                    description: "Getting around in Vienna"
+                    url: "/info/registration-and-travel/transportation"
+                    is_new: false
+                  - text: "Green Meeting Certificate"
+                    description: "IEEE VIS 2026 is a 'Green Meeting'"
+                    url: "/info/registration-and-travel/green-meeting"
+                    is_new: false
+              - heading: "Travel"
+                links:
+                  - text: "Traveling to Vienna"
+                    description: "Travel information"
+                    url: "/info/registration-and-travel/travel-information"
+                    is_new: false
+                  - text: "Hotel Information"
+                    description: "Where to stay"
+                    url: "/info/registration-and-travel/hotel-information"
+                    is_new: false
+                  - text: "Visas"
+                    description: "Visa letter information"
+                    url: "/info/registration-and-travel/visas"
+                    is_new: false
+          - heading: "Vienna, Austria"
+            heading_url: "https://meeting.vienna.info/en/why-vienna/art-culture-cuisine"
+            columns:
+              - links:
+                  - text: "Sights and famous places"
+                    description: "Well-known sights and things to see"
+                    url: "/info/registration-and-travel/vienna-places"
+                    is_new: false
+                  - text: "Recommendations from Locals"
+                    description: "Tips by local people what to not miss in Vienna"
+                    url: "/info/registration-and-travel/vienna-tips"
+                    is_new: false
+
+      - subsections:
+          - heading: "Local Events at VIS 2026"
+            heading_url: "/info/local-events/summary"
+            columns:
+              - links:
+                  - text: "ISOTYPE Exhibition"
+                    description: "100 Years of ISOTYPES in Vienna"
+                    url: "/info/local-events/isotype-exhibition"
+                    is_new: false
+                  - text: "VRVis Lab Visit"
+                    description: "Visit the VRVis GmbH"
+                    url: "/info/local-events/vrvis-lab-visit"
+                    is_new: false
+          - heading: "Code of Conduct"
+            description: "The IEEE VIS Code of Conduct"
+            heading_url: "/info/inclusion/code-of-conduct"
+
+      - subsections:
+          - heading: "Inclusion"
+            heading_url: "/info/inclusion/inclusivity"
+            columns:
+              - links:
+                  - text: "Inclusivity Scholarship"
+                    description: "Need-based scholarships for conference attendance"
+                    url: "/info/inclusion/scholarship"
+                    is_new: false
+                  - text: "Accessibility"
+                    description: "Supporting access for all attendees"
+                    url: "/info/accessibility/attend"
+                    is_new: false
+                  - text: "VISKids"
+                    description: "Childcare and activities open to everyone"
+                    url: "/info/inclusion/viskids"
+                    is_new: false
+
+  # ---------------------------------------------------------------------------
+  # - dropdown: "Old Program"
+  #   display: true
+  #   sections:
+  #     - subsections:
+  #         - heading: "Vis Program"
+  #           heading_url: "/info/program/week-at-a-glance"
+  #           columns:
+  #             - links:
+  #                 - text: "Week at a Glance"
+  #                   description: "Preliminary overview of the conference week"
+  #                   url: "/info/program/week-at-a-glance"
+  #                   is_new: false
+  #                 - text: "Sessions"
+  #                   description: "List of all sessions and events"
+  #                   url: "/program/sessions"
+  #                   is_new: true
+  #                 - text: "Calendar"
+  #                   description: "Detailed calendar of the conference"
+  #                   url: "/program/calendar"
+  #                   is_new: true
+  #                 - text: "Papers"
+  #                   description: "Paper sessions"
+  #                   url: "/info/program/papers_list"
+  #                   is_new: false
+  #                 - text: "Posters"
+  #                   description: "Nascent and recent work"
+  #                   url: "/info/program/posters"
+  #                   is_new: false
+  #                 - text: "Panels"
+  #                   description: "Discuss important and controversial issues"
+  #                   url: "/info/program/panels"
+  #                   is_new: false
+  #                 - text: "Workshops"
+  #                   description: "Informal setting to discuss emerging topics"
+  #                   url: "/info/program/workshops"
+  #                   is_new: false
+  #                 - text: "Tutorials"
+  #                   description: "Learn new tools and application domains"
+  #                   url: "/info/program/tutorials"
+  #                   is_new: false
+  #                 - text: "Meetups"
+  #                   description: "Meet for discussions and shared experiences"
+  #                   url: "/info/program/meetups"
+  #                   is_new: false
+
+  # ---------------------------------------------------------------------------
+  - dropdown: "Events & Community"
+    display: false
+    sections:
+      - subsections:
+          - heading: "Associated Events"
+            description: "Events associated with the main conference"
+            columns:
+              - links:
+                  - text: "VIS Arts Program (VISAP)"
+                    description: "A mini-conference and exhibition for vis researchers, designers, and artists"
+                    url: "https://visap.net/2026/"
+                    is_new: false
+                    is_external: true
+                  - text: "VisInPractice (VIP)"
+                    description: "Events of special interest for visualization practitioners"
+                    url: "/info/visinpractice"
+                    is_new: false
           - heading: "Competitions"
             description: "Advancing visualization through competition"
             columns:
@@ -260,14 +436,22 @@ menu:
             # heading_url: "/info/program/week-at-a-glance"
             columns:
               - links:
-                  # - text: "Week at a Glance"
-                  #   description: "Preliminary overview of the conference week"
-                  #   url: "/info/program/week-at-a-glance"
-                  #   is_new: false
                   # - text: "Papers"
                   #   description: "Paper sessions"
                   #   url: "/info/program/papers_list"
                   #   is_new: false
+                  # - text: "Week at a Glance"
+                  #   description: "Preliminary overview of the conference week"
+                  #   url: "/info/program/week-at-a-glance"
+                  #   is_new: false
+                  # - text: "Sessions"
+                  #   description: "List of all sessions and events"
+                  #   url: "/program/sessions"
+                  #   is_new: true
+                  # - text: "Calendar"
+                  #   description: "Detailed calendar of the conference"
+                  #   url: "/program/calendar"
+                  #   is_new: true
                   # - text: "Posters"
                   #   description: "Nascent and recent work"
                   #   url: "/info/program/posters"

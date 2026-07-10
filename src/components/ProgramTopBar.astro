@@ -1,0 +1,93 @@
+---
+import { withBaseURL } from "../utils/withBaseURL";
+const { pathname } = Astro.url;
+
+const links = [
+  { href: "/program/calendar", label: "Schedule" },
+  { href: "/program/sessions", label: "All Events" },
+  { href: "/program/papers", label: "Accepted Papers" },
+  { href: "/program/posters", label: "Posters" },
+];
+---
+
+<div
+  class="mt-17.5 flex w-full flex-col bg-accent-secondaryBackground md:mt-0 md:flex-row"
+  aria-label="Program section navigation"
+>
+  <details class="program-topbar-mobile md:hidden">
+    <summary
+      class="flex min-h-13 list-none items-center justify-end gap-2 bg-primary px-4 font-display text-lg font-bold text-white"
+    >
+      Content
+      <i class="material-icons align-middle">menu</i>
+    </summary>
+
+    <nav class="program-topbar-mobile__menu bg-gray-200">
+      <ul class="m-0 list-none p-0">
+        {
+          links.map((link) => {
+            const isActive = pathname.includes(link.href);
+            return (
+              <li>
+                <a
+                  class:list={[
+                    "block border-b-2 border-primary-200 px-8 py-6 font-display text-xl leading-tight text-gray-700",
+                    {
+                      "font-bold text-primary": isActive,
+                    },
+                  ]}
+                  href={withBaseURL(link.href)}
+                  aria-current={isActive ? "page" : undefined}
+                >
+                  {link.label}
+                </a>
+              </li>
+            );
+          })
+        }
+      </ul>
+    </nav>
+  </details>
+
+  <div
+    class="hidden min-h-13 items-center bg-primary px-4 font-display text-lg font-bold md:flex md:basis-32 md:text-base lg:text-lg text-white"
+  >
+    Content
+  </div>
+
+  <nav
+    class="hidden items-center gap-1 overflow-x-auto px-3 py-2 md:flex md:flex-1 md:justify-end md:px-6 md:py-0"
+  >
+    {
+      links.map((link) => {
+        const isActive = pathname.includes(link.href);
+        return (
+          <a
+            class:list={[
+              " font-display text-lg md:text-base lg:text-lg whitespace-nowrap px-3 py-2 md:py-4 border-b-2 transition-colors text-accent",
+              {
+                "border-accent": isActive,
+                "border-transparent hover:bg-white/10 focus-visible:bg-white/10":
+                  !isActive,
+              },
+            ]}
+            href={withBaseURL(link.href)}
+            aria-current={isActive ? "page" : undefined}
+          >
+            {link.label}
+          </a>
+        );
+      })
+    }
+  </nav>
+</div>
+
+<style>
+  .program-topbar-mobile > summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .program-topbar-mobile > summary {
+    cursor: pointer;
+  }
+</style>

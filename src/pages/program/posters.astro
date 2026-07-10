@@ -1,0 +1,119 @@
+---
+import PageLayout from "../../layouts/PageLayout.astro";
+import { fetchAllSessions, fetchAllPosters } from "../../utils/paperData";
+import { withBaseURL } from "../../utils/withBaseURL";
+import ProgramPapersBrowser from "../../components/ProgramPapersBrowser";
+import type { ProgramTimeSlot } from "../../types/program";
+import type { ProgramPaperCard } from "../../components/ProgramPapersBrowser";
+
+const CONFERENCE_TIME_ZONE = "Europe/Vienna";
+
+type PaperSessionMeta = {
+  sessionSlug: string;
+  sessionTitle: string;
+  roomName: string;
+  eventTitle: string;
+  paperType: string;
+  startISO: string;
+  endISO: string;
+  startMs: number;
+};
+
+const conferenceDateTimeFormatter = new Intl.DateTimeFormat("en-US", {
+  timeZone: CONFERENCE_TIME_ZONE,
+  weekday: "short",
+  month: "short",
+  day: "numeric",
+  hour: "2-digit",
+  minute: "2-digit",
+  hour12: false,
+});
+
+const normalizeText = (value: string | null | undefined) =>
+  (value || "").trim();
+
+const slotMetadataByPaperId = new Map<string, PaperSessionMeta>();
+const sessionList = await fetchAllSessions();
+
+for (const event of sessionList) {
+  for (const session of event.sessions) {
+    const sessionSlug = `${session.event_prefix}-${session.session_id}`;
+    for (const slot of session.time_slots as ProgramTimeSlot[]) {
+      if (!slot.uid) {
+        continue;
+      }
+
+      const slotStart = slot.time_start || session.time_start;
+      const slotEnd = slot.time_end || session.time_end;
+      slotMetadataByPaperId.set(slot.uid, {
+        sessionSlug,
+        sessionTitle: session.title,
+        roomName: session.room_name,
+        eventTitle: event.long_name,
+        paperType: slot.paper_type,
+        startISO: slotStart,
+        endISO: slotEnd,
+        startMs: Date.parse(slotStart),
+      });
+    }
+  }
+}
+
+const posters = await fetchAllPosters();
+
+const paperCards: ProgramPaperCard[] = posters.map((poster) => {
+  const linkedSlot = slotMetadataByPaperId.get(poster.id);
+  const authors = (poster.authors || [])
+    .map((author) => normalizeText(author.name))
+    .filter(Boolean);
+  const keywords = (poster.keywords || [])
+    .map((keyword) => normalizeText(keyword))
+    .filter(Boolean);
+
+  const startISO = linkedSlot?.startISO || null;
+  const presentationLabel = linkedSlot?.paperType || "VIS Poster";
+  const sessionLabel = linkedSlot?.sessionTitle || "Session TBA";
+  const scheduleLabel = startISO
+    ? `${conferenceDateTimeFormatter.format(new Date(startISO))} - ${sessionLabel}`
+    : sessionLabel;
+
+  return {
+    id: poster.id,
+    title: normalizeText(poster.title) || "Untitled submission",
+    authorNames: authors,
+    keywordsLabel:
+      keywords.length > 0 ? keywords.join(", ") : "No keywords listed",
+    abstractText: normalizeText(poster.abstract) || "Abstract not available.",
+    presentationLabel,
+    sessionLabel,
+    scheduleLabel,
+    startMs:
+      linkedSlot?.startMs && Number.isFinite(linkedSlot.startMs)
+        ? linkedSlot.startMs
+        : Number.MAX_SAFE_INTEGER,
+    doiUrl: poster.doi ? `https://doi.org/${poster.doi}` : null,
+    preprintUrl: normalizeText(poster.preprint_link) || null,
+    supplementalUrl:
+      normalizeText(poster.open_access_supplemental_link) || null,
+    sessionUrl: linkedSlot?.sessionSlug
+      ? withBaseURL(`/program/session/${linkedSlot.sessionSlug}`)
+      : null,
+    award: normalizeText(poster.award) || null,
+  };
+});
+
+const frontmatter = {
+  title: "VIS Posters",
+  active_nav: "Accepted Posters",
+  contact: "web@ieeevis.org",
+  full_width: true,
+};
+---
+
+<PageLayout frontmatter={frontmatter}>
+  <ProgramPapersBrowser
+    papers={paperCards}
+    itemType="poster"
+    client:only="react"
+  />
+</PageLayout>

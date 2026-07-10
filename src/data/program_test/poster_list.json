@@ -1,0 +1,2834 @@
+[
+  {
+    "id": "0379f3fd-4b05-4214-a5a9-1f6ab8b9ce88",
+    "event_prefix": "v-poster",
+    "title": "Summarizing Classed Region Maps with a Disk Choreme",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Steven van den Broek",
+        "email": "s.w.v.d.broek@tue.nl"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1038",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1038-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMDM4LWRvYy5wZGYiLCJpYXQiOjE3NjE2Mzk1NTIsImV4cCI6MTc5MzE3NTU1Mn0.NZRKrIKPlISX3yWYEwd9XyTgqL8AlOIe7aMndh_Zy28",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945690280001536",
+    "authors_bak": [
+      {
+        "name": "Steven van den Broek",
+        "email": "s.w.v.d.broek@tue.nl"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "056cd806-f4f9-456d-819e-a8e557abfc97",
+    "event_prefix": "v-poster",
+    "title": "Cities, Cards, and Conversations: The UDV Card Deck in Action",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Damla Çay",
+        "email": "damla.cay@mome.hu"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1088",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1088-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMDg4LWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAwMzgsImV4cCI6MTc5MzE3NjAzOH0.0U0Q9NXkj0Cc1JMHNB6W-1rCzBETVIpSoeXQk-21LQk",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945597229367459",
+    "authors_bak": [
+      {
+        "name": "Damla Çay",
+        "email": "damla.cay@mome.hu"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "0f40608b-12d1-4673-87ec-8ed545a11bc7",
+    "event_prefix": "v-poster",
+    "title": "Nexus: Interactive Visual Exploration of 3D Spatial Connectivity for Tissue Analysis",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Eric Mörth",
+        "email": "eric.moerth@gmx.at"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1121",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1121-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMTIxLWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAyNDgsImV4cCI6MTc5MzE3NjI0OH0.LO6HAvy1n7CcZoyK_XPPbtxUcqI0-QQB6xOujff5NRg",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945667169259641",
+    "authors_bak": [
+      {
+        "name": "Eric Mörth",
+        "email": "eric.moerth@gmx.at"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "11ff506f-6eef-4e25-a90e-0c204c3f90de",
+    "event_prefix": "v-poster",
+    "title": "An Authoring Tool for Pictorial Unit Visualization",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Min Lu",
+        "email": "lumin.vis@gmail.com"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1144",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1144-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMTQ0LWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAyNjksImV4cCI6MTc5MzE3NjI2OX0.AItdhzOyoTni5sKbUuq07b6A9NBn4ewDPyWDXCllZkw",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945578275049494",
+    "authors_bak": [
+      {
+        "name": "Min Lu",
+        "email": "lumin.vis@gmail.com"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "1255d463-ed95-438d-a854-f86663e7a488",
+    "event_prefix": "v-poster",
+    "title": "t-SNE is Sensitive to Initialization Size (but UMAP is Not)",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Jacob Miller",
+        "email": "jacob.miller@tum.de"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1139",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1139-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMTM5LWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAyNTcsImV4cCI6MTc5MzE3NjI1N30.LBkbCutFnwv0hESTuxasETCV-YqWGA3bv8OC4Q35x0A",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945695686459483",
+    "authors_bak": [
+      {
+        "name": "Jacob Miller",
+        "email": "jacob.miller@tum.de"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "13fb4890-a537-429b-9820-67ac440f7de1",
+    "event_prefix": "v-poster",
+    "title": "Correlation Visualization for Multivariate Volumes with Continuous Indexed Points",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Liang Zhou",
+        "email": "zhoulng@pku.edu.cn"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1101",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1101-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMTAxLWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAyNDYsImV4cCI6MTc5MzE3NjI0Nn0.SOwTW9CfLL6Tup3zlJqVl1k79lOwl6Z18tIX6ENgotc",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945602912387276",
+    "authors_bak": [
+      {
+        "name": "Liang Zhou",
+        "email": "zhoulng@pku.edu.cn"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "14bd72ee-acab-472c-9ee1-5e2710730112",
+    "event_prefix": "v-poster",
+    "title": "Visual Complexity of Point Set Mappings",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Arjen Simons",
+        "email": "arjen.simons@gmail.com"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1082",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1082-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMDgyLWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAwMzUsImV4cCI6MTc5MzE3NjAzNX0.crR9X_M8Op9VQnD8Nkznrgq8tM96MepMqkZQccLBFIw",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945744512221346",
+    "authors_bak": [
+      {
+        "name": "Arjen Simons",
+        "email": "arjen.simons@gmail.com"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "16a24093-6c74-4b07-a467-f33e0e1b3376",
+    "event_prefix": "v-poster",
+    "title": "Visualization on Smart Wristbands: Results from an In-situ Design Workshop with Four Scenarios",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Fairouz Grioui",
+        "email": "asif.alaul@gmail.com"
+      },
+      {
+        "name": "Alaul Islam"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1135",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1135-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMTM1LWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAyNDgsImV4cCI6MTc5MzE3NjI0OH0.ZS6Njr-s1vta7DwopKszlycsR1UVyT8pW9Mj6_0WTfg",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945749641990185",
+    "authors_bak": [
+      {
+        "name": "Fairouz Grioui",
+        "email": "asif.alaul@gmail.com"
+      },
+      {
+        "name": "Alaul Islam"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "19c3e91f-ce08-47e6-b4f4-1c8bb8f40cab",
+    "event_prefix": "v-poster",
+    "title": "ChartJunkGPT: Can GPT-4.1 Interpret Visually Embellished Charts?",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Alexander Bendeck",
+        "email": "abendeck3@gatech.edu"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1127",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1127-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMTI3LWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAyNDgsImV4cCI6MTc5MzE3NjI0OH0.uTvFQl_m1fCk0jcF8lQBlE_CrQyL12d5NiZ8nfwC8SI",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945594670714900",
+    "authors_bak": [
+      {
+        "name": "Alexander Bendeck",
+        "email": "abendeck3@gatech.edu"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "1decd9ea-433c-46d2-b239-b89f4563c784",
+    "event_prefix": "v-poster",
+    "title": "Explanatory Visualization with LLMs for Employment Law",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Ebube Glory Ogbonda",
+        "email": "glory.ogbonda@bangor.ac.uk"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-11-05T12:34:48.297362+00:00",
+    "program_paper_id": "1128",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1128-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMTI4LWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAyNDgsImV4cCI6MTc5MzE3NjI0OH0.0s79vH-oUZr8P5x_Qs1-ZvIraID2H25_dQXL0fk_XQc",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945632146690180",
+    "authors_bak": [
+      {
+        "name": "Ebube Glory Ogbonda",
+        "email": "glory.ogbonda@bangor.ac.uk"
+      },
+      {
+        "name": "Glory Ogbonda"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "1e4e010c-7fc7-42da-b88d-229bf4cfcf71",
+    "event_prefix": "v-poster",
+    "title": "SkyBrowser: In-situ dissemination of high-resolution deep-space images",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Ylva Selling",
+        "email": "ylva.selling@liu.se"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1114",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1114-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMTE0LWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAyNDcsImV4cCI6MTc5MzE3NjI0N30.QC0jNkYjPhfcddog4g5T83RKXuc3r-zE459E1IxoTzA",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945687604039880",
+    "authors_bak": [
+      {
+        "name": "Ylva Selling",
+        "email": "ylva.selling@liu.se"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "1fed1ff7-e290-440c-85a1-047341f74be8",
+    "event_prefix": "v-poster",
+    "title": "Designing CanoeView: A Canoe-Based Interactive Learning Experience for Planetarium Classrooms",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Aarush Bothra",
+        "email": "bothr003@umn.edu"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1122",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1122-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMTIyLWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAyNDgsImV4cCI6MTc5MzE3NjI0OH0.Z3V2ZOma6ausMyrLcDLN1EP60cU4p_abJUiCHqObQRU",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945615126204466",
+    "authors_bak": [
+      {
+        "name": "Aarush Bothra",
+        "email": "bothr003@umn.edu"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "251063e5-7f20-41b5-af14-c68722d51937",
+    "event_prefix": "v-poster",
+    "title": "Augmented Reality-based Data Storytelling for Citizen Participation in Urban Planning",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Leni Yang",
+        "email": "leni.yang@inria.fr"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1146",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1146-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMTQ2LWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAyNTEsImV4cCI6MTc5MzE3NjI1MX0.aWqmI1Ix0pKnqgkVZ0iFMQ6Xewido9xXwQH7tQwa9kc",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945586659725423",
+    "authors_bak": [
+      {
+        "name": "Leni Yang",
+        "email": "leni.yang@inria.fr"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "25217046-edc4-472f-9a17-9fa05e60c0b1",
+    "event_prefix": "v-poster",
+    "title": "Progressive Visual Analytics for EEG Artifact Detection",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Peichen Liu",
+        "email": "pliu@cs.au.dk"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1087",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1087-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMDg3LWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAwMzUsImV4cCI6MTc5MzE3NjAzNX0.m-evjupbMWo2tMgyRBylwsq2QU-E0-kcmqUpVZocyH0",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945676870811750",
+    "authors_bak": [
+      {
+        "name": "Peichen Liu",
+        "email": "pliu@cs.au.dk"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "290a9a8f-4b06-468b-9781-da8a26af0ba3",
+    "event_prefix": "v-poster",
+    "title": "Scaling Human-AI Quality Control in Semiconductor Manufacturing: A Dual-Legibility Visual Analytics Approach",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Kuhyun Lee",
+        "email": "lkh567@skku.edu"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1027",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1027-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMDI3LWRvYy5wZGYiLCJpYXQiOjE3NjE2Mzk1NTMsImV4cCI6MTc5MzE3NTU1M30.VTI_VhQB3rI-4X9TFH-QW6HT8QYymwB2GdQB4BhJdtA",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945682419880047",
+    "authors_bak": [
+      {
+        "name": "Kuhyun Lee",
+        "email": "lkh567@skku.edu"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "2aa68f33-8f3b-46ff-ba34-341f55ef124e",
+    "event_prefix": "v-poster",
+    "title": "Vox-Insight: Visualization Tool for Multimodal Medical Imaging Data",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Chahat Kalsi",
+        "email": "arathee1@ucsc.edu"
+      },
+      {
+        "name": "Ashwani Rathee"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1043",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1043-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMDQzLWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAwMzQsImV4cCI6MTc5MzE3NjAzNH0.JWnhS-2_RY48VstvUV6LGrCE02RkndNtPhBq8VoxorQ",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945757518758038",
+    "authors_bak": [
+      {
+        "name": "Chahat Kalsi",
+        "email": "arathee1@ucsc.edu"
+      },
+      {
+        "name": "Ashwani Rathee"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "2d196b69-eab9-445d-bd40-48d0bd01c3ae",
+    "event_prefix": "v-poster",
+    "title": "Decoupling Data and Tooling in Interactive Visualization",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Jan Simson",
+        "email": "jan.simson@lmu.de"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1086",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1086-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMDg2LWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAwMzUsImV4cCI6MTc5MzE3NjAzNX0.NkcgxAjjb2PZNts6_LRUGuo7Kctxfj1Sx7dKk04KpP4",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945610009411604",
+    "authors_bak": [
+      {
+        "name": "Jan Simson",
+        "email": "jan.simson@lmu.de"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "2d5cd4ad-6578-47b9-8453-1049cc226ff4",
+    "event_prefix": "v-poster",
+    "title": "SAMMed-VR: Integrated Segment Anything Model in Virtual Reality for Supervised Brain Tumour Segmentation",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Jiazhou Liu",
+        "email": "vahid.pooryousef@monash.edu"
+      },
+      {
+        "name": "Vahid Pooryousef"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1137",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1137-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMTM3LWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAyNDksImV4cCI6MTc5MzE3NjI0OX0.iY-MbZVcbommxj8mXHPKODoJZLYfhxfVhbi09hHGuSE",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945679563423865",
+    "authors_bak": [
+      {
+        "name": "Jiazhou Liu",
+        "email": "vahid.pooryousef@monash.edu"
+      },
+      {
+        "name": "Vahid Pooryousef"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "2f76620f-360a-4fac-8861-5140a6c6db39",
+    "event_prefix": "v-poster",
+    "title": "Interactive Exploration of Subsets in Projections through Radial Attribute Fingerprints",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Michael Blum",
+        "email": "michael.blum2@uzh.ch"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1093",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1093-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMDkzLWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAwMzksImV4cCI6MTc5MzE3NjAzOX0.WKw7oFomf6iywtCnFDUm_a3VCz7bnhcCI4da1vkABLM",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945656008343552",
+    "authors_bak": [
+      {
+        "name": "Michael Blum",
+        "email": "michael.blum2@uzh.ch"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "3006df2f-9888-4818-aa31-ba206795a3e1",
+    "event_prefix": "v-poster",
+    "title": "Artistic Inspiration for Uncertainty Visualization Techniques",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Michelle Borkin",
+        "email": "m.borkin@neu.edu"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1131",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1131-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMTMxLWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAyNDksImV4cCI6MTc5MzE3NjI0OX0._ssVf82G4g49LvByF4SqkfIqiGdZLIBIl4gs9Nj4u4c",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945584046542961",
+    "authors_bak": [
+      {
+        "name": "Michelle Borkin",
+        "email": "m.borkin@neu.edu"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "3340cd5f-a185-4c13-8ef4-ea1d1b687618",
+    "event_prefix": "v-poster",
+    "title": "VisConflicts: Visualizing Conflicts of Interest in Conference Reviewing",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Natkamon Tovanich",
+        "email": "natkamon.tov@gmail.com"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1107",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1107-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMTA3LWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAyNDcsImV4cCI6MTc5MzE3NjI0N30.VVOvpjqrUAdcPnly1SneKuy8yYOEdCWAGM7RXabls-M",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945733690785903",
+    "authors_bak": [
+      {
+        "name": "Natkamon Tovanich",
+        "email": "natkamon.tov@gmail.com"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "36d911d8-cb10-425d-9b1b-914542e15c4c",
+    "event_prefix": "v-poster",
+    "title": "Dashboards for Davis",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Doron Goldfarb",
+        "email": "doron.goldfarb@tuwien.ac.at"
+      },
+      {
+        "name": "Florian Gruber"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1126",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1126-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMTI2LWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAyNDgsImV4cCI6MTc5MzE3NjI0OH0.bNZi2FpP4No2SAgqjmsFCv4vo_m93-lMqgYqt-44_pk",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945605408129165",
+    "authors_bak": [
+      {
+        "name": "Doron Goldfarb",
+        "email": "doron.goldfarb@tuwien.ac.at"
+      },
+      {
+        "name": "Florian Gruber"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "36d95364-999a-4fa5-a56e-671872d88070",
+    "event_prefix": "v-poster",
+    "title": "Interactive Strategy Building for Net Zero: A Visual Analytics Approach to Local Decarbonisation",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Dany Laksono",
+        "email": "dany.laksono@city.ac.uk"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1108",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1108-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMTA4LWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAyNDgsImV4cCI6MTc5MzE3NjI0OH0.6GHkS03Z8dC06x3O5o9-UyHw6nHWk0F5gIJpU1mpxIo",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945658088456222",
+    "authors_bak": [
+      {
+        "name": "Dany Laksono",
+        "email": "dany.laksono@city.ac.uk"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "37a7a962-bff9-4f8e-b4ba-3c6ad03283c8",
+    "event_prefix": "v-poster",
+    "title": "Sketching for Insight: Trajectory Retrieval in VR with Flotation Data",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Franziska Kahlert",
+        "email": "franziska.kahlert@tu-dresden.de"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1081",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1081-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMDgxLWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAwMzUsImV4cCI6MTc5MzE3NjAzNX0.h4kuzvL3Jk_1yrOUqHLq6wflP9A9v78iA81MDC6gjXY",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945685238452295",
+    "authors_bak": [
+      {
+        "name": "Franziska Kahlert",
+        "email": "franziska.kahlert@tu-dresden.de"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "3b78f3c8-fb8e-4bbf-aa4f-fa49c3c65dd1",
+    "event_prefix": "v-poster",
+    "title": "Vis-FAB: Visual Analytics Framework for Wafer Failure Analysis in Multistage Fabrication Process",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Sugyeong Lee",
+        "email": "sugyeong@g.skku.edu"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1096",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1096-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMDk2LWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAwMzYsImV4cCI6MTc5MzE3NjAzNn0.N9y_bj1btPZ-CuiG1IANW07bz0ZLKnqEorRzzwNoUFE",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945724895592488",
+    "authors_bak": [
+      {
+        "name": "Sugyeong Lee",
+        "email": "sugyeong@g.skku.edu"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "3d0b95d5-c70b-4394-acad-27c5eab7ba3a",
+    "event_prefix": "v-poster",
+    "title": "Physically encoding data with material flexibility",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Bahare Bakhtiari",
+        "email": "bahare.bakhtiari97@gmail.com"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1060",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1060-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMDYwLWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAwMzYsImV4cCI6MTc5MzE3NjAzNn0.GGcy3hi2JnYhN538Po3Km0kVblHyx_PwX4lCSZiZgcA",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945674094186528",
+    "authors_bak": [
+      {
+        "name": "Bahare Bakhtiari",
+        "email": "bahare.bakhtiari97@gmail.com"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "3d40ab3c-7452-4775-955e-9d72b2e0db1d",
+    "event_prefix": "v-poster",
+    "title": "Workshopping XGeoAI Visualisation Opportunities for Renewable Energy Planning and Forecasting",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Tim Dwyer",
+        "email": "merry.hoang@monash.edu"
+      },
+      {
+        "name": "Merry Hoang"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1134",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1134-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMTM0LWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAyNjYsImV4cCI6MTc5MzE3NjI2Nn0.3iae6ksuDujBn0HlTM4EdoQKdCD9bK7Qzxh_fJmFlbQ",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945766003703862",
+    "authors_bak": [
+      {
+        "name": "Tim Dwyer",
+        "email": "merry.hoang@monash.edu"
+      },
+      {
+        "name": "Merry Hoang"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "3e94d46c-a1ba-4d27-87e3-c4dff2fa54ea",
+    "event_prefix": "v-poster",
+    "title": "From Data to Diagram: Learning Chart Types Through Interactive Instructional Comics",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Magdalena Boucher",
+        "email": "magdalena.boucher@fhstp.ac.at"
+      },
+      {
+        "name": "Julia Böck"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-11-05T12:35:33.544209+00:00",
+    "program_paper_id": "1054",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1054-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMDU0LWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAwMzQsImV4cCI6MTc5MzE3NjAzNH0.9KVL9es-64ZCQUuvBMAwWGFJoMgPCI0tXp516YtutnA",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945648378642585",
+    "authors_bak": [
+      {
+        "name": "Magdalena Boucher",
+        "email": "magdalena.boucher@fhstp.ac.at"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "488bcc32-98d0-49bc-8c0b-28a02da31791",
+    "event_prefix": "v-poster",
+    "title": "How Journalists Make Maps",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Lilou Lagrede Drai",
+        "email": "lilou.lagrede--drai@polymtl.ca"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1119",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1119-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMTE5LWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAyNDcsImV4cCI6MTc5MzE3NjI0N30.sgcqfuZ48NNnRmESBXW1OxJ2ZLdXupHgxsdVckIL4l8",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945650681315328",
+    "authors_bak": [
+      {
+        "name": "Lilou Lagrede Drai",
+        "email": "lilou.lagrede--drai@polymtl.ca"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "4b026187-1e90-4b7b-8cba-aabdf467e71a",
+    "event_prefix": "v-poster",
+    "title": "Visual Analytics of Nonverbal Behavior to Evaluate Collaborative Group Engagement",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Carolin Bronowicz",
+        "email": "susanne.bleisch@fhnw.ch"
+      },
+      {
+        "name": "Susanne Bleisch"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1109",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1109-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMTA5LWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAyNDcsImV4cCI6MTc5MzE3NjI0N30.ly67nD6divSijDJw65jiGY463ttyx2Ho6XpYxR6b14w",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945740104143032",
+    "authors_bak": [
+      {
+        "name": "Carolin Bronowicz",
+        "email": "susanne.bleisch@fhnw.ch"
+      },
+      {
+        "name": "Susanne Bleisch"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "52c65a62-66a5-4784-af7e-63e573165743",
+    "event_prefix": "v-poster",
+    "title": "Virtual Reality Lensing for Surface Approximation in Feature-driven DVR",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Usman Alim",
+        "email": "roberta.cmota@gmail.com"
+      },
+      {
+        "name": "Roberta Mota"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1075",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1075-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMDc1LWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAwMzUsImV4cCI6MTc5MzE3NjAzNX0.H6ygjUl2IDibPoB2iqhsEouowvlmqRxxo6YGyCQIHjY",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945722165104680",
+    "authors_bak": [
+      {
+        "name": "Usman Alim",
+        "email": "roberta.cmota@gmail.com"
+      },
+      {
+        "name": "Roberta Mota"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "5cd8fd81-c40e-4ac6-ab32-1141d818c2b7",
+    "event_prefix": "v-poster",
+    "title": "Navigating the Zoo of Visualization Techniques",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Abdulhaq Adetunji Salako",
+        "email": "abdulhaq.salako@uni-rostock.de"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1142",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1142-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMTQyLWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAyNDksImV4cCI6MTc5MzE3NjI0OX0.TBS8P1fBD_5sK5jASfdyE-O1y2la1SCixtpA-ql_S7s",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945664115937470",
+    "authors_bak": [
+      {
+        "name": "Abdulhaq Adetunji Salako",
+        "email": "abdulhaq.salako@uni-rostock.de"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "6b49a8fd-c203-4c2d-8acb-a7d9d1f89b23",
+    "event_prefix": "v-poster",
+    "title": "Flirting Charts: Expressive Motion Design in Information Visualization Inspired by Animal Courtship Performances",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Zezhong Wang",
+        "email": "wangzezhong2016@gmail.com"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1039",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1039-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMDM5LWRvYy5wZGYiLCJpYXQiOjE3NjE2Mzk3NjEsImV4cCI6MTc5MzE3NTc2MX0.OGmfhfTXbkAvkxzglQ6jMYMWFr56w_T5Pc4JOV-MiSI",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945645782634526",
+    "authors_bak": [
+      {
+        "name": "Zezhong Wang",
+        "email": "wangzezhong2016@gmail.com"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "6ca8b6a3-3747-4cfb-b264-c5cf68186202",
+    "event_prefix": "v-poster",
+    "title": "TS-Insight: Visual Fingerprinting of Multi-Armed Bandits",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Parsa Vares",
+        "email": "parsavares@yahoo.com"
+      },
+      {
+        "name": "Eloi Durant"
+      },
+      {
+        "name": "Mohammad Ghoniem"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-11-05T12:34:19.715128+00:00",
+    "program_paper_id": "1116",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1116-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMTE2LWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAyNDcsImV4cCI6MTc5MzE3NjI0N30.yIXF9TNLmYB6jFKoRCezh4r3MwVU5HsiIN3X3oyOblE",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945709745635358",
+    "authors_bak": [
+      {
+        "name": "Parsa Vares - Eloi Durant - Mohammad Ghoniem",
+        "email": "parsavares@yahoo.com"
+      },
+      {
+        "name": "Parsa Vares"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "720ced8c-5075-49e6-a798-b0c3750d9337",
+    "event_prefix": "v-poster",
+    "title": "Diffusion Explorer: Interactive Exploration of Diffusion Models",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Alec Helbling",
+        "email": "alechelbling@gatech.edu"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1071",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1071-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMDcxLWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAwMzUsImV4cCI6MTc5MzE3NjAzNX0.gWa1I9qlRPUCzQyC9NB9PXFvF6DeL8n7y-ub2KAPCAk",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945618720719030",
+    "authors_bak": [
+      {
+        "name": "Alec Helbling",
+        "email": "alechelbling@gatech.edu"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "75420f88-2fa1-47fd-b1b3-12263692deaf",
+    "event_prefix": "v-poster",
+    "title": "Analyzing Camera Motion in Immersive Dome Movies using Optic Flow",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Emma Broman",
+        "email": "emma.broman@liu.se"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1053",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1053-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMDUzLWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAwMzQsImV4cCI6MTc5MzE3NjAzNH0.S9SaxMwWriwi0ovzTNmyIpxki9xZYC9YQo8S8LKrCVA",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945581236359272",
+    "authors_bak": [
+      {
+        "name": "Emma Broman",
+        "email": "emma.broman@liu.se"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "7801b895-54e1-4d63-b76f-5eb312699d7f",
+    "event_prefix": "v-poster",
+    "title": "A Kaleidoscopic View of Artist Co-Exhibition Networks",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Michaela Tuscher",
+        "email": "michaela.tuscher@tuwien.ac.at"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1063",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1063-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMDYzLWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAwNTAsImV4cCI6MTc5MzE3NjA1MH0.Uc2jYRK9_c7jGzSzig5O96IG3CzXRi988M69lQ6kZrs",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945570712846338",
+    "authors_bak": [
+      {
+        "name": "Michaela Tuscher",
+        "email": "michaela.tuscher@tuwien.ac.at"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "7e935c88-59cf-4b3c-ac49-215080eb29df",
+    "event_prefix": "v-poster",
+    "title": "FERAViz: A Visualization Tool for Robotic Program Interpretation for Future Reuse",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Yoganata Kristanto",
+        "email": "ykri@mmmi.sdu.dk"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1138",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1138-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMTM4LWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAyNDksImV4cCI6MTc5MzE3NjI0OX0.qXUQVkPVf9grmBRjBJ0690qo6oKfUdW35pT_YRFhoIo",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945643127509022",
+    "authors_bak": [
+      {
+        "name": "Yoganata Kristanto",
+        "email": "ykri@mmmi.sdu.dk"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "7f73386f-dd35-4d24-9a27-eec73b5e8216",
+    "event_prefix": "v-poster",
+    "title": "Designing a Glyph-Based Hierarchical Visualization for Orders of Magnitude Values",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Katerina Batziakoudi",
+        "email": "kbatziakoudi@gmail.com"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1100",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1100-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMTAwLWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAyNDcsImV4cCI6MTc5MzE3NjI0N30.8sZJImt0dQUa6VvZ-DcqMHMJh16Ap9mVlLnnABWwXrA",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945612471341117",
+    "authors_bak": [
+      {
+        "name": "Katerina Batziakoudi",
+        "email": "kbatziakoudi@gmail.com"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "8278cabc-56a9-47d6-bc1f-fa10c628178b",
+    "event_prefix": "v-poster",
+    "title": "Human-Centred Information Visualisation for Improved Situational Awareness and Critical Decision Making in Energy Control Rooms",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Yidan Zhang",
+        "email": "yidan.zhang@monash.edu"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1140",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1140-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMTQwLWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAyNDksImV4cCI6MTc5MzE3NjI0OX0.wjChKa5Xysh0KdBK-DQ0-lumKU_8__FvTbkd_SuYuAM",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945653726380132",
+    "authors_bak": [
+      {
+        "name": "Yidan Zhang",
+        "email": "yidan.zhang@monash.edu"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "839878e2-e868-49d9-adb4-fbfe90b7576b",
+    "event_prefix": "v-poster",
+    "title": "Visualizing Multivariate Time Series Data in a Biological Input/Output System",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Julia Husar",
+        "email": "juliahusar03@gmail.com"
+      },
+      {
+        "name": "Jing Yang"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-11-05T12:36:39.513026+00:00",
+    "program_paper_id": "1092",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1092-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMDkyLWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAwMzYsImV4cCI6MTc5MzE3NjAzNn0.ueQ_uV3M2oAq8XmluFc6R9QEUiK0eo02zu2kzNfeBsE",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945751701258370",
+    "authors_bak": [
+      {
+        "name": "Jing Yang",
+        "email": "juliahusar03@gmail.com"
+      },
+      {
+        "name": "Julia Husar"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "85953397-7c44-4163-8690-fad198774824",
+    "event_prefix": "v-poster",
+    "title": "CodeSkyline: A Juxtaposed Visual Analytics Code-Map Embedded in a Code Editor",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Steven Lamarr Reynolds",
+        "email": "steven.lamarr.reynolds@igd.fraunhofer.de"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1106",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1106-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMTA2LWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAyNDYsImV4cCI6MTc5MzE3NjI0Nn0.GddqKHX9a-FywUa6Z0f4BiSsQuwKqMPbCVRoGLJEKa4",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945600534478888",
+    "authors_bak": [
+      {
+        "name": "Steven Lamarr Reynolds",
+        "email": "steven.lamarr.reynolds@igd.fraunhofer.de"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "85edc5c1-352e-4a80-9094-750ed4be7a2e",
+    "event_prefix": "v-poster",
+    "title": "TruSiA: Trustworthy and Situated Agent-Based Human–Swarm Interaction",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Bohan Shen",
+        "email": "leliu304@gmail.com"
+      },
+      {
+        "name": "Le Liu"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1145",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1145-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMTQ1LWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAyNDksImV4cCI6MTc5MzE3NjI0OX0._erBG7cPlCGm1gEc1JIRVFFEeF3vor4qTxCf-rR2wNM",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945707241639958",
+    "authors_bak": [
+      {
+        "name": "Bohan Shen",
+        "email": "leliu304@gmail.com"
+      },
+      {
+        "name": "Le Liu"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "94153e0b-2a8f-4adb-82ec-7521a7e332c1",
+    "event_prefix": "v-poster",
+    "title": "A WebXR Client for Exploring Industrial Physical Simulations using Augmented Reality and Hand Gestures",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Oliver Mattausch",
+        "email": "oli_m@gmx.at"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1058",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1058-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMDU4LWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAwMzQsImV4cCI6MTc5MzE3NjAzNH0.HsnolHYB2WrUaSTj01NoivIrODoRB0Ka0imhK7zXjhI",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945573355393187",
+    "authors_bak": [
+      {
+        "name": "Oliver Mattausch",
+        "email": "oli_m@gmx.at"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "9bae5710-1e85-4096-ba63-b0b4267371df",
+    "event_prefix": "v-poster",
+    "title": "Mind the Gaps: Measuring Visual Artifacts in Dimensionality Reduction",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Jaume Ros",
+        "email": "j.ros.alonso@tue.nl"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1125",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1125-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMTI1LWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAyNDgsImV4cCI6MTc5MzE3NjI0OH0.LOZuLtBgQx_OOdkCfEiItIoQ5PyXH_BXxndJsrpPSMw",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945661389639781",
+    "authors_bak": [
+      {
+        "name": "Jaume Ros",
+        "email": "j.ros.alonso@tue.nl"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "a773d4cb-fe1f-499f-8294-e36414c9448e",
+    "event_prefix": "v-poster",
+    "title": "What Makes Data Visualizations Difficult to Understand? Not Their Dimensionality, Evidence Shows.",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Gianna-Carina Grün",
+        "email": "gianna.gruen@tu-dortmund.de"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1061",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1061-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMDYxLWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAwMzYsImV4cCI6MTc5MzE3NjAzNn0.XdjFCmaVzYUK44AhT322qFKGskjeq3daq3ItIubvEZM",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945763063758971",
+    "authors_bak": [
+      {
+        "name": "Gianna-Carina Grün",
+        "email": "gianna.gruen@tu-dortmund.de"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "a9a25477-fd12-4d28-b146-5353ebf7124f",
+    "event_prefix": "v-poster",
+    "title": "Toward Supporting Narrative-Driven Data Exploration: Barriers and Design Opportunities",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Oliver Huang",
+        "email": "oliver@dgp.toronto.edu"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1022",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1022-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMDIyLWRvYy5wZGYiLCJpYXQiOjE3NjE2Mzk1NTQsImV4cCI6MTc5MzE3NTU1NH0.WW9uU6Cc-jfRUknxJ06QaEQ9TOUNQQSRD4FSoo7wv-g",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945702413996125",
+    "authors_bak": [
+      {
+        "name": "Oliver Huang",
+        "email": "oliver@dgp.toronto.edu"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "b11a3cf7-7e4b-426d-bf67-59c0be179c2c",
+    "event_prefix": "v-poster",
+    "title": "Exploring Touch Interactions for Input Visualization in Personal Informatics",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "June Bhartia",
+        "email": "junebhartia@gmail.com"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1079",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1079-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMDc5LWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAwMzUsImV4cCI6MTc5MzE3NjAzNX0.UKa0F-Gq8G7IY9qvbyugYGoWrpujqiC57utilKMar8k",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945639033737285",
+    "authors_bak": [
+      {
+        "name": "June Bhartia",
+        "email": "junebhartia@gmail.com"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "b29e9869-6974-4b42-97fb-d04e259d143c",
+    "event_prefix": "v-poster",
+    "title": "Extending Voronoi Treemap-Based Text Visualization to Non-Convex Regions",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Naoya Oda",
+        "email": "oden6680@gmail.com"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1113",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1113-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMTEzLWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAyNDcsImV4cCI6MTc5MzE3NjI0N30.iZCrgW0eK5c8mEoI5_mu7vyLUofzPbs0HhqHXHWk-_Q",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945641126690897",
+    "authors_bak": [
+      {
+        "name": "Naoya Oda",
+        "email": "oden6680@gmail.com"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "b2b9e201-ac4e-44c0-b04b-62314d43e336",
+    "event_prefix": "v-poster",
+    "title": "NL4DV-Stylist: Styling Data Visualizations Using Natural Language and Example Charts",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Arpit Narechania",
+        "email": "arpit@ust.hk"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1068",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1068-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMDY4LWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAwMzQsImV4cCI6MTc5MzE3NjAzNH0.fre9F_1A-SQghvhXWPb1t_5iTSIKF-hhmjxAbR2jmds",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945669291708541",
+    "authors_bak": [
+      {
+        "name": "Arpit Narechania",
+        "email": "arpit@ust.hk"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "bd1252c7-20b8-4588-b502-84f08be835ca",
+    "event_prefix": "v-poster",
+    "title": "Charting Scenarios: A Framework for Uncertainty Visualization in Data Journalism Practice",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Benjamin Possin",
+        "email": "benjamin.possin@haw-hamburg.de"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1091",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1091-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMDkxLWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAwMzYsImV4cCI6MTc5MzE3NjAzNn0.FwuEask5HTkgtbPlMTlZ1N6yNMxaJspYHzuDS3d88o0",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945591957000294",
+    "authors_bak": [
+      {
+        "name": "Benjamin Possin",
+        "email": "benjamin.possin@haw-hamburg.de"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "be9a661d-be03-4909-b2d5-99d00f9a5567",
+    "event_prefix": "v-poster",
+    "title": "Do Vision-Language Models See Visualizations Like Humans? Alignment in Chart Categorization",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Péter Ferenc Gyarmati",
+        "email": "peter.ferenc.gyarmati@univie.ac.at"
+      },
+      {
+        "name": "Manfred Klaffenböck"
+      },
+      {
+        "name": "Laura Koesten"
+      },
+      {
+        "name": "Torsten Möller"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-11-05T13:48:28.730003+00:00",
+    "program_paper_id": "1041",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1041-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMDQxLWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAwMzQsImV4cCI6MTc5MzE3NjAzNH0.FA0vsieKWy-R7Svria5SZ8eLVFuRseZfEHXN8JxC85U",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945627197542440",
+    "authors_bak": [
+      {
+        "name": "Péter Ferenc Gyarmati",
+        "email": "peter.ferenc.gyarmati@univie.ac.at"
+      },
+      {
+        "name": "Péter Gyarmati"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "c2bae6e1-06ef-4724-a719-7651524fe5bc",
+    "event_prefix": "v-poster",
+    "title": "ThreadWave: Visualizing Co-authorship as Temporal Threads",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Ruishan Wu",
+        "email": "ruishan_wu@sfu.ca"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1132",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1132-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMTMyLWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAyNDgsImV4cCI6MTc5MzE3NjI0OH0.v4XYH4eLD6-rsHUNGX4VD9RgT59KlV7jVVGhyfnu9kI",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945700140679281",
+    "authors_bak": [
+      {
+        "name": "Ruishan Wu",
+        "email": "ruishan_wu@sfu.ca"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "c2e4ccaa-879c-4328-832c-7c2c8bf7fc6e",
+    "event_prefix": "v-poster",
+    "title": "Accelerated Volumetric Compression without Hierarchies: A Fourier  Feature Based Implicit Neural Representation Approach",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Leona Žůrková",
+        "email": "leona.zurkova@vsb.cz"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-11-05T12:37:22.893022+00:00",
+    "program_paper_id": "1120",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1120-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMTIwLWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAyNDcsImV4cCI6MTc5MzE3NjI0N30._ijP6hUimEJicqg5JLgHVFThrsM4dN9XnKRTHSG-csA",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945575737622618",
+    "authors_bak": [
+      {
+        "name": "Leona Žůrková",
+        "email": "leona.zurkova@vsb.cz"
+      },
+      {
+        "name": "Leona Zurkova"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "c49e58b7-66d3-409a-b833-0b33baf4c1be",
+    "event_prefix": "v-poster",
+    "title": "Visualizing Peace Transitions: Interactive Visualizations to Support Innovation and Adaptive Management in Peace Processes",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Jinrui Wang",
+        "email": "tomasvancisin@gmail.com"
+      },
+      {
+        "name": "Tomas Vancisin"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1124",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1124-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMTI0LWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAyNDgsImV4cCI6MTc5MzE3NjI0OH0.YAPLv1-3NvvAedNCxbTJ2Gum1Iz3ON2x9Rz_nM_QKBo",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945754658377829",
+    "authors_bak": [
+      {
+        "name": "Jinrui Wang",
+        "email": "tomasvancisin@gmail.com"
+      },
+      {
+        "name": "Tomas Vancisin"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "c4d2ce90-63c6-4d3b-bf41-6612a2a07de4",
+    "event_prefix": "v-poster",
+    "title": "BELT: Expert-in-the-Loop Validation of ML-Based Bruxism Detection",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Gabriela Morgenshtern",
+        "email": "morgenshtern@ifi.uzh.ch"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1013",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1013-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMDEzLWRvYy5wZGYiLCJpYXQiOjE3NjE2Mzk1NjAsImV4cCI6MTc5MzE3NTU2MH0.t6kdLpNulPuIcXVBlX73C0m2eOQ0kSvMTH4GvTHwQVg",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945589406994685",
+    "authors_bak": [
+      {
+        "name": "Gabriela Morgenshtern",
+        "email": "morgenshtern@ifi.uzh.ch"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "c8390990-0b42-4752-93a5-86ac4204faa5",
+    "event_prefix": "v-poster",
+    "title": "VISMOCK: A Programmable Smocking Technique for Creating Interactive Data Physicalization",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Bahare Bakhtiari",
+        "email": "bahare.bakhtiari97@gmail.com"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1059",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1059-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMDU5LWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAwNTAsImV4cCI6MTc5MzE3NjA1MH0.fj1eo3GbZATCoH1Irr1j_y1jpX_ZBUfEKTuABRomdlA",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945736618541236",
+    "authors_bak": [
+      {
+        "name": "Bahare Bakhtiari",
+        "email": "bahare.bakhtiari97@gmail.com"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "d309cec5-9af1-4f42-924d-b89192289bec",
+    "event_prefix": "v-poster",
+    "title": "Understanding Wind Dynamics in VR: Visual Analytics for Terrain and Architecture",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Marzan Tasnim Oyshi",
+        "email": "mto.cse@gmail.com"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1077",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1077-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMDc3LWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAwMzUsImV4cCI6MTc5MzE3NjAzNX0.3nYBJXS66e_9-4uek7PK4rbQMODHLuAhfB4wXvgjV4E",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945717077409792",
+    "authors_bak": [
+      {
+        "name": "Marzan Tasnim Oyshi",
+        "email": "mto.cse@gmail.com"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "d38b2c54-6f12-4900-91f4-dfd5232e47a1",
+    "event_prefix": "v-poster",
+    "title": "Noticing as Visualization Practice: Discovering Data in the Everyday",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Foroozan Daneshzand",
+        "email": "foroozan_daneshzand@sfu.ca"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1133",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1133-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMTMzLWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAyODEsImV4cCI6MTc5MzE3NjI4MX0.P3XUEcX2pyAb211aXIBXz-CQiD_m963lULe6mJISORA",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945671564754986",
+    "authors_bak": [
+      {
+        "name": "Foroozan Daneshzand",
+        "email": "foroozan_daneshzand@sfu.ca"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "d6e24128-1f3a-4b76-a045-7872ea98b80d",
+    "event_prefix": "v-poster",
+    "title": "The UK Co-Benefits Atlas: An Interactive Visualisation Atlas to Understand the Impacts of Achieving Climate Action Targets",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Sian Phillips",
+        "email": "sian.phillips@ed.ac.uk"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1047",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1047-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMDQ3LWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAwMzQsImV4cCI6MTc5MzE3NjAzNH0.M8qmwq1J_c-9N8iZcv_XdDeXiPauzRmINIPL6Uj_OQQ",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945697921761290",
+    "authors_bak": [
+      {
+        "name": "Sian Phillips",
+        "email": "sian.phillips@ed.ac.uk"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "e0ca1f13-60a7-457e-abb0-f4b8a5ea69b5",
+    "event_prefix": "v-poster",
+    "title": "Data Analysis Across Boundaries",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Areeba Arif",
+        "email": "aa08424@st.habib.edu.pk"
+      },
+      {
+        "name": "Samah Daniyal"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-11-05T12:46:01.084515+00:00",
+    "program_paper_id": "1023",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1023-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMDIzLWRvYy5wZGYiLCJpYXQiOjE3NjE2Mzk1NTQsImV4cCI6MTc5MzE3NTU1NH0.ZBkTs1tJgqv7qg40fyXfStU_LnplMvxo4X2wSvAH8d4",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945607694024724",
+    "authors_bak": [
+      {
+        "name": "Samah Daniyal Areeba Arif",
+        "email": "aa08424@st.habib.edu.pk"
+      },
+      {
+        "name": "Areeba Arif"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "e15d3c7e-02fc-4fe5-9553-35b53e64055e",
+    "event_prefix": "v-poster",
+    "title": "Symetra: Visual Analytics for Tuning Symbolic Execution Engines",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Donghee Hong",
+        "email": "dh.hong@skku.edu"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1073",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1073-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMDczLWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAwMzQsImV4cCI6MTc5MzE3NjAzNH0.E27JClssji5yI40sx9QvRitCgwN6e4U2z_QvrPJNlNA",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945692771287190",
+    "authors_bak": [
+      {
+        "name": "Donghee Hong",
+        "email": "dh.hong@skku.edu"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "e3a94160-0d11-417f-bceb-15f84ecf7958",
+    "event_prefix": "v-poster",
+    "title": "Dissecting Atomic Facts: Visual Analytics for Improving Fact Annotations in Language Model Evaluation",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Manuel Schmidt",
+        "email": "manuel.schmidt@uni-konstanz.de"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1102",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1102-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMTAyLWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAyNDYsImV4cCI6MTc5MzE3NjI0Nn0.NPIpwkRUo-2vmusYPXYfe1-IjAqCAP_u1Wzqv7GmLxg",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945624278437990",
+    "authors_bak": [
+      {
+        "name": "Manuel Schmidt",
+        "email": "manuel.schmidt@uni-konstanz.de"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "e9571e72-f90d-47f4-ad5b-5c4950e90bd9",
+    "event_prefix": "v-poster",
+    "title": "Using 2D deep neural networks to segment and visualize 3D features  in scientific simulations",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Weiping Hua",
+        "email": "huaweiping0@gmail.com"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1094",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1094-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMDk0LWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAwMzksImV4cCI6MTc5MzE3NjAzOX0.4gEIbFUw_kgRXOgYx7u1pF5LZmT9MZOmZld0CzkzRog",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945719325560873",
+    "authors_bak": [
+      {
+        "name": "Weiping Hua",
+        "email": "huaweiping0@gmail.com"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "eb5f9748-2cfe-4bd5-a320-6191023cc617",
+    "event_prefix": "v-poster",
+    "title": "Visualization Building Blocks & Scenarios: A Card Game-Based Learning Framework for the InfoVis Design Space",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Thorsten May",
+        "email": "thorsten.may@igd.fraunhofer.de"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1105",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1105-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMTA1LWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAyNDYsImV4cCI6MTc5MzE3NjI0Nn0.ZTpjzhRe3REesbPD34BmL8_VE1Ny3nnW7jsnqQy6XTI",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945747401969755",
+    "authors_bak": [
+      {
+        "name": "Thorsten May",
+        "email": "thorsten.may@igd.fraunhofer.de"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "f29f30f4-bba5-4a5c-9f06-cd99c1d9d6c1",
+    "event_prefix": "v-poster",
+    "title": "Uncertainty Visualization in Data Journalism: A Pilot Study on Election Polls in a DER SPIEGEL Online Article",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Carmen Garro",
+        "email": "carmen.garrocarranza@haw-hamburg.de"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1089",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1089-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMDg5LWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAwMzUsImV4cCI6MTc5MzE3NjAzNX0.GwBZKRSsEnbVMffyg7MwC8nWvx_WAe0N57YinrdZbHQ",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945714904629319",
+    "authors_bak": [
+      {
+        "name": "Carmen Garro",
+        "email": "carmen.garrocarranza@haw-hamburg.de"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "f5fa9562-329b-4b80-8e01-53a67e550213",
+    "event_prefix": "v-poster",
+    "title": "Embedded and Situated Visualisation in Mixed Reality to Support Interval Running --- A Research Highlight",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Ang Li",
+        "email": "leon.li.ang@foxmail.com"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1074",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1074-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMDc0LWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAwMzUsImV4cCI6MTc5MzE3NjAzNX0.DLN9U4aN6E6d4nLrI9kCU3XB_5r4w_4xwjZX81_-Ls8",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945629663920198",
+    "authors_bak": [
+      {
+        "name": "Ang Li",
+        "email": "leon.li.ang@foxmail.com"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "f5fc8a3f-8d3a-41f7-9ee7-b00ac129d8e6",
+    "event_prefix": "v-poster",
+    "title": "Two Sides of the Same Cube: Towards Immersive Dynamic Visualization of Migration Flows",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Marian Bramberger",
+        "email": "daniel.pahr@gmail.com"
+      },
+      {
+        "name": "Daniel Pahr"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1118",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1118-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMTE4LWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAyNDgsImV4cCI6MTc5MzE3NjI0OH0.vO1TpQA-Vk8kSkDdiBIY31pBZW6xs8Rud7PBK5gK9Zo",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945712052375646",
+    "authors_bak": [
+      {
+        "name": "Marian Bramberger",
+        "email": "daniel.pahr@gmail.com"
+      },
+      {
+        "name": "Daniel Pahr"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "f6153553-142a-4b25-af0c-0b3511a18b85",
+    "event_prefix": "v-poster",
+    "title": "Exploring the Feasibility of a Participatory Data Physicalization of CO₂e Emissions for Dietary Choices in Collective Catering Settings",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Eugenie Brasier",
+        "email": "eugenie.brasier@inria.fr"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1136",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1136-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMTM2LWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAyNDksImV4cCI6MTc5MzE3NjI0OX0.ns868QJYy-VaGruo1eXHOw6Ot6BSaV9RV-P5kVUKRew",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945634797617216",
+    "authors_bak": [
+      {
+        "name": "Eugenie Brasier",
+        "email": "eugenie.brasier@inria.fr"
+      }
+    ],
+    "contributors_bak": null
+  },
+  {
+    "id": "fcb0e8f7-af71-463f-9dc5-bb78c705cdce",
+    "event_prefix": "v-poster",
+    "title": "Towards Increased Patient Engagement through Visual Support for Qualitative Questionnaire Completion and Summarization",
+    "contributors": [],
+    "authors": [
+      {
+        "name": "Lucie David",
+        "email": "lucie.david@uib.no"
+      }
+    ],
+    "abstract": null,
+    "keywords": null,
+    "doi": null,
+    "fno": null,
+    "pmu_upload_link": null,
+    "pmu_retrieve_link": null,
+    "has_pdf": false,
+    "has_image": false,
+    "has_ff": false,
+    "open_access_supplemental_question": null,
+    "open_access_supplemental_link": null,
+    "preprint_link": null,
+    "accessible_pdf": null,
+    "practitioners_statement": null,
+    "award": null,
+    "created_at": "2025-10-28T07:39:50+00:00",
+    "updated_at": "2025-10-29T07:30:14.691567+00:00",
+    "program_paper_id": "1112",
+    "pdf_url": "https://data.tech.ieeevis.org/storage/v1/object/sign/vis2025/pdf-files/v-poster/1112-doc.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ2aXMyMDI1L3BkZi1maWxlcy92LXBvc3Rlci8xMTEyLWRvYy5wZGYiLCJpYXQiOjE3NjE2NDAyNDcsImV4cCI6MTc5MzE3NjI0N30.iNjQdG0EfphqOV0aGXfP9Qypj_oo-E3_36YT_NyuA5s",
+    "discord_url": "https://discord.com/channels/1422883912660549696/1430945705098350592",
+    "authors_bak": [
+      {
+        "name": "Lucie David",
+        "email": "lucie.david@uib.no"
+      }
+    ],
+    "contributors_bak": null
+  }
+]

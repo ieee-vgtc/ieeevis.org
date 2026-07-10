@@ -8,10 +8,13 @@ const navigation_data = load_yaml("./src/data/navigation.yml");
 
 import Head from "../components/Head";
 import Navigation from "../components/Navigation";
+import ProgramTopBar from "../components/ProgramTopBar.astro";
 import Footer from "../components/Footer";
 
 const { page_info } = Astro.props;
 const { pathname } = Astro.url;
+
+const isProgramPage = /year\/202\d\/program/.test(pathname);
 ---
 
 <!doctype html>
@@ -22,17 +25,20 @@ const { pathname } = Astro.url;
       title={page_info.title || ""}
       url={Astro.url}
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;700&family=Zilla+Slab:wght@500;700&display=swap"
     />
     <link
-      href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700|Zilla+Slab:400,500,700&display=swap"
       rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
     />
   </head>
   <body id="app" class="overflow-x-hidden">
     <Navigation nav_data={navigation_data} page_info={page_info} client:load />
+    {isProgramPage && <ProgramTopBar />}
 
     <main>
       <slot />
