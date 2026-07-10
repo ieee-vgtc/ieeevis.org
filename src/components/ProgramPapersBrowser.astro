@@ -1,0 +1,627 @@
+---
+import { withBaseURL } from "../utils/withBaseURL";
+import type { ProgramPapersBrowserProps } from "../types/programPaper";
+import { typeColors, typeTextColors } from "../utils/week-of-utils";
+
+const paperTypeToNameMap: Record<string, string> = {
+  full: "Full VIS Paper",
+  short: "VIS Short Paper",
+  poster: "Poster",
+  demo: "Demo",
+  "workshop paper": "Workshop Paper",
+};
+
+const {
+  papers,
+  storageKeyPrefix = "program-papers",
+  itemType,
+} = Astro.props as ProgramPapersBrowserProps;
+
+const bookmarkKey = `${storageKeyPrefix}-bookmarks`;
+const lowerItemType = itemType.toLowerCase();
+---
+
+<section
+  class="program-papers grid gap-3"
+  data-local-storage-key-prefix={storageKeyPrefix}
+  data-bookmark-key={bookmarkKey}
+>
+  <div class="papers-toolbar">
+    <div>
+      <p class="papers-title">VIS {itemType}s</p>
+      <p class="papers-subtitle">
+        Browse accepted {lowerItemType}s by title, author, keyword, and session
+        information.
+      </p>
+      <p class="papers-note">
+        Note: bookmarks are stored locally in your browser and are not shared
+        across devices.
+      </p>
+    </div>
+
+    <div class="papers-controls">
+      <label class="papers-control">
+        Find
+        <div class="papers-search-shell">
+          <input
+            id="papers-search"
+            class="papers-search"
+            type="search"
+            placeholder={`Search ${lowerItemType}s`}
+            aria-label={`Search ${lowerItemType}s`}
+          />
+          <button
+            id="papers-search-clear"
+            class="papers-search-clear"
+            type="button"
+            aria-label="Clear search"
+          >
+            x
+          </button>
+        </div>
+      </label>
+
+      <label class="papers-control">
+        Search by
+        <select id="papers-search-field" class="papers-select">
+          <option value="any">any</option>
+          <option value="title">title</option>
+          <option value="keyword">keyword</option>
+          <option value="author">author</option>
+          <option value="session">session</option>
+        </select>
+      </label>
+
+      <label class="papers-control">
+        Sort by
+        <select id="papers-sort" class="papers-select">
+          <option value="title">title</option>
+          <option value="bookmarked">bookmarked first</option>
+          <option value="schedule">schedule</option>
+        </select>
+      </label>
+    </div>
+  </div>
+
+  <div class="papers-grid" id="papers-grid">
+    {
+      papers.map((paper) => {
+        const isBookmarked = false;
+
+        return (
+          <article
+            class="paper-card"
+            data-paper-card
+            data-paper-id={paper.id}
+            data-title={paper.title.toLowerCase()}
+            data-authors={paper.authorNames.join(",").toLowerCase()}
+            data-keywords={paper.keywordsLabel.toLowerCase()}
+            data-session={paper.sessionLabel.toLowerCase()}
+            data-start-ms={paper.startMs}
+          >
+            <div
+              class="paper-card__header"
+              style={`background-color: ${typeColors[paper.presentationLabel.toLowerCase()] || "#f3f4f6"}`}
+            >
+              <button
+                class="paper-bookmark"
+                type="button"
+                data-bookmark-toggle
+                aria-label="Add bookmark"
+                title="Add bookmark"
+                data-bookmarked={isBookmarked ? "true" : "false"}
+              >
+                <i class="material-icons" data-bookmark-icon>
+                  bookmark_border
+                </i>
+              </button>
+
+              <a
+                class="paper-title"
+                href={withBaseURL(`/program/${itemType}/${paper.id}`)}
+                style={`color: ${typeTextColors[paper.presentationLabel.toLowerCase()] || "#111827"}`}
+                data-paper-link
+              >
+                {paper.title}
+              </a>
+            </div>
+
+            <div class="paper-card__body">
+              <p class="paper-type">
+                {paperTypeToNameMap[paper.presentationLabel.toLowerCase()] ||
+                  paper.presentationLabel}
+              </p>
+              {paper.award && <p class="paper-award">Award: {paper.award}</p>}
+
+              <p class="paper-authors">
+                {paper.authorNames.length > 0
+                  ? paper.authorNames.map((authorName, authorIndex) => (
+                      <span>
+                        {authorIndex > 0 && <span>, </span>}
+                        <a
+                          class="paper-link"
+                          href={withBaseURL(
+                            `/program/papers?search=${encodeURIComponent(authorName)}`,
+                          )}
+                        >
+                          {authorName}
+                        </a>
+                      </span>
+                    ))
+                  : "Author list unavailable"}
+              </p>
+
+              <p class="paper-schedule">
+                {paper.sessionUrl ? (
+                  <a class="paper-link" href={paper.sessionUrl} data-visit-link>
+                    {paper.scheduleLabel}
+                  </a>
+                ) : (
+                  paper.scheduleLabel
+                )}
+                <a
+                  class="paper-link paper-session-search"
+                  href={withBaseURL(
+                    `/program/papers?search=${encodeURIComponent(paper.sessionLabel)}`,
+                  )}
+                  data-visit-link
+                >
+                  Search for papers in this session
+                </a>
+              </p>
+            </div>
+          </article>
+        );
+      })
+    }
+  </div>
+
+  <p id="papers-empty" class="papers-empty" hidden>
+    No papers match the current filters.
+  </p>
+</section>
+
+<script>
+  (() => {
+    const root = document.querySelector(".program-papers");
+    if (!root) return;
+
+    const bookmarkKey =
+      root.getAttribute("data-bookmark-key") || "program-papers-bookmarks";
+
+    const searchInput = root.querySelector<HTMLInputElement>("#papers-search");
+    const clearButton = root.querySelector<HTMLButtonElement>(
+      "#papers-search-clear",
+    );
+    const searchFieldSelect = root.querySelector<HTMLSelectElement>(
+      "#papers-search-field",
+    );
+    const sortSelect = root.querySelector<HTMLSelectElement>("#papers-sort");
+    const grid = root.querySelector<HTMLElement>("#papers-grid");
+    const emptyState = root.querySelector<HTMLElement>("#papers-empty");
+    const cards = Array.from(
+      root.querySelectorAll<HTMLElement>("[data-paper-card]"),
+    );
+    const params = new URLSearchParams(window.location.search);
+    const validSearchFields = new Set([
+      "any",
+      "title",
+      "keyword",
+      "author",
+      "session",
+    ]);
+    const validSortModes = new Set(["title", "bookmarked", "schedule"]);
+
+    const getStoredBookmarks = () => {
+      try {
+        const raw = localStorage.getItem(bookmarkKey);
+        if (!raw) return [];
+        const parsed = JSON.parse(raw);
+        return Array.isArray(parsed) ? parsed : [];
+      } catch {
+        return [];
+      }
+    };
+
+    const storeBookmarks = (bookmarks: string[]) => {
+      localStorage.setItem(bookmarkKey, JSON.stringify(bookmarks));
+    };
+
+    const bookmarks = new Set(getStoredBookmarks());
+
+    if (searchInput && params.get("search")) {
+      searchInput.value = params.get("search") || "";
+    }
+
+    if (
+      searchFieldSelect &&
+      validSearchFields.has(params.get("filter") || "")
+    ) {
+      searchFieldSelect.value = params.get("filter") || "any";
+    }
+
+    if (sortSelect && validSortModes.has(params.get("sort") || "")) {
+      sortSelect.value = params.get("sort") || "title";
+    }
+
+    const getSearchQuery = () =>
+      searchInput instanceof HTMLInputElement
+        ? searchInput.value.trim().toLowerCase()
+        : "";
+
+    const getSearchField = () =>
+      searchFieldSelect instanceof HTMLSelectElement && searchFieldSelect.value
+        ? searchFieldSelect.value
+        : "any";
+
+    const getSortMode = () =>
+      sortSelect instanceof HTMLSelectElement && sortSelect.value
+        ? sortSelect.value
+        : "title";
+
+    const syncUrlParams = () => {
+      const nextParams = new URLSearchParams(window.location.search);
+      const searchQuery = getSearchQuery();
+      const searchField = getSearchField();
+      const sortMode = getSortMode();
+
+      if (searchQuery) {
+        nextParams.set("search", searchQuery);
+      } else {
+        nextParams.delete("search");
+      }
+
+      if (searchField !== "any") {
+        nextParams.set("filter", searchField);
+      } else {
+        nextParams.delete("filter");
+      }
+
+      if (sortMode !== "title") {
+        nextParams.set("sort", sortMode);
+      } else {
+        nextParams.delete("sort");
+      }
+
+      const query = nextParams.toString();
+      const nextUrl = `${window.location.pathname}${query ? `?${query}` : ""}${window.location.hash}`;
+      history.replaceState(null, "", nextUrl);
+    };
+
+    const getFieldValue = (card: HTMLElement) => {
+      const field = getSearchField();
+      if (field === "title") return card.dataset.title || "";
+      if (field === "keyword") return card.dataset.keywords || "";
+      if (field === "author") return card.dataset.authors || "";
+      if (field === "session") return card.dataset.session || "";
+      return [
+        card.dataset.title || "",
+        card.dataset.authors || "",
+        card.dataset.keywords || "",
+        card.dataset.session || "",
+      ].join(" ");
+    };
+
+    const refreshBookmarkState = () => {
+      for (const card of cards) {
+        const paperId = card.getAttribute("data-paper-id");
+        const toggle = card.querySelector<HTMLButtonElement>(
+          "[data-bookmark-toggle]",
+        );
+        const icon = card.querySelector<HTMLElement>("[data-bookmark-icon]");
+        if (!paperId || !toggle) continue;
+
+        const bookmarked = bookmarks.has(paperId);
+        toggle.setAttribute(
+          "aria-label",
+          bookmarked ? "Remove bookmark" : "Add bookmark",
+        );
+        toggle.setAttribute(
+          "title",
+          bookmarked ? "Remove bookmark" : "Add bookmark",
+        );
+        toggle.setAttribute("data-bookmarked", String(bookmarked));
+        toggle.classList.toggle("is-bookmarked", bookmarked);
+        if (icon) {
+          icon.textContent = bookmarked ? "bookmark" : "bookmark_border";
+        }
+      }
+    };
+
+    const applyFilters = () => {
+      const query = getSearchQuery();
+      const sortMode = getSortMode();
+      const visibleCards = cards.filter((card) => {
+        const haystack = getFieldValue(card).toLowerCase();
+        return query.length === 0 || haystack.includes(query);
+      });
+
+      visibleCards.sort((a, b) => {
+        const aId = a.getAttribute("data-paper-id") || "";
+        const bId = b.getAttribute("data-paper-id") || "";
+
+        if (sortMode === "bookmarked") {
+          const delta = Number(bookmarks.has(bId)) - Number(bookmarks.has(aId));
+          if (delta !== 0) return delta;
+        }
+
+        if (sortMode === "schedule") {
+          const aStart = Number(
+            a.getAttribute("data-start-ms") || Number.MAX_SAFE_INTEGER,
+          );
+          const bStart = Number(
+            b.getAttribute("data-start-ms") || Number.MAX_SAFE_INTEGER,
+          );
+          if (aStart !== bStart) return aStart - bStart;
+        }
+
+        const aTitle = a.getAttribute("data-title") || "";
+        const bTitle = b.getAttribute("data-title") || "";
+        return aTitle.localeCompare(bTitle);
+      });
+
+      if (grid) {
+        for (const card of visibleCards) {
+          grid.appendChild(card);
+        }
+      }
+
+      for (const card of cards) {
+        card.hidden = !visibleCards.includes(card);
+      }
+
+      if (emptyState) {
+        emptyState.hidden = visibleCards.length > 0;
+      }
+
+      refreshBookmarkState();
+      syncUrlParams();
+    };
+
+    const toggleBookmark = (paperId: string) => {
+      if (bookmarks.has(paperId)) {
+        bookmarks.delete(paperId);
+      } else {
+        bookmarks.add(paperId);
+      }
+      storeBookmarks(Array.from(bookmarks));
+      refreshBookmarkState();
+    };
+
+    for (const card of cards) {
+      const paperId = card.getAttribute("data-paper-id");
+      const toggle = card.querySelector<HTMLButtonElement>(
+        "[data-bookmark-toggle]",
+      );
+
+      if (toggle && paperId) {
+        toggle.addEventListener("click", () => toggleBookmark(paperId));
+      }
+    }
+
+    if (searchInput instanceof HTMLInputElement) {
+      searchInput.addEventListener("input", applyFilters);
+    }
+
+    if (clearButton) {
+      clearButton.addEventListener("click", () => {
+        if (searchInput) {
+          searchInput.value = "";
+        }
+        applyFilters();
+      });
+    }
+
+    if (searchFieldSelect) {
+      searchFieldSelect.addEventListener("change", applyFilters);
+    }
+
+    if (sortSelect) {
+      sortSelect.addEventListener("change", applyFilters);
+    }
+
+    refreshBookmarkState();
+    applyFilters();
+  })();
+</script>
+
+<style>
+  .papers-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem;
+    border: 1px solid var(--color-gray-300);
+    border-radius: 10px;
+    background: linear-gradient(
+      135deg,
+      rgba(223, 104, 36, 0.08),
+      rgba(187, 74, 114, 0.08)
+    );
+  }
+
+  .papers-title {
+    margin: 0;
+    font-weight: 700;
+    color: var(--color-accent);
+  }
+
+  .papers-subtitle,
+  .papers-note {
+    margin: 0.3rem 0 0;
+    color: var(--color-gray-700);
+    font-size: 0.95rem;
+  }
+
+  .papers-controls {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(180px, 260px));
+    gap: 0.8rem;
+    align-items: end;
+  }
+
+  .papers-control {
+    display: grid;
+    gap: 0.3rem;
+    font-size: 0.85rem;
+    color: var(--color-gray-700);
+    font-weight: 600;
+  }
+
+  .papers-search-shell {
+    display: flex;
+    min-width: 0;
+    align-items: center;
+    overflow: hidden;
+    border: 1px solid var(--color-gray-400);
+    border-radius: 8px;
+    background: white;
+  }
+
+  .papers-search,
+  .papers-select {
+    width: 100%;
+    border: 0;
+    background: transparent;
+    padding: 0.45rem 0.6rem;
+    font-size: 0.95rem;
+    color: var(--color-gray-900);
+  }
+
+  .papers-search-clear {
+    border: 0;
+    border-left: 1px solid var(--color-gray-300);
+    background: white;
+    padding: 0.45rem 0.7rem;
+    color: var(--color-gray-600);
+    cursor: pointer;
+  }
+
+  .papers-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    justify-content: space-between;
+  }
+
+  .paper-card {
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 0.75rem;
+    border: 1px solid var(--color-gray-300);
+    border-radius: 0.5rem;
+    background: white;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    transition:
+      color 120ms ease,
+      box-shadow 120ms ease;
+  }
+
+  @media (min-width: 768px) {
+    .paper-card {
+      width: 24rem;
+      flex: none;
+      min-height: 24rem;
+    }
+  }
+
+  .paper-card:hover {
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+  }
+
+  .paper-card__header {
+    position: relative;
+    padding: 1rem;
+    background: var(--color-accent-secondaryBackground);
+    height: 200px;
+  }
+
+  .paper-bookmark {
+    position: absolute;
+    right: 0.375rem;
+    top: 0.375rem;
+    border: 0;
+    background: transparent;
+    color: var(--color-accent);
+    cursor: pointer;
+  }
+
+  .paper-title {
+    display: block;
+    padding-right: 1.75rem;
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    line-height: 1.2;
+    color: black;
+    text-decoration: none;
+    border-bottom: 0 !important;
+  }
+
+  .paper-card__body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0 1rem 1rem;
+  }
+
+  .paper-type {
+    margin: 0;
+    color: var(--color-accent);
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+
+  .paper-award,
+  .paper-authors,
+  .paper-schedule {
+    margin: 0;
+    color: var(--color-gray-700);
+    font-size: 0.9rem;
+  }
+
+  .paper-schedule {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-weight: 700;
+    color: var(--color-primary-800);
+  }
+
+  .paper-link {
+    border-bottom: 0 !important;
+    color: var(--color-primary);
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    decoration-offset: 2px;
+    decoration-thickness: 2000px;
+    /* /* text-underline-offset: 0.2em; */
+  }
+
+  .paper-session-search {
+    margin-top: 0.25rem;
+  }
+
+  .papers-empty {
+    margin: 0;
+    border: 1px dashed var(--color-gray-400);
+    border-radius: 10px;
+    padding: 1rem;
+    color: var(--color-gray-700);
+    background: #fcfcfc;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  @media (max-width: 900px) {
+    .papers-controls {
+      grid-template-columns: 1fr;
+      width: 100%;
+    }
+  }
+</style>

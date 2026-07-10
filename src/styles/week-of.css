@@ -125,6 +125,7 @@
 
 .sessions-day-content {
   display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0.65rem;
   padding: 0.75rem;
   align-content: start;
@@ -713,6 +714,7 @@
 
 .calendar-day-content {
   display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0.65rem;
   padding: 0.75rem;
   align-content: start;
@@ -777,6 +779,13 @@
   .calendar-controls {
     grid-template-columns: 1fr;
     width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .sessions-day-content,
+  .calendar-day-content {
+    grid-template-columns: 1fr;
   }
 }
 

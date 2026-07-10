@@ -20,3 +20,26 @@ export const typeColors: Record<string, string> = {
   capstone: "#FDBB30",
   industry: "#FDBB30",
 };
+
+export const typeTextColors: Record<string, string> = {
+  full: "#ffffff",
+  short: "#111827",
+  panel: "#ffffff",
+  workshop: "#ffffff",
+  tutorial: "#ffffff",
+  vis: "#ffffff",
+  poster: "#ffffff",
+  invited: "#ffffff",
+  visap: "#ffffff",
+  challenges: "#ffffff",
+  symposium: "#ffffff",
+  associated: "#ffffff",
+  meetup: "#ffffff",
+  live: "#ffffff",
+  application: "#ffffff",
+  memorial: "#ffffff",
+  supporter: "#ffffff",
+  keynote: "#ffffff",
+  capstone: "#ffffff",
+  industry: "#ffffff",
+};
