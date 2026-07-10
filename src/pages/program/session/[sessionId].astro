@@ -83,17 +83,20 @@ const frontmatter = {
 ---
 
 <PageLayout frontmatter={frontmatter}>
+  <section>
+    <h1>{eventTypeLabel}: {session.title}</h1>
+  </section>
   <section class="program-event-page">
     <p class="program-event-meta">
-      <strong>Session chair:</strong>
+      <strong class="mr-2">Session chair:</strong>
       {session.chair?.join(", ") || "TBA"}
     </p>
     <p class="program-event-meta">
-      <strong>Room:</strong>
+      <strong class="mr-2">Room:</strong>
       {session.room_name || "TBA"}
     </p>
     <p class="program-event-meta">
-      <strong>Time:</strong>
+      <strong class="mr-2">Time:</strong>
       {formatSessionDateTime(session.time_start, session.time_end)}
     </p>
 

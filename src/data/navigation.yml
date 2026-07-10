@@ -228,112 +228,50 @@ menu:
                     is_new: false
 
   # ---------------------------------------------------------------------------
-  - dropdown: "Old Program"
-    display: true
-    sections:
-      - subsections:
-          - heading: "Vis Program"
-            heading_url: "/info/program/week-at-a-glance"
-            columns:
-              - links:
-                  - text: "Week at a Glance"
-                    description: "Preliminary overview of the conference week"
-                    url: "/info/program/week-at-a-glance"
-                    is_new: false
-                  - text: "Sessions"
-                    description: "List of all sessions and events"
-                    url: "/program/sessions"
-                    is_new: true
-                  - text: "Calendar"
-                    description: "Detailed calendar of the conference"
-                    url: "/program/calendar"
-                    is_new: true
-                  - text: "Papers"
-                    description: "Paper sessions"
-                    url: "/info/program/papers_list"
-                    is_new: false
-                  - text: "Posters"
-                    description: "Nascent and recent work"
-                    url: "/info/program/posters"
-                    is_new: false
-                  - text: "Panels"
-                    description: "Discuss important and controversial issues"
-                    url: "/info/program/panels"
-                    is_new: false
-                  - text: "Workshops"
-                    description: "Informal setting to discuss emerging topics"
-                    url: "/info/program/workshops"
-                    is_new: false
-                  - text: "Tutorials"
-                    description: "Learn new tools and application domains"
-                    url: "/info/program/tutorials"
-                    is_new: false
-                  - text: "Meetups"
-                    description: "Meet for discussions and shared experiences"
-                    url: "/info/program/meetups"
-                    is_new: false
-          - heading: "Plenary Sessions"
-            heading_url: "/info/plenary/summary"
-            columns:
-              - links:
-                  - text: "Vis Townhall"
-                    url: "/info/plenary/townhall"
-                    description: "Engage with the VIS community, internal and external"
-                    is_new: false
-      - subsections:
-          - heading: "Invited Speakers"
-            heading_url: "/info/invited-speakers/summary"
-            columns:
-              - links:
-                  - text: "Keynote"
-                    description: "Hans-Christian Hege"
-                    url: "/info/invited-speakers/keynote-speaker"
-                    is_new: false
-                  - text: "Capstone"
-                    description: "Theo Deutinger"
-                    url: "/info/invited-speakers/capstone-speaker"
-                    is_new: false
-          - heading: "Awards and Recognitions"
-            heading_url: "/info/awards/summary"
-            columns:
-              - links:
-                  - text: "Best Paper/Poster Awards"
-                    description: "Recognizing outstanding work"
-                    url: "/info/awards/best-paper-awards"
-                    is_new: false
-                  - text: "VGTC VIS Awards"
-                    description: "Awarding members of the VIS community"
-                    url: "/info/awards/vgtc-awards"
-                    is_new: false
-                  - text: "Test of Time Awards"
-                    description: "Recognized articles whose contents are still useful"
-                    url: "/info/awards/test-of-time-awards"
-                    is_new: false
-      - subsections:
-          - heading: "Social Events"
-            heading_url: "/info/social-events/summary"
-            columns:
-              - links:
-                  - text: "Welcome Reception"
-                    description: "Natural History Museum Vienna"
-                    url: "/info/social-events/welcome-reception"
-                    is_new: false
-                  - text: "Poster Session"
-                    description: "Austria Center Vienna"
-                    url: "/info/social-events/poster-session"
-                    is_new: false
-                  - text: "Conference Dinner"
-                    description: "Austria Center Vienna"
-                    url: "/info/social-events/conference-dinner"
-                    is_new: false
-                  - text: "VISAP Exhibition"
-                    description: "University of Applied Arts"
-                    url: "/info/social-events/visap-exhibition"
-                    is_new: false
-                  - text: "OC Dinner"
-                    description: "Melker Stiftskeller"
-                    url: "/info/social-events/oc-dinner"
-                    is_new: false
+  # - dropdown: "Old Program"
+  #   display: true
+  #   sections:
+  #     - subsections:
+  #         - heading: "Vis Program"
+  #           heading_url: "/info/program/week-at-a-glance"
+  #           columns:
+  #             - links:
+  #                 - text: "Week at a Glance"
+  #                   description: "Preliminary overview of the conference week"
+  #                   url: "/info/program/week-at-a-glance"
+  #                   is_new: false
+  #                 - text: "Sessions"
+  #                   description: "List of all sessions and events"
+  #                   url: "/program/sessions"
+  #                   is_new: true
+  #                 - text: "Calendar"
+  #                   description: "Detailed calendar of the conference"
+  #                   url: "/program/calendar"
+  #                   is_new: true
+  #                 - text: "Papers"
+  #                   description: "Paper sessions"
+  #                   url: "/info/program/papers_list"
+  #                   is_new: false
+  #                 - text: "Posters"
+  #                   description: "Nascent and recent work"
+  #                   url: "/info/program/posters"
+  #                   is_new: false
+  #                 - text: "Panels"
+  #                   description: "Discuss important and controversial issues"
+  #                   url: "/info/program/panels"
+  #                   is_new: false
+  #                 - text: "Workshops"
+  #                   description: "Informal setting to discuss emerging topics"
+  #                   url: "/info/program/workshops"
+  #                   is_new: false
+  #                 - text: "Tutorials"
+  #                   description: "Learn new tools and application domains"
+  #                   url: "/info/program/tutorials"
+  #                   is_new: false
+  #                 - text: "Meetups"
+  #                   description: "Meet for discussions and shared experiences"
+  #                   url: "/info/program/meetups"
+  #                   is_new: false
 
   # ---------------------------------------------------------------------------
   - dropdown: "Events & Community"
@@ -498,18 +436,22 @@ menu:
             # heading_url: "/info/program/week-at-a-glance"
             columns:
               - links:
-                  # - text: "Week at a Glance"
-                  #   description: "Preliminary overview of the conference week"
-                  #   url: "/info/program/week-at-a-glance"
-                  #   is_new: false
                   # - text: "Papers"
                   #   description: "Paper sessions"
                   #   url: "/info/program/papers_list"
                   #   is_new: false
-                  - text: "Sessions"
-                    description: "List of all sessions and events"
-                    url: "/program/sessions"
-                    is_new: true
+                  # - text: "Week at a Glance"
+                  #   description: "Preliminary overview of the conference week"
+                  #   url: "/info/program/week-at-a-glance"
+                  #   is_new: false
+                  # - text: "Sessions"
+                  #   description: "List of all sessions and events"
+                  #   url: "/program/sessions"
+                  #   is_new: true
+                  # - text: "Calendar"
+                  #   description: "Detailed calendar of the conference"
+                  #   url: "/program/calendar"
+                  #   is_new: true
                   # - text: "Posters"
                   #   description: "Nascent and recent work"
                   #   url: "/info/program/posters"
