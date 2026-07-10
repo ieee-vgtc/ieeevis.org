@@ -1,0 +1,143 @@
+---
+type DayOption = {
+  value: string;
+  label: string;
+};
+
+type TypeOption = {
+  value: string;
+  label: string;
+  count: number;
+  color?: string;
+};
+
+interface Props {
+  prefix: string;
+  title: string;
+  subtitleBefore: string;
+  subtitleAfter?: string;
+  showTimezoneDescription?: boolean;
+  groupingNote?: string;
+  timezoneLabel: string;
+  timezoneSelectId: string;
+  dayLabel: string;
+  daySelectId: string;
+  searchLabel: string;
+  searchInputId: string;
+  searchPlaceholder: string;
+  dayOptions: DayOption[];
+  typeOptions: TypeOption[];
+  allCount: number;
+  allLabel?: string;
+  allDayLabel?: string;
+  filterBarLabel?: string;
+}
+
+const {
+  prefix,
+  title,
+  subtitleBefore,
+  subtitleAfter = ".",
+  showTimezoneDescription = true,
+  groupingNote,
+  timezoneLabel,
+  timezoneSelectId,
+  dayLabel,
+  daySelectId,
+  searchLabel,
+  searchInputId,
+  searchPlaceholder,
+  dayOptions,
+  typeOptions,
+  allCount,
+  allLabel = "All",
+  allDayLabel = "All conference days",
+  filterBarLabel = "Session type filters",
+} = Astro.props as Props;
+
+const className = (suffix: string) => `${prefix}-${suffix}`;
+---
+
+<div class={className("toolbar")}>
+  <div>
+    <p class={className("title")}>{title}</p>
+    <p class={className("subtitle")}>
+      {subtitleBefore}
+      {
+        showTimezoneDescription && (
+          <span class="js-tz-description"> conference timezone </span>
+        )
+      }
+      {subtitleAfter}
+    </p>
+    {
+      groupingNote !== undefined && (
+        <p class={`${className("grouping-note")} js-day-grouping-note`}>
+          {groupingNote}
+        </p>
+      )
+    }
+  </div>
+
+  <div class={className("controls")}>
+    <label class={className("control")}>
+      {timezoneLabel}
+      <select id={timezoneSelectId} class={className("select")}>
+        <option value="conference">Conference timezone</option>
+        <option value="local">My local timezone</option>
+        <option value="both">Conference and local</option>
+      </select>
+    </label>
+
+    <label class={className("control")}>
+      {dayLabel}
+      <select id={daySelectId} class={className("select")}>
+        <option value="all">{allDayLabel}</option>
+        {
+          dayOptions.map((dayOption) => (
+            <option value={dayOption.value}>{dayOption.label}</option>
+          ))
+        }
+      </select>
+    </label>
+
+    <label class={className("control")}>
+      {searchLabel}
+      <input
+        id={searchInputId}
+        class={className("search")}
+        type="search"
+        placeholder={searchPlaceholder}
+        aria-label={searchLabel}
+      />
+    </label>
+  </div>
+</div>
+
+<div class={className("filter-bar")} role="toolbar" aria-label={filterBarLabel}>
+  <button
+    class={`${className("filter-pill")} is-active`}
+    type="button"
+    data-type-filter="all"
+    style="--pill-color: #374151"
+    aria-pressed="true"
+  >
+    <span>{allLabel}</span>
+    <span class={className("filter-count")}>{allCount}</span>
+  </button>
+
+  {
+    typeOptions.map((typeOption) => (
+      <button
+        class={className("filter-pill")}
+        type="button"
+        data-type-filter={typeOption.value}
+        style={`--pill-color: ${typeOption.color || "#6b7280"}`}
+        aria-pressed="false"
+      >
+        <span>{typeOption.label}</span>
+        <span class={className("filter-count")}>{typeOption.count}</span>
+      </button>
+    ))
+  }
+</div>

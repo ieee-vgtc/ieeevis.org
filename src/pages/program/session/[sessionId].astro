@@ -47,14 +47,14 @@ const presentations = [...session.time_slots].sort(
 );
 
 const sessionDateFormatter = new Intl.DateTimeFormat("en-US", {
-  timeZone: "Europe/Vienna",
+  timeZone: "US/Eastern",
   weekday: "long",
   month: "short",
   day: "numeric",
 });
 
 const timeFormatter = new Intl.DateTimeFormat("en-US", {
-  timeZone: "Europe/Vienna",
+  timeZone: "US/Eastern",
   hour: "2-digit",
   minute: "2-digit",
   hour12: false,
@@ -69,7 +69,7 @@ function formatSlotRange(startISO: string, endISO: string) {
 function formatSessionDateTime(startISO: string, endISO: string) {
   const start = new Date(startISO);
   const end = new Date(endISO);
-  return `${sessionDateFormatter.format(start)} @ ${timeFormatter.format(start)} - ${timeFormatter.format(end)} (Europe/Vienna)`;
+  return `${sessionDateFormatter.format(start)} @ ${timeFormatter.format(start)} - ${timeFormatter.format(end)} (US/Eastern)`;
 }
 
 const eventTypeLabel = getProgramEventTypeLabel(event.event_type || "other");

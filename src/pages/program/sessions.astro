@@ -1,10 +1,12 @@
 ---
 import PageLayout from "../../layouts/PageLayout.astro";
+import ProgramHeader from "../../components/ProgramHeader.astro";
 import { fetchAllSessions } from "../../utils/paperData";
 import { withBaseURL } from "../../utils/withBaseURL";
 import { getProgramEventTypeLabel } from "../../utils/programEventTypeLabel";
+import { typeColors } from "../../utils/week-of-utils";
 
-const CONFERENCE_TIME_ZONE = "Europe/Vienna";
+const CONFERENCE_TIME_ZONE = "US/Eastern";
 
 type SessionListItem = {
   id: string;
@@ -20,29 +22,6 @@ type SessionListItem = {
   endISO: string;
   startMs: number;
   searchText: string;
-};
-
-const typeColors: Record<string, string> = {
-  full: "#1C3160",
-  short: "#FDBB30",
-  panel: "#A20A35",
-  workshop: "#f4a261",
-  tutorial: "#A20A35",
-  vis: "#FDBB30",
-  poster: "#1C3160",
-  invited: "#1C3160",
-  visap: "#2672B9",
-  challenges: "#2672B9",
-  symposium: "#2672B9",
-  associated: "#2672B9",
-  meetup: "#A20A35",
-  live: "#A20A35",
-  application: "#F15722",
-  memorial: "#FDBB30",
-  supporter: "#FDBB30",
-  keynote: "#FDBB30",
-  capstone: "#FDBB30",
-  industry: "#FDBB30",
 };
 
 function getDateParts(date: Date, timeZone: string) {
@@ -141,6 +120,18 @@ const typeCounts = sessions.reduce<Record<string, number>>((acc, session) => {
 
 const sortedTypes = Object.keys(typeCounts).sort((a, b) => a.localeCompare(b));
 
+const dayOptions = dayGroups.map((dayGroup) => ({
+  value: dayGroup.dayKey,
+  label: `${dayGroup.weekdayLabel}, ${dayGroup.dateLabel}`,
+}));
+
+const typeOptions = sortedTypes.map((sessionType) => ({
+  value: sessionType,
+  label: getProgramEventTypeLabel(sessionType),
+  count: typeCounts[sessionType],
+  color: typeColors[sessionType] || "#6b7280",
+}));
+
 const frontmatter = {
   title: "All Sessions",
   active_nav: "All Sessions",
@@ -155,83 +146,23 @@ const frontmatter = {
     data-conference-timezone={CONFERENCE_TIME_ZONE}
     data-local-storage-key="program-sessions-timezone-mode"
   >
-    <div class="sessions-toolbar">
-      <div>
-        <p class="sessions-title">Conference Sessions</p>
-        <p class="sessions-subtitle">
-          Grouped by conference days. Times are rendered in
-          <span class="js-tz-description"> conference timezone </span>.
-        </p>
-      </div>
-
-      <div class="sessions-controls">
-        <label class="sessions-control">
-          Timezone display
-          <select id="timezone-mode" class="sessions-select">
-            <option value="conference">Conference timezone</option>
-            <option value="local">My local timezone</option>
-            <option value="both">Conference and local</option>
-          </select>
-        </label>
-
-        <label class="sessions-control">
-          Day view
-          <select id="day-filter" class="sessions-select">
-            <option value="all">All conference days</option>
-            {
-              dayGroups.map((dayGroup) => (
-                <option value={dayGroup.dayKey}>
-                  {dayGroup.weekdayLabel}, {dayGroup.dateLabel}
-                </option>
-              ))
-            }
-          </select>
-        </label>
-
-        <label class="sessions-control">
-          Search sessions
-          <input
-            id="sessions-search"
-            class="sessions-search"
-            type="search"
-            placeholder="Search title, room, event, chair"
-            aria-label="Search sessions"
-          />
-        </label>
-      </div>
-    </div>
-
-    <div
-      class="sessions-filter-bar"
-      role="toolbar"
-      aria-label="Session type filters"
-    >
-      <button
-        class="sessions-filter-pill is-active"
-        type="button"
-        data-type-filter="all"
-        style="--pill-color: #374151"
-        aria-pressed="true"
-      >
-        <span>All</span>
-        <span class="sessions-filter-count">{sessions.length}</span>
-      </button>
-
-      {
-        sortedTypes.map((sessionType) => (
-          <button
-            class="sessions-filter-pill"
-            type="button"
-            data-type-filter={sessionType}
-            style={`--pill-color: ${typeColors[sessionType] || "#6b7280"}`}
-            aria-pressed="false"
-          >
-            <span>{getProgramEventTypeLabel(sessionType)}</span>
-            <span class="sessions-filter-count">{typeCounts[sessionType]}</span>
-          </button>
-        ))
-      }
-    </div>
+    <ProgramHeader
+      prefix="sessions"
+      title="Conference Sessions"
+      subtitleBefore="Grouped by conference days. Times are rendered in"
+      subtitleAfter="."
+      timezoneLabel="Timezone display"
+      timezoneSelectId="timezone-mode"
+      dayLabel="Day view"
+      daySelectId="day-filter"
+      searchLabel="Search sessions"
+      searchInputId="sessions-search"
+      searchPlaceholder="Search title, room, event, chair"
+      dayOptions={dayOptions}
+      typeOptions={typeOptions}
+      allCount={sessions.length}
+      filterBarLabel="Session type filters"
+    />
 
     <div class="sessions-day-list">
       {
@@ -336,6 +267,35 @@ const frontmatter = {
       const ALL_FILTER = "all";
       let activeTypeFilter = ALL_FILTER;
 
+      const getSelectValue = (
+        element: Element | null,
+        fallback: string,
+      ): string =>
+        element instanceof HTMLSelectElement && element.value
+          ? element.value
+          : fallback;
+
+      const getSearchQuery = (): string =>
+        searchInput instanceof HTMLInputElement
+          ? searchInput.value.trim().toLowerCase()
+          : "";
+
+      const cardMatchesFilters = (
+        card: HTMLElement,
+        selectedDay: string,
+        query: string,
+      ): boolean => {
+        const type = card.dataset.type || "";
+        const dayKey = card.dataset.dayGroup || "";
+        const search = card.dataset.search || "";
+
+        return (
+          (activeTypeFilter === ALL_FILTER || activeTypeFilter === type) &&
+          (selectedDay === "all" || dayKey === selectedDay) &&
+          (query === "" || search.includes(query))
+        );
+      };
+
       const isSameDayFormatter = (timeZone: string) =>
         new Intl.DateTimeFormat("en-CA", {
           timeZone,
@@ -374,15 +334,9 @@ const frontmatter = {
         return `${dateFormatter(timeZone).format(startDate)} ${timeFormatter(timeZone).format(startDate)} - ${dateFormatter(timeZone).format(endDate)} ${timeFormatter(timeZone).format(endDate)}`;
       };
 
-      const getMode = () => {
-        if (!(timezoneSelect instanceof HTMLSelectElement)) return "conference";
-        return timezoneSelect.value || "conference";
-      };
+      const getMode = () => getSelectValue(timezoneSelect, "conference");
 
-      const getSelectedDay = () => {
-        if (!(dayFilterSelect instanceof HTMLSelectElement)) return "all";
-        return dayFilterSelect.value || "all";
-      };
+      const getSelectedDay = () => getSelectValue(dayFilterSelect, "all");
 
       const formatRangeForMode = (startISO: string, endISO: string) => {
         const mode = getMode();
@@ -426,9 +380,7 @@ const frontmatter = {
 
       const refreshFilterButtonState = () => {
         for (const button of filterButtons) {
-          const buttonType = button.getAttribute("data-type-filter");
-          const isActive =
-            buttonType !== null ? activeTypeFilter === buttonType : false;
+          const isActive = button.dataset.typeFilter === activeTypeFilter;
           button.setAttribute("aria-pressed", String(isActive));
           button.classList.toggle("is-active", isActive);
         }
@@ -436,40 +388,29 @@ const frontmatter = {
 
       const applyFilters = () => {
         const selectedDay = getSelectedDay();
-        const query =
-          searchInput instanceof HTMLInputElement && searchInput.value
-            ? searchInput.value.trim().toLowerCase()
-            : "";
+        const query = getSearchQuery();
+        let visibleCount = 0;
 
         for (const card of cards) {
-          const type = card.getAttribute("data-type");
-          const dayKey = card.getAttribute("data-day-group");
-          const search = card.getAttribute("data-search") || "";
-          const typeMatch =
-            activeTypeFilter === ALL_FILTER ||
-            (type !== null && activeTypeFilter === type);
-          const dayMatch = selectedDay === "all" || dayKey === selectedDay;
-          const textMatch = query.length === 0 || search.includes(query);
-          card.hidden = !(typeMatch && textMatch && dayMatch);
+          const visible = cardMatchesFilters(card, selectedDay, query);
+          card.hidden = !visible;
+          if (visible) visibleCount += 1;
         }
 
-        let visibleTotal = 0;
         for (const group of dayGroups) {
-          const visibleCards = group.querySelectorAll(
+          group.hidden = !group.querySelector(
             "[data-session-card]:not([hidden])",
           );
-          group.hidden = visibleCards.length === 0;
-          visibleTotal += visibleCards.length;
         }
 
         if (emptyState) {
-          emptyState.hidden = visibleTotal !== 0;
+          emptyState.hidden = visibleCount > 0;
         }
       };
 
       for (const button of filterButtons) {
         button.addEventListener("click", () => {
-          const buttonType = button.getAttribute("data-type-filter");
+          const buttonType = button.dataset.typeFilter;
           if (!buttonType) return;
           activeTypeFilter = buttonType;
           refreshFilterButtonState();
@@ -519,7 +460,7 @@ const frontmatter = {
       if (
         urlTypeParam &&
         filterButtons.some(
-          (b) => b.getAttribute("data-type-filter") === urlTypeParam,
+          (button) => button.dataset.typeFilter === urlTypeParam,
         )
       ) {
         activeTypeFilter = urlTypeParam;
@@ -530,223 +471,4 @@ const frontmatter = {
       applyFilters();
     })();
   </script>
-
-  <style>
-    .program-sessions {
-      display: grid;
-      gap: 1rem;
-    }
-
-    .sessions-toolbar {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      gap: 1rem;
-      padding: 1rem;
-      border: 1px solid var(--color-gray-300);
-      border-radius: 10px;
-      background: linear-gradient(
-        135deg,
-        rgba(223, 104, 36, 0.08),
-        rgba(187, 74, 114, 0.08)
-      );
-    }
-
-    .sessions-title {
-      margin: 0;
-      font-weight: 700;
-      color: var(--color-accent);
-    }
-
-    .sessions-subtitle {
-      margin: 0.3rem 0 0;
-      color: var(--color-gray-700);
-      font-size: 0.95rem;
-    }
-
-    .sessions-controls {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(180px, 260px));
-      gap: 0.8rem;
-      align-items: end;
-    }
-
-    .sessions-control {
-      display: grid;
-      gap: 0.3rem;
-      font-size: 0.85rem;
-      color: var(--color-gray-700);
-      font-weight: 600;
-    }
-
-    .sessions-select,
-    .sessions-search {
-      width: 100%;
-      border: 1px solid var(--color-gray-400);
-      border-radius: 8px;
-      padding: 0.45rem 0.6rem;
-      background-color: white;
-      font-size: 0.95rem;
-      color: var(--color-gray-900);
-    }
-
-    .sessions-filter-bar {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.5rem;
-    }
-
-    .sessions-filter-pill {
-      border: 1px solid var(--pill-color);
-      color: var(--pill-color);
-      background: white;
-      border-radius: 999px;
-      padding: 0.3rem 0.75rem;
-      font-size: 0.85rem;
-      display: inline-flex;
-      align-items: center;
-      gap: 0.45rem;
-      cursor: pointer;
-      transition: all 120ms ease;
-    }
-
-    .sessions-filter-pill:hover {
-      transform: translateY(-1px);
-    }
-
-    .sessions-filter-pill.is-active {
-      color: white;
-      background: var(--pill-color);
-    }
-
-    .sessions-filter-count {
-      font-weight: 700;
-      opacity: 0.9;
-    }
-
-    .sessions-day-list {
-      display: grid;
-      gap: 0.9rem;
-    }
-
-    .sessions-day {
-      border: 1px solid var(--color-gray-300);
-      border-radius: 10px;
-      background: white;
-      min-width: 0;
-      display: flex;
-      flex-direction: column;
-      overflow: hidden;
-    }
-
-    .sessions-day-header {
-      border-bottom: 1px solid var(--color-gray-300);
-      padding: 0.85rem 1rem;
-      background: #fafafa;
-    }
-
-    .sessions-day-header h2 {
-      margin: 0;
-      font-size: 1rem;
-      color: var(--color-accent);
-    }
-
-    .sessions-day-header p {
-      margin: 0.2rem 0 0;
-      color: var(--color-gray-700);
-      font-size: 0.9rem;
-    }
-
-    .sessions-day-content {
-      display: grid;
-      gap: 0.65rem;
-      padding: 0.75rem;
-      align-content: start;
-    }
-
-    .session-card {
-      appearance: none;
-      font: inherit;
-      text-align: left;
-      cursor: pointer;
-      border: 1px solid var(--color-gray-300);
-      border-left: 4px solid var(--session-accent);
-      border-radius: 8px;
-      padding: 0.75rem;
-      background: #fff;
-      display: grid;
-      gap: 0.35rem;
-      color: inherit;
-      text-decoration: none;
-      transition:
-        transform 90ms ease,
-        box-shadow 90ms ease;
-    }
-
-    .session-card:hover {
-      transform: translateY(-1px);
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-    }
-
-    .session-card:focus-visible {
-      outline: 2px solid color-mix(in srgb, var(--session-accent), #17325f 35%);
-      outline-offset: 0;
-    }
-
-    .session-card-time {
-      margin: 0;
-      font-size: 0.82rem;
-      font-weight: 700;
-      color: var(--color-gray-700);
-    }
-
-    .session-card h3 {
-      margin: 0;
-      font-size: 0.98rem;
-      line-height: 1.3;
-      color: var(--color-gray-900);
-    }
-
-    .session-card-meta,
-    .session-card-room,
-    .session-card-chair {
-      margin: 0;
-      font-size: 0.86rem;
-      color: var(--color-gray-700);
-    }
-
-    .session-card-meta {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.35rem;
-      align-items: center;
-    }
-
-    .session-card-type {
-      display: inline-block;
-      text-transform: uppercase;
-      font-size: 0.72rem;
-      letter-spacing: 0.04em;
-      font-weight: 800;
-      color: var(--session-accent);
-    }
-
-    .sessions-empty-state {
-      margin: 0;
-      border: 1px dashed var(--color-gray-400);
-      border-radius: 10px;
-      padding: 1rem;
-      color: var(--color-gray-700);
-      background: #fcfcfc;
-      text-align: center;
-      font-weight: 600;
-    }
-
-    @media (max-width: 900px) {
-      .sessions-controls {
-        grid-template-columns: 1fr;
-        width: 100%;
-      }
-    }
-  </style>
 </PageLayout>

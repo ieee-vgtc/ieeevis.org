@@ -24,5 +24,7 @@
 
 @import "./city-info";
 
+@import "./week-of";
+
 /* Utilities*/
 /* @import "tailwindcss/utilities"; */
