@@ -13,10 +13,8 @@
     "check-frontmatter": "vite-node src/scripts/check-frontmatter.ts"
   },
   "devDependencies": {
-    "@types/react": "^19.1.2",
-    "@types/react-dom": "^19.1.2",
-    "astro-broken-links-checker": "^1.1.0",
-    "gray-matter": "^4.0.3",
+    "@types/react": "^18.3.24",
+    "@types/react-dom": "^18.3.7",
     "husky": "^9.1.7",
     "lint-staged": "^16.2.7",
     "prettier": "^3.7.4",
