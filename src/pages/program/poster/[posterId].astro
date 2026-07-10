@@ -1,18 +1,18 @@
 ---
-import type { ProgramPaperList } from "../../../types/program";
 import PageLayout from "../../../layouts/PageLayout.astro";
-import posterListData from "../../../data/program_test/poster_list.json";
+import { fetchAllPosters } from "../../../utils/paperData";
 
 export async function getStaticPaths() {
-  const posters: ProgramPaperList = posterListData;
-  return posters.map((poster) => ({
-    params: { posterId: poster.id },
-  }));
+  const posterListData = await fetchAllPosters();
+  return posterListData.map((poster) => {
+    return {
+      params: { posterId: poster.id },
+      props: { poster },
+    };
+  });
 }
 
-const posters: ProgramPaperList = posterListData;
-const { posterId } = Astro.params;
-const poster = posters.find((p) => p.id === posterId);
+const { poster } = Astro.props;
 
 if (!poster) {
   return new Response(null, { status: 404 });

@@ -7,6 +7,7 @@ export const features = {
   weekOfVis: {
     enabled: false,
     showcaseEnabled: false,
+    useLocalSources: true,
     sources: {
       paper:
         "https://raw.githubusercontent.com/ieee-vgtc/vis-virtual-website/vis2025/sitedata/2025/paper_list.json",
@@ -14,7 +15,11 @@ export const features = {
         "https://raw.githubusercontent.com/ieee-vgtc/vis-virtual-website/vis2025/sitedata/2025/session_list.json",
       poster:
         "https://raw.githubusercontent.com/ieee-vgtc/vis-virtual-website/vis2025/sitedata/2025/poster_list.json",
-      // dataSource: '/data/papers/paper_list.json'
+    },
+    localSources: {
+      paper: "/src/data/program_test/paper_list.json",
+      session: "/src/data/program_test/session_list.json",
+      poster: "/src/data/program_test/poster_list.json",
     },
   },
 
