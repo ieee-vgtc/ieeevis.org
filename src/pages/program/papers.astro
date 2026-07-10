@@ -1,14 +1,9 @@
 ---
 import PageLayout from "../../layouts/PageLayout.astro";
-import paperListData from "../../data/program_test/paper_list.json";
-import sessionListData from "../../data/program_test/session_list.json";
+import { fetchAllPapers, fetchAllSessions } from "../../utils/paperData";
 import { withBaseURL } from "../../utils/withBaseURL";
 import ProgramPapersBrowser from "../../components/ProgramPapersBrowser";
-import type {
-  ProgramSessionList,
-  ProgramTimeSlot,
-  ProgramSubmission,
-} from "../../types/program";
+import type { ProgramTimeSlot } from "../../types/program";
 import type { ProgramPaperCard } from "../../components/ProgramPapersBrowser";
 
 const CONFERENCE_TIME_ZONE = "Europe/Vienna";
@@ -38,7 +33,7 @@ const normalizeText = (value: string | null | undefined) =>
   (value || "").trim();
 
 const slotMetadataByPaperId = new Map<string, PaperSessionMeta>();
-const sessionList = sessionListData as unknown as ProgramSessionList;
+const sessionList = await fetchAllSessions();
 
 for (const event of Object.values(sessionList)) {
   for (const session of event.sessions) {
@@ -64,7 +59,7 @@ for (const event of Object.values(sessionList)) {
   }
 }
 
-const papers = paperListData as unknown as ProgramSubmission[];
+const papers = await fetchAllPapers();
 
 const paperCards: ProgramPaperCard[] = papers.map((paper) => {
   const linkedSlot = slotMetadataByPaperId.get(paper.id);

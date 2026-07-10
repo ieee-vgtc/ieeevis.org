@@ -1,14 +1,9 @@
 ---
 import PageLayout from "../../layouts/PageLayout.astro";
-import posterListData from "../../data/program_test/poster_list.json";
-import sessionListData from "../../data/program_test/session_list.json";
+import { fetchAllSessions, fetchAllPosters } from "../../utils/paperData";
 import { withBaseURL } from "../../utils/withBaseURL";
 import ProgramPapersBrowser from "../../components/ProgramPapersBrowser";
-import type {
-  ProgramSessionList,
-  ProgramTimeSlot,
-  ProgramSubmission,
-} from "../../types/program";
+import type { ProgramTimeSlot } from "../../types/program";
 import type { ProgramPaperCard } from "../../components/ProgramPapersBrowser";
 
 const CONFERENCE_TIME_ZONE = "Europe/Vienna";
@@ -38,9 +33,9 @@ const normalizeText = (value: string | null | undefined) =>
   (value || "").trim();
 
 const slotMetadataByPaperId = new Map<string, PaperSessionMeta>();
-const sessionList = sessionListData as unknown as ProgramSessionList;
+const sessionList = await fetchAllSessions();
 
-for (const event of Object.values(sessionList)) {
+for (const event of sessionList) {
   for (const session of event.sessions) {
     const sessionSlug = `${session.event_prefix}-${session.session_id}`;
     for (const slot of session.time_slots as ProgramTimeSlot[]) {
@@ -64,7 +59,7 @@ for (const event of Object.values(sessionList)) {
   }
 }
 
-const posters = posterListData as unknown as ProgramSubmission[];
+const posters = await fetchAllPosters();
 
 const paperCards: ProgramPaperCard[] = posters.map((poster) => {
   const linkedSlot = slotMetadataByPaperId.get(poster.id);
