@@ -9,6 +9,7 @@ interface CarouselItem {
   active: string;
   description?: string;
   darken?: boolean;
+  imagePosition?: string;
 }
 export default function Carousel({ items }: { items: CarouselItem[] }) {
   const [current, setCurrent] = useState(0);
@@ -48,6 +49,11 @@ export default function Carousel({ items }: { items: CarouselItem[] }) {
                   className="d-block w-full"
                   alt={item.title}
                   src={withBaseURL(`/assets/carousel/${item.image}`)}
+                  style={
+                    item.imagePosition
+                      ? { objectPosition: item.imagePosition }
+                      : undefined
+                  }
                 />
               )}
 

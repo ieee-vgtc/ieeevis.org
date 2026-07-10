@@ -4,6 +4,7 @@ description: Learn about the IEEE VIS review process, including two-phase double
 layout: /src/layouts/PageLayout.astro
 contact: opc@ieeevis.org
 sidebar: call-for-participation
+active_nav: Contribute
 ---
 
 The success of the IEEE VIS papers program relies on a knowledgeable, experienced, and ethical community of reviewers. IEEE VIS employs a two-phase, [(author-optional)](https://ieeevis.org/year/2024/info/call-participation/paper-submission-guidelines#important-submission-requirements) double-blind review process that follows the review process for IEEE TVCG, the journal in which IEEE VIS full papers are published. Submissions are reviewed by at least 3 reviewers, at least 2 of which are PC members and at least 1 of which is an external member of the community. All reviewers are bound to the [ethics guidelines](http://tc.computer.org/vgtc/conferences/ethics-guidelines) of the IEEE VGTC.
@@ -117,7 +118,7 @@ Consider the mix of expertise and experience across all reviewers, including var
 
 PCS has an option to suggest reviewers according to a match score. This list of suggested reviewers and their interests may be an aid to jog your memory, but note that it must be used with caution. **Do not blindly rely on these suggestions** without checking carefully that the suggested reviewers are indeed a good fit, since expertise is self-reported and has not been vetted in any way. **Unqualified reviewers may exist in the reviewer pool!** Moreover, the Volunteered Reviews number in PCS may not be up to date, as many people in the PCS database may not have updated their willingness numbers but may indeed be willing to accept requests; it is reasonable to ignore the automatic warning to secure their permission in advance before assigning, and simply use PCS itself to make the request. Furthermore, please do not hesitate to add new, qualified reviewers that are not already in the PCS database using the “register new person” mechanism. We are always looking for the top experts in a specific topic, and extending the database will benefit others as well.
 
-**Junior reviewers**. The [VIS Junior Reviewer Program](junior-reviewer-guide) was created for VIS 2025 to increase the pool of available reviewers by mentoring new Ph.D. students in peer review. Each primary reviewer may optionally invite ONE student reviewer for each paper based on the following criteria:
+**Junior reviewers**. The [VIS Junior Reviewer Program](../../../info/call-participation/junior-reviewer-guide) was created for VIS 2025 to increase the pool of available reviewers by mentoring new Ph.D. students in peer review. Each primary reviewer may optionally invite ONE student reviewer for each paper based on the following criteria:
 
 - The junior reviewer should be a Ph.D. student or postdoc (or a person who is otherwise new to the visualization field but established as a researcher).
 - Unlike for external reviewers, the junior reviewer may come from the same affiliation as other reviewers. In fact, you are encouraged to recruit your own Ph.D. students or postdocs as junior reviewers.
@@ -125,11 +126,11 @@ PCS has an option to suggest reviewers according to a match score. This list of 
 - The primary reviewer should have a clear line of communication with the junior reviewer; if they are not your own Ph.D. student, you should at least know the person prior to recruiting them.
 - The primary reviewer must verify that the junior reviewer's review indeed marks their expertise as "junior" in the review form.
 - Junior reviewers will write a full review and may participate in the paper discussion, but their review is to be regarded as advisory in nature.
-  We have collected more information and guidelines about the junior reviewer program in the [Junior Reviewer Guide](junior-reviewer-guide).
+  We have collected more information and guidelines about the junior reviewer program in the [Junior Reviewer Guide](../../../info/call-participation/junior-reviewer-guide).
 
 **Batch release of initial external requests**. The first round of invitations to external reviewers will be released in a single batch on April 11, to encourage externals to make immediate decisions for which requests to accept. After that, review requests will be sent out immediately. PC members should prepare a list of multiple suitable externals for each paper as backup possibilities, in addition to your initial choice, so that you can send another request immediately if your initial request(s) are declined. PC members should actively check that invited external reviewers accept the invitation. If they decline or do not respond in a timely manner (i.e., within a few days of the request being sent), please send a request to the next person on your list as soon as possible.
 
-**Do not ask other PC, APC, or OPC members to be external reviewers**. The full Program Committee listing can be found on the [conference website PC page](../committees/program-committees#full-papers-program-committee). (Note that they are also marked as “cmte” on the review assignment screen in PCS.) The Area Papers Chairs and Overall Papers Chairs are listed on the [conference website Organizers page](../committees/conference-committee). In addition, do not ask the EiC (Editor in Chief) or A-EiCs (Associate Editor in Chiefs) of IEEE TVCG to be external reviewers as they also oversee the review process and should remain neutral. For 2026, TVCG EiC is Wenping Wang, and visualization-related A-EiCs are Shixia Liu, Daniel Weiskopf, and Tamara Munzner.
+**Do not ask other PC, APC, or OPC members to be external reviewers**. The full Program Committee listing can be found on the [conference website PC page](../../committees/program-committees#full-papers-program-committee). (Note that they are also marked as “cmte” on the review assignment screen in PCS.) The Area Papers Chairs and Overall Papers Chairs are listed on the [conference website Organizers page](../../committees/conference-committee). In addition, do not ask the EiC (Editor in Chief) or A-EiCs (Associate Editor in Chiefs) of IEEE TVCG to be external reviewers as they also oversee the review process and should remain neutral. For 2026, TVCG EiC is Wenping Wang, and visualization-related A-EiCs are Shixia Liu, Daniel Weiskopf, and Tamara Munzner.
 
 ## First Round Reviewing
 
@@ -235,7 +236,7 @@ Following the completion of the reviewing phase, the primary reviewer will initi
 
 As an IEEE VIS reviewer, you are in a position to directly influence the quality of the VIS papers program. Make sure that you stand behind the work you recommend for acceptance! Most importantly, this means that you should only accept high-quality papers that will contribute significantly to the VIS research community. You should, however, also be on the lookout for innovative, bold, creative, and potentially transformative work that may significantly extend the frontier of visualization research. While such submissions should be held to the same quality standard as all other submissions, it is expected that they may not be able to exhaustively (or perfectly) validate all of their contributions. We do not want the conference to consist of work with the fewest flaws; we need to weigh the possible significance of the work and the degree of ambition alongside the extent to which it is described, compared, and validated.
 
-Try not to gate-keep in your review. If the authors of a submission use a different approach than the one(s) you typically use yourself, be open-minded about it and check if the authors used this new approach properly. If you believe a certain research topic is out of scope for IEEE VIS, please first consult our call for papers and, in particular, our [Description of VIS Areas](area-model) as we may specifically have included this topic as one of interest for IEEE VIS. Generally, being out of scope for the conference should be a rather rare reason to reject a submission and the papers chairs will have already desk-rejected most of these off-topic submissions.
+Try not to gate-keep in your review. If the authors of a submission use a different approach than the one(s) you typically use yourself, be open-minded about it and check if the authors used this new approach properly. If you believe a certain research topic is out of scope for IEEE VIS, please first consult our call for papers and, in particular, our [Description of VIS Areas](../area-model) as we may specifically have included this topic as one of interest for IEEE VIS. Generally, being out of scope for the conference should be a rather rare reason to reject a submission and the papers chairs will have already desk-rejected most of these off-topic submissions.
 
 Also note that an IEEE VIS paper does not necessarily require a user study to be acceptable to the conference. There are many ways to demonstrate the correctness, usefulness, usability, and impact of a contribution; be open to all of them. Also consider that each paper only has a limited amount of space to communicate its ideas, so do not ask for unreasonable additional content to be included into the paper.
 
@@ -245,7 +246,7 @@ Overall, we strongly encourage you to use positive framing in writing reviews—
 
 ## Supplemental Materials
 
-Authors are encouraged to include supplemental material with their submission. The [Open Practices Supplemental Material FAQ](../open-practices/supplemental-material-faq) provides guidance on how to do so in VIS publications. Although these guidelines are not mandatory, reviewers are encouraged to be familiar with them and should not penalize a submission for adhering to the recommendations. In particular:
+Authors are encouraged to include supplemental material with their submission. The [Open Practices Supplemental Material FAQ](/year/2026/info/open-practices/supplemental-material-faq) provides guidance on how to do so in VIS publications. Although these guidelines are not mandatory, reviewers are encouraged to be familiar with them and should not penalize a submission for adhering to the recommendations. In particular:
 
 - Authors may deposit supplemental material at any location for a final VIS publication. During the review phase, authors may upload files to the review system (PCS) or to an external repository with timestamp support such as https://osf.io or https://github.com/.
 - Authors may upload various types of material, such as data, code, videos, demos, or appendices—see the open practices guidelines for a more exhaustive list of examples.
@@ -274,6 +275,7 @@ Additionally, all reviewers are bound to the [ethics guidelines of the IEEE VGTC
 ## Use of AI Tools by Peer Reviewers
 
 Generative AI tools, such as Large Language Models (LLMs), have many benefits for editing and proofreading peer reviews. However, they must be used with care when utilized in IEEE VIS peer reviewing. There are clear risks associated with online tools and AI-generated content, including but not limited to:
+
 - generation of false or nonsensical information (hallucination),
 - superficial engagement with submissions that fails to leverage the reviewer's specialized expertise (e.g., the whole reason you were invited to review in the first place), and
 - breaching of author confidentiality through direct or indirect disclosure of confidential material under review.
@@ -285,15 +287,16 @@ According to [IEEE’s reviewer guidelines](https://journals.ieeeauthorcenter.ie
 Cloud-hosted LLMs such as ChatGPT, Gemini, and Claude are all public platforms—even if you have a professional/paid subscription. This includes access through APIs, plugins, or third-party integrations that transmit data to cloud-hosted services (e.g., OpenClaw, OpenAI Codex, Claude Code, Claude Cowork, etc). Local or intranet LLMs do not count as public platforms.
 
 Reviewers must adhere to the following requirements:
-* Reviewers are responsible for their own reviews and are thus expected to ensure their accuracy and relevance, including any suggested references.
-  * This is not a new rule and holds true whether the review is written by hand or generated/edited by AI.
-  * In particular, you as the reviewer and not the LLM, are accountable for any mistakes.
-* Reviewers are responsible for understanding the policies and user agreements that govern the tools they use to support their reviewing.
-* When AI tools are used, reviewers must proofread the final review and check all claims prior to submitting it.
+
+- Reviewers are responsible for their own reviews and are thus expected to ensure their accuracy and relevance, including any suggested references.
+  - This is not a new rule and holds true whether the review is written by hand or generated/edited by AI.
+  - In particular, you as the reviewer and not the LLM, are accountable for any mistakes.
+- Reviewers are responsible for understanding the policies and user agreements that govern the tools they use to support their reviewing.
+- When AI tools are used, reviewers must proofread the final review and check all claims prior to submitting it.
 
 If AI plays a notable role beyond simple grammar fixes, we encourage (but do not require) reviewers to include a statement acknowledging the use of AI.
 
-**Violations:** None of these rules are new; confidentiality, accuracy, and accountability have always been part of the IEEE reviewer guidelines. Thus, ignorance is no excuse for violations. Failure to comply with the rules in this document may lead to a review being deleted or disregarded as well as disciplinary action up to and including temporary or permanent barring from the IEEE VIS review process. 
+**Violations:** None of these rules are new; confidentiality, accuracy, and accountability have always been part of the IEEE reviewer guidelines. Thus, ignorance is no excuse for violations. Failure to comply with the rules in this document may lead to a review being deleted or disregarded as well as disciplinary action up to and including temporary or permanent barring from the IEEE VIS review process.
 
 ## What is a Minor Revision?
 

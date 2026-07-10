@@ -113,7 +113,8 @@ Organizers:
 Ester Scheck, TU Wien<br>
 Meghan Kelly, Syracuse University<br>
 
-Contact: Ester Scheck ([ester.scheck@geo.tuwien.ac.at](mailto:ester.scheck@geo.tuwien.ac.at))
+Contact: Ester Scheck ([ester.scheck@geo.tuwien.ac.at](mailto:ester.scheck@geo.tuwien.ac.at))  
+Website: [https://ester-t-s.github.io/mapping-with-context-workshops/](https://ester-t-s.github.io/mapping-with-context-workshops/)
 
 While various frameworks for documenting data production (e.g., metadata, data biographies, and datasheets for datasets) exist, responsible and reflexive data practices too often focus on data analysis processes and visualization decision-making and ethics. In this workshop, we address this gap by centering data and visualization practitioner perspectives to brainstorm and co-create wireframes, guidelines and strategies, and prototype tools that focus on understanding and incorporating data production context in the visualization workflow. Our workshop design is guided by data feminism, design justice, and feminist mapping and prioritizes interactive exchange and the co-production of knowledge (and tools) to better support ethical data practices throughout visualization workflows.
 
@@ -148,7 +149,7 @@ Heike Hofmann, University of Nebraska - Lincoln, Lincoln, Nebraska, United State
 Joyce Robbins, Columbia University, New York, New York, United States<br>
 Evangeline Reynolds, University of Denver, Denver, Colorado, USA<br>
 
-Contact: Cynthia Huang ([cynthia.huang@lmu.de](mailto:cynthia.huang@lmu.de))
+Contact: Cynthia Huang ([cynthia.huang@lmu.de](mailto:cynthia.huang@lmu.de))  
 Website: [https://gugog-vis.github.io/2026/](https://gugog-vis.github.io/2026/)
 
 Following Wilkinson’s seminal “Grammar of Graphics” (2005), visualization communities in both statistics and computer science have developed various grammar-based approaches to visualization problems, workflows and usage scenarios. While this diversity reflects the richness of visualization challenges, it also reveals fundamental questions: Why do these grammars differ? What core principles unite them? What opportunities exist for synthesis? Which properties make a visualization system a ‘graphical grammar’? Despite scattered attempts to survey and understand diversity in grammar based systems, we lack systematic frameworks for understanding how these grammars relate, where they succeed or struggle, and what a more unified theoretical foundation might look like. The first workshop for a grand unified grammar of graphics (GUGOG) aims to facilitate interdisciplinary discussion and exploration of these open questions. We invite reflections on past work and recent developments in visualization grammars, synthesis of parallel and overlapping contributions across statistical graphics and information visualization communities, and visions for the future of grammar-based visualization research.
@@ -179,7 +180,8 @@ Organizers:
 Federico Iuricich, Clemson University<br>
 Yue Zhang, Oregon State University<br>
 
-Contact: Federico Iuricich ([fiurici@clemson.edu](mailto:fiurici@clemson.edu))
+Contact: Federico Iuricich ([fiurici@clemson.edu](mailto:fiurici@clemson.edu))  
+Website: [https://topoinvis-workshop.github.io/2026/](https://topoinvis-workshop.github.io/2026/)
 
 Topological methods are playing an increasingly important role across visualization, machine learning, computational geometry, and other data-intensive disciplines. However, advances in these areas often evolve in parallel, with limited sustained cross-community interaction. TopoInVis Connect is a new workshop series designed to bridge these communities through the unifying lens of topology. The inaugural edition focuses on the intersection of Visualization (VIS) and Artificial Intelligence (AI), two fields that are increasingly leveraging topological techniques to analyze complex, high-dimensional data. The workshop fosters dialogue around structure-aware and interpretable approaches to machine learning, while emphasizing the role of visualization in making topological insights accessible and actionable. It combines peer-reviewed paper presentations with interactive, discussion-driven sessions centered on open challenges at the intersection of topology, visualization, and AI.
 
@@ -255,6 +257,6 @@ Matthew Kay, Northwestern University, Evanston, Illinois, United States<br>
 Danielle Albers Szafir, University of North Carolina-Chapel Hill, Chapel Hill, North Carolina, United States<br>
 
 Contact: Arran Zeyu Wang ([zeyuwang@cs.unc.edu](mailto:zeyuwang@cs.unc.edu))  
-Website: [https://visxvision.com/](https://visxvision.com/)
+Website: [https://visxvision.com/vis-2026/](https://visxvision.com/vis-2026/)
 
 Visualization relies heavily on how people perceive and reason about data. While visualization research has drawn on low-level vision science principles, we often do not yet know how well these principles generalize to the more complex processes of viewing and interacting with visualizations. To address this, our Research Track primarily focuses on using vision science methods to better support VIS research. Further, there is an empirical bottleneck within the VIS community: many graphical perception studies remain underreplicated, potentially creating a gap between established theory and reproducible practice. Experimental norms in vision science offer a useful starting point for addressing this bottleneck, yet the VIS community still lacks a dedicated venue for sharing replication results and best practices. Beyond their empirical value, replication studies also offer researchers, particularly those newer to experimental work, a structured entry point for developing rigorous methodology. To this end, we introduce a Replication Track alongside regular tracks, specifically designed to translate the methodological precision and practices of vision science into visualization. VisXVision provides a dedicated forum for researchers at the intersection of vision science, psychology, and data visualization, aiming to promote studies, tools, and discussions towards a more reliable theoretical foundation for visualization research.

@@ -4,6 +4,7 @@ description: Learn about the IEEE VIS Junior Reviewer Program, which trains earl
 layout: /src/layouts/PageLayout.astro
 contact: op@ieeevis.org
 sidebar: call-for-participation
+active_nav: Contribute
 ---
 
 # IEEE VIS Junior Reviewer Guide

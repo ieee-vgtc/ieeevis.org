@@ -1,11 +1,11 @@
 - heading: "Connect"
   links:
-    # - text: "Vis Buddies"
-    #   url: "https://www.google.com"
+    - text: "Vis Buddies"
+      url: "https://ieeevis.org/year/2026/info/community/vis-buddies/"
     - text: "Meetups"
-      url: "/year/2019/info/call-participation/meetups"
-    # - text: "Job Fair"
-    #   url: "https://www.google.com"
+      url: "https://ieeevis.org/year/2026/info/call-participation/meetups/"
+    - text: "Job Fair"
+      url: "https://ieeevis.org/year/2026/info/community/jobs/"
 
 - heading: "Social Groups"
   links:

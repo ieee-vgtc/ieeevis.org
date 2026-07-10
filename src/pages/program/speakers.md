@@ -1,7 +1,7 @@
 ---
 title: Speakers
 layout: /src/layouts/PageLayout.astro
-active_nav: Speakers
+active_nav: Program
 contact: web@ieeevis.org
 ---
 

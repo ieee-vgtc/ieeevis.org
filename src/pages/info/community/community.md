@@ -37,12 +37,13 @@ Postings will be reviewed and updated regularly on the VIS website.
 We welcome proposals for meetups on topics related to visualization research, practice, and community building. Meetups are informal, participant-driven sessions open to all attendees.
 
 To propose a meetup, please send:
-- Title  
-- Organizer information  
-- Short description (≤200 words)  
-- Expected audience  
-- Equipment needs  
-- Scheduling preferences (if applicable)  
+
+- Title
+- Organizer information
+- Short description (≤200 words)
+- Expected audience
+- Equipment needs
+- Scheduling preferences (if applicable)
 
 Submit proposals to: [community@ieeevis.org](mailto:community@ieeevis.org)
 
@@ -56,5 +57,6 @@ For more information, contact IEEE VIS 2026 Community/Meetups/Elections Chairs:
 
 - Kyle Hall, _Temple University_
 - Lijie Yao, _Xi’an Jiaotong-Liverpool University_
+- Carmen Hull, _Northeastern University_
 
-email: [community@ieeevis.org](community@ieeevis.org)
+email: [community@ieeevis.org](mailto:community@ieeevis.org)

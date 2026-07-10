@@ -23,10 +23,10 @@ export const SessionListing: React.FC<SessionListingProps> = ({
   type,
   url,
 
-  showAbstract,
-  showPresenters,
+  // showAbstract,
+  // showPresenters,
   showTime,
-  showTrack,
+  // showTrack,
   skipEventTitle,
   useFullDate,
 }) => {

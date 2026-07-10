@@ -5,7 +5,9 @@ contact: info@ieeevis.org
 active_nav: "Program"
 ---
 
-The VIS 2026 capstone talk will be given by **Theo Deutinger**.
+Details TBD.
+
+<!-- The VIS 2026 capstone talk will be given by **Theo Deutinger**.
 
 Theo is an Austrian architect, curator, and theorist.
 He is the founder and principal of The Department (TD), a practice that integrates architecture, urban design, and analytical research across various scales—from global planning to graphic design and curatorial work.
@@ -20,4 +22,4 @@ In his capstone talk _"A Diagrammatic Approach to the World"_ Theo will focus on
 Starting from the 100th anniversary of the Gesellschafts- und Wirtschaftsmuseum, founded by Otto Neurath - member of the Vienna Circle and inventor of ISOTYPE - Theo will go back in time and try to decipher the origin of data visualization.
 In this context, he will show examples of his own work and explain his fascination with the forces of globalization and how data visualization is the way to get a grip on them.
 
-**When: Friday (Nov 7), 11:15am (CET), Hall E**
+**When: Friday (Nov 7), 11:15am (CET), Hall E** -->

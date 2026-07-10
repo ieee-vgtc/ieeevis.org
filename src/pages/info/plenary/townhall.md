@@ -2,6 +2,7 @@
 title: IEEE Vis Townhall
 layout: /src/layouts/PageLayout.astro
 contact: vec@ieeevis.org
+active_nav: Program
 ---
 
 As part of IEEE VIS's ongoing efforts to engage with our community, the IEEE VIS governance bodies are seeking feedback from the VIS community!
@@ -18,4 +19,4 @@ Other VSC, VEC, and ReVISe members will be present in the audience.
 
 Questions from the community are welcome during the townhall. A larger update on various other committees can be found here.
 
-**When: Wednesday (Nov 5), 1PM - 2PM, Hall E1**
+<!-- **When: Wednesday (Nov 5), 1PM - 2PM, Hall E1** -->

@@ -5,7 +5,10 @@ import { features } from "../../../config/features";
 import { withBaseURL } from "../../../utils/withBaseURL";
 import sessionListData from "../../../data/program_test/session_list.json";
 import type { Paper } from "../../../types/paper";
-import type { ProgramSessionList, ProgramTimeSlot } from "../../../types/program";
+import type {
+  ProgramSessionList,
+  ProgramTimeSlot,
+} from "../../../types/program";
 
 const EVENT_PREFIX_LABELS: Record<string, string> = {
   "v-full": "VIS Full Papers",
@@ -29,7 +32,10 @@ export async function getStaticPaths() {
 
   // Build a map from slot.uid (= paper.id UUID) → session info
   const sessionList = sessionListData as unknown as ProgramSessionList;
-  const slotSessionMap = new Map<string, { session_id: string; session_title: string }>();
+  const slotSessionMap = new Map<
+    string,
+    { session_id: string; session_title: string }
+  >();
   for (const event of Object.values(sessionList)) {
     for (const session of event.sessions) {
       for (const slot of session.time_slots as ProgramTimeSlot[]) {
@@ -68,9 +74,12 @@ const { paper } = Astro.props;
 
 // Breadcrumb data
 const eventLabel =
-  paper.event_title || EVENT_PREFIX_LABELS[paper.event_prefix] || paper.event_prefix;
+  paper.event_title ||
+  EVENT_PREFIX_LABELS[paper.event_prefix] ||
+  paper.event_prefix;
 // Link to sessions page pre-filtered by this paper's event type
-const eventType = EVENT_PREFIX_TO_TYPE[paper.event_prefix] || paper.event_prefix;
+const eventType =
+  EVENT_PREFIX_TO_TYPE[paper.event_prefix] || paper.event_prefix;
 const eventUrl = withBaseURL(`/program/sessions?type=${eventType}`);
 const sessionSlug =
   paper.event_prefix && paper.session_id
@@ -80,7 +89,10 @@ const sessionUrl = sessionSlug
   ? withBaseURL(`/program/session/${sessionSlug}`)
   : null;
 
-const awardLabel = paper.award === "best" ? "\uD83C\uDFC6 Best Paper Award" : "\uD83C\uDF96\uFE0F Honorable Mention";
+const awardLabel =
+  paper.award === "best"
+    ? "\uD83C\uDFC6 Best Paper Award"
+    : "\uD83C\uDF96\uFE0F Honorable Mention";
 
 const frontmatter = {
   title: paper.title,
@@ -91,7 +103,6 @@ const frontmatter = {
 
 <PageLayout frontmatter={frontmatter}>
   <div class="prose max-w-4xl">
-
     <!-- Breadcrumb navigation with bookmark at end -->
     <nav class="breadcrumb not-prose" aria-label="Breadcrumb">
       <ol class="breadcrumb__list">
@@ -99,17 +110,29 @@ const frontmatter = {
           <a href={eventUrl} class="breadcrumb__link">{eventLabel}</a>
         </li>
 
-        {paper.session_title && sessionUrl && (
-          <>
-            <li class="breadcrumb__sep" aria-hidden="true">›</li>
-            <li class="breadcrumb__item">
-              <a href={sessionUrl} class="breadcrumb__link">{paper.session_title}</a>
-            </li>
-          </>
-        )}
+        {
+          paper.session_title && paper.session_id && (
+            <>
+              <li class="breadcrumb__sep" aria-hidden="true">
+                ›
+              </li>
+              <li class="breadcrumb__item">
+                <a
+                  href={`/year/2026/program/session/${paper.session_id}`}
+                  class="breadcrumb__link"
+                >
+                  {paper.session_title}
+                </a>
+              </li>
+            </>
+          )
+        }
 
         <li class="breadcrumb__sep" aria-hidden="true">›</li>
-        <li class="breadcrumb__item breadcrumb__item--current" aria-current="page">
+        <li
+          class="breadcrumb__item breadcrumb__item--current"
+          aria-current="page"
+        >
           <span class="breadcrumb__current">{paper.title}</span>
         </li>
       </ol>
@@ -122,10 +145,29 @@ const frontmatter = {
         aria-label="Bookmark this paper"
         title="Bookmark this paper"
       >
-        <svg id="bookmark-icon-empty" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <svg
+          id="bookmark-icon-empty"
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+        >
           <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
         </svg>
-        <svg id="bookmark-icon-filled" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" style="display:none">
+        <svg
+          id="bookmark-icon-filled"
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+          stroke="currentColor"
+          stroke-width="2"
+          style="display:none"
+        >
           <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
         </svg>
       </button>
@@ -134,49 +176,67 @@ const frontmatter = {
     <h1>{paper.title}</h1>
 
     <!-- Award badge -->
-    {paper.award && (
-      <p class="award-badge not-prose">{awardLabel}</p>
-    )}
+    {paper.award && <p class="award-badge not-prose">{awardLabel}</p>}
 
     <!-- Authors -->
     <div class="mb-6">
       <h2>Authors</h2>
       <p>
-        {paper.authors
-          .map((a) => a.affiliation ? `${a.name} (${a.affiliation})` : a.name)
-          .join(", ")}
+        {
+          paper.authors
+            .map((a) =>
+              a.affiliation ? `${a.name} (${a.affiliation})` : a.name,
+            )
+            .join(", ")
+        }
       </p>
     </div>
 
     <!-- Links (immediately after authors, styled as plain inline links matching authors) -->
-    {(paper.preprint_link || paper.doi || paper.open_access_supplemental_link) && (
-      <div class="paper-links mb-6">
-        <h2>Links</h2>
-        <ul>
-          {paper.preprint_link && (
-            <li>
-              <a href={paper.preprint_link} target="_blank" rel="noopener noreferrer">
-                Download preprint PDF
-              </a>
-            </li>
-          )}
-          {paper.open_access_supplemental_link && (
-            <li>
-              <a href={paper.open_access_supplemental_link} target="_blank" rel="noopener noreferrer">
-                Download Supplemental Material
-              </a>
-            </li>
-          )}
-          {paper.doi && (
-            <li>
-              <a href={`https://doi.org/${paper.doi}`} target="_blank" rel="noopener noreferrer">
-                DOI: {paper.doi}
-              </a>
-            </li>
-          )}
-        </ul>
-      </div>
-    )}
+    {
+      (paper.preprint_link ||
+        paper.doi ||
+        paper.open_access_supplemental_link) && (
+        <div class="paper-links mb-6">
+          <h2>Links</h2>
+          <ul>
+            {paper.preprint_link && (
+              <li>
+                <a
+                  href={paper.preprint_link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Download preprint PDF
+                </a>
+              </li>
+            )}
+            {paper.open_access_supplemental_link && (
+              <li>
+                <a
+                  href={paper.open_access_supplemental_link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Download Supplemental Material
+                </a>
+              </li>
+            )}
+            {paper.doi && (
+              <li>
+                <a
+                  href={`https://doi.org/${paper.doi}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  DOI: {paper.doi}
+                </a>
+              </li>
+            )}
+          </ul>
+        </div>
+      )
+    }
 
     <!-- Keywords -->
     <div class="mb-6">
@@ -191,18 +251,21 @@ const frontmatter = {
     </div>
 
     <!-- For Practitioners -->
-    {paper.practitioners_statement && (
-      <div class="mb-6">
-        <h2>For Practitioners</h2>
-        <p>{paper.practitioners_statement}</p>
-      </div>
-    )}
-
+    {
+      paper.practitioners_statement && (
+        <div class="mb-6">
+          <h2>For Practitioners</h2>
+          <p>{paper.practitioners_statement}</p>
+        </div>
+      )
+    }
   </div>
 </PageLayout>
 
 <script>
-  const btn = document.getElementById("bookmarkBtn") as HTMLButtonElement | null;
+  const btn = document.getElementById(
+    "bookmarkBtn",
+  ) as HTMLButtonElement | null;
   const iconEmpty = document.getElementById("bookmark-icon-empty");
   const iconFilled = document.getElementById("bookmark-icon-filled");
   const paperId = btn?.dataset.paperId;
@@ -222,8 +285,14 @@ const frontmatter = {
     if (!btn || !paperId) return;
     const bookmarked = getBookmarks().includes(paperId);
     btn.classList.toggle("bookmarked", bookmarked);
-    btn.setAttribute("aria-label", bookmarked ? "Remove bookmark" : "Bookmark this paper");
-    btn.setAttribute("title", bookmarked ? "Remove bookmark" : "Bookmark this paper");
+    btn.setAttribute(
+      "aria-label",
+      bookmarked ? "Remove bookmark" : "Bookmark this paper",
+    );
+    btn.setAttribute(
+      "title",
+      bookmarked ? "Remove bookmark" : "Bookmark this paper",
+    );
     if (iconEmpty) iconEmpty.style.display = bookmarked ? "none" : "";
     if (iconFilled) iconFilled.style.display = bookmarked ? "" : "none";
   }

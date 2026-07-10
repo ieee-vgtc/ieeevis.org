@@ -1,7 +1,20 @@
 import { useState } from "react";
 import { withBaseURL } from "../utils/withBaseURL";
 
-export default function Navigation({ nav_data }: { nav_data: NavDataType }) {
+function classNames(classes: { [key: string]: boolean }) {
+  return Object.entries(classes)
+    .filter(([, v]) => v)
+    .map(([k]) => k)
+    .join(" ");
+}
+
+export default function Navigation({
+  nav_data,
+  page_info,
+}: {
+  nav_data: NavDataType;
+  page_info: any;
+}) {
   const [isExpanded, setIsExpanded] = useState<boolean>(false);
   const [selectedDropDownIndex, setSelectedDropDownIndex] = useState<
     number | null
@@ -52,18 +65,21 @@ export default function Navigation({ nav_data }: { nav_data: NavDataType }) {
               nav.display && (
                 <div key={`nav-div-${i}`}>
                   <button
-                    className={`menu_item font-display text-lg md:text-base lg:text-lg px-8 md:px-2 lg:px-4 mx-0 lg:mx-2 py-4 md:py-6 border-b-2 border-primary-200 md:border-none ${selectedDropDownIndex === i ? "menu_item--focused" : ""}`}
+                    className={classNames({
+                      "menu_item font-display text-lg md:text-base lg:text-lg px-8 md:pl-2 md:pr-1 lg:pl-4 lg:pr-2 mx-0 lg:mx-2 py-4 md:py-6 border-b-2 border-primary-200 ": true,
+                      "menu_item--focused": selectedDropDownIndex === i,
+                      "md:border-b-4 md:border-white ":
+                        nav.dropdown === page_info?.active_nav,
+                      "md:border-none": nav.dropdown !== page_info?.active_nav,
+                    })}
                     tabIndex={0}
                     role="menuitem"
                     key={`nav-item-${i}`}
-                    onClick={() => {
-                      if (selectedDropDownIndex === i) {
-                        setSelectedDropDownIndex(null);
-                      } else {
-                        setSelectedDropDownIndex(i);
-                      }
-                    }}
-                    // v-bind:class="{ 'menu_item--focused': menu['{{ nav.dropdown }}'] }"
+                    onClick={() =>
+                      setSelectedDropDownIndex(
+                        selectedDropDownIndex === i ? null : i,
+                      )
+                    }
                   >
                     <span className="whitespace-nowrap">
                       {nav.dropdown}

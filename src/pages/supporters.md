@@ -2,6 +2,7 @@
 title: "Supporting the IEEE VIS Conference"
 layout: /src/layouts/PageLayout.astro
 contact: supporters@ieeevis.org
+active_nav: Contribute
 ---
 
 ![Frame 1vis23](https://user-images.githubusercontent.com/1230497/214549284-fcc9d692-8025-47d6-aaf7-980cf6b3fb45.png)
