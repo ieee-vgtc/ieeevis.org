@@ -80,27 +80,29 @@ const frontmatter = {
   active_nav: "Program",
   contact: "web@ieeevis.org",
 };
+console.log(presentations);
 ---
 
 <PageLayout frontmatter={frontmatter}>
   <section class="program-event-page">
     <p class="program-event-meta">
-      <strong>Session chair:</strong>
+      <strong class="mr-2">Session chair:</strong>
       {session.chair?.join(", ") || "TBA"}
     </p>
     <p class="program-event-meta">
-      <strong>Room:</strong>
+      <strong class="mr-2">Room:</strong>
       {session.room_name || "TBA"}
     </p>
     <p class="program-event-meta">
-      <strong>Time:</strong>
+      <strong class="mr-2">Time:</strong>
       {formatSessionDateTime(session.time_start, session.time_end)}
     </p>
 
     {
       event.organizers.length > 0 && (
         <p class="program-event-organizers">
-          Organizers: {event.organizers.join(", ")}
+          <strong class="mr-2">Organizers:</strong>{" "}
+          {event.organizers.join(", ")}
         </p>
       )
     }
@@ -108,28 +110,34 @@ const frontmatter = {
     <h2>Presentations in this session</h2>
 
     <div class="program-presentations">
-      {presentations.map((slot) => (
-        <article class="program-presentation">
-          <p class="program-presentation-time">{formatSlotRange(slot.time_start, slot.time_end)}</p>
-          {features.weekOfVis.enabled && slot.uid ? (
-            <h3><a href={withBaseURL(`/program/paper/${slot.uid}`)}>{slot.title}</a></h3>
-          ) : (
-            <h3>{slot.title}</h3>
-          )}
-          {slot.authors && slot.authors.length > 0 && (
-            <p class="program-presentation-authors">
-              Authors: {slot.authors.map((author) => author.name).join(", ")}
+      {
+        presentations.map((slot) => (
+          <article class="program-presentation">
+            <p class="program-presentation-time">
+              {formatSlotRange(slot.time_start, slot.time_end)}
             </p>
-            <h3>{slot.title}</h3>
-            {slot.authors && slot.authors.length > 0 && (
-              <p class="program-presentation-authors">
-                Authors: {slot.authors.map((author) => author.name).join(", ")}
-              </p>
+            {features.weekOfVis.enabled && slot.uid ? (
+              <h3>
+                <a
+                  href={withBaseURL(
+                    `/program/${slot.paper_type.includes("oster") ? "poster" : "paper"}/${slot.uid}`,
+                  )}
+                >
+                  {slot.title}
+                </a>
+              </h3>
+            ) : (
+              <h3>{slot.title}</h3>
             )}
-            {slot.contributors && slot.contributors.length > 0 && (
-              <p class="program-presentation-contrib">
-                {slot.contributors.join(", ")}
-              </p>
+            {slot.authors && slot.authors.length > 0 && (
+              <div>
+                {slot.authors && slot.authors.length > 0 && (
+                  <p class="program-presentation-authors">
+                    Authors:{" "}
+                    {slot.authors.map((author) => author.name).join(", ")}
+                  </p>
+                )}
+              </div>
             )}
           </article>
         ))

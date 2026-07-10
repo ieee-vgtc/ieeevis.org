@@ -1,6 +1,6 @@
 // scripts/check-frontmatter.ts
 import fg from "fast-glob";
-import yaml from "yaml";
+// import yaml from "yaml";
 import matter from "gray-matter";
 import { readFile } from "node:fs/promises";
 import { z } from "zod";

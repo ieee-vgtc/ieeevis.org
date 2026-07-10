@@ -6,7 +6,8 @@
  */
 
 import React, { useState, useEffect } from "react";
-import { fetchAllPapers, type Paper } from "../utils/paperData";
+import { fetchAllPapers } from "../utils/paperData";
+import type { Paper } from "../types/paper";
 
 interface ProgramNavItem {
   label: string;

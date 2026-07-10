@@ -228,7 +228,7 @@ menu:
                     is_new: false
 
   # ---------------------------------------------------------------------------
-  - dropdown: "Program"
+  - dropdown: "Old Program"
     display: true
     sections:
       - subsections:
@@ -506,6 +506,10 @@ menu:
                   #   description: "Paper sessions"
                   #   url: "/info/program/papers_list"
                   #   is_new: false
+                  - text: "Sessions"
+                    description: "List of all sessions and events"
+                    url: "/program/sessions"
+                    is_new: true
                   # - text: "Posters"
                   #   description: "Nascent and recent work"
                   #   url: "/info/program/posters"

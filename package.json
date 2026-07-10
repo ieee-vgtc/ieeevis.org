@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
+    "typecheck": "astro check",
     "preview": "astro preview",
     "astro": "astro",
     "prepare": "husky",
