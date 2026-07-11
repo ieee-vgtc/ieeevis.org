@@ -56,6 +56,94 @@ const typeOptions = Object.keys(typeCounts)
     allLabel="All"
   >
     <div slot="extra-controls" class="papers-controls">
+      <div class="flex w-full justify-between">
+        <label class="papers-control">
+          Search by
+          <div
+            id="papers-search-field"
+            class="papers-choice-group"
+            role="group"
+            aria-label="Search by"
+          >
+            <button
+              type="button"
+              class="papers-choice-button is-active"
+              data-choice-value="any"
+              aria-pressed="true"
+            >
+              any
+            </button>
+            <button
+              type="button"
+              class="papers-choice-button"
+              data-choice-value="title"
+              aria-pressed="false"
+            >
+              title
+            </button>
+            <button
+              type="button"
+              class="papers-choice-button"
+              data-choice-value="keyword"
+              aria-pressed="false"
+            >
+              keyword
+            </button>
+            <button
+              type="button"
+              class="papers-choice-button"
+              data-choice-value="author"
+              aria-pressed="false"
+            >
+              author
+            </button>
+            <button
+              type="button"
+              class="papers-choice-button"
+              data-choice-value="session"
+              aria-pressed="false"
+            >
+              session
+            </button>
+          </div>
+        </label>
+
+        <label class="papers-control">
+          Sort by
+          <div
+            id="papers-sort"
+            class="papers-choice-group"
+            role="group"
+            aria-label="Sort by"
+          >
+            <button
+              type="button"
+              class="papers-choice-button is-active"
+              data-choice-value="title"
+              aria-pressed="true"
+            >
+              title
+            </button>
+            <button
+              type="button"
+              class="papers-choice-button"
+              data-choice-value="bookmarked"
+              aria-pressed="false"
+            >
+              bookmarked first
+            </button>
+            <button
+              type="button"
+              class="papers-choice-button"
+              data-choice-value="schedule"
+              aria-pressed="false"
+            >
+              schedule
+            </button>
+          </div>
+        </label>
+      </div>
+
       <label class="papers-control">
         Find
         <div class="papers-search-shell">
@@ -75,26 +163,6 @@ const typeOptions = Object.keys(typeCounts)
             x
           </button>
         </div>
-      </label>
-
-      <label class="papers-control">
-        Search by
-        <select id="papers-search-field" class="papers-select">
-          <option value="any">any</option>
-          <option value="title">title</option>
-          <option value="keyword">keyword</option>
-          <option value="author">author</option>
-          <option value="session">session</option>
-        </select>
-      </label>
-
-      <label class="papers-control">
-        Sort by
-        <select id="papers-sort" class="papers-select">
-          <option value="title">title</option>
-          <option value="bookmarked">bookmarked first</option>
-          <option value="schedule">schedule</option>
-        </select>
       </label>
     </div>
   </ProgramHeader>
@@ -163,10 +231,10 @@ const typeOptions = Object.keys(typeCounts)
     const clearButton = root.querySelector<HTMLButtonElement>(
       "#papers-search-clear",
     );
-    const searchFieldSelect = root.querySelector<HTMLSelectElement>(
+    const searchFieldControl = root.querySelector<HTMLElement>(
       "#papers-search-field",
     );
-    const sortSelect = root.querySelector<HTMLSelectElement>("#papers-sort");
+    const sortControl = root.querySelector<HTMLElement>("#papers-sort");
     const grid = root.querySelector<HTMLElement>("#papers-grid");
     const emptyState = root.querySelector<HTMLElement>("#papers-empty");
     const cards = Array.from(
@@ -211,19 +279,51 @@ const typeOptions = Object.keys(typeCounts)
       searchInput.value = params.get("search") || "";
     }
 
-    if (
-      searchFieldSelect &&
-      validSearchFields.has(params.get("filter") || "")
-    ) {
-      searchFieldSelect.value = params.get("filter") || "any";
+    const getChoiceValue = (
+      container: HTMLElement | null,
+      fallback: string,
+    ): string => {
+      if (!container) return fallback;
+      const activeButton = container.querySelector<HTMLButtonElement>(
+        ".papers-choice-button.is-active[data-choice-value]",
+      );
+      return activeButton?.dataset.choiceValue || fallback;
+    };
+
+    const setChoiceValue = (
+      container: HTMLElement | null,
+      value: string,
+    ): boolean => {
+      if (!container) return false;
+      const buttons = Array.from(
+        container.querySelectorAll<HTMLButtonElement>(
+          ".papers-choice-button[data-choice-value]",
+        ),
+      );
+      let found = false;
+
+      for (const button of buttons) {
+        const isActive = button.dataset.choiceValue === value;
+        if (isActive) found = true;
+        button.classList.toggle("is-active", isActive);
+        button.setAttribute("aria-pressed", String(isActive));
+      }
+
+      return found;
+    };
+
+    const urlSearchField = params.get("filter") || "";
+    if (validSearchFields.has(urlSearchField)) {
+      setChoiceValue(searchFieldControl, urlSearchField);
     }
 
     let activeTypeFilter = validTypeValues.has(params.get("type") || "")
       ? params.get("type") || "all"
       : "all";
 
-    if (sortSelect && validSortModes.has(params.get("sort") || "")) {
-      sortSelect.value = params.get("sort") || "title";
+    const urlSortMode = params.get("sort") || "";
+    if (validSortModes.has(urlSortMode)) {
+      setChoiceValue(sortControl, urlSortMode);
     }
 
     const getSearchQuery = () =>
@@ -231,15 +331,9 @@ const typeOptions = Object.keys(typeCounts)
         ? searchInput.value.trim().toLowerCase()
         : "";
 
-    const getSearchField = () =>
-      searchFieldSelect instanceof HTMLSelectElement && searchFieldSelect.value
-        ? searchFieldSelect.value
-        : "any";
+    const getSearchField = () => getChoiceValue(searchFieldControl, "any");
 
-    const getSortMode = () =>
-      sortSelect instanceof HTMLSelectElement && sortSelect.value
-        ? sortSelect.value
-        : "title";
+    const getSortMode = () => getChoiceValue(sortControl, "title");
 
     const getTypeFilter = () => activeTypeFilter;
 
@@ -415,8 +509,19 @@ const typeOptions = Object.keys(typeCounts)
       });
     }
 
-    if (searchFieldSelect) {
-      searchFieldSelect.addEventListener("change", applyFilters);
+    if (searchFieldControl) {
+      const searchFieldButtons = Array.from(
+        searchFieldControl.querySelectorAll<HTMLButtonElement>(
+          ".papers-choice-button[data-choice-value]",
+        ),
+      );
+      for (const button of searchFieldButtons) {
+        button.addEventListener("click", () => {
+          const value = button.dataset.choiceValue;
+          if (!value || !setChoiceValue(searchFieldControl, value)) return;
+          applyFilters();
+        });
+      }
     }
 
     for (const button of typeFilterButtons) {
@@ -427,8 +532,19 @@ const typeOptions = Object.keys(typeCounts)
       });
     }
 
-    if (sortSelect) {
-      sortSelect.addEventListener("change", applyFilters);
+    if (sortControl) {
+      const sortButtons = Array.from(
+        sortControl.querySelectorAll<HTMLButtonElement>(
+          ".papers-choice-button[data-choice-value]",
+        ),
+      );
+      for (const button of sortButtons) {
+        button.addEventListener("click", () => {
+          const value = button.dataset.choiceValue;
+          if (!value || !setChoiceValue(sortControl, value)) return;
+          applyFilters();
+        });
+      }
     }
 
     refreshTypeFilterState();

@@ -3,7 +3,17 @@
   gap: 1rem;
 }
 
-.u-toolbar,
+.u-toolbar {
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid var(--color-gray-300);
+  border-radius: 10px;
+  background: linear-gradient(
+    135deg,
+    rgba(223, 104, 36, 0.08),
+    rgba(187, 74, 114, 0.08)
+  );
+}
 .sessions-toolbar,
 .calendar-toolbar,
 .papers-toolbar {
@@ -43,12 +53,10 @@
   font-size: 0.95rem;
 }
 
-.u-controls,
 .sessions-controls,
 .calendar-controls,
 .papers-controls {
   display: grid;
-  grid-template-columns: repeat(3, minmax(180px, 260px));
   gap: 0.8rem;
   align-items: end;
 }
@@ -79,6 +87,40 @@
   background-color: white;
   font-size: 0.95rem;
   color: var(--color-gray-900);
+}
+
+.u-choice-group,
+.papers-choice-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.u-choice-button,
+.papers-choice-button {
+  border: 1px solid var(--color-gray-400);
+  border-radius: 999px;
+  background: white;
+  color: var(--color-gray-700);
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 0.35rem 0.65rem;
+  line-height: 1.2;
+  cursor: pointer;
+  transition: all 120ms ease;
+}
+
+.u-choice-button:hover,
+.papers-choice-button:hover {
+  border-color: var(--color-gray-500);
+  transform: translateY(-1px);
+}
+
+.u-choice-button.is-active,
+.papers-choice-button.is-active {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: white;
 }
 
 .u-filter-bar,
@@ -740,7 +782,6 @@
 
 .papers-controls {
   display: grid;
-  grid-template-columns: repeat(3, minmax(180px, 260px));
   gap: 0.8rem;
   align-items: end;
 }
@@ -1172,7 +1213,6 @@
 
 .papers-controls {
   display: grid;
-  grid-template-columns: repeat(3, minmax(180px, 260px));
   gap: 0.8rem;
   align-items: end;
 }

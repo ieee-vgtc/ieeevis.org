@@ -122,7 +122,8 @@ const sortedTypes = Object.keys(typeCounts).sort((a, b) => a.localeCompare(b));
 
 const dayOptions = dayGroups.map((dayGroup) => ({
   value: dayGroup.dayKey,
-  label: `${dayGroup.weekdayLabel}, ${dayGroup.dateLabel}`,
+  label: `${dayGroup.weekdayLabel}`,
+  // label: `${dayGroup.weekdayLabel}, ${dayGroup.dateLabel}`,
 }));
 
 const typeOptions = sortedTypes.map((sessionType) => ({
@@ -142,9 +143,6 @@ const conferenceDateTimeFormatter = new Intl.DateTimeFormat("en-US", {
 });
 
 function formatNotesForSession(session: SessionListItem) {
-  if (session.eventTypeLabel.includes("shop")) {
-    console.log("formatNotesForSession", session);
-  }
   const startISO = session.startISO;
   const scheduleLabel = `${conferenceDateTimeFormatter.format(new Date(startISO))}`;
 
@@ -263,8 +261,8 @@ function formatPeopleForSession(session: SessionListItem) {
       const localTimeZone =
         Intl.DateTimeFormat().resolvedOptions().timeZone || "UTC";
 
-      const timezoneSelect = root.querySelector("#timezone-mode");
-      const dayFilterSelect = root.querySelector("#day-filter");
+      const timezoneControl = root.querySelector<HTMLElement>("#timezone-mode");
+      const dayFilterControl = root.querySelector<HTMLElement>("#day-filter");
       const searchInput = root.querySelector("#sessions-search");
       const timeRanges = Array.from(
         root.querySelectorAll<HTMLElement>(".js-time-range"),
@@ -285,13 +283,38 @@ function formatPeopleForSession(session: SessionListItem) {
       const ALL_FILTER = "all";
       let activeTypeFilter = ALL_FILTER;
 
-      const getSelectValue = (
-        element: Element | null,
+      const getChoiceValue = (
+        container: HTMLElement | null,
         fallback: string,
-      ): string =>
-        element instanceof HTMLSelectElement && element.value
-          ? element.value
-          : fallback;
+      ): string => {
+        if (!container) return fallback;
+        const activeButton = container.querySelector<HTMLButtonElement>(
+          ".u-choice-button.is-active[data-choice-value]",
+        );
+        return activeButton?.dataset.choiceValue || fallback;
+      };
+
+      const setChoiceValue = (
+        container: HTMLElement | null,
+        value: string,
+      ): boolean => {
+        if (!container) return false;
+        const buttons = Array.from(
+          container.querySelectorAll<HTMLButtonElement>(
+            ".u-choice-button[data-choice-value]",
+          ),
+        );
+        let found = false;
+
+        for (const button of buttons) {
+          const isActive = button.dataset.choiceValue === value;
+          if (isActive) found = true;
+          button.classList.toggle("is-active", isActive);
+          button.setAttribute("aria-pressed", String(isActive));
+        }
+
+        return found;
+      };
 
       const getSearchQuery = (): string =>
         searchInput instanceof HTMLInputElement
@@ -352,9 +375,9 @@ function formatPeopleForSession(session: SessionListItem) {
         return `${dateFormatter(timeZone).format(startDate)} ${timeFormatter(timeZone).format(startDate)} - ${dateFormatter(timeZone).format(endDate)} ${timeFormatter(timeZone).format(endDate)}`;
       };
 
-      const getMode = () => getSelectValue(timezoneSelect, "conference");
+      const getMode = () => getChoiceValue(timezoneControl, "conference");
 
-      const getSelectedDay = () => getSelectValue(dayFilterSelect, "all");
+      const getSelectedDay = () => getChoiceValue(dayFilterControl, "all");
 
       const formatRangeForMode = (startISO: string, endISO: string) => {
         const mode = getMode();
@@ -442,26 +465,44 @@ function formatPeopleForSession(session: SessionListItem) {
         });
       }
 
-      if (timezoneSelect instanceof HTMLSelectElement) {
-        const savedMode = localStorage.getItem(localStorageKey);
-        if (
-          savedMode === "conference" ||
-          savedMode === "local" ||
-          savedMode === "both"
-        ) {
-          timezoneSelect.value = savedMode;
-        }
-
-        timezoneSelect.addEventListener("change", () => {
-          localStorage.setItem(localStorageKey, timezoneSelect.value);
-          refreshTimeRanges();
-        });
+      const savedMode = localStorage.getItem(localStorageKey);
+      if (
+        savedMode === "conference" ||
+        savedMode === "local" ||
+        savedMode === "both"
+      ) {
+        setChoiceValue(timezoneControl, savedMode);
       }
 
-      if (dayFilterSelect instanceof HTMLSelectElement) {
-        dayFilterSelect.addEventListener("change", () => {
-          applyFilters();
-        });
+      if (timezoneControl) {
+        const timezoneButtons = Array.from(
+          timezoneControl.querySelectorAll<HTMLButtonElement>(
+            ".u-choice-button[data-choice-value]",
+          ),
+        );
+        for (const button of timezoneButtons) {
+          button.addEventListener("click", () => {
+            const value = button.dataset.choiceValue;
+            if (!value || !setChoiceValue(timezoneControl, value)) return;
+            localStorage.setItem(localStorageKey, value);
+            refreshTimeRanges();
+          });
+        }
+      }
+
+      if (dayFilterControl) {
+        const dayButtons = Array.from(
+          dayFilterControl.querySelectorAll<HTMLButtonElement>(
+            ".u-choice-button[data-choice-value]",
+          ),
+        );
+        for (const button of dayButtons) {
+          button.addEventListener("click", () => {
+            const value = button.dataset.choiceValue;
+            if (!value || !setChoiceValue(dayFilterControl, value)) return;
+            applyFilters();
+          });
+        }
       }
 
       // Pre-apply type filter from URL param (?type=full, etc.)
