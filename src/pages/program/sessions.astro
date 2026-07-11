@@ -59,6 +59,18 @@ const dayDateFormatter = new Intl.DateTimeFormat("en-US", {
 
 const sessionList = await fetchAllSessions();
 
+function getEventPartSuffix(event: any, session: any): string {
+  const multiPartEventTypes = ["workshop", "tutorial", "panel"];
+  const isMultiPartEvent = multiPartEventTypes.includes(
+    event.event_type.toLowerCase(),
+  );
+  if (!isMultiPartEvent) {
+    return "";
+  }
+  const sessionNumber = session.session_id.split("-").pop();
+  return ` (part ${sessionNumber})`;
+}
+
 const sessions: SessionListItem[] = Object.values(sessionList)
   .flatMap((eventDefinition) =>
     eventDefinition.sessions.map((session) => {
@@ -72,11 +84,12 @@ const sessions: SessionListItem[] = Object.values(sessionList)
       ]
         .join(" ")
         .toLowerCase();
+      const eventSuffix = getEventPartSuffix(eventDefinition, session);
 
       return {
         id: session.session_id,
         eventSlug: `${session.event_prefix}-${session.session_id}`,
-        title: session.title,
+        title: `${session.title}${eventSuffix}`,
         eventTitle: eventDefinition.long_name,
         eventType,
         eventTypeLabel: getProgramEventTypeLabel(eventType),
