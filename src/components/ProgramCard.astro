@@ -79,7 +79,7 @@ const style = [
     <div class="program-card__title">
       <a
         class="program-card__title-link"
-        href={titleHref}
+        href={withBaseURL(titleHref)}
         style={`color: ${titleColor || "inherit"}`}
       >
         {title}
@@ -122,7 +122,7 @@ const style = [
             {links.map((link, index) => (
               <span>
                 {index > 0 && <span> </span>}
-                <a class="program-card__link" href={link.href}>
+                <a class="program-card__link" href={withBaseURL(link.href)}>
                   {link.label}
                 </a>
               </span>

@@ -6,7 +6,6 @@
 export const features = {
   weekOfVis: {
     enabled: true,
-    showcaseEnabled: false,
     useLocalSources: true,
     sources: {
       paper:
