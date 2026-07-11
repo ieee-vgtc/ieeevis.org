@@ -1,6 +1,8 @@
 import React from "react";
 import type { Session } from "../types/session";
 
+// THIS CAN PROBABLY BE DELETED
+
 interface SessionListingProps {
   colors: Record<string, string>;
   organizers: string[];

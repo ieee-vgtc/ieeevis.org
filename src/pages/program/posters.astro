@@ -2,11 +2,11 @@
 import PageLayout from "../../layouts/PageLayout.astro";
 import { fetchAllSessions, fetchAllPosters } from "../../utils/paperData";
 import { withBaseURL } from "../../utils/withBaseURL";
-import ProgramPapersBrowser from "../../components/ProgramPapersBrowser";
+import ProgramPapersBrowser from "../../components/ProgramPapersBrowser.astro";
 import type { ProgramTimeSlot } from "../../types/program";
-import type { ProgramPaperCard } from "../../components/ProgramPapersBrowser";
+import type { ProgramPaperCard } from "../../types/programPaper";
 
-const CONFERENCE_TIME_ZONE = "Europe/Vienna";
+const CONFERENCE_TIME_ZONE = "US/Eastern";
 
 type PaperSessionMeta = {
   sessionSlug: string;
@@ -111,9 +111,5 @@ const frontmatter = {
 ---
 
 <PageLayout frontmatter={frontmatter}>
-  <ProgramPapersBrowser
-    papers={paperCards}
-    itemType="poster"
-    client:only="react"
-  />
+  <ProgramPapersBrowser papers={paperCards} itemType="poster" />
 </PageLayout>

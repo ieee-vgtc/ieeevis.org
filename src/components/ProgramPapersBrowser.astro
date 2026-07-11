@@ -1,0 +1,554 @@
+---
+import ProgramHeader from "./ProgramHeader.astro";
+import ProgramCard from "./ProgramCard.astro";
+import { getProgramEventTypeLabel } from "../utils/programEventTypeLabel";
+import type { ProgramPapersBrowserProps } from "../types/programPaper";
+import { typeColors, typeTextColors } from "../utils/week-of-utils";
+
+const paperTypeToNameMap: Record<string, string> = {
+  full: "Full VIS Paper",
+  short: "VIS Short Paper",
+  poster: "Poster",
+  demo: "Demo",
+  "workshop paper": "Workshop Paper",
+};
+
+const normalizePaperType = (value: string) => value.trim().toLowerCase();
+
+const {
+  papers,
+  storageKeyPrefix = "program-papers",
+  itemType,
+} = Astro.props as ProgramPapersBrowserProps;
+
+const bookmarkKey = `${storageKeyPrefix}-bookmarks`;
+const lowerItemType = itemType.toLowerCase();
+
+const typeCounts = papers.reduce<Record<string, number>>((acc, paper) => {
+  const type = normalizePaperType(paper.presentationLabel);
+  acc[type] = (acc[type] || 0) + 1;
+  return acc;
+}, {});
+
+const typeOptions = Object.keys(typeCounts)
+  .sort((a, b) => a.localeCompare(b))
+  .map((value) => ({
+    value,
+    label: getProgramEventTypeLabel(value),
+    count: typeCounts[value],
+    color: typeColors[value] || "#6b7280",
+  }));
+---
+
+<section
+  class="program-papers grid gap-3"
+  data-local-storage-key-prefix={storageKeyPrefix}
+  data-bookmark-key={bookmarkKey}
+>
+  <ProgramHeader
+    title={`VIS ${itemType}s`}
+    subtitleBefore={`Browse accepted ${lowerItemType}s by title, author, keyword, and session information.`}
+    subtitleAfter={""}
+    groupingNote="Note: bookmarks are stored locally in your browser and are not shared across devices."
+    typeOptions={typeOptions}
+    allCount={papers.length}
+    filterBarLabel="Paper type filters"
+    allLabel="All"
+  >
+    <div slot="extra-controls" class="papers-controls">
+      <div class="flex w-full justify-between">
+        <label class="papers-control">
+          Search by
+          <div
+            id="papers-search-field"
+            class="papers-choice-group"
+            role="group"
+            aria-label="Search by"
+          >
+            <button
+              type="button"
+              class="papers-choice-button is-active"
+              data-choice-value="any"
+              aria-pressed="true"
+            >
+              any
+            </button>
+            <button
+              type="button"
+              class="papers-choice-button"
+              data-choice-value="title"
+              aria-pressed="false"
+            >
+              title
+            </button>
+            <button
+              type="button"
+              class="papers-choice-button"
+              data-choice-value="keyword"
+              aria-pressed="false"
+            >
+              keyword
+            </button>
+            <button
+              type="button"
+              class="papers-choice-button"
+              data-choice-value="author"
+              aria-pressed="false"
+            >
+              author
+            </button>
+            <button
+              type="button"
+              class="papers-choice-button"
+              data-choice-value="session"
+              aria-pressed="false"
+            >
+              session
+            </button>
+          </div>
+        </label>
+
+        <label class="papers-control">
+          Sort by
+          <div
+            id="papers-sort"
+            class="papers-choice-group"
+            role="group"
+            aria-label="Sort by"
+          >
+            <button
+              type="button"
+              class="papers-choice-button is-active"
+              data-choice-value="title"
+              aria-pressed="true"
+            >
+              title
+            </button>
+            <button
+              type="button"
+              class="papers-choice-button"
+              data-choice-value="bookmarked"
+              aria-pressed="false"
+            >
+              bookmarked first
+            </button>
+            <button
+              type="button"
+              class="papers-choice-button"
+              data-choice-value="schedule"
+              aria-pressed="false"
+            >
+              schedule
+            </button>
+          </div>
+        </label>
+      </div>
+
+      <label class="papers-control">
+        Find
+        <div class="papers-search-shell">
+          <input
+            id="papers-search"
+            class="papers-search"
+            type="search"
+            placeholder={`Search ${lowerItemType}s`}
+            aria-label={`Search ${lowerItemType}s`}
+          />
+          <button
+            id="papers-search-clear"
+            class="papers-search-clear"
+            type="button"
+            aria-label="Clear search"
+          >
+            x
+          </button>
+        </div>
+      </label>
+    </div>
+  </ProgramHeader>
+
+  <div class="papers-grid" id="papers-grid">
+    {
+      papers.map((paper) => {
+        const isBookmarked = false;
+        const normalizedType = paper.presentationLabel.trim().toLowerCase();
+        const people = paper.authorNames.map((authorName) => ({
+          name: authorName,
+          href: `/program/papers?search=${encodeURIComponent(authorName)}`,
+        }));
+        const links = [
+          ...(paper.sessionUrl
+            ? [{ label: paper.scheduleLabel, href: paper.sessionUrl }]
+            : []),
+          {
+            label: "Search for papers in this session",
+            href: `/program/papers?search=${encodeURIComponent(paper.sessionLabel)}`,
+          },
+        ];
+
+        return (
+          <ProgramCard
+            data-program-card
+            data-paper-id={paper.id}
+            data-type={normalizedType}
+            data-title={paper.title.toLowerCase()}
+            data-authors={paper.authorNames.join(",").toLowerCase()}
+            data-keywords={paper.keywordsLabel.toLowerCase()}
+            data-session={paper.sessionLabel.toLowerCase()}
+            data-start-ms={paper.startMs}
+            accentColor={typeColors[normalizedType] || "#f3f4f6"}
+            titleColor={typeTextColors[normalizedType] || "#111827"}
+            title={paper.title}
+            titleHref={`/program/${itemType}/${paper.id}`}
+            eyebrow={
+              paperTypeToNameMap[normalizedType] || paper.presentationLabel
+            }
+            subtitle={paper.award ? `Award: ${paper.award}` : undefined}
+            peopleLabel="Authors"
+            people={people}
+            links={links}
+            bookmark={{ bookmarked: isBookmarked }}
+          />
+        );
+      })
+    }
+  </div>
+
+  <p id="papers-empty" class="papers-empty" hidden>
+    No papers match the current filters.
+  </p>
+</section>
+
+<script>
+  (() => {
+    const root = document.querySelector(".program-papers");
+    if (!root) return;
+
+    const bookmarkKey =
+      root.getAttribute("data-bookmark-key") || "program-papers-bookmarks";
+
+    const searchInput = root.querySelector<HTMLInputElement>("#papers-search");
+    const clearButton = root.querySelector<HTMLButtonElement>(
+      "#papers-search-clear",
+    );
+    const searchFieldControl = root.querySelector<HTMLElement>(
+      "#papers-search-field",
+    );
+    const sortControl = root.querySelector<HTMLElement>("#papers-sort");
+    const grid = root.querySelector<HTMLElement>("#papers-grid");
+    const emptyState = root.querySelector<HTMLElement>("#papers-empty");
+    const cards = Array.from(
+      root.querySelectorAll<HTMLElement>("[data-program-card]"),
+    );
+    const typeFilterButtons = Array.from(
+      root.querySelectorAll<HTMLButtonElement>("[data-type-filter]"),
+    );
+    const params = new URLSearchParams(window.location.search);
+    const validSearchFields = new Set([
+      "any",
+      "title",
+      "keyword",
+      "author",
+      "session",
+    ]);
+    const validTypeValues = new Set(
+      typeFilterButtons
+        .map((button) => button.getAttribute("data-type-filter") || "")
+        .filter(Boolean),
+    );
+    const validSortModes = new Set(["title", "bookmarked", "schedule"]);
+
+    const getStoredBookmarks = () => {
+      try {
+        const raw = localStorage.getItem(bookmarkKey);
+        if (!raw) return [];
+        const parsed = JSON.parse(raw);
+        return Array.isArray(parsed) ? parsed : [];
+      } catch {
+        return [];
+      }
+    };
+
+    const storeBookmarks = (bookmarks: string[]) => {
+      localStorage.setItem(bookmarkKey, JSON.stringify(bookmarks));
+    };
+
+    const bookmarks = new Set(getStoredBookmarks());
+
+    if (searchInput && params.get("search")) {
+      searchInput.value = params.get("search") || "";
+    }
+
+    const getChoiceValue = (
+      container: HTMLElement | null,
+      fallback: string,
+    ): string => {
+      if (!container) return fallback;
+      const activeButton = container.querySelector<HTMLButtonElement>(
+        ".papers-choice-button.is-active[data-choice-value]",
+      );
+      return activeButton?.dataset.choiceValue || fallback;
+    };
+
+    const setChoiceValue = (
+      container: HTMLElement | null,
+      value: string,
+    ): boolean => {
+      if (!container) return false;
+      const buttons = Array.from(
+        container.querySelectorAll<HTMLButtonElement>(
+          ".papers-choice-button[data-choice-value]",
+        ),
+      );
+      let found = false;
+
+      for (const button of buttons) {
+        const isActive = button.dataset.choiceValue === value;
+        if (isActive) found = true;
+        button.classList.toggle("is-active", isActive);
+        button.setAttribute("aria-pressed", String(isActive));
+      }
+
+      return found;
+    };
+
+    const urlSearchField = params.get("filter") || "";
+    if (validSearchFields.has(urlSearchField)) {
+      setChoiceValue(searchFieldControl, urlSearchField);
+    }
+
+    let activeTypeFilter = validTypeValues.has(params.get("type") || "")
+      ? params.get("type") || "all"
+      : "all";
+
+    const urlSortMode = params.get("sort") || "";
+    if (validSortModes.has(urlSortMode)) {
+      setChoiceValue(sortControl, urlSortMode);
+    }
+
+    const getSearchQuery = () =>
+      searchInput instanceof HTMLInputElement
+        ? searchInput.value.trim().toLowerCase()
+        : "";
+
+    const getSearchField = () => getChoiceValue(searchFieldControl, "any");
+
+    const getSortMode = () => getChoiceValue(sortControl, "title");
+
+    const getTypeFilter = () => activeTypeFilter;
+
+    const syncUrlParams = () => {
+      const nextParams = new URLSearchParams(window.location.search);
+      const searchQuery = getSearchQuery();
+      const searchField = getSearchField();
+      const typeFilter = getTypeFilter();
+      const sortMode = getSortMode();
+
+      if (searchQuery) {
+        nextParams.set("search", searchQuery);
+      } else {
+        nextParams.delete("search");
+      }
+
+      if (searchField !== "any") {
+        nextParams.set("filter", searchField);
+      } else {
+        nextParams.delete("filter");
+      }
+
+      if (typeFilter !== "all") {
+        nextParams.set("type", typeFilter);
+      } else {
+        nextParams.delete("type");
+      }
+
+      if (sortMode !== "title") {
+        nextParams.set("sort", sortMode);
+      } else {
+        nextParams.delete("sort");
+      }
+
+      const query = nextParams.toString();
+      const nextUrl = `${window.location.pathname}${query ? `?${query}` : ""}${window.location.hash}`;
+      history.replaceState(null, "", nextUrl);
+    };
+
+    const getFieldValue = (card: HTMLElement) => {
+      const field = getSearchField();
+      if (field === "title") return card.dataset.title || "";
+      if (field === "keyword") return card.dataset.keywords || "";
+      if (field === "author") return card.dataset.authors || "";
+      if (field === "session") return card.dataset.session || "";
+      return [
+        card.dataset.title || "",
+        card.dataset.authors || "",
+        card.dataset.keywords || "",
+        card.dataset.session || "",
+      ].join(" ");
+    };
+
+    const refreshBookmarkState = () => {
+      for (const card of cards) {
+        const paperId = card.getAttribute("data-paper-id");
+        const toggle = card.querySelector<HTMLButtonElement>(
+          "[data-bookmark-toggle]",
+        );
+        const icon = card.querySelector<HTMLElement>("[data-bookmark-icon]");
+        if (!paperId || !toggle) continue;
+
+        const bookmarked = bookmarks.has(paperId);
+        toggle.setAttribute(
+          "aria-label",
+          bookmarked ? "Remove bookmark" : "Add bookmark",
+        );
+        toggle.setAttribute(
+          "title",
+          bookmarked ? "Remove bookmark" : "Add bookmark",
+        );
+        toggle.setAttribute("data-bookmarked", String(bookmarked));
+        toggle.classList.toggle("is-bookmarked", bookmarked);
+        if (icon) {
+          icon.textContent = bookmarked ? "bookmark" : "bookmark_border";
+        }
+      }
+    };
+
+    const refreshTypeFilterState = () => {
+      for (const button of typeFilterButtons) {
+        const buttonType = button.getAttribute("data-type-filter") || "all";
+        const isActive = buttonType === activeTypeFilter;
+        button.setAttribute("aria-pressed", String(isActive));
+        button.classList.toggle("is-active", isActive);
+      }
+    };
+
+    const applyFilters = () => {
+      const query = getSearchQuery();
+      const typeFilter = getTypeFilter();
+      const sortMode = getSortMode();
+      const visibleCards = cards.filter((card) => {
+        const haystack = getFieldValue(card).toLowerCase();
+        const cardType = card.dataset.type || "";
+        const typeMatch = typeFilter === "all" || cardType === typeFilter;
+        return (query.length === 0 || haystack.includes(query)) && typeMatch;
+      });
+
+      visibleCards.sort((a, b) => {
+        const aId = a.getAttribute("data-paper-id") || "";
+        const bId = b.getAttribute("data-paper-id") || "";
+
+        if (sortMode === "bookmarked") {
+          const delta = Number(bookmarks.has(bId)) - Number(bookmarks.has(aId));
+          if (delta !== 0) return delta;
+        }
+
+        if (sortMode === "schedule") {
+          const aStart = Number(
+            a.getAttribute("data-start-ms") || Number.MAX_SAFE_INTEGER,
+          );
+          const bStart = Number(
+            b.getAttribute("data-start-ms") || Number.MAX_SAFE_INTEGER,
+          );
+          if (aStart !== bStart) return aStart - bStart;
+        }
+
+        const aTitle = a.getAttribute("data-title") || "";
+        const bTitle = b.getAttribute("data-title") || "";
+        return aTitle.localeCompare(bTitle);
+      });
+
+      if (grid) {
+        for (const card of visibleCards) {
+          grid.appendChild(card);
+        }
+      }
+
+      for (const card of cards) {
+        card.hidden = !visibleCards.includes(card);
+      }
+
+      if (emptyState) {
+        emptyState.hidden = visibleCards.length > 0;
+      }
+
+      refreshBookmarkState();
+      syncUrlParams();
+    };
+
+    const toggleBookmark = (paperId: string) => {
+      if (bookmarks.has(paperId)) {
+        bookmarks.delete(paperId);
+      } else {
+        bookmarks.add(paperId);
+      }
+      storeBookmarks(Array.from(bookmarks));
+      refreshBookmarkState();
+    };
+
+    for (const card of cards) {
+      const paperId = card.getAttribute("data-paper-id");
+      const toggle = card.querySelector<HTMLButtonElement>(
+        "[data-bookmark-toggle]",
+      );
+
+      if (toggle && paperId) {
+        toggle.addEventListener("click", () => toggleBookmark(paperId));
+      }
+    }
+
+    if (searchInput instanceof HTMLInputElement) {
+      searchInput.addEventListener("input", applyFilters);
+    }
+
+    if (clearButton) {
+      clearButton.addEventListener("click", () => {
+        if (searchInput) {
+          searchInput.value = "";
+        }
+        applyFilters();
+      });
+    }
+
+    if (searchFieldControl) {
+      const searchFieldButtons = Array.from(
+        searchFieldControl.querySelectorAll<HTMLButtonElement>(
+          ".papers-choice-button[data-choice-value]",
+        ),
+      );
+      for (const button of searchFieldButtons) {
+        button.addEventListener("click", () => {
+          const value = button.dataset.choiceValue;
+          if (!value || !setChoiceValue(searchFieldControl, value)) return;
+          applyFilters();
+        });
+      }
+    }
+
+    for (const button of typeFilterButtons) {
+      button.addEventListener("click", () => {
+        activeTypeFilter = button.getAttribute("data-type-filter") || "all";
+        refreshTypeFilterState();
+        applyFilters();
+      });
+    }
+
+    if (sortControl) {
+      const sortButtons = Array.from(
+        sortControl.querySelectorAll<HTMLButtonElement>(
+          ".papers-choice-button[data-choice-value]",
+        ),
+      );
+      for (const button of sortButtons) {
+        button.addEventListener("click", () => {
+          const value = button.dataset.choiceValue;
+          if (!value || !setChoiceValue(sortControl, value)) return;
+          applyFilters();
+        });
+      }
+    }
+
+    refreshTypeFilterState();
+    refreshBookmarkState();
+    applyFilters();
+  })();
+</script>
