@@ -448,10 +448,10 @@ menu:
                   #   description: "List of all sessions and events"
                   #   url: "/program/sessions"
                   #   is_new: true
-                  - text: "Schedule"
-                    description: "Detailed schedule of the conference"
-                    url: "/program/calendar"
-                    is_new: true
+                  # - text: "Schedule"
+                  #   description: "Detailed schedule of the conference"
+                  #   url: "/program/calendar"
+                  #   is_new: true
                   # - text: "Posters"
                   #   description: "Nascent and recent work"
                   #   url: "/info/program/posters"
