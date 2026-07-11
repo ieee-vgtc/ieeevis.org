@@ -1,5 +1,6 @@
 ---
 import { withBaseURL } from "../utils/withBaseURL";
+import { getProgramEventTypeLabel } from "../utils/programEventTypeLabel";
 import type { ProgramPapersBrowserProps } from "../types/programPaper";
 import { typeColors, typeTextColors } from "../utils/week-of-utils";
 
@@ -11,6 +12,8 @@ const paperTypeToNameMap: Record<string, string> = {
   "workshop paper": "Workshop Paper",
 };
 
+const normalizePaperType = (value: string) => value.trim().toLowerCase();
+
 const {
   papers,
   storageKeyPrefix = "program-papers",
@@ -19,6 +22,21 @@ const {
 
 const bookmarkKey = `${storageKeyPrefix}-bookmarks`;
 const lowerItemType = itemType.toLowerCase();
+
+const typeCounts = papers.reduce<Record<string, number>>((acc, paper) => {
+  const type = normalizePaperType(paper.presentationLabel);
+  acc[type] = (acc[type] || 0) + 1;
+  return acc;
+}, {});
+
+const typeOptions = Object.keys(typeCounts)
+  .sort((a, b) => a.localeCompare(b))
+  .map((value) => ({
+    value,
+    label: getProgramEventTypeLabel(value),
+    count: typeCounts[value],
+    color: typeColors[value] || "#6b7280",
+  }));
 ---
 
 <section
@@ -83,6 +101,32 @@ const lowerItemType = itemType.toLowerCase();
     </div>
   </div>
 
+  <div class="papers-filter-bar" role="toolbar" aria-label="Paper type filters">
+    <button
+      class="papers-filter-pill is-active"
+      type="button"
+      data-type-filter="all"
+      style="--pill-color: #374151"
+      aria-pressed="true"
+    >
+      <span>All</span>
+      <span class="papers-filter-count">{papers.length}</span>
+    </button>
+
+    {typeOptions.map((typeOption) => (
+      <button
+        class="papers-filter-pill"
+        type="button"
+        data-type-filter={typeOption.value}
+        style={`--pill-color: ${typeOption.color}`}
+        aria-pressed="false"
+      >
+        <span>{typeOption.label}</span>
+        <span class="papers-filter-count">{typeOption.count}</span>
+      </button>
+    ))}
+  </div>
+
   <div class="papers-grid" id="papers-grid">
     {
       papers.map((paper) => {
@@ -93,6 +137,7 @@ const lowerItemType = itemType.toLowerCase();
             class="paper-card"
             data-paper-card
             data-paper-id={paper.id}
+            data-type={normalizePaperType(paper.presentationLabel)}
             data-title={paper.title.toLowerCase()}
             data-authors={paper.authorNames.join(",").toLowerCase()}
             data-keywords={paper.keywordsLabel.toLowerCase()}
@@ -101,7 +146,7 @@ const lowerItemType = itemType.toLowerCase();
           >
             <div
               class="paper-card__header"
-              style={`background-color: ${typeColors[paper.presentationLabel.toLowerCase()] || "#f3f4f6"}`}
+              style={`background-color: ${typeColors[normalizePaperType(paper.presentationLabel)] || "#f3f4f6"}`}
             >
               <button
                 class="paper-bookmark"
@@ -119,7 +164,7 @@ const lowerItemType = itemType.toLowerCase();
               <a
                 class="paper-title"
                 href={withBaseURL(`/program/${itemType}/${paper.id}`)}
-                style={`color: ${typeTextColors[paper.presentationLabel.toLowerCase()] || "#111827"}`}
+                style={`color: ${typeTextColors[normalizePaperType(paper.presentationLabel)] || "#111827"}`}
                 data-paper-link
               >
                 {paper.title}
@@ -202,6 +247,9 @@ const lowerItemType = itemType.toLowerCase();
     const cards = Array.from(
       root.querySelectorAll<HTMLElement>("[data-paper-card]"),
     );
+    const typeFilterButtons = Array.from(
+      root.querySelectorAll<HTMLButtonElement>("[data-type-filter]"),
+    );
     const params = new URLSearchParams(window.location.search);
     const validSearchFields = new Set([
       "any",
@@ -210,6 +258,11 @@ const lowerItemType = itemType.toLowerCase();
       "author",
       "session",
     ]);
+    const validTypeValues = new Set(
+      typeFilterButtons
+        .map((button) => button.getAttribute("data-type-filter") || "")
+        .filter(Boolean),
+    );
     const validSortModes = new Set(["title", "bookmarked", "schedule"]);
 
     const getStoredBookmarks = () => {
@@ -240,6 +293,10 @@ const lowerItemType = itemType.toLowerCase();
       searchFieldSelect.value = params.get("filter") || "any";
     }
 
+    let activeTypeFilter = validTypeValues.has(params.get("type") || "")
+      ? params.get("type") || "all"
+      : "all";
+
     if (sortSelect && validSortModes.has(params.get("sort") || "")) {
       sortSelect.value = params.get("sort") || "title";
     }
@@ -259,10 +316,14 @@ const lowerItemType = itemType.toLowerCase();
         ? sortSelect.value
         : "title";
 
+    const getTypeFilter = () =>
+      activeTypeFilter;
+
     const syncUrlParams = () => {
       const nextParams = new URLSearchParams(window.location.search);
       const searchQuery = getSearchQuery();
       const searchField = getSearchField();
+      const typeFilter = getTypeFilter();
       const sortMode = getSortMode();
 
       if (searchQuery) {
@@ -275,6 +336,12 @@ const lowerItemType = itemType.toLowerCase();
         nextParams.set("filter", searchField);
       } else {
         nextParams.delete("filter");
+      }
+
+      if (typeFilter !== "all") {
+        nextParams.set("type", typeFilter);
+      } else {
+        nextParams.delete("type");
       }
 
       if (sortMode !== "title") {
@@ -328,12 +395,24 @@ const lowerItemType = itemType.toLowerCase();
       }
     };
 
+    const refreshTypeFilterState = () => {
+      for (const button of typeFilterButtons) {
+        const buttonType = button.getAttribute("data-type-filter") || "all";
+        const isActive = buttonType === activeTypeFilter;
+        button.setAttribute("aria-pressed", String(isActive));
+        button.classList.toggle("is-active", isActive);
+      }
+    };
+
     const applyFilters = () => {
       const query = getSearchQuery();
+      const typeFilter = getTypeFilter();
       const sortMode = getSortMode();
       const visibleCards = cards.filter((card) => {
         const haystack = getFieldValue(card).toLowerCase();
-        return query.length === 0 || haystack.includes(query);
+        const cardType = card.dataset.type || "";
+        const typeMatch = typeFilter === "all" || cardType === typeFilter;
+        return (query.length === 0 || haystack.includes(query)) && typeMatch;
       });
 
       visibleCards.sort((a, b) => {
@@ -416,10 +495,19 @@ const lowerItemType = itemType.toLowerCase();
       searchFieldSelect.addEventListener("change", applyFilters);
     }
 
+    for (const button of typeFilterButtons) {
+      button.addEventListener("click", () => {
+        activeTypeFilter = button.getAttribute("data-type-filter") || "all";
+        refreshTypeFilterState();
+        applyFilters();
+      });
+    }
+
     if (sortSelect) {
       sortSelect.addEventListener("change", applyFilters);
     }
 
+    refreshTypeFilterState();
     refreshBookmarkState();
     applyFilters();
   })();
@@ -496,6 +584,40 @@ const lowerItemType = itemType.toLowerCase();
     padding: 0.45rem 0.7rem;
     color: var(--color-gray-600);
     cursor: pointer;
+  }
+
+  .papers-filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .papers-filter-pill {
+    border: 1px solid var(--pill-color);
+    color: var(--pill-color);
+    background: white;
+    border-radius: 999px;
+    padding: 0.3rem 0.75rem;
+    font-size: 0.85rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    cursor: pointer;
+    transition: all 120ms ease;
+  }
+
+  .papers-filter-pill:hover {
+    transform: translateY(-1px);
+  }
+
+  .papers-filter-pill.is-active {
+    color: white;
+    background: var(--pill-color);
+  }
+
+  .papers-filter-count {
+    font-weight: 700;
+    opacity: 0.9;
   }
 
   .papers-grid {
