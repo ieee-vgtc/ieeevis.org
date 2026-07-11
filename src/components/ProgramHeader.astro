@@ -18,16 +18,16 @@ interface Props {
   subtitleAfter?: string;
   showTimezoneDescription?: boolean;
   groupingNote?: string;
-  timezoneLabel: string;
-  timezoneSelectId: string;
-  dayLabel: string;
-  daySelectId: string;
-  searchLabel: string;
-  searchInputId: string;
-  searchPlaceholder: string;
-  dayOptions: DayOption[];
-  typeOptions: TypeOption[];
-  allCount: number;
+  timezoneLabel?: string;
+  timezoneSelectId?: string;
+  dayLabel?: string;
+  daySelectId?: string;
+  searchLabel?: string;
+  searchInputId?: string;
+  searchPlaceholder?: string;
+  dayOptions?: DayOption[];
+  typeOptions?: TypeOption[];
+  allCount?: number;
   allLabel?: string;
   allDayLabel?: string;
   filterBarLabel?: string;
@@ -80,64 +80,82 @@ const className = (suffix: string) => `${prefix}-${suffix}`;
   </div>
 
   <div class={className("controls")}>
-    <label class={className("control")}>
-      {timezoneLabel}
-      <select id={timezoneSelectId} class={className("select")}>
-        <option value="conference">Conference timezone</option>
-        <option value="local">My local timezone</option>
-        <option value="both">Conference and local</option>
-      </select>
-    </label>
+    {
+      timezoneLabel && timezoneSelectId && (
+        <label class={className("control")}>
+          {timezoneLabel}
+          <select id={timezoneSelectId} class={className("select")}>
+            <option value="conference">Conference timezone</option>
+            <option value="local">My local timezone</option>
+            <option value="both">Conference and local</option>
+          </select>
+        </label>
+      )
+    }
 
-    <label class={className("control")}>
-      {dayLabel}
-      <select id={daySelectId} class={className("select")}>
-        <option value="all">{allDayLabel}</option>
-        {
-          dayOptions.map((dayOption) => (
-            <option value={dayOption.value}>{dayOption.label}</option>
-          ))
-        }
-      </select>
-    </label>
+    {
+      dayLabel && daySelectId && dayOptions && (
+        <label class={className("control")}>
+          {dayLabel}
+          <select id={daySelectId} class={className("select")}>
+            <option value="all">{allDayLabel}</option>
+            {dayOptions.map((dayOption) => (
+              <option value={dayOption.value}>{dayOption.label}</option>
+            ))}
+          </select>
+        </label>
+      )
+    }
 
-    <label class={className("control")}>
-      {searchLabel}
-      <input
-        id={searchInputId}
-        class={className("search")}
-        type="search"
-        placeholder={searchPlaceholder}
-        aria-label={searchLabel}
-      />
-    </label>
+    {
+      searchLabel && searchInputId && searchPlaceholder && (
+        <label class={className("control")}>
+          {searchLabel}
+          <input
+            id={searchInputId}
+            class={className("search")}
+            type="search"
+            placeholder={searchPlaceholder}
+            aria-label={searchLabel}
+          />
+        </label>
+      )
+    }
+
+    <slot name="extra-controls" />
   </div>
 </div>
 
-<div class={className("filter-bar")} role="toolbar" aria-label={filterBarLabel}>
-  <button
-    class={`${className("filter-pill")} is-active`}
-    type="button"
-    data-type-filter="all"
-    style="--pill-color: #374151"
-    aria-pressed="true"
-  >
-    <span>{allLabel}</span>
-    <span class={className("filter-count")}>{allCount}</span>
-  </button>
-
-  {
-    typeOptions.map((typeOption) => (
+{
+  typeOptions && typeOptions.length > 0 && (
+    <div
+      class={className("filter-bar")}
+      role="toolbar"
+      aria-label={filterBarLabel}
+    >
       <button
-        class={className("filter-pill")}
+        class={`${className("filter-pill")} is-active`}
         type="button"
-        data-type-filter={typeOption.value}
-        style={`--pill-color: ${typeOption.color || "#6b7280"}`}
-        aria-pressed="false"
+        data-type-filter="all"
+        style="--pill-color: #374151"
+        aria-pressed="true"
       >
-        <span>{typeOption.label}</span>
-        <span class={className("filter-count")}>{typeOption.count}</span>
+        <span>{allLabel}</span>
+        <span class={className("filter-count")}>{allCount || 0}</span>
       </button>
-    ))
-  }
-</div>
+
+      {typeOptions.map((typeOption) => (
+        <button
+          class={className("filter-pill")}
+          type="button"
+          data-type-filter={typeOption.value}
+          style={`--pill-color: ${typeOption.color || "#6b7280"}`}
+          aria-pressed="false"
+        >
+          <span>{typeOption.label}</span>
+          <span class={className("filter-count")}>{typeOption.count}</span>
+        </button>
+      ))}
+    </div>
+  )
+}
