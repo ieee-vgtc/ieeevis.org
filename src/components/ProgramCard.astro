@@ -4,7 +4,6 @@ import { withBaseURL } from "../utils/withBaseURL";
 type Props = {
   title: string;
   titleHref: string;
-  timeLabel?: string;
   eyebrow?: string;
   subtitle?: string;
   peopleLabel?: string;
@@ -23,7 +22,6 @@ type Props = {
 const {
   title,
   titleHref,
-  timeLabel,
   eyebrow,
   subtitle,
   peopleLabel,
@@ -45,19 +43,10 @@ const style = [
 ]
   .filter(Boolean)
   .join("; ");
-
-const resolveHref = (href: string) =>
-  href.startsWith("/") ? withBaseURL(href) : href;
 ---
 
 <article class={classList} style={style} {...attrs}>
   <div class="program-card__header">
-    {
-      timeLabel !== undefined && (
-        <p class="program-card__time js-time-range">{timeLabel}</p>
-      )
-    }
-
     {
       bookmark && (
         <button
@@ -68,20 +57,34 @@ const resolveHref = (href: string) =>
           title={bookmark.bookmarked ? "Remove bookmark" : "Add bookmark"}
           data-bookmarked={bookmark.bookmarked ? "true" : "false"}
         >
-          <i class="material-icons" data-bookmark-icon>
+          <i
+            class="material-icons"
+            data-bookmark-icon
+            style={`color: ${titleColor}`}
+          >
             {bookmark.bookmarked ? "bookmark" : "bookmark_border"}
           </i>
         </button>
       )
     }
 
-    {eyebrow && <p class="program-card__eyebrow">{eyebrow}</p>}
+    {
+      eyebrow && (
+        <p class="program-card__eyebrow" style={`color: ${titleColor}`}>
+          {eyebrow}
+        </p>
+      )
+    }
 
-    <h3 class="program-card__title">
-      <a class="program-card__title-link" href={resolveHref(titleHref)}>
+    <div class="program-card__title">
+      <a
+        class="program-card__title-link"
+        href={titleHref}
+        style={`color: ${titleColor || "inherit"}`}
+      >
         {title}
       </a>
-    </h3>
+    </div>
 
     {subtitle && <p class="program-card__subtitle">{subtitle}</p>}
   </div>
@@ -98,7 +101,7 @@ const resolveHref = (href: string) =>
               <span>
                 {index > 0 && <span>, </span>}
                 {person.href ? (
-                  <a class="program-card__link" href={resolveHref(person.href)}>
+                  <a class="program-card__link" href={withBaseURL(person.href)}>
                     {person.name}
                   </a>
                 ) : (
@@ -110,22 +113,23 @@ const resolveHref = (href: string) =>
         </p>
       )
     }
+    <div>
+      {notes.map((note) => <p class="program-card__note">{note}</p>)}
 
-    {notes.map((note) => <p class="program-card__note">{note}</p>)}
-
-    {
-      links.length > 0 && (
-        <p class="program-card__links">
-          {links.map((link, index) => (
-            <span>
-              {index > 0 && <span> </span>}
-              <a class="program-card__link" href={resolveHref(link.href)}>
-                {link.label}
-              </a>
-            </span>
-          ))}
-        </p>
-      )
-    }
+      {
+        links.length > 0 && (
+          <p class="program-card__links flex flex-col">
+            {links.map((link, index) => (
+              <span>
+                {index > 0 && <span> </span>}
+                <a class="program-card__link" href={link.href}>
+                  {link.label}
+                </a>
+              </span>
+            ))}
+          </p>
+        )
+      }
+    </div>
   </div>
 </article>

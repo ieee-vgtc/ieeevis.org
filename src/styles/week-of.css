@@ -880,6 +880,7 @@
   display: block;
   padding-right: 1.75rem;
   font-family: var(--font-display);
+  font-weight: 0;
   font-size: 1.25rem;
   line-height: 1.2;
   color: var(--program-card-title, black);
@@ -899,6 +900,7 @@
   flex-direction: column;
   gap: 0.5rem;
   padding: 0 1rem 1rem;
+  justify-content: space-between;
 }
 
 .program-card__eyebrow {
@@ -907,6 +909,11 @@
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.03em;
+}
+
+.program-card__people {
+  display: flex;
+  flex-direction: column;
 }
 
 .program-card__people,

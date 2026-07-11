@@ -4,7 +4,7 @@ import ProgramHeader from "../../components/ProgramHeader.astro";
 import ProgramCard from "../../components/ProgramCard.astro";
 import { fetchAllSessions } from "../../utils/paperData";
 import { getProgramEventTypeLabel } from "../../utils/programEventTypeLabel";
-import { typeColors } from "../../utils/week-of-utils";
+import { typeColors, typeTextColors } from "../../utils/week-of-utils";
 
 const CONFERENCE_TIME_ZONE = "US/Eastern";
 
@@ -131,16 +131,53 @@ const typeOptions = sortedTypes.map((sessionType) => ({
   count: typeCounts[sessionType],
   color: typeColors[sessionType] || "#6b7280",
 }));
+const conferenceDateTimeFormatter = new Intl.DateTimeFormat("en-US", {
+  timeZone: CONFERENCE_TIME_ZONE,
+  weekday: "short",
+  month: "short",
+  day: "numeric",
+  hour: "2-digit",
+  minute: "2-digit",
+  hour12: false,
+});
 
-const frontmatter = {
-  title: "All Sessions",
-  active_nav: "All Sessions",
-  contact: "web@ieeevis.org",
-  full_width: true,
-};
+function formatNotesForSession(session: SessionListItem) {
+  if (session.eventTypeLabel.includes("shop")) {
+    console.log("formatNotesForSession", session);
+  }
+  const startISO = session.startISO;
+  const scheduleLabel = `${conferenceDateTimeFormatter.format(new Date(startISO))}`;
+
+  const notes = [`Room: ${session.room}`, `Schedule: ${scheduleLabel}`];
+  return notes;
+}
+function figureOutPersonTypeLabel(session: SessionListItem) {
+  const organizerEvents = ["workshop", "tutorial", "panel"];
+  let label = organizerEvents.includes(session.eventType.toLowerCase())
+    ? "Organizer"
+    : "Chair";
+  if (session.chairs.length > 1) {
+    label += "s";
+  }
+  return label;
+}
+
+function formatPeopleForSession(session: SessionListItem) {
+  return session.chairs.map((authorName) => ({
+    name: authorName,
+    href: `/program/papers?search=${encodeURIComponent(authorName)}`,
+  }));
+}
 ---
 
-<PageLayout frontmatter={frontmatter}>
+<PageLayout
+  frontmatter={{
+    title: "All Sessions",
+    active_nav: "All Sessions",
+    contact: "web@ieeevis.org",
+    full_width: true,
+  }}
+>
   <section
     class="program-sessions"
     data-conference-timezone={CONFERENCE_TIME_ZONE}
@@ -192,17 +229,14 @@ const frontmatter = {
                   data-end={session.endISO}
                   accentColor={typeColors[session.eventType] || "#6b7280"}
                   title={session.title}
+                  titleColor={typeTextColors[session.eventType]}
                   titleHref={`/program/session/${session.eventSlug}`}
-                  timeLabel=""
+                  peopleLabel="????????"
                   eyebrow={session.eventTypeLabel}
-                  subtitle={session.eventTitle}
-                  peopleLabel="Room"
-                  people={[{ name: session.room }]}
-                  notes={
-                    session.chairs.length > 0
-                      ? [`Chair: ${session.chairs.join(", ")}`]
-                      : []
-                  }
+                  peopleLabel={figureOutPersonTypeLabel(session)}
+                  people={formatPeopleForSession(session)}
+                  links={[]}
+                  notes={formatNotesForSession(session)}
                 />
               ))}
             </div>
