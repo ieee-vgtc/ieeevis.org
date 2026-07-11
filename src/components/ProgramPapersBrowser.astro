@@ -1,6 +1,6 @@
 ---
 import ProgramHeader from "./ProgramHeader.astro";
-import { withBaseURL } from "../utils/withBaseURL";
+import ProgramCard from "./ProgramCard.astro";
 import { getProgramEventTypeLabel } from "../utils/programEventTypeLabel";
 import type { ProgramPapersBrowserProps } from "../types/programPaper";
 import { typeColors, typeTextColors } from "../utils/week-of-utils";
@@ -104,91 +104,45 @@ const typeOptions = Object.keys(typeCounts)
     {
       papers.map((paper) => {
         const isBookmarked = false;
+        const normalizedType = paper.presentationLabel.trim().toLowerCase();
+        const people = paper.authorNames.map((authorName) => ({
+          name: authorName,
+          href: `/program/papers?search=${encodeURIComponent(authorName)}`,
+        }));
+        const links = [
+          ...(paper.sessionUrl
+            ? [{ label: paper.scheduleLabel, href: paper.sessionUrl }]
+            : []),
+          {
+            label: "Search for papers in this session",
+            href: `/program/papers?search=${encodeURIComponent(paper.sessionLabel)}`,
+          },
+        ];
 
         return (
-          <article
-            class="paper-card"
-            data-paper-card
+          <ProgramCard
+            data-program-card
             data-paper-id={paper.id}
-            data-type={normalizePaperType(paper.presentationLabel)}
+            data-type={normalizedType}
             data-title={paper.title.toLowerCase()}
             data-authors={paper.authorNames.join(",").toLowerCase()}
             data-keywords={paper.keywordsLabel.toLowerCase()}
             data-session={paper.sessionLabel.toLowerCase()}
             data-start-ms={paper.startMs}
-          >
-            <div
-              class="paper-card__header"
-              style={`background-color: ${typeColors[normalizePaperType(paper.presentationLabel)] || "#f3f4f6"}`}
-            >
-              <button
-                class="paper-bookmark"
-                type="button"
-                data-bookmark-toggle
-                aria-label="Add bookmark"
-                title="Add bookmark"
-                data-bookmarked={isBookmarked ? "true" : "false"}
-              >
-                <i class="material-icons" data-bookmark-icon>
-                  bookmark_border
-                </i>
-              </button>
-
-              <a
-                class="paper-title"
-                href={withBaseURL(`/program/${itemType}/${paper.id}`)}
-                style={`color: ${typeTextColors[normalizePaperType(paper.presentationLabel)] || "#111827"}`}
-                data-paper-link
-              >
-                {paper.title}
-              </a>
-            </div>
-
-            <div class="paper-card__body">
-              <p class="paper-type">
-                {paperTypeToNameMap[paper.presentationLabel.toLowerCase()] ||
-                  paper.presentationLabel}
-              </p>
-              {paper.award && <p class="paper-award">Award: {paper.award}</p>}
-
-              <p class="paper-authors">
-                {paper.authorNames.length > 0
-                  ? paper.authorNames.map((authorName, authorIndex) => (
-                      <span>
-                        {authorIndex > 0 && <span>, </span>}
-                        <a
-                          class="paper-link"
-                          href={withBaseURL(
-                            `/program/papers?search=${encodeURIComponent(authorName)}`,
-                          )}
-                        >
-                          {authorName}
-                        </a>
-                      </span>
-                    ))
-                  : "Author list unavailable"}
-              </p>
-
-              <p class="paper-schedule">
-                {paper.sessionUrl ? (
-                  <a class="paper-link" href={paper.sessionUrl} data-visit-link>
-                    {paper.scheduleLabel}
-                  </a>
-                ) : (
-                  paper.scheduleLabel
-                )}
-                <a
-                  class="paper-link paper-session-search"
-                  href={withBaseURL(
-                    `/program/papers?search=${encodeURIComponent(paper.sessionLabel)}`,
-                  )}
-                  data-visit-link
-                >
-                  Search for papers in this session
-                </a>
-              </p>
-            </div>
-          </article>
+            accentColor={typeColors[normalizedType] || "#f3f4f6"}
+            titleColor={typeTextColors[normalizedType] || "#111827"}
+            title={paper.title}
+            titleHref={`/program/${itemType}/${paper.id}`}
+            eyebrow={
+              paperTypeToNameMap[normalizedType] || paper.presentationLabel
+            }
+            subtitle={paper.award ? `Award: ${paper.award}` : undefined}
+            peopleLabel="Authors"
+            people={people}
+            notes={[`Session: ${paper.scheduleLabel}`]}
+            links={links}
+            bookmark={{ bookmarked: isBookmarked }}
+          />
         );
       })
     }
@@ -218,7 +172,7 @@ const typeOptions = Object.keys(typeCounts)
     const grid = root.querySelector<HTMLElement>("#papers-grid");
     const emptyState = root.querySelector<HTMLElement>("#papers-empty");
     const cards = Array.from(
-      root.querySelectorAll<HTMLElement>("[data-paper-card]"),
+      root.querySelectorAll<HTMLElement>("[data-program-card]"),
     );
     const typeFilterButtons = Array.from(
       root.querySelectorAll<HTMLButtonElement>("[data-type-filter]"),

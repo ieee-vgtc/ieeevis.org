@@ -1,8 +1,8 @@
 ---
 import PageLayout from "../../layouts/PageLayout.astro";
 import ProgramHeader from "../../components/ProgramHeader.astro";
+import ProgramCard from "../../components/ProgramCard.astro";
 import { fetchAllSessions } from "../../utils/paperData";
-import { withBaseURL } from "../../utils/withBaseURL";
 import { getProgramEventTypeLabel } from "../../utils/programEventTypeLabel";
 import { typeColors } from "../../utils/week-of-utils";
 
@@ -183,40 +183,28 @@ const frontmatter = {
               aria-label={`Sessions for ${dayGroup.weekdayLabel}, ${dayGroup.dateLabel}`}
             >
               {dayGroup.sessions.map((session) => (
-                <button
-                  type="button"
-                  class="session-card"
+                <ProgramCard
                   role="listitem"
-                  data-session-card
-                  data-session-href={withBaseURL(
-                    `/program/session/${session.eventSlug}`,
-                  )}
+                  data-program-card
                   data-type={session.eventType}
                   data-day-group={dayGroup.dayKey}
                   data-search={session.searchText}
                   data-start={session.startISO}
                   data-end={session.endISO}
-                  style={`--session-accent: ${typeColors[session.eventType] || "#6b7280"}`}
-                >
-                  <p class="session-card-time js-time-range" />
-
-                  <h3>{session.title}</h3>
-
-                  <p class="session-card-meta">
-                    <span class="session-card-type">
-                      {session.eventTypeLabel}
-                    </span>
-                    <span>{session.eventTitle}</span>
-                  </p>
-
-                  <p class="session-card-room">{session.room}</p>
-
-                  {session.chairs.length > 0 && (
-                    <p class="session-card-chair">
-                      Chair: {session.chairs.join(", ")}
-                    </p>
-                  )}
-                </button>
+                  accentColor={typeColors[session.eventType] || "#6b7280"}
+                  title={session.title}
+                  titleHref={`/program/session/${session.eventSlug}`}
+                  timeLabel=""
+                  eyebrow={session.eventTypeLabel}
+                  subtitle={session.eventTitle}
+                  peopleLabel="Room"
+                  people={[{ name: session.room }]}
+                  notes={
+                    session.chairs.length > 0
+                      ? [`Chair: ${session.chairs.join(", ")}`]
+                      : []
+                  }
+                />
               ))}
             </div>
           </section>
@@ -249,16 +237,13 @@ const frontmatter = {
         root.querySelectorAll<HTMLElement>(".js-time-range"),
       );
       const cards = Array.from(
-        root.querySelectorAll<HTMLElement>("[data-session-card]"),
+        root.querySelectorAll<HTMLElement>("[data-program-card]"),
       );
       const dayGroups = Array.from(
         root.querySelectorAll<HTMLElement>("[data-day-group-container]"),
       );
       const filterButtons = Array.from(
         root.querySelectorAll<HTMLButtonElement>("[data-type-filter]"),
-      );
-      const sessionLinkButtons = Array.from(
-        root.querySelectorAll<HTMLButtonElement>("[data-session-href]"),
       );
       const tzDescription =
         root.querySelector<HTMLElement>(".js-tz-description");
@@ -399,7 +384,7 @@ const frontmatter = {
 
         for (const group of dayGroups) {
           group.hidden = !group.querySelector(
-            "[data-session-card]:not([hidden])",
+            "[data-program-card]:not([hidden])",
           );
         }
 
@@ -443,15 +428,6 @@ const frontmatter = {
       if (dayFilterSelect instanceof HTMLSelectElement) {
         dayFilterSelect.addEventListener("change", () => {
           applyFilters();
-        });
-      }
-
-      for (const button of sessionLinkButtons) {
-        button.addEventListener("click", () => {
-          const href = button.getAttribute("data-session-href");
-          if (href) {
-            window.location.href = href;
-          }
         });
       }
 
