@@ -12,7 +12,6 @@ type TypeOption = {
 };
 
 interface Props {
-  prefix: string;
   title: string;
   subtitleBefore: string;
   subtitleAfter?: string;
@@ -34,7 +33,6 @@ interface Props {
 }
 
 const {
-  prefix,
   title,
   subtitleBefore,
   subtitleAfter = ".",
@@ -54,14 +52,12 @@ const {
   allDayLabel = "All conference days",
   filterBarLabel = "Session type filters",
 } = Astro.props as Props;
-
-const className = (suffix: string) => `${prefix}-${suffix}`;
 ---
 
-<div class={className("toolbar")}>
+<div class="u-toolbar">
   <div>
-    <p class={className("title")}>{title}</p>
-    <p class={className("subtitle")}>
+    <p class="u-title">{title}</p>
+    <p class="u-subtitle">
       {subtitleBefore}
       {
         showTimezoneDescription && (
@@ -72,19 +68,17 @@ const className = (suffix: string) => `${prefix}-${suffix}`;
     </p>
     {
       groupingNote !== undefined && (
-        <p class={`${className("grouping-note")} js-day-grouping-note`}>
-          {groupingNote}
-        </p>
+        <p class="u-grouping-note js-day-grouping-note">{groupingNote}</p>
       )
     }
   </div>
 
-  <div class={className("controls")}>
+  <div class="u-controls">
     {
       timezoneLabel && timezoneSelectId && (
-        <label class={className("control")}>
+        <label class="u-control">
           {timezoneLabel}
-          <select id={timezoneSelectId} class={className("select")}>
+          <select id={timezoneSelectId} class="u-select">
             <option value="conference">Conference timezone</option>
             <option value="local">My local timezone</option>
             <option value="both">Conference and local</option>
@@ -95,9 +89,9 @@ const className = (suffix: string) => `${prefix}-${suffix}`;
 
     {
       dayLabel && daySelectId && dayOptions && (
-        <label class={className("control")}>
+        <label class="u-control">
           {dayLabel}
-          <select id={daySelectId} class={className("select")}>
+          <select id={daySelectId} class="u-select">
             <option value="all">{allDayLabel}</option>
             {dayOptions.map((dayOption) => (
               <option value={dayOption.value}>{dayOption.label}</option>
@@ -109,11 +103,11 @@ const className = (suffix: string) => `${prefix}-${suffix}`;
 
     {
       searchLabel && searchInputId && searchPlaceholder && (
-        <label class={className("control")}>
+        <label class="u-control">
           {searchLabel}
           <input
             id={searchInputId}
-            class={className("search")}
+            class="u-search"
             type="search"
             placeholder={searchPlaceholder}
             aria-label={searchLabel}
@@ -128,32 +122,28 @@ const className = (suffix: string) => `${prefix}-${suffix}`;
 
 {
   typeOptions && typeOptions.length > 0 && (
-    <div
-      class={className("filter-bar")}
-      role="toolbar"
-      aria-label={filterBarLabel}
-    >
+    <div class="u-filter-bar" role="toolbar" aria-label={filterBarLabel}>
       <button
-        class={`${className("filter-pill")} is-active`}
+        class="u-filter-pill is-active"
         type="button"
         data-type-filter="all"
         style="--pill-color: #374151"
         aria-pressed="true"
       >
         <span>{allLabel}</span>
-        <span class={className("filter-count")}>{allCount || 0}</span>
+        <span class="u-filter-count">{allCount || 0}</span>
       </button>
 
       {typeOptions.map((typeOption) => (
         <button
-          class={className("filter-pill")}
+          class="u-filter-pill"
           type="button"
           data-type-filter={typeOption.value}
           style={`--pill-color: ${typeOption.color || "#6b7280"}`}
           aria-pressed="false"
         >
           <span>{typeOption.label}</span>
-          <span class={className("filter-count")}>{typeOption.count}</span>
+          <span class="u-filter-count">{typeOption.count}</span>
         </button>
       ))}
     </div>

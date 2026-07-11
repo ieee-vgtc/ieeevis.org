@@ -3,7 +3,10 @@
   gap: 1rem;
 }
 
-.sessions-toolbar {
+.u-toolbar,
+.sessions-toolbar,
+.calendar-toolbar,
+.papers-toolbar {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -18,26 +21,42 @@
   );
 }
 
-.sessions-title {
+.u-title,
+.sessions-title,
+.calendar-title,
+.papers-title {
   margin: 0;
   font-weight: 700;
   color: var(--color-accent);
 }
 
-.sessions-subtitle {
+.u-subtitle,
+.u-grouping-note,
+.sessions-subtitle,
+.calendar-subtitle,
+.calendar-grouping-note,
+.papers-subtitle,
+.papers-grouping-note,
+.papers-note {
   margin: 0.3rem 0 0;
   color: var(--color-gray-700);
   font-size: 0.95rem;
 }
 
-.sessions-controls {
+.u-controls,
+.sessions-controls,
+.calendar-controls,
+.papers-controls {
   display: grid;
   grid-template-columns: repeat(3, minmax(180px, 260px));
   gap: 0.8rem;
   align-items: end;
 }
 
-.sessions-control {
+.u-control,
+.sessions-control,
+.calendar-control,
+.papers-control {
   display: grid;
   gap: 0.3rem;
   font-size: 0.85rem;
@@ -45,8 +64,14 @@
   font-weight: 600;
 }
 
+.u-select,
+.u-search,
 .sessions-select,
-.sessions-search {
+.sessions-search,
+.calendar-select,
+.calendar-search,
+.papers-select,
+.papers-search {
   width: 100%;
   border: 1px solid var(--color-gray-400);
   border-radius: 8px;
@@ -56,13 +81,19 @@
   color: var(--color-gray-900);
 }
 
-.sessions-filter-bar {
+.u-filter-bar,
+.sessions-filter-bar,
+.calendar-filter-bar,
+.papers-filter-bar {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
 }
 
-.sessions-filter-pill {
+.u-filter-pill,
+.sessions-filter-pill,
+.calendar-filter-pill,
+.papers-filter-pill {
   border: 1px solid var(--pill-color);
   color: var(--pill-color);
   background: white;
@@ -76,16 +107,25 @@
   transition: all 120ms ease;
 }
 
-.sessions-filter-pill:hover {
+.u-filter-pill:hover,
+.sessions-filter-pill:hover,
+.calendar-filter-pill:hover,
+.papers-filter-pill:hover {
   transform: translateY(-1px);
 }
 
-.sessions-filter-pill.is-active {
+.u-filter-pill.is-active,
+.sessions-filter-pill.is-active,
+.calendar-filter-pill.is-active,
+.papers-filter-pill.is-active {
   color: white;
   background: var(--pill-color);
 }
 
-.sessions-filter-count {
+.u-filter-count,
+.sessions-filter-count,
+.calendar-filter-count,
+.papers-filter-count {
   font-weight: 700;
   opacity: 0.9;
 }
@@ -144,6 +184,7 @@
 }
 
 @media (max-width: 900px) {
+  .u-controls,
   .sessions-controls {
     grid-template-columns: 1fr;
     width: 100%;
@@ -153,94 +194,6 @@
 .program-calendar {
   display: grid;
   gap: 1rem;
-}
-
-.calendar-toolbar {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 1rem;
-  padding: 1rem;
-  border: 1px solid var(--color-gray-300);
-  border-radius: 10px;
-  background: linear-gradient(
-    135deg,
-    rgba(223, 104, 36, 0.08),
-    rgba(187, 74, 114, 0.08)
-  );
-}
-
-.calendar-title {
-  margin: 0;
-  font-weight: 700;
-  color: var(--color-accent);
-}
-
-.calendar-subtitle,
-.calendar-grouping-note {
-  margin: 0.3rem 0 0;
-  color: var(--color-gray-700);
-  font-size: 0.95rem;
-}
-
-.calendar-controls {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(180px, 260px));
-  gap: 0.8rem;
-  align-items: end;
-}
-
-.calendar-control {
-  display: grid;
-  gap: 0.3rem;
-  font-size: 0.85rem;
-  color: var(--color-gray-700);
-  font-weight: 600;
-}
-
-.calendar-select,
-.calendar-search {
-  width: 100%;
-  border: 1px solid var(--color-gray-400);
-  border-radius: 8px;
-  padding: 0.45rem 0.6rem;
-  background-color: white;
-  font-size: 0.95rem;
-  color: var(--color-gray-900);
-}
-
-.calendar-filter-bar {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
-
-.calendar-filter-pill {
-  border: 1px solid var(--pill-color);
-  color: var(--pill-color);
-  background: white;
-  border-radius: 999px;
-  padding: 0.3rem 0.75rem;
-  font-size: 0.85rem;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.45rem;
-  cursor: pointer;
-  transition: all 120ms ease;
-}
-
-.calendar-filter-pill:hover {
-  transform: translateY(-1px);
-}
-
-.calendar-filter-pill.is-active {
-  color: white;
-  background: var(--pill-color);
-}
-
-.calendar-filter-count {
-  font-weight: 700;
-  opacity: 0.9;
 }
 
 .calendar-timeline-scroll {
@@ -1007,49 +960,6 @@
   }
 }
 
-.papers-toolbar {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 1rem;
-  padding: 1rem;
-  border: 1px solid var(--color-gray-300);
-  border-radius: 10px;
-  background: linear-gradient(
-    135deg,
-    rgba(223, 104, 36, 0.08),
-    rgba(187, 74, 114, 0.08)
-  );
-}
-
-.papers-title {
-  margin: 0;
-  font-weight: 700;
-  color: var(--color-accent);
-}
-
-.papers-subtitle,
-.papers-note {
-  margin: 0.3rem 0 0;
-  color: var(--color-gray-700);
-  font-size: 0.95rem;
-}
-
-.papers-controls {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(180px, 260px));
-  gap: 0.8rem;
-  align-items: end;
-}
-
-.papers-control {
-  display: grid;
-  gap: 0.3rem;
-  font-size: 0.85rem;
-  color: var(--color-gray-700);
-  font-weight: 600;
-}
-
 .papers-search-shell {
   display: flex;
   min-width: 0;
@@ -1077,40 +987,6 @@
   padding: 0.45rem 0.7rem;
   color: var(--color-gray-600);
   cursor: pointer;
-}
-
-.papers-filter-bar {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
-
-.papers-filter-pill {
-  border: 1px solid var(--pill-color);
-  color: var(--pill-color);
-  background: white;
-  border-radius: 999px;
-  padding: 0.3rem 0.75rem;
-  font-size: 0.85rem;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.45rem;
-  cursor: pointer;
-  transition: all 120ms ease;
-}
-
-.papers-filter-pill:hover {
-  transform: translateY(-1px);
-}
-
-.papers-filter-pill.is-active {
-  color: white;
-  background: var(--pill-color);
-}
-
-.papers-filter-count {
-  font-weight: 700;
-  opacity: 0.9;
 }
 
 .papers-grid {
