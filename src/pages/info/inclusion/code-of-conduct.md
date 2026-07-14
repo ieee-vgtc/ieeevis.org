@@ -29,24 +29,24 @@ The ombuds team for VIS 2026 is:
 <table style="text-align: center;">
   <tbody>
     <tr style="border-bottom: 0px;">
-      <td style="padding: 3px; width: 33%;"><img src="/year/2026/assets/ombuds/alfie.jpeg" alt="ombud alfie" style="min-width: 100px"/></td>
-      <td style="padding: 3px; width: 33%;"><img src="/year/2026/assets/ombuds/jordan.jpeg" alt="ombud jordan" style="min-width: 100px"/></td>
-      <td style="padding: 3px; width: 33%;"><img src="/year/2026/assets/ombuds/menna.jpeg" alt="ombud menna" style="min-width: 100px"/></td>
+      <td style="padding: 3px; width: 33%;"><img src="/year/2026/assets/ombuds/theisel.jpeg" alt="ombud Theisel" style="width: 100%; max-width: 200px; aspect-ratio: 1 / 1; object-fit: cover; object-position: top center;"/></td>
+      <td style="padding: 3px; width: 33%;"><img src="/year/2026/assets/ombuds/meyer.jpeg" alt="ombud Meyer" style="width: 100%; max-width: 200px; aspect-ratio: 1 / 1; object-fit: cover; object-position: top center;"/></td>
+      <td style="padding: 3px; width: 33%;"><img src="/year/2026/assets/ombuds/wall.jpg" alt="ombud Wall" style="width: 100%; max-width: 200px; aspect-ratio: 1 / 1; object-fit: cover; object-position: top center;"/></td>
     </tr>
     <tr>
-      <td style="padding: 3px; width: 33%;">Alfie Abdul-Rahman</td>
-      <td style="padding: 3px; width: 33%;">R. Jordan Crouser</td>
-      <td style="padding: 3px; width: 33%;">Menna El-Assady</td>
+      <td style="padding: 3px; width: 33%;">Holger Theisel</td>
+      <td style="padding: 3px; width: 33%;">Miriah Meyer</td>
+      <td style="padding: 3px; width: 33%;">Emily Wall</td>
     </tr>
     <tr style="border-bottom: 0px;">
-      <td style="padding: 3px; width: 33%;"><img src="/year/2026/assets/ombuds/josh.jpeg" alt="ombud josh" style="min-width: 100px"/></td>
-      <td style="padding: 3px; width: 33%;"><img src="/year/2026/assets/ombuds/lace.jpeg" alt="ombud lace" style="min-width: 100px"/></td>
-      <td style="padding: 3px; width: 33%;"><img src="/year/2026/assets/ombuds/katerina.jpeg" alt="ombud katerina" style="min-width: 100px"/></td>
+      <td style="padding: 3px; width: 33%;"><img src="/year/2026/assets/ombuds/ottley.jpg" alt="ombud Ottley" style="width: 100%; max-width: 200px; aspect-ratio: 1 / 1; object-fit: cover; object-position: top center;"/></td>
+      <td style="padding: 3px; width: 33%;"><img src="/year/2026/assets/ombuds/bezerianos.jpeg" alt="ombud Bezerianos" style="width: 100%; max-width: 200px; aspect-ratio: 1 / 1; object-fit: cover; object-position: top center;"/></td>
+      <td style="padding: 3px; width: 33%;"><img src="/year/2026/assets/ombuds/zhang.jpeg" alt="ombud Zhang" style="width: 100%; max-width: 200px; aspect-ratio: 1 / 1; object-fit: cover; object-position: top center;"/></td>
     </tr>
     <tr>
-      <td style="padding: 3px; width: 33%;">Joshua Levine</td>
-      <td style="padding: 3px; width: 33%;">Lace Padilla</td>
-      <td style="padding: 3px; width: 33%;">Katerina Vrotsou</td>
+      <td style="padding: 3px; width: 33%;">Alvitta Ottley</td>
+      <td style="padding: 3px; width: 33%;">Anastasia Bezerianos</td>
+      <td style="padding: 3px; width: 33%;">Jiawan Zhang</td>
     </tr>
   </tbody>
 </table>
