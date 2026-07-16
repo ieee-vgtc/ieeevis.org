@@ -557,10 +557,10 @@ menu:
                     description: "A mini-conference and exhibition for vis researchers, designers, and artists"
                     url: "https://visap.net/2026/"
                     is_new: false
-                    is_external: false
+                    is_external: true
                   # - text: "Practitioners Summit"
                   #   description: "DESCRIPTION"
-                  #   url: "/info/visinpractice"
+                  #   url: "/info/practitioner-summit"
                   #   is_new: true
                   # - text: "VisInPractice (VIP)"
                   #   description: "Events of special interest for visualization practitioners"
