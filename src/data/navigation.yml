@@ -600,14 +600,20 @@ menu:
           - heading: "Social Media"
             columns:
               - links:
-                  - text: "Facebook"
-                    url: "https://www.facebook.com/ieeevis"
-                    is_external: true
+                  # - text: "Facebook"
+                  #   url: "https://www.facebook.com/ieeevis"
+                  # is_external: true
                   - text: "X (Twitter)"
                     url: "https://twitter.com/ieeevis"
                     is_external: true
                   - text: "Mastodon"
                     url: "https://vis.social/@ieeevis"
+                    is_external: true
+                  - text: "Bluesky"
+                    url: "https://bsky.app/profile/ieeevis.bsky.social"
+                    is_external: true
+                  - text: "LinkedIn"
+                    url: "https://www.linkedin.com/company/ieeevis"
                     is_external: true
                   - text: "Email List"
                     url: "https://ieeevis.us20.list-manage.com/subscribe?u=874d4e627b4758f4438963e98&id=6c036e3c40"
