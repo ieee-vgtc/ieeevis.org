@@ -558,6 +558,11 @@ menu:
                     url: "https://visap.net/2026/"
                     is_new: false
                     is_external: true
+                  - text: "CLUSTER: The Practitioners' Summit"
+                    description: "A gathering for people who build, ship, and defend visualizations for a living."
+                    url: "https://cluster-practitioners-summit.github.io/"
+                    is_new: true
+                    is_external: true
                   # - text: "VisInPractice (VIP)"
                   #   description: "Events of special interest for visualization practitioners"
                   #   url: "/info/visinpractice"
