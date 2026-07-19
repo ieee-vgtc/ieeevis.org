@@ -1,0 +1,135 @@
+---
+import { withBaseURL } from "../utils/withBaseURL";
+
+type Props = {
+  title: string;
+  titleHref: string;
+  eyebrow?: string;
+  subtitle?: string;
+  peopleLabel?: string;
+  people?: { name: string; href?: string }[];
+  notes?: string[];
+  links?: { label: string; href: string }[];
+  bookmark?: {
+    bookmarked: boolean;
+  };
+  accentColor?: string;
+  titleColor?: string;
+  class?: string;
+  [key: string]: unknown;
+};
+
+const {
+  title,
+  titleHref,
+  eyebrow,
+  subtitle,
+  peopleLabel,
+  people = [],
+  notes = [],
+  links = [],
+  bookmark,
+  accentColor = "#6b7280",
+  titleColor,
+  class: className,
+  ...attrs
+} = Astro.props as Props;
+
+const classList = ["program-card", className].filter(Boolean).join(" ");
+
+const style = [
+  `--program-card-accent: ${accentColor}`,
+  titleColor ? `--program-card-title: ${titleColor}` : "",
+]
+  .filter(Boolean)
+  .join("; ");
+---
+
+<article class={classList} style={style} {...attrs}>
+  <div class="program-card__header">
+    {
+      bookmark && (
+        <button
+          class="program-card__bookmark"
+          type="button"
+          data-bookmark-toggle
+          aria-label={bookmark.bookmarked ? "Remove bookmark" : "Add bookmark"}
+          title={bookmark.bookmarked ? "Remove bookmark" : "Add bookmark"}
+          data-bookmarked={bookmark.bookmarked ? "true" : "false"}
+        >
+          <i
+            class="material-icons"
+            data-bookmark-icon
+            style={`color: ${titleColor}`}
+          >
+            {bookmark.bookmarked ? "bookmark" : "bookmark_border"}
+          </i>
+        </button>
+      )
+    }
+
+    {
+      eyebrow && (
+        <p class="program-card__eyebrow" style={`color: ${titleColor}`}>
+          {eyebrow}
+        </p>
+      )
+    }
+
+    <div class="program-card__title">
+      <a
+        class="program-card__title-link"
+        href={withBaseURL(titleHref)}
+        style={`color: ${titleColor || "inherit"}`}
+      >
+        {title}
+      </a>
+    </div>
+
+    {subtitle && <p class="program-card__subtitle">{subtitle}</p>}
+  </div>
+
+  <div class="program-card__body">
+    {
+      people.length > 0 && (
+        <p class="program-card__people">
+          {peopleLabel && (
+            <span class="program-card__people-label">{peopleLabel}: </span>
+          )}
+          <span class="program-card__people-values">
+            {people.map((person, index) => (
+              <span>
+                {index > 0 && <span>, </span>}
+                {person.href ? (
+                  <a class="program-card__link" href={withBaseURL(person.href)}>
+                    {person.name}
+                  </a>
+                ) : (
+                  person.name
+                )}
+              </span>
+            ))}
+          </span>
+        </p>
+      )
+    }
+    <div>
+      {notes.map((note) => <p class="program-card__note">{note}</p>)}
+
+      {
+        links.length > 0 && (
+          <p class="program-card__links flex flex-col">
+            {links.map((link, index) => (
+              <span>
+                {index > 0 && <span> </span>}
+                <a class="program-card__link" href={withBaseURL(link.href)}>
+                  {link.label}
+                </a>
+              </span>
+            ))}
+          </p>
+        )
+      }
+    </div>
+  </div>
+</article>

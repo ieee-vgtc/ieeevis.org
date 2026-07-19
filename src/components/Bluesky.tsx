@@ -1,6 +1,9 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
+import type { ReactNode } from "react";
 
 const DEFAULT_MAX_DEPTH = 5;
+const DEFAULT_REFRESH_MS = 60_000;
+const MAX_BACKOFF_MS = 30_000;
 
 interface BlueskyCommentsProps {
   did?: string;
@@ -8,6 +11,8 @@ interface BlueskyCommentsProps {
   atUri?: string;
   maxDepth?: number;
   apiBase?: string;
+  refreshMs?: number;
+  pauseWhenHidden?: boolean;
 }
 
 interface Author {
@@ -152,12 +157,12 @@ function postHref(post?: Post): string {
   return `https://bsky.app/profile/${did}/post/${rkey}`;
 }
 
-function renderText(record?: PostRecord) {
+function renderText(record?: PostRecord): ReactNode {
   const text = record?.text || "";
   return <p style={{ margin: "0.4rem 0", whiteSpace: "pre-wrap" }}>{text}</p>;
 }
 
-function renderEmbed(embed?: Embed) {
+function renderEmbed(embed?: Embed): ReactNode {
   if (!embed || !embed.$type) {
     return null;
   }
@@ -412,9 +417,14 @@ export default function BlueskyComments(props: BlueskyCommentsProps) {
   const [thread, setThread] = useState<Thread | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const hasLoadedOnceRef = useRef(false);
+  const consecutiveFailuresRef = useRef(0);
+  const nextRequestAtRef = useRef(0);
 
   const maxDepth = props.maxDepth ?? DEFAULT_MAX_DEPTH;
   const apiBase = props.apiBase || "https://public.api.bsky.app";
+  const refreshMs = props.refreshMs ?? DEFAULT_REFRESH_MS;
+  const pauseWhenHidden = props.pauseWhenHidden ?? true;
 
   const uri = useMemo(
     () => buildAtUri(props),
@@ -430,37 +440,109 @@ export default function BlueskyComments(props: BlueskyCommentsProps) {
       return;
     }
 
-    const controller = new AbortController();
+    let disposed = false;
+    let intervalId: ReturnType<typeof setInterval> | null = null;
+    let currentController: AbortController | null = null;
+    let isFetching = false;
 
     async function fetchThread() {
-      setLoading(true);
-      setError(null);
+      if (disposed || isFetching) {
+        return;
+      }
+      if (Date.now() < nextRequestAtRef.current) {
+        return;
+      }
+
+      isFetching = true;
+      const shouldShowLoading = !hasLoadedOnceRef.current;
+      if (shouldShowLoading) {
+        setLoading(true);
+      }
+      currentController = new AbortController();
 
       try {
         const endpoint = `${apiBase}/xrpc/app.bsky.feed.getPostThread?uri=${encodeURIComponent(uri)}&depth=100`;
-        const response = await fetch(endpoint, { signal: controller.signal });
+        const response = await fetch(endpoint, {
+          signal: currentController.signal,
+        });
         if (!response.ok) {
           throw new Error(`Bluesky API returned ${response.status}`);
         }
 
         const data = (await response.json()) as ThreadResponse;
+        if (disposed) {
+          return;
+        }
         setThread(data.thread || null);
+        hasLoadedOnceRef.current = true;
+        consecutiveFailuresRef.current = 0;
+        nextRequestAtRef.current = 0;
+        setError(null);
       } catch (err) {
         if ((err as Error).name === "AbortError") {
           return;
         }
-        setError((err as Error).message || "Could not load comments.");
+        if (disposed) {
+          return;
+        }
+
+        consecutiveFailuresRef.current += 1;
+        const backoffMs = Math.min(
+          refreshMs * 2 ** (consecutiveFailuresRef.current - 1),
+          MAX_BACKOFF_MS,
+        );
+        nextRequestAtRef.current = Date.now() + backoffMs;
+
+        const message = (err as Error).message || "Could not load comments.";
+        if (!hasLoadedOnceRef.current) {
+          setError(message);
+        } else {
+          setError(
+            `Live update failed (${message}). Retrying in ${Math.ceil(backoffMs / 1000)}s.`,
+          );
+        }
       } finally {
-        setLoading(false);
+        if (!disposed && shouldShowLoading) {
+          setLoading(false);
+        }
+        isFetching = false;
+        currentController = null;
       }
     }
 
     fetchThread();
 
+    if (refreshMs > 0) {
+      intervalId = setInterval(() => {
+        if (pauseWhenHidden && document.visibilityState !== "visible") {
+          return;
+        }
+        fetchThread();
+      }, refreshMs);
+    }
+
+    function onVisibilityChange() {
+      if (!pauseWhenHidden || document.visibilityState !== "visible") {
+        return;
+      }
+      fetchThread();
+    }
+
+    if (pauseWhenHidden) {
+      document.addEventListener("visibilitychange", onVisibilityChange);
+    }
+
     return () => {
-      controller.abort();
+      disposed = true;
+      if (intervalId) {
+        clearInterval(intervalId);
+      }
+      if (pauseWhenHidden) {
+        document.removeEventListener("visibilitychange", onVisibilityChange);
+      }
+      currentController?.abort();
     };
-  }, [apiBase, uri]);
+  }, [apiBase, pauseWhenHidden, refreshMs, uri]);
 
   const rootPost = thread?.post;
   const replies = thread?.replies || [];
@@ -492,18 +574,21 @@ export default function BlueskyComments(props: BlueskyCommentsProps) {
 
       {loading && <p>Loading comments…</p>}
 
-      {!loading && error && (
-        <p style={{ color: "#b91c1c" }}>
-          Could not load Bluesky comments: {error}
-        </p>
-      )}
+      {!loading &&
+        error &&
+        (replies.length > 0 ? (
+          <p style={{ color: "#92400e" }}>{error}</p>
+        ) : (
+          <p style={{ color: "#b91c1c" }}>
+            Could not load Bluesky comments: {error}
+          </p>
+        ))}
 
       {!loading && !error && replies.length === 0 && (
         <p>No replies yet. Be the first one on Bluesky.</p>
       )}
 
       {!loading &&
-        !error &&
         replies.map((reply, index) => (
           <BlueskyReply
             depth={0}

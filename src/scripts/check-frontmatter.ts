@@ -1,6 +1,6 @@
 // scripts/check-frontmatter.ts
 import fg from "fast-glob";
-import yaml from "yaml";
+// import yaml from "yaml";
 import matter from "gray-matter";
 import { readFile } from "node:fs/promises";
 import { z } from "zod";
@@ -8,7 +8,7 @@ import { z } from "zod";
 const schema = z.object({
   title: z.string().min(1),
   layout: z.string().min(1),
-  contact: z.string().email().optional(),
+  contact: z.email().optional(),
   active_nav: z.enum([
     "Blog",
     "Contribute",

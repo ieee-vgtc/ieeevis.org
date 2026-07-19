@@ -3,7 +3,6 @@ title: Program Committees
 layout: /src/layouts/PageLayout.astro
 active_nav: "Organization & History"
 contact: papers@ieeevis.org
-sidetoc: false
 ---
 
 ## Full Papers Program Committee
@@ -245,86 +244,84 @@ sidetoc: false
 
 Contact: [opc@ieeevis.org](mailto:opc@ieeevis.org)
 
-
 ## Short Papers Program Committee
 
-| **Name** | **Affiliation** |
-| --- | --- |
-| Tim Barz-Cech           | _Westphalian University of Applied Sciences_                                 |
-| Romain Vuillemot        | _Ecole Centrale de Lyon_                                                     |
-| Adam Coscia             | _Georgia Institute of Technology_                                            |
-| Md Dilshadur Rahman     | _University of Utah_                                                         |
-| Chang Han               | _University of Utah_                                                         |
-| Nikolaus Piccolotto     | _TU Wien_                                                                    |
-| Sarah Schöttler         | _Eindhoven University of Technology_                                         |
-| Jiachen Wang            | _Zhejiang University_                                                        |
-| Wiebke Köpp             | _Lawrence Berkeley National Laboratory_                                      |
-| Hyunwook Lee            | _Soongsil University_                                                        |
-| Daniel Pahr             | _TU Wien_                                                                    |
-| Jacob Miller            | _Technical University Munich_                                                |
-| Lin Yan                 | _Iowa State University_                                                      |
-| Xizi Wang               | _University of Waterloo_                                                     |
-| Rebecca Williams        | _University of Maryland Baltimore County_                                    |
-| Hannah Kim              | _Georgia Tech_                                                               |
-| Kwan-Liu Ma             | _University of California at Davis_                                          |
-| Md Rahat-uz- Zaman      | _University of Utah_                                                         |
-| Xumeng Wang             | _Nankai University_                                                          |
-| Jieqiong Zhao           | _Augusta University_                                                         |
-| Zhen Li                 | _Tianjin University_                                                         |
-| Yue Zhang               | _Oregon State University_                                                    |
-| Minfeng Zhu             | _Zhejiang University_                                                        |
-| Christina Faßbender     | _Fraunhofer FIT_                                                             |
-| Sebastian Hubenschmid   | _Aarhus University_                                                          |
-| Mai Elshehaly           | _City St George's, University of London_                                     |
-| Markus Hadwiger         | _KAUST_                                                                      |
-| Richard Khulusi         | _Leipzig University_                                                         |
-| Elmira Zohrevandi       | _Linköping University_                                                       |
-| Carla Dal Sasso Freitas | _Federal University of Rio Grande do Sul_                                    |
-| Enamul Hoque            | _York University_                                                            |
-| Harish Doraiswamy       | _Microsoft Research India_                                                   |
-| Maoyuan Sun             | _Northern Illinois University_                                               |
-| Vidya Setlur            | _Tableau Research_                                                           |
-| Tom Vierjahn            | _Westphalian University of Applied Sciences_                                 |
-| Alireza Karduni         | _Simon Fraser University_                                                    |
-| Marina Evers            | _University of Siegen_                                                       |
-| Jiehui Zhou             | _Taobao & Tmall Group of Alibaba_                                            |
-| Ilir Jusufi             | _Blekinge Institute of Technology_                                           |
-| Sarah Goodwin           | _Monash University_                                                          |
-| Aidan Slingsby          | _City St George's, University of London_                                     |
-| Dongyu Liu              | _University of California at Davis_                                          |
-| Rafael Henkin           | _Queen Mary University of London_                                            |
-| Michael Correll         | _Northeastern University_                                                    |
-| Willy Scheibel          | _University of Potsdam_                                                      |
-| David Gotz              | _University of North Carolina_                                               |
-| Georgia Panagiotidou    | _King's College London_                                                      |
-| Jiayi Hong              | _Université Laval_                                                           |
-| Angus Forbes            | _NVIDIA_                                                                     |
-| Chris Bryan             | _Arizona State University_                                                   |
-| Florian Wetzels         | _RPTU Kaiserslautern-Landau_                                                 |
-| Takayuki Itoh           | _Ochanomizu University_                                                      |
-| Maria Jesus Lobo        | _Lastig, Univ Gustave Eiffel, IGN_                                           |
-| Mathieu Pont            | _RPTU Kaiserslautern-Landau_                                                 |
-| Katherine Isaacs        | _The University of Utah_                                                     |
-| Aritra Dasgupta         | _New Jersey Institute of Technology_                                         |
-| Gabriela Molina León    | _Aarhus University_                                                          |
-| Jaemin Jo               | _Sungkyunkwan University_                                                    |
-| Sara Johansson Fernstad | _Newcastle University_                                                       |
-| Nadia Boukhelifa        | _INRAE_                                                                      |
-| Eloi Durant             | _LIST_                                                                       |
-| Xin Chen                | _Renmin University of China_                                                 |
-| Foroozan Daneshzand     | _Simon fraser university_                                                    |
-| Maxime Cordeil          | _The University of Queensland_                                               |
-| Qing Chen               | _Tongji University_                                                          |
-| Bernice Rogowitz        | _Visual Perspectives Research_                                               |
-| Mengchen Liu            | _META_                                                                       |
-| Lyn Bartram             | _Simon Fraser University_                                                    |
-| Yubo Tao                | _Zhejiang University_                                                        |
-| Siming Chen             | _Fudan University_                                                           |
-| Qi Wu                   | _NVIDIA_                                                                     |
-| Lonni Besançon          | _Linköping University_                                                       |
-| Talha Bin Masood        | _Linköping University_                                                       |
-| Eunice Jun              | _UCLA_                                                                       |
-| Ghulam Jilani Quadri    | _University of Oklahoma_                                                     |
+| **Name**                | **Affiliation**                              |
+| ----------------------- | -------------------------------------------- |
+| Tim Barz-Cech           | _Westphalian University of Applied Sciences_ |
+| Romain Vuillemot        | _Ecole Centrale de Lyon_                     |
+| Adam Coscia             | _Georgia Institute of Technology_            |
+| Md Dilshadur Rahman     | _University of Utah_                         |
+| Chang Han               | _University of Utah_                         |
+| Nikolaus Piccolotto     | _TU Wien_                                    |
+| Sarah Schöttler         | _Eindhoven University of Technology_         |
+| Jiachen Wang            | _Zhejiang University_                        |
+| Wiebke Köpp             | _Lawrence Berkeley National Laboratory_      |
+| Hyunwook Lee            | _Soongsil University_                        |
+| Daniel Pahr             | _TU Wien_                                    |
+| Jacob Miller            | _Technical University Munich_                |
+| Lin Yan                 | _Iowa State University_                      |
+| Xizi Wang               | _University of Waterloo_                     |
+| Rebecca Williams        | _University of Maryland Baltimore County_    |
+| Hannah Kim              | _Georgia Tech_                               |
+| Kwan-Liu Ma             | _University of California at Davis_          |
+| Md Rahat-uz- Zaman      | _University of Utah_                         |
+| Xumeng Wang             | _Nankai University_                          |
+| Jieqiong Zhao           | _Augusta University_                         |
+| Zhen Li                 | _Tianjin University_                         |
+| Yue Zhang               | _Oregon State University_                    |
+| Minfeng Zhu             | _Zhejiang University_                        |
+| Christina Faßbender     | _Fraunhofer FIT_                             |
+| Sebastian Hubenschmid   | _Aarhus University_                          |
+| Mai Elshehaly           | _City St George's, University of London_     |
+| Markus Hadwiger         | _KAUST_                                      |
+| Richard Khulusi         | _Leipzig University_                         |
+| Elmira Zohrevandi       | _Linköping University_                       |
+| Carla Dal Sasso Freitas | _Federal University of Rio Grande do Sul_    |
+| Enamul Hoque            | _York University_                            |
+| Harish Doraiswamy       | _Microsoft Research India_                   |
+| Maoyuan Sun             | _Northern Illinois University_               |
+| Vidya Setlur            | _Tableau Research_                           |
+| Tom Vierjahn            | _Westphalian University of Applied Sciences_ |
+| Alireza Karduni         | _Simon Fraser University_                    |
+| Marina Evers            | _University of Siegen_                       |
+| Jiehui Zhou             | _Taobao & Tmall Group of Alibaba_            |
+| Ilir Jusufi             | _Blekinge Institute of Technology_           |
+| Sarah Goodwin           | _Monash University_                          |
+| Aidan Slingsby          | _City St George's, University of London_     |
+| Dongyu Liu              | _University of California at Davis_          |
+| Rafael Henkin           | _Queen Mary University of London_            |
+| Michael Correll         | _Northeastern University_                    |
+| Willy Scheibel          | _University of Potsdam_                      |
+| David Gotz              | _University of North Carolina_               |
+| Georgia Panagiotidou    | _King's College London_                      |
+| Jiayi Hong              | _Université Laval_                           |
+| Angus Forbes            | _NVIDIA_                                     |
+| Chris Bryan             | _Arizona State University_                   |
+| Florian Wetzels         | _RPTU Kaiserslautern-Landau_                 |
+| Takayuki Itoh           | _Ochanomizu University_                      |
+| Maria Jesus Lobo        | _Lastig, Univ Gustave Eiffel, IGN_           |
+| Mathieu Pont            | _RPTU Kaiserslautern-Landau_                 |
+| Katherine Isaacs        | _The University of Utah_                     |
+| Aritra Dasgupta         | _New Jersey Institute of Technology_         |
+| Gabriela Molina León    | _Aarhus University_                          |
+| Jaemin Jo               | _Sungkyunkwan University_                    |
+| Sara Johansson Fernstad | _Newcastle University_                       |
+| Nadia Boukhelifa        | _INRAE_                                      |
+| Eloi Durant             | _LIST_                                       |
+| Xin Chen                | _Renmin University of China_                 |
+| Foroozan Daneshzand     | _Simon fraser university_                    |
+| Maxime Cordeil          | _The University of Queensland_               |
+| Qing Chen               | _Tongji University_                          |
+| Bernice Rogowitz        | _Visual Perspectives Research_               |
+| Mengchen Liu            | _META_                                       |
+| Lyn Bartram             | _Simon Fraser University_                    |
+| Yubo Tao                | _Zhejiang University_                        |
+| Siming Chen             | _Fudan University_                           |
+| Qi Wu                   | _NVIDIA_                                     |
+| Lonni Besançon          | _Linköping University_                       |
+| Talha Bin Masood        | _Linköping University_                       |
+| Eunice Jun              | _UCLA_                                       |
+| Ghulam Jilani Quadri    | _University of Oklahoma_                     |
 
 Contact: [shortpapers@ieeevis.org](mailto:shortpapers@ieeevis.org)
-
