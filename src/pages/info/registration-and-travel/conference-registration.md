@@ -13,10 +13,7 @@ Satellite locations will also host in-person programs at Paris, France and Tianj
 
 After reviewing the sections below, please use the registration button below **for the location you will attend** to complete registration for IEEE VIS 2026.
 
-To register to attend the Boston Location, use the following:
 <a class="button" href="https://web.cvent.com/event/bfb61584-aa1d-46ed-9a2e-98101b7b86e4/summary" target="_blank">BOSTON REGISTRATION</a>
-
-To register to attend the Paris location, use the following:
 <a class="button" href="https://web.cvent.com/event/0e18a99d-6d50-4799-995e-c6d504f2166f" target="_blank">PARIS REGISTRATION</a>
 
 Registration for Tianjin, China is coming soon. If you are planning to attend in Tianjin, please standby for updates to how you will register.
