@@ -5,9 +5,14 @@ active_nav: "Attend"
 contact: "general_chair@ieeevis.org"
 ---
 
-## Boston Attendees
+## Obtaining a Visa
+If you are planning to attend IEEE VIS 2026 and may need a visa, we encourage you to visit the pages below for information on visa procedures and applications. Please allow ample time for visa processing.
 
-If you are planning to attend IEEE VIS 2026 in Boston and may need a visa, we encourage you to visit the [U.S. Visas website](https://travel.state.gov/content/travel/en/us-visas.html) for information on visa procedures and applications. Please allow ample time for visa processing.
+- Boton, USA Attendees: [U.S. Visas website](https://travel.state.gov/content/travel/en/us-visas.html)
+- Paris, France Attendees: [France Visas website](https://france-visas.gouv.fr/en/accueil)
+- Tianjin, China Attendees: [China Visas website](https://fm.china-embassy.gov.cn/eng/lsfw/VTC/)
+
+
 
 ## Visa Letter Requests
 
@@ -17,12 +22,8 @@ The generated letter will contain the following:
 
 - Registration confirmation number
 - Full name including Salutation (Mr., Ms., Mrs.) in the order of Salutation, Given (First) Name, Family (Last) Name
-- Email address, mailing address and affiliation (business or school)
+- Email address, mailing address, and affiliation (business or school)
+- Location of attendance (Boston, Paris, or Tianjin)
+- Signatures from conference organizers
 
-If additional information (such as paper title and number, passport number, passport expiration date, date of birth, etc.) is necessary, you can enter this information when you register and it will be included in the letter. If you have questions or additional requirement, you may contact [visa-letters@ieeevis.org](mailto:visa-letters@ieeevis.org).
-
-
-
-## Paris and Tianjin Attendees
-
-Stay tuned for further information regarding visas for satellite locations.
+If additional information (such as paper title and number, passport number, passport expiration date, date of birth, etc.) is necessary, or if you have questions or additional requirement, you may contact [visa-letters@ieeevis.org](mailto:visa-letters@ieeevis.org).
