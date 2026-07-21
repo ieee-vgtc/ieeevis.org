@@ -50,13 +50,15 @@ export default function Navigation({
         >
           {/* Blog item */}
           {nav_data.blog.display && (
-            <a
-              className="nav-text-link menu_item font-display text-lg md:text-base lg:text-lg px-8 md:px-2 lg:px-4 mx-0 lg:mx-2 py-4 md:py-6 border-b-2 border-primary-200 md:border-none"
-              href={withBaseURL(nav_data.blog.url)}
-              role="menuitem"
-            >
-              {nav_data.blog.text}
-            </a>
+            <div className="w-full py-4  border-b-2 border-primary-200 px-8">
+              <a
+                className="menu_item nav-text-link font-display text-lg  p-0 m-0 w-full"
+                href={withBaseURL(nav_data.blog.url)}
+                role="menuitem"
+              >
+                {nav_data.blog.text}
+              </a>
+            </div>
           )}
 
           {/* Other menu items */}
