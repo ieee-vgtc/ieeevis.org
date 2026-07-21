@@ -109,8 +109,9 @@ active_nav: "Organization & History"
 | Keke Wu                                   | _University of Maryland, College Park_                       |
 |                                           |                                                              |
 | **Inclusivity & Accessibility Chairs**    | inclusivity_accessibility@ieeevis.org                        |
-| Laura Koesten                             | _University of Vienna_                                       |
 | Sandra Bae                                | _University of Arizona_                                      |
+| Ab Mosca                                  | _Smith College_                                              |
+| Jonathan Zong                             | _University of Colorado, Boulder_                            |
 |                                           |                                                              |
 | **Supporters Chairs**                     | supporters@ieeevis.org                                       |
 | Fred Hohman                               | _Apple_                                                      |
