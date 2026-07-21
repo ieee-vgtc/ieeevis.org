@@ -21,8 +21,8 @@ Visa letter requests are handled through the [VIS 2026 registration system](/yea
 
 The generated letter will contain the following:
 
-- Full name in the order of Given (First) Name, Family (Last) Name
-- Mailing address
+- Your full name in the order of Given (First) Name, Family (Last) Name
+- Your mailing address
 - Registration confirmation number
 - Location of attendance (Boston, Paris, or Tianjin) and conference dates
 - Signatures from conference organizers
