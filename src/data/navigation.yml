@@ -359,6 +359,10 @@ menu:
                     description: "Secondary sites co-hosting the conference"
                     url: "/satellites/"
                     is_new: false
+                  - text: "Paris Satellite"
+                    description: "Satellite event in Paris, France"
+                    url: "/satellites/paris/"
+                    is_new: false
                 #             - text: "Venue"
                 #               description: "Austria Center Vienna"
                 #               url: "/info/registration-and-travel/venue"
