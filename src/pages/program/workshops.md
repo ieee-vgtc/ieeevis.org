@@ -12,7 +12,7 @@ The following workshops went through our [submission and review process](/year/2
 
 * [BELIV: evaluation and BEyond - methodoLogIcal approaches for Visualization](#BELIV)
 * [vis4climate: Workshop on Building a Transdisciplinary Climate Vis Community](#vis4climate)
-* [VISxAI: 9th Workshop on Visualization for AI Explainability][#VISxAI]
+* [VISxAI: 9th Workshop on Visualization for AI Explainability](#VISxAI)
 * [EduVis: IEEE VIS Workshop on Visualization Education, Literacy, and Activities](#EduVis)
 * [VAxAutoSci: Visual Analytics in the Age of Autonomous Science](#VAxAutoSci)
 * [VisXVision: Leveraging Vision Science Approaches to Ground Theory, Methods, and Reliability of Visualization](#VisXVision)
