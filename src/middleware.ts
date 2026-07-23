@@ -1,5 +1,7 @@
 import type { MiddlewareHandler } from "astro";
 import { features } from "./config/pages-allow-list";
+import { isProtectedPath } from "./config/protected-paths";
+import { readSession } from "./lib/auth0";
 
 //https://docs.astro.build/en/guides/middleware/
 export const onRequest: MiddlewareHandler = async (context, next) => {
@@ -27,7 +29,28 @@ export const onRequest: MiddlewareHandler = async (context, next) => {
     return context.redirect(import.meta.env.BASE_URL, 302);
   }
 
-  const response = await next();
+  if (isProtectedPath(pathWithoutBase)) {
+    const user = await readSession(context.cookies);
+    if (!user) {
+      const loginUrl = new URL(`${base}/auth/login`, context.url.origin);
+      loginUrl.searchParams.set(
+        "returnTo",
+        `${pathWithoutBase}${context.url.search}`,
+      );
+      return context.redirect(loginUrl.toString(), 302);
+    }
+
+    context.locals.user = user;
+  }
+
+  const nextResponse = await next();
+  // Endpoint responses such as Response.redirect() have immutable headers.
+  // Copy them before adding the site-wide security headers below.
+  const response = new Response(nextResponse.body, {
+    status: nextResponse.status,
+    statusText: nextResponse.statusText,
+    headers: new Headers(nextResponse.headers),
+  });
 
   const isDev = import.meta.env.DEV;
 

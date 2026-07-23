@@ -26,3 +26,5 @@ pnpm-debug.log*
 .idea/
 
 .link-checker/
+# Local Netlify folder
+.netlify

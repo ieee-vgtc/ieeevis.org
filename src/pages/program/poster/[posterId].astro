@@ -2,17 +2,8 @@
 import PageLayout from "../../../layouts/PageLayout.astro";
 import { fetchAllPosters } from "../../../utils/paperData";
 
-export async function getStaticPaths() {
-  const posterListData = await fetchAllPosters();
-  return posterListData.map((poster) => {
-    return {
-      params: { posterId: poster.id },
-      props: { poster },
-    };
-  });
-}
-
-const { poster } = Astro.props;
+const posters = await fetchAllPosters();
+const poster = posters.find((entry) => entry.id === Astro.params.posterId);
 
 if (!poster) {
   return new Response(null, { status: 404 });

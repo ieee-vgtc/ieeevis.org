@@ -22,52 +22,48 @@ const EVENT_PREFIX_TO_TYPE: Record<string, string> = {
   "v-tvcg": "tvcg",
 };
 
-export async function getStaticPaths() {
-  if (!features.weekOfVis.enabled) {
-    return [];
-  }
+if (!features.weekOfVis.enabled) {
+  return new Response(null, { status: 404 });
+}
 
-  // Build a map from slot.uid (= paper.id UUID) → session info
-  const sessionList = await fetchAllSessions();
-  const slotSessionMap = new Map<
-    string,
-    { session_id: string; session_title: string }
-  >();
-  for (const event of Object.values(sessionList)) {
-    for (const session of event.sessions) {
-      for (const slot of session.time_slots as ProgramTimeSlot[]) {
-        if (slot.uid) {
-          slotSessionMap.set(slot.uid, {
-            session_id: session.session_id,
-            session_title: session.title,
-          });
-        }
+// Detail pages are rendered at request time so the authentication middleware
+// can guard each paper URL instead of serving a public prerendered file.
+const [sessionList, papers] = await Promise.all([
+  fetchAllSessions(),
+  fetchAllPapers(),
+]);
+const sourcePaper = papers.find((entry) => entry.id === Astro.params.paperId);
+
+if (!sourcePaper) {
+  return new Response(null, { status: 404 });
+}
+
+// Build a map from slot.uid (= paper.id UUID) → session info.
+const slotSessionMap = new Map<
+  string,
+  { session_id: string; session_title: string }
+>();
+for (const event of sessionList) {
+  for (const session of event.sessions) {
+    for (const slot of session.time_slots as ProgramTimeSlot[]) {
+      if (slot.uid) {
+        slotSessionMap.set(slot.uid, {
+          session_id: session.session_id,
+          session_title: session.title,
+        });
       }
     }
   }
-
-  const papers = await fetchAllPapers();
-  return papers.map((paper) => {
-    const sessionInfo = slotSessionMap.get(paper.id);
-    const enrichedPaper: Paper = {
-      ...paper,
-      ...(sessionInfo && {
-        session_id: sessionInfo.session_id,
-        session_title: sessionInfo.session_title,
-      }),
-    };
-    return {
-      params: { paperId: paper.id },
-      props: { paper: enrichedPaper },
-    };
-  });
 }
 
-interface Props {
-  paper: Paper;
-}
-
-const { paper } = Astro.props;
+const sessionInfo = slotSessionMap.get(sourcePaper.id);
+const paper: Paper = {
+  ...sourcePaper,
+  ...(sessionInfo && {
+    session_id: sessionInfo.session_id,
+    session_title: sessionInfo.session_title,
+  }),
+};
 
 // Breadcrumb data
 const eventLabel =
