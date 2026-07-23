@@ -16,6 +16,7 @@ active_nav: "Organization & History"
 | Jean-Daniel Fekete                        | _Inria_                                                      |
 | Petra Isenberg                            | _Inria_                                                      |
 | Florent Cabric                            | _Université Paris-Saclay_                                    |
+| David Ludovic                             | _Inria_                                                      |
 |                                           |                                                              |
 | **China Satellite Chairs**                | satellite_china@ieeevis.org                                  |
 | Jiawan Zhang                              | _Tianjin University_                                         |
@@ -23,6 +24,7 @@ active_nav: "Organization & History"
 | Xiaoru Yuan                               | _Peking University_                                          |
 | Changbo Wang                              | _East China Normal University_                               |
 | Qing Chen                                 | _Tongji University_                                          |
+| Zhen Li                                   | _Tianjin University_                                         |
 |                                           |                                                              |
 | **Program Chairs**                        | program@ieeevis.org                                          |
 | Alfie Abdul-Rahman                        | _King's College London_                                      |
