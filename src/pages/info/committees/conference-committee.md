@@ -16,6 +16,7 @@ active_nav: "Organization & History"
 | Jean-Daniel Fekete                        | _Inria_                                                      |
 | Petra Isenberg                            | _Inria_                                                      |
 | Florent Cabric                            | _Université Paris-Saclay_                                    |
+| David Ludovic                             | _Inria_                                                      |
 |                                           |                                                              |
 | **China Satellite Chairs**                | satellite_china@ieeevis.org                                  |
 | Jiawan Zhang                              | _Tianjin University_                                         |
@@ -23,6 +24,7 @@ active_nav: "Organization & History"
 | Xiaoru Yuan                               | _Peking University_                                          |
 | Changbo Wang                              | _East China Normal University_                               |
 | Qing Chen                                 | _Tongji University_                                          |
+| Zhen Li                                   | _Tianjin University_                                         |
 |                                           |                                                              |
 | **Program Chairs**                        | program@ieeevis.org                                          |
 | Alfie Abdul-Rahman                        | _King's College London_                                      |
@@ -109,8 +111,9 @@ active_nav: "Organization & History"
 | Keke Wu                                   | _University of Maryland, College Park_                       |
 |                                           |                                                              |
 | **Inclusivity & Accessibility Chairs**    | inclusivity_accessibility@ieeevis.org                        |
-| Laura Koesten                             | _University of Vienna_                                       |
 | Sandra Bae                                | _University of Arizona_                                      |
+| Ab Mosca                                  | _Smith College_                                              |
+| Jonathan Zong                             | _University of Colorado, Boulder_                            |
 |                                           |                                                              |
 | **Supporters Chairs**                     | supporters@ieeevis.org                                       |
 | Fred Hohman                               | _Apple_                                                      |
