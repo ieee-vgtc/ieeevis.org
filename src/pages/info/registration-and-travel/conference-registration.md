@@ -66,7 +66,7 @@ We recommend all attendees, authors/presenters, and organizers register online i
 
 **All registrations include admission to sessions and events for the chosen days and location of attendance. Access to virtual content is also provided.**
 
-If attending on Wednesday in Boston (November 11), all registration categories include admission for one person to the conference banquet. The banquet will be hosted Wednesday night at the [MIT museum](https://mitmuseum.mit.edu/). Additional banquet tickets may be purchased through the registration site.
+If attending on Wednesday in Boston (November 11), all registration categories include admission for one person to [CLUSTER: The Practitioner's Summit](https://cluster-practitioners-summit.github.io/) and admission for one person to the conference banquet. The banquet will be hosted Wednesday night at the [MIT museum](https://mitmuseum.mit.edu/). Additional banquet tickets may be purchased through the registration site.
 
 **Remember that each paper presented during the main conference proceedings MUST have at least one person complete a Full Conference or Author registration.** See above for details.
 
