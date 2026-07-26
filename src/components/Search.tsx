@@ -99,7 +99,7 @@ export default function Search() {
         />
 
         {showDropdown && (
-          <div className="absolute left-0 right-0 top-full z-50 mt-2 max-h-96 w-full overflow-y-auto rounded-lg bg-white text-left shadow-lg ring-1 ring-black/5 md:w-80">
+          <div className="absolute right-0 top-full z-50 mt-2 max-h-96 w-full overflow-y-auto rounded-lg bg-white text-left shadow-lg ring-1 ring-black/5 md:w-80">
             {loading && (
               <p className="px-4 py-3 text-sm text-gray-500">Searching…</p>
             )}

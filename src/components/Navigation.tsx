@@ -49,7 +49,6 @@ export default function Navigation({
         <div
           className={`menu hidden md:flex md:justify-end ${isExpanded ? "menu--expanded" : ""}`}
         >
-          <Search />
           {/* Blog item */}
           {nav_data.blog.display && (
             <div className="w-full py-4  border-b-2 border-primary-200 px-8 md:border-0 md:py-6 md:px-2 lg:py-6 lg:px-4 md:w-fit">
@@ -193,6 +192,7 @@ export default function Navigation({
                 </div>
               ),
           )}
+          <Search />
         </div>
       </nav>
 
