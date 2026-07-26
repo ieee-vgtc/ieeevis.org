@@ -1,28 +1,11 @@
 import type { MiddlewareHandler } from "astro";
-import { features } from "./config/pages-allow-list";
+import { isPathInactive, stripBaseURL } from "./config/pages-allow-list";
 
 //https://docs.astro.build/en/guides/middleware/
 export const onRequest: MiddlewareHandler = async (context, next) => {
-  // Strip the base path (e.g. "/year/2026") so denylist entries can be written
-  // as plain paths like "/info/awards" regardless of deployment base.
-  const base = import.meta.env.BASE_URL.replace(/\/$/, "");
-  const rawPath = context.url.pathname;
-  const pathWithoutBase = rawPath.startsWith(base)
-    ? rawPath.slice(base.length) || "/"
-    : rawPath;
+  const pathWithoutBase = stripBaseURL(context.url.pathname);
 
-  const isOverridden = (
-    features.activePathOverrides as readonly string[]
-  ).includes(pathWithoutBase);
-
-  const isInactive =
-    !isOverridden &&
-    features.inactivePathPrefixes.some(
-      (prefix) =>
-        pathWithoutBase === prefix || pathWithoutBase.startsWith(prefix + "/"),
-    );
-
-  if (isInactive) {
+  if (isPathInactive(pathWithoutBase)) {
     // 302 = temporary redirect so search engines keep the URL for when it goes live
     return context.redirect(import.meta.env.BASE_URL, 302);
   }
