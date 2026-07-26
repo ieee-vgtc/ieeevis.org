@@ -20,12 +20,6 @@
 #                     is_external
 
 # ---------------------------------------------------------------------------
-registration:
-  display: false
-  text: "Register"
-  url: "/info/registration/conference-registration"
-
-# ---------------------------------------------------------------------------
 blog:
   display: true
   text: "Blog"
@@ -185,63 +179,6 @@ menu:
   #                   is_new: false
 
   # ---------------------------------------------------------------------------
-  - dropdown: "Events & Community"
-    display: false
-    sections:
-      - subsections:
-          - heading: "Associated Events"
-            description: "Events associated with the main conference"
-            columns:
-              - links:
-                  - text: "VIS Arts Program (VISAP)"
-                    description: "A mini-conference and exhibition for vis researchers, designers, and artists"
-                    url: "https://visap.net/2026/"
-                    is_new: false
-                    is_external: true
-                  - text: "VisInPractice (VIP)"
-                    description: "Events of special interest for visualization practitioners"
-                    url: "/info/visinpractice"
-                    is_new: false
-          - heading: "Competitions"
-            description: "Advancing visualization through competition"
-            columns:
-              - links:
-                  - text: "Bio+MedVis Challenge"
-                    description: "Challenges from the Bio+MedVis field"
-                    url: "http://biovis.net/2026/biovisChallenges_vis/"
-                    is_external: true
-                  - text: "SciVis Contest"
-                    description: "Material Science Challenge: discovery of novel materials"
-                    url: "https://sciviscontest2026.github.io/"
-                    is_external: true
-                  - text: "VAST Challenge"
-                    description: "Return to the island nation famous for fishing and quiet seaside communities"
-                    url: "https://vast-challenge.github.io/2026/"
-                    is_new: false
-                    is_external: true
-          - heading: "Get Involved"
-            columns:
-              - links:
-                  - text: "Organize a meetup"
-                    description: "Meet people for discussion and shared experiences"
-                    url: "https://ieeevis.org/year/2026/info/call-participation/meetups/"
-                    is_new: true
-                  - text: "Student volunteer information"
-                    description: "SVs support the conference and build your research network"
-                    url: "https://vissv.github.io/"
-                    is_external: true
-                  # - text: "Become a peer reviewer"
-                  #   description: "Volunteer to review submissions in Precision Conference Solutions (PCS)"
-                  #   url: "https://new.precisionconference.com/review_volunteering"
-                  #   is_external: true
-                  - text: "Elections"
-                    description: "Register to vote and nominate/review candidates for the VSC"
-                    url: "https://ieeevis.org/year/2026/info/elections/"
-                    is_new: true
-
-          - heading: "Supporters"
-            heading_url: "/supporters"
-            description: "Your support makes this conference possible!"
 
   # ---------------------------------------------------------------------------
   - dropdown: "Attend"
