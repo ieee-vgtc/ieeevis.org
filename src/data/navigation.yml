@@ -111,9 +111,6 @@ menu:
           #       - text: "Virtual Presentations"
           #         url: "/info/presenter-information/presenting-virtually"
           #         is_new: false
-          - heading: "Code of Conduct"
-            description: "The IEEE VIS Code of Conduct"
-            heading_url: "/info/inclusion/code-of-conduct"
       - subsections:
           - heading: "Get Involved"
             columns:
@@ -140,92 +137,6 @@ menu:
             description: "Your support makes this conference possible!"
 
   # ---------------------------------------------------------------------------
-  - dropdown: "Attend"
-    display: false
-    sections:
-      - subsections:
-          - heading: "Attending VIS 2026"
-            heading_url: "/info/registration-and-travel/conference-registration"
-            columns:
-              - heading: "Attend"
-                links:
-                  - text: "Registration"
-                    description: "How to register for VIS"
-                    url: "/info/registration-and-travel/conference-registration"
-                    is_new: false
-                  - text: "Venue"
-                    description: "Austria Center Vienna"
-                    url: "/info/registration-and-travel/venue"
-                    is_new: false
-                  - text: "Transportation"
-                    description: "Getting around in Vienna"
-                    url: "/info/registration-and-travel/transportation"
-                    is_new: false
-                  - text: "Green Meeting Certificate"
-                    description: "IEEE VIS 2026 is a 'Green Meeting'"
-                    url: "/info/registration-and-travel/green-meeting"
-                    is_new: false
-              - heading: "Travel"
-                links:
-                  - text: "Traveling to Vienna"
-                    description: "Travel information"
-                    url: "/info/registration-and-travel/travel-information"
-                    is_new: false
-                  - text: "Hotel Information"
-                    description: "Where to stay"
-                    url: "/info/registration-and-travel/hotel-information"
-                    is_new: false
-                  - text: "Visas"
-                    description: "Visa letter information"
-                    url: "/info/registration-and-travel/visas"
-                    is_new: false
-          - heading: "Vienna, Austria"
-            heading_url: "https://meeting.vienna.info/en/why-vienna/art-culture-cuisine"
-            columns:
-              - links:
-                  - text: "Sights and famous places"
-                    description: "Well-known sights and things to see"
-                    url: "/info/registration-and-travel/vienna-places"
-                    is_new: false
-                  - text: "Recommendations from Locals"
-                    description: "Tips by local people what to not miss in Vienna"
-                    url: "/info/registration-and-travel/vienna-tips"
-                    is_new: false
-
-      - subsections:
-          - heading: "Local Events at VIS 2026"
-            heading_url: "/info/local-events/summary"
-            columns:
-              - links:
-                  - text: "ISOTYPE Exhibition"
-                    description: "100 Years of ISOTYPES in Vienna"
-                    url: "/info/local-events/isotype-exhibition"
-                    is_new: false
-                  - text: "VRVis Lab Visit"
-                    description: "Visit the VRVis GmbH"
-                    url: "/info/local-events/vrvis-lab-visit"
-                    is_new: false
-          - heading: "Code of Conduct"
-            description: "The IEEE VIS Code of Conduct"
-            heading_url: "/info/inclusion/code-of-conduct"
-
-      - subsections:
-          - heading: "Inclusion"
-            heading_url: "/info/inclusion/inclusivity"
-            columns:
-              - links:
-                  - text: "Inclusivity Scholarship"
-                    description: "Need-based scholarships for conference attendance"
-                    url: "/info/inclusion/scholarship"
-                    is_new: false
-                  - text: "Accessibility"
-                    description: "Supporting access for all attendees"
-                    url: "/info/accessibility/attend"
-                    is_new: false
-                  - text: "VISKids"
-                    description: "Childcare and activities open to everyone"
-                    url: "/info/inclusion/viskids"
-                    is_new: false
 
   # ---------------------------------------------------------------------------
   # - dropdown: "Old Program"
@@ -363,20 +274,21 @@ menu:
                     description: "Satellite event in Paris, France"
                     url: "/satellites/paris/"
                     is_new: false
-                #             - text: "Venue"
-                #               description: "Austria Center Vienna"
-                #               url: "/info/registration-and-travel/venue"
-                #               is_new: false
-                #             - text: "Transportation"
-                #               description: "Getting around in Vienna"
-                #               url: "/info/registration-and-travel/transportation"
-                #               is_new: false
-                #         - heading: "Travel"
-                #           links:
-                #             - text: "Traveling to Vienna"
-                #               description: "Travel information"
-                #               url: "/info/registration-and-travel/travel-information"
-                #               is_new: false
+
+              #             - text: "Venue"
+              #               description: "Austria Center Vienna"
+              #               url: "/info/registration-and-travel/venue"
+              #               is_new: false
+              #             - text: "Transportation"
+              #               description: "Getting around in Vienna"
+              #               url: "/info/registration-and-travel/transportation"
+              #               is_new: false
+              #         - heading: "Travel"
+              #           links:
+              #             - text: "Traveling to Vienna"
+              #               description: "Travel information"
+              #               url: "/info/registration-and-travel/travel-information"
+              #               is_new: false
 
       #               is_new: false
       #             - text: "Visas"
@@ -422,14 +334,18 @@ menu:
                     description: "Need-based scholarships for conference attendance"
                     url: "/info/inclusion/scholarship"
                     is_new: false
-                  # - text: "Accessibility"
-                  #   description: "Supporting access for all attendees"
-                  #   url: "/info/accessibility/attend"
-                  #   is_new: false
-                  # - text: "VISKids"
-                  #   description: "Childcare and activities open to everyone"
-                  #   url: "/info/inclusion/viskids"
-                  #   is_new: false
+          - heading: "Code of Conduct"
+            heading_url: "/info/inclusion/code-of-conduct"
+            description:
+              "The IEEE VIS Code of Conduct"
+              # - text: "Accessibility"
+              #   description: "Supporting access for all attendees"
+              #   url: "/info/accessibility/attend"
+              #   is_new: false
+              # - text: "VISKids"
+              #   description: "Childcare and activities open to everyone"
+              #   url: "/info/inclusion/viskids"
+              #   is_new: false
 
   # ---------------------------------------------------------------------------
   - dropdown: "Program"
@@ -493,19 +409,6 @@ menu:
                     description: "Kimberly K. Arcand"
                     url: "/info/invited-speakers/keynote-speaker"
                     is_new: false
-      # - subsections:
-      #     - heading: "Invited Speakers"
-      #       heading_url: "/info/invited-speakers/summary"
-      #       columns:
-      #         - links:
-      #             - text: "Keynote"
-      #               description: "Hans-Christian Hege"
-      #               url: "/info/invited-speakers/keynote-speaker"
-      #               is_new: false
-      #             - text: "Capstone"
-      #               description: "Theo Deutinger"
-      #               url: "/info/invited-speakers/capstone-speaker"
-      #               is_new: false
       #     - heading: "Awards and Recognitions"
       #       heading_url: "/info/awards/summary"
       #       columns:
