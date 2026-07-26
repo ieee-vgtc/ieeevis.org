@@ -32,7 +32,8 @@ async function loadPagefind() {
   // locate its wasm/index chunks), so it must be loaded via dynamic
   // `import()` rather than a plain <script> tag.
   const pagefind = (await import(
-    /* @vite-ignore */ `${import.meta.env.BASE_URL}pagefind/pagefind.js`
+    /* @vite-ignore */ `${import.meta.env.BASE_URL}/pagefind/pagefind.js`
+    // /* @vite-ignore */ `${import.meta.env.BASE_URL}pagefind/pagefind.js`
   )) as NonNullable<Window["pagefind"]>;
 
   window.pagefind = pagefind;
