@@ -347,7 +347,7 @@ menu:
                     description: "Kimberly K. Arcand"
                     url: "/info/invited-speakers/keynote-speaker"
                     is_new: false
-                 - text: "Capstone"
+                  - text: "Capstone"
                     description: "Nils Gehlenborg"
                     url: "/info/invited-speakers/capstone-speaker"
                     is_new: false
