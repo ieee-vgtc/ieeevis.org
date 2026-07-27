@@ -55,9 +55,42 @@ export const features = {
     // "/info/program",
     // "/info/registration-and-travel",
     "/info/social-events",
+    "/info/inclusion/viskids",
     // for working on the program pages, we want to disable the program page until it's ready
     "/program",
   ],
 } as const;
 
 export type Features = typeof features;
+
+/**
+ * Strips the configured base path (e.g. "/year/2026") from a pathname so
+ * `inactivePathPrefixes`/`activePathOverrides` can be written as plain paths
+ * regardless of deployment base.
+ */
+export function stripBaseURL(pathname: string): string {
+  const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+  return pathname.startsWith(base)
+    ? pathname.slice(base.length) || "/"
+    : pathname;
+}
+
+/**
+ * Whether a path (already stripped of the base URL, see `stripBaseURL`) is
+ * disabled per the allow-list and should be hidden from navigation, search
+ * results, etc.
+ */
+export function isPathInactive(pathWithoutBase: string): boolean {
+  const isOverridden = (
+    features.activePathOverrides as readonly string[]
+  ).includes(pathWithoutBase);
+
+  if (isOverridden) {
+    return false;
+  }
+
+  return features.inactivePathPrefixes.some(
+    (prefix) =>
+      pathWithoutBase === prefix || pathWithoutBase.startsWith(prefix + "/"),
+  );
+}

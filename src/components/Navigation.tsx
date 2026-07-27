@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { withBaseURL } from "../utils/withBaseURL";
+import Search from "./Search";
 
 function classNames(classes: { [key: string]: boolean }) {
   return Object.entries(classes)
@@ -191,6 +192,7 @@ export default function Navigation({
                 </div>
               ),
           )}
+          <Search />
         </div>
       </nav>
 
