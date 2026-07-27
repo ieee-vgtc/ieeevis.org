@@ -51,14 +51,24 @@ export default function Navigation({
         >
           {/* Blog item */}
           {nav_data.blog.display && (
-            <div className="w-full py-4  border-b-2 border-primary-200 px-8 md:border-0 md:py-6 md:px-2 lg:py-6 lg:px-4 md:w-fit">
-              <a
-                className="menu_item nav-text-link font-display text-lg  p-0 m-0 w-full"
-                href={withBaseURL(nav_data.blog.url)}
+            <div>
+              <button
+                className={classNames({
+                  "menu_item font-display text-lg md:text-base lg:text-lg px-8 md:px-4 lg:px-4 mx-0 lg:mx-2 py-4 md:py-6 border-b-2 border-primary-200 ": true,
+                  "menu_item--focused": selectedDropDownIndex === 0,
+                  "md:border-b-4 md:border-white ": page_info?.title === "Blog",
+                  "md:border-none": page_info?.title !== "Blog",
+                })}
+                tabIndex={0}
                 role="menuitem"
               >
-                {nav_data.blog.text}
-              </a>
+                <a
+                  className="whitespace-nowrap"
+                  href={withBaseURL(nav_data.blog.url)}
+                >
+                  {"Blog"}
+                </a>
+              </button>
             </div>
           )}
 
