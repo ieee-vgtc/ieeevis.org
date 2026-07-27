@@ -40,9 +40,9 @@ Coffee breaks are planned in the middle of the morning and afternoon sessions.
 
 **[Workshop]** BELIV: Session 1<br />
 **[Workshop]** vis4climate: Workshop on Building a Transdisciplinary Climate Vis Community<br />
-**[Workshop]** VISxAI: 9th Workshop on Visualization for AI Explainability<br />
+**[Workshop]** VISxGenAI: GenAI, Agents, and the Future of VIS<br />
 **[Workshop]** EduVis: IEEE VIS Workshop on Visualization Education, Literacy, and Activities<br />
-**[Workshop]** VAxAutoSci: Visual Analytics in the Age of Autonomous Science<br />
+**[Workshop]** Considering Context: Approaches for Responsible Data Practices<br />
 **[Workshop]** VisXVision: Leveraging Vision Science Approaches to Ground Theory, Methods, and Reliability of Visualization<br />
 **[Workshop]** SciFi-VIS: Way Out There - How SciFi and Visualization Influence Each Other<br />
 **[Workshop]** AccessViz: 3rd Workshop on Accessible Data Visualization<br />
@@ -52,8 +52,8 @@ Coffee breaks are planned in the middle of the morning and afternoon sessions.
 
 **[Workshop]** BELIV: Session 2<br />
 **[Workshop]** TopoInVis Connect - Topology meets Artificial Intelligence<br />
-**[Workshop]** VISxGenAI: GenAI, Agents, and the Future of VIS<br />
-**[Workshop]** Considering Context: Approaches for Responsible Data Practices<br />
+**[Workshop]** VISxAI: 9th Workshop on Visualization for AI Explainability<br />
+**[Workshop]** VAxAutoSci: Visual Analytics in the Age of Autonomous Science<br />
 **[Workshop]** Uncertainty Visualization: How to Make it Interpretable, Integrable, and Accessible?<br />
 **[Workshop]** Grand Unified Grammar of Graphics (GUGOG)<br />
 
