@@ -9,6 +9,11 @@
   buttonText: "Registration"
   buttonUrl: "/info/registration-and-travel/conference-registration"
 
+- title: "VIS 2026 Capstone: Nils Gehlenborg"
+  image: "Nils.png"
+  buttonText: "VIS 2026 Capstone"
+  buttonUrl: "/info/invited-speakers/capstone-speaker"
+
 - title: "VIS 2026 Keynote: Kimberly K. Arcand"
   image: "kimberly-arcand.jpg"
   buttonText: "VIS 2026 Keynote"

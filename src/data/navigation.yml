@@ -346,6 +346,10 @@ menu:
                     description: "Kimberly K. Arcand"
                     url: "/info/invited-speakers/keynote-speaker"
                     is_new: false
+                  - text: "Capstone"
+                    description: "Nils Gehlenborg"
+                    url: "/info/invited-speakers/capstone-speaker"
+                    is_new: false
       #     - heading: "Awards and Recognitions"
       #       heading_url: "/info/awards/summary"
       #       columns:
