@@ -421,7 +421,7 @@ menu:
       #               is_new: false
 
   # ---------------------------------------------------------------------------
-  - dropdown: "Org. & History"
+  - dropdown: "Organization"
     display: true
     sections:
       - subsections:
