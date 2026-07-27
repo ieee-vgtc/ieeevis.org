@@ -1,25 +1,16 @@
 ---
 layout: /src/layouts/PageLayout.astro
-title: "Capstone by Theo Deutinger"
+title: "Capstone by Nils Gehlenborg"
 contact: info@ieeevis.org
 active_nav: "Program"
 ---
 
-Details TBD.
+The VIS 2026 capstone talk will be given by **Nils Gehlenborg**.
 
-<!-- The VIS 2026 capstone talk will be given by **Theo Deutinger**.
+![Kimberly K. Arcand](/year/2026/assets/keynote-speakers/Nils.png)
 
-Theo is an Austrian architect, curator, and theorist.
-He is the founder and principal of The Department (TD), a practice that integrates architecture, urban design, and analytical research across various scales—from global planning to graphic design and curatorial work.
-He is known for his publications that critically examine societal structures through architectural and visual means.
-Key publications include
-[Handbook of Tyranny (2018)](https://en.wikipedia.org/wiki/Handbook_of_Tyranny){:target="\_blank"},
-[Ultimate Atlas (2019)](https://www.lars-mueller-publishers.com/ultimate-atlas){:target="\_blank"} and
-[Joy and Fear (2023)](https://www.lars-mueller-publishers.com/joy-and-fear){:target="\_blank"}.
-Theo's work has been featured in institutions like the Stedelijk Museum in Amsterdam, Storefront for Art and Architecture in New York, and the Swiss Architecture Museum in Basel.
+Nils Gehlenborg is an Associate Professor in the Department of Biomedical Informatics at Harvard Medical School. His research aims to improve human health by developing visual interfaces and computational techniques that let scientists and clinicians work efficiently with biomedical data. His approach tightly integrates algorithmic methods from biomedical informatics with advanced data visualization, in close collaboration with clinicians and experimentalists. He is currently developing tools to visualize 3D genome conformation data and heterogeneous data from large-scale cancer genomics studies, aiming to support both sense-making in biology and reproducible, collaborative research. He is also a Co-Investigator for the 4D Nucleome Network Data Coordination and Integration Center at Harvard Medical School.
 
-In his capstone talk _"A Diagrammatic Approach to the World"_ Theo will focus on the practice of data visualization.
-Starting from the 100th anniversary of the Gesellschafts- und Wirtschaftsmuseum, founded by Otto Neurath - member of the Vienna Circle and inventor of ISOTYPE - Theo will go back in time and try to decipher the origin of data visualization.
-In this context, he will show examples of his own work and explain his fascination with the forces of globalization and how data visualization is the way to get a grip on them.
+Gehlenborg co-founded BioVis, the Symposium on Biological Data Visualization, and VIZBI, the annual workshop on Visualizing Biological Data; he previously served as BioVis general chair and now chairs its steering committee. He co-chairs the Policy Working Group for the 4D Nucleome Network, an NIH Common Fund project, has served on program committees for multiple bioinformatics and data visualization conferences, and holds editorial roles including associate editor of BMC Bioinformatics. He has also contributed to Nature Methods' "Points of View" data visualization column.
 
-**When: Friday (Nov 7), 11:15am (CET), Hall E** -->
+<!-- **When: Friday (Nov 7), 11:15am (CET), Hall E** -->
