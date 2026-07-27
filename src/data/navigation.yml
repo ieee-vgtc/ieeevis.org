@@ -329,7 +329,20 @@ menu:
                   #   description: "Meet for discussions and shared experiences"
                   #   url: "/info/program/meetups"
                   #   is_new: false
-
+          - heading: "Associated Events"
+            description: "Events associated with the main conference"
+            columns:
+              - links:
+                  - text: "VIS Arts Program (VISAP)"
+                    description: "A mini-conference and exhibition for vis researchers, designers, and artists"
+                    url: "https://visap.net/2026/"
+                    is_new: false
+                    is_external: true
+                  - text: "CLUSTER: The Practitioners' Summit"
+                    description: "A gathering for people who build, ship, and defend visualizations for a living."
+                    url: "https://cluster-practitioners-summit.github.io/"
+                    is_new: true
+                    is_external: true
           # - heading: "Plenary Sessions"
           #   heading_url: "/info/plenary/summary"
           #   columns:
@@ -408,7 +421,7 @@ menu:
       #               is_new: false
 
   # ---------------------------------------------------------------------------
-  - dropdown: "Org. & History"
+  - dropdown: "Organization"
     display: true
     sections:
       - subsections:
