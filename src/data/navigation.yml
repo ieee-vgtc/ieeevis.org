@@ -271,6 +271,15 @@ menu:
                     description: "Need-based scholarships for conference attendance"
                     url: "/info/inclusion/scholarship"
                     is_new: false
+                  - text: "VISKids"
+                    description: "Childcare and activities open to everyone"
+                    url: "/info/inclusion/viskids"
+                    is_new: false
+                - text: "VISKids Childcare Grants"
+                    description: "Supporting our VISKids and young families"
+                    url: "/info/inclusion/viskids-child-care-grants"
+                    is_new: false
+
           - heading: "Code of Conduct"
             heading_url: "/info/inclusion/code-of-conduct"
             description:
