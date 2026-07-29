@@ -55,7 +55,6 @@ export const features = {
     // "/info/program",
     // "/info/registration-and-travel",
     "/info/social-events",
-    "/info/inclusion/viskids",
     "/info/visinpractice/",
     // for working on the program pages, we want to disable the program page until it's ready
     "/program",
