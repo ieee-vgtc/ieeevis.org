@@ -275,7 +275,7 @@ menu:
                     description: "Childcare and activities open to everyone"
                     url: "/info/inclusion/viskids"
                     is_new: false
-                - text: "VISKids Childcare Grants"
+                  - text: "VISKids Childcare Grants"
                     description: "Supporting our VISKids and young families"
                     url: "/info/inclusion/viskids-child-care-grants"
                     is_new: false
