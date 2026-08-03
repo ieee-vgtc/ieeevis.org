@@ -7,7 +7,7 @@ active_nav: "Program"
 ---
 
 Below is a concise overview of the conference program.
-**Please note that details will be added at a later date.**
+**Please note, this is a preliminary schedule. The session times are subject to change and details will be added at a later date.**
 
 <hr/>
 
@@ -25,7 +25,7 @@ Details to follow on time and location.<br />
 ## Workshop Schedule (Monday) 
 
 Monday workshop sessions will be **3.5 hours** (including a 30-minute coffee break).
-We will have two parallel tracks (morning and afternoon).
+We will have up to nine parallel tracks (morning and afternoon).
 Coffee breaks are planned in the middle of the morning and afternoon sessions.
 * Morning coffee break: **9:30 AM - 10:00 AM (EST)**
 * Lunch break: **11:30 AM - 1:00 PM (EST)**
@@ -63,7 +63,7 @@ Coffee breaks are planned in the middle of the morning and afternoon sessions.
 ## Conference Schedule (Tuesday - Friday)
 
 Tuesday to Friday sessions will be **90 minutes**.
-We will have two parallel tracks morning and two in the afternoon.
+We will have up to six parallel tracks in the morning and in the afternoon.
 Coffee breaks are planned between the first/second and third/fourth block.
 * Morning coffee break: **9:30 AM - 10:00 AM (EST)**
 * Lunch break: **11:30 AM - 1:00 PM (EST)**
