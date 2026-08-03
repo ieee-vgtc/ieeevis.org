@@ -271,6 +271,15 @@ menu:
                     description: "Need-based scholarships for conference attendance"
                     url: "/info/inclusion/scholarship"
                     is_new: false
+                  - text: "VISKids"
+                    description: "Childcare and activities open to everyone"
+                    url: "/info/inclusion/viskids"
+                    is_new: false
+                  - text: "VISKids Childcare Grants"
+                    description: "Supporting our VISKids and young families"
+                    url: "/info/inclusion/viskids-child-care-grants"
+                    is_new: false
+
           - heading: "Code of Conduct"
             heading_url: "/info/inclusion/code-of-conduct"
             description:
@@ -329,6 +338,20 @@ menu:
                   #   description: "Meet for discussions and shared experiences"
                   #   url: "/info/program/meetups"
                   #   is_new: false
+          - heading: "Associated Events"
+            description: "Events associated with the main conference"
+            columns:
+              - links:
+                  - text: "VIS Arts Program (VISAP)"
+                    description: "A mini-conference and exhibition for vis researchers, designers, and artists"
+                    url: "https://visap.net/2026/"
+                    is_new: false
+                    is_external: true
+                  - text: "CLUSTER: The Practitioners' Summit"
+                    description: "A gathering for people who build, ship, and defend visualizations for a living."
+                    url: "https://cluster-practitioners-summit.github.io/"
+                    is_new: true
+                    is_external: true
           # - heading: "Plenary Sessions"
           #   heading_url: "/info/plenary/summary"
           #   columns:
@@ -346,6 +369,24 @@ menu:
                     description: "Kimberly K. Arcand"
                     url: "/info/invited-speakers/keynote-speaker"
                     is_new: false
+                  - text: "Capstone"
+                    description: "Nils Gehlenborg"
+                    url: "/info/invited-speakers/capstone-speaker"
+                    is_new: false
+          - heading: "Community"
+            heading_url: "/info/community/community"
+            description: "Explore social and topic-based community groups"
+            columns:
+              - heading: "Connect"
+                links:
+                  - text: "Vis Buddies"
+                    description: "Connecting new and returning VIS attendees"
+                    url: "https://ieeevis.org/year/2026/info/community/vis-buddies/"
+                    is_new: true
+                  - text: "Job Postings"
+                    description: "VIS 2026 job board"
+                    url: "https://ieeevis.org/year/2026/info/community/jobs/"
+                    is_new: true
       #     - heading: "Awards and Recognitions"
       #       heading_url: "/info/awards/summary"
       #       columns:
@@ -389,82 +430,7 @@ menu:
       #               is_new: false
 
   # ---------------------------------------------------------------------------
-  - dropdown: "Events & Community"
-    display: true
-    sections:
-      - subsections:
-          - heading: "Associated Events"
-            description: "Events associated with the main conference"
-            columns:
-              - links:
-                  - text: "VIS Arts Program (VISAP)"
-                    description: "A mini-conference and exhibition for vis researchers, designers, and artists"
-                    url: "https://visap.net/2026/"
-                    is_new: false
-                    is_external: true
-                  - text: "CLUSTER: The Practitioners' Summit"
-                    description: "A gathering for people who build, ship, and defend visualizations for a living."
-                    url: "https://cluster-practitioners-summit.github.io/"
-                    is_new: true
-                    is_external: true
-                  # - text: "VisInPractice (VIP)"
-                  #   description: "Events of special interest for visualization practitioners"
-                  #   url: "/info/visinpractice"
-                  #   is_new: false
-
-      # - subsections:
-      #     - heading: "IEEE VIS Workshops"
-      #       display: false
-      #       is_new: false
-      #       heading_url: "/info/program/workshops"
-      #       description: "Informal settings to discuss emerging topics"
-      #       columns:
-      #         - links:
-      #             - text: "ECWIDNA"
-      #               description: "Engaging Critical Workforce In co-Design aNd Assessment"
-      #               url: "https://sites.google.com/view/ecwidna"
-      #               is_external: true
-      #               is_new: false
-
-      - subsections:
-          - heading: "Community"
-            heading_url: "/info/community/community"
-            description: "Explore social and topic-based community groups"
-            columns:
-              - heading: "Connect"
-                links:
-                  - text: "Vis Buddies"
-                    description: "Connecting new and returning VIS attendees"
-                    url: "https://ieeevis.org/year/2026/info/community/vis-buddies/"
-                    is_new: true
-                  - text: "Job Postings"
-                    description: "VIS 2026 job board"
-                    url: "https://ieeevis.org/year/2026/info/community/jobs/"
-                    is_new: true
-          - heading: "Social Media"
-            columns:
-              - links:
-                  # - text: "Facebook"
-                  #   url: "https://www.facebook.com/ieeevis"
-                  # is_external: true
-                  - text: "X (Twitter)"
-                    url: "https://twitter.com/ieeevis"
-                    is_external: true
-                  - text: "Mastodon"
-                    url: "https://vis.social/@ieeevis"
-                    is_external: true
-                  - text: "Bluesky"
-                    url: "https://bsky.app/profile/ieeevis.bsky.social"
-                    is_external: true
-                  - text: "LinkedIn"
-                    url: "https://www.linkedin.com/company/ieeevis"
-                    is_external: true
-                  - text: "Email List"
-                    url: "https://ieeevis.us20.list-manage.com/subscribe?u=874d4e627b4758f4438963e98&id=6c036e3c40"
-                    is_external: true
-
-  # ---------------------------------------------------------------------------
-  - dropdown: "Organization & History"
+  - dropdown: "Organization"
     display: true
     sections:
       - subsections:
@@ -601,3 +567,24 @@ menu:
               - links:
                   - text: "Updating the website content"
                     url: "/info/contributing"
+          - heading: "Social Media"
+            columns:
+              - links:
+                  # - text: "Facebook"
+                  #   url: "https://www.facebook.com/ieeevis"
+                  # is_external: true
+                  - text: "X (Twitter)"
+                    url: "https://twitter.com/ieeevis"
+                    is_external: true
+                  - text: "Mastodon"
+                    url: "https://vis.social/@ieeevis"
+                    is_external: true
+                  - text: "Bluesky"
+                    url: "https://bsky.app/profile/ieeevis.bsky.social"
+                    is_external: true
+                  - text: "LinkedIn"
+                    url: "https://www.linkedin.com/company/ieeevis"
+                    is_external: true
+                  - text: "Email List"
+                    url: "https://ieeevis.us20.list-manage.com/subscribe?u=874d4e627b4758f4438963e98&id=6c036e3c40"
+                    is_external: true

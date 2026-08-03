@@ -4,6 +4,8 @@ import { defineConfig } from "astro/config";
 import react from "@astrojs/react";
 import tailwindcss from "@tailwindcss/vite";
 
+import pagefind from "astro-pagefind";
+
 //https://docs.astro.build/en/guides/integrations-guide/sitemap/
 import sitemap from "@astrojs/sitemap";
 import rehypeExternalLinks from "rehype-external-links";
@@ -16,6 +18,7 @@ export default defineConfig({
   integrations: [
     react(),
     sitemap(),
+    pagefind(),
     brokenLinksChecker({
       logFilePath: "broken-links.log",
       checkExternalLinks: false,
