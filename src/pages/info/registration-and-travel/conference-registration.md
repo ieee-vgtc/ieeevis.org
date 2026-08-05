@@ -15,13 +15,12 @@ After reviewing the sections below, please use the registration button below **f
 
 <a class="button" href="https://web.cvent.com/event/bfb61584-aa1d-46ed-9a2e-98101b7b86e4/summary" target="_blank">BOSTON REGISTRATION</a>
 <a class="button" href="https://web.cvent.com/event/0e18a99d-6d50-4799-995e-c6d504f2166f" target="_blank">PARIS REGISTRATION</a>
-
-Registration for Tianjin, China is coming soon. If you are planning to attend in Tianjin, please standby for updates to how you will register.
+<a class="button" href="https://ieeevis2026.scimeeting.cn/" target="_blank">TIANJIN REGISTRATION</a>
 
 ### Registration Process
 
 1. Click the registration button above **for the location you will attend**.
-2. Follow the prompts to select the appropriate registration type and answer registration-related quetions.
+2. Follow the prompts to select the appropriate registration type and answer registration-related questions.
    - **Remember that presenters of full papers, short papers, invited TVCG papers, and invited CG&A papers must be covered by a Full Conference registration if attending Boston or an Author registration if attending a satellite location. You also must provide information as an author.** More details on this below.
    - VAT for satellite registrations will be included as necessary depending on the location you are attending and the selected registration item.
 3. Complete your payment for your selected registration.
@@ -46,23 +45,23 @@ We recommend all attendees, authors/presenters, and organizers register online i
 
 #### Early Bird Registration (until September 14, 2026, AOE)
 
-| Registrant Type     | Full Conference | Satellite - Paris | Satellite - Tianjin | Two Day - Boston | One Day - Boston |
-| ------------------- | --------------- | ----------------- | ------------------- | ---------------- | ---------------- |
-| IEEE Member         | $899            | $399 + VAT        | $399 + VAT          | $369             | $289             |
-| Non-Member          | $1,099          | $499 + VAT        | $499 + VAT          | $449             | $349             |
-| IEEE Student Member | $499            | $299 + VAT        | $299 + VAT          | $249             | $199             |
-| Student Non-Member  | $599            | $399 + VAT        | $399 + VAT          | $299             | $239             |
-| IEEE Life Member    | $499            |                   |                     |                  |                  |
+| Registrant Type     | Full Conference - Boston | Satellite Author - Paris/Tianjin | Satellite Attendee - Paris/Tianjin | Two Day - Boston | One Day - Boston |
+| ------------------- | ------------------------ | -------------------------------- | ---------------------------------- | ---------------- | ---------------- |
+| IEEE Member         | $899                     | $899 + VAT                       | $399 + VAT                         | $369             | $289             |
+| Non-Member          | $1,099                   | $1,099 + VAT                     | $499 + VAT                         | $449             | $349             |
+| IEEE Student Member | $499                     | $499 + VAT                       | $299 + VAT                         | $249             | $199             |
+| Student Non-Member  | $599                     | $599 + VAT                       | $399 + VAT                         | $299             | $239             |
+| IEEE Life Member    | $499                     | $499 + VAT                       |                                    |                  |                  |
 
 #### Late Registration (from September 15, 2026)
 
-| Registrant Type     | Full Conference | Satellite - Paris | Satellite - Tianjin | Two Day - Boston | One Day - Boston |
-| ------------------- | --------------- | ----------------- | ------------------- | ---------------- | ---------------- |
-| IEEE Member         | $1,099          | $499 + VAT        | $499 + VAT          | $449             | $349             |
-| Non-Member          | $1,319          | $599 + VAT        | $599 + VAT          | $539             | $419             |
-| IEEE Student Member | $599            | $359 + VAT        | $359 + VAT          | $299             | $239             |
-| Student Non-Member  | $719            | $479 + VAT        | $479 + VAT          | $359             | $289             |
-| IEEE Life Member    | $599            |                   |                     |                  |                  |
+| Registrant Type     | Full Conference - Boston | Satellite Author - Paris/Tianjin | Satellite Attendee - Paris/Tianjin | Two Day - Boston | One Day - Boston |
+| ------------------- | ------------------------ | -------------------------------- | ---------------------------------- | ---------------- | ---------------- |
+| IEEE Member         | $1,099                   | $1,099 + VAT                     | $499 + VAT                         | $449             | $349             |
+| Non-Member          | $1,319                   | $1,319 + VAT                     | $599 + VAT                         | $539             | $419             |
+| IEEE Student Member | $599                     | $599 + VAT                       | $359 + VAT                         | $299             | $239             |
+| Student Non-Member  | $719                     | $719 + VAT                       | $479 + VAT                         | $359             | $289             |
+| IEEE Life Member    | $599                     | $599 + VAT                       |                                    |                  |                  |
 
 **All registrations include admission to sessions and events for the chosen days and location of attendance. Access to virtual content is also provided.**
 
@@ -70,7 +69,9 @@ If attending on Wednesday in Boston (November 11), all registration categories i
 
 **Remember that each paper presented during the main conference proceedings MUST have at least one person complete a Full Conference or Author registration.** See above for details.
 
-**Registration fees are refundable up to 30 days before the beginning of the conference.**
+#### Cancelation Policy
+
+**Registration fees are refundable up to 30 days before the beginning of the conference.** Refunds for Tianjin registrations require a $50 administrative fee.
 
 ### Diversity and Inclusivity Participants
 
