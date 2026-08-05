@@ -131,9 +131,19 @@ p {
 }
 
 .content td,
-th {
+.content th {
   @apply px-4 py-3;
   overflow-wrap: break-word;
+}
+
+@media (max-width: 767px) {
+  .content table {
+    display: block;
+    overflow-x: auto;
+    table-layout: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+  }
 }
 
 .content tbody tr:first-child {

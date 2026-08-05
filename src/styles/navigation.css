@@ -300,6 +300,13 @@
   @apply mb-0;
 }
 
+/* Search */
+
+.search-excerpt mark {
+  @apply bg-accent-secondaryBackground text-accent;
+  font-weight: 600;
+}
+
 /* Navigation Overlay */
 
 .navigation__overlay {

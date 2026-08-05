@@ -37,7 +37,7 @@ All **deadlines are at 11:59pm (23:59) AoE** Anywhere on Earth (AoE).
 
 - Submission Deadline: Wednesday, **June 24**, 2026 (AoE)
 - Notification of Acceptance: Friday, **July 24**, 2026 
-- Final Submission of Camera Ready Summaries and Poster PDF: Thursday, **August 21**, 2026 (AoE)
+- Final Submission of Camera Ready Summaries and Poster PDF: Friday, **August 21**, 2026 (AoE)
 
 ## POSTER DESIGN AND PRINTING
 

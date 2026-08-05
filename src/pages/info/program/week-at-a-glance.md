@@ -7,7 +7,7 @@ active_nav: "Program"
 ---
 
 Below is a concise overview of the conference program.
-**Please note that details will be added at a later date.**
+**Please note, this is a preliminary schedule. The session times are subject to change and details will be added at a later date.**
 
 <hr/>
 
@@ -25,7 +25,7 @@ Details to follow on time and location.<br />
 ## Workshop Schedule (Monday) 
 
 Monday workshop sessions will be **3.5 hours** (including a 30-minute coffee break).
-We will have two parallel tracks (morning and afternoon).
+We will have up to nine parallel tracks (morning and afternoon).
 Coffee breaks are planned in the middle of the morning and afternoon sessions.
 * Morning coffee break: **9:30 AM - 10:00 AM (EST)**
 * Lunch break: **11:30 AM - 1:00 PM (EST)**
@@ -40,9 +40,9 @@ Coffee breaks are planned in the middle of the morning and afternoon sessions.
 
 **[Workshop]** BELIV: Session 1<br />
 **[Workshop]** vis4climate: Workshop on Building a Transdisciplinary Climate Vis Community<br />
-**[Workshop]** VISxAI: 9th Workshop on Visualization for AI Explainability<br />
+**[Workshop]** VISxGenAI: GenAI, Agents, and the Future of VIS<br />
 **[Workshop]** EduVis: IEEE VIS Workshop on Visualization Education, Literacy, and Activities<br />
-**[Workshop]** VAxAutoSci: Visual Analytics in the Age of Autonomous Science<br />
+**[Workshop]** Considering Context: Approaches for Responsible Data Practices<br />
 **[Workshop]** VisXVision: Leveraging Vision Science Approaches to Ground Theory, Methods, and Reliability of Visualization<br />
 **[Workshop]** SciFi-VIS: Way Out There - How SciFi and Visualization Influence Each Other<br />
 **[Workshop]** AccessViz: 3rd Workshop on Accessible Data Visualization<br />
@@ -52,8 +52,8 @@ Coffee breaks are planned in the middle of the morning and afternoon sessions.
 
 **[Workshop]** BELIV: Session 2<br />
 **[Workshop]** TopoInVis Connect - Topology meets Artificial Intelligence<br />
-**[Workshop]** VISxGenAI: GenAI, Agents, and the Future of VIS<br />
-**[Workshop]** Considering Context: Approaches for Responsible Data Practices<br />
+**[Workshop]** VISxAI: 9th Workshop on Visualization for AI Explainability<br />
+**[Workshop]** VAxAutoSci: Visual Analytics in the Age of Autonomous Science<br />
 **[Workshop]** Uncertainty Visualization: How to Make it Interpretable, Integrable, and Accessible?<br />
 **[Workshop]** Grand Unified Grammar of Graphics (GUGOG)<br />
 
@@ -63,7 +63,7 @@ Coffee breaks are planned in the middle of the morning and afternoon sessions.
 ## Conference Schedule (Tuesday - Friday)
 
 Tuesday to Friday sessions will be **90 minutes**.
-We will have two parallel tracks morning and two in the afternoon.
+We will have up to six parallel tracks in the morning and in the afternoon.
 Coffee breaks are planned between the first/second and third/fourth block.
 * Morning coffee break: **9:30 AM - 10:00 AM (EST)**
 * Lunch break: **11:30 AM - 1:00 PM (EST)**
