@@ -69,6 +69,8 @@ If attending on Wednesday in Boston (November 11), all registration categories i
 
 **Remember that each paper presented during the main conference proceedings MUST have at least one person complete a Full Conference or Author registration.** See above for details.
 
+#### Cancelation Policy
+
 **Registration fees are refundable up to 30 days before the beginning of the conference.** Refunds for Tianjin registrations require a $50 administrative fee.
 
 ### Diversity and Inclusivity Participants
