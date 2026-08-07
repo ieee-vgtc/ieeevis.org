@@ -17,6 +17,7 @@ active_nav: "Organization & History"
 | Petra Isenberg                            | _Inria_                                                      |
 | Florent Cabric                            | _Université Paris-Saclay_                                    |
 | David Ludovic                             | _Inria_                                                      |
+| Nathalie Bressa                           | _Telecom Paris_                                              |
 |                                           |                                                              |
 | **China Satellite Chairs**                | satellite_china@ieeevis.org                                  |
 | Jiawan Zhang                              | _Tianjin University_                                         |
@@ -119,6 +120,7 @@ active_nav: "Organization & History"
 | Fred Hohman                               | _Apple_                                                      |
 | Kanit Wongsuphasawat                      | _Databricks_                                                 |
 | Lisa Avila                                | _Kitware_                                                    |
+| Victor Mateevitsi                         | _Argonne National Lab_                                       |
 |                                           |                                                              |
 | **Practitioner's Summit Chairs**          | practitioners_summit@ieeevis.org                             |
 | Jonathan Schwabish                        | _PolicyViz_                                                  |
@@ -134,7 +136,7 @@ active_nav: "Organization & History"
 | Victor Mateevitsi                         | _University of Illinois Chicago_                             |
 | Fabio Miranda                             | _University of Illinois Chicago_                             |
 | Michael Papka                             | _University of Illinois Chicago_                             |
-| India Gordon                              | Argonne National Lab                                         |
+| India Gordon                              | _Argonne National Lab_                                       |
 |                                           |                                                              |
 | **Archive Chairs**                        | archive@ieeevis.org                                          |
 | Changjian Chen                            | _Hunan University_                                           |
@@ -155,6 +157,8 @@ active_nav: "Organization & History"
 | Hilson Shrestha                           | _Worcester Polytechnic Institute_                            |
 | Adam Coscia                               | _Georgia Institute of Technology_                            |
 | Patrick Paetzold                          | _University of Konstanz_                                     |
+| Zhen Li                                   | _Tianjin University_                                         |
+| David Ludovic                             | _Inria_                                                      |
 |                                           |                                                              |
 | **VAST Challenge Chairs**                 | vast_challenge@ieeevis.org                                   |
 | Steve Gomez                               | _MIT Lincoln Laboratory_                                     |
@@ -164,6 +168,15 @@ active_nav: "Organization & History"
 | Valerio Pascucci                          | _University of Utah_                                         |
 | Giorgio Scorzelli                         | _University of Utah_                                         |
 | Aashish Panta                             | _University of Utah_                                         |
+|                                           |                                                              |
+| **BioVis Challenge Chairs**               | biovis_challenge@ieeevis.org                                 |
+| Katarina Furmanova                        | _Masaryk University_                                         |
+| Daniel Haehn                              | _University of Massachusetts Boston_                         |
+| Robert Krueger                            | _New York University_                                        |
+|                                           |                                                              |
+| **Social Events Chairs**                  | social_events@ieeevis.org                                    |
+| Camelia D. Brumar                         | _Tufts University_                                           |
+| Ryan Smith                                | _University of British Columbia_                             |
 |                                           |                                                              |
 | **IEEE**                                  |
 | Coral Miller                              | _IEEE Computer Society_                                      |
