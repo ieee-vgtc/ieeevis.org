@@ -474,7 +474,7 @@ by Xingdi Zhang, Amani Ageeli, Thomas Theußl, Markus Hadwiger, & Peter Rautek
 **TFZ: Topology-Preserving Compression of 2D Symmetric and Asymmetric Second-Order Tensor Fields**<br />
 by Nathaniel Gorski, Xin Liang, Hanqi Guo, & Bei Wang
 
-**FlowHON: Representing Flow Fields Using Higher-Order Networks**<br />
+**FlowHON: Representing Flow Fields Using Higher-Order Networks [TVCG]**<br />
 by Nan Chen, Zhihong Li, & Jun Tao
 
 **Trajectory Vorticity - Computation and Visualization of Rotational Trajectory Behavior in an Objective Way [TVCG]**<br />
@@ -784,7 +784,7 @@ by Guoxi Liu, Thomas Randall, Rong Ge, & Federico Iuricich
 **FlowForge: Guiding the Creation of Multi-agent Workflows with Interactive Visualizations as a Thinking Scaffold**<br />
 by Pan Hao, Dongyeop Kang, Nicholas Hinds, & Qianwen Wang
 
-**Flexible and Probabilistic Topology Tracking with Partial Optimal Transport**<br />
+**Flexible and Probabilistic Topology Tracking with Partial Optimal Transport [TVCG]**<br />
 by Mingzhe Li, Xinyuan Yan, Lin Yan, Tom Needham, & Bei Wang
 
 **VizGenie: Toward Self-Refining, Domain-Aware Workflows for Next-Generation Scientific Visualization [Virtual Talk]**<br />
@@ -863,7 +863,7 @@ by Thomas Marrinan, Victor A. Mateevitsi, Madeleine Moeller, Alina Kanayinkal, &
 **VisGuard: Securing Visualization Dissemination through Tamper-Resistant Data Retrieval**<br />
 by Huayuan Ye, Juntong Chen, Shenzhuo Zhang, Yipeng Zhang, Changbo Wang, & Chenhui Li
 
-**FLINT: Learning-based Flow Estimation and Temporal Interpolation for Scientific Ensemble Visualization**<br />
+**FLINT: Learning-based Flow Estimation and Temporal Interpolation for Scientific Ensemble Visualization [TVCG]**<br />
 by Hamid Gadirov, Jos B.T.M. Roerdink, & Steffen Frey
 
 **Drawing in the Flow: A Data-Aware Mixed-Reality Sketching Interface for Illustrative 3D Flow Visualization [Short Paper]**<br />
