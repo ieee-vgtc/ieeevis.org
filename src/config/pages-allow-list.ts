@@ -5,11 +5,11 @@
 
 export const features = {
   weekOfVis: {
-    enabled: true,
+    enabled: false,
     sourceType:
       //
-      // "localTest",
-      "prod",
+      "localTest",
+    // "prod",
     // The prod sources are raw table dumps (see src/scripts/get-data.sh); the
     // session/event/room/timeblock/slot files are merged into a program by
     // fetchAllSessions. The localTest sources are a previous year's already
@@ -69,7 +69,7 @@ export const features = {
     "/info/social-events",
     "/info/visinpractice/",
     // for working on the program pages, we want to disable the program page until it's ready
-    // "/program",
+    "/program",
   ],
 } as const;
 
