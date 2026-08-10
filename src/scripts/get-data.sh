@@ -6,7 +6,7 @@ mkdir -p src/data/program
 
 fetch_table() {
   # $1 = supabase table, $2 = output file, $3 = optional extra filter
-  curl --location --silent --get "$SUPABASE_URL/rest/v1/$1" \
+  curl --location --silent --get "https://data.tech.ieeevis.org/rest/v1/$1" \
     --data-urlencode "select=*" \
     ${3:+--data-urlencode "$3"} \
     --header "apikey: $SUPABASE_CLIENT_ANON_KEY" > "src/data/program/$2"
