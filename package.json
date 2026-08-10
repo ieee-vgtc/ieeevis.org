@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
+    "getData": "sh src/scripts/get-data.sh",
     "typecheck": "astro check",
     "preview": "astro preview",
     "astro": "astro",
