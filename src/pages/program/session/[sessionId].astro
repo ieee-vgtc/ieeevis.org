@@ -19,7 +19,7 @@ export async function getStaticPaths() {
   const paths: Array<{ params: { sessionId: string }; props: EventPageProps }> =
     [];
 
-  for (const event of sessionList) {
+  for (const event of Object.values(sessionList)) {
     for (const session of event.sessions) {
       const prefixedId = `${session.event_prefix}-${session.session_id}`;
       const legacyId = session.session_id;

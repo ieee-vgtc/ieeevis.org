@@ -6,19 +6,31 @@
 export const features = {
   weekOfVis: {
     enabled: false,
-    useLocalSources: true,
-    sources: {
-      paper:
-        "https://raw.githubusercontent.com/ieee-vgtc/vis-virtual-website/vis2025/sitedata/2025/paper_list.json",
-      session:
-        "https://raw.githubusercontent.com/ieee-vgtc/vis-virtual-website/vis2025/sitedata/2025/session_list.json",
-      poster:
-        "https://raw.githubusercontent.com/ieee-vgtc/vis-virtual-website/vis2025/sitedata/2025/poster_list.json",
+    sourceType:
+      //
+      "localTest",
+    // "prod",
+    // The prod sources are raw table dumps (see src/scripts/get-data.sh); the
+    // session/event/room/timeblock/slot files are merged into a program by
+    // fetchAllSessions. The localTest sources are a previous year's already
+    // merged program, so only paper/session/poster are present there.
+    prodSource: {
+      paper: "/src/data/program/paper_list.json",
+      session: "/src/data/program/session_list.json",
+      poster: "/src/data/program/poster_list.json",
+      event: "/src/data/program/event_list.json",
+      room: "/src/data/program/room_list.json",
+      timeblock: "/src/data/program/timeblock_list.json",
+      slot: "/src/data/program/slot_list.json",
     },
-    localSources: {
+    localTestSources: {
       paper: "/src/data/program_test/paper_list.json",
       session: "/src/data/program_test/session_list.json",
       poster: "/src/data/program_test/poster_list.json",
+      event: "/src/data/program_test/event_list.json",
+      room: "/src/data/program_test/room_list.json",
+      timeblock: "/src/data/program_test/timeblock_list.json",
+      slot: "/src/data/program_test/slot_list.json",
     },
   },
 
