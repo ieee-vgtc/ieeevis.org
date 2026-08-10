@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build && rm -rf netlify-dist && mkdir -p netlify-dist/year/2026 && cp -a dist/. netlify-dist/year/2026/ && cp -a dist/404.html netlify-dist/404.html"
+  command = "npm run getData && npm run build && rm -rf netlify-dist && mkdir -p netlify-dist/year/2026 && cp -a dist/. netlify-dist/year/2026/ && cp -a dist/404.html netlify-dist/404.html"
   publish = "netlify-dist"
 
 [build.environment]
