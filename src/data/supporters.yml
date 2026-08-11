@@ -25,9 +25,12 @@
 #        image: /assets/supporters/Autodesk-logo.png
 #        url: "https://www.autodesk.com/research"
 
-# - category: Silver
-#   image_size: 320
-#   supporters:
+- category: Silver
+  image_size: 320
+  supporters:
+    - name: "Adobe"
+      image: /assets/supporters/adobe.png
+      url: "https://www.adobe.com/"
 #     - name: "VISUAPPS GmbH"
 #       image: /assets/supporters/visuapps.png
 #       url: "https://www.visuapps.com/"
@@ -35,15 +38,15 @@
 #       image: /assets/supporters/apple.png
 #       url: "https://www.apple.com"
 
-#  - category: Bronze
-#    image_size: 200
-#    supporters:
+- category: Bronze
+  image_size: 200
+  supporters:
+    - name: "Databricks"
+      image: /assets/supporters/databricks.png
+      url: "https://www.databricks.com/"
 #      - name: "VRVis"
 #        image: /assets/supporters/vrvis.png
 #        url: "https://www.vrvis.at/en/"
-#      - name: "Databricks"
-#        image: /assets/supporters/databricks.png
-#        url: "https://www.databricks.com/"
 
 #  - category: VISAP
 #    image_size: 140

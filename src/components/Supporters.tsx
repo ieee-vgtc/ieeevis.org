@@ -32,7 +32,7 @@ export default function Supporters({
                       style={{
                         width: `${supporter_group?.image_size}px`,
                       }}
-                      src={supporter.image}
+                      src={`${import.meta.env.BASE_URL}${supporter.image}`}
                       alt={supporter.name}
                     />
                   </a>
