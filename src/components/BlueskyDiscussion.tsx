@@ -241,7 +241,11 @@ function useIdentity(
 
         const me = (await response.json()) as Partial<MeResponse>;
         if (typeof me.pseudonym === "string") {
-          setIdentity({ name: me.name ?? null, pseudonym: me.pseudonym });
+          setIdentity({
+            name: me.name ?? null,
+            pseudonym: me.pseudonym,
+            bluesky: typeof me.bluesky === "string" ? me.bluesky : null,
+          });
         }
       } catch {
         // Cosmetic: the checkbox still works, the preview is just vaguer.
@@ -289,6 +293,10 @@ export default function BlueskyDiscussion({
   const attribution = anonymous
     ? identity?.pseudonym
     : identity?.name || identity?.pseudonym;
+  // A reader who has linked a Bluesky account can post and like there directly,
+  // so we hide the guest composer for them and point them at the thread instead.
+  const blueskyHandle = identity?.bluesky?.trim() || null;
+  const hasBlueskyAccount = Boolean(blueskyHandle);
 
   const load = useCallback(
     async (signal: AbortSignal, fresh: boolean): Promise<LoadedThread> => {
@@ -553,7 +561,7 @@ export default function BlueskyDiscussion({
   if (root) {
     rootFooter = (
       <>
-        {interactive ? (
+        {interactive && !hasBlueskyAccount ? (
           <button
             aria-pressed={liked}
             onClick={toggleLike}
@@ -568,7 +576,7 @@ export default function BlueskyDiscussion({
             }}
             type="button"
           >
-            {liked ? "♥" : "♡"} {rootLikes}
+            🍩 {rootLikes}
           </button>
         ) : (
           <span>
@@ -597,16 +605,181 @@ export default function BlueskyDiscussion({
       // resets the polling cadence to the base interval.
       onPointerDown={markInteraction}
     >
+      <h2 style={{ margin: "0 0 0.5rem" }}>Discussion</h2>
+      <style>{"@keyframes bsky-spin{to{transform:rotate(360deg)}}"}</style>
+
+      {root && <PostCard footer={rootFooter} post={root} variant="root" />}
+
+      {root?.bskyUrl && (
+        <a
+          href={root.bskyUrl}
+          rel="noopener noreferrer"
+          style={calloutStyle}
+          target="_blank"
+        >
+          <span>
+            {hasBlueskyAccount
+              ? `You're signed in with @${blueskyHandle} — post and like directly on Bluesky`
+              : "Have a Bluesky account? View and join the conversation directly on Bluesky"}
+          </span>
+          <span aria-hidden="true" style={{ fontSize: "1.1rem" }}>
+            →
+          </span>
+        </a>
+      )}
+
+      {interactive && !hasBlueskyAccount && (
+        <form onSubmit={submitComment} style={{ margin: "1rem 0" }}>
+          <label
+            htmlFor={`bsky-comment-${paperId}`}
+            style={{ display: "none" }}
+          >
+            Add a comment
+          </label>
+          <textarea
+            disabled={submitting}
+            id={`bsky-comment-${paperId}`}
+            onChange={(event) => {
+              markInteraction();
+              setDraft(event.target.value);
+            }}
+            onFocus={markInteraction}
+            placeholder="Add a comment"
+            rows={3}
+            style={{
+              width: "100%",
+              padding: "0.6rem",
+              border: "1px solid #e5e7eb",
+              borderRadius: "0.5rem",
+              fontFamily: "inherit",
+              fontSize: "0.95rem",
+              resize: "vertical",
+            }}
+            value={draft}
+          />
+
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              flexWrap: "wrap",
+              gap: "0.5rem 0.75rem",
+              marginTop: "0.5rem",
+              fontSize: "0.85rem",
+              color: "#6b7280",
+            }}
+          >
+            <label
+              style={{
+                display: "flex",
+                alignItems: "center",
+                gap: "0.35rem",
+                cursor: submitting ? "default" : "pointer",
+              }}
+            >
+              <input
+                checked={anonymous}
+                disabled={submitting}
+                onChange={(event) => {
+                  markInteraction();
+                  setAnonymous(event.target.checked);
+                }}
+                type="checkbox"
+              />
+              Hide my name
+            </label>
+
+            {/* The section is already a polite live region, so a toggle of the
+                checkbox announces the new byline without one of its own. */}
+            <span style={{ color: "#374151" }}>
+              <span aria-hidden="true" style={{ color: "#9ca3af" }}>
+                ·{" "}
+              </span>
+              {attribution
+                ? `Posting as ${attribution}`
+                : "Posting under your pseudonym"}
+            </span>
+
+            <div
+              style={{
+                marginLeft: "auto",
+                display: "flex",
+                alignItems: "center",
+                gap: "0.75rem",
+              }}
+            >
+              <small style={{ color: remaining < 0 ? "#b91c1c" : "#6b7280" }}>
+                {remaining}
+              </small>
+              <button
+                disabled={submitting || !draft.trim() || remaining < 0}
+                style={{
+                  padding: "0.4rem 0.9rem",
+                  borderRadius: "0.5rem",
+                  border: "1px solid #2563eb",
+                  backgroundColor: "#2563eb",
+                  color: "#fff",
+                  cursor: "pointer",
+                  fontSize: "0.9rem",
+                }}
+                type="submit"
+              >
+                {submitting ? "Posting…" : "Comment"}
+              </button>
+            </div>
+          </div>
+
+          {anonymous && (
+            <small
+              style={{
+                display: "block",
+                marginTop: "0.4rem",
+                fontSize: "0.8rem",
+                color: "#6b7280",
+              }}
+            >
+              Your name is hidden from readers, not from conference organizers.
+            </small>
+          )}
+        </form>
+      )}
+
+      {actionError && (
+        <p style={{ color: "#b91c1c", marginTop: 0 }}>{actionError}</p>
+      )}
+
+      {error && (
+        <p style={{ color: replies.length > 0 ? "#92400e" : "#b91c1c" }}>
+          {replies.length > 0
+            ? error
+            : `Could not load the discussion: ${error}`}
+        </p>
+      )}
+
+      {!error && replies.length === 0 && (
+        <p style={{ color: "#6b7280" }}>
+          No comments yet.{interactive ? " Start the conversation." : ""}
+        </p>
+      )}
+
       <div
         style={{
           display: "flex",
-          alignItems: "baseline",
+          alignItems: "center",
           flexWrap: "wrap",
           gap: "0.5rem 0.75rem",
-          marginBottom: "0.5rem",
+          margin: "0.9rem 0 0.2rem",
         }}
       >
-        <h2 style={{ margin: 0 }}>Discussion</h2>
+        {replies.length > 1 && (
+          <SortToggle
+            onChange={(next) => {
+              markInteraction();
+              setSort(next);
+            }}
+            sort={sort}
+          />
+        )}
 
         <div
           style={{
@@ -657,157 +830,6 @@ export default function BlueskyDiscussion({
           </button>
         </div>
       </div>
-      <style>{"@keyframes bsky-spin{to{transform:rotate(360deg)}}"}</style>
-
-      {root && <PostCard footer={rootFooter} post={root} variant="root" />}
-
-      {interactive && (
-        <form onSubmit={submitComment} style={{ margin: "1rem 0" }}>
-          <label
-            htmlFor={`bsky-comment-${paperId}`}
-            style={{ display: "none" }}
-          >
-            Add a comment
-          </label>
-          <textarea
-            disabled={submitting}
-            id={`bsky-comment-${paperId}`}
-            onChange={(event) => {
-              markInteraction();
-              setDraft(event.target.value);
-            }}
-            onFocus={markInteraction}
-            placeholder="Add a comment"
-            rows={3}
-            style={{
-              width: "100%",
-              padding: "0.6rem",
-              border: "1px solid #e5e7eb",
-              borderRadius: "0.5rem",
-              fontFamily: "inherit",
-              fontSize: "0.95rem",
-              resize: "vertical",
-            }}
-            value={draft}
-          />
-
-          <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              flexWrap: "wrap",
-              gap: "0.5rem",
-              marginTop: "0.5rem",
-              fontSize: "0.85rem",
-              color: "#6b7280",
-            }}
-          >
-            <label
-              style={{
-                display: "flex",
-                alignItems: "center",
-                gap: "0.35rem",
-                cursor: submitting ? "default" : "pointer",
-              }}
-            >
-              <input
-                checked={anonymous}
-                disabled={submitting}
-                onChange={(event) => {
-                  markInteraction();
-                  setAnonymous(event.target.checked);
-                }}
-                type="checkbox"
-              />
-              Hide my name
-            </label>
-
-            {/* The section is already a polite live region, so a toggle of the
-                checkbox announces the new byline without one of its own. */}
-            <span style={{ color: "#374151" }}>
-              <span aria-hidden="true" style={{ color: "#9ca3af" }}>
-                ·{" "}
-              </span>
-              {attribution
-                ? `Posting as ${attribution}`
-                : "Posting under your pseudonym"}
-            </span>
-          </div>
-
-          <small
-            style={{
-              display: "block",
-              marginTop: "0.3rem",
-              fontSize: "0.8rem",
-              color: "#6b7280",
-            }}
-          >
-            Your name is hidden from readers, not from conference organizers.
-          </small>
-
-          <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              gap: "0.75rem",
-              marginTop: "0.6rem",
-            }}
-          >
-            <button
-              disabled={submitting || !draft.trim() || remaining < 0}
-              style={{
-                padding: "0.4rem 0.9rem",
-                borderRadius: "0.5rem",
-                border: "1px solid #2563eb",
-                backgroundColor: "#2563eb",
-                color: "#fff",
-                cursor: "pointer",
-                fontSize: "0.9rem",
-              }}
-              type="submit"
-            >
-              {submitting ? "Posting…" : "Comment"}
-            </button>
-
-            <small
-              style={{
-                marginLeft: "auto",
-                color: remaining < 0 ? "#b91c1c" : "#6b7280",
-              }}
-            >
-              {remaining}
-            </small>
-          </div>
-        </form>
-      )}
-
-      {actionError && (
-        <p style={{ color: "#b91c1c", marginTop: 0 }}>{actionError}</p>
-      )}
-
-      {error && (
-        <p style={{ color: replies.length > 0 ? "#92400e" : "#b91c1c" }}>
-          {replies.length > 0
-            ? error
-            : `Could not load the discussion: ${error}`}
-        </p>
-      )}
-
-      {!error && replies.length === 0 && (
-        <p style={{ color: "#6b7280" }}>
-          No comments yet.{interactive ? " Start the conversation." : ""}
-        </p>
-      )}
-
-      {replies.length > 1 && (
-        <SortToggle
-          onChange={(next) => {
-            markInteraction();
-            setSort(next);
-          }}
-          sort={sort}
-        />
-      )}
 
       {replies.map((reply, index) => (
         <ReplyThread
@@ -825,4 +847,21 @@ const sectionStyle: CSSProperties = {
   marginTop: "2rem",
   borderTop: "1px solid #d1d5db",
   paddingTop: "1.2rem",
+};
+
+/** The prominent "join on Bluesky" callout above the composer. */
+const calloutStyle: CSSProperties = {
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "space-between",
+  gap: "0.75rem",
+  margin: "1rem 0 0.75rem",
+  padding: "0.7rem 0.9rem",
+  borderRadius: "0.6rem",
+  border: "1px solid #bfdbfe",
+  backgroundColor: "#eff6ff",
+  color: "#1e3a8a",
+  fontWeight: 600,
+  fontSize: "0.9rem",
+  textDecoration: "none",
 };

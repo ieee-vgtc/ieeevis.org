@@ -20,11 +20,15 @@ export interface LikesResponse {
 /**
  * GET /api/me — who the bearer token belongs to. `name` is the attendee's real
  * name from their conference login and is null when the service has none;
- * `pseudonym` is their stable stand-in and is always present.
+ * `pseudonym` is their stable stand-in and is always present. `bluesky` is the
+ * reader's own Bluesky handle when they have linked an account, and null
+ * otherwise — its presence means they can post and like on Bluesky directly, so
+ * the guest composer is hidden for them.
  */
 export interface MeResponse {
   name: string | null;
   pseudonym: string;
+  bluesky: string | null;
 }
 
 export interface ServiceClient {

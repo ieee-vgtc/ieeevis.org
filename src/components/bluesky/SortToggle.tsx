@@ -18,7 +18,7 @@ export default function SortToggle({
     <div
       aria-label="Sort comments"
       role="group"
-      style={{ display: "flex", gap: "0.4rem", margin: "0.9rem 0 0.2rem" }}
+      style={{ display: "flex", gap: "0.4rem" }}
     >
       {OPTIONS.map((option) => (
         <button
