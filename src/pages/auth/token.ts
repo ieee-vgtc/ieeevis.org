@@ -4,8 +4,10 @@
  * having a Bluesky account. The bridge verifies it with the same shared
  * secret; there is no JWKS fetch and no Auth0 SDK on the bridge side.
  *
- * The token carries only `sub` and `name` — it is an attendee assertion, not
- * an Auth0 access token, and must never be minted for an anonymous visitor.
+ * The token carries `sub`, `name`, and — only when the attendee has linked a
+ * Bluesky account — an optional `bluesky` claim with their handle. It is an
+ * attendee assertion, not an Auth0 access token, and must never be minted for
+ * an anonymous visitor.
  *
  * NEW ENVIRONMENT VARIABLE
  *   AUTH_EMBED_TOKEN_SECRET — random string, at least 32 characters.
@@ -65,7 +67,13 @@ export const GET: APIRoute = async ({ cookies }) => {
 
   try {
     const expiresAt = new Date(Date.now() + TOKEN_MAX_AGE_SECONDS * 1000);
-    const token = await new SignJWT({ name: user.name })
+    // Include the linked Bluesky handle only when present; the bridge reads a
+    // top-level `bluesky` claim to hide the guest composer for these attendees.
+    const claims: { name?: string; bluesky?: string } = { name: user.name };
+    if (user.bskyHandle) {
+      claims.bluesky = user.bskyHandle;
+    }
+    const token = await new SignJWT(claims)
       .setProtectedHeader({ alg: "HS256" })
       .setSubject(user.sub)
       .setIssuedAt()
