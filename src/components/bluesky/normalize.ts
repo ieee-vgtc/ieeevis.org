@@ -130,6 +130,9 @@ function normalizeNode(node: AppViewThread): ShapedPost | null {
     guest: false,
     pseudonym: null,
     likeCount: post.likeCount || 0,
+    // The AppView has no guest likes, so the total is the post's own count.
+    guestLikeCount: 0,
+    totalLikeCount: post.likeCount || 0,
     repostCount: post.repostCount || 0,
     createdAt: post.record?.createdAt || post.indexedAt || null,
     embedImages: normalizeImages(post.embed),
@@ -161,8 +164,6 @@ export function normalizeAppViewThread(payload: unknown): ThreadResponse {
 
   const post: RootPost = {
     ...root,
-    guestLikeCount: 0,
-    totalLikeCount: root.likeCount,
     bskyUrl: postUrl(root.uri) || "https://bsky.app",
   };
 
@@ -179,6 +180,8 @@ function withDefaults(post: ShapedPost): ShapedPost {
     guest: Boolean(post.guest),
     pseudonym: post.pseudonym ?? null,
     likeCount: post.likeCount || 0,
+    guestLikeCount: post.guestLikeCount || 0,
+    totalLikeCount: post.totalLikeCount ?? post.likeCount ?? 0,
     createdAt: post.createdAt ?? null,
     embedImages: Array.isArray(post.embedImages) ? post.embedImages : [],
     embed: post.embed ?? null,
@@ -205,8 +208,6 @@ export function normalizeServiceThread(
       post: post?.uri
         ? {
             ...withDefaults(post),
-            guestLikeCount: post.guestLikeCount || 0,
-            totalLikeCount: post.totalLikeCount ?? post.likeCount ?? 0,
             bskyUrl: post.bskyUrl || postUrl(post.uri) || "https://bsky.app",
           }
         : undefined,

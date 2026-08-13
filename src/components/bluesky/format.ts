@@ -97,7 +97,7 @@ export function displayPost(post: ShapedPost): { name: string; body: string } {
   };
 }
 
-/** Replies carry a plain `likeCount`; only the root has merged totals. */
+/** Every post carries the merged total; fall back to its own count defensively. */
 export function likeCountOf(post: ShapedPost | RootPost): number {
-  return "totalLikeCount" in post ? post.totalLikeCount : post.likeCount || 0;
+  return post.totalLikeCount ?? post.likeCount ?? 0;
 }

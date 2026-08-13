@@ -34,7 +34,15 @@ export type PostEmbed =
     }
   | { kind: "record"; uri: string; author: string; text: string };
 
-/** One post in the thread. Replies nest here — there is no top-level list. */
+/**
+ * One post in the thread. Replies nest here — there is no top-level list.
+ *
+ * Every post carries the merged like counts: `likeCount` is the post's own
+ * Bluesky likes, `guestLikeCount` the likes bridged through the service, and
+ * `totalLikeCount` the sum the reader sees. The AppView, which knows nothing of
+ * guests, reports `guestLikeCount` as 0 and `totalLikeCount` equal to
+ * `likeCount`.
+ */
 export interface ShapedPost {
   uri: string;
   cid?: string;
@@ -44,6 +52,8 @@ export interface ShapedPost {
   guest: boolean;
   pseudonym: string | null;
   likeCount: number;
+  guestLikeCount: number;
+  totalLikeCount: number;
   repostCount?: number;
   createdAt: string | null;
   embedImages: EmbedImage[];
@@ -51,10 +61,8 @@ export interface ShapedPost {
   replies: ShapedPost[];
 }
 
-/** The root announcement post carries the merged counts and the Bluesky link. */
+/** The root announcement post also carries the Bluesky link. */
 export type RootPost = ShapedPost & {
-  guestLikeCount: number;
-  totalLikeCount: number;
   bskyUrl: string;
 };
 

@@ -1,9 +1,9 @@
-/** Orders the top-level replies: "Top" by likes, "Newest" by recency. */
+/** Orders the top-level replies: "Most liked" by likes, "Newest" by recency. */
 
 import type { ReplySort } from "./types";
 
 const OPTIONS: Array<{ value: ReplySort; label: string }> = [
-  { value: "top", label: "Top" },
+  { value: "top", label: "Most liked" },
   { value: "newest", label: "Newest" },
 ];
 
@@ -18,8 +18,15 @@ export default function SortToggle({
     <div
       aria-label="Sort comments"
       role="group"
-      style={{ display: "flex", gap: "0.4rem" }}
+      style={{
+        display: "flex",
+        alignItems: "center",
+        gap: "0.4rem",
+        fontSize: "0.82rem",
+        color: "#6b7280",
+      }}
     >
+      <span>Sort by:</span>
       {OPTIONS.map((option) => (
         <button
           aria-pressed={sort === option.value}

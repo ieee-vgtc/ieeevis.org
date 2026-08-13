@@ -11,10 +11,13 @@
 import { normalizeServiceThread } from "./normalize";
 import type { ThreadResponse } from "./types";
 
-/** GET /api/threads/{paperId}/likes — `likedByMe` is null without a token. */
-export interface LikesResponse {
-  guestLikeCount: number;
-  likedByMe: boolean | null;
+/**
+ * GET /api/threads/{paperId}/my-likes — the URIs of the posts in this thread
+ * that the bearer's own reader has liked through the service. Empty without a
+ * token. Likes are per-post, so this is a set of URIs rather than one flag.
+ */
+export interface MyLikesResponse {
+  postUris: string[];
 }
 
 /**
@@ -36,7 +39,7 @@ export interface ServiceClient {
     paperId: string,
     options?: { signal?: AbortSignal; fresh?: boolean },
   ): Promise<ThreadResponse>;
-  fetchLikes(paperId: string, token: string): Promise<Response>;
+  fetchMyLikes(paperId: string, token: string): Promise<Response>;
   fetchMe(token: string, options?: { signal?: AbortSignal }): Promise<Response>;
   postComment(
     paperId: string,
@@ -44,7 +47,12 @@ export interface ServiceClient {
     text: string,
     anonymous: boolean,
   ): Promise<Response>;
-  setLike(paperId: string, token: string, liked: boolean): Promise<Response>;
+  setLike(
+    paperId: string,
+    token: string,
+    postUri: string,
+    liked: boolean,
+  ): Promise<Response>;
 }
 
 export function createServiceClient(bases: string[]): ServiceClient {
@@ -101,8 +109,8 @@ export function createServiceClient(bases: string[]): ServiceClient {
       return normalizeServiceThread(await response.json(), paperId);
     },
 
-    fetchLikes(paperId, token) {
-      return request(threadPath(paperId, "/likes"), {
+    fetchMyLikes(paperId, token) {
+      return request(threadPath(paperId, "/my-likes"), {
         headers: {
           accept: "application/json",
           authorization: `Bearer ${token}`,
@@ -131,10 +139,17 @@ export function createServiceClient(bases: string[]): ServiceClient {
       });
     },
 
-    setLike(paperId, token, liked) {
+    setLike(paperId, token, postUri, liked) {
+      // Likes are per-post: the body names which post in the thread, and the
+      // service validates that it is one a guest may like (the announcement or
+      // another guest comment, never a native Bluesky reply).
       return request(threadPath(paperId, "/like"), {
         method: liked ? "POST" : "DELETE",
-        headers: { authorization: `Bearer ${token}` },
+        headers: {
+          authorization: `Bearer ${token}`,
+          "content-type": "application/json",
+        },
+        body: JSON.stringify({ postUri }),
       });
     },
   };
