@@ -82,6 +82,9 @@ export function createServiceClient(bases: string[]): ServiceClient {
       const response = await request(threadPath(paperId) + query, {
         signal: options.signal,
         headers: { accept: "application/json" },
+        // Never serve a poll/reload a stale browser-cached copy; the shared
+        // nginx cache still absorbs the load.
+        cache: "no-store",
       });
 
       if (response.status === 404) {

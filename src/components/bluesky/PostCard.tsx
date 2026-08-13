@@ -38,8 +38,13 @@ export default function PostCard({
   const isRoot = variant === "root";
   const { name, body } = displayPost(post);
   const profile = post.guest ? null : profileUrl(post.author);
-  const permalink = post.guest ? null : postUrl(post.uri);
+  // Guest comments are real posts in the shared bridge repo, so their bsky.app
+  // permalink is valid too; only a not-yet-read-back placeholder URI has none.
+  const permalink = postUrl(post.uri);
   const time = formatRelativeTime(post.createdAt);
+  const timeTitle = post.createdAt
+    ? new Date(post.createdAt).toLocaleString()
+    : undefined;
   const likes = likeCountOf(post);
   const reposts = post.repostCount || 0;
 
@@ -78,11 +83,12 @@ export default function PostCard({
                 rel="noopener noreferrer"
                 style={{ color: "#2563eb", textDecoration: "none" }}
                 target="_blank"
+                title={timeTitle}
               >
                 {time}
               </a>
             ) : (
-              time
+              <span title={timeTitle}>{time}</span>
             )}
           </div>
         </div>

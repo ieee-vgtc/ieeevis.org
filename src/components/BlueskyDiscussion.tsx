@@ -45,7 +45,7 @@ import type {
 import { usePolledThread } from "./bluesky/usePolledThread";
 
 const DEFAULT_API_BASES = ["https://bsky.tech.ieeevis.org"];
-const DEFAULT_REFRESH_MS = 30_000;
+const DEFAULT_REFRESH_MS = 5_000;
 const MAX_DEPTH = 5;
 const COMMENT_LIMIT = 250; // graphemes; mirrors CONFERENCE.guestTextLimit
 const TOKEN_REFRESH_SKEW_MS = 60_000;
@@ -117,6 +117,33 @@ function collectUris(
     }
   }
   return into;
+}
+
+/**
+ * A cheap fingerprint of a loaded thread: its state, how many replies it holds
+ * at any depth, and the merged like count. When any of these move, a poll
+ * brought something new and the polling cadence resets to the base interval.
+ */
+function threadSignature(loaded: LoadedThread): string {
+  const thread = loaded.thread;
+  if (thread.state !== "open" || !thread.post) {
+    return thread.state;
+  }
+  const replyCount = collectUris(thread.post.replies || []).size;
+  return `open:${replyCount}:${thread.post.totalLikeCount}`;
+}
+
+/** "updated 3s ago", "updated 2m ago", … for the freshness indicator. */
+function formatAgo(sinceMs: number): string {
+  const seconds = Math.max(0, Math.round(sinceMs / 1000));
+  if (seconds < 60) {
+    return `${seconds}s ago`;
+  }
+  const minutes = Math.floor(seconds / 60);
+  if (minutes < 60) {
+    return `${minutes}m ago`;
+  }
+  return `${Math.floor(minutes / 60)}h ago`;
 }
 
 /**
@@ -244,6 +271,7 @@ export default function BlueskyDiscussion({
   const [actionError, setActionError] = useState<string | null>(null);
   const [pendingReplies, setPendingReplies] = useState<ShapedPost[]>([]);
   const [liked, setLiked] = useState(false);
+  const [refreshing, setRefreshing] = useState(false);
 
   const { hasToken, getToken } = useGuestToken(Boolean(paperId));
 
@@ -291,10 +319,29 @@ export default function BlueskyDiscussion({
     [atUri, client, paperId],
   );
 
-  const { data, loading, error, refresh } = usePolledThread({
-    load,
-    refreshMs,
-  });
+  const { data, loading, error, refresh, lastUpdatedAt, sectionRef, markInteraction } =
+    usePolledThread({
+      load,
+      refreshMs,
+      signature: threadSignature,
+    });
+
+  // A once-a-second tick so the "updated Xs ago" label counts up on its own.
+  const [now, setNow] = useState(() => Date.now());
+  useEffect(() => {
+    const id = setInterval(() => setNow(Date.now()), 1000);
+    return () => clearInterval(id);
+  }, []);
+
+  const onRefreshClick = useCallback(async () => {
+    markInteraction();
+    setRefreshing(true);
+    try {
+      await refresh(true);
+    } finally {
+      setRefreshing(false);
+    }
+  }, [markInteraction, refresh]);
 
   const thread = data?.thread;
   /** Guest writes are bridged by the service; the AppView is read-only here. */
@@ -471,7 +518,7 @@ export default function BlueskyDiscussion({
 
   if (loading && !thread) {
     return (
-      <section style={sectionStyle} aria-live="polite">
+      <section ref={sectionRef} style={sectionStyle} aria-live="polite">
         <h2 style={{ marginBottom: "0.5rem" }}>Discussion</h2>
         <p style={{ color: "#6b7280" }}>Loading the discussion…</p>
       </section>
@@ -481,7 +528,7 @@ export default function BlueskyDiscussion({
   if (thread?.state === "not_open") {
     const opensAt = formatOpensAt(thread.opensAt);
     return (
-      <section style={sectionStyle} aria-live="polite">
+      <section ref={sectionRef} style={sectionStyle} aria-live="polite">
         <h2 style={{ marginBottom: "0.5rem" }}>Discussion</h2>
         <p style={{ color: "#6b7280", margin: 0 }}>
           {opensAt
@@ -542,8 +589,75 @@ export default function BlueskyDiscussion({
   }
 
   return (
-    <section style={sectionStyle} aria-live="polite">
-      <h2 style={{ marginBottom: "0.5rem" }}>Discussion</h2>
+    <section
+      ref={sectionRef}
+      style={sectionStyle}
+      aria-live="polite"
+      // Any click, tap or scroll gesture on the section counts as activity and
+      // resets the polling cadence to the base interval.
+      onPointerDown={markInteraction}
+    >
+      <div
+        style={{
+          display: "flex",
+          alignItems: "baseline",
+          flexWrap: "wrap",
+          gap: "0.5rem 0.75rem",
+          marginBottom: "0.5rem",
+        }}
+      >
+        <h2 style={{ margin: 0 }}>Discussion</h2>
+
+        <div
+          style={{
+            marginLeft: "auto",
+            display: "flex",
+            alignItems: "center",
+            gap: "0.6rem",
+            fontSize: "0.8rem",
+            color: "#6b7280",
+          }}
+        >
+          {lastUpdatedAt !== null && (
+            <span aria-live="off">
+              updated {formatAgo(now - lastUpdatedAt)}
+            </span>
+          )}
+          <button
+            aria-label="Refresh the discussion"
+            disabled={refreshing}
+            onClick={onRefreshClick}
+            style={{
+              display: "inline-flex",
+              alignItems: "center",
+              gap: "0.35rem",
+              padding: "0.25rem 0.6rem",
+              borderRadius: "0.5rem",
+              border: "1px solid #e5e7eb",
+              backgroundColor: "#fff",
+              color: "inherit",
+              cursor: refreshing ? "default" : "pointer",
+              fontSize: "0.8rem",
+              opacity: refreshing ? 0.6 : 1,
+            }}
+            type="button"
+          >
+            <span
+              aria-hidden="true"
+              style={{
+                display: "inline-block",
+                animation: refreshing
+                  ? "bsky-spin 0.8s linear infinite"
+                  : undefined,
+              }}
+            >
+              ↻
+            </span>
+            {refreshing ? "Refreshing…" : "Refresh"}
+          </button>
+        </div>
+      </div>
+      <style>{"@keyframes bsky-spin{to{transform:rotate(360deg)}}"}</style>
 
       {root && <PostCard footer={rootFooter} post={root} variant="root" />}
 
@@ -558,7 +672,11 @@ export default function BlueskyDiscussion({
           <textarea
             disabled={submitting}
             id={`bsky-comment-${paperId}`}
-            onChange={(event) => setDraft(event.target.value)}
+            onChange={(event) => {
+              markInteraction();
+              setDraft(event.target.value);
+            }}
+            onFocus={markInteraction}
             placeholder="Add a comment"
             rows={3}
             style={{
@@ -595,7 +713,10 @@ export default function BlueskyDiscussion({
               <input
                 checked={anonymous}
                 disabled={submitting}
-                onChange={(event) => setAnonymous(event.target.checked)}
+                onChange={(event) => {
+                  markInteraction();
+                  setAnonymous(event.target.checked);
+                }}
                 type="checkbox"
               />
               Hide my name
@@ -678,7 +799,15 @@ export default function BlueskyDiscussion({
         </p>
       )}
 
-      {replies.length > 1 && <SortToggle onChange={setSort} sort={sort} />}
+      {replies.length > 1 && (
+        <SortToggle
+          onChange={(next) => {
+            markInteraction();
+            setSort(next);
+          }}
+          sort={sort}
+        />
+      )}
 
       {replies.map((reply, index) => (
         <ReplyThread

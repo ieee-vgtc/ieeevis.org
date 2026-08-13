@@ -21,7 +21,13 @@ export async function fetchAppViewThread(
   const base = options.base || APPVIEW_BASE;
   const response = await fetch(
     `${base}/xrpc/app.bsky.feed.getPostThread?uri=${encodeURIComponent(atUri)}&depth=${FETCH_DEPTH}`,
-    { signal: options.signal, headers: { accept: "application/json" } },
+    {
+      signal: options.signal,
+      headers: { accept: "application/json" },
+      // A poll or reload must never be served a stale browser-cached copy; the
+      // server cache still absorbs the load.
+      cache: "no-store",
+    },
   );
 
   // A deleted, blocked or misaddressed post answers 400/404; that is a state of
