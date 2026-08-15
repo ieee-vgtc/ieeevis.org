@@ -1,6 +1,5 @@
 import type { MiddlewareHandler } from "astro";
 import { features } from "./config/pages-allow-list";
-import { isProtectedPath } from "./config/protected-paths";
 import { readSession } from "./lib/auth0";
 
 //https://docs.astro.build/en/guides/middleware/
@@ -29,19 +28,12 @@ export const onRequest: MiddlewareHandler = async (context, next) => {
     return context.redirect(import.meta.env.BASE_URL, 302);
   }
 
-  if (isProtectedPath(pathWithoutBase)) {
-    const user = await readSession(context.cookies);
-    if (!user) {
-      const loginUrl = new URL(`${base}/auth/login`, context.url.origin);
-      loginUrl.searchParams.set(
-        "returnTo",
-        `${pathWithoutBase}${context.url.search}`,
-      );
-      return context.redirect(loginUrl.toString(), 302);
-    }
-
-    context.locals.user = user;
-  }
+  // No route is fully login-walled: individual pages (e.g. paper/poster
+  // detail pages) decide for themselves which pieces of content — a PDF
+  // link, a video embed — require a signed-in session, and gate just those.
+  // We still resolve the session here, once per request, so every page can
+  // read `Astro.locals.user` without re-parsing the cookie itself.
+  context.locals.user = await readSession(context.cookies);
 
   const nextResponse = await next();
   // Endpoint responses such as Response.redirect() have immutable headers.
@@ -64,6 +56,10 @@ export const onRequest: MiddlewareHandler = async (context, next) => {
       "object-src 'none'",
       "frame-ancestors 'none'",
       "form-action 'self'",
+
+      // VIDEO EMBEDS (paper video section) - commented out along with that
+      // section until it's re-enabled; re-add when it ships:
+      // "frame-src 'self' https://www.youtube.com https://iframe.mediadelivery.net",
 
       // IMAGES
       "img-src 'self' data:",

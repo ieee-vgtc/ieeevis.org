@@ -107,6 +107,22 @@ export function getAppUrl(config: Auth0Config, relativePath: string) {
   return new URL(relativePath.replace(/^\//, ""), baseUrl).toString();
 }
 
+/**
+ * Build a same-site link to the login route that returns the user to
+ * `url` once they've signed in. Used by any page that gates a piece of
+ * content (a PDF link, a video embed) behind authentication.
+ */
+export function buildLoginUrl(url: URL) {
+  const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+  const pathWithoutBase = url.pathname.startsWith(base)
+    ? url.pathname.slice(base.length) || "/"
+    : url.pathname;
+
+  const loginUrl = new URL(`${base}/auth/login`, url.origin);
+  loginUrl.searchParams.set("returnTo", `${pathWithoutBase}${url.search}`);
+  return `${loginUrl.pathname}${loginUrl.search}`;
+}
+
 /** Only permit paths within this deployment as post-login destinations. */
 export function safeReturnTo(value: string | null | undefined) {
   if (
