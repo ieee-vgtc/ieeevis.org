@@ -5,6 +5,7 @@ import BlueskyDiscussion from "../../../components/BlueskyDiscussion";
 import { fetchAllPapers } from "../../../utils/paperData";
 import { features } from "../../../config/pages-allow-list";
 import { withBaseURL } from "../../../utils/withBaseURL";
+import { ogDescription } from "../../../utils/ogDescription";
 import { fetchAllSessions } from "../../../utils/paperData";
 import { buildLoginUrl } from "../../../lib/auth0";
 import type { Paper } from "../../../types/paper";
@@ -115,8 +116,24 @@ const awardLabel =
 //   paper.session_bunny_ff_link ||
 //   null;
 
+// Social-card description: a clean snippet of the abstract, falling back to
+// authors + venue when no abstract is available so the card is never empty.
+const authorNames = paper.authors.map((a) => a.name).join(", ");
+const venue = paper.session_title
+  ? `${eventLabel} · ${paper.session_title}`
+  : eventLabel;
+const ogDesc =
+  ogDescription(paper.abstract) ||
+  ogDescription(
+    [authorNames, venue].filter(Boolean).join(" — ") ||
+      "A paper presented at IEEE VIS 2026.",
+  );
+
 const frontmatter = {
   title: paper.title,
+  description: ogDesc,
+  ogType: "article",
+  ogImageAlt: `Social card for the IEEE VIS 2026 paper “${paper.title}”.`,
   active_nav: "Program",
   contact: "web@ieeevis.org",
 };
