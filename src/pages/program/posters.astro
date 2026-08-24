@@ -35,7 +35,7 @@ const normalizeText = (value: string | null | undefined) =>
 const slotMetadataByPaperId = new Map<string, PaperSessionMeta>();
 const sessionList = await fetchAllSessions();
 
-for (const event of sessionList) {
+for (const event of Object.values(sessionList)) {
   for (const session of event.sessions) {
     const sessionSlug = `${session.event_prefix}-${session.session_id}`;
     for (const slot of session.time_slots as ProgramTimeSlot[]) {

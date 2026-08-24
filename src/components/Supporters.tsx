@@ -20,19 +20,22 @@ export default function Supporters({
 
         <div className="w-full lg:w-2/3 lg:ml-12">
           {supporters?.map((supporter_group) => (
-            <div className="supporters__row ">
+            <div className="supporters__row " key={supporter_group.category}>
               <h3 className="heading-alt text-sm text-gray-500">
                 {supporter_group.category}
               </h3>
               <div className="flex flex-wrap items-center">
                 {supporter_group.supporters.map((supporter) => (
-                  <a href={supporter.url} target="_blank">
+                  <a
+                    href={supporter.url}
+                    target="_blank"
+                    key={supporter.name}
+                    rel="noreferrer"
+                  >
                     <img
-                      className={`mr-8 mb-6 supporter__logo ${supporter_group.image_size ? "supporter__logo--custom" : ""}`}
-                      style={{
-                        width: `${supporter_group?.image_size}px`,
-                      }}
-                      src={supporter.image}
+                      className={`mr-8 mb-6 supporter__logo ${supporter_group.image_size ? "supporter__logo--custom" : ""} max-w-[320px]! max-h-37.5!`}
+
+                      src={`${import.meta.env.BASE_URL}${supporter.image}`}
                       alt={supporter.name}
                     />
                   </a>

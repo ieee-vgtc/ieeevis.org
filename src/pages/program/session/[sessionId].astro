@@ -1,38 +1,51 @@
 ---
 import PageLayout from "../../../layouts/PageLayout.astro";
 import { fetchAllSessions } from "../../../utils/paperData";
+import type {
+  ProgramSession,
+  ProgramSessionList,
+} from "../../../types/program";
 import { getProgramEventTypeLabel } from "../../../utils/programEventTypeLabel";
 import { withBaseURL } from "../../../utils/withBaseURL";
 
-const requestedSessionId = Astro.params.sessionId;
-const sessionList = await fetchAllSessions();
-let match:
-  | {
-      event: (typeof sessionList)[number];
-      session: (typeof sessionList)[number]["sessions"][number];
-    }
-  | undefined;
+// The site runs output: "server" (needed for the Auth0 callback route), which
+// makes every page dynamic by default and silently ignores getStaticPaths()
+// below unless a page opts back into prerendering explicitly.
+export const prerender = true;
 
-for (const event of sessionList) {
-  for (const session of event.sessions) {
-    const prefixedId = `${session.event_prefix}-${session.session_id}`;
-    // Continue to support the old non-prefixed session URLs as well.
-    if (
-      requestedSessionId === prefixedId ||
-      requestedSessionId === session.session_id
-    ) {
-      match = { event, session };
-      break;
+type EventPageProps = {
+  sessionId: string;
+  event: ProgramSessionList[string];
+  session: ProgramSession;
+};
+
+export async function getStaticPaths() {
+  const sessionList = await fetchAllSessions();
+  const paths: Array<{ params: { sessionId: string }; props: EventPageProps }> =
+    [];
+
+  for (const event of Object.values(sessionList)) {
+    for (const session of event.sessions) {
+      const prefixedId = `${session.event_prefix}-${session.session_id}`;
+      const legacyId = session.session_id;
+
+      paths.push({
+        params: { sessionId: prefixedId },
+        props: { sessionId: prefixedId, event, session },
+      });
+
+      // Backward compatibility with old non-prefixed session IDs.
+      paths.push({
+        params: { sessionId: legacyId },
+        props: { sessionId: legacyId, event, session },
+      });
     }
   }
-  if (match) break;
+
+  return paths;
 }
 
-if (!match) {
-  return new Response(null, { status: 404 });
-}
-
-const { event, session } = match;
+const { event, session } = Astro.props as EventPageProps;
 
 const presentations = [...session.time_slots].sort(
   (a, b) => Date.parse(a.time_start) - Date.parse(b.time_start),

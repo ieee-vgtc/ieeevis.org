@@ -1,6 +1,7 @@
 ---
 import PageLayout from "../../../layouts/PageLayout.astro";
 import AuthGate from "../../../components/AuthGate.astro";
+import BlueskyDiscussion from "../../../components/BlueskyDiscussion";
 import { fetchAllPapers } from "../../../utils/paperData";
 import { features } from "../../../config/pages-allow-list";
 import { withBaseURL } from "../../../utils/withBaseURL";
@@ -49,7 +50,7 @@ const slotSessionMap = new Map<
   string,
   { session_id: string; session_title: string }
 >();
-for (const event of sessionList) {
+for (const event of Object.values(sessionList)) {
   for (const session of event.sessions) {
     for (const slot of session.time_slots as ProgramTimeSlot[]) {
       if (slot.uid) {
@@ -323,6 +324,13 @@ const frontmatter = {
         </div>
       )
     }
+
+    <!-- Bluesky discussion: thread of replies to this paper's announcement
+         post, proxied through bsky.tech.ieeevis.org so it loads on any
+         conference network. Sortable by upvotes or recency. -->
+    <div class="mb-6 not-prose">
+      <BlueskyDiscussion client:visible paperId={paper.id} />
+    </div>
   </div>
 </PageLayout>
 
