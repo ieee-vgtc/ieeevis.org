@@ -15,10 +15,38 @@ type Auth0Config = {
 };
 
 export type AuthenticatedUser = {
+  bskyHandle?: string;
   email?: string;
   name?: string;
   sub: string;
 };
+
+/**
+ * Namespaced custom claim carrying the attendee's linked Bluesky handle.
+ *
+ * Auth0 does not put `user_metadata` into ID tokens, and any non-standard
+ * claim must use a namespaced URI, so surfacing `user_metadata.bsky_handle`
+ * requires an Auth0 Login Action on the tenant:
+ *
+ *   exports.onExecutePostLogin = async (event, api) => {
+ *     const handle = event.user.user_metadata?.bsky_handle;
+ *     if (typeof handle === "string" && handle.trim()) {
+ *       api.idToken.setCustomClaim(
+ *         "https://ieeevis.org/bsky_handle",
+ *         handle.trim(),
+ *       );
+ *     }
+ *   };
+ *
+ * Without that Action this claim is simply absent and the `bluesky` token
+ * claim is omitted — the guest composer stays visible, which is the safe
+ * default.
+ */
+const BSKY_HANDLE_CLAIM = "https://ieeevis.org/bsky_handle";
+
+function readBskyHandle(value: unknown): string | undefined {
+  return typeof value === "string" && value.trim() ? value.trim() : undefined;
+}
 
 export type AuthTransaction = {
   nonce: string;
@@ -214,6 +242,7 @@ export async function readSession(
       return undefined;
     }
     return {
+      bskyHandle: readBskyHandle(payload.bskyHandle),
       email: typeof payload.email === "string" ? payload.email : undefined,
       name: typeof payload.name === "string" ? payload.name : undefined,
       sub: payload.sub,
@@ -265,6 +294,9 @@ export async function verifyAuth0IdToken(
   }
 
   return {
+    // Set by the Auth0 Login Action documented on BSKY_HANDLE_CLAIM; absent
+    // for attendees who have not linked a Bluesky account.
+    bskyHandle: readBskyHandle(payload[BSKY_HANDLE_CLAIM]),
     email: typeof payload.email === "string" ? payload.email : undefined,
     name: typeof payload.name === "string" ? payload.name : undefined,
     sub: payload.sub,
