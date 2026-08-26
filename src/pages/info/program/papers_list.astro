@@ -1,0 +1,98 @@
+---
+import PageLayout from "../../../layouts/PageLayout.astro";
+import { load_tsv } from "../../../utils/load_tsv";
+
+const frontmatter = {
+  title: "Accepted Papers, sorted by Session",
+  contact: "program@ieeevis.org",
+  sidebar: "program",
+  active_nav: "Program",
+};
+
+type PaperRow = {
+  paper_id: string;
+  paper_type: string;
+  title: string;
+  authors: string;
+  session_name: string;
+  session_chair_name: string;
+  session_chair_email: string;
+  location: string;
+};
+
+type Session = {
+  name: string;
+  slug: string;
+  chairName: string;
+  chairEmail: string;
+  papers: PaperRow[];
+};
+
+const slugify = (value: string) =>
+  value
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+
+const rows = load_tsv("./src/data/papers_list.tsv") as unknown as PaperRow[];
+
+// Group papers by session, preserving the order they appear in the data file.
+const sessions: Session[] = [];
+const sessionsByName = new Map<string, Session>();
+
+for (const row of rows) {
+  if (!row.title) {
+    continue;
+  }
+  const name = row.session_name;
+  let session = sessionsByName.get(name);
+  if (!session) {
+    session = {
+      name,
+      slug: slugify(name),
+      chairName: row.session_chair_name,
+      chairEmail: row.session_chair_email,
+      papers: [],
+    };
+    sessionsByName.set(name, session);
+    sessions.push(session);
+  }
+  session.papers.push(row);
+}
+---
+
+<PageLayout frontmatter={frontmatter}>
+  <h1>Accepted Full Papers</h1>
+  <p>
+    Covering both IEEE VIS papers and TVCG papers to be presented at the
+    conference.
+  </p>
+
+  {
+    sessions.map((session) => (
+      <section>
+        <h2 id={session.slug}>
+          <a name={session.slug} />
+          {session.name}
+        </h2>
+
+        {session.papers.map((paper) => (
+          <p>
+            <strong>
+              {paper.title}
+
+              {paper.paper_id.toLowerCase().includes("tvcg") && (
+                <span class="text-sm opacity-70 ml-2"> (TVCG)</span>
+              )}
+            </strong>
+            <br />
+            {paper.authors}
+            {paper.location && (
+              <span class="text-sm opacity-70"> &middot; {paper.location}</span>
+            )}
+          </p>
+        ))}
+      </section>
+    ))
+  }
+</PageLayout>

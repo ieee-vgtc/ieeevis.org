@@ -305,11 +305,11 @@ menu:
                   - text: "Week at a Glance"
                     description: "Preliminary overview of the conference week"
                     url: "/info/program/week-at-a-glance"
+                    is_new: false
+                  - text: "Accepted Papers"
+                    description: "An overview of all accepted papers"
+                    url: "/info/program/papers_list"
                     is_new: true
-                  # - text: "Papers"
-                  #   description: "Paper sessions"
-                  #   url: "/info/program/papers_list"
-                  #   is_new: false
                   # - text: "Sessions"
                   #   description: "List of all sessions and events"
                   #   url: "/program/sessions"
