@@ -1,0 +1,114 @@
+---
+import PageLayout from "../../../layouts/PageLayout.astro";
+import { load_tsv, parse_people } from "../../../utils/load_tsv";
+
+const frontmatter = {
+  title: "Panels",
+  contact: "panels_tutorials@ieeevis.org",
+  sidebar: "program",
+  active_nav: "Program",
+};
+
+const slugify = (value: string) =>
+  value
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+
+const panels = load_tsv("./src/data/panels_list.tsv")
+  .filter((row) => row["Panel title"])
+  .map((row) => ({
+    title: row["Panel title"],
+    anchor: slugify(row["Panel title"]),
+    abstract: row["Description / abstract"],
+    website: row["Panel website"],
+    organizers: parse_people(row["Organizers"]),
+    panelists: parse_people(row["Panelists"]),
+  }));
+---
+
+<PageLayout frontmatter={frontmatter}>
+  <h1>Accepted Panels</h1>
+
+  {
+    panels.length === 0 ? (
+      <p>
+        The panels program is still to be determined! You are likely looking for
+        the call for papers, which can be found{" "}
+        <a href="/year/2026/info/call-participation/panels/">here</a>.
+      </p>
+    ) : (
+      <>
+        <p>
+          The following panels went through our{" "}
+          <a href="/year/2026/info/call-participation/panels/">
+            submission/review process
+          </a>
+          .
+        </p>
+
+        <ul>
+          {panels.map((panel) => (
+            <li>
+              <a href={`#${panel.anchor}`}>{panel.title}</a>
+            </li>
+          ))}
+        </ul>
+
+        <hr />
+
+        {panels.map((panel) => (
+          <section>
+            <h2 id={panel.anchor}>
+              <a name={panel.anchor} />
+              {panel.title}
+            </h2>
+            {panel.website && (
+              <p>
+                <a href={panel.website}>Panel website</a>
+              </p>
+            )}
+
+            {panel.organizers.length > 0 && (
+              <>
+                <h3 class="text-base font-semibold mb-1">Organizers</h3>
+                <ul class="mt-0">
+                  {panel.organizers.map((person) => (
+                    <li>
+                      {person.name}
+                      {person.affiliation && (
+                        <>
+                          , <em>{person.affiliation}</em>
+                        </>
+                      )}
+                    </li>
+                  ))}
+                </ul>
+              </>
+            )}
+
+            {panel.panelists.length > 0 && (
+              <>
+                <h3 class="text-base font-semibold mb-1">Panelists</h3>
+                <ul class="mt-0">
+                  {panel.panelists.map((person) => (
+                    <li>
+                      {person.name}
+                      {person.affiliation && (
+                        <>
+                          , <em>{person.affiliation}</em>
+                        </>
+                      )}
+                    </li>
+                  ))}
+                </ul>
+              </>
+            )}
+
+            <p>{panel.abstract}</p>
+          </section>
+        ))}
+      </>
+    )
+  }
+</PageLayout>
