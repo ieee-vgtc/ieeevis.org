@@ -322,10 +322,10 @@ menu:
                   #   description: "Nascent and recent work"
                   #   url: "/info/program/posters"
                   #   is_new: false
-                  # - text: "Panels"
-                  #   description: "Discuss important and controversial issues"
-                  #   url: "/info/program/panels"
-                  #   is_new: false
+                  - text: "Panels"
+                    description: "Discuss important and controversial issues"
+                    url: "/info/program/panels"
+                    is_new: true
                   - text: "Workshops"
                     description: "Informal setting to discuss emerging topics"
                     url: "/info/program/workshops"

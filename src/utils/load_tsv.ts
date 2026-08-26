@@ -27,3 +27,28 @@ export function load_tsv(filePath: string): Record<string, string>[] {
     );
   });
 }
+
+/**
+ * Splits a semicolon separated list of people into name/affiliation pairs.
+ * Everything after the first comma is treated as the affiliation, so entries
+ * like "Alexander Lex, Graz University of Technology, University of Utah"
+ * keep both institutions together.
+ */
+export function parse_people(
+  value: string,
+): { name: string; affiliation: string }[] {
+  return (value || "")
+    .split(";")
+    .map((entry) => entry.trim())
+    .filter(Boolean)
+    .map((entry) => {
+      const idx = entry.indexOf(",");
+      if (idx === -1) {
+        return { name: entry, affiliation: "" };
+      }
+      return {
+        name: entry.slice(0, idx).trim(),
+        affiliation: entry.slice(idx + 1).trim(),
+      };
+    });
+}
