@@ -3,7 +3,7 @@ import PageLayout from "../../../layouts/PageLayout.astro";
 import { load_tsv } from "../../../utils/load_tsv";
 
 const frontmatter = {
-  title: "Accepted Papers, sorted by Session",
+  title: "Accepted Papers",
   contact: "program@ieeevis.org",
   sidebar: "program",
   active_nav: "Program",
@@ -20,14 +20,6 @@ type PaperRow = {
   location: string;
 };
 
-type Session = {
-  name: string;
-  slug: string;
-  chairName: string;
-  chairEmail: string;
-  papers: PaperRow[];
-};
-
 const slugify = (value: string) =>
   value
     .toLowerCase()
@@ -36,29 +28,19 @@ const slugify = (value: string) =>
 
 const rows = load_tsv("./src/data/papers_list.tsv") as unknown as PaperRow[];
 
-// Group papers by session, preserving the order they appear in the data file.
-const sessions: Session[] = [];
-const sessionsByName = new Map<string, Session>();
-
-for (const row of rows) {
-  if (!row.title) {
-    continue;
-  }
-  const name = row.session_name;
-  let session = sessionsByName.get(name);
-  if (!session) {
-    session = {
-      name,
-      slug: slugify(name),
-      chairName: row.session_chair_name,
-      chairEmail: row.session_chair_email,
-      papers: [],
-    };
-    sessionsByName.set(name, session);
-    sessions.push(session);
-  }
-  session.papers.push(row);
-}
+const sessions = rows.reduce(
+  (acc, row) => {
+    if (!row.title) {
+      return acc;
+    }
+    if (!acc[row.session_name]) {
+      acc[row.session_name] = [];
+    }
+    acc[row.session_name].push(row);
+    return acc;
+  },
+  {} as Record<string, PaperRow[]>,
+);
 ---
 
 <PageLayout frontmatter={frontmatter}>
@@ -69,14 +51,14 @@ for (const row of rows) {
   </p>
 
   {
-    sessions.map((session) => (
+    Object.entries(sessions).map(([name, papers]) => (
       <section>
-        <h2 id={session.slug}>
-          <a name={session.slug} />
-          {session.name}
+        <h2 id={slugify(name)}>
+          <a name={slugify(name)} />
+          {name}
         </h2>
 
-        {session.papers.map((paper) => (
+        {papers.map((paper) => (
           <p>
             <strong>
               {paper.title}
