@@ -58,7 +58,7 @@ const panels = load_tsv("./src/data/panels_list.tsv")
         <hr />
 
         {panels.map((panel) => (
-          <section>
+          <section class="mb-8">
             <h2 id={panel.anchor}>
               <a name={panel.anchor} />
               {panel.title}

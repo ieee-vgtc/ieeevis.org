@@ -57,7 +57,7 @@ const tutorials = load_tsv("./src/data/tutorials_list.tsv")
         <hr />
 
         {tutorials.map((tutorial) => (
-          <section>
+          <section class="mb-8">
             <h2 id={tutorial.anchor}>
               <a name={tutorial.anchor} />
               {tutorial.title}
