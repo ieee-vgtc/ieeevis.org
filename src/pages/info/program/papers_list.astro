@@ -24,9 +24,15 @@ const slugify = (value: string) =>
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "");
 
-const rows = load_tsv("./src/data/papers_list.tsv") as unknown as PaperRow[];
+const rowsFull = load_tsv(
+  "./src/data/papers_list.tsv",
+) as unknown as PaperRow[];
 
-const sessions = rows.reduce(
+const rowsShort = load_tsv(
+  "./src/data/papers_list_short.tsv",
+) as unknown as PaperRow[];
+
+const sessions = rowsFull.reduce(
   (acc, row) => {
     if (!row.title) {
       return acc;
@@ -42,7 +48,16 @@ const sessions = rows.reduce(
 ---
 
 <PageLayout frontmatter={frontmatter}>
-  <h1>Accepted Full Papers</h1>
+  <ul>
+    <li>
+      <a href="#accepted-full-papers">Accepted Full Papers</a>
+    </li>
+    <li>
+      <a href="#accepted-short-papers"> Accepted Short Papers </a>
+    </li>
+  </ul>
+
+  <h1 id="accepted-full-papers">Accepted Full Papers</h1>
   <p>
     Covering both IEEE VIS papers and TVCG papers to be presented at the
     conference.
@@ -75,4 +90,25 @@ const sessions = rows.reduce(
       </section>
     ))
   }
+  <h1 id="accepted-short-papers">Accepted Short Papers</h1>
+  <section>
+    {
+      rowsShort.map((paper) => (
+        <p>
+          <strong>
+            {paper.title}
+
+            {paper.paper_id.toLowerCase().includes("tvcg") && (
+              <span class="text-sm opacity-70 ml-2"> (TVCG)</span>
+            )}
+          </strong>
+          <br />
+          {paper.authors}
+          {paper.location && (
+            <span class="text-sm opacity-70"> &middot; {paper.location}</span>
+          )}
+        </p>
+      ))
+    }
+  </section>
 </PageLayout>
