@@ -7,7 +7,7 @@
 - title: "The Practitioners' Summit at VIS"
   image: "cluster.png"
   buttonText: "CLUSTER"
-  buttonUrl: "/info/invited-speakers/capstone-speaker"
+  buttonUrl: "https://cluster-practitioners-summit.github.io/"
 
 - title: "Registration is now open!"
   image: "register.jpg"
