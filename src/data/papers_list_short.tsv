@@ -1,0 +1,69 @@
+paper_id	Status	title	Decision	authors
+1021	complete	May (A)I Beautify Your Visualization? Expert Judgments of Acceptable Aesthetic Alterations	A	Kalina Borkiewicz, Jixian Li, Joshua A Levine, Katherine E. Isaacs
+1022	complete	Visualizing in the Mind's Eye: Icon Design Shapes Mental Imagery of Fire Risks	A	Wen Xu, Anjana Arunkumar, Lace M. Padilla
+1042	complete	Exploring LLM Agent Designs and Interaction Modalities for Scientific Visualization	A	Jackson Vonderhorst, Kuangshi Ai, Haichao Miao, Shusen Liu, Chaoli Wang
+1081	complete	Vis4GS: A Visual Analytic Tool for 3D Gaussian Splatting Reconstruction	A	Kai-Yuan Lin, Aryabima Mandala Putra, Jui-Chi Lee, Shih-Hsuan Hung
+1085	complete	EvidenceLens: A Claim-Evidence Matrix for Auditing Financial Question Answering	A	Fengchen Gu, Xiaotian Ren, Zhengyong Jiang, Zhilu Zhang, Ángel F. García-Fernández, Angelos Stefanidis, Mian Zhou, Huakang Li, Jionglong Su
+1091	complete	Lexara-RF: Reference-Free Metrics for Evaluating Conversational Visual Analytics Agents	A	Srishti Palani, Vidya Setlur
+1096	complete	Attention Dynamics in Diffusion Models: A Visual Analytics Framework for Human–AI Collaboration	A	Yiran Xiao, George Legrady
+1098	complete	What Do We Mean When We Talk About Infographics?	A	Xiaoyu Liu, Vishnu Sreekanth, Vraj Patel, Shalin Muzumdar, Diego Lopez, Fumeng Yang, Zhicheng Liu
+1100	complete	dtour: a Steerable Tour de Vis Through High-Dimensional Data	A	Fritz Lekschas, Nezar Abdennur
+1108	complete	Interaction Techniques for Virtual Dissectible Models	A	Tim McGraw, Jack Myers
+1122	complete	A Data-Centric Perspective on Tree Visualizations	A	Manling Yang, Alexandra Scott, Chris Ahn, Daniel Jakab, Susie S.Y. Li, Mingwei S.G. Li, Remco Chang
+1123	complete	lpviz: Interactive Linear Programming Visualization	A	Evan Grand, Michael Klamkin
+1129	complete	Harnessing LLMs Without Surrendering Control: Delegation Boundaries in Visual Data Storytelling Authoring	A	Zhuojun Jiang, Yuki Ueno, Chris Bryan
+1131	complete	Parts Measured, Persons Missed: A Profile-Centered Account of Visualization User Experience	A	Anjana Arunkumar, Lace M. Padilla
+1138	complete	Investigating Status Quo Effects in Visualization-Aided Choice	A	Başak Oral, Wouter Ubbink, Evanthia Dimara, Angelos Chatzimparmpas
+1140	complete	The Grand Challenge of AI, Visualization, and Healthcare: Insights from the VAHC Workshop 2025	A	Jürgen Bernard, David Gotz, Robert S. Laramee, Silvia Miksch, Gabriela Morgenshtern, Renata Georgia Raidou, Alessio Arleo
+1148	complete	Visualizing Lagrangian Heat Transport Paths and Density Structures in Unsteady Heat Transfer	A	Besm Osman, Andrei Jalba, Michel Speetjens, Anna Vilanova
+1155	complete	CATVis: A Collaborative Multi-Agent Workflow for Turbomachinery Simulation Data Visualization	A	Zhe Wang, Zehao Lou, Guanghui Zhao, Yu Dong, Guan Li, Pengyi Xu, GAORONG LIANG, Jun Liu, Guihua Shan
+1160	complete	Drag, Infer, Reproject: Grounding LLMs through Spatial Interaction for Image Clustering	A	Yang Liu, Xuxin Tang, Jiahao Xu, Chris North
+1177	complete	Swipytics: Leveraging Short-form Video Stream Metaphor in Exploratory Data Analysis	A	Jiwon Choi, Sehi L'Yi, Seojin Kim, Jaemin Jo
+1178	complete	MLLM Perception of Color-Encoded Scalar Fields Reveals Model-Dependent Inversion of Chain-of-Thought	A	Minyi Liu, Yue Zhao, Xiaoyang Song, Shufan Qian, Yulong Bian, Qiong Zeng
+1181	complete	Attention-Guided Saliency Maps for Interpreting Visualization Literacy in VLMs	A	Maeve Hutchinson, Abderrahmane Wassim Mehdaoui, Pranava Madhyastha
+1182	complete	SpheriColor: Colormaps for Spherical Geospatial Input Topographies	A	Julius Rauscher, Johannes Fuchs, Daniel A Keim, Frederik L. Dennig
+1191	complete	Comparing the Emotional Impact of Thematic Versus Episodic Framing in Visualization Text	A	Poorna Talkad Sukumar, Maurizio Porfiri, Oded Nov
+1195	complete	Debugging as Evidence-Driven Reasoning: Visualization Opportunities in Data-Intensive Programming	A	Yongbo Chen, Yan Zhu, Rebecca Faust
+1202	complete	Uncertainty Visualization for Approximated Barycenter of Contour Trees Based on Partial Optimal Transport	A	Mingzhe Li, Fangfei Lan, Gunther H Weber, Bei Wang
+1204	complete	Information Terra: A Narrative-Anchored Semantic-First Projection of Document Embeddings	A	Brian Keith Norambuena, Fausto German, Chris North
+1214	complete	A Multimodal Reasoning Typology for Grounding Chart-Image Coherence in Science Communication	A	Avina Nakarmi, Sohom Sen, Xun Song, Sreyashi Samaddar, Aritra Dasgupta
+1217	complete	Mitigating Confirmation Bias Through Hand-Drawing Videos	A	Chenyu Lin, Cindy Xiong Bearfield, Icy(Yunyi) Zhang
+1221	complete	TuneScape: Visualizing Multi-Tuner Parameter Optimization Logs	A	Donghee Hong, Minjong Kim, Sooyoung Cha, Jaemin Jo
+1222	complete	Streami: An MPI Data-Parallel Library to Compute Field Lines on GPUs	A	Stefan Zellmann, Milan Jaroš, Andrea Paris, Ingo Wald, Tatiana von Landesberger
+1223	complete	Lossless-INR: Lossless Volumetric Implicit Neural Representations	A	Kaiyuan Tang, Daniel Burke, Chaoli Wang
+1227	complete	Benchmarking Multimodal Large Language Models for Scientific Visualization Literacy	A	Patrick Phuoc Do, Chau Ta, Chaoli Wang
+1229	complete	VEIL: How Visual Encoding Hijacking Induces Bias In Vision Models	A	Suranjana Sooraj, Xuyang Chen, Madhumitha Venkatesan, Dongyu Liu
+1232	complete	Made to Feel: How Designers Bring Emotions into Affective Visualization	A	Yixin Bai, Ziyi Wang, Keke Wu, Fumeng Yang
+1241	complete	reVISit-XR: Bringing Extended Reality into Embeddable, Trackable, and Replayable Visualization Studies	A	Shano Liang, Max Chen, Lane Harrison
+1242	complete	“Trust Junk” Leads to Unjustified Support for Highly Discriminatory Predictive Models	A	Michael Correll, Lucy Havens, Mahsan Nourani
+1243	complete	Hindsight: Similarity-Based Analytics for Mars Rover Drive Retrieval	A	Luke Fiorante, Leslie Liu, Adam Zhengyuan Xu, Xianmei Lei, Darwin Chiu, Krys Blackwood, Maggie Hendrie, Scott Davidoff, Santiago V Lombeyda, Hillary Mushkin
+1245	complete	What-If Demolition: Home-First Narrative Anchoring for Public-Facing Gentrification Analytics	A	Ibrahim Al-Hazwani, Yanick Bachmann, Mennatallah El-Assady
+1252	complete	SIVA: A Conversational and Declarative Scientific Visualization Tool	A	Michael Ballantyne, Aayush Kaji Shrestha, Pascal Grosset, Thomas Gilray, Roxana Bujack
+1262	complete	Evaluating a Visual Query Tracer and Builder for Learning Declarative Logic Programming	A	Julián Méndez, Lukas Gerlach, Tobias Wieland, Alex Ivliev, Markus Krötzsch, Raimund Dachselt
+1263	complete	Scalable Semantic Steering of Embedding Projections	A	Wei Liu, Eric Krokos, Kirsten Whitley, Rebecca Faust, Chris North
+1264	complete	“I Want More Nuance”: Investigating the use of Physicalizations to Facilitate Discussions 	A	Emmanuel Courtoux, Nathalie Bressa, Samuel Huron
+1268	complete	360° Rays: Familiar, Yet Different and Better!	A	Bipasha Garg, Kamalakar Karlapalem
+1272	complete	BLIMMP-Explorer: A Visual Decomposition of Bayesian Evidence in Metabolic Module Inference	A	Neha Sontakke, Joshua A Levine, Travis Wheeler
+1273	complete	Computing the Quality of Isosurface-Based Visualizations Using a Feed-Forward Model for Single-Image Reconstruction	A	Li-Ta Lo, Christian Heine, Roxana Bujack
+1275	complete	Error Aware Distribution Prediction for Lightweight Implicit Neural Representations	A	Zhimin Li, Jake Dylan Balla, Joshua A Levine
+1280	complete	Rethinking Utility in Differentially Private Visualization: A Channel-Centric Perspective	A	Jing Yang, Sarayu Pacca, Zhaocong Yang, Liyue Fan
+1281	complete	mlx-vis: GPU-Native Dimensionality Reduction on Apple Silicon	A	Han Xiao
+1284	complete	SalusChart: A Data Visualization Library for Mobile Health Apps	A	Sebin Hwang, Seongjae Bae, Jehu Ahn, Zekai Shao, Eun Kyoung Choe, Bongshin Lee
+1302	complete	Beyond Initial Creation: Two Decades of Community-based Chart Revisions from Wikimedia Commons	A	Jasmine Y Shih, Chase Stokes, Melanie Tory, Marti Hearst
+1304	complete	Visual Analytics of Neighborhood Attribute Profiles for Exploring Structural Equivalence	A	Kohei Arimoto, Masahiko Itoh
+1309	complete	The Balance between Nuance and Clarity: Decluttering Tabular Sequential Graphs to Counter Money Laundering	A	Salomé Esteves, Rita Costa, Louise Fallon, Pedro Bizarro
+1315	complete	GEMS - Guided Evolutionary Molecule Design for Sustainable Chemicals	A	Coelina Robinson, Franziska Weissbach, Kjell Jorner, Mennatallah El-Assady, Christina Humer
+1319	complete	Visualization Color Repair: A Browser Extension for Colorblind Users	A	Ayan Nath, Alex Kale
+1329	complete	High Fidelity Visualization: Parameter Mapping as an Analytical Tool for Assessing Structural Correspondence	A	Carmen Hull, Jagoda Walny
+1330	complete	Interactive Hierarchical Visualization for Exploring the Neotoma Paleoecological Taxonomy	A	Yanbing Chen, Jonathan Nelson, Simon Goring, Qianheng Zhang, Jessica Blois, John Williams
+1335	complete	A Task Taxonomy for Edge and Trail Bundling	A	Markus Wallinger, Stephen Kobourov
+1336	complete	Topology-Preserving Meshing of Implicit Scalar Fields via Monotonicity Constraints	A	Tanner Finken, Jixian Li, Bei Wang, Hanqi Guo, Joshua A Levine
+1350	complete	Exploring Text Classification Models with Sparse Autoencoders	A	Daniel Kerrigan, Brian Barr, Enrico Bertini
+1357	complete	UNIPO: Unified Interactive Visual Explanation for RL Fine-Tuning Policy Optimization	A	Aeree Cho, Alexander D Greenhalgh, Jonathan Bodea, ShengYun Peng, Duen Horng Chau
+1362	complete	AttentionRadViz: Token-Anchored Attention Profile Visualization for Transformer Head Analysis	A	Jared Wilber
+1363	complete	Subdivision Matters: Partitioning Strategies for Task-Parallel Topological Visualization	A	Mithilesh Biradar, Guoxi Liu, Federico Iuricich
+1367	complete	Verify-First: Visual Triage of Structurally Consequential Instability in LLM-Generated Analytical Explanations	A	Suhyun Park
+1378	complete	GeneaLink: Reconstructing Marriages in Genealogies with Visual Analytics Coupling GNN Link Prediction and Multi-Agent Negotiation	A	Zhuoyang Bu, Junjie Xiong, Shenghan Gao, Haipeng Zhang, Quan Li
+1380	complete	EventColumn: Integrating Event Sequences into Tabular Visualizations	A	Jakob Zethofer, Andreas Hinterreiter, Lukas Schiefermüller, Belgin Mutlu, Marc Streit
+1382	complete	Adaptive Uncertainty Visualization With jk-Plots	A	Nikolaus Piccolotto, Daniel Pahr, Laura Lotteraner, Fatih Öztank, Markus Bögl
+1387	complete	Adapting CCDF Plots for Visualizing Ordinal Regression Results	A	Abhraneel Sarma
