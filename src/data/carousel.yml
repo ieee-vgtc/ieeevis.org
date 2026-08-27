@@ -4,9 +4,9 @@
 #   buttonUrl: "/info/call-participation/call-for-participation"
 #   active: "active"
 
-- title: "CLUSTER: The Practitioners' Summit at VIS"
+- title: "The Practitioners' Summit at VIS"
   image: "cluster.png"
-  buttonText: "VIS 2026 Capstone"
+  buttonText: "CLUSTER"
   buttonUrl: "/info/invited-speakers/capstone-speaker"
 
 - title: "Registration is now open!"
