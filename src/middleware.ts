@@ -16,7 +16,7 @@ export const onRequest: MiddlewareHandler = async (context, next) => {
   // link, a video embed — require a signed-in session, and gate just those.
   // We still resolve the session here, once per request, so every page can
   // read `Astro.locals.user` without re-parsing the cookie itself.
-  context.locals.user = await readSession(context.cookies);
+  context.locals.user = await readSession(context.cookies, context.url);
 
   const nextResponse = await next();
   // Endpoint responses such as Response.redirect() have immutable headers.

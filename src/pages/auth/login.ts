@@ -11,7 +11,7 @@ export const prerender = false;
 
 export const GET: APIRoute = async ({ cookies, url }) => {
   try {
-    const config = getAuth0Config();
+    const config = getAuth0Config(url);
     const transaction = await createTransaction(
       config,
       safeReturnTo(url.searchParams.get("returnTo")),

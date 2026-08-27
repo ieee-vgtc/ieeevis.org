@@ -7,11 +7,11 @@ import {
 
 export const prerender = false;
 
-export const GET: APIRoute = async ({ cookies }) => {
+export const GET: APIRoute = async ({ cookies, url }) => {
   clearSessionCookie(cookies);
 
   try {
-    return Response.redirect(getLogoutUrl(getAuth0Config()), 302);
+    return Response.redirect(getLogoutUrl(getAuth0Config(url)), 302);
   } catch (error) {
     console.error("Unable to start Auth0 logout:", error);
     return new Response("Unable to log out because Auth0 is not configured.", {

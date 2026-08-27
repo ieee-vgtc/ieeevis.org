@@ -57,8 +57,8 @@ function json(body: unknown, status: number) {
   });
 }
 
-export const GET: APIRoute = async ({ cookies }) => {
-  const user = await readSession(cookies);
+export const GET: APIRoute = async ({ cookies, url }) => {
+  const user = await readSession(cookies, url);
   if (!user) {
     // Expected for a signed-out visitor. The embed reads this as "show the
     // discussion read-only" and does not surface an error.

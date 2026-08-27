@@ -30,7 +30,7 @@ export const GET: APIRoute = async ({ cookies, url }) => {
   }
 
   try {
-    const config = getAuth0Config();
+    const config = getAuth0Config(url);
     const transaction = await readTransaction(
       config,
       cookies.get(AUTH_TRANSACTION_COOKIE)?.value,

@@ -78,15 +78,14 @@ function normalizeDomain(domain: string) {
   return normalized;
 }
 
-export function getAuth0Config(): Auth0Config {
-  const appBaseUrl = getRequiredEnv("APP_BASE_URL").replace(/\/$/, "");
-  const parsedBaseUrl = new URL(appBaseUrl);
-  if (
-    parsedBaseUrl.protocol !== "http:" &&
-    parsedBaseUrl.protocol !== "https:"
-  ) {
-    throw new Error("APP_BASE_URL must use http or https.");
-  }
+export function getAuth0Config(requestUrl: URL): Auth0Config {
+  // Derived from the request rather than a configured APP_BASE_URL: it can't
+  // drift out of sync with reality, and it makes every deploy (localhost,
+  // production, each ephemeral PR preview) work without per-environment
+  // setup. Auth0's own Allowed Callback URLs allow-list is still the actual
+  // security boundary, so a mismatched or spoofed origin here just fails at
+  // Auth0, not a redirect to an attacker-controlled URL.
+  const appBaseUrl = `${requestUrl.origin}${import.meta.env.BASE_URL.replace(/\/$/, "")}`;
 
   const sessionSecret = getRequiredEnv("AUTH0_SESSION_SECRET");
   if (sessionSecret.length < 32) {
@@ -226,6 +225,7 @@ export async function createSession(
 
 export async function readSession(
   cookies: Cookies,
+  requestUrl: URL,
 ): Promise<AuthenticatedUser | undefined> {
   const token = cookies.get(AUTH_SESSION_COOKIE)?.value;
   if (!token) {
@@ -233,7 +233,7 @@ export async function readSession(
   }
 
   try {
-    const config = getAuth0Config();
+    const config = getAuth0Config(requestUrl);
     const { payload } = await jwtDecrypt(
       token,
       encryptionKey(config.sessionSecret),
