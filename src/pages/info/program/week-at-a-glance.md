@@ -9,6 +9,8 @@ active_nav: "Program"
 Below is a concise overview of the conference program.
 **Please note, this is a preliminary schedule. The session times are subject to change and details will be added at a later date.**
 
+> **Featured Events:** [Cluster: Practitioners’ Summit](https://cluster-practitioners-summit.github.io/) takes place on Wednesday, November 11, 2026. View the [full summit schedule](#cluster-practitioners-summit).
+
 <hr/>
 
 
@@ -70,6 +72,7 @@ Coffee breaks are planned between the first/second and third/fourth block.
 
 <hr />
 
+<a id="cluster-practitioners-summit"></a>
 ## Cluster: Practitioners’ Summit
 
 <a>**Wednesday, November 11, 2026**</a><br />
