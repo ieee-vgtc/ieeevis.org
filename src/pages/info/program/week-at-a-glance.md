@@ -57,7 +57,6 @@ Coffee breaks are planned in the middle of the morning and afternoon sessions.
 **[Workshop]** Uncertainty Visualization: How to Make it Interpretable, Integrable, and Accessible?<br />
 **[Workshop]** Grand Unified Grammar of Graphics (GUGOG)<br />
 
-
 <hr/>
 
 ## Conference Schedule (Tuesday - Friday)
@@ -68,6 +67,35 @@ Coffee breaks are planned between the first/second and third/fourth block.
 * Morning coffee break: **9:30 AM - 10:00 AM (EST)**
 * Lunch break: **11:30 AM - 1:00 PM (EST)**
 * Afternoon coffee break: **2:30 PM - 3:00 PM (EST)**
+
+<hr />
+
+## Cluster: Practitioners’ Summit
+
+<a>**Wednesday, November 11, 2026**</a><br />
+
+**[Cluster: Practitioners’ Summit](https://cluster-practitioners-summit.github.io/)**<br />
+
+### Morning
+*8:30 AM - 9:30 AM (EST)*<br/>
+Welcome & Short Keynote<br />
+Live PolicyViz Podcast with Jon Schwabish<br />
+
+*9:30 AM - 10:00 AM (EST)*<br/>
+Coffee Break (& Anonymous Vis Feedback)<br />
+
+*10:00 AM - 11:30 AM (EST)*<br/>
+Live PolicyViz Podcast Q & A<br />
+Practitioner Lightning Talks<br />
+
+### Lunch
+*11:30 AM - 1:30 PM (EST)*<br/>
+Catered Lunch (& Anonymous Vis Feedback)<br />
+
+### Afternoon
+*1:30 PM - 3:00 PM (EST)*<br/>
+PM FAQ Freelancing Info Session<br />
+Closing Notes<br />
 
 <hr />
 
