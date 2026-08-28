@@ -25,11 +25,11 @@ const slugify = (value: string) =>
     .replace(/^-+|-+$/g, "");
 
 const rowsFull = load_tsv(
-  "./src/data/papers_list.tsv",
+  "./src/data/early_program/papers_list.tsv",
 ) as unknown as PaperRow[];
 
 const rowsShort = load_tsv(
-  "./src/data/papers_list_short.tsv",
+  "./src/data/early_program/papers_list_short.tsv",
 ) as unknown as PaperRow[];
 
 const sessions = rowsFull.reduce(
@@ -59,8 +59,8 @@ const sessions = rowsFull.reduce(
 
   <h1 id="accepted-full-papers">Accepted Full Papers</h1>
   <p>
-    Covering both IEEE VIS papers and TVCG papers to be presented at the
-    conference.
+    Covering both IEEE VIS papers, TVCG papers, and CG&A papers to be presented
+    at the conference.
   </p>
 
   {
@@ -78,6 +78,9 @@ const sessions = rowsFull.reduce(
 
               {paper.paper_id.toLowerCase().includes("tvcg") && (
                 <span class="text-sm opacity-70 ml-2"> (TVCG)</span>
+              )}
+              {paper.paper_id.toLowerCase().includes("cg&a") && (
+                <span class="text-sm opacity-70 ml-2"> (CG&A)</span>
               )}
             </strong>
             <br />
