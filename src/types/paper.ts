@@ -29,6 +29,7 @@ export interface Paper {
   pdf_url: string | null;
   preprint_link: string | null;
   open_access_supplemental_link: string | null;
+  open_access_supplemental_question: string | null;
   discord_url: string | null;
 
   // Media flags

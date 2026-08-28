@@ -25,8 +25,10 @@ export const onRequest: MiddlewareHandler = async (context, next) => {
       "frame-ancestors 'none'",
       "form-action 'self'",
 
-      // IMAGES
-      "img-src 'self' data:",
+      // IMAGES — bsky.tech.ieeevis.org serves proxied avatars/images for the
+      // paper-page Bluesky discussions; cdn.bsky.app serves them for threads
+      // read straight from Bluesky
+      "img-src 'self' data: https://bsky.tech.ieeevis.org https://cdn.bsky.app",
 
       // FONTS
       "font-src 'self' https://fonts.gstatic.com data:",
@@ -41,8 +43,12 @@ export const onRequest: MiddlewareHandler = async (context, next) => {
         ? "script-src 'self' 'unsafe-inline' 'unsafe-eval'"
         : "script-src 'self'",
 
-      // NETWORK (HMR, APIs, etc.)
-      isDev ? "connect-src 'self' ws: http: https:" : "connect-src 'self'",
+      // NETWORK (HMR, APIs, etc.) — bsky.tech.ieeevis.org is the Bluesky
+      // discussion API for paper pages, public.api.bsky.app the Bluesky AppView
+      // that threads are read from directly
+      isDev
+        ? "connect-src 'self' ws: http: https:"
+        : "connect-src 'self' https://bsky.tech.ieeevis.org https://public.api.bsky.app",
 
       // Enforce HTTPS in prod only
       !isDev && "upgrade-insecure-requests",

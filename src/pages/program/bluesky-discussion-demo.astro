@@ -1,0 +1,36 @@
+---
+import PageLayout from "../../layouts/PageLayout.astro";
+import BlueskyDiscussion from "../../components/BlueskyDiscussion";
+
+const frontmatter = {
+  title: "Bluesky Discussion Demo",
+  active_nav: "Program",
+  contact: "web@ieeevis.org",
+};
+---
+
+<PageLayout frontmatter={frontmatter}>
+  <p>
+    This page demonstrates the paper-page discussion embed,
+    <code>src/components/BlueskyDiscussion.tsx</code>. Paper pages pass the
+    paper's id; the discussion service resolves it to the announcement post and
+    its reply thread.
+  </p>
+
+  <h2>By paper id (service)</h2>
+  <p>
+    Resolves <code>test-bsky-9999</code> through the discussion service. Shows
+    the "discussion opens…" state until the test announcement has been posted.
+  </p>
+  <BlueskyDiscussion paperId="test-bsky-9999" client:load />
+
+  <h2>By post URI (direct from Bluesky)</h2>
+  <p>
+    Reads a thread straight from the public Bluesky AppView — how paper pages
+    will work after the conference, once real post URIs are baked in.
+  </p>
+  <BlueskyDiscussion
+    atUri="at://did:plc:k644h4rq5bjfzcetgsa6tuby/app.bsky.feed.post/3lvpmtclfz22r"
+    client:load
+  />
+</PageLayout>

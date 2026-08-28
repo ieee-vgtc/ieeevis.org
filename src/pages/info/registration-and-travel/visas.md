@@ -8,10 +8,11 @@ contact: "general_chair@ieeevis.org"
 ## Obtaining a Visa
 If you are planning to attend IEEE VIS 2026 and may need a visa, we encourage you to visit the pages below for information on visa procedures and applications. Please allow ample time for visa processing.
 
-- Boton, USA Attendees: [U.S. Visas website](https://travel.state.gov/content/travel/en/us-visas.html)
+- Boston, USA Attendees: [U.S. Visas website](https://travel.state.gov/content/travel/en/us-visas.html)
 - Paris, France Attendees: [France Visas website](https://france-visas.gouv.fr/en/accueil)
-- Tianjin, China Attendees: Information coming soon
-<!--- Tianjin, China Attendees: [China Visas website](https://fm.china-embassy.gov.cn/eng/lsfw/VTC/) or [here](https://cova.mfa.gov.cn/)-->
+- Tianjin, China Attendees:
+  - [China Online Visa Application (COVA)](https://consular.mfa.gov.cn/VISA/)
+  - [Chinese Visa Application Service Center](https://www.visaforchina.cn/VIE3_EN/qianzhengyewu)
 
 
 

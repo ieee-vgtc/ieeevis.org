@@ -61,7 +61,7 @@ Here's a video that illustrates the same process described in the text below:
 
 <video width="480" controls style="width:100%;">
 <source
-  src="/year/2026/assets/contributing/pull-request-tutorial-web.mp4"
+  src="https://ieeevis.org/year/2026/assets/contributing/pull-request-tutorial-web.mp4"
   type="video/mp4">
 </video>
 <br/>
@@ -72,22 +72,22 @@ If you are an organization member, the _best_ way to suggest a change is to go o
 
 To continue, you will be asked to log in to a GitHub account. After you do so, you will be shown an interface that looks like this:
 
-<img src="/year/2026/assets/contributing/instructions-1.jpg" style="width: 100%;border:1px solid gray;">
+<img src="https://ieeevis.org/year/2026/assets/contributing/instructions-1.jpg" style="width: 100%;border:1px solid gray;">
 <br/>
 
 After you’re done making the edits, click Commit Changes and create a new branch:
 
-<img src="/year/2026/assets/contributing/instructions-2.jpg" style="width: 100%;border:1px solid gray;">
+<img src="https://ieeevis.org/year/2026/assets/contributing/instructions-2.jpg" style="width: 100%;border:1px solid gray;">
 <br/>
 
 After you click on "Propose file change", you’ll be taken to something that looks like this, where you can click on "Create Pull Request":
 
-<img src="/year/2026/assets/contributing/instructions-3.jpg" style="width: 100%;border:1px solid gray;">
+<img src="https://ieeevis.org/year/2026/assets/contributing/instructions-3.jpg" style="width: 100%;border:1px solid gray;">
 <br/>
 
 After you click on that, web gets both a bug report and a proposed change:
 
-<img src="/year/2026/assets/contributing/instructions-4.jpg" style="width: 100%;border:1px solid gray;">
+<img src="https://ieeevis.org/year/2026/assets/contributing/instructions-4.jpg" style="width: 100%;border:1px solid gray;">
 <br/>
 
 If the change is simple, we’ll simply say "OK". If the change requires reviewers, we can ask for people to comment on the thread. After everyone says OK, we merge the change and then we will be able to push it to staging.ieeevis.org. All PRs are automatically built to the staging website; [you can take a look at the history of deploy actions](https://github.com/ieee-vgtc/ieeevis.org/actions).
@@ -104,8 +104,9 @@ Here is an example link for the [2026 paper CFP page](https://github.com/ieee-vg
 Other URLs are available in similar places: [shortpapers](https://github.com/ieee-vgtc/ieeevis.org/blob/vis2026/src/pages/info/call-participation/shortpapers.md), [posters](https://github.com/ieee-vgtc/ieeevis.org/blob/vis2026/src/pages/info/call-participation/posters.md), [panels](https://github.com/ieee-vgtc/ieeevis.org/blob/vis2026/src/pages/info/call-participation/panels.md).
 
 Note how the URL on GitHub corresponds to the URL on the website.
+
 - GitHub: <https://github.com/ieee-vgtc/ieeevis.org/blob/vis2026/src/pages/info/call-participation/call-for-participation.md>
-- Website: <https://ieeevis.org/year/2026/info/call-participation/call-for-participation> 
+- Website: <https://ieeevis.org/year/2026/info/call-participation/call-for-participation>
 
 (replace `https://github.com/ieee-vgtc/ieeevis.org/blob/vis2026/src/pages` with `https://ieeevis.org/year/2026` and remove the `.md` extension).
 

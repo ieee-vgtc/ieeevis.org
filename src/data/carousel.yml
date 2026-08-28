@@ -4,6 +4,11 @@
 #   buttonUrl: "/info/call-participation/call-for-participation"
 #   active: "active"
 
+- title: "The Practitioners' Summit at VIS"
+  image: "cluster.png"
+  buttonText: "CLUSTER"
+  buttonUrl: "https://cluster-practitioners-summit.github.io/"
+
 - title: "Registration is now open!"
   image: "register.jpg"
   buttonText: "Registration"
