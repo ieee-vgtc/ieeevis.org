@@ -67,6 +67,10 @@ menu:
                     url: "https://visap.net/2026/"
                     is_external: true
                     is_new: true
+                  - text: "CLUSTER Practitioners' Summit Lightning Talks"
+                    url: "https://docs.google.com/forms/d/e/1FAIpQLSfSrCO17K_nqLKonilL3zvPUI403C1DHd_QMiFMAxxdzBuXjw/viewform?usp=sharing&ouid=113443580098787443355"
+                    is_external: true
+                    is_new: true
               - heading: "Info for Contributors"
                 links:
                   - text: "Area Model for VIS"
