@@ -9,10 +9,11 @@ active_nav: "Program"
 Below is a concise overview of the conference program.
 **Please note, this is a preliminary schedule. The session times are subject to change and details will be added at a later date.**
 
-> **Featured Events:** [Cluster: Practitioners’ Summit](https://cluster-practitioners-summit.github.io/) takes place on Wednesday, November 11, 2026. View the [full summit schedule](#cluster-practitioners-summit).
+## Wednesday's Feature Events
+
+> **[Cluster: Practitioners’ Summit](https://cluster-practitioners-summit.github.io/)** takes place on Wednesday, November 11, 2026. View the [full summit schedule below](#cluster-practitioners-summit).
 
 <hr/>
-
 
 ## Doctoral Colloquium
 
@@ -23,22 +24,23 @@ Details to follow on time and location.<br />
 
 <hr/>
 
-
-## Workshop Schedule (Monday) 
+## Workshop Schedule (Monday)
 
 Monday workshop sessions will be **3.5 hours** (including a 30-minute coffee break).
 We will have up to nine parallel tracks (morning and afternoon).
 Coffee breaks are planned in the middle of the morning and afternoon sessions.
-* Morning coffee break: **9:30 AM - 10:00 AM (EST)**
-* Lunch break: **11:30 AM - 1:00 PM (EST)**
-* Afternoon coffee break: **2:30 PM - 3:00 PM (EST)**
+
+- Morning coffee break: _9:30 AM - 10:00 AM (EST)_
+- Lunch break: _11:30 AM - 1:00 PM (EST)_
+- Afternoon coffee break: _2:30 PM - 3:00 PM (EST)_
 
 <hr/>
 
 <!-- ---------------------------------------------------------------------------------- -->
+
 <a>**Monday, November 9, 2026**</a><br />
 
-*8:00 AM - 11:30 PM (EST)*<br />
+_8:00 AM - 11:30 PM (EST)_<br />
 
 **[Workshop]** BELIV: Session 1<br />
 **[Workshop]** vis4climate: Workshop on Building a Transdisciplinary Climate Vis Community<br />
@@ -49,8 +51,7 @@ Coffee breaks are planned in the middle of the morning and afternoon sessions.
 **[Workshop]** SciFi-VIS: Way Out There - How SciFi and Visualization Influence Each Other<br />
 **[Workshop]** AccessViz: 3rd Workshop on Accessible Data Visualization<br />
 
-
-*1:00 PM - 4:30 PM (EST)*<br/>
+_1:00 PM - 4:30 PM (EST)_<br/>
 
 **[Workshop]** BELIV: Session 2<br />
 **[Workshop]** TopoInVis Connect - Topology meets Artificial Intelligence<br />
@@ -66,39 +67,46 @@ Coffee breaks are planned in the middle of the morning and afternoon sessions.
 Tuesday to Friday sessions will be **90 minutes**.
 We will have up to six parallel tracks in the morning and in the afternoon.
 Coffee breaks are planned between the first/second and third/fourth block.
-* Morning coffee break: **9:30 AM - 10:00 AM (EST)**
-* Lunch break: **11:30 AM - 1:00 PM (EST)**
-* Afternoon coffee break: **2:30 PM - 3:00 PM (EST)**
+
+- Morning coffee break: _9:30 AM - 10:00 AM (EST)_
+- Lunch break: _11:30 AM - 1:00 PM (EST)_
+- Afternoon coffee break: _2:30 PM - 3:00 PM (EST)_
 
 <hr />
 
 <a id="cluster-practitioners-summit"></a>
+
 ## Cluster: Practitioners’ Summit
 
-<a>**Wednesday, November 11, 2026**</a><br />
+**[Cluster Event Website](https://cluster-practitioners-summit.github.io/)**<br />
 
-**[Cluster: Practitioners’ Summit](https://cluster-practitioners-summit.github.io/)**<br />
+A half-day gathering for people who build, ship, and defend visualizations for a living.
+
+<a>**Wednesday, November 11, 2026**</a>
 
 ### Morning
-*8:30 AM - 9:30 AM (EST)*<br/>
-Welcome & Short Keynote<br />
-Live PolicyViz Podcast with Jon Schwabish<br />
 
-*9:30 AM - 10:00 AM (EST)*<br/>
-Coffee Break (& Anonymous Vis Feedback)<br />
+_8:30 AM - 9:30 AM (EST)_<br/>
+**Welcome & Short Keynote**<br />
+**Live PolicyViz Podcast** with Jon Schwabish<br />
 
-*10:00 AM - 11:30 AM (EST)*<br/>
-Live PolicyViz Podcast Q & A<br />
-Practitioner Lightning Talks<br />
+_9:30 AM - 10:00 AM (EST)_<br/>
+**Coffee Break** & Anonymous Vis Feedback <br />
+
+_10:00 AM - 11:30 AM (EST)_<br/>
+**Live PolicyViz Podcast Q & A**<br />
+**Practitioner Lightning Talks**<br />
 
 ### Lunch
-*11:30 AM - 1:30 PM (EST)*<br/>
-Catered Lunch (& Anonymous Vis Feedback)<br />
+
+_11:30 AM - 1:30 PM (EST)_<br/>
+**Catered Lunch** & Anonymous Vis Feedback<br />
 
 ### Afternoon
-*1:30 PM - 3:00 PM (EST)*<br/>
-PM FAQ Freelancing Info Session<br />
-Closing Notes<br />
+
+_1:30 PM - 3:00 PM (EST)_<br/>
+**FAQ Freelancing Info Session**<br />
+**Closing Notes**<br />
 
 <hr />
 
@@ -107,10 +115,11 @@ Closing Notes<br />
 <hr />
 
 <!-- ---------------------------------------------------------------------------------- -->
+
 ### Program Chairs
 
-* Tushar Athawale, *Oak Ridge National Laboratory*
-* Alfie Abdul Rahman, *King's College London*
-* John Thompson, *Autodesk Research*
+- Tushar Athawale, _Oak Ridge National Laboratory_
+- Alfie Abdul Rahman, _King's College London_
+- John Thompson, _Autodesk Research_
 
-*Email: [program@ieeevis.org](mailto:program@ieeevis.org)*
+_Email: [program@ieeevis.org](mailto:program@ieeevis.org)_
