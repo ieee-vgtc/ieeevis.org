@@ -10,7 +10,7 @@ Current members of the VSC are:
 
 | **Name**                 | **Affiliation**              |
 | ------------------------ | ---------------------------- |
-| Vidya Setlur             | _Tableau Research_           |
+| Vidya Setlur             | _University of Michigan_     |
 | Matt Brehmer             | _University of Waterloo_     |
 | Leilani Battle           | _University of Washington_   |
 | Michael Sedlmair         | _University of Stuttgart_    |
