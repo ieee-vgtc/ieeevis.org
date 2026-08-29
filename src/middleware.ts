@@ -26,7 +26,18 @@ export const onRequest: MiddlewareHandler = async (context, next) => {
   // zero bytes. This also sidesteps Response.redirect()'s immutable
   // headers (used by /auth/login, /auth/callback, /auth/logout), since
   // we're building a fresh Response either way.
-  const body = await nextResponse.text();
+  let body: string;
+  try {
+    body = await nextResponse.text();
+  } catch (error) {
+    // TEMPORARY: surface the actual error in the response body so it's
+    // visible via curl without needing Netlify's function-log UI. Remove
+    // once the underlying cause is found.
+    return new Response(
+      `DEBUG nextResponse.text() threw:\n${error instanceof Error ? (error.stack ?? error.message) : String(error)}`,
+      { status: 500, headers: { "content-type": "text/plain" } },
+    );
+  }
   const response = new Response(body, {
     status: nextResponse.status,
     statusText: nextResponse.statusText,
