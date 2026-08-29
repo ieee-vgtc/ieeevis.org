@@ -1,5 +1,5 @@
 // @ts-check
-import { defineConfig } from "astro/config";
+import { defineConfig, sessionDrivers } from "astro/config";
 
 import netlify from "@astrojs/netlify";
 import react from "@astrojs/react";
@@ -20,6 +20,18 @@ export default defineConfig({
   // pages check the signed-in session on each request to decide whether to
   // show gated content (PDF links, video embeds) or a login prompt.
   output: "server",
+  // The app has its own cookie-based session (src/lib/auth0.ts) and never
+  // touches Astro.session; without this, @astrojs/netlify silently defaults
+  // to a Netlify Blobs-backed session store on every build. Set explicitly
+  // to rule out that unused dependency as a source of trouble.
+  session: {
+    // `memory` exists on the actual driver map (astro/dist/core/session/drivers.js
+    // derives it from unstorage's full builtinDrivers list) but is missing from
+    // Astro's typed `sessionDrivers` object - an upstream .d.ts gap, not a real
+    // type mismatch.
+    // @ts-expect-error - see above
+    driver: sessionDrivers.memory(),
+  },
   adapter: netlify({
     // Program data is loaded from the filesystem when a program detail page
     // is rendered in Netlify's serverless function.
