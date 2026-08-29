@@ -67,6 +67,10 @@ menu:
                     url: "https://visap.net/2026/"
                     is_external: true
                     is_new: true
+                  - text: "CLUSTER Practitioners' Summit Lightning Talks"
+                    url: "https://docs.google.com/forms/d/e/1FAIpQLSfSrCO17K_nqLKonilL3zvPUI403C1DHd_QMiFMAxxdzBuXjw/viewform?usp=sharing&ouid=113443580098787443355"
+                    is_external: true
+                    is_new: true
               - heading: "Info for Contributors"
                 links:
                   - text: "Area Model for VIS"
@@ -305,11 +309,11 @@ menu:
                   - text: "Week at a Glance"
                     description: "Preliminary overview of the conference week"
                     url: "/info/program/week-at-a-glance"
+                    is_new: false
+                  - text: "Accepted Papers"
+                    description: "An overview of all accepted papers"
+                    url: "/info/program/papers_list"
                     is_new: true
-                  # - text: "Papers"
-                  #   description: "Paper sessions"
-                  #   url: "/info/program/papers_list"
-                  #   is_new: false
                   # - text: "Sessions"
                   #   description: "List of all sessions and events"
                   #   url: "/program/sessions"
@@ -322,10 +326,10 @@ menu:
                   #   description: "Nascent and recent work"
                   #   url: "/info/program/posters"
                   #   is_new: false
-                  # - text: "Panels"
-                  #   description: "Discuss important and controversial issues"
-                  #   url: "/info/program/panels"
-                  #   is_new: false
+                  - text: "Panels"
+                    description: "Discuss important and controversial issues"
+                    url: "/info/program/panels"
+                    is_new: true
                   - text: "Workshops"
                     description: "Informal setting to discuss emerging topics"
                     url: "/info/program/workshops"

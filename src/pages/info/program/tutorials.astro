@@ -1,0 +1,92 @@
+---
+import PageLayout from "../../../layouts/PageLayout.astro";
+import { load_tsv, parse_people } from "../../../utils/load_tsv";
+
+const frontmatter = {
+  title: "Tutorials",
+  contact: "panels_tutorials@ieeevis.org",
+  sidebar: "program",
+  active_nav: "Program",
+};
+
+const slugify = (value: string) =>
+  value
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+
+const tutorials = load_tsv("./src/data/early_program/tutorials_list.tsv")
+  .filter((row) => row["Tutorial title"])
+  .map((row) => ({
+    title: row["Tutorial title"],
+    anchor: slugify(row["Tutorial title"]),
+    abstract: row["Description / abstract"],
+    website: row["Tutorial website"],
+    organizers: parse_people(row["Organizers"]),
+  }));
+---
+
+<PageLayout frontmatter={frontmatter}>
+  <h1>Accepted Tutorials</h1>
+
+  {
+    tutorials.length === 0 ? (
+      <p>
+        The tutorials program is still to be determined! You are likely looking
+        for the call for participation, which can be found{" "}
+        <a href="/year/2026/info/call-participation/tutorials">here</a>.
+      </p>
+    ) : (
+      <>
+        <p>
+          The following tutorials went through our{" "}
+          <a href="/year/2026/info/call-participation/tutorials">
+            submission/review process
+          </a>
+          .
+        </p>
+
+        <ul>
+          {tutorials.map((tutorial) => (
+            <li>
+              <a href={`#${tutorial.anchor}`}>{tutorial.title}</a>
+            </li>
+          ))}
+        </ul>
+
+        <hr />
+
+        {tutorials.map((tutorial) => (
+          <section class="mb-8">
+            <h2 id={tutorial.anchor}>
+              <a name={tutorial.anchor} />
+              {tutorial.title}
+            </h2>
+
+            <h3 class="text-base font-semibold mb-1">Organizers</h3>
+            <ul class="mt-0">
+              {tutorial.organizers.map((person) => (
+                <li>
+                  {person.name}
+                  {person.affiliation && (
+                    <>
+                      , <em>{person.affiliation}</em>
+                    </>
+                  )}
+                </li>
+              ))}
+            </ul>
+
+            <p>{tutorial.abstract}</p>
+
+            {tutorial.website && (
+              <p>
+                <a href={tutorial.website}>Tutorial website</a>
+              </p>
+            )}
+          </section>
+        ))}
+      </>
+    )
+  }
+</PageLayout>

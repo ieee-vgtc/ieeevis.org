@@ -1,0 +1,117 @@
+---
+import PageLayout from "../../../layouts/PageLayout.astro";
+import { load_tsv } from "../../../utils/load_tsv";
+
+const frontmatter = {
+  title: "Accepted Papers",
+  contact: "program@ieeevis.org",
+  sidebar: "program",
+  active_nav: "Program",
+};
+
+type PaperRow = {
+  paper_id: string;
+  paper_type: string;
+  title: string;
+  authors: string;
+  session_name: string;
+  location: string;
+};
+
+const slugify = (value: string) =>
+  value
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+
+const rowsFull = load_tsv(
+  "./src/data/early_program/papers_list.tsv",
+) as unknown as PaperRow[];
+
+const rowsShort = load_tsv(
+  "./src/data/early_program/papers_list_short.tsv",
+) as unknown as PaperRow[];
+
+const sessions = rowsFull.reduce(
+  (acc, row) => {
+    if (!row.title) {
+      return acc;
+    }
+    if (!acc[row.session_name]) {
+      acc[row.session_name] = [];
+    }
+    acc[row.session_name].push(row);
+    return acc;
+  },
+  {} as Record<string, PaperRow[]>,
+);
+---
+
+<PageLayout frontmatter={frontmatter}>
+  <ul>
+    <li>
+      <a href="#accepted-full-papers">Accepted Full Papers</a>
+    </li>
+    <li>
+      <a href="#accepted-short-papers"> Accepted Short Papers </a>
+    </li>
+  </ul>
+
+  <h1 id="accepted-full-papers">Accepted Full Papers</h1>
+  <p>
+    Covering both IEEE VIS papers, TVCG papers, and CG&A papers to be presented
+    at the conference.
+  </p>
+
+  {
+    Object.entries(sessions).map(([name, papers]) => (
+      <section>
+        <h2 id={slugify(name)}>
+          <a name={slugify(name)} />
+          {name}
+        </h2>
+
+        {papers.map((paper) => (
+          <p>
+            <strong>
+              {paper.title}
+
+              {paper.paper_id.toLowerCase().includes("tvcg") && (
+                <span class="text-sm opacity-70 ml-2"> (TVCG)</span>
+              )}
+              {paper.paper_id.toLowerCase().includes("cg&a") && (
+                <span class="text-sm opacity-70 ml-2"> (CG&A)</span>
+              )}
+            </strong>
+            <br />
+            {paper.authors}
+            {paper.location && (
+              <span class="text-sm opacity-70"> &middot; {paper.location}</span>
+            )}
+          </p>
+        ))}
+      </section>
+    ))
+  }
+  <h1 id="accepted-short-papers">Accepted Short Papers</h1>
+  <section>
+    {
+      rowsShort.map((paper) => (
+        <p>
+          <strong>
+            {paper.title}
+
+            {paper.paper_id.toLowerCase().includes("tvcg") && (
+              <span class="text-sm opacity-70 ml-2"> (TVCG)</span>
+            )}
+          </strong>
+          <br />
+          {paper.authors}
+          {paper.location && (
+            <span class="text-sm opacity-70"> &middot; {paper.location}</span>
+          )}
+        </p>
+      ))
+    }
+  </section>
+</PageLayout>
