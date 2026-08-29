@@ -20,24 +20,16 @@ export const onRequest: MiddlewareHandler = async (context, next) => {
 
   const nextResponse = await next();
   // Fully drain the body into a string instead of passing the stream
-  // through: Netlify's production Function runtime was silently dropping
-  // streamed response bodies (Astro's default for rendered pages) while
-  // plain-string bodies worked fine, so every page came back 200 OK with
-  // zero bytes. This also sidesteps Response.redirect()'s immutable
-  // headers (used by /auth/login, /auth/callback, /auth/logout), since
-  // we're building a fresh Response either way.
-  let body: string;
-  try {
-    body = await nextResponse.text();
-  } catch (error) {
-    // TEMPORARY: surface the actual error in the response body so it's
-    // visible via curl without needing Netlify's function-log UI. Remove
-    // once the underlying cause is found.
-    return new Response(
-      `DEBUG nextResponse.text() threw:\n${error instanceof Error ? (error.stack ?? error.message) : String(error)}`,
-      { status: 500, headers: { "content-type": "text/plain" } },
-    );
-  }
+  // through. Astro renders pages as a stream by default, and a render-time
+  // error part way through one (e.g. a missing data file) doesn't change
+  // the status code - the headers are already committed at 200 by the
+  // time the error happens, so the connection just ends with whatever was
+  // already flushed, silently, with no error visible anywhere. Draining
+  // with .text() surfaces that same error as a normal rejected promise
+  // instead. This also sidesteps Response.redirect()'s immutable headers
+  // (used by /auth/login, /auth/callback, /auth/logout), since we're
+  // building a fresh Response either way.
+  const body = await nextResponse.text();
   const response = new Response(body, {
     status: nextResponse.status,
     statusText: nextResponse.statusText,

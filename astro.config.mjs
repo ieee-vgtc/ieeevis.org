@@ -33,9 +33,16 @@ export default defineConfig({
     driver: sessionDrivers.memory(),
   },
   adapter: netlify({
-    // Program data is loaded from the filesystem when a program detail page
-    // is rendered in Netlify's serverless function.
-    includeFiles: ["src/data/program_test/*.json"],
+    // Read from the filesystem at render time (src/utils/load_yaml.ts,
+    // src/utils/paperData.ts) via readFileSync, so they must be explicitly
+    // bundled into Netlify's serverless function or every page that reads
+    // them (which, via DefaultLayout/HomePageLayout/Sidebar, is nearly all
+    // of them) throws ENOENT once deployed.
+    includeFiles: [
+      "src/data/program_test/*.json",
+      "src/data/*.yml",
+      "src/data/sidebars/*.yml",
+    ],
   }),
   integrations: [
     react(),
