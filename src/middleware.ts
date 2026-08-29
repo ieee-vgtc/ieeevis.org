@@ -19,13 +19,21 @@ export const onRequest: MiddlewareHandler = async (context, next) => {
   context.locals.user = await readSession(context.cookies, context.url);
 
   const nextResponse = await next();
-  // Endpoint responses such as Response.redirect() have immutable headers.
-  // Copy them before adding the site-wide security headers below.
-  const response = new Response(nextResponse.body, {
-    status: nextResponse.status,
-    statusText: nextResponse.statusText,
-    headers: new Headers(nextResponse.headers),
-  });
+  // Response.redirect() (used by /auth/login, /auth/callback, /auth/logout)
+  // returns headers that are immutable, so those need reconstructing before
+  // we can add the site-wide security headers below. Every other response
+  // gets its headers set in place instead of being rebuilt: rebuilding wraps
+  // a fresh Response around the original body stream, which is harmless
+  // locally but silently drops the body under Netlify's production Function
+  // runtime for full HTML pages.
+  const isRedirect = [301, 302, 303, 307, 308].includes(nextResponse.status);
+  const response = isRedirect
+    ? new Response(nextResponse.body, {
+        status: nextResponse.status,
+        statusText: nextResponse.statusText,
+        headers: new Headers(nextResponse.headers),
+      })
+    : nextResponse;
 
   const isDev = import.meta.env.DEV;
 
