@@ -19,21 +19,19 @@ export const onRequest: MiddlewareHandler = async (context, next) => {
   context.locals.user = await readSession(context.cookies, context.url);
 
   const nextResponse = await next();
-  // Response.redirect() (used by /auth/login, /auth/callback, /auth/logout)
-  // returns headers that are immutable, so those need reconstructing before
-  // we can add the site-wide security headers below. Every other response
-  // gets its headers set in place instead of being rebuilt: rebuilding wraps
-  // a fresh Response around the original body stream, which is harmless
-  // locally but silently drops the body under Netlify's production Function
-  // runtime for full HTML pages.
-  const isRedirect = [301, 302, 303, 307, 308].includes(nextResponse.status);
-  const response = isRedirect
-    ? new Response(nextResponse.body, {
-        status: nextResponse.status,
-        statusText: nextResponse.statusText,
-        headers: new Headers(nextResponse.headers),
-      })
-    : nextResponse;
+  // Fully drain the body into a string instead of passing the stream
+  // through: Netlify's production Function runtime was silently dropping
+  // streamed response bodies (Astro's default for rendered pages) while
+  // plain-string bodies worked fine, so every page came back 200 OK with
+  // zero bytes. This also sidesteps Response.redirect()'s immutable
+  // headers (used by /auth/login, /auth/callback, /auth/logout), since
+  // we're building a fresh Response either way.
+  const body = await nextResponse.text();
+  const response = new Response(body, {
+    status: nextResponse.status,
+    statusText: nextResponse.statusText,
+    headers: new Headers(nextResponse.headers),
+  });
 
   const isDev = import.meta.env.DEV;
 
