@@ -198,3 +198,13 @@ thead + tbody {
 .text-measure--wide {
   max-width: 50em;
 }
+
+.visions-speaker-photo {
+  aspect-ratio: 1;
+  display: block;
+  margin-bottom: 1rem;
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center top;
+  width: 24rem;
+}

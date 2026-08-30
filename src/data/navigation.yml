@@ -366,7 +366,6 @@ menu:
           #           is_new: false
       - subsections:
           - heading: "Invited Speakers"
-            heading_url: "/info/invited-speakers/summary"
             columns:
               - links:
                   - text: "Keynote"
@@ -377,6 +376,10 @@ menu:
                     description: "Nils Gehlenborg"
                     url: "/info/invited-speakers/capstone-speaker"
                     is_new: false
+                  - text: "VISions"
+                    description: "Zhu-Tian Chen and Ana Crisan"
+                    url: "/info/invited-speakers/visions"
+                    is_new: true
           - heading: "Community"
             heading_url: "/info/community/community"
             description: "Explore social and topic-based community groups"
