@@ -584,7 +584,7 @@ menu:
                     url: "https://vis.social/@ieeevis"
                     is_external: true
                   - text: "Bluesky"
-                    url: "https://bsky.app/profile/ieeevis.bsky.social"
+                    url: "https://bsky.app/profile/ieeevis.org"
                     is_external: true
                   - text: "LinkedIn"
                     url: "https://www.linkedin.com/company/ieeevis"
