@@ -1,6 +1,6 @@
 ---
 title: Awards
-description: "Awards presented at IEEE VIS 2026, including best paper, test-of-time, and IEEE VGTC awards."
+description: "Awards presented at IEEE VIS, including best paper, test-of-time, and IEEE VGTC awards."
 layout: /src/layouts/PageLayout.astro
 active_nav: Program
 contact: web@ieeevis.org

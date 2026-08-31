@@ -1,6 +1,6 @@
 ---
 title: Conference Registration
-description: "Register for IEEE VIS 2026, November 9-13, at The Westin Copley Place in Boston, or at the Paris and Tianjin satellite locations."
+description: "Register for IEEE VIS the premier conference in visualization."
 layout: /src/layouts/PageLayout.astro
 active_nav: "Attend"
 contact: finance@ieeevis.org

@@ -13,17 +13,17 @@ export default function Footer({
   /** Repo-relative source of this page, or null if it has no page file. */
   source_file: string | null;
 }) {
+  let contact_email = contact || "web@ieeevis.org";
   return (
     <footer className="footer text-white">
       {/* <!-- Edit Page / Report Issue --> */}
       <div className="py-4 border-t border-gray-500 text-gray-500 text-sm text-center">
         <div className="container">
           Problems with this webpage? Contact{" "}
-          <a href={`mailto:${contact}`} className="link">
-            {contact}
+          <a href={`mailto:${contact_email}`} className="link">
+            {contact_email}
           </a>
           {", "}
-          {/* <!-- <a href="mailto:{{ page.contact | default: site.email }}" className="link">{% if page.author_contact %}{{ page.author_contact }}{% else %}{{ page.contact | default: site.email }}{% endif %}</a>, --> */}
           <a
             href={`${pkg.repository.url}/issues/new/?title="Fix content problem on ${source_file || pathname}"`}
             target="_blank"

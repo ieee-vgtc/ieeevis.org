@@ -1,6 +1,6 @@
 ---
 title: Best Paper/Poster Awards
-description: "Best paper, honorable mention, and best poster awards at IEEE VIS 2026, and how the best paper committees select them."
+description: "Best paper, honorable mention, and best poster awards at IEEE VIS, and how the best paper committees select them."
 layout: /src/layouts/PageLayout.astro
 active_nav: "Program"
 sidebar: awards-and-recognitions

@@ -1,6 +1,6 @@
 ---
 title: Destination
-description: "Discover Boston, Massachusetts, host city of IEEE VIS 2026, and how to get there by plane, train, bus, or car."
+description: "Learn more about the host city for IEEE VIS, and how to get there by plane, train, bus, or car."
 layout: /src/layouts/PageLayout.astro
 active_nav: Attend
 contact: general_chair@ieeevis.org

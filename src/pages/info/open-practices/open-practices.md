@@ -1,6 +1,6 @@
 ---
 title: Open Practices
-description: Learn about open practices at IEEE VIS 2026, including updated deadlines, optional open reviews, and recommendations for reproducible visualization research.
+description: Learn about open practices at IEEE VIS, including updated deadlines, optional open reviews, and recommendations for reproducible visualization research.
 layout: /src/layouts/PageLayout.astro
 active_nav: "Contribute"
 sidebar: call-for-participation

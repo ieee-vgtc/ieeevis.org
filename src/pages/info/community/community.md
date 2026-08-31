@@ -1,6 +1,6 @@
 ---
 title: Community
-description: "Community activities at IEEE VIS 2026, including the VIS Buddies program, job postings, and meetups open to all registered participants."
+description: "Community activities at IEEE VIS, including the VIS Buddies program, job postings, and meetups open to all registered participants."
 layout: /src/layouts/PageLayout.astro
 active_nav: "Events & Community"
 sidebar: community

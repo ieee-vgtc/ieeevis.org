@@ -1,7 +1,7 @@
 ---
 layout: /src/layouts/PageLayout.astro
 title: "VISions: Zhu-Tian Chen; Ana Crisan"
-description: "Meet the inaugural VISions speakers at IEEE VIS 2026, Zhu-Tian Chen and Ana Crisan, and read the abstracts of their forward-looking talks."
+description: "Meet the inaugural VISions speakers at IEEE VIS, Zhu-Tian Chen and Ana Crisan, and read the abstracts of their forward-looking talks."
 contact: visions@ieeevis.org
 active_nav: "Program"
 ---
