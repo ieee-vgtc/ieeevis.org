@@ -1,5 +1,6 @@
 ---
 title: Virtual Talks
+description: "Guidance for virtual presenters at IEEE VIS 2026 on preparing and submitting a pre-recorded talk video and its technical specifications."
 layout: /src/layouts/PageLayout.astro
 sidebar: call-for-participation
 active_nav: "Contribute"

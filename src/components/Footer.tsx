@@ -5,21 +5,14 @@ export default function Footer({
   footer_data,
   contact,
   pathname,
-  fileName,
+  source_file,
 }: {
   contact: string;
   footer_data: { columns: FooterSectionType[] };
   pathname: string;
-  fileName: string;
+  /** Repo-relative source of this page, or null if it has no page file. */
+  source_file: string | null;
 }) {
-  let filePath = pathname.trim().replace(import.meta.env.BASE_URL, "/");
-  if (filePath.endsWith("/")) {
-    filePath = filePath.slice(0, filePath.length - 1);
-  }
-  filePath = filePath.replaceAll("//", "/");
-  const name = fileName || "";
-  const source_file = `src/pages${filePath}${name.includes("index.md") ? "/index" : ""}.md`;
-
   return (
     <footer className="footer text-white">
       {/* <!-- Edit Page / Report Issue --> */}
@@ -32,20 +25,24 @@ export default function Footer({
           {", "}
           {/* <!-- <a href="mailto:{{ page.contact | default: site.email }}" className="link">{% if page.author_contact %}{{ page.author_contact }}{% else %}{{ page.contact | default: site.email }}{% endif %}</a>, --> */}
           <a
-            href={`${pkg.repository.url}/issues/new/?title="Fix content problem on /${source_file}"`}
+            href={`${pkg.repository.url}/issues/new/?title="Fix content problem on ${source_file || pathname}"`}
             target="_blank"
             className="link"
           >
             file a bug
           </a>
-          , or{" "}
-          <a
-            href={`${pkg.repository.url}/edit/vis${pkg.year}/${source_file}`}
-            target="_blank"
-            className="link"
-          >
-            suggest a fix
-          </a>
+          {source_file && (
+            <>
+              , or{" "}
+              <a
+                href={`${pkg.repository.url}/edit/vis${pkg.year}/${source_file}`}
+                target="_blank"
+                className="link"
+              >
+                suggest a fix
+              </a>
+            </>
+          )}
           .
         </div>
       </div>

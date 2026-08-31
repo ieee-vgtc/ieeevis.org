@@ -1,5 +1,6 @@
 ---
 title: Hotel Information
+description: "Book your room at The Westin Copley Place, the IEEE VIS 2026 conference hotel in Boston's Back Bay, at the discounted conference rate."
 layout: /src/layouts/PageLayout.astro
 contact: "general_chair@ieeevis.org"
 active_nav: "Attend"

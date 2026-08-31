@@ -1,5 +1,6 @@
 ---
 title: Venue
+description: "The venue for IEEE VIS 2026, including the conference facilities, halls, and meeting rooms hosting the week's sessions."
 layout: /src/layouts/PageLayout.astro
 active_nav: "Attend"
 contact: general_chair@ieeevis.org

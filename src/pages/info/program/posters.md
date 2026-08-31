@@ -1,5 +1,6 @@
 ---
 title: Posters
+description: "The IEEE VIS 2026 poster program. Accepted posters will be listed here; see the call for posters to submit your own work."
 layout: /src/layouts/PageLayout.astro
 contact: posters@ieeevis.org
 sidebar: program

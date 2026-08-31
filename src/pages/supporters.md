@@ -1,5 +1,6 @@
 ---
 title: "Supporting the IEEE VIS Conference"
+description: "Support the IEEE VIS 2026 conference. Explore support and exhibition options to reach an international community of visualization researchers."
 layout: /src/layouts/PageLayout.astro
 contact: supporters@ieeevis.org
 active_nav: Contribute

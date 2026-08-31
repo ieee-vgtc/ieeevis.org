@@ -1,6 +1,7 @@
 ---
 layout: /src/layouts/PageLayout.astro
 title: "Invited Speakers"
+description: "Keynote, capstone, and VISions speakers invited to IEEE VIS 2026."
 contact: info@ieeevis.org
 active_nav: "Program"
 ---

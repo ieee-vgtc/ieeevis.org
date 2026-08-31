@@ -1,5 +1,6 @@
 ---
 title: Test of Time Awards
+description: "The IEEE VIS Test of Time Awards recognize past conference papers whose contributions remain influential in visualization research today."
 layout: /src/layouts/PageLayout.astro
 active_nav: "Program"
 sidebar: awards-and-recognitions

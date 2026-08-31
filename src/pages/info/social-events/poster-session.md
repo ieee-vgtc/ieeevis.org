@@ -1,6 +1,8 @@
 ---
 layout: /src/layouts/PageLayout.astro
 title: "VIS 2026 Poster Session"
+description: "The IEEE VIS 2026 Poster Session, where attendees can view posters, meet the authors, and network. Details to be announced."
+contact: social_events@ieeevis.org
 sidebar: social-events
 active_nav: "Program"
 ---

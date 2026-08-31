@@ -1,6 +1,7 @@
 ---
 title: Visualization Steering Committee Mission Statement
 description: Mission statement for the visualization steering committee
+contact: vsc@ieeevis.org
 layout: /src/layouts/PageLayout.astro
 active_nav: "Organization & History"
 ---

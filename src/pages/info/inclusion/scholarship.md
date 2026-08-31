@@ -1,5 +1,6 @@
 ---
 title: VIS 2026 Inclusivity Scholarship
+description: "The VIS 2026 Inclusivity Scholarship offers need-based support, including registration and lodging, to attendees from underrepresented groups."
 layout: /src/layouts/PageLayout.astro
 active_nav: "Attend"
 contact: inclusivity@ieeevis.org

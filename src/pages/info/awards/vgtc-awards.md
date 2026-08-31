@@ -1,5 +1,6 @@
 ---
 title: VGTC VIS Awards
+description: "IEEE VGTC awards presented at VIS 2026, including the Dissertation Award, the Significant New Researcher Award, and the Visualization Academy."
 layout: /src/layouts/PageLayout.astro
 active_nav: "Program"
 sidebar: awards-and-recognitions

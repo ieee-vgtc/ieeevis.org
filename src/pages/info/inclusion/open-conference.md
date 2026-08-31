@@ -1,5 +1,7 @@
 ---
 title: IEEE Computer Society Open Conference Statement
+description: "The IEEE Computer Society Open Conference Statement on equity, diversity, and inclusion at its meetings, conferences, and workshops."
+contact: inclusivity_accessibility@ieeevis.org
 layout: /src/layouts/PageLayout.astro
 active_nav: Attend
 ---

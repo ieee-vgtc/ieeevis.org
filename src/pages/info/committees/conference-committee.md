@@ -1,6 +1,7 @@
 ---
 title: Conference Organizing Committee
 description: Meet the IEEE VIS Conference Organizing Committee. Learn about their roles, responsibilities, and contributions to making the conference successful.
+contact: general_chair@ieeevis.org
 layout: /src/layouts/PageLayout.astro
 active_nav: "Organization & History"
 ---

@@ -1,5 +1,6 @@
 ---
 title: IEEE VIS 2026 Meetups
+description: "Meetups at IEEE VIS 2026, community-organized sessions on shared topics. The accepted list will be announced closer to the conference."
 layout: /src/layouts/PageLayout.astro
 contact: community@ieeevis.org
 sidebar: program

@@ -1,6 +1,7 @@
 ---
 title: Area Curation Committee
 description: Learn about the IEEE VIS Area Curation Committee and how it analyzes submission areas and keywords through annual executive summaries.
+contact: papers@ieeevis.org
 layout: /src/layouts/PageLayout.astro
 active_nav: "Organization & History"
 ---
@@ -13,9 +14,9 @@ The Area Curation Committee produces an executive summary of analysis of the are
 - [2022 VIS Area Curation Committee Executive Summary](/year/2026/governance/acc-summary-2022.html)
 - [2021 VIS Area Curation Committee Executive Summary](/year/2026/governance/acc-summary-2021.html)
 
-| **Name** | **Affiliation** |
-| --- | --- |
-| Jean-Daniel Fekete (co-chair) | _Inria_ |
-| Alexander Lex (co-chair) | _Graz University of Technology_ |
-| Anamaria Crisan | _University of Waterloo_ |
-| Helwig Hauser | _University of Bergen_ |
+| **Name**                      | **Affiliation**                 |
+| ----------------------------- | ------------------------------- |
+| Jean-Daniel Fekete (co-chair) | _Inria_                         |
+| Alexander Lex (co-chair)      | _Graz University of Technology_ |
+| Anamaria Crisan               | _University of Waterloo_        |
+| Helwig Hauser                 | _University of Bergen_          |

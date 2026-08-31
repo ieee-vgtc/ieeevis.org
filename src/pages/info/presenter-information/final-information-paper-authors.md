@@ -1,5 +1,6 @@
 ---
 title: Final Information for Paper Authors
+description: "Final instructions for authors of accepted IEEE VIS papers, including camera-ready deadlines, page limits, and submission requirements."
 layout: /src/layouts/PageLayout.astro
 active_nav: "Contribute"
 sidebar: call-for-participation

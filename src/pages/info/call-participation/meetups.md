@@ -1,5 +1,6 @@
 ---
 title: Meetups
+description: "How to propose a meetup at IEEE VIS 2026: what meetups are, what organizers get, and what a meetup proposal should include."
 layout: /src/layouts/PageLayout.astro
 contact: meetups@ieeevis.org
 active_nav: Contribute

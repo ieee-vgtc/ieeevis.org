@@ -1,6 +1,7 @@
 ---
 layout: /src/layouts/PageLayout.astro
 title: "VIS 2026 Social Events"
+description: "An overview of the social events at IEEE VIS 2026, offering time for networking and discussion outside the technical program."
 sidebar: social-events
 contact: "general_chair@ieeevis.org"
 active_nav: "Program"

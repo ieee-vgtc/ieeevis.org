@@ -1,5 +1,6 @@
 ---
 title: Preparing For Your Talk
+description: "How to prepare your talk for IEEE VIS 2026, with guidelines for in-person and virtual presentations across paper and workshop sessions."
 layout: /src/layouts/PageLayout.astro
 sidebar: call-for-participation
 active_nav: "Contribute"

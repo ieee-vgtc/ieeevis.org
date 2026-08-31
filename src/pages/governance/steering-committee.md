@@ -1,5 +1,7 @@
 ---
 title: VIS Steering Committee
+description: "Meet the IEEE VIS Steering Committee, which provides long-term scientific and organizational oversight of the conference, and learn about elections."
+contact: vsc@ieeevis.org
 layout: /src/layouts/PageLayout.astro
 active_nav: "Organization & History"
 ---

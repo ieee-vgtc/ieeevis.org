@@ -1,5 +1,6 @@
 ---
 title: VIS 2026 Jobs
+description: "Job postings shared with the IEEE VIS 2026 community, and how to submit an opening to be listed during the conference."
 layout: /src/layouts/PageLayout.astro
 active_nav: "Events & Community"
 sidebar: community
@@ -13,7 +14,6 @@ We will collect job postings and display them here throughout the VIS 2026 meeti
 [VIS Community Job Posting Form](https://forms.gle/7JRMnv5Z9UwcQFuj6)
 
 To submit a posting, please use the form above. Postings will be updated every couple of days on this page.
-
 
 ### Contact
 

@@ -1,5 +1,6 @@
 ---
 title: VISions - Call For Participation
+description: "VISions is a new IEEE VIS venue for forward-thinking proposals about future directions for interactive visualization and visual analysis."
 layout: /src/layouts/PageLayout.astro
 contact: visions@ieeevis.org
 active_nav: "Contribute"
@@ -35,7 +36,7 @@ Submissions should aim to start a meaningful and well-informed discussion about 
 | Event                    | Date                      |
 | :----------------------- | :------------------------ |
 | Submission deadline      | Friday, July 31st, 2026   |
-| Acceptance notification  | Friday, August 14th, 2026  |
+| Acceptance notification  | Friday, August 14th, 2026 |
 | Camera-ready version due | Friday, August 21st, 2026 |
 
 ## **Selection Process**

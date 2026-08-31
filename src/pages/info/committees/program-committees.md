@@ -1,5 +1,6 @@
 ---
 title: Program Committees
+description: "The program committees for IEEE VIS 2026, listing the full paper and short paper committee members and their affiliations."
 layout: /src/layouts/PageLayout.astro
 active_nav: "Organization & History"
 contact: papers@ieeevis.org

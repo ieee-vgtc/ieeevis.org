@@ -1,5 +1,6 @@
 ---
 title: Panels
+description: "Call for panel proposals at IEEE VIS 2026, addressing contemporary debates, issues, and applications in visualization and related fields."
 layout: /src/layouts/PageLayout.astro
 contact: panels_tutorials@ieeevis.org
 active_nav: "Contribute"

@@ -1,5 +1,6 @@
 ---
 title: VIS 2026 Accessibility
+description: "Accessibility at IEEE VIS 2026: how to communicate your needs and what accommodations the conference provides for attendees."
 layout: /src/layouts/PageLayout.astro
 active_nav: "Attend"
 contact: accessibility@ieeevis.org

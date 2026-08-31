@@ -1,6 +1,7 @@
 ---
 layout: /src/layouts/PageLayout.astro
 title: "VIS 2026 Awards"
+description: "An overview of the awards presented at IEEE VIS 2026, including IEEE VGTC awards, test-of-time awards, and best paper and poster awards."
 contact: program@ieeevis.org
 active_nav: "Program"
 ---

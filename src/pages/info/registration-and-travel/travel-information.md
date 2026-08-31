@@ -1,5 +1,6 @@
 ---
 title: Travel Information
+description: "Travel information for IEEE VIS 2026 attendees, including how to reach the conference city and climate-friendly travel options."
 layout: /src/layouts/PageLayout.astro
 active_nav: "Attend"
 contact: general_chair@ieeevis.org

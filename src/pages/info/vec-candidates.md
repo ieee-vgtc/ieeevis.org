@@ -1,5 +1,6 @@
 ---
 title: VEC Candidates - VIS 2026 Elections
+description: "Bios and campaign statements from the candidates standing for election to the IEEE VIS Executive Committee (VEC) in 2026."
 layout: /src/layouts/PageLayout.astro
 contact: elections@ieeevis.org
 active_nav: "Organization & History"

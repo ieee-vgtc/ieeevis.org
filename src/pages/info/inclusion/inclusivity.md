@@ -1,5 +1,7 @@
 ---
 title: Inclusivity
+description: "Inclusivity at IEEE VIS: how the Inclusivity Committee works to broaden participation and support underrepresented groups in the community."
+contact: inclusivity_accessibility@ieeevis.org
 layout: /src/layouts/PageLayout.astro
 active_nav: "Attend"
 ---

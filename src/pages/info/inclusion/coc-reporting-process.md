@@ -1,5 +1,7 @@
 ---
 title: Code of Conduct Reporting Process for IEEE VIS
+description: "How code of conduct concerns are reported and handled at IEEE VIS, including the roles of reporters, confidants, ombuds, and the response team."
+contact: ombuds@ieeevis.org
 layout: /src/layouts/PageLayout.astro
 active_nav: "Attend"
 ---
