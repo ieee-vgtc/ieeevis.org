@@ -1,6 +1,8 @@
 ---
 layout: /src/layouts/PageLayout.astro
 title: "VIS 2026 Welcome Reception"
+description: "The IEEE VIS 2026 Welcome Reception, an evening of drinks and conversation to open the conference week. Details to be announced."
+contact: social_events@ieeevis.org
 sidebar: social-events
 active_nav: "Program"
 ---

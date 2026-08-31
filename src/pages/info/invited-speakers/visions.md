@@ -1,6 +1,7 @@
 ---
 layout: /src/layouts/PageLayout.astro
 title: "VISions: Zhu-Tian Chen; Ana Crisan"
+description: "Meet the inaugural VISions speakers at IEEE VIS, Zhu-Tian Chen and Ana Crisan, and read the abstracts of their forward-looking talks."
 contact: visions@ieeevis.org
 active_nav: "Program"
 ---
@@ -21,8 +22,8 @@ AI is collapsing the data-to-action pipeline that visualization has historically
 
 ### Bio
 
-Zhu-Tian Chen is an Assistant Professor in the Department of Computer Science and Engineering at the University of Minnesota Twin Cities. 
-His research aims to augment human intelligence in physical environments. 
+Zhu-Tian Chen is an Assistant Professor in the Department of Computer Science and Engineering at the University of Minnesota Twin Cities.
+His research aims to augment human intelligence in physical environments.
 He builds situated AI systems as a "System 3" for human cognition: an external cognitive layer, mediated through interactive visual interfaces, that complements System 1 (fast, intuitive thinking) and System 2 (slow, deliberative reasoning).
 His work has been recognized with multiple paper awards and an NSF CAREER Award.
 

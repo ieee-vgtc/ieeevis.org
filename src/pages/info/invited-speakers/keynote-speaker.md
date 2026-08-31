@@ -1,6 +1,7 @@
 ---
 layout: /src/layouts/PageLayout.astro
 title: "Keynote by Kimberly K. Arcand"
+description: "The IEEE VIS 2026 keynote will be given by Kimberly K. Arcand, visualization scientist for NASA's Chandra X-ray Observatory."
 contact: info@ieeevis.org
 active_nav: "Program"
 ---

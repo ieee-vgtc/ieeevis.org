@@ -1,5 +1,6 @@
 ---
 title: Make PDF submission accessible
+description: "Guidance for IEEE VIS authors on writing accessible documents and preparing accessible PDF submissions in Word, LaTeX, and Typst."
 layout: /src/layouts/PageLayout.astro
 active_nav: "Contribute"
 sidebar: call-for-participation
@@ -54,8 +55,8 @@ Microsoft Word can produce accessible documents.
 
 1. Follow the latest [template for full papers and all other submissions](https://typst.app/universe/package/ieee-vgtc/).
 2. **Use appropriate commands to create sections**, ordered/unordered lists, figures, tables, equations, etc.
-3. Add alt texts to the Typst sources (see [below](#adding-alt-texts-to-figures)). Note Typst adds tags automatically, and accessible papers are automatically created ([see Typst's documentation](https://typst.app/docs/reference/pdf/#command-line)). 
-4. Export the pdf using `--pdf-standard ua-1`  to make the most accessible document.
+3. Add alt texts to the Typst sources (see [below](#adding-alt-texts-to-figures)). Note Typst adds tags automatically, and accessible papers are automatically created ([see Typst's documentation](https://typst.app/docs/reference/pdf/#command-line)).
+4. Export the pdf using `--pdf-standard ua-1` to make the most accessible document.
 5. Test the document complete with a screen reader to make sure that there are tags for all content.
 
 #### Adding Alt Texts to Figures
@@ -63,11 +64,13 @@ Microsoft Word can produce accessible documents.
 Add alt texts inline in the `includegraphics` and `#figure` calls, respectively for LaTex and Typst. In your paper, the alt texts should [describe the figure in sufficient detail](https://www.sigaccess.org/welcome-to-sigaccess/resources/describing-figures/).
 
 For LaTex:
+
 ```latex
 \includegraphics[alt={An image of a duck in a pond.},width=0.5\columnwidth]{duck.png}
 ```
 
 For Typst:
+
 ```
 #figure(
   image("figs/chart.pdf", alt: "A bar chart showing the number of days per month broken down by weather type.", width: 80%),

@@ -1,5 +1,6 @@
 ---
 title: Elections
+description: "How IEEE VIS elections work: voter eligibility, registration, candidate nominations, and the ranked-choice process for electing VSC members."
 layout: /src/layouts/PageLayout.astro
 contact: elections@ieeevis.org
 active_nav: Contribute

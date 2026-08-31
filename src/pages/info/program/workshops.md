@@ -1,5 +1,6 @@
 ---
 title: Accepted Workshops
+description: "The workshops accepted for IEEE VIS 2026, spanning accessibility, evaluation, education, topology, responsible data practices, and more."
 layout: /src/layouts/PageLayout.astro
 contact: workshops@ieeevis.org
 sidebar: program

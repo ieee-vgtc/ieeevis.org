@@ -1,5 +1,6 @@
 ---
 title: Conference Registration
+description: "Register for IEEE VIS the premier conference in visualization."
 layout: /src/layouts/PageLayout.astro
 active_nav: "Attend"
 contact: finance@ieeevis.org

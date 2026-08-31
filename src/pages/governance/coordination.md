@@ -1,5 +1,7 @@
 ---
 title: Financial and Coordination Policies for IEEE VIS
+description: "Financial and coordination policies for events held in conjunction with IEEE VIS, covering budgets, benefits, and fundraising expectations."
+contact: vsc@ieeevis.org
 layout: /src/layouts/PageLayout.astro
 active_nav: "Organization & History"
 ---

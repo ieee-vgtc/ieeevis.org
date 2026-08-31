@@ -1,6 +1,7 @@
 ---
 title: The nasty space problem in papers
 description: On how to use space effectively and efficiently in papers
+contact: opc@ieeevis.org
 layout: /src/layouts/BlogPageLayout.astro
 active_nav: Blog
 authors: The VIS 2026 Overall Paper Chairs

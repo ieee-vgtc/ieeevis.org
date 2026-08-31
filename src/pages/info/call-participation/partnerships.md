@@ -1,6 +1,7 @@
 ---
 title: Partnerships
-description: Learn about IEEE VIS partnerships with IEEE Transactions on Visualization and Computer Graphics (TVCG) and IEEE Computer Graphics and Applications (CG&A), supporting high-quality visualization research and presentations.
+description: "Learn about IEEE VIS partnerships with IEEE Transactions on Visualization and Computer Graphics (TVCG) and IEEE Computer Graphics and Applications (CG&A), supporting high-quality visualization research and presentations."
+contact: papers@ieeevis.org
 layout: /src/layouts/PageLayout.astro
 sidebar: call-for-participation
 active_nav: Contribute

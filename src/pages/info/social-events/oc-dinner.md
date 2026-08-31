@@ -1,6 +1,8 @@
 ---
 layout: /src/layouts/PageLayout.astro
 title: "VIS 2026 OC Dinner"
+description: "The IEEE VIS 2026 Organizing Committee Dinner, an invitation-only thank-you for the volunteers who make the conference happen."
+contact: social_events@ieeevis.org
 sidebar: social-events
 active_nav: "Program"
 ---

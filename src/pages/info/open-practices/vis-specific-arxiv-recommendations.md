@@ -1,5 +1,6 @@
 ---
 title: Open Practices arXiv Guidance
+description: "arXiv recommendations specific to IEEE VIS papers, including choosing a category and updating the record after publication."
 layout: /src/layouts/PageLayout.astro
 active_nav: "Contribute"
 contact: open_practices@ieeevis.org

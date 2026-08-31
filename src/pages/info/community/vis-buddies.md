@@ -1,5 +1,6 @@
 ---
 title: VIS Buddies
+description: "The VIS Buddies program pairs newcomers with returning IEEE VIS attendees who share their interests. Sign up and see example activities."
 layout: /src/layouts/PageLayout.astro
 active_nav: "Events & Community"
 sidebar: community
@@ -17,7 +18,6 @@ Example VisBuddies activities include:
 - Build connections between experienced researchers and new members of the VIS community
 - Discuss interesting sessions to attend
 - Share tips on successful research
-
 
 ### Contact
 

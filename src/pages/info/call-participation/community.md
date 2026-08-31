@@ -1,5 +1,6 @@
 ---
 title: Community
+description: "Community activities at IEEE VIS, including VisBuddies, job postings, and meetups that connect visualization researchers and practitioners."
 layout: /src/layouts/PageLayout.astro
 active_nav: "Events & Community"
 sidebar: call-for-participation
@@ -37,10 +38,10 @@ We will collect job postings and display them on the [Job Posting page](https://
 To submit a posting, please use the form above. Postings will be updated every couple of days on the [Job Posting page](https://ieeevis.org/year/2026/info/community/jobs/).
 
 ### <a name="meetups"></a>Meetups
+
 Do you want to meet people who share the same interests as you, discuss a topic that you care about or that brings the visualization community forward, or share viewpoints and experiences to foster community building? If yes, organize a meetup!
 
 [Meetups info](https://ieeevis.org/year/2026/info/call-participation/meetups/)
-
 
 ### Contact
 

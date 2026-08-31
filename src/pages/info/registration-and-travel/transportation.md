@@ -1,5 +1,6 @@
 ---
 title: Transportation
+description: "Getting around during IEEE VIS 2026, including public transit options between the conference venue and the rest of the city."
 layout: /src/layouts/PageLayout.astro
 active_nav: "Attend"
 contact: general_chair@ieeevis.org

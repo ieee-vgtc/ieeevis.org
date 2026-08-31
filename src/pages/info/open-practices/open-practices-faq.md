@@ -1,5 +1,6 @@
 ---
 title: Open Access Preprint Guide and FAQ
+description: "Answers to common IEEE VIS author questions about open access preprints: where to share, which version, and IEEE publication policy."
 layout: /src/layouts/PageLayout.astro
 active_nav: "Contribute"
 sidebar: call-for-participation

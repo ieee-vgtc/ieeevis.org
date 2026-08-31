@@ -1,5 +1,6 @@
 ---
 title: Open Practices arXiv Guidance for Overleaf users
+description: "How Overleaf users can prepare a new arXiv submission for an IEEE VIS paper and update an existing arXiv record."
 layout: /src/layouts/PageLayout.astro
 active_nav: "Contribute"
 contact: open_practices@ieeevis.org

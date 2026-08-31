@@ -1,5 +1,6 @@
 ---
 title: Open Practices arXiv Guidance
+description: "How IEEE VIS authors update an arXiv preprint after publication, including adding the required IEEE copyright notice and DOI."
 layout: /src/layouts/PageLayout.astro
 active_nav: "Contribute"
 contact: open_practices@ieeevis.org
