@@ -21,7 +21,10 @@ AI is collapsing the data-to-action pipeline that visualization has historically
 
 ### Bio
 
-Zhu-Tian Chen is an Assistant Professor in the Department of Computer Science and Engineering at the University of Minnesota Twin Cities. His research aims to augment human intelligence in physical environments. Before joining the University of Minnesota, he worked with the Visual Computing Group at Harvard University and the Design Lab and Creativity Lab at UC San Diego. He received his Ph.D. in Computer Science and Engineering from the Hong Kong University of Science and Technology. His work has been recognized with multiple paper awards and an NSF CAREER Award.
+Zhu-Tian Chen is an Assistant Professor in the Department of Computer Science and Engineering at the University of Minnesota Twin Cities. 
+His research aims to augment human intelligence in physical environments. 
+He builds situated AI systems as a "System 3" for human cognition: an external cognitive layer, mediated through interactive visual interfaces, that complements System 1 (fast, intuitive thinking) and System 2 (slow, deliberative reasoning).
+His work has been recognized with multiple paper awards and an NSF CAREER Award.
 
 For more information, visit his website at [https://chenzhutian.org/](https://chenzhutian.org/).
 
