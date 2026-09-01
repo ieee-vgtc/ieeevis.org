@@ -39,8 +39,8 @@ Visualization research is inherently interdisciplinary, yet much of the field ad
 
 ### Bio
 
-Ana Crisan is an Assistant Professor in the School of Computer Science at the University of Waterloo, where she leads the Insight Lab. She is affiliated with the WaterlooHCI Lab and is a member of the Waterloo Artificial Intelligence Institute.
-Her interdisciplinary research sits at the intersection of human-computer interaction, data visualization, and applied artificial intelligence and machine learning.
+Anamaria (Ana) Crisan is an Assistant Professor in the Cheriton School of Computer Science at the University of Waterloo, where she leads the Insight Lab. She is affiliated with the WaterlooHCI Lab and a member of the Waterloo Data and Artificial Intelligence Institute. Prior to joining Waterloo she was a Lead Research Scientist at Tableau.
+Her interdisciplinary research sits at the intersection of human-computer interaction, data visualization, and applied artificial intelligence.
 Her work focuses on developing responsible, transparent, and trustworthy AI systems aligned with human intent; designing interactive visualization systems that support data-driven decision-making from insight to action; and applying data science and visualization to healthcare, public health, and biomedicine.
 
-For more information, visit her website at [https://amcrisan.github.io/](https://amcrisan.github.io/).
+For more information, visit her website at [https://cs.uwaterloo.ca/~amcrisan](https://cs.uwaterloo.ca/~amcrisan).
