@@ -150,6 +150,8 @@ _6:00 PM - 10:00 PM (EST)_<br/>
 _7:00 PM - 10:00 PM (EST)_<br/>
 **[VIS Arts Program (VISAP)](https://visap.net/2026/)** hosted at the [MET Warehouse, MIT, Cambridge](https://betterworld.mit.edu/met-warehouse/)<br />
 
+<hr />
+
 ## Thursday Schedule
 
 <a>**Thursday, November 12, 2026**</a><br />
@@ -170,6 +172,8 @@ _11:30 AM - 12:30 PM (EST)_<br />
 _10:00 AM - 11:30 AM (EST)_<br />
 **[Capstone by Nils Gehlenborg](/year/2026/info/invited-speakers/capstone-speaker/)**<br />
 **VIS Closing**<br />
+
+<hr />
 
 ## Paper Sessions, Panels, and Tutorials Schedule (Tuesday - Friday)
 
