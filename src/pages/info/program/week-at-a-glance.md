@@ -14,13 +14,13 @@ Below is a concise overview of the conference program.
 
 _Wednesday, November 11, 2026_
 
-> **[Cluster: Practitioners’ Summit](https://cluster-practitioners-summit.github.io/)** is a dedicatedd edicated practitioners’ summit for people who build, ship, and defend visualizations for a living. View the [full summit schedule below](#cluster-practitioners-summit).
+> **[Cluster: Practitioners’ Summit](https://cluster-practitioners-summit.github.io/)** is a dedicated practitioners’ summit for people who build, ship, and defend visualizations for a living. View the [full summit schedule below](#cluster-practitioners-summit).
 
 > **[VISions: Forward-Thinking Provacations](/year/2026/info/call-participation/visions/)**. A single-track event for forward thinking ideas to inspire the broad visualization community. Stay tuned for [presenter and talk information below](#visions).
 
 <hr/>
 
-## Coffee Breaks and Lunch (All Days)
+## Coffee Breaks and Lunch
 
 Coffee breaks are planned in the middle of the morning and afternoon sessions.
 
@@ -140,7 +140,7 @@ A venue for forward-thinking ideas to inspire the broad visualization community 
 ### Afternoon
 
 _3:00 PM - 4:15 PM (EST)_<br/>
-**VISion Talks** and Q & A Discussion<br />
+**VISion Talks** with Q & A Discussion<br />
 
 ### Evening
 
