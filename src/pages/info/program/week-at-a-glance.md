@@ -75,7 +75,7 @@ _1:00 PM - 4:30 PM (EST)_<br/>
 
 _8:00 AM - 9:30 AM (EST)_<br />
 **VIS Opening**<br />
-**[Keynote by Kimberly K. Arcand](/info/invited-speakers/keynote-speaker/)**<br />
+**[Keynote by Kimberly K. Arcand](/year/2026/info/invited-speakers/keynote-speaker/)**<br />
 
 _11:30 AM - 12:30 PM (EST)_<br />
 **Town Hall Meeting**<br />
@@ -167,7 +167,7 @@ _11:30 AM - 12:30 PM (EST)_<br />
 ### Morning
 
 _10:00 AM - 11:30 AM (EST)_<br />
-**[Capstone by Nils Gehlenborg](/info/invited-speakers/capstone-speaker/)**<br />
+**[Capstone by Nils Gehlenborg](/year/2026/info/invited-speakers/capstone-speaker/)**<br />
 **VIS Closing**<br />
 
 ## Paper Sessions, Panels, and Tutorials Schedule (Tuesday - Friday)
