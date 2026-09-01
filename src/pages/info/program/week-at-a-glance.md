@@ -16,7 +16,7 @@ _Wednesday, November 11, 2026_
 
 > **[Cluster: Practitioners’ Summit](https://cluster-practitioners-summit.github.io/)** is a dedicated practitioners’ summit for people who build, ship, and defend visualizations for a living. View the [full summit schedule below](#cluster-practitioners-summit).
 
-> **[VISions: Forward-Thinking Provacations](/year/2026/info/call-participation/visions/)**. A single-track event for forward thinking ideas to inspire the broad visualization community. Stay tuned for [presenter and talk information below](#visions).
+> **[VISions: Forward-Thinking Provocations](/year/2026/info/call-participation/visions/)**. A single-track event for forward thinking ideas to inspire the broad visualization community. Stay tuned for [presenter and talk information below](#visions).
 
 <hr/>
 
@@ -39,7 +39,7 @@ Details to follow on time and location.<br />
 
 <hr/>
 
-## Workshop Schedule (Monday)
+## Monday Schedule
 
 Monday workshop sessions will be **3.5 hours** (including a 30-minute coffee break).
 We will have up to nine parallel tracks (morning and afternoon).
@@ -72,7 +72,7 @@ _1:00 PM - 4:30 PM (EST)_<br/>
 
 <a>**Tuesday, November 10, 2026**</a><br />
 
-### Morning
+#### Morning
 
 _8:00 AM - 9:30 AM (EST)_<br />
 **VIS Opening**<br />
@@ -81,7 +81,7 @@ _8:00 AM - 9:30 AM (EST)_<br />
 _11:30 AM - 12:30 PM (EST)_<br />
 **Town Hall Meeting**<br />
 
-### Afternoon
+#### Afternoon
 
 _4:30 PM - 6:00 PM (EST)_<br />
 **VGTC Awards**<br />
@@ -93,17 +93,19 @@ _6:30 PM - 8:30 PM (EST)_<br />
 
 <hr />
 
+## Wednesday Schedule
+
+<a>**Wednesday, November 11, 2026**</a>
+
 <a id="cluster-practitioners-summit"></a>
 
-## Cluster: Practitioners’ Summit (Wednesday)
+### Cluster: Practitioners’ Summit (Wednesday)
 
 **[Cluster Event Website](https://cluster-practitioners-summit.github.io/)**<br />
 
 A dedicated gathering for people who build, ship, and defend visualizations for a living.
 
-<a>**Wednesday, November 11, 2026**</a>
-
-### Morning
+#### Morning
 
 _8:30 AM - 9:30 AM (EST)_<br/>
 **Welcome & Short Keynote**<br />
@@ -116,12 +118,12 @@ _10:00 AM - 11:30 AM (EST)_<br/>
 **Live PolicyViz Podcast Q & A**<br />
 **Practitioner Lightning Talks**<br />
 
-### Lunch
+#### Lunch
 
 _11:30 AM - 1:00 PM (EST)_<br/>
 **Catered Lunch** & Anonymous Vis Feedback<br />
 
-### Afternoon
+#### Afternoon
 
 _1:00 PM - 2:30 PM (EST)_<br/>
 **FAQ Freelancing Info Session**<br />
@@ -131,18 +133,14 @@ _1:00 PM - 2:30 PM (EST)_<br/>
 
 <a id="visions"></a>
 
-## VISions (Wednesday)
+### VISions (Wednesday)
 
 A venue for forward-thinking ideas to inspire the broad visualization community (including both researchers and practitioners).
-
-<a>**Wednesday, November 11, 2026**</a>
-
-### Afternoon
 
 _3:00 PM - 4:15 PM (EST)_<br/>
 **VISion Talks** with Q & A Discussion<br />
 
-### Evening
+#### Evening
 
 _6:00 PM - 10:00 PM (EST)_<br/>
 **Banquet** hosted at the [MIT Museum, Cambridge](https://mitmuseum.mit.edu/)<br />
@@ -156,7 +154,7 @@ _7:00 PM - 10:00 PM (EST)_<br/>
 
 <a>**Thursday, November 12, 2026**</a><br />
 
-### Morning
+#### Morning
 
 _11:30 AM - 12:30 PM (EST)_<br />
 **VIS 2027 Kickoff**<br />
@@ -167,7 +165,7 @@ _11:30 AM - 12:30 PM (EST)_<br />
 
 <a>**Friday, November 13, 2026**</a><br />
 
-### Morning
+#### Morning
 
 _10:00 AM - 11:30 AM (EST)_<br />
 **[Capstone by Nils Gehlenborg](/year/2026/info/invited-speakers/capstone-speaker/)**<br />
