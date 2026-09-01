@@ -1,11 +1,13 @@
 ---
 title: Visa Information
+description: "Visa guidance for IEEE VIS 2026 attendees traveling to Boston, Paris, or Tianjin, plus how to request an invitation letter."
 layout: /src/layouts/PageLayout.astro
 active_nav: "Attend"
 contact: "general_chair@ieeevis.org"
 ---
 
 ## Obtaining a Visa
+
 If you are planning to attend IEEE VIS 2026 and may need a visa, we encourage you to visit the pages below for information on visa procedures and applications. Please allow ample time for visa processing.
 
 - Boston, USA Attendees: [U.S. Visas website](https://travel.state.gov/content/travel/en/us-visas.html)
@@ -13,8 +15,6 @@ If you are planning to attend IEEE VIS 2026 and may need a visa, we encourage yo
 - Tianjin, China Attendees:
   - [China Online Visa Application (COVA)](https://consular.mfa.gov.cn/VISA/)
   - [Chinese Visa Application Service Center](https://www.visaforchina.cn/VIE3_EN/qianzhengyewu)
-
-
 
 ## Visa Letter Requests
 

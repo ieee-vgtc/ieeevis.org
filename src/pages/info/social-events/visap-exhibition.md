@@ -1,6 +1,8 @@
 ---
 layout: /src/layouts/PageLayout.astro
 title: "VIS Arts Program"
+description: "The VIS Arts Program (VISAP) exhibition at IEEE VIS, showcasing work at the intersection of art and data visualization."
+contact: art@ieeevis.org
 sidebar: social-events
 active_nav: "Program"
 ---

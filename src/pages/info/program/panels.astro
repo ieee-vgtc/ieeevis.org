@@ -15,7 +15,7 @@ const slugify = (value: string) =>
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "");
 
-const panels = load_tsv("./src/data/panels_list.tsv")
+const panels = load_tsv("./src/data/early_program/panels_list.tsv")
   .filter((row) => row["Panel title"])
   .map((row) => ({
     title: row["Panel title"],

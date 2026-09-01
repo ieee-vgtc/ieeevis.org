@@ -1,5 +1,6 @@
 ---
 title: Open Practices arXiv Guidance for First Time Users
+description: "A first-time user's guide to posting an IEEE VIS paper on arXiv, from registering as an author to creating your first submission."
 layout: /src/layouts/PageLayout.astro
 active_nav: "Contribute"
 contact: open_practices@ieeevis.org

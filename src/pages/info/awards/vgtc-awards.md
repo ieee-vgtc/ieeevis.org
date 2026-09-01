@@ -1,5 +1,6 @@
 ---
 title: VGTC VIS Awards
+description: "Awards given by the IEEE VGTC to honor achievements in visualization."
 layout: /src/layouts/PageLayout.astro
 active_nav: "Program"
 sidebar: awards-and-recognitions

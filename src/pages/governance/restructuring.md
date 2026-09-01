@@ -1,5 +1,7 @@
 ---
 title: Restructuring
+description: "Documents from the VIS Restructuring and reVISe committees, which reorganized VAST, InfoVis, and SciVis under a single umbrella conference."
+contact: vsc@ieeevis.org
 layout: /src/layouts/PageLayout.astro
 active_nav: "Organization & History"
 ---

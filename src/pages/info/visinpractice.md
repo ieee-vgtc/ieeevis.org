@@ -1,5 +1,6 @@
 ---
 title: VisInPractice
+description: "VisInPractice brings practitioners and researchers together to share experiences applying visualization and visual analytics to real-world problems."
 layout: /src/layouts/PageLayout.astro
 contact: vip@ieeevis.org
 active_nav: Events & Community

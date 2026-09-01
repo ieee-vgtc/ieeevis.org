@@ -1,6 +1,7 @@
 ---
 layout: /src/layouts/PageLayout.astro
 title: "Capstone by Nils Gehlenborg"
+description: "The IEEE VIS 2026 capstone talk will be given by Nils Gehlenborg, Associate Professor of Biomedical Informatics at Harvard Medical School."
 contact: info@ieeevis.org
 active_nav: "Program"
 ---

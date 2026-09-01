@@ -1,5 +1,6 @@
 ---
 title: IEEE Vis Townhall
+description: "Join the IEEE VIS 2026 Townhall Meeting to hear priorities from the VSC, VEC, and ReVISe chairs and share your feedback with them."
 layout: /src/layouts/PageLayout.astro
 contact: vec@ieeevis.org
 active_nav: Program

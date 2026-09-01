@@ -1,5 +1,6 @@
 ---
 title: Open Practices Supplemental Material FAQ
+description: "Recommendations for IEEE VIS authors on sharing supplemental materials such as code, data, and stimuli to make research transparent and reusable."
 layout: /src/layouts/PageLayout.astro
 active_nav: "Contribute"
 sidebar: call-for-participation

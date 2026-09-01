@@ -1,5 +1,6 @@
 ---
 title: Doctoral Colloquium - Call For Participation
+description: "Call for participation in the IEEE VIS 2026 Doctoral Colloquium, where Ph.D. students present their work and get feedback from senior researchers."
 layout: /src/layouts/PageLayout.astro
 active_nav: "Contribute"
 sidebar: call-for-participation
@@ -51,8 +52,8 @@ Student submissions will be reviewed by the DC Chairs and selections will be mad
 
 ## Doctoral Colloquium Chairs
 
-* Michael Behrisch, _Utrecht University_
-* Michael Correll, _Northeastern University_
-* Cindy Xiong-Bearfield, _Georgia Tech University_
+- Michael Behrisch, _Utrecht University_
+- Michael Correll, _Northeastern University_
+- Cindy Xiong-Bearfield, _Georgia Tech University_
 
 Contact VIS DC co-chairs: [doctoral_coll@ieeevis.org](mailto:doctoral_coll@ieeevis.org)

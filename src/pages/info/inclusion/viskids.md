@@ -1,5 +1,6 @@
 ---
 title: VIS 2026 Childcare Room
+description: "The VISKids room at IEEE VIS  offers daycare, play, and space for nursing, plus activities open to all families attending the conference."
 layout: /src/layouts/PageLayout.astro
 active_nav: "Attend"
 contact: viskids@ieeevis.org

@@ -1,5 +1,6 @@
 ---
 title: IEEE VIS Code of Conduct
+description: "The IEEE VIS Code of Conduct, setting expectations for an inclusive, harassment-free environment across all conference events and platforms."
 layout: /src/layouts/PageLayout.astro
 active_nav: "Contribute"
 contact: inclusivity@ieeevis.org

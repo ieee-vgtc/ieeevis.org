@@ -11,6 +11,9 @@ import sitemap from "@astrojs/sitemap";
 import rehypeExternalLinks from "rehype-external-links";
 // @ts-ignore
 import brokenLinksChecker from "astro-broken-links-checker";
+import checkRepoFileLinks from "./src/integrations/check-repo-file-links.js";
+
+import pkg from "./package.json" with { type: "json" };
 
 // https://astro.build/config
 export default defineConfig({
@@ -22,6 +25,12 @@ export default defineConfig({
     brokenLinksChecker({
       logFilePath: "broken-links.log",
       checkExternalLinks: false,
+      throwError: true,
+    }),
+    // brokenLinksChecker skips external links, so links back into this repo
+    // (e.g. the footer's "suggest a fix") are verified against the file tree.
+    checkRepoFileLinks({
+      repository: pkg.repository.url,
       throwError: true,
     }),
   ],

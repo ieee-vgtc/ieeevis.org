@@ -1,5 +1,6 @@
 ---
 title: Open Practices arXiv Guidance
+description: "Guidance for IEEE VIS authors on sharing a paper via arXiv, covering submission steps, licensing, and metadata considerations."
 layout: /src/layouts/PageLayout.astro
 active_nav: "Contribute"
 sidebar: call-for-participation

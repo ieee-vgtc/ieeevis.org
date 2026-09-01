@@ -82,6 +82,7 @@ menu:
                   - text: "Submission Template"
                     url: "https://tc.computer.org/vgtc/publications/journal/"
                     is_new: false
+                    is_external: true
                   - text: "Submission Keywords"
                     url: "/info/call-participation/paper-keywords"
                     is_new: false
@@ -366,7 +367,6 @@ menu:
           #           is_new: false
       - subsections:
           - heading: "Invited Speakers"
-            heading_url: "/info/invited-speakers/summary"
             columns:
               - links:
                   - text: "Keynote"
@@ -377,6 +377,10 @@ menu:
                     description: "Nils Gehlenborg"
                     url: "/info/invited-speakers/capstone-speaker"
                     is_new: false
+                  - text: "VISions"
+                    description: "Zhu-Tian Chen and Ana Crisan"
+                    url: "/info/invited-speakers/visions"
+                    is_new: true
           - heading: "Community"
             heading_url: "/info/community/community"
             description: "Explore social and topic-based community groups"
@@ -584,7 +588,7 @@ menu:
                     url: "https://vis.social/@ieeevis"
                     is_external: true
                   - text: "Bluesky"
-                    url: "https://bsky.app/profile/ieeevis.bsky.social"
+                    url: "https://bsky.app/profile/ieeevis.org"
                     is_external: true
                   - text: "LinkedIn"
                     url: "https://www.linkedin.com/company/ieeevis"

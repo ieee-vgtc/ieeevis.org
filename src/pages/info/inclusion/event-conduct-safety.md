@@ -1,5 +1,7 @@
 ---
 title: IEEE Event Conduct and Safety Statement
+description: "The IEEE Event Conduct and Safety Statement, describing expectations for respectful behavior and how to report concerns at IEEE events."
+contact: ombuds@ieeevis.org
 layout: /src/layouts/PageLayout.astro
 active_nav: Attend
 ---

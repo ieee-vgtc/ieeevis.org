@@ -1,5 +1,6 @@
 ---
 title: Week at a Glance
+description: "A preliminary week-at-a-glance overview of the IEEE VIS 2026 program, from the Doctoral Colloquium through the main conference sessions."
 layout: /src/layouts/PageLayout.astro
 contact: program@ieeevis.org
 sidebar: program

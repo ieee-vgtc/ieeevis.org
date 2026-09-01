@@ -1,5 +1,6 @@
 ---
 title: Tutorials - Call For Participation
+description: "Call for half-day tutorial proposals at IEEE VIS  on visualization systems, methods, mathematical foundations, and application areas."
 layout: /src/layouts/PageLayout.astro
 contact: panels_tutorials@ieeevis.org
 active_nav: "Contribute"

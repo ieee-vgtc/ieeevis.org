@@ -1,6 +1,8 @@
 ---
 layout: /src/layouts/PageLayout.astro
 title: "VIS 2026 Conference Dinner"
+description: "The IEEE VIS 2026 Conference Dinner, held right after the poster session. Location and schedule details to be announced."
+contact: social_events@ieeevis.org
 sidebar: social-events
 active_nav: "Program"
 ---
