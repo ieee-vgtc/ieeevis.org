@@ -81,7 +81,7 @@ _11:30 AM - 12:30 PM (EST)_<br />
 
 #### Afternoon
 
-_4:30 PM - 6:00 PM (EST)_<br />
+_5:00 PM - 6:30 PM (EST)_<br />
 **VGTC Awards**<br />
 **Test of Time Awards**<br />
 
