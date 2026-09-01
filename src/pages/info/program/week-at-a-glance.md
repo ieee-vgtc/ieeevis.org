@@ -12,8 +12,6 @@ Below is a concise overview of the conference program.
 
 ## Wednesday's Feature Events
 
-_Wednesday, November 11, 2026_
-
 > **[Cluster: Practitioners’ Summit](https://cluster-practitioners-summit.github.io/)** is a dedicated practitioners’ summit for people who build, ship, and defend visualizations for a living. View the [full summit schedule below](#cluster-practitioners-summit).
 
 > **[VISions: Forward-Thinking Provocations](/year/2026/info/call-participation/visions/)**. A single-track event for forward thinking ideas to inspire the broad visualization community. Stay tuned for [presenter and talk information below](#visions).
