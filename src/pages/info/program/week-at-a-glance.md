@@ -19,15 +19,6 @@ _Wednesday, November 11, 2026_
 
 <hr/>
 
-## Doctoral Colloquium
-
-<a>**Sunday, November 8, 2026**</a><br />
-
-**Doctoral Colloquium** (Invite-only event)<br />
-Details to follow on time and location.<br />
-
-<hr/>
-
 ## Coffee Breaks and Lunch (All Days)
 
 Coffee breaks are planned in the middle of the morning and afternoon sessions.
@@ -35,6 +26,15 @@ Coffee breaks are planned in the middle of the morning and afternoon sessions.
 - Morning coffee break: _9:30 AM - 10:00 AM (EST)_
 - Lunch break: _11:30 AM - 1:00 PM (EST)_
 - Afternoon coffee break: _2:30 PM - 3:00 PM (EST)_
+
+<hr/>
+
+## Doctoral Colloquium
+
+<a>**Sunday, November 8, 2026**</a><br />
+
+**Doctoral Colloquium** (Invite-only event)<br />
+Details to follow on time and location.<br />
 
 <hr/>
 
