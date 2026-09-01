@@ -107,24 +107,24 @@ A dedicated gathering for people who build, ship, and defend visualizations for 
 
 _8:00 AM - 9:30 AM (EST)_<br/>
 **Welcome & Short Keynote**<br />
-**Live PolicyViz Podcast** with Jon Schwabish<br />
+**[Live PolicyViz Podcast](https://cluster-practitioners-summit.github.io/#policyviz)** with Jon Schwabish<br />
 
 _9:30 AM - 10:00 AM (EST)_<br/>
-**Coffee Break** & Anonymous Vis Feedback <br />
+**Coffee Break** & [Anonymous Vis Feedback](https://cluster-practitioners-summit.github.io/#visexploration)<br />
 
 _10:00 AM - 11:30 AM (EST)_<br/>
 **Live PolicyViz Podcast Q & A**<br />
-**Practitioner Lightning Talks**<br />
+**[Practitioner Lightning Talks](https://cluster-practitioners-summit.github.io/#lightningtalks)**<br />
 
 #### Lunch
 
 _11:30 AM - 1:00 PM (EST)_<br/>
-**Catered Lunch** & Anonymous Vis Feedback<br />
+**Catered Lunch** & [Anonymous Vis Feedback](https://cluster-practitioners-summit.github.io/#visexploration)<br />
 
 #### Afternoon
 
 _1:00 PM - 2:30 PM (EST)_<br/>
-**FAQ Freelancing Info Session**<br />
+**[FAQ Freelancing Info Session](https://cluster-practitioners-summit.github.io/#freelancefaq)**<br />
 **Closing Notes**<br />
 
 <hr />
