@@ -105,7 +105,7 @@ A dedicated gathering for people who build, ship, and defend visualizations for 
 
 #### Morning
 
-_8:30 AM - 9:30 AM (EST)_<br/>
+_8:00 AM - 9:30 AM (EST)_<br/>
 **Welcome & Short Keynote**<br />
 **Live PolicyViz Podcast** with Jon Schwabish<br />
 
