@@ -5,14 +5,18 @@
  * It reads from either of two sources, which deliver the same shaped thread
  * (`bluesky/types.ts`):
  *
- *   - `atUri` reads the thread straight from the public Bluesky AppView. This
- *     is what pages use once the real post URIs are known and baked in.
  *   - `paperId` reads it from the conference discussion service, which
  *     addresses threads by the paper's stable id, reaches readers behind
  *     networks that cannot see Bluesky, and is the only source that accepts
  *     guest writes.
+ *   - `atUri` reads the thread straight from the public Bluesky AppView. This
+ *     is what pages use once the real post URIs are known and baked in.
  *
- * Given both, the AppView is tried first and the service is the fallback.
+ * Given both, the service is tried first and the AppView is the fallback: the
+ * service holds the full moderation state — its own denylist as well as what
+ * the AppView reports — and it is the only side that takes writes. The AppView
+ * still answers when the service cannot.
+ *
  * Commenting and liking appear only when the thread came from the service and
  * the reader's site session yields a token; everything else is read-only.
  *
@@ -390,28 +394,28 @@ export default function BlueskyDiscussion({
 
   const load = useCallback(
     async (signal: AbortSignal, fresh: boolean): Promise<LoadedThread> => {
-      if (atUri) {
+      if (paperId) {
         try {
-          const thread = await fetchAppViewThread(atUri, { signal });
-          // Unreachable from here (blocked network) or not there at all: with a
-          // paper id the service can still answer, so let it try.
-          if (thread.state !== "unavailable" || !paperId) {
-            return { source: "direct", thread };
+          const thread = await client.fetchThread(paperId, { signal, fresh });
+          // Down, or holding no thread for this paper: with a post URI the
+          // AppView can still show it, so let it try.
+          if (thread.state !== "unavailable" || !atUri) {
+            return { source: "service", thread };
           }
         } catch (err) {
-          if ((err as Error).name === "AbortError" || !paperId) {
+          if ((err as Error).name === "AbortError" || !atUri) {
             throw err;
           }
         }
       }
 
-      if (!paperId) {
+      if (!atUri) {
         throw new Error("No Bluesky post URI or paper id was given.");
       }
 
       return {
-        source: "service",
-        thread: await client.fetchThread(paperId, { signal, fresh }),
+        source: "direct",
+        thread: await fetchAppViewThread(atUri, { signal }),
       };
     },
     [atUri, client, paperId],
