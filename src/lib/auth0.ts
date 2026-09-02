@@ -39,8 +39,7 @@ export type AuthenticatedUser = {
  *   };
  *
  * Without that Action this claim is simply absent and the `bluesky` token
- * claim is omitted — the guest composer stays visible, which is the safe
- * default.
+ * claim is omitted.
  */
 const BSKY_HANDLE_CLAIM = "https://ieeevis.org/bsky_handle";
 

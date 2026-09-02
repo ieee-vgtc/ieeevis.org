@@ -5,7 +5,7 @@
  * it, and replying happens on Bluesky.
  *
  * Pages that need the conference discussion service — threads addressed by
- * paper id, comments from attendees without a Bluesky account — use
+ * paper id, comments from signed-in attendees — use
  * `BlueskyDiscussion`. Both render the same cards.
  */
 

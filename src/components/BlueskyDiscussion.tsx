@@ -383,10 +383,6 @@ export default function BlueskyDiscussion({
   const attribution = anonymous
     ? identity?.pseudonym
     : identity?.name || identity?.pseudonym;
-  // A reader who has linked a Bluesky account can post and like there directly,
-  // so we hide the guest composer for them and point them at the thread instead.
-  const blueskyHandle = identity?.bluesky?.trim() || null;
-  const hasBlueskyAccount = Boolean(blueskyHandle);
 
   const load = useCallback(
     async (signal: AbortSignal, fresh: boolean): Promise<LoadedThread> => {
@@ -757,7 +753,7 @@ export default function BlueskyDiscussion({
   // The like control is the same on the root and every reply; the discussion
   // owns the state so they all read and update one shared source.
   const likeContext: PostLikeContext = {
-    canLike: interactive && !hasBlueskyAccount,
+    canLike: interactive,
     likedUris,
     deltas: activeDeltas,
     onToggle: toggleLike,
@@ -794,11 +790,7 @@ export default function BlueskyDiscussion({
               style={calloutFooterStyle}
               target="_blank"
             >
-              <span>
-                {hasBlueskyAccount
-                  ? `🦋 You're on Bluesky as @${blueskyHandle} — post and like directly there`
-                  : "🦋 View or join this discussion on Bluesky"}
-              </span>
+              <span>🦋 View or join this discussion on Bluesky</span>
               <span aria-hidden="true" style={{ fontSize: "1.1rem" }}>
                 →
               </span>
@@ -807,7 +799,7 @@ export default function BlueskyDiscussion({
         </div>
       )}
 
-      {interactive && !hasBlueskyAccount && (
+      {interactive && (
         <form onSubmit={submitComment} style={{ margin: "1rem 0" }}>
           <label
             htmlFor={`bsky-comment-${paperId}`}
