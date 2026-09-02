@@ -25,7 +25,8 @@ export interface MyLikesResponse {
  * name from their conference login and is null when the service has none;
  * `pseudonym` is their stable stand-in and is always present. `bluesky` is the
  * reader's own Bluesky handle when they have linked an account, and null
- * otherwise.
+ * otherwise — its presence invites them to reply natively on Bluesky and gates
+ * nothing.
  */
 export interface MeResponse {
   name: string | null;

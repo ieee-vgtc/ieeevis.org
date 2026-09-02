@@ -383,6 +383,10 @@ export default function BlueskyDiscussion({
   const attribution = anonymous
     ? identity?.pseudonym
     : identity?.name || identity?.pseudonym;
+  // A reader who has linked a Bluesky account is invited to reply there under
+  // their own name; the composer and the like button stay open to them either way.
+  const blueskyHandle = identity?.bluesky?.trim() || null;
+  const hasBlueskyAccount = Boolean(blueskyHandle);
 
   const load = useCallback(
     async (signal: AbortSignal, fresh: boolean): Promise<LoadedThread> => {
@@ -790,7 +794,20 @@ export default function BlueskyDiscussion({
               style={calloutFooterStyle}
               target="_blank"
             >
-              <span>🦋 View or join this discussion on Bluesky</span>
+              {hasBlueskyAccount ? (
+                <span style={calloutNudgeStyle}>
+                  <span>
+                    🦋 You're on Bluesky as @{blueskyHandle} — reply there if you
+                    like
+                  </span>
+                  <span style={calloutNudgeReasonStyle}>
+                    Your reply then appears under your own account instead of the
+                    shared bridge account.
+                  </span>
+                </span>
+              ) : (
+                <span>🦋 View or join this discussion on Bluesky</span>
+              )}
               <span aria-hidden="true" style={{ fontSize: "1.1rem" }}>
                 →
               </span>
@@ -1060,4 +1077,17 @@ const calloutFooterStyle: CSSProperties = {
   fontWeight: 600,
   fontSize: "0.9rem",
   textDecoration: "none",
+};
+
+/** The linked-account invitation, stacked over its quieter reason line. */
+const calloutNudgeStyle: CSSProperties = {
+  display: "flex",
+  flexDirection: "column",
+  gap: "0.15rem",
+};
+
+const calloutNudgeReasonStyle: CSSProperties = {
+  fontWeight: 400,
+  fontSize: "0.82rem",
+  color: "#1e40af",
 };
