@@ -6,9 +6,14 @@
  * only fills in defaults, since it shapes the thread already. Both are
  * defensive: a field that is missing or the wrong type must degrade to an empty
  * rendering, never throw, because a live poll would then keep failing.
+ *
+ * The AppView side also moderates, because nothing upstream of it does: see
+ * `moderation.ts`.
  */
 
 import { postUrl } from "./format";
+import type { Label, ThreadgateView } from "./moderation";
+import { shouldHide, threadgateHiddenReplies } from "./moderation";
 import type {
   EmbedImage,
   PostEmbed,
@@ -25,6 +30,8 @@ interface AppViewAuthor {
   handle?: string;
   displayName?: string;
   avatar?: string;
+  /** Labels on the account itself — a labelled author hides all their replies. */
+  labels?: Label[];
 }
 
 interface AppViewEmbed {
@@ -53,6 +60,9 @@ interface AppViewPost {
   embed?: AppViewEmbed;
   likeCount?: number;
   repostCount?: number;
+  labels?: Label[];
+  /** Only the root post carries one; it lists the replies the OP hid. */
+  threadgate?: ThreadgateView;
 }
 
 /** A node of the thread tree. Blocked and deleted posts arrive without `post`. */
@@ -116,7 +126,10 @@ function normalizeEmbed(embed?: AppViewEmbed): PostEmbed | null {
   return null;
 }
 
-function normalizeNode(node: AppViewThread): ShapedPost | null {
+function normalizeNode(
+  node: AppViewThread,
+  hiddenUris: ReadonlySet<string>,
+): ShapedPost | null {
   const post = node?.post;
   if (!post?.uri) {
     return null;
@@ -137,26 +150,48 @@ function normalizeNode(node: AppViewThread): ShapedPost | null {
     createdAt: post.record?.createdAt || post.indexedAt || null,
     embedImages: normalizeImages(post.embed),
     embed: normalizeEmbed(post.embed),
-    replies: normalizeNodes(node.replies),
+    replies: normalizeNodes(node.replies, hiddenUris),
   };
 }
 
-function normalizeNodes(nodes?: AppViewThread[]): ShapedPost[] {
+/**
+ * Replies, minus the ones moderation drops. The filter runs BEFORE the
+ * recursion, so a hidden reply takes its whole subtree with it — the same
+ * pruning the service does, and the reason a hidden node is never normalized.
+ */
+function normalizeNodes(
+  nodes: AppViewThread[] | undefined,
+  hiddenUris: ReadonlySet<string>,
+): ShapedPost[] {
   if (!Array.isArray(nodes)) {
     return [];
   }
   return nodes
-    .map(normalizeNode)
+    .filter((node) => !shouldHide(node, hiddenUris))
+    .map((node) => normalizeNode(node, hiddenUris))
     .filter((post): post is ShapedPost => post !== null);
 }
 
 /**
  * The AppView knows nothing about guests, so the merged like counts collapse to
  * the post's own: `totalLikeCount` is what the reader sees either way.
+ *
+ * `extraHiddenUris` is for replies we know to hide from somewhere other than the
+ * thread itself — a build-time snapshot of the service's denylist. It joins the
+ * root threadgate's own hidden replies; both prune subtrees the same way. The
+ * root is normalized whatever its labels say: it is our announcement, and a
+ * filtered root would blank the whole discussion.
  */
-export function normalizeAppViewThread(payload: unknown): ThreadResponse {
+export function normalizeAppViewThread(
+  payload: unknown,
+  extraHiddenUris: ReadonlySet<string> = new Set<string>(),
+): ThreadResponse {
   const thread = (payload as { thread?: AppViewThread } | null)?.thread;
-  const root = thread ? normalizeNode(thread) : null;
+  const hiddenUris = new Set<string>([
+    ...threadgateHiddenReplies(thread),
+    ...extraHiddenUris,
+  ]);
+  const root = thread ? normalizeNode(thread, hiddenUris) : null;
 
   if (!root) {
     return { state: "unavailable" };

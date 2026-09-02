@@ -5,8 +5,13 @@
  *
  * Media stays on cdn.bsky.app — a reader who can reach the AppView can reach
  * the CDN.
+ *
+ * The AppView moderates nothing on our behalf, so this path asks for the T&S
+ * labeler's labels and `normalize.ts` drops what they mark — see
+ * `moderation.ts`.
  */
 
+import { MODERATION_LABELER_DID } from "./moderation";
 import { normalizeAppViewThread } from "./normalize";
 import type { ThreadResponse } from "./types";
 
@@ -16,14 +21,25 @@ const FETCH_DEPTH = 10;
 
 export async function fetchAppViewThread(
   atUri: string,
-  options: { signal?: AbortSignal; base?: string } = {},
+  options: {
+    signal?: AbortSignal;
+    base?: string;
+    /** Replies to drop on top of the ones the thread itself marks hidden. */
+    hiddenUris?: ReadonlySet<string>;
+  } = {},
 ): Promise<ThreadResponse> {
   const base = options.base || APPVIEW_BASE;
   const response = await fetch(
     `${base}/xrpc/app.bsky.feed.getPostThread?uri=${encodeURIComponent(atUri)}&depth=${FETCH_DEPTH}`,
     {
       signal: options.signal,
-      headers: { accept: "application/json" },
+      headers: {
+        accept: "application/json",
+        // Opt in to the default T&S labeler so its labels reach the post views
+        // we read; without this header the AppView attaches only self-labels.
+        // It answers CORS for this header, so the browser may send it.
+        "atproto-accept-labelers": MODERATION_LABELER_DID,
+      },
       // A poll or reload must never be served a stale browser-cached copy; the
       // server cache still absorbs the load.
       cache: "no-store",
@@ -39,5 +55,5 @@ export async function fetchAppViewThread(
     throw new Error(`Bluesky returned ${response.status}.`);
   }
 
-  return normalizeAppViewThread(await response.json());
+  return normalizeAppViewThread(await response.json(), options.hiddenUris);
 }
