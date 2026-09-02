@@ -5,10 +5,6 @@
  *
  * Media stays on cdn.bsky.app — a reader who can reach the AppView can reach
  * the CDN.
- *
- * The AppView moderates nothing on our behalf, so this path asks for the T&S
- * labeler's labels and `normalize.ts` drops what they mark — see
- * `moderation.ts`.
  */
 
 import { MODERATION_LABELER_DID } from "./moderation";
@@ -24,7 +20,7 @@ export async function fetchAppViewThread(
   options: {
     signal?: AbortSignal;
     base?: string;
-    /** Replies to drop on top of the ones the thread itself marks hidden. */
+    /** Dropped on top of what the thread's own threadgate hides. */
     hiddenUris?: ReadonlySet<string>;
   } = {},
 ): Promise<ThreadResponse> {
@@ -35,9 +31,8 @@ export async function fetchAppViewThread(
       signal: options.signal,
       headers: {
         accept: "application/json",
-        // Opt in to the default T&S labeler so its labels reach the post views
-        // we read; without this header the AppView attaches only self-labels.
-        // It answers CORS for this header, so the browser may send it.
+        // Without this the AppView applies self-labels only; it allows the
+        // header from the browser via CORS.
         "atproto-accept-labelers": MODERATION_LABELER_DID,
       },
       // A poll or reload must never be served a stale browser-cached copy; the

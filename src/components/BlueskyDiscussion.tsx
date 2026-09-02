@@ -12,10 +12,8 @@
  *   - `atUri` reads the thread straight from the public Bluesky AppView. This
  *     is what pages use once the real post URIs are known and baked in.
  *
- * Given both, the service is tried first and the AppView is the fallback: the
- * service holds the full moderation state — its own denylist as well as what
- * the AppView reports — and it is the only side that takes writes. The AppView
- * still answers when the service cannot.
+ * Given both, the service is tried first and the AppView is the fallback: only
+ * the service has the full moderation state, and only it takes writes.
  *
  * Commenting and liking appear only when the thread came from the service and
  * the reader's site session yields a token; everything else is read-only.

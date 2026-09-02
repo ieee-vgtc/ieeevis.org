@@ -6,9 +6,6 @@
  * only fills in defaults, since it shapes the thread already. Both are
  * defensive: a field that is missing or the wrong type must degrade to an empty
  * rendering, never throw, because a live poll would then keep failing.
- *
- * The AppView side also moderates, because nothing upstream of it does: see
- * `moderation.ts`.
  */
 
 import { postUrl } from "./format";
@@ -30,7 +27,6 @@ interface AppViewAuthor {
   handle?: string;
   displayName?: string;
   avatar?: string;
-  /** Labels on the account itself — a labelled author hides all their replies. */
   labels?: Label[];
 }
 
@@ -61,7 +57,6 @@ interface AppViewPost {
   likeCount?: number;
   repostCount?: number;
   labels?: Label[];
-  /** Only the root post carries one; it lists the replies the OP hid. */
   threadgate?: ThreadgateView;
 }
 
@@ -154,11 +149,7 @@ function normalizeNode(
   };
 }
 
-/**
- * Replies, minus the ones moderation drops. The filter runs BEFORE the
- * recursion, so a hidden reply takes its whole subtree with it — the same
- * pruning the service does, and the reason a hidden node is never normalized.
- */
+/** Filtering before the recursion is what takes a hidden reply's subtree with it. */
 function normalizeNodes(
   nodes: AppViewThread[] | undefined,
   hiddenUris: ReadonlySet<string>,
@@ -176,11 +167,9 @@ function normalizeNodes(
  * The AppView knows nothing about guests, so the merged like counts collapse to
  * the post's own: `totalLikeCount` is what the reader sees either way.
  *
- * `extraHiddenUris` is for replies we know to hide from somewhere other than the
- * thread itself — a build-time snapshot of the service's denylist. It joins the
- * root threadgate's own hidden replies; both prune subtrees the same way. The
- * root is normalized whatever its labels say: it is our announcement, and a
- * filtered root would blank the whole discussion.
+ * `extraHiddenUris` joins the root threadgate's own hidden replies; it is for a
+ * build-time snapshot of the service's denylist. The root itself is never
+ * filtered — it is our announcement, and dropping it would blank the discussion.
  */
 export function normalizeAppViewThread(
   payload: unknown,
