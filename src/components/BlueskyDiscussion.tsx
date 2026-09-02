@@ -75,6 +75,8 @@ interface BlueskyDiscussionProps {
 interface LoadedThread {
   source: ThreadSource;
   thread: ThreadResponse;
+  /** Bypassed the service's shared cache, which may still disagree. */
+  bypassedCache: boolean;
 }
 
 interface GuestToken {
@@ -411,7 +413,7 @@ export default function BlueskyDiscussion({
           // Down, or holding no thread for this paper: with a post URI the
           // AppView can still show it, so let it try.
           if (thread.state !== "unavailable" || !atUri) {
-            return { source: "service", thread };
+            return { source: "service", thread, bypassedCache: fresh };
           }
         } catch (err) {
           if ((err as Error).name === "AbortError" || !atUri) {
@@ -427,6 +429,7 @@ export default function BlueskyDiscussion({
       return {
         source: "direct",
         thread: await fetchAppViewThread(atUri, { signal }),
+        bypassedCache: false,
       };
     },
     [atUri, client, paperId],
@@ -498,13 +501,20 @@ export default function BlueskyDiscussion({
       return;
     }
 
+    // Only a response the shared cache could also have served may retire
+    // optimistic state. A cache-bypassing read runs ahead of that cache, so
+    // retiring on one lets the next ordinary poll undo what the reader just did.
+    const cacheHasCaughtUp = !data.bypassedCache;
+
     // Drop optimistic replies only once they appear in the real thread — a
     // cached response may not include them yet, and clearing on every poll
     // would make a just-posted comment flicker out and back.
     const known = collectUris(data.thread.post?.replies || []);
-    setPendingReplies((current) =>
-      current.filter((reply) => !reply.uri || !known.has(reply.uri)),
-    );
+    if (cacheHasCaughtUp) {
+      setPendingReplies((current) =>
+        current.filter((reply) => !reply.uri || !known.has(reply.uri)),
+      );
+    }
 
     // Record the server's own counts, both so a new toggle can capture its
     // baseline and so pending deltas can be reconciled against them.
@@ -517,7 +527,7 @@ export default function BlueskyDiscussion({
     // past the baseline it was toggled against — a cached poll returning the
     // pre-like count leaves the delta in place, so the count never drops back.
     setLikeDeltas((current) => {
-      if (!current.size) {
+      if (!current.size || !cacheHasCaughtUp) {
         return current;
       }
       let changed = false;
@@ -753,9 +763,12 @@ export default function BlueskyDiscussion({
     likeBaselinesRef.current,
     serverCounts,
   );
+  // A pending reply is held until the cache agrees, so hide the copy whenever
+  // the thread on screen already carries it.
+  const shownUris = collectUris(root?.replies || []);
   const replies = orderReplies(
     root?.replies || [],
-    pendingReplies,
+    pendingReplies.filter((reply) => !reply.uri || !shownUris.has(reply.uri)),
     sort,
     activeDeltas,
   );
