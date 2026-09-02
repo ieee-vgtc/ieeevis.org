@@ -406,14 +406,17 @@ export default function BlueskyDiscussion({
   const hasBlueskyAccount = Boolean(blueskyHandle);
 
   const load = useCallback(
-    async (signal: AbortSignal, fresh: boolean): Promise<LoadedThread> => {
+    async (signal: AbortSignal, uncached: boolean): Promise<LoadedThread> => {
       if (paperId) {
         try {
-          const thread = await client.fetchThread(paperId, { signal, fresh });
+          const thread = await client.fetchThread(paperId, {
+            signal,
+            fresh: uncached,
+          });
           // Down, or holding no thread for this paper: with a post URI the
           // AppView can still show it, so let it try.
           if (thread.state !== "unavailable" || !atUri) {
-            return { source: "service", thread, bypassedCache: fresh };
+            return { source: "service", thread, bypassedCache: uncached };
           }
         } catch (err) {
           if ((err as Error).name === "AbortError" || !atUri) {
@@ -460,7 +463,7 @@ export default function BlueskyDiscussion({
     markInteraction();
     setRefreshing(true);
     try {
-      await refresh(true);
+      await refresh({ force: true });
     } finally {
       setRefreshing(false);
     }
@@ -626,7 +629,7 @@ export default function BlueskyDiscussion({
         ]);
         setDraft("");
 
-        await refresh(true);
+        await refresh({ force: true, uncached: true });
       } catch (err) {
         setActionError(
           (err as Error).message || "Your comment could not be posted.",
@@ -708,7 +711,7 @@ export default function BlueskyDiscussion({
           throw new Error(`The service returned ${response.status}.`);
         }
 
-        await refresh(true);
+        await refresh({ force: true, uncached: true });
       } catch (err) {
         rollBack();
         setActionError(
