@@ -1,5 +1,6 @@
 import type { MiddlewareHandler } from "astro";
 import { isPathInactive, stripBaseURL } from "./config/pages-allow-list";
+import { readSession } from "./lib/auth0";
 
 //https://docs.astro.build/en/guides/middleware/
 export const onRequest: MiddlewareHandler = async (context, next) => {
@@ -10,7 +11,30 @@ export const onRequest: MiddlewareHandler = async (context, next) => {
     return context.redirect(import.meta.env.BASE_URL, 302);
   }
 
-  const response = await next();
+  // No route is fully login-walled: individual pages (e.g. paper/poster
+  // detail pages) decide for themselves which pieces of content — a PDF
+  // link, a video embed — require a signed-in session, and gate just those.
+  // We still resolve the session here, once per request, so every page can
+  // read `Astro.locals.user` without re-parsing the cookie itself.
+  context.locals.user = await readSession(context.cookies, context.url);
+
+  const nextResponse = await next();
+  // Fully drain the body into a string instead of passing the stream
+  // through. Astro renders pages as a stream by default, and a render-time
+  // error part way through one (e.g. a missing data file) doesn't change
+  // the status code - the headers are already committed at 200 by the
+  // time the error happens, so the connection just ends with whatever was
+  // already flushed, silently, with no error visible anywhere. Draining
+  // with .text() surfaces that same error as a normal rejected promise
+  // instead. This also sidesteps Response.redirect()'s immutable headers
+  // (used by /auth/login, /auth/callback, /auth/logout), since we're
+  // building a fresh Response either way.
+  const body = await nextResponse.text();
+  const response = new Response(body, {
+    status: nextResponse.status,
+    statusText: nextResponse.statusText,
+    headers: new Headers(nextResponse.headers),
+  });
 
   const isDev = import.meta.env.DEV;
 
@@ -24,6 +48,10 @@ export const onRequest: MiddlewareHandler = async (context, next) => {
       "object-src 'none'",
       "frame-ancestors 'none'",
       "form-action 'self'",
+
+      // VIDEO EMBEDS (paper video section) - commented out along with that
+      // section until it's re-enabled; re-add when it ships:
+      // "frame-src 'self' https://www.youtube.com https://iframe.mediadelivery.net",
 
       // IMAGES — bsky.tech.ieeevis.org serves proxied avatars/images for the
       // paper-page Bluesky discussions; cdn.bsky.app serves them for threads

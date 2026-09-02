@@ -27,4 +27,7 @@ pnpm-debug.log*
 
 .link-checker/
 
+# Local Netlify folder
+.netlify
+
 src/data/program/
