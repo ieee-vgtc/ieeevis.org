@@ -167,19 +167,12 @@ function normalizeNodes(
  * The AppView knows nothing about guests, so the merged like counts collapse to
  * the post's own: `totalLikeCount` is what the reader sees either way.
  *
- * `extraHiddenUris` joins the root threadgate's own hidden replies; it is for a
- * build-time snapshot of the service's denylist. The root itself is never
- * filtered — it is our announcement, and dropping it would blank the discussion.
+ * The root is never filtered — it is our announcement, and dropping it would
+ * blank the discussion.
  */
-export function normalizeAppViewThread(
-  payload: unknown,
-  extraHiddenUris: ReadonlySet<string> = new Set<string>(),
-): ThreadResponse {
+export function normalizeAppViewThread(payload: unknown): ThreadResponse {
   const thread = (payload as { thread?: AppViewThread } | null)?.thread;
-  const hiddenUris = new Set<string>([
-    ...threadgateHiddenReplies(thread),
-    ...extraHiddenUris,
-  ]);
+  const hiddenUris = new Set(threadgateHiddenReplies(thread));
   const root = thread ? normalizeNode(thread, hiddenUris) : null;
 
   if (!root) {

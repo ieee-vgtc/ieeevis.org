@@ -17,12 +17,7 @@ const FETCH_DEPTH = 10;
 
 export async function fetchAppViewThread(
   atUri: string,
-  options: {
-    signal?: AbortSignal;
-    base?: string;
-    /** Dropped on top of what the thread's own threadgate hides. */
-    hiddenUris?: ReadonlySet<string>;
-  } = {},
+  options: { signal?: AbortSignal; base?: string } = {},
 ): Promise<ThreadResponse> {
   const base = options.base || APPVIEW_BASE;
   const response = await fetch(
@@ -50,5 +45,5 @@ export async function fetchAppViewThread(
     throw new Error(`Bluesky returned ${response.status}.`);
   }
 
-  return normalizeAppViewThread(await response.json(), options.hiddenUris);
+  return normalizeAppViewThread(await response.json());
 }
