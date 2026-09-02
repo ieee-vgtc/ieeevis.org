@@ -23,9 +23,20 @@
 
 import { useCallback, useEffect, useRef, useState } from "react";
 
+/**
+ * `force` is the reader asking: it jumps the backoff wait and supersedes a poll
+ * in flight. `uncached` is a read-after-write: only it may skip the shared
+ * server cache, which otherwise runs the page ahead of what every other reader
+ * can see.
+ */
+interface RefreshOptions {
+  force?: boolean;
+  uncached?: boolean;
+}
+
 interface PolledThreadOptions<T> {
   /** Must be stable (`useCallback`); a new identity restarts the polling. */
-  load: (signal: AbortSignal, fresh: boolean) => Promise<T>;
+  load: (signal: AbortSignal, uncached: boolean) => Promise<T>;
   /** Base interval, in ms. 0 loads once and never refreshes. */
   refreshMs: number;
   pauseWhenHidden?: boolean;
@@ -44,8 +55,7 @@ interface PolledThread<T> {
   data: T | null;
   loading: boolean;
   error: string | null;
-  /** `fresh` skips the backoff wait and asks for an uncached answer. */
-  refresh: (fresh?: boolean) => Promise<void>;
+  refresh: (options?: RefreshOptions) => Promise<void>;
   /** ms timestamp of the last successful fetch, or null before the first. */
   lastUpdatedAt: number | null;
   /** Attach to the section element to gate polling on its visibility. */
@@ -74,7 +84,9 @@ export function usePolledThread<T>({
   const consecutiveFailuresRef = useRef(0);
   const nextRequestAtRef = useRef(0);
   const lastSignatureRef = useRef<string | null>(null);
-  const refreshRef = useRef<(fresh?: boolean) => Promise<void>>(async () => {});
+  const refreshRef = useRef<(options?: RefreshOptions) => Promise<void>>(
+    async () => {},
+  );
   const markInteractionRef = useRef<() => void>(() => {});
 
   // On-screen truth shared between the observer (which writes it) and the
@@ -151,19 +163,19 @@ export function usePolledThread<T>({
       scheduleNext();
     }
 
-    async function refresh(fresh = false) {
+    async function refresh({ force, uncached }: RefreshOptions = {}) {
       if (disposed) {
         return;
       }
-      // A fresh refresh supersedes a poll in flight, whose answer may be a
-      // cached copy predating what the reader asked to see.
+      // A reader's own refresh supersedes a poll in flight rather than being
+      // dropped, so the click always produces an answer.
       if (isFetching) {
-        if (!fresh) {
+        if (!force) {
           return;
         }
         controller?.abort();
       }
-      if (!fresh && Date.now() < nextRequestAtRef.current) {
+      if (!force && Date.now() < nextRequestAtRef.current) {
         return;
       }
 
@@ -176,7 +188,7 @@ export function usePolledThread<T>({
       controller = new AbortController();
 
       try {
-        const result = await load(controller.signal, fresh);
+        const result = await load(controller.signal, Boolean(uncached));
         if (disposed) {
           return;
         }
@@ -198,8 +210,8 @@ export function usePolledThread<T>({
         setError(null);
         setLastUpdatedAt(Date.now());
 
-        // A manual/fresh poll counts as activity, so it also resets the cadence.
-        if (firstLoad || changed || fresh) {
+        // A reader's own refresh counts as activity, so it resets the cadence.
+        if (firstLoad || changed || force) {
           inactiveLevel = 0;
         } else {
           inactiveLevel = Math.min(inactiveLevel + 1, MAX_INACTIVE_LEVEL);
@@ -294,7 +306,10 @@ export function usePolledThread<T>({
     signature,
   ]);
 
-  const refresh = useCallback((fresh = false) => refreshRef.current(fresh), []);
+  const refresh = useCallback(
+    (options?: RefreshOptions) => refreshRef.current(options),
+    [],
+  );
   const markInteraction = useCallback(() => markInteractionRef.current(), []);
 
   return {

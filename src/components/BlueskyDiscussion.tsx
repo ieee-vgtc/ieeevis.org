@@ -404,7 +404,7 @@ export default function BlueskyDiscussion({
   const hasBlueskyAccount = Boolean(blueskyHandle);
 
   const load = useCallback(
-    async (signal: AbortSignal, fresh: boolean): Promise<LoadedThread> => {
+    async (signal: AbortSignal, uncached: boolean): Promise<LoadedThread> => {
       if (atUri) {
         try {
           const thread = await fetchAppViewThread(atUri, { signal });
@@ -426,8 +426,8 @@ export default function BlueskyDiscussion({
 
       return {
         source: "service",
-        thread: await client.fetchThread(paperId, { signal, fresh }),
-        bypassedCache: fresh,
+        thread: await client.fetchThread(paperId, { signal, fresh: uncached }),
+        bypassedCache: uncached,
       };
     },
     [atUri, client, paperId],
@@ -458,7 +458,7 @@ export default function BlueskyDiscussion({
     markInteraction();
     setRefreshing(true);
     try {
-      await refresh(true);
+      await refresh({ force: true });
     } finally {
       setRefreshing(false);
     }
@@ -624,7 +624,7 @@ export default function BlueskyDiscussion({
         ]);
         setDraft("");
 
-        await refresh(true);
+        await refresh({ force: true, uncached: true });
       } catch (err) {
         setActionError(
           (err as Error).message || "Your comment could not be posted.",
@@ -706,7 +706,7 @@ export default function BlueskyDiscussion({
           throw new Error(`The service returned ${response.status}.`);
         }
 
-        await refresh(true);
+        await refresh({ force: true, uncached: true });
       } catch (err) {
         rollBack();
         setActionError(
