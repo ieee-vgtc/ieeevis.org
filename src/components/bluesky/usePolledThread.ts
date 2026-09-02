@@ -111,6 +111,8 @@ export function usePolledThread<T>({
     let controller: AbortController | null = null;
     let isFetching = false;
     let inactiveLevel = 0;
+    // A superseded fetch must not clear state owned by its replacement.
+    let requestId = 0;
 
     function isVisible() {
       return !pauseWhenHidden || document.visibilityState === "visible";
@@ -150,13 +152,22 @@ export function usePolledThread<T>({
     }
 
     async function refresh(fresh = false) {
-      if (disposed || isFetching) {
+      if (disposed) {
         return;
+      }
+      // A fresh refresh supersedes a poll in flight, whose answer may be a
+      // cached copy predating what the reader asked to see.
+      if (isFetching) {
+        if (!fresh) {
+          return;
+        }
+        controller?.abort();
       }
       if (!fresh && Date.now() < nextRequestAtRef.current) {
         return;
       }
 
+      const id = ++requestId;
       isFetching = true;
       const showLoading = !hasLoadedOnceRef.current;
       if (showLoading) {
@@ -212,11 +223,13 @@ export function usePolledThread<T>({
             : message,
         );
       } finally {
-        if (!disposed && showLoading) {
-          setLoading(false);
+        if (id === requestId) {
+          if (!disposed && showLoading) {
+            setLoading(false);
+          }
+          isFetching = false;
+          controller = null;
         }
-        isFetching = false;
-        controller = null;
       }
     }
 

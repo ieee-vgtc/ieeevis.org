@@ -126,6 +126,19 @@ function sortReplies(
   return [...replies].sort(sort === "top" ? byLikes : byRecency);
 }
 
+/** Pending (just-posted) replies sort in on recency; under "top" they have no
+ *  likes yet, so they are pinned at the end instead of being buried. */
+function orderReplies(
+  replies: ShapedPost[],
+  pending: ShapedPost[],
+  sort: ReplySort,
+  deltas: Map<string, number>,
+): ShapedPost[] {
+  return sort === "newest"
+    ? sortReplies([...replies, ...pending], sort, deltas)
+    : [...sortReplies(replies, sort, deltas), ...pending];
+}
+
 /** Every reply URI in a thread, at any depth. */
 function collectUris(
   replies: ShapedPost[],
@@ -738,12 +751,12 @@ export default function BlueskyDiscussion({
     likeBaselinesRef.current,
     serverCounts,
   );
-  // Pending (just-posted) replies stay pinned at the end regardless of sort so
-  // the author always sees their own comment.
-  const replies = [
-    ...sortReplies(root?.replies || [], sort, activeDeltas),
-    ...pendingReplies,
-  ];
+  const replies = orderReplies(
+    root?.replies || [],
+    pendingReplies,
+    sort,
+    activeDeltas,
+  );
   const remaining = COMMENT_LIMIT - graphemeLength(draft);
   // The two possible bylines the submit button can show — the real name and the
   // pseudonym — so it can reserve room for the wider and not resize (shoving the
