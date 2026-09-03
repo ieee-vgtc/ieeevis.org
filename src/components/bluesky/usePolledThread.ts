@@ -272,7 +272,14 @@ export function usePolledThread<T>({
       onScreenChangeRef.current = null;
       controller?.abort();
     };
-  }, [load, maxBackoffMs, maxInactiveMs, pauseWhenHidden, refreshMs, signature]);
+  }, [
+    load,
+    maxBackoffMs,
+    maxInactiveMs,
+    pauseWhenHidden,
+    refreshMs,
+    signature,
+  ]);
 
   const refresh = useCallback((fresh = false) => refreshRef.current(fresh), []);
   const markInteraction = useCallback(() => markInteractionRef.current(), []);

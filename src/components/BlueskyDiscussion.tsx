@@ -417,12 +417,19 @@ export default function BlueskyDiscussion({
     [atUri, client, paperId],
   );
 
-  const { data, loading, error, refresh, lastUpdatedAt, sectionRef, markInteraction } =
-    usePolledThread({
-      load,
-      refreshMs,
-      signature: threadSignature,
-    });
+  const {
+    data,
+    loading,
+    error,
+    refresh,
+    lastUpdatedAt,
+    sectionRef,
+    markInteraction,
+  } = usePolledThread({
+    load,
+    refreshMs,
+    signature: threadSignature,
+  });
 
   // A once-a-second tick so the "updated Xs ago" label counts up on its own.
   const [now, setNow] = useState(() => Date.now());
@@ -884,12 +891,18 @@ export default function BlueskyDiscussion({
                 >
                   {bylineLabel(pseudonymByline)}
                 </span>
-                {submitting && <span style={{ gridArea: "1 / 1" }}>Posting…</span>}
+                {submitting && (
+                  <span style={{ gridArea: "1 / 1" }}>Posting…</span>
+                )}
               </span>
             </button>
 
             <div
-              style={{ display: "flex", flexDirection: "column", gap: "0.15rem" }}
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                gap: "0.15rem",
+              }}
             >
               <label
                 style={{

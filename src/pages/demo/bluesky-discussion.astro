@@ -1,0 +1,71 @@
+---
+import PageLayout from "../../layouts/PageLayout.astro";
+import BlueskyDiscussion from "../../components/BlueskyDiscussion";
+import { buildLoginUrl } from "../../lib/auth0";
+
+const frontmatter = {
+  title: "Bluesky Discussion Demo",
+  active_nav: "Program",
+  contact: "web@ieeevis.org",
+};
+
+const isAuthenticated = Boolean(Astro.locals.user);
+const loginHref = buildLoginUrl(Astro.url);
+---
+
+<PageLayout frontmatter={frontmatter}>
+  <p>
+    This page demonstrates the paper-page discussion embed,
+    <code>src/components/BlueskyDiscussion.tsx</code>. Paper pages pass the
+    paper's id; the discussion service resolves it to the announcement post and
+    its reply thread.
+  </p>
+
+  <p class="demo-auth-note" role="note">
+    {
+      isAuthenticated ? (
+        <span>
+          You are signed in, so the service-backed example below accepts
+          comments and likes.
+        </span>
+      ) : (
+        <span>
+          Commenting and liking need an Auth0 sign-in — <code>/auth/token</code>{" "}
+          mints the token the discussion service checks. Without one the
+          service-backed example below is read-only.{" "}
+          <a href={loginHref}>Sign in</a> to try it.
+        </span>
+      )
+    }
+  </p>
+
+  <style>
+    .demo-auth-note {
+      padding: 0.75rem 1rem;
+      border: 1px dashed var(--color-gray-400, #ced4da);
+      border-radius: 6px;
+      background: var(--color-gray-100, #f8f9fa);
+      color: var(--color-gray-800, #495057);
+      font-size: 0.9rem;
+    }
+  </style>
+
+  <h2>By paper id (service)</h2>
+  <p>
+    Resolves <code>test-bsky-9999</code> through the discussion service. Shows
+    the "discussion opens…" state until the test announcement has been posted.
+  </p>
+  <BlueskyDiscussion paperId="test-bsky-9999" client:load />
+
+  <h2>By post URI (direct from Bluesky)</h2>
+  <p>
+    Reads a thread straight from the public Bluesky AppView — how paper pages
+    will work after the conference, once real post URIs are baked in. Guest
+    writes are bridged by the service, so this example stays read-only even when
+    you are signed in.
+  </p>
+  <BlueskyDiscussion
+    atUri="at://did:plc:zbr4ntavbfy6nzkupgdgn4sz/app.bsky.feed.post/3msw5eyez7l2k"
+    client:load
+  />
+</PageLayout>

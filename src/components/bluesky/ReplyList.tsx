@@ -51,7 +51,9 @@ export default function ReplyList({ replies, maxDepth, like }: ReplyListProps) {
   // that lands a node back on this spot within one animation's span is a
   // round-trip (a like then unlike, or a poll that reordered and reverted) rather
   // than travel, so it settles in place instead of sliding out and back.
-  const settledAt = useRef<Map<string, { point: Point; at: number }>>(new Map());
+  const settledAt = useRef<Map<string, { point: Point; at: number }>>(
+    new Map(),
+  );
 
   const setNode = (key: string) => (element: HTMLDivElement | null) => {
     if (element) {
