@@ -1,5 +1,9 @@
 [build]
-  command = "npm run getData && npm run build && rm -rf netlify-dist && mkdir -p netlify-dist/year/2026 && cp -a dist/. netlify-dist/year/2026/ && cp -a dist/404.html netlify-dist/404.html"
+  # `dist/404.html` only exists for statically-prerendered routes; with
+  # output: "server" (needed for the Auth0 callback) Astro no longer emits
+  # it, and unmatched routes are served by the SSR function instead, so the
+  # copy is best-effort rather than a hard requirement.
+  command = "npm run getData && npm run build && rm -rf netlify-dist && mkdir -p netlify-dist/year/2026 && cp -a dist/. netlify-dist/year/2026/ && (cp -a dist/404.html netlify-dist/404.html || true)"
   publish = "netlify-dist"
 
 [build.environment]

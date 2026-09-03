@@ -8,6 +8,11 @@ import type {
 import { getProgramEventTypeLabel } from "../../../utils/programEventTypeLabel";
 import { withBaseURL } from "../../../utils/withBaseURL";
 
+// The site runs output: "server" (needed for the Auth0 callback route), which
+// makes every page dynamic by default and silently ignores getStaticPaths()
+// below unless a page opts back into prerendering explicitly.
+export const prerender = true;
+
 type EventPageProps = {
   sessionId: string;
   event: ProgramSessionList[string];
