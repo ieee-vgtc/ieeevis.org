@@ -10,6 +10,8 @@ import { buildLoginUrl } from "../../../lib/auth0";
 import type { Paper } from "../../../types/paper";
 import type { ProgramTimeSlot } from "../../../types/program";
 
+export const prerender = false;
+
 const EVENT_PREFIX_LABELS: Record<string, string> = {
   "v-full": "VIS Full Papers",
   "v-short": "VIS Short Papers",
