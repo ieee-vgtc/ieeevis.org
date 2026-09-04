@@ -383,8 +383,8 @@ export default function BlueskyDiscussion({
   const attribution = anonymous
     ? identity?.pseudonym
     : identity?.name || identity?.pseudonym;
-  // A reader who has linked a Bluesky account can post and like there directly,
-  // so we hide the guest composer for them and point them at the thread instead.
+  // A reader who has linked a Bluesky account is invited to reply there under
+  // their own name; the composer and the like button stay open to them either way.
   const blueskyHandle = identity?.bluesky?.trim() || null;
   const hasBlueskyAccount = Boolean(blueskyHandle);
 
@@ -757,7 +757,7 @@ export default function BlueskyDiscussion({
   // The like control is the same on the root and every reply; the discussion
   // owns the state so they all read and update one shared source.
   const likeContext: PostLikeContext = {
-    canLike: interactive && !hasBlueskyAccount,
+    canLike: interactive,
     likedUris,
     deltas: activeDeltas,
     onToggle: toggleLike,
@@ -794,11 +794,20 @@ export default function BlueskyDiscussion({
               style={calloutFooterStyle}
               target="_blank"
             >
-              <span>
-                {hasBlueskyAccount
-                  ? `🦋 You're on Bluesky as @${blueskyHandle} — post and like directly there`
-                  : "🦋 View or join this discussion on Bluesky"}
-              </span>
+              {hasBlueskyAccount ? (
+                <span style={calloutNudgeStyle}>
+                  <span>
+                    🦋 You're on Bluesky as @{blueskyHandle} — reply there if you
+                    like
+                  </span>
+                  <span style={calloutNudgeReasonStyle}>
+                    Your reply then appears under your own account instead of the
+                    shared bridge account.
+                  </span>
+                </span>
+              ) : (
+                <span>🦋 View or join this discussion on Bluesky</span>
+              )}
               <span aria-hidden="true" style={{ fontSize: "1.1rem" }}>
                 →
               </span>
@@ -807,7 +816,7 @@ export default function BlueskyDiscussion({
         </div>
       )}
 
-      {interactive && !hasBlueskyAccount && (
+      {interactive && (
         <form onSubmit={submitComment} style={{ margin: "1rem 0" }}>
           <label
             htmlFor={`bsky-comment-${paperId}`}
@@ -1068,4 +1077,17 @@ const calloutFooterStyle: CSSProperties = {
   fontWeight: 600,
   fontSize: "0.9rem",
   textDecoration: "none",
+};
+
+/** The linked-account invitation, stacked over its quieter reason line. */
+const calloutNudgeStyle: CSSProperties = {
+  display: "flex",
+  flexDirection: "column",
+  gap: "0.15rem",
+};
+
+const calloutNudgeReasonStyle: CSSProperties = {
+  fontWeight: 400,
+  fontSize: "0.82rem",
+  color: "#1e40af",
 };
