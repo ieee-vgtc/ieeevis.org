@@ -9,7 +9,7 @@ contact: workshops@ieeevis.org
 
 _Are you looking for the list of workshops? If so, [go here](/year/2026/info/program/workshops/)._
 
-We solicit workshops related to all areas of visualization. They provide a forum for IEEE VIS for participants to advance cutting-edge research concerns, foster a community around emerging topics, engage experts in the field, disseminate work in progress, and promote new ideas. Workshops at IEEE VIS are free to attend by all registered attendees; “invitation only” workshops will not be approved.
+We solicit proposals for in-person workshops related to all areas of visualization. They provide a forum for IEEE VIS for participants to advance cutting-edge research concerns, foster a community around emerging topics, engage experts in the field, disseminate work in progress, and promote new ideas. Workshops at IEEE VIS are free to attend by all registered attendees; “invitation only” workshops will not be approved.
 
 ## Important Dates
 
@@ -133,6 +133,10 @@ Some examples of common publication strategies are:
 ### Attendance
 
 At least one author for each paper must register and attend the conference in person or virtually. If you have exceptional circumstances and none of the authors can attend please contact the conference committee as soon as possible at [info@ieeevis.org](mailto:info@ieeevis.org).
+
+## Organizing Expectations
+
+All workshops should first and foremost be organized as *in-person events* at the main conference venue. Hybrid organization is encouraged but is secondary to the in-person event organization. **At least two workshop organizers must be present at the in-person event.**
 
 ## Workshop Support
 
