@@ -9,6 +9,8 @@
  */
 
 import { postUrl } from "./format";
+import type { Label, ThreadgateView } from "./moderation";
+import { shouldHide, threadgateHiddenReplies } from "./moderation";
 import type {
   EmbedImage,
   PostEmbed,
@@ -25,6 +27,7 @@ interface AppViewAuthor {
   handle?: string;
   displayName?: string;
   avatar?: string;
+  labels?: Label[];
 }
 
 interface AppViewEmbed {
@@ -53,6 +56,8 @@ interface AppViewPost {
   embed?: AppViewEmbed;
   likeCount?: number;
   repostCount?: number;
+  labels?: Label[];
+  threadgate?: ThreadgateView;
 }
 
 /** A node of the thread tree. Blocked and deleted posts arrive without `post`. */
@@ -116,7 +121,10 @@ function normalizeEmbed(embed?: AppViewEmbed): PostEmbed | null {
   return null;
 }
 
-function normalizeNode(node: AppViewThread): ShapedPost | null {
+function normalizeNode(
+  node: AppViewThread,
+  hiddenUris: ReadonlySet<string>,
+): ShapedPost | null {
   const post = node?.post;
   if (!post?.uri) {
     return null;
@@ -137,26 +145,35 @@ function normalizeNode(node: AppViewThread): ShapedPost | null {
     createdAt: post.record?.createdAt || post.indexedAt || null,
     embedImages: normalizeImages(post.embed),
     embed: normalizeEmbed(post.embed),
-    replies: normalizeNodes(node.replies),
+    replies: normalizeNodes(node.replies, hiddenUris),
   };
 }
 
-function normalizeNodes(nodes?: AppViewThread[]): ShapedPost[] {
+/** Filtering before the recursion is what takes a hidden reply's subtree with it. */
+function normalizeNodes(
+  nodes: AppViewThread[] | undefined,
+  hiddenUris: ReadonlySet<string>,
+): ShapedPost[] {
   if (!Array.isArray(nodes)) {
     return [];
   }
   return nodes
-    .map(normalizeNode)
+    .filter((node) => !shouldHide(node, hiddenUris))
+    .map((node) => normalizeNode(node, hiddenUris))
     .filter((post): post is ShapedPost => post !== null);
 }
 
 /**
  * The AppView knows nothing about guests, so the merged like counts collapse to
  * the post's own: `totalLikeCount` is what the reader sees either way.
+ *
+ * The root is never filtered — it is our announcement, and dropping it would
+ * blank the discussion.
  */
 export function normalizeAppViewThread(payload: unknown): ThreadResponse {
   const thread = (payload as { thread?: AppViewThread } | null)?.thread;
-  const root = thread ? normalizeNode(thread) : null;
+  const hiddenUris = new Set(threadgateHiddenReplies(thread));
+  const root = thread ? normalizeNode(thread, hiddenUris) : null;
 
   if (!root) {
     return { state: "unavailable" };

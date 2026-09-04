@@ -7,6 +7,7 @@
  * the CDN.
  */
 
+import { MODERATION_LABELER_DID } from "./moderation";
 import { normalizeAppViewThread } from "./normalize";
 import type { ThreadResponse } from "./types";
 
@@ -23,7 +24,12 @@ export async function fetchAppViewThread(
     `${base}/xrpc/app.bsky.feed.getPostThread?uri=${encodeURIComponent(atUri)}&depth=${FETCH_DEPTH}`,
     {
       signal: options.signal,
-      headers: { accept: "application/json" },
+      headers: {
+        accept: "application/json",
+        // Without this the AppView applies self-labels only; it allows the
+        // header from the browser via CORS.
+        "atproto-accept-labelers": MODERATION_LABELER_DID,
+      },
       // A poll or reload must never be served a stale browser-cached copy; the
       // server cache still absorbs the load.
       cache: "no-store",
