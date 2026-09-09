@@ -5,14 +5,16 @@
  * It reads from either of two sources, which deliver the same shaped thread
  * (`bluesky/types.ts`):
  *
- *   - `atUri` reads the thread straight from the public Bluesky AppView. This
- *     is what pages use once the real post URIs are known and baked in.
  *   - `paperId` reads it from the conference discussion service, which
  *     addresses threads by the paper's stable id, reaches readers behind
  *     networks that cannot see Bluesky, and is the only source that accepts
  *     guest writes.
+ *   - `atUri` reads the thread straight from the public Bluesky AppView. This
+ *     is what pages use once the real post URIs are known and baked in.
  *
- * Given both, the AppView is tried first and the service is the fallback.
+ * Given both, the service is tried first and the AppView is the fallback: only
+ * the service has the full moderation state, and only it takes writes.
+ *
  * Commenting and liking appear only when the thread came from the service and
  * the reader's site session yields a token; everything else is read-only.
  *
@@ -383,35 +385,35 @@ export default function BlueskyDiscussion({
   const attribution = anonymous
     ? identity?.pseudonym
     : identity?.name || identity?.pseudonym;
-  // A reader who has linked a Bluesky account can post and like there directly,
-  // so we hide the guest composer for them and point them at the thread instead.
+  // A reader who has linked a Bluesky account is invited to reply there under
+  // their own name; the composer and the like button stay open to them either way.
   const blueskyHandle = identity?.bluesky?.trim() || null;
   const hasBlueskyAccount = Boolean(blueskyHandle);
 
   const load = useCallback(
     async (signal: AbortSignal, fresh: boolean): Promise<LoadedThread> => {
-      if (atUri) {
+      if (paperId) {
         try {
-          const thread = await fetchAppViewThread(atUri, { signal });
-          // Unreachable from here (blocked network) or not there at all: with a
-          // paper id the service can still answer, so let it try.
-          if (thread.state !== "unavailable" || !paperId) {
-            return { source: "direct", thread };
+          const thread = await client.fetchThread(paperId, { signal, fresh });
+          // Down, or holding no thread for this paper: with a post URI the
+          // AppView can still show it, so let it try.
+          if (thread.state !== "unavailable" || !atUri) {
+            return { source: "service", thread };
           }
         } catch (err) {
-          if ((err as Error).name === "AbortError" || !paperId) {
+          if ((err as Error).name === "AbortError" || !atUri) {
             throw err;
           }
         }
       }
 
-      if (!paperId) {
+      if (!atUri) {
         throw new Error("No Bluesky post URI or paper id was given.");
       }
 
       return {
-        source: "service",
-        thread: await client.fetchThread(paperId, { signal, fresh }),
+        source: "direct",
+        thread: await fetchAppViewThread(atUri, { signal }),
       };
     },
     [atUri, client, paperId],
@@ -757,7 +759,7 @@ export default function BlueskyDiscussion({
   // The like control is the same on the root and every reply; the discussion
   // owns the state so they all read and update one shared source.
   const likeContext: PostLikeContext = {
-    canLike: interactive && !hasBlueskyAccount,
+    canLike: interactive,
     likedUris,
     deltas: activeDeltas,
     onToggle: toggleLike,
@@ -794,11 +796,20 @@ export default function BlueskyDiscussion({
               style={calloutFooterStyle}
               target="_blank"
             >
-              <span>
-                {hasBlueskyAccount
-                  ? `🦋 You're on Bluesky as @${blueskyHandle} — post and like directly there`
-                  : "🦋 View or join this discussion on Bluesky"}
-              </span>
+              {hasBlueskyAccount ? (
+                <span style={calloutNudgeStyle}>
+                  <span>
+                    🦋 You're on Bluesky as @{blueskyHandle} — reply there if you
+                    like
+                  </span>
+                  <span style={calloutNudgeReasonStyle}>
+                    Your reply then appears under your own account instead of the
+                    shared bridge account.
+                  </span>
+                </span>
+              ) : (
+                <span>🦋 View or join this discussion on Bluesky</span>
+              )}
               <span aria-hidden="true" style={{ fontSize: "1.1rem" }}>
                 →
               </span>
@@ -807,7 +818,7 @@ export default function BlueskyDiscussion({
         </div>
       )}
 
-      {interactive && !hasBlueskyAccount && (
+      {interactive && (
         <form onSubmit={submitComment} style={{ margin: "1rem 0" }}>
           <label
             htmlFor={`bsky-comment-${paperId}`}
@@ -1068,4 +1079,17 @@ const calloutFooterStyle: CSSProperties = {
   fontWeight: 600,
   fontSize: "0.9rem",
   textDecoration: "none",
+};
+
+/** The linked-account invitation, stacked over its quieter reason line. */
+const calloutNudgeStyle: CSSProperties = {
+  display: "flex",
+  flexDirection: "column",
+  gap: "0.15rem",
+};
+
+const calloutNudgeReasonStyle: CSSProperties = {
+  fontWeight: 400,
+  fontSize: "0.82rem",
+  color: "#1e40af",
 };

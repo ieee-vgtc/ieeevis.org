@@ -76,9 +76,6 @@ _8:00 AM - 9:30 AM (EST)_<br />
 **VIS Opening**<br />
 **[Keynote by Kimberly K. Arcand](/year/2026/info/invited-speakers/keynote-speaker/)**<br />
 
-_11:30 AM - 12:30 PM (EST)_<br />
-**Town Hall Meeting**<br />
-
 #### Afternoon
 
 _5:00 PM - 6:30 PM (EST)_<br />
@@ -155,6 +152,11 @@ _7:00 PM - 10:00 PM (EST)_<br/>
 #### Morning
 
 _11:30 AM - 12:30 PM (EST)_<br />
+**Town Hall Meeting**<br />
+
+#### Afternoon
+
+_4:30 PM - 5:30 PM (EST)_<br />
 **VIS 2027 Kickoff**<br />
 
 <hr />

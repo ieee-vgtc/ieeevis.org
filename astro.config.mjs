@@ -22,7 +22,7 @@ export default defineConfig({
   // Auth0 callbacks need a request-time runtime, and paper/poster detail
   // pages check the signed-in session on each request to decide whether to
   // show gated content (PDF links, video embeds) or a login prompt.
-  output: "server",
+  output: "static",
   // The app has its own cookie-based session (src/lib/auth0.ts) and never
   // touches Astro.session; without this, @astrojs/netlify silently defaults
   // to a Netlify Blobs-backed session store on every build. Set explicitly

@@ -7,6 +7,8 @@ import { buildLoginUrl } from "../../../lib/auth0";
 const posters = await fetchAllPosters();
 const poster = posters.find((entry) => entry.id === Astro.params.posterId);
 
+export const prerender = false;
+
 if (!poster) {
   return new Response(null, { status: 404 });
 }

@@ -27,8 +27,8 @@ import type { ShapedPost } from "./types";
  *  - `likedUris` — the posts the reader has liked, updated optimistically.
  *  - `deltas` — transient count adjustments applied on top of the server total
  *    while an optimistic toggle is in flight; cleared when fresh data arrives.
- *  - `canLike` — whether this reader may toggle likes at all (a service thread,
- *    a valid token, and no linked Bluesky account of their own).
+ *  - `canLike` — whether this reader may toggle likes at all (a service thread
+ *    and a valid token).
  *  - `onToggle` — like/unlike the given post URI.
  */
 export interface PostLikeContext {

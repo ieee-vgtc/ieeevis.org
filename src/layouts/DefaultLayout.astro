@@ -26,6 +26,9 @@ const source_file = source_file_for_pathname(pathname);
       description={page_info.description || undefined}
       title={page_info.title || ""}
       url={Astro.url}
+      image={page_info.ogImage || undefined}
+      imageAlt={page_info.ogImageAlt || undefined}
+      type={page_info.ogType || undefined}
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
