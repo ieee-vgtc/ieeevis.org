@@ -21,7 +21,10 @@
  * A reader can remove their own comments. That deletes the post from Bluesky as
  * well as taking it off this page and cannot be undone, so the control confirms
  * before it acts — and says that the conference keeps its own record either way,
- * since removing is not a way to take back something harmful.
+ * since removing is not a way to take back something harmful. Only comments
+ * written through this page can be removed here: a reply the reader wrote from
+ * their own Bluesky account lives in their repository, not in the shared one, so
+ * it is marked as theirs but is theirs to delete on Bluesky.
  *
  * A comment carries the attendee's real name unless they tick "Hide my name",
  * which swaps it for their stable pseudonym. Such a post is unnamed rather than
@@ -405,7 +408,10 @@ export default function BlueskyDiscussion({
   }, [likedUris]);
   const [refreshing, setRefreshing] = useState(false);
 
-  const { hasToken, getToken } = useGuestToken(Boolean(paperId));
+  // Also minted for an AppView-only thread: it buys no writes there, but it is
+  // what tells us the reader's own Bluesky handle, and so which replies in a
+  // read-only thread are theirs.
+  const { hasToken, getToken } = useGuestToken(Boolean(paperId || atUri));
 
   // Callers pass an inline array literal, so depend on its contents rather than
   // its identity — otherwise every render would build a new client and restart
@@ -905,18 +911,32 @@ export default function BlueskyDiscussion({
     onToggle: toggleLike,
   };
 
-  // The remove control, on the reader's own comments only. Without the guest UI
-  // there is nothing to act with, so no context is passed at all.
-  const ownContext: PostOwnContext | undefined = interactive
-    ? {
-        ownUris: new Set(
-          myComments
-            .filter((comment) => !comment.removed)
-            .map((comment) => comment.postUri),
-        ),
-        onRemove: (postUri) => void removeOwnComment(postUri),
-      }
-    : undefined;
+  // Which posts are marked "(me)": the guest comments they wrote through this
+  // page, and — when they have linked an account — the replies they wrote on
+  // Bluesky themselves. Only the first kind can be removed from here; the second
+  // is theirs to delete on Bluesky, where the post's own timestamp links.
+  //
+  // Marking does not need the service. A thread read straight from the AppView
+  // carries no guest attribution at all (every post comes back `guest: false`
+  // with no pseudonym), but it does carry author handles, so the reader's own
+  // Bluesky replies are still theirs to recognise. Removing does need it, hence
+  // `canRemove`.
+  const ownUris = new Set(
+    myComments
+      .filter((comment) => !comment.removed)
+      .map((comment) => comment.postUri),
+  );
+  const ownContext: PostOwnContext | undefined =
+    identity || ownUris.size > 0
+      ? {
+          ownUris,
+          handle: blueskyHandle
+            ? blueskyHandle.replace(/^@/, "").toLowerCase()
+            : null,
+          canRemove: interactive,
+          onRemove: (postUri) => void removeOwnComment(postUri),
+        }
+      : undefined;
 
   return (
     <section
@@ -939,7 +959,13 @@ export default function BlueskyDiscussion({
 
       {root && (
         <div style={announcementCardStyle}>
-          <PostCard bare like={likeContext} post={root} variant="root" />
+          <PostCard
+            bare
+            like={likeContext}
+            own={ownContext}
+            post={root}
+            variant="root"
+          />
 
           {root.bskyUrl && (
             <a

@@ -6,6 +6,11 @@
  * pseudonym must not lead to that profile. The timestamp links to the post
  * itself whenever it has a real URI, which a just-submitted comment does not
  * yet have.
+ *
+ * The reader's own posts are marked with a "(me)" beside the name, whether they
+ * came through the guest bridge or from the reader's own linked Bluesky account.
+ * It earns its place on an anonymous comment above all: that byline reads the
+ * same `p-4821` on every anonymous post in the thread.
  */
 
 import { useState } from "react";
@@ -40,14 +45,25 @@ export interface PostLikeContext {
 }
 
 /**
- * The remove control the reader gets on their OWN comments, lifted to the
- * discussion so every post reads one shared list of what is theirs.
+ * Which posts are the reader's, lifted to the discussion so every post reads one
+ * shared answer.
  *
- *  - `ownUris` — the reader's own comments still in the thread.
- *  - `onRemove` — take the given comment down for good.
+ *  - `ownUris` — their own guest comments still in the thread. Only these can be
+ *    removed: they live in the shared discuss account, which this service writes
+ *    for. A post in the reader's own repository is theirs to delete on Bluesky.
+ *  - `canRemove` — whether removing works at all here. A thread read straight
+ *    from the AppView is read-only, so posts are still marked as the reader's
+ *    but nothing is offered on them.
+ *  - `handle` — their linked Bluesky handle, lowercased and without the "@", or
+ *    null. Matching on the handle rather than the DID is what the site knows:
+ *    a handle the reader has since given up could in principle be held by
+ *    someone else, and the only consequence is one wrongly outlined post.
+ *  - `onRemove` — take the given guest comment down for good.
  */
 export interface PostOwnContext {
   ownUris: Set<string>;
+  handle: string | null;
+  canRemove: boolean;
   onRemove: (postUri: string) => void;
 }
 
@@ -76,6 +92,14 @@ const likeChipStyle: CSSProperties = {
   borderRadius: "0.5rem",
   border: "1px solid #e5e7eb",
   fontSize: "0.82rem",
+};
+
+/** "(me)", beside the name on the reader's own posts, in the heading orange. */
+const ownMarkerStyle: CSSProperties = {
+  marginLeft: "0.35rem",
+  color: "var(--color-primary, #df6824)",
+  fontWeight: 600,
+  fontSize: "0.85rem",
 };
 
 /** The chip shape again, as a plain button: the remove controls wear it. */
@@ -184,7 +208,7 @@ function RemoveControl({
 }) {
   const [confirming, setConfirming] = useState(false);
 
-  if (!own?.ownUris.has(post.uri)) {
+  if (!own?.canRemove || !own.ownUris.has(post.uri)) {
     return null;
   }
 
@@ -243,6 +267,11 @@ export default function PostCard({
   bare = false,
 }: PostCardProps) {
   const isRoot = variant === "root";
+  const isOwn =
+    own !== undefined &&
+    (own.ownUris.has(post.uri) ||
+      (own.handle !== null &&
+        (post.author?.handle ?? "").toLowerCase() === own.handle));
   const { name, body } = displayPost(post);
   const profile = post.guest ? null : profileUrl(post.author);
   // Guest comments are real posts in the shared bridge repo, so their bsky.app
@@ -278,6 +307,7 @@ export default function PostCard({
           ) : (
             <span style={{ fontWeight: 600 }}>{name}</span>
           )}
+          {isOwn && <span style={ownMarkerStyle}>(me)</span>}
           <div style={{ fontSize: "0.85rem", color: "#6b7280" }}>
             {post.guest
               ? "VIS attendee"
