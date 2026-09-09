@@ -71,6 +71,9 @@ menu:
                     url: "https://docs.google.com/forms/d/e/1FAIpQLSfSrCO17K_nqLKonilL3zvPUI403C1DHd_QMiFMAxxdzBuXjw/viewform?usp=sharing&ouid=113443580098787443355"
                     is_external: true
                     is_new: true
+                  - text: "Meetups"
+                    url: "/info/call-participation/meetups"
+                    is_new: false
               - heading: "Info for Contributors"
                 links:
                   - text: "Area Model for VIS"
@@ -385,8 +388,7 @@ menu:
             heading_url: "/info/community/community"
             description: "Explore social and topic-based community groups"
             columns:
-              - heading: "Connect"
-                links:
+              - links:
                   - text: "Vis Buddies"
                     description: "Connecting new and returning VIS attendees"
                     url: "https://ieeevis.org/year/2026/info/community/vis-buddies/"
