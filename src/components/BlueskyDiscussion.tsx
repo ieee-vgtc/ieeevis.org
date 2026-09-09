@@ -114,7 +114,7 @@ function truncateByline(name: string): string {
     : name;
 }
 
-/** Top-level ordering. "top" = most liked first (recency as tie-break);
+/** Top-level ordering. "top" = most liked first (oldest first as tie-break);
  *  "newest" = most recent first. Nested replies stay chronological.
  *
  *  The optimistic like `deltas` fold into the sort key as well as the count, so
@@ -130,8 +130,10 @@ function sortReplies(
     likeCountOf(post) + (deltas.get(post.uri) ?? 0);
   const byRecency = (a: ShapedPost, b: ShapedPost) =>
     (b.createdAt ?? "").localeCompare(a.createdAt ?? "");
+  const byAge = (a: ShapedPost, b: ShapedPost) =>
+    (a.createdAt ?? "").localeCompare(b.createdAt ?? "");
   const byLikes = (a: ShapedPost, b: ShapedPost) =>
-    likesOf(b) - likesOf(a) || byRecency(a, b);
+    likesOf(b) - likesOf(a) || byAge(a, b);
   return [...replies].sort(sort === "top" ? byLikes : byRecency);
 }
 
