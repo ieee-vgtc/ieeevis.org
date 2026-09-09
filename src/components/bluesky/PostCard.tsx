@@ -8,6 +8,7 @@
  * yet have.
  */
 
+import { useState } from "react";
 import type { CSSProperties } from "react";
 import Avatar from "./Avatar";
 import { EmbedCard, EmbedImages } from "./Embeds";
@@ -38,11 +39,25 @@ export interface PostLikeContext {
   onToggle: (postUri: string) => void;
 }
 
+/**
+ * The remove control the reader gets on their OWN comments, lifted to the
+ * discussion so every post reads one shared list of what is theirs.
+ *
+ *  - `ownUris` — the reader's own comments still in the thread.
+ *  - `onRemove` — take the given comment down for good.
+ */
+export interface PostOwnContext {
+  ownUris: Set<string>;
+  onRemove: (postUri: string) => void;
+}
+
 interface PostCardProps {
   post: ShapedPost;
   /** "root" is the post a thread hangs off; "reply" is everything below it. */
   variant?: "root" | "reply";
   like?: PostLikeContext;
+  /** Shared own-comment state; absent where the reader may not write. */
+  own?: PostOwnContext;
   /**
    * Drop the card's own border, corners and background so it can sit inside
    * another bordered container (e.g. the announcement + Bluesky-callout box).
@@ -61,6 +76,15 @@ const likeChipStyle: CSSProperties = {
   borderRadius: "0.5rem",
   border: "1px solid #e5e7eb",
   fontSize: "0.82rem",
+};
+
+/** The chip shape again, as a plain button: the remove controls wear it. */
+const plainChipStyle: CSSProperties = {
+  ...likeChipStyle,
+  backgroundColor: "#fff",
+  color: "inherit",
+  cursor: "pointer",
+  fontFamily: "inherit",
 };
 
 /**
@@ -143,10 +167,79 @@ function LikeControl({
   );
 }
 
+/**
+ * "Remove", on the reader's own comments only.
+ *
+ * Removing deletes the post from Bluesky as well as taking it off this page,
+ * and nothing can put it back, so the button asks once before it acts. The
+ * confirmation also says what removal does not do: the conference keeps its own
+ * record of the comment.
+ */
+function RemoveControl({
+  post,
+  own,
+}: {
+  post: ShapedPost;
+  own?: PostOwnContext;
+}) {
+  const [confirming, setConfirming] = useState(false);
+
+  if (!own?.ownUris.has(post.uri)) {
+    return null;
+  }
+
+  if (!confirming) {
+    return (
+      <button
+        onClick={() => setConfirming(true)}
+        style={plainChipStyle}
+        title="Remove this comment"
+        type="button"
+      >
+        Remove
+      </button>
+    );
+  }
+
+  return (
+    <span
+      style={{
+        display: "inline-flex",
+        alignItems: "center",
+        flexWrap: "wrap",
+        gap: "0.4rem 0.5rem",
+      }}
+    >
+      <span>
+        This deletes the comment from Bluesky as well and cannot be undone.
+        Conference organizers keep a copy.
+      </span>
+      <button
+        onClick={() => {
+          setConfirming(false);
+          own.onRemove(post.uri);
+        }}
+        style={{ ...plainChipStyle, borderColor: "#b91c1c", color: "#b91c1c" }}
+        type="button"
+      >
+        Remove
+      </button>
+      <button
+        onClick={() => setConfirming(false)}
+        style={plainChipStyle}
+        type="button"
+      >
+        Cancel
+      </button>
+    </span>
+  );
+}
+
 export default function PostCard({
   post,
   variant = "reply",
   like,
+  own,
   bare = false,
 }: PostCardProps) {
   const isRoot = variant === "root";
@@ -229,6 +322,7 @@ export default function PostCard({
         }}
       >
         <LikeControl isRoot={isRoot} like={like} post={post} />
+        {!isRoot && <RemoveControl own={own} post={post} />}
         {!isRoot && reposts > 0 && (
           <span>
             {reposts} {reposts === 1 ? "repost" : "reposts"}

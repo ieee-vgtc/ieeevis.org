@@ -21,6 +21,27 @@ export interface MyLikesResponse {
 }
 
 /**
+ * One comment of the caller's own, from
+ * GET /api/threads/{paperId}/my-comments. The thread response is shared between
+ * readers and so cannot say which posts belong to whom; this is what lets the
+ * page offer the remove control on the reader's own comments and nobody else's.
+ *
+ * `text` is what they typed, without the display-name prefix the posted version
+ * carries. `removed` is true for a comment they have already taken down — its
+ * post is gone from Bluesky, so it is not in the thread response at all.
+ */
+export interface MyComment {
+  postUri: string;
+  text: string;
+  createdAt: string | null;
+  removed: boolean;
+}
+
+export interface MyCommentsResponse {
+  comments: MyComment[];
+}
+
+/**
  * GET /api/me — who the bearer token belongs to. `name` is the attendee's real
  * name from their conference login and is null when the service has none;
  * `pseudonym` is their stable stand-in and is always present. `bluesky` is the
@@ -52,6 +73,12 @@ export interface ServiceClient {
     token: string,
     postUri: string,
     liked: boolean,
+  ): Promise<Response>;
+  fetchMyComments(paperId: string, token: string): Promise<Response>;
+  removeComment(
+    paperId: string,
+    token: string,
+    postUri: string,
   ): Promise<Response>;
 }
 
@@ -136,6 +163,30 @@ export function createServiceClient(bases: string[]): ServiceClient {
           "content-type": "application/json",
         },
         body: JSON.stringify({ text, anonymous }),
+      });
+    },
+
+    fetchMyComments(paperId, token) {
+      return request(threadPath(paperId, "/my-comments"), {
+        headers: {
+          accept: "application/json",
+          authorization: `Bearer ${token}`,
+        },
+      });
+    },
+
+    // Takes one of the caller's OWN comments down. The service deletes the post
+    // from Bluesky, so the comment goes from the paper page and from Bluesky at
+    // once, and there is no way back. What it does not delete is the service's
+    // own record of the comment, which organizers keep.
+    removeComment(paperId, token, postUri) {
+      return request(threadPath(paperId, "/comments"), {
+        method: "DELETE",
+        headers: {
+          authorization: `Bearer ${token}`,
+          "content-type": "application/json",
+        },
+        body: JSON.stringify({ postUri }),
       });
     },
 

@@ -18,6 +18,11 @@
  * Commenting and liking appear only when the thread came from the service and
  * the reader's site session yields a token; everything else is read-only.
  *
+ * A reader can remove their own comments. That deletes the post from Bluesky as
+ * well as taking it off this page and cannot be undone, so the control confirms
+ * before it acts — and says that the conference keeps its own record either way,
+ * since removing is not a way to take back something harmful.
+ *
  * A comment carries the attendee's real name unless they tick "Hide my name",
  * which swaps it for their stable pseudonym. Such a post is unnamed rather than
  * untraceable — organizers can still tell who wrote it — so the label says what
@@ -28,7 +33,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { CSSProperties, FormEvent } from "react";
 import PostCard from "./bluesky/PostCard";
-import type { PostLikeContext } from "./bluesky/PostCard";
+import type { PostLikeContext, PostOwnContext } from "./bluesky/PostCard";
 import ReplyList from "./bluesky/ReplyList";
 import SortToggle from "./bluesky/SortToggle";
 import { fetchAppViewThread } from "./bluesky/direct";
@@ -36,6 +41,8 @@ import { formatOpensAt, likeCountOf } from "./bluesky/format";
 import { createServiceClient } from "./bluesky/service";
 import type {
   MeResponse,
+  MyComment,
+  MyCommentsResponse,
   MyLikesResponse,
   ServiceClient,
 } from "./bluesky/service";
@@ -142,6 +149,24 @@ function collectUris(
     }
   }
   return into;
+}
+
+/**
+ * A reply list minus the given URIs and everything under them — the same reach
+ * removing a comment has, applied locally between the click and the poll that
+ * stops returning it.
+ */
+function dropUris(replies: ShapedPost[], uris: Set<string>): ShapedPost[] {
+  if (uris.size === 0) {
+    return replies;
+  }
+  return replies
+    .filter((reply) => !uris.has(reply.uri))
+    .map((reply) =>
+      reply.replies?.length
+        ? { ...reply, replies: dropUris(reply.replies, uris) }
+        : reply,
+    );
 }
 
 /** The server's merged like count for every post in a thread, keyed by URI. */
@@ -347,6 +372,15 @@ export default function BlueskyDiscussion({
   const [submitting, setSubmitting] = useState(false);
   const [actionError, setActionError] = useState<string | null>(null);
   const [pendingReplies, setPendingReplies] = useState<ShapedPost[]>([]);
+  // Which comments in this thread are the reader's own. The thread response is
+  // shared between readers and cannot say, so it comes from the per-user
+  // endpoint — and it is what puts the remove control on their posts only.
+  const [myComments, setMyComments] = useState<MyComment[]>([]);
+  // Comments removed in this session, applied over the thread until a poll stops
+  // returning them; put back if the removal turns out to have failed.
+  const [removedLocally, setRemovedLocally] = useState<Set<string>>(
+    () => new Set(),
+  );
   // Which posts *this reader* has liked, and — while an optimistic toggle is in
   // flight — a per-post adjustment laid over the server's total. The thread
   // response is shared between readers (nginx-cached) and so cannot carry either.
@@ -480,6 +514,44 @@ export default function BlueskyDiscussion({
     }
   }, [client, getToken, paperId]);
 
+  /**
+   * The reader's own comments in this thread, which is what marks their posts in
+   * the thread so the remove control can go on them.
+   *
+   * Unlike the likes this is not re-read on every poll: it only changes when the
+   * reader posts or removes something, and both do it themselves.
+   */
+  const syncMyComments = useCallback(async () => {
+    const token = paperId ? await getToken() : null;
+    if (!token || !paperId) {
+      return;
+    }
+
+    try {
+      const response = await client.fetchMyComments(paperId, token);
+      if (!response.ok) {
+        return;
+      }
+
+      const body = (await response.json()) as MyCommentsResponse;
+      if (Array.isArray(body.comments)) {
+        setMyComments(body.comments);
+      }
+    } catch {
+      // Without the list the reader just gets no remove control; the thread
+      // reads the same. Never surface this over the discussion itself.
+    }
+  }, [client, getToken, paperId]);
+
+  // Read once the guest UI is live. The list only changes when the reader posts
+  // or removes something, and both re-read it themselves, so it stays off the
+  // polling path.
+  useEffect(() => {
+    if (interactive) {
+      void syncMyComments();
+    }
+  }, [interactive, syncMyComments]);
+
   useEffect(() => {
     if (!data || data.thread.state !== "open") {
       return;
@@ -604,6 +676,7 @@ export default function BlueskyDiscussion({
         setDraft("");
 
         await refresh(true);
+        await syncMyComments();
       } catch (err) {
         setActionError(
           (err as Error).message || "Your comment could not be posted.",
@@ -621,6 +694,7 @@ export default function BlueskyDiscussion({
       paperId,
       refresh,
       submitting,
+      syncMyComments,
     ],
   );
 
@@ -696,6 +770,65 @@ export default function BlueskyDiscussion({
     [client, getToken, paperId, refresh],
   );
 
+  /**
+   * Remove one of the reader's own comments.
+   *
+   * The comment leaves the rendered thread straight away and comes back if the
+   * write fails. Nothing here can undo a removal that succeeded: the service
+   * deletes the post from Bluesky, and the confirmation in the control is the
+   * only step between the reader and that.
+   */
+  const removeOwnComment = useCallback(
+    async (postUri: string) => {
+      markInteraction();
+      setActionError(null);
+
+      const applyLocally = (removed: boolean) => {
+        setRemovedLocally((current) => {
+          const updated = new Set(current);
+          if (removed) {
+            updated.add(postUri);
+          } else {
+            updated.delete(postUri);
+          }
+          return updated;
+        });
+        setMyComments((current) =>
+          current.map((comment) =>
+            comment.postUri === postUri ? { ...comment, removed } : comment,
+          ),
+        );
+      };
+
+      applyLocally(true);
+
+      try {
+        const token = paperId ? await getToken() : null;
+        if (!token || !paperId) {
+          applyLocally(false);
+          setActionError(
+            "Your session expired. Reload the page and try again.",
+          );
+          return;
+        }
+
+        const response = await client.removeComment(paperId, token, postUri);
+        if (!response.ok) {
+          throw new Error(`The service returned ${response.status}.`);
+        }
+
+        await refresh(true);
+        await syncMyComments();
+      } catch (err) {
+        applyLocally(false);
+        setActionError(
+          (err as Error).message || "Your comment could not be removed.",
+        );
+      }
+    },
+    [client, getToken, markInteraction, paperId, refresh, syncMyComments],
+  );
+
   // ── render ──
 
   // Nothing is mapped for this paper (no session, withdrawn, or not in the
@@ -741,10 +874,15 @@ export default function BlueskyDiscussion({
     serverCounts,
   );
   // Pending (just-posted) replies stay pinned at the end regardless of sort so
-  // the author always sees their own comment.
+  // the author always sees their own comment. A comment the reader has just
+  // removed is dropped from both lists until the service stops returning it.
   const replies = [
-    ...sortReplies(root?.replies || [], sort, activeDeltas),
-    ...pendingReplies,
+    ...sortReplies(
+      dropUris(root?.replies || [], removedLocally),
+      sort,
+      activeDeltas,
+    ),
+    ...dropUris(pendingReplies, removedLocally),
   ];
   const remaining = COMMENT_LIMIT - graphemeLength(draft);
   // The two possible bylines the submit button can show — the real name and the
@@ -764,6 +902,19 @@ export default function BlueskyDiscussion({
     deltas: activeDeltas,
     onToggle: toggleLike,
   };
+
+  // The remove control, on the reader's own comments only. Without the guest UI
+  // there is nothing to act with, so no context is passed at all.
+  const ownContext: PostOwnContext | undefined = interactive
+    ? {
+        ownUris: new Set(
+          myComments
+            .filter((comment) => !comment.removed)
+            .map((comment) => comment.postUri),
+        ),
+        onRemove: (postUri) => void removeOwnComment(postUri),
+      }
+    : undefined;
 
   return (
     <section
@@ -799,12 +950,12 @@ export default function BlueskyDiscussion({
               {hasBlueskyAccount ? (
                 <span style={calloutNudgeStyle}>
                   <span>
-                    🦋 You're on Bluesky as @{blueskyHandle} — reply there if you
-                    like
+                    🦋 You're on Bluesky as @{blueskyHandle} — reply there if
+                    you like
                   </span>
                   <span style={calloutNudgeReasonStyle}>
-                    Your reply then appears under your own account instead of the
-                    shared bridge account.
+                    Your reply then appears under your own account instead of
+                    the shared bridge account.
                   </span>
                 </span>
               ) : (
@@ -1042,7 +1193,12 @@ export default function BlueskyDiscussion({
         </div>
       </div>
 
-      <ReplyList like={likeContext} maxDepth={maxDepth} replies={replies} />
+      <ReplyList
+        like={likeContext}
+        maxDepth={maxDepth}
+        own={ownContext}
+        replies={replies}
+      />
     </section>
   );
 }
