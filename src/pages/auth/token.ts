@@ -67,8 +67,8 @@ export const GET: APIRoute = async ({ cookies, url }) => {
 
   try {
     const expiresAt = new Date(Date.now() + TOKEN_MAX_AGE_SECONDS * 1000);
-    // Include the linked Bluesky handle only when present; the bridge reads a
-    // top-level `bluesky` claim to hide the guest composer for these attendees.
+    // Include the linked Bluesky handle only when present; the bridge reads it
+    // from a top-level `bluesky` claim.
     const claims: { name?: string; bluesky?: string } = { name: user.name };
     if (user.bskyHandle) {
       claims.bluesky = user.bskyHandle;
