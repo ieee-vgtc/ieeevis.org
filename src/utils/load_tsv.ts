@@ -28,6 +28,12 @@ export function load_tsv(filePath: string): Record<string, string>[] {
   });
 }
 
+export function load_json(filePath: string): Record<string, string>[] {
+  const fullPath = path.resolve(filePath);
+  const fileContents = fs.readFileSync(fullPath, "utf8");
+  return JSON.parse(fileContents);
+}
+
 /**
  * Splits a semicolon separated list of people into name/affiliation pairs.
  * Everything after the first comma is treated as the affiliation, so entries
