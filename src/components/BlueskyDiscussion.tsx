@@ -767,11 +767,15 @@ export default function BlueskyDiscussion({
     serverCounts,
   );
   // A pending reply is held until the cache agrees, so hide the copy whenever
-  // the thread on screen already carries it.
-  const shownUris = collectUris(root?.replies || []);
+  // the thread on screen already carries it. Guest comments always land at the
+  // top level (the service takes no parent), so this only scans that level —
+  // and does nothing at all in the usual case of no pending replies.
+  const shown = root?.replies || [];
   const replies = orderReplies(
-    root?.replies || [],
-    pendingReplies.filter((reply) => !reply.uri || !shownUris.has(reply.uri)),
+    shown,
+    pendingReplies.filter(
+      (reply) => !reply.uri || !shown.some((post) => post.uri === reply.uri),
+    ),
     sort,
     activeDeltas,
   );
