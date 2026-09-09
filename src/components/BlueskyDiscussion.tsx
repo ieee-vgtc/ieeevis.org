@@ -720,8 +720,8 @@ export default function BlueskyDiscussion({
         <h2 style={{ marginBottom: "0.5rem" }}>Discussion</h2>
         <p style={{ color: "#6b7280", margin: 0 }}>
           {opensAt
-            ? `The discussion for this paper opens shortly before its session, on ${opensAt}.`
-            : "The discussion for this paper opens shortly before its session."}
+            ? `The discussion opens shortly before the session, on ${opensAt}.`
+            : "The discussion opens shortly before the session."}
         </p>
       </section>
     );
@@ -799,12 +799,12 @@ export default function BlueskyDiscussion({
               {hasBlueskyAccount ? (
                 <span style={calloutNudgeStyle}>
                   <span>
-                    🦋 You're on Bluesky as @{blueskyHandle} — reply there if you
-                    like
+                    🦋 You're on Bluesky as @{blueskyHandle} — reply there if
+                    you like
                   </span>
                   <span style={calloutNudgeReasonStyle}>
-                    Your reply then appears under your own account instead of the
-                    shared bridge account.
+                    Your reply then appears under your own account instead of
+                    the shared bridge account.
                   </span>
                 </span>
               ) : (
