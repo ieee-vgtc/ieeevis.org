@@ -36,9 +36,9 @@ The federated model is intended, in part, to offset projected declines in partic
 
 Yes. Registration details are still being finalized. Our aim is to balance affordability with the costs required to provide a high-quality experience, including professional audiovisual equipment, technical support, and reliable internet connectivity for live and hybrid participation. Additional information about registration and pricing will be shared soon.
 
-### **Will there still be a fully remote participation option?**
+### **Will there still be a remote participation option?**
 
-Yes. For individuals who cannot attend either the Boston conference or a satellite event, IEEE VIS 2026 will provide remote participation opportunities. At minimum, this will include access to recorded conference content and the option for paper presenters to submit prerecorded presentation videos.
+We are supporting remote participation in special circumstances.  Particularly, for authors who cannot attend either the Boston conference or a satellite event, IEEE VIS 2026 will provide remote presentation opportunities.
 
 ## **Building a More Inclusive and Resilient VIS Community**
 
