@@ -74,17 +74,23 @@ export function postUrl(uri?: string): string | null {
 
 /**
  * Who to credit. Guest replies all live in one Bluesky account, so their
- * attribution is baked into the post text as "💬 Ada Lovelace: …" — that is what
+ * attribution is baked into the post text as "Ada Lovelace: …" — that is what
  * readers on Bluesky itself see — and is stripped here so it is not shown twice.
  * Replies whose author hid their name also carry `pseudonym`, which the service
  * reads from our authorship log rather than by parsing text; prefer it when it
  * is there.
+ *
+ * The leading 💬 is optional: the service has written the label without it since
+ * the first release, and requiring the emoji left every named comment credited
+ * to "VIS attendee" with its byline still sitting in the body. Only guest posts
+ * are parsed this way, and every one of them carries a label, so there is no
+ * ordinary comment for the pattern to bite.
  */
 export function displayPost(post: ShapedPost): { name: string; body: string } {
   const text = post.text || "";
 
   if (post.guest) {
-    const match = /^💬\s*([^:]{1,80}):\s*/.exec(text);
+    const match = /^(?:💬\s*)?([^:\n]{1,80}):\s*/.exec(text);
     return {
       name: post.pseudonym || match?.[1]?.trim() || "VIS attendee",
       body: match ? text.slice(match[0].length) : text,

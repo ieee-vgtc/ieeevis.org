@@ -5,7 +5,7 @@
  */
 
 import PostCard from "./PostCard";
-import type { PostLikeContext } from "./PostCard";
+import type { PostLikeContext, PostOwnContext } from "./PostCard";
 import type { ShapedPost } from "./types";
 
 interface ReplyThreadProps {
@@ -14,6 +14,8 @@ interface ReplyThreadProps {
   maxDepth: number;
   /** Shared like state, threaded down so every reply gets its own control. */
   like?: PostLikeContext;
+  /** Shared own-comment state, threaded down the same way. */
+  own?: PostOwnContext;
 }
 
 export default function ReplyThread({
@@ -21,6 +23,7 @@ export default function ReplyThread({
   depth,
   maxDepth,
   like,
+  own,
 }: ReplyThreadProps) {
   const replies = post.replies || [];
 
@@ -33,7 +36,7 @@ export default function ReplyThread({
         paddingLeft: depth > 0 ? "0.75rem" : 0,
       }}
     >
-      <PostCard like={like} post={post} />
+      <PostCard like={like} own={own} post={post} />
 
       {depth < maxDepth &&
         replies.map((reply, index) => (
@@ -42,6 +45,7 @@ export default function ReplyThread({
             key={reply.uri || `${depth}-${index}`}
             like={like}
             maxDepth={maxDepth}
+            own={own}
             post={reply}
           />
         ))}
