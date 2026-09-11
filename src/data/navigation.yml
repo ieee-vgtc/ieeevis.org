@@ -67,6 +67,10 @@ menu:
                     url: "https://visap.net/2026/"
                     is_external: true
                     is_new: true
+                  - text: "IEEE SciVis Contest Submissions"
+                    url: "https://sciviscontest2026.github.io/"
+                    is_external: true
+                    is_new: true
                   - text: "CLUSTER Practitioners' Summit Lightning Talks"
                     url: "https://docs.google.com/forms/d/e/1FAIpQLSfSrCO17K_nqLKonilL3zvPUI403C1DHd_QMiFMAxxdzBuXjw/viewform?usp=sharing&ouid=113443580098787443355"
                     is_external: true
@@ -347,6 +351,12 @@ menu:
             description: "Events associated with the main conference"
             columns:
               - links:
+                  - text: "IEEE SciVis Contest"
+                    description: "A contest on Scientific Data Visualization"
+                    url: "https://sciviscontest2026.github.io/"
+                    is_new: false
+                    is_external: true
+
                   - text: "VIS Arts Program (VISAP)"
                     description: "A mini-conference and exhibition for vis researchers, designers, and artists"
                     url: "https://visap.net/2026/"
