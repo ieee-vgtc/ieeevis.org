@@ -75,6 +75,8 @@ interface BlueskyDiscussionProps {
 interface LoadedThread {
   source: ThreadSource;
   thread: ThreadResponse;
+  /** Bypassed the service's shared cache, which may still disagree. */
+  bypassedCache: boolean;
 }
 
 interface GuestToken {
@@ -126,6 +128,19 @@ function sortReplies(
   const byLikes = (a: ShapedPost, b: ShapedPost) =>
     likesOf(b) - likesOf(a) || byRecency(a, b);
   return [...replies].sort(sort === "top" ? byLikes : byRecency);
+}
+
+/** Pending (just-posted) replies sort in on recency; under "top" they have no
+ *  likes yet, so they are pinned at the end instead of being buried. */
+function orderReplies(
+  replies: ShapedPost[],
+  pending: ShapedPost[],
+  sort: ReplySort,
+  deltas: Map<string, number>,
+): ShapedPost[] {
+  return sort === "newest"
+    ? sortReplies([...replies, ...pending], sort, deltas)
+    : [...sortReplies(replies, sort, deltas), ...pending];
 }
 
 /** Every reply URI in a thread, at any depth. */
@@ -391,14 +406,17 @@ export default function BlueskyDiscussion({
   const hasBlueskyAccount = Boolean(blueskyHandle);
 
   const load = useCallback(
-    async (signal: AbortSignal, fresh: boolean): Promise<LoadedThread> => {
+    async (signal: AbortSignal, uncached: boolean): Promise<LoadedThread> => {
       if (paperId) {
         try {
-          const thread = await client.fetchThread(paperId, { signal, fresh });
+          const thread = await client.fetchThread(paperId, {
+            signal,
+            fresh: uncached,
+          });
           // Down, or holding no thread for this paper: with a post URI the
           // AppView can still show it, so let it try.
           if (thread.state !== "unavailable" || !atUri) {
-            return { source: "service", thread };
+            return { source: "service", thread, bypassedCache: uncached };
           }
         } catch (err) {
           if ((err as Error).name === "AbortError" || !atUri) {
@@ -414,6 +432,7 @@ export default function BlueskyDiscussion({
       return {
         source: "direct",
         thread: await fetchAppViewThread(atUri, { signal }),
+        bypassedCache: false,
       };
     },
     [atUri, client, paperId],
@@ -444,7 +463,7 @@ export default function BlueskyDiscussion({
     markInteraction();
     setRefreshing(true);
     try {
-      await refresh(true);
+      await refresh({ force: true });
     } finally {
       setRefreshing(false);
     }
@@ -485,13 +504,20 @@ export default function BlueskyDiscussion({
       return;
     }
 
+    // Only a response the shared cache could also have served may retire
+    // optimistic state. A cache-bypassing read runs ahead of that cache, so
+    // retiring on one lets the next ordinary poll undo what the reader just did.
+    const cacheHasCaughtUp = !data.bypassedCache;
+
     // Drop optimistic replies only once they appear in the real thread — a
     // cached response may not include them yet, and clearing on every poll
     // would make a just-posted comment flicker out and back.
     const known = collectUris(data.thread.post?.replies || []);
-    setPendingReplies((current) =>
-      current.filter((reply) => !reply.uri || !known.has(reply.uri)),
-    );
+    if (cacheHasCaughtUp) {
+      setPendingReplies((current) =>
+        current.filter((reply) => !reply.uri || !known.has(reply.uri)),
+      );
+    }
 
     // Record the server's own counts, both so a new toggle can capture its
     // baseline and so pending deltas can be reconciled against them.
@@ -504,7 +530,7 @@ export default function BlueskyDiscussion({
     // past the baseline it was toggled against — a cached poll returning the
     // pre-like count leaves the delta in place, so the count never drops back.
     setLikeDeltas((current) => {
-      if (!current.size) {
+      if (!current.size || !cacheHasCaughtUp) {
         return current;
       }
       let changed = false;
@@ -603,7 +629,7 @@ export default function BlueskyDiscussion({
         ]);
         setDraft("");
 
-        await refresh(true);
+        await refresh({ force: true, uncached: true });
       } catch (err) {
         setActionError(
           (err as Error).message || "Your comment could not be posted.",
@@ -685,7 +711,7 @@ export default function BlueskyDiscussion({
           throw new Error(`The service returned ${response.status}.`);
         }
 
-        await refresh(true);
+        await refresh({ force: true, uncached: true });
       } catch (err) {
         rollBack();
         setActionError(
@@ -740,12 +766,19 @@ export default function BlueskyDiscussion({
     likeBaselinesRef.current,
     serverCounts,
   );
-  // Pending (just-posted) replies stay pinned at the end regardless of sort so
-  // the author always sees their own comment.
-  const replies = [
-    ...sortReplies(root?.replies || [], sort, activeDeltas),
-    ...pendingReplies,
-  ];
+  // A pending reply is held until the cache agrees, so hide the copy whenever
+  // the thread on screen already carries it. Guest comments always land at the
+  // top level (the service takes no parent), so this only scans that level —
+  // and does nothing at all in the usual case of no pending replies.
+  const shown = root?.replies || [];
+  const replies = orderReplies(
+    shown,
+    pendingReplies.filter(
+      (reply) => !reply.uri || !shown.some((post) => post.uri === reply.uri),
+    ),
+    sort,
+    activeDeltas,
+  );
   const remaining = COMMENT_LIMIT - graphemeLength(draft);
   // The two possible bylines the submit button can show — the real name and the
   // pseudonym — so it can reserve room for the wider and not resize (shoving the
