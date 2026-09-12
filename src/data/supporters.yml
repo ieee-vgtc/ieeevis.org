@@ -54,6 +54,16 @@
 #        image: /assets/supporters/vrvis.png
 #        url: "https://www.vrvis.at/en/"
 
+- category: Academic
+  image_size: 200
+  supporters:
+    - name: "Monash University Embodied Visualisation Group"
+      image: /assets/supporters/monash-emvis.png
+      url: "https://www.monash.edu/it/hcc/embodied-visualisation"
+    - name: "CS617 / visualizing.boston"
+      image: /assets/supporters/cs617-visualizing-boston.png
+      url: "https://cs617.org/"
+
 #  - category: VISAP
 #    image_size: 140
 #    supporters:
