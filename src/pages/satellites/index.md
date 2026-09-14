@@ -38,7 +38,7 @@ Yes. Registration details are still being finalized. Our aim is to balance affor
 
 ### **Will there still be a remote participation option?**
 
-We are supporting remote participation in special circumstances.  Particularly, for authors who cannot attend either the Boston conference or a satellite event, IEEE VIS 2026 will provide remote presentation opportunities.
+We are supporting remote participation in special circumstances. Particularly, for authors who cannot attend either the Boston conference or a satellite event, IEEE VIS 2026 will provide remote presentation opportunities.
 
 ## **Building a More Inclusive and Resilient VIS Community**
 

@@ -9,6 +9,10 @@ const frontmatter = {
   contact: "web@ieeevis.org",
 };
 
+// Rendered at request time, not prerendered: a build-time copy would bake in
+// the signed-out state and never show a reader their own session.
+export const prerender = false;
+
 const isAuthenticated = Boolean(Astro.locals.user);
 const loginHref = buildLoginUrl(Astro.url);
 ---

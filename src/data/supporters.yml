@@ -63,7 +63,6 @@
     - name: "CS617 / visualizing.boston"
       image: /assets/supporters/cs617-visualizing-boston.png
       url: "https://cs617.org/"
-
 #  - category: VISAP
 #    image_size: 140
 #    supporters:

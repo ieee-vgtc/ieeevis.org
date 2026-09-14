@@ -136,7 +136,7 @@ At least one author for each paper must register and attend the conference in pe
 
 ## Organizing Expectations
 
-All workshops should first and foremost be organized as *in-person events* at the main conference venue. Hybrid organization is encouraged but is secondary to the in-person event organization. **At least two workshop organizers must be present at the in-person event.**
+All workshops should first and foremost be organized as _in-person events_ at the main conference venue. Hybrid organization is encouraged but is secondary to the in-person event organization. **At least two workshop organizers must be present at the in-person event.**
 
 ## Workshop Support
 
