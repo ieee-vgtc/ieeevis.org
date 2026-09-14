@@ -54,7 +54,7 @@ VIS 1242	Full	DeepConnect: A Visual Analytics System for Bridging Interdisciplin
 VIS 2171	Full	Embedding Video into Collaborative Visualizations: Hybrid Gesture Interaction and Snapping Fisheye Support for Remote Sensemaking	Adrian Kristanto, Tim Dwyer, Maxime Cordeil, Jens Emil Grønbæk, Benjamin Tag, Christophe Hurter, Jesper Kjeldskov	The more the merrier			Boston
 VIS 1418	Full	ZipLine: Visual Analysis of Multivariate Graphs with Predicate Logic	Sjoerd Vink, Suyang Li, Brian Montambault, Michael Behrisch, Mingwei Li, Remco Chang	I feel tangled in a net			Boston
 VIS 1427	Full	Visualizing High-Dimensional Graph Embeddings via Informed Multi-View Projections	Ya Ji, Xuefeng Li, Timo Brand, Jacob Miller, Peng Zhang, Stephen Kobourov, Yifan Hu	I feel tangled in a net			Boston
-VIS 1004	Full	NEXO: Adaptive Visualization for Comparative Exploration of Knowledge Graphs with Natural Language Interaction	Reza Shahriari, Justin Whorton, Jonathan Bona, Kevin Sexton, Mathias Brochhausen, Jaime Ruiz, Eric Ragan	I feel tangled in a net			Boston
+VIS 1004	Full	NEXO: Adaptive Visualization for Comparative Exploration of Knowledge Graphs with Natural Language Interaction	Reza Shahriari, Justin Whorton, Jonathan Bona, Kevin Sexton, Mathias Brochhausen, Jaime Ruiz, Eric Ragan	Talk to my agent			Boston
 VIS 1511	Full	Pointing at Data Together: Establishing Common Ground with Multi-Modal Data Representations in Blind/Sighted Collaboration	Jonathan Zong, Arvind Satyanarayan	The more the merrier			Boston
 TVCG.2026.3697222	Full	RuleScope: Semantic-aware Authoring of Data Validation Rules	Zhongsu Luo, Di Weng, Jiawen Zhu, Shuhan Liu, Xiwen Cai, Ran Chen, Kai Xiong, Jiajun Zhu, Xinhuan Shu, Yingcai Wu	Talk to my agent			Boston
 TVCG.2026.3701110	Full	DARE: An Explainable AI-visualization Framework for Ill-defined Decision Making	Angelos Chatzimparmpas, Evanthia Dimara	Talk to my agent			Boston
@@ -62,7 +62,7 @@ VIS 1527	Full	Treadstone: A Communication Channel for Human-AI Collaborative Dat
 TVCG-2025-09-0952.R1	Full	DAVA: Decoding Art With Visual Analytics Through Feature Modeling and Multi-Agent Collaboration	Wei Zhang, Xiaoyan Gu, Hengru Liu, Peiyi Jiang, Xianfeng Peng, Zhenqian Xu, Yifang Wang, and Wei Chen	The more the merrier			Boston
 TVCG.2026.3676348	Full	Visualization Tasks for Unlabeled Graphs	Matt I. B. Oddo, Ryan Smith, Stephen Kobourov, Tamara Munzner	I feel tangled in a net			Boston
 VIS 1540	Full	When One Point Is Not Enough: Addressing Ambiguous Instances in Dimensionality Reduction by Splitting	Diede van der Hoorn, Alessio Arleo, Fernando Paulovich	That's way too many dimensions for me			Boston
-VIS 1177	Full	VisPuzzle: Task-Aware Composite Visualization Construction	Zheng Wang, Zhiyang Shen, Lingyun Yu, Shixia Liu	Talk to my agent			Boston
+VIS 1177	Full	VisPuzzle: Task-Aware Composite Visualization Construction	Zheng Wang, Zhiyang Shen, Lingyun Yu, Shixia Liu	I feel tangled in a net			Boston
 VIS 1307	Full	LayoutAgent: LLM-Guided Multi-Objective Optimization for Graph Layout Generation	Yilei He, Jiansu Pu, Chengjin Shi, Miao Zheng, Jinyue Huang	I feel tangled in a net			Tianjin
 VIS 1561	Full	GraphPolaris: A System for Query, Analysis, and Visualization of Graph Databases	Michael Behrisch, Sjoerd Vink, Leonardo Christino, Remco Chang	I feel tangled in a net			Boston
 TVCG.2026.3664464	Full	Proportional Aggregation in Hierarchical Data Visualization	Antonia Schlieder, Jan Rummel, Filip Sadlo	I feel tangled in a net			Boston

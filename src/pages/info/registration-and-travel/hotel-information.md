@@ -18,4 +18,6 @@ The conference rate is <b>319$ per night</b> (not including taxes). Staying in t
 <a href="https://book.passkey.com/e/51276096" class="button">
   Book your VIS 2026 hotel room</a>
 
+A small number of rooms for the hotel are available at the prevailing government rate. If you need more information for booking these, please contact [registration@ieeevis.org](mailto:registration@ieeevis.org).
+
 Address: <a href="https://maps.google.com/?q=The+Westin+Copley+Place+Boston,+10+Huntington+Ave,+Boston,+MA+02116">The Westin Copley Place Boston, 10 Huntington Ave, Boston, MA 02116</a>

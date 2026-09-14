@@ -1,6 +1,8 @@
 ---
 import PageLayout from "../../../layouts/PageLayout.astro";
+import BlueskyDiscussion from "../../../components/BlueskyDiscussion";
 import { fetchAllSessions } from "../../../utils/paperData";
+import { hasOwnDiscussion } from "../../../utils/discussionSlots";
 import type {
   ProgramSession,
   ProgramSessionList,
@@ -154,6 +156,14 @@ const frontmatter = {
                 {slot.contributors.join(", ")}
               </p>
             )}
+            {/* Panels and invited talks have no paper page, so their Bluesky
+                discussion — the thread of replies to the announcement post,
+                proxied through bsky.tech.ieeevis.org — belongs here. */}
+            {hasOwnDiscussion(slot) && (
+              <div class="program-presentation-discussion not-prose">
+                <BlueskyDiscussion client:visible paperId={slot.slot_id} />
+              </div>
+            )}
           </article>
         ))
       }
@@ -219,6 +229,10 @@ const frontmatter = {
       margin: 0;
       color: var(--color-gray-700);
       font-size: 0.9rem;
+    }
+
+    .program-presentation-discussion {
+      margin-top: 0.6rem;
     }
   </style>
 </PageLayout>
