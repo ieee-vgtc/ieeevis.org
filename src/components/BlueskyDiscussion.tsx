@@ -861,8 +861,8 @@ export default function BlueskyDiscussion({
         <h2 style={{ marginBottom: "0.5rem" }}>Discussion</h2>
         <p style={{ color: "#6b7280", margin: 0 }}>
           {opensAt
-            ? `The discussion for this paper opens shortly before its session, on ${opensAt}.`
-            : "The discussion for this paper opens shortly before its session."}
+            ? `The discussion opens shortly before the session, on ${opensAt}.`
+            : "The discussion opens shortly before the session."}
         </p>
       </section>
     );
