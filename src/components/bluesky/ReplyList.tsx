@@ -15,7 +15,7 @@
  */
 
 import { useEffect, useLayoutEffect, useRef } from "react";
-import type { PostLikeContext } from "./PostCard";
+import type { PostLikeContext, PostOwnContext } from "./PostCard";
 import ReplyThread from "./ReplyThread";
 import type { ShapedPost } from "./types";
 
@@ -25,6 +25,7 @@ interface ReplyListProps {
   replies: ShapedPost[];
   maxDepth: number;
   like?: PostLikeContext;
+  own?: PostOwnContext;
 }
 
 interface Point {
@@ -40,7 +41,12 @@ function prefersReducedMotion(): boolean {
   );
 }
 
-export default function ReplyList({ replies, maxDepth, like }: ReplyListProps) {
+export default function ReplyList({
+  replies,
+  maxDepth,
+  like,
+  own,
+}: ReplyListProps) {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const nodes = useRef<Map<string, HTMLDivElement>>(new Map());
   const previous = useRef<Map<string, Point>>(new Map());
@@ -173,6 +179,7 @@ export default function ReplyList({ replies, maxDepth, like }: ReplyListProps) {
               depth={0}
               like={like}
               maxDepth={maxDepth}
+              own={own}
               post={reply}
             />
           </div>
