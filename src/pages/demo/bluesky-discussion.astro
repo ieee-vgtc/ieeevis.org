@@ -30,14 +30,16 @@ const loginHref = buildLoginUrl(Astro.url);
       isAuthenticated ? (
         <span>
           You are signed in, so the service-backed example below accepts
-          comments and likes.
+          comments and likes as a VIS attendee. Log in with Bluesky under
+          either announcement to post from your own account instead.
         </span>
       ) : (
         <span>
-          Commenting and liking need an Auth0 sign-in — <code>/auth/token</code>{" "}
-          mints the token the discussion service checks. Without one the
-          service-backed example below is read-only.{" "}
-          <a href={loginHref}>Sign in</a> to try it.
+          Commenting as a VIS attendee needs an Auth0 sign-in —{" "}
+          <code>/auth/token</code> mints the token the discussion service
+          checks. <a href={loginHref}>Sign in</a> to try it. Logging in with
+          Bluesky under either announcement works without one: comments and
+          likes then come from your own Bluesky account.
         </span>
       )
     }
@@ -65,8 +67,9 @@ const loginHref = buildLoginUrl(Astro.url);
   <p>
     Reads a thread straight from the public Bluesky AppView — how paper pages
     will work after the conference, once real post URIs are baked in. Guest
-    writes are bridged by the service, so this example stays read-only even when
-    you are signed in.
+    writes are bridged by the service, so this example is read-only for a
+    signed-in attendee; a Bluesky login writes to your own account and works
+    here too.
   </p>
   <BlueskyDiscussion
     atUri="at://did:plc:zbr4ntavbfy6nzkupgdgn4sz/app.bsky.feed.post/3msw5eyez7l2k"

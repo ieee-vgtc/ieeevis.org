@@ -12,6 +12,9 @@ type Auth0Config = {
   domain: string;
   issuer: string;
   sessionSecret: string;
+  /** Credentials for the Management API; default to the app's own. */
+  managementClientId: string;
+  managementClientSecret: string;
 };
 
 export type AuthenticatedUser = {
@@ -69,6 +72,11 @@ function getRequiredEnv(name: string) {
   return value;
 }
 
+function getOptionalEnv(name: string) {
+  const value = (import.meta.env[name] ?? process.env[name])?.trim();
+  return value && !value.startsWith("replace-with-") ? value : undefined;
+}
+
 function normalizeDomain(domain: string) {
   const normalized = domain.replace(/^https:\/\//, "").replace(/\/$/, "");
   if (!/^[a-z0-9.-]+$/i.test(normalized)) {
@@ -94,14 +102,20 @@ export function getAuth0Config(requestUrl: URL): Auth0Config {
   }
 
   const domain = normalizeDomain(getRequiredEnv("AUTH0_DOMAIN"));
+  const clientId = getRequiredEnv("AUTH0_CLIENT_ID");
+  const clientSecret = getRequiredEnv("AUTH0_CLIENT_SECRET");
   return {
     appBaseUrl,
-    clientId: getRequiredEnv("AUTH0_CLIENT_ID"),
-    clientSecret: getRequiredEnv("AUTH0_CLIENT_SECRET"),
+    clientId,
+    clientSecret,
     connection: getRequiredEnv("AUTH0_CONNECTION"),
     domain,
     issuer: `https://${domain}/`,
     sessionSecret,
+    managementClientId:
+      getOptionalEnv("AUTH0_MANAGEMENT_CLIENT_ID") ?? clientId,
+    managementClientSecret:
+      getOptionalEnv("AUTH0_MANAGEMENT_CLIENT_SECRET") ?? clientSecret,
   };
 }
 
@@ -346,6 +360,94 @@ export function getAuthorizeUrl(
     state: transaction.state,
   }).toString();
   return authorizeUrl.toString();
+}
+
+/**
+ * A handle as Bluesky defines one: a hostname, so the profile cannot carry
+ * anything that is not a name. Returns the canonical (lowercase, no "@") form.
+ */
+export function normalizeBskyHandle(value: unknown): string | undefined {
+  if (typeof value !== "string") {
+    return undefined;
+  }
+  const handle = value.trim().replace(/^@/, "").toLowerCase();
+  const valid =
+    handle.length <= 253 &&
+    /^[a-z0-9]([a-z0-9-]{0,62})(\.[a-z0-9]([a-z0-9-]{0,62}))+$/.test(handle);
+  return valid ? handle : undefined;
+}
+
+let managementToken: { value: string; expiresAt: number } | undefined;
+
+/**
+ * A Management API token by client credentials. The app needs a grant for
+ * the Management API with the `update:users` scope (Auth0 dashboard →
+ * Applications → APIs → Auth0 Management API → Machine to Machine
+ * Applications), or a separate machine-to-machine app with that grant, given
+ * as AUTH0_MANAGEMENT_CLIENT_ID / AUTH0_MANAGEMENT_CLIENT_SECRET.
+ */
+async function getManagementToken(config: Auth0Config) {
+  if (managementToken && managementToken.expiresAt > Date.now() + 60_000) {
+    return managementToken.value;
+  }
+
+  const response = await fetch(`${config.issuer}oauth/token`, {
+    body: new URLSearchParams({
+      audience: `${config.issuer}api/v2/`,
+      client_id: config.managementClientId,
+      client_secret: config.managementClientSecret,
+      grant_type: "client_credentials",
+    }),
+    headers: { "content-type": "application/x-www-form-urlencoded" },
+    method: "POST",
+  });
+  if (!response.ok) {
+    throw new Error(
+      `Auth0 Management API token request failed with status ${response.status}.`,
+    );
+  }
+
+  const result = (await response.json()) as {
+    access_token?: unknown;
+    expires_in?: unknown;
+  };
+  if (typeof result.access_token !== "string") {
+    throw new Error("Auth0 did not return a Management API token.");
+  }
+  const expiresIn =
+    typeof result.expires_in === "number" ? result.expires_in : 3600;
+  managementToken = {
+    value: result.access_token,
+    expiresAt: Date.now() + expiresIn * 1000,
+  };
+  return managementToken.value;
+}
+
+/**
+ * Store the attendee's Bluesky handle as `user_metadata.bsky_handle`, which
+ * is what the Login Action documented on BSKY_HANDLE_CLAIM surfaces on their
+ * next sign-in. The caller re-issues the session so it takes effect now.
+ */
+export async function saveBskyHandle(
+  config: Auth0Config,
+  sub: string,
+  handle: string,
+) {
+  const token = await getManagementToken(config);
+  const response = await fetch(
+    `${config.issuer}api/v2/users/${encodeURIComponent(sub)}`,
+    {
+      body: JSON.stringify({ user_metadata: { bsky_handle: handle } }),
+      headers: {
+        authorization: `Bearer ${token}`,
+        "content-type": "application/json",
+      },
+      method: "PATCH",
+    },
+  );
+  if (!response.ok) {
+    throw new Error(`Auth0 user update failed with status ${response.status}.`);
+  }
 }
 
 export function getLogoutUrl(config: Auth0Config) {
