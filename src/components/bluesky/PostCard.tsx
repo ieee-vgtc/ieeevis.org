@@ -48,13 +48,15 @@ export interface PostLikeContext {
  * Which posts are the reader's, lifted to the discussion so every post reads one
  * shared answer.
  *
- *  - `ownUris` — their own guest comments still in the thread; the service
- *    deletes those from the shared discuss account.
+ *  - `ownUris` — their own guest comments still in the thread. Only these can
+ *    be removed here: the service deletes them from the shared discuss
+ *    account. A post in the reader's own repository is theirs to delete on
+ *    Bluesky — the login deliberately asks for no permission to delete posts.
  *  - `did` — the account the reader is logged in to Bluesky as, or null. Its
- *    posts are theirs beyond doubt, and that account deletes them itself.
+ *    posts are theirs beyond doubt.
  *  - `canRemove` — whether removing works at all here. A thread read straight
- *    from the AppView with no Bluesky login is read-only, so posts are still
- *    marked as the reader's but nothing is offered on them.
+ *    from the AppView is read-only, so posts are still marked as the reader's
+ *    but nothing is offered on them.
  *  - `handle` — the Bluesky handle on their VIS profile, lowercased and without
  *    the "@", or null. Matching on the handle rather than the DID is what the
  *    site knows: a handle the reader has since given up could in principle be
@@ -197,23 +199,20 @@ function LikeControl({
  * "Remove", on the reader's own comments only.
  *
  * Removing deletes the post from Bluesky as well as taking it off this page,
- * and nothing can put it back, so the button asks once before it acts. For a
- * guest comment the confirmation also says what removal does not do: the
- * conference keeps its own record of it. A post from the reader's own Bluesky
- * account leaves no such record.
+ * and nothing can put it back, so the button asks once before it acts. The
+ * confirmation also says what removal does not do: the conference keeps its own
+ * record of the comment.
  */
 function RemoveControl({
   post,
   own,
-  removable,
 }: {
   post: ShapedPost;
   own?: PostOwnContext;
-  removable: boolean;
 }) {
   const [confirming, setConfirming] = useState(false);
 
-  if (!own?.canRemove || !removable) {
+  if (!own?.canRemove || !own.ownUris.has(post.uri)) {
     return null;
   }
 
@@ -240,9 +239,8 @@ function RemoveControl({
       }}
     >
       <span>
-        {post.guest
-          ? "This deletes the comment from Bluesky as well and cannot be undone. Conference organizers keep a copy."
-          : "This deletes the post from your Bluesky account and cannot be undone."}
+        This deletes the comment from Bluesky as well and cannot be undone.
+        Conference organizers keep a copy.
       </span>
       <button
         onClick={() => {
@@ -273,17 +271,12 @@ export default function PostCard({
   bare = false,
 }: PostCardProps) {
   const isRoot = variant === "root";
-  // Removable from here: a guest comment of theirs, or a post of the Bluesky
-  // account they are logged in to. A post matched by profile handle only is
-  // marked as theirs but is theirs to delete on Bluesky.
-  const removable =
+  const isOwn =
     own !== undefined &&
     (own.ownUris.has(post.uri) ||
-      (own.did !== null && post.author?.did === own.did));
-  const isOwn =
-    removable ||
-    (own?.handle != null &&
-      (post.author?.handle ?? "").toLowerCase() === own.handle);
+      (own.did !== null && post.author?.did === own.did) ||
+      (own.handle !== null &&
+        (post.author?.handle ?? "").toLowerCase() === own.handle));
   const { name, body } = displayPost(post);
   const profile = post.guest ? null : profileUrl(post.author);
   // Guest comments are real posts in the shared bridge repo, so their bsky.app
@@ -364,9 +357,7 @@ export default function PostCard({
         }}
       >
         <LikeControl isRoot={isRoot} like={like} post={post} />
-        {!isRoot && (
-          <RemoveControl own={own} post={post} removable={removable} />
-        )}
+        {!isRoot && <RemoveControl own={own} post={post} />}
         {!isRoot && reposts > 0 && (
           <span>
             {reposts} {reposts === 1 ? "repost" : "reposts"}
