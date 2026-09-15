@@ -35,28 +35,26 @@ import type { ShapedPost } from "./types";
  *    while an optimistic toggle is in flight; cleared when fresh data arrives.
  *  - `canLike` — whether this reader may toggle likes at all (a service thread
  *    and a valid token).
- *  - `onToggle` — like/unlike the given post URI.
+ *  - `onToggle` — like/unlike the given post.
  */
 export interface PostLikeContext {
   canLike: boolean;
   likedUris: Set<string>;
   deltas: Map<string, number>;
-  onToggle: (postUri: string) => void;
+  onToggle: (post: ShapedPost) => void;
 }
 
 /**
  * Which posts are the reader's, lifted to the discussion so every post reads one
  * shared answer.
  *
- *  - `ownUris` — the posts the reader can remove from here: their own guest
- *    comments (the service deletes those from the shared discuss account) and,
- *    while they are logged in to Bluesky, the replies that account wrote (it
- *    deletes those itself).
+ *  - `ownUris` — their own guest comments still in the thread; the service
+ *    deletes those from the shared discuss account.
+ *  - `did` — the account the reader is logged in to Bluesky as, or null. Its
+ *    posts are theirs beyond doubt, and that account deletes them itself.
  *  - `canRemove` — whether removing works at all here. A thread read straight
  *    from the AppView with no Bluesky login is read-only, so posts are still
  *    marked as the reader's but nothing is offered on them.
- *  - `did` — the account the reader is logged in to Bluesky as, or null. Its
- *    posts are theirs beyond doubt.
  *  - `handle` — the Bluesky handle on their VIS profile, lowercased and without
  *    the "@", or null. Matching on the handle rather than the DID is what the
  *    site knows: a handle the reader has since given up could in principle be
@@ -165,7 +163,7 @@ function LikeControl({
       <button
         aria-label={`${liked ? "Unlike" : "Like"} this reply (${count})`}
         aria-pressed={liked}
-        onClick={() => like?.onToggle(post.uri)}
+        onClick={() => like?.onToggle(post)}
         style={{
           ...likeChipStyle,
           backgroundColor: liked ? "#eff6ff" : "#fff",
@@ -207,13 +205,15 @@ function LikeControl({
 function RemoveControl({
   post,
   own,
+  removable,
 }: {
   post: ShapedPost;
   own?: PostOwnContext;
+  removable: boolean;
 }) {
   const [confirming, setConfirming] = useState(false);
 
-  if (!own?.canRemove || !own.ownUris.has(post.uri)) {
+  if (!own?.canRemove || !removable) {
     return null;
   }
 
@@ -273,12 +273,17 @@ export default function PostCard({
   bare = false,
 }: PostCardProps) {
   const isRoot = variant === "root";
-  const isOwn =
+  // Removable from here: a guest comment of theirs, or a post of the Bluesky
+  // account they are logged in to. A post matched by profile handle only is
+  // marked as theirs but is theirs to delete on Bluesky.
+  const removable =
     own !== undefined &&
     (own.ownUris.has(post.uri) ||
-      (own.did !== null && post.author?.did === own.did) ||
-      (own.handle !== null &&
-        (post.author?.handle ?? "").toLowerCase() === own.handle));
+      (own.did !== null && post.author?.did === own.did));
+  const isOwn =
+    removable ||
+    (own?.handle != null &&
+      (post.author?.handle ?? "").toLowerCase() === own.handle);
   const { name, body } = displayPost(post);
   const profile = post.guest ? null : profileUrl(post.author);
   // Guest comments are real posts in the shared bridge repo, so their bsky.app
@@ -359,7 +364,9 @@ export default function PostCard({
         }}
       >
         <LikeControl isRoot={isRoot} like={like} post={post} />
-        {!isRoot && <RemoveControl own={own} post={post} />}
+        {!isRoot && (
+          <RemoveControl own={own} post={post} removable={removable} />
+        )}
         {!isRoot && reposts > 0 && (
           <span>
             {reposts} {reposts === 1 ? "repost" : "reposts"}

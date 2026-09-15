@@ -30,6 +30,8 @@ import type {
   OAuthClientMetadataInput,
   OAuthSession,
 } from "@atproto/oauth-client-browser";
+import { normalizeBskyHandle } from "../../utils/bskyHandle";
+import { safeReturnTo, siteBase } from "../../utils/withBaseURL";
 
 /** `transition:generic` is what lets a public client post and like. */
 export const OAUTH_SCOPE = "atproto transition:generic";
@@ -39,10 +41,6 @@ const METADATA_PATH = "/oauth/client-metadata.json";
 const HANDLE_RESOLVER = "https://bsky.social";
 /** Where `@atproto/oauth-client-browser` remembers the signed-in account. */
 const STORED_SUB_KEY = "@@atproto/oauth-client-browser(sub)";
-
-export function siteBase(): string {
-  return import.meta.env.BASE_URL.replace(/\/$/, "");
-}
 
 /**
  * The metadata Bluesky reads from `client_id`, and that the browser client is
@@ -63,7 +61,7 @@ export function buildClientMetadata(
     token_endpoint_auth_method: "none",
     application_type: "web",
     dpop_bound_access_tokens: true,
-  } as OAuthClientMetadataInput;
+  };
 }
 
 /**
@@ -138,7 +136,10 @@ export async function completeLogin(): Promise<{
 }> {
   const client = await getClient();
   const result = await client.initCallback();
-  return { session: result.session, returnTo: safeReturnTo(result.state) };
+  return {
+    session: result.session,
+    returnTo: safeReturnTo(result.state, siteBase() || "/"),
+  };
 }
 
 /**
@@ -151,27 +152,8 @@ export async function startLogin(
   returnTo: string,
 ): Promise<never> {
   const client = await getClient();
-  return client.signInRedirect(normalizeHandle(handle), {
+  return client.signInRedirect(normalizeBskyHandle(handle), {
     state: returnTo,
     scope: OAUTH_SCOPE,
   });
-}
-
-/** A handle as typed — with or without the "@", any case — in canonical form. */
-export function normalizeHandle(handle: string): string {
-  return handle.trim().replace(/^@/, "").toLowerCase();
-}
-
-/** Only paths within this site may be login destinations. */
-export function safeReturnTo(value: string | null | undefined): string {
-  const base = siteBase() || "/";
-  if (
-    !value ||
-    !value.startsWith("/") ||
-    value.startsWith("//") ||
-    value.includes("\\")
-  ) {
-    return base;
-  }
-  return value;
 }

@@ -1,6 +1,8 @@
 import { createHash, randomBytes } from "node:crypto";
 import type { APIContext } from "astro";
 import { createRemoteJWKSet, EncryptJWT, jwtDecrypt, jwtVerify } from "jose";
+import { isBskyHandle, normalizeBskyHandle } from "../utils/bskyHandle";
+import { safeReturnTo } from "../utils/withBaseURL";
 
 type Cookies = APIContext["cookies"];
 
@@ -62,19 +64,19 @@ export const AUTH_TRANSACTION_COOKIE = "vis2026_auth_transaction";
 const SESSION_MAX_AGE_SECONDS = 60 * 60 * 8;
 const TRANSACTION_MAX_AGE_SECONDS = 60 * 10;
 
-function getRequiredEnv(name: string) {
+function getOptionalEnv(name: string) {
   // Astro loads values from .env into import.meta.env for local development.
   // Netlify exposes runtime values through process.env in the server function.
   const value = (import.meta.env[name] ?? process.env[name])?.trim();
-  if (!value || value.startsWith("replace-with-")) {
+  return value && !value.startsWith("replace-with-") ? value : undefined;
+}
+
+function getRequiredEnv(name: string) {
+  const value = getOptionalEnv(name);
+  if (!value) {
     throw new Error(`Missing required environment variable: ${name}`);
   }
   return value;
-}
-
-function getOptionalEnv(name: string) {
-  const value = (import.meta.env[name] ?? process.env[name])?.trim();
-  return value && !value.startsWith("replace-with-") ? value : undefined;
 }
 
 function normalizeDomain(domain: string) {
@@ -161,19 +163,6 @@ export function buildLoginUrl(url: URL) {
   const loginUrl = new URL(`${base}/auth/login`, url.origin);
   loginUrl.searchParams.set("returnTo", `${pathWithoutBase}${url.search}`);
   return `${loginUrl.pathname}${loginUrl.search}`;
-}
-
-/** Only permit paths within this deployment as post-login destinations. */
-export function safeReturnTo(value: string | null | undefined) {
-  if (
-    !value ||
-    !value.startsWith("/") ||
-    value.startsWith("//") ||
-    value.includes("\\")
-  ) {
-    return "/";
-  }
-  return value;
 }
 
 export async function createTransaction(
@@ -362,19 +351,13 @@ export function getAuthorizeUrl(
   return authorizeUrl.toString();
 }
 
-/**
- * A handle as Bluesky defines one: a hostname, so the profile cannot carry
- * anything that is not a name. Returns the canonical (lowercase, no "@") form.
- */
-export function normalizeBskyHandle(value: unknown): string | undefined {
+/** The canonical form of a handle from a request body, or undefined if it is no handle. */
+export function readBskyHandleInput(value: unknown): string | undefined {
   if (typeof value !== "string") {
     return undefined;
   }
-  const handle = value.trim().replace(/^@/, "").toLowerCase();
-  const valid =
-    handle.length <= 253 &&
-    /^[a-z0-9]([a-z0-9-]{0,62})(\.[a-z0-9]([a-z0-9-]{0,62}))+$/.test(handle);
-  return valid ? handle : undefined;
+  const handle = normalizeBskyHandle(value);
+  return isBskyHandle(handle) ? handle : undefined;
 }
 
 let managementToken: { value: string; expiresAt: number } | undefined;

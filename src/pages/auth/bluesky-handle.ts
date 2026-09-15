@@ -19,23 +19,14 @@ import type { APIRoute } from "astro";
 import {
   createSession,
   getAuth0Config,
-  normalizeBskyHandle,
+  readBskyHandleInput,
   readSession,
   saveBskyHandle,
   setSessionCookie,
 } from "../../lib/auth0";
+import { jsonResponse as json } from "../../lib/http";
 
 export const prerender = false;
-
-function json(body: unknown, status: number) {
-  return new Response(JSON.stringify(body), {
-    headers: {
-      "cache-control": "no-store",
-      "content-type": "application/json; charset=utf-8",
-    },
-    status,
-  });
-}
 
 export const POST: APIRoute = async ({ cookies, request, url }) => {
   const user = await readSession(cookies, url);
@@ -46,7 +37,7 @@ export const POST: APIRoute = async ({ cookies, request, url }) => {
   let handle: string | undefined;
   try {
     const body = (await request.json()) as { handle?: unknown };
-    handle = normalizeBskyHandle(body.handle);
+    handle = readBskyHandleInput(body.handle);
   } catch {
     handle = undefined;
   }

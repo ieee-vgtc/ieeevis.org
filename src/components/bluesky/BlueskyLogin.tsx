@@ -10,6 +10,11 @@
 
 import { useId, useState } from "react";
 import type { CSSProperties, FormEvent } from "react";
+import {
+  errorTextStyle,
+  primaryButtonStyle,
+  secondaryButtonStyle,
+} from "./styles";
 import type { BlueskySession } from "./useBlueskySession";
 
 interface BlueskyLoginProps {
@@ -59,7 +64,7 @@ export default function BlueskyLogin({
       <div style={bandStyle}>
         <span style={messageStyle}>
           <span>
-            🦋 You are logged in to Bluesky as @{session.profile.handle}.
+            🦋 You are logged in to Bluesky as @{session.writer.profile.handle}.
           </span>
           <span style={reasonStyle}>
             Your comments and likes are posted from your own account.
@@ -93,7 +98,7 @@ export default function BlueskyLogin({
       <div
         style={{ ...bandStyle, flexDirection: "column", alignItems: "stretch" }}
       >
-        <form onSubmit={submit} style={formStyle}>
+        <form onSubmit={submit} style={actionsStyle}>
           <label htmlFor={inputId} style={{ fontWeight: 600 }}>
             🦋 Your Bluesky handle
           </label>
@@ -126,7 +131,7 @@ export default function BlueskyLogin({
         <span style={reasonStyle}>
           Bluesky asks you to approve this site, then sends you back here.
         </span>
-        {error && <span style={errorStyle}>{error}</span>}
+        {error && <span style={errorTextStyle}>{error}</span>}
       </div>
     );
   }
@@ -143,7 +148,7 @@ export default function BlueskyLogin({
           Log in to comment and like from your own account instead of as a VIS
           attendee.
         </span>
-        {error && <span style={errorStyle}>{error}</span>}
+        {error && <span style={errorTextStyle}>{error}</span>}
       </span>
       <span style={actionsStyle}>
         {linkedHandle ? (
@@ -208,20 +213,7 @@ const reasonStyle: CSSProperties = {
   color: "#1e40af",
 };
 
-const errorStyle: CSSProperties = {
-  fontWeight: 400,
-  fontSize: "0.82rem",
-  color: "#b91c1c",
-};
-
 const actionsStyle: CSSProperties = {
-  display: "flex",
-  alignItems: "center",
-  flexWrap: "wrap",
-  gap: "0.5rem",
-};
-
-const formStyle: CSSProperties = {
   display: "flex",
   alignItems: "center",
   flexWrap: "wrap",
@@ -237,23 +229,11 @@ const inputStyle: CSSProperties = {
   fontSize: "0.9rem",
 };
 
+/** The secondary button, in the band's own blue. */
 const buttonStyle: CSSProperties = {
-  padding: "0.35rem 0.8rem",
-  borderRadius: "0.5rem",
+  ...secondaryButtonStyle,
   border: "1px solid #93c5fd",
-  backgroundColor: "#fff",
   color: "#1e3a8a",
-  cursor: "pointer",
-  fontFamily: "inherit",
-  fontSize: "0.85rem",
-  whiteSpace: "nowrap",
-};
-
-const primaryButtonStyle: CSSProperties = {
-  ...buttonStyle,
-  border: "1px solid #2563eb",
-  backgroundColor: "#2563eb",
-  color: "#fff",
 };
 
 // The site's prose links carry a dashed border-bottom (.content a); this one

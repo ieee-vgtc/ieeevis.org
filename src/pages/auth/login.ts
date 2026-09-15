@@ -3,9 +3,9 @@ import {
   createTransaction,
   getAuthorizeUrl,
   getAuth0Config,
-  safeReturnTo,
   setTransactionCookie,
 } from "../../lib/auth0";
+import { safeReturnTo } from "../../utils/withBaseURL";
 
 export const prerender = false;
 

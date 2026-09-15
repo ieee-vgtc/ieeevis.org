@@ -3,29 +3,22 @@
  *
  * Starts as "unknown" on both server and client so the first render agrees,
  * then either settles on "none" — nothing stored, so nothing to load — or
- * restores the stored session and reads the account's profile, which is what
- * the composer signs comments with. A session that cannot be restored (revoked,
- * expired past refresh, Bluesky unreachable) counts as none: the reader is
- * simply offered the login again.
+ * restores the stored session as a writer for the account. A session that
+ * cannot be restored (revoked, expired past refresh, Bluesky unreachable)
+ * counts as none: the reader is simply offered the login again.
  */
 
 import { useCallback, useEffect, useState } from "react";
-import type { Agent } from "@atproto/api";
 import type { OAuthSession } from "@atproto/oauth-client-browser";
-import type { BlueskyProfile } from "./native";
-import { createAgent, fetchProfile } from "./native";
+import type { NativeWriter } from "./native";
+import { restoreWriter } from "./native";
 import { hasStoredSession, restoreSession, startLogin } from "./oauth";
 
 export type BlueskySession =
   | { status: "unknown" }
   | { status: "none" }
   | { status: "restoring" }
-  | {
-      status: "signed-in";
-      session: OAuthSession;
-      agent: Agent;
-      profile: BlueskyProfile;
-    };
+  | { status: "signed-in"; session: OAuthSession; writer: NativeWriter };
 
 export interface BlueskyLoginState {
   session: BlueskySession;
@@ -62,21 +55,18 @@ export function useBlueskySession(): BlueskyLoginState {
     setSession({ status: "restoring" });
     void (async () => {
       try {
-        const restored = await restoreSession();
-        if (!restored) {
-          if (!cancelled) setSession({ status: "none" });
+        const [restored, writer] = await Promise.all([
+          restoreSession(),
+          restoreWriter(),
+        ]);
+        if (cancelled) {
           return;
         }
-        const agent = await createAgent(restored);
-        const profile = await fetchProfile(agent, restored.did);
-        if (!cancelled) {
-          setSession({
-            status: "signed-in",
-            session: restored,
-            agent,
-            profile,
-          });
-        }
+        setSession(
+          restored && writer
+            ? { status: "signed-in", session: restored, writer }
+            : { status: "none" },
+        );
       } catch (err) {
         console.warn("Could not restore the Bluesky session:", err);
         if (!cancelled) setSession({ status: "none" });

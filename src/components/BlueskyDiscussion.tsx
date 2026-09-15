@@ -47,26 +47,16 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { CSSProperties, FormEvent } from "react";
-import type { Agent } from "@atproto/api";
 import BlueskyLogin from "./bluesky/BlueskyLogin";
 import PostCard from "./bluesky/PostCard";
 import type { PostLikeContext, PostOwnContext } from "./bluesky/PostCard";
 import ReplyList from "./bluesky/ReplyList";
-import SaveHandlePrompt, {
-  isHandlePromptDismissed,
-} from "./bluesky/SaveHandlePrompt";
+import SaveHandlePrompt from "./bluesky/SaveHandlePrompt";
 import SortToggle from "./bluesky/SortToggle";
 import { fetchAppViewThread } from "./bluesky/direct";
 import { formatOpensAt, likeCountOf } from "./bluesky/format";
-import {
-  NATIVE_TEXT_LIMIT,
-  deletePost,
-  fetchMyLikes as fetchNativeLikes,
-  likePost,
-  postReply,
-  unlikePost,
-} from "./bluesky/native";
-import { normalizeHandle } from "./bluesky/oauth";
+import { NATIVE_TEXT_LIMIT } from "./bluesky/native";
+import { hintTextStyle } from "./bluesky/styles";
 import { createServiceClient } from "./bluesky/service";
 import type {
   MeResponse,
@@ -84,6 +74,7 @@ import type {
 } from "./bluesky/types";
 import { useBlueskySession } from "./bluesky/useBlueskySession";
 import { usePolledThread } from "./bluesky/usePolledThread";
+import { normalizeBskyHandle } from "../utils/bskyHandle";
 
 const DEFAULT_API_BASES = ["https://bsky.tech.ieeevis.org"];
 const DEFAULT_REFRESH_MS = 5_000;
@@ -215,39 +206,6 @@ function dropUris(replies: ShapedPost[], uris: Set<string>): ShapedPost[] {
         ? { ...reply, replies: dropUris(reply.replies, uris) }
         : reply,
     );
-}
-
-/** Every post's content hash, keyed by URI — what a native like refers to. */
-function collectCids(
-  replies: ShapedPost[],
-  into = new Map<string, string>(),
-): Map<string, string> {
-  for (const reply of replies) {
-    if (reply.uri && reply.cid) {
-      into.set(reply.uri, reply.cid);
-    }
-    if (reply.replies?.length) {
-      collectCids(reply.replies, into);
-    }
-  }
-  return into;
-}
-
-/** The replies, at any depth, written by the given account. */
-function collectUrisByAuthor(
-  replies: ShapedPost[],
-  did: string,
-  into = new Set<string>(),
-): Set<string> {
-  for (const reply of replies) {
-    if (reply.uri && reply.author?.did === did) {
-      into.add(reply.uri);
-    }
-    if (reply.replies?.length) {
-      collectUrisByAuthor(reply.replies, did, into);
-    }
-  }
-  return into;
 }
 
 /** The server's merged like count for every post in a thread, keyed by URI. */
@@ -493,20 +451,10 @@ export default function BlueskyDiscussion({
   // While it is there, every write goes through it rather than the service.
   const bluesky = useBlueskySession();
   const native =
-    bluesky.session.status === "signed-in" ? bluesky.session : null;
-  // Post URI → like record URI, for the posts the Bluesky account has liked;
-  // unliking needs the record. Kept out of state: it changes alongside
-  // `likedUris`, which is what renders.
-  const nativeLikesRef = useRef<Map<string, string>>(new Map());
-  // The key of the post set the native likes were last read for, so a poll
-  // that brought no new post does not ask the reader's PDS again.
-  const nativeLikesKeyRef = useRef("");
-  // Post URI → cid for everything on screen: a native like refers to both.
-  const cidsRef = useRef<Map<string, string>>(new Map());
+    bluesky.session.status === "signed-in" ? bluesky.session.writer : null;
   // The handle the reader saved to their profile in this session, ahead of the
   // token and identity catching up.
   const [savedHandle, setSavedHandle] = useState<string | null>(null);
-  const [handlePromptHidden, setHandlePromptHidden] = useState(false);
 
   // Callers pass an inline array literal, so depend on its contents rather than
   // its identity — otherwise every render would build a new client and restart
@@ -526,7 +474,7 @@ export default function BlueskyDiscussion({
   // marks that account's replies as theirs even without a Bluesky login here.
   const linkedHandle =
     savedHandle ??
-    (identity?.bluesky ? normalizeHandle(identity.bluesky) : null);
+    (identity?.bluesky ? normalizeBskyHandle(identity.bluesky) : null);
 
   const load = useCallback(
     async (signal: AbortSignal, uncached: boolean): Promise<LoadedThread> => {
@@ -593,7 +541,7 @@ export default function BlueskyDiscussion({
   }, [markInteraction, refresh]);
 
   const thread = data?.thread;
-  const rootPost: RootPost | undefined =
+  const root: RootPost | undefined =
     thread?.state === "open" ? thread.post : undefined;
   /** Guest writes are bridged by the service; the AppView is read-only here. */
   const canWriteAsGuest = data?.source === "service" && hasToken;
@@ -626,29 +574,16 @@ export default function BlueskyDiscussion({
     }
   }, [client, getToken, paperId]);
 
-  /**
-   * The same question asked of Bluesky for the logged-in account: the AppView
-   * reports what the account has liked as viewer state. Read once per set of
-   * posts on screen; a like toggled here records itself in the map directly.
-   */
+  /** The same question asked of Bluesky for the logged-in account. */
   const syncNativeLikes = useCallback(
-    async (root: RootPost) => {
+    async (rootUri: string, replyUris: Set<string>) => {
       if (!native) {
         return;
       }
-      const uris = [root.uri, ...collectUris(root.replies || [])].sort();
-      const key = uris.join("\n");
-      if (key === nativeLikesKeyRef.current) {
-        return;
-      }
-      nativeLikesKeyRef.current = key;
-
       try {
-        const likes = await fetchNativeLikes(native.agent, uris);
-        nativeLikesRef.current = likes;
-        setLikedUris(new Set(likes.keys()));
+        setLikedUris(await native.syncLikes([rootUri, ...replyUris]));
       } catch {
-        nativeLikesKeyRef.current = ""; // try again on the next poll
+        // Cosmetic, as for the guest likes; the next poll asks again.
       }
     },
     [native],
@@ -695,8 +630,6 @@ export default function BlueskyDiscussion({
   // Logging in or out of Bluesky changes whose likes `likedUris` holds, so it
   // starts over: the next poll reads them from whichever side is now in charge.
   useEffect(() => {
-    nativeLikesRef.current = new Map();
-    nativeLikesKeyRef.current = "";
     setLikedUris(new Set());
   }, [native]);
 
@@ -726,9 +659,6 @@ export default function BlueskyDiscussion({
       ? collectLikeCounts([data.thread.post])
       : new Map<string, number>();
     serverCountsRef.current = counts;
-    cidsRef.current = data.thread.post
-      ? collectCids([data.thread.post])
-      : new Map<string, string>();
 
     // Retire an optimistic delta only once the server count has actually moved
     // past the baseline it was toggled against — a cached poll returning the
@@ -756,7 +686,7 @@ export default function BlueskyDiscussion({
     });
 
     if (native && data.thread.post) {
-      void syncNativeLikes(data.thread.post);
+      void syncNativeLikes(data.thread.post.uri, known);
     } else if (data.source === "service") {
       void syncMyLikes();
     }
@@ -767,14 +697,13 @@ export default function BlueskyDiscussion({
   /** Post from the reader's own Bluesky account, as a reply to the announcement. */
   const submitNativeComment = useCallback(
     async (text: string) => {
-      if (!native || !rootPost?.cid) {
+      if (!native || !root?.cid) {
         setActionError("The discussion is not ready for a comment yet.");
         return;
       }
 
-      const created = await postReply(
-        native.agent,
-        { uri: rootPost.uri, cid: rootPost.cid },
+      const created = await native.reply(
+        { uri: root.uri, cid: root.cid },
         text,
       );
 
@@ -806,14 +735,80 @@ export default function BlueskyDiscussion({
       setDraft("");
       await refresh({ force: true, uncached: true });
     },
-    [native, refresh, rootPost],
+    [native, refresh, root],
+  );
+
+  /** Post through the service, credited to the attendee in the text. */
+  const submitGuestComment = useCallback(
+    async (paperId: string, text: string) => {
+      const token = await getToken();
+      if (!token) {
+        setActionError("Your session expired. Reload the page to comment.");
+        return;
+      }
+
+      const response = await client.postComment(
+        paperId,
+        token,
+        text,
+        anonymous,
+      );
+
+      if (response.status === 429) {
+        const retryAfter = response.headers.get("retry-after");
+        setActionError(
+          retryAfter
+            ? `You are commenting too quickly. Try again in ${retryAfter}s.`
+            : "You are commenting too quickly. Try again shortly.",
+        );
+        return;
+      }
+      if (response.status === 409) {
+        setActionError("This discussion is not open yet.");
+        return;
+      }
+      if (!response.ok) {
+        throw new Error(`The service returned ${response.status}.`);
+      }
+
+      const created = (await response.json()) as {
+        uri?: string;
+        author?: string;
+      };
+
+      // Show it immediately; the next refetch replaces it with the real post.
+      // The service credits the post by prefixing its text, which the local
+      // draft has none of, so the name it reports back rides in `pseudonym` —
+      // where `displayPost` looks first — for these few seconds.
+      setPendingReplies((current) => [
+        ...current,
+        {
+          uri: created.uri || `pending-${Date.now()}`,
+          author: { displayName: null, avatar: null },
+          text,
+          createdAt: new Date().toISOString(),
+          guest: true,
+          pseudonym: created.author || attribution || null,
+          likeCount: 0,
+          guestLikeCount: 0,
+          totalLikeCount: 0,
+          embedImages: [],
+          replies: [],
+        },
+      ]);
+      setDraft("");
+
+      await refresh({ force: true, uncached: true });
+      await syncMyComments();
+    },
+    [anonymous, attribution, client, getToken, refresh, syncMyComments],
   );
 
   const submitComment = useCallback(
     async (event: FormEvent) => {
       const text = draft.trim();
       event.preventDefault();
-      if (!text || submitting || (!paperId && !native)) {
+      if (!text || submitting) {
         return;
       }
       if (graphemeLength(text) > commentLimit) {
@@ -827,71 +822,9 @@ export default function BlueskyDiscussion({
       try {
         if (native) {
           await submitNativeComment(text);
-          return;
+        } else if (paperId) {
+          await submitGuestComment(paperId, text);
         }
-        if (!paperId) {
-          return;
-        }
-
-        const token = await getToken();
-        if (!token) {
-          setActionError("Your session expired. Reload the page to comment.");
-          return;
-        }
-
-        const response = await client.postComment(
-          paperId,
-          token,
-          text,
-          anonymous,
-        );
-
-        if (response.status === 429) {
-          const retryAfter = response.headers.get("retry-after");
-          setActionError(
-            retryAfter
-              ? `You are commenting too quickly. Try again in ${retryAfter}s.`
-              : "You are commenting too quickly. Try again shortly.",
-          );
-          return;
-        }
-        if (response.status === 409) {
-          setActionError("This discussion is not open yet.");
-          return;
-        }
-        if (!response.ok) {
-          throw new Error(`The service returned ${response.status}.`);
-        }
-
-        const created = (await response.json()) as {
-          uri?: string;
-          author?: string;
-        };
-
-        // Show it immediately; the next refetch replaces it with the real post.
-        // The service credits the post by prefixing its text, which the local
-        // draft has none of, so the name it reports back rides in `pseudonym` —
-        // where `displayPost` looks first — for these few seconds.
-        setPendingReplies((current) => [
-          ...current,
-          {
-            uri: created.uri || `pending-${Date.now()}`,
-            author: { displayName: null, avatar: null },
-            text,
-            createdAt: new Date().toISOString(),
-            guest: true,
-            pseudonym: created.author || attribution || null,
-            likeCount: 0,
-            guestLikeCount: 0,
-            totalLikeCount: 0,
-            embedImages: [],
-            replies: [],
-          },
-        ]);
-        setDraft("");
-
-        await refresh({ force: true, uncached: true });
-        await syncMyComments();
       } catch (err) {
         setActionError(
           (err as Error).message || "Your comment could not be posted.",
@@ -901,53 +834,19 @@ export default function BlueskyDiscussion({
       }
     },
     [
-      anonymous,
-      attribution,
-      client,
       commentLimit,
       draft,
-      getToken,
       native,
       paperId,
-      refresh,
+      submitGuestComment,
       submitNativeComment,
       submitting,
-      syncMyComments,
     ],
   );
 
-  /**
-   * A like from the reader's own account is a record in their repository: a
-   * like creates one and remembers its URI, an unlike deletes it. A like whose
-   * record this page never saw (made on Bluesky itself, or before the last
-   * read) is looked up first.
-   */
-  const toggleNativeLike = useCallback(
-    async (agent: Agent, postUri: string, liked: boolean) => {
-      if (liked) {
-        const cid = cidsRef.current.get(postUri);
-        if (!cid) {
-          throw new Error("This post cannot be liked yet.");
-        }
-        const likeUri = await likePost(agent, { uri: postUri, cid });
-        nativeLikesRef.current.set(postUri, likeUri);
-        return;
-      }
-
-      let likeUri = nativeLikesRef.current.get(postUri);
-      if (!likeUri) {
-        likeUri = (await fetchNativeLikes(agent, [postUri])).get(postUri);
-      }
-      if (likeUri) {
-        await unlikePost(agent, likeUri);
-      }
-      nativeLikesRef.current.delete(postUri);
-    },
-    [],
-  );
-
   const toggleLike = useCallback(
-    async (postUri: string) => {
+    async (post: ShapedPost) => {
+      const postUri = post.uri;
       const next = !likedUrisRef.current.has(postUri);
 
       const applyOptimistic = (like: boolean) => {
@@ -996,7 +895,10 @@ export default function BlueskyDiscussion({
 
       try {
         if (native) {
-          await toggleNativeLike(native.agent, postUri, next);
+          if (!post.cid) {
+            throw new Error("This post cannot be liked yet.");
+          }
+          await native.setLike({ uri: postUri, cid: post.cid }, next);
         } else {
           const token = paperId ? await getToken() : null;
           if (!token || !paperId) {
@@ -1019,7 +921,7 @@ export default function BlueskyDiscussion({
         );
       }
     },
-    [client, getToken, native, paperId, refresh, toggleNativeLike],
+    [client, getToken, native, paperId, refresh],
   );
 
   /**
@@ -1055,14 +957,13 @@ export default function BlueskyDiscussion({
       applyLocally(true);
 
       try {
-        // A reply from the logged-in Bluesky account is deleted by that
-        // account; a guest comment goes through the service.
-        const ownNative =
-          native && rootPost
-            ? collectUrisByAuthor(rootPost.replies || [], native.profile.did)
-            : new Set<string>();
-        if (native && ownNative.has(postUri)) {
-          await deletePost(native.agent, postUri);
+        // A guest comment goes through the service; anything else the reader
+        // may remove is a post of the Bluesky account they are logged in to.
+        const isGuestComment = myComments.some(
+          (comment) => comment.postUri === postUri,
+        );
+        if (native && !isGuestComment) {
+          await native.remove(postUri);
           await refresh({ force: true, uncached: true });
           return;
         }
@@ -1094,10 +995,10 @@ export default function BlueskyDiscussion({
       client,
       getToken,
       markInteraction,
+      myComments,
       native,
       paperId,
       refresh,
-      rootPost,
       syncMyComments,
     ],
   );
@@ -1133,7 +1034,6 @@ export default function BlueskyDiscussion({
     );
   }
 
-  const root = rootPost;
   // Apply optimistic deltas only where the server has not already caught up, so
   // the shown count and the sort order never briefly double-count a like being
   // reconciled (see reconcileDeltas). Both the counts and the ordering read from
@@ -1180,11 +1080,10 @@ export default function BlueskyDiscussion({
     onToggle: toggleLike,
   };
 
-  // Which posts are marked "(me)" and can be removed from here: the guest
-  // comments they wrote through this page, and the replies written by the
-  // Bluesky account they are logged in to. A reply from the account on their
-  // VIS profile is marked too, by handle, but is theirs to delete on Bluesky
-  // unless they log in to that account here.
+  // Which posts are the reader's: the guest comments they wrote through this
+  // page (by URI), the replies of the Bluesky account they are logged in to
+  // (by DID), and the replies of the account on their VIS profile (by handle).
+  // The card marks all three "(me)"; the first two it can also remove.
   //
   // Marking does not need the service. A thread read straight from the AppView
   // carries no guest attribution at all (every post comes back `guest: false`
@@ -1195,9 +1094,6 @@ export default function BlueskyDiscussion({
       .filter((comment) => !comment.removed)
       .map((comment) => comment.postUri),
   );
-  if (native && root) {
-    collectUrisByAuthor(root.replies || [], native.profile.did, ownUris);
-  }
   const ownContext: PostOwnContext | undefined =
     identity || native || ownUris.size > 0
       ? {
@@ -1217,15 +1113,14 @@ export default function BlueskyDiscussion({
     void bluesky.signIn(handle, `${pathname}${search}#${sectionId}`);
   };
 
-  // Offer to put the handle on the VIS profile once, after a login, when the
-  // site knows the reader and the profile does not carry this handle already.
+  // Offer to put the handle on the VIS profile after a login, when the site
+  // knows the reader and the profile does not carry this handle already. The
+  // prompt itself remembers a "Not now".
   const offerHandleSave =
     native !== null &&
     hasToken &&
     identity !== null &&
-    linkedHandle !== native.profile.handle &&
-    !handlePromptHidden &&
-    !isHandlePromptDismissed(native.profile.handle);
+    linkedHandle !== native.profile.handle;
 
   return (
     <section
@@ -1264,12 +1159,9 @@ export default function BlueskyDiscussion({
 
       {offerHandleSave && (
         <SaveHandlePrompt
+          key={native.profile.handle}
           handle={native.profile.handle}
-          onDismiss={() => setHandlePromptHidden(true)}
-          onSaved={(handle) => {
-            setSavedHandle(handle);
-            setHandlePromptHidden(true);
-          }}
+          onSaved={() => setSavedHandle(native.profile.handle)}
         />
       )}
 
@@ -1369,7 +1261,7 @@ export default function BlueskyDiscussion({
             {/* A comment from the reader's own Bluesky account is signed by
                 that account, so there is no name to hide. */}
             {native ? (
-              <small style={{ fontSize: "0.8rem", color: "#6b7280" }}>
+              <small style={hintTextStyle}>
                 Posted from your Bluesky account.
               </small>
             ) : (

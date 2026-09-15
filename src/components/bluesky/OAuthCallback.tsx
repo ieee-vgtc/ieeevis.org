@@ -8,7 +8,8 @@
  */
 
 import { useEffect, useState } from "react";
-import { completeLogin, siteBase } from "./oauth";
+import { withBaseURL } from "../../utils/withBaseURL";
+import { completeLogin } from "./oauth";
 
 export default function OAuthCallback() {
   const [error, setError] = useState<string | null>(null);
@@ -38,7 +39,7 @@ export default function OAuthCallback() {
   if (error) {
     return (
       <p>
-        {error} <a href={`${siteBase()}/program/papers`}>Back to the papers</a>
+        {error} <a href={withBaseURL("/program/papers")}>Back to the papers</a>
       </p>
     );
   }
