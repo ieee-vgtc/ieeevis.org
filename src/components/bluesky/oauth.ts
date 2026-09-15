@@ -33,8 +33,21 @@ import type {
 import { normalizeBskyHandle } from "../../utils/bskyHandle";
 import { safeReturnTo, siteBase } from "../../utils/withBaseURL";
 
-/** `transition:generic` is what lets a public client post and like. */
-export const OAUTH_SCOPE = "atproto transition:generic";
+/**
+ * Exactly what `native.ts` does and nothing more: write and delete posts
+ * and likes in the reader's repository, and read profiles and posts through
+ * the Bluesky AppView. A token stolen from the browser can do only that —
+ * not follow, block, edit the profile, or read messages. The account's
+ * consent screen lists these instead of "full access".
+ */
+const APPVIEW = "did:web:api.bsky.app%23bsky_appview";
+export const OAUTH_SCOPE = [
+  "atproto",
+  "repo:app.bsky.feed.post?action=create&action=delete",
+  "repo:app.bsky.feed.like?action=create&action=delete",
+  `rpc:app.bsky.actor.getProfile?aud=${APPVIEW}`,
+  `rpc:app.bsky.feed.getPosts?aud=${APPVIEW}`,
+].join(" ");
 export const CALLBACK_PATH = "/oauth/bluesky/";
 const METADATA_PATH = "/oauth/client-metadata.json";
 /** Handles resolve through DNS, which the browser cannot do itself. */
