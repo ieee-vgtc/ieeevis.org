@@ -4,12 +4,18 @@
  *
  * Every reader is offered the login, whether or not the site knows them: a
  * reader with no site session cannot use the guest composer, but can still
- * take part from their own Bluesky account. A reader whose VIS profile carries
- * a Bluesky handle gets that handle filled in so logging in is one click.
+ * take part from their own Bluesky account.
+ *
+ * The button goes straight to the bsky.social login page, where nearly every
+ * account lives, so nobody has to type a handle first. A reader whose VIS
+ * profile carries a handle logs in as that account in one click — the handle
+ * finds the account's server, wherever it is. The handle form is only for an
+ * account hosted somewhere other than bsky.social.
  */
 
 import { useId, useState } from "react";
 import type { CSSProperties, FormEvent } from "react";
+import { BLUESKY_ENTRYWAY } from "./oauth";
 import {
   errorTextStyle,
   primaryButtonStyle,
@@ -23,7 +29,8 @@ interface BlueskyLoginProps {
   linkedHandle: string | null;
   busy: boolean;
   error: string | null;
-  onSignIn: (handle: string) => void;
+  /** Start the login, with a handle or a server URL. */
+  onSignIn: (input: string) => void;
   onSignOut: () => void;
   bskyUrl: string;
 }
@@ -100,14 +107,14 @@ export default function BlueskyLogin({
       >
         <form onSubmit={submit} style={actionsStyle}>
           <label htmlFor={inputId} style={{ fontWeight: 600 }}>
-            🦋 Your Bluesky handle
+            🦋 Your handle
           </label>
           <input
             autoComplete="username"
             disabled={busy}
             id={inputId}
             onChange={(event) => setHandle(event.target.value)}
-            placeholder="name.bsky.social"
+            placeholder="name.example.com"
             style={inputStyle}
             type="text"
             value={handle}
@@ -129,7 +136,8 @@ export default function BlueskyLogin({
           </button>
         </form>
         <span style={reasonStyle}>
-          Bluesky asks you to approve this site, then sends you back here.
+          For an account that is not on bsky.social. The handle finds your
+          server, which asks you to approve this site and sends you back here.
         </span>
         {error && <span style={errorTextStyle}>{error}</span>}
       </div>
@@ -163,7 +171,7 @@ export default function BlueskyLogin({
             </button>
             <button
               disabled={busy}
-              onClick={() => setShowForm(true)}
+              onClick={() => onSignIn(BLUESKY_ENTRYWAY)}
               style={buttonStyle}
               type="button"
             >
@@ -173,13 +181,21 @@ export default function BlueskyLogin({
         ) : (
           <button
             disabled={busy}
-            onClick={() => setShowForm(true)}
+            onClick={() => onSignIn(BLUESKY_ENTRYWAY)}
             style={primaryButtonStyle}
             type="button"
           >
-            Log in with Bluesky
+            {busy ? "Opening Bluesky…" : "Log in with Bluesky"}
           </button>
         )}
+        <button
+          disabled={busy}
+          onClick={() => setShowForm(true)}
+          style={textButtonStyle}
+          type="button"
+        >
+          My account is not on bsky.social
+        </button>
         {viewLink}
       </span>
     </div>
@@ -234,6 +250,18 @@ const buttonStyle: CSSProperties = {
   ...secondaryButtonStyle,
   border: "1px solid #93c5fd",
   color: "#1e3a8a",
+};
+
+/** A link-like button for the rare case, so it does not compete with the real one. */
+const textButtonStyle: CSSProperties = {
+  border: "none",
+  background: "none",
+  padding: 0,
+  color: "#1e40af",
+  cursor: "pointer",
+  fontFamily: "inherit",
+  fontSize: "0.82rem",
+  textDecoration: "underline",
 };
 
 // The site's prose links carry a dashed border-bottom (.content a); this one

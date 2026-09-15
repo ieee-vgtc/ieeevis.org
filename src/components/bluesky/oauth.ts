@@ -50,8 +50,13 @@ export const OAUTH_SCOPE = [
 ].join(" ");
 export const CALLBACK_PATH = "/oauth/bluesky/";
 const METADATA_PATH = "/oauth/client-metadata.json";
-/** Handles resolve through DNS, which the browser cannot do itself. */
-const HANDLE_RESOLVER = "https://bsky.social";
+/**
+ * Where Bluesky-hosted accounts log in. Given as the sign-in input it takes
+ * the reader straight to that login page, no handle needed; it also resolves
+ * handles (through DNS, which the browser cannot do itself) for accounts
+ * hosted elsewhere.
+ */
+export const BLUESKY_ENTRYWAY = "https://bsky.social";
 /** Where `@atproto/oauth-client-browser` remembers the signed-in account. */
 const STORED_SUB_KEY = "@@atproto/oauth-client-browser(sub)";
 
@@ -104,12 +109,12 @@ function getClient(): Promise<BrowserOAuthClient> {
     if (isLoopback(window.location.hostname)) {
       return BrowserOAuthClient.load({
         clientId: loopbackClientId(window.location, base),
-        handleResolver: HANDLE_RESOLVER,
+        handleResolver: BLUESKY_ENTRYWAY,
       });
     }
     return new BrowserOAuthClient({
       clientMetadata: buildClientMetadata(window.location.origin, base),
-      handleResolver: HANDLE_RESOLVER,
+      handleResolver: BLUESKY_ENTRYWAY,
     });
   })();
   return clientPromise;
@@ -156,16 +161,20 @@ export async function completeLogin(): Promise<{
 }
 
 /**
- * Send the reader to their PDS to log in. Never resolves: the page navigates
- * away, and the returned promise only rejects if it does not (the reader used
- * the back button, or the handle could not be resolved).
+ * Send the reader to log in — at the server given as a URL, or at the one
+ * their handle resolves to. Never resolves: the page navigates away, and the
+ * returned promise only rejects if it does not (the reader used the back
+ * button, or the handle could not be resolved).
  */
 export async function startLogin(
-  handle: string,
+  input: string,
   returnTo: string,
 ): Promise<never> {
   const client = await getClient();
-  return client.signInRedirect(normalizeBskyHandle(handle), {
+  const target = /^https?:\/\//.test(input)
+    ? input
+    : normalizeBskyHandle(input);
+  return client.signInRedirect(target, {
     state: returnTo,
     scope: OAUTH_SCOPE,
   });

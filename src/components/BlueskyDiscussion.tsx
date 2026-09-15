@@ -1107,10 +1107,10 @@ export default function BlueskyDiscussion({
 
   // Where Bluesky sends the reader back to after the login: this discussion.
   const sectionId = `bsky-discussion-${paperId || "direct"}`;
-  const signInWithBluesky = (handle: string) => {
+  const signInWithBluesky = (input: string) => {
     markInteraction();
     const { pathname, search } = window.location;
-    void bluesky.signIn(handle, `${pathname}${search}#${sectionId}`);
+    void bluesky.signIn(input, `${pathname}${search}#${sectionId}`);
   };
 
   // Offer to put the handle on the VIS profile after a login, when the site

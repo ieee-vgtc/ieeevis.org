@@ -25,8 +25,11 @@ export interface BlueskyLoginState {
   /** A login attempt is under way (resolving the handle, then navigating). */
   busy: boolean;
   error: string | null;
-  /** Send the reader to Bluesky to log in; `returnTo` is where they come back. */
-  signIn: (handle: string, returnTo: string) => Promise<void>;
+  /**
+   * Send the reader to log in, at a server URL or as a handle; `returnTo` is
+   * where they come back.
+   */
+  signIn: (input: string, returnTo: string) => Promise<void>;
   signOut: () => Promise<void>;
 }
 
@@ -78,11 +81,11 @@ export function useBlueskySession(): BlueskyLoginState {
     };
   }, []);
 
-  const signIn = useCallback(async (handle: string, returnTo: string) => {
+  const signIn = useCallback(async (input: string, returnTo: string) => {
     setBusy(true);
     setError(null);
     try {
-      await startLogin(handle, returnTo);
+      await startLogin(input, returnTo);
     } catch (err) {
       setError(loginErrorMessage(err));
       setBusy(false);
