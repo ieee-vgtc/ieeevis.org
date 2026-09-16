@@ -872,6 +872,7 @@ export default function BlueskyDiscussion({
   }
 
   if (loading && !thread) {
+    // don't show the discussion loading yet, it is still in development
     return <></>;
     // return (
     //   <section ref={sectionRef} style={sectionStyle} aria-live="polite">

@@ -264,9 +264,41 @@ const timelineHeightPx = Math.max(
   MIN_TIMELINE_HEIGHT,
   timelineMinuteSpan * PIXELS_PER_MINUTE,
 );
-const referenceConferenceDayStartMs = sessions.length
-  ? Date.parse(sessions[0].startISO.slice(0, 10) + "T00:00:00+01:00")
-  : Date.parse("2025-11-01T00:00:00+01:00");
+/** Instant of midnight on `dayKey` (YYYY-MM-DD) in the conference timezone. */
+function getConferenceMidnightMs(dayKey: string) {
+  const utcMidnight = Date.parse(`${dayKey}T00:00:00Z`);
+  // Midnight UTC falls on the previous evening in US timezones, so read the
+  // offset at noon, which is on the same side of any DST switch as midnight.
+  const noon = new Date(utcMidnight + 12 * 60 * 60_000);
+  const wallClock = new Intl.DateTimeFormat("en-US", {
+    timeZone: CONFERENCE_TIME_ZONE,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    hourCycle: "h23",
+  }).formatToParts(noon);
+  const part = (type: string) =>
+    Number(wallClock.find((p) => p.type === type)?.value);
+  const noonAsUtc = Date.UTC(
+    part("year"),
+    part("month") - 1,
+    part("day"),
+    part("hour"),
+    part("minute"),
+  );
+  const offsetMs = noonAsUtc - noon.getTime();
+  return utcMidnight - offsetMs;
+}
+
+// The time axis ticks are instants on the first day, so the client can relabel
+// them in the viewer's local timezone.
+const referenceConferenceDayStartMs = getConferenceMidnightMs(
+  sessions.length
+    ? sessions[0].dayKey
+    : getConferenceDayKey(new Date().toISOString()),
+);
 
 const hourMarks: { minute: number; label: string }[] = [];
 for (
@@ -404,10 +436,14 @@ const frontmatter = {
           </div>
 
           {
+            /* Day columns are not data-day-group-containers: the day headers
+              above are fixed, so a day with no matching sessions stays as an
+              empty column instead of being hidden and shifting later days left. */
+          }
+          {
             dayGroups.map((dayGroup) => (
               <section
                 class="calendar-day-column"
-                data-day-group-container
                 data-day-column
                 data-day-group={dayGroup.dayKey}
               >
@@ -1046,7 +1082,13 @@ const frontmatter = {
             "[data-overlay-room]",
           );
           if (overlayName) overlayName.textContent = name;
-          if (overlayRoom) overlayRoom.textContent = room;
+          if (overlayRoom) {
+            let tempRoom = room;
+            if (room === "TBA") {
+              tempRoom = "Room to be announced";
+            }
+            overlayRoom.textContent = tempRoom;
+          }
           overlayMeta.textContent = [type, event].filter(Boolean).join(" · ");
 
           // color overlay by this bar's accent
