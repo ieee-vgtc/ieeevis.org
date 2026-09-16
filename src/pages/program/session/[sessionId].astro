@@ -81,6 +81,18 @@ function formatSessionDateTime(startISO: string, endISO: string) {
 
 const eventTypeLabel = getProgramEventTypeLabel(event.event_type || "other");
 
+// Workshops, tutorials, and panels are described as a whole rather than by
+// their presentations. Panels share one event, so their details live on the
+// session; workshops and tutorials are one event each.
+const describedEventTypes = ["workshop", "tutorial", "panel"];
+const isDescribedEvent = describedEventTypes.includes(
+  (event.event_type || "").toLowerCase(),
+);
+const description = isDescribedEvent
+  ? session.description || event.event_description
+  : "";
+const websiteUrl = isDescribedEvent ? session.url || event.event_url : "";
+
 const frontmatter = {
   title: `${eventTypeLabel}: ${session.title}`,
   active_nav: "Program",
@@ -115,11 +127,26 @@ const frontmatter = {
       )
     }
 
-    <h2>Presentations in this session</h2>
+    {
+      websiteUrl && (
+        <p class="program-event-meta">
+          <strong class="mr-2">Website:</strong>
+          <a href={websiteUrl}>{websiteUrl}</a>
+        </p>
+      )
+    }
+
+    {description && <p class="program-event-description">{description}</p>}
+
+    {
+      (presentations.length > 0 || !description) && (
+        <h2>Presentations in this session</h2>
+      )
+    }
 
     <div class="program-presentations">
       {
-        presentations.length === 0 && (
+        presentations.length === 0 && !description && (
           <p>
             No presentations are scheduled for this session. If this event is a
             workshop or tutorial, please check the workshop or tutorial page for
@@ -194,7 +221,8 @@ const frontmatter = {
 
     .program-event-link,
     .program-event-meta,
-    .program-event-organizers {
+    .program-event-organizers,
+    .program-event-description {
       margin: 0;
       color: var(--color-gray-800);
     }

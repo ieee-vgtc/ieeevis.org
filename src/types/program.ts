@@ -40,6 +40,9 @@ export interface ProgramSession {
   time_end: string;
   discord_link: NullableString;
   youtube_url: NullableString;
+  /** Overrides the event's description/url when events share one entry (e.g. panels). */
+  description?: NullableString;
+  url?: NullableString;
   time_slots: ProgramTimeSlot[];
 }
 

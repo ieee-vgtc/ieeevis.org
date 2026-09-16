@@ -329,10 +329,10 @@ function formatPeopleForSession(session: SessionListItem) {
         return found;
       };
 
-      const getSearchQuery = (): string =>
-        searchInput instanceof HTMLInputElement
-          ? searchInput.value.trim().toLowerCase()
-          : "";
+      const getSearchText = (): string =>
+        searchInput instanceof HTMLInputElement ? searchInput.value.trim() : "";
+
+      const getSearchQuery = (): string => getSearchText().toLowerCase();
 
       const cardMatchesFilters = (
         card: HTMLElement,
@@ -440,6 +440,26 @@ function formatPeopleForSession(session: SessionListItem) {
         }
       };
 
+      // Keep the filters in the URL so a filtered list can be linked to.
+      const syncUrlParams = () => {
+        const nextParams = new URLSearchParams(window.location.search);
+        const entries: [string, string, string][] = [
+          ["search", getSearchText(), ""],
+          ["type", activeTypeFilter, ALL_FILTER],
+          ["day", getSelectedDay(), "all"],
+        ];
+        for (const [key, value, defaultValue] of entries) {
+          if (value && value !== defaultValue) {
+            nextParams.set(key, value);
+          } else {
+            nextParams.delete(key);
+          }
+        }
+        const query = nextParams.toString();
+        const nextUrl = `${window.location.pathname}${query ? `?${query}` : ""}${window.location.hash}`;
+        history.replaceState(null, "", nextUrl);
+      };
+
       const applyFilters = () => {
         const selectedDay = getSelectedDay();
         const query = getSearchQuery();
@@ -460,6 +480,8 @@ function formatPeopleForSession(session: SessionListItem) {
         if (emptyState) {
           emptyState.hidden = visibleCount > 0;
         }
+
+        syncUrlParams();
       };
 
       for (const button of filterButtons) {
@@ -518,8 +540,9 @@ function formatPeopleForSession(session: SessionListItem) {
         }
       }
 
-      // Pre-apply type filter from URL param (?type=full, etc.)
-      const urlTypeParam = new URLSearchParams(location.search).get("type");
+      // Restore filters from the URL (?search=...&type=full&day=2026-11-10).
+      const urlParams = new URLSearchParams(location.search);
+      const urlTypeParam = urlParams.get("type");
       if (
         urlTypeParam &&
         filterButtons.some(
@@ -527,6 +550,14 @@ function formatPeopleForSession(session: SessionListItem) {
         )
       ) {
         activeTypeFilter = urlTypeParam;
+      }
+      const urlDayParam = urlParams.get("day");
+      if (urlDayParam) {
+        setChoiceValue(dayFilterControl, urlDayParam);
+      }
+      const urlSearchParam = urlParams.get("search");
+      if (urlSearchParam && searchInput instanceof HTMLInputElement) {
+        searchInput.value = urlSearchParam;
       }
 
       refreshFilterButtonState();
