@@ -43,8 +43,8 @@ const source_file = source_file_for_pathname(pathname);
   </head>
   <body id="app" class="overflow-x-hidden">
     <Navigation nav_data={navigation_data} page_info={page_info} client:load />
-    <!-- {isProgramPage && <ProgramTopBar />} -->
-    {(<ProgramTopBar />)}
+    <!-- just show it everywhere like previous years -->
+    <ProgramTopBar />
 
     <main>
       <slot />

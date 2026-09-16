@@ -24,13 +24,6 @@ export const features = {
       slot: "/src/data/program/slot_list.json",
     },
     localTestSources: {
-      // paper: "/src/data/program_test/paper_list.json",
-      // session: "/src/data/program_test/session_list.json",
-      // poster: "/src/data/program_test/poster_list.json",
-      // event: "/src/data/program_test/event_list.json",
-      // room: "/src/data/program_test/room_list.json",
-      // timeblock: "/src/data/program_test/timeblock_list.json",
-      // slot: "/src/data/program_test/slot_list.json",
       paper: "/src/data/program_test/paper_list.json",
       session: "/src/data/program_test/session_list.json",
       poster: "/src/data/program_test/poster_list.json",
