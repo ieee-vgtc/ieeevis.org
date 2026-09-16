@@ -91,8 +91,7 @@ const isDescribedEvent = describedEventTypes.includes(
 // A session's own details (panels, invited talks) apply to any event type.
 const description =
   session.description || (isDescribedEvent ? event.event_description : "");
-const rawWebsiteUrl =
-  session.url || (isDescribedEvent ? event.event_url : "");
+const rawWebsiteUrl = session.url || (isDescribedEvent ? event.event_url : "");
 // Site paths (e.g. an invited speaker's info page) need the base URL.
 const websiteUrl = rawWebsiteUrl && withBaseURL(rawWebsiteUrl);
 const isExternalWebsite = /^https?:\/\//.test(websiteUrl);
@@ -191,11 +190,13 @@ const frontmatter = {
                 Authors: {slot.authors.map((author) => author.name).join(", ")}
               </p>
             )}
-            {slot.contributors && slot.contributors.length > 0 && (
-              <p class="program-presentation-contrib">
-                {slot.contributors.join(", ")}
-              </p>
-            )}
+            {isDescribedEvent &&
+              slot.contributors &&
+              slot.contributors.length > 0 && (
+                <p class="program-presentation-contrib">
+                  {slot.contributors.join(", ")}
+                </p>
+              )}
             {/* Panels and invited talks have no paper page, so their Bluesky
                 discussion — the thread of replies to the announcement post,
                 proxied through bsky.tech.ieeevis.org — belongs here. */}
