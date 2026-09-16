@@ -11,7 +11,17 @@ import { buildLoginUrl } from "../../../lib/auth0";
 import type { Paper } from "../../../types/paper";
 import type { ProgramSession, ProgramTimeSlot } from "../../../types/program";
 
+// Rendered on request (Netlify) so each request can check the signed-in
+// session. The S3 deploys are static files only, so their workflows set
+// STATIC_PROGRAM_PAGES=true, which prerenders this page instead (see
+// astro.config.mjs); there the gated content always shows the login prompt.
 export const prerender = false;
+
+// Only used when STATIC_PROGRAM_PAGES prerenders this page.
+export async function getStaticPaths() {
+  const papers = await fetchAllPapers();
+  return papers.map((paper) => ({ params: { paperId: paper.id } }));
+}
 
 const EVENT_PREFIX_LABELS: Record<string, string> = {
   "v-full": "VIS Full Papers",
