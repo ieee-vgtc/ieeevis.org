@@ -131,7 +131,7 @@ const eventLabel =
 // Link to sessions page pre-filtered by this paper's event type
 const eventType =
   EVENT_PREFIX_TO_TYPE[paper.event_prefix] || paper.event_prefix;
-const eventUrl = withBaseURL(`/program/sessions?type=${eventType}`);
+const eventUrl = withBaseURL(`/program/sessions/?type=${eventType}`);
 
 const awardLabel =
   paper.award === "best"
@@ -273,7 +273,7 @@ const frontmatter = {
               <span>
                 <a
                   href={withBaseURL(
-                    `/program/papers?search=${encodeURIComponent(a.name)}`,
+                    `/program/papers/?search=${encodeURIComponent(a.name)}`,
                   )}
                   class="text-accent underline decoration-accent-200 decoration-dotted underline-offset-3 hover:text-accent-700 focus-visible:text-accent-700"
                 >

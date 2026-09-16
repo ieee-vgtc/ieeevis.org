@@ -179,7 +179,7 @@ function figureOutPersonTypeLabel(session: SessionListItem) {
 function formatPeopleForSession(session: SessionListItem) {
   return session.chairs.map((authorName) => ({
     name: authorName,
-    href: `/program/papers?search=${encodeURIComponent(authorName)}`,
+    href: `/program/papers/?search=${encodeURIComponent(authorName)}`,
   }));
 }
 ---
