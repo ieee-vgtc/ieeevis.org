@@ -701,14 +701,21 @@ const frontmatter = {
 
                   <h3>{session.title}</h3>
 
+                  {/* The event name often repeats the type ("VIS Full Papers")
+                      or the title (tutorials), so it only shows when it adds
+                      something. */}
+                  {session.eventTitle !== session.eventTypeLabel &&
+                    session.eventTitle !== session.title && (
+                      <p class="calendar-session-event">{session.eventTitle}</p>
+                    )}
+
                   <p class="calendar-session-meta">
                     <span class="calendar-session-type">
                       {session.eventTypeLabel}
                     </span>
-                    <span>{session.eventTitle}</span>
+                    <span aria-hidden="true">·</span>
+                    <span>{session.room}</span>
                   </p>
-
-                  <p class="calendar-session-room">{session.room}</p>
 
                   {session.chairs.length > 0 && (
                     <p class="calendar-session-chair">

@@ -27,6 +27,8 @@ export interface ProgramTimeSlot {
   fno: NullableString;
   open_access_supplemental_question?: NullableString;
   open_access_supplemental_link?: NullableString;
+  /** Page about a talk with no paper page, e.g. an invited speaker's info page. */
+  url?: NullableString;
 }
 
 export interface ProgramSession {

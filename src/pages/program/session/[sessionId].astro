@@ -88,10 +88,14 @@ const describedEventTypes = ["workshop", "tutorial", "panel"];
 const isDescribedEvent = describedEventTypes.includes(
   (event.event_type || "").toLowerCase(),
 );
-const description = isDescribedEvent
-  ? session.description || event.event_description
-  : "";
-const websiteUrl = isDescribedEvent ? session.url || event.event_url : "";
+// A session's own details (panels, invited talks) apply to any event type.
+const description =
+  session.description || (isDescribedEvent ? event.event_description : "");
+const rawWebsiteUrl =
+  session.url || (isDescribedEvent ? event.event_url : "");
+// Site paths (e.g. an invited speaker's info page) need the base URL.
+const websiteUrl = rawWebsiteUrl && withBaseURL(rawWebsiteUrl);
+const isExternalWebsite = /^https?:\/\//.test(websiteUrl);
 
 const frontmatter = {
   title: `${eventTypeLabel}: ${session.title}`,
@@ -128,12 +132,17 @@ const frontmatter = {
     }
 
     {
-      websiteUrl && (
-        <p class="program-event-meta">
-          <strong class="mr-2">Website:</strong>
-          <a href={websiteUrl}>{websiteUrl}</a>
-        </p>
-      )
+      websiteUrl &&
+        (isExternalWebsite ? (
+          <p class="program-event-meta">
+            <strong class="mr-2">Website:</strong>
+            <a href={websiteUrl}>{websiteUrl}</a>
+          </p>
+        ) : (
+          <p class="program-event-meta">
+            <a href={websiteUrl}>More information about this session</a>
+          </p>
+        ))
     }
 
     {description && <p class="program-event-description">{description}</p>}
@@ -169,6 +178,10 @@ const frontmatter = {
                 >
                   {slot.title}
                 </a>
+              </h3>
+            ) : slot.url ? (
+              <h3>
+                <a href={withBaseURL(slot.url)}>{slot.title}</a>
               </h3>
             ) : (
               <h3>{slot.title}</h3>

@@ -11,6 +11,7 @@
  */
 import { createHash } from "crypto";
 import { readFileSync, writeFileSync } from "fs";
+import matter from "gray-matter";
 import type { Paper } from "../types/paper";
 import type {
   ProgramEventDefinition,
@@ -26,6 +27,12 @@ const PANELS = "src/data/early_program/panels_list.json";
 // The export has no workshops; their times and details live in these pages.
 const WEEK_AT_A_GLANCE = "src/pages/info/program/week-at-a-glance.md";
 const WORKSHOPS = "src/pages/info/program/workshops.md";
+// Invited talks: schedule item type -> page describing the talk(s).
+const INVITED_TALK_PAGES: Record<string, string> = {
+  Keynote: "src/pages/info/invited-speakers/keynote-speaker.md",
+  Capstone: "src/pages/info/invited-speakers/capstone-speaker.md",
+  VISions: "src/pages/info/invited-speakers/visions.md",
+};
 const OUT_DIR = "src/data/program_test";
 const YEAR_URL = "https://ieeevis.org/year/2026";
 const CREATED_AT = new Date().toISOString();
@@ -301,6 +308,52 @@ function withConferenceTimes(block: SourceBlock): SourceBlock {
     ...block,
     start: easternToIso(date, times[0]),
     end: easternToIso(date, times[1]),
+  };
+}
+
+interface InvitedTalk {
+  speaker: string;
+  title: string;
+  /** Site path (without the base) to the talk's info page or section. */
+  url: string;
+}
+
+// Same ids Astro gives markdown headings (github-slugger).
+const headingId = (heading: string) =>
+  heading
+    .toLowerCase()
+    .replace(/[^\p{L}\p{N}\s-]/gu, "")
+    .replace(/\s/g, "-");
+
+/**
+ * Reads an invited speaker page for the talks it describes, linking back to
+ * the page rather than copying its content. A page with "## Speaker: Title"
+ * sections (VISions) has one talk per section; otherwise the page is a single
+ * talk titled like "Keynote by Speaker".
+ */
+function loadInvitedTalks(file: string) {
+  const { data, content } = matter(readFileSync(file, "utf-8"));
+  const url = `${file.replace(/^src\/pages/, "").replace(/\.md$/, "")}/`;
+  const headings = [...content.matchAll(/^## (.+)$/gm)].map((m) => m[1].trim());
+
+  if (headings.length === 0) {
+    const title = String(data.title ?? "");
+    return {
+      url,
+      talks: [{ speaker: title.replace(/^.*?\bby\s+/, ""), title, url }],
+    };
+  }
+
+  return {
+    url,
+    talks: headings.map((heading): InvitedTalk => {
+      const [speaker, ...titleParts] = heading.split(":");
+      return {
+        speaker: speaker.trim(),
+        title: titleParts.join(":").trim() || speaker.trim(),
+        url: `${url}#${headingId(heading)}`,
+      };
+    }),
   };
 }
 
@@ -698,6 +751,9 @@ function main() {
     }
 
     // Everything else is a plenary/social event with placeholder items only.
+    // Invited talks take their speakers from the info page they link to.
+    const talkPage = INVITED_TALK_PAGES[firstType];
+    const invited = talkPage ? loadInvitedTalks(talkPage) : undefined;
     const programEvent = ensureEvent(
       CONF_EVENT.prefix,
       CONF_EVENT.event,
@@ -721,7 +777,34 @@ function main() {
         title,
         session_id:
           blocks.length > 1 ? `${event.session_id}-${i + 1}` : event.session_id,
+        ...(invited && { url: invited.url }),
       });
+      if (invited) {
+        const slotMinutes = Math.floor(
+          (Date.parse(session.time_end) - Date.parse(session.time_start)) /
+            60_000 /
+            invited.talks.length,
+        );
+        // The slot id keeps the talk type (keynote/capstone/visions) so the
+        // session page shows its Bluesky discussion.
+        const slotPrefix = `${CONF_EVENT.prefix}-${firstType.toLowerCase()}`;
+        session.time_slots = invited.talks.map((talk, t) => {
+          const start = addMinutes(session.time_start, t * slotMinutes);
+          return makeSlot(session, {
+            slot_id:
+              invited.talks.length > 1
+                ? `${slotPrefix}-${slugify(talk.speaker)}`
+                : slotPrefix,
+            title: talk.title,
+            paper_type: firstType,
+            contributors: [talk.speaker],
+            url: talk.url,
+            time_stamp: start,
+            time_start: start,
+            time_end: addMinutes(start, slotMinutes),
+          });
+        });
+      }
       plenaries.set(key, session);
       programEvent.sessions.push(session);
     });
