@@ -103,6 +103,8 @@ _3:00 PM - 4:30 PM (EST)_<br />
 **[Full Papers]** [Let me through, I'm a scientist!](/year/2026/program/session/v-full-full28) — America North<br />
 **[Panel]** [Facts & All the Feels: Data Visualization Through the Affective Lens](/year/2026/program/session/v-panels-panel6) — America South<br />
 
+#### Evening
+
 _5:00 PM - 6:30 PM (EST)_<br />
 VGTC Awards<br />
 Test of Time Awards

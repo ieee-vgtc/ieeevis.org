@@ -13,6 +13,7 @@ import { createHash } from "crypto";
 import { readFileSync, writeFileSync } from "fs";
 import matter from "gray-matter";
 import type { Paper } from "../types/paper";
+import { load_tsv } from "../utils/load_tsv";
 import type {
   ProgramEventDefinition,
   ProgramSession,
@@ -212,19 +213,9 @@ function paperDoi(paperId: string) {
 const addMinutes = (iso: string, minutes: number) =>
   new Date(new Date(iso).getTime() + minutes * 60_000).toISOString();
 
-function loadTsv(file: string): Record<string, string>[] {
-  const [header, ...rows] = readFileSync(file, "utf-8")
-    .split(/\r?\n/)
-    .filter(Boolean)
-    .map((line) => line.split("\t"));
-  return rows.map((row) =>
-    Object.fromEntries(header.map((key, i) => [key, row[i]?.trim() ?? ""])),
-  );
-}
-
 function loadTutorials() {
   return new Map(
-    loadTsv(TUTORIALS).map((record) => [record.tutorial_title, record]),
+    load_tsv(TUTORIALS).map((record) => [record.tutorial_title, record]),
   );
 }
 
@@ -249,7 +240,7 @@ interface PaperDetails {
  */
 function loadPaperDetails() {
   return new Map(
-    loadTsv(PAPERS).map((record, order): [string, PaperDetails] => [
+    load_tsv(PAPERS).map((record, order): [string, PaperDetails] => [
       fixText(record.paper_id),
       {
         paper_type: record.paper_type,
