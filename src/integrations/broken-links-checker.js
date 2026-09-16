@@ -8,7 +8,7 @@ import brokenLinksChecker from "astro-broken-links-checker";
  *
  * The checker validates links against the HTML files emitted at build time.
  * Routes with `prerender = false` (e.g. /program/paper/[paperId], which checks
- * the signed-in session on every request) never emit a file, so every link to
+ * the signed-in session on every request, or /auth/login) never emit a file, so every link to
  * them looked broken. Those routes are collected from Astro's resolved route
  * list, and links matching them are dropped from the checker's results.
  */
@@ -55,8 +55,11 @@ export default function checkBrokenLinks({
         await checker.hooks["astro:config:setup"](params);
       },
       "astro:routes:resolved": ({ routes }) => {
+        // Pages and endpoints (e.g. /auth/login, linked from gated content).
         onDemandRoutes = routes.filter(
-          (route) => route.type === "page" && !route.isPrerendered,
+          (route) =>
+            (route.type === "page" || route.type === "endpoint") &&
+            !route.isPrerendered,
         );
       },
       "astro:build:done": async (params) => {

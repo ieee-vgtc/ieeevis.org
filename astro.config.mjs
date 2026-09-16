@@ -47,6 +47,22 @@ export default defineConfig({
     ],
   }),
   integrations: [
+    // Paper/poster pages render on request so they can check the signed-in
+    // session, but the S3 deploys serve static files only. Their workflows
+    // set STATIC_PROGRAM_PAGES=true to prerender those pages instead.
+    {
+      name: "static-program-pages",
+      hooks: {
+        "astro:route:setup": ({ route }) => {
+          if (
+            process.env.STATIC_PROGRAM_PAGES === "true" &&
+            /src\/pages\/program\/(paper|poster)\//.test(route.component)
+          ) {
+            route.prerender = true;
+          }
+        },
+      },
+    },
     react(),
     sitemap(),
     pagefind(),
