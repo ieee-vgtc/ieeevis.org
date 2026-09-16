@@ -67,7 +67,11 @@ function getEventPartSuffix(event: any, session: any): string {
   if (!isMultiPartEvent) {
     return "";
   }
+  if (event.sessions.length <= 2) {
+    return "";
+  }
   const sessionNumber = session.session_id.split("-").pop();
+  console.log("here", event);
   return ` (part ${sessionNumber})`;
 }
 
@@ -542,14 +546,20 @@ function formatPeopleForSession(session: SessionListItem) {
 
       // Restore filters from the URL (?search=...&type=full&day=2026-11-10).
       const urlParams = new URLSearchParams(location.search);
-      const urlTypeParam = urlParams.get("type");
-      if (
-        urlTypeParam &&
-        filterButtons.some(
-          (button) => button.dataset.typeFilter === urlTypeParam,
-        )
-      ) {
-        activeTypeFilter = urlTypeParam;
+      const urlTypeParam = urlParams.get("type")?.trim().toLowerCase();
+      if (urlTypeParam) {
+        // Accept plurals (?type=workshops). A type with no sessions yet has no
+        // button, but is still applied so the link shows the empty state
+        // rather than silently falling back to every session.
+        const knownTypes = filterButtons.map(
+          (button) => button.dataset.typeFilter,
+        );
+        const singular = urlTypeParam.replace(/s$/, "");
+        activeTypeFilter = knownTypes.includes(urlTypeParam)
+          ? urlTypeParam
+          : knownTypes.includes(singular)
+            ? singular
+            : urlTypeParam;
       }
       const urlDayParam = urlParams.get("day");
       if (urlDayParam) {

@@ -341,7 +341,7 @@ menu:
                     is_new: false
                   - text: "Tutorials"
                     description: "Learn new tools and application domains"
-                    url: "/program/sessions?type=tutorials"
+                    url: "/program/sessions?type=tutorial"
                     is_new: false
                   # - text: "Meetups"
                   #   description: "Meet for discussions and shared experiences"
