@@ -21,6 +21,7 @@ import type {
 
 const SOURCE = "src/data/early_program/vis26-tues-fri-final-schedule.json";
 const TUTORIALS = "src/data/early_program/tutorials_list.tsv";
+const PAPERS = "src/data/early_program/papers_list.tsv";
 const PANELS = "src/data/early_program/panels_list.json";
 // The export has no workshops; their times and details live in these pages.
 const WEEK_AT_A_GLANCE = "src/pages/info/program/week-at-a-glance.md";
@@ -135,6 +136,8 @@ const MOJIBAKE_FIXES: [string, string][] = [
   ["Bšrner", "Börner"],
   ["Jšrg", "Jörg"],
   ["Ã§", "ç"],
+  // A non-breaking space, e.g. trailing "TVCG-2025-03-0212¬†".
+  ["¬†", " "],
 ];
 
 const fixText = (value: string) =>
@@ -160,9 +163,21 @@ const slugify = (value: string) =>
     .replace(/[^a-z0-9]+/g, "_")
     .replace(/^_|_$/g, "");
 
-// "America north (300)" -> "America north"
+/** "Hyeon Jeon, Soohyun Lee, and Jinwook Seo" -> ["Hyeon Jeon", ...] */
+const splitAuthors = (value: string) =>
+  fixText(value)
+    .split(/\s*,\s*(?:and\s+)?|\s+and\s+/)
+    .filter(Boolean);
+
+// "America north (300)" -> "America North" and "St. George A-B" ->
+// "St. George (A+B)", matching the detail files.
 const roomName = (track: string) =>
-  track === "SWAP COLUMN" ? "TBA" : track.replace(/\s*\(\d+\)\s*$/, "");
+  track === "SWAP COLUMN"
+    ? "TBA"
+    : track
+        .replace(/\s*\(\d+\)\s*$/, "")
+        .replace(/\b[a-z]/g, (letter) => letter.toUpperCase())
+        .replace(/\b([A-Z])-([A-Z])$/, "($1+$2)");
 
 /** Stable UUID-shaped id so regenerating keeps paper URLs unchanged. */
 function stableId(key: string) {
@@ -190,20 +205,69 @@ function paperDoi(paperId: string) {
 const addMinutes = (iso: string, minutes: number) =>
   new Date(new Date(iso).getTime() + minutes * 60_000).toISOString();
 
-function loadTutorials() {
-  const [header, ...rows] = readFileSync(TUTORIALS, "utf-8")
+function loadTsv(file: string): Record<string, string>[] {
+  const [header, ...rows] = readFileSync(file, "utf-8")
     .split(/\r?\n/)
     .filter(Boolean)
     .map((line) => line.split("\t"));
-  return new Map(
-    rows.map((row) => {
-      const record = Object.fromEntries(
-        header.map((key, i) => [key, row[i] ?? ""]),
-      );
-      return [record["tutorial_title"].trim(), record];
-    }),
+  return rows.map((row) =>
+    Object.fromEntries(header.map((key, i) => [key, row[i]?.trim() ?? ""])),
   );
 }
+
+function loadTutorials() {
+  return new Map(
+    loadTsv(TUTORIALS).map((record) => [record.tutorial_title, record]),
+  );
+}
+
+/** A row of papers_list.tsv, plus its position in the file. */
+interface PaperDetails {
+  paper_type: string;
+  title: string;
+  authors: string;
+  session_id: string;
+  session_chair_name: string;
+  location: string;
+  zulu_start: string;
+  room_name: string;
+  track_id: string;
+  abstract: string;
+  order: number;
+}
+
+/**
+ * Rows of papers_list.tsv keyed by paper id. The rows are in presentation
+ * order within each session, which the export does not keep.
+ */
+function loadPaperDetails() {
+  return new Map(
+    loadTsv(PAPERS).map((record, order): [string, PaperDetails] => [
+      fixText(record.paper_id),
+      {
+        paper_type: record.paper_type,
+        title: record.title,
+        authors: record.authors,
+        session_id: record.session_id,
+        session_chair_name: record.session_chair_name,
+        location: record.location,
+        zulu_start: record.zulu_start,
+        room_name: record.room_name,
+        track_id: record.track_id,
+        // Named like the panel and tutorial files, or plainly.
+        abstract: record.description_abstract || record.abstract || "",
+        order,
+      },
+    ]),
+  );
+}
+
+// Where the talk is given; Paris and Tianjin are satellite venues.
+const presentationMode = (location: string | undefined) => {
+  if (!location || location === "Boston") return "Premise";
+  if (/pre-?recorded/i.test(location)) return "Pre-recorded";
+  return `Satellite (${location})`;
+};
 
 interface PanelDetails {
   panel_id: string;
@@ -215,6 +279,8 @@ interface PanelDetails {
   panelists: string[];
   zulu_start: string;
   zulu_end: string;
+  room_name: string;
+  track_id: string;
 }
 
 function loadPanels() {
@@ -337,6 +403,43 @@ function main() {
 
   const program: ProgramSessionList = {};
   const papers: Paper[] = [];
+  const paperDetails = loadPaperDetails();
+  const scheduledPaperIds = new Set<string>();
+
+  const makePaper = (
+    paperId: string,
+    prefix: string,
+    title: string,
+    authors: Paper["authors"],
+    presenters: string[],
+    abstract: string,
+  ): Paper => ({
+    id: stableId(paperId),
+    event_prefix: prefix as Paper["event_prefix"],
+    title,
+    contributors: presenters.map((name) => ({ name, email: "" })),
+    authors,
+    abstract,
+    keywords: [],
+    doi: paperDoi(paperId),
+    fno: null,
+    pdf_url: null,
+    preprint_link: null,
+    open_access_supplemental_link: null,
+    open_access_supplemental_question: null,
+    discord_url: null,
+    has_pdf: false,
+    has_image: false,
+    has_ff: false,
+    pmu_upload_link: null,
+    pmu_retrieve_link: null,
+    accessible_pdf: null,
+    practitioners_statement: null,
+    award: null,
+    program_paper_id: programPaperId(paperId),
+    created_at: CREATED_AT,
+    updated_at: CREATED_AT,
+  });
 
   const ensureEvent = (
     prefix: string,
@@ -421,59 +524,78 @@ function main() {
         paperEvent.event,
         paperEvent.eventType,
       );
+      // papers_list.tsv has cleaner titles/authors, rooms, and the talk order.
+      const items = event.papers
+        .map((item) => {
+          const paperId = fixText(item.paper_id);
+          return { item, paperId, details: paperDetails.get(paperId) };
+        })
+        .sort(
+          (a, b) =>
+            (a.details?.order ?? Infinity) - (b.details?.order ?? Infinity),
+        );
+      for (const { paperId, details } of items) {
+        if (!details) continue;
+        if (details.session_id !== event.session_id) {
+          console.warn(
+            `${paperId} is in ${event.session_id} in the schedule but ${details.session_id || "unscheduled"} in ${PAPERS}`,
+          );
+        }
+        if (
+          details.zulu_start &&
+          Date.parse(details.zulu_start) !== Date.parse(blocks[0].start)
+        ) {
+          console.warn(
+            `${paperId} starts ${details.zulu_start} in ${PAPERS} but ${blocks[0].start} in the schedule`,
+          );
+        }
+      }
+      const room = items.find(({ details }) => details?.room_name)?.details;
+
       const session = makeSession(event, paperEvent.prefix, blocks[0], {
         time_end: blocks[blocks.length - 1].end,
+        ...(room && { room_name: room.room_name, track: room.track_id }),
       });
+      const chair = items.find(({ details }) => details?.session_chair_name)
+        ?.details?.session_chair_name;
+      if (chair) session.chair = splitNames(chair);
+
       const totalMinutes =
         (Date.parse(session.time_end) - Date.parse(session.time_start)) /
         60_000;
-      const slotMinutes = Math.floor(totalMinutes / event.papers.length);
+      const slotMinutes = Math.floor(totalMinutes / items.length);
 
-      session.time_slots = event.papers.map((item, i) => {
-        const id = stableId(item.paper_id);
-        const paperId = programPaperId(item.paper_id);
-        const authors = item.authors.map((name) => ({
-          name: fixText(name),
-          email: null,
-        }));
+      session.time_slots = items.map(({ item, paperId, details }, i) => {
+        scheduledPaperIds.add(paperId);
+        const title = details?.title || fixText(item.title);
+        const authors = (
+          details?.authors
+            ? splitAuthors(details.authors)
+            : item.authors
+                .map(fixText)
+                .map((name) => name.replace(/^and\s+/, ""))
+        ).map((name) => ({ name, email: null }));
         const presenters = item.presenters.map(fixText);
-        const doi = paperDoi(item.paper_id);
-        papers.push({
-          id,
-          event_prefix: paperEvent.prefix as Paper["event_prefix"],
-          title: fixText(item.title),
-          contributors: presenters.map((name) => ({ name, email: "" })),
+        const paper = makePaper(
+          paperId,
+          paperEvent.prefix,
+          title,
           authors,
-          abstract: "",
-          keywords: [],
-          doi,
-          fno: null,
-          pdf_url: null,
-          preprint_link: null,
-          open_access_supplemental_link: null,
-          open_access_supplemental_question: null,
-          discord_url: null,
-          has_pdf: false,
-          has_image: false,
-          has_ff: false,
-          pmu_upload_link: null,
-          pmu_retrieve_link: null,
-          accessible_pdf: null,
-          practitioners_statement: null,
-          award: null,
-          program_paper_id: paperId,
-          created_at: CREATED_AT,
-          updated_at: CREATED_AT,
-        });
+          presenters,
+          details?.abstract ?? "",
+        );
+        papers.push(paper);
         const start = addMinutes(session.time_start, i * slotMinutes);
         return makeSlot(session, {
-          slot_id: `${paperEvent.prefix}-${paperId}`,
-          title: fixText(item.title),
+          slot_id: `${paperEvent.prefix}-${paper.program_paper_id}`,
+          title,
           paper_type: paperEvent.paperType,
           contributors: presenters,
           authors,
-          uid: id,
-          doi,
+          presentation_mode: presentationMode(details?.location),
+          abstract: paper.abstract || null,
+          uid: paper.id,
+          doi: paper.doi,
           time_stamp: start,
           time_start: start,
           time_end: addMinutes(start, slotMinutes),
@@ -500,6 +622,10 @@ function main() {
         time_end: blocks[blocks.length - 1].end,
         description: details?.description_abstract.trim() || null,
         url: details?.website.trim() || null,
+        ...(details?.room_name && {
+          room_name: details.room_name,
+          track: details.track_id,
+        }),
       });
       if (
         details &&
@@ -561,6 +687,10 @@ function main() {
           makeSession(event, prefix, block, {
             title,
             session_id: `${prefix}-${i + 1}`,
+            ...(details?.room_name && {
+              room_name: details.room_name,
+              track: details.track_id,
+            }),
           }),
         ),
       );
@@ -595,6 +725,34 @@ function main() {
       plenaries.set(key, session);
       programEvent.sessions.push(session);
     });
+  }
+
+  // Accepted papers the schedule has not placed yet still get a paper page.
+  for (const [paperId, details] of paperDetails) {
+    if (scheduledPaperIds.has(paperId)) continue;
+    const paperEvent = PAPER_EVENTS[details.paper_type];
+    if (!paperEvent) {
+      console.warn(`Unknown paper type "${details.paper_type}" for ${paperId}`);
+      continue;
+    }
+    console.warn(`${paperId} is not in the schedule; listing it unscheduled`);
+    papers.push(
+      makePaper(
+        paperId,
+        paperEvent.prefix,
+        details.title,
+        splitAuthors(details.authors).map((name) => ({ name, email: null })),
+        [],
+        details.abstract,
+      ),
+    );
+  }
+
+  const missingAbstracts = papers.filter((paper) => !paper.abstract).length;
+  if (missingAbstracts > 0) {
+    console.warn(
+      `${missingAbstracts} of ${papers.length} papers have no abstract (add a description_abstract column to ${PAPERS})`,
+    );
   }
 
   const workshopDetails = loadWorkshopDetails();
