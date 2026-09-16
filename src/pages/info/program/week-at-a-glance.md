@@ -126,7 +126,7 @@ _8:00 AM - 9:30 AM (EST)_<br />
 **[VISAP]** [VISAP Paper 1](/year/2026/program/session/a-visap-visap1) — Essex South<br />
 **[Tutorial]** [Running Online User Studies with the reVISit Framework (Part 1)](/year/2026/program/session/t-revisit-t-revisit-1) — Essex North<br />
 **[Tutorial]** [Custom widgets for Python notebooks with anywidget and marimo (Part 1)](/year/2026/program/session/t-marimo-t-marimo-1) — Essex Center<br />
-**[Cluster]** [The Practitioner's Summit (Part 1)](/year/2026/program/session/conf-cluster1-1) — St. George (C+D) / St. George (A+B)<br />
+**[Cluster]** [The Practitioner's Summit (Part 1)](https://cluster-practitioners-summit.github.io/) — St. George (C+D) / St. George (A+B)<br />
 
 _10:00 AM - 11:30 AM (EST)_<br />
 **[Full Papers]** [What does it mean to live, anyway?](/year/2026/program/session/v-full-full23) — America Center<br />
@@ -135,19 +135,18 @@ _10:00 AM - 11:30 AM (EST)_<br />
 **[VISAP]** [VISAP Paper 2](/year/2026/program/session/a-visap-visap2) — Essex South<br />
 **[Tutorial]** [Running Online User Studies with the reVISit Framework (Part 2)](/year/2026/program/session/t-revisit-t-revisit-2) — Essex North<br />
 **[Tutorial]** [Custom widgets for Python notebooks with anywidget and marimo (Part 2)](/year/2026/program/session/t-marimo-t-marimo-2) — Essex Center<br />
-**[Cluster]** [The Practitioner's Summit (Part 2)](/year/2026/program/session/conf-cluster1-2) — St. George (C+D) / St. George (A+B)<br />
+**[Cluster]** [The Practitioner's Summit (Part 2)](https://cluster-practitioners-summit.github.io/) — St. George (C+D) / St. George (A+B)<br />
 
 #### Afternoon
 
 _1:00 PM - 2:30 PM (EST)_<br />
-**[VIS Banquet + VISAP Exhibition](/year/2026/program/session/conf-banquet-visap1)** — Banquet hosted at the [MIT Museum, Cambridge](https://mitmuseum.mit.edu/); [VIS Arts Program (VISAP)](https://visap.net/2026/) exhibition hosted at the [MET Warehouse, MIT, Cambridge](https://betterworld.mit.edu/met-warehouse/)<br />
 **[Full Papers]** [Let's figure out how things work behind the scenes](/year/2026/program/session/v-full-full2) — America North<br />
 **[Full Papers]** [Did you see that? Are you sure?](/year/2026/program/session/v-full-full26) — Essex Center<br />
 **[Short Papers]** [Me, Myself, and AI](/year/2026/program/session/v-short-short3) — America Center<br />
 **[Short Papers]** [Connecting the Dots](/year/2026/program/session/v-short-short7) — Essex North<br />
 **[Panel]** [Industry Meets Academia: Data and Visual Analytics in the Agentic Era](/year/2026/program/session/v-panels-panel3) — America South<br />
 **[VISAP]** [VISAP Pictorial](/year/2026/program/session/a-visap-visap3) — Essex South<br />
-**[Cluster]** [The Practitioner's Summit (Part 3)](/year/2026/program/session/conf-cluster1-3) — St. George (C+D) / St. George (A+B)<br />
+**[Cluster]** [The Practitioner's Summit (Part 3)](https://cluster-practitioners-summit.github.io/) — St. George (C+D) / St. George (A+B)<br />
 
 _3:00 PM - 4:30 PM (EST)_<br />
 **[VISions](/year/2026/program/session/conf-visions1)** — America North / America Center / America South ([details below](#visions))<br />
@@ -160,21 +159,21 @@ _3:00 PM - 4:30 PM (EST)_<br />
 
 A dedicated gathering for people who build, ship, and defend visualizations for a living, held in St. George (C+D) and St. George (A+B).
 
-_8:00 AM - 9:30 AM (EST)_ · [Part 1](/year/2026/program/session/conf-cluster1-1)<br/>
+_8:00 AM - 9:30 AM (EST)_ · [Part 1](https://cluster-practitioners-summit.github.io/)<br/>
 **Welcome & Short Keynote**<br />
 **[Live PolicyViz Podcast](https://cluster-practitioners-summit.github.io/#policyviz)** with Jon Schwabish<br />
 
 _9:30 AM - 10:00 AM (EST)_<br/>
 **Coffee Break** & [Anonymous Vis Feedback](https://cluster-practitioners-summit.github.io/#visexploration)<br />
 
-_10:00 AM - 11:30 AM (EST)_ · [Part 2](/year/2026/program/session/conf-cluster1-2)<br/>
+_10:00 AM - 11:30 AM (EST)_ · [Part 2](https://cluster-practitioners-summit.github.io/)<br/>
 **Live PolicyViz Podcast Q & A**<br />
 **[Practitioner Lightning Talks](https://cluster-practitioners-summit.github.io/#lightningtalks)**<br />
 
 _11:30 AM - 1:00 PM (EST)_<br/>
 **Catered Lunch** & [Anonymous Vis Feedback](https://cluster-practitioners-summit.github.io/#visexploration)<br />
 
-_1:00 PM - 2:30 PM (EST)_ · [Part 3](/year/2026/program/session/conf-cluster1-3)<br/>
+_1:00 PM - 2:30 PM (EST)_ · [Part 3](https://cluster-practitioners-summit.github.io/)<br/>
 **[FAQ Freelancing Info Session](https://cluster-practitioners-summit.github.io/#freelancefaq)**<br />
 **Closing Notes**<br />
 
@@ -187,6 +186,14 @@ A venue for forward-thinking ideas to inspire the broad visualization community 
 _3:00 PM - 4:30 PM (EST)_ · [VISions session](/year/2026/program/session/conf-visions1)<br/>
 **[Will Visualization Help Humans Act on Data or Help AI Act on Humans?](/year/2026/info/invited-speakers/visions/#zhu-tian-chen-will-visualization-help-humans-act-on-data-or-help-ai-act-on-humans)** by Zhu-Tian Chen<br />
 **[Ways of Thinking, Ways of Doing, and the Future of Visualization Research](/year/2026/info/invited-speakers/visions/#ana-crisan-ways-of-thinking-ways-of-doing-and-the-future-of-visualization-research)** by Ana Crisan<br />
+
+#### Evening
+
+_6:00 PM - 10:00 PM (EST)_<br/>
+**Banquet** hosted at the [MIT Museum, Cambridge](https://mitmuseum.mit.edu/)<br />
+
+_7:00 PM - 10:00 PM (EST)_<br/>
+**[VIS Arts Program (VISAP)](https://visap.net/2026/)** hosted at the [MET Warehouse, MIT, Cambridge](https://betterworld.mit.edu/met-warehouse/)<br />
 
 <hr />
 
@@ -205,12 +212,14 @@ _8:00 AM - 9:30 AM (EST)_<br />
 **[Tutorial]** [Lossy Compression for Scientific Data: Principles, Tools, and Implications for Visualization (Part 1)](/year/2026/program/session/t-lossy-compression-t-lossy-compression-1) — St. George (A+B)<br />
 
 _10:00 AM - 11:30 AM (EST)_<br />
-**[Town Hall](/year/2026/program/session/conf-townhall1)** — Location to be announced<br />
 **[Full Papers]** [Time after time](/year/2026/program/session/v-full-full30) — America North<br />
 **[Full Papers]** [My followers need to know about this!](/year/2026/program/session/v-full-full21) — America Center<br />
 **[Full Papers]** [That's way too many dimensions for me](/year/2026/program/session/v-full-full11) — Essex North<br />
 **[Panel]** [Friction in Visualization: When Should We Slow People Down?](/year/2026/program/session/v-panels-panel4) — America South<br />
 **[Tutorial]** [Lossy Compression for Scientific Data: Principles, Tools, and Implications for Visualization (Part 2)](/year/2026/program/session/t-lossy-compression-t-lossy-compression-2) — St. George (A+B)<br />
+
+_11:30 AM - 12:30 PM (EST)_<br />
+**Town Hall Meeting**<br />
 
 #### Afternoon
 
@@ -223,13 +232,15 @@ _1:00 PM - 2:30 PM (EST)_<br />
 **[Tutorial]** [Visualization Analysis and Design (Part 1)](/year/2026/program/session/t-vis-analysis-design-t-vis-analysis-design-1) — St. George (A+B)<br />
 
 _3:00 PM - 4:30 PM (EST)_<br />
-**[VIS 2027 Kickoff](/year/2026/program/session/conf-viskickoff1)** — Location to be announced<br />
 **[Full Papers]** [Kids these days don't learn anything anymore, let's fix that!](/year/2026/program/session/v-full-full27) — America North<br />
 **[Full Papers]** [That's way too big!](/year/2026/program/session/v-full-full29) — America Center<br />
 **[Short Papers]** [Lost in Dimensions](/year/2026/program/session/v-short-short6) — Essex North<br />
 **[CG&A]** [Human-Centered Design, Accessibility & Interaction](/year/2026/program/session/v-cga-cga1) — Essex Center<br />
 **[Panel]** [From Correlation to Causality: Future Directions in Visual Causal Inference](/year/2026/program/session/v-panels-panel5) — America South<br />
 **[Tutorial]** [Visualization Analysis and Design (Part 2)](/year/2026/program/session/t-vis-analysis-design-t-vis-analysis-design-2) — St. George (A+B)<br />
+
+_4:30 PM - 5:30 PM (EST)_<br />
+**VIS 2027 Kickoff**<br />
 
 <hr />
 
