@@ -174,7 +174,7 @@ const typeOptions = Object.keys(typeCounts)
         const normalizedType = paper.presentationLabel.trim().toLowerCase();
         const people = paper.authorNames.map((authorName) => ({
           name: authorName,
-          href: `/program/papers?search=${encodeURIComponent(authorName)}`,
+          href: `/program/papers/?search=${encodeURIComponent(authorName)}`,
         }));
         const links = [
           ...(paper.sessionUrl
@@ -182,7 +182,7 @@ const typeOptions = Object.keys(typeCounts)
             : []),
           {
             label: "Search for papers in this session",
-            href: `/program/papers?search=${encodeURIComponent(paper.sessionLabel)}`,
+            href: `/program/papers/?search=${encodeURIComponent(paper.sessionLabel)}`,
           },
         ];
 
