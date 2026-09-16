@@ -5,7 +5,7 @@
 
 export const features = {
   weekOfVis: {
-    enabled: false,
+    enabled: true,
     sourceType:
       //
       "localTest",
@@ -69,7 +69,7 @@ export const features = {
     "/info/social-events",
     "/info/visinpractice/",
     // for working on the program pages, we want to disable the program page until it's ready
-    "/program",
+    // "/program",
   ],
 } as const;
 

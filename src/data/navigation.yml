@@ -317,8 +317,8 @@ menu:
                     is_new: false
                   - text: "Accepted Papers"
                     description: "An overview of all accepted papers"
-                    url: "/info/program/papers_list"
-                    is_new: true
+                    url: "/program/papers"
+                    is_new: false
                   # - text: "Sessions"
                   #   description: "List of all sessions and events"
                   #   url: "/program/sessions"
@@ -333,15 +333,15 @@ menu:
                   #   is_new: false
                   - text: "Panels"
                     description: "Discuss important and controversial issues"
-                    url: "/info/program/panels"
-                    is_new: true
+                    url: "/program/sessions?type=panel"
+                    is_new: false
                   - text: "Workshops"
                     description: "Informal setting to discuss emerging topics"
-                    url: "/info/program/workshops"
+                    url: "/program/sessions?type=workshop"
                     is_new: false
                   - text: "Tutorials"
                     description: "Learn new tools and application domains"
-                    url: "/info/program/tutorials"
+                    url: "/program/sessions?type=tutorial"
                     is_new: false
                   # - text: "Meetups"
                   #   description: "Meet for discussions and shared experiences"

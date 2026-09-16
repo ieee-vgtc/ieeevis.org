@@ -255,7 +255,21 @@
   border: 1px solid var(--color-gray-300);
   border-radius: 12px;
   background: white;
-  overflow: hidden;
+  /* Not overflow: hidden, so a cluster overlay near the bottom can extend
+     past the calendar; the corner children are rounded instead. */
+  overflow: visible;
+}
+
+.calendar-timeline-header {
+  border-radius: 11px 11px 0 0;
+}
+
+.calendar-time-axis {
+  border-bottom-left-radius: 11px;
+}
+
+.calendar-day-column:last-child .calendar-day-track {
+  border-bottom-right-radius: 11px;
 }
 
 .calendar-timeline-header {
@@ -606,102 +620,126 @@
   margin-top: auto;
 }
 
+/* Mobile calendar: a plain agenda list, one row per session with the time
+   in its own column. */
 .calendar-mobile-list {
   display: grid;
-  gap: 0.9rem;
+  gap: 1.75rem;
 }
 
 .calendar-mobile-day {
-  border: 1px solid var(--color-gray-300);
-  border-radius: 10px;
-  background: white;
   min-width: 0;
-  display: flex;
-  flex-direction: column;
 }
 
 .calendar-day-header {
-  border-bottom: 1px solid var(--color-gray-300);
-  padding: 0.85rem 1rem;
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  padding: 0.5rem 0;
+  border-bottom: 2px solid var(--color-gray-900);
   position: sticky;
-  top: 0;
+  /* Below the fixed site nav. */
+  top: 70px;
   background: white;
   z-index: 1;
 }
 
 .calendar-day-header h2 {
   margin: 0;
-  font-size: 1rem;
-  color: var(--color-accent);
+  font-size: 1.15rem;
+  color: var(--color-gray-900);
 }
 
 .calendar-day-header p {
-  margin: 0.2rem 0 0;
+  margin: 0;
   color: var(--color-gray-700);
-  font-size: 0.9rem;
+  font-size: 0.95rem;
 }
 
 .calendar-day-content {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.65rem;
-  padding: 0.75rem;
-  align-content: start;
 }
 
 .calendar-session {
   appearance: none;
-  border: 1px solid var(--color-gray-300);
   font: inherit;
   text-align: left;
   cursor: pointer;
-  border: 1px solid var(--color-gray-300);
-  border-left: 4px solid var(--session-accent);
-  border-radius: 8px;
-  padding: 0.75rem;
-  background: #fff;
+  border: 0;
+  border-bottom: 1px solid var(--color-gray-300);
+  border-radius: 0;
+  padding: 0.8rem 0;
+  background: none;
   display: grid;
-  gap: 0.35rem;
+  grid-template-columns: 6.25rem minmax(0, 1fr);
+  column-gap: 0.75rem;
+  row-gap: 0.2rem;
+  align-content: start;
   color: inherit;
   text-decoration: none;
 }
 
-.calendar-session-time {
+.calendar-session > * {
+  grid-column: 2;
+}
+
+.calendar-session:hover,
+.calendar-session:focus-visible {
+  background: var(--color-gray-200);
+}
+
+.calendar-session:hover h3 {
+  text-decoration: underline;
+}
+
+.calendar-session .calendar-session-time {
+  grid-column: 1;
+  grid-row: 1 / span 4;
   margin: 0;
-  font-size: 0.82rem;
-  font-weight: 700;
-  color: var(--color-gray-700);
+  font-size: 0.88rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: var(--color-gray-900);
 }
 
 .calendar-session h3 {
   margin: 0;
-  font-size: 0.98rem;
+  font-size: 1rem;
   line-height: 1.3;
   color: var(--color-gray-900);
 }
 
+.calendar-session-event,
 .calendar-session-meta,
-.calendar-session-room,
 .calendar-session-chair {
   margin: 0;
-  font-size: 0.86rem;
+  font-size: 0.88rem;
+  line-height: 1.35;
   color: var(--color-gray-700);
 }
 
 .calendar-session-meta {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.35rem;
-  align-items: center;
+  column-gap: 0.35rem;
 }
 
+/* The type colors include yellows that are unreadable as text on white, so
+   the color is a small swatch and the label stays dark. */
 .calendar-session-type {
-  display: inline-block;
-  text-transform: uppercase;
-  font-size: 0.72rem;
-  letter-spacing: 0.04em;
-  font-weight: 800;
-  color: var(--session-accent);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-weight: 600;
+  color: var(--color-gray-800);
+}
+
+.calendar-session-type::before {
+  content: "";
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 2px;
+  background: var(--session-accent);
 }
 
 @media (max-width: 900px) {
@@ -734,7 +772,8 @@
   }
 
   .calendar-timeline-scroll {
-    overflow-x: hidden;
+    /* clip, unlike hidden, leaves the vertical axis visible for overlays. */
+    overflow-x: clip;
     padding-bottom: 0.35rem;
   }
 

@@ -1,0 +1,44 @@
+{
+  "_comment": "Corrections applied by src/scripts/convert-early-program.ts on top of vis26-tues-fri-final-schedule.json, whose social events sit in placeholder blocks. Times are Eastern; days are mon/tues/wed/thur/fri.",
+  "retime": {
+    "awards-reception1": { "day": "tues", "start": "17:00", "end": "18:30" },
+    "banquet-visap1": {
+      "day": "wed",
+      "start": "18:00",
+      "end": "22:00",
+      "title": "Banquet",
+      "room": "MIT Museum, Cambridge"
+    },
+    "townhall1": {
+      "day": "thur",
+      "start": "11:30",
+      "end": "12:30",
+      "title": "Town Hall Meeting"
+    },
+    "viskickoff1": { "day": "thur", "start": "16:30", "end": "17:30" }
+  },
+  "add": [
+    {
+      "session_id": "posters1",
+      "title": "Posters Session",
+      "event_prefix": "v-poster",
+      "event": "VIS Posters",
+      "event_type": "poster",
+      "day": "tues",
+      "start": "18:30",
+      "end": "20:30",
+      "room": "TBA"
+    },
+    {
+      "session_id": "visap-exhibition",
+      "title": "VIS Arts Program (VISAP) Exhibition",
+      "event_prefix": "a-visap",
+      "event": "VIS Arts Program",
+      "event_type": "visap",
+      "day": "wed",
+      "start": "19:00",
+      "end": "22:00",
+      "room": "MET Warehouse, MIT, Cambridge"
+    }
+  ]
+}

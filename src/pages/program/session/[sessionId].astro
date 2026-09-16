@@ -81,6 +81,22 @@ function formatSessionDateTime(startISO: string, endISO: string) {
 
 const eventTypeLabel = getProgramEventTypeLabel(event.event_type || "other");
 
+// Workshops, tutorials, and panels are described as a whole rather than by
+// their presentations. Panels share one event, so their details live on the
+// session; workshops and tutorials are one event each.
+const describedEventTypes = ["workshop", "tutorial", "panel"];
+const isDescribedEvent = describedEventTypes.includes(
+  (event.event_type || "").toLowerCase(),
+);
+// A session's own details (panels, invited talks) apply to any event type.
+const description =
+  session.description || (isDescribedEvent ? event.event_description : "");
+const rawWebsiteUrl =
+  session.url || (isDescribedEvent ? event.event_url : "");
+// Site paths (e.g. an invited speaker's info page) need the base URL.
+const websiteUrl = rawWebsiteUrl && withBaseURL(rawWebsiteUrl);
+const isExternalWebsite = /^https?:\/\//.test(websiteUrl);
+
 const frontmatter = {
   title: `${eventTypeLabel}: ${session.title}`,
   active_nav: "Program",
@@ -115,11 +131,31 @@ const frontmatter = {
       )
     }
 
-    <h2>Presentations in this session</h2>
+    {
+      websiteUrl &&
+        (isExternalWebsite ? (
+          <p class="program-event-meta">
+            <strong class="mr-2">Website:</strong>
+            <a href={websiteUrl}>{websiteUrl}</a>
+          </p>
+        ) : (
+          <p class="program-event-meta">
+            <a href={websiteUrl}>More information about this session</a>
+          </p>
+        ))
+    }
+
+    {description && <p class="program-event-description">{description}</p>}
+
+    {
+      (presentations.length > 0 || !description) && (
+        <h2>Presentations in this session</h2>
+      )
+    }
 
     <div class="program-presentations">
       {
-        presentations.length === 0 && (
+        presentations.length === 0 && !description && (
           <p>
             No presentations are scheduled for this session. If this event is a
             workshop or tutorial, please check the workshop or tutorial page for
@@ -142,6 +178,10 @@ const frontmatter = {
                 >
                   {slot.title}
                 </a>
+              </h3>
+            ) : slot.url ? (
+              <h3>
+                <a href={withBaseURL(slot.url)}>{slot.title}</a>
               </h3>
             ) : (
               <h3>{slot.title}</h3>
@@ -194,7 +234,8 @@ const frontmatter = {
 
     .program-event-link,
     .program-event-meta,
-    .program-event-organizers {
+    .program-event-organizers,
+    .program-event-description {
       margin: 0;
       color: var(--color-gray-800);
     }

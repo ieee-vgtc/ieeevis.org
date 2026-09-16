@@ -16,13 +16,13 @@ const slugify = (value: string) =>
     .replace(/^-+|-+$/g, "");
 
 const tutorials = load_tsv("./src/data/early_program/tutorials_list.tsv")
-  .filter((row) => row["Tutorial title"])
+  .filter((row) => row["tutorial_title"])
   .map((row) => ({
-    title: row["Tutorial title"],
-    anchor: slugify(row["Tutorial title"]),
-    abstract: row["Description / abstract"],
-    website: row["Tutorial website"],
-    organizers: parse_people(row["Organizers"]),
+    title: row["tutorial_title"],
+    anchor: slugify(row["tutorial_title"]),
+    abstract: row["description_abstract"],
+    website: row["website"],
+    organizers: parse_people(row["organizers"]),
   }));
 ---
 

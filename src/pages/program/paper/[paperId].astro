@@ -9,7 +9,7 @@ import { ogDescription } from "../../../utils/ogDescription";
 import { fetchAllSessions } from "../../../utils/paperData";
 import { buildLoginUrl } from "../../../lib/auth0";
 import type { Paper } from "../../../types/paper";
-import type { ProgramTimeSlot } from "../../../types/program";
+import type { ProgramSession, ProgramTimeSlot } from "../../../types/program";
 
 export const prerender = false;
 
@@ -48,31 +48,69 @@ if (!sourcePaper) {
   return new Response(null, { status: 404 });
 }
 
-// Build a map from slot.uid (= paper.id UUID) → session info.
-const slotSessionMap = new Map<
-  string,
-  { session_id: string; session_title: string }
->();
+// Find the slot presenting this paper (slot.uid = paper.id UUID).
+let presentation:
+  { session: ProgramSession; slot: ProgramTimeSlot } | undefined;
 for (const event of Object.values(sessionList)) {
   for (const session of event.sessions) {
-    for (const slot of session.time_slots as ProgramTimeSlot[]) {
-      if (slot.uid) {
-        slotSessionMap.set(slot.uid, {
-          session_id: session.session_id,
-          session_title: session.title,
-        });
-      }
-    }
+    const slot = session.time_slots.find(
+      (entry) => entry.uid === sourcePaper.id,
+    );
+    if (slot) presentation = { session, slot };
   }
 }
 
-const sessionInfo = slotSessionMap.get(sourcePaper.id);
 const paper: Paper = {
   ...sourcePaper,
-  ...(sessionInfo && {
-    session_id: sessionInfo.session_id,
-    session_title: sessionInfo.session_title,
+  ...(presentation && {
+    session_id: presentation.session.session_id,
+    session_title: presentation.session.title,
+    session_room: presentation.session.room_name,
+    time_stamp: presentation.slot.time_start,
   }),
+};
+
+const sessionHref =
+  presentation &&
+  withBaseURL(
+    `/program/session/${presentation.session.event_prefix}-${presentation.session.session_id}`,
+  );
+
+const CONFERENCE_TIME_ZONE = "US/Eastern";
+const presentationDateFormatter = new Intl.DateTimeFormat("en-US", {
+  timeZone: CONFERENCE_TIME_ZONE,
+  weekday: "long",
+  month: "short",
+  day: "numeric",
+});
+const presentationTimeFormatter = new Intl.DateTimeFormat("en-US", {
+  timeZone: CONFERENCE_TIME_ZONE,
+  hour: "2-digit",
+  minute: "2-digit",
+  hour12: false,
+});
+const formatTimeRange = (startISO: string, endISO: string) =>
+  `${presentationTimeFormatter.format(new Date(startISO))} – ${presentationTimeFormatter.format(new Date(endISO))}`;
+
+const presentationDetails = presentation && {
+  date: presentationDateFormatter.format(
+    new Date(presentation.slot.time_start || presentation.session.time_start),
+  ),
+  talkTime: formatTimeRange(
+    presentation.slot.time_start || presentation.session.time_start,
+    presentation.slot.time_end || presentation.session.time_end,
+  ),
+  sessionTime: formatTimeRange(
+    presentation.session.time_start,
+    presentation.session.time_end,
+  ),
+  room: presentation.session.room_name || "TBA",
+  // e.g. "Satellite (Paris)" or "Pre-recorded"; "Premise" is in person.
+  mode:
+    presentation.slot.presentation_mode &&
+    presentation.slot.presentation_mode !== "Premise"
+      ? presentation.slot.presentation_mode
+      : null,
 };
 
 // Breadcrumb data
@@ -157,10 +195,7 @@ const frontmatter = {
                 ›
               </li>
               <li class="breadcrumb__item">
-                <a
-                  href={`/year/2026/program/session/${paper.session_id}`}
-                  class="breadcrumb__link"
-                >
+                <a href={sessionHref} class="breadcrumb__link">
                   {paper.session_title}
                 </a>
               </li>
@@ -243,6 +278,42 @@ const frontmatter = {
       </p>
     </div>
 
+    <!-- Presentation: session, time, and location -->
+    {
+      presentation && presentationDetails && (
+        <div class="mb-6">
+          <h2>Presentation</h2>
+          <dl class="presentation-details">
+            <dt>Session</dt>
+            <dd>
+              <a href={sessionHref}>{presentation.session.title}</a>
+            </dd>
+            <dt>Time</dt>
+            <dd>
+              {`${presentationDetails.date}, ${presentationDetails.talkTime} (${CONFERENCE_TIME_ZONE})`}
+              {presentationDetails.talkTime !==
+                presentationDetails.sessionTime && (
+                <span class="presentation-details__note">
+                  {" "}
+                  · session {presentationDetails.sessionTime}
+                </span>
+              )}
+            </dd>
+            <dt>Location</dt>
+            <dd>
+              {presentationDetails.room}
+              {presentationDetails.mode && (
+                <span class="presentation-details__note">
+                  {" "}
+                  · {presentationDetails.mode}
+                </span>
+              )}
+            </dd>
+          </dl>
+        </div>
+      )
+    }
+
     <!-- Links (immediately after authors, styled as plain inline links matching authors) -->
     {
       (paper.preprint_link ||
@@ -323,15 +394,19 @@ const frontmatter = {
     -->
 
     <!-- Keywords -->
-    <div class="mb-6">
-      <h2>Keywords</h2>
-      <p>{paper.keywords?.join(", ") || "N/A"}</p>
-    </div>
+    {
+      paper.keywords.length > 0 && (
+        <div class="mb-6">
+          <h2>Keywords</h2>
+          <p>{paper.keywords?.join(", ") || "N/A"}</p>
+        </div>
+      )
+    }
 
     <!-- Abstract -->
     <div class="mb-6">
       <h2>Abstract</h2>
-      <p>{paper.abstract}</p>
+      <p>{paper.abstract || "TBD"}</p>
     </div>
 
     <!-- For Practitioners -->
@@ -405,6 +480,29 @@ const frontmatter = {
 </script>
 
 <style>
+  /* Presentation details */
+  .presentation-details {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    column-gap: 1rem;
+    row-gap: 0.25rem;
+    margin: 0;
+  }
+
+  .presentation-details dt {
+    margin: 0;
+    font-weight: 700;
+  }
+
+  .presentation-details dd {
+    margin: 0;
+    padding: 0;
+  }
+
+  .presentation-details__note {
+    color: var(--color-gray-700);
+  }
+
   /* Breadcrumb */
   .breadcrumb {
     display: flex;

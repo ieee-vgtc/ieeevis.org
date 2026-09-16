@@ -872,12 +872,14 @@ export default function BlueskyDiscussion({
   }
 
   if (loading && !thread) {
-    return (
-      <section ref={sectionRef} style={sectionStyle} aria-live="polite">
-        <h2 style={{ marginBottom: "0.5rem" }}>Discussion</h2>
-        <p style={{ color: "#6b7280" }}>Loading the discussion…</p>
-      </section>
-    );
+    // don't show the discussion loading yet, it is still in development
+    return <></>;
+    // return (
+    //   <section ref={sectionRef} style={sectionStyle} aria-live="polite">
+    //     <h2 style={{ marginBottom: "0.5rem" }}>Discussion</h2>
+    //     <p style={{ color: "#6b7280" }}>Loading the discussion…</p>
+    //   </section>
+    // );
   }
 
   if (thread?.state === "not_open") {

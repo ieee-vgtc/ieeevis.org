@@ -10,8 +10,7 @@ import pagefind from "astro-pagefind";
 //https://docs.astro.build/en/guides/integrations-guide/sitemap/
 import sitemap from "@astrojs/sitemap";
 import rehypeExternalLinks from "rehype-external-links";
-// @ts-ignore
-import brokenLinksChecker from "astro-broken-links-checker";
+import brokenLinksChecker from "./src/integrations/broken-links-checker.js";
 import checkRepoFileLinks from "./src/integrations/check-repo-file-links.js";
 
 import pkg from "./package.json" with { type: "json" };
@@ -51,13 +50,12 @@ export default defineConfig({
     react(),
     sitemap(),
     pagefind(),
+    // Wraps astro-broken-links-checker, which only knows about files emitted
+    // at build time, so links to on-demand routes (paper/poster detail pages)
+    // are not reported as broken. Writes .link-checker/broken-links.log.
     brokenLinksChecker({
-      logFilePath: "broken-links.log",
       checkExternalLinks: false,
-      // This checker only validates files emitted at build time. Program
-      // detail routes are intentionally rendered on demand, so their valid
-      // links cannot be checked this way. The checker still writes its report.
-      throwError: false,
+      throwError: true,
     }),
     // brokenLinksChecker skips external links, so links back into this repo
     // (e.g. the footer's "suggest a fix") are verified against the file tree.
@@ -79,6 +77,13 @@ export default defineConfig({
     ],
   },
   vite: {
+    // `astro build` (also run by the pre-commit hook) pre-bundles
+    // dependencies in production mode. Sharing the dev server's cache let a
+    // build replace React with its production bundle under a running dev
+    // server ("_jsxDEV is not a function"), so builds get their own cache.
+    cacheDir: process.argv.includes("build")
+      ? "node_modules/.vite-build"
+      : "node_modules/.vite",
     optimizeDeps: {
       include: ["react", "react-dom", "react-dom/client"],
     },
