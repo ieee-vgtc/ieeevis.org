@@ -71,7 +71,6 @@ function getEventPartSuffix(event: any, session: any): string {
     return "";
   }
   const sessionNumber = session.session_id.split("-").pop();
-  console.log("here", event);
   return ` (part ${sessionNumber})`;
 }
 
