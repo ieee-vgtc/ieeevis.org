@@ -425,7 +425,11 @@ function loadWorkshopSchedule() {
       continue;
     }
     const workshop = line.match(/^\*\*\[Workshop\]\*\*\s*(.*?)\s*<br\s*\/?>/);
-    if (workshop && block) entries.push({ name: workshop[1], ...block });
+    if (workshop && block) {
+      // Names link to their session: "[BELIV: …](/year/2026/program/…)".
+      const name = workshop[1].replace(/\[([^\]]*)\]\([^)]*\)/g, "$1");
+      entries.push({ name, ...block });
+    }
   }
   return entries;
 }
