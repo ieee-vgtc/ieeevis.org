@@ -77,6 +77,13 @@ export default defineConfig({
     ],
   },
   vite: {
+    // `astro build` (also run by the pre-commit hook) pre-bundles
+    // dependencies in production mode. Sharing the dev server's cache let a
+    // build replace React with its production bundle under a running dev
+    // server ("_jsxDEV is not a function"), so builds get their own cache.
+    cacheDir: process.argv.includes("build")
+      ? "node_modules/.vite-build"
+      : "node_modules/.vite",
     optimizeDeps: {
       include: ["react", "react-dom", "react-dom/client"],
     },

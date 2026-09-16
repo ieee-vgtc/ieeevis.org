@@ -28,6 +28,8 @@ const PANELS = "src/data/early_program/panels_list.json";
 // The export has no workshops; their times and details live in these pages.
 const WEEK_AT_A_GLANCE = "src/pages/info/program/week-at-a-glance.md";
 const WORKSHOPS = "src/pages/info/program/workshops.md";
+// Hand corrections to the export (e.g. social events in placeholder blocks).
+const OVERRIDES = "src/data/early_program/schedule_overrides.json";
 // Invited talks: schedule item type -> page describing the talk(s).
 const INVITED_TALK_PAGES: Record<string, string> = {
   Keynote: "src/pages/info/invited-speakers/keynote-speaker.md",
@@ -423,6 +425,90 @@ function loadWorkshopSchedule() {
     }
   }
   return entries;
+}
+
+interface OverrideTime {
+  day: string;
+  /** Eastern "HH:MM" */
+  start: string;
+  end: string;
+}
+
+interface Overrides {
+  /** session_id -> new time (and optionally title/room). */
+  retime?: Record<string, OverrideTime & { title?: string; room?: string }>;
+  /** Sessions missing from the export. */
+  add?: (OverrideTime & {
+    session_id: string;
+    title: string;
+    event_prefix: string;
+    event: string;
+    event_type: string;
+    room?: string;
+  })[];
+}
+
+function overrideTimes({ day, start, end }: OverrideTime, label: string) {
+  const date = CONFERENCE_DATES[day];
+  if (!date) throw new Error(`${OVERRIDES}: unknown day "${day}" for ${label}`);
+  return {
+    time_start: easternToIso(date, start),
+    time_end: easternToIso(date, end),
+  };
+}
+
+function applyOverrides(program: ProgramSessionList) {
+  const overrides: Overrides = JSON.parse(readFileSync(OVERRIDES, "utf-8"));
+
+  for (const [sessionId, change] of Object.entries(overrides.retime ?? {})) {
+    const session = Object.values(program)
+      .flatMap((event) => event.sessions)
+      .find((entry) => entry.session_id === sessionId);
+    if (!session) {
+      console.warn(`${OVERRIDES}: no session ${sessionId} to retime`);
+      continue;
+    }
+    const times = overrideTimes(change, sessionId);
+    // Keep any slots at the same offsets within the session.
+    const shift = Date.parse(times.time_start) - Date.parse(session.time_start);
+    for (const slot of session.time_slots) {
+      slot.time_start = addMinutes(slot.time_start, shift / 60_000);
+      slot.time_end = addMinutes(slot.time_end, shift / 60_000);
+      slot.time_stamp = slot.time_start;
+    }
+    Object.assign(session, times);
+    if (change.title) session.title = change.title;
+    if (change.room) {
+      session.room_name = change.room;
+      session.track = slugify(change.room);
+    }
+  }
+
+  for (const added of overrides.add ?? []) {
+    const event = (program[added.event_prefix] ??= {
+      event: added.event,
+      long_name: added.event,
+      event_type: added.event_type,
+      event_prefix: added.event_prefix,
+      event_description: "",
+      event_url: `${YEAR_URL}/program/event_${added.event_prefix}.html`,
+      organizers: [],
+      sessions: [],
+    });
+    const room = added.room ?? "TBA";
+    event.sessions.push({
+      title: added.title,
+      session_id: added.session_id,
+      event_prefix: added.event_prefix,
+      track: slugify(room),
+      room_name: room,
+      chair: [],
+      ...overrideTimes(added, added.session_id),
+      discord_link: null,
+      youtube_url: null,
+      time_slots: [],
+    });
+  }
 }
 
 function main() {
@@ -859,6 +945,8 @@ function main() {
       time_slots: [],
     });
   }
+
+  applyOverrides(program);
 
   for (const event of Object.values(program)) {
     event.sessions.sort(
