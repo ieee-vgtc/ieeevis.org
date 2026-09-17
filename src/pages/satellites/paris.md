@@ -64,3 +64,5 @@ The conference will take place close to Place d'Italie. There are two Ibis hotel
 - ibis Styles Paris Tolbiac Bibliothèque, 11 minutes walk: https://maps.app.goo.gl/pi6HxQot98J5rH2MA
 
 Otherwise, we recommend to look for hotels near "Institut des Systèmes Complexes" https://maps.app.goo.gl/BXhJ7TUpEjCdZYRj9, there are many around.
+
+![cea logo](/year/2026/assets/satellite/cea-web.png)
