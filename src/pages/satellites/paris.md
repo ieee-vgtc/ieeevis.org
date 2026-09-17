@@ -37,15 +37,22 @@ We are still working on the local program. The current proposal will change as w
 
 ### Streamed program from Boston
 
-|          Time | Tuesday, Nov 10 | Wednesday, Nov 11 | Thursday, Nov 12 | Friday, Nov 13 |
-| ------------: | :-------------- | :---------------- | :--------------- | :------------- |
-| 14:00 - 15:30 | Room 1:         | Room 1:           | Room 1:          | Room 1:        |
-|               | Room 2:         | Room 2:           | Room 2:          | Room 2:        |
-|               | Room 3:         | Room 3:           | Room 3:          | Room 3:        |
-| 15:30 - 16:00 | _coffe break_   | _coffe break_     | _coffe break_    | _coffe break_  |
-| 16:00 - 17:30 | Room 1:         | Room 1:           | Room 1:          | Room 1:        |
-|               | Room 2:         | Room 2:           | Room 2:          | Room 2:        |
-|               | Room 3:         | Room 3:           | Room 3:          | Room 3:        |
+|          Time | Tuesday, Nov 10                                                                                 | Wednesday, Nov 11                                           | Thursday, Nov 12                                   | Friday, Nov 13 |
+| ------------: | :-----------------------                                                                        | :----------------                                           | :---------------                                   | :------------- |
+| 14:00 - 15:30 | Amphi: [Opening Keynote](https://ieeevis.org/year/2026/info/invited-speakers/keynote-speaker/)  | Amphi: Let's dig into the data                              | Amphi: Story time                                  | Amphi: This feels amazingly real!     |
+|               |                                                                                                 | Room 2: I feel tangled in a net                             | Room 2: How can I do this myself?                  | Room 2: Let's dig into the data        |
+|               |                                                                                                 | Musaiques: Can we trust this chart? (Asking for a Friend)   | Musaiques: Is the model even thinking?             | Musaiques: Big data, bigger physics       |
+| 15:30 - 16:00 | _coffe break_                                                                                   | _coffe break_                                               | _coffe break_                                      | _coffe break_  |
+| 16:00 - 17:30 | Amphi: The more the merrier                                                                     | Amphi: Data, Meet Human: Vis that cares                     | Amphi: Time after time                             | Amphi:  Capstone      |
+|               | Room 2: Please don't just stare at the picture                                                  | Room 2: What does it mean to live, anyway?                  | Room 2: My followers need to know about this!      |         |
+|               | Musaiques: Panel: Challenges and opportunities for evaluating AI-assisted generation of...      | Musaiques: Panel: Beyond the last mile                      | Musaiques: Panel: Friction in Visualization        |         |
+
+## Sponsors
+We are very grateful for support for the Paris satellite from the following sponsors:
+
+
+| | 
+|CEA|
 
 ## FAQ
 
