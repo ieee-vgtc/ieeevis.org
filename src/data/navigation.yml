@@ -311,13 +311,13 @@ menu:
     sections:
       - subsections:
           - heading: "Vis Program"
-            # heading_url: "/info/program/week-at-a-glance"
+            heading_url: "/info/program/week-at-a-glance"
             columns:
               - links:
                   - text: "Schedule"
                     description: "A full schedule for the conference"
                     url: "/program/calendar"
-                    is_new: false
+                    is_new: true
                   # - text: "Week at a Glance"
                   #   description: "Preliminary overview of the conference week"
                   #   url: "/info/program/week-at-a-glance"
