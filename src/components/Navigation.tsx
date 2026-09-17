@@ -55,7 +55,6 @@ export default function Navigation({
               <button
                 className={classNames({
                   "menu_item font-display text-lg md:text-base lg:text-lg px-8 md:px-4 lg:px-4 mx-0 lg:mx-2 py-4 md:py-6 border-b-2 border-primary-200 ": true,
-                  "menu_item--focused": selectedDropDownIndex === 0,
                   "md:border-b-4 md:border-white ": page_info?.title === "Blog",
                   "md:border-none": page_info?.title !== "Blog",
                 })}
