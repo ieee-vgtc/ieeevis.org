@@ -105,12 +105,6 @@ menu:
                   - text: "Junior Reviewer Guide"
                     url: "/info/call-participation/junior-reviewer-guide"
                     is_new: false
-          - heading: "Presenter Information"
-            columns:
-              - links:
-                  - text: "Final Information for Paper Authors"
-                    url: "/info/presenter-information/final-information-paper-authors"
-                    is_new: false
           #       - text: "Preparing Your Talk"
           #         url: "/info/presenter-information/talk-guide"
           #         is_new: false
@@ -141,6 +135,12 @@ menu:
           - heading: "Supporters"
             heading_url: "/supporters"
             description: "Your support makes this conference possible!"
+          - heading: "Presenter Information"
+            columns:
+              - links:
+                  - text: "Final Information for Paper Authors"
+                    url: "/info/presenter-information/final-information-paper-authors"
+                    is_new: false
 
   # ---------------------------------------------------------------------------
 
@@ -311,13 +311,17 @@ menu:
     sections:
       - subsections:
           - heading: "Vis Program"
-            # heading_url: "/info/program/week-at-a-glance"
+            heading_url: "/info/program/week-at-a-glance"
             columns:
               - links:
-                  - text: "Week at a Glance"
-                    description: "Preliminary overview of the conference week"
-                    url: "/info/program/week-at-a-glance"
-                    is_new: false
+                  - text: "Schedule"
+                    description: "A full schedule for the conference"
+                    url: "/program/calendar"
+                    is_new: true
+                  # - text: "Week at a Glance"
+                  #   description: "Preliminary overview of the conference week"
+                  #   url: "/info/program/week-at-a-glance"
+                  #   is_new: false
                   - text: "Accepted Papers"
                     description: "An overview of all accepted papers"
                     url: "/program/papers"
@@ -350,26 +354,7 @@ menu:
                   #   description: "Meet for discussions and shared experiences"
                   #   url: "/info/program/meetups"
                   #   is_new: false
-          - heading: "Associated Events"
-            description: "Events associated with the main conference"
-            columns:
-              - links:
-                  - text: "IEEE SciVis Contest"
-                    description: "A contest on Scientific Data Visualization"
-                    url: "https://sciviscontest2026.github.io/"
-                    is_new: false
-                    is_external: true
 
-                  - text: "VIS Arts Program (VISAP)"
-                    description: "A mini-conference and exhibition for vis researchers, designers, and artists"
-                    url: "https://visap.net/2026/"
-                    is_new: false
-                    is_external: true
-                  - text: "CLUSTER: The Practitioners' Summit"
-                    description: "A gathering for people who build, ship, and defend visualizations for a living."
-                    url: "https://cluster-practitioners-summit.github.io/"
-                    is_new: true
-                    is_external: true
           # - heading: "Plenary Sessions"
           #   heading_url: "/info/plenary/summary"
           #   columns:
@@ -394,19 +379,7 @@ menu:
                     description: "Zhu-Tian Chen and Ana Crisan"
                     url: "/info/invited-speakers/visions"
                     is_new: true
-          - heading: "Community"
-            heading_url: "/info/community/community"
-            description: "Explore social and topic-based community groups"
-            columns:
-              - links:
-                  - text: "Vis Buddies"
-                    description: "Connecting new and returning VIS attendees"
-                    url: "https://ieeevis.org/year/2026/info/community/vis-buddies/"
-                    is_new: true
-                  - text: "Job Postings"
-                    description: "VIS 2026 job board"
-                    url: "https://ieeevis.org/year/2026/info/community/jobs/"
-                    is_new: true
+
       #     - heading: "Awards and Recognitions"
       #       heading_url: "/info/awards/summary"
       #       columns:
@@ -448,6 +421,45 @@ menu:
       #               description: "Melker Stiftskeller"
       #               url: "/info/social-events/oc-dinner"
       #               is_new: false
+
+  - dropdown: "Events & Community"
+    display: true
+    sections:
+      - subsections:
+          - heading: "Associated Events"
+            description: "Events associated with the main conference"
+            columns:
+              - links:
+                  - text: "IEEE SciVis Contest"
+                    description: "A contest on Scientific Data Visualization"
+                    url: "https://sciviscontest2026.github.io/"
+                    is_new: false
+                    is_external: true
+
+                  - text: "VIS Arts Program (VISAP)"
+                    description: "A mini-conference and exhibition for vis researchers, designers, and artists"
+                    url: "https://visap.net/2026/"
+                    is_new: false
+                    is_external: true
+                  - text: "CLUSTER: The Practitioners' Summit"
+                    description: "A gathering for people who build, ship, and defend visualizations for a living."
+                    url: "https://cluster-practitioners-summit.github.io/"
+                    is_new: true
+                    is_external: true
+      - subsections:
+          - heading: "Community"
+            heading_url: "/info/community/community"
+            description: "Explore social and topic-based community groups"
+            columns:
+              - links:
+                  - text: "Vis Buddies"
+                    description: "Connecting new and returning VIS attendees"
+                    url: "https://ieeevis.org/year/2026/info/community/vis-buddies/"
+                    is_new: true
+                  - text: "Job Postings"
+                    description: "VIS 2026 job board"
+                    url: "https://ieeevis.org/year/2026/info/community/jobs/"
+                    is_new: true
 
   # ---------------------------------------------------------------------------
   - dropdown: "Organization"
