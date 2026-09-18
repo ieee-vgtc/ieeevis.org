@@ -164,7 +164,9 @@ const {
         aria-pressed="true"
       >
         <span>{allLabel}</span>
-        <span class="u-filter-count">{allCount || 0}</span>
+        {allCount !== undefined && (
+          <span class="u-filter-count">{allCount}</span>
+        )}
       </button>
 
       {typeOptions.map((typeOption) => (
