@@ -10,6 +10,8 @@ export function getProgramEventTypeLabel(eventType: string): string {
   const labels: Record<string, string> = {
     full: "VIS Full Papers",
     short: "VIS Short Papers",
+    tvcg: "TVCG Papers",
+    "cg&a": "CG&A Papers",
     vis: "Conference Events",
     visap: "VIS Arts Program",
     poster: "VIS Posters",

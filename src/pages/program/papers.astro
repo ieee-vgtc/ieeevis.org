@@ -100,6 +100,11 @@ const paperCards: ProgramPaperCard[] = papers.map((paper) => {
       ? withBaseURL(`/program/session/${linkedSlot.sessionSlug}`)
       : null,
     award: normalizeText(paper.award) || null,
+    // Earlier years mark TVCG papers with their own event; newer data only
+    // marks them via a TVCG-prefixed program paper id.
+    isTvcg:
+      paper.event_prefix === "v-tvcg" ||
+      /^tvcg/i.test(normalizeText(paper.program_paper_id)),
   };
 });
 

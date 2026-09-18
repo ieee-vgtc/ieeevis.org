@@ -30,6 +30,10 @@ const typeCounts = papers.reduce<Record<string, number>>((acc, paper) => {
   return acc;
 }, {});
 
+// TVCG papers overlap with the other types, so they get their own pill
+// (appended last) instead of being counted as a type.
+const tvcgCount = papers.filter((paper) => paper.isTvcg).length;
+
 const typeOptions = Object.keys(typeCounts)
   .sort((a, b) => a.localeCompare(b))
   .map((value) => ({
@@ -37,7 +41,19 @@ const typeOptions = Object.keys(typeCounts)
     label: getProgramEventTypeLabel(value),
     count: typeCounts[value],
     color: typeColors[value] || "#6b7280",
-  }));
+  }))
+  .concat(
+    tvcgCount > 0
+      ? [
+          {
+            value: "tvcg",
+            label: getProgramEventTypeLabel("tvcg"),
+            count: tvcgCount,
+            color: typeColors.tvcg,
+          },
+        ]
+      : [],
+  );
 ---
 
 <section
@@ -51,7 +67,6 @@ const typeOptions = Object.keys(typeCounts)
     subtitleAfter={""}
     groupingNote="Note: bookmarks are stored locally in your browser and are not shared across devices."
     typeOptions={typeOptions}
-    allCount={papers.length}
     filterBarLabel="Paper type filters"
     allLabel="All"
   >
@@ -172,6 +187,7 @@ const typeOptions = Object.keys(typeCounts)
       papers.map((paper) => {
         const isBookmarked = false;
         const normalizedType = paper.presentationLabel.trim().toLowerCase();
+        const colorType = paper.isTvcg ? "tvcg" : normalizedType;
         const people = paper.authorNames.map((authorName) => ({
           name: authorName,
           href: `/program/papers/?search=${encodeURIComponent(authorName)}`,
@@ -191,17 +207,20 @@ const typeOptions = Object.keys(typeCounts)
             data-program-card
             data-paper-id={paper.id}
             data-type={normalizedType}
+            data-tvcg={paper.isTvcg ? "true" : "false"}
             data-title={paper.title.toLowerCase()}
             data-authors={paper.authorNames.join(",").toLowerCase()}
             data-keywords={paper.keywordsLabel.toLowerCase()}
             data-session={paper.sessionLabel.toLowerCase()}
             data-start-ms={paper.startMs}
-            accentColor={typeColors[normalizedType] || "#f3f4f6"}
-            titleColor={typeTextColors[normalizedType] || "#111827"}
+            accentColor={typeColors[colorType] || "#f3f4f6"}
+            titleColor={typeTextColors[colorType] || "#111827"}
             title={paper.title}
             titleHref={`/program/${itemType}/${paper.id}`}
             eyebrow={
-              paperTypeToNameMap[normalizedType] || paper.presentationLabel
+              paper.isTvcg
+                ? "TVCG Paper"
+                : paperTypeToNameMap[normalizedType] || paper.presentationLabel
             }
             subtitle={paper.award ? `Award: ${paper.award}` : undefined}
             peopleLabel="Authors"
@@ -429,7 +448,11 @@ const typeOptions = Object.keys(typeCounts)
       const visibleCards = cards.filter((card) => {
         const haystack = getFieldValue(card).toLowerCase();
         const cardType = card.dataset.type || "";
-        const typeMatch = typeFilter === "all" || cardType === typeFilter;
+        const typeMatch =
+          typeFilter === "all" ||
+          (typeFilter === "tvcg"
+            ? card.dataset.tvcg === "true"
+            : cardType === typeFilter);
         return (query.length === 0 || haystack.includes(query)) && typeMatch;
       });
 

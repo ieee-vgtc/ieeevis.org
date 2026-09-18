@@ -4,6 +4,7 @@
 export const typeColors: Record<string, string> = {
   full: "#1C3160",
   short: "#FDBB30",
+  tvcg: "#0F766E",
   "cg&a": "#4D7C0F",
   panel: "#A20A35",
   workshop: "#f4a261",
@@ -28,6 +29,7 @@ export const typeColors: Record<string, string> = {
 export const typeTextColors: Record<string, string> = {
   full: "#ffffff",
   short: "#111827",
+  tvcg: "#ffffff",
   "cg&a": "#ffffff",
   panel: "#ffffff",
   workshop: "#ffffff",
