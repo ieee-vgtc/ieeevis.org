@@ -358,6 +358,30 @@ const roomDayGroups = dayGroups.map((dayGroup) => {
     rooms,
   };
 });
+const roomOrder2026 = [
+  "America North / America Center / America South",
+  "America North / America South / America Center",
+  "America north",
+  "America center",
+  "America south",
+  "Essex north",
+  "Essex center",
+  "Essex south",
+  "Straffordshire",
+  "St. George (A+B)",
+  "St. George (C+D)",
+  "St. George (C+D) / St. George (A+B)",
+].map((x) => x.toLowerCase());
+roomDayGroups.forEach((group) => {
+  group.rooms.sort((a, b) => {
+    const getIdx = (z: string) => {
+      const idx = roomOrder2026.findIndex((x) => x === z.toLowerCase());
+      return idx === -1 ? Infinity : idx;
+    };
+
+    return getIdx(a.roomName) - getIdx(b.roomName);
+  });
+});
 
 const frontmatter = {
   title: "Calendar",
