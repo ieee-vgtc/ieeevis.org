@@ -441,7 +441,7 @@ menu:
                     is_external: true
 
                   - text: "IEEE VAST Challenge"
-                    description: "A contest on applying visual analytics"
+                    description: "A contest on Visual Analytics"
                     url: "https://vast-challenge.github.io/2026/"
                     is_new: false
                     is_external: true
