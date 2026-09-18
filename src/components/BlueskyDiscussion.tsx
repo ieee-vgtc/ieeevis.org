@@ -18,6 +18,12 @@
  * Commenting and liking appear only when the thread came from the service and
  * the reader's site session yields a token; everything else is read-only.
  *
+ * A thread read from the AppView also shows no reply likes and no sort control,
+ * and lists its comments newest first. Guest likes live in the service alone, so
+ * the AppView's counts would undercount what the conference saw, and an order
+ * built on them would contradict it. The announcement keeps its own Bluesky like
+ * count, which is right from either source.
+ *
  * A reader can remove their own comments. That deletes the post from Bluesky as
  * well as taking it off this page and cannot be undone, so the control confirms
  * before it acts — and says that the conference keeps its own record either way,
@@ -78,7 +84,10 @@ interface BlueskyDiscussionProps {
   apiBases?: string[];
   refreshMs?: number;
   maxDepth?: number;
-  /** Initial order of top-level replies; the reader can toggle. */
+  /**
+   * Initial order of top-level replies; the reader can toggle. Service threads
+   * only — an AppView thread is always newest first.
+   */
   defaultSort?: ReplySort;
 }
 
@@ -514,6 +523,9 @@ export default function BlueskyDiscussion({
   const thread = data?.thread;
   /** Guest writes are bridged by the service; the AppView is read-only here. */
   const interactive = data?.source === "service" && hasToken;
+  /** Only the service knows the guest likes, so only it may show or rank by them. */
+  const showLikes = data?.source === "service";
+  const effectiveSort: ReplySort = showLikes ? sort : "newest";
 
   /**
    * Which posts in this thread *this reader* has liked. The thread response
@@ -921,7 +933,7 @@ export default function BlueskyDiscussion({
     dropUris(pendingReplies, removedLocally).filter(
       (reply) => !reply.uri || !shown.some((post) => post.uri === reply.uri),
     ),
-    sort,
+    effectiveSort,
     activeDeltas,
   );
   const remaining = COMMENT_LIMIT - graphemeLength(draft);
@@ -935,13 +947,16 @@ export default function BlueskyDiscussion({
     who ? `Comment as ${truncateByline(who)}` : "Comment";
 
   // The like control is the same on the root and every reply; the discussion
-  // owns the state so they all read and update one shared source.
-  const likeContext: PostLikeContext = {
-    canLike: interactive,
-    likedUris,
-    deltas: activeDeltas,
-    onToggle: toggleLike,
-  };
+  // owns the state so they all read and update one shared source. Without it the
+  // replies carry no like counts at all.
+  const likeContext: PostLikeContext | undefined = showLikes
+    ? {
+        canLike: interactive,
+        likedUris,
+        deltas: activeDeltas,
+        onToggle: toggleLike,
+      }
+    : undefined;
 
   // Which posts are marked "(me)": the guest comments they wrote through this
   // page, and — when they have linked an account — the replies they wrote on
@@ -1193,7 +1208,7 @@ export default function BlueskyDiscussion({
           margin: "0.9rem 0 0.2rem",
         }}
       >
-        {replies.length > 1 && (
+        {showLikes && replies.length > 1 && (
           <SortToggle
             onChange={(next) => {
               markInteraction();

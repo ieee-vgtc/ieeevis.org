@@ -30,6 +30,11 @@ import type { ShapedPost } from "./types";
  * Everything the per-post 🍩 like control needs, lifted to the discussion so
  * the root and every reply read and update one shared like state.
  *
+ * Absent, the thread shows no like counts on its replies at all. A thread read
+ * from the AppView carries no guest likes, so its reply counts would be an
+ * undercount of what the conference saw — better nothing than a wrong number.
+ * The announcement's own chip is unaffected: it is a plain Bluesky count.
+ *
  *  - `likedUris` — the posts the reader has liked, updated optimistically.
  *  - `deltas` — transient count adjustments applied on top of the server total
  *    while an optimistic toggle is in flight; cleared when fresh data arrives.
@@ -71,6 +76,7 @@ interface PostCardProps {
   post: ShapedPost;
   /** "root" is the post a thread hangs off; "reply" is everything below it. */
   variant?: "root" | "reply";
+  /** Shared like state; absent where the thread shows no reply likes. */
   like?: PostLikeContext;
   /** Shared own-comment state; absent where the reader may not write. */
   own?: PostOwnContext;
@@ -149,19 +155,23 @@ function LikeControl({
     );
   }
 
+  if (!like) {
+    return null;
+  }
+
   // A just-posted comment not yet read back has a placeholder URI, so there is
   // nothing real to like yet.
   const isRealPost = post.uri.startsWith("at://");
-  const liked = like?.likedUris.has(post.uri) ?? false;
-  const count = likeCountOf(post) + (like?.deltas.get(post.uri) ?? 0);
-  const interactive = Boolean(like?.canLike) && isRealPost;
+  const liked = like.likedUris.has(post.uri);
+  const count = likeCountOf(post) + (like.deltas.get(post.uri) ?? 0);
+  const interactive = like.canLike && isRealPost;
 
   if (interactive) {
     return (
       <button
         aria-label={`${liked ? "Unlike" : "Like"} this reply (${count})`}
         aria-pressed={liked}
-        onClick={() => like?.onToggle(post.uri)}
+        onClick={() => like.onToggle(post.uri)}
         style={{
           ...likeChipStyle,
           backgroundColor: liked ? "#eff6ff" : "#fff",
@@ -191,6 +201,12 @@ function LikeControl({
   );
 }
 
+/** Whether the reader may take this post down — and so whether the footer has
+ *  a control to show for it. */
+function canRemovePost(post: ShapedPost, own?: PostOwnContext): boolean {
+  return Boolean(own?.canRemove && own.ownUris.has(post.uri));
+}
+
 /**
  * "Remove", on the reader's own comments only.
  *
@@ -208,7 +224,7 @@ function RemoveControl({
 }) {
   const [confirming, setConfirming] = useState(false);
 
-  if (!own?.canRemove || !own.ownUris.has(post.uri)) {
+  if (!own || !canRemovePost(post, own)) {
     return null;
   }
 
@@ -282,6 +298,10 @@ export default function PostCard({
     ? new Date(post.createdAt).toLocaleString()
     : undefined;
   const reposts = post.repostCount || 0;
+  // The root always shows its Bluesky like count; a reply's footer is only drawn
+  // when it holds something, so a thread without likes leaves no empty band.
+  const hasFooter =
+    isRoot || Boolean(like) || canRemovePost(post, own) || reposts > 0;
 
   return (
     <article
@@ -341,24 +361,26 @@ export default function PostCard({
       <EmbedImages images={post.embedImages} />
       <EmbedCard embed={post.embed} />
 
-      <footer
-        style={{
-          display: "flex",
-          alignItems: "center",
-          gap: "0.75rem",
-          fontSize: "0.82rem",
-          color: "#6b7280",
-          marginTop: isRoot ? "0.6rem" : "0.5rem",
-        }}
-      >
-        <LikeControl isRoot={isRoot} like={like} post={post} />
-        {!isRoot && <RemoveControl own={own} post={post} />}
-        {!isRoot && reposts > 0 && (
-          <span>
-            {reposts} {reposts === 1 ? "repost" : "reposts"}
-          </span>
-        )}
-      </footer>
+      {hasFooter && (
+        <footer
+          style={{
+            display: "flex",
+            alignItems: "center",
+            gap: "0.75rem",
+            fontSize: "0.82rem",
+            color: "#6b7280",
+            marginTop: isRoot ? "0.6rem" : "0.5rem",
+          }}
+        >
+          <LikeControl isRoot={isRoot} like={like} post={post} />
+          {!isRoot && <RemoveControl own={own} post={post} />}
+          {!isRoot && reposts > 0 && (
+            <span>
+              {reposts} {reposts === 1 ? "repost" : "reposts"}
+            </span>
+          )}
+        </footer>
+      )}
     </article>
   );
 }
