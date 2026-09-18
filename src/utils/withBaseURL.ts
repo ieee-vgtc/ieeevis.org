@@ -17,3 +17,27 @@ export function withBaseURL(url: string) {
   //prepend the link with our URL
   return import.meta.env.BASE_URL + (url.startsWith("/") ? "" : "/") + url;
 }
+
+/** The base path without its trailing slash, for building paths by hand. */
+export function siteBase(): string {
+  return import.meta.env.BASE_URL.replace(/\/$/, "");
+}
+
+/**
+ * Only permit paths within this deployment as post-login destinations. Used
+ * by the Auth0 login (server) and the Bluesky login (browser) alike.
+ */
+export function safeReturnTo(
+  value: string | null | undefined,
+  fallback = "/",
+): string {
+  if (
+    !value ||
+    !value.startsWith("/") ||
+    value.startsWith("//") ||
+    value.includes("\\")
+  ) {
+    return fallback;
+  }
+  return value;
+}

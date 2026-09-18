@@ -8,7 +8,7 @@
  * yet have.
  *
  * The reader's own posts are marked with a "(me)" beside the name, whether they
- * came through the guest bridge or from the reader's own linked Bluesky account.
+ * came through the guest bridge or from the reader's own Bluesky account.
  * It earns its place on an anonymous comment above all: that byline reads the
  * same `p-4821` on every anonymous post in the thread.
  */
@@ -35,33 +35,35 @@ import type { ShapedPost } from "./types";
  *    while an optimistic toggle is in flight; cleared when fresh data arrives.
  *  - `canLike` — whether this reader may toggle likes at all (a service thread
  *    and a valid token).
- *  - `onToggle` — like/unlike the given post URI.
+ *  - `onToggle` — like/unlike the given post.
  */
 export interface PostLikeContext {
   canLike: boolean;
   likedUris: Set<string>;
   deltas: Map<string, number>;
-  onToggle: (postUri: string) => void;
+  onToggle: (post: ShapedPost) => void;
 }
 
 /**
  * Which posts are the reader's, lifted to the discussion so every post reads one
  * shared answer.
  *
- *  - `ownUris` — their own guest comments still in the thread. Only these can be
- *    removed: they live in the shared discuss account, which this service writes
- *    for. A post in the reader's own repository is theirs to delete on Bluesky.
+ *  - `ownUris` — their own guest comments still in the thread; the service
+ *    deletes those from the shared discuss account.
+ *  - `did` — the account the reader is logged in to Bluesky as, or null. Its
+ *    posts are theirs beyond doubt, and that account deletes them itself.
  *  - `canRemove` — whether removing works at all here. A thread read straight
- *    from the AppView is read-only, so posts are still marked as the reader's
- *    but nothing is offered on them.
- *  - `handle` — their linked Bluesky handle, lowercased and without the "@", or
- *    null. Matching on the handle rather than the DID is what the site knows:
- *    a handle the reader has since given up could in principle be held by
- *    someone else, and the only consequence is one wrongly outlined post.
- *  - `onRemove` — take the given guest comment down for good.
+ *    from the AppView with no Bluesky login is read-only, so posts are still
+ *    marked as the reader's but nothing is offered on them.
+ *  - `handle` — the Bluesky handle on their VIS profile, lowercased and without
+ *    the "@", or null. Matching on the handle rather than the DID is what the
+ *    site knows: a handle the reader has since given up could in principle be
+ *    held by someone else, and the only consequence is one wrongly marked post.
+ *  - `onRemove` — take the given comment down for good.
  */
 export interface PostOwnContext {
   ownUris: Set<string>;
+  did: string | null;
   handle: string | null;
   canRemove: boolean;
   onRemove: (postUri: string) => void;
@@ -161,7 +163,7 @@ function LikeControl({
       <button
         aria-label={`${liked ? "Unlike" : "Like"} this reply (${count})`}
         aria-pressed={liked}
-        onClick={() => like?.onToggle(post.uri)}
+        onClick={() => like?.onToggle(post)}
         style={{
           ...likeChipStyle,
           backgroundColor: liked ? "#eff6ff" : "#fff",
@@ -195,20 +197,23 @@ function LikeControl({
  * "Remove", on the reader's own comments only.
  *
  * Removing deletes the post from Bluesky as well as taking it off this page,
- * and nothing can put it back, so the button asks once before it acts. The
- * confirmation also says what removal does not do: the conference keeps its own
- * record of the comment.
+ * and nothing can put it back, so the button asks once before it acts. For a
+ * guest comment the confirmation also says what removal does not do: the
+ * conference keeps its own record of it. A post from the reader's own Bluesky
+ * account leaves no such record.
  */
 function RemoveControl({
   post,
   own,
+  removable,
 }: {
   post: ShapedPost;
   own?: PostOwnContext;
+  removable: boolean;
 }) {
   const [confirming, setConfirming] = useState(false);
 
-  if (!own?.canRemove || !own.ownUris.has(post.uri)) {
+  if (!own?.canRemove || !removable) {
     return null;
   }
 
@@ -235,8 +240,9 @@ function RemoveControl({
       }}
     >
       <span>
-        This deletes the comment from Bluesky as well and cannot be undone.
-        Conference organizers keep a copy.
+        {post.guest
+          ? "This deletes the comment from Bluesky as well and cannot be undone. Conference organizers keep a copy."
+          : "This deletes the post from your Bluesky account and cannot be undone."}
       </span>
       <button
         onClick={() => {
@@ -267,11 +273,17 @@ export default function PostCard({
   bare = false,
 }: PostCardProps) {
   const isRoot = variant === "root";
-  const isOwn =
+  // Removable from here: a guest comment of theirs, or a post of the Bluesky
+  // account they are logged in to. A post matched by profile handle only is
+  // marked as theirs but is theirs to delete on Bluesky.
+  const removable =
     own !== undefined &&
     (own.ownUris.has(post.uri) ||
-      (own.handle !== null &&
-        (post.author?.handle ?? "").toLowerCase() === own.handle));
+      (own.did !== null && post.author?.did === own.did));
+  const isOwn =
+    removable ||
+    (own?.handle != null &&
+      (post.author?.handle ?? "").toLowerCase() === own.handle);
   const { name, body } = displayPost(post);
   const profile = post.guest ? null : profileUrl(post.author);
   // Guest comments are real posts in the shared bridge repo, so their bsky.app
@@ -352,7 +364,9 @@ export default function PostCard({
         }}
       >
         <LikeControl isRoot={isRoot} like={like} post={post} />
-        {!isRoot && <RemoveControl own={own} post={post} />}
+        {!isRoot && (
+          <RemoveControl own={own} post={post} removable={removable} />
+        )}
         {!isRoot && reposts > 0 && (
           <span>
             {reposts} {reposts === 1 ? "repost" : "reposts"}

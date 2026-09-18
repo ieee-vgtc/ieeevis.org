@@ -15,32 +15,48 @@
  * Given both, the service is tried first and the AppView is the fallback: only
  * the service has the full moderation state, and only it takes writes.
  *
- * Commenting and liking appear only when the thread came from the service and
- * the reader's site session yields a token; everything else is read-only.
+ * There are two ways to write, and the reader may have either or both:
+ *
+ *   - As a VIS attendee, through the service. Needs a thread from the service
+ *     and a token from the reader's site session. The comment is posted by the
+ *     shared discuss account and credited to the attendee in its text.
+ *   - From their own Bluesky account, once they log in with Bluesky here
+ *     (`bluesky/useBlueskySession.ts`). Comments, likes and removals then go
+ *     straight from the browser to their own PDS and the service is not
+ *     involved — which also means this works on a thread read straight from
+ *     the AppView, and after guest posting has closed. A Bluesky login takes
+ *     precedence over the guest path whenever both are available.
+ *
+ * Everything else is read-only.
  *
  * A reader can remove their own comments. That deletes the post from Bluesky as
  * well as taking it off this page and cannot be undone, so the control confirms
- * before it acts — and says that the conference keeps its own record either way,
- * since removing is not a way to take back something harmful. Only comments
- * written through this page can be removed here: a reply the reader wrote from
- * their own Bluesky account lives in their repository, not in the shared one, so
- * it is marked as theirs but is theirs to delete on Bluesky.
+ * before it acts. For a guest comment it also says that the conference keeps
+ * its own record, since removing is not a way to take back something harmful.
+ * A reply from the reader's own account is removable while they are logged in
+ * to that account here; otherwise it is marked as theirs but is theirs to
+ * delete on Bluesky.
  *
- * A comment carries the attendee's real name unless they tick "Hide my name",
- * which swaps it for their stable pseudonym. Such a post is unnamed rather than
- * untraceable — organizers can still tell who wrote it — so the label says what
- * it does instead of calling the post anonymous, and the hint beside it spells
- * out the difference.
+ * A guest comment carries the attendee's real name unless they tick "Hide my
+ * name", which swaps it for their stable pseudonym. Such a post is unnamed
+ * rather than untraceable — organizers can still tell who wrote it — so the
+ * label says what it does instead of calling the post anonymous, and the hint
+ * beside it spells out the difference. A comment from the reader's own Bluesky
+ * account is signed by that account, so the option does not apply.
  */
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { CSSProperties, FormEvent } from "react";
+import BlueskyLogin from "./bluesky/BlueskyLogin";
 import PostCard from "./bluesky/PostCard";
 import type { PostLikeContext, PostOwnContext } from "./bluesky/PostCard";
 import ReplyList from "./bluesky/ReplyList";
+import SaveHandlePrompt from "./bluesky/SaveHandlePrompt";
 import SortToggle from "./bluesky/SortToggle";
 import { fetchAppViewThread } from "./bluesky/direct";
 import { formatOpensAt, likeCountOf } from "./bluesky/format";
+import { NATIVE_TEXT_LIMIT } from "./bluesky/native";
+import { hintTextStyle } from "./bluesky/styles";
 import { createServiceClient } from "./bluesky/service";
 import type {
   MeResponse,
@@ -51,11 +67,14 @@ import type {
 } from "./bluesky/service";
 import type {
   ReplySort,
+  RootPost,
   ShapedPost,
   ThreadResponse,
   ThreadSource,
 } from "./bluesky/types";
+import { useBlueskySession } from "./bluesky/useBlueskySession";
 import { usePolledThread } from "./bluesky/usePolledThread";
+import { normalizeBskyHandle } from "../utils/bskyHandle";
 
 const DEFAULT_API_BASES = ["https://bsky.tech.ieeevis.org"];
 const DEFAULT_REFRESH_MS = 5_000;
@@ -428,6 +447,15 @@ export default function BlueskyDiscussion({
   // read-only thread are theirs.
   const { hasToken, getToken } = useGuestToken(Boolean(paperId || atUri));
 
+  // The reader's own Bluesky account, when they have logged in with it here.
+  // While it is there, every write goes through it rather than the service.
+  const bluesky = useBlueskySession();
+  const native =
+    bluesky.session.status === "signed-in" ? bluesky.session.writer : null;
+  // The handle the reader saved to their profile in this session, ahead of the
+  // token and identity catching up.
+  const [savedHandle, setSavedHandle] = useState<string | null>(null);
+
   // Callers pass an inline array literal, so depend on its contents rather than
   // its identity — otherwise every render would build a new client and restart
   // the polling effect.
@@ -442,10 +470,11 @@ export default function BlueskyDiscussion({
   const attribution = anonymous
     ? identity?.pseudonym
     : identity?.name || identity?.pseudonym;
-  // A reader who has linked a Bluesky account is invited to reply there under
-  // their own name; the composer and the like button stay open to them either way.
-  const blueskyHandle = identity?.bluesky?.trim() || null;
-  const hasBlueskyAccount = Boolean(blueskyHandle);
+  // The Bluesky handle on the reader's VIS profile: it pre-fills the login and
+  // marks that account's replies as theirs even without a Bluesky login here.
+  const linkedHandle =
+    savedHandle ??
+    (identity?.bluesky ? normalizeBskyHandle(identity.bluesky) : null);
 
   const load = useCallback(
     async (signal: AbortSignal, uncached: boolean): Promise<LoadedThread> => {
@@ -512,8 +541,12 @@ export default function BlueskyDiscussion({
   }, [markInteraction, refresh]);
 
   const thread = data?.thread;
+  const root: RootPost | undefined =
+    thread?.state === "open" ? thread.post : undefined;
   /** Guest writes are bridged by the service; the AppView is read-only here. */
-  const interactive = data?.source === "service" && hasToken;
+  const canWriteAsGuest = data?.source === "service" && hasToken;
+  /** A Bluesky login writes to the reader's own PDS, whatever the source. */
+  const interactive = native !== null || canWriteAsGuest;
 
   /**
    * Which posts in this thread *this reader* has liked. The thread response
@@ -540,6 +573,21 @@ export default function BlueskyDiscussion({
       // A like-state miss is cosmetic; never surface it over the thread itself.
     }
   }, [client, getToken, paperId]);
+
+  /** The same question asked of Bluesky for the logged-in account. */
+  const syncNativeLikes = useCallback(
+    async (rootUri: string, replyUris: Set<string>) => {
+      if (!native) {
+        return;
+      }
+      try {
+        setLikedUris(await native.syncLikes([rootUri, ...replyUris]));
+      } catch {
+        // Cosmetic, as for the guest likes; the next poll asks again.
+      }
+    },
+    [native],
+  );
 
   /**
    * The reader's own comments in this thread, which is what marks their posts in
@@ -574,10 +622,16 @@ export default function BlueskyDiscussion({
   // or removes something, and both re-read it themselves, so it stays off the
   // polling path.
   useEffect(() => {
-    if (interactive) {
+    if (canWriteAsGuest) {
       void syncMyComments();
     }
-  }, [interactive, syncMyComments]);
+  }, [canWriteAsGuest, syncMyComments]);
+
+  // Logging in or out of Bluesky changes whose likes `likedUris` holds, so it
+  // starts over: the next poll reads them from whichever side is now in charge.
+  useEffect(() => {
+    setLikedUris(new Set());
+  }, [native]);
 
   useEffect(() => {
     if (!data || data.thread.state !== "open") {
@@ -631,20 +685,134 @@ export default function BlueskyDiscussion({
       return changed ? next : current;
     });
 
-    if (data.source === "service") {
+    if (native && data.thread.post) {
+      void syncNativeLikes(data.thread.post.uri, known);
+    } else if (data.source === "service") {
       void syncMyLikes();
     }
-  }, [data, syncMyLikes]);
+  }, [data, native, syncMyLikes, syncNativeLikes]);
+
+  const commentLimit = native ? NATIVE_TEXT_LIMIT : COMMENT_LIMIT;
+
+  /** Post from the reader's own Bluesky account, as a reply to the announcement. */
+  const submitNativeComment = useCallback(
+    async (text: string) => {
+      if (!native || !root?.cid) {
+        setActionError("The discussion is not ready for a comment yet.");
+        return;
+      }
+
+      const created = await native.reply(
+        { uri: root.uri, cid: root.cid },
+        text,
+      );
+
+      // Show it immediately, signed by the account; the next refetch replaces
+      // it with the real post once the AppView has indexed it.
+      const { profile } = native;
+      setPendingReplies((current) => [
+        ...current,
+        {
+          uri: created.uri,
+          cid: created.cid,
+          author: {
+            did: profile.did,
+            handle: profile.handle,
+            displayName: profile.displayName,
+            avatar: profile.avatar,
+          },
+          text,
+          createdAt: new Date().toISOString(),
+          guest: false,
+          pseudonym: null,
+          likeCount: 0,
+          guestLikeCount: 0,
+          totalLikeCount: 0,
+          embedImages: [],
+          replies: [],
+        },
+      ]);
+      setDraft("");
+      await refresh({ force: true, uncached: true });
+    },
+    [native, refresh, root],
+  );
+
+  /** Post through the service, credited to the attendee in the text. */
+  const submitGuestComment = useCallback(
+    async (paperId: string, text: string) => {
+      const token = await getToken();
+      if (!token) {
+        setActionError("Your session expired. Reload the page to comment.");
+        return;
+      }
+
+      const response = await client.postComment(
+        paperId,
+        token,
+        text,
+        anonymous,
+      );
+
+      if (response.status === 429) {
+        const retryAfter = response.headers.get("retry-after");
+        setActionError(
+          retryAfter
+            ? `You are commenting too quickly. Try again in ${retryAfter}s.`
+            : "You are commenting too quickly. Try again shortly.",
+        );
+        return;
+      }
+      if (response.status === 409) {
+        setActionError("This discussion is not open yet.");
+        return;
+      }
+      if (!response.ok) {
+        throw new Error(`The service returned ${response.status}.`);
+      }
+
+      const created = (await response.json()) as {
+        uri?: string;
+        author?: string;
+      };
+
+      // Show it immediately; the next refetch replaces it with the real post.
+      // The service credits the post by prefixing its text, which the local
+      // draft has none of, so the name it reports back rides in `pseudonym` —
+      // where `displayPost` looks first — for these few seconds.
+      setPendingReplies((current) => [
+        ...current,
+        {
+          uri: created.uri || `pending-${Date.now()}`,
+          author: { displayName: null, avatar: null },
+          text,
+          createdAt: new Date().toISOString(),
+          guest: true,
+          pseudonym: created.author || attribution || null,
+          likeCount: 0,
+          guestLikeCount: 0,
+          totalLikeCount: 0,
+          embedImages: [],
+          replies: [],
+        },
+      ]);
+      setDraft("");
+
+      await refresh({ force: true, uncached: true });
+      await syncMyComments();
+    },
+    [anonymous, attribution, client, getToken, refresh, syncMyComments],
+  );
 
   const submitComment = useCallback(
     async (event: FormEvent) => {
       const text = draft.trim();
       event.preventDefault();
-      if (!text || submitting || !paperId) {
+      if (!text || submitting) {
         return;
       }
-      if (graphemeLength(text) > COMMENT_LIMIT) {
-        setActionError(`Comments are limited to ${COMMENT_LIMIT} characters.`);
+      if (graphemeLength(text) > commentLimit) {
+        setActionError(`Comments are limited to ${commentLimit} characters.`);
         return;
       }
 
@@ -652,65 +820,11 @@ export default function BlueskyDiscussion({
       setActionError(null);
 
       try {
-        const token = await getToken();
-        if (!token) {
-          setActionError("Your session expired. Reload the page to comment.");
-          return;
+        if (native) {
+          await submitNativeComment(text);
+        } else if (paperId) {
+          await submitGuestComment(paperId, text);
         }
-
-        const response = await client.postComment(
-          paperId,
-          token,
-          text,
-          anonymous,
-        );
-
-        if (response.status === 429) {
-          const retryAfter = response.headers.get("retry-after");
-          setActionError(
-            retryAfter
-              ? `You are commenting too quickly. Try again in ${retryAfter}s.`
-              : "You are commenting too quickly. Try again shortly.",
-          );
-          return;
-        }
-        if (response.status === 409) {
-          setActionError("This discussion is not open yet.");
-          return;
-        }
-        if (!response.ok) {
-          throw new Error(`The service returned ${response.status}.`);
-        }
-
-        const created = (await response.json()) as {
-          uri?: string;
-          author?: string;
-        };
-
-        // Show it immediately; the next refetch replaces it with the real post.
-        // The service credits the post by prefixing its text, which the local
-        // draft has none of, so the name it reports back rides in `pseudonym` —
-        // where `displayPost` looks first — for these few seconds.
-        setPendingReplies((current) => [
-          ...current,
-          {
-            uri: created.uri || `pending-${Date.now()}`,
-            author: { displayName: null, avatar: null },
-            text,
-            createdAt: new Date().toISOString(),
-            guest: true,
-            pseudonym: created.author || attribution || null,
-            likeCount: 0,
-            guestLikeCount: 0,
-            totalLikeCount: 0,
-            embedImages: [],
-            replies: [],
-          },
-        ]);
-        setDraft("");
-
-        await refresh({ force: true, uncached: true });
-        await syncMyComments();
       } catch (err) {
         setActionError(
           (err as Error).message || "Your comment could not be posted.",
@@ -720,20 +834,19 @@ export default function BlueskyDiscussion({
       }
     },
     [
-      anonymous,
-      attribution,
-      client,
+      commentLimit,
       draft,
-      getToken,
+      native,
       paperId,
-      refresh,
+      submitGuestComment,
+      submitNativeComment,
       submitting,
-      syncMyComments,
     ],
   );
 
   const toggleLike = useCallback(
-    async (postUri: string) => {
+    async (post: ShapedPost) => {
+      const postUri = post.uri;
       const next = !likedUrisRef.current.has(postUri);
 
       const applyOptimistic = (like: boolean) => {
@@ -781,16 +894,23 @@ export default function BlueskyDiscussion({
       };
 
       try {
-        const token = paperId ? await getToken() : null;
-        if (!token || !paperId) {
-          rollBack();
-          setActionError("Your session expired. Reload the page to like.");
-          return;
-        }
+        if (native) {
+          if (!post.cid) {
+            throw new Error("This post cannot be liked yet.");
+          }
+          await native.setLike({ uri: postUri, cid: post.cid }, next);
+        } else {
+          const token = paperId ? await getToken() : null;
+          if (!token || !paperId) {
+            rollBack();
+            setActionError("Your session expired. Reload the page to like.");
+            return;
+          }
 
-        const response = await client.setLike(paperId, token, postUri, next);
-        if (!response.ok && response.status !== 204) {
-          throw new Error(`The service returned ${response.status}.`);
+          const response = await client.setLike(paperId, token, postUri, next);
+          if (!response.ok && response.status !== 204) {
+            throw new Error(`The service returned ${response.status}.`);
+          }
         }
 
         await refresh({ force: true, uncached: true });
@@ -801,7 +921,7 @@ export default function BlueskyDiscussion({
         );
       }
     },
-    [client, getToken, paperId, refresh],
+    [client, getToken, native, paperId, refresh],
   );
 
   /**
@@ -837,6 +957,17 @@ export default function BlueskyDiscussion({
       applyLocally(true);
 
       try {
+        // A guest comment goes through the service; anything else the reader
+        // may remove is a post of the Bluesky account they are logged in to.
+        const isGuestComment = myComments.some(
+          (comment) => comment.postUri === postUri,
+        );
+        if (native && !isGuestComment) {
+          await native.remove(postUri);
+          await refresh({ force: true, uncached: true });
+          return;
+        }
+
         const token = paperId ? await getToken() : null;
         if (!token || !paperId) {
           applyLocally(false);
@@ -860,7 +991,16 @@ export default function BlueskyDiscussion({
         );
       }
     },
-    [client, getToken, markInteraction, paperId, refresh, syncMyComments],
+    [
+      client,
+      getToken,
+      markInteraction,
+      myComments,
+      native,
+      paperId,
+      refresh,
+      syncMyComments,
+    ],
   );
 
   // ── render ──
@@ -896,7 +1036,6 @@ export default function BlueskyDiscussion({
     );
   }
 
-  const root = thread?.state === "open" ? thread.post : undefined;
   // Apply optimistic deltas only where the server has not already caught up, so
   // the shown count and the sort order never briefly double-count a like being
   // reconciled (see reconcileDeltas). Both the counts and the ordering read from
@@ -924,7 +1063,7 @@ export default function BlueskyDiscussion({
     sort,
     activeDeltas,
   );
-  const remaining = COMMENT_LIMIT - graphemeLength(draft);
+  const remaining = commentLimit - graphemeLength(draft);
   // The two possible bylines the submit button can show — the real name and the
   // pseudonym — so it can reserve room for the wider and not resize (shoving the
   // checkbox) when "Hide my name" flips between them. Until identity loads both
@@ -943,35 +1082,51 @@ export default function BlueskyDiscussion({
     onToggle: toggleLike,
   };
 
-  // Which posts are marked "(me)": the guest comments they wrote through this
-  // page, and — when they have linked an account — the replies they wrote on
-  // Bluesky themselves. Only the first kind can be removed from here; the second
-  // is theirs to delete on Bluesky, where the post's own timestamp links.
+  // Which posts are the reader's: the guest comments they wrote through this
+  // page (by URI), the replies of the Bluesky account they are logged in to
+  // (by DID), and the replies of the account on their VIS profile (by handle).
+  // The card marks all three "(me)"; the first two it can also remove.
   //
   // Marking does not need the service. A thread read straight from the AppView
   // carries no guest attribution at all (every post comes back `guest: false`
-  // with no pseudonym), but it does carry author handles, so the reader's own
-  // Bluesky replies are still theirs to recognise. Removing does need it, hence
-  // `canRemove`.
+  // with no pseudonym), but it does carry author DIDs and handles, so the
+  // reader's own Bluesky replies are still theirs to recognise.
   const ownUris = new Set(
     myComments
       .filter((comment) => !comment.removed)
       .map((comment) => comment.postUri),
   );
   const ownContext: PostOwnContext | undefined =
-    identity || ownUris.size > 0
+    identity || native || ownUris.size > 0
       ? {
           ownUris,
-          handle: blueskyHandle
-            ? blueskyHandle.replace(/^@/, "").toLowerCase()
-            : null,
+          did: native?.profile.did ?? null,
+          handle: linkedHandle,
           canRemove: interactive,
           onRemove: (postUri) => void removeOwnComment(postUri),
         }
       : undefined;
 
+  // Where Bluesky sends the reader back to after the login: this discussion.
+  const sectionId = `bsky-discussion-${paperId || "direct"}`;
+  const signInWithBluesky = (input: string) => {
+    markInteraction();
+    const { pathname, search } = window.location;
+    void bluesky.signIn(input, `${pathname}${search}#${sectionId}`);
+  };
+
+  // Offer to put the handle on the VIS profile after a login, when the site
+  // knows the reader and the profile does not carry this handle already. The
+  // prompt itself remembers a "Not now".
+  const offerHandleSave =
+    native !== null &&
+    hasToken &&
+    identity !== null &&
+    linkedHandle !== native.profile.handle;
+
   return (
     <section
+      id={sectionId}
       ref={sectionRef}
       style={sectionStyle}
       aria-live="polite"
@@ -980,14 +1135,7 @@ export default function BlueskyDiscussion({
       onPointerDown={markInteraction}
     >
       <h2 style={{ margin: "0 0 0.5rem" }}>Discussion</h2>
-      <style>
-        {"@keyframes bsky-spin{to{transform:rotate(360deg)}}" +
-          // Keyboard focus gets a clean inset ring in the callout blue, clipped
-          // to the card's rounded corners; a mouse click paints nothing (the
-          // default outline's bottom edge showed as a dashed line on the band).
-          ".bsky-callout:focus{outline:none}" +
-          ".bsky-callout:focus-visible{outline:2px solid #2563eb;outline-offset:-2px}"}
-      </style>
+      <style>{"@keyframes bsky-spin{to{transform:rotate(360deg)}}"}</style>
 
       {root && (
         <div style={announcementCardStyle}>
@@ -999,47 +1147,34 @@ export default function BlueskyDiscussion({
             variant="root"
           />
 
-          {root.bskyUrl && (
-            <a
-              className="bsky-callout"
-              href={root.bskyUrl}
-              rel="noopener noreferrer"
-              style={calloutFooterStyle}
-              target="_blank"
-            >
-              {hasBlueskyAccount ? (
-                <span style={calloutNudgeStyle}>
-                  <span>
-                    🦋 You're on Bluesky as @{blueskyHandle} — reply there if
-                    you like
-                  </span>
-                  <span style={calloutNudgeReasonStyle}>
-                    Your reply then appears under your own account instead of
-                    the shared bridge account.
-                  </span>
-                </span>
-              ) : (
-                <span>🦋 View or join this discussion on Bluesky</span>
-              )}
-              <span aria-hidden="true" style={{ fontSize: "1.1rem" }}>
-                →
-              </span>
-            </a>
-          )}
+          <BlueskyLogin
+            bskyUrl={root.bskyUrl}
+            busy={bluesky.busy}
+            error={bluesky.error}
+            linkedHandle={linkedHandle}
+            onSignIn={signInWithBluesky}
+            onSignOut={() => void bluesky.signOut()}
+            session={bluesky.session}
+          />
         </div>
+      )}
+
+      {offerHandleSave && (
+        <SaveHandlePrompt
+          key={native.profile.handle}
+          handle={native.profile.handle}
+          onSaved={() => setSavedHandle(native.profile.handle)}
+        />
       )}
 
       {interactive && (
         <form onSubmit={submitComment} style={{ margin: "1rem 0" }}>
-          <label
-            htmlFor={`bsky-comment-${paperId}`}
-            style={{ display: "none" }}
-          >
+          <label htmlFor={`${sectionId}-comment`} style={{ display: "none" }}>
             Add a comment
           </label>
           <textarea
             disabled={submitting}
-            id={`bsky-comment-${paperId}`}
+            id={`${sectionId}-comment`}
             onChange={(event) => {
               markInteraction();
               setDraft(event.target.value);
@@ -1095,7 +1230,8 @@ export default function BlueskyDiscussion({
               {/* Both bylines occupy one grid cell so the button reserves the
                   wider width and does not resize (shoving the checkbox) when
                   "Hide my name" flips which one shows; "Posting…" overlays while
-                  submitting. Only the active label is visible/announced. */}
+                  submitting. Only the active label is visible/announced. A
+                  Bluesky login has one byline: the account. */}
               <span style={{ display: "grid" }}>
                 <span
                   style={{
@@ -1103,56 +1239,69 @@ export default function BlueskyDiscussion({
                     visibility: submitting || anonymous ? "hidden" : "visible",
                   }}
                 >
-                  {bylineLabel(realNameByline)}
+                  {native
+                    ? `Comment as @${truncateByline(native.profile.handle)}`
+                    : bylineLabel(realNameByline)}
                 </span>
-                <span
-                  style={{
-                    gridArea: "1 / 1",
-                    visibility: submitting || !anonymous ? "hidden" : "visible",
-                  }}
-                >
-                  {bylineLabel(pseudonymByline)}
-                </span>
+                {!native && (
+                  <span
+                    style={{
+                      gridArea: "1 / 1",
+                      visibility:
+                        submitting || !anonymous ? "hidden" : "visible",
+                    }}
+                  >
+                    {bylineLabel(pseudonymByline)}
+                  </span>
+                )}
                 {submitting && (
                   <span style={{ gridArea: "1 / 1" }}>Posting…</span>
                 )}
               </span>
             </button>
 
-            <div
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                gap: "0.15rem",
-              }}
-            >
-              <label
+            {/* A comment from the reader's own Bluesky account is signed by
+                that account, so there is no name to hide. */}
+            {native ? (
+              <small style={hintTextStyle}>
+                Posted from your Bluesky account.
+              </small>
+            ) : (
+              <div
                 style={{
-                  display: "inline-flex",
-                  alignItems: "center",
-                  gap: "0.35rem",
-                  cursor: submitting ? "default" : "pointer",
+                  display: "flex",
+                  flexDirection: "column",
+                  gap: "0.15rem",
                 }}
               >
-                <input
-                  checked={anonymous}
-                  disabled={submitting}
-                  onChange={(event) => {
-                    markInteraction();
-                    setAnonymous(event.target.checked);
+                <label
+                  style={{
+                    display: "inline-flex",
+                    alignItems: "center",
+                    gap: "0.35rem",
+                    cursor: submitting ? "default" : "pointer",
                   }}
-                  type="checkbox"
-                />
-                Hide my name
-              </label>
+                >
+                  <input
+                    checked={anonymous}
+                    disabled={submitting}
+                    onChange={(event) => {
+                      markInteraction();
+                      setAnonymous(event.target.checked);
+                    }}
+                    type="checkbox"
+                  />
+                  Hide my name
+                </label>
 
-              {anonymous && (
-                <small style={{ fontSize: "0.8rem", color: "#6b7280" }}>
-                  Your name is hidden from readers, not from conference
-                  organizers.
-                </small>
-              )}
-            </div>
+                {anonymous && (
+                  <small style={{ fontSize: "0.8rem", color: "#6b7280" }}>
+                    Your name is hidden from readers, not from conference
+                    organizers.
+                  </small>
+                )}
+              </div>
+            )}
 
             <small
               style={{
@@ -1277,35 +1426,4 @@ const announcementCardStyle: CSSProperties = {
   overflow: "hidden",
   backgroundColor: "#f9fafb",
   marginBottom: "0.75rem",
-};
-
-/** The "join on Bluesky" callout, as a shaded footer band of the card above. */
-const calloutFooterStyle: CSSProperties = {
-  display: "flex",
-  alignItems: "center",
-  justifyContent: "space-between",
-  gap: "0.75rem",
-  padding: "0.7rem 0.9rem",
-  borderTop: "1px solid #bfdbfe",
-  // The site's prose links carry a dashed border-bottom (.content a); this is a
-  // full-width link, so without this it draws a dashed rule across the band.
-  borderBottom: "none",
-  backgroundColor: "#eff6ff",
-  color: "#1e3a8a",
-  fontWeight: 600,
-  fontSize: "0.9rem",
-  textDecoration: "none",
-};
-
-/** The linked-account invitation, stacked over its quieter reason line. */
-const calloutNudgeStyle: CSSProperties = {
-  display: "flex",
-  flexDirection: "column",
-  gap: "0.15rem",
-};
-
-const calloutNudgeReasonStyle: CSSProperties = {
-  fontWeight: 400,
-  fontSize: "0.82rem",
-  color: "#1e40af",
 };
