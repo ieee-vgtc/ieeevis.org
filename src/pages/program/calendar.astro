@@ -106,6 +106,26 @@ const dayDateFormatter = new Intl.DateTimeFormat("en-US", {
   day: "numeric",
 });
 
+const roomOrder2026 = [
+  "America North / America Center / America South",
+  "America North / America South / America Center",
+  "America north",
+  "America center",
+  "America south",
+  "Essex north",
+  "Essex center",
+  "Essex south",
+  "Straffordshire",
+  "St. George (A+B)",
+  "St. George (C+D)",
+  "St. George (C+D) / St. George (A+B)",
+].map((x) => x.toLowerCase());
+/** Position of a room in roomOrder2026; unlisted rooms sort last. */
+function getRoomOrderIndex(roomName: string): number {
+  const idx = roomOrder2026.findIndex((x) => x === roomName.toLowerCase());
+  return idx === -1 ? roomOrder2026.length : idx;
+}
+
 const sessionList = await fetchAllSessions();
 
 const sessions: CalendarSession[] = Object.entries(sessionList)
@@ -190,29 +210,47 @@ const dayGroups = Array.from(groupedSessions.entries())
       const clusterKey = `${dayKey}-c${clusterIdx}`;
       const clusterTopMinute = Math.min(...cluster.map((s) => s.startMinute));
 
-      const active: { laneIndex: number; endMinute: number }[] = [];
+      // Lanes follow roomOrder2026 so each room keeps a consistent
+      // left-to-right position. Sessions that overlap within one room (e.g.
+      // "TBA") get extra lanes next to each other.
+      const sessionsByRoom = new Map<string, CalendarSession[]>();
+      for (const session of cluster) {
+        const roomSessions = sessionsByRoom.get(session.room) || [];
+        roomSessions.push(session);
+        sessionsByRoom.set(session.room, roomSessions);
+      }
+      const orderedRooms = Array.from(sessionsByRoom.keys()).sort(
+        (a, b) =>
+          getRoomOrderIndex(a) - getRoomOrderIndex(b) || a.localeCompare(b),
+      );
+
       const localPlaced: Array<{
         session: CalendarSession;
         laneIndex: number;
       }> = [];
-      let maxLaneCount = 1;
+      let maxLaneCount = 0;
 
-      for (const session of cluster) {
-        for (let i = active.length - 1; i >= 0; i -= 1) {
-          if (active[i].endMinute <= session.startMinute) {
-            active.splice(i, 1);
+      for (const room of orderedRooms) {
+        const laneOffset = maxLaneCount;
+        const active: { laneIndex: number; endMinute: number }[] = [];
+
+        for (const session of sessionsByRoom.get(room) || []) {
+          for (let i = active.length - 1; i >= 0; i -= 1) {
+            if (active[i].endMinute <= session.startMinute) {
+              active.splice(i, 1);
+            }
           }
-        }
 
-        const occupied = new Set(active.map((item) => item.laneIndex));
-        let laneIndex = 0;
-        while (occupied.has(laneIndex)) {
-          laneIndex += 1;
-        }
+          const occupied = new Set(active.map((item) => item.laneIndex));
+          let laneIndex = laneOffset;
+          while (occupied.has(laneIndex)) {
+            laneIndex += 1;
+          }
 
-        active.push({ laneIndex, endMinute: session.endMinute });
-        localPlaced.push({ session, laneIndex });
-        maxLaneCount = Math.max(maxLaneCount, laneIndex + 1);
+          active.push({ laneIndex, endMinute: session.endMinute });
+          localPlaced.push({ session, laneIndex });
+          maxLaneCount = Math.max(maxLaneCount, laneIndex + 1);
+        }
       }
 
       for (const item of localPlaced) {
@@ -357,6 +395,29 @@ const roomDayGroups = dayGroups.map((dayGroup) => {
     dateLabel: dayGroup.dateLabel,
     rooms,
   };
+});
+/** Rooms that the 2026 conference streams online; update each year. */
+const streamedRooms2026 = [
+  "America North",
+  "America Center",
+  "America South",
+].map((room) => room.toLowerCase());
+
+/**
+ * True when every room in the (possibly combined, e.g. "A / B") room name is
+ * streamed in 2026.
+ */
+function isStreamedRoom2026(roomName: string): boolean {
+  return roomName
+    .split("/")
+    .map((part) => part.trim().toLowerCase())
+    .every((part) => part.length > 0 && streamedRooms2026.includes(part));
+}
+
+roomDayGroups.forEach((group) => {
+  group.rooms.sort(
+    (a, b) => getRoomOrderIndex(a.roomName) - getRoomOrderIndex(b.roomName),
+  );
 });
 
 const frontmatter = {
@@ -547,11 +608,19 @@ const frontmatter = {
                 Time
               </div>
               {dayGroup.rooms.map((roomGroup) => (
-                <div class="calendar-day-header-compact">
+                <div
+                  class="calendar-day-header-compact"
+                  data-full-name={roomGroup.roomName}
+                >
                   <h2>{roomGroup.roomName}</h2>
                   <p>
                     {dayGroup.weekdayLabel}, {dayGroup.dateLabel}
                   </p>
+                  {isStreamedRoom2026(roomGroup.roomName) && (
+                    <p class="calendar-room-streaming-note">
+                      (available as streaming)
+                    </p>
+                  )}
                 </div>
               ))}
             </div>
@@ -1133,7 +1202,16 @@ const frontmatter = {
             column.querySelectorAll<HTMLElement>(
               `[data-session-card][data-cluster-key="${clusterKey}"]`,
             ),
-          ).filter((b) => !b.hidden);
+          )
+            .filter((b) => !b.hidden)
+            // Tabs follow the lanes, which are laid out in roomOrder2026 order.
+            .sort(
+              (a, b) =>
+                Number(a.style.getPropertyValue("--session-lane-index")) -
+                  Number(b.style.getPropertyValue("--session-lane-index")) ||
+                Number(a.style.getPropertyValue("--session-start-minute")) -
+                  Number(b.style.getPropertyValue("--session-start-minute")),
+            );
 
           if (clusterBars.length === 0) return;
           // Single visible bar after filtering may still need overlay details when it belongs
