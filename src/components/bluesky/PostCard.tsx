@@ -30,10 +30,9 @@ import type { ShapedPost } from "./types";
  * Everything the per-post 🍩 like control needs, lifted to the discussion so
  * the root and every reply read and update one shared like state.
  *
- * Absent, the thread shows no like counts on its replies at all. A thread read
- * from the AppView carries no guest likes, so its reply counts would be an
- * undercount of what the conference saw — better nothing than a wrong number.
- * The announcement's own chip is unaffected: it is a plain Bluesky count.
+ * Absent, the replies show no like counts at all — an AppView thread carries no
+ * guest likes, and a wrong count is worse than none. The announcement's own chip
+ * is unaffected: it is a plain Bluesky count.
  *
  *  - `likedUris` — the posts the reader has liked, updated optimistically.
  *  - `deltas` — transient count adjustments applied on top of the server total
@@ -76,7 +75,6 @@ interface PostCardProps {
   post: ShapedPost;
   /** "root" is the post a thread hangs off; "reply" is everything below it. */
   variant?: "root" | "reply";
-  /** Shared like state; absent where the thread shows no reply likes. */
   like?: PostLikeContext;
   /** Shared own-comment state; absent where the reader may not write. */
   own?: PostOwnContext;
@@ -201,8 +199,6 @@ function LikeControl({
   );
 }
 
-/** Whether the reader may take this post down — and so whether the footer has
- *  a control to show for it. */
 function canRemovePost(post: ShapedPost, own?: PostOwnContext): boolean {
   return Boolean(own?.canRemove && own.ownUris.has(post.uri));
 }
@@ -298,8 +294,6 @@ export default function PostCard({
     ? new Date(post.createdAt).toLocaleString()
     : undefined;
   const reposts = post.repostCount || 0;
-  // The root always shows its Bluesky like count; a reply's footer is only drawn
-  // when it holds something, so a thread without likes leaves no empty band.
   const hasFooter =
     isRoot || Boolean(like) || canRemovePost(post, own) || reposts > 0;
 

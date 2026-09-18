@@ -18,11 +18,9 @@
  * Commenting and liking appear only when the thread came from the service and
  * the reader's site session yields a token; everything else is read-only.
  *
- * A thread read from the AppView also shows no reply likes and no sort control,
- * and lists its comments newest first. Guest likes live in the service alone, so
- * the AppView's counts would undercount what the conference saw, and an order
- * built on them would contradict it. The announcement keeps its own Bluesky like
- * count, which is right from either source.
+ * Guest likes live in the service alone, so a thread read from the AppView shows
+ * no reply likes, no sort control, and its comments newest first. The
+ * announcement keeps its own Bluesky like count, which is right either way.
  *
  * A reader can remove their own comments. That deletes the post from Bluesky as
  * well as taking it off this page and cannot be undone, so the control confirms
@@ -84,10 +82,7 @@ interface BlueskyDiscussionProps {
   apiBases?: string[];
   refreshMs?: number;
   maxDepth?: number;
-  /**
-   * Initial order of top-level replies; the reader can toggle. Service threads
-   * only — an AppView thread is always newest first.
-   */
+  /** Initial order of top-level replies; the reader can toggle. Service only. */
   defaultSort?: ReplySort;
 }
 
@@ -947,8 +942,7 @@ export default function BlueskyDiscussion({
     who ? `Comment as ${truncateByline(who)}` : "Comment";
 
   // The like control is the same on the root and every reply; the discussion
-  // owns the state so they all read and update one shared source. Without it the
-  // replies carry no like counts at all.
+  // owns the state so they all read and update one shared source.
   const likeContext: PostLikeContext | undefined = showLikes
     ? {
         canLike: interactive,
