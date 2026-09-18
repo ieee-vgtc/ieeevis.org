@@ -38,7 +38,7 @@ function loginErrorMessage(err: unknown): string {
   if (/resolve|handle|not found|invalid/i.test(message)) {
     return "That Bluesky handle could not be found. Check it and try again.";
   }
-  return "Bluesky could not be reached. You can still comment as a VIS attendee.";
+  return "Bluesky could not be reached. Please try again later."
 }
 
 export function useBlueskySession(): BlueskyLoginState {
