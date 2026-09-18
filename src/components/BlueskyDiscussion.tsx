@@ -21,20 +21,21 @@
  *     and a token from the reader's site session. The comment is posted by the
  *     shared discuss account and credited to the attendee in its text.
  *   - From their own Bluesky account, once they log in with Bluesky here
- *     (`bluesky/useBlueskySession.ts`). Comments and likes then go straight
- *     from the browser to their own PDS and the service is not involved — which also means this works on a thread read straight from
+ *     (`bluesky/useBlueskySession.ts`). Comments, likes and removals then go
+ *     straight from the browser to their own PDS and the service is not
+ *     involved — which also means this works on a thread read straight from
  *     the AppView, and after guest posting has closed. A Bluesky login takes
  *     precedence over the guest path whenever both are available.
  *
  * Everything else is read-only.
  *
- * A reader can remove their own guest comments. That deletes the post from
- * Bluesky as well as taking it off this page and cannot be undone, so the
- * control confirms before it acts — and says that the conference keeps its own
- * record either way, since removing is not a way to take back something
- * harmful. A reply from the reader's own Bluesky account is marked as theirs
- * but is theirs to delete on Bluesky: the login asks for no permission to
- * delete posts, on purpose.
+ * A reader can remove their own comments. That deletes the post from Bluesky as
+ * well as taking it off this page and cannot be undone, so the control confirms
+ * before it acts. For a guest comment it also says that the conference keeps
+ * its own record, since removing is not a way to take back something harmful.
+ * A reply from the reader's own account is removable while they are logged in
+ * to that account here; otherwise it is marked as theirs but is theirs to
+ * delete on Bluesky.
  *
  * A guest comment carries the attendee's real name unless they tick "Hide my
  * name", which swaps it for their stable pseudonym. Such a post is unnamed
@@ -956,6 +957,17 @@ export default function BlueskyDiscussion({
       applyLocally(true);
 
       try {
+        // A guest comment goes through the service; anything else the reader
+        // may remove is a post of the Bluesky account they are logged in to.
+        const isGuestComment = myComments.some(
+          (comment) => comment.postUri === postUri,
+        );
+        if (native && !isGuestComment) {
+          await native.remove(postUri);
+          await refresh({ force: true, uncached: true });
+          return;
+        }
+
         const token = paperId ? await getToken() : null;
         if (!token || !paperId) {
           applyLocally(false);
@@ -979,7 +991,16 @@ export default function BlueskyDiscussion({
         );
       }
     },
-    [client, getToken, markInteraction, paperId, refresh, syncMyComments],
+    [
+      client,
+      getToken,
+      markInteraction,
+      myComments,
+      native,
+      paperId,
+      refresh,
+      syncMyComments,
+    ],
   );
 
   // ── render ──
@@ -1062,7 +1083,7 @@ export default function BlueskyDiscussion({
   // Which posts are the reader's: the guest comments they wrote through this
   // page (by URI), the replies of the Bluesky account they are logged in to
   // (by DID), and the replies of the account on their VIS profile (by handle).
-  // The card marks all three "(me)"; only the first it can also remove.
+  // The card marks all three "(me)"; the first two it can also remove.
   //
   // Marking does not need the service. A thread read straight from the AppView
   // carries no guest attribution at all (every post comes back `guest: false`
@@ -1079,7 +1100,7 @@ export default function BlueskyDiscussion({
           ownUris,
           did: native?.profile.did ?? null,
           handle: linkedHandle,
-          canRemove: canWriteAsGuest,
+          canRemove: interactive,
           onRemove: (postUri) => void removeOwnComment(postUri),
         }
       : undefined;

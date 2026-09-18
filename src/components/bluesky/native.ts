@@ -2,10 +2,9 @@
  * Writes from a reader's own Bluesky account, straight to their PDS.
  *
  * These are the counterparts of the guest writes in `service.ts`: a reply to
- * the announcement and a like. Not a removal: deleting posts would widen the
- * permission the login asks for, and a reader can delete their own reply on
- * Bluesky. Nothing here touches the discussion service; the reader's PDS
- * answers, and the thread picks the change up on its next poll. `@atproto/api` is imported on demand
+ * the announcement, a like, taking one of their own posts down. Nothing here
+ * touches the discussion service; the reader's PDS answers, and the thread
+ * picks the change up on its next poll. `@atproto/api` is imported on demand
  * for the same reason as the OAuth client (see `oauth.ts`).
  *
  * A like is a record in the reader's repository, so unliking needs the
@@ -35,6 +34,7 @@ export interface NativeWriter {
   /** Reply to the announcement itself; the composer takes no parent. */
   reply(root: PostRef, text: string): Promise<PostRef>;
   setLike(post: PostRef, liked: boolean): Promise<void>;
+  remove(postUri: string): Promise<void>;
   /**
    * Which of the given posts this account has liked. Bluesky is asked once
    * per set of posts; a like toggled here is recorded without asking again.
@@ -108,6 +108,10 @@ function createWriter(agent: Agent, profile: BlueskyProfile): NativeWriter {
         await agent.deleteLike(likeUri);
       }
       likeRecords.delete(post.uri);
+    },
+
+    remove(postUri) {
+      return agent.deletePost(postUri);
     },
 
     async syncLikes(postUris) {

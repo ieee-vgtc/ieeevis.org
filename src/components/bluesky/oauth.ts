@@ -34,17 +34,16 @@ import { normalizeBskyHandle } from "../../utils/bskyHandle";
 import { safeReturnTo, siteBase } from "../../utils/withBaseURL";
 
 /**
- * Exactly what `native.ts` does and nothing more: create posts, create and
- * delete likes (an unlike is a deletion) in the reader's repository, and
- * read profiles and posts through the Bluesky AppView. A token stolen from
- * the browser can do only that — not delete or edit posts, follow, block,
- * edit the profile, or read messages. The account's consent screen lists
- * these instead of "full access".
+ * Exactly what `native.ts` does and nothing more: write and delete posts
+ * and likes in the reader's repository, and read profiles and posts through
+ * the Bluesky AppView. A token stolen from the browser can do only that —
+ * not follow, block, edit the profile, or read messages. The account's
+ * consent screen lists these instead of "full access".
  */
 const APPVIEW = "did:web:api.bsky.app%23bsky_appview";
 export const OAUTH_SCOPE = [
   "atproto",
-  "repo:app.bsky.feed.post?action=create",
+  "repo:app.bsky.feed.post?action=create&action=delete",
   "repo:app.bsky.feed.like?action=create&action=delete",
   `rpc:app.bsky.actor.getProfile?aud=${APPVIEW}`,
   `rpc:app.bsky.feed.getPosts?aud=${APPVIEW}`,
