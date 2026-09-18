@@ -10,6 +10,6 @@ export function normalizeBskyHandle(handle: string): string {
 export function isBskyHandle(handle: string): boolean {
   return (
     handle.length <= 253 &&
-    /^[a-z0-9]([a-z0-9-]{0,62})(\.[a-z0-9]([a-z0-9-]{0,62}))+$/.test(handle)
+    /^(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?$/.test(handle)
   );
 }
