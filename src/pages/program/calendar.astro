@@ -372,6 +372,24 @@ const roomOrder2026 = [
   "St. George (C+D)",
   "St. George (C+D) / St. George (A+B)",
 ].map((x) => x.toLowerCase());
+/** Rooms that the 2026 conference streams online; update each year. */
+const streamedRooms2026 = [
+  "America North",
+  "America Center",
+  "America South",
+].map((room) => room.toLowerCase());
+
+/**
+ * True when every room in the (possibly combined, e.g. "A / B") room name is
+ * streamed in 2026.
+ */
+function isStreamedRoom2026(roomName: string): boolean {
+  return roomName
+    .split("/")
+    .map((part) => part.trim().toLowerCase())
+    .every((part) => part.length > 0 && streamedRooms2026.includes(part));
+}
+
 roomDayGroups.forEach((group) => {
   group.rooms.sort((a, b) => {
     const getIdx = (z: string) => {
@@ -571,11 +589,19 @@ const frontmatter = {
                 Time
               </div>
               {dayGroup.rooms.map((roomGroup) => (
-                <div class="calendar-day-header-compact">
+                <div
+                  class="calendar-day-header-compact"
+                  data-full-name={roomGroup.roomName}
+                >
                   <h2>{roomGroup.roomName}</h2>
                   <p>
                     {dayGroup.weekdayLabel}, {dayGroup.dateLabel}
                   </p>
+                  {isStreamedRoom2026(roomGroup.roomName) && (
+                    <p class="calendar-room-streaming-note">
+                      (available as streaming)
+                    </p>
+                  )}
                 </div>
               ))}
             </div>

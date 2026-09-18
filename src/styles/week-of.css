@@ -302,6 +302,49 @@
   min-width: 0;
 }
 
+.calendar-day-header-compact[data-full-name] {
+  position: relative;
+}
+
+.calendar-day-header-compact[data-full-name]::after {
+  content: attr(data-full-name);
+  position: absolute;
+  left: 0.4rem;
+  top: 0.45rem;
+  z-index: 5;
+  width: max-content;
+  max-width: min(22rem, 70vw);
+  padding: 0.3rem 0.5rem;
+  border: 1px solid var(--color-gray-300);
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.14);
+  font-size: 0.95rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--color-accent);
+  white-space: normal;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.12s ease;
+}
+
+.calendar-day-header-compact[data-full-name]:last-child::after {
+  left: auto;
+  right: 0.4rem;
+}
+
+.calendar-day-header-compact[data-full-name]:hover::after,
+.calendar-day-header-compact[data-full-name]:focus-within::after {
+  opacity: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .calendar-day-header-compact[data-full-name]::after {
+    transition: none;
+  }
+}
+
 .calendar-day-header-compact:last-child {
   border-right: 0;
 }
@@ -320,6 +363,13 @@
   margin: 0.15rem 0 0;
   font-size: 0.83rem;
   color: var(--color-gray-700);
+}
+
+.calendar-day-header-compact p.calendar-room-streaming-note {
+  margin-top: 0.1rem;
+  font-size: 0.76rem;
+  font-style: italic;
+  color: var(--color-accent);
 }
 
 .calendar-timeline-body {
