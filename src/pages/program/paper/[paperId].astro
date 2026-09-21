@@ -80,6 +80,12 @@ const paper: Paper = {
   }),
 };
 
+const supplementalLink = paper.open_access_supplemental_link?.trim()
+  ? /^https?:\/\//i.test(paper.open_access_supplemental_link.trim())
+    ? paper.open_access_supplemental_link.trim()
+    : `https://${paper.open_access_supplemental_link.trim().replace(/^\/\//, "")}`
+  : null;
+
 const sessionHref =
   presentation &&
   withBaseURL(
@@ -328,7 +334,7 @@ const frontmatter = {
     {
       (paper.preprint_link ||
         paper.doi ||
-        paper.open_access_supplemental_link) && (
+        supplementalLink) && (
         <div class="paper-links mb-6">
           <h2>Links</h2>
           <ul>
@@ -349,10 +355,10 @@ const frontmatter = {
                 </AuthGate>
               </li>
             )}
-            {paper.open_access_supplemental_link && (
+            {supplementalLink && (
               <li>
                 <a
-                  href={paper.open_access_supplemental_link}
+                  href={supplementalLink}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
