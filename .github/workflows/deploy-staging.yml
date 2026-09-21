@@ -30,6 +30,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Get program data from tech endpoints
+        run: npm run getData
+
       - name: Build Astro site
         run: npm run build
 
