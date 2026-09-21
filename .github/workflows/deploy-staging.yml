@@ -32,6 +32,8 @@ jobs:
 
       - name: Get program data from tech endpoints
         run: npm run getData
+        env:
+          SUPABASE_CLIENT_ANON_KEY: ${{ secrets.SUPABASE_CLIENT_ANON_KEY }}
 
       - name: Build Astro site
         run: npm run build
