@@ -315,7 +315,7 @@ menu:
     sections:
       - subsections:
           - heading: "Vis Program"
-            heading_url: "/info/program/week-at-a-glance"
+            heading_url: "/program/sessions"
             columns:
               - links:
                   - text: "Schedule"
