@@ -13,6 +13,8 @@ export type ProgramPaperCard = {
   supplementalUrl: string | null;
   sessionUrl: string | null;
   award: string | null;
+  // Journal-first TVCG paper presented at the conference.
+  isTvcg?: boolean;
 };
 
 export type ProgramPapersBrowserProps = {
