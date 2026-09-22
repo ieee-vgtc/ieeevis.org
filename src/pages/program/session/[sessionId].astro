@@ -85,9 +85,10 @@ const eventTypeLabel = getProgramEventTypeLabel(event.event_type || "other");
 // their presentations. Panels share one event, so their details live on the
 // session; workshops and tutorials are one event each.
 const describedEventTypes = ["workshop", "tutorial", "panel"];
-const isDescribedEvent = describedEventTypes.includes(
-  (event.event_type || "").toLowerCase(),
-);
+const normalizedEventType = (event.event_type || "").toLowerCase();
+const isDescribedEvent = describedEventTypes.includes(normalizedEventType);
+const isPanel = normalizedEventType === "panel";
+const usesOrganizerLabel = isPanel || normalizedEventType === "tutorial";
 // A session's own details (panels, invited talks) apply to any event type.
 const description =
   session.description || (isDescribedEvent ? event.event_description : "");
@@ -125,7 +126,8 @@ const frontmatter = {
     {
       event.organizers.length > 0 && (
         <p class="program-event-organizers">
-          Organizers: {event.organizers.join(", ")}
+          <strong class="mr-2">Organizers:</strong>
+          {event.organizers.join(", ")}
         </p>
       )
     }
@@ -187,13 +189,22 @@ const frontmatter = {
             )}
             {slot.authors && slot.authors.length > 0 && (
               <p class="program-presentation-authors">
-                Authors: {slot.authors.map((author) => author.name).join(", ")}
+                {usesOrganizerLabel ||
+                slot.paper_type.toLowerCase() === "tutorial" ? (
+                  <strong class="mr-2">Organizers:</strong>
+                ) : (
+                  "Authors: "
+                )}
+                {slot.authors
+                  .map((author) => author.name)
+                  .join(", ")}
               </p>
             )}
             {isDescribedEvent &&
               slot.contributors &&
               slot.contributors.length > 0 && (
                 <p class="program-presentation-contrib">
+                  {isPanel && <strong class="mr-2">Panelists:</strong>}
                   {slot.contributors.join(", ")}
                 </p>
               )}
