@@ -1,6 +1,5 @@
 import type { MiddlewareHandler } from "astro";
 import { isPathInactive, stripBaseURL } from "./config/pages-allow-list";
-import { readSession } from "./lib/auth0";
 
 //https://docs.astro.build/en/guides/middleware/
 export const onRequest: MiddlewareHandler = async (context, next) => {
@@ -10,13 +9,6 @@ export const onRequest: MiddlewareHandler = async (context, next) => {
     // 302 = temporary redirect so search engines keep the URL for when it goes live
     return context.redirect(import.meta.env.BASE_URL, 302);
   }
-
-  // No route is fully login-walled: individual pages (e.g. paper/poster
-  // detail pages) decide for themselves which pieces of content — a PDF
-  // link, a video embed — require a signed-in session, and gate just those.
-  // We still resolve the session here, once per request, so every page can
-  // read `Astro.locals.user` without re-parsing the cookie itself.
-  context.locals.user = await readSession(context.cookies, context.url);
 
   const nextResponse = await next();
   // Fully drain the body into a string instead of passing the stream
