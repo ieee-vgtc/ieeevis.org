@@ -7,7 +7,7 @@ import { features } from "../../../config/pages-allow-list";
 import { withBaseURL } from "../../../utils/withBaseURL";
 import { ogDescription } from "../../../utils/ogDescription";
 import { fetchAllSessions } from "../../../utils/paperData";
-import { buildLoginUrl } from "../../../lib/auth0";
+import { buildLoginUrl, readSession } from "../../../lib/auth0";
 import type { Paper } from "../../../types/paper";
 import type { ProgramSession, ProgramTimeSlot } from "../../../types/program";
 
@@ -42,7 +42,13 @@ if (!features.weekOfVis.enabled) {
   return new Response(null, { status: 404 });
 }
 
-const isAuthenticated = Boolean(Astro.locals.user);
+// Static S3 builds have no request cookies; on Netlify this route is rendered
+// per request and can resolve the attendee session normally.
+const user =
+  process.env.STATIC_PROGRAM_PAGES === "true"
+    ? undefined
+    : await readSession(Astro.cookies, Astro.url);
+const isAuthenticated = Boolean(user);
 const loginHref = buildLoginUrl(Astro.url);
 
 // Detail pages are rendered at request time (not prerendered) so each

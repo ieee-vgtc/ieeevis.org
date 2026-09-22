@@ -2,7 +2,7 @@
 import PageLayout from "../../../layouts/PageLayout.astro";
 import AuthGate from "../../../components/AuthGate.astro";
 import { fetchAllPosters } from "../../../utils/paperData";
-import { buildLoginUrl } from "../../../lib/auth0";
+import { buildLoginUrl, readSession } from "../../../lib/auth0";
 
 // On request on Netlify; prerendered for the S3 deploys when
 // STATIC_PROGRAM_PAGES=true (see program/paper/[paperId].astro).
@@ -21,7 +21,13 @@ if (!poster) {
   return new Response(null, { status: 404 });
 }
 
-const isAuthenticated = Boolean(Astro.locals.user);
+// Static S3 builds have no request cookies; on Netlify this route is rendered
+// per request and can resolve the attendee session normally.
+const user =
+  process.env.STATIC_PROGRAM_PAGES === "true"
+    ? undefined
+    : await readSession(Astro.cookies, Astro.url);
+const isAuthenticated = Boolean(user);
 const loginHref = buildLoginUrl(Astro.url);
 
 const frontmatter = {

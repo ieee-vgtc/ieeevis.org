@@ -1,7 +1,7 @@
 ---
 import PageLayout from "../../layouts/PageLayout.astro";
 import BlueskyDiscussion from "../../components/BlueskyDiscussion";
-import { buildLoginUrl } from "../../lib/auth0";
+import { buildLoginUrl, readSession } from "../../lib/auth0";
 
 const frontmatter = {
   title: "Bluesky Discussion Demo",
@@ -13,7 +13,7 @@ const frontmatter = {
 // the signed-out state and never show a reader their own session.
 export const prerender = false;
 
-const isAuthenticated = Boolean(Astro.locals.user);
+const isAuthenticated = Boolean(await readSession(Astro.cookies, Astro.url));
 const loginHref = buildLoginUrl(Astro.url);
 ---
 
