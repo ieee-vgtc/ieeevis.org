@@ -6,6 +6,8 @@ import { withBaseURL } from "../../utils/withBaseURL";
 import { getProgramEventTypeLabel } from "../../utils/programEventTypeLabel";
 import { typeColors } from "../../utils/week-of-utils";
 
+
+// TODO make environment variable to easily set up for future years
 const CONFERENCE_TIME_ZONE = "US/Eastern";
 const PIXELS_PER_MINUTE = 1.18;
 const MIN_TIMELINE_HEIGHT = 560;
@@ -106,6 +108,8 @@ const dayDateFormatter = new Intl.DateTimeFormat("en-US", {
   day: "numeric",
 });
 
+
+// TODO: make this less of a "magic" variable for future years' web chairs
 const roomOrder2026 = [
   "America North / America Center / America South",
   "America North / America South / America Center",
