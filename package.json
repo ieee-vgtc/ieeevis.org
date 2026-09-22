@@ -1,6 +1,7 @@
 {
   "name": "ieeevis.org",
   "version": "1.0.0",
+  "type": "module",
   "year": "2026",
   "description": "This is the updated Astro version of the [IEEE VIS website](http://ieeevis.org).",
   "scripts": {
@@ -28,8 +29,8 @@
   "dependencies": {
     "@astrojs/check": "^0.9.9",
     "@astrojs/markdown-remark": "^7.2.1",
-    "@astrojs/netlify": "^8.1.2",
-    "@astrojs/react": "^6.0.1",
+    "@astrojs/netlify": "^8.2.6",
+    "@astrojs/react": "^6.0.6",
     "@astrojs/sitemap": "^3.7.3",
     "@atproto/api": "^0.20.44",
     "@atproto/oauth-client-browser": "^0.5.7",
@@ -58,5 +59,12 @@
   "homepage": "https://github.com/ieee-vgtc/ieeevis.org#readme",
   "lint-staged": {
     "**/*": "node ./node_modules/prettier/bin/prettier.cjs --write --ignore-unknown"
+  },
+  "allowScripts": {
+    "core-js@3.50.0": true,
+    "esbuild@0.28.1": true,
+    "fsevents@2.3.3": true,
+    "sharp@0.34.5": true,
+    "sharp@0.35.4": true
   }
 }
