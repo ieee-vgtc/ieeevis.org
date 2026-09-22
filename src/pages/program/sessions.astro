@@ -146,7 +146,7 @@ const typeOptions = sortedTypes.map((sessionType) => ({
   value: sessionType,
   label: getProgramEventTypeLabel(sessionType),
   count: typeCounts[sessionType],
-  color: typeColors[sessionType] || "#6b7280",
+  color: typeColors[sessionType] || "#df6824",
 }));
 const conferenceDateTimeFormatter = new Intl.DateTimeFormat("en-US", {
   timeZone: CONFERENCE_TIME_ZONE,
@@ -241,7 +241,7 @@ function formatPeopleForSession(session: SessionListItem) {
                   data-search={session.searchText}
                   data-start={session.startISO}
                   data-end={session.endISO}
-                  accentColor={typeColors[session.eventType] || "#6b7280"}
+                  accentColor={typeColors[session.eventType] || "#df6824"}
                   title={session.title}
                   titleColor={typeTextColors[session.eventType]}
                   titleHref={`/program/session/${session.eventSlug}`}

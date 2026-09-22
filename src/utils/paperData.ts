@@ -25,6 +25,14 @@ interface RawEvent {
   slot_type_default: NullableString;
 }
 
+/** A `session_chairs` entry; `name` may be a comma-joined list of multiple chairs. */
+interface RawSessionChair {
+  name: string;
+  email: string;
+  bluesky: string;
+  affiliation: string;
+}
+
 /** Row of the `sessions2` table. */
 interface RawSession {
   session_id: string;
@@ -32,7 +40,7 @@ interface RawSession {
   event_prefix: string;
   room_id: string;
   timeblock_id: string;
-  session_chairs: string[] | null;
+  session_chairs: RawSessionChair[] | null;
   session_youtube_url: NullableString;
   discord_url: NullableString;
   virtual: boolean;
@@ -121,6 +129,15 @@ const addMinutes = (iso: string, minutes: number) =>
 
 const byName = (name: string): ProgramPerson => ({ name, email: null });
 
+const splitChairNames = (value: string) =>
+  value
+    .split(",")
+    .map((name) => name.trim())
+    .filter(Boolean);
+
+const chairNames = (chairs: RawSessionChair[] | null): string[] =>
+  (chairs || []).flatMap((chair) => splitChairNames(chair.name));
+
 function buildSessionList({
   events,
   sessions,
@@ -199,7 +216,7 @@ function buildSessionList({
       event_prefix: session.event_prefix,
       track: session.room_id,
       room_name: roomsById.get(session.room_id)?.room_name || session.room_id,
-      chair: session.session_chairs || [],
+      chair: chairNames(session.session_chairs),
       time_start: timeblock?.start || "",
       time_end: timeblock?.end || "",
       discord_link: session.discord_url,
