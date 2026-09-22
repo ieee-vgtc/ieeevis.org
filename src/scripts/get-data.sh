@@ -1,5 +1,13 @@
 set -a
-source .env
+
+if [ -f .env ]; then
+  set -a
+  . ./.env
+  set +a
+fi
+
+: "${SUPABASE_CLIENT_ANON_KEY:?SUPABASE_CLIENT_ANON_KEY is required}"
+
 set +a
 rm -rf src/data/program
 mkdir -p src/data/program

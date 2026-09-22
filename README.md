@@ -46,6 +46,18 @@ When you have made changes and would like to submit them, open a new pull reques
 
 Pages that are not yet ready to publish can be listed under `inactivePathPrefixes` in `src/config/pages-allow-list.ts`; visitors (and search-engine crawlers) hitting those paths are redirected to the home page with a 302. Individual pages inside an inactive folder can be selectively re-enabled by adding their exact path to `activePathOverrides` in the same file.
 
+## Sign-in and the Bluesky discussions (Auth0 setup)
+
+Attendees sign in through Auth0 (`src/lib/auth0.ts`; variables in `.env.example`). The paper pages' Bluesky discussion uses that session in two ways, and each needs a piece of Auth0 configuration that lives outside this repository. Check both when the tenant, the application, or the season changes.
+
+**1. The `bsky_handle` claim (Login Action).** An attendee's Bluesky handle is stored on their Auth0 user as `user_metadata.bsky_handle`. Auth0 does not put `user_metadata` into ID tokens, so a Post Login Action copies it into the namespaced claim `https://ieeevis.org/bsky_handle`, which `verifyAuth0IdToken` reads. Check it under **Actions → Library** (name in 2026: `Add bsky_handle claim`) and confirm it is attached under **Actions → Triggers → post-login**. The code it must contain is in the comment on `BSKY_HANDLE_CLAIM` in `src/lib/auth0.ts`. Without it, sign-in still works; the site just never learns the handle.
+
+**2. Writing the handle (Management API grant).** After an attendee logs in with Bluesky on a paper page, the site offers to save the handle to their profile. `POST /auth/bluesky-handle` does that through the Auth0 Management API with a client-credentials token, which needs an application authorized for the **Auth0 Management API** with the `update:users` permission. In 2026 this is a separate Machine to Machine application whose credentials are in the Netlify environment as `AUTH0_MANAGEMENT_CLIENT_ID` and `AUTH0_MANAGEMENT_CLIENT_SECRET`. (Alternative: authorize the login application itself; that requires setting its Token Endpoint Authentication Method to Post before the Client Credentials grant can be enabled.) Without the grant, everything works except the Save button, which fails with a 500.
+
+To verify after a change: sign in, open a paper, log in with Bluesky under the discussion, click Save, then check the user in **User Management → Users** — `user_metadata` shows `bsky_handle`, and after a site re-login the discussion greets you with a one-click "Log in as @handle" button.
+
+The Bluesky login itself needs nothing in Auth0: the site is a public ATProto OAuth client whose metadata is served from its own origin (`src/components/bluesky/oauth.ts`).
+
 ## Automatic building
 
 After your PR is merged in, GitHub Actions will automatically build the staging site using the workflow file contained in [.github/workflows/staging.yml](/.github/workflows/staging.yml).

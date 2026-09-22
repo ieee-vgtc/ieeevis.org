@@ -9,9 +9,9 @@ import pagefind from "astro-pagefind";
 
 //https://docs.astro.build/en/guides/integrations-guide/sitemap/
 import sitemap from "@astrojs/sitemap";
+import { unified } from "@astrojs/markdown-remark";
 import rehypeExternalLinks from "rehype-external-links";
-// @ts-ignore
-import brokenLinksChecker from "astro-broken-links-checker";
+import brokenLinksChecker from "./src/integrations/broken-links-checker.js";
 import checkRepoFileLinks from "./src/integrations/check-repo-file-links.js";
 
 import pkg from "./package.json" with { type: "json" };
@@ -36,6 +36,14 @@ export default defineConfig({
     driver: sessionDrivers.memory(),
   },
   adapter: netlify({
+    // Edge Functions emulation is enabled by default and starts a managed
+    // Deno server, even though this project does not define any Netlify Edge
+    // Functions. Disable only that unused runtime for plain `astro dev`.
+    devFeatures: {
+      environmentVariables: false,
+      images: true,
+      edgeFunctions: false,
+    },
     // Read from the filesystem at render time (src/utils/load_yaml.ts,
     // src/utils/paperData.ts) via readFileSync, so they must be explicitly
     // bundled into Netlify's serverless function or every page that reads
@@ -48,16 +56,31 @@ export default defineConfig({
     ],
   }),
   integrations: [
+    // Paper/poster pages render on request so they can check the signed-in
+    // session, but the S3 deploys serve static files only. Their workflows
+    // set STATIC_PROGRAM_PAGES=true to prerender those pages instead.
+    {
+      name: "static-program-pages",
+      hooks: {
+        "astro:route:setup": ({ route }) => {
+          if (
+            process.env.STATIC_PROGRAM_PAGES === "true" &&
+            /src\/pages\/program\/(paper|poster)\//.test(route.component)
+          ) {
+            route.prerender = true;
+          }
+        },
+      },
+    },
     react(),
     sitemap(),
     pagefind(),
+    // Wraps astro-broken-links-checker, which only knows about files emitted
+    // at build time, so links to on-demand routes (paper/poster detail pages)
+    // are not reported as broken. Writes .link-checker/broken-links.log.
     brokenLinksChecker({
-      logFilePath: "broken-links.log",
       checkExternalLinks: false,
-      // This checker only validates files emitted at build time. Program
-      // detail routes are intentionally rendered on demand, so their valid
-      // links cannot be checked this way. The checker still writes its report.
-      throwError: false,
+      throwError: true,
     }),
     // brokenLinksChecker skips external links, so links back into this repo
     // (e.g. the footer's "suggest a fix") are verified against the file tree.
@@ -68,17 +91,26 @@ export default defineConfig({
   ],
   site: process.env.SITE,
   markdown: {
-    rehypePlugins: [
-      [
-        rehypeExternalLinks,
-        {
-          target: "_blank",
-          rel: ["noopener", "noreferrer"],
-        },
+    processor: unified({
+      rehypePlugins: [
+        [
+          rehypeExternalLinks,
+          {
+            target: "_blank",
+            rel: ["noopener", "noreferrer"],
+          },
+        ],
       ],
-    ],
+    }),
   },
   vite: {
+    // `astro build` (also run by the pre-commit hook) pre-bundles
+    // dependencies in production mode. Sharing the dev server's cache let a
+    // build replace React with its production bundle under a running dev
+    // server ("_jsxDEV is not a function"), so builds get their own cache.
+    cacheDir: process.argv.includes("build")
+      ? "node_modules/.vite-build"
+      : "node_modules/.vite",
     optimizeDeps: {
       include: ["react", "react-dom", "react-dom/client"],
     },

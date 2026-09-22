@@ -3,6 +3,7 @@ title: Meetups
 description: "How to propose a meetup at IEEE VIS: what meetups are, what organizers get, and what a meetup proposal should include."
 layout: /src/layouts/PageLayout.astro
 contact: meetups@ieeevis.org
+sidebar: call-for-participation
 active_nav: Contribute
 ---
 
@@ -33,13 +34,17 @@ Submissions should be emailed to [community@ieeevis.org](mailto:community@ieeevi
 
 Submissions will be considered subject to time and technology resources availability. Early submissions will be given priority.
 
-| Early Submission | **September 1, 2026** |
-| Notification | **September 30, 2026** |
+| **Event**        | Date                   |
+| ---------------- | ---------------------- |
+| Early Submission | **September 1, 2026**  |
+| Notification     | **September 30, 2026** |
 
 Rolling submission: Submissions after the early submission deadline will be considered subject to timeslot availability. Later submissions will be processed and notified within a couple of days.
 
+| **Event**          | Date                                             |
+| ------------------ | ------------------------------------------------ |
 | Rolling Submission | **From September 2, 2026 to September 25, 2026** |
-| Notification | **Within a few days** |
+| Notification       | **Within a few days**                            |
 
 ---
 

@@ -6,6 +6,8 @@ import { withBaseURL } from "../../utils/withBaseURL";
 import { getProgramEventTypeLabel } from "../../utils/programEventTypeLabel";
 import { typeColors } from "../../utils/week-of-utils";
 
+
+// TODO make environment variable to easily set up for future years
 const CONFERENCE_TIME_ZONE = "US/Eastern";
 const PIXELS_PER_MINUTE = 1.18;
 const MIN_TIMELINE_HEIGHT = 560;
@@ -106,6 +108,28 @@ const dayDateFormatter = new Intl.DateTimeFormat("en-US", {
   day: "numeric",
 });
 
+
+// TODO: make this less of a "magic" variable for future years' web chairs
+const roomOrder2026 = [
+  "America North / America Center / America South",
+  "America North / America South / America Center",
+  "America north",
+  "America center",
+  "America south",
+  "Essex north",
+  "Essex center",
+  "Essex south",
+  "Straffordshire",
+  "St. George (A+B)",
+  "St. George (C+D)",
+  "St. George (C+D) / St. George (A+B)",
+].map((x) => x.toLowerCase());
+/** Position of a room in roomOrder2026; unlisted rooms sort last. */
+function getRoomOrderIndex(roomName: string): number {
+  const idx = roomOrder2026.findIndex((x) => x === roomName.toLowerCase());
+  return idx === -1 ? roomOrder2026.length : idx;
+}
+
 const sessionList = await fetchAllSessions();
 
 const sessions: CalendarSession[] = Object.entries(sessionList)
@@ -190,29 +214,47 @@ const dayGroups = Array.from(groupedSessions.entries())
       const clusterKey = `${dayKey}-c${clusterIdx}`;
       const clusterTopMinute = Math.min(...cluster.map((s) => s.startMinute));
 
-      const active: { laneIndex: number; endMinute: number }[] = [];
+      // Lanes follow roomOrder2026 so each room keeps a consistent
+      // left-to-right position. Sessions that overlap within one room (e.g.
+      // "TBA") get extra lanes next to each other.
+      const sessionsByRoom = new Map<string, CalendarSession[]>();
+      for (const session of cluster) {
+        const roomSessions = sessionsByRoom.get(session.room) || [];
+        roomSessions.push(session);
+        sessionsByRoom.set(session.room, roomSessions);
+      }
+      const orderedRooms = Array.from(sessionsByRoom.keys()).sort(
+        (a, b) =>
+          getRoomOrderIndex(a) - getRoomOrderIndex(b) || a.localeCompare(b),
+      );
+
       const localPlaced: Array<{
         session: CalendarSession;
         laneIndex: number;
       }> = [];
-      let maxLaneCount = 1;
+      let maxLaneCount = 0;
 
-      for (const session of cluster) {
-        for (let i = active.length - 1; i >= 0; i -= 1) {
-          if (active[i].endMinute <= session.startMinute) {
-            active.splice(i, 1);
+      for (const room of orderedRooms) {
+        const laneOffset = maxLaneCount;
+        const active: { laneIndex: number; endMinute: number }[] = [];
+
+        for (const session of sessionsByRoom.get(room) || []) {
+          for (let i = active.length - 1; i >= 0; i -= 1) {
+            if (active[i].endMinute <= session.startMinute) {
+              active.splice(i, 1);
+            }
           }
-        }
 
-        const occupied = new Set(active.map((item) => item.laneIndex));
-        let laneIndex = 0;
-        while (occupied.has(laneIndex)) {
-          laneIndex += 1;
-        }
+          const occupied = new Set(active.map((item) => item.laneIndex));
+          let laneIndex = laneOffset;
+          while (occupied.has(laneIndex)) {
+            laneIndex += 1;
+          }
 
-        active.push({ laneIndex, endMinute: session.endMinute });
-        localPlaced.push({ session, laneIndex });
-        maxLaneCount = Math.max(maxLaneCount, laneIndex + 1);
+          active.push({ laneIndex, endMinute: session.endMinute });
+          localPlaced.push({ session, laneIndex });
+          maxLaneCount = Math.max(maxLaneCount, laneIndex + 1);
+        }
       }
 
       for (const item of localPlaced) {
@@ -264,9 +306,41 @@ const timelineHeightPx = Math.max(
   MIN_TIMELINE_HEIGHT,
   timelineMinuteSpan * PIXELS_PER_MINUTE,
 );
-const referenceConferenceDayStartMs = sessions.length
-  ? Date.parse(sessions[0].startISO.slice(0, 10) + "T00:00:00+01:00")
-  : Date.parse("2025-11-01T00:00:00+01:00");
+/** Instant of midnight on `dayKey` (YYYY-MM-DD) in the conference timezone. */
+function getConferenceMidnightMs(dayKey: string) {
+  const utcMidnight = Date.parse(`${dayKey}T00:00:00Z`);
+  // Midnight UTC falls on the previous evening in US timezones, so read the
+  // offset at noon, which is on the same side of any DST switch as midnight.
+  const noon = new Date(utcMidnight + 12 * 60 * 60_000);
+  const wallClock = new Intl.DateTimeFormat("en-US", {
+    timeZone: CONFERENCE_TIME_ZONE,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    hourCycle: "h23",
+  }).formatToParts(noon);
+  const part = (type: string) =>
+    Number(wallClock.find((p) => p.type === type)?.value);
+  const noonAsUtc = Date.UTC(
+    part("year"),
+    part("month") - 1,
+    part("day"),
+    part("hour"),
+    part("minute"),
+  );
+  const offsetMs = noonAsUtc - noon.getTime();
+  return utcMidnight - offsetMs;
+}
+
+// The time axis ticks are instants on the first day, so the client can relabel
+// them in the viewer's local timezone.
+const referenceConferenceDayStartMs = getConferenceMidnightMs(
+  sessions.length
+    ? sessions[0].dayKey
+    : getConferenceDayKey(new Date().toISOString()),
+);
 
 const hourMarks: { minute: number; label: string }[] = [];
 for (
@@ -325,6 +399,29 @@ const roomDayGroups = dayGroups.map((dayGroup) => {
     dateLabel: dayGroup.dateLabel,
     rooms,
   };
+});
+/** Rooms that the 2026 conference streams online; update each year. */
+const streamedRooms2026 = [
+  "America North",
+  "America Center",
+  "America South",
+].map((room) => room.toLowerCase());
+
+/**
+ * True when every room in the (possibly combined, e.g. "A / B") room name is
+ * streamed in 2026.
+ */
+function isStreamedRoom2026(roomName: string): boolean {
+  return roomName
+    .split("/")
+    .map((part) => part.trim().toLowerCase())
+    .every((part) => part.length > 0 && streamedRooms2026.includes(part));
+}
+
+roomDayGroups.forEach((group) => {
+  group.rooms.sort(
+    (a, b) => getRoomOrderIndex(a.roomName) - getRoomOrderIndex(b.roomName),
+  );
 });
 
 const frontmatter = {
@@ -404,10 +501,14 @@ const frontmatter = {
           </div>
 
           {
+            /* Day columns are not data-day-group-containers: the day headers
+              above are fixed, so a day with no matching sessions stays as an
+              empty column instead of being hidden and shifting later days left. */
+          }
+          {
             dayGroups.map((dayGroup) => (
               <section
                 class="calendar-day-column"
-                data-day-group-container
                 data-day-column
                 data-day-group={dayGroup.dayKey}
               >
@@ -511,11 +612,19 @@ const frontmatter = {
                 Time
               </div>
               {dayGroup.rooms.map((roomGroup) => (
-                <div class="calendar-day-header-compact">
+                <div
+                  class="calendar-day-header-compact"
+                  data-full-name={roomGroup.roomName}
+                >
                   <h2>{roomGroup.roomName}</h2>
                   <p>
                     {dayGroup.weekdayLabel}, {dayGroup.dateLabel}
                   </p>
+                  {isStreamedRoom2026(roomGroup.roomName) && (
+                    <p class="calendar-room-streaming-note">
+                      (available as streaming)
+                    </p>
+                  )}
                 </div>
               ))}
             </div>
@@ -665,14 +774,21 @@ const frontmatter = {
 
                   <h3>{session.title}</h3>
 
+                  {/* The event name often repeats the type ("VIS Full Papers")
+                      or the title (tutorials), so it only shows when it adds
+                      something. */}
+                  {session.eventTitle !== session.eventTypeLabel &&
+                    session.eventTitle !== session.title && (
+                      <p class="calendar-session-event">{session.eventTitle}</p>
+                    )}
+
                   <p class="calendar-session-meta">
                     <span class="calendar-session-type">
                       {session.eventTypeLabel}
                     </span>
-                    <span>{session.eventTitle}</span>
+                    <span aria-hidden="true">·</span>
+                    <span>{session.room}</span>
                   </p>
-
-                  <p class="calendar-session-room">{session.room}</p>
 
                   {session.chairs.length > 0 && (
                     <p class="calendar-session-chair">
@@ -1046,7 +1162,13 @@ const frontmatter = {
             "[data-overlay-room]",
           );
           if (overlayName) overlayName.textContent = name;
-          if (overlayRoom) overlayRoom.textContent = room;
+          if (overlayRoom) {
+            let tempRoom = room;
+            if (room === "TBA") {
+              tempRoom = "Room to be announced";
+            }
+            overlayRoom.textContent = tempRoom;
+          }
           overlayMeta.textContent = [type, event].filter(Boolean).join(" · ");
 
           // color overlay by this bar's accent
@@ -1084,7 +1206,16 @@ const frontmatter = {
             column.querySelectorAll<HTMLElement>(
               `[data-session-card][data-cluster-key="${clusterKey}"]`,
             ),
-          ).filter((b) => !b.hidden);
+          )
+            .filter((b) => !b.hidden)
+            // Tabs follow the lanes, which are laid out in roomOrder2026 order.
+            .sort(
+              (a, b) =>
+                Number(a.style.getPropertyValue("--session-lane-index")) -
+                  Number(b.style.getPropertyValue("--session-lane-index")) ||
+                Number(a.style.getPropertyValue("--session-start-minute")) -
+                  Number(b.style.getPropertyValue("--session-start-minute")),
+            );
 
           if (clusterBars.length === 0) return;
           // Single visible bar after filtering may still need overlay details when it belongs

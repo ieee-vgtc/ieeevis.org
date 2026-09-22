@@ -27,6 +27,8 @@ export interface ProgramTimeSlot {
   fno: NullableString;
   open_access_supplemental_question?: NullableString;
   open_access_supplemental_link?: NullableString;
+  /** Page about a talk with no paper page, e.g. an invited speaker's info page. */
+  url?: NullableString;
 }
 
 export interface ProgramSession {
@@ -40,6 +42,9 @@ export interface ProgramSession {
   time_end: string;
   discord_link: NullableString;
   youtube_url: NullableString;
+  /** Overrides the event's description/url when events share one entry (e.g. panels). */
+  description?: NullableString;
+  url?: NullableString;
   time_slots: ProgramTimeSlot[];
 }
 

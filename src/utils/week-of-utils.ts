@@ -1,13 +1,17 @@
+// Each event type shown in the program gets its own color (full, short,
+// invited/CG&A, panel, poster, tutorial, vis, visap, workshop), so filters and
+// calendar blocks can be told apart.
 export const typeColors: Record<string, string> = {
   full: "#1C3160",
   short: "#FDBB30",
-  "cg&a": "#2672B9",
+  tvcg: "#0F766E",
+  "cg&a": "#4D7C0F",
   panel: "#A20A35",
   workshop: "#f4a261",
-  tutorial: "#A20A35",
-  vis: "#FDBB30",
-  poster: "#1C3160",
-  invited: "#1C3160",
+  tutorial: "#0F766E",
+  vis: "#693A19",
+  poster: "#6B3FA0",
+  invited: "#4D7C0F",
   visap: "#2672B9",
   challenges: "#2672B9",
   symposium: "#2672B9",
@@ -20,16 +24,18 @@ export const typeColors: Record<string, string> = {
   keynote: "#FDBB30",
   capstone: "#FDBB30",
   industry: "#FDBB30",
+  conference: "#df6824",
 };
 
 export const typeTextColors: Record<string, string> = {
   full: "#ffffff",
   short: "#111827",
+  tvcg: "#ffffff",
   "cg&a": "#ffffff",
   panel: "#ffffff",
   workshop: "#ffffff",
   tutorial: "#ffffff",
-  vis: "#111827",
+  vis: "#ffffff",
   poster: "#ffffff",
   invited: "#ffffff",
   visap: "#ffffff",
@@ -44,4 +50,5 @@ export const typeTextColors: Record<string, string> = {
   keynote: "#111827",
   capstone: "#111827",
   industry: "#111827",
+  conference: "#111827",
 };

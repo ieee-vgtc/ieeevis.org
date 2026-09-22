@@ -35,6 +35,6 @@ If you are interested in supporting the Inclusivity Scholarship Program and Incl
 
 - Sandra Bae _University of Arizona_
 - Ab Mosca _Smith College_
-- Jonathon Zong _University of Colorado, Boulder_
+- Jonathan Zong _University of Colorado, Boulder_
 
 Please contact [inclusivity_accessibility@ieeevis.org](mailto:inclusivity_accessibility@ieeevis.org) with any questions about the Inclusivity Scholarship Program and Inclusivity at IEEE VIS.

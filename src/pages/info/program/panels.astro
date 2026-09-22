@@ -16,14 +16,14 @@ const slugify = (value: string) =>
     .replace(/^-+|-+$/g, "");
 
 const panels = load_json("./src/data/early_program/panels_list.json")
-  .filter((row) => row["Panel title"])
+  .filter((row) => row["panel_title"])
   .map((row) => ({
-    title: row["Panel title"],
-    anchor: slugify(row["Panel title"]),
-    abstract: row["Description / abstract"],
-    website: row["Panel website"],
-    organizers: row["Organizers"],
-    panelists: row["Panelists"],
+    title: row["panel_title"],
+    anchor: slugify(row["panel_title"]),
+    abstract: row["description_abstract"],
+    website: row["website"],
+    organizers: row["organizers"],
+    panelists: row["panelists"],
   }));
 ---
 
