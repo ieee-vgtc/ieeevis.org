@@ -470,11 +470,11 @@ menu:
               - links:
                   - text: "Vis Buddies"
                     description: "Connecting new and returning VIS attendees"
-                    url: "https://ieeevis.org/year/2026/info/community/vis-buddies/"
+                    url: "/year/2026/info/community/vis-buddies/"
                     is_new: true
                   - text: "Job Postings"
                     description: "VIS 2026 job board"
-                    url: "https://ieeevis.org/year/2026/info/community/jobs/"
+                    url: "/year/2026/info/community/jobs/"
                     is_new: true
 
   # ---------------------------------------------------------------------------
