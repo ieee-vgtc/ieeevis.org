@@ -134,9 +134,24 @@ function getRoomOrderIndex(roomName: string): number {
   return idx === -1 ? roomOrder2026.length : idx;
 }
 
+const splitRoomNames = (roomName: string) =>
+  roomName
+    .split("/")
+    .map((part) => part.trim())
+    .filter(Boolean);
+
+const getSharedSessionKey = (session: CalendarSession) =>
+  [
+    session.dayKey,
+    session.eventId,
+    session.title.trim().toLowerCase(),
+    session.startISO,
+    session.endISO,
+  ].join("|");
+
 const sessionList = await fetchAllSessions();
 
-const sessions: CalendarSession[] = Object.entries(sessionList)
+const rawSessions: CalendarSession[] = Object.entries(sessionList)
   .flatMap(([eventId, eventDefinition]) =>
     eventDefinition.sessions.map((session) => {
       const eventType = eventDefinition.event_type || "other";
@@ -171,6 +186,48 @@ const sessions: CalendarSession[] = Object.entries(sessionList)
       };
     }),
   )
+  .sort((a, b) => a.startMs - b.startMs);
+
+const sharedSessionGroups = new Map<string, CalendarSession[]>();
+for (const session of rawSessions) {
+  const sharedKey = getSharedSessionKey(session);
+  const matchingSessions = sharedSessionGroups.get(sharedKey) || [];
+  matchingSessions.push(session);
+  sharedSessionGroups.set(sharedKey, matchingSessions);
+}
+
+// Use one session throughout the calendar for an event that the source lists
+// once per occupied room. The combined room name is subsequently used to span
+// the corresponding columns in the selected-day view.
+const sessions: CalendarSession[] = Array.from(sharedSessionGroups.values())
+  .map((matchingSessions) => {
+    const roomNames = Array.from(
+      new Set(
+        matchingSessions.flatMap((session) => splitRoomNames(session.room)),
+      ),
+    ).sort(
+      (a, b) =>
+        getRoomOrderIndex(a) - getRoomOrderIndex(b) || a.localeCompare(b),
+    );
+    const firstRoom = roomNames[0];
+    const session =
+      matchingSessions.find((candidate) =>
+        splitRoomNames(candidate.room).includes(firstRoom),
+      ) || matchingSessions[0];
+    const chairs = Array.from(
+      new Set(matchingSessions.flatMap((candidate) => candidate.chairs)),
+    );
+    const room = roomNames.join(" / ");
+
+    return {
+      ...session,
+      room,
+      chairs,
+      searchText: [session.title, session.eventTitle, room, ...chairs]
+        .join(" ")
+        .toLowerCase(),
+    };
+  })
   .sort((a, b) => a.startMs - b.startMs);
 
 const groupedSessions = new Map<string, CalendarSession[]>();
@@ -375,12 +432,6 @@ const typeOptions = sortedTypes.map((sessionType) => ({
   color: typeColors[sessionType] || "#6b7280",
 }));
 
-const splitRoomNames = (roomName: string) =>
-  roomName
-    .split("/")
-    .map((part) => part.trim())
-    .filter(Boolean);
-
 const roomDayGroups = dayGroups.map((dayGroup) => {
   const orderedRooms = Array.from(
     new Set(dayGroup.sessions.flatMap((session) => splitRoomNames(session.room))),
@@ -392,17 +443,10 @@ const roomDayGroups = dayGroups.map((dayGroup) => {
     orderedRooms.map((roomName) => [roomName, []]),
   );
 
-  // The source schedule may represent one plenary once per physical room.
-  // Consolidate those records before laying them out, so a keynote occupying
-  // America North, Center, and South is one card across all three columns.
+  // Group defensively before laying sessions across their physical rooms.
   const sharedSessionGroups = new Map<string, PlacedCalendarSession[]>();
   for (const session of dayGroup.sessions) {
-    const sharedKey = [
-      session.eventId,
-      session.title.trim().toLowerCase(),
-      session.startISO,
-      session.endISO,
-    ].join("|");
+    const sharedKey = getSharedSessionKey(session);
     const matchingSessions = sharedSessionGroups.get(sharedKey) || [];
     matchingSessions.push(session);
     sharedSessionGroups.set(sharedKey, matchingSessions);
