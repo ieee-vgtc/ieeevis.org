@@ -9,13 +9,11 @@ const navigation_data = load_yaml("./src/data/navigation.yml");
 
 import Head from "../components/Head";
 import Navigation from "../components/Navigation";
-import ProgramTopBar from "../components/ProgramTopBar.astro";
 import Footer from "../components/Footer";
 
 const { page_info } = Astro.props;
 const { pathname } = Astro.url;
 
-const isProgramPage = /year\/202\d\/program/.test(pathname);
 const source_file = source_file_for_pathname(pathname);
 ---
 
@@ -43,8 +41,6 @@ const source_file = source_file_for_pathname(pathname);
   </head>
   <body id="app" class="overflow-x-hidden">
     <Navigation nav_data={navigation_data} page_info={page_info} client:load />
-    <!-- just show it everywhere like previous years -->
-    <!-- <ProgramTopBar /> -->
 
     <main>
       <slot />

@@ -1,11 +1,14 @@
 ---
 import Sidebar from "../components/Sidebar.astro";
+import ProgramViewSwitcher from "../components/ProgramViewSwitcher.astro";
 import DefaultLayout from "./DefaultLayout.astro";
 const { frontmatter } = Astro.props;
 const fullWidth = Boolean(frontmatter.full_width);
 const { pathname } = Astro.url;
 
 const isProgramPage = /year\/202\d\/program/.test(pathname);
+const showProgramViewSwitcher =
+  /\/program\/(?:calendar|sessions|papers)\/?$/.test(pathname);
 ---
 
 <DefaultLayout page_info={frontmatter}>
@@ -24,8 +27,9 @@ const isProgramPage = /year\/202\d\/program/.test(pathname);
 
   {
     fullWidth ? (
-      <div class="container md:py-16">
-        <article class="content w-full md:mt-0 mt-8">
+      <div class="container mt-8 md:mt-0 md:py-16">
+        {showProgramViewSwitcher && <ProgramViewSwitcher />}
+        <article class="content w-full">
           <slot />
         </article>
       </div>
