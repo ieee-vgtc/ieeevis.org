@@ -4,6 +4,9 @@ export type ProgramPaperCard = {
   authorNames: string[];
   keywordsLabel: string;
   abstractText: string;
+  /** Stable event category used for filtering and colors. */
+  presentationType?: string;
+  /** Human-readable event category. */
   presentationLabel: string;
   sessionLabel: string;
   scheduleLabel: string;

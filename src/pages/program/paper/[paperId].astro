@@ -64,6 +64,10 @@ if (!sourcePaper) {
   return new Response(null, { status: 404 });
 }
 
+const paperEvent = Object.values(sessionList).find(
+  (event) => event.event_prefix === sourcePaper.event_prefix,
+);
+
 // Find the slot presenting this paper (slot.uid = paper.id UUID).
 let presentation:
   { session: ProgramSession; slot: ProgramTimeSlot } | undefined;
@@ -138,12 +142,23 @@ const presentationDetails = presentation && {
 // Breadcrumb data
 const eventLabel =
   paper.event_title ||
+  paperEvent?.event ||
+  paperEvent?.long_name ||
   EVENT_PREFIX_LABELS[paper.event_prefix] ||
   paper.event_prefix;
-// Link to sessions page pre-filtered by this paper's event type
+// Workshop events have their own session page. Other event categories link to
+// the sessions page pre-filtered by event type.
 const eventType =
-  EVENT_PREFIX_TO_TYPE[paper.event_prefix] || paper.event_prefix;
-const eventUrl = withBaseURL(`/program/sessions/?type=${eventType}`);
+  paperEvent?.event_type ||
+  EVENT_PREFIX_TO_TYPE[paper.event_prefix] ||
+  paper.event_prefix;
+const workshopSession =
+  eventType === "workshop" ? paperEvent?.sessions[0] : undefined;
+const eventUrl = workshopSession
+  ? withBaseURL(
+      `/program/session/${workshopSession.event_prefix}-${workshopSession.session_id}`,
+    )
+  : withBaseURL(`/program/sessions/?type=${encodeURIComponent(eventType)}`);
 
 const awardLabel =
   paper.award === "best"

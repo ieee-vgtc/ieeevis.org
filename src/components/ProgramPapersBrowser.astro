@@ -8,12 +8,15 @@ import { typeColors, typeTextColors } from "../utils/week-of-utils";
 const paperTypeToNameMap: Record<string, string> = {
   full: "Full VIS Paper",
   short: "VIS Short Paper",
+  "cg&a": "CG&A Paper",
   poster: "Poster",
   demo: "Demo",
-  "workshop paper": "Workshop Paper",
+  "computer graphics & applications": "CG&A Paper",
 };
 
 const normalizePaperType = (value: string) => value.trim().toLowerCase();
+const getPaperType = (paper: ProgramPapersBrowserProps["papers"][number]) =>
+  normalizePaperType(paper.presentationType || paper.presentationLabel);
 
 const {
   papers,
@@ -25,7 +28,7 @@ const bookmarkKey = `${storageKeyPrefix}-bookmarks`;
 const lowerItemType = itemType.toLowerCase();
 
 const typeCounts = papers.reduce<Record<string, number>>((acc, paper) => {
-  const type = normalizePaperType(paper.presentationLabel);
+  const type = getPaperType(paper);
   acc[type] = (acc[type] || 0) + 1;
   return acc;
 }, {});
@@ -35,6 +38,7 @@ const typeCounts = papers.reduce<Record<string, number>>((acc, paper) => {
 const tvcgCount = papers.filter((paper) => paper.isTvcg).length;
 
 const typeOptions = Object.keys(typeCounts)
+  .filter((value) => value !== "tvcg")
   .sort((a, b) => a.localeCompare(b))
   .map((value) => ({
     value,
@@ -186,7 +190,7 @@ const typeOptions = Object.keys(typeCounts)
     {
       papers.map((paper) => {
         const isBookmarked = false;
-        const normalizedType = paper.presentationLabel.trim().toLowerCase();
+        const normalizedType = getPaperType(paper);
         const colorType = paper.isTvcg ? "tvcg" : normalizedType;
         const people = paper.authorNames.map((authorName) => ({
           name: authorName,
