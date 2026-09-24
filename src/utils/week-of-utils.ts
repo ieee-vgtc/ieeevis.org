@@ -25,6 +25,7 @@ export const typeColors: Record<string, string> = {
   capstone: "#FDBB30",
   industry: "#FDBB30",
   conference: "#df6824",
+  Challenge: "#0F172A",
 };
 
 export const typeTextColors: Record<string, string> = {
@@ -33,7 +34,7 @@ export const typeTextColors: Record<string, string> = {
   tvcg: "#ffffff",
   "cg&a": "#ffffff",
   panel: "#ffffff",
-  workshop: "#ffffff",
+  workshop: "#111827",
   tutorial: "#ffffff",
   vis: "#ffffff",
   poster: "#ffffff",
@@ -51,4 +52,5 @@ export const typeTextColors: Record<string, string> = {
   capstone: "#111827",
   industry: "#111827",
   conference: "#111827",
+  Challenge: "#F8FAFC",
 };
