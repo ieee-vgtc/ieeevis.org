@@ -1,0 +1,94 @@
+---
+import { withBaseURL } from "../utils/withBaseURL";
+
+const { pathname } = Astro.url;
+
+const views = [
+  { href: "/program/calendar", label: "Calendar", hideOnMobile: true },
+  { href: "/program/sessions", label: "Sessions" },
+  { href: "/program/papers", label: "Papers" },
+];
+---
+
+<nav class="program-view-switcher" aria-label="Program views">
+  <div class="program-view-switcher__options">
+    {
+      views.map((view) => {
+        const isActive = pathname.includes(view.href);
+
+        return (
+          <a
+            class:list={[
+              "u-choice-button program-view-switcher__option hover-response--tint",
+              {
+                "is-active": isActive,
+                "program-view-switcher__option--desktop-only":
+                  view.hideOnMobile,
+              },
+            ]}
+            href={withBaseURL(view.href)}
+            aria-current={isActive ? "page" : undefined}
+          >
+            {view.label}
+          </a>
+        );
+      })
+    }
+  </div>
+</nav>
+
+<style>
+  .program-view-switcher {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .program-view-switcher__options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+  }
+
+  .program-view-switcher__option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 7rem;
+    border-bottom: 1px solid var(--color-gray-400) !important;
+    text-align: center;
+    text-decoration: none !important;
+  }
+
+  .program-view-switcher__option:focus-visible {
+    outline: 3px solid rgb(223 104 36 / 0.3);
+    outline-offset: 2px;
+  }
+
+  .program-view-switcher__option.is-active {
+    border-bottom-color: var(--color-accent) !important;
+  }
+
+  /* Match the calendar's own mobile/list breakpoint so the available views
+     cannot change while the responsive calendar layout settles. */
+  @media (max-width: 959px) {
+    .program-view-switcher__option--desktop-only {
+      display: none !important;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .program-view-switcher {
+      width: 100%;
+    }
+
+    .program-view-switcher__options {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      width: 100%;
+    }
+
+    .program-view-switcher__option {
+      min-width: 0;
+    }
+  }
+</style>

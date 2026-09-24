@@ -66,7 +66,7 @@ const typeOptions = Object.keys(typeCounts)
   data-bookmark-key={bookmarkKey}
 >
   <ProgramHeader
-    title={`VIS ${itemType}s`}
+    title={`Papers`}
     subtitleBefore={`Browse accepted ${lowerItemType}s by title, author, keyword, and session information.`}
     subtitleAfter={""}
     groupingNote="Note: bookmarks are stored locally in your browser and are not shared across devices."
@@ -75,18 +75,29 @@ const typeOptions = Object.keys(typeCounts)
     allLabel="All"
   >
     <div slot="extra-controls" class="papers-controls">
-      <div class="flex w-full justify-between">
+      <div class="u-primary-controls flex w-full justify-between">
         <label class="papers-control">
           Search by
           <div
             id="papers-search-field"
-            class="papers-choice-group"
+            class="papers-choice-group u-responsive-choice-group"
             role="group"
             aria-label="Search by"
           >
+            <select
+              class="u-select u-mobile-choice-select"
+              data-choice-select
+              aria-label="Search by"
+            >
+              <option value="any">any</option>
+              <option value="title">title</option>
+              <option value="keyword">keyword</option>
+              <option value="author">author</option>
+              <option value="session">session</option>
+            </select>
             <button
               type="button"
-              class="papers-choice-button is-active"
+              class="papers-choice-button hover-response--tint is-active"
               data-choice-value="any"
               aria-pressed="true"
             >
@@ -94,7 +105,7 @@ const typeOptions = Object.keys(typeCounts)
             </button>
             <button
               type="button"
-              class="papers-choice-button"
+              class="papers-choice-button hover-response--tint"
               data-choice-value="title"
               aria-pressed="false"
             >
@@ -102,7 +113,7 @@ const typeOptions = Object.keys(typeCounts)
             </button>
             <button
               type="button"
-              class="papers-choice-button"
+              class="papers-choice-button hover-response--tint"
               data-choice-value="keyword"
               aria-pressed="false"
             >
@@ -110,7 +121,7 @@ const typeOptions = Object.keys(typeCounts)
             </button>
             <button
               type="button"
-              class="papers-choice-button"
+              class="papers-choice-button hover-response--tint"
               data-choice-value="author"
               aria-pressed="false"
             >
@@ -118,7 +129,7 @@ const typeOptions = Object.keys(typeCounts)
             </button>
             <button
               type="button"
-              class="papers-choice-button"
+              class="papers-choice-button hover-response--tint"
               data-choice-value="session"
               aria-pressed="false"
             >
@@ -131,13 +142,22 @@ const typeOptions = Object.keys(typeCounts)
           Sort by
           <div
             id="papers-sort"
-            class="papers-choice-group"
+            class="papers-choice-group u-responsive-choice-group"
             role="group"
             aria-label="Sort by"
           >
+            <select
+              class="u-select u-mobile-choice-select"
+              data-choice-select
+              aria-label="Sort by"
+            >
+              <option value="title">title</option>
+              <option value="bookmarked">bookmarked first</option>
+              <option value="schedule">schedule</option>
+            </select>
             <button
               type="button"
-              class="papers-choice-button is-active"
+              class="papers-choice-button hover-response--tint is-active"
               data-choice-value="title"
               aria-pressed="true"
             >
@@ -145,7 +165,7 @@ const typeOptions = Object.keys(typeCounts)
             </button>
             <button
               type="button"
-              class="papers-choice-button"
+              class="papers-choice-button hover-response--tint"
               data-choice-value="bookmarked"
               aria-pressed="false"
             >
@@ -153,7 +173,7 @@ const typeOptions = Object.keys(typeCounts)
             </button>
             <button
               type="button"
-              class="papers-choice-button"
+              class="papers-choice-button hover-response--tint"
               data-choice-value="schedule"
               aria-pressed="false"
             >
@@ -307,6 +327,10 @@ const typeOptions = Object.keys(typeCounts)
       fallback: string,
     ): string => {
       if (!container) return fallback;
+      const select = container.querySelector<HTMLSelectElement>(
+        "[data-choice-select]",
+      );
+      if (select) return select.value || fallback;
       const activeButton = container.querySelector<HTMLButtonElement>(
         ".papers-choice-button.is-active[data-choice-value]",
       );
@@ -323,6 +347,9 @@ const typeOptions = Object.keys(typeCounts)
           ".papers-choice-button[data-choice-value]",
         ),
       );
+      const select = container.querySelector<HTMLSelectElement>(
+        "[data-choice-select]",
+      );
       let found = false;
 
       for (const button of buttons) {
@@ -330,6 +357,14 @@ const typeOptions = Object.keys(typeCounts)
         if (isActive) found = true;
         button.classList.toggle("is-active", isActive);
         button.setAttribute("aria-pressed", String(isActive));
+      }
+
+      if (
+        select &&
+        Array.from(select.options).some((option) => option.value === value)
+      ) {
+        select.value = value;
+        found = true;
       }
 
       return found;
@@ -549,6 +584,16 @@ const typeOptions = Object.keys(typeCounts)
           applyFilters();
         });
       }
+      const searchFieldSelect =
+        searchFieldControl.querySelector<HTMLSelectElement>(
+          "[data-choice-select]",
+        );
+      searchFieldSelect?.addEventListener("change", () => {
+        if (!setChoiceValue(searchFieldControl, searchFieldSelect.value)) {
+          return;
+        }
+        applyFilters();
+      });
     }
 
     for (const button of typeFilterButtons) {
@@ -572,6 +617,13 @@ const typeOptions = Object.keys(typeCounts)
           applyFilters();
         });
       }
+      const sortSelect = sortControl.querySelector<HTMLSelectElement>(
+        "[data-choice-select]",
+      );
+      sortSelect?.addEventListener("change", () => {
+        if (!setChoiceValue(sortControl, sortSelect.value)) return;
+        applyFilters();
+      });
     }
 
     refreshTypeFilterState();
