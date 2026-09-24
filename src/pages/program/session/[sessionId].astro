@@ -1,8 +1,9 @@
 ---
 import PageLayout from "../../../layouts/PageLayout.astro";
 import BlueskyDiscussion from "../../../components/BlueskyDiscussion";
-import { fetchAllSessions } from "../../../utils/paperData";
+import { fetchAllPapers, fetchAllSessions } from "../../../utils/paperData";
 import { hasOwnDiscussion } from "../../../utils/discussionSlots";
+import type { Paper } from "../../../types/paper";
 import type {
   ProgramSession,
   ProgramSessionList,
@@ -19,27 +20,57 @@ type EventPageProps = {
   sessionId: string;
   event: ProgramSessionList[string];
   session: ProgramSession;
+  eventPapers: Paper[];
 };
 
 export async function getStaticPaths() {
-  const sessionList = await fetchAllSessions();
+  const [sessionList, papers] = await Promise.all([
+    fetchAllSessions(),
+    fetchAllPapers(),
+  ]);
+  const papersByEventPrefix = papers.reduce<Map<string, Paper[]>>(
+    (byPrefix, paper) => {
+      const eventPapers = byPrefix.get(paper.event_prefix) || [];
+      eventPapers.push(paper);
+      byPrefix.set(paper.event_prefix, eventPapers);
+      return byPrefix;
+    },
+    new Map(),
+  );
   const paths: Array<{ params: { sessionId: string }; props: EventPageProps }> =
     [];
 
   for (const event of Object.values(sessionList)) {
+    const eventPapers =
+      event.event_type === "workshop"
+        ? (papersByEventPrefix.get(event.event_prefix) || [])
+            .slice()
+            .sort((a, b) => a.title.localeCompare(b.title))
+        : [];
+
     for (const session of event.sessions) {
       const prefixedId = `${session.event_prefix}-${session.session_id}`;
       const legacyId = session.session_id;
 
       paths.push({
         params: { sessionId: prefixedId },
-        props: { sessionId: prefixedId, event, session },
+        props: {
+          sessionId: prefixedId,
+          event,
+          session,
+          eventPapers,
+        },
       });
 
       // Backward compatibility with old non-prefixed session IDs.
       paths.push({
         params: { sessionId: legacyId },
-        props: { sessionId: legacyId, event, session },
+        props: {
+          sessionId: legacyId,
+          event,
+          session,
+          eventPapers,
+        },
       });
     }
   }
@@ -47,7 +78,7 @@ export async function getStaticPaths() {
   return paths;
 }
 
-const { event, session } = Astro.props as EventPageProps;
+const { event, session, eventPapers } = Astro.props as EventPageProps;
 
 const presentations = [...session.time_slots].sort(
   (a, b) => Date.parse(a.time_start) - Date.parse(b.time_start),
@@ -91,6 +122,10 @@ const describedEventTypes = ["workshop", "tutorial", "panel"];
 const normalizedEventType = (event.event_type || "").toLowerCase();
 const isDescribedEvent = describedEventTypes.includes(normalizedEventType);
 const isPanel = normalizedEventType === "panel";
+const workshopPapers =
+  normalizedEventType === "workshop" && presentations.length === 0
+    ? eventPapers
+    : [];
 const usesOrganizerLabel = isPanel || normalizedEventType === "tutorial";
 // A session's own details (panels, invited talks) apply to any event type.
 const description =
@@ -165,18 +200,23 @@ const frontmatter = {
       {description && <p class="program-event-description">{description}</p>}
 
       {
-        (presentations.length > 0 || !description) && (
+        presentations.length > 0 ? (
           <h2>Presentations in this session</h2>
+        ) : workshopPapers.length > 0 ? (
+          <h2>Workshop papers</h2>
+        ) : (
+          !description && <h2>Presentations in this session</h2>
         )
       }
 
       <div class="program-presentations">
         {
-          presentations.length === 0 && !description && (
+          presentations.length === 0 &&
+            workshopPapers.length === 0 &&
+            !description && (
             <p>
-              No presentations are scheduled for this session. If this event is
-              a workshop or tutorial, please check the workshop or tutorial page
-              for more information.
+              No presentations are scheduled for this session. Please check the
+              event website for more information.
             </p>
           )
         }
@@ -229,6 +269,22 @@ const frontmatter = {
                 <div class="program-presentation-discussion not-prose">
                   <BlueskyDiscussion client:visible paperId={slot.slot_id} />
                 </div>
+              )}
+            </article>
+          ))
+        }
+        {
+          workshopPapers.map((paper) => (
+            <article class="program-presentation">
+              <h3>
+                <a href={withBaseURL(`/program/paper/${paper.id}`)}>
+                  {paper.title}
+                </a>
+              </h3>
+              {paper.authors && paper.authors.length > 0 && (
+                <p class="program-presentation-authors">
+                  Authors: {paper.authors.map((author) => author.name).join(", ")}
+                </p>
               )}
             </article>
           ))
