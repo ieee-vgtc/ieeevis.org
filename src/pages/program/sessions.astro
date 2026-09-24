@@ -243,7 +243,7 @@ function formatPeopleForSession(session: SessionListItem) {
                   data-end={session.endISO}
                   accentColor={typeColors[session.eventType] || "#df6824"}
                   title={session.title}
-                  titleColor={typeTextColors[session.eventType]}
+                  titleColor={typeTextColors[session.eventType] || "#111827"}
                   titleHref={`/program/session/${session.eventSlug}`}
                   peopleLabel="????????"
                   eyebrow={session.eventTypeLabel}
