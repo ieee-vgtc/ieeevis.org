@@ -45,6 +45,7 @@ html {
 
 main {
   margin-top: 70px;
+  padding-top: 1.5rem;
   /* Push down to compensate for fixed nav*/
 
   /* margin-top: 140px;  */
@@ -59,5 +60,6 @@ aside {
 @variant md {
   main {
     margin-top: 0px;
+    padding-top: 0;
   }
 }

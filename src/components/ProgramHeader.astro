@@ -69,17 +69,26 @@ const showProgramViewSwitcher =
   </div>
 
   <div class="u-controls">
-    <div class="flex w-full justify-between">
+    <div class="u-primary-controls flex w-full justify-between">
       {
         timezoneLabel && timezoneSelectId && (
           <label class="u-control">
             <span>{timezoneLabel}</span>
             <div
               id={timezoneSelectId}
-              class="u-choice-group"
+              class="u-choice-group u-responsive-choice-group"
               role="group"
               aria-label={timezoneLabel}
             >
+              <select
+                class="u-select u-mobile-choice-select"
+                data-choice-select
+                aria-label={timezoneLabel}
+              >
+                <option value="conference">Conference (Boston)</option>
+                <option value="local">Local</option>
+                <option value="both">Both</option>
+              </select>
               <button
                 type="button"
                 class="u-choice-button hover-response--tint is-active"
@@ -115,10 +124,20 @@ const showProgramViewSwitcher =
             <span>{dayLabel}</span>
             <div
               id={daySelectId}
-              class="u-choice-group"
+              class="u-choice-group u-responsive-choice-group"
               role="group"
               aria-label={dayLabel}
             >
+              <select
+                class="u-select u-mobile-choice-select"
+                data-choice-select
+                aria-label={dayLabel}
+              >
+                <option value="all">{allDayLabel}</option>
+                {dayOptions.map((dayOption) => (
+                  <option value={dayOption.value}>{dayOption.label}</option>
+                ))}
+              </select>
               <button
                 type="button"
                 class="u-choice-button hover-response--tint is-active"

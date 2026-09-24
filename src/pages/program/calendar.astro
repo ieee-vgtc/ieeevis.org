@@ -867,6 +867,10 @@ const frontmatter = {
         fallback: string,
       ): string => {
         if (!container) return fallback;
+        const select = container.querySelector<HTMLSelectElement>(
+          "[data-choice-select]",
+        );
+        if (select) return select.value || fallback;
         const activeButton = container.querySelector<HTMLButtonElement>(
           ".u-choice-button.is-active[data-choice-value]",
         );
@@ -883,6 +887,9 @@ const frontmatter = {
             ".u-choice-button[data-choice-value]",
           ),
         );
+        const select = container.querySelector<HTMLSelectElement>(
+          "[data-choice-select]",
+        );
         let found = false;
 
         for (const button of buttons) {
@@ -890,6 +897,14 @@ const frontmatter = {
           if (isActive) found = true;
           button.classList.toggle("is-active", isActive);
           button.setAttribute("aria-pressed", String(isActive));
+        }
+
+        if (
+          select &&
+          Array.from(select.options).some((option) => option.value === value)
+        ) {
+          select.value = value;
+          found = true;
         }
 
         return found;
@@ -1341,6 +1356,17 @@ const frontmatter = {
             refreshTimeRanges();
           });
         }
+
+        const timezoneSelect =
+          timezoneControl.querySelector<HTMLSelectElement>(
+            "[data-choice-select]",
+          );
+        timezoneSelect?.addEventListener("change", () => {
+          const value = timezoneSelect.value;
+          if (!setChoiceValue(timezoneControl, value)) return;
+          localStorage.setItem(localStorageKey, value);
+          refreshTimeRanges();
+        });
       }
 
       if (dayFilterControl) {
@@ -1356,6 +1382,14 @@ const frontmatter = {
             applyFilters();
           });
         }
+
+        const daySelect = dayFilterControl.querySelector<HTMLSelectElement>(
+          "[data-choice-select]",
+        );
+        daySelect?.addEventListener("change", () => {
+          if (!setChoiceValue(dayFilterControl, daySelect.value)) return;
+          applyFilters();
+        });
       }
 
       for (const button of sessionLinkButtons) {

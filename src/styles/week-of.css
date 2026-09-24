@@ -105,6 +105,10 @@
   gap: 0.35rem;
 }
 
+.u-mobile-choice-select {
+  display: none;
+}
+
 .u-choice-button,
 .papers-choice-button {
   border: 1px solid var(--color-gray-400);
@@ -226,6 +230,27 @@
   .sessions-controls {
     grid-template-columns: 1fr;
     width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-primary-controls {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .u-responsive-choice-group,
+  .u-primary-controls .u-control {
+    width: 100%;
+  }
+
+  .u-responsive-choice-group > .u-choice-button,
+  .u-responsive-choice-group > .papers-choice-button {
+    display: none;
+  }
+
+  .u-responsive-choice-group > .u-mobile-choice-select {
+    display: block;
   }
 }
 
