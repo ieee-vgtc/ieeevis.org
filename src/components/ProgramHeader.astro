@@ -73,7 +73,7 @@ const {
             >
               <button
                 type="button"
-                class="u-choice-button is-active"
+                class="u-choice-button hover-response--tint is-active"
                 data-choice-value="conference"
                 aria-pressed="true"
               >
@@ -81,7 +81,7 @@ const {
               </button>
               <button
                 type="button"
-                class="u-choice-button"
+                class="u-choice-button hover-response--tint"
                 data-choice-value="local"
                 aria-pressed="false"
               >
@@ -89,7 +89,7 @@ const {
               </button>
               <button
                 type="button"
-                class="u-choice-button"
+                class="u-choice-button hover-response--tint"
                 data-choice-value="both"
                 aria-pressed="false"
               >
@@ -112,7 +112,7 @@ const {
             >
               <button
                 type="button"
-                class="u-choice-button is-active"
+                class="u-choice-button hover-response--tint is-active"
                 data-choice-value="all"
                 aria-pressed="true"
               >
@@ -121,7 +121,7 @@ const {
               {dayOptions.map((dayOption) => (
                 <button
                   type="button"
-                  class="u-choice-button"
+                  class="u-choice-button hover-response--tint"
                   data-choice-value={dayOption.value}
                   aria-pressed="false"
                 >
@@ -157,7 +157,7 @@ const {
   typeOptions && typeOptions.length > 0 && (
     <div class="u-filter-bar" role="toolbar" aria-label={filterBarLabel}>
       <button
-        class="u-filter-pill is-active"
+        class="u-filter-pill hover-response--tint is-active"
         type="button"
         data-type-filter="all"
         style="--pill-color: #374151"
@@ -171,7 +171,7 @@ const {
 
       {typeOptions.map((typeOption) => (
         <button
-          class="u-filter-pill"
+          class="u-filter-pill hover-response--tint"
           type="button"
           data-type-filter={typeOption.value}
           style={`--pill-color: ${typeOption.color || "#6b7280"}`}

@@ -54,7 +54,7 @@ export default function Navigation({
             <div>
               <button
                 className={classNames({
-                  "menu_item font-display text-lg md:text-base lg:text-lg px-8 md:px-4 lg:px-4 mx-0 lg:mx-2 py-4 md:py-6 border-b-2 border-primary-200 ": true,
+                  "menu_item hover-response--text font-display text-lg md:text-base lg:text-lg px-8 md:px-4 lg:px-4 mx-0 lg:mx-2 py-4 md:py-6 border-b-2 border-primary-200 ": true,
                   "md:border-b-4 md:border-white ": page_info?.title === "Blog",
                   "md:border-none": page_info?.title !== "Blog",
                 })}
@@ -78,7 +78,7 @@ export default function Navigation({
                 <div key={`nav-div-${i}`}>
                   <button
                     className={classNames({
-                      "menu_item font-display text-lg md:text-base lg:text-lg px-8 md:pl-2 md:pr-1 lg:pl-4 lg:pr-2 mx-0 lg:mx-2 py-4 md:py-6 border-b-2 border-primary-200 ": true,
+                      "menu_item hover-response--text font-display text-lg md:text-base lg:text-lg px-8 md:pl-2 md:pr-1 lg:pl-4 lg:pr-2 mx-0 lg:mx-2 py-4 md:py-6 border-b-2 border-primary-200 ": true,
                       "menu_item--focused": selectedDropDownIndex === i,
                       "md:border-b-4 md:border-white ":
                         nav.dropdown === page_info?.active_nav,

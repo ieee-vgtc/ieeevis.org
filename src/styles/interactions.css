@@ -1,0 +1,37 @@
+/*
+ * Shared hover feedback for interactive controls.
+ *
+ * Keep the visual responses here so navigation and program controls stay in
+ * sync. Text links use the primary color; buttons use a light tint derived
+ * from their edge color.
+ */
+.hover-response--text {
+  transition: color 150ms ease;
+}
+
+.hover-response--tint {
+  --hover-response-edge-color: var(--color-gray-400);
+
+  transition: background-color 150ms ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .hover-response--text:hover {
+    color: var(--color-primary) !important;
+  }
+
+  .hover-response--tint:not(.active):not(.is-active):hover {
+    background-color: color-mix(
+      in srgb,
+      var(--hover-response-edge-color) 14%,
+      white
+    );
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hover-response--text,
+  .hover-response--tint {
+    transition: none;
+  }
+}
