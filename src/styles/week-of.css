@@ -4,6 +4,7 @@
 }
 
 .u-toolbar {
+  display: grid;
   gap: 1rem;
   padding: 1rem;
   border: 1px solid var(--color-gray-300);
@@ -13,6 +14,14 @@
     rgba(223, 104, 36, 0.08),
     rgba(187, 74, 114, 0.08)
   );
+}
+
+.u-toolbar__heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem;
 }
 .sessions-toolbar,
 .calendar-toolbar,

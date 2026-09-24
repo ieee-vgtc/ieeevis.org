@@ -1,4 +1,6 @@
 ---
+import ProgramViewSwitcher from "./ProgramViewSwitcher.astro";
+
 type DayOption = {
   value: string;
   label: string;
@@ -52,11 +54,18 @@ const {
   allDayLabel = "All",
   filterBarLabel = "Session type filters",
 } = Astro.props as Props;
+
+const showProgramViewSwitcher =
+  /\/program\/(?:calendar|sessions|papers)\/?$/.test(Astro.url.pathname);
 ---
 
 <div class="u-toolbar">
-  <div>
-    <p class="u-title">{title}</p>
+  <div class="u-toolbar__heading">
+    <div>
+      <p class="u-title">{title}</p>
+    </div>
+
+    {showProgramViewSwitcher && <ProgramViewSwitcher />}
   </div>
 
   <div class="u-controls">
