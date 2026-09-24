@@ -1,0 +1,130 @@
+---
+import { withBaseURL } from "../utils/withBaseURL";
+
+const { pathname } = Astro.url;
+
+const views = [
+  { href: "/program/calendar", label: "Calendar" },
+  { href: "/program/sessions", label: "Sessions" },
+  { href: "/program/papers", label: "Papers" },
+];
+---
+
+<nav class="program-view-switcher" aria-label="Program views">
+  <div class="program-view-switcher__options">
+    {
+      views.map((view) => {
+        const isActive = pathname.includes(view.href);
+
+        return (
+          <a
+            class:list={["program-view-switcher__option", { active: isActive }]}
+            href={withBaseURL(view.href)}
+            aria-current={isActive ? "page" : undefined}
+          >
+            {view.label}
+          </a>
+        );
+      })
+    }
+  </div>
+</nav>
+
+<style>
+  .program-view-switcher {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.625rem;
+    margin-bottom: 1.75rem;
+  }
+
+  .program-view-switcher__label {
+    color: var(--color-gray-700);
+    font-family: var(--font-display);
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    white-space: nowrap;
+  }
+
+  .program-view-switcher__options {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.2rem;
+    padding: 0.3rem;
+    border: 1px solid var(--color-gray-300);
+    border-radius: 0.75rem;
+    background: var(--color-gray-200);
+    box-shadow:
+      0 1px 2px rgb(0 0 0 / 0.06),
+      inset 0 1px 0 rgb(255 255 255 / 0.8);
+  }
+
+  .program-view-switcher__option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 7rem;
+    padding: 0.6rem 0.9rem;
+    border: 0;
+    border-bottom: 0 !important;
+    border-radius: 0.5rem;
+    color: var(--color-gray-800) !important;
+    font-family: var(--font-display);
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none !important;
+    transition:
+      background-color 150ms ease,
+      color 150ms ease,
+      box-shadow 150ms ease,
+      transform 150ms ease;
+  }
+
+  .program-view-switcher__option:hover,
+  .program-view-switcher__option:focus-visible {
+    background: #fff;
+    color: var(--color-primary-800) !important;
+    text-decoration: none !important;
+  }
+
+  .program-view-switcher__option:focus-visible {
+    outline: 3px solid rgb(223 104 36 / 0.3);
+    outline-offset: 2px;
+  }
+
+  .program-view-switcher__option.active {
+    background: var(--color-primary);
+    box-shadow: 0 2px 5px rgb(147 78 19 / 0.25);
+    color: #fff !important;
+    transform: translateY(-1px);
+  }
+
+  .program-view-switcher__option.active:hover,
+  .program-view-switcher__option.active:focus-visible {
+    background: var(--color-primary);
+    color: #fff !important;
+    text-decoration: none !important;
+  }
+
+  @media (max-width: 767px) {
+    .program-view-switcher {
+      align-items: stretch;
+      flex-direction: column;
+      gap: 0.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .program-view-switcher__options {
+      width: 100%;
+    }
+
+    .program-view-switcher__option {
+      min-width: 0;
+      padding: 0.65rem 0.35rem;
+      font-size: 0.95rem;
+    }
+  }
+</style>
