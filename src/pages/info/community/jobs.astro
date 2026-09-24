@@ -50,6 +50,16 @@ function normalize_url(value: string): string {
   return url.includes(".") ? `https://${url}` : "";
 }
 
+/**
+ * The chairs curate the sheet with an "Ignore this posting" checkbox, which
+ * exports as TRUE when ticked and is blank (or FALSE) otherwise. It sits on
+ * the submission, so ticking it drops every position in that row.
+ */
+function is_ignored(row: Record<string, string>): boolean {
+  const flag = cell(row, "Ignore this posting").trim().toLowerCase();
+  return ["true", "yes", "y", "x", "1"].includes(flag);
+}
+
 async function load_jobs(): Promise<Job[]> {
   let tsv: string;
   try {
@@ -66,6 +76,10 @@ async function load_jobs(): Promise<Job[]> {
   }
 
   return parse_tsv(tsv).flatMap((row) => {
+    if (is_ignored(row)) {
+      return [];
+    }
+
     const affiliation = cell(row, "Position Affiliation");
     const type = cell(row, "Position Type");
     const contact = cell(row, "Contact Information");
