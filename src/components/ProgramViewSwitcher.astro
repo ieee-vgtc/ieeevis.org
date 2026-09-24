@@ -4,7 +4,7 @@ import { withBaseURL } from "../utils/withBaseURL";
 const { pathname } = Astro.url;
 
 const views = [
-  { href: "/program/calendar", label: "Calendar" },
+  { href: "/program/calendar", label: "Calendar", hideOnMobile: true },
   { href: "/program/sessions", label: "Sessions" },
   { href: "/program/papers", label: "Papers" },
 ];
@@ -18,7 +18,14 @@ const views = [
 
         return (
           <a
-            class:list={["program-view-switcher__option", { active: isActive }]}
+            class:list={[
+              "program-view-switcher__option",
+              {
+                active: isActive,
+                "program-view-switcher__option--desktop-only":
+                  view.hideOnMobile,
+              },
+            ]}
             href={withBaseURL(view.href)}
             aria-current={isActive ? "page" : undefined}
           >
@@ -109,8 +116,22 @@ const views = [
     text-decoration: none !important;
   }
 
+  /* Match the calendar's own mobile/list breakpoint so the available views
+     cannot change while the responsive calendar layout settles. */
+  @media (max-width: 959px) {
+    .program-view-switcher__options {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .program-view-switcher__option--desktop-only {
+      display: none !important;
+    }
+  }
+
   @media (max-width: 767px) {
     .program-view-switcher {
+      display: flex;
+      width: 100%;
       align-items: stretch;
       flex-direction: column;
       gap: 0.5rem;
