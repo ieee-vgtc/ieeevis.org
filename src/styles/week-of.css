@@ -658,6 +658,13 @@
   padding: 0.25rem 0.32rem;
 }
 
+/* Shared plenaries are rendered in the first occupied room and extend across
+   the adjacent room columns that they reserve. */
+.calendar-room-timeline .calendar-session-block[data-room-span] {
+  width: calc(var(--room-span) * 100% - 0.7rem);
+  z-index: 2;
+}
+
 .session-block-inline {
   display: flex;
   flex-direction: column;
