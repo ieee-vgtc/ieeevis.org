@@ -7,9 +7,6 @@ active_nav: "Contribute"
 contact: tech@ieeevis.org
 ---
 
-Details TBD.
-
-<!--
 Please **read the following instructions carefully** for guidelines on preparing your **Presentation** for VIS 2026, or a VIS 2026 workshop.
 
 ## IEEE Visualization 2026 is planned as an in-person event
@@ -46,16 +43,14 @@ As a guide, the length requirements for are as follows:
 
 - Alfie Abdul-Rahman, _King's College London_
 - Tushar Athawale, _Oak Ridge National Laboratory_
-- Gautam Chaudhary, _Alcon_
-- Michelle Dowling, _Pacific Northwest National Laboratory_
-- Michael Oppermann, _AIT Austrian Institute of Technology GmbH_
+- John Thompson, _Autodesk Research_
 
 _Email: [program@ieeevis.org](mailto:program@ieeevis.org)_
 
 ### Inclusivity & Accessibility Chairs
 
-- Laura Koesten, _University of Vienna_
-- Ab Mosca, _Westfield State University_
-- John Thompson, _Microsoft Research_
+- Sandra Bae, _University of Arizona_
+- Ab Mosca, _Smith College_
+- Jonathan Zong, _University of Colorado, Boulder_
 
-_Email: [inclusivity_accessibility@ieeevis.org](mailto:inclusivity_accessibility@ieeevis.org)_ -->
+_Email: [inclusivity_accessibility@ieeevis.org](mailto:inclusivity_accessibility@ieeevis.org)_
