@@ -229,11 +229,18 @@ const typeOptions = Object.keys(typeCounts)
         }));
         const links = [
           ...(paper.sessionUrl
-            ? [{ label: paper.scheduleLabel, href: paper.sessionUrl }]
+            ? [
+                {
+                  label: paper.scheduleLabel,
+                  href: paper.sessionUrl,
+                  icon: "schedule",
+                },
+              ]
             : []),
           {
             label: `Search for ${lowerItemType}s in this ${groupLabel}`,
             href: groupHref,
+            icon: "search",
             disabledTitle: groupHref
               ? undefined
               : `Session and event information are not available for this ${lowerItemType}`,

@@ -9,7 +9,12 @@ type Props = {
   peopleLabel?: string;
   people?: { name: string; href?: string }[];
   notes?: string[];
-  links?: { label: string; href?: string; disabledTitle?: string }[];
+  links?: {
+    label: string;
+    href?: string;
+    icon?: string;
+    disabledTitle?: string;
+  }[];
   bookmark?: {
     bookmarked: boolean;
   };
@@ -101,7 +106,10 @@ const style = [
               <span>
                 {index > 0 && <span>, </span>}
                 {person.href ? (
-                  <a class="program-card__link" href={withBaseURL(person.href)}>
+                  <a
+                    class="program-card__person-link"
+                    href={withBaseURL(person.href)}
+                  >
                     {person.name}
                   </a>
                 ) : (
@@ -119,16 +127,26 @@ const style = [
       {
         links.length > 0 && (
           <p class="program-card__links flex flex-col">
-            {links.map((link, index) => (
-              <span>
-                {index > 0 && <span> </span>}
+            {links.map((link) => (
+              <span class="program-card__action">
+                {link.icon && (
+                  <i
+                    class="material-icons program-card__action-icon"
+                    aria-hidden="true"
+                  >
+                    {link.icon}
+                  </i>
+                )}
                 {link.href ? (
-                  <a class="program-card__link" href={withBaseURL(link.href)}>
+                  <a
+                    class="program-card__action-link"
+                    href={withBaseURL(link.href)}
+                  >
                     {link.label}
                   </a>
                 ) : (
                   <span
-                    class="program-card__link program-card__link--disabled"
+                    class="program-card__action-link program-card__link--disabled"
                     aria-disabled="true"
                     title={link.disabledTitle}
                   >
