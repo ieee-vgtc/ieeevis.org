@@ -13,6 +13,7 @@ import Footer from "../components/Footer";
 
 const { page_info } = Astro.props;
 const { pathname } = Astro.url;
+const isProgramPage = /\/program(?:\/|$)/.test(pathname);
 
 const source_file = source_file_for_pathname(pathname);
 ---
@@ -39,7 +40,10 @@ const source_file = source_file_for_pathname(pathname);
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
     />
   </head>
-  <body id="app" class="overflow-x-hidden">
+  <body
+    id="app"
+    class:list={["overflow-x-hidden", { "program-page": isProgramPage }]}
+  >
     <Navigation nav_data={navigation_data} page_info={page_info} client:load />
 
     <main>

@@ -8,6 +8,12 @@ export type ProgramPaperCard = {
   presentationType?: string;
   /** Human-readable event category. */
   presentationLabel: string;
+  /** Stable event prefix used when a paper is not assigned to one session. */
+  eventKey: string | null;
+  /** Human-readable event name used by event-level searches. */
+  eventLabel: string;
+  /** Stable session slug used for exact filtering. */
+  sessionKey: string | null;
   sessionLabel: string;
   scheduleLabel: string;
   startMs: number;

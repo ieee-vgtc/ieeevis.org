@@ -26,6 +26,7 @@ const {
 
 const bookmarkKey = `${storageKeyPrefix}-bookmarks`;
 const lowerItemType = itemType.toLowerCase();
+const collectionPath = `/program/${lowerItemType}s/`;
 
 const typeCounts = papers.reduce<Record<string, number>>((acc, paper) => {
   const type = getPaperType(paper);
@@ -212,17 +213,37 @@ const typeOptions = Object.keys(typeCounts)
         const isBookmarked = false;
         const normalizedType = getPaperType(paper);
         const colorType = paper.isTvcg ? "tvcg" : normalizedType;
+        const groupLabel = paper.sessionKey
+          ? "session"
+          : normalizedType === "workshop"
+            ? "workshop"
+            : "event";
+        const groupHref = paper.sessionKey
+          ? `${collectionPath}?session=${encodeURIComponent(paper.sessionKey)}&filter=session&search=${encodeURIComponent(paper.sessionLabel)}`
+          : paper.eventKey
+            ? `${collectionPath}?event=${encodeURIComponent(paper.eventKey)}&search=${encodeURIComponent(paper.eventLabel)}`
+            : undefined;
         const people = paper.authorNames.map((authorName) => ({
           name: authorName,
-          href: `/program/papers/?search=${encodeURIComponent(authorName)}`,
+          href: `${collectionPath}?filter=author&search=${encodeURIComponent(authorName)}`,
         }));
         const links = [
           ...(paper.sessionUrl
-            ? [{ label: paper.scheduleLabel, href: paper.sessionUrl }]
+            ? [
+                {
+                  label: paper.scheduleLabel,
+                  href: paper.sessionUrl,
+                  icon: "schedule",
+                },
+              ]
             : []),
           {
-            label: "Search for papers in this session",
-            href: `/program/papers/?search=${encodeURIComponent(paper.sessionLabel)}`,
+            label: `Search for ${lowerItemType}s in this ${groupLabel}`,
+            href: groupHref,
+            icon: "search",
+            disabledTitle: groupHref
+              ? undefined
+              : `Session and event information are not available for this ${lowerItemType}`,
           },
         ];
 
@@ -236,6 +257,9 @@ const typeOptions = Object.keys(typeCounts)
             data-authors={paper.authorNames.join(",").toLowerCase()}
             data-keywords={paper.keywordsLabel.toLowerCase()}
             data-session={paper.sessionLabel.toLowerCase()}
+            data-session-key={paper.sessionKey || ""}
+            data-event={paper.eventLabel.toLowerCase()}
+            data-event-key={paper.eventKey || ""}
             data-start-ms={paper.startMs}
             accentColor={typeColors[colorType] || "#f3f4f6"}
             titleColor={typeTextColors[colorType] || "#111827"}
@@ -287,6 +311,8 @@ const typeOptions = Object.keys(typeCounts)
       root.querySelectorAll<HTMLButtonElement>("[data-type-filter]"),
     );
     const params = new URLSearchParams(window.location.search);
+    let requestedSessionKey = params.get("session") || "";
+    let requestedEventKey = params.get("event") || "";
     const validSearchFields = new Set([
       "any",
       "title",
@@ -402,6 +428,18 @@ const typeOptions = Object.keys(typeCounts)
       const typeFilter = getTypeFilter();
       const sortMode = getSortMode();
 
+      if (requestedSessionKey) {
+        nextParams.set("session", requestedSessionKey);
+      } else {
+        nextParams.delete("session");
+      }
+
+      if (requestedEventKey) {
+        nextParams.set("event", requestedEventKey);
+      } else {
+        nextParams.delete("event");
+      }
+
       if (searchQuery) {
         nextParams.set("search", searchQuery);
       } else {
@@ -442,6 +480,7 @@ const typeOptions = Object.keys(typeCounts)
         card.dataset.authors || "",
         card.dataset.keywords || "",
         card.dataset.session || "",
+        card.dataset.event || "",
       ].join(" ");
     };
 
@@ -492,7 +531,18 @@ const typeOptions = Object.keys(typeCounts)
           (typeFilter === "tvcg"
             ? card.dataset.tvcg === "true"
             : cardType === typeFilter);
-        return (query.length === 0 || haystack.includes(query)) && typeMatch;
+        const sessionMatch =
+          requestedSessionKey.length === 0 ||
+          card.dataset.sessionKey === requestedSessionKey;
+        const eventMatch =
+          requestedEventKey.length === 0 ||
+          card.dataset.eventKey === requestedEventKey;
+        return (
+          (query.length === 0 || haystack.includes(query)) &&
+          typeMatch &&
+          sessionMatch &&
+          eventMatch
+        );
       });
 
       visibleCards.sort((a, b) => {
@@ -559,7 +609,11 @@ const typeOptions = Object.keys(typeCounts)
     }
 
     if (searchInput instanceof HTMLInputElement) {
-      searchInput.addEventListener("input", applyFilters);
+      searchInput.addEventListener("input", () => {
+        requestedSessionKey = "";
+        requestedEventKey = "";
+        applyFilters();
+      });
     }
 
     if (clearButton) {
@@ -567,6 +621,8 @@ const typeOptions = Object.keys(typeCounts)
         if (searchInput) {
           searchInput.value = "";
         }
+        requestedSessionKey = "";
+        requestedEventKey = "";
         applyFilters();
       });
     }
@@ -580,7 +636,12 @@ const typeOptions = Object.keys(typeCounts)
       for (const button of searchFieldButtons) {
         button.addEventListener("click", () => {
           const value = button.dataset.choiceValue;
+          const previousValue = getSearchField();
           if (!value || !setChoiceValue(searchFieldControl, value)) return;
+          if (value !== previousValue) {
+            requestedSessionKey = "";
+            requestedEventKey = "";
+          }
           applyFilters();
         });
       }
@@ -592,6 +653,8 @@ const typeOptions = Object.keys(typeCounts)
         if (!setChoiceValue(searchFieldControl, searchFieldSelect.value)) {
           return;
         }
+        requestedSessionKey = "";
+        requestedEventKey = "";
         applyFilters();
       });
     }
