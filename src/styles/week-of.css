@@ -1066,6 +1066,12 @@
   text-underline-offset: 0.2em;
 }
 
+.program-card__link--disabled {
+  color: var(--color-gray-500);
+  cursor: not-allowed;
+  text-decoration: none;
+}
+
 .papers-grid {
   display: flex;
   flex-wrap: wrap;

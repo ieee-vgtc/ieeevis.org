@@ -67,9 +67,25 @@ const sessionList = await fetchAllSessions();
 const paperEventByPrefix = new Map(
   Object.values(sessionList).map((event) => {
     const type = getPaperTypeFromEvent(event.event, event.event_type);
+    const soleSession = event.sessions.length === 1 ? event.sessions[0] : null;
     return [
       event.event_prefix,
-      { type, label: getPaperLabelFromEvent(event.event, type) },
+      {
+        type,
+        label: getPaperLabelFromEvent(event.event, type),
+        eventLabel: event.long_name || event.event,
+        soleSession: soleSession
+          ? {
+              sessionSlug: `${soleSession.event_prefix}-${soleSession.session_id}`,
+              sessionTitle: soleSession.title,
+              roomName: soleSession.room_name,
+              eventTitle: event.long_name,
+              startISO: soleSession.time_start,
+              endISO: soleSession.time_end,
+              startMs: Date.parse(soleSession.time_start),
+            }
+          : null,
+      },
     ];
   }),
 );
@@ -101,6 +117,8 @@ const papers = await fetchAllPapers();
 
 const paperCards: ProgramPaperCard[] = papers.map((paper) => {
   const linkedSlot = slotMetadataByPaperId.get(paper.id);
+  const paperEvent = paperEventByPrefix.get(paper.event_prefix);
+  const resolvedSession = linkedSlot || paperEvent?.soleSession || null;
   const authors = (paper.authors || [])
     .map((author) => normalizeText(author.name))
     .filter(Boolean);
@@ -108,12 +126,11 @@ const paperCards: ProgramPaperCard[] = papers.map((paper) => {
     .map((keyword) => normalizeText(keyword))
     .filter(Boolean);
 
-  const startISO = linkedSlot?.startISO || null;
-  const paperEvent = paperEventByPrefix.get(paper.event_prefix);
+  const startISO = resolvedSession?.startISO || null;
   const presentationType = paperEvent?.type || "VIS Paper";
   const presentationLabel =
     paperEvent?.label || getProgramEventTypeLabel(presentationType);
-  const sessionLabel = linkedSlot?.sessionTitle || "Session TBA";
+  const sessionLabel = resolvedSession?.sessionTitle || "Session TBA";
   const scheduleLabel = startISO
     ? `${conferenceDateTimeFormatter.format(new Date(startISO))} - ${sessionLabel}`
     : sessionLabel;
@@ -127,17 +144,20 @@ const paperCards: ProgramPaperCard[] = papers.map((paper) => {
     abstractText: normalizeText(paper.abstract) || "Abstract not available.",
     presentationType,
     presentationLabel,
+    eventKey: normalizeText(paper.event_prefix) || null,
+    eventLabel: paperEvent?.eventLabel || presentationLabel,
+    sessionKey: resolvedSession?.sessionSlug || null,
     sessionLabel,
     scheduleLabel,
     startMs:
-      linkedSlot?.startMs && Number.isFinite(linkedSlot.startMs)
-        ? linkedSlot.startMs
+      resolvedSession?.startMs && Number.isFinite(resolvedSession.startMs)
+        ? resolvedSession.startMs
         : Number.MAX_SAFE_INTEGER,
     doiUrl: paper.doi ? `https://doi.org/${paper.doi}` : null,
     preprintUrl: normalizeText(paper.preprint_link) || null,
     supplementalUrl: normalizeText(paper.open_access_supplemental_link) || null,
-    sessionUrl: linkedSlot?.sessionSlug
-      ? withBaseURL(`/program/session/${linkedSlot.sessionSlug}`)
+    sessionUrl: resolvedSession?.sessionSlug
+      ? withBaseURL(`/program/session/${resolvedSession.sessionSlug}`)
       : null,
     award: normalizeText(paper.award) || null,
     // Earlier years mark TVCG papers with their own event; newer data only
