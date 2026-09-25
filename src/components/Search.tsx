@@ -42,11 +42,39 @@ async function loadPagefind() {
 }
 
 export default function Search() {
+  const [isExpanded, setIsExpanded] = useState(false);
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<SearchResult[]>([]);
   const [loading, setLoading] = useState(false);
 
-  const timeout = useRef<number>();
+  const container = useRef<HTMLDivElement>(null);
+  const input = useRef<HTMLInputElement>(null);
+  const trigger = useRef<HTMLButtonElement>(null);
+  const timeout = useRef<number | undefined>(undefined);
+
+  const closeAndRestoreFocus = () => {
+    setIsExpanded(false);
+    window.requestAnimationFrame(() => trigger.current?.focus());
+  };
+
+  useEffect(() => {
+    if (!isExpanded) {
+      return;
+    }
+
+    input.current?.focus();
+
+    const closeOnOutsideClick = (event: PointerEvent) => {
+      if (!container.current?.contains(event.target as Node)) {
+        setIsExpanded(false);
+      }
+    };
+
+    document.addEventListener("pointerdown", closeOnOutsideClick);
+
+    return () =>
+      document.removeEventListener("pointerdown", closeOnOutsideClick);
+  }, [isExpanded]);
 
   useEffect(() => {
     window.clearTimeout(timeout.current);
@@ -85,58 +113,88 @@ export default function Search() {
   const showDropdown = query.trim().length >= 2;
 
   return (
-    <div className="w-full py-4 border-b-2 border-primary-200 px-8 md:border-0 md:py-6 md:px-2 lg:py-6 lg:px-4 md:w-56 md:flex md:items-center">
-      <div className="relative w-full">
-        <i className="material-icons pointer-events-none absolute left-2 top-1/2 -translate-y-1/2 text-lg! text-gray-400">
-          search
-        </i>
+    <div
+      ref={container}
+      className="flex w-full justify-end border-b-2 border-primary-200 px-8 py-3 md:w-auto md:items-center md:border-0 md:px-2 lg:px-4"
+    >
+      {!isExpanded ? (
+        <button
+          ref={trigger}
+          type="button"
+          className="flex size-11 items-center justify-center rounded-full text-white hover:bg-white/10 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white max-md:text-secondary"
+          aria-label="Open search"
+          aria-expanded="false"
+          aria-controls="site-search-input"
+          onClick={() => setIsExpanded(true)}
+        >
+          <i className="material-icons" aria-hidden="true">
+            search
+          </i>
+        </button>
+      ) : (
+        <div className="relative w-full md:w-56">
+          <i
+            className="material-icons pointer-events-none absolute left-2 top-1/2 -translate-y-1/2 text-lg! text-gray-400"
+            aria-hidden="true"
+          >
+            search
+          </i>
 
-        <input
-          type="search"
-          placeholder="Search..."
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-          className="w-full rounded-full bg-white py-2 pl-8 pr-3 text-sm text-secondary placeholder-gray-400 outline-none ring-1 ring-primary-200 focus:ring-2 focus:ring-primary"
-        />
+          <input
+            ref={input}
+            id="site-search-input"
+            type="search"
+            aria-label="Search the site"
+            placeholder="Search..."
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === "Escape") {
+                closeAndRestoreFocus();
+              }
+            }}
+            className="w-full rounded-full bg-white py-2 pl-8 pr-3 text-sm text-secondary placeholder-gray-400 outline-none ring-1 ring-primary-200 focus:ring-2 focus:ring-primary"
+          />
 
-        {showDropdown && (
-          <div className="absolute right-0 top-full z-50 mt-2 max-h-96 w-full overflow-y-auto rounded-lg bg-white text-left shadow-lg ring-1 ring-black/5 md:w-80">
-            {loading && (
-              <p className="px-4 py-3 text-sm text-gray-500">Searching…</p>
-            )}
+          {showDropdown && (
+            <div className="absolute right-0 top-full z-50 mt-2 max-h-96 w-full overflow-y-auto rounded-lg bg-white text-left shadow-lg ring-1 ring-black/5 md:w-80">
+              {loading && (
+                <p className="px-4 py-3 text-sm text-gray-500">Searching…</p>
+              )}
 
-            {!loading && results.length === 0 && (
-              <p className="px-4 py-3 text-sm text-gray-500">
-                No results found.
-              </p>
-            )}
+              {!loading && results.length === 0 && (
+                <p className="px-4 py-3 text-sm text-gray-500">
+                  No results found.
+                </p>
+              )}
 
-            {!loading && results.length > 0 && (
-              <ul className="divide-y divide-gray-100">
-                {results.map((result) => (
-                  <li key={result.url}>
-                    <a
-                      href={withBaseURL(result.url)}
-                      className="block px-4 py-3 hover:bg-gray-100"
-                    >
-                      <strong className="block text-sm font-bold tracking-wide text-secondary">
-                        {result.meta.title ?? result.url}
-                      </strong>
+              {!loading && results.length > 0 && (
+                <ul className="divide-y divide-gray-100">
+                  {results.map((result) => (
+                    <li key={result.url}>
+                      <a
+                        href={withBaseURL(result.url)}
+                        className="block px-4 py-3 hover:bg-gray-100"
+                      >
+                        <strong className="block text-sm font-bold tracking-wide text-secondary">
+                          {result.meta.title ?? result.url}
+                        </strong>
 
-                      <span
-                        className="search-excerpt mt-1 block text-sm text-gray-600"
-                        dangerouslySetInnerHTML={{
-                          __html: result.excerpt,
-                        }}
-                      />
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            )}
-          </div>
-        )}
-      </div>
+                        <span
+                          className="search-excerpt mt-1 block text-sm text-gray-600"
+                          dangerouslySetInnerHTML={{
+                            __html: result.excerpt,
+                          }}
+                        />
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          )}
+        </div>
+      )}
     </div>
   );
 }
