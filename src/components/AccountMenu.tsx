@@ -81,10 +81,36 @@ export default function AccountMenu() {
       ref={container}
       className="relative flex flex-none items-center py-3 pr-8 md:h-full md:py-0 md:pr-2 lg:pr-4"
     >
+      <div className="flex items-center gap-2 md:hidden">
+        {user ? (
+          <>
+            <span
+              className="flex size-9 items-center justify-center rounded-full border border-secondary text-sm font-bold tracking-wide text-secondary"
+              aria-label={user.name || user.email || "Signed-in user"}
+            >
+              {initials}
+            </span>
+            <a
+              className="inline-flex h-11 items-center rounded-full border border-primary-200 bg-white px-4 font-display text-sm font-bold text-secondary hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary"
+              href={`${siteBase()}/auth/logout`}
+            >
+              Sign out
+            </a>
+          </>
+        ) : user === null ? (
+          <a
+            className="inline-flex h-11 items-center rounded-full border border-primary-200 bg-white px-4 font-display text-sm font-bold text-secondary hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary"
+            href={getLoginHref()}
+          >
+            Sign in
+          </a>
+        ) : null}
+      </div>
+
       <button
         ref={trigger}
         type="button"
-        className="flex size-11 items-center justify-center rounded-full text-secondary hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary md:text-white md:hover:bg-white/10 md:focus-visible:outline-white"
+        className="hidden size-11 items-center justify-center rounded-full text-white hover:bg-white/10 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white md:flex"
         aria-label={
           user
             ? `Open account menu for ${user.name || user.email}`
@@ -118,7 +144,7 @@ export default function AccountMenu() {
           id="account-panel"
           role="dialog"
           aria-label="Account"
-          className="absolute right-4 top-full z-50 w-72 rounded-lg bg-white p-5 text-left text-secondary shadow-lg ring-1 ring-black/5 md:right-2 lg:right-4"
+          className="absolute right-2 top-full z-50 hidden w-72 rounded-lg bg-white p-5 text-left text-secondary shadow-lg ring-1 ring-black/5 md:block lg:right-4"
           onKeyDown={(event) => {
             if (event.key === "Escape") {
               closeAndRestoreFocus();
