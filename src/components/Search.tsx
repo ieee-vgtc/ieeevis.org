@@ -118,7 +118,7 @@ export default function Search() {
   return (
     <div
       ref={container}
-      className="flex w-full justify-end border-b-2 border-primary-200 px-8 py-3 md:w-auto md:items-center md:border-0 md:px-2 lg:px-4"
+      className="flex min-w-0 flex-1 justify-end py-3 pl-8 pr-2 md:w-auto md:flex-none md:items-center md:px-2 lg:pl-4"
     >
       {!isExpanded && (
         <button
