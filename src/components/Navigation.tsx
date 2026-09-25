@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { withBaseURL } from "../utils/withBaseURL";
+import AccountMenu from "./AccountMenu";
 import Search from "./Search";
 
 function classNames(classes: { [key: string]: boolean }) {
@@ -201,7 +202,10 @@ export default function Navigation({
                 </div>
               ),
           )}
-          <Search />
+          <div className="flex w-full items-center border-b-2 border-primary-200 md:h-full md:w-auto md:border-0">
+            <Search />
+            <AccountMenu />
+          </div>
         </div>
       </nav>
 
