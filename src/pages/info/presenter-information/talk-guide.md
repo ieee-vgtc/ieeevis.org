@@ -7,9 +7,6 @@ active_nav: "Contribute"
 contact: tech@ieeevis.org
 ---
 
-Details TBD.
-
-<!--
 Please **read the following instructions carefully** for guidelines on preparing your **Presentation** for VIS 2026, or a VIS 2026 workshop.
 
 ## IEEE Visualization 2026 is planned as an in-person event
@@ -24,7 +21,7 @@ The focus of IEEE VIS 2026 are on on-site presentation. Nevertheless, virtual pr
 
 ## Presentation Recommendations and Powerpoint Template
 
-We recommend using the provided 16x9 wide format ([VIS 2026 PowerPoint Template](/year/2026/assets/vis_2026_presentation_template.pptx)).
+We recommend using the provided 16x9 wide format ([VIS 2025 PowerPoint Template](/year/2026/assets/vis2025_presentation_template.pptx)).
 
 In addition, make sure that your presentation is accessible by speaking clearly, using large fonts, and ensuring high contrast. Avoid saying "as you can see on this slide" and always describe all relevant visuals. You can find some [recommendations for giving accessible talks from SIGACCESS](http://www.sigaccess.org/welcome-to-sigaccess/resources/accessible-presentation-guide/) and if you have additional questions contact the [accessibility chairs](mailto:accessibility@ieeevis.org).
 
@@ -46,16 +43,14 @@ As a guide, the length requirements for are as follows:
 
 - Alfie Abdul-Rahman, _King's College London_
 - Tushar Athawale, _Oak Ridge National Laboratory_
-- Gautam Chaudhary, _Alcon_
-- Michelle Dowling, _Pacific Northwest National Laboratory_
-- Michael Oppermann, _AIT Austrian Institute of Technology GmbH_
+- John Thompson, _Autodesk Research_
 
 _Email: [program@ieeevis.org](mailto:program@ieeevis.org)_
 
 ### Inclusivity & Accessibility Chairs
 
-- Laura Koesten, _University of Vienna_
-- Ab Mosca, _Westfield State University_
-- John Thompson, _Microsoft Research_
+- Sandra Bae, _University of Arizona_
+- Ab Mosca, _Smith College_
+- Jonathan Zong, _University of Colorado, Boulder_
 
-_Email: [inclusivity_accessibility@ieeevis.org](mailto:inclusivity_accessibility@ieeevis.org)_ -->
+_Email: [inclusivity_accessibility@ieeevis.org](mailto:inclusivity_accessibility@ieeevis.org)_

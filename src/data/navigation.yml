@@ -109,9 +109,9 @@ menu:
                   - text: "Junior Reviewer Guide"
                     url: "/info/call-participation/junior-reviewer-guide"
                     is_new: false
-          #       - text: "Preparing Your Talk"
-          #         url: "/info/presenter-information/talk-guide"
-          #         is_new: false
+                  - text: "Preparing Your Talk"
+                    url: "/info/presenter-information/talk-guide"
+                    is_new: false
           #       - text: "Virtual Presentations"
           #         url: "/info/presenter-information/presenting-virtually"
           #         is_new: false
@@ -439,7 +439,7 @@ menu:
                     url: "http://biovis.net/2026/biovisChallenges_vis/"
                     is_new: false
                     is_external: true
-                    
+
                   - text: "IEEE SciVis Contest"
                     description: "A contest on Scientific Data Visualization"
                     url: "https://sciviscontest2026.github.io/"
