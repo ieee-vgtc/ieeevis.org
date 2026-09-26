@@ -33,7 +33,7 @@ The IEEE VIS 2026 workshops have lined up an outstanding roster of invited speak
 
 <img src="https://drive.google.com/uc?export=view&id=1_q-J63OEw7rPpMbXsgiYrsGlhWjW3143" alt="Leland McInnes" width="200" />
 
-**[Leland McInnes](https://ca.linkedin.com/in/leland-mcinnes-406233103)**, the keynote speaker for the VISxAI workshop, is a researcher at the Tutte Institute for Mathematics and Computing. He will speak on "The Challenges of Visualizing Very High Dimensional Data." His work spans dimension reduction, clustering, and visual exploration of high-dimensional data.
+**[Leland McInnes](https://github.com/lmcinnes)**, the keynote speaker for the VISxAI workshop, is a researcher at the Tutte Institute for Mathematics and Computing. He will speak on "The Challenges of Visualizing Very High Dimensional Data." His work spans dimension reduction, clustering, and visual exploration of high-dimensional data.
 
 ## vis4climate: Building a Transdisciplinary Climate Vis Community
 
@@ -89,4 +89,4 @@ GUGOG has invited a panel of leading researchers working on grammars, tools, and
 
 ---
 
-This post covers a subset of this year's workshops. Check the [workshop program](https://ieeevis.org/year/2026/info/program/workshops) for the complete list, and don't forget to [register](https://ieeevis.org/year/2026/info/registration) for IEEE VIS 2026 to be part of the conversation!
+This post covers a subset of this year's workshops. Check the [workshop program](https://ieeevis.org/year/2026/info/program/workshops) for the complete list, and don't forget to [register](https://ieeevis.org/year/2026/info/registration-and-travel/conference-registration/) for IEEE VIS 2026 to be part of the conversation!
