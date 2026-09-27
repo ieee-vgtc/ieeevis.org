@@ -27,7 +27,7 @@ interface RawEvent {
 
 /** A `session_chairs` entry; `name` may be a comma-joined list of multiple chairs. */
 interface RawSessionChair {
-  name: string;
+  name: NullableString;
   email: string;
   bluesky: string;
   affiliation: string;
@@ -127,14 +127,14 @@ export async function fetchAllSessions(): Promise<ProgramSessionList> {
 const addMinutes = (iso: string, minutes: number) =>
   new Date(new Date(iso).getTime() + minutes * 60_000).toISOString();
 
-const splitChairNames = (value: string) =>
-  value
+const splitChairNames = (value: NullableString) =>
+  (value || "")
     .split(",")
     .map((name) => name.trim())
     .filter(Boolean);
 
 const chairNames = (chairs: RawSessionChair[] | null): string[] =>
-  (chairs || []).flatMap((chair) => splitChairNames(chair.name));
+  (chairs || []).flatMap((chair) => splitChairNames(chair?.name));
 
 function buildSessionList({
   events,

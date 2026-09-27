@@ -15,7 +15,7 @@ The IEEE VIS 2026 workshops have lined up an outstanding roster of invited speak
 
 [Visit the workshop website](https://visxvision.com/vis-2026/)
 
-<img src="https://drive.google.com/uc?export=view&id=1z-GBwPXzCajqg01IxBPrpr2kOn1LzkrA" alt="Zoya Bylinskii" width="200" />
+<img src="/year/2026/assets/posts/2026-06-workshops/workshop-26-bylinskii.png" alt="Zoya Bylinskii" width="200" />
 
 **[Zoya Bylinskii](http://zoyathinks.com/)**, the keynote speaker for the VisxVision workshop, is Founder of Perceptual Insights Inc. (piinc) and previously led Scientific Evaluation for Adobe Firefly's generative imaging and video models. Her expertise sits at the interface of human perception, machine learning, and human-computer interaction.
 
@@ -31,7 +31,7 @@ The IEEE VIS 2026 workshops have lined up an outstanding roster of invited speak
 
 [Visit the workshop website](https://visxai.io/)
 
-<img src="https://drive.google.com/uc?export=view&id=1_q-J63OEw7rPpMbXsgiYrsGlhWjW3143" alt="Leland McInnes" width="200" />
+<img src="/year/2026/assets/posts/2026-06-workshops/workshop-26-mcinnes.png" alt="Leland McInnes" width="200" />
 
 **[Leland McInnes](https://github.com/lmcinnes)**, the keynote speaker for the VISxAI workshop, is a researcher at the Tutte Institute for Mathematics and Computing. He will speak on "The Challenges of Visualizing Very High Dimensional Data." His work spans dimension reduction, clustering, and visual exploration of high-dimensional data.
 
@@ -43,7 +43,7 @@ vis4climate has invited a group of guests bridging climate science, policy, and 
 
 <img src="https://vis4climate.ivia.ch/_astro/yuri_engelhardt.DesEOsub.jpg" alt="Yuri Engelhardt" width="200" />
 
-**[Yuri Engelhardt](https://people.utwente.nl/yuri.engelhardt)** works at the UT Climate Centre of the University of Twente in the Netherlands. He is the author of *The Language of Graphics* and believes that compelling visualizations, informed by psychology, can help boost climate awareness and action.
+**[Yuri Engelhardt](https://people.utwente.nl/yuri.engelhardt)** works at the UT Climate Centre of the University of Twente in the Netherlands. He is the author of _The Language of Graphics_ and believes that compelling visualizations, informed by psychology, can help boost climate awareness and action.
 
 <img src="https://vis4climate.ivia.ch/_astro/ana_paola_de_la_vega.DnGW3nOb.jpg" alt="Ana Paola De La Vega" width="200" />
 
@@ -57,7 +57,7 @@ vis4climate has invited a group of guests bridging climate science, policy, and 
 
 [Visit the workshop website](https://vaxautosci.org/)
 
-<img src="https://drive.google.com/uc?export=view&id=1Xe-mEt26n3rSw4Ns0FtUoC0Tk5o5GrlG" alt="Rob Moore" width="200" />
+<img src="/year/2026/assets/posts/2026-06-workshops/workshop-26-moore.png" alt="Rob Moore" width="200" />
 
 **[Rob Moore](https://www.ornl.gov/staff-profile/rob-g-moore-ii)**, the keynote speaker for the VAxAutoSci workshop, is Director of the Laboratories of the Future (LotF) Initiative at Oak Ridge National Laboratory (ORNL), where he leads efforts to develop scalable, autonomous scientific workflows integrating advanced computing, data analysis, and experimental instruments.
 
