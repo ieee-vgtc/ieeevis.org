@@ -50,6 +50,7 @@ export default defineConfig({
     // them (which, via DefaultLayout/HomePageLayout/Sidebar, is nearly all
     // of them) throws ENOENT once deployed.
     includeFiles: [
+      "src/data/program/*.json",
       "src/data/program_test/*.json",
       "src/data/*.yml",
       "src/data/sidebars/*.yml",
