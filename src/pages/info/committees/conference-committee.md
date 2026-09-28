@@ -92,7 +92,7 @@ active_nav: "Organization & History"
 | Cindy Xiong                               | _Georgia Institute of Technology_                            |
 |                                           |                                                              |
 | **Publication & Open Practices Chairs**   | publications@ieeevis.org, open_practices@ieeevis.org         |
-| Minsuk Kahng                              | _Yonsei University_                                          |
+| Minsuk Kahng                              | _Seoul National University_                                  |
 | Devin Lange                               | _University of Utah_                                         |
 | Sungahn Ko                                | _POSTECH_                                                    |
 |                                           |                                                              |

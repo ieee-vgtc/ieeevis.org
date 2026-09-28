@@ -4,6 +4,11 @@
 #   buttonUrl: "/info/call-participation/call-for-participation"
 #   active: "active"
 
+- title: "Speakers and Panelists@VIS26 Workshops"
+  image: "workshop-collage.png"
+  buttonText: "Exciting Speakers!"
+  buttonUrl: "/blog/2026-09-25-vis-2026-workshops-speakers-blog"
+
 - title: "The Practitioners' Summit at VIS"
   image: "cluster.png"
   buttonText: "CLUSTER"

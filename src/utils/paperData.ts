@@ -27,7 +27,7 @@ interface RawEvent {
 
 /** A `session_chairs` entry; `name` may be a comma-joined list of multiple chairs. */
 interface RawSessionChair {
-  name: string;
+  name: NullableString;
   email: string;
   bluesky: string;
   affiliation: string;
@@ -65,8 +65,8 @@ interface RawSlot {
   session_id: string;
   paper_id: NullableString;
   title: string;
-  contributors: string[] | null;
-  presenters: string[] | null;
+  contributors: ProgramPerson[] | null;
+  presenters: ProgramPerson[] | null;
   paper_type: NullableString;
   offset_start: number | null;
   offset_end: number | null;
@@ -127,16 +127,14 @@ export async function fetchAllSessions(): Promise<ProgramSessionList> {
 const addMinutes = (iso: string, minutes: number) =>
   new Date(new Date(iso).getTime() + minutes * 60_000).toISOString();
 
-const byName = (name: string): ProgramPerson => ({ name, email: null });
-
-const splitChairNames = (value: string) =>
-  value
+const splitChairNames = (value: NullableString) =>
+  (value || "")
     .split(",")
     .map((name) => name.trim())
     .filter(Boolean);
 
 const chairNames = (chairs: RawSessionChair[] | null): string[] =>
-  (chairs || []).flatMap((chair) => splitChairNames(chair.name));
+  (chairs || []).flatMap((chair) => splitChairNames(chair?.name));
 
 function buildSessionList({
   events,
@@ -276,13 +274,14 @@ function buildTimeSlots({
         session_id: slot.session_id,
         title: slot.title || paper?.title || "",
         // The program shows who is presenting, not the full author list.
-        contributors: slot.presenters || null,
+        contributors:
+          slot.presenters?.map((presenter) => presenter.name) || null,
         paper_type: slot.paper_type || slotTypeDefault || "",
         presentation_mode: session.virtual ? "Virtual" : "Premise",
         time_stamp: start,
         time_start: start,
         time_end: end,
-        authors: paper?.authors || (slot.contributors || []).map(byName),
+        authors: paper?.authors || slot.contributors || [],
         abstract: paper?.abstract || null,
         uid: slot.paper_id || "",
         keywords: paper?.keywords || null,

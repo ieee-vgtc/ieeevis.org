@@ -106,9 +106,6 @@
 .menu_item {
   background: #fff;
   position: relative;
-  transition:
-    color,
-    background-color 250ms ease;
   cursor: pointer;
   text-align: left;
   width: 100%;
@@ -125,10 +122,7 @@
   }
 }
 
-/* State: Hover and Focused */
-.menu_item:hover {
-  @apply text-primary;
-}
+/* State: Focused */
 .menu_item--focused {
   @apply text-accent-minor bg-accent;
 }
@@ -137,12 +131,7 @@
 }
 
 @variant md {
-  .menu_item:hover {
-    background: transparent;
-  }
-
-  .menu_item--focused,
-  .menu_item--focused:hover {
+  .menu_item--focused {
     @apply text-primary;
     /*            @apply bg-gray-100;*/
   }

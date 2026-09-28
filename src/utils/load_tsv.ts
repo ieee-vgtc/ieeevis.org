@@ -47,14 +47,11 @@ function parse_tsv_rows(text: string): string[][] {
 }
 
 /**
- * Parses a tab separated file with a header row into a list of records.
+ * Parses tab separated text with a header row into a list of records.
  * Values are trimmed, and rows that are entirely empty are dropped.
  */
-export function load_tsv(filePath: string): Record<string, string>[] {
-  const fullPath = path.resolve(filePath);
-  const fileContents = fs.readFileSync(fullPath, "utf8");
-
-  const rows = parse_tsv_rows(fileContents).filter((cells) =>
+export function parse_tsv(text: string): Record<string, string>[] {
+  const rows = parse_tsv_rows(text).filter((cells) =>
     cells.some((cell) => cell.trim().length > 0),
   );
 
@@ -71,6 +68,14 @@ export function load_tsv(filePath: string): Record<string, string>[] {
         headers.map((header, idx) => [header, (cells[idx] || "").trim()]),
       ),
     );
+}
+
+/**
+ * Parses a tab separated file with a header row into a list of records.
+ */
+export function load_tsv(filePath: string): Record<string, string>[] {
+  const fullPath = path.resolve(filePath);
+  return parse_tsv(fs.readFileSync(fullPath, "utf8"));
 }
 
 export function load_json(filePath: string): Record<string, string>[] {

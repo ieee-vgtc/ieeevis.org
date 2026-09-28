@@ -15,8 +15,9 @@ city's top attractions. The hotel is an approximately 15 minute public transit r
 
 The conference rate is <b>319$ per night</b> (not including taxes). Staying in the conference hotel has a lot of advantages not only for the participants. Having occupied many rooms improves renting conditions of the conference facilities and is therefore good for the whole conference. In particular, it may allow better onsite food and beverage covering.
 
-<a href="https://book.passkey.com/e/51276096" class="button">
-  Book your VIS 2026 hotel room</a>
+<a href="https://book.passkey.com/e/51276096" class="button">Book your VIS 2026 hotel room</a><br/>
+
+The room block rate is available **until October 16, 2026**.  
 
 A small number of rooms for the hotel are available at the prevailing government rate. If you need more information for booking these, please contact [registration@ieeevis.org](mailto:registration@ieeevis.org).
 
