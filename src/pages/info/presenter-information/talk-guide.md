@@ -7,24 +7,45 @@ active_nav: "Contribute"
 contact: tech@ieeevis.org
 ---
 
-Details TBD.
-
-<!--
 Please **read the following instructions carefully** for guidelines on preparing your **Presentation** for VIS 2026, or a VIS 2026 workshop.
 
-## IEEE Visualization 2026 is planned as an in-person event
+## Hybrid Presentation Options
 
-The focus of IEEE VIS 2026 are on on-site presentation. Nevertheless, virtual presentations are possible.
+IEEE VIS 2026 will be held primarily **in person in Boston**, with satellite events in **Paris, France** and **Tianjin, China**. Presenters who are unable to attend one of these locations may participate through a **prerecorded presentation**.
 
-- **VIS Full/Short Papers**: Full and short papers will be split into in-person presenter-only and virtual presenter-only sessions. Both in-person and virtual session will be recorded. Authors should have made this selection during their camera ready submission.
-- **TVCG/CG&A Presentations**: TVCG/CG&A Presentations will be in-person presenter-only, but they will be recorded.
-- **All Other Events**: Please contact the organizers of your event.
+Presentation options depend on the type of contribution:
 
-**All full/short paper and TVCG/CG&A presenters are required to register as a speaker, irrespective of their mode of presentation. Presenters at other events may register as attendees. Additionally, diversity and inclusivity scholarships will be available to support the participation of speakers with financial needs.**
+- **VIS Full/Short Papers**: Presenters will either present **live in Boston**, **live from the Paris or Tianjin satellite event**, or through a **prerecorded presentation**. Authors selected their planned presentation location during the camera-ready submission process. Presentation sessions will be recorded.
+- **TVCG/CG&A Presentations**: Presentations will be **live and in person in Boston** and will be recorded.
+- **All Other Events**: Please contact the organizers of your event for available presentation and participation options.
+
+**Selected sessions in Boston will be streamed live to the Paris and Tianjin satellite events.** In particular, sessions scheduled in the **America Hall** may include live participation from satellite attendees and presenters.
+
+### Changing Presentation Location
+
+The conference program and hybrid infrastructure are now being coordinated across Boston, Paris, and Tianjin. Because of session scheduling and time-zone constraints, **we can no longer accommodate changes between live presentation locations**.
+
+If you previously selected **Boston**, you cannot switch to presenting live from Paris or Tianjin. Likewise, presenters assigned to **Paris or Tianjin** cannot switch to another live presentation location.
+
+**If you can no longer present at your planned location, you must notify the Program Chairs at [program@ieeevis.org](mailto:program@ieeevis.org).** Your presentation may instead be delivered as a **prerecorded presentation**.
+
+### Presenter registration
+
+Every **VIS Full Paper, VIS Short Paper, invited TVCG paper, and invited CG&A paper** must be covered by a qualifying full-conference registration, **regardless of where or how the presentation is delivered**:
+
+- **Boston:** The paper must be covered by a **Full Conference registration**.
+- **Paris or Tianjin:** The paper must be covered by a **Satellite Author registration**.
+- **Prerecorded:** The paper must still be covered by an appropriate **Full Conference or Satellite Author registration**, even if the presenter does not attend in person.
+
+The registration covering the paper **does not need to belong to the person giving the presentation**. Co-authors should coordinate to determine who will cover each paper. A student Full Conference or Satellite Author registration may cover **one paper**, while a non-student registration may cover **up to two papers**.
+
+These paper-coverage requirements do **not** apply to papers presented at workshops, symposia, tutorials, panels, challenges, or other conference proceedings, nor to poster presenters, invited speakers, or other presenters and organizers.
+
+For complete registration requirements, fees, and instructions, please see the **[Conference Registration page](https://ieeevis.org/year/2026/info/registration-and-travel/conference-registration/)**.
 
 ## Presentation Recommendations and Powerpoint Template
 
-We recommend using the provided 16x9 wide format ([VIS 2026 PowerPoint Template](/year/2026/assets/vis_2026_presentation_template.pptx)).
+We recommend using the provided 16x9 wide format ([VIS 2026 PowerPoint Template](/year/2026/assets/VIS2026_presentation_template.pptx)).
 
 In addition, make sure that your presentation is accessible by speaking clearly, using large fonts, and ensuring high contrast. Avoid saying "as you can see on this slide" and always describe all relevant visuals. You can find some [recommendations for giving accessible talks from SIGACCESS](http://www.sigaccess.org/welcome-to-sigaccess/resources/accessible-presentation-guide/) and if you have additional questions contact the [accessibility chairs](mailto:accessibility@ieeevis.org).
 
@@ -46,16 +67,14 @@ As a guide, the length requirements for are as follows:
 
 - Alfie Abdul-Rahman, _King's College London_
 - Tushar Athawale, _Oak Ridge National Laboratory_
-- Gautam Chaudhary, _Alcon_
-- Michelle Dowling, _Pacific Northwest National Laboratory_
-- Michael Oppermann, _AIT Austrian Institute of Technology GmbH_
+- John Thompson, _Autodesk Research_
 
 _Email: [program@ieeevis.org](mailto:program@ieeevis.org)_
 
 ### Inclusivity & Accessibility Chairs
 
-- Laura Koesten, _University of Vienna_
-- Ab Mosca, _Westfield State University_
-- John Thompson, _Microsoft Research_
+- Sandra Bae, _University of Arizona_
+- Ab Mosca, _Smith College_
+- Jonathan Zong, _University of Colorado, Boulder_
 
-_Email: [inclusivity_accessibility@ieeevis.org](mailto:inclusivity_accessibility@ieeevis.org)_ -->
+_Email: [inclusivity_accessibility@ieeevis.org](mailto:inclusivity_accessibility@ieeevis.org)_
