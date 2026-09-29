@@ -30,6 +30,10 @@ import type { ShapedPost } from "./types";
  * Everything the per-post 🍩 like control needs, lifted to the discussion so
  * the root and every reply read and update one shared like state.
  *
+ * Absent, the replies show no like counts at all — an AppView thread carries no
+ * guest likes, and a wrong count is worse than none. The announcement's own chip
+ * is unaffected: it is a plain Bluesky count.
+ *
  *  - `likedUris` — the posts the reader has liked, updated optimistically.
  *  - `deltas` — transient count adjustments applied on top of the server total
  *    while an optimistic toggle is in flight; cleared when fresh data arrives.
@@ -151,19 +155,23 @@ function LikeControl({
     );
   }
 
+  if (!like) {
+    return null;
+  }
+
   // A just-posted comment not yet read back has a placeholder URI, so there is
   // nothing real to like yet.
   const isRealPost = post.uri.startsWith("at://");
-  const liked = like?.likedUris.has(post.uri) ?? false;
-  const count = likeCountOf(post) + (like?.deltas.get(post.uri) ?? 0);
-  const interactive = Boolean(like?.canLike) && isRealPost;
+  const liked = like.likedUris.has(post.uri);
+  const count = likeCountOf(post) + (like.deltas.get(post.uri) ?? 0);
+  const interactive = like.canLike && isRealPost;
 
   if (interactive) {
     return (
       <button
         aria-label={`${liked ? "Unlike" : "Like"} this reply (${count})`}
         aria-pressed={liked}
-        onClick={() => like?.onToggle(post)}
+        onClick={() => like.onToggle(post)}
         style={{
           ...likeChipStyle,
           backgroundColor: liked ? "#eff6ff" : "#fff",
@@ -294,6 +302,11 @@ export default function PostCard({
     ? new Date(post.createdAt).toLocaleString()
     : undefined;
   const reposts = post.repostCount || 0;
+  const hasFooter =
+    isRoot ||
+    Boolean(like) ||
+    (Boolean(own?.canRemove) && removable) ||
+    reposts > 0;
 
   return (
     <article
@@ -353,26 +366,28 @@ export default function PostCard({
       <EmbedImages images={post.embedImages} />
       <EmbedCard embed={post.embed} />
 
-      <footer
-        style={{
-          display: "flex",
-          alignItems: "center",
-          gap: "0.75rem",
-          fontSize: "0.82rem",
-          color: "#6b7280",
-          marginTop: isRoot ? "0.6rem" : "0.5rem",
-        }}
-      >
-        <LikeControl isRoot={isRoot} like={like} post={post} />
-        {!isRoot && (
-          <RemoveControl own={own} post={post} removable={removable} />
-        )}
-        {!isRoot && reposts > 0 && (
-          <span>
-            {reposts} {reposts === 1 ? "repost" : "reposts"}
-          </span>
-        )}
-      </footer>
+      {hasFooter && (
+        <footer
+          style={{
+            display: "flex",
+            alignItems: "center",
+            gap: "0.75rem",
+            fontSize: "0.82rem",
+            color: "#6b7280",
+            marginTop: isRoot ? "0.6rem" : "0.5rem",
+          }}
+        >
+          <LikeControl isRoot={isRoot} like={like} post={post} />
+          {!isRoot && (
+            <RemoveControl own={own} post={post} removable={removable} />
+          )}
+          {!isRoot && reposts > 0 && (
+            <span>
+              {reposts} {reposts === 1 ? "repost" : "reposts"}
+            </span>
+          )}
+        </footer>
+      )}
     </article>
   );
 }

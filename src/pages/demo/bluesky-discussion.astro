@@ -67,9 +67,10 @@ const loginHref = buildLoginUrl(Astro.url);
   <p>
     Reads a thread straight from the public Bluesky AppView — how paper pages
     will work after the conference, once real post URIs are baked in. Guest
-    writes are bridged by the service, so this example is read-only for a
-    signed-in attendee; a Bluesky login writes to your own account and works
-    here too.
+    writes and guest likes are bridged by the service, so this example is
+    read-only for a signed-in attendee, shows no reply likes, and lists the
+    comments newest first with no sort control; a Bluesky login writes to your
+    own account and works here too.
   </p>
   <BlueskyDiscussion
     atUri="at://did:plc:zbr4ntavbfy6nzkupgdgn4sz/app.bsky.feed.post/3msw5eyez7l2k"

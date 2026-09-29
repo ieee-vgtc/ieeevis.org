@@ -29,6 +29,10 @@
  *
  * Everything else is read-only.
  *
+ * Guest likes live in the service alone, so a thread read from the AppView shows
+ * no reply likes, no sort control, and its comments newest first. The
+ * announcement keeps its own Bluesky like count, which is right either way.
+ *
  * A reader can remove their own comments. That deletes the post from Bluesky as
  * well as taking it off this page and cannot be undone, so the control confirms
  * before it acts. For a guest comment it also says that the conference keeps
@@ -97,7 +101,7 @@ interface BlueskyDiscussionProps {
   apiBases?: string[];
   refreshMs?: number;
   maxDepth?: number;
-  /** Initial order of top-level replies; the reader can toggle. */
+  /** Initial order of top-level replies; the reader can toggle. Service only. */
   defaultSort?: ReplySort;
 }
 
@@ -547,6 +551,9 @@ export default function BlueskyDiscussion({
   const canWriteAsGuest = data?.source === "service" && hasToken;
   /** A Bluesky login writes to the reader's own PDS, whatever the source. */
   const interactive = native !== null || canWriteAsGuest;
+  /** Only the service knows the guest likes, so only it may show or rank by them. */
+  const showLikes = data?.source === "service";
+  const effectiveSort: ReplySort = showLikes ? sort : "newest";
 
   /**
    * Which posts in this thread *this reader* has liked. The thread response
@@ -1060,7 +1067,7 @@ export default function BlueskyDiscussion({
     dropUris(pendingReplies, removedLocally).filter(
       (reply) => !reply.uri || !shown.some((post) => post.uri === reply.uri),
     ),
-    sort,
+    effectiveSort,
     activeDeltas,
   );
   const remaining = commentLimit - graphemeLength(draft);
@@ -1075,12 +1082,14 @@ export default function BlueskyDiscussion({
 
   // The like control is the same on the root and every reply; the discussion
   // owns the state so they all read and update one shared source.
-  const likeContext: PostLikeContext = {
-    canLike: interactive,
-    likedUris,
-    deltas: activeDeltas,
-    onToggle: toggleLike,
-  };
+  const likeContext: PostLikeContext | undefined = showLikes
+    ? {
+        canLike: interactive,
+        likedUris,
+        deltas: activeDeltas,
+        onToggle: toggleLike,
+      }
+    : undefined;
 
   // Which posts are the reader's: the guest comments they wrote through this
   // page (by URI), the replies of the Bluesky account they are logged in to
@@ -1342,7 +1351,7 @@ export default function BlueskyDiscussion({
           margin: "0.9rem 0 0.2rem",
         }}
       >
-        {replies.length > 1 && (
+        {showLikes && replies.length > 1 && (
           <SortToggle
             onChange={(next) => {
               markInteraction();
