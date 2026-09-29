@@ -6,6 +6,8 @@ import { withBaseURL } from "../../utils/withBaseURL";
 import { getProgramEventTypeLabel } from "../../utils/programEventTypeLabel";
 import { typeColors } from "../../utils/week-of-utils";
 
+
+// TODO make environment variable to easily set up for future years
 const CONFERENCE_TIME_ZONE = "US/Eastern";
 const PIXELS_PER_MINUTE = 1.18;
 const MIN_TIMELINE_HEIGHT = 560;
@@ -37,6 +39,10 @@ type PlacedCalendarSession = CalendarSession & {
   laneCount: number;
   clusterKey: string;
   clusterTopMinute: number;
+};
+
+type RoomCalendarSession = PlacedCalendarSession & {
+  roomSpan: number;
 };
 
 /** Return white or near-black depending on the relative luminance of a hex color. */
@@ -106,9 +112,46 @@ const dayDateFormatter = new Intl.DateTimeFormat("en-US", {
   day: "numeric",
 });
 
+
+// TODO: make this less of a "magic" variable for future years' web chairs
+const roomOrder2026 = [
+  "America North / America Center / America South",
+  "America North / America South / America Center",
+  "America north",
+  "America center",
+  "America south",
+  "Essex north",
+  "Essex center",
+  "Essex south",
+  "Straffordshire",
+  "St. George (A+B)",
+  "St. George (C+D)",
+  "St. George (C+D) / St. George (A+B)",
+].map((x) => x.toLowerCase());
+/** Position of a room in roomOrder2026; unlisted rooms sort last. */
+function getRoomOrderIndex(roomName: string): number {
+  const idx = roomOrder2026.findIndex((x) => x === roomName.toLowerCase());
+  return idx === -1 ? roomOrder2026.length : idx;
+}
+
+const splitRoomNames = (roomName: string) =>
+  roomName
+    .split("/")
+    .map((part) => part.trim())
+    .filter(Boolean);
+
+const getSharedSessionKey = (session: CalendarSession) =>
+  [
+    session.dayKey,
+    session.eventId,
+    session.title.trim().toLowerCase(),
+    session.startISO,
+    session.endISO,
+  ].join("|");
+
 const sessionList = await fetchAllSessions();
 
-const sessions: CalendarSession[] = Object.entries(sessionList)
+const rawSessions: CalendarSession[] = Object.entries(sessionList)
   .flatMap(([eventId, eventDefinition]) =>
     eventDefinition.sessions.map((session) => {
       const eventType = eventDefinition.event_type || "other";
@@ -143,6 +186,48 @@ const sessions: CalendarSession[] = Object.entries(sessionList)
       };
     }),
   )
+  .sort((a, b) => a.startMs - b.startMs);
+
+const sharedSessionGroups = new Map<string, CalendarSession[]>();
+for (const session of rawSessions) {
+  const sharedKey = getSharedSessionKey(session);
+  const matchingSessions = sharedSessionGroups.get(sharedKey) || [];
+  matchingSessions.push(session);
+  sharedSessionGroups.set(sharedKey, matchingSessions);
+}
+
+// Use one session throughout the calendar for an event that the source lists
+// once per occupied room. The combined room name is subsequently used to span
+// the corresponding columns in the selected-day view.
+const sessions: CalendarSession[] = Array.from(sharedSessionGroups.values())
+  .map((matchingSessions) => {
+    const roomNames = Array.from(
+      new Set(
+        matchingSessions.flatMap((session) => splitRoomNames(session.room)),
+      ),
+    ).sort(
+      (a, b) =>
+        getRoomOrderIndex(a) - getRoomOrderIndex(b) || a.localeCompare(b),
+    );
+    const firstRoom = roomNames[0];
+    const session =
+      matchingSessions.find((candidate) =>
+        splitRoomNames(candidate.room).includes(firstRoom),
+      ) || matchingSessions[0];
+    const chairs = Array.from(
+      new Set(matchingSessions.flatMap((candidate) => candidate.chairs)),
+    );
+    const room = roomNames.join(" / ");
+
+    return {
+      ...session,
+      room,
+      chairs,
+      searchText: [session.title, session.eventTitle, room, ...chairs]
+        .join(" ")
+        .toLowerCase(),
+    };
+  })
   .sort((a, b) => a.startMs - b.startMs);
 
 const groupedSessions = new Map<string, CalendarSession[]>();
@@ -190,29 +275,47 @@ const dayGroups = Array.from(groupedSessions.entries())
       const clusterKey = `${dayKey}-c${clusterIdx}`;
       const clusterTopMinute = Math.min(...cluster.map((s) => s.startMinute));
 
-      const active: { laneIndex: number; endMinute: number }[] = [];
+      // Lanes follow roomOrder2026 so each room keeps a consistent
+      // left-to-right position. Sessions that overlap within one room (e.g.
+      // "TBA") get extra lanes next to each other.
+      const sessionsByRoom = new Map<string, CalendarSession[]>();
+      for (const session of cluster) {
+        const roomSessions = sessionsByRoom.get(session.room) || [];
+        roomSessions.push(session);
+        sessionsByRoom.set(session.room, roomSessions);
+      }
+      const orderedRooms = Array.from(sessionsByRoom.keys()).sort(
+        (a, b) =>
+          getRoomOrderIndex(a) - getRoomOrderIndex(b) || a.localeCompare(b),
+      );
+
       const localPlaced: Array<{
         session: CalendarSession;
         laneIndex: number;
       }> = [];
-      let maxLaneCount = 1;
+      let maxLaneCount = 0;
 
-      for (const session of cluster) {
-        for (let i = active.length - 1; i >= 0; i -= 1) {
-          if (active[i].endMinute <= session.startMinute) {
-            active.splice(i, 1);
+      for (const room of orderedRooms) {
+        const laneOffset = maxLaneCount;
+        const active: { laneIndex: number; endMinute: number }[] = [];
+
+        for (const session of sessionsByRoom.get(room) || []) {
+          for (let i = active.length - 1; i >= 0; i -= 1) {
+            if (active[i].endMinute <= session.startMinute) {
+              active.splice(i, 1);
+            }
           }
-        }
 
-        const occupied = new Set(active.map((item) => item.laneIndex));
-        let laneIndex = 0;
-        while (occupied.has(laneIndex)) {
-          laneIndex += 1;
-        }
+          const occupied = new Set(active.map((item) => item.laneIndex));
+          let laneIndex = laneOffset;
+          while (occupied.has(laneIndex)) {
+            laneIndex += 1;
+          }
 
-        active.push({ laneIndex, endMinute: session.endMinute });
-        localPlaced.push({ session, laneIndex });
-        maxLaneCount = Math.max(maxLaneCount, laneIndex + 1);
+          active.push({ laneIndex, endMinute: session.endMinute });
+          localPlaced.push({ session, laneIndex });
+          maxLaneCount = Math.max(maxLaneCount, laneIndex + 1);
+        }
       }
 
       for (const item of localPlaced) {
@@ -330,26 +433,76 @@ const typeOptions = sortedTypes.map((sessionType) => ({
 }));
 
 const roomDayGroups = dayGroups.map((dayGroup) => {
-  const roomMap = new Map<string, PlacedCalendarSession[]>();
+  const orderedRooms = Array.from(
+    new Set(dayGroup.sessions.flatMap((session) => splitRoomNames(session.room))),
+  ).sort(
+    (a, b) =>
+      getRoomOrderIndex(a) - getRoomOrderIndex(b) || a.localeCompare(b),
+  );
+  const roomMap = new Map<string, RoomCalendarSession[]>(
+    orderedRooms.map((roomName) => [roomName, []]),
+  );
 
+  // Group defensively before laying sessions across their physical rooms.
+  const sharedSessionGroups = new Map<string, PlacedCalendarSession[]>();
   for (const session of dayGroup.sessions) {
-    const roomSessions = roomMap.get(session.room) || [];
-    roomSessions.push({
-      ...session,
-      laneIndex: 0,
-      laneCount: 1,
-      clusterKey: `${dayGroup.dayKey}-${session.room}-${session.id}`,
-      clusterTopMinute: session.startMinute,
-    });
-    roomMap.set(session.room, roomSessions);
+    const sharedKey = getSharedSessionKey(session);
+    const matchingSessions = sharedSessionGroups.get(sharedKey) || [];
+    matchingSessions.push(session);
+    sharedSessionGroups.set(sharedKey, matchingSessions);
   }
 
-  const rooms = Array.from(roomMap.entries())
-    .sort(([a], [b]) => a.localeCompare(b))
-    .map(([roomName, roomSessions]) => ({
-      roomName,
-      sessions: roomSessions.sort((a, b) => a.startMs - b.startMs),
-    }));
+  for (const [sharedKey, matchingSessions] of sharedSessionGroups) {
+    const occupiedRoomIndexes = Array.from(
+      new Set(
+        matchingSessions
+          .flatMap((session) => splitRoomNames(session.room))
+          .map((roomName) => orderedRooms.indexOf(roomName))
+          .filter((index) => index >= 0),
+      ),
+    ).sort((a, b) => a - b);
+
+    // A card can only span adjacent grid columns. Should a shared event ever
+    // use non-adjacent rooms, keep one card per contiguous group rather than
+    // incorrectly covering an unrelated room between them.
+    const contiguousRoomRuns: number[][] = [];
+    for (const roomIndex of occupiedRoomIndexes) {
+      const currentRun = contiguousRoomRuns.at(-1);
+      if (!currentRun || roomIndex !== currentRun.at(-1)! + 1) {
+        contiguousRoomRuns.push([roomIndex]);
+      } else {
+        currentRun.push(roomIndex);
+      }
+    }
+
+    for (const roomRun of contiguousRoomRuns) {
+      const roomNames = roomRun.map((index) => orderedRooms[index]);
+      const firstRoom = roomNames[0];
+      const session =
+        matchingSessions.find((candidate) =>
+          splitRoomNames(candidate.room).includes(firstRoom),
+        ) || matchingSessions[0];
+      const combinedRoomName = roomNames.join(" / ");
+      const roomSessions = roomMap.get(firstRoom)!;
+      roomSessions.push({
+        ...session,
+        room: combinedRoomName,
+        searchText: `${session.searchText} ${combinedRoomName}`.toLowerCase(),
+        laneIndex: 0,
+        laneCount: 1,
+        roomSpan: roomRun.length,
+        clusterKey: `${dayGroup.dayKey}-${sharedKey}-${firstRoom}`,
+        clusterTopMinute: session.startMinute,
+      });
+    }
+  }
+
+  const rooms = orderedRooms.map((roomName) => ({
+    roomName,
+    sessions: roomMap
+      .get(roomName)!
+      .sort((a, b) => a.startMs - b.startMs),
+  }));
 
   return {
     dayKey: dayGroup.dayKey,
@@ -358,6 +511,23 @@ const roomDayGroups = dayGroups.map((dayGroup) => {
     rooms,
   };
 });
+/** Rooms that the 2026 conference streams online; update each year. */
+const streamedRooms2026 = [
+  "America North",
+  "America Center",
+  "America South",
+].map((room) => room.toLowerCase());
+
+/**
+ * True when every room in the (possibly combined, e.g. "A / B") room name is
+ * streamed in 2026.
+ */
+function isStreamedRoom2026(roomName: string): boolean {
+  return roomName
+    .split("/")
+    .map((part) => part.trim().toLowerCase())
+    .every((part) => part.length > 0 && streamedRooms2026.includes(part));
+}
 
 const frontmatter = {
   title: "Calendar",
@@ -374,7 +544,7 @@ const frontmatter = {
     data-local-storage-key="program-calendar-timezone-mode"
   >
     <ProgramHeader
-      title="Conference Week Calendar"
+      title="Conference Calendar"
       subtitleBefore="Grouped by conference days. Times are rendered in"
       subtitleAfter="."
       groupingNote=""
@@ -547,11 +717,19 @@ const frontmatter = {
                 Time
               </div>
               {dayGroup.rooms.map((roomGroup) => (
-                <div class="calendar-day-header-compact">
+                <div
+                  class="calendar-day-header-compact"
+                  data-full-name={roomGroup.roomName}
+                >
                   <h2>{roomGroup.roomName}</h2>
                   <p>
                     {dayGroup.weekdayLabel}, {dayGroup.dateLabel}
                   </p>
+                  {isStreamedRoom2026(roomGroup.roomName) && (
+                    <p class="calendar-room-streaming-note">
+                      (available as streaming)
+                    </p>
+                  )}
                 </div>
               ))}
             </div>
@@ -625,7 +803,8 @@ const frontmatter = {
                           data-start={session.startISO}
                           data-end={session.endISO}
                           data-solo=""
-                          style={`--session-accent: ${accentHex}; --session-fg: ${fgColor}; --session-start-minute: ${session.startMinute}; --session-duration: ${durationMinutes}; --session-lane-index: ${session.laneIndex}; --session-lane-count: ${session.laneCount};`}
+                          data-room-span={session.roomSpan > 1 ? "" : undefined}
+                          style={`--session-accent: ${accentHex}; --session-fg: ${fgColor}; --session-start-minute: ${session.startMinute}; --session-duration: ${durationMinutes}; --session-lane-index: ${session.laneIndex}; --session-lane-count: ${session.laneCount}; --room-span: ${session.roomSpan};`}
                         >
                           <span class="session-block-inline" aria-hidden="true">
                             <span class="session-block-inline-name">
@@ -794,6 +973,10 @@ const frontmatter = {
         fallback: string,
       ): string => {
         if (!container) return fallback;
+        const select = container.querySelector<HTMLSelectElement>(
+          "[data-choice-select]",
+        );
+        if (select) return select.value || fallback;
         const activeButton = container.querySelector<HTMLButtonElement>(
           ".u-choice-button.is-active[data-choice-value]",
         );
@@ -810,6 +993,9 @@ const frontmatter = {
             ".u-choice-button[data-choice-value]",
           ),
         );
+        const select = container.querySelector<HTMLSelectElement>(
+          "[data-choice-select]",
+        );
         let found = false;
 
         for (const button of buttons) {
@@ -817,6 +1003,14 @@ const frontmatter = {
           if (isActive) found = true;
           button.classList.toggle("is-active", isActive);
           button.setAttribute("aria-pressed", String(isActive));
+        }
+
+        if (
+          select &&
+          Array.from(select.options).some((option) => option.value === value)
+        ) {
+          select.value = value;
+          found = true;
         }
 
         return found;
@@ -1133,7 +1327,16 @@ const frontmatter = {
             column.querySelectorAll<HTMLElement>(
               `[data-session-card][data-cluster-key="${clusterKey}"]`,
             ),
-          ).filter((b) => !b.hidden);
+          )
+            .filter((b) => !b.hidden)
+            // Tabs follow the lanes, which are laid out in roomOrder2026 order.
+            .sort(
+              (a, b) =>
+                Number(a.style.getPropertyValue("--session-lane-index")) -
+                  Number(b.style.getPropertyValue("--session-lane-index")) ||
+                Number(a.style.getPropertyValue("--session-start-minute")) -
+                  Number(b.style.getPropertyValue("--session-start-minute")),
+            );
 
           if (clusterBars.length === 0) return;
           // Single visible bar after filtering may still need overlay details when it belongs
@@ -1259,6 +1462,17 @@ const frontmatter = {
             refreshTimeRanges();
           });
         }
+
+        const timezoneSelect =
+          timezoneControl.querySelector<HTMLSelectElement>(
+            "[data-choice-select]",
+          );
+        timezoneSelect?.addEventListener("change", () => {
+          const value = timezoneSelect.value;
+          if (!setChoiceValue(timezoneControl, value)) return;
+          localStorage.setItem(localStorageKey, value);
+          refreshTimeRanges();
+        });
       }
 
       if (dayFilterControl) {
@@ -1274,6 +1488,14 @@ const frontmatter = {
             applyFilters();
           });
         }
+
+        const daySelect = dayFilterControl.querySelector<HTMLSelectElement>(
+          "[data-choice-select]",
+        );
+        daySelect?.addEventListener("change", () => {
+          if (!setChoiceValue(dayFilterControl, daySelect.value)) return;
+          applyFilters();
+        });
       }
 
       for (const button of sessionLinkButtons) {

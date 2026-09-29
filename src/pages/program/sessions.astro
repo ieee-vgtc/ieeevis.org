@@ -59,21 +59,6 @@ const dayDateFormatter = new Intl.DateTimeFormat("en-US", {
 
 const sessionList = await fetchAllSessions();
 
-function getEventPartSuffix(event: any, session: any): string {
-  const multiPartEventTypes = ["workshop", "tutorial", "panel"];
-  const isMultiPartEvent = multiPartEventTypes.includes(
-    event.event_type.toLowerCase(),
-  );
-  if (!isMultiPartEvent) {
-    return "";
-  }
-  if (event.sessions.length <= 2) {
-    return "";
-  }
-  const sessionNumber = session.session_id.split("-").pop();
-  return ` (part ${sessionNumber})`;
-}
-
 const sessions: SessionListItem[] = Object.values(sessionList)
   .flatMap((eventDefinition) =>
     eventDefinition.sessions.map((session) => {
@@ -87,12 +72,11 @@ const sessions: SessionListItem[] = Object.values(sessionList)
       ]
         .join(" ")
         .toLowerCase();
-      const eventSuffix = getEventPartSuffix(eventDefinition, session);
 
       return {
         id: session.session_id,
         eventSlug: `${session.event_prefix}-${session.session_id}`,
-        title: `${session.title}${eventSuffix}`,
+        title: `${session.title}`,
         eventTitle: eventDefinition.long_name,
         eventType,
         eventTypeLabel: getProgramEventTypeLabel(eventType),
@@ -146,7 +130,7 @@ const typeOptions = sortedTypes.map((sessionType) => ({
   value: sessionType,
   label: getProgramEventTypeLabel(sessionType),
   count: typeCounts[sessionType],
-  color: typeColors[sessionType] || "#6b7280",
+  color: typeColors[sessionType] || "#df6824",
 }));
 const conferenceDateTimeFormatter = new Intl.DateTimeFormat("en-US", {
   timeZone: CONFERENCE_TIME_ZONE,
@@ -198,7 +182,7 @@ function formatPeopleForSession(session: SessionListItem) {
     data-local-storage-key="program-sessions-timezone-mode"
   >
     <ProgramHeader
-      title="Conference Sessions"
+      title="Sessions"
       subtitleBefore="Grouped by conference days. Times are rendered in"
       subtitleAfter="."
       timezoneLabel="Timezone display"
@@ -241,9 +225,9 @@ function formatPeopleForSession(session: SessionListItem) {
                   data-search={session.searchText}
                   data-start={session.startISO}
                   data-end={session.endISO}
-                  accentColor={typeColors[session.eventType] || "#6b7280"}
+                  accentColor={typeColors[session.eventType] || "#df6824"}
                   title={session.title}
-                  titleColor={typeTextColors[session.eventType]}
+                  titleColor={typeTextColors[session.eventType] || "#111827"}
                   titleHref={`/program/session/${session.eventSlug}`}
                   peopleLabel="????????"
                   eyebrow={session.eventTypeLabel}
@@ -304,6 +288,10 @@ function formatPeopleForSession(session: SessionListItem) {
         fallback: string,
       ): string => {
         if (!container) return fallback;
+        const select = container.querySelector<HTMLSelectElement>(
+          "[data-choice-select]",
+        );
+        if (select) return select.value || fallback;
         const activeButton = container.querySelector<HTMLButtonElement>(
           ".u-choice-button.is-active[data-choice-value]",
         );
@@ -320,6 +308,9 @@ function formatPeopleForSession(session: SessionListItem) {
             ".u-choice-button[data-choice-value]",
           ),
         );
+        const select = container.querySelector<HTMLSelectElement>(
+          "[data-choice-select]",
+        );
         let found = false;
 
         for (const button of buttons) {
@@ -327,6 +318,14 @@ function formatPeopleForSession(session: SessionListItem) {
           if (isActive) found = true;
           button.classList.toggle("is-active", isActive);
           button.setAttribute("aria-pressed", String(isActive));
+        }
+
+        if (
+          select &&
+          Array.from(select.options).some((option) => option.value === value)
+        ) {
+          select.value = value;
+          found = true;
         }
 
         return found;
@@ -526,6 +525,17 @@ function formatPeopleForSession(session: SessionListItem) {
             refreshTimeRanges();
           });
         }
+
+        const timezoneSelect =
+          timezoneControl.querySelector<HTMLSelectElement>(
+            "[data-choice-select]",
+          );
+        timezoneSelect?.addEventListener("change", () => {
+          const value = timezoneSelect.value;
+          if (!setChoiceValue(timezoneControl, value)) return;
+          localStorage.setItem(localStorageKey, value);
+          refreshTimeRanges();
+        });
       }
 
       if (dayFilterControl) {
@@ -541,6 +551,14 @@ function formatPeopleForSession(session: SessionListItem) {
             applyFilters();
           });
         }
+
+        const daySelect = dayFilterControl.querySelector<HTMLSelectElement>(
+          "[data-choice-select]",
+        );
+        daySelect?.addEventListener("change", () => {
+          if (!setChoiceValue(dayFilterControl, daySelect.value)) return;
+          applyFilters();
+        });
       }
 
       // Restore filters from the URL (?search=...&type=full&day=2026-11-10).

@@ -20,6 +20,7 @@
 import type { APIRoute } from "astro";
 import { SignJWT } from "jose";
 import { readSession } from "../../lib/auth0";
+import { jsonResponse as json } from "../../lib/http";
 
 export const prerender = false;
 
@@ -44,17 +45,6 @@ function getTokenSecret() {
     );
   }
   return new TextEncoder().encode(value);
-}
-
-function json(body: unknown, status: number) {
-  return new Response(JSON.stringify(body), {
-    headers: {
-      // Never cached: it is per-user and expires in minutes.
-      "cache-control": "no-store",
-      "content-type": "application/json; charset=utf-8",
-    },
-    status,
-  });
 }
 
 export const GET: APIRoute = async ({ cookies, url }) => {

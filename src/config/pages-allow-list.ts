@@ -8,8 +8,8 @@ export const features = {
     enabled: true,
     sourceType:
       //
-      "localTest",
-    // "prod",
+      // "localTest",
+      "prod",
     // The prod sources are raw table dumps (see src/scripts/get-data.sh); the
     // session/event/room/timeblock/slot files are merged into a program by
     // fetchAllSessions. The localTest sources are a previous year's already

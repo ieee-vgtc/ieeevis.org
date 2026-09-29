@@ -9,6 +9,7 @@ import pagefind from "astro-pagefind";
 
 //https://docs.astro.build/en/guides/integrations-guide/sitemap/
 import sitemap from "@astrojs/sitemap";
+import { unified } from "@astrojs/markdown-remark";
 import rehypeExternalLinks from "rehype-external-links";
 import brokenLinksChecker from "./src/integrations/broken-links-checker.js";
 import checkRepoFileLinks from "./src/integrations/check-repo-file-links.js";
@@ -35,12 +36,21 @@ export default defineConfig({
     driver: sessionDrivers.memory(),
   },
   adapter: netlify({
+    // Edge Functions emulation is enabled by default and starts a managed
+    // Deno server, even though this project does not define any Netlify Edge
+    // Functions. Disable only that unused runtime for plain `astro dev`.
+    devFeatures: {
+      environmentVariables: false,
+      images: true,
+      edgeFunctions: false,
+    },
     // Read from the filesystem at render time (src/utils/load_yaml.ts,
     // src/utils/paperData.ts) via readFileSync, so they must be explicitly
     // bundled into Netlify's serverless function or every page that reads
     // them (which, via DefaultLayout/HomePageLayout/Sidebar, is nearly all
     // of them) throws ENOENT once deployed.
     includeFiles: [
+      "src/data/program/*.json",
       "src/data/program_test/*.json",
       "src/data/*.yml",
       "src/data/sidebars/*.yml",
@@ -82,15 +92,17 @@ export default defineConfig({
   ],
   site: process.env.SITE,
   markdown: {
-    rehypePlugins: [
-      [
-        rehypeExternalLinks,
-        {
-          target: "_blank",
-          rel: ["noopener", "noreferrer"],
-        },
+    processor: unified({
+      rehypePlugins: [
+        [
+          rehypeExternalLinks,
+          {
+            target: "_blank",
+            rel: ["noopener", "noreferrer"],
+          },
+        ],
       ],
-    ],
+    }),
   },
   vite: {
     // `astro build` (also run by the pre-commit hook) pre-bundles

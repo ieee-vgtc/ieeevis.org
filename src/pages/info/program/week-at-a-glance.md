@@ -7,7 +7,7 @@ sidebar: program
 active_nav: "Program"
 ---
 
-Below is a concise overview of the conference program. Each session links to its page with the full list of presentations.
+<!-- Below is a concise overview of the conference program. Each session links to its page with the full list of presentations.
 You can also browse [all sessions](/year/2026/program/sessions) or view the [program calendar](/year/2026/program/calendar).
 **Please note, this is a preliminary schedule. The session times are subject to change and details will be added at a later date.**
 
@@ -47,23 +47,23 @@ We will have up to nine parallel tracks (morning and afternoon).
 
 _8:00 AM - 11:30 AM (EST)_<br />
 
-**[Workshop]** [BELIV: Learning What's True, Doing What's Right (Part 1)](/year/2026/program/session/w-beliv-w-beliv-1)<br />
-**[Workshop]** [vis4climate: Building a Transdisciplinary Climate Vis Community](/year/2026/program/session/w-vis4climate-w-vis4climate-1)<br />
-**[Workshop]** [VISxGenAI: 2nd GenAI, Agents, and the Future of VIS](/year/2026/program/session/w-visxgenai-w-visxgenai-1)<br />
-**[Workshop]** [EduVis: 4th IEEE VIS Workshop on Visualization Education, Literacy, and Activities](/year/2026/program/session/w-eduvis-w-eduvis-1)<br />
-**[Workshop]** [Considering Context: Approaches for Responsible Data Practices](/year/2026/program/session/w-considering-w-considering-1)<br />
-**[Workshop]** [VisxVision: Workshop on Novel Directions in Vision Science and Visualization Research](/year/2026/program/session/w-visxvision-w-visxvision-1)<br />
-**[Workshop]** [SciFi-VIS: Way Out There - How SciFi and Visualization Influence Each Other](/year/2026/program/session/w-scifivis-w-scifivis-1)<br />
-**[Workshop]** [AccessViz: 3rd Workshop on Accessible Data Visualization](/year/2026/program/session/w-accessviz-w-accessviz-1)<br />
+**[Workshop]** [BELIV: Learning What's True, Doing What's Right (Part 1)](/year/2026/program/session/beliv-1)<br />
+**[Workshop]** [vis4climate: Building a Transdisciplinary Climate Vis Community](/year/2026/program/session/vis4climate-1)<br />
+**[Workshop]** [VISxGenAI: 2nd GenAI, Agents, and the Future of VIS](/year/2026/program/session/visxgenai-1)<br />
+**[Workshop]** [EduVis: 4th IEEE VIS Workshop on Visualization Education, Literacy, and Activities](/year/2026/program/session/eduvis-1)<br />
+**[Workshop]** [Considering Context: Approaches for Responsible Data Practices](/year/2026/program/session/considering-1)<br />
+**[Workshop]** [VisxVision: Workshop on Novel Directions in Vision Science and Visualization Research](/year/2026/program/session/visxvision-1)<br />
+**[Workshop]** [SciFi-VIS: Way Out There - How SciFi and Visualization Influence Each Other](/year/2026/program/session/scifivis-1)<br />
+**[Workshop]** [AccessViz: 3rd Workshop on Accessible Data Visualization](/year/2026/program/session/accessviz-1)<br />
 
 _1:00 PM - 4:30 PM (EST)_<br/>
 
-**[Workshop]** [BELIV: Learning What's True, Doing What's Right (Part 2)](/year/2026/program/session/w-beliv-w-beliv-2)<br />
-**[Workshop]** [TopoInVis Connect: Topology meets Artificial Intelligence](/year/2026/program/session/w-topoinvis-w-topoinvis-1)<br />
-**[Workshop]** [VISxAI: 9th Workshop on Visualization for AI Explainability](/year/2026/program/session/w-visxai-w-visxai-1)<br />
-**[Workshop]** [VAxAutoSci: Visual Analytics in the Age of Autonomous Scientific Discovery](/year/2026/program/session/w-vaxautosci-w-vaxautosci-1)<br />
-**[Workshop]** [Uncertainty Visualization: How to Make it Interpretable, Integrable, and Accessible?](/year/2026/program/session/w-uncertainty-w-uncertainty-1)<br />
-**[Workshop]** [Grand Unified Grammar of Graphics (GUGOG)](/year/2026/program/session/w-grand-w-grand-1)<br />
+**[Workshop]** [BELIV: Learning What's True, Doing What's Right (Part 2)](/year/2026/program/session/beliv-2)<br />
+**[Workshop]** [TopoInVis Connect: Topology meets Artificial Intelligence](/year/2026/program/session/topoinvis-1)<br />
+**[Workshop]** [VISxAI: 9th Workshop on Visualization for AI Explainability](/year/2026/program/session/visxai-1)<br />
+**[Workshop]** [VAxAutoSci: Visual Analytics in the Age of Autonomous Scientific Discovery](/year/2026/program/session/vaxautosci-1)<br />
+**[Workshop]** [Uncertainty Visualization: How to Make it Interpretable, Integrable, and Accessible?](/year/2026/program/session/uncertainty-1)<br />
+**[Workshop]** [Grand Unified Grammar of Graphics (GUGOG)](/year/2026/program/session/w-grand-1)<br />
 
 <hr/>
 
@@ -82,8 +82,8 @@ _10:00 AM - 11:30 AM (EST)_<br />
 **[Full Papers]** [Please don't just stare at the picture](/year/2026/program/session/v-full-full16) — America Center<br />
 **[Short Papers]** [Form Follows Function](/year/2026/program/session/v-short-short1) — Essex North<br />
 **[Panel]** [Challenges and Opportunities for Evaluating AI-Assisted Generation of Visualizations](/year/2026/program/session/v-panels-panel8) — America South<br />
-**[Tutorial]** [Introduction to Quantum Computing for Visualization Researchers (Part 1)](/year/2026/program/session/t-quantum-t-quantum-1) — St. George (C+D)<br />
-**[Tutorial]** [From Decisions to Designs: A Hands-On Tutorial with the Typology of Decision-Making Tasks (Part 1)](/year/2026/program/session/t-decisions-t-decisions-1) — St. George (A+B)<br />
+**[Tutorial]** [Introduction to Quantum Computing for Visualization Researchers (Part 1)](/year/2026/program/session/quantum-1) — St. George (C+D)<br />
+**[Tutorial]** [From Decisions to Designs: A Hands-On Tutorial with the Typology of Decision-Making Tasks (Part 1)](/year/2026/program/session/decisions-1) — St. George (A+B)<br />
 
 #### Afternoon
 
@@ -93,8 +93,8 @@ _1:00 PM - 2:30 PM (EST)_<br />
 **[Full Papers]** [Modern talking-visually](/year/2026/program/session/v-full-full14) — America Center<br />
 **[Full Papers]** [Can we have a (real) doctor, please?](/year/2026/program/session/v-full-full24) — America North<br />
 **[Panel]** [Molecules to Humankind: Challenges in Multiscale Visualization](/year/2026/program/session/v-panels-panel1) — America South<br />
-**[Tutorial]** [Introduction to Quantum Computing for Visualization Researchers (Part 2)](/year/2026/program/session/t-quantum-t-quantum-2) — St. George (C+D)<br />
-**[Tutorial]** [From Decisions to Designs: A Hands-On Tutorial with the Typology of Decision-Making Tasks (Part 2)](/year/2026/program/session/t-decisions-t-decisions-2) — St. George (A+B)<br />
+**[Tutorial]** [Introduction to Quantum Computing for Visualization Researchers (Part 2)](/year/2026/program/session/quantum-2) — St. George (C+D)<br />
+**[Tutorial]** [From Decisions to Designs: A Hands-On Tutorial with the Typology of Decision-Making Tasks (Part 2)](/year/2026/program/session/decisions-2) — St. George (A+B)<br />
 
 _3:00 PM - 4:30 PM (EST)_<br />
 **[Full Papers]** [Great, now you scattered the data everywhere!](/year/2026/program/session/v-full-full3) — Essex Center<br />
@@ -126,8 +126,8 @@ _8:00 AM - 9:30 AM (EST)_<br />
 **[Full Papers]** [Let's dig into the data (from France)](/year/2026/program/session/v-full-full20) — America North<br />
 **[Short Papers]** [Can We Trust This Chart? (Asking for a Friend)](/year/2026/program/session/v-short-short8) — America South<br />
 **[VISAP]** [VISAP Paper 1](/year/2026/program/session/a-visap-visap1) — Essex South<br />
-**[Tutorial]** [Running Online User Studies with the reVISit Framework (Part 1)](/year/2026/program/session/t-revisit-t-revisit-1) — Essex North<br />
-**[Tutorial]** [Custom widgets for Python notebooks with anywidget and marimo (Part 1)](/year/2026/program/session/t-marimo-t-marimo-1) — Essex Center<br />
+**[Tutorial]** [Running Online User Studies with the reVISit Framework (Part 1)](/year/2026/program/session/revisit-1) — Essex North<br />
+**[Tutorial]** [Custom widgets for Python notebooks with anywidget and marimo (Part 1)](/year/2026/program/session/marimo-1) — Essex Center<br />
 **[Cluster]** [The Practitioner's Summit (Part 1)](https://cluster-practitioners-summit.github.io/) — St. George (C+D) / St. George (A+B)<br />
 
 _10:00 AM - 11:30 AM (EST)_<br />
@@ -135,8 +135,8 @@ _10:00 AM - 11:30 AM (EST)_<br />
 **[Short Papers]** [Data, Meet Human: Vis That Cares](/year/2026/program/session/v-short-short9) — America North<br />
 **[Panel]** [Beyond the Last Mile: What Should Visualization Own in the Age of Data Systems and AI Agents?](/year/2026/program/session/v-panels-panel7) — America South<br />
 **[VISAP]** [VISAP Paper 2](/year/2026/program/session/a-visap-visap2) — Essex South<br />
-**[Tutorial]** [Running Online User Studies with the reVISit Framework (Part 2)](/year/2026/program/session/t-revisit-t-revisit-2) — Essex North<br />
-**[Tutorial]** [Custom widgets for Python notebooks with anywidget and marimo (Part 2)](/year/2026/program/session/t-marimo-t-marimo-2) — Essex Center<br />
+**[Tutorial]** [Running Online User Studies with the reVISit Framework (Part 2)](/year/2026/program/session/revisit-2) — Essex North<br />
+**[Tutorial]** [Custom widgets for Python notebooks with anywidget and marimo (Part 2)](/year/2026/program/session/marimo-2) — Essex Center<br />
 **[Cluster]** [The Practitioner's Summit (Part 2)](https://cluster-practitioners-summit.github.io/) — St. George (C+D) / St. George (A+B)<br />
 
 #### Afternoon
@@ -211,14 +211,14 @@ _8:00 AM - 9:30 AM (EST)_<br />
 **[Full Papers]** [I'm not so certain](/year/2026/program/session/v-full-full12) — Essex North<br />
 **[Short Papers]** [Is the Model Even Thinking?](/year/2026/program/session/v-short-short5) — America South<br />
 **[CG&A]** [Applications, Domain Science & Data Representation](/year/2026/program/session/v-cga-cga2) — Essex Center<br />
-**[Tutorial]** [Lossy Compression for Scientific Data: Principles, Tools, and Implications for Visualization (Part 1)](/year/2026/program/session/t-lossy-compression-t-lossy-compression-1) — St. George (A+B)<br />
+**[Tutorial]** [Lossy Compression for Scientific Data: Principles, Tools, and Implications for Visualization (Part 1)](/year/2026/program/session/lossy-compression-1) — St. George (A+B)<br />
 
 _10:00 AM - 11:30 AM (EST)_<br />
 **[Full Papers]** [Time after time](/year/2026/program/session/v-full-full30) — America North<br />
 **[Full Papers]** [My followers need to know about this!](/year/2026/program/session/v-full-full21) — America Center<br />
 **[Full Papers]** [That's way too many dimensions for me](/year/2026/program/session/v-full-full11) — Essex North<br />
 **[Panel]** [Friction in Visualization: When Should We Slow People Down?](/year/2026/program/session/v-panels-panel4) — America South<br />
-**[Tutorial]** [Lossy Compression for Scientific Data: Principles, Tools, and Implications for Visualization (Part 2)](/year/2026/program/session/t-lossy-compression-t-lossy-compression-2) — St. George (A+B)<br />
+**[Tutorial]** [Lossy Compression for Scientific Data: Principles, Tools, and Implications for Visualization (Part 2)](/year/2026/program/session/lossy-compression-2) — St. George (A+B)<br />
 
 _11:30 AM - 12:30 PM (EST)_<br />
 **Town Hall Meeting**<br />
@@ -231,7 +231,7 @@ _1:00 PM - 2:30 PM (EST)_<br />
 **[Full Papers]** [From design spaces to visual design](/year/2026/program/session/v-full-full15) — Essex North<br />
 **[Short Papers]** [Tools of the Trade](/year/2026/program/session/v-short-short4) — Essex Center<br />
 **[Panel]** [Visualization as a Foundational Act of Placemaking: Future Places and Alien Worlds](/year/2026/program/session/v-panels-panel2) — America South<br />
-**[Tutorial]** [Visualization Analysis and Design (Part 1)](/year/2026/program/session/t-vis-analysis-design-t-vis-analysis-design-1) — St. George (A+B)<br />
+**[Tutorial]** [Visualization Analysis and Design (Part 1)](/year/2026/program/session/vis-analysis-design-1) — St. George (A+B)<br />
 
 _3:00 PM - 4:30 PM (EST)_<br />
 **[Full Papers]** [Kids these days don't learn anything anymore, let's fix that!](/year/2026/program/session/v-full-full27) — America North<br />
@@ -239,7 +239,7 @@ _3:00 PM - 4:30 PM (EST)_<br />
 **[Short Papers]** [Lost in Dimensions](/year/2026/program/session/v-short-short6) — Essex North<br />
 **[CG&A]** [Human-Centered Design, Accessibility & Interaction](/year/2026/program/session/v-cga-cga1) — Essex Center<br />
 **[Panel]** [From Correlation to Causality: Future Directions in Visual Causal Inference](/year/2026/program/session/v-panels-panel5) — America South<br />
-**[Tutorial]** [Visualization Analysis and Design (Part 2)](/year/2026/program/session/t-vis-analysis-design-t-vis-analysis-design-2) — St. George (A+B)<br />
+**[Tutorial]** [Visualization Analysis and Design (Part 2)](/year/2026/program/session/vis-analysis-design-2) — St. George (A+B)<br />
 
 _4:30 PM - 5:30 PM (EST)_<br />
 **VIS 2027 Kickoff**<br />
@@ -272,7 +272,7 @@ Full details for every session are on the [sessions page](/year/2026/program/ses
 - Lunch break: _11:30 AM - 1:00 PM (EST)_
 - Afternoon coffee break: _2:30 PM - 3:00 PM (EST)_
 
-<hr />
+<hr /> -->
 
 <!-- ---------------------------------------------------------------------------------- -->
 

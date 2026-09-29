@@ -1,0 +1,17 @@
+---
+import PageLayout from "../../layouts/PageLayout.astro";
+import OAuthCallback from "../../components/bluesky/OAuthCallback";
+
+// Bluesky redirects here after a reader approves the login; the response is in
+// the URL fragment, so this page is static and the browser finishes the login.
+// Its path must match `redirect_uris` in components/bluesky/oauth.ts exactly.
+const frontmatter = {
+  title: "Bluesky login",
+  active_nav: "Program",
+  contact: "web@ieeevis.org",
+};
+---
+
+<PageLayout frontmatter={frontmatter}>
+  <OAuthCallback client:only="react" />
+</PageLayout>

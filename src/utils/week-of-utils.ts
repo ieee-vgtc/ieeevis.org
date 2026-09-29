@@ -4,6 +4,7 @@
 export const typeColors: Record<string, string> = {
   full: "#1C3160",
   short: "#FDBB30",
+  tvcg: "#0F766E",
   "cg&a": "#4D7C0F",
   panel: "#A20A35",
   workshop: "#f4a261",
@@ -23,14 +24,17 @@ export const typeColors: Record<string, string> = {
   keynote: "#FDBB30",
   capstone: "#FDBB30",
   industry: "#FDBB30",
+  conference: "#df6824",
+  Challenge: "#0F172A",
 };
 
 export const typeTextColors: Record<string, string> = {
   full: "#ffffff",
   short: "#111827",
+  tvcg: "#ffffff",
   "cg&a": "#ffffff",
   panel: "#ffffff",
-  workshop: "#ffffff",
+  workshop: "#111827",
   tutorial: "#ffffff",
   vis: "#ffffff",
   poster: "#ffffff",
@@ -47,4 +51,6 @@ export const typeTextColors: Record<string, string> = {
   keynote: "#111827",
   capstone: "#111827",
   industry: "#111827",
+  conference: "#111827",
+  Challenge: "#F8FAFC",
 };

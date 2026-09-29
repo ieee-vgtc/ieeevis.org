@@ -1,6 +1,5 @@
 import type { MiddlewareHandler } from "astro";
 import { isPathInactive, stripBaseURL } from "./config/pages-allow-list";
-import { readSession } from "./lib/auth0";
 
 //https://docs.astro.build/en/guides/middleware/
 export const onRequest: MiddlewareHandler = async (context, next) => {
@@ -10,13 +9,6 @@ export const onRequest: MiddlewareHandler = async (context, next) => {
     // 302 = temporary redirect so search engines keep the URL for when it goes live
     return context.redirect(import.meta.env.BASE_URL, 302);
   }
-
-  // No route is fully login-walled: individual pages (e.g. paper/poster
-  // detail pages) decide for themselves which pieces of content — a PDF
-  // link, a video embed — require a signed-in session, and gate just those.
-  // We still resolve the session here, once per request, so every page can
-  // read `Astro.locals.user` without re-parsing the cookie itself.
-  context.locals.user = await readSession(context.cookies, context.url);
 
   const nextResponse = await next();
   // Fully drain the body into a string instead of passing the stream
@@ -73,10 +65,15 @@ export const onRequest: MiddlewareHandler = async (context, next) => {
 
       // NETWORK (HMR, APIs, etc.) — bsky.tech.ieeevis.org is the Bluesky
       // discussion API for paper pages, public.api.bsky.app the Bluesky AppView
-      // that threads are read from directly
+      // that threads are read from directly. The rest is "log in with
+      // Bluesky" (components/bluesky/oauth.ts): the browser resolves the
+      // handle at bsky.social, looks the account up at plc.directory, and
+      // then talks to the account's own PDS — *.bsky.network for accounts
+      // Bluesky hosts. A self-hosted PDS is on some other host and will
+      // show up in the CSP reports; widen this if that turns out common.
       isDev
         ? "connect-src 'self' ws: http: https:"
-        : "connect-src 'self' https://bsky.tech.ieeevis.org https://public.api.bsky.app",
+        : "connect-src 'self' https://bsky.tech.ieeevis.org https://public.api.bsky.app https://bsky.social https://*.bsky.network https://plc.directory",
 
       // Enforce HTTPS in prod only
       !isDev && "upgrade-insecure-requests",

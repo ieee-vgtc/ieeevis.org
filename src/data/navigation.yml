@@ -109,9 +109,9 @@ menu:
                   - text: "Junior Reviewer Guide"
                     url: "/info/call-participation/junior-reviewer-guide"
                     is_new: false
-          #       - text: "Preparing Your Talk"
-          #         url: "/info/presenter-information/talk-guide"
-          #         is_new: false
+                  - text: "Preparing Your Talk"
+                    url: "/info/presenter-information/talk-guide"
+                    is_new: false
           #       - text: "Virtual Presentations"
           #         url: "/info/presenter-information/presenting-virtually"
           #         is_new: false
@@ -315,7 +315,7 @@ menu:
     sections:
       - subsections:
           - heading: "Vis Program"
-            heading_url: "/info/program/week-at-a-glance"
+            heading_url: "/program/sessions"
             columns:
               - links:
                   - text: "Schedule"
@@ -434,6 +434,12 @@ menu:
             description: "Events associated with the main conference"
             columns:
               - links:
+                  - text: "IEEE Bio+MedVis Challenge"
+                    description: "A contest on BioMedical Data Visualization"
+                    url: "http://biovis.net/2026/biovisChallenges_vis/"
+                    is_new: false
+                    is_external: true
+
                   - text: "IEEE SciVis Contest"
                     description: "A contest on Scientific Data Visualization"
                     url: "https://sciviscontest2026.github.io/"
@@ -464,11 +470,11 @@ menu:
               - links:
                   - text: "Vis Buddies"
                     description: "Connecting new and returning VIS attendees"
-                    url: "https://ieeevis.org/year/2026/info/community/vis-buddies/"
+                    url: "/year/2026/info/community/vis-buddies/"
                     is_new: true
                   - text: "Job Postings"
                     description: "VIS 2026 job board"
-                    url: "https://ieeevis.org/year/2026/info/community/jobs/"
+                    url: "/year/2026/info/community/jobs/"
                     is_new: true
 
   # ---------------------------------------------------------------------------

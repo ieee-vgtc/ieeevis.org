@@ -5,6 +5,12 @@ on:
     # deploy production whenever someone publishes a release on the current year's branch.
     types:
       - published
+  schedule:
+    # midnight EST (5:00 UTC) everyday
+    - cron: "0 5 * * *"
+
+    # noon EST (17:00 UTC) everyday
+    - cron: "0 17 * * *"
 
 env:
   BASE_PATH: "/year/2026" # we are ONLY deploying to this base path, do not add a trailing slash
@@ -30,6 +36,11 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+
+      - name: Get program data from tech endpoints
+        run: npm run getData
+        env:
+          SUPABASE_CLIENT_ANON_KEY: ${{ secrets.SUPABASE_CLIENT_ANON_KEY }}
 
       - name: Build Astro site
         run: npm run build

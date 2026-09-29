@@ -7,7 +7,7 @@ import { features } from "../../../config/pages-allow-list";
 import { withBaseURL } from "../../../utils/withBaseURL";
 import { ogDescription } from "../../../utils/ogDescription";
 import { fetchAllSessions } from "../../../utils/paperData";
-import { buildLoginUrl } from "../../../lib/auth0";
+import { buildLoginUrl, readSession } from "../../../lib/auth0";
 import type { Paper } from "../../../types/paper";
 import type { ProgramSession, ProgramTimeSlot } from "../../../types/program";
 
@@ -42,7 +42,13 @@ if (!features.weekOfVis.enabled) {
   return new Response(null, { status: 404 });
 }
 
-const isAuthenticated = Boolean(Astro.locals.user);
+// Static S3 builds have no request cookies; on Netlify this route is rendered
+// per request and can resolve the attendee session normally.
+const user =
+  process.env.STATIC_PROGRAM_PAGES === "true"
+    ? undefined
+    : await readSession(Astro.cookies, Astro.url);
+const isAuthenticated = Boolean(user);
 const loginHref = buildLoginUrl(Astro.url);
 
 // Detail pages are rendered at request time (not prerendered) so each
@@ -57,6 +63,10 @@ const sourcePaper = papers.find((entry) => entry.id === Astro.params.paperId);
 if (!sourcePaper) {
   return new Response(null, { status: 404 });
 }
+
+const paperEvent = Object.values(sessionList).find(
+  (event) => event.event_prefix === sourcePaper.event_prefix,
+);
 
 // Find the slot presenting this paper (slot.uid = paper.id UUID).
 let presentation:
@@ -79,6 +89,12 @@ const paper: Paper = {
     time_stamp: presentation.slot.time_start,
   }),
 };
+
+const supplementalLink = paper.open_access_supplemental_link?.trim()
+  ? /^https?:\/\//i.test(paper.open_access_supplemental_link.trim())
+    ? paper.open_access_supplemental_link.trim()
+    : `https://${paper.open_access_supplemental_link.trim().replace(/^\/\//, "")}`
+  : null;
 
 const sessionHref =
   presentation &&
@@ -126,12 +142,23 @@ const presentationDetails = presentation && {
 // Breadcrumb data
 const eventLabel =
   paper.event_title ||
+  paperEvent?.event ||
+  paperEvent?.long_name ||
   EVENT_PREFIX_LABELS[paper.event_prefix] ||
   paper.event_prefix;
-// Link to sessions page pre-filtered by this paper's event type
+// Workshop events have their own session page. Other event categories link to
+// the sessions page pre-filtered by event type.
 const eventType =
-  EVENT_PREFIX_TO_TYPE[paper.event_prefix] || paper.event_prefix;
-const eventUrl = withBaseURL(`/program/sessions/?type=${eventType}`);
+  paperEvent?.event_type ||
+  EVENT_PREFIX_TO_TYPE[paper.event_prefix] ||
+  paper.event_prefix;
+const workshopSession =
+  eventType === "workshop" ? paperEvent?.sessions[0] : undefined;
+const eventUrl = workshopSession
+  ? withBaseURL(
+      `/program/session/${workshopSession.event_prefix}-${workshopSession.session_id}`,
+    )
+  : withBaseURL(`/program/sessions/?type=${encodeURIComponent(eventType)}`);
 
 const awardLabel =
   paper.award === "best"
@@ -275,7 +302,7 @@ const frontmatter = {
                   href={withBaseURL(
                     `/program/papers/?search=${encodeURIComponent(a.name)}`,
                   )}
-                  class="text-accent underline decoration-accent-200 decoration-dotted underline-offset-3 hover:text-accent-700 focus-visible:text-accent-700"
+                  class="text-accent underline decoration-accent-200 decoration-solid underline-offset-3 hover:text-accent-700 focus-visible:text-accent-700"
                 >
                   {a.name}
                 </a>
@@ -328,7 +355,7 @@ const frontmatter = {
     {
       (paper.preprint_link ||
         paper.doi ||
-        paper.open_access_supplemental_link) && (
+        supplementalLink) && (
         <div class="paper-links mb-6">
           <h2>Links</h2>
           <ul>
@@ -349,10 +376,10 @@ const frontmatter = {
                 </AuthGate>
               </li>
             )}
-            {paper.open_access_supplemental_link && (
+            {supplementalLink && (
               <li>
                 <a
-                  href={paper.open_access_supplemental_link}
+                  href={supplementalLink}
                   target="_blank"
                   rel="noopener noreferrer"
                 >

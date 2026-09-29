@@ -34,8 +34,29 @@ const normalizeText = (value: string | null | undefined) =>
 
 const slotMetadataByPaperId = new Map<string, PaperSessionMeta>();
 const sessionList = await fetchAllSessions();
+const soleSessionMetadataByEventPrefix = new Map<string, PaperSessionMeta>();
+const eventLabelByPrefix = new Map(
+  Object.values(sessionList).map((event) => [
+    event.event_prefix,
+    event.long_name || event.event,
+  ]),
+);
 
 for (const event of Object.values(sessionList)) {
+  if (event.sessions.length === 1) {
+    const session = event.sessions[0];
+    soleSessionMetadataByEventPrefix.set(event.event_prefix, {
+      sessionSlug: `${session.event_prefix}-${session.session_id}`,
+      sessionTitle: session.title,
+      roomName: session.room_name,
+      eventTitle: event.long_name,
+      paperType: "VIS Poster",
+      startISO: session.time_start,
+      endISO: session.time_end,
+      startMs: Date.parse(session.time_start),
+    });
+  }
+
   for (const session of event.sessions) {
     const sessionSlug = `${session.event_prefix}-${session.session_id}`;
     for (const slot of session.time_slots as ProgramTimeSlot[]) {
@@ -63,6 +84,10 @@ const posters = await fetchAllPosters();
 
 const paperCards: ProgramPaperCard[] = posters.map((poster) => {
   const linkedSlot = slotMetadataByPaperId.get(poster.id);
+  const resolvedSession =
+    linkedSlot ||
+    soleSessionMetadataByEventPrefix.get(poster.event_prefix) ||
+    null;
   const authors = (poster.authors || [])
     .map((author) => normalizeText(author.name))
     .filter(Boolean);
@@ -70,9 +95,9 @@ const paperCards: ProgramPaperCard[] = posters.map((poster) => {
     .map((keyword) => normalizeText(keyword))
     .filter(Boolean);
 
-  const startISO = linkedSlot?.startISO || null;
+  const startISO = resolvedSession?.startISO || null;
   const presentationLabel = linkedSlot?.paperType || "VIS Poster";
-  const sessionLabel = linkedSlot?.sessionTitle || "Session TBA";
+  const sessionLabel = resolvedSession?.sessionTitle || "Session TBA";
   const scheduleLabel = startISO
     ? `${conferenceDateTimeFormatter.format(new Date(startISO))} - ${sessionLabel}`
     : sessionLabel;
@@ -85,18 +110,22 @@ const paperCards: ProgramPaperCard[] = posters.map((poster) => {
       keywords.length > 0 ? keywords.join(", ") : "No keywords listed",
     abstractText: normalizeText(poster.abstract) || "Abstract not available.",
     presentationLabel,
+    eventKey: normalizeText(poster.event_prefix) || null,
+    eventLabel:
+      eventLabelByPrefix.get(poster.event_prefix) || presentationLabel,
+    sessionKey: resolvedSession?.sessionSlug || null,
     sessionLabel,
     scheduleLabel,
     startMs:
-      linkedSlot?.startMs && Number.isFinite(linkedSlot.startMs)
-        ? linkedSlot.startMs
+      resolvedSession?.startMs && Number.isFinite(resolvedSession.startMs)
+        ? resolvedSession.startMs
         : Number.MAX_SAFE_INTEGER,
     doiUrl: poster.doi ? `https://doi.org/${poster.doi}` : null,
     preprintUrl: normalizeText(poster.preprint_link) || null,
     supplementalUrl:
       normalizeText(poster.open_access_supplemental_link) || null,
-    sessionUrl: linkedSlot?.sessionSlug
-      ? withBaseURL(`/program/session/${linkedSlot.sessionSlug}`)
+    sessionUrl: resolvedSession?.sessionSlug
+      ? withBaseURL(`/program/session/${resolvedSession.sessionSlug}`)
       : null,
     award: normalizeText(poster.award) || null,
   };
