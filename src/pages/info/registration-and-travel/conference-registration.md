@@ -44,7 +44,7 @@ We recommend all attendees, authors/presenters, and organizers register online i
 
 **Note that registrations at our satellite locations will have limited capacity.**
 
-#### Early Bird Registration (until September 25, 2026, AOE)
+#### Early Bird Registration (until September 25, 2026, AOE for Boston and Paris; Oct 8, 2026 20:00 China Standard Time / Beijing Time)
 
 | Registrant Type     | Full Conference - Boston | Satellite Author - Paris/Tianjin | Satellite Attendee - Paris/Tianjin | Two Day - Boston | One Day - Boston |
 | ------------------- | ------------------------ | -------------------------------- | ---------------------------------- | ---------------- | ---------------- |
