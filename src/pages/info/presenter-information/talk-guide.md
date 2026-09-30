@@ -61,6 +61,21 @@ As a guide, the length requirements for are as follows:
 - **VIS Short Papers Presentations**: The maximum length of your slot is **9 minutes**, including questions. We recommend a 7 minute talk with 2 minutes for questions. At least 1 minute must be left for questions
 - **Workshops and Tutorials**: Please consult your associated event organizers for information on presentation timing.
 
+## Prerecorded Presentation Videos
+
+Prerecorded presentations are an **emergency option only**. They are reserved solely for presenters who are **unable to present at any of our in-person locations** (Boston, Paris, or Tianjin), for instance because of visa issues. If you are able to attend one of these locations, you are expected to present live.
+
+If your presentation will be prerecorded, please prepare your video according to the following requirements:
+
+- **Format**: Standard full HD **1080p** video, encoded as **H.264** in an **MP4** container. Alternatively, a **4K** video encoded as **H.265** is also acceptable.
+- **Audio**: Make sure your audio is **clear and intelligible**. Record in a quiet environment and use a dedicated microphone or headset if possible.
+- **Copyrighted material**: Do not include copyrighted material, such as songs or images. Make sure to **properly cite** materials such as images.
+- **Length**: Your video **must not exceed the length of your presentation slot** (see [Presentation Length](#presentation-length) above).
+
+The accessibility recommendations above apply to prerecorded videos as well.
+
+The Tech Chairs will reach out to affected authors via email with instructions for uploading their video via Dropbox. Please do not send videos before you have been contacted. If you have questions about your video, contact the Tech Chairs at [tech@ieeevis.org](mailto:tech@ieeevis.org).
+
 ## Contact
 
 ### Program Chairs
