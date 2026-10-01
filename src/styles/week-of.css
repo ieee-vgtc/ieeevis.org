@@ -56,6 +56,19 @@
   color: var(--color-accent);
 }
 
+.calendar-subscribe-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin-top: 0.3rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.calendar-subscribe-link .material-icons {
+  font-size: 1.1rem;
+}
+
 .u-subtitle,
 .u-grouping-note,
 .sessions-subtitle,
