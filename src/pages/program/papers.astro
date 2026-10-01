@@ -6,7 +6,10 @@ import { fetchAllPapers, fetchAllSessions } from "../../utils/paperData";
 import { withBaseURL } from "../../utils/withBaseURL";
 import ProgramPapersBrowser from "../../components/ProgramPapersBrowser.astro";
 import type { ProgramTimeSlot } from "../../types/program";
-import type { ProgramPaperCard } from "../../types/programPaper";
+import type {
+  ProgramPaperCard,
+  ProgramSessionRole,
+} from "../../types/programPaper";
 import { getProgramEventTypeLabel } from "../../utils/programEventTypeLabel";
 
 const CONFERENCE_TIME_ZONE = "US/Eastern";
@@ -168,6 +171,48 @@ const paperCards: ProgramPaperCard[] = papers.map((paper) => {
   };
 });
 
+// Events run by organizers rather than session chairs (see sessions.astro).
+const organizerEventTypes = ["workshop", "tutorial", "associated", "challenge"];
+const organizerRoleLabels: Record<string, string> = {
+  workshop: "Workshop Organizer",
+  tutorial: "Tutorial Organizer",
+  associated: "Associated Event Organizer",
+  challenge: "Contest Organizer",
+};
+
+const sessionRoles: ProgramSessionRole[] = Object.values(sessionList)
+  .flatMap((event) =>
+    event.sessions.flatMap((session) => {
+      const eventType = event.event_type.toLowerCase();
+      const usesOrganizers =
+        organizerEventTypes.includes(eventType) &&
+        event.organizers.length > 0;
+      const people = usesOrganizers ? event.organizers : session.chair || [];
+      if (people.length === 0) {
+        return [];
+      }
+      return [
+        {
+          role: usesOrganizers ? ("Organizer" as const) : ("Chair" as const),
+          roleLabel: usesOrganizers
+            ? organizerRoleLabels[eventType]
+            : "Session Chair",
+          people,
+          sessionTitle: session.title,
+          sessionUrl: withBaseURL(
+            `/program/session/${session.event_prefix}-${session.session_id}`,
+          ),
+          scheduleLabel: session.time_start
+            ? conferenceDateTimeFormatter.format(new Date(session.time_start))
+            : "Time TBA",
+          roomName: session.room_name,
+          startMs: Date.parse(session.time_start),
+        },
+      ];
+    }),
+  )
+  .sort((a, b) => a.startMs - b.startMs);
+
 const frontmatter = {
   title: "Papers",
   active_nav: "Accepted Papers",
@@ -177,5 +222,9 @@ const frontmatter = {
 ---
 
 <PageLayout frontmatter={frontmatter}>
-  <ProgramPapersBrowser papers={paperCards} itemType="paper" />
+  <ProgramPapersBrowser
+    papers={paperCards}
+    sessionRoles={sessionRoles}
+    itemType="paper"
+  />
 </PageLayout>

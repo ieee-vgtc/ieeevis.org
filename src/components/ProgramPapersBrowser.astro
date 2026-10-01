@@ -20,6 +20,7 @@ const getPaperType = (paper: ProgramPapersBrowserProps["papers"][number]) =>
 
 const {
   papers,
+  sessionRoles = [],
   storageKeyPrefix = "program-papers",
   itemType,
 } = Astro.props as ProgramPapersBrowserProps;
@@ -38,6 +39,12 @@ const typeCounts = papers.reduce<Record<string, number>>((acc, paper) => {
 // (appended last) instead of being counted as a type.
 const tvcgCount = papers.filter((paper) => paper.isTvcg).length;
 
+// Session chairs and organizers ride along as their own "type" so they can be
+// toggled like the paper types.
+const sessionRoleType = "session-role";
+const sessionRoleColor = "#e6e7e4";
+const sessionRoleTextColor = "#212121";
+
 const typeOptions = Object.keys(typeCounts)
   .filter((value) => value !== "tvcg")
   .sort((a, b) => a.localeCompare(b))
@@ -55,6 +62,18 @@ const typeOptions = Object.keys(typeCounts)
             label: getProgramEventTypeLabel("tvcg"),
             count: tvcgCount,
             color: typeColors.tvcg,
+          },
+        ]
+      : [],
+  )
+  .concat(
+    sessionRoles.length > 0
+      ? [
+          {
+            value: sessionRoleType,
+            label: "Chairs & Organizers",
+            count: sessionRoles.length,
+            color: "#616161",
           },
         ]
       : [],
@@ -237,14 +256,14 @@ const typeOptions = Object.keys(typeCounts)
                 },
               ]
             : []),
-          {
-            label: `Search for ${lowerItemType}s in this ${groupLabel}`,
-            href: groupHref,
-            icon: "search",
-            disabledTitle: groupHref
-              ? undefined
-              : `Session and event information are not available for this ${lowerItemType}`,
-          },
+          // {
+          //   label: `Search for ${lowerItemType}s in this ${groupLabel}`,
+          //   href: groupHref,
+          //   icon: "search",
+          //   disabledTitle: groupHref
+          //     ? undefined
+          //     : `Session and event information are not available for this ${lowerItemType}`,
+          // },
         ];
 
         return (
@@ -278,6 +297,37 @@ const typeOptions = Object.keys(typeCounts)
           />
         );
       })
+    }
+    {
+      sessionRoles.map((sessionRole) => (
+        <ProgramCard
+          data-program-card
+          data-session-role
+          data-type={sessionRoleType}
+          data-title={sessionRole.sessionTitle.toLowerCase()}
+          data-authors={sessionRole.people.join(",").toLowerCase()}
+          data-people={sessionRole.people.join("|").toLowerCase()}
+          data-session={sessionRole.sessionTitle.toLowerCase()}
+          data-start-ms={sessionRole.startMs}
+          accentColor={sessionRoleColor}
+          titleColor={sessionRoleTextColor}
+          title={sessionRole.sessionTitle}
+          titleHref={sessionRole.sessionUrl}
+          eyebrow={sessionRole.roleLabel}
+          peopleLabel={`${sessionRole.role}${sessionRole.people.length > 1 ? "s" : ""}`}
+          people={sessionRole.people.map((name) => ({
+            name,
+            href: `${collectionPath}?filter=author&search=${encodeURIComponent(name)}`,
+          }))}
+          links={[
+            {
+              label: `${sessionRole.scheduleLabel} - ${sessionRole.roomName}`,
+              href: sessionRole.sessionUrl,
+              icon: "schedule",
+            },
+          ]}
+        />
+      ))
     }
   </div>
 
@@ -519,6 +569,19 @@ const typeOptions = Object.keys(typeCounts)
       }
     };
 
+    // Under "All", a chair/organizer card only appears when the search names
+    // that person; very short queries would match nearly everyone.
+    const matchesSessionRolePerson = (card: HTMLElement, query: string) => {
+      const field = getSearchField();
+      return (
+        (field === "any" || field === "author") &&
+        query.length >= 3 &&
+        (card.dataset.people || "")
+          .split("|")
+          .some((name) => name.includes(query))
+      );
+    };
+
     const applyFilters = () => {
       const query = getSearchQuery();
       const typeFilter = getTypeFilter();
@@ -537,6 +600,11 @@ const typeOptions = Object.keys(typeCounts)
         const eventMatch =
           requestedEventKey.length === 0 ||
           card.dataset.eventKey === requestedEventKey;
+        if (typeFilter === "all" && card.hasAttribute("data-session-role")) {
+          return (
+            matchesSessionRolePerson(card, query) && sessionMatch && eventMatch
+          );
+        }
         return (
           (query.length === 0 || haystack.includes(query)) &&
           typeMatch &&
@@ -546,6 +614,12 @@ const typeOptions = Object.keys(typeCounts)
       });
 
       visibleCards.sort((a, b) => {
+        // Keep a person's chair/organizer roles ahead of their papers.
+        const roleDelta =
+          Number(b.hasAttribute("data-session-role")) -
+          Number(a.hasAttribute("data-session-role"));
+        if (roleDelta !== 0) return roleDelta;
+
         const aId = a.getAttribute("data-paper-id") || "";
         const bId = b.getAttribute("data-paper-id") || "";
 
