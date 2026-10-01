@@ -1,0 +1,283 @@
+---
+import PageLayout from "../../layouts/PageLayout.astro";
+import BlueskyDiscussion from "../../components/BlueskyDiscussion";
+import { fetchAllSessions } from "../../utils/paperData";
+import { hasOwnDiscussion } from "../../utils/discussionSlots";
+import { getProgramEventTypeLabel } from "../../utils/programEventTypeLabel";
+import { withBaseURL } from "../../utils/withBaseURL";
+import type { ProgramSession, ProgramTimeSlot } from "../../types/program";
+
+export const prerender = true;
+
+// Cluster - The Practitioner's Summit is scheduled in Supabase as a run of
+// separate "conf" sessions (conf-conference1, conf-conference2, ...) rather
+// than one session, so this page merges the relevant ones back into a single
+// view. Only conference1, conference2, and conference4 belong to Cluster;
+// the others under this prefix are unrelated conference events.
+const EVENT_PREFIX = "conf";
+const SESSION_IDS = new Set(["conference1", "conference2", "conference4"]);
+
+const sessionList = await fetchAllSessions();
+const event = sessionList[EVENT_PREFIX];
+
+const clusterSessions: ProgramSession[] = (event?.sessions ?? [])
+  .filter((session) => SESSION_IDS.has(session.session_id.toLowerCase()))
+  .slice()
+  .sort((a, b) => Date.parse(a.time_start) - Date.parse(b.time_start));
+
+const presentations: ProgramTimeSlot[] = clusterSessions
+  .flatMap((session) => session.time_slots)
+  .slice()
+  .sort((a, b) => Date.parse(a.time_start) - Date.parse(b.time_start));
+
+const firstSession = clusterSessions[0];
+const lastSession = clusterSessions[clusterSessions.length - 1];
+
+// Chair and room are expected to be the same across every part; dedupe
+// rather than assume, in case a part is ever staffed/located differently.
+const chair = [...new Set(clusterSessions.flatMap((s) => s.chair))];
+const roomNames = [...new Set(clusterSessions.map((s) => s.room_name).filter(Boolean))];
+
+const overallStart = firstSession?.time_start ?? "";
+const overallEnd = lastSession?.time_end ?? "";
+
+const sessionDateFormatter = new Intl.DateTimeFormat("en-US", {
+  timeZone: "US/Eastern",
+  weekday: "long",
+  month: "short",
+  day: "numeric",
+});
+
+const timeFormatter = new Intl.DateTimeFormat("en-US", {
+  timeZone: "US/Eastern",
+  hour: "2-digit",
+  minute: "2-digit",
+  hour12: false,
+});
+
+function formatSlotRange(startISO: string, endISO: string) {
+  const start = new Date(startISO);
+  const end = new Date(endISO);
+  return `${timeFormatter.format(start)} - ${timeFormatter.format(end)}`;
+}
+
+function formatSessionDateTime(startISO: string, endISO: string) {
+  const start = new Date(startISO);
+  const end = new Date(endISO);
+  return `${sessionDateFormatter.format(start)} @ ${timeFormatter.format(start)} - ${timeFormatter.format(end)} (US/Eastern)`;
+}
+
+const eventTypeLabel = getProgramEventTypeLabel(event?.event_type || "other");
+const programUrl = withBaseURL(
+  `/program/sessions/?type=${encodeURIComponent(event?.event_type || "other")}`,
+);
+
+// Each part's title carries a "(Part N)" suffix; strip it for the combined
+// page's own title.
+const title = (firstSession?.title || "Cluster - The Practitioner's Summit").replace(
+  /\s*\(\s*part\s*\d+\s*\)\s*$/i,
+  "",
+);
+
+const frontmatter = {
+  title: `${eventTypeLabel}: ${title}`,
+  active_nav: "Program",
+  contact: "web@ieeevis.org",
+  full_width: true,
+};
+---
+
+<PageLayout frontmatter={frontmatter}>
+  <div class="prose max-w-4xl">
+    <nav class="breadcrumb not-prose" aria-label="Breadcrumb">
+      <ol class="breadcrumb__list">
+        <li class="breadcrumb__item">
+          <a href={programUrl} class="breadcrumb__link">{eventTypeLabel}</a>
+        </li>
+        <li class="breadcrumb__sep" aria-hidden="true">›</li>
+        <li
+          class="breadcrumb__item breadcrumb__item--current"
+          aria-current="page"
+        >
+          <span class="breadcrumb__current">{title}</span>
+        </li>
+      </ol>
+    </nav>
+    <h1>{title}</h1>
+    <section class="program-event-page">
+      <p class="program-event-meta">
+        <strong class="mr-2">Session chair:</strong>
+        {chair.join(", ") || "TBA"}
+      </p>
+      <p class="program-event-meta">
+        <strong class="mr-2">Room:</strong>
+        {roomNames.join(" / ") || "TBA"}
+      </p>
+      {
+        overallStart && overallEnd && (
+          <p class="program-event-meta">
+            <strong class="mr-2">Time:</strong>
+            {formatSessionDateTime(overallStart, overallEnd)}
+          </p>
+        )
+      }
+
+      <h2>Presentations in this session</h2>
+
+      <div class="program-presentations">
+        {
+          presentations.length === 0 && (
+            <p>
+              No presentations are scheduled for this session. Please check
+              the event website for more information.
+            </p>
+          )
+        }
+        {
+          presentations.map((slot) => (
+            <article class="program-presentation">
+              <p class="program-presentation-time">
+                {formatSlotRange(slot.time_start, slot.time_end)}
+              </p>
+              {slot.uid ? (
+                <h3>
+                  <a
+                    href={withBaseURL(
+                      `/program/${slot.paper_type.includes("oster") ? "poster" : "paper"}/${slot.uid}`,
+                    )}
+                  >
+                    {slot.title}
+                  </a>
+                </h3>
+              ) : slot.url ? (
+                <h3>
+                  <a href={withBaseURL(slot.url)}>{slot.title}</a>
+                </h3>
+              ) : (
+                <h3>{slot.title}</h3>
+              )}
+              {slot.authors && slot.authors.length > 0 && (
+                <p class="program-presentation-authors">
+                  Authors: {slot.authors.map((author) => author.name).join(", ")}
+                </p>
+              )}
+              {/* Panels and invited talks have no paper page, so their Bluesky
+                discussion — the thread of replies to the announcement post,
+                proxied through bsky.tech.ieeevis.org — belongs here. */}
+              {hasOwnDiscussion(slot) && (
+                <div class="program-presentation-discussion not-prose">
+                  <BlueskyDiscussion client:visible paperId={slot.slot_id} />
+                </div>
+              )}
+            </article>
+          ))
+        }
+      </div>
+    </section>
+  </div>
+
+  <style>
+    .breadcrumb {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 0.5rem;
+      padding: 0.75rem 0;
+      margin-bottom: 1.5rem;
+      border-bottom: 1px solid #dee2e6;
+      font-size: 0.875rem;
+    }
+
+    .breadcrumb__list {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.25rem;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      flex: 1;
+    }
+
+    .breadcrumb__sep {
+      color: #adb5bd;
+      user-select: none;
+    }
+
+    .breadcrumb__link {
+      color: var(--color-accent);
+      text-decoration: none;
+    }
+
+    .breadcrumb__link:visited {
+      color: var(--color-primary-800);
+    }
+
+    .breadcrumb__link:hover {
+      text-decoration: underline;
+    }
+
+    .breadcrumb__current {
+      color: #555;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .program-event-page {
+      display: grid;
+      gap: 0.8rem;
+    }
+
+    .program-event-page h1 {
+      margin: 0;
+    }
+
+    .program-event-page h2 {
+      margin: 0.2rem 0 0;
+      color: var(--color-accent);
+      font-size: 1.15rem;
+    }
+
+    .program-event-meta {
+      margin: 0;
+      color: var(--color-gray-800);
+    }
+
+    .program-presentations {
+      display: grid;
+      gap: 0.7rem;
+    }
+
+    .program-presentation {
+      border-top: 1px dashed var(--color-gray-900);
+      padding-top: 0.5rem;
+      display: grid;
+      gap: 0.2rem;
+    }
+
+    .program-presentation-time {
+      margin: 0;
+      color: var(--color-gray-700);
+      font-weight: 700;
+      font-size: 0.82rem;
+    }
+
+    .program-presentation h3 {
+      margin: 0;
+      font-size: 1rem;
+      line-height: 1.3;
+    }
+
+    .program-presentation-authors {
+      margin: 0;
+      color: var(--color-gray-700);
+      font-size: 0.9rem;
+    }
+
+    .program-presentation-discussion {
+      margin-top: 0.6rem;
+    }
+  </style>
+</PageLayout>
