@@ -6,9 +6,18 @@ const fullWidth = Boolean(frontmatter.full_width);
 const { pathname } = Astro.url;
 
 const isProgramPage = /year\/202\d\/program/.test(pathname);
+
+// Pages whose body is empty or entirely commented out (e.g. not-yet-published
+// info pages) shouldn't show up in search.
+const content = await Astro.slots.render("default");
+const hasContent =
+  content
+    .replace(/<!--[\s\S]*?-->/g, "")
+    .replace(/<[^>]*>/g, "")
+    .trim().length > 0;
 ---
 
-<DefaultLayout page_info={frontmatter}>
+<DefaultLayout page_info={frontmatter} searchable={hasContent}>
   <!-- section header -->
   {
     !isProgramPage && (
@@ -26,13 +35,13 @@ const isProgramPage = /year\/202\d\/program/.test(pathname);
     fullWidth ? (
       <div class="container md:py-16">
         <article class="content w-full">
-          <slot />
+          <Fragment set:html={content} />
         </article>
       </div>
     ) : (
       <div class="container md:py-16 flex md:flex-row flex-col justify-between">
         <article class="content md:w-3/5 w-full md:mt-0 mt-8 md:order-0 order-2">
-          <slot />
+          <Fragment set:html={content} />
         </article>
 
         {frontmatter.sidebar && (

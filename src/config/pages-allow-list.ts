@@ -59,6 +59,9 @@ export const features = {
    *   /info/awards/best-paper-awards
    */
   inactivePathPrefixes: [
+    "/info/program/papers_list/",
+    "/info/program/week-at-a-glance/",
+
     "/info/awards",
     // "/info/invited-speakers",
     "/info/local-events",
@@ -93,16 +96,24 @@ export function stripBaseURL(pathname: string): string {
  * results, etc.
  */
 export function isPathInactive(pathWithoutBase: string): boolean {
-  const isOverridden = (
-    features.activePathOverrides as readonly string[]
-  ).includes(pathWithoutBase);
+  const path = trimTrailingSlash(pathWithoutBase);
+
+  const isOverridden = (features.activePathOverrides as readonly string[]).some(
+    (override) => trimTrailingSlash(override) === path,
+  );
 
   if (isOverridden) {
     return false;
   }
 
-  return features.inactivePathPrefixes.some(
-    (prefix) =>
-      pathWithoutBase === prefix || pathWithoutBase.startsWith(prefix + "/"),
-  );
+  return features.inactivePathPrefixes.some((rawPrefix) => {
+    const prefix = trimTrailingSlash(rawPrefix);
+    return path === prefix || path.startsWith(prefix + "/");
+  });
+}
+
+// "/info/awards/" and "/info/awards" are the same page (pagefind result URLs
+// and directory-style routes carry the slash; the config entries may or may not).
+function trimTrailingSlash(path: string): string {
+  return path.length > 1 ? path.replace(/\/+$/, "") : path;
 }

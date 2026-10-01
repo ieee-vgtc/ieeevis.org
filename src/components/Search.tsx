@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import { isPathInactive } from "../config/pages-allow-list";
+import { isPathInactive, stripBaseURL } from "../config/pages-allow-list";
 import { withBaseURL } from "../utils/withBaseURL";
 
 type SearchResult = {
@@ -131,7 +131,9 @@ export default function Search({
         // Pagefind indexes the raw build output, so it has no notion of the
         // allow-list `middleware.ts` enforces at request time — filter those
         // pages out here so disabled/inactive pages don't surface in search.
-        setResults(data.filter((result) => !isPathInactive(result.url)));
+        setResults(
+          data.filter((result) => !isPathInactive(stripBaseURL(result.url))),
+        );
       } finally {
         setLoading(false);
       }
