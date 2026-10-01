@@ -6,7 +6,6 @@ import { withBaseURL } from "../../utils/withBaseURL";
 import { getProgramEventTypeLabel } from "../../utils/programEventTypeLabel";
 import { typeColors } from "../../utils/week-of-utils";
 
-
 // TODO make environment variable to easily set up for future years
 const CONFERENCE_TIME_ZONE = "US/Eastern";
 const PIXELS_PER_MINUTE = 1.18;
@@ -111,7 +110,6 @@ const dayDateFormatter = new Intl.DateTimeFormat("en-US", {
   month: "short",
   day: "numeric",
 });
-
 
 // TODO: make this less of a "magic" variable for future years' web chairs
 const roomOrder2026 = [
@@ -434,10 +432,11 @@ const typeOptions = sortedTypes.map((sessionType) => ({
 
 const roomDayGroups = dayGroups.map((dayGroup) => {
   const orderedRooms = Array.from(
-    new Set(dayGroup.sessions.flatMap((session) => splitRoomNames(session.room))),
+    new Set(
+      dayGroup.sessions.flatMap((session) => splitRoomNames(session.room)),
+    ),
   ).sort(
-    (a, b) =>
-      getRoomOrderIndex(a) - getRoomOrderIndex(b) || a.localeCompare(b),
+    (a, b) => getRoomOrderIndex(a) - getRoomOrderIndex(b) || a.localeCompare(b),
   );
   const roomMap = new Map<string, RoomCalendarSession[]>(
     orderedRooms.map((roomName) => [roomName, []]),
@@ -499,9 +498,7 @@ const roomDayGroups = dayGroups.map((dayGroup) => {
 
   const rooms = orderedRooms.map((roomName) => ({
     roomName,
-    sessions: roomMap
-      .get(roomName)!
-      .sort((a, b) => a.startMs - b.startMs),
+    sessions: roomMap.get(roomName)!.sort((a, b) => a.startMs - b.startMs),
   }));
 
   return {
@@ -573,7 +570,16 @@ const frontmatter = {
           {
             dayGroups.map((dayGroup) => (
               <div class="calendar-day-header-compact">
-                <h2>{dayGroup.weekdayLabel}</h2>
+                <h2>
+                  <button
+                    type="button"
+                    class="calendar-day-header-button"
+                    data-day-select={dayGroup.dayKey}
+                    aria-label={`Show ${dayGroup.weekdayLabel}, ${dayGroup.dateLabel} only`}
+                  >
+                    {dayGroup.weekdayLabel}
+                  </button>
+                </h2>
                 <p>{dayGroup.dateLabel}</p>
               </div>
             ))
@@ -1463,10 +1469,9 @@ const frontmatter = {
           });
         }
 
-        const timezoneSelect =
-          timezoneControl.querySelector<HTMLSelectElement>(
-            "[data-choice-select]",
-          );
+        const timezoneSelect = timezoneControl.querySelector<HTMLSelectElement>(
+          "[data-choice-select]",
+        );
         timezoneSelect?.addEventListener("change", () => {
           const value = timezoneSelect.value;
           if (!setChoiceValue(timezoneControl, value)) return;
@@ -1496,6 +1501,17 @@ const frontmatter = {
           if (!setChoiceValue(dayFilterControl, daySelect.value)) return;
           applyFilters();
         });
+
+        const dayHeaderButtons = Array.from(
+          root.querySelectorAll<HTMLButtonElement>("[data-day-select]"),
+        );
+        for (const button of dayHeaderButtons) {
+          button.addEventListener("click", () => {
+            const value = button.dataset.daySelect;
+            if (!value || !setChoiceValue(dayFilterControl, value)) return;
+            applyFilters();
+          });
+        }
       }
 
       for (const button of sessionLinkButtons) {

@@ -178,7 +178,15 @@ const frontmatter = {
         event.organizers.length > 0 && (
           <p class="program-event-organizers">
             <strong class="mr-2">Organizers:</strong>
-            {event.organizers.join(", ")}
+            {event.organizers.map((author, idx) => (
+              <a
+                class="mr-1"
+                href={`/year/2026/program/papers/?filter=author&search=${author.replaceAll(" ", "+")}`}
+              >
+                {author}
+                {idx !== event.organizers.length - 1 ? "," : ""}
+              </a>
+            ))}
           </p>
         )
       }
@@ -214,11 +222,11 @@ const frontmatter = {
           presentations.length === 0 &&
             workshopPapers.length === 0 &&
             !description && (
-            <p>
-              No presentations are scheduled for this session. Please check the
-              event website for more information.
-            </p>
-          )
+              <p>
+                No presentations are scheduled for this session. Please check
+                the event website for more information.
+              </p>
+            )
         }
         {
           presentations.map((slot) => (
@@ -251,7 +259,15 @@ const frontmatter = {
                   ) : (
                     "Authors: "
                   )}
-                  {slot.authors.map((author) => author.name).join(", ")}
+                  {slot.authors.map((author, idx) => (
+                    <a
+                      class="mr-1"
+                      href={`/year/2026/program/papers/?filter=author&search=${author.name.replaceAll(" ", "+")}`}
+                    >
+                      {author.name}
+                      {idx !== slot.authors.length - 1 ? "," : ""}
+                    </a>
+                  ))}
                 </p>
               )}
               {isDescribedEvent &&
@@ -259,7 +275,18 @@ const frontmatter = {
                 slot.contributors.length > 0 && (
                   <p class="program-presentation-contrib">
                     {isPanel && <strong class="mr-2">Panelists:</strong>}
-                    {slot.contributors.join(", ")}
+                    {slot.contributors.map((author, idx) => (
+                      <a
+                        class="mr-1"
+                        href={`/year/2026/program/papers/?filter=author&search=${author.replaceAll(" ", "+")}`}
+                      >
+                        {author}
+                        {slot.contributors &&
+                        idx !== slot.contributors.length - 1
+                          ? ","
+                          : ""}
+                      </a>
+                    ))}
                   </p>
                 )}
               {/* Panels and invited talks have no paper page, so their Bluesky
@@ -283,7 +310,16 @@ const frontmatter = {
               </h3>
               {paper.authors && paper.authors.length > 0 && (
                 <p class="program-presentation-authors">
-                  Authors: {paper.authors.map((author) => author.name).join(", ")}
+                  Authors:{" "}
+                  {paper.authors.map((author, idx) => (
+                    <a
+                      class="mr-1"
+                      href={`/year/2026/program/papers/?filter=author&search=${author.name.replaceAll(" ", "+")}`}
+                    >
+                      {author.name}
+                      {idx !== paper.authors.length - 1 ? "," : ""}
+                    </a>
+                  ))}
                 </p>
               )}
             </article>

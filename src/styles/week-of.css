@@ -387,6 +387,36 @@
   text-overflow: ellipsis;
 }
 
+.calendar-day-header-button {
+  all: unset;
+  cursor: pointer;
+}
+
+/* Stretch the click target over the whole header cell (weekday + date). */
+.calendar-day-header-compact:has(.calendar-day-header-button) {
+  position: relative;
+}
+
+.calendar-day-header-button::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.calendar-day-header-compact:has(.calendar-day-header-button):hover {
+  background: var(--color-gray-200);
+}
+
+.calendar-day-header-button:hover,
+.calendar-day-header-button:focus-visible {
+  text-decoration: underline;
+}
+
+.calendar-day-header-button:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
 .calendar-day-header-compact p {
   margin: 0.15rem 0 0;
   font-size: 0.83rem;
