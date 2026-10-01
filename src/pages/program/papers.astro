@@ -171,6 +171,94 @@ const paperCards: ProgramPaperCard[] = papers.map((paper) => {
   };
 });
 
+// Keynote and capstone talks have no paper page, but people should still find
+// them by searching for the speaker. Each one is simulcast to several rooms, so
+// keep one card per talk.
+const invitedTalkKinds = [
+  {
+    word: "keynote",
+    label: "Keynote",
+    href: "/info/invited-speakers/keynote-speaker",
+  },
+  {
+    word: "capstone",
+    label: "Capstone",
+    href: "/info/invited-speakers/capstone-speaker",
+  },
+  {
+    word: "visions",
+    label: "VISions Talk",
+    href: "/info/invited-speakers/visions",
+  },
+];
+const invitedTalkCards = new Map<string, ProgramPaperCard>();
+
+for (const event of Object.values(sessionList)) {
+  for (const session of event.sessions) {
+    for (const slot of session.time_slots as ProgramTimeSlot[]) {
+      const speakers = (slot.contributors || []).filter(Boolean);
+      // Match at word starts so e.g. "Revisions" is not a VISions talk.
+      const kind = invitedTalkKinds.find((candidate) =>
+        new RegExp(`\\b${candidate.word}`, "i").test(
+          `${slot.title} ${session.session_id}`,
+        ),
+      );
+      if (!kind) {
+        continue;
+      }
+      // VISions talks have paper records, so relabel those cards instead.
+      if (slot.uid) {
+        const paperCard = paperCards.find((card) => card.id === slot.uid);
+        if (paperCard) {
+          paperCard.presentationType = "invited-talk";
+          paperCard.presentationLabel = getProgramEventTypeLabel("invited-talk");
+          paperCard.eyebrow = kind.label;
+        }
+        continue;
+      }
+      if (speakers.length === 0) {
+        continue;
+      }
+
+      // Slots named only "Keynote" or "Capstone" get the speaker's name.
+      const title =
+        slot.title.toLowerCase() === kind.word
+          ? `${kind.label} by ${speakers.join(", ")}`
+          : slot.title;
+      const key = `${title}|${slot.time_start}`;
+      if (invitedTalkCards.has(key)) {
+        continue;
+      }
+
+      const sessionSlug = `${session.event_prefix}-${session.session_id}`;
+      invitedTalkCards.set(key, {
+        id: slot.slot_id,
+        title,
+        authorNames: speakers,
+        keywordsLabel: "",
+        abstractText: "",
+        presentationType: "invited-talk",
+        presentationLabel: getProgramEventTypeLabel("invited-talk"),
+        eventKey: event.event_prefix,
+        eventLabel: event.long_name,
+        sessionKey: sessionSlug,
+        sessionLabel: session.title,
+        scheduleLabel: `${conferenceDateTimeFormatter.format(new Date(slot.time_start))} - ${session.title}`,
+        startMs: Date.parse(slot.time_start),
+        doiUrl: null,
+        preprintUrl: null,
+        supplementalUrl: null,
+        sessionUrl: withBaseURL(`/program/session/${sessionSlug}`),
+        award: null,
+        eyebrow: kind.label,
+        titleHref: kind.href,
+      });
+    }
+  }
+}
+
+paperCards.push(...invitedTalkCards.values());
+
 // Events run by organizers rather than session chairs (see sessions.astro).
 const organizerEventTypes = ["workshop", "tutorial", "associated", "challenge"];
 const organizerRoleLabels: Record<string, string> = {

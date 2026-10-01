@@ -283,17 +283,21 @@ const typeOptions = Object.keys(typeCounts)
             accentColor={typeColors[colorType] || "#f3f4f6"}
             titleColor={typeTextColors[colorType] || "#111827"}
             title={paper.title}
-            titleHref={`/program/${itemType}/${paper.id}`}
+            titleHref={paper.titleHref || `/program/${itemType}/${paper.id}`}
             eyebrow={
-              paper.isTvcg
+              paper.eyebrow ||
+              (paper.isTvcg
                 ? "TVCG Paper"
-                : paperTypeToNameMap[normalizedType] || paper.presentationLabel
+                : paperTypeToNameMap[normalizedType] ||
+                  paper.presentationLabel)
             }
             subtitle={paper.award ? `Award: ${paper.award}` : undefined}
-            peopleLabel="Authors"
+            peopleLabel={paper.titleHref ? "Speakers" : "Authors"}
             people={people}
             links={links}
-            bookmark={{ bookmarked: isBookmarked }}
+            bookmark={
+              paper.titleHref ? undefined : { bookmarked: isBookmarked }
+            }
           />
         );
       })
