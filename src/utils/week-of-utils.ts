@@ -24,8 +24,9 @@ export const typeColors: Record<string, string> = {
   keynote: "#FDBB30",
   capstone: "#FDBB30",
   industry: "#FDBB30",
-  conference: "#df6824",
+  conference: "#A84A16",
   Challenge: "#0F172A",
+  "invited-talk": "#693A19",
 };
 
 export const typeTextColors: Record<string, string> = {
@@ -51,6 +52,7 @@ export const typeTextColors: Record<string, string> = {
   keynote: "#111827",
   capstone: "#111827",
   industry: "#111827",
-  conference: "#111827",
+  conference: "#ffffff",
   Challenge: "#F8FAFC",
+  "invited-talk": "#ffffff",
 };

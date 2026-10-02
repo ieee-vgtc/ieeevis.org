@@ -556,7 +556,16 @@ const frontmatter = {
       typeOptions={typeOptions}
       allCount={sessions.length}
       filterBarLabel="Session type filters"
-    />
+    >
+      <a
+        slot="heading-extra"
+        class="calendar-subscribe-link"
+        href="webcal://data.tech.ieeevis.org/functions/v1/calendar"
+      >
+        <i class="material-icons" aria-hidden="true">event</i>
+        Subscribe to this calendar
+      </a>
+    </ProgramHeader>
 
     <div class="calendar-timeline-scroll">
       <div

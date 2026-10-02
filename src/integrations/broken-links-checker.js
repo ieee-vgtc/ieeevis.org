@@ -27,6 +27,10 @@ function parse_log(contents) {
     }));
 }
 
+function has_other_scheme(link) {
+  return /^[a-z][a-z0-9+.-]*:/i.test(link) && !/^https?:/i.test(link);
+}
+
 /**
  * @param {{ throwError?: boolean, checkExternalLinks?: boolean, [option: string]: unknown }} [options]
  *   passed through to astro-broken-links-checker
@@ -78,8 +82,12 @@ export default function checkBrokenLinks({
         }
 
         const entries = parse_log(fs.readFileSync(LOG_FILE, "utf8"));
-        const broken = entries.filter(({ link }) => !is_on_demand(link));
-        const skipped = entries.length - broken.length;
+        // The checker only recognizes http(s)/mailto/tel/javascript as
+        // non-local, so other schemes (e.g. the calendar's webcal:// feed)
+        // get resolved as relative paths and reported as missing.
+        const local = entries.filter(({ link }) => !has_other_scheme(link));
+        const broken = local.filter(({ link }) => !is_on_demand(link));
+        const skipped = local.length - broken.length;
         if (skipped > 0) {
           logger.info(
             `Skipped ${skipped} links to on-demand routes (${onDemandRoutes
