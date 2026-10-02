@@ -728,7 +728,6 @@
   font-size: 0.61rem;
   font-weight: 600;
   color: var(--session-fg);
-  opacity: 0.75;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
