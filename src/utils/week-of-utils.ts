@@ -51,6 +51,6 @@ export const typeTextColors: Record<string, string> = {
   keynote: "#111827",
   capstone: "#111827",
   industry: "#111827",
-  conference: "#111827",
+  conference: "#ffffff",
   Challenge: "#F8FAFC",
 };
