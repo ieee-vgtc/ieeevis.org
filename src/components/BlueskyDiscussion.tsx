@@ -41,6 +41,12 @@
  * to that account here; otherwise it is marked as theirs but is theirs to
  * delete on Bluesky.
  *
+ * The reader can comment on the announcement or reply to any reply in the
+ * thread, a guest comment or a native Bluesky post alike, in either writing
+ * mode. A reply nests under its parent at once and stays there until the
+ * thread carries it. Past `maxDepth` the thread shows no replies, so the posts
+ * there offer no Reply either.
+ *
  * A guest comment carries the attendee's real name unless they tick "Hide my
  * name", which swaps it for their stable pseudonym. Such a post is unnamed
  * rather than untraceable — organizers can still tell who wrote it — so the
@@ -50,17 +56,21 @@
  */
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import type { CSSProperties, FormEvent } from "react";
+import type { CSSProperties } from "react";
 import BlueskyLogin from "./bluesky/BlueskyLogin";
+import CommentComposer from "./bluesky/CommentComposer";
 import PostCard from "./bluesky/PostCard";
-import type { PostLikeContext, PostOwnContext } from "./bluesky/PostCard";
+import type {
+  PostLikeContext,
+  PostOwnContext,
+  PostReplyContext,
+} from "./bluesky/PostCard";
 import ReplyList from "./bluesky/ReplyList";
 import SaveHandlePrompt from "./bluesky/SaveHandlePrompt";
 import SortToggle from "./bluesky/SortToggle";
 import { fetchAppViewThread } from "./bluesky/direct";
 import { formatOpensAt, likeCountOf } from "./bluesky/format";
 import { NATIVE_TEXT_LIMIT } from "./bluesky/native";
-import { hintTextStyle } from "./bluesky/styles";
 import { createServiceClient } from "./bluesky/service";
 import type {
   MeResponse,
@@ -85,9 +95,6 @@ const DEFAULT_REFRESH_MS = 5_000;
 const MAX_DEPTH = 5;
 const COMMENT_LIMIT = 250; // graphemes; mirrors CONFERENCE.guestTextLimit
 const TOKEN_REFRESH_SKEW_MS = 60_000;
-// How much of the byline the "Comment as …" button shows before ellipsis, so a
-// long name cannot blow the button off its row.
-const BYLINE_LIMIT = 22;
 
 interface BlueskyDiscussionProps {
   /** `slots.slot_id` (e.g. "v-full-1234") or the paper UUID — the API takes both. */
@@ -117,30 +124,14 @@ interface GuestToken {
   expiresAt: number;
 }
 
+/** A just-posted comment, shown under its parent until the thread carries it. */
+interface PendingReply {
+  /** Null for a comment on the announcement itself. */
+  parentUri: string | null;
+  post: ShapedPost;
+}
+
 // ─── helpers ─────────────────────────────────────────────────────────────────
-
-/** Count the way the API does, so the counter and the 400 agree. */
-function graphemeLength(text: string): number {
-  const Segmenter = (Intl as { Segmenter?: typeof Intl.Segmenter }).Segmenter;
-  if (!Segmenter) {
-    return [...text].length;
-  }
-  let n = 0;
-  for (const _ of new Segmenter("en", { granularity: "grapheme" }).segment(
-    text,
-  )) {
-    n++;
-  }
-  return n;
-}
-
-/** Clip a byline to `BYLINE_LIMIT` code points, adding an ellipsis if cut. */
-function truncateByline(name: string): string {
-  const chars = Array.from(name);
-  return chars.length > BYLINE_LIMIT
-    ? `${chars.slice(0, BYLINE_LIMIT - 1).join("")}…`
-    : name;
-}
 
 /** Top-level ordering. "top" = most liked first (oldest first as tie-break);
  *  "newest" = most recent first. Nested replies stay chronological.
@@ -176,6 +167,25 @@ function orderReplies(
   return sort === "newest"
     ? sortReplies([...replies, ...pending], sort, deltas)
     : [...sortReplies(replies, sort, deltas), ...pending];
+}
+
+/** The replies with each pending nested reply appended under its parent. */
+function attachPending(
+  replies: ShapedPost[],
+  nested: PendingReply[],
+): ShapedPost[] {
+  if (nested.length === 0) {
+    return replies;
+  }
+  return replies.map((reply) => {
+    const children = attachPending(reply.replies || [], nested);
+    const added = nested
+      .filter((pending) => pending.parentUri === reply.uri)
+      .map((pending) => pending.post);
+    return added.length > 0 || children !== reply.replies
+      ? { ...reply, replies: [...children, ...added] }
+      : reply;
+  });
 }
 
 /** Every reply URI in a thread, at any depth. */
@@ -410,11 +420,19 @@ export default function BlueskyDiscussion({
   defaultSort = "top",
 }: BlueskyDiscussionProps) {
   const [sort, setSort] = useState<ReplySort>(defaultSort);
-  const [draft, setDraft] = useState("");
   const [anonymous, setAnonymous] = useState(false);
-  const [submitting, setSubmitting] = useState(false);
   const [actionError, setActionError] = useState<string | null>(null);
-  const [pendingReplies, setPendingReplies] = useState<ShapedPost[]>([]);
+  const [pendingReplies, setPendingReplies] = useState<PendingReply[]>([]);
+  const [openReplyUri, setOpenReplyUri] = useState<string | null>(null);
+  const [postingReplyUri, setPostingReplyUri] = useState<string | null>(null);
+  // Focus moves once the closed composer is gone and the button is enabled.
+  const focusAfterRenderId = useRef<string | null>(null);
+  useEffect(() => {
+    if (focusAfterRenderId.current) {
+      document.getElementById(focusAfterRenderId.current)?.focus();
+      focusAfterRenderId.current = null;
+    }
+  });
   // Which comments in this thread are the reader's own. The thread response is
   // shared between readers and cannot say, so it comes from the per-user
   // endpoint — and it is what puts the remove control on their posts only.
@@ -656,7 +674,7 @@ export default function BlueskyDiscussion({
     const known = collectUris(data.thread.post?.replies || []);
     if (cacheHasCaughtUp) {
       setPendingReplies((current) =>
-        current.filter((reply) => !reply.uri || !known.has(reply.uri)),
+        current.filter(({ post }) => !known.has(post.uri)),
       );
     }
 
@@ -701,18 +719,22 @@ export default function BlueskyDiscussion({
 
   const commentLimit = native ? NATIVE_TEXT_LIMIT : COMMENT_LIMIT;
 
-  /** Post from the reader's own Bluesky account, as a reply to the announcement. */
+  /** Post from the reader's own Bluesky account, under the announcement or a reply. */
   const submitNativeComment = useCallback(
-    async (text: string) => {
+    async (text: string, parent: ShapedPost | null, onPosted: () => void) => {
       if (!native || !root?.cid) {
-        setActionError("The discussion is not ready for a comment yet.");
-        return;
+        throw new Error("The discussion is not ready for a comment yet.");
       }
 
-      const created = await native.reply(
-        { uri: root.uri, cid: root.cid },
-        text,
-      );
+      const announcement = { uri: root.uri, cid: root.cid };
+      let parentRef = announcement;
+      if (parent) {
+        if (!parent.cid) {
+          throw new Error("This post cannot be replied to yet.");
+        }
+        parentRef = { uri: parent.uri, cid: parent.cid };
+      }
+      const created = await native.reply(announcement, parentRef, text);
 
       // Show it immediately, signed by the account; the next refetch replaces
       // it with the real post once the AppView has indexed it.
@@ -720,26 +742,29 @@ export default function BlueskyDiscussion({
       setPendingReplies((current) => [
         ...current,
         {
-          uri: created.uri,
-          cid: created.cid,
-          author: {
-            did: profile.did,
-            handle: profile.handle,
-            displayName: profile.displayName,
-            avatar: profile.avatar,
+          parentUri: parent?.uri ?? null,
+          post: {
+            uri: created.uri,
+            cid: created.cid,
+            author: {
+              did: profile.did,
+              handle: profile.handle,
+              displayName: profile.displayName,
+              avatar: profile.avatar,
+            },
+            text,
+            createdAt: new Date().toISOString(),
+            guest: false,
+            pseudonym: null,
+            likeCount: 0,
+            guestLikeCount: 0,
+            totalLikeCount: 0,
+            embedImages: [],
+            replies: [],
           },
-          text,
-          createdAt: new Date().toISOString(),
-          guest: false,
-          pseudonym: null,
-          likeCount: 0,
-          guestLikeCount: 0,
-          totalLikeCount: 0,
-          embedImages: [],
-          replies: [],
         },
       ]);
-      setDraft("");
+      onPosted();
       await refresh({ force: true, uncached: true });
     },
     [native, refresh, root],
@@ -747,11 +772,15 @@ export default function BlueskyDiscussion({
 
   /** Post through the service, credited to the attendee in the text. */
   const submitGuestComment = useCallback(
-    async (paperId: string, text: string) => {
+    async (
+      paperId: string,
+      text: string,
+      parent: ShapedPost | null,
+      onPosted: () => void,
+    ) => {
       const token = await getToken();
       if (!token) {
-        setActionError("Your session expired. Reload the page to comment.");
-        return;
+        throw new Error("Your session expired. Reload the page to comment.");
       }
 
       const response = await client.postComment(
@@ -759,20 +788,29 @@ export default function BlueskyDiscussion({
         token,
         text,
         anonymous,
+        parent?.uri,
       );
 
       if (response.status === 429) {
         const retryAfter = response.headers.get("retry-after");
-        setActionError(
+        throw new Error(
           retryAfter
             ? `You are commenting too quickly. Try again in ${retryAfter}s.`
             : "You are commenting too quickly. Try again shortly.",
         );
-        return;
       }
       if (response.status === 409) {
-        setActionError("This discussion is not open yet.");
-        return;
+        throw new Error("This discussion is not open yet.");
+      }
+      if (response.status === 400 && parent) {
+        throw new Error(
+          "The post you are replying to is no longer in the discussion. It may have been removed.",
+        );
+      }
+      if (response.status === 503) {
+        throw new Error(
+          "Bluesky cannot be reached right now. Please try again in a minute.",
+        );
       }
       if (!response.ok) {
         throw new Error(`The service returned ${response.status}.`);
@@ -790,20 +828,23 @@ export default function BlueskyDiscussion({
       setPendingReplies((current) => [
         ...current,
         {
-          uri: created.uri || `pending-${Date.now()}`,
-          author: { displayName: null, avatar: null },
-          text,
-          createdAt: new Date().toISOString(),
-          guest: true,
-          pseudonym: created.author || attribution || null,
-          likeCount: 0,
-          guestLikeCount: 0,
-          totalLikeCount: 0,
-          embedImages: [],
-          replies: [],
+          parentUri: parent?.uri ?? null,
+          post: {
+            uri: created.uri || `pending-${Date.now()}`,
+            author: { displayName: null, avatar: null },
+            text,
+            createdAt: new Date().toISOString(),
+            guest: true,
+            pseudonym: created.author || attribution || null,
+            likeCount: 0,
+            guestLikeCount: 0,
+            totalLikeCount: 0,
+            embedImages: [],
+            replies: [],
+          },
         },
       ]);
-      setDraft("");
+      onPosted();
 
       await refresh({ force: true, uncached: true });
       await syncMyComments();
@@ -812,43 +853,15 @@ export default function BlueskyDiscussion({
   );
 
   const submitComment = useCallback(
-    async (event: FormEvent) => {
-      const text = draft.trim();
-      event.preventDefault();
-      if (!text || submitting) {
-        return;
-      }
-      if (graphemeLength(text) > commentLimit) {
-        setActionError(`Comments are limited to ${commentLimit} characters.`);
-        return;
-      }
-
-      setSubmitting(true);
+    async (text: string, parent: ShapedPost | null, onPosted: () => void) => {
       setActionError(null);
-
-      try {
-        if (native) {
-          await submitNativeComment(text);
-        } else if (paperId) {
-          await submitGuestComment(paperId, text);
-        }
-      } catch (err) {
-        setActionError(
-          (err as Error).message || "Your comment could not be posted.",
-        );
-      } finally {
-        setSubmitting(false);
+      if (native) {
+        await submitNativeComment(text, parent, onPosted);
+      } else if (paperId) {
+        await submitGuestComment(paperId, text, parent, onPosted);
       }
     },
-    [
-      commentLimit,
-      draft,
-      native,
-      paperId,
-      submitGuestComment,
-      submitNativeComment,
-      submitting,
-    ],
+    [native, paperId, submitGuestComment, submitNativeComment],
   );
 
   const toggleLike = useCallback(
@@ -1056,29 +1069,34 @@ export default function BlueskyDiscussion({
     serverCounts,
   );
   // A pending reply is held until the cache agrees, so hide the copy whenever
-  // the thread on screen already carries it. Guest comments always land at the
-  // top level (the service takes no parent), so this only scans that level —
-  // and does nothing at all in the usual case of no pending replies. A comment
-  // the reader has just removed is dropped from both lists until the service
-  // stops returning it.
+  // the thread on screen already carries it. A comment the reader has just
+  // removed is dropped from both until the service stops returning it.
   const shown = dropUris(root?.replies || [], removedLocally);
+  const shownUris = collectUris(shown);
+  const unseenPending = pendingReplies.filter(
+    ({ post }) => !shownUris.has(post.uri) && !removedLocally.has(post.uri),
+  );
   const replies = orderReplies(
-    shown,
-    dropUris(pendingReplies, removedLocally).filter(
-      (reply) => !reply.uri || !shown.some((post) => post.uri === reply.uri),
+    attachPending(
+      shown,
+      unseenPending.filter(({ parentUri }) => parentUri !== null),
     ),
+    unseenPending
+      .filter(({ parentUri }) => parentUri === null)
+      .map(({ post }) => post),
     effectiveSort,
     activeDeltas,
   );
-  const remaining = commentLimit - graphemeLength(draft);
-  // The two possible bylines the submit button can show — the real name and the
-  // pseudonym — so it can reserve room for the wider and not resize (shoving the
-  // checkbox) when "Hide my name" flips between them. Until identity loads both
-  // are just "Comment".
-  const realNameByline = identity?.name || identity?.pseudonym || null;
-  const pseudonymByline = identity?.pseudonym || null;
-  const bylineLabel = (who: string | null) =>
-    who ? `Comment as ${truncateByline(who)}` : "Comment";
+
+  const composerProps = {
+    limit: commentLimit,
+    nativeHandle: native?.profile.handle ?? null,
+    realNameByline: identity?.name || identity?.pseudonym || null,
+    pseudonymByline: identity?.pseudonym || null,
+    anonymous,
+    onAnonymousChange: setAnonymous,
+    onActivity: markInteraction,
+  };
 
   // The like control is the same on the root and every reply; the discussion
   // owns the state so they all read and update one shared source.
@@ -1088,6 +1106,61 @@ export default function BlueskyDiscussion({
         likedUris,
         deltas: activeDeltas,
         onToggle: toggleLike,
+      }
+    : undefined;
+
+  // Where Bluesky sends the reader back to after the login: this discussion.
+  const sectionId = `bsky-discussion-${paperId || "direct"}`;
+
+  const replyComposerId = (post: ShapedPost) =>
+    `${sectionId}-reply-${post.uri}`;
+  const replyButtonId = (post: ShapedPost) => `${replyComposerId(post)}-button`;
+  const closeReply = (post: ShapedPost) => {
+    setOpenReplyUri((current) => (current === post.uri ? null : current));
+    focusAfterRenderId.current = replyButtonId(post);
+  };
+
+  // The service checks the parent against the thread, so a just-posted comment
+  // takes replies once the thread carries it.
+  const replyContext: PostReplyContext | undefined = interactive
+    ? {
+        canReplyTo: (post) =>
+          shownUris.has(post.uri) && (native === null || Boolean(post.cid)),
+        openUri: openReplyUri,
+        posting: postingReplyUri !== null,
+        buttonId: replyButtonId,
+        composerId: replyComposerId,
+        onToggle: (post) => {
+          markInteraction();
+          setOpenReplyUri((current) =>
+            current === post.uri ? null : post.uri,
+          );
+        },
+        renderComposer: (post) => (
+          <CommentComposer
+            {...composerProps}
+            autoFocus
+            id={replyComposerId(post)}
+            onCancel={() => closeReply(post)}
+            onSubmit={async (text, clearDraft) => {
+              setPostingReplyUri(post.uri);
+              try {
+                await submitComment(text, post, () => {
+                  clearDraft();
+                  setPostingReplyUri(null);
+                  closeReply(post);
+                });
+              } finally {
+                setPostingReplyUri((current) =>
+                  current === post.uri ? null : current,
+                );
+              }
+            }}
+            placeholder="Write a reply"
+            style={{ marginTop: "0.5rem" }}
+            verb="Reply"
+          />
+        ),
       }
     : undefined;
 
@@ -1116,8 +1189,6 @@ export default function BlueskyDiscussion({
         }
       : undefined;
 
-  // Where Bluesky sends the reader back to after the login: this discussion.
-  const sectionId = `bsky-discussion-${paperId || "direct"}`;
   const signInWithBluesky = (input: string) => {
     markInteraction();
     const { pathname, search } = window.location;
@@ -1177,151 +1248,14 @@ export default function BlueskyDiscussion({
       )}
 
       {interactive && (
-        <form onSubmit={submitComment} style={{ margin: "1rem 0" }}>
-          <label htmlFor={`${sectionId}-comment`} style={{ display: "none" }}>
-            Add a comment
-          </label>
-          <textarea
-            disabled={submitting}
-            id={`${sectionId}-comment`}
-            onChange={(event) => {
-              markInteraction();
-              setDraft(event.target.value);
-            }}
-            onFocus={markInteraction}
-            placeholder="Add a comment"
-            rows={3}
-            style={{
-              width: "100%",
-              padding: "0.6rem",
-              border: "1px solid #e5e7eb",
-              borderRadius: "0.5rem",
-              fontFamily: "inherit",
-              fontSize: "0.95rem",
-              resize: "vertical",
-            }}
-            value={draft}
-          />
-
-          {/* One row: submit on the left, then the checkbox it drives right
-              beside it (with the "name is hidden" note tucked under the
-              checkbox), and the counter alone on the far right. */}
-          <div
-            style={{
-              display: "flex",
-              // Top-aligned: when the "name is hidden" note appears under the
-              // checkbox the column grows downward without re-centering (and so
-              // jumping) the button and checkbox.
-              alignItems: "flex-start",
-              flexWrap: "wrap",
-              gap: "0.5rem 0.75rem",
-              marginTop: "0.5rem",
-              fontSize: "0.85rem",
-              color: "#6b7280",
-            }}
-          >
-            {/* The section is a polite live region, so the button's byline is
-                announced when "Hide my name" toggles it. */}
-            <button
-              disabled={submitting || !draft.trim() || remaining < 0}
-              style={{
-                padding: "0.4rem 0.9rem",
-                borderRadius: "0.5rem",
-                border: "1px solid #2563eb",
-                backgroundColor: "#2563eb",
-                color: "#fff",
-                cursor: "pointer",
-                fontSize: "0.9rem",
-                whiteSpace: "nowrap",
-              }}
-              type="submit"
-            >
-              {/* Both bylines occupy one grid cell so the button reserves the
-                  wider width and does not resize (shoving the checkbox) when
-                  "Hide my name" flips which one shows; "Posting…" overlays while
-                  submitting. Only the active label is visible/announced. A
-                  Bluesky login has one byline: the account. */}
-              <span style={{ display: "grid" }}>
-                <span
-                  style={{
-                    gridArea: "1 / 1",
-                    visibility: submitting || anonymous ? "hidden" : "visible",
-                  }}
-                >
-                  {native
-                    ? `Comment as @${truncateByline(native.profile.handle)}`
-                    : bylineLabel(realNameByline)}
-                </span>
-                {!native && (
-                  <span
-                    style={{
-                      gridArea: "1 / 1",
-                      visibility:
-                        submitting || !anonymous ? "hidden" : "visible",
-                    }}
-                  >
-                    {bylineLabel(pseudonymByline)}
-                  </span>
-                )}
-                {submitting && (
-                  <span style={{ gridArea: "1 / 1" }}>Posting…</span>
-                )}
-              </span>
-            </button>
-
-            {/* A comment from the reader's own Bluesky account is signed by
-                that account, so there is no name to hide. */}
-            {native ? (
-              <small style={hintTextStyle}>
-                Posted from your Bluesky account.
-              </small>
-            ) : (
-              <div
-                style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  gap: "0.15rem",
-                }}
-              >
-                <label
-                  style={{
-                    display: "inline-flex",
-                    alignItems: "center",
-                    gap: "0.35rem",
-                    cursor: submitting ? "default" : "pointer",
-                  }}
-                >
-                  <input
-                    checked={anonymous}
-                    disabled={submitting}
-                    onChange={(event) => {
-                      markInteraction();
-                      setAnonymous(event.target.checked);
-                    }}
-                    type="checkbox"
-                  />
-                  Hide my name
-                </label>
-
-                {anonymous && (
-                  <small style={{ fontSize: "0.8rem", color: "#6b7280" }}>
-                    Your name is hidden from readers, not from conference
-                    organizers.
-                  </small>
-                )}
-              </div>
-            )}
-
-            <small
-              style={{
-                marginLeft: "auto",
-                color: remaining < 0 ? "#b91c1c" : "#6b7280",
-              }}
-            >
-              {remaining}
-            </small>
-          </div>
-        </form>
+        <CommentComposer
+          {...composerProps}
+          id={`${sectionId}-comment`}
+          onSubmit={(text, clearDraft) => submitComment(text, null, clearDraft)}
+          placeholder="Add a comment"
+          style={{ margin: "1rem 0" }}
+          verb="Comment"
+        />
       )}
 
       {actionError && (
@@ -1416,6 +1350,7 @@ export default function BlueskyDiscussion({
         maxDepth={maxDepth}
         own={ownContext}
         replies={replies}
+        reply={replyContext}
       />
     </section>
   );
