@@ -63,6 +63,7 @@ const showProgramViewSwitcher =
   <div class="u-toolbar__heading">
     <div>
       <p class="u-title">{title}</p>
+      <slot name="heading-extra" />
     </div>
 
     {showProgramViewSwitcher && <ProgramViewSwitcher />}
