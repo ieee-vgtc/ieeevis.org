@@ -17,7 +17,7 @@
 
 @media (hover: hover) and (pointer: fine) {
   .hover-response--text:hover {
-    color: var(--color-primary) !important;
+    color: var(--hover-response-text-color, var(--color-primary)) !important;
   }
 
   .hover-response--tint:not(.active):not(.is-active):hover {
