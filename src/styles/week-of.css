@@ -1051,7 +1051,7 @@
 .program-card__subtitle {
   margin: 0.35rem 0 0;
   font-size: 0.9rem;
-  color: var(--color-gray-800);
+  color: var(--program-card-title, var(--color-gray-800));
 }
 
 .program-card__body {
