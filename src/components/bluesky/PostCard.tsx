@@ -79,12 +79,18 @@ export interface PostOwnContext {
  *
  *  - `canReplyTo` — whether this post can take a reply yet.
  *  - `openUri` — the post whose composer is open, or null.
+ *  - `posting` — a reply is on its way, so its composer must stay open.
+ *  - `buttonId`, `composerId` — the element ids that tie each Reply button to
+ *    its composer, and that focus returns to when the composer closes.
  *  - `onToggle` — open the composer under the given post, or close it.
  *  - `renderComposer` — the composer for a reply to the given post.
  */
 export interface PostReplyContext {
   canReplyTo: (post: ShapedPost) => boolean;
   openUri: string | null;
+  posting: boolean;
+  buttonId: (post: ShapedPost) => string;
+  composerId: (post: ShapedPost) => string;
   onToggle: (post: ShapedPost) => void;
   renderComposer: (post: ShapedPost) => ReactNode;
 }
@@ -322,6 +328,7 @@ export default function PostCard({
     : undefined;
   const reposts = post.repostCount || 0;
   const replyable = !isRoot && reply !== undefined && reply.canReplyTo(post);
+  const replyOpen = replyable && reply.openUri === post.uri;
   const hasFooter =
     isRoot ||
     replyable ||
@@ -401,7 +408,11 @@ export default function PostCard({
           <LikeControl isRoot={isRoot} like={like} post={post} />
           {replyable && (
             <button
-              aria-expanded={reply.openUri === post.uri}
+              aria-controls={replyOpen ? reply.composerId(post) : undefined}
+              aria-expanded={replyOpen}
+              aria-label={`Reply to ${name}`}
+              disabled={reply.posting}
+              id={reply.buttonId(post)}
               onClick={() => reply.onToggle(post)}
               style={plainChipStyle}
               type="button"

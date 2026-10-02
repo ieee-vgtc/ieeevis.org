@@ -2,10 +2,10 @@
  * Writes from a reader's own Bluesky account, straight to their PDS.
  *
  * These are the counterparts of the guest writes in `service.ts`: a reply in
- * the announcement's thread, a like, taking one of their own posts down. Nothing here
- * touches the discussion service; the reader's PDS answers, and the thread
- * picks the change up on its next poll. `@atproto/api` is imported on demand
- * for the same reason as the OAuth client (see `oauth.ts`).
+ * the announcement's thread, a like, taking one of their own posts down.
+ * Nothing here touches the discussion service; the reader's PDS answers, and
+ * the thread picks the change up on its next poll. `@atproto/api` is imported
+ * on demand for the same reason as the OAuth client (see `oauth.ts`).
  *
  * A like is a record in the reader's repository, so unliking needs the
  * record's URI. The writer keeps those, and which posts it has already asked

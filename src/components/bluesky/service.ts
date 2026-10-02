@@ -156,9 +156,7 @@ export function createServiceClient(bases: string[]): ServiceClient {
       });
     },
 
-    // Without `parentUri` the comment replies to the announcement. With it, the
-    // parent may be any post the thread response carries; the service checks
-    // it again on write and answers 400 when it is gone.
+    // Without `parentUri` the comment replies to the announcement.
     postComment(paperId, token, text, anonymous, parentUri) {
       return request(threadPath(paperId, "/comments"), {
         method: "POST",

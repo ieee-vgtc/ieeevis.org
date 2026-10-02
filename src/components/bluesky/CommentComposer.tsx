@@ -51,8 +51,11 @@ interface CommentComposerProps {
   anonymous: boolean;
   onAnonymousChange: (anonymous: boolean) => void;
   onActivity: () => void;
-  /** Posts the text; a thrown error's message is shown to the reader. */
-  onSubmit: (text: string) => Promise<void>;
+  /**
+   * Posts the text and calls `clearDraft` once the post exists. A thrown
+   * error's message is shown to the reader.
+   */
+  onSubmit: (text: string, clearDraft: () => void) => Promise<void>;
   onCancel?: () => void;
   autoFocus?: boolean;
   style?: CSSProperties;
@@ -97,8 +100,7 @@ export default function CommentComposer({
     setError(null);
 
     try {
-      await onSubmit(text);
-      setDraft("");
+      await onSubmit(text, () => setDraft(""));
     } catch (err) {
       setError((err as Error).message || "Your comment could not be posted.");
     } finally {

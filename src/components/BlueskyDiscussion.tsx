@@ -423,8 +423,16 @@ export default function BlueskyDiscussion({
   const [anonymous, setAnonymous] = useState(false);
   const [actionError, setActionError] = useState<string | null>(null);
   const [pendingReplies, setPendingReplies] = useState<PendingReply[]>([]);
-  // The reply whose inline composer is open, by URI.
-  const [replyingTo, setReplyingTo] = useState<string | null>(null);
+  const [openReplyUri, setOpenReplyUri] = useState<string | null>(null);
+  const [postingReplyUri, setPostingReplyUri] = useState<string | null>(null);
+  // Focus moves once the closed composer is gone and the button is enabled.
+  const focusAfterRenderId = useRef<string | null>(null);
+  useEffect(() => {
+    if (focusAfterRenderId.current) {
+      document.getElementById(focusAfterRenderId.current)?.focus();
+      focusAfterRenderId.current = null;
+    }
+  });
   // Which comments in this thread are the reader's own. The thread response is
   // shared between readers and cannot say, so it comes from the per-user
   // endpoint — and it is what puts the remove control on their posts only.
@@ -713,7 +721,7 @@ export default function BlueskyDiscussion({
 
   /** Post from the reader's own Bluesky account, under the announcement or a reply. */
   const submitNativeComment = useCallback(
-    async (text: string, parent: ShapedPost | null) => {
+    async (text: string, parent: ShapedPost | null, onPosted: () => void) => {
       if (!native || !root?.cid) {
         throw new Error("The discussion is not ready for a comment yet.");
       }
@@ -756,6 +764,7 @@ export default function BlueskyDiscussion({
           },
         },
       ]);
+      onPosted();
       await refresh({ force: true, uncached: true });
     },
     [native, refresh, root],
@@ -763,7 +772,12 @@ export default function BlueskyDiscussion({
 
   /** Post through the service, credited to the attendee in the text. */
   const submitGuestComment = useCallback(
-    async (paperId: string, text: string, parent: ShapedPost | null) => {
+    async (
+      paperId: string,
+      text: string,
+      parent: ShapedPost | null,
+      onPosted: () => void,
+    ) => {
       const token = await getToken();
       if (!token) {
         throw new Error("Your session expired. Reload the page to comment.");
@@ -830,6 +844,7 @@ export default function BlueskyDiscussion({
           },
         },
       ]);
+      onPosted();
 
       await refresh({ force: true, uncached: true });
       await syncMyComments();
@@ -838,12 +853,12 @@ export default function BlueskyDiscussion({
   );
 
   const submitComment = useCallback(
-    async (text: string, parent: ShapedPost | null) => {
+    async (text: string, parent: ShapedPost | null, onPosted: () => void) => {
       setActionError(null);
       if (native) {
-        await submitNativeComment(text, parent);
+        await submitNativeComment(text, parent, onPosted);
       } else if (paperId) {
-        await submitGuestComment(paperId, text, parent);
+        await submitGuestComment(paperId, text, parent, onPosted);
       }
     },
     [native, paperId, submitGuestComment, submitNativeComment],
@@ -1073,10 +1088,6 @@ export default function BlueskyDiscussion({
     activeDeltas,
   );
 
-  // What both composers share. The two possible bylines the submit button can
-  // show — the real name and the pseudonym — let it reserve room for the wider
-  // and not resize (shoving the checkbox) when "Hide my name" flips between
-  // them. Until identity loads both are just the verb.
   const composerProps = {
     limit: commentLimit,
     nativeHandle: native?.profile.handle ?? null,
@@ -1101,28 +1112,49 @@ export default function BlueskyDiscussion({
   // Where Bluesky sends the reader back to after the login: this discussion.
   const sectionId = `bsky-discussion-${paperId || "direct"}`;
 
-  // Every reply the thread on screen carries can take a reply, in either
-  // writing mode. A just-posted comment waits until the thread carries it, since
-  // the service checks the parent against the thread. A native reply needs the
-  // parent's content hash as well.
+  const replyComposerId = (post: ShapedPost) =>
+    `${sectionId}-reply-${post.uri}`;
+  const replyButtonId = (post: ShapedPost) => `${replyComposerId(post)}-button`;
+  const closeReply = (post: ShapedPost) => {
+    setOpenReplyUri((current) => (current === post.uri ? null : current));
+    focusAfterRenderId.current = replyButtonId(post);
+  };
+
+  // The service checks the parent against the thread, so a just-posted comment
+  // takes replies once the thread carries it.
   const replyContext: PostReplyContext | undefined = interactive
     ? {
         canReplyTo: (post) =>
           shownUris.has(post.uri) && (native === null || Boolean(post.cid)),
-        openUri: replyingTo,
+        openUri: openReplyUri,
+        posting: postingReplyUri !== null,
+        buttonId: replyButtonId,
+        composerId: replyComposerId,
         onToggle: (post) => {
           markInteraction();
-          setReplyingTo((current) => (current === post.uri ? null : post.uri));
+          setOpenReplyUri((current) =>
+            current === post.uri ? null : post.uri,
+          );
         },
         renderComposer: (post) => (
           <CommentComposer
             {...composerProps}
             autoFocus
-            id={`${sectionId}-reply`}
-            onCancel={() => setReplyingTo(null)}
-            onSubmit={async (text) => {
-              await submitComment(text, post);
-              setReplyingTo(null);
+            id={replyComposerId(post)}
+            onCancel={() => closeReply(post)}
+            onSubmit={async (text, clearDraft) => {
+              setPostingReplyUri(post.uri);
+              try {
+                await submitComment(text, post, () => {
+                  clearDraft();
+                  setPostingReplyUri(null);
+                  closeReply(post);
+                });
+              } finally {
+                setPostingReplyUri((current) =>
+                  current === post.uri ? null : current,
+                );
+              }
             }}
             placeholder="Write a reply"
             style={{ marginTop: "0.5rem" }}
@@ -1219,7 +1251,7 @@ export default function BlueskyDiscussion({
         <CommentComposer
           {...composerProps}
           id={`${sectionId}-comment`}
-          onSubmit={(text) => submitComment(text, null)}
+          onSubmit={(text, clearDraft) => submitComment(text, null, clearDraft)}
           placeholder="Add a comment"
           style={{ margin: "1rem 0" }}
           verb="Comment"
