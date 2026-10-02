@@ -341,6 +341,11 @@ const typeOptions = Object.keys(typeCounts)
 </section>
 
 <script>
+  import {
+    createUrlStateHistory,
+    type UrlStateWriteOptions,
+  } from "../utils/urlStateHistory";
+
   (() => {
     const root = document.querySelector(".program-papers");
     if (!root) return;
@@ -364,9 +369,8 @@ const typeOptions = Object.keys(typeCounts)
     const typeFilterButtons = Array.from(
       root.querySelectorAll<HTMLButtonElement>("[data-type-filter]"),
     );
-    const params = new URLSearchParams(window.location.search);
-    let requestedSessionKey = params.get("session") || "";
-    let requestedEventKey = params.get("event") || "";
+    let requestedSessionKey = "";
+    let requestedEventKey = "";
     const validSearchFields = new Set([
       "any",
       "title",
@@ -398,9 +402,6 @@ const typeOptions = Object.keys(typeCounts)
 
     const bookmarks = new Set(getStoredBookmarks());
 
-    if (searchInput && params.get("search")) {
-      searchInput.value = params.get("search") || "";
-    }
 
     const getChoiceValue = (
       container: HTMLElement | null,
@@ -450,19 +451,32 @@ const typeOptions = Object.keys(typeCounts)
       return found;
     };
 
-    const urlSearchField = params.get("filter") || "";
-    if (validSearchFields.has(urlSearchField)) {
-      setChoiceValue(searchFieldControl, urlSearchField);
-    }
+    let activeTypeFilter = "all";
 
-    let activeTypeFilter = validTypeValues.has(params.get("type") || "")
-      ? params.get("type") || "all"
-      : "all";
+    const restoreFromUrl = (params: URLSearchParams) => {
+      requestedSessionKey = params.get("session") || "";
+      requestedEventKey = params.get("event") || "";
+      if (searchInput) {
+        searchInput.value = params.get("search") || "";
+      }
 
-    const urlSortMode = params.get("sort") || "";
-    if (validSortModes.has(urlSortMode)) {
-      setChoiceValue(sortControl, urlSortMode);
-    }
+      const urlSearchField = params.get("filter") || "";
+      setChoiceValue(
+        searchFieldControl,
+        validSearchFields.has(urlSearchField) ? urlSearchField : "any",
+      );
+
+      const urlType = params.get("type") || "";
+      activeTypeFilter = validTypeValues.has(urlType) ? urlType : "all";
+
+      const urlSortMode = params.get("sort") || "";
+      setChoiceValue(
+        sortControl,
+        validSortModes.has(urlSortMode) ? urlSortMode : "title",
+      );
+    };
+
+    restoreFromUrl(new URLSearchParams(window.location.search));
 
     const getSearchQuery = () =>
       searchInput instanceof HTMLInputElement
@@ -475,7 +489,7 @@ const typeOptions = Object.keys(typeCounts)
 
     const getTypeFilter = () => activeTypeFilter;
 
-    const syncUrlParams = () => {
+    const syncUrlParams = (options?: UrlStateWriteOptions) => {
       const nextParams = new URLSearchParams(window.location.search);
       const searchQuery = getSearchQuery();
       const searchField = getSearchField();
@@ -518,9 +532,7 @@ const typeOptions = Object.keys(typeCounts)
         nextParams.delete("sort");
       }
 
-      const query = nextParams.toString();
-      const nextUrl = `${window.location.pathname}${query ? `?${query}` : ""}${window.location.hash}`;
-      history.replaceState(null, "", nextUrl);
+      urlHistory.write(nextParams, options);
     };
 
     const getFieldValue = (card: HTMLElement) => {
@@ -662,8 +674,14 @@ const typeOptions = Object.keys(typeCounts)
       }
 
       refreshBookmarkState();
-      syncUrlParams();
+      syncUrlParams(options);
     };
+
+    const urlHistory = createUrlStateHistory((params) => {
+      restoreFromUrl(params);
+      refreshTypeFilterState();
+      applyFilters();
+    });
 
     const toggleBookmark = (paperId: string) => {
       if (bookmarks.has(paperId)) {
@@ -690,7 +708,7 @@ const typeOptions = Object.keys(typeCounts)
       searchInput.addEventListener("input", () => {
         requestedSessionKey = "";
         requestedEventKey = "";
-        applyFilters();
+        applyFilters({ burst: "search" });
       });
     }
 
@@ -769,6 +787,6 @@ const typeOptions = Object.keys(typeCounts)
 
     refreshTypeFilterState();
     refreshBookmarkState();
-    applyFilters();
+    applyFilters({ replace: true });
   })();
 </script>

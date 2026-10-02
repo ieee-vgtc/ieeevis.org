@@ -273,6 +273,11 @@ function formatPeopleForSession(session: SessionListItem) {
   </section>
 
   <script>
+    import {
+      createUrlStateHistory,
+      type UrlStateWriteOptions,
+    } from "../../utils/urlStateHistory";
+
     (() => {
       const root = document.querySelector(".program-sessions");
       if (!root) return;
@@ -467,7 +472,7 @@ function formatPeopleForSession(session: SessionListItem) {
       };
 
       // Keep the filters in the URL so a filtered list can be linked to.
-      const syncUrlParams = () => {
+      const syncUrlParams = (options?: UrlStateWriteOptions) => {
         const nextParams = new URLSearchParams(window.location.search);
         const entries: [string, string, string][] = [
           ["search", getSearchText(), ""],
@@ -481,12 +486,10 @@ function formatPeopleForSession(session: SessionListItem) {
             nextParams.delete(key);
           }
         }
-        const query = nextParams.toString();
-        const nextUrl = `${window.location.pathname}${query ? `?${query}` : ""}${window.location.hash}`;
-        history.replaceState(null, "", nextUrl);
+        urlHistory.write(nextParams, options);
       };
 
-      const applyFilters = () => {
+      const applyFilters = (options?: UrlStateWriteOptions) => {
         const selectedDay = getSelectedDay();
         const query = getSearchQuery();
         let visibleCount = 0;
@@ -507,7 +510,7 @@ function formatPeopleForSession(session: SessionListItem) {
           emptyState.hidden = visibleCount > 0;
         }
 
-        syncUrlParams();
+        syncUrlParams(options);
       };
 
       for (const button of filterButtons) {
@@ -522,7 +525,7 @@ function formatPeopleForSession(session: SessionListItem) {
 
       if (searchInput instanceof HTMLInputElement) {
         searchInput.addEventListener("input", () => {
-          applyFilters();
+          applyFilters({ burst: "search" });
         });
       }
 
@@ -586,34 +589,44 @@ function formatPeopleForSession(session: SessionListItem) {
       }
 
       // Restore filters from the URL (?search=...&type=full&day=2026-11-10).
-      const urlParams = new URLSearchParams(location.search);
-      const urlTypeParam = urlParams.get("type")?.trim().toLowerCase();
-      if (urlTypeParam) {
-        // Accept plurals (?type=workshops). A type with no sessions yet has no
-        // button, but is still applied so the link shows the empty state
-        // rather than silently falling back to every session.
-        const knownTypes = filterButtons.map(
-          (button) => button.dataset.typeFilter,
-        );
-        const singular = urlTypeParam.replace(/s$/, "");
-        activeTypeFilter = knownTypes.includes(urlTypeParam)
-          ? urlTypeParam
-          : knownTypes.includes(singular)
-            ? singular
-            : urlTypeParam;
-      }
-      const urlDayParam = urlParams.get("day");
-      if (urlDayParam) {
-        setChoiceValue(dayFilterControl, urlDayParam);
-      }
-      const urlSearchParam = urlParams.get("search");
-      if (urlSearchParam && searchInput instanceof HTMLInputElement) {
-        searchInput.value = urlSearchParam;
-      }
+      const restoreFromUrl = (urlParams: URLSearchParams) => {
+        const urlTypeParam = urlParams.get("type")?.trim().toLowerCase();
+        if (urlTypeParam) {
+          // Accept plurals (?type=workshops). A type with no sessions yet has no
+          // button, but is still applied so the link shows the empty state
+          // rather than silently falling back to every session.
+          const knownTypes = filterButtons.map(
+            (button) => button.dataset.typeFilter,
+          );
+          const singular = urlTypeParam.replace(/s$/, "");
+          activeTypeFilter = knownTypes.includes(urlTypeParam)
+            ? urlTypeParam
+            : knownTypes.includes(singular)
+              ? singular
+              : urlTypeParam;
+        } else {
+          activeTypeFilter = ALL_FILTER;
+        }
+        const urlDayParam = urlParams.get("day") || "all";
+        if (!setChoiceValue(dayFilterControl, urlDayParam)) {
+          setChoiceValue(dayFilterControl, "all");
+        }
+        if (searchInput instanceof HTMLInputElement) {
+          searchInput.value = urlParams.get("search") || "";
+        }
+      };
+
+      const urlHistory = createUrlStateHistory((params) => {
+        restoreFromUrl(params);
+        refreshFilterButtonState();
+        applyFilters();
+      });
+
+      restoreFromUrl(new URLSearchParams(location.search));
 
       refreshFilterButtonState();
       refreshTimeRanges();
-      applyFilters();
+      applyFilters({ replace: true });
     })();
   </script>
 </PageLayout>
