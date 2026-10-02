@@ -1,20 +1,12 @@
 ---
 import PageLayout from "../../layouts/PageLayout.astro";
 import BlueskyDiscussion from "../../components/BlueskyDiscussion";
-import { buildLoginUrl, readSession } from "../../lib/auth0";
 
 const frontmatter = {
   title: "Bluesky Discussion Demo",
   active_nav: "Program",
   contact: "web@ieeevis.org",
 };
-
-// Rendered at request time, not prerendered: a build-time copy would bake in
-// the signed-out state and never show a reader their own session.
-export const prerender = false;
-
-const isAuthenticated = Boolean(await readSession(Astro.cookies, Astro.url));
-const loginHref = buildLoginUrl(Astro.url);
 ---
 
 <PageLayout frontmatter={frontmatter}>
@@ -25,24 +17,18 @@ const loginHref = buildLoginUrl(Astro.url);
     its reply thread.
   </p>
 
-  <p class="demo-auth-note" role="note">
-    {
-      isAuthenticated ? (
-        <span>
-          You are signed in, so the service-backed example below accepts
-          comments and likes as a VIS attendee. Log in with Bluesky under
-          either announcement to post from your own account instead.
-        </span>
-      ) : (
-        <span>
-          Commenting as a VIS attendee needs an Auth0 sign-in —{" "}
-          <code>/auth/token</code> mints the token the discussion service
-          checks. <a href={loginHref}>Sign in</a> to try it. Logging in with
-          Bluesky under either announcement works without one: comments and
-          likes then come from your own Bluesky account.
-        </span>
-      )
-    }
+  <p class="demo-auth-note" role="note" data-signed-in hidden>
+    You are signed in, so the service-backed example below accepts comments
+    and likes as a VIS attendee. Log in with Bluesky under either
+    announcement to post from your own account instead.
+  </p>
+  <p class="demo-auth-note" role="note" data-signed-out>
+    Commenting as a VIS attendee needs an Auth0 sign-in — <code
+      >/auth/token</code
+    > mints the token the discussion service checks.
+    <button type="button" data-sign-in>Sign in</button> to try it. Logging in
+    with Bluesky under either announcement works without one: comments and
+    likes then come from your own Bluesky account.
   </p>
 
   <style>
@@ -54,7 +40,36 @@ const loginHref = buildLoginUrl(Astro.url);
       color: var(--color-gray-800, #495057);
       font-size: 0.9rem;
     }
+
+    .demo-auth-note button {
+      color: inherit;
+      background: none;
+      border: none;
+      padding: 0;
+      font: inherit;
+      text-decoration: underline;
+      cursor: pointer;
+    }
   </style>
+
+  <script>
+    import { currentPagePath, getCurrentUser, login } from "../../lib/auth0Client";
+
+    getCurrentUser().then((user) => {
+      document
+        .querySelector<HTMLElement>("[data-signed-in]")
+        ?.toggleAttribute("hidden", !user);
+      document
+        .querySelector<HTMLElement>("[data-signed-out]")
+        ?.toggleAttribute("hidden", Boolean(user));
+    });
+
+    document.querySelector("[data-sign-in]")?.addEventListener("click", () => {
+      login(currentPagePath()).catch((error: unknown) => {
+        console.error("Unable to start Auth0 login:", error);
+      });
+    });
+  </script>
 
   <h2>By paper id (service)</h2>
   <p>

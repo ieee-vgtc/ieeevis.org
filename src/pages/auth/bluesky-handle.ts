@@ -1,13 +1,18 @@
 /**
  * Puts a Bluesky handle on the signed-in attendee's profile — the
- * `user_metadata.bsky_handle` their Auth0 user carries — and re-issues the
- * session so `/auth/token` sends it in the `bluesky` claim straight away.
+ * `user_metadata.bsky_handle` their Auth0 user carries, which the Login
+ * Action documented on `BSKY_HANDLE_CLAIM` (lib/auth0.ts) surfaces in their
+ * next ID token for `/auth/token` to read as the `bluesky` claim.
  *
  * Called from the discussion after a reader logs in with Bluesky and agrees
  * to save the handle. The site cannot check that the reader owns the handle
  * (the Bluesky session lives in their browser), and it does not need to: the
  * claim marks their own Bluesky replies as theirs on their own screen and
  * pre-fills the login; it grants nothing.
+ *
+ * The caller (SaveHandlePrompt) force-refreshes its cached ID token right
+ * after this succeeds, so the new claim shows up without waiting for the
+ * token to expire on its own — see `refreshSession` in lib/auth0Client.ts.
  *
  * SETUP: the Auth0 application needs a Management API grant with the
  * `update:users` scope, or AUTH0_MANAGEMENT_CLIENT_ID and
@@ -17,19 +22,21 @@
 
 import type { APIRoute } from "astro";
 import {
-  createSession,
   getAuth0Config,
   readBskyHandleInput,
-  readSession,
   saveBskyHandle,
-  setSessionCookie,
+  verifyBearerIdToken,
 } from "../../lib/auth0";
 import { jsonResponse as json } from "../../lib/http";
 
 export const prerender = false;
 
-export const POST: APIRoute = async ({ cookies, request, url }) => {
-  const user = await readSession(cookies, url);
+export const POST: APIRoute = async ({ request }) => {
+  const config = getAuth0Config();
+  const user = await verifyBearerIdToken(
+    config,
+    request.headers.get("authorization"),
+  );
   if (!user) {
     return json({ error: "not_authenticated" }, 401);
   }
@@ -46,12 +53,7 @@ export const POST: APIRoute = async ({ cookies, request, url }) => {
   }
 
   try {
-    const config = getAuth0Config(url);
     await saveBskyHandle(config, user.sub, handle);
-    setSessionCookie(
-      cookies,
-      await createSession(config, { ...user, bskyHandle: handle }),
-    );
     return json({ handle }, 200);
   } catch (error) {
     console.error("Unable to save the Bluesky handle:", error);

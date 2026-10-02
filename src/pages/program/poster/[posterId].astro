@@ -2,13 +2,7 @@
 import PageLayout from "../../../layouts/PageLayout.astro";
 import AuthGate from "../../../components/AuthGate.astro";
 import { fetchAllPosters } from "../../../utils/paperData";
-import { buildLoginUrl, readSession } from "../../../lib/auth0";
 
-// On request on Netlify; prerendered for the S3 deploys when
-// STATIC_PROGRAM_PAGES=true (see program/paper/[paperId].astro).
-export const prerender = false;
-
-// Only used when STATIC_PROGRAM_PAGES prerenders this page.
 export async function getStaticPaths() {
   const posters = await fetchAllPosters();
   return posters.map((poster) => ({ params: { posterId: poster.id } }));
@@ -20,15 +14,6 @@ const poster = posters.find((entry) => entry.id === Astro.params.posterId);
 if (!poster) {
   return new Response(null, { status: 404 });
 }
-
-// Static S3 builds have no request cookies; on Netlify this route is rendered
-// per request and can resolve the attendee session normally.
-const user =
-  process.env.STATIC_PROGRAM_PAGES === "true"
-    ? undefined
-    : await readSession(Astro.cookies, Astro.url);
-const isAuthenticated = Boolean(user);
-const loginHref = buildLoginUrl(Astro.url);
 
 const frontmatter = {
   title: poster.title,
@@ -58,11 +43,7 @@ const frontmatter = {
       <h2 class="text-lg font-semibold mb-2">PDF</h2>
       {
         poster.pdf_url ? (
-          <AuthGate
-            isAuthenticated={isAuthenticated}
-            loginHref={loginHref}
-            label="PDF"
-          >
+          <AuthGate label="PDF">
             <a
               href={poster.pdf_url}
               target="_blank"

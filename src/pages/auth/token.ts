@@ -19,12 +19,12 @@
 
 import type { APIRoute } from "astro";
 import { SignJWT } from "jose";
-import { readSession } from "../../lib/auth0";
+import { getAuth0Config, verifyBearerIdToken } from "../../lib/auth0";
 import { jsonResponse as json } from "../../lib/http";
 
 export const prerender = false;
 
-/** Minutes of validity. Short: the embed re-mints from the session as needed. */
+/** Minutes of validity. Short: the embed re-mints from the ID token as needed. */
 const TOKEN_MAX_AGE_SECONDS = 60 * 10;
 
 function getTokenSecret() {
@@ -47,8 +47,11 @@ function getTokenSecret() {
   return new TextEncoder().encode(value);
 }
 
-export const GET: APIRoute = async ({ cookies, url }) => {
-  const user = await readSession(cookies, url);
+export const GET: APIRoute = async ({ request }) => {
+  const user = await verifyBearerIdToken(
+    getAuth0Config(),
+    request.headers.get("authorization"),
+  );
   if (!user) {
     // Expected for a signed-out visitor. The embed reads this as "show the
     // discussion read-only" and does not surface an error.

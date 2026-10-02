@@ -65,15 +65,22 @@ export const onRequest: MiddlewareHandler = async (context, next) => {
 
       // NETWORK (HMR, APIs, etc.) — bsky.tech.ieeevis.org is the Bluesky
       // discussion API for paper pages, public.api.bsky.app the Bluesky AppView
-      // that threads are read from directly. The rest is "log in with
-      // Bluesky" (components/bluesky/oauth.ts): the browser resolves the
-      // handle at bsky.social, looks the account up at plc.directory, and
-      // then talks to the account's own PDS — *.bsky.network for accounts
-      // Bluesky hosts. A self-hosted PDS is on some other host and will
-      // show up in the CSP reports; widen this if that turns out common.
+      // that threads are read from directly. The Auth0 domain is attendee
+      // sign-in (lib/auth0Client.ts): a public SPA client talking straight to
+      // Auth0's token endpoint for login and silent token refresh, no server
+      // in between. The rest is "log in with Bluesky"
+      // (components/bluesky/oauth.ts): the browser resolves the handle at
+      // bsky.social, looks the account up at plc.directory, and then talks to
+      // the account's own PDS — *.bsky.network for accounts Bluesky hosts. A
+      // self-hosted PDS is on some other host and will show up in the CSP
+      // reports; widen this if that turns out common.
       isDev
         ? "connect-src 'self' ws: http: https:"
-        : "connect-src 'self' https://bsky.tech.ieeevis.org https://public.api.bsky.app https://bsky.social https://*.bsky.network https://plc.directory",
+        : `connect-src 'self' https://bsky.tech.ieeevis.org https://public.api.bsky.app https://bsky.social https://*.bsky.network https://plc.directory${
+            import.meta.env.PUBLIC_AUTH0_DOMAIN
+              ? ` https://${import.meta.env.PUBLIC_AUTH0_DOMAIN}`
+              : ""
+          }`,
 
       // Enforce HTTPS in prod only
       !isDev && "upgrade-insecure-requests",

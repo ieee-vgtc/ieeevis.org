@@ -11,6 +11,7 @@
 
 import { useState } from "react";
 import type { CSSProperties } from "react";
+import { getIdToken, refreshSession } from "../../lib/auth0Client";
 import { siteBase } from "../../utils/withBaseURL";
 import {
   errorTextStyle,
@@ -57,15 +58,22 @@ export default function SaveHandlePrompt({
     setSaving(true);
     setError(null);
     try {
+      const idToken = await getIdToken();
+      if (!idToken) {
+        throw new Error("Not signed in.");
+      }
       const response = await fetch(`${siteBase()}/auth/bluesky-handle`, {
         method: "POST",
-        credentials: "same-origin",
-        headers: { "content-type": "application/json" },
+        headers: {
+          "content-type": "application/json",
+          authorization: `Bearer ${idToken}`,
+        },
         body: JSON.stringify({ handle }),
       });
       if (!response.ok) {
         throw new Error(`The site returned ${response.status}.`);
       }
+      await refreshSession();
       dismiss(handle);
       setHidden(true);
       onSaved();

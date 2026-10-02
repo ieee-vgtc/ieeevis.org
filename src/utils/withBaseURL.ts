@@ -25,7 +25,7 @@ export function siteBase(): string {
 
 /**
  * Only permit paths within this deployment as post-login destinations. Used
- * by the Auth0 login (server) and the Bluesky login (browser) alike.
+ * by the Auth0 login and the Bluesky login alike (both browser-side).
  */
 export function safeReturnTo(
   value: string | null | undefined,

@@ -1,19 +1,23 @@
-import { createHash, randomBytes } from "node:crypto";
-import type { APIContext } from "astro";
-import { createRemoteJWKSet, EncryptJWT, jwtDecrypt, jwtVerify } from "jose";
+import { createRemoteJWKSet, jwtVerify } from "jose";
 import { isBskyHandle, normalizeBskyHandle } from "../utils/bskyHandle";
-import { safeReturnTo } from "../utils/withBaseURL";
 
-type Cookies = APIContext["cookies"];
+/**
+ * Server-side half of attendee sign-in. Sign-in itself happens entirely in
+ * the browser (see `./auth0Client.ts`, the SPA/PKCE flow) — there is no
+ * server session, and nothing here holds a client secret. The only things
+ * that still run server-side are the two routes that must be trusted
+ * (`/auth/token`, `/auth/bluesky-handle`): they take the attendee's Auth0 ID
+ * token as a bearer credential and re-verify its signature against Auth0's
+ * public JWKS before trusting the identity it carries. Both routes are
+ * Netlify Functions and simply 404 on the static S3 deploys; the features
+ * they back (commenting on the Bluesky bridge as a VIS attendee, saving a
+ * linked Bluesky handle) degrade to "signed out" there, same as a 401.
+ */
 
-type Auth0Config = {
-  appBaseUrl: string;
+export type Auth0Config = {
   clientId: string;
-  clientSecret: string;
-  connection: string;
   domain: string;
   issuer: string;
-  sessionSecret: string;
   /** Credentials for the Management API; default to the app's own. */
   managementClientId: string;
   managementClientSecret: string;
@@ -52,18 +56,6 @@ function readBskyHandle(value: unknown): string | undefined {
   return typeof value === "string" && value.trim() ? value.trim() : undefined;
 }
 
-export type AuthTransaction = {
-  nonce: string;
-  returnTo: string;
-  state: string;
-};
-
-export const AUTH_SESSION_COOKIE = "vis2026_session";
-export const AUTH_TRANSACTION_COOKIE = "vis2026_auth_transaction";
-
-const SESSION_MAX_AGE_SECONDS = 60 * 60 * 8;
-const TRANSACTION_MAX_AGE_SECONDS = 60 * 10;
-
 function getOptionalEnv(name: string) {
   // Astro loads values from .env into import.meta.env for local development.
   // Netlify exposes runtime values through process.env in the server function.
@@ -82,169 +74,61 @@ function getRequiredEnv(name: string) {
 function normalizeDomain(domain: string) {
   const normalized = domain.replace(/^https:\/\//, "").replace(/\/$/, "");
   if (!/^[a-z0-9.-]+$/i.test(normalized)) {
-    throw new Error("AUTH0_DOMAIN must be a hostname, without a path.");
+    throw new Error("PUBLIC_AUTH0_DOMAIN must be a hostname, without a path.");
   }
   return normalized;
 }
 
-export function getAuth0Config(requestUrl: URL): Auth0Config {
-  // Derived from the request rather than a configured APP_BASE_URL: it can't
-  // drift out of sync with reality, and it makes every deploy (localhost,
-  // production, each ephemeral PR preview) work without per-environment
-  // setup. Auth0's own Allowed Callback URLs allow-list is still the actual
-  // security boundary, so a mismatched or spoofed origin here just fails at
-  // Auth0, not a redirect to an attacker-controlled URL.
-  const appBaseUrl = `${requestUrl.origin}${import.meta.env.BASE_URL.replace(/\/$/, "")}`;
-
-  const sessionSecret = getRequiredEnv("AUTH0_SESSION_SECRET");
-  if (sessionSecret.length < 32) {
-    throw new Error(
-      "AUTH0_SESSION_SECRET must be at least 32 characters long.",
-    );
-  }
-
-  const domain = normalizeDomain(getRequiredEnv("AUTH0_DOMAIN"));
-  const clientId = getRequiredEnv("AUTH0_CLIENT_ID");
-  const clientSecret = getRequiredEnv("AUTH0_CLIENT_SECRET");
+export function getAuth0Config(): Auth0Config {
+  // Not a secret: these are the same values the SPA client in `./auth0Client.ts`
+  // sends to the browser, reused here so the two never drift apart.
+  const domain = normalizeDomain(getRequiredEnv("PUBLIC_AUTH0_DOMAIN"));
+  const clientId = getRequiredEnv("PUBLIC_AUTH0_CLIENT_ID");
   return {
-    appBaseUrl,
     clientId,
-    clientSecret,
-    connection: getRequiredEnv("AUTH0_CONNECTION"),
     domain,
     issuer: `https://${domain}/`,
-    sessionSecret,
     managementClientId:
       getOptionalEnv("AUTH0_MANAGEMENT_CLIENT_ID") ?? clientId,
     managementClientSecret:
-      getOptionalEnv("AUTH0_MANAGEMENT_CLIENT_SECRET") ?? clientSecret,
+      getOptionalEnv("AUTH0_MANAGEMENT_CLIENT_SECRET") ?? "",
   };
 }
 
-function getCookiePath() {
-  const basePath = import.meta.env.BASE_URL.replace(/\/$/, "");
-  return basePath || "/";
-}
-
-function cookieOptions(maxAge: number) {
-  return {
-    httpOnly: true,
-    maxAge,
-    path: getCookiePath(),
-    sameSite: "lax" as const,
-    secure: !import.meta.env.DEV,
-  };
-}
-
-function encryptionKey(secret: string) {
-  return createHash("sha256").update(secret).digest();
-}
-
-function randomValue() {
-  return randomBytes(32).toString("base64url");
-}
-
-export function getAppUrl(config: Auth0Config, relativePath: string) {
-  const baseUrl = `${config.appBaseUrl}/`;
-  return new URL(relativePath.replace(/^\//, ""), baseUrl).toString();
-}
+let jwks: ReturnType<typeof createRemoteJWKSet> | undefined;
 
 /**
- * Build a same-site link to the login route that returns the user to
- * `url` once they've signed in. Used by any page that gates a piece of
- * content (a PDF link, a video embed) behind authentication.
+ * The attendee identified by a bearer `Authorization` header, or undefined
+ * if the header is missing, malformed, or fails verification — an
+ * unauthenticated request looks exactly like an invalid one, which is the
+ * right behavior for both.
  */
-export function buildLoginUrl(url: URL) {
-  const base = import.meta.env.BASE_URL.replace(/\/$/, "");
-  const pathWithoutBase = url.pathname.startsWith(base)
-    ? url.pathname.slice(base.length) || "/"
-    : url.pathname;
-
-  const loginUrl = new URL(`${base}/auth/login`, url.origin);
-  loginUrl.searchParams.set("returnTo", `${pathWithoutBase}${url.search}`);
-  return `${loginUrl.pathname}${loginUrl.search}`;
-}
-
-export async function createTransaction(
+export async function verifyBearerIdToken(
   config: Auth0Config,
-  returnTo: string,
-): Promise<AuthTransaction & { token: string }> {
-  const transaction: AuthTransaction = {
-    nonce: randomValue(),
-    returnTo: safeReturnTo(returnTo),
-    state: randomValue(),
-  };
-
-  const token = await new EncryptJWT(transaction)
-    .setProtectedHeader({ alg: "dir", enc: "A256GCM" })
-    .setIssuedAt()
-    .setExpirationTime(`${TRANSACTION_MAX_AGE_SECONDS}s`)
-    .encrypt(encryptionKey(config.sessionSecret));
-
-  return { ...transaction, token };
-}
-
-export async function readTransaction(
-  config: Auth0Config,
-  token: string | undefined,
-): Promise<AuthTransaction | undefined> {
-  if (!token) {
-    return undefined;
-  }
-
-  try {
-    const { payload } = await jwtDecrypt(
-      token,
-      encryptionKey(config.sessionSecret),
-    );
-    if (
-      typeof payload.state !== "string" ||
-      typeof payload.nonce !== "string" ||
-      typeof payload.returnTo !== "string"
-    ) {
-      return undefined;
-    }
-    return {
-      nonce: payload.nonce,
-      returnTo: safeReturnTo(payload.returnTo),
-      state: payload.state,
-    };
-  } catch {
-    return undefined;
-  }
-}
-
-export async function createSession(
-  config: Auth0Config,
-  user: AuthenticatedUser,
-) {
-  return new EncryptJWT(user)
-    .setProtectedHeader({ alg: "dir", enc: "A256GCM" })
-    .setIssuedAt()
-    .setExpirationTime(`${SESSION_MAX_AGE_SECONDS}s`)
-    .encrypt(encryptionKey(config.sessionSecret));
-}
-
-export async function readSession(
-  cookies: Cookies,
-  requestUrl: URL,
+  authorizationHeader: string | null,
 ): Promise<AuthenticatedUser | undefined> {
-  const token = cookies.get(AUTH_SESSION_COOKIE)?.value;
+  const token = authorizationHeader?.startsWith("Bearer ")
+    ? authorizationHeader.slice("Bearer ".length).trim()
+    : undefined;
   if (!token) {
     return undefined;
   }
 
   try {
-    const config = getAuth0Config(requestUrl);
-    const { payload } = await jwtDecrypt(
-      token,
-      encryptionKey(config.sessionSecret),
+    jwks ??= createRemoteJWKSet(
+      new URL(`${config.issuer}.well-known/jwks.json`),
     );
+    const { payload } = await jwtVerify(token, jwks, {
+      audience: config.clientId,
+      issuer: config.issuer,
+    });
     if (typeof payload.sub !== "string") {
       return undefined;
     }
     return {
-      bskyHandle: readBskyHandle(payload.bskyHandle),
+      // Set by the Auth0 Login Action documented on BSKY_HANDLE_CLAIM; absent
+      // for attendees who have not linked a Bluesky account.
+      bskyHandle: readBskyHandle(payload[BSKY_HANDLE_CLAIM]),
       email: typeof payload.email === "string" ? payload.email : undefined,
       name: typeof payload.name === "string" ? payload.name : undefined,
       sub: payload.sub,
@@ -252,103 +136,6 @@ export async function readSession(
   } catch {
     return undefined;
   }
-}
-
-export function setTransactionCookie(cookies: Cookies, token: string) {
-  cookies.set(
-    AUTH_TRANSACTION_COOKIE,
-    token,
-    cookieOptions(TRANSACTION_MAX_AGE_SECONDS),
-  );
-}
-
-export function setSessionCookie(cookies: Cookies, token: string) {
-  cookies.set(
-    AUTH_SESSION_COOKIE,
-    token,
-    cookieOptions(SESSION_MAX_AGE_SECONDS),
-  );
-}
-
-export function clearTransactionCookie(cookies: Cookies) {
-  cookies.delete(AUTH_TRANSACTION_COOKIE, cookieOptions(0));
-}
-
-export function clearSessionCookie(cookies: Cookies) {
-  cookies.delete(AUTH_SESSION_COOKIE, cookieOptions(0));
-}
-
-export async function verifyAuth0IdToken(
-  config: Auth0Config,
-  idToken: string,
-  expectedNonce: string,
-): Promise<AuthenticatedUser> {
-  const jwks = createRemoteJWKSet(
-    new URL(`${config.issuer}.well-known/jwks.json`),
-  );
-  const { payload } = await jwtVerify(idToken, jwks, {
-    audience: config.clientId,
-    issuer: config.issuer,
-  });
-
-  if (payload.nonce !== expectedNonce || typeof payload.sub !== "string") {
-    throw new Error("The Auth0 ID token did not match this login transaction.");
-  }
-
-  return {
-    // Set by the Auth0 Login Action documented on BSKY_HANDLE_CLAIM; absent
-    // for attendees who have not linked a Bluesky account.
-    bskyHandle: readBskyHandle(payload[BSKY_HANDLE_CLAIM]),
-    email: typeof payload.email === "string" ? payload.email : undefined,
-    name: typeof payload.name === "string" ? payload.name : undefined,
-    sub: payload.sub,
-  };
-}
-
-export async function exchangeAuthorizationCode(
-  config: Auth0Config,
-  code: string,
-) {
-  const response = await fetch(`${config.issuer}oauth/token`, {
-    body: new URLSearchParams({
-      client_id: config.clientId,
-      client_secret: config.clientSecret,
-      code,
-      grant_type: "authorization_code",
-      redirect_uri: getAppUrl(config, "/auth/callback"),
-    }),
-    headers: { "content-type": "application/x-www-form-urlencoded" },
-    method: "POST",
-  });
-
-  if (!response.ok) {
-    throw new Error(
-      `Auth0 token exchange failed with status ${response.status}.`,
-    );
-  }
-
-  const result = (await response.json()) as { id_token?: unknown };
-  if (typeof result.id_token !== "string") {
-    throw new Error("Auth0 did not return an ID token.");
-  }
-  return result.id_token;
-}
-
-export function getAuthorizeUrl(
-  config: Auth0Config,
-  transaction: AuthTransaction,
-) {
-  const authorizeUrl = new URL(`${config.issuer}authorize`);
-  authorizeUrl.search = new URLSearchParams({
-    client_id: config.clientId,
-    connection: config.connection,
-    nonce: transaction.nonce,
-    redirect_uri: getAppUrl(config, "/auth/callback"),
-    response_type: "code",
-    scope: "openid profile email",
-    state: transaction.state,
-  }).toString();
-  return authorizeUrl.toString();
 }
 
 /** The canonical form of a handle from a request body, or undefined if it is no handle. */
@@ -372,6 +159,12 @@ let managementToken: { value: string; expiresAt: number } | undefined;
 async function getManagementToken(config: Auth0Config) {
   if (managementToken && managementToken.expiresAt > Date.now() + 60_000) {
     return managementToken.value;
+  }
+
+  if (!config.managementClientSecret) {
+    throw new Error(
+      "Missing required environment variable: AUTH0_MANAGEMENT_CLIENT_SECRET",
+    );
   }
 
   const response = await fetch(`${config.issuer}oauth/token`, {
@@ -409,7 +202,7 @@ async function getManagementToken(config: Auth0Config) {
 /**
  * Store the attendee's Bluesky handle as `user_metadata.bsky_handle`, which
  * is what the Login Action documented on BSKY_HANDLE_CLAIM surfaces on their
- * next sign-in. The caller re-issues the session so it takes effect now.
+ * next sign-in (and so the next ID token `verifyBearerIdToken` checks).
  */
 export async function saveBskyHandle(
   config: Auth0Config,
@@ -431,13 +224,4 @@ export async function saveBskyHandle(
   if (!response.ok) {
     throw new Error(`Auth0 user update failed with status ${response.status}.`);
   }
-}
-
-export function getLogoutUrl(config: Auth0Config) {
-  const logoutUrl = new URL(`${config.issuer}v2/logout`);
-  logoutUrl.search = new URLSearchParams({
-    client_id: config.clientId,
-    returnTo: getAppUrl(config, "/"),
-  }).toString();
-  return logoutUrl.toString();
 }
