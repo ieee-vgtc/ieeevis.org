@@ -14,7 +14,7 @@
  */
 
 import { useState } from "react";
-import type { CSSProperties } from "react";
+import type { CSSProperties, ReactNode } from "react";
 import Avatar from "./Avatar";
 import { EmbedCard, EmbedImages } from "./Embeds";
 import {
@@ -73,6 +73,22 @@ export interface PostOwnContext {
   onRemove: (postUri: string) => void;
 }
 
+/**
+ * The per-post Reply control, lifted to the discussion so one composer is open
+ * at a time and posts through whichever writing mode the reader has.
+ *
+ *  - `canReplyTo` — whether this post can take a reply yet.
+ *  - `openUri` — the post whose composer is open, or null.
+ *  - `onToggle` — open the composer under the given post, or close it.
+ *  - `renderComposer` — the composer for a reply to the given post.
+ */
+export interface PostReplyContext {
+  canReplyTo: (post: ShapedPost) => boolean;
+  openUri: string | null;
+  onToggle: (post: ShapedPost) => void;
+  renderComposer: (post: ShapedPost) => ReactNode;
+}
+
 interface PostCardProps {
   post: ShapedPost;
   /** "root" is the post a thread hangs off; "reply" is everything below it. */
@@ -80,6 +96,8 @@ interface PostCardProps {
   like?: PostLikeContext;
   /** Shared own-comment state; absent where the reader may not write. */
   own?: PostOwnContext;
+  /** Shared reply state; absent where the reader may not write here. */
+  reply?: PostReplyContext;
   /**
    * Drop the card's own border, corners and background so it can sit inside
    * another bordered container (e.g. the announcement + Bluesky-callout box).
@@ -278,6 +296,7 @@ export default function PostCard({
   variant = "reply",
   like,
   own,
+  reply,
   bare = false,
 }: PostCardProps) {
   const isRoot = variant === "root";
@@ -302,8 +321,10 @@ export default function PostCard({
     ? new Date(post.createdAt).toLocaleString()
     : undefined;
   const reposts = post.repostCount || 0;
+  const replyable = !isRoot && reply !== undefined && reply.canReplyTo(post);
   const hasFooter =
     isRoot ||
+    replyable ||
     Boolean(like) ||
     (Boolean(own?.canRemove) && removable) ||
     reposts > 0;
@@ -378,6 +399,16 @@ export default function PostCard({
           }}
         >
           <LikeControl isRoot={isRoot} like={like} post={post} />
+          {replyable && (
+            <button
+              aria-expanded={reply.openUri === post.uri}
+              onClick={() => reply.onToggle(post)}
+              style={plainChipStyle}
+              type="button"
+            >
+              Reply
+            </button>
+          )}
           {!isRoot && (
             <RemoveControl own={own} post={post} removable={removable} />
           )}

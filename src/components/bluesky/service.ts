@@ -67,6 +67,7 @@ export interface ServiceClient {
     token: string,
     text: string,
     anonymous: boolean,
+    parentUri?: string,
   ): Promise<Response>;
   setLike(
     paperId: string,
@@ -155,14 +156,17 @@ export function createServiceClient(bases: string[]): ServiceClient {
       });
     },
 
-    postComment(paperId, token, text, anonymous) {
+    // Without `parentUri` the comment replies to the announcement. With it, the
+    // parent may be any post the thread response carries; the service checks
+    // it again on write and answers 400 when it is gone.
+    postComment(paperId, token, text, anonymous, parentUri) {
       return request(threadPath(paperId, "/comments"), {
         method: "POST",
         headers: {
           authorization: `Bearer ${token}`,
           "content-type": "application/json",
         },
-        body: JSON.stringify({ text, anonymous }),
+        body: JSON.stringify({ text, anonymous, parentUri }),
       });
     },
 
