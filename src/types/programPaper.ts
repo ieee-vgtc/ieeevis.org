@@ -24,10 +24,29 @@ export type ProgramPaperCard = {
   award: string | null;
   // Journal-first TVCG paper presented at the conference.
   isTvcg?: boolean;
+  /** Overrides the card's kind label (e.g. "Keynote"). */
+  eyebrow?: string;
+  /** For talks with no paper page; such cards are not bookmarkable. */
+  titleHref?: string;
+};
+
+/** A session someone chairs, or an event someone organizes. */
+export type ProgramSessionRole = {
+  role: "Chair" | "Organizer";
+  /** e.g. "Session Chair", "Workshop Organizer". */
+  roleLabel: string;
+  people: string[];
+  sessionTitle: string;
+  sessionUrl: string;
+  scheduleLabel: string;
+  roomName: string;
+  startMs: number;
 };
 
 export type ProgramPapersBrowserProps = {
   papers: ProgramPaperCard[];
+  /** Chair/organizer cards, shown when a search names that person. */
+  sessionRoles?: ProgramSessionRole[];
   storageKeyPrefix?: string;
   itemType: string;
 };

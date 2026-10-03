@@ -25,6 +25,9 @@ export interface Paper {
   doi: string | null;
   fno: string | null;
 
+  // for satellite event support
+  presentation_location?: string;
+
   // Paper links
   pdf_url: string | null;
   preprint_link: string | null;

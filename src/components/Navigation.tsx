@@ -1,7 +1,7 @@
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import { withBaseURL } from "../utils/withBaseURL";
 import AccountMenu from "./AccountMenu";
-import Search from "./Search";
+import Search, { type ExternalSearchLink } from "./Search";
 
 function classNames(classes: { [key: string]: boolean }) {
   return Object.entries(classes)
@@ -18,6 +18,10 @@ export default function Navigation({
   page_info: any;
 }) {
   const [isExpanded, setIsExpanded] = useState<boolean>(false);
+  const externalLinks = useMemo(
+    () => collectExternalLinks(nav_data),
+    [nav_data],
+  );
   const [selectedDropDownIndex, setSelectedDropDownIndex] = useState<
     number | null
   >(null);
@@ -203,7 +207,7 @@ export default function Navigation({
               ),
           )}
           <div className="flex w-full items-center border-b-2 border-primary-200 md:h-full md:w-auto md:border-0">
-            <Search />
+            <Search externalLinks={externalLinks} />
             <AccountMenu />
           </div>
         </div>
@@ -219,6 +223,46 @@ export default function Navigation({
       )}
     </div>
   );
+}
+
+// Off-site destinations (VISAP, CLUSTER, challenges, …) that pagefind can't
+// index, gathered from the nav so search can still link out to them.
+function collectExternalLinks(nav_data: NavDataType): ExternalSearchLink[] {
+  const byUrl = new Map<string, ExternalSearchLink>();
+
+  for (const menu of nav_data.menu) {
+    if (!menu.display) continue;
+    for (const section of menu.sections) {
+      for (const subsection of section.subsections) {
+        for (const column of subsection.columns ?? []) {
+          for (const link of column.links) {
+            if (!link.is_external || !link.url) continue;
+            const existing = byUrl.get(link.url);
+            const context = [subsection.heading, column.heading]
+              .filter(Boolean)
+              .join(" ");
+            if (existing) {
+              existing.keywords += ` ${link.text} ${existing.text} ${context}`;
+              // Prefer the described entry (e.g. "Events" over "Contribute").
+              if (!existing.description && link.description) {
+                existing.text = link.text;
+                existing.description = link.description;
+              }
+            } else {
+              byUrl.set(link.url, {
+                text: link.text,
+                url: link.url,
+                description: link.description,
+                keywords: context,
+              });
+            }
+          }
+        }
+      }
+    }
+  }
+
+  return [...byUrl.values()];
 }
 
 type NavDataType = {

@@ -556,7 +556,16 @@ const frontmatter = {
       typeOptions={typeOptions}
       allCount={sessions.length}
       filterBarLabel="Session type filters"
-    />
+    >
+      <a
+        slot="heading-extra"
+        class="calendar-subscribe-link"
+        href="webcal://data.tech.ieeevis.org/functions/v1/calendar"
+      >
+        <i class="material-icons" aria-hidden="true">event</i>
+        Subscribe to this calendar
+      </a>
+    </ProgramHeader>
 
     <div class="calendar-timeline-scroll">
       <div
@@ -917,6 +926,11 @@ const frontmatter = {
   </section>
 
   <script>
+    import {
+      createUrlStateHistory,
+      type UrlStateWriteOptions,
+    } from "../../utils/urlStateHistory";
+
     (() => {
       const root = document.querySelector(".program-calendar");
       if (!root) return;
@@ -1190,6 +1204,26 @@ const frontmatter = {
         }
       };
 
+      // Mirror the calendar state into the query string so views can be
+      // shared/bookmarked. Defaults are omitted to keep URLs clean.
+      const syncUrlState = (options?: UrlStateWriteOptions) => {
+        const params = new URLSearchParams(window.location.search);
+        const setParam = (key: string, value: string, fallback: string) => {
+          if (value && value !== fallback) params.set(key, value);
+          else params.delete(key);
+        };
+        setParam("day", getSelectedDay(), "all");
+        setParam("type", activeTypeFilter, ALL_FILTER);
+        setParam(
+          "q",
+          searchInput instanceof HTMLInputElement ? searchInput.value.trim() : "",
+          "",
+        );
+        setParam("tz", getMode(), "conference");
+
+        urlHistory.write(params, options);
+      };
+
       const applyDayLayout = (selectedDay: string) => {
         const showRoomView = selectedDay !== "all";
 
@@ -1207,7 +1241,7 @@ const frontmatter = {
         }
       };
 
-      const applyFilters = () => {
+      const applyFilters = (options?: UrlStateWriteOptions) => {
         const selectedDay = getSelectedDay();
         const query = getSearchQuery();
 
@@ -1222,6 +1256,8 @@ const frontmatter = {
             "[data-session-card]:not([hidden])",
           );
         }
+
+        syncUrlState(options);
       };
 
       // ── Cluster overlay interaction ────────────────────────────────
@@ -1440,18 +1476,53 @@ const frontmatter = {
 
       if (searchInput instanceof HTMLInputElement) {
         searchInput.addEventListener("input", () => {
-          applyFilters();
+          applyFilters({ burst: "search" });
         });
       }
 
       const savedMode = localStorage.getItem(localStorageKey);
-      if (
-        savedMode === "conference" ||
-        savedMode === "local" ||
-        savedMode === "both"
-      ) {
-        setChoiceValue(timezoneControl, savedMode);
-      }
+
+      const isTimezoneMode = (value: string | null) =>
+        value === "conference" || value === "local" || value === "both";
+
+      const restoreFromUrl = (
+        params: URLSearchParams,
+        fallbackMode: string,
+      ) => {
+        const urlMode = params.get("tz");
+        setChoiceValue(
+          timezoneControl,
+          urlMode && isTimezoneMode(urlMode) ? urlMode : fallbackMode,
+        );
+        const urlDay = params.get("day") || "all";
+        if (!setChoiceValue(dayFilterControl, urlDay)) {
+          setChoiceValue(dayFilterControl, "all");
+        }
+        const urlType = params.get("type") || ALL_FILTER;
+        activeTypeFilter = filterButtons.some(
+          (button) => button.dataset.typeFilter === urlType,
+        )
+          ? urlType
+          : ALL_FILTER;
+        if (searchInput instanceof HTMLInputElement) {
+          searchInput.value = params.get("q") || "";
+        }
+      };
+
+      // On Back/Forward, a missing param means its default: the initial load
+      // always writes a non-default timezone into the URL.
+      const urlHistory = createUrlStateHistory((params) => {
+        restoreFromUrl(params, "conference");
+        refreshFilterButtonState();
+        refreshTimeRanges();
+        applyFilters();
+      });
+
+      // URL state takes precedence over saved preferences.
+      restoreFromUrl(
+        new URLSearchParams(window.location.search),
+        isTimezoneMode(savedMode) ? savedMode! : "conference",
+      );
 
       if (timezoneControl) {
         const timezoneButtons = Array.from(
@@ -1466,6 +1537,7 @@ const frontmatter = {
             if (!value || !setChoiceValue(timezoneControl, value)) return;
             localStorage.setItem(localStorageKey, value);
             refreshTimeRanges();
+            syncUrlState();
           });
         }
 
@@ -1477,6 +1549,7 @@ const frontmatter = {
           if (!setChoiceValue(timezoneControl, value)) return;
           localStorage.setItem(localStorageKey, value);
           refreshTimeRanges();
+          syncUrlState();
         });
       }
 
@@ -1525,7 +1598,7 @@ const frontmatter = {
 
       refreshFilterButtonState();
       refreshTimeRanges();
-      applyFilters();
+      applyFilters({ replace: true });
     })();
   </script>
 </PageLayout>

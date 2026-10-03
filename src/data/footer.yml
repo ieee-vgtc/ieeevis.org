@@ -96,9 +96,13 @@ columns:
   - section:
       - heading: "Social media"
         links:
-          - text: "Mastodon"
-            url: "https://vis.social/@ieeevis"
-          - text: "Facebook"
-            url: "https://www.facebook.com/ieeevis"
           - text: "X (Twitter)"
             url: "https://twitter.com/ieeevis"
+          - text: "Mastodon"
+            url: "https://vis.social/@ieeevis"
+          - text: "Bluesky"
+            url: "https://bsky.app/profile/ieeevis.org"
+          - text: "LinkedIn"
+            url: "https://www.linkedin.com/company/ieeevis"
+          - text: "Email List"
+            url: "https://ieeevis.us20.list-manage.com/subscribe?u=874d4e627b4758f4438963e98&id=6c036e3c40"
