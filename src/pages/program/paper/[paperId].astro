@@ -349,7 +349,7 @@ const frontmatter = {
                 </span>
               )}
             </dd>
-            <dt>Location</dt>
+            <dt>Room</dt>
             <dd>
               {presentationDetails.room}
               {presentationDetails.mode && (
@@ -359,6 +359,12 @@ const frontmatter = {
                 </span>
               )}
             </dd>
+            {paper.presentation_location && (
+              <>
+                <dt>Presenting from</dt>
+                <dd>{paper.presentation_location}</dd>
+              </>
+            )}
           </dl>
         </div>
       )
