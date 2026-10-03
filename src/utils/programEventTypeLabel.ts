@@ -22,6 +22,7 @@ export function getProgramEventTypeLabel(eventType: string): string {
     associated: "Associated Events",
     meetup: "Meetups",
     keynote: "Keynotes",
+    "invited-talk": "Keynotes & VISions",
     other: "Other",
   };
 

@@ -71,7 +71,8 @@ export default function BlueskyLogin({
       <div style={bandStyle}>
         <span style={messageStyle}>
           <span>
-            🦋 You are logged in to Bluesky as @{session.writer.profile.handle}.
+            <BlueskyIcon /> You are logged in to Bluesky as @
+            {session.writer.profile.handle}.
           </span>
           <span style={reasonStyle}>
             Your comments and likes are posted from your own account.
@@ -91,9 +92,15 @@ export default function BlueskyLogin({
     return (
       <div style={bandStyle}>
         <span style={messageStyle}>
-          {session.status === "restoring"
-            ? "🦋 Restoring your Bluesky login…"
-            : "🦋 This discussion is also on Bluesky."}
+          {session.status === "restoring" ? (
+            <>
+              <BlueskyIcon /> Restoring your Bluesky login…
+            </>
+          ) : (
+            <>
+              <BlueskyIcon /> This discussion is also on Bluesky.
+            </>
+          )}
         </span>
         {viewLink}
       </div>
@@ -107,7 +114,9 @@ export default function BlueskyLogin({
       >
         <form onSubmit={submit} style={actionsStyle}>
           <label htmlFor={inputId} style={{ fontWeight: 600 }}>
-            🦋 Your handle
+            <>
+              <BlueskyIcon /> Your handle
+            </>
           </label>
           <input
             autoComplete="username"
@@ -148,9 +157,15 @@ export default function BlueskyLogin({
     <div style={bandStyle}>
       <span style={messageStyle}>
         <span>
-          {linkedHandle
-            ? `🦋 You have a Bluesky account, @${linkedHandle}.`
-            : "🦋 Do you have a Bluesky account?"}
+          {linkedHandle ? (
+            <>
+              <BlueskyIcon /> You have a Bluesky account, @{linkedHandle}.
+            </>
+          ) : (
+            <>
+              <BlueskyIcon /> Do you have a Bluesky account?
+            </>
+          )}
         </span>
         <span style={reasonStyle}>
           Log in to comment and like from your own account instead of as a VIS
@@ -202,6 +217,27 @@ export default function BlueskyLogin({
   );
 }
 
+function BlueskyIcon() {
+  return (
+    <img
+      aria-hidden="true"
+      alt=""
+      height="18"
+      style={blueskyIconStyle}
+      src={`${import.meta.env.BASE_URL.replace(/\/?$/, "/")}assets/theme/bluesky-logo.svg`}
+      width="18"
+    />
+  );
+}
+
+const blueskyIconStyle: CSSProperties = {
+  display: "inline-block",
+  width: "1.05em",
+  height: "1.05em",
+  marginRight: "0.2em",
+  verticalAlign: "-0.15em",
+};
+
 /** The shaded footer band of the announcement card. */
 const bandStyle: CSSProperties = {
   display: "flex",
@@ -210,9 +246,9 @@ const bandStyle: CSSProperties = {
   flexWrap: "wrap",
   gap: "0.5rem 0.75rem",
   padding: "0.7rem 0.9rem",
-  borderTop: "1px solid #bfdbfe",
-  backgroundColor: "#eff6ff",
-  color: "#1e3a8a",
+  borderTop: "1px solid var(--color-gray-300)",
+  backgroundColor: "color-mix(in srgb, var(--color-accent) 8%, white)",
+  color: "var(--color-accent)",
   fontSize: "0.9rem",
 };
 
@@ -226,7 +262,7 @@ const messageStyle: CSSProperties = {
 const reasonStyle: CSSProperties = {
   fontWeight: 400,
   fontSize: "0.82rem",
-  color: "#1e40af",
+  color: "var(--color-gray-700)",
 };
 
 const actionsStyle: CSSProperties = {
@@ -239,17 +275,17 @@ const actionsStyle: CSSProperties = {
 const inputStyle: CSSProperties = {
   flex: "1 1 12rem",
   padding: "0.35rem 0.6rem",
-  border: "1px solid #93c5fd",
+  border: "1px solid var(--color-gray-400)",
   borderRadius: "0.5rem",
   fontFamily: "inherit",
   fontSize: "0.9rem",
 };
 
-/** The secondary button, in the band's own blue. */
+/** The secondary button, in the band's own accent tint. */
 const buttonStyle: CSSProperties = {
   ...secondaryButtonStyle,
-  border: "1px solid #93c5fd",
-  color: "#1e3a8a",
+  border: "1px solid var(--color-gray-400)",
+  color: "var(--color-accent)",
 };
 
 /** A link-like button for the rare case, so it does not compete with the real one. */
@@ -257,7 +293,7 @@ const textButtonStyle: CSSProperties = {
   border: "none",
   background: "none",
   padding: 0,
-  color: "#1e40af",
+  color: "var(--color-accent)",
   cursor: "pointer",
   fontFamily: "inherit",
   fontSize: "0.82rem",
@@ -267,7 +303,7 @@ const textButtonStyle: CSSProperties = {
 // The site's prose links carry a dashed border-bottom (.content a); this one
 // sits in a band, so it draws none.
 const viewLinkStyle: CSSProperties = {
-  color: "#1e3a8a",
+  color: "var(--color-accent)",
   fontWeight: 600,
   textDecoration: "none",
   borderBottom: "none",

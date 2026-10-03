@@ -15,6 +15,7 @@ export async function getStaticPaths() {
   return papers.map((paper) => ({ params: { paperId: paper.id } }));
 }
 
+// TODO: Either move to a shared config, or fetch from DB
 const EVENT_PREFIX_LABELS: Record<string, string> = {
   "v-full": "VIS Full Papers",
   "v-short": "VIS Short Papers",
@@ -22,6 +23,7 @@ const EVENT_PREFIX_LABELS: Record<string, string> = {
   "v-tvcg": "TVCG Papers",
 };
 
+// TODO: Either move to a shared config, or fetch from DB
 // Maps event_prefix to the event_type used by sessions.astro filter pills
 const EVENT_PREFIX_TO_TYPE: Record<string, string> = {
   "v-full": "full",
@@ -149,11 +151,6 @@ const eventUrl = workshopSession
     )
   : withBaseURL(`/program/sessions/?type=${encodeURIComponent(eventType)}`);
 
-const awardLabel =
-  paper.award === "best"
-    ? "\uD83C\uDFC6 Best Paper Award"
-    : "\uD83C\uDF96\uFE0F Honorable Mention";
-
 // Video embeds are on hold until session_youtube_url / session_bunny_prerecorded_link
 // (etc.) are actually populated in the paper data. Re-enable this alongside the
 // "Video" section and .video-embed styles below once that data is available.
@@ -202,11 +199,12 @@ const frontmatter = {
   ogImageAlt: `Social card for the IEEE VIS 2026 paper “${paper.title}”.`,
   active_nav: "Program",
   contact: "web@ieeevis.org",
+  full_width: true,
 };
 ---
 
 <PageLayout frontmatter={frontmatter}>
-  <div class="prose max-w-4xl">
+  <div class="paper-page prose w-full max-w-none">
     <!-- Breadcrumb navigation with bookmark at end -->
     <nav class="breadcrumb not-prose" aria-label="Breadcrumb">
       <ol class="breadcrumb__list">
@@ -274,40 +272,55 @@ const frontmatter = {
       </button>
     </nav>
 
-    <h1>{paper.title}</h1>
-
-    <!-- Award badge -->
-    {paper.award && <p class="award-badge not-prose">{awardLabel}</p>}
-
-    <!-- Authors -->
-    <div class="mb-6">
-      <h2>Authors</h2>
-      <p>
+    <header class="paper-hero not-prose">
+      <div class="paper-hero__heading">
+        <div class="paper-hero__eyebrow">
+          <span class="paper-kicker">{eventLabel}</span>
+          {paper.award && (
+            <span class="award-badge">
+              <span>{paper.award}</span>
+            </span>
+          )}
+        </div>
+        <h1>{paper.title}</h1>
+        <div class="paper-hero__meta" aria-label="Paper metadata">
+          <p>
+            {
+              paper.authors.map((a, idx) => {
+                return (
+                  <span>
+                    <a
+                      href={withBaseURL(
+                        `/program/papers/?search=${encodeURIComponent(a.name)}`,
+                      )}
+                      class="text-accent underline decoration-accent-200 decoration-solid underline-offset-3 hover:text-accent-700 focus-visible:text-accent-700"
+                    >
+                      {a.name}
+                    </a>
+                    {a.affiliation && <span>{` (${a.affiliation})`}</span>}
+                    {idx < paper.authors.length - 1 ? ", " : ""}
+                  </span>
+                );
+              })
+            }
+          </p>
+        </div>
         {
-          paper.authors.map((a, idx) => {
-            return (
-              <span>
-                <a
-                  href={withBaseURL(
-                    `/program/papers/?search=${encodeURIComponent(a.name)}`,
-                  )}
-                  class="text-accent underline decoration-accent-200 decoration-solid underline-offset-3 hover:text-accent-700 focus-visible:text-accent-700"
-                >
-                  {a.name}
-                </a>
-                {a.affiliation && <span>{` (${a.affiliation})`}</span>}
-                {idx < paper.authors.length - 1 ? ", " : ""}
-              </span>
-            );
-          })
+          paper.keywords.length > 0 && (
+            <div class="paper-keywords" aria-label="Keywords">
+              {paper.keywords.map((keyword) => (
+                <span>{keyword}</span>
+              ))}
+            </div>
+          )
         }
-      </p>
-    </div>
+      </div>
+    </header>
 
     <!-- Presentation: session, time, and location -->
     {
       presentation && presentationDetails && (
-        <div class="mb-6">
+        <div class="paper-section paper-presentation mb-6">
           <h2>Presentation</h2>
           <dl class="presentation-details">
             <dt>Session</dt>
@@ -325,7 +338,7 @@ const frontmatter = {
                 </span>
               )}
             </dd>
-            <dt>Location</dt>
+            <dt>Room</dt>
             <dd>
               {presentationDetails.room}
               {presentationDetails.mode && (
@@ -335,6 +348,12 @@ const frontmatter = {
                 </span>
               )}
             </dd>
+            {paper.presentation_location && (
+              <>
+                <dt>Presenting from</dt>
+                <dd>{paper.presentation_location}</dd>
+              </>
+            )}
           </dl>
         </div>
       )
@@ -411,26 +430,17 @@ const frontmatter = {
     }
     -->
 
-    <!-- Keywords -->
-    {
-      paper.keywords.length > 0 && (
-        <div class="mb-6">
-          <h2>Keywords</h2>
-          <p>{paper.keywords?.join(", ") || "N/A"}</p>
-        </div>
-      )
-    }
-
     <!-- Abstract -->
-    <div class="mb-6">
+    <div class="paper-section paper-abstract mb-6">
       <h2>Abstract</h2>
       <p>{paper.abstract || "TBD"}</p>
     </div>
 
     <!-- For Practitioners -->
+
     {
       paper.practitioners_statement && (
-        <div class="mb-6">
+        <div class="paper-section paper-abstract mb-6">
           <h2>For Practitioners</h2>
           <p>{paper.practitioners_statement}</p>
         </div>
@@ -440,8 +450,12 @@ const frontmatter = {
     <!-- Bluesky discussion: thread of replies to this paper's announcement
          post, proxied through bsky.tech.ieeevis.org so it loads on any
          conference network. Sortable by upvotes or recency. -->
-    <div class="mb-6 not-prose">
-      <BlueskyDiscussion client:visible paperId={paper.id} />
+
+    <div class="paper-section paper-links mb-6">
+          <h2>Discussion</h2>
+          <!-- <BlueskyDiscussion showPost={false} paperId="test-bsky-9999" client:load /> -->
+          <BlueskyDiscussion showPost={false} paperId={paper.id} client:load />
+
     </div>
   </div>
 </PageLayout>
@@ -498,6 +512,170 @@ const frontmatter = {
 </script>
 
 <style>
+  .paper-page {
+    color: var(--color-primary-900);
+    padding-bottom: 4rem;
+  }
+
+  .paper-hero {
+    max-width: 62rem;
+    margin: 0 auto 2.5rem;
+    padding: clamp(1.5rem, 4vw, 3.5rem);
+    background: linear-gradient(135deg, #fffdf8 0%, #f4eee5 100%);
+    border: 1px solid #e5ddd2;
+    border-radius: 1.25rem;
+    box-shadow: 0 1rem 2.5rem rgb(59 53 47 / 8%);
+  }
+
+  .paper-hero h1 {
+    max-width: 52rem;
+    margin: 0;
+    font-size: clamp(1.65rem, 2.4vw, 2.25rem);
+    line-height: 1.12;
+    letter-spacing: -0.025em;
+  }
+
+  .paper-hero__meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
+    margin-top: 1.25rem;
+    color: var(--color-gray-700);
+    font-size: 0.9rem;
+  }
+
+  .paper-hero__meta > span + span::before {
+    content: "•";
+    margin-right: 1rem;
+    color: #c8bcae;
+  }
+
+  .paper-kicker {
+    margin: 0 0 0.75rem;
+    color: var(--color-accent);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .paper-hero__eyebrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.9rem;
+    border-bottom: 1px solid rgb(118 80 11 / 14%);
+  }
+
+  .paper-hero__eyebrow .paper-kicker {
+    margin: 0;
+  }
+
+  .paper-section {
+    max-width: 62rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .paper-section h2 {
+    color: var(--color-primary-800);
+    font-size: 1.15rem;
+    letter-spacing: 0.02em;
+  }
+
+  .paper-authors,
+  .paper-presentation,
+  .paper-links {
+    padding: 1.25rem 1.5rem;
+    border: 1px solid #e5ddd2;
+    border-radius: 0.75rem;
+    background: #fff;
+    box-shadow: 0 0.35rem 1.25rem rgb(59 53 47 / 4%);
+  }
+
+  .paper-authors,
+  .paper-presentation {
+    margin-bottom: 1.5rem !important;
+  }
+
+  .paper-authors p,
+  .paper-presentation dl,
+  .paper-links ul {
+    margin-bottom: 0;
+  }
+
+  .paper-abstract {
+    max-width: 62rem;
+    padding: clamp(1.5rem, 3vw, 2.5rem);
+    border-left: 0.35rem solid var(--color-accent);
+    border-radius: 0 0.75rem 0.75rem 0;
+    background: #f7f3ed;
+  }
+
+  .paper-abstract p {
+    font-size: 1.05rem;
+    line-height: 1.75;
+  }
+
+  .paper-discussion {
+    max-width: 62rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .paper-keywords {
+    max-width: 52rem;
+    margin: 1.1rem 0 0;
+    color: var(--color-gray-700);
+    font-size: 0.85rem;
+  }
+
+  .paper-keywords span {
+    display: inline-block;
+    margin: 0.15rem 0.35rem 0.15rem 0;
+    padding: 0.2rem 0.55rem;
+    border: 1px solid #e5ddd2;
+    border-radius: 999px;
+    background: #faf8f4;
+  }
+
+  .paper-page > .award-badge {
+    display: block;
+    width: fit-content;
+    margin: 0 auto 1.5rem;
+  }
+
+  @media (max-width: 640px) {
+    .paper-page {
+      padding-bottom: 2rem;
+    }
+
+    .breadcrumb__current {
+      max-width: 20ch;
+    }
+
+    .paper-hero {
+      border-radius: 0.75rem;
+      padding: 1.5rem;
+    }
+
+    .paper-hero__meta {
+      gap: 0.35rem 0.75rem;
+    }
+
+    .paper-hero__meta > span + span::before {
+      margin-right: 0.75rem;
+    }
+
+    .paper-authors,
+    .paper-presentation,
+    .paper-links {
+      padding: 1rem;
+    }
+  }
+
   /* Presentation details */
   .presentation-details {
     display: grid;
@@ -576,17 +754,28 @@ const frontmatter = {
   .bookmark-icon-btn {
     flex-shrink: 0;
     background: none;
-    border: none;
+    border: 1px solid #d8cec1;
+    border-radius: 999px;
     cursor: pointer;
-    padding: 0.2rem;
+    padding: 0.45rem;
     color: #adb5bd;
     line-height: 0;
-    transition: color 0.15s;
+    transition:
+      color 0.15s,
+      background-color 0.15s,
+      border-color 0.15s;
     align-self: center;
   }
 
   .bookmark-icon-btn:hover {
     color: var(--color-accent);
+    border-color: var(--color-accent);
+    background: #fff8ef;
+  }
+
+  .bookmark-icon-btn:focus-visible {
+    outline: 3px solid color-mix(in srgb, var(--color-accent) 35%, transparent);
+    outline-offset: 2px;
   }
 
   .bookmark-icon-btn.bookmarked {
@@ -595,13 +784,44 @@ const frontmatter = {
 
   /* Award badge */
   .award-badge {
-    display: inline-block;
-    background: #fff3cd;
-    border: 1px solid #ffc107;
-    border-radius: 4px;
-    padding: 0.3rem 0.75rem;
-    font-size: 0.875rem;
-    margin-bottom: 1rem;
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.15rem;
+    padding: 0.4rem 0.85rem 0.4rem 0.5rem;
+    border: 1px solid #d8b35e;
+    border-radius: 0.65rem;
+    background: linear-gradient(135deg, #fffaf0, #ffedbd);
+    color: #684707;
+    box-shadow: 0 0.3rem 0.8rem rgb(118 80 11 / 12%);
+    font-size: 0.76rem;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    line-height: 1.2;
+    white-space: nowrap;
+  }
+
+  .award-badge__icon {
+    display: grid;
+    width: 1.35rem;
+    height: 1.35rem;
+    margin-right: 0.4rem;
+    place-items: center;
+    border-radius: 50%;
+    background: #d9ad4e;
+    color: #fffaf0;
+    font-size: 0.7rem;
+  }
+
+  @media (max-width: 640px) {
+    .paper-hero__eyebrow {
+      align-items: flex-start;
+      gap: 0.75rem;
+    }
+
+    .award-badge {
+      padding-inline: 0.6rem;
+      font-size: 0.7rem;
+    }
   }
 
   /* Links section - styled as prose, plain inline links */

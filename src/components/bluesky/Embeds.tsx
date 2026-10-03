@@ -33,7 +33,7 @@ export function EmbedImages({ images }: { images: EmbedImage[] }) {
             style={{
               width: "100%",
               borderRadius: "0.5rem",
-              border: "1px solid #e5e7eb",
+              border: "1px solid var(--color-gray-300)",
             }}
           />
         </a>
@@ -44,7 +44,7 @@ export function EmbedImages({ images }: { images: EmbedImage[] }) {
 
 const cardStyle = {
   display: "block",
-  border: "1px solid #e5e7eb",
+  border: "1px solid var(--color-gray-300)",
   borderRadius: "0.5rem",
   marginTop: "0.5rem",
   overflow: "hidden",
@@ -78,7 +78,9 @@ export function EmbedCard({ embed }: { embed?: PostEmbed | null }) {
             {embed.title}
           </strong>
           {embed.description && (
-            <small style={{ color: "#4b5563" }}>{embed.description}</small>
+            <small style={{ color: "var(--color-gray-600)" }}>
+              {embed.description}
+            </small>
           )}
         </div>
       </a>

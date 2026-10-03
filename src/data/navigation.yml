@@ -145,6 +145,9 @@ menu:
                   - text: "Final Information for Paper Authors"
                     url: "/info/presenter-information/final-information-paper-authors"
                     is_new: false
+                  - text: "Talk Guide"
+                    url: "/info/presenter-information/talk-guide"
+                    is_new: false
 
   # ---------------------------------------------------------------------------
 
@@ -274,9 +277,6 @@ menu:
       #               description: "Visit the VRVis GmbH"
       #               url: "/info/local-events/vrvis-lab-visit"
       #               is_new: false
-      #     - heading: "Code of Conduct"
-      #       description: "The IEEE VIS Code of Conduct"
-      #       heading_url: "/info/inclusion/code-of-conduct"
 
       - subsections:
           - heading: "Inclusion"
@@ -296,10 +296,6 @@ menu:
                     url: "/info/inclusion/viskids-child-care-grants"
                     is_new: false
 
-          - heading: "Code of Conduct"
-            heading_url: "/info/inclusion/code-of-conduct"
-            description:
-              "The IEEE VIS Code of Conduct"
               # - text: "Accessibility"
               #   description: "Supporting access for all attendees"
               #   url: "/info/accessibility/attend"
@@ -482,78 +478,78 @@ menu:
     display: true
     sections:
       - subsections:
-          - heading: "Previous Years"
-            description: "IEEE VIS conference websites in previous years"
-            display_style: "inline"
-            columns:
-              - heading: ""
-                links:
-                  - text: "2025"
-                    url: "https://ieeevis.org/year/2025/welcome"
-                  - text: "2024"
-                    url: "https://ieeevis.org/year/2024/welcome"
-                  - text: "2023"
-                    url: "https://ieeevis.org/year/2023/welcome"
-                  - text: "2022"
-                    url: "https://ieeevis.org/year/2022/welcome"
-                  - text: "2021"
-                    url: "https://ieeevis.org/year/2021/welcome"
-                  - text: "2020"
-                    url: "https://ieeevis.org/year/2020/welcome"
-                  - text: "2019"
-                    url: "https://ieeevis.org/year/2019/welcome"
-                  - text: "2018"
-                    url: "https://ieeevis.org/year/2018/welcome"
-                  - text: "2017"
-                    url: "https://ieeevis.org/year/2017/welcome"
-              - heading: ""
-                links:
-                  - text: "2016"
-                    url: "https://ieeevis.org/year/2016/info/vis-welcome/welcome"
-                  - text: "2015"
-                    url: "https://ieeevis.org/year/2015/info/vis-welcome/welcome"
-                  - text: "2014"
-                    url: "https://ieeevis.org/year/2014/info/vis-welcome/welcome"
-                  - text: "2013"
-                    url: "https://ieeevis.org/year/2013/info/vis-welcome/welcome"
-                  - text: "2012"
-                    url: "https://ieeevis.org/year/2012/info/call-participation/welcome"
-                  - text: "2011"
-                    url: "https://ieeevis.org/year/2011/info/call-participation/welcome"
-                  - text: "2010"
-                    url: "http://vis.computer.org/VisWeek2010/"
-              - heading: ""
-                links:
-                  - text: "2009"
-                    url: "http://vis.computer.org/VisWeek2009/"
-                  - text: "2008"
-                    url: "http://vis.computer.org/VisWeek2008/"
-                  - text: "2007"
-                    url: "http://vis.computer.org/vis2007/"
-                  - text: "2006"
-                    url: "http://vis.computer.org/vis2006/"
-                  - text: "2005"
-                    url: "http://vis.computer.org/vis2005/"
-                  - text: "2004"
-                    url: "http://vis.computer.org/vis2004/"
-                  - text: "2003"
-                    url: "http://vis.computer.org/vis2003/"
-              - heading: ""
-                links:
-                  - text: "2002"
-                    url: "http://vis.computer.org/vis2002/"
-                  - text: "2001"
-                    url: "http://vis.computer.org/vis2001/"
-                  - text: "2000"
-                    url: "http://www.hpc.msstate.edu/conferences/vis00/"
-                  - text: "1999"
-                    url: "http://www.hpc.msstate.edu/conferences/vis99/"
-                  - text: "1998"
-                    url: "http://www.hpc.msstate.edu/conferences/vis98/"
-                  - text: "1997"
-                    url: "http://www.hpc.msstate.edu/conferences/vis97/"
-                  - text: "1996"
-                    url: "http://www.hpc.msstate.edu/conferences/vis96/"
+          # - heading: "Previous Years"
+          #   description: "IEEE VIS conference websites in previous years"
+          #   display_style: "inline"
+          #   columns:
+          #     - heading: ""
+          #       links:
+          #         - text: "2025"
+          #           url: "https://ieeevis.org/year/2025/welcome"
+          #         - text: "2024"
+          #           url: "https://ieeevis.org/year/2024/welcome"
+          #         - text: "2023"
+          #           url: "https://ieeevis.org/year/2023/welcome"
+          #         - text: "2022"
+          #           url: "https://ieeevis.org/year/2022/welcome"
+          #         - text: "2021"
+          #           url: "https://ieeevis.org/year/2021/welcome"
+          #         - text: "2020"
+          #           url: "https://ieeevis.org/year/2020/welcome"
+          #         - text: "2019"
+          #           url: "https://ieeevis.org/year/2019/welcome"
+          #         - text: "2018"
+          #           url: "https://ieeevis.org/year/2018/welcome"
+          #         - text: "2017"
+          #           url: "https://ieeevis.org/year/2017/welcome"
+          #     - heading: ""
+          #       links:
+          #         - text: "2016"
+          #           url: "https://ieeevis.org/year/2016/info/vis-welcome/welcome"
+          #         - text: "2015"
+          #           url: "https://ieeevis.org/year/2015/info/vis-welcome/welcome"
+          #         - text: "2014"
+          #           url: "https://ieeevis.org/year/2014/info/vis-welcome/welcome"
+          #         - text: "2013"
+          #           url: "https://ieeevis.org/year/2013/info/vis-welcome/welcome"
+          #         - text: "2012"
+          #           url: "https://ieeevis.org/year/2012/info/call-participation/welcome"
+          #         - text: "2011"
+          #           url: "https://ieeevis.org/year/2011/info/call-participation/welcome"
+          #         - text: "2010"
+          #           url: "http://vis.computer.org/VisWeek2010/"
+          #     - heading: ""
+          #       links:
+          #         - text: "2009"
+          #           url: "http://vis.computer.org/VisWeek2009/"
+          #         - text: "2008"
+          #           url: "http://vis.computer.org/VisWeek2008/"
+          #         - text: "2007"
+          #           url: "http://vis.computer.org/vis2007/"
+          #         - text: "2006"
+          #           url: "http://vis.computer.org/vis2006/"
+          #         - text: "2005"
+          #           url: "http://vis.computer.org/vis2005/"
+          #         - text: "2004"
+          #           url: "http://vis.computer.org/vis2004/"
+          #         - text: "2003"
+          #           url: "http://vis.computer.org/vis2003/"
+          #     - heading: ""
+          #       links:
+          #         - text: "2002"
+          #           url: "http://vis.computer.org/vis2002/"
+          #         - text: "2001"
+          #           url: "http://vis.computer.org/vis2001/"
+          #         - text: "2000"
+          #           url: "http://www.hpc.msstate.edu/conferences/vis00/"
+          #         - text: "1999"
+          #           url: "http://www.hpc.msstate.edu/conferences/vis99/"
+          #         - text: "1998"
+          #           url: "http://www.hpc.msstate.edu/conferences/vis98/"
+          #         - text: "1997"
+          #           url: "http://www.hpc.msstate.edu/conferences/vis97/"
+          #         - text: "1996"
+          #           url: "http://www.hpc.msstate.edu/conferences/vis96/"
           - heading: "History"
             description: "Historical information"
             columns:
@@ -566,6 +562,16 @@ menu:
                     url: "/info/history/keynote-capstone"
                   - text: "List of Tutorials"
                     url: "/info/history/tutorials"
+          - heading: "Upcoming Years"
+            description: "IEEE VIS in the upcoming years"
+            columns:
+              - links:
+                  - text: "How to Host IEEE VIS"
+                    description: "Guidelines to bid for a future location of IEEE VIS"
+                    url: "/governance/bids"
+                  - text: "Being General Chair of IEEE VIS"
+                    description: "The IEEE VIS General Chair role"
+                    url: "/governance/generalChairs"
 
       - subsections:
           - heading: "Committees"
@@ -584,6 +590,8 @@ menu:
                     url: "/info/committees/area-committee"
                   # - text: "reVISe 1.1"
                   #   url: "https://ieeevis.org/year/2025/blog/vis-2025-revise"
+
+      - subsections:
           - heading: "Governance Documents"
             description: "Information on the IEEE VIS governance structure"
             columns:
@@ -594,45 +602,31 @@ menu:
                     url: "/governance/best-paper-process"
                   - text: "VSC Mission Statement"
                     url: "/governance/vsc-mission-statement"
+          # - heading: "Web Documentation"
+          #   description: "Information on website updates"
+          #   heading_url: "/info/contributing"
           - heading: "Code of Conduct"
-            description: "The IEEE VIS Code of Conduct"
             heading_url: "/info/inclusion/code-of-conduct"
+            description: "The IEEE VIS Code of Conduct"
 
-      - subsections:
-          - heading: "Upcoming Years"
-            description: "IEEE VIS in the upcoming years"
-            columns:
-              - links:
-                  - text: "How to Host IEEE VIS"
-                    description: "Guidelines to bid for a future location of IEEE VIS"
-                    url: "/governance/bids"
-                  - text: "Being General Chair of IEEE VIS"
-                    description: "The IEEE VIS General Chair role"
-                    url: "/governance/generalChairs"
-          - heading: "Web Documentation"
-            description: "Information on website updates"
-            columns:
-              - links:
-                  - text: "Updating the website content"
-                    url: "/info/contributing"
-          - heading: "Social Media"
-            columns:
-              - links:
-                  # - text: "Facebook"
-                  #   url: "https://www.facebook.com/ieeevis"
-                  # is_external: true
-                  - text: "X (Twitter)"
-                    url: "https://twitter.com/ieeevis"
-                    is_external: true
-                  - text: "Mastodon"
-                    url: "https://vis.social/@ieeevis"
-                    is_external: true
-                  - text: "Bluesky"
-                    url: "https://bsky.app/profile/ieeevis.org"
-                    is_external: true
-                  - text: "LinkedIn"
-                    url: "https://www.linkedin.com/company/ieeevis"
-                    is_external: true
-                  - text: "Email List"
-                    url: "https://ieeevis.us20.list-manage.com/subscribe?u=874d4e627b4758f4438963e98&id=6c036e3c40"
-                    is_external: true
+          # - heading: "Social Media"
+          #   columns:
+          #     - links:
+          #         # - text: "Facebook"
+          #         #   url: "https://www.facebook.com/ieeevis"
+          #         # is_external: true
+          #         - text: "X (Twitter)"
+          #           url: "https://twitter.com/ieeevis"
+          #           is_external: true
+          #         - text: "Mastodon"
+          #           url: "https://vis.social/@ieeevis"
+          #           is_external: true
+          #         - text: "Bluesky"
+          #           url: "https://bsky.app/profile/ieeevis.org"
+          #           is_external: true
+          #         - text: "LinkedIn"
+          #           url: "https://www.linkedin.com/company/ieeevis"
+          #           is_external: true
+          #         - text: "Email List"
+          #           url: "https://ieeevis.us20.list-manage.com/subscribe?u=874d4e627b4758f4438963e98&id=6c036e3c40"
+          #           is_external: true

@@ -18,6 +18,7 @@ type SessionListItem = {
   dayKey: string;
   room: string;
   chairs: string[];
+  organizers: string[];
   startISO: string;
   endISO: string;
   startMs: number;
@@ -69,6 +70,7 @@ const sessions: SessionListItem[] = Object.values(sessionList)
         eventDefinition.long_name,
         session.room_name,
         ...(session.chair || []),
+        ...eventDefinition.organizers,
       ]
         .join(" ")
         .toLowerCase();
@@ -83,6 +85,7 @@ const sessions: SessionListItem[] = Object.values(sessionList)
         dayKey,
         room: session.room_name,
         chairs: session.chair || [],
+        organizers: eventDefinition.organizers,
         startISO: session.time_start,
         endISO: session.time_end,
         startMs: Date.parse(session.time_start),
@@ -149,19 +152,41 @@ function formatNotesForSession(session: SessionListItem) {
   const notes = [`Room: ${session.room}`, `Schedule: ${scheduleLabel}`];
   return notes;
 }
+// Workshops, tutorials, associated events, and contests are run by their
+// organizers, so show those on the card instead of the session chair when the
+// event lists any.
+const organizerCardEventTypes = [
+  "workshop",
+  "tutorial",
+  "associated",
+  "challenge",
+];
+
+function showsOrganizers(session: SessionListItem) {
+  return (
+    organizerCardEventTypes.includes(session.eventType.toLowerCase()) &&
+    session.organizers.length > 0
+  );
+}
+
 function figureOutPersonTypeLabel(session: SessionListItem) {
   const organizerEvents = ["workshop", "tutorial", "panel"];
-  let label = organizerEvents.includes(session.eventType.toLowerCase())
-    ? "Organizer"
-    : "Chair";
-  if (session.chairs.length > 1) {
+  const usesOrganizers = showsOrganizers(session);
+  let label =
+    usesOrganizers ||
+    organizerEvents.includes(session.eventType.toLowerCase())
+      ? "Organizer"
+      : "Chair";
+  const people = usesOrganizers ? session.organizers : session.chairs;
+  if (people.length > 1) {
     label += "s";
   }
   return label;
 }
 
 function formatPeopleForSession(session: SessionListItem) {
-  return session.chairs.map((authorName) => ({
+  const people = showsOrganizers(session) ? session.organizers : session.chairs;
+  return people.map((authorName) => ({
     name: authorName,
     href: `/program/papers/?search=${encodeURIComponent(authorName)}`,
   }));
@@ -191,7 +216,7 @@ function formatPeopleForSession(session: SessionListItem) {
       daySelectId="day-filter"
       searchLabel="Search sessions"
       searchInputId="sessions-search"
-      searchPlaceholder="Search title, room, event, chair"
+      searchPlaceholder="Search title, room, event, chair, organizer"
       dayOptions={dayOptions}
       typeOptions={typeOptions}
       allCount={sessions.length}
@@ -229,7 +254,6 @@ function formatPeopleForSession(session: SessionListItem) {
                   title={session.title}
                   titleColor={typeTextColors[session.eventType] || "#111827"}
                   titleHref={`/program/session/${session.eventSlug}`}
-                  peopleLabel="????????"
                   eyebrow={session.eventTypeLabel}
                   peopleLabel={figureOutPersonTypeLabel(session)}
                   people={formatPeopleForSession(session)}
@@ -249,6 +273,11 @@ function formatPeopleForSession(session: SessionListItem) {
   </section>
 
   <script>
+    import {
+      createUrlStateHistory,
+      type UrlStateWriteOptions,
+    } from "../../utils/urlStateHistory";
+
     (() => {
       const root = document.querySelector(".program-sessions");
       if (!root) return;
@@ -443,7 +472,7 @@ function formatPeopleForSession(session: SessionListItem) {
       };
 
       // Keep the filters in the URL so a filtered list can be linked to.
-      const syncUrlParams = () => {
+      const syncUrlParams = (options?: UrlStateWriteOptions) => {
         const nextParams = new URLSearchParams(window.location.search);
         const entries: [string, string, string][] = [
           ["search", getSearchText(), ""],
@@ -457,12 +486,10 @@ function formatPeopleForSession(session: SessionListItem) {
             nextParams.delete(key);
           }
         }
-        const query = nextParams.toString();
-        const nextUrl = `${window.location.pathname}${query ? `?${query}` : ""}${window.location.hash}`;
-        history.replaceState(null, "", nextUrl);
+        urlHistory.write(nextParams, options);
       };
 
-      const applyFilters = () => {
+      const applyFilters = (options?: UrlStateWriteOptions) => {
         const selectedDay = getSelectedDay();
         const query = getSearchQuery();
         let visibleCount = 0;
@@ -483,7 +510,7 @@ function formatPeopleForSession(session: SessionListItem) {
           emptyState.hidden = visibleCount > 0;
         }
 
-        syncUrlParams();
+        syncUrlParams(options);
       };
 
       for (const button of filterButtons) {
@@ -498,7 +525,7 @@ function formatPeopleForSession(session: SessionListItem) {
 
       if (searchInput instanceof HTMLInputElement) {
         searchInput.addEventListener("input", () => {
-          applyFilters();
+          applyFilters({ burst: "search" });
         });
       }
 
@@ -562,34 +589,44 @@ function formatPeopleForSession(session: SessionListItem) {
       }
 
       // Restore filters from the URL (?search=...&type=full&day=2026-11-10).
-      const urlParams = new URLSearchParams(location.search);
-      const urlTypeParam = urlParams.get("type")?.trim().toLowerCase();
-      if (urlTypeParam) {
-        // Accept plurals (?type=workshops). A type with no sessions yet has no
-        // button, but is still applied so the link shows the empty state
-        // rather than silently falling back to every session.
-        const knownTypes = filterButtons.map(
-          (button) => button.dataset.typeFilter,
-        );
-        const singular = urlTypeParam.replace(/s$/, "");
-        activeTypeFilter = knownTypes.includes(urlTypeParam)
-          ? urlTypeParam
-          : knownTypes.includes(singular)
-            ? singular
-            : urlTypeParam;
-      }
-      const urlDayParam = urlParams.get("day");
-      if (urlDayParam) {
-        setChoiceValue(dayFilterControl, urlDayParam);
-      }
-      const urlSearchParam = urlParams.get("search");
-      if (urlSearchParam && searchInput instanceof HTMLInputElement) {
-        searchInput.value = urlSearchParam;
-      }
+      const restoreFromUrl = (urlParams: URLSearchParams) => {
+        const urlTypeParam = urlParams.get("type")?.trim().toLowerCase();
+        if (urlTypeParam) {
+          // Accept plurals (?type=workshops). A type with no sessions yet has no
+          // button, but is still applied so the link shows the empty state
+          // rather than silently falling back to every session.
+          const knownTypes = filterButtons.map(
+            (button) => button.dataset.typeFilter,
+          );
+          const singular = urlTypeParam.replace(/s$/, "");
+          activeTypeFilter = knownTypes.includes(urlTypeParam)
+            ? urlTypeParam
+            : knownTypes.includes(singular)
+              ? singular
+              : urlTypeParam;
+        } else {
+          activeTypeFilter = ALL_FILTER;
+        }
+        const urlDayParam = urlParams.get("day") || "all";
+        if (!setChoiceValue(dayFilterControl, urlDayParam)) {
+          setChoiceValue(dayFilterControl, "all");
+        }
+        if (searchInput instanceof HTMLInputElement) {
+          searchInput.value = urlParams.get("search") || "";
+        }
+      };
+
+      const urlHistory = createUrlStateHistory((params) => {
+        restoreFromUrl(params);
+        refreshFilterButtonState();
+        applyFilters();
+      });
+
+      restoreFromUrl(new URLSearchParams(location.search));
 
       refreshFilterButtonState();
       refreshTimeRanges();
-      applyFilters();
+      applyFilters({ replace: true });
     })();
   </script>
 </PageLayout>

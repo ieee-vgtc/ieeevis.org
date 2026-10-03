@@ -14,7 +14,7 @@
  */
 
 import { useState } from "react";
-import type { CSSProperties } from "react";
+import type { CSSProperties, ReactNode } from "react";
 import Avatar from "./Avatar";
 import { EmbedCard, EmbedImages } from "./Embeds";
 import {
@@ -24,6 +24,7 @@ import {
   postUrl,
   profileUrl,
 } from "./format";
+import { errorTextStyle } from "./styles";
 import type { ShapedPost } from "./types";
 
 /**
@@ -73,6 +74,28 @@ export interface PostOwnContext {
   onRemove: (postUri: string) => void;
 }
 
+/**
+ * The per-post Reply control, lifted to the discussion so one composer is open
+ * at a time and posts through whichever writing mode the reader has.
+ *
+ *  - `canReplyTo` — whether this post can take a reply yet.
+ *  - `openUri` — the post whose composer is open, or null.
+ *  - `posting` — a reply is on its way, so its composer must stay open.
+ *  - `buttonId`, `composerId` — the element ids that tie each Reply button to
+ *    its composer, and that focus returns to when the composer closes.
+ *  - `onToggle` — open the composer under the given post, or close it.
+ *  - `renderComposer` — the composer for a reply to the given post.
+ */
+export interface PostReplyContext {
+  canReplyTo: (post: ShapedPost) => boolean;
+  openUri: string | null;
+  posting: boolean;
+  buttonId: (post: ShapedPost) => string;
+  composerId: (post: ShapedPost) => string;
+  onToggle: (post: ShapedPost) => void;
+  renderComposer: (post: ShapedPost) => ReactNode;
+}
+
 interface PostCardProps {
   post: ShapedPost;
   /** "root" is the post a thread hangs off; "reply" is everything below it. */
@@ -80,11 +103,8 @@ interface PostCardProps {
   like?: PostLikeContext;
   /** Shared own-comment state; absent where the reader may not write. */
   own?: PostOwnContext;
-  /**
-   * Drop the card's own border, corners and background so it can sit inside
-   * another bordered container (e.g. the announcement + Bluesky-callout box).
-   */
-  bare?: boolean;
+  /** Shared reply state; absent where the reader may not write here. */
+  reply?: PostReplyContext;
 }
 
 const linkStyle = { color: "inherit", textDecoration: "none" } as const;
@@ -96,14 +116,14 @@ const likeChipStyle: CSSProperties = {
   gap: "0.3rem",
   padding: "0.25rem 0.7rem",
   borderRadius: "0.5rem",
-  border: "1px solid #e5e7eb",
+  border: "1px solid var(--color-gray-300)",
   fontSize: "0.82rem",
 };
 
 /** "(me)", beside the name on the reader's own posts, in the heading orange. */
 const ownMarkerStyle: CSSProperties = {
   marginLeft: "0.35rem",
-  color: "var(--color-primary, #df6824)",
+  color: "var(--color-primary)",
   fontWeight: 600,
   fontSize: "0.85rem",
 };
@@ -146,7 +166,7 @@ function LikeControl({
         style={{
           ...likeChipStyle,
           backgroundColor: "transparent",
-          color: "#6b7280",
+          color: "var(--color-gray-600)",
         }}
         title="Likes on Bluesky"
       >
@@ -174,8 +194,10 @@ function LikeControl({
         onClick={() => like.onToggle(post)}
         style={{
           ...likeChipStyle,
-          backgroundColor: liked ? "#eff6ff" : "#fff",
-          color: liked ? "#2563eb" : "inherit",
+          backgroundColor: liked
+            ? "color-mix(in srgb, var(--color-accent) 12%, white)"
+            : "#fff",
+          color: liked ? "var(--color-accent)" : "inherit",
           cursor: "pointer",
         }}
         title={liked ? "Unlike" : "Like"}
@@ -191,8 +213,10 @@ function LikeControl({
       aria-label={`${count} likes`}
       style={{
         ...likeChipStyle,
-        backgroundColor: liked ? "#eff6ff" : "transparent",
-        color: liked ? "#2563eb" : "#6b7280",
+        backgroundColor: liked
+          ? "color-mix(in srgb, var(--color-accent) 12%, white)"
+          : "transparent",
+        color: liked ? "var(--color-accent)" : "var(--color-gray-600)",
       }}
       title="Likes"
     >
@@ -257,7 +281,11 @@ function RemoveControl({
           setConfirming(false);
           own.onRemove(post.uri);
         }}
-        style={{ ...plainChipStyle, borderColor: "#b91c1c", color: "#b91c1c" }}
+        style={{
+          ...plainChipStyle,
+          borderColor: errorTextStyle.color,
+          color: errorTextStyle.color,
+        }}
         type="button"
       >
         Remove
@@ -278,7 +306,7 @@ export default function PostCard({
   variant = "reply",
   like,
   own,
-  bare = false,
+  reply,
 }: PostCardProps) {
   const isRoot = variant === "root";
   // Removable from here: a guest comment of theirs, or a post of the Bluesky
@@ -302,21 +330,17 @@ export default function PostCard({
     ? new Date(post.createdAt).toLocaleString()
     : undefined;
   const reposts = post.repostCount || 0;
+  const replyable = !isRoot && reply !== undefined && reply.canReplyTo(post);
+  const replyOpen = replyable && reply.openUri === post.uri;
   const hasFooter =
     isRoot ||
+    replyable ||
     Boolean(like) ||
     (Boolean(own?.canRemove) && removable) ||
     reposts > 0;
 
   return (
-    <article
-      style={{
-        border: bare ? "none" : "1px solid #e5e7eb",
-        borderRadius: bare ? 0 : "0.6rem",
-        padding: isRoot ? "0.9rem" : "0.75rem",
-        backgroundColor: bare ? "transparent" : isRoot ? "#f9fafb" : "#fff",
-      }}
-    >
+    <article style={{ padding: isRoot ? "0.9rem 0" : "0.6rem 0" }}>
       <header style={{ display: "flex", alignItems: "center", gap: "0.6rem" }}>
         <Avatar size={isRoot ? 40 : 36} src={post.author?.avatar ?? null} />
         <div style={{ lineHeight: 1.2 }}>
@@ -333,7 +357,7 @@ export default function PostCard({
             <span style={{ fontWeight: 600 }}>{name}</span>
           )}
           {isOwn && <span style={ownMarkerStyle}>(me)</span>}
-          <div style={{ fontSize: "0.85rem", color: "#6b7280" }}>
+          <div style={{ fontSize: "0.85rem", color: "var(--color-gray-600)" }}>
             {post.guest
               ? "VIS attendee"
               : `@${post.author?.handle || post.author?.did || "unknown"}`}
@@ -342,7 +366,7 @@ export default function PostCard({
               <a
                 href={permalink}
                 rel="noopener noreferrer"
-                style={{ color: "#2563eb", textDecoration: "none" }}
+                style={{ color: "var(--color-accent)", textDecoration: "none" }}
                 target="_blank"
                 title={timeTitle}
               >
@@ -373,11 +397,25 @@ export default function PostCard({
             alignItems: "center",
             gap: "0.75rem",
             fontSize: "0.82rem",
-            color: "#6b7280",
+            color: "var(--color-gray-600)",
             marginTop: isRoot ? "0.6rem" : "0.5rem",
           }}
         >
           <LikeControl isRoot={isRoot} like={like} post={post} />
+          {replyable && (
+            <button
+              aria-controls={replyOpen ? reply.composerId(post) : undefined}
+              aria-expanded={replyOpen}
+              aria-label={`Reply to ${name}`}
+              disabled={reply.posting}
+              id={reply.buttonId(post)}
+              onClick={() => reply.onToggle(post)}
+              style={plainChipStyle}
+              type="button"
+            >
+              Reply
+            </button>
+          )}
           {!isRoot && (
             <RemoveControl own={own} post={post} removable={removable} />
           )}
