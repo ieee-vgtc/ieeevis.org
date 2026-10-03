@@ -286,8 +286,12 @@ const frontmatter = {
     <header class="paper-hero not-prose">
       <div class="paper-hero__heading">
         <div class="paper-hero__eyebrow">
-          <p class="paper-kicker">{eventLabel}</p>
-          {paper.award && <span class="award-badge">{paper.award}</span>}
+          <span class="paper-kicker">{eventLabel}</span>
+          {paper.award && (
+            <span class="award-badge">
+              <span>{paper.award}</span>
+            </span>
+          )}
         </div>
         <h1>{paper.title}</h1>
         <div class="paper-hero__meta" aria-label="Paper metadata">
@@ -457,9 +461,12 @@ const frontmatter = {
     <!-- Bluesky discussion: thread of replies to this paper's announcement
          post, proxied through bsky.tech.ieeevis.org so it loads on any
          conference network. Sortable by upvotes or recency. -->
-    <div class="paper-discussion mb-6 not-prose">
-      <!-- <BlueskyDiscussion client:visible paperId={paper.id} /> -->
-      <BlueskyDiscussion paperId="test-bsky-9999" client:load />
+
+    <div class="paper-section paper-links mb-6">
+          <h2>Discussion</h2>
+          <BlueskyDiscussion showPost={false} paperId="test-bsky-9999" client:load />
+          <!-- <BlueskyDiscussion showPost={false} paperId={paper.id} client:load /> -->
+
     </div>
   </div>
 </PageLayout>
@@ -568,7 +575,9 @@ const frontmatter = {
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
-    margin-bottom: 1.25rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.9rem;
+    border-bottom: 1px solid rgb(118 80 11 / 14%);
   }
 
   .paper-hero__eyebrow .paper-kicker {
@@ -788,18 +797,30 @@ const frontmatter = {
   .award-badge {
     display: inline-flex;
     align-items: center;
-    min-height: 2rem;
-    padding: 0.35rem 0.8rem;
-    border: 1px solid #d7ad55;
-    border-radius: 999px;
-    background: #fff7df;
-    color: #76500b;
-    box-shadow: 0 2px 8px rgb(118 80 11 / 10%);
-    font-size: 0.78rem;
+    min-height: 2.15rem;
+    padding: 0.4rem 0.85rem 0.4rem 0.5rem;
+    border: 1px solid #d8b35e;
+    border-radius: 0.65rem;
+    background: linear-gradient(135deg, #fffaf0, #ffedbd);
+    color: #684707;
+    box-shadow: 0 0.3rem 0.8rem rgb(118 80 11 / 12%);
+    font-size: 0.76rem;
     font-weight: 700;
     letter-spacing: 0.01em;
     line-height: 1.2;
     white-space: nowrap;
+  }
+
+  .award-badge__icon {
+    display: grid;
+    width: 1.35rem;
+    height: 1.35rem;
+    margin-right: 0.4rem;
+    place-items: center;
+    border-radius: 50%;
+    background: #d9ad4e;
+    color: #fffaf0;
+    font-size: 0.7rem;
   }
 
   @media (max-width: 640px) {
