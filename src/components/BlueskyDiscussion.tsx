@@ -18,8 +18,9 @@
  * There are two ways to write, and the reader may have either or both:
  *
  *   - As a VIS attendee, through the service. Needs a thread from the service
- *     and a token from the reader's site session. The comment is posted by the
- *     shared discuss account and credited to the attendee in its text.
+ *     and a token minted from the reader's Auth0 sign-in. The comment is
+ *     posted by the shared discuss account and credited to the attendee in
+ *     its text.
  *   - From their own Bluesky account, once they log in with Bluesky here
  *     (`bluesky/useBlueskySession.ts`). Comments, likes and removals then go
  *     straight from the browser to their own PDS and the service is not
@@ -89,6 +90,7 @@ import { errorTextStyle } from "./bluesky/styles";
 import { useBlueskySession } from "./bluesky/useBlueskySession";
 import { usePolledThread } from "./bluesky/usePolledThread";
 import { normalizeBskyHandle } from "../utils/bskyHandle";
+import { getIdToken } from "../lib/auth0Client";
 
 const DEFAULT_API_BASES = ["https://bsky.tech.ieeevis.org"];
 const DEFAULT_REFRESH_MS = 5_000;
@@ -300,9 +302,10 @@ function formatAgo(sinceMs: number): string {
 }
 
 /**
- * Mint a short-lived token from the site's own session. Paper pages are behind
- * `isProtectedPath`, so a reader who got this far normally has a session; a 401
- * simply means "no guest UI" and is not an error worth showing.
+ * Mint a short-lived token from the reader's Auth0 ID token (sent as a bearer
+ * credential; see `verifyBearerIdToken` in lib/auth0.ts). A signed-out reader,
+ * or a deploy with no server to mint it (the S3 builds), simply gets no
+ * token: a 401 means "no guest UI" and is not an error worth showing.
  */
 function useGuestToken(enabled: boolean) {
   const tokenRef = useRef<GuestToken | null>(null);
@@ -319,10 +322,19 @@ function useGuestToken(enabled: boolean) {
     }
 
     try {
+      const idToken = await getIdToken();
+      if (!idToken) {
+        tokenRef.current = null;
+        setHasToken(false);
+        return null;
+      }
+
       const base = import.meta.env.BASE_URL.replace(/\/$/, "");
       const response = await fetch(`${base}/auth/token`, {
-        credentials: "same-origin",
-        headers: { accept: "application/json" },
+        headers: {
+          accept: "application/json",
+          authorization: `Bearer ${idToken}`,
+        },
       });
       if (!response.ok) {
         tokenRef.current = null;

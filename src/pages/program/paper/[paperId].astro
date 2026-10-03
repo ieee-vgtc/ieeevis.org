@@ -7,17 +7,9 @@ import { features } from "../../../config/pages-allow-list";
 import { withBaseURL } from "../../../utils/withBaseURL";
 import { ogDescription } from "../../../utils/ogDescription";
 import { fetchAllSessions } from "../../../utils/paperData";
-import { buildLoginUrl, readSession } from "../../../lib/auth0";
 import type { Paper } from "../../../types/paper";
 import type { ProgramSession, ProgramTimeSlot } from "../../../types/program";
 
-// Rendered on request (Netlify) so each request can check the signed-in
-// session. The S3 deploys are static files only, so their workflows set
-// STATIC_PROGRAM_PAGES=true, which prerenders this page instead (see
-// astro.config.mjs); there the gated content always shows the login prompt.
-export const prerender = false;
-
-// Only used when STATIC_PROGRAM_PAGES prerenders this page.
 export async function getStaticPaths() {
   const papers = await fetchAllPapers();
   return papers.map((paper) => ({ params: { paperId: paper.id } }));
@@ -44,18 +36,6 @@ if (!features.weekOfVis.enabled) {
   return new Response(null, { status: 404 });
 }
 
-// Static S3 builds have no request cookies; on Netlify this route is rendered
-// per request and can resolve the attendee session normally.
-const user =
-  process.env.STATIC_PROGRAM_PAGES === "true"
-    ? undefined
-    : await readSession(Astro.cookies, Astro.url);
-const isAuthenticated = Boolean(user);
-const loginHref = buildLoginUrl(Astro.url);
-
-// Detail pages are rendered at request time (not prerendered) so each
-// request can be checked for a signed-in session before deciding whether
-// to render the paper's PDF link and video embed, or a login prompt.
 const [sessionList, papers] = await Promise.all([
   fetchAllSessions(),
   fetchAllPapers(),
@@ -97,6 +77,15 @@ const supplementalLink = paper.open_access_supplemental_link?.trim()
     ? paper.open_access_supplemental_link.trim()
     : `https://${paper.open_access_supplemental_link.trim().replace(/^\/\//, "")}`
   : null;
+
+// Some papers carry a placeholder note here ("We will upload a preprint to
+// Arxiv…") instead of an actual link, ahead of the real one landing. Only
+// render it as a link once it looks like one; the broken-links checker
+// (astro.config.mjs) would otherwise fail the build on the placeholder text.
+const preprintLink =
+  paper.preprint_link && /^https?:\/\//i.test(paper.preprint_link.trim())
+    ? paper.preprint_link.trim()
+    : null;
 
 const sessionHref =
   presentation &&
@@ -372,19 +361,17 @@ const frontmatter = {
 
     <!-- Links (immediately after authors, styled as plain inline links matching authors) -->
     {
-      (paper.preprint_link || paper.doi || supplementalLink) && (
-        <div class="paper-section paper-links mb-6">
+      (preprintLink ||
+        paper.doi ||
+        supplementalLink) && (
+        <div class="paper-links mb-6">
           <h2>Links</h2>
           <ul>
-            {paper.preprint_link && (
+            {preprintLink && (
               <li>
-                <AuthGate
-                  isAuthenticated={isAuthenticated}
-                  loginHref={loginHref}
-                  label="preprint PDF"
-                >
+                <AuthGate label="preprint PDF">
                   <a
-                    href={paper.preprint_link}
+                    href={preprintLink}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -427,11 +414,7 @@ const frontmatter = {
       videoEmbedUrl && (
         <div class="mb-6">
           <h2>Video</h2>
-          <AuthGate
-            isAuthenticated={isAuthenticated}
-            loginHref={loginHref}
-            label="video"
-          >
+          <AuthGate label="video">
             <div class="video-embed not-prose">
               <iframe
                 src={videoEmbedUrl}

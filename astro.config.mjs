@@ -19,14 +19,16 @@ import pkg from "./package.json" with { type: "json" };
 // https://astro.build/config
 export default defineConfig({
   base: process.env.BASE_PATH || "/year/2026", //this can be accessed in tsx and astro as import.meta.env.BASE_URL
-  // Auth0 callbacks need a request-time runtime, and paper/poster detail
-  // pages check the signed-in session on each request to decide whether to
-  // show gated content (PDF links, video embeds) or a login prompt.
+  // Attendee sign-in happens entirely client-side (src/lib/auth0Client.ts),
+  // so almost every page is prerendered. The exceptions — /auth/token,
+  // /auth/bluesky-handle, the Bluesky oauth client-metadata route — need a
+  // request-time runtime, which is why the Netlify adapter stays below; they
+  // simply 404 on the S3 deploys, which serve static files only.
   output: "static",
-  // The app has its own cookie-based session (src/lib/auth0.ts) and never
-  // touches Astro.session; without this, @astrojs/netlify silently defaults
-  // to a Netlify Blobs-backed session store on every build. Set explicitly
-  // to rule out that unused dependency as a source of trouble.
+  // The app never touches Astro.session (its own bearer-token checks in
+  // src/lib/auth0.ts don't need it); without this, @astrojs/netlify silently
+  // defaults to a Netlify Blobs-backed session store on every build. Set
+  // explicitly to rule out that unused dependency as a source of trouble.
   session: {
     // `memory` exists on the actual driver map (astro/dist/core/session/drivers.js
     // derives it from unstorage's full builtinDrivers list) but is missing from
@@ -57,28 +59,13 @@ export default defineConfig({
     ],
   }),
   integrations: [
-    // Paper/poster pages render on request so they can check the signed-in
-    // session, but the S3 deploys serve static files only. Their workflows
-    // set STATIC_PROGRAM_PAGES=true to prerender those pages instead.
-    {
-      name: "static-program-pages",
-      hooks: {
-        "astro:route:setup": ({ route }) => {
-          if (
-            process.env.STATIC_PROGRAM_PAGES === "true" &&
-            /src\/pages\/program\/(paper|poster)\//.test(route.component)
-          ) {
-            route.prerender = true;
-          }
-        },
-      },
-    },
     react(),
     sitemap(),
     pagefind(),
     // Wraps astro-broken-links-checker, which only knows about files emitted
-    // at build time, so links to on-demand routes (paper/poster detail pages)
-    // are not reported as broken. Writes .link-checker/broken-links.log.
+    // at build time, so links to the few remaining on-demand routes
+    // (/auth/token, /auth/bluesky-handle, the Bluesky oauth client-metadata
+    // route) are not reported as broken. Writes .link-checker/broken-links.log.
     brokenLinksChecker({
       checkExternalLinks: false,
       throwError: true,

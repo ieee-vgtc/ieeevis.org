@@ -1,5 +1,10 @@
 import { useEffect, useRef, useState } from "react";
-import { siteBase } from "../utils/withBaseURL";
+import {
+  currentPagePath,
+  getCurrentUser,
+  login,
+  logout,
+} from "../lib/auth0Client";
 
 type SessionUser = {
   email?: string;
@@ -17,16 +22,6 @@ function getInitials(user: SessionUser) {
   return fallback.slice(0, 2).toUpperCase();
 }
 
-function getLoginHref() {
-  const base = siteBase();
-  const path = window.location.pathname.startsWith(base)
-    ? window.location.pathname.slice(base.length) || "/"
-    : window.location.pathname;
-  const returnTo = `${path}${window.location.search}`;
-
-  return `${base}/auth/login?returnTo=${encodeURIComponent(returnTo)}`;
-}
-
 export default function AccountMenu() {
   const [isOpen, setIsOpen] = useState(false);
   const [user, setUser] = useState<SessionUser | null>();
@@ -34,23 +29,17 @@ export default function AccountMenu() {
   const trigger = useRef<HTMLButtonElement>(null);
 
   useEffect(() => {
-    const controller = new AbortController();
+    let cancelled = false;
 
-    fetch(`${siteBase()}/auth/session`, {
-      credentials: "same-origin",
-      signal: controller.signal,
-    })
-      .then((response) => (response.ok ? response.json() : { user: null }))
-      .then((session: { user?: SessionUser | null }) => {
-        setUser(session.user ?? null);
-      })
-      .catch((error: unknown) => {
-        if (!(error instanceof DOMException && error.name === "AbortError")) {
-          setUser(null);
-        }
-      });
+    getCurrentUser().then((currentUser) => {
+      if (!cancelled) {
+        setUser(currentUser);
+      }
+    });
 
-    return () => controller.abort();
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
   useEffect(() => {
@@ -74,6 +63,18 @@ export default function AccountMenu() {
     window.requestAnimationFrame(() => trigger.current?.focus());
   };
 
+  const handleSignIn = () => {
+    login(currentPagePath()).catch((error: unknown) => {
+      console.error("Unable to start Auth0 login:", error);
+    });
+  };
+
+  const handleSignOut = () => {
+    logout().catch((error: unknown) => {
+      console.error("Unable to start Auth0 logout:", error);
+    });
+  };
+
   const initials = user ? getInitials(user) : "";
 
   return (
@@ -90,20 +91,22 @@ export default function AccountMenu() {
             >
               {initials}
             </span>
-            <a
+            <button
+              type="button"
               className="inline-flex h-11 items-center rounded-full border border-primary-200 bg-white px-4 font-display text-sm font-bold text-secondary hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary"
-              href={`${siteBase()}/auth/logout`}
+              onClick={handleSignOut}
             >
               Sign out
-            </a>
+            </button>
           </>
         ) : user === null ? (
-          <a
+          <button
+            type="button"
             className="inline-flex h-11 items-center rounded-full border border-primary-200 bg-white px-4 font-display text-sm font-bold text-secondary hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary"
-            href={getLoginHref()}
+            onClick={handleSignIn}
           >
             Sign in
-          </a>
+          </button>
         ) : null}
       </div>
 
@@ -165,12 +168,13 @@ export default function AccountMenu() {
                   {user.email}
                 </p>
               )}
-              <a
+              <button
+                type="button"
                 className="mt-4 inline-flex rounded bg-accent px-4 py-2 text-sm font-bold text-white hover:brightness-90"
-                href={`${siteBase()}/auth/logout`}
+                onClick={handleSignOut}
               >
                 Sign out
-              </a>
+              </button>
             </>
           ) : (
             <>
@@ -178,12 +182,13 @@ export default function AccountMenu() {
               <p className="mt-1 text-sm text-gray-600">
                 Sign in to access attendee features.
               </p>
-              <a
+              <button
+                type="button"
                 className="mt-4 inline-flex rounded bg-accent px-4 py-2 text-sm font-bold text-white hover:brightness-90"
-                href={getLoginHref()}
+                onClick={handleSignIn}
               >
                 Sign in
-              </a>
+              </button>
             </>
           )}
         </div>
