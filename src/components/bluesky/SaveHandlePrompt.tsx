@@ -119,9 +119,9 @@ const promptStyle: CSSProperties = {
   gap: "0.5rem 0.75rem",
   margin: "0 0 0.75rem",
   padding: "0.6rem 0.9rem",
-  border: "1px solid #fcd34d",
+  border: "1px solid var(--color-primary-500)",
   borderRadius: "0.6rem",
-  backgroundColor: "#fffbeb",
-  color: "#78350f",
+  backgroundColor: "var(--color-accent-secondaryBackground)",
+  color: "var(--color-accent)",
   fontSize: "0.88rem",
 };

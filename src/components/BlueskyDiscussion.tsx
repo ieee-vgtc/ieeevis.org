@@ -57,7 +57,6 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { CSSProperties } from "react";
-import BlueskyLogin from "./bluesky/BlueskyLogin";
 import CommentComposer from "./bluesky/CommentComposer";
 import PostCard from "./bluesky/PostCard";
 import type {
@@ -86,6 +85,7 @@ import type {
   ThreadResponse,
   ThreadSource,
 } from "./bluesky/types";
+import { errorTextStyle } from "./bluesky/styles";
 import { useBlueskySession } from "./bluesky/useBlueskySession";
 import { usePolledThread } from "./bluesky/usePolledThread";
 import { normalizeBskyHandle } from "../utils/bskyHandle";
@@ -110,6 +110,8 @@ interface BlueskyDiscussionProps {
   maxDepth?: number;
   /** Initial order of top-level replies; the reader can toggle. Service only. */
   defaultSort?: ReplySort;
+  /** Whether to show the original post at the top of the discussion. Defaults to `true`. */
+  showPost?: boolean;
 }
 
 interface LoadedThread {
@@ -414,6 +416,7 @@ function useIdentity(
 export default function BlueskyDiscussion({
   paperId,
   atUri,
+  showPost = true,
   apiBases = DEFAULT_API_BASES,
   refreshMs = DEFAULT_REFRESH_MS,
   maxDepth = MAX_DEPTH,
@@ -1026,9 +1029,13 @@ export default function BlueskyDiscussion({
   // ── render ──
 
   // Nothing is mapped for this paper (no session, withdrawn, or not in the
-  // program). Render nothing at all rather than an empty "Discussion" heading.
+  // program).
   if (thread?.state === "unavailable") {
-    return null;
+    return (
+      <p style={{ color: "var(--color-gray-600)", margin: 0 }}>
+        There is no discussion for this paper yet.
+      </p>
+    );
   }
 
   if (loading && !thread) {
@@ -1047,7 +1054,7 @@ export default function BlueskyDiscussion({
     return (
       <section ref={sectionRef} style={sectionStyle} aria-live="polite">
         <h2 style={{ marginBottom: "0.5rem" }}>Discussion</h2>
-        <p style={{ color: "#6b7280", margin: 0 }}>
+        <p style={{ color: "var(--color-gray-600)", margin: 0 }}>
           {opensAt
             ? `The discussion opens shortly before the session, on ${opensAt}.`
             : "The discussion opens shortly before the session."}
@@ -1214,28 +1221,43 @@ export default function BlueskyDiscussion({
       // resets the polling cadence to the base interval.
       onPointerDown={markInteraction}
     >
-      <h2 style={{ margin: "0 0 0.5rem" }}>Discussion</h2>
-      <style>{"@keyframes bsky-spin{to{transform:rotate(360deg)}}"}</style>
+      <style>
+        {"@keyframes bsky-spin{to{transform:rotate(360deg)}}" +
+          ".bsky-view-link:hover{text-decoration:underline}"}
+      </style>
+
+      {root?.bskyUrl && (
+        <div style={blueskyLinkRowStyle}>
+          <a
+            className="bsky-view-link"
+            href={root.bskyUrl}
+            rel="noopener noreferrer"
+            style={blueskyLinkStyle}
+            target="_blank"
+          >
+            <img
+              alt=""
+              aria-hidden="true"
+              src={`${import.meta.env.BASE_URL.replace(/\/?$/, "/")}assets/theme/bluesky-logo.svg`}
+              style={blueskyLinkIconStyle}
+            />
+            View on Bluesky
+          </a>
+        </div>
+      )}
+
+      {showPost && <h2 style={{ margin: "0 0 0.5rem" }}>Discussion</h2>}
 
       {root && (
         <div style={announcementCardStyle}>
-          <PostCard
-            bare
-            like={likeContext}
-            own={ownContext}
-            post={root}
-            variant="root"
-          />
-
-          <BlueskyLogin
-            bskyUrl={root.bskyUrl}
-            busy={bluesky.busy}
-            error={bluesky.error}
-            linkedHandle={linkedHandle}
-            onSignIn={signInWithBluesky}
-            onSignOut={() => void bluesky.signOut()}
-            session={bluesky.session}
-          />
+          {showPost && (
+            <PostCard
+              like={likeContext}
+              own={ownContext}
+              post={root}
+              variant="root"
+            />
+          )}
         </div>
       )}
 
@@ -1258,12 +1280,27 @@ export default function BlueskyDiscussion({
         />
       )}
 
+      <hr
+        style={{
+          margin: "1rem 0",
+          border: "none",
+          borderTop: "1px solid var(--color-gray-300)",
+        }}
+      />
+
       {actionError && (
-        <p style={{ color: "#b91c1c", marginTop: 0 }}>{actionError}</p>
+        <p style={{ ...errorTextStyle, marginTop: 0 }}>{actionError}</p>
       )}
 
       {error && (
-        <p style={{ color: replies.length > 0 ? "#92400e" : "#b91c1c" }}>
+        <p
+          style={{
+            color:
+              replies.length > 0
+                ? "var(--color-primary-800)"
+                : errorTextStyle.color,
+          }}
+        >
           {replies.length > 0
             ? error
             : `Could not load the discussion: ${error}`}
@@ -1271,7 +1308,7 @@ export default function BlueskyDiscussion({
       )}
 
       {!error && replies.length === 0 && (
-        <p style={{ color: "#6b7280" }}>
+        <p style={{ color: "var(--color-gray-600)" }}>
           No comments yet.{interactive ? " Start the conversation." : ""}
         </p>
       )}
@@ -1302,7 +1339,7 @@ export default function BlueskyDiscussion({
             alignItems: "center",
             gap: "0.6rem",
             fontSize: "0.8rem",
-            color: "#6b7280",
+            color: "var(--color-gray-600)",
           }}
         >
           {lastUpdatedAt !== null && (
@@ -1320,7 +1357,7 @@ export default function BlueskyDiscussion({
               gap: "0.35rem",
               padding: "0.25rem 0.6rem",
               borderRadius: "0.5rem",
-              border: "1px solid #e5e7eb",
+              border: "1px solid var(--color-gray-300)",
               backgroundColor: "#fff",
               color: "inherit",
               cursor: refreshing ? "default" : "pointer",
@@ -1360,14 +1397,31 @@ const sectionStyle: CSSProperties = {
   marginTop: "2.5rem",
 };
 
+const blueskyLinkRowStyle: CSSProperties = {
+  display: "flex",
+  justifyContent: "flex-end",
+  marginBottom: "0.75rem",
+};
+
+const blueskyLinkStyle: CSSProperties = {
+  display: "inline-flex",
+  alignItems: "center",
+  gap: "0.4rem",
+  color: "var(--color-accent)",
+  fontSize: "0.85rem",
+  fontWeight: 600,
+  textDecoration: "none",
+};
+
+const blueskyLinkIconStyle: CSSProperties = {
+  height: "1.1em",
+  width: "auto",
+};
+
 /**
  * The announcement and the Bluesky callout share one bordered box; `overflow`
  * clips the callout's shaded footer band to the rounded bottom corners.
  */
 const announcementCardStyle: CSSProperties = {
-  border: "1px solid #e5e7eb",
-  borderRadius: "0.6rem",
-  overflow: "hidden",
-  backgroundColor: "#f9fafb",
   marginBottom: "0.75rem",
 };

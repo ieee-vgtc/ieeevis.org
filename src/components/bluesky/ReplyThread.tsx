@@ -35,14 +35,20 @@ export default function ReplyThread({
 }: ReplyThreadProps) {
   const replies = post.replies || [];
   const replyHere = depth < maxDepth ? reply : undefined;
+  // Only a top-level thread (post + all its nested replies) gets a divider
+  // below it; nested replies are grouped by the left guideline alone, so a
+  // long sub-thread doesn't turn into a stack of boxes.
+  const isTopLevel = depth === 0;
 
   return (
     <div
       style={{
-        marginTop: "0.75rem",
-        marginLeft: depth * 12,
-        borderLeft: depth > 0 ? "2px solid #e5e7eb" : "none",
-        paddingLeft: depth > 0 ? "0.75rem" : 0,
+        marginTop: isTopLevel ? "1.1rem" : "0.5rem",
+        marginLeft: depth > 0 ? 14 : 0,
+        paddingLeft: depth > 0 ? "0.85rem" : 0,
+        paddingBottom: isTopLevel ? "1.1rem" : 0,
+        borderLeft: depth > 0 ? "2px solid var(--color-gray-300)" : "none",
+        borderBottom: isTopLevel ? "1px solid var(--color-gray-300)" : "none",
       }}
     >
       <PostCard like={like} own={own} post={post} reply={replyHere} />
@@ -63,7 +69,11 @@ export default function ReplyThread({
 
       {depth >= maxDepth && replies.length > 0 && (
         <small
-          style={{ display: "block", marginTop: "0.4rem", color: "#6b7280" }}
+          style={{
+            display: "block",
+            marginTop: "0.4rem",
+            color: "var(--color-gray-600)",
+          }}
         >
           Further replies are shown on Bluesky.
         </small>

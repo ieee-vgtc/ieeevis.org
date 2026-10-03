@@ -9,11 +9,30 @@
 
 import { useState } from "react";
 import type { CSSProperties, FormEvent } from "react";
-import { hintTextStyle, secondaryButtonStyle } from "./styles";
+import {
+  errorTextStyle,
+  hintTextStyle,
+  primaryButtonStyle,
+  secondaryButtonStyle,
+} from "./styles";
 
 // How much of the byline the "Comment as …" button shows before ellipsis, so a
 // long name cannot blow the button off its row.
 const BYLINE_LIMIT = 22;
+
+// Keeps the real checkbox accessible (focusable, announced, toggled by
+// keyboard) while the pill label beside it carries the visible styling.
+const visuallyHiddenStyle: CSSProperties = {
+  position: "absolute",
+  width: 1,
+  height: 1,
+  margin: -1,
+  padding: 0,
+  overflow: "hidden",
+  clip: "rect(0, 0, 0, 0)",
+  whiteSpace: "nowrap",
+  border: 0,
+};
 
 /** Count the way the API does, so the counter and the 400 agree. */
 function graphemeLength(text: string): number {
@@ -127,7 +146,7 @@ export default function CommentComposer({
         style={{
           width: "100%",
           padding: "0.6rem",
-          border: "1px solid #e5e7eb",
+          border: "1px solid var(--color-gray-300)",
           borderRadius: "0.5rem",
           fontFamily: "inherit",
           fontSize: "0.95rem",
@@ -150,7 +169,7 @@ export default function CommentComposer({
           gap: "0.5rem 0.75rem",
           marginTop: "0.5rem",
           fontSize: "0.85rem",
-          color: "#6b7280",
+          color: "var(--color-gray-600)",
         }}
       >
         {/* The section is a polite live region, so the button's byline is
@@ -158,14 +177,9 @@ export default function CommentComposer({
         <button
           disabled={submitting || !draft.trim() || remaining < 0}
           style={{
+            ...primaryButtonStyle,
             padding: "0.4rem 0.9rem",
-            borderRadius: "0.5rem",
-            border: "1px solid #2563eb",
-            backgroundColor: "#2563eb",
-            color: "#fff",
-            cursor: "pointer",
             fontSize: "0.9rem",
-            whiteSpace: "nowrap",
           }}
           type="submit"
         >
@@ -222,11 +236,17 @@ export default function CommentComposer({
               gap: "0.15rem",
             }}
           >
+            <style>
+              {
+                ".bsky-anon-toggle:focus-within .bsky-anon-track{outline:2px solid var(--color-accent);outline-offset:2px}"
+              }
+            </style>
             <label
+              className="bsky-anon-toggle"
               style={{
                 display: "inline-flex",
                 alignItems: "center",
-                gap: "0.35rem",
+                gap: "0.45rem",
                 cursor: submitting ? "default" : "pointer",
               }}
             >
@@ -237,13 +257,42 @@ export default function CommentComposer({
                   onActivity();
                   onAnonymousChange(event.target.checked);
                 }}
+                style={visuallyHiddenStyle}
                 type="checkbox"
               />
+              <span
+                className="bsky-anon-track"
+                style={{
+                  position: "relative",
+                  display: "inline-block",
+                  width: "2rem",
+                  height: "1.1rem",
+                  borderRadius: "999px",
+                  backgroundColor: anonymous
+                    ? "var(--color-accent)"
+                    : "var(--color-gray-400)",
+                  transition: "background-color 150ms",
+                  flexShrink: 0,
+                }}
+              >
+                <span
+                  style={{
+                    position: "absolute",
+                    top: "0.15rem",
+                    left: anonymous ? "0.98rem" : "0.15rem",
+                    width: "0.8rem",
+                    height: "0.8rem",
+                    borderRadius: "50%",
+                    backgroundColor: "#fff",
+                    transition: "left 150ms",
+                  }}
+                />
+              </span>
               Hide my name
             </label>
 
             {anonymous && (
-              <small style={{ fontSize: "0.8rem", color: "#6b7280" }}>
+              <small style={hintTextStyle}>
                 Your name is hidden from readers, not from conference
                 organizers.
               </small>
@@ -254,7 +303,8 @@ export default function CommentComposer({
         <small
           style={{
             marginLeft: "auto",
-            color: remaining < 0 ? "#b91c1c" : "#6b7280",
+            color:
+              remaining < 0 ? errorTextStyle.color : "var(--color-gray-600)",
           }}
         >
           {remaining}
@@ -262,7 +312,7 @@ export default function CommentComposer({
       </div>
 
       {error && (
-        <p style={{ color: "#b91c1c", margin: "0.5rem 0 0" }}>{error}</p>
+        <p style={{ ...errorTextStyle, margin: "0.5rem 0 0" }}>{error}</p>
       )}
     </form>
   );
