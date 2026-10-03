@@ -5,7 +5,7 @@ import type { CSSProperties } from "react";
 export const secondaryButtonStyle: CSSProperties = {
   padding: "0.35rem 0.8rem",
   borderRadius: "0.5rem",
-  border: "1px solid #d1d5db",
+  border: "1px solid var(--color-gray-400)",
   backgroundColor: "#fff",
   color: "inherit",
   cursor: "pointer",
@@ -16,14 +16,16 @@ export const secondaryButtonStyle: CSSProperties = {
 
 export const primaryButtonStyle: CSSProperties = {
   ...secondaryButtonStyle,
-  border: "1px solid #2563eb",
-  backgroundColor: "#2563eb",
+  border: "1px solid var(--color-primary)",
+  backgroundColor: "var(--color-primary)",
   color: "#fff",
+  fontFamily: "var(--font-display, inherit)",
+  fontWeight: 600,
 };
 
 export const hintTextStyle: CSSProperties = {
   fontSize: "0.8rem",
-  color: "#6b7280",
+  color: "var(--color-gray-600)",
 };
 
 export const errorTextStyle: CSSProperties = {
