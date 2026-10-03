@@ -45,7 +45,13 @@
 import { Auth0Client, type User } from "@auth0/auth0-spa-js";
 import { safeReturnTo, siteBase } from "../utils/withBaseURL";
 
-const CALLBACK_PATH = "/auth/callback";
+// Trailing slash is required: the S3 deploys serve this as a static
+// auth/callback/index.html file, and a request for the extensionless path
+// without the slash gets redirected by CloudFront to add it, a hop that
+// drops the code/state query string Auth0 appended ("There are no query
+// params available for parsing"). Requesting the canonical URL directly
+// skips that redirect.
+const CALLBACK_PATH = "/auth/callback/";
 
 export type AttendeeUser = {
   email?: string;
