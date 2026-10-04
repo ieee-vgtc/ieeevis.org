@@ -119,11 +119,7 @@
     width: auto;
     height: 100%;
     border-bottom: 4px solid transparent;
-    /* Delay the return to full opacity so the menu does not flash while the
-       pointer crosses the gap between two items */
-    transition:
-      opacity 150ms ease 100ms,
-      border-color 150ms ease;
+    transition: border-color 150ms ease;
     @apply text-white;
   }
 }
@@ -151,19 +147,10 @@
   }
 }
 
-/* State: Hover — dim the other items and preview the active bar */
+/* State: Hover — preview the active bar */
 
 @variant md {
   @media (hover: hover) and (pointer: fine) {
-    .menu:has(.menu_item:hover) .menu_item:not(:hover) {
-      opacity: 0.6;
-      transition-delay: 0s;
-    }
-
-    .menu_item:hover {
-      transition-delay: 0s;
-    }
-
     .menu_item:not(.menu_item--is-active):hover {
       border-bottom-color: rgb(255 255 255 / 0.4);
     }
@@ -171,7 +158,7 @@
 
   @media (prefers-reduced-motion: reduce) {
     .menu_item {
-      transition: opacity 0s 100ms;
+      transition: none;
     }
   }
 }
