@@ -14,13 +14,15 @@ mkdir -p src/data/program
 
 fetch_table() {
   # $1 = supabase table, $2 = output file, $3 = optional extra filter, $4 = optional column list
-  curl --location --silent --fail-with-body --get "https://data.tech.ieeevis.org/rest/v1/$1" \
+  status=$(curl --location --silent --get "https://data.tech.ieeevis.org/rest/v1/$1" \
     --data-urlencode "select=${4:-*}" \
     ${3:+--data-urlencode "$3"} \
-    --header "apikey: $SUPABASE_CLIENT_ANON_KEY" > "src/data/program/$2" || {
-    echo "Fetching $1 failed: $(cat "src/data/program/$2")" >&2
+    --header "apikey: $SUPABASE_CLIENT_ANON_KEY" \
+    --output "src/data/program/$2" --write-out "%{http_code}")
+  if [ "$status" != "200" ]; then
+    echo "Fetching $1 failed with HTTP $status: $(cat "src/data/program/$2")" >&2
     exit 1
-  }
+  fi
 }
 
 fetch_table sessions2 session_list.json
