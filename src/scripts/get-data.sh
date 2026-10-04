@@ -18,7 +18,10 @@ fetch_table() {
     --data-urlencode "select=${4:-*}" \
     ${3:+--data-urlencode "$3"} \
     --header "apikey: $SUPABASE_CLIENT_ANON_KEY" \
-    --output "src/data/program/$2" --write-out "%{http_code}")
+    --output "src/data/program/$2" --write-out "%{http_code}") || {
+    echo "Fetching $1 failed with curl exit code $?" >&2
+    exit 1
+  }
   if [ "$status" != "200" ]; then
     echo "Fetching $1 failed with HTTP $status: $(cat "src/data/program/$2")" >&2
     exit 1
