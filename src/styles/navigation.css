@@ -118,32 +118,48 @@
     text-align: center;
     width: auto;
     height: 100%;
-    --hover-response-text-color: var(--color-primary-200);
+    border-bottom: 4px solid transparent;
+    transition:
+      opacity 150ms ease,
+      border-color 150ms ease;
     @apply text-white;
   }
 }
 
 /* State: Focused */
 .menu_item--focused {
-  @apply text-primary-200 bg-accent;
+  @apply text-white bg-accent;
 }
 .menu_item--selected-nav-group {
   border-bottom: 4px solid var(--color-accent-minor);
 }
 
+/* State: Active Navigation and open dropdown */
+
 @variant md {
-  .menu_item--focused {
-    @apply text-primary-200;
-    /*            @apply bg-gray-100;*/
+  .menu_item.menu_item--is-active,
+  .menu_item.menu_item--focused {
+    border-bottom-color: white;
+  }
+
+  .menu:has(.menu_item--focused) .menu_item:not(.menu_item--focused) {
+    opacity: 0.6;
   }
 }
 
-/* State: Active Navigation  */
+/* State: Hover — preview the active bar */
 
 @variant md {
-  .menu_item.menu_item--is-active {
-    @apply text-primary-200;
-    box-shadow: inset 0 -4px --color-accent-minor;
+  @media (hover: hover) and (pointer: fine) {
+    .menu_item:not(.menu_item--is-active, .menu_item--focused):hover {
+      border-bottom-color: rgb(255 255 255 / 0.6);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .menu_item {
+      transition: none;
+    }
   }
 }
 
