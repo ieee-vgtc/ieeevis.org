@@ -39,6 +39,7 @@ export interface Paper {
   has_pdf: boolean;
   has_image: boolean;
   has_ff: boolean; // Fast forward video
+  preview_image_url?: string | null; // Page 1 of the PDF as AVIF
 
   // Upload/Retrieve links
   pmu_upload_link: string | null;

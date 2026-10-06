@@ -88,6 +88,8 @@ const preprintLink =
     ? paper.preprint_link.trim()
     : null;
 
+const hasLinks = Boolean(preprintLink || paper.doi || supplementalLink);
+
 const sessionHref =
   presentation &&
   withBaseURL(
@@ -360,53 +362,73 @@ const frontmatter = {
       )
     }
 
-    <!-- Links (immediately after authors, styled as plain inline links matching authors) -->
+    <!-- Page 1 of the paper next to the links (styled as plain inline links matching authors) -->
     {
-      (preprintLink ||
-        paper.doi ||
-        supplementalLink) && (
-        <div class="paper-section paper-links mb-6">
-          <h2>Links</h2>
-          <ul>
-            {preprintLink && (
-              <li>
-                <AuthGate label="preprint PDF">
-                  <a
-                    href={preprintLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Preprint PDF
-                    <NewTabIndicator />
-                  </a>
-                </AuthGate>
-              </li>
+      (paper.preview_image_url || hasLinks) && (
+        <div
+          class:list={[
+            "paper-section paper-links mb-6",
+            paper.preview_image_url && "paper-links--with-preview",
+          ]}
+        >
+          {paper.preview_image_url && (
+            <img
+              class="paper-preview not-prose"
+              src={paper.preview_image_url}
+              alt={`First page of the paper “${paper.title}”.`}
+              width="1200"
+              height="1553"
+              loading="lazy"
+              decoding="async"
+            />
+          )}
+          <div>
+            <h2>Links</h2>
+            {hasLinks ? (
+              <ul>
+                {preprintLink && (
+                  <li>
+                    <AuthGate label="preprint PDF">
+                      <a
+                        href={preprintLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Preprint PDF
+                        <NewTabIndicator />
+                      </a>
+                    </AuthGate>
+                  </li>
+                )}
+                {supplementalLink && (
+                  <li>
+                    <a
+                      href={supplementalLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Supplemental Material
+                      <NewTabIndicator />
+                    </a>
+                  </li>
+                )}
+                {paper.doi && (
+                  <li>
+                    <a
+                      href={`https://doi.org/${paper.doi}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      DOI: {paper.doi}
+                      <NewTabIndicator />
+                    </a>
+                  </li>
+                )}
+              </ul>
+            ) : (
+              <p>The links to the paper are not available yet.</p>
             )}
-            {supplementalLink && (
-              <li>
-                <a
-                  href={supplementalLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Supplemental Material
-                  <NewTabIndicator />
-                </a>
-              </li>
-            )}
-            {paper.doi && (
-              <li>
-                <a
-                  href={`https://doi.org/${paper.doi}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  DOI: {paper.doi}
-                  <NewTabIndicator />
-                </a>
-              </li>
-            )}
-          </ul>
+          </div>
         </div>
       )
     }
@@ -825,6 +847,37 @@ const frontmatter = {
     .award-badge {
       padding-inline: 0.6rem;
       font-size: 0.7rem;
+    }
+  }
+
+  .paper-links--with-preview {
+    display: grid;
+    grid-template-columns: minmax(8rem, 14rem) minmax(0, 1fr);
+    align-items: start;
+    gap: 1.5rem;
+  }
+
+  .paper-links--with-preview h2 {
+    margin-top: 0;
+  }
+
+  .paper-preview {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    border: 1px solid #e5ddd2;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.35rem 1.25rem rgb(59 53 47 / 10%);
+  }
+
+  @media (max-width: 640px) {
+    .paper-links--with-preview {
+      grid-template-columns: minmax(0, 1fr);
+      gap: 1rem;
+    }
+
+    .paper-preview {
+      max-width: 12rem;
     }
   }
 
