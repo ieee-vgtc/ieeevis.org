@@ -362,7 +362,7 @@ const frontmatter = {
       )
     }
 
-    <!-- Page 1 of the paper next to the links (styled as plain inline links matching authors) -->
+    <!-- Links (plain inline links matching authors), with the top of page 1 of the paper on the right -->
     {
       (paper.preview_image_url || hasLinks) && (
         <div
@@ -371,17 +371,6 @@ const frontmatter = {
             paper.preview_image_url && "paper-links--with-preview",
           ]}
         >
-          {paper.preview_image_url && (
-            <img
-              class="paper-preview not-prose"
-              src={paper.preview_image_url}
-              alt={`First page of the paper “${paper.title}”.`}
-              width="1200"
-              height="1553"
-              loading="lazy"
-              decoding="async"
-            />
-          )}
           <div>
             <h2>Links</h2>
             {hasLinks ? (
@@ -429,6 +418,17 @@ const frontmatter = {
               <p>The links to the paper are not available yet.</p>
             )}
           </div>
+          {paper.preview_image_url && (
+            <img
+              class="paper-preview not-prose"
+              src={paper.preview_image_url}
+              alt={`Top of the first page of the paper “${paper.title}”.`}
+              width="1200"
+              height="1553"
+              loading="lazy"
+              decoding="async"
+            />
+          )}
         </div>
       )
     }
@@ -852,7 +852,7 @@ const frontmatter = {
 
   .paper-links--with-preview {
     display: grid;
-    grid-template-columns: minmax(8rem, 14rem) minmax(0, 1fr);
+    grid-template-columns: minmax(0, 1fr) minmax(10rem, 18rem);
     align-items: start;
     gap: 1.5rem;
   }
@@ -864,6 +864,9 @@ const frontmatter = {
   .paper-preview {
     width: 100%;
     height: auto;
+    aspect-ratio: 1200 / 776;
+    object-fit: cover;
+    object-position: top;
     margin: 0;
     border: 1px solid #e5ddd2;
     border-radius: 0.25rem;
@@ -877,7 +880,7 @@ const frontmatter = {
     }
 
     .paper-preview {
-      max-width: 12rem;
+      max-width: 18rem;
     }
   }
 
