@@ -852,7 +852,7 @@ const frontmatter = {
 
   .paper-links--with-preview {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(10rem, 18rem);
+    grid-template-columns: minmax(0, 1fr) minmax(12rem, 22rem);
     align-items: start;
     gap: 1.5rem;
   }
@@ -867,9 +867,10 @@ const frontmatter = {
     aspect-ratio: 1200 / 776;
     object-fit: cover;
     object-position: top;
-    margin: 0;
+    /* The page runs into the bottom edge of the card, which cuts it off */
+    align-self: end;
+    margin: 0 0 -1.25rem;
     box-shadow: 0 0.35rem 1.25rem rgb(59 53 47 / 10%);
-    /* No shadow along the bottom edge, where the page is cut off */
     clip-path: inset(-2rem -2rem 0 -2rem);
   }
 
@@ -880,7 +881,8 @@ const frontmatter = {
     }
 
     .paper-preview {
-      max-width: 18rem;
+      max-width: 22rem;
+      margin-bottom: -1rem;
     }
   }
 
