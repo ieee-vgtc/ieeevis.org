@@ -1,0 +1,81 @@
+---
+type Props = {
+  award: string;
+  compact?: boolean;
+};
+
+const { award, compact = false } = Astro.props as Props;
+const isHonorableMention = award.toLowerCase().includes("honorable");
+---
+
+<span
+  class:list={[
+    "award-badge",
+    "not-prose",
+    { "award-badge--bronze": isHonorableMention },
+    { "award-badge--compact": compact },
+  ]}
+>
+  <i class="material-icons award-badge__icon" aria-hidden="true">
+    emoji_events
+  </i>
+  <span>{award}</span>
+</span>
+
+<style>
+  .award-badge {
+    --award-border: #d8b35e;
+    --award-background: linear-gradient(135deg, #fffaf0, #ffedbd);
+    --award-text: #684707;
+    --award-shadow: rgb(118 80 11 / 12%);
+    --award-icon: linear-gradient(135deg, #e6bf62, #c8962f);
+
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    width: fit-content;
+    padding: 0.25rem 0.7rem 0.25rem 0.3rem;
+    border: 1px solid var(--award-border);
+    border-radius: 999px;
+    background: var(--award-background);
+    color: var(--award-text);
+    box-shadow: 0 0.2rem 0.6rem var(--award-shadow);
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    line-height: 1.2;
+    white-space: nowrap;
+  }
+
+  .award-badge--bronze {
+    --award-border: #c98f62;
+    --award-background: linear-gradient(135deg, #fff6ef, #f6d6bd);
+    --award-text: #6b3815;
+    --award-shadow: rgb(107 56 21 / 12%);
+    --award-icon: linear-gradient(135deg, #d39467, #a7643a);
+  }
+
+  .award-badge--compact {
+    gap: 0.25rem;
+    padding: 0.15rem 0.5rem 0.15rem 0.2rem;
+    box-shadow: none;
+    font-size: 0.72rem;
+  }
+
+  .award-badge--compact .award-badge__icon {
+    width: 1.1rem;
+    height: 1.1rem;
+    font-size: 0.72rem;
+  }
+
+  .award-badge__icon {
+    display: grid;
+    width: 1.4rem;
+    height: 1.4rem;
+    place-items: center;
+    border-radius: 50%;
+    background: var(--award-icon);
+    color: #fffaf0;
+    font-size: 0.9rem;
+  }
+</style>

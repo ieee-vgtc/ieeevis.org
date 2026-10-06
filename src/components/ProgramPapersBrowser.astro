@@ -279,6 +279,7 @@ const typeOptions = Object.keys(typeCounts)
             data-session-key={paper.sessionKey || ""}
             data-event={paper.eventLabel.toLowerCase()}
             data-event-key={paper.eventKey || ""}
+            data-award={paper.award?.toLowerCase() || ""}
             data-start-ms={paper.startMs}
             accentColor={typeColors[colorType] || "#f3f4f6"}
             titleColor={typeTextColors[colorType] || "#111827"}
@@ -291,7 +292,7 @@ const typeOptions = Object.keys(typeCounts)
                 : paperTypeToNameMap[normalizedType] ||
                   paper.presentationLabel)
             }
-            subtitle={paper.award ? `Award: ${paper.award}` : undefined}
+            award={paper.award}
             peopleLabel={paper.titleHref ? "Speakers" : "Authors"}
             people={people}
             links={links}
@@ -547,6 +548,7 @@ const typeOptions = Object.keys(typeCounts)
         card.dataset.keywords || "",
         card.dataset.session || "",
         card.dataset.event || "",
+        card.dataset.award || "",
       ].join(" ");
     };
 
