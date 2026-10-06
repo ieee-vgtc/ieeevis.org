@@ -1,6 +1,7 @@
 ---
 import PageLayout from "../../../layouts/PageLayout.astro";
 import AuthGate from "../../../components/AuthGate.astro";
+import NewTabIndicator from "../../../components/NewTabIndicator.astro";
 import { fetchAllPosters } from "../../../utils/paperData";
 
 export async function getStaticPaths() {
@@ -50,7 +51,8 @@ const frontmatter = {
               rel="noopener noreferrer"
               class="text-blue-600 hover:underline"
             >
-              Download PDF
+              Poster PDF
+              <NewTabIndicator />
             </a>
           </AuthGate>
         ) : (
