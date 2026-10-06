@@ -1,6 +1,7 @@
 ---
 import PageLayout from "../../../layouts/PageLayout.astro";
 import AuthGate from "../../../components/AuthGate.astro";
+import NewTabIndicator from "../../../components/NewTabIndicator.astro";
 import BlueskyDiscussion from "../../../components/BlueskyDiscussion";
 import { fetchAllPapers } from "../../../utils/paperData";
 import { features } from "../../../config/pages-allow-list";
@@ -375,7 +376,8 @@ const frontmatter = {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Download preprint PDF
+                    Preprint PDF
+                    <NewTabIndicator />
                   </a>
                 </AuthGate>
               </li>
@@ -387,7 +389,8 @@ const frontmatter = {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Download Supplemental Material
+                  Supplemental Material
+                  <NewTabIndicator />
                 </a>
               </li>
             )}
@@ -399,6 +402,7 @@ const frontmatter = {
                   rel="noopener noreferrer"
                 >
                   DOI: {paper.doi}
+                  <NewTabIndicator />
                 </a>
               </li>
             )}
