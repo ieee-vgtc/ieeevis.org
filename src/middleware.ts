@@ -47,8 +47,9 @@ export const onRequest: MiddlewareHandler = async (context, next) => {
 
       // IMAGES — bsky.tech.ieeevis.org serves proxied avatars/images for the
       // paper-page Bluesky discussions; cdn.bsky.app serves them for threads
-      // read straight from Bluesky
-      "img-src 'self' data: https://bsky.tech.ieeevis.org https://cdn.bsky.app",
+      // read straight from Bluesky; data.tech.ieeevis.org serves the page 1
+      // previews of the papers
+      "img-src 'self' data: https://bsky.tech.ieeevis.org https://cdn.bsky.app https://data.tech.ieeevis.org",
 
       // FONTS
       "font-src 'self' https://fonts.gstatic.com data:",

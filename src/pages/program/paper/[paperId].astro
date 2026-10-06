@@ -89,6 +89,8 @@ const preprintLink =
     ? paper.preprint_link.trim()
     : null;
 
+const hasLinks = Boolean(preprintLink || paper.doi || supplementalLink);
+
 const sessionHref =
   presentation &&
   withBaseURL(
@@ -357,53 +359,79 @@ const frontmatter = {
       )
     }
 
-    <!-- Links (immediately after authors, styled as plain inline links matching authors) -->
+    <!-- Links (plain inline links matching authors), with the top of page 1 of the paper on the right -->
     {
-      (preprintLink ||
-        paper.doi ||
-        supplementalLink) && (
-        <div class="paper-section paper-links mb-6">
-          <h2>Links</h2>
-          <ul>
-            {preprintLink && (
-              <li>
-                <AuthGate label="preprint PDF">
-                  <a
-                    href={preprintLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Preprint PDF
-                    <NewTabIndicator />
-                  </a>
-                </AuthGate>
-              </li>
+      (paper.preview_image_url || hasLinks) && (
+        <div
+          class:list={[
+            "paper-section paper-links mb-6",
+            paper.preview_image_url && "paper-links--with-preview",
+          ]}
+        >
+          <div>
+            <h2>Links</h2>
+            {hasLinks ? (
+              <ul>
+                {preprintLink && (
+                  <li>
+                    <AuthGate label="preprint PDF">
+                      <a
+                        href={preprintLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Preprint PDF
+                        <NewTabIndicator />
+                      </a>
+                    </AuthGate>
+                  </li>
+                )}
+                {supplementalLink && (
+                  <li>
+                    <a
+                      href={supplementalLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Supplemental Material
+                      <NewTabIndicator />
+                    </a>
+                  </li>
+                )}
+                {paper.doi && (
+                  <li>
+                    <a
+                      href={`https://doi.org/${paper.doi}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      DOI: {paper.doi}
+                      <NewTabIndicator />
+                    </a>
+                  </li>
+                )}
+              </ul>
+            ) : (
+              <p>The links to the paper are not available yet.</p>
             )}
-            {supplementalLink && (
-              <li>
-                <a
-                  href={supplementalLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Supplemental Material
-                  <NewTabIndicator />
-                </a>
-              </li>
-            )}
-            {paper.doi && (
-              <li>
-                <a
-                  href={`https://doi.org/${paper.doi}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  DOI: {paper.doi}
-                  <NewTabIndicator />
-                </a>
-              </li>
-            )}
-          </ul>
+          </div>
+          {paper.preview_image_url && (
+            <a
+              class="paper-preview not-prose"
+              data-preview-preprint={preprintLink ?? undefined}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={paper.preview_image_url}
+                alt={`Top of the first page of the paper “${paper.title}”.`}
+                width="1200"
+                height="1553"
+                loading="lazy"
+                decoding="async"
+              />
+            </a>
+          )}
         </div>
       )
     }
@@ -462,6 +490,20 @@ const frontmatter = {
 </PageLayout>
 
 <script>
+  import { getCurrentUser } from "../../../lib/auth0Client";
+
+  // Like the preprint link in AuthGate, the preview opens the preprint only for signed-in attendees.
+  const previewLink = document.querySelector<HTMLAnchorElement>(
+    "[data-preview-preprint]",
+  );
+  if (previewLink) {
+    void getCurrentUser().then((user) => {
+      if (!user) return;
+      previewLink.href = previewLink.dataset.previewPreprint!;
+      previewLink.setAttribute("aria-label", "Preprint PDF (opens in new tab)");
+    });
+  }
+
   const btn = document.getElementById(
     "bookmarkBtn",
   ) as HTMLButtonElement | null;
@@ -605,6 +647,20 @@ const frontmatter = {
   .paper-presentation dl,
   .paper-links ul {
     margin-bottom: 0;
+  }
+
+  .paper-links ul {
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+  }
+
+  .paper-links li {
+    padding-left: 0;
+  }
+
+  .paper-links li::before {
+    content: none;
   }
 
   .paper-abstract {
@@ -781,6 +837,81 @@ const frontmatter = {
     .paper-hero__eyebrow {
       align-items: flex-start;
       gap: 0.75rem;
+    }
+  }
+
+  /* The preview wraps below the links when they get narrower than 20rem */
+  .paper-links--with-preview {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+
+  .paper-links--with-preview > div {
+    flex: 1 1 20rem;
+    min-width: 0;
+  }
+
+  .paper-links--with-preview h2 {
+    margin-top: 0;
+  }
+
+  /* The page starts level with the heading and runs into the bottom edge of
+     the card, which cuts it off. The image is --pull taller than its frame, so
+     that on hover it can slide up by --pull and still meet the edge. */
+  .paper-preview {
+    --pull: 0.5rem;
+    position: relative;
+    display: block;
+    flex: 0 1 22rem;
+    min-width: 12rem;
+    aspect-ratio: 1200 / 776;
+    align-self: stretch;
+    margin: 0 0 -1.25rem;
+    clip-path: inset(-3rem -3rem 0 -3rem);
+  }
+
+  .paper-preview img {
+    position: absolute;
+    inset: 0 0 auto;
+    width: 100%;
+    height: calc(100% + var(--pull));
+    margin: 0;
+    object-fit: cover;
+    object-position: top;
+    box-shadow: 0 0.35rem 1.25rem rgb(59 53 47 / 10%);
+  }
+
+  .paper-preview:hover img,
+  .paper-preview:focus-visible img {
+    box-shadow: 0 0.75rem 2rem rgb(59 53 47 / 22%);
+    transform: translateY(calc(-1 * var(--pull)));
+  }
+
+  .paper-preview:focus-visible {
+    outline: none;
+  }
+
+  .paper-preview:focus-visible img {
+    outline: 3px solid color-mix(in srgb, var(--color-accent) 35%, transparent);
+    outline-offset: 2px;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .paper-preview img {
+      transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .paper-links--with-preview {
+      gap: 1rem;
+    }
+
+    .paper-preview {
+      margin-bottom: -1rem;
     }
   }
 
