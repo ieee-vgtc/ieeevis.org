@@ -901,32 +901,34 @@ const frontmatter = {
   }
 
   /* The page starts level with the heading and runs into the bottom edge of
-     the card, which cuts it off. It reaches --pull further down, out of sight,
-     so that on hover it can slide up by --pull and still meet the edge. */
+     the card, which cuts it off. The image is --pull taller than its frame, so
+     that on hover it can slide up by --pull and still meet the edge. */
   .paper-preview {
     --pull: 0.5rem;
+    position: relative;
     display: block;
     flex: 0 1 22rem;
     min-width: 12rem;
     aspect-ratio: 1200 / 776;
     align-self: stretch;
-    margin: 0 0 calc(-1.25rem - var(--pull));
+    margin: 0 0 -1.25rem;
+    clip-path: inset(-3rem -3rem 0 -3rem);
   }
 
   .paper-preview img {
+    position: absolute;
+    inset: 0 0 auto;
     width: 100%;
-    height: 100%;
+    height: calc(100% + var(--pull));
     margin: 0;
     object-fit: cover;
     object-position: top;
     box-shadow: 0 0.35rem 1.25rem rgb(59 53 47 / 10%);
-    clip-path: inset(-2rem -2rem var(--pull) -2rem);
   }
 
   .paper-preview:hover img,
   .paper-preview:focus-visible img {
     box-shadow: 0 0.75rem 2rem rgb(59 53 47 / 22%);
-    clip-path: inset(-3rem -3rem 0 -3rem);
     transform: translateY(calc(-1 * var(--pull)));
   }
 
@@ -943,8 +945,7 @@ const frontmatter = {
     .paper-preview img {
       transition:
         transform 0.2s ease,
-        box-shadow 0.2s ease,
-        clip-path 0.2s ease;
+        box-shadow 0.2s ease;
     }
   }
 
@@ -954,7 +955,7 @@ const frontmatter = {
     }
 
     .paper-preview {
-      margin-bottom: calc(-1rem - var(--pull));
+      margin-bottom: -1rem;
     }
   }
 
