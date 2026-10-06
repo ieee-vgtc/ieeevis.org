@@ -230,6 +230,10 @@ menu:
                     description: "Satellite event in Paris, France"
                     url: "/satellites/paris/"
                     is_new: false
+                  - text: "Tianjin Satellite"
+                    description: "Satellite event in Tianjin, China"
+                    url: "/satellites/tianjin/"
+                    is_new: false
 
               #             - text: "Venue"
               #               description: "Austria Center Vienna"
