@@ -868,9 +868,9 @@ const frontmatter = {
     object-fit: cover;
     object-position: top;
     margin: 0;
-    border: 1px solid #e5ddd2;
-    border-radius: 0.25rem;
     box-shadow: 0 0.35rem 1.25rem rgb(59 53 47 / 10%);
+    /* No shadow along the bottom edge, where the page is cut off */
+    clip-path: inset(-2rem -2rem 0 -2rem);
   }
 
   @media (max-width: 640px) {
