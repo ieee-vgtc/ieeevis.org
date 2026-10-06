@@ -632,6 +632,20 @@ const frontmatter = {
     margin-bottom: 0;
   }
 
+  .paper-links ul {
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+  }
+
+  .paper-links li {
+    padding-left: 0;
+  }
+
+  .paper-links li::before {
+    content: none;
+  }
+
   .paper-abstract {
     max-width: 62rem;
     padding: clamp(1.5rem, 3vw, 2.5rem);
@@ -850,11 +864,16 @@ const frontmatter = {
     }
   }
 
+  /* The preview wraps below the links when they get narrower than 20rem */
   .paper-links--with-preview {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(12rem, 22rem);
-    align-items: start;
+    display: flex;
+    flex-wrap: wrap;
     gap: 1.5rem;
+  }
+
+  .paper-links--with-preview > div {
+    flex: 1 1 20rem;
+    min-width: 0;
   }
 
   .paper-links--with-preview h2 {
@@ -862,7 +881,8 @@ const frontmatter = {
   }
 
   .paper-preview {
-    width: 100%;
+    flex: 0 1 22rem;
+    min-width: 12rem;
     height: auto;
     aspect-ratio: 1200 / 776;
     object-fit: cover;
@@ -876,12 +896,10 @@ const frontmatter = {
 
   @media (max-width: 640px) {
     .paper-links--with-preview {
-      grid-template-columns: minmax(0, 1fr);
       gap: 1rem;
     }
 
     .paper-preview {
-      max-width: 22rem;
       margin-bottom: -1rem;
     }
   }
