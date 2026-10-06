@@ -419,15 +419,21 @@ const frontmatter = {
             )}
           </div>
           {paper.preview_image_url && (
-            <img
+            <a
               class="paper-preview not-prose"
-              src={paper.preview_image_url}
-              alt={`Top of the first page of the paper “${paper.title}”.`}
-              width="1200"
-              height="1553"
-              loading="lazy"
-              decoding="async"
-            />
+              data-preview-preprint={preprintLink ?? undefined}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={paper.preview_image_url}
+                alt={`Top of the first page of the paper “${paper.title}”.`}
+                width="1200"
+                height="1553"
+                loading="lazy"
+                decoding="async"
+              />
+            </a>
           )}
         </div>
       )
@@ -487,6 +493,20 @@ const frontmatter = {
 </PageLayout>
 
 <script>
+  import { getCurrentUser } from "../../../lib/auth0Client";
+
+  // Like the preprint link in AuthGate, the preview opens the preprint only for signed-in attendees.
+  const previewLink = document.querySelector<HTMLAnchorElement>(
+    "[data-preview-preprint]",
+  );
+  if (previewLink) {
+    void getCurrentUser().then((user) => {
+      if (!user) return;
+      previewLink.href = previewLink.dataset.previewPreprint!;
+      previewLink.setAttribute("aria-label", "Preprint PDF (opens in new tab)");
+    });
+  }
+
   const btn = document.getElementById(
     "bookmarkBtn",
   ) as HTMLButtonElement | null;
@@ -880,18 +900,52 @@ const frontmatter = {
     margin-top: 0;
   }
 
+  /* The page starts level with the heading and runs into the bottom edge of
+     the card, which cuts it off. It reaches --pull further down, out of sight,
+     so that on hover it can slide up by --pull and still meet the edge. */
   .paper-preview {
+    --pull: 0.5rem;
+    display: block;
     flex: 0 1 22rem;
     min-width: 12rem;
-    height: auto;
     aspect-ratio: 1200 / 776;
+    align-self: stretch;
+    margin: 0 0 calc(-1.25rem - var(--pull));
+  }
+
+  .paper-preview img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
     object-fit: cover;
     object-position: top;
-    /* The page starts level with the heading and runs into the bottom edge of the card, which cuts it off */
-    align-self: stretch;
-    margin: 0 0 -1.25rem;
     box-shadow: 0 0.35rem 1.25rem rgb(59 53 47 / 10%);
-    clip-path: inset(-2rem -2rem 0 -2rem);
+    clip-path: inset(-2rem -2rem var(--pull) -2rem);
+  }
+
+  .paper-preview:hover img,
+  .paper-preview:focus-visible img {
+    box-shadow: 0 0.75rem 2rem rgb(59 53 47 / 22%);
+    clip-path: inset(-3rem -3rem 0 -3rem);
+    transform: translateY(calc(-1 * var(--pull)));
+  }
+
+  .paper-preview:focus-visible {
+    outline: none;
+  }
+
+  .paper-preview:focus-visible img {
+    outline: 3px solid color-mix(in srgb, var(--color-accent) 35%, transparent);
+    outline-offset: 2px;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .paper-preview img {
+      transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease,
+        clip-path 0.2s ease;
+    }
   }
 
   @media (max-width: 640px) {
@@ -900,7 +954,7 @@ const frontmatter = {
     }
 
     .paper-preview {
-      margin-bottom: -1rem;
+      margin-bottom: calc(-1rem - var(--pull));
     }
   }
 
