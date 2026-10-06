@@ -1067,6 +1067,10 @@
   color: var(--program-card-title, var(--color-gray-800));
 }
 
+.program-card__award {
+  margin-top: 0.5rem;
+}
+
 .program-card__body {
   display: flex;
   flex: 1;

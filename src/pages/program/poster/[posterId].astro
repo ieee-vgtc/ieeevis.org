@@ -1,6 +1,7 @@
 ---
 import PageLayout from "../../../layouts/PageLayout.astro";
 import AuthGate from "../../../components/AuthGate.astro";
+import AwardBadge from "../../../components/AwardBadge.astro";
 import NewTabIndicator from "../../../components/NewTabIndicator.astro";
 import { fetchAllPosters } from "../../../utils/paperData";
 
@@ -26,6 +27,8 @@ const frontmatter = {
 <PageLayout frontmatter={frontmatter}>
   <div class="prose max-w-4xl">
     <h1>{poster.title}</h1>
+
+    {poster.award && <AwardBadge award={poster.award} />}
 
     <div class="mb-6">
       <h2 class="text-lg font-semibold mb-2">Authors</h2>

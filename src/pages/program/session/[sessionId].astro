@@ -1,5 +1,6 @@
 ---
 import PageLayout from "../../../layouts/PageLayout.astro";
+import AwardBadge from "../../../components/AwardBadge.astro";
 import BlueskyDiscussion from "../../../components/BlueskyDiscussion";
 import { fetchAllPapers, fetchAllSessions } from "../../../utils/paperData";
 import { hasOwnDiscussion } from "../../../utils/discussionSlots";
@@ -251,6 +252,11 @@ const frontmatter = {
               ) : (
                 <h3>{slot.title}</h3>
               )}
+              {slot.paper_award && (
+                <p class="program-presentation-award">
+                  <AwardBadge award={slot.paper_award} compact />
+                </p>
+              )}
               {slot.authors && slot.authors.length > 0 && (
                 <p class="program-presentation-authors">
                   {usesOrganizerLabel ||
@@ -437,6 +443,10 @@ const frontmatter = {
       margin: 0;
       color: var(--color-gray-700);
       font-size: 0.9rem;
+    }
+
+    .program-presentation-award {
+      margin: 0.15rem 0;
     }
 
     .program-presentation-discussion {
