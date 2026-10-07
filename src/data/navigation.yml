@@ -317,19 +317,47 @@ menu:
           - heading: "Vis Program"
             heading_url: "/program/sessions"
             columns:
+              # - subsections:
+              #     - heading: "Program Overview"
+              #       heading_url: "/program/sessions"
+              #       description: "An overview of the conference program"
+              #       columns:
+              #         - links:
+              #             - text: "Program Overview"
+              #               description: "An overview of the conference program"
+              #               url: "/program/sessions"
+              #               is_new: false
               - links:
                   - text: "Schedule"
                     description: "A full schedule for the conference"
                     url: "/program/calendar"
-                    is_new: true
-                  # - text: "Week at a Glance"
-                  #   description: "Preliminary overview of the conference week"
-                  #   url: "/info/program/week-at-a-glance"
-                  #   is_new: false
+                    is_new: false
                   - text: "Accepted Papers"
                     description: "An overview of all accepted papers"
                     url: "/program/papers"
                     is_new: false
+                  - text: "Paper Awards"
+                    description: "Recognizing outstanding work"
+                    url: "/program/papers/?type=awards"
+                    is_new: true
+              - links:
+                  - text: "Panels"
+                    description: "Discuss important and controversial issues"
+                    url: "/program/sessions/?type=panel"
+                    is_new: false
+                  - text: "Workshops"
+                    description: "Informal setting to discuss emerging topics"
+                    url: "/program/sessions/?type=workshop"
+                    is_new: false
+                  - text: "Tutorials"
+                    description: "Learn new tools and application domains"
+                    url: "/program/sessions/?type=tutorial"
+                    is_new:
+                      false
+                      # - text: "Week at a Glance"
+                  #   description: "Preliminary overview of the conference week"
+                  #   url: "/info/program/week-at-a-glance"
+                  #   is_new: false
                   # - text: "Sessions"
                   #   description: "List of all sessions and events"
                   #   url: "/program/sessions"
@@ -342,18 +370,7 @@ menu:
                   #   description: "Nascent and recent work"
                   #   url: "/info/program/posters"
                   #   is_new: false
-                  - text: "Panels"
-                    description: "Discuss important and controversial issues"
-                    url: "/program/sessions/?type=panel"
-                    is_new: false
-                  - text: "Workshops"
-                    description: "Informal setting to discuss emerging topics"
-                    url: "/program/sessions/?type=workshop"
-                    is_new: false
-                  - text: "Tutorials"
-                    description: "Learn new tools and application domains"
-                    url: "/program/sessions/?type=tutorial"
-                    is_new: false
+
                   # - text: "Meetups"
                   #   description: "Meet for discussions and shared experiences"
                   #   url: "/info/program/meetups"
@@ -451,7 +468,7 @@ menu:
                     url: "https://vast-challenge.github.io/2026/"
                     is_new: false
                     is_external: true
-
+              - links:
                   - text: "VIS Arts Program (VISAP)"
                     description: "A mini-conference and exhibition for vis researchers, designers, and artists"
                     url: "https://visap.net/2026/"
