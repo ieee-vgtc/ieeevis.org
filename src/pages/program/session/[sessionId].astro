@@ -1,4 +1,5 @@
 ---
+import ProgramPeopleList from "../../../components/ProgramPeopleList.astro";
 import PageLayout from "../../../layouts/PageLayout.astro";
 import AwardBadge from "../../../components/AwardBadge.astro";
 import BlueskyDiscussion from "../../../components/BlueskyDiscussion";
@@ -164,7 +165,9 @@ const frontmatter = {
     <section class="program-event-page">
       <p class="program-event-meta">
         <strong class="mr-2">Session chair:</strong>
-        {session.chair?.join(", ") || "TBA"}
+        {session.chairPeople?.length ? (
+          <ProgramPeopleList people={session.chairPeople} />
+        ) : session.chair?.join(", ") || "TBA"}
       </p>
       <p class="program-event-meta">
         <strong class="mr-2">Room:</strong>
@@ -265,15 +268,7 @@ const frontmatter = {
                   ) : (
                     "Authors: "
                   )}
-                  {slot.authors.map((author, idx) => (
-                    <a
-                      class="mr-1"
-                      href={`/year/2026/program/papers/?filter=author&search=${author.name.replaceAll(" ", "+")}`}
-                    >
-                      {author.name}
-                      {idx !== slot.authors.length - 1 ? "," : ""}
-                    </a>
-                  ))}
+                  <ProgramPeopleList people={slot.authors} linkNames />
                 </p>
               )}
               {isDescribedEvent &&
@@ -317,15 +312,7 @@ const frontmatter = {
               {paper.authors && paper.authors.length > 0 && (
                 <p class="program-presentation-authors">
                   Authors:{" "}
-                  {paper.authors.map((author, idx) => (
-                    <a
-                      class="mr-1"
-                      href={`/year/2026/program/papers/?filter=author&search=${author.name.replaceAll(" ", "+")}`}
-                    >
-                      {author.name}
-                      {idx !== paper.authors.length - 1 ? "," : ""}
-                    </a>
-                  ))}
+                  <ProgramPeopleList people={paper.authors} linkNames />
                 </p>
               )}
             </article>

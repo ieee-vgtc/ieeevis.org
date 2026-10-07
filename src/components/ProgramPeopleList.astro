@@ -1,0 +1,24 @@
+---
+import BlueskyProfileLink from "./BlueskyProfileLink.astro";
+import type { ProgramPerson } from "../types/program";
+import { withBaseURL } from "../utils/withBaseURL";
+
+interface Props {
+  people: ProgramPerson[];
+  linkNames?: boolean;
+}
+
+const { people, linkNames = false } = Astro.props;
+---
+
+{people.map((person, idx) => (
+  <span>
+    {linkNames ? (
+      <a href={withBaseURL(`/program/papers/?filter=author&search=${encodeURIComponent(person.name)}`)}>
+        {person.name}
+      </a>
+    ) : person.name}
+    <BlueskyProfileLink email={person.email} name={person.name} />
+    {idx < people.length - 1 ? ", " : ""}
+  </span>
+))}

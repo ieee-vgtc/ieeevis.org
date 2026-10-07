@@ -38,6 +38,8 @@ export interface ProgramSession {
   track: string;
   room_name: string;
   chair: string[];
+  /** Chair identities with emails; optional for older merged program snapshots. */
+  chairPeople?: ProgramPerson[];
   time_start: string;
   time_end: string;
   discord_link: NullableString;
