@@ -90,7 +90,13 @@ const preprintLink =
     ? paper.preprint_link.trim()
     : null;
 
-const hasLinks = Boolean(preprintLink || paper.doi || supplementalLink);
+//manually ignore TVCG and CGA papers because we should not host their PDFs
+const pdfURL =
+  (paper.pdf_url && /^https?:\/\//i.test(paper.pdf_url.trim()) && !["v-tvcg","v-cga"].includes(paper.event_prefix))
+    ? paper.pdf_url.trim()
+    : null;
+
+const hasLinks = Boolean(pdfURL || preprintLink || paper.doi || supplementalLink);
 
 const sessionHref =
   presentation &&
@@ -209,6 +215,8 @@ const frontmatter = {
   contact: "web@ieeevis.org",
   full_width: true,
 };
+
+const DISCUSSION_SECTION_ID = "discussion"
 ---
 
 <PageLayout frontmatter={frontmatter}>
@@ -319,6 +327,16 @@ const frontmatter = {
             </div>
           )
         }
+        <br/>
+        <a
+          class:list={[
+            "u-choice-button program-view-switcher__option hover-response--tint",
+          ]}
+          href={`#${DISCUSSION_SECTION_ID}`}
+        >
+          Jump to Discussion
+        </a>
+        <br/>
       </div>
     </header>
 
@@ -377,18 +395,30 @@ const frontmatter = {
             <h2>Links</h2>
             {hasLinks ? (
               <ul>
-                {preprintLink && (
+                {pdfURL && (
                   <li>
-                    <AuthGate label="preprint PDF">
+                    <AuthGate label="Paper PDF">
                       <a
-                        href={preprintLink}
+                        href={pdfURL}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Preprint PDF
+                        Paper PDF
                         <NewTabIndicator />
                       </a>
                     </AuthGate>
+                  </li>
+                )}
+                {preprintLink && (
+                  <li>
+                    <a
+                      href={preprintLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Preprint PDF
+                      <NewTabIndicator />
+                    </a>
                   </li>
                 )}
                 {supplementalLink && (
@@ -485,7 +515,7 @@ const frontmatter = {
          post, proxied through bsky.tech.ieeevis.org so it loads on any
          conference network. Sortable by upvotes or recency. -->
 
-    <div class="paper-section paper-links mb-6">
+    <div id={DISCUSSION_SECTION_ID} class="paper-section paper-links mb-6">
           <h2>Discussion</h2>
           <!-- <BlueskyDiscussion showPost={false} paperId="test-bsky-9999" client:load /> -->
           <BlueskyDiscussion showPost={false} paperId={paper.id} client:load />
