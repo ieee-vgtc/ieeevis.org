@@ -38,3 +38,6 @@ fetch_table slots slot_list.json
 # table is a separate (sparser) list that the program does not point at.
 fetch_table papers paper_list.json "event_prefix=neq.v-poster"
 fetch_table papers poster_list.json "event_prefix=eq.v-poster"
+
+# for author bluesky handles
+fetch_table bsky_handles bsky_handle_list.json "" "email,handle,did"
