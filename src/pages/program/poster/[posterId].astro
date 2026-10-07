@@ -1,4 +1,5 @@
 ---
+import ProgramPeopleList from "../../../components/ProgramPeopleList.astro";
 import PageLayout from "../../../layouts/PageLayout.astro";
 import AuthGate from "../../../components/AuthGate.astro";
 import AwardBadge from "../../../components/AwardBadge.astro";
@@ -33,7 +34,7 @@ const frontmatter = {
     <div class="mb-6">
       <h2 class="text-lg font-semibold mb-2">Authors</h2>
       <p>
-        {poster.authors.map((author) => author.name).join(", ")}
+        <ProgramPeopleList people={poster.authors} />
       </p>
     </div>
 

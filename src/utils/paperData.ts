@@ -133,9 +133,6 @@ const splitChairNames = (value: NullableString) =>
     .map((name) => name.trim())
     .filter(Boolean);
 
-const chairNames = (chairs: RawSessionChair[] | null): string[] =>
-  (chairs || []).flatMap((chair) => splitChairNames(chair?.name));
-
 function buildSessionList({
   events,
   sessions,
@@ -208,13 +205,22 @@ function buildSessionList({
         `Session ${session.session_id} references unknown timeblock ${session.timeblock_id}`,
       );
     }
+    const chairPeople = (session.session_chairs || []).flatMap((chair) => {
+      const names = splitChairNames(chair?.name);
+      // A shared chair row cannot identify which person owns the email.
+      return names.map((name) => ({
+        name,
+        email: names.length === 1 ? chair.email : null,
+      }));
+    });
     event.sessions.push({
       title: session.session_title,
       session_id: session.session_id,
       event_prefix: session.event_prefix,
       track: session.room_id,
       room_name: roomsById.get(session.room_id)?.room_name || session.room_id,
-      chair: chairNames(session.session_chairs),
+      chair: chairPeople.map((chair) => chair.name),
+      chairPeople,
       time_start: timeblock?.start || "",
       time_end: timeblock?.end || "",
       discord_link: session.discord_url,
