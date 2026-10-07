@@ -7,6 +7,10 @@ if [ -f .env ]; then
 fi
 
 : "${SUPABASE_CLIENT_ANON_KEY:?SUPABASE_CLIENT_ANON_KEY is required}"
+# The program holds chair and author emails, which the Bluesky handle matching
+# needs, so it is not readable with the public anon key. The build reads it with
+# its own key (role site_build). Ask the tech chairs for it.
+: "${SUPABASE_SITE_BUILD_KEY:?SUPABASE_SITE_BUILD_KEY is required}"
 
 set +a
 rm -rf src/data/program
@@ -18,6 +22,7 @@ fetch_table() {
     --data-urlencode "select=${4:-*}" \
     ${3:+--data-urlencode "$3"} \
     --header "apikey: $SUPABASE_CLIENT_ANON_KEY" \
+    --header "Authorization: Bearer $SUPABASE_SITE_BUILD_KEY" \
     --output "src/data/program/$2" --write-out "%{http_code}") || {
     echo "Fetching $1 failed with curl exit code $?" >&2
     exit 1
