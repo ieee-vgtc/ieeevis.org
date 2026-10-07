@@ -111,8 +111,29 @@ const dayDateFormatter = new Intl.DateTimeFormat("en-US", {
   day: "numeric",
 });
 
+/**
+ * A room name for comparing: the program's rooms are named "Hall America
+ * center" and "Hall St. George A-B", the lists below "America Center" and
+ * "St. George (A+B)".
+ */
+const roomKey = (roomName: string) =>
+  roomName
+    .split("/")
+    .map((part) =>
+      part
+        .trim()
+        .toLowerCase()
+        .replace(/^hall\s+/, "")
+        .replace(/[^a-z0-9]+/g, " ")
+        .trim(),
+    )
+    .join(" / ");
+
 // TODO: make this less of a "magic" variable for future years' web chairs
 const roomOrder2026 = [
+  // The combined halls: one session for the whole hall (Hall America is
+  // America North, Center and South with the walls opened).
+  "Hall America",
   "America North / America Center / America South",
   "America North / America South / America Center",
   "America north",
@@ -121,14 +142,15 @@ const roomOrder2026 = [
   "Essex north",
   "Essex center",
   "Essex south",
-  "Straffordshire",
+  "Staffordshire",
+  "Hall St. George",
   "St. George (A+B)",
   "St. George (C+D)",
   "St. George (C+D) / St. George (A+B)",
-].map((x) => x.toLowerCase());
+].map(roomKey);
 /** Position of a room in roomOrder2026; unlisted rooms sort last. */
 function getRoomOrderIndex(roomName: string): number {
-  const idx = roomOrder2026.findIndex((x) => x === roomName.toLowerCase());
+  const idx = roomOrder2026.findIndex((x) => x === roomKey(roomName));
   return idx === -1 ? roomOrder2026.length : idx;
 }
 
@@ -510,19 +532,19 @@ const roomDayGroups = dayGroups.map((dayGroup) => {
 });
 /** Rooms that the 2026 conference streams online; update each year. */
 const streamedRooms2026 = [
+  "Hall America",
   "America North",
   "America Center",
   "America South",
-].map((room) => room.toLowerCase());
+].map(roomKey);
 
 /**
  * True when every room in the (possibly combined, e.g. "A / B") room name is
  * streamed in 2026.
  */
 function isStreamedRoom2026(roomName: string): boolean {
-  return roomName
-    .split("/")
-    .map((part) => part.trim().toLowerCase())
+  return roomKey(roomName)
+    .split(" / ")
     .every((part) => part.length > 0 && streamedRooms2026.includes(part));
 }
 
