@@ -201,7 +201,10 @@ const frontmatter = {
   title: paper.title,
   description: ogDesc,
   ogType: "article",
-  ogImageAlt: `Social card for the IEEE VIS 2026 paper “${paper.title}”.`,
+  ogImage: paper.social_image_url,
+  ogImageAlt: paper.social_image_url
+    ? `First page of the IEEE VIS 2026 paper “${paper.title}”.`
+    : `Social card for the IEEE VIS 2026 paper “${paper.title}”.`,
   active_nav: "Program",
   contact: "web@ieeevis.org",
   full_width: true,

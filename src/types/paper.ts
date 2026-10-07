@@ -30,6 +30,7 @@ export interface Paper {
 
   // Paper links
   pdf_url: string | null;
+  social_image_url?: string | null;
   preprint_link: string | null;
   open_access_supplemental_link: string | null;
   open_access_supplemental_question: string | null;
