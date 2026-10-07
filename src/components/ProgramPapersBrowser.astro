@@ -39,6 +39,12 @@ const typeCounts = papers.reduce<Record<string, number>>((acc, paper) => {
 // (appended last) instead of being counted as a type.
 const tvcgCount = papers.filter((paper) => paper.isTvcg).length;
 
+// Award-winning papers (plus the awards plenary) also overlap with the other
+// types, so they get a pill of their own.
+const awardCount = papers.filter(
+  (paper) => paper.award || paper.isAwardSession,
+).length;
+
 // Session chairs and organizers ride along as their own "type" so they can be
 // toggled like the paper types.
 const sessionRoleType = "session-role";
@@ -62,6 +68,18 @@ const typeOptions = Object.keys(typeCounts)
             label: getProgramEventTypeLabel("tvcg"),
             count: tvcgCount,
             color: typeColors.tvcg,
+          },
+        ]
+      : [],
+  )
+  .concat(
+    awardCount > 0
+      ? [
+          {
+            value: "awards",
+            label: "Awards",
+            count: awardCount,
+            color: "#B7791F",
           },
         ]
       : [],
@@ -272,6 +290,7 @@ const typeOptions = Object.keys(typeCounts)
             data-paper-id={paper.id}
             data-type={normalizedType}
             data-tvcg={paper.isTvcg ? "true" : "false"}
+            data-awards={paper.award || paper.isAwardSession ? "true" : "false"}
             data-title={paper.title.toLowerCase()}
             data-authors={paper.authorNames.join(",").toLowerCase()}
             data-keywords={paper.keywordsLabel.toLowerCase()}
@@ -600,7 +619,7 @@ const typeOptions = Object.keys(typeCounts)
       );
     };
 
-    const applyFilters = () => {
+    const applyFilters = (options?: UrlStateWriteOptions) => {
       const query = getSearchQuery();
       const typeFilter = getTypeFilter();
       const sortMode = getSortMode();
@@ -611,7 +630,9 @@ const typeOptions = Object.keys(typeCounts)
           typeFilter === "all" ||
           (typeFilter === "tvcg"
             ? card.dataset.tvcg === "true"
-            : cardType === typeFilter);
+            : typeFilter === "awards"
+              ? card.dataset.awards === "true"
+              : cardType === typeFilter);
         const sessionMatch =
           requestedSessionKey.length === 0 ||
           card.dataset.sessionKey === requestedSessionKey;

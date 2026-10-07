@@ -259,6 +259,44 @@ for (const event of Object.values(sessionList)) {
 
 paperCards.push(...invitedTalkCards.values());
 
+// The awards plenary is simulcast to several rooms; keep one card for it so it
+// shows up next to the award-winning papers.
+for (const event of Object.values(sessionList)) {
+  const session = event.sessions.find(
+    (candidate) =>
+      candidate.title.trim().toLowerCase() === "awards" &&
+      event.event_prefix === "conf",
+  );
+  if (!session) {
+    continue;
+  }
+  const sessionSlug = `${session.event_prefix}-${session.session_id}`;
+  paperCards.push({
+    id: sessionSlug,
+    title: "Awards Plenary",
+    authorNames: session.chair || [],
+    keywordsLabel: "",
+    abstractText: "",
+    presentationType: "vis",
+    presentationLabel: getProgramEventTypeLabel("vis"),
+    eventKey: event.event_prefix,
+    eventLabel: event.long_name,
+    sessionKey: sessionSlug,
+    sessionLabel: session.title,
+    scheduleLabel: `${conferenceDateTimeFormatter.format(new Date(session.time_start))} - ${session.title}`,
+    startMs: Date.parse(session.time_start),
+    doiUrl: null,
+    preprintUrl: null,
+    supplementalUrl: null,
+    sessionUrl: withBaseURL(`/program/session/${sessionSlug}`),
+    award: null,
+    eyebrow: "Plenary Session",
+    titleHref: withBaseURL(`/program/session/${sessionSlug}`),
+    isAwardSession: true,
+  });
+  break;
+}
+
 // Events run by organizers rather than session chairs (see sessions.astro).
 const organizerEventTypes = ["workshop", "tutorial", "associated", "challenge"];
 const organizerRoleLabels: Record<string, string> = {

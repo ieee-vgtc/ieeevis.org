@@ -24,6 +24,8 @@ export type ProgramPaperCard = {
   award: string | null;
   // Journal-first TVCG paper presented at the conference.
   isTvcg?: boolean;
+  /** The awards plenary session, shown under the Awards filter. */
+  isAwardSession?: boolean;
   /** Overrides the card's kind label (e.g. "Keynote"). */
   eyebrow?: string;
   /** For talks with no paper page; such cards are not bookmarkable. */

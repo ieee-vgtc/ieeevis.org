@@ -34,10 +34,9 @@ intro_section:
       button_text: "Analytics & Decisions"
       button_url: "/info/call-participation/area-model#area-6-analytics--decisions"
   content: "
-      **Publication Venue**
+    **Publication Venue**
 
-      Full papers accepted to IEEE VIS will appear in a special issue of the IEEE Transactions on Visualization and Computer Graphics (TVCG) and will be indexed in [IEEE Xplore](https://ieeexplore.ieee.org/). Plan S has provided verbal approval of IEEE’s hybrid journal portfolio, including TVCG, for transformative status, allowing TVCG to accept articles from authors whose funders require [Plan S](https://www.coalition-s.org/) compliance.
-"
+    Full papers accepted to IEEE VIS will appear in a special issue of the IEEE Transactions on Visualization and Computer Graphics (TVCG) and will be indexed in [IEEE Xplore](https://ieeexplore.ieee.org/). Plan S has provided verbal approval of IEEE’s hybrid journal portfolio, including TVCG, for transformative status, allowing TVCG to accept articles from authors whose funders require [Plan S](https://www.coalition-s.org/) compliance."
 ---
 
 ## Important Dates

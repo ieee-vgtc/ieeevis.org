@@ -25,10 +25,9 @@ const isHonorableMention = award.toLowerCase().includes("honorable");
 <style>
   .award-badge {
     --award-border: #d8b35e;
-    --award-background: linear-gradient(135deg, #fffaf0, #ffedbd);
+    --award-background: #fff4d6;
     --award-text: #684707;
-    --award-shadow: rgb(118 80 11 / 12%);
-    --award-icon: linear-gradient(135deg, #e6bf62, #c8962f);
+    --award-icon: #c8962f;
 
     display: inline-flex;
     align-items: center;
@@ -39,7 +38,6 @@ const isHonorableMention = award.toLowerCase().includes("honorable");
     border-radius: 999px;
     background: var(--award-background);
     color: var(--award-text);
-    box-shadow: 0 0.2rem 0.6rem var(--award-shadow);
     font-size: 0.8rem;
     font-weight: 700;
     letter-spacing: 0.01em;
@@ -49,16 +47,14 @@ const isHonorableMention = award.toLowerCase().includes("honorable");
 
   .award-badge--bronze {
     --award-border: #c98f62;
-    --award-background: linear-gradient(135deg, #fff6ef, #f6d6bd);
+    --award-background: #f9e4d4;
     --award-text: #6b3815;
-    --award-shadow: rgb(107 56 21 / 12%);
-    --award-icon: linear-gradient(135deg, #d39467, #a7643a);
+    --award-icon: #a7643a;
   }
 
   .award-badge--compact {
     gap: 0.25rem;
     padding: 0.15rem 0.5rem 0.15rem 0.2rem;
-    box-shadow: none;
     font-size: 0.72rem;
   }
 
