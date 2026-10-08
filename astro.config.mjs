@@ -20,13 +20,11 @@ import pkg from "./package.json" with { type: "json" };
 export default defineConfig({
   base: process.env.BASE_PATH || "/year/2026", //this can be accessed in tsx and astro as import.meta.env.BASE_URL
   // Attendee sign-in happens entirely client-side (src/lib/auth0Client.ts),
-  // so almost every page is prerendered. The exceptions — /auth/token,
-  // /auth/bluesky-handle, the Bluesky oauth client-metadata route — need a
-  // request-time runtime, which is why the Netlify adapter stays below; they
-  // simply 404 on the S3 deploys, which serve static files only.
+  // and everything that must trust the attendee's identity goes to bsky-api
+  // (src/lib/bskyApi.ts), so every page is prerendered and the S3 deploys,
+  // which serve static files only, get the whole site.
   output: "static",
-  // The app never touches Astro.session (its own bearer-token checks in
-  // src/lib/auth0.ts don't need it); without this, @astrojs/netlify silently
+  // The app never touches Astro.session; without this, @astrojs/netlify silently
   // defaults to a Netlify Blobs-backed session store on every build. Set
   // explicitly to rule out that unused dependency as a source of trouble.
   session: {
@@ -63,9 +61,7 @@ export default defineConfig({
     sitemap(),
     pagefind(),
     // Wraps astro-broken-links-checker, which only knows about files emitted
-    // at build time, so links to the few remaining on-demand routes
-    // (/auth/token, /auth/bluesky-handle, the Bluesky oauth client-metadata
-    // route) are not reported as broken. Writes .link-checker/broken-links.log.
+    // at build time. Writes .link-checker/broken-links.log.
     brokenLinksChecker({
       checkExternalLinks: false,
       throwError: true,
@@ -77,7 +73,10 @@ export default defineConfig({
       throwError: true,
     }),
   ],
-  site: process.env.SITE,
+  // The deploy workflows set SITE; Netlify deploy previews set none, so fall
+  // back to the preview's own URL. The Bluesky OAuth client metadata
+  // (src/pages/oauth/client-metadata.json.ts) is built with this origin.
+  site: process.env.SITE || process.env.DEPLOY_PRIME_URL,
   markdown: {
     processor: unified({
       rehypePlugins: [

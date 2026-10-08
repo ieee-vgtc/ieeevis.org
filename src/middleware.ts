@@ -29,6 +29,16 @@ export const onRequest: MiddlewareHandler = async (context, next) => {
   });
 
   const isDev = import.meta.env.DEV;
+  // bsky-api's origin when PUBLIC_BSKY_API_BASE points somewhere other than
+  // bsky.tech.ieeevis.org (a local Supabase, say); it serves the discussion
+  // API and the proxied avatars/images.
+  const bskyApiOrigin = import.meta.env.PUBLIC_BSKY_API_BASE
+    ? new URL(import.meta.env.PUBLIC_BSKY_API_BASE).origin
+    : "";
+  const extraBskyApiOrigin =
+    bskyApiOrigin && bskyApiOrigin !== "https://bsky.tech.ieeevis.org"
+      ? ` ${bskyApiOrigin}`
+      : "";
 
   //CONTENT SECURITY POLICY
   response.headers.set(
@@ -49,7 +59,7 @@ export const onRequest: MiddlewareHandler = async (context, next) => {
       // paper-page Bluesky discussions; cdn.bsky.app serves them for threads
       // read straight from Bluesky; data.tech.ieeevis.org serves the page 1
       // previews of the papers
-      "img-src 'self' data: https://bsky.tech.ieeevis.org https://cdn.bsky.app https://data.tech.ieeevis.org",
+      `img-src 'self' data: https://bsky.tech.ieeevis.org https://cdn.bsky.app https://data.tech.ieeevis.org${extraBskyApiOrigin}`,
 
       // FONTS
       "font-src 'self' https://fonts.gstatic.com data:",
@@ -77,7 +87,7 @@ export const onRequest: MiddlewareHandler = async (context, next) => {
       // reports; widen this if that turns out common.
       isDev
         ? "connect-src 'self' ws: http: https:"
-        : `connect-src 'self' https://bsky.tech.ieeevis.org https://public.api.bsky.app https://bsky.social https://*.bsky.network https://plc.directory${
+        : `connect-src 'self' https://bsky.tech.ieeevis.org${extraBskyApiOrigin} https://public.api.bsky.app https://bsky.social https://*.bsky.network https://plc.directory${
             import.meta.env.PUBLIC_AUTH0_DOMAIN
               ? ` https://${import.meta.env.PUBLIC_AUTH0_DOMAIN}`
               : ""
