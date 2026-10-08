@@ -54,6 +54,16 @@ export default function Navigation({
         <div
           className={`menu hidden md:flex md:justify-end ${isExpanded ? "menu--expanded" : ""}`}
         >
+          {/* Account buttons and search: first in the mobile menu, where this
+              wrapper is a plain block and the children hold their own padding.
+              The md: classes are needed for the desktop nav: without md:flex
+              the two would stack vertically, and md:order-last puts the row at
+              the right-hand end of the menu. */}
+          <div className="md:order-last md:flex md:h-full md:items-center">
+            <AccountMenu />
+            <Search externalLinks={externalLinks} />
+          </div>
+
           {/* Blog item */}
           {nav_data.blog.display && (
             <div>
@@ -204,10 +214,6 @@ export default function Navigation({
                 </div>
               ),
           )}
-          <div className="flex w-full items-center border-b-2 border-primary-200 md:h-full md:w-auto md:border-0">
-            <Search externalLinks={externalLinks} />
-            <AccountMenu />
-          </div>
         </div>
       </nav>
 

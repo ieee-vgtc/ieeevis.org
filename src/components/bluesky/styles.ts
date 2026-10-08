@@ -23,6 +23,15 @@ export const primaryButtonStyle: CSSProperties = {
   fontWeight: 600,
 };
 
+/** A primary button that cannot be used right now, greyed out. */
+export const disabledButtonStyle: CSSProperties = {
+  ...primaryButtonStyle,
+  border: "1px solid var(--color-gray-300)",
+  backgroundColor: "var(--color-gray-300)",
+  color: "var(--color-gray-500)",
+  cursor: "not-allowed",
+};
+
 export const hintTextStyle: CSSProperties = {
   fontSize: "0.8rem",
   color: "var(--color-gray-600)",

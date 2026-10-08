@@ -3,7 +3,8 @@
  *
  * The OAuth response rides in the URL fragment. The client exchanges it for
  * a session, stores the session in this browser, and the reader is returned
- * to the page they came from — the path travelled along as the OAuth `state`, so nothing here trusts the
+ * to the page they came from (a paper's discussion or the account page) —
+ * the path travelled along as the OAuth `state`, so nothing here trusts the
  * URL beyond what the library verified. A login that did not complete (e.g.
  * cancelled) links back to that page too, when Bluesky still returned it.
  */
@@ -32,8 +33,8 @@ export default function OAuthCallback() {
       } catch (err) {
         console.error("Bluesky login did not complete:", err);
         if (!cancelled) {
-          // Send the reader back to the page the login started from, when
-          // Bluesky told us which one it was.
+          // The login can start on a paper page or the account page; send
+          // the reader back to whichever it was, when Bluesky told us.
           const failure = err instanceof LoginCallbackError ? err : null;
           setError({
             message: failure?.cancelled

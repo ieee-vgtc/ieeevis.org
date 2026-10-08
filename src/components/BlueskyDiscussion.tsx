@@ -67,6 +67,7 @@ import type {
 } from "./bluesky/PostCard";
 import ReplyList from "./bluesky/ReplyList";
 import SaveHandlePrompt from "./bluesky/SaveHandlePrompt";
+import BlueskyLoginSection from "./bluesky/BlueskyLoginSection";
 import SortToggle from "./bluesky/SortToggle";
 import { fetchAppViewThread } from "./bluesky/direct";
 import { formatOpensAt, likeCountOf } from "./bluesky/format";
@@ -1222,6 +1223,17 @@ export default function BlueskyDiscussion({
           )}
         </div>
       )}
+
+      {/* The same login as on the account page; saving the handle is offered
+          by SaveHandlePrompt below instead, so it is not offered twice. */}
+      <div style={{ margin: "0.75rem 0" }}>
+        <BlueskyLoginSection
+          bluesky={bluesky}
+          headingLevel="h3"
+          linkedHandle={linkedHandle}
+          onSignIn={signInWithBluesky}
+        />
+      </div>
 
       {offerHandleSave && (
         <SaveHandlePrompt

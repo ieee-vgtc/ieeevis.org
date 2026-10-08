@@ -5,6 +5,7 @@ import {
   login,
   logout,
 } from "../lib/auth0Client";
+import { siteBase } from "../utils/withBaseURL";
 
 type SessionUser = {
   email?: string;
@@ -80,20 +81,27 @@ export default function AccountMenu() {
   return (
     <div
       ref={container}
-      className="relative flex flex-none items-center py-3 pr-8 md:h-full md:py-0 md:pr-2 lg:pr-4"
+      className="relative flex w-full flex-none items-center px-8 pt-4 md:order-11 md:h-full md:w-auto md:p-0 md:pr-2 lg:pr-4"
     >
-      <div className="flex items-center gap-2 md:hidden">
+      <div className="flex w-full items-center gap-2 md:hidden">
         {user ? (
           <>
             <span
-              className="flex size-9 items-center justify-center rounded-full border border-secondary text-sm font-bold tracking-wide text-secondary"
+              className="flex size-9 flex-none items-center justify-center text-sm font-bold tracking-wide text-secondary"
               aria-label={user.name || user.email || "Signed-in user"}
             >
               {initials}
             </span>
+            <a
+              href={`${siteBase()}/account/`}
+              className="inline-flex h-9 flex-1 items-center justify-center rounded-full border border-primary-200 bg-white px-4 font-display text-sm font-bold text-secondary hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary"
+              aria-label={`Profile (${user.name || user.email || "signed-in user"})`}
+            >
+              Profile
+            </a>
             <button
               type="button"
-              className="inline-flex h-11 items-center rounded-full border border-primary-200 bg-white px-4 font-display text-sm font-bold text-secondary hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary"
+              className="inline-flex h-9 flex-1 items-center justify-center rounded-full border border-primary-200 bg-white px-4 font-display text-sm font-bold text-secondary hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary"
               onClick={handleSignOut}
             >
               Sign out
@@ -102,7 +110,7 @@ export default function AccountMenu() {
         ) : user === null ? (
           <button
             type="button"
-            className="inline-flex h-11 items-center rounded-full border border-primary-200 bg-white px-4 font-display text-sm font-bold text-secondary hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary"
+            className="inline-flex h-9 flex-1 items-center justify-center rounded-full border border-primary-200 bg-white px-4 font-display text-sm font-bold text-secondary hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary"
             onClick={handleSignIn}
           >
             Sign in
@@ -168,6 +176,12 @@ export default function AccountMenu() {
                   {user.email}
                 </p>
               )}
+              <a
+                href={`${siteBase()}/account/`}
+                className="mt-4 mr-3 inline-flex py-2 text-sm font-bold underline"
+              >
+                Your profile
+              </a>
               <button
                 type="button"
                 className="mt-4 inline-flex rounded bg-accent px-4 py-2 text-sm font-bold text-white hover:brightness-90"

@@ -1,0 +1,37 @@
+---
+// The signed-in state lives in the browser (see src/lib/auth0Client.ts), so
+// ProfileView does its work client-side. The one thing read at build time is
+// when and where each session and talk is, like the other program pages read
+// the program: bsky-api only returns ids for "Your papers and sessions", and
+// the times are public (no emails here), so they ride along in the page.
+import PageLayout from "../layouts/PageLayout.astro";
+import ProfileView from "../components/ProfileView";
+import type { TimeIndex } from "../components/MyProgramList";
+import { fetchAllSessions } from "../utils/paperData";
+
+const frontmatter = {
+  title: "Your profile",
+  contact: "web@ieeevis.org",
+};
+
+const times: TimeIndex = { sessions: {}, papers: {} };
+for (const event of Object.values(await fetchAllSessions())) {
+  for (const session of event.sessions) {
+    const room = session.room_name || "";
+    times.sessions[`/program/session/${session.event_prefix}-${session.session_id}`] = {
+      start: session.time_start,
+      end: session.time_end,
+      room,
+    };
+    for (const slot of session.time_slots) {
+      if (slot.uid) {
+        times.papers[slot.uid] = { start: slot.time_start, end: slot.time_end, room };
+      }
+    }
+  }
+}
+---
+
+<PageLayout frontmatter={frontmatter}>
+  <ProfileView times={times} client:only="react" />
+</PageLayout>
