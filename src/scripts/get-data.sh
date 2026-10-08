@@ -46,3 +46,6 @@ fetch_table papers poster_list.json "event_prefix=eq.v-poster"
 
 # for author bluesky handles
 fetch_table bsky_handles bsky_handle_list.json "" "email,handle,did"
+
+echo "build key length: ${#SUPABASE_SITE_BUILD_KEY}"
+echo "$SUPABASE_SITE_BUILD_KEY" | cut -d. -f2 | base64 -d 2>/dev/null | grep -o '"role":"[^"]*"'
