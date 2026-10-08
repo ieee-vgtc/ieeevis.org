@@ -453,7 +453,9 @@ const DISCUSSION_SECTION_ID = "discussion"
           {paper.preview_image_url && (
             <a
               class="paper-preview not-prose"
-              data-preview-preprint={preprintLink ?? undefined}
+              href={preprintLink ?? undefined}
+              aria-label={preprintLink ? "Preprint PDF (opens in new tab)" : undefined}
+              data-preview-gated-pdf={(!preprintLink && pdfURL) || undefined}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -527,15 +529,15 @@ const DISCUSSION_SECTION_ID = "discussion"
 <script>
   import { getCurrentUser } from "../../../lib/auth0Client";
 
-  // Like the preprint link in AuthGate, the preview opens the preprint only for signed-in attendees.
-  const previewLink = document.querySelector<HTMLAnchorElement>(
-    "[data-preview-preprint]",
+  // Like the Paper PDF link in AuthGate, a preview without a public preprint opens the PDF only for signed-in attendees.
+  const gatedPreviewLink = document.querySelector<HTMLAnchorElement>(
+    "[data-preview-gated-pdf]",
   );
-  if (previewLink) {
+  if (gatedPreviewLink) {
     void getCurrentUser().then((user) => {
       if (!user) return;
-      previewLink.href = previewLink.dataset.previewPreprint!;
-      previewLink.setAttribute("aria-label", "Preprint PDF (opens in new tab)");
+      gatedPreviewLink.href = gatedPreviewLink.dataset.previewGatedPdf!;
+      gatedPreviewLink.setAttribute("aria-label", "Paper PDF (opens in new tab)");
     });
   }
 
@@ -917,7 +919,7 @@ const DISCUSSION_SECTION_ID = "discussion"
     box-shadow: 0 0.35rem 1.25rem rgb(59 53 47 / 10%);
   }
 
-  .paper-preview:hover img,
+  .paper-preview[href]:hover img,
   .paper-preview:focus-visible img {
     box-shadow: 0 0.75rem 2rem rgb(59 53 47 / 22%);
     transform: translateY(calc(-1 * var(--pull)));
