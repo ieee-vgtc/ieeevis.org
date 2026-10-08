@@ -37,6 +37,7 @@ jobs:
         run: npm run getData
         env:
           SUPABASE_CLIENT_ANON_KEY: ${{ secrets.SUPABASE_CLIENT_ANON_KEY }}
+          SUPABASE_SITE_BUILD_KEY: ${{ secrets.SUPABASE_SITE_BUILD_KEY }}
 
       - name: Build Astro site
         run: npm run build
