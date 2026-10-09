@@ -20,10 +20,11 @@
  * token wasn't tampered with before a page reads it back out of
  * `localStorage`. That's fine for what this gates — a sign-in prompt in
  * place of a PDF link, an attendee's display name — never anything a forged
- * session could turn into real access. A page that actually needs to trust
- * the claim (minting the embed token for the Bluesky bridge, saving a linked
- * handle) re-verifies the ID token's signature server-side; see
- * `verifyBearerIdToken` in `./auth0.ts`.
+ * session could turn into real access. Anything that actually needs to trust
+ * the identity (guest comments, saving a Bluesky handle, the profile and the
+ * attendee's papers) goes to bsky-api (`./bskyApi.ts`), which re-verifies the
+ * ID token's signature against Auth0's public keys server-side. The site
+ * itself holds no secret and runs no server code for any of it.
  *
  * NEW ENVIRONMENT VARIABLES (must use the PUBLIC_ prefix — Astro only
  * includes PUBLIC_-prefixed values in the browser bundle):
@@ -96,6 +97,55 @@ function getClient(): Promise<Auth0Client> {
   return clientPromise;
 }
 
+/**
+ * Each field is a string, `null` when the account has no value for it, or
+ * `undefined` when it could not be read (the claim is missing from the token,
+ * e.g. the Login Action did not add it).
+ */
+export type AttendeeProfile = {
+  bskyHandle?: string | null;
+  company?: string | null;
+  email?: string | null;
+  name?: string | null;
+};
+
+/**
+ * Namespace of the custom claims the Auth0 Post Login Action adds to the ID
+ * token from `user_metadata` (Auth0 requires a URI namespace). See the README
+ * for the Action's code.
+ */
+const CLAIM_NAMESPACE = "https://ieeevis.org/";
+
+/**
+ * The signed-in attendee's profile, read from the ID token alone: `name` and
+ * `email` are standard claims, and `company` and `bsky_handle` come from the
+ * Login Action, which always sets them (an empty string for no value), so a
+ * missing one means it could not be read. Needs no request to any server.
+ * Null if no one is signed in; throws if the token cannot be read.
+ */
+export async function getAttendeeProfile(): Promise<AttendeeProfile | null> {
+  const client = await getClient();
+  if (!(await client.isAuthenticated())) {
+    return null;
+  }
+  const claims = await client.getIdTokenClaims();
+  if (!claims?.sub) {
+    throw new Error("The ID token has no subject.");
+  }
+  // `name` and `email` are standard claims: absent means no value. The custom
+  // claims are always set by the Login Action: absent means not read.
+  const standard = (value: unknown) =>
+    typeof value === "string" && value.trim() ? value.trim() : null;
+  const custom = (value: unknown) =>
+    value === undefined ? undefined : standard(value);
+  return {
+    bskyHandle: custom(claims[`${CLAIM_NAMESPACE}bsky_handle`]),
+    company: custom(claims[`${CLAIM_NAMESPACE}company`]),
+    email: standard(claims.email),
+    name: standard(claims.name),
+  };
+}
+
 /** The signed-in attendee, or null if no one is signed in. Never throws. */
 export async function getCurrentUser(): Promise<AttendeeUser | null> {
   try {
@@ -111,9 +161,16 @@ export async function getCurrentUser(): Promise<AttendeeUser | null> {
 }
 
 /**
- * The attendee's raw ID token, to send as a bearer credential to a route
- * that re-verifies it server-side (see `verifyBearerIdToken` in `./auth0.ts`).
- * Null if no one is signed in; never throws.
+ * Seconds before its `exp` at which an ID token counts as expired here. The
+ * SDK caches by the access token's lifetime, so it can hand back an ID token
+ * past its own expiry; bsky-api would reject that with a 401.
+ */
+const ID_TOKEN_EXPIRY_SKEW_SECONDS = 120;
+
+/**
+ * The attendee's raw ID token, to send as a bearer credential to bsky-api,
+ * which re-verifies it server-side. Refreshed first if it is expired or about
+ * to be. Null if no one is signed in or the refresh fails; never throws.
  */
 export async function getIdToken(): Promise<string | null> {
   try {
@@ -121,7 +178,14 @@ export async function getIdToken(): Promise<string | null> {
     if (!(await client.isAuthenticated())) {
       return null;
     }
-    const claims = await client.getIdTokenClaims();
+    let claims = await client.getIdTokenClaims();
+    const expiresSoon =
+      typeof claims?.exp === "number" &&
+      claims.exp - ID_TOKEN_EXPIRY_SKEW_SECONDS < Date.now() / 1000;
+    if (expiresSoon) {
+      await client.getTokenSilently({ cacheMode: "off" });
+      claims = await client.getIdTokenClaims();
+    }
     return claims?.__raw ?? null;
   } catch (error) {
     console.error("Unable to read the Auth0 ID token:", error);
@@ -131,9 +195,8 @@ export async function getIdToken(): Promise<string | null> {
 
 /**
  * Force a fresh ID token from Auth0, bypassing the cached one. Used right
- * after `/auth/bluesky-handle` saves a new claim, so the next `/auth/token`
- * call (via `getIdToken`) carries it immediately instead of waiting for the
- * cached token's own expiry.
+ * after bsky-api saves a new Bluesky handle, so the next ID token carries the
+ * new `bsky_handle` claim immediately, and to retry once after a 401.
  */
 export async function refreshSession(): Promise<void> {
   const client = await getClient();
