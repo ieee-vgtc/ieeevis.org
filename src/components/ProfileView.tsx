@@ -61,7 +61,7 @@ const toggleLinkStyle: CSSProperties = {
 
 /** A warning-coloured note: amber, like the Experimental Feature tag. */
 const warningNoteStyle: CSSProperties = {
-  margin: "0.4rem 0",
+  margin: "0 0 1rem",
   padding: "0.35rem 0.6rem",
   borderRadius: "0.4rem",
   backgroundColor: "#fef3c7",
@@ -204,118 +204,6 @@ export default function ProfileView({ times }: { times?: TimeIndex }) {
             </dd>
           </div>
         ))}
-        <div className="mb-3">
-          <dt className="font-bold">Bluesky handle</dt>
-          <dd>
-            {/* Announced when a save changes it: the only confirmation. */}
-            <span aria-live="polite">
-              {profile.bskyHandle ? (
-                `@${profile.bskyHandle}`
-              ) : (
-                <span style={hintTextStyle}>
-                  {profile.bskyHandle === undefined
-                    ? "Unable to fetch"
-                    : "Not provided."}
-                </span>
-              )}
-            </span>
-            {canEditHandle && (
-              <button
-                type="button"
-                aria-expanded={showHandleForm}
-                aria-controls="bsky-handle-form"
-                onClick={() => setShowHandleForm((open) => !open)}
-                style={toggleLinkStyle}
-              >
-                {profile.bskyHandle ? "Update your handle?" : "Add one?"}
-                <i
-                  className="material-icons"
-                  aria-hidden="true"
-                  style={{ fontSize: "1.1em", verticalAlign: "-0.2em" }}
-                >
-                  {showHandleForm ? "expand_less" : "expand_more"}
-                </i>
-              </button>
-            )}
-            {canEditHandle && showHandleForm && (
-              <div id="bsky-handle-form">
-                <form onSubmit={(event) => void onSubmit(event)} noValidate>
-                  <label htmlFor="bsky-handle" className="sr-only">
-                    {profile.bskyHandle ? "New" : "Your"} Bluesky handle
-                  </label>
-                  <div
-                    style={{
-                      display: "flex",
-                      gap: "0.5rem",
-                      margin: "0.25rem 0",
-                      padding: "0.5rem 0",
-                    }}
-                  >
-                    <input
-                      id="bsky-handle"
-                      type="text"
-                      value={input}
-                      disabled={saveUnavailable !== null}
-                      placeholder="you.bsky.social"
-                      autoComplete="off"
-                      autoCapitalize="none"
-                      spellCheck={false}
-                      aria-describedby="bsky-handle-hint"
-                      onChange={(event) => setInput(event.target.value)}
-                      style={{
-                        flex: "1 1 auto",
-                        maxWidth: "24rem",
-                        padding: "0.35rem 0.6rem",
-                        border: "1px solid var(--color-gray-400)",
-                        borderRadius: "0.5rem",
-                        ...(saveUnavailable !== null && {
-                          backgroundColor: "var(--color-gray-100)",
-                          color: "var(--color-gray-500)",
-                          cursor: "not-allowed",
-                        }),
-                      }}
-                    />
-                    <button
-                      type="submit"
-                      disabled={submitDisabled}
-                      style={
-                        submitDisabled
-                          ? disabledButtonStyle
-                          : primaryButtonStyle
-                      }
-                    >
-                      {saving
-                        ? "Saving…"
-                        : profile.bskyHandle
-                          ? "Update"
-                          : "Add"}
-                    </button>
-                  </div>
-                  <p id="bsky-handle-hint" style={hintTextStyle}>
-                    <b>Why provide your Bluesky handle?</b> If you are an
-                    author, we will tag you on Bluesky when your paper goes
-                    live!
-                  </p>
-                  <p role="note" style={warningNoteStyle}>
-                    This action does not log you in to Bluesky. To log in,
-                    please use the log in button below.
-                  </p>
-                  {saveUnavailable ? (
-                    <p role="status" style={errorTextStyle}>
-                      {saveUnavailable}
-                    </p>
-                  ) : (
-                    formError && (
-                      <p role="alert" style={errorTextStyle}>
-                        {formError}
-                      </p>
-                    )
-                  )}
-                </form>
-              </div>
-            )}
-          </dd>
-        </div>
       </dl>
 
       <hr style={dividerStyle} />
@@ -327,7 +215,129 @@ export default function ProfileView({ times }: { times?: TimeIndex }) {
         onSignIn={signInWithBluesky}
         onSaveHandle={(newHandle) => void save(newHandle)}
         saveDisabled={saving || saveUnavailable !== null}
-      />
+      >
+        {/* Below the login: logging in comes first, saving a handle second. */}
+        <dl className="mt-8">
+          <div className="mb-3">
+            <dt className="font-bold">Author handle</dt>
+            <dd>
+              {/* Announced when a save changes it: the only confirmation. */}
+              <span aria-live="polite">
+                {profile.bskyHandle ? (
+                  `@${profile.bskyHandle}`
+                ) : (
+                  <span style={hintTextStyle}>
+                    {profile.bskyHandle === undefined
+                      ? "Unable to fetch"
+                      : "Not provided."}
+                  </span>
+                )}
+              </span>
+              {canEditHandle && (
+                <button
+                  type="button"
+                  aria-expanded={showHandleForm}
+                  aria-controls="bsky-handle-form"
+                  onClick={() => setShowHandleForm((open) => !open)}
+                  style={toggleLinkStyle}
+                >
+                  {profile.bskyHandle ? "Update your handle?" : "Add one?"}
+                  <i
+                    className="material-icons"
+                    aria-hidden="true"
+                    style={{ fontSize: "1.1em", verticalAlign: "-0.2em" }}
+                  >
+                    {showHandleForm ? "expand_less" : "expand_more"}
+                  </i>
+                </button>
+              )}
+              {canEditHandle && showHandleForm && (
+                <div id="bsky-handle-form">
+                  <form onSubmit={(event) => void onSubmit(event)} noValidate>
+                    <label htmlFor="bsky-handle" className="sr-only">
+                      {profile.bskyHandle ? "New" : "Your"} Author handle
+                    </label>
+                    <div
+                      style={{
+                        display: "flex",
+                        flexWrap: "wrap",
+                        gap: "0.5rem",
+                        margin: "1rem 0",
+                      }}
+                    >
+                      <input
+                        id="bsky-handle"
+                        type="text"
+                        value={input}
+                        disabled={saveUnavailable !== null}
+                        placeholder="you.bsky.social"
+                        autoComplete="off"
+                        autoCapitalize="none"
+                        spellCheck={false}
+                        aria-describedby="bsky-handle-hint"
+                        onChange={(event) => setInput(event.target.value)}
+                        style={{
+                          flex: "1 1 auto",
+                          maxWidth: "24rem",
+                          padding: "0.35rem 0.6rem",
+                          border: "1px solid var(--color-gray-400)",
+                          borderRadius: "0.5rem",
+                          ...(saveUnavailable !== null && {
+                            backgroundColor: "var(--color-gray-100)",
+                            color: "var(--color-gray-500)",
+                            cursor: "not-allowed",
+                          }),
+                        }}
+                      />
+                      <button
+                        type="submit"
+                        disabled={submitDisabled}
+                        style={
+                          submitDisabled
+                            ? disabledButtonStyle
+                            : primaryButtonStyle
+                        }
+                      >
+                        {saving
+                          ? "Saving…"
+                          : profile.bskyHandle
+                            ? "Update"
+                            : "Add"}
+                      </button>
+                    </div>
+                    <p role="note" style={warningNoteStyle}>
+                      This action does not log you in to Bluesky. To log in,
+                      please use the log in button above.
+                    </p>
+                    {saveUnavailable ? (
+                      <p role="status" style={errorTextStyle}>
+                        {saveUnavailable}
+                      </p>
+                    ) : (
+                      formError && (
+                        <p role="alert" style={errorTextStyle}>
+                          {formError}
+                        </p>
+                      )
+                    )}
+                  </form>
+                </div>
+              )}
+              {/* Below the handle, and below the form when it is open; 1rem
+                  apart like the login's hint and buttons above. */}
+              <p
+                id="bsky-handle-hint"
+                style={{ ...hintTextStyle, marginTop: "1rem" }}
+              >
+                <b>Why provide your Bluesky handle?</b> If you are an author, we
+                will tag you on Bluesky when your paper goes live! This handle
+                can be different from the one used to log in to Bluesky above
+                for commenting on papers.
+              </p>
+            </dd>
+          </div>
+        </dl>
+      </BlueskyLoginSection>
 
       <hr style={dividerStyle} />
 

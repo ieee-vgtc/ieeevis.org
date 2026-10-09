@@ -10,7 +10,7 @@
  */
 
 import { useId } from "react";
-import type { CSSProperties } from "react";
+import type { CSSProperties, ReactNode } from "react";
 import { BLUESKY_ENTRYWAY } from "./oauth";
 import {
   disabledButtonStyle,
@@ -38,6 +38,8 @@ interface BlueskyLoginSectionProps {
   headingLevel?: "h2" | "h3";
   /** Draw the tinted box (the discussion) or a plain section (the account page). */
   boxed?: boolean;
+  /** More of the section, below the login (the account page's handle). */
+  children?: ReactNode;
 }
 
 export default function BlueskyLoginSection({
@@ -48,6 +50,7 @@ export default function BlueskyLoginSection({
   saveDisabled = false,
   headingLevel: Heading = "h2",
   boxed = true,
+  children,
 }: BlueskyLoginSectionProps) {
   const headingId = useId();
   const loggedInHandle =
@@ -122,6 +125,7 @@ export default function BlueskyLoginSection({
       ) : (
         <p style={hintTextStyle}>Checking your Bluesky login…</p>
       )}
+      {children}
     </section>
   );
 }
