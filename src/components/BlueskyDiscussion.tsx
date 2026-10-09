@@ -91,12 +91,12 @@ import { useBlueskySession } from "./bluesky/useBlueskySession";
 import { usePolledThread } from "./bluesky/usePolledThread";
 import { normalizeBskyHandle } from "../utils/bskyHandle";
 import { getIdToken } from "../lib/auth0Client";
+import { BSKY_API_BASE } from "../lib/bskyApi";
 
-const DEFAULT_API_BASES = ["https://bsky.tech.ieeevis.org"];
+const DEFAULT_API_BASES = [BSKY_API_BASE];
 const DEFAULT_REFRESH_MS = 5_000;
 const MAX_DEPTH = 5;
 const COMMENT_LIMIT = 250; // graphemes; mirrors CONFERENCE.guestTextLimit
-const TOKEN_REFRESH_SKEW_MS = 60_000;
 
 interface BlueskyDiscussionProps {
   /** `slots.slot_id` (e.g. "v-full-1234") or the paper UUID — the API takes both. */
@@ -121,11 +121,6 @@ interface LoadedThread {
   thread: ThreadResponse;
   /** Bypassed the service's shared cache, which may still disagree. */
   bypassedCache: boolean;
-}
-
-interface GuestToken {
-  token: string;
-  expiresAt: number;
 }
 
 /** A just-posted comment, shown under its parent until the thread carries it. */
@@ -302,67 +297,22 @@ function formatAgo(sinceMs: number): string {
 }
 
 /**
- * Mint a short-lived token from the reader's Auth0 ID token (sent as a bearer
- * credential; see `verifyBearerIdToken` in lib/auth0.ts). A signed-out reader,
- * or a deploy with no server to mint it (the S3 builds), simply gets no
- * token: a 401 means "no guest UI" and is not an error worth showing.
+ * The bearer credential for the service's guest writes: the reader's Auth0 ID
+ * token itself, which bsky-api verifies against Auth0's public keys.
+ * `getIdToken` refreshes it when it is about to expire. A signed-out reader
+ * simply gets no token: that means "no guest UI" and is not an error worth
+ * showing.
  */
 function useGuestToken(enabled: boolean) {
-  const tokenRef = useRef<GuestToken | null>(null);
   const [hasToken, setHasToken] = useState(false);
 
   const getToken = useCallback(async (): Promise<string | null> => {
     if (!enabled) {
       return null;
     }
-
-    const cached = tokenRef.current;
-    if (cached && cached.expiresAt - TOKEN_REFRESH_SKEW_MS > Date.now()) {
-      return cached.token;
-    }
-
-    try {
-      const idToken = await getIdToken();
-      if (!idToken) {
-        tokenRef.current = null;
-        setHasToken(false);
-        return null;
-      }
-
-      const base = import.meta.env.BASE_URL.replace(/\/$/, "");
-      const response = await fetch(`${base}/auth/token`, {
-        headers: {
-          accept: "application/json",
-          authorization: `Bearer ${idToken}`,
-        },
-      });
-      if (!response.ok) {
-        tokenRef.current = null;
-        setHasToken(false);
-        return null;
-      }
-
-      const data = (await response.json()) as {
-        token?: string;
-        expiresAt?: string;
-      };
-      if (!data.token) {
-        setHasToken(false);
-        return null;
-      }
-
-      tokenRef.current = {
-        token: data.token,
-        expiresAt: data.expiresAt
-          ? Date.parse(data.expiresAt)
-          : Date.now() + 600_000,
-      };
-      setHasToken(true);
-      return data.token;
-    } catch {
-      setHasToken(false);
-      return null;
-    }
+    const token = await getIdToken();
+    setHasToken(Boolean(token));
+    return token;
   }, [enabled]);
 
   useEffect(() => {

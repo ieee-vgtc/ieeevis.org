@@ -11,8 +11,7 @@
 
 import { useState } from "react";
 import type { CSSProperties } from "react";
-import { getIdToken, refreshSession } from "../../lib/auth0Client";
-import { siteBase } from "../../utils/withBaseURL";
+import { saveBskyHandle, saveHandleErrorMessage } from "../../lib/bskyApi";
 import {
   errorTextStyle,
   primaryButtonStyle,
@@ -58,28 +57,15 @@ export default function SaveHandlePrompt({
     setSaving(true);
     setError(null);
     try {
-      const idToken = await getIdToken();
-      if (!idToken) {
-        throw new Error("Not signed in.");
-      }
-      const response = await fetch(`${siteBase()}/auth/bluesky-handle`, {
-        method: "POST",
-        headers: {
-          "content-type": "application/json",
-          authorization: `Bearer ${idToken}`,
-        },
-        body: JSON.stringify({ handle }),
-      });
-      if (!response.ok) {
-        throw new Error(`The site returned ${response.status}.`);
-      }
-      await refreshSession();
+      // Also refreshes the ID token; a failed refresh after a successful save
+      // is not reported as a failed save.
+      await saveBskyHandle(handle);
       dismiss(handle);
       setHidden(true);
       onSaved();
     } catch (err) {
       console.error("Could not save the Bluesky handle:", err);
-      setError("The handle could not be saved. You can try again later.");
+      setError(saveHandleErrorMessage(err));
     } finally {
       setSaving(false);
     }
