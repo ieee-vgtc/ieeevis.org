@@ -73,10 +73,7 @@ export default defineConfig({
       throwError: true,
     }),
   ],
-  // The deploy workflows set SITE; Netlify deploy previews set none, so fall
-  // back to the preview's own URL. The Bluesky OAuth client metadata
-  // (src/pages/oauth/client-metadata.json.ts) is built with this origin.
-  site: process.env.SITE || process.env.DEPLOY_PRIME_URL,
+  site: process.env.SITE,
   markdown: {
     processor: unified({
       rehypePlugins: [
