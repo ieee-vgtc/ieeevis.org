@@ -8,6 +8,7 @@ import BlueskyDiscussion from "../../../components/BlueskyDiscussion";
 import { fetchAllPapers } from "../../../utils/paperData";
 import { features } from "../../../config/pages-allow-list";
 import { withBaseURL } from "../../../utils/withBaseURL";
+import { getBskyHandle } from "../../../utils/bskyProfiles";
 import { ogDescription } from "../../../utils/ogDescription";
 import { fetchAllSessions } from "../../../utils/paperData";
 import type { Paper } from "../../../types/paper";
@@ -189,6 +190,10 @@ const eventUrl = workshopSession
 //     youtubeEmbedUrl(paper.session_youtube_ff_id)) ||
 //   paper.session_bunny_ff_link ||
 //   null;
+
+const authorBskyHandles = paper.authors.flatMap(
+  (a) => getBskyHandle(a.email) ?? [],
+);
 
 // Social-card description: a clean snippet of the abstract, falling back to
 // authors + venue when no abstract is available so the card is never empty.
@@ -520,7 +525,12 @@ const DISCUSSION_SECTION_ID = "discussion"
     <div id={DISCUSSION_SECTION_ID} class="paper-section paper-links mb-6">
           <h2>Discussion</h2>
           <!-- <BlueskyDiscussion showPost={false} paperId="test-bsky-9999" client:load /> -->
-          <BlueskyDiscussion showPost={false} paperId={paper.id} client:load />
+          <BlueskyDiscussion
+            showPost={false}
+            paperId={paper.id}
+            authorHandles={authorBskyHandles}
+            client:load
+          />
 
     </div>
   </div>
