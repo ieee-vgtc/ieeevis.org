@@ -60,6 +60,7 @@ export const features = {
    */
   inactivePathPrefixes: [
     "/info/program/papers_list/",
+    "/info/program/panels/",
     "/info/program/week-at-a-glance/",
 
     "/info/awards",
