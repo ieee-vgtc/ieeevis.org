@@ -162,21 +162,19 @@ const splitRoomNames = (roomName: string) =>
  * plenary session once, in the hall; the day view spans it across the hall's
  * rooms instead of giving the hall a column of its own.
  */
-const combinedHalls2026 = new Map(
-  Object.entries({
-    "Hall America": [
-      "Hall America north",
-      "Hall America center",
-      "Hall America south",
-    ],
-    "Hall St. George": ["Hall St. George A-B", "Hall St. George C-D"],
-  }).map(([hall, parts]) => [roomKey(hall), parts]),
-);
+const combinedHalls2026: Record<string, string[]> = {
+  "Hall America": [
+    "Hall America north",
+    "Hall America center",
+    "Hall America south",
+  ],
+  "Hall St. George": ["Hall St. George A-B", "Hall St. George C-D"],
+};
 
 /** The physical rooms of a room name, with each combined hall expanded. */
 const physicalRoomNames = (roomName: string) =>
   splitRoomNames(roomName).flatMap(
-    (part) => combinedHalls2026.get(roomKey(part)) ?? [part],
+    (part) => combinedHalls2026[part] ?? [part],
   );
 
 const getSharedSessionKey = (session: CalendarSession) =>
