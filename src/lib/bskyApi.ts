@@ -90,6 +90,18 @@ export async function saveBskyHandle(handle: string): Promise<string> {
   return result.handle;
 }
 
+/**
+ * Whether a failed save means saving cannot work here at all for now (the
+ * service is unreachable or lacks its Auth0 credentials, or the account is
+ * not an attendee), as opposed to a handle the reader can correct.
+ */
+export function isSaveUnavailable(error: unknown): boolean {
+  if (!(error instanceof BskyApiError)) {
+    return true;
+  }
+  return error.status !== 400 && error.status !== 422;
+}
+
 /** What to tell the reader when saving a handle fails. */
 export function saveHandleErrorMessage(error: unknown): string {
   const status = error instanceof BskyApiError ? error.status : 0;
