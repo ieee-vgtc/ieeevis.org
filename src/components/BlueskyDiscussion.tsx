@@ -115,6 +115,8 @@ interface BlueskyDiscussionProps {
   defaultSort?: ReplySort;
   /** Whether to show the original post at the top of the discussion. Defaults to `true`. */
   showPost?: boolean;
+  /** Bluesky handles of the paper's authors, whose posts get an "Author" badge. */
+  authorHandles?: string[];
 }
 
 interface LoadedThread {
@@ -384,6 +386,7 @@ export default function BlueskyDiscussion({
   refreshMs = DEFAULT_REFRESH_MS,
   maxDepth = MAX_DEPTH,
   defaultSort = "top",
+  authorHandles = [],
 }: BlueskyDiscussionProps) {
   const [sort, setSort] = useState<ReplySort>(defaultSort);
   const [anonymous, setAnonymous] = useState(false);
@@ -451,6 +454,14 @@ export default function BlueskyDiscussion({
   const client = useMemo(
     () => createServiceClient(basesKey.split(",")),
     [basesKey],
+  );
+  const authorHandlesKey = authorHandles.join(",");
+  const authorHandleSet = useMemo(
+    () =>
+      new Set(
+        authorHandlesKey.split(",").filter(Boolean).map(normalizeBskyHandle),
+      ),
+    [authorHandlesKey],
   );
 
   const identity = useIdentity(client, getToken, hasToken);
@@ -1215,6 +1226,7 @@ export default function BlueskyDiscussion({
         <div style={announcementCardStyle}>
           {showPost && (
             <PostCard
+              authorHandles={authorHandleSet}
               like={likeContext}
               own={ownContext}
               post={root}
@@ -1357,6 +1369,7 @@ export default function BlueskyDiscussion({
       </div>
 
       <ReplyList
+        authorHandles={authorHandleSet}
         like={likeContext}
         maxDepth={maxDepth}
         own={ownContext}
