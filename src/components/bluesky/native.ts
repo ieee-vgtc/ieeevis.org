@@ -74,7 +74,11 @@ async function fetchLikeRecords(
   return likes;
 }
 
-function createWriter(agent: Agent, profile: BlueskyProfile): NativeWriter {
+function createWriter(
+  agent: Agent,
+  appView: Agent,
+  profile: BlueskyProfile,
+): NativeWriter {
   const likeRecords = new Map<string, string>();
   const syncedKeys = new Set<string>();
 
@@ -103,7 +107,7 @@ function createWriter(agent: Agent, profile: BlueskyProfile): NativeWriter {
       // record here yet.
       const likeUri =
         likeRecords.get(post.uri) ??
-        (await fetchLikeRecords(agent, [post.uri])).get(post.uri);
+        (await fetchLikeRecords(appView, [post.uri])).get(post.uri);
       if (likeUri) {
         await agent.deleteLike(likeUri);
       }
@@ -117,7 +121,7 @@ function createWriter(agent: Agent, profile: BlueskyProfile): NativeWriter {
     async syncLikes(postUris) {
       const key = [...postUris].sort().join("\n");
       if (!syncedKeys.has(key)) {
-        const records = await fetchLikeRecords(agent, postUris);
+        const records = await fetchLikeRecords(appView, postUris);
         for (const uri of postUris) {
           likeRecords.delete(uri);
         }
@@ -146,13 +150,16 @@ export function restoreWriter(): Promise<NativeWriter | null> {
   return writerPromise;
 }
 
-async function createWriterForSession(
+export async function createWriterForSession(
   session: OAuthSession,
 ): Promise<NativeWriter> {
   const { Agent } = await import("@atproto/api");
   const agent = new Agent(session);
-  const { data } = await agent.getProfile({ actor: session.did });
-  return createWriter(agent, {
+  // PDS hosts need not configure Bluesky as their default AppView. Route
+  // authenticated reads explicitly, keeping repository writes on the PDS.
+  const appView = agent.withProxy("bsky_appview", "did:web:api.bsky.app");
+  const { data } = await appView.getProfile({ actor: session.did });
+  return createWriter(agent, appView, {
     did: data.did,
     handle: data.handle,
     displayName: data.displayName || null,

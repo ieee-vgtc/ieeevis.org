@@ -11,9 +11,9 @@
  * Bluesky needs to fetch the client's metadata from the `client_id` URL, so
  * the metadata is served by `src/pages/oauth/client-metadata.json.ts` and the
  * same object is built here for the browser, both from the deployment's own
- * origin. Deriving it from the origin is what lets production, a local
- * checkout and a deploy preview each act as their own client without
- * per-environment configuration — unlike Auth0 sign-in (`../../lib/auth0Client.ts`),
+ * origin (configured at build time for the static metadata file). This lets
+ * production, a local checkout and a deploy preview each act as their own client
+ * without registering a client for each environment — unlike Auth0 sign-in (`../../lib/auth0Client.ts`),
  * which needs one application (and one PUBLIC_AUTH0_CLIENT_ID) registered for
  * every origin up front, since Auth0 has no equivalent of a client-metadata
  * URL to read it from automatically.

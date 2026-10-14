@@ -9,6 +9,7 @@
     "build": "astro build",
     "getData": "sh src/scripts/get-data.sh",
     "typecheck": "astro check",
+    "test:bluesky": "vite-node src/scripts/test-bluesky.ts",
     "preview": "astro preview",
     "astro": "astro",
     "prepare": "husky",

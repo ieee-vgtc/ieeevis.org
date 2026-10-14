@@ -64,16 +64,8 @@ export const onRequest: MiddlewareHandler = async (context, next) => {
         ? "script-src 'self' 'unsafe-inline' 'unsafe-eval'"
         : "script-src 'self'",
 
-      // NETWORK (HMR, APIs, etc.) — "log in with Bluesky"
-      // (components/bluesky/oauth.ts) talks to the reader's own PDS and
-      // authorization server, which can be on any host: Eurosky, a self-hosted
-      // PDS, or a did:web account. A list of hosts would lock those readers
-      // out once this policy is enforced, so any https: origin is allowed;
-      // script-src 'self' still limits which code can make the requests.
-      // https: also covers the fixed hosts: bsky.tech.ieeevis.org (the
-      // Bluesky discussion API for paper pages), public.api.bsky.app (the
-      // AppView threads are read from), and the Auth0 domain for attendee
-      // sign-in (lib/auth0Client.ts).
+      // Bluesky OAuth and writes contact each account's own servers.
+      // Allow HTTPS hosts, including the discussion API, AppView, and Auth0.
       isDev
         ? "connect-src 'self' ws: http: https:"
         : "connect-src 'self' https:",

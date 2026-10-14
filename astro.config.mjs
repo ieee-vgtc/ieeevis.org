@@ -21,7 +21,7 @@ export default defineConfig({
   base: process.env.BASE_PATH || "/year/2026", //this can be accessed in tsx and astro as import.meta.env.BASE_URL
   // Attendee sign-in happens entirely client-side (src/lib/auth0Client.ts),
   // so almost every page is prerendered. The exceptions — /auth/token,
-  // /auth/bluesky-handle, the Bluesky oauth client-metadata route — need a
+  // /auth/bluesky-handle — need a
   // request-time runtime, which is why the Netlify adapter stays below; they
   // simply 404 on the S3 deploys, which serve static files only.
   output: "static",
@@ -64,8 +64,8 @@ export default defineConfig({
     pagefind(),
     // Wraps astro-broken-links-checker, which only knows about files emitted
     // at build time, so links to the few remaining on-demand routes
-    // (/auth/token, /auth/bluesky-handle, the Bluesky oauth client-metadata
-    // route) are not reported as broken. Writes .link-checker/broken-links.log.
+    // (/auth/token, /auth/bluesky-handle) are not reported as broken.
+    // Writes .link-checker/broken-links.log.
     brokenLinksChecker({
       checkExternalLinks: false,
       throwError: true,

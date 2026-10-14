@@ -64,7 +64,7 @@ The paper pages' Bluesky discussion uses the attendee's identity in two more way
 
 To verify after a change: sign in, open a paper, log in with Bluesky under the discussion, click Save, then check the user in **User Management → Users** — `user_metadata` shows `bsky_handle`, and after the attendee's ID token next refreshes the discussion greets them with a one-click "Log in as @handle" button.
 
-The Bluesky login itself needs nothing in Auth0: the site is a public ATProto OAuth client whose metadata is served from its own origin (`src/components/bluesky/oauth.ts`).
+The Bluesky login itself needs nothing in Auth0. Its static OAuth metadata uses `SITE` for S3 builds and `DEPLOY_PRIME_URL` for Netlify builds; this must match the origin serving the site. Accounts on other servers can log in using their handle. Run `npm run test:bluesky` to check metadata and request routing.
 
 ## Automatic building
 
