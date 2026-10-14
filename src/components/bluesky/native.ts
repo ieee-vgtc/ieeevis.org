@@ -150,7 +150,7 @@ export function restoreWriter(): Promise<NativeWriter | null> {
   return writerPromise;
 }
 
-export async function createWriterForSession(
+async function createWriterForSession(
   session: OAuthSession,
 ): Promise<NativeWriter> {
   const { Agent } = await import("@atproto/api");
