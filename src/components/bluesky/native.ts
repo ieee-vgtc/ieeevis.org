@@ -14,7 +14,7 @@
 
 import type { Agent } from "@atproto/api";
 import type { OAuthSession } from "@atproto/oauth-client-browser";
-import { restoreSession } from "./oauth";
+import { APPVIEW_DID, APPVIEW_SERVICE, restoreSession } from "./oauth";
 
 export interface BlueskyProfile {
   did: string;
@@ -157,7 +157,7 @@ async function createWriterForSession(
   const agent = new Agent(session);
   // PDS hosts need not configure Bluesky as their default AppView. Route
   // authenticated reads explicitly, keeping repository writes on the PDS.
-  const appView = agent.withProxy("bsky_appview", "did:web:api.bsky.app");
+  const appView = agent.withProxy(APPVIEW_SERVICE, APPVIEW_DID);
   const { data } = await appView.getProfile({ actor: session.did });
   return createWriter(agent, appView, {
     did: data.did,

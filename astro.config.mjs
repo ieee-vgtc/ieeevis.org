@@ -20,10 +20,8 @@ import pkg from "./package.json" with { type: "json" };
 export default defineConfig({
   base: process.env.BASE_PATH || "/year/2026", //this can be accessed in tsx and astro as import.meta.env.BASE_URL
   // Attendee sign-in happens entirely client-side (src/lib/auth0Client.ts),
-  // so almost every page is prerendered. The exceptions — /auth/token,
-  // /auth/bluesky-handle — need a
-  // request-time runtime, which is why the Netlify adapter stays below; they
-  // simply 404 on the S3 deploys, which serve static files only.
+  // so almost every page is prerendered. /auth/token and /auth/bluesky-handle
+  // need the Netlify runtime and simply 404 on S3, which serves static files.
   output: "static",
   // The app never touches Astro.session (its own bearer-token checks in
   // src/lib/auth0.ts don't need it); without this, @astrojs/netlify silently
@@ -59,6 +57,17 @@ export default defineConfig({
     ],
   }),
   integrations: [
+    {
+      name: "bluesky-client-metadata",
+      hooks: {
+        "astro:route:setup": ({ route }) => {
+          if (route.component.endsWith("/oauth/client-metadata.json.ts")) {
+            // S3 has one configured origin; Netlify may serve multiple aliases.
+            route.prerender = !process.env.NETLIFY && Boolean(process.env.SITE);
+          }
+        },
+      },
+    },
     react(),
     sitemap(),
     pagefind(),
