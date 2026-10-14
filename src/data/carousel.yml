@@ -4,6 +4,11 @@
 #   buttonUrl: "/info/call-participation/call-for-participation"
 #   active: "active"
 
+- title: "Early Bird registration extended if staying at the conference hotel!"
+  image: "register.jpg"
+  buttonText: "Registration"
+  buttonUrl: "/info/registration-and-travel/conference-registration"
+
 - title: "Speakers and Panelists@VIS26 Workshops"
   image: "workshop-collage.png"
   buttonText: "Exciting Speakers!"
@@ -13,11 +18,6 @@
   image: "cluster.png"
   buttonText: "CLUSTER"
   buttonUrl: "https://cluster-practitioners-summit.github.io/"
-
-- title: "Early Bird registration extended if staying at the conference hotel!"
-  image: "register.jpg"
-  buttonText: "Registration"
-  buttonUrl: "/info/registration-and-travel/conference-registration"
 
 - title: "VIS 2026 Capstone: Nils Gehlenborg"
   image: "Nils.png"
