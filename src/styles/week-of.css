@@ -436,13 +436,6 @@
   color: var(--color-gray-700);
 }
 
-.calendar-day-header-compact p.calendar-room-streaming-note {
-  margin-top: 0.1rem;
-  font-size: 0.76rem;
-  font-style: italic;
-  color: var(--color-accent);
-}
-
 .calendar-timeline-body {
   display: grid;
   grid-template-columns: var(--calendar-time-axis-width) repeat(
