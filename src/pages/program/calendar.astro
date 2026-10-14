@@ -131,9 +131,6 @@ const roomKey = (roomName: string) =>
 
 // TODO: make this less of a "magic" variable for future years' web chairs
 const roomOrder2026 = [
-  // The combined halls: one session for the whole hall
-  // (Hall America is America North, Center and South with the walls opened).
-  "Hall America",
   "America North / America Center / America South",
   "America North / America South / America Center",
   "America north",
@@ -143,7 +140,6 @@ const roomOrder2026 = [
   "Essex center",
   "Essex south",
   "Staffordshire",
-  "Hall St. George",
   "St. George (A+B)",
   "St. George (C+D)",
   "St. George (C+D) / St. George (A+B)",
@@ -159,6 +155,29 @@ const splitRoomNames = (roomName: string) =>
     .split("/")
     .map((part) => part.trim())
     .filter(Boolean);
+
+// TODO: update for future years' venues
+/**
+ * Halls made of breakout rooms with the walls opened. The program lists a
+ * plenary session once, in the hall; the day view spans it across the hall's
+ * rooms instead of giving the hall a column of its own.
+ */
+const combinedHalls2026 = new Map(
+  Object.entries({
+    "Hall America": [
+      "Hall America north",
+      "Hall America center",
+      "Hall America south",
+    ],
+    "Hall St. George": ["Hall St. George A-B", "Hall St. George C-D"],
+  }).map(([hall, parts]) => [roomKey(hall), parts]),
+);
+
+/** The physical rooms of a room name, with each combined hall expanded. */
+const physicalRoomNames = (roomName: string) =>
+  splitRoomNames(roomName).flatMap(
+    (part) => combinedHalls2026.get(roomKey(part)) ?? [part],
+  );
 
 const getSharedSessionKey = (session: CalendarSession) =>
   [
@@ -455,7 +474,7 @@ const typeOptions = sortedTypes.map((sessionType) => ({
 const roomDayGroups = dayGroups.map((dayGroup) => {
   const orderedRooms = Array.from(
     new Set(
-      dayGroup.sessions.flatMap((session) => splitRoomNames(session.room)),
+      dayGroup.sessions.flatMap((session) => physicalRoomNames(session.room)),
     ),
   ).sort(
     (a, b) => getRoomOrderIndex(a) - getRoomOrderIndex(b) || a.localeCompare(b),
@@ -477,7 +496,7 @@ const roomDayGroups = dayGroups.map((dayGroup) => {
     const occupiedRoomIndexes = Array.from(
       new Set(
         matchingSessions
-          .flatMap((session) => splitRoomNames(session.room))
+          .flatMap((session) => physicalRoomNames(session.room))
           .map((roomName) => orderedRooms.indexOf(roomName))
           .filter((index) => index >= 0),
       ),
@@ -501,9 +520,13 @@ const roomDayGroups = dayGroups.map((dayGroup) => {
       const firstRoom = roomNames[0];
       const session =
         matchingSessions.find((candidate) =>
-          splitRoomNames(candidate.room).includes(firstRoom),
+          physicalRoomNames(candidate.room).includes(firstRoom),
         ) || matchingSessions[0];
-      const combinedRoomName = roomNames.join(" / ");
+      // A hall session that spans all of the hall's rooms keeps the hall's name.
+      const combinedRoomName =
+        roomNames.length === physicalRoomNames(session.room).length
+          ? session.room
+          : roomNames.join(" / ");
       const roomSessions = roomMap.get(firstRoom)!;
       roomSessions.push({
         ...session,
@@ -530,24 +553,6 @@ const roomDayGroups = dayGroups.map((dayGroup) => {
     rooms,
   };
 });
-/** Rooms that the 2026 conference streams online; update each year. */
-const streamedRooms2026 = [
-  "Hall America",
-  "America North",
-  "America Center",
-  "America South",
-].map(roomKey);
-
-/**
- * True when every room in the (possibly combined, e.g. "A / B") room name is
- * streamed in 2026.
- */
-function isStreamedRoom2026(roomName: string): boolean {
-  return roomKey(roomName)
-    .split(" / ")
-    .every((part) => part.length > 0 && streamedRooms2026.includes(part));
-}
-
 const frontmatter = {
   title: "Calendar",
   active_nav: "Program",
@@ -762,11 +767,6 @@ const frontmatter = {
                   <p>
                     {dayGroup.weekdayLabel}, {dayGroup.dateLabel}
                   </p>
-                  {isStreamedRoom2026(roomGroup.roomName) && (
-                    <p class="calendar-room-streaming-note">
-                      (available as streaming)
-                    </p>
-                  )}
                 </div>
               ))}
             </div>
