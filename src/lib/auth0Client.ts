@@ -20,10 +20,11 @@
  * token wasn't tampered with before a page reads it back out of
  * `localStorage`. That's fine for what this gates — a sign-in prompt in
  * place of a PDF link, an attendee's display name — never anything a forged
- * session could turn into real access. A page that actually needs to trust
- * the claim (minting the embed token for the Bluesky bridge, saving a linked
- * handle) re-verifies the ID token's signature server-side; see
- * `verifyBearerIdToken` in `./auth0.ts`.
+ * session could turn into real access. Anything that actually needs to trust
+ * the identity (guest comments and likes, saving a Bluesky handle) goes to
+ * bsky-api (`./bskyApi.ts`), which re-verifies the ID token's signature
+ * against Auth0's public keys server-side. The site itself holds no secret
+ * and runs no server code for any of it.
  *
  * NEW ENVIRONMENT VARIABLES (must use the PUBLIC_ prefix — Astro only
  * includes PUBLIC_-prefixed values in the browser bundle):
@@ -111,9 +112,16 @@ export async function getCurrentUser(): Promise<AttendeeUser | null> {
 }
 
 /**
- * The attendee's raw ID token, to send as a bearer credential to a route
- * that re-verifies it server-side (see `verifyBearerIdToken` in `./auth0.ts`).
- * Null if no one is signed in; never throws.
+ * Seconds before its `exp` at which an ID token counts as expired here. The
+ * SDK caches by the access token's lifetime, so it can hand back an ID token
+ * past its own expiry; bsky-api would reject that with a 401.
+ */
+const ID_TOKEN_EXPIRY_SKEW_SECONDS = 120;
+
+/**
+ * The attendee's raw ID token, to send as a bearer credential to bsky-api,
+ * which re-verifies it server-side. Refreshed first if it is expired or about
+ * to be. Null if no one is signed in or the refresh fails; never throws.
  */
 export async function getIdToken(): Promise<string | null> {
   try {
@@ -121,7 +129,14 @@ export async function getIdToken(): Promise<string | null> {
     if (!(await client.isAuthenticated())) {
       return null;
     }
-    const claims = await client.getIdTokenClaims();
+    let claims = await client.getIdTokenClaims();
+    const expiresSoon =
+      typeof claims?.exp === "number" &&
+      claims.exp - ID_TOKEN_EXPIRY_SKEW_SECONDS < Date.now() / 1000;
+    if (expiresSoon) {
+      await client.getTokenSilently({ cacheMode: "off" });
+      claims = await client.getIdTokenClaims();
+    }
     return claims?.__raw ?? null;
   } catch (error) {
     console.error("Unable to read the Auth0 ID token:", error);
@@ -131,9 +146,8 @@ export async function getIdToken(): Promise<string | null> {
 
 /**
  * Force a fresh ID token from Auth0, bypassing the cached one. Used right
- * after `/auth/bluesky-handle` saves a new claim, so the next `/auth/token`
- * call (via `getIdToken`) carries it immediately instead of waiting for the
- * cached token's own expiry.
+ * after bsky-api saves a new Bluesky handle, so the next ID token carries the
+ * new `bsky_handle` claim immediately, and to retry once after a 401.
  */
 export async function refreshSession(): Promise<void> {
   const client = await getClient();

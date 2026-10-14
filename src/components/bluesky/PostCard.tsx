@@ -11,6 +11,10 @@
  * came through the guest bridge or from the reader's own Bluesky account.
  * It earns its place on an anonymous comment above all: that byline reads the
  * same `p-4821` on every anonymous post in the thread.
+ *
+ * Posts from an author of the paper under discussion carry an "Author" badge.
+ * Only a real Bluesky account can be matched to the handle in an author's
+ * profile, so guest comments never carry it.
  */
 
 import { useState } from "react";
@@ -105,6 +109,8 @@ interface PostCardProps {
   own?: PostOwnContext;
   /** Shared reply state; absent where the reader may not write here. */
   reply?: PostReplyContext;
+  /** Canonical Bluesky handles of the paper's authors. */
+  authorHandles?: ReadonlySet<string>;
 }
 
 const linkStyle = { color: "inherit", textDecoration: "none" } as const;
@@ -126,6 +132,18 @@ const ownMarkerStyle: CSSProperties = {
   color: "var(--color-primary)",
   fontWeight: 600,
   fontSize: "0.85rem",
+};
+
+/** "Author", beside the name on posts from an author of the paper. */
+const authorBadgeStyle: CSSProperties = {
+  marginLeft: "0.4rem",
+  padding: "0.05rem 0.45rem",
+  borderRadius: "0.5rem",
+  backgroundColor: "color-mix(in srgb, var(--color-accent) 12%, white)",
+  color: "var(--color-accent)",
+  fontWeight: 600,
+  fontSize: "0.75rem",
+  verticalAlign: "middle",
 };
 
 /** The chip shape again, as a plain button: the remove controls wear it. */
@@ -307,6 +325,7 @@ export default function PostCard({
   like,
   own,
   reply,
+  authorHandles,
 }: PostCardProps) {
   const isRoot = variant === "root";
   // Removable from here: a guest comment of theirs, or a post of the Bluesky
@@ -320,6 +339,9 @@ export default function PostCard({
     removable ||
     (own?.handle != null &&
       (post.author?.handle ?? "").toLowerCase() === own.handle);
+  const isPaperAuthor =
+    !post.guest &&
+    authorHandles?.has((post.author?.handle ?? "").toLowerCase()) === true;
   const { name, body } = displayPost(post);
   const profile = post.guest ? null : profileUrl(post.author);
   // Guest comments are real posts in the shared bridge repo, so their bsky.app
@@ -355,6 +377,11 @@ export default function PostCard({
             </a>
           ) : (
             <span style={{ fontWeight: 600 }}>{name}</span>
+          )}
+          {isPaperAuthor && (
+            <span style={authorBadgeStyle} title="An author of this paper">
+              Author
+            </span>
           )}
           {isOwn && <span style={ownMarkerStyle}>(me)</span>}
           <div style={{ fontSize: "0.85rem", color: "var(--color-gray-600)" }}>

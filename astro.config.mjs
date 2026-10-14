@@ -20,11 +20,11 @@ import pkg from "./package.json" with { type: "json" };
 export default defineConfig({
   base: process.env.BASE_PATH || "/year/2026", //this can be accessed in tsx and astro as import.meta.env.BASE_URL
   // Attendee sign-in happens entirely client-side (src/lib/auth0Client.ts),
-  // so almost every page is prerendered. /auth/token and /auth/bluesky-handle
-  // need the Netlify runtime and simply 404 on S3, which serves static files.
+  // and everything that must trust the attendee's identity goes to bsky-api
+  // (src/lib/bskyApi.ts). Only OAuth metadata needs Netlify's runtime;
+  // S3 builds prerender it for their configured origin.
   output: "static",
-  // The app never touches Astro.session (its own bearer-token checks in
-  // src/lib/auth0.ts don't need it); without this, @astrojs/netlify silently
+  // The app never touches Astro.session; without this, @astrojs/netlify silently
   // defaults to a Netlify Blobs-backed session store on every build. Set
   // explicitly to rule out that unused dependency as a source of trouble.
   session: {
@@ -72,9 +72,7 @@ export default defineConfig({
     sitemap(),
     pagefind(),
     // Wraps astro-broken-links-checker, which only knows about files emitted
-    // at build time, so links to the few remaining on-demand routes
-    // (/auth/token, /auth/bluesky-handle) are not reported as broken.
-    // Writes .link-checker/broken-links.log.
+    // at build time. Writes .link-checker/broken-links.log.
     brokenLinksChecker({
       checkExternalLinks: false,
       throwError: true,
