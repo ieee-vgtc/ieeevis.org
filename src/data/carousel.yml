@@ -9,15 +9,15 @@
   buttonText: "Registration"
   buttonUrl: "/info/registration-and-travel/conference-registration"
 
+- title: "Cluster: The Practitioners' Summit at VIS"
+  image: "carousel-cluster-promo2.png"
+  buttonText: "Cluster Program"
+  buttonUrl: "/blog/2026-10-14-vis-2026-cluster-blog"
+
 - title: "Speakers and Panelists@VIS26 Workshops"
   image: "workshop-collage.png"
   buttonText: "Exciting Speakers!"
   buttonUrl: "/blog/2026-09-25-vis-2026-workshops-speakers-blog"
-
-- title: "The Practitioners' Summit at VIS"
-  image: "cluster.png"
-  buttonText: "CLUSTER"
-  buttonUrl: "https://cluster-practitioners-summit.github.io/"
 
 - title: "VIS 2026 Capstone: Nils Gehlenborg"
   image: "Nils.png"
