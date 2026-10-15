@@ -104,9 +104,13 @@ active_nav: "Organization & History"
 | **Student Volunteer Chairs**              | sv@ieeevis.org                                               |
 | Connor Wilson                             | _Northeastern University_                                    |
 | Hamza Elhamdadi                           | _Stonehill College_                                          |
-| Hyeon Jeon                                | _Seoul National University_                                  |
+| Hyeon Jeon                                | _Aarhus University_                                          |
 | Magdalena 'Momo' Boucher                  | _University of Applied Sciences St. Pölten_                  |
 | Zeyang Huang                              | _Linköping University_                                       |
+|                                           |                                                              |
+| **Paris Satellite Student Volunteer Chairs** |                                                           |
+| Wei Wei                                   | _University of Victoria_                                     |
+| Katerina Batziakoudi                       | _Inria and Berger-Levrault_                                   |
 |                                           |                                                              |
 | **Publicity Chairs**                      | publicity@ieeevis.org                                        |
 | Khairi Reda                               | _University of Illinois Chicago_                             |
