@@ -57,7 +57,7 @@ export default function OAuthCallback() {
         {error.returnTo ? (
           <a href={error.returnTo}>Back to where you were</a>
         ) : (
-          <a href={withBaseURL("/program/papers")}>Back to the papers</a>
+          <a href={withBaseURL("/program/content")}>Back to the program</a>
         )}
       </p>
     );
