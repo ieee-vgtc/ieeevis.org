@@ -8,15 +8,8 @@
  * posted this way is an ordinary Bluesky reply and shows up in the thread on
  * the next poll like any other.
  *
- * Bluesky needs to fetch the client's metadata from the `client_id` URL, so
- * the metadata is served by `src/pages/oauth/client-metadata.json.ts` and the
- * same object is built here for the browser, both from the deployment's own
- * origin. Deriving it from the origin is what lets production, a local
- * checkout and a deploy preview each act as their own client without
- * per-environment configuration — unlike Auth0 sign-in (`../../lib/auth0Client.ts`),
- * which needs one application (and one PUBLIC_AUTH0_CLIENT_ID) registered for
- * every origin up front, since Auth0 has no equivalent of a client-metadata
- * URL to read it from automatically.
+ * The metadata route and browser use the same origin. S3 builds publish it
+ * for their configured SITE; Netlify serves it for the requesting origin.
  *
  * The OAuth login page lives on the reader's PDS (bsky.social for most). Where
  * that host is unreachable the login simply fails, and the guest composer
@@ -43,7 +36,9 @@ import { safeReturnTo, siteBase } from "../../utils/withBaseURL";
  * not follow, block, edit the profile, or read messages. The account's
  * consent screen lists these instead of "full access".
  */
-const APPVIEW = "did:web:api.bsky.app%23bsky_appview";
+export const APPVIEW_DID = "did:web:api.bsky.app";
+export const APPVIEW_SERVICE = "bsky_appview";
+const APPVIEW = `${APPVIEW_DID}%23${APPVIEW_SERVICE}`;
 export const OAUTH_SCOPE = [
   "atproto",
   "repo:app.bsky.feed.post?action=create&action=delete",

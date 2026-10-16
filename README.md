@@ -80,7 +80,7 @@ Without it, sign-in still works; the site just never learns the handle, and the 
 
 To verify after a change: sign in, open a paper, log in with Bluesky under the discussion, click Save, then check the user in **User Management → Users** — `user_metadata` shows `bsky_handle`, and after the attendee's ID token next refreshes the discussion greets them with a one-click "Log in as @handle" button.
 
-The Bluesky login itself needs nothing in Auth0: the site is a public ATProto OAuth client whose metadata is served from its own origin (`src/components/bluesky/oauth.ts`).
+The Bluesky login itself needs nothing in Auth0. S3 builds publish OAuth metadata for their configured `SITE`; Netlify serves it for the requesting origin. Accounts on other servers can log in using their handle.
 
 ## Automatic building
 

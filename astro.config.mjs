@@ -21,8 +21,8 @@ export default defineConfig({
   base: process.env.BASE_PATH || "/year/2026", //this can be accessed in tsx and astro as import.meta.env.BASE_URL
   // Attendee sign-in happens entirely client-side (src/lib/auth0Client.ts),
   // and everything that must trust the attendee's identity goes to bsky-api
-  // (src/lib/bskyApi.ts), so every page is prerendered and the S3 deploys,
-  // which serve static files only, get the whole site.
+  // (src/lib/bskyApi.ts). Only OAuth metadata needs Netlify's runtime;
+  // S3 builds prerender it for their configured origin.
   output: "static",
   // The app never touches Astro.session; without this, @astrojs/netlify silently
   // defaults to a Netlify Blobs-backed session store on every build. Set
@@ -57,6 +57,17 @@ export default defineConfig({
     ],
   }),
   integrations: [
+    {
+      name: "bluesky-client-metadata",
+      hooks: {
+        "astro:route:setup": ({ route }) => {
+          if (route.component.endsWith("/oauth/client-metadata.json.ts")) {
+            // S3 has one configured origin; Netlify may serve multiple aliases.
+            route.prerender = !process.env.NETLIFY && Boolean(process.env.SITE);
+          }
+        },
+      },
+    },
     react(),
     sitemap(),
     pagefind(),
