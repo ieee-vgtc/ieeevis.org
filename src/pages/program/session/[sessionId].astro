@@ -187,7 +187,7 @@ const frontmatter = {
             {event.organizers.map((author, idx) => (
               <a
                 class="mr-1"
-                href={`/year/2026/program/papers/?filter=author&search=${author.replaceAll(" ", "+")}`}
+                href={`/year/2026/program/content/?filter=author&search=${author.replaceAll(" ", "+")}`}
               >
                 {author}
                 {idx !== event.organizers.length - 1 ? "," : ""}
@@ -246,9 +246,7 @@ const frontmatter = {
             {slot.uid ? (
               <h3>
                 <a
-                  href={withBaseURL(
-                    `/program/${slot.paper_type.includes("oster") ? "poster" : "paper"}/${slot.uid}`,
-                  )}
+                  href={withBaseURL(`/program/content/${slot.uid}`)}
                 >
                   {slot.title}
                 </a>
@@ -284,7 +282,7 @@ const frontmatter = {
                   {slot.contributors.map((author, idx) => (
                     <a
                       class="mr-1"
-                      href={`/year/2026/program/papers/?filter=author&search=${author.replaceAll(" ", "+")}`}
+                      href={`/year/2026/program/content/?filter=author&search=${author.replaceAll(" ", "+")}`}
                     >
                       {author}
                       {slot.contributors &&
@@ -310,7 +308,7 @@ const frontmatter = {
         workshopPapers.map((paper) => (
           <section class="paper-section">
             <h3>
-              <a href={withBaseURL(`/program/paper/${paper.id}`)}>
+              <a href={withBaseURL(`/program/content/${paper.id}`)}>
                 {paper.title}
               </a>
             </h3>

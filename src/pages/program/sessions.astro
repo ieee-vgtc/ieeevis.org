@@ -188,7 +188,7 @@ function formatPeopleForSession(session: SessionListItem) {
   const people = showsOrganizers(session) ? session.organizers : session.chairs;
   return people.map((authorName) => ({
     name: authorName,
-    href: `/program/papers/?search=${encodeURIComponent(authorName)}`,
+    href: `/program/content/?search=${encodeURIComponent(authorName)}`,
   }));
 }
 ---

@@ -2,7 +2,11 @@
 // export const prerender = false;
 
 import PageLayout from "../../layouts/PageLayout.astro";
-import { fetchAllPapers, fetchAllSessions } from "../../utils/paperData";
+import {
+  fetchAllPapers,
+  fetchAllPosters,
+  fetchAllSessions,
+} from "../../utils/paperData";
 import { withBaseURL } from "../../utils/withBaseURL";
 import ProgramPapersBrowser from "../../components/ProgramPapersBrowser.astro";
 import type { ProgramTimeSlot } from "../../types/program";
@@ -170,6 +174,53 @@ const paperCards: ProgramPaperCard[] = papers.map((paper) => {
       /^tvcg/i.test(normalizeText(paper.program_paper_id)),
   };
 });
+
+// Posters have their own detail pages but share this listing, under a Posters
+// filter. Sessions are resolved the same way as for papers.
+const posters = await fetchAllPosters();
+
+for (const poster of posters) {
+  const linkedSlot = slotMetadataByPaperId.get(poster.id);
+  const posterEvent = paperEventByPrefix.get(poster.event_prefix);
+  const resolvedSession = linkedSlot || posterEvent?.soleSession || null;
+  const authors = (poster.authors || [])
+    .map((author) => normalizeText(author.name))
+    .filter(Boolean);
+  const keywords = (poster.keywords || [])
+    .map((keyword) => normalizeText(keyword))
+    .filter(Boolean);
+  const sessionLabel = resolvedSession?.sessionTitle || "Session TBA";
+
+  paperCards.push({
+    id: poster.id,
+    title: normalizeText(poster.title) || "Untitled submission",
+    authorNames: authors,
+    keywordsLabel:
+      keywords.length > 0 ? keywords.join(", ") : "No keywords listed",
+    abstractText: normalizeText(poster.abstract) || "Abstract not available.",
+    presentationType: "poster",
+    presentationLabel: getProgramEventTypeLabel("poster"),
+    eventKey: normalizeText(poster.event_prefix) || null,
+    eventLabel: posterEvent?.eventLabel || getProgramEventTypeLabel("poster"),
+    sessionKey: resolvedSession?.sessionSlug || null,
+    sessionLabel,
+    scheduleLabel: resolvedSession?.startISO
+      ? `${conferenceDateTimeFormatter.format(new Date(resolvedSession.startISO))} - ${sessionLabel}`
+      : sessionLabel,
+    startMs:
+      resolvedSession?.startMs && Number.isFinite(resolvedSession.startMs)
+        ? resolvedSession.startMs
+        : Number.MAX_SAFE_INTEGER,
+    doiUrl: poster.doi ? `https://doi.org/${poster.doi}` : null,
+    preprintUrl: normalizeText(poster.preprint_link) || null,
+    supplementalUrl:
+      normalizeText(poster.open_access_supplemental_link) || null,
+    sessionUrl: resolvedSession?.sessionSlug
+      ? withBaseURL(`/program/session/${resolvedSession.sessionSlug}`)
+      : null,
+    award: normalizeText(poster.award) || null,
+  });
+}
 
 // Keynote and capstone talks have no paper page, but people should still find
 // them by searching for the speaker. Each one is simulcast to several rooms, so
@@ -340,7 +391,7 @@ const sessionRoles: ProgramSessionRole[] = Object.values(sessionList)
   .sort((a, b) => a.startMs - b.startMs);
 
 const frontmatter = {
-  title: "Papers",
+  title: "Content",
   active_nav: "Program",
   contact: "web@ieeevis.org",
   full_width: true,

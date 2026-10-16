@@ -5,7 +5,7 @@ import AuthGate from "../../../components/AuthGate.astro";
 import AwardBadge from "../../../components/AwardBadge.astro";
 import NewTabIndicator from "../../../components/NewTabIndicator.astro";
 import BlueskyDiscussion from "../../../components/BlueskyDiscussion";
-import { fetchAllPapers } from "../../../utils/paperData";
+import { fetchAllPapers, fetchAllPosters } from "../../../utils/paperData";
 import { features } from "../../../config/pages-allow-list";
 import { withBaseURL } from "../../../utils/withBaseURL";
 import { getBskyHandle } from "../../../utils/bskyProfiles";
@@ -15,8 +15,14 @@ import type { Paper } from "../../../types/paper";
 import type { ProgramSession, ProgramTimeSlot } from "../../../types/program";
 
 export async function getStaticPaths() {
-  const papers = await fetchAllPapers();
-  return papers.map((paper) => ({ params: { paperId: paper.id } }));
+  // Posters share this page; their ids do not collide with paper ids.
+  const [papers, posters] = await Promise.all([
+    fetchAllPapers(),
+    fetchAllPosters(),
+  ]);
+  return [...papers, ...posters].map((paper) => ({
+    params: { contentId: paper.id },
+  }));
 }
 
 // TODO: Either move to a shared config, or fetch from DB
@@ -40,11 +46,14 @@ if (!features.weekOfVis.enabled) {
   return new Response(null, { status: 404 });
 }
 
-const [sessionList, papers] = await Promise.all([
+const [sessionList, papers, posters] = await Promise.all([
   fetchAllSessions(),
   fetchAllPapers(),
+  fetchAllPosters(),
 ]);
-const sourcePaper = papers.find((entry) => entry.id === Astro.params.paperId);
+const sourcePaper = [...papers, ...posters].find(
+  (entry) => entry.id === Astro.params.contentId,
+) as Paper | undefined;
 
 if (!sourcePaper) {
   return new Response(null, { status: 404 });
@@ -161,7 +170,10 @@ const eventUrl = workshopSession
   ? withBaseURL(
       `/program/session/${workshopSession.event_prefix}-${workshopSession.session_id}`,
     )
-  : withBaseURL(`/program/sessions/?type=${encodeURIComponent(eventType)}`);
+  : withBaseURL(
+      // Posters have no sessions of their own; list them in the content view.
+      `/program/${eventType === "poster" ? "content" : "sessions"}/?type=${encodeURIComponent(eventType)}`,
+    );
 
 // Video embeds are on hold until session_youtube_url / session_bunny_prerecorded_link
 // (etc.) are actually populated in the paper data. Re-enable this alongside the
@@ -308,7 +320,7 @@ const DISCUSSION_SECTION_ID = "discussion"
                   <span>
                     <a
                       href={withBaseURL(
-                        `/program/papers/?search=${encodeURIComponent(a.name)}`,
+                        `/program/content/?search=${encodeURIComponent(a.name)}`,
                       )}
                       class="text-accent underline decoration-accent-200 decoration-solid underline-offset-3 hover:text-accent-700 focus-visible:text-accent-700"
                     >
