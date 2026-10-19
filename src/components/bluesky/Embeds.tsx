@@ -52,10 +52,43 @@ const cardStyle = {
   color: "inherit",
 } as const;
 
+function isGifUrl(uri: string): boolean {
+  try {
+    return new URL(uri).pathname.toLowerCase().endsWith(".gif");
+  } catch {
+    return false;
+  }
+}
+
 /** The link preview or quote, rendered as one clickable card. */
 export function EmbedCard({ embed }: { embed?: PostEmbed | null }) {
   if (!embed) {
     return null;
+  }
+
+  // Bluesky posts a GIF as a link card. Show it as the image it is. The thumb
+  // is a still frame from Bluesky's CDN, which the page is allowed to load.
+  if (embed.kind === "external" && embed.thumb && isGifUrl(embed.uri)) {
+    return (
+      <a
+        href={embed.uri}
+        rel="noopener noreferrer"
+        style={{ display: "inline-block", marginTop: "0.5rem" }}
+        target="_blank"
+      >
+        <img
+          alt={embed.title}
+          src={embed.thumb}
+          style={{
+            display: "block",
+            maxWidth: "100%",
+            maxHeight: "300px",
+            borderRadius: "0.5rem",
+            border: "1px solid var(--color-gray-300)",
+          }}
+        />
+      </a>
+    );
   }
 
   if (embed.kind === "external") {
