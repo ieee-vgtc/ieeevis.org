@@ -41,3 +41,13 @@ export const errorTextStyle: CSSProperties = {
   fontSize: "0.82rem",
   color: "#b91c1c",
 };
+
+/** The box of the site's sign-in prompts (AuthGate), so they all match. */
+export const signInBoxStyle: CSSProperties = {
+  padding: "0.75rem 1rem",
+  border: "1px dashed var(--color-gray-400)",
+  borderRadius: "6px",
+  backgroundColor: "var(--color-gray-100)",
+  color: "var(--color-gray-800)",
+  fontSize: "0.9rem",
+};

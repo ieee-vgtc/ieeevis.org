@@ -10,7 +10,7 @@
  */
 
 import { useId } from "react";
-import type { CSSProperties, ReactNode } from "react";
+import type { ReactNode } from "react";
 import { BLUESKY_ENTRYWAY } from "./oauth";
 import {
   disabledButtonStyle,
@@ -18,6 +18,7 @@ import {
   hintTextStyle,
   primaryButtonStyle,
   secondaryButtonStyle,
+  signInBoxStyle,
 } from "./styles";
 import type { BlueskyLoginState } from "./useBlueskySession";
 import { normalizeBskyHandle } from "../../utils/bskyHandle";
@@ -59,7 +60,10 @@ export default function BlueskyLoginSection({
       : null;
 
   return (
-    <section aria-labelledby={headingId} style={boxed ? boxStyle : undefined}>
+    <section
+      aria-labelledby={headingId}
+      style={boxed ? signInBoxStyle : undefined}
+    >
       <ExperimentalHeading as={headingLevel} id={headingId}>
         Bluesky sign-in
       </ExperimentalHeading>
@@ -135,13 +139,3 @@ export default function BlueskyLoginSection({
     </section>
   );
 }
-
-/** The box of the site's other sign-in prompt (AuthGate), so the two match. */
-const boxStyle: CSSProperties = {
-  padding: "0.75rem 1rem",
-  border: "1px dashed var(--color-gray-400)",
-  borderRadius: "6px",
-  backgroundColor: "var(--color-gray-100)",
-  color: "var(--color-gray-800)",
-  fontSize: "0.9rem",
-};

@@ -69,6 +69,7 @@ import ReplyList from "./bluesky/ReplyList";
 import SaveHandlePrompt from "./bluesky/SaveHandlePrompt";
 import BlueskyLoginSection from "./bluesky/BlueskyLoginSection";
 import SortToggle from "./bluesky/SortToggle";
+import VisSignInBox from "./bluesky/VisSignInBox";
 import { fetchAppViewThread } from "./bluesky/direct";
 import { formatOpensAt, likeCountOf } from "./bluesky/format";
 import { NATIVE_TEXT_LIMIT } from "./bluesky/native";
@@ -91,7 +92,7 @@ import { errorTextStyle } from "./bluesky/styles";
 import { useBlueskySession } from "./bluesky/useBlueskySession";
 import { usePolledThread } from "./bluesky/usePolledThread";
 import { normalizeBskyHandle } from "../utils/bskyHandle";
-import { getIdToken } from "../lib/auth0Client";
+import { currentPagePath, getIdToken, login } from "../lib/auth0Client";
 import { BSKY_API_BASE } from "../lib/bskyApi";
 
 const DEFAULT_API_BASES = [BSKY_API_BASE];
@@ -308,6 +309,9 @@ function formatAgo(sinceMs: number): string {
  */
 function useGuestToken(enabled: boolean) {
   const [hasToken, setHasToken] = useState(false);
+  // False until the first check returns, so a signed-in reader is not offered
+  // the sign-in for a moment while it runs.
+  const [tokenChecked, setTokenChecked] = useState(false);
 
   const getToken = useCallback(async (): Promise<string | null> => {
     if (!enabled) {
@@ -315,6 +319,7 @@ function useGuestToken(enabled: boolean) {
     }
     const token = await getIdToken();
     setHasToken(Boolean(token));
+    setTokenChecked(true);
     return token;
   }, [enabled]);
 
@@ -322,7 +327,7 @@ function useGuestToken(enabled: boolean) {
     void getToken();
   }, [getToken]);
 
-  return { hasToken, getToken };
+  return { hasToken, tokenChecked, getToken };
 }
 
 /**
@@ -439,7 +444,9 @@ export default function BlueskyDiscussion({
   // Also minted for an AppView-only thread: it buys no writes there, but it is
   // what tells us the reader's own Bluesky handle, and so which replies in a
   // read-only thread are theirs.
-  const { hasToken, getToken } = useGuestToken(Boolean(paperId || atUri));
+  const { hasToken, tokenChecked, getToken } = useGuestToken(
+    Boolean(paperId || atUri),
+  );
 
   // The reader's own Bluesky account, when they have logged in with it here.
   // While it is there, every write goes through it rather than the service.
@@ -1176,6 +1183,14 @@ export default function BlueskyDiscussion({
         }
       : undefined;
 
+  // Offer the VIS sign-in only where it lets the reader write (the service
+  // bridges guest comments) and only to a reader with no way to write yet.
+  const offerVisSignIn =
+    data?.source === "service" &&
+    tokenChecked &&
+    !hasToken &&
+    bluesky.session.status === "none";
+
   const signInWithBluesky = (input: string) => {
     markInteraction();
     const { pathname, search } = window.location;
@@ -1243,13 +1258,24 @@ export default function BlueskyDiscussion({
 
       {/* The same login as on the account page; saving the handle is offered
           by SaveHandlePrompt below instead, so it is not offered twice. */}
-      <div style={{ margin: "0.75rem 0" }}>
+      <div
+        className={offerVisSignIn ? "grid gap-3 md:grid-cols-2" : undefined}
+        style={{ margin: "0.75rem 0" }}
+      >
         <BlueskyLoginSection
           bluesky={bluesky}
           headingLevel="h3"
           linkedHandle={linkedHandle}
           onSignIn={signInWithBluesky}
         />
+        {offerVisSignIn && (
+          <VisSignInBox
+            onSignIn={() => {
+              markInteraction();
+              void login(`${currentPagePath()}#${sectionId}`);
+            }}
+          />
+        )}
       </div>
 
       {offerHandleSave && (
