@@ -60,13 +60,31 @@ export default function BlueskyLoginSection({
 
   return (
     <section aria-labelledby={headingId} style={boxed ? boxStyle : undefined}>
-      <Heading id={headingId} className="font-bold">
-        Bluesky login
-      </Heading>
-      <ExperimentalBadge />
+      <div className="flex flex-wrap items-baseline gap-x-3">
+        <Heading id={headingId} className="font-bold">
+          Bluesky login
+        </Heading>
+        <ExperimentalBadge />
+      </div>
       {loggedInHandle ? (
         <>
-          <p>You are logged in to Bluesky as @{loggedInHandle}.</p>
+          <p
+            style={{
+              display: "flex",
+              flexWrap: "wrap",
+              alignItems: "center",
+              gap: "0.5rem 0.75rem",
+            }}
+          >
+            <span>You are logged in to Bluesky as @{loggedInHandle}.</span>
+            <button
+              type="button"
+              style={secondaryButtonStyle}
+              onClick={() => void bluesky.signOut()}
+            >
+              Log out of Bluesky
+            </button>
+          </p>
           {onSaveHandle && loggedInHandle !== linkedHandle && (
             <p style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem" }}>
               <button
@@ -79,13 +97,6 @@ export default function BlueskyLoginSection({
               </button>
             </p>
           )}
-          <button
-            type="button"
-            style={secondaryButtonStyle}
-            onClick={() => void bluesky.signOut()}
-          >
-            Log out of Bluesky
-          </button>
         </>
       ) : bluesky.session.status === "none" ? (
         <>
