@@ -57,7 +57,7 @@ const awardCount = papers.filter(
   (paper) => paper.award || paper.isAwardSession,
 ).length;
 
-// Session chairs and organizers ride along as their own "type" so they can be
+// Session chairs, organizers, and panelists ride along as their own "type" so they can be
 // toggled like the paper types.
 const sessionRoleType = "session-role";
 const sessionRoleColor = "#e6e7e4";
@@ -101,7 +101,7 @@ const typeOptions = Object.keys(typeCounts)
       ? [
           {
             value: sessionRoleType,
-            label: "Chairs & Organizers",
+            label: "Chairs, Organizers & Panelists",
             count: sessionRoles.length,
             color: "#616161",
           },
