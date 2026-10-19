@@ -61,7 +61,7 @@ export default function BlueskyLoginSection({
   return (
     <section aria-labelledby={headingId} style={boxed ? boxStyle : undefined}>
       <ExperimentalHeading as={headingLevel} id={headingId}>
-        Bluesky login
+        Bluesky sign-in
       </ExperimentalHeading>
       {loggedInHandle ? (
         <>
@@ -73,13 +73,13 @@ export default function BlueskyLoginSection({
               gap: "0.5rem 0.75rem",
             }}
           >
-            <span>You are logged in to Bluesky as @{loggedInHandle}.</span>
+            <span>You are signed in to Bluesky as @{loggedInHandle}.</span>
             <button
               type="button"
               style={secondaryButtonStyle}
               onClick={() => void bluesky.signOut()}
             >
-              Log out of Bluesky
+              Sign out of Bluesky
             </button>
           </p>
           {onSaveHandle && loggedInHandle !== linkedHandle && (
@@ -101,8 +101,8 @@ export default function BlueskyLoginSection({
             <p className="mb-0 font-bold">Do you have a Bluesky account?</p>
           )}
           <p style={hintTextStyle}>
-            Log in to comment and like from your own account instead of as a VIS
-            attendee.
+            Sign in to comment and like from your own account instead of as a
+            VIS attendee.
           </p>
           <p style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem" }}>
             {linkedHandle && (
@@ -114,7 +114,7 @@ export default function BlueskyLoginSection({
               >
                 {bluesky.busy
                   ? "Opening Bluesky…"
-                  : `Log in as @${linkedHandle}`}
+                  : `Sign in as @${linkedHandle}`}
               </button>
             )}
             <button
@@ -123,13 +123,13 @@ export default function BlueskyLoginSection({
               style={linkedHandle ? secondaryButtonStyle : primaryButtonStyle}
               onClick={() => onSignIn(BLUESKY_ENTRYWAY)}
             >
-              {linkedHandle ? "Use another account" : "Log in with Bluesky"}
+              {linkedHandle ? "Use another account" : "Sign in with Bluesky"}
             </button>
           </p>
           {bluesky.error && <p style={errorTextStyle}>{bluesky.error}</p>}
         </>
       ) : (
-        <p style={hintTextStyle}>Checking your Bluesky login…</p>
+        <p style={hintTextStyle}>Checking your Bluesky sign-in…</p>
       )}
       {children}
     </section>

@@ -4,7 +4,7 @@ import type { CSSProperties } from "react";
 
 export const secondaryButtonStyle: CSSProperties = {
   padding: "0.35rem 0.8rem",
-  borderRadius: "0.5rem",
+  borderRadius: "0.25rem",
   border: "1px solid var(--color-gray-400)",
   backgroundColor: "#fff",
   color: "inherit",
@@ -14,13 +14,13 @@ export const secondaryButtonStyle: CSSProperties = {
   whiteSpace: "nowrap",
 };
 
+/** Like the site's own "Sign in" buttons (AuthGate, AccountMenu). */
 export const primaryButtonStyle: CSSProperties = {
   ...secondaryButtonStyle,
-  border: "1px solid var(--color-primary)",
-  backgroundColor: "var(--color-primary)",
+  border: "1px solid var(--color-accent)",
+  backgroundColor: "var(--color-accent)",
   color: "#fff",
-  fontFamily: "var(--font-display, inherit)",
-  fontWeight: 600,
+  fontWeight: 700,
 };
 
 /** A primary button that cannot be used right now, greyed out. */

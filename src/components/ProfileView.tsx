@@ -14,8 +14,8 @@
  *
  * The saved handle is the same one the paper-page discussions read (through
  * the `bsky_handle` ID token claim), so saving it here gives the reader the
- * discussion's one-click "Log in as @handle". The page also offers that
- * Bluesky login itself (`useBlueskySession`, shared with the discussions):
+ * discussion's one-click "Sign in as @handle". The page also offers that
+ * Bluesky sign-in itself (`useBlueskySession`, shared with the discussions):
  * logging in here signs the browser in for those pages too, and a logged-in
  * account the profile does not carry yet is offered for saving.
  */
@@ -85,7 +85,7 @@ export default function ProfileView({ times }: { times?: TimeIndex }) {
   const [loadError, setLoadError] = useState(false);
   // Set once a save shows saving cannot work here; greys the form out.
   const [saveUnavailable, setSaveUnavailable] = useState<string | null>(null);
-  // The Bluesky login used by the paper-page discussions; logging in here
+  // The Bluesky sign-in used by the paper-page discussions; logging in here
   // signs this browser in for those too.
   const bluesky = useBlueskySession();
 
@@ -172,7 +172,7 @@ export default function ProfileView({ times }: { times?: TimeIndex }) {
     await save(handle);
   };
 
-  // Comes back to this page after the Bluesky login; the callback page needs
+  // Comes back to this page after the Bluesky sign-in; the callback page needs
   // the full path, base included, like the discussion's own login.
   const signInWithBluesky = (input: string) => {
     const { pathname, search } = window.location;
@@ -306,8 +306,8 @@ export default function ProfileView({ times }: { times?: TimeIndex }) {
                       </button>
                     </div>
                     <p role="note" style={warningNoteStyle}>
-                      This action does not log you in to Bluesky. To log in,
-                      please use the log in button above.
+                      This action does not sign you in to Bluesky. To sign in,
+                      please use the sign-in button above.
                     </p>
                     {saveUnavailable ? (
                       <p role="status" style={errorTextStyle}>
@@ -331,7 +331,7 @@ export default function ProfileView({ times }: { times?: TimeIndex }) {
               >
                 <b>Why provide your Bluesky handle?</b> If you are an author, we
                 will tag you on Bluesky when your paper goes live! This handle
-                can be different from the one used to log in to Bluesky above
+                can be different from the one used to sign in to Bluesky above
                 for commenting on papers.
               </p>
             </dd>

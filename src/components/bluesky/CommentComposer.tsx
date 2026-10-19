@@ -187,7 +187,7 @@ export default function CommentComposer({
               wider width and does not resize (shoving the checkbox) when
               "Hide my name" flips which one shows; "Posting…" overlays while
               submitting. Only the active label is visible/announced. A
-              Bluesky login has one byline: the account. */}
+              Bluesky sign-in has one byline: the account. */}
           <span style={{ display: "grid" }}>
             <span
               style={{

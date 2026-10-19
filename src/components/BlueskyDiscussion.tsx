@@ -25,7 +25,7 @@
  *     (`bluesky/useBlueskySession.ts`). Comments, likes and removals then go
  *     straight from the browser to their own PDS and the service is not
  *     involved — which also means this works on a thread read straight from
- *     the AppView, and after guest posting has closed. A Bluesky login takes
+ *     the AppView, and after guest posting has closed. A Bluesky sign-in takes
  *     precedence over the guest path whenever both are available.
  *
  * Everything else is read-only.
@@ -473,7 +473,7 @@ export default function BlueskyDiscussion({
     ? identity?.pseudonym
     : identity?.name || identity?.pseudonym;
   // The Bluesky handle on the reader's VIS profile: it pre-fills the login and
-  // marks that account's replies as theirs even without a Bluesky login here.
+  // marks that account's replies as theirs even without a Bluesky sign-in here.
   const linkedHandle =
     savedHandle ??
     (identity?.bluesky ? normalizeBskyHandle(identity.bluesky) : null);
@@ -547,7 +547,7 @@ export default function BlueskyDiscussion({
     thread?.state === "open" ? thread.post : undefined;
   /** Guest writes are bridged by the service; the AppView is read-only here. */
   const canWriteAsGuest = data?.source === "service" && hasToken;
-  /** A Bluesky login writes to the reader's own PDS, whatever the source. */
+  /** A Bluesky sign-in writes to the reader's own PDS, whatever the source. */
   const interactive = native !== null || canWriteAsGuest;
   /** Only the service knows the guest likes, so only it may show or rank by them. */
   const showLikes = data?.source === "service";
