@@ -70,6 +70,7 @@ import SaveHandlePrompt from "./bluesky/SaveHandlePrompt";
 import BlueskyLoginSection from "./bluesky/BlueskyLoginSection";
 import SortToggle from "./bluesky/SortToggle";
 import VisSignInBox from "./bluesky/VisSignInBox";
+import ExperimentalBadge from "./ExperimentalBadge";
 import { fetchAppViewThread } from "./bluesky/direct";
 import { formatOpensAt, likeCountOf } from "./bluesky/format";
 import { NATIVE_TEXT_LIMIT } from "./bluesky/native";
@@ -1017,7 +1018,9 @@ export default function BlueskyDiscussion({
   if (thread?.state === "unavailable") {
     return (
       <section ref={sectionRef} style={sectionStyle}>
-        <h2 style={{ marginBottom: "0.5rem" }}>Discussion</h2>
+        <div style={headingRowStyle}>
+          <DiscussionHeading />
+        </div>
         <p style={{ color: "var(--color-gray-600)", margin: 0 }}>
           There is no discussion for this paper yet.
         </p>
@@ -1040,7 +1043,9 @@ export default function BlueskyDiscussion({
     const opensAt = formatOpensAt(thread.opensAt);
     return (
       <section ref={sectionRef} style={sectionStyle} aria-live="polite">
-        <h2 style={{ marginBottom: "0.5rem" }}>Discussion</h2>
+        <div style={headingRowStyle}>
+          <DiscussionHeading />
+        </div>
         <p style={{ color: "var(--color-gray-600)", margin: 0 }}>
           {opensAt
             ? `The discussion opens shortly before the session, on ${opensAt}.`
@@ -1222,7 +1227,7 @@ export default function BlueskyDiscussion({
       </style>
 
       <div style={headingRowStyle}>
-        <h2 style={{ margin: 0 }}>Discussion</h2>
+        <DiscussionHeading />
         {root?.bskyUrl && (
           <a
             className="bsky-view-link"
@@ -1267,6 +1272,7 @@ export default function BlueskyDiscussion({
           headingLevel="h3"
           linkedHandle={linkedHandle}
           onSignIn={signInWithBluesky}
+          showExperimentalBadge={false}
         />
         {offerVisSignIn && (
           <VisSignInBox
@@ -1414,6 +1420,16 @@ export default function BlueskyDiscussion({
 const standaloneSectionStyle: CSSProperties = {
   marginTop: "2.5rem",
 };
+
+/** The section heading, with the badge for the whole discussion. */
+function DiscussionHeading() {
+  return (
+    <div className="flex items-center gap-3">
+      <h2 style={{ margin: 0 }}>Discussion</h2>
+      <ExperimentalBadge />
+    </div>
+  );
+}
 
 const headingRowStyle: CSSProperties = {
   display: "flex",
