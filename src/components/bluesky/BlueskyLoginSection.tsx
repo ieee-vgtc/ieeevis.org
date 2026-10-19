@@ -21,7 +21,7 @@ import {
 } from "./styles";
 import type { BlueskyLoginState } from "./useBlueskySession";
 import { normalizeBskyHandle } from "../../utils/bskyHandle";
-import ExperimentalBadge from "../ExperimentalBadge";
+import { ExperimentalHeading } from "../ExperimentalBadge";
 
 interface BlueskyLoginSectionProps {
   bluesky: BlueskyLoginState;
@@ -60,12 +60,11 @@ export default function BlueskyLoginSection({
 
   return (
     <section aria-labelledby={headingId} style={boxed ? boxStyle : undefined}>
-      <div className="flex flex-wrap items-baseline gap-x-3">
+      <ExperimentalHeading>
         <Heading id={headingId} className="font-bold">
           Bluesky login
         </Heading>
-        <ExperimentalBadge />
-      </div>
+      </ExperimentalHeading>
       {loggedInHandle ? (
         <>
           <p
