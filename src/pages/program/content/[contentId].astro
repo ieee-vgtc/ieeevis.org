@@ -535,7 +535,6 @@ const DISCUSSION_SECTION_ID = "discussion"
          conference network. Sortable by upvotes or recency. -->
 
     <div id={DISCUSSION_SECTION_ID} class="paper-section paper-links mb-6">
-          <h2>Discussion</h2>
           <!-- <BlueskyDiscussion showPost={false} paperId="test-bsky-9999" client:load /> -->
           <BlueskyDiscussion
             showPost={false}
@@ -681,7 +680,7 @@ const DISCUSSION_SECTION_ID = "discussion"
     margin-right: auto;
   }
 
-  .paper-section h2 {
+  .paper-section :global(h2) {
     color: var(--color-primary-800);
     font-size: 1.15rem;
     letter-spacing: 0.02em;

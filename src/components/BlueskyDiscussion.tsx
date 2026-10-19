@@ -388,6 +388,9 @@ export default function BlueskyDiscussion({
   defaultSort = "top",
   authorHandles = [],
 }: BlueskyDiscussionProps) {
+  // Without the post, the discussion sits inside the paper page's own card,
+  // which already spaces it.
+  const sectionStyle = showPost ? standaloneSectionStyle : undefined;
   const [sort, setSort] = useState<ReplySort>(defaultSort);
   const [anonymous, setAnonymous] = useState(false);
   const [actionError, setActionError] = useState<string | null>(null);
@@ -1006,9 +1009,12 @@ export default function BlueskyDiscussion({
   // program).
   if (thread?.state === "unavailable") {
     return (
-      <p style={{ color: "var(--color-gray-600)", margin: 0 }}>
-        There is no discussion for this paper yet.
-      </p>
+      <section ref={sectionRef} style={sectionStyle}>
+        <h2 style={{ marginBottom: "0.5rem" }}>Discussion</h2>
+        <p style={{ color: "var(--color-gray-600)", margin: 0 }}>
+          There is no discussion for this paper yet.
+        </p>
+      </section>
     );
   }
 
@@ -1200,8 +1206,9 @@ export default function BlueskyDiscussion({
           ".bsky-view-link:hover{text-decoration:underline}"}
       </style>
 
-      {root?.bskyUrl && (
-        <div style={blueskyLinkRowStyle}>
+      <div style={headingRowStyle}>
+        <h2 style={{ margin: 0 }}>Discussion</h2>
+        {root?.bskyUrl && (
           <a
             className="bsky-view-link"
             href={root.bskyUrl}
@@ -1217,10 +1224,8 @@ export default function BlueskyDiscussion({
             />
             View on Bluesky
           </a>
-        </div>
-      )}
-
-      {showPost && <h2 style={{ margin: "0 0 0.5rem" }}>Discussion</h2>}
+        )}
+      </div>
 
       {root && (
         <div style={announcementCardStyle}>
@@ -1380,13 +1385,16 @@ export default function BlueskyDiscussion({
   );
 }
 
-const sectionStyle: CSSProperties = {
+const standaloneSectionStyle: CSSProperties = {
   marginTop: "2.5rem",
 };
 
-const blueskyLinkRowStyle: CSSProperties = {
+const headingRowStyle: CSSProperties = {
   display: "flex",
-  justifyContent: "flex-end",
+  flexWrap: "wrap",
+  alignItems: "baseline",
+  justifyContent: "space-between",
+  gap: "0.25rem 1rem",
   marginBottom: "0.75rem",
 };
 
