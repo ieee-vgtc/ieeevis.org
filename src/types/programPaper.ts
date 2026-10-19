@@ -22,6 +22,8 @@ export type ProgramPaperCard = {
   supplementalUrl: string | null;
   sessionUrl: string | null;
   award: string | null;
+  /** The paper has an accessible PDF. */
+  hasAccessiblePdf?: boolean;
   // Journal-first TVCG paper presented at the conference.
   isTvcg?: boolean;
   /** The awards plenary session, shown under the Awards filter. */

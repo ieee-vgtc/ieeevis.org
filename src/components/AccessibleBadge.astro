@@ -1,0 +1,67 @@
+---
+type Props = {
+  compact?: boolean;
+};
+
+const { compact = false } = Astro.props as Props;
+---
+
+<span
+  class:list={[
+    "accessible-badge",
+    "not-prose",
+    { "accessible-badge--compact": compact },
+  ]}
+>
+  <i class="material-icons accessible-badge__icon" aria-hidden="true">
+    accessibility_new
+  </i>
+  <span>Accessible PDF</span>
+</span>
+
+<style>
+  .accessible-badge {
+    --a11y-border: #7aa7d9;
+    --a11y-background: #e3effb;
+    --a11y-text: #0f3e72;
+    --a11y-icon: #2f6fb5;
+
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    width: fit-content;
+    padding: 0.25rem 0.7rem 0.25rem 0.3rem;
+    border: 1px solid var(--a11y-border);
+    border-radius: 999px;
+    background: var(--a11y-background);
+    color: var(--a11y-text);
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    line-height: 1.2;
+    white-space: nowrap;
+  }
+
+  .accessible-badge--compact {
+    gap: 0.25rem;
+    padding: 0.15rem 0.5rem 0.15rem 0.2rem;
+    font-size: 0.72rem;
+  }
+
+  .accessible-badge--compact .accessible-badge__icon {
+    width: 1.1rem;
+    height: 1.1rem;
+    font-size: 0.72rem;
+  }
+
+  .accessible-badge__icon {
+    display: grid;
+    width: 1.4rem;
+    height: 1.4rem;
+    place-items: center;
+    border-radius: 50%;
+    background: var(--a11y-icon);
+    color: #fff;
+    font-size: 0.9rem;
+  }
+</style>
