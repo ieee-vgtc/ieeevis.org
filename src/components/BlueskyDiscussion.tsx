@@ -996,7 +996,8 @@ export default function BlueskyDiscussion({
   if (thread?.state === "unavailable") {
     return (
       <p style={{ color: "var(--color-gray-600)", margin: 0 }}>
-        There is no discussion for this paper yet.
+        There is no discussion for this paper yet. It will be added closer to
+        the session time.
       </p>
     );
   }
