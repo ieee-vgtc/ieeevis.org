@@ -89,7 +89,7 @@ const typeOptions = Object.keys(typeCounts)
       ? [
           {
             value: "awards",
-            label: "Awarded Papers",
+            label: "Awards",
             count: awardCount,
             color: "#B7791F",
           },
@@ -320,8 +320,7 @@ const typeOptions = Object.keys(typeCounts)
               paper.eyebrow ||
               (paper.isTvcg
                 ? "TVCG Paper"
-                : paperTypeToNameMap[normalizedType] ||
-                  paper.presentationLabel)
+                : paperTypeToNameMap[normalizedType] || paper.presentationLabel)
             }
             award={paper.award}
             peopleLabel={paper.titleHref ? "Speakers" : "Authors"}
@@ -433,7 +432,6 @@ const typeOptions = Object.keys(typeCounts)
     };
 
     const bookmarks = new Set(getStoredBookmarks());
-
 
     const getChoiceValue = (
       container: HTMLElement | null,
