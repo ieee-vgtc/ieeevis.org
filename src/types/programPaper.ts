@@ -32,9 +32,9 @@ export type ProgramPaperCard = {
   titleHref?: string;
 };
 
-/** A session someone chairs, or an event someone organizes. */
+/** A session someone chairs or speaks on as a panelist, or an event someone organizes. */
 export type ProgramSessionRole = {
-  role: "Chair" | "Organizer";
+  role: "Chair" | "Organizer" | "Panelist";
   /** e.g. "Session Chair", "Workshop Organizer". */
   roleLabel: string;
   people: string[];

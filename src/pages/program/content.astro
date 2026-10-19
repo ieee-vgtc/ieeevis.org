@@ -360,31 +360,52 @@ const organizerRoleLabels: Record<string, string> = {
 const sessionRoles: ProgramSessionRole[] = Object.values(sessionList)
   .flatMap((event) =>
     event.sessions.flatMap((session) => {
+      const makeRole = (
+        role: ProgramSessionRole["role"],
+        roleLabel: string,
+        people: string[],
+      ): ProgramSessionRole => ({
+        role,
+        roleLabel,
+        people,
+        sessionTitle: session.title,
+        sessionUrl: withBaseURL(
+          `/program/session/${session.event_prefix}-${session.session_id}`,
+        ),
+        scheduleLabel: session.time_start
+          ? conferenceDateTimeFormatter.format(new Date(session.time_start))
+          : "Time TBA",
+        roomName: session.room_name,
+        startMs: Date.parse(session.time_start),
+      });
+      // Panelists are the presenters on a panel's slots.
+      const panelists = [
+        ...new Set(
+          (session.time_slots as ProgramTimeSlot[])
+            .filter((slot) => slot.paper_type?.toLowerCase() === "panel")
+            .flatMap((slot) => slot.contributors || [])
+            .filter(Boolean),
+        ),
+      ];
+      const panelistRoles =
+        panelists.length > 0
+          ? [makeRole("Panelist", "Panelist", panelists)]
+          : [];
       const eventType = event.event_type.toLowerCase();
       const usesOrganizers =
         organizerEventTypes.includes(eventType) &&
         event.organizers.length > 0;
       const people = usesOrganizers ? event.organizers : session.chair || [];
       if (people.length === 0) {
-        return [];
+        return panelistRoles;
       }
       return [
-        {
-          role: usesOrganizers ? ("Organizer" as const) : ("Chair" as const),
-          roleLabel: usesOrganizers
-            ? organizerRoleLabels[eventType]
-            : "Session Chair",
+        makeRole(
+          usesOrganizers ? "Organizer" : "Chair",
+          usesOrganizers ? organizerRoleLabels[eventType] : "Session Chair",
           people,
-          sessionTitle: session.title,
-          sessionUrl: withBaseURL(
-            `/program/session/${session.event_prefix}-${session.session_id}`,
-          ),
-          scheduleLabel: session.time_start
-            ? conferenceDateTimeFormatter.format(new Date(session.time_start))
-            : "Time TBA",
-          roomName: session.room_name,
-          startMs: Date.parse(session.time_start),
-        },
+        ),
+        ...panelistRoles,
       ];
     }),
   )
