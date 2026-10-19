@@ -108,6 +108,40 @@ export function likeCountOf(post: ShapedPost | RootPost): number {
   return post.totalLikeCount ?? post.likeCount ?? 0;
 }
 
+/**
+ * The host of a URL, without "www.". Null for a URL with a user name
+ * ("ieeevis.org@evil.example" goes to evil.example) or one that does not parse.
+ */
+function hostOf(url: string): string | null {
+  try {
+    const parsed = new URL(url);
+    return parsed.username || parsed.password
+      ? null
+      : parsed.hostname.replace(/^www\./, "");
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Whether a link's visible text names the host the link really goes to. The
+ * Bluesky API lets an author put any URL behind any text, so a link reading
+ * "ieeevis.org/…" can lead to another site. Text that is not a URL at all
+ * ("click here") fails too: the reader cannot see where it goes.
+ */
+export function showsItsTarget(label: string, uri: string): boolean {
+  const shown = label.trim();
+  if (!shown || /\s/.test(shown)) {
+    return false;
+  }
+  const shownHost = hostOf(
+    /^https?:\/\//i.test(shown) ? shown : `https://${shown}`,
+  );
+  return (
+    shownHost !== null && shownHost.includes(".") && shownHost === hostOf(uri)
+  );
+}
+
 export interface TextSegment {
   text: string;
   uri?: string;
@@ -117,7 +151,8 @@ export interface TextSegment {
  * Splits the tail of `text` that starts at character `from` into plain and
  * linked runs. Link offsets count UTF-8 bytes from the start of `text`, so they
  * stay valid when a guest comment's byline is cut off the front. Overlapping
- * or out-of-range links are skipped.
+ * or out-of-range links, and links whose text hides their target (see
+ * `showsItsTarget`), stay plain text.
  */
 export function linkSegments(
   text: string,
@@ -140,9 +175,10 @@ export function linkSegments(
         text: decoder.decode(bytes.slice(cursor, link.byteStart)),
       });
     }
+    const label = decoder.decode(bytes.slice(link.byteStart, link.byteEnd));
     segments.push({
-      text: decoder.decode(bytes.slice(link.byteStart, link.byteEnd)),
-      uri: link.uri,
+      text: label,
+      uri: showsItsTarget(label, link.uri) ? link.uri : undefined,
     });
     cursor = link.byteEnd;
   }

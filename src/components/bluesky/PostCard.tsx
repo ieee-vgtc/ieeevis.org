@@ -422,9 +422,10 @@ export default function PostCard({
             <a
               href={segment.uri}
               key={i}
-              rel="noopener noreferrer"
+              rel="noopener noreferrer nofollow ugc"
               style={{ color: "var(--color-accent)" }}
               target="_blank"
+              title={segment.uri}
             >
               {segment.text}
             </a>
