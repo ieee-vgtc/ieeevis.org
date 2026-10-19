@@ -671,6 +671,31 @@ const typeOptions = Object.keys(typeCounts)
           Number(a.hasAttribute("data-session-role"));
         if (roleDelta !== 0) return roleDelta;
 
+        // On the awards view, list best awards, then honorable mentions,
+        // then everything else (e.g. the awards session itself).
+        if (typeFilter === "awards") {
+          const awardRank = (card: HTMLElement) => {
+            const award = card.dataset.award || "";
+            if (!award) return 2;
+            return award.includes("honorable") ? 1 : 0;
+          };
+          const rankDelta = awardRank(a) - awardRank(b);
+          if (rankDelta !== 0) return rankDelta;
+
+          // Group by type within each tier: full, then short, then the rest.
+          const typeOrder = ["full", "short"];
+          const typeRank = (card: HTMLElement) => {
+            const index = typeOrder.indexOf(card.dataset.type || "");
+            return index === -1 ? typeOrder.length : index;
+          };
+          const typeDelta = typeRank(a) - typeRank(b);
+          if (typeDelta !== 0) return typeDelta;
+          const typeNameDelta = (a.dataset.type || "").localeCompare(
+            b.dataset.type || "",
+          );
+          if (typeNameDelta !== 0) return typeNameDelta;
+        }
+
         const aId = a.getAttribute("data-paper-id") || "";
         const bId = b.getAttribute("data-paper-id") || "";
 
