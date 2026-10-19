@@ -48,7 +48,7 @@ export default function BlueskyLoginSection({
   onSignIn,
   onSaveHandle,
   saveDisabled = false,
-  headingLevel: Heading = "h2",
+  headingLevel = "h2",
   boxed = true,
   children,
 }: BlueskyLoginSectionProps) {
@@ -60,10 +60,8 @@ export default function BlueskyLoginSection({
 
   return (
     <section aria-labelledby={headingId} style={boxed ? boxStyle : undefined}>
-      <ExperimentalHeading>
-        <Heading id={headingId} className="font-bold">
-          Bluesky login
-        </Heading>
+      <ExperimentalHeading as={headingLevel} id={headingId}>
+        Bluesky login
       </ExperimentalHeading>
       {loggedInHandle ? (
         <>
@@ -99,11 +97,9 @@ export default function BlueskyLoginSection({
         </>
       ) : bluesky.session.status === "none" ? (
         <>
-          <p className="mb-0 font-bold">
-            {linkedHandle
-              ? `You have a Bluesky account, @${linkedHandle}.`
-              : "Do you have a Bluesky account?"}
-          </p>
+          {!linkedHandle && (
+            <p className="mb-0 font-bold">Do you have a Bluesky account?</p>
+          )}
           <p style={hintTextStyle}>
             Log in to comment and like from your own account instead of as a VIS
             attendee.

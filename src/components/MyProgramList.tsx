@@ -367,10 +367,8 @@ export default function MyProgramList({ times }: { times?: TimeIndex }) {
 
   return (
     <section aria-labelledby="my-program-heading">
-      <ExperimentalHeading>
-        <h2 id="my-program-heading" className="font-bold">
-          Your papers and sessions
-        </h2>
+      <ExperimentalHeading id="my-program-heading">
+        Your papers and sessions
       </ExperimentalHeading>
       <p style={hintTextStyle}>
         Papers and sessions are automatically matched based on the email used to

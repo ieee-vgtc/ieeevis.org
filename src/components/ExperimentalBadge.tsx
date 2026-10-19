@@ -9,15 +9,28 @@ export default function ExperimentalBadge() {
   );
 }
 
+interface ExperimentalHeadingProps {
+  as?: "h2" | "h3";
+  id?: string;
+  children: ReactNode;
+}
+
 /**
- * A section heading with the badge: next to the heading on wide screens, and
- * on its own line below it on narrow ones, where a long heading would push it
- * onto a wrapped line anyway.
+ * A section heading with the badge: centred next to the heading on wide
+ * screens, and on its own line below it on narrow ones, where a long heading
+ * would push it onto a wrapped line anyway.
  */
-export function ExperimentalHeading({ children }: { children: ReactNode }) {
+export function ExperimentalHeading({
+  as: Heading = "h2",
+  id,
+  children,
+}: ExperimentalHeadingProps) {
   return (
-    <div className="mb-3 md:mb-0 md:flex md:flex-wrap md:items-baseline md:gap-x-3">
-      {children}
+    <div className="mb-4 flex flex-col items-start gap-2 md:flex-row md:flex-wrap md:items-center md:gap-x-3">
+      {/* The site's heading margin would throw off the centring; the row spaces it instead. */}
+      <Heading id={id} className="font-bold" style={{ margin: 0 }}>
+        {children}
+      </Heading>
       <ExperimentalBadge />
     </div>
   );
