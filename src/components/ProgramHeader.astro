@@ -56,7 +56,19 @@ const {
 } = Astro.props as Props;
 
 const showProgramViewSwitcher =
-  /\/program\/(?:calendar|sessions|papers)\/?$/.test(Astro.url.pathname);
+  /\/program\/(?:calendar|sessions|content)\/?$/.test(Astro.url.pathname);
+
+// Black or white, whichever has more contrast against the pill color.
+function pillTextColor(hex: string): string {
+  const m = /^#?([0-9a-f]{6})$/i.exec(hex.trim());
+  if (!m) return "#fff";
+  const [r, g, b] = [0, 2, 4].map((i) => {
+    const c = parseInt(m[1].slice(i, i + 2), 16) / 255;
+    return c <= 0.03928 ? c / 12.92 : ((c + 0.055) / 1.055) ** 2.4;
+  });
+  const luminance = 0.2126 * r + 0.7152 * g + 0.0722 * b;
+  return luminance > 0.179 ? "#111" : "#fff";
+}
 ---
 
 <div class="u-toolbar">
@@ -189,7 +201,7 @@ const showProgramViewSwitcher =
         class="u-filter-pill hover-response--tint is-active"
         type="button"
         data-type-filter="all"
-        style="--pill-color: #374151"
+        style="--pill-color: #374151; --pill-text: #fff"
         aria-pressed="true"
       >
         <span>{allLabel}</span>
@@ -203,7 +215,7 @@ const showProgramViewSwitcher =
           class="u-filter-pill hover-response--tint"
           type="button"
           data-type-filter={typeOption.value}
-          style={`--pill-color: ${typeOption.color || "#6b7280"}`}
+          style={`--pill-color: ${typeOption.color || "#6b7280"}; --pill-text: ${pillTextColor(typeOption.color || "#6b7280")}`}
           aria-pressed="false"
         >
           <span>{typeOption.label}</span>

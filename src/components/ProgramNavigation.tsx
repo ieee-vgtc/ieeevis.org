@@ -53,7 +53,7 @@ const ProgramNavigation: React.FC<ProgramNavigationProps> = ({
     },
     {
       label: "Accepted Papers",
-      link: "/program/papers",
+      link: "/program/content",
       enabled: true,
       children: papers,
     },
@@ -174,7 +174,7 @@ const ProgramNavigation: React.FC<ProgramNavigationProps> = ({
                             {item.children.slice(0, 50).map((paper) => (
                               <li key={paper.id}>
                                 <a
-                                  href={`/program/paper/${paper.id}`}
+                                  href={`/program/content/${paper.id}`}
                                   style={{
                                     display: "block",
                                     padding: "0.5rem 1rem",

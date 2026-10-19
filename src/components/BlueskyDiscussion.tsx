@@ -67,6 +67,7 @@ import type {
 } from "./bluesky/PostCard";
 import ReplyList from "./bluesky/ReplyList";
 import SaveHandlePrompt from "./bluesky/SaveHandlePrompt";
+import BlueskyLoginSection from "./bluesky/BlueskyLoginSection";
 import SortToggle from "./bluesky/SortToggle";
 import { fetchAppViewThread } from "./bluesky/direct";
 import { formatOpensAt, likeCountOf } from "./bluesky/format";
@@ -91,12 +92,12 @@ import { useBlueskySession } from "./bluesky/useBlueskySession";
 import { usePolledThread } from "./bluesky/usePolledThread";
 import { normalizeBskyHandle } from "../utils/bskyHandle";
 import { getIdToken } from "../lib/auth0Client";
+import { BSKY_API_BASE } from "../lib/bskyApi";
 
-const DEFAULT_API_BASES = ["https://bsky.tech.ieeevis.org"];
+const DEFAULT_API_BASES = [BSKY_API_BASE];
 const DEFAULT_REFRESH_MS = 5_000;
 const MAX_DEPTH = 5;
 const COMMENT_LIMIT = 250; // graphemes; mirrors CONFERENCE.guestTextLimit
-const TOKEN_REFRESH_SKEW_MS = 60_000;
 
 interface BlueskyDiscussionProps {
   /** `slots.slot_id` (e.g. "v-full-1234") or the paper UUID — the API takes both. */
@@ -123,11 +124,6 @@ interface LoadedThread {
   thread: ThreadResponse;
   /** Bypassed the service's shared cache, which may still disagree. */
   bypassedCache: boolean;
-}
-
-interface GuestToken {
-  token: string;
-  expiresAt: number;
 }
 
 /** A just-posted comment, shown under its parent until the thread carries it. */
@@ -304,67 +300,22 @@ function formatAgo(sinceMs: number): string {
 }
 
 /**
- * Mint a short-lived token from the reader's Auth0 ID token (sent as a bearer
- * credential; see `verifyBearerIdToken` in lib/auth0.ts). A signed-out reader,
- * or a deploy with no server to mint it (the S3 builds), simply gets no
- * token: a 401 means "no guest UI" and is not an error worth showing.
+ * The bearer credential for the service's guest writes: the reader's Auth0 ID
+ * token itself, which bsky-api verifies against Auth0's public keys.
+ * `getIdToken` refreshes it when it is about to expire. A signed-out reader
+ * simply gets no token: that means "no guest UI" and is not an error worth
+ * showing.
  */
 function useGuestToken(enabled: boolean) {
-  const tokenRef = useRef<GuestToken | null>(null);
   const [hasToken, setHasToken] = useState(false);
 
   const getToken = useCallback(async (): Promise<string | null> => {
     if (!enabled) {
       return null;
     }
-
-    const cached = tokenRef.current;
-    if (cached && cached.expiresAt - TOKEN_REFRESH_SKEW_MS > Date.now()) {
-      return cached.token;
-    }
-
-    try {
-      const idToken = await getIdToken();
-      if (!idToken) {
-        tokenRef.current = null;
-        setHasToken(false);
-        return null;
-      }
-
-      const base = import.meta.env.BASE_URL.replace(/\/$/, "");
-      const response = await fetch(`${base}/auth/token`, {
-        headers: {
-          accept: "application/json",
-          authorization: `Bearer ${idToken}`,
-        },
-      });
-      if (!response.ok) {
-        tokenRef.current = null;
-        setHasToken(false);
-        return null;
-      }
-
-      const data = (await response.json()) as {
-        token?: string;
-        expiresAt?: string;
-      };
-      if (!data.token) {
-        setHasToken(false);
-        return null;
-      }
-
-      tokenRef.current = {
-        token: data.token,
-        expiresAt: data.expiresAt
-          ? Date.parse(data.expiresAt)
-          : Date.now() + 600_000,
-      };
-      setHasToken(true);
-      return data.token;
-    } catch {
-      setHasToken(false);
-      return null;
-    }
+    const token = await getIdToken();
+    setHasToken(Boolean(token));
+    return token;
   }, [enabled]);
 
   useEffect(() => {
@@ -480,7 +431,6 @@ export default function BlueskyDiscussion({
   useEffect(() => {
     likedUrisRef.current = likedUris;
   }, [likedUris]);
-  const [refreshing, setRefreshing] = useState(false);
 
   // Also minted for an AppView-only thread: it buys no writes there, but it is
   // what tells us the reader's own Bluesky handle, and so which replies in a
@@ -577,16 +527,6 @@ export default function BlueskyDiscussion({
     const id = setInterval(() => setNow(Date.now()), 1000);
     return () => clearInterval(id);
   }, []);
-
-  const onRefreshClick = useCallback(async () => {
-    markInteraction();
-    setRefreshing(true);
-    try {
-      await refresh({ force: true });
-    } finally {
-      setRefreshing(false);
-    }
-  }, [markInteraction, refresh]);
 
   const thread = data?.thread;
   const root: RootPost | undefined =
@@ -1255,8 +1195,7 @@ export default function BlueskyDiscussion({
       onPointerDown={markInteraction}
     >
       <style>
-        {"@keyframes bsky-spin{to{transform:rotate(360deg)}}" +
-          ".bsky-view-link:hover{text-decoration:underline}"}
+        {".bsky-view-link:hover{text-decoration:underline}"}
       </style>
 
       {root?.bskyUrl && (
@@ -1294,6 +1233,17 @@ export default function BlueskyDiscussion({
           )}
         </div>
       )}
+
+      {/* The same login as on the account page; saving the handle is offered
+          by SaveHandlePrompt below instead, so it is not offered twice. */}
+      <div style={{ margin: "0.75rem 0" }}>
+        <BlueskyLoginSection
+          bluesky={bluesky}
+          headingLevel="h3"
+          linkedHandle={linkedHandle}
+          onSignIn={signInWithBluesky}
+        />
+      </div>
 
       {offerHandleSave && (
         <SaveHandlePrompt
@@ -1381,38 +1331,6 @@ export default function BlueskyDiscussion({
               updated {formatAgo(now - lastUpdatedAt)}
             </span>
           )}
-          <button
-            aria-label="Refresh the discussion"
-            disabled={refreshing}
-            onClick={onRefreshClick}
-            style={{
-              display: "inline-flex",
-              alignItems: "center",
-              gap: "0.35rem",
-              padding: "0.25rem 0.6rem",
-              borderRadius: "0.5rem",
-              border: "1px solid var(--color-gray-300)",
-              backgroundColor: "#fff",
-              color: "inherit",
-              cursor: refreshing ? "default" : "pointer",
-              fontSize: "0.8rem",
-              opacity: refreshing ? 0.6 : 1,
-            }}
-            type="button"
-          >
-            <span
-              aria-hidden="true"
-              style={{
-                display: "inline-block",
-                animation: refreshing
-                  ? "bsky-spin 0.8s linear infinite"
-                  : undefined,
-              }}
-            >
-              ↻
-            </span>
-            {refreshing ? "Refreshing…" : "Refresh"}
-          </button>
         </div>
       </div>
 
