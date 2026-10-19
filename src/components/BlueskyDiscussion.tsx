@@ -26,7 +26,7 @@
  *     straight from the browser to their own PDS and the service is not
  *     involved — which also means this works on a thread read straight from
  *     the AppView, and after guest posting has closed. A Bluesky login takes
- *     precedence over the guest path whenever both are available.
+ *     precedence unless the reader selects "Hide my name" for a comment.
  *
  * Everything else is read-only.
  *
@@ -52,8 +52,8 @@
  * name", which swaps it for their stable pseudonym. Such a post is unnamed
  * rather than untraceable — organizers can still tell who wrote it — so the
  * label says what it does instead of calling the post anonymous, and the hint
- * beside it spells out the difference. A comment from the reader's own Bluesky
- * account is signed by that account, so the option does not apply.
+ * beside it spells out the difference. Selecting it while logged into Bluesky
+ * also sends the comment through the guest service.
  */
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
@@ -488,7 +488,7 @@ export default function BlueskyDiscussion({
   const { hasToken, getToken } = useGuestToken(Boolean(paperId || atUri));
 
   // The reader's own Bluesky account, when they have logged in with it here.
-  // While it is there, every write goes through it rather than the service.
+  // Comments use it unless the reader chooses to hide their name.
   const bluesky = useBlueskySession();
   const native =
     bluesky.session.status === "signed-in" ? bluesky.session.writer : null;
@@ -743,7 +743,8 @@ export default function BlueskyDiscussion({
     }
   }, [data, native, syncMyLikes, syncNativeLikes]);
 
-  const commentLimit = native ? NATIVE_TEXT_LIMIT : COMMENT_LIMIT;
+  const postAsNative = native !== null && !anonymous;
+  const commentLimit = postAsNative ? NATIVE_TEXT_LIMIT : COMMENT_LIMIT;
 
   /** Post from the reader's own Bluesky account, under the announcement or a reply. */
   const submitNativeComment = useCallback(
@@ -881,13 +882,21 @@ export default function BlueskyDiscussion({
   const submitComment = useCallback(
     async (text: string, parent: ShapedPost | null, onPosted: () => void) => {
       setActionError(null);
-      if (native) {
+      if (postAsNative) {
         await submitNativeComment(text, parent, onPosted);
-      } else if (paperId) {
+      } else if (paperId && canWriteAsGuest) {
         await submitGuestComment(paperId, text, parent, onPosted);
+      } else {
+        throw new Error("Guest posting is unavailable for this discussion.");
       }
     },
-    [native, paperId, submitGuestComment, submitNativeComment],
+    [
+      postAsNative,
+      paperId,
+      canWriteAsGuest,
+      submitGuestComment,
+      submitNativeComment,
+    ],
   );
 
   const toggleLike = useCallback(
@@ -1124,6 +1133,7 @@ export default function BlueskyDiscussion({
     realNameByline: identity?.name || identity?.pseudonym || null,
     pseudonymByline: identity?.pseudonym || null,
     anonymous,
+    canHideName: canWriteAsGuest || anonymous,
     onAnonymousChange: setAnonymous,
     onActivity: markInteraction,
   };
@@ -1155,7 +1165,7 @@ export default function BlueskyDiscussion({
   const replyContext: PostReplyContext | undefined = interactive
     ? {
         canReplyTo: (post) =>
-          shownUris.has(post.uri) && (native === null || Boolean(post.cid)),
+          shownUris.has(post.uri) && (!postAsNative || Boolean(post.cid)),
         openUri: openReplyUri,
         posting: postingReplyUri !== null,
         buttonId: replyButtonId,

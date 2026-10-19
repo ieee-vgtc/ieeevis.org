@@ -1,6 +1,6 @@
 /**
  * The comment box: a textarea, a submit button that names who the comment is
- * credited to, the "Hide my name" option for guest comments, and a counter.
+ * credited to, the "Hide my name" option, and a counter.
  *
  * The discussion shows one under the announcement and one inline under a reply
  * the reader answers. Each keeps its own draft; the "Hide my name" choice is
@@ -68,6 +68,7 @@ interface CommentComposerProps {
   realNameByline: string | null;
   pseudonymByline: string | null;
   anonymous: boolean;
+  canHideName: boolean;
   onAnonymousChange: (anonymous: boolean) => void;
   onActivity: () => void;
   /**
@@ -89,6 +90,7 @@ export default function CommentComposer({
   realNameByline,
   pseudonymByline,
   anonymous,
+  canHideName,
   onAnonymousChange,
   onActivity,
   onSubmit,
@@ -186,8 +188,7 @@ export default function CommentComposer({
           {/* Both bylines occupy one grid cell so the button reserves the
               wider width and does not resize (shoving the checkbox) when
               "Hide my name" flips which one shows; "Posting…" overlays while
-              submitting. Only the active label is visible/announced. A
-              Bluesky login has one byline: the account. */}
+              submitting. Only the active label is visible/announced. */}
           <span style={{ display: "grid" }}>
             <span
               style={{
@@ -199,7 +200,7 @@ export default function CommentComposer({
                 ? `${verb} as @${truncateByline(nativeHandle)}`
                 : bylineLabel(realNameByline)}
             </span>
-            {!nativeHandle && (
+            {canHideName && (
               <span
                 style={{
                   gridArea: "1 / 1",
@@ -224,11 +225,7 @@ export default function CommentComposer({
           </button>
         )}
 
-        {/* A comment from the reader's own Bluesky account is signed by
-            that account, so there is no name to hide. */}
-        {nativeHandle ? (
-          <small style={hintTextStyle}>Posted from your Bluesky account.</small>
-        ) : (
+        {canHideName && (
           <div
             style={{
               display: "flex",
@@ -298,6 +295,14 @@ export default function CommentComposer({
               </small>
             )}
           </div>
+        )}
+
+        {nativeHandle && (
+          <small style={hintTextStyle}>
+            {anonymous
+              ? "Posted through the guest posting service."
+              : "Posted from your Bluesky account."}
+          </small>
         )}
 
         <small
