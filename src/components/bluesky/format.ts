@@ -1,7 +1,7 @@
 /** Presentation helpers for the shaped thread: dates, bsky.app links, and who
  *  to credit for a post. */
 
-import type { RootPost, ShapedAuthor, ShapedPost } from "./types";
+import type { PostLink, RootPost, ShapedAuthor, ShapedPost } from "./types";
 
 export function formatRelativeTime(dateString?: string | null): string {
   if (!dateString) {
@@ -106,4 +106,49 @@ export function displayPost(post: ShapedPost): { name: string; body: string } {
 /** Every post carries the merged total; fall back to its own count defensively. */
 export function likeCountOf(post: ShapedPost | RootPost): number {
   return post.totalLikeCount ?? post.likeCount ?? 0;
+}
+
+export interface TextSegment {
+  text: string;
+  uri?: string;
+}
+
+/**
+ * Splits the tail of `text` that starts at character `from` into plain and
+ * linked runs. Link offsets count UTF-8 bytes from the start of `text`, so they
+ * stay valid when a guest comment's byline is cut off the front. Overlapping
+ * or out-of-range links are skipped.
+ */
+export function linkSegments(
+  text: string,
+  links: readonly PostLink[],
+  from = 0,
+): TextSegment[] {
+  const encoder = new TextEncoder();
+  const decoder = new TextDecoder();
+  const bytes = encoder.encode(text);
+  const fromByte = encoder.encode(text.slice(0, from)).length;
+  const segments: TextSegment[] = [];
+  let cursor = fromByte;
+
+  for (const link of [...links].sort((a, b) => a.byteStart - b.byteStart)) {
+    if (link.byteStart < cursor || link.byteEnd > bytes.length) {
+      continue;
+    }
+    if (link.byteStart > cursor) {
+      segments.push({
+        text: decoder.decode(bytes.slice(cursor, link.byteStart)),
+      });
+    }
+    segments.push({
+      text: decoder.decode(bytes.slice(link.byteStart, link.byteEnd)),
+      uri: link.uri,
+    });
+    cursor = link.byteEnd;
+  }
+
+  if (cursor < bytes.length) {
+    segments.push({ text: decoder.decode(bytes.slice(cursor)) });
+  }
+  return segments;
 }
