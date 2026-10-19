@@ -1,5 +1,6 @@
 ---
 import AwardBadge from "./AwardBadge.astro";
+import AccessibleBadge from "./AccessibleBadge.astro";
 import { withBaseURL } from "../utils/withBaseURL";
 
 type Props = {
@@ -8,6 +9,7 @@ type Props = {
   eyebrow?: string;
   subtitle?: string;
   award?: string | null;
+  accessible?: boolean;
   peopleLabel?: string;
   people?: { name: string; href?: string }[];
   notes?: string[];
@@ -32,6 +34,7 @@ const {
   eyebrow,
   subtitle,
   award,
+  accessible = false,
   peopleLabel,
   people = [],
   notes = [],
@@ -100,6 +103,14 @@ const style = [
       award && (
         <div class="program-card__award">
           <AwardBadge award={award} compact />
+        </div>
+      )
+    }
+
+    {
+      accessible && (
+        <div class="program-card__award">
+          <AccessibleBadge compact />
         </div>
       )
     }

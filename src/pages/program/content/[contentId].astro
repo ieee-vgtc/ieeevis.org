@@ -3,6 +3,7 @@ import BlueskyProfileLink from "../../../components/BlueskyProfileLink.astro";
 import PageLayout from "../../../layouts/PageLayout.astro";
 import AuthGate from "../../../components/AuthGate.astro";
 import AwardBadge from "../../../components/AwardBadge.astro";
+import AccessibleBadge from "../../../components/AccessibleBadge.astro";
 import NewTabIndicator from "../../../components/NewTabIndicator.astro";
 import BlueskyDiscussion from "../../../components/BlueskyDiscussion";
 import { fetchAllPapers, fetchAllPosters } from "../../../utils/paperData";
@@ -310,6 +311,7 @@ const DISCUSSION_SECTION_ID = "discussion"
         <div class="paper-hero__eyebrow">
           <span class="paper-kicker">{eventLabel}</span>
           {paper.award && <AwardBadge award={paper.award} />}
+          {paper.accessible_pdf === "Accessible" && <AccessibleBadge />}
         </div>
         <h1>{paper.title}</h1>
         <div class="paper-hero__meta" aria-label="Paper metadata">
