@@ -55,12 +55,13 @@ const views = [
     justify-content: center;
     min-width: 7rem;
     text-align: center;
+    font-weight: 400;
   }
 
   /* Child selector outranks the global `.content a` link rules. */
   .program-view-switcher__options > a.program-view-switcher__option {
     border-bottom: 1px solid var(--color-gray-400);
-    color: var(--color-gray-700);
+    color: black;
     text-decoration: none;
   }
 
@@ -72,6 +73,7 @@ const views = [
   .program-view-switcher__options > a.program-view-switcher__option.is-active {
     border-bottom-color: var(--color-accent);
     color: white;
+    font-weight: 500;
   }
 
   /* Match the calendar's own mobile/list breakpoint so the available views
