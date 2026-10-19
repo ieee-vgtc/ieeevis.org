@@ -59,8 +59,8 @@ export interface PostLikeContext {
  *
  *  - `ownUris` — their own guest comments still in the thread; the service
  *    deletes those from the shared discuss account.
- *  - `postedAt` — when the reader posted each comment, for the few seconds the
- *    shared thread cache may still serve a copy without it.
+ *  - `postedAt` — when the reader posted each comment that the shared thread
+ *    cache does not carry yet. A reload before then can still miss it.
  *  - `did` — the account the reader is logged in to Bluesky as, or null. Its
  *    posts are theirs beyond doubt, and that account deletes them itself.
  *  - `canRemove` — whether removing works at all here. A thread read straight
@@ -322,8 +322,12 @@ function RemoveControl({
   );
 }
 
-/** How long the shared thread cache can take to carry a new comment. */
-export const CACHE_SETTLE_MS = 5_000;
+/**
+ * How long the shared thread cache can take to carry a new comment: up to 30s
+ * in Bluesky's AppView CDN, which the service reads from, then up to 5s in our
+ * nginx cache. The bar stays, full, until a cached poll has the comment.
+ */
+const CACHE_SETTLE_MS = 35_000;
 
 const settleTrackStyle: CSSProperties = {
   height: "3px",
@@ -342,7 +346,7 @@ const settleFillStyle: CSSProperties = {
 
 /**
  * A thin bar that fills while the shared cache catches up with a just-posted
- * comment. A reload before it is full can still show the thread without it.
+ * comment. A reload while it shows can still show the thread without it.
  */
 function CacheSettleBar({ postedAt }: { postedAt: number }) {
   const fillRef = useRef<HTMLDivElement>(null);
@@ -415,7 +419,12 @@ export default function PostCard({
     reposts > 0;
 
   return (
-    <article style={{ padding: isRoot ? "0.9rem 0" : "0.6rem 0" }}>
+    <article
+      data-post-uri={post.uri}
+      // A just-posted comment is where focus goes after the reader posts it.
+      tabIndex={postedAt !== undefined ? -1 : undefined}
+      style={{ padding: isRoot ? "0.9rem 0" : "0.6rem 0" }}
+    >
       <header style={{ display: "flex", alignItems: "center", gap: "0.6rem" }}>
         <Avatar size={isRoot ? 40 : 36} src={post.author?.avatar ?? null} />
         <div style={{ lineHeight: 1.2 }}>
