@@ -2,6 +2,16 @@
 import ProgramHeader from "./ProgramHeader.astro";
 import ProgramCard from "./ProgramCard.astro";
 import { getProgramEventTypeLabel } from "../utils/programEventTypeLabel";
+
+// Individual contributions are labeled differently from the sessions that hold them.
+const contributionLabels: Record<string, string> = {
+  associated: "Associated Event Papers",
+  challenge: "Challenge Contributions",
+  workshop: "Workshop Papers",
+};
+const getContributionLabel = (eventType: string) =>
+  contributionLabels[eventType.toLowerCase()] ??
+  getProgramEventTypeLabel(eventType);
 import type { ProgramPapersBrowserProps } from "../types/programPaper";
 import { typeColors, typeTextColors } from "../utils/week-of-utils";
 
@@ -11,6 +21,8 @@ const paperTypeToNameMap: Record<string, string> = {
   "cg&a": "CG&A Paper",
   poster: "Poster",
   demo: "Demo",
+  associated: "Associated Event Paper",
+  challenge: "Challenge Contribution",
   "computer graphics & applications": "CG&A Paper",
 };
 
@@ -27,7 +39,7 @@ const {
 
 const bookmarkKey = `${storageKeyPrefix}-bookmarks`;
 const lowerItemType = itemType.toLowerCase();
-const collectionPath = `/program/${lowerItemType}s/`;
+const collectionPath = "/program/content/";
 
 const typeCounts = papers.reduce<Record<string, number>>((acc, paper) => {
   const type = getPaperType(paper);
@@ -56,7 +68,7 @@ const typeOptions = Object.keys(typeCounts)
   .sort((a, b) => a.localeCompare(b))
   .map((value) => ({
     value,
-    label: getProgramEventTypeLabel(value),
+    label: getContributionLabel(value),
     count: typeCounts[value],
     color: typeColors[value] || "#6b7280",
   }))
@@ -77,7 +89,7 @@ const typeOptions = Object.keys(typeCounts)
       ? [
           {
             value: "awards",
-            label: "Awards",
+            label: "Awarded Papers",
             count: awardCount,
             color: "#B7791F",
           },
@@ -104,8 +116,8 @@ const typeOptions = Object.keys(typeCounts)
   data-bookmark-key={bookmarkKey}
 >
   <ProgramHeader
-    title={`Papers`}
-    subtitleBefore={`Browse accepted ${lowerItemType}s by title, author, keyword, and session information.`}
+    title="Presented Research"
+    subtitleBefore={`Browse accepted ${lowerItemType}s and posters by title, author, keyword, and session information.`}
     subtitleAfter={""}
     groupingNote="Note: bookmarks are stored locally in your browser and are not shared across devices."
     typeOptions={typeOptions}
@@ -303,7 +315,7 @@ const typeOptions = Object.keys(typeCounts)
             accentColor={typeColors[colorType] || "#f3f4f6"}
             titleColor={typeTextColors[colorType] || "#111827"}
             title={paper.title}
-            titleHref={paper.titleHref || `/program/${itemType}/${paper.id}`}
+            titleHref={paper.titleHref || `/program/content/${paper.id}`}
             eyebrow={
               paper.eyebrow ||
               (paper.isTvcg

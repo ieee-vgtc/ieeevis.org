@@ -332,11 +332,11 @@ menu:
                     is_new: false
                   - text: "Accepted Papers"
                     description: "An overview of all accepted papers"
-                    url: "/program/papers"
+                    url: "/program/content"
                     is_new: false
                   - text: "Paper Awards"
                     description: "Recognizing outstanding work"
-                    url: "/program/papers/?type=awards"
+                    url: "/program/content/?type=awards"
                     is_new: true
               - links:
                   - text: "Panels"
@@ -364,10 +364,10 @@ menu:
                   #   description: "Detailed schedule of the conference"
                   #   url: "/program/calendar"
                   #   is_new: true
-                  # - text: "Posters"
-                  #   description: "Nascent and recent work"
-                  #   url: "/info/program/posters"
-                  #   is_new: false
+                  - text: "Posters"
+                    description: "Nascent and recent work"
+                    url: "/program/content/?type=poster"
+                    is_new: false
 
                   # - text: "Meetups"
                   #   description: "Meet for discussions and shared experiences"

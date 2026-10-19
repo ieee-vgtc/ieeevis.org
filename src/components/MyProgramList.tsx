@@ -214,7 +214,7 @@ function PaperList({
       {byStart(papers, (paper) => paperTime(paper, times)?.start).map(
         (paper) => (
           <li key={paper.id}>
-            <a href={`${siteBase()}/program/paper/${paper.id}`}>
+            <a href={`${siteBase()}/program/content/${paper.id}`}>
               {paper.title}
             </a>
             <WhenAndWhere
