@@ -59,7 +59,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { CSSProperties } from "react";
 import CommentComposer from "./bluesky/CommentComposer";
-import PostCard from "./bluesky/PostCard";
+import PostCard, { CACHE_SETTLE_MS } from "./bluesky/PostCard";
 import type {
   PostLikeContext,
   PostOwnContext,
@@ -392,6 +392,21 @@ export default function BlueskyDiscussion({
   const [anonymous, setAnonymous] = useState(false);
   const [actionError, setActionError] = useState<string | null>(null);
   const [pendingReplies, setPendingReplies] = useState<PendingReply[]>([]);
+  // When the reader posted each comment, until the shared cache has caught up.
+  // A reload before then can still miss the comment, so the card says so.
+  const [postedAt, setPostedAt] = useState<Map<string, number>>(
+    () => new Map(),
+  );
+  const markJustPosted = useCallback((uri: string) => {
+    setPostedAt((current) => new Map(current).set(uri, Date.now()));
+    window.setTimeout(() => {
+      setPostedAt((current) => {
+        const next = new Map(current);
+        next.delete(uri);
+        return next;
+      });
+    }, CACHE_SETTLE_MS);
+  }, []);
   const [openReplyUri, setOpenReplyUri] = useState<string | null>(null);
   const [postingReplyUri, setPostingReplyUri] = useState<string | null>(null);
   // Focus moves once the closed composer is gone and the button is enabled.
@@ -712,6 +727,7 @@ export default function BlueskyDiscussion({
         parentRef = { uri: parent.uri, cid: parent.cid };
       }
       const created = await native.reply(announcement, parentRef, text);
+      markJustPosted(created.uri);
 
       // Show it immediately, signed by the account; the next refetch replaces
       // it with the real post once the AppView has indexed it.
@@ -744,7 +760,7 @@ export default function BlueskyDiscussion({
       onPosted();
       await refresh({ force: true, uncached: true });
     },
-    [native, refresh, root],
+    [markJustPosted, native, refresh, root],
   );
 
   /** Post through the service, credited to the attendee in the text. */
@@ -797,6 +813,8 @@ export default function BlueskyDiscussion({
         uri?: string;
         author?: string;
       };
+      const uri = created.uri || `pending-${Date.now()}`;
+      markJustPosted(uri);
 
       // Show it immediately; the next refetch replaces it with the real post.
       // The service credits the post by prefixing its text, which the local
@@ -807,7 +825,7 @@ export default function BlueskyDiscussion({
         {
           parentUri: parent?.uri ?? null,
           post: {
-            uri: created.uri || `pending-${Date.now()}`,
+            uri,
             author: { displayName: null, avatar: null },
             text,
             createdAt: new Date().toISOString(),
@@ -826,7 +844,15 @@ export default function BlueskyDiscussion({
       await refresh({ force: true, uncached: true });
       await syncMyComments();
     },
-    [anonymous, attribution, client, getToken, refresh, syncMyComments],
+    [
+      anonymous,
+      attribution,
+      client,
+      getToken,
+      markJustPosted,
+      refresh,
+      syncMyComments,
+    ],
   );
 
   const submitComment = useCallback(
@@ -1160,9 +1186,10 @@ export default function BlueskyDiscussion({
       .map((comment) => comment.postUri),
   );
   const ownContext: PostOwnContext | undefined =
-    identity || native || ownUris.size > 0
+    identity || native || ownUris.size > 0 || postedAt.size > 0
       ? {
           ownUris,
+          postedAt,
           did: native?.profile.did ?? null,
           handle: linkedHandle,
           canRemove: interactive,
