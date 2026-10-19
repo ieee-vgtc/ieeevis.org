@@ -36,7 +36,7 @@ interface BlueskyLoginSectionProps {
   onSaveHandle?: (handle: string) => void;
   saveDisabled?: boolean;
   headingLevel?: "h2" | "h3";
-  /** Draw the tinted box (the discussion) or a plain section (the account page). */
+  /** Draw the dashed box (the discussion) or a plain section (the account page). */
   boxed?: boolean;
   /** More of the section, below the login (the account page's handle). */
   children?: ReactNode;
@@ -136,12 +136,12 @@ export default function BlueskyLoginSection({
   );
 }
 
-/** The tinted box of the old discussion login band (BlueskyLogin's bandStyle). */
+/** The box of the site's other sign-in prompt (AuthGate), so the two match. */
 const boxStyle: CSSProperties = {
-  padding: "0.7rem 0.9rem",
-  border: "1px solid var(--color-gray-300)",
-  borderRadius: "0.6rem",
-  backgroundColor: "color-mix(in srgb, var(--color-accent) 8%, white)",
-  color: "var(--color-accent)",
+  padding: "0.75rem 1rem",
+  border: "1px dashed var(--color-gray-400)",
+  borderRadius: "6px",
+  backgroundColor: "var(--color-gray-100)",
+  color: "var(--color-gray-800)",
   fontSize: "0.9rem",
 };
