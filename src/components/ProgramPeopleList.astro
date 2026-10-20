@@ -14,7 +14,7 @@ const { people, linkNames = false } = Astro.props;
 {people.map((person, idx) => (
   <span>
     {linkNames ? (
-      <a href={withBaseURL(`/program/papers/?filter=author&search=${encodeURIComponent(person.name)}`)}>
+      <a href={withBaseURL(`/program/content/?filter=author&search=${encodeURIComponent(person.name)}`)}>
         {person.name}
       </a>
     ) : person.name}

@@ -161,15 +161,19 @@ const frontmatter = {
         </li>
       </ol>
     </nav>
-    
+
     <header class="paper-hero not-prose">
       <h1>{session.title}</h1>
-      <br/>
+      <br />
       <p class="program-event-meta">
         <strong class="mr-2">Session chair:</strong>
-        {session.chairPeople?.length ? (
-          <ProgramPeopleList people={session.chairPeople} />
-        ) : session.chair?.join(", ") || "TBA"}
+        {
+          session.chairPeople?.length ? (
+            <ProgramPeopleList people={session.chairPeople} />
+          ) : (
+            session.chair?.join(", ") || "TBA"
+          )
+        }
       </p>
       <p class="program-event-meta">
         <strong class="mr-2">Room:</strong>
@@ -187,7 +191,7 @@ const frontmatter = {
             {event.organizers.map((author, idx) => (
               <a
                 class="mr-1"
-                href={`/year/2026/program/papers/?filter=author&search=${author.replaceAll(" ", "+")}`}
+                href={`/year/2026/program/content/?filter=author&search=${author.replaceAll(" ", "+")}`}
               >
                 {author}
                 {idx !== event.organizers.length - 1 ? "," : ""}
@@ -232,8 +236,8 @@ const frontmatter = {
           workshopPapers.length === 0 &&
           !description && (
             <section class="paper-section">
-              No presentations are scheduled for this session. Please check
-              the event website for more information.
+              No presentations are scheduled for this session. Please check the
+              event website for more information.
             </section>
           )
       }
@@ -245,11 +249,7 @@ const frontmatter = {
             </p>
             {slot.uid ? (
               <h3>
-                <a
-                  href={withBaseURL(
-                    `/program/${slot.paper_type.includes("oster") ? "poster" : "paper"}/${slot.uid}`,
-                  )}
-                >
+                <a href={withBaseURL(`/program/content/${slot.uid}`)}>
                   {slot.title}
                 </a>
               </h3>
@@ -284,11 +284,10 @@ const frontmatter = {
                   {slot.contributors.map((author, idx) => (
                     <a
                       class="mr-1"
-                      href={`/year/2026/program/papers/?filter=author&search=${author.replaceAll(" ", "+")}`}
+                      href={`/year/2026/program/content/?filter=author&search=${author.replaceAll(" ", "+")}`}
                     >
                       {author}
-                      {slot.contributors &&
-                      idx !== slot.contributors.length - 1
+                      {slot.contributors && idx !== slot.contributors.length - 1
                         ? ","
                         : ""}
                     </a>
@@ -310,14 +309,13 @@ const frontmatter = {
         workshopPapers.map((paper) => (
           <section class="paper-section">
             <h3>
-              <a href={withBaseURL(`/program/paper/${paper.id}`)}>
+              <a href={withBaseURL(`/program/content/${paper.id}`)}>
                 {paper.title}
               </a>
             </h3>
             {paper.authors && paper.authors.length > 0 && (
               <p class="program-presentation-authors">
-                Authors:{" "}
-                <ProgramPeopleList people={paper.authors} linkNames />
+                Authors: <ProgramPeopleList people={paper.authors} linkNames />
               </p>
             )}
           </section>
@@ -382,7 +380,6 @@ const frontmatter = {
       font-size: 1.5rem;
     }
 
-
     .program-event-meta,
     .program-event-organizers,
     .program-event-description {
@@ -412,7 +409,6 @@ const frontmatter = {
       margin-top: 0.6rem;
     }
 
-
     /* STYLING COPIED FROM PAPERS PAGE */
     .paper-hero {
       max-width: 62rem;
@@ -420,7 +416,7 @@ const frontmatter = {
       padding: clamp(1.5rem, 4vw, 3.5rem);
       background: linear-gradient(135deg, #fffdf8 0%, #f4eee5 100%);
       border: 1px solid #e5ddd2;
-      border-radius: 1.25rem;
+      border-radius: 0.75rem;
       box-shadow: 0 1rem 2.5rem rgb(59 53 47 / 8%);
     }
 

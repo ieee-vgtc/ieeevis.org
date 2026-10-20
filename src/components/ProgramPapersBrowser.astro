@@ -2,6 +2,16 @@
 import ProgramHeader from "./ProgramHeader.astro";
 import ProgramCard from "./ProgramCard.astro";
 import { getProgramEventTypeLabel } from "../utils/programEventTypeLabel";
+
+// Individual contributions are labeled differently from the sessions that hold them.
+const contributionLabels: Record<string, string> = {
+  associated: "Associated Event Papers",
+  challenge: "Challenge Contributions",
+  workshop: "Workshop Papers",
+};
+const getContributionLabel = (eventType: string) =>
+  contributionLabels[eventType.toLowerCase()] ??
+  getProgramEventTypeLabel(eventType);
 import type { ProgramPapersBrowserProps } from "../types/programPaper";
 import { typeColors, typeTextColors } from "../utils/week-of-utils";
 
@@ -11,6 +21,8 @@ const paperTypeToNameMap: Record<string, string> = {
   "cg&a": "CG&A Paper",
   poster: "Poster",
   demo: "Demo",
+  associated: "Associated Event Paper",
+  challenge: "Challenge Contribution",
   "computer graphics & applications": "CG&A Paper",
 };
 
@@ -27,7 +39,7 @@ const {
 
 const bookmarkKey = `${storageKeyPrefix}-bookmarks`;
 const lowerItemType = itemType.toLowerCase();
-const collectionPath = `/program/${lowerItemType}s/`;
+const collectionPath = "/program/content/";
 
 const typeCounts = papers.reduce<Record<string, number>>((acc, paper) => {
   const type = getPaperType(paper);
@@ -41,24 +53,45 @@ const tvcgCount = papers.filter((paper) => paper.isTvcg).length;
 
 // Award-winning papers (plus the awards plenary) also overlap with the other
 // types, so they get a pill of their own.
+// Workshop awards are listed separately so they don't mix with the main awards.
+const isWorkshopAward = (paper: ProgramPapersBrowserProps["papers"][number]) =>
+  Boolean(paper.award) && getPaperType(paper) === "workshop";
 const awardCount = papers.filter(
-  (paper) => paper.award || paper.isAwardSession,
+  (paper) => (paper.award || paper.isAwardSession) && !isWorkshopAward(paper),
+).length;
+const workshopAwardCount = papers.filter(isWorkshopAward).length;
+
+// Papers with an accessible PDF get their own pill too.
+const accessibleCount = papers.filter(
+  (paper) => paper.hasAccessiblePdf,
 ).length;
 
-// Session chairs and organizers ride along as their own "type" so they can be
+// Session chairs, organizers, and panelists ride along as their own "type" so they can be
 // toggled like the paper types.
 const sessionRoleType = "session-role";
 const sessionRoleColor = "#e6e7e4";
 const sessionRoleTextColor = "#212121";
 
-const typeOptions = Object.keys(typeCounts)
+// Pills are bundled by what they select: journal/conference papers, other kinds
+// of contributions (including chairs/organizers), and highlights.
+const paperGroupOrder = ["full", "short", "cg&a", "tvcg"];
+const rankPaperType = (value: string) => {
+  const index = paperGroupOrder.indexOf(value);
+  return index === -1 ? paperGroupOrder.length : index;
+};
+
+const contributionOptions = Object.keys(typeCounts)
   .filter((value) => value !== "tvcg")
-  .sort((a, b) => a.localeCompare(b))
   .map((value) => ({
     value,
-    label: getProgramEventTypeLabel(value),
+    label: getContributionLabel(value),
     count: typeCounts[value],
     color: typeColors[value] || "#6b7280",
+    group: paperGroupOrder.includes(value)
+      ? "Papers"
+      : value === "invited-talk"
+        ? "Highlights"
+        : "Other contributions",
   }))
   .concat(
     tvcgCount > 0
@@ -68,10 +101,23 @@ const typeOptions = Object.keys(typeCounts)
             label: getProgramEventTypeLabel("tvcg"),
             count: tvcgCount,
             color: typeColors.tvcg,
+            group: "Papers",
           },
         ]
       : [],
   )
+  .sort(
+    (a, b) =>
+      Number(a.group !== "Papers") - Number(b.group !== "Papers") ||
+      (a.group === "Papers"
+        ? rankPaperType(a.value) - rankPaperType(b.value)
+        : a.label.localeCompare(b.label)),
+  );
+
+// Papers first, then the dropdown groups; options within a group keep their order.
+const groupOrder = ["Papers", "Other contributions", "Highlights"];
+
+const typeOptions = contributionOptions
   .concat(
     awardCount > 0
       ? [
@@ -80,6 +126,33 @@ const typeOptions = Object.keys(typeCounts)
             label: "Awards",
             count: awardCount,
             color: "#B7791F",
+            group: "Highlights",
+          },
+        ]
+      : [],
+  )
+  .concat(
+    workshopAwardCount > 0
+      ? [
+          {
+            value: "workshop-awards",
+            label: "Workshop Awards",
+            count: workshopAwardCount,
+            color: "#B7791F",
+            group: "Highlights",
+          },
+        ]
+      : [],
+  )
+  .concat(
+    accessibleCount > 0
+      ? [
+          {
+            value: "accessible",
+            label: "Accessible PDFs",
+            count: accessibleCount,
+            color: "#2f6fb5",
+            group: "Highlights",
           },
         ]
       : [],
@@ -89,13 +162,15 @@ const typeOptions = Object.keys(typeCounts)
       ? [
           {
             value: sessionRoleType,
-            label: "Chairs & Organizers",
+            label: "Chairs, Organizers & Panelists",
             count: sessionRoles.length,
             color: "#616161",
+            group: "Other contributions",
           },
         ]
       : [],
-  );
+  )
+  .sort((a, b) => groupOrder.indexOf(a.group) - groupOrder.indexOf(b.group));
 ---
 
 <section
@@ -104,13 +179,14 @@ const typeOptions = Object.keys(typeCounts)
   data-bookmark-key={bookmarkKey}
 >
   <ProgramHeader
-    title={`Papers`}
-    subtitleBefore={`Browse accepted ${lowerItemType}s by title, author, keyword, and session information.`}
+    title="Presented Research"
+    subtitleBefore={`Browse accepted ${lowerItemType}s and posters by title, author, keyword, and session information.`}
     subtitleAfter={""}
     groupingNote="Note: bookmarks are stored locally in your browser and are not shared across devices."
     typeOptions={typeOptions}
     filterBarLabel="Paper type filters"
     allLabel="All"
+    dropdownGroups={["Other contributions", "Highlights"]}
   >
     <div slot="extra-controls" class="papers-controls">
       <div class="u-primary-controls flex w-full justify-between">
@@ -290,7 +366,13 @@ const typeOptions = Object.keys(typeCounts)
             data-paper-id={paper.id}
             data-type={normalizedType}
             data-tvcg={paper.isTvcg ? "true" : "false"}
-            data-awards={paper.award || paper.isAwardSession ? "true" : "false"}
+            data-accessible={paper.hasAccessiblePdf ? "true" : "false"}
+            data-awards={
+              (paper.award || paper.isAwardSession) && !isWorkshopAward(paper)
+                ? "true"
+                : "false"
+            }
+            data-workshop-awards={isWorkshopAward(paper) ? "true" : "false"}
             data-title={paper.title.toLowerCase()}
             data-authors={paper.authorNames.join(",").toLowerCase()}
             data-keywords={paper.keywordsLabel.toLowerCase()}
@@ -303,15 +385,15 @@ const typeOptions = Object.keys(typeCounts)
             accentColor={typeColors[colorType] || "#f3f4f6"}
             titleColor={typeTextColors[colorType] || "#111827"}
             title={paper.title}
-            titleHref={paper.titleHref || `/program/${itemType}/${paper.id}`}
+            titleHref={paper.titleHref || `/program/content/${paper.id}`}
             eyebrow={
               paper.eyebrow ||
               (paper.isTvcg
                 ? "TVCG Paper"
-                : paperTypeToNameMap[normalizedType] ||
-                  paper.presentationLabel)
+                : paperTypeToNameMap[normalizedType] || paper.presentationLabel)
             }
             award={paper.award}
+            accessible={paper.hasAccessiblePdf}
             peopleLabel={paper.titleHref ? "Speakers" : "Authors"}
             people={people}
             links={links}
@@ -421,7 +503,6 @@ const typeOptions = Object.keys(typeCounts)
     };
 
     const bookmarks = new Set(getStoredBookmarks());
-
 
     const getChoiceValue = (
       container: HTMLElement | null,
@@ -604,6 +685,20 @@ const typeOptions = Object.keys(typeCounts)
         button.setAttribute("aria-pressed", String(isActive));
         button.classList.toggle("is-active", isActive);
       }
+      // Flag dropdowns holding the active option, and show it on the toggle.
+      root
+        .querySelectorAll<HTMLElement>(".u-filter-menu")
+        .forEach((menu) => {
+          const active = menu.querySelector<HTMLElement>(
+            ".u-filter-pill.is-active",
+          );
+          menu.classList.toggle("has-active", Boolean(active));
+          const label = menu.querySelector<HTMLElement>(
+            ".u-filter-menu__active",
+          );
+          const name = active?.querySelector("span")?.textContent;
+          if (label) label.textContent = name ? `: ${name}` : "";
+        });
     };
 
     // Under "All", a chair/organizer card only appears when the search names
@@ -632,7 +727,11 @@ const typeOptions = Object.keys(typeCounts)
             ? card.dataset.tvcg === "true"
             : typeFilter === "awards"
               ? card.dataset.awards === "true"
-              : cardType === typeFilter);
+              : typeFilter === "workshop-awards"
+                ? card.dataset.workshopAwards === "true"
+              : typeFilter === "accessible"
+                ? card.dataset.accessible === "true"
+                : cardType === typeFilter);
         const sessionMatch =
           requestedSessionKey.length === 0 ||
           card.dataset.sessionKey === requestedSessionKey;
@@ -658,6 +757,31 @@ const typeOptions = Object.keys(typeCounts)
           Number(b.hasAttribute("data-session-role")) -
           Number(a.hasAttribute("data-session-role"));
         if (roleDelta !== 0) return roleDelta;
+
+        // On the awards view, list best awards, then honorable mentions,
+        // then everything else (e.g. the awards session itself).
+        if (typeFilter === "awards") {
+          const awardRank = (card: HTMLElement) => {
+            const award = card.dataset.award || "";
+            if (!award) return 2;
+            return award.includes("honorable") ? 1 : 0;
+          };
+          const rankDelta = awardRank(a) - awardRank(b);
+          if (rankDelta !== 0) return rankDelta;
+
+          // Group by type within each tier: full, then short, then the rest.
+          const typeOrder = ["full", "short"];
+          const typeRank = (card: HTMLElement) => {
+            const index = typeOrder.indexOf(card.dataset.type || "");
+            return index === -1 ? typeOrder.length : index;
+          };
+          const typeDelta = typeRank(a) - typeRank(b);
+          if (typeDelta !== 0) return typeDelta;
+          const typeNameDelta = (a.dataset.type || "").localeCompare(
+            b.dataset.type || "",
+          );
+          if (typeNameDelta !== 0) return typeNameDelta;
+        }
 
         const aId = a.getAttribute("data-paper-id") || "";
         const bId = b.getAttribute("data-paper-id") || "";

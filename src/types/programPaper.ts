@@ -22,6 +22,8 @@ export type ProgramPaperCard = {
   supplementalUrl: string | null;
   sessionUrl: string | null;
   award: string | null;
+  /** The paper has an accessible PDF. */
+  hasAccessiblePdf?: boolean;
   // Journal-first TVCG paper presented at the conference.
   isTvcg?: boolean;
   /** The awards plenary session, shown under the Awards filter. */
@@ -32,9 +34,9 @@ export type ProgramPaperCard = {
   titleHref?: string;
 };
 
-/** A session someone chairs, or an event someone organizes. */
+/** A session someone chairs or speaks on as a panelist, or an event someone organizes. */
 export type ProgramSessionRole = {
-  role: "Chair" | "Organizer";
+  role: "Chair" | "Organizer" | "Panelist";
   /** e.g. "Session Chair", "Workshop Organizer". */
   roleLabel: string;
   people: string[];
