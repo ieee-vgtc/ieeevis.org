@@ -53,8 +53,17 @@ const tvcgCount = papers.filter((paper) => paper.isTvcg).length;
 
 // Award-winning papers (plus the awards plenary) also overlap with the other
 // types, so they get a pill of their own.
+// Workshop awards are listed separately so they don't mix with the main awards.
+const isWorkshopAward = (paper: ProgramPapersBrowserProps["papers"][number]) =>
+  Boolean(paper.award) && getPaperType(paper) === "workshop";
 const awardCount = papers.filter(
-  (paper) => paper.award || paper.isAwardSession,
+  (paper) => (paper.award || paper.isAwardSession) && !isWorkshopAward(paper),
+).length;
+const workshopAwardCount = papers.filter(isWorkshopAward).length;
+
+// Papers with an accessible PDF get their own pill too.
+const accessibleCount = papers.filter(
+  (paper) => paper.hasAccessiblePdf,
 ).length;
 
 // Session chairs, organizers, and panelists ride along as their own "type" so they can be
@@ -63,14 +72,26 @@ const sessionRoleType = "session-role";
 const sessionRoleColor = "#e6e7e4";
 const sessionRoleTextColor = "#212121";
 
-const typeOptions = Object.keys(typeCounts)
+// Pills are bundled by what they select: journal/conference papers, other kinds
+// of contributions (including chairs/organizers), and highlights.
+const paperGroupOrder = ["full", "short", "cg&a", "tvcg"];
+const rankPaperType = (value: string) => {
+  const index = paperGroupOrder.indexOf(value);
+  return index === -1 ? paperGroupOrder.length : index;
+};
+
+const contributionOptions = Object.keys(typeCounts)
   .filter((value) => value !== "tvcg")
-  .sort((a, b) => a.localeCompare(b))
   .map((value) => ({
     value,
     label: getContributionLabel(value),
     count: typeCounts[value],
     color: typeColors[value] || "#6b7280",
+    group: paperGroupOrder.includes(value)
+      ? "Papers"
+      : value === "invited-talk"
+        ? "Highlights"
+        : "Other contributions",
   }))
   .concat(
     tvcgCount > 0
@@ -80,10 +101,23 @@ const typeOptions = Object.keys(typeCounts)
             label: getProgramEventTypeLabel("tvcg"),
             count: tvcgCount,
             color: typeColors.tvcg,
+            group: "Papers",
           },
         ]
       : [],
   )
+  .sort(
+    (a, b) =>
+      Number(a.group !== "Papers") - Number(b.group !== "Papers") ||
+      (a.group === "Papers"
+        ? rankPaperType(a.value) - rankPaperType(b.value)
+        : a.label.localeCompare(b.label)),
+  );
+
+// Papers first, then the dropdown groups; options within a group keep their order.
+const groupOrder = ["Papers", "Other contributions", "Highlights"];
+
+const typeOptions = contributionOptions
   .concat(
     awardCount > 0
       ? [
@@ -92,6 +126,33 @@ const typeOptions = Object.keys(typeCounts)
             label: "Awards",
             count: awardCount,
             color: "#B7791F",
+            group: "Highlights",
+          },
+        ]
+      : [],
+  )
+  .concat(
+    workshopAwardCount > 0
+      ? [
+          {
+            value: "workshop-awards",
+            label: "Workshop Awards",
+            count: workshopAwardCount,
+            color: "#B7791F",
+            group: "Highlights",
+          },
+        ]
+      : [],
+  )
+  .concat(
+    accessibleCount > 0
+      ? [
+          {
+            value: "accessible",
+            label: "Accessible PDFs",
+            count: accessibleCount,
+            color: "#2f6fb5",
+            group: "Highlights",
           },
         ]
       : [],
@@ -104,10 +165,12 @@ const typeOptions = Object.keys(typeCounts)
             label: "Chairs, Organizers & Panelists",
             count: sessionRoles.length,
             color: "#616161",
+            group: "Other contributions",
           },
         ]
       : [],
-  );
+  )
+  .sort((a, b) => groupOrder.indexOf(a.group) - groupOrder.indexOf(b.group));
 ---
 
 <section
@@ -123,6 +186,7 @@ const typeOptions = Object.keys(typeCounts)
     typeOptions={typeOptions}
     filterBarLabel="Paper type filters"
     allLabel="All"
+    dropdownGroups={["Other contributions", "Highlights"]}
   >
     <div slot="extra-controls" class="papers-controls">
       <div class="u-primary-controls flex w-full justify-between">
@@ -302,7 +366,13 @@ const typeOptions = Object.keys(typeCounts)
             data-paper-id={paper.id}
             data-type={normalizedType}
             data-tvcg={paper.isTvcg ? "true" : "false"}
-            data-awards={paper.award || paper.isAwardSession ? "true" : "false"}
+            data-accessible={paper.hasAccessiblePdf ? "true" : "false"}
+            data-awards={
+              (paper.award || paper.isAwardSession) && !isWorkshopAward(paper)
+                ? "true"
+                : "false"
+            }
+            data-workshop-awards={isWorkshopAward(paper) ? "true" : "false"}
             data-title={paper.title.toLowerCase()}
             data-authors={paper.authorNames.join(",").toLowerCase()}
             data-keywords={paper.keywordsLabel.toLowerCase()}
@@ -323,6 +393,7 @@ const typeOptions = Object.keys(typeCounts)
                 : paperTypeToNameMap[normalizedType] || paper.presentationLabel)
             }
             award={paper.award}
+            accessible={paper.hasAccessiblePdf}
             peopleLabel={paper.titleHref ? "Speakers" : "Authors"}
             people={people}
             links={links}
@@ -614,6 +685,20 @@ const typeOptions = Object.keys(typeCounts)
         button.setAttribute("aria-pressed", String(isActive));
         button.classList.toggle("is-active", isActive);
       }
+      // Flag dropdowns holding the active option, and show it on the toggle.
+      root
+        .querySelectorAll<HTMLElement>(".u-filter-menu")
+        .forEach((menu) => {
+          const active = menu.querySelector<HTMLElement>(
+            ".u-filter-pill.is-active",
+          );
+          menu.classList.toggle("has-active", Boolean(active));
+          const label = menu.querySelector<HTMLElement>(
+            ".u-filter-menu__active",
+          );
+          const name = active?.querySelector("span")?.textContent;
+          if (label) label.textContent = name ? `: ${name}` : "";
+        });
     };
 
     // Under "All", a chair/organizer card only appears when the search names
@@ -642,7 +727,11 @@ const typeOptions = Object.keys(typeCounts)
             ? card.dataset.tvcg === "true"
             : typeFilter === "awards"
               ? card.dataset.awards === "true"
-              : cardType === typeFilter);
+              : typeFilter === "workshop-awards"
+                ? card.dataset.workshopAwards === "true"
+              : typeFilter === "accessible"
+                ? card.dataset.accessible === "true"
+                : cardType === typeFilter);
         const sessionMatch =
           requestedSessionKey.length === 0 ||
           card.dataset.sessionKey === requestedSessionKey;
