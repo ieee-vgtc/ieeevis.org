@@ -3,6 +3,7 @@ import BlueskyProfileLink from "../../../components/BlueskyProfileLink.astro";
 import PageLayout from "../../../layouts/PageLayout.astro";
 import AuthGate from "../../../components/AuthGate.astro";
 import AwardBadge from "../../../components/AwardBadge.astro";
+import AccessibleBadge from "../../../components/AccessibleBadge.astro";
 import NewTabIndicator from "../../../components/NewTabIndicator.astro";
 import BlueskyDiscussion from "../../../components/BlueskyDiscussion";
 import { fetchAllPapers, fetchAllPosters } from "../../../utils/paperData";
@@ -102,11 +103,15 @@ const preprintLink =
 
 //manually ignore TVCG and CGA papers because we should not host their PDFs
 const pdfURL =
-  (paper.pdf_url && /^https?:\/\//i.test(paper.pdf_url.trim()) && !["v-tvcg","v-cga"].includes(paper.event_prefix))
+  paper.pdf_url &&
+  /^https?:\/\//i.test(paper.pdf_url.trim()) &&
+  !["v-tvcg", "v-cga"].includes(paper.event_prefix)
     ? paper.pdf_url.trim()
     : null;
 
-const hasLinks = Boolean(pdfURL || preprintLink || paper.doi || supplementalLink);
+const hasLinks = Boolean(
+  pdfURL || preprintLink || paper.doi || supplementalLink,
+);
 
 const sessionHref =
   presentation &&
@@ -233,7 +238,7 @@ const frontmatter = {
   full_width: true,
 };
 
-const DISCUSSION_SECTION_ID = "discussion"
+const DISCUSSION_SECTION_ID = "discussion";
 ---
 
 <PageLayout frontmatter={frontmatter}>
@@ -310,6 +315,7 @@ const DISCUSSION_SECTION_ID = "discussion"
         <div class="paper-hero__eyebrow">
           <span class="paper-kicker">{eventLabel}</span>
           {paper.award && <AwardBadge award={paper.award} />}
+          {paper.accessible_pdf === "Accessible" && <AccessibleBadge />}
         </div>
         <h1>{paper.title}</h1>
         <div class="paper-hero__meta" aria-label="Paper metadata">
@@ -337,23 +343,25 @@ const DISCUSSION_SECTION_ID = "discussion"
         </div>
         {
           paper.keywords.length > 0 && (
-            <div class="paper-keywords" aria-label="Keywords">
-              {paper.keywords.map((keyword) => (
-                <span>{keyword}</span>
-              ))}
+            <div class="text-sm ">
+              <span class="font-semibold">Keywords:</span>
+              <span class="paper-keywords" aria-label="Keywords">
+                {paper.keywords.map((keyword, idx) => (
+                  <span class="mx-1">
+                    {keyword}
+                    {`${idx < paper.keywords.length - 1 ? ", " : ""}`}
+                  </span>
+                ))}
+              </span>
             </div>
           )
         }
-        <br/>
         <a
-          class:list={[
-            "u-choice-button program-view-switcher__option hover-response--tint",
-          ]}
+          class="button button-inverse paper-jump-button"
           href={`#${DISCUSSION_SECTION_ID}`}
         >
-          Jump to Discussion
+          Jump to Discussion <span aria-hidden="true">↓</span>
         </a>
-        <br/>
       </div>
     </header>
 
@@ -471,7 +479,9 @@ const DISCUSSION_SECTION_ID = "discussion"
             <a
               class="paper-preview not-prose"
               href={preprintLink ?? undefined}
-              aria-label={preprintLink ? "Preprint PDF (opens in new tab)" : undefined}
+              aria-label={
+                preprintLink ? "Preprint PDF (opens in new tab)" : undefined
+              }
               data-preview-gated-pdf={(!preprintLink && pdfURL) || undefined}
               target="_blank"
               rel="noopener noreferrer"
@@ -535,14 +545,13 @@ const DISCUSSION_SECTION_ID = "discussion"
          conference network. Sortable by upvotes or recency. -->
 
     <div id={DISCUSSION_SECTION_ID} class="paper-section paper-links mb-6">
-          <!-- <BlueskyDiscussion showPost={false} paperId="test-bsky-9999" client:load /> -->
-          <BlueskyDiscussion
-            showPost={false}
-            paperId={paper.id}
-            authorHandles={authorBskyHandles}
-            client:load
-          />
-
+      <!-- <BlueskyDiscussion showPost={false} paperId="test-bsky-9999" client:load /> -->
+      <BlueskyDiscussion
+        showPost={false}
+        paperId={paper.id}
+        authorHandles={authorBskyHandles}
+        client:load
+      />
     </div>
   </div>
 </PageLayout>
@@ -558,7 +567,10 @@ const DISCUSSION_SECTION_ID = "discussion"
     void getCurrentUser().then((user) => {
       if (!user) return;
       gatedPreviewLink.href = gatedPreviewLink.dataset.previewGatedPdf!;
-      gatedPreviewLink.setAttribute("aria-label", "Paper PDF (opens in new tab)");
+      gatedPreviewLink.setAttribute(
+        "aria-label",
+        "Paper PDF (opens in new tab)",
+      );
     });
   }
 
@@ -624,7 +636,7 @@ const DISCUSSION_SECTION_ID = "discussion"
     padding: clamp(1.5rem, 4vw, 3.5rem);
     background: linear-gradient(135deg, #fffdf8 0%, #f4eee5 100%);
     border: 1px solid #e5ddd2;
-    border-radius: 1.25rem;
+    border-radius: 0.75em;
     box-shadow: 0 1rem 2.5rem rgb(59 53 47 / 8%);
   }
 
@@ -688,6 +700,11 @@ const DISCUSSION_SECTION_ID = "discussion"
 
   .paper-authors,
   .paper-presentation,
+  .paper-jump-button {
+    margin-top: 1.25rem;
+    text-decoration: none;
+  }
+
   .paper-links {
     padding: 1.25rem 1.5rem;
     border: 1px solid #e5ddd2;
@@ -738,22 +755,6 @@ const DISCUSSION_SECTION_ID = "discussion"
     max-width: 62rem;
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .paper-keywords {
-    max-width: 52rem;
-    margin: 1.1rem 0 0;
-    color: var(--color-gray-700);
-    font-size: 0.85rem;
-  }
-
-  .paper-keywords span {
-    display: inline-block;
-    margin: 0.15rem 0.35rem 0.15rem 0;
-    padding: 0.2rem 0.55rem;
-    border: 1px solid #e5ddd2;
-    border-radius: 999px;
-    background: #faf8f4;
   }
 
   @media (max-width: 640px) {
