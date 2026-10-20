@@ -167,6 +167,7 @@ const paperCards: ProgramPaperCard[] = papers.map((paper) => {
       ? withBaseURL(`/program/session/${resolvedSession.sessionSlug}`)
       : null,
     award: normalizeText(paper.award) || null,
+    hasAccessiblePdf: normalizeText(paper.accessible_pdf) === "Accessible",
     // Earlier years mark TVCG papers with their own event; newer data only
     // marks them via a TVCG-prefixed program paper id.
     isTvcg:
