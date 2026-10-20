@@ -65,7 +65,7 @@ Cluster will wrap up with a Freelancing FAQ session, to advise curious attendees
 
 <img src="/year/2026/assets/posts/2026-10-cluster/crit-example-setup.png" style="display: block; margin: 0 auto;" alt="Illustration of two attendees viewing printed visualization drafts posted on a wall, each with a feedback box beneath it. Artwork by Racquel Fygenson from Eyelight Labs." width="600" />
 
-We are also collecting data visualization drafts for anonymous, asynchronous feedback from the community throughout the day. Drafts will be printed and posted around the coffee chat and lunch area for the duration of Cluster. Drafts can be anonymous, or list your name. This initiative is a great way to prompt converstion, display interesting work, and get valueable opinions on your latest vis endeavors. [Submit your drafts here](https://docs.google.com/forms/d/e/1FAIpQLScfZI4MhSME-aqGZbKG_Y_Oy6c92rwxMsv0pBMOC0oJYujauQ/viewform?usp=header).
+We are also collecting data visualization drafts for anonymous, asynchronous feedback from the community throughout the day. Drafts will be printed and posted around the coffee chat and lunch area for the duration of Cluster. Drafts can be anonymous, or list your name. This initiative is a great way to prompt conversation, display interesting work, and get valuable opinions on your latest vis endeavors. [Submit your drafts here](https://docs.google.com/forms/d/e/1FAIpQLScfZI4MhSME-aqGZbKG_Y_Oy6c92rwxMsv0pBMOC0oJYujauQ/viewform?usp=header).
 
 ---
 
