@@ -60,6 +60,13 @@ function isGifUrl(uri: string): boolean {
   }
 }
 
+/** Bluesky stores the alt text of a GIF in the link card description, as
+ *  "ALT: <text>". The title is the GIF's name, not a description of it. */
+function gifAltText(description: string): string {
+  const match = /^alt:\s*(.*)$/is.exec(description.trim());
+  return match ? match[1].trim() : "";
+}
+
 /** The link preview or quote, rendered as one clickable card. */
 export function EmbedCard({ embed }: { embed?: PostEmbed | null }) {
   if (!embed) {
@@ -77,7 +84,7 @@ export function EmbedCard({ embed }: { embed?: PostEmbed | null }) {
         target="_blank"
       >
         <img
-          alt={embed.title}
+          alt={gifAltText(embed.description) || "GIF"}
           src={embed.thumb}
           style={{
             display: "block",
