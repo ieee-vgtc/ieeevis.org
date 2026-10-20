@@ -16,7 +16,6 @@ import type { CSSProperties } from "react";
 import { getCurrentUser } from "../lib/auth0Client";
 import { BskyApiError, bskyApiFetch } from "../lib/bskyApi";
 import { siteBase } from "../utils/withBaseURL";
-import { ExperimentalHeading } from "./ExperimentalBadge";
 import {
   disabledButtonStyle,
   errorTextStyle,
@@ -367,9 +366,9 @@ export default function MyProgramList({ times }: { times?: TimeIndex }) {
 
   return (
     <section aria-labelledby="my-program-heading">
-      <ExperimentalHeading id="my-program-heading">
+      <h2 id="my-program-heading" className="font-bold">
         Your papers and sessions
-      </ExperimentalHeading>
+      </h2>
       <p style={hintTextStyle}>
         Papers and sessions are automatically matched based on the email used to
         register (shown above) and any author emails we've collected that are

@@ -70,7 +70,6 @@ import SaveHandlePrompt from "./bluesky/SaveHandlePrompt";
 import BlueskyLoginSection from "./bluesky/BlueskyLoginSection";
 import SortToggle from "./bluesky/SortToggle";
 import VisSignInBox from "./bluesky/VisSignInBox";
-import ExperimentalBadge from "./ExperimentalBadge";
 import { fetchAppViewThread } from "./bluesky/direct";
 import { formatOpensAt, likeCountOf } from "./bluesky/format";
 import { NATIVE_TEXT_LIMIT } from "./bluesky/native";
@@ -1259,7 +1258,6 @@ export default function BlueskyDiscussion({
           headingLevel="h3"
           linkedHandle={linkedHandle}
           onSignIn={signInWithBluesky}
-          showExperimentalBadge={false}
         />
         {offerVisSignIn && (
           <VisSignInBox
@@ -1376,14 +1374,8 @@ const standaloneSectionStyle: CSSProperties = {
   marginTop: "2.5rem",
 };
 
-/** The section heading, with the badge for the whole discussion. */
 function DiscussionHeading() {
-  return (
-    <div className="flex items-center gap-3">
-      <h2 style={{ margin: 0 }}>Discussion</h2>
-      <ExperimentalBadge />
-    </div>
-  );
+  return <h2 style={{ margin: 0 }}>Discussion</h2>;
 }
 
 const headingRowStyle: CSSProperties = {
