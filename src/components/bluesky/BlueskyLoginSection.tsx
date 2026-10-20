@@ -10,7 +10,7 @@
  */
 
 import { useId } from "react";
-import type { CSSProperties, ReactNode } from "react";
+import type { ReactNode } from "react";
 import { BLUESKY_ENTRYWAY } from "./oauth";
 import {
   disabledButtonStyle,
@@ -18,10 +18,11 @@ import {
   hintTextStyle,
   primaryButtonStyle,
   secondaryButtonStyle,
+  signInBoxStyle,
 } from "./styles";
 import type { BlueskyLoginState } from "./useBlueskySession";
 import { normalizeBskyHandle } from "../../utils/bskyHandle";
-import ExperimentalBadge from "../ExperimentalBadge";
+import { ExperimentalHeading } from "../ExperimentalBadge";
 
 interface BlueskyLoginSectionProps {
   bluesky: BlueskyLoginState;
@@ -36,8 +37,10 @@ interface BlueskyLoginSectionProps {
   onSaveHandle?: (handle: string) => void;
   saveDisabled?: boolean;
   headingLevel?: "h2" | "h3";
-  /** Draw the tinted box (the discussion) or a plain section (the account page). */
+  /** Draw the dashed box (the discussion) or a plain section (the account page). */
   boxed?: boolean;
+  /** Leave out where an enclosing heading already carries the badge (the discussion). */
+  showExperimentalBadge?: boolean;
   /** More of the section, below the login (the account page's handle). */
   children?: ReactNode;
 }
@@ -50,6 +53,7 @@ export default function BlueskyLoginSection({
   saveDisabled = false,
   headingLevel: Heading = "h2",
   boxed = true,
+  showExperimentalBadge = true,
   children,
 }: BlueskyLoginSectionProps) {
   const headingId = useId();
@@ -59,14 +63,38 @@ export default function BlueskyLoginSection({
       : null;
 
   return (
-    <section aria-labelledby={headingId} style={boxed ? boxStyle : undefined}>
-      <Heading id={headingId} className="font-bold">
-        Bluesky login
-      </Heading>
-      <ExperimentalBadge />
+    <section
+      aria-labelledby={headingId}
+      style={boxed ? signInBoxStyle : undefined}
+    >
+      {showExperimentalBadge ? (
+        <ExperimentalHeading as={Heading} id={headingId}>
+          Bluesky sign-in
+        </ExperimentalHeading>
+      ) : (
+        <Heading id={headingId} className="font-bold">
+          Bluesky sign-in
+        </Heading>
+      )}
       {loggedInHandle ? (
         <>
-          <p>You are logged in to Bluesky as @{loggedInHandle}.</p>
+          <p
+            style={{
+              display: "flex",
+              flexWrap: "wrap",
+              alignItems: "center",
+              gap: "0.5rem 0.75rem",
+            }}
+          >
+            <span>You are signed in to Bluesky as @{loggedInHandle}.</span>
+            <button
+              type="button"
+              style={secondaryButtonStyle}
+              onClick={() => void bluesky.signOut()}
+            >
+              Sign out of Bluesky
+            </button>
+          </p>
           {onSaveHandle && loggedInHandle !== linkedHandle && (
             <p style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem" }}>
               <button
@@ -79,24 +107,15 @@ export default function BlueskyLoginSection({
               </button>
             </p>
           )}
-          <button
-            type="button"
-            style={secondaryButtonStyle}
-            onClick={() => void bluesky.signOut()}
-          >
-            Log out of Bluesky
-          </button>
         </>
       ) : bluesky.session.status === "none" ? (
         <>
-          <p className="mb-0 font-bold">
-            {linkedHandle
-              ? `You have a Bluesky account, @${linkedHandle}.`
-              : "Do you have a Bluesky account?"}
-          </p>
+          {!linkedHandle && (
+            <p className="mb-0 font-bold">Do you have a Bluesky account?</p>
+          )}
           <p style={hintTextStyle}>
-            Log in to comment and like from your own account instead of as a VIS
-            attendee.
+            Sign in to comment and like from your own account instead of as a
+            VIS attendee.
           </p>
           <p style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem" }}>
             {linkedHandle && (
@@ -108,7 +127,7 @@ export default function BlueskyLoginSection({
               >
                 {bluesky.busy
                   ? "Opening Bluesky…"
-                  : `Log in as @${linkedHandle}`}
+                  : `Sign in as @${linkedHandle}`}
               </button>
             )}
             <button
@@ -117,25 +136,15 @@ export default function BlueskyLoginSection({
               style={linkedHandle ? secondaryButtonStyle : primaryButtonStyle}
               onClick={() => onSignIn(BLUESKY_ENTRYWAY)}
             >
-              {linkedHandle ? "Use another account" : "Log in with Bluesky"}
+              {linkedHandle ? "Use another account" : "Sign in with Bluesky"}
             </button>
           </p>
           {bluesky.error && <p style={errorTextStyle}>{bluesky.error}</p>}
         </>
       ) : (
-        <p style={hintTextStyle}>Checking your Bluesky login…</p>
+        <p style={hintTextStyle}>Checking your Bluesky sign-in…</p>
       )}
       {children}
     </section>
   );
 }
-
-/** The tinted box of the old discussion login band (BlueskyLogin's bandStyle). */
-const boxStyle: CSSProperties = {
-  padding: "0.7rem 0.9rem",
-  border: "1px solid var(--color-gray-300)",
-  borderRadius: "0.6rem",
-  backgroundColor: "color-mix(in srgb, var(--color-accent) 8%, white)",
-  color: "var(--color-accent)",
-  fontSize: "0.9rem",
-};

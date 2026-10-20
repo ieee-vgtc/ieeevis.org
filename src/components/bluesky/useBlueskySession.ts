@@ -1,5 +1,5 @@
 /**
- * The reader's Bluesky login, for a discussion on the page.
+ * The reader's Bluesky sign-in, for a discussion on the page.
  *
  * Starts as "unknown" on both server and client so the first render agrees,
  * then either settles on "none" — nothing stored, so nothing to load — or
