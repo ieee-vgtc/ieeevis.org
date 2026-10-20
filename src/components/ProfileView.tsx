@@ -59,7 +59,7 @@ const toggleLinkStyle: CSSProperties = {
   textDecoration: "underline",
 };
 
-/** A warning-coloured note: amber, like the Experimental Feature tag. */
+/** A warning-coloured note in amber. */
 const warningNoteStyle: CSSProperties = {
   margin: "0 0 1rem",
   padding: "0.35rem 0.6rem",

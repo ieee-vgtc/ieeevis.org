@@ -22,7 +22,6 @@ import {
 } from "./styles";
 import type { BlueskyLoginState } from "./useBlueskySession";
 import { normalizeBskyHandle } from "../../utils/bskyHandle";
-import { ExperimentalHeading } from "../ExperimentalBadge";
 
 interface BlueskyLoginSectionProps {
   bluesky: BlueskyLoginState;
@@ -39,8 +38,6 @@ interface BlueskyLoginSectionProps {
   headingLevel?: "h2" | "h3";
   /** Draw the dashed box (the discussion) or a plain section (the account page). */
   boxed?: boolean;
-  /** Leave out where an enclosing heading already carries the badge (the discussion). */
-  showExperimentalBadge?: boolean;
   /** More of the section, below the login (the account page's handle). */
   children?: ReactNode;
 }
@@ -53,7 +50,6 @@ export default function BlueskyLoginSection({
   saveDisabled = false,
   headingLevel: Heading = "h2",
   boxed = true,
-  showExperimentalBadge = true,
   children,
 }: BlueskyLoginSectionProps) {
   const headingId = useId();
@@ -67,15 +63,9 @@ export default function BlueskyLoginSection({
       aria-labelledby={headingId}
       style={boxed ? signInBoxStyle : undefined}
     >
-      {showExperimentalBadge ? (
-        <ExperimentalHeading as={Heading} id={headingId}>
-          Bluesky sign-in
-        </ExperimentalHeading>
-      ) : (
-        <Heading id={headingId} className="font-bold">
-          Bluesky sign-in
-        </Heading>
-      )}
+      <Heading id={headingId} className="font-bold">
+        Bluesky sign-in
+      </Heading>
       {loggedInHandle ? (
         <>
           <p
