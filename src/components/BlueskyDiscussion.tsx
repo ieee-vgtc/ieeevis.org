@@ -431,7 +431,6 @@ export default function BlueskyDiscussion({
   useEffect(() => {
     likedUrisRef.current = likedUris;
   }, [likedUris]);
-  const [refreshing, setRefreshing] = useState(false);
 
   // Also minted for an AppView-only thread: it buys no writes there, but it is
   // what tells us the reader's own Bluesky handle, and so which replies in a
@@ -528,16 +527,6 @@ export default function BlueskyDiscussion({
     const id = setInterval(() => setNow(Date.now()), 1000);
     return () => clearInterval(id);
   }, []);
-
-  const onRefreshClick = useCallback(async () => {
-    markInteraction();
-    setRefreshing(true);
-    try {
-      await refresh({ force: true });
-    } finally {
-      setRefreshing(false);
-    }
-  }, [markInteraction, refresh]);
 
   const thread = data?.thread;
   const root: RootPost | undefined =
@@ -1007,7 +996,8 @@ export default function BlueskyDiscussion({
   if (thread?.state === "unavailable") {
     return (
       <p style={{ color: "var(--color-gray-600)", margin: 0 }}>
-        There is no discussion for this paper yet.
+        There is no discussion for this paper yet. It will be added closer to
+        the session time.
       </p>
     );
   }
@@ -1196,8 +1186,7 @@ export default function BlueskyDiscussion({
       onPointerDown={markInteraction}
     >
       <style>
-        {"@keyframes bsky-spin{to{transform:rotate(360deg)}}" +
-          ".bsky-view-link:hover{text-decoration:underline}"}
+        {".bsky-view-link:hover{text-decoration:underline}"}
       </style>
 
       {root?.bskyUrl && (
@@ -1333,38 +1322,6 @@ export default function BlueskyDiscussion({
               updated {formatAgo(now - lastUpdatedAt)}
             </span>
           )}
-          <button
-            aria-label="Refresh the discussion"
-            disabled={refreshing}
-            onClick={onRefreshClick}
-            style={{
-              display: "inline-flex",
-              alignItems: "center",
-              gap: "0.35rem",
-              padding: "0.25rem 0.6rem",
-              borderRadius: "0.5rem",
-              border: "1px solid var(--color-gray-300)",
-              backgroundColor: "#fff",
-              color: "inherit",
-              cursor: refreshing ? "default" : "pointer",
-              fontSize: "0.8rem",
-              opacity: refreshing ? 0.6 : 1,
-            }}
-            type="button"
-          >
-            <span
-              aria-hidden="true"
-              style={{
-                display: "inline-block",
-                animation: refreshing
-                  ? "bsky-spin 0.8s linear infinite"
-                  : undefined,
-              }}
-            >
-              ↻
-            </span>
-            {refreshing ? "Refreshing…" : "Refresh"}
-          </button>
         </div>
       </div>
 
