@@ -25,7 +25,7 @@
  *     (`bluesky/useBlueskySession.ts`). Comments, likes and removals then go
  *     straight from the browser to their own PDS and the service is not
  *     involved — which also means this works on a thread read straight from
- *     the AppView, and after guest posting has closed. A Bluesky login takes
+ *     the AppView, and after guest posting has closed. A Bluesky sign-in takes
  *     precedence over the guest path whenever both are available.
  *
  * Everything else is read-only.
@@ -69,6 +69,7 @@ import ReplyList, { prefersReducedMotion } from "./bluesky/ReplyList";
 import SaveHandlePrompt from "./bluesky/SaveHandlePrompt";
 import BlueskyLoginSection from "./bluesky/BlueskyLoginSection";
 import SortToggle from "./bluesky/SortToggle";
+import VisSignInBox from "./bluesky/VisSignInBox";
 import { fetchAppViewThread } from "./bluesky/direct";
 import { formatOpensAt, likeCountOf } from "./bluesky/format";
 import { NATIVE_TEXT_LIMIT } from "./bluesky/native";
@@ -91,7 +92,7 @@ import { errorTextStyle } from "./bluesky/styles";
 import { useBlueskySession } from "./bluesky/useBlueskySession";
 import { usePolledThread } from "./bluesky/usePolledThread";
 import { normalizeBskyHandle } from "../utils/bskyHandle";
-import { getIdToken } from "../lib/auth0Client";
+import { currentPagePath, getIdToken, login } from "../lib/auth0Client";
 import { BSKY_API_BASE } from "../lib/bskyApi";
 
 const DEFAULT_API_BASES = [BSKY_API_BASE];
@@ -314,6 +315,9 @@ function formatAgo(sinceMs: number): string {
  */
 function useGuestToken(enabled: boolean) {
   const [hasToken, setHasToken] = useState(false);
+  // False until the first check returns, so a signed-in reader is not offered
+  // the sign-in for a moment while it runs.
+  const [tokenChecked, setTokenChecked] = useState(false);
 
   const getToken = useCallback(async (): Promise<string | null> => {
     if (!enabled) {
@@ -321,6 +325,7 @@ function useGuestToken(enabled: boolean) {
     }
     const token = await getIdToken();
     setHasToken(Boolean(token));
+    setTokenChecked(true);
     return token;
   }, [enabled]);
 
@@ -328,7 +333,7 @@ function useGuestToken(enabled: boolean) {
     void getToken();
   }, [getToken]);
 
-  return { hasToken, getToken };
+  return { hasToken, tokenChecked, getToken };
 }
 
 /**
@@ -396,6 +401,9 @@ export default function BlueskyDiscussion({
 }: BlueskyDiscussionProps) {
   // Where Bluesky sends the reader back to after the login: this discussion.
   const sectionId = `bsky-discussion-${paperId || "direct"}`;
+  // Without the post, the discussion sits inside the paper page's own card,
+  // which already spaces it.
+  const sectionStyle = showPost ? standaloneSectionStyle : undefined;
   const [sort, setSort] = useState<ReplySort>(defaultSort);
   const [anonymous, setAnonymous] = useState(false);
   const [actionError, setActionError] = useState<string | null>(null);
@@ -446,7 +454,9 @@ export default function BlueskyDiscussion({
   // Also minted for an AppView-only thread: it buys no writes there, but it is
   // what tells us the reader's own Bluesky handle, and so which replies in a
   // read-only thread are theirs.
-  const { hasToken, getToken } = useGuestToken(Boolean(paperId || atUri));
+  const { hasToken, tokenChecked, getToken } = useGuestToken(
+    Boolean(paperId || atUri),
+  );
 
   // The reader's own Bluesky account, when they have logged in with it here.
   // While it is there, every write goes through it rather than the service.
@@ -480,7 +490,7 @@ export default function BlueskyDiscussion({
     ? identity?.pseudonym
     : identity?.name || identity?.pseudonym;
   // The Bluesky handle on the reader's VIS profile: it pre-fills the login and
-  // marks that account's replies as theirs even without a Bluesky login here.
+  // marks that account's replies as theirs even without a Bluesky sign-in here.
   const linkedHandle =
     savedHandle ??
     (identity?.bluesky ? normalizeBskyHandle(identity.bluesky) : null);
@@ -569,7 +579,7 @@ export default function BlueskyDiscussion({
     thread?.state === "open" ? thread.post : undefined;
   /** Guest writes are bridged by the service; the AppView is read-only here. */
   const canWriteAsGuest = data?.source === "service" && hasToken;
-  /** A Bluesky login writes to the reader's own PDS, whatever the source. */
+  /** A Bluesky sign-in writes to the reader's own PDS, whatever the source. */
   const interactive = native !== null || canWriteAsGuest;
   /** Only the service knows the guest likes, so only it may show or rank by them. */
   const showLikes = data?.source === "service";
@@ -1040,10 +1050,15 @@ export default function BlueskyDiscussion({
   // program).
   if (thread?.state === "unavailable") {
     return (
-      <p style={{ color: "var(--color-gray-600)", margin: 0 }}>
-        There is no discussion for this paper yet. It will be added closer to
-        the session time.
-      </p>
+      <section ref={sectionRef} style={sectionStyle}>
+        <div style={headingRowStyle}>
+          <DiscussionHeading />
+        </div>
+        <p style={{ color: "var(--color-gray-600)", margin: 0 }}>
+          There is no discussion for this paper yet. It will be added closer to
+          the session time.
+        </p>
+      </section>
     );
   }
 
@@ -1062,7 +1077,9 @@ export default function BlueskyDiscussion({
     const opensAt = formatOpensAt(thread.opensAt);
     return (
       <section ref={sectionRef} style={sectionStyle} aria-live="polite">
-        <h2 style={{ marginBottom: "0.5rem" }}>Discussion</h2>
+        <div style={headingRowStyle}>
+          <DiscussionHeading />
+        </div>
         <p style={{ color: "var(--color-gray-600)", margin: 0 }}>
           {opensAt
             ? `The discussion opens shortly before the session, on ${opensAt}.`
@@ -1205,6 +1222,14 @@ export default function BlueskyDiscussion({
         }
       : undefined;
 
+  // Offer the VIS sign-in only where it lets the reader write (the service
+  // bridges guest comments) and only to a reader with no way to write yet.
+  const offerVisSignIn =
+    data?.source === "service" &&
+    tokenChecked &&
+    !hasToken &&
+    bluesky.session.status === "none";
+
   const signInWithBluesky = (input: string) => {
     markInteraction();
     const { pathname, search } = window.location;
@@ -1230,12 +1255,11 @@ export default function BlueskyDiscussion({
       // resets the polling cadence to the base interval.
       onPointerDown={markInteraction}
     >
-      <style>
-        {".bsky-view-link:hover{text-decoration:underline}"}
-      </style>
+      <style>{".bsky-view-link:hover{text-decoration:underline}"}</style>
 
-      {root?.bskyUrl && (
-        <div style={blueskyLinkRowStyle}>
+      <div style={headingRowStyle}>
+        <DiscussionHeading />
+        {root?.bskyUrl && (
           <a
             className="bsky-view-link"
             href={root.bskyUrl}
@@ -1251,10 +1275,8 @@ export default function BlueskyDiscussion({
             />
             View on Bluesky
           </a>
-        </div>
-      )}
-
-      {showPost && <h2 style={{ margin: "0 0 0.5rem" }}>Discussion</h2>}
+        )}
+      </div>
 
       {root && (
         <div style={announcementCardStyle}>
@@ -1272,13 +1294,24 @@ export default function BlueskyDiscussion({
 
       {/* The same login as on the account page; saving the handle is offered
           by SaveHandlePrompt below instead, so it is not offered twice. */}
-      <div style={{ margin: "0.75rem 0" }}>
+      <div
+        className={offerVisSignIn ? "grid gap-3 md:grid-cols-2" : undefined}
+        style={{ margin: "0.75rem 0" }}
+      >
         <BlueskyLoginSection
           bluesky={bluesky}
           headingLevel="h3"
           linkedHandle={linkedHandle}
           onSignIn={signInWithBluesky}
         />
+        {offerVisSignIn && (
+          <VisSignInBox
+            onSignIn={() => {
+              markInteraction();
+              void login(`${currentPagePath()}#${sectionId}`);
+            }}
+          />
+        )}
       </div>
 
       {offerHandleSave && (
@@ -1382,13 +1415,20 @@ export default function BlueskyDiscussion({
   );
 }
 
-const sectionStyle: CSSProperties = {
+const standaloneSectionStyle: CSSProperties = {
   marginTop: "2.5rem",
 };
 
-const blueskyLinkRowStyle: CSSProperties = {
+function DiscussionHeading() {
+  return <h2 style={{ margin: 0 }}>Discussion</h2>;
+}
+
+const headingRowStyle: CSSProperties = {
   display: "flex",
-  justifyContent: "flex-end",
+  flexWrap: "wrap",
+  alignItems: "baseline",
+  justifyContent: "space-between",
+  gap: "0.25rem 1rem",
   marginBottom: "0.75rem",
 };
 

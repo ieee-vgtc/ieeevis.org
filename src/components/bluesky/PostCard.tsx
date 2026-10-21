@@ -61,10 +61,10 @@ export interface PostLikeContext {
  *    deletes those from the shared discuss account.
  *  - `postedAt` — when the reader posted each comment that the shared thread
  *    cache does not carry yet. A reload before then can still miss it.
- *  - `did` — the account the reader is logged in to Bluesky as, or null. Its
+ *  - `did` — the account the reader is signed in to Bluesky as, or null. Its
  *    posts are theirs beyond doubt, and that account deletes them itself.
  *  - `canRemove` — whether removing works at all here. A thread read straight
- *    from the AppView with no Bluesky login is read-only, so posts are still
+ *    from the AppView with no Bluesky sign-in is read-only, so posts are still
  *    marked as the reader's but nothing is offered on them.
  *  - `handle` — the Bluesky handle on their VIS profile, lowercased and without
  *    the "@", or null. Matching on the handle rather than the DID is what the
