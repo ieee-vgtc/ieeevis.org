@@ -1,5 +1,5 @@
 /**
- * Bluesky login for the discussion, done entirely in the browser.
+ * Bluesky sign-in for the discussion, done entirely in the browser.
  *
  * The site is a public OAuth client: there is no server-side session, the
  * tokens live in the reader's own browser (IndexedDB, managed by
@@ -157,7 +157,7 @@ export class LoginCallbackError extends Error {
     readonly cancelled: boolean,
     options?: { cause?: unknown },
   ) {
-    super("The Bluesky login did not complete.", options);
+    super("The Bluesky sign-in did not complete.", options);
   }
 }
 

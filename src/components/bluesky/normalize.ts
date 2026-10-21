@@ -31,6 +31,12 @@ interface AppViewAuthor {
   labels?: Label[];
 }
 
+interface AppViewQuotedRecord {
+  uri?: string;
+  author?: AppViewAuthor;
+  value?: { text?: string };
+}
+
 interface AppViewEmbed {
   $type?: string;
   images?: Array<{ thumb?: string; fullsize?: string; alt?: string }>;
@@ -40,11 +46,7 @@ interface AppViewEmbed {
     description?: string;
     thumb?: string;
   };
-  record?: {
-    uri?: string;
-    author?: AppViewAuthor;
-    value?: { text?: string };
-  };
+  record?: AppViewQuotedRecord & { record?: AppViewQuotedRecord };
   media?: AppViewEmbed;
 }
 
@@ -94,21 +96,31 @@ function normalizeImages(embed?: AppViewEmbed): EmbedImage[] {
 }
 
 function normalizeEmbed(embed?: AppViewEmbed): PostEmbed | null {
-  if (embed?.$type === "app.bsky.embed.external#view" && embed.external?.uri) {
+  const external =
+    embed?.$type === "app.bsky.embed.external#view"
+      ? embed.external
+      : embed?.$type === "app.bsky.embed.recordWithMedia#view" &&
+          embed.media?.$type === "app.bsky.embed.external#view"
+        ? embed.media.external
+        : undefined;
+
+  if (external?.uri) {
     return {
       kind: "external",
-      uri: embed.external.uri,
-      title: embed.external.title || embed.external.uri,
-      description: embed.external.description || "",
-      thumb: embed.external.thumb || null,
+      uri: external.uri,
+      title: external.title || external.uri,
+      description: external.description || "",
+      thumb: external.thumb || null,
     };
   }
 
+  // A quote with media nests the quoted record one level deeper.
   const quote =
-    embed?.$type === "app.bsky.embed.record#view" ||
-    embed?.$type === "app.bsky.embed.recordWithMedia#view"
+    embed?.$type === "app.bsky.embed.record#view"
       ? embed.record
-      : undefined;
+      : embed?.$type === "app.bsky.embed.recordWithMedia#view"
+        ? embed.record?.record
+        : undefined;
 
   if (quote?.uri) {
     return {

@@ -5,9 +5,7 @@
  * AppView (shaped client-side by `normalize.ts`).
  *
  * Fields the AppView has no notion of — `guest`, `pseudonym`, `guestLikeCount`
- * — are false/null/0 there. Fields the service does not send — `embed`,
- * `repostCount` — are null/undefined in that direction. Everything else is
- * present from both.
+ * — are false/null/0 there. Everything else is present from both.
  */
 
 export interface ShapedAuthor {
@@ -34,7 +32,7 @@ export interface PostLink {
   uri: string;
 }
 
-/** A link card or a quoted post. Only the AppView source produces these. */
+/** A link card or a quoted post. Bluesky posts a GIF as a link card. */
 export type PostEmbed =
   | {
       kind: "external";
