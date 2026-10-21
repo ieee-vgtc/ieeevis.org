@@ -65,7 +65,7 @@ import type {
   PostOwnContext,
   PostReplyContext,
 } from "./bluesky/PostCard";
-import ReplyList from "./bluesky/ReplyList";
+import ReplyList, { prefersReducedMotion } from "./bluesky/ReplyList";
 import SaveHandlePrompt from "./bluesky/SaveHandlePrompt";
 import BlueskyLoginSection from "./bluesky/BlueskyLoginSection";
 import SortToggle from "./bluesky/SortToggle";
@@ -98,6 +98,10 @@ import { BSKY_API_BASE } from "../lib/bskyApi";
 const DEFAULT_API_BASES = [BSKY_API_BASE];
 const DEFAULT_REFRESH_MS = 5_000;
 const MAX_DEPTH = 5;
+// While a just-posted comment waits for the shared cache, polling stays at the
+// base interval instead of backing off — but not for ever, in case the post
+// never shows up (a moderation label can hide it).
+const PENDING_POLL_HOLD_MS = 60_000;
 const COMMENT_LIMIT = 250; // graphemes; mirrors CONFERENCE.guestTextLimit
 
 interface BlueskyDiscussionProps {
@@ -132,6 +136,8 @@ interface PendingReply {
   /** Null for a comment on the announcement itself. */
   parentUri: string | null;
   post: ShapedPost;
+  /** ms timestamp of the post, on this reader's clock. */
+  postedAt: number;
 }
 
 // ─── helpers ─────────────────────────────────────────────────────────────────
@@ -393,6 +399,8 @@ export default function BlueskyDiscussion({
   defaultSort = "top",
   authorHandles = [],
 }: BlueskyDiscussionProps) {
+  // Where Bluesky sends the reader back to after the login: this discussion.
+  const sectionId = `bsky-discussion-${paperId || "direct"}`;
   // Without the post, the discussion sits inside the paper page's own card,
   // which already spaces it.
   const sectionStyle = showPost ? standaloneSectionStyle : undefined;
@@ -400,6 +408,9 @@ export default function BlueskyDiscussion({
   const [anonymous, setAnonymous] = useState(false);
   const [actionError, setActionError] = useState<string | null>(null);
   const [pendingReplies, setPendingReplies] = useState<PendingReply[]>([]);
+  // A just-posted top-level comment lands at the end of a "Most liked" list,
+  // far below the composer, so the page scrolls to it once it is rendered.
+  const revealUriRef = useRef<string | null>(null);
   const [openReplyUri, setOpenReplyUri] = useState<string | null>(null);
   const [postingReplyUri, setPostingReplyUri] = useState<string | null>(null);
   // Focus moves once the closed composer is gone and the button is enabled.
@@ -517,6 +528,16 @@ export default function BlueskyDiscussion({
     [atUri, client, paperId],
   );
 
+  // A once-a-second tick so the "updated Xs ago" label counts up on its own.
+  const [now, setNow] = useState(() => Date.now());
+  useEffect(() => {
+    const id = setInterval(() => setNow(Date.now()), 1000);
+    return () => clearInterval(id);
+  }, []);
+
+  const awaitingOwnPost = pendingReplies.some(
+    ({ postedAt }) => now - postedAt < PENDING_POLL_HOLD_MS,
+  );
   const {
     data,
     loading,
@@ -529,14 +550,29 @@ export default function BlueskyDiscussion({
     load,
     refreshMs,
     signature: threadSignature,
+    keepBaseRate: awaitingOwnPost,
   });
 
-  // A once-a-second tick so the "updated Xs ago" label counts up on its own.
-  const [now, setNow] = useState(() => Date.now());
+  // Scroll a just-posted top-level comment into view and move focus to it, so
+  // a screen reader lands on it too.
   useEffect(() => {
-    const id = setInterval(() => setNow(Date.now()), 1000);
-    return () => clearInterval(id);
-  }, []);
+    const uri = revealUriRef.current;
+    if (!uri) {
+      return;
+    }
+    const card = document
+      .getElementById(sectionId)
+      ?.querySelector<HTMLElement>(`[data-post-uri="${CSS.escape(uri)}"]`);
+    if (!card) {
+      return;
+    }
+    revealUriRef.current = null;
+    card.scrollIntoView({
+      behavior: prefersReducedMotion() ? "auto" : "smooth",
+      block: "center",
+    });
+    card.focus({ preventScroll: true });
+  }, [pendingReplies, sectionId]);
 
   const thread = data?.thread;
   const root: RootPost | undefined =
@@ -711,6 +747,9 @@ export default function BlueskyDiscussion({
         parentRef = { uri: parent.uri, cid: parent.cid };
       }
       const created = await native.reply(announcement, parentRef, text);
+      if (!parent) {
+        revealUriRef.current = created.uri;
+      }
 
       // Show it immediately, signed by the account; the next refetch replaces
       // it with the real post once the AppView has indexed it.
@@ -738,6 +777,7 @@ export default function BlueskyDiscussion({
             embedImages: [],
             replies: [],
           },
+          postedAt: Date.now(),
         },
       ]);
       onPosted();
@@ -796,6 +836,10 @@ export default function BlueskyDiscussion({
         uri?: string;
         author?: string;
       };
+      const uri = created.uri || `pending-${Date.now()}`;
+      if (!parent) {
+        revealUriRef.current = uri;
+      }
 
       // Show it immediately; the next refetch replaces it with the real post.
       // The service credits the post by prefixing its text, which the local
@@ -806,7 +850,7 @@ export default function BlueskyDiscussion({
         {
           parentUri: parent?.uri ?? null,
           post: {
-            uri: created.uri || `pending-${Date.now()}`,
+            uri,
             author: { displayName: null, avatar: null },
             text,
             createdAt: new Date().toISOString(),
@@ -818,6 +862,7 @@ export default function BlueskyDiscussion({
             embedImages: [],
             replies: [],
           },
+          postedAt: Date.now(),
         },
       ]);
       onPosted();
@@ -1097,9 +1142,6 @@ export default function BlueskyDiscussion({
       }
     : undefined;
 
-  // Where Bluesky sends the reader back to after the login: this discussion.
-  const sectionId = `bsky-discussion-${paperId || "direct"}`;
-
   const replyComposerId = (post: ShapedPost) =>
     `${sectionId}-reply-${post.uri}`;
   const replyButtonId = (post: ShapedPost) => `${replyComposerId(post)}-button`;
@@ -1167,9 +1209,12 @@ export default function BlueskyDiscussion({
       .map((comment) => comment.postUri),
   );
   const ownContext: PostOwnContext | undefined =
-    identity || native || ownUris.size > 0
+    identity || native || ownUris.size > 0 || pendingReplies.length > 0
       ? {
           ownUris,
+          postedAt: new Map(
+            pendingReplies.map(({ post, postedAt }) => [post.uri, postedAt]),
+          ),
           did: native?.profile.did ?? null,
           handle: linkedHandle,
           canRemove: interactive,

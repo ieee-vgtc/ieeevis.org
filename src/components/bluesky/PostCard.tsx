@@ -17,7 +17,7 @@
  * profile, so guest comments never carry it.
  */
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { CSSProperties, ReactNode } from "react";
 import Avatar from "./Avatar";
 import { EmbedCard, EmbedImages } from "./Embeds";
@@ -59,6 +59,8 @@ export interface PostLikeContext {
  *
  *  - `ownUris` — their own guest comments still in the thread; the service
  *    deletes those from the shared discuss account.
+ *  - `postedAt` — when the reader posted each comment that the shared thread
+ *    cache does not carry yet. A reload before then can still miss it.
  *  - `did` — the account the reader is signed in to Bluesky as, or null. Its
  *    posts are theirs beyond doubt, and that account deletes them itself.
  *  - `canRemove` — whether removing works at all here. A thread read straight
@@ -72,6 +74,7 @@ export interface PostLikeContext {
  */
 export interface PostOwnContext {
   ownUris: Set<string>;
+  postedAt: ReadonlyMap<string, number>;
   did: string | null;
   handle: string | null;
   canRemove: boolean;
@@ -319,6 +322,59 @@ function RemoveControl({
   );
 }
 
+/**
+ * How long the shared thread cache can take to carry a new comment: up to 30s
+ * in Bluesky's AppView CDN, which the service reads from, then up to 5s in our
+ * nginx cache. The bar stays, full, until a cached poll has the comment.
+ */
+const CACHE_SETTLE_MS = 35_000;
+
+const settleTrackStyle: CSSProperties = {
+  height: "3px",
+  marginTop: "0.4rem",
+  borderRadius: "2px",
+  backgroundColor: "var(--color-gray-200)",
+  overflow: "hidden",
+};
+
+const settleFillStyle: CSSProperties = {
+  height: "100%",
+  backgroundColor: "var(--color-accent)",
+  transform: "scaleX(0)",
+  transformOrigin: "left",
+};
+
+/**
+ * A thin bar that fills while the shared cache catches up with a just-posted
+ * comment. A reload while it shows can still show the thread without it.
+ */
+function CacheSettleBar({ postedAt }: { postedAt: number }) {
+  const fillRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    const animation = fillRef.current?.animate(
+      [{ transform: "scaleX(0)" }, { transform: "scaleX(1)" }],
+      {
+        duration: CACHE_SETTLE_MS,
+        delay: postedAt - Date.now(),
+        easing: "linear",
+        fill: "forwards",
+      },
+    );
+    return () => animation?.cancel();
+  }, [postedAt]);
+
+  return (
+    <div
+      aria-label="Saving your comment. Wait a few seconds before you reload."
+      role="progressbar"
+      style={settleTrackStyle}
+      title="Saving your comment. Wait a few seconds before you reload."
+    >
+      <div ref={fillRef} style={settleFillStyle} />
+    </div>
+  );
+}
+
 export default function PostCard({
   post,
   variant = "reply",
@@ -351,6 +407,7 @@ export default function PostCard({
   const timeTitle = post.createdAt
     ? new Date(post.createdAt).toLocaleString()
     : undefined;
+  const postedAt = own?.postedAt.get(post.uri);
   const reposts = post.repostCount || 0;
   const replyable = !isRoot && reply !== undefined && reply.canReplyTo(post);
   const replyOpen = replyable && reply.openUri === post.uri;
@@ -362,7 +419,12 @@ export default function PostCard({
     reposts > 0;
 
   return (
-    <article style={{ padding: isRoot ? "0.9rem 0" : "0.6rem 0" }}>
+    <article
+      data-post-uri={post.uri}
+      // A just-posted comment is where focus goes after the reader posts it.
+      tabIndex={postedAt !== undefined ? -1 : undefined}
+      style={{ padding: isRoot ? "0.9rem 0" : "0.6rem 0" }}
+    >
       <header style={{ display: "flex", alignItems: "center", gap: "0.6rem" }}>
         <Avatar size={isRoot ? 40 : 36} src={post.author?.avatar ?? null} />
         <div style={{ lineHeight: 1.2 }}>
@@ -416,6 +478,7 @@ export default function PostCard({
       </p>
       <EmbedImages images={post.embedImages} />
       <EmbedCard embed={post.embed} />
+      {postedAt !== undefined && <CacheSettleBar postedAt={postedAt} />}
 
       {hasFooter && (
         <footer
