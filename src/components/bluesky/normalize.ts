@@ -14,6 +14,7 @@ import { shouldHide, threadgateHiddenReplies } from "./moderation";
 import type {
   EmbedImage,
   PostEmbed,
+  PostLink,
   RootPost,
   ShapedAuthor,
   ShapedPost,
@@ -54,7 +55,7 @@ interface AppViewPost {
   cid?: string;
   indexedAt?: string;
   author?: AppViewAuthor;
-  record?: { text?: string; createdAt?: string };
+  record?: { text?: string; createdAt?: string; facets?: unknown };
   embed?: AppViewEmbed;
   likeCount?: number;
   repostCount?: number;
@@ -133,6 +134,38 @@ function normalizeEmbed(embed?: AppViewEmbed): PostEmbed | null {
   return null;
 }
 
+/** A facet URI is author-written: a `javascript:` one must never become an href. */
+function isWebLink(link: unknown): link is PostLink {
+  const { byteStart, byteEnd, uri } = (link ?? {}) as Partial<PostLink>;
+  return (
+    Number.isInteger(byteStart) &&
+    Number.isInteger(byteEnd) &&
+    (byteStart as number) < (byteEnd as number) &&
+    typeof uri === "string" &&
+    /^https?:\/\//i.test(uri)
+  );
+}
+
+interface AppViewFacet {
+  index?: { byteStart?: number; byteEnd?: number };
+  features?: Array<{ $type?: string; uri?: string }>;
+}
+
+function linksFromFacets(facets: unknown): PostLink[] {
+  if (!Array.isArray(facets)) {
+    return [];
+  }
+  return (facets as AppViewFacet[])
+    .map((facet) => ({
+      byteStart: facet?.index?.byteStart,
+      byteEnd: facet?.index?.byteEnd,
+      uri: facet?.features?.find(
+        (feature) => feature?.$type === "app.bsky.richtext.facet#link",
+      )?.uri,
+    }))
+    .filter(isWebLink);
+}
+
 function normalizeNode(
   node: AppViewThread,
   hiddenUris: ReadonlySet<string>,
@@ -147,6 +180,7 @@ function normalizeNode(
     cid: post.cid,
     author: normalizeAuthor(post.author),
     text: post.record?.text || "",
+    links: linksFromFacets(post.record?.facets),
     guest: false,
     pseudonym: null,
     likeCount: post.likeCount || 0,
@@ -206,6 +240,7 @@ function withDefaults(post: ShapedPost): ShapedPost {
     ...post,
     author: post.author || { displayName: null, avatar: null },
     text: post.text || "",
+    links: Array.isArray(post.links) ? post.links.filter(isWebLink) : [],
     guest: Boolean(post.guest),
     pseudonym: post.pseudonym ?? null,
     likeCount: post.likeCount || 0,

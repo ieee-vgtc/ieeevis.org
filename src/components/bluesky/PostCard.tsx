@@ -25,6 +25,7 @@ import {
   displayPost,
   formatRelativeTime,
   likeCountOf,
+  linkSegments,
   postUrl,
   profileUrl,
 } from "./format";
@@ -474,7 +475,26 @@ export default function PostCard({
           whiteSpace: "pre-wrap",
         }}
       >
-        {body}
+        {linkSegments(
+          post.text,
+          post.links,
+          post.text.length - body.length,
+        ).map((segment, i) =>
+          segment.uri ? (
+            <a
+              href={segment.uri}
+              key={i}
+              rel="noopener noreferrer nofollow ugc"
+              style={{ color: "var(--color-accent)" }}
+              target="_blank"
+              title={segment.uri}
+            >
+              {segment.text}
+            </a>
+          ) : (
+            segment.text
+          ),
+        )}
       </p>
       <EmbedImages images={post.embedImages} />
       <EmbedCard embed={post.embed} />
