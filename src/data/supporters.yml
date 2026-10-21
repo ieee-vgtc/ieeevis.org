@@ -54,6 +54,9 @@
     - name: "Salesforce/Tableau"
       image: /assets/supporters/tableau.png
       url: "https://www.tableau.com/"
+    - name: "Open Visualization Academy"
+      image: /assets/supporters/open-visualization-academy.png
+      url: "https://openvisualizationacademy.org/"
 #      - name: "VRVis"
 #        image: /assets/supporters/vrvis.png
 #        url: "https://www.vrvis.at/en/"
