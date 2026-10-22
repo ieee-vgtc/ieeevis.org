@@ -176,6 +176,7 @@ interface CommentComposerProps {
   onSignInToHideName?: () => void;
   onAnonymousChange: (anonymous: boolean) => void;
   onActivity: () => void;
+  onSignOutOfBluesky: () => void;
   /**
    * Posts the text and calls `clearDraft` once the post exists. A thrown
    * error's message is shown to the reader.
@@ -199,6 +200,7 @@ export default function CommentComposer({
   onSignInToHideName,
   onAnonymousChange,
   onActivity,
+  onSignOutOfBluesky,
   onSubmit,
   onCancel,
   autoFocus = false,
@@ -356,8 +358,15 @@ export default function CommentComposer({
         {nativeHandle && (
           <small style={hintTextStyle}>
             {anonymous
-              ? "Posted through the guest posting service."
-              : "Posted from your Bluesky account."}
+              ? "Posting through the guest posting service."
+              : "Posting from your Bluesky account."}{" "}
+            <button
+              onClick={onSignOutOfBluesky}
+              style={{ ...textButtonStyle, fontSize: "inherit" }}
+              type="button"
+            >
+              Log out
+            </button>
           </small>
         )}
 

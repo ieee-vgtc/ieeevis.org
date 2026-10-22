@@ -1152,6 +1152,7 @@ export default function BlueskyDiscussion({
     onSignInToHideName: native && needsVisSignIn ? signInToVis : undefined,
     onAnonymousChange: setAnonymous,
     onActivity: markInteraction,
+    onSignOutOfBluesky: () => void bluesky.signOut(),
   };
 
   // The like control is the same on the root and every reply; the discussion
@@ -1312,19 +1313,22 @@ export default function BlueskyDiscussion({
       )}
 
       {/* The same login as on the account page; saving the handle is offered
-          by SaveHandlePrompt below instead, so it is not offered twice. */}
-      <div
-        className={offerVisSignIn ? "grid gap-3 md:grid-cols-2" : undefined}
-        style={{ margin: "0.75rem 0" }}
-      >
-        <BlueskyLoginSection
-          bluesky={bluesky}
-          headingLevel="h3"
-          linkedHandle={linkedHandle}
-          onSignIn={signInWithBluesky}
-        />
-        {offerVisSignIn && <VisSignInBox onSignIn={signInToVis} />}
-      </div>
+          by SaveHandlePrompt below instead, so it is not offered twice. Once
+          signed in, the composer says so and offers the sign-out. */}
+      {!native && (
+        <div
+          className={offerVisSignIn ? "grid gap-3 md:grid-cols-2" : undefined}
+          style={{ margin: "0.75rem 0" }}
+        >
+          <BlueskyLoginSection
+            bluesky={bluesky}
+            headingLevel="h3"
+            linkedHandle={linkedHandle}
+            onSignIn={signInWithBluesky}
+          />
+          {offerVisSignIn && <VisSignInBox onSignIn={signInToVis} />}
+        </div>
+      )}
 
       {offerHandleSave && (
         <SaveHandlePrompt
