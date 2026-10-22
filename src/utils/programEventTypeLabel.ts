@@ -41,13 +41,13 @@ type TypeLayout = { label: string; types: string[]; rest?: boolean }[];
 export const programTypeLayout: TypeLayout = [
   {
     label: "",
-    types: ["full", "short", "cluster", "visap", "cg&a", "tvcg", "poster"],
+    types: ["full", "short", "cluster", "visap", "panel"],
   },
   {
     label: "Plenary & Community",
     types: ["plenary", "governance", "invite-only", "keynote", "invited-talk"],
   },
-  { label: "Other Events", types: ["panel"], rest: true },
+  { label: "Other Events", types: [], rest: true },
 ];
 
 // Same, for the presented research (papers) browser.
