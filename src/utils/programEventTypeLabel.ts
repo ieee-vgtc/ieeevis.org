@@ -8,8 +8,8 @@ function toTitleLabel(input: string): string {
 
 export function getProgramEventTypeLabel(eventType: string): string {
   const labels: Record<string, string> = {
-    full: "VIS Full Papers",
-    short: "VIS Short Papers",
+    full: "Full Papers",
+    short: "Short Papers",
     tvcg: "TVCG Papers",
     "cg&a": "CG&A Papers",
     vis: "Conference Events",
@@ -17,10 +17,10 @@ export function getProgramEventTypeLabel(eventType: string): string {
     governance: "Governance",
     "invite-only": "Invite Only",
     cluster: "Practitioner Summit",
-    visap: "VIS Arts Program",
-    poster: "VIS Posters",
+    visap: "Arts Program",
+    poster: "Posters",
     invited: "Invited Partnership Presentations",
-    panel: "VIS Panels",
+    panel: "Panels",
     tutorial: "Tutorials",
     workshop: "Workshops",
     associated: "Associated Events",
@@ -39,12 +39,15 @@ type TypeLayout = { label: string; types: string[]; rest?: boolean }[];
 // this order. A group with no label is shown as plain pills; a labeled group
 // is collapsed into a dropdown. Types not listed land in the `rest` group.
 export const programTypeLayout: TypeLayout = [
-  { label: "", types: ["full", "short", "cluster", "cg&a", "tvcg", "poster"] },
+  {
+    label: "",
+    types: ["full", "short", "cluster", "visap", "cg&a", "tvcg", "poster"],
+  },
   {
     label: "Plenary & Community",
     types: ["plenary", "governance", "invite-only", "keynote", "invited-talk"],
   },
-  { label: "Other Events", types: ["panel", "visap"], rest: true },
+  { label: "Other Events", types: ["panel"], rest: true },
 ];
 
 // Same, for the presented research (papers) browser.
@@ -90,4 +93,17 @@ export function groupProgramTypeOptions<T extends { value: string }>(
       const pb = position(b.value);
       return pa.group - pb.group || pa.within - pb.within;
     });
+}
+
+// Cards keep the "VIS" prefix that the filter labels drop.
+const cardLabelOverrides: Record<string, string> = {
+  full: "VIS Full Papers",
+  short: "VIS Short Papers",
+  visap: "VIS Arts Program",
+  poster: "VIS Posters",
+  panel: "VIS Panels",
+};
+
+export function getProgramEventTypeCardLabel(eventType: string): string {
+  return cardLabelOverrides[eventType] || getProgramEventTypeLabel(eventType);
 }

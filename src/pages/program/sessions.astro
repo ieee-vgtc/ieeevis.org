@@ -4,6 +4,7 @@ import ProgramHeader from "../../components/ProgramHeader.astro";
 import ProgramCard from "../../components/ProgramCard.astro";
 import { fetchAllSessions } from "../../utils/paperData";
 import {
+  getProgramEventTypeCardLabel,
   getProgramEventTypeLabel,
   groupProgramTypeOptions,
   programTypeDropdownGroups,
@@ -85,7 +86,7 @@ const sessions: SessionListItem[] = Object.values(sessionList)
         title: `${session.title}`,
         eventTitle: eventDefinition.long_name,
         eventType,
-        eventTypeLabel: getProgramEventTypeLabel(eventType),
+        eventTypeLabel: getProgramEventTypeCardLabel(eventType),
         dayKey,
         room: session.room_name,
         chairs: session.chair || [],
