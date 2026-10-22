@@ -8,7 +8,7 @@ import {
   groupProgramTypeOptions,
   programTypeDropdownGroups,
 } from "../../utils/programEventTypeLabel";
-import { typeColors } from "../../utils/week-of-utils";
+import { typeColors, textColorFor } from "../../utils/week-of-utils";
 
 // TODO make environment variable to easily set up for future years
 const CONFERENCE_TIME_ZONE = "US/Eastern";
@@ -47,18 +47,6 @@ type PlacedCalendarSession = CalendarSession & {
 type RoomCalendarSession = PlacedCalendarSession & {
   roomSpan: number;
 };
-
-/** Return white or near-black depending on the relative luminance of a hex color. */
-function contrastColor(hex: string): string {
-  const h = hex.replace("#", "");
-  const r = parseInt(h.slice(0, 2), 16) / 255;
-  const g = parseInt(h.slice(2, 4), 16) / 255;
-  const b = parseInt(h.slice(4, 6), 16) / 255;
-  const toLinear = (c: number) =>
-    c <= 0.04045 ? c / 12.92 : ((c + 0.055) / 1.055) ** 2.4;
-  const L = 0.2126 * toLinear(r) + 0.7152 * toLinear(g) + 0.0722 * toLinear(b);
-  return L > 0.179 ? "#0f172a" : "#ffffff";
-}
 
 function getDateParts(date: Date, timeZone: string) {
   const formatter = new Intl.DateTimeFormat("en-US", {
@@ -177,9 +165,7 @@ const combinedHalls2026: Record<string, string[]> = {
 
 /** The physical rooms of a room name, with each combined hall expanded. */
 const physicalRoomNames = (roomName: string) =>
-  splitRoomNames(roomName).flatMap(
-    (part) => combinedHalls2026[part] ?? [part],
-  );
+  splitRoomNames(roomName).flatMap((part) => combinedHalls2026[part] ?? [part]);
 
 const getSharedSessionKey = (session: CalendarSession) =>
   [
@@ -466,11 +452,13 @@ const dayOptions = dayGroups.map((dayGroup) => ({
   label: `${dayGroup.weekdayLabel}`,
 }));
 
-const typeOptions = groupProgramTypeOptions(sortedTypes.map((sessionType) => ({
-  value: sessionType,
-  label: getProgramEventTypeLabel(sessionType),
-  color: typeColors[sessionType] || "#6b7280",
-})));
+const typeOptions = groupProgramTypeOptions(
+  sortedTypes.map((sessionType) => ({
+    value: sessionType,
+    label: getProgramEventTypeLabel(sessionType),
+    color: typeColors[sessionType] || "#6b7280",
+  })),
+);
 
 const roomDayGroups = dayGroups.map((dayGroup) => {
   const orderedRooms = Array.from(
@@ -680,7 +668,7 @@ const frontmatter = {
                     const isSolo = session.laneCount === 1;
                     const accentHex =
                       typeColors[session.eventType] || "#6b7280";
-                    const fgColor = contrastColor(accentHex);
+                    const fgColor = textColorFor(accentHex);
                     return (
                       <button
                         type="button"
@@ -817,7 +805,7 @@ const frontmatter = {
                       );
                       const accentHex =
                         typeColors[session.eventType] || "#6b7280";
-                      const fgColor = contrastColor(accentHex);
+                      const fgColor = textColorFor(accentHex);
 
                       return (
                         <button
@@ -1237,7 +1225,9 @@ const frontmatter = {
         setParam("type", activeTypeFilter, ALL_FILTER);
         setParam(
           "q",
-          searchInput instanceof HTMLInputElement ? searchInput.value.trim() : "",
+          searchInput instanceof HTMLInputElement
+            ? searchInput.value.trim()
+            : "",
           "",
         );
         setParam("tz", getMode(), "conference");
@@ -1297,7 +1287,8 @@ const frontmatter = {
             const startOf = (c: HTMLElement) =>
               Number(c.style.getPropertyValue("--session-start-minute"));
             const endOf = (c: HTMLElement) =>
-              startOf(c) + Number(c.style.getPropertyValue("--session-duration"));
+              startOf(c) +
+              Number(c.style.getPropertyValue("--session-duration"));
 
             // Rooms keep their original left-to-right order.
             const rooms = new Map<string, HTMLElement[]>();
@@ -1315,7 +1306,9 @@ const frontmatter = {
             for (const roomCards of orderedRooms) {
               const offset = laneCount;
               const active: { lane: number; end: number }[] = [];
-              for (const card of roomCards.sort((a, b) => startOf(a) - startOf(b))) {
+              for (const card of roomCards.sort(
+                (a, b) => startOf(a) - startOf(b),
+              )) {
                 for (let i = active.length - 1; i >= 0; i -= 1) {
                   if (active[i].end <= startOf(card)) active.splice(i, 1);
                 }
