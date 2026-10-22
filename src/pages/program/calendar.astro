@@ -8,7 +8,11 @@ import {
   groupProgramTypeOptions,
   programTypeDropdownGroups,
 } from "../../utils/programEventTypeLabel";
-import { displayRoomName, typeColors, textColorFor } from "../../utils/week-of-utils";
+import {
+  displayRoomName,
+  typeColors,
+  textColorFor,
+} from "../../utils/week-of-utils";
 
 // TODO make environment variable to easily set up for future years
 const CONFERENCE_TIME_ZONE = "US/Eastern";
@@ -700,7 +704,7 @@ const frontmatter = {
                               {displayRoomName(session.room)}
                             </span>
                           </span>
-                        </span>
+                        )}
                       </button>
                     );
                   })}
