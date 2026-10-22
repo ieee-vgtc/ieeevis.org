@@ -4,10 +4,48 @@
 import { postUrl } from "./format";
 import type { EmbedImage, PostEmbed } from "./types";
 
-/** A grid of thumbnails, each linking to the full-size image. */
+// Tall enough to make out an image, short enough to keep the thread readable.
+const IMAGE_MAX_HEIGHT = "300px";
+const GRID_THUMB_MAX_WIDTH = "180px";
+
+const imageFrameStyle = {
+  borderRadius: "0.5rem",
+  border: "1px solid var(--color-gray-300)",
+} as const;
+
+/** One image shown whole, at most `IMAGE_MAX_HEIGHT` tall. */
+const singleImageStyle = {
+  ...imageFrameStyle,
+  display: "block",
+  maxWidth: "100%",
+  maxHeight: IMAGE_MAX_HEIGHT,
+} as const;
+
+/**
+ * The attached images, each linking to its full size. A single image keeps its
+ * shape; several become a row of square thumbnails.
+ */
 export function EmbedImages({ images }: { images: EmbedImage[] }) {
   if (!images || images.length === 0) {
     return null;
+  }
+
+  if (images.length === 1) {
+    const [image] = images;
+    return (
+      <a
+        href={image.fullsize || image.thumb}
+        rel="noopener noreferrer"
+        style={{ display: "inline-block", marginTop: "0.5rem" }}
+        target="_blank"
+      >
+        <img
+          alt={image.alt || ""}
+          src={image.thumb || image.fullsize}
+          style={singleImageStyle}
+        />
+      </a>
+    );
   }
 
   return (
@@ -15,7 +53,7 @@ export function EmbedImages({ images }: { images: EmbedImage[] }) {
       style={{
         display: "grid",
         gap: "0.5rem",
-        gridTemplateColumns: "repeat(auto-fit, minmax(120px, 1fr))",
+        gridTemplateColumns: `repeat(auto-fill, minmax(120px, ${GRID_THUMB_MAX_WIDTH}))`,
         marginTop: "0.5rem",
       }}
     >
@@ -31,9 +69,11 @@ export function EmbedImages({ images }: { images: EmbedImage[] }) {
             alt={image.alt || ""}
             src={image.thumb || image.fullsize}
             style={{
+              ...imageFrameStyle,
+              display: "block",
               width: "100%",
-              borderRadius: "0.5rem",
-              border: "1px solid var(--color-gray-300)",
+              aspectRatio: "1",
+              objectFit: "cover",
             }}
           />
         </a>
@@ -86,13 +126,7 @@ export function EmbedCard({ embed }: { embed?: PostEmbed | null }) {
         <img
           alt={gifAltText(embed.description) || "GIF"}
           src={embed.thumb}
-          style={{
-            display: "block",
-            maxWidth: "100%",
-            maxHeight: "300px",
-            borderRadius: "0.5rem",
-            border: "1px solid var(--color-gray-300)",
-          }}
+          style={singleImageStyle}
         />
       </a>
     );
