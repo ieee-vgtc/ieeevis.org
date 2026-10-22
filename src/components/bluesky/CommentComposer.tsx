@@ -58,6 +58,105 @@ function truncateByline(name: string): string {
     : name;
 }
 
+interface HideNameToggleProps {
+  checked: boolean;
+  disabled: boolean;
+  onChange: (checked: boolean) => void;
+  /** Set when the reader must sign in first: the toggle then offers the link. */
+  onSignIn?: () => void;
+}
+
+/** The "Hide my name" switch, its note, and the sign-in link it may need. */
+function HideNameToggle({
+  checked,
+  disabled,
+  onChange,
+  onSignIn,
+}: HideNameToggleProps) {
+  return (
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        gap: "0.15rem",
+      }}
+    >
+      <style>
+        {
+          ".bsky-anon-toggle:focus-within .bsky-anon-track{outline:2px solid var(--color-accent);outline-offset:2px}"
+        }
+      </style>
+      <label
+        className="bsky-anon-toggle"
+        style={{
+          display: "inline-flex",
+          alignItems: "center",
+          gap: "0.45rem",
+          cursor: disabled ? "not-allowed" : "pointer",
+          opacity: onSignIn ? 0.6 : 1,
+        }}
+      >
+        <input
+          checked={checked}
+          disabled={disabled}
+          onChange={(event) => onChange(event.target.checked)}
+          style={visuallyHiddenStyle}
+          type="checkbox"
+        />
+        <span
+          className="bsky-anon-track"
+          style={{
+            position: "relative",
+            display: "inline-block",
+            width: "2rem",
+            height: "1.1rem",
+            borderRadius: "999px",
+            backgroundColor: checked
+              ? "var(--color-accent)"
+              : "var(--color-gray-400)",
+            transition: "background-color 150ms",
+            flexShrink: 0,
+          }}
+        >
+          <span
+            style={{
+              position: "absolute",
+              top: "0.15rem",
+              left: checked ? "0.98rem" : "0.15rem",
+              width: "0.8rem",
+              height: "0.8rem",
+              borderRadius: "50%",
+              backgroundColor: "#fff",
+              transition: "left 150ms",
+            }}
+          />
+        </span>
+        Hide my name
+      </label>
+
+      {checked && (
+        <small style={hintTextStyle}>
+          Your name is hidden from readers, not from conference organizers.
+        </small>
+      )}
+
+      {onSignIn && (
+        <small style={hintTextStyle}>
+          To post anonymously, you need to{" "}
+          <button
+            onClick={onSignIn}
+            style={{ ...textButtonStyle, fontSize: "inherit" }}
+            type="button"
+          >
+            log in
+          </button>
+          .
+        </small>
+      )}
+    </div>
+  );
+}
+
 interface CommentComposerProps {
   id: string;
   /** Shown in the empty textarea and read out as its label. */
@@ -109,8 +208,11 @@ export default function CommentComposer({
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  const showHideName = canHideName || Boolean(onSignInToHideName);
-  const hideNameDisabled = submitting || !canHideName;
+  const hideNameOption = canHideName
+    ? "available"
+    : onSignInToHideName
+      ? "needs-sign-in"
+      : "hidden";
 
   const remaining = limit - graphemeLength(draft);
   const bylineLabel = (who: string | null) =>
@@ -235,91 +337,20 @@ export default function CommentComposer({
           </button>
         )}
 
-        {showHideName && (
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              gap: "0.15rem",
+        {hideNameOption !== "hidden" && (
+          <HideNameToggle
+            checked={anonymous}
+            disabled={submitting || hideNameOption === "needs-sign-in"}
+            onChange={(checked) => {
+              onActivity();
+              onAnonymousChange(checked);
             }}
-          >
-            <style>
-              {
-                ".bsky-anon-toggle:focus-within .bsky-anon-track{outline:2px solid var(--color-accent);outline-offset:2px}"
-              }
-            </style>
-            <label
-              className="bsky-anon-toggle"
-              style={{
-                display: "inline-flex",
-                alignItems: "center",
-                gap: "0.45rem",
-                cursor: hideNameDisabled ? "default" : "pointer",
-                opacity: canHideName ? 1 : 0.6,
-              }}
-            >
-              <input
-                checked={anonymous}
-                disabled={hideNameDisabled}
-                onChange={(event) => {
-                  onActivity();
-                  onAnonymousChange(event.target.checked);
-                }}
-                style={visuallyHiddenStyle}
-                type="checkbox"
-              />
-              <span
-                className="bsky-anon-track"
-                style={{
-                  position: "relative",
-                  display: "inline-block",
-                  width: "2rem",
-                  height: "1.1rem",
-                  borderRadius: "999px",
-                  backgroundColor: anonymous
-                    ? "var(--color-accent)"
-                    : "var(--color-gray-400)",
-                  transition: "background-color 150ms",
-                  flexShrink: 0,
-                }}
-              >
-                <span
-                  style={{
-                    position: "absolute",
-                    top: "0.15rem",
-                    left: anonymous ? "0.98rem" : "0.15rem",
-                    width: "0.8rem",
-                    height: "0.8rem",
-                    borderRadius: "50%",
-                    backgroundColor: "#fff",
-                    transition: "left 150ms",
-                  }}
-                />
-              </span>
-              Hide my name
-            </label>
-
-            {anonymous && (
-              <small style={hintTextStyle}>
-                Your name is hidden from readers, not from conference
-                organizers.
-              </small>
-            )}
-
-            {!canHideName && onSignInToHideName && (
-              <small style={hintTextStyle}>
-                To post anonymously, you need to{" "}
-                <button
-                  onClick={onSignInToHideName}
-                  style={{ ...textButtonStyle, fontSize: "inherit" }}
-                  type="button"
-                >
-                  log in
-                </button>
-                .
-              </small>
-            )}
-          </div>
+            onSignIn={
+              hideNameOption === "needs-sign-in"
+                ? onSignInToHideName
+                : undefined
+            }
+          />
         )}
 
         {nativeHandle && (

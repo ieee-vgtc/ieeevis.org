@@ -579,6 +579,9 @@ export default function BlueskyDiscussion({
     thread?.state === "open" ? thread.post : undefined;
   /** Guest writes are bridged by the service; the AppView is read-only here. */
   const canWriteAsGuest = data?.source === "service" && hasToken;
+  // Guest writes are possible here, but the reader has not signed in to VIS.
+  const needsVisSignIn =
+    data?.source === "service" && tokenChecked && !hasToken;
   /** A Bluesky sign-in writes to the reader's own PDS, whatever the source. */
   const interactive = native !== null || canWriteAsGuest;
   /** Only the service knows the guest likes, so only it may show or rank by them. */
@@ -1137,11 +1140,6 @@ export default function BlueskyDiscussion({
     void login(`${currentPagePath()}#${sectionId}`);
   };
 
-  // Hiding the name needs the guest service, which needs a VIS sign-in. A
-  // reader with only a Bluesky sign-in sees the option with a way to get it.
-  const canSignInToHideName =
-    native !== null && data?.source === "service" && tokenChecked && !hasToken;
-
   const composerProps = {
     limit: commentLimit,
     nativeHandle: native?.profile.handle ?? null,
@@ -1149,7 +1147,9 @@ export default function BlueskyDiscussion({
     pseudonymByline: identity?.pseudonym || null,
     anonymous,
     canHideName: canWriteAsGuest || anonymous,
-    onSignInToHideName: canSignInToHideName ? signInToVis : undefined,
+    // Hiding the name needs the guest service, which needs a VIS sign-in. A
+    // reader with only a Bluesky sign-in sees the option with a way to get it.
+    onSignInToHideName: native && needsVisSignIn ? signInToVis : undefined,
     onAnonymousChange: setAnonymous,
     onActivity: markInteraction,
   };
@@ -1247,11 +1247,7 @@ export default function BlueskyDiscussion({
 
   // Offer the VIS sign-in only where it lets the reader write (the service
   // bridges guest comments) and only to a reader with no way to write yet.
-  const offerVisSignIn =
-    data?.source === "service" &&
-    tokenChecked &&
-    !hasToken &&
-    bluesky.session.status === "none";
+  const offerVisSignIn = needsVisSignIn && bluesky.session.status === "none";
 
   const signInWithBluesky = (input: string) => {
     markInteraction();
