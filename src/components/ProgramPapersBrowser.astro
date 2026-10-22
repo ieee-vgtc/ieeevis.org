@@ -99,25 +99,25 @@ const extraOptions = [
     value: "awards",
     label: "Awards",
     count: awardCount,
-    color: "#B7791F",
+    color: typeColors.awards,
   },
   {
     value: "workshop-awards",
     label: "Workshop Awards",
     count: workshopAwardCount,
-    color: "#B7791F",
+    color: typeColors["workshop-awards"],
   },
   {
     value: "accessible",
     label: "Accessible PDFs",
     count: accessibleCount,
-    color: "#2f6fb5",
+    color: typeColors.accessible,
   },
   {
     value: sessionRoleType,
     label: "Chairs, Organizers & Panelists",
     count: sessionRoles.length,
-    color: "#616161",
+    color: typeColors["session-role"],
   },
 ].filter((option) => option.count > 0);
 
