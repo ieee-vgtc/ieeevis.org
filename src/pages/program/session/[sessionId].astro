@@ -27,6 +27,9 @@ type EventPageProps = {
 };
 
 export async function getStaticPaths() {
+  // Events whose papers are not scheduled one-per-slot; the session page lists
+  // every paper under the event's prefix instead.
+  const eventPaperTypes = ["workshop", "challenge", "associated"];
   const [sessionList, papers] = await Promise.all([
     fetchAllSessions(),
     fetchAllPapers(),
@@ -45,7 +48,7 @@ export async function getStaticPaths() {
 
   for (const event of Object.values(sessionList)) {
     const eventPapers =
-      event.event_type === "workshop"
+      eventPaperTypes.includes((event.event_type || "").toLowerCase())
         ? (papersByEventPrefix.get(event.event_prefix) || [])
             .slice()
             .sort((a, b) => a.title.localeCompare(b.title))
@@ -82,8 +85,13 @@ export async function getStaticPaths() {
 }
 
 const { event, session, eventPapers } = Astro.props as EventPageProps;
+const eventPaperTypes = ["workshop", "challenge", "associated"];
 
-const presentations = [...session.time_slots].sort(
+// Placeholder slots (no paper, no authors) just repeat the event title; drop
+// them when the event's papers are listed instead.
+const presentations = [...session.time_slots]
+  .filter((slot) => eventPapers.length === 0 || slot.uid || slot.url)
+  .sort(
   (a, b) => Date.parse(a.time_start) - Date.parse(b.time_start),
 );
 
@@ -118,15 +126,23 @@ const programUrl = withBaseURL(
   `/program/sessions/?type=${encodeURIComponent(event.event_type || "other")}`,
 );
 
-// Workshops, tutorials, and panels are described as a whole rather than by
-// their presentations. Panels share one event, so their details live on the
-// session; workshops and tutorials are one event each.
-const describedEventTypes = ["workshop", "tutorial", "panel"];
+// Workshops, tutorials, panels, and the one-off event types (challenges,
+// associated events, meetups) are described as a whole rather than by their
+// presentations. Panels share one event, so their details live on the session;
+// the rest are one event each.
+const describedEventTypes = [
+  "workshop",
+  "tutorial",
+  "panel",
+  "challenge",
+  "associated",
+  "meetup",
+];
 const normalizedEventType = (event.event_type || "").toLowerCase();
 const isDescribedEvent = describedEventTypes.includes(normalizedEventType);
 const isPanel = normalizedEventType === "panel";
 const workshopPapers =
-  normalizedEventType === "workshop" && presentations.length === 0
+  eventPaperTypes.includes(normalizedEventType) && presentations.length === 0
     ? eventPapers
     : [];
 const usesOrganizerLabel = isPanel || normalizedEventType === "tutorial";
@@ -224,7 +240,7 @@ const frontmatter = {
         presentations.length > 0 ? (
           <h2>Presentations in this session</h2>
         ) : workshopPapers.length > 0 ? (
-          <h2>Workshop papers</h2>
+          <h2>Papers</h2>
         ) : (
           !description && <h2>Presentations in this session</h2>
         )
