@@ -703,16 +703,14 @@ const frontmatter = {
                         {...(isSolo ? { "data-solo": "" } : {})}
                         style={`--session-accent: ${accentHex}; --session-fg: ${fgColor}; --session-start-minute: ${session.startMinute}; --session-duration: ${durationMinutes}; --session-lane-index: ${session.laneIndex}; --session-lane-count: ${session.laneCount};`}
                       >
-                        {isSolo && (
-                          <span class="session-block-inline" aria-hidden="true">
-                            <span class="session-block-inline-name">
-                              {session.title}
-                            </span>
-                            <span class="session-block-inline-room">
-                              {session.room}
-                            </span>
+                        <span class="session-block-inline" aria-hidden="true">
+                          <span class="session-block-inline-name">
+                            {session.title}
                           </span>
-                        )}
+                          <span class="session-block-inline-room">
+                            {session.room}
+                          </span>
+                        </span>
                       </button>
                     );
                   })}
@@ -1264,6 +1262,81 @@ const frontmatter = {
         }
       };
 
+      // Lanes are assigned at build time for every session. When filters hide
+      // some, repack the visible sessions of each overlap cluster so they
+      // expand to fill the day column (a lone session spans its full width).
+      const relayoutVisibleSessions = () => {
+        // The per-room view has one column per room, so only the all-days
+        // timeline needs repacking.
+        const tracks = document.querySelectorAll<HTMLElement>(
+          ".calendar-day-track:not(.calendar-room-timeline *)",
+        );
+        for (const track of tracks) {
+          const clusters = new Map<string, HTMLElement[]>();
+          for (const card of track.querySelectorAll<HTMLElement>(
+            "[data-session-card]",
+          )) {
+            const style = card.style;
+            if (!card.dataset.baseLane) {
+              card.dataset.baseLane = style.getPropertyValue(
+                "--session-lane-index",
+              );
+              card.dataset.baseLaneCount = style.getPropertyValue(
+                "--session-lane-count",
+              );
+            }
+            if (card.hidden) continue;
+            const key = card.dataset.clusterKey || "";
+            const list = clusters.get(key) || [];
+            list.push(card);
+            clusters.set(key, list);
+          }
+
+          for (const cards of clusters.values()) {
+            const baseLane = (c: HTMLElement) => Number(c.dataset.baseLane);
+            const startOf = (c: HTMLElement) =>
+              Number(c.style.getPropertyValue("--session-start-minute"));
+            const endOf = (c: HTMLElement) =>
+              startOf(c) + Number(c.style.getPropertyValue("--session-duration"));
+
+            // Rooms keep their original left-to-right order.
+            const rooms = new Map<string, HTMLElement[]>();
+            for (const card of cards) {
+              const room = card.dataset.sessionRoom || "";
+              rooms.set(room, [...(rooms.get(room) || []), card]);
+            }
+            const orderedRooms = [...rooms.values()].sort(
+              (a, b) =>
+                Math.min(...a.map(baseLane)) - Math.min(...b.map(baseLane)),
+            );
+
+            let laneCount = 0;
+            const placed: [HTMLElement, number][] = [];
+            for (const roomCards of orderedRooms) {
+              const offset = laneCount;
+              const active: { lane: number; end: number }[] = [];
+              for (const card of roomCards.sort((a, b) => startOf(a) - startOf(b))) {
+                for (let i = active.length - 1; i >= 0; i -= 1) {
+                  if (active[i].end <= startOf(card)) active.splice(i, 1);
+                }
+                const occupied = new Set(active.map((a) => a.lane));
+                let lane = offset;
+                while (occupied.has(lane)) lane += 1;
+                active.push({ lane, end: endOf(card) });
+                placed.push([card, lane]);
+                laneCount = Math.max(laneCount, lane + 1);
+              }
+            }
+
+            for (const [card, lane] of placed) {
+              card.style.setProperty("--session-lane-index", String(lane));
+              card.style.setProperty("--session-lane-count", String(laneCount));
+              card.toggleAttribute("data-solo", laneCount === 1);
+            }
+          }
+        }
+      };
+
       const applyFilters = (options?: UrlStateWriteOptions) => {
         const selectedDay = getSelectedDay();
         const query = getSearchQuery();
@@ -1275,10 +1348,15 @@ const frontmatter = {
         }
 
         for (const group of dayGroups) {
+          // Room timelines keep their frame when a filter leaves them empty;
+          // applyDayLayout decides when they show.
+          if (group.hasAttribute("data-room-timeline")) continue;
           group.hidden = !group.querySelector(
             "[data-session-card]:not([hidden])",
           );
         }
+
+        relayoutVisibleSessions();
 
         syncUrlState(options);
       };
@@ -1492,6 +1570,24 @@ const frontmatter = {
 
           activeTypeFilter = buttonType;
 
+          refreshFilterButtonState();
+          applyFilters();
+        });
+      }
+
+      // Clicking empty calendar space clears the selected event type.
+      for (const timeline of [dayTimelineScroll, roomTimelineContainer]) {
+        timeline?.addEventListener("click", (event) => {
+          if (activeTypeFilter === ALL_FILTER) return;
+          if (
+            event.target instanceof Element &&
+            event.target.closest(
+              "[data-session-card], [data-cluster-overlay], a, button, input, select, label",
+            )
+          )
+            return;
+
+          activeTypeFilter = ALL_FILTER;
           refreshFilterButtonState();
           applyFilters();
         });

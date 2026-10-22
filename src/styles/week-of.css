@@ -801,6 +801,10 @@
   z-index: 2;
 }
 
+.calendar-session-block:not([data-solo]) .session-block-inline {
+  display: none;
+}
+
 .session-block-inline {
   display: flex;
   flex-direction: column;
