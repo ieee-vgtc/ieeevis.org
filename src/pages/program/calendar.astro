@@ -563,7 +563,6 @@ const frontmatter = {
   <section
     class="program-calendar"
     data-conference-timezone={CONFERENCE_TIME_ZONE}
-    data-local-storage-key="program-calendar-timezone-mode"
   >
     <ProgramHeader
       title="Conference Calendar"
@@ -600,7 +599,7 @@ const frontmatter = {
         style={`--calendar-day-count: ${dayGroups.length}; --calendar-column-count: ${dayGroups.length}; --timeline-height: ${timelineHeightPx}px; --timeline-start-minute: ${timelineStartMinute}; --timeline-minute-span: ${timelineMinuteSpan};`}
       >
         <div class="calendar-timeline-header">
-          <div class="calendar-time-header" data-time-header>Time</div>
+          <div class="calendar-time-header" data-time-header>Boston</div>
           {
             dayGroups.map((dayGroup) => (
               <div class="calendar-day-header-compact">
@@ -754,7 +753,7 @@ const frontmatter = {
           >
             <div class="calendar-timeline-header">
               <div class="calendar-time-header" data-time-header>
-                Time
+                Boston
               </div>
               {dayGroup.rooms.map((roomGroup) => (
                 <div
@@ -947,6 +946,10 @@ const frontmatter = {
 
   <script>
     import {
+      getSavedTimezoneMode,
+      saveTimezoneMode,
+    } from "../../utils/timezoneMode";
+    import {
       createUrlStateHistory,
       type UrlStateWriteOptions,
     } from "../../utils/urlStateHistory";
@@ -957,9 +960,6 @@ const frontmatter = {
 
       const conferenceTimeZone =
         root.getAttribute("data-conference-timezone") || "UTC";
-      const localStorageKey =
-        root.getAttribute("data-local-storage-key") ||
-        "program-calendar-timezone-mode";
       const localTimeZone =
         Intl.DateTimeFormat().resolvedOptions().timeZone || "UTC";
 
@@ -1145,10 +1145,10 @@ const frontmatter = {
         for (const header of timeHeaders) {
           header.textContent =
             mode === "conference"
-              ? "Time"
+              ? "Boston"
               : mode === "local"
-                ? "Local Time"
-                : "Time (Conf | Local)";
+                ? "Local"
+                : "Boston | Local";
         }
       };
 
@@ -1500,7 +1500,7 @@ const frontmatter = {
         });
       }
 
-      const savedMode = localStorage.getItem(localStorageKey);
+      const savedMode = getSavedTimezoneMode();
 
       const isTimezoneMode = (value: string | null) =>
         value === "conference" || value === "local" || value === "both";
@@ -1541,7 +1541,7 @@ const frontmatter = {
       // URL state takes precedence over saved preferences.
       restoreFromUrl(
         new URLSearchParams(window.location.search),
-        isTimezoneMode(savedMode) ? savedMode! : "conference",
+        savedMode,
       );
 
       if (timezoneControl) {
@@ -1555,7 +1555,7 @@ const frontmatter = {
           button.addEventListener("click", () => {
             const value = button.dataset.choiceValue;
             if (!value || !setChoiceValue(timezoneControl, value)) return;
-            localStorage.setItem(localStorageKey, value);
+            saveTimezoneMode(value);
             refreshTimeRanges();
             syncUrlState();
           });
@@ -1567,7 +1567,7 @@ const frontmatter = {
         timezoneSelect?.addEventListener("change", () => {
           const value = timezoneSelect.value;
           if (!setChoiceValue(timezoneControl, value)) return;
-          localStorage.setItem(localStorageKey, value);
+          saveTimezoneMode(value);
           refreshTimeRanges();
           syncUrlState();
         });

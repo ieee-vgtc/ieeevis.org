@@ -12,6 +12,7 @@ import type {
 } from "../../../types/program";
 import { getProgramEventTypeLabel } from "../../../utils/programEventTypeLabel";
 import { withBaseURL } from "../../../utils/withBaseURL";
+import TimezoneToggle from "../../../components/TimezoneToggle.astro";
 
 // The site runs output: "server" (needed for the Auth0 callback route), which
 // makes every page dynamic by default and silently ignores getStaticPaths()
@@ -181,8 +182,17 @@ const frontmatter = {
       </p>
       <p class="program-event-meta">
         <strong class="mr-2">Time:</strong>
-        {formatSessionDateTime(session.time_start, session.time_end)}
+        <span
+          data-tz-start={session.time_start}
+          data-tz-end={session.time_end}
+          data-tz-conference="US/Eastern"
+          data-tz-date
+          data-tz-suffix
+        >
+          {formatSessionDateTime(session.time_start, session.time_end)}
+        </span>
       </p>
+      <TimezoneToggle />
 
       {
         event.organizers.length > 0 && (
@@ -244,7 +254,12 @@ const frontmatter = {
       {
         presentations.map((slot) => (
           <section class="paper-section">
-            <p class="program-presentation-time">
+            <p
+              class="program-presentation-time"
+              data-tz-start={slot.time_start}
+              data-tz-end={slot.time_end}
+              data-tz-conference="US/Eastern"
+            >
               {formatSlotRange(slot.time_start, slot.time_end)}
             </p>
             {slot.uid ? (

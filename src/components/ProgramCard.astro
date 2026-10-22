@@ -13,11 +13,17 @@ type Props = {
   peopleLabel?: string;
   people?: { name: string; href?: string }[];
   notes?: string[];
+  /** Schedule text; pages rewrite `.js-time-range` for the timezone setting. */
+  scheduleLabel?: string;
   links?: {
     label: string;
     href?: string;
     icon?: string;
     disabledTitle?: string;
+    /** Start time the label begins with; rewritten for the timezone setting. */
+    startISO?: string;
+    /** Label text following the time, e.g. " - Session title". */
+    labelSuffix?: string;
   }[];
   bookmark?: {
     bookmarked: boolean;
@@ -38,6 +44,7 @@ const {
   peopleLabel,
   people = [],
   notes = [],
+  scheduleLabel,
   links = [],
   bookmark,
   accentColor = "#6b7280",
@@ -145,6 +152,13 @@ const style = [
     }
     <div>
       {notes.map((note) => <p class="program-card__note">{note}</p>)}
+      {
+        scheduleLabel && (
+          <p class="program-card__note">
+            Schedule: <span class="js-time-range">{scheduleLabel}</span>
+          </p>
+        )
+      }
 
       {
         links.length > 0 && (
@@ -164,7 +178,22 @@ const style = [
                     class="program-card__action-link"
                     href={withBaseURL(link.href)}
                   >
-                    {link.label}
+                    {link.startISO ? (
+                      <>
+                        <span
+                          data-tz-instant={link.startISO}
+                          data-tz-conference="US/Eastern"
+                        >
+                          {link.label.slice(
+                            0,
+                            link.label.length - (link.labelSuffix?.length ?? 0),
+                          )}
+                        </span>
+                        {link.labelSuffix}
+                      </>
+                    ) : (
+                      link.label
+                    )}
                   </a>
                 ) : (
                   <span
