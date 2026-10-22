@@ -39,7 +39,7 @@ interface Point {
   top: number;
 }
 
-function prefersReducedMotion(): boolean {
+export function prefersReducedMotion(): boolean {
   return (
     typeof window !== "undefined" &&
     typeof window.matchMedia === "function" &&

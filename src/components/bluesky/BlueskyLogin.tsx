@@ -71,7 +71,7 @@ export default function BlueskyLogin({
       <div style={bandStyle}>
         <span style={messageStyle}>
           <span>
-            <BlueskyIcon /> You are logged in to Bluesky as @
+            <BlueskyIcon /> You are signed in to Bluesky as @
             {session.writer.profile.handle}.
           </span>
           <span style={reasonStyle}>
@@ -80,7 +80,7 @@ export default function BlueskyLogin({
         </span>
         <span style={actionsStyle}>
           <button onClick={onSignOut} style={buttonStyle} type="button">
-            Log out
+            Sign out
           </button>
           {viewLink}
         </span>
@@ -94,7 +94,7 @@ export default function BlueskyLogin({
         <span style={messageStyle}>
           {session.status === "restoring" ? (
             <>
-              <BlueskyIcon /> Restoring your Bluesky login…
+              <BlueskyIcon /> Restoring your Bluesky sign-in…
             </>
           ) : (
             <>
@@ -168,7 +168,7 @@ export default function BlueskyLogin({
           )}
         </span>
         <span style={reasonStyle}>
-          Log in to comment and like from your own account instead of as a VIS
+          Sign in to comment and like from your own account instead of as a VIS
           attendee.
         </span>
         {error && <span style={errorTextStyle}>{error}</span>}
@@ -182,7 +182,7 @@ export default function BlueskyLogin({
               style={primaryButtonStyle}
               type="button"
             >
-              {busy ? "Opening Bluesky…" : `Log in as @${linkedHandle}`}
+              {busy ? "Opening Bluesky…" : `Sign in as @${linkedHandle}`}
             </button>
             <button
               disabled={busy}
@@ -200,7 +200,7 @@ export default function BlueskyLogin({
             style={primaryButtonStyle}
             type="button"
           >
-            {busy ? "Opening Bluesky…" : "Log in with Bluesky"}
+            {busy ? "Opening Bluesky…" : "Sign in with Bluesky"}
           </button>
         )}
         <button
