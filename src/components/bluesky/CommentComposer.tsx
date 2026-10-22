@@ -14,6 +14,7 @@ import {
   hintTextStyle,
   primaryButtonStyle,
   secondaryButtonStyle,
+  textButtonStyle,
 } from "./styles";
 
 // How much of the byline the "Comment as …" button shows before ellipsis, so a
@@ -69,6 +70,11 @@ interface CommentComposerProps {
   pseudonymByline: string | null;
   anonymous: boolean;
   canHideName: boolean;
+  /**
+   * Set when the name could be hidden after a VIS sign-in. The option then
+   * shows, disabled, with a link to sign in.
+   */
+  onSignInToHideName?: () => void;
   onAnonymousChange: (anonymous: boolean) => void;
   onActivity: () => void;
   /**
@@ -91,6 +97,7 @@ export default function CommentComposer({
   pseudonymByline,
   anonymous,
   canHideName,
+  onSignInToHideName,
   onAnonymousChange,
   onActivity,
   onSubmit,
@@ -101,6 +108,9 @@ export default function CommentComposer({
   const [draft, setDraft] = useState("");
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
+
+  const showHideName = canHideName || Boolean(onSignInToHideName);
+  const hideNameDisabled = submitting || !canHideName;
 
   const remaining = limit - graphemeLength(draft);
   const bylineLabel = (who: string | null) =>
@@ -225,7 +235,7 @@ export default function CommentComposer({
           </button>
         )}
 
-        {canHideName && (
+        {showHideName && (
           <div
             style={{
               display: "flex",
@@ -244,12 +254,13 @@ export default function CommentComposer({
                 display: "inline-flex",
                 alignItems: "center",
                 gap: "0.45rem",
-                cursor: submitting ? "default" : "pointer",
+                cursor: hideNameDisabled ? "default" : "pointer",
+                opacity: canHideName ? 1 : 0.6,
               }}
             >
               <input
                 checked={anonymous}
-                disabled={submitting}
+                disabled={hideNameDisabled}
                 onChange={(event) => {
                   onActivity();
                   onAnonymousChange(event.target.checked);
@@ -292,6 +303,20 @@ export default function CommentComposer({
               <small style={hintTextStyle}>
                 Your name is hidden from readers, not from conference
                 organizers.
+              </small>
+            )}
+
+            {!canHideName && onSignInToHideName && (
+              <small style={hintTextStyle}>
+                To post anonymously, you need to{" "}
+                <button
+                  onClick={onSignInToHideName}
+                  style={{ ...textButtonStyle, fontSize: "inherit" }}
+                  type="button"
+                >
+                  log in
+                </button>
+                .
               </small>
             )}
           </div>

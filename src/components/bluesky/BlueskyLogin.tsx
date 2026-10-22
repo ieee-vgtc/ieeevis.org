@@ -20,6 +20,7 @@ import {
   errorTextStyle,
   primaryButtonStyle,
   secondaryButtonStyle,
+  textButtonStyle,
 } from "./styles";
 import type { BlueskySession } from "./useBlueskySession";
 
@@ -286,18 +287,6 @@ const buttonStyle: CSSProperties = {
   ...secondaryButtonStyle,
   border: "1px solid var(--color-gray-400)",
   color: "var(--color-accent)",
-};
-
-/** A link-like button for the rare case, so it does not compete with the real one. */
-const textButtonStyle: CSSProperties = {
-  border: "none",
-  background: "none",
-  padding: 0,
-  color: "var(--color-accent)",
-  cursor: "pointer",
-  fontFamily: "inherit",
-  fontSize: "0.82rem",
-  textDecoration: "underline",
 };
 
 // The site's prose links carry a dashed border-bottom (.content a); this one

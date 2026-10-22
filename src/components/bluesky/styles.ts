@@ -37,6 +37,18 @@ export const hintTextStyle: CSSProperties = {
   color: "var(--color-gray-600)",
 };
 
+/** A link-like button for the rare case, so it does not compete with the real one. */
+export const textButtonStyle: CSSProperties = {
+  border: "none",
+  background: "none",
+  padding: 0,
+  color: "var(--color-accent)",
+  cursor: "pointer",
+  fontFamily: "inherit",
+  fontSize: "0.82rem",
+  textDecoration: "underline",
+};
+
 export const errorTextStyle: CSSProperties = {
   fontSize: "0.82rem",
   color: "#b91c1c",

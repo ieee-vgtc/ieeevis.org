@@ -1132,6 +1132,16 @@ export default function BlueskyDiscussion({
     activeDeltas,
   );
 
+  const signInToVis = () => {
+    markInteraction();
+    void login(`${currentPagePath()}#${sectionId}`);
+  };
+
+  // Hiding the name needs the guest service, which needs a VIS sign-in. A
+  // reader with only a Bluesky sign-in sees the option with a way to get it.
+  const canSignInToHideName =
+    native !== null && data?.source === "service" && tokenChecked && !hasToken;
+
   const composerProps = {
     limit: commentLimit,
     nativeHandle: native?.profile.handle ?? null,
@@ -1139,6 +1149,7 @@ export default function BlueskyDiscussion({
     pseudonymByline: identity?.pseudonym || null,
     anonymous,
     canHideName: canWriteAsGuest || anonymous,
+    onSignInToHideName: canSignInToHideName ? signInToVis : undefined,
     onAnonymousChange: setAnonymous,
     onActivity: markInteraction,
   };
@@ -1316,14 +1327,7 @@ export default function BlueskyDiscussion({
           linkedHandle={linkedHandle}
           onSignIn={signInWithBluesky}
         />
-        {offerVisSignIn && (
-          <VisSignInBox
-            onSignIn={() => {
-              markInteraction();
-              void login(`${currentPagePath()}#${sectionId}`);
-            }}
-          />
-        )}
+        {offerVisSignIn && <VisSignInBox onSignIn={signInToVis} />}
       </div>
 
       {offerHandleSave && (
