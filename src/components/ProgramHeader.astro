@@ -9,7 +9,7 @@ type DayOption = {
 type TypeOption = {
   value: string;
   label: string;
-  count: number;
+  count?: number;
   color?: string;
   /** Options sharing a group are shown together under a small label. */
   group?: string;
@@ -253,7 +253,9 @@ const isGrouped = typeGroups.some((group) => group.label);
                     aria-pressed="false"
                   >
                     <span>{typeOption.label}</span>
-                    <span class="u-filter-count">{typeOption.count}</span>
+                    {typeOption.count !== undefined && (
+<span class="u-filter-count">{typeOption.count}</span>
+)}
                   </button>
                 ))}
               </div>
@@ -268,7 +270,9 @@ const isGrouped = typeGroups.some((group) => group.label);
               aria-pressed="false"
             >
               <span>{typeOption.label}</span>
-              <span class="u-filter-count">{typeOption.count}</span>
+              {typeOption.count !== undefined && (
+<span class="u-filter-count">{typeOption.count}</span>
+)}
             </button>
           ))
           )}

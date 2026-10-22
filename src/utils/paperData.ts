@@ -121,6 +121,30 @@ function breakOutEventTypes(list: ProgramSessionList): ProgramSessionList {
       };
     }
   }
+  // The remaining conference sessions split into plenary (most of the
+  // conference), governance (business meetings, next year's kickoff), and
+  // invite-only (the Doctoral Colloquium).
+  const dc = list["c-doctorial-colloquium"];
+  if (dc) {
+    dc.event_type = "invite-only";
+  }
+  const plenary = list["conf"];
+  if (plenary) {
+    const isGovernance = (title: string) =>
+      /kick-?off|town ?hall|business meeting|governance/i.test(title);
+    const governanceSessions = plenary.sessions.filter((s) =>
+      isGovernance(s.title),
+    );
+    plenary.event_type = "plenary";
+    if (governanceSessions.length > 0) {
+      plenary.sessions = plenary.sessions.filter((s) => !isGovernance(s.title));
+      list["conf-governance"] = {
+        ...plenary,
+        event_type: "governance",
+        sessions: governanceSessions,
+      };
+    }
+  }
   return list;
 }
 

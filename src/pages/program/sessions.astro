@@ -3,7 +3,11 @@ import PageLayout from "../../layouts/PageLayout.astro";
 import ProgramHeader from "../../components/ProgramHeader.astro";
 import ProgramCard from "../../components/ProgramCard.astro";
 import { fetchAllSessions } from "../../utils/paperData";
-import { getProgramEventTypeLabel } from "../../utils/programEventTypeLabel";
+import {
+  getProgramEventTypeLabel,
+  groupProgramTypeOptions,
+  programTypeDropdownGroups,
+} from "../../utils/programEventTypeLabel";
 import { typeColors, typeTextColors } from "../../utils/week-of-utils";
 
 const CONFERENCE_TIME_ZONE = "US/Eastern";
@@ -129,12 +133,11 @@ const dayOptions = dayGroups.map((dayGroup) => ({
   // label: `${dayGroup.weekdayLabel}, ${dayGroup.dateLabel}`,
 }));
 
-const typeOptions = sortedTypes.map((sessionType) => ({
+const typeOptions = groupProgramTypeOptions(sortedTypes.map((sessionType) => ({
   value: sessionType,
   label: getProgramEventTypeLabel(sessionType),
-  count: typeCounts[sessionType],
   color: typeColors[sessionType] || "#df6824",
-}));
+})));
 const conferenceDateTimeFormatter = new Intl.DateTimeFormat("en-US", {
   timeZone: CONFERENCE_TIME_ZONE,
   weekday: "short",
@@ -219,7 +222,7 @@ function formatPeopleForSession(session: SessionListItem) {
       searchPlaceholder="Search title, room, event, chair, organizer"
       dayOptions={dayOptions}
       typeOptions={typeOptions}
-      allCount={sessions.length}
+      dropdownGroups={programTypeDropdownGroups}
       filterBarLabel="Session type filters"
     />
 

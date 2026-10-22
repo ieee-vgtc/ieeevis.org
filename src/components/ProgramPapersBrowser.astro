@@ -1,7 +1,12 @@
 ---
 import ProgramHeader from "./ProgramHeader.astro";
 import ProgramCard from "./ProgramCard.astro";
-import { getProgramEventTypeLabel } from "../utils/programEventTypeLabel";
+import {
+  getDropdownGroups,
+  getProgramEventTypeLabel,
+  groupProgramTypeOptions,
+  presentedResearchTypeLayout,
+} from "../utils/programEventTypeLabel";
 
 // Individual contributions are labeled differently from the sessions that hold them.
 const contributionLabels: Record<string, string> = {
@@ -72,14 +77,6 @@ const sessionRoleType = "session-role";
 const sessionRoleColor = "#e6e7e4";
 const sessionRoleTextColor = "#212121";
 
-// Pills are bundled by what they select: journal/conference papers, other kinds
-// of contributions (including chairs/organizers), and highlights.
-const paperGroupOrder = ["full", "short", "cg&a", "tvcg"];
-const rankPaperType = (value: string) => {
-  const index = paperGroupOrder.indexOf(value);
-  return index === -1 ? paperGroupOrder.length : index;
-};
-
 const contributionOptions = Object.keys(typeCounts)
   .filter((value) => value !== "tvcg")
   .map((value) => ({
@@ -87,90 +84,47 @@ const contributionOptions = Object.keys(typeCounts)
     label: getContributionLabel(value),
     count: typeCounts[value],
     color: typeColors[value] || "#6b7280",
-    group: paperGroupOrder.includes(value)
-      ? "Papers"
-      : value === "invited-talk"
-        ? "Highlights"
-        : "Other contributions",
   }))
-  .concat(
-    tvcgCount > 0
-      ? [
-          {
-            value: "tvcg",
-            label: getProgramEventTypeLabel("tvcg"),
-            count: tvcgCount,
-            color: typeColors.tvcg,
-            group: "Papers",
-          },
-        ]
-      : [],
-  )
-  .sort(
-    (a, b) =>
-      Number(a.group !== "Papers") - Number(b.group !== "Papers") ||
-      (a.group === "Papers"
-        ? rankPaperType(a.value) - rankPaperType(b.value)
-        : a.label.localeCompare(b.label)),
-  );
+  .sort((a, b) => a.label.localeCompare(b.label));
 
-// Papers first, then the dropdown groups; options within a group keep their order.
-const groupOrder = ["Papers", "Other contributions", "Highlights"];
+// Pill order and dropdown nesting come from presentedResearchTypeLayout.
+const extraOptions = [
+  {
+    value: "tvcg",
+    label: getProgramEventTypeLabel("tvcg"),
+    count: tvcgCount,
+    color: typeColors.tvcg,
+  },
+  {
+    value: "awards",
+    label: "Awards",
+    count: awardCount,
+    color: "#B7791F",
+  },
+  {
+    value: "workshop-awards",
+    label: "Workshop Awards",
+    count: workshopAwardCount,
+    color: "#B7791F",
+  },
+  {
+    value: "accessible",
+    label: "Accessible PDFs",
+    count: accessibleCount,
+    color: "#2f6fb5",
+  },
+  {
+    value: sessionRoleType,
+    label: "Chairs, Organizers & Panelists",
+    count: sessionRoles.length,
+    color: "#616161",
+  },
+].filter((option) => option.count > 0);
 
-const typeOptions = contributionOptions
-  .concat(
-    awardCount > 0
-      ? [
-          {
-            value: "awards",
-            label: "Awards",
-            count: awardCount,
-            color: "#B7791F",
-            group: "Highlights",
-          },
-        ]
-      : [],
-  )
-  .concat(
-    workshopAwardCount > 0
-      ? [
-          {
-            value: "workshop-awards",
-            label: "Workshop Awards",
-            count: workshopAwardCount,
-            color: "#B7791F",
-            group: "Highlights",
-          },
-        ]
-      : [],
-  )
-  .concat(
-    accessibleCount > 0
-      ? [
-          {
-            value: "accessible",
-            label: "Accessible PDFs",
-            count: accessibleCount,
-            color: "#2f6fb5",
-            group: "Highlights",
-          },
-        ]
-      : [],
-  )
-  .concat(
-    sessionRoles.length > 0
-      ? [
-          {
-            value: sessionRoleType,
-            label: "Chairs, Organizers & Panelists",
-            count: sessionRoles.length,
-            color: "#616161",
-            group: "Other contributions",
-          },
-        ]
-      : [],
-  )
-  .sort((a, b) => groupOrder.indexOf(a.group) - groupOrder.indexOf(b.group));
+const typeOptions = groupProgramTypeOptions(
+  [...contributionOptions, ...extraOptions],
+  presentedResearchTypeLayout,
+);
 ---
 
 <section
@@ -186,7 +140,7 @@ const typeOptions = contributionOptions
     typeOptions={typeOptions}
     filterBarLabel="Paper type filters"
     allLabel="All"
-    dropdownGroups={["Other contributions", "Highlights"]}
+    dropdownGroups={getDropdownGroups(presentedResearchTypeLayout)}
   >
     <div slot="extra-controls" class="papers-controls">
       <div class="u-primary-controls flex w-full justify-between">
