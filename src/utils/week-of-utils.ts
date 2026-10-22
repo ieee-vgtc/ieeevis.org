@@ -75,3 +75,9 @@ export const typeTextColors: Record<string, string> = Object.fromEntries(
     textColorFor(color),
   ]),
 );
+
+export const displayRoomName = (roomName: string) =>
+  roomName
+    .split("/")
+    .map((part) => part.trim().replace(/^hall\s+/i, ""))
+    .join(" / ");

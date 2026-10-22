@@ -8,7 +8,7 @@ import {
   groupProgramTypeOptions,
   programTypeDropdownGroups,
 } from "../../utils/programEventTypeLabel";
-import { typeColors, textColorFor } from "../../utils/week-of-utils";
+import { displayRoomName, typeColors, textColorFor } from "../../utils/week-of-utils";
 
 // TODO make environment variable to easily set up for future years
 const CONFERENCE_TIME_ZONE = "US/Eastern";
@@ -691,12 +691,14 @@ const frontmatter = {
                         {...(isSolo ? { "data-solo": "" } : {})}
                         style={`--session-accent: ${accentHex}; --session-fg: ${fgColor}; --session-start-minute: ${session.startMinute}; --session-duration: ${durationMinutes}; --session-lane-index: ${session.laneIndex}; --session-lane-count: ${session.laneCount};`}
                       >
-                        <span class="session-block-inline" aria-hidden="true">
-                          <span class="session-block-inline-name">
-                            {session.title}
-                          </span>
-                          <span class="session-block-inline-room">
-                            {session.room}
+                        {isSolo && (
+                          <span class="session-block-inline" aria-hidden="true">
+                            <span class="session-block-inline-name">
+                              {session.title}
+                            </span>
+                            <span class="session-block-inline-room">
+                              {displayRoomName(session.room)}
+                            </span>
                           </span>
                         </span>
                       </button>
@@ -750,7 +752,7 @@ const frontmatter = {
                   class="calendar-day-header-compact"
                   data-full-name={roomGroup.roomName}
                 >
-                  <h2>{roomGroup.roomName}</h2>
+                  <h2>{displayRoomName(roomGroup.roomName)}</h2>
                   <p>
                     {dayGroup.weekdayLabel}, {dayGroup.dateLabel}
                   </p>
@@ -835,7 +837,7 @@ const frontmatter = {
                               {session.title}
                             </span>
                             <span class="session-block-inline-room">
-                              {session.room}
+                              {displayRoomName(session.room)}
                             </span>
                           </span>
                         </button>
@@ -917,7 +919,7 @@ const frontmatter = {
                       {session.eventTypeLabel}
                     </span>
                     <span aria-hidden="true">·</span>
-                    <span>{session.room}</span>
+                    <span>{displayRoomName(session.room)}</span>
                   </p>
 
                   {session.chairs.length > 0 && (
@@ -1420,7 +1422,10 @@ const frontmatter = {
           );
           if (overlayName) overlayName.textContent = name;
           if (overlayRoom) {
-            let tempRoom = room;
+            let tempRoom = room
+              .split("/")
+              .map((part) => part.trim().replace(/^hall\s+/i, ""))
+              .join(" / ");
             if (room === "TBA") {
               tempRoom = "Room to be announced";
             }
