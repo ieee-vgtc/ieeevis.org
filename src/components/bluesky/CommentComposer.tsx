@@ -148,7 +148,7 @@ function HideNameToggle({
             style={{ ...textButtonStyle, fontSize: "inherit" }}
             type="button"
           >
-            log in
+            sign in
           </button>
           .
         </small>
@@ -365,7 +365,7 @@ export default function CommentComposer({
               style={{ ...textButtonStyle, fontSize: "inherit" }}
               type="button"
             >
-              Log out
+              Sign out
             </button>
           </small>
         )}
