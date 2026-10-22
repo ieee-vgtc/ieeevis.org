@@ -11,6 +11,7 @@ import { features } from "../../../config/pages-allow-list";
 import { withBaseURL } from "../../../utils/withBaseURL";
 import { getBskyHandle } from "../../../utils/bskyProfiles";
 import { ogDescription } from "../../../utils/ogDescription";
+import { displayRoomName } from "../../../utils/week-of-utils";
 import { fetchAllSessions } from "../../../utils/paperData";
 import type { Paper } from "../../../types/paper";
 import type { ProgramSession, ProgramTimeSlot } from "../../../types/program";
@@ -388,7 +389,7 @@ const DISCUSSION_SECTION_ID = "discussion";
             </dd>
             <dt>Room</dt>
             <dd>
-              {presentationDetails.room}
+              {displayRoomName(presentationDetails.room)}
               {presentationDetails.mode && (
                 <span class="presentation-details__note">
                   {" "}

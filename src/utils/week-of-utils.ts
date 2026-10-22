@@ -56,3 +56,10 @@ export const typeTextColors: Record<string, string> = {
   Challenge: "#F8FAFC",
   "invited-talk": "#ffffff",
 };
+
+/** A room name for display, without the leading "Hall" of each room. */
+export const displayRoomName = (roomName: string) =>
+  roomName
+    .split("/")
+    .map((part) => part.trim().replace(/^hall\s+/i, ""))
+    .join(" / ");

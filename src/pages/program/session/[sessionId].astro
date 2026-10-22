@@ -10,6 +10,7 @@ import type {
   ProgramSession,
   ProgramSessionList,
 } from "../../../types/program";
+import { displayRoomName } from "../../../utils/week-of-utils";
 import { getProgramEventTypeLabel } from "../../../utils/programEventTypeLabel";
 import { withBaseURL } from "../../../utils/withBaseURL";
 
@@ -177,7 +178,7 @@ const frontmatter = {
       </p>
       <p class="program-event-meta">
         <strong class="mr-2">Room:</strong>
-        {session.room_name || "TBA"}
+        {displayRoomName(session.room_name || "TBA")}
       </p>
       <p class="program-event-meta">
         <strong class="mr-2">Time:</strong>
