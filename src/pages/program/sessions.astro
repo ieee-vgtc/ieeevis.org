@@ -63,7 +63,7 @@ const sessionList = await fetchAllSessions();
 const sessions: SessionListItem[] = Object.values(sessionList)
   .flatMap((eventDefinition) =>
     eventDefinition.sessions.map((session) => {
-      const eventType = eventDefinition.event_type || "other";
+      const eventType = (eventDefinition.event_type || "other").toLowerCase();
       const dayKey = getConferenceDayKey(session.time_start);
       const searchText = [
         session.title,
