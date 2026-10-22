@@ -3,8 +3,16 @@ import PageLayout from "../../layouts/PageLayout.astro";
 import ProgramHeader from "../../components/ProgramHeader.astro";
 import { fetchAllSessions } from "../../utils/paperData";
 import { withBaseURL } from "../../utils/withBaseURL";
-import { getProgramEventTypeLabel } from "../../utils/programEventTypeLabel";
-import { typeColors } from "../../utils/week-of-utils";
+import {
+  getProgramEventTypeLabel,
+  groupProgramTypeOptions,
+  programTypeDropdownGroups,
+} from "../../utils/programEventTypeLabel";
+import {
+  displayRoomName,
+  typeColors,
+  textColorFor,
+} from "../../utils/week-of-utils";
 
 // TODO make environment variable to easily set up for future years
 const CONFERENCE_TIME_ZONE = "US/Eastern";
@@ -43,18 +51,6 @@ type PlacedCalendarSession = CalendarSession & {
 type RoomCalendarSession = PlacedCalendarSession & {
   roomSpan: number;
 };
-
-/** Return white or near-black depending on the relative luminance of a hex color. */
-function contrastColor(hex: string): string {
-  const h = hex.replace("#", "");
-  const r = parseInt(h.slice(0, 2), 16) / 255;
-  const g = parseInt(h.slice(2, 4), 16) / 255;
-  const b = parseInt(h.slice(4, 6), 16) / 255;
-  const toLinear = (c: number) =>
-    c <= 0.04045 ? c / 12.92 : ((c + 0.055) / 1.055) ** 2.4;
-  const L = 0.2126 * toLinear(r) + 0.7152 * toLinear(g) + 0.0722 * toLinear(b);
-  return L > 0.179 ? "#0f172a" : "#ffffff";
-}
 
 function getDateParts(date: Date, timeZone: string) {
   const formatter = new Intl.DateTimeFormat("en-US", {
@@ -173,9 +169,7 @@ const combinedHalls2026: Record<string, string[]> = {
 
 /** The physical rooms of a room name, with each combined hall expanded. */
 const physicalRoomNames = (roomName: string) =>
-  splitRoomNames(roomName).flatMap(
-    (part) => combinedHalls2026[part] ?? [part],
-  );
+  splitRoomNames(roomName).flatMap((part) => combinedHalls2026[part] ?? [part]);
 
 const getSharedSessionKey = (session: CalendarSession) =>
   [
@@ -462,12 +456,13 @@ const dayOptions = dayGroups.map((dayGroup) => ({
   label: `${dayGroup.weekdayLabel}`,
 }));
 
-const typeOptions = sortedTypes.map((sessionType) => ({
-  value: sessionType,
-  label: getProgramEventTypeLabel(sessionType),
-  count: typeCounts[sessionType],
-  color: typeColors[sessionType] || "#6b7280",
-}));
+const typeOptions = groupProgramTypeOptions(
+  sortedTypes.map((sessionType) => ({
+    value: sessionType,
+    label: getProgramEventTypeLabel(sessionType),
+    color: typeColors[sessionType] || "#6b7280",
+  })),
+);
 
 const roomDayGroups = dayGroups.map((dayGroup) => {
   const orderedRooms = Array.from(
@@ -578,7 +573,7 @@ const frontmatter = {
       searchPlaceholder="Search title, room, event, chair"
       dayOptions={dayOptions}
       typeOptions={typeOptions}
-      allCount={sessions.length}
+      dropdownGroups={programTypeDropdownGroups}
       filterBarLabel="Session type filters"
     >
       <a
@@ -676,7 +671,7 @@ const frontmatter = {
                     const isSolo = session.laneCount === 1;
                     const accentHex =
                       typeColors[session.eventType] || "#6b7280";
-                    const fgColor = contrastColor(accentHex);
+                    const fgColor = textColorFor(accentHex);
                     return (
                       <button
                         type="button"
@@ -699,16 +694,14 @@ const frontmatter = {
                         {...(isSolo ? { "data-solo": "" } : {})}
                         style={`--session-accent: ${accentHex}; --session-fg: ${fgColor}; --session-start-minute: ${session.startMinute}; --session-duration: ${durationMinutes}; --session-lane-index: ${session.laneIndex}; --session-lane-count: ${session.laneCount};`}
                       >
-                        {isSolo && (
-                          <span class="session-block-inline" aria-hidden="true">
-                            <span class="session-block-inline-name">
-                              {session.title}
-                            </span>
-                            <span class="session-block-inline-room">
-                              {session.room}
-                            </span>
+                        <span class="session-block-inline" aria-hidden="true">
+                          <span class="session-block-inline-name">
+                            {session.title}
                           </span>
-                        )}
+                          <span class="session-block-inline-room">
+                            {displayRoomName(session.room)}
+                          </span>
+                        </span>
                       </button>
                     );
                   })}
@@ -760,7 +753,7 @@ const frontmatter = {
                   class="calendar-day-header-compact"
                   data-full-name={roomGroup.roomName}
                 >
-                  <h2>{roomGroup.roomName}</h2>
+                  <h2>{displayRoomName(roomGroup.roomName)}</h2>
                   <p>
                     {dayGroup.weekdayLabel}, {dayGroup.dateLabel}
                   </p>
@@ -815,7 +808,7 @@ const frontmatter = {
                       );
                       const accentHex =
                         typeColors[session.eventType] || "#6b7280";
-                      const fgColor = contrastColor(accentHex);
+                      const fgColor = textColorFor(accentHex);
 
                       return (
                         <button
@@ -845,7 +838,7 @@ const frontmatter = {
                               {session.title}
                             </span>
                             <span class="session-block-inline-room">
-                              {session.room}
+                              {displayRoomName(session.room)}
                             </span>
                           </span>
                         </button>
@@ -927,7 +920,7 @@ const frontmatter = {
                       {session.eventTypeLabel}
                     </span>
                     <span aria-hidden="true">·</span>
-                    <span>{session.room}</span>
+                    <span>{displayRoomName(session.room)}</span>
                   </p>
 
                   {session.chairs.length > 0 && (
@@ -1236,7 +1229,9 @@ const frontmatter = {
         setParam("type", activeTypeFilter, ALL_FILTER);
         setParam(
           "q",
-          searchInput instanceof HTMLInputElement ? searchInput.value.trim() : "",
+          searchInput instanceof HTMLInputElement
+            ? searchInput.value.trim()
+            : "",
           "",
         );
         setParam("tz", getMode(), "conference");
@@ -1261,6 +1256,84 @@ const frontmatter = {
         }
       };
 
+      // Lanes are assigned at build time for every session. When filters hide
+      // some, repack the visible sessions of each overlap cluster so they
+      // expand to fill the day column (a lone session spans its full width).
+      const relayoutVisibleSessions = () => {
+        // The per-room view has one column per room, so only the all-days
+        // timeline needs repacking.
+        const tracks = document.querySelectorAll<HTMLElement>(
+          ".calendar-day-track:not(.calendar-room-timeline *)",
+        );
+        for (const track of tracks) {
+          const clusters = new Map<string, HTMLElement[]>();
+          for (const card of track.querySelectorAll<HTMLElement>(
+            "[data-session-card]",
+          )) {
+            const style = card.style;
+            if (!card.dataset.baseLane) {
+              card.dataset.baseLane = style.getPropertyValue(
+                "--session-lane-index",
+              );
+              card.dataset.baseLaneCount = style.getPropertyValue(
+                "--session-lane-count",
+              );
+            }
+            if (card.hidden) continue;
+            const key = card.dataset.clusterKey || "";
+            const list = clusters.get(key) || [];
+            list.push(card);
+            clusters.set(key, list);
+          }
+
+          for (const cards of clusters.values()) {
+            const baseLane = (c: HTMLElement) => Number(c.dataset.baseLane);
+            const startOf = (c: HTMLElement) =>
+              Number(c.style.getPropertyValue("--session-start-minute"));
+            const endOf = (c: HTMLElement) =>
+              startOf(c) +
+              Number(c.style.getPropertyValue("--session-duration"));
+
+            // Rooms keep their original left-to-right order.
+            const rooms = new Map<string, HTMLElement[]>();
+            for (const card of cards) {
+              const room = card.dataset.sessionRoom || "";
+              rooms.set(room, [...(rooms.get(room) || []), card]);
+            }
+            const orderedRooms = [...rooms.values()].sort(
+              (a, b) =>
+                Math.min(...a.map(baseLane)) - Math.min(...b.map(baseLane)),
+            );
+
+            let laneCount = 0;
+            const placed: [HTMLElement, number][] = [];
+            for (const roomCards of orderedRooms) {
+              const offset = laneCount;
+              const active: { lane: number; end: number }[] = [];
+              for (const card of roomCards.sort(
+                (a, b) => startOf(a) - startOf(b),
+              )) {
+                for (let i = active.length - 1; i >= 0; i -= 1) {
+                  if (active[i].end <= startOf(card)) active.splice(i, 1);
+                }
+                const occupied = new Set(active.map((a) => a.lane));
+                let lane = offset;
+                while (occupied.has(lane)) lane += 1;
+                active.push({ lane, end: endOf(card) });
+                placed.push([card, lane]);
+                laneCount = Math.max(laneCount, lane + 1);
+              }
+            }
+
+            for (const [card, lane] of placed) {
+              card.style.setProperty("--session-lane-index", String(lane));
+              card.style.setProperty("--session-lane-count", String(laneCount));
+              card.toggleAttribute("data-solo", laneCount === 1);
+            }
+          }
+        }
+      };
+
       const applyFilters = (options?: UrlStateWriteOptions) => {
         const selectedDay = getSelectedDay();
         const query = getSearchQuery();
@@ -1272,10 +1345,15 @@ const frontmatter = {
         }
 
         for (const group of dayGroups) {
+          // Room timelines keep their frame when a filter leaves them empty;
+          // applyDayLayout decides when they show.
+          if (group.hasAttribute("data-room-timeline")) continue;
           group.hidden = !group.querySelector(
             "[data-session-card]:not([hidden])",
           );
         }
+
+        relayoutVisibleSessions();
 
         syncUrlState(options);
       };
@@ -1346,7 +1424,10 @@ const frontmatter = {
           );
           if (overlayName) overlayName.textContent = name;
           if (overlayRoom) {
-            let tempRoom = room;
+            let tempRoom = room
+              .split("/")
+              .map((part) => part.trim().replace(/^hall\s+/i, ""))
+              .join(" / ");
             if (room === "TBA") {
               tempRoom = "Room to be announced";
             }
@@ -1489,6 +1570,24 @@ const frontmatter = {
 
           activeTypeFilter = buttonType;
 
+          refreshFilterButtonState();
+          applyFilters();
+        });
+      }
+
+      // Clicking empty calendar space clears the selected event type.
+      for (const timeline of [dayTimelineScroll, roomTimelineContainer]) {
+        timeline?.addEventListener("click", (event) => {
+          if (activeTypeFilter === ALL_FILTER) return;
+          if (
+            event.target instanceof Element &&
+            event.target.closest(
+              "[data-session-card], [data-cluster-overlay], a, button, input, select, label",
+            )
+          )
+            return;
+
+          activeTypeFilter = ALL_FILTER;
           refreshFilterButtonState();
           applyFilters();
         });
