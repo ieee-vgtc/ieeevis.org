@@ -26,7 +26,7 @@
  *     straight from the browser to their own PDS and the service is not
  *     involved — which also means this works on a thread read straight from
  *     the AppView, and after guest posting has closed. A Bluesky sign-in takes
- *     precedence over the guest path whenever both are available.
+ *     precedence unless the reader selects "Hide my name" for a comment.
  *
  * Everything else is read-only.
  *
@@ -52,8 +52,8 @@
  * name", which swaps it for their stable pseudonym. Such a post is unnamed
  * rather than untraceable — organizers can still tell who wrote it — so the
  * label says what it does instead of calling the post anonymous, and the hint
- * beside it spells out the difference. A comment from the reader's own Bluesky
- * account is signed by that account, so the option does not apply.
+ * beside it spells out the difference. Selecting it while logged into Bluesky
+ * also sends the comment through the guest service.
  */
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
@@ -459,7 +459,7 @@ export default function BlueskyDiscussion({
   );
 
   // The reader's own Bluesky account, when they have logged in with it here.
-  // While it is there, every write goes through it rather than the service.
+  // Comments use it unless the reader chooses to hide their name.
   const bluesky = useBlueskySession();
   const native =
     bluesky.session.status === "signed-in" ? bluesky.session.writer : null;
@@ -579,6 +579,9 @@ export default function BlueskyDiscussion({
     thread?.state === "open" ? thread.post : undefined;
   /** Guest writes are bridged by the service; the AppView is read-only here. */
   const canWriteAsGuest = data?.source === "service" && hasToken;
+  // Guest writes are possible here, but the reader has not signed in to VIS.
+  const needsVisSignIn =
+    data?.source === "service" && tokenChecked && !hasToken;
   /** A Bluesky sign-in writes to the reader's own PDS, whatever the source. */
   const interactive = native !== null || canWriteAsGuest;
   /** Only the service knows the guest likes, so only it may show or rank by them. */
@@ -729,7 +732,8 @@ export default function BlueskyDiscussion({
     }
   }, [data, native, syncMyLikes, syncNativeLikes]);
 
-  const commentLimit = native ? NATIVE_TEXT_LIMIT : COMMENT_LIMIT;
+  const postAsNative = native !== null && !anonymous;
+  const commentLimit = postAsNative ? NATIVE_TEXT_LIMIT : COMMENT_LIMIT;
 
   /** Post from the reader's own Bluesky account, under the announcement or a reply. */
   const submitNativeComment = useCallback(
@@ -878,13 +882,21 @@ export default function BlueskyDiscussion({
   const submitComment = useCallback(
     async (text: string, parent: ShapedPost | null, onPosted: () => void) => {
       setActionError(null);
-      if (native) {
+      if (postAsNative) {
         await submitNativeComment(text, parent, onPosted);
-      } else if (paperId) {
+      } else if (paperId && canWriteAsGuest) {
         await submitGuestComment(paperId, text, parent, onPosted);
+      } else {
+        throw new Error("Guest posting is unavailable for this discussion.");
       }
     },
-    [native, paperId, submitGuestComment, submitNativeComment],
+    [
+      postAsNative,
+      paperId,
+      canWriteAsGuest,
+      submitGuestComment,
+      submitNativeComment,
+    ],
   );
 
   const toggleLike = useCallback(
@@ -1123,14 +1135,24 @@ export default function BlueskyDiscussion({
     activeDeltas,
   );
 
+  const signInToVis = () => {
+    markInteraction();
+    void login(`${currentPagePath()}#${sectionId}`);
+  };
+
   const composerProps = {
     limit: commentLimit,
     nativeHandle: native?.profile.handle ?? null,
     realNameByline: identity?.name || identity?.pseudonym || null,
     pseudonymByline: identity?.pseudonym || null,
     anonymous,
+    canHideName: canWriteAsGuest || anonymous,
+    // Hiding the name needs the guest service, which needs a VIS sign-in. A
+    // reader with only a Bluesky sign-in sees the option with a way to get it.
+    onSignInToHideName: native && needsVisSignIn ? signInToVis : undefined,
     onAnonymousChange: setAnonymous,
     onActivity: markInteraction,
+    onSignOutOfBluesky: () => void bluesky.signOut(),
   };
 
   // The like control is the same on the root and every reply; the discussion
@@ -1157,7 +1179,7 @@ export default function BlueskyDiscussion({
   const replyContext: PostReplyContext | undefined = interactive
     ? {
         canReplyTo: (post) =>
-          shownUris.has(post.uri) && (native === null || Boolean(post.cid)),
+          shownUris.has(post.uri) && (!postAsNative || Boolean(post.cid)),
         openUri: openReplyUri,
         posting: postingReplyUri !== null,
         buttonId: replyButtonId,
@@ -1226,11 +1248,7 @@ export default function BlueskyDiscussion({
 
   // Offer the VIS sign-in only where it lets the reader write (the service
   // bridges guest comments) and only to a reader with no way to write yet.
-  const offerVisSignIn =
-    data?.source === "service" &&
-    tokenChecked &&
-    !hasToken &&
-    bluesky.session.status === "none";
+  const offerVisSignIn = needsVisSignIn && bluesky.session.status === "none";
 
   const signInWithBluesky = (input: string) => {
     markInteraction();
@@ -1295,26 +1313,22 @@ export default function BlueskyDiscussion({
       )}
 
       {/* The same login as on the account page; saving the handle is offered
-          by SaveHandlePrompt below instead, so it is not offered twice. */}
-      <div
-        className={offerVisSignIn ? "grid gap-3 md:grid-cols-2" : undefined}
-        style={{ margin: "0.75rem 0" }}
-      >
-        <BlueskyLoginSection
-          bluesky={bluesky}
-          headingLevel="h3"
-          linkedHandle={linkedHandle}
-          onSignIn={signInWithBluesky}
-        />
-        {offerVisSignIn && (
-          <VisSignInBox
-            onSignIn={() => {
-              markInteraction();
-              void login(`${currentPagePath()}#${sectionId}`);
-            }}
+          by SaveHandlePrompt below instead, so it is not offered twice. Once
+          signed in, the composer says so and offers the sign-out. */}
+      {!native && (
+        <div
+          className={offerVisSignIn ? "grid gap-3 md:grid-cols-2" : undefined}
+          style={{ margin: "0.75rem 0" }}
+        >
+          <BlueskyLoginSection
+            bluesky={bluesky}
+            headingLevel="h3"
+            linkedHandle={linkedHandle}
+            onSignIn={signInWithBluesky}
           />
-        )}
-      </div>
+          {offerVisSignIn && <VisSignInBox onSignIn={signInToVis} />}
+        </div>
+      )}
 
       {offerHandleSave && (
         <SaveHandlePrompt
