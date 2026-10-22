@@ -20,6 +20,11 @@ const getContributionLabel = (eventType: string) =>
 import type { ProgramPapersBrowserProps } from "../types/programPaper";
 import { typeColors, typeTextColors } from "../utils/week-of-utils";
 
+const toISO = (ms: number) =>
+  Number.isFinite(ms) && ms < Number.MAX_SAFE_INTEGER
+    ? new Date(ms).toISOString()
+    : undefined;
+
 const paperTypeToNameMap: Record<string, string> = {
   full: "Full VIS Paper",
   short: "VIS Short Paper",
@@ -141,116 +146,117 @@ const typeOptions = groupProgramTypeOptions(
     filterBarLabel="Paper type filters"
     allLabel="All"
     dropdownGroups={getDropdownGroups(presentedResearchTypeLayout)}
+    timezoneLabel="Timezone display"
+    timezoneSelectId="timezone-mode"
   >
-    <div slot="extra-controls" class="papers-controls">
-      <div class="u-primary-controls flex w-full justify-between">
-        <label class="papers-control">
-          Search by
-          <div
-            id="papers-search-field"
-            class="papers-choice-group u-responsive-choice-group"
-            role="group"
+    <Fragment slot="primary-controls">
+      <label class="u-control">
+        Search by
+        <div
+          id="papers-search-field"
+          class="papers-choice-group u-responsive-choice-group"
+          role="group"
+          aria-label="Search by"
+        >
+          <select
+            class="u-select u-mobile-choice-select"
+            data-choice-select
             aria-label="Search by"
           >
-            <select
-              class="u-select u-mobile-choice-select"
-              data-choice-select
-              aria-label="Search by"
-            >
-              <option value="any">any</option>
-              <option value="title">title</option>
-              <option value="keyword">keyword</option>
-              <option value="author">author</option>
-              <option value="session">session</option>
-            </select>
-            <button
-              type="button"
-              class="papers-choice-button hover-response--tint is-active"
-              data-choice-value="any"
-              aria-pressed="true"
-            >
-              any
-            </button>
-            <button
-              type="button"
-              class="papers-choice-button hover-response--tint"
-              data-choice-value="title"
-              aria-pressed="false"
-            >
-              title
-            </button>
-            <button
-              type="button"
-              class="papers-choice-button hover-response--tint"
-              data-choice-value="keyword"
-              aria-pressed="false"
-            >
-              keyword
-            </button>
-            <button
-              type="button"
-              class="papers-choice-button hover-response--tint"
-              data-choice-value="author"
-              aria-pressed="false"
-            >
-              author
-            </button>
-            <button
-              type="button"
-              class="papers-choice-button hover-response--tint"
-              data-choice-value="session"
-              aria-pressed="false"
-            >
-              session
-            </button>
-          </div>
-        </label>
+            <option value="any">any</option>
+            <option value="title">title</option>
+            <option value="keyword">keyword</option>
+            <option value="author">author</option>
+            <option value="session">session</option>
+          </select>
+          <button
+            type="button"
+            class="papers-choice-button hover-response--tint is-active"
+            data-choice-value="any"
+            aria-pressed="true"
+          >
+            any
+          </button>
+          <button
+            type="button"
+            class="papers-choice-button hover-response--tint"
+            data-choice-value="title"
+            aria-pressed="false"
+          >
+            title
+          </button>
+          <button
+            type="button"
+            class="papers-choice-button hover-response--tint"
+            data-choice-value="keyword"
+            aria-pressed="false"
+          >
+            keyword
+          </button>
+          <button
+            type="button"
+            class="papers-choice-button hover-response--tint"
+            data-choice-value="author"
+            aria-pressed="false"
+          >
+            author
+          </button>
+          <button
+            type="button"
+            class="papers-choice-button hover-response--tint"
+            data-choice-value="session"
+            aria-pressed="false"
+          >
+            session
+          </button>
+        </div>
+      </label>
 
-        <label class="papers-control">
-          Sort by
-          <div
-            id="papers-sort"
-            class="papers-choice-group u-responsive-choice-group"
-            role="group"
+      <label class="u-control">
+        Sort by
+        <div
+          id="papers-sort"
+          class="papers-choice-group u-responsive-choice-group"
+          role="group"
+          aria-label="Sort by"
+        >
+          <select
+            class="u-select u-mobile-choice-select"
+            data-choice-select
             aria-label="Sort by"
           >
-            <select
-              class="u-select u-mobile-choice-select"
-              data-choice-select
-              aria-label="Sort by"
-            >
-              <option value="title">title</option>
-              <option value="bookmarked">bookmarked first</option>
-              <option value="schedule">schedule</option>
-            </select>
-            <button
-              type="button"
-              class="papers-choice-button hover-response--tint is-active"
-              data-choice-value="title"
-              aria-pressed="true"
-            >
-              title
-            </button>
-            <button
-              type="button"
-              class="papers-choice-button hover-response--tint"
-              data-choice-value="bookmarked"
-              aria-pressed="false"
-            >
-              bookmarked first
-            </button>
-            <button
-              type="button"
-              class="papers-choice-button hover-response--tint"
-              data-choice-value="schedule"
-              aria-pressed="false"
-            >
-              schedule
-            </button>
-          </div>
-        </label>
-      </div>
-
+            <option value="title">title</option>
+            <option value="bookmarked">bookmarked first</option>
+            <option value="schedule">schedule</option>
+          </select>
+          <button
+            type="button"
+            class="papers-choice-button hover-response--tint is-active"
+            data-choice-value="title"
+            aria-pressed="true"
+          >
+            title
+          </button>
+          <button
+            type="button"
+            class="papers-choice-button hover-response--tint"
+            data-choice-value="bookmarked"
+            aria-pressed="false"
+          >
+            bookmarked first
+          </button>
+          <button
+            type="button"
+            class="papers-choice-button hover-response--tint"
+            data-choice-value="schedule"
+            aria-pressed="false"
+          >
+            schedule
+          </button>
+        </div>
+      </label>
+    </Fragment>
+    <div slot="extra-controls" class="papers-controls">
       <label class="papers-control">
         Find
         <div class="papers-search-shell">
@@ -299,6 +305,8 @@ const typeOptions = groupProgramTypeOptions(
             ? [
                 {
                   label: paper.scheduleLabel,
+                  startISO: toISO(paper.startMs),
+                  labelSuffix: ` - ${paper.sessionLabel}`,
                   href: paper.sessionUrl,
                   icon: "schedule",
                 },
@@ -382,6 +390,8 @@ const typeOptions = groupProgramTypeOptions(
           links={[
             {
               label: `${sessionRole.scheduleLabel} - ${sessionRole.roomName}`,
+              startISO: toISO(sessionRole.startMs),
+              labelSuffix: ` - ${sessionRole.roomName}`,
               href: sessionRole.sessionUrl,
               icon: "schedule",
             },
@@ -890,4 +900,55 @@ const typeOptions = groupProgramTypeOptions(
     refreshBookmarkState();
     applyFilters({ replace: true });
   })();
+</script>
+
+<script>
+  import {
+    TIMEZONE_MODE_EVENT,
+    formatInstantForMode,
+    getSavedTimezoneMode,
+    isTimezoneMode,
+    saveTimezoneMode,
+    type TimezoneMode,
+  } from "../utils/timezoneMode";
+
+  const control = document.querySelector<HTMLElement>("#timezone-mode");
+  const buttons = Array.from(
+    control?.querySelectorAll<HTMLButtonElement>("[data-choice-value]") ?? [],
+  );
+  const select = control?.querySelector<HTMLSelectElement>(
+    "[data-choice-select]",
+  );
+
+  const render = (mode: TimezoneMode) => {
+    for (const button of buttons) {
+      const active = button.dataset.choiceValue === mode;
+      button.classList.toggle("is-active", active);
+      button.setAttribute("aria-pressed", String(active));
+    }
+    if (select) select.value = mode;
+    for (const node of document.querySelectorAll<HTMLElement>(
+      "[data-tz-instant]",
+    )) {
+      node.textContent = formatInstantForMode(
+        node.dataset.tzInstant!,
+        mode,
+        node.dataset.tzConference || "US/Eastern",
+      );
+    }
+  };
+
+  for (const button of buttons) {
+    button.addEventListener("click", () => {
+      const value = button.dataset.choiceValue;
+      if (isTimezoneMode(value)) saveTimezoneMode(value);
+    });
+  }
+  select?.addEventListener("change", () => {
+    if (isTimezoneMode(select.value)) saveTimezoneMode(select.value);
+  });
+  window.addEventListener(TIMEZONE_MODE_EVENT, (event) =>
+    render((event as CustomEvent<TimezoneMode>).detail),
+  );
+  render(getSavedTimezoneMode());
 </script>

@@ -150,11 +150,7 @@ const conferenceDateTimeFormatter = new Intl.DateTimeFormat("en-US", {
 });
 
 function formatNotesForSession(session: SessionListItem) {
-  const startISO = session.startISO;
-  const scheduleLabel = `${conferenceDateTimeFormatter.format(new Date(startISO))}`;
-
-  const notes = [`Room: ${session.room}`, `Schedule: ${scheduleLabel}`];
-  return notes;
+  return [`Room: ${session.room}`];
 }
 // Workshops, tutorials, associated events, and contests are run by their
 // organizers, so show those on the card instead of the session chair when the
@@ -208,7 +204,6 @@ function formatPeopleForSession(session: SessionListItem) {
   <section
     class="program-sessions"
     data-conference-timezone={CONFERENCE_TIME_ZONE}
-    data-local-storage-key="program-sessions-timezone-mode"
   >
     <ProgramHeader
       title="Sessions"
@@ -263,6 +258,7 @@ function formatPeopleForSession(session: SessionListItem) {
                   people={formatPeopleForSession(session)}
                   links={[]}
                   notes={formatNotesForSession(session)}
+                  scheduleLabel={`${conferenceDateTimeFormatter.format(new Date(session.startISO))}`}
                 />
               ))}
             </div>
@@ -278,6 +274,11 @@ function formatPeopleForSession(session: SessionListItem) {
 
   <script>
     import {
+      TIMEZONE_MODE_EVENT,
+      getSavedTimezoneMode,
+      saveTimezoneMode,
+    } from "../../utils/timezoneMode";
+    import {
       createUrlStateHistory,
       type UrlStateWriteOptions,
     } from "../../utils/urlStateHistory";
@@ -288,9 +289,6 @@ function formatPeopleForSession(session: SessionListItem) {
 
       const conferenceTimeZone =
         root.getAttribute("data-conference-timezone") || "UTC";
-      const localStorageKey =
-        root.getAttribute("data-local-storage-key") ||
-        "program-sessions-timezone-mode";
       const localTimeZone =
         Intl.DateTimeFormat().resolvedOptions().timeZone || "UTC";
 
@@ -450,8 +448,9 @@ function formatPeopleForSession(session: SessionListItem) {
         const mode = getMode();
 
         for (const node of timeRanges) {
-          const startISO = node.parentElement?.getAttribute("data-start");
-          const endISO = node.parentElement?.getAttribute("data-end");
+          const card = node.closest("[data-start]");
+          const startISO = card?.getAttribute("data-start");
+          const endISO = card?.getAttribute("data-end");
           if (!startISO || !endISO) continue;
           node.textContent = formatRangeForMode(startISO, endISO);
         }
@@ -466,6 +465,11 @@ function formatPeopleForSession(session: SessionListItem) {
           }
         }
       };
+
+      window.addEventListener(TIMEZONE_MODE_EVENT, (event) => {
+        setChoiceValue(timezoneControl, (event as CustomEvent<string>).detail);
+        refreshTimeRanges();
+      });
 
       const refreshFilterButtonState = () => {
         for (const button of filterButtons) {
@@ -533,14 +537,7 @@ function formatPeopleForSession(session: SessionListItem) {
         });
       }
 
-      const savedMode = localStorage.getItem(localStorageKey);
-      if (
-        savedMode === "conference" ||
-        savedMode === "local" ||
-        savedMode === "both"
-      ) {
-        setChoiceValue(timezoneControl, savedMode);
-      }
+      setChoiceValue(timezoneControl, getSavedTimezoneMode());
 
       if (timezoneControl) {
         const timezoneButtons = Array.from(
@@ -552,7 +549,7 @@ function formatPeopleForSession(session: SessionListItem) {
           button.addEventListener("click", () => {
             const value = button.dataset.choiceValue;
             if (!value || !setChoiceValue(timezoneControl, value)) return;
-            localStorage.setItem(localStorageKey, value);
+            saveTimezoneMode(value);
             refreshTimeRanges();
           });
         }
@@ -564,7 +561,7 @@ function formatPeopleForSession(session: SessionListItem) {
         timezoneSelect?.addEventListener("change", () => {
           const value = timezoneSelect.value;
           if (!setChoiceValue(timezoneControl, value)) return;
-          localStorage.setItem(localStorageKey, value);
+          saveTimezoneMode(value);
           refreshTimeRanges();
         });
       }
