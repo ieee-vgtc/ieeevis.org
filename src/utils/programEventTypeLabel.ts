@@ -45,7 +45,14 @@ export const programTypeLayout: TypeLayout = [
   },
   {
     label: "Plenary & Community",
-    types: ["plenary", "governance", "invite-only", "keynote", "invited-talk"],
+    types: [
+      "plenary",
+      "Meetup",
+      "governance",
+      "invite-only",
+      "keynote",
+      "invited-talk",
+    ],
   },
   { label: "Other Events", types: [], rest: true },
 ];

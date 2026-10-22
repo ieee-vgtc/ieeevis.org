@@ -695,16 +695,14 @@ const frontmatter = {
                         {...(isSolo ? { "data-solo": "" } : {})}
                         style={`--session-accent: ${accentHex}; --session-fg: ${fgColor}; --session-start-minute: ${session.startMinute}; --session-duration: ${durationMinutes}; --session-lane-index: ${session.laneIndex}; --session-lane-count: ${session.laneCount};`}
                       >
-                        {isSolo && (
-                          <span class="session-block-inline" aria-hidden="true">
-                            <span class="session-block-inline-name">
-                              {session.title}
-                            </span>
-                            <span class="session-block-inline-room">
-                              {displayRoomName(session.room)}
-                            </span>
+                        <span class="session-block-inline" aria-hidden="true">
+                          <span class="session-block-inline-name">
+                            {session.title}
                           </span>
-                        )}
+                          <span class="session-block-inline-room">
+                            {displayRoomName(session.room)}
+                          </span>
+                        </span>
                       </button>
                     );
                   })}
