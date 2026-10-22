@@ -13,6 +13,7 @@ export function getProgramEventTypeLabel(eventType: string): string {
     tvcg: "TVCG Papers",
     "cg&a": "CG&A Papers",
     vis: "Conference Events",
+    cluster: "Practitioner Summit",
     visap: "VIS Arts Program",
     poster: "VIS Posters",
     invited: "Invited Partnership Presentations",
