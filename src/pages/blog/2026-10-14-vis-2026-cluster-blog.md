@@ -72,4 +72,4 @@ We are also collecting data visualization drafts for anonymous, asynchronous fee
 ## (NEW!) Registration Discount when Booking with the Westin hotel
 
 The IEEE VIS 2026 OC is extending early-bird registration prices for anyone who books with the VIS room block at the Westin hotel (a discount of up to $200!).
-More info on this Google [form](https://docs.google.com/forms/d/e/1FAIpQLSf9a2gCSw_JSnMVwwSRSyvV1xe7ur4WWANqrYAuy4jgsVwAAw/viewform). <br /> Book and register by Oct 23rd to take advantage of this deal!
+More info on this Google [form](https://docs.google.com/forms/d/e/1FAIpQLSf9a2gCSw_JSnMVwwSRSyvV1xe7ur4WWANqrYAuy4jgsVwAAw/viewform). <br /> Book and register by Oct 30th to take advantage of this deal!
