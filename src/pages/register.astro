@@ -46,8 +46,9 @@ const calendarPage = withBaseURL("/program/calendar/");
             <h1>Pick your day at <em>VIS 2026.</em></h1>
             <p class="lede">
               Five days of visualization in Back Bay, from research papers to
-              practitioner talks. Tap one day, two back-to-back days, or the
-              whole week, and your price shows up below.
+              practitioner talks. Use this page to plan: tap one day, two
+              back-to-back days, or the whole week to see what's on and what it
+              costs. Then register on the conference's registration site.
             </p>
             <div class="rule" aria-hidden="true"></div>
             <p class="from">
@@ -86,6 +87,20 @@ const calendarPage = withBaseURL("/program/calendar/");
           <div class="kicker">What it costs</div>
           <h2>Your pass</h2>
         </div>
+        <ol class="howto" aria-label="How registering works">
+          <li>
+            <b>Plan here.</b> Pick your days and rate to see your price. Nothing is
+            saved or charged on this page.
+          </li>
+          <li>
+            <b>Go to Cvent.</b> Register opens Cvent, the conference's registration
+            site. IEEE members sign in with their IEEE account.
+          </li>
+          <li>
+            <b>Register there.</b> Enter your details, choose the pass named below
+            under Registration Items, and pay.
+          </li>
+        </ol>
         <div class="pass-grid">
           <div>
             <fieldset class="qblock">
@@ -150,9 +165,9 @@ const calendarPage = withBaseURL("/program/calendar/");
               >
             </div>
             <p class="how" id="t-how">
-              Opens Non Member Registration. Under Registration Items, choose <b
+              Your picks here don't carry over, so on Cvent choose <b
                 >One Day – Boston</b
-              >.
+              > under Registration Items.
             </p>
           </div>
         </div>
@@ -1033,8 +1048,8 @@ const calendarPage = withBaseURL("/program/calendar/");
     $("#t-how").innerHTML = !priced
       ? ""
       : member
-        ? `Opens IEEE Member Registration, where you sign in with your IEEE account. Under Registration Items, choose <b>${pass.cvent}</b>.`
-        : `Opens Non Member Registration. Under Registration Items, choose <b>${pass.cvent}</b>.`;
+        ? `Your picks here don't carry over, so on Cvent sign in with your IEEE account and choose <b>${pass.cvent}</b> under Registration Items.`
+        : `Your picks here don't carry over, so on Cvent choose <b>${pass.cvent}</b> under Registration Items.`;
 
     const sat = SAT_RATES[state.cat];
     const catLabel = CATS.find(([k]) => k === state.cat)![1];
@@ -1870,6 +1885,51 @@ const calendarPage = withBaseURL("/program/calendar/");
   }
   .reg .steps li + li {
     margin-top: 6px;
+  }
+
+  /* How registering works */
+  .reg .howto {
+    list-style: none;
+    margin: 20px 0 0;
+    padding: 0;
+    display: grid;
+    gap: 12px;
+    counter-reset: howto;
+  }
+  @media (min-width: 900px) {
+    .reg .howto {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+  }
+  .reg .howto li {
+    counter-increment: howto;
+    position: relative;
+    padding: 0 0 0 44px;
+    font-size: 15px;
+    line-height: 1.45;
+    color: var(--brown);
+  }
+  .reg .howto li::before {
+    content: counter(howto);
+    position: absolute;
+    left: 0;
+    top: -2px;
+    width: 30px;
+    height: 30px;
+    border: 2px solid var(--raspberry);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font: 700 16px var(--display);
+    color: var(--raspberry);
+  }
+  .reg .howto b {
+    display: block;
+    font: 700 18px var(--display);
+  }
+  .reg .ticket .how b {
+    color: var(--brown);
   }
 
   /* Satellites */
