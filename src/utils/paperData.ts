@@ -44,6 +44,9 @@ interface RawSession {
   session_youtube_url: NullableString;
   discord_url: NullableString;
   virtual: boolean;
+  event_description?: NullableString;
+  other_location?: NullableString;
+  other_location_url?: NullableString;
 }
 
 /** Row of the `rooms` table. */
@@ -277,6 +280,9 @@ function buildSessionList({
       time_end: timeblock?.end || "",
       discord_link: session.discord_url,
       youtube_url: session.session_youtube_url,
+      description: session.event_description || null,
+      other_location: session.other_location || null,
+      other_location_url: session.other_location_url || null,
       time_slots: buildTimeSlots({
         session,
         slots: slotsBySession[session.session_id] || [],

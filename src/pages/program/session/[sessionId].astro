@@ -197,6 +197,20 @@ const frontmatter = {
         <strong class="mr-2">Room:</strong>
         {displayRoomName(session.room_name || "TBA")}
       </p>
+      {
+        (session.other_location || session.other_location_url) && (
+          <p class="program-event-meta">
+            <strong class="mr-2">Location:</strong>
+            {session.other_location_url ? (
+              <a href={session.other_location_url}>
+                {session.other_location || session.other_location_url}
+              </a>
+            ) : (
+              session.other_location
+            )}
+          </p>
+        )
+      }
       <p class="program-event-meta">
         <strong class="mr-2">Time:</strong>
         <span
