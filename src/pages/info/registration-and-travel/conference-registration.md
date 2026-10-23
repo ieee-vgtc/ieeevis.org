@@ -54,7 +54,7 @@ We recommend all attendees, authors/presenters, and organizers register online i
 | Student Non-Member  | $599                     | $599 + VAT                       | $399 + VAT                         | $299             | $239             |
 | IEEE Life Member    | $499                     | $499 + VAT                       |                                    |                  |                  |
 
-Anyone choosing to [stay at the conference hotel in Boston](/year/2026/info/registration-and-travel/hotel-information/) is eligible for Early Bird registration rates, provided you book your hotel by Oct. 23. These rates can be applied retroactively if you have already registered.  [More info on this Google form](https://forms.gle/xqmKZRasccN4tZWK8).
+Anyone choosing to [stay at the conference hotel in Boston](/year/2026/info/registration-and-travel/hotel-information/) is eligible for Early Bird registration rates, provided you book your hotel by Oct. 30. These rates can be applied retroactively if you have already registered. [More info on this Google form](https://forms.gle/xqmKZRasccN4tZWK8).
 
 #### Late Registration (from September 26, 2026)
 
