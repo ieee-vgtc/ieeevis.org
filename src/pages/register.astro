@@ -1125,6 +1125,9 @@ const calendarPage = withBaseURL("/program/calendar/");
     --orange-200: var(--color-primary-200, #f9b479);
     --raspberry: var(--color-secondary, #bb4a72);
     --raspberry-200: var(--color-secondary-200, #ed74b5);
+    /* Raspberry for small text on peach/peach-50, where the brand raspberry is
+       under 4.5:1. */
+    --raspberry-ink: #9e3a5f;
     --brown: var(--color-accent, #693a19);
     --peach: var(--color-accent-secondaryBackground, #f3dfcf);
     --peach-50: #fbf3ec;
@@ -1178,7 +1181,7 @@ const calendarPage = withBaseURL("/program/calendar/");
     font: 700 13px/1.2 var(--body);
     letter-spacing: 0.14em;
     text-transform: uppercase;
-    color: var(--raspberry);
+    color: var(--raspberry-ink);
   }
   .reg .notch {
     clip-path: polygon(
@@ -1234,6 +1237,11 @@ const calendarPage = withBaseURL("/program/calendar/");
   .reg :focus-visible {
     outline: 3px solid var(--raspberry);
     outline-offset: 3px;
+  }
+  .reg .hotel :focus-visible,
+  .reg .wedspot :focus-visible,
+  .reg .closing :focus-visible {
+    outline-color: var(--white);
   }
 
   /* Hero */
@@ -1544,7 +1552,7 @@ const calendarPage = withBaseURL("/program/calendar/");
   .reg .day.wed .dow,
   .reg .day.wed .dow span:last-child,
   .reg .day.wed li b {
-    color: var(--peach);
+    color: var(--white);
   }
   .reg .day.wed h3,
   .reg .day.wed .pick {
@@ -1554,7 +1562,7 @@ const calendarPage = withBaseURL("/program/calendar/");
     box-shadow: inset 0 0 0 4px var(--brown);
   }
   .reg .day.wed .inc {
-    background: rgba(255, 255, 255, 0.14);
+    background: rgba(0, 0, 0, 0.15);
     padding: 10px 12px;
     font-size: 14px;
     line-height: 1.35;
@@ -1914,12 +1922,12 @@ const calendarPage = withBaseURL("/program/calendar/");
     top: -2px;
     width: 30px;
     height: 30px;
-    border: 2px solid var(--raspberry);
+    border: 2px solid var(--raspberry-ink);
     border-radius: 50%;
     display: grid;
     place-items: center;
     font: 700 16px var(--display);
-    color: var(--raspberry);
+    color: var(--raspberry-ink);
   }
   .reg .howto b {
     display: block;
@@ -1936,7 +1944,7 @@ const calendarPage = withBaseURL("/program/calendar/");
     color: var(--brown);
   }
   .reg .hero .sat-line a {
-    color: var(--raspberry);
+    color: var(--raspberry-ink);
     font-weight: 700;
   }
   .reg .sats {
@@ -2037,7 +2045,7 @@ const calendarPage = withBaseURL("/program/calendar/");
     color: var(--white);
   }
   .reg .wedspot .kicker {
-    color: var(--peach);
+    color: var(--white);
   }
   .reg .wedspot h2 {
     color: var(--white);
@@ -2059,7 +2067,7 @@ const calendarPage = withBaseURL("/program/calendar/");
     }
   }
   .reg .prog {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.15);
     padding: 24px 24px 22px;
     display: flex;
     flex-direction: column;
@@ -2131,7 +2139,7 @@ const calendarPage = withBaseURL("/program/calendar/");
     font: 700 13px var(--body);
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: var(--peach);
+    color: var(--white);
   }
   .reg .timeline h3 {
     font-size: 22px;
@@ -2144,7 +2152,7 @@ const calendarPage = withBaseURL("/program/calendar/");
   }
   .reg .wedspot .also {
     font-size: 15px;
-    color: var(--peach);
+    color: var(--white);
     margin: 0;
   }
   .reg .wedspot .choose {
@@ -2261,11 +2269,11 @@ const calendarPage = withBaseURL("/program/calendar/");
   .reg .btn-small {
     padding: 10px 14px;
     font-size: 15px;
-    background: var(--orange-700);
+    background: var(--orange-800);
     color: var(--white);
   }
   .reg .btn-small:hover {
-    background: var(--orange-800);
+    background: var(--brown);
   }
 
   /* Team */
@@ -2415,6 +2423,12 @@ const calendarPage = withBaseURL("/program/calendar/");
     padding: 12px 18px;
     font-size: 18px;
     flex: none;
+  }
+  .reg .bar .btn-primary {
+    background: var(--orange-800);
+  }
+  .reg .bar .btn-primary:hover {
+    background: var(--brown);
   }
   @media (prefers-reduced-motion: reduce) {
     .reg * {
