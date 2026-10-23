@@ -205,7 +205,7 @@ menu:
     sections:
       - subsections:
           - heading: "Register for VIS 2026"
-            heading_url: "/register/"
+            heading_url: "/info/registration-and-travel/conference-registration"
           - heading: "VIS 2026 Flagship: Boston, MA"
             #       heading_url: "/info/registration-and-travel/conference-registration"
             columns:
@@ -220,10 +220,10 @@ menu:
                     url: "/info/registration-and-travel/hotel-information"
                     is_new: false
               - links:
-                  - text: "Registration Details"
-                    description: "Full fees, author rules and policies"
-                    url: "/info/registration-and-travel/conference-registration"
-                    is_new: false
+                  - text: "Pick your day"
+                    description: "Day passes and prices at a glance"
+                    url: "/register/"
+                    is_new: true
           - heading: "Satellite Events"
             heading_url: "/satellites/"
             columns:
