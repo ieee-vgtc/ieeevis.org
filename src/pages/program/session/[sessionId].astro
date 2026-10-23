@@ -13,7 +13,6 @@ import type {
 import { displayRoomName } from "../../../utils/week-of-utils";
 import { getProgramEventTypeLabel } from "../../../utils/programEventTypeLabel";
 import { withBaseURL } from "../../../utils/withBaseURL";
-import TimezoneToggle from "../../../components/TimezoneToggle.astro";
 
 // The site runs output: "server" (needed for the Auth0 callback route), which
 // makes every page dynamic by default and silently ignores getStaticPaths()
@@ -48,12 +47,13 @@ export async function getStaticPaths() {
     [];
 
   for (const event of Object.values(sessionList)) {
-    const eventPapers =
-      eventPaperTypes.includes((event.event_type || "").toLowerCase())
-        ? (papersByEventPrefix.get(event.event_prefix) || [])
-            .slice()
-            .sort((a, b) => a.title.localeCompare(b.title))
-        : [];
+    const eventPapers = eventPaperTypes.includes(
+      (event.event_type || "").toLowerCase(),
+    )
+      ? (papersByEventPrefix.get(event.event_prefix) || [])
+          .slice()
+          .sort((a, b) => a.title.localeCompare(b.title))
+      : [];
 
     for (const session of event.sessions) {
       const prefixedId = `${session.event_prefix}-${session.session_id}`;
@@ -92,9 +92,7 @@ const eventPaperTypes = ["workshop", "challenge", "associated"];
 // them when the event's papers are listed instead.
 const presentations = [...session.time_slots]
   .filter((slot) => eventPapers.length === 0 || slot.uid || slot.url)
-  .sort(
-  (a, b) => Date.parse(a.time_start) - Date.parse(b.time_start),
-);
+  .sort((a, b) => Date.parse(a.time_start) - Date.parse(b.time_start));
 
 const sessionDateFormatter = new Intl.DateTimeFormat("en-US", {
   timeZone: "US/Eastern",
@@ -223,7 +221,6 @@ const frontmatter = {
           {formatSessionDateTime(session.time_start, session.time_end)}
         </span>
       </p>
-      <TimezoneToggle />
 
       {
         event.organizers.length > 0 && (
