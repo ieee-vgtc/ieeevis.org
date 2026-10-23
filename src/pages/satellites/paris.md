@@ -8,8 +8,21 @@ description: Join IEEE VIS 2026 from one of our Paris satellite
 
 Satellite Paris
 ======
-
 **November 10-13**
+
+## Local Organizers
+* Florent Cabric (Université Paris-Saclay, IUT d'Orsay, LISN, Inria, CNRS)
+* Jean-Daniel Fekete (Inria, Université Paris-Saclay, LISN, CNRS)
+* Petra Isenberg (Inria, Université Paris-Saclay, LISN, CNRS)
+
+## Organizing Committee Members
+* Nathalie Bressa (Télécom Paris, Institut Polytechnique de Paris)
+* Silvia Cazacu (Télécom Paris, Institut Polytechnique de Paris)
+* Vanessa P. Araya (Inria, Université Paris-Saclay, LISN, CNRS)
+* Anastasia Bezerianos (Université Paris-Saclay, LISN, Inria, CNRS)
+
+## Contact
+* <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#97;&#116;&#101;&#108;&#108;&#105;&#116;&#101;&#95;&#112;&#97;&#114;&#105;&#115;&#64;&#105;&#101;&#101;&#101;&#118;&#105;&#115;&#46;&#111;&#114;&#103;">&#115;&#97;&#116;&#101;&#108;&#108;&#105;&#116;&#101;&#95;&#112;&#97;&#114;&#105;&#115;&#64;&#105;&#101;&#101;&#101;&#118;&#105;&#115;&#46;&#111;&#114;&#103;</a>
 
 ## Place
 
@@ -53,9 +66,11 @@ We are still working on the local program. The current proposal will change as w
 We are very grateful for support for the Paris satellite from the following sponsors:
 
 
+||| 
+|:---:|:---:|
+!![cea logo](/year/2026/assets/satellite/cea-web.png)) |![cnrs_logo](/year/2026/assets/satellite/CNRS-200-wide.png) |![dataia_logo](/year/2026/assets/satellite/DATAIA-200-wide.png) |![pepr_logo](/year/2026/assets/satellite/PEPR-200-wide.png)
+| CEA | CNRS | DataIA | PEPR Ensemble |
 
-|[cea logo](/year/2026/assets/satellite/cea-web.png)| 
-|CEA|
 
 ## FAQ
 
