@@ -79,6 +79,26 @@
     - name: "VRVis"
       image: /assets/supporters/VRVisLogo2024.jpg
       url: "https://www.vrvis.at/en/"
+
+- category: "Paris Satellite"
+  image_size: 200
+  supporters:
+    - name: "Afihm"
+      image: /assets/satellite/afihm-200-wide.png
+    - name: "Universite Gustave Eiffel"
+      image: /assets/satellite/Eiffel-200-wide.png
+    - name: "Telecom Paris"
+      image: /assets/satellite/Telecom-200-wide.png
+    - name: "CEA"
+      image: /assets/satellite/cea-web.png
+    - name: "CNRS"
+      image: /assets/satellite/CNRS-200-wide.png
+    - name: "Universite Paris-Saclay"
+      image: /assets/satellite/DATAIA-200-wide.png
+    - name: "LISN"
+      image: /assets/satellite/LISN-200-wide.png
+    - name: "Programme de recherche"
+      image: /assets/satellite/PEPR-200-wide.jpg
 #  - category: VISAP
 #    image_size: 140
 #    supporters:
