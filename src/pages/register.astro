@@ -135,8 +135,8 @@ const calendarPage = withBaseURL("/program/calendar/");
               </li>
             </ol>
             <div class="go">
-              <a class="btn btn-primary" href={CVENT} rel="noopener"
-                >Register <svg
+              <a class="btn btn-primary cvent" href={CVENT} rel="noopener"
+                ><span id="t-go">Register</span> <svg
                   viewBox="0 0 20 20"
                   fill="none"
                   stroke="currentColor"
@@ -150,8 +150,9 @@ const calendarPage = withBaseURL("/program/calendar/");
               >
             </div>
             <p class="how" id="t-how">
-              On the registration site, choose <b>Non Member Registration</b>, then
-              <b>One Day – Boston</b>.
+              Opens Non Member Registration. Under Registration Items, choose <b
+                >One Day – Boston</b
+              >.
             </p>
           </div>
         </div>
@@ -219,8 +220,10 @@ const calendarPage = withBaseURL("/program/calendar/");
           </article>
         </div>
         <p class="note sat-note">
-          Presenting a paper at a satellite? You need an Author registration; see
-          the <a href={officialPage}>official registration page</a>.
+          Presenting a full or short paper, or an invited TVCG or CG&amp;A paper, at a
+          satellite? One author needs an Author registration. See the <a
+            href={officialPage}>official registration page</a
+          >.
         </p>
       </div>
     </section>
@@ -232,56 +235,89 @@ const calendarPage = withBaseURL("/program/calendar/");
           <h2>Who comes to VIS</h2>
         </div>
         <div class="doors">
-          <button class="door notch" type="button" data-preset="2" data-go="pass">
+          <article class="door notch">
             <h3>I work with data</h3>
             <p>
               Analysts, designers, journalists, engineers, freelancers. Cluster was
               built for you, and it's all on Wednesday.
             </p>
-            <span class="arrow">Start with Wednesday</span>
-          </button>
-          <button
-            class="door notch"
-            type="button"
-            data-preset="2"
-            data-go="wednesday"
-          >
+            <button class="door-toggle" type="button" aria-expanded="false" aria-controls="door-data">What to pick</button>
+            <div class="door-more" id="door-data" inert>
+              <div>
+                <p>
+                  A one-day Wednesday pass covers Cluster, the VIS Arts Program and
+                  the banquet.
+                </p>
+                <button class="btn btn-small" type="button" data-preset="2" data-go="pass">Select Wednesday</button>
+              </div>
+            </div>
+          </article>
+          <article class="door notch">
             <h3>I make art or design with data</h3>
             <p>
               The VIS Arts Program brings papers, pictorials and an exhibition
               opening at the MET Warehouse, all on Wednesday.
             </p>
-            <span class="arrow">See Wednesday</span>
-          </button>
-          <button class="door notch" type="button" data-preset="1" data-go="pass">
+            <button class="door-toggle" type="button" aria-expanded="false" aria-controls="door-art">What to pick</button>
+            <div class="door-more" id="door-art" inert>
+              <div>
+                <p>
+                  A one-day Wednesday pass covers all of VISAP, including the
+                  evening keynote and exhibition opening.
+                </p>
+                <button class="btn btn-small" type="button" data-preset="2" data-go="pass">Select Wednesday</button>
+                <a class="door-link" href="#wednesday">See Wednesday's program</a>
+              </div>
+            </div>
+          </article>
+          <article class="door notch">
             <h3>I'm in Boston and curious</h3>
             <p>
               Tuesday has the opening keynote from Kimberly Arcand on NASA data, and
               the welcome reception and posters that evening.
             </p>
-            <span class="arrow">Try Tuesday</span>
-          </button>
-          <button
-            class="door notch"
-            type="button"
-            data-rate="ieeeStudent"
-            data-go="pass"
-          >
+            <button class="door-toggle" type="button" aria-expanded="false" aria-controls="door-local">What to pick</button>
+            <div class="door-more" id="door-local" inert>
+              <div>
+                <p>
+                  A one-day Tuesday pass covers the keynote, the day's sessions and
+                  the evening reception.
+                </p>
+                <button class="btn btn-small" type="button" data-preset="1" data-go="pass">Select Tuesday</button>
+              </div>
+            </div>
+          </article>
+          <article class="door notch">
             <h3>I'm a student</h3>
             <p>
               Student rates start at $239 a day for IEEE student members and $289
               for other students.
             </p>
-            <span class="arrow">See student rates</span>
-          </button>
-          <a class="door notch" href={officialPage}>
+            <button class="door-toggle" type="button" aria-expanded="false" aria-controls="door-student">What to pick</button>
+            <div class="door-more" id="door-student" inert>
+              <div>
+                <p>Pick your student rate, then pick your days above.</p>
+                <button class="btn btn-small" type="button" data-rate="ieeeStudent" data-go="pass">IEEE student member</button>
+                <button class="btn btn-small" type="button" data-rate="student" data-go="pass">Other student</button>
+              </div>
+            </div>
+          </article>
+          <article class="door notch">
             <h3>I'm presenting a paper</h3>
-            <p>
-              Paper presenters need a Full Conference registration with paper
-              details. The official registration page has the rules.
-            </p>
-            <span class="arrow">Go to the official page</span>
-          </a>
+            <p>Paper authors have a few extra registration rules.</p>
+            <button class="door-toggle" type="button" aria-expanded="false" aria-controls="door-paper">What to pick</button>
+            <div class="door-more" id="door-paper" inert>
+              <div>
+                <p>
+                  Each full or short paper, and each invited TVCG or CG&amp;A paper,
+                  needs one author with a Full Conference registration in Boston, or
+                  an Author registration at a satellite. Workshop papers and posters
+                  don't.
+                </p>
+                <a class="btn btn-small" href={officialPage}>Read the author rules</a>
+              </div>
+            </div>
+          </article>
         </div>
       </div>
     </section>
@@ -513,7 +549,7 @@ const calendarPage = withBaseURL("/program/calendar/");
         <h2>See you in Boston, November 9–13.</h2>
         <p>The Westin Copley Place, 10 Huntington Ave, Back Bay.</p>
         <p class="closing-cta">
-          <a class="btn btn-primary" href={CVENT} rel="noopener">Register</a>
+          <a class="btn btn-primary cvent" href={CVENT} rel="noopener">Register</a>
         </p>
         <div class="links">
           <a href="https://bsky.app/profile/ieeevis.org"
@@ -527,16 +563,14 @@ const calendarPage = withBaseURL("/program/calendar/");
       </div>
     </section>
 
-    <div class="bar" id="bar" aria-hidden="true">
+    <div class="bar" id="bar" inert>
       <div class="wrap">
         <a class="sum" href="#pass"
           ><strong id="b-price">$419</strong><span id="b-name"
             >Wednesday · one day</span
           ></a
         >
-        <a class="btn btn-primary" href={CVENT} rel="noopener" tabindex="-1"
-          >Register</a
-        >
+        <a class="btn btn-primary cvent" href={CVENT} rel="noopener">Register</a>
       </div>
     </div>
   </div>
@@ -578,14 +612,15 @@ const calendarPage = withBaseURL("/program/calendar/");
     student: 479,
     life: null,
   };
-  // Cvent's summary page splits registration into these two buttons.
-  const CVENT_PATH: Record<Cat, string> = {
-    nonmember: "Non Member Registration",
-    student: "Non Member Registration",
-    ieee: "IEEE Member Registration",
-    ieeeStudent: "IEEE Member Registration",
-    life: "IEEE Member Registration",
+  // Cvent's summary page splits registration into these two buttons. The
+  // Register buttons go straight to the one that matches the chosen rate.
+  const CVENT_LINK = {
+    member:
+      "https://web.cvent.com/event/bfb61584-aa1d-46ed-9a2e-98101b7b86e4/register?rp=ea779f6f-d344-4a59-b9a9-a11cb201dc1f",
+    nonmember:
+      "https://web.cvent.com/event/bfb61584-aa1d-46ed-9a2e-98101b7b86e4/register?rp=0efb9c00-cd36-40f2-bc5d-2e5cc0ac209c",
   };
+  const isMember = (c: Cat) => c === "ieee" || c === "ieeeStudent" || c === "life";
   const CATS: [Cat, string][] = [
     ["nonmember", "Non-member"],
     ["ieee", "IEEE member"],
@@ -710,7 +745,7 @@ const calendarPage = withBaseURL("/program/calendar/");
         ["papers", 29, "papers, 4 sessions"],
         ["talks", 1, "capstone talk"],
       ],
-      who: ["nils-gehlenborg.jpg", "Nils Gehlenborg", "The Eyes Still Have It: Do They?"],
+      who: ["Nils.png", "Nils Gehlenborg", "The Eyes Still Have It: Do They?"],
       items: [
         ["8:00 am", "Final paper sessions"],
         ["9:00 am – noon", "VISAP exhibition at the MET Warehouse"],
@@ -742,7 +777,7 @@ const calendarPage = withBaseURL("/program/calendar/");
   const cap = (s: string) => s[0] + s.slice(1).toLowerCase();
   const CHECK =
     '<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="M4 10.5l4 4 8-9"/></svg>';
-  const IMG_BASE = `${root.dataset.base}/assets/register/`;
+  const IMG_BASE = `${root.dataset.base}/assets/keynote-speakers/`;
 
   const params = new URLSearchParams(location.search);
   const today = params.get("today")
@@ -784,12 +819,25 @@ const calendarPage = withBaseURL("/program/calendar/");
     card.style.gridColumn = String(i + 1);
     card.dataset.i = String(i);
     card.setAttribute("aria-label", `${d.long}: ${d.title}`);
+    const desc = document.createElement("span");
+    desc.id = `day-desc-${i}`;
+    desc.hidden = true;
+    desc.textContent = [
+      ...d.counts.map(([, n, l]) => `${n} ${l}`),
+      d.wed ? "Cluster, VISAP and the banquet come with a Wednesday pass" : "",
+      d.who ? `${d.who[1]}: ${d.who[2]}` : "",
+      ...d.items.map(([t, x]) => `${t}: ${x}`),
+    ]
+      .filter(Boolean)
+      .join(". ");
+    grid.append(desc);
+    card.setAttribute("aria-describedby", desc.id);
     card.innerHTML = `
       <span class="dow"><span>${d.dow}</span><span>${d.date}</span></span>
       <h3>${d.title}</h3>
       <ul class="counts">${d.counts.map(([k, n, l]) => `<li data-cat="${k}"><i class="sw" style="background:${UNIT_COLORS[k]}"></i><span><b>${n}</b> ${l}</span></li>`).join("")}</ul>
       ${d.wed ? '<span class="inc"><strong>Cluster, VISAP + banquet</strong>All three come with a Wednesday pass</span>' : ""}
-      ${d.who ? `<span class="who"><img src="${IMG_BASE}${d.who[0]}" alt="" width="44" height="44"><span><b>${d.who[1]}</b><br>${d.who[2]}</span></span>` : ""}
+      ${d.who ? `<span class="who"><img src="${IMG_BASE}${d.who[0]}" alt="" width="44" height="44" loading="lazy" decoding="async"><span><b>${d.who[1]}</b><br>${d.who[2]}</span></span>` : ""}
       <ul>${d.items.map(([t, x]) => `<li><b>${t}</b>${x}</li>`).join("")}</ul>
       <span class="pick"><span class="box">${CHECK}</span><span class="pick-label">Add this day</span></span>`;
     card.addEventListener("click", () => toggle(i));
@@ -854,6 +902,15 @@ const calendarPage = withBaseURL("/program/calendar/");
     render();
   }
 
+  $$<HTMLButtonElement>(".door-toggle").forEach((t) =>
+    t.addEventListener("click", () => {
+      const open = t.getAttribute("aria-expanded") !== "true";
+      t.setAttribute("aria-expanded", String(open));
+      t.closest(".door")!.classList.toggle("open", open);
+      document.getElementById(t.getAttribute("aria-controls")!)!.inert = !open;
+    }),
+  );
+
   $$("[data-preset]").forEach((b) =>
     b.addEventListener("click", () => {
       setDays(b.dataset.preset!.split(",").map(Number));
@@ -864,7 +921,6 @@ const calendarPage = withBaseURL("/program/calendar/");
     b.addEventListener("click", () => {
       state.cat = b.dataset.rate as Cat;
       $<HTMLInputElement>(`#cats input[value="${state.cat}"]`).checked = true;
-      if (!state.days.size) state.days.add(2);
       render();
       document.getElementById(b.dataset.go!)!.scrollIntoView();
     }),
@@ -969,9 +1025,16 @@ const calendarPage = withBaseURL("/program/calendar/");
     $("#t-tag").hidden = !(priced && useEarly);
     $("#t-steps").hidden = !useEarly;
     $("#t-cat").textContent = `${CATS.find(([k]) => k === state.cat)![1]} rate, USD`;
-    $("#t-how").innerHTML = priced
-      ? `On the registration site, choose <b>${CVENT_PATH[state.cat]}</b>, then <b>${pass.cvent}</b>.`
-      : "";
+    const member = isMember(state.cat);
+    $$<HTMLAnchorElement>("a.cvent").forEach(
+      (a) => (a.href = CVENT_LINK[member ? "member" : "nonmember"]),
+    );
+    $("#t-go").textContent = priced ? `Register: ${pass.cvent}` : "Register";
+    $("#t-how").innerHTML = !priced
+      ? ""
+      : member
+        ? `Opens IEEE Member Registration, where you sign in with your IEEE account. Under Registration Items, choose <b>${pass.cvent}</b>.`
+        : `Opens Non Member Registration. Under Registration Items, choose <b>${pass.cvent}</b>.`;
 
     const sat = SAT_RATES[state.cat];
     const catLabel = CATS.find(([k]) => k === state.cat)![1];
@@ -1014,8 +1077,9 @@ const calendarPage = withBaseURL("/program/calendar/");
   const sync = () => {
     const on = pastHero && !passVisible && !satsVisible && !atEnd;
     bar.classList.toggle("show", on);
-    bar.setAttribute("aria-hidden", String(!on));
-    $(".btn", bar).tabIndex = on ? 0 : -1;
+    // inert keeps the off-screen bar's links out of the tab order and away
+    // from screen readers.
+    bar.inert = !on;
   };
   new IntersectionObserver(([e]) => {
     pastHero = !e.isIntersecting && e.boundingClientRect.top < 0;
@@ -1375,6 +1439,13 @@ const calendarPage = withBaseURL("/program/calendar/");
   }
   .reg .day:hover {
     transform: translateY(-2px);
+  }
+  .reg .day:focus-visible {
+    outline: 3px solid var(--brown);
+    outline-offset: -10px;
+  }
+  .reg .day.wed:focus-visible {
+    outline-color: var(--white);
   }
   .reg .day[aria-pressed="true"] {
     box-shadow: inset 0 0 0 4px var(--raspberry);
@@ -2054,12 +2125,6 @@ const calendarPage = withBaseURL("/program/calendar/");
     display: flex;
     flex-direction: column;
     gap: 8px;
-    text-align: left;
-    font: inherit;
-    color: inherit;
-    border: 0;
-    cursor: pointer;
-    text-decoration: none;
   }
   .reg .door::before {
     content: "";
@@ -2078,15 +2143,72 @@ const calendarPage = withBaseURL("/program/calendar/");
     font-size: 15px;
     line-height: 1.45;
   }
-  .reg .door .arrow {
+  .reg .door-toggle {
     margin-top: auto;
-    padding-top: 8px;
-    font-weight: 700;
+    align-self: flex-start;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 0 0;
+    font: 700 15px var(--body);
     color: var(--raspberry);
-    font-size: 15px;
+    background: none;
+    border: 0;
+    cursor: pointer;
   }
-  .reg .door:hover {
-    transform: translateY(-2px);
+  .reg .door-toggle::after {
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-right: 2px solid currentColor;
+    border-bottom: 2px solid currentColor;
+    transform: translateY(-2px) rotate(45deg);
+    transition: transform 0.2s;
+  }
+  .reg .door.open .door-toggle::after {
+    transform: translateY(2px) rotate(225deg);
+  }
+  /* Opens by animating the row from 0 to its content height. */
+  .reg .door-more {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.25s;
+  }
+  .reg .door.open .door-more {
+    grid-template-rows: 1fr;
+  }
+  /* The padding keeps the buttons' focus rings inside the clipped area. */
+  .reg .door-more > div {
+    overflow: hidden;
+    padding: 0 7px 7px;
+    margin: 0 -7px -7px;
+    visibility: hidden;
+    transition: visibility 0s 0.25s;
+  }
+  .reg .door.open .door-more > div {
+    visibility: visible;
+    transition: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .reg .door-more p {
+    padding-top: 10px;
+    border-top: 2px dashed var(--peach);
+  }
+  .reg .door-more .door-link {
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .reg .btn-small {
+    padding: 10px 14px;
+    font-size: 15px;
+    background: var(--orange-700);
+    color: var(--white);
+  }
+  .reg .btn-small:hover {
+    background: var(--orange-800);
   }
 
   /* Team */
@@ -2202,6 +2324,12 @@ const calendarPage = withBaseURL("/program/calendar/");
     transform: translateY(110%);
     transition: transform 0.25s;
     z-index: 10;
+  }
+  .reg .bar:not(.show) {
+    visibility: hidden;
+    transition:
+      transform 0.25s,
+      visibility 0s 0.25s;
   }
   .reg .bar.show {
     transform: none;
