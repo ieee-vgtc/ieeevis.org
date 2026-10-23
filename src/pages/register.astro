@@ -165,9 +165,7 @@ const calendarPage = withBaseURL("/program/calendar/");
               >
             </div>
             <p class="how" id="t-how">
-              Your picks here don't carry over, so on Cvent choose <b
-                >One Day – Boston</b
-              > under Registration Items.
+              On Cvent choose <b>One Day – Boston</b> under Registration Items.
             </p>
           </div>
         </div>
@@ -1048,8 +1046,8 @@ const calendarPage = withBaseURL("/program/calendar/");
     $("#t-how").innerHTML = !priced
       ? ""
       : member
-        ? `Your picks here don't carry over, so on Cvent sign in with your IEEE account and choose <b>${pass.cvent}</b> under Registration Items.`
-        : `Your picks here don't carry over, so on Cvent choose <b>${pass.cvent}</b> under Registration Items.`;
+        ? `On Cvent sign in with your IEEE account and choose <b>${pass.cvent}</b> under Registration Items.`
+        : `On Cvent choose <b>${pass.cvent}</b> under Registration Items.`;
 
     const sat = SAT_RATES[state.cat];
     const catLabel = CATS.find(([k]) => k === state.cat)![1];
