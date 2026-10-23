@@ -54,6 +54,11 @@ const calendarPage = withBaseURL("/program/calendar/");
               Day passes from <strong>$419</strong> · IEEE members and students pay
               less
             </p>
+            <p class="sat-line">
+              Can't get to Boston? <a href="#satellites"
+                >Join VIS in Paris or Tianjin</a
+              >, November 10–13.
+            </p>
           </div>
           <div class="facts" aria-label="The week in numbers">
             <div>280+</div><span>papers in 41 sessions</span>
@@ -139,13 +144,84 @@ const calendarPage = withBaseURL("/program/calendar/");
                   aria-hidden="true"><path d="M4 10h12M11 5l5 5-5 5"></path></svg
                 ></a
               >
-              <span class="note go-note">Pay by card or wire transfer.</span>
+              <span class="note go-note"
+                >Pay by card, or by wire transfer for a separate fee (add it under
+                Additional Items).</span
+              >
             </div>
             <p class="how" id="t-how">
-              On the registration site, choose <b>One Day – Boston</b>.
+              On the registration site, choose <b>Non Member Registration</b>, then
+              <b>One Day – Boston</b>.
             </p>
           </div>
         </div>
+      </div>
+    </section>
+
+    <section class="sats" id="satellites">
+      <div class="wrap">
+        <div class="sec-head">
+          <div class="kicker">Satellites · November 10–13</div>
+          <h2>Not in Boston? Join VIS in Paris or Tianjin.</h2>
+          <p>
+            Two satellite sites run their own in-person program each day and
+            stream selected Boston sessions, from the opening keynote to the
+            capstone. Each has its own registration, and places are limited.
+          </p>
+        </div>
+        <div class="sat-grid">
+          <article class="sat notch">
+            <div class="kicker">Paris, France</div>
+            <h3>Institut des Systèmes Complexes</h3>
+            <p class="where">113 rue Nationale, Paris 13e</p>
+            <ul>
+              <li>
+                Mornings: PhD Madness, posters and panels, including Teaching Vis in
+                the Age of AI
+              </li>
+              <li>Afternoons, 2:00–5:30 pm: sessions streamed from Boston</li>
+            </ul>
+            <p class="sat-cost" data-extra="">
+              <b>$599</b> + VAT for all four days (Non-member)
+            </p>
+            <div class="go">
+              <a
+                class="btn btn-primary"
+                href="https://web.cvent.com/event/0e18a99d-6d50-4799-995e-c6d504f2166f"
+                rel="noopener">Register for Paris</a
+              >
+              <a href={withBaseURL("/satellites/paris/")}>Paris program</a>
+            </div>
+          </article>
+          <article class="sat notch">
+            <div class="kicker">Tianjin, China</div>
+            <h3>Tianjin University</h3>
+            <p class="where">
+              Peiyangyuan Campus by day; Novotel Tianjin Meijiang in the evening
+            </p>
+            <ul>
+              <li>
+                Days: the China VIS Meetup, local paper presentations and posters
+              </li>
+              <li>Evenings, 8:00–11:30 pm Beijing time: sessions streamed from Boston</li>
+            </ul>
+            <p class="sat-cost" data-extra=", also priced in CNY">
+              <b>$599</b> + VAT for all four days (Non-member), also priced in CNY
+            </p>
+            <div class="go">
+              <a
+                class="btn btn-primary"
+                href="https://ieeevis2026.scimeeting.cn/"
+                rel="noopener">Register for Tianjin</a
+              >
+              <a href={withBaseURL("/satellites/tianjin/")}>Tianjin program</a>
+            </div>
+          </article>
+        </div>
+        <p class="note sat-note">
+          Presenting a paper at a satellite? You need an Author registration; see
+          the <a href={officialPage}>official registration page</a>.
+        </p>
       </div>
     </section>
 
@@ -415,8 +491,7 @@ const calendarPage = withBaseURL("/program/calendar/");
           <details>
             <summary>I can't make it to Boston.</summary>
             <p>
-              VIS also runs in person in <a href={withBaseURL("/satellites/")}
-                >Paris and Tianjin</a
+              VIS also runs in person in <a href="#satellites">Paris and Tianjin</a
               >, November 10–13, with separate registration. Every registration
               includes access to the conference's virtual content.
             </p>
@@ -446,6 +521,7 @@ const calendarPage = withBaseURL("/program/calendar/");
           >
           <a href={calendarPage}>Full program</a>
           <a href={hotelPage}>Hotel</a>
+          <a href="#satellites">Paris and Tianjin</a>
           <a href={officialPage}>Official registration page</a>
         </div>
       </div>
@@ -492,6 +568,23 @@ const calendarPage = withBaseURL("/program/calendar/");
       student: [599, 299, 239],
       life: [499, null, null],
     },
+  };
+  // Satellite Attendee (Paris/Tianjin), plus VAT, late rates from the same page.
+  // Life members have no attendee rate there, only Satellite Author.
+  const SAT_RATES: Record<Cat, number | null> = {
+    nonmember: 599,
+    ieee: 499,
+    ieeeStudent: 359,
+    student: 479,
+    life: null,
+  };
+  // Cvent's summary page splits registration into these two buttons.
+  const CVENT_PATH: Record<Cat, string> = {
+    nonmember: "Non Member Registration",
+    student: "Non Member Registration",
+    ieee: "IEEE Member Registration",
+    ieeeStudent: "IEEE Member Registration",
+    life: "IEEE Member Registration",
   };
   const CATS: [Cat, string][] = [
     ["nonmember", "Non-member"],
@@ -876,7 +969,17 @@ const calendarPage = withBaseURL("/program/calendar/");
     $("#t-tag").hidden = !(priced && useEarly);
     $("#t-steps").hidden = !useEarly;
     $("#t-cat").textContent = `${CATS.find(([k]) => k === state.cat)![1]} rate, USD`;
-    $("#t-how").innerHTML = priced ? `On the registration site, choose <b>${pass.cvent}</b>.` : "";
+    $("#t-how").innerHTML = priced
+      ? `On the registration site, choose <b>${CVENT_PATH[state.cat]}</b>, then <b>${pass.cvent}</b>.`
+      : "";
+
+    const sat = SAT_RATES[state.cat];
+    const catLabel = CATS.find(([k]) => k === state.cat)![1];
+    $$(".sat-cost").forEach((p) => {
+      p.innerHTML = sat
+        ? `<b>${usd(sat)}</b> + VAT for all four days (${catLabel})${p.dataset.extra}`
+        : "IEEE Life members: Satellite Author registration only, <b>$599</b> + VAT";
+    });
 
     const inc: string[] = [];
     if (priced) {
@@ -900,14 +1003,16 @@ const calendarPage = withBaseURL("/program/calendar/");
   render();
 
   // Sticky bar: shows once you're past the hero, and hides while the pass card
-  // is on screen and from the closing Register button down, so it never covers
-  // the site footer.
+  // or the satellite cards are on screen (so Boston's button never sits over
+  // Paris and Tianjin) and from the closing Register button down, so it never
+  // covers the site footer.
   const bar = $("#bar");
   let pastHero = false;
   let passVisible = false;
+  let satsVisible = false;
   let atEnd = false;
   const sync = () => {
-    const on = pastHero && !passVisible && !atEnd;
+    const on = pastHero && !passVisible && !satsVisible && !atEnd;
     bar.classList.toggle("show", on);
     bar.setAttribute("aria-hidden", String(!on));
     $(".btn", bar).tabIndex = on ? 0 : -1;
@@ -923,6 +1028,10 @@ const calendarPage = withBaseURL("/program/calendar/");
     },
     { threshold: 0.25 },
   ).observe($(".ticket"));
+  new IntersectionObserver(([e]) => {
+    satsVisible = e.isIntersecting;
+    sync();
+  }).observe($(".sat-grid"));
   new IntersectionObserver(([e]) => {
     atEnd = e.isIntersecting || e.boundingClientRect.top < 0;
     sync();
@@ -1690,6 +1799,108 @@ const calendarPage = withBaseURL("/program/calendar/");
   }
   .reg .steps li + li {
     margin-top: 6px;
+  }
+
+  /* Satellites */
+  .reg .hero .sat-line {
+    margin: 10px 0 0;
+    font-size: 15px;
+    color: var(--brown);
+  }
+  .reg .hero .sat-line a {
+    color: var(--raspberry);
+    font-weight: 700;
+  }
+  .reg .sats {
+    background: var(--peach);
+  }
+  .reg .sat-grid {
+    display: grid;
+    gap: 20px;
+    margin-top: 28px;
+  }
+  @media (min-width: 900px) {
+    .reg .sat-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  .reg .sat {
+    background: var(--white);
+    padding: 24px 24px 32px 34px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .reg .sat::before {
+    content: "";
+    position: absolute;
+    left: 14px;
+    top: 0;
+    bottom: 0;
+    border-left: 2px solid var(--raspberry);
+  }
+  .reg .sat h3 {
+    font-size: 28px;
+    color: var(--brown);
+  }
+  .reg .sat .where {
+    margin: 0;
+    font-size: 15px;
+    color: var(--gray-700);
+  }
+  .reg .sat ul {
+    list-style: none;
+    margin: 4px 0 0;
+    padding: 0;
+    display: grid;
+    gap: 6px;
+    font-size: 15px;
+    line-height: 1.45;
+  }
+  .reg .sat li {
+    padding-left: 18px;
+    position: relative;
+  }
+  .reg .sat li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 8px;
+    height: 8px;
+    border: 2px solid var(--raspberry);
+    border-radius: 50%;
+  }
+  .reg .sat .sat-cost {
+    margin: 6px 0 0;
+    font-size: 15px;
+    color: var(--brown);
+  }
+  .reg .sat .sat-cost b {
+    font: 700 28px var(--display);
+    color: var(--brown);
+  }
+  .reg .sat .go {
+    margin-top: auto;
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 18px;
+    align-items: center;
+  }
+  .reg .sat .go > a:not(.btn) {
+    font-weight: 700;
+    font-size: 15px;
+  }
+  .reg .sat .btn-primary {
+    background: var(--raspberry);
+  }
+  .reg .sat .btn-primary:hover {
+    background: var(--brown);
+  }
+  .reg .sat-note {
+    margin-top: 18px;
   }
 
   /* Wednesday spotlight */
