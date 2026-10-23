@@ -219,6 +219,11 @@ menu:
                     description: "Where to stay"
                     url: "/info/registration-and-travel/hotel-information"
                     is_new: false
+              - links:
+                  - text: "Registration Planner"
+                    description: "Day passes and prices at a glance"
+                    url: "/register/"
+                    is_new: true
           - heading: "Satellite Events"
             heading_url: "/satellites/"
             columns:

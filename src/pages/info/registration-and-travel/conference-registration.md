@@ -8,6 +8,8 @@ contact: finance@ieeevis.org
 
 ## IEEE VIS 2026 Registration
 
+**New to VIS? [Start here](/year/2026/register/)** to pick your days and see your price.
+
 We are excited to have you to join us at the 2026 IEEE Visualization and Visual Analytics Conference, November 9 - 13.
 The main conference will take place at The Westin Copley Place in Boston, MA, USA.
 Satellite locations will also host in-person programs at Paris, France and Tianjin, China. See the [Satellite Locations](https://ieeevis.org/year/2026/satellites/) page for more details.
