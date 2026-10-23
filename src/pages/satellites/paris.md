@@ -68,7 +68,7 @@ We are very grateful for support for the Paris satellite from the following spon
 
 ||| 
 |:---:|:---:|
-!![cea logo](/year/2026/assets/satellite/cea-web.png)) |![cnrs_logo](/year/2026/assets/satellite/CNRS-200-wide.png) |![dataia_logo](/year/2026/assets/satellite/DATAIA-200-wide.png) |![pepr_logo](/year/2026/assets/satellite/PEPR-200-wide.png)
+![cea logo](/year/2026/assets/satellite/cea-web.png) |![cnrs_logo](/year/2026/assets/satellite/CNRS-200-wide.png) |![dataia_logo](/year/2026/assets/satellite/DATAIA-200-wide.png) |![pepr_logo](/year/2026/assets/satellite/PEPR-200-wide.png)
 | CEA | CNRS | DataIA | PEPR Ensemble |
 
 
