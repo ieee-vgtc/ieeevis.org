@@ -125,3 +125,38 @@
     border-bottom: 62px solid white;
   }
 }
+
+/* Callout Banner: a raspberry banner for a page's one key pointer, e.g. the
+   "New to VIS?" link at the top of the registration page. */
+
+.callout-banner {
+  @apply bg-secondary text-white;
+  padding: 1.25rem 1.5rem 1.5rem;
+  margin-bottom: 2rem;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% - 18px),
+    calc(100% - 18px) 100%,
+    0 100%
+  );
+}
+
+.callout-banner p {
+  @apply mb-2;
+}
+
+.callout-banner__title {
+  @apply font-display font-bold text-2xl;
+  line-height: 1.15;
+}
+
+/* Raspberry text on white is 6.5:1. */
+.callout-banner .button {
+  @apply bg-white mt-2 text-base;
+  color: #9e3a5f;
+}
+
+.callout-banner .button:hover {
+  @apply bg-accent-secondaryBackground;
+}
