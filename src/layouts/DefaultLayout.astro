@@ -19,9 +19,7 @@ const isProgramPage = /\/program(?:\/|$)/.test(pathname);
 // Pages the middleware redirects away from shouldn't be indexed either.
 const indexed = searchable && !isPathInactive(stripBaseURL(pathname));
 
-// A page that renders its content from elsewhere names that file itself.
-const source_file =
-  page_info.source_file ?? source_file_for_pathname(pathname);
+const source_file = source_file_for_pathname(pathname);
 ---
 
 <!doctype html>

@@ -1,4 +1,5 @@
 ---
+layout: /src/layouts/PageLayout.astro
 title: "VISions: Zhu-Tian Chen; Ana Crisan"
 description: "Meet the inaugural VISions speakers at IEEE VIS, Zhu-Tian Chen and Ana Crisan, and read the abstracts of their forward-looking talks."
 contact: visions@ieeevis.org
@@ -43,3 +44,5 @@ Her interdisciplinary research sits at the intersection of human-computer intera
 Her work focuses on developing responsible, transparent, and trustworthy AI systems aligned with human intent; designing interactive visualization systems that support data-driven decision-making from insight to action; and applying data science and visualization to healthcare, public health, and biomedicine.
 
 For more information, visit her website at [https://cs.uwaterloo.ca/~amcrisan](https://cs.uwaterloo.ca/~amcrisan).
+
+Each VISions talk has a discussion on its own page. The [session page](https://ieeevis.org/year/2026/program/session/conf-visions3/) links to both.
