@@ -20,7 +20,7 @@ const INVITED_TALK_WORDS = ["keynote", "capstone", "visions"];
 export function hasOwnDiscussion(slot: ProgramTimeSlot): boolean {
   if (slot.uid) return false; // its discussion is on the paper page
   const slotId = slot.slot_id?.toLowerCase() ?? "";
-  const paperType = slot.paper_type?.toLowerCase() ?? "";
+  const paperType = slot.paper_type?.trim().toLowerCase() ?? "";
   return (
     paperType === "panel" ||
     INVITED_TALK_WORDS.some(
@@ -52,7 +52,7 @@ export function hasSessionDiscussion(
   sessionPageId: string,
 ): boolean {
   return (
-    SESSION_DISCUSSIONS.eventTypes.includes(eventType.toLowerCase()) ||
+    SESSION_DISCUSSIONS.eventTypes.includes(eventType.trim().toLowerCase()) ||
     SESSION_DISCUSSIONS.pageIds.includes(sessionPageId)
   );
 }
