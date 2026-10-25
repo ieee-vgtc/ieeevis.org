@@ -80,6 +80,16 @@
       image: /assets/supporters/VRVisLogo2024.jpg
       url: "https://www.vrvis.at/en/"
 
+- category: VISAP Grant Supporter
+  image_size: 200
+  supporters:
+    - name: "Autodesk"
+      image: /assets/supporters/autodesk.png
+      url: "https://www.autodesk.com/"
+    - name: "Quaise"
+      image: /assets/supporters/quaise.png
+      url: "https://www.quaise.com/"
+
 - category: "Paris Satellite"
   image_size: 200
   supporters:
