@@ -6,7 +6,7 @@ import BlueskyDiscussion from "../../../components/BlueskyDiscussion";
 import { fetchAllPapers, fetchAllSessions } from "../../../utils/paperData";
 import {
   hasOwnDiscussion,
-  hasSessionDiscussion,
+  sessionDiscussionId,
 } from "../../../utils/discussionSlots";
 import type { Paper } from "../../../types/paper";
 import type {
@@ -98,7 +98,7 @@ const presentations = [...session.time_slots]
   .sort((a, b) => Date.parse(a.time_start) - Date.parse(b.time_start));
 
 const sessionPageId = `${session.event_prefix}-${session.session_id}`;
-const sessionHasOwnDiscussion = hasSessionDiscussion(
+const sessionThreadId = sessionDiscussionId(
   event.event_type || "",
   sessionPageId,
 );
@@ -349,7 +349,7 @@ const frontmatter = {
             {/* Panels and invited talks have no paper page, so their Bluesky
               discussion — the thread of replies to the announcement post,
               proxied through bsky.tech.ieeevis.org — belongs here. */}
-            {!sessionHasOwnDiscussion && hasOwnDiscussion(slot) && (
+            {!sessionThreadId && hasOwnDiscussion(slot) && (
               <div class="program-presentation-discussion not-prose">
                 <BlueskyDiscussion client:visible paperId={slot.slot_id} />
               </div>
@@ -376,9 +376,9 @@ const frontmatter = {
     </div>
 
     {
-      sessionHasOwnDiscussion && (
+      sessionThreadId && (
         <div class="not-prose">
-          <BlueskyDiscussion client:visible paperId={sessionPageId} />
+          <BlueskyDiscussion client:visible paperId={sessionThreadId} />
         </div>
       )
     }
