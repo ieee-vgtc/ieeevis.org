@@ -28,3 +28,31 @@ export function hasOwnDiscussion(slot: ProgramTimeSlot): boolean {
     )
   );
 }
+
+/** Mirrors SESSION_DISCUSSIONS in conferentech's
+ *  `supabase/functions/_shared/conference.ts`. Keep the two lists in step. */
+const SESSION_DISCUSSIONS = {
+  eventTypes: ["workshop", "tutorial", "meetup", "challenge"],
+  pageIds: [
+    "conf-conference1", // Practitioner Summit, part 1
+    "conf-conference2", // Practitioner Summit, part 2
+    "conf-conference4", // Practitioner Summit, part 3
+    "conf-townhall1",
+    "a-visap-conference11", // VISAP exhibition opening and keynote
+  ],
+};
+
+/**
+ * Whether the session has one Bluesky discussion as a whole, keyed by its page
+ * id. The announce bot posts once for such a session and not for the slots in
+ * it that have no paper.
+ */
+export function hasSessionDiscussion(
+  eventType: string,
+  sessionPageId: string,
+): boolean {
+  return (
+    SESSION_DISCUSSIONS.eventTypes.includes(eventType.toLowerCase()) ||
+    SESSION_DISCUSSIONS.pageIds.includes(sessionPageId)
+  );
+}
