@@ -122,6 +122,8 @@ interface BlueskyDiscussionProps {
   showPost?: boolean;
   /** Bluesky handles of the paper's authors, whose posts get an "Author" badge. */
   authorHandles?: string[];
+  /** Tells apart several discussions on one page. Defaults to "Discussion". */
+  heading?: string;
 }
 
 interface LoadedThread {
@@ -398,6 +400,7 @@ export default function BlueskyDiscussion({
   maxDepth = MAX_DEPTH,
   defaultSort = "top",
   authorHandles = [],
+  heading = "Discussion",
 }: BlueskyDiscussionProps) {
   // Where Bluesky sends the reader back to after the login: this discussion.
   const sectionId = `bsky-discussion-${paperId || "direct"}`;
@@ -1066,7 +1069,7 @@ export default function BlueskyDiscussion({
     return (
       <section ref={sectionRef} style={sectionStyle}>
         <div style={headingRowStyle}>
-          <DiscussionHeading />
+          <DiscussionHeading text={heading} />
         </div>
         <p style={{ color: "var(--color-gray-600)", margin: 0 }}>
           There is no discussion for this paper yet. It will be added closer to
@@ -1092,7 +1095,7 @@ export default function BlueskyDiscussion({
     return (
       <section ref={sectionRef} style={sectionStyle} aria-live="polite">
         <div style={headingRowStyle}>
-          <DiscussionHeading />
+          <DiscussionHeading text={heading} />
         </div>
         <p style={{ color: "var(--color-gray-600)", margin: 0 }}>
           {opensAt
@@ -1278,7 +1281,7 @@ export default function BlueskyDiscussion({
       <style>{".bsky-view-link:hover{text-decoration:underline}"}</style>
 
       <div style={headingRowStyle}>
-        <DiscussionHeading />
+        <DiscussionHeading text={heading} />
         {root?.bskyUrl && (
           <a
             className="bsky-view-link"
@@ -1435,8 +1438,8 @@ const standaloneSectionStyle: CSSProperties = {
   marginTop: "2.5rem",
 };
 
-function DiscussionHeading() {
-  return <h2 style={{ margin: 0 }}>Discussion</h2>;
+function DiscussionHeading({ text }: { text: string }) {
+  return <h2 style={{ margin: 0 }}>{text}</h2>;
 }
 
 const headingRowStyle: CSSProperties = {

@@ -1,0 +1,32 @@
+---
+import BlueskyDiscussion from "./BlueskyDiscussion";
+import { fetchAllSessions } from "../utils/paperData";
+import {
+  discussionId,
+  invitedTalkSlots,
+  type InvitedTalkKind,
+} from "../utils/discussionSlots";
+
+interface Props {
+  kind: InvitedTalkKind;
+}
+
+const { kind } = Astro.props;
+const slots = invitedTalkSlots(await fetchAllSessions(), kind);
+---
+
+{
+  slots.map((slot) => (
+    <div class="not-prose">
+      <BlueskyDiscussion
+        client:visible
+        paperId={discussionId(slot)}
+        heading={
+          slots.length > 1
+            ? `Discussion: ${slot.contributors?.join(", ") || slot.title}`
+            : undefined
+        }
+      />
+    </div>
+  ))
+}

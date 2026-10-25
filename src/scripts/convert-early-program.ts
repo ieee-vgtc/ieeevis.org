@@ -32,9 +32,9 @@ const WORKSHOPS = "src/pages/info/program/workshops.md";
 const OVERRIDES = "src/data/early_program/schedule_overrides.json";
 // Invited talks: schedule item type -> page describing the talk(s).
 const INVITED_TALK_PAGES: Record<string, string> = {
-  Keynote: "src/pages/info/invited-speakers/keynote-speaker.md",
-  Capstone: "src/pages/info/invited-speakers/capstone-speaker.md",
-  VISions: "src/pages/info/invited-speakers/visions.md",
+  Keynote: "src/data/invited-speakers/keynote-speaker.md",
+  Capstone: "src/data/invited-speakers/capstone-speaker.md",
+  VISions: "src/data/invited-speakers/visions.md",
 };
 const OUT_DIR = "src/data/program_test";
 const YEAR_URL = "https://ieeevis.org/year/2026";
@@ -326,7 +326,7 @@ const headingId = (heading: string) =>
  */
 function loadInvitedTalks(file: string) {
   const { data, content } = matter(readFileSync(file, "utf-8"));
-  const url = `${file.replace(/^src\/pages/, "").replace(/\.md$/, "")}/`;
+  const url = `${file.replace(/^src\/data/, "/info").replace(/\.md$/, "")}/`;
   const headings = [...content.matchAll(/^## (.+)$/gm)].map((m) => m[1].trim());
 
   if (headings.length === 0) {
