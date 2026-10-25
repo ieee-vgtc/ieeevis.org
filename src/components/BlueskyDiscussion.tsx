@@ -1095,9 +1095,17 @@ export default function BlueskyDiscussion({
           <DiscussionHeading />
         </div>
         <p style={{ color: "var(--color-gray-600)", margin: 0 }}>
-          {opensAt
-            ? `The discussion opens shortly before the session, on ${opensAt}.`
-            : "The discussion opens shortly before the session."}
+          {opensAt ? (
+            <>
+              The discussion opens shortly before the session, on{" "}
+              <time dateTime={new Date(thread.opensAt!).toISOString()}>
+                {opensAt}
+              </time>
+              .
+            </>
+          ) : (
+            "The discussion opens shortly before the session."
+          )}
         </p>
       </section>
     );

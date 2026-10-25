@@ -348,7 +348,7 @@ const calendarPage = withBaseURL("/program/calendar/");
             </blockquote>
             <ol class="timeline">
               <li>
-                <time>8:30 am</time>
+                <time datetime="2026-11-11T08:30-05:00">8:30 am</time>
                 <h3>Welcome and keynote</h3>
                 <p>
                   Sophie Sparkes on "Data Viz Isn't a Chart You Drop In at the
@@ -356,7 +356,7 @@ const calendarPage = withBaseURL("/program/calendar/");
                 </p>
               </li>
               <li>
-                <time>8:45 am</time>
+                <time datetime="2026-11-11T08:45-05:00">8:45 am</time>
                 <h3>PolicyViz Podcast, live</h3>
                 <p>
                   Jonathan Schwabish with Yannick Assogba, Amber Thomas and Doug
@@ -364,16 +364,19 @@ const calendarPage = withBaseURL("/program/calendar/");
                 </p>
               </li>
               <li>
-                <time>10:30 am</time>
+                <time datetime="2026-11-11T10:30-05:00">10:30 am</time>
                 <h3>Lightning talks</h3>
                 <p>
                   Nine practitioners from Dana-Farber, NASA's Scientific
                   Visualization Studio, Graphicacy, Viz Responsibly and more.
                 </p>
               </li>
-              <li><time>11:30 am</time><h3>Lunch, included</h3></li>
               <li>
-                <time>1:00 pm</time>
+                <time datetime="2026-11-11T11:30-05:00">11:30 am</time>
+                <h3>Lunch, included</h3>
+              </li>
+              <li>
+                <time datetime="2026-11-11T13:00-05:00">1:00 pm</time>
                 <h3>How to freelance</h3>
                 <p>
                   Incorporating, taxes, health insurance and tools, from people
@@ -393,7 +396,7 @@ const calendarPage = withBaseURL("/program/calendar/");
             </blockquote>
             <ol class="timeline">
               <li>
-                <time>8:00 am</time>
+                <time datetime="2026-11-11T08:00-05:00">8:00 am</time>
                 <h3>Making Data Tangible</h3>
                 <p>
                   Data sculptures, participatory performance, tapestries and urban
@@ -402,7 +405,7 @@ const calendarPage = withBaseURL("/program/calendar/");
                 </p>
               </li>
               <li>
-                <time>10:00 am</time>
+                <time datetime="2026-11-11T10:00-05:00">10:00 am</time>
                 <h3>Reimagining Archives</h3>
                 <p>
                   AI and performance remaking cultural collections, from The
@@ -410,7 +413,7 @@ const calendarPage = withBaseURL("/program/calendar/");
                 </p>
               </li>
               <li>
-                <time>1:00 pm</time>
+                <time datetime="2026-11-11T13:00-05:00">1:00 pm</time>
                 <h3>Beyond the Visual</h3>
                 <p>
                   Pictorials on tactile data, geological memory, language, sound
@@ -418,7 +421,7 @@ const calendarPage = withBaseURL("/program/calendar/");
                 </p>
               </li>
               <li>
-                <time>7:00 pm</time>
+                <time datetime="2026-11-11T19:00-05:00">7:00 pm</time>
                 <h3>Keynote and exhibition opening</h3>
                 <p>
                   Richard The of TheGreenEyl opens the exhibition at the MET
@@ -426,7 +429,10 @@ const calendarPage = withBaseURL("/program/calendar/");
                 </p>
               </li>
               <li>
-                <time>Thu and Fri</time>
+                <span class="days">
+                  <time datetime="2026-11-12">Thu</time> and
+                  <time datetime="2026-11-13">Fri</time>
+                </span>
                 <h3>Exhibition stays open</h3>
                 <p>Thursday 9 am – 6 pm and Friday 9 am – noon.</p>
               </li>
@@ -438,12 +444,12 @@ const calendarPage = withBaseURL("/program/calendar/");
           <div class="kicker">And for everyone</div>
           <ol class="timeline">
             <li>
-              <time>3:00 pm</time>
+              <time datetime="2026-11-11T15:00-05:00">3:00 pm</time>
               <h3>VISions</h3>
               <p>Zhu-Tian Chen and Ana Crisan on where visualization goes next.</p>
             </li>
             <li>
-              <time>6:00 pm</time>
+              <time datetime="2026-11-11T18:00-05:00">6:00 pm</time>
               <h3>Banquet at the MIT Museum</h3>
               <p>
                 A ticket comes with any Wednesday pass. Bring a guest by adding a
@@ -2134,7 +2140,8 @@ const calendarPage = withBaseURL("/program/calendar/");
     background: var(--white);
     border-radius: 50%;
   }
-  .reg .timeline time {
+  .reg .timeline li > time,
+  .reg .timeline .days {
     display: block;
     font: 700 13px var(--body);
     letter-spacing: 0.1em;

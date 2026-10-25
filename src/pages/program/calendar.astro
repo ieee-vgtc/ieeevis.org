@@ -608,7 +608,9 @@ const frontmatter = {
                     {dayGroup.weekdayLabel}
                   </button>
                 </h2>
-                <p>{dayGroup.dateLabel}</p>
+                <p>
+                  <time datetime={dayGroup.dayKey}>{dayGroup.dateLabel}</time>
+                </p>
               </div>
             ))
           }
@@ -755,7 +757,9 @@ const frontmatter = {
                 >
                   <h2>{displayRoomName(roomGroup.roomName)}</h2>
                   <p>
-                    {dayGroup.weekdayLabel}, {dayGroup.dateLabel}
+                    <time datetime={dayGroup.dayKey}>
+                      {dayGroup.weekdayLabel}, {dayGroup.dateLabel}
+                    </time>
                   </p>
                 </div>
               ))}
@@ -881,7 +885,9 @@ const frontmatter = {
           >
             <header class="calendar-day-header">
               <h2>{dayGroup.weekdayLabel}</h2>
-              <p>{dayGroup.dateLabel}</p>
+              <p>
+                <time datetime={dayGroup.dayKey}>{dayGroup.dateLabel}</time>
+              </p>
             </header>
 
             <div class="calendar-day-content">
@@ -940,7 +946,11 @@ const frontmatter = {
   <script>
     import {
       getSavedTimezoneMode,
+      isTimezoneMode,
+      rangePartsForMode,
+      renderTimeParts,
       saveTimezoneMode,
+      type TimezoneMode,
     } from "../../utils/timezoneMode";
     import {
       createUrlStateHistory,
@@ -1070,30 +1080,6 @@ const frontmatter = {
         );
       };
 
-      const isSameDayFormatter = (timeZone: string) =>
-        new Intl.DateTimeFormat("en-CA", {
-          timeZone,
-          year: "numeric",
-          month: "2-digit",
-          day: "2-digit",
-        });
-
-      const timeFormatter = (timeZone: string) =>
-        new Intl.DateTimeFormat("en-US", {
-          timeZone,
-          hour: "2-digit",
-          minute: "2-digit",
-          hour12: false,
-        });
-
-      const dateFormatter = (timeZone: string) =>
-        new Intl.DateTimeFormat("en-US", {
-          timeZone,
-          weekday: "short",
-          month: "short",
-          day: "numeric",
-        });
-
       const hourMinuteFormatter = (timeZone: string) =>
         new Intl.DateTimeFormat("en-US", {
           timeZone,
@@ -1145,40 +1131,13 @@ const frontmatter = {
         }
       };
 
-      const compactRange = (
-        startDate: Date,
-        endDate: Date,
-        timeZone: string,
-      ) => {
-        const sameDay =
-          isSameDayFormatter(timeZone).format(startDate) ===
-          isSameDayFormatter(timeZone).format(endDate);
-        if (sameDay) {
-          return `${timeFormatter(timeZone).format(startDate)} - ${timeFormatter(timeZone).format(endDate)}`;
-        }
-        return `${dateFormatter(timeZone).format(startDate)} ${timeFormatter(timeZone).format(startDate)} - ${dateFormatter(timeZone).format(endDate)} ${timeFormatter(timeZone).format(endDate)}`;
+      const getMode = (): TimezoneMode => {
+        const value = getChoiceValue(timezoneControl, "conference");
+        return isTimezoneMode(value) ? value : "conference";
       };
 
-      const formatRangeForMode = (startISO: string, endISO: string) => {
-        const mode = getMode();
-        const startDate = new Date(startISO);
-        const endDate = new Date(endISO);
-        const showConference = mode === "conference" || mode === "both";
-        const showLocal = mode === "local" || mode === "both";
-        const parts: string[] = [];
-
-        if (showConference) {
-          parts.push(compactRange(startDate, endDate, conferenceTimeZone));
-        }
-        if (showLocal) {
-          const localRange = compactRange(startDate, endDate, localTimeZone);
-          parts.push(showConference ? `Local: ${localRange}` : localRange);
-        }
-
-        return parts.join(" | ");
-      };
-
-      const getMode = () => getChoiceValue(timezoneControl, "conference");
+      const rangeParts = (startISO: string, endISO: string) =>
+        rangePartsForMode(startISO, endISO, getMode(), conferenceTimeZone);
 
       const getSelectedDay = () => getChoiceValue(dayFilterControl, "all");
 
@@ -1190,7 +1149,7 @@ const frontmatter = {
           const endISO = node.getAttribute("data-end");
           if (!startISO || !endISO) continue;
 
-          node.textContent = formatRangeForMode(startISO, endISO);
+          renderTimeParts(node, rangeParts(startISO, endISO));
         }
 
         if (tzDescription) {
@@ -1405,11 +1364,9 @@ const frontmatter = {
           );
           if (!bar) return;
           activeOverlaySessionKey = sessionKey;
-          overlayTime.textContent = (() => {
-            const s = bar.getAttribute("data-start") || "";
-            const e = bar.getAttribute("data-end") || "";
-            return s && e ? formatRangeForMode(s, e) : "";
-          })();
+          const s = bar.getAttribute("data-start") || "";
+          const e = bar.getAttribute("data-end") || "";
+          renderTimeParts(overlayTime, s && e ? rangeParts(s, e) : []);
           const type = (
             bar.getAttribute("data-session-type") || ""
           ).toUpperCase();
@@ -1600,9 +1557,6 @@ const frontmatter = {
       }
 
       const savedMode = getSavedTimezoneMode();
-
-      const isTimezoneMode = (value: string | null) =>
-        value === "conference" || value === "local" || value === "both";
 
       const restoreFromUrl = (
         params: URLSearchParams,
