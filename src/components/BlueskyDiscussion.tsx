@@ -1071,19 +1071,22 @@ export default function BlueskyDiscussion({
     const postTime = sessionStart
       ? Date.parse(sessionStart) - THREAD_LEAD_MS
       : Number.NaN;
-    const postsAt =
-      postTime > Date.now()
-        ? formatOpensAt(new Date(postTime).toISOString())
-        : "";
+    const postsAtIso =
+      postTime > Date.now() ? new Date(postTime).toISOString() : "";
     return (
       <section ref={sectionRef} style={sectionStyle}>
         <div style={headingRowStyle}>
           <DiscussionHeading />
         </div>
         <p style={{ color: "var(--color-gray-600)", margin: 0 }}>
-          {postsAt
-            ? `There is no discussion yet. It will be posted on ${postsAt}.`
-            : "There is no discussion yet. It will be added closer to the session time."}
+          {postsAtIso ? (
+            <>
+              There is no discussion yet. It will be posted on{" "}
+              <time dateTime={postsAtIso}>{formatOpensAt(postsAtIso)}</time>.
+            </>
+          ) : (
+            "There is no discussion yet. It will be added closer to the session time."
+          )}
         </p>
       </section>
     );
