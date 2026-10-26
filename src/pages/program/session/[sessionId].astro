@@ -319,7 +319,7 @@ const frontmatter = {
             {!sessionThreadId && hasOwnDiscussion(slot) && (
               <div class="program-presentation-discussion not-prose">
                 <BlueskyDiscussion
-                  client:visible
+                  client:load
                   paperId={slot.slot_id}
                   sessionStart={session.time_start}
                 />
@@ -350,7 +350,7 @@ const frontmatter = {
       sessionThreadId && (
         <div class="not-prose">
           <BlueskyDiscussion
-            client:visible
+            client:load
             paperId={sessionThreadId}
             sessionStart={session.time_start}
           />
