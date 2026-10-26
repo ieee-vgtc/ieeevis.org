@@ -219,10 +219,14 @@ const frontmatter = {
 
 const DISCUSSION_SECTION_ID = "discussion";
 // The announce bot posts a thread for each paper slot. A workshop paper without
-// a slot of its own is discussed in its workshop's thread instead.
-const discussionUrl = presentation
-  ? `#${DISCUSSION_SECTION_ID}`
-  : workshopSession && `${eventUrl}#${DISCUSSION_SECTION_ID}`;
+// a slot of its own is discussed in its workshop's thread, keyed by the
+// workshop's session page id.
+const discussion = presentation
+  ? { threadId: paper.id, sessionStart: presentation.session.time_start }
+  : workshopSession && {
+      threadId: `${workshopSession.event_prefix}-${workshopSession.session_id}`,
+      sessionStart: workshopSession.time_start,
+    };
 ---
 
 <PageLayout frontmatter={frontmatter}>
@@ -341,20 +345,12 @@ const discussionUrl = presentation
           )
         }
         {
-          discussionUrl && (
+          discussion && (
             <a
               class="button button-inverse paper-jump-button"
-              href={discussionUrl}
+              href={`#${DISCUSSION_SECTION_ID}`}
             >
-              {presentation ? (
-                <>
-                  Jump to Discussion <span aria-hidden="true">↓</span>
-                </>
-              ) : (
-                <>
-                  Go to Workshop Discussion <span aria-hidden="true">→</span>
-                </>
-              )}
+              Jump to Discussion <span aria-hidden="true">↓</span>
             </a>
           )
         }
@@ -556,26 +552,16 @@ const discussionUrl = presentation
 
     <!-- <BlueskyDiscussion showPost={false} paperId="test-bsky-9999" client:load /> -->
     {
-      presentation ? (
+      discussion && (
         <div id={DISCUSSION_SECTION_ID} class="paper-section paper-links mb-6">
           <BlueskyDiscussion
             showPost={false}
-            paperId={paper.id}
+            paperId={discussion.threadId}
             authorHandles={authorBskyHandles}
-            sessionStart={presentation.session.time_start}
+            sessionStart={discussion.sessionStart}
             client:load
           />
         </div>
-      ) : (
-        discussionUrl && (
-          <div class="paper-section paper-links mb-6">
-            <h2 class="mt-0">Discussion</h2>
-            <p>
-              This paper is discussed together with its workshop.{" "}
-              <a href={discussionUrl}>Go to the workshop discussion</a>.
-            </p>
-          </div>
-        )
       )
     }
   </div>
