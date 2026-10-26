@@ -5,7 +5,10 @@ import AwardBadge from "../../../components/AwardBadge.astro";
 import TimeRange from "../../../components/TimeRange.astro";
 import BlueskyDiscussion from "../../../components/BlueskyDiscussion";
 import { fetchAllPapers, fetchAllSessions } from "../../../utils/paperData";
-import { hasOwnDiscussion } from "../../../utils/discussionSlots";
+import {
+  hasOwnDiscussion,
+  sessionDiscussionId,
+} from "../../../utils/discussionSlots";
 import type { Paper } from "../../../types/paper";
 import type {
   ProgramSession,
@@ -95,6 +98,11 @@ const presentations = [...session.time_slots]
   .filter((slot) => eventPapers.length === 0 || slot.uid || slot.url)
   .sort((a, b) => Date.parse(a.time_start) - Date.parse(b.time_start));
 
+const sessionPageId = `${session.event_prefix}-${session.session_id}`;
+const discussionId =
+  sessionDiscussionId(event.event_type || "", sessionPageId) ??
+  presentations.find(hasOwnDiscussion)?.slot_id;
+
 const eventTypeLabel = getProgramEventTypeLabel(event.event_type || "other");
 const programUrl = withBaseURL(
   `/program/sessions/?type=${encodeURIComponent(event.event_type || "other")}`,
@@ -134,6 +142,8 @@ const frontmatter = {
   contact: "web@ieeevis.org",
   full_width: true,
 };
+
+const DISCUSSION_SECTION_ID = "discussion";
 ---
 
 <PageLayout frontmatter={frontmatter}>
@@ -232,6 +242,17 @@ const frontmatter = {
           </p>
         )
       }
+
+      {
+        discussionId && (
+          <a
+            class="button button-inverse paper-jump-button"
+            href={`#${DISCUSSION_SECTION_ID}`}
+          >
+            Jump to Discussion <span aria-hidden="true">↓</span>
+          </a>
+        )
+      }
     </header>
 
     <div>
@@ -310,14 +331,6 @@ const frontmatter = {
                   ))}
                 </p>
               )}
-            {/* Panels and invited talks have no paper page, so their Bluesky
-              discussion — the thread of replies to the announcement post,
-              proxied through bsky.tech.ieeevis.org — belongs here. */}
-            {hasOwnDiscussion(slot) && (
-              <div class="program-presentation-discussion not-prose">
-                <BlueskyDiscussion client:visible paperId={slot.slot_id} />
-              </div>
-            )}
           </section>
         ))
       }
@@ -338,6 +351,19 @@ const frontmatter = {
         ))
       }
     </div>
+
+    {
+      discussionId && (
+        <div id={DISCUSSION_SECTION_ID} class="paper-section paper-discussion">
+          <BlueskyDiscussion
+            showPost={false}
+            paperId={discussionId}
+            sessionStart={session.time_start}
+            client:load
+          />
+        </div>
+      )
+    }
   </div>
 
   <style>
@@ -421,11 +447,22 @@ const frontmatter = {
       margin: 0.15rem 0;
     }
 
-    .program-presentation-discussion {
-      margin-top: 0.6rem;
+    /* STYLING COPIED FROM PAPERS PAGE */
+    .paper-jump-button {
+      margin-top: 1.25rem;
+      text-decoration: none;
     }
 
-    /* STYLING COPIED FROM PAPERS PAGE */
+    .paper-discussion {
+      margin-top: 1.5rem;
+    }
+
+    .paper-discussion :global(h2) {
+      color: var(--color-primary-800);
+      font-size: 1.15rem;
+      letter-spacing: 0.02em;
+    }
+
     .paper-hero {
       max-width: 62rem;
       margin: 0 auto 2.5rem;
