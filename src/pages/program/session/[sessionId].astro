@@ -99,10 +99,9 @@ const presentations = [...session.time_slots]
   .sort((a, b) => Date.parse(a.time_start) - Date.parse(b.time_start));
 
 const sessionPageId = `${session.event_prefix}-${session.session_id}`;
-const sessionThreadId = sessionDiscussionId(
-  event.event_type || "",
-  sessionPageId,
-);
+const discussionId =
+  sessionDiscussionId(event.event_type || "", sessionPageId) ??
+  presentations.find(hasOwnDiscussion)?.slot_id;
 
 const eventTypeLabel = getProgramEventTypeLabel(event.event_type || "other");
 const programUrl = withBaseURL(
@@ -143,6 +142,8 @@ const frontmatter = {
   contact: "web@ieeevis.org",
   full_width: true,
 };
+
+const DISCUSSION_SECTION_ID = "discussion";
 ---
 
 <PageLayout frontmatter={frontmatter}>
@@ -235,6 +236,17 @@ const frontmatter = {
       }
 
       {description && <p class="program-event-description">{description}</p>}
+
+      {
+        discussionId && (
+          <a
+            class="button button-inverse paper-jump-button"
+            href={`#${DISCUSSION_SECTION_ID}`}
+          >
+            Jump to Discussion <span aria-hidden="true">↓</span>
+          </a>
+        )
+      }
     </header>
 
     <div>
@@ -313,18 +325,6 @@ const frontmatter = {
                   ))}
                 </p>
               )}
-            {/* Panels and invited talks have no paper page, so their Bluesky
-              discussion — the thread of replies to the announcement post,
-              proxied through bsky.tech.ieeevis.org — belongs here. */}
-            {!sessionThreadId && hasOwnDiscussion(slot) && (
-              <div class="program-presentation-discussion not-prose">
-                <BlueskyDiscussion
-                  client:load
-                  paperId={slot.slot_id}
-                  sessionStart={session.time_start}
-                />
-              </div>
-            )}
           </section>
         ))
       }
@@ -347,12 +347,13 @@ const frontmatter = {
     </div>
 
     {
-      sessionThreadId && (
-        <div class="not-prose">
+      discussionId && (
+        <div id={DISCUSSION_SECTION_ID} class="paper-section paper-discussion">
           <BlueskyDiscussion
-            client:load
-            paperId={sessionThreadId}
+            showPost={false}
+            paperId={discussionId}
             sessionStart={session.time_start}
+            client:load
           />
         </div>
       )
@@ -440,11 +441,22 @@ const frontmatter = {
       margin: 0.15rem 0;
     }
 
-    .program-presentation-discussion {
-      margin-top: 0.6rem;
+    /* STYLING COPIED FROM PAPERS PAGE */
+    .paper-jump-button {
+      margin-top: 1.25rem;
+      text-decoration: none;
     }
 
-    /* STYLING COPIED FROM PAPERS PAGE */
+    .paper-discussion {
+      margin-top: 1.5rem;
+    }
+
+    .paper-discussion :global(h2) {
+      color: var(--color-primary-800);
+      font-size: 1.15rem;
+      letter-spacing: 0.02em;
+    }
+
     .paper-hero {
       max-width: 62rem;
       margin: 0 auto 2.5rem;
