@@ -225,7 +225,13 @@ const frontmatter = {
           ))
       }
 
-      {description && <p class="program-event-description">{description}</p>}
+      {
+        description && (
+          <p class="program-event-description">
+            <strong>Description:</strong> <p>{description}</p>
+          </p>
+        )
+      }
     </header>
 
     <div>
