@@ -221,21 +221,18 @@ const frontmatter = {
 const DISCUSSION_SECTION_ID = "discussion";
 // The announce bot posts a thread for each paper slot. A paper without a slot of
 // its own, such as a workshop or challenge paper, is discussed in its event's
-// session thread.
-const eventSession = paperEvent?.sessions[0];
+// session thread, which the page links to instead of embedding.
+const eventSession = presentation ? undefined : paperEvent?.sessions[0];
 const eventThreadId =
   eventSession &&
   sessionDiscussionId(
     eventType,
     `${eventSession.event_prefix}-${eventSession.session_id}`,
   );
-const discussion = presentation
-  ? { threadId: paper.id, sessionStart: presentation.session.time_start }
-  : eventSession &&
-    eventThreadId && {
-      threadId: eventThreadId,
-      sessionStart: eventSession.time_start,
-    };
+const eventDiscussionUrl =
+  eventThreadId &&
+  withBaseURL(`/program/session/${eventThreadId}#${DISCUSSION_SECTION_ID}`);
+const eventNoun = eventType.toLowerCase();
 ---
 
 <PageLayout frontmatter={frontmatter}>
@@ -354,7 +351,7 @@ const discussion = presentation
           )
         }
         {
-          discussion && (
+          (presentation || eventDiscussionUrl) && (
             <a
               class="button button-inverse paper-jump-button"
               href={`#${DISCUSSION_SECTION_ID}`}
@@ -561,16 +558,42 @@ const discussion = presentation
 
     <!-- <BlueskyDiscussion showPost={false} paperId="test-bsky-9999" client:load /> -->
     {
-      discussion && (
+      presentation ? (
         <div id={DISCUSSION_SECTION_ID} class="paper-section paper-links mb-6">
           <BlueskyDiscussion
             showPost={false}
-            paperId={discussion.threadId}
+            paperId={paper.id}
             authorHandles={authorBskyHandles}
-            sessionStart={discussion.sessionStart}
+            sessionStart={presentation.session.time_start}
             client:load
           />
         </div>
+      ) : (
+        eventSession &&
+        eventDiscussionUrl && (
+          <div
+            id={DISCUSSION_SECTION_ID}
+            class="paper-section paper-links mb-6"
+          >
+            <h2 class="mt-0">Discussion</h2>
+            <p>
+              This paper is discussed together with the other papers of its{" "}
+              {eventNoun}. It opens shortly before the {eventNoun} starts. The{" "}
+              {eventNoun} is on{" "}
+              <TimeRange
+                start={eventSession.time_start}
+                end={eventSession.time_end}
+                withDate
+                suffix
+              />
+              .
+            </p>
+            <a class="button button-inverse" href={eventDiscussionUrl}>
+              Go to the {eventNoun} discussion{" "}
+              <span aria-hidden="true">→</span>
+            </a>
+          </div>
+        )
       )
     }
   </div>
