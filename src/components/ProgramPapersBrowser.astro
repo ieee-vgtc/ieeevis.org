@@ -905,9 +905,10 @@ const typeOptions = groupProgramTypeOptions(
 <script>
   import {
     TIMEZONE_MODE_EVENT,
-    formatInstantForMode,
     getSavedTimezoneMode,
+    instantPartsForMode,
     isTimezoneMode,
+    renderTimeParts,
     saveTimezoneMode,
     type TimezoneMode,
   } from "../utils/timezoneMode";
@@ -930,10 +931,13 @@ const typeOptions = groupProgramTypeOptions(
     for (const node of document.querySelectorAll<HTMLElement>(
       "[data-tz-instant]",
     )) {
-      node.textContent = formatInstantForMode(
-        node.dataset.tzInstant!,
-        mode,
-        node.dataset.tzConference || "US/Eastern",
+      renderTimeParts(
+        node,
+        instantPartsForMode(
+          node.dataset.tzInstant!,
+          mode,
+          node.dataset.tzConference || "US/Eastern",
+        ),
       );
     }
   };

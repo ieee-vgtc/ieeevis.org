@@ -1,6 +1,8 @@
 ---
 import AwardBadge from "./AwardBadge.astro";
 import AccessibleBadge from "./AccessibleBadge.astro";
+import TimeParts from "./TimeParts.astro";
+import { instantPartsForMode } from "../utils/timezoneMode";
 import { withBaseURL } from "../utils/withBaseURL";
 
 type Props = {
@@ -13,8 +15,8 @@ type Props = {
   peopleLabel?: string;
   people?: { name: string; href?: string }[];
   notes?: string[];
-  /** Schedule text; pages rewrite `.js-time-range` for the timezone setting. */
-  scheduleLabel?: string;
+  /** Start time (ISO); pages rewrite `.js-time-range` for the timezone setting. */
+  scheduleStart?: string;
   links?: {
     label: string;
     href?: string;
@@ -44,7 +46,7 @@ const {
   peopleLabel,
   people = [],
   notes = [],
-  scheduleLabel,
+  scheduleStart,
   links = [],
   bookmark,
   accentColor = "#6b7280",
@@ -153,9 +155,18 @@ const style = [
     <div>
       {notes.map((note) => <p class="program-card__note">{note}</p>)}
       {
-        scheduleLabel && (
+        scheduleStart && (
           <p class="program-card__note">
-            Schedule: <span class="js-time-range">{scheduleLabel}</span>
+            Schedule:{" "}
+            <span class="js-time-range">
+              <TimeParts
+                parts={instantPartsForMode(
+                  scheduleStart,
+                  "conference",
+                  "US/Eastern",
+                )}
+              />
+            </span>
           </p>
         )
       }
@@ -184,10 +195,13 @@ const style = [
                           data-tz-instant={link.startISO}
                           data-tz-conference="US/Eastern"
                         >
-                          {link.label.slice(
-                            0,
-                            link.label.length - (link.labelSuffix?.length ?? 0),
-                          )}
+                          <time datetime={link.startISO}>
+                            {link.label.slice(
+                              0,
+                              link.label.length -
+                                (link.labelSuffix?.length ?? 0),
+                            )}
+                          </time>
                         </span>
                         {link.labelSuffix}
                       </>
