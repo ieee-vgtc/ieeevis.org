@@ -235,7 +235,13 @@ const DISCUSSION_SECTION_ID = "discussion";
           ))
       }
 
-      {description && <p class="program-event-description">{description}</p>}
+      {
+        description && (
+          <p class="program-event-description">
+            <strong>Description:</strong> <p>{description}</p>
+          </p>
+        )
+      }
 
       {
         discussionId && (
