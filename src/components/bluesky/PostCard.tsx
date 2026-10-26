@@ -460,10 +460,12 @@ export default function PostCard({
                 target="_blank"
                 title={timeTitle}
               >
-                {time}
+                <time dateTime={post.createdAt ?? undefined}>{time}</time>
               </a>
             ) : (
-              <span title={timeTitle}>{time}</span>
+              <time dateTime={post.createdAt ?? undefined} title={timeTitle}>
+                {time}
+              </time>
             )}
           </div>
         </div>

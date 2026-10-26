@@ -70,13 +70,45 @@ const date = (d: Date, tz: string, long: boolean) =>
     day: "numeric",
   }).format(d);
 
-function range(start: Date, end: Date, tz: string, withDate: boolean) {
+/** Plain text, or the text for one moment, to mark up as `<time datetime>`. */
+export type TimePart = string | { datetime: string; text: string };
+
+const moment = (d: Date, text: string): TimePart => ({
+  datetime: d.toISOString(),
+  text,
+});
+
+/** Replaces the element's content, with each moment in a `<time>` element. */
+export function renderTimeParts(node: Element, parts: TimePart[]) {
+  node.replaceChildren(
+    ...parts.map((part) => {
+      if (typeof part === "string") return part;
+      const element = document.createElement("time");
+      element.dateTime = part.datetime;
+      element.textContent = part.text;
+      return element;
+    }),
+  );
+}
+
+function rangeParts(
+  start: Date,
+  end: Date,
+  tz: string,
+  withDate: boolean,
+): TimePart[] {
   const sameDay = dayKey(start, tz) === dayKey(end, tz);
   if (sameDay) {
-    const times = `${time(start, tz)} - ${time(end, tz)}`;
-    return withDate ? `${date(start, tz, true)} @ ${times}` : times;
+    const startText = withDate
+      ? `${date(start, tz, true)} @ ${time(start, tz)}`
+      : time(start, tz);
+    return [moment(start, startText), " - ", moment(end, time(end, tz))];
   }
-  return `${date(start, tz, false)} ${time(start, tz)} - ${date(end, tz, false)} ${time(end, tz)}`;
+  return [
+    moment(start, `${date(start, tz, false)} ${time(start, tz)}`),
+    " - ",
+    moment(end, `${date(end, tz, false)} ${time(end, tz)}`),
+  ];
 }
 
 export function describeTimezone(
@@ -90,59 +122,62 @@ export function describeTimezone(
 }
 
 /**
- * Formats a start/end pair for the chosen mode. With `withDate`, a single-day
- * range is prefixed with the full weekday and date.
+ * A start/end pair for the chosen mode. With `withDate`, a single-day range
+ * starts with the full weekday and date.
  */
-export function formatRangeForMode(
+export function rangePartsForMode(
   startISO: string,
   endISO: string,
   mode: TimezoneMode,
   conferenceTimeZone: string,
   options: { withDate?: boolean; suffix?: boolean } = {},
-) {
+): TimePart[] {
   const start = new Date(startISO);
   const end = new Date(endISO);
   const localTimeZone =
     Intl.DateTimeFormat().resolvedOptions().timeZone || "UTC";
   const withDate = options.withDate ?? false;
-  const parts: string[] = [];
+  const parts: TimePart[] = [];
   const showConference = mode === "conference" || mode === "both";
   if (showConference) {
-    const text = range(start, end, conferenceTimeZone, withDate);
-    parts.push(options.suffix ? `${text} (${conferenceTimeZone})` : text);
+    parts.push(...rangeParts(start, end, conferenceTimeZone, withDate));
+    if (options.suffix) parts.push(` (${conferenceTimeZone})`);
   }
   if (mode === "local" || mode === "both") {
-    const text = range(start, end, localTimeZone, withDate);
-    const labeled = options.suffix ? `${text} (${localTimeZone})` : text;
-    parts.push(showConference ? `Local: ${labeled}` : labeled);
+    if (showConference) parts.push(" | Local: ");
+    parts.push(...rangeParts(start, end, localTimeZone, withDate));
+    if (options.suffix) parts.push(` (${localTimeZone})`);
   }
-  return parts.join(" | ");
+  return parts;
 }
 
-/** Formats a single instant, e.g. "Mon, Oct 20, 09:00", for the chosen mode. */
-export function formatInstantForMode(
+/** A single instant, e.g. "Mon, Oct 20, 09:00", for the chosen mode. */
+export function instantPartsForMode(
   iso: string,
   mode: TimezoneMode,
   conferenceTimeZone: string,
-) {
+): TimePart[] {
   const instant = new Date(iso);
   const localTimeZone =
     Intl.DateTimeFormat().resolvedOptions().timeZone || "UTC";
   const format = (tz: string) =>
-    formatter("instant", tz, {
-      weekday: "short",
-      month: "short",
-      day: "numeric",
-      hour: "2-digit",
-      minute: "2-digit",
-      hour12: false,
-    }).format(instant);
+    moment(
+      instant,
+      formatter("instant", tz, {
+        weekday: "short",
+        month: "short",
+        day: "numeric",
+        hour: "2-digit",
+        minute: "2-digit",
+        hour12: false,
+      }).format(instant),
+    );
   const showConference = mode === "conference" || mode === "both";
-  const parts: string[] = [];
+  const parts: TimePart[] = [];
   if (showConference) parts.push(format(conferenceTimeZone));
   if (mode === "local" || mode === "both") {
-    const text = format(localTimeZone);
-    parts.push(showConference ? `Local: ${text}` : text);
+    if (showConference) parts.push(" | Local: ");
+    parts.push(format(localTimeZone));
   }
-  return parts.join(" | ");
+  return parts;
 }

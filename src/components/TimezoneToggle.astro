@@ -44,15 +44,16 @@
 <script>
   import {
     TIMEZONE_MODE_EVENT,
-    formatRangeForMode,
     getSavedTimezoneMode,
     isTimezoneMode,
+    rangePartsForMode,
+    renderTimeParts,
     saveTimezoneMode,
     type TimezoneMode,
   } from "../utils/timezoneMode";
 
-  // Any element with data-tz-start/data-tz-end (ISO) has its text rewritten
-  // for the current mode. data-tz-date adds the weekday/date, data-tz-suffix
+  // Any element with data-tz-start/data-tz-end (ISO) has its content rewritten
+  // for the current mode; see TimeRange.astro. data-tz-date adds the weekday/date, data-tz-suffix
   // appends the zone name.
   const render = (mode: TimezoneMode) => {
     for (const toggle of document.querySelectorAll("[data-tz-toggle]")) {
@@ -68,15 +69,18 @@
     for (const node of document.querySelectorAll<HTMLElement>(
       "[data-tz-start][data-tz-end]",
     )) {
-      node.textContent = formatRangeForMode(
-        node.dataset.tzStart!,
-        node.dataset.tzEnd!,
-        mode,
-        node.dataset.tzConference || "US/Eastern",
-        {
-          withDate: node.hasAttribute("data-tz-date"),
-          suffix: node.hasAttribute("data-tz-suffix"),
-        },
+      renderTimeParts(
+        node,
+        rangePartsForMode(
+          node.dataset.tzStart!,
+          node.dataset.tzEnd!,
+          mode,
+          node.dataset.tzConference || "US/Eastern",
+          {
+            withDate: node.hasAttribute("data-tz-date"),
+            suffix: node.hasAttribute("data-tz-suffix"),
+          },
+        ),
       );
     }
   };
