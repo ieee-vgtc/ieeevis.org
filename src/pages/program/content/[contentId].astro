@@ -10,6 +10,7 @@ import { fetchAllPapers, fetchAllPosters } from "../../../utils/paperData";
 import { features } from "../../../config/pages-allow-list";
 import { withBaseURL } from "../../../utils/withBaseURL";
 import { getBskyHandle } from "../../../utils/bskyProfiles";
+import { sessionDiscussionId } from "../../../utils/discussionSlots";
 import { ogDescription } from "../../../utils/ogDescription";
 import { displayRoomName } from "../../../utils/week-of-utils";
 import { fetchAllSessions } from "../../../utils/paperData";
@@ -218,14 +219,22 @@ const frontmatter = {
 };
 
 const DISCUSSION_SECTION_ID = "discussion";
-// The announce bot posts a thread for each paper slot. A workshop paper without
-// a slot of its own is discussed in its workshop's thread, keyed by the
-// workshop's session page id.
+// The announce bot posts a thread for each paper slot. A paper without a slot of
+// its own, such as a workshop or challenge paper, is discussed in its event's
+// session thread.
+const eventSession = paperEvent?.sessions[0];
+const eventThreadId =
+  eventSession &&
+  sessionDiscussionId(
+    eventType,
+    `${eventSession.event_prefix}-${eventSession.session_id}`,
+  );
 const discussion = presentation
   ? { threadId: paper.id, sessionStart: presentation.session.time_start }
-  : workshopSession && {
-      threadId: `${workshopSession.event_prefix}-${workshopSession.session_id}`,
-      sessionStart: workshopSession.time_start,
+  : eventSession &&
+    eventThreadId && {
+      threadId: eventThreadId,
+      sessionStart: eventSession.time_start,
     };
 ---
 
