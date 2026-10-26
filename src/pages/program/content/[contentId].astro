@@ -218,6 +218,11 @@ const frontmatter = {
 };
 
 const DISCUSSION_SECTION_ID = "discussion";
+// The announce bot posts a thread for each paper slot. A workshop paper without
+// a slot of its own is discussed in its workshop's thread instead.
+const discussionUrl = presentation
+  ? `#${DISCUSSION_SECTION_ID}`
+  : workshopSession && `${eventUrl}#${DISCUSSION_SECTION_ID}`;
 ---
 
 <PageLayout frontmatter={frontmatter}>
@@ -335,12 +340,24 @@ const DISCUSSION_SECTION_ID = "discussion";
             </div>
           )
         }
-        <a
-          class="button button-inverse paper-jump-button"
-          href={`#${DISCUSSION_SECTION_ID}`}
-        >
-          Jump to Discussion <span aria-hidden="true">↓</span>
-        </a>
+        {
+          discussionUrl && (
+            <a
+              class="button button-inverse paper-jump-button"
+              href={discussionUrl}
+            >
+              {presentation ? (
+                <>
+                  Jump to Discussion <span aria-hidden="true">↓</span>
+                </>
+              ) : (
+                <>
+                  Go to Workshop Discussion <span aria-hidden="true">→</span>
+                </>
+              )}
+            </a>
+          )
+        }
       </div>
     </header>
 
@@ -537,16 +554,30 @@ const DISCUSSION_SECTION_ID = "discussion";
          post, proxied through bsky.tech.ieeevis.org so it loads on any
          conference network. Sortable by upvotes or recency. -->
 
-    <div id={DISCUSSION_SECTION_ID} class="paper-section paper-links mb-6">
-      <!-- <BlueskyDiscussion showPost={false} paperId="test-bsky-9999" client:load /> -->
-      <BlueskyDiscussion
-        showPost={false}
-        paperId={paper.id}
-        authorHandles={authorBskyHandles}
-        sessionStart={presentation?.session.time_start}
-        client:load
-      />
-    </div>
+    <!-- <BlueskyDiscussion showPost={false} paperId="test-bsky-9999" client:load /> -->
+    {
+      presentation ? (
+        <div id={DISCUSSION_SECTION_ID} class="paper-section paper-links mb-6">
+          <BlueskyDiscussion
+            showPost={false}
+            paperId={paper.id}
+            authorHandles={authorBskyHandles}
+            sessionStart={presentation.session.time_start}
+            client:load
+          />
+        </div>
+      ) : (
+        discussionUrl && (
+          <div class="paper-section paper-links mb-6">
+            <h2 class="mt-0">Discussion</h2>
+            <p>
+              This paper is discussed together with its workshop.{" "}
+              <a href={discussionUrl}>Go to the workshop discussion</a>.
+            </p>
+          </div>
+        )
+      )
+    }
   </div>
 </PageLayout>
 
