@@ -57,6 +57,9 @@
     - name: "Open Visualization Academy"
       image: /assets/supporters/open-visualization-academy.png
       url: "https://openvisualizationacademy.org/"
+    - name: "University of Miami"
+      image: /assets/supporters/miami-soc.png
+      url: "https://com.miami.edu/"
 #      - name: "VRVis"
 #        image: /assets/supporters/vrvis.png
 #        url: "https://www.vrvis.at/en/"
