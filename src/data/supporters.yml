@@ -80,6 +80,13 @@
       image: /assets/supporters/VRVisLogo2024.jpg
       url: "https://www.vrvis.at/en/"
 
+- category: Publisher
+  image_size: 200
+  supporters:
+    - name: "CRC Press"
+      image: /assets/supporters/crc-press.png
+      url: "https://www.routledge.com/AK-Peters-Visualization-Series/book-series/CRCVIS"
+
 - category: "Paris Satellite"
   image_size: 200
   supporters:
