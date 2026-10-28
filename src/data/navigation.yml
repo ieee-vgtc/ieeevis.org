@@ -219,11 +219,6 @@ menu:
                     description: "Where to stay"
                     url: "/info/registration-and-travel/hotel-information"
                     is_new: false
-              - links:
-                  - text: "Registration Planner"
-                    description: "Day passes and prices at a glance"
-                    url: "/register/"
-                    is_new: true
           - heading: "Satellite Events"
             heading_url: "/satellites/"
             columns:
@@ -339,10 +334,11 @@ menu:
                     description: "An overview of all accepted papers"
                     url: "/program/content"
                     is_new: false
-                  - text: "Paper Awards"
-                    description: "Recognizing outstanding work"
-                    url: "/program/content/?type=awards"
-                    is_new: true
+                  - text: "Posters"
+                    description: "Nascent and recent work"
+                    url: "/program/content/?type=poster"
+                    is_new: false
+
               - links:
                   - text: "Panels"
                     description: "Discuss important and controversial issues"
@@ -369,10 +365,6 @@ menu:
                   #   description: "Detailed schedule of the conference"
                   #   url: "/program/calendar"
                   #   is_new: true
-                  - text: "Posters"
-                    description: "Nascent and recent work"
-                    url: "/program/content/?type=poster"
-                    is_new: false
 
                   # - text: "Meetups"
                   #   description: "Meet for discussions and shared experiences"
@@ -388,9 +380,9 @@ menu:
           #           description: "Engage with the VIS community, internal and external"
           #           is_new: false
       - subsections:
-          - heading: "Invited Speakers"
-            columns:
-              - links:
+          - columns:
+              - heading: "Invited Speakers"
+                links:
                   - text: "Keynote"
                     description: "Kimberly K. Arcand"
                     url: "/info/invited-speakers/keynote-speaker"
@@ -403,48 +395,20 @@ menu:
                     description: "Zhu-Tian Chen and Ana Crisan"
                     url: "/info/invited-speakers/visions"
                     is_new: true
-
-      #     - heading: "Awards and Recognitions"
-      #       heading_url: "/info/awards/summary"
-      #       columns:
-      #         - links:
-      #             - text: "Best Paper/Poster Awards"
-      #               description: "Recognizing outstanding work"
-      #               url: "/info/awards/best-paper-awards"
-      #               is_new: false
-      #             - text: "VGTC VIS Awards"
-      #               description: "Awarding members of the VIS community"
-      #               url: "/info/awards/vgtc-awards"
-      #               is_new: false
-      #             - text: "Test of Time Awards"
-      #               description: "Recognized articles whose contents are still useful"
-      #               url: "/info/awards/test-of-time-awards"
-      #               is_new: false
-      # - subsections:
-      #     - heading: "Social Events"
-      #       heading_url: "/info/social-events/summary"
-      #       columns:
-      #         - links:
-      #             - text: "Welcome Reception"
-      #               description: "Natural History Museum Vienna"
-      #               url: "/info/social-events/welcome-reception"
-      #               is_new: false
-      #             - text: "Poster Session"
-      #               description: "Austria Center Vienna"
-      #               url: "/info/social-events/poster-session"
-      #               is_new: false
-      #             - text: "Conference Dinner"
-      #               description: "Austria Center Vienna"
-      #               url: "/info/social-events/conference-dinner"
-      #               is_new: false
-      #             - text: "VISAP Exhibition"
-      #               description: "University of Applied Arts"
-      #               url: "/info/social-events/visap-exhibition"
-      #               is_new: false
-      #             - text: "OC Dinner"
-      #               description: "Melker Stiftskeller"
-      #               url: "/info/social-events/oc-dinner"
-      #               is_new: false
+              - heading: "Awards and Recognitions"
+                links:
+                  - text: "Paper Awards"
+                    description: "Recognizing outstanding work"
+                    url: "/program/content/?type=awards"
+                    is_new: false
+                  # - text: "VGTC VIS Awards"
+                  #   description: "Awarding members of the VIS community"
+                  #   url: "/info/awards/vgtc-awards"
+                  #   is_new: false
+                  - text: "Test of Time Awards"
+                    description: "Recognized articles whose contents are still useful"
+                    url: "/info/awards/test-of-time-awards"
+                    is_new: true
 
   - dropdown: "Events & Community"
     display: true
