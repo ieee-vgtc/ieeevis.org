@@ -1,5 +1,6 @@
 ---
 import ProgramViewSwitcher from "./ProgramViewSwitcher.astro";
+import { textColorFor } from "../utils/week-of-utils.ts";
 
 type DayOption = {
   value: string;
@@ -9,8 +10,10 @@ type DayOption = {
 type TypeOption = {
   value: string;
   label: string;
-  count: number;
+  count?: number;
   color?: string;
+  /** Options sharing a group are shown together under a small label. */
+  group?: string;
 };
 
 interface Props {
@@ -32,6 +35,8 @@ interface Props {
   allLabel?: string;
   allDayLabel?: string;
   filterBarLabel?: string;
+  /** Groups (by label) collapsed into a dropdown instead of inline pills. */
+  dropdownGroups?: string[];
 }
 
 const {
@@ -53,10 +58,19 @@ const {
   allLabel = "All",
   allDayLabel = "All",
   filterBarLabel = "Session type filters",
+  dropdownGroups = [],
 } = Astro.props as Props;
 
 const showProgramViewSwitcher =
-  /\/program\/(?:calendar|sessions|papers)\/?$/.test(Astro.url.pathname);
+  /\/program\/(?:calendar|sessions|content)\/?$/.test(Astro.url.pathname);
+
+const typeGroups: { label: string | undefined; options: TypeOption[] }[] = [];
+for (const typeOption of typeOptions ?? []) {
+  const last = typeGroups[typeGroups.length - 1];
+  if (last && last.label === typeOption.group) last.options.push(typeOption);
+  else typeGroups.push({ label: typeOption.group, options: [typeOption] });
+}
+const isGrouped = typeGroups.some((group) => group.label);
 ---
 
 <div class="u-toolbar">
@@ -161,6 +175,7 @@ const showProgramViewSwitcher =
           </label>
         )
       }
+      <slot name="primary-controls" />
     </div>
 
     {
@@ -184,32 +199,91 @@ const showProgramViewSwitcher =
 
 {
   typeOptions && typeOptions.length > 0 && (
-    <div class="u-filter-bar" role="toolbar" aria-label={filterBarLabel}>
-      <button
-        class="u-filter-pill hover-response--tint is-active"
-        type="button"
-        data-type-filter="all"
-        style="--pill-color: #374151"
-        aria-pressed="true"
-      >
-        <span>{allLabel}</span>
-        {allCount !== undefined && (
-          <span class="u-filter-count">{allCount}</span>
-        )}
-      </button>
-
-      {typeOptions.map((typeOption) => (
+    <div
+      class:list={["u-filter-bar", { "u-filter-bar--grouped": isGrouped }]}
+      role="toolbar"
+      aria-label={filterBarLabel}
+    >
+      <div class="u-filter-group">
         <button
-          class="u-filter-pill hover-response--tint"
+          class="u-filter-pill hover-response--tint is-active"
           type="button"
-          data-type-filter={typeOption.value}
-          style={`--pill-color: ${typeOption.color || "#6b7280"}`}
-          aria-pressed="false"
+          data-type-filter="all"
+          style="--pill-color: #374151; --pill-text: #fff"
+          aria-pressed="true"
         >
-          <span>{typeOption.label}</span>
-          <span class="u-filter-count">{typeOption.count}</span>
+          <span>{allLabel}</span>
+          {allCount !== undefined && (
+            <span class="u-filter-count">{allCount}</span>
+          )}
         </button>
+      </div>
+
+      {typeGroups.map((group) => (
+        <div class="u-filter-group" role="group" aria-label={group.label}>
+          {group.label && !dropdownGroups.includes(group.label) && (
+            <span class="u-filter-group__label">{group.label}</span>
+          )}
+          {group.label && dropdownGroups.includes(group.label) ? (
+            <details class="u-filter-menu">
+              <summary class="u-filter-menu__toggle hover-response--tint">
+                <span>{group.label}</span>
+                <span class="u-filter-menu__active" />
+                <i class="material-icons" aria-hidden="true">
+                  arrow_drop_down
+                </i>
+              </summary>
+              <div class="u-filter-menu__panel">
+                {group.options.map((typeOption) => (
+                  <button
+                    class="u-filter-pill hover-response--tint"
+                    type="button"
+                    data-type-filter={typeOption.value}
+                    style={`--pill-color: ${typeOption.color || "#6b7280"}; --pill-text: ${textColorFor(typeOption.color || "#6b7280")}`}
+                    aria-pressed="false"
+                  >
+                    <span>{typeOption.label}</span>
+                    {typeOption.count !== undefined && (
+                      <span class="u-filter-count">{typeOption.count}</span>
+                    )}
+                  </button>
+                ))}
+              </div>
+            </details>
+          ) : (
+            group.options.map((typeOption) => (
+              <button
+                class="u-filter-pill hover-response--tint"
+                type="button"
+                data-type-filter={typeOption.value}
+                style={`--pill-color: ${typeOption.color || "#6b7280"}; --pill-text: ${textColorFor(typeOption.color || "#6b7280")}`}
+                aria-pressed="false"
+              >
+                <span>{typeOption.label}</span>
+                {typeOption.count !== undefined && (
+                  <span class="u-filter-count">{typeOption.count}</span>
+                )}
+              </button>
+            ))
+          )}
+        </div>
       ))}
     </div>
   )
 }
+
+<script>
+  // Close any open filter dropdown when clicking elsewhere or choosing an option.
+  document.addEventListener("click", (event) => {
+    const target = event.target as Node;
+    document
+      .querySelectorAll<HTMLDetailsElement>("details.u-filter-menu[open]")
+      .forEach((menu) => {
+        const choseOption =
+          target instanceof Element &&
+          menu.contains(target) &&
+          target.closest(".u-filter-menu__panel .u-filter-pill");
+        if (!menu.contains(target) || choseOption) menu.open = false;
+      });
+  });
+</script>

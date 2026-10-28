@@ -31,6 +31,7 @@ interface ReplyListProps {
   like?: PostLikeContext;
   own?: PostOwnContext;
   reply?: PostReplyContext;
+  authorHandles?: ReadonlySet<string>;
 }
 
 interface Point {
@@ -38,7 +39,7 @@ interface Point {
   top: number;
 }
 
-function prefersReducedMotion(): boolean {
+export function prefersReducedMotion(): boolean {
   return (
     typeof window !== "undefined" &&
     typeof window.matchMedia === "function" &&
@@ -52,6 +53,7 @@ export default function ReplyList({
   like,
   own,
   reply,
+  authorHandles,
 }: ReplyListProps) {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const nodes = useRef<Map<string, HTMLDivElement>>(new Map());
@@ -182,6 +184,7 @@ export default function ReplyList({
         return (
           <div key={key} ref={setNode(key)}>
             <ReplyThread
+              authorHandles={authorHandles}
               depth={0}
               like={like}
               maxDepth={maxDepth}

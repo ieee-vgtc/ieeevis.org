@@ -1,18 +1,17 @@
 /**
- * After a Bluesky login, offer to put the handle on the reader's VIS profile.
+ * After a Bluesky sign-in, offer to put the handle on the reader's VIS profile.
  *
  * The discussion shows this when the site knows the reader (they have a site
  * session) and the profile does not already carry the handle. Saving is the
  * reader's choice: the handle on the profile is what marks their Bluesky
- * replies as theirs on this site even when they are not logged in to Bluesky
+ * replies as theirs on this site even when they are not signed in to Bluesky
  * here, and it is what the login band fills in next time. "Not now" is
  * remembered per handle so the question is asked once, not on every page.
  */
 
 import { useState } from "react";
 import type { CSSProperties } from "react";
-import { getIdToken, refreshSession } from "../../lib/auth0Client";
-import { siteBase } from "../../utils/withBaseURL";
+import { saveBskyHandle, saveHandleErrorMessage } from "../../lib/bskyApi";
 import {
   errorTextStyle,
   primaryButtonStyle,
@@ -58,28 +57,15 @@ export default function SaveHandlePrompt({
     setSaving(true);
     setError(null);
     try {
-      const idToken = await getIdToken();
-      if (!idToken) {
-        throw new Error("Not signed in.");
-      }
-      const response = await fetch(`${siteBase()}/auth/bluesky-handle`, {
-        method: "POST",
-        headers: {
-          "content-type": "application/json",
-          authorization: `Bearer ${idToken}`,
-        },
-        body: JSON.stringify({ handle }),
-      });
-      if (!response.ok) {
-        throw new Error(`The site returned ${response.status}.`);
-      }
-      await refreshSession();
+      // Also refreshes the ID token; a failed refresh after a successful save
+      // is not reported as a failed save.
+      await saveBskyHandle(handle);
       dismiss(handle);
       setHidden(true);
       onSaved();
     } catch (err) {
       console.error("Could not save the Bluesky handle:", err);
-      setError("The handle could not be saved. You can try again later.");
+      setError(saveHandleErrorMessage(err));
     } finally {
       setSaving(false);
     }
@@ -89,7 +75,7 @@ export default function SaveHandlePrompt({
     <div role="note" style={promptStyle}>
       <span>
         Save @{handle} to your VIS profile? This site then knows which Bluesky
-        replies are yours, also when you are not logged in to Bluesky here.
+        replies are yours, also when you are not signed in to Bluesky here.
       </span>
       <span style={{ display: "flex", gap: "0.5rem" }}>
         <button

@@ -3,7 +3,12 @@ import PageLayout from "../../layouts/PageLayout.astro";
 import ProgramHeader from "../../components/ProgramHeader.astro";
 import ProgramCard from "../../components/ProgramCard.astro";
 import { fetchAllSessions } from "../../utils/paperData";
-import { getProgramEventTypeLabel } from "../../utils/programEventTypeLabel";
+import {
+  getProgramEventTypeCardLabel,
+  getProgramEventTypeLabel,
+  groupProgramTypeOptions,
+  programTypeDropdownGroups,
+} from "../../utils/programEventTypeLabel";
 import { typeColors, typeTextColors } from "../../utils/week-of-utils";
 
 const CONFERENCE_TIME_ZONE = "US/Eastern";
@@ -63,7 +68,7 @@ const sessionList = await fetchAllSessions();
 const sessions: SessionListItem[] = Object.values(sessionList)
   .flatMap((eventDefinition) =>
     eventDefinition.sessions.map((session) => {
-      const eventType = eventDefinition.event_type || "other";
+      const eventType = (eventDefinition.event_type || "other").toLowerCase();
       const dayKey = getConferenceDayKey(session.time_start);
       const searchText = [
         session.title,
@@ -81,7 +86,7 @@ const sessions: SessionListItem[] = Object.values(sessionList)
         title: `${session.title}`,
         eventTitle: eventDefinition.long_name,
         eventType,
-        eventTypeLabel: getProgramEventTypeLabel(eventType),
+        eventTypeLabel: getProgramEventTypeCardLabel(eventType),
         dayKey,
         room: session.room_name,
         chairs: session.chair || [],
@@ -129,28 +134,14 @@ const dayOptions = dayGroups.map((dayGroup) => ({
   // label: `${dayGroup.weekdayLabel}, ${dayGroup.dateLabel}`,
 }));
 
-const typeOptions = sortedTypes.map((sessionType) => ({
+const typeOptions = groupProgramTypeOptions(sortedTypes.map((sessionType) => ({
   value: sessionType,
   label: getProgramEventTypeLabel(sessionType),
-  count: typeCounts[sessionType],
   color: typeColors[sessionType] || "#df6824",
-}));
-const conferenceDateTimeFormatter = new Intl.DateTimeFormat("en-US", {
-  timeZone: CONFERENCE_TIME_ZONE,
-  weekday: "short",
-  month: "short",
-  day: "numeric",
-  hour: "2-digit",
-  minute: "2-digit",
-  hour12: false,
-});
+})));
 
 function formatNotesForSession(session: SessionListItem) {
-  const startISO = session.startISO;
-  const scheduleLabel = `${conferenceDateTimeFormatter.format(new Date(startISO))}`;
-
-  const notes = [`Room: ${session.room}`, `Schedule: ${scheduleLabel}`];
-  return notes;
+  return [`Room: ${session.room}`];
 }
 // Workshops, tutorials, associated events, and contests are run by their
 // organizers, so show those on the card instead of the session chair when the
@@ -188,7 +179,7 @@ function formatPeopleForSession(session: SessionListItem) {
   const people = showsOrganizers(session) ? session.organizers : session.chairs;
   return people.map((authorName) => ({
     name: authorName,
-    href: `/program/papers/?search=${encodeURIComponent(authorName)}`,
+    href: `/program/content/?search=${encodeURIComponent(authorName)}`,
   }));
 }
 ---
@@ -204,7 +195,6 @@ function formatPeopleForSession(session: SessionListItem) {
   <section
     class="program-sessions"
     data-conference-timezone={CONFERENCE_TIME_ZONE}
-    data-local-storage-key="program-sessions-timezone-mode"
   >
     <ProgramHeader
       title="Sessions"
@@ -219,7 +209,7 @@ function formatPeopleForSession(session: SessionListItem) {
       searchPlaceholder="Search title, room, event, chair, organizer"
       dayOptions={dayOptions}
       typeOptions={typeOptions}
-      allCount={sessions.length}
+      dropdownGroups={programTypeDropdownGroups}
       filterBarLabel="Session type filters"
     />
 
@@ -233,7 +223,9 @@ function formatPeopleForSession(session: SessionListItem) {
           >
             <header class="sessions-day-header">
               <h2>{dayGroup.weekdayLabel}</h2>
-              <p>{dayGroup.dateLabel}</p>
+              <p>
+                <time datetime={dayGroup.dayKey}>{dayGroup.dateLabel}</time>
+              </p>
             </header>
 
             <div
@@ -259,6 +251,7 @@ function formatPeopleForSession(session: SessionListItem) {
                   people={formatPeopleForSession(session)}
                   links={[]}
                   notes={formatNotesForSession(session)}
+                  scheduleStart={session.startISO}
                 />
               ))}
             </div>
@@ -274,6 +267,15 @@ function formatPeopleForSession(session: SessionListItem) {
 
   <script>
     import {
+      TIMEZONE_MODE_EVENT,
+      getSavedTimezoneMode,
+      isTimezoneMode,
+      rangePartsForMode,
+      renderTimeParts,
+      saveTimezoneMode,
+      type TimezoneMode,
+    } from "../../utils/timezoneMode";
+    import {
       createUrlStateHistory,
       type UrlStateWriteOptions,
     } from "../../utils/urlStateHistory";
@@ -284,9 +286,6 @@ function formatPeopleForSession(session: SessionListItem) {
 
       const conferenceTimeZone =
         root.getAttribute("data-conference-timezone") || "UTC";
-      const localStorageKey =
-        root.getAttribute("data-local-storage-key") ||
-        "program-sessions-timezone-mode";
       const localTimeZone =
         Intl.DateTimeFormat().resolvedOptions().timeZone || "UTC";
 
@@ -381,75 +380,25 @@ function formatPeopleForSession(session: SessionListItem) {
         );
       };
 
-      const isSameDayFormatter = (timeZone: string) =>
-        new Intl.DateTimeFormat("en-CA", {
-          timeZone,
-          year: "numeric",
-          month: "2-digit",
-          day: "2-digit",
-        });
-
-      const timeFormatter = (timeZone: string) =>
-        new Intl.DateTimeFormat("en-US", {
-          timeZone,
-          hour: "2-digit",
-          minute: "2-digit",
-          hour12: false,
-        });
-
-      const dateFormatter = (timeZone: string) =>
-        new Intl.DateTimeFormat("en-US", {
-          timeZone,
-          weekday: "short",
-          month: "short",
-          day: "numeric",
-        });
-
-      const compactRange = (
-        startDate: Date,
-        endDate: Date,
-        timeZone: string,
-      ) => {
-        const sameDay =
-          isSameDayFormatter(timeZone).format(startDate) ===
-          isSameDayFormatter(timeZone).format(endDate);
-        if (sameDay) {
-          return `${timeFormatter(timeZone).format(startDate)} - ${timeFormatter(timeZone).format(endDate)}`;
-        }
-        return `${dateFormatter(timeZone).format(startDate)} ${timeFormatter(timeZone).format(startDate)} - ${dateFormatter(timeZone).format(endDate)} ${timeFormatter(timeZone).format(endDate)}`;
+      const getMode = (): TimezoneMode => {
+        const value = getChoiceValue(timezoneControl, "conference");
+        return isTimezoneMode(value) ? value : "conference";
       };
 
-      const getMode = () => getChoiceValue(timezoneControl, "conference");
+      const rangeParts = (startISO: string, endISO: string) =>
+        rangePartsForMode(startISO, endISO, getMode(), conferenceTimeZone);
 
       const getSelectedDay = () => getChoiceValue(dayFilterControl, "all");
-
-      const formatRangeForMode = (startISO: string, endISO: string) => {
-        const mode = getMode();
-        const startDate = new Date(startISO);
-        const endDate = new Date(endISO);
-        const showConference = mode === "conference" || mode === "both";
-        const showLocal = mode === "local" || mode === "both";
-        const parts: string[] = [];
-
-        if (showConference) {
-          parts.push(compactRange(startDate, endDate, conferenceTimeZone));
-        }
-        if (showLocal) {
-          const localRange = compactRange(startDate, endDate, localTimeZone);
-          parts.push(showConference ? `Local: ${localRange}` : localRange);
-        }
-
-        return parts.join(" | ");
-      };
 
       const refreshTimeRanges = () => {
         const mode = getMode();
 
         for (const node of timeRanges) {
-          const startISO = node.parentElement?.getAttribute("data-start");
-          const endISO = node.parentElement?.getAttribute("data-end");
+          const card = node.closest("[data-start]");
+          const startISO = card?.getAttribute("data-start");
+          const endISO = card?.getAttribute("data-end");
           if (!startISO || !endISO) continue;
-          node.textContent = formatRangeForMode(startISO, endISO);
+          renderTimeParts(node, rangeParts(startISO, endISO));
         }
 
         if (tzDescription) {
@@ -462,6 +411,11 @@ function formatPeopleForSession(session: SessionListItem) {
           }
         }
       };
+
+      window.addEventListener(TIMEZONE_MODE_EVENT, (event) => {
+        setChoiceValue(timezoneControl, (event as CustomEvent<string>).detail);
+        refreshTimeRanges();
+      });
 
       const refreshFilterButtonState = () => {
         for (const button of filterButtons) {
@@ -529,14 +483,7 @@ function formatPeopleForSession(session: SessionListItem) {
         });
       }
 
-      const savedMode = localStorage.getItem(localStorageKey);
-      if (
-        savedMode === "conference" ||
-        savedMode === "local" ||
-        savedMode === "both"
-      ) {
-        setChoiceValue(timezoneControl, savedMode);
-      }
+      setChoiceValue(timezoneControl, getSavedTimezoneMode());
 
       if (timezoneControl) {
         const timezoneButtons = Array.from(
@@ -548,7 +495,7 @@ function formatPeopleForSession(session: SessionListItem) {
           button.addEventListener("click", () => {
             const value = button.dataset.choiceValue;
             if (!value || !setChoiceValue(timezoneControl, value)) return;
-            localStorage.setItem(localStorageKey, value);
+            saveTimezoneMode(value);
             refreshTimeRanges();
           });
         }
@@ -560,7 +507,7 @@ function formatPeopleForSession(session: SessionListItem) {
         timezoneSelect?.addEventListener("change", () => {
           const value = timezoneSelect.value;
           if (!setChoiceValue(timezoneControl, value)) return;
-          localStorage.setItem(localStorageKey, value);
+          saveTimezoneMode(value);
           refreshTimeRanges();
         });
       }

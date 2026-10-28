@@ -1,0 +1,65 @@
+---
+import { getBskyHandle } from "../utils/bskyProfiles";
+import { withBaseURL } from "../utils/withBaseURL";
+
+interface Props {
+  email?: string | null;
+  name: string;
+}
+const { email, name } = Astro.props;
+const handle = getBskyHandle(email);
+---
+
+{handle && (
+  <a
+    class="bluesky-profile-link"
+    href={`https://bsky.app/profile/${handle}`}
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label={`${name} on Bluesky (@${handle}, opens in new tab)`}
+    title={`${name} on Bluesky`}
+  >
+    <img
+      src={withBaseURL("/assets/theme/bluesky-logo.svg")}
+      alt=""
+      width="12"
+      height="12"
+      aria-hidden="true"
+    />
+  </a>
+)}
+
+<style>
+  .bluesky-profile-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin: 0 0.4em;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    border: 1px solid #cce4ff;
+    border-radius: 50%;
+    background: #f0f7ff;
+    vertical-align: middle;
+    color: #006dcc;
+    text-decoration: none;
+  }
+  .bluesky-profile-link img {
+    display: block;
+    flex-shrink: 0;
+    width: 0.75rem;
+    height: 0.75rem;
+    margin: 0;
+    object-fit: contain;
+  }
+  .bluesky-profile-link:hover {
+    background: #dceeff;
+    border-color: #1185fe;
+  }
+  .bluesky-profile-link:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 2px;
+  }
+</style>

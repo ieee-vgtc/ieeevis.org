@@ -38,6 +38,8 @@ export interface ProgramSession {
   track: string;
   room_name: string;
   chair: string[];
+  /** Chair identities with emails; optional for older merged program snapshots. */
+  chairPeople?: ProgramPerson[];
   time_start: string;
   time_end: string;
   discord_link: NullableString;
@@ -45,6 +47,9 @@ export interface ProgramSession {
   /** Overrides the event's description/url when events share one entry (e.g. panels). */
   description?: NullableString;
   url?: NullableString;
+  /** Location outside the conference venue (e.g. an offsite address). */
+  other_location?: NullableString;
+  other_location_url?: NullableString;
   time_slots: ProgramTimeSlot[];
 }
 

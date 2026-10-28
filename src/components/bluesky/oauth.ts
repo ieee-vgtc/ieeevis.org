@@ -1,5 +1,5 @@
 /**
- * Bluesky login for the discussion, done entirely in the browser.
+ * Bluesky sign-in for the discussion, done entirely in the browser.
  *
  * The site is a public OAuth client: there is no server-side session, the
  * tokens live in the reader's own browser (IndexedDB, managed by
@@ -148,19 +148,49 @@ export function restoreSession(): Promise<OAuthSession | null> {
 }
 
 /**
+ * A login that did not complete. `returnTo` is the path the reader started
+ * from when Bluesky still sent it back (e.g. the reader cancelled), else null.
+ */
+export class LoginCallbackError extends Error {
+  constructor(
+    readonly returnTo: string | null,
+    readonly cancelled: boolean,
+    options?: { cause?: unknown },
+  ) {
+    super("The Bluesky sign-in did not complete.", options);
+  }
+}
+
+/**
  * Finish a login on the callback page. Returns the session and the path the
- * reader started from, which rode along as the OAuth `state`.
+ * reader started from, which rode along as the OAuth `state`. Throws a
+ * `LoginCallbackError` when the login did not complete.
  */
 export async function completeLogin(): Promise<{
   session: OAuthSession;
   returnTo: string;
 }> {
   const client = await getClient();
-  const result = await client.initCallback();
-  return {
-    session: result.session,
-    returnTo: safeReturnTo(result.state, siteBase() || "/"),
-  };
+  try {
+    const result = await client.initCallback();
+    return {
+      session: result.session,
+      returnTo: safeReturnTo(result.state, siteBase() || "/"),
+    };
+  } catch (error) {
+    // Already loaded by getClient, so this costs nothing.
+    const { OAuthCallbackError } =
+      await import("@atproto/oauth-client-browser");
+    const callbackError =
+      error instanceof OAuthCallbackError ? error : undefined;
+    throw new LoginCallbackError(
+      callbackError?.state
+        ? safeReturnTo(callbackError.state, siteBase() || "/")
+        : null,
+      callbackError?.params.get("error") === "access_denied",
+      { cause: error },
+    );
+  }
 }
 
 /**

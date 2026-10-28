@@ -25,8 +25,8 @@
  *     (`bluesky/useBlueskySession.ts`). Comments, likes and removals then go
  *     straight from the browser to their own PDS and the service is not
  *     involved — which also means this works on a thread read straight from
- *     the AppView, and after guest posting has closed. A Bluesky login takes
- *     precedence over the guest path whenever both are available.
+ *     the AppView, and after guest posting has closed. A Bluesky sign-in takes
+ *     precedence unless the reader selects "Hide my name" for a comment.
  *
  * Everything else is read-only.
  *
@@ -52,8 +52,8 @@
  * name", which swaps it for their stable pseudonym. Such a post is unnamed
  * rather than untraceable — organizers can still tell who wrote it — so the
  * label says what it does instead of calling the post anonymous, and the hint
- * beside it spells out the difference. A comment from the reader's own Bluesky
- * account is signed by that account, so the option does not apply.
+ * beside it spells out the difference. Selecting it while logged into Bluesky
+ * also sends the comment through the guest service.
  */
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
@@ -65,9 +65,11 @@ import type {
   PostOwnContext,
   PostReplyContext,
 } from "./bluesky/PostCard";
-import ReplyList from "./bluesky/ReplyList";
+import ReplyList, { prefersReducedMotion } from "./bluesky/ReplyList";
 import SaveHandlePrompt from "./bluesky/SaveHandlePrompt";
+import BlueskyLoginSection from "./bluesky/BlueskyLoginSection";
 import SortToggle from "./bluesky/SortToggle";
+import VisSignInBox from "./bluesky/VisSignInBox";
 import { fetchAppViewThread } from "./bluesky/direct";
 import { formatOpensAt, likeCountOf } from "./bluesky/format";
 import { NATIVE_TEXT_LIMIT } from "./bluesky/native";
@@ -90,13 +92,19 @@ import { errorTextStyle } from "./bluesky/styles";
 import { useBlueskySession } from "./bluesky/useBlueskySession";
 import { usePolledThread } from "./bluesky/usePolledThread";
 import { normalizeBskyHandle } from "../utils/bskyHandle";
-import { getIdToken } from "../lib/auth0Client";
+import { currentPagePath, getIdToken, login } from "../lib/auth0Client";
+import { BSKY_API_BASE } from "../lib/bskyApi";
 
-const DEFAULT_API_BASES = ["https://bsky.tech.ieeevis.org"];
+const DEFAULT_API_BASES = [BSKY_API_BASE];
 const DEFAULT_REFRESH_MS = 5_000;
 const MAX_DEPTH = 5;
+// While a just-posted comment waits for the shared cache, polling stays at the
+// base interval instead of backing off — but not for ever, in case the post
+// never shows up (a moderation label can hide it).
+const PENDING_POLL_HOLD_MS = 60_000;
 const COMMENT_LIMIT = 250; // graphemes; mirrors CONFERENCE.guestTextLimit
-const TOKEN_REFRESH_SKEW_MS = 60_000;
+// The announce bot posts each thread this long before the session starts.
+const THREAD_LEAD_MS = 45 * 60_000; // mirrors CONFERENCE.leadMinutes
 
 interface BlueskyDiscussionProps {
   /** `slots.slot_id` (e.g. "v-full-1234") or the paper UUID — the API takes both. */
@@ -114,6 +122,10 @@ interface BlueskyDiscussionProps {
   defaultSort?: ReplySort;
   /** Whether to show the original post at the top of the discussion. Defaults to `true`. */
   showPost?: boolean;
+  /** Bluesky handles of the paper's authors, whose posts get an "Author" badge. */
+  authorHandles?: string[];
+  /** ISO start of the session, to tell readers when the thread will be posted. */
+  sessionStart?: string;
 }
 
 interface LoadedThread {
@@ -123,16 +135,13 @@ interface LoadedThread {
   bypassedCache: boolean;
 }
 
-interface GuestToken {
-  token: string;
-  expiresAt: number;
-}
-
 /** A just-posted comment, shown under its parent until the thread carries it. */
 interface PendingReply {
   /** Null for a comment on the announcement itself. */
   parentUri: string | null;
   post: ShapedPost;
+  /** ms timestamp of the post, on this reader's clock. */
+  postedAt: number;
 }
 
 // ─── helpers ─────────────────────────────────────────────────────────────────
@@ -302,74 +311,33 @@ function formatAgo(sinceMs: number): string {
 }
 
 /**
- * Mint a short-lived token from the reader's Auth0 ID token (sent as a bearer
- * credential; see `verifyBearerIdToken` in lib/auth0.ts). A signed-out reader,
- * or a deploy with no server to mint it (the S3 builds), simply gets no
- * token: a 401 means "no guest UI" and is not an error worth showing.
+ * The bearer credential for the service's guest writes: the reader's Auth0 ID
+ * token itself, which bsky-api verifies against Auth0's public keys.
+ * `getIdToken` refreshes it when it is about to expire. A signed-out reader
+ * simply gets no token: that means "no guest UI" and is not an error worth
+ * showing.
  */
 function useGuestToken(enabled: boolean) {
-  const tokenRef = useRef<GuestToken | null>(null);
   const [hasToken, setHasToken] = useState(false);
+  // False until the first check returns, so a signed-in reader is not offered
+  // the sign-in for a moment while it runs.
+  const [tokenChecked, setTokenChecked] = useState(false);
 
   const getToken = useCallback(async (): Promise<string | null> => {
     if (!enabled) {
       return null;
     }
-
-    const cached = tokenRef.current;
-    if (cached && cached.expiresAt - TOKEN_REFRESH_SKEW_MS > Date.now()) {
-      return cached.token;
-    }
-
-    try {
-      const idToken = await getIdToken();
-      if (!idToken) {
-        tokenRef.current = null;
-        setHasToken(false);
-        return null;
-      }
-
-      const base = import.meta.env.BASE_URL.replace(/\/$/, "");
-      const response = await fetch(`${base}/auth/token`, {
-        headers: {
-          accept: "application/json",
-          authorization: `Bearer ${idToken}`,
-        },
-      });
-      if (!response.ok) {
-        tokenRef.current = null;
-        setHasToken(false);
-        return null;
-      }
-
-      const data = (await response.json()) as {
-        token?: string;
-        expiresAt?: string;
-      };
-      if (!data.token) {
-        setHasToken(false);
-        return null;
-      }
-
-      tokenRef.current = {
-        token: data.token,
-        expiresAt: data.expiresAt
-          ? Date.parse(data.expiresAt)
-          : Date.now() + 600_000,
-      };
-      setHasToken(true);
-      return data.token;
-    } catch {
-      setHasToken(false);
-      return null;
-    }
+    const token = await getIdToken();
+    setHasToken(Boolean(token));
+    setTokenChecked(true);
+    return token;
   }, [enabled]);
 
   useEffect(() => {
     void getToken();
   }, [getToken]);
 
-  return { hasToken, getToken };
+  return { hasToken, tokenChecked, getToken };
 }
 
 /**
@@ -433,11 +401,21 @@ export default function BlueskyDiscussion({
   refreshMs = DEFAULT_REFRESH_MS,
   maxDepth = MAX_DEPTH,
   defaultSort = "top",
+  authorHandles = [],
+  sessionStart,
 }: BlueskyDiscussionProps) {
+  // Where Bluesky sends the reader back to after the login: this discussion.
+  const sectionId = `bsky-discussion-${paperId || "direct"}`;
+  // Without the post, the discussion sits inside the paper page's own card,
+  // which already spaces it.
+  const sectionStyle = showPost ? standaloneSectionStyle : undefined;
   const [sort, setSort] = useState<ReplySort>(defaultSort);
   const [anonymous, setAnonymous] = useState(false);
   const [actionError, setActionError] = useState<string | null>(null);
   const [pendingReplies, setPendingReplies] = useState<PendingReply[]>([]);
+  // A just-posted top-level comment lands at the end of a "Most liked" list,
+  // far below the composer, so the page scrolls to it once it is rendered.
+  const revealUriRef = useRef<string | null>(null);
   const [openReplyUri, setOpenReplyUri] = useState<string | null>(null);
   const [postingReplyUri, setPostingReplyUri] = useState<string | null>(null);
   // Focus moves once the closed composer is gone and the button is enabled.
@@ -477,15 +455,16 @@ export default function BlueskyDiscussion({
   useEffect(() => {
     likedUrisRef.current = likedUris;
   }, [likedUris]);
-  const [refreshing, setRefreshing] = useState(false);
 
   // Also minted for an AppView-only thread: it buys no writes there, but it is
   // what tells us the reader's own Bluesky handle, and so which replies in a
   // read-only thread are theirs.
-  const { hasToken, getToken } = useGuestToken(Boolean(paperId || atUri));
+  const { hasToken, tokenChecked, getToken } = useGuestToken(
+    Boolean(paperId || atUri),
+  );
 
   // The reader's own Bluesky account, when they have logged in with it here.
-  // While it is there, every write goes through it rather than the service.
+  // Comments use it unless the reader chooses to hide their name.
   const bluesky = useBlueskySession();
   const native =
     bluesky.session.status === "signed-in" ? bluesky.session.writer : null;
@@ -501,6 +480,14 @@ export default function BlueskyDiscussion({
     () => createServiceClient(basesKey.split(",")),
     [basesKey],
   );
+  const authorHandlesKey = authorHandles.join(",");
+  const authorHandleSet = useMemo(
+    () =>
+      new Set(
+        authorHandlesKey.split(",").filter(Boolean).map(normalizeBskyHandle),
+      ),
+    [authorHandlesKey],
+  );
 
   const identity = useIdentity(client, getToken, hasToken);
   /** What the service will put in front of the post, as best we can predict. */
@@ -508,7 +495,7 @@ export default function BlueskyDiscussion({
     ? identity?.pseudonym
     : identity?.name || identity?.pseudonym;
   // The Bluesky handle on the reader's VIS profile: it pre-fills the login and
-  // marks that account's replies as theirs even without a Bluesky login here.
+  // marks that account's replies as theirs even without a Bluesky sign-in here.
   const linkedHandle =
     savedHandle ??
     (identity?.bluesky ? normalizeBskyHandle(identity.bluesky) : null);
@@ -546,6 +533,16 @@ export default function BlueskyDiscussion({
     [atUri, client, paperId],
   );
 
+  // A once-a-second tick so the "updated Xs ago" label counts up on its own.
+  const [now, setNow] = useState(() => Date.now());
+  useEffect(() => {
+    const id = setInterval(() => setNow(Date.now()), 1000);
+    return () => clearInterval(id);
+  }, []);
+
+  const awaitingOwnPost = pendingReplies.some(
+    ({ postedAt }) => now - postedAt < PENDING_POLL_HOLD_MS,
+  );
   const {
     data,
     loading,
@@ -558,31 +555,39 @@ export default function BlueskyDiscussion({
     load,
     refreshMs,
     signature: threadSignature,
+    keepBaseRate: awaitingOwnPost,
   });
 
-  // A once-a-second tick so the "updated Xs ago" label counts up on its own.
-  const [now, setNow] = useState(() => Date.now());
+  // Scroll a just-posted top-level comment into view and move focus to it, so
+  // a screen reader lands on it too.
   useEffect(() => {
-    const id = setInterval(() => setNow(Date.now()), 1000);
-    return () => clearInterval(id);
-  }, []);
-
-  const onRefreshClick = useCallback(async () => {
-    markInteraction();
-    setRefreshing(true);
-    try {
-      await refresh({ force: true });
-    } finally {
-      setRefreshing(false);
+    const uri = revealUriRef.current;
+    if (!uri) {
+      return;
     }
-  }, [markInteraction, refresh]);
+    const card = document
+      .getElementById(sectionId)
+      ?.querySelector<HTMLElement>(`[data-post-uri="${CSS.escape(uri)}"]`);
+    if (!card) {
+      return;
+    }
+    revealUriRef.current = null;
+    card.scrollIntoView({
+      behavior: prefersReducedMotion() ? "auto" : "smooth",
+      block: "center",
+    });
+    card.focus({ preventScroll: true });
+  }, [pendingReplies, sectionId]);
 
   const thread = data?.thread;
   const root: RootPost | undefined =
     thread?.state === "open" ? thread.post : undefined;
   /** Guest writes are bridged by the service; the AppView is read-only here. */
   const canWriteAsGuest = data?.source === "service" && hasToken;
-  /** A Bluesky login writes to the reader's own PDS, whatever the source. */
+  // Guest writes are possible here, but the reader has not signed in to VIS.
+  const needsVisSignIn =
+    data?.source === "service" && tokenChecked && !hasToken;
+  /** A Bluesky sign-in writes to the reader's own PDS, whatever the source. */
   const interactive = native !== null || canWriteAsGuest;
   /** Only the service knows the guest likes, so only it may show or rank by them. */
   const showLikes = data?.source === "service";
@@ -732,7 +737,8 @@ export default function BlueskyDiscussion({
     }
   }, [data, native, syncMyLikes, syncNativeLikes]);
 
-  const commentLimit = native ? NATIVE_TEXT_LIMIT : COMMENT_LIMIT;
+  const postAsNative = native !== null && !anonymous;
+  const commentLimit = postAsNative ? NATIVE_TEXT_LIMIT : COMMENT_LIMIT;
 
   /** Post from the reader's own Bluesky account, under the announcement or a reply. */
   const submitNativeComment = useCallback(
@@ -750,6 +756,9 @@ export default function BlueskyDiscussion({
         parentRef = { uri: parent.uri, cid: parent.cid };
       }
       const created = await native.reply(announcement, parentRef, text);
+      if (!parent) {
+        revealUriRef.current = created.uri;
+      }
 
       // Show it immediately, signed by the account; the next refetch replaces
       // it with the real post once the AppView has indexed it.
@@ -768,6 +777,7 @@ export default function BlueskyDiscussion({
               avatar: profile.avatar,
             },
             text,
+            links: [],
             createdAt: new Date().toISOString(),
             guest: false,
             pseudonym: null,
@@ -777,6 +787,7 @@ export default function BlueskyDiscussion({
             embedImages: [],
             replies: [],
           },
+          postedAt: Date.now(),
         },
       ]);
       onPosted();
@@ -835,6 +846,10 @@ export default function BlueskyDiscussion({
         uri?: string;
         author?: string;
       };
+      const uri = created.uri || `pending-${Date.now()}`;
+      if (!parent) {
+        revealUriRef.current = uri;
+      }
 
       // Show it immediately; the next refetch replaces it with the real post.
       // The service credits the post by prefixing its text, which the local
@@ -845,9 +860,10 @@ export default function BlueskyDiscussion({
         {
           parentUri: parent?.uri ?? null,
           post: {
-            uri: created.uri || `pending-${Date.now()}`,
+            uri,
             author: { displayName: null, avatar: null },
             text,
+            links: [],
             createdAt: new Date().toISOString(),
             guest: true,
             pseudonym: created.author || attribution || null,
@@ -857,6 +873,7 @@ export default function BlueskyDiscussion({
             embedImages: [],
             replies: [],
           },
+          postedAt: Date.now(),
         },
       ]);
       onPosted();
@@ -870,13 +887,21 @@ export default function BlueskyDiscussion({
   const submitComment = useCallback(
     async (text: string, parent: ShapedPost | null, onPosted: () => void) => {
       setActionError(null);
-      if (native) {
+      if (postAsNative) {
         await submitNativeComment(text, parent, onPosted);
-      } else if (paperId) {
+      } else if (paperId && canWriteAsGuest) {
         await submitGuestComment(paperId, text, parent, onPosted);
+      } else {
+        throw new Error("Guest posting is unavailable for this discussion.");
       }
     },
-    [native, paperId, submitGuestComment, submitNativeComment],
+    [
+      postAsNative,
+      paperId,
+      canWriteAsGuest,
+      submitGuestComment,
+      submitNativeComment,
+    ],
   );
 
   const toggleLike = useCallback(
@@ -1043,10 +1068,27 @@ export default function BlueskyDiscussion({
   // Nothing is mapped for this paper (no session, withdrawn, or not in the
   // program).
   if (thread?.state === "unavailable") {
+    const postTime = sessionStart
+      ? Date.parse(sessionStart) - THREAD_LEAD_MS
+      : Number.NaN;
+    const postsAtIso =
+      postTime > Date.now() ? new Date(postTime).toISOString() : "";
     return (
-      <p style={{ color: "var(--color-gray-600)", margin: 0 }}>
-        There is no discussion for this paper yet.
-      </p>
+      <section ref={sectionRef} style={sectionStyle}>
+        <div style={headingRowStyle}>
+          <DiscussionHeading />
+        </div>
+        <p style={{ color: "var(--color-gray-600)", margin: 0 }}>
+          {postsAtIso ? (
+            <>
+              There is no discussion yet. It will be posted on{" "}
+              <time dateTime={postsAtIso}>{formatOpensAt(postsAtIso)}</time>.
+            </>
+          ) : (
+            "There is no discussion yet. It will be added closer to the session time."
+          )}
+        </p>
+      </section>
     );
   }
 
@@ -1065,11 +1107,21 @@ export default function BlueskyDiscussion({
     const opensAt = formatOpensAt(thread.opensAt);
     return (
       <section ref={sectionRef} style={sectionStyle} aria-live="polite">
-        <h2 style={{ marginBottom: "0.5rem" }}>Discussion</h2>
+        <div style={headingRowStyle}>
+          <DiscussionHeading />
+        </div>
         <p style={{ color: "var(--color-gray-600)", margin: 0 }}>
-          {opensAt
-            ? `The discussion opens shortly before the session, on ${opensAt}.`
-            : "The discussion opens shortly before the session."}
+          {opensAt ? (
+            <>
+              The discussion opens shortly before the session, on{" "}
+              <time dateTime={new Date(thread.opensAt!).toISOString()}>
+                {opensAt}
+              </time>
+              .
+            </>
+          ) : (
+            "The discussion opens shortly before the session."
+          )}
         </p>
       </section>
     );
@@ -1107,14 +1159,24 @@ export default function BlueskyDiscussion({
     activeDeltas,
   );
 
+  const signInToVis = () => {
+    markInteraction();
+    void login(`${currentPagePath()}#${sectionId}`);
+  };
+
   const composerProps = {
     limit: commentLimit,
     nativeHandle: native?.profile.handle ?? null,
     realNameByline: identity?.name || identity?.pseudonym || null,
     pseudonymByline: identity?.pseudonym || null,
     anonymous,
+    canHideName: canWriteAsGuest || anonymous,
+    // Hiding the name needs the guest service, which needs a VIS sign-in. A
+    // reader with only a Bluesky sign-in sees the option with a way to get it.
+    onSignInToHideName: native && needsVisSignIn ? signInToVis : undefined,
     onAnonymousChange: setAnonymous,
     onActivity: markInteraction,
+    onSignOutOfBluesky: () => void bluesky.signOut(),
   };
 
   // The like control is the same on the root and every reply; the discussion
@@ -1127,9 +1189,6 @@ export default function BlueskyDiscussion({
         onToggle: toggleLike,
       }
     : undefined;
-
-  // Where Bluesky sends the reader back to after the login: this discussion.
-  const sectionId = `bsky-discussion-${paperId || "direct"}`;
 
   const replyComposerId = (post: ShapedPost) =>
     `${sectionId}-reply-${post.uri}`;
@@ -1144,7 +1203,7 @@ export default function BlueskyDiscussion({
   const replyContext: PostReplyContext | undefined = interactive
     ? {
         canReplyTo: (post) =>
-          shownUris.has(post.uri) && (native === null || Boolean(post.cid)),
+          shownUris.has(post.uri) && (!postAsNative || Boolean(post.cid)),
         openUri: openReplyUri,
         posting: postingReplyUri !== null,
         buttonId: replyButtonId,
@@ -1198,15 +1257,22 @@ export default function BlueskyDiscussion({
       .map((comment) => comment.postUri),
   );
   const ownContext: PostOwnContext | undefined =
-    identity || native || ownUris.size > 0
+    identity || native || ownUris.size > 0 || pendingReplies.length > 0
       ? {
           ownUris,
+          postedAt: new Map(
+            pendingReplies.map(({ post, postedAt }) => [post.uri, postedAt]),
+          ),
           did: native?.profile.did ?? null,
           handle: linkedHandle,
           canRemove: interactive,
           onRemove: (postUri) => void removeOwnComment(postUri),
         }
       : undefined;
+
+  // Offer the VIS sign-in only where it lets the reader write (the service
+  // bridges guest comments) and only to a reader with no way to write yet.
+  const offerVisSignIn = needsVisSignIn && bluesky.session.status === "none";
 
   const signInWithBluesky = (input: string) => {
     markInteraction();
@@ -1233,13 +1299,11 @@ export default function BlueskyDiscussion({
       // resets the polling cadence to the base interval.
       onPointerDown={markInteraction}
     >
-      <style>
-        {"@keyframes bsky-spin{to{transform:rotate(360deg)}}" +
-          ".bsky-view-link:hover{text-decoration:underline}"}
-      </style>
+      <style>{".bsky-view-link:hover{text-decoration:underline}"}</style>
 
-      {root?.bskyUrl && (
-        <div style={blueskyLinkRowStyle}>
+      <div style={headingRowStyle}>
+        <DiscussionHeading />
+        {root?.bskyUrl && (
           <a
             className="bsky-view-link"
             href={root.bskyUrl}
@@ -1255,21 +1319,38 @@ export default function BlueskyDiscussion({
             />
             View on Bluesky
           </a>
-        </div>
-      )}
-
-      {showPost && <h2 style={{ margin: "0 0 0.5rem" }}>Discussion</h2>}
+        )}
+      </div>
 
       {root && (
         <div style={announcementCardStyle}>
           {showPost && (
             <PostCard
+              authorHandles={authorHandleSet}
               like={likeContext}
               own={ownContext}
               post={root}
               variant="root"
             />
           )}
+        </div>
+      )}
+
+      {/* The same login as on the account page; saving the handle is offered
+          by SaveHandlePrompt below instead, so it is not offered twice. Once
+          signed in, the composer says so and offers the sign-out. */}
+      {!native && (
+        <div
+          className={offerVisSignIn ? "grid gap-3 md:grid-cols-2" : undefined}
+          style={{ margin: "0.75rem 0" }}
+        >
+          <BlueskyLoginSection
+            bluesky={bluesky}
+            headingLevel="h3"
+            linkedHandle={linkedHandle}
+            onSignIn={signInWithBluesky}
+          />
+          {offerVisSignIn && <VisSignInBox onSignIn={signInToVis} />}
         </div>
       )}
 
@@ -1359,42 +1440,11 @@ export default function BlueskyDiscussion({
               updated {formatAgo(now - lastUpdatedAt)}
             </span>
           )}
-          <button
-            aria-label="Refresh the discussion"
-            disabled={refreshing}
-            onClick={onRefreshClick}
-            style={{
-              display: "inline-flex",
-              alignItems: "center",
-              gap: "0.35rem",
-              padding: "0.25rem 0.6rem",
-              borderRadius: "0.5rem",
-              border: "1px solid var(--color-gray-300)",
-              backgroundColor: "#fff",
-              color: "inherit",
-              cursor: refreshing ? "default" : "pointer",
-              fontSize: "0.8rem",
-              opacity: refreshing ? 0.6 : 1,
-            }}
-            type="button"
-          >
-            <span
-              aria-hidden="true"
-              style={{
-                display: "inline-block",
-                animation: refreshing
-                  ? "bsky-spin 0.8s linear infinite"
-                  : undefined,
-              }}
-            >
-              ↻
-            </span>
-            {refreshing ? "Refreshing…" : "Refresh"}
-          </button>
         </div>
       </div>
 
       <ReplyList
+        authorHandles={authorHandleSet}
         like={likeContext}
         maxDepth={maxDepth}
         own={ownContext}
@@ -1405,13 +1455,20 @@ export default function BlueskyDiscussion({
   );
 }
 
-const sectionStyle: CSSProperties = {
+const standaloneSectionStyle: CSSProperties = {
   marginTop: "2.5rem",
 };
 
-const blueskyLinkRowStyle: CSSProperties = {
+function DiscussionHeading() {
+  return <h2 style={{ margin: 0 }}>Discussion</h2>;
+}
+
+const headingRowStyle: CSSProperties = {
   display: "flex",
-  justifyContent: "flex-end",
+  flexWrap: "wrap",
+  alignItems: "baseline",
+  justifyContent: "space-between",
+  gap: "0.25rem 1rem",
   marginBottom: "0.75rem",
 };
 

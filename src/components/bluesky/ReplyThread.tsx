@@ -23,6 +23,7 @@ interface ReplyThreadProps {
   own?: PostOwnContext;
   /** Shared reply state; absent where the reader may not write. */
   reply?: PostReplyContext;
+  authorHandles?: ReadonlySet<string>;
 }
 
 export default function ReplyThread({
@@ -32,6 +33,7 @@ export default function ReplyThread({
   like,
   own,
   reply,
+  authorHandles,
 }: ReplyThreadProps) {
   const replies = post.replies || [];
   const replyHere = depth < maxDepth ? reply : undefined;
@@ -51,12 +53,19 @@ export default function ReplyThread({
         borderBottom: isTopLevel ? "1px solid var(--color-gray-300)" : "none",
       }}
     >
-      <PostCard like={like} own={own} post={post} reply={replyHere} />
+      <PostCard
+        authorHandles={authorHandles}
+        like={like}
+        own={own}
+        post={post}
+        reply={replyHere}
+      />
       {replyHere?.openUri === post.uri && replyHere.renderComposer(post)}
 
       {depth < maxDepth &&
         replies.map((child, index) => (
           <ReplyThread
+            authorHandles={authorHandles}
             depth={depth + 1}
             key={child.uri || `${depth}-${index}`}
             like={like}

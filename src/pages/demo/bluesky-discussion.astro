@@ -19,14 +19,13 @@ const frontmatter = {
 
   <p class="demo-auth-note" role="note" data-signed-in hidden>
     You are signed in, so the service-backed example below accepts comments
-    and likes as a VIS attendee. Log in with Bluesky under either
+    and likes as a VIS attendee. Sign in with Bluesky under either
     announcement to post from your own account instead.
   </p>
   <p class="demo-auth-note" role="note" data-signed-out>
-    Commenting as a VIS attendee needs an Auth0 sign-in — <code
-      >/auth/token</code
-    > mints the token the discussion service checks.
-    <button type="button" data-sign-in>Sign in</button> to try it. Logging in
+    Commenting as a VIS attendee needs an Auth0 sign-in: the discussion
+    service checks the sign-in's ID token itself.
+    <button type="button" data-sign-in>Sign in</button> to try it. Signing in
     with Bluesky under either announcement works without one: comments and
     likes then come from your own Bluesky account.
   </p>
@@ -75,8 +74,14 @@ const frontmatter = {
   <p>
     Resolves <code>test-bsky-9999</code> through the discussion service. Shows
     the "discussion opens…" state until the test announcement has been posted.
+    Replies from <code>@domoritz.de</code>, the test paper's author, carry an
+    "Author" badge.
   </p>
-  <BlueskyDiscussion paperId="test-bsky-9999" client:load />
+  <BlueskyDiscussion
+    paperId="test-bsky-9999"
+    authorHandles={["domoritz.de"]}
+    client:load
+  />
 
   <h2>By post URI (direct from Bluesky)</h2>
   <p>
@@ -84,7 +89,7 @@ const frontmatter = {
     will work after the conference, once real post URIs are baked in. Guest
     writes and guest likes are bridged by the service, so this example is
     read-only for a signed-in attendee, shows no reply likes, and lists the
-    comments newest first with no sort control; a Bluesky login writes to your
+    comments newest first with no sort control; a Bluesky sign-in writes to your
     own account and works here too.
   </p>
   <BlueskyDiscussion

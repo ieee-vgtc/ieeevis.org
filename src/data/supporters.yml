@@ -34,9 +34,13 @@
     - name: "Autodesk"
       image: /assets/supporters/autodesk.png
       url: "https://www.autodesk.com/"
+    - name: "Observable"
+      image: /assets/supporters/ObservablelogoAndWordmark.png
+      url: "https://observablehq.com/"
     - name: "Apple Inc."
       image: /assets/supporters/apple.png
       url: "https://www.apple.com/"
+
 #     - name: "VISUAPPS GmbH"
 #       image: /assets/supporters/visuapps.png
 #       url: "https://www.visuapps.com/"
@@ -50,6 +54,12 @@
     - name: "Salesforce/Tableau"
       image: /assets/supporters/tableau.png
       url: "https://www.tableau.com/"
+    - name: "Open Visualization Academy"
+      image: /assets/supporters/open-visualization-academy.png
+      url: "https://openvisualizationacademy.org/"
+    - name: "University of Miami"
+      image: /assets/supporters/miami-soc.png
+      url: "https://com.miami.edu/"
 #      - name: "VRVis"
 #        image: /assets/supporters/vrvis.png
 #        url: "https://www.vrvis.at/en/"
@@ -63,6 +73,42 @@
     - name: "CS617 / visualizing.boston"
       image: /assets/supporters/cs617-visualizing-boston.png
       url: "https://cs617.org/"
+    - name: "Northeastern University Khoury College of Computer Sciences"
+      image: /assets/supporters/KCCSLogoRBB.png
+      url: "https://www.khoury.northeastern.edu/"
+    - name: "Harvard John A. Paulson School of Engineering and Applied Sciences"
+      image: /assets/supporters/seaslogo.png
+      url: "https://www.seas.harvard.edu/"
+    - name: "VRVis"
+      image: /assets/supporters/VRVisLogo2024.jpg
+      url: "https://www.vrvis.at/en/"
+
+- category: Publisher
+  image_size: 200
+  supporters:
+    - name: "CRC Press"
+      image: /assets/supporters/crc-press.png
+      url: "https://www.routledge.com/AK-Peters-Visualization-Series/book-series/CRCVIS"
+
+- category: "Paris Satellite"
+  image_size: 200
+  supporters:
+    - name: "Afihm"
+      image: /assets/satellite/afihm-200-wide.png
+    - name: "Universite Gustave Eiffel"
+      image: /assets/satellite/Eiffel-200-wide.png
+    - name: "Telecom Paris"
+      image: /assets/satellite/Telecom-200-wide.png
+    - name: "CEA"
+      image: /assets/satellite/cea-web.png
+    - name: "CNRS"
+      image: /assets/satellite/CNRS-200-wide.png
+    - name: "Universite Paris-Saclay"
+      image: /assets/satellite/DATAIA-200-wide.png
+    - name: "LISN"
+      image: /assets/satellite/LISN-200-wide.png
+    - name: "Programme de recherche"
+      image: /assets/satellite/PEPR-200-wide.jpg
 #  - category: VISAP
 #    image_size: 140
 #    supporters:
