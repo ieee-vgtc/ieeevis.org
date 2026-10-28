@@ -25,8 +25,12 @@ export interface Paper {
   doi: string | null;
   fno: string | null;
 
+  // for satellite event support
+  presentation_location?: string;
+
   // Paper links
   pdf_url: string | null;
+  social_image_url?: string | null;
   preprint_link: string | null;
   open_access_supplemental_link: string | null;
   open_access_supplemental_question: string | null;
@@ -36,6 +40,7 @@ export interface Paper {
   has_pdf: boolean;
   has_image: boolean;
   has_ff: boolean; // Fast forward video
+  preview_image_url?: string | null; // Page 1 of the PDF as AVIF
 
   // Upload/Retrieve links
   pmu_upload_link: string | null;

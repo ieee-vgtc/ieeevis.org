@@ -23,7 +23,7 @@ export default function SortToggle({
         alignItems: "center",
         gap: "0.4rem",
         fontSize: "0.82rem",
-        color: "#6b7280",
+        color: "var(--color-gray-600)",
       }}
     >
       <span>Sort by:</span>
@@ -35,9 +35,15 @@ export default function SortToggle({
           style={{
             padding: "0.2rem 0.7rem",
             borderRadius: "0.5rem",
-            border: "1px solid #e5e7eb",
-            backgroundColor: sort === option.value ? "#eff6ff" : "#fff",
-            color: sort === option.value ? "#2563eb" : "#6b7280",
+            border: "1px solid var(--color-gray-300)",
+            backgroundColor:
+              sort === option.value
+                ? "color-mix(in srgb, var(--color-accent) 12%, white)"
+                : "#fff",
+            color:
+              sort === option.value
+                ? "var(--color-accent)"
+                : "var(--color-gray-600)",
             cursor: "pointer",
             fontSize: "0.82rem",
           }}

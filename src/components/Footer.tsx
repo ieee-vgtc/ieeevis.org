@@ -43,7 +43,11 @@ export default function Footer({
               </a>
             </>
           )}
-          .
+          . You can also view the{" "}
+          <a href="/info/contributing" className="link">
+            docs
+          </a>{" "}
+          on how to update these pages.
         </div>
       </div>
 

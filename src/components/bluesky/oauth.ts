@@ -1,5 +1,5 @@
 /**
- * Bluesky login for the discussion, done entirely in the browser.
+ * Bluesky sign-in for the discussion, done entirely in the browser.
  *
  * The site is a public OAuth client: there is no server-side session, the
  * tokens live in the reader's own browser (IndexedDB, managed by
@@ -11,9 +11,12 @@
  * Bluesky needs to fetch the client's metadata from the `client_id` URL, so
  * the metadata is served by `src/pages/oauth/client-metadata.json.ts` and the
  * same object is built here for the browser, both from the deployment's own
- * origin. Deriving it from the origin (like `getAuth0Config`) is what lets
- * production, a local checkout and a deploy preview each act as their own
- * client without per-environment configuration.
+ * origin. Deriving it from the origin is what lets production, a local
+ * checkout and a deploy preview each act as their own client without
+ * per-environment configuration — unlike Auth0 sign-in (`../../lib/auth0Client.ts`),
+ * which needs one application (and one PUBLIC_AUTH0_CLIENT_ID) registered for
+ * every origin up front, since Auth0 has no equivalent of a client-metadata
+ * URL to read it from automatically.
  *
  * The OAuth login page lives on the reader's PDS (bsky.social for most). Where
  * that host is unreachable the login simply fails, and the guest composer
@@ -145,19 +148,49 @@ export function restoreSession(): Promise<OAuthSession | null> {
 }
 
 /**
+ * A login that did not complete. `returnTo` is the path the reader started
+ * from when Bluesky still sent it back (e.g. the reader cancelled), else null.
+ */
+export class LoginCallbackError extends Error {
+  constructor(
+    readonly returnTo: string | null,
+    readonly cancelled: boolean,
+    options?: { cause?: unknown },
+  ) {
+    super("The Bluesky sign-in did not complete.", options);
+  }
+}
+
+/**
  * Finish a login on the callback page. Returns the session and the path the
- * reader started from, which rode along as the OAuth `state`.
+ * reader started from, which rode along as the OAuth `state`. Throws a
+ * `LoginCallbackError` when the login did not complete.
  */
 export async function completeLogin(): Promise<{
   session: OAuthSession;
   returnTo: string;
 }> {
   const client = await getClient();
-  const result = await client.initCallback();
-  return {
-    session: result.session,
-    returnTo: safeReturnTo(result.state, siteBase() || "/"),
-  };
+  try {
+    const result = await client.initCallback();
+    return {
+      session: result.session,
+      returnTo: safeReturnTo(result.state, siteBase() || "/"),
+    };
+  } catch (error) {
+    // Already loaded by getClient, so this costs nothing.
+    const { OAuthCallbackError } =
+      await import("@atproto/oauth-client-browser");
+    const callbackError =
+      error instanceof OAuthCallbackError ? error : undefined;
+    throw new LoginCallbackError(
+      callbackError?.state
+        ? safeReturnTo(callbackError.state, siteBase() || "/")
+        : null,
+      callbackError?.params.get("error") === "access_denied",
+      { cause: error },
+    );
+  }
 }
 
 /**

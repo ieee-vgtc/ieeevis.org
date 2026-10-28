@@ -6,7 +6,7 @@ const { pathname } = Astro.url;
 const views = [
   { href: "/program/calendar", label: "Calendar", hideOnMobile: true },
   { href: "/program/sessions", label: "Sessions" },
-  { href: "/program/papers", label: "Papers" },
+  { href: "/program/content", label: "Presented Research" },
 ];
 ---
 
@@ -54,9 +54,15 @@ const views = [
     align-items: center;
     justify-content: center;
     min-width: 7rem;
-    border-bottom: 1px solid var(--color-gray-400) !important;
     text-align: center;
-    text-decoration: none !important;
+    font-weight: 400;
+  }
+
+  /* Child selector outranks the global `.content a` link rules. */
+  .program-view-switcher__options > a.program-view-switcher__option {
+    border-bottom: 1px solid var(--color-gray-400);
+    color: black;
+    text-decoration: none;
   }
 
   .program-view-switcher__option:focus-visible {
@@ -64,15 +70,17 @@ const views = [
     outline-offset: 2px;
   }
 
-  .program-view-switcher__option.is-active {
-    border-bottom-color: var(--color-accent) !important;
+  .program-view-switcher__options > a.program-view-switcher__option.is-active {
+    border-bottom-color: var(--color-accent);
+    color: white;
+    font-weight: 500;
   }
 
   /* Match the calendar's own mobile/list breakpoint so the available views
      cannot change while the responsive calendar layout settles. */
   @media (max-width: 959px) {
     .program-view-switcher__option--desktop-only {
-      display: none !important;
+      display: none;
     }
   }
 

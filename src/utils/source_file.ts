@@ -77,7 +77,7 @@ function normalize_route(pathname: string): string {
   return route === "" ? "/" : route;
 }
 
-/** Match a route like /program/paper/v-full-1234 against /program/paper/[paperId]. */
+/** Match a route like /program/content/v-full-1234 against /program/content/[contentId]. */
 function matches_dynamic_route(
   candidate_segments: string[],
   segments: string[],

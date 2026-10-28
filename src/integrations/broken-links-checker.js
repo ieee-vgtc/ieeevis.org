@@ -7,7 +7,7 @@ import brokenLinksChecker from "astro-broken-links-checker";
  * reported as broken.
  *
  * The checker validates links against the HTML files emitted at build time.
- * Routes with `prerender = false` (e.g. /program/paper/[paperId], which checks
+ * Routes with `prerender = false` (e.g. /program/content/[contentId], which checks
  * the signed-in session on every request, or /auth/login) never emit a file, so every link to
  * them looked broken. Those routes are collected from Astro's resolved route
  * list, and links matching them are dropped from the checker's results.
@@ -25,6 +25,10 @@ function parse_log(contents) {
       link: entry.match(/^Broken link: (.*)$/m)?.[1] ?? "",
       entry,
     }));
+}
+
+function has_other_scheme(link) {
+  return /^[a-z][a-z0-9+.-]*:/i.test(link) && !/^https?:/i.test(link);
 }
 
 /**
@@ -78,8 +82,12 @@ export default function checkBrokenLinks({
         }
 
         const entries = parse_log(fs.readFileSync(LOG_FILE, "utf8"));
-        const broken = entries.filter(({ link }) => !is_on_demand(link));
-        const skipped = entries.length - broken.length;
+        // The checker only recognizes http(s)/mailto/tel/javascript as
+        // non-local, so other schemes (e.g. the calendar's webcal:// feed)
+        // get resolved as relative paths and reported as missing.
+        const local = entries.filter(({ link }) => !has_other_scheme(link));
+        const broken = local.filter(({ link }) => !is_on_demand(link));
+        const skipped = local.length - broken.length;
         if (skipped > 0) {
           logger.info(
             `Skipped ${skipped} links to on-demand routes (${onDemandRoutes

@@ -52,8 +52,21 @@
 .calendar-title,
 .papers-title {
   margin: 0;
-  font-weight: 700;
+  font-weight: 600;
   color: var(--color-accent);
+}
+
+.calendar-subscribe-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin-top: 0.3rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.calendar-subscribe-link .material-icons {
+  font-size: 1.1rem;
 }
 
 .u-subtitle,
@@ -84,8 +97,8 @@
   display: grid;
   gap: 0.3rem;
   font-size: 0.85rem;
-  color: var(--color-gray-700);
-  font-weight: 600;
+  color: black;
+  font-weight: 500;
 }
 
 .u-select,
@@ -121,9 +134,9 @@
   border: 1px solid var(--color-gray-400);
   border-radius: 999px;
   background: white;
-  color: var(--color-gray-700);
+  color: black;
   font-size: 0.82rem;
-  font-weight: 600;
+  font-weight: 400;
   padding: 0.35rem 0.65rem;
   line-height: 1.2;
   cursor: pointer;
@@ -134,6 +147,7 @@
   background: var(--color-accent);
   border-color: var(--color-accent);
   color: white;
+  font-weight: 500;
 }
 
 .u-filter-bar,
@@ -145,6 +159,84 @@
   gap: 0.5rem;
 }
 
+.u-filter-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Without labeled groups, pills flow in one row alongside "All". */
+.u-filter-bar:not(.u-filter-bar--grouped) .u-filter-group {
+  display: contents;
+}
+
+.u-filter-bar--grouped {
+  gap: 0.5rem 1.5rem;
+}
+
+.u-filter-menu {
+  position: relative;
+}
+
+.u-filter-menu__toggle {
+  --hover-response-edge-color: var(--color-gray-700, #374151);
+
+  list-style: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  cursor: pointer;
+  overflow: hidden;
+  border: 1px solid var(--color-gray-700, #374151);
+  border-radius: 999px;
+  background: white;
+  padding: 0.3rem 0.4rem 0.3rem 0.75rem;
+  font-size: 0.85rem;
+}
+
+.u-filter-menu__toggle::-webkit-details-marker {
+  display: none;
+}
+
+.u-filter-menu__toggle .material-icons {
+  font-size: 1.2rem;
+}
+
+.u-filter-menu.has-active .u-filter-menu__toggle {
+  background: var(--color-gray-700, #374151);
+  color: white;
+}
+
+.u-filter-menu__panel {
+  position: absolute;
+  z-index: 20;
+  top: calc(100% + 0.35rem);
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.4rem;
+  min-width: max-content;
+  padding: 0.5rem;
+  border: 1px solid var(--color-gray-300, #d1d5db);
+  border-radius: 0.75rem;
+  background: white;
+  box-shadow: 0 6px 18px rgb(0 0 0 / 0.15);
+}
+
+.u-filter-menu__panel .u-filter-pill {
+  justify-content: flex-start;
+}
+
+.u-filter-group__label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-gray-600, #4b5563);
+}
+
 .u-filter-pill,
 .sessions-filter-pill,
 .calendar-filter-pill,
@@ -152,9 +244,10 @@
   --hover-response-edge-color: var(--pill-color);
 
   border: 1px solid var(--pill-color);
-  color: var(--pill-color);
+  color: var(--color-gray-900, #111);
   background: white;
   border-radius: 999px;
+  overflow: hidden;
   padding: 0.3rem 0.75rem;
   font-size: 0.85rem;
   display: inline-flex;
@@ -163,11 +256,24 @@
   cursor: pointer;
 }
 
+/* Color slab: always shows the pill color, so label text can stay black/white. */
+.u-filter-pill::before,
+.sessions-filter-pill::before,
+.calendar-filter-pill::before,
+.papers-filter-pill::before {
+  content: "";
+  align-self: stretch;
+  flex: none;
+  width: 0.9rem;
+  margin: -0.3rem 0 -0.3rem -0.75rem;
+  background: var(--pill-color);
+}
+
 .u-filter-pill.is-active,
 .sessions-filter-pill.is-active,
 .calendar-filter-pill.is-active,
 .papers-filter-pill.is-active {
-  color: white;
+  color: var(--pill-text, white);
   background: var(--pill-color);
 }
 
@@ -387,17 +493,40 @@
   text-overflow: ellipsis;
 }
 
+.calendar-day-header-button {
+  all: unset;
+  cursor: pointer;
+}
+
+/* Stretch the click target over the whole header cell (weekday + date). */
+.calendar-day-header-compact:has(.calendar-day-header-button) {
+  position: relative;
+}
+
+.calendar-day-header-button::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.calendar-day-header-compact:has(.calendar-day-header-button):hover {
+  background: var(--color-gray-200);
+}
+
+.calendar-day-header-button:hover,
+.calendar-day-header-button:focus-visible {
+  text-decoration: underline;
+}
+
+.calendar-day-header-button:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
 .calendar-day-header-compact p {
   margin: 0.15rem 0 0;
   font-size: 0.83rem;
   color: var(--color-gray-700);
-}
-
-.calendar-day-header-compact p.calendar-room-streaming-note {
-  margin-top: 0.1rem;
-  font-size: 0.76rem;
-  font-style: italic;
-  color: var(--color-accent);
 }
 
 .calendar-timeline-body {
@@ -672,6 +801,10 @@
   z-index: 2;
 }
 
+.calendar-session-block:not([data-solo]) .session-block-inline {
+  display: none;
+}
+
 .session-block-inline {
   display: flex;
   flex-direction: column;
@@ -698,7 +831,6 @@
   font-size: 0.61rem;
   font-weight: 600;
   color: var(--session-fg);
-  opacity: 0.75;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -1022,7 +1154,11 @@
 .program-card__subtitle {
   margin: 0.35rem 0 0;
   font-size: 0.9rem;
-  color: var(--color-gray-800);
+  color: var(--program-card-title, var(--color-gray-800));
+}
+
+.program-card__award {
+  margin-top: 0.5rem;
 }
 
 .program-card__body {

@@ -48,13 +48,37 @@ Pages that are not yet ready to publish can be listed under `inactivePathPrefixe
 
 ## Sign-in and the Bluesky discussions (Auth0 setup)
 
-Attendees sign in through Auth0 (`src/lib/auth0.ts`; variables in `.env.example`). The paper pages' Bluesky discussion uses that session in two ways, and each needs a piece of Auth0 configuration that lives outside this repository. Check both when the tenant, the application, or the season changes.
+Attendees sign in through Auth0, entirely client-side (`src/lib/auth0Client.ts`; variables in `.env.example`). This is deliberately the "SPA" (PKCE, public client) flow rather than a server-backed one: the S3 deploys serve static files only, with no backend to hold a client secret or a session, so the sign-in has to work the same way everywhere — local dev, Netlify previews, and the S3-hosted staging/production sites — without any of them running a server. The trade-off is that the signed-in state lives in the reader's own browser (`localStorage`, via `@auth0/auth0-spa-js`) rather than something the server can vouch for; that's fine for what it gates on this site (a sign-in prompt in place of a PDF link, an attendee's display name in the nav) and is why it only ever gates that kind of content, never something a forged client-side state could turn into real access.
 
-**1. The `bsky_handle` claim (Login Action).** An attendee's Bluesky handle is stored on their Auth0 user as `user_metadata.bsky_handle`. Auth0 does not put `user_metadata` into ID tokens, so a Post Login Action copies it into the namespaced claim `https://ieeevis.org/bsky_handle`, which `verifyAuth0IdToken` reads. Check it under **Actions → Library** (name in 2026: `Add bsky_handle claim`) and confirm it is attached under **Actions → Triggers → post-login**. The code it must contain is in the comment on `BSKY_HANDLE_CLAIM` in `src/lib/auth0.ts`. Without it, sign-in still works; the site just never learns the handle.
+The Auth0 application backing it must be of type **Single Page Application**, not **Regular Web Application** — an SPA is a public client with no secret.
 
-**2. Writing the handle (Management API grant).** After an attendee logs in with Bluesky on a paper page, the site offers to save the handle to their profile. `POST /auth/bluesky-handle` does that through the Auth0 Management API with a client-credentials token, which needs an application authorized for the **Auth0 Management API** with the `update:users` permission. In 2026 this is a separate Machine to Machine application whose credentials are in the Netlify environment as `AUTH0_MANAGEMENT_CLIENT_ID` and `AUTH0_MANAGEMENT_CLIENT_SECRET`. (Alternative: authorize the login application itself; that requires setting its Token Endpoint Authentication Method to Post before the Client Credentials grant can be enabled.) Without the grant, everything works except the Save button, which fails with a 500.
+**Allowed Callback URLs** and **Allowed Logout URLs**: every origin this site is served from, with `/auth/callback` and `/` respectively appended — `http://localhost:4321`, staging, production, and `https://*.netlify.app` as one wildcard entry for every PR's deploy preview (Auth0 matches `*` against one subdomain label, which is exactly the random `deploy-preview-1234--sitename` segment Netlify generates).
 
-To verify after a change: sign in, open a paper, log in with Bluesky under the discussion, click Save, then check the user in **User Management → Users** — `user_metadata` shows `bsky_handle`, and after a site re-login the discussion greets you with a one-click "Log in as @handle" button.
+- **Allowed Web Origins**: the same origins, no path — needed for the SDK's CORS requests to Auth0's token endpoint.
+- **Advanced Settings → Grant Types**: "Refresh Token" checked, with `offline_access` an allowed scope, so a session survives the ID token's own expiry (a few hours) without depending on a third-party-cookie silent-auth iframe, which Safari and Firefox block by default.
+
+Everything that has to trust the attendee's identity — commenting and liking as a guest in the Bluesky discussions, saving a Bluesky handle, the account page's "Your papers and sessions" — goes to **bsky-api** (the conferentech repo's `supabase/functions/bsky-api`, at `https://bsky.tech.ieeevis.org`; client in `src/lib/bskyApi.ts`). The browser sends the attendee's raw Auth0 ID token as a bearer credential, and bsky-api verifies it against Auth0's public keys (RS256, this site's `PUBLIC_AUTH0_CLIENT_ID` as the audience). The site itself holds no secret and runs no server code for any of it, so it all works the same on the S3 deploys. Set `PUBLIC_BSKY_API_BASE` to test against a local bsky-api.
+
+**Reading the profile (Login Action)**: An attendee's Bluesky handle and company are stored on their Auth0 user as `user_metadata.bsky_handle` and `user_metadata.company`. Auth0 does not put `user_metadata` into ID tokens, so a Post Login Action copies them into the namespaced claims `https://ieeevis.org/bsky_handle` and `https://ieeevis.org/company`. The discussion reads the handle for its one-click "Log in as @handle", and the account page (`/account/`) shows both. The Action always sets both claims (an empty string for no value), so the account page can tell "Not provided" from "Unable to fetch" (the claim is missing). Check it under **Actions → Library** (name in 2026: `Add bsky_handle claim`) and confirm it is attached under **Actions → Triggers → post-login**. It must contain:
+
+```js
+exports.onExecutePostLogin = async (event, api) => {
+  const metadata = event.user.user_metadata ?? {};
+  for (const key of ["bsky_handle", "company"]) {
+    const value = metadata[key];
+    api.idToken.setCustomClaim(
+      `https://ieeevis.org/${key}`,
+      typeof value === "string" ? value.trim() : "",
+    );
+  }
+};
+```
+
+Without it, sign-in still works; the site just never learns the handle, and the account page shows "Unable to fetch" for both.
+
+**Writing the handle**: The account page, and the discussion after an attendee logs in with Bluesky, can save a handle to the attendee's profile. bsky-api's `POST /api/me/bsky-handle` does that: it checks the handle exists on Bluesky, then updates only `user_metadata.bsky_handle` through the Auth0 Management API, with the credentials kept in bsky-api's own `private_keys` (never on this site). The site then refreshes the attendee's ID token so the new claim shows up right away.
+
+To verify after a change: sign in, open a paper, log in with Bluesky under the discussion, click Save, then check the user in **User Management → Users** — `user_metadata` shows `bsky_handle`, and after the attendee's ID token next refreshes the discussion greets them with a one-click "Log in as @handle" button.
 
 The Bluesky login itself needs nothing in Auth0: the site is a public ATProto OAuth client whose metadata is served from its own origin (`src/components/bluesky/oauth.ts`).
 

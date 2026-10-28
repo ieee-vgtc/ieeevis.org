@@ -1,7 +1,7 @@
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import { withBaseURL } from "../utils/withBaseURL";
 import AccountMenu from "./AccountMenu";
-import Search from "./Search";
+import Search, { type ExternalSearchLink } from "./Search";
 
 function classNames(classes: { [key: string]: boolean }) {
   return Object.entries(classes)
@@ -18,6 +18,10 @@ export default function Navigation({
   page_info: any;
 }) {
   const [isExpanded, setIsExpanded] = useState<boolean>(false);
+  const externalLinks = useMemo(
+    () => collectExternalLinks(nav_data),
+    [nav_data],
+  );
   const [selectedDropDownIndex, setSelectedDropDownIndex] = useState<
     number | null
   >(null);
@@ -50,14 +54,23 @@ export default function Navigation({
         <div
           className={`menu hidden md:flex md:justify-end ${isExpanded ? "menu--expanded" : ""}`}
         >
+          {/* Account buttons and search: first in the mobile menu, where this
+              wrapper is a plain block and the children hold their own padding.
+              The md: classes are needed for the desktop nav: without md:flex
+              the two would stack vertically, and md:order-last puts the row at
+              the right-hand end of the menu. */}
+          <div className="md:order-last md:flex md:h-full md:items-center">
+            <AccountMenu />
+            <Search externalLinks={externalLinks} />
+          </div>
+
           {/* Blog item */}
           {nav_data.blog.display && (
             <div>
               <button
                 className={classNames({
-                  "menu_item hover-response--text font-display text-lg md:text-base lg:text-lg px-8 md:px-4 lg:px-4 mx-0 lg:mx-2 py-4 md:py-6 border-b-2 border-primary-200 ": true,
-                  "md:border-b-4 md:border-white ": page_info?.title === "Blog",
-                  "md:border-none": page_info?.title !== "Blog",
+                  "menu_item font-display text-lg md:text-base lg:text-lg px-8 md:px-4 lg:px-4 mx-0 lg:mx-2 py-4 md:py-6 border-b-2 border-primary-200 ": true,
+                  "menu_item--is-active": page_info?.title === "Blog",
                 })}
                 tabIndex={0}
                 role="menuitem"
@@ -79,11 +92,10 @@ export default function Navigation({
                 <div key={`nav-div-${i}`}>
                   <button
                     className={classNames({
-                      "menu_item hover-response--text font-display text-lg md:text-base lg:text-lg px-8 md:pl-2 md:pr-1 lg:pl-4 lg:pr-2 mx-0 lg:mx-2 py-4 md:py-6 border-b-2 border-primary-200 ": true,
+                      "menu_item font-display text-lg md:text-base lg:text-lg px-8 md:pl-2 md:pr-1 lg:pl-4 lg:pr-2 mx-0 lg:mx-2 py-4 md:py-6 border-b-2 border-primary-200 ": true,
                       "menu_item--focused": selectedDropDownIndex === i,
-                      "md:border-b-4 md:border-white ":
+                      "menu_item--is-active":
                         nav.dropdown === page_info?.active_nav,
-                      "md:border-none": nav.dropdown !== page_info?.active_nav,
                     })}
                     tabIndex={0}
                     role="menuitem"
@@ -202,10 +214,6 @@ export default function Navigation({
                 </div>
               ),
           )}
-          <div className="flex w-full items-center border-b-2 border-primary-200 md:h-full md:w-auto md:border-0">
-            <Search />
-            <AccountMenu />
-          </div>
         </div>
       </nav>
 
@@ -219,6 +227,46 @@ export default function Navigation({
       )}
     </div>
   );
+}
+
+// Off-site destinations (VISAP, CLUSTER, challenges, …) that pagefind can't
+// index, gathered from the nav so search can still link out to them.
+function collectExternalLinks(nav_data: NavDataType): ExternalSearchLink[] {
+  const byUrl = new Map<string, ExternalSearchLink>();
+
+  for (const menu of nav_data.menu) {
+    if (!menu.display) continue;
+    for (const section of menu.sections) {
+      for (const subsection of section.subsections) {
+        for (const column of subsection.columns ?? []) {
+          for (const link of column.links) {
+            if (!link.is_external || !link.url) continue;
+            const existing = byUrl.get(link.url);
+            const context = [subsection.heading, column.heading]
+              .filter(Boolean)
+              .join(" ");
+            if (existing) {
+              existing.keywords += ` ${link.text} ${existing.text} ${context}`;
+              // Prefer the described entry (e.g. "Events" over "Contribute").
+              if (!existing.description && link.description) {
+                existing.text = link.text;
+                existing.description = link.description;
+              }
+            } else {
+              byUrl.set(link.url, {
+                text: link.text,
+                url: link.url,
+                description: link.description,
+                keywords: context,
+              });
+            }
+          }
+        }
+      }
+    }
+  }
+
+  return [...byUrl.values()];
 }
 
 type NavDataType = {

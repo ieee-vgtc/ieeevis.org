@@ -1,0 +1,17 @@
+---
+import PageLayout from "../../layouts/PageLayout.astro";
+import BlueskyLoginDemo from "../../components/bluesky/BlueskyLoginDemo";
+
+const frontmatter = {
+    title: "Bluesky Settings Demo",
+    active_nav: "Program",
+    contact: "web@ieeevis.org",
+};
+---
+
+<PageLayout frontmatter={frontmatter}>
+    <BlueskyLoginDemo
+        bskyUrl="https://bsky.app/profile/did:plc:k644h4rq5bjfzcetgsa6tuby/post/3lvpmtclfz22r"
+        client:load
+    />
+</PageLayout>

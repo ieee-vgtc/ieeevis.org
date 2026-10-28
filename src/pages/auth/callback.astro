@@ -1,0 +1,35 @@
+---
+// Static (prerendered): completing the login happens entirely in the
+// browser (see src/lib/auth0Client.ts), so this page needs no server. It is
+// the `redirect_uri` the Auth0 application sends readers back to after they
+// sign in; that URL must be on the application's Allowed Callback URLs list.
+import PageLayout from "../../layouts/PageLayout.astro";
+
+const frontmatter = {
+  title: "Signing in…",
+  contact: "web@ieeevis.org",
+};
+---
+
+<PageLayout frontmatter={frontmatter}>
+  <p id="auth-callback-status">Signing you in…</p>
+</PageLayout>
+
+<script>
+  import { siteBase } from "../../utils/withBaseURL";
+  import { completeLogin } from "../../lib/auth0Client";
+
+  const status = document.getElementById("auth-callback-status");
+
+  completeLogin()
+    .then(({ returnTo }) => {
+      window.location.replace(`${siteBase()}${returnTo}`);
+    })
+    .catch((error) => {
+      console.error("Unable to complete Auth0 login:", error);
+      if (status) {
+        status.textContent =
+          "Sign-in could not be completed. Please try again.";
+      }
+    });
+</script>

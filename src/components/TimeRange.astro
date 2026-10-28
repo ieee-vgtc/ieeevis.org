@@ -1,0 +1,41 @@
+---
+// A start/end pair as two <time> elements, in the conference timezone. On
+// pages with a TimezoneToggle, it follows the reader's timezone setting.
+// TimezoneToggle only checks whether data-tz-date/suffix exist, and Astro
+// renders false as "false", so a false option leaves the attribute out.
+import TimeParts from "./TimeParts.astro";
+import { rangePartsForMode } from "../utils/timezoneMode";
+
+type Props = {
+  start: string;
+  end: string;
+  timeZone?: string;
+  /** Adds the weekday and date. */
+  withDate?: boolean;
+  /** Adds the timezone name. */
+  suffix?: boolean;
+};
+
+const {
+  start,
+  end,
+  timeZone = "US/Eastern",
+  withDate = false,
+  suffix = false,
+} = Astro.props as Props;
+
+const parts = rangePartsForMode(start, end, "conference", timeZone, {
+  withDate,
+  suffix,
+});
+---
+
+<span
+  data-tz-start={start}
+  data-tz-end={end}
+  data-tz-conference={timeZone}
+  data-tz-date={withDate || undefined}
+  data-tz-suffix={suffix || undefined}
+>
+  <TimeParts parts={parts} />
+</span>

@@ -11,24 +11,34 @@
  * came through the guest bridge or from the reader's own Bluesky account.
  * It earns its place on an anonymous comment above all: that byline reads the
  * same `p-4821` on every anonymous post in the thread.
+ *
+ * Posts from an author of the paper under discussion carry an "Author" badge.
+ * Only a real Bluesky account can be matched to the handle in an author's
+ * profile, so guest comments never carry it.
  */
 
-import { useState } from "react";
-import type { CSSProperties } from "react";
+import { useEffect, useRef, useState } from "react";
+import type { CSSProperties, ReactNode } from "react";
 import Avatar from "./Avatar";
 import { EmbedCard, EmbedImages } from "./Embeds";
 import {
   displayPost,
   formatRelativeTime,
   likeCountOf,
+  linkSegments,
   postUrl,
   profileUrl,
 } from "./format";
+import { errorTextStyle } from "./styles";
 import type { ShapedPost } from "./types";
 
 /**
  * Everything the per-post 🍩 like control needs, lifted to the discussion so
  * the root and every reply read and update one shared like state.
+ *
+ * Absent, the replies show no like counts at all — an AppView thread carries no
+ * guest likes, and a wrong count is worse than none. The announcement's own chip
+ * is unaffected: it is a plain Bluesky count.
  *
  *  - `likedUris` — the posts the reader has liked, updated optimistically.
  *  - `deltas` — transient count adjustments applied on top of the server total
@@ -50,10 +60,12 @@ export interface PostLikeContext {
  *
  *  - `ownUris` — their own guest comments still in the thread; the service
  *    deletes those from the shared discuss account.
- *  - `did` — the account the reader is logged in to Bluesky as, or null. Its
+ *  - `postedAt` — when the reader posted each comment that the shared thread
+ *    cache does not carry yet. A reload before then can still miss it.
+ *  - `did` — the account the reader is signed in to Bluesky as, or null. Its
  *    posts are theirs beyond doubt, and that account deletes them itself.
  *  - `canRemove` — whether removing works at all here. A thread read straight
- *    from the AppView with no Bluesky login is read-only, so posts are still
+ *    from the AppView with no Bluesky sign-in is read-only, so posts are still
  *    marked as the reader's but nothing is offered on them.
  *  - `handle` — the Bluesky handle on their VIS profile, lowercased and without
  *    the "@", or null. Matching on the handle rather than the DID is what the
@@ -63,10 +75,33 @@ export interface PostLikeContext {
  */
 export interface PostOwnContext {
   ownUris: Set<string>;
+  postedAt: ReadonlyMap<string, number>;
   did: string | null;
   handle: string | null;
   canRemove: boolean;
   onRemove: (postUri: string) => void;
+}
+
+/**
+ * The per-post Reply control, lifted to the discussion so one composer is open
+ * at a time and posts through whichever writing mode the reader has.
+ *
+ *  - `canReplyTo` — whether this post can take a reply yet.
+ *  - `openUri` — the post whose composer is open, or null.
+ *  - `posting` — a reply is on its way, so its composer must stay open.
+ *  - `buttonId`, `composerId` — the element ids that tie each Reply button to
+ *    its composer, and that focus returns to when the composer closes.
+ *  - `onToggle` — open the composer under the given post, or close it.
+ *  - `renderComposer` — the composer for a reply to the given post.
+ */
+export interface PostReplyContext {
+  canReplyTo: (post: ShapedPost) => boolean;
+  openUri: string | null;
+  posting: boolean;
+  buttonId: (post: ShapedPost) => string;
+  composerId: (post: ShapedPost) => string;
+  onToggle: (post: ShapedPost) => void;
+  renderComposer: (post: ShapedPost) => ReactNode;
 }
 
 interface PostCardProps {
@@ -76,11 +111,10 @@ interface PostCardProps {
   like?: PostLikeContext;
   /** Shared own-comment state; absent where the reader may not write. */
   own?: PostOwnContext;
-  /**
-   * Drop the card's own border, corners and background so it can sit inside
-   * another bordered container (e.g. the announcement + Bluesky-callout box).
-   */
-  bare?: boolean;
+  /** Shared reply state; absent where the reader may not write here. */
+  reply?: PostReplyContext;
+  /** Canonical Bluesky handles of the paper's authors. */
+  authorHandles?: ReadonlySet<string>;
 }
 
 const linkStyle = { color: "inherit", textDecoration: "none" } as const;
@@ -92,16 +126,28 @@ const likeChipStyle: CSSProperties = {
   gap: "0.3rem",
   padding: "0.25rem 0.7rem",
   borderRadius: "0.5rem",
-  border: "1px solid #e5e7eb",
+  border: "1px solid var(--color-gray-300)",
   fontSize: "0.82rem",
 };
 
 /** "(me)", beside the name on the reader's own posts, in the heading orange. */
 const ownMarkerStyle: CSSProperties = {
   marginLeft: "0.35rem",
-  color: "var(--color-primary, #df6824)",
+  color: "var(--color-primary)",
   fontWeight: 600,
   fontSize: "0.85rem",
+};
+
+/** "Author", beside the name on posts from an author of the paper. */
+const authorBadgeStyle: CSSProperties = {
+  marginLeft: "0.4rem",
+  padding: "0.05rem 0.45rem",
+  borderRadius: "0.5rem",
+  backgroundColor: "color-mix(in srgb, var(--color-accent) 12%, white)",
+  color: "var(--color-accent)",
+  fontWeight: 600,
+  fontSize: "0.75rem",
+  verticalAlign: "middle",
 };
 
 /** The chip shape again, as a plain button: the remove controls wear it. */
@@ -142,7 +188,7 @@ function LikeControl({
         style={{
           ...likeChipStyle,
           backgroundColor: "transparent",
-          color: "#6b7280",
+          color: "var(--color-gray-600)",
         }}
         title="Likes on Bluesky"
       >
@@ -151,23 +197,29 @@ function LikeControl({
     );
   }
 
+  if (!like) {
+    return null;
+  }
+
   // A just-posted comment not yet read back has a placeholder URI, so there is
   // nothing real to like yet.
   const isRealPost = post.uri.startsWith("at://");
-  const liked = like?.likedUris.has(post.uri) ?? false;
-  const count = likeCountOf(post) + (like?.deltas.get(post.uri) ?? 0);
-  const interactive = Boolean(like?.canLike) && isRealPost;
+  const liked = like.likedUris.has(post.uri);
+  const count = likeCountOf(post) + (like.deltas.get(post.uri) ?? 0);
+  const interactive = like.canLike && isRealPost;
 
   if (interactive) {
     return (
       <button
         aria-label={`${liked ? "Unlike" : "Like"} this reply (${count})`}
         aria-pressed={liked}
-        onClick={() => like?.onToggle(post)}
+        onClick={() => like.onToggle(post)}
         style={{
           ...likeChipStyle,
-          backgroundColor: liked ? "#eff6ff" : "#fff",
-          color: liked ? "#2563eb" : "inherit",
+          backgroundColor: liked
+            ? "color-mix(in srgb, var(--color-accent) 12%, white)"
+            : "#fff",
+          color: liked ? "var(--color-accent)" : "inherit",
           cursor: "pointer",
         }}
         title={liked ? "Unlike" : "Like"}
@@ -183,8 +235,10 @@ function LikeControl({
       aria-label={`${count} likes`}
       style={{
         ...likeChipStyle,
-        backgroundColor: liked ? "#eff6ff" : "transparent",
-        color: liked ? "#2563eb" : "#6b7280",
+        backgroundColor: liked
+          ? "color-mix(in srgb, var(--color-accent) 12%, white)"
+          : "transparent",
+        color: liked ? "var(--color-accent)" : "var(--color-gray-600)",
       }}
       title="Likes"
     >
@@ -249,7 +303,11 @@ function RemoveControl({
           setConfirming(false);
           own.onRemove(post.uri);
         }}
-        style={{ ...plainChipStyle, borderColor: "#b91c1c", color: "#b91c1c" }}
+        style={{
+          ...plainChipStyle,
+          borderColor: errorTextStyle.color,
+          color: errorTextStyle.color,
+        }}
         type="button"
       >
         Remove
@@ -265,12 +323,66 @@ function RemoveControl({
   );
 }
 
+/**
+ * How long the shared thread cache can take to carry a new comment: up to 30s
+ * in Bluesky's AppView CDN, which the service reads from, then up to 5s in our
+ * nginx cache. The bar stays, full, until a cached poll has the comment.
+ */
+const CACHE_SETTLE_MS = 35_000;
+
+const settleTrackStyle: CSSProperties = {
+  height: "3px",
+  marginTop: "0.4rem",
+  borderRadius: "2px",
+  backgroundColor: "var(--color-gray-200)",
+  overflow: "hidden",
+};
+
+const settleFillStyle: CSSProperties = {
+  height: "100%",
+  backgroundColor: "var(--color-accent)",
+  transform: "scaleX(0)",
+  transformOrigin: "left",
+};
+
+/**
+ * A thin bar that fills while the shared cache catches up with a just-posted
+ * comment. A reload while it shows can still show the thread without it.
+ */
+function CacheSettleBar({ postedAt }: { postedAt: number }) {
+  const fillRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    const animation = fillRef.current?.animate(
+      [{ transform: "scaleX(0)" }, { transform: "scaleX(1)" }],
+      {
+        duration: CACHE_SETTLE_MS,
+        delay: postedAt - Date.now(),
+        easing: "linear",
+        fill: "forwards",
+      },
+    );
+    return () => animation?.cancel();
+  }, [postedAt]);
+
+  return (
+    <div
+      aria-label="Saving your comment. Wait a few seconds before you reload."
+      role="progressbar"
+      style={settleTrackStyle}
+      title="Saving your comment. Wait a few seconds before you reload."
+    >
+      <div ref={fillRef} style={settleFillStyle} />
+    </div>
+  );
+}
+
 export default function PostCard({
   post,
   variant = "reply",
   like,
   own,
-  bare = false,
+  reply,
+  authorHandles,
 }: PostCardProps) {
   const isRoot = variant === "root";
   // Removable from here: a guest comment of theirs, or a post of the Bluesky
@@ -284,6 +396,9 @@ export default function PostCard({
     removable ||
     (own?.handle != null &&
       (post.author?.handle ?? "").toLowerCase() === own.handle);
+  const isPaperAuthor =
+    !post.guest &&
+    authorHandles?.has((post.author?.handle ?? "").toLowerCase()) === true;
   const { name, body } = displayPost(post);
   const profile = post.guest ? null : profileUrl(post.author);
   // Guest comments are real posts in the shared bridge repo, so their bsky.app
@@ -293,16 +408,23 @@ export default function PostCard({
   const timeTitle = post.createdAt
     ? new Date(post.createdAt).toLocaleString()
     : undefined;
+  const postedAt = own?.postedAt.get(post.uri);
   const reposts = post.repostCount || 0;
+  const replyable = !isRoot && reply !== undefined && reply.canReplyTo(post);
+  const replyOpen = replyable && reply.openUri === post.uri;
+  const hasFooter =
+    isRoot ||
+    replyable ||
+    Boolean(like) ||
+    (Boolean(own?.canRemove) && removable) ||
+    reposts > 0;
 
   return (
     <article
-      style={{
-        border: bare ? "none" : "1px solid #e5e7eb",
-        borderRadius: bare ? 0 : "0.6rem",
-        padding: isRoot ? "0.9rem" : "0.75rem",
-        backgroundColor: bare ? "transparent" : isRoot ? "#f9fafb" : "#fff",
-      }}
+      data-post-uri={post.uri}
+      // A just-posted comment is where focus goes after the reader posts it.
+      tabIndex={postedAt !== undefined ? -1 : undefined}
+      style={{ padding: isRoot ? "0.9rem 0" : "0.6rem 0" }}
     >
       <header style={{ display: "flex", alignItems: "center", gap: "0.6rem" }}>
         <Avatar size={isRoot ? 40 : 36} src={post.author?.avatar ?? null} />
@@ -319,8 +441,13 @@ export default function PostCard({
           ) : (
             <span style={{ fontWeight: 600 }}>{name}</span>
           )}
+          {isPaperAuthor && (
+            <span style={authorBadgeStyle} title="An author of this paper">
+              Author
+            </span>
+          )}
           {isOwn && <span style={ownMarkerStyle}>(me)</span>}
-          <div style={{ fontSize: "0.85rem", color: "#6b7280" }}>
+          <div style={{ fontSize: "0.85rem", color: "var(--color-gray-600)" }}>
             {post.guest
               ? "VIS attendee"
               : `@${post.author?.handle || post.author?.did || "unknown"}`}
@@ -329,14 +456,16 @@ export default function PostCard({
               <a
                 href={permalink}
                 rel="noopener noreferrer"
-                style={{ color: "#2563eb", textDecoration: "none" }}
+                style={{ color: "var(--color-accent)", textDecoration: "none" }}
                 target="_blank"
                 title={timeTitle}
               >
-                {time}
+                <time dateTime={post.createdAt ?? undefined}>{time}</time>
               </a>
             ) : (
-              <span title={timeTitle}>{time}</span>
+              <time dateTime={post.createdAt ?? undefined} title={timeTitle}>
+                {time}
+              </time>
             )}
           </div>
         </div>
@@ -348,31 +477,67 @@ export default function PostCard({
           whiteSpace: "pre-wrap",
         }}
       >
-        {body}
+        {linkSegments(
+          post.text,
+          post.links,
+          post.text.length - body.length,
+        ).map((segment, i) =>
+          segment.uri ? (
+            <a
+              href={segment.uri}
+              key={i}
+              rel="noopener noreferrer nofollow ugc"
+              style={{ color: "var(--color-accent)" }}
+              target="_blank"
+              title={segment.uri}
+            >
+              {segment.text}
+            </a>
+          ) : (
+            segment.text
+          ),
+        )}
       </p>
       <EmbedImages images={post.embedImages} />
       <EmbedCard embed={post.embed} />
+      {postedAt !== undefined && <CacheSettleBar postedAt={postedAt} />}
 
-      <footer
-        style={{
-          display: "flex",
-          alignItems: "center",
-          gap: "0.75rem",
-          fontSize: "0.82rem",
-          color: "#6b7280",
-          marginTop: isRoot ? "0.6rem" : "0.5rem",
-        }}
-      >
-        <LikeControl isRoot={isRoot} like={like} post={post} />
-        {!isRoot && (
-          <RemoveControl own={own} post={post} removable={removable} />
-        )}
-        {!isRoot && reposts > 0 && (
-          <span>
-            {reposts} {reposts === 1 ? "repost" : "reposts"}
-          </span>
-        )}
-      </footer>
+      {hasFooter && (
+        <footer
+          style={{
+            display: "flex",
+            alignItems: "center",
+            gap: "0.75rem",
+            fontSize: "0.82rem",
+            color: "var(--color-gray-600)",
+            marginTop: isRoot ? "0.6rem" : "0.5rem",
+          }}
+        >
+          <LikeControl isRoot={isRoot} like={like} post={post} />
+          {replyable && (
+            <button
+              aria-controls={replyOpen ? reply.composerId(post) : undefined}
+              aria-expanded={replyOpen}
+              aria-label={`Reply to ${name}`}
+              disabled={reply.posting}
+              id={reply.buttonId(post)}
+              onClick={() => reply.onToggle(post)}
+              style={plainChipStyle}
+              type="button"
+            >
+              Reply
+            </button>
+          )}
+          {!isRoot && (
+            <RemoveControl own={own} post={post} removable={removable} />
+          )}
+          {!isRoot && reposts > 0 && (
+            <span>
+              {reposts} {reposts === 1 ? "repost" : "reposts"}
+            </span>
+          )}
+        </footer>
+      )}
     </article>
   );
 }

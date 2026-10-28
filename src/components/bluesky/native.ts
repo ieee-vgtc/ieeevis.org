@@ -1,11 +1,11 @@
 /**
  * Writes from a reader's own Bluesky account, straight to their PDS.
  *
- * These are the counterparts of the guest writes in `service.ts`: a reply to
- * the announcement, a like, taking one of their own posts down. Nothing here
- * touches the discussion service; the reader's PDS answers, and the thread
- * picks the change up on its next poll. `@atproto/api` is imported on demand
- * for the same reason as the OAuth client (see `oauth.ts`).
+ * These are the counterparts of the guest writes in `service.ts`: a reply in
+ * the announcement's thread, a like, taking one of their own posts down.
+ * Nothing here touches the discussion service; the reader's PDS answers, and
+ * the thread picks the change up on its next poll. `@atproto/api` is imported
+ * on demand for the same reason as the OAuth client (see `oauth.ts`).
  *
  * A like is a record in the reader's repository, so unliking needs the
  * record's URI. The writer keeps those, and which posts it has already asked
@@ -31,8 +31,8 @@ export interface PostRef {
 
 export interface NativeWriter {
   profile: BlueskyProfile;
-  /** Reply to the announcement itself; the composer takes no parent. */
-  reply(root: PostRef, text: string): Promise<PostRef>;
+  /** Reply to `parent` in the thread of `root`, the announcement. */
+  reply(root: PostRef, parent: PostRef, text: string): Promise<PostRef>;
   setLike(post: PostRef, liked: boolean): Promise<void>;
   remove(postUri: string): Promise<void>;
   /**
@@ -81,14 +81,14 @@ function createWriter(agent: Agent, profile: BlueskyProfile): NativeWriter {
   return {
     profile,
 
-    async reply(root, text) {
+    async reply(root, parent, text) {
       const { RichText } = await import("@atproto/api");
       const richText = new RichText({ text });
       await richText.detectFacets(agent);
       return agent.post({
         text: richText.text,
         facets: richText.facets,
-        reply: { root, parent: root },
+        reply: { root, parent },
         createdAt: new Date().toISOString(),
       });
     },

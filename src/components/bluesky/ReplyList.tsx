@@ -15,7 +15,11 @@
  */
 
 import { useEffect, useLayoutEffect, useRef } from "react";
-import type { PostLikeContext, PostOwnContext } from "./PostCard";
+import type {
+  PostLikeContext,
+  PostOwnContext,
+  PostReplyContext,
+} from "./PostCard";
 import ReplyThread from "./ReplyThread";
 import type { ShapedPost } from "./types";
 
@@ -26,6 +30,8 @@ interface ReplyListProps {
   maxDepth: number;
   like?: PostLikeContext;
   own?: PostOwnContext;
+  reply?: PostReplyContext;
+  authorHandles?: ReadonlySet<string>;
 }
 
 interface Point {
@@ -33,7 +39,7 @@ interface Point {
   top: number;
 }
 
-function prefersReducedMotion(): boolean {
+export function prefersReducedMotion(): boolean {
   return (
     typeof window !== "undefined" &&
     typeof window.matchMedia === "function" &&
@@ -46,6 +52,8 @@ export default function ReplyList({
   maxDepth,
   like,
   own,
+  reply,
+  authorHandles,
 }: ReplyListProps) {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const nodes = useRef<Map<string, HTMLDivElement>>(new Map());
@@ -171,16 +179,18 @@ export default function ReplyList({
 
   return (
     <div ref={containerRef}>
-      {replies.map((reply, index) => {
-        const key = reply.uri || `root-${index}`;
+      {replies.map((post, index) => {
+        const key = post.uri || `root-${index}`;
         return (
           <div key={key} ref={setNode(key)}>
             <ReplyThread
+              authorHandles={authorHandles}
               depth={0}
               like={like}
               maxDepth={maxDepth}
               own={own}
-              post={reply}
+              post={post}
+              reply={reply}
             />
           </div>
         );

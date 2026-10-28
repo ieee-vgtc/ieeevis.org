@@ -1,0 +1,1052 @@
+---
+import BlueskyProfileLink from "../../../components/BlueskyProfileLink.astro";
+import PageLayout from "../../../layouts/PageLayout.astro";
+import AuthGate from "../../../components/AuthGate.astro";
+import AwardBadge from "../../../components/AwardBadge.astro";
+import AccessibleBadge from "../../../components/AccessibleBadge.astro";
+import NewTabIndicator from "../../../components/NewTabIndicator.astro";
+import BlueskyDiscussion from "../../../components/BlueskyDiscussion";
+import { fetchAllPapers, fetchAllPosters } from "../../../utils/paperData";
+import { features } from "../../../config/pages-allow-list";
+import { withBaseURL } from "../../../utils/withBaseURL";
+import { getBskyHandle } from "../../../utils/bskyProfiles";
+import { sessionDiscussionId } from "../../../utils/discussionSlots";
+import { ogDescription } from "../../../utils/ogDescription";
+import { displayRoomName } from "../../../utils/week-of-utils";
+import { fetchAllSessions } from "../../../utils/paperData";
+import type { Paper } from "../../../types/paper";
+import type { ProgramSession, ProgramTimeSlot } from "../../../types/program";
+import TimezoneToggle from "../../../components/TimezoneToggle.astro";
+import TimeRange from "../../../components/TimeRange.astro";
+
+export async function getStaticPaths() {
+  // Posters share this page; their ids do not collide with paper ids.
+  const [papers, posters] = await Promise.all([
+    fetchAllPapers(),
+    fetchAllPosters(),
+  ]);
+  return [...papers, ...posters].map((paper) => ({
+    params: { contentId: paper.id },
+  }));
+}
+
+// TODO: Either move to a shared config, or fetch from DB
+const EVENT_PREFIX_LABELS: Record<string, string> = {
+  "v-full": "VIS Full Papers",
+  "v-short": "VIS Short Papers",
+  "a-visap": "VISAP",
+  "v-tvcg": "TVCG Papers",
+};
+
+// TODO: Either move to a shared config, or fetch from DB
+// Maps event_prefix to the event_type used by sessions.astro filter pills
+const EVENT_PREFIX_TO_TYPE: Record<string, string> = {
+  "v-full": "full",
+  "v-short": "short",
+  "a-visap": "visap",
+  "v-tvcg": "tvcg",
+};
+
+if (!features.weekOfVis.enabled) {
+  return new Response(null, { status: 404 });
+}
+
+const [sessionList, papers, posters] = await Promise.all([
+  fetchAllSessions(),
+  fetchAllPapers(),
+  fetchAllPosters(),
+]);
+const sourcePaper = [...papers, ...posters].find(
+  (entry) => entry.id === Astro.params.contentId,
+) as Paper | undefined;
+
+if (!sourcePaper) {
+  return new Response(null, { status: 404 });
+}
+
+const paperEvent = Object.values(sessionList).find(
+  (event) => event.event_prefix === sourcePaper.event_prefix,
+);
+
+// Find the slot presenting this paper (slot.uid = paper.id UUID).
+let presentation:
+  { session: ProgramSession; slot: ProgramTimeSlot } | undefined;
+for (const event of Object.values(sessionList)) {
+  for (const session of event.sessions) {
+    const slot = session.time_slots.find(
+      (entry) => entry.uid === sourcePaper.id,
+    );
+    if (slot) presentation = { session, slot };
+  }
+}
+
+const paper: Paper = {
+  ...sourcePaper,
+  ...(presentation && {
+    session_id: presentation.session.session_id,
+    session_title: presentation.session.title,
+    session_room: presentation.session.room_name,
+    time_stamp: presentation.slot.time_start,
+  }),
+};
+
+const supplementalLink = paper.open_access_supplemental_link?.trim()
+  ? /^https?:\/\//i.test(paper.open_access_supplemental_link.trim())
+    ? paper.open_access_supplemental_link.trim()
+    : `https://${paper.open_access_supplemental_link.trim().replace(/^\/\//, "")}`
+  : null;
+
+// Some papers carry a placeholder note here ("We will upload a preprint to
+// Arxiv…") instead of an actual link, ahead of the real one landing. Only
+// render it as a link once it looks like one; the broken-links checker
+// (astro.config.mjs) would otherwise fail the build on the placeholder text.
+const preprintLink =
+  paper.preprint_link && /^https?:\/\//i.test(paper.preprint_link.trim())
+    ? paper.preprint_link.trim()
+    : null;
+
+//manually ignore TVCG and CGA papers because we should not host their PDFs
+const pdfURL =
+  paper.pdf_url &&
+  /^https?:\/\//i.test(paper.pdf_url.trim()) &&
+  !["v-tvcg", "v-cga"].includes(paper.event_prefix)
+    ? paper.pdf_url.trim()
+    : null;
+
+const hasLinks = Boolean(
+  pdfURL || preprintLink || paper.doi || supplementalLink,
+);
+
+const sessionHref =
+  presentation &&
+  withBaseURL(
+    `/program/session/${presentation.session.event_prefix}-${presentation.session.session_id}`,
+  );
+
+const CONFERENCE_TIME_ZONE = "US/Eastern";
+const presentationDetails = presentation && {
+  talkStart: presentation.slot.time_start || presentation.session.time_start,
+  talkEnd: presentation.slot.time_end || presentation.session.time_end,
+  room: presentation.session.room_name || "TBA",
+  // e.g. "Satellite (Paris)" or "Pre-recorded"; "Premise" is in person.
+  mode:
+    presentation.slot.presentation_mode &&
+    presentation.slot.presentation_mode !== "Premise"
+      ? presentation.slot.presentation_mode
+      : null,
+};
+
+// Breadcrumb data
+const eventLabel =
+  paper.event_title ||
+  paperEvent?.event ||
+  paperEvent?.long_name ||
+  EVENT_PREFIX_LABELS[paper.event_prefix] ||
+  paper.event_prefix;
+// Workshop events have their own session page. Other event categories link to
+// the sessions page pre-filtered by event type.
+const eventType =
+  paperEvent?.event_type ||
+  EVENT_PREFIX_TO_TYPE[paper.event_prefix] ||
+  paper.event_prefix;
+const workshopSession =
+  eventType === "workshop" ? paperEvent?.sessions[0] : undefined;
+const eventUrl = workshopSession
+  ? withBaseURL(
+      `/program/session/${workshopSession.event_prefix}-${workshopSession.session_id}`,
+    )
+  : withBaseURL(
+      // Posters have no sessions of their own; list them in the content view.
+      `/program/${eventType === "poster" ? "content" : "sessions"}/?type=${encodeURIComponent(eventType)}`,
+    );
+
+// Video embeds are on hold until session_youtube_url / session_bunny_prerecorded_link
+// (etc.) are actually populated in the paper data. Re-enable this alongside the
+// "Video" section and .video-embed styles below once that data is available.
+// function youtubeEmbedUrl(idOrUrl: string): string {
+//   try {
+//     const url = new URL(idOrUrl);
+//     if (url.hostname.includes("youtu.be")) {
+//       return `https://www.youtube.com/embed/${url.pathname.slice(1)}`;
+//     }
+//     const id = url.searchParams.get("v");
+//     if (id) return `https://www.youtube.com/embed/${id}`;
+//     if (url.pathname.startsWith("/embed/")) return url.toString();
+//   } catch {
+//     // Not a URL - treat the input as a bare video ID.
+//   }
+//   return `https://www.youtube.com/embed/${idOrUrl}`;
+// }
+//
+// const videoEmbedUrl =
+//   (paper.session_youtube_url && youtubeEmbedUrl(paper.session_youtube_url)) ||
+//   (paper.session_youtube_prerecorded_id &&
+//     youtubeEmbedUrl(paper.session_youtube_prerecorded_id)) ||
+//   paper.session_bunny_prerecorded_link ||
+//   (paper.session_youtube_ff_id &&
+//     youtubeEmbedUrl(paper.session_youtube_ff_id)) ||
+//   paper.session_bunny_ff_link ||
+//   null;
+
+const authorBskyHandles = paper.authors.flatMap(
+  (a) => getBskyHandle(a.email) ?? [],
+);
+
+// Social-card description: a clean snippet of the abstract, falling back to
+// authors + venue when no abstract is available so the card is never empty.
+const authorNames = paper.authors.map((a) => a.name).join(", ");
+const venue = paper.session_title
+  ? `${eventLabel} · ${paper.session_title}`
+  : eventLabel;
+const ogDesc =
+  ogDescription(paper.abstract) ||
+  ogDescription(
+    [authorNames, venue].filter(Boolean).join(" — ") ||
+      "A paper presented at IEEE VIS 2026.",
+  );
+
+const frontmatter = {
+  title: paper.title,
+  description: ogDesc,
+  ogType: "article",
+  ogImage: paper.social_image_url,
+  ogImageAlt: paper.social_image_url
+    ? `First page of the IEEE VIS 2026 paper “${paper.title}”.`
+    : `Social card for the IEEE VIS 2026 paper “${paper.title}”.`,
+  active_nav: "Program",
+  contact: "web@ieeevis.org",
+  full_width: true,
+};
+
+const DISCUSSION_SECTION_ID = "discussion";
+// The announce bot posts a thread for each paper slot. A paper without a slot of
+// its own, such as a workshop or challenge paper, is discussed in its event's
+// session thread, which the page links to instead of embedding.
+const eventSession = presentation ? undefined : paperEvent?.sessions[0];
+const eventThreadId =
+  eventSession &&
+  sessionDiscussionId(
+    eventType,
+    `${eventSession.event_prefix}-${eventSession.session_id}`,
+  );
+const eventDiscussionUrl =
+  eventThreadId &&
+  withBaseURL(`/program/session/${eventThreadId}#${DISCUSSION_SECTION_ID}`);
+const eventNoun = eventType.toLowerCase();
+---
+
+<PageLayout frontmatter={frontmatter}>
+  <div class="paper-page prose w-full max-w-none">
+    <!-- Breadcrumb navigation with bookmark at end -->
+    <nav class="breadcrumb not-prose" aria-label="Breadcrumb">
+      <ol class="breadcrumb__list">
+        <li class="breadcrumb__item">
+          <a href={eventUrl} class="breadcrumb__link">{eventLabel}</a>
+        </li>
+
+        {
+          paper.session_title && paper.session_id && (
+            <>
+              <li class="breadcrumb__sep" aria-hidden="true">
+                ›
+              </li>
+              <li class="breadcrumb__item">
+                <a href={sessionHref} class="breadcrumb__link">
+                  {paper.session_title}
+                </a>
+              </li>
+            </>
+          )
+        }
+
+        <li class="breadcrumb__sep" aria-hidden="true">›</li>
+        <li
+          class="breadcrumb__item breadcrumb__item--current"
+          aria-current="page"
+        >
+          <span class="breadcrumb__current">{paper.title}</span>
+        </li>
+      </ol>
+
+      <!-- Bookmark icon button at the end of the breadcrumb row -->
+      <button
+        id="bookmarkBtn"
+        class="bookmark-icon-btn"
+        data-paper-id={paper.id}
+        aria-label="Bookmark this paper"
+        title="Bookmark this paper"
+      >
+        <svg
+          id="bookmark-icon-empty"
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+        </svg>
+        <svg
+          id="bookmark-icon-filled"
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+          stroke="currentColor"
+          stroke-width="2"
+          style="display:none"
+        >
+          <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+        </svg>
+      </button>
+    </nav>
+
+    <header class="paper-hero not-prose">
+      <div class="paper-hero__heading">
+        <div class="paper-hero__eyebrow">
+          <span class="paper-kicker">{eventLabel}</span>
+          {paper.award && <AwardBadge award={paper.award} />}
+          {paper.accessible_pdf === "Accessible" && <AccessibleBadge />}
+        </div>
+        <h1>{paper.title}</h1>
+        <div class="paper-hero__meta" aria-label="Paper metadata">
+          <p>
+            {
+              paper.authors.map((a, idx) => {
+                return (
+                  <span>
+                    <a
+                      href={withBaseURL(
+                        `/program/content/?search=${encodeURIComponent(a.name)}`,
+                      )}
+                      class="text-accent underline decoration-accent-200 decoration-solid underline-offset-3 hover:text-accent-700 focus-visible:text-accent-700"
+                    >
+                      {a.name}
+                    </a>
+                    <BlueskyProfileLink email={a.email} name={a.name} />
+                    {a.affiliation && <span>{` (${a.affiliation})`}</span>}
+                    {idx < paper.authors.length - 1 ? ", " : ""}
+                  </span>
+                );
+              })
+            }
+          </p>
+        </div>
+        {
+          paper.keywords.length > 0 && (
+            <div class="text-sm ">
+              <span class="font-semibold">Keywords:</span>
+              <span class="paper-keywords" aria-label="Keywords">
+                {paper.keywords.map((keyword, idx) => (
+                  <span class="mx-1">
+                    {keyword}
+                    {`${idx < paper.keywords.length - 1 ? ", " : ""}`}
+                  </span>
+                ))}
+              </span>
+            </div>
+          )
+        }
+        {
+          (presentation || eventDiscussionUrl) && (
+            <a
+              class="button button-inverse paper-jump-button"
+              href={`#${DISCUSSION_SECTION_ID}`}
+            >
+              Jump to Discussion <span aria-hidden="true">↓</span>
+            </a>
+          )
+        }
+      </div>
+    </header>
+
+    <!-- Presentation: session, time, and location -->
+    {
+      presentation && presentationDetails && (
+        <div class="paper-section paper-presentation mb-6">
+          <h2>Presentation</h2>
+          <dl class="presentation-details">
+            <dt>Session</dt>
+            <dd>
+              <a href={sessionHref}>{presentation.session.title}</a>
+            </dd>
+            <dt>Time</dt>
+            <dd>
+              <TimeRange
+                start={presentationDetails.talkStart}
+                end={presentationDetails.talkEnd}
+                timeZone={CONFERENCE_TIME_ZONE}
+                withDate
+                suffix
+              />
+              {(presentationDetails.talkStart !==
+                presentation.session.time_start ||
+                presentationDetails.talkEnd !==
+                  presentation.session.time_end) && (
+                <span class="presentation-details__note">
+                  {" "}
+                  · session{" "}
+                  <TimeRange
+                    start={presentation.session.time_start}
+                    end={presentation.session.time_end}
+                    timeZone={CONFERENCE_TIME_ZONE}
+                  />
+                </span>
+              )}{" "}
+              <TimezoneToggle />
+            </dd>
+            <dt>Room</dt>
+            <dd>
+              {displayRoomName(presentationDetails.room)}
+              {presentationDetails.mode && (
+                <span class="presentation-details__note">
+                  {" "}
+                  · {presentationDetails.mode}
+                </span>
+              )}
+            </dd>
+            {paper.presentation_location && (
+              <>
+                <dt>Presenting from</dt>
+                <dd>{paper.presentation_location}</dd>
+              </>
+            )}
+          </dl>
+        </div>
+      )
+    }
+
+    <!-- Links (plain inline links matching authors), with the top of page 1 of the paper on the right -->
+    {
+      (paper.preview_image_url || hasLinks) && (
+        <div
+          class:list={[
+            "paper-section paper-links mb-6",
+            paper.preview_image_url && "paper-links--with-preview",
+          ]}
+        >
+          <div>
+            <h2>Links</h2>
+            {hasLinks ? (
+              <ul>
+                {pdfURL && (
+                  <li>
+                    <AuthGate label="Paper PDF">
+                      <a
+                        href={pdfURL}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Paper PDF
+                        <NewTabIndicator />
+                      </a>
+                    </AuthGate>
+                  </li>
+                )}
+                {preprintLink && (
+                  <li>
+                    <a
+                      href={preprintLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Preprint PDF
+                      <NewTabIndicator />
+                    </a>
+                  </li>
+                )}
+                {supplementalLink && (
+                  <li>
+                    <a
+                      href={supplementalLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Supplemental Material
+                      <NewTabIndicator />
+                    </a>
+                  </li>
+                )}
+                {paper.doi && (
+                  <li>
+                    <a
+                      href={`https://doi.org/${paper.doi}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      DOI: {paper.doi}
+                      <NewTabIndicator />
+                    </a>
+                  </li>
+                )}
+              </ul>
+            ) : (
+              <p>The links to the paper are not available yet.</p>
+            )}
+          </div>
+          {paper.preview_image_url && (
+            <a
+              class="paper-preview not-prose"
+              href={preprintLink ?? undefined}
+              aria-label={
+                preprintLink ? "Preprint PDF (opens in new tab)" : undefined
+              }
+              data-preview-gated-pdf={(!preprintLink && pdfURL) || undefined}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={paper.preview_image_url}
+                alt={`Top of the first page of the paper “${paper.title}”.`}
+                width="1200"
+                height="1553"
+                loading="lazy"
+                decoding="async"
+              />
+            </a>
+          )}
+        </div>
+      )
+    }
+
+    <!-- Video: commented out until session_youtube_url / session_bunny_prerecorded_link
+         data is populated (see the matching comment in the frontmatter above). -->
+    <!--
+    {
+      videoEmbedUrl && (
+        <div class="mb-6">
+          <h2>Video</h2>
+          <AuthGate label="video">
+            <div class="video-embed not-prose">
+              <iframe
+                src={videoEmbedUrl}
+                title={`Video for ${paper.title}`}
+                loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              />
+            </div>
+          </AuthGate>
+        </div>
+      )
+    }
+    -->
+
+    <!-- Abstract -->
+    <div class="paper-section paper-abstract mb-6">
+      <h2>Abstract</h2>
+      <p>{paper.abstract || "TBD"}</p>
+    </div>
+
+    <!-- For Practitioners -->
+
+    {
+      paper.practitioners_statement && (
+        <div class="paper-section paper-abstract mb-6">
+          <h2>For Practitioners</h2>
+          <p>{paper.practitioners_statement}</p>
+        </div>
+      )
+    }
+
+    <!-- Bluesky discussion: thread of replies to this paper's announcement
+         post, proxied through bsky.tech.ieeevis.org so it loads on any
+         conference network. Sortable by upvotes or recency. -->
+
+    <!-- <BlueskyDiscussion showPost={false} paperId="test-bsky-9999" client:load /> -->
+    {
+      presentation ? (
+        <div id={DISCUSSION_SECTION_ID} class="paper-section paper-links mb-6">
+          <BlueskyDiscussion
+            showPost={false}
+            paperId={paper.id}
+            authorHandles={authorBskyHandles}
+            sessionStart={presentation.session.time_start}
+            client:load
+          />
+        </div>
+      ) : (
+        eventSession &&
+        eventDiscussionUrl && (
+          <div
+            id={DISCUSSION_SECTION_ID}
+            class="paper-section paper-links mb-6"
+          >
+            <h2 class="mt-0">Discussion</h2>
+            <p>
+              This paper is discussed together with the other papers of its{" "}
+              {eventNoun}. It opens shortly before the {eventNoun} starts. The{" "}
+              {eventNoun} is on{" "}
+              <TimeRange
+                start={eventSession.time_start}
+                end={eventSession.time_end}
+                withDate
+                suffix
+              />
+              .
+            </p>
+            <a class="button button-inverse" href={eventDiscussionUrl}>
+              Go to the {eventNoun} discussion{" "}
+              <span aria-hidden="true">→</span>
+            </a>
+          </div>
+        )
+      )
+    }
+  </div>
+</PageLayout>
+
+<script>
+  import { getCurrentUser } from "../../../lib/auth0Client";
+
+  // Like the Paper PDF link in AuthGate, a preview without a public preprint opens the PDF only for signed-in attendees.
+  const gatedPreviewLink = document.querySelector<HTMLAnchorElement>(
+    "[data-preview-gated-pdf]",
+  );
+  if (gatedPreviewLink) {
+    void getCurrentUser().then((user) => {
+      if (!user) return;
+      gatedPreviewLink.href = gatedPreviewLink.dataset.previewGatedPdf!;
+      gatedPreviewLink.setAttribute(
+        "aria-label",
+        "Paper PDF (opens in new tab)",
+      );
+    });
+  }
+
+  const btn = document.getElementById(
+    "bookmarkBtn",
+  ) as HTMLButtonElement | null;
+  const iconEmpty = document.getElementById("bookmark-icon-empty");
+  const iconFilled = document.getElementById("bookmark-icon-filled");
+  const paperId = btn?.dataset.paperId;
+
+  // Must match ProgramPapersBrowser's default storageKeyPrefix "program-papers"
+  const STORAGE_KEY = "program-papers-bookmarks";
+
+  function getBookmarks(): string[] {
+    try {
+      return JSON.parse(localStorage.getItem(STORAGE_KEY) ?? "[]");
+    } catch {
+      return [];
+    }
+  }
+
+  function updateBtn() {
+    if (!btn || !paperId) return;
+    const bookmarked = getBookmarks().includes(paperId);
+    btn.classList.toggle("bookmarked", bookmarked);
+    btn.setAttribute(
+      "aria-label",
+      bookmarked ? "Remove bookmark" : "Bookmark this paper",
+    );
+    btn.setAttribute(
+      "title",
+      bookmarked ? "Remove bookmark" : "Bookmark this paper",
+    );
+    if (iconEmpty) iconEmpty.style.display = bookmarked ? "none" : "";
+    if (iconFilled) iconFilled.style.display = bookmarked ? "" : "none";
+  }
+
+  btn?.addEventListener("click", () => {
+    if (!paperId) return;
+    const bookmarks = getBookmarks();
+    const idx = bookmarks.indexOf(paperId);
+    if (idx === -1) {
+      bookmarks.push(paperId);
+    } else {
+      bookmarks.splice(idx, 1);
+    }
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(bookmarks));
+    updateBtn();
+  });
+
+  updateBtn();
+</script>
+
+<style>
+  .paper-page {
+    color: var(--color-primary-900);
+    padding-bottom: 4rem;
+  }
+
+  .paper-hero {
+    max-width: 62rem;
+    margin: 0 auto 2.5rem;
+    padding: clamp(1.5rem, 4vw, 3.5rem);
+    background: linear-gradient(135deg, #fffdf8 0%, #f4eee5 100%);
+    border: 1px solid #e5ddd2;
+    border-radius: 0.75em;
+    box-shadow: 0 1rem 2.5rem rgb(59 53 47 / 8%);
+  }
+
+  .paper-hero h1 {
+    max-width: 52rem;
+    margin: 0;
+    font-size: clamp(1.65rem, 2.4vw, 2.25rem);
+    line-height: 1.12;
+    letter-spacing: -0.025em;
+  }
+
+  .paper-hero__meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
+    margin-top: 1.25rem;
+    color: var(--color-gray-700);
+    font-size: 0.9rem;
+  }
+
+  .paper-hero__meta > span + span::before {
+    content: "•";
+    margin-right: 1rem;
+    color: #c8bcae;
+  }
+
+  .paper-kicker {
+    margin: 0 0 0.75rem;
+    color: var(--color-accent);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .paper-hero__eyebrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.9rem;
+    border-bottom: 1px solid rgb(118 80 11 / 14%);
+  }
+
+  .paper-hero__eyebrow .paper-kicker {
+    margin: 0;
+  }
+
+  .paper-section {
+    max-width: 62rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .paper-section :global(h2) {
+    color: var(--color-primary-800);
+    font-size: 1.15rem;
+    letter-spacing: 0.02em;
+  }
+
+  .paper-authors,
+  .paper-presentation,
+  .paper-jump-button {
+    margin-top: 1.25rem;
+    text-decoration: none;
+  }
+
+  .paper-links {
+    padding: 1.25rem 1.5rem;
+    border: 1px solid #e5ddd2;
+    border-radius: 0.75rem;
+    background: #fff;
+    box-shadow: 0 0.35rem 1.25rem rgb(59 53 47 / 4%);
+  }
+
+  .paper-authors,
+  .paper-presentation {
+    margin-bottom: 1.5rem !important;
+  }
+
+  .paper-authors p,
+  .paper-presentation dl,
+  .paper-links ul {
+    margin-bottom: 0;
+  }
+
+  .paper-links ul {
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+  }
+
+  .paper-links li {
+    padding-left: 0;
+  }
+
+  .paper-links li::before {
+    content: none;
+  }
+
+  .paper-abstract {
+    max-width: 62rem;
+    padding: clamp(1.5rem, 3vw, 2.5rem);
+    border-left: 0.35rem solid var(--color-accent);
+    border-radius: 0 0.75rem 0.75rem 0;
+    background: #f7f3ed;
+  }
+
+  .paper-abstract p {
+    font-size: 1.05rem;
+    line-height: 1.75;
+  }
+
+  .paper-discussion {
+    max-width: 62rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (max-width: 640px) {
+    .paper-page {
+      padding-bottom: 2rem;
+    }
+
+    .breadcrumb__current {
+      max-width: 20ch;
+    }
+
+    .paper-hero {
+      border-radius: 0.75rem;
+      padding: 1.5rem;
+    }
+
+    .paper-hero__meta {
+      gap: 0.35rem 0.75rem;
+    }
+
+    .paper-hero__meta > span + span::before {
+      margin-right: 0.75rem;
+    }
+
+    .paper-authors,
+    .paper-presentation,
+    .paper-links {
+      padding: 1rem;
+    }
+  }
+
+  /* Presentation details */
+  .presentation-details {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    column-gap: 1rem;
+    row-gap: 0.25rem;
+    margin: 0;
+  }
+
+  .presentation-details dt {
+    margin: 0;
+    font-weight: 700;
+  }
+
+  .presentation-details dd {
+    margin: 0;
+    padding: 0;
+  }
+
+  .presentation-details__note {
+    color: var(--color-gray-700);
+  }
+
+  /* Breadcrumb */
+  .breadcrumb {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0.5rem;
+    padding: 0.75rem 0;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #dee2e6;
+    font-size: 0.875rem;
+  }
+
+  .breadcrumb__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.25rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+  }
+
+  .breadcrumb__sep {
+    color: #adb5bd;
+    user-select: none;
+  }
+
+  .breadcrumb__link {
+    color: var(--color-accent);
+    text-decoration: none;
+  }
+
+  .breadcrumb__link:visited {
+    color: var(--color-primary-800);
+  }
+
+  .breadcrumb__link:hover {
+    text-decoration: underline;
+  }
+
+  .breadcrumb__current {
+    color: #555;
+    /* Truncate long titles in the breadcrumb */
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    max-width: 30ch;
+  }
+
+  /* Bookmark icon button */
+  .bookmark-icon-btn {
+    flex-shrink: 0;
+    background: none;
+    border: 1px solid #d8cec1;
+    border-radius: 999px;
+    cursor: pointer;
+    padding: 0.45rem;
+    color: #adb5bd;
+    line-height: 0;
+    transition:
+      color 0.15s,
+      background-color 0.15s,
+      border-color 0.15s;
+    align-self: center;
+  }
+
+  .bookmark-icon-btn:hover {
+    color: var(--color-accent);
+    border-color: var(--color-accent);
+    background: #fff8ef;
+  }
+
+  .bookmark-icon-btn:focus-visible {
+    outline: 3px solid color-mix(in srgb, var(--color-accent) 35%, transparent);
+    outline-offset: 2px;
+  }
+
+  .bookmark-icon-btn.bookmarked {
+    color: var(--color-accent);
+  }
+
+  @media (max-width: 640px) {
+    .paper-hero__eyebrow {
+      align-items: flex-start;
+      gap: 0.75rem;
+    }
+  }
+
+  /* The preview wraps below the links when they get narrower than 20rem */
+  .paper-links--with-preview {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+
+  .paper-links--with-preview > div {
+    flex: 1 1 20rem;
+    min-width: 0;
+  }
+
+  .paper-links--with-preview h2 {
+    margin-top: 0;
+  }
+
+  /* The page starts level with the heading and runs into the bottom edge of
+     the card, which cuts it off. The image is --pull taller than its frame, so
+     that on hover it can slide up by --pull and still meet the edge. */
+  .paper-preview {
+    --pull: 0.5rem;
+    position: relative;
+    display: block;
+    flex: 0 1 22rem;
+    min-width: 12rem;
+    aspect-ratio: 1200 / 776;
+    align-self: stretch;
+    margin: 0 0 -1.25rem;
+    clip-path: inset(-3rem -3rem 0 -3rem);
+  }
+
+  .paper-preview img {
+    position: absolute;
+    inset: 0 0 auto;
+    width: 100%;
+    height: calc(100% + var(--pull));
+    margin: 0;
+    object-fit: cover;
+    object-position: top;
+    box-shadow: 0 0.35rem 1.25rem rgb(59 53 47 / 10%);
+  }
+
+  .paper-preview[href]:hover img,
+  .paper-preview:focus-visible img {
+    box-shadow: 0 0.75rem 2rem rgb(59 53 47 / 22%);
+    transform: translateY(calc(-1 * var(--pull)));
+  }
+
+  .paper-preview:focus-visible {
+    outline: none;
+  }
+
+  .paper-preview:focus-visible img {
+    outline: 3px solid color-mix(in srgb, var(--color-accent) 35%, transparent);
+    outline-offset: 2px;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .paper-preview img {
+      transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .paper-links--with-preview {
+      gap: 1rem;
+    }
+
+    .paper-preview {
+      margin-bottom: -1rem;
+    }
+  }
+
+  /* Links section - styled as prose, plain inline links */
+  .paper-links a {
+    color: var(--color-accent);
+    text-decoration: none;
+  }
+
+  .paper-links a:visited {
+    color: var(--color-primary-800);
+  }
+
+  .paper-links a:hover {
+    text-decoration: underline;
+  }
+
+  /* Video embed - responsive 16:9 (unused while the Video section above is
+     commented out; kept ready for when it's re-enabled) */
+  /*
+  .video-embed {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+  }
+
+  .video-embed iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 6px;
+  }
+  */
+</style>

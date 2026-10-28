@@ -1,20 +1,12 @@
 ---
 import PageLayout from "../../layouts/PageLayout.astro";
 import BlueskyDiscussion from "../../components/BlueskyDiscussion";
-import { buildLoginUrl, readSession } from "../../lib/auth0";
 
 const frontmatter = {
   title: "Bluesky Discussion Demo",
   active_nav: "Program",
   contact: "web@ieeevis.org",
 };
-
-// Rendered at request time, not prerendered: a build-time copy would bake in
-// the signed-out state and never show a reader their own session.
-export const prerender = false;
-
-const isAuthenticated = Boolean(await readSession(Astro.cookies, Astro.url));
-const loginHref = buildLoginUrl(Astro.url);
 ---
 
 <PageLayout frontmatter={frontmatter}>
@@ -25,24 +17,17 @@ const loginHref = buildLoginUrl(Astro.url);
     its reply thread.
   </p>
 
-  <p class="demo-auth-note" role="note">
-    {
-      isAuthenticated ? (
-        <span>
-          You are signed in, so the service-backed example below accepts
-          comments and likes as a VIS attendee. Log in with Bluesky under
-          either announcement to post from your own account instead.
-        </span>
-      ) : (
-        <span>
-          Commenting as a VIS attendee needs an Auth0 sign-in —{" "}
-          <code>/auth/token</code> mints the token the discussion service
-          checks. <a href={loginHref}>Sign in</a> to try it. Logging in with
-          Bluesky under either announcement works without one: comments and
-          likes then come from your own Bluesky account.
-        </span>
-      )
-    }
+  <p class="demo-auth-note" role="note" data-signed-in hidden>
+    You are signed in, so the service-backed example below accepts comments
+    and likes as a VIS attendee. Sign in with Bluesky under either
+    announcement to post from your own account instead.
+  </p>
+  <p class="demo-auth-note" role="note" data-signed-out>
+    Commenting as a VIS attendee needs an Auth0 sign-in: the discussion
+    service checks the sign-in's ID token itself.
+    <button type="button" data-sign-in>Sign in</button> to try it. Signing in
+    with Bluesky under either announcement works without one: comments and
+    likes then come from your own Bluesky account.
   </p>
 
   <style>
@@ -54,22 +39,58 @@ const loginHref = buildLoginUrl(Astro.url);
       color: var(--color-gray-800, #495057);
       font-size: 0.9rem;
     }
+
+    .demo-auth-note button {
+      color: inherit;
+      background: none;
+      border: none;
+      padding: 0;
+      font: inherit;
+      text-decoration: underline;
+      cursor: pointer;
+    }
   </style>
+
+  <script>
+    import { currentPagePath, getCurrentUser, login } from "../../lib/auth0Client";
+
+    getCurrentUser().then((user) => {
+      document
+        .querySelector<HTMLElement>("[data-signed-in]")
+        ?.toggleAttribute("hidden", !user);
+      document
+        .querySelector<HTMLElement>("[data-signed-out]")
+        ?.toggleAttribute("hidden", Boolean(user));
+    });
+
+    document.querySelector("[data-sign-in]")?.addEventListener("click", () => {
+      login(currentPagePath()).catch((error: unknown) => {
+        console.error("Unable to start Auth0 login:", error);
+      });
+    });
+  </script>
 
   <h2>By paper id (service)</h2>
   <p>
     Resolves <code>test-bsky-9999</code> through the discussion service. Shows
     the "discussion opens…" state until the test announcement has been posted.
+    Replies from <code>@domoritz.de</code>, the test paper's author, carry an
+    "Author" badge.
   </p>
-  <BlueskyDiscussion paperId="test-bsky-9999" client:load />
+  <BlueskyDiscussion
+    paperId="test-bsky-9999"
+    authorHandles={["domoritz.de"]}
+    client:load
+  />
 
   <h2>By post URI (direct from Bluesky)</h2>
   <p>
     Reads a thread straight from the public Bluesky AppView — how paper pages
     will work after the conference, once real post URIs are baked in. Guest
-    writes are bridged by the service, so this example is read-only for a
-    signed-in attendee; a Bluesky login writes to your own account and works
-    here too.
+    writes and guest likes are bridged by the service, so this example is
+    read-only for a signed-in attendee, shows no reply likes, and lists the
+    comments newest first with no sort control; a Bluesky sign-in writes to your
+    own account and works here too.
   </p>
   <BlueskyDiscussion
     atUri="at://did:plc:zbr4ntavbfy6nzkupgdgn4sz/app.bsky.feed.post/3msw5eyez7l2k"

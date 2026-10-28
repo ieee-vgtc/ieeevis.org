@@ -6,6 +6,12 @@ active_nav: "Attend"
 contact: finance@ieeevis.org
 ---
 
+<div class="callout-banner">
+  <p class="callout-banner__title">New to VIS? Start here.</p>
+  <p>The Registration Planner shows what's on each day and what your pass costs.</p>
+  <a class="button" href="/year/2026/register/">Open the Registration Planner →</a>
+</div>
+
 ## IEEE VIS 2026 Registration
 
 We are excited to have you to join us at the 2026 IEEE Visualization and Visual Analytics Conference, November 9 - 13.
@@ -44,7 +50,7 @@ We recommend all attendees, authors/presenters, and organizers register online i
 
 **Note that registrations at our satellite locations will have limited capacity.**
 
-#### Early Bird Registration (until September 25, 2026, AOE)
+#### Early Bird Registration (until September 25, 2026, AOE for Boston and Paris; Oct 8, 2026 20:00 China Standard Time / Beijing Time)
 
 | Registrant Type     | Full Conference - Boston | Satellite Author - Paris/Tianjin | Satellite Attendee - Paris/Tianjin | Two Day - Boston | One Day - Boston |
 | ------------------- | ------------------------ | -------------------------------- | ---------------------------------- | ---------------- | ---------------- |
@@ -53,6 +59,8 @@ We recommend all attendees, authors/presenters, and organizers register online i
 | IEEE Student Member | $499                     | $499 + VAT                       | $299 + VAT                         | $249             | $199             |
 | Student Non-Member  | $599                     | $599 + VAT                       | $399 + VAT                         | $299             | $239             |
 | IEEE Life Member    | $499                     | $499 + VAT                       |                                    |                  |                  |
+
+Anyone choosing to [stay at the conference hotel in Boston](/year/2026/info/registration-and-travel/hotel-information/) is eligible for Early Bird registration rates, provided you book your hotel by Oct. 30. These rates can be applied retroactively if you have already registered. [More info on this Google form](https://forms.gle/xqmKZRasccN4tZWK8).
 
 #### Late Registration (from September 26, 2026)
 

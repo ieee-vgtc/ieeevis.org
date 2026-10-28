@@ -1,13 +1,20 @@
 ---
+import ProgramPeopleList from "../../../components/ProgramPeopleList.astro";
 import PageLayout from "../../../layouts/PageLayout.astro";
+import AwardBadge from "../../../components/AwardBadge.astro";
+import TimeRange from "../../../components/TimeRange.astro";
 import BlueskyDiscussion from "../../../components/BlueskyDiscussion";
 import { fetchAllPapers, fetchAllSessions } from "../../../utils/paperData";
-import { hasOwnDiscussion } from "../../../utils/discussionSlots";
+import {
+  hasOwnDiscussion,
+  sessionDiscussionId,
+} from "../../../utils/discussionSlots";
 import type { Paper } from "../../../types/paper";
 import type {
   ProgramSession,
   ProgramSessionList,
 } from "../../../types/program";
+import { displayRoomName } from "../../../utils/week-of-utils";
 import { getProgramEventTypeLabel } from "../../../utils/programEventTypeLabel";
 import { withBaseURL } from "../../../utils/withBaseURL";
 
@@ -24,6 +31,9 @@ type EventPageProps = {
 };
 
 export async function getStaticPaths() {
+  // Events whose papers are not scheduled one-per-slot; the session page lists
+  // every paper under the event's prefix instead.
+  const eventPaperTypes = ["workshop", "challenge", "associated"];
   const [sessionList, papers] = await Promise.all([
     fetchAllSessions(),
     fetchAllPapers(),
@@ -41,12 +51,13 @@ export async function getStaticPaths() {
     [];
 
   for (const event of Object.values(sessionList)) {
-    const eventPapers =
-      event.event_type === "workshop"
-        ? (papersByEventPrefix.get(event.event_prefix) || [])
-            .slice()
-            .sort((a, b) => a.title.localeCompare(b.title))
-        : [];
+    const eventPapers = eventPaperTypes.includes(
+      (event.event_type || "").toLowerCase(),
+    )
+      ? (papersByEventPrefix.get(event.event_prefix) || [])
+          .slice()
+          .sort((a, b) => a.title.localeCompare(b.title))
+      : [];
 
     for (const session of event.sessions) {
       const prefixedId = `${session.event_prefix}-${session.session_id}`;
@@ -79,51 +90,41 @@ export async function getStaticPaths() {
 }
 
 const { event, session, eventPapers } = Astro.props as EventPageProps;
+const eventPaperTypes = ["workshop", "challenge", "associated"];
 
-const presentations = [...session.time_slots].sort(
-  (a, b) => Date.parse(a.time_start) - Date.parse(b.time_start),
-);
+// Placeholder slots (no paper, no authors) just repeat the event title; drop
+// them when the event's papers are listed instead.
+const presentations = [...session.time_slots]
+  .filter((slot) => eventPapers.length === 0 || slot.uid || slot.url)
+  .sort((a, b) => Date.parse(a.time_start) - Date.parse(b.time_start));
 
-const sessionDateFormatter = new Intl.DateTimeFormat("en-US", {
-  timeZone: "US/Eastern",
-  weekday: "long",
-  month: "short",
-  day: "numeric",
-});
-
-const timeFormatter = new Intl.DateTimeFormat("en-US", {
-  timeZone: "US/Eastern",
-  hour: "2-digit",
-  minute: "2-digit",
-  hour12: false,
-});
-
-function formatSlotRange(startISO: string, endISO: string) {
-  const start = new Date(startISO);
-  const end = new Date(endISO);
-  return `${timeFormatter.format(start)} - ${timeFormatter.format(end)}`;
-}
-
-function formatSessionDateTime(startISO: string, endISO: string) {
-  const start = new Date(startISO);
-  const end = new Date(endISO);
-  return `${sessionDateFormatter.format(start)} @ ${timeFormatter.format(start)} - ${timeFormatter.format(end)} (US/Eastern)`;
-}
+const sessionPageId = `${session.event_prefix}-${session.session_id}`;
+const discussionId =
+  sessionDiscussionId(event.event_type || "", sessionPageId) ??
+  presentations.find(hasOwnDiscussion)?.slot_id;
 
 const eventTypeLabel = getProgramEventTypeLabel(event.event_type || "other");
 const programUrl = withBaseURL(
   `/program/sessions/?type=${encodeURIComponent(event.event_type || "other")}`,
 );
 
-// Workshops, tutorials, and panels are described as a whole rather than by
-// their presentations. Panels share one event, so their details live on the
-// session; workshops and tutorials are one event each.
-const describedEventTypes = ["workshop", "tutorial", "panel"];
+// Workshops, tutorials, panels, and the one-off event types (challenges,
+// associated events, meetups) are described as a whole rather than by their
+// presentations. Panels share one event, so their details live on the session;
+// the rest are one event each.
+const describedEventTypes = [
+  "workshop",
+  "tutorial",
+  "panel",
+  "challenge",
+  "associated",
+  "meetup",
+];
 const normalizedEventType = (event.event_type || "").toLowerCase();
 const isDescribedEvent = describedEventTypes.includes(normalizedEventType);
 const isPanel = normalizedEventType === "panel";
 const workshopPapers =
-  normalizedEventType === "workshop" && presentations.length === 0
+  eventPaperTypes.includes(normalizedEventType) && presentations.length === 0
     ? eventPapers
     : [];
 const usesOrganizerLabel = isPanel || normalizedEventType === "tutorial";
@@ -141,10 +142,12 @@ const frontmatter = {
   contact: "web@ieeevis.org",
   full_width: true,
 };
+
+const DISCUSSION_SECTION_ID = "discussion";
 ---
 
 <PageLayout frontmatter={frontmatter}>
-  <div class="prose max-w-4xl">
+  <div class="prose w-full max-w-none">
     <nav class="breadcrumb not-prose" aria-label="Breadcrumb">
       <ol class="breadcrumb__list">
         <li class="breadcrumb__item">
@@ -159,26 +162,61 @@ const frontmatter = {
         </li>
       </ol>
     </nav>
-    <h1>{session.title}</h1>
-    <section class="program-event-page">
+
+    <header class="paper-hero not-prose">
+      <h1>{session.title}</h1>
+      <br />
       <p class="program-event-meta">
         <strong class="mr-2">Session chair:</strong>
-        {session.chair?.join(", ") || "TBA"}
+        {
+          session.chairPeople?.length ? (
+            <ProgramPeopleList people={session.chairPeople} />
+          ) : (
+            session.chair?.join(", ") || "TBA"
+          )
+        }
       </p>
       <p class="program-event-meta">
         <strong class="mr-2">Room:</strong>
-        {session.room_name || "TBA"}
+        {displayRoomName(session.room_name || "TBA")}
       </p>
+      {
+        (session.other_location || session.other_location_url) && (
+          <p class="program-event-meta">
+            <strong class="mr-2">Location:</strong>
+            {session.other_location_url ? (
+              <a href={session.other_location_url}>
+                {session.other_location || session.other_location_url}
+              </a>
+            ) : (
+              session.other_location
+            )}
+          </p>
+        )
+      }
       <p class="program-event-meta">
         <strong class="mr-2">Time:</strong>
-        {formatSessionDateTime(session.time_start, session.time_end)}
+        <TimeRange
+          start={session.time_start}
+          end={session.time_end}
+          withDate
+          suffix
+        />
       </p>
 
       {
         event.organizers.length > 0 && (
           <p class="program-event-organizers">
             <strong class="mr-2">Organizers:</strong>
-            {event.organizers.join(", ")}
+            {event.organizers.map((author, idx) => (
+              <a
+                class="mr-1"
+                href={`/year/2026/program/content/?filter=author&search=${author.replaceAll(" ", "+")}`}
+              >
+                {author}
+                {idx !== event.organizers.length - 1 ? "," : ""}
+              </a>
+            ))}
           </p>
         )
       }
@@ -197,100 +235,135 @@ const frontmatter = {
           ))
       }
 
-      {description && <p class="program-event-description">{description}</p>}
+      {
+        description && (
+          <p class="program-event-description">
+            <strong>Description:</strong> <p>{description}</p>
+          </p>
+        )
+      }
 
+      {
+        discussionId && (
+          <a
+            class="button button-inverse paper-jump-button"
+            href={`#${DISCUSSION_SECTION_ID}`}
+          >
+            Jump to Discussion <span aria-hidden="true">↓</span>
+          </a>
+        )
+      }
+    </header>
+
+    <div>
       {
         presentations.length > 0 ? (
           <h2>Presentations in this session</h2>
         ) : workshopPapers.length > 0 ? (
-          <h2>Workshop papers</h2>
+          <h2>Papers</h2>
         ) : (
           !description && <h2>Presentations in this session</h2>
         )
       }
+    </div>
 
-      <div class="program-presentations">
-        {
-          presentations.length === 0 &&
-            workshopPapers.length === 0 &&
-            !description && (
-            <p>
+    <div>
+      {
+        presentations.length === 0 &&
+          workshopPapers.length === 0 &&
+          !description && (
+            <section class="paper-section">
               No presentations are scheduled for this session. Please check the
               event website for more information.
-            </p>
+            </section>
           )
-        }
-        {
-          presentations.map((slot) => (
-            <article class="program-presentation">
-              <p class="program-presentation-time">
-                {formatSlotRange(slot.time_start, slot.time_end)}
-              </p>
-              {slot.uid ? (
-                <h3>
-                  <a
-                    href={withBaseURL(
-                      `/program/${slot.paper_type.includes("oster") ? "poster" : "paper"}/${slot.uid}`,
-                    )}
-                  >
-                    {slot.title}
-                  </a>
-                </h3>
-              ) : slot.url ? (
-                <h3>
-                  <a href={withBaseURL(slot.url)}>{slot.title}</a>
-                </h3>
-              ) : (
-                <h3>{slot.title}</h3>
-              )}
-              {slot.authors && slot.authors.length > 0 && (
-                <p class="program-presentation-authors">
-                  {usesOrganizerLabel ||
-                  slot.paper_type.toLowerCase() === "tutorial" ? (
-                    <strong class="mr-2">Organizers:</strong>
-                  ) : (
-                    "Authors: "
-                  )}
-                  {slot.authors.map((author) => author.name).join(", ")}
-                </p>
-              )}
-              {isDescribedEvent &&
-                slot.contributors &&
-                slot.contributors.length > 0 && (
-                  <p class="program-presentation-contrib">
-                    {isPanel && <strong class="mr-2">Panelists:</strong>}
-                    {slot.contributors.join(", ")}
-                  </p>
-                )}
-              {/* Panels and invited talks have no paper page, so their Bluesky
-                discussion — the thread of replies to the announcement post,
-                proxied through bsky.tech.ieeevis.org — belongs here. */}
-              {hasOwnDiscussion(slot) && (
-                <div class="program-presentation-discussion not-prose">
-                  <BlueskyDiscussion client:visible paperId={slot.slot_id} />
-                </div>
-              )}
-            </article>
-          ))
-        }
-        {
-          workshopPapers.map((paper) => (
-            <article class="program-presentation">
+      }
+      {
+        presentations.map((slot) => (
+          <section class="paper-section">
+            <p class="program-presentation-time">
+              <TimeRange start={slot.time_start} end={slot.time_end} />
+            </p>
+            {slot.uid ? (
               <h3>
-                <a href={withBaseURL(`/program/paper/${paper.id}`)}>
-                  {paper.title}
+                <a href={withBaseURL(`/program/content/${slot.uid}`)}>
+                  {slot.title}
                 </a>
               </h3>
-              {paper.authors && paper.authors.length > 0 && (
-                <p class="program-presentation-authors">
-                  Authors: {paper.authors.map((author) => author.name).join(", ")}
+            ) : slot.url ? (
+              <h3>
+                <a href={withBaseURL(slot.url)}>{slot.title}</a>
+              </h3>
+            ) : (
+              <h3>{slot.title}</h3>
+            )}
+            {slot.paper_award && (
+              <p class="program-presentation-award">
+                <AwardBadge award={slot.paper_award} compact />
+              </p>
+            )}
+            {slot.authors && slot.authors.length > 0 && (
+              <p class="program-presentation-authors">
+                {usesOrganizerLabel ||
+                slot.paper_type.toLowerCase() === "tutorial" ? (
+                  <strong class="mr-2">Organizers:</strong>
+                ) : (
+                  "Authors: "
+                )}
+                <ProgramPeopleList people={slot.authors} linkNames />
+              </p>
+            )}
+            {isDescribedEvent &&
+              slot.contributors &&
+              slot.contributors.length > 0 && (
+                <p class="program-presentation-contrib">
+                  {isPanel && <strong class="mr-2">Panelists:</strong>}
+                  {slot.contributors.map((author, idx) => (
+                    <a
+                      class="mr-1"
+                      href={`/year/2026/program/content/?filter=author&search=${author.replaceAll(" ", "+")}`}
+                    >
+                      {author}
+                      {slot.contributors && idx !== slot.contributors.length - 1
+                        ? ","
+                        : ""}
+                    </a>
+                  ))}
                 </p>
               )}
-            </article>
-          ))
-        }
-      </div>
-    </section>
+          </section>
+        ))
+      }
+      {
+        workshopPapers.map((paper) => (
+          <section class="paper-section">
+            <h3>
+              <a href={withBaseURL(`/program/content/${paper.id}`)}>
+                {paper.title}
+              </a>
+            </h3>
+            {paper.authors && paper.authors.length > 0 && (
+              <p class="program-presentation-authors">
+                Authors: <ProgramPeopleList people={paper.authors} linkNames />
+              </p>
+            )}
+          </section>
+        ))
+      }
+    </div>
+
+    {
+      discussionId && (
+        <div id={DISCUSSION_SECTION_ID} class="paper-section paper-discussion">
+          <BlueskyDiscussion
+            showPost={false}
+            paperId={discussionId}
+            sessionStart={session.time_start}
+            client:load
+          />
+        </div>
+      )
+    }
   </div>
 
   <style>
@@ -342,45 +415,18 @@ const frontmatter = {
       overflow: hidden;
     }
 
-    .program-event-page {
-      display: grid;
-      gap: 0.8rem;
+    h2 {
+      max-width: 62rem;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 1.5rem;
     }
 
-    .program-event-page h1 {
-      margin: 0;
-    }
-
-    .program-event-page h2 {
-      margin: 0.2rem 0 0;
-      color: var(--color-accent);
-      font-size: 1.15rem;
-    }
-
-    .program-event-id {
-      margin: 0;
-      font-size: 0.78rem;
-      color: var(--color-gray-700);
-    }
-
-    .program-event-link,
     .program-event-meta,
     .program-event-organizers,
     .program-event-description {
       margin: 0;
       color: var(--color-gray-800);
-    }
-
-    .program-presentations {
-      display: grid;
-      gap: 0.7rem;
-    }
-
-    .program-presentation {
-      border-top: 1px dashed var(--color-gray-900);
-      padding-top: 0.5rem;
-      display: grid;
-      gap: 0.2rem;
     }
 
     .program-presentation-time {
@@ -390,12 +436,6 @@ const frontmatter = {
       font-size: 0.82rem;
     }
 
-    .program-presentation h3 {
-      margin: 0;
-      font-size: 1rem;
-      line-height: 1.3;
-    }
-
     .program-presentation-authors,
     .program-presentation-contrib {
       margin: 0;
@@ -403,8 +443,99 @@ const frontmatter = {
       font-size: 0.9rem;
     }
 
-    .program-presentation-discussion {
-      margin-top: 0.6rem;
+    .program-presentation-award {
+      margin: 0.15rem 0;
+    }
+
+    /* STYLING COPIED FROM PAPERS PAGE */
+    .paper-jump-button {
+      margin-top: 1.25rem;
+      text-decoration: none;
+    }
+
+    .paper-discussion {
+      margin-top: 1.5rem;
+    }
+
+    .paper-discussion :global(h2) {
+      color: var(--color-primary-800);
+      font-size: 1.15rem;
+      letter-spacing: 0.02em;
+    }
+
+    .paper-hero {
+      max-width: 62rem;
+      margin: 0 auto 2.5rem;
+      padding: clamp(1.5rem, 4vw, 3.5rem);
+      background: linear-gradient(135deg, #fffdf8 0%, #f4eee5 100%);
+      border: 1px solid #e5ddd2;
+      border-radius: 0.75rem;
+      box-shadow: 0 1rem 2.5rem rgb(59 53 47 / 8%);
+    }
+
+    .paper-hero h1 {
+      max-width: 52rem;
+      margin: 0;
+      font-size: clamp(1.65rem, 2.4vw, 2.25rem);
+      line-height: 1.12;
+      letter-spacing: -0.025em;
+    }
+
+    .paper-hero__meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 1rem;
+      margin-top: 1.25rem;
+      color: var(--color-gray-700);
+      font-size: 0.9rem;
+    }
+
+    .paper-hero__meta > span + span::before {
+      content: "•";
+      margin-right: 1rem;
+      color: #c8bcae;
+    }
+
+    .paper-kicker {
+      margin: 0 0 0.75rem;
+      color: var(--color-accent);
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .paper-hero__eyebrow {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+      padding-bottom: 0.9rem;
+      border-bottom: 1px solid rgb(118 80 11 / 14%);
+    }
+
+    .paper-hero__eyebrow .paper-kicker {
+      margin: 0;
+    }
+
+    .paper-section {
+      max-width: 62rem;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 1.25rem 1.5rem;
+      border: 1px solid #e5ddd2;
+      border-radius: 0.75rem;
+      background: #fff;
+      box-shadow: 0 0.35rem 1.25rem rgb(59 53 47 / 4%);
+      margin-bottom: 1rem;
+    }
+    /* End of STYLING COPIED FROM PAPERS PAGE */
+
+    .paper-section h3 {
+      margin: 0;
+      font-size: 1rem;
+      line-height: 1.3;
     }
   </style>
 </PageLayout>

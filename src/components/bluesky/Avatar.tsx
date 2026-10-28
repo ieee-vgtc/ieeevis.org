@@ -21,7 +21,7 @@ export default function Avatar({
         height: `${size}px`,
         borderRadius: "9999px",
         objectFit: "cover",
-        border: "1px solid #e5e7eb",
+        border: "1px solid var(--color-gray-300)",
         flexShrink: 0,
       }}
     />

@@ -4,7 +4,7 @@ import DefaultLayout from "./DefaultLayout.astro";
 const { frontmatter } = Astro.props;
 ---
 
-<DefaultLayout page_info={frontmatter}>
+<DefaultLayout page_info={frontmatter} searchable={false}>
   <div class="section">
     <div class="header">
       <div class="container">

@@ -1,9 +1,9 @@
 - heading: "Program"
   links:
-    - text: "Week at a Glance"
-      url: "/info/program/week-at-a-glance"
+    # - text: "Week at a Glance"
+    #   url: "/info/program/week-at-a-glance"
     - text: "Accepted Papers"
-      url: "/program/papers"
+      url: "/program/content"
     # - text: "Posters"
     #   url: "/info/program/posters"
     - text: "Panels"
