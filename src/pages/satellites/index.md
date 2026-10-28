@@ -20,6 +20,8 @@ The satellite events are part of a new federated participation model designed to
 
 The **Paris satellite event** will be hosted by **Jean-Daniel Fekete, Petra Isenberg,** and **Florent Cabric**. Contact: satellite\_paris@ieeevis.org
 
+See the [Paris Satellite page](/year/2026/satellites/paris/) for venue information and the local program.
+
 The **Tianjin satellite event** will be hosted by **Jiawan Zhang, Shixia Liu, Xiaoru Yuan, Changbo Wang,** and **Qing Chen**. Contact: satellite\_china@ieeevis.org
 
 See the [Tianjin Satellite page](/year/2026/satellites/tianjin/) for venue information and the local program.
