@@ -10,7 +10,7 @@ contact: papers@ieeevis.org
 To improve the future, we must reflect on our past.
 The IEEE VIS Test of Time Award is an accolade given to recognize articles published at previous conferences whose contents are still vibrant and useful today and have had a major impact and influence within and beyond the visualization community.
 
-This year's Test-of-Time awards will be announced during the [VIS Awards session](../../../program/session/conf-conference12_1/).
+This year's Test-of-Time awards will be announced during the [VIS Awards session](https://ieeevis.org/year/2026/program/session/conf-conference12_1/).
 
 <hr />
 
