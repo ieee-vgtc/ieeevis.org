@@ -20,7 +20,7 @@ France
 
 ## Program
 
-We are still working on the local program. The current proposal will change as we know how many attendees, paper, and poster presentations we will have.
+We are still working on the local program. The current proposal will change as we learn how many attendees, paper, and poster presentations we will have.
 
 ### Local program
 
@@ -30,7 +30,7 @@ We are still working on the local program. The current proposal will change as w
 |               |                 |                      | Room 2: Local paper presentations 1  | Room 2:  Local paper presentations 2  |
 |               |                 |                      |                  |                  |
 | 10:30 - 11:00 | _coffe break_   | _coffe break_        | _coffe break_    | _coffe break_    |
-| 11:00 - 12:00 | Amphi: Keynote  | PhD Madness          | Poster Viewing   | Amphi: Panel: Satellite 2.0 |
+| 11:00 - 12:00 | Amphi: Local Keynote  | PhD Madness          | Poster Viewing   | Amphi: Panel: Satellite 2.0 |
 |               |                 |                      |                  |                  |
 | 12:00 - 14:00 | _lunch_         | _lunch_              | _lunch_          | _lunch_          |
 
@@ -64,10 +64,12 @@ We are still working on the local program. The current proposal will change as w
 We are very grateful for support for the Paris satellite from the following sponsors:
 
 
-||| 
-|:---:|:---:|
+|||||
+|:---:|:---:|:---:|:---:|
 ![cea logo](/year/2026/assets/satellite/cea-web.png) |![cnrs_logo](/year/2026/assets/satellite/CNRS-200-wide.png) |![dataia_logo](/year/2026/assets/satellite/DATAIA-200-wide.png) |![pepr_logo](/year/2026/assets/satellite/PEPR-200-wide.png)
 | CEA | CNRS | DataIA | PEPR Ensemble |
+![afihm_logo](/year/2026/assets/satellite/afihm-200-wide.png) | [Telecom_logo](/year/2026/assets/satellite/Telecom-200-wide.jpg) | [lisn_logo](/year/2026/assets/satellite/LISN-200-wide.png) | [univ_g_eiffel_logp](/year/2026/assets/satellite/Eiffel-200-wide.png) |
+| AFIHM | Telecom ParisTech | LISN | Univ. G. Eiffel |
 
 
 ## FAQ
@@ -79,5 +81,5 @@ The conference will take place close to Place d'Italie. There are two Ibis hotel
 - ibis Paris Avenue d'Italie 13ème, 10 minutes walk: https://maps.app.goo.gl/hkJAX8yaHGwatp3S7
 - ibis Styles Paris Tolbiac Bibliothèque, 11 minutes walk: https://maps.app.goo.gl/pi6HxQot98J5rH2MA
 
-Otherwise, we recommend to look for hotels near "Institut des Systèmes Complexes" https://maps.app.goo.gl/BXhJ7TUpEjCdZYRj9, there are many around.
+Otherwise, we recommend looking for hotels near "Institut des Systèmes Complexes" https://maps.app.goo.gl/BXhJ7TUpEjCdZYRj9; there are many around.
 
