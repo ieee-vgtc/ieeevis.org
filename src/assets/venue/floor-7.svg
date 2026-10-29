@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="44 88 830 508" width="830" height="508">
+  <defs>
+    <g id="icon-elevator">
+      <rect x="-17" y="-13" width="34" height="26" rx="4" fill="#c4681a" stroke="#fff" stroke-width="2"/>
+      <path d="M-5,-1.8 0,-8.5 5,-1.8Z M-5,1.8 0,8.5 5,1.8Z" fill="#fff"/>
+    </g>
+    <g id="icon-restroom">
+      <rect x="-17" y="-13" width="34" height="26" rx="4" fill="#c4681a" stroke="#fff" stroke-width="2"/>
+      <g fill="#fff">
+        <path d="M-11.6,-10h1.1a1.9,1.9 0 0 1 0,3.8h-1.1z"/>
+        <path d="M-12,-5.2h4a0.8,0.8 0 0 1 0.8,0.8v5.4h-1.2v7.6h-1.3v-4.6h-0.4v4.6h-1.3v-7.6h-1.4v-5.4a0.8,0.8 0 0 1 0.8,-0.8z"/>
+        <path d="M8.6,-10h1.1a1.9,1.9 0 0 1 0,3.8h-1.1z"/>
+        <path d="M8.8,-5.2h2.6l2.4,7.2h-2v6.6h-1.3v-6.6h-0.4v6.6h-1.3v-6.6h-2z"/>
+        <circle cx="-1" cy="-8" r="1.5"/>
+      </g>
+      <g fill="none" stroke="#fff" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" transform="translate(0.8 0)">
+        <path d="M-1.8,-5.4v5.2h3.8l1.6,4.6h1.6"/>
+        <path d="M-1.8,-2.8h3"/>
+        <path d="M-4.2,-1.6a4.4,4.4 0 1 0 6.4,5.4"/>
+      </g>
+    </g>
+  </defs>
+  <g id="floorplan">
+    <polygon points="98.86,429.65 677.04,95.84 817.17,176.74 817.17,519.24 747.58,588.83 186.97,588.83" fill="#f7f1ec"/>
+    <g fill="none" stroke="#d8cdc3" stroke-width="2.67" stroke-linecap="round">
+      <path d="M651.33,218.33l6.5,11.26,38.54-22.25,15.71,8.74v30.8"/>
+      <path d="M749.16,136.84l-43.59,75.51"/>
+      <path d="M712.07,271.82v32.27h32.41v-28.88h-6.52"/>
+      <path d="M724.84,275.17h-12.92"/>
+      <path d="M712.07,374.63v-32.93h32.41v32.93"/>
+      <path d="M724.68,303.98v37.93"/>
+      <path d="M737.29,399.64h-25.22v50.22h32.41"/>
+      <path d="M744.48,440.9v39.91h-26.78"/>
+      <path d="M721.97,480.5v13.13"/>
+      <path d="M690.51,515.72v73.22"/>
+      <path d="M593.18,514.57h-10.42v73.93"/>
+      <path d="M585.44,462.36v-141.47h30.95v-10.61l-14.24-24.66-78.47,45.3h49.68v30.34"/>
+      <path d="M585.68,360.88h-112.76"/>
+      <path d="M513.23,337.69l-210.41,121.48v3.78h55.38"/>
+      <path d="M352.24,430.53h56.73v31.24"/>
+      <path d="M367.69,462.37h142.75"/>
+      <path d="M467.31,364.42v98.05"/>
+      <path d="M529.83,462.16h162.55v-116.95h-45.35"/>
+      <path d="M744.69,449.76h72.21"/>
+      <path d="M745.47,286.48h72.21"/>
+    </g>
+    <g fill="none" stroke="#a3968b" stroke-width="1.33" stroke-linecap="round">
+      <path d="M477.35,401.85h26.23v21.37h-26.23v-21.37Z"/>
+      <path d="M477.2,401.77l26.45,21.37"/>
+      <path d="M503.42,402.01l-26.21,21.26"/>
+      <path d="M477.35,430.25h26.23v21.37h-26.23v-21.37Z"/>
+      <path d="M477.2,430.17l26.45,21.37"/>
+      <path d="M503.42,430.42l-26.21,21.26"/>
+      <path d="M548.39,401.85h26.23v21.37h-26.23v-21.37Z"/>
+      <path d="M548.24,401.77l26.45,21.37"/>
+      <path d="M574.47,402.01l-26.21,21.26"/>
+      <path d="M548.39,430.25h26.23v21.37h-26.23v-21.37Z"/>
+      <path d="M548.24,430.17l26.45,21.37"/>
+      <path d="M574.47,430.42l-26.21,21.26"/>
+      <path d="M590.58,325.77h24.38v24.38h-24.38v-24.38Z"/>
+      <path d="M590.62,325.81l24.3,24.3"/>
+      <path d="M590.75,349.98l24.04-24.04"/>
+      <path d="M590.58,358.75h24.38v24.38h-24.38v-24.38Z"/>
+      <path d="M590.62,358.79l24.3,24.3"/>
+      <path d="M590.75,382.96l24.04-24.04"/>
+      <path d="M590.58,391.49h24.38v24.38h-24.38v-24.38Z"/>
+      <path d="M590.62,391.53l24.3,24.3"/>
+      <path d="M590.75,415.71l24.04-24.04"/>
+      <path d="M590.58,427.23h24.38v24.38h-24.38v-24.38Z"/>
+      <path d="M590.62,427.27l24.3,24.3"/>
+      <path d="M590.75,451.45l24.04-24.04"/>
+      <path d="M657.47,355.75h24.38v24.38h-24.38v-24.38Z"/>
+      <path d="M657.51,355.79l24.3,24.3"/>
+      <path d="M657.64,379.96l24.04-24.04"/>
+      <path d="M657.47,391.49h24.38v24.38h-24.38v-24.38Z"/>
+      <path d="M657.51,391.53l24.3,24.3"/>
+      <path d="M657.64,415.71l24.04-24.04"/>
+      <path d="M657.47,427.23h24.38v24.38h-24.38v-24.38Z"/>
+      <path d="M657.51,427.27l24.3,24.3"/>
+      <path d="M657.64,451.45l24.04-24.04"/>
+    </g>
+    <g fill="none" stroke="#7a6a5f" stroke-width="2.67" stroke-linecap="round">
+      <path d="M418.29,483v72.94"/>
+      <path d="M140.11,503.77l67.89-39.19,13.29,23.02-17.01,9.82-13.26-22.96"/>
+      <path d="M220.9,486.78l4.78,8.27h20.57v22.43h10.89v-27.68h-10.89v6.52"/>
+      <path d="M281.52,495.82v20.94h28.76"/>
+      <path d="M282.04,505.3h28.42"/>
+      <path d="M325.08,505.3h-14.8v83.53"/>
+      <path d="M237.81,460.89l44.07-25.45,4.51,7.81,15.85-9.15-52.69-91.26"/>
+      <path d="M282.82,437.06l-11.33-19.63,15.57-8.99"/>
+      <path d="M297.94,426.11l56.95-32.88"/>
+      <path d="M376.48,381.16l116.15-67.06"/>
+      <path d="M387.91,262.51l48.08,83.27"/>
+      <path d="M513.75,301.29l41.05-23.7"/>
+      <path d="M480.86,209.16l46.28,84.4"/>
+      <path d="M573.7,265.85l48.46-27.98-9.19-15.92,4.96-2.86,15.63,27.07"/>
+      <path d="M615.35,220.32l-38.44-66.59"/>
+      <path d="M470.35,482.7h-32.42"/>
+      <path d="M470.35,482.55v106.25"/>
+      <path d="M401.85,482.99h-38.81"/>
+      <path d="M364.25,482.7v73.04h105.77"/>
+      <path d="M98.86,429.65L677.04,95.84l140.13,80.9v342.5l-69.59,69.59H186.97l-88.12-159.18Z"/>
+    </g>
+  </g>
+  <g id="rooms" stroke="#693a19" stroke-width="2" stroke-linejoin="round">
+    <polygon id="room-empire" points="98.86,429.65 249.55,342.84 297.94,426.11 302.24,434.1 286.39,443.25 281.88,435.44 237.81,460.89 208,464.58 140.11,503.77" fill="#fff"/>
+    <polygon id="room-great-republic" points="249.55,342.84 387.91,262.51 435.99,345.78 297.94,426.11" fill="#fff"/>
+    <polygon id="room-helicon" points="387.91,262.51 480.86,209.16 527.14,293.56 435.99,345.78" fill="#fff"/>
+    <polygon id="room-mastiff" points="480.86,209.16 576.91,153.73 615.35,220.32 622.16,237.87 527.14,293.56" fill="#fff"/>
+    <polygon id="room-defender" points="140.11,503.77 208,464.58 225.68,495.05 281.52,495.82 281.52,505.3 310.28,505.3 310.28,588.83 186.97,588.83" fill="#fff"/>
+  </g>
+  <g id="annotations" font-family="Fira Sans, sans-serif" text-anchor="middle">
+    <g letter-spacing="0.04em">
+      <text x="190" y="432" font-size="15" font-weight="700" fill="#693a19">EMPIRE</text>
+      <text x="343" y="349" font-size="15" font-weight="700" fill="#693a19">GREAT REPUBLIC</text>
+      <text x="458" y="282" font-size="15" font-weight="700" fill="#693a19">HELICON</text>
+      <text x="564" y="246" font-size="15" font-weight="700" fill="#693a19">MASTIFF</text>
+      <text x="238" y="550" font-size="15" font-weight="700" fill="#693a19">DEFENDER</text>
+    </g>
+    <g id="amenities" font-size="13" font-weight="500" fill="#693a19" text-anchor="start">
+      <use href="#icon-elevator" transform="translate(606 487)"/>
+      <text x="628" y="491.5">Elevators</text>
+      <use href="#icon-restroom" transform="translate(382 574)"/>
+      <text x="404" y="578.5">Restrooms</text>
+    </g>
+  </g>
+  <g id="highlight" fill="none" stroke="#bb4a72" stroke-width="6" stroke-linejoin="round">
+    <polygon id="hl-empire" points="98.86,429.65 249.55,342.84 297.94,426.11 302.24,434.1 286.39,443.25 281.88,435.44 237.81,460.89 208,464.58 140.11,503.77"/>
+    <polygon id="hl-great-republic" points="249.55,342.84 387.91,262.51 435.99,345.78 297.94,426.11"/>
+    <polygon id="hl-helicon" points="387.91,262.51 480.86,209.16 527.14,293.56 435.99,345.78"/>
+    <polygon id="hl-mastiff" points="480.86,209.16 576.91,153.73 615.35,220.32 622.16,237.87 527.14,293.56"/>
+    <polygon id="hl-defender" points="140.11,503.77 208,464.58 225.68,495.05 281.52,495.82 281.52,505.3 310.28,505.3 310.28,588.83 186.97,588.83"/>
+  </g>
+</svg>

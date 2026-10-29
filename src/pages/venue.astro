@@ -1,0 +1,1211 @@
+---
+// Venue guide for the Westin Copley Place: where registration is and when,
+// and a floor plan for each of the three floors VIS uses, with the rooms in
+// use on each day taken from the program.
+import DefaultLayout from "../layouts/DefaultLayout.astro";
+import { withBaseURL } from "../utils/withBaseURL";
+import { fetchAllSessions } from "../utils/paperData";
+import { prepareFloorSvg } from "../utils/venueSvg";
+import {
+  FLOORS,
+  SPACES,
+  OFFSITE_ROOM_IDS,
+  REGISTRATION,
+  SPEAKER_PREP,
+  VENUE_TIME_ZONE,
+  VENUE_UTC_OFFSET,
+} from "../data/venue";
+import floor3 from "../assets/venue/floor-3.svg?raw";
+import floor4 from "../assets/venue/floor-4.svg?raw";
+import floor7 from "../assets/venue/floor-7.svg?raw";
+import "../styles/brand-page.css";
+
+export const prerender = true;
+
+const page_info = {
+  title: "Venue",
+  description:
+    "Find your way around the Westin Copley Place at IEEE VIS 2026: registration hours, and floor plans of Floors 3, 4 and 7 with the rooms in use each day.",
+  active_nav: "Attend",
+  contact: "registration@ieeevis.org",
+};
+
+const RAW_SVGS: Record<string, string> = { "3": floor3, "4": floor4, "7": floor7 };
+const svgs = Object.fromEntries(
+  FLOORS.map((f) => [f.id, prepareFloorSvg(RAW_SVGS[f.id], f.id, f.label)]),
+);
+
+const DAYS = [
+  { id: "sun", date: "2026-11-08", short: "Sun", long: "Sunday, November 8" },
+  { id: "mon", date: "2026-11-09", short: "Mon", long: "Monday, November 9" },
+  { id: "tue", date: "2026-11-10", short: "Tue", long: "Tuesday, November 10" },
+  { id: "wed", date: "2026-11-11", short: "Wed", long: "Wednesday, November 11" },
+  { id: "thu", date: "2026-11-12", short: "Thu", long: "Thursday, November 12" },
+  { id: "fri", date: "2026-11-13", short: "Fri", long: "Friday, November 13" },
+];
+
+const dayOf = new Intl.DateTimeFormat("en-CA", {
+  timeZone: VENUE_TIME_ZONE,
+  year: "numeric",
+  month: "2-digit",
+  day: "2-digit",
+});
+const clock = new Intl.DateTimeFormat("en-US", {
+  timeZone: VENUE_TIME_ZONE,
+  hour: "numeric",
+  minute: "2-digit",
+});
+const parts = (d: Date) => {
+  const [t, period] = clock.format(d).split(" ");
+  return { t, p: period.toLowerCase() };
+};
+const timeRange = (start: Date, end: Date) => {
+  const a = parts(start);
+  const b = parts(end);
+  return a.p === b.p ? `${a.t} – ${b.t} ${b.p}` : `${a.t} ${a.p} – ${b.t} ${b.p}`;
+};
+const localTime = (date: string, hhmm: string) =>
+  new Date(`${date}T${hhmm}:00${VENUE_UTC_OFFSET}`);
+
+const sessionList = await fetchAllSessions();
+const sessions = Object.values(sessionList)
+  .flatMap((event) =>
+    event.sessions.map((s) => ({ s, eventName: event.long_name })),
+  )
+  .filter(({ s }) => s.time_start && s.time_end)
+  .map(({ s, eventName }) => {
+    const start = new Date(s.time_start);
+    return {
+      id: s.session_id,
+      title: s.title,
+      room: s.track,
+      event: eventName,
+      day: DAYS.find((d) => d.date === dayOf.format(start))?.id ?? "",
+      start: start.getTime(),
+      end: new Date(s.time_end).getTime(),
+      time: timeRange(start, new Date(s.time_end)),
+      url: withBaseURL(`/program/session/${s.event_prefix}-${s.session_id}`),
+      otherLocation: s.other_location,
+      otherUrl: s.other_location_url,
+    };
+  })
+  .filter((s) => s.day)
+  .sort((a, b) => a.start - b.start);
+
+const mappedRooms = new Set(SPACES.map((sp) => sp.roomId));
+const onSite = sessions.filter((s) => mappedRooms.has(s.room));
+// Badge pickup is shown with registration; anything else without a mapped
+// room is listed as "room to be announced".
+const unplaced = sessions.filter(
+  (s) =>
+    !mappedRooms.has(s.room) &&
+    !OFFSITE_ROOM_IDS.includes(s.room) &&
+    !/badge pickup|registration/i.test(s.title),
+);
+
+const offsite = OFFSITE_ROOM_IDS.map((roomId) => {
+  const list = sessions.filter((s) => s.room === roomId);
+  const first = list[0];
+  return first
+    ? {
+        roomId,
+        name: first.otherLocation?.split(",")[0] ?? roomId,
+        address: first.otherLocation ?? "",
+        url: first.otherUrl ?? "",
+        sessions: list.map((s) => ({
+          ...s,
+          dayLong: DAYS.find((d) => d.id === s.day)!.long.split(",")[0],
+        })),
+      }
+    : null;
+}).filter((p) => p !== null);
+
+const hours = REGISTRATION.hours.map((h) => {
+  const day = DAYS.find((d) => d.date === h.date)!;
+  return {
+    ...h,
+    day: day.long,
+    label:
+      h.open && h.close
+        ? timeRange(localTime(h.date, h.open), localTime(h.date, h.close))
+        : "Hours to be announced",
+  };
+});
+const regFloor = FLOORS.find((f) => f.id === REGISTRATION.floor)!;
+const prepFloor = FLOORS.find((f) => f.id === SPEAKER_PREP.floor)!;
+
+const clientData = {
+  days: DAYS,
+  floors: FLOORS.map(({ id, label }) => ({ id, label })),
+  spaces: SPACES,
+  sessions: onSite.map(({ otherLocation, otherUrl, ...s }) => s),
+  unplaced: unplaced.map(({ title, day, time, url }) => ({ title, day, time, url })),
+  registration: {
+    floor: REGISTRATION.floor,
+    offset: VENUE_UTC_OFFSET,
+    hours: REGISTRATION.hours,
+  },
+  /** Floor of each map marker. */
+  markers: { registration: REGISTRATION.floor, "speaker-prep": SPEAKER_PREP.floor },
+};
+// `<` is escaped so a title containing "</script>" can't end the JSON block.
+const clientJson = JSON.stringify(clientData).replace(/</g, "\\u003c");
+
+const registerPage = withBaseURL("/register/");
+const calendarPage = withBaseURL("/program/calendar/");
+const hotelPage = withBaseURL("/info/registration-and-travel/hotel-information/");
+const MAPS_URL =
+  "https://www.google.com/maps/search/?api=1&query=The+Westin+Copley+Place+10+Huntington+Ave+Boston";
+---
+
+<DefaultLayout page_info={page_info}>
+  <div class="brand-page venue" id="venue">
+    <section class="hero">
+      <div class="wrap">
+        <div class="kicker">Venue · Boston · November 8–13</div>
+        <h1>Find your way at <em>the Westin.</em></h1>
+        <p class="lede">
+          VIS 2026 is at The Westin Copley Place in Back Bay. Sessions run on
+          three floors of the hotel. Pick up your badge at registration, then use
+          the floor plans below to find your room.
+        </p>
+        <div class="rule" aria-hidden="true"></div>
+        <p class="addr">
+          <a href={MAPS_URL} rel="noopener">The Westin Copley Place, 10 Huntington Ave, Back Bay.</a>
+        </p>
+        <nav class="quick" aria-label="On this page">
+          <a class="chip" href="#registration">Registration</a>
+          <a class="chip" href="#speaker-prep">Speaker prep</a>
+          <a class="chip" href="#map">Conference map</a>
+          {offsite.length > 0 && <a class="chip" href="#offsite">Off-site events</a>}
+        </nav>
+      </div>
+    </section>
+
+    <section class="regdesk" id="registration">
+      <div class="wrap regdesk-grid">
+        <div>
+          <div class="kicker">Badge pickup</div>
+          <h2>Pick up your badge at registration.</h2>
+          <div class="rule" aria-hidden="true"></div>
+          <p class="where">
+            <b>{regFloor.label}, {REGISTRATION.where}</b>
+            {!REGISTRATION.locationConfirmed && <span class="tbc">Location to be confirmed</span>}
+          </p>
+          <p class="status" id="reg-status" aria-live="polite" hidden></p>
+          <p>
+            The desk is for badge pickup only. Not registered yet? <a href={registerPage}
+              >Register online</a
+            > before you arrive.
+          </p>
+          <button class="btn btn-primary" type="button" data-show-marker="registration"
+            >Show it on the map</button
+          >
+        </div>
+        <div class="hours notch">
+          <h3>Desk hours</h3>
+          <ol id="reg-hours">
+            {
+              hours.map((h) => (
+                <li data-date={h.date} class:list={{ tba: !h.open }}>
+                  <span class="d">{h.day}</span>
+                  <span class="h">{h.label}</span>
+                  {h.note && <span class="n">{h.note}</span>}
+                </li>
+              ))
+            }
+          </ol>
+          <p class="note">Boston time (Eastern Standard Time).</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="prep" id="speaker-prep">
+      <div class="wrap prep-grid">
+        <div>
+          <div class="kicker">For presenters</div>
+          <h2>Speaking? Stop by speaker prep.</h2>
+        </div>
+        <div>
+          <p class="where"><b>{prepFloor.label}, {SPEAKER_PREP.where}</b></p>
+          <p>
+            Check your slides and laptop on a projector before your session.
+          </p>
+          <button class="btn btn-primary" type="button" data-show-marker="speaker-prep"
+            >Show it on the map</button
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="maps" id="map">
+      <div class="wrap">
+        <div class="sec-head">
+          <div class="kicker">Conference map</div>
+          <h2>Three floors, one VIS.</h2>
+          <p>
+            Pick a day to see which rooms are in use, then pick a room to see its
+            sessions.
+          </p>
+        </div>
+
+        <div class="days" role="group" aria-label="Day">
+          {
+            DAYS.map((d) => (
+              <button class="chip" type="button" data-day={d.id} aria-pressed="false">
+                <span class="sr">{d.long}</span>
+                <span aria-hidden="true">
+                  {d.short} <span class="dd">{d.date.slice(-2).replace(/^0/, "")}</span>
+                </span>
+              </button>
+            ))
+          }
+        </div>
+
+        <div class="tabs" role="tablist" aria-label="Floor">
+          {
+            FLOORS.map((f, i) => (
+              <button
+                class="tab"
+                type="button"
+                role="tab"
+                id={`tab-${f.id}`}
+                aria-controls={`panel-${f.id}`}
+                aria-selected={i === 0 ? "true" : "false"}
+                tabindex={i === 0 ? 0 : -1}
+                data-floor={f.id}
+              >
+                <b>{f.label}</b>
+                <span class="sum">{f.summary}</span>
+                <span class="count" data-count />
+              </button>
+            ))
+          }
+        </div>
+
+        <div class="map-grid">
+          <div class="map-card notch">
+            {
+              FLOORS.map((f, i) => (
+                <div
+                  class="panel"
+                  role="tabpanel"
+                  id={`panel-${f.id}`}
+                  aria-labelledby={`tab-${f.id}`}
+                  data-floor={f.id}
+                  hidden={i !== 0}
+                >
+                  <Fragment set:html={svgs[f.id]} />
+                </div>
+              ))
+            }
+            <div class="legend">
+              <span class="key"><i class="sw used"></i>In use that day</span>
+              <span class="key"><i class="sw idle"></i>Not in use that day</span>
+              <span class="key"><i class="sw reg"></i>Registration and speaker prep</span>
+              <span class="key">
+                <svg class="ico wide" viewBox="-17 -13 34 26" aria-hidden="true">
+                  <rect x="-17" y="-13" width="34" height="26" rx="4" fill="var(--orange-700)"></rect>
+                  <path d="M-5,-1.8 0,-8.5 5,-1.8Z M-5,1.8 0,8.5 5,1.8Z" fill="#fff"></path>
+                </svg>Elevators
+              </span>
+              <span class="key">
+                <svg class="ico wide" viewBox="-17 -13 34 26" aria-hidden="true">
+                  <rect x="-17" y="-13" width="34" height="26" rx="4" fill="var(--orange-700)"></rect>
+                  <g fill="#fff">
+                    <path d="M-11.6,-10h1.1a1.9,1.9 0 0 1 0,3.8h-1.1z"></path>
+                    <path d="M-12,-5.2h4a0.8,0.8 0 0 1 0.8,0.8v5.4h-1.2v7.6h-1.3v-4.6h-0.4v4.6h-1.3v-7.6h-1.4v-5.4a0.8,0.8 0 0 1 0.8,-0.8z"></path>
+                    <path d="M8.6,-10h1.1a1.9,1.9 0 0 1 0,3.8h-1.1z"></path>
+                    <path d="M8.8,-5.2h2.6l2.4,7.2h-2v6.6h-1.3v-6.6h-0.4v6.6h-1.3v-6.6h-2z"></path>
+                    <circle cx="-1" cy="-8" r="1.5"></circle>
+                  </g>
+                  <g fill="none" stroke="#fff" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" transform="translate(0.8 0)">
+                    <path d="M-1.8,-5.4v5.2h3.8l1.6,4.6h1.6"></path>
+                    <path d="M-1.8,-2.8h3"></path>
+                    <path d="M-4.2,-1.6a4.4,4.4 0 1 0 6.4,5.4"></path>
+                  </g>
+                </svg>Restrooms
+              </span>
+            </div>
+          </div>
+          <div class="rooms-card">
+            <h3 id="rooms-head">Rooms</h3>
+            <ul class="room-list" id="room-list" aria-labelledby="rooms-head"></ul>
+            <div id="room-tba"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {
+      offsite.length > 0 && (
+        <section class="offsite" id="offsite">
+          <div class="wrap">
+            <div class="sec-head">
+              <div class="kicker">Off-site</div>
+              <h2>An evening in Cambridge.</h2>
+              <p>
+                On Wednesday night, the banquet and the opening of the VIS Arts
+                Program exhibition are across the river at MIT.
+              </p>
+            </div>
+            <div class="place-grid">
+              {offsite.map((p) => (
+                <article class="place notch">
+                  <h3>{p.name}</h3>
+                  <p class="where">{p.address}</p>
+                  <ul>
+                    {p.sessions.map((s) => (
+                      <li>
+                        <b>
+                          {s.dayLong} · {s.time}
+                        </b>
+                        <a href={s.url}>{s.title}</a>
+                      </li>
+                    ))}
+                  </ul>
+                  {p.url && (
+                    <a class="more" href={p.url} rel="noopener">
+                      About {p.name}
+                    </a>
+                  )}
+                </article>
+              ))}
+            </div>
+          </div>
+        </section>
+      )
+    }
+
+    <section class="closing">
+      <div class="wrap">
+        <h2>See you at the Westin, November 9–13.</h2>
+        <p>The Westin Copley Place, 10 Huntington Ave, Back Bay.</p>
+        <div class="links">
+          <a href={calendarPage}>Full program</a>
+          <a href={registerPage}>Registration planner</a>
+          <a href={hotelPage}>Hotel Information</a>
+          <a href={MAPS_URL} rel="noopener">Open in Google Maps</a>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script is:inline type="application/json" id="venue-data" set:html={clientJson} />
+</DefaultLayout>
+
+<script>
+  import { createUrlStateHistory } from "../utils/urlStateHistory";
+
+  type Day = { id: string; date: string; short: string; long: string };
+  type Space = {
+    roomId: string;
+    name: string;
+    floor: string;
+    shapes: string[];
+    combined?: boolean;
+  };
+  type Session = {
+    id: string;
+    title: string;
+    room: string;
+    event: string;
+    day: string;
+    start: number;
+    end: number;
+    time: string;
+    url: string;
+  };
+  type Hours = { date: string; open: string | null; close: string | null; note?: string };
+  type Data = {
+    days: Day[];
+    floors: { id: string; label: string }[];
+    spaces: Space[];
+    sessions: Session[];
+    unplaced: { title: string; day: string; time: string; url: string }[];
+    registration: { floor: string; offset: string; hours: Hours[] };
+    markers: Record<string, string>;
+  };
+
+  const data: Data = JSON.parse(document.getElementById("venue-data")!.textContent!);
+  const root = document.getElementById("venue")!;
+  const $ = <T extends Element = HTMLElement>(s: string, r: ParentNode = root) =>
+    r.querySelector(s) as T;
+  const $$ = <T extends Element = HTMLElement>(s: string, r: ParentNode = root) => [
+    ...r.querySelectorAll<T>(s),
+  ];
+  const esc = (s: string) =>
+    s.replace(
+      /[&<>"']/g,
+      (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]!,
+    );
+
+  const params = new URLSearchParams(location.search);
+  // ?today=2026-11-10T09:30 previews the page at a time during the conference.
+  const now = params.get("today")
+    ? new Date(
+        params.get("today")!.length > 10
+          ? `${params.get("today")}:00${data.registration.offset}`
+          : `${params.get("today")}T12:00:00${data.registration.offset}`,
+      )
+    : new Date();
+  const todayDate = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "America/New_York",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).format(now);
+  const todayId = data.days.find((d) => d.date === todayDate)?.id;
+
+  const state = {
+    day: todayId ?? "mon",
+    floor: data.floors[0].id,
+    room: null as string | null,
+  };
+
+  const sessionsFor = (roomId: string, day: string) =>
+    data.sessions.filter((s) => s.room === roomId && s.day === day);
+  const spacesWithShape = (shape: string) =>
+    data.spaces.filter((sp) => sp.shapes.includes(shape));
+  const dayOf = (id: string) => data.days.find((d) => d.id === id)!;
+
+  // Registration status line and today's row in the hours list.
+  const at = (date: string, hhmm: string) =>
+    new Date(`${date}T${hhmm}:00${data.registration.offset}`);
+  const clock = (d: Date) =>
+    d
+      .toLocaleTimeString("en-US", {
+        timeZone: "America/New_York",
+        hour: "numeric",
+        minute: "2-digit",
+      })
+      .toLowerCase();
+  const known = data.registration.hours.filter((h) => h.open && h.close);
+  const openNow = known.find(
+    (h) => now >= at(h.date, h.open!) && now < at(h.date, h.close!),
+  );
+  const next = known.find((h) => at(h.date, h.open!) > now);
+  const status = $("#reg-status");
+  if (openNow) {
+    status.innerHTML = `<b>Open now</b> until ${clock(at(openNow.date, openNow.close!))}`;
+    status.hidden = false;
+  } else if (next) {
+    const nd = data.days.find((d) => d.date === next.date)!;
+    const when = next.date === todayDate ? "today" : nd.long.split(",")[0];
+    status.innerHTML = `<b>Closed now.</b> Opens ${when} at ${clock(at(next.date, next.open!))}`;
+    status.hidden = false;
+  }
+  $$("#reg-hours li").forEach((li) => {
+    if (li.dataset.date === todayDate) {
+      li.classList.add("today");
+      li.insertAdjacentHTML("afterbegin", '<span class="tag">Today</span>');
+    }
+  });
+
+  // Room list for the current floor and day.
+  function renderRooms() {
+    const floor = data.floors.find((f) => f.id === state.floor)!;
+    const day = dayOf(state.day);
+    $("#rooms-head").textContent = `${floor.label} on ${day.long.split(",")[0]}`;
+    const spaces = data.spaces
+      .filter((sp) => sp.floor === state.floor)
+      .map((sp) => ({ sp, list: sessionsFor(sp.roomId, state.day) }))
+      .filter(({ sp, list }) => !sp.combined || list.length);
+    const used = spaces.filter((x) => x.list.length);
+    const idle = spaces.filter((x) => !x.list.length);
+    const item = ({ sp, list }: { sp: Space; list: Session[] }) => {
+      const open = state.room === sp.roomId;
+      const meta = list.length
+        ? `${list.length} session${list.length > 1 ? "s" : ""}`
+        : "Not in use";
+      return `<li class="${[open && "open", list.length && "used"].filter(Boolean).join(" ")}">
+        <button type="button" class="room" data-room="${sp.roomId}" aria-expanded="${open}"${list.length ? "" : " disabled"}>
+          <span class="nm">${esc(sp.name)}</span><span class="meta">${meta}</span>
+        </button>
+        ${
+          open
+            ? `<ol class="sess">${list
+                .map(
+                  (s) =>
+                    `<li><time>${s.time}</time><a href="${esc(s.url)}">${esc(s.title)}</a>${
+                      s.event && s.event !== s.title ? `<span class="ev">${esc(s.event)}</span>` : ""
+                    }</li>`,
+                )
+                .join("")}</ol>`
+            : ""
+        }
+      </li>`;
+    };
+    $("#room-list").innerHTML =
+      used.map(item).join("") +
+      (idle.length
+        ? `<li class="idle-head">Not in use on ${day.long.split(",")[0]}</li>` +
+          idle.map(item).join("")
+        : "");
+    $$<HTMLButtonElement>("#room-list .room").forEach((b) => {
+      b.addEventListener("click", () => selectRoom(state.room === b.dataset.room ? null : b.dataset.room!));
+      b.addEventListener("mouseenter", () => peek(b.dataset.room!));
+      b.addEventListener("mouseleave", () => peek(null));
+    });
+
+    const tba = data.unplaced.filter((s) => s.day === state.day);
+    $("#room-tba").innerHTML = tba.length
+      ? `<p class="note"><b>Room to be announced:</b> ${tba
+          .map((s) => `<a href="${esc(s.url)}">${esc(s.title)}</a> (${s.time})`)
+          .join("; ")}</p>`
+      : "";
+  }
+
+  const isMarker = (id: string | null) => id !== null && Object.hasOwn(data.markers, id);
+  const shapesOf = (roomId: string | null) =>
+    isMarker(roomId)
+      ? [roomId!]
+      : (data.spaces.find((sp) => sp.roomId === roomId)?.shapes ?? []);
+
+  function peek(roomId: string | null) {
+    const shapes = shapesOf(roomId);
+    $$("[data-hl]").forEach((el) =>
+      el.classList.toggle("peek", shapes.includes(el.getAttribute("data-hl")!)),
+    );
+  }
+
+  // Map colors, highlight, tabs and day chips.
+  function render() {
+    $$<HTMLButtonElement>(".days .chip").forEach((b) =>
+      b.setAttribute("aria-pressed", String(b.dataset.day === state.day)),
+    );
+    $$<HTMLButtonElement>(".tab").forEach((t) => {
+      const on = t.dataset.floor === state.floor;
+      t.setAttribute("aria-selected", String(on));
+      t.tabIndex = on ? 0 : -1;
+      const n = new Set(
+        data.spaces
+          .filter((sp) => sp.floor === t.dataset.floor && !sp.combined)
+          .filter((sp) =>
+            data.spaces.some(
+              (o) =>
+                o.shapes.some((sh) => sp.shapes.includes(sh)) &&
+                sessionsFor(o.roomId, state.day).length,
+            ),
+          )
+          .map((sp) => sp.roomId),
+      ).size;
+      $("[data-count]", t).textContent = n ? `${n} room${n > 1 ? "s" : ""} in use` : "No rooms in use";
+    });
+    $$(".panel").forEach((p) => (p.hidden = p.dataset.floor !== state.floor));
+
+    $$("[data-room]", $(".map-card")).forEach((el) => {
+      const shape = el.getAttribute("data-room")!;
+      const used = spacesWithShape(shape).some((sp) => sessionsFor(sp.roomId, state.day).length);
+      el.toggleAttribute("data-used", used);
+    });
+    const sel = shapesOf(state.room);
+    $$("[data-hl]").forEach((el) =>
+      el.classList.toggle("on", sel.includes(el.getAttribute("data-hl")!)),
+    );
+    $$("[data-marker]").forEach((el) =>
+      el.classList.toggle("on", el.getAttribute("data-marker") === state.room),
+    );
+    renderRooms();
+  }
+
+  const url = createUrlStateHistory((p) => {
+    readParams(p);
+    render();
+  });
+  const write = (replace = false) => {
+    const p = new URLSearchParams(location.search);
+    p.set("day", state.day);
+    p.set("floor", state.floor);
+    if (state.room) p.set("room", state.room);
+    else p.delete("room");
+    url.write(p, { replace });
+  };
+  function readParams(p: URLSearchParams) {
+    const day = p.get("day");
+    const floor = p.get("floor");
+    const room = p.get("room");
+    if (day && data.days.some((d) => d.id === day)) state.day = day;
+    if (floor && data.floors.some((f) => f.id === floor)) state.floor = floor;
+    state.room = isMarker(room) || data.spaces.some((sp) => sp.roomId === room) ? room : null;
+    const sp = data.spaces.find((s) => s.roomId === state.room);
+    if (sp) state.floor = sp.floor;
+    if (isMarker(state.room)) state.floor = data.markers[state.room!];
+  }
+
+  function selectRoom(roomId: string | null) {
+    state.room = roomId;
+    const sp = data.spaces.find((s) => s.roomId === roomId);
+    if (sp) state.floor = sp.floor;
+    render();
+    write();
+  }
+
+  $$<HTMLButtonElement>(".days .chip").forEach((b) =>
+    b.addEventListener("click", () => {
+      state.day = b.dataset.day!;
+      if (!isMarker(state.room) && state.room && !sessionsFor(state.room, state.day).length)
+        state.room = null;
+      render();
+      write();
+    }),
+  );
+  const tabs = $$<HTMLButtonElement>(".tab");
+  tabs.forEach((t, i) => {
+    t.addEventListener("click", () => {
+      state.floor = t.dataset.floor!;
+      state.room = null;
+      render();
+      write();
+    });
+    t.addEventListener("keydown", (e) => {
+      const step = e.key === "ArrowRight" ? 1 : e.key === "ArrowLeft" ? -1 : 0;
+      const to =
+        e.key === "Home" ? 0 : e.key === "End" ? tabs.length - 1 : step ? (i + step + tabs.length) % tabs.length : -1;
+      if (to < 0) return;
+      e.preventDefault();
+      tabs[to].focus();
+      tabs[to].click();
+    });
+  });
+
+  // Clicking a room on the map picks the room the program uses that day.
+  $$(".map-card [data-room]").forEach((el) =>
+    el.addEventListener("click", () => {
+      const options = spacesWithShape(el.getAttribute("data-room")!);
+      const inUse = options.filter((sp) => sessionsFor(sp.roomId, state.day).length);
+      const pick = inUse.find((sp) => !sp.combined) ?? inUse[0];
+      if (pick) selectRoom(state.room === pick.roomId ? null : pick.roomId);
+    }),
+  );
+
+  $$("[data-show-marker]").forEach((b) =>
+    b.addEventListener("click", () => {
+      const id = b.dataset.showMarker!;
+      state.floor = data.markers[id];
+      state.room = id;
+      render();
+      write();
+      document.getElementById("map")!.scrollIntoView();
+    }),
+  );
+
+  readParams(params);
+  render();
+  write(true);
+</script>
+
+<style is:global>
+  .venue {
+    --room-used: color-mix(in srgb, var(--raspberry) 38%, white);
+    --room-used-hover: color-mix(in srgb, var(--raspberry) 60%, white);
+    /* Same tan as the foyers on the floor plans. */
+    --room-idle: #efe2d6;
+  }
+  .venue .sr {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+
+  /* Bands alternate pink, then light and dark tan. */
+  .venue .hero {
+    background: var(--raspberry);
+  }
+  .venue .regdesk,
+  .venue .maps {
+    background: var(--peach-50);
+  }
+  .venue .prep,
+  .venue .offsite {
+    background: var(--peach);
+  }
+
+  /* Hero */
+  .venue .hero :focus-visible {
+    outline-color: var(--white);
+  }
+  .venue .hero .kicker,
+  .venue .hero h1,
+  .venue .hero p.lede,
+  .venue .hero .rule,
+  .venue .hero a {
+    color: var(--white);
+  }
+  .venue .hero h1 em {
+    color: var(--white);
+  }
+  .venue .hero .addr {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .venue .hero .chip {
+    border-color: var(--white);
+  }
+  .venue .hero .chip:hover {
+    background: var(--white);
+    color: var(--raspberry-ink);
+  }
+  .venue .quick {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 24px;
+  }
+  .venue .quick .chip {
+    text-decoration: none;
+  }
+
+  /* Registration */
+  .venue .regdesk h2 {
+    color: var(--brown);
+    font-size: clamp(34px, 5.5vw, 56px);
+    margin-top: 10px;
+  }
+  .venue .regdesk .rule {
+    max-width: 360px;
+    margin: 22px 0;
+  }
+  .venue .regdesk a {
+    font-weight: 700;
+  }
+  .venue .regdesk .btn {
+    margin-top: 6px;
+  }
+  .venue .regdesk-grid {
+    display: grid;
+    gap: 28px;
+    align-items: start;
+  }
+  @media (min-width: 900px) {
+    .venue .regdesk-grid {
+      grid-template-columns: 1.1fr 1fr;
+    }
+  }
+  .venue .regdesk .where {
+    font: 700 clamp(22px, 2.6vw, 28px) / 1.2 var(--display);
+    color: var(--raspberry-ink);
+    margin: 0;
+  }
+  .venue .regdesk .tbc {
+    display: block;
+    font: 500 14px var(--body);
+    margin-top: 6px;
+    opacity: 0.9;
+  }
+  .venue .regdesk .status {
+    display: inline-block;
+    background: var(--white);
+    color: var(--raspberry-ink);
+    box-shadow: inset 4px 0 0 var(--raspberry);
+    padding: 8px 14px 8px 18px;
+    font-size: 16px;
+    margin: 18px 0 0;
+  }
+  /* Speaker prep */
+  .venue .prep-grid {
+    display: grid;
+    gap: 12px 40px;
+    align-items: center;
+  }
+  @media (min-width: 900px) {
+    .venue .prep-grid {
+      grid-template-columns: 1.1fr 1fr;
+    }
+  }
+  .venue .prep h2 {
+    color: var(--brown);
+    font-size: clamp(28px, 4vw, 40px);
+    margin-top: 10px;
+  }
+  .venue .prep .where {
+    font: 700 clamp(20px, 2.4vw, 24px) / 1.2 var(--display);
+    color: var(--raspberry-ink);
+    margin: 0 0 6px;
+  }
+  .venue .prep .btn {
+    margin-top: 6px;
+  }
+
+  .venue .hours {
+    background: var(--white);
+    color: var(--ink);
+    padding: 24px 26px 30px 34px;
+    position: relative;
+  }
+  .venue .hours::before {
+    content: "";
+    position: absolute;
+    left: 14px;
+    top: 0;
+    bottom: 0;
+    border-left: 2px solid var(--raspberry);
+  }
+  .venue .hours h3 {
+    font-size: 26px;
+    color: var(--brown);
+  }
+  .venue .hours ol {
+    list-style: none;
+    margin: 14px 0 0;
+    padding: 0;
+  }
+  .venue .hours li {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0 16px;
+    padding: 10px 0;
+    border-top: 1px solid var(--peach);
+  }
+  .venue .hours li .d {
+    font-weight: 500;
+  }
+  .venue .hours li .h {
+    font: 700 18px var(--display);
+    color: var(--orange-800);
+    text-align: right;
+  }
+  .venue .hours li.tba .h {
+    font: 500 14px var(--body);
+    color: var(--gray-700);
+  }
+  .venue .hours li .n {
+    grid-column: 1 / -1;
+    font-size: 14px;
+    color: var(--gray-700);
+  }
+  .venue .hours li.today {
+    background: var(--peach-50);
+    margin: 0 -12px;
+    padding: 10px 12px;
+    box-shadow: inset 4px 0 0 var(--raspberry);
+  }
+  .venue .hours .tag {
+    grid-column: 1 / -1;
+    font: 700 12px var(--body);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--raspberry-ink);
+  }
+
+  /* Floor plans */
+  .venue .days {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 24px;
+  }
+  .venue .days .dd {
+    font-weight: 400;
+    opacity: 0.8;
+  }
+  .venue .tabs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    margin-top: 20px;
+  }
+  .venue .tab {
+    text-align: left;
+    font: inherit;
+    color: var(--brown);
+    background: var(--white);
+    border: 0;
+    border-bottom: 4px solid transparent;
+    padding: 14px 16px 12px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .venue .tab b {
+    font: 700 24px/1.1 var(--display);
+    color: var(--orange-800);
+  }
+  .venue .tab .sum {
+    font-size: 14px;
+    line-height: 1.3;
+  }
+  .venue .tab .count {
+    font-size: 13px;
+    color: var(--gray-700);
+    margin-top: 4px;
+  }
+  .venue .tab:hover {
+    background: var(--peach);
+  }
+  .venue .tab[aria-selected="true"] {
+    border-bottom-color: var(--raspberry);
+    box-shadow: inset 0 0 0 2px var(--raspberry);
+  }
+  @media (max-width: 599px) {
+    .venue .tab .sum {
+      display: none;
+    }
+    .venue .tab b {
+      font-size: 20px;
+    }
+  }
+
+  .venue .map-grid {
+    display: grid;
+    gap: 20px;
+    margin-top: 12px;
+    align-items: start;
+  }
+  @media (min-width: 900px) {
+    .venue .map-grid {
+      grid-template-columns: 1.7fr 1fr;
+    }
+  }
+  .venue .map-card {
+    background: var(--white);
+    padding: 12px 12px 30px;
+  }
+  .venue .floor-svg {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .venue [data-layer="annotations"],
+  .venue [data-layer="highlight"] {
+    pointer-events: none;
+  }
+  .venue [data-layer="rooms"] [data-room] {
+    fill: var(--room-idle);
+    stroke: var(--brown);
+    transition: fill 0.2s;
+  }
+  .venue [data-layer="rooms"] [data-room][data-used] {
+    fill: var(--room-used);
+    cursor: pointer;
+  }
+  .venue [data-layer="rooms"] [data-room][data-used]:hover {
+    fill: var(--room-used-hover);
+  }
+  .venue [data-hl] {
+    fill: none;
+    stroke: var(--raspberry);
+    opacity: 0;
+    transition: opacity 0.15s;
+  }
+  .venue [data-hl].peek {
+    opacity: 0.5;
+  }
+  .venue [data-hl].on {
+    opacity: 1;
+  }
+  .venue [data-hl="registration"],
+  .venue [data-hl="speaker-prep"] {
+    stroke: var(--brown);
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .venue [data-hl="registration"].on,
+    .venue [data-hl="speaker-prep"].on {
+      animation: venue-pulse 1.2s ease-in-out 3;
+    }
+  }
+  @keyframes venue-pulse {
+    50% {
+      stroke-width: 12px;
+    }
+  }
+
+  .venue .legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 16px;
+    margin: 12px 8px 0;
+    font-size: 14px;
+    color: var(--brown);
+  }
+  .venue .legend .key {
+    display: inline-flex;
+    gap: 6px;
+    align-items: center;
+  }
+  .venue .sw {
+    width: 14px;
+    height: 14px;
+    border-radius: 2px;
+    display: inline-block;
+    flex: none;
+    border: 1.5px solid var(--brown);
+  }
+  .venue .sw.used {
+    background: var(--room-used);
+  }
+  .venue .sw.idle {
+    background: var(--room-idle);
+  }
+  .venue .sw.reg {
+    background: var(--raspberry);
+    border-color: var(--raspberry-ink);
+  }
+  .venue .ico {
+    width: 18px;
+    height: 18px;
+    flex: none;
+    color: var(--brown);
+  }
+  .venue .ico.wide {
+    width: 24px;
+  }
+
+  .venue .rooms-card h3 {
+    font-size: 26px;
+    color: var(--brown);
+  }
+  .venue .room-list {
+    list-style: none;
+    margin: 12px 0 0;
+    padding: 0;
+    display: grid;
+    gap: 8px;
+  }
+  .venue .room-list > li {
+    background: var(--white);
+    position: relative;
+  }
+  .venue .room-list > li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    border-left: 5px solid var(--room-idle);
+  }
+  .venue .room-list > li.used::before {
+    border-color: var(--room-used-hover);
+  }
+  .venue .room-list > li.open {
+    box-shadow: inset 0 0 0 3px var(--raspberry);
+  }
+  .venue .room-list .idle-head {
+    background: none;
+    font: 700 13px var(--body);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--gray-700);
+    margin-top: 10px;
+  }
+  .venue .room-list .idle-head::before {
+    display: none;
+  }
+  .venue .room {
+    width: 100%;
+    text-align: left;
+    font: inherit;
+    color: inherit;
+    background: none;
+    border: 0;
+    padding: 12px 14px 12px 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+  }
+  .venue .room:disabled {
+    cursor: default;
+    color: var(--gray-700);
+  }
+  .venue .room .nm {
+    font: 700 19px/1.2 var(--display);
+    color: var(--orange-800);
+  }
+  .venue .room:disabled .nm {
+    color: var(--gray-700);
+  }
+  .venue .room .meta {
+    font-size: 13px;
+    color: var(--gray-700);
+    white-space: nowrap;
+  }
+  .venue .sess {
+    list-style: none;
+    margin: 0;
+    padding: 0 14px 14px 20px;
+    display: grid;
+    gap: 10px;
+    font-size: 15px;
+    line-height: 1.35;
+  }
+  .venue .sess li {
+    border-top: 2px dashed var(--peach);
+    padding-top: 10px;
+  }
+  .venue .sess time {
+    display: block;
+    font: 700 12px var(--body);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--raspberry-ink);
+  }
+  .venue .sess .ev {
+    display: block;
+    font-size: 13px;
+    color: var(--gray-700);
+  }
+
+  /* Off-site */
+  .venue .place-grid {
+    display: grid;
+    gap: 20px;
+    margin-top: 28px;
+  }
+  @media (min-width: 900px) {
+    .venue .place-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  .venue .place {
+    background: var(--white);
+    padding: 24px 24px 32px 34px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .venue .place::before {
+    content: "";
+    position: absolute;
+    left: 14px;
+    top: 0;
+    bottom: 0;
+    border-left: 2px solid var(--raspberry);
+  }
+  .venue .place h3 {
+    font-size: 28px;
+    color: var(--brown);
+  }
+  .venue .place .where {
+    margin: 0;
+    font-size: 15px;
+    color: var(--gray-700);
+  }
+  .venue .place ul {
+    list-style: none;
+    margin: 4px 0 0;
+    padding: 0;
+    display: grid;
+    gap: 10px;
+    font-size: 15px;
+    line-height: 1.4;
+  }
+  .venue .place li b {
+    display: block;
+    font-weight: 500;
+    font-size: 13px;
+    color: var(--gray-700);
+  }
+  .venue .place .more {
+    margin-top: auto;
+    padding-top: 6px;
+    font-weight: 700;
+    font-size: 15px;
+  }
+</style>

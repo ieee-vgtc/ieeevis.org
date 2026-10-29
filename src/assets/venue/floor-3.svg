@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="44 88 830 508" width="830" height="508">
+  <defs>
+    <g id="icon-elevator">
+      <rect x="-17" y="-13" width="34" height="26" rx="4" fill="#c4681a" stroke="#fff" stroke-width="2"/>
+      <path d="M-5,-1.8 0,-8.5 5,-1.8Z M-5,1.8 0,8.5 5,1.8Z" fill="#fff"/>
+    </g>
+    <g id="icon-restroom">
+      <rect x="-17" y="-13" width="34" height="26" rx="4" fill="#c4681a" stroke="#fff" stroke-width="2"/>
+      <g fill="#fff">
+        <path d="M-11.6,-10h1.1a1.9,1.9 0 0 1 0,3.8h-1.1z"/>
+        <path d="M-12,-5.2h4a0.8,0.8 0 0 1 0.8,0.8v5.4h-1.2v7.6h-1.3v-4.6h-0.4v4.6h-1.3v-7.6h-1.4v-5.4a0.8,0.8 0 0 1 0.8,-0.8z"/>
+        <path d="M8.6,-10h1.1a1.9,1.9 0 0 1 0,3.8h-1.1z"/>
+        <path d="M8.8,-5.2h2.6l2.4,7.2h-2v6.6h-1.3v-6.6h-0.4v6.6h-1.3v-6.6h-2z"/>
+        <circle cx="-1" cy="-8" r="1.5"/>
+      </g>
+      <g fill="none" stroke="#fff" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" transform="translate(0.8 0)">
+        <path d="M-1.8,-5.4v5.2h3.8l1.6,4.6h1.6"/>
+        <path d="M-1.8,-2.8h3"/>
+        <path d="M-4.2,-1.6a4.4,4.4 0 1 0 6.4,5.4"/>
+      </g>
+    </g>
+  </defs>
+  <g id="floorplan">
+    <polygon points="52.37,530.98 77.06,573.74 831.25,573.74 868.62,536.37 868.62,145.19 795.82,103.16" fill="#f7f1ec"/>
+    <polygon points="463.54,400 597.54,400 597.54,488.74 652.69,488.74 652.69,293.93" fill="#efe2d6"/>
+    <g fill="none" stroke="#d8cdc3" stroke-width="2.67" stroke-linecap="round">
+      <path d="M200.25,530.05l67.92-39.21"/>
+      <path d="M286.88,481.05l73.33-42.33-12.17-21.08"/>
+      <path d="M251.94,500.41h114.9"/>
+      <path d="M341.57,450.21v49.67"/>
+      <path d="M341.57,456.64h23.16"/>
+      <path d="M406.13,412.55v87.75"/>
+      <path d="M379.5,500.3l87.31.38"/>
+      <path d="M406.38,418.67h20.92"/>
+      <path d="M443.61,436.55h23.2v64.13"/>
+    </g>
+    <g fill="none" stroke="#a3968b" stroke-width="1.33" stroke-linecap="round">
+      <path d="M445.8,462.17h14.54v11.98h-14.54v-11.98Z"/>
+      <path d="M445.99,462.39l14.14,11.53"/>
+      <path d="M446.02,473.94l14.1-11.58"/>
+      <path d="M445.8,442.67h14.54v11.98h-14.54v-11.98Z"/>
+      <path d="M445.99,442.89l14.14,11.53"/>
+      <path d="M446.02,454.44l14.1-11.58"/>
+      <path d="M445.8,481.67h14.54v11.98h-14.54v-11.98Z"/>
+      <path d="M445.99,481.89l14.14,11.53"/>
+      <path d="M446.02,493.44l14.1-11.58"/>
+      <path d="M412.09,423.67h14.54v11.98h-14.54v-11.98Z"/>
+      <path d="M412.28,423.89l14.14,11.53"/>
+      <path d="M412.31,435.44l14.1-11.58"/>
+      <path d="M412.09,442.67h14.54v11.98h-14.54v-11.98Z"/>
+      <path d="M412.28,442.89l14.14,11.53"/>
+      <path d="M412.31,454.44l14.1-11.58"/>
+      <path d="M412.09,462.17h14.54v11.98h-14.54v-11.98Z"/>
+      <path d="M412.28,462.39l14.14,11.53"/>
+      <path d="M412.31,473.94l14.1-11.58"/>
+      <path d="M412.09,481.67h14.54v11.98h-14.54v-11.98Z"/>
+      <path d="M412.28,481.89l14.14,11.53"/>
+      <path d="M412.31,493.44l14.1-11.58"/>
+      <path d="M348.57,462.17h14.54v11.98h-14.54v-11.98Z"/>
+      <path d="M348.77,462.39l14.14,11.53"/>
+      <path d="M348.79,473.94l14.1-11.58"/>
+      <path d="M348.57,481.67h14.54v11.98h-14.54v-11.98Z"/>
+      <path d="M348.77,481.89l14.14,11.53"/>
+      <path d="M348.79,493.44l14.1-11.58"/>
+      <path d="M385.18,462.17h14.54v11.98h-14.54v-11.98Z"/>
+      <path d="M385.38,462.39l14.14,11.53"/>
+      <path d="M385.4,473.94l14.1-11.58"/>
+      <path d="M385.18,481.67h14.54v11.98h-14.54v-11.98Z"/>
+      <path d="M385.38,481.89l14.14,11.53"/>
+      <path d="M385.4,493.44l14.1-11.58"/>
+    </g>
+    <g fill="none" stroke="#7a6a5f" stroke-width="2.67" stroke-linecap="round">
+      <path d="M646.86,187.43l60.37-33.15"/>
+      <path d="M485.13,280.87l37.37,65.09"/>
+      <path d="M484,281.55l171.9-99.25"/>
+      <path d="M655.9,183.73l36.8,62.79"/>
+      <path d="M594.92,303.81l-61.6,35.57"/>
+      <path d="M678.86,256.49l-61.6,35.57"/>
+      <path d="M731.3,199.34l-24.95-44.53,89.47-51.65,72.79,42.03v123.37"/>
+      <path d="M731.41,199.34v68.43h26.29"/>
+      <path d="M772.37,267.77h43.49"/>
+      <path d="M830.36,267.77h38.25"/>
+      <path d="M463.54,400h134v88.74h55.15v-194.81l-189.15,106.07Z"/>
+      <path d="M696.5,313.55h-28.12v25"/>
+      <path d="M668.38,350.05v57.56"/>
+      <path d="M668.38,421.92v19.09"/>
+      <path d="M668.38,457.45v21.21"/>
+      <path d="M668.38,490.51v61.52h30.94"/>
+      <path d="M711.03,552.06h113.49l9.02-9.02v-229.5h-3.93"/>
+      <path d="M710,313.55h48.25"/>
+      <path d="M773.75,313.55h43.75"/>
+      <path d="M428.13,313.8l26.58,46.67"/>
+      <path d="M338.91,366.63l25.59,45.91,90.21-52.08"/>
+      <path d="M496.25,435.3l91.57-.12v23.33"/>
+      <path d="M561.3,467.26h-65.14"/>
+      <path d="M496.25,435.3v66.38h45.37v-11.12l11.5-11.5h8.12"/>
+      <path d="M667.83,375.78h165.46"/>
+      <path d="M667.83,438.89h165.46"/>
+      <path d="M485.13,280.87L52.37,530.98l24.69,42.76h754.19l37.37-37.37v-268.24"/>
+    </g>
+    <g fill="none" stroke="#7a6a5f" stroke-width="2.67" stroke-dasharray="8 8" stroke-linecap="round">
+      <line x1="606.01" y1="295.8" x2="567.49" y2="229.08"/>
+    </g>
+  </g>
+  <g id="rooms" stroke="#693a19" stroke-width="2" stroke-linejoin="round">
+    <polygon id="room-staffordshire" points="731.3,199.34 706.35,154.81 795.82,103.16 868.61,145.19 868.61,267.77 731.41,267.77" fill="#fff"/>
+    <polygon id="room-st-george-a-b" points="485.13,280.87 569.33,232.28 606.6,296.83 522.5,345.96" fill="#fff"/>
+    <polygon id="room-st-george-c-d" points="569.33,232.28 655.9,182.3 692.7,246.52 606.6,296.83" fill="#fff"/>
+    <polygon id="room-essex-north" points="668.38,313.55 833.54,313.55 833.54,375.78 668.38,375.78" fill="#fff"/>
+    <polygon id="room-essex-center" points="668.38,375.78 833.54,375.78 833.54,438.89 668.38,438.89" fill="#fff"/>
+    <polygon id="room-essex-south" points="668.38,438.89 833.54,438.89 833.54,543.04 824.52,552.06 668.38,552.06" fill="#fff"/>
+  </g>
+  <g id="annotations" font-family="Fira Sans, sans-serif" text-anchor="middle">
+    <g id="marker-registration">
+      <polygon points="428.13,313.8 454.71,360.47 364.5,412.54 338.91,366.63" fill="#bb4a72" stroke="#9e3a5f" stroke-width="2" stroke-linejoin="round"/>
+      <g transform="translate(396.6 363.5) rotate(-30)" font-size="11" font-weight="700" fill="#fff" letter-spacing="0.02em"><text y="4">REGISTRATION</text></g>
+    </g>
+    <g letter-spacing="0.04em">
+      <text x="800" y="226" font-size="13" font-weight="700" fill="#693a19">STAFFORDSHIRE</text>
+      <text x="546" y="287" font-size="12" font-weight="700" fill="#693a19">ST. GEORGE</text>
+      <text x="546" y="303" font-size="12" font-weight="700" fill="#693a19">A–B</text>
+      <text x="631" y="238" font-size="12" font-weight="700" fill="#693a19">ST. GEORGE</text>
+      <text x="631" y="254" font-size="12" font-weight="700" fill="#693a19">C–D</text>
+      <text x="751" y="350" font-size="15" font-weight="700" fill="#693a19">ESSEX NORTH</text>
+      <text x="751" y="413" font-size="15" font-weight="700" fill="#693a19">ESSEX CENTER</text>
+      <text x="751" y="501" font-size="15" font-weight="700" fill="#693a19">ESSEX SOUTH</text>
+      <text x="590" y="394" font-size="12" font-weight="500" fill="#7a6a5f">ESSEX FOYER</text>
+    </g>
+    <g id="amenities" font-size="13" font-weight="500" fill="#693a19" text-anchor="start">
+      <use href="#icon-elevator" transform="translate(380 524)"/>
+      <text x="402" y="528.5">Elevators</text>
+      <use href="#icon-restroom" transform="translate(516 524)"/>
+      <text x="538" y="528.5">Restrooms</text>
+    </g>
+  </g>
+  <g id="highlight" fill="none" stroke="#bb4a72" stroke-width="6" stroke-linejoin="round">
+    <polygon id="hl-staffordshire" points="731.3,199.34 706.35,154.81 795.82,103.16 868.61,145.19 868.61,267.77 731.41,267.77"/>
+    <polygon id="hl-st-george-a-b" points="485.13,280.87 569.33,232.28 606.6,296.83 522.5,345.96"/>
+    <polygon id="hl-st-george-c-d" points="569.33,232.28 655.9,182.3 692.7,246.52 606.6,296.83"/>
+    <polygon id="hl-essex-north" points="668.38,313.55 833.54,313.55 833.54,375.78 668.38,375.78"/>
+    <polygon id="hl-essex-center" points="668.38,375.78 833.54,375.78 833.54,438.89 668.38,438.89"/>
+    <polygon id="hl-essex-south" points="668.38,438.89 833.54,438.89 833.54,543.04 824.52,552.06 668.38,552.06"/>
+    <polygon id="hl-registration" points="428.13,313.8 454.71,360.47 364.5,412.54 338.91,366.63"/>
+  </g>
+</svg>
