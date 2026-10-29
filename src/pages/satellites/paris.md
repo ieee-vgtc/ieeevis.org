@@ -71,7 +71,7 @@ We are very grateful for support for the Paris satellite from the following spon
 | :-----------------------------------------------------------: | :---------------------------------------------------------------: | :-------------------------------------------------------------: | :--------------------------------------------------------------------: |
 |     ![cea logo](/year/2026/assets/satellite/cea-web.png)      |    ![cnrs_logo](/year/2026/assets/satellite/CNRS-200-wide.png)    | ![dataia_logo](/year/2026/assets/satellite/DATAIA-200-wide.png) |      ![pepr_logo](/year/2026/assets/satellite/PEPR-200-wide.jpg)       |
 |                              CEA                              |                               CNRS                                |                             DataIA                              |                             PEPR Ensemble                              |
-| ![afihm_logo](/year/2026/assets/satellite/afihm-200-wide.png) | ![Telecom_logo](/year/2026/assets/satellite/Telecom-200-wide.png) |   ![lisn_logo](/year/2026/assets/satellite/LISN-200-wide.png)   | ![univ_g_eiffel_logp](/year/2026/assets/satellite/Eiffel-200-wide.png) |
+| ![afihm_logo](/year/2026/assets/satellite/afihm-200-wide.png) | ![Telecom_logo](/year/2026/assets/satellite/Telecom-200-wide.png) |   ![lisn_logo](/year/2026/assets/satellite/LISN-200-wide.png)   | ![univ_g_eiffel_logp](/year/2026/assets/satellite/Eiffel-200-wideEEEEEEEEEEEE.png) |
 |                             AFIHM                             |                         Telecom ParisTech                         |                              LISN                               |                            Univ. G. Eiffel                             |
 
 ## FAQ
