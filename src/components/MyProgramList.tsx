@@ -379,6 +379,11 @@ export default function MyProgramList({ times }: { times?: TimeIndex }) {
         register (shown above) and any author emails we've collected that are
         linked to your account.
       </p>
+      <p style={hintTextStyle}>
+        <b>Note on missing papers/sessions:</b> Some papers may not be linked
+        due to missing emails. Some workshops and challenges also self organize
+        and their final program may not be available on the conference site.
+      </p>
 
       {loadError ? (
         <p style={errorTextStyle}>
@@ -438,11 +443,6 @@ export default function MyProgramList({ times }: { times?: TimeIndex }) {
           </ul>
         </>
       )}
-      <p style={hintTextStyle}>
-        If you don&apos;t see your paper or session, reach out to us at{" "}
-        <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> to get it
-        linked.
-      </p>
     </section>
   );
 }
