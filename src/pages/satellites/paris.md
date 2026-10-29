@@ -8,8 +8,8 @@ description: Join IEEE VIS 2026 from our Paris satellite
 
 Satellite Paris
 ======
-**November 10-13**
 
+**November 10-13**
 
 ## Place
 
@@ -47,28 +47,30 @@ We are still working on the local program. The current proposal will change as w
 |               | Musaiques: Please don't just stare at the picture      | Musaiques: Panel: Beyond the last mile | Musaiques: What does it mean to live, anyway?               | Musaiques:  My followers need to know about this   |
 
 ## Local Organizers
-* Florent Cabric (Université Paris-Saclay, IUT d'Orsay, LISN, Inria, CNRS)
-* Jean-Daniel Fekete (Inria, Université Paris-Saclay, LISN, CNRS)
-* Petra Isenberg (Inria, Université Paris-Saclay, LISN, CNRS)
+
+- Florent Cabric (Université Paris-Saclay, IUT d'Orsay, LISN, Inria, CNRS)
+- Jean-Daniel Fekete (Inria, Université Paris-Saclay, LISN, CNRS)
+- Petra Isenberg (Inria, Université Paris-Saclay, LISN, CNRS)
 
 ## Organizing Committee Members
-* Nathalie Bressa (Télécom Paris, Institut Polytechnique de Paris)
-* Silvia Cazacu (Télécom Paris, Institut Polytechnique de Paris)
-* Vanessa P. Araya (Inria, Université Paris-Saclay, LISN, CNRS)
-* Anastasia Bezerianos (Université Paris-Saclay, LISN, Inria, CNRS)
+
+- Nathalie Bressa (Télécom Paris, Institut Polytechnique de Paris)
+- Silvia Cazacu (Télécom Paris, Institut Polytechnique de Paris)
+- Vanessa P. Araya (Inria, Université Paris-Saclay, LISN, CNRS)
+- Anastasia Bezerianos (Université Paris-Saclay, LISN, Inria, CNRS)
 
 ## Contact
-* <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#97;&#116;&#101;&#108;&#108;&#105;&#116;&#101;&#95;&#112;&#97;&#114;&#105;&#115;&#64;&#105;&#101;&#101;&#101;&#118;&#105;&#115;&#46;&#111;&#114;&#103;">&#115;&#97;&#116;&#101;&#108;&#108;&#105;&#116;&#101;&#95;&#112;&#97;&#114;&#105;&#115;&#64;&#105;&#101;&#101;&#101;&#118;&#105;&#115;&#46;&#111;&#114;&#103;</a>
+
+- <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#97;&#116;&#101;&#108;&#108;&#105;&#116;&#101;&#95;&#112;&#97;&#114;&#105;&#115;&#64;&#105;&#101;&#101;&#101;&#118;&#105;&#115;&#46;&#111;&#114;&#103;">&#115;&#97;&#116;&#101;&#108;&#108;&#105;&#116;&#101;&#95;&#112;&#97;&#114;&#105;&#115;&#64;&#105;&#101;&#101;&#101;&#118;&#105;&#115;&#46;&#111;&#114;&#103;</a>
 
 ## Sponsors
+
 We are very grateful for support for the Paris satellite from the following sponsors:
 
-
-||| 
-|:---:|:---:|
-![cea logo](/year/2026/assets/satellite/cea-web.png) |![cnrs_logo](/year/2026/assets/satellite/CNRS-200-wide.png) |![dataia_logo](/year/2026/assets/satellite/DATAIA-200-wide.png) |![pepr_logo](/year/2026/assets/satellite/PEPR-200-wide.png)
-| CEA | CNRS | DataIA | PEPR Ensemble |
-
+|                                                      |                                                             |
+| :--------------------------------------------------: | :---------------------------------------------------------: |
+| ![cea logo](/year/2026/assets/satellite/cea-web.png) | ![cnrs_logo](/year/2026/assets/satellite/CNRS-200-wide.png) | ![dataia_logo](/year/2026/assets/satellite/DATAIA-200-wide.png) | ![pepr_logo](/year/2026/assets/satellite/PEPR-200-wide.png) |
+|                         CEA                          |                            CNRS                             | DataIA                                                          | PEPR Ensemble                                               |
 
 ## FAQ
 
@@ -80,4 +82,3 @@ The conference will take place close to Place d'Italie. There are two Ibis hotel
 - ibis Styles Paris Tolbiac Bibliothèque, 11 minutes walk: https://maps.app.goo.gl/pi6HxQot98J5rH2MA
 
 Otherwise, we recommend to look for hotels near "Institut des Systèmes Complexes" https://maps.app.goo.gl/BXhJ7TUpEjCdZYRj9, there are many around.
-

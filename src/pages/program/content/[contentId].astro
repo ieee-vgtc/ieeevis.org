@@ -13,6 +13,7 @@ import { getBskyHandle } from "../../../utils/bskyProfiles";
 import { sessionDiscussionId } from "../../../utils/discussionSlots";
 import { ogDescription } from "../../../utils/ogDescription";
 import { displayRoomName } from "../../../utils/week-of-utils";
+import { venueRoomHref } from "../../../utils/venueLink";
 import { fetchAllSessions } from "../../../utils/paperData";
 import type { Paper } from "../../../types/paper";
 import type { ProgramSession, ProgramTimeSlot } from "../../../types/program";
@@ -128,6 +129,10 @@ const presentationDetails = presentation && {
   talkStart: presentation.slot.time_start || presentation.session.time_start,
   talkEnd: presentation.slot.time_end || presentation.session.time_end,
   room: presentation.session.room_name || "TBA",
+  venueHref: venueRoomHref(
+    presentation.session.track,
+    presentation.session.time_start,
+  ),
   // e.g. "Satellite (Paris)" or "Pre-recorded"; "Premise" is in person.
   mode:
     presentation.slot.presentation_mode &&
@@ -400,7 +405,13 @@ const eventNoun = eventType.toLowerCase();
             </dd>
             <dt>Room</dt>
             <dd>
-              {displayRoomName(presentationDetails.room)}
+              {presentationDetails.venueHref ? (
+                <a href={presentationDetails.venueHref}>
+                  {displayRoomName(presentationDetails.room)}
+                </a>
+              ) : (
+                displayRoomName(presentationDetails.room)
+              )}
               {presentationDetails.mode && (
                 <span class="presentation-details__note">
                   {" "}
