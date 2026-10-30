@@ -52,6 +52,8 @@ Arvind Satyanarayan, Dominik Moritz, Kanit Wongsuphasawat, Jeffrey Heer
 <br />
 [10.1109/TVCG.2016.2599030](https://doi.org/10.1109/TVCG.2016.2599030)
 
+This paper has made an enduring contribution to information visualization by showing how interaction can be expressed declaratively in a grammar of graphics. Building on prior grammars for static graphics, Vega-Lite introduced a concise, high-level language in which users compose layered and multi-view displays and specify interactive behaviors through selections, an abstraction that unifies common techniques such as panning, zooming, brushing, and linking. By compiling these specifications into lower-level visualizations, the work made rich interactive graphics possible with just a few lines of code. Its open-source implementation has been widely adopted across research and practice, powering tools such as Altair and serving as a foundation for subsequent work on visualization recommendation, authoring, and natural-language and AI-driven chart generation. By turning interaction into a first-class, composable element of visualization specification, Vega-Lite continues to shape how visualizations are designed, built, and studied.
+
 <hr />
 
 ## VAST
