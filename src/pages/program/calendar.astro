@@ -608,7 +608,9 @@ const frontmatter = {
                     {dayGroup.weekdayLabel}
                   </button>
                 </h2>
-                <p>{dayGroup.dateLabel}</p>
+                <p>
+                  <time datetime={dayGroup.dayKey}>{dayGroup.dateLabel}</time>
+                </p>
               </div>
             ))
           }
@@ -755,7 +757,9 @@ const frontmatter = {
                 >
                   <h2>{displayRoomName(roomGroup.roomName)}</h2>
                   <p>
-                    {dayGroup.weekdayLabel}, {dayGroup.dateLabel}
+                    <time datetime={dayGroup.dayKey}>
+                      {dayGroup.weekdayLabel}, {dayGroup.dateLabel}
+                    </time>
                   </p>
                 </div>
               ))}
@@ -881,7 +885,9 @@ const frontmatter = {
           >
             <header class="calendar-day-header">
               <h2>{dayGroup.weekdayLabel}</h2>
-              <p>{dayGroup.dateLabel}</p>
+              <p>
+                <time datetime={dayGroup.dayKey}>{dayGroup.dateLabel}</time>
+              </p>
             </header>
 
             <div class="calendar-day-content">
@@ -940,7 +946,11 @@ const frontmatter = {
   <script>
     import {
       getSavedTimezoneMode,
+      isTimezoneMode,
+      rangePartsForMode,
+      renderTimeParts,
       saveTimezoneMode,
+      type TimezoneMode,
     } from "../../utils/timezoneMode";
     import {
       createUrlStateHistory,
@@ -1070,30 +1080,6 @@ const frontmatter = {
         );
       };
 
-      const isSameDayFormatter = (timeZone: string) =>
-        new Intl.DateTimeFormat("en-CA", {
-          timeZone,
-          year: "numeric",
-          month: "2-digit",
-          day: "2-digit",
-        });
-
-      const timeFormatter = (timeZone: string) =>
-        new Intl.DateTimeFormat("en-US", {
-          timeZone,
-          hour: "2-digit",
-          minute: "2-digit",
-          hour12: false,
-        });
-
-      const dateFormatter = (timeZone: string) =>
-        new Intl.DateTimeFormat("en-US", {
-          timeZone,
-          weekday: "short",
-          month: "short",
-          day: "numeric",
-        });
-
       const hourMinuteFormatter = (timeZone: string) =>
         new Intl.DateTimeFormat("en-US", {
           timeZone,
@@ -1145,40 +1131,13 @@ const frontmatter = {
         }
       };
 
-      const compactRange = (
-        startDate: Date,
-        endDate: Date,
-        timeZone: string,
-      ) => {
-        const sameDay =
-          isSameDayFormatter(timeZone).format(startDate) ===
-          isSameDayFormatter(timeZone).format(endDate);
-        if (sameDay) {
-          return `${timeFormatter(timeZone).format(startDate)} - ${timeFormatter(timeZone).format(endDate)}`;
-        }
-        return `${dateFormatter(timeZone).format(startDate)} ${timeFormatter(timeZone).format(startDate)} - ${dateFormatter(timeZone).format(endDate)} ${timeFormatter(timeZone).format(endDate)}`;
+      const getMode = (): TimezoneMode => {
+        const value = getChoiceValue(timezoneControl, "conference");
+        return isTimezoneMode(value) ? value : "conference";
       };
 
-      const formatRangeForMode = (startISO: string, endISO: string) => {
-        const mode = getMode();
-        const startDate = new Date(startISO);
-        const endDate = new Date(endISO);
-        const showConference = mode === "conference" || mode === "both";
-        const showLocal = mode === "local" || mode === "both";
-        const parts: string[] = [];
-
-        if (showConference) {
-          parts.push(compactRange(startDate, endDate, conferenceTimeZone));
-        }
-        if (showLocal) {
-          const localRange = compactRange(startDate, endDate, localTimeZone);
-          parts.push(showConference ? `Local: ${localRange}` : localRange);
-        }
-
-        return parts.join(" | ");
-      };
-
-      const getMode = () => getChoiceValue(timezoneControl, "conference");
+      const rangeParts = (startISO: string, endISO: string) =>
+        rangePartsForMode(startISO, endISO, getMode(), conferenceTimeZone);
 
       const getSelectedDay = () => getChoiceValue(dayFilterControl, "all");
 
@@ -1190,7 +1149,7 @@ const frontmatter = {
           const endISO = node.getAttribute("data-end");
           if (!startISO || !endISO) continue;
 
-          node.textContent = formatRangeForMode(startISO, endISO);
+          renderTimeParts(node, rangeParts(startISO, endISO));
         }
 
         if (tzDescription) {
@@ -1378,13 +1337,15 @@ const frontmatter = {
         if (!overlayTabs || !overlayTime || !overlayMeta) continue;
 
         let hideTimer: ReturnType<typeof setTimeout> | null = null;
-        let currentClusterKey: string | null = null;
+        let currentGroupId: string | null = null;
+        let currentGroup: HTMLElement[] = [];
         let activeOverlaySessionKey: string | null = null;
 
         const scheduleHide = () => {
           hideTimer = setTimeout(() => {
             overlay.hidden = true;
-            currentClusterKey = null;
+            currentGroupId = null;
+            currentGroup = [];
             // restore all bars in this column
             for (const b of column.querySelectorAll<HTMLElement>(
               "[data-session-card][data-dim]",
@@ -1405,11 +1366,9 @@ const frontmatter = {
           );
           if (!bar) return;
           activeOverlaySessionKey = sessionKey;
-          overlayTime.textContent = (() => {
-            const s = bar.getAttribute("data-start") || "";
-            const e = bar.getAttribute("data-end") || "";
-            return s && e ? formatRangeForMode(s, e) : "";
-          })();
+          const s = bar.getAttribute("data-start") || "";
+          const e = bar.getAttribute("data-end") || "";
+          renderTimeParts(overlayTime, s && e ? rangeParts(s, e) : []);
           const type = (
             bar.getAttribute("data-session-type") || ""
           ).toUpperCase();
@@ -1440,14 +1399,9 @@ const frontmatter = {
             bar.style.getPropertyValue("--session-accent") || "#6b7280";
           overlay.style.setProperty("--overlay-accent", accent);
 
-          // dim sibling bars, highlight active
-          const ck = bar.getAttribute("data-cluster-key");
-          if (ck) {
-            for (const sibling of column.querySelectorAll<HTMLElement>(
-              `[data-session-card][data-cluster-key="${ck}"]`,
-            )) {
-              sibling.toggleAttribute("data-dim", sibling !== bar);
-            }
+          // dim the bars running at the same time, highlight active
+          for (const sibling of currentGroup) {
+            sibling.toggleAttribute("data-dim", sibling !== bar);
           }
 
           // mark active tab
@@ -1463,7 +1417,31 @@ const frontmatter = {
           }
         };
 
-        const showCluster = (clusterKey: string, activeSessionKey: string) => {
+        const startOf = (b: HTMLElement) =>
+          Number(b.style.getPropertyValue("--session-start-minute"));
+        const endOf = (b: HTMLElement) =>
+          startOf(b) + Number(b.style.getPropertyValue("--session-duration"));
+
+        // The minute of the conference day under the pointer. Bars are
+        // positioned linearly in time, so interpolate within the hovered bar.
+        const minuteAt = (bar: HTMLElement, clientY: number) => {
+          const y = clientY - track.getBoundingClientRect().top;
+          const fraction = Math.min(
+            1,
+            Math.max(0, (y - bar.offsetTop) / (bar.offsetHeight || 1)),
+          );
+          return startOf(bar) + fraction * (endOf(bar) - startOf(bar));
+        };
+
+        // `anchorMinute` picks out which of the cluster's sessions are
+        // concurrent. A cluster is chained together by overlaps, so a session
+        // running all day (VISAP's exhibition) pulls the whole day into one
+        // cluster; only the sessions running at the pointer belong in the tabs.
+        const showCluster = (
+          clusterKey: string,
+          activeSessionKey: string,
+          anchorMinute: number | null,
+        ) => {
           cancelHide();
 
           const clusterBars = Array.from(
@@ -1477,33 +1455,47 @@ const frontmatter = {
               (a, b) =>
                 Number(a.style.getPropertyValue("--session-lane-index")) -
                   Number(b.style.getPropertyValue("--session-lane-index")) ||
-                Number(a.style.getPropertyValue("--session-start-minute")) -
-                  Number(b.style.getPropertyValue("--session-start-minute")),
+                startOf(a) - startOf(b),
             );
+          const activeBar = clusterBars.find(
+            (b) => b.getAttribute("data-session-key") === activeSessionKey,
+          );
+          if (!activeBar) return;
+          const anchor =
+            anchorMinute !== null
+              ? Math.min(endOf(activeBar), Math.max(startOf(activeBar), anchorMinute))
+              : startOf(activeBar);
+          const groupBars = clusterBars.filter(
+            (b) =>
+              b === activeBar || (startOf(b) <= anchor && anchor < endOf(b)),
+          );
 
-          if (clusterBars.length === 0) return;
           // Single visible bar after filtering may still need overlay details when it belongs
           // to an originally multi-lane cluster (no inline label in that case).
-          if (
-            clusterBars.length === 1 &&
-            clusterBars[0].hasAttribute("data-solo")
-          )
+          if (groupBars.length === 1 && groupBars[0].hasAttribute("data-solo"))
             return;
 
-          // Position overlay at bars' midpoint — top half of bars stays visible, bottom half covered
-          const topPx = Math.min(...clusterBars.map((b) => b.offsetTop));
-          const bottomPx = Math.max(
-            ...clusterBars.map((b) => b.offsetTop + b.offsetHeight),
+          // Position overlay at the midpoint of the time the bars share — top
+          // half of bars stays visible, bottom half covered
+          const topPx = Math.max(...groupBars.map((b) => b.offsetTop));
+          const bottomPx = Math.min(
+            ...groupBars.map((b) => b.offsetTop + b.offsetHeight),
           );
           const midPx = topPx + (bottomPx - topPx) * 0.45;
           overlay.style.top = `${Math.max(0, midPx - 10)}px`;
           overlay.hidden = false;
 
-          if (currentClusterKey !== clusterKey) {
-            currentClusterKey = clusterKey;
+          const groupId = groupBars
+            .map((b) => b.getAttribute("data-session-key"))
+            .join("|");
+          if (currentGroupId !== groupId) {
+            // Bars dimmed for the previous group are no longer in play.
+            for (const b of currentGroup) b.removeAttribute("data-dim");
+            currentGroupId = groupId;
+            currentGroup = groupBars;
             // rebuild tabs
             overlayTabs.innerHTML = "";
-            for (const bar of clusterBars) {
+            for (const bar of groupBars) {
               const key = bar.getAttribute("data-session-key") || "";
               const accent =
                 bar.style.getPropertyValue("--session-accent") || "#6b7280";
@@ -1548,16 +1540,16 @@ const frontmatter = {
           column.querySelectorAll<HTMLElement>("[data-session-card]"),
         );
         for (const bar of allBars) {
-          bar.addEventListener("mouseenter", () => {
+          bar.addEventListener("mouseenter", (event) => {
             const ck = bar.getAttribute("data-cluster-key");
             const sk = bar.getAttribute("data-session-key");
-            if (ck && sk) showCluster(ck, sk);
+            if (ck && sk) showCluster(ck, sk, minuteAt(bar, event.clientY));
           });
           bar.addEventListener("mouseleave", scheduleHide);
           bar.addEventListener("focus", () => {
             const ck = bar.getAttribute("data-cluster-key");
             const sk = bar.getAttribute("data-session-key");
-            if (ck && sk) showCluster(ck, sk);
+            if (ck && sk) showCluster(ck, sk, null);
           });
         }
       }
@@ -1600,9 +1592,6 @@ const frontmatter = {
       }
 
       const savedMode = getSavedTimezoneMode();
-
-      const isTimezoneMode = (value: string | null) =>
-        value === "conference" || value === "local" || value === "both";
 
       const restoreFromUrl = (
         params: URLSearchParams,

@@ -10,88 +10,57 @@ contact: papers@ieeevis.org
 To improve the future, we must reflect on our past.
 The IEEE VIS Test of Time Award is an accolade given to recognize articles published at previous conferences whose contents are still vibrant and useful today and have had a major impact and influence within and beyond the visualization community.
 
-Details TBD.
-
-<!-- This year's Test-of-Time awards will be announced on the first day of the conference.
-
-**When: Tuesday (Nov 4), 3:45pm - 5:00pm (CET), Hall E**
+This year's Test-of-Time awards will be announced during the [VIS Awards session](https://ieeevis.org/year/2026/program/session/conf-conference12_1/).
 
 <hr />
 
 ## Vis & SciVis
 
-Committee: Hamish Carr, Eduard Gröller _(Chair)_, Xiaoru Yuan, Gerik Scheuermann _(Chair)_, Deborah Silver
+Committee: Ingrid Hotz _(Chair)_, Daniel Keim, Klaus Mueller, Claudio Silva, Xiaoru Yuan _(Chair)_
 
-**2000 (25-Years Vis ToT Award)**:<br />
-**A flow-guided streamline seeding strategy**<br />
-Vivek Verma, David L. Kao, Alex Pang<br />
-[10.1109/VISUAL.2000.885690](https://doi.org/10.1109/VISUAL.2000.885690)
+**2001 (25-Years Vis ToT Award)**:<br />
+**Interactive volume rendering using multi-dimensional transfer functions and direct manipulation widgets**<br />
+Joe Kniss; Gordon Kindlmann; Charles Hansen<br />
+[10.1109/VISUAL.2001.964519](https://doi.org/10.1109/VISUAL.2001.964519)
 
-The paper introduced the most commonly used strategy for placing streamlines in flow fields.
-The problem of selecting streamlines to capture flow behaviour is as old as the concept of streamlines itself - seed points are always needed to calculate and display them.
-This paper incorporates topological structures by explicitly seeding around critical points in a predefined pattern.
-This approach strikes a balance between topological structures, spatial cover age and visual aesthetics, using a non-iterative seeding method based on a Poisson disk distribution.
-This technique is relatively simple and efficient, which is one of the reasons why it has received more than 250 citations.
-Even after 25 years, Verma et al.'s topology-guided strategy is still in use.
+This paper is distinguished for fundamentally changing how transfer functions are understood and used in volume visualization. Traditionally employed to classify materials such as bone, vessels, and soft tissue, transfer functions were extended by this work to multiple data attributes, enabling the identification and emphasis of structures in higher-dimensional data. Equally important, the paper introduced an interactive exploration framework in which users could intuitively design transfer functions through direct manipulation of multidimensional histograms. Together, these advances transformed transfer functions from predefined classification tools into powerful instruments for visual exploration and analysis. The approach laid important foundations for multidimensional and multifield visualization, inspiring numerous subsequent methods. By redefining both the conceptual role of transfer functions and how users interact with them, this paper has had a lasting impact on volume visualization.
 
-**2013 (12-Years SciVis ToT Award)**:<br />
-**Contour Boxplots: A Method for Characterizing Uncertainty in Feature Sets from Simulation Ensembles**<br />
-Ross T. Whitaker, Mahsa Mirzargar, Robert M. Kirby<br />
-[10.1109/TVCG.2013.143](https://doi.org/10.1109/TVCG.2013.143)
+**2015 (11-Years SciVis ToT Award)**:<br />
+**Gaze Stripes: Image-Based Visualization of Eye Tracking Data**<br />
+Kuno Kurzhalz, Marcel Hlawatsch, Florian Heimerl, Michael Burch, Thomas Ertl, Daniel Weiskopf
+<br />
+[10.1109/TVCG.2015.2468091](https://doi.org/10.1109/TVCG.2015.2468091)
 
-The paper introduced a groundbreaking statistical and visualization framework for analyzing ensembles of contours - generalizing functional boxplots to non-scalar, shape-based data.
-By extending the concept of data depth to sets, the authors enabled robust statistical aggregation and uncertainty quantification for complex features beyond simple scalar fields.
-This work bridged uncertainty visualization and statistical shape analysis, influencing diverse domains from fluid dynamics to weather forecasting.
-Its impact endures, inspiring numerous follow-up techniques, including Curve Boxplots, and shaping how the community approaches statistical analysis and visualization of geometric and topological features in simulation science.
-The paper has since been widely cited, underscoring its lasting relevance and influence.
+This paper has made an enduring contribution to eye-tracking analytics and our understanding of human visual perception and behavior. The paper introduced an innovative approach to visualizing gaze behavior by arranging image patches from the original stimulus along a timeline. Preserving both visual and temporal context, this representation enables intuitive comparisons across participants and reveals viewing patterns without requiring predefined areas of interest, particularly for dynamic stimuli. By advancing the analytical capabilities of eye-tracking research, Gaze Stripes have supported applications in visualization evaluation, usability studies, and human-computer interaction. Beyond the specific technique, the work demonstrates how visual analytics can transform complex behavioral data into interpretable evidence about human perception and cognition. Its lasting influence exemplifies the power of elegant visual representations to advance not only visualization itself, but also the methods through which we study human interaction with visual information.
 
-**2014 (11-Years SciVis ToT Award)**:<br />
-**Fixed-Rate Compressed Floating-Point Arrays**<br />
-Peter Lindstrom<br />
-[10.1109/TVCG.2014.2346458](https://doi.org/10.1109/TVCG.2014.2346458)
+**2016 (10-Years SciVis ToT Award)**:<br />
+**OSPRay - A CPU Ray Tracing Framework for Scientific Visualization**<br />
+Ingo Wald, Gregory P. Johnson, Jefferson Amstutz, Carson Brownlee, Aaron Knoll, Jim Jeffers, Johannes Günther, Paul A. Navrátil<br />
+[10.1109/TVCG.2016.2599041](https://doi.org/10.1109/TVCG.2016.2599041)
 
-Scientific visualisation often deals with large amounts of floating-point data, which can generate significant quantities of data when describing graphics output.
-This article introduces a fast, computationally efficient, nearly lossless compression scheme for blocks of 4d values in d dimensions.
-The main advantage over other methods is the ability to define a fixed number of bits for each compressed block.
-This enables fast random access to the compressed data and paves the way for the rapid visualisation of large, compressed datasets.
-This paper has influenced several other compression schemes and is often referenced as an exemplary method for dealing with large scientific or geometric datasets.
+The paper has made an enduring contribution to scientific visualization by establishing high-quality, scalable rendering as a practical foundation for scientific exploration. Addressing the challenge of interactively visualizing increasingly large and complex data, OSPRay combined efficient CPU ray tracing with an accessible, extensible framework, bringing advanced rendering capabilities to systems without dedicated rendering hardware. Its lasting impact is evident in its integration into major visualization tools, including ParaView, VisIt, VTK, and VMD, making sophisticated rendering accessible to scientists across disciplines. Its open-source implementation has enabled broad adoption, while supporting subsequent research in distributed rendering and in situ visualization. Through sustained development and widespread practical use, OSPRay has evolved from a research contribution into essential infrastructure for scientific visualization. This remarkable transition from innovative research to widely deployed technology exemplifies the lasting impact celebrated by the Test-of-Time Award.
 
 <hr />
 
 ## InfoVis
 
-Committee: Natalia Andrienko, Enrico Bertini, Min Chen _(Chair)_, Tim Dwyer, Daniel Weiskopf
+Committee: Enrico Bertini _(Chair)_, Helwig Hauser, Shixia Liu, Silvia Miksch, Huamin Qu
 
-**2005 (20-Years InfoVis ToT Award)**:<br />
-**Graph-theoretic scagnostics**<br />
-Leland Wilkinson, Anushka Anand, Robert L. Grossman<br />
-[10.1109/INFVIS.2005.1532142](https://doi.org/10.1109/INFVIS.2005.1532142)
-
-In this highly influential work, the authors established the mathematical and algorithmic foundations of the now well-known scagnostics techniques for visualizing high-dimensional multivariate data.
-While they duly acknowledged John and Paul Tukey for the original idea, they not only formalized the concept of scagnostics but also introduced a suite of graph-theoretic measures to enable feature-driven visualization.
-The impact of this work extends well beyond scatter plots, setting a gold standard for visualizing complex datasets through the analysis of visual features in their graphical representations.
-
-**2015 (10-Years InfoVis ToT Award)**:<br />
-**Voyager: Exploratory Analysis via Faceted Browsing of Visualization Recommendations**<br />
-Kanit Wongsuphasawat, Dominik Moritz, Anushka Anand, Jock D. Mackinlay, Bill Howe, Jeffrey Heer<br />
-[10.1109/TVCG.2015.2467191](https://doi.org/10.1109/TVCG.2015.2467191)
-
-This work represents a major landmark in the development of visualization technology, transforming from human-led interactive visualization to a mixed-initiative approach, with which visualization plots are automatically generated as machine-led recommendations.
-In the paper, the authors presented not only the novel concept, but also the _Voyager_ system for demonstrating the concept, including its architecture, algorithmic components, and visual design, together with a study for comparing it with another system.
-With the advancement of AI, the mixed-initiative approach is even more relevant today.
+**2016 (10-Years InfoVis ToT Award)**:<br />
+**Vega-Lite: A Grammar of Interactive Graphics**<br />
+Arvind Satyanarayan, Dominik Moritz, Kanit Wongsuphasawat, Jeffrey Heer
+<br />
+[10.1109/TVCG.2016.2599030](https://doi.org/10.1109/TVCG.2016.2599030)
 
 <hr />
 
 ## VAST
 
-Committee: Jeffrey Heer, Helwig Hauser, Ross Maciejewski, Shixia Liu _(Chair)_
+Committee: Remco Chang, Helwig Hauser, Klaus Mueller, Tobias Schreck _(Chair)_
 
-**2015 (10-Years VAST ToT Award)**:<br />
-**Reducing Snapshots to Points: A Visual Analytics Approach to Dynamic Network Exploration**<br />
-Stef van den Elzen, Danny Holten, Jorik Blaas, Jarke J. van Wijk<br />
-[10.1109/TVCG.2015.2468078](https://doi.org/10.1109/TVCG.2015.2468078)
+**2016 (10-Years VAST ToT Award)**:<br />
+**Characterizing Guidance in Visual Analytics**<br />
+Davide Ceneda, Theresia Gschwandtner, Thorsten May, Silvia Miksch, Hans-Jörg Schulz, Marc Streit, Christian Tominski<br />
+[10.1109/TVCG.2016.2598468](https://doi.org/10.1109/TVCG.2016.2598468)
 
-This paper establishes a new paradigm for analyzing dynamic networks by reducing network snapshots to points in a two-dimensional space for interactive exploration.
-Its innovative dual-view design enables users to identify stable states, recurring patterns, and transitional behaviors, advancing temporal network analysis beyond animation and small multiples.
-Beyond its technical novelty, the paper has proven broadly influential, inspiring follow-up research in temporal graph analysis, embedding-based visualization, and state-space abstraction.
-It stands as a compelling example of technique-driven innovation that has shaped the visualization community's perspective on dynamic network analysis. -->
+The paper introduces a Visual Analytics process model that establishes user guidance as a central component of interactive visual analysis. It characterizes guidance in terms of users' knowledge gaps, inputs and outputs, and varying degrees of guidance, ranging from orienting users towards patterns to suggesting exploration options and prescribing analysis steps. This seminal contribution provides a concise yet expressive conceptual framework that has inspired substantial follow-up research, both theoretical and applied. Its discussion of examples and open challenges continues to inform the design of guidance mechanisms in Visual Analytics. With recent advances in AI, particularly the emergence of LLM-based agents for supporting analytical workflows, the paper's insights are more relevant than ever. Its framework remains a valuable foundation for emerging approaches to human-centered Visual Analytics.

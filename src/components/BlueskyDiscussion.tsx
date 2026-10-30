@@ -103,6 +103,8 @@ const MAX_DEPTH = 5;
 // never shows up (a moderation label can hide it).
 const PENDING_POLL_HOLD_MS = 60_000;
 const COMMENT_LIMIT = 250; // graphemes; mirrors CONFERENCE.guestTextLimit
+// The announce bot posts each thread this long before the session starts.
+const THREAD_LEAD_MS = 45 * 60_000; // mirrors CONFERENCE.leadMinutes
 
 interface BlueskyDiscussionProps {
   /** `slots.slot_id` (e.g. "v-full-1234") or the paper UUID — the API takes both. */
@@ -122,6 +124,8 @@ interface BlueskyDiscussionProps {
   showPost?: boolean;
   /** Bluesky handles of the paper's authors, whose posts get an "Author" badge. */
   authorHandles?: string[];
+  /** ISO start of the session, to tell readers when the thread will be posted. */
+  sessionStart?: string;
 }
 
 interface LoadedThread {
@@ -398,6 +402,7 @@ export default function BlueskyDiscussion({
   maxDepth = MAX_DEPTH,
   defaultSort = "top",
   authorHandles = [],
+  sessionStart,
 }: BlueskyDiscussionProps) {
   // Where Bluesky sends the reader back to after the login: this discussion.
   const sectionId = `bsky-discussion-${paperId || "direct"}`;
@@ -1063,14 +1068,25 @@ export default function BlueskyDiscussion({
   // Nothing is mapped for this paper (no session, withdrawn, or not in the
   // program).
   if (thread?.state === "unavailable") {
+    const postTime = sessionStart
+      ? Date.parse(sessionStart) - THREAD_LEAD_MS
+      : Number.NaN;
+    const postsAtIso =
+      postTime > Date.now() ? new Date(postTime).toISOString() : "";
     return (
       <section ref={sectionRef} style={sectionStyle}>
         <div style={headingRowStyle}>
           <DiscussionHeading />
         </div>
         <p style={{ color: "var(--color-gray-600)", margin: 0 }}>
-          There is no discussion for this paper yet. It will be added closer to
-          the session time.
+          {postsAtIso ? (
+            <>
+              There is no discussion yet. It will be posted on{" "}
+              <time dateTime={postsAtIso}>{formatOpensAt(postsAtIso)}</time>.
+            </>
+          ) : (
+            "There is no discussion yet. It will be added closer to the session time."
+          )}
         </p>
       </section>
     );
@@ -1095,9 +1111,17 @@ export default function BlueskyDiscussion({
           <DiscussionHeading />
         </div>
         <p style={{ color: "var(--color-gray-600)", margin: 0 }}>
-          {opensAt
-            ? `The discussion opens shortly before the session, on ${opensAt}.`
-            : "The discussion opens shortly before the session."}
+          {opensAt ? (
+            <>
+              The discussion opens shortly before the session, on{" "}
+              <time dateTime={new Date(thread.opensAt!).toISOString()}>
+                {opensAt}
+              </time>
+              .
+            </>
+          ) : (
+            "The discussion opens shortly before the session."
+          )}
         </p>
       </section>
     );

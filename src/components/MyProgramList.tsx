@@ -11,8 +11,8 @@
  * afterwards on the dashboard, and a rejected link drops off by itself.
  */
 
-import { useCallback, useEffect, useState } from "react";
-import type { CSSProperties } from "react";
+import { Fragment, useCallback, useEffect, useState } from "react";
+import type { CSSProperties, ReactNode } from "react";
 import { getCurrentUser } from "../lib/auth0Client";
 import { BskyApiError, bskyApiFetch } from "../lib/bskyApi";
 import { siteBase } from "../utils/withBaseURL";
@@ -67,7 +67,7 @@ const zoneFormat = new Intl.DateTimeFormat("en-US", {
 /** "Mon, Nov 2 · 10:30 AM – 11:45 AM EST · Room 2", or null with no time. */
 function whenAndWhere(
   when: { start: string; end: string; room: string } | undefined,
-): string | null {
+): ReactNode {
   const start = when && new Date(when.start);
   if (!when || !start || Number.isNaN(start.getTime())) {
     return null;
@@ -76,16 +76,21 @@ function whenAndWhere(
   const zone = zoneFormat
     .formatToParts(start)
     .find((part) => part.type === "timeZoneName")?.value;
-  const time = Number.isNaN(end.getTime())
-    ? timeFormat.format(start)
-    : `${timeFormat.format(start)} – ${timeFormat.format(end)}`;
-  return [
-    dateFormat.format(start),
-    `${time}${zone ? ` ${zone}` : ""}`,
-    when.room,
-  ]
-    .filter(Boolean)
-    .join(" · ");
+  return (
+    <>
+      <time dateTime={start.toISOString()}>
+        {`${dateFormat.format(start)} · ${timeFormat.format(start)}`}
+      </time>
+      {!Number.isNaN(end.getTime()) && (
+        <>
+          {" – "}
+          <time dateTime={end.toISOString()}>{timeFormat.format(end)}</time>
+        </>
+      )}
+      {zone && ` ${zone}`}
+      {when.room && ` · ${when.room}`}
+    </>
+  );
 }
 
 /**
@@ -163,7 +168,7 @@ function WhenAndWhere({
   roles,
   session,
 }: {
-  text: string | null;
+  text: ReactNode;
   roles?: string[];
   session?: { path: string; title: string };
 }) {
@@ -174,7 +179,7 @@ function WhenAndWhere({
         {session.title}
       </a>
     ),
-    text,
+    text && <Fragment key="when">{text}</Fragment>,
   ].filter(Boolean);
   if (parts.length === 0) {
     return null;
@@ -374,6 +379,11 @@ export default function MyProgramList({ times }: { times?: TimeIndex }) {
         register (shown above) and any author emails we've collected that are
         linked to your account.
       </p>
+      <p style={hintTextStyle}>
+        <b>Note on missing papers/sessions:</b> Some papers may not be linked
+        due to missing emails. Some workshops and challenges also self organize
+        and their final program may not be available on the conference site.
+      </p>
 
       {loadError ? (
         <p style={errorTextStyle}>
@@ -433,11 +443,6 @@ export default function MyProgramList({ times }: { times?: TimeIndex }) {
           </ul>
         </>
       )}
-      <p style={hintTextStyle}>
-        If you don&apos;t see your paper or session, reach out to us at{" "}
-        <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> to get it
-        linked.
-      </p>
     </section>
   );
 }

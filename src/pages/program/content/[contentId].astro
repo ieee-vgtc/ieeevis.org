@@ -10,12 +10,14 @@ import { fetchAllPapers, fetchAllPosters } from "../../../utils/paperData";
 import { features } from "../../../config/pages-allow-list";
 import { withBaseURL } from "../../../utils/withBaseURL";
 import { getBskyHandle } from "../../../utils/bskyProfiles";
+import { sessionDiscussionId } from "../../../utils/discussionSlots";
 import { ogDescription } from "../../../utils/ogDescription";
 import { displayRoomName } from "../../../utils/week-of-utils";
 import { fetchAllSessions } from "../../../utils/paperData";
 import type { Paper } from "../../../types/paper";
 import type { ProgramSession, ProgramTimeSlot } from "../../../types/program";
 import TimezoneToggle from "../../../components/TimezoneToggle.astro";
+import TimeRange from "../../../components/TimeRange.astro";
 
 export async function getStaticPaths() {
   // Posters share this page; their ids do not collide with paper ids.
@@ -122,39 +124,9 @@ const sessionHref =
   );
 
 const CONFERENCE_TIME_ZONE = "US/Eastern";
-const presentationDateFormatter = new Intl.DateTimeFormat("en-US", {
-  timeZone: CONFERENCE_TIME_ZONE,
-  weekday: "long",
-  month: "short",
-  day: "numeric",
-});
-const presentationTimeFormatter = new Intl.DateTimeFormat("en-US", {
-  timeZone: CONFERENCE_TIME_ZONE,
-  hour: "2-digit",
-  minute: "2-digit",
-  hour12: false,
-});
-const formatTimeRange = (startISO: string, endISO: string) =>
-  `${presentationTimeFormatter.format(new Date(startISO))} – ${presentationTimeFormatter.format(new Date(endISO))}`;
-
-const talkStartISO =
-  presentation &&
-  (presentation.slot.time_start || presentation.session.time_start);
-const talkEndISO =
-  presentation && (presentation.slot.time_end || presentation.session.time_end);
-
 const presentationDetails = presentation && {
-  date: presentationDateFormatter.format(
-    new Date(presentation.slot.time_start || presentation.session.time_start),
-  ),
-  talkTime: formatTimeRange(
-    presentation.slot.time_start || presentation.session.time_start,
-    presentation.slot.time_end || presentation.session.time_end,
-  ),
-  sessionTime: formatTimeRange(
-    presentation.session.time_start,
-    presentation.session.time_end,
-  ),
+  talkStart: presentation.slot.time_start || presentation.session.time_start,
+  talkEnd: presentation.slot.time_end || presentation.session.time_end,
   room: presentation.session.room_name || "TBA",
   // e.g. "Satellite (Paris)" or "Pre-recorded"; "Premise" is in person.
   mode:
@@ -247,6 +219,20 @@ const frontmatter = {
 };
 
 const DISCUSSION_SECTION_ID = "discussion";
+// The announce bot posts a thread for each paper slot. A paper without a slot of
+// its own, such as a workshop or challenge paper, is discussed in its event's
+// session thread, which the page links to instead of embedding.
+const eventSession = presentation ? undefined : paperEvent?.sessions[0];
+const eventThreadId =
+  eventSession &&
+  sessionDiscussionId(
+    eventType,
+    `${eventSession.event_prefix}-${eventSession.session_id}`,
+  );
+const eventDiscussionUrl =
+  eventThreadId &&
+  withBaseURL(`/program/session/${eventThreadId}#${DISCUSSION_SECTION_ID}`);
+const eventNoun = eventType.toLowerCase();
 ---
 
 <PageLayout frontmatter={frontmatter}>
@@ -364,12 +350,16 @@ const DISCUSSION_SECTION_ID = "discussion";
             </div>
           )
         }
-        <a
-          class="button button-inverse paper-jump-button"
-          href={`#${DISCUSSION_SECTION_ID}`}
-        >
-          Jump to Discussion <span aria-hidden="true">↓</span>
-        </a>
+        {
+          (presentation || eventDiscussionUrl) && (
+            <a
+              class="button button-inverse paper-jump-button"
+              href={`#${DISCUSSION_SECTION_ID}`}
+            >
+              Jump to Discussion <span aria-hidden="true">↓</span>
+            </a>
+          )
+        }
       </div>
     </header>
 
@@ -385,29 +375,27 @@ const DISCUSSION_SECTION_ID = "discussion";
             </dd>
             <dt>Time</dt>
             <dd>
-              <span
-                data-tz-start={talkStartISO}
-                data-tz-end={talkEndISO}
-                data-tz-conference={CONFERENCE_TIME_ZONE}
-                data-tz-date
-                data-tz-suffix
-              >
-                {`${presentationDetails.date}, ${presentationDetails.talkTime} (${CONFERENCE_TIME_ZONE})`}
-              </span>
-              {presentationDetails.talkTime !==
-                presentationDetails.sessionTime && (
+              <TimeRange
+                start={presentationDetails.talkStart}
+                end={presentationDetails.talkEnd}
+                timeZone={CONFERENCE_TIME_ZONE}
+                withDate
+                suffix
+              />
+              {(presentationDetails.talkStart !==
+                presentation.session.time_start ||
+                presentationDetails.talkEnd !==
+                  presentation.session.time_end) && (
                 <span class="presentation-details__note">
                   {" "}
                   · session{" "}
-                  <span
-                    data-tz-start={presentation.session.time_start}
-                    data-tz-end={presentation.session.time_end}
-                    data-tz-conference={CONFERENCE_TIME_ZONE}
-                  >
-                    {presentationDetails.sessionTime}
-                  </span>
+                  <TimeRange
+                    start={presentation.session.time_start}
+                    end={presentation.session.time_end}
+                    timeZone={CONFERENCE_TIME_ZONE}
+                  />
                 </span>
-              )}
+              )}{" "}
               <TimezoneToggle />
             </dd>
             <dt>Room</dt>
@@ -568,15 +556,46 @@ const DISCUSSION_SECTION_ID = "discussion";
          post, proxied through bsky.tech.ieeevis.org so it loads on any
          conference network. Sortable by upvotes or recency. -->
 
-    <div id={DISCUSSION_SECTION_ID} class="paper-section paper-links mb-6">
-      <!-- <BlueskyDiscussion showPost={false} paperId="test-bsky-9999" client:load /> -->
-      <BlueskyDiscussion
-        showPost={false}
-        paperId={paper.id}
-        authorHandles={authorBskyHandles}
-        client:load
-      />
-    </div>
+    <!-- <BlueskyDiscussion showPost={false} paperId="test-bsky-9999" client:load /> -->
+    {
+      presentation ? (
+        <div id={DISCUSSION_SECTION_ID} class="paper-section paper-links mb-6">
+          <BlueskyDiscussion
+            showPost={false}
+            paperId={paper.id}
+            authorHandles={authorBskyHandles}
+            sessionStart={presentation.session.time_start}
+            client:load
+          />
+        </div>
+      ) : (
+        eventSession &&
+        eventDiscussionUrl && (
+          <div
+            id={DISCUSSION_SECTION_ID}
+            class="paper-section paper-links mb-6"
+          >
+            <h2 class="mt-0">Discussion</h2>
+            <p>
+              This paper is discussed together with the other papers of its{" "}
+              {eventNoun}. It opens shortly before the {eventNoun} starts. The{" "}
+              {eventNoun} is on{" "}
+              <TimeRange
+                start={eventSession.time_start}
+                end={eventSession.time_end}
+                withDate
+                suffix
+              />
+              .
+            </p>
+            <a class="button button-inverse" href={eventDiscussionUrl}>
+              Go to the {eventNoun} discussion{" "}
+              <span aria-hidden="true">→</span>
+            </a>
+          </div>
+        )
+      )
+    }
   </div>
 </PageLayout>
 

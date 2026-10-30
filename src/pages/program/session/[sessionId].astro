@@ -2,9 +2,13 @@
 import ProgramPeopleList from "../../../components/ProgramPeopleList.astro";
 import PageLayout from "../../../layouts/PageLayout.astro";
 import AwardBadge from "../../../components/AwardBadge.astro";
+import TimeRange from "../../../components/TimeRange.astro";
 import BlueskyDiscussion from "../../../components/BlueskyDiscussion";
 import { fetchAllPapers, fetchAllSessions } from "../../../utils/paperData";
-import { hasOwnDiscussion } from "../../../utils/discussionSlots";
+import {
+  hasOwnDiscussion,
+  sessionDiscussionId,
+} from "../../../utils/discussionSlots";
 import type { Paper } from "../../../types/paper";
 import type {
   ProgramSession,
@@ -94,31 +98,10 @@ const presentations = [...session.time_slots]
   .filter((slot) => eventPapers.length === 0 || slot.uid || slot.url)
   .sort((a, b) => Date.parse(a.time_start) - Date.parse(b.time_start));
 
-const sessionDateFormatter = new Intl.DateTimeFormat("en-US", {
-  timeZone: "US/Eastern",
-  weekday: "long",
-  month: "short",
-  day: "numeric",
-});
-
-const timeFormatter = new Intl.DateTimeFormat("en-US", {
-  timeZone: "US/Eastern",
-  hour: "2-digit",
-  minute: "2-digit",
-  hour12: false,
-});
-
-function formatSlotRange(startISO: string, endISO: string) {
-  const start = new Date(startISO);
-  const end = new Date(endISO);
-  return `${timeFormatter.format(start)} - ${timeFormatter.format(end)}`;
-}
-
-function formatSessionDateTime(startISO: string, endISO: string) {
-  const start = new Date(startISO);
-  const end = new Date(endISO);
-  return `${sessionDateFormatter.format(start)} @ ${timeFormatter.format(start)} - ${timeFormatter.format(end)} (US/Eastern)`;
-}
+const sessionPageId = `${session.event_prefix}-${session.session_id}`;
+const discussionId =
+  sessionDiscussionId(event.event_type || "", sessionPageId) ??
+  presentations.find(hasOwnDiscussion)?.slot_id;
 
 const eventTypeLabel = getProgramEventTypeLabel(event.event_type || "other");
 const programUrl = withBaseURL(
@@ -159,6 +142,8 @@ const frontmatter = {
   contact: "web@ieeevis.org",
   full_width: true,
 };
+
+const DISCUSSION_SECTION_ID = "discussion";
 ---
 
 <PageLayout frontmatter={frontmatter}>
@@ -211,15 +196,12 @@ const frontmatter = {
       }
       <p class="program-event-meta">
         <strong class="mr-2">Time:</strong>
-        <span
-          data-tz-start={session.time_start}
-          data-tz-end={session.time_end}
-          data-tz-conference="US/Eastern"
-          data-tz-date
-          data-tz-suffix
-        >
-          {formatSessionDateTime(session.time_start, session.time_end)}
-        </span>
+        <TimeRange
+          start={session.time_start}
+          end={session.time_end}
+          withDate
+          suffix
+        />
       </p>
 
       {
@@ -253,7 +235,24 @@ const frontmatter = {
           ))
       }
 
-      {description && <p class="program-event-description">{description}</p>}
+      {
+        description && (
+          <p class="program-event-description">
+            <strong>Description:</strong> <p>{description}</p>
+          </p>
+        )
+      }
+
+      {
+        discussionId && (
+          <a
+            class="button button-inverse paper-jump-button"
+            href={`#${DISCUSSION_SECTION_ID}`}
+          >
+            Jump to Discussion <span aria-hidden="true">↓</span>
+          </a>
+        )
+      }
     </header>
 
     <div>
@@ -282,13 +281,8 @@ const frontmatter = {
       {
         presentations.map((slot) => (
           <section class="paper-section">
-            <p
-              class="program-presentation-time"
-              data-tz-start={slot.time_start}
-              data-tz-end={slot.time_end}
-              data-tz-conference="US/Eastern"
-            >
-              {formatSlotRange(slot.time_start, slot.time_end)}
+            <p class="program-presentation-time">
+              <TimeRange start={slot.time_start} end={slot.time_end} />
             </p>
             {slot.uid ? (
               <h3>
@@ -337,14 +331,6 @@ const frontmatter = {
                   ))}
                 </p>
               )}
-            {/* Panels and invited talks have no paper page, so their Bluesky
-              discussion — the thread of replies to the announcement post,
-              proxied through bsky.tech.ieeevis.org — belongs here. */}
-            {hasOwnDiscussion(slot) && (
-              <div class="program-presentation-discussion not-prose">
-                <BlueskyDiscussion client:visible paperId={slot.slot_id} />
-              </div>
-            )}
           </section>
         ))
       }
@@ -365,6 +351,19 @@ const frontmatter = {
         ))
       }
     </div>
+
+    {
+      discussionId && (
+        <div id={DISCUSSION_SECTION_ID} class="paper-section paper-discussion">
+          <BlueskyDiscussion
+            showPost={false}
+            paperId={discussionId}
+            sessionStart={session.time_start}
+            client:load
+          />
+        </div>
+      )
+    }
   </div>
 
   <style>
@@ -448,11 +447,22 @@ const frontmatter = {
       margin: 0.15rem 0;
     }
 
-    .program-presentation-discussion {
-      margin-top: 0.6rem;
+    /* STYLING COPIED FROM PAPERS PAGE */
+    .paper-jump-button {
+      margin-top: 1.25rem;
+      text-decoration: none;
     }
 
-    /* STYLING COPIED FROM PAPERS PAGE */
+    .paper-discussion {
+      margin-top: 1.5rem;
+    }
+
+    .paper-discussion :global(h2) {
+      color: var(--color-primary-800);
+      font-size: 1.15rem;
+      letter-spacing: 0.02em;
+    }
+
     .paper-hero {
       max-width: 62rem;
       margin: 0 auto 2.5rem;

@@ -139,15 +139,6 @@ const typeOptions = groupProgramTypeOptions(sortedTypes.map((sessionType) => ({
   label: getProgramEventTypeLabel(sessionType),
   color: typeColors[sessionType] || "#df6824",
 })));
-const conferenceDateTimeFormatter = new Intl.DateTimeFormat("en-US", {
-  timeZone: CONFERENCE_TIME_ZONE,
-  weekday: "short",
-  month: "short",
-  day: "numeric",
-  hour: "2-digit",
-  minute: "2-digit",
-  hour12: false,
-});
 
 function formatNotesForSession(session: SessionListItem) {
   return [`Room: ${session.room}`];
@@ -232,7 +223,9 @@ function formatPeopleForSession(session: SessionListItem) {
           >
             <header class="sessions-day-header">
               <h2>{dayGroup.weekdayLabel}</h2>
-              <p>{dayGroup.dateLabel}</p>
+              <p>
+                <time datetime={dayGroup.dayKey}>{dayGroup.dateLabel}</time>
+              </p>
             </header>
 
             <div
@@ -258,7 +251,7 @@ function formatPeopleForSession(session: SessionListItem) {
                   people={formatPeopleForSession(session)}
                   links={[]}
                   notes={formatNotesForSession(session)}
-                  scheduleLabel={`${conferenceDateTimeFormatter.format(new Date(session.startISO))}`}
+                  scheduleStart={session.startISO}
                 />
               ))}
             </div>
@@ -276,7 +269,11 @@ function formatPeopleForSession(session: SessionListItem) {
     import {
       TIMEZONE_MODE_EVENT,
       getSavedTimezoneMode,
+      isTimezoneMode,
+      rangePartsForMode,
+      renderTimeParts,
       saveTimezoneMode,
+      type TimezoneMode,
     } from "../../utils/timezoneMode";
     import {
       createUrlStateHistory,
@@ -383,66 +380,15 @@ function formatPeopleForSession(session: SessionListItem) {
         );
       };
 
-      const isSameDayFormatter = (timeZone: string) =>
-        new Intl.DateTimeFormat("en-CA", {
-          timeZone,
-          year: "numeric",
-          month: "2-digit",
-          day: "2-digit",
-        });
-
-      const timeFormatter = (timeZone: string) =>
-        new Intl.DateTimeFormat("en-US", {
-          timeZone,
-          hour: "2-digit",
-          minute: "2-digit",
-          hour12: false,
-        });
-
-      const dateFormatter = (timeZone: string) =>
-        new Intl.DateTimeFormat("en-US", {
-          timeZone,
-          weekday: "short",
-          month: "short",
-          day: "numeric",
-        });
-
-      const compactRange = (
-        startDate: Date,
-        endDate: Date,
-        timeZone: string,
-      ) => {
-        const sameDay =
-          isSameDayFormatter(timeZone).format(startDate) ===
-          isSameDayFormatter(timeZone).format(endDate);
-        if (sameDay) {
-          return `${timeFormatter(timeZone).format(startDate)} - ${timeFormatter(timeZone).format(endDate)}`;
-        }
-        return `${dateFormatter(timeZone).format(startDate)} ${timeFormatter(timeZone).format(startDate)} - ${dateFormatter(timeZone).format(endDate)} ${timeFormatter(timeZone).format(endDate)}`;
+      const getMode = (): TimezoneMode => {
+        const value = getChoiceValue(timezoneControl, "conference");
+        return isTimezoneMode(value) ? value : "conference";
       };
 
-      const getMode = () => getChoiceValue(timezoneControl, "conference");
+      const rangeParts = (startISO: string, endISO: string) =>
+        rangePartsForMode(startISO, endISO, getMode(), conferenceTimeZone);
 
       const getSelectedDay = () => getChoiceValue(dayFilterControl, "all");
-
-      const formatRangeForMode = (startISO: string, endISO: string) => {
-        const mode = getMode();
-        const startDate = new Date(startISO);
-        const endDate = new Date(endISO);
-        const showConference = mode === "conference" || mode === "both";
-        const showLocal = mode === "local" || mode === "both";
-        const parts: string[] = [];
-
-        if (showConference) {
-          parts.push(compactRange(startDate, endDate, conferenceTimeZone));
-        }
-        if (showLocal) {
-          const localRange = compactRange(startDate, endDate, localTimeZone);
-          parts.push(showConference ? `Local: ${localRange}` : localRange);
-        }
-
-        return parts.join(" | ");
-      };
 
       const refreshTimeRanges = () => {
         const mode = getMode();
@@ -452,7 +398,7 @@ function formatPeopleForSession(session: SessionListItem) {
           const startISO = card?.getAttribute("data-start");
           const endISO = card?.getAttribute("data-end");
           if (!startISO || !endISO) continue;
-          node.textContent = formatRangeForMode(startISO, endISO);
+          renderTimeParts(node, rangeParts(startISO, endISO));
         }
 
         if (tzDescription) {

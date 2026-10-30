@@ -252,6 +252,23 @@ function buildSessionList({
     events.map((event) => [event.event_prefix, event.slot_type_default]),
   );
 
+  // For multi-part events, only some sessions may carry a description. When
+  // exactly one distinct description exists across the event's sessions, the
+  // others inherit it.
+  const descriptionsByPrefix = new Map<string, Set<string>>();
+  sessions.forEach((session) => {
+    const description = session.event_description?.trim();
+    if (!description) return;
+    const set = descriptionsByPrefix.get(session.event_prefix) ?? new Set();
+    set.add(session.event_description!);
+    descriptionsByPrefix.set(session.event_prefix, set);
+  });
+  const sharedDescription = (session: RawSession): string | null => {
+    if (session.event_description) return session.event_description;
+    const set = descriptionsByPrefix.get(session.event_prefix);
+    return set?.size === 1 ? [...set][0] : null;
+  };
+
   sessions.forEach((session) => {
     const event = eventForPrefix(session.event_prefix);
     const timeblock = timeblocksById.get(session.timeblock_id);
@@ -280,7 +297,7 @@ function buildSessionList({
       time_end: timeblock?.end || "",
       discord_link: session.discord_url,
       youtube_url: session.session_youtube_url,
-      description: session.event_description || null,
+      description: sharedDescription(session),
       other_location: session.other_location || null,
       other_location_url: session.other_location_url || null,
       time_slots: buildTimeSlots({
