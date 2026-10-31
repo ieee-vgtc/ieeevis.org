@@ -318,15 +318,16 @@ const eventNoun = eventType.toLowerCase();
               paper.authors.map((a, idx) => {
                 return (
                   <span>
-                    <a
-                      href={withBaseURL(
-                        `/program/content/?search=${encodeURIComponent(a.name)}`,
-                      )}
-                      class="text-accent underline decoration-accent-200 decoration-solid underline-offset-3 hover:text-accent-700 focus-visible:text-accent-700"
-                    >
-                      {a.name}
-                    </a>
-                    <BlueskyProfileLink email={a.email} name={a.name} />
+                    <span class="whitespace-nowrap">
+                      <a
+                        href={withBaseURL(
+                          `/program/content/?search=${encodeURIComponent(a.name)}`,
+                        )}
+                        class="text-accent underline decoration-accent-200 decoration-solid underline-offset-3 hover:text-accent-700 focus-visible:text-accent-700"
+                      >
+                        {a.name}
+                      </a><BlueskyProfileLink email={a.email} name={a.name} />
+                    </span>
                     {a.affiliation && <span>{` (${a.affiliation})`}</span>}
                     {idx < paper.authors.length - 1 ? ", " : ""}
                   </span>
