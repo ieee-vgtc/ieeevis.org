@@ -12,13 +12,14 @@ const { people, linkNames = false } = Astro.props;
 ---
 
 {people.map((person, idx) => (
-  <span>
-    {linkNames ? (
-      <a href={withBaseURL(`/program/content/?filter=author&search=${encodeURIComponent(person.name)}`)}>
-        {person.name}
-      </a>
-    ) : person.name}
-    <BlueskyProfileLink email={person.email} name={person.name} />
-    {idx < people.length - 1 ? ", " : ""}
-  </span>
+  <>
+    {/* nowrap keeps the Bluesky icon (and comma) on the same line as the name */}
+    <span class="whitespace-nowrap">
+      {linkNames ? (
+        <a href={withBaseURL(`/program/content/?filter=author&search=${encodeURIComponent(person.name)}`)}>
+          {person.name}
+        </a>
+      ) : person.name}<BlueskyProfileLink email={person.email} name={person.name} />{idx < people.length - 1 ? "," : ""}
+    </span>{idx < people.length - 1 ? " " : ""}
+  </>
 ))}
