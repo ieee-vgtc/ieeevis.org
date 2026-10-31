@@ -42,7 +42,7 @@ VIS 2026 will take place at [The Westin Copley Place](https://www.marriott.com/e
 
 The hotel is easily accessible via the [MBTA subway system](https://www.mbta.com/guides/subway-guide?os&ref=app). **Copley Station** on the Green Line is just a short walk away. **Back Bay Station**, which serves the Orange Line, Amtrak, and commuter rail, is also within walking distance and provides a convenient arrival point for visitors traveling by train.
 
-### On-site Car Partking
+### On-site Car Parking
 
 Valet parking is available at The Westin Copley Place for an additional fee. Several nearby garages also offer paid parking options.
 
