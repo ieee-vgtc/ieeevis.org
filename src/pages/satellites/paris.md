@@ -3,7 +3,7 @@ title: Paris Satellite
 layout: /src/layouts/PageLayout.astro
 active_nav: Attend
 contact: satellite_paris@ieeevis.org
-description: Join IEEE VIS 2026 from one of our Paris satellite
+description: Join IEEE VIS 2026 from our Paris satellite
 ---
 
 Satellite Paris
@@ -24,28 +24,27 @@ We are still working on the local program. The current proposal will change as w
 
 ### Local program
 
-|          Time | Tuesday, Nov 10 | Wednesday, Nov 11 | Thursday, Nov 12                    | Friday, Nov 13                              |
-| ------------: | :-------------- | :---------------- | :---------------------------------- | :------------------------------------------ |
-|  9:30 - 10:30 |                 | PhD Madness       | Amphi: Panel Visualization Future   | Amphi: Panel: Teaching Vis in the age of AI |
-|               |                 |                   | Room 2: Local paper presentations 1 | Room 2: Local paper presentations 2         |
-|               |                 |                   |                                     |                                             |
-| 10:30 - 11:00 | _coffe break_   | _coffe break_     | _coffe break_                       | _coffe break_                               |
-| 11:00 - 12:00 |                 | PhD Madness       | Poster Viewing                      | Amphi: Panel: Satellite 2.0                 |
-|               |                 |                   |                                     |                                             |
-|               |                 |                   |                                     |                                             |
-| 12:00 - 14:00 | _lunch_         | _lunch_           | _lunch_                             | _lunch_                                     |
+|          Time | Tuesday, Nov 10 | Wednesday, Nov 11    | Thursday, Nov 12 | Friday, Nov 13   |
+| ------------: | :-------------- | :------------------- | :--------------- | :--------------- |
+|  9:30 - 10:30 | Opening         | PhD Madness          | Amphi: Panel Visualization Future   | Amphi: Panel: Teaching Vis in the age of AI |
+|               |                 |                      | Room 2: Local paper presentations 1  | Room 2:  Local paper presentations 2  |
+|               |                 |                      |                  |                  |
+| 10:30 - 11:00 | _coffe break_   | _coffe break_        | _coffe break_    | _coffe break_    |
+| 11:00 - 12:00 | Amphi: Keynote  | PhD Madness          | Poster Viewing   | Amphi: Panel: Satellite 2.0 |
+|               |                 |                      |                  |                  |
+| 12:00 - 14:00 | _lunch_         | _lunch_              | _lunch_          | _lunch_          |
 
 ### Streamed program from Boston
 
-|          Time | Tuesday, Nov 10                                                                                | Wednesday, Nov 11                                      | Thursday, Nov 12                              | Friday, Nov 13                                  |
-| ------------: | :--------------------------------------------------------------------------------------------- | :----------------------------------------------------- | :-------------------------------------------- | :---------------------------------------------- |
-| 14:00 - 15:30 | Amphi: [Opening Keynote](https://ieeevis.org/year/2026/info/invited-speakers/keynote-speaker/) | Amphi: Let's dig into the data                         | Amphi: Story time                             | Amphi: This feels amazingly real!               |
-|               |                                                                                                | Room 2: Can we trust this chart? (Asking for a Friend) | Room 2: Is the model even thinking?           | Room 2: Big data, bigger physics                |
-|               |                                                                                                | Musaiques: I feel tangled in a net                     | Musaiques: How can I do this myself?          | Musaiques: Let's dig into the data              |
-| 15:30 - 16:00 | _coffe break_                                                                                  | _coffe break_                                          | _coffe break_                                 | _coffe break_                                   |
-| 16:00 - 17:30 | Amphi: The more the merrier                                                                    | Amphi: Data, Meet Human: Vis that cares                | Amphi: Time after time                        | Amphi: Capstone                                 |
-|               | Room 2: Panel: Challenges and opportunities for evaluating AI-assisted generation of...        | Room 2: Beyond the last mile                           | Room 2: Panel: Friction in Visualization !    |                                                 |
-|               | Musaiques: Please don't just stare at the picture                                              | Musaiques: Panel: Beyond the last mile                 | Musaiques: What does it mean to live, anyway? | Musaiques: My followers need to know about this |
+|          Time | Tuesday, Nov 10                                                                                 | Wednesday, Nov 11                                           | Thursday, Nov 12                                   | Friday, Nov 13 |
+| ------------: | :-----------------------                                                                        | :----------------                                           | :---------------                                   | :------------- |
+| 14:00 - 15:30 | Amphi: [Opening Keynote](https://ieeevis.org/year/2026/info/invited-speakers/keynote-speaker/)  | Amphi: Let's dig into the data                              | Amphi: Story time                                  | Amphi: This feels amazingly real!     |
+|               |                                                                                                 | Room 2: Can we trust this chart? (Asking for a Friend)      | Room 2: Is the model even thinking?                | Room 2: Big data, bigger physics        |
+|               |                                                                                                 | Musaiques:   I feel tangled in a net                        | Musaiques: How can I do this myself?               | Musaiques: Let's dig into the data       |
+| 15:30 - 16:00 | _coffe break_                                                                                   | _coffe break_                                               | _coffe break_                                      | _coffe break_  |
+| 16:00 - 17:30 | Amphi: The more the merrier                                                                     | Amphi: Data, Meet Human: Vis that cares                     | Amphi: Time after time                             | Amphi:  Capstone      |
+|               | Room 2:  Panel: Challenges and opportunities for evaluating AI-assisted generation of...        | Room 2: Beyond the last mile                                | Room 2: Panel: Friction in Visualization!          |         |
+|               | Musaiques: Please don't just stare at the picture      | Musaiques: Panel: Beyond the last mile | Musaiques: What does it mean to live, anyway?               | Musaiques:  My followers need to know about this   |
 
 ## Local Organizers
 

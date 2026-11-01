@@ -89,6 +89,9 @@
     - name: "CRC Press"
       image: /assets/supporters/crc-press.png
       url: "https://www.routledge.com/AK-Peters-Visualization-Series/book-series/CRCVIS"
+    - name: "Data Visualization Society"
+      image: /assets/supporters/dvs.png
+      url: "https://nightingaledvs.com/"
 
 - category: "Paris Satellite"
   image_size: 200
