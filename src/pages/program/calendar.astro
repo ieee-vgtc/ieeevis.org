@@ -1465,7 +1465,10 @@ const frontmatter = {
           if (!activeBar) return;
           const anchor =
             anchorMinute !== null
-              ? Math.min(endOf(activeBar), Math.max(startOf(activeBar), anchorMinute))
+              ? Math.min(
+                  endOf(activeBar),
+                  Math.max(startOf(activeBar), anchorMinute),
+                )
               : startOf(activeBar);
           const groupBars = clusterBars.filter(
             (b) =>
@@ -1629,10 +1632,7 @@ const frontmatter = {
       });
 
       // URL state takes precedence over saved preferences.
-      restoreFromUrl(
-        new URLSearchParams(window.location.search),
-        savedMode,
-      );
+      restoreFromUrl(new URLSearchParams(window.location.search), savedMode);
 
       if (timezoneControl) {
         const timezoneButtons = Array.from(
@@ -1722,6 +1722,8 @@ const frontmatter = {
         hourCycle: "h23",
       });
       const refreshLiveSessions = () => {
+        // MECHANISM FOR TESTING THE DISPLAY, add the below to URL
+
         // TEMP: ?now=2026-11-05T10:30:00-05:00 simulates the current time
         const override = Date.parse(
           new URLSearchParams(window.location.search).get("now") || "",
