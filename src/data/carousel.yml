@@ -4,10 +4,10 @@
 #   buttonUrl: "/info/call-participation/call-for-participation"
 #   active: "active"
 
-- title: "Early Bird registration extended if staying at the conference hotel!"
-  image: "register.jpg"
-  buttonText: "Registration"
-  buttonUrl: "/info/registration-and-travel/conference-registration"
+# - title: "Early Bird registration extended if staying at the conference hotel!"
+#   image: "register.jpg"
+#   buttonText: "Registration"
+#   buttonUrl: "/info/registration-and-travel/conference-registration"
 
 - title: "Cluster: The Practitioners' Summit at VIS"
   image: "carousel-cluster-promo2.png"
