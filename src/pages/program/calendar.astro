@@ -903,6 +903,8 @@ const frontmatter = {
                   data-type={session.eventType}
                   data-day-group={dayGroup.dayKey}
                   data-search={session.searchText}
+                  data-start={session.startISO}
+                  data-end={session.endISO}
                   style={`--session-accent: ${typeColors[session.eventType] || "#6b7280"}`}
                 >
                   <p
@@ -1703,6 +1705,57 @@ const frontmatter = {
           }
         });
       }
+
+      const liveCards = Array.from(
+        root.querySelectorAll<HTMLElement>(
+          "[data-session-card][data-start][data-end]",
+        ),
+      );
+      const nowLines: HTMLElement[] = [];
+      const conferenceClock = new Intl.DateTimeFormat("en-CA", {
+        timeZone: conferenceTimeZone,
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit",
+        hour: "2-digit",
+        minute: "2-digit",
+        hourCycle: "h23",
+      });
+      const refreshLiveSessions = () => {
+        // TEMP: ?now=2026-11-05T10:30:00-05:00 simulates the current time
+        const override = Date.parse(
+          new URLSearchParams(window.location.search).get("now") || "",
+        );
+        const now = Number.isNaN(override) ? Date.now() : override;
+        for (const card of liveCards) {
+          const start = Date.parse(card.dataset.start || "");
+          const end = Date.parse(card.dataset.end || "");
+          card.classList.toggle("is-live", now >= start && now < end);
+        }
+
+        const parts = Object.fromEntries(
+          conferenceClock
+            .formatToParts(new Date(now))
+            .map((part) => [part.type, part.value]),
+        );
+        const dayKey = `${parts.year}-${parts.month}-${parts.day}`;
+        const minute = Number(parts.hour) * 60 + Number(parts.minute);
+        for (const line of nowLines) line.remove();
+        nowLines.length = 0;
+        const tracks = root.querySelectorAll<HTMLElement>(
+          `.calendar-day-column[data-day-group="${dayKey}"] .calendar-day-track`,
+        );
+        for (const track of tracks) {
+          const line = document.createElement("div");
+          line.className = "calendar-now-line";
+          line.setAttribute("aria-hidden", "true");
+          line.style.setProperty("--now-minute", String(minute));
+          track.appendChild(line);
+          nowLines.push(line);
+        }
+      };
+      refreshLiveSessions();
+      window.setInterval(refreshLiveSessions, 30000);
 
       refreshFilterButtonState();
       refreshTimeRanges();

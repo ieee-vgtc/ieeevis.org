@@ -1728,3 +1728,46 @@
 .papers-grid > .papers-day-header:not(:first-child) {
   margin-top: 0.9rem;
 }
+/* Sessions happening right now: a small dot, kept quiet so busy slots stay readable */
+.calendar-session-block.is-live::after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #dc2626;
+  box-shadow: 0 0 0 1.5px #fff;
+  pointer-events: none;
+}
+
+.calendar-session.is-live {
+  box-shadow: inset 3px 0 0 #dc2626;
+  padding-left: 0.6rem;
+}
+
+/* Current-time indicator */
+.calendar-now-line {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(
+    (var(--now-minute) - var(--timeline-start-minute)) /
+      var(--timeline-minute-span) * var(--timeline-height)
+  );
+  border-top: 2px solid #dc2626;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.calendar-now-line::before {
+  content: "";
+  position: absolute;
+  left: -4px;
+  top: -5px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #dc2626;
+}
