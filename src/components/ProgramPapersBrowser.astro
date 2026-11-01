@@ -166,6 +166,7 @@ const typeOptions = groupProgramTypeOptions(
             <option value="any">any</option>
             <option value="title">title</option>
             <option value="keyword">keyword</option>
+            <option value="abstract">abstract</option>
             <option value="author">author</option>
             <option value="session">session</option>
           </select>
@@ -192,6 +193,14 @@ const typeOptions = groupProgramTypeOptions(
             aria-pressed="false"
           >
             keyword
+          </button>
+          <button
+            type="button"
+            class="papers-choice-button hover-response--tint"
+            data-choice-value="abstract"
+            aria-pressed="false"
+          >
+            abstract
           </button>
           <button
             type="button"
@@ -338,6 +347,12 @@ const typeOptions = groupProgramTypeOptions(
             data-title={paper.title.toLowerCase()}
             data-authors={paper.authorNames.join(",").toLowerCase()}
             data-keywords={paper.keywordsLabel.toLowerCase()}
+            data-keywords-label={paper.keywordsLabel}
+            data-abstract={
+              paper.abstractText === "Abstract not available."
+                ? ""
+                : paper.abstractText
+            }
             data-session={paper.sessionLabel.toLowerCase()}
             data-session-key={paper.sessionKey || ""}
             data-event={paper.eventLabel.toLowerCase()}
@@ -362,7 +377,9 @@ const typeOptions = groupProgramTypeOptions(
             bookmark={
               paper.titleHref ? undefined : { bookmarked: isBookmarked }
             }
-          />
+          >
+            <div class="program-card__match" data-match hidden />
+          </ProgramCard>
         );
       })
     }
@@ -441,6 +458,7 @@ const typeOptions = groupProgramTypeOptions(
       "any",
       "title",
       "keyword",
+      "abstract",
       "author",
       "session",
     ]);
@@ -600,16 +618,29 @@ const typeOptions = groupProgramTypeOptions(
       urlHistory.write(nextParams, options);
     };
 
+    // Abstracts are long; lowercase each once instead of on every keystroke.
+    const lowerAbstracts = new WeakMap<HTMLElement, string>();
+    const getLowerAbstract = (card: HTMLElement) => {
+      let value = lowerAbstracts.get(card);
+      if (value === undefined) {
+        value = (card.dataset.abstract || "").toLowerCase();
+        lowerAbstracts.set(card, value);
+      }
+      return value;
+    };
+
     const getFieldValue = (card: HTMLElement) => {
       const field = getSearchField();
       if (field === "title") return card.dataset.title || "";
       if (field === "keyword") return card.dataset.keywords || "";
+      if (field === "abstract") return getLowerAbstract(card);
       if (field === "author") return card.dataset.authors || "";
       if (field === "session") return card.dataset.session || "";
       return [
         card.dataset.title || "",
         card.dataset.authors || "",
         card.dataset.keywords || "",
+        getLowerAbstract(card),
         card.dataset.session || "",
         card.dataset.event || "",
         card.dataset.award || "",
@@ -678,12 +709,89 @@ const typeOptions = groupProgramTypeOptions(
       );
     };
 
+    // Explain keyword/abstract hits on a card: matching keywords become chips
+    // and the abstract shows a highlighted excerpt around the first match.
+    const renderMatchReasons = (card: HTMLElement, query: string) => {
+      const box = card.querySelector<HTMLElement>("[data-match]");
+      if (!box) return;
+      box.replaceChildren();
+      const field = getSearchField();
+      const searchKeywords = field === "any" || field === "keyword";
+      const searchAbstract = field === "any" || field === "abstract";
+      if (!query || card.hasAttribute("data-session-role")) {
+        box.hidden = true;
+        return;
+      }
+
+      const highlight = (text: string, parent: HTMLElement) => {
+        const lower = text.toLowerCase();
+        let from = 0;
+        for (let at = lower.indexOf(query); at !== -1; at = lower.indexOf(query, from)) {
+          parent.append(text.slice(from, at));
+          const mark = document.createElement("mark");
+          mark.className = "program-card__mark";
+          mark.textContent = text.slice(at, at + query.length);
+          parent.append(mark);
+          from = at + query.length;
+        }
+        parent.append(text.slice(from));
+      };
+
+      const addRow = (label: string, icon: string) => {
+        const row = document.createElement("p");
+        row.className = "program-card__match-row";
+        const tag = document.createElement("span");
+        tag.className = "program-card__match-tag";
+        tag.title = `Matched in ${label.toLowerCase()}`;
+        const iconEl = document.createElement("i");
+        iconEl.className = "material-icons";
+        iconEl.setAttribute("aria-hidden", "true");
+        iconEl.textContent = icon;
+        tag.append(iconEl, label);
+        row.append(tag);
+        box.append(row);
+        return row;
+      };
+
+      if (searchKeywords && card.dataset.keywords?.includes(query)) {
+        const matched = (card.dataset.keywordsLabel || "")
+          .split(", ")
+          .filter((keyword) => keyword.toLowerCase().includes(query));
+        const row = addRow("Keyword", "sell");
+        for (const keyword of matched) {
+          const chip = document.createElement("span");
+          chip.className = "program-card__match-chip";
+          highlight(keyword, chip);
+          row.append(chip);
+        }
+      }
+
+      const abstract = card.dataset.abstract || "";
+      const abstractAt = searchAbstract
+        ? getLowerAbstract(card).indexOf(query)
+        : -1;
+      if (abstractAt !== -1) {
+        const start = Math.max(0, abstractAt - 70);
+        const end = Math.min(abstract.length, abstractAt + query.length + 110);
+        const row = addRow("Abstract", "notes");
+        const excerpt = document.createElement("span");
+        excerpt.className = "program-card__match-excerpt";
+        highlight(
+          `${start > 0 ? "…" : ""}${abstract.slice(start, end)}${end < abstract.length ? "…" : ""}`,
+          excerpt,
+        );
+        row.append(excerpt);
+      }
+
+      box.hidden = box.childElementCount === 0;
+    };
+
     const applyFilters = (options?: UrlStateWriteOptions) => {
       const query = getSearchQuery();
       const typeFilter = getTypeFilter();
       const sortMode = getSortMode();
       const visibleCards = cards.filter((card) => {
-        const haystack = getFieldValue(card).toLowerCase();
+        const haystack = getFieldValue(card);
         const cardType = card.dataset.type || "";
         const typeMatch =
           typeFilter === "all" ||
@@ -776,8 +884,10 @@ const typeOptions = groupProgramTypeOptions(
         }
       }
 
+      const visibleSet = new Set(visibleCards);
       for (const card of cards) {
-        card.hidden = !visibleCards.includes(card);
+        card.hidden = !visibleSet.has(card);
+        if (visibleSet.has(card)) renderMatchReasons(card, query);
       }
 
       if (emptyState) {
@@ -816,10 +926,15 @@ const typeOptions = groupProgramTypeOptions(
     }
 
     if (searchInput instanceof HTMLInputElement) {
+      let searchTimer: number | undefined;
       searchInput.addEventListener("input", () => {
         requestedSessionKey = "";
         requestedEventKey = "";
-        applyFilters({ burst: "search" });
+        window.clearTimeout(searchTimer);
+        searchTimer = window.setTimeout(
+          () => applyFilters({ burst: "search" }),
+          150,
+        );
       });
     }
 
