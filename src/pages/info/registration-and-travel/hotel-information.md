@@ -23,4 +23,6 @@ We're extending the early-bird registration price for anyone who books at the We
 
 A small number of rooms for the hotel are available at the prevailing government rate. If you need more information for booking these, please contact [registration@ieeevis.org](mailto:registration@ieeevis.org).
 
-Address: <a href="https://maps.google.com/?q=The+Westin+Copley+Place+Boston,+10+Huntington+Ave,+Boston,+MA+02116">The Westin Copley Place Boston, 10 Huntington Ave, Boston, MA 02116</a>
+Address: <a href="https://maps.app.goo.gl/bgkKXeTJZfwNCTrQ9">The Westin Copley Place Boston, 10 Huntington Ave, Boston, MA 02116</a>
+
+<a href="/year/2026/venue/" class="button">View the venue map</a>

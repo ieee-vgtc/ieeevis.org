@@ -214,12 +214,15 @@ menu:
                     description: "Information about the host city"
                     url: "/destination"
                     is_new: false
+                  - text: "Venue Map"
+                    description: "Floor plans and rooms at the Westin"
+                    url: "/venue/"
+                    is_new: true
               - links:
                   - text: "Hotel Information"
                     description: "Where to stay"
                     url: "/info/registration-and-travel/hotel-information"
                     is_new: false
-              - links:
                   - text: "Registration Planner"
                     description: "Day passes and prices at a glance"
                     url: "/register/"

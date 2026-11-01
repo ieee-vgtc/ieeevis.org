@@ -6,7 +6,7 @@
  * Map shapes: each floor SVG (src/assets/venue/floor-*.svg) names its room
  * shapes `room-<shape>` and their highlight outlines `hl-<shape>`, using the
  * shape ids below. Registration and speaker prep are `marker-<id>` with
- * outlines `hl-<id>`.
+ * outlines `hl-<id>`. The SVGs are final and edited by hand.
  */
 
 export type FloorId = "3" | "4" | "7";
@@ -37,6 +37,10 @@ export interface VenueSpace {
   shapes: string[];
   /** Several sections opened up into one room, listed under each section. */
   combined?: boolean;
+  /** An event area rather than a session room, listed only on days it's used. */
+  area?: boolean;
+  /** Drawn on the map only on days it's used. */
+  whenUsed?: boolean;
 }
 
 export const SPACES: VenueSpace[] = [
@@ -72,7 +76,7 @@ export const SPACES: VenueSpace[] = [
   },
   {
     roomId: "st_george",
-    name: "St. George, all four sections",
+    name: "St. George A–D",
     floor: "3",
     shapes: ["st-george-a-b", "st-george-c-d"],
     combined: true,
@@ -82,6 +86,7 @@ export const SPACES: VenueSpace[] = [
     name: "Staffordshire",
     floor: "3",
     shapes: ["staffordshire"],
+    area: true,
   },
   {
     roomId: "america_north",
@@ -109,10 +114,44 @@ export const SPACES: VenueSpace[] = [
     combined: true,
   },
   { roomId: "empire", name: "Empire", floor: "7", shapes: ["empire"] },
+  {
+    roomId: "luncheon",
+    name: "Luncheon, outside Staffordshire",
+    floor: "3",
+    shapes: ["luncheon"],
+    area: true,
+    whenUsed: true,
+  },
 ];
+
+// Sessions held somewhere other than the room the program lists.
+const SESSION_ROOMS = [
+  { title: /^catered luncheon$/i, room: "staffordshire", to: "luncheon" },
+];
+
+/** The venue room a session is actually in. */
+export function venueRoomOf(room: string, title: string): string {
+  return (
+    SESSION_ROOMS.find((o) => o.room === room && o.title.test(title.trim()))
+      ?.to ?? room
+  );
+}
 
 /** Off-site program rooms, shown as cards instead of on a floor plan. */
 export const OFFSITE_ROOM_IDS = ["mit_museum", "met_warehouse"];
+
+/** Name and full address of off-site rooms, overriding the program entry. */
+export const OFFSITE_ADDRESSES: Record<string, string> = {
+  mit_museum: "MIT Museum, 314 Main St, Cambridge, MA 02142",
+  met_warehouse:
+    "MET Warehouse, MIT, 134 Massachusetts Ave, Cambridge, MA 02139",
+};
+
+/** Google Maps links for off-site rooms; others link to a search for the address. */
+export const OFFSITE_MAP_URLS: Record<string, string> = {
+  mit_museum: "https://maps.app.goo.gl/dtu3nCQkQSeYoj2u7",
+  met_warehouse: "https://maps.app.goo.gl/xhuAT2xCc1qqzQpQ6",
+};
 
 export interface RegistrationHours {
   /** Conference-local date, YYYY-MM-DD. */

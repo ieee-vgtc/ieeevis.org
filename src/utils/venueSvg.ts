@@ -7,6 +7,7 @@
  * and `floorplan`. Room shapes are `room-<shape>` and their outlines in the
  * highlight layer are `hl-<shape>`; Illustrator writes layer and object names
  * as ids, and may append `_2`-style suffixes or use underscores for spaces.
+ * Shaded areas are `area-<id>` with their icon and text in `label-<id>`.
  */
 
 const LAYERS = ["highlight", "annotations", "rooms", "floorplan"];
@@ -42,6 +43,7 @@ export function prepareFloorSvg(
         const room = /^room-(.+)$/.exec(name);
         const hl = /^hl-(.+)$/.exec(name);
         const marker = /^marker-(.+)$/.exec(name);
+        const area = /^(?:area|label)-(.+)$/.exec(name);
         const data = layer
           ? ` data-layer="${layer}"`
           : room
@@ -50,7 +52,9 @@ export function prepareFloorSvg(
               ? ` data-hl="${hl[1]}"`
               : marker
                 ? ` data-marker="${marker[1]}"`
-                : "";
+                : area
+                  ? ` data-area="${area[1]}"`
+                  : "";
         return `${space}id="${prefix}${id}"${data}`;
       })
       .replace(/url\(#/g, `url(#${prefix}`)

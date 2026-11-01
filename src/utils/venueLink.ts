@@ -1,10 +1,21 @@
-import { SPACES, VENUE_TIME_ZONE } from "../data/venue";
+import {
+  SPACES,
+  VENUE_TIME_ZONE,
+  venueRoomOf,
+  type VenueSpace,
+} from "../data/venue";
 import { withBaseURL } from "./withBaseURL";
 
 const weekday = new Intl.DateTimeFormat("en-US", {
   timeZone: VENUE_TIME_ZONE,
   weekday: "short",
 });
+
+/** The venue space a session is in, or null when it isn't on the map. */
+export function venueSpaceOf(roomId: string, title = ""): VenueSpace | null {
+  const id = venueRoomOf(roomId, title);
+  return SPACES.find((sp) => sp.roomId === id) ?? null;
+}
 
 /**
  * The venue page's floor plan with this room selected on the session's day,
@@ -13,8 +24,9 @@ const weekday = new Intl.DateTimeFormat("en-US", {
 export function venueRoomHref(
   roomId: string,
   timeStart?: string,
+  title = "",
 ): string | null {
-  const space = SPACES.find((sp) => sp.roomId === roomId);
+  const space = venueSpaceOf(roomId, title);
   if (!space) return null;
   const params = new URLSearchParams();
   const start = timeStart ? new Date(timeStart) : null;

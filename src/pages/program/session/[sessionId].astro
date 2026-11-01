@@ -17,7 +17,7 @@ import type {
 import { displayRoomName } from "../../../utils/week-of-utils";
 import { getProgramEventTypeLabel } from "../../../utils/programEventTypeLabel";
 import { withBaseURL } from "../../../utils/withBaseURL";
-import { venueRoomHref } from "../../../utils/venueLink";
+import { venueRoomHref, venueSpaceOf } from "../../../utils/venueLink";
 
 // The site runs output: "server" (needed for the Auth0 callback route), which
 // makes every page dynamic by default and silently ignores getStaticPaths()
@@ -100,7 +100,16 @@ const presentations = [...session.time_slots]
   .sort((a, b) => Date.parse(a.time_start) - Date.parse(b.time_start));
 
 const sessionPageId = `${session.event_prefix}-${session.session_id}`;
-const venueHref = venueRoomHref(session.track, session.time_start);
+const venueHref = venueRoomHref(
+  session.track,
+  session.time_start,
+  session.title,
+);
+const venueSpace = venueSpaceOf(session.track, session.title);
+const roomLabel =
+  venueSpace && venueSpace.roomId !== session.track
+    ? venueSpace.name
+  : displayRoomName(session.room_name || "TBA");
 const discussionId =
   sessionDiscussionId(event.event_type || "", sessionPageId) ??
   presentations.find(hasOwnDiscussion)?.slot_id;
@@ -181,11 +190,7 @@ const DISCUSSION_SECTION_ID = "discussion";
       <p class="program-event-meta">
         <strong class="mr-2">Room:</strong>
         {
-          venueHref ? (
-            <a href={venueHref}>{displayRoomName(session.room_name || "TBA")}</a>
-          ) : (
-            displayRoomName(session.room_name || "TBA")
-          )
+          venueHref ? <a href={venueHref}>{roomLabel}</a> : roomLabel
         }
       </p>
       {
