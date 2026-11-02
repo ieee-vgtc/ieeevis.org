@@ -2,6 +2,8 @@ export type ProgramPaperCard = {
   id: string;
   title: string;
   authorNames: string[];
+  /** Distinct author affiliations, used for institution search. */
+  institutions?: string[];
   keywordsLabel: string;
   abstractText: string;
   /** Stable event category used for filtering and colors. */

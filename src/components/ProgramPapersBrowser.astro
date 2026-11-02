@@ -168,6 +168,7 @@ const typeOptions = groupProgramTypeOptions(
             <option value="keyword">keyword</option>
             <option value="abstract">abstract</option>
             <option value="author">author</option>
+            <option value="institution">institution</option>
             <option value="session">session</option>
           </select>
           <button
@@ -209,6 +210,14 @@ const typeOptions = groupProgramTypeOptions(
             aria-pressed="false"
           >
             author
+          </button>
+          <button
+            type="button"
+            class="papers-choice-button hover-response--tint"
+            data-choice-value="institution"
+            aria-pressed="false"
+          >
+            institution
           </button>
           <button
             type="button"
@@ -348,6 +357,7 @@ const typeOptions = groupProgramTypeOptions(
             data-authors={paper.authorNames.join(",").toLowerCase()}
             data-keywords={paper.keywordsLabel.toLowerCase()}
             data-keywords-label={paper.keywordsLabel}
+            data-institutions={(paper.institutions || []).join("|")}
             data-abstract={
               paper.abstractText === "Abstract not available."
                 ? ""
@@ -460,6 +470,7 @@ const typeOptions = groupProgramTypeOptions(
       "keyword",
       "abstract",
       "author",
+      "institution",
       "session",
     ]);
     const validTypeValues = new Set(
@@ -629,18 +640,23 @@ const typeOptions = groupProgramTypeOptions(
       return value;
     };
 
+    const getLowerInstitutions = (card: HTMLElement) =>
+      (card.dataset.institutions || "").toLowerCase();
+
     const getFieldValue = (card: HTMLElement) => {
       const field = getSearchField();
       if (field === "title") return card.dataset.title || "";
       if (field === "keyword") return card.dataset.keywords || "";
       if (field === "abstract") return getLowerAbstract(card);
       if (field === "author") return card.dataset.authors || "";
+      if (field === "institution") return getLowerInstitutions(card);
       if (field === "session") return card.dataset.session || "";
       return [
         card.dataset.title || "",
         card.dataset.authors || "",
         card.dataset.keywords || "",
         getLowerAbstract(card),
+        getLowerInstitutions(card),
         card.dataset.session || "",
         card.dataset.event || "",
         card.dataset.award || "",
@@ -717,6 +733,7 @@ const typeOptions = groupProgramTypeOptions(
       box.replaceChildren();
       const field = getSearchField();
       const searchKeywords = field === "any" || field === "keyword";
+      const searchInstitutions = field === "any" || field === "institution";
       const searchAbstract = field === "any" || field === "abstract";
       if (!query || card.hasAttribute("data-session-role")) {
         box.hidden = true;
@@ -762,6 +779,19 @@ const typeOptions = groupProgramTypeOptions(
           const chip = document.createElement("span");
           chip.className = "program-card__match-chip";
           highlight(keyword, chip);
+          row.append(chip);
+        }
+      }
+
+      if (searchInstitutions && getLowerInstitutions(card).includes(query)) {
+        const matched = (card.dataset.institutions || "")
+          .split("|")
+          .filter((name) => name.toLowerCase().includes(query));
+        const row = addRow("Institution", "school");
+        for (const name of matched) {
+          const chip = document.createElement("span");
+          chip.className = "program-card__match-chip";
+          highlight(name, chip);
           row.append(chip);
         }
       }
