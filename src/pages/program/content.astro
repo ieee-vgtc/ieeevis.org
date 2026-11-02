@@ -77,7 +77,15 @@ const sessionList = await fetchAllSessions();
 const paperEventByPrefix = new Map(
   Object.values(sessionList).map((event) => {
     const type = getPaperTypeFromEvent(event.event, event.event_type);
-    const soleSession = event.sessions.length === 1 ? event.sessions[0] : null;
+    // Events with several sessions but no paper slots (e.g. workshops) cannot
+    // say which session a paper is in, so they default to the earliest one.
+    const hasPaperSlots = event.sessions.some((session) =>
+      (session.time_slots as ProgramTimeSlot[]).some((slot) => slot.uid),
+    );
+    const soleSession =
+      event.sessions.length === 1 || (event.sessions.length > 1 && !hasPaperSlots)
+        ? event.sessions[0]
+        : null;
     return [
       event.event_prefix,
       {
@@ -183,10 +191,28 @@ const paperCards: ProgramPaperCard[] = papers.map((paper) => {
 // filter. Sessions are resolved the same way as for papers.
 const posters = await fetchAllPosters();
 
+// The program database has no v-poster sessions or poster slots; posters are
+// presented at the conference session titled "... Posters".
+const posterSession = Object.values(sessionList)
+  .flatMap((event) => event.sessions.map((session) => ({ event, session })))
+  .find(({ session }) => /\bposters\b/i.test(session.title));
+
 for (const poster of posters) {
   const linkedSlot = slotMetadataByPaperId.get(poster.id);
   const posterEvent = paperEventByPrefix.get(poster.event_prefix);
-  const resolvedSession = linkedSlot || posterEvent?.soleSession || null;
+  const resolvedSession =
+    linkedSlot ||
+    posterEvent?.soleSession ||
+    (posterSession && {
+      sessionSlug: `${posterSession.session.event_prefix}-${posterSession.session.session_id}`,
+      sessionTitle: posterSession.session.title,
+      roomName: posterSession.session.room_name,
+      eventTitle: posterSession.event.long_name,
+      startISO: posterSession.session.time_start,
+      endISO: posterSession.session.time_end,
+      startMs: Date.parse(posterSession.session.time_start),
+    }) ||
+    null;
   const authors = (poster.authors || [])
     .map((author) => normalizeText(author.name))
     .filter(Boolean);
