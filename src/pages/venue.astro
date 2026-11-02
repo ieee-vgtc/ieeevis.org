@@ -514,7 +514,14 @@ const MAPS_URL = "https://maps.app.goo.gl/bgkKXeTJZfwNCTrQ9";
       .map((sp) => ({ sp, list: sessionsFor(sp.roomId, state.day) }))
       .filter(({ sp, list }) => !(sp.combined || sp.area) || list.length);
     const used = spaces.filter((x) => x.list.length);
-    const idle = spaces.filter((x) => !x.list.length);
+    // Sections covered by an occupied combined room (e.g. St. George A-D) aren't idle.
+    const idle = spaces.filter(
+      ({ sp, list }) =>
+        !list.length &&
+        !used.some(({ sp: occupied }) =>
+          occupied.shapes.some((shape) => sp.shapes.includes(shape)),
+        ),
+    );
     const item = ({ sp, list }: { sp: Space; list: Session[] }) => {
       const open = state.room === sp.roomId;
       const meta = list.length
@@ -548,6 +555,12 @@ const MAPS_URL = "https://maps.app.goo.gl/bgkKXeTJZfwNCTrQ9";
         </button>
       </li>`
         : "";
+    // Re-rendering replaces the buttons; keep keyboard focus on the same room.
+    const focusedRoom =
+      document.activeElement instanceof HTMLButtonElement &&
+      document.activeElement.matches("#room-list .room")
+        ? document.activeElement.dataset.room
+        : null;
     $("#room-list").innerHTML =
       regRow +
       used.map(item).join("") +
@@ -555,6 +568,11 @@ const MAPS_URL = "https://maps.app.goo.gl/bgkKXeTJZfwNCTrQ9";
         ? `<li class="idle-head">Not in use on ${day.long.split(",")[0]}</li>` +
           idle.map(item).join("")
         : "");
+    if (focusedRoom) {
+      $$<HTMLButtonElement>("#room-list .room")
+        .find((b) => b.dataset.room === focusedRoom)
+        ?.focus({ preventScroll: true });
+    }
     $$<HTMLButtonElement>("#room-list .room").forEach((b) => {
       b.addEventListener("click", () => selectRoom(state.room === b.dataset.room ? null : b.dataset.room!));
       b.addEventListener("mouseenter", () => peek(b.dataset.room!));
@@ -639,8 +657,8 @@ const MAPS_URL = "https://maps.app.goo.gl/bgkKXeTJZfwNCTrQ9";
       (s) => s.day === state.day && /welcome reception/i.test(s.title),
     );
 
-    $$("[data-room]", $(".map-card")).forEach((el) => {
-      const shape = el.getAttribute("data-room")!;
+    $$("[data-room], polygon[data-area]", $(".map-card")).forEach((el) => {
+      const shape = el.getAttribute("data-room") ?? el.getAttribute("data-area")!;
       const used = spacesWithShape(shape).some((sp) => sessionsFor(sp.roomId, state.day).length);
       el.toggleAttribute("data-used", used);
     });
@@ -723,9 +741,11 @@ const MAPS_URL = "https://maps.app.goo.gl/bgkKXeTJZfwNCTrQ9";
   });
 
   // Clicking a room on the map picks the room the program uses that day.
-  $$(".map-card [data-room]").forEach((el) =>
+  // Event areas that double as session rooms (Staffordshire, the luncheon) count too;
+  // purely decorative areas have no matching space and so do nothing.
+  $$(".map-card [data-room], .map-card polygon[data-area]").forEach((el) =>
     el.addEventListener("click", () => {
-      const options = spacesWithShape(el.getAttribute("data-room")!);
+      const options = spacesWithShape(el.getAttribute("data-room") ?? el.getAttribute("data-area")!);
       const inUse = options.filter((sp) => sessionsFor(sp.roomId, state.day).length);
       const pick = inUse.find((sp) => !sp.combined) ?? inUse[0];
       if (pick) selectRoom(state.room === pick.roomId ? null : pick.roomId);
@@ -1074,6 +1094,13 @@ const MAPS_URL = "https://maps.app.goo.gl/bgkKXeTJZfwNCTrQ9";
   }
   .venue [data-layer="rooms"] [data-room][data-selected] {
     fill: color-mix(in srgb, var(--raspberry) 50%, white);
+  }
+  .venue polygon[data-area][data-used] {
+    cursor: pointer;
+  }
+  /* Labels sit over their areas; let clicks through to the polygon. */
+  .venue g[data-area] {
+    pointer-events: none;
   }
   .venue polygon[data-area][data-selected] {
     fill: color-mix(in srgb, #f79b4d 40%, #fcdcbf);
