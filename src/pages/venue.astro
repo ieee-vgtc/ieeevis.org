@@ -300,6 +300,7 @@ const MAPS_URL = "https://maps.app.goo.gl/bgkKXeTJZfwNCTrQ9";
                   hidden={i !== 0}
                 >
                   <Fragment set:html={svgs[f.id]} />
+                  <p class="floor-idle" hidden />
                 </div>
               ))
             }
@@ -309,7 +310,7 @@ const MAPS_URL = "https://maps.app.goo.gl/bgkKXeTJZfwNCTrQ9";
               <span class="key"><i class="sw reg"></i>Registration and speaker prep</span>
               <span class="key"><i class="sw area"></i>Posters, coffee and luncheon</span>
             </div>
-            <p class="map-note">
+            <p class="map-note" id="reception-note" hidden>
               <b>Welcome reception:</b> food and drinks are on both Floor 3 and Floor 4,
               next to the posters.
             </p>
@@ -395,6 +396,7 @@ const MAPS_URL = "https://maps.app.goo.gl/bgkKXeTJZfwNCTrQ9";
     combined?: boolean;
     area?: boolean;
     whenUsed?: boolean;
+    days?: string[];
   };
   type Session = {
     id: string;
@@ -494,6 +496,14 @@ const MAPS_URL = "https://maps.app.goo.gl/bgkKXeTJZfwNCTrQ9";
     }
   });
 
+  /** Registration hours for the selected day, when the desk is open. */
+  const registrationHours = () =>
+    data.registration.hours.find(
+      (h) => h.date === dayOf(state.day).date && h.open && h.close,
+    );
+  const registrationOn = (floorId: string) =>
+    data.registration.floor === floorId && !!registrationHours();
+
   // Room list for the current floor and day.
   function renderRooms() {
     const floor = data.floors.find((f) => f.id === state.floor)!;
@@ -528,7 +538,18 @@ const MAPS_URL = "https://maps.app.goo.gl/bgkKXeTJZfwNCTrQ9";
         }
       </li>`;
     };
+    // The registration desk, listed first on its floor while it's open.
+    const hours = registrationHours();
+    const regRow =
+      hours && registrationOn(state.floor)
+        ? `<li class="used${state.room === "registration" ? " open" : ""}">
+        <button type="button" class="room" data-room="registration" aria-pressed="${state.room === "registration"}">
+          <span class="nm">Registration</span><span class="meta">${clock(at(hours.date, hours.open!))} – ${clock(at(hours.date, hours.close!))}</span>
+        </button>
+      </li>`
+        : "";
     $("#room-list").innerHTML =
+      regRow +
       used.map(item).join("") +
       (idle.length
         ? `<li class="idle-head">Not in use on ${day.long.split(",")[0]}</li>` +
@@ -566,13 +587,20 @@ const MAPS_URL = "https://maps.app.goo.gl/bgkKXeTJZfwNCTrQ9";
     $$<HTMLButtonElement>(".days .chip").forEach((b) =>
       b.setAttribute("aria-pressed", String(b.dataset.day === state.day)),
     );
+    const day = dayOf(state.day);
+    const dayName = day.long.split(",")[0];
+    // Event areas are drawn only on the days they're used.
+    const areaShown = (sp: Space) =>
+      (!sp.days || sp.days.includes(state.day)) &&
+      (!sp.whenUsed || sessionsFor(sp.roomId, state.day).length > 0);
     $$<HTMLButtonElement>(".tab").forEach((t) => {
-      const on = t.dataset.floor === state.floor;
+      const floorId = t.dataset.floor!;
+      const on = floorId === state.floor;
       t.setAttribute("aria-selected", String(on));
       t.tabIndex = on ? 0 : -1;
       const n = new Set(
         data.spaces
-          .filter((sp) => sp.floor === t.dataset.floor && !sp.combined && !sp.area)
+          .filter((sp) => sp.floor === floorId && !sp.combined && !sp.area)
           .filter((sp) =>
             data.spaces.some(
               (o) =>
@@ -582,9 +610,34 @@ const MAPS_URL = "https://maps.app.goo.gl/bgkKXeTJZfwNCTrQ9";
           )
           .map((sp) => sp.roomId),
       ).size;
-      $("[data-count]", t).textContent = n ? `${n} room${n > 1 ? "s" : ""} in use` : "No rooms in use";
+      const registration = registrationOn(floorId);
+      // A floor with nothing going on that day is faded, tab and map.
+      const active =
+        n > 0 ||
+        registration ||
+        data.spaces.some(
+          (sp) =>
+            sp.floor === floorId &&
+            (sessionsFor(sp.roomId, state.day).length || (sp.days && areaShown(sp))),
+        );
+      const showing = isMarker(state.room) && data.markers[state.room!] === floorId;
+      const idle = !active && !showing;
+      t.toggleAttribute("data-idle", !active);
+      $("[data-count]", t).textContent = n
+        ? `${n} room${n > 1 ? "s" : ""} in use`
+        : registration
+          ? "Registration open"
+          : "No rooms in use";
+      const panel = $(`.panel[data-floor="${floorId}"]`);
+      panel.hidden = !on;
+      panel.toggleAttribute("data-idle", idle);
+      const note = $(".floor-idle", panel);
+      note.hidden = !idle;
+      note.textContent = `Nothing scheduled on this floor on ${dayName}`;
     });
-    $$(".panel").forEach((p) => (p.hidden = p.dataset.floor !== state.floor));
+    $("#reception-note").hidden = !data.sessions.some(
+      (s) => s.day === state.day && /welcome reception/i.test(s.title),
+    );
 
     $$("[data-room]", $(".map-card")).forEach((el) => {
       const shape = el.getAttribute("data-room")!;
@@ -593,7 +646,7 @@ const MAPS_URL = "https://maps.app.goo.gl/bgkKXeTJZfwNCTrQ9";
     });
     $$("[data-area]", $(".map-card")).forEach((el) => {
       const sp = data.spaces.find((s) => s.roomId === el.getAttribute("data-area"));
-      if (sp?.whenUsed) el.toggleAttribute("hidden", !sessionsFor(sp.roomId, state.day).length);
+      if (sp) el.toggleAttribute("hidden", !areaShown(sp));
     });
     const sel = shapesOf(state.room);
     $$("[data-hl]").forEach((el) =>
@@ -970,6 +1023,38 @@ const MAPS_URL = "https://maps.app.goo.gl/bgkKXeTJZfwNCTrQ9";
     display: block;
     width: 100%;
     height: auto;
+    transition:
+      opacity 0.2s,
+      filter 0.2s;
+  }
+  /* A floor with nothing going on that day: faded, with a note over it. */
+  .venue .panel {
+    position: relative;
+  }
+  .venue .panel[data-idle] .floor-svg {
+    opacity: 0.3;
+    filter: grayscale(0.8);
+  }
+  .venue .floor-idle {
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: max-content;
+    max-width: 80%;
+    height: fit-content;
+    padding: 8px 16px;
+    text-align: center;
+    font: 700 15px var(--body);
+    color: var(--brown);
+    background: var(--white);
+    border-radius: 999px;
+    box-shadow: 0 1px 6px rgb(0 0 0 / 0.18);
+    pointer-events: none;
+  }
+  .venue .tab[data-idle] b,
+  .venue .tab[data-idle] .sum,
+  .venue .tab[data-idle] .count {
+    opacity: 0.55;
   }
   .venue [data-layer="annotations"],
   .venue [data-layer="highlight"] {

@@ -41,7 +41,14 @@ export interface VenueSpace {
   area?: boolean;
   /** Drawn on the map only on days it's used. */
   whenUsed?: boolean;
+  /** Drawn on the map only on these days (day ids). */
+  days?: string[];
 }
+
+/** Posters go up Tuesday night and stay until Friday. */
+const POSTER_DAYS = ["tue", "wed", "thu", "fri"];
+/** Coffee breaks run Monday through Friday. */
+const COFFEE_DAYS = ["mon", "tue", "wed", "thu", "fri"];
 
 export const SPACES: VenueSpace[] = [
   {
@@ -87,6 +94,23 @@ export const SPACES: VenueSpace[] = [
     floor: "3",
     shapes: ["staffordshire"],
     area: true,
+    days: POSTER_DAYS,
+  },
+  {
+    roomId: "coffee",
+    name: "Coffee breaks, Essex Foyer",
+    floor: "3",
+    shapes: ["coffee"],
+    area: true,
+    days: COFFEE_DAYS,
+  },
+  {
+    roomId: "posters",
+    name: "Posters, America Foyer",
+    floor: "4",
+    shapes: ["posters"],
+    area: true,
+    days: POSTER_DAYS,
   },
   {
     roomId: "america_north",
