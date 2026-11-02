@@ -19,6 +19,8 @@ export type ProgramPaperCard = {
   sessionLabel: string;
   scheduleLabel: string;
   startMs: number;
+  /** End of the slot or session; lets the page mark what is happening now. */
+  endMs?: number;
   doiUrl: string | null;
   preprintUrl: string | null;
   supplementalUrl: string | null;
@@ -47,6 +49,7 @@ export type ProgramSessionRole = {
   scheduleLabel: string;
   roomName: string;
   startMs: number;
+  endMs?: number;
 };
 
 export type ProgramPapersBrowserProps = {

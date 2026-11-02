@@ -173,6 +173,9 @@ const paperCards: ProgramPaperCard[] = papers.map((paper) => {
       resolvedSession?.startMs && Number.isFinite(resolvedSession.startMs)
         ? resolvedSession.startMs
         : Number.MAX_SAFE_INTEGER,
+    endMs: resolvedSession?.endISO
+      ? Date.parse(resolvedSession.endISO)
+      : undefined,
     doiUrl: paper.doi ? `https://doi.org/${paper.doi}` : null,
     preprintUrl: normalizeText(paper.preprint_link) || null,
     supplementalUrl: normalizeText(paper.open_access_supplemental_link) || null,
@@ -226,6 +229,9 @@ for (const poster of posters) {
       resolvedSession?.startMs && Number.isFinite(resolvedSession.startMs)
         ? resolvedSession.startMs
         : Number.MAX_SAFE_INTEGER,
+    endMs: resolvedSession?.endISO
+      ? Date.parse(resolvedSession.endISO)
+      : undefined,
     doiUrl: poster.doi ? `https://doi.org/${poster.doi}` : null,
     preprintUrl: normalizeText(poster.preprint_link) || null,
     supplementalUrl:
@@ -311,6 +317,7 @@ for (const event of Object.values(sessionList)) {
         sessionLabel: session.title,
         scheduleLabel: `${conferenceDateTimeFormatter.format(new Date(slot.time_start))} - ${session.title}`,
         startMs: Date.parse(slot.time_start),
+        endMs: Date.parse(slot.time_end || session.time_end),
         doiUrl: null,
         preprintUrl: null,
         supplementalUrl: null,
@@ -351,6 +358,7 @@ for (const event of Object.values(sessionList)) {
     sessionLabel: session.title,
     scheduleLabel: `${conferenceDateTimeFormatter.format(new Date(session.time_start))} - ${session.title}`,
     startMs: Date.parse(session.time_start),
+    endMs: Date.parse(session.time_end),
     doiUrl: null,
     preprintUrl: null,
     supplementalUrl: null,
@@ -392,6 +400,7 @@ const sessionRoles: ProgramSessionRole[] = Object.values(sessionList)
           : "Time TBA",
         roomName: session.room_name,
         startMs: Date.parse(session.time_start),
+        endMs: Date.parse(session.time_end),
       });
       // Panelists are the presenters on a panel's slots.
       const panelists = [
