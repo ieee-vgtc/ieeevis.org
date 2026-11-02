@@ -304,7 +304,11 @@ menu:
                   - text: "VISKids Childcare Grants"
                     description: "Supporting our VISKids and young families"
                     url: "/info/inclusion/viskids-child-care-grants"
-                    is_new: false
+          - heading: "Code of Conduct"
+            heading_url: "/info/inclusion/code-of-conduct"
+            description: "The IEEE VIS Code of Conduct"
+            is_new:
+              false
 
               # - text: "Accessibility"
               #   description: "Supporting access for all attendees"
@@ -563,10 +567,10 @@ menu:
             columns:
               - links:
                   - text: "How to Host IEEE VIS"
-                    description: "Guidelines to bid for a future location of IEEE VIS"
+                    # description: "Guidelines to bid for a future location of IEEE VIS"
                     url: "/governance/bids"
                   - text: "Being General Chair of IEEE VIS"
-                    description: "The IEEE VIS General Chair role"
+                    # description: "The IEEE VIS General Chair role"
                     url: "/governance/generalChairs"
 
       - subsections:
@@ -601,9 +605,6 @@ menu:
           # - heading: "Web Documentation"
           #   description: "Information on website updates"
           #   heading_url: "/info/contributing"
-          - heading: "Code of Conduct"
-            heading_url: "/info/inclusion/code-of-conduct"
-            description: "The IEEE VIS Code of Conduct"
 
           # - heading: "Social Media"
           #   columns:
