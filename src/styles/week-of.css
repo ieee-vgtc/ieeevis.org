@@ -1718,3 +1718,13 @@
     width: 100%;
   }
 }
+
+/* "Show by time" view: day headings span the whole card grid. */
+.papers-grid > .papers-day-header {
+  grid-column: 1 / -1;
+  margin-bottom: 0;
+}
+
+.papers-grid > .papers-day-header:not(:first-child) {
+  margin-top: 0.9rem;
+}
