@@ -6,33 +6,11 @@ interface CarouselItem {
   image: string;
   buttonText: string;
   buttonUrl: string;
-  /** Optional second button, shown next to the first. */
-  secondaryButtonText?: string;
-  secondaryButtonUrl?: string;
   active: string;
   description?: string;
   darken?: boolean;
   imagePosition?: string;
 }
-function SecondaryButton({
-  item,
-  className = "",
-}: {
-  item: CarouselItem;
-  className?: string;
-}) {
-  if (!item.secondaryButtonText || !item.secondaryButtonUrl) return null;
-  return (
-    <a
-      href={withBaseURL(item.secondaryButtonUrl)}
-      className={`button ${className}`.trim()}
-      style={{ marginLeft: "0.75rem" }}
-    >
-      {item.secondaryButtonText}
-    </a>
-  );
-}
-
 export default function Carousel({ items }: { items: CarouselItem[] }) {
   const [current, setCurrent] = useState(0);
 
@@ -87,7 +65,6 @@ export default function Carousel({ items }: { items: CarouselItem[] }) {
                     <a href={withBaseURL(item.buttonUrl)} className="button">
                       {item.buttonText}
                     </a>
-                    <SecondaryButton item={item} />
                   </div>
                 ) : (
                   <div className="carousel-caption d-none d-md-block bg-dark my-4 p-2 pb-5">
@@ -99,7 +76,6 @@ export default function Carousel({ items }: { items: CarouselItem[] }) {
                     >
                       {item.buttonText}
                     </a>
-                    <SecondaryButton item={item} className="bg-primary" />
                   </div>
                 ))}
             </div>
