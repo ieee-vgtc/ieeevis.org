@@ -4,6 +4,11 @@
 #   buttonUrl: "/info/call-participation/call-for-participation"
 #   active: "active"
 
+- title: "Venue Map: Find Your Way at VIS"
+  image: "venue-map.png"
+  buttonText: "Boston Venue Map"
+  buttonUrl: "/venue/"
+
 - title: "Cluster: The Practitioners' Summit at VIS"
   image: "carousel-cluster-promo2.png"
   buttonText: "Cluster Program"
@@ -33,8 +38,6 @@
   image: "boston_skyline.jpg"
   buttonText: "Destination Information"
   buttonUrl: "/destination"
-  secondaryButtonText: "Venue Map"
-  secondaryButtonUrl: "/venue/"
 # - title: "The Road to VIS 2026"
 #   image: "blog_road_to_vis26.jpg"
 #   buttonText: "Read the Blog"
