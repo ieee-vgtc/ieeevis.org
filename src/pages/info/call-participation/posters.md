@@ -46,7 +46,15 @@ All **deadlines are at 11:59pm (23:59) AoE** Anywhere on Earth (AoE).
 
 A PDF copy of the display poster must be submitted on PCS by the camera-ready deadline for inclusion in the online program.
 
-We will provide contact points to print posters locally.
+You will have to bring your printed poster. If you plan to print on-site, there are two **FedEx Print Centers** nearby the conference, which should be capable of printing posters (and usually can handle them relatively quickly): [FedEx 110 Huntington Ave (google maps link)](https://maps.app.goo.gl/V86iaFrqG9uFELVs5?g_st=ic) and [FedEx 131 Dartmouth St (google maps link)](https://maps.app.goo.gl/QSr5mpQzde2QrHjp8?g_st=ic)
+
+Other suggestions are
+* [MIT Copytech](https://copytech.mit.edu)
+* [Boston Business Printing](https://www.bostonbusinessprinting.com/)
+* [ADI Print Solutions](https://digitalprintboston.com/product/brochures)
+* [Staples, 1 Washington Street](https://stores.staples.com/ma/boston/1-washington-street)
+
+Please make sure to reach out to them in time to assure your poster is ready for the session.
 
 VIS has no specific formatting requirements or template for display posters. However, all posters must
 
