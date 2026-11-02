@@ -433,13 +433,14 @@ const MAPS_URL = "https://maps.app.goo.gl/bgkKXeTJZfwNCTrQ9";
 
   const params = new URLSearchParams(location.search);
   // ?today=2026-11-10T09:30 previews the page at a time during the conference.
-  const now = params.get("today")
+  let now = params.get("today")
     ? new Date(
         params.get("today")!.length > 10
           ? `${params.get("today")}:00${data.registration.offset}`
           : `${params.get("today")}T12:00:00${data.registration.offset}`,
       )
     : new Date();
+  if (Number.isNaN(now.getTime())) now = new Date();
   const todayDate = new Intl.DateTimeFormat("en-CA", {
     timeZone: "America/New_York",
     year: "numeric",
