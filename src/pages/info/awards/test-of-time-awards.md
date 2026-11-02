@@ -52,6 +52,8 @@ Arvind Satyanarayan, Dominik Moritz, Kanit Wongsuphasawat, Jeffrey Heer
 <br />
 [10.1109/TVCG.2016.2599030](https://doi.org/10.1109/TVCG.2016.2599030)
 
+The paper introduces Vega-Lite, a groundbreaking declarative grammar for interactive visualization that has fundamentally transformed how visualizations are designed and created. By combining an elegant, concise specification language with powerful mechanisms for visual encoding, composition, and interaction, the authors established a framework that makes sophisticated interactive visualizations accessible without low-level programming. Beyond its conceptual contributions, Vega-Lite has become one of the most influential technologies in the visualization ecosystem, serving as the foundation for widely adopted tools and libraries, including Altair, and enabling visualization across research, education, and industry. Its impact extends far beyond the visualization community, bringing principles of effective visualization design to a broad audience of data scientists and practitioners. The remarkable success and lasting adoption of Vega-Lite demonstrate how foundational research can shape an entire field and become an indispensable part of everyday practice.
+
 <hr />
 
 ## VAST
