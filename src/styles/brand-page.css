@@ -1,0 +1,305 @@
+/* Shared look for the full-bleed attendee pages (/register/, /venue/): peach
+   bands, Zilla Slab headings, notched white cards and the dashed rule that
+   ends in a ring. Everything is scoped under .brand-page; each page adds its
+   own class (.reg, .venue) for the rest. */
+
+/* Brand tokens, mapped onto the site theme (src/styles/theme.css). Peach-50
+   and ink aren't in the theme. */
+.brand-page {
+  --orange: var(--color-primary, #df6824);
+  --orange-800: var(--color-primary-800, #934e13);
+  --orange-700: var(--color-primary-700, #c4681a);
+  --orange-500: var(--color-primary-500, #f79b4d);
+  --orange-200: var(--color-primary-200, #f9b479);
+  --raspberry: var(--color-secondary, #bb4a72);
+  --raspberry-200: var(--color-secondary-200, #ed74b5);
+  /* Raspberry for small text on peach/peach-50, where the brand raspberry is
+     under 4.5:1. */
+  --raspberry-ink: #9e3a5f;
+  --brown: var(--color-accent, #693a19);
+  --peach: var(--color-accent-secondaryBackground, #f3dfcf);
+  --peach-50: #fbf3ec;
+  --ink: #3b352f;
+  --gray-700: var(--color-gray-700, #616161);
+  --white: #fff;
+  --notch: 18px;
+  --display: var(--font-display, "Zilla Slab", Georgia, serif);
+  --body: var(--font-body, "Fira Sans", system-ui, sans-serif);
+  --max: 1140px;
+  background: var(--peach-50);
+  color: var(--ink);
+  font: 400 17px/1.55 var(--body);
+}
+/* The site's main gets top padding on phones under the fixed nav; let the hero meet the nav. */
+@media (max-width: 767px) {
+  .brand-page {
+    margin-top: -1.5rem;
+  }
+  .brand-page section {
+    scroll-margin-top: 70px;
+  }
+}
+.brand-page a {
+  color: var(--orange-800);
+  text-decoration: underline;
+}
+.brand-page p {
+  margin: 1em 0;
+}
+.brand-page h1,
+.brand-page h2,
+.brand-page h3 {
+  font-family: var(--display);
+  font-weight: 700;
+  line-height: 1.08;
+  margin: 0;
+  color: inherit;
+}
+.brand-page .wrap {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0 16px;
+}
+@media (min-width: 760px) {
+  .brand-page .wrap {
+    padding: 0 32px;
+  }
+}
+.brand-page .kicker {
+  font: 700 13px/1.2 var(--body);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--raspberry-ink);
+}
+.brand-page .notch {
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% - var(--notch)),
+    calc(100% - var(--notch)) 100%,
+    0 100%
+  );
+}
+
+/* Signature rule: dashed line ending in an open ring. */
+.brand-page .rule {
+  display: flex;
+  align-items: center;
+  color: var(--raspberry);
+}
+.brand-page .rule::before {
+  content: "";
+  flex: 1;
+  border-top: 2px dashed currentColor;
+}
+.brand-page .rule::after {
+  content: "";
+  width: 12px;
+  height: 12px;
+  border: 2px solid currentColor;
+  border-radius: 50%;
+  flex: none;
+}
+
+.brand-page .btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 22px;
+  font: 700 19px/1 var(--body);
+  text-decoration: none;
+  border: 0;
+  cursor: pointer;
+}
+.brand-page .btn-primary {
+  background: var(--orange-700);
+  color: var(--white);
+}
+.brand-page .btn-primary:hover {
+  background: var(--orange-800);
+}
+.brand-page .btn svg {
+  width: 18px;
+  height: 18px;
+}
+.brand-page .btn-small {
+  padding: 10px 14px;
+  font-size: 15px;
+  background: var(--orange-800);
+  color: var(--white);
+}
+.brand-page .btn-small:hover {
+  background: var(--brown);
+}
+.brand-page :focus-visible {
+  outline: 3px solid var(--raspberry);
+  outline-offset: 3px;
+}
+.brand-page .closing :focus-visible {
+  outline-color: var(--white);
+}
+
+/* Hero */
+.brand-page .hero {
+  background: var(--peach);
+  padding: 36px 0 56px;
+}
+.brand-page .hero h1 {
+  font-size: clamp(38px, 5.4vw, 64px);
+  color: var(--brown);
+  margin-top: 12px;
+}
+.brand-page .hero h1 em {
+  font-style: normal;
+  color: var(--raspberry);
+}
+.brand-page .hero p.lede {
+  font-size: clamp(17px, 1.9vw, 20px);
+  max-width: 52ch;
+  color: var(--brown);
+  margin: 14px 0 0;
+}
+.brand-page .hero .rule {
+  max-width: 420px;
+  margin: 18px 0 14px;
+}
+.brand-page .hero-grid {
+  display: grid;
+  gap: 32px;
+}
+.brand-page .facts {
+  align-self: end;
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-auto-flow: column;
+  gap: 4px 24px;
+  justify-content: start;
+}
+.brand-page .facts div {
+  font: 700 clamp(30px, 3.6vw, 40px) / 1 var(--display);
+  color: var(--orange-800);
+}
+.brand-page .facts span {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--brown);
+}
+@media (min-width: 900px) {
+  .brand-page .hero-grid {
+    grid-template-columns: 1fr auto;
+  }
+  .brand-page .facts {
+    gap: 4px 32px;
+  }
+}
+
+/* Sections */
+.brand-page section {
+  padding: 56px 0;
+}
+.brand-page .sec-head h2 {
+  font-size: clamp(32px, 5vw, 48px);
+  color: var(--brown);
+  margin-top: 8px;
+}
+.brand-page .sec-head p {
+  margin: 10px 0 0;
+  max-width: 60ch;
+  color: var(--brown);
+}
+.brand-page .note {
+  font-size: 14px;
+  color: var(--brown);
+  margin: 8px 0 0;
+}
+
+/* Pill buttons */
+.brand-page .chip {
+  font: 500 15px var(--body);
+  padding: 8px 14px;
+  border: 2px solid var(--brown);
+  background: transparent;
+  color: var(--brown);
+  cursor: pointer;
+  border-radius: 999px;
+}
+.brand-page .chip:hover,
+.brand-page .chip[aria-pressed="true"],
+.brand-page .chip[aria-selected="true"] {
+  background: var(--brown);
+  color: var(--white);
+}
+
+/* FAQ */
+.brand-page .faq {
+  max-width: 820px;
+  margin-top: 24px;
+}
+.brand-page details {
+  border-top: 1px solid #e3cdb9;
+}
+.brand-page details:last-child {
+  border-bottom: 1px solid #e3cdb9;
+}
+.brand-page summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 18px 40px 18px 0;
+  position: relative;
+  font: 700 20px var(--display);
+  color: var(--brown);
+}
+.brand-page summary::-webkit-details-marker {
+  display: none;
+}
+.brand-page summary::after {
+  content: "+";
+  position: absolute;
+  right: 6px;
+  top: 12px;
+  font: 400 28px var(--body);
+  color: var(--raspberry);
+}
+.brand-page details[open] summary::after {
+  content: "\2013";
+}
+.brand-page details p {
+  margin: 0 0 18px;
+  max-width: 64ch;
+}
+
+/* Closing call to action, above the site footer */
+.brand-page .closing {
+  background: var(--brown);
+  color: var(--peach);
+  padding: 48px 0;
+}
+.brand-page .closing h2 {
+  color: var(--white);
+  font-size: clamp(30px, 4.5vw, 44px);
+}
+.brand-page .closing a {
+  color: var(--white);
+}
+.brand-page .closing .closing-cta {
+  margin-top: 22px;
+}
+.brand-page .closing .links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 24px;
+  margin-top: 26px;
+  font-size: 15px;
+}
+.brand-page .closing .btn-primary {
+  background: var(--orange);
+}
+.brand-page .closing .btn-primary:hover {
+  background: var(--orange-700);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .brand-page * {
+    transition: none !important;
+  }
+}

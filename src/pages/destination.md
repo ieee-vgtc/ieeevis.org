@@ -36,6 +36,8 @@ VIS 2026 will take place at [The Westin Copley Place](https://www.marriott.com/e
 
 **10 Huntington Avenue, Boston, MA 02116, USA**
 
+<a href="/year/2026/venue/" class="button">View the venue map</a>
+
 ## Getting There
 
 ### Public Transport

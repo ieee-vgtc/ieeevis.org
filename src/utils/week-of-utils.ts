@@ -76,8 +76,20 @@ export const typeTextColors: Record<string, string> = Object.fromEntries(
   ]),
 );
 
-export const displayRoomName = (roomName: string) =>
-  roomName
+/** "St. George A-B" or "St. George (C+D)" -> "ab" / "cd"; "St. George" -> "abcd". */
+const stGeorgeSections = (part: string) =>
+  /^st\. george\b(.*)$/i
+    .exec(part)?.[1]
+    .toLowerCase()
+    .replace(/[^a-d]/g, "") || "abcd";
+
+export const displayRoomName = (roomName: string) => {
+  const parts = roomName
     .split("/")
-    .map((part) => part.trim().replace(/^hall\s+/i, ""))
-    .join(" / ");
+    .map((part) => part.trim().replace(/^hall\s+/i, ""));
+  if (parts.every((p) => /^st\. george\b/i.test(p))) {
+    const sections = new Set(parts.flatMap((p) => [...stGeorgeSections(p)]));
+    if (sections.size === 4) return "St. George A-D";
+  }
+  return parts.join(" / ");
+};

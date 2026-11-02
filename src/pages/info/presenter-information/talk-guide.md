@@ -61,6 +61,12 @@ As a guide, the length requirements for are as follows:
 - **VIS Short Papers Presentations**: The maximum length of your slot is **9 minutes**, including questions. We recommend a 7 minute talk with 2 minutes for questions. At least 1 minute must be left for questions
 - **Workshops and Tutorials**: Please consult your associated event organizers for information on presentation timing.
 
+## Speaker Prep Room
+
+If you are presenting in Boston, stop by the **speaker prep room** before your session. It is on **Floor 4 of The Westin Copley Place, in Independence A**. There you can check your slides and laptop on a projector, so there are no surprises when you get to your session room.
+
+<a href="/year/2026/venue/#speaker-prep" class="button">Find speaker prep on the venue map</a>
+
 ## Prerecorded Presentation Videos
 
 Prerecorded presentations are an **emergency option only**. They are reserved solely for presenters who are **unable to present at any of our in-person locations** (Boston, Paris, or Tianjin), for instance because of visa issues. If you are able to attend one of these locations, you are expected to present live.
