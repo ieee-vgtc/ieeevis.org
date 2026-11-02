@@ -181,3 +181,24 @@ export function instantPartsForMode(
   }
   return parts;
 }
+
+/** Just the clock time of an instant, e.g. "09:00", for the chosen mode. */
+export function startTimePartsForMode(
+  iso: string,
+  mode: TimezoneMode,
+  conferenceTimeZone: string,
+): TimePart[] {
+  const instant = new Date(iso);
+  const localTimeZone =
+    Intl.DateTimeFormat().resolvedOptions().timeZone || "UTC";
+  const showConference = mode === "conference" || mode === "both";
+  const parts: TimePart[] = [];
+  if (showConference) {
+    parts.push(moment(instant, time(instant, conferenceTimeZone)));
+  }
+  if (mode === "local" || mode === "both") {
+    if (showConference) parts.push(" | Local: ");
+    parts.push(moment(instant, time(instant, localTimeZone)));
+  }
+  return parts;
+}

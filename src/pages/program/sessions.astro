@@ -10,6 +10,8 @@ import {
   programTypeDropdownGroups,
 } from "../../utils/programEventTypeLabel";
 import { typeColors, typeTextColors } from "../../utils/week-of-utils";
+import TimeParts from "../../components/TimeParts.astro";
+import { startTimePartsForMode } from "../../utils/timezoneMode";
 
 const CONFERENCE_TIME_ZONE = "US/Eastern";
 
@@ -118,6 +120,15 @@ const dayGroups = Array.from(groupedSessions.entries())
       weekdayLabel: dayWeekFormatter.format(referenceDate),
       dateLabel: dayDateFormatter.format(referenceDate),
       sessions: sortedSessions,
+      timeGroups: Array.from(
+        sortedSessions
+          .reduce((groups, session) => {
+            const group = groups.get(session.startISO) || [];
+            group.push(session);
+            return groups.set(session.startISO, group);
+          }, new Map<string, SessionListItem[]>())
+          .entries(),
+      ).map(([startISO, groupSessions]) => ({ startISO, groupSessions })),
     };
   });
 
@@ -213,6 +224,10 @@ function formatPeopleForSession(session: SessionListItem) {
       filterBarLabel="Session type filters"
     />
 
+    <button type="button" class="scroll-to-live" data-scroll-to-live hidden>
+      Scroll to happening now
+    </button>
+
     <div class="sessions-day-list">
       {
         dayGroups.map((dayGroup) => (
@@ -228,33 +243,48 @@ function formatPeopleForSession(session: SessionListItem) {
               </p>
             </header>
 
-            <div
-              class="sessions-day-content"
-              role="list"
-              aria-label={`Sessions for ${dayGroup.weekdayLabel}, ${dayGroup.dateLabel}`}
-            >
-              {dayGroup.sessions.map((session) => (
-                <ProgramCard
-                  role="listitem"
-                  data-program-card
-                  data-type={session.eventType}
-                  data-day-group={dayGroup.dayKey}
-                  data-search={session.searchText}
-                  data-start={session.startISO}
-                  data-end={session.endISO}
-                  accentColor={typeColors[session.eventType] || "#df6824"}
-                  title={session.title}
-                  titleColor={typeTextColors[session.eventType] || "#111827"}
-                  titleHref={`/program/session/${session.eventSlug}`}
-                  eyebrow={session.eventTypeLabel}
-                  peopleLabel={figureOutPersonTypeLabel(session)}
-                  people={formatPeopleForSession(session)}
-                  links={[]}
-                  notes={formatNotesForSession(session)}
-                  scheduleStart={session.startISO}
-                />
-              ))}
-            </div>
+            {dayGroup.timeGroups.map(({ startISO, groupSessions }) => (
+              <div class="sessions-time-group" data-time-group>
+                <h3 class="sessions-time-heading">
+                  <span class="js-time-heading" data-start={startISO}>
+                    <TimeParts
+                      parts={startTimePartsForMode(
+                        startISO,
+                        "conference",
+                        CONFERENCE_TIME_ZONE,
+                      )}
+                    />
+                  </span>
+                </h3>
+                <div
+                  class="sessions-day-content"
+                  role="list"
+                  aria-label={`Sessions starting at ${dayGroup.weekdayLabel} ${startISO}`}
+                >
+                  {groupSessions.map((session) => (
+                    <ProgramCard
+                      role="listitem"
+                      data-program-card
+                      data-type={session.eventType}
+                      data-day-group={dayGroup.dayKey}
+                      data-search={session.searchText}
+                      data-start={session.startISO}
+                      data-end={session.endISO}
+                      accentColor={typeColors[session.eventType] || "#df6824"}
+                      title={session.title}
+                      titleColor={typeTextColors[session.eventType] || "#111827"}
+                      titleHref={`/program/session/${session.eventSlug}`}
+                      eyebrow={session.eventTypeLabel}
+                      peopleLabel={figureOutPersonTypeLabel(session)}
+                      people={formatPeopleForSession(session)}
+                      links={[]}
+                      notes={formatNotesForSession(session)}
+                      scheduleStart={session.startISO}
+                    />
+                  ))}
+                </div>
+              </div>
+            ))}
           </section>
         ))
       }
@@ -272,9 +302,15 @@ function formatPeopleForSession(session: SessionListItem) {
       isTimezoneMode,
       rangePartsForMode,
       renderTimeParts,
+      startTimePartsForMode,
       saveTimezoneMode,
       type TimezoneMode,
     } from "../../utils/timezoneMode";
+    import {
+      currentTimeMs,
+      markLiveCards,
+      setupScrollToLive,
+    } from "../../utils/liveNow";
     import {
       createUrlStateHistory,
       type UrlStateWriteOptions,
@@ -401,6 +437,17 @@ function formatPeopleForSession(session: SessionListItem) {
           renderTimeParts(node, rangeParts(startISO, endISO));
         }
 
+        for (const node of root.querySelectorAll<HTMLElement>(
+          ".js-time-heading",
+        )) {
+          const startISO = node.getAttribute("data-start");
+          if (!startISO) continue;
+          renderTimeParts(
+            node,
+            startTimePartsForMode(startISO, mode, conferenceTimeZone),
+          );
+        }
+
         if (tzDescription) {
           if (mode === "conference") {
             tzDescription.textContent = ` ${conferenceTimeZone} (${conferenceTimeZone}) `;
@@ -452,6 +499,14 @@ function formatPeopleForSession(session: SessionListItem) {
           const visible = cardMatchesFilters(card, selectedDay, query);
           card.hidden = !visible;
           if (visible) visibleCount += 1;
+        }
+
+        for (const group of root.querySelectorAll<HTMLElement>(
+          "[data-time-group]",
+        )) {
+          group.hidden = !group.querySelector(
+            "[data-program-card]:not([hidden])",
+          );
         }
 
         for (const group of dayGroups) {
@@ -571,9 +626,25 @@ function formatPeopleForSession(session: SessionListItem) {
 
       restoreFromUrl(new URLSearchParams(location.search));
 
+      const updateScrollButton = setupScrollToLive(
+        root.querySelector<HTMLElement>("[data-scroll-to-live]"),
+        root,
+        "[data-program-card]",
+      );
+      const refreshLiveSessions = () => {
+        markLiveCards(cards, currentTimeMs());
+        updateScrollButton();
+      };
+      // Filters change which live cards are visible, so recheck after them.
+      root.addEventListener("input", () => setTimeout(updateScrollButton));
+      root.addEventListener("click", () => setTimeout(updateScrollButton));
+      refreshLiveSessions();
+      window.setInterval(refreshLiveSessions, 30000);
+
       refreshFilterButtonState();
       refreshTimeRanges();
       applyFilters({ replace: true });
+      updateScrollButton();
     })();
   </script>
 </PageLayout>

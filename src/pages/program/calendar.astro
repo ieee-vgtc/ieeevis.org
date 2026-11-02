@@ -586,6 +586,10 @@ const frontmatter = {
       </a>
     </ProgramHeader>
 
+    <button type="button" class="scroll-to-live" data-scroll-to-live hidden>
+      Scroll to happening now
+    </button>
+
     <div class="calendar-timeline-scroll">
       <div
         class="calendar-timeline"
@@ -954,6 +958,11 @@ const frontmatter = {
       saveTimezoneMode,
       type TimezoneMode,
     } from "../../utils/timezoneMode";
+    import {
+      currentTimeMs,
+      markLiveCards,
+      setupScrollToLive,
+    } from "../../utils/liveNow";
     import {
       createUrlStateHistory,
       type UrlStateWriteOptions,
@@ -1706,6 +1715,11 @@ const frontmatter = {
         });
       }
 
+      const updateScrollButton = setupScrollToLive(
+        root.querySelector<HTMLElement>("[data-scroll-to-live]"),
+        root,
+        ".calendar-session",
+      );
       const liveCards = Array.from(
         root.querySelectorAll<HTMLElement>(
           "[data-session-card][data-start][data-end]",
@@ -1724,16 +1738,8 @@ const frontmatter = {
       const refreshLiveSessions = () => {
         // MECHANISM FOR TESTING THE DISPLAY, add the below to URL
 
-        // TEMP: ?now=2026-11-05T10:30:00-05:00 simulates the current time
-        const override = Date.parse(
-          new URLSearchParams(window.location.search).get("now") || "",
-        );
-        const now = Number.isNaN(override) ? Date.now() : override;
-        for (const card of liveCards) {
-          const start = Date.parse(card.dataset.start || "");
-          const end = Date.parse(card.dataset.end || "");
-          card.classList.toggle("is-live", now >= start && now < end);
-        }
+        const now = currentTimeMs();
+        markLiveCards(liveCards, now);
 
         const parts = Object.fromEntries(
           conferenceClock
@@ -1755,6 +1761,7 @@ const frontmatter = {
           track.appendChild(line);
           nowLines.push(line);
         }
+        updateScrollButton();
       };
       refreshLiveSessions();
       window.setInterval(refreshLiveSessions, 30000);
