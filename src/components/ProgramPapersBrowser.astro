@@ -20,6 +20,27 @@ const getContributionLabel = (eventType: string) =>
 import type { ProgramPapersBrowserProps } from "../types/programPaper";
 import { typeColors, typeTextColors } from "../utils/week-of-utils";
 
+// Day grouping matches the sessions page: days in the conference time zone.
+const dayParts = (ms: number) => {
+  if (!Number.isFinite(ms) || ms >= Number.MAX_SAFE_INTEGER) return null;
+  const date = new Date(ms);
+  const fmt = (options: Intl.DateTimeFormatOptions) =>
+    new Intl.DateTimeFormat("en-US", {
+      timeZone: "US/Eastern",
+      ...options,
+    }).format(date);
+  const [month, day, year] = fmt({
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).split("/");
+  return {
+    key: `${year}-${month}-${day}`,
+    weekday: fmt({ weekday: "long" }),
+    date: fmt({ month: "short", day: "numeric" }),
+  };
+};
+
 const toISO = (ms: number) =>
   Number.isFinite(ms) && ms < Number.MAX_SAFE_INTEGER
     ? new Date(ms).toISOString()
@@ -166,7 +187,9 @@ const typeOptions = groupProgramTypeOptions(
             <option value="any">any</option>
             <option value="title">title</option>
             <option value="keyword">keyword</option>
+            <option value="abstract">abstract</option>
             <option value="author">author</option>
+            <option value="institution">institution</option>
             <option value="session">session</option>
           </select>
           <button
@@ -196,10 +219,26 @@ const typeOptions = groupProgramTypeOptions(
           <button
             type="button"
             class="papers-choice-button hover-response--tint"
+            data-choice-value="abstract"
+            aria-pressed="false"
+          >
+            abstract
+          </button>
+          <button
+            type="button"
+            class="papers-choice-button hover-response--tint"
             data-choice-value="author"
             aria-pressed="false"
           >
             author
+          </button>
+          <button
+            type="button"
+            class="papers-choice-button hover-response--tint"
+            data-choice-value="institution"
+            aria-pressed="false"
+          >
+            institution
           </button>
           <button
             type="button"
@@ -252,6 +291,41 @@ const typeOptions = groupProgramTypeOptions(
             aria-pressed="false"
           >
             schedule
+          </button>
+        </div>
+      </label>
+
+      <label class="u-control">
+        Show by
+        <div
+          id="papers-view"
+          class="papers-choice-group u-responsive-choice-group"
+          role="group"
+          aria-label="Show by"
+        >
+          <select
+            class="u-select u-mobile-choice-select"
+            data-choice-select
+            aria-label="Show by"
+          >
+            <option value="list">list</option>
+            <option value="time">time</option>
+          </select>
+          <button
+            type="button"
+            class="papers-choice-button hover-response--tint is-active"
+            data-choice-value="list"
+            aria-pressed="true"
+          >
+            list
+          </button>
+          <button
+            type="button"
+            class="papers-choice-button hover-response--tint"
+            data-choice-value="time"
+            aria-pressed="false"
+          >
+            time
           </button>
         </div>
       </label>
@@ -338,12 +412,22 @@ const typeOptions = groupProgramTypeOptions(
             data-title={paper.title.toLowerCase()}
             data-authors={paper.authorNames.join(",").toLowerCase()}
             data-keywords={paper.keywordsLabel.toLowerCase()}
+            data-keywords-label={paper.keywordsLabel}
+            data-institutions={(paper.institutions || []).join("|")}
+            data-abstract={
+              paper.abstractText === "Abstract not available."
+                ? ""
+                : paper.abstractText
+            }
             data-session={paper.sessionLabel.toLowerCase()}
             data-session-key={paper.sessionKey || ""}
             data-event={paper.eventLabel.toLowerCase()}
             data-event-key={paper.eventKey || ""}
             data-award={paper.award?.toLowerCase() || ""}
             data-start-ms={paper.startMs}
+            data-day={dayParts(paper.startMs)?.key || ""}
+            data-day-weekday={dayParts(paper.startMs)?.weekday || ""}
+            data-day-date={dayParts(paper.startMs)?.date || ""}
             accentColor={typeColors[colorType] || "#f3f4f6"}
             titleColor={typeTextColors[colorType] || "#111827"}
             title={paper.title}
@@ -362,7 +446,9 @@ const typeOptions = groupProgramTypeOptions(
             bookmark={
               paper.titleHref ? undefined : { bookmarked: isBookmarked }
             }
-          />
+          >
+            <div class="program-card__match" data-match hidden />
+          </ProgramCard>
         );
       })
     }
@@ -377,6 +463,9 @@ const typeOptions = groupProgramTypeOptions(
           data-people={sessionRole.people.join("|").toLowerCase()}
           data-session={sessionRole.sessionTitle.toLowerCase()}
           data-start-ms={sessionRole.startMs}
+          data-day={dayParts(sessionRole.startMs)?.key || ""}
+          data-day-weekday={dayParts(sessionRole.startMs)?.weekday || ""}
+          data-day-date={dayParts(sessionRole.startMs)?.date || ""}
           accentColor={sessionRoleColor}
           titleColor={sessionRoleTextColor}
           title={sessionRole.sessionTitle}
@@ -441,7 +530,9 @@ const typeOptions = groupProgramTypeOptions(
       "any",
       "title",
       "keyword",
+      "abstract",
       "author",
+      "institution",
       "session",
     ]);
     const validTypeValues = new Set(
@@ -450,6 +541,7 @@ const typeOptions = groupProgramTypeOptions(
         .filter(Boolean),
     );
     const validSortModes = new Set(["title", "bookmarked", "schedule"]);
+    const viewControl = root.querySelector<HTMLElement>("#papers-view");
 
     const getStoredBookmarks = () => {
       try {
@@ -519,6 +611,10 @@ const typeOptions = groupProgramTypeOptions(
     let activeTypeFilter = "all";
 
     const restoreFromUrl = (params: URLSearchParams) => {
+      setChoiceValue(
+        viewControl,
+        params.get("view") === "time" ? "time" : "list",
+      );
       requestedSessionKey = params.get("session") || "";
       requestedEventKey = params.get("event") || "";
       if (searchInput) {
@@ -551,6 +647,8 @@ const typeOptions = groupProgramTypeOptions(
     const getSearchField = () => getChoiceValue(searchFieldControl, "any");
 
     const getSortMode = () => getChoiceValue(sortControl, "title");
+
+    const getViewMode = () => getChoiceValue(viewControl, "list");
 
     const getTypeFilter = () => activeTypeFilter;
 
@@ -591,6 +689,12 @@ const typeOptions = groupProgramTypeOptions(
         nextParams.delete("type");
       }
 
+      if (getViewMode() === "time") {
+        nextParams.set("view", "time");
+      } else {
+        nextParams.delete("view");
+      }
+
       if (sortMode !== "title") {
         nextParams.set("sort", sortMode);
       } else {
@@ -600,16 +704,34 @@ const typeOptions = groupProgramTypeOptions(
       urlHistory.write(nextParams, options);
     };
 
+    // Abstracts are long; lowercase each once instead of on every keystroke.
+    const lowerAbstracts = new WeakMap<HTMLElement, string>();
+    const getLowerAbstract = (card: HTMLElement) => {
+      let value = lowerAbstracts.get(card);
+      if (value === undefined) {
+        value = (card.dataset.abstract || "").toLowerCase();
+        lowerAbstracts.set(card, value);
+      }
+      return value;
+    };
+
+    const getLowerInstitutions = (card: HTMLElement) =>
+      (card.dataset.institutions || "").toLowerCase();
+
     const getFieldValue = (card: HTMLElement) => {
       const field = getSearchField();
       if (field === "title") return card.dataset.title || "";
       if (field === "keyword") return card.dataset.keywords || "";
+      if (field === "abstract") return getLowerAbstract(card);
       if (field === "author") return card.dataset.authors || "";
+      if (field === "institution") return getLowerInstitutions(card);
       if (field === "session") return card.dataset.session || "";
       return [
         card.dataset.title || "",
         card.dataset.authors || "",
         card.dataset.keywords || "",
+        getLowerAbstract(card),
+        getLowerInstitutions(card),
         card.dataset.session || "",
         card.dataset.event || "",
         card.dataset.award || "",
@@ -678,12 +800,104 @@ const typeOptions = groupProgramTypeOptions(
       );
     };
 
+    // Explain keyword/abstract hits on a card: matching keywords become chips
+    // and the abstract shows a highlighted excerpt around the first match.
+    const renderMatchReasons = (card: HTMLElement, query: string) => {
+      const box = card.querySelector<HTMLElement>("[data-match]");
+      if (!box) return;
+      box.replaceChildren();
+      const field = getSearchField();
+      const searchKeywords = field === "any" || field === "keyword";
+      const searchInstitutions = field === "any" || field === "institution";
+      const searchAbstract = field === "any" || field === "abstract";
+      if (!query || card.hasAttribute("data-session-role")) {
+        box.hidden = true;
+        return;
+      }
+
+      const highlight = (text: string, parent: HTMLElement) => {
+        const lower = text.toLowerCase();
+        let from = 0;
+        for (let at = lower.indexOf(query); at !== -1; at = lower.indexOf(query, from)) {
+          parent.append(text.slice(from, at));
+          const mark = document.createElement("mark");
+          mark.className = "program-card__mark";
+          mark.textContent = text.slice(at, at + query.length);
+          parent.append(mark);
+          from = at + query.length;
+        }
+        parent.append(text.slice(from));
+      };
+
+      const addRow = (label: string, icon: string) => {
+        const row = document.createElement("p");
+        row.className = "program-card__match-row";
+        const tag = document.createElement("span");
+        tag.className = "program-card__match-tag";
+        tag.title = `Matched in ${label.toLowerCase()}`;
+        const iconEl = document.createElement("i");
+        iconEl.className = "material-icons";
+        iconEl.setAttribute("aria-hidden", "true");
+        iconEl.textContent = icon;
+        tag.append(iconEl, label);
+        row.append(tag);
+        box.append(row);
+        return row;
+      };
+
+      if (searchKeywords && card.dataset.keywords?.includes(query)) {
+        const matched = (card.dataset.keywordsLabel || "")
+          .split(", ")
+          .filter((keyword) => keyword.toLowerCase().includes(query));
+        const row = addRow("Keyword", "sell");
+        for (const keyword of matched) {
+          const chip = document.createElement("span");
+          chip.className = "program-card__match-chip";
+          highlight(keyword, chip);
+          row.append(chip);
+        }
+      }
+
+      if (searchInstitutions && getLowerInstitutions(card).includes(query)) {
+        const matched = (card.dataset.institutions || "")
+          .split("|")
+          .filter((name) => name.toLowerCase().includes(query));
+        const row = addRow("Institution", "school");
+        for (const name of matched) {
+          const chip = document.createElement("span");
+          chip.className = "program-card__match-chip";
+          highlight(name, chip);
+          row.append(chip);
+        }
+      }
+
+      const abstract = card.dataset.abstract || "";
+      const abstractAt = searchAbstract
+        ? getLowerAbstract(card).indexOf(query)
+        : -1;
+      if (abstractAt !== -1) {
+        const start = Math.max(0, abstractAt - 70);
+        const end = Math.min(abstract.length, abstractAt + query.length + 110);
+        const row = addRow("Abstract", "notes");
+        const excerpt = document.createElement("span");
+        excerpt.className = "program-card__match-excerpt";
+        highlight(
+          `${start > 0 ? "…" : ""}${abstract.slice(start, end)}${end < abstract.length ? "…" : ""}`,
+          excerpt,
+        );
+        row.append(excerpt);
+      }
+
+      box.hidden = box.childElementCount === 0;
+    };
+
     const applyFilters = (options?: UrlStateWriteOptions) => {
       const query = getSearchQuery();
       const typeFilter = getTypeFilter();
-      const sortMode = getSortMode();
+      const timeView = getViewMode() === "time";
+      const sortMode = timeView ? "schedule" : getSortMode();
       const visibleCards = cards.filter((card) => {
-        const haystack = getFieldValue(card).toLowerCase();
+        const haystack = getFieldValue(card);
         const cardType = card.dataset.type || "";
         const typeMatch =
           typeFilter === "all" ||
@@ -720,7 +934,7 @@ const typeOptions = groupProgramTypeOptions(
         const roleDelta =
           Number(b.hasAttribute("data-session-role")) -
           Number(a.hasAttribute("data-session-role"));
-        if (roleDelta !== 0) return roleDelta;
+        if (!timeView && roleDelta !== 0) return roleDelta;
 
         // On the awards view, list best awards, then honorable mentions,
         // then everything else (e.g. the awards session itself).
@@ -771,13 +985,37 @@ const typeOptions = groupProgramTypeOptions(
       });
 
       if (grid) {
+        grid.querySelectorAll(".papers-day-header").forEach((el) => el.remove());
+        grid.classList.toggle("is-grouped-by-time", timeView);
+        let currentDay: string | null = null;
         for (const card of visibleCards) {
+          if (timeView) {
+            const day = card.dataset.day || "";
+            if (day !== currentDay) {
+              currentDay = day;
+              const header = document.createElement("header");
+              header.className = "sessions-day-header papers-day-header";
+              const heading = document.createElement("h2");
+              heading.textContent = day
+                ? card.dataset.dayWeekday || day
+                : "Time TBA";
+              header.append(heading);
+              if (day) {
+                const note = document.createElement("p");
+                note.textContent = card.dataset.dayDate || "";
+                header.append(note);
+              }
+              grid.appendChild(header);
+            }
+          }
           grid.appendChild(card);
         }
       }
 
+      const visibleSet = new Set(visibleCards);
       for (const card of cards) {
-        card.hidden = !visibleCards.includes(card);
+        card.hidden = !visibleSet.has(card);
+        if (visibleSet.has(card)) renderMatchReasons(card, query);
       }
 
       if (emptyState) {
@@ -816,10 +1054,15 @@ const typeOptions = groupProgramTypeOptions(
     }
 
     if (searchInput instanceof HTMLInputElement) {
+      let searchTimer: number | undefined;
       searchInput.addEventListener("input", () => {
         requestedSessionKey = "";
         requestedEventKey = "";
-        applyFilters({ burst: "search" });
+        window.clearTimeout(searchTimer);
+        searchTimer = window.setTimeout(
+          () => applyFilters({ burst: "search" }),
+          150,
+        );
       });
     }
 
@@ -870,6 +1113,28 @@ const typeOptions = groupProgramTypeOptions(
       button.addEventListener("click", () => {
         activeTypeFilter = button.getAttribute("data-type-filter") || "all";
         refreshTypeFilterState();
+        applyFilters();
+      });
+    }
+
+    if (viewControl) {
+      const viewButtons = Array.from(
+        viewControl.querySelectorAll<HTMLButtonElement>(
+          ".papers-choice-button[data-choice-value]",
+        ),
+      );
+      for (const button of viewButtons) {
+        button.addEventListener("click", () => {
+          const value = button.dataset.choiceValue;
+          if (!value || !setChoiceValue(viewControl, value)) return;
+          applyFilters();
+        });
+      }
+      const viewSelect = viewControl.querySelector<HTMLSelectElement>(
+        "[data-choice-select]",
+      );
+      viewSelect?.addEventListener("change", () => {
+        if (!setChoiceValue(viewControl, viewSelect.value)) return;
         applyFilters();
       });
     }

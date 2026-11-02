@@ -1198,6 +1198,65 @@
   gap: 0.3rem;
 }
 
+.program-card__match {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px dashed var(--color-gray-300, #d1d5db);
+}
+
+.program-card__match[hidden] {
+  display: none;
+}
+
+.program-card__match-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.3rem;
+  margin: 0;
+  color: var(--color-gray-700);
+  font-size: 0.82rem;
+  line-height: 1.4;
+}
+
+.program-card__match-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  padding: 0.05rem 0.4rem;
+  border-radius: 999px;
+  background: var(--program-card-accent, var(--color-accent));
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.program-card__match-tag .material-icons {
+  font-size: 0.85rem;
+}
+
+.program-card__match-chip {
+  padding: 0 0.4rem;
+  border: 1px solid var(--color-gray-300, #d1d5db);
+  border-radius: 999px;
+}
+
+.program-card__match-excerpt {
+  font-style: italic;
+}
+
+.program-card__mark {
+  padding: 0 0.1rem;
+  border-radius: 0.15rem;
+  background: #fde68a;
+  color: inherit;
+}
+
 .program-card__people-label {
   color: var(--color-gray-800);
   font-weight: 700;
@@ -1658,4 +1717,14 @@
     grid-template-columns: 1fr;
     width: 100%;
   }
+}
+
+/* "Show by time" view: day headings span the whole card grid. */
+.papers-grid > .papers-day-header {
+  grid-column: 1 / -1;
+  margin-bottom: 0;
+}
+
+.papers-grid > .papers-day-header:not(:first-child) {
+  margin-top: 0.9rem;
 }

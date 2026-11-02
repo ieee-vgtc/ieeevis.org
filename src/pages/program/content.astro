@@ -123,6 +123,15 @@ for (const event of Object.values(sessionList)) {
   }
 }
 
+const getInstitutions = (authors: { affiliation?: string }[] | undefined) =>
+  Array.from(
+    new Set(
+      (authors || [])
+        .map((author) => normalizeText(author.affiliation))
+        .filter(Boolean),
+    ),
+  );
+
 const papers = await fetchAllPapers();
 
 const paperCards: ProgramPaperCard[] = papers.map((paper) => {
@@ -149,6 +158,7 @@ const paperCards: ProgramPaperCard[] = papers.map((paper) => {
     id: paper.id,
     title: normalizeText(paper.title) || "Untitled submission",
     authorNames: authors,
+    institutions: getInstitutions(paper.authors),
     keywordsLabel:
       keywords.length > 0 ? keywords.join(", ") : "No keywords listed",
     abstractText: normalizeText(paper.abstract) || "Abstract not available.",
@@ -199,6 +209,7 @@ for (const poster of posters) {
     id: poster.id,
     title: normalizeText(poster.title) || "Untitled submission",
     authorNames: authors,
+    institutions: getInstitutions(poster.authors),
     keywordsLabel:
       keywords.length > 0 ? keywords.join(", ") : "No keywords listed",
     abstractText: normalizeText(poster.abstract) || "Abstract not available.",
