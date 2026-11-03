@@ -11,7 +11,6 @@ export interface ProgramTimeSlot {
   session_id: string;
   title: string;
   contributors: string[] | null;
-  /** The people behind `contributors`, with the emails Bluesky handles match on. */
   presenters?: ProgramPerson[] | null;
   paper_type: string;
   presentation_mode: string;
