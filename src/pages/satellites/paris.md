@@ -26,12 +26,12 @@ The local program will begin at 9:30 each morning and will feature a meeting wit
 
 |          Time | Tuesday, Nov 10      | Wednesday, Nov 11 | Thursday, Nov 12                    | Friday, Nov 13                              |
 | ------------: | :------------------- | :---------------- | :---------------------------------- | :------------------------------------------ |
-|  9:30 - 10:30 | Opening              | PhD Madness       | Amphi: Panel Visualization Future   | Amphi: Panel: Teaching Vis in the age of AI |
-|               |                      |                   | Room 2: Local paper presentations 1 | Room 2: Local paper presentations 2         |
+|  9:30 - 10:30 | Opening              | PhD Madness       |  Poster Viewing                     | Amphi: Panel: Teaching Vis in the age of AI |
+|               |                      |                   |                                     | Room 2: Local paper presentations 2         |
 |               |                      |                   |                                     |                                             |
 | 10:30 - 11:00 | _coffe break_        | _coffe break_     | _coffe break_                       | _coffe break_                               |
-| 11:00 - 12:00 | Amphi: Local Keynote | PhD Madness       | Poster Viewing                      | Amphi: Townhall: Satellite 2.0              |
-|               |                      |                   |                                     |                                             |
+| 11:00 - 12:00 | Amphi: Local Keynote | PhD Madness       |  Amphi: Panel Visualization Future  | Amphi: Townhall: Satellite 2.0              |
+|               |                      |                   |  Room 2: Local paper presentations 1|                                             |
 | 12:00 - 14:00 | _lunch_              | _lunch_           | _lunch_                             | _lunch_                                     |
 
 #### The Keynote
@@ -53,20 +53,20 @@ Organizer: Nathalie Bressa, Silvia Cazacu
 PhD students will present their work, followed by a meetup time.
 
 #### Panel on Visualization Future
-Panelists:  David Chavalarias, Heike Leitte, Min Chen, and Anastasia Bezerianos
+Panelists:  David Chavalarias, Heike Leitte, Min Chen, and Anastasia Bezerianos<br/>
 Organizer: Jean-Daniel Fekete
 
 #### Panel Teaching Vis in the age of AI
 Organizer: Vanessa P. Araya, Anastasia Bezerianos 
 
 #### Local Paper Presentations 1 (Thursday morning)
-Rita Sevastjanova: [Explainable Mapper: Charting LLM Embedding Spaces Using Perturbation-Based Exploration, Explanation, and Verification Agents](https://ieeevis.org/year/2026/program/content/165ac99f-d970-4208-bc64-a397a9932db7/)
-Nivan Ferreira: [A Neural Field-Based Approach for View Computation & Data Exploration in 3D Urban Environments](https://ieeevis.org/year/2026/program/content/de762216-da09-4b32-8c29-d909c2c6338a/)
+Rita Sevastjanova: [Explainable Mapper: Charting LLM Embedding Spaces Using Perturbation-Based Exploration, Explanation, and Verification Agents](https://ieeevis.org/year/2026/program/content/165ac99f-d970-4208-bc64-a397a9932db7/)<br/>
+Nivan Ferreira: [A Neural Field-Based Approach for View Computation & Data Exploration in 3D Urban Environments](https://ieeevis.org/year/2026/program/content/de762216-da09-4b32-8c29-d909c2c6338a/)<br/>
 Kaviru Gunaratne: [How Scale Breaks "Normalized Stress" and KL Divergence: Rethinking Quality Metrics](https://ieeevis.org/year/2026/program/content/a4f7037a-3d98-4820-8b91-63060c3a6ed3/)
 
 #### Local Paper Presentations 2 (Friday morning)
-Georgia Panagiotidou: [Designing Within the Lines: Practitioners' Perspectives and Visualisation Tool Evaluation in the Arabic Context](https://ieeevis.org/year/2026/program/content/58a422eb-27bb-4040-b2af-9ae443bfb671/)
-Lijie Yao: [Diving Deep into Time: Temporal Arrangements for Embedded Visualization in Swimming Videos](https://ieeevis.org/year/2026/program/content/1b1c6da1-4002-41c6-bee9-2d1496e1848a/)
+Georgia Panagiotidou: [Designing Within the Lines: Practitioners' Perspectives and Visualisation Tool Evaluation in the Arabic Context](https://ieeevis.org/year/2026/program/content/58a422eb-27bb-4040-b2af-9ae443bfb671/)<br/>
+Lijie Yao: [Diving Deep into Time: Temporal Arrangements for Embedded Visualization in Swimming Videos](https://ieeevis.org/year/2026/program/content/1b1c6da1-4002-41c6-bee9-2d1496e1848a/)<br/>
 Alexis Pister: [Designing a Visualization Atlas: Lessons & Reflections from The UK Co-Benefits Atlas for Climate Mitigation](https://ieeevis.org/year/2026/program/content/dfd9a2af-714a-4af3-8a61-214f2aa2a627/)
 
 #### Townhall: Satellite 2.0
