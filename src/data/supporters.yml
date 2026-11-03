@@ -103,7 +103,6 @@
       image: /assets/supporters/quaise.png
       url: "https://www.quaise.com/"
 
-
 - category: "Paris Satellite"
   image_size: 200
   supporters:
@@ -123,6 +122,8 @@
       image: /assets/satellite/LISN-200-wide.png
     - name: "Programme de recherche"
       image: /assets/satellite/PEPR-200-wide.jpg
+    - name: "Interactive Media Lab Dresden"
+      image: /assets/satellite/iml.jpg
 #  - category: VISAP
 #    image_size: 140
 #    supporters:
