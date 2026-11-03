@@ -586,6 +586,10 @@ const frontmatter = {
       </a>
     </ProgramHeader>
 
+    <button type="button" class="scroll-to-live" data-scroll-to-live hidden>
+      Scroll to happening now
+    </button>
+
     <div class="calendar-timeline-scroll">
       <div
         class="calendar-timeline"
@@ -903,6 +907,8 @@ const frontmatter = {
                   data-type={session.eventType}
                   data-day-group={dayGroup.dayKey}
                   data-search={session.searchText}
+                  data-start={session.startISO}
+                  data-end={session.endISO}
                   style={`--session-accent: ${typeColors[session.eventType] || "#6b7280"}`}
                 >
                   <p
@@ -952,6 +958,11 @@ const frontmatter = {
       saveTimezoneMode,
       type TimezoneMode,
     } from "../../utils/timezoneMode";
+    import {
+      currentTimeMs,
+      markLiveCards,
+      setupScrollToLive,
+    } from "../../utils/liveNow";
     import {
       createUrlStateHistory,
       type UrlStateWriteOptions,
@@ -1463,7 +1474,10 @@ const frontmatter = {
           if (!activeBar) return;
           const anchor =
             anchorMinute !== null
-              ? Math.min(endOf(activeBar), Math.max(startOf(activeBar), anchorMinute))
+              ? Math.min(
+                  endOf(activeBar),
+                  Math.max(startOf(activeBar), anchorMinute),
+                )
               : startOf(activeBar);
           const groupBars = clusterBars.filter(
             (b) =>
@@ -1627,10 +1641,7 @@ const frontmatter = {
       });
 
       // URL state takes precedence over saved preferences.
-      restoreFromUrl(
-        new URLSearchParams(window.location.search),
-        savedMode,
-      );
+      restoreFromUrl(new URLSearchParams(window.location.search), savedMode);
 
       if (timezoneControl) {
         const timezoneButtons = Array.from(
@@ -1703,6 +1714,57 @@ const frontmatter = {
           }
         });
       }
+
+      const updateScrollButton = setupScrollToLive(
+        root.querySelector<HTMLElement>("[data-scroll-to-live]"),
+        root,
+        ".calendar-session",
+      );
+      const liveCards = Array.from(
+        root.querySelectorAll<HTMLElement>(
+          "[data-session-card][data-start][data-end]",
+        ),
+      );
+      const nowLines: HTMLElement[] = [];
+      const conferenceClock = new Intl.DateTimeFormat("en-CA", {
+        timeZone: conferenceTimeZone,
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit",
+        hour: "2-digit",
+        minute: "2-digit",
+        hourCycle: "h23",
+      });
+      const refreshLiveSessions = () => {
+        // MECHANISM FOR TESTING THE DISPLAY, add the below to URL
+
+        const now = currentTimeMs();
+        markLiveCards(liveCards, now);
+
+        const parts = Object.fromEntries(
+          conferenceClock
+            .formatToParts(new Date(now))
+            .map((part) => [part.type, part.value]),
+        );
+        const dayKey = `${parts.year}-${parts.month}-${parts.day}`;
+        const minute = Number(parts.hour) * 60 + Number(parts.minute);
+        for (const line of nowLines) line.remove();
+        nowLines.length = 0;
+        const tracks = root.querySelectorAll<HTMLElement>(
+          `.calendar-day-column[data-day-group="${dayKey}"] .calendar-day-track`,
+        );
+        for (const track of tracks) {
+          const line = document.createElement("div");
+          line.className = "calendar-now-line";
+          line.setAttribute("aria-hidden", "true");
+          line.style.setProperty("--now-minute", String(minute));
+          track.appendChild(line);
+          nowLines.push(line);
+        }
+        updateScrollButton();
+      };
+      refreshLiveSessions();
+      window.setInterval(refreshLiveSessions, 30000);
 
       refreshFilterButtonState();
       refreshTimeRanges();

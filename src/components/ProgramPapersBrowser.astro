@@ -354,6 +354,10 @@ const typeOptions = groupProgramTypeOptions(
     </div>
   </ProgramHeader>
 
+  <button type="button" class="scroll-to-live" data-scroll-to-live hidden>
+    Scroll to happening now
+  </button>
+
   <div class="papers-grid" id="papers-grid">
     {
       papers.map((paper) => {
@@ -425,6 +429,8 @@ const typeOptions = groupProgramTypeOptions(
             data-event-key={paper.eventKey || ""}
             data-award={paper.award?.toLowerCase() || ""}
             data-start-ms={paper.startMs}
+            data-start={toISO(paper.startMs)}
+            data-end={paper.endMs ? toISO(paper.endMs) : undefined}
             data-day={dayParts(paper.startMs)?.key || ""}
             data-day-weekday={dayParts(paper.startMs)?.weekday || ""}
             data-day-date={dayParts(paper.startMs)?.date || ""}
@@ -463,6 +469,8 @@ const typeOptions = groupProgramTypeOptions(
           data-people={sessionRole.people.join("|").toLowerCase()}
           data-session={sessionRole.sessionTitle.toLowerCase()}
           data-start-ms={sessionRole.startMs}
+          data-start={toISO(sessionRole.startMs)}
+          data-end={sessionRole.endMs ? toISO(sessionRole.endMs) : undefined}
           data-day={dayParts(sessionRole.startMs)?.key || ""}
           data-day-weekday={dayParts(sessionRole.startMs)?.weekday || ""}
           data-day-date={dayParts(sessionRole.startMs)?.date || ""}
@@ -500,6 +508,18 @@ const typeOptions = groupProgramTypeOptions(
     createUrlStateHistory,
     type UrlStateWriteOptions,
   } from "../utils/urlStateHistory";
+  import {
+    TIMEZONE_MODE_EVENT,
+    getSavedTimezoneMode,
+    isTimezoneMode,
+    renderTimeParts,
+    startTimePartsForMode,
+  } from "../utils/timezoneMode";
+  import {
+    currentTimeMs,
+    markLiveCards,
+    setupScrollToLive,
+  } from "../utils/liveNow";
 
   (() => {
     const root = document.querySelector(".program-papers");
@@ -891,6 +911,28 @@ const typeOptions = groupProgramTypeOptions(
       box.hidden = box.childElementCount === 0;
     };
 
+    const updateScrollButton = setupScrollToLive(
+      root.querySelector<HTMLElement>("[data-scroll-to-live]"),
+      root,
+      "[data-program-card]",
+    );
+    const refreshLiveCards = () => {
+      markLiveCards(cards, currentTimeMs());
+      updateScrollButton();
+    };
+    window.addEventListener(TIMEZONE_MODE_EVENT, (event) => {
+      const mode = (event as CustomEvent<string>).detail;
+      if (!isTimezoneMode(mode)) return;
+      for (const node of root.querySelectorAll<HTMLElement>(
+        ".js-time-heading",
+      )) {
+        renderTimeParts(
+          node,
+          startTimePartsForMode(node.dataset.start || "", mode, "US/Eastern"),
+        );
+      }
+    });
+
     const applyFilters = (options?: UrlStateWriteOptions) => {
       const query = getSearchQuery();
       const typeFilter = getTypeFilter();
@@ -985,9 +1027,12 @@ const typeOptions = groupProgramTypeOptions(
       });
 
       if (grid) {
-        grid.querySelectorAll(".papers-day-header").forEach((el) => el.remove());
+        grid
+          .querySelectorAll(".papers-day-header, .papers-time-header")
+          .forEach((el) => el.remove());
         grid.classList.toggle("is-grouped-by-time", timeView);
         let currentDay: string | null = null;
+        let currentStart: string | null = null;
         for (const card of visibleCards) {
           if (timeView) {
             const day = card.dataset.day || "";
@@ -1006,6 +1051,26 @@ const typeOptions = groupProgramTypeOptions(
                 header.append(note);
               }
               grid.appendChild(header);
+              currentStart = null;
+            }
+            const start = card.dataset.start || "";
+            if (day && start && start !== currentStart) {
+              currentStart = start;
+              const heading = document.createElement("h3");
+              heading.className = "sessions-time-heading papers-time-header";
+              const time = document.createElement("span");
+              time.className = "js-time-heading";
+              time.dataset.start = start;
+              renderTimeParts(
+                time,
+                startTimePartsForMode(
+                  start,
+                  getSavedTimezoneMode(),
+                  "US/Eastern",
+                ),
+              );
+              heading.append(time);
+              grid.appendChild(heading);
             }
           }
           grid.appendChild(card);
@@ -1023,6 +1088,7 @@ const typeOptions = groupProgramTypeOptions(
       }
 
       refreshBookmarkState();
+      updateScrollButton();
       syncUrlParams(options);
     };
 
@@ -1163,6 +1229,8 @@ const typeOptions = groupProgramTypeOptions(
 
     refreshTypeFilterState();
     refreshBookmarkState();
+    refreshLiveCards();
+    window.setInterval(refreshLiveCards, 30000);
     applyFilters({ replace: true });
   })();
 </script>
