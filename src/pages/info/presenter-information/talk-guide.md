@@ -73,7 +73,7 @@ Prerecorded presentations are an **emergency option only**. They are reserved so
 
 If your presentation will be prerecorded, please prepare your video according to the following requirements:
 
-- **Format**: Standard full HD **1080p** video, encoded as **H.264** in an **MP4** container. Alternatively, a **4K** video encoded as **H.265** is also acceptable.
+- **Format**: Standard full HD **1080p** video (1920 x 1080), encoded as **H.264** in an **MP4** container. Alternatively, a **4K** video (3840 x 2160) encoded as **H.265** is also acceptable.
 - **Audio**: Make sure your audio is **clear and intelligible**. Record in a quiet environment and use a dedicated microphone or headset if possible.
 - **Copyrighted material**: Do not include copyrighted material, such as songs or images. Make sure to **properly cite** materials such as images.
 - **Length**: Your video **must not exceed the length of your presentation slot** (see [Presentation Length](#presentation-length) above).
