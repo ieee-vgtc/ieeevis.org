@@ -1,4 +1,5 @@
 ---
+import { venueRoomHref } from "../../utils/venueLink";
 import PageLayout from "../../layouts/PageLayout.astro";
 import ProgramHeader from "../../components/ProgramHeader.astro";
 import ProgramCard from "../../components/ProgramCard.astro";
@@ -24,6 +25,8 @@ type SessionListItem = {
   eventTypeLabel: string;
   dayKey: string;
   room: string;
+  /** The program's room id, for linking to the venue map. */
+  track: string;
   chairs: string[];
   organizers: string[];
   startISO: string;
@@ -91,6 +94,7 @@ const sessions: SessionListItem[] = Object.values(sessionList)
         eventTypeLabel: getProgramEventTypeCardLabel(eventType),
         dayKey,
         room: session.room_name,
+        track: session.track,
         chairs: session.chair || [],
         organizers: eventDefinition.organizers,
         startISO: session.time_start,
@@ -152,7 +156,9 @@ const typeOptions = groupProgramTypeOptions(sortedTypes.map((sessionType) => ({
 })));
 
 function formatNotesForSession(session: SessionListItem) {
-  return [`Room: ${session.room}`];
+  // The room links to the venue map when it's on the map.
+  const href = venueRoomHref(session.track, session.startISO, session.title);
+  return [{ label: "Room", text: session.room, href: href ?? undefined }];
 }
 // Workshops, tutorials, associated events, and contests are run by their
 // organizers, so show those on the card instead of the session chair when the

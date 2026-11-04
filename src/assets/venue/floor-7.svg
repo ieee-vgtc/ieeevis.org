@@ -163,16 +163,22 @@
   </g>
   <g id="rooms" stroke="#693a19" stroke-width="2" stroke-linejoin="round">
     <polygon id="room-empire" points="98.86,429.65 249.55,342.84 297.94,426.11 302.24,434.1 286.39,443.25 281.88,435.44 237.81,460.89 208,464.58 140.11,503.77" fill="#fff"/>
-    <polygon id="room-great-republic" points="249.55,342.84 387.91,262.51 435.99,345.78 297.94,426.11" fill="#fff"/>
+    <polygon id="area-great-republic" points="249.55,342.84 387.91,262.51 435.99,345.78 297.94,426.11" fill="#fcdcbf" stroke="#f79b4d" stroke-width="1.5" stroke-linejoin="round"/>
     <polygon id="room-mastiff" points="480.86,209.16 576.91,153.73 623.19,238.13 527.14,293.56" fill="#fff"/>
-    <polygon id="room-defender" points="140.11,503.77 208,464.58 225.68,495.05 281.52,495.82 281.52,505.3 310.28,505.3 310.28,588.83 186.97,588.83" fill="#fff"/>
+    <polygon id="area-defender" points="140.11,503.77 208,464.58 225.68,495.05 281.52,495.82 281.52,505.3 310.28,505.3 310.28,588.83 186.97,588.83" fill="#fcdcbf" stroke="#f79b4d" stroke-width="1.5" stroke-linejoin="round"/>
   </g>
   <g id="annotations" font-family="Fira Sans, sans-serif" text-anchor="middle">
     <g letter-spacing="0.04em">
       <text x="190" y="432" font-size="15" font-weight="700" fill="#693a19">EMPIRE</text>
-      <text x="343" y="349" font-size="15" font-weight="700" fill="#693a19">GREAT REPUBLIC</text>
       <text x="552" y="229" font-size="15" font-weight="700" fill="#693a19">MASTIFF</text>
-      <text x="238" y="550" font-size="15" font-weight="700" fill="#693a19">DEFENDER</text>
+    </g>
+    <g id="label-great-republic" font-size="13" font-weight="700" fill="#693a19">
+      <text x="343" y="342" text-anchor="middle">Student Volunteers</text>
+      <text x="343" y="356" text-anchor="middle" font-size="9.5" font-weight="500" fill="#7a6a5f" letter-spacing="0.04em">GREAT REPUBLIC</text>
+    </g>
+    <g id="label-defender" font-size="13" font-weight="700" fill="#693a19">
+      <text x="238" y="544" text-anchor="middle">VISKids</text>
+      <text x="238" y="558" text-anchor="middle" font-size="9.5" font-weight="500" fill="#7a6a5f" letter-spacing="0.04em">DEFENDER</text>
     </g>
     <g id="amenities" font-size="13" font-weight="500" fill="#693a19" text-anchor="start">
       <use href="#icon-elevator" transform="translate(606 487)"/>
@@ -183,8 +189,6 @@
   </g>
   <g id="highlight" fill="none" stroke="#bb4a72" stroke-width="6" stroke-linejoin="round">
     <polygon id="hl-empire" points="98.86,429.65 249.55,342.84 297.94,426.11 302.24,434.1 286.39,443.25 281.88,435.44 237.81,460.89 208,464.58 140.11,503.77"/>
-    <polygon id="hl-great-republic" points="249.55,342.84 387.91,262.51 435.99,345.78 297.94,426.11"/>
     <polygon id="hl-mastiff" points="480.86,209.16 576.91,153.73 623.19,238.13 527.14,293.56"/>
-    <polygon id="hl-defender" points="140.11,503.77 208,464.58 225.68,495.05 281.52,495.82 281.52,505.3 310.28,505.3 310.28,588.83 186.97,588.83"/>
   </g>
 </svg>

@@ -1,5 +1,6 @@
 import React from "react";
 import type { Session } from "../types/session";
+import { venueRoomHref } from "../utils/venueLink";
 
 // THIS CAN PROBABLY BE DELETED
 
@@ -65,7 +66,21 @@ export const SessionListing: React.FC<SessionListingProps> = ({
               </div>
             )}
 
-            <h3 className="session-room mt-4">{session.room_name}</h3>
+            <h3 className="session-room mt-4">
+              {(() => {
+                // Link to the room on the venue map when it's on the map.
+                const href = venueRoomHref(
+                  session.track,
+                  session.time_start,
+                  session.title,
+                );
+                return href ? (
+                  <a href={href}>{session.room_name}</a>
+                ) : (
+                  session.room_name
+                );
+              })()}
+            </h3>
 
             {!showTime && (
               <h4 className="session-list-date mt-3">

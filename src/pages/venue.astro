@@ -27,7 +27,7 @@ export const prerender = true;
 const page_info = {
   title: "Venue",
   description:
-    "Find your way around the Westin Copley Place at IEEE VIS 2026: registration hours, and floor plans of Floors 3, 4 and 7 with the rooms in use each day.",
+    "Find your way around the Westin Copley Place at IEEE VIS 2026: registration hours, and floor plans of Floors 3, 4 and 7 with the rooms that have sessions each day.",
   active_nav: "Attend",
   contact: "registration@ieeevis.org",
 };
@@ -248,7 +248,7 @@ const MAPS_URL = "https://maps.app.goo.gl/bgkKXeTJZfwNCTrQ9";
           <div class="kicker">Conference map</div>
           <h2>Three floors, one VIS.</h2>
           <p>
-            Pick a day to see which rooms are in use, then pick a room to see its
+            Pick a day to see which rooms have sessions, then pick a room to see its
             sessions.
           </p>
         </div>
@@ -305,10 +305,10 @@ const MAPS_URL = "https://maps.app.goo.gl/bgkKXeTJZfwNCTrQ9";
               ))
             }
             <div class="legend">
-              <span class="key"><i class="sw used"></i>In use that day</span>
-              <span class="key"><i class="sw idle"></i>Not in use that day</span>
+              <span class="key"><i class="sw used"></i>Sessions that day</span>
+              <span class="key"><i class="sw idle"></i>No sessions that day</span>
               <span class="key"><i class="sw reg"></i>Registration and speaker prep</span>
-              <span class="key"><i class="sw area"></i>Posters, coffee and luncheon</span>
+              <span class="key"><i class="sw area"></i>Special-use spaces</span>
             </div>
             <p class="map-note" id="reception-note" hidden>
               <b>Welcome reception:</b> food and drinks are on both Floor 3 and Floor 4,
@@ -397,6 +397,7 @@ const MAPS_URL = "https://maps.app.goo.gl/bgkKXeTJZfwNCTrQ9";
     area?: boolean;
     whenUsed?: boolean;
     days?: string[];
+    purpose?: string;
   };
   type Session = {
     id: string;
@@ -504,6 +505,14 @@ const MAPS_URL = "https://maps.app.goo.gl/bgkKXeTJZfwNCTrQ9";
   const registrationOn = (floorId: string) =>
     data.registration.floor === floorId && !!registrationHours();
 
+  // Event areas are drawn only on the days they're used.
+  const areaShown = (sp: Space) =>
+    (!sp.days || sp.days.includes(state.day)) &&
+    (!sp.whenUsed || sessionsFor(sp.roomId, state.day).length > 0);
+  // Special-use rooms (VISKids, volunteers) have no sessions; they're "open" instead.
+  const isOpen = (sp: Space, list: Session[]) =>
+    list.length > 0 || (!!sp.purpose && areaShown(sp));
+
   // Room list for the current floor and day.
   function renderRooms() {
     const floor = data.floors.find((f) => f.id === state.floor)!;
@@ -512,8 +521,8 @@ const MAPS_URL = "https://maps.app.goo.gl/bgkKXeTJZfwNCTrQ9";
     const spaces = data.spaces
       .filter((sp) => sp.floor === state.floor)
       .map((sp) => ({ sp, list: sessionsFor(sp.roomId, state.day) }))
-      .filter(({ sp, list }) => !(sp.combined || sp.area) || list.length);
-    const used = spaces.filter((x) => x.list.length);
+      .filter(({ sp, list }) => !(sp.combined || sp.area) || list.length || sp.purpose);
+    const used = spaces.filter((x) => isOpen(x.sp, x.list));
     // Sections covered by an occupied combined room (e.g. St. George A-D) aren't idle.
     const idle = spaces.filter(
       ({ sp, list }) =>
@@ -524,15 +533,20 @@ const MAPS_URL = "https://maps.app.goo.gl/bgkKXeTJZfwNCTrQ9";
     );
     const item = ({ sp, list }: { sp: Space; list: Session[] }) => {
       const open = state.room === sp.roomId;
+      const on = isOpen(sp, list);
       const meta = list.length
         ? `${list.length} session${list.length > 1 ? "s" : ""}`
-        : "Not in use";
-      return `<li class="${[open && "open", list.length && "used"].filter(Boolean).join(" ")}">
-        <button type="button" class="room" data-room="${sp.roomId}" aria-expanded="${open}"${list.length ? "" : " disabled"}>
-          <span class="nm">${esc(sp.name)}</span><span class="meta">${meta}</span>
+        : on
+          ? "Open"
+          : sp.purpose
+            ? "Closed"
+            : "No sessions";
+      return `<li class="${[open && "open", on && "used", (sp.purpose || sp.area) && "special"].filter(Boolean).join(" ")}">
+        <button type="button" class="room" data-room="${sp.roomId}" ${list.length ? `aria-expanded="${open}"` : `aria-pressed="${open}"`}${on ? "" : " disabled"}>
+          <span class="nm">${sp.purpose ? `<span class="purpose">${esc(sp.purpose)}</span>` : ""}${esc(sp.name)}</span><span class="meta">${meta}</span>
         </button>
         ${
-          open
+          open && list.length
             ? `<ol class="sess">${list
                 .map(
                   (s) =>
@@ -565,7 +579,7 @@ const MAPS_URL = "https://maps.app.goo.gl/bgkKXeTJZfwNCTrQ9";
       regRow +
       used.map(item).join("") +
       (idle.length
-        ? `<li class="idle-head">Not in use on ${day.long.split(",")[0]}</li>` +
+        ? `<li class="idle-head">No sessions on ${day.long.split(",")[0]}</li>` +
           idle.map(item).join("")
         : "");
     if (focusedRoom) {
@@ -607,10 +621,6 @@ const MAPS_URL = "https://maps.app.goo.gl/bgkKXeTJZfwNCTrQ9";
     );
     const day = dayOf(state.day);
     const dayName = day.long.split(",")[0];
-    // Event areas are drawn only on the days they're used.
-    const areaShown = (sp: Space) =>
-      (!sp.days || sp.days.includes(state.day)) &&
-      (!sp.whenUsed || sessionsFor(sp.roomId, state.day).length > 0);
     $$<HTMLButtonElement>(".tab").forEach((t) => {
       const floorId = t.dataset.floor!;
       const on = floorId === state.floor;
@@ -642,10 +652,12 @@ const MAPS_URL = "https://maps.app.goo.gl/bgkKXeTJZfwNCTrQ9";
       const idle = !active && !showing;
       t.toggleAttribute("data-idle", !active);
       $("[data-count]", t).textContent = n
-        ? `${n} room${n > 1 ? "s" : ""} in use`
+        ? `${n} room${n > 1 ? "s" : ""} with sessions`
         : registration
           ? "Registration open"
-          : "No rooms in use";
+          : data.spaces.some((sp) => sp.floor === floorId && sp.purpose && areaShown(sp))
+            ? "VISKids and SV rooms"
+            : "No sessions";
       const panel = $(`.panel[data-floor="${floorId}"]`);
       panel.hidden = !on;
       panel.toggleAttribute("data-idle", idle);
@@ -663,7 +675,8 @@ const MAPS_URL = "https://maps.app.goo.gl/bgkKXeTJZfwNCTrQ9";
       el.toggleAttribute("data-used", used);
     });
     $$("[data-area]", $(".map-card")).forEach((el) => {
-      const sp = data.spaces.find((s) => s.roomId === el.getAttribute("data-area"));
+      const shape = el.getAttribute("data-area")!;
+      const sp = data.spaces.find((s) => s.shapes.includes(shape));
       if (sp) el.toggleAttribute("hidden", !areaShown(sp));
     });
     const sel = shapesOf(state.room);
@@ -715,7 +728,12 @@ const MAPS_URL = "https://maps.app.goo.gl/bgkKXeTJZfwNCTrQ9";
   $$<HTMLButtonElement>(".days .chip").forEach((b) =>
     b.addEventListener("click", () => {
       state.day = b.dataset.day!;
-      if (!isMarker(state.room) && state.room && !sessionsFor(state.room, state.day).length)
+      const sp = data.spaces.find((s) => s.roomId === state.room);
+      if (
+        !isMarker(state.room) &&
+        state.room &&
+        !(sp && isOpen(sp, sessionsFor(sp.roomId, state.day)))
+      )
         state.room = null;
       render();
       write();
@@ -1204,8 +1222,16 @@ const MAPS_URL = "https://maps.app.goo.gl/bgkKXeTJZfwNCTrQ9";
   .venue .room-list > li.used::before {
     border-color: var(--room-used-hover);
   }
+  .venue .room-list > li.special.used::before {
+    /* The same orange as the area's unselected fill on the map. */
+    border-color: #fcdcbf;
+  }
   .venue .room-list > li.open {
     box-shadow: inset 0 0 0 3px var(--raspberry);
+  }
+  /* Special-use spaces are orange on the map, so their selection is too. */
+  .venue .room-list > li.special.open {
+    box-shadow: inset 0 0 0 3px #f79b4d;
   }
   .venue .room-list .idle-head {
     background: none;
@@ -1235,6 +1261,12 @@ const MAPS_URL = "https://maps.app.goo.gl/bgkKXeTJZfwNCTrQ9";
   .venue .room:disabled {
     cursor: default;
     color: var(--gray-700);
+  }
+  .venue .room .purpose {
+    display: block;
+    font-size: 0.8em;
+    font-weight: 700;
+    color: #a2560f;
   }
   .venue .room .nm {
     font: 700 19px/1.2 var(--display);

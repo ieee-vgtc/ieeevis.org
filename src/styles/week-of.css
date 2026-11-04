@@ -668,6 +668,11 @@
   text-overflow: ellipsis;
 }
 
+.cluster-overlay-room a {
+  color: inherit;
+  text-decoration: underline;
+}
+
 .cluster-overlay-meta {
   margin: 0;
   font-size: 0.63rem;
