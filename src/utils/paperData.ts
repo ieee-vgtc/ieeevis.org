@@ -357,6 +357,7 @@ function buildTimeSlots({
         // The program shows who is presenting, not the full author list.
         contributors:
           slot.presenters?.map((presenter) => presenter.name) || null,
+        presenters: slot.presenters,
         paper_type: slot.paper_type || slotTypeDefault || "",
         presentation_mode: session.virtual ? "Virtual" : "Premise",
         time_stamp: start,

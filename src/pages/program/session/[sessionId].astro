@@ -11,8 +11,10 @@ import {
 } from "../../../utils/discussionSlots";
 import type { Paper } from "../../../types/paper";
 import type {
+  ProgramPerson,
   ProgramSession,
   ProgramSessionList,
+  ProgramTimeSlot,
 } from "../../../types/program";
 import { displayRoomName } from "../../../utils/week-of-utils";
 import { getProgramEventTypeLabel } from "../../../utils/programEventTypeLabel";
@@ -98,6 +100,10 @@ const eventPaperTypes = ["workshop", "challenge", "associated"];
 const presentations = [...session.time_slots]
   .filter((slot) => eventPapers.length === 0 || slot.uid || slot.url)
   .sort((a, b) => Date.parse(a.time_start) - Date.parse(b.time_start));
+
+// Local test data only has presenter names.
+const presentersOf = (slot: ProgramTimeSlot): ProgramPerson[] =>
+  slot.presenters ?? slot.contributors?.map((name) => ({ name })) ?? [];
 
 const sessionPageId = `${session.event_prefix}-${session.session_id}`;
 const venueHref = venueRoomHref(
@@ -221,15 +227,10 @@ const DISCUSSION_SECTION_ID = "discussion";
         event.organizers.length > 0 && (
           <p class="program-event-organizers">
             <strong class="mr-2">Organizers:</strong>
-            {event.organizers.map((author, idx) => (
-              <a
-                class="mr-1"
-                href={`/year/2026/program/content/?filter=author&search=${author.replaceAll(" ", "+")}`}
-              >
-                {author}
-                {idx !== event.organizers.length - 1 ? "," : ""}
-              </a>
-            ))}
+            <ProgramPeopleList
+              people={event.organizers.map((name) => ({ name }))}
+              linkNames
+            />
           </p>
         )
       }
@@ -326,24 +327,12 @@ const DISCUSSION_SECTION_ID = "discussion";
                 <ProgramPeopleList people={slot.authors} linkNames />
               </p>
             )}
-            {isDescribedEvent &&
-              slot.contributors &&
-              slot.contributors.length > 0 && (
-                <p class="program-presentation-contrib">
-                  {isPanel && <strong class="mr-2">Panelists:</strong>}
-                  {slot.contributors.map((author, idx) => (
-                    <a
-                      class="mr-1"
-                      href={`/year/2026/program/content/?filter=author&search=${author.replaceAll(" ", "+")}`}
-                    >
-                      {author}
-                      {slot.contributors && idx !== slot.contributors.length - 1
-                        ? ","
-                        : ""}
-                    </a>
-                  ))}
-                </p>
-              )}
+            {isDescribedEvent && presentersOf(slot).length > 0 && (
+              <p class="program-presentation-contrib">
+                {isPanel && <strong class="mr-2">Panelists:</strong>}
+                <ProgramPeopleList people={presentersOf(slot)} linkNames />
+              </p>
+            )}
           </section>
         ))
       }

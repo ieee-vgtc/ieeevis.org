@@ -11,6 +11,7 @@ export interface ProgramTimeSlot {
   session_id: string;
   title: string;
   contributors: string[] | null;
+  presenters?: ProgramPerson[] | null;
   paper_type: string;
   presentation_mode: string;
   time_stamp: string;
