@@ -20,14 +20,14 @@ Committee: Ingrid Hotz _(Chair)_, Daniel Keim, Klaus Mueller, Claudio Silva, Xia
 
 **2001 (25-Years Vis ToT Award)**:<br />
 **Interactive volume rendering using multi-dimensional transfer functions and direct manipulation widgets**<br />
-Joe Kniss; Gordon Kindlmann; Charles Hansen<br />
+Joe Kniss, Gordon Kindlmann, Charles Hansen<br />
 [10.1109/VISUAL.2001.964519](https://doi.org/10.1109/VISUAL.2001.964519)
 
 This paper is distinguished for fundamentally changing how transfer functions are understood and used in volume visualization. Traditionally employed to classify materials such as bone, vessels, and soft tissue, transfer functions were extended by this work to multiple data attributes, enabling the identification and emphasis of structures in higher-dimensional data. Equally important, the paper introduced an interactive exploration framework in which users could intuitively design transfer functions through direct manipulation of multidimensional histograms. Together, these advances transformed transfer functions from predefined classification tools into powerful instruments for visual exploration and analysis. The approach laid important foundations for multidimensional and multifield visualization, inspiring numerous subsequent methods. By redefining both the conceptual role of transfer functions and how users interact with them, this paper has had a lasting impact on volume visualization.
 
 **2015 (11-Years SciVis ToT Award)**:<br />
 **Gaze Stripes: Image-Based Visualization of Eye Tracking Data**<br />
-Kuno Kurzhalz, Marcel Hlawatsch, Florian Heimerl, Michael Burch, Thomas Ertl, Daniel Weiskopf
+Kuno Kurzhals, Marcel Hlawatsch, Florian Heimerl, Michael Burch, Thomas Ertl, Daniel Weiskopf
 <br />
 [10.1109/TVCG.2015.2468091](https://doi.org/10.1109/TVCG.2015.2468091)
 
