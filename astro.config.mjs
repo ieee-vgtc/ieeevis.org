@@ -24,6 +24,9 @@ export default defineConfig({
   // (src/lib/bskyApi.ts), so every page is prerendered and the S3 deploys,
   // which serve static files only, get the whole site.
   output: "static",
+  redirects: {
+    "/program/papers": "/year/2026/program/content",
+  },
   // The app never touches Astro.session; without this, @astrojs/netlify silently
   // defaults to a Netlify Blobs-backed session store on every build. Set
   // explicitly to rule out that unused dependency as a source of trouble.
