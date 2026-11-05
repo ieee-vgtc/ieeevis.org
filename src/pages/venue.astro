@@ -398,6 +398,7 @@ const MAPS_URL = "https://maps.app.goo.gl/bgkKXeTJZfwNCTrQ9";
     whenUsed?: boolean;
     days?: string[];
     purpose?: string;
+    hours?: { open: string; close: string };
   };
   type Session = {
     id: string;
@@ -537,7 +538,9 @@ const MAPS_URL = "https://maps.app.goo.gl/bgkKXeTJZfwNCTrQ9";
       const meta = list.length
         ? `${list.length} session${list.length > 1 ? "s" : ""}`
         : on
-          ? "Open"
+          ? sp.hours
+            ? `${clock(at(day.date, sp.hours.open))} – ${clock(at(day.date, sp.hours.close))}`
+            : "Open"
           : sp.purpose
             ? "Closed"
             : "No sessions";

@@ -45,6 +45,8 @@ export interface VenueSpace {
   days?: string[];
   /** What a special-use room is for, shown above its name. */
   purpose?: string;
+  /** Daily opening hours (24-hour "HH:MM", venue time) for a special-use room. */
+  hours?: { open: string; close: string };
 }
 
 /** Posters go up Tuesday night and stay until Friday. */
@@ -53,6 +55,8 @@ const POSTER_DAYS = ["tue", "wed", "thu", "fri"];
 const COFFEE_DAYS = ["mon", "tue", "wed", "thu", "fri"];
 /** The conference days, when the special-use rooms are open. */
 const CONFERENCE_DAYS = ["mon", "tue", "wed", "thu", "fri"];
+/** VISKids and the student volunteer room are open 7 am to 5 pm. */
+const SPECIAL_ROOM_HOURS = { open: "07:00", close: "17:00" };
 
 export const SPACES: VenueSpace[] = [
   {
@@ -142,6 +146,7 @@ export const SPACES: VenueSpace[] = [
     combined: true,
   },
   { roomId: "empire", name: "Empire", floor: "7", shapes: ["empire"] },
+  { roomId: "mastiff", name: "Mastiff", floor: "7", shapes: ["mastiff"] },
   {
     roomId: "defender",
     name: "Defender",
@@ -150,6 +155,7 @@ export const SPACES: VenueSpace[] = [
     purpose: "VISKids",
     area: true,
     days: CONFERENCE_DAYS,
+    hours: SPECIAL_ROOM_HOURS,
   },
   {
     roomId: "great_republic",
@@ -159,6 +165,7 @@ export const SPACES: VenueSpace[] = [
     purpose: "Student Volunteers",
     area: true,
     days: CONFERENCE_DAYS,
+    hours: SPECIAL_ROOM_HOURS,
   },
   {
     roomId: "luncheon",
