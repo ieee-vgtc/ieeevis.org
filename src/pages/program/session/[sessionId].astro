@@ -344,6 +344,11 @@ const DISCUSSION_SECTION_ID = "discussion";
                 {paper.title}
               </a>
             </h3>
+            {paper.award && (
+              <p class="program-presentation-award">
+                <AwardBadge award={paper.award} compact />
+              </p>
+            )}
             {paper.authors && paper.authors.length > 0 && (
               <p class="program-presentation-authors">
                 Authors: <ProgramPeopleList people={paper.authors} linkNames />
