@@ -266,7 +266,7 @@ const typeOptions = groupProgramTypeOptions(
           >
             <option value="title">title</option>
             <option value="bookmarked">bookmarked first</option>
-            <option value="schedule">schedule</option>
+            <option value="time">by time</option>
           </select>
           <button
             type="button"
@@ -287,45 +287,10 @@ const typeOptions = groupProgramTypeOptions(
           <button
             type="button"
             class="papers-choice-button hover-response--tint"
-            data-choice-value="schedule"
-            aria-pressed="false"
-          >
-            schedule
-          </button>
-        </div>
-      </label>
-
-      <label class="u-control">
-        Show by
-        <div
-          id="papers-view"
-          class="papers-choice-group u-responsive-choice-group"
-          role="group"
-          aria-label="Show by"
-        >
-          <select
-            class="u-select u-mobile-choice-select"
-            data-choice-select
-            aria-label="Show by"
-          >
-            <option value="list">list</option>
-            <option value="time">time</option>
-          </select>
-          <button
-            type="button"
-            class="papers-choice-button hover-response--tint is-active"
-            data-choice-value="list"
-            aria-pressed="true"
-          >
-            list
-          </button>
-          <button
-            type="button"
-            class="papers-choice-button hover-response--tint"
             data-choice-value="time"
             aria-pressed="false"
           >
-            time
+            by time
           </button>
         </div>
       </label>
@@ -560,8 +525,7 @@ const typeOptions = groupProgramTypeOptions(
         .map((button) => button.getAttribute("data-type-filter") || "")
         .filter(Boolean),
     );
-    const validSortModes = new Set(["title", "bookmarked", "schedule"]);
-    const viewControl = root.querySelector<HTMLElement>("#papers-view");
+    const validSortModes = new Set(["title", "bookmarked", "time"]);
 
     const getStoredBookmarks = () => {
       try {
@@ -631,10 +595,6 @@ const typeOptions = groupProgramTypeOptions(
     let activeTypeFilter = "all";
 
     const restoreFromUrl = (params: URLSearchParams) => {
-      setChoiceValue(
-        viewControl,
-        params.get("view") === "time" ? "time" : "list",
-      );
       requestedSessionKey = params.get("session") || "";
       requestedEventKey = params.get("event") || "";
       if (searchInput) {
@@ -650,7 +610,10 @@ const typeOptions = groupProgramTypeOptions(
       const urlType = params.get("type") || "";
       activeTypeFilter = validTypeValues.has(urlType) ? urlType : "all";
 
-      const urlSortMode = params.get("sort") || "";
+      let urlSortMode = params.get("sort") || "";
+      if (params.get("view") === "time" || urlSortMode === "schedule") {
+        urlSortMode = "time";
+      }
       setChoiceValue(
         sortControl,
         validSortModes.has(urlSortMode) ? urlSortMode : "title",
@@ -668,7 +631,7 @@ const typeOptions = groupProgramTypeOptions(
 
     const getSortMode = () => getChoiceValue(sortControl, "title");
 
-    const getViewMode = () => getChoiceValue(viewControl, "list");
+    const getViewMode = () => (getSortMode() === "time" ? "time" : "list");
 
     const getTypeFilter = () => activeTypeFilter;
 
@@ -709,11 +672,7 @@ const typeOptions = groupProgramTypeOptions(
         nextParams.delete("type");
       }
 
-      if (getViewMode() === "time") {
-        nextParams.set("view", "time");
-      } else {
-        nextParams.delete("view");
-      }
+      nextParams.delete("view");
 
       if (sortMode !== "title") {
         nextParams.set("sort", sortMode);
@@ -937,7 +896,7 @@ const typeOptions = groupProgramTypeOptions(
       const query = getSearchQuery();
       const typeFilter = getTypeFilter();
       const timeView = getViewMode() === "time";
-      const sortMode = timeView ? "schedule" : getSortMode();
+      const sortMode = timeView ? "schedule" : getSortMode();  // "schedule" = internal time ordering
       const visibleCards = cards.filter((card) => {
         const haystack = getFieldValue(card);
         const cardType = card.dataset.type || "";
@@ -1179,28 +1138,6 @@ const typeOptions = groupProgramTypeOptions(
       button.addEventListener("click", () => {
         activeTypeFilter = button.getAttribute("data-type-filter") || "all";
         refreshTypeFilterState();
-        applyFilters();
-      });
-    }
-
-    if (viewControl) {
-      const viewButtons = Array.from(
-        viewControl.querySelectorAll<HTMLButtonElement>(
-          ".papers-choice-button[data-choice-value]",
-        ),
-      );
-      for (const button of viewButtons) {
-        button.addEventListener("click", () => {
-          const value = button.dataset.choiceValue;
-          if (!value || !setChoiceValue(viewControl, value)) return;
-          applyFilters();
-        });
-      }
-      const viewSelect = viewControl.querySelector<HTMLSelectElement>(
-        "[data-choice-select]",
-      );
-      viewSelect?.addEventListener("change", () => {
-        if (!setChoiceValue(viewControl, viewSelect.value)) return;
         applyFilters();
       });
     }
