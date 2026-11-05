@@ -45,16 +45,18 @@ export default function Carousel({ items }: { items: CarouselItem[] }) {
               key={`carousel-item-container-${i}`}
             >
               {item.image && (
-                <img
-                  className="d-block w-full"
-                  alt={item.title}
-                  src={withBaseURL(`/assets/carousel/${item.image}`)}
-                  style={
-                    item.imagePosition
-                      ? { objectPosition: item.imagePosition }
-                      : undefined
-                  }
-                />
+                <a href={withBaseURL(item.buttonUrl)}>
+                  <img
+                    className="d-block w-full"
+                    alt={item.title}
+                    src={withBaseURL(`/assets/carousel/${item.image}`)}
+                    style={
+                      item.imagePosition
+                        ? { objectPosition: item.imagePosition }
+                        : undefined
+                    }
+                  />
+                </a>
               )}
 
               {(item.description || item.buttonText) &&
