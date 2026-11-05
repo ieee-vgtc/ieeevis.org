@@ -97,7 +97,21 @@ async function load_jobs(): Promise<Job[]> {
   });
 }
 
-const jobs = await load_jobs();
+// Postings sent to the chairs directly instead of through the form.
+const MANUAL_JOBS: Job[] = [
+  {
+    title: "PhD Position in the Data Interaction Group",
+    affiliation: "Carnegie Mellon University",
+    type: "Student",
+    contact: "domoritz@cmu.edu",
+    location: "Pittsburgh, PA, USA",
+    start: "Fall 2027",
+    flexible: "No",
+    url: "https://drive.google.com/file/d/1TUgJOtnWkHrdB4ReK0Q2SFPk0KXXgGPx/view",
+  },
+];
+
+const jobs = [...(await load_jobs()), ...MANUAL_JOBS];
 
 // The form's "Position Type" wording is not fixed here, so sections are built
 // from whatever answers come back, ordered to match how postings have been
