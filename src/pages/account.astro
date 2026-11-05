@@ -8,6 +8,7 @@ import PageLayout from "../layouts/PageLayout.astro";
 import ProfileView from "../components/ProfileView";
 import type { TimeIndex } from "../components/MyProgramList";
 import { fetchAllSessions } from "../utils/paperData";
+import { venueRoomHref } from "../utils/venueLink";
 
 const frontmatter = {
   title: "Your profile",
@@ -18,14 +19,19 @@ const times: TimeIndex = { sessions: {}, papers: {} };
 for (const event of Object.values(await fetchAllSessions())) {
   for (const session of event.sessions) {
     const room = session.room_name || "";
+    // Where the room is on the venue map; null for off-site or unplaced rooms.
+    const venue =
+      venueRoomHref(session.track, session.time_start, session.title) ??
+      undefined;
     times.sessions[`/program/session/${session.event_prefix}-${session.session_id}`] = {
       start: session.time_start,
       end: session.time_end,
       room,
+      venue,
     };
     for (const slot of session.time_slots) {
       if (slot.uid) {
-        times.papers[slot.uid] = { start: slot.time_start, end: slot.time_end, room };
+        times.papers[slot.uid] = { start: slot.time_start, end: slot.time_end, room, venue };
       }
     }
   }

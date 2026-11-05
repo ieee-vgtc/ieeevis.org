@@ -7,7 +7,7 @@ permalink: /info/inclusion-and-diversity/viskids-child-care-grants
 contact: viskids@ieeevis.org
 ---
 
-The IEEE VIS conference is excited to support our VISKids and young families!
+The IEEE VIS conference is excited to support our VISKids and young families! The VISKids room will be on the 7th floor in the Defender room. Find it on the [venue map](/year/2026/venue/?day=wed&floor=7&room=defender#map).
 
 Grants of up to $500 per family are available for VIS attendees who are bringing small children to the conference or who incur extra expenses in leaving their children at home. The grants will be given as a reimbursement for expenses but attendees are responsible for making their own arrangements for child care. If requests exceed available funding, or if additional funding becomes available, preference will be given to students and early career attendees who are presenting at the conference.
 

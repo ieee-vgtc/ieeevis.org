@@ -14,7 +14,8 @@ type Props = {
   accessible?: boolean;
   peopleLabel?: string;
   people?: { name: string; href?: string }[];
-  notes?: string[];
+  /** A plain note, or a labelled one whose text can link, e.g. "Room: Essex". */
+  notes?: (string | { label: string; text: string; href?: string })[];
   /** Start time (ISO); pages rewrite `.js-time-range` for the timezone setting. */
   scheduleStart?: string;
   links?: {
@@ -153,7 +154,18 @@ const style = [
       )
     }
     <div>
-      {notes.map((note) => <p class="program-card__note">{note}</p>)}
+      {
+        notes.map((note) =>
+          typeof note === "string" ? (
+            <p class="program-card__note">{note}</p>
+          ) : (
+            <p class="program-card__note">
+              {note.label}:{" "}
+              {note.href ? <a href={note.href}>{note.text}</a> : note.text}
+            </p>
+          ),
+        )
+      }
       {
         scheduleStart && (
           <p class="program-card__note">

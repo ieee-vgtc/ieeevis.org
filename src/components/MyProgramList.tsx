@@ -44,7 +44,8 @@ type MyProgram = {
 };
 
 /** When and where, by session path and by paper id; built from the program. */
-type Times = Record<string, { start: string; end: string; room: string }>;
+type When = { start: string; end: string; room: string; venue?: string };
+type Times = Record<string, When>;
 export type TimeIndex = { sessions: Times; papers: Times };
 
 const CONFERENCE_TIME_ZONE = "US/Eastern";
@@ -65,9 +66,7 @@ const zoneFormat = new Intl.DateTimeFormat("en-US", {
 });
 
 /** "Mon, Nov 2 · 10:30 AM – 11:45 AM EST · Room 2", or null with no time. */
-function whenAndWhere(
-  when: { start: string; end: string; room: string } | undefined,
-): ReactNode {
+function whenAndWhere(when: When | undefined): ReactNode {
   const start = when && new Date(when.start);
   if (!when || !start || Number.isNaN(start.getTime())) {
     return null;
@@ -88,7 +87,12 @@ function whenAndWhere(
         </>
       )}
       {zone && ` ${zone}`}
-      {when.room && ` · ${when.room}`}
+      {when.room && (
+        <>
+          {" · "}
+          {when.venue ? <a href={when.venue}>{when.room}</a> : when.room}
+        </>
+      )}
     </>
   );
 }
