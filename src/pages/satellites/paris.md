@@ -9,7 +9,7 @@ description: Join IEEE VIS 2026 from our Paris satellite
 Satellite Paris
 ======
 
-**November 10-13**
+**November 10-13, 2026**
 
 ## Place
 
@@ -20,19 +20,20 @@ France
 
 ## Program
 
-The local program will begin at 9:30 each morning and will feature a meeting with PhD students, panels, paper presentations, and an exciting keynote!
+The local program will begin at 9:30 each morning and will feature a meeting with PhD students, panels, paper presentations, an exciting keynote, and don't  miss our social event on Thursday evening!
 
 ### Local program
 
-|          Time | Tuesday, Nov 10      | Wednesday, Nov 11 | Thursday, Nov 12                    | Friday, Nov 13                              |
-| ------------: | :------------------- | :---------------- | :---------------------------------- | :------------------------------------------ |
-|  9:30 - 10:30 | Opening              | PhD Madness       |  Poster Viewing                     | Amphi: Panel: Teaching Vis in the age of AI |
-|               |                      |                   |                                     | Room 2: Local paper presentations 2         |
-|               |                      |                   |                                     |                                             |
-| 10:30 - 11:00 | _coffe break_        | _coffe break_     | _coffe break_                       | _coffe break_                               |
-| 11:00 - 12:00 | Amphi: Local Keynote | PhD Madness       |  Amphi: Panel Visualization Future  | Amphi: Townhall: Satellite 2.0              |
-|               |                      |                   |  Room 2: Local paper presentations 1|                                             |
-| 12:00 - 14:00 | _lunch_              | _lunch_           | _lunch_                             | _lunch_                                     |
+|          Time | Tuesday, Nov 10      | Wednesday, Nov 11  | Thursday, Nov 12                    | Friday, Nov 13                              |
+| ------------: | :------------------- | :----------------  | :---------------------------------- | :------------------------------------------ |
+|  9:30 - 10:30 | Opening              | Amphi: PhD Madness |  Poster Viewing                     | Amphi: Panel: Teaching Vis in the age of AI |
+|               |                      |                    |  Room 2: Video replay               | Room 2: Local paper presentations 2         |
+|               |                      |                    |  Musaique: Video replay             | Musaique2: Video streams                    |
+| 10:30 - 11:00 | _coffe break_        | _coffe break_      | _coffe break_                       | _coffe break_                               |
+| 11:00 - 12:00 | Amphi: Local Keynote | Amphi: Awards session replay  |  Amphi: Panel Visualization Future   | Amphi: Townhall: Satellite 2.0              |
+|               |                      | Room 2: invitation only PhD event  |  Room 2: Local paper presentations 1 |                                             |
+|               |                      | Musaique: Video replay | Musaique: Video replay          |                                             |
+| 12:00 - 14:00 | _lunch_              | _lunch_           | _lunch_                              | _lunch_                                     |
 
 #### The Keynote
 **Musical Juggling, Automata and Combinatorics**
@@ -84,6 +85,12 @@ Sessions marked with a * contain papers presented from Paris
 | 16:00 - 17:30 | Amphi: The more the merrier*                                                                    | Amphi: Data, Meet Human: Vis that cares*              | Amphi: Time after time*                        | Amphi: Capstone                                 |
 |               | Room 2: Panel: Challenges and opportunities for evaluating AI-assisted generation of...        | Room 2: Beyond the last mile: What should visualization own...     | Room 2: Panel: Friction in Visualization*     |                                                 |
 |               | Musaiques: Please don't just stare at the picture                                              | Musaiques: What does it mean to live, anyway?          | Musaiques: My followers need to know about this |                                                 |
+| 17:30-18:30   |                                                                                                |                                                        | IEEE VIS townhall                               | |
+| 19:00 --      |                                                                                                |                                                        | Social Event at Ground Control                  | | 
+
+
+### Social Event
+Our social event will happen on Thursday evening starting at 19:00 at [Ground Control](https://maps.app.goo.gl/gZkSQdysLAGNYcZh6). Come here to socialize, have fun, and food! 
 
 ## Local Organizers
 
