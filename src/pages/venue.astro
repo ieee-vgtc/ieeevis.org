@@ -399,6 +399,7 @@ const MAPS_URL = "https://maps.app.goo.gl/bgkKXeTJZfwNCTrQ9";
     days?: string[];
     purpose?: string;
     hours?: { open: string; close: string };
+    note?: string; 
   };
   type Session = {
     id: string;
@@ -546,7 +547,7 @@ const MAPS_URL = "https://maps.app.goo.gl/bgkKXeTJZfwNCTrQ9";
             : "No sessions";
       return `<li class="${[open && "open", on && "used", (sp.purpose || sp.area) && "special"].filter(Boolean).join(" ")}">
         <button type="button" class="room" data-room="${sp.roomId}" ${list.length ? `aria-expanded="${open}"` : `aria-pressed="${open}"`}${on ? "" : " disabled"}>
-          <span class="nm">${sp.purpose ? `<span class="purpose">${esc(sp.purpose)}</span>` : ""}${esc(sp.name)}</span><span class="meta">${meta}</span>
+          <span class="nm">${sp.purpose ? `<span class="purpose">${esc(sp.purpose)}</span>` : ""}${esc(sp.name)}</span><span class="meta">${meta}</span> ${sp.note ? `<span class="room-note"><strong>Note:</strong> ${esc(sp.note)}</span>` : ""}
         </button>
         ${
           open && list.length
@@ -852,6 +853,16 @@ const MAPS_URL = "https://maps.app.goo.gl/bgkKXeTJZfwNCTrQ9";
   }
   .venue .quick .chip {
     text-decoration: none;
+  }
+
+  .venue .room-note {
+    display: block;
+    grid-column: 1 / -1;
+    margin-top: 6px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: left;
   }
 
   /* Registration */
@@ -1260,6 +1271,7 @@ const MAPS_URL = "https://maps.app.goo.gl/bgkKXeTJZfwNCTrQ9";
     justify-content: space-between;
     align-items: baseline;
     gap: 12px;
+    flex-wrap: wrap;
   }
   .venue .room:disabled {
     cursor: default;

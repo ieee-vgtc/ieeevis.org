@@ -47,6 +47,8 @@ export interface VenueSpace {
   purpose?: string;
   /** Daily opening hours (24-hour "HH:MM", venue time) for a special-use room. */
   hours?: { open: string; close: string };
+  /** Optional note displayed for a room. */
+  note?: string;
 }
 
 /** Posters go up Tuesday night and stay until Friday. */
@@ -156,6 +158,7 @@ export const SPACES: VenueSpace[] = [
     area: true,
     days: CONFERENCE_DAYS,
     hours: SPECIAL_ROOM_HOURS,
+    note: "This room is unattended. Parents and guardians must supervise their children at all times.",
   },
   {
     roomId: "great_republic",
