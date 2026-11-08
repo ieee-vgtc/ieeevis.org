@@ -562,31 +562,16 @@ const DISCUSSION_SECTION_ID = "discussion";
 </PageLayout>
 
 <script>
-  const BOOKMARK_KEY = "program-sessions-bookmarks";
-  const getBookmarks = (): Set<string> => {
-    try {
-      return new Set<string>(
-        JSON.parse(localStorage.getItem(BOOKMARK_KEY) ?? "[]"),
-      );
-    } catch {
-      return new Set<string>();
-    }
-  };
-  const toggleBookmark = (id: string) => {
-    const bookmarks = getBookmarks();
-    if (bookmarks.has(id)) bookmarks.delete(id);
-    else bookmarks.add(id);
-    localStorage.setItem(BOOKMARK_KEY, JSON.stringify([...bookmarks]));
-  };
-
+  import { createBookmarkStore } from "../../../lib/bookmarks";
 
   const btn = document.getElementById("sessionBookmarkBtn");
   const icon = document.getElementById("sessionBookmarkIcon");
   const sessionId = btn?.dataset.sessionId;
+  const bookmarks = createBookmarkStore("program-sessions-bookmarks");
 
   const update = () => {
     if (!btn || !sessionId) return;
-    const on = getBookmarks().has(sessionId);
+    const on = bookmarks.has(sessionId);
     const label = on ? "Remove bookmark" : "Add bookmark";
     btn.setAttribute("aria-label", label);
     btn.setAttribute("title", label);
@@ -596,9 +581,10 @@ const DISCUSSION_SECTION_ID = "discussion";
 
   btn?.addEventListener("click", () => {
     if (!sessionId) return;
-    toggleBookmark(sessionId);
+    bookmarks.toggle(sessionId);
     update();
   });
+  bookmarks.onSync(update);
   update();
 </script>
 

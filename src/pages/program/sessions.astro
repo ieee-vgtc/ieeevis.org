@@ -358,6 +358,7 @@ function formatPeopleForSession(session: SessionListItem) {
       markLiveCards,
       setupScrollToLive,
     } from "../../utils/liveNow";
+    import { createBookmarkStore } from "../../lib/bookmarks";
     import {
       createUrlStateHistory,
       type UrlStateWriteOptions,
@@ -407,7 +408,6 @@ function formatPeopleForSession(session: SessionListItem) {
         const bookmarkMode =
           getChoiceValue(sortControl, "time") === "bookmark";
         if (bookmarkMode) {
-          const bookmarks = getBookmarks();
           const ordered = originalSlots
             .map((slot, index) => ({ card: slot.card, index }))
             .sort(
@@ -424,25 +424,9 @@ function formatPeopleForSession(session: SessionListItem) {
         dayList.hidden = bookmarkMode;
       };
 
-      const BOOKMARK_KEY = "program-sessions-bookmarks";
-      const getBookmarks = (): Set<string> => {
-        try {
-          return new Set<string>(
-            JSON.parse(localStorage.getItem(BOOKMARK_KEY) ?? "[]"),
-          );
-        } catch {
-          return new Set<string>();
-        }
-      };
-      const toggleBookmark = (id: string) => {
-        const bookmarks = getBookmarks();
-        if (bookmarks.has(id)) bookmarks.delete(id);
-        else bookmarks.add(id);
-        localStorage.setItem(BOOKMARK_KEY, JSON.stringify([...bookmarks]));
-      };
+      const bookmarks = createBookmarkStore("program-sessions-bookmarks");
 
       const refreshBookmarks = () => {
-        const bookmarks = getBookmarks();
         for (const card of cards) {
           const toggle = card.querySelector<HTMLButtonElement>(
             "[data-bookmark-toggle]",
@@ -462,11 +446,16 @@ function formatPeopleForSession(session: SessionListItem) {
         card
           .querySelector("[data-bookmark-toggle]")
           ?.addEventListener("click", () => {
-            toggleBookmark(card.dataset.sessionId || "");
+            bookmarks.toggle(card.dataset.sessionId || "");
             refreshBookmarks();
             applySort();
           });
       }
+      // The Auth0 copy of the bookmarks arrives after load.
+      bookmarks.onSync(() => {
+        refreshBookmarks();
+        applySort();
+      });
       refreshBookmarks();
 
       const ALL_FILTER = "all";
