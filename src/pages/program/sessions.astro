@@ -228,11 +228,50 @@ function formatPeopleForSession(session: SessionListItem) {
       typeOptions={typeOptions}
       dropdownGroups={programTypeDropdownGroups}
       filterBarLabel="Session type filters"
-    />
+    >
+      <Fragment slot="primary-controls">
+        <label class="u-control">
+          Sort by
+          <div
+            id="sessions-sort"
+            class="u-choice-group u-responsive-choice-group"
+            role="group"
+            aria-label="Sort by"
+          >
+            <select
+              class="u-select u-mobile-choice-select"
+              data-choice-select
+              aria-label="Sort by"
+            >
+              <option value="time">time</option>
+              <option value="bookmark">bookmark</option>
+            </select>
+            <button
+              type="button"
+              class="u-choice-button hover-response--tint is-active"
+              data-choice-value="time"
+              aria-pressed="true"
+            >
+              time
+            </button>
+            <button
+              type="button"
+              class="u-choice-button hover-response--tint"
+              data-choice-value="bookmark"
+              aria-pressed="false"
+            >
+              bookmark
+            </button>
+          </div>
+        </label>
+      </Fragment>
+    </ProgramHeader>
 
     <button type="button" class="scroll-to-live" data-scroll-to-live hidden>
       Scroll to happening now
     </button>
+
+    <div class="sessions-flat-list" data-flat-list role="list" hidden></div>
 
     <div class="sessions-day-list">
       {
@@ -271,6 +310,8 @@ function formatPeopleForSession(session: SessionListItem) {
                     <ProgramCard
                       role="listitem"
                       data-program-card
+                      data-session-id={session.eventSlug}
+                      bookmark={{ bookmarked: false }}
                       data-type={session.eventType}
                       data-day-group={dayGroup.dayKey}
                       data-search={session.searchText}
@@ -317,6 +358,7 @@ function formatPeopleForSession(session: SessionListItem) {
       markLiveCards,
       setupScrollToLive,
     } from "../../utils/liveNow";
+    import { createBookmarkStore } from "../../lib/bookmarks";
     import {
       createUrlStateHistory,
       type UrlStateWriteOptions,
@@ -349,6 +391,72 @@ function formatPeopleForSession(session: SessionListItem) {
       const tzDescription =
         root.querySelector<HTMLElement>(".js-tz-description");
       const emptyState = root.querySelector<HTMLElement>("[data-empty-state]");
+
+      const sortControl = root.querySelector<HTMLElement>("#sessions-sort");
+      const flatList = root.querySelector<HTMLElement>("[data-flat-list]");
+      const dayList = root.querySelector<HTMLElement>(".sessions-day-list");
+      // Where each card lives in the grouped (time) layout, in schedule order.
+      const originalSlots = cards.map((card) => ({
+        card,
+        parent: card.parentElement as HTMLElement,
+      }));
+
+      // "time" keeps the day/time groups; "bookmark" shows one flat list with
+      // bookmarked sessions first, then by start time.
+      const applySort = () => {
+        if (!flatList || !dayList) return;
+        const bookmarkMode =
+          getChoiceValue(sortControl, "time") === "bookmark";
+        if (bookmarkMode) {
+          const ordered = originalSlots
+            .map((slot, index) => ({ card: slot.card, index }))
+            .sort(
+              (a, b) =>
+                Number(bookmarks.has(b.card.dataset.sessionId || "")) -
+                  Number(bookmarks.has(a.card.dataset.sessionId || "")) ||
+                a.index - b.index,
+            );
+          for (const { card } of ordered) flatList.appendChild(card);
+        } else {
+          for (const { card, parent } of originalSlots) parent.appendChild(card);
+        }
+        flatList.hidden = !bookmarkMode;
+        dayList.hidden = bookmarkMode;
+      };
+
+      const bookmarks = createBookmarkStore("program-sessions-bookmarks");
+
+      const refreshBookmarks = () => {
+        for (const card of cards) {
+          const toggle = card.querySelector<HTMLButtonElement>(
+            "[data-bookmark-toggle]",
+          );
+          const icon = card.querySelector<HTMLElement>("[data-bookmark-icon]");
+          if (!toggle) continue;
+          const on = bookmarks.has(card.dataset.sessionId || "");
+          const label = on ? "Remove bookmark" : "Add bookmark";
+          toggle.setAttribute("aria-label", label);
+          toggle.setAttribute("title", label);
+          toggle.setAttribute("data-bookmarked", String(on));
+          toggle.classList.toggle("is-bookmarked", on);
+          if (icon) icon.textContent = on ? "bookmark" : "bookmark_border";
+        }
+      };
+      for (const card of cards) {
+        card
+          .querySelector("[data-bookmark-toggle]")
+          ?.addEventListener("click", () => {
+            bookmarks.toggle(card.dataset.sessionId || "");
+            refreshBookmarks();
+            applySort();
+          });
+      }
+      // The Auth0 copy of the bookmarks arrives after load.
+      bookmarks.onSync(() => {
+        refreshBookmarks();
+        applySort();
+      });
+      refreshBookmarks();
 
       const ALL_FILTER = "all";
       let activeTypeFilter = ALL_FILTER;
@@ -485,6 +593,7 @@ function formatPeopleForSession(session: SessionListItem) {
           ["search", getSearchText(), ""],
           ["type", activeTypeFilter, ALL_FILTER],
           ["day", getSelectedDay(), "all"],
+          ["sort", getChoiceValue(sortControl, "time"), "time"],
         ];
         for (const [key, value, defaultValue] of entries) {
           if (value && value !== defaultValue) {
@@ -596,6 +705,27 @@ function formatPeopleForSession(session: SessionListItem) {
         });
       }
 
+      if (sortControl) {
+        for (const button of sortControl.querySelectorAll<HTMLButtonElement>(
+          ".u-choice-button[data-choice-value]",
+        )) {
+          button.addEventListener("click", () => {
+            const value = button.dataset.choiceValue;
+            if (!value || !setChoiceValue(sortControl, value)) return;
+            applySort();
+            applyFilters();
+          });
+        }
+        const sortSelect = sortControl.querySelector<HTMLSelectElement>(
+          "[data-choice-select]",
+        );
+        sortSelect?.addEventListener("change", () => {
+          if (!setChoiceValue(sortControl, sortSelect.value)) return;
+          applySort();
+          applyFilters();
+        });
+      }
+
       // Restore filters from the URL (?search=...&type=full&day=2026-11-10).
       const restoreFromUrl = (urlParams: URLSearchParams) => {
         const urlTypeParam = urlParams.get("type")?.trim().toLowerCase();
@@ -622,6 +752,10 @@ function formatPeopleForSession(session: SessionListItem) {
         if (searchInput instanceof HTMLInputElement) {
           searchInput.value = urlParams.get("search") || "";
         }
+        if (!setChoiceValue(sortControl, urlParams.get("sort") || "time")) {
+          setChoiceValue(sortControl, "time");
+        }
+        applySort();
       };
 
       const urlHistory = createUrlStateHistory((params) => {

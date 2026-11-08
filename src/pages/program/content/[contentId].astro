@@ -614,6 +614,7 @@ const eventNoun = eventType.toLowerCase();
 
 <script>
   import { getCurrentUser } from "../../../lib/auth0Client";
+  import { createBookmarkStore } from "../../../lib/bookmarks";
 
   // Like the Paper PDF link in AuthGate, a preview without a public preprint opens the PDF only for signed-in attendees.
   const gatedPreviewLink = document.querySelector<HTMLAnchorElement>(
@@ -638,19 +639,11 @@ const eventNoun = eventType.toLowerCase();
   const paperId = btn?.dataset.paperId;
 
   // Must match ProgramPapersBrowser's default storageKeyPrefix "program-papers"
-  const STORAGE_KEY = "program-papers-bookmarks";
-
-  function getBookmarks(): string[] {
-    try {
-      return JSON.parse(localStorage.getItem(STORAGE_KEY) ?? "[]");
-    } catch {
-      return [];
-    }
-  }
+  const bookmarks = createBookmarkStore("program-papers-bookmarks");
 
   function updateBtn() {
     if (!btn || !paperId) return;
-    const bookmarked = getBookmarks().includes(paperId);
+    const bookmarked = bookmarks.has(paperId);
     btn.classList.toggle("bookmarked", bookmarked);
     btn.setAttribute(
       "aria-label",
@@ -666,17 +659,11 @@ const eventNoun = eventType.toLowerCase();
 
   btn?.addEventListener("click", () => {
     if (!paperId) return;
-    const bookmarks = getBookmarks();
-    const idx = bookmarks.indexOf(paperId);
-    if (idx === -1) {
-      bookmarks.push(paperId);
-    } else {
-      bookmarks.splice(idx, 1);
-    }
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(bookmarks));
+    bookmarks.toggle(paperId);
     updateBtn();
   });
 
+  bookmarks.onSync(updateBtn);
   updateBtn();
 </script>
 

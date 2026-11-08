@@ -470,6 +470,7 @@ const typeOptions = groupProgramTypeOptions(
 </section>
 
 <script>
+  import { createBookmarkStore } from "../lib/bookmarks";
   import {
     createUrlStateHistory,
     type UrlStateWriteOptions,
@@ -528,22 +529,7 @@ const typeOptions = groupProgramTypeOptions(
     );
     const validSortModes = new Set(["title", "bookmarked", "time"]);
 
-    const getStoredBookmarks = () => {
-      try {
-        const raw = localStorage.getItem(bookmarkKey);
-        if (!raw) return [];
-        const parsed = JSON.parse(raw);
-        return Array.isArray(parsed) ? parsed : [];
-      } catch {
-        return [];
-      }
-    };
-
-    const storeBookmarks = (bookmarks: string[]) => {
-      localStorage.setItem(bookmarkKey, JSON.stringify(bookmarks));
-    };
-
-    const bookmarks = new Set(getStoredBookmarks());
+    const bookmarks = createBookmarkStore(bookmarkKey);
 
     const getChoiceValue = (
       container: HTMLElement | null,
@@ -1088,12 +1074,7 @@ const typeOptions = groupProgramTypeOptions(
     });
 
     const toggleBookmark = (paperId: string) => {
-      if (bookmarks.has(paperId)) {
-        bookmarks.delete(paperId);
-      } else {
-        bookmarks.add(paperId);
-      }
-      storeBookmarks(Array.from(bookmarks));
+      bookmarks.toggle(paperId);
       refreshBookmarkState();
     };
 
@@ -1195,6 +1176,11 @@ const typeOptions = groupProgramTypeOptions(
     }
 
     refreshTypeFilterState();
+    // The Auth0 copy of the bookmarks arrives after load.
+    bookmarks.onSync(() => {
+      refreshBookmarkState();
+      applyFilters({ replace: true });
+    });
     refreshBookmarkState();
     refreshLiveCards();
     window.setInterval(refreshLiveCards, 30000);

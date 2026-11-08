@@ -1361,6 +1361,7 @@
 
 /* Final card grid behavior for sessions and accepted content (papers/posters). */
 .sessions-day-content,
+.sessions-flat-list:not([hidden]),
 .papers-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -1368,6 +1369,7 @@
 }
 
 .sessions-day-content > .program-card,
+.sessions-flat-list > .program-card,
 .papers-grid > .program-card {
   width: auto;
   min-height: 0;
@@ -1375,6 +1377,7 @@
 
 @media (max-width: 1200px) {
   .sessions-day-content,
+  .sessions-flat-list,
   .papers-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1382,6 +1385,7 @@
 
 @media (max-width: 760px) {
   .sessions-day-content,
+  .sessions-flat-list,
   .papers-grid {
     grid-template-columns: 1fr;
   }

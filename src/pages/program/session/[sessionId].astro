@@ -93,6 +93,8 @@ export async function getStaticPaths() {
 }
 
 const { event, session, eventPapers } = Astro.props as EventPageProps;
+// Matches the id used by the sessions list (eventSlug) so bookmarks agree.
+const bookmarkId = `${session.event_prefix}-${session.session_id}`;
 const eventPaperTypes = ["workshop", "challenge", "associated"];
 
 // Placeholder slots (no paper, no authors) just repeat the event title; drop
@@ -181,7 +183,19 @@ const DISCUSSION_SECTION_ID = "discussion";
     </nav>
 
     <header class="paper-hero not-prose">
-      <h1>{session.title}</h1>
+      <h1 class="session-title">
+        {session.title}
+        <button
+          id="sessionBookmarkBtn"
+          type="button"
+          class="session-bookmark-btn"
+          data-session-id={bookmarkId}
+          aria-label="Add bookmark"
+          title="Add bookmark"
+        >
+          <i class="material-icons" id="sessionBookmarkIcon">bookmark_border</i>
+        </button>
+      </h1>
       <br />
       <p class="program-event-meta">
         <strong class="mr-2">Session chair:</strong>
@@ -546,3 +560,53 @@ const DISCUSSION_SECTION_ID = "discussion";
     }
   </style>
 </PageLayout>
+
+<script>
+  import { createBookmarkStore } from "../../../lib/bookmarks";
+
+  const btn = document.getElementById("sessionBookmarkBtn");
+  const icon = document.getElementById("sessionBookmarkIcon");
+  const sessionId = btn?.dataset.sessionId;
+  const bookmarks = createBookmarkStore("program-sessions-bookmarks");
+
+  const update = () => {
+    if (!btn || !sessionId) return;
+    const on = bookmarks.has(sessionId);
+    const label = on ? "Remove bookmark" : "Add bookmark";
+    btn.setAttribute("aria-label", label);
+    btn.setAttribute("title", label);
+    btn.classList.toggle("is-bookmarked", on);
+    if (icon) icon.textContent = on ? "bookmark" : "bookmark_border";
+  };
+
+  btn?.addEventListener("click", () => {
+    if (!sessionId) return;
+    bookmarks.toggle(sessionId);
+    update();
+  });
+  bookmarks.onSync(update);
+  update();
+</script>
+
+<style>
+  .session-bookmark-btn {
+    display: inline-flex;
+    vertical-align: middle;
+    margin-left: 0.5rem;
+    background: none;
+    border: 1px solid #d8cec1;
+    border-radius: 999px;
+    cursor: pointer;
+    padding: 0.35rem;
+    color: #adb5bd;
+    line-height: 0;
+  }
+  .session-bookmark-btn:hover,
+  .session-bookmark-btn.is-bookmarked {
+    color: var(--color-accent);
+    border-color: var(--color-accent);
+  }
+  .session-bookmark-btn .material-icons {
+    font-size: 1.25rem;
+  }
+</style>
