@@ -399,6 +399,7 @@ const MAPS_URL = "https://maps.app.goo.gl/bgkKXeTJZfwNCTrQ9";
     days?: string[];
     purpose?: string;
     hours?: { open: string; close: string };
+    times?: { open: string; close: string }[];
     note?: string; 
   };
   type Session = {
@@ -539,7 +540,9 @@ const MAPS_URL = "https://maps.app.goo.gl/bgkKXeTJZfwNCTrQ9";
       const meta = list.length
         ? `${list.length} session${list.length > 1 ? "s" : ""}`
         : on
-          ? sp.hours
+          ? sp.times
+            ? `${sp.times.length} breaks`
+            : sp.hours
             ? `${clock(at(day.date, sp.hours.open))} – ${clock(at(day.date, sp.hours.close))}`
             : "Open"
           : sp.purpose
@@ -549,6 +552,16 @@ const MAPS_URL = "https://maps.app.goo.gl/bgkKXeTJZfwNCTrQ9";
         <button type="button" class="room" data-room="${sp.roomId}" ${list.length ? `aria-expanded="${open}"` : `aria-pressed="${open}"`}${on ? "" : " disabled"}>
           <span class="nm">${sp.purpose ? `<span class="purpose">${esc(sp.purpose)}</span>` : ""}${esc(sp.name)}</span><span class="meta">${meta}</span> ${sp.note ? `<span class="room-note"><strong>Note:</strong> ${esc(sp.note)}</span>` : ""}
         </button>
+        ${
+          open && on && sp.times
+            ? `<ol class="sess">${sp.times
+                .map(
+                  (t) =>
+                    `<li><time>${clock(at(day.date, t.open))} – ${clock(at(day.date, t.close))}</time><span>Coffee break</span></li>`,
+                )
+                .join("")}</ol>`
+            : ""
+        }
         ${
           open && list.length
             ? `<ol class="sess">${list
@@ -675,7 +688,7 @@ const MAPS_URL = "https://maps.app.goo.gl/bgkKXeTJZfwNCTrQ9";
 
     $$("[data-room], polygon[data-area]", $(".map-card")).forEach((el) => {
       const shape = el.getAttribute("data-room") ?? el.getAttribute("data-area")!;
-      const used = spacesWithShape(shape).some((sp) => sessionsFor(sp.roomId, state.day).length);
+      const used = spacesWithShape(shape).some((sp) => isOpen(sp, sessionsFor(sp.roomId, state.day)));
       el.toggleAttribute("data-used", used);
     });
     $$("[data-area]", $(".map-card")).forEach((el) => {
@@ -768,7 +781,7 @@ const MAPS_URL = "https://maps.app.goo.gl/bgkKXeTJZfwNCTrQ9";
   $$(".map-card [data-room], .map-card polygon[data-area]").forEach((el) =>
     el.addEventListener("click", () => {
       const options = spacesWithShape(el.getAttribute("data-room") ?? el.getAttribute("data-area")!);
-      const inUse = options.filter((sp) => sessionsFor(sp.roomId, state.day).length);
+      const inUse = options.filter((sp) => isOpen(sp, sessionsFor(sp.roomId, state.day)));
       const pick = inUse.find((sp) => !sp.combined) ?? inUse[0];
       if (pick) selectRoom(state.room === pick.roomId ? null : pick.roomId);
     }),
