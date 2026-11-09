@@ -1,7 +1,7 @@
 ---
 import PageLayout from "../../layouts/PageLayout.astro";
 import ProgramHeader from "../../components/ProgramHeader.astro";
-import { fetchAllSessions } from "../../utils/paperData";
+import { fetchAllPapers, fetchAllSessions } from "../../utils/paperData";
 import { withBaseURL } from "../../utils/withBaseURL";
 import { venueRoomHref } from "../../utils/venueLink";
 import {
@@ -42,6 +42,8 @@ type CalendarSession = {
   startMinute: number;
   endMinute: number;
   searchText: string;
+  /** Paper ids presented in the session, so it remains visible when bookmarked. */
+  paperIds: string[];
 };
 
 type PlacedCalendarSession = CalendarSession & {
@@ -183,7 +185,23 @@ const getSharedSessionKey = (session: CalendarSession) =>
     session.endISO,
   ].join("|");
 
-const sessionList = await fetchAllSessions();
+const [sessionList, allPapers] = await Promise.all([
+  fetchAllSessions(),
+  fetchAllPapers(),
+]);
+
+// Workshops, challenges, and associated events aren't scheduled one paper per
+// slot; the session page lists every paper under the event's prefix instead.
+const eventPaperTypes = ["workshop", "challenge", "associated"];
+const paperIdsByEventPrefix = allPapers.reduce<Map<string, string[]>>(
+  (byPrefix, paper) => {
+    const ids = byPrefix.get(paper.event_prefix) || [];
+    ids.push(paper.id);
+    byPrefix.set(paper.event_prefix, ids);
+    return byPrefix;
+  },
+  new Map(),
+);
 
 const rawSessions: CalendarSession[] = Object.entries(sessionList)
   .flatMap(([eventId, eventDefinition]) =>
@@ -218,6 +236,9 @@ const rawSessions: CalendarSession[] = Object.entries(sessionList)
         startMinute: getConferenceMinutesOfDay(session.time_start),
         endMinute: getConferenceMinutesOfDay(session.time_end),
         searchText,
+        paperIds: eventPaperTypes.includes(eventType.toLowerCase())
+          ? paperIdsByEventPrefix.get(eventDefinition.event_prefix) || []
+          : (session.time_slots || []).map((slot) => slot.uid).filter(Boolean),
       };
     }),
   )
@@ -258,6 +279,9 @@ const sessions: CalendarSession[] = Array.from(sharedSessionGroups.values())
       ...session,
       room,
       chairs,
+      paperIds: Array.from(
+        new Set(matchingSessions.flatMap((candidate) => candidate.paperIds)),
+      ),
       searchText: [session.title, session.eventTitle, room, ...chairs]
         .join(" ")
         .toLowerCase(),
@@ -580,6 +604,42 @@ const frontmatter = {
       dropdownGroups={programTypeDropdownGroups}
       filterBarLabel="Session type filters"
     >
+      <Fragment slot="primary-controls">
+        <label class="u-control">
+          <span>Show</span>
+          <div
+            id="calendar-highlight"
+            class="u-choice-group u-responsive-choice-group"
+            role="group"
+            aria-label="Show sessions"
+          >
+            <select
+              class="u-select u-mobile-choice-select"
+              data-choice-select
+              aria-label="Show sessions"
+            >
+              <option value="all">All</option>
+              <option value="bookmarked">Bookmarked</option>
+            </select>
+            <button
+              type="button"
+              class="u-choice-button hover-response--tint is-active"
+              data-choice-value="all"
+              aria-pressed="true"
+            >
+              All
+            </button>
+            <button
+              type="button"
+              class="u-choice-button hover-response--tint"
+              data-choice-value="bookmarked"
+              aria-pressed="false"
+            >
+              Bookmarked
+            </button>
+          </div>
+        </label>
+      </Fragment>
       <a
         slot="heading-extra"
         class="calendar-subscribe-link"
@@ -700,6 +760,8 @@ const frontmatter = {
                         data-session-type={session.eventType}
                         data-day-group={dayGroup.dayKey}
                         data-search={session.searchText}
+                        data-session-id={session.eventSlug}
+                        data-paper-ids={session.paperIds.join(" ")}
                         data-start={session.startISO}
                         data-end={session.endISO}
                         {...(isSolo ? { "data-solo": "" } : {})}
@@ -841,6 +903,8 @@ const frontmatter = {
                           data-session-type={session.eventType}
                           data-day-group={dayGroup.dayKey}
                           data-search={session.searchText}
+                        data-session-id={session.eventSlug}
+                        data-paper-ids={session.paperIds.join(" ")}
                           data-start={session.startISO}
                           data-end={session.endISO}
                           data-solo=""
@@ -913,6 +977,8 @@ const frontmatter = {
                   data-type={session.eventType}
                   data-day-group={dayGroup.dayKey}
                   data-search={session.searchText}
+                        data-session-id={session.eventSlug}
+                        data-paper-ids={session.paperIds.join(" ")}
                   data-start={session.startISO}
                   data-end={session.endISO}
                   style={`--session-accent: ${typeColors[session.eventType] || "#6b7280"}`}
@@ -969,6 +1035,7 @@ const frontmatter = {
       markLiveCards,
       setupScrollToLive,
     } from "../../utils/liveNow";
+    import { createBookmarkStore } from "../../lib/bookmarks";
     import {
       createUrlStateHistory,
       type UrlStateWriteOptions,
@@ -986,6 +1053,8 @@ const frontmatter = {
       const timezoneControl = root.querySelector<HTMLElement>("#timezone-mode");
       const dayFilterControl = root.querySelector<HTMLElement>("#day-filter");
       const searchInput = root.querySelector("#calendar-search");
+      const highlightControl =
+        root.querySelector<HTMLElement>("#calendar-highlight");
       const dayTimelineScroll = root.querySelector<HTMLElement>(
         ".calendar-timeline-scroll",
       );
@@ -1211,6 +1280,7 @@ const frontmatter = {
           "",
         );
         setParam("tz", getMode(), "conference");
+        setParam("highlight", getChoiceValue(highlightControl, "all"), "all");
 
         urlHistory.write(params, options);
       };
@@ -1310,14 +1380,26 @@ const frontmatter = {
         }
       };
 
+      const sessionBookmarks = createBookmarkStore("program-sessions-bookmarks");
+      const paperBookmarks = createBookmarkStore("program-papers-bookmarks");
+      const isBookmarked = (card: HTMLElement): boolean =>
+        sessionBookmarks.has(card.dataset.sessionId || "") ||
+        (card.dataset.paperIds || "")
+          .split(" ")
+          .some((id) => id && paperBookmarks.has(id));
+
       const applyFilters = (options?: UrlStateWriteOptions) => {
         const selectedDay = getSelectedDay();
         const query = getSearchQuery();
+        const showBookmarked =
+          getChoiceValue(highlightControl, "all") === "bookmarked";
 
         applyDayLayout(selectedDay);
 
         for (const card of cards) {
-          card.hidden = !cardMatchesFilters(card, selectedDay, query);
+          card.hidden =
+            !cardMatchesFilters(card, selectedDay, query) ||
+            (showBookmarked && !isBookmarked(card));
         }
 
         for (const group of dayGroups) {
@@ -1333,6 +1415,8 @@ const frontmatter = {
 
         syncUrlState(options);
       };
+      sessionBookmarks.onSync(() => applyFilters({ replace: true }));
+      paperBookmarks.onSync(() => applyFilters({ replace: true }));
 
       // ── Cluster overlay interaction ────────────────────────────────
       for (const column of dayColumns) {
@@ -1644,6 +1728,9 @@ const frontmatter = {
         if (searchInput instanceof HTMLInputElement) {
           searchInput.value = params.get("q") || "";
         }
+        if (!setChoiceValue(highlightControl, params.get("highlight") || "all")) {
+          setChoiceValue(highlightControl, "all");
+        }
       };
 
       // On Back/Forward, a missing param means its default: the initial load
@@ -1657,6 +1744,25 @@ const frontmatter = {
 
       // URL state takes precedence over saved preferences.
       restoreFromUrl(new URLSearchParams(window.location.search), savedMode);
+
+      if (highlightControl) {
+        for (const button of highlightControl.querySelectorAll<HTMLButtonElement>(
+          ".u-choice-button[data-choice-value]",
+        )) {
+          button.addEventListener("click", () => {
+            const value = button.dataset.choiceValue;
+            if (!value || !setChoiceValue(highlightControl, value)) return;
+            applyFilters();
+          });
+        }
+        const highlightSelect = highlightControl.querySelector<HTMLSelectElement>(
+          "[data-choice-select]",
+        );
+        highlightSelect?.addEventListener("change", () => {
+          if (!setChoiceValue(highlightControl, highlightSelect.value)) return;
+          applyFilters();
+        });
+      }
 
       if (timezoneControl) {
         const timezoneButtons = Array.from(

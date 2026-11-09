@@ -3,7 +3,7 @@ import { venueRoomHref } from "../../utils/venueLink";
 import PageLayout from "../../layouts/PageLayout.astro";
 import ProgramHeader from "../../components/ProgramHeader.astro";
 import ProgramCard from "../../components/ProgramCard.astro";
-import { fetchAllSessions } from "../../utils/paperData";
+import { fetchAllPapers, fetchAllSessions } from "../../utils/paperData";
 import {
   getProgramEventTypeCardLabel,
   getProgramEventTypeLabel,
@@ -33,6 +33,8 @@ type SessionListItem = {
   endISO: string;
   startMs: number;
   searchText: string;
+  /** Paper ids presented in the session, to highlight it when one is bookmarked. */
+  paperIds: string[];
 };
 
 function getDateParts(date: Date, timeZone: string) {
@@ -68,7 +70,23 @@ const dayDateFormatter = new Intl.DateTimeFormat("en-US", {
   day: "numeric",
 });
 
-const sessionList = await fetchAllSessions();
+const [sessionList, allPapers] = await Promise.all([
+  fetchAllSessions(),
+  fetchAllPapers(),
+]);
+
+// Workshops, challenges, and associated events aren't scheduled one paper per
+// slot; the session page lists every paper under the event's prefix instead.
+const eventPaperTypes = ["workshop", "challenge", "associated"];
+const paperIdsByEventPrefix = allPapers.reduce<Map<string, string[]>>(
+  (byPrefix, paper) => {
+    const ids = byPrefix.get(paper.event_prefix) || [];
+    ids.push(paper.id);
+    byPrefix.set(paper.event_prefix, ids);
+    return byPrefix;
+  },
+  new Map(),
+);
 
 const sessions: SessionListItem[] = Object.values(sessionList)
   .flatMap((eventDefinition) =>
@@ -101,6 +119,9 @@ const sessions: SessionListItem[] = Object.values(sessionList)
         endISO: session.time_end,
         startMs: Date.parse(session.time_start),
         searchText,
+        paperIds: eventPaperTypes.includes(eventType)
+          ? paperIdsByEventPrefix.get(eventDefinition.event_prefix) || []
+          : (session.time_slots || []).map((slot) => slot.uid).filter(Boolean),
       };
     }),
   )
@@ -231,17 +252,17 @@ function formatPeopleForSession(session: SessionListItem) {
     >
       <Fragment slot="primary-controls">
         <label class="u-control">
-          Sort by
+          Show by
           <div
             id="sessions-sort"
             class="u-choice-group u-responsive-choice-group"
             role="group"
-            aria-label="Sort by"
+            aria-label="Show by"
           >
             <select
               class="u-select u-mobile-choice-select"
               data-choice-select
-              aria-label="Sort by"
+              aria-label="Show by"
             >
               <option value="time">time</option>
               <option value="bookmark">bookmark</option>
@@ -311,6 +332,7 @@ function formatPeopleForSession(session: SessionListItem) {
                       role="listitem"
                       data-program-card
                       data-session-id={session.eventSlug}
+                      data-paper-ids={session.paperIds.join(" ")}
                       bookmark={{ bookmarked: false }}
                       data-type={session.eventType}
                       data-day-group={dayGroup.dayKey}
@@ -401,8 +423,14 @@ function formatPeopleForSession(session: SessionListItem) {
         parent: card.parentElement as HTMLElement,
       }));
 
-      // "time" keeps the day/time groups; "bookmark" shows one flat list with
-      // bookmarked sessions first, then by start time.
+      // "time" shows every session in day/time groups; "bookmark" shows only
+      // bookmarked sessions and sessions with a bookmarked paper, as one flat
+      // list: bookmarked sessions first, then the rest, each in start-time
+      // order.
+      const bookmarkRank = (card: HTMLElement) => {
+        if (bookmarks.has(card.dataset.sessionId || "")) return 0;
+        return card.classList.contains("has-bookmarked-paper") ? 1 : 2;
+      };
       const applySort = () => {
         if (!flatList || !dayList) return;
         const bookmarkMode =
@@ -412,8 +440,7 @@ function formatPeopleForSession(session: SessionListItem) {
             .map((slot, index) => ({ card: slot.card, index }))
             .sort(
               (a, b) =>
-                Number(bookmarks.has(b.card.dataset.sessionId || "")) -
-                  Number(bookmarks.has(a.card.dataset.sessionId || "")) ||
+                bookmarkRank(a.card) - bookmarkRank(b.card) ||
                 a.index - b.index,
             );
           for (const { card } of ordered) flatList.appendChild(card);
@@ -425,6 +452,23 @@ function formatPeopleForSession(session: SessionListItem) {
       };
 
       const bookmarks = createBookmarkStore("program-sessions-bookmarks");
+      // Sessions with a bookmarked paper get highlighted.
+      const paperBookmarks = createBookmarkStore("program-papers-bookmarks");
+      const refreshPaperHighlights = () => {
+        for (const card of cards) {
+          const paperIds = (card.dataset.paperIds || "").split(" ");
+          card.classList.toggle(
+            "has-bookmarked-paper",
+            paperIds.some((id) => id && paperBookmarks.has(id)),
+          );
+        }
+      };
+      paperBookmarks.onSync(() => {
+        refreshPaperHighlights();
+        applySort();
+        applyFilters({ replace: true });
+      });
+      refreshPaperHighlights();
 
       const refreshBookmarks = () => {
         for (const card of cards) {
@@ -449,12 +493,14 @@ function formatPeopleForSession(session: SessionListItem) {
             bookmarks.toggle(card.dataset.sessionId || "");
             refreshBookmarks();
             applySort();
+            applyFilters({ replace: true });
           });
       }
       // The Auth0 copy of the bookmarks arrives after load.
       bookmarks.onSync(() => {
         refreshBookmarks();
         applySort();
+        applyFilters({ replace: true });
       });
       refreshBookmarks();
 
@@ -524,6 +570,8 @@ function formatPeopleForSession(session: SessionListItem) {
         const search = card.dataset.search || "";
 
         return (
+          (getChoiceValue(sortControl, "time") !== "bookmark" ||
+            bookmarkRank(card) < 2) &&
           (activeTypeFilter === ALL_FILTER || activeTypeFilter === type) &&
           (selectedDay === "all" || dayKey === selectedDay) &&
           (query === "" || search.includes(query))
