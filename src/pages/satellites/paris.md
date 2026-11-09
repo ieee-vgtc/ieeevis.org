@@ -27,8 +27,8 @@ The local program will begin at 9:30 each morning and will feature a meeting wit
 |          Time | Tuesday, Nov 10      | Wednesday, Nov 11  | Thursday, Nov 12                    | Friday, Nov 13                              |
 | ------------: | :------------------- | :----------------  | :---------------------------------- | :------------------------------------------ |
 |  9:30 - 10:30 | Opening              | Amphi: PhD Madness |  Poster Viewing                     | Amphi: Panel: Teaching Vis in the age of AI |
-|               |                      |                    |  Room 2: Video replay               | Room 2: Local paper presentations 2         |
-|               |                      |                    |  Musaique: Video replay             | Musaique2: Video streams                    |
+|               |                      | Room 2: Video replay |                                   | Room 2: Local paper presentations 2         |
+|               |                      | Musaique: Video replay |                                 | Musaique2: Video streams                    |
 | 10:30 - 11:00 | _coffe break_        | _coffe break_      | _coffe break_                       | _coffe break_                               |
 | 11:00 - 12:00 | Amphi: Local Keynote | Amphi: Awards session replay  |  Amphi: Panel Visualization Future   | Amphi: Townhall: Satellite 2.0              |
 |               |                      | Room 2: invitation only PhD event  |  Room 2: Local paper presentations 1 |                                             |
