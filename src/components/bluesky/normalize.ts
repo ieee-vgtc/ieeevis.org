@@ -134,6 +134,7 @@ export function normalizeQuote(embed?: AppViewEmbed): PostEmbed | null {
       uri: quote.uri,
       author: quote.author?.handle || quote.author?.did || "unknown",
       authorName: quote.author?.displayName || null,
+      authorAvatar: quote.author?.avatar || null,
       text: quote.value?.text || "",
       images: (quote.embeds || []).flatMap((e) => normalizeImages(e)),
     };

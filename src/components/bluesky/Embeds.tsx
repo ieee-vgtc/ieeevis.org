@@ -1,6 +1,8 @@
 /** What a post carries besides its text: attached images, and the single link
  *  card or quoted post a Bluesky post may have. */
 
+import { useEffect, useState } from "react";
+import Avatar from "./Avatar";
 import { postUrl } from "./format";
 import type { EmbedImage, PostEmbed } from "./types";
 
@@ -161,7 +163,71 @@ export function EmbedCard({ embed }: { embed?: PostEmbed | null }) {
     );
   }
 
-  const quotedImages = embed.images || [];
+  return <QuoteCard embed={embed} />;
+}
+
+type QuoteEmbed = Extract<PostEmbed, { kind: "record" }>;
+type QuoteDetails = Pick<QuoteEmbed, "authorName" | "authorAvatar" | "images">;
+
+const quoteDetailsCache = new Map<string, Promise<QuoteDetails>>();
+
+/** The discussion service sends a quote as handle + text only; ask the public
+ *  AppView for the quoted post's display name and images. */
+function fetchQuoteDetails(uri: string): Promise<QuoteDetails> {
+  let pending = quoteDetailsCache.get(uri);
+  if (!pending) {
+    pending = fetch(
+      `https://public.api.bsky.app/xrpc/app.bsky.feed.getPosts?uris=${encodeURIComponent(uri)}`,
+    )
+      .then((r) => (r.ok ? r.json() : { posts: [] }))
+      .then((json) => {
+        const post = json?.posts?.[0];
+        const embed = post?.embed;
+        const raw: Array<{ thumb?: string; fullsize?: string; alt?: string }> =
+          embed?.$type === "app.bsky.embed.images#view"
+            ? embed.images
+            : embed?.$type === "app.bsky.embed.recordWithMedia#view"
+              ? embed.media?.images
+              : [];
+        return {
+          authorName: post?.author?.displayName || null,
+          authorAvatar: post?.author?.avatar || null,
+          images: (raw || [])
+            .map((i) => ({
+              thumb: i.thumb || i.fullsize || "",
+              fullsize: i.fullsize || i.thumb || "",
+              alt: i.alt || "",
+            }))
+            .filter((i) => i.thumb),
+        };
+      })
+      .catch(() => ({ authorName: null, authorAvatar: null, images: [] }));
+    quoteDetailsCache.set(uri, pending);
+  }
+  return pending;
+}
+
+function QuoteCard({ embed }: { embed: QuoteEmbed }) {
+  const [details, setDetails] = useState<QuoteDetails | null>(null);
+  const needsDetails =
+    embed.images === undefined || !embed.authorName || !embed.authorAvatar;
+
+  useEffect(() => {
+    if (!needsDetails) {
+      return;
+    }
+    let cancelled = false;
+    fetchQuoteDetails(embed.uri).then((d) => !cancelled && setDetails(d));
+    return () => {
+      cancelled = true;
+    };
+  }, [embed.uri, needsDetails]);
+
+  const authorName = embed.authorName || details?.authorName;
+  const authorAvatar = embed.authorAvatar || details?.authorAvatar || null;
+  const quotedImages = embed.images?.length
+    ? embed.images
+    : (details?.images ?? []);
 
   return (
     <a
@@ -170,12 +236,28 @@ export function EmbedCard({ embed }: { embed?: PostEmbed | null }) {
       style={{ ...cardStyle, padding: "0.6rem" }}
       target="_blank"
     >
-      <strong style={{ display: "block", marginBottom: "0.2rem" }}>
-        {embed.authorName ? `${embed.authorName} ` : "Quoted post by "}
-        <span style={{ fontWeight: "normal", color: "var(--color-gray-600)" }}>
-          @{embed.author}
-        </span>
-      </strong>
+      <header
+        style={{
+          display: "flex",
+          alignItems: "center",
+          gap: "0.5rem",
+          marginBottom: "0.3rem",
+        }}
+      >
+        <Avatar size={24} src={authorAvatar} />
+        <div style={{ lineHeight: 1.2 }}>
+          <span style={{ fontWeight: 600 }}>
+            {authorName || `@${embed.author}`}
+          </span>
+          {authorName && (
+            <div
+              style={{ fontSize: "0.85rem", color: "var(--color-gray-600)" }}
+            >
+              @{embed.author}
+            </div>
+          )}
+        </div>
+      </header>
       <small style={{ whiteSpace: "pre-wrap" }}>
         {embed.text ||
           (quotedImages.length ? "" : "Open the quoted post on Bluesky")}

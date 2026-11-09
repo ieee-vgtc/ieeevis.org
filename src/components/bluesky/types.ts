@@ -46,6 +46,7 @@ export type PostEmbed =
       uri: string;
       author: string;
       authorName?: string | null;
+      authorAvatar?: string | null;
       text: string;
       images?: EmbedImage[];
     };
