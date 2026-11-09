@@ -35,6 +35,7 @@ interface AppViewQuotedRecord {
   uri?: string;
   author?: AppViewAuthor;
   value?: { text?: string };
+  embeds?: AppViewEmbed[];
 }
 
 interface AppViewEmbed {
@@ -114,6 +115,11 @@ function normalizeEmbed(embed?: AppViewEmbed): PostEmbed | null {
     };
   }
 
+  return normalizeQuote(embed);
+}
+
+/** The quoted post, if any, whether or not the quote also carries media. */
+export function normalizeQuote(embed?: AppViewEmbed): PostEmbed | null {
   // A quote with media nests the quoted record one level deeper.
   const quote =
     embed?.$type === "app.bsky.embed.record#view"
@@ -127,7 +133,10 @@ function normalizeEmbed(embed?: AppViewEmbed): PostEmbed | null {
       kind: "record",
       uri: quote.uri,
       author: quote.author?.handle || quote.author?.did || "unknown",
+      authorName: quote.author?.displayName || null,
+      authorAvatar: quote.author?.avatar || null,
       text: quote.value?.text || "",
+      images: (quote.embeds || []).flatMap((e) => normalizeImages(e)),
     };
   }
 
@@ -191,6 +200,7 @@ function normalizeNode(
     createdAt: post.record?.createdAt || post.indexedAt || null,
     embedImages: normalizeImages(post.embed),
     embed: normalizeEmbed(post.embed),
+    quote: normalizeQuote(post.embed),
     replies: normalizeNodes(node.replies, hiddenUris),
   };
 }
@@ -249,6 +259,7 @@ function withDefaults(post: ShapedPost): ShapedPost {
     createdAt: post.createdAt ?? null,
     embedImages: Array.isArray(post.embedImages) ? post.embedImages : [],
     embed: post.embed ?? null,
+    quote: post.quote ?? null,
     replies: Array.isArray(post.replies) ? post.replies.map(withDefaults) : [],
   };
 }

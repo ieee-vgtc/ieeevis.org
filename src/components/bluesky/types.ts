@@ -41,7 +41,15 @@ export type PostEmbed =
       description: string;
       thumb: string | null;
     }
-  | { kind: "record"; uri: string; author: string; text: string };
+  | {
+      kind: "record";
+      uri: string;
+      author: string;
+      authorName?: string | null;
+      authorAvatar?: string | null;
+      text: string;
+      images?: EmbedImage[];
+    };
 
 /**
  * One post in the thread. Replies nest here — there is no top-level list.
@@ -69,6 +77,8 @@ export interface ShapedPost {
   createdAt: string | null;
   embedImages: EmbedImage[];
   embed?: PostEmbed | null;
+  /** The quoted post when a link card or images take the `embed` slot. */
+  quote?: PostEmbed | null;
   replies: ShapedPost[];
 }
 

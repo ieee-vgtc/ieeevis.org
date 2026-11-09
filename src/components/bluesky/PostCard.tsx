@@ -500,6 +500,9 @@ export default function PostCard({
       </p>
       <EmbedImages images={post.embedImages} />
       <EmbedCard embed={post.embed} />
+      {post.quote && post.quote !== post.embed && (
+        <EmbedCard embed={post.quote} />
+      )}
       {postedAt !== undefined && <CacheSettleBar postedAt={postedAt} />}
 
       {hasFooter && (
