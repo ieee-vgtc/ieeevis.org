@@ -252,17 +252,17 @@ function formatPeopleForSession(session: SessionListItem) {
     >
       <Fragment slot="primary-controls">
         <label class="u-control">
-          Sort by
+          Show by
           <div
             id="sessions-sort"
             class="u-choice-group u-responsive-choice-group"
             role="group"
-            aria-label="Sort by"
+            aria-label="Show by"
           >
             <select
               class="u-select u-mobile-choice-select"
               data-choice-select
-              aria-label="Sort by"
+              aria-label="Show by"
             >
               <option value="time">time</option>
               <option value="bookmark">bookmark</option>
@@ -423,9 +423,10 @@ function formatPeopleForSession(session: SessionListItem) {
         parent: card.parentElement as HTMLElement,
       }));
 
-      // "time" keeps the day/time groups; "bookmark" shows one flat list:
-      // bookmarked sessions, then sessions with a bookmarked paper, then the
-      // rest, each in start-time order.
+      // "time" shows every session in day/time groups; "bookmark" shows only
+      // bookmarked sessions and sessions with a bookmarked paper, as one flat
+      // list: bookmarked sessions first, then the rest, each in start-time
+      // order.
       const bookmarkRank = (card: HTMLElement) => {
         if (bookmarks.has(card.dataset.sessionId || "")) return 0;
         return card.classList.contains("has-bookmarked-paper") ? 1 : 2;
@@ -465,6 +466,7 @@ function formatPeopleForSession(session: SessionListItem) {
       paperBookmarks.onSync(() => {
         refreshPaperHighlights();
         applySort();
+        applyFilters({ replace: true });
       });
       refreshPaperHighlights();
 
@@ -491,12 +493,14 @@ function formatPeopleForSession(session: SessionListItem) {
             bookmarks.toggle(card.dataset.sessionId || "");
             refreshBookmarks();
             applySort();
+            applyFilters({ replace: true });
           });
       }
       // The Auth0 copy of the bookmarks arrives after load.
       bookmarks.onSync(() => {
         refreshBookmarks();
         applySort();
+        applyFilters({ replace: true });
       });
       refreshBookmarks();
 
@@ -566,6 +570,8 @@ function formatPeopleForSession(session: SessionListItem) {
         const search = card.dataset.search || "";
 
         return (
+          (getChoiceValue(sortControl, "time") !== "bookmark" ||
+            bookmarkRank(card) < 2) &&
           (activeTypeFilter === ALL_FILTER || activeTypeFilter === type) &&
           (selectedDay === "all" || dayKey === selectedDay) &&
           (query === "" || search.includes(query))
