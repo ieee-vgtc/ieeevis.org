@@ -42,7 +42,7 @@ type CalendarSession = {
   startMinute: number;
   endMinute: number;
   searchText: string;
-  /** Paper ids presented in the session, to highlight it when one is bookmarked. */
+  /** Paper ids presented in the session, so it remains visible when bookmarked. */
   paperIds: string[];
 };
 
@@ -606,20 +606,20 @@ const frontmatter = {
     >
       <Fragment slot="primary-controls">
         <label class="u-control">
-          Highlight
+          <span>Show</span>
           <div
             id="calendar-highlight"
             class="u-choice-group u-responsive-choice-group"
             role="group"
-            aria-label="Highlight"
+            aria-label="Show sessions"
           >
             <select
               class="u-select u-mobile-choice-select"
               data-choice-select
-              aria-label="Highlight"
+              aria-label="Show sessions"
             >
-              <option value="all">all</option>
-              <option value="bookmarked">bookmarked</option>
+              <option value="all">All</option>
+              <option value="bookmarked">Bookmarked</option>
             </select>
             <button
               type="button"
@@ -627,7 +627,7 @@ const frontmatter = {
               data-choice-value="all"
               aria-pressed="true"
             >
-              all
+              All
             </button>
             <button
               type="button"
@@ -635,7 +635,7 @@ const frontmatter = {
               data-choice-value="bookmarked"
               aria-pressed="false"
             >
-              bookmarked
+              Bookmarked
             </button>
           </div>
         </label>
@@ -1380,32 +1380,26 @@ const frontmatter = {
         }
       };
 
-      // "bookmarked" dims every session that is neither bookmarked nor
-      // presenting a bookmarked paper.
       const sessionBookmarks = createBookmarkStore("program-sessions-bookmarks");
       const paperBookmarks = createBookmarkStore("program-papers-bookmarks");
-      const refreshHighlight = () => {
-        const dimOthers = getChoiceValue(highlightControl, "all") === "bookmarked";
-        for (const card of cards) {
-          const matches =
-            sessionBookmarks.has(card.dataset.sessionId || "") ||
-            (card.dataset.paperIds || "")
-              .split(" ")
-              .some((id) => id && paperBookmarks.has(id));
-          card.classList.toggle("is-bookmark-dim", dimOthers && !matches);
-        }
-      };
-      sessionBookmarks.onSync(refreshHighlight);
-      paperBookmarks.onSync(refreshHighlight);
+      const isBookmarked = (card: HTMLElement): boolean =>
+        sessionBookmarks.has(card.dataset.sessionId || "") ||
+        (card.dataset.paperIds || "")
+          .split(" ")
+          .some((id) => id && paperBookmarks.has(id));
 
       const applyFilters = (options?: UrlStateWriteOptions) => {
         const selectedDay = getSelectedDay();
         const query = getSearchQuery();
+        const showBookmarked =
+          getChoiceValue(highlightControl, "all") === "bookmarked";
 
         applyDayLayout(selectedDay);
 
         for (const card of cards) {
-          card.hidden = !cardMatchesFilters(card, selectedDay, query);
+          card.hidden =
+            !cardMatchesFilters(card, selectedDay, query) ||
+            (showBookmarked && !isBookmarked(card));
         }
 
         for (const group of dayGroups) {
@@ -1418,10 +1412,11 @@ const frontmatter = {
         }
 
         relayoutVisibleSessions();
-        refreshHighlight();
 
         syncUrlState(options);
       };
+      sessionBookmarks.onSync(() => applyFilters({ replace: true }));
+      paperBookmarks.onSync(() => applyFilters({ replace: true }));
 
       // ── Cluster overlay interaction ────────────────────────────────
       for (const column of dayColumns) {

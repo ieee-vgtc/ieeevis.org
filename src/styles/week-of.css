@@ -1875,10 +1875,3 @@
   grid-column: 1 / -1;
   margin-top: 0.5rem;
 }
-
-/* Calendar "highlight: bookmarked" dims sessions with no bookmark. */
-.calendar-session-block.is-bookmark-dim,
-.calendar-session.is-bookmark-dim {
-  opacity: 0.24;
-  filter: saturate(0.72);
-}
