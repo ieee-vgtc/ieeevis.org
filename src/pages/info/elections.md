@@ -28,7 +28,7 @@ Please visit the [VSC Candidates](/year/2026/info/vsc-candidates) and [VEC Candi
 
 # Nominate a Candidate
 
-The call to nominate candidates for VSC is now open, with **nominations due by July 1st, 2026**. To nominate a candidate, please complete the form:
+The call to nominate candidates for VSC is now open, with **nominations due by Friday, November 20, 2026, 11:59 PM AoE (Anywhere on Earth)**. To nominate a candidate, please complete the form:
 
 [VIS 2026 candidate nomination form](https://forms.gle/C9jQYp7Wn4k1szua7)
 
