@@ -47,6 +47,8 @@ export interface VenueSpace {
   purpose?: string;
   /** Daily opening hours (24-hour "HH:MM", venue time) for a special-use room. */
   hours?: { open: string; close: string };
+  /** Several daily time windows (24-hour "HH:MM", venue time), listed when the area is selected. */
+  times?: { open: string; close: string }[];
   /** Optional note displayed for a room. */
   note?: string;
 }
@@ -55,6 +57,11 @@ export interface VenueSpace {
 const POSTER_DAYS = ["tue", "wed", "thu", "fri"];
 /** Coffee breaks run Monday through Friday. */
 const COFFEE_DAYS = ["mon", "tue", "wed", "thu", "fri"];
+/** Morning and afternoon coffee breaks. */
+const COFFEE_TIMES = [
+  { open: "09:30", close: "10:00" },
+  { open: "14:30", close: "15:00" },
+];
 /** The conference days, when the special-use rooms are open. */
 const CONFERENCE_DAYS = ["mon", "tue", "wed", "thu", "fri"];
 /** VISKids and the student volunteer room are open 7 am to 5 pm. */
@@ -108,11 +115,13 @@ export const SPACES: VenueSpace[] = [
   },
   {
     roomId: "coffee",
-    name: "Coffee breaks, Essex Foyer",
+    name: "Essex Foyer",
+    purpose: "Coffee Breaks",
     floor: "3",
     shapes: ["coffee"],
     area: true,
     days: COFFEE_DAYS,
+    times: COFFEE_TIMES,
   },
   {
     roomId: "posters",
