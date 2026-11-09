@@ -161,6 +161,8 @@ export function EmbedCard({ embed }: { embed?: PostEmbed | null }) {
     );
   }
 
+  const quotedImages = embed.images || [];
+
   return (
     <a
       href={postUrl(embed.uri) || "https://bsky.app"}
@@ -169,9 +171,26 @@ export function EmbedCard({ embed }: { embed?: PostEmbed | null }) {
       target="_blank"
     >
       <strong style={{ display: "block", marginBottom: "0.2rem" }}>
-        Quoted post by @{embed.author}
+        {embed.authorName ? `${embed.authorName} ` : "Quoted post by "}
+        <span style={{ fontWeight: "normal", color: "var(--color-gray-600)" }}>
+          @{embed.author}
+        </span>
       </strong>
-      <small>{embed.text || "Open the quoted post on Bluesky"}</small>
+      <small style={{ whiteSpace: "pre-wrap" }}>
+        {embed.text ||
+          (quotedImages.length ? "" : "Open the quoted post on Bluesky")}
+      </small>
+      {quotedImages.length > 0 && (
+        <img
+          alt={quotedImages[0].alt || ""}
+          src={quotedImages[0].thumb}
+          style={{
+            ...singleImageStyle,
+            marginTop: "0.4rem",
+            maxHeight: "180px",
+          }}
+        />
+      )}
     </a>
   );
 }
