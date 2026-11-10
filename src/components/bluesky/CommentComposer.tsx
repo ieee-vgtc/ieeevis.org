@@ -10,6 +10,7 @@
 import { useLayoutEffect, useRef, useState } from "react";
 import type { CSSProperties, FormEvent } from "react";
 import {
+  disabledButtonStyle,
   errorTextStyle,
   hintTextStyle,
   primaryButtonStyle,
@@ -287,6 +288,7 @@ export default function CommentComposer({
       : "hidden";
 
   const remaining = limit - graphemeLength(draft);
+  const canPost = Boolean(draft.trim()) && remaining >= 0;
   const bylineLabel = (who: string | null) =>
     who ? `${verb} as ${truncateByline(who)}` : verb;
 
@@ -369,9 +371,11 @@ export default function CommentComposer({
         {/* The section is a polite live region, so the button's byline is
             announced when "Hide my name" toggles it. */}
         <button
-          disabled={submitting || !draft.trim() || remaining < 0}
+          disabled={submitting || !canPost}
           style={{
-            ...primaryButtonStyle,
+            // Greyed when there is nothing postable; "Posting…" keeps the
+            // accent so it reads as progress rather than a refusal.
+            ...(canPost ? primaryButtonStyle : disabledButtonStyle),
             padding: "0.4rem 0.9rem",
             fontSize: "0.9rem",
           }}
