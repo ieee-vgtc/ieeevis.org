@@ -107,7 +107,7 @@ const presentations = [...session.time_slots]
 const presentersOf = (slot: ProgramTimeSlot): ProgramPerson[] =>
   slot.presenters ?? slot.contributors?.map((name) => ({ name })) ?? [];
 
-const sessionPageId = `${session.event_prefix}-${session.session_id}`;
+const sessionPageId =`${session.event_prefix}-${session.session_id}`;
 const venueHref = venueRoomHref(
   session.track,
   session.time_start,
@@ -146,7 +146,10 @@ const workshopPapers =
   eventPaperTypes.includes(normalizedEventType) && presentations.length === 0
     ? eventPapers
     : [];
-const usesOrganizerLabel = isPanel || normalizedEventType === "tutorial";
+const hasAbstracts =
+  presentations.some((slot) => slot.abstract) ||
+  workshopPapers.some((paper) => paper.abstract);
+const usesOrganizerLabel =isPanel || normalizedEventType === "tutorial";
 // A session's own details (panels, invited talks) apply to any event type.
 const description =
   session.description || (isDescribedEvent ? event.event_description : "");
@@ -293,6 +296,20 @@ const DISCUSSION_SECTION_ID = "discussion";
           !description && <h2>Presentations in this session</h2>
         )
       }
+      {
+        hasAbstracts && (
+          <div class="abstract-toggle-row">
+            <button
+              type="button"
+              id="abstractToggleBtn"
+              class="button button-inverse"
+              aria-pressed="true"
+            >
+              Close abstracts
+            </button>
+          </div>
+        )
+      }
     </div>
 
     <div>
@@ -357,6 +374,12 @@ const DISCUSSION_SECTION_ID = "discussion";
                 <ProgramPeopleList people={presentersOf(slot)} linkNames />
               </p>
             )}
+            {slot.abstract && (
+              <details class="program-presentation-abstract" open>
+                <summary>Abstract</summary>
+                <p>{slot.abstract}</p>
+              </details>
+            )}
           </section>
         ))
       }
@@ -386,6 +409,12 @@ const DISCUSSION_SECTION_ID = "discussion";
               <p class="program-presentation-authors">
                 Authors: <ProgramPeopleList people={paper.authors} linkNames />
               </p>
+            )}
+            {paper.abstract && (
+              <details class="program-presentation-abstract" open>
+                <summary>Abstract</summary>
+                <p>{paper.abstract}</p>
+              </details>
             )}
           </section>
         ))
@@ -481,6 +510,27 @@ const DISCUSSION_SECTION_ID = "discussion";
       margin: 0;
       color: var(--color-gray-700);
       font-size: 0.9rem;
+    }
+
+    .program-presentation-abstract {
+      margin-top: 0.5rem;
+      font-size: 0.9rem;
+      color: var(--color-gray-800);
+    }
+
+    .program-presentation-abstract summary {
+      cursor: pointer;
+      font-weight: 700;
+      color: var(--color-accent);
+    }
+
+    .program-presentation-abstract p {
+      margin: 0.4rem 0 0;
+    }
+
+    .abstract-toggle-row {
+      max-width: 62rem;
+      margin: 0 auto 1rem;
     }
 
     .program-presentation-award {
@@ -605,6 +655,25 @@ const DISCUSSION_SECTION_ID = "discussion";
   });
   bookmarks.onSync(update);
   update();
+
+  // Open / close all abstracts at once.
+  const abstractBtn = document.getElementById("abstractToggleBtn");
+  const abstractDetails = document.querySelectorAll<HTMLDetailsElement>(
+    "details.program-presentation-abstract",
+  );
+  const updateAbstractBtn = () => {
+    if (!abstractBtn) return;
+    const anyOpen = [...abstractDetails].some((d) => d.open);
+    abstractBtn.textContent = anyOpen ? "Close abstracts" : "Open abstracts";
+    abstractBtn.setAttribute("aria-pressed", String(anyOpen));
+  };
+  abstractBtn?.addEventListener("click", () => {
+    const anyOpen = [...abstractDetails].some((d) => d.open);
+    for (const d of abstractDetails) d.open = !anyOpen;
+    updateAbstractBtn();
+  });
+  for (const d of abstractDetails) d.addEventListener("toggle", updateAbstractBtn);
+  updateAbstractBtn();
 
   // Per-paper bookmarks share the papers list's store.
   const paperBookmarks = createBookmarkStore("program-papers-bookmarks");
