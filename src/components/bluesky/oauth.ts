@@ -88,8 +88,9 @@ export function buildClientMetadata(
 /**
  * A local checkout cannot serve `https://` metadata, so it uses the loopback
  * client that ATProto defines for development: the client id encodes the
- * redirect URI and scope, and Bluesky reads nothing from the site. The library
- * requires the page to be on `127.0.0.1`, not `localhost`, and moves it there.
+ * redirect URI and scope, and Bluesky reads nothing from the site. The login
+ * returns to `127.0.0.1`, not `localhost`, so open the dev server there: a
+ * session stored on one origin is not visible from the other.
  */
 function isLoopback(hostname: string): boolean {
   return (
@@ -125,45 +126,7 @@ function getClient(): Promise<BrowserOAuthClient> {
 
 /** Whether this browser holds a Bluesky session — without loading the library. */
 export function hasStoredSession(): boolean {
-  try {
-    return Boolean(window.localStorage.getItem(STORED_SUB_KEY));
-  } catch {
-    return false;
-  }
-}
-
-let initPromise: Promise<OAuthSession | null> | null = null;
-
-/**
- * The stored session, refreshed if needed, or null when there is none. Shared
- * across every discussion on the page, since the library must process a login
- * callback at most once.
- *
- * `initRestore` forgets the signed-in account (removes `STORED_SUB_KEY`) on
- * *any* error, including a request to Bluesky that merely failed to load. The
- * tokens themselves survive such an error in IndexedDB, but with the marker
- * gone `hasStoredSession` reports no session on every later page, so one
- * dropped request on a flaky network signed the reader out for good. Put the
- * marker back unless the library itself judges the session to be over
- * (refresh rejected, revoked, invalid), so the next page load tries again.
- */
-export function restoreSession(): Promise<OAuthSession | null> {
-  initPromise ??= getClient().then(async (client) => {
-    const sub = readStoredSub();
-    try {
-      const result = await client.initRestore();
-      return result?.session ?? null;
-    } catch (error) {
-      // Already loaded by getClient, so this costs nothing.
-      const { isExpectedSessionError } =
-        await import("@atproto/oauth-client-browser");
-      if (sub && !isExpectedSessionError(error)) {
-        writeStoredSub(sub);
-      }
-      throw error;
-    }
-  });
-  return initPromise;
+  return Boolean(readStoredSub());
 }
 
 function readStoredSub(): string | null {
@@ -174,12 +137,29 @@ function readStoredSub(): string | null {
   }
 }
 
-function writeStoredSub(sub: string): void {
-  try {
-    window.localStorage.setItem(STORED_SUB_KEY, sub);
-  } catch {
-    // Storage unavailable: the reader is offered the login again, as before.
-  }
+let initPromise: Promise<OAuthSession | null> | null = null;
+
+/**
+ * The stored session, refreshed if needed, or null when there is none. Shared
+ * across every discussion on the page.
+ *
+ * Calls `restore` rather than the library's `initRestore`, which removes
+ * `STORED_SUB_KEY` on *any* error, including a request to Bluesky that merely
+ * failed to load. The tokens survive such an error in IndexedDB, but with the
+ * key gone `hasStoredSession` reports no session on every later page, so one
+ * dropped request on a flaky network signed the reader out for good.
+ * `restore` leaves the key alone on failure, and the library still removes it
+ * whenever it deletes the session itself (refresh rejected, revoked, invalid),
+ * so a network failure only costs this page and the next load tries again.
+ * (`initRestore` also moves a loopback dev server from `localhost` to
+ * `127.0.0.1`; on `localhost` there is never a stored key to restore.)
+ */
+export function restoreSession(): Promise<OAuthSession | null> {
+  initPromise ??= getClient().then((client) => {
+    const sub = readStoredSub();
+    return sub ? client.restore(sub) : null;
+  });
+  return initPromise;
 }
 
 /**
