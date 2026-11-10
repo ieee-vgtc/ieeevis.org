@@ -350,7 +350,8 @@ const DISCUSSION_SECTION_ID = "discussion";
                 <ProgramPeopleList people={slot.authors} linkNames />
               </p>
             )}
-            {isDescribedEvent && presentersOf(slot).length > 0 && (
+            {(isDescribedEvent || !slot.authors?.length) &&
+              presentersOf(slot).length > 0 && (
               <p class="program-presentation-contrib">
                 {isPanel && <strong class="mr-2">Panelists:</strong>}
                 <ProgramPeopleList people={presentersOf(slot)} linkNames />
