@@ -297,15 +297,25 @@ const DISCUSSION_SECTION_ID = "discussion";
         )
       }
       {
-        hasAbstracts && (
+        (hasAbstracts || presentations.length > 0) && (
           <div class="abstract-toggle-row">
+            {hasAbstracts && (
+              <button
+                type="button"
+                id="abstractToggleBtn"
+                class="button button-inverse"
+                aria-pressed="true"
+              >
+                Close abstracts
+              </button>
+            )}
             <button
               type="button"
-              id="abstractToggleBtn"
-              class="button button-inverse"
-              aria-pressed="true"
+              class="scroll-to-live"
+              data-scroll-to-live
+              hidden
             >
-              Close abstracts
+              Scroll to happening now
             </button>
           </div>
         )
@@ -325,7 +335,12 @@ const DISCUSSION_SECTION_ID = "discussion";
       }
       {
         presentations.map((slot) => (
-          <section class="paper-section">
+          <section
+            class="paper-section"
+            data-live-card
+            data-start={slot.time_start}
+            data-end={slot.time_end}
+          >
             <p class="program-presentation-time">
               <TimeRange start={slot.time_start} end={slot.time_end} />
             </p>
@@ -529,8 +544,30 @@ const DISCUSSION_SECTION_ID = "discussion";
     }
 
     .abstract-toggle-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.75rem;
       max-width: 62rem;
       margin: 0 auto 1rem;
+    }
+
+    .paper-section.is-live {
+      border-color: #dc2626;
+      box-shadow: 0 0 0 1px #dc2626;
+    }
+
+    .paper-section.is-live .program-presentation-time::after {
+      content: "LIVE";
+      margin-left: 0.4rem;
+      padding: 0.05rem 0.35rem;
+      border-radius: 3px;
+      background: #dc2626;
+      color: #fff;
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      vertical-align: middle;
     }
 
     .program-presentation-award {
@@ -632,6 +669,27 @@ const DISCUSSION_SECTION_ID = "discussion";
 
 <script>
   import { createBookmarkStore } from "../../../lib/bookmarks";
+  import {
+    currentTimeMs,
+    markLiveCards,
+    setupScrollToLive,
+  } from "../../../utils/liveNow";
+
+  // Highlight the talk happening now and offer a button to jump to it.
+  const liveCards = Array.from(
+    document.querySelectorAll<HTMLElement>("[data-live-card]"),
+  );
+  const updateScrollButton = setupScrollToLive(
+    document.querySelector<HTMLElement>("[data-scroll-to-live]"),
+    document,
+    "[data-live-card]",
+  );
+  const refreshLive = () => {
+    markLiveCards(liveCards, currentTimeMs());
+    updateScrollButton();
+  };
+  refreshLive();
+  if (liveCards.length > 0) window.setInterval(refreshLive, 30000);
 
   const btn = document.getElementById("sessionBookmarkBtn");
   const icon = document.getElementById("sessionBookmarkIcon");
