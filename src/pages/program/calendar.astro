@@ -1909,14 +1909,20 @@ const frontmatter = {
         const tracks = root.querySelectorAll<HTMLElement>(
           `.calendar-day-column[data-day-group="${dayKey}"] .calendar-day-track`,
         );
+        // No now line before the day's program begins (day-wide, so every
+        // room column gets the line together).
+        const dayStarts = Array.from(
+          root.querySelectorAll<HTMLElement>(
+            `.calendar-day-column[data-day-group="${dayKey}"] [data-session-card]`,
+          ),
+        ).map((card) =>
+          Number(card.style.getPropertyValue("--session-start-minute")),
+        );
+        if (dayStarts.length && minute < Math.min(...dayStarts)) {
+          updateScrollButton();
+          return;
+        }
         for (const track of tracks) {
-          // No now line before the day's program begins.
-          const starts = Array.from(
-            track.querySelectorAll<HTMLElement>("[data-session-card]"),
-          ).map((card) =>
-            Number(card.style.getPropertyValue("--session-start-minute")),
-          );
-          if (starts.length && minute < Math.min(...starts)) continue;
           const line = document.createElement("div");
           line.className = "calendar-now-line";
           line.setAttribute("aria-hidden", "true");
