@@ -138,13 +138,48 @@ let initPromise: Promise<OAuthSession | null> | null = null;
  * The stored session, refreshed if needed, or null when there is none. Shared
  * across every discussion on the page, since the library must process a login
  * callback at most once.
+ *
+ * `initRestore` forgets the signed-in account (removes `STORED_SUB_KEY`) on
+ * *any* error, including a request to Bluesky that merely failed to load. The
+ * tokens themselves survive such an error in IndexedDB, but with the marker
+ * gone `hasStoredSession` reports no session on every later page, so one
+ * dropped request on a flaky network signed the reader out for good. Put the
+ * marker back unless the library itself judges the session to be over
+ * (refresh rejected, revoked, invalid), so the next page load tries again.
  */
 export function restoreSession(): Promise<OAuthSession | null> {
   initPromise ??= getClient().then(async (client) => {
-    const result = await client.initRestore();
-    return result?.session ?? null;
+    const sub = readStoredSub();
+    try {
+      const result = await client.initRestore();
+      return result?.session ?? null;
+    } catch (error) {
+      // Already loaded by getClient, so this costs nothing.
+      const { isExpectedSessionError } =
+        await import("@atproto/oauth-client-browser");
+      if (sub && !isExpectedSessionError(error)) {
+        writeStoredSub(sub);
+      }
+      throw error;
+    }
   });
   return initPromise;
+}
+
+function readStoredSub(): string | null {
+  try {
+    return window.localStorage.getItem(STORED_SUB_KEY);
+  } catch {
+    return null;
+  }
+}
+
+function writeStoredSub(sub: string): void {
+  try {
+    window.localStorage.setItem(STORED_SUB_KEY, sub);
+  } catch {
+    // Storage unavailable: the reader is offered the login again, as before.
+  }
 }
 
 /**
