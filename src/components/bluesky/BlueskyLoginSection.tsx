@@ -9,7 +9,7 @@
  * handle to the VIS profile.
  */
 
-import { useId } from "react";
+import { useEffect, useId, useState } from "react";
 import type { ReactNode } from "react";
 import { BLUESKY_ENTRYWAY } from "./oauth";
 import {
@@ -40,7 +40,16 @@ interface BlueskyLoginSectionProps {
   boxed?: boolean;
   /** More of the section, below the login (the account page's handle). */
   children?: ReactNode;
+  /**
+   * The discussion on bsky.app, offered when checking the sign-in takes long
+   * (Bluesky slow or unreachable from this network). Leave out where there is
+   * no discussion.
+   */
+  blueskyUrl?: string | null;
 }
+
+/** How long "Checking your Bluesky sign-in…" shows before offering bsky.app. */
+const SLOW_RESTORE_MS = 5000;
 
 export default function BlueskyLoginSection({
   bluesky,
@@ -51,8 +60,19 @@ export default function BlueskyLoginSection({
   headingLevel: Heading = "h2",
   boxed = true,
   children,
+  blueskyUrl,
 }: BlueskyLoginSectionProps) {
   const headingId = useId();
+  const restoring = bluesky.session.status === "restoring";
+  const [slow, setSlow] = useState(false);
+  useEffect(() => {
+    if (!restoring) {
+      setSlow(false);
+      return;
+    }
+    const timer = window.setTimeout(() => setSlow(true), SLOW_RESTORE_MS);
+    return () => window.clearTimeout(timer);
+  }, [restoring]);
   const loggedInHandle =
     bluesky.session.status === "signed-in"
       ? normalizeBskyHandle(bluesky.session.writer.profile.handle)
@@ -132,7 +152,28 @@ export default function BlueskyLoginSection({
           {bluesky.error && <p style={errorTextStyle}>{bluesky.error}</p>}
         </>
       ) : (
-        <p style={hintTextStyle}>Checking your Bluesky sign-in…</p>
+        <>
+          <p style={hintTextStyle}>Checking your Bluesky sign-in…</p>
+          {slow && (
+            <p style={hintTextStyle}>
+              Bluesky is slow to respond.
+              {blueskyUrl && (
+                <>
+                  {" "}
+                  You can{" "}
+                  <a
+                    href={blueskyUrl}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    join this discussion on Bluesky
+                  </a>{" "}
+                  instead.
+                </>
+              )}
+            </p>
+          )}
+        </>
       )}
       {children}
     </section>

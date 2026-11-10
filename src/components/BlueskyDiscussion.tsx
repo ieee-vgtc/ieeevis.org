@@ -1346,6 +1346,7 @@ export default function BlueskyDiscussion({
         >
           <BlueskyLoginSection
             bluesky={bluesky}
+            blueskyUrl={root?.bskyUrl}
             headingLevel="h3"
             linkedHandle={linkedHandle}
             onSignIn={signInWithBluesky}
