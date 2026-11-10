@@ -471,6 +471,13 @@ for (
   hourMarks.push({ minute, label: formatMinuteLabel(minute) });
 }
 
+// Hour lines before a day's first session are omitted (the line at the hour
+// containing the first session is kept).
+const dayStartMinute = (daySessions: { startMinute: number }[]) =>
+  daySessions?.length
+    ? Math.min(...daySessions.map((session) => session.startMinute))
+    : timelineStartMinute;
+
 const typeCounts = sessions.reduce<Record<string, number>>((acc, session) => {
   acc[session.eventType] = (acc[session.eventType] || 0) + 1;
   return acc;
@@ -722,12 +729,17 @@ const frontmatter = {
                 data-day-group={dayGroup.dayKey}
               >
                 <div class="calendar-day-track">
-                  {hourMarks.map((mark) => (
-                    <div
-                      class="calendar-hour-line"
-                      style={`--tick-minute: ${mark.minute};`}
-                    />
-                  ))}
+                  {hourMarks
+                    .filter(
+                      (mark) =>
+                        mark.minute + 60 > dayStartMinute(dayGroup.sessions),
+                    )
+                    .map((mark) => (
+                      <div
+                        class="calendar-hour-line"
+                        style={`--tick-minute: ${mark.minute};`}
+                      />
+                    ))}
 
                   {dayGroup.sessions.map((session) => {
                     const durationMinutes = Math.max(
@@ -755,7 +767,13 @@ const frontmatter = {
                         data-session-title={session.title}
                         data-session-event={session.eventTitle}
                         data-session-room={session.room}
-                        data-venue-href={venueRoomHref(session.track, session.startISO, session.title) ?? undefined}
+                        data-venue-href={
+                          venueRoomHref(
+                            session.track,
+                            session.startISO,
+                            session.title,
+                          ) ?? undefined
+                        }
                         data-type={session.eventType}
                         data-session-type={session.eventType}
                         data-day-group={dayGroup.dayKey}
@@ -866,12 +884,17 @@ const frontmatter = {
                   data-day-group={dayGroup.dayKey}
                 >
                   <div class="calendar-day-track">
-                    {hourMarks.map((mark) => (
-                      <div
-                        class="calendar-hour-line"
-                        style={`--tick-minute: ${mark.minute};`}
-                      />
-                    ))}
+                    {hourMarks
+                      .filter(
+                        (mark) =>
+                          mark.minute + 60 > dayStartMinute(dayGroup.sessions),
+                      )
+                      .map((mark) => (
+                        <div
+                          class="calendar-hour-line"
+                          style={`--tick-minute: ${mark.minute};`}
+                        />
+                      ))}
 
                     {roomGroup.sessions.map((session) => {
                       const durationMinutes = Math.max(
@@ -898,13 +921,19 @@ const frontmatter = {
                           data-session-title={session.title}
                           data-session-event={session.eventTitle}
                           data-session-room={session.room}
-                          data-venue-href={venueRoomHref(session.track, session.startISO, session.title) ?? undefined}
+                          data-venue-href={
+                            venueRoomHref(
+                              session.track,
+                              session.startISO,
+                              session.title,
+                            ) ?? undefined
+                          }
                           data-type={session.eventType}
                           data-session-type={session.eventType}
                           data-day-group={dayGroup.dayKey}
                           data-search={session.searchText}
-                        data-session-id={session.eventSlug}
-                        data-paper-ids={session.paperIds.join(" ")}
+                          data-session-id={session.eventSlug}
+                          data-paper-ids={session.paperIds.join(" ")}
                           data-start={session.startISO}
                           data-end={session.endISO}
                           data-solo=""
@@ -977,8 +1006,8 @@ const frontmatter = {
                   data-type={session.eventType}
                   data-day-group={dayGroup.dayKey}
                   data-search={session.searchText}
-                        data-session-id={session.eventSlug}
-                        data-paper-ids={session.paperIds.join(" ")}
+                  data-session-id={session.eventSlug}
+                  data-paper-ids={session.paperIds.join(" ")}
                   data-start={session.startISO}
                   data-end={session.endISO}
                   style={`--session-accent: ${typeColors[session.eventType] || "#6b7280"}`}
@@ -1053,8 +1082,9 @@ const frontmatter = {
       const timezoneControl = root.querySelector<HTMLElement>("#timezone-mode");
       const dayFilterControl = root.querySelector<HTMLElement>("#day-filter");
       const searchInput = root.querySelector("#calendar-search");
-      const highlightControl =
-        root.querySelector<HTMLElement>("#calendar-highlight");
+      const highlightControl = root.querySelector<HTMLElement>(
+        "#calendar-highlight",
+      );
       const dayTimelineScroll = root.querySelector<HTMLElement>(
         ".calendar-timeline-scroll",
       );
@@ -1380,7 +1410,9 @@ const frontmatter = {
         }
       };
 
-      const sessionBookmarks = createBookmarkStore("program-sessions-bookmarks");
+      const sessionBookmarks = createBookmarkStore(
+        "program-sessions-bookmarks",
+      );
       const paperBookmarks = createBookmarkStore("program-papers-bookmarks");
       const isBookmarked = (card: HTMLElement): boolean =>
         sessionBookmarks.has(card.dataset.sessionId || "") ||
@@ -1728,7 +1760,9 @@ const frontmatter = {
         if (searchInput instanceof HTMLInputElement) {
           searchInput.value = params.get("q") || "";
         }
-        if (!setChoiceValue(highlightControl, params.get("highlight") || "all")) {
+        if (
+          !setChoiceValue(highlightControl, params.get("highlight") || "all")
+        ) {
           setChoiceValue(highlightControl, "all");
         }
       };
@@ -1755,9 +1789,10 @@ const frontmatter = {
             applyFilters();
           });
         }
-        const highlightSelect = highlightControl.querySelector<HTMLSelectElement>(
-          "[data-choice-select]",
-        );
+        const highlightSelect =
+          highlightControl.querySelector<HTMLSelectElement>(
+            "[data-choice-select]",
+          );
         highlightSelect?.addEventListener("change", () => {
           if (!setChoiceValue(highlightControl, highlightSelect.value)) return;
           applyFilters();
@@ -1874,6 +1909,19 @@ const frontmatter = {
         const tracks = root.querySelectorAll<HTMLElement>(
           `.calendar-day-column[data-day-group="${dayKey}"] .calendar-day-track`,
         );
+        // No now line before the day's program begins (day-wide, so every
+        // room column gets the line together).
+        const dayStarts = Array.from(
+          root.querySelectorAll<HTMLElement>(
+            `.calendar-day-column[data-day-group="${dayKey}"] [data-session-card]`,
+          ),
+        ).map((card) =>
+          Number(card.style.getPropertyValue("--session-start-minute")),
+        );
+        if (dayStarts.length && minute < Math.min(...dayStarts)) {
+          updateScrollButton();
+          return;
+        }
         for (const track of tracks) {
           const line = document.createElement("div");
           line.className = "calendar-now-line";

@@ -1782,6 +1782,13 @@
   background: #dc2626;
 }
 
+.calendar-room-timeline
+  .calendar-day-column
+  ~ .calendar-day-column
+  .calendar-now-line::before {
+  display: none;
+}
+
 /* Jump to whatever is running now; sits below the controls */
 .scroll-to-live {
   appearance: none;
