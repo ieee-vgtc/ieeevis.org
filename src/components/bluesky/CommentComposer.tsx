@@ -7,7 +7,7 @@
  * the discussion's, so it carries over between them.
  */
 
-import { useState } from "react";
+import { useLayoutEffect, useRef, useState } from "react";
 import type { CSSProperties, FormEvent } from "react";
 import {
   errorTextStyle,
@@ -48,6 +48,62 @@ function graphemeLength(text: string): number {
     n++;
   }
   return n;
+}
+
+/** Split text into graphemes, matching `graphemeLength`. */
+function graphemes(text: string): string[] {
+  const Segmenter = (Intl as { Segmenter?: typeof Intl.Segmenter }).Segmenter;
+  if (!Segmenter) {
+    return [...text];
+  }
+  return Array.from(
+    new Segmenter("en", { granularity: "grapheme" }).segment(text),
+    (s) => s.segment,
+  );
+}
+
+/**
+ * Apply an edit from `prev` to `next` without letting the draft grow past
+ * `limit`. Only the inserted text is clipped (so a paste in the middle keeps
+ * what follows the caret), and edits that do not lengthen the draft always go
+ * through, so an over-long draft (say, after the limit dropped) can still be
+ * shortened. Returns the accepted text and where the caret belongs.
+ */
+function clipEdit(
+  prev: string,
+  next: string,
+  limit: number,
+): { text: string; caret: number } | null {
+  const nextLength = graphemeLength(next);
+  if (nextLength <= Math.max(limit, graphemeLength(prev))) {
+    return null;
+  }
+  let start = 0;
+  while (
+    start < prev.length &&
+    start < next.length &&
+    prev[start] === next[start]
+  ) {
+    start++;
+  }
+  let end = 0;
+  while (
+    end < prev.length - start &&
+    end < next.length - start &&
+    prev[prev.length - 1 - end] === next[next.length - 1 - end]
+  ) {
+    end++;
+  }
+  const before = next.slice(0, start);
+  const after = next.slice(next.length - end);
+  const room = Math.max(0, limit - graphemeLength(before + after));
+  const inserted = graphemes(next.slice(start, next.length - end))
+    .slice(0, room)
+    .join("");
+  return {
+    text: before + inserted + after,
+    caret: before.length + inserted.length,
+  };
 }
 
 /** Clip a byline to `BYLINE_LIMIT` code points, adding an ellipsis if cut. */
@@ -209,6 +265,20 @@ export default function CommentComposer({
   const [draft, setDraft] = useState("");
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const textareaRef = useRef<HTMLTextAreaElement>(null);
+  // Where to put the caret after a clipped edit; React would otherwise move it
+  // to the end when the value it renders differs from what was typed.
+  const pendingCaret = useRef<number | null>(null);
+
+  useLayoutEffect(() => {
+    if (pendingCaret.current !== null && textareaRef.current) {
+      textareaRef.current.setSelectionRange(
+        pendingCaret.current,
+        pendingCaret.current,
+      );
+      pendingCaret.current = null;
+    }
+  });
 
   const hideNameOption = canHideName
     ? "available"
@@ -254,10 +324,18 @@ export default function CommentComposer({
         id={id}
         onChange={(event) => {
           onActivity();
-          setDraft(event.target.value);
+          const clipped = clipEdit(draft, event.target.value, limit);
+          if (clipped) {
+            pendingCaret.current = clipped.caret;
+            setDraft(clipped.text);
+          } else {
+            setDraft(event.target.value);
+          }
         }}
         onFocus={onActivity}
         placeholder={placeholder}
+        ref={textareaRef}
+        aria-describedby={remaining <= 0 ? `${id}-limit` : undefined}
         rows={3}
         style={{
           width: "100%",
@@ -380,6 +458,20 @@ export default function CommentComposer({
           {remaining}
         </small>
       </div>
+
+      {remaining <= 0 && (
+        <p
+          id={`${id}-limit`}
+          style={{
+            ...(remaining < 0 ? errorTextStyle : hintTextStyle),
+            margin: "0.5rem 0 0",
+          }}
+        >
+          {remaining < 0
+            ? `This is ${-remaining} ${-remaining === 1 ? "character" : "characters"} over the ${limit}-character limit. Shorten it, or post part of it now and the rest as a reply to your own ${verb.toLowerCase()}.`
+            : `You have reached the ${limit}-character limit. To say more, post this and continue in a reply to your own ${verb.toLowerCase()}.`}
+        </p>
+      )}
 
       {error && (
         <p style={{ ...errorTextStyle, margin: "0.5rem 0 0" }}>{error}</p>
