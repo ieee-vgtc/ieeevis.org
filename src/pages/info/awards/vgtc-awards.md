@@ -7,65 +7,74 @@ sidebar: awards-and-recognitions
 contact: papers@ieeevis.org
 ---
 
-This year's VGTC awards will be announced in the opening session.
-Details TBD.
-
-<!-- **When: Tuesday (Nov 4), 11:15, Hall E**
-
 ## VGTC Dissertation Award
 
 Chair: Rita Borgo
 
-### Arpit Narechania
+### Tingying He, Université Paris-Saclay
 
-The dissertation represents an outstanding body of work at the intersection of information visualisation, visual analytics, and human–computer interaction. The candidate has made highly influential contributions, which advances human–AI collaboration in visual analytics and has already seen adoption in industry. Their thesis is exemplary in its coherence, intellectual clarity, and reflective, forward-looking conclusions, articulating a compelling vision for the field.
+The dissertation makes a significant contribution to visualization by refram-ing pattern as a composite visual variable and establishing a systematic design space for its use in data encoding. The work combines foundational theoretical development with rigorous empirical studies demonstrating the effectiveness of geometric and iconic patterns, including their potential for more accessible visualization. The work introduces BeauVis, a validated and reusable scale for measuring the aesthetic pleasure of visual representations, providing the community with an important methodological instrument. Together, these contributions demonstrate methodological rigor, and practical relevance, sup-ported by a strong publication record and scholarly impact.
+
+**Honorable Mentions**:
+
+### Hyeon Jeon, Seoul National University
+
+The dissertation tackles a fundamental reliability problem in visual analytics: dimensionality reduction can produce compelling but misleading representations of high-dimensional data. It provides strong empirical evidence that methods such as t-SNE and UMAP can exaggerate class and cluster separability, and that common evaluation metrics may reinforce rather than reveal this bias. The work develops practical solutions, including Label-Trustworthiness and Label-Continuity metrics, a dataset-adaptive optimisation workflow, and distortion-aware brushing. Overall, it makes a significant and timely contribution by combining solid empirical evidence with technically sound methods for more trustworthy dimensionality reduction in visual analytics, making it deserving of an Honourable Mention.
+
+### Vidya Prasad, Eindhoven University of Technology
+
+The dissertation makes an original contribution at the intersection of explainable AI and visual analytics, addressing the interpretation of complex image-to-image and generative models. It develops a coherent set of methods spanning the model-development lifecycle, including the Transform-and-Perform framework, ProactiV, techniques for analysing diffusion models, EvolvED, and approaches for monitoring generative-model training. Demonstrated across medical imaging and generative AI, the work is ambitious, technically sophisticated, and methodologically coherent, with potential for research and practical impact, making it deserving of an Honourable Mention.
 
 ## VGTC Significant New Researcher Award
 
 Chair: Miriah Meyer
 
-### Yong Wang
+### Cindy Xiong Bearfield, Georgia Tech
 
-Dr. Yong Wang has contributed a strong foundation of applied visualization research across numerous application domains, including the timely areas of VIS+AI and quantum computing. His visualization contributions have also had an impact outside of the research community through uptake by package developers and industry professionals.
+The 2026 IEEE VGTC Visualization Significant New Researcher Award goes to Cindy Xiong Bearfield, in recognition of her outstanding contributions that bring cognitive science and visualization together. Cindy’s research advances our understanding of how people interpret, trust, and reason with data visualizations and intelligent systems.
 
-### Lace Padilla
+### Laura Garrison, University of Bergen
 
-Dr. Lace Padilla has contributed strong, influential work at the intersection of visualization and graphical perception. Her work has pushed our fundamental understanding of the pyscology of visualization, as well as been a driving force in uncertainty visualization.
+The 2026 IEEE VGTC Visualization Significant New Researcher Award goes to Laura Garrison, in recognition of the diversity, novelty, and interdisciplinary nature of her work that advances and expands the disciplinary boundaries of visualization re-search. Laura’s research broadens our view of not only how we visualize data, but also why certain visual strategies work, for whom, and under which assumptions.
 
 ## VGTC Technical Achievement Award
 
 Chair: Anders Ynnerman
 
-### Niklas Elmqvist
+### Petra Isenberg, INRIA and Université Paris-Saclay
 
-Niklas Elmquist is recognized for his pivotal work advancing ubiquitous computing technologies within data visualization, particularly as applied to mobile and immersive analytics.
+The 2026 IEEE VGTC Visualization Technical Achievement Award is presented to Petra Isenberg for pioneering research that opened new areas of visualization, including collaborative visualization, mobile visualization, and word-scale (micro) visualization, and for building essential community resources that have shaped how the field studies and understands its own literature and practice.
 
-### Gerik Scheuermann
+### Alexander Lex, Graz University of Technology and University of Utah
 
-Gerik Scheuermann is recognized for his foundational work in vector and tensor field visualization, including advances in topological analysis, Clifford algebra transformations, information theory, feature detection, and higher-order tensor fields.
+The 2026 IEEE VGTC Visualization Technical Achievement Award is presented to Alexander Lex for transformative contributions to visual analytics for biomedicine and genomics, translating complex research problems into widely adopted tools used across scientific and clinical communities. His work has also advanced rigorous, reproducible methodology for visualization user studies, strengthening the empirical foundations of the field.
 
 ## VGTC Lifetime Achievement Award
 
 Chair: Anders Ynnerman
 
-### Eduard Gröller
+### David H. Laidlaw, Brown University
 
-Eduard Gröller is recognized for a distinguished career marked by novel contributions to the field of visualization and the development of innovative, impactful applications. His leadership within the community and dedication to mentoring emerging researchers have been instrumental in advancing the discipline.
+The 2026 IEEE VGTC Visualization Lifetime Achievement Award goes to David H. Laidlaw for decades of foundational contributions to visualization spanning virtual reality, flow and tensor field techniques, and biomedical and genomic applications, and for mentoring generations of students who now lead the field. His service to the visualization community has been essential in shaping it for years to come.
+
+### Klaus Mueller, Stony Brook University
+
+The 2026 IEEE VGTC Visualization Lifetime Achievement Award goes to Klaus Mueller for sustained and transformative contributions to visualization, including pioneering advances in volume rendering, high-dimensional analysis, and AI-enabled visual analytics, as well as exceptional leadership and service that have helped shape and strengthen the visualization community.
 
 ## VGTC Service Award
 
 Chair: Loretta Auvil
 
-### Ross Maciejewski
+### Petra Specht, University of Magdeburg
 
-In recognition of his outstanding service and leadership in the field of visualization.
+The 2026 VGTC Visualization Service Award goes to Petra Specht for her extraordinary contributions to the visualization community through exceptional leadership, operational excellence, unwavering commitment, organizational skill, and dedication that have been instrumental to the continued success and impact of the IEEE VIS conference, including her service as Coordinating Chair for IEEE VIS 2018, VEC Assistant for IEEE VIS 2022–2023, and Overall Papers Chair Assistant for IEEE VIS 2024–2025.
 
 ## VGTC Visualization Academy
 
-Chair: Tamara Munzner
+Chair: Anders Ynnerman
 
-**Michael Gleicher**<br />
-**Holger Theisel**<br />
-**Bernhard Preim**<br />
-**Melanie Tory**<br />
-**Tobias Isenberg** -->
+**Remco Chang** Tufts University<br />
+**Anna Villanova** Eindhoven University of Technology<br />
+**Alex Endert** Georgia Tech<br />
+**Miriah Meyer** Linköping University<br />
+**Alexander Lex** Graz University of Technology and University of Utah
