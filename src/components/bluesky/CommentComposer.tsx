@@ -326,7 +326,10 @@ export default function CommentComposer({
         id={id}
         onChange={(event) => {
           onActivity();
-          const clipped = clipEdit(draft, event.target.value, limit);
+          // One character of slack past the limit, so the reader sees the
+          // counter go red and the button grey out instead of the keyboard
+          // silently doing nothing.
+          const clipped = clipEdit(draft, event.target.value, limit + 1);
           if (clipped) {
             pendingCaret.current = clipped.caret;
             setDraft(clipped.text);
