@@ -17,10 +17,12 @@ The conference rate is <b>319$ per night</b> (not including taxes). Staying in t
 
 <a href="https://book.passkey.com/e/51276096" class="button">Book your VIS 2026 hotel room</a><br/>
 
-The room block rate is available **until October 23, 2026**.
+The room block rate is available **until October 30, 2026**.
 
-We're extending the early-bird registration price for anyone who books at the Westin (a discount of up to $200!).  These rates can apply retroactively if you have already registered.  [More info on this Google form](https://forms.gle/xqmKZRasccN4tZWK8).
+We're extending the early-bird registration price for anyone who books at the Westin (a discount of up to $200!). These rates can apply retroactively if you have already registered. [More info on this Google form](https://forms.gle/xqmKZRasccN4tZWK8).
 
 A small number of rooms for the hotel are available at the prevailing government rate. If you need more information for booking these, please contact [registration@ieeevis.org](mailto:registration@ieeevis.org).
 
-Address: <a href="https://maps.google.com/?q=The+Westin+Copley+Place+Boston,+10+Huntington+Ave,+Boston,+MA+02116">The Westin Copley Place Boston, 10 Huntington Ave, Boston, MA 02116</a>
+Address: <a href="https://maps.app.goo.gl/bgkKXeTJZfwNCTrQ9">The Westin Copley Place Boston, 10 Huntington Ave, Boston, MA 02116</a>
+
+<a href="/year/2026/venue/" class="button">View the venue map</a>

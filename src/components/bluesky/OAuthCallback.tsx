@@ -31,15 +31,15 @@ export default function OAuthCallback() {
           window.location.replace(returnTo);
         }
       } catch (err) {
-        console.error("Bluesky login did not complete:", err);
+        console.error("Bluesky sign-in did not complete:", err);
         if (!cancelled) {
           // The login can start on a paper page or the account page; send
           // the reader back to whichever it was, when Bluesky told us.
           const failure = err instanceof LoginCallbackError ? err : null;
           setError({
             message: failure?.cancelled
-              ? "The Bluesky login was cancelled."
-              : "The Bluesky login could not be completed. Go back and try again.",
+              ? "The Bluesky sign-in was cancelled."
+              : "The Bluesky sign-in could not be completed. Go back and try again.",
             returnTo: failure?.returnTo ?? null,
           });
         }
@@ -63,5 +63,5 @@ export default function OAuthCallback() {
     );
   }
 
-  return <p>Finishing your Bluesky login…</p>;
+  return <p>Finishing your Bluesky sign-in…</p>;
 }

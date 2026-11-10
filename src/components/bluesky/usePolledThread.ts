@@ -49,6 +49,11 @@ interface PolledThreadOptions<T> {
    * one that did not. A changed fingerprint resets the interval to the base.
    */
   signature?: (data: T) => string;
+  /**
+   * Hold the interval at the base while true, even across polls that bring
+   * nothing new — e.g. while the reader waits for their own post to arrive.
+   */
+  keepBaseRate?: boolean;
 }
 
 interface PolledThread<T> {
@@ -74,6 +79,7 @@ export function usePolledThread<T>({
   maxBackoffMs = 300_000,
   maxInactiveMs = 120_000,
   signature,
+  keepBaseRate = false,
 }: PolledThreadOptions<T>): PolledThread<T> {
   const [data, setData] = useState<T | null>(null);
   const [loading, setLoading] = useState(true);
@@ -88,6 +94,11 @@ export function usePolledThread<T>({
     async () => {},
   );
   const markInteractionRef = useRef<() => void>(() => {});
+  // Read at poll time, so toggling it does not restart the polling.
+  const keepBaseRateRef = useRef(keepBaseRate);
+  useEffect(() => {
+    keepBaseRateRef.current = keepBaseRate;
+  }, [keepBaseRate]);
 
   // On-screen truth shared between the observer (which writes it) and the
   // polling effect (which reads it in `canPoll`). Defaults to true so polling
@@ -211,7 +222,7 @@ export function usePolledThread<T>({
         setLastUpdatedAt(Date.now());
 
         // A reader's own refresh counts as activity, so it resets the cadence.
-        if (firstLoad || changed || force) {
+        if (firstLoad || changed || force || keepBaseRateRef.current) {
           inactiveLevel = 0;
         } else {
           inactiveLevel = Math.min(inactiveLevel + 1, MAX_INACTIVE_LEVEL);

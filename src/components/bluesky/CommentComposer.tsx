@@ -1,19 +1,21 @@
 /**
  * The comment box: a textarea, a submit button that names who the comment is
- * credited to, the "Hide my name" option for guest comments, and a counter.
+ * credited to, the "Hide my name" option, and a counter.
  *
  * The discussion shows one under the announcement and one inline under a reply
  * the reader answers. Each keeps its own draft; the "Hide my name" choice is
  * the discussion's, so it carries over between them.
  */
 
-import { useState } from "react";
+import { useLayoutEffect, useRef, useState } from "react";
 import type { CSSProperties, FormEvent } from "react";
 import {
+  disabledButtonStyle,
   errorTextStyle,
   hintTextStyle,
   primaryButtonStyle,
   secondaryButtonStyle,
+  textButtonStyle,
 } from "./styles";
 
 // How much of the byline the "Comment as …" button shows before ellipsis, so a
@@ -49,12 +51,167 @@ function graphemeLength(text: string): number {
   return n;
 }
 
+/** Split text into graphemes, matching `graphemeLength`. */
+function graphemes(text: string): string[] {
+  const Segmenter = (Intl as { Segmenter?: typeof Intl.Segmenter }).Segmenter;
+  if (!Segmenter) {
+    return [...text];
+  }
+  return Array.from(
+    new Segmenter("en", { granularity: "grapheme" }).segment(text),
+    (s) => s.segment,
+  );
+}
+
+/**
+ * Apply an edit from `prev` to `next` without letting the draft grow past
+ * `limit`. Only the inserted text is clipped (so a paste in the middle keeps
+ * what follows the caret), and edits that do not lengthen the draft always go
+ * through, so an over-long draft (say, after the limit dropped) can still be
+ * shortened. Returns the accepted text and where the caret belongs.
+ */
+function clipEdit(
+  prev: string,
+  next: string,
+  limit: number,
+): { text: string; caret: number } | null {
+  const nextLength = graphemeLength(next);
+  if (nextLength <= Math.max(limit, graphemeLength(prev))) {
+    return null;
+  }
+  let start = 0;
+  while (
+    start < prev.length &&
+    start < next.length &&
+    prev[start] === next[start]
+  ) {
+    start++;
+  }
+  let end = 0;
+  while (
+    end < prev.length - start &&
+    end < next.length - start &&
+    prev[prev.length - 1 - end] === next[next.length - 1 - end]
+  ) {
+    end++;
+  }
+  const before = next.slice(0, start);
+  const after = next.slice(next.length - end);
+  const room = Math.max(0, limit - graphemeLength(before + after));
+  const inserted = graphemes(next.slice(start, next.length - end))
+    .slice(0, room)
+    .join("");
+  return {
+    text: before + inserted + after,
+    caret: before.length + inserted.length,
+  };
+}
+
 /** Clip a byline to `BYLINE_LIMIT` code points, adding an ellipsis if cut. */
 function truncateByline(name: string): string {
   const chars = Array.from(name);
   return chars.length > BYLINE_LIMIT
     ? `${chars.slice(0, BYLINE_LIMIT - 1).join("")}…`
     : name;
+}
+
+interface HideNameToggleProps {
+  checked: boolean;
+  disabled: boolean;
+  onChange: (checked: boolean) => void;
+  /** Set when the reader must sign in first: the toggle then offers the link. */
+  onSignIn?: () => void;
+}
+
+/** The "Hide my name" switch, its note, and the sign-in link it may need. */
+function HideNameToggle({
+  checked,
+  disabled,
+  onChange,
+  onSignIn,
+}: HideNameToggleProps) {
+  return (
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        gap: "0.15rem",
+      }}
+    >
+      <style>
+        {
+          ".bsky-anon-toggle:focus-within .bsky-anon-track{outline:2px solid var(--color-accent);outline-offset:2px}"
+        }
+      </style>
+      <label
+        className="bsky-anon-toggle"
+        style={{
+          display: "inline-flex",
+          alignItems: "center",
+          gap: "0.45rem",
+          cursor: disabled ? "not-allowed" : "pointer",
+          opacity: onSignIn ? 0.6 : 1,
+        }}
+      >
+        <input
+          checked={checked}
+          disabled={disabled}
+          onChange={(event) => onChange(event.target.checked)}
+          style={visuallyHiddenStyle}
+          type="checkbox"
+        />
+        <span
+          className="bsky-anon-track"
+          style={{
+            position: "relative",
+            display: "inline-block",
+            width: "2rem",
+            height: "1.1rem",
+            borderRadius: "999px",
+            backgroundColor: checked
+              ? "var(--color-accent)"
+              : "var(--color-gray-400)",
+            transition: "background-color 150ms",
+            flexShrink: 0,
+          }}
+        >
+          <span
+            style={{
+              position: "absolute",
+              top: "0.15rem",
+              left: checked ? "0.98rem" : "0.15rem",
+              width: "0.8rem",
+              height: "0.8rem",
+              borderRadius: "50%",
+              backgroundColor: "#fff",
+              transition: "left 150ms",
+            }}
+          />
+        </span>
+        Hide my name
+      </label>
+
+      {checked && (
+        <small style={hintTextStyle}>
+          Your name is hidden from readers, not from conference organizers.
+        </small>
+      )}
+
+      {onSignIn && (
+        <small style={hintTextStyle}>
+          To post anonymously, you need to{" "}
+          <button
+            onClick={onSignIn}
+            style={{ ...textButtonStyle, fontSize: "inherit" }}
+            type="button"
+          >
+            sign in
+          </button>
+          .
+        </small>
+      )}
+    </div>
+  );
 }
 
 interface CommentComposerProps {
@@ -68,8 +225,15 @@ interface CommentComposerProps {
   realNameByline: string | null;
   pseudonymByline: string | null;
   anonymous: boolean;
+  canHideName: boolean;
+  /**
+   * Set when the name could be hidden after a VIS sign-in. The option then
+   * shows, disabled, with a link to sign in.
+   */
+  onSignInToHideName?: () => void;
   onAnonymousChange: (anonymous: boolean) => void;
   onActivity: () => void;
+  onSignOutOfBluesky: () => void;
   /**
    * Posts the text and calls `clearDraft` once the post exists. A thrown
    * error's message is shown to the reader.
@@ -89,8 +253,11 @@ export default function CommentComposer({
   realNameByline,
   pseudonymByline,
   anonymous,
+  canHideName,
+  onSignInToHideName,
   onAnonymousChange,
   onActivity,
+  onSignOutOfBluesky,
   onSubmit,
   onCancel,
   autoFocus = false,
@@ -99,8 +266,29 @@ export default function CommentComposer({
   const [draft, setDraft] = useState("");
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const textareaRef = useRef<HTMLTextAreaElement>(null);
+  // Where to put the caret after a clipped edit; React would otherwise move it
+  // to the end when the value it renders differs from what was typed.
+  const pendingCaret = useRef<number | null>(null);
+
+  useLayoutEffect(() => {
+    if (pendingCaret.current !== null && textareaRef.current) {
+      textareaRef.current.setSelectionRange(
+        pendingCaret.current,
+        pendingCaret.current,
+      );
+      pendingCaret.current = null;
+    }
+  });
+
+  const hideNameOption = canHideName
+    ? "available"
+    : onSignInToHideName
+      ? "needs-sign-in"
+      : "hidden";
 
   const remaining = limit - graphemeLength(draft);
+  const canPost = Boolean(draft.trim()) && remaining >= 0;
   const bylineLabel = (who: string | null) =>
     who ? `${verb} as ${truncateByline(who)}` : verb;
 
@@ -138,10 +326,21 @@ export default function CommentComposer({
         id={id}
         onChange={(event) => {
           onActivity();
-          setDraft(event.target.value);
+          // One character of slack past the limit, so the reader sees the
+          // counter go red and the button grey out instead of the keyboard
+          // silently doing nothing.
+          const clipped = clipEdit(draft, event.target.value, limit + 1);
+          if (clipped) {
+            pendingCaret.current = clipped.caret;
+            setDraft(clipped.text);
+          } else {
+            setDraft(event.target.value);
+          }
         }}
         onFocus={onActivity}
         placeholder={placeholder}
+        ref={textareaRef}
+        aria-describedby={remaining <= 0 ? `${id}-limit` : undefined}
         rows={3}
         style={{
           width: "100%",
@@ -175,9 +374,11 @@ export default function CommentComposer({
         {/* The section is a polite live region, so the button's byline is
             announced when "Hide my name" toggles it. */}
         <button
-          disabled={submitting || !draft.trim() || remaining < 0}
+          disabled={submitting || !canPost}
           style={{
-            ...primaryButtonStyle,
+            // Greyed when there is nothing postable; "Posting…" keeps the
+            // accent so it reads as progress rather than a refusal.
+            ...(canPost ? primaryButtonStyle : disabledButtonStyle),
             padding: "0.4rem 0.9rem",
             fontSize: "0.9rem",
           }}
@@ -186,8 +387,7 @@ export default function CommentComposer({
           {/* Both bylines occupy one grid cell so the button reserves the
               wider width and does not resize (shoving the checkbox) when
               "Hide my name" flips which one shows; "Posting…" overlays while
-              submitting. Only the active label is visible/announced. A
-              Bluesky login has one byline: the account. */}
+              submitting. Only the active label is visible/announced. */}
           <span style={{ display: "grid" }}>
             <span
               style={{
@@ -199,7 +399,7 @@ export default function CommentComposer({
                 ? `${verb} as @${truncateByline(nativeHandle)}`
                 : bylineLabel(realNameByline)}
             </span>
-            {!nativeHandle && (
+            {canHideName && (
               <span
                 style={{
                   gridArea: "1 / 1",
@@ -224,80 +424,35 @@ export default function CommentComposer({
           </button>
         )}
 
-        {/* A comment from the reader's own Bluesky account is signed by
-            that account, so there is no name to hide. */}
-        {nativeHandle ? (
-          <small style={hintTextStyle}>Posted from your Bluesky account.</small>
-        ) : (
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              gap: "0.15rem",
+        {hideNameOption !== "hidden" && (
+          <HideNameToggle
+            checked={anonymous}
+            disabled={submitting || hideNameOption === "needs-sign-in"}
+            onChange={(checked) => {
+              onActivity();
+              onAnonymousChange(checked);
             }}
-          >
-            <style>
-              {
-                ".bsky-anon-toggle:focus-within .bsky-anon-track{outline:2px solid var(--color-accent);outline-offset:2px}"
-              }
-            </style>
-            <label
-              className="bsky-anon-toggle"
-              style={{
-                display: "inline-flex",
-                alignItems: "center",
-                gap: "0.45rem",
-                cursor: submitting ? "default" : "pointer",
-              }}
-            >
-              <input
-                checked={anonymous}
-                disabled={submitting}
-                onChange={(event) => {
-                  onActivity();
-                  onAnonymousChange(event.target.checked);
-                }}
-                style={visuallyHiddenStyle}
-                type="checkbox"
-              />
-              <span
-                className="bsky-anon-track"
-                style={{
-                  position: "relative",
-                  display: "inline-block",
-                  width: "2rem",
-                  height: "1.1rem",
-                  borderRadius: "999px",
-                  backgroundColor: anonymous
-                    ? "var(--color-accent)"
-                    : "var(--color-gray-400)",
-                  transition: "background-color 150ms",
-                  flexShrink: 0,
-                }}
-              >
-                <span
-                  style={{
-                    position: "absolute",
-                    top: "0.15rem",
-                    left: anonymous ? "0.98rem" : "0.15rem",
-                    width: "0.8rem",
-                    height: "0.8rem",
-                    borderRadius: "50%",
-                    backgroundColor: "#fff",
-                    transition: "left 150ms",
-                  }}
-                />
-              </span>
-              Hide my name
-            </label>
+            onSignIn={
+              hideNameOption === "needs-sign-in"
+                ? onSignInToHideName
+                : undefined
+            }
+          />
+        )}
 
-            {anonymous && (
-              <small style={hintTextStyle}>
-                Your name is hidden from readers, not from conference
-                organizers.
-              </small>
-            )}
-          </div>
+        {nativeHandle && (
+          <small style={hintTextStyle}>
+            {anonymous
+              ? "Posting through the guest posting service."
+              : "Posting from your Bluesky account."}{" "}
+            <button
+              onClick={onSignOutOfBluesky}
+              style={{ ...textButtonStyle, fontSize: "inherit" }}
+              type="button"
+            >
+              Sign out
+            </button>
+          </small>
         )}
 
         <small
@@ -310,6 +465,20 @@ export default function CommentComposer({
           {remaining}
         </small>
       </div>
+
+      {remaining <= 0 && (
+        <p
+          id={`${id}-limit`}
+          style={{
+            ...(remaining < 0 ? errorTextStyle : hintTextStyle),
+            margin: "0.5rem 0 0",
+          }}
+        >
+          {remaining < 0
+            ? `This is ${-remaining} ${-remaining === 1 ? "character" : "characters"} over the ${limit}-character limit, so it cannot be posted. Shorten it, or post part of it now and the rest as a reply to your own ${verb.toLowerCase()}.`
+            : `You have reached the ${limit}-character limit. To say more, post this and continue in a reply to your own ${verb.toLowerCase()}.`}
+        </p>
+      )}
 
       {error && (
         <p style={{ ...errorTextStyle, margin: "0.5rem 0 0" }}>{error}</p>

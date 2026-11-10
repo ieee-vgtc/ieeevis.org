@@ -3,16 +3,22 @@ import BlueskyProfileLink from "../../../components/BlueskyProfileLink.astro";
 import PageLayout from "../../../layouts/PageLayout.astro";
 import AuthGate from "../../../components/AuthGate.astro";
 import AwardBadge from "../../../components/AwardBadge.astro";
+import AccessibleBadge from "../../../components/AccessibleBadge.astro";
 import NewTabIndicator from "../../../components/NewTabIndicator.astro";
 import BlueskyDiscussion from "../../../components/BlueskyDiscussion";
 import { fetchAllPapers, fetchAllPosters } from "../../../utils/paperData";
 import { features } from "../../../config/pages-allow-list";
 import { withBaseURL } from "../../../utils/withBaseURL";
 import { getBskyHandle } from "../../../utils/bskyProfiles";
+import { sessionDiscussionId } from "../../../utils/discussionSlots";
 import { ogDescription } from "../../../utils/ogDescription";
+import { displayRoomName } from "../../../utils/week-of-utils";
+import { venueRoomHref } from "../../../utils/venueLink";
 import { fetchAllSessions } from "../../../utils/paperData";
 import type { Paper } from "../../../types/paper";
 import type { ProgramSession, ProgramTimeSlot } from "../../../types/program";
+import TimezoneToggle from "../../../components/TimezoneToggle.astro";
+import TimeRange from "../../../components/TimeRange.astro";
 
 export async function getStaticPaths() {
   // Posters share this page; their ids do not collide with paper ids.
@@ -85,11 +91,63 @@ const paper: Paper = {
   }),
 };
 
-const supplementalLink = paper.open_access_supplemental_link?.trim()
-  ? /^https?:\/\//i.test(paper.open_access_supplemental_link.trim())
-    ? paper.open_access_supplemental_link.trim()
-    : `https://${paper.open_access_supplemental_link.trim().replace(/^\/\//, "")}`
-  : null;
+// Author-supplied free text: drop control characters, flatten any HTML
+// (keeping the hrefs of anchors, since those are links the author listed),
+// and cap the length. Astro escapes interpolated text, so what is left is
+// only ever rendered as text, never as markup.
+const supplementalRaw = (paper.open_access_supplemental_link ?? "")
+  .replace(/[\u0000-\u0008\u000B-\u001F\u007F]/g, " ")
+  .replace(
+    /<a\b[^>]*?href\s*=\s*["']?([^"'\s>]+)["']?[^>]*>([\s\S]*?)<\/a\s*>/gi,
+    (_, href, label) =>
+      label.trim() && label.trim() !== href ? `${label.trim()} ${href}` : href,
+  )
+  .replace(/<\/?[a-z][^>]*>/gi, " ")
+  .trim()
+  .slice(0, 2000);
+// Authors sometimes write a sentence (with several URLs) instead of one link.
+// Show such text as-is, turning any listed URLs into links.
+const supplementalIsText = /\s/.test(supplementalRaw);
+const supplementalLink =
+  supplementalRaw && !supplementalIsText
+    ? /^https?:\/\//i.test(supplementalRaw)
+      ? supplementalRaw
+      : `https://${supplementalRaw.replace(/^\/\//, "")}`
+    : null;
+
+// http(s) URLs, www. hosts, and bare hosts on common TLDs that carry a path
+// or are well-known (so "e.g." or "data.csv" are not mistaken for links).
+const URL_PATTERN =
+  /\b(?:https?:\/\/[^\s<>"']+|www\.[^\s<>"']+|(?:[a-z0-9-]+\.)+(?:com|org|net|edu|io|dev|app|ai|ch|de|at|ac\.uk)(?:\/[^\s<>"']*)?(?![\w@-]))/gi;
+const supplementalParts: { text: string; href?: string }[] = [];
+if (supplementalIsText) {
+  let last = 0;
+  for (const m of supplementalRaw.matchAll(URL_PATTERN)) {
+    let url = m[0];
+    // Trailing sentence punctuation is not part of the URL; a closing
+    // bracket only is when it has no opener inside the URL.
+    for (;;) {
+      const t = url.slice(-1);
+      if (/[.,;:!?'"]/.test(t)) url = url.slice(0, -1);
+      else if (t === ")" && !url.includes("(")) url = url.slice(0, -1);
+      else if (t === "]" && !url.includes("[")) url = url.slice(0, -1);
+      else break;
+    }
+    // Skip email addresses.
+    if (supplementalRaw[m.index - 1] === "@") continue;
+    if (m.index > last) {
+      supplementalParts.push({ text: supplementalRaw.slice(last, m.index) });
+    }
+    supplementalParts.push({
+      text: url,
+      href: /^https?:\/\//i.test(url) ? url : `https://${url}`,
+    });
+    last = m.index + url.length;
+  }
+  if (last < supplementalRaw.length) {
+    supplementalParts.push({ text: supplementalRaw.slice(last) });
+  }
+}
 
 // Some papers carry a placeholder note here ("We will upload a preprint to
 // Arxiv…") instead of an actual link, ahead of the real one landing. Only
@@ -109,7 +167,7 @@ const pdfURL =
     : null;
 
 const hasLinks = Boolean(
-  pdfURL || preprintLink || paper.doi || supplementalLink,
+  pdfURL || preprintLink || paper.doi || supplementalLink || supplementalIsText,
 );
 
 const sessionHref =
@@ -119,34 +177,15 @@ const sessionHref =
   );
 
 const CONFERENCE_TIME_ZONE = "US/Eastern";
-const presentationDateFormatter = new Intl.DateTimeFormat("en-US", {
-  timeZone: CONFERENCE_TIME_ZONE,
-  weekday: "long",
-  month: "short",
-  day: "numeric",
-});
-const presentationTimeFormatter = new Intl.DateTimeFormat("en-US", {
-  timeZone: CONFERENCE_TIME_ZONE,
-  hour: "2-digit",
-  minute: "2-digit",
-  hour12: false,
-});
-const formatTimeRange = (startISO: string, endISO: string) =>
-  `${presentationTimeFormatter.format(new Date(startISO))} – ${presentationTimeFormatter.format(new Date(endISO))}`;
-
 const presentationDetails = presentation && {
-  date: presentationDateFormatter.format(
-    new Date(presentation.slot.time_start || presentation.session.time_start),
-  ),
-  talkTime: formatTimeRange(
-    presentation.slot.time_start || presentation.session.time_start,
-    presentation.slot.time_end || presentation.session.time_end,
-  ),
-  sessionTime: formatTimeRange(
-    presentation.session.time_start,
-    presentation.session.time_end,
-  ),
+  talkStart: presentation.slot.time_start || presentation.session.time_start,
+  talkEnd: presentation.slot.time_end || presentation.session.time_end,
   room: presentation.session.room_name || "TBA",
+  venueHref: venueRoomHref(
+    presentation.session.track,
+    presentation.session.time_start,
+    presentation.session.title,
+  ),
   // e.g. "Satellite (Paris)" or "Pre-recorded"; "Premise" is in person.
   mode:
     presentation.slot.presentation_mode &&
@@ -238,6 +277,20 @@ const frontmatter = {
 };
 
 const DISCUSSION_SECTION_ID = "discussion";
+// The announce bot posts a thread for each paper slot. A paper without a slot of
+// its own, such as a workshop or challenge paper, is discussed in its event's
+// session thread, which the page links to instead of embedding.
+const eventSession = presentation ? undefined : paperEvent?.sessions[0];
+const eventThreadId =
+  eventSession &&
+  sessionDiscussionId(
+    eventType,
+    `${eventSession.event_prefix}-${eventSession.session_id}`,
+  );
+const eventDiscussionUrl =
+  eventThreadId &&
+  withBaseURL(`/program/session/${eventThreadId}#${DISCUSSION_SECTION_ID}`);
+const eventNoun = eventType.toLowerCase();
 ---
 
 <PageLayout frontmatter={frontmatter}>
@@ -314,6 +367,7 @@ const DISCUSSION_SECTION_ID = "discussion";
         <div class="paper-hero__eyebrow">
           <span class="paper-kicker">{eventLabel}</span>
           {paper.award && <AwardBadge award={paper.award} />}
+          {paper.accessible_pdf === "Accessible" && <AccessibleBadge />}
         </div>
         <h1>{paper.title}</h1>
         <div class="paper-hero__meta" aria-label="Paper metadata">
@@ -322,15 +376,19 @@ const DISCUSSION_SECTION_ID = "discussion";
               paper.authors.map((a, idx) => {
                 return (
                   <span>
-                    <a
-                      href={withBaseURL(
-                        `/program/content/?search=${encodeURIComponent(a.name)}`,
-                      )}
-                      class="text-accent underline decoration-accent-200 decoration-solid underline-offset-3 hover:text-accent-700 focus-visible:text-accent-700"
-                    >
-                      {a.name}
-                    </a>
-                    <BlueskyProfileLink email={a.email} name={a.name} />
+                    <span class="whitespace-nowrap">
+                      <>
+                        <a
+                          href={withBaseURL(
+                            `/program/content/?search=${encodeURIComponent(a.name)}`,
+                          )}
+                          class="text-accent underline decoration-accent-200 decoration-solid underline-offset-3 hover:text-accent-700 focus-visible:text-accent-700"
+                        >
+                          {a.name}
+                        </a>
+                        <BlueskyProfileLink email={a.email} name={a.name} />
+                      </>
+                    </span>
                     {a.affiliation && <span>{` (${a.affiliation})`}</span>}
                     {idx < paper.authors.length - 1 ? ", " : ""}
                   </span>
@@ -354,12 +412,16 @@ const DISCUSSION_SECTION_ID = "discussion";
             </div>
           )
         }
-        <a
-          class="button button-inverse paper-jump-button"
-          href={`#${DISCUSSION_SECTION_ID}`}
-        >
-          Jump to Discussion <span aria-hidden="true">↓</span>
-        </a>
+        {
+          (presentation || eventDiscussionUrl) && (
+            <a
+              class="button button-inverse paper-jump-button"
+              href={`#${DISCUSSION_SECTION_ID}`}
+            >
+              Jump to Discussion <span aria-hidden="true">↓</span>
+            </a>
+          )
+        }
       </div>
     </header>
 
@@ -375,18 +437,38 @@ const DISCUSSION_SECTION_ID = "discussion";
             </dd>
             <dt>Time</dt>
             <dd>
-              {`${presentationDetails.date}, ${presentationDetails.talkTime} (${CONFERENCE_TIME_ZONE})`}
-              {presentationDetails.talkTime !==
-                presentationDetails.sessionTime && (
+              <TimeRange
+                start={presentationDetails.talkStart}
+                end={presentationDetails.talkEnd}
+                timeZone={CONFERENCE_TIME_ZONE}
+                withDate
+                suffix
+              />
+              {(presentationDetails.talkStart !==
+                presentation.session.time_start ||
+                presentationDetails.talkEnd !==
+                  presentation.session.time_end) && (
                 <span class="presentation-details__note">
                   {" "}
-                  · session {presentationDetails.sessionTime}
+                  · session{" "}
+                  <TimeRange
+                    start={presentation.session.time_start}
+                    end={presentation.session.time_end}
+                    timeZone={CONFERENCE_TIME_ZONE}
+                  />
                 </span>
-              )}
+              )}{" "}
+              <TimezoneToggle />
             </dd>
             <dt>Room</dt>
             <dd>
-              {presentationDetails.room}
+              {presentationDetails.venueHref ? (
+                <a href={presentationDetails.venueHref}>
+                  {displayRoomName(presentationDetails.room)}
+                </a>
+              ) : (
+                displayRoomName(presentationDetails.room)
+              )}
               {presentationDetails.mode && (
                 <span class="presentation-details__note">
                   {" "}
@@ -454,6 +536,26 @@ const DISCUSSION_SECTION_ID = "discussion";
                       Supplemental Material
                       <NewTabIndicator />
                     </a>
+                  </li>
+                )}
+                {supplementalIsText && (
+                  <li>
+                    <AuthGate label="supplemental material">
+                      <b>Supplemental Material:</b>{" "}
+                      {supplementalParts.map((part) =>
+                        part.href ? (
+                          <a
+                            href={part.href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            {part.text}
+                          </a>
+                        ) : (
+                          part.text
+                        ),
+                      )}
+                    </AuthGate>
                   </li>
                 )}
                 {paper.doi && (
@@ -542,21 +644,51 @@ const DISCUSSION_SECTION_ID = "discussion";
          post, proxied through bsky.tech.ieeevis.org so it loads on any
          conference network. Sortable by upvotes or recency. -->
 
-    <div id={DISCUSSION_SECTION_ID} class="paper-section paper-links mb-6">
-      <h2>Discussion</h2>
-      <!-- <BlueskyDiscussion showPost={false} paperId="test-bsky-9999" client:load /> -->
-      <BlueskyDiscussion
-        showPost={false}
-        paperId={paper.id}
-        authorHandles={authorBskyHandles}
-        client:load
-      />
-    </div>
+    <!-- <BlueskyDiscussion showPost={false} paperId="test-bsky-9999" client:load /> -->
+    {
+      presentation ? (
+        <div id={DISCUSSION_SECTION_ID} class="paper-section paper-links mb-6">
+          <BlueskyDiscussion
+            showPost={false}
+            paperId={paper.id}
+            authorHandles={authorBskyHandles}
+            sessionStart={presentation.session.time_start}
+            client:load
+          />
+        </div>
+      ) : (
+        eventSession &&
+        eventDiscussionUrl && (
+          <div
+            id={DISCUSSION_SECTION_ID}
+            class="paper-section paper-links mb-6"
+          >
+            <h2 class="mt-0">Discussion</h2>
+            <p>
+              This paper is discussed together with the other papers of its{" "}
+              {eventNoun}. It opens shortly before the {eventNoun} starts. The{" "}
+              {eventNoun} is on{" "}
+              <TimeRange
+                start={eventSession.time_start}
+                end={eventSession.time_end}
+                withDate
+                suffix
+              />
+              .
+            </p>
+            <a class="button button-inverse" href={eventDiscussionUrl}>
+              Go to the {eventNoun} discussion <span aria-hidden="true">→</span>
+            </a>
+          </div>
+        )
+      )
+    }
   </div>
 </PageLayout>
 
 <script>
   import { getCurrentUser } from "../../../lib/auth0Client";
+  import { createBookmarkStore } from "../../../lib/bookmarks";
 
   // Like the Paper PDF link in AuthGate, a preview without a public preprint opens the PDF only for signed-in attendees.
   const gatedPreviewLink = document.querySelector<HTMLAnchorElement>(
@@ -581,19 +713,11 @@ const DISCUSSION_SECTION_ID = "discussion";
   const paperId = btn?.dataset.paperId;
 
   // Must match ProgramPapersBrowser's default storageKeyPrefix "program-papers"
-  const STORAGE_KEY = "program-papers-bookmarks";
-
-  function getBookmarks(): string[] {
-    try {
-      return JSON.parse(localStorage.getItem(STORAGE_KEY) ?? "[]");
-    } catch {
-      return [];
-    }
-  }
+  const bookmarks = createBookmarkStore("program-papers-bookmarks");
 
   function updateBtn() {
     if (!btn || !paperId) return;
-    const bookmarked = getBookmarks().includes(paperId);
+    const bookmarked = bookmarks.has(paperId);
     btn.classList.toggle("bookmarked", bookmarked);
     btn.setAttribute(
       "aria-label",
@@ -609,17 +733,11 @@ const DISCUSSION_SECTION_ID = "discussion";
 
   btn?.addEventListener("click", () => {
     if (!paperId) return;
-    const bookmarks = getBookmarks();
-    const idx = bookmarks.indexOf(paperId);
-    if (idx === -1) {
-      bookmarks.push(paperId);
-    } else {
-      bookmarks.splice(idx, 1);
-    }
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(bookmarks));
+    bookmarks.toggle(paperId);
     updateBtn();
   });
 
+  bookmarks.onSync(updateBtn);
   updateBtn();
 </script>
 
@@ -691,7 +809,7 @@ const DISCUSSION_SECTION_ID = "discussion";
     margin-right: auto;
   }
 
-  .paper-section h2 {
+  .paper-section :global(h2) {
     color: var(--color-primary-800);
     font-size: 1.15rem;
     letter-spacing: 0.02em;

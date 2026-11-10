@@ -19,7 +19,7 @@ const isHonorableMention = award.toLowerCase().includes("honorable");
   <i class="material-icons award-badge__icon" aria-hidden="true">
     emoji_events
   </i>
-  <span>{award}</span>
+  <span>{award.length < 31 ? award : `${award.substring(0, 28)}...`}</span>
 </span>
 
 <style>

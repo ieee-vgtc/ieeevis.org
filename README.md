@@ -80,6 +80,8 @@ Without it, sign-in still works; the site just never learns the handle, and the 
 
 To verify after a change: sign in, open a paper, log in with Bluesky under the discussion, click Save, then check the user in **User Management → Users** — `user_metadata` shows `bsky_handle`, and after the attendee's ID token next refreshes the discussion greets them with a one-click "Log in as @handle" button.
 
+**Bookmarks**: Paper and session bookmarks are saved on the attendee's Auth0 profile (`user_metadata.bookmarks_program-papers-bookmarks` and `bookmarks_program-sessions-bookmarks`; `src/lib/bookmarks.ts`), straight from the browser with the attendee's own Management API token, so they follow them across devices. localStorage is kept alongside as the instant copy and the only store when signed out. This needs the SPA application authorized for the Management API: under **Applications → APIs → Auth0 Management API → Application Access**, authorize this application for **User Access** with the `read:current_user` and `update:current_user_metadata` scopes. Attendees who were already signed in need to sign in again to pick up the scopes; until then (or if the setup is missing) bookmarks quietly stay local.
+
 The Bluesky login itself needs nothing in Auth0: the site is a public ATProto OAuth client whose metadata is served from its own origin (`src/components/bluesky/oauth.ts`).
 
 ## Automatic building

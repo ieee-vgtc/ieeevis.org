@@ -54,6 +54,12 @@
     - name: "Salesforce/Tableau"
       image: /assets/supporters/tableau.png
       url: "https://www.tableau.com/"
+    - name: "Open Visualization Academy"
+      image: /assets/supporters/open-visualization-academy.png
+      url: "https://openvisualizationacademy.org/"
+    - name: "University of Miami"
+      image: /assets/supporters/miami-soc.png
+      url: "https://com.miami.edu/"
 #      - name: "VRVis"
 #        image: /assets/supporters/vrvis.png
 #        url: "https://www.vrvis.at/en/"
@@ -76,6 +82,48 @@
     - name: "VRVis"
       image: /assets/supporters/VRVisLogo2024.jpg
       url: "https://www.vrvis.at/en/"
+
+- category: Publisher
+  image_size: 200
+  supporters:
+    - name: "CRC Press"
+      image: /assets/supporters/crc-press.png
+      url: "https://www.routledge.com/AK-Peters-Visualization-Series/book-series/CRCVIS"
+    - name: "Data Visualization Society"
+      image: /assets/supporters/dvs.png
+      url: "https://nightingaledvs.com/"
+
+- category: VISAP Grant Supporter
+  image_size: 200
+  supporters:
+    - name: "Autodesk"
+      image: /assets/supporters/autodesk.png
+      url: "https://www.autodesk.com/"
+    - name: "Quaise"
+      image: /assets/supporters/quaise.png
+      url: "https://www.quaise.com/"
+
+- category: "Paris Satellite"
+  image_size: 200
+  supporters:
+    - name: "Afihm"
+      image: /assets/satellite/afihm-200-wide.png
+    - name: "Universite Gustave Eiffel"
+      image: /assets/satellite/Eiffel-200-wide.png
+    - name: "Telecom Paris"
+      image: /assets/satellite/Telecom-200-wide.png
+    - name: "CEA"
+      image: /assets/satellite/cea-web.png
+    - name: "CNRS"
+      image: /assets/satellite/CNRS-200-wide.png
+    - name: "Universite Paris-Saclay"
+      image: /assets/satellite/DATAIA-200-wide.png
+    - name: "LISN"
+      image: /assets/satellite/LISN-200-wide.png
+    - name: "Programme de recherche"
+      image: /assets/satellite/PEPR-200-wide.jpg
+    - name: "Interactive Media Lab Dresden"
+      image: /assets/satellite/iml.jpg
 #  - category: VISAP
 #    image_size: 140
 #    supporters:

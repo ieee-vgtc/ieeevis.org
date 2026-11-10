@@ -6,7 +6,7 @@ active_nav: "Attend"
 contact: viskids@ieeevis.org
 ---
 
-The IEEE VIS conference is excited to support our VISKids and young families! This year, VISKids will be organizing activities at the main conference location in Boston and will have a meeting room at the site.
+The IEEE VIS conference is excited to support our VISKids and young families! This year, VISKids will be organizing activities at the main conference location in Boston and will have a meeting room at the site (Defender, Floor 7 of the Westin).
 The activities and the room are _open to everyone,_ not just awardees of the child care grant program.
 
 ## VISKids Child Care Grants
@@ -18,6 +18,8 @@ See the dedicated page for [child care grants](/year/2026/info/inclusion/viskids
 ## VISKids Room
 
 Throughout the duration of the conference, VISKids will have a room for provided daycare, play, and personal considerations (e.g., nursing). Kids are very welcome and encouraged to come hang-out!
+
+The room is Defender, on Floor 7 of the Westin Copley Place. See it on the [venue map](/year/2026/venue/?day=wed&floor=7&room=defender#map).
 
 ### VISKids Hello
 

@@ -1,0 +1,100 @@
+---
+// Compact timezone display switch for pages that show times but have no
+// program header (session and content detail pages). The state is the shared
+// program-wide setting; see utils/timezoneMode.ts.
+---
+
+<div class="tz-toggle" data-tz-toggle role="group" aria-label="Timezone display">
+  <span class="tz-toggle__label">Timezone</span>
+  <button type="button" data-tz-value="conference" aria-pressed="true"
+    >Conference (Boston)</button
+  >
+  <button type="button" data-tz-value="local" aria-pressed="false">Local</button>
+  <button type="button" data-tz-value="both" aria-pressed="false">Both</button>
+</div>
+
+<style>
+  .tz-toggle {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.375rem;
+    margin: 0.5rem 0 1rem;
+    font-size: 0.875rem;
+  }
+  .tz-toggle__label {
+    font-weight: 600;
+    margin-right: 0.25rem;
+  }
+  .tz-toggle button {
+    border: 1px solid currentColor;
+    border-radius: 999px;
+    padding: 0.125rem 0.75rem;
+    background: transparent;
+    cursor: pointer;
+    opacity: 0.75;
+  }
+  .tz-toggle button[aria-pressed="true"] {
+    opacity: 1;
+    font-weight: 600;
+    background: rgba(0, 0, 0, 0.08);
+  }
+</style>
+
+<script>
+  import {
+    TIMEZONE_MODE_EVENT,
+    getSavedTimezoneMode,
+    isTimezoneMode,
+    rangePartsForMode,
+    renderTimeParts,
+    saveTimezoneMode,
+    type TimezoneMode,
+  } from "../utils/timezoneMode";
+
+  // Any element with data-tz-start/data-tz-end (ISO) has its content rewritten
+  // for the current mode; see TimeRange.astro. data-tz-date adds the weekday/date, data-tz-suffix
+  // appends the zone name.
+  const render = (mode: TimezoneMode) => {
+    for (const toggle of document.querySelectorAll("[data-tz-toggle]")) {
+      for (const button of toggle.querySelectorAll<HTMLButtonElement>(
+        "[data-tz-value]",
+      )) {
+        button.setAttribute(
+          "aria-pressed",
+          String(button.dataset.tzValue === mode),
+        );
+      }
+    }
+    for (const node of document.querySelectorAll<HTMLElement>(
+      "[data-tz-start][data-tz-end]",
+    )) {
+      renderTimeParts(
+        node,
+        rangePartsForMode(
+          node.dataset.tzStart!,
+          node.dataset.tzEnd!,
+          mode,
+          node.dataset.tzConference || "US/Eastern",
+          {
+            withDate: node.hasAttribute("data-tz-date"),
+            suffix: node.hasAttribute("data-tz-suffix"),
+          },
+        ),
+      );
+    }
+  };
+
+  for (const button of document.querySelectorAll<HTMLButtonElement>(
+    "[data-tz-toggle] [data-tz-value]",
+  )) {
+    button.addEventListener("click", () => {
+      const value = button.dataset.tzValue;
+      if (isTimezoneMode(value)) saveTimezoneMode(value);
+    });
+  }
+  window.addEventListener(TIMEZONE_MODE_EVENT, (event) =>
+    render((event as CustomEvent<TimezoneMode>).detail),
+  );
+  render(getSavedTimezoneMode());
+</script>

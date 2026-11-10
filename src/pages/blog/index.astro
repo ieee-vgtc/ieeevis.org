@@ -1,6 +1,7 @@
 ---
 import BlogSidebar from "../../components/BlogSidebar.astro";
 import PageLayout from "../../layouts/PageLayout.astro";
+import PostDate from "../../components/PostDate.astro";
 
 // src/pages/blog/index.astro
 const posts: Record<string, any> = import.meta.glob("./*.md", { eager: true });
@@ -40,11 +41,7 @@ const posts: Record<string, any> = import.meta.glob("./*.md", { eager: true });
             )}
 
             <p class="post-date">
-              {new Date(post.frontmatter.date).toLocaleDateString("en-US", {
-                year: "numeric",
-                month: "long",
-                day: "numeric",
-              })}
+              <PostDate date={post.frontmatter.date} />
             </p>
           </div>
 

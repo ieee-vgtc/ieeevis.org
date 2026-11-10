@@ -1,5 +1,8 @@
 ---
 import AwardBadge from "./AwardBadge.astro";
+import AccessibleBadge from "./AccessibleBadge.astro";
+import TimeParts from "./TimeParts.astro";
+import { instantPartsForMode } from "../utils/timezoneMode";
 import { withBaseURL } from "../utils/withBaseURL";
 
 type Props = {
@@ -8,14 +11,22 @@ type Props = {
   eyebrow?: string;
   subtitle?: string;
   award?: string | null;
+  accessible?: boolean;
   peopleLabel?: string;
   people?: { name: string; href?: string }[];
-  notes?: string[];
+  /** A plain note, or a labelled one whose text can link, e.g. "Room: Essex". */
+  notes?: (string | { label: string; text: string; href?: string })[];
+  /** Start time (ISO); pages rewrite `.js-time-range` for the timezone setting. */
+  scheduleStart?: string;
   links?: {
     label: string;
     href?: string;
     icon?: string;
     disabledTitle?: string;
+    /** Start time the label begins with; rewritten for the timezone setting. */
+    startISO?: string;
+    /** Label text following the time, e.g. " - Session title". */
+    labelSuffix?: string;
   }[];
   bookmark?: {
     bookmarked: boolean;
@@ -32,9 +43,11 @@ const {
   eyebrow,
   subtitle,
   award,
+  accessible = false,
   peopleLabel,
   people = [],
   notes = [],
+  scheduleStart,
   links = [],
   bookmark,
   accentColor = "#6b7280",
@@ -103,6 +116,14 @@ const style = [
         </div>
       )
     }
+
+    {
+      accessible && (
+        <div class="program-card__award">
+          <AccessibleBadge compact />
+        </div>
+      )
+    }
   </div>
 
   <div class="program-card__body">
@@ -133,7 +154,34 @@ const style = [
       )
     }
     <div>
-      {notes.map((note) => <p class="program-card__note">{note}</p>)}
+      {
+        notes.map((note) =>
+          typeof note === "string" ? (
+            <p class="program-card__note">{note}</p>
+          ) : (
+            <p class="program-card__note">
+              {note.label}:{" "}
+              {note.href ? <a href={note.href}>{note.text}</a> : note.text}
+            </p>
+          ),
+        )
+      }
+      {
+        scheduleStart && (
+          <p class="program-card__note">
+            Schedule:{" "}
+            <span class="js-time-range">
+              <TimeParts
+                parts={instantPartsForMode(
+                  scheduleStart,
+                  "conference",
+                  "US/Eastern",
+                )}
+              />
+            </span>
+          </p>
+        )
+      }
 
       {
         links.length > 0 && (
@@ -153,7 +201,25 @@ const style = [
                     class="program-card__action-link"
                     href={withBaseURL(link.href)}
                   >
-                    {link.label}
+                    {link.startISO ? (
+                      <>
+                        <span
+                          data-tz-instant={link.startISO}
+                          data-tz-conference="US/Eastern"
+                        >
+                          <time datetime={link.startISO}>
+                            {link.label.slice(
+                              0,
+                              link.label.length -
+                                (link.labelSuffix?.length ?? 0),
+                            )}
+                          </time>
+                        </span>
+                        {link.labelSuffix}
+                      </>
+                    ) : (
+                      link.label
+                    )}
                   </a>
                 ) : (
                   <span
@@ -170,5 +236,6 @@ const style = [
         )
       }
     </div>
+    <slot />
   </div>
 </article>

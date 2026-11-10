@@ -1,0 +1,35 @@
+---
+import { fetchAllPapers, fetchAllPosters } from "../../../utils/paperData";
+import { withBaseURL } from "../../../utils/withBaseURL";
+
+// Content pages used to live at /program/paper/<id>/ and search engines still
+// have those URLs indexed. The site is static (S3/CloudFront), so there is no
+// server-side 301; a meta refresh plus canonical link is the closest option.
+export async function getStaticPaths() {
+  const [papers, posters] = await Promise.all([
+    fetchAllPapers(),
+    fetchAllPosters(),
+  ]);
+  return [...papers, ...posters].map((paper) => ({
+    params: { paperId: paper.id },
+  }));
+}
+
+const { paperId } = Astro.params;
+const target = withBaseURL(`/program/content/${paperId}/`);
+const canonical = new URL(target, Astro.site ?? Astro.url).href;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting…</title>
+    <meta name="robots" content="noindex" />
+    <link rel="canonical" href={canonical} />
+    <meta http-equiv="refresh" content={`0; url=${target}`} />
+  </head>
+  <body>
+    <p>Redirecting to <a href={target}>{target}</a>…</p>
+  </body>
+</html>

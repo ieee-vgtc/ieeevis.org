@@ -1,0 +1,17 @@
+---
+type Props = { date: string | Date };
+
+const date = new Date(Astro.props.date);
+// A frontmatter date is midnight UTC; in other zones it would show the day before.
+---
+
+<time datetime={date.toISOString().slice(0, 10)}>
+  {
+    date.toLocaleDateString("en-US", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+      timeZone: "UTC",
+    })
+  }
+</time>

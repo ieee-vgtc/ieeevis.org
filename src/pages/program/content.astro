@@ -14,7 +14,10 @@ import type {
   ProgramPaperCard,
   ProgramSessionRole,
 } from "../../types/programPaper";
-import { getProgramEventTypeLabel } from "../../utils/programEventTypeLabel";
+import {
+  getProgramEventTypeCardLabel,
+  getProgramEventTypeLabel,
+} from "../../utils/programEventTypeLabel";
 
 const CONFERENCE_TIME_ZONE = "US/Eastern";
 
@@ -66,7 +69,7 @@ const getPaperLabelFromEvent = (eventName: string, paperType: string) => {
       : `${normalizedEventName} Workshop Paper`;
   }
 
-  return getProgramEventTypeLabel(paperType);
+  return getProgramEventTypeCardLabel(paperType);
 };
 
 const slotMetadataByPaperId = new Map<string, PaperSessionMeta>();
@@ -74,7 +77,15 @@ const sessionList = await fetchAllSessions();
 const paperEventByPrefix = new Map(
   Object.values(sessionList).map((event) => {
     const type = getPaperTypeFromEvent(event.event, event.event_type);
-    const soleSession = event.sessions.length === 1 ? event.sessions[0] : null;
+    // Events with several sessions but no paper slots (e.g. workshops) cannot
+    // say which session a paper is in, so they default to the earliest one.
+    const hasPaperSlots = event.sessions.some((session) =>
+      (session.time_slots as ProgramTimeSlot[]).some((slot) => slot.uid),
+    );
+    const soleSession =
+      event.sessions.length === 1 || (event.sessions.length > 1 && !hasPaperSlots)
+        ? event.sessions[0]
+        : null;
     return [
       event.event_prefix,
       {
@@ -120,6 +131,15 @@ for (const event of Object.values(sessionList)) {
   }
 }
 
+const getInstitutions = (authors: { affiliation?: string }[] | undefined) =>
+  Array.from(
+    new Set(
+      (authors || [])
+        .map((author) => normalizeText(author.affiliation))
+        .filter(Boolean),
+    ),
+  );
+
 const papers = await fetchAllPapers();
 
 const paperCards: ProgramPaperCard[] = papers.map((paper) => {
@@ -136,7 +156,7 @@ const paperCards: ProgramPaperCard[] = papers.map((paper) => {
   const startISO = resolvedSession?.startISO || null;
   const presentationType = paperEvent?.type || "VIS Paper";
   const presentationLabel =
-    paperEvent?.label || getProgramEventTypeLabel(presentationType);
+    paperEvent?.label || getProgramEventTypeCardLabel(presentationType);
   const sessionLabel = resolvedSession?.sessionTitle || "Session TBA";
   const scheduleLabel = startISO
     ? `${conferenceDateTimeFormatter.format(new Date(startISO))} - ${sessionLabel}`
@@ -146,6 +166,7 @@ const paperCards: ProgramPaperCard[] = papers.map((paper) => {
     id: paper.id,
     title: normalizeText(paper.title) || "Untitled submission",
     authorNames: authors,
+    institutions: getInstitutions(paper.authors),
     keywordsLabel:
       keywords.length > 0 ? keywords.join(", ") : "No keywords listed",
     abstractText: normalizeText(paper.abstract) || "Abstract not available.",
@@ -160,6 +181,9 @@ const paperCards: ProgramPaperCard[] = papers.map((paper) => {
       resolvedSession?.startMs && Number.isFinite(resolvedSession.startMs)
         ? resolvedSession.startMs
         : Number.MAX_SAFE_INTEGER,
+    endMs: resolvedSession?.endISO
+      ? Date.parse(resolvedSession.endISO)
+      : undefined,
     doiUrl: paper.doi ? `https://doi.org/${paper.doi}` : null,
     preprintUrl: normalizeText(paper.preprint_link) || null,
     supplementalUrl: normalizeText(paper.open_access_supplemental_link) || null,
@@ -167,6 +191,7 @@ const paperCards: ProgramPaperCard[] = papers.map((paper) => {
       ? withBaseURL(`/program/session/${resolvedSession.sessionSlug}`)
       : null,
     award: normalizeText(paper.award) || null,
+    hasAccessiblePdf: normalizeText(paper.accessible_pdf) === "Accessible",
     // Earlier years mark TVCG papers with their own event; newer data only
     // marks them via a TVCG-prefixed program paper id.
     isTvcg:
@@ -179,10 +204,28 @@ const paperCards: ProgramPaperCard[] = papers.map((paper) => {
 // filter. Sessions are resolved the same way as for papers.
 const posters = await fetchAllPosters();
 
+// The program database has no v-poster sessions or poster slots; posters are
+// presented at the conference session titled "... Posters".
+const posterSession = Object.values(sessionList)
+  .flatMap((event) => event.sessions.map((session) => ({ event, session })))
+  .find(({ session }) => /\bposters\b/i.test(session.title));
+
 for (const poster of posters) {
   const linkedSlot = slotMetadataByPaperId.get(poster.id);
   const posterEvent = paperEventByPrefix.get(poster.event_prefix);
-  const resolvedSession = linkedSlot || posterEvent?.soleSession || null;
+  const resolvedSession =
+    linkedSlot ||
+    posterEvent?.soleSession ||
+    (posterSession && {
+      sessionSlug: `${posterSession.session.event_prefix}-${posterSession.session.session_id}`,
+      sessionTitle: posterSession.session.title,
+      roomName: posterSession.session.room_name,
+      eventTitle: posterSession.event.long_name,
+      startISO: posterSession.session.time_start,
+      endISO: posterSession.session.time_end,
+      startMs: Date.parse(posterSession.session.time_start),
+    }) ||
+    null;
   const authors = (poster.authors || [])
     .map((author) => normalizeText(author.name))
     .filter(Boolean);
@@ -195,13 +238,14 @@ for (const poster of posters) {
     id: poster.id,
     title: normalizeText(poster.title) || "Untitled submission",
     authorNames: authors,
+    institutions: getInstitutions(poster.authors),
     keywordsLabel:
       keywords.length > 0 ? keywords.join(", ") : "No keywords listed",
     abstractText: normalizeText(poster.abstract) || "Abstract not available.",
     presentationType: "poster",
-    presentationLabel: getProgramEventTypeLabel("poster"),
+    presentationLabel: getProgramEventTypeCardLabel("poster"),
     eventKey: normalizeText(poster.event_prefix) || null,
-    eventLabel: posterEvent?.eventLabel || getProgramEventTypeLabel("poster"),
+    eventLabel: posterEvent?.eventLabel || getProgramEventTypeCardLabel("poster"),
     sessionKey: resolvedSession?.sessionSlug || null,
     sessionLabel,
     scheduleLabel: resolvedSession?.startISO
@@ -211,6 +255,9 @@ for (const poster of posters) {
       resolvedSession?.startMs && Number.isFinite(resolvedSession.startMs)
         ? resolvedSession.startMs
         : Number.MAX_SAFE_INTEGER,
+    endMs: resolvedSession?.endISO
+      ? Date.parse(resolvedSession.endISO)
+      : undefined,
     doiUrl: poster.doi ? `https://doi.org/${poster.doi}` : null,
     preprintUrl: normalizeText(poster.preprint_link) || null,
     supplementalUrl:
@@ -296,6 +343,7 @@ for (const event of Object.values(sessionList)) {
         sessionLabel: session.title,
         scheduleLabel: `${conferenceDateTimeFormatter.format(new Date(slot.time_start))} - ${session.title}`,
         startMs: Date.parse(slot.time_start),
+        endMs: Date.parse(slot.time_end || session.time_end),
         doiUrl: null,
         preprintUrl: null,
         supplementalUrl: null,
@@ -336,6 +384,7 @@ for (const event of Object.values(sessionList)) {
     sessionLabel: session.title,
     scheduleLabel: `${conferenceDateTimeFormatter.format(new Date(session.time_start))} - ${session.title}`,
     startMs: Date.parse(session.time_start),
+    endMs: Date.parse(session.time_end),
     doiUrl: null,
     preprintUrl: null,
     supplementalUrl: null,
@@ -369,6 +418,7 @@ const sessionRoles: ProgramSessionRole[] = Object.values(sessionList)
         roleLabel,
         people,
         sessionTitle: session.title,
+        sessionId: `${session.event_prefix}-${session.session_id}`,
         sessionUrl: withBaseURL(
           `/program/session/${session.event_prefix}-${session.session_id}`,
         ),
@@ -377,6 +427,7 @@ const sessionRoles: ProgramSessionRole[] = Object.values(sessionList)
           : "Time TBA",
         roomName: session.room_name,
         startMs: Date.parse(session.time_start),
+        endMs: Date.parse(session.time_end),
       });
       // Panelists are the presenters on a panel's slots.
       const panelists = [

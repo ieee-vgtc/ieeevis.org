@@ -25,3 +25,5 @@ Nils Gehlenborg is an Associate Professor in the Department of Biomedical Inform
 Gehlenborg co-founded BioVis, the Symposium on Biological Data Visualization, and VIZBI, the annual workshop on Visualizing Biological Data; he previously served as BioVis general chair and now chairs its steering committee. He co-chairs the Policy Working Group for the 4D Nucleome Network, an NIH Common Fund project, has served on program committees for multiple bioinformatics and data visualization conferences, and holds editorial roles including associate editor of BMC Bioinformatics. He has also contributed to Nature Methods' "Points of View" data visualization column.
 
 <!-- **When: Friday (Nov 13), 10:00am (EST), America North / America Center / America South** -->
+
+Join the discussion of the capstone on its [session page](https://ieeevis.org/year/2026/program/session/conf-capstone2/).

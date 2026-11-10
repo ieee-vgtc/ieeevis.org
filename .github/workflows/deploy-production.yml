@@ -6,11 +6,8 @@ on:
     types:
       - published
   schedule:
-    # midnight EST (5:00 UTC) everyday
-    - cron: "0 5 * * *"
-
-    # noon EST (17:00 UTC) everyday
-    - cron: "0 17 * * *"
+    # every two hours, on the hour (UTC)
+    - cron: "0 */2 * * *"
 
 env:
   BASE_PATH: "/year/2026" # we are ONLY deploying to this base path, do not add a trailing slash

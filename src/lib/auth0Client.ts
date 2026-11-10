@@ -60,6 +60,9 @@ export type AttendeeUser = {
   sub: string;
 };
 
+/** Management API scopes for an attendee's own user_metadata. */
+const USER_METADATA_SCOPES = "read:current_user update:current_user_metadata";
+
 type AppState = { returnTo?: string };
 
 function toAttendeeUser(user: User | undefined): AttendeeUser | null {
@@ -89,7 +92,12 @@ function getClient(): Promise<Auth0Client> {
       useRefreshTokens: true,
       authorizationParams: {
         redirect_uri: `${window.location.origin}${siteBase()}${CALLBACK_PATH}`,
-        scope: "openid profile email",
+        // The Management API scopes let the attendee read and write their own
+        // user_metadata from the browser (see ./userMetadata.ts); the access
+        // token this audience yields is used for nothing else. The ID token
+        // bsky-api verifies is unaffected by the audience.
+        audience: `https://${domain}/api/v2/`,
+        scope: `openid profile email ${USER_METADATA_SCOPES}`,
         ...(connection ? { connection } : {}),
       },
     });
@@ -204,6 +212,39 @@ export async function refreshSession(): Promise<void> {
     return;
   }
   await client.getTokenSilently({ cacheMode: "off" });
+}
+
+/**
+ * An access token for the Management API (audience `https://<domain>/api/v2/`)
+ * plus the signed-in user's id, for reading and writing their own
+ * `user_metadata`. Null if no one is signed in, or the session predates these
+ * scopes (the attendee has to sign in again) or the Auth0 application is not
+ * authorized for them. Never throws.
+ */
+export async function getUserMetadataAccess(): Promise<{
+  domain: string;
+  sub: string;
+  token: string;
+} | null> {
+  try {
+    const client = await getClient();
+    if (!(await client.isAuthenticated())) {
+      return null;
+    }
+    const user = await client.getUser();
+    const token = await client.getTokenSilently();
+    if (!user?.sub || !token) {
+      return null;
+    }
+    return {
+      domain: import.meta.env.PUBLIC_AUTH0_DOMAIN,
+      sub: user.sub,
+      token,
+    };
+  } catch (error) {
+    console.warn("Unable to get a user_metadata token:", error);
+    return null;
+  }
 }
 
 /** The current page's path (and query string) relative to the site's base. */

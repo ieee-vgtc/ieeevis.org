@@ -1,7 +1,12 @@
 name: PR Build Check
 
 on:
+  # Runs on PR open, reopen, and every new push to the PR branch (including
+  # PRs from forks). The build runs the broken link checker.
+  pull_request:
+    types: [opened, synchronize, reopened]
   push:
+    branches: [vis2026]
 
 jobs:
   build:

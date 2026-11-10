@@ -1,7 +1,12 @@
 ---
 import ProgramHeader from "./ProgramHeader.astro";
 import ProgramCard from "./ProgramCard.astro";
-import { getProgramEventTypeLabel } from "../utils/programEventTypeLabel";
+import {
+  getDropdownGroups,
+  getProgramEventTypeLabel,
+  groupProgramTypeOptions,
+  presentedResearchTypeLayout,
+} from "../utils/programEventTypeLabel";
 
 // Individual contributions are labeled differently from the sessions that hold them.
 const contributionLabels: Record<string, string> = {
@@ -14,6 +19,32 @@ const getContributionLabel = (eventType: string) =>
   getProgramEventTypeLabel(eventType);
 import type { ProgramPapersBrowserProps } from "../types/programPaper";
 import { typeColors, typeTextColors } from "../utils/week-of-utils";
+
+// Day grouping matches the sessions page: days in the conference time zone.
+const dayParts = (ms: number) => {
+  if (!Number.isFinite(ms) || ms >= Number.MAX_SAFE_INTEGER) return null;
+  const date = new Date(ms);
+  const fmt = (options: Intl.DateTimeFormatOptions) =>
+    new Intl.DateTimeFormat("en-US", {
+      timeZone: "US/Eastern",
+      ...options,
+    }).format(date);
+  const [month, day, year] = fmt({
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).split("/");
+  return {
+    key: `${year}-${month}-${day}`,
+    weekday: fmt({ weekday: "long" }),
+    date: fmt({ month: "short", day: "numeric" }),
+  };
+};
+
+const toISO = (ms: number) =>
+  Number.isFinite(ms) && ms < Number.MAX_SAFE_INTEGER
+    ? new Date(ms).toISOString()
+    : undefined;
 
 const paperTypeToNameMap: Record<string, string> = {
   full: "Full VIS Paper",
@@ -53,8 +84,17 @@ const tvcgCount = papers.filter((paper) => paper.isTvcg).length;
 
 // Award-winning papers (plus the awards plenary) also overlap with the other
 // types, so they get a pill of their own.
+// Workshop awards are listed separately so they don't mix with the main awards.
+const isWorkshopAward = (paper: ProgramPapersBrowserProps["papers"][number]) =>
+  Boolean(paper.award) && getPaperType(paper) === "workshop";
 const awardCount = papers.filter(
-  (paper) => paper.award || paper.isAwardSession,
+  (paper) => (paper.award || paper.isAwardSession) && !isWorkshopAward(paper),
+).length;
+const workshopAwardCount = papers.filter(isWorkshopAward).length;
+
+// Papers with an accessible PDF get their own pill too.
+const accessibleCount = papers.filter(
+  (paper) => paper.hasAccessiblePdf,
 ).length;
 
 // Session chairs, organizers, and panelists ride along as their own "type" so they can be
@@ -63,51 +103,54 @@ const sessionRoleType = "session-role";
 const sessionRoleColor = "#e6e7e4";
 const sessionRoleTextColor = "#212121";
 
-const typeOptions = Object.keys(typeCounts)
+const contributionOptions = Object.keys(typeCounts)
   .filter((value) => value !== "tvcg")
-  .sort((a, b) => a.localeCompare(b))
   .map((value) => ({
     value,
     label: getContributionLabel(value),
     count: typeCounts[value],
     color: typeColors[value] || "#6b7280",
   }))
-  .concat(
-    tvcgCount > 0
-      ? [
-          {
-            value: "tvcg",
-            label: getProgramEventTypeLabel("tvcg"),
-            count: tvcgCount,
-            color: typeColors.tvcg,
-          },
-        ]
-      : [],
-  )
-  .concat(
-    awardCount > 0
-      ? [
-          {
-            value: "awards",
-            label: "Awards",
-            count: awardCount,
-            color: "#B7791F",
-          },
-        ]
-      : [],
-  )
-  .concat(
-    sessionRoles.length > 0
-      ? [
-          {
-            value: sessionRoleType,
-            label: "Chairs, Organizers & Panelists",
-            count: sessionRoles.length,
-            color: "#616161",
-          },
-        ]
-      : [],
-  );
+  .sort((a, b) => a.label.localeCompare(b.label));
+
+// Pill order and dropdown nesting come from presentedResearchTypeLayout.
+const extraOptions = [
+  {
+    value: "tvcg",
+    label: getProgramEventTypeLabel("tvcg"),
+    count: tvcgCount,
+    color: typeColors.tvcg,
+  },
+  {
+    value: "awards",
+    label: "Awards",
+    count: awardCount,
+    color: typeColors.awards,
+  },
+  {
+    value: "workshop-awards",
+    label: "Workshop Awards",
+    count: workshopAwardCount,
+    color: typeColors["workshop-awards"],
+  },
+  {
+    value: "accessible",
+    label: "Accessible PDFs",
+    count: accessibleCount,
+    color: typeColors.accessible,
+  },
+  {
+    value: sessionRoleType,
+    label: "Chairs, Organizers & Panelists",
+    count: sessionRoles.length,
+    color: typeColors["session-role"],
+  },
+].filter((option) => option.count > 0);
+
+const typeOptions = groupProgramTypeOptions(
+  [...contributionOptions, ...extraOptions],
+  presentedResearchTypeLayout,
+);
 ---
 
 <section
@@ -123,116 +166,136 @@ const typeOptions = Object.keys(typeCounts)
     typeOptions={typeOptions}
     filterBarLabel="Paper type filters"
     allLabel="All"
+    dropdownGroups={getDropdownGroups(presentedResearchTypeLayout)}
+    timezoneLabel="Timezone display"
+    timezoneSelectId="timezone-mode"
   >
-    <div slot="extra-controls" class="papers-controls">
-      <div class="u-primary-controls flex w-full justify-between">
-        <label class="papers-control">
-          Search by
-          <div
-            id="papers-search-field"
-            class="papers-choice-group u-responsive-choice-group"
-            role="group"
+    <Fragment slot="primary-controls">
+      <label class="u-control">
+        Search by
+        <div
+          id="papers-search-field"
+          class="papers-choice-group u-responsive-choice-group"
+          role="group"
+          aria-label="Search by"
+        >
+          <select
+            class="u-select u-mobile-choice-select"
+            data-choice-select
             aria-label="Search by"
           >
-            <select
-              class="u-select u-mobile-choice-select"
-              data-choice-select
-              aria-label="Search by"
-            >
-              <option value="any">any</option>
-              <option value="title">title</option>
-              <option value="keyword">keyword</option>
-              <option value="author">author</option>
-              <option value="session">session</option>
-            </select>
-            <button
-              type="button"
-              class="papers-choice-button hover-response--tint is-active"
-              data-choice-value="any"
-              aria-pressed="true"
-            >
-              any
-            </button>
-            <button
-              type="button"
-              class="papers-choice-button hover-response--tint"
-              data-choice-value="title"
-              aria-pressed="false"
-            >
-              title
-            </button>
-            <button
-              type="button"
-              class="papers-choice-button hover-response--tint"
-              data-choice-value="keyword"
-              aria-pressed="false"
-            >
-              keyword
-            </button>
-            <button
-              type="button"
-              class="papers-choice-button hover-response--tint"
-              data-choice-value="author"
-              aria-pressed="false"
-            >
-              author
-            </button>
-            <button
-              type="button"
-              class="papers-choice-button hover-response--tint"
-              data-choice-value="session"
-              aria-pressed="false"
-            >
-              session
-            </button>
-          </div>
-        </label>
+            <option value="any">any</option>
+            <option value="title">title</option>
+            <option value="keyword">keyword</option>
+            <option value="abstract">abstract</option>
+            <option value="author">author</option>
+            <option value="institution">institution</option>
+            <option value="session">session</option>
+          </select>
+          <button
+            type="button"
+            class="papers-choice-button hover-response--tint is-active"
+            data-choice-value="any"
+            aria-pressed="true"
+          >
+            any
+          </button>
+          <button
+            type="button"
+            class="papers-choice-button hover-response--tint"
+            data-choice-value="title"
+            aria-pressed="false"
+          >
+            title
+          </button>
+          <button
+            type="button"
+            class="papers-choice-button hover-response--tint"
+            data-choice-value="keyword"
+            aria-pressed="false"
+          >
+            keyword
+          </button>
+          <button
+            type="button"
+            class="papers-choice-button hover-response--tint"
+            data-choice-value="abstract"
+            aria-pressed="false"
+          >
+            abstract
+          </button>
+          <button
+            type="button"
+            class="papers-choice-button hover-response--tint"
+            data-choice-value="author"
+            aria-pressed="false"
+          >
+            author
+          </button>
+          <button
+            type="button"
+            class="papers-choice-button hover-response--tint"
+            data-choice-value="institution"
+            aria-pressed="false"
+          >
+            institution
+          </button>
+          <button
+            type="button"
+            class="papers-choice-button hover-response--tint"
+            data-choice-value="session"
+            aria-pressed="false"
+          >
+            session
+          </button>
+        </div>
+      </label>
 
-        <label class="papers-control">
-          Sort by
-          <div
-            id="papers-sort"
-            class="papers-choice-group u-responsive-choice-group"
-            role="group"
+      <label class="u-control">
+        Sort by
+        <div
+          id="papers-sort"
+          class="papers-choice-group u-responsive-choice-group"
+          role="group"
+          aria-label="Sort by"
+        >
+          <select
+            class="u-select u-mobile-choice-select"
+            data-choice-select
             aria-label="Sort by"
           >
-            <select
-              class="u-select u-mobile-choice-select"
-              data-choice-select
-              aria-label="Sort by"
-            >
-              <option value="title">title</option>
-              <option value="bookmarked">bookmarked first</option>
-              <option value="schedule">schedule</option>
-            </select>
-            <button
-              type="button"
-              class="papers-choice-button hover-response--tint is-active"
-              data-choice-value="title"
-              aria-pressed="true"
-            >
-              title
-            </button>
-            <button
-              type="button"
-              class="papers-choice-button hover-response--tint"
-              data-choice-value="bookmarked"
-              aria-pressed="false"
-            >
-              bookmarked first
-            </button>
-            <button
-              type="button"
-              class="papers-choice-button hover-response--tint"
-              data-choice-value="schedule"
-              aria-pressed="false"
-            >
-              schedule
-            </button>
-          </div>
-        </label>
-      </div>
-
+            <option value="title">title</option>
+            <option value="bookmarked">bookmarked first</option>
+            <option value="time">by time</option>
+          </select>
+          <button
+            type="button"
+            class="papers-choice-button hover-response--tint is-active"
+            data-choice-value="title"
+            aria-pressed="true"
+          >
+            title
+          </button>
+          <button
+            type="button"
+            class="papers-choice-button hover-response--tint"
+            data-choice-value="bookmarked"
+            aria-pressed="false"
+          >
+            bookmarked first
+          </button>
+          <button
+            type="button"
+            class="papers-choice-button hover-response--tint"
+            data-choice-value="time"
+            aria-pressed="false"
+          >
+            by time
+          </button>
+        </div>
+      </label>
+    </Fragment>
+    <div slot="extra-controls" class="papers-controls">
       <label class="papers-control">
         Find
         <div class="papers-search-shell">
@@ -240,8 +303,9 @@ const typeOptions = Object.keys(typeCounts)
             id="papers-search"
             class="papers-search"
             type="search"
-            placeholder={`Search ${lowerItemType}s`}
-            aria-label={`Search ${lowerItemType}s`}
+            placeholder={`Search ${lowerItemType}s (separate with , for multiple)`}
+            aria-label={`Search ${lowerItemType}s. Separate multiple terms with a comma or pipe to match any.`}
+            title="Separate multiple terms with a comma or | to match any of them"
           />
           <button
             id="papers-search-clear"
@@ -255,6 +319,10 @@ const typeOptions = Object.keys(typeCounts)
       </label>
     </div>
   </ProgramHeader>
+
+  <button type="button" class="scroll-to-live" data-scroll-to-live hidden>
+    Scroll to happening now
+  </button>
 
   <div class="papers-grid" id="papers-grid">
     {
@@ -281,6 +349,8 @@ const typeOptions = Object.keys(typeCounts)
             ? [
                 {
                   label: paper.scheduleLabel,
+                  startISO: toISO(paper.startMs),
+                  labelSuffix: ` - ${paper.sessionLabel}`,
                   href: paper.sessionUrl,
                   icon: "schedule",
                 },
@@ -302,16 +372,34 @@ const typeOptions = Object.keys(typeCounts)
             data-paper-id={paper.id}
             data-type={normalizedType}
             data-tvcg={paper.isTvcg ? "true" : "false"}
-            data-awards={paper.award || paper.isAwardSession ? "true" : "false"}
+            data-accessible={paper.hasAccessiblePdf ? "true" : "false"}
+            data-awards={
+              (paper.award || paper.isAwardSession) && !isWorkshopAward(paper)
+                ? "true"
+                : "false"
+            }
+            data-workshop-awards={isWorkshopAward(paper) ? "true" : "false"}
             data-title={paper.title.toLowerCase()}
             data-authors={paper.authorNames.join(",").toLowerCase()}
             data-keywords={paper.keywordsLabel.toLowerCase()}
+            data-keywords-label={paper.keywordsLabel}
+            data-institutions={(paper.institutions || []).join("|")}
+            data-abstract={
+              paper.abstractText === "Abstract not available."
+                ? ""
+                : paper.abstractText
+            }
             data-session={paper.sessionLabel.toLowerCase()}
             data-session-key={paper.sessionKey || ""}
             data-event={paper.eventLabel.toLowerCase()}
             data-event-key={paper.eventKey || ""}
             data-award={paper.award?.toLowerCase() || ""}
             data-start-ms={paper.startMs}
+            data-start={toISO(paper.startMs)}
+            data-end={paper.endMs ? toISO(paper.endMs) : undefined}
+            data-day={dayParts(paper.startMs)?.key || ""}
+            data-day-weekday={dayParts(paper.startMs)?.weekday || ""}
+            data-day-date={dayParts(paper.startMs)?.date || ""}
             accentColor={typeColors[colorType] || "#f3f4f6"}
             titleColor={typeTextColors[colorType] || "#111827"}
             title={paper.title}
@@ -323,13 +411,16 @@ const typeOptions = Object.keys(typeCounts)
                 : paperTypeToNameMap[normalizedType] || paper.presentationLabel)
             }
             award={paper.award}
+            accessible={paper.hasAccessiblePdf}
             peopleLabel={paper.titleHref ? "Speakers" : "Authors"}
             people={people}
             links={links}
             bookmark={
               paper.titleHref ? undefined : { bookmarked: isBookmarked }
             }
-          />
+          >
+            <div class="program-card__match" data-match hidden />
+          </ProgramCard>
         );
       })
     }
@@ -338,12 +429,19 @@ const typeOptions = Object.keys(typeCounts)
         <ProgramCard
           data-program-card
           data-session-role
+          data-session-id={sessionRole.sessionId}
+          bookmark={{ bookmarked: false }}
           data-type={sessionRoleType}
           data-title={sessionRole.sessionTitle.toLowerCase()}
           data-authors={sessionRole.people.join(",").toLowerCase()}
           data-people={sessionRole.people.join("|").toLowerCase()}
           data-session={sessionRole.sessionTitle.toLowerCase()}
           data-start-ms={sessionRole.startMs}
+          data-start={toISO(sessionRole.startMs)}
+          data-end={sessionRole.endMs ? toISO(sessionRole.endMs) : undefined}
+          data-day={dayParts(sessionRole.startMs)?.key || ""}
+          data-day-weekday={dayParts(sessionRole.startMs)?.weekday || ""}
+          data-day-date={dayParts(sessionRole.startMs)?.date || ""}
           accentColor={sessionRoleColor}
           titleColor={sessionRoleTextColor}
           title={sessionRole.sessionTitle}
@@ -357,6 +455,8 @@ const typeOptions = Object.keys(typeCounts)
           links={[
             {
               label: `${sessionRole.scheduleLabel} - ${sessionRole.roomName}`,
+              startISO: toISO(sessionRole.startMs),
+              labelSuffix: ` - ${sessionRole.roomName}`,
               href: sessionRole.sessionUrl,
               icon: "schedule",
             },
@@ -372,10 +472,23 @@ const typeOptions = Object.keys(typeCounts)
 </section>
 
 <script>
+  import { createBookmarkStore } from "../lib/bookmarks";
   import {
     createUrlStateHistory,
     type UrlStateWriteOptions,
   } from "../utils/urlStateHistory";
+  import {
+    TIMEZONE_MODE_EVENT,
+    getSavedTimezoneMode,
+    isTimezoneMode,
+    renderTimeParts,
+    startTimePartsForMode,
+  } from "../utils/timezoneMode";
+  import {
+    currentTimeMs,
+    markLiveCards,
+    setupScrollToLive,
+  } from "../utils/liveNow";
 
   (() => {
     const root = document.querySelector(".program-papers");
@@ -406,7 +519,9 @@ const typeOptions = Object.keys(typeCounts)
       "any",
       "title",
       "keyword",
+      "abstract",
       "author",
+      "institution",
       "session",
     ]);
     const validTypeValues = new Set(
@@ -414,24 +529,13 @@ const typeOptions = Object.keys(typeCounts)
         .map((button) => button.getAttribute("data-type-filter") || "")
         .filter(Boolean),
     );
-    const validSortModes = new Set(["title", "bookmarked", "schedule"]);
+    const validSortModes = new Set(["title", "bookmarked", "time"]);
 
-    const getStoredBookmarks = () => {
-      try {
-        const raw = localStorage.getItem(bookmarkKey);
-        if (!raw) return [];
-        const parsed = JSON.parse(raw);
-        return Array.isArray(parsed) ? parsed : [];
-      } catch {
-        return [];
-      }
-    };
-
-    const storeBookmarks = (bookmarks: string[]) => {
-      localStorage.setItem(bookmarkKey, JSON.stringify(bookmarks));
-    };
-
-    const bookmarks = new Set(getStoredBookmarks());
+    const bookmarks = createBookmarkStore(bookmarkKey);
+    // Chair/organizer cards (tutorials, workshops, ...) bookmark their session.
+    const sessionBookmarks = createBookmarkStore("program-sessions-bookmarks");
+    const storeFor = (card: HTMLElement) =>
+      card.hasAttribute("data-session-role") ? sessionBookmarks : bookmarks;
 
     const getChoiceValue = (
       container: HTMLElement | null,
@@ -499,7 +603,10 @@ const typeOptions = Object.keys(typeCounts)
       const urlType = params.get("type") || "";
       activeTypeFilter = validTypeValues.has(urlType) ? urlType : "all";
 
-      const urlSortMode = params.get("sort") || "";
+      let urlSortMode = params.get("sort") || "";
+      if (params.get("view") === "time" || urlSortMode === "schedule") {
+        urlSortMode = "time";
+      }
       setChoiceValue(
         sortControl,
         validSortModes.has(urlSortMode) ? urlSortMode : "title",
@@ -513,9 +620,18 @@ const typeOptions = Object.keys(typeCounts)
         ? searchInput.value.trim().toLowerCase()
         : "";
 
+    // Commas or pipes separate alternatives (OR), e.g. "alice, bob".
+    const getSearchTerms = () =>
+      getSearchQuery()
+        .split(/[,|]/)
+        .map((term) => term.trim())
+        .filter(Boolean);
+
     const getSearchField = () => getChoiceValue(searchFieldControl, "any");
 
     const getSortMode = () => getChoiceValue(sortControl, "title");
+
+    const getViewMode = () => (getSortMode() === "time" ? "time" : "list");
 
     const getTypeFilter = () => activeTypeFilter;
 
@@ -556,6 +672,8 @@ const typeOptions = Object.keys(typeCounts)
         nextParams.delete("type");
       }
 
+      nextParams.delete("view");
+
       if (sortMode !== "title") {
         nextParams.set("sort", sortMode);
       } else {
@@ -565,16 +683,34 @@ const typeOptions = Object.keys(typeCounts)
       urlHistory.write(nextParams, options);
     };
 
+    // Abstracts are long; lowercase each once instead of on every keystroke.
+    const lowerAbstracts = new WeakMap<HTMLElement, string>();
+    const getLowerAbstract = (card: HTMLElement) => {
+      let value = lowerAbstracts.get(card);
+      if (value === undefined) {
+        value = (card.dataset.abstract || "").toLowerCase();
+        lowerAbstracts.set(card, value);
+      }
+      return value;
+    };
+
+    const getLowerInstitutions = (card: HTMLElement) =>
+      (card.dataset.institutions || "").toLowerCase();
+
     const getFieldValue = (card: HTMLElement) => {
       const field = getSearchField();
       if (field === "title") return card.dataset.title || "";
       if (field === "keyword") return card.dataset.keywords || "";
+      if (field === "abstract") return getLowerAbstract(card);
       if (field === "author") return card.dataset.authors || "";
+      if (field === "institution") return getLowerInstitutions(card);
       if (field === "session") return card.dataset.session || "";
       return [
         card.dataset.title || "",
         card.dataset.authors || "",
         card.dataset.keywords || "",
+        getLowerAbstract(card),
+        getLowerInstitutions(card),
         card.dataset.session || "",
         card.dataset.event || "",
         card.dataset.award || "",
@@ -583,14 +719,16 @@ const typeOptions = Object.keys(typeCounts)
 
     const refreshBookmarkState = () => {
       for (const card of cards) {
-        const paperId = card.getAttribute("data-paper-id");
+        const paperId =
+          card.getAttribute("data-paper-id") ||
+          card.getAttribute("data-session-id");
         const toggle = card.querySelector<HTMLButtonElement>(
           "[data-bookmark-toggle]",
         );
         const icon = card.querySelector<HTMLElement>("[data-bookmark-icon]");
         if (!paperId || !toggle) continue;
 
-        const bookmarked = bookmarks.has(paperId);
+        const bookmarked = storeFor(card).has(paperId);
         toggle.setAttribute(
           "aria-label",
           bookmarked ? "Remove bookmark" : "Add bookmark",
@@ -614,27 +752,177 @@ const typeOptions = Object.keys(typeCounts)
         button.setAttribute("aria-pressed", String(isActive));
         button.classList.toggle("is-active", isActive);
       }
+      // Flag dropdowns holding the active option, and show it on the toggle.
+      root
+        .querySelectorAll<HTMLElement>(".u-filter-menu")
+        .forEach((menu) => {
+          const active = menu.querySelector<HTMLElement>(
+            ".u-filter-pill.is-active",
+          );
+          menu.classList.toggle("has-active", Boolean(active));
+          const label = menu.querySelector<HTMLElement>(
+            ".u-filter-menu__active",
+          );
+          const name = active?.querySelector("span")?.textContent;
+          if (label) label.textContent = name ? `: ${name}` : "";
+        });
     };
 
     // Under "All", a chair/organizer card only appears when the search names
     // that person; very short queries would match nearly everyone.
-    const matchesSessionRolePerson = (card: HTMLElement, query: string) => {
+    const matchesSessionRolePerson = (card: HTMLElement, terms: string[]) => {
       const field = getSearchField();
+      const people = (card.dataset.people || "").split("|");
       return (
         (field === "any" || field === "author") &&
-        query.length >= 3 &&
-        (card.dataset.people || "")
-          .split("|")
-          .some((name) => name.includes(query))
+        terms.some(
+          (term) =>
+            term.length >= 3 && people.some((name) => name.includes(term)),
+        )
       );
     };
 
+    // Explain keyword/abstract hits on a card: matching keywords become chips
+    // and the abstract shows a highlighted excerpt around the first match.
+    const renderMatchReasons = (card: HTMLElement, terms: string[]) => {
+      const box = card.querySelector<HTMLElement>("[data-match]");
+      if (!box) return;
+      box.replaceChildren();
+      const field = getSearchField();
+      const searchKeywords = field === "any" || field === "keyword";
+      const searchInstitutions = field === "any" || field === "institution";
+      const searchAbstract = field === "any" || field === "abstract";
+      if (terms.length === 0 || card.hasAttribute("data-session-role")) {
+        box.hidden = true;
+        return;
+      }
+
+      const highlight = (text: string, parent: HTMLElement) => {
+        const pattern = new RegExp(
+          terms
+            .map((term) => term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))
+            .sort((a, b) => b.length - a.length)
+            .join("|"),
+          "gi",
+        );
+        let from = 0;
+        for (const found of text.matchAll(pattern)) {
+          const at = found.index ?? 0;
+          if (found[0].length === 0) continue;
+          parent.append(text.slice(from, at));
+          const mark = document.createElement("mark");
+          mark.className = "program-card__mark";
+          mark.textContent = found[0];
+          parent.append(mark);
+          from = at + found[0].length;
+        }
+        parent.append(text.slice(from));
+      };
+
+      const addRow = (label: string, icon: string) => {
+        const row = document.createElement("p");
+        row.className = "program-card__match-row";
+        const tag = document.createElement("span");
+        tag.className = "program-card__match-tag";
+        tag.title = `Matched in ${label.toLowerCase()}`;
+        const iconEl = document.createElement("i");
+        iconEl.className = "material-icons";
+        iconEl.setAttribute("aria-hidden", "true");
+        iconEl.textContent = icon;
+        tag.append(iconEl, label);
+        row.append(tag);
+        box.append(row);
+        return row;
+      };
+
+      if (searchKeywords && terms.some((t) => card.dataset.keywords?.includes(t))) {
+        const matched = (card.dataset.keywordsLabel || "")
+          .split(", ")
+          .filter((keyword) =>
+            terms.some((t) => keyword.toLowerCase().includes(t)),
+          );
+        const row = addRow("Keyword", "sell");
+        for (const keyword of matched) {
+          const chip = document.createElement("span");
+          chip.className = "program-card__match-chip";
+          highlight(keyword, chip);
+          row.append(chip);
+        }
+      }
+
+      if (searchInstitutions && terms.some((t) => getLowerInstitutions(card).includes(t))) {
+        const matched = (card.dataset.institutions || "")
+          .split("|")
+          .filter((name) =>
+            terms.some((t) => name.toLowerCase().includes(t)),
+          );
+        const row = addRow("Institution", "school");
+        for (const name of matched) {
+          const chip = document.createElement("span");
+          chip.className = "program-card__match-chip";
+          highlight(name, chip);
+          row.append(chip);
+        }
+      }
+
+      const abstract = card.dataset.abstract || "";
+      let abstractAt = -1;
+      let abstractLen = 0;
+      if (searchAbstract) {
+        const lowerAbstract = getLowerAbstract(card);
+        for (const term of terms) {
+          const at = lowerAbstract.indexOf(term);
+          if (at !== -1 && (abstractAt === -1 || at < abstractAt)) {
+            abstractAt = at;
+            abstractLen = term.length;
+          }
+        }
+      }
+      if (abstractAt !== -1) {
+        const start = Math.max(0, abstractAt - 70);
+        const end = Math.min(abstract.length, abstractAt + abstractLen + 110);
+        const row = addRow("Abstract", "notes");
+        const excerpt = document.createElement("span");
+        excerpt.className = "program-card__match-excerpt";
+        highlight(
+          `${start > 0 ? "…" : ""}${abstract.slice(start, end)}${end < abstract.length ? "…" : ""}`,
+          excerpt,
+        );
+        row.append(excerpt);
+      }
+
+      box.hidden = box.childElementCount === 0;
+    };
+
+    const updateScrollButton = setupScrollToLive(
+      root.querySelector<HTMLElement>("[data-scroll-to-live]"),
+      root,
+      "[data-program-card]",
+    );
+    const refreshLiveCards = () => {
+      markLiveCards(cards, currentTimeMs());
+      updateScrollButton();
+    };
+    window.addEventListener(TIMEZONE_MODE_EVENT, (event) => {
+      const mode = (event as CustomEvent<string>).detail;
+      if (!isTimezoneMode(mode)) return;
+      for (const node of root.querySelectorAll<HTMLElement>(
+        ".js-time-heading",
+      )) {
+        renderTimeParts(
+          node,
+          startTimePartsForMode(node.dataset.start || "", mode, "US/Eastern"),
+        );
+      }
+    });
+
     const applyFilters = (options?: UrlStateWriteOptions) => {
-      const query = getSearchQuery();
+      const terms = getSearchTerms();
       const typeFilter = getTypeFilter();
-      const sortMode = getSortMode();
+      const timeView = getViewMode() === "time";
+      const sortMode = timeView ? "schedule" : getSortMode();  // "schedule" = internal time ordering
       const visibleCards = cards.filter((card) => {
-        const haystack = getFieldValue(card).toLowerCase();
+        const haystack = getFieldValue(card);
         const cardType = card.dataset.type || "";
         const typeMatch =
           typeFilter === "all" ||
@@ -642,7 +930,11 @@ const typeOptions = Object.keys(typeCounts)
             ? card.dataset.tvcg === "true"
             : typeFilter === "awards"
               ? card.dataset.awards === "true"
-              : cardType === typeFilter);
+              : typeFilter === "workshop-awards"
+                ? card.dataset.workshopAwards === "true"
+              : typeFilter === "accessible"
+                ? card.dataset.accessible === "true"
+                : cardType === typeFilter);
         const sessionMatch =
           requestedSessionKey.length === 0 ||
           card.dataset.sessionKey === requestedSessionKey;
@@ -651,11 +943,11 @@ const typeOptions = Object.keys(typeCounts)
           card.dataset.eventKey === requestedEventKey;
         if (typeFilter === "all" && card.hasAttribute("data-session-role")) {
           return (
-            matchesSessionRolePerson(card, query) && sessionMatch && eventMatch
+            matchesSessionRolePerson(card, terms) && sessionMatch && eventMatch
           );
         }
         return (
-          (query.length === 0 || haystack.includes(query)) &&
+          (terms.length === 0 || terms.some((term) => haystack.includes(term))) &&
           typeMatch &&
           sessionMatch &&
           eventMatch
@@ -667,7 +959,7 @@ const typeOptions = Object.keys(typeCounts)
         const roleDelta =
           Number(b.hasAttribute("data-session-role")) -
           Number(a.hasAttribute("data-session-role"));
-        if (roleDelta !== 0) return roleDelta;
+        if (!timeView && roleDelta !== 0) return roleDelta;
 
         // On the awards view, list best awards, then honorable mentions,
         // then everything else (e.g. the awards session itself).
@@ -718,13 +1010,60 @@ const typeOptions = Object.keys(typeCounts)
       });
 
       if (grid) {
+        grid
+          .querySelectorAll(".papers-day-header, .papers-time-header")
+          .forEach((el) => el.remove());
+        grid.classList.toggle("is-grouped-by-time", timeView);
+        let currentDay: string | null = null;
+        let currentStart: string | null = null;
         for (const card of visibleCards) {
+          if (timeView) {
+            const day = card.dataset.day || "";
+            if (day !== currentDay) {
+              currentDay = day;
+              const header = document.createElement("header");
+              header.className = "sessions-day-header papers-day-header";
+              const heading = document.createElement("h2");
+              heading.textContent = day
+                ? card.dataset.dayWeekday || day
+                : "Time TBA";
+              header.append(heading);
+              if (day) {
+                const note = document.createElement("p");
+                note.textContent = card.dataset.dayDate || "";
+                header.append(note);
+              }
+              grid.appendChild(header);
+              currentStart = null;
+            }
+            const start = card.dataset.start || "";
+            if (day && start && start !== currentStart) {
+              currentStart = start;
+              const heading = document.createElement("h3");
+              heading.className = "sessions-time-heading papers-time-header";
+              const time = document.createElement("span");
+              time.className = "js-time-heading";
+              time.dataset.start = start;
+              renderTimeParts(
+                time,
+                startTimePartsForMode(
+                  start,
+                  getSavedTimezoneMode(),
+                  "US/Eastern",
+                ),
+              );
+              heading.append(time);
+              grid.appendChild(heading);
+            }
+          }
           grid.appendChild(card);
         }
       }
 
+      const visibleSet = new Set(visibleCards);
       for (const card of cards) {
-        card.hidden = !visibleCards.includes(card);
+        card.hidden = !visibleSet.has(card);
+        if (visibleSet.has(card)) renderMatchReasons(card, terms);
       }
 
       if (emptyState) {
@@ -732,6 +1071,7 @@ const typeOptions = Object.keys(typeCounts)
       }
 
       refreshBookmarkState();
+      updateScrollButton();
       syncUrlParams(options);
     };
 
@@ -741,32 +1081,34 @@ const typeOptions = Object.keys(typeCounts)
       applyFilters();
     });
 
-    const toggleBookmark = (paperId: string) => {
-      if (bookmarks.has(paperId)) {
-        bookmarks.delete(paperId);
-      } else {
-        bookmarks.add(paperId);
-      }
-      storeBookmarks(Array.from(bookmarks));
+    const toggleBookmark = (card: HTMLElement, paperId: string) => {
+      storeFor(card).toggle(paperId);
       refreshBookmarkState();
     };
 
     for (const card of cards) {
-      const paperId = card.getAttribute("data-paper-id");
+      const paperId =
+        card.getAttribute("data-paper-id") ||
+        card.getAttribute("data-session-id");
       const toggle = card.querySelector<HTMLButtonElement>(
         "[data-bookmark-toggle]",
       );
 
       if (toggle && paperId) {
-        toggle.addEventListener("click", () => toggleBookmark(paperId));
+        toggle.addEventListener("click", () => toggleBookmark(card, paperId));
       }
     }
 
     if (searchInput instanceof HTMLInputElement) {
+      let searchTimer: number | undefined;
       searchInput.addEventListener("input", () => {
         requestedSessionKey = "";
         requestedEventKey = "";
-        applyFilters({ burst: "search" });
+        window.clearTimeout(searchTimer);
+        searchTimer = window.setTimeout(
+          () => applyFilters({ burst: "search" }),
+          150,
+        );
       });
     }
 
@@ -844,7 +1186,70 @@ const typeOptions = Object.keys(typeCounts)
     }
 
     refreshTypeFilterState();
+    // The Auth0 copy of the bookmarks arrives after load.
+    sessionBookmarks.onSync(refreshBookmarkState);
+    bookmarks.onSync(() => {
+      refreshBookmarkState();
+      applyFilters({ replace: true });
+    });
     refreshBookmarkState();
+    refreshLiveCards();
+    window.setInterval(refreshLiveCards, 30000);
     applyFilters({ replace: true });
   })();
+</script>
+
+<script>
+  import {
+    TIMEZONE_MODE_EVENT,
+    getSavedTimezoneMode,
+    instantPartsForMode,
+    isTimezoneMode,
+    renderTimeParts,
+    saveTimezoneMode,
+    type TimezoneMode,
+  } from "../utils/timezoneMode";
+
+  const control = document.querySelector<HTMLElement>("#timezone-mode");
+  const buttons = Array.from(
+    control?.querySelectorAll<HTMLButtonElement>("[data-choice-value]") ?? [],
+  );
+  const select = control?.querySelector<HTMLSelectElement>(
+    "[data-choice-select]",
+  );
+
+  const render = (mode: TimezoneMode) => {
+    for (const button of buttons) {
+      const active = button.dataset.choiceValue === mode;
+      button.classList.toggle("is-active", active);
+      button.setAttribute("aria-pressed", String(active));
+    }
+    if (select) select.value = mode;
+    for (const node of document.querySelectorAll<HTMLElement>(
+      "[data-tz-instant]",
+    )) {
+      renderTimeParts(
+        node,
+        instantPartsForMode(
+          node.dataset.tzInstant!,
+          mode,
+          node.dataset.tzConference || "US/Eastern",
+        ),
+      );
+    }
+  };
+
+  for (const button of buttons) {
+    button.addEventListener("click", () => {
+      const value = button.dataset.choiceValue;
+      if (isTimezoneMode(value)) saveTimezoneMode(value);
+    });
+  }
+  select?.addEventListener("change", () => {
+    if (isTimezoneMode(select.value)) saveTimezoneMode(select.value);
+  });
+  window.addEventListener(TIMEZONE_MODE_EVENT, (event) =>
+    render((event as CustomEvent<TimezoneMode>).detail),
+  );
+  render(getSavedTimezoneMode());
 </script>

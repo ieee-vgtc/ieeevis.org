@@ -2,16 +2,24 @@
 import ProgramPeopleList from "../../../components/ProgramPeopleList.astro";
 import PageLayout from "../../../layouts/PageLayout.astro";
 import AwardBadge from "../../../components/AwardBadge.astro";
+import TimeRange from "../../../components/TimeRange.astro";
 import BlueskyDiscussion from "../../../components/BlueskyDiscussion";
 import { fetchAllPapers, fetchAllSessions } from "../../../utils/paperData";
-import { hasOwnDiscussion } from "../../../utils/discussionSlots";
+import {
+  hasOwnDiscussion,
+  sessionDiscussionId,
+} from "../../../utils/discussionSlots";
 import type { Paper } from "../../../types/paper";
 import type {
+  ProgramPerson,
   ProgramSession,
   ProgramSessionList,
+  ProgramTimeSlot,
 } from "../../../types/program";
+import { displayRoomName } from "../../../utils/week-of-utils";
 import { getProgramEventTypeLabel } from "../../../utils/programEventTypeLabel";
 import { withBaseURL } from "../../../utils/withBaseURL";
+import { venueRoomHref, venueSpaceOf } from "../../../utils/venueLink";
 
 // The site runs output: "server" (needed for the Auth0 callback route), which
 // makes every page dynamic by default and silently ignores getStaticPaths()
@@ -26,6 +34,9 @@ type EventPageProps = {
 };
 
 export async function getStaticPaths() {
+  // Events whose papers are not scheduled one-per-slot; the session page lists
+  // every paper under the event's prefix instead.
+  const eventPaperTypes = ["workshop", "challenge", "associated"];
   const [sessionList, papers] = await Promise.all([
     fetchAllSessions(),
     fetchAllPapers(),
@@ -43,12 +54,13 @@ export async function getStaticPaths() {
     [];
 
   for (const event of Object.values(sessionList)) {
-    const eventPapers =
-      event.event_type === "workshop"
-        ? (papersByEventPrefix.get(event.event_prefix) || [])
-            .slice()
-            .sort((a, b) => a.title.localeCompare(b.title))
-        : [];
+    const eventPapers = eventPaperTypes.includes(
+      (event.event_type || "").toLowerCase(),
+    )
+      ? (papersByEventPrefix.get(event.event_prefix) || [])
+          .slice()
+          .sort((a, b) => a.title.localeCompare(b.title))
+      : [];
 
     for (const session of event.sessions) {
       const prefixedId = `${session.event_prefix}-${session.session_id}`;
@@ -81,54 +93,60 @@ export async function getStaticPaths() {
 }
 
 const { event, session, eventPapers } = Astro.props as EventPageProps;
+// Matches the id used by the sessions list (eventSlug) so bookmarks agree.
+const bookmarkId = `${session.event_prefix}-${session.session_id}`;
+const eventPaperTypes = ["workshop", "challenge", "associated"];
 
-const presentations = [...session.time_slots].sort(
-  (a, b) => Date.parse(a.time_start) - Date.parse(b.time_start),
+// Placeholder slots (no paper, no authors) just repeat the event title; drop
+// them when the event's papers are listed instead.
+const presentations = [...session.time_slots]
+  .filter((slot) => eventPapers.length === 0 || slot.uid || slot.url)
+  .sort((a, b) => Date.parse(a.time_start) - Date.parse(b.time_start));
+
+// Local test data only has presenter names.
+const presentersOf = (slot: ProgramTimeSlot): ProgramPerson[] =>
+  slot.presenters ?? slot.contributors?.map((name) => ({ name })) ?? [];
+
+const sessionPageId =`${session.event_prefix}-${session.session_id}`;
+const venueHref = venueRoomHref(
+  session.track,
+  session.time_start,
+  session.title,
 );
-
-const sessionDateFormatter = new Intl.DateTimeFormat("en-US", {
-  timeZone: "US/Eastern",
-  weekday: "long",
-  month: "short",
-  day: "numeric",
-});
-
-const timeFormatter = new Intl.DateTimeFormat("en-US", {
-  timeZone: "US/Eastern",
-  hour: "2-digit",
-  minute: "2-digit",
-  hour12: false,
-});
-
-function formatSlotRange(startISO: string, endISO: string) {
-  const start = new Date(startISO);
-  const end = new Date(endISO);
-  return `${timeFormatter.format(start)} - ${timeFormatter.format(end)}`;
-}
-
-function formatSessionDateTime(startISO: string, endISO: string) {
-  const start = new Date(startISO);
-  const end = new Date(endISO);
-  return `${sessionDateFormatter.format(start)} @ ${timeFormatter.format(start)} - ${timeFormatter.format(end)} (US/Eastern)`;
-}
+const venueSpace = venueSpaceOf(session.track, session.title);
+const roomLabel =
+  venueSpace && venueSpace.roomId !== session.track
+    ? venueSpace.name
+  : displayRoomName(session.room_name || "TBA");
+const discussionId =
+  sessionDiscussionId(event.event_type || "", sessionPageId) ??
+  presentations.find(hasOwnDiscussion)?.slot_id;
 
 const eventTypeLabel = getProgramEventTypeLabel(event.event_type || "other");
 const programUrl = withBaseURL(
   `/program/sessions/?type=${encodeURIComponent(event.event_type || "other")}`,
 );
 
-// Workshops, tutorials, and panels are described as a whole rather than by
-// their presentations. Panels share one event, so their details live on the
-// session; workshops and tutorials are one event each.
-const describedEventTypes = ["workshop", "tutorial", "panel"];
+// Workshops, tutorials, panels, and the one-off event types (challenges,
+// associated events, meetups) are described as a whole rather than by their
+// presentations. Panels share one event, so their details live on the session;
+// the rest are one event each.
+const describedEventTypes = [
+  "workshop",
+  "tutorial",
+  "panel",
+  "challenge",
+  "associated",
+  "meetup",
+];
 const normalizedEventType = (event.event_type || "").toLowerCase();
 const isDescribedEvent = describedEventTypes.includes(normalizedEventType);
 const isPanel = normalizedEventType === "panel";
 const workshopPapers =
-  normalizedEventType === "workshop" && presentations.length === 0
+  eventPaperTypes.includes(normalizedEventType) && presentations.length === 0
     ? eventPapers
     : [];
-const usesOrganizerLabel = isPanel || normalizedEventType === "tutorial";
+const usesOrganizerLabel =isPanel || normalizedEventType === "tutorial";
 // A session's own details (panels, invited talks) apply to any event type.
 const description =
   session.description || (isDescribedEvent ? event.event_description : "");
@@ -143,6 +161,8 @@ const frontmatter = {
   contact: "web@ieeevis.org",
   full_width: true,
 };
+
+const DISCUSSION_SECTION_ID = "discussion";
 ---
 
 <PageLayout frontmatter={frontmatter}>
@@ -163,7 +183,19 @@ const frontmatter = {
     </nav>
 
     <header class="paper-hero not-prose">
-      <h1>{session.title}</h1>
+      <h1 class="session-title">
+        {session.title}
+        <button
+          id="sessionBookmarkBtn"
+          type="button"
+          class="session-bookmark-btn"
+          data-session-id={bookmarkId}
+          aria-label="Add bookmark"
+          title="Add bookmark"
+        >
+          <i class="material-icons" id="sessionBookmarkIcon">bookmark_border</i>
+        </button>
+      </h1>
       <br />
       <p class="program-event-meta">
         <strong class="mr-2">Session chair:</strong>
@@ -177,26 +209,42 @@ const frontmatter = {
       </p>
       <p class="program-event-meta">
         <strong class="mr-2">Room:</strong>
-        {session.room_name || "TBA"}
+        {
+          venueHref ? <a href={venueHref}>{roomLabel}</a> : roomLabel
+        }
       </p>
+      {
+        (session.other_location || session.other_location_url) && (
+          <p class="program-event-meta">
+            <strong class="mr-2">Location:</strong>
+            {session.other_location_url ? (
+              <a href={session.other_location_url}>
+                {session.other_location || session.other_location_url}
+              </a>
+            ) : (
+              session.other_location
+            )}
+          </p>
+        )
+      }
       <p class="program-event-meta">
         <strong class="mr-2">Time:</strong>
-        {formatSessionDateTime(session.time_start, session.time_end)}
+        <TimeRange
+          start={session.time_start}
+          end={session.time_end}
+          withDate
+          suffix
+        />
       </p>
 
       {
         event.organizers.length > 0 && (
           <p class="program-event-organizers">
             <strong class="mr-2">Organizers:</strong>
-            {event.organizers.map((author, idx) => (
-              <a
-                class="mr-1"
-                href={`/year/2026/program/content/?filter=author&search=${author.replaceAll(" ", "+")}`}
-              >
-                {author}
-                {idx !== event.organizers.length - 1 ? "," : ""}
-              </a>
-            ))}
+            <ProgramPeopleList
+              people={event.organizers.map((name) => ({ name }))}
+              linkNames
+            />
           </p>
         )
       }
@@ -215,7 +263,24 @@ const frontmatter = {
           ))
       }
 
-      {description && <p class="program-event-description">{description}</p>}
+      {
+        description && (
+          <p class="program-event-description">
+            <strong>Description:</strong> <p>{description}</p>
+          </p>
+        )
+      }
+
+      {
+        discussionId && (
+          <a
+            class="button button-inverse paper-jump-button"
+            href={`#${DISCUSSION_SECTION_ID}`}
+          >
+            Jump to Discussion <span aria-hidden="true">↓</span>
+          </a>
+        )
+      }
     </header>
 
     <div>
@@ -223,9 +288,23 @@ const frontmatter = {
         presentations.length > 0 ? (
           <h2>Presentations in this session</h2>
         ) : workshopPapers.length > 0 ? (
-          <h2>Workshop papers</h2>
+          <h2>Papers</h2>
         ) : (
           !description && <h2>Presentations in this session</h2>
+        )
+      }
+      {
+        presentations.length > 0 && (
+          <div class="live-row">
+            <button
+              type="button"
+              class="scroll-to-live"
+              data-scroll-to-live
+              hidden
+            >
+              Scroll to happening now
+            </button>
+          </div>
         )
       }
     </div>
@@ -243,15 +322,29 @@ const frontmatter = {
       }
       {
         presentations.map((slot) => (
-          <section class="paper-section">
+          <section
+            class="paper-section"
+            data-live-card
+            data-start={slot.time_start}
+            data-end={slot.time_end}
+          >
             <p class="program-presentation-time">
-              {formatSlotRange(slot.time_start, slot.time_end)}
+              <TimeRange start={slot.time_start} end={slot.time_end} />
             </p>
             {slot.uid ? (
               <h3>
                 <a href={withBaseURL(`/program/content/${slot.uid}`)}>
                   {slot.title}
                 </a>
+                <button
+              type="button"
+              class="paper-bookmark-btn"
+              data-paper-bookmark={slot.uid}
+              aria-label="Add bookmark"
+              title="Add bookmark"
+            >
+              <i class="material-icons">bookmark_border</i>
+            </button>
               </h3>
             ) : slot.url ? (
               <h3>
@@ -276,31 +369,18 @@ const frontmatter = {
                 <ProgramPeopleList people={slot.authors} linkNames />
               </p>
             )}
-            {isDescribedEvent &&
-              slot.contributors &&
-              slot.contributors.length > 0 && (
-                <p class="program-presentation-contrib">
-                  {isPanel && <strong class="mr-2">Panelists:</strong>}
-                  {slot.contributors.map((author, idx) => (
-                    <a
-                      class="mr-1"
-                      href={`/year/2026/program/content/?filter=author&search=${author.replaceAll(" ", "+")}`}
-                    >
-                      {author}
-                      {slot.contributors && idx !== slot.contributors.length - 1
-                        ? ","
-                        : ""}
-                    </a>
-                  ))}
-                </p>
-              )}
-            {/* Panels and invited talks have no paper page, so their Bluesky
-              discussion — the thread of replies to the announcement post,
-              proxied through bsky.tech.ieeevis.org — belongs here. */}
-            {hasOwnDiscussion(slot) && (
-              <div class="program-presentation-discussion not-prose">
-                <BlueskyDiscussion client:visible paperId={slot.slot_id} />
-              </div>
+            {(isDescribedEvent || !slot.authors?.length) &&
+              presentersOf(slot).length > 0 && (
+              <p class="program-presentation-contrib">
+                {isPanel && <strong class="mr-2">Panelists:</strong>}
+                <ProgramPeopleList people={presentersOf(slot)} linkNames />
+              </p>
+            )}
+            {slot.abstract && (
+              <details class="program-presentation-abstract">
+                <summary>Abstract</summary>
+                <p>{slot.abstract}</p>
+              </details>
             )}
           </section>
         ))
@@ -312,16 +392,49 @@ const frontmatter = {
               <a href={withBaseURL(`/program/content/${paper.id}`)}>
                 {paper.title}
               </a>
+              <button
+              type="button"
+              class="paper-bookmark-btn"
+              data-paper-bookmark={paper.id}
+              aria-label="Add bookmark"
+              title="Add bookmark"
+            >
+              <i class="material-icons">bookmark_border</i>
+            </button>
             </h3>
+            {paper.award && (
+              <p class="program-presentation-award">
+                <AwardBadge award={paper.award} compact />
+              </p>
+            )}
             {paper.authors && paper.authors.length > 0 && (
               <p class="program-presentation-authors">
                 Authors: <ProgramPeopleList people={paper.authors} linkNames />
               </p>
             )}
+            {paper.abstract && (
+              <details class="program-presentation-abstract">
+                <summary>Abstract</summary>
+                <p>{paper.abstract}</p>
+              </details>
+            )}
           </section>
         ))
       }
     </div>
+
+    {
+      discussionId && (
+        <div id={DISCUSSION_SECTION_ID} class="paper-section paper-discussion">
+          <BlueskyDiscussion
+            showPost={false}
+            paperId={discussionId}
+            sessionStart={session.time_start}
+            client:load
+          />
+        </div>
+      )
+    }
   </div>
 
   <style>
@@ -401,15 +514,69 @@ const frontmatter = {
       font-size: 0.9rem;
     }
 
+    .program-presentation-abstract {
+      margin-top: 0.5rem;
+      font-size: 0.9rem;
+      color: var(--color-gray-800);
+    }
+
+    .program-presentation-abstract summary {
+      cursor: pointer;
+      font-weight: 700;
+      color: var(--color-accent);
+    }
+
+    .program-presentation-abstract p {
+      margin: 0.4rem 0 0;
+    }
+
+    .live-row {
+      max-width: 62rem;
+      margin: 0 auto 1rem;
+    }
+
+    .live-row:has(> [hidden]:only-child) {
+      display: none;
+    }
+
+    .paper-section.is-live {
+      border-color: #dc2626;
+      box-shadow: 0 0 0 1px #dc2626;
+    }
+
+    .paper-section.is-live .program-presentation-time::after {
+      content: "LIVE";
+      margin-left: 0.4rem;
+      padding: 0.05rem 0.35rem;
+      border-radius: 3px;
+      background: #dc2626;
+      color: #fff;
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      vertical-align: middle;
+    }
+
     .program-presentation-award {
       margin: 0.15rem 0;
     }
 
-    .program-presentation-discussion {
-      margin-top: 0.6rem;
+    /* STYLING COPIED FROM PAPERS PAGE */
+    .paper-jump-button {
+      margin-top: 1.25rem;
+      text-decoration: none;
     }
 
-    /* STYLING COPIED FROM PAPERS PAGE */
+    .paper-discussion {
+      margin-top: 1.5rem;
+    }
+
+    .paper-discussion :global(h2) {
+      color: var(--color-primary-800);
+      font-size: 1.15rem;
+      letter-spacing: 0.02em;
+    }
+
     .paper-hero {
       max-width: 62rem;
       margin: 0 auto 2.5rem;
@@ -486,3 +653,120 @@ const frontmatter = {
     }
   </style>
 </PageLayout>
+
+<script>
+  import { createBookmarkStore } from "../../../lib/bookmarks";
+  import {
+    currentTimeMs,
+    markLiveCards,
+    setupScrollToLive,
+  } from "../../../utils/liveNow";
+
+  // Highlight the talk happening now and offer a button to jump to it.
+  const liveCards = Array.from(
+    document.querySelectorAll<HTMLElement>("[data-live-card]"),
+  );
+  const updateScrollButton = setupScrollToLive(
+    document.querySelector<HTMLElement>("[data-scroll-to-live]"),
+    document,
+    "[data-live-card]",
+  );
+  const refreshLive = () => {
+    markLiveCards(liveCards, currentTimeMs());
+    updateScrollButton();
+  };
+  refreshLive();
+  if (liveCards.length > 0) window.setInterval(refreshLive, 30000);
+
+  const btn = document.getElementById("sessionBookmarkBtn");
+  const icon = document.getElementById("sessionBookmarkIcon");
+  const sessionId = btn?.dataset.sessionId;
+  const bookmarks = createBookmarkStore("program-sessions-bookmarks");
+
+  const update = () => {
+    if (!btn || !sessionId) return;
+    const on = bookmarks.has(sessionId);
+    const label = on ? "Remove bookmark" : "Add bookmark";
+    btn.setAttribute("aria-label", label);
+    btn.setAttribute("title", label);
+    btn.classList.toggle("is-bookmarked", on);
+    if (icon) icon.textContent = on ? "bookmark" : "bookmark_border";
+  };
+
+  btn?.addEventListener("click", () => {
+    if (!sessionId) return;
+    bookmarks.toggle(sessionId);
+    update();
+  });
+  bookmarks.onSync(update);
+  update();
+
+  // Per-paper bookmarks share the papers list's store.
+  const paperBookmarks = createBookmarkStore("program-papers-bookmarks");
+  const paperButtons = document.querySelectorAll<HTMLButtonElement>(
+    "[data-paper-bookmark]",
+  );
+  const updatePapers = () => {
+    for (const button of paperButtons) {
+      const on = paperBookmarks.has(button.dataset.paperBookmark || "");
+      const label = on ? "Remove bookmark" : "Add bookmark";
+      button.setAttribute("aria-label", label);
+      button.setAttribute("title", label);
+      button.classList.toggle("is-bookmarked", on);
+      const paperIcon = button.querySelector(".material-icons");
+      if (paperIcon) paperIcon.textContent = on ? "bookmark" : "bookmark_border";
+    }
+  };
+  for (const button of paperButtons) {
+    button.addEventListener("click", () => {
+      paperBookmarks.toggle(button.dataset.paperBookmark || "");
+      updatePapers();
+    });
+  }
+  paperBookmarks.onSync(updatePapers);
+  updatePapers();
+</script>
+
+<style>
+  .session-bookmark-btn {
+    display: inline-flex;
+    vertical-align: middle;
+    margin-left: 0.5rem;
+    background: none;
+    border: 1px solid #d8cec1;
+    border-radius: 999px;
+    cursor: pointer;
+    padding: 0.35rem;
+    color: #adb5bd;
+    line-height: 0;
+  }
+  .session-bookmark-btn:hover,
+  .session-bookmark-btn.is-bookmarked {
+    color: var(--color-accent);
+    border-color: var(--color-accent);
+  }
+  .session-bookmark-btn .material-icons {
+    font-size: 1.25rem;
+  }
+</style>
+
+<style>
+  .paper-bookmark-btn {
+    display: inline-flex;
+    vertical-align: middle;
+    margin-left: 0.4rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.1rem;
+    color: #adb5bd;
+    line-height: 0;
+  }
+  .paper-bookmark-btn:hover,
+  .paper-bookmark-btn.is-bookmarked {
+    color: var(--color-accent);
+  }
+  .paper-bookmark-btn .material-icons {
+    font-size: 1.3rem;
+  }
+</style>

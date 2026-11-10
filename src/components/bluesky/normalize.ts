@@ -14,6 +14,7 @@ import { shouldHide, threadgateHiddenReplies } from "./moderation";
 import type {
   EmbedImage,
   PostEmbed,
+  PostLink,
   RootPost,
   ShapedAuthor,
   ShapedPost,
@@ -30,6 +31,13 @@ interface AppViewAuthor {
   labels?: Label[];
 }
 
+interface AppViewQuotedRecord {
+  uri?: string;
+  author?: AppViewAuthor;
+  value?: { text?: string };
+  embeds?: AppViewEmbed[];
+}
+
 interface AppViewEmbed {
   $type?: string;
   images?: Array<{ thumb?: string; fullsize?: string; alt?: string }>;
@@ -39,11 +47,7 @@ interface AppViewEmbed {
     description?: string;
     thumb?: string;
   };
-  record?: {
-    uri?: string;
-    author?: AppViewAuthor;
-    value?: { text?: string };
-  };
+  record?: AppViewQuotedRecord & { record?: AppViewQuotedRecord };
   media?: AppViewEmbed;
 }
 
@@ -52,7 +56,7 @@ interface AppViewPost {
   cid?: string;
   indexedAt?: string;
   author?: AppViewAuthor;
-  record?: { text?: string; createdAt?: string };
+  record?: { text?: string; createdAt?: string; facets?: unknown };
   embed?: AppViewEmbed;
   likeCount?: number;
   repostCount?: number;
@@ -93,32 +97,82 @@ function normalizeImages(embed?: AppViewEmbed): EmbedImage[] {
 }
 
 function normalizeEmbed(embed?: AppViewEmbed): PostEmbed | null {
-  if (embed?.$type === "app.bsky.embed.external#view" && embed.external?.uri) {
+  const external =
+    embed?.$type === "app.bsky.embed.external#view"
+      ? embed.external
+      : embed?.$type === "app.bsky.embed.recordWithMedia#view" &&
+          embed.media?.$type === "app.bsky.embed.external#view"
+        ? embed.media.external
+        : undefined;
+
+  if (external?.uri) {
     return {
       kind: "external",
-      uri: embed.external.uri,
-      title: embed.external.title || embed.external.uri,
-      description: embed.external.description || "",
-      thumb: embed.external.thumb || null,
+      uri: external.uri,
+      title: external.title || external.uri,
+      description: external.description || "",
+      thumb: external.thumb || null,
     };
   }
 
+  return normalizeQuote(embed);
+}
+
+/** The quoted post, if any, whether or not the quote also carries media. */
+export function normalizeQuote(embed?: AppViewEmbed): PostEmbed | null {
+  // A quote with media nests the quoted record one level deeper.
   const quote =
-    embed?.$type === "app.bsky.embed.record#view" ||
-    embed?.$type === "app.bsky.embed.recordWithMedia#view"
+    embed?.$type === "app.bsky.embed.record#view"
       ? embed.record
-      : undefined;
+      : embed?.$type === "app.bsky.embed.recordWithMedia#view"
+        ? embed.record?.record
+        : undefined;
 
   if (quote?.uri) {
     return {
       kind: "record",
       uri: quote.uri,
       author: quote.author?.handle || quote.author?.did || "unknown",
+      authorName: quote.author?.displayName || null,
+      authorAvatar: quote.author?.avatar || null,
       text: quote.value?.text || "",
+      images: (quote.embeds || []).flatMap((e) => normalizeImages(e)),
     };
   }
 
   return null;
+}
+
+/** A facet URI is author-written: a `javascript:` one must never become an href. */
+function isWebLink(link: unknown): link is PostLink {
+  const { byteStart, byteEnd, uri } = (link ?? {}) as Partial<PostLink>;
+  return (
+    Number.isInteger(byteStart) &&
+    Number.isInteger(byteEnd) &&
+    (byteStart as number) < (byteEnd as number) &&
+    typeof uri === "string" &&
+    /^https?:\/\//i.test(uri)
+  );
+}
+
+interface AppViewFacet {
+  index?: { byteStart?: number; byteEnd?: number };
+  features?: Array<{ $type?: string; uri?: string }>;
+}
+
+function linksFromFacets(facets: unknown): PostLink[] {
+  if (!Array.isArray(facets)) {
+    return [];
+  }
+  return (facets as AppViewFacet[])
+    .map((facet) => ({
+      byteStart: facet?.index?.byteStart,
+      byteEnd: facet?.index?.byteEnd,
+      uri: facet?.features?.find(
+        (feature) => feature?.$type === "app.bsky.richtext.facet#link",
+      )?.uri,
+    }))
+    .filter(isWebLink);
 }
 
 function normalizeNode(
@@ -135,6 +189,7 @@ function normalizeNode(
     cid: post.cid,
     author: normalizeAuthor(post.author),
     text: post.record?.text || "",
+    links: linksFromFacets(post.record?.facets),
     guest: false,
     pseudonym: null,
     likeCount: post.likeCount || 0,
@@ -145,6 +200,7 @@ function normalizeNode(
     createdAt: post.record?.createdAt || post.indexedAt || null,
     embedImages: normalizeImages(post.embed),
     embed: normalizeEmbed(post.embed),
+    quote: normalizeQuote(post.embed),
     replies: normalizeNodes(node.replies, hiddenUris),
   };
 }
@@ -194,6 +250,7 @@ function withDefaults(post: ShapedPost): ShapedPost {
     ...post,
     author: post.author || { displayName: null, avatar: null },
     text: post.text || "",
+    links: Array.isArray(post.links) ? post.links.filter(isWebLink) : [],
     guest: Boolean(post.guest),
     pseudonym: post.pseudonym ?? null,
     likeCount: post.likeCount || 0,
@@ -202,6 +259,7 @@ function withDefaults(post: ShapedPost): ShapedPost {
     createdAt: post.createdAt ?? null,
     embedImages: Array.isArray(post.embedImages) ? post.embedImages : [],
     embed: post.embed ?? null,
+    quote: post.quote ?? null,
     replies: Array.isArray(post.replies) ? post.replies.map(withDefaults) : [],
   };
 }

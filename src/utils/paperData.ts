@@ -44,6 +44,9 @@ interface RawSession {
   session_youtube_url: NullableString;
   discord_url: NullableString;
   virtual: boolean;
+  event_description?: NullableString;
+  other_location?: NullableString;
+  other_location_url?: NullableString;
 }
 
 /** Row of the `rooms` table. */
@@ -100,7 +103,59 @@ export async function fetchAll<T>(type: SourceKey): Promise<T[]> {
   return Array.isArray(data) ? (data as T[]) : [];
 }
 
+// The program database files VISAP under "associated" and Cluster under
+// "conf", but each has its own event type (label, color, filter) in the
+// program views.
+function breakOutEventTypes(list: ProgramSessionList): ProgramSessionList {
+  if (list["a-visap"]) {
+    list["a-visap"].event_type = "visap";
+  }
+  // Cluster (the Practitioner's Summit) is filed as a conference session.
+  const conf = list["conf"];
+  if (conf) {
+    const isCluster = (title: string) => /^cluster\b/i.test(title);
+    const clusterSessions = conf.sessions.filter((s) => isCluster(s.title));
+    if (clusterSessions.length > 0) {
+      conf.sessions = conf.sessions.filter((s) => !isCluster(s.title));
+      list["conf-cluster"] = {
+        ...conf,
+        event_type: "cluster",
+        sessions: clusterSessions,
+      };
+    }
+  }
+  // The remaining conference sessions split into plenary (most of the
+  // conference), governance (business meetings, next year's kickoff), and
+  // invite-only (the Doctoral Colloquium).
+  const dc = list["c-doctorial-colloquium"];
+  if (dc) {
+    dc.event_type = "invite-only";
+  }
+  const plenary = list["conf"];
+  if (plenary) {
+    const isGovernance = (title: string) =>
+      /kick-?off|town ?hall|business meeting|governance/i.test(title);
+    const governanceSessions = plenary.sessions.filter((s) =>
+      isGovernance(s.title),
+    );
+    plenary.event_type = "plenary";
+    if (governanceSessions.length > 0) {
+      plenary.sessions = plenary.sessions.filter((s) => !isGovernance(s.title));
+      list["conf-governance"] = {
+        ...plenary,
+        event_type: "governance",
+        sessions: governanceSessions,
+      };
+    }
+  }
+  return list;
+}
+
 export async function fetchAllSessions(): Promise<ProgramSessionList> {
+  return breakOutEventTypes(await loadAllSessions());
+}
+
+async function loadAllSessions(): Promise<ProgramSessionList> {
   const sessions = await readSource("session");
   // The localTest sources are a snapshot of an already-merged program, keyed by
   // event prefix; the prod sources are the raw `sessions2` rows and need joining.
@@ -197,6 +252,23 @@ function buildSessionList({
     events.map((event) => [event.event_prefix, event.slot_type_default]),
   );
 
+  // For multi-part events, only some sessions may carry a description. When
+  // exactly one distinct description exists across the event's sessions, the
+  // others inherit it.
+  const descriptionsByPrefix = new Map<string, Set<string>>();
+  sessions.forEach((session) => {
+    const description = session.event_description?.trim();
+    if (!description) return;
+    const set = descriptionsByPrefix.get(session.event_prefix) ?? new Set();
+    set.add(session.event_description!);
+    descriptionsByPrefix.set(session.event_prefix, set);
+  });
+  const sharedDescription = (session: RawSession): string | null => {
+    if (session.event_description) return session.event_description;
+    const set = descriptionsByPrefix.get(session.event_prefix);
+    return set?.size === 1 ? [...set][0] : null;
+  };
+
   sessions.forEach((session) => {
     const event = eventForPrefix(session.event_prefix);
     const timeblock = timeblocksById.get(session.timeblock_id);
@@ -225,6 +297,9 @@ function buildSessionList({
       time_end: timeblock?.end || "",
       discord_link: session.discord_url,
       youtube_url: session.session_youtube_url,
+      description: sharedDescription(session),
+      other_location: session.other_location || null,
+      other_location_url: session.other_location_url || null,
       time_slots: buildTimeSlots({
         session,
         slots: slotsBySession[session.session_id] || [],
@@ -282,6 +357,7 @@ function buildTimeSlots({
         // The program shows who is presenting, not the full author list.
         contributors:
           slot.presenters?.map((presenter) => presenter.name) || null,
+        presenters: slot.presenters,
         paper_type: slot.paper_type || slotTypeDefault || "",
         presentation_mode: session.virtual ? "Virtual" : "Premise",
         time_stamp: start,

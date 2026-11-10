@@ -2,6 +2,8 @@ export type ProgramPaperCard = {
   id: string;
   title: string;
   authorNames: string[];
+  /** Distinct author affiliations, used for institution search. */
+  institutions?: string[];
   keywordsLabel: string;
   abstractText: string;
   /** Stable event category used for filtering and colors. */
@@ -17,11 +19,15 @@ export type ProgramPaperCard = {
   sessionLabel: string;
   scheduleLabel: string;
   startMs: number;
+  /** End of the slot or session; lets the page mark what is happening now. */
+  endMs?: number;
   doiUrl: string | null;
   preprintUrl: string | null;
   supplementalUrl: string | null;
   sessionUrl: string | null;
   award: string | null;
+  /** The paper has an accessible PDF. */
+  hasAccessiblePdf?: boolean;
   // Journal-first TVCG paper presented at the conference.
   isTvcg?: boolean;
   /** The awards plenary session, shown under the Awards filter. */
@@ -39,10 +45,13 @@ export type ProgramSessionRole = {
   roleLabel: string;
   people: string[];
   sessionTitle: string;
+  /** Id the sessions list bookmarks the session under. */
+  sessionId: string;
   sessionUrl: string;
   scheduleLabel: string;
   roomName: string;
   startMs: number;
+  endMs?: number;
 };
 
 export type ProgramPapersBrowserProps = {

@@ -159,6 +159,84 @@
   gap: 0.5rem;
 }
 
+.u-filter-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Without labeled groups, pills flow in one row alongside "All". */
+.u-filter-bar:not(.u-filter-bar--grouped) .u-filter-group {
+  display: contents;
+}
+
+.u-filter-bar--grouped {
+  gap: 0.5rem 1.5rem;
+}
+
+.u-filter-menu {
+  position: relative;
+}
+
+.u-filter-menu__toggle {
+  --hover-response-edge-color: var(--color-gray-700, #374151);
+
+  list-style: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  cursor: pointer;
+  overflow: hidden;
+  border: 1px solid var(--color-gray-700, #374151);
+  border-radius: 999px;
+  background: white;
+  padding: 0.3rem 0.4rem 0.3rem 0.75rem;
+  font-size: 0.85rem;
+}
+
+.u-filter-menu__toggle::-webkit-details-marker {
+  display: none;
+}
+
+.u-filter-menu__toggle .material-icons {
+  font-size: 1.2rem;
+}
+
+.u-filter-menu.has-active .u-filter-menu__toggle {
+  background: var(--color-gray-700, #374151);
+  color: white;
+}
+
+.u-filter-menu__panel {
+  position: absolute;
+  z-index: 20;
+  top: calc(100% + 0.35rem);
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.4rem;
+  min-width: max-content;
+  padding: 0.5rem;
+  border: 1px solid var(--color-gray-300, #d1d5db);
+  border-radius: 0.75rem;
+  background: white;
+  box-shadow: 0 6px 18px rgb(0 0 0 / 0.15);
+}
+
+.u-filter-menu__panel .u-filter-pill {
+  justify-content: flex-start;
+}
+
+.u-filter-group__label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-gray-600, #4b5563);
+}
+
 .u-filter-pill,
 .sessions-filter-pill,
 .calendar-filter-pill,
@@ -590,6 +668,11 @@
   text-overflow: ellipsis;
 }
 
+.cluster-overlay-room a {
+  color: inherit;
+  text-decoration: underline;
+}
+
 .cluster-overlay-meta {
   margin: 0;
   font-size: 0.63rem;
@@ -721,6 +804,10 @@
 .calendar-room-timeline .calendar-session-block[data-room-span] {
   width: calc(var(--room-span) * 100% - 0.7rem);
   z-index: 2;
+}
+
+.calendar-session-block:not([data-solo]) .session-block-inline {
+  display: none;
 }
 
 .session-block-inline {
@@ -1046,7 +1133,7 @@
 .program-card__bookmark {
   position: absolute;
   right: 0.375rem;
-  top: 0.375rem;
+  top: 0.85rem;
   border: 0;
   background: transparent;
   color: var(--color-accent);
@@ -1055,6 +1142,7 @@
 
 .program-card__title {
   margin: 0;
+  margin-top: 0.2rem;
 }
 
 .program-card__title-link {
@@ -1114,6 +1202,65 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.3rem;
+}
+
+.program-card__match {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px dashed var(--color-gray-300, #d1d5db);
+}
+
+.program-card__match[hidden] {
+  display: none;
+}
+
+.program-card__match-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.3rem;
+  margin: 0;
+  color: var(--color-gray-700);
+  font-size: 0.82rem;
+  line-height: 1.4;
+}
+
+.program-card__match-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  padding: 0.05rem 0.4rem;
+  border-radius: 999px;
+  background: var(--program-card-accent, var(--color-accent));
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.program-card__match-tag .material-icons {
+  font-size: 0.85rem;
+}
+
+.program-card__match-chip {
+  padding: 0 0.4rem;
+  border: 1px solid var(--color-gray-300, #d1d5db);
+  border-radius: 999px;
+}
+
+.program-card__match-excerpt {
+  font-style: italic;
+}
+
+.program-card__mark {
+  padding: 0 0.1rem;
+  border-radius: 0.15rem;
+  background: #fde68a;
+  color: inherit;
 }
 
 .program-card__people-label {
@@ -1215,6 +1362,7 @@
 
 /* Final card grid behavior for sessions and accepted content (papers/posters). */
 .sessions-day-content,
+.sessions-flat-list:not([hidden]),
 .papers-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -1222,6 +1370,7 @@
 }
 
 .sessions-day-content > .program-card,
+.sessions-flat-list > .program-card,
 .papers-grid > .program-card {
   width: auto;
   min-height: 0;
@@ -1229,6 +1378,7 @@
 
 @media (max-width: 1200px) {
   .sessions-day-content,
+  .sessions-flat-list,
   .papers-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1236,6 +1386,7 @@
 
 @media (max-width: 760px) {
   .sessions-day-content,
+  .sessions-flat-list,
   .papers-grid {
     grid-template-columns: 1fr;
   }
@@ -1576,4 +1727,158 @@
     grid-template-columns: 1fr;
     width: 100%;
   }
+}
+
+/* "Show by time" view: day headings span the whole card grid. */
+.papers-grid > .papers-day-header {
+  grid-column: 1 / -1;
+  margin-bottom: 0;
+}
+
+.papers-grid > .papers-day-header:not(:first-child) {
+  margin-top: 0.9rem;
+}
+/* Sessions happening right now: a small dot, kept quiet so busy slots stay readable */
+.calendar-session-block.is-live::after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #dc2626;
+  box-shadow: 0 0 0 1.5px #fff;
+  pointer-events: none;
+}
+
+.calendar-session.is-live {
+  box-shadow: inset 3px 0 0 #dc2626;
+  padding-left: 0.6rem;
+}
+
+/* Current-time indicator */
+.calendar-now-line {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(
+    (var(--now-minute) - var(--timeline-start-minute)) /
+      var(--timeline-minute-span) * var(--timeline-height)
+  );
+  border-top: 2px solid #dc2626;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.calendar-now-line::before {
+  content: "";
+  position: absolute;
+  left: -4px;
+  top: -5px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #dc2626;
+}
+
+.calendar-room-timeline
+  .calendar-day-column
+  ~ .calendar-day-column
+  .calendar-now-line::before {
+  display: none;
+}
+
+/* Jump to whatever is running now; sits below the controls */
+.scroll-to-live {
+  appearance: none;
+  justify-self: start;
+  border: 0;
+  border-radius: 999px;
+  padding: 0.5rem 1rem;
+  background: #dc2626;
+  color: #fff;
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.scroll-to-live[hidden] {
+  display: none;
+}
+
+.calendar-session.is-live .calendar-session-time::after {
+  content: "LIVE";
+  margin-left: 0.4rem;
+  padding: 0.05rem 0.35rem;
+  border-radius: 3px;
+  background: #dc2626;
+  color: #fff;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  vertical-align: middle;
+}
+
+.program-card.is-live .program-card__eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.program-card.is-live .program-card__eyebrow::before {
+  content: "LIVE";
+  padding: 0.1rem 0.4rem;
+  border-radius: 3px;
+  background: #dc2626;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  line-height: 1.3;
+}
+
+/* A session presenting a bookmarked paper */
+.program-card.has-bookmarked-paper {
+  background: color-mix(in srgb, var(--color-accent) 6%, white);
+}
+
+/* Sits just left of the bookmark button in the card's top-right corner. */
+.program-card.has-bookmarked-paper::before {
+  content: "Includes bookmark";
+  position: absolute;
+  top: 1rem;
+  right: 2.75rem;
+  z-index: 1;
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  background: var(--color-accent);
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: 0.02em;
+}
+
+/* Sessions grouped by start time */
+.sessions-time-group {
+  display: grid;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.sessions-time-heading {
+  margin: 0;
+  padding-bottom: 0.25rem;
+  border-bottom: 2px solid var(--color-gray-300);
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--color-accent);
+}
+
+/* "Show by time" view: start-time headings span the whole card grid. */
+.papers-grid > .papers-time-header {
+  grid-column: 1 / -1;
+  margin-top: 0.5rem;
 }

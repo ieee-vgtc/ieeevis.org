@@ -1,0 +1,17 @@
+---
+import type { TimePart } from "../utils/timezoneMode";
+
+type Props = { parts: TimePart[] };
+
+const { parts } = Astro.props as Props;
+---
+
+{
+  parts.map((part) =>
+    typeof part === "string" ? (
+      part
+    ) : (
+      <time datetime={part.datetime}>{part.text}</time>
+    ),
+  )
+}

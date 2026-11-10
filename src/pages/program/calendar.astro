@@ -1,10 +1,19 @@
 ---
 import PageLayout from "../../layouts/PageLayout.astro";
 import ProgramHeader from "../../components/ProgramHeader.astro";
-import { fetchAllSessions } from "../../utils/paperData";
+import { fetchAllPapers, fetchAllSessions } from "../../utils/paperData";
 import { withBaseURL } from "../../utils/withBaseURL";
-import { getProgramEventTypeLabel } from "../../utils/programEventTypeLabel";
-import { typeColors } from "../../utils/week-of-utils";
+import { venueRoomHref } from "../../utils/venueLink";
+import {
+  getProgramEventTypeLabel,
+  groupProgramTypeOptions,
+  programTypeDropdownGroups,
+} from "../../utils/programEventTypeLabel";
+import {
+  displayRoomName,
+  typeColors,
+  textColorFor,
+} from "../../utils/week-of-utils";
 
 // TODO make environment variable to easily set up for future years
 const CONFERENCE_TIME_ZONE = "US/Eastern";
@@ -24,6 +33,8 @@ type CalendarSession = {
   eventUrl: string;
   dayKey: string;
   room: string;
+  /** The program's room id, for linking to the venue map. */
+  track: string;
   chairs: string[];
   startISO: string;
   endISO: string;
@@ -31,6 +42,8 @@ type CalendarSession = {
   startMinute: number;
   endMinute: number;
   searchText: string;
+  /** Paper ids presented in the session, so it remains visible when bookmarked. */
+  paperIds: string[];
 };
 
 type PlacedCalendarSession = CalendarSession & {
@@ -43,18 +56,6 @@ type PlacedCalendarSession = CalendarSession & {
 type RoomCalendarSession = PlacedCalendarSession & {
   roomSpan: number;
 };
-
-/** Return white or near-black depending on the relative luminance of a hex color. */
-function contrastColor(hex: string): string {
-  const h = hex.replace("#", "");
-  const r = parseInt(h.slice(0, 2), 16) / 255;
-  const g = parseInt(h.slice(2, 4), 16) / 255;
-  const b = parseInt(h.slice(4, 6), 16) / 255;
-  const toLinear = (c: number) =>
-    c <= 0.04045 ? c / 12.92 : ((c + 0.055) / 1.055) ** 2.4;
-  const L = 0.2126 * toLinear(r) + 0.7152 * toLinear(g) + 0.0722 * toLinear(b);
-  return L > 0.179 ? "#0f172a" : "#ffffff";
-}
 
 function getDateParts(date: Date, timeZone: string) {
   const formatter = new Intl.DateTimeFormat("en-US", {
@@ -173,9 +174,7 @@ const combinedHalls2026: Record<string, string[]> = {
 
 /** The physical rooms of a room name, with each combined hall expanded. */
 const physicalRoomNames = (roomName: string) =>
-  splitRoomNames(roomName).flatMap(
-    (part) => combinedHalls2026[part] ?? [part],
-  );
+  splitRoomNames(roomName).flatMap((part) => combinedHalls2026[part] ?? [part]);
 
 const getSharedSessionKey = (session: CalendarSession) =>
   [
@@ -186,7 +185,23 @@ const getSharedSessionKey = (session: CalendarSession) =>
     session.endISO,
   ].join("|");
 
-const sessionList = await fetchAllSessions();
+const [sessionList, allPapers] = await Promise.all([
+  fetchAllSessions(),
+  fetchAllPapers(),
+]);
+
+// Workshops, challenges, and associated events aren't scheduled one paper per
+// slot; the session page lists every paper under the event's prefix instead.
+const eventPaperTypes = ["workshop", "challenge", "associated"];
+const paperIdsByEventPrefix = allPapers.reduce<Map<string, string[]>>(
+  (byPrefix, paper) => {
+    const ids = byPrefix.get(paper.event_prefix) || [];
+    ids.push(paper.id);
+    byPrefix.set(paper.event_prefix, ids);
+    return byPrefix;
+  },
+  new Map(),
+);
 
 const rawSessions: CalendarSession[] = Object.entries(sessionList)
   .flatMap(([eventId, eventDefinition]) =>
@@ -213,6 +228,7 @@ const rawSessions: CalendarSession[] = Object.entries(sessionList)
         eventUrl: eventDefinition.event_url,
         dayKey,
         room: session.room_name,
+        track: session.track,
         chairs: session.chair || [],
         startISO: session.time_start,
         endISO: session.time_end,
@@ -220,6 +236,9 @@ const rawSessions: CalendarSession[] = Object.entries(sessionList)
         startMinute: getConferenceMinutesOfDay(session.time_start),
         endMinute: getConferenceMinutesOfDay(session.time_end),
         searchText,
+        paperIds: eventPaperTypes.includes(eventType.toLowerCase())
+          ? paperIdsByEventPrefix.get(eventDefinition.event_prefix) || []
+          : (session.time_slots || []).map((slot) => slot.uid).filter(Boolean),
       };
     }),
   )
@@ -260,6 +279,9 @@ const sessions: CalendarSession[] = Array.from(sharedSessionGroups.values())
       ...session,
       room,
       chairs,
+      paperIds: Array.from(
+        new Set(matchingSessions.flatMap((candidate) => candidate.paperIds)),
+      ),
       searchText: [session.title, session.eventTitle, room, ...chairs]
         .join(" ")
         .toLowerCase(),
@@ -449,6 +471,13 @@ for (
   hourMarks.push({ minute, label: formatMinuteLabel(minute) });
 }
 
+// Hour lines before a day's first session are omitted (the line at the hour
+// containing the first session is kept).
+const dayStartMinute = (daySessions: { startMinute: number }[]) =>
+  daySessions?.length
+    ? Math.min(...daySessions.map((session) => session.startMinute))
+    : timelineStartMinute;
+
 const typeCounts = sessions.reduce<Record<string, number>>((acc, session) => {
   acc[session.eventType] = (acc[session.eventType] || 0) + 1;
   return acc;
@@ -462,12 +491,13 @@ const dayOptions = dayGroups.map((dayGroup) => ({
   label: `${dayGroup.weekdayLabel}`,
 }));
 
-const typeOptions = sortedTypes.map((sessionType) => ({
-  value: sessionType,
-  label: getProgramEventTypeLabel(sessionType),
-  count: typeCounts[sessionType],
-  color: typeColors[sessionType] || "#6b7280",
-}));
+const typeOptions = groupProgramTypeOptions(
+  sortedTypes.map((sessionType) => ({
+    value: sessionType,
+    label: getProgramEventTypeLabel(sessionType),
+    color: typeColors[sessionType] || "#6b7280",
+  })),
+);
 
 const roomDayGroups = dayGroups.map((dayGroup) => {
   const orderedRooms = Array.from(
@@ -563,7 +593,6 @@ const frontmatter = {
   <section
     class="program-calendar"
     data-conference-timezone={CONFERENCE_TIME_ZONE}
-    data-local-storage-key="program-calendar-timezone-mode"
   >
     <ProgramHeader
       title="Conference Calendar"
@@ -579,9 +608,45 @@ const frontmatter = {
       searchPlaceholder="Search title, room, event, chair"
       dayOptions={dayOptions}
       typeOptions={typeOptions}
-      allCount={sessions.length}
+      dropdownGroups={programTypeDropdownGroups}
       filterBarLabel="Session type filters"
     >
+      <Fragment slot="primary-controls">
+        <label class="u-control">
+          <span>Show</span>
+          <div
+            id="calendar-highlight"
+            class="u-choice-group u-responsive-choice-group"
+            role="group"
+            aria-label="Show sessions"
+          >
+            <select
+              class="u-select u-mobile-choice-select"
+              data-choice-select
+              aria-label="Show sessions"
+            >
+              <option value="all">All</option>
+              <option value="bookmarked">Bookmarked</option>
+            </select>
+            <button
+              type="button"
+              class="u-choice-button hover-response--tint is-active"
+              data-choice-value="all"
+              aria-pressed="true"
+            >
+              All
+            </button>
+            <button
+              type="button"
+              class="u-choice-button hover-response--tint"
+              data-choice-value="bookmarked"
+              aria-pressed="false"
+            >
+              Bookmarked
+            </button>
+          </div>
+        </label>
+      </Fragment>
       <a
         slot="heading-extra"
         class="calendar-subscribe-link"
@@ -592,6 +657,10 @@ const frontmatter = {
       </a>
     </ProgramHeader>
 
+    <button type="button" class="scroll-to-live" data-scroll-to-live hidden>
+      Scroll to happening now
+    </button>
+
     <div class="calendar-timeline-scroll">
       <div
         class="calendar-timeline"
@@ -600,7 +669,7 @@ const frontmatter = {
         style={`--calendar-day-count: ${dayGroups.length}; --calendar-column-count: ${dayGroups.length}; --timeline-height: ${timelineHeightPx}px; --timeline-start-minute: ${timelineStartMinute}; --timeline-minute-span: ${timelineMinuteSpan};`}
       >
         <div class="calendar-timeline-header">
-          <div class="calendar-time-header" data-time-header>Time</div>
+          <div class="calendar-time-header" data-time-header>Boston</div>
           {
             dayGroups.map((dayGroup) => (
               <div class="calendar-day-header-compact">
@@ -614,7 +683,9 @@ const frontmatter = {
                     {dayGroup.weekdayLabel}
                   </button>
                 </h2>
-                <p>{dayGroup.dateLabel}</p>
+                <p>
+                  <time datetime={dayGroup.dayKey}>{dayGroup.dateLabel}</time>
+                </p>
               </div>
             ))
           }
@@ -658,12 +729,17 @@ const frontmatter = {
                 data-day-group={dayGroup.dayKey}
               >
                 <div class="calendar-day-track">
-                  {hourMarks.map((mark) => (
-                    <div
-                      class="calendar-hour-line"
-                      style={`--tick-minute: ${mark.minute};`}
-                    />
-                  ))}
+                  {hourMarks
+                    .filter(
+                      (mark) =>
+                        mark.minute + 60 > dayStartMinute(dayGroup.sessions),
+                    )
+                    .map((mark) => (
+                      <div
+                        class="calendar-hour-line"
+                        style={`--tick-minute: ${mark.minute};`}
+                      />
+                    ))}
 
                   {dayGroup.sessions.map((session) => {
                     const durationMinutes = Math.max(
@@ -677,7 +753,7 @@ const frontmatter = {
                     const isSolo = session.laneCount === 1;
                     const accentHex =
                       typeColors[session.eventType] || "#6b7280";
-                    const fgColor = contrastColor(accentHex);
+                    const fgColor = textColorFor(accentHex);
                     return (
                       <button
                         type="button"
@@ -691,25 +767,32 @@ const frontmatter = {
                         data-session-title={session.title}
                         data-session-event={session.eventTitle}
                         data-session-room={session.room}
+                        data-venue-href={
+                          venueRoomHref(
+                            session.track,
+                            session.startISO,
+                            session.title,
+                          ) ?? undefined
+                        }
                         data-type={session.eventType}
                         data-session-type={session.eventType}
                         data-day-group={dayGroup.dayKey}
                         data-search={session.searchText}
+                        data-session-id={session.eventSlug}
+                        data-paper-ids={session.paperIds.join(" ")}
                         data-start={session.startISO}
                         data-end={session.endISO}
                         {...(isSolo ? { "data-solo": "" } : {})}
                         style={`--session-accent: ${accentHex}; --session-fg: ${fgColor}; --session-start-minute: ${session.startMinute}; --session-duration: ${durationMinutes}; --session-lane-index: ${session.laneIndex}; --session-lane-count: ${session.laneCount};`}
                       >
-                        {isSolo && (
-                          <span class="session-block-inline" aria-hidden="true">
-                            <span class="session-block-inline-name">
-                              {session.title}
-                            </span>
-                            <span class="session-block-inline-room">
-                              {session.room}
-                            </span>
+                        <span class="session-block-inline" aria-hidden="true">
+                          <span class="session-block-inline-name">
+                            {session.title}
                           </span>
-                        )}
+                          <span class="session-block-inline-room">
+                            {displayRoomName(session.room)}
+                          </span>
+                        </span>
                       </button>
                     );
                   })}
@@ -754,16 +837,18 @@ const frontmatter = {
           >
             <div class="calendar-timeline-header">
               <div class="calendar-time-header" data-time-header>
-                Time
+                Boston
               </div>
               {dayGroup.rooms.map((roomGroup) => (
                 <div
                   class="calendar-day-header-compact"
                   data-full-name={roomGroup.roomName}
                 >
-                  <h2>{roomGroup.roomName}</h2>
+                  <h2>{displayRoomName(roomGroup.roomName)}</h2>
                   <p>
-                    {dayGroup.weekdayLabel}, {dayGroup.dateLabel}
+                    <time datetime={dayGroup.dayKey}>
+                      {dayGroup.weekdayLabel}, {dayGroup.dateLabel}
+                    </time>
                   </p>
                 </div>
               ))}
@@ -799,12 +884,17 @@ const frontmatter = {
                   data-day-group={dayGroup.dayKey}
                 >
                   <div class="calendar-day-track">
-                    {hourMarks.map((mark) => (
-                      <div
-                        class="calendar-hour-line"
-                        style={`--tick-minute: ${mark.minute};`}
-                      />
-                    ))}
+                    {hourMarks
+                      .filter(
+                        (mark) =>
+                          mark.minute + 60 > dayStartMinute(dayGroup.sessions),
+                      )
+                      .map((mark) => (
+                        <div
+                          class="calendar-hour-line"
+                          style={`--tick-minute: ${mark.minute};`}
+                        />
+                      ))}
 
                     {roomGroup.sessions.map((session) => {
                       const durationMinutes = Math.max(
@@ -816,7 +906,7 @@ const frontmatter = {
                       );
                       const accentHex =
                         typeColors[session.eventType] || "#6b7280";
-                      const fgColor = contrastColor(accentHex);
+                      const fgColor = textColorFor(accentHex);
 
                       return (
                         <button
@@ -831,10 +921,19 @@ const frontmatter = {
                           data-session-title={session.title}
                           data-session-event={session.eventTitle}
                           data-session-room={session.room}
+                          data-venue-href={
+                            venueRoomHref(
+                              session.track,
+                              session.startISO,
+                              session.title,
+                            ) ?? undefined
+                          }
                           data-type={session.eventType}
                           data-session-type={session.eventType}
                           data-day-group={dayGroup.dayKey}
                           data-search={session.searchText}
+                          data-session-id={session.eventSlug}
+                          data-paper-ids={session.paperIds.join(" ")}
                           data-start={session.startISO}
                           data-end={session.endISO}
                           data-solo=""
@@ -846,7 +945,7 @@ const frontmatter = {
                               {session.title}
                             </span>
                             <span class="session-block-inline-room">
-                              {session.room}
+                              {displayRoomName(session.room)}
                             </span>
                           </span>
                         </button>
@@ -889,7 +988,9 @@ const frontmatter = {
           >
             <header class="calendar-day-header">
               <h2>{dayGroup.weekdayLabel}</h2>
-              <p>{dayGroup.dateLabel}</p>
+              <p>
+                <time datetime={dayGroup.dayKey}>{dayGroup.dateLabel}</time>
+              </p>
             </header>
 
             <div class="calendar-day-content">
@@ -905,6 +1006,10 @@ const frontmatter = {
                   data-type={session.eventType}
                   data-day-group={dayGroup.dayKey}
                   data-search={session.searchText}
+                  data-session-id={session.eventSlug}
+                  data-paper-ids={session.paperIds.join(" ")}
+                  data-start={session.startISO}
+                  data-end={session.endISO}
                   style={`--session-accent: ${typeColors[session.eventType] || "#6b7280"}`}
                 >
                   <p
@@ -928,7 +1033,7 @@ const frontmatter = {
                       {session.eventTypeLabel}
                     </span>
                     <span aria-hidden="true">·</span>
-                    <span>{session.room}</span>
+                    <span>{displayRoomName(session.room)}</span>
                   </p>
 
                   {session.chairs.length > 0 && (
@@ -947,6 +1052,20 @@ const frontmatter = {
 
   <script>
     import {
+      getSavedTimezoneMode,
+      isTimezoneMode,
+      rangePartsForMode,
+      renderTimeParts,
+      saveTimezoneMode,
+      type TimezoneMode,
+    } from "../../utils/timezoneMode";
+    import {
+      currentTimeMs,
+      markLiveCards,
+      setupScrollToLive,
+    } from "../../utils/liveNow";
+    import { createBookmarkStore } from "../../lib/bookmarks";
+    import {
       createUrlStateHistory,
       type UrlStateWriteOptions,
     } from "../../utils/urlStateHistory";
@@ -957,15 +1076,15 @@ const frontmatter = {
 
       const conferenceTimeZone =
         root.getAttribute("data-conference-timezone") || "UTC";
-      const localStorageKey =
-        root.getAttribute("data-local-storage-key") ||
-        "program-calendar-timezone-mode";
       const localTimeZone =
         Intl.DateTimeFormat().resolvedOptions().timeZone || "UTC";
 
       const timezoneControl = root.querySelector<HTMLElement>("#timezone-mode");
       const dayFilterControl = root.querySelector<HTMLElement>("#day-filter");
       const searchInput = root.querySelector("#calendar-search");
+      const highlightControl = root.querySelector<HTMLElement>(
+        "#calendar-highlight",
+      );
       const dayTimelineScroll = root.querySelector<HTMLElement>(
         ".calendar-timeline-scroll",
       );
@@ -1077,30 +1196,6 @@ const frontmatter = {
         );
       };
 
-      const isSameDayFormatter = (timeZone: string) =>
-        new Intl.DateTimeFormat("en-CA", {
-          timeZone,
-          year: "numeric",
-          month: "2-digit",
-          day: "2-digit",
-        });
-
-      const timeFormatter = (timeZone: string) =>
-        new Intl.DateTimeFormat("en-US", {
-          timeZone,
-          hour: "2-digit",
-          minute: "2-digit",
-          hour12: false,
-        });
-
-      const dateFormatter = (timeZone: string) =>
-        new Intl.DateTimeFormat("en-US", {
-          timeZone,
-          weekday: "short",
-          month: "short",
-          day: "numeric",
-        });
-
       const hourMinuteFormatter = (timeZone: string) =>
         new Intl.DateTimeFormat("en-US", {
           timeZone,
@@ -1145,47 +1240,20 @@ const frontmatter = {
         for (const header of timeHeaders) {
           header.textContent =
             mode === "conference"
-              ? "Time"
+              ? "Boston"
               : mode === "local"
-                ? "Local Time"
-                : "Time (Conf | Local)";
+                ? "Local"
+                : "Boston | Local";
         }
       };
 
-      const compactRange = (
-        startDate: Date,
-        endDate: Date,
-        timeZone: string,
-      ) => {
-        const sameDay =
-          isSameDayFormatter(timeZone).format(startDate) ===
-          isSameDayFormatter(timeZone).format(endDate);
-        if (sameDay) {
-          return `${timeFormatter(timeZone).format(startDate)} - ${timeFormatter(timeZone).format(endDate)}`;
-        }
-        return `${dateFormatter(timeZone).format(startDate)} ${timeFormatter(timeZone).format(startDate)} - ${dateFormatter(timeZone).format(endDate)} ${timeFormatter(timeZone).format(endDate)}`;
+      const getMode = (): TimezoneMode => {
+        const value = getChoiceValue(timezoneControl, "conference");
+        return isTimezoneMode(value) ? value : "conference";
       };
 
-      const formatRangeForMode = (startISO: string, endISO: string) => {
-        const mode = getMode();
-        const startDate = new Date(startISO);
-        const endDate = new Date(endISO);
-        const showConference = mode === "conference" || mode === "both";
-        const showLocal = mode === "local" || mode === "both";
-        const parts: string[] = [];
-
-        if (showConference) {
-          parts.push(compactRange(startDate, endDate, conferenceTimeZone));
-        }
-        if (showLocal) {
-          const localRange = compactRange(startDate, endDate, localTimeZone);
-          parts.push(showConference ? `Local: ${localRange}` : localRange);
-        }
-
-        return parts.join(" | ");
-      };
-
-      const getMode = () => getChoiceValue(timezoneControl, "conference");
+      const rangeParts = (startISO: string, endISO: string) =>
+        rangePartsForMode(startISO, endISO, getMode(), conferenceTimeZone);
 
       const getSelectedDay = () => getChoiceValue(dayFilterControl, "all");
 
@@ -1197,7 +1265,7 @@ const frontmatter = {
           const endISO = node.getAttribute("data-end");
           if (!startISO || !endISO) continue;
 
-          node.textContent = formatRangeForMode(startISO, endISO);
+          renderTimeParts(node, rangeParts(startISO, endISO));
         }
 
         if (tzDescription) {
@@ -1236,10 +1304,13 @@ const frontmatter = {
         setParam("type", activeTypeFilter, ALL_FILTER);
         setParam(
           "q",
-          searchInput instanceof HTMLInputElement ? searchInput.value.trim() : "",
+          searchInput instanceof HTMLInputElement
+            ? searchInput.value.trim()
+            : "",
           "",
         );
         setParam("tz", getMode(), "conference");
+        setParam("highlight", getChoiceValue(highlightControl, "all"), "all");
 
         urlHistory.write(params, options);
       };
@@ -1261,24 +1332,123 @@ const frontmatter = {
         }
       };
 
+      // Lanes are assigned at build time for every session. When filters hide
+      // some, repack the visible sessions of each overlap cluster so they
+      // expand to fill the day column (a lone session spans its full width).
+      const relayoutVisibleSessions = () => {
+        // The per-room view has one column per room, so only the all-days
+        // timeline needs repacking.
+        const tracks = document.querySelectorAll<HTMLElement>(
+          ".calendar-day-track:not(.calendar-room-timeline *)",
+        );
+        for (const track of tracks) {
+          const clusters = new Map<string, HTMLElement[]>();
+          for (const card of track.querySelectorAll<HTMLElement>(
+            "[data-session-card]",
+          )) {
+            const style = card.style;
+            if (!card.dataset.baseLane) {
+              card.dataset.baseLane = style.getPropertyValue(
+                "--session-lane-index",
+              );
+              card.dataset.baseLaneCount = style.getPropertyValue(
+                "--session-lane-count",
+              );
+            }
+            if (card.hidden) continue;
+            const key = card.dataset.clusterKey || "";
+            const list = clusters.get(key) || [];
+            list.push(card);
+            clusters.set(key, list);
+          }
+
+          for (const cards of clusters.values()) {
+            const baseLane = (c: HTMLElement) => Number(c.dataset.baseLane);
+            const startOf = (c: HTMLElement) =>
+              Number(c.style.getPropertyValue("--session-start-minute"));
+            const endOf = (c: HTMLElement) =>
+              startOf(c) +
+              Number(c.style.getPropertyValue("--session-duration"));
+
+            // Rooms keep their original left-to-right order.
+            const rooms = new Map<string, HTMLElement[]>();
+            for (const card of cards) {
+              const room = card.dataset.sessionRoom || "";
+              rooms.set(room, [...(rooms.get(room) || []), card]);
+            }
+            const orderedRooms = [...rooms.values()].sort(
+              (a, b) =>
+                Math.min(...a.map(baseLane)) - Math.min(...b.map(baseLane)),
+            );
+
+            let laneCount = 0;
+            const placed: [HTMLElement, number][] = [];
+            for (const roomCards of orderedRooms) {
+              const offset = laneCount;
+              const active: { lane: number; end: number }[] = [];
+              for (const card of roomCards.sort(
+                (a, b) => startOf(a) - startOf(b),
+              )) {
+                for (let i = active.length - 1; i >= 0; i -= 1) {
+                  if (active[i].end <= startOf(card)) active.splice(i, 1);
+                }
+                const occupied = new Set(active.map((a) => a.lane));
+                let lane = offset;
+                while (occupied.has(lane)) lane += 1;
+                active.push({ lane, end: endOf(card) });
+                placed.push([card, lane]);
+                laneCount = Math.max(laneCount, lane + 1);
+              }
+            }
+
+            for (const [card, lane] of placed) {
+              card.style.setProperty("--session-lane-index", String(lane));
+              card.style.setProperty("--session-lane-count", String(laneCount));
+              card.toggleAttribute("data-solo", laneCount === 1);
+            }
+          }
+        }
+      };
+
+      const sessionBookmarks = createBookmarkStore(
+        "program-sessions-bookmarks",
+      );
+      const paperBookmarks = createBookmarkStore("program-papers-bookmarks");
+      const isBookmarked = (card: HTMLElement): boolean =>
+        sessionBookmarks.has(card.dataset.sessionId || "") ||
+        (card.dataset.paperIds || "")
+          .split(" ")
+          .some((id) => id && paperBookmarks.has(id));
+
       const applyFilters = (options?: UrlStateWriteOptions) => {
         const selectedDay = getSelectedDay();
         const query = getSearchQuery();
+        const showBookmarked =
+          getChoiceValue(highlightControl, "all") === "bookmarked";
 
         applyDayLayout(selectedDay);
 
         for (const card of cards) {
-          card.hidden = !cardMatchesFilters(card, selectedDay, query);
+          card.hidden =
+            !cardMatchesFilters(card, selectedDay, query) ||
+            (showBookmarked && !isBookmarked(card));
         }
 
         for (const group of dayGroups) {
+          // Room timelines keep their frame when a filter leaves them empty;
+          // applyDayLayout decides when they show.
+          if (group.hasAttribute("data-room-timeline")) continue;
           group.hidden = !group.querySelector(
             "[data-session-card]:not([hidden])",
           );
         }
 
+        relayoutVisibleSessions();
+
         syncUrlState(options);
       };
+      sessionBookmarks.onSync(() => applyFilters({ replace: true }));
+      paperBookmarks.onSync(() => applyFilters({ replace: true }));
 
       // ── Cluster overlay interaction ────────────────────────────────
       for (const column of dayColumns) {
@@ -1300,13 +1470,15 @@ const frontmatter = {
         if (!overlayTabs || !overlayTime || !overlayMeta) continue;
 
         let hideTimer: ReturnType<typeof setTimeout> | null = null;
-        let currentClusterKey: string | null = null;
+        let currentGroupId: string | null = null;
+        let currentGroup: HTMLElement[] = [];
         let activeOverlaySessionKey: string | null = null;
 
         const scheduleHide = () => {
           hideTimer = setTimeout(() => {
             overlay.hidden = true;
-            currentClusterKey = null;
+            currentGroupId = null;
+            currentGroup = [];
             // restore all bars in this column
             for (const b of column.querySelectorAll<HTMLElement>(
               "[data-session-card][data-dim]",
@@ -1327,11 +1499,9 @@ const frontmatter = {
           );
           if (!bar) return;
           activeOverlaySessionKey = sessionKey;
-          overlayTime.textContent = (() => {
-            const s = bar.getAttribute("data-start") || "";
-            const e = bar.getAttribute("data-end") || "";
-            return s && e ? formatRangeForMode(s, e) : "";
-          })();
+          const s = bar.getAttribute("data-start") || "";
+          const e = bar.getAttribute("data-end") || "";
+          renderTimeParts(overlayTime, s && e ? rangeParts(s, e) : []);
           const type = (
             bar.getAttribute("data-session-type") || ""
           ).toUpperCase();
@@ -1346,11 +1516,23 @@ const frontmatter = {
           );
           if (overlayName) overlayName.textContent = name;
           if (overlayRoom) {
-            let tempRoom = room;
+            let tempRoom = room
+              .split("/")
+              .map((part) => part.trim().replace(/^hall\s+/i, ""))
+              .join(" / ");
             if (room === "TBA") {
               tempRoom = "Room to be announced";
             }
-            overlayRoom.textContent = tempRoom;
+            // A link to the room on the venue map when it's on the map.
+            const venueHref = bar.getAttribute("data-venue-href");
+            if (venueHref && room !== "TBA") {
+              const link = document.createElement("a");
+              link.href = venueHref;
+              link.textContent = tempRoom;
+              overlayRoom.replaceChildren(link);
+            } else {
+              overlayRoom.textContent = tempRoom;
+            }
           }
           overlayMeta.textContent = [type, event].filter(Boolean).join(" · ");
 
@@ -1359,14 +1541,9 @@ const frontmatter = {
             bar.style.getPropertyValue("--session-accent") || "#6b7280";
           overlay.style.setProperty("--overlay-accent", accent);
 
-          // dim sibling bars, highlight active
-          const ck = bar.getAttribute("data-cluster-key");
-          if (ck) {
-            for (const sibling of column.querySelectorAll<HTMLElement>(
-              `[data-session-card][data-cluster-key="${ck}"]`,
-            )) {
-              sibling.toggleAttribute("data-dim", sibling !== bar);
-            }
+          // dim the bars running at the same time, highlight active
+          for (const sibling of currentGroup) {
+            sibling.toggleAttribute("data-dim", sibling !== bar);
           }
 
           // mark active tab
@@ -1382,7 +1559,31 @@ const frontmatter = {
           }
         };
 
-        const showCluster = (clusterKey: string, activeSessionKey: string) => {
+        const startOf = (b: HTMLElement) =>
+          Number(b.style.getPropertyValue("--session-start-minute"));
+        const endOf = (b: HTMLElement) =>
+          startOf(b) + Number(b.style.getPropertyValue("--session-duration"));
+
+        // The minute of the conference day under the pointer. Bars are
+        // positioned linearly in time, so interpolate within the hovered bar.
+        const minuteAt = (bar: HTMLElement, clientY: number) => {
+          const y = clientY - track.getBoundingClientRect().top;
+          const fraction = Math.min(
+            1,
+            Math.max(0, (y - bar.offsetTop) / (bar.offsetHeight || 1)),
+          );
+          return startOf(bar) + fraction * (endOf(bar) - startOf(bar));
+        };
+
+        // `anchorMinute` picks out which of the cluster's sessions are
+        // concurrent. A cluster is chained together by overlaps, so a session
+        // running all day (VISAP's exhibition) pulls the whole day into one
+        // cluster; only the sessions running at the pointer belong in the tabs.
+        const showCluster = (
+          clusterKey: string,
+          activeSessionKey: string,
+          anchorMinute: number | null,
+        ) => {
           cancelHide();
 
           const clusterBars = Array.from(
@@ -1396,33 +1597,50 @@ const frontmatter = {
               (a, b) =>
                 Number(a.style.getPropertyValue("--session-lane-index")) -
                   Number(b.style.getPropertyValue("--session-lane-index")) ||
-                Number(a.style.getPropertyValue("--session-start-minute")) -
-                  Number(b.style.getPropertyValue("--session-start-minute")),
+                startOf(a) - startOf(b),
             );
+          const activeBar = clusterBars.find(
+            (b) => b.getAttribute("data-session-key") === activeSessionKey,
+          );
+          if (!activeBar) return;
+          const anchor =
+            anchorMinute !== null
+              ? Math.min(
+                  endOf(activeBar),
+                  Math.max(startOf(activeBar), anchorMinute),
+                )
+              : startOf(activeBar);
+          const groupBars = clusterBars.filter(
+            (b) =>
+              b === activeBar || (startOf(b) <= anchor && anchor < endOf(b)),
+          );
 
-          if (clusterBars.length === 0) return;
           // Single visible bar after filtering may still need overlay details when it belongs
           // to an originally multi-lane cluster (no inline label in that case).
-          if (
-            clusterBars.length === 1 &&
-            clusterBars[0].hasAttribute("data-solo")
-          )
+          if (groupBars.length === 1 && groupBars[0].hasAttribute("data-solo"))
             return;
 
-          // Position overlay at bars' midpoint — top half of bars stays visible, bottom half covered
-          const topPx = Math.min(...clusterBars.map((b) => b.offsetTop));
-          const bottomPx = Math.max(
-            ...clusterBars.map((b) => b.offsetTop + b.offsetHeight),
+          // Position overlay at the midpoint of the time the bars share — top
+          // half of bars stays visible, bottom half covered
+          const topPx = Math.max(...groupBars.map((b) => b.offsetTop));
+          const bottomPx = Math.min(
+            ...groupBars.map((b) => b.offsetTop + b.offsetHeight),
           );
           const midPx = topPx + (bottomPx - topPx) * 0.45;
           overlay.style.top = `${Math.max(0, midPx - 10)}px`;
           overlay.hidden = false;
 
-          if (currentClusterKey !== clusterKey) {
-            currentClusterKey = clusterKey;
+          const groupId = groupBars
+            .map((b) => b.getAttribute("data-session-key"))
+            .join("|");
+          if (currentGroupId !== groupId) {
+            // Bars dimmed for the previous group are no longer in play.
+            for (const b of currentGroup) b.removeAttribute("data-dim");
+            currentGroupId = groupId;
+            currentGroup = groupBars;
             // rebuild tabs
             overlayTabs.innerHTML = "";
-            for (const bar of clusterBars) {
+            for (const bar of groupBars) {
               const key = bar.getAttribute("data-session-key") || "";
               const accent =
                 bar.style.getPropertyValue("--session-accent") || "#6b7280";
@@ -1467,16 +1685,16 @@ const frontmatter = {
           column.querySelectorAll<HTMLElement>("[data-session-card]"),
         );
         for (const bar of allBars) {
-          bar.addEventListener("mouseenter", () => {
+          bar.addEventListener("mouseenter", (event) => {
             const ck = bar.getAttribute("data-cluster-key");
             const sk = bar.getAttribute("data-session-key");
-            if (ck && sk) showCluster(ck, sk);
+            if (ck && sk) showCluster(ck, sk, minuteAt(bar, event.clientY));
           });
           bar.addEventListener("mouseleave", scheduleHide);
           bar.addEventListener("focus", () => {
             const ck = bar.getAttribute("data-cluster-key");
             const sk = bar.getAttribute("data-session-key");
-            if (ck && sk) showCluster(ck, sk);
+            if (ck && sk) showCluster(ck, sk, null);
           });
         }
       }
@@ -1494,16 +1712,31 @@ const frontmatter = {
         });
       }
 
+      // Clicking empty calendar space clears the selected event type.
+      for (const timeline of [dayTimelineScroll, roomTimelineContainer]) {
+        timeline?.addEventListener("click", (event) => {
+          if (activeTypeFilter === ALL_FILTER) return;
+          if (
+            event.target instanceof Element &&
+            event.target.closest(
+              "[data-session-card], [data-cluster-overlay], a, button, input, select, label",
+            )
+          )
+            return;
+
+          activeTypeFilter = ALL_FILTER;
+          refreshFilterButtonState();
+          applyFilters();
+        });
+      }
+
       if (searchInput instanceof HTMLInputElement) {
         searchInput.addEventListener("input", () => {
           applyFilters({ burst: "search" });
         });
       }
 
-      const savedMode = localStorage.getItem(localStorageKey);
-
-      const isTimezoneMode = (value: string | null) =>
-        value === "conference" || value === "local" || value === "both";
+      const savedMode = getSavedTimezoneMode();
 
       const restoreFromUrl = (
         params: URLSearchParams,
@@ -1527,6 +1760,11 @@ const frontmatter = {
         if (searchInput instanceof HTMLInputElement) {
           searchInput.value = params.get("q") || "";
         }
+        if (
+          !setChoiceValue(highlightControl, params.get("highlight") || "all")
+        ) {
+          setChoiceValue(highlightControl, "all");
+        }
       };
 
       // On Back/Forward, a missing param means its default: the initial load
@@ -1539,10 +1777,27 @@ const frontmatter = {
       });
 
       // URL state takes precedence over saved preferences.
-      restoreFromUrl(
-        new URLSearchParams(window.location.search),
-        isTimezoneMode(savedMode) ? savedMode! : "conference",
-      );
+      restoreFromUrl(new URLSearchParams(window.location.search), savedMode);
+
+      if (highlightControl) {
+        for (const button of highlightControl.querySelectorAll<HTMLButtonElement>(
+          ".u-choice-button[data-choice-value]",
+        )) {
+          button.addEventListener("click", () => {
+            const value = button.dataset.choiceValue;
+            if (!value || !setChoiceValue(highlightControl, value)) return;
+            applyFilters();
+          });
+        }
+        const highlightSelect =
+          highlightControl.querySelector<HTMLSelectElement>(
+            "[data-choice-select]",
+          );
+        highlightSelect?.addEventListener("change", () => {
+          if (!setChoiceValue(highlightControl, highlightSelect.value)) return;
+          applyFilters();
+        });
+      }
 
       if (timezoneControl) {
         const timezoneButtons = Array.from(
@@ -1555,7 +1810,7 @@ const frontmatter = {
           button.addEventListener("click", () => {
             const value = button.dataset.choiceValue;
             if (!value || !setChoiceValue(timezoneControl, value)) return;
-            localStorage.setItem(localStorageKey, value);
+            saveTimezoneMode(value);
             refreshTimeRanges();
             syncUrlState();
           });
@@ -1567,7 +1822,7 @@ const frontmatter = {
         timezoneSelect?.addEventListener("change", () => {
           const value = timezoneSelect.value;
           if (!setChoiceValue(timezoneControl, value)) return;
-          localStorage.setItem(localStorageKey, value);
+          saveTimezoneMode(value);
           refreshTimeRanges();
           syncUrlState();
         });
@@ -1615,6 +1870,70 @@ const frontmatter = {
           }
         });
       }
+
+      const updateScrollButton = setupScrollToLive(
+        root.querySelector<HTMLElement>("[data-scroll-to-live]"),
+        root,
+        ".calendar-session",
+      );
+      const liveCards = Array.from(
+        root.querySelectorAll<HTMLElement>(
+          "[data-session-card][data-start][data-end]",
+        ),
+      );
+      const nowLines: HTMLElement[] = [];
+      const conferenceClock = new Intl.DateTimeFormat("en-CA", {
+        timeZone: conferenceTimeZone,
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit",
+        hour: "2-digit",
+        minute: "2-digit",
+        hourCycle: "h23",
+      });
+      const refreshLiveSessions = () => {
+        // MECHANISM FOR TESTING THE DISPLAY, add the below to URL
+
+        const now = currentTimeMs();
+        markLiveCards(liveCards, now);
+
+        const parts = Object.fromEntries(
+          conferenceClock
+            .formatToParts(new Date(now))
+            .map((part) => [part.type, part.value]),
+        );
+        const dayKey = `${parts.year}-${parts.month}-${parts.day}`;
+        const minute = Number(parts.hour) * 60 + Number(parts.minute);
+        for (const line of nowLines) line.remove();
+        nowLines.length = 0;
+        const tracks = root.querySelectorAll<HTMLElement>(
+          `.calendar-day-column[data-day-group="${dayKey}"] .calendar-day-track`,
+        );
+        // No now line before the day's program begins (day-wide, so every
+        // room column gets the line together).
+        const dayStarts = Array.from(
+          root.querySelectorAll<HTMLElement>(
+            `.calendar-day-column[data-day-group="${dayKey}"] [data-session-card]`,
+          ),
+        ).map((card) =>
+          Number(card.style.getPropertyValue("--session-start-minute")),
+        );
+        if (dayStarts.length && minute < Math.min(...dayStarts)) {
+          updateScrollButton();
+          return;
+        }
+        for (const track of tracks) {
+          const line = document.createElement("div");
+          line.className = "calendar-now-line";
+          line.setAttribute("aria-hidden", "true");
+          line.style.setProperty("--now-minute", String(minute));
+          track.appendChild(line);
+          nowLines.push(line);
+        }
+        updateScrollButton();
+      };
+      refreshLiveSessions();
+      window.setInterval(refreshLiveSessions, 30000);
 
       refreshFilterButtonState();
       refreshTimeRanges();
