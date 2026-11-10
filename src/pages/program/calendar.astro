@@ -1051,6 +1051,7 @@ const frontmatter = {
   </section>
 
   <script>
+    import { withBaseURL } from "../../utils/withBaseURL";
     import {
       getSavedTimezoneMode,
       isTimezoneMode,
@@ -1071,6 +1072,17 @@ const frontmatter = {
     } from "../../utils/urlStateHistory";
 
     (() => {
+      if (window.matchMedia("(max-width: 959px)").matches) {
+        const sessionsUrl = new URL(
+          withBaseURL("/program/sessions"),
+          window.location.origin,
+        );
+        sessionsUrl.search = window.location.search;
+        sessionsUrl.hash = window.location.hash;
+        window.location.replace(sessionsUrl);
+        return;
+      }
+
       const root = document.querySelector(".program-calendar");
       if (!root) return;
 
