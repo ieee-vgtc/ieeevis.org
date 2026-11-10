@@ -5,7 +5,9 @@
  * then either settles on "none" — nothing stored, so nothing to load — or
  * restores the stored session as a writer for the account. A session that
  * cannot be restored (revoked, expired past refresh, Bluesky unreachable)
- * counts as none: the reader is simply offered the login again.
+ * counts as none on this page: the reader is offered the login again. When
+ * Bluesky was only unreachable, the session stays stored (see
+ * `restoreSession`), so the next page load restores it.
  */
 
 import { useCallback, useEffect, useState } from "react";
