@@ -319,6 +319,22 @@
   font-size: 0.9rem;
 }
 
+@media (max-width: 767px) {
+  .program-sessions .u-toolbar {
+    scroll-margin-top: 80px;
+  }
+
+  .sessions-day {
+    overflow: visible;
+  }
+
+  .sessions-day-header {
+    position: sticky;
+    top: 70px;
+    z-index: 20;
+  }
+}
+
 .sessions-day-content {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -1806,6 +1822,44 @@
 
 .scroll-to-live[hidden] {
   display: none;
+}
+
+.sessions-back-to-filters {
+  display: none;
+}
+
+.sessions-back-to-filters[hidden] {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .sessions-back-to-filters {
+    position: fixed;
+    right: 1rem;
+    bottom: max(1rem, env(safe-area-inset-bottom));
+    z-index: 50;
+    display: grid;
+    width: 44px;
+    height: 44px;
+    place-items: center;
+    border: 1px solid rgb(55 65 81 / 18%);
+    border-radius: 50%;
+    background: rgb(255 255 255 / 92%);
+    color: var(--color-accent);
+    box-shadow: 0 2px 8px rgb(0 0 0 / 16%);
+    opacity: 0.78;
+    cursor: pointer;
+    transition: opacity 150ms ease;
+  }
+
+  .sessions-back-to-filters:hover,
+  .sessions-back-to-filters:focus-visible {
+    opacity: 1;
+  }
+
+  .sessions-back-to-filters .material-icons {
+    font-size: 1.35rem;
+  }
 }
 
 .calendar-session.is-live .calendar-session-time::after {
