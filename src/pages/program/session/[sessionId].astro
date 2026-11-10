@@ -146,9 +146,6 @@ const workshopPapers =
   eventPaperTypes.includes(normalizedEventType) && presentations.length === 0
     ? eventPapers
     : [];
-const hasAbstracts =
-  presentations.some((slot) => slot.abstract) ||
-  workshopPapers.some((paper) => paper.abstract);
 const usesOrganizerLabel =isPanel || normalizedEventType === "tutorial";
 // A session's own details (panels, invited talks) apply to any event type.
 const description =
@@ -296,20 +293,6 @@ const DISCUSSION_SECTION_ID = "discussion";
           !description && <h2>Presentations in this session</h2>
         )
       }
-      {
-        hasAbstracts && (
-          <div class="abstract-toggle-row">
-            <button
-              type="button"
-              id="abstractToggleBtn"
-              class="button button-inverse"
-              aria-pressed="true"
-            >
-              Close abstracts
-            </button>
-          </div>
-        )
-      }
     </div>
 
     <div>
@@ -375,7 +358,7 @@ const DISCUSSION_SECTION_ID = "discussion";
               </p>
             )}
             {slot.abstract && (
-              <details class="program-presentation-abstract" open>
+              <details class="program-presentation-abstract">
                 <summary>Abstract</summary>
                 <p>{slot.abstract}</p>
               </details>
@@ -411,7 +394,7 @@ const DISCUSSION_SECTION_ID = "discussion";
               </p>
             )}
             {paper.abstract && (
-              <details class="program-presentation-abstract" open>
+              <details class="program-presentation-abstract">
                 <summary>Abstract</summary>
                 <p>{paper.abstract}</p>
               </details>
@@ -526,11 +509,6 @@ const DISCUSSION_SECTION_ID = "discussion";
 
     .program-presentation-abstract p {
       margin: 0.4rem 0 0;
-    }
-
-    .abstract-toggle-row {
-      max-width: 62rem;
-      margin: 0 auto 1rem;
     }
 
     .program-presentation-award {
@@ -655,25 +633,6 @@ const DISCUSSION_SECTION_ID = "discussion";
   });
   bookmarks.onSync(update);
   update();
-
-  // Open / close all abstracts at once.
-  const abstractBtn = document.getElementById("abstractToggleBtn");
-  const abstractDetails = document.querySelectorAll<HTMLDetailsElement>(
-    "details.program-presentation-abstract",
-  );
-  const updateAbstractBtn = () => {
-    if (!abstractBtn) return;
-    const anyOpen = [...abstractDetails].some((d) => d.open);
-    abstractBtn.textContent = anyOpen ? "Close abstracts" : "Open abstracts";
-    abstractBtn.setAttribute("aria-pressed", String(anyOpen));
-  };
-  abstractBtn?.addEventListener("click", () => {
-    const anyOpen = [...abstractDetails].some((d) => d.open);
-    for (const d of abstractDetails) d.open = !anyOpen;
-    updateAbstractBtn();
-  });
-  for (const d of abstractDetails) d.addEventListener("toggle", updateAbstractBtn);
-  updateAbstractBtn();
 
   // Per-paper bookmarks share the papers list's store.
   const paperBookmarks = createBookmarkStore("program-papers-bookmarks");
