@@ -418,6 +418,7 @@ const sessionRoles: ProgramSessionRole[] = Object.values(sessionList)
         roleLabel,
         people,
         sessionTitle: session.title,
+        sessionId: `${session.event_prefix}-${session.session_id}`,
         sessionUrl: withBaseURL(
           `/program/session/${session.event_prefix}-${session.session_id}`,
         ),

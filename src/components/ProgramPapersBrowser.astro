@@ -429,6 +429,8 @@ const typeOptions = groupProgramTypeOptions(
         <ProgramCard
           data-program-card
           data-session-role
+          data-session-id={sessionRole.sessionId}
+          bookmark={{ bookmarked: false }}
           data-type={sessionRoleType}
           data-title={sessionRole.sessionTitle.toLowerCase()}
           data-authors={sessionRole.people.join(",").toLowerCase()}
@@ -530,6 +532,10 @@ const typeOptions = groupProgramTypeOptions(
     const validSortModes = new Set(["title", "bookmarked", "time"]);
 
     const bookmarks = createBookmarkStore(bookmarkKey);
+    // Chair/organizer cards (tutorials, workshops, ...) bookmark their session.
+    const sessionBookmarks = createBookmarkStore("program-sessions-bookmarks");
+    const storeFor = (card: HTMLElement) =>
+      card.hasAttribute("data-session-role") ? sessionBookmarks : bookmarks;
 
     const getChoiceValue = (
       container: HTMLElement | null,
@@ -713,14 +719,16 @@ const typeOptions = groupProgramTypeOptions(
 
     const refreshBookmarkState = () => {
       for (const card of cards) {
-        const paperId = card.getAttribute("data-paper-id");
+        const paperId =
+          card.getAttribute("data-paper-id") ||
+          card.getAttribute("data-session-id");
         const toggle = card.querySelector<HTMLButtonElement>(
           "[data-bookmark-toggle]",
         );
         const icon = card.querySelector<HTMLElement>("[data-bookmark-icon]");
         if (!paperId || !toggle) continue;
 
-        const bookmarked = bookmarks.has(paperId);
+        const bookmarked = storeFor(card).has(paperId);
         toggle.setAttribute(
           "aria-label",
           bookmarked ? "Remove bookmark" : "Add bookmark",
@@ -1073,19 +1081,21 @@ const typeOptions = groupProgramTypeOptions(
       applyFilters();
     });
 
-    const toggleBookmark = (paperId: string) => {
-      bookmarks.toggle(paperId);
+    const toggleBookmark = (card: HTMLElement, paperId: string) => {
+      storeFor(card).toggle(paperId);
       refreshBookmarkState();
     };
 
     for (const card of cards) {
-      const paperId = card.getAttribute("data-paper-id");
+      const paperId =
+        card.getAttribute("data-paper-id") ||
+        card.getAttribute("data-session-id");
       const toggle = card.querySelector<HTMLButtonElement>(
         "[data-bookmark-toggle]",
       );
 
       if (toggle && paperId) {
-        toggle.addEventListener("click", () => toggleBookmark(paperId));
+        toggle.addEventListener("click", () => toggleBookmark(card, paperId));
       }
     }
 
@@ -1177,6 +1187,7 @@ const typeOptions = groupProgramTypeOptions(
 
     refreshTypeFilterState();
     // The Auth0 copy of the bookmarks arrives after load.
+    sessionBookmarks.onSync(refreshBookmarkState);
     bookmarks.onSync(() => {
       refreshBookmarkState();
       applyFilters({ replace: true });
