@@ -317,6 +317,15 @@ const DISCUSSION_SECTION_ID = "discussion";
                 <a href={withBaseURL(`/program/content/${slot.uid}`)}>
                   {slot.title}
                 </a>
+                <button
+              type="button"
+              class="paper-bookmark-btn"
+              data-paper-bookmark={slot.uid}
+              aria-label="Add bookmark"
+              title="Add bookmark"
+            >
+              <i class="material-icons">bookmark_border</i>
+            </button>
               </h3>
             ) : slot.url ? (
               <h3>
@@ -357,6 +366,15 @@ const DISCUSSION_SECTION_ID = "discussion";
               <a href={withBaseURL(`/program/content/${paper.id}`)}>
                 {paper.title}
               </a>
+              <button
+              type="button"
+              class="paper-bookmark-btn"
+              data-paper-bookmark={paper.id}
+              aria-label="Add bookmark"
+              title="Add bookmark"
+            >
+              <i class="material-icons">bookmark_border</i>
+            </button>
             </h3>
             {paper.award && (
               <p class="program-presentation-award">
@@ -586,6 +604,31 @@ const DISCUSSION_SECTION_ID = "discussion";
   });
   bookmarks.onSync(update);
   update();
+
+  // Per-paper bookmarks share the papers list's store.
+  const paperBookmarks = createBookmarkStore("program-papers-bookmarks");
+  const paperButtons = document.querySelectorAll<HTMLButtonElement>(
+    "[data-paper-bookmark]",
+  );
+  const updatePapers = () => {
+    for (const button of paperButtons) {
+      const on = paperBookmarks.has(button.dataset.paperBookmark || "");
+      const label = on ? "Remove bookmark" : "Add bookmark";
+      button.setAttribute("aria-label", label);
+      button.setAttribute("title", label);
+      button.classList.toggle("is-bookmarked", on);
+      const paperIcon = button.querySelector(".material-icons");
+      if (paperIcon) paperIcon.textContent = on ? "bookmark" : "bookmark_border";
+    }
+  };
+  for (const button of paperButtons) {
+    button.addEventListener("click", () => {
+      paperBookmarks.toggle(button.dataset.paperBookmark || "");
+      updatePapers();
+    });
+  }
+  paperBookmarks.onSync(updatePapers);
+  updatePapers();
 </script>
 
 <style>
@@ -608,5 +651,26 @@ const DISCUSSION_SECTION_ID = "discussion";
   }
   .session-bookmark-btn .material-icons {
     font-size: 1.25rem;
+  }
+</style>
+
+<style>
+  .paper-bookmark-btn {
+    display: inline-flex;
+    vertical-align: middle;
+    margin-left: 0.4rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.1rem;
+    color: #adb5bd;
+    line-height: 0;
+  }
+  .paper-bookmark-btn:hover,
+  .paper-bookmark-btn.is-bookmarked {
+    color: var(--color-accent);
+  }
+  .paper-bookmark-btn .material-icons {
+    font-size: 1.3rem;
   }
 </style>
