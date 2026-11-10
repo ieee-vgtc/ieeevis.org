@@ -91,11 +91,63 @@ const paper: Paper = {
   }),
 };
 
-const supplementalLink = paper.open_access_supplemental_link?.trim()
-  ? /^https?:\/\//i.test(paper.open_access_supplemental_link.trim())
-    ? paper.open_access_supplemental_link.trim()
-    : `https://${paper.open_access_supplemental_link.trim().replace(/^\/\//, "")}`
-  : null;
+// Author-supplied free text: drop control characters, flatten any HTML
+// (keeping the hrefs of anchors, since those are links the author listed),
+// and cap the length. Astro escapes interpolated text, so what is left is
+// only ever rendered as text, never as markup.
+const supplementalRaw = (paper.open_access_supplemental_link ?? "")
+  .replace(/[\u0000-\u0008\u000B-\u001F\u007F]/g, " ")
+  .replace(
+    /<a\b[^>]*?href\s*=\s*["']?([^"'\s>]+)["']?[^>]*>([\s\S]*?)<\/a\s*>/gi,
+    (_, href, label) =>
+      label.trim() && label.trim() !== href ? `${label.trim()} ${href}` : href,
+  )
+  .replace(/<\/?[a-z][^>]*>/gi, " ")
+  .trim()
+  .slice(0, 2000);
+// Authors sometimes write a sentence (with several URLs) instead of one link.
+// Show such text as-is, turning any listed URLs into links.
+const supplementalIsText = /\s/.test(supplementalRaw);
+const supplementalLink =
+  supplementalRaw && !supplementalIsText
+    ? /^https?:\/\//i.test(supplementalRaw)
+      ? supplementalRaw
+      : `https://${supplementalRaw.replace(/^\/\//, "")}`
+    : null;
+
+// http(s) URLs, www. hosts, and bare hosts on common TLDs that carry a path
+// or are well-known (so "e.g." or "data.csv" are not mistaken for links).
+const URL_PATTERN =
+  /\b(?:https?:\/\/[^\s<>"']+|www\.[^\s<>"']+|(?:[a-z0-9-]+\.)+(?:com|org|net|edu|io|dev|app|ai|ch|de|at|ac\.uk)(?:\/[^\s<>"']*)?(?![\w@-]))/gi;
+const supplementalParts: { text: string; href?: string }[] = [];
+if (supplementalIsText) {
+  let last = 0;
+  for (const m of supplementalRaw.matchAll(URL_PATTERN)) {
+    let url = m[0];
+    // Trailing sentence punctuation is not part of the URL; a closing
+    // bracket only is when it has no opener inside the URL.
+    for (;;) {
+      const t = url.slice(-1);
+      if (/[.,;:!?'"]/.test(t)) url = url.slice(0, -1);
+      else if (t === ")" && !url.includes("(")) url = url.slice(0, -1);
+      else if (t === "]" && !url.includes("[")) url = url.slice(0, -1);
+      else break;
+    }
+    // Skip email addresses.
+    if (supplementalRaw[m.index - 1] === "@") continue;
+    if (m.index > last) {
+      supplementalParts.push({ text: supplementalRaw.slice(last, m.index) });
+    }
+    supplementalParts.push({
+      text: url,
+      href: /^https?:\/\//i.test(url) ? url : `https://${url}`,
+    });
+    last = m.index + url.length;
+  }
+  if (last < supplementalRaw.length) {
+    supplementalParts.push({ text: supplementalRaw.slice(last) });
+  }
+}
 
 // Some papers carry a placeholder note here ("We will upload a preprint to
 // Arxiv…") instead of an actual link, ahead of the real one landing. Only
@@ -115,7 +167,7 @@ const pdfURL =
     : null;
 
 const hasLinks = Boolean(
-  pdfURL || preprintLink || paper.doi || supplementalLink,
+  pdfURL || preprintLink || paper.doi || supplementalLink || supplementalIsText,
 );
 
 const sessionHref =
@@ -325,14 +377,17 @@ const eventNoun = eventType.toLowerCase();
                 return (
                   <span>
                     <span class="whitespace-nowrap">
-                      <a
-                        href={withBaseURL(
-                          `/program/content/?search=${encodeURIComponent(a.name)}`,
-                        )}
-                        class="text-accent underline decoration-accent-200 decoration-solid underline-offset-3 hover:text-accent-700 focus-visible:text-accent-700"
-                      >
-                        {a.name}
-                      </a><BlueskyProfileLink email={a.email} name={a.name} />
+                      <>
+                        <a
+                          href={withBaseURL(
+                            `/program/content/?search=${encodeURIComponent(a.name)}`,
+                          )}
+                          class="text-accent underline decoration-accent-200 decoration-solid underline-offset-3 hover:text-accent-700 focus-visible:text-accent-700"
+                        >
+                          {a.name}
+                        </a>
+                        <BlueskyProfileLink email={a.email} name={a.name} />
+                      </>
                     </span>
                     {a.affiliation && <span>{` (${a.affiliation})`}</span>}
                     {idx < paper.authors.length - 1 ? ", " : ""}
@@ -483,6 +538,26 @@ const eventNoun = eventType.toLowerCase();
                     </a>
                   </li>
                 )}
+                {supplementalIsText && (
+                  <li>
+                    <AuthGate label="supplemental material">
+                      <b>Supplemental Material:</b>{" "}
+                      {supplementalParts.map((part) =>
+                        part.href ? (
+                          <a
+                            href={part.href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            {part.text}
+                          </a>
+                        ) : (
+                          part.text
+                        ),
+                      )}
+                    </AuthGate>
+                  </li>
+                )}
                 {paper.doi && (
                   <li>
                     <a
@@ -602,8 +677,7 @@ const eventNoun = eventType.toLowerCase();
               .
             </p>
             <a class="button button-inverse" href={eventDiscussionUrl}>
-              Go to the {eventNoun} discussion{" "}
-              <span aria-hidden="true">→</span>
+              Go to the {eventNoun} discussion <span aria-hidden="true">→</span>
             </a>
           </div>
         )
