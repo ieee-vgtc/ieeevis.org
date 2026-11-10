@@ -45,6 +45,8 @@ export type ProgramSessionRole = {
   roleLabel: string;
   people: string[];
   sessionTitle: string;
+  /** Id the sessions list bookmarks the session under. */
+  sessionId: string;
   sessionUrl: string;
   scheduleLabel: string;
   roomName: string;
