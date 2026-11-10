@@ -468,7 +468,7 @@ export default function CommentComposer({
           }}
         >
           {remaining < 0
-            ? `This is ${-remaining} ${-remaining === 1 ? "character" : "characters"} over the ${limit}-character limit. Shorten it, or post part of it now and the rest as a reply to your own ${verb.toLowerCase()}.`
+            ? `This is ${-remaining} ${-remaining === 1 ? "character" : "characters"} over the ${limit}-character limit, so it cannot be posted. Shorten it, or post part of it now and the rest as a reply to your own ${verb.toLowerCase()}.`
             : `You have reached the ${limit}-character limit. To say more, post this and continue in a reply to your own ${verb.toLowerCase()}.`}
         </p>
       )}
