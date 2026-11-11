@@ -1408,6 +1408,59 @@
   }
 }
 
+@media (max-width: 767px) {
+  .program-sessions .sessions-day-content {
+    gap: 0.35rem;
+  }
+
+  .program-sessions .sessions-time-group {
+    gap: 0.25rem;
+    margin-bottom: 0.55rem;
+  }
+
+  .program-sessions .sessions-time-heading {
+    padding-bottom: 0.1rem;
+    border-bottom-width: 1px;
+    font-size: 0.9rem;
+  }
+
+  .program-sessions .program-card {
+    gap: 0.15rem;
+    border-radius: 0.35rem;
+    box-shadow: none;
+  }
+
+  .program-sessions .program-card__header {
+    min-height: 0;
+    padding: 0.45rem 0.65rem;
+  }
+
+  .program-sessions .program-card__title-link {
+    font-size: 1.05rem;
+    line-height: 1.25;
+  }
+
+  .program-sessions .program-card__eyebrow {
+    font-size: 0.68rem;
+  }
+
+  .program-sessions .program-card__body {
+    gap: 0.2rem;
+    padding: 0 0.65rem 0.5rem;
+  }
+
+  .program-sessions .program-card__people {
+    flex-direction: row;
+  }
+
+  .program-sessions .program-card__people,
+  .program-sessions .program-card__note,
+  .program-sessions .program-card__links {
+    font-size: 0.8rem;
+    line-height: 1.3;
+  }
+}
+
 .papers-search-shell {
   display: flex;
   min-width: 0;
