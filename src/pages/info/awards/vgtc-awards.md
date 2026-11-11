@@ -35,7 +35,7 @@ The 2026 IEEE VGTC Visualization Significant New Researcher Award goes to Cindy 
 
 ### Laura Garrison, University of Bergen
 
-The 2026 IEEE VGTC Visualization Significant New Researcher Award goes to Laura Garrison, in recognition of the diversity, novelty, and interdisciplinary nature of her work that advances and expands the disciplinary boundaries of visualization re-search. Laura’s research broadens our view of not only how we visualize data, but also why certain visual strategies work, for whom, and under which assumptions.
+The 2026 IEEE VGTC Visualization Significant New Researcher Award goes to Laura Garrison, in recognition of the diversity, novelty, and interdisciplinary nature of her work that advances and expands the disciplinary boundaries of visualization research. Laura’s research broadens our view of not only how we visualize data, but also why certain visual strategies work, for whom, and under which assumptions.
 
 ## VGTC Technical Achievement Award
 
