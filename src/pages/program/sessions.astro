@@ -292,6 +292,17 @@ function formatPeopleForSession(session: SessionListItem) {
       Scroll to happening now
     </button>
 
+    <button
+      type="button"
+      class="sessions-back-to-filters"
+      data-back-to-filters
+      aria-label="Back to filters"
+      title="Back to filters"
+      hidden
+    >
+      <i class="material-icons" aria-hidden="true">arrow_upward</i>
+    </button>
+
     <div class="sessions-flat-list" data-flat-list role="list" hidden></div>
 
     <div class="sessions-day-list">
@@ -417,6 +428,9 @@ function formatPeopleForSession(session: SessionListItem) {
       const sortControl = root.querySelector<HTMLElement>("#sessions-sort");
       const flatList = root.querySelector<HTMLElement>("[data-flat-list]");
       const dayList = root.querySelector<HTMLElement>(".sessions-day-list");
+      const backToFiltersButton =
+        root.querySelector<HTMLButtonElement>("[data-back-to-filters]");
+      const filters = root.querySelector<HTMLElement>(".u-toolbar");
       // Where each card lives in the grouped (time) layout, in schedule order.
       const originalSlots = cards.map((card) => ({
         card,
@@ -819,6 +833,60 @@ function formatPeopleForSession(session: SessionListItem) {
         root,
         "[data-program-card]",
       );
+      const isMobile = () => window.matchMedia("(max-width: 767px)").matches;
+      const updateBackToFiltersButton = () => {
+        if (backToFiltersButton) {
+          backToFiltersButton.hidden = !isMobile() || window.scrollY <= 0;
+        }
+      };
+      window.addEventListener("scroll", updateBackToFiltersButton, {
+        passive: true,
+      });
+      window.addEventListener("resize", updateBackToFiltersButton);
+      backToFiltersButton?.addEventListener("click", () => {
+        filters?.scrollIntoView({
+          behavior: window.matchMedia("(prefers-reduced-motion: reduce)")
+            .matches
+            ? "auto"
+            : "smooth",
+          block: "start",
+        });
+      });
+
+      const scrollToInitialSession = () => {
+        if (!isMobile() || window.location.hash) return;
+        const visibleCards = cards.filter(
+          (card) => !card.hidden && card.getClientRects().length > 0,
+        );
+        if (visibleCards.length === 0) return;
+
+        const now = currentTimeMs();
+        const target =
+          visibleCards.find((card) => card.classList.contains("is-live")) ||
+          visibleCards.reduce((closest, card) => {
+            const distanceFromSession = (candidate: HTMLElement) => {
+              const start = Date.parse(candidate.dataset.start || "");
+              const end = Date.parse(candidate.dataset.end || "");
+              if (!Number.isFinite(start) || !Number.isFinite(end)) {
+                return Number.POSITIVE_INFINITY;
+              }
+              if (now < start) return start - now;
+              if (now >= end) return now - end;
+              return 0;
+            };
+            return distanceFromSession(card) < distanceFromSession(closest)
+              ? card
+              : closest;
+          });
+
+        target.scrollIntoView({
+          behavior: window.matchMedia("(prefers-reduced-motion: reduce)")
+            .matches
+            ? "auto"
+            : "smooth",
+          block: "center",
+        });
+      };
       const refreshLiveSessions = () => {
         markLiveCards(cards, currentTimeMs());
         updateScrollButton();
@@ -833,6 +901,10 @@ function formatPeopleForSession(session: SessionListItem) {
       refreshTimeRanges();
       applyFilters({ replace: true });
       updateScrollButton();
+      requestAnimationFrame(() => {
+        scrollToInitialSession();
+        updateBackToFiltersButton();
+      });
     })();
   </script>
 </PageLayout>
