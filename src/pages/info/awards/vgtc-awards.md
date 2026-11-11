@@ -13,7 +13,7 @@ Chair: Rita Borgo
 
 ### Tingying He, Université Paris-Saclay
 
-The dissertation makes a significant contribution to visualization by refram-ing pattern as a composite visual variable and establishing a systematic design space for its use in data encoding. The work combines foundational theoretical development with rigorous empirical studies demonstrating the effectiveness of geometric and iconic patterns, including their potential for more accessible visualization. The work introduces BeauVis, a validated and reusable scale for measuring the aesthetic pleasure of visual representations, providing the community with an important methodological instrument. Together, these contributions demonstrate methodological rigor, and practical relevance, sup-ported by a strong publication record and scholarly impact.
+The dissertation makes a significant contribution to visualization by refram-ing pattern as a composite visual variable and establishing a systematic design space for its use in data encoding. The work combines foundational theoretical development with rigorous empirical studies demonstrating the effectiveness of geometric and iconic patterns, including their potential for more accessible visualization. The work introduces BeauVis, a validated and reusable scale for measuring the aesthetic pleasure of visual representations, providing the community with an important methodological instrument. Together, these contributions demonstrate methodological rigor, and practical relevance, supported by a strong publication record and scholarly impact.
 
 **Honorable Mentions**:
 
@@ -35,7 +35,7 @@ The 2026 IEEE VGTC Visualization Significant New Researcher Award goes to Cindy 
 
 ### Laura Garrison, University of Bergen
 
-The 2026 IEEE VGTC Visualization Significant New Researcher Award goes to Laura Garrison, in recognition of the diversity, novelty, and interdisciplinary nature of her work that advances and expands the disciplinary boundaries of visualization re-search. Laura’s research broadens our view of not only how we visualize data, but also why certain visual strategies work, for whom, and under which assumptions.
+The 2026 IEEE VGTC Visualization Significant New Researcher Award goes to Laura Garrison, in recognition of the diversity, novelty, and interdisciplinary nature of her work that advances and expands the disciplinary boundaries of visualization research. Laura’s research broadens our view of not only how we visualize data, but also why certain visual strategies work, for whom, and under which assumptions.
 
 ## VGTC Technical Achievement Award
 

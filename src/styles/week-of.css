@@ -329,9 +329,29 @@
   }
 
   .sessions-day-header {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
     position: sticky;
     top: 70px;
     z-index: 20;
+    margin-bottom: 0.5rem;
+    border: 0;
+    border-bottom: 2px solid var(--color-gray-900);
+    border-radius: 0;
+    padding: 0.5rem 0;
+    background: white;
+  }
+
+  .sessions-day-header h2 {
+    font-size: 1.15rem;
+    color: var(--color-gray-900);
+  }
+
+  .sessions-day-header p {
+    margin: 0;
+    color: var(--color-gray-700);
+    font-size: 0.95rem;
   }
 }
 
@@ -1405,6 +1425,65 @@
   .sessions-flat-list,
   .papers-grid {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 767px) {
+  .program-sessions .sessions-day-content {
+    gap: 0.35rem;
+  }
+
+  .program-sessions .sessions-time-group {
+    gap: 0.25rem;
+    margin-bottom: 0.55rem;
+  }
+
+  .program-sessions .sessions-time-heading {
+    padding-bottom: 0.1rem;
+    border-bottom-width: 1px;
+    font-size: 0.9rem;
+  }
+
+  .program-sessions .program-card {
+    gap: 0.15rem;
+    border-radius: 0.5rem;
+    box-shadow: none;
+  }
+
+  .program-sessions .program-card__header {
+    min-height: 0;
+    padding: 0.45rem 0.65rem;
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+
+  .program-sessions .program-card__title-link {
+    font-size: 1.05rem;
+    line-height: 1.25;
+  }
+
+  .program-sessions .program-card__eyebrow {
+    font-size: 0.68rem;
+  }
+
+  .program-sessions .program-card__body {
+    gap: 0.2rem;
+    padding: 0 0.65rem 0.5rem;
+  }
+
+  .program-sessions .program-card__people {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .program-sessions .program-card__people-values {
+    min-width: 0;
+  }
+
+  .program-sessions .program-card__people,
+  .program-sessions .program-card__note,
+  .program-sessions .program-card__links {
+    font-size: 0.8rem;
+    line-height: 1.3;
   }
 }
 
