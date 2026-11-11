@@ -13,7 +13,7 @@ Chair: Rita Borgo
 
 ### Tingying He, Université Paris-Saclay
 
-The dissertation makes a significant contribution to visualization by refram-ing pattern as a composite visual variable and establishing a systematic design space for its use in data encoding. The work combines foundational theoretical development with rigorous empirical studies demonstrating the effectiveness of geometric and iconic patterns, including their potential for more accessible visualization. The work introduces BeauVis, a validated and reusable scale for measuring the aesthetic pleasure of visual representations, providing the community with an important methodological instrument. Together, these contributions demonstrate methodological rigor, and practical relevance, sup-ported by a strong publication record and scholarly impact.
+The dissertation makes a significant contribution to visualization by refram-ing pattern as a composite visual variable and establishing a systematic design space for its use in data encoding. The work combines foundational theoretical development with rigorous empirical studies demonstrating the effectiveness of geometric and iconic patterns, including their potential for more accessible visualization. The work introduces BeauVis, a validated and reusable scale for measuring the aesthetic pleasure of visual representations, providing the community with an important methodological instrument. Together, these contributions demonstrate methodological rigor, and practical relevance, supported by a strong publication record and scholarly impact.
 
 **Honorable Mentions**:
 
