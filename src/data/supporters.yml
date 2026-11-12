@@ -124,6 +124,10 @@
       image: /assets/satellite/PEPR-200-wide.jpg
     - name: "Interactive Media Lab Dresden"
       image: /assets/satellite/iml.jpg
+    - name: "Inria"
+      image: /assets/satellite/INRIA-logo-red-200.png
+    - name: "Universite Paris-Saclay"
+      image: /assets/satellite/UPS-200.png
 #  - category: VISAP
 #    image_size: 140
 #    supporters:
