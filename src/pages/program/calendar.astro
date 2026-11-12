@@ -664,7 +664,6 @@ const frontmatter = {
     <div class="calendar-timeline-scroll">
       <div
         class="calendar-timeline"
-        role="list"
         aria-label="Program calendar sessions with time axis"
         style={`--calendar-day-count: ${dayGroups.length}; --calendar-column-count: ${dayGroups.length}; --timeline-height: ${timelineHeightPx}px; --timeline-start-minute: ${timelineStartMinute}; --timeline-minute-span: ${timelineMinuteSpan};`}
       >
@@ -755,12 +754,10 @@ const frontmatter = {
                       typeColors[session.eventType] || "#6b7280";
                     const fgColor = textColorFor(accentHex);
                     return (
-                      <button
-                        type="button"
+                      <a
                         class="calendar-session-block"
-                        role="listitem"
                         data-session-card
-                        data-session-href={sessionHref}
+                        href={sessionHref}
                         data-session-key={sessionKey}
                         data-cluster-key={session.clusterKey}
                         data-cluster-top-minute={session.clusterTopMinute}
@@ -793,7 +790,7 @@ const frontmatter = {
                             {displayRoomName(session.room)}
                           </span>
                         </span>
-                      </button>
+                      </a>
                     );
                   })}
 
@@ -831,7 +828,6 @@ const frontmatter = {
             data-day-group-container
             data-day-group={dayGroup.dayKey}
             hidden
-            role="list"
             aria-label={`Program sessions by room for ${dayGroup.weekdayLabel}, ${dayGroup.dateLabel}`}
             style={`--calendar-day-count: ${dayGroup.rooms.length}; --calendar-column-count: ${dayGroup.rooms.length}; --timeline-height: ${timelineHeightPx}px; --timeline-start-minute: ${timelineStartMinute}; --timeline-minute-span: ${timelineMinuteSpan};`}
           >
@@ -909,12 +905,10 @@ const frontmatter = {
                       const fgColor = textColorFor(accentHex);
 
                       return (
-                        <button
-                          type="button"
+                        <a
                           class="calendar-session-block"
-                          role="listitem"
                           data-session-card
-                          data-session-href={sessionHref}
+                          href={sessionHref}
                           data-session-key={`${session.eventSlug}-${roomGroup.roomName}`}
                           data-cluster-key={`${session.clusterKey}-${roomGroup.roomName}`}
                           data-cluster-top-minute={session.clusterTopMinute}
@@ -948,7 +942,7 @@ const frontmatter = {
                               {displayRoomName(session.room)}
                             </span>
                           </span>
-                        </button>
+                        </a>
                       );
                     })}
 
@@ -976,7 +970,6 @@ const frontmatter = {
 
     <div
       class="calendar-mobile-list"
-      role="list"
       aria-label="Program calendar sessions mobile list"
     >
       {
@@ -995,12 +988,10 @@ const frontmatter = {
 
             <div class="calendar-day-content">
               {dayGroup.sessions.map((session) => (
-                <button
-                  type="button"
+                <a
                   class="calendar-session"
-                  role="listitem"
                   data-session-card
-                  data-session-href={withBaseURL(
+                  href={withBaseURL(
                     `/program/session/${session.eventSlug}`,
                   )}
                   data-type={session.eventType}
@@ -1041,7 +1032,7 @@ const frontmatter = {
                       Chair: {session.chairs.join(", ")}
                     </p>
                   )}
-                </button>
+                </a>
               ))}
             </div>
           </section>
@@ -1120,9 +1111,6 @@ const frontmatter = {
       );
       const filterButtons = Array.from(
         root.querySelectorAll<HTMLButtonElement>("[data-type-filter]"),
-      );
-      const sessionLinkButtons = Array.from(
-        root.querySelectorAll<HTMLButtonElement>("[data-session-href]"),
       );
       const timeAxisTicks = Array.from(
         root.querySelectorAll<HTMLElement>(".calendar-time-tick"),
@@ -1656,8 +1644,12 @@ const frontmatter = {
               const key = bar.getAttribute("data-session-key") || "";
               const accent =
                 bar.style.getPropertyValue("--session-accent") || "#6b7280";
-              const tab = document.createElement("button");
-              tab.type = "button";
+              const tab = document.createElement("a");
+              tab.href = bar.getAttribute("href") || "#";
+              tab.setAttribute(
+                "aria-label",
+                bar.getAttribute("data-session-title") || "Session",
+              );
               tab.className = "cluster-overlay-tab";
               tab.setAttribute("data-overlay-tab", "");
               tab.setAttribute("data-session-key", key);
@@ -1666,10 +1658,6 @@ const frontmatter = {
               tab.addEventListener("mouseenter", () => {
                 cancelHide();
                 fillOverlay(key);
-              });
-              tab.addEventListener("click", () => {
-                const href = bar.getAttribute("data-session-href");
-                if (href) window.location.href = href;
               });
               overlayTabs.appendChild(tab);
             }
@@ -1689,8 +1677,8 @@ const frontmatter = {
           const bar = column.querySelector<HTMLElement>(
             `[data-session-key="${activeOverlaySessionKey}"]`,
           );
-          const href = bar?.getAttribute("data-session-href");
-          if (href) window.location.href = href;
+          const href = bar?.getAttribute("href");
+          if (href) navigateTo(href, event);
         });
 
         const allBars = Array.from(
@@ -1874,13 +1862,12 @@ const frontmatter = {
         }
       }
 
-      for (const button of sessionLinkButtons) {
-        button.addEventListener("click", () => {
-          const href = button.getAttribute("data-session-href");
-          if (href) {
-            window.location.href = href;
-          }
-        });
+      function navigateTo(href: string, event: MouseEvent) {
+        if (event.shiftKey || event.metaKey || event.ctrlKey) {
+          window.open(href, "_blank", "noopener");
+        } else {
+          window.location.href = href;
+        }
       }
 
       const updateScrollButton = setupScrollToLive(
