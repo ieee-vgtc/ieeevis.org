@@ -9,6 +9,11 @@
 #   buttonText: "Registration"
 #   buttonUrl: "/info/registration-and-travel/conference-registration"
 
+- title: "VSC Town Hall Announcements"
+  image: townhall.png
+  buttonText: "Future VIS Plans"
+  buttonUrl: "/assets/VSC_Townhall_2026.pdf"
+
 - title: "Venue Map: Find Your Way at VIS"
   image: "venue-map.png"
   buttonText: "Boston Venue Map"
