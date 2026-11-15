@@ -290,7 +290,7 @@ const DISCUSSION_SECTION_ID = "discussion";
 
     {
       videoEmbedUrl && (
-        <div class="mb-6">
+        <div class="session-video mb-6">
           <h2>Video</h2>
           <AuthGate label="video">
             <div class="video-embed not-prose">
@@ -792,6 +792,13 @@ const DISCUSSION_SECTION_ID = "discussion";
   }
   .paper-bookmark-btn .material-icons {
     font-size: 1.3rem;
+  }
+
+  /* Video section - same column as the other sections */
+  .session-video {
+    max-width: 62rem;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   /* Video embed - responsive 16:9 */
