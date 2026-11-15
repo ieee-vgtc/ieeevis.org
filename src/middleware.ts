@@ -51,9 +51,8 @@ export const onRequest: MiddlewareHandler = async (context, next) => {
       "frame-ancestors 'none'",
       "form-action 'self'",
 
-      // VIDEO EMBEDS (paper video section) - commented out along with that
-      // section until it's re-enabled; re-add when it ships:
-      // "frame-src 'self' https://www.youtube.com https://iframe.mediadelivery.net",
+      // VIDEO EMBEDS - session recordings on the paper and session pages
+      "frame-src 'self' https://www.youtube-nocookie.com https://www.youtube.com",
 
       // IMAGES — bsky.tech.ieeevis.org serves proxied avatars/images for the
       // paper-page Bluesky discussions; cdn.bsky.app serves them for threads

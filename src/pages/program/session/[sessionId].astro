@@ -3,6 +3,7 @@ import ProgramPeopleList from "../../../components/ProgramPeopleList.astro";
 import PageLayout from "../../../layouts/PageLayout.astro";
 import AwardBadge from "../../../components/AwardBadge.astro";
 import TimeRange from "../../../components/TimeRange.astro";
+import AuthGate from "../../../components/AuthGate.astro";
 import BlueskyDiscussion from "../../../components/BlueskyDiscussion";
 import { fetchAllPapers, fetchAllSessions } from "../../../utils/paperData";
 import {
@@ -20,6 +21,7 @@ import { displayRoomName } from "../../../utils/week-of-utils";
 import { getProgramEventTypeLabel } from "../../../utils/programEventTypeLabel";
 import { withBaseURL } from "../../../utils/withBaseURL";
 import { venueRoomHref, venueSpaceOf } from "../../../utils/venueLink";
+import { youtubeEmbedUrl } from "../../../utils/youtube";
 
 // The site runs output: "server" (needed for the Auth0 callback route), which
 // makes every page dynamic by default and silently ignores getStaticPaths()
@@ -106,6 +108,9 @@ const presentations = [...session.time_slots]
 // Local test data only has presenter names.
 const presentersOf = (slot: ProgramTimeSlot): ProgramPerson[] =>
   slot.presenters ?? slot.contributors?.map((name) => ({ name })) ?? [];
+
+// The session's recording on YouTube.
+const videoEmbedUrl = youtubeEmbedUrl(session.youtube_url);
 
 const sessionPageId =`${session.event_prefix}-${session.session_id}`;
 const venueHref = venueRoomHref(
@@ -282,6 +287,25 @@ const DISCUSSION_SECTION_ID = "discussion";
         )
       }
     </header>
+
+    {
+      videoEmbedUrl && (
+        <div class="mb-6">
+          <h2>Video</h2>
+          <AuthGate label="video">
+            <div class="video-embed not-prose">
+              <iframe
+                src={videoEmbedUrl}
+                title={`Video for ${session.title}`}
+                loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              />
+            </div>
+          </AuthGate>
+        </div>
+      )
+    }
 
     <div>
       {
@@ -768,5 +792,21 @@ const DISCUSSION_SECTION_ID = "discussion";
   }
   .paper-bookmark-btn .material-icons {
     font-size: 1.3rem;
+  }
+
+  /* Video embed - responsive 16:9 */
+  .video-embed {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+  }
+
+  .video-embed iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 6px;
   }
 </style>
