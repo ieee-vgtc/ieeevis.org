@@ -109,8 +109,16 @@ const presentations = [...session.time_slots]
 const presentersOf = (slot: ProgramTimeSlot): ProgramPerson[] =>
   slot.presenters ?? slot.contributors?.map((name) => ({ name })) ?? [];
 
-// The session's recording on YouTube.
-const videoEmbedUrl = youtubeEmbedUrl(session.youtube_url);
+// The session's recording on YouTube. A recording can cover a whole day in
+// the room, so start it at the session's first presentation. Sessions have no
+// offset of their own, only their presentations (slots.youtube_start_time).
+const startTimes = session.time_slots
+  .map((slot) => slot.youtube_start_time)
+  .filter((start): start is number => start != null && start >= 0);
+const videoEmbedUrl = youtubeEmbedUrl(
+  session.youtube_url,
+  startTimes.length ? Math.min(...startTimes) : null,
+);
 
 // Where a presentation starts in the recording, for its "Watch" button.
 const watchFrom = (slot: ProgramTimeSlot) => {
