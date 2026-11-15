@@ -596,7 +596,7 @@ menu:
             description: "Information on the IEEE VIS governance structure"
             columns:
               - links:
-                  - text: "IEEE Governance Structure"
+                  - text: "IEEE VIS Governance Structure"
                     url: "/governance/IEEE-governance-structure"
                   - text: "Best Paper Process"
                     url: "/governance/best-paper-process"

@@ -1,5 +1,5 @@
 ---
-title: IEEE Governance Structure
+title: IEEE VIS Charter
 description: Learn about the IEEE VIS governance structure, outlined in the IEEE VIS Charter, unifying VAST, InfoVis, and SciVis.
 contact: vsc@ieeevis.org
 layout: /src/layouts/PageLayout.astro
