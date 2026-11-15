@@ -112,6 +112,21 @@ const presentersOf = (slot: ProgramTimeSlot): ProgramPerson[] =>
 // The session's recording on YouTube.
 const videoEmbedUrl = youtubeEmbedUrl(session.youtube_url);
 
+// Where a presentation starts in the recording, for its "Watch" button.
+const watchFrom = (slot: ProgramTimeSlot) => {
+  const start = slot.youtube_start_time;
+  if (!videoEmbedUrl || start == null) return null;
+  const src = youtubeEmbedUrl(session.youtube_url, start);
+  if (!src) return null;
+  const url = new URL(src);
+  url.searchParams.set("autoplay", "1");
+  const h = Math.floor(start / 3600);
+  const m = Math.floor((start % 3600) / 60);
+  const sec = String(Math.floor(start % 60)).padStart(2, "0");
+  const label = h ? `${h}:${String(m).padStart(2, "0")}:${sec}` : `${m}:${sec}`;
+  return { src: url.toString(), label };
+};
+
 const sessionPageId =`${session.event_prefix}-${session.session_id}`;
 const venueHref = venueRoomHref(
   session.track,
@@ -295,6 +310,7 @@ const DISCUSSION_SECTION_ID = "discussion";
           <AuthGate label="video">
             <div class="video-embed not-prose">
               <iframe
+                data-session-video
                 src={videoEmbedUrl}
                 title={`Video for ${session.title}`}
                 loading="lazy"
@@ -354,6 +370,20 @@ const DISCUSSION_SECTION_ID = "discussion";
           >
             <p class="program-presentation-time">
               <TimeRange start={slot.time_start} end={slot.time_end} />
+              {watchFrom(slot) && (
+                <button
+                  type="button"
+                  class="watch-button"
+                  data-watch-src={watchFrom(slot)!.src}
+                  aria-label={`Watch “${slot.title}” in the session video, from ${watchFrom(slot)!.label}`}
+                >
+                  <i class="material-icons" aria-hidden="true">play_arrow</i>
+                  Watch
+                  <span class="watch-button__time">
+                    from {watchFrom(slot)!.label}
+                  </span>
+                </button>
+              )}
             </p>
             {slot.uid ? (
               <h3>
@@ -531,6 +561,35 @@ const DISCUSSION_SECTION_ID = "discussion";
       font-size: 0.82rem;
     }
 
+    .watch-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      margin-left: 0.75rem;
+      padding: 0.1rem 0.6rem;
+      border: 1px solid var(--color-accent);
+      border-radius: 999px;
+      background: none;
+      color: var(--color-accent);
+      font: inherit;
+      cursor: pointer;
+    }
+
+    .watch-button:hover,
+    .watch-button:focus-visible {
+      background: var(--color-accent);
+      color: #fff;
+    }
+
+    .watch-button .material-icons {
+      font-size: 1rem;
+      margin-left: -0.2rem;
+    }
+
+    .watch-button__time {
+      font-weight: 400;
+    }
+
     .program-presentation-authors,
     .program-presentation-contrib {
       margin: 0;
@@ -685,6 +744,24 @@ const DISCUSSION_SECTION_ID = "discussion";
     markLiveCards,
     setupScrollToLive,
   } from "../../../utils/liveNow";
+
+  // "Watch" buttons cue the session video to that presentation and play it.
+  // Signed out, the player is hidden behind the sign-in prompt, which the
+  // scroll then brings into view instead.
+  const sessionVideo = document.querySelector<HTMLIFrameElement>(
+    "[data-session-video]",
+  );
+  document
+    .querySelectorAll<HTMLButtonElement>("[data-watch-src]")
+    .forEach((button) => {
+      button.addEventListener("click", () => {
+        if (!sessionVideo) return;
+        sessionVideo.src = button.dataset.watchSrc!;
+        sessionVideo
+          .closest(".session-video")
+          ?.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    });
 
   // Highlight the talk happening now and offer a button to jump to it.
   const liveCards = Array.from(
