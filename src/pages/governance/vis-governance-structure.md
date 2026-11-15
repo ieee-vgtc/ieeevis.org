@@ -1,12 +1,12 @@
 ---
-title: IEEE Governance Structure
+title: IEEE VIS Governance Structure
 description: Learn about the IEEE VIS governance structure, outlined in the IEEE VIS Charter, unifying VAST, InfoVis, and SciVis.
 contact: vsc@ieeevis.org
 layout: /src/layouts/PageLayout.astro
 active_nav: "Organization & History"
 ---
 
-## IEEE Governance Structure
+## IEEE VIS Governance Structure
 
 The IEEE VIS Governance Structure is described in the IEEE VIS Charter. This charter was written to unify the three V-I-S conferences: VAST, InfoVis, and SciVis in 2020. It replaced the IEEE VIS Executive Committee (VEC) Charter of 2015. It was guided by the VIS Restructuring reports delivered to the Phoenix and
 Berlin meetings, the reVISe committee Amended Recommendations (Area Model, Governance, Keywords, Transition Plan) of October 2019 (presented in Vancouver) and subsequent work by the reVISe committee, which has delivered a series of concrete proposals for an area model and governance structure for the new conference.
