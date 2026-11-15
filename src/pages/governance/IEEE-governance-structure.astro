@@ -1,0 +1,19 @@
+---
+// This page used to live at /governance/IEEE-governance-structure and that URL
+// is linked from emails and other sites. The site is static (S3/CloudFront),
+// so there is no server-side 301; a meta refresh plus canonical link is the
+// closest option.
+const target = `${import.meta.env.BASE_URL}/governance/vis-governance-structure`;
+---
+
+<html lang="en">
+  <head>
+    <title>Redirecting…</title>
+    <meta name="robots" content="noindex" />
+    <link rel="canonical" href={target} />
+    <meta http-equiv="refresh" content={`0; url=${target}`} />
+  </head>
+  <body>
+    <p>Redirecting to <a href={target}>{target}</a>…</p>
+  </body>
+</html>

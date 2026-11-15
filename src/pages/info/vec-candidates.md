@@ -10,7 +10,7 @@ active_nav: "Organization & History"
 
 The VIS Executive Committee (VEC) oversees the planning and success of IEEE VIS. The VEC solicits bids for future VIS conferences, is involved in their planning, and evaluates how well each VIS has achieved its objectives. The VEC makes proposals for change for ratification by the VSC, and implements improvements to better meet conference objectives. It approves associated events, proposes most OC positions, and works with the OC to deliver the conference.
 
-The VEC provides oversight and planning for the VIS conference as described in the [VIS Charter](/year/2026/governance/IEEE-governance-structure).
+The VEC provides oversight and planning for the VIS conference as described in the [VIS Charter](/year/2026/governance/vis-governance-structure).
 
 The 2026 candidates for the VEC are:
 

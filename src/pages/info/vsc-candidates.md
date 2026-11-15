@@ -10,7 +10,7 @@ active_nav: "Organization & History"
 
 The VIS Steering Committee (VSC) provides scientific and organizational oversight of IEEE VIS. It is the highest level committee at IEEE VIS and develops long term strategy and policy, appoints scientific content chairs, manages relationships with journals, ratifies specified VEC appointments and decisions, and oversees the evolution of the area model that defines the conference.
 
-The VSC provides oversight and planning for the VIS conference as described in the [VIS Charter](/year/2026/governance/IEEE-governance-structure).
+The VSC provides oversight and planning for the VIS conference as described in the [VIS Charter](/year/2026/governance/vis-governance-structure).
 
 The 2026 candidates for the VSC are:
 

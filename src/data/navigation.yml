@@ -597,7 +597,7 @@ menu:
             columns:
               - links:
                   - text: "IEEE VIS Governance Structure"
-                    url: "/governance/IEEE-governance-structure"
+                    url: "/governance/vis-governance-structure"
                   - text: "Best Paper Process"
                     url: "/governance/best-paper-process"
                   - text: "VSC Mission Statement"
