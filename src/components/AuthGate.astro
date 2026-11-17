@@ -11,6 +11,11 @@
  * correct for the common case of a signed-out visitor, and avoiding a flash
  * of gated content for a signed-in one.
  */
+
+// Set to false to turn gating off site-wide: every AuthGate then renders its
+// content directly, with no sign-in prompt.
+const AUTH_GATE_ENABLED = false;
+
 interface Props {
   label: string;
 }
@@ -18,6 +23,10 @@ interface Props {
 const { label } = Astro.props;
 ---
 
+{!AUTH_GATE_ENABLED ? (
+  <slot />
+) : (
+<>
 <div class="auth-gate" data-auth-gate role="note">
   <svg
     class="auth-gate__icon"
@@ -41,6 +50,8 @@ const { label } = Astro.props;
 <div data-auth-gate-content hidden>
   <slot />
 </div>
+</>
+)}
 
 <style>
   .auth-gate {
