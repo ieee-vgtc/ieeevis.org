@@ -46,3 +46,7 @@ fetch_table papers poster_list.json "event_prefix=eq.v-poster"
 
 # for author bluesky handles
 fetch_table bsky_handles bsky_handle_list.json "" "email,handle,did"
+
+# The Bluesky discussion posts, which paper and session pages read straight
+# from Bluesky.
+fetch_table bsky_threads bsky_thread_list.json "status=eq.posted" "slot_id,paper_uuid,post_uri"

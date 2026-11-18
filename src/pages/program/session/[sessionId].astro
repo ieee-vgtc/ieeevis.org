@@ -115,7 +115,7 @@ const roomLabel =
   venueSpace && venueSpace.roomId !== session.track
     ? venueSpace.name
   : displayRoomName(session.room_name || "TBA");
-const discussionUri = sessionDiscussionUri(sessionPageId);
+const discussionUri = sessionDiscussionUri(sessionPageId, session.time_slots);
 
 const eventTypeLabel = getProgramEventTypeLabel(event.event_type || "other");
 const programUrl = withBaseURL(
