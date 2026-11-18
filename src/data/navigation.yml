@@ -562,18 +562,6 @@ menu:
                     url: "/info/history/keynote-capstone"
                   - text: "List of Tutorials"
                     url: "/info/history/tutorials"
-          - heading: "Upcoming Years"
-            description: "IEEE VIS in the upcoming years"
-            columns:
-              - links:
-                  - text: "How to Host IEEE VIS"
-                    # description: "Guidelines to bid for a future location of IEEE VIS"
-                    url: "/governance/bids"
-                  - text: "Being General Chair of IEEE VIS"
-                    # description: "The IEEE VIS General Chair role"
-                    url: "/governance/generalChairs"
-
-      - subsections:
           - heading: "Committees"
             description: "IEEE VIS committees"
             columns:
@@ -590,6 +578,20 @@ menu:
                     url: "/info/committees/area-committee"
                   # - text: "reVISe 1.1"
                   #   url: "https://ieeevis.org/year/2025/blog/vis-2025-revise"
+      - subsections:
+          - heading: "Upcoming Years"
+            description: "IEEE VIS in the upcoming years"
+            columns:
+              - links:
+                  - text: "2027 in Chicago, Illinois, USA"
+                  - text: "2028 in Seoul, South Korea"
+                  - text: "2029 in Knoxville, TN, USA"
+                  - text: "2030 in Salt Lake City, UT, USA"
+                  - text: "2031 in Atlanta, GA, USA"
+                  - text: "How to Host IEEE VIS"
+                    url: "/governance/bids"
+                  - text: "Being General Chair of IEEE VIS"
+                    url: "/governance/generalChairs"
 
       - subsections:
           - heading: "Governance Documents"
