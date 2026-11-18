@@ -540,7 +540,7 @@ const eventNoun = eventType.toLowerCase();
                 )}
                 {supplementalIsText && (
                   <li>
-                    <AuthGate label="supplemental material">
+                    {/* <AuthGate label="supplemental material"> */}
                       <b>Supplemental Material:</b>{" "}
                       {supplementalParts.map((part) =>
                         part.href ? (
@@ -555,7 +555,7 @@ const eventNoun = eventType.toLowerCase();
                           part.text
                         ),
                       )}
-                    </AuthGate>
+                    {/* </AuthGate> */}
                   </li>
                 )}
                 {paper.doi && (
