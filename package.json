@@ -13,6 +13,7 @@
     "astro": "astro",
     "prepare": "husky",
     "check-frontmatter": "vite-node src/scripts/check-frontmatter.ts",
+    "get-bsky-discussions": "vite-node src/scripts/get-bsky-discussions.ts",
     "convert-early-program": "vite-node src/scripts/convert-early-program.ts && prettier --write src/data/program_test/session_list.json src/data/program_test/paper_list.json"
   },
   "devDependencies": {
