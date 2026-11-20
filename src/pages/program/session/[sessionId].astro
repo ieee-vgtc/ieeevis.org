@@ -5,10 +5,7 @@ import AwardBadge from "../../../components/AwardBadge.astro";
 import TimeRange from "../../../components/TimeRange.astro";
 import BlueskyDiscussion from "../../../components/BlueskyDiscussion";
 import { fetchAllPapers, fetchAllSessions } from "../../../utils/paperData";
-import {
-  hasOwnDiscussion,
-  sessionDiscussionId,
-} from "../../../utils/discussionSlots";
+import { sessionDiscussionUri } from "../../../utils/discussions";
 import type { Paper } from "../../../types/paper";
 import type {
   ProgramPerson,
@@ -118,9 +115,7 @@ const roomLabel =
   venueSpace && venueSpace.roomId !== session.track
     ? venueSpace.name
   : displayRoomName(session.room_name || "TBA");
-const discussionId =
-  sessionDiscussionId(event.event_type || "", sessionPageId) ??
-  presentations.find(hasOwnDiscussion)?.slot_id;
+const discussionUri = sessionDiscussionUri(sessionPageId, session.time_slots);
 
 const eventTypeLabel = getProgramEventTypeLabel(event.event_type || "other");
 const programUrl = withBaseURL(
@@ -272,7 +267,7 @@ const DISCUSSION_SECTION_ID = "discussion";
       }
 
       {
-        discussionId && (
+        discussionUri && (
           <a
             class="button button-inverse paper-jump-button"
             href={`#${DISCUSSION_SECTION_ID}`}
@@ -424,12 +419,11 @@ const DISCUSSION_SECTION_ID = "discussion";
     </div>
 
     {
-      discussionId && (
+      discussionUri && (
         <div id={DISCUSSION_SECTION_ID} class="paper-section paper-discussion">
           <BlueskyDiscussion
             showPost={false}
-            paperId={discussionId}
-            sessionStart={session.time_start}
+            atUri={discussionUri}
             client:load
           />
         </div>

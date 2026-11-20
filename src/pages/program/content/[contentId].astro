@@ -10,7 +10,10 @@ import { fetchAllPapers, fetchAllPosters } from "../../../utils/paperData";
 import { features } from "../../../config/pages-allow-list";
 import { withBaseURL } from "../../../utils/withBaseURL";
 import { getBskyHandle } from "../../../utils/bskyProfiles";
-import { sessionDiscussionId } from "../../../utils/discussionSlots";
+import {
+  paperDiscussionUri,
+  sessionDiscussionPageId,
+} from "../../../utils/discussions";
 import { ogDescription } from "../../../utils/ogDescription";
 import { displayRoomName } from "../../../utils/week-of-utils";
 import { venueRoomHref } from "../../../utils/venueLink";
@@ -277,19 +280,21 @@ const frontmatter = {
 };
 
 const DISCUSSION_SECTION_ID = "discussion";
-// The announce bot posts a thread for each paper slot. A paper without a slot of
-// its own, such as a workshop or challenge paper, is discussed in its event's
-// session thread, which the page links to instead of embedding.
+// The announce bot posted a thread for each paper slot. A paper without a slot
+// of its own, such as a workshop or challenge paper, was discussed in its
+// event's session thread, which the page links to instead of embedding.
+const discussionUri = paperDiscussionUri(paper.id);
 const eventSession = presentation ? undefined : paperEvent?.sessions[0];
-const eventThreadId =
+const eventThreadPageId =
   eventSession &&
-  sessionDiscussionId(
-    eventType,
+  sessionDiscussionPageId(
     `${eventSession.event_prefix}-${eventSession.session_id}`,
   );
 const eventDiscussionUrl =
-  eventThreadId &&
-  withBaseURL(`/program/session/${eventThreadId}#${DISCUSSION_SECTION_ID}`);
+  eventThreadPageId &&
+  withBaseURL(
+    `/program/session/${eventThreadPageId}#${DISCUSSION_SECTION_ID}`,
+  );
 const eventNoun = eventType.toLowerCase();
 ---
 
@@ -413,7 +418,7 @@ const eventNoun = eventType.toLowerCase();
           )
         }
         {
-          (presentation || eventDiscussionUrl) && (
+          (discussionUri || eventDiscussionUrl) && (
             <a
               class="button button-inverse paper-jump-button"
               href={`#${DISCUSSION_SECTION_ID}`}
@@ -641,18 +646,14 @@ const eventNoun = eventType.toLowerCase();
     }
 
     <!-- Bluesky discussion: thread of replies to this paper's announcement
-         post, proxied through bsky.tech.ieeevis.org so it loads on any
-         conference network. Sortable by upvotes or recency. -->
-
-    <!-- <BlueskyDiscussion showPost={false} paperId="test-bsky-9999" client:load /> -->
+         post, read straight from Bluesky. -->
     {
-      presentation ? (
+      discussionUri ? (
         <div id={DISCUSSION_SECTION_ID} class="paper-section paper-links mb-6">
           <BlueskyDiscussion
             showPost={false}
-            paperId={paper.id}
+            atUri={discussionUri}
             authorHandles={authorBskyHandles}
-            sessionStart={presentation.session.time_start}
             client:load
           />
         </div>
@@ -665,9 +666,8 @@ const eventNoun = eventType.toLowerCase();
           >
             <h2 class="mt-0">Discussion</h2>
             <p>
-              This paper is discussed together with the other papers of its{" "}
-              {eventNoun}. It opens shortly before the {eventNoun} starts. The{" "}
-              {eventNoun} is on{" "}
+              This paper was discussed together with the other papers of its{" "}
+              {eventNoun}, which was on{" "}
               <TimeRange
                 start={eventSession.time_start}
                 end={eventSession.time_end}

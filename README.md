@@ -84,6 +84,8 @@ To verify after a change: sign in, open a paper, log in with Bluesky under the d
 
 The Bluesky login itself needs nothing in Auth0: the site is a public ATProto OAuth client whose metadata is served from its own origin (`src/components/bluesky/oauth.ts`).
 
+**After the conference**: Paper and session pages no longer go through bsky-api for their discussions. They read each thread straight from the public Bluesky AppView, using the `at://` URI of its announcement post. `src/scripts/get-data.sh` downloads these URIs from the `bsky_threads` table, with the other program data. Readers can still reply and like from their own Bluesky account; guest comments are closed.
+
 ## Automatic building
 
 After your PR is merged in, GitHub Actions will automatically build the staging site using the workflow file contained in [.github/workflows/staging.yml](/.github/workflows/staging.yml).
