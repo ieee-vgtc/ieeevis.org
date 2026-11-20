@@ -17,6 +17,8 @@ export interface ProgramTimeSlot {
   time_stamp: string;
   time_start: string;
   time_end: string;
+  /** Seconds into the session's YouTube recording where this talk starts. */
+  youtube_start_time?: number | null;
   authors: ProgramPerson[];
   abstract: NullableString;
   uid: string;

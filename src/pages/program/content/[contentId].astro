@@ -14,6 +14,7 @@ import { sessionDiscussionId } from "../../../utils/discussionSlots";
 import { ogDescription } from "../../../utils/ogDescription";
 import { displayRoomName } from "../../../utils/week-of-utils";
 import { venueRoomHref } from "../../../utils/venueLink";
+import { youtubeEmbedUrl } from "../../../utils/youtube";
 import { fetchAllSessions } from "../../../utils/paperData";
 import type { Paper } from "../../../types/paper";
 import type { ProgramSession, ProgramTimeSlot } from "../../../types/program";
@@ -218,33 +219,14 @@ const eventUrl = workshopSession
       `/program/${eventType === "poster" ? "content" : "sessions"}/?type=${encodeURIComponent(eventType)}`,
     );
 
-// Video embeds are on hold until session_youtube_url / session_bunny_prerecorded_link
-// (etc.) are actually populated in the paper data. Re-enable this alongside the
-// "Video" section and .video-embed styles below once that data is available.
-// function youtubeEmbedUrl(idOrUrl: string): string {
-//   try {
-//     const url = new URL(idOrUrl);
-//     if (url.hostname.includes("youtu.be")) {
-//       return `https://www.youtube.com/embed/${url.pathname.slice(1)}`;
-//     }
-//     const id = url.searchParams.get("v");
-//     if (id) return `https://www.youtube.com/embed/${id}`;
-//     if (url.pathname.startsWith("/embed/")) return url.toString();
-//   } catch {
-//     // Not a URL - treat the input as a bare video ID.
-//   }
-//   return `https://www.youtube.com/embed/${idOrUrl}`;
-// }
-//
-// const videoEmbedUrl =
-//   (paper.session_youtube_url && youtubeEmbedUrl(paper.session_youtube_url)) ||
-//   (paper.session_youtube_prerecorded_id &&
-//     youtubeEmbedUrl(paper.session_youtube_prerecorded_id)) ||
-//   paper.session_bunny_prerecorded_link ||
-//   (paper.session_youtube_ff_id &&
-//     youtubeEmbedUrl(paper.session_youtube_ff_id)) ||
-//   paper.session_bunny_ff_link ||
-//   null;
+// The talk's recording: its session's YouTube video, cued to where the talk
+// starts in it.
+const videoEmbedUrl =
+  presentation &&
+  youtubeEmbedUrl(
+    presentation.session.youtube_url,
+    presentation.slot.youtube_start_time,
+  );
 
 const authorBskyHandles = paper.authors.flatMap(
   (a) => getBskyHandle(a.email) ?? [],
@@ -600,13 +582,10 @@ const eventNoun = eventType.toLowerCase();
       )
     }
 
-    <!-- Video: commented out until session_youtube_url / session_bunny_prerecorded_link
-         data is populated (see the matching comment in the frontmatter above). -->
-    <!--
     {
       videoEmbedUrl && (
-        <div class="mb-6">
-          <h2>Video</h2>
+        <div class="paper-section paper-links mb-6">
+          <h2 class="mt-0">Video</h2>
           <AuthGate label="video">
             <div class="video-embed not-prose">
               <iframe
@@ -621,7 +600,6 @@ const eventNoun = eventType.toLowerCase();
         </div>
       )
     }
-    -->
 
     <!-- Abstract -->
     <div class="paper-section paper-abstract mb-6">
@@ -1105,9 +1083,7 @@ const eventNoun = eventType.toLowerCase();
     text-decoration: underline;
   }
 
-  /* Video embed - responsive 16:9 (unused while the Video section above is
-     commented out; kept ready for when it's re-enabled) */
-  /*
+  /* Video embed - responsive 16:9 */
   .video-embed {
     position: relative;
     width: 100%;
@@ -1122,5 +1098,4 @@ const eventNoun = eventType.toLowerCase();
     border: 0;
     border-radius: 6px;
   }
-  */
 </style>
