@@ -42,7 +42,6 @@ menu:
                     url: "/info/call-participation/shortpapers"
                   - text: "Visions"
                     url: "/info/call-participation/visions"
-                    is_new: true
                   - text: "Posters"
                     url: "/info/call-participation/posters"
                   - text: "Tutorials"
@@ -51,7 +50,6 @@ menu:
                     url: "/info/call-participation/workshops"
                   - text: "Workshop Papers"
                     url: "/info/program/workshops"
-                    is_new: true
                   - text: "Panels"
                     url: "/info/call-participation/panels"
                   - text: "Doctoral Colloquium"
@@ -59,19 +57,15 @@ menu:
                   - text: "VISAP Submissions"
                     url: "https://visap.net/2026/"
                     is_external: true
-                    is_new: true
                   - text: "IEEE SciVis Contest Submissions"
                     url: "https://sciviscontest2026.github.io/"
                     is_external: true
-                    is_new: true
                   - text: "IEEE VAST Challenge"
                     url: "https://vast-challenge.github.io/2026/"
-                    is_new: true
                     is_external: true
                   - text: "CLUSTER Practitioners' Summit Lightning Talks"
                     url: "https://docs.google.com/forms/d/e/1FAIpQLSfSrCO17K_nqLKonilL3zvPUI403C1DHd_QMiFMAxxdzBuXjw/viewform?usp=sharing&ouid=113443580098787443355"
                     is_external: true
-                    is_new: true
                   - text: "Meetups"
                     url: "/info/call-participation/meetups"
               - heading: "Info for Contributors"
@@ -197,7 +191,6 @@ menu:
                   - text: "Venue Map"
                     description: "Floor plans and rooms at the Westin"
                     url: "/venue/"
-                    is_new: true
               - links:
                   - text: "Hotel Information"
                     description: "Where to stay"
@@ -205,7 +198,6 @@ menu:
                   - text: "Registration Planner"
                     description: "Day passes and prices at a glance"
                     url: "/register/"
-                    is_new: true
           - heading: "Satellite Events"
             heading_url: "/satellites/"
             columns:
@@ -412,7 +404,6 @@ menu:
                   - text: "CLUSTER: The Practitioners' Summit"
                     description: "A gathering for people who build, ship, and defend visualizations for a living."
                     url: "https://cluster-practitioners-summit.github.io/"
-                    is_new: true
                     is_external: true
       - subsections:
           - heading: "Community"
@@ -423,11 +414,9 @@ menu:
                   - text: "Vis Buddies"
                     description: "Connecting new and returning VIS attendees"
                     url: "/year/2026/info/community/vis-buddies/"
-                    is_new: true
                   - text: "Job Postings"
                     description: "VIS 2026 job board"
                     url: "/year/2026/info/community/jobs/"
-                    is_new: true
 
   # ---------------------------------------------------------------------------
   - dropdown: "Organization"
