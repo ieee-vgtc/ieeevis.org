@@ -194,7 +194,8 @@ const splitChairNames = (value: NullableString) =>
 // The program database links each session to the stream of its room, so it
 // also links sessions whose recording the site should not show.
 const hidesRecording = (event: ProgramEventDefinition, title: string) =>
-  event.event_type === "meetup" || /^\s*coffee break\b/i.test(title);
+  event.event_type?.toLowerCase() === "meetup" ||
+  /^\s*coffee break\b/i.test(title);
 
 function buildSessionList({
   events,
