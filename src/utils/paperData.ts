@@ -191,6 +191,11 @@ const splitChairNames = (value: NullableString) =>
     .map((name) => name.trim())
     .filter(Boolean);
 
+// The program database links each session to the stream of its room, so it
+// also links sessions whose recording the site should not show.
+const hidesRecording = (event: ProgramEventDefinition, title: string) =>
+  event.event_type === "meetup" || /^\s*coffee break\b/i.test(title);
+
 function buildSessionList({
   events,
   sessions,
@@ -301,9 +306,11 @@ function buildSessionList({
       discord_link: session.discord_url,
       // The recording: the id column first, then the URL (as conferentech
       // reads it).
-      youtube_url: session.session_youtube_id
-        ? `https://www.youtube.com/watch?v=${session.session_youtube_id}`
-        : session.session_youtube_url,
+      youtube_url: hidesRecording(event, session.session_title)
+        ? null
+        : session.session_youtube_id
+          ? `https://www.youtube.com/watch?v=${session.session_youtube_id}`
+          : session.session_youtube_url,
       description: sharedDescription(session),
       other_location: session.other_location || null,
       other_location_url: session.other_location_url || null,
