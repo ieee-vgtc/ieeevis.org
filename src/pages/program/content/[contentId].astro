@@ -586,17 +586,15 @@ const eventNoun = eventType.toLowerCase();
       videoEmbedUrl && (
         <div class="paper-section paper-links mb-6">
           <h2 class="mt-0">Video</h2>
-          <AuthGate label="video">
-            <div class="video-embed not-prose">
-              <iframe
-                src={videoEmbedUrl}
-                title={`Video for ${paper.title}`}
-                loading="lazy"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              />
-            </div>
-          </AuthGate>
+          <div class="video-embed not-prose">
+            <iframe
+              src={videoEmbedUrl}
+              title={`Video for ${paper.title}`}
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            />
+          </div>
         </div>
       )
     }
