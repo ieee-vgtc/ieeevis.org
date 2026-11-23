@@ -44,7 +44,7 @@ menu:
                     is_new: false
                   - text: "Visions"
                     url: "/info/call-participation/visions"
-                    is_new: true
+                    is_new: false
                   - text: "Posters"
                     url: "/info/call-participation/posters"
                     is_new: false
@@ -56,7 +56,7 @@ menu:
                     is_new: false
                   - text: "Workshop Papers"
                     url: "/info/program/workshops"
-                    is_new: true
+                    is_new: false
                   - text: "Panels"
                     url: "/info/call-participation/panels"
                     is_new: false
@@ -66,19 +66,19 @@ menu:
                   - text: "VISAP Submissions"
                     url: "https://visap.net/2026/"
                     is_external: true
-                    is_new: true
+                    is_new: false
                   - text: "IEEE SciVis Contest Submissions"
                     url: "https://sciviscontest2026.github.io/"
                     is_external: true
-                    is_new: true
+                    is_new: false
                   - text: "IEEE VAST Challenge"
                     url: "https://vast-challenge.github.io/2026/"
-                    is_new: true
+                    is_new: false
                     is_external: true
                   - text: "CLUSTER Practitioners' Summit Lightning Talks"
                     url: "https://docs.google.com/forms/d/e/1FAIpQLSfSrCO17K_nqLKonilL3zvPUI403C1DHd_QMiFMAxxdzBuXjw/viewform?usp=sharing&ouid=113443580098787443355"
                     is_external: true
-                    is_new: true
+                    is_new: false
                   - text: "Meetups"
                     url: "/info/call-participation/meetups"
                     is_new: false
@@ -217,7 +217,7 @@ menu:
                   - text: "Venue Map"
                     description: "Floor plans and rooms at the Westin"
                     url: "/venue/"
-                    is_new: true
+                    is_new: false
               - links:
                   - text: "Hotel Information"
                     description: "Where to stay"
@@ -226,7 +226,7 @@ menu:
                   - text: "Registration Planner"
                     description: "Day passes and prices at a glance"
                     url: "/register/"
-                    is_new: true
+                    is_new: false
           - heading: "Satellite Events"
             heading_url: "/satellites/"
             columns:
@@ -406,21 +406,21 @@ menu:
                   - text: "VISions"
                     description: "Zhu-Tian Chen and Ana Crisan"
                     url: "/info/invited-speakers/visions"
-                    is_new: true
+                    is_new: false
               - heading: "Awards and Recognitions"
                 links:
                   - text: "Paper Awards"
                     description: "Recognizing outstanding work"
                     url: "/program/content/?type=awards"
-                    is_new: true
+                    is_new: false
                   - text: "VGTC VIS Awards"
                     description: "Awarding members of the VIS community"
                     url: "/info/awards/vgtc-awards"
-                    is_new: true
+                    is_new: false
                   - text: "Test of Time Awards"
                     description: "Recognized articles whose contents are still useful"
                     url: "/info/awards/test-of-time-awards"
-                    is_new: true
+                    is_new: false
 
   - dropdown: "Events & Community"
     display: true
@@ -456,7 +456,7 @@ menu:
                   - text: "CLUSTER: The Practitioners' Summit"
                     description: "A gathering for people who build, ship, and defend visualizations for a living."
                     url: "https://cluster-practitioners-summit.github.io/"
-                    is_new: true
+                    is_new: false
                     is_external: true
       - subsections:
           - heading: "Community"
@@ -467,11 +467,11 @@ menu:
                   - text: "Vis Buddies"
                     description: "Connecting new and returning VIS attendees"
                     url: "/year/2026/info/community/vis-buddies/"
-                    is_new: true
+                    is_new: false
                   - text: "Job Postings"
                     description: "VIS 2026 job board"
                     url: "/year/2026/info/community/jobs/"
-                    is_new: true
+                    is_new: false
 
   # ---------------------------------------------------------------------------
   - dropdown: "Organization"
