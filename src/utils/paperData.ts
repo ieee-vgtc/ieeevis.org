@@ -42,6 +42,7 @@ interface RawSession {
   timeblock_id: string;
   session_chairs: RawSessionChair[] | null;
   session_youtube_url: NullableString;
+  session_youtube_id?: NullableString;
   discord_url: NullableString;
   virtual: boolean;
   event_description?: NullableString;
@@ -73,6 +74,8 @@ interface RawSlot {
   paper_type: NullableString;
   offset_start: number | null;
   offset_end: number | null;
+  /** Seconds into the session's YouTube recording where this talk starts. */
+  youtube_start_time?: number | null;
 }
 
 export const fetchAllPapers = async () => fetchAll<Paper>("paper");
@@ -188,6 +191,12 @@ const splitChairNames = (value: NullableString) =>
     .map((name) => name.trim())
     .filter(Boolean);
 
+// The program database links each session to the stream of its room, so it
+// also links sessions whose recording the site should not show.
+const hidesRecording = (event: ProgramEventDefinition, title: string) =>
+  event.event_type?.toLowerCase() === "meetup" ||
+  /^\s*coffee break\b/i.test(title);
+
 function buildSessionList({
   events,
   sessions,
@@ -296,7 +305,13 @@ function buildSessionList({
       time_start: timeblock?.start || "",
       time_end: timeblock?.end || "",
       discord_link: session.discord_url,
-      youtube_url: session.session_youtube_url,
+      // The recording: the id column first, then the URL (as conferentech
+      // reads it).
+      youtube_url: hidesRecording(event, session.session_title)
+        ? null
+        : session.session_youtube_id
+          ? `https://www.youtube.com/watch?v=${session.session_youtube_id}`
+          : session.session_youtube_url,
       description: sharedDescription(session),
       other_location: session.other_location || null,
       other_location_url: session.other_location_url || null,
@@ -363,6 +378,7 @@ function buildTimeSlots({
         time_stamp: start,
         time_start: start,
         time_end: end,
+        youtube_start_time: slot.youtube_start_time ?? null,
         authors: paper?.authors || slot.contributors || [],
         abstract: paper?.abstract || null,
         uid: slot.paper_id || "",
